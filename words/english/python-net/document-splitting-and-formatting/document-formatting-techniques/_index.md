@@ -7,8 +7,11 @@ weight: 14
 url: /python-net/document-splitting-and-formatting/document-formatting-techniques/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Document Formatting Techniques for Visual Impact
@@ -164,9 +167,13 @@ Aspose.Words allows you to export your documents to various formats, including P
 
 For further details and to access Aspose.Words for Python documentation and downloads, visit [here](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

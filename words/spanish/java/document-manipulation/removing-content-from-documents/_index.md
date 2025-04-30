@@ -1,26 +1,28 @@
 ---
-title: Cómo eliminar contenido de documentos en Aspose.Words para Java
-linktitle: Eliminar contenido de los documentos
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a eliminar contenido de documentos de Word en Java con Aspose.Words para Java. Elimine saltos de página, saltos de sección y más. Optimice el procesamiento de sus documentos.
-weight: 16
-url: /es/java/document-manipulation/removing-content-from-documents/
+"description": "Aprenda a eliminar contenido de documentos de Word en Java con Aspose.Words para Java. Elimine saltos de página, de sección y más. Optimice el procesamiento de sus documentos."
+"linktitle": "Eliminar contenido de los documentos"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Eliminar contenido de documentos en Aspose.Words para Java"
+"url": "/es/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo eliminar contenido de documentos en Aspose.Words para Java
+# Eliminar contenido de documentos en Aspose.Words para Java
 
 
 ## Introducción a Aspose.Words para Java
 
-Antes de profundizar en las técnicas de eliminación, presentemos brevemente Aspose.Words para Java. Es una API de Java que ofrece amplias funciones para trabajar con documentos de Word. Puede crear, editar, convertir y manipular documentos de Word sin problemas utilizando esta biblioteca.
+Antes de profundizar en las técnicas de eliminación, presentemos brevemente Aspose.Words para Java. Es una API de Java que ofrece amplias funciones para trabajar con documentos de Word. Con esta biblioteca, puede crear, editar, convertir y manipular documentos de Word sin problemas.
 
 ## Eliminar saltos de página
 
-Los saltos de página se utilizan a menudo para controlar el diseño de un documento. Sin embargo, puede haber casos en los que sea necesario eliminarlos. A continuación, se muestra cómo eliminar los saltos de página con Aspose.Words para Java:
+Los saltos de página se utilizan a menudo para controlar el diseño de un documento. Sin embargo, puede que en algunos casos sea necesario eliminarlos. A continuación, se explica cómo eliminarlos con Aspose.Words para Java:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -42,7 +44,7 @@ Este fragmento de código iterará a través de los párrafos del documento, ver
 
 ## Eliminar saltos de sección
 
-Los saltos de sección dividen un documento en secciones independientes con distintos formatos. Para eliminar los saltos de sección, siga estos pasos:
+Los saltos de sección dividen un documento en secciones independientes con diferente formato. Para eliminarlos, siga estos pasos:
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -53,9 +55,9 @@ for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
 
 Este código itera a través de las secciones en orden inverso, combinando el contenido de la sección actual con la última y luego eliminando la sección copiada.
 
-## Quitar pie de página
+## Eliminación de pies de página
 
-Los pies de página de los documentos de Word suelen contener números de página, fechas u otra información. Si necesita eliminarlos, puede utilizar el siguiente código:
+Los pies de página en documentos de Word suelen contener números de página, fechas u otra información. Si necesita eliminarlos, puede usar el siguiente código:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Header and footer types.docx");
@@ -70,11 +72,11 @@ for (Section section : doc.getSections()) {
 doc.save("Your Directory Path" + "RemoveContent.RemoveFooters.docx");
 ```
 
-Este código elimina todos los tipos de pies de página (primero, principal e uniforme) de cada sección del documento.
+Este código elimina todos los tipos de pie de página (primero, principal y par) de cada sección del documento.
 
-## Eliminar la tabla de contenidos
+## Eliminar la tabla de contenido
 
-Los campos de la tabla de contenidos (TOC) generan una tabla dinámica que enumera los encabezados y sus números de página. Para eliminar una tabla de contenidos, puede utilizar el siguiente código:
+Los campos de la tabla de contenido (TOC) generan una tabla dinámica que enumera los encabezados y sus números de página. Para eliminar una TOC, puede usar el siguiente código:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
@@ -82,12 +84,12 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- Este código define un método`removeTableOfContents` que elimina la tabla de contenido especificada del documento.
+Este código define un método `removeTableOfContents` que elimina la tabla de contenido especificada del documento.
 
 
 ## Conclusión
 
-En este artículo, hemos explorado cómo eliminar varios tipos de contenido de documentos de Word con Aspose.Words para Java. Ya sean saltos de página, saltos de sección, pies de página o tablas de contenido, Aspose.Words proporciona las herramientas para manipular sus documentos de manera eficaz.
+En este artículo, exploramos cómo eliminar diversos tipos de contenido de documentos de Word con Aspose.Words para Java. Ya sean saltos de página, saltos de sección, pies de página o índices, Aspose.Words proporciona las herramientas para manipular tus documentos eficazmente.
 
 ## Preguntas frecuentes
 
@@ -99,16 +101,21 @@ Para eliminar saltos de página específicos, recorra los párrafos de su docume
 
 Sí, puedes eliminar tanto los encabezados como los pies de página de tu documento siguiendo un enfoque similar al que se muestra en el artículo para pies de página.
 
-### ¿Aspose.Words para Java es compatible con los últimos formatos de documentos de Word?
+### ¿Es Aspose.Words para Java compatible con los últimos formatos de documentos de Word?
 
 Sí, Aspose.Words para Java admite los últimos formatos de documentos de Word, lo que garantiza la compatibilidad con documentos modernos.
 
 ### ¿Qué otras funciones de manipulación de documentos ofrece Aspose.Words para Java?
 
-Aspose.Words para Java ofrece una amplia gama de funciones, entre las que se incluyen la creación, edición y conversión de documentos, entre otras. Puede explorar su documentación para obtener información detallada.
+Aspose.Words para Java ofrece una amplia gama de funciones, como la creación, edición y conversión de documentos, entre otras. Puede consultar su documentación para obtener información detallada.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

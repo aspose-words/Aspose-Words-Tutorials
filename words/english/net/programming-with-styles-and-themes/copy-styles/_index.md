@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-styles-and-themes/copy-styles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Word Document Styles
@@ -93,9 +96,13 @@ The `CopyStylesFromTemplate` method will overwrite the existing styles in the ta
 ### Is Aspose.Words for .NET free to use?  
 Aspose.Words for .NET is a commercial product, but you can get a free trial from [Aspose.Words for .NET Free Trial](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

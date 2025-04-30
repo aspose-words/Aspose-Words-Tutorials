@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/pdf-to-docx/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save PDF To Word Format (Docx)
@@ -99,9 +102,13 @@ Yes, Aspose.Words for .NET is cross-platform and can be used on Windows, Linux, 
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/font-settings-default-instance/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Settings Default Instance
@@ -105,9 +108,13 @@ For support, visit the [Aspose.Words support forum](https://forum.aspose.com/c/w
 Yes, you can get a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

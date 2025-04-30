@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-styling/applying-styles-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Styles and Fonts in Documents
@@ -122,9 +125,13 @@ Aspose.Words for Java can handle documents of varying sizes and complexity. Howe
 
 In this comprehensive guide, we've explored the art of applying styles and fonts in documents using Aspose.Words for Java. Whether you're creating business reports, generating invoices, or crafting beautiful documents, mastering document formatting is crucial. With the power of Aspose.Words for Java, you have the tools to make your documents shine.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

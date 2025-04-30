@@ -7,8 +7,11 @@ weight: 1500
 url: /net/join-and-append-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Join And Append Documents
@@ -47,9 +50,13 @@ These Aspose.Words for .NET tutorials provide you with valuable resources to mas
 | [Remove Source Headers Footers](./remove-source-headers-footers/) | Learn how to remove headers and footers in Word documents using Aspose.Words for .NET. Simplify your document management with our step-by-step guide. |
 | [Unlink Headers Footers](./unlink-headers-footers/) | Learn how to unlink headers and footers in Word documents using Aspose.Words for .NET. Follow our detailed, step-by-step guide to master document manipulation. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

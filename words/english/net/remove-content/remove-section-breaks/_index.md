@@ -7,8 +7,11 @@ weight: 10
 url: /net/remove-content/remove-section-breaks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Section Breaks In Word Document
@@ -114,9 +117,13 @@ Generally, it doesn’t. However, always review your document after modification
 
 ### Sample source code for Remove Section Breaks using Aspose.Words for .NET
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

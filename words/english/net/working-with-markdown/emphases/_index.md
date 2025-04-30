@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/emphases/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Emphases
@@ -131,9 +134,13 @@ Absolutely! You can visit the [Aspose.Words support forum](https://forum.aspose.
 ### How do I get a temporary license for Aspose.Words for .NET?
 You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the full capabilities of the library.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/multi-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Multi Section
@@ -123,9 +126,13 @@ foreach (StructuredDocumentTagRangeStart tag in tags)
 
 That's it! You have successfully retrieved and processed multi-section structured document tags in your Word document using Aspose.Words for .NET.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

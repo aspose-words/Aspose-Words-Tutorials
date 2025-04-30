@@ -1,27 +1,29 @@
 ---
-title: Tabla anidada
-linktitle: Tabla anidada
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a crear tablas anidadas en documentos de Word con Aspose.Words para .NET con nuestra guía. Perfecta para generar diseños de documentos complejos mediante programación.
-weight: 10
-url: /es/net/programming-with-tables/nested-table/
+"description": "Aprenda a crear tablas anidadas en documentos de Word con Aspose.Words para .NET con nuestra guía. Ideal para generar diseños de documentos complejos mediante programación."
+"linktitle": "Tabla anidada"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Tabla anidada"
+"url": "/es/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabla anidada
 
 ## Introducción
 
-¿Alguna vez te has encontrado en la necesidad de crear una tabla anidada dentro de un documento de Word mediante programación? Ya sea que estés generando informes, facturas o cualquier tipo de documento que requiera una estructura tabular detallada, Aspose.Words para .NET puede ser tu mejor amigo. En este tutorial, profundizaremos en el proceso de creación de tablas anidadas en documentos de Word utilizando Aspose.Words para .NET. Cubriremos todo, desde los requisitos previos hasta la implementación del código final. ¡Comencemos!
+¿Alguna vez has necesitado crear una tabla anidada en un documento de Word mediante programación? Ya sea que generes informes, facturas o cualquier documento que requiera una estructura tabular detallada, Aspose.Words para .NET puede ser tu mejor aliado. En este tutorial, profundizaremos en el proceso de creación de tablas anidadas en documentos de Word con Aspose.Words para .NET. Cubriremos todo, desde los prerrequisitos hasta la implementación del código final. ¡Comencemos!
 
 ## Prerrequisitos
 
 Antes de pasar al código, necesitarás algunas cosas:
 
--  Aspose.Words para .NET: Puedes descargarlo desde[aquí](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Puedes descargarlo desde [aquí](https://releases.aspose.com/words/net/).
 - Entorno de desarrollo: Visual Studio o cualquier otro IDE de C#.
 - Conocimientos básicos de C#: comprensión de la sintaxis y los conceptos de C#.
 
@@ -29,7 +31,7 @@ Asegúrese de tenerlos configurados antes de continuar.
 
 ## Importar espacios de nombres
 
-Lo primero es lo primero: importemos los espacios de nombres necesarios. Estos espacios de nombres nos permitirán acceder a las clases y métodos necesarios para trabajar con documentos de Word.
+Primero, importemos los espacios de nombres necesarios. Estos espacios nos permitirán acceder a las clases y métodos necesarios para trabajar con documentos de Word.
 
 ```csharp
 using Aspose.Words;
@@ -38,10 +40,10 @@ using Aspose.Words.Tables;
 
 ## Paso 1: Inicializar el documento y DocumentBuilder
 
- Para comenzar, crearemos un nuevo documento de Word e inicializaremos el`DocumentBuilder` objeto que nos ayudará a construir la tabla.
+Para comenzar, crearemos un nuevo documento de Word e inicializaremos el `DocumentBuilder` objeto que nos ayudará a construir la tabla.
 
 ```csharp
-// Ruta al directorio de su documento
+// Ruta a su directorio de documentos
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Paso 2: Crear la tabla externa
 
-Ahora, vamos a crear la tabla externa. Comenzaremos insertando la primera celda y agregándole contenido.
+Ahora, creemos la tabla externa. Empezaremos insertando la primera celda y agregándole contenido.
 
 ### Paso 2.1: Insertar la primera celda de la tabla externa
 
@@ -68,9 +70,9 @@ builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 ```
 
-### Paso 2.3: Terminar la tabla exterior
+### Paso 2.3: Finalizar la tabla exterior
 
-Terminar la tabla aquí es crucial ya que nos permite comenzar la tabla anidada dentro de la primera celda.
+Terminar la tabla aquí es crucial ya que nos permite iniciar la tabla anidada dentro de la primera celda.
 
 ```csharp
 builder.EndTable();
@@ -80,7 +82,7 @@ builder.EndTable();
 
 Para crear una tabla anidada, necesitamos mover el cursor a la primera celda de la tabla externa y luego comenzar a construir la tabla interna.
 
-### Paso 3.1: Pasar a la primera celda de la tabla externa
+### Paso 3.1: Moverse a la primera celda de la tabla externa
 
 ```csharp
 builder.MoveTo(cell.FirstParagraph);
@@ -122,7 +124,7 @@ doc.Save(dataDir + "WorkingWithTables.NestedTable.docx");
 
 ## Conclusión
 
-¡Y ya está! Ha creado con éxito una tabla anidada en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita enormemente la manipulación de documentos de Word mediante programación. Ya sea que esté generando informes complejos o tablas simples, Aspose.Words para .NET lo ayudará.
+¡Y listo! Has creado correctamente una tabla anidada en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita enormemente la manipulación programática de documentos de Word. Ya sea que generes informes complejos o tablas sencillas, Aspose.Words para .NET te ayudará.
 
 ## Preguntas frecuentes
 
@@ -144,10 +146,15 @@ Aspose.Words para .NET es compatible con una amplia gama de formatos de document
 
 ### ¿Cómo puedo obtener soporte para Aspose.Words para .NET?
 
- Puede obtener ayuda de la[Foro de soporte de Aspose.Words](https://forum.aspose.com/c/words/8).
+Puede obtener ayuda de la [Foro de soporte de Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

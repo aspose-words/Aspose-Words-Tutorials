@@ -7,8 +7,11 @@ weight: 10
 url: /net/clone-and-combine-documents/cloning-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone A Word Document
@@ -123,9 +126,13 @@ While you can use Aspose.Words for .NET with a free trial, it's recommended to p
 
 Check out the [documentation](https://reference.aspose.com/words/net/) and the [Aspose community forums](https://forum.aspose.com/c/words/8) for more resources and support.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

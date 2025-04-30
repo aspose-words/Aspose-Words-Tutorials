@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/vertical-anchor/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vertical Anchor
@@ -110,9 +113,13 @@ Absolutely! Just use `TextBoxAnchor.Center` to center the text vertically within
 ### Where can I find more information about Aspose.Words for .NET?
 Check out the [Aspose.Words Documentation](https://reference.aspose.com/words/net/) for more details and guides.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

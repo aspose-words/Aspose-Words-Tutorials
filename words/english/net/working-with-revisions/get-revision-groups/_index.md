@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/get-revision-groups/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Revision Groups
@@ -109,9 +112,13 @@ Yes, you can get support from the Aspose community [here](https://forum.aspose.c
 
 You can purchase Aspose.Words for .NET [here](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 26
 url: /java/rendering-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rendering Documents using Aspose.Words Java
@@ -39,9 +42,13 @@ For any questions, support, or assistance, you can always reach out to the Aspos
 ## Rendering Documents Tutorials
 ### [Rendering Shapes in Aspose.Words for Java](./rendering-shapes/)
 Learn to render shapes in Aspose.Words for Java with this step-by-step tutorial. Create EMF images programmatically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

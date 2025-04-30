@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/apply-outline-border/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Outline Border
@@ -137,9 +140,13 @@ Absolutely! You can use any color available in the `System.Drawing.Color` class.
 ### How do I center-align the table horizontally?  
 The `table.Alignment = TableAlignment.Center;` line in the code centers the table horizontally on the page.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

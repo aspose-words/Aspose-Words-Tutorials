@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/indented-code/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Indented Code
@@ -103,9 +106,13 @@ Yes, you can customize the style with various formatting options, including font
 ### How do I open the saved document after creating it?  
 You can open the document using any Word processor like Microsoft Word or compatible software to view the styled content.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

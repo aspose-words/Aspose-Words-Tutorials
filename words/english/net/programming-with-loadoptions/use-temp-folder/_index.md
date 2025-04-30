@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-loadoptions/use-temp-folder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Temp Folder In Word Document
@@ -85,9 +88,13 @@ Yes, it can significantly improve performance by offloading some of the memory u
 ### Where can I find more information about Aspose.Words for .NET?
 You can refer to the [documentation](https://reference.aspose.com/words/net/) for more details and examples.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

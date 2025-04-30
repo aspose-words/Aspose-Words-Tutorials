@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-of-content/change-toc-tab-stops/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Toc Tab Stops In Word Document
@@ -128,9 +131,13 @@ Yes, you can specify different alignments and leader styles when adding a new ta
 ### Do I need a license to use Aspose.Words for .NET?
 Yes, you need a valid license to use Aspose.Words for .NET beyond the trial period. You can get a [temporary license](https://purchase.aspose.com/temporary-license/) or [buy one](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/auto-fit-table-to-contents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto Fit Table To Contents
@@ -108,9 +111,13 @@ Yes, but ensure you have the necessary permissions to modify the document.
 ### How do I know if the auto-fit was successful?
 Open the saved document and check the table layout. It should adjust according to the content.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

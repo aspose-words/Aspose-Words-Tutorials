@@ -7,8 +7,11 @@ weight: 15
 url: /java/document-manipulation/finding-and-replacing-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Finding and Replacing Text in Aspose.Words for Java
@@ -363,9 +366,13 @@ Yes, you can replace text inside headers and footers of your Word document. Simp
 
 The `UseLegacyOrder` option in `FindReplaceOptions` allows you to use legacy order when performing find and replace operations. This can be useful in certain scenarios where legacy order behavior is desired.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtsaveoptions/use-space-character-per-level-for-list-indentation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Space Character Per Level For List Indentation
@@ -112,9 +115,13 @@ Yes, you can modify list formatting and indentation settings at any time before 
 ### What other document formats support list indentation settings?
 Besides text files, list indentation settings can be applied to other formats such as DOCX, PDF, and HTML when using Aspose.Words.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

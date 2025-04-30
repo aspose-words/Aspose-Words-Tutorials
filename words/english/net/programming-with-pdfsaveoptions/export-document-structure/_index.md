@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/export-document-structure/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Word Document Structure to PDF Document
@@ -92,9 +95,13 @@ You can get a free trial from the [Aspose website](https://releases.aspose.com/)
 ### What should I do if I encounter issues?
 You can seek help from the [Aspose support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

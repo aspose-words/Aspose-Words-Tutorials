@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-styling/word-document-styling/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Document Styling
@@ -383,9 +386,13 @@ Aspose.Words for Java is a powerful tool that empowers Java developers to style 
 ---
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

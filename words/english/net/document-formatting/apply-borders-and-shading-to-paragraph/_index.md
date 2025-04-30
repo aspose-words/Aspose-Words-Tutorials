@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-formatting/apply-borders-and-shading-to-paragraph/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Borders And Shading To Paragraph In Word Document
@@ -131,9 +134,13 @@ Yes, you can apply borders and shading to specific runs of text using the `Run` 
 Definitely! You can loop through your paragraphs and apply the same borders and shading settings programmatically.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

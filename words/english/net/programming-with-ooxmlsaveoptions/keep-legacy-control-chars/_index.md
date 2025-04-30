@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Legacy Control Chars
@@ -108,9 +111,13 @@ Yes, you need a valid license. You can get a temporary license for evaluation pu
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfloadoptions/load-encrypted-pdf/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Encrypted Pdf
@@ -117,9 +120,13 @@ Unfortunately, without the correct password, the PDF cannot be decrypted. Always
 You can download a free trial from [here](https://releases.aspose.com/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

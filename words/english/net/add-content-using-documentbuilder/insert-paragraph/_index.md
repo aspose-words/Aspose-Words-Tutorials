@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-paragraph/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Paragraph In Word Document
@@ -96,9 +99,13 @@ Yes, you can encrypt and secure your documents programmatically using Aspose.Wor
 Visit the [Aspose.Words forum](https://forum.aspose.com/c/words/8) for community support and discussions.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

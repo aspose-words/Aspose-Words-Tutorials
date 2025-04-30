@@ -7,8 +7,11 @@ weight: 26
 url: /python-net/document-structure-and-content-manipulation/document-vba-macros/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unlocking Advanced Automation with VBA Macros in Word Documents
@@ -134,9 +137,13 @@ Absolutely! With Aspose.Words Python and VBA macros, you can automate document c
 ### Where can I find more resources and examples for Aspose.Words Python?
 You can explore a comprehensive collection of resources, tutorials, and examples on the [Aspose.Words Python API References](https://reference.aspose.com/words/python-net/) page.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

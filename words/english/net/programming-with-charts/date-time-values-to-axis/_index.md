@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/date-time-values-to-axis/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Date Time Values To Axis Of A Chart
@@ -133,9 +136,13 @@ You can update the chart data dynamically by manipulating the series and axis pr
 
 You can find more detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

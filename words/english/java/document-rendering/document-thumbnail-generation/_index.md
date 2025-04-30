@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-rendering/document-thumbnail-generation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Thumbnail Generation
@@ -90,9 +93,13 @@ Yes, Aspose.Words for Java requires a valid license for commercial use. You can 
 
 You can find comprehensive documentation and API references on the Aspose.Words for Java documentation page [here](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

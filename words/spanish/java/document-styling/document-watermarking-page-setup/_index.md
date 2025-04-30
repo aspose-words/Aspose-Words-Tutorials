@@ -1,27 +1,29 @@
 ---
-title: Marcas de agua y configuración de página de documentos
-linktitle: Marcas de agua y configuración de página de documentos
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a aplicar marcas de agua y a configurar configuraciones de página con Aspose.Words para Java. Una guía completa con código fuente.
-weight: 13
-url: /es/java/document-styling/document-watermarking-page-setup/
+"description": "Aprenda a aplicar marcas de agua y configurar páginas con Aspose.Words para Java. Una guía completa con código fuente."
+"linktitle": "Marca de agua del documento y configuración de página"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Marca de agua del documento y configuración de página"
+"url": "/es/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Marcas de agua y configuración de página de documentos
+# Marca de agua del documento y configuración de página
 
 ## Introducción
 
-En el ámbito de la manipulación de documentos, Aspose.Words para Java se destaca como una herramienta poderosa que permite a los desarrolladores ejercer control sobre cada aspecto del procesamiento de documentos. En esta guía completa, profundizaremos en las complejidades de la creación de marcas de agua y la configuración de páginas de documentos utilizando Aspose.Words para Java. Ya sea que sea un desarrollador experimentado o recién esté ingresando al mundo del procesamiento de documentos Java, esta guía paso a paso le brindará el conocimiento y el código fuente que necesita.
+En el ámbito de la manipulación de documentos, Aspose.Words para Java se erige como una herramienta potente que permite a los desarrolladores controlar todos los aspectos del procesamiento de documentos. En esta guía completa, profundizaremos en las complejidades de la creación de marcas de agua y la configuración de páginas con Aspose.Words para Java. Tanto si eres un desarrollador experimentado como si te estás iniciando en el mundo del procesamiento de documentos en Java, esta guía paso a paso te proporcionará los conocimientos y el código fuente que necesitas.
 
 ## Marca de agua en documentos
 
 ### Agregar marcas de agua
 
-Agregar marcas de agua a los documentos puede ser crucial para la marca o la seguridad de su contenido. Aspose.Words para Java facilita esta tarea. A continuación, le indicamos cómo:
+Añadir marcas de agua a los documentos puede ser crucial para la marca o la seguridad de su contenido. Aspose.Words para Java simplifica esta tarea. A continuación, le explicamos cómo:
 
 ```java
 // Cargar el documento
@@ -49,13 +51,13 @@ doc.save("document_with_watermark.docx");
 
 ### Personalización de marcas de agua
 
-Puede personalizar aún más las marcas de agua ajustando la fuente, el tamaño, el color y la rotación. Esta flexibilidad garantiza que la marca de agua coincida perfectamente con el estilo del documento.
+Puedes personalizar aún más las marcas de agua ajustando la fuente, el tamaño, el color y la rotación. Esta flexibilidad garantiza que tu marca de agua se adapte perfectamente al estilo de tu documento.
 
 ## Configuración de página
 
 ### Tamaño y orientación de la página
 
-La configuración de la página es fundamental para el formato de los documentos. Aspose.Words para Java ofrece un control total sobre el tamaño y la orientación de la página:
+La configuración de página es fundamental para el formato de documentos. Aspose.Words para Java ofrece control total sobre el tamaño y la orientación de la página:
 
 ```java
 // Cargar el documento
@@ -74,7 +76,7 @@ doc.save("formatted_document.docx");
 
 ### Márgenes y numeración de páginas
 
-El control preciso de los márgenes y la numeración de páginas es esencial para los documentos profesionales. Consígalo con Aspose.Words para Java:
+Un control preciso de los márgenes y la numeración de páginas es esencial para documentos profesionales. Consígalo con Aspose.Words para Java:
 
 ```java
 // Cargar el documento
@@ -86,7 +88,7 @@ doc.getFirstSection().getPageSetup().setRightMargin(72.0);
 doc.getFirstSection().getPageSetup().setTopMargin(72.0);
 doc.getFirstSection().getPageSetup().setBottomMargin(72.0);
 
-// Habilitar numeración de páginas
+// Habilitar la numeración de páginas
 doc.getFirstSection().getPageSetup().setDifferentFirstPageHeaderFooter(true);
 HeaderFooter firstPageHeader = doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_FIRST);
 firstPageHeader.appendParagraph("First Page Header");
@@ -99,7 +101,7 @@ doc.save("formatted_document.docx");
 
 ### ¿Cómo puedo eliminar una marca de agua de un documento?
 
-Para eliminar una marca de agua de un documento, puede recorrer las formas del documento y eliminar las que representan marcas de agua. A continuación, se muestra un fragmento:
+Para eliminar una marca de agua de un documento, puede recorrer las formas del documento y eliminar las que representan marcas de agua. Aquí tiene un fragmento:
 
 ```java
 Document doc = new Document("document_with_watermark.docx");
@@ -130,7 +132,7 @@ doc.getFirstSection().getPageSetup().setPageHeight(595.0);
 
 La fuente predeterminada para las marcas de agua es Calibri con un tamaño de fuente de 36.
 
-### ¿Cómo puedo agregar números de página comenzando desde una página específica?
+### ¿Cómo puedo agregar números de página a partir de una página específica?
 
 Puede lograr esto configurando el número de página inicial en su documento de la siguiente manera:
 
@@ -140,16 +142,21 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 
 ### ¿Cómo puedo centrar el texto en el encabezado o pie de página?
 
-Puede alinear el texto al centro en el encabezado o pie de página utilizando el método setAlignment en el objeto Párrafo dentro del encabezado o pie de página.
+Puede centrar el texto en el encabezado o pie de página utilizando el método setAlignment en el objeto Párrafo dentro del encabezado o pie de página.
 
 ## Conclusión
 
-En esta guía completa, hemos explorado el arte de la creación de marcas de agua y la configuración de páginas en documentos con Aspose.Words para Java. Con los fragmentos de código fuente y la información que le proporcionamos, ahora posee las herramientas para manipular y dar formato a sus documentos con delicadeza. Aspose.Words para Java le permite crear documentos profesionales con su marca y adaptados a sus especificaciones exactas.
+En esta completa guía, hemos explorado el arte de las marcas de agua y la configuración de páginas en documentos con Aspose.Words para Java. Con los fragmentos de código fuente y la información proporcionada, ahora cuenta con las herramientas para manipular y dar formato a sus documentos con precisión. Aspose.Words para Java le permite crear documentos profesionales con su marca, adaptados a sus especificaciones exactas.
 
-Dominar la manipulación de documentos es una habilidad valiosa para los desarrolladores, y Aspose.Words para Java es su compañero de confianza en este camino. ¡Comience a crear documentos impresionantes hoy mismo!
+Dominar la manipulación de documentos es una habilidad valiosa para los desarrolladores, y Aspose.Words para Java es tu compañero de confianza en este proceso. ¡Empieza a crear documentos impresionantes hoy mismo!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

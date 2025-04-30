@@ -1,30 +1,32 @@
 ---
-title: Crear encabezado y pie de página
-linktitle: Crear encabezado y pie de página
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a agregar y personalizar encabezados y pies de página en documentos de Word con Aspose.Words para .NET. Esta guía paso a paso garantiza un formato de documento profesional.
-weight: 10
-url: /es/net/working-with-headers-and-footers/create-header-footer/
+"description": "Aprenda a agregar y personalizar encabezados y pies de página en documentos de Word con Aspose.Words para .NET. Esta guía paso a paso garantiza un formato profesional de los documentos."
+"linktitle": "Crear encabezado y pie de página"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Crear encabezado y pie de página"
+"url": "/es/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Crear encabezado y pie de página
 
 ## Introducción
 
-Agregar encabezados y pies de página a sus documentos puede mejorar su profesionalidad y legibilidad. Con Aspose.Words para .NET, puede crear y personalizar fácilmente encabezados y pies de página para sus documentos de Word. En este tutorial, lo guiaremos por el proceso paso a paso, asegurándonos de que pueda implementar estas funciones sin problemas.
+Añadir encabezados y pies de página a sus documentos puede mejorar su profesionalidad y legibilidad. Con Aspose.Words para .NET, puede crear y personalizar fácilmente encabezados y pies de página para sus documentos de Word. En este tutorial, le guiaremos paso a paso por el proceso, asegurándose de que pueda implementar estas funciones sin problemas.
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
--  Aspose.Words para .NET: descargar e instalar desde[enlace de descarga](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Descargar e instalar desde [enlace de descarga](https://releases.aspose.com/words/net/).
 - Entorno de desarrollo: como Visual Studio, para escribir y ejecutar su código.
 - Conocimientos básicos de C#: comprensión de C# y .NET Framework.
-- Documento de muestra: un documento de muestra para aplicar los encabezados y pies de página, o crear uno nuevo como se muestra en el tutorial.
+- Documento de muestra: Un documento de muestra para aplicar los encabezados y pies de página, o crear uno nuevo como se muestra en el tutorial.
 
 ## Importar espacios de nombres
 
@@ -38,7 +40,7 @@ using System;
 
 ## Paso 1: Definir el directorio del documento
 
-Define el directorio donde se guardará tu documento. Esto ayuda a gestionar la ruta de forma eficaz.
+Define el directorio donde se guardará tu documento. Esto facilita la gestión de la ruta.
 
 ```csharp
 // La ruta al directorio de documentos
@@ -47,7 +49,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## Paso 2: Crear un nuevo documento
 
- Crea un nuevo documento y un`DocumentBuilder`para facilitar la adición de contenido.
+Crea un nuevo documento y un `DocumentBuilder` para facilitar la adición de contenido.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +68,7 @@ pageSetup.DifferentFirstPageHeaderFooter = true;
 pageSetup.HeaderDistance = 20;
 ```
 
-## Paso 4: Agrega un encabezado a la primera página
+## Paso 4: Agregar un encabezado a la primera página
 
 Vaya a la sección de encabezado de la primera página y configure el texto del encabezado.
 
@@ -83,7 +85,7 @@ builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ## Paso 5: Agregar un encabezado principal
 
-Vaya a la sección del encabezado principal e inserte una imagen y un texto.
+Vaya a la sección del encabezado principal e inserte una imagen y texto.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -171,7 +173,7 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Conclusión
 
-Si sigue estos pasos, podrá agregar y personalizar eficazmente encabezados y pies de página en sus documentos de Word con Aspose.Words para .NET. Esto mejorará la apariencia y el profesionalismo de su documento, haciéndolo más legible y atractivo.
+Siguiendo estos pasos, puede agregar y personalizar eficazmente encabezados y pies de página en sus documentos de Word con Aspose.Words para .NET. Esto mejora la apariencia y el profesionalismo de su documento, haciéndolo más legible y atractivo.
 
 ## Preguntas frecuentes
 
@@ -181,23 +183,28 @@ Aspose.Words para .NET es una biblioteca que permite a los desarrolladores crear
 
 ### ¿Puedo agregar imágenes al encabezado o pie de página?
 
- Sí, puedes agregar imágenes fácilmente al encabezado o pie de página usando el`DocumentBuilder.InsertImage` método.
+Sí, puedes agregar imágenes fácilmente al encabezado o pie de página usando el `DocumentBuilder.InsertImage` método.
 
 ### ¿Cómo configuro diferentes encabezados y pies de página para la primera página?
 
- Puede configurar diferentes encabezados y pies de página para la primera página utilizando el`DifferentFirstPageHeaderFooter` propiedad de la`PageSetup` clase.
+Puede configurar diferentes encabezados y pies de página para la primera página utilizando el `DifferentFirstPageHeaderFooter` propiedad de la `PageSetup` clase.
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Words?
 
- Puede encontrar documentación completa en el[Página de documentación de la API de Aspose.Words](https://reference.aspose.com/words/net/).
+Puede encontrar documentación completa en el [Página de documentación de la API de Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### ¿Hay soporte disponible para Aspose.Words?
 
- Sí, Aspose ofrece soporte a través de su[foro de soporte](https://forum.aspose.com/c/words/8).
+Sí, Aspose ofrece soporte a través de su [foro de soporte](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

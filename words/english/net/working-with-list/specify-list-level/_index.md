@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-list/specify-list-level/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify List Level
@@ -131,9 +134,13 @@ Yes, you can mix different types of lists in a single document by switching the 
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

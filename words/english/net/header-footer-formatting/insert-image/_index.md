@@ -6,8 +6,11 @@ description: Learn how to insert an image into the header of a Word document usi
 keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
 url: /net/header-footer-formatting/insert-image/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert an Image into Word Document Header
@@ -15,9 +18,12 @@ url: /net/header-footer-formatting/insert-image/
 Aspose.Words for .NET simplifies Word document processing by enabling developers to automate tasks like inserting images into headers. This tutorial demonstrates how to use the Document and DocumentBuilder classes to add an image with precise alignment, dimensions, and wrapping options to the primary header of a Word document. The process is straightforward, making it ideal for developers aiming to enhance document templates dynamically. With detailed steps and sample code, you'll be able to integrate this functionality into your .NET applications effortlessly.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/insert-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
@@ -47,8 +53,12 @@ To get started with Aspose.Words for .NET, follow these simple steps:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

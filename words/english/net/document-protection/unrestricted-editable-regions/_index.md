@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/unrestricted-editable-regions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unrestricted Editable Regions In Word Document
@@ -140,9 +143,13 @@ No, the document-level protection applies a single password for the entire docum
 You can apply a license by loading it from a file or stream. Check the documentation for detailed steps.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

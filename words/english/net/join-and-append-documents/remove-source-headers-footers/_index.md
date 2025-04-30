@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/remove-source-headers-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Source Headers Footers
@@ -107,9 +110,13 @@ Yes, Aspose.Words for .NET allows you to remove headers and footers while preser
 Visit the [Aspose.Words for .NET documentation](https://reference.aspose.com/words/net/) for detailed API references and examples.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/simple-find-replace/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Simple Text Find And Replace In Word
@@ -122,9 +125,13 @@ You can loop through multiple documents and apply the find and replace functiona
 ### Does Aspose.Words support other text manipulation features?
 Yes, Aspose.Words is a powerful library that supports various text manipulation and document processing features.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

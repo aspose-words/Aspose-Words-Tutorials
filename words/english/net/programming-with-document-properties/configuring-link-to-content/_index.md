@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-properties/configuring-link-to-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Configuring Link To Content
@@ -104,9 +107,13 @@ Aspose.Words for .NET is a commercial product, but you can start with a free tri
 You can get support for Aspose.Words for .NET on the [Aspose support forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

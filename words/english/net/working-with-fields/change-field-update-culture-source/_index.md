@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/change-field-update-culture-source/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Field Update Culture Source
@@ -103,9 +106,13 @@ Yes, you can set `FieldUpdateCultureSource` to `FieldUpdateCultureSource.Documen
 ### How do I format dates in a different pattern?
 You can change the date format pattern in the `InsertField` method by modifying the `\\@` switch value.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

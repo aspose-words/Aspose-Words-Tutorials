@@ -7,8 +7,11 @@ weight: 1490
 url: /net/document-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Formatting
@@ -29,9 +32,13 @@ The tutorial covers various aspects such as formatting text, paragraphs, tables,
 | [Snap To Grid In Word Document](./snap-to-grid/) | Learn how to enable Snap to Grid in Word documents using Aspose.Words for .NET. This detailed tutorial covers prerequisites, step-by-step guide, and FAQs. |
 | [Get Paragraph Style Separator In Word Document](./get-paragraph-style-separator/) | Learn how to identify and handle paragraph style separators in Word documents using Aspose.Words for .NET with this comprehensive, step-by-step tutorial. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 21
 url: /java/using-document-elements/using-ole-objects-and-activex/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using OLE Objects and ActiveX Controls in Aspose.Words for Java
@@ -140,9 +143,13 @@ Congratulations! You've learned how to work with OLE objects and ActiveX control
 Get started with Aspose.Words for Java today and unlock the full potential of document automation and customization!
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

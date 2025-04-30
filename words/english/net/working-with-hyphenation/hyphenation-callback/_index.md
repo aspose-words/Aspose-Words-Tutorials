@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-hyphenation/hyphenation-callback/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hyphenation Callback
@@ -154,9 +157,13 @@ You can download hyphenation dictionaries from various online resources or creat
 ### What happens if a hyphenation dictionary is missing?
 If a dictionary is missing, the `RequestDictionary` method throws an exception, which you can handle to inform the user or provide a fallback.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

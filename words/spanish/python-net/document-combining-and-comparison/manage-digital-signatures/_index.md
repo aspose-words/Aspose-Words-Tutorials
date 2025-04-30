@@ -1,21 +1,23 @@
 ---
-title: Gestión de firmas digitales y autenticidad
-linktitle: Gestión de firmas digitales y autenticidad
-second_title: API de gestión de documentos de Python de Aspose.Words
-description: Aprenda a gestionar firmas digitales y garantizar la autenticidad de los documentos con Aspose.Words para Python. Guía paso a paso con código fuente.
-weight: 17
-url: /es/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Aprenda a gestionar firmas digitales y garantizar la autenticidad de documentos con Aspose.Words para Python. Guía paso a paso con código fuente."
+"linktitle": "Gestión de firmas digitales y autenticidad"
+"second_title": "API de gestión de documentos de Python de Aspose.Words"
+"title": "Gestión de firmas digitales y autenticidad"
+"url": "/es/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestión de firmas digitales y autenticidad
 
 ## Introducción a las firmas digitales
 
-Las firmas digitales son el equivalente electrónico de las firmas manuscritas y permiten verificar la autenticidad, la integridad y el origen de los documentos electrónicos. Cuando se firma digitalmente un documento, se genera un hash criptográfico basado en el contenido del documento. Luego, este hash se cifra con la clave privada del firmante, lo que crea la firma digital. Cualquier persona que tenga la clave pública correspondiente puede verificar la firma y determinar la autenticidad del documento.
+Las firmas digitales son el equivalente electrónico de las firmas manuscritas. Permiten verificar la autenticidad, integridad y origen de los documentos electrónicos. Cuando un documento se firma digitalmente, se genera un hash criptográfico basado en su contenido. Este hash se cifra con la clave privada del firmante, creando así la firma digital. Cualquier persona con la clave pública correspondiente puede verificar la firma y comprobar la autenticidad del documento.
 
 ## Configuración de Aspose.Words para Python
 
@@ -35,7 +37,7 @@ Para comenzar a administrar firmas digitales con Aspose.Words para Python, siga 
 
 ## Carga y acceso a documentos
 
-Antes de agregar o verificar firmas digitales, debe cargar el documento mediante Aspose.Words:
+Antes de agregar o verificar firmas digitales, debe cargar el documento utilizando Aspose.Words:
 
 ```python
 document = aw.Document("document.docx")
@@ -80,7 +82,7 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Conclusión
 
-La gestión de firmas digitales y la garantía de la autenticidad de los documentos son aspectos fundamentales en el panorama digital actual. Aspose.Words para Python simplifica el proceso de agregar, verificar y personalizar firmas digitales, lo que permite a los desarrolladores mejorar la seguridad y la confiabilidad de sus documentos.
+Gestionar firmas digitales y garantizar la autenticidad de los documentos es fundamental en el panorama digital actual. Aspose.Words para Python simplifica el proceso de añadir, verificar y personalizar firmas digitales, lo que permite a los desarrolladores mejorar la seguridad y la fiabilidad de sus documentos.
 
 ## Preguntas frecuentes
 
@@ -88,7 +90,7 @@ La gestión de firmas digitales y la garantía de la autenticidad de los documen
 
 Las firmas digitales utilizan criptografía para generar un hash único basado en el contenido del documento, cifrado con la clave privada del firmante.
 
-### ¿Se puede alterar un documento firmado digitalmente?
+### ¿Se puede manipular un documento firmado digitalmente?
 
 No, alterar un documento firmado digitalmente invalidaría la firma, lo que indicaría posibles cambios no autorizados.
 
@@ -103,9 +105,14 @@ Aspose.Words admite certificados X.509, incluidos archivos PFX, que se utilizan 
 ### ¿Son legalmente válidas las firmas digitales?
 
 Sí, las firmas digitales son legalmente válidas en muchos países y a menudo se consideran equivalentes a las firmas manuscritas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

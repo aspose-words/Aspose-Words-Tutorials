@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-watermark/add-text-watermark-with-specific-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text Watermark With Specific Options
@@ -117,9 +120,13 @@ The `WatermarkLayout` property determines the orientation, but precise positioni
 
 Set the `IsSemitrasparent` property to `true` to make your watermark semi-transparent.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

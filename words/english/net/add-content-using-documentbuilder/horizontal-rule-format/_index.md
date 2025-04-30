@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/horizontal-rule-format/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Horizontal Rule Format In Word Document
@@ -105,9 +108,13 @@ Yes, Aspose.Words is widely used in enterprise environments for its robust docum
 For support and community engagement, visit the [Aspose.Words forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-oleobjects-and-activex/insert-ole-object-as-icon/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Ole Object In Word Document As Icon
@@ -97,9 +100,13 @@ Yes, Aspose.Words for .NET requires a license. You can purchase it from the [Asp
 
 You can find more tutorials and documentation on the [Aspose documentation page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

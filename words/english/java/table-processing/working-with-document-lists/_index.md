@@ -7,8 +7,11 @@ weight: 11
 url: /java/table-processing/working-with-document-lists/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working With Document Lists
@@ -119,9 +122,13 @@ To convert a document list to PDF, simply load the document using Aspose.Words f
 ### Does Aspose.Words for Java support working with tables in documents?
 Yes, Aspose.Words for Java provides extensive support for working with tables, allowing you to create, modify, and extract tabular data effortlessly.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

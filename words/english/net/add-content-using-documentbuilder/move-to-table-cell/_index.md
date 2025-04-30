@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/move-to-table-cell/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move To Table Cell In Word Document
@@ -104,9 +107,13 @@ Use the `Save` method of the `Document` class to save your changes. For example:
 
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

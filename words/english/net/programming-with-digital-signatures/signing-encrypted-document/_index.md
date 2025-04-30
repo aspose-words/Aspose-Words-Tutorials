@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-digital-signatures/signing-encrypted-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Signing Encrypted Word Document
@@ -116,9 +119,13 @@ Yes, Aspose.Words allows you to add visible digital signatures as well.
 ### Is there a way to verify the signature?
 Yes, you can use the `DigitalSignatureUtil.Verify` method to verify signatures.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

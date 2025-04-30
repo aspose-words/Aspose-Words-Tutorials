@@ -7,8 +7,11 @@ weight: 1450
 url: /net/split-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Document Splitting
@@ -25,9 +28,13 @@ Split Document is a comprehensive resource that explains how to split a document
 | [Merge Documents](./merge-documents/) | Step by step guide to explain C# source code of Merge Documents feature of Aspose.Words for .NET |
 | [Split Word Document By Page Range](./by-page-range/) | Learn how to split a Word document by page range using Aspose.Words for .NET with our detailed step-by-step guide. Perfect for developers. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

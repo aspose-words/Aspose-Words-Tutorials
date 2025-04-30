@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Table
@@ -98,9 +101,13 @@ Yes, you can apply different styles to individual cells by accessing them throug
 
 ### How do I remove borders from the table?
 You can remove borders by setting the border style to `LineStyle.None` for each border type.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

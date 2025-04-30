@@ -7,8 +7,11 @@ weight: 27
 url: /java/document-manipulation/cloning-and-combining-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cloning and Combining Documents in Aspose.Words for Java
@@ -113,9 +116,13 @@ mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 
 In this example, the `InsertDocumentAtMailMergeHandler` class handles the insertion logic for the "DocumentField" during mail merge.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

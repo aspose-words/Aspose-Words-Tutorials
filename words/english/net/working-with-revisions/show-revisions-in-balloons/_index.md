@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/show-revisions-in-balloons/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Show Revisions In Balloons
@@ -96,9 +99,13 @@ Aspose.Words is primarily designed for .NET, but you can use it with any .NET-su
 ### Does Aspose.Words support other document formats besides Word?
 Yes, Aspose.Words supports various document formats, including PDF, HTML, EPUB, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

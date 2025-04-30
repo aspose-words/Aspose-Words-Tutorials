@@ -7,8 +7,11 @@ weight: 10
 url: /net/remove-content/remove-page-breaks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Page Breaks In Word Document
@@ -124,9 +127,13 @@ You can get support from the Aspose community and forums at [Aspose Support](htt
 ### What file formats does Aspose.Words support?
 Aspose.Words supports numerous file formats, including DOCX, DOC, PDF, HTML, and more. You can find the full list in the [Aspose Documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

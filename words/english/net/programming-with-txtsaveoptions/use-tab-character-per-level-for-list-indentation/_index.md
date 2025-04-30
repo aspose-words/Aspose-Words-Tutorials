@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtsaveoptions/use-tab-character-per-level-for-list-indentation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Tab Character Per Level For List Indentation
@@ -132,9 +135,13 @@ Unfortunately, the tab size in `TxtSaveOptions` is fixed. To adjust indentation 
 ### Can I use these settings when exporting to other formats like PDF or DOCX?
 The specific tab character settings apply to text files. For formats like PDF or DOCX, you would need to adjust formatting options within those formats.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

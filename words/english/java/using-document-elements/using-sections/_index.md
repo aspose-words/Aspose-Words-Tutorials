@@ -7,8 +7,11 @@ weight: 23
 url: /java/using-document-elements/using-sections/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Sections in Aspose.Words for Java
@@ -127,9 +130,13 @@ You can purchase a license for Aspose.Words for Java [here](https://purchase.asp
 Get started with Aspose.Words for Java today and enhance your document processing capabilities!
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

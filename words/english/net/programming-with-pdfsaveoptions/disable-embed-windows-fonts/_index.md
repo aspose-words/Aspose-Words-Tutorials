@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reduce PDF Size by Disabling Embeded Fonts
@@ -94,9 +97,13 @@ Yes, Aspose.Words for .NET provides the functionality needed to configure font e
 You can visit the [Support forum](https://forum.aspose.com/c/words/8) for assistance with any issues you encounter.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

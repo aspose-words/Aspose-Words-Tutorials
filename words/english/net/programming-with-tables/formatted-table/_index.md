@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/formatted-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatted Table
@@ -182,9 +185,13 @@ You can get support from the [Aspose community forums](https://forum.aspose.com/
 ### Can I create other types of documents with Aspose.Words for .NET?
 Yes, Aspose.Words for .NET supports various document formats, including PDF, HTML, and TXT.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

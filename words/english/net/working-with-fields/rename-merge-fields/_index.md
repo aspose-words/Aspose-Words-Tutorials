@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/rename-merge-fields/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rename Merge Fields
@@ -111,9 +114,13 @@ Aspose.Words for .NET is a commercial product, but you can use a [free trial](ht
 
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

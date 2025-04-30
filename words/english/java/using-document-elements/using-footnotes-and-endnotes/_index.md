@@ -7,8 +7,11 @@ weight: 13
 url: /java/using-document-elements/using-footnotes-and-endnotes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Footnotes and Endnotes in Aspose.Words for Java
@@ -133,9 +136,13 @@ Yes, footnotes and endnotes are essential for providing references and additiona
 
 Feel free to explore more features of Aspose.Words for Java and enhance your document creation capabilities. Happy coding!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

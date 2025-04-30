@@ -7,8 +7,11 @@ weight: 11
 url: /python-net/document-options-and-settings/manage-document-options-settings/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fine-Tuning Document Options and Settings for Efficiency
@@ -149,9 +152,13 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 You can refer to the documentation at [here](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

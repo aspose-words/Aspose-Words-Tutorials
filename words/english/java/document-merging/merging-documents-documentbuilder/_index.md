@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-merging/merging-documents-documentbuilder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merging Documents with DocumentBuilder
@@ -101,9 +104,13 @@ Yes, Aspose.Words supports various document formats, including DOC, RTF, HTML, P
 
 You can find comprehensive documentation and resources for Aspose.Words for Java on the Aspose website: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

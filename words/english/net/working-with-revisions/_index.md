@@ -7,8 +7,11 @@ weight: 1130
 url: /net/working-with-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Revisions
@@ -32,9 +35,13 @@ Whether you are a beginner or an experienced developer, these tutorials will hel
 | [Move Node In Tracked Document](./move-node-in-tracked-document/) | Learn how to move nodes in a tracked Word document using Aspose.Words for .NET with our detailed, step-by-step guide. Perfect for developers. |
 | [Shape Revision](./shape-revision/) | Learn how to handle shape revisions in Word documents using Aspose.Words for .NET with this comprehensive guide. Master tracking changes, inserting shapes, and more. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

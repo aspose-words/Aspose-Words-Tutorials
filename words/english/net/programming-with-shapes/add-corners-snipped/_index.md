@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/add-corners-snipped/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Corners Snipped
@@ -105,9 +108,13 @@ You can use additional properties and methods provided by Aspose.Words to custom
 ### Is Aspose.Words compatible with other formats?
 Yes, Aspose.Words supports multiple document formats including DOCX, PDF, HTML, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/check-drawingml-text-effect/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check DrawingML Text Effect
@@ -106,9 +109,13 @@ Yes, you can download a [free trial](https://releases.aspose.com/) to try out As
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find detailed documentation on the [Aspose.Words for .NET Documentation page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

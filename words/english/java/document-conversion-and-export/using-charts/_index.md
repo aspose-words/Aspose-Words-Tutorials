@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-conversion-and-export/using-charts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Charts in Aspose.Words for Java
@@ -151,9 +154,13 @@ You can create various chart types by specifying the appropriate `ChartType` whe
 
 You can hide a chart axis by setting the `setHidden(true)` property of the axis.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

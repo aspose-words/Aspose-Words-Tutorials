@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/list-use-destination-styles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # List Use Destination Styles
@@ -100,9 +103,13 @@ ImportFormatOptions allow you to specify how formatting is handled when importin
 You can get support from the [Aspose.Words forum](https://forum.aspose.com/c/words/8), where you can ask questions and get help from the community and Aspose developers.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/compare-documents/compare-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compare Options In Word Document
@@ -137,9 +140,13 @@ Yes, but you need to unlock the documents first using the appropriate password.
 ### Where can I find more examples and documentation?  
 You can find more examples and detailed documentation on the [Aspose.Words for .NET Documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

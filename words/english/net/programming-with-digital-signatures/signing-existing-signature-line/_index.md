@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-digital-signatures/signing-existing-signature-line/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Signing Existing Signature Line In Word Document
@@ -114,9 +117,13 @@ You can purchase digital certificates from various providers online. Make sure t
 
 You can find extensive documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

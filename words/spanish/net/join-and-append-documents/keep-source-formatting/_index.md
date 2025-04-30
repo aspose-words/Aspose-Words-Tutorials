@@ -1,29 +1,31 @@
 ---
-title: Mantener el formato de origen
-linktitle: Mantener el formato de origen
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a combinar documentos de Word conservando el formato con Aspose.Words para .NET. Ideal para desarrolladores que buscan automatizar las tareas de ensamblaje de documentos.
-weight: 10
-url: /es/net/join-and-append-documents/keep-source-formatting/
+"description": "Aprenda a combinar documentos de Word conservando el formato con Aspose.Words para .NET. Ideal para desarrolladores que buscan automatizar las tareas de ensamblaje de documentos."
+"linktitle": "Mantener el formato de origen"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Mantener el formato de origen"
+"url": "/es/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mantener el formato de origen
 
 ## Introducción
 
-En este tutorial, exploraremos cómo fusionar y anexar documentos de Word utilizando Aspose.Words para .NET. Esta potente biblioteca ofrece a los desarrolladores amplias capacidades para manipular documentos de Word mediante programación. Nos centraremos en el método para mantener intacto el formato de origen durante la fusión de documentos, lo que garantiza que los estilos y diseños originales se conserven sin problemas.
+En este tutorial, exploraremos cómo fusionar y anexar documentos de Word con Aspose.Words para .NET. Esta potente biblioteca ofrece a los desarrolladores amplias capacidades para manipular documentos de Word mediante programación. Nos centraremos en el método para mantener intacto el formato original durante la fusión de documentos, garantizando así la perfecta conservación de los estilos y diseños originales.
 
 ## Prerrequisitos
 
 Antes de sumergirse en el tutorial, asegúrese de tener configurados los siguientes requisitos previos:
 
 - Entorno de desarrollo: Visual Studio o cualquier IDE que admita el desarrollo .NET.
--  Biblioteca Aspose.Words para .NET: Descargue e instale la biblioteca desde[aquí](https://releases.aspose.com/words/net/).
-- Conocimientos básicos de programación en C#: Familiaridad con la sintaxis de C# y conceptos de programación orientada a objetos.
+- Biblioteca Aspose.Words para .NET: Descargue e instale la biblioteca desde [aquí](https://releases.aspose.com/words/net/).
+- Conocimientos básicos de programación en C#: familiaridad con la sintaxis de C# y conceptos de programación orientada a objetos.
 
 ## Importar espacios de nombres
 
@@ -41,7 +43,7 @@ Cree una nueva aplicación de consola de C# en Visual Studio e instale el paquet
 
 Asegúrese de incluir el espacio de nombres Aspose.Words al comienzo de su archivo C# para acceder a las clases y métodos Aspose.Words.
 
-## Paso 3: Inicializar rutas de documentos
+## Paso 3: Inicializar las rutas del documento
 
 Define la ruta al directorio de documentos donde se encuentran los documentos de origen y destino.
 
@@ -59,13 +61,13 @@ Document dstDoc = new Document();
 
 ## Paso 5: Cargar el documento fuente
 
-De manera similar, cree otro objeto Documento para cargar el documento de origen que desea adjuntar al documento de destino.
+De manera similar, cree otro objeto Documento para cargar el documento de origen que desea agregar al documento de destino.
 
 ```csharp
 Document srcDoc = new Document();
 ```
 
-## Paso 6: Anexar el documento fuente conservando el formato
+## Paso 6: Anexar el documento fuente manteniendo el formato
 
 Para fusionar el documento de origen con el documento de destino conservando su formato original, utilice el método AppendDocument con ImportFormatMode establecido en KeepSourceFormatting.
 
@@ -83,7 +85,7 @@ dstDoc.Save(dataDir + "MergedDocument.docx");
 
 ## Conclusión
 
-En este tutorial, explicamos cómo combinar documentos de Word manteniendo el formato original mediante Aspose.Words para .NET. Este enfoque garantiza que los estilos, las fuentes y los diseños de los documentos de origen se integren sin problemas en el documento de destino, lo que proporciona una solución sólida para las tareas de ensamblaje de documentos.
+En este tutorial, explicamos cómo combinar documentos de Word conservando el formato original con Aspose.Words para .NET. Este enfoque garantiza que los estilos, las fuentes y los diseños de los documentos de origen se integren a la perfección en el documento de destino, lo que proporciona una solución robusta para las tareas de ensamblaje de documentos.
 
 ## Preguntas frecuentes
 
@@ -93,17 +95,22 @@ Sí, puedes fusionar varios documentos agregando secuencialmente cada documento 
 ### ¿Aspose.Words conserva todos los atributos de formato durante la fusión de documentos?
 Aspose.Words admite varios modos de importación; el modo KeepSourceFormatting garantiza que se conserven la mayoría de los atributos de formato.
 
-### ¿Aspose.Words es compatible con las aplicaciones .NET Core?
+### ¿Es Aspose.Words compatible con las aplicaciones .NET Core?
 Sí, Aspose.Words es compatible con .NET Core, lo que le permite usarlo en diferentes plataformas.
 
 ### ¿Cómo puedo gestionar documentos grandes de manera eficiente utilizando Aspose.Words?
-Aspose.Words proporciona API eficientes para trabajar con documentos grandes, incluidas funciones para paginación y gestión de memoria.
+Aspose.Words proporciona API eficientes para trabajar con documentos grandes, incluidas funciones de paginación y gestión de memoria.
 
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Words?
- Visita el[Documentación de Aspose.Words para .NET](https://reference.aspose.com/words/net/) para obtener referencias de API detalladas, ejemplos y guías.
+Visita el [Documentación de Aspose.Words para .NET](https://reference.aspose.com/words/net/) para obtener referencias de API detalladas, ejemplos y guías.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/split-document/by-sections-html/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Word Document By Sections HTML
@@ -106,9 +109,13 @@ You can find comprehensive documentation on the [Aspose.Words for .NET documenta
 
 Aspose.Words for .NET supports various formats, including PDF, DOCX, TXT, and many more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

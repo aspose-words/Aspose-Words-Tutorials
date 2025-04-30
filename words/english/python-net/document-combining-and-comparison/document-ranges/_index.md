@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/document-combining-and-comparison/document-ranges/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Navigating Document Ranges for Precision Editing
@@ -158,9 +161,13 @@ You can navigate to each section's headers and footers individually using the ap
 
 For detailed documentation and references, visit [here](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/clone-and-combine-documents/insert-document-at-mail-merge/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Document At Mail Merge
@@ -159,9 +162,13 @@ Yes, Aspose.Words supports various file formats including DOCX, PDF, and more.
 ### How do I handle errors during the document insertion process?
 Implement error handling in your callback handler to manage any exceptions that may occur.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

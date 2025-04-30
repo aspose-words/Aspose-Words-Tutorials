@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-revision/tracking-managing-document-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tracking and Managing Document Revisions
@@ -131,9 +134,13 @@ You can download Aspose.Words for Java from the website at [https://releases.asp
 
 In this comprehensive guide, we've explored how to track and manage document revisions using Aspose.Words for Java. From understanding the basics of Aspose.Words for Java to enabling revision tracking and managing document versions, you now have the knowledge to effectively handle document revision management in your projects. Aspose.Words for Java is a powerful tool that simplifies the process, whether you're a beginner or an experienced developer. Start using it today and streamline your document management tasks.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 21
 url: /java/document-manipulation/generating-table-of-contents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generating Table of Contents in Aspose.Words for Java
@@ -107,9 +110,13 @@ To include more levels in your TOC, you can modify the TOC field and specify the
 
 Yes, as shown in the code example above, you can change the tab stop positions for specific TOC entries by iterating through the paragraphs and modifying the tab stops accordingly.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

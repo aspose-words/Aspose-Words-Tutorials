@@ -7,8 +7,11 @@ weight: 10
 url: /net/remove-content/remove-table-of-contents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Table Of Contents In Word Document
@@ -109,9 +112,13 @@ While Visual Studio is highly recommended for ease of development, you can use a
 
 For more detailed documentation, visit the [Aspose.Words for .NET API documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

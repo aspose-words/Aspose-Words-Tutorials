@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/create-simple-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Simple Table
@@ -138,9 +141,13 @@ You can get support by visiting the Aspose.Words [support forum](https://forum.a
 ### Where can I find more detailed documentation for Aspose.Words for .NET?
 Detailed documentation can be found [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

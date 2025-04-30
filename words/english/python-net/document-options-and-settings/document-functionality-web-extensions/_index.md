@@ -7,8 +7,11 @@ weight: 13
 url: /python-net/document-options-and-settings/document-functionality-web-extensions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extending Document Functionality with Web Extensions
@@ -121,9 +124,13 @@ Aspose.Words supports various formats for saving documents, including DOCX, PDF,
 
 To optimize the performance of web extensions, minimize external requests, use asynchronous loading, and perform thorough testing on different browsers and devices.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

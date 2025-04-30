@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/join-new-page/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Join New Page
@@ -102,9 +105,13 @@ Aspose.Words supports appending documents with macros and form fields, maintaini
 ### Can I automate document appending tasks in a batch process using Aspose.Words?
 Aspose.Words for .NET allows you to automate document appending tasks in batch processes, enhancing productivity in document management.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

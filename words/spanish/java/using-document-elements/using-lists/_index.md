@@ -1,32 +1,34 @@
 ---
-title: Uso de listas en Aspose.Words para Java
-linktitle: Uso de listas
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a utilizar listas en Aspose.Words para Java con este tutorial paso a paso. Organice y formatee sus documentos de manera eficaz.
-weight: 18
-url: /es/java/using-document-elements/using-lists/
+"description": "Aprenda a usar listas en Aspose.Words para Java con este tutorial paso a paso. Organice y formatee sus documentos eficazmente."
+"linktitle": "Uso de listas"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Uso de listas en Aspose.Words para Java"
+"url": "/es/java/using-document-elements/using-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uso de listas en Aspose.Words para Java
 
 
-En este completo tutorial, exploraremos cómo usar listas de manera eficaz en Aspose.Words para Java, una potente API para trabajar con documentos de Microsoft Word de manera programática. Las listas son esenciales para estructurar y organizar el contenido de sus documentos. Cubriremos dos aspectos clave del trabajo con listas: reiniciar listas en cada sección y especificar niveles de lista. ¡Vamos a profundizar!
+En este completo tutorial, exploraremos cómo usar eficazmente las listas en Aspose.Words para Java, una potente API para trabajar con documentos de Microsoft Word mediante programación. Las listas son esenciales para estructurar y organizar el contenido de tus documentos. Cubriremos dos aspectos clave del trabajo con listas: reiniciarlas en cada sección y especificar los niveles de lista. ¡Comencemos!
 
 ## Introducción a Aspose.Words para Java
 
-Antes de comenzar a trabajar con listas, familiaricémonos con Aspose.Words para Java. Esta API proporciona a los desarrolladores las herramientas para crear, modificar y manipular documentos de Word en un entorno Java. Es una solución versátil para tareas que van desde la generación simple de documentos hasta el formato complejo y la gestión de contenido.
+Antes de empezar a trabajar con listas, familiaricémonos con Aspose.Words para Java. Esta API proporciona a los desarrolladores las herramientas necesarias para crear, modificar y manipular documentos de Word en un entorno Java. Es una solución versátil para tareas que abarcan desde la generación sencilla de documentos hasta el formato complejo y la gestión de contenido.
 
 ### Configuración de su entorno
 
- Para comenzar, asegúrese de tener Aspose.Words para Java instalado y configurado en su entorno de desarrollo. Puede descargarlo[aquí](https://releases.aspose.com/words/java/). 
+Para empezar, asegúrese de tener Aspose.Words para Java instalado y configurado en su entorno de desarrollo. Puede descargarlo. [aquí](https://releases.aspose.com/words/java/). 
 
-## Reinicio de listas en cada sección
+## Reiniciar listas en cada sección
 
-En muchos casos, es posible que necesite reiniciar las listas en cada sección del documento. Esto puede resultar útil para crear documentos estructurados con varias secciones, como informes, manuales o artículos académicos.
+En muchos casos, podría ser necesario reiniciar las listas en cada sección del documento. Esto puede ser útil para crear documentos estructurados con varias secciones, como informes, manuales o artículos académicos.
 
 Aquí tienes una guía paso a paso sobre cómo lograrlo usando Aspose.Words para Java:
 
@@ -38,14 +40,14 @@ Document doc = new Document();
 ```
 
 ### Agregar una lista numerada: 
-Agregue una lista numerada a su documento. Usaremos el estilo de numeración predeterminado.
+Añade una lista numerada a tu documento. Usaremos el estilo de numeración predeterminado.
 
 ```java
 doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
 ```
 
 ### Configurar ajustes de lista: 
-\Habilite la lista para reiniciarse en cada sección.
+\\Habilite la lista para reiniciarse en cada sección.
 
 ```java
 List list = doc.getLists().get(0);
@@ -60,8 +62,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.getListFormat().setList(list);
 ```
 
-### Agregar elementos a la lista: 
-Utilice un bucle para agregar elementos de lista a su documento. Insertaremos un salto de sección después del elemento número 15.
+### Agregar elementos de lista: 
+Usa un bucle para añadir elementos de lista a tu documento. Insertaremos un salto de sección después del elemento número 15.
 
 ```java
 for (int i = 1; i < 45; i++) {
@@ -84,7 +86,7 @@ Siguiendo estos pasos podrás crear documentos con listas que se reinician en ca
 
 ## Especificación de niveles de lista
 
-Aspose.Words para Java le permite especificar niveles de lista, lo que resulta especialmente útil cuando necesita distintos formatos de lista dentro de su documento. Veamos cómo hacerlo:
+Aspose.Words para Java permite especificar niveles de lista, lo cual resulta especialmente útil cuando se necesitan diferentes formatos de lista en el documento. Veamos cómo hacerlo:
 
 ### Inicializar su documento: 
 Crear un nuevo objeto de documento.
@@ -129,7 +131,7 @@ for (int i = 0; i < 9; i++) {
 ```
 
 ### Formato de lista de detención: 
-Para detener el formato de la lista, establezca la lista como nula.
+Para detener el formato de la lista, establezca la lista en nula.
 
 ```java
 builder.getListFormat().setList(null);
@@ -171,7 +173,7 @@ Siguiendo estos pasos, puede crear documentos con niveles de lista personalizado
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Cree una lista numerada basada en una de las plantillas de lista de Microsoft Word
-        // aplicarlo al párrafo actual del generador de documentos.
+        // y aplicarlo al párrafo actual del generador de documentos.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_ARABIC_DOT));
         // Hay nueve niveles en esta lista, probémoslos todos.
         for (int i = 0; i < 9; i++)
@@ -180,7 +182,7 @@ Siguiendo estos pasos, puede crear documentos con niveles de lista personalizado
             builder.writeln("Level " + i);
         }
         // Cree una lista con viñetas basada en una de las plantillas de lista de Microsoft Word
-        // aplicarlo al párrafo actual del generador de documentos.
+        // y aplicarlo al párrafo actual del generador de documentos.
         builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DIAMONDS));
         for (int i = 0; i < 9; i++)
         {
@@ -207,7 +209,7 @@ Siguiendo estos pasos, puede crear documentos con niveles de lista personalizado
         builder.getListFormat().removeNumbers();
         // Para reutilizar la primera lista, necesitamos reiniciar la numeración creando una copia del formato de la lista original.
         List list2 = doc.getLists().addCopy(list1);
-        // Podemos modificar la nueva lista de cualquier manera, incluso establecer un nuevo número de inicio.
+        // Podemos modificar la nueva lista de cualquier forma, incluso establecer un nuevo número de inicio.
         list2.getListLevels().get(0).setStartAt(10);
         builder.writeln("List 2 starts below:");
         builder.getListFormat().setList(list2);
@@ -220,30 +222,35 @@ Siguiendo estos pasos, puede crear documentos con niveles de lista personalizado
 
 ## Conclusión
 
-¡Felicitaciones! Aprendió a trabajar con listas en Aspose.Words para Java de manera eficaz. Las listas son fundamentales para organizar y presentar el contenido de sus documentos. Ya sea que necesite reiniciar listas en cada sección o especificar niveles de listas, Aspose.Words para Java le brinda las herramientas que necesita para crear documentos de apariencia profesional.
+¡Felicitaciones! Has aprendido a trabajar con listas en Aspose.Words para Java de forma eficaz. Las listas son cruciales para organizar y presentar el contenido de tus documentos. Ya sea que necesites reiniciar listas en cada sección o especificar niveles de lista, Aspose.Words para Java te proporciona las herramientas necesarias para crear documentos con un aspecto profesional.
 
-Ahora puede utilizar estas funciones con confianza para mejorar sus tareas de generación y formato de documentos. Si tiene alguna pregunta o necesita más ayuda, no dude en comunicarse con nosotros.[Foro de la comunidad Aspose](https://forum.aspose.com/) para soporte.
+Ahora puede usar estas funciones con confianza para optimizar sus tareas de generación y formato de documentos. Si tiene alguna pregunta o necesita más ayuda, no dude en contactarnos. [Foro de la comunidad Aspose](https://forum.aspose.com/) para soporte.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo instalo Aspose.Words para Java?
- Puede descargar Aspose.Words para Java desde[aquí](https://releases.aspose.com/words/java/) y siga las instrucciones de instalación en la documentación.
+Puede descargar Aspose.Words para Java desde [aquí](https://releases.aspose.com/words/java/) y siga las instrucciones de instalación en la documentación.
 
 ### ¿Puedo personalizar el formato de numeración de las listas?
-Sí, Aspose.Words para Java ofrece amplias opciones para personalizar los formatos de numeración de listas. Puede consultar la documentación de la API para obtener más detalles.
+Sí, Aspose.Words para Java ofrece amplias opciones para personalizar los formatos de numeración de listas. Puede consultar la documentación de la API para obtener más información.
 
-### ¿Aspose.Words para Java es compatible con los últimos estándares de documentos de Word?
+### ¿Es Aspose.Words para Java compatible con los últimos estándares de documentos de Word?
 Sí, puede configurar Aspose.Words para Java para cumplir con varios estándares de documentos de Word, incluido ISO 29500.
 
 ### ¿Puedo generar documentos complejos con tablas e imágenes usando Aspose.Words para Java?
-¡Por supuesto! Aspose.Words para Java admite formatos de documentos avanzados, incluidas tablas, imágenes y más. Consulte la documentación para ver ejemplos.
+¡Por supuesto! Aspose.Words para Java admite formato avanzado de documentos, incluyendo tablas, imágenes y más. Consulta la documentación para ver ejemplos.
 
 ### ¿Dónde puedo obtener una licencia temporal de Aspose.Words para Java?
-Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Puede obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,9 +176,13 @@ For commercial use, acquiring a full license is necessary to avoid trial limitat
 - [Support Forum](https://forum.aspose.com/c/words/10)
 
 Happy coding, and enjoy creating beautifully bordered documents with Aspose.Words for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

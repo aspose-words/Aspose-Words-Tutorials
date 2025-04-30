@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/ignore-text-boxes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Text Boxes
@@ -129,9 +132,13 @@ You can find the comprehensive documentation [here](https://reference.aspose.com
 For support, visit the Aspose forums [here](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

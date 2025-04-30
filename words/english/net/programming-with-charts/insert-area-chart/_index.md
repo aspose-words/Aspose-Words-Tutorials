@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/insert-area-chart/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Area Chart Into A Word Document
@@ -123,9 +126,13 @@ Yes, Aspose.Words for .NET supports various chart types including bar, line, pie
 ### Where can I get a temporary license for Aspose.Words for .NET?
 You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Expose Threshold Control For Tiff Binarization
@@ -107,9 +110,13 @@ Aspose.Words for .NET is a commercial library, but you can get a free trial or a
 You can find comprehensive documentation for Aspose.Words for .NET on the [Aspose website](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

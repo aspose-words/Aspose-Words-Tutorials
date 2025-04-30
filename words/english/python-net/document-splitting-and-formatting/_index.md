@@ -7,8 +7,11 @@ weight: 13
 url: /python-net/document-splitting-and-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Splitting and Formatting
@@ -48,9 +51,13 @@ Learn how to efficiently combine and clone documents using Aspose.Words for Pyth
 Learn how to effectively compare document versions using Aspose.Words for Python. Step-by-step guide with source code for revision control. Enhance collaboration and prevent errors.
 ### [Mastering Document Formatting Techniques for Visual Impact](./document-formatting-techniques/)
 Learn how to master document formatting using Aspose.Words for Python. Create visually appealing documents with font styles, tables, images, and more. Step-by-step guide with code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

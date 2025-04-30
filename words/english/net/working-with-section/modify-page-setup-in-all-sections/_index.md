@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-section/modify-page-setup-in-all-sections/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Word Page Setup In All Sections
@@ -119,9 +122,13 @@ Support is available through the [Aspose support forum](https://forum.aspose.com
 
 Yes, Aspose.Words supports multiple document formats, including DOCX, DOC, RTF, HTML, and PDF.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

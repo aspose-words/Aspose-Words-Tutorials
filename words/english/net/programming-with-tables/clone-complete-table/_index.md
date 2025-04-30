@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/clone-complete-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Complete Table
@@ -132,9 +135,13 @@ Yes, after cloning, you can modify the cloned table's formatting using Aspose.Wo
 ### Is it possible to clone tables from other document formats?
 Aspose.Words supports various formats, so you can clone tables from formats like DOC, DOCX, and RTF, provided they are supported by Aspose.Words.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

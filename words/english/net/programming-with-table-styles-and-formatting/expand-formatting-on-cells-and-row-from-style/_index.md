@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Expand Formatting On Cells And Row From Style
@@ -117,9 +120,13 @@ Once styles are expanded, they are directly applied to the cells. To revert, you
 ### Does this method work with all versions of Aspose.Words for .NET?
 Yes, the `ExpandTableStylesToDirectFormatting` method is available in recent versions of Aspose.Words for .NET. Always check the [documentation](https://reference.aspose.com/words/net/) for the latest updates.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

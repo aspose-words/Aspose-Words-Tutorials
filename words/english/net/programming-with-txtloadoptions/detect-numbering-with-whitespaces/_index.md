@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect Numbering With Whitespaces
@@ -117,9 +120,13 @@ You can obtain a temporary license from the [Aspose Temporary License](https://p
 
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

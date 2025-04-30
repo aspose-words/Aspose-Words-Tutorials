@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/clear-contents-control/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clear Contents Control
@@ -117,9 +120,13 @@ Structured Document Tags (SDTs) are content controls in Word documents that act 
 The documentation is available [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/split-document/page-by-page/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Word Document By Page
@@ -85,9 +88,13 @@ Aspose.Words preserves the original formatting and orientation of each page duri
 ### Can I automate this process for multiple documents?
 Yes, you can create a script to automate the splitting process for multiple documents in a directory.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

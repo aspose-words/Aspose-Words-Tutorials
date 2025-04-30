@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-comments/anchor-comment/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anchor Comment
@@ -141,9 +144,13 @@ While Aspose.Words focuses on functionality, the appearance of comments in Word 
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

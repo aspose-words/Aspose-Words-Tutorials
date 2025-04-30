@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/set-cell-padding/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Cell Padding
@@ -108,9 +111,13 @@ There is no specific limit, but excessive padding might affect the layout of you
 ### Can I set cell padding using Microsoft Word?
 Yes, you can set cell padding in Microsoft Word, but using Aspose.Words for .NET allows for automated and programmable document manipulation.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

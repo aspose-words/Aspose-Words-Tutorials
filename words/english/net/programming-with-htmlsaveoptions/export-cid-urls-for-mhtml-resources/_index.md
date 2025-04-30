@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Cid Urls For Mhtml Resources
@@ -113,9 +116,13 @@ Absolutely! You can create a script to automate the process for multiple documen
 ### Where can I get support if I encounter issues?
 If you need support, visit the Aspose support forum [here](https://forum.aspose.com/c/words/8) for assistance from the community and Aspose developers.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/set-content-control-style/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Content Control Style
@@ -111,9 +114,13 @@ Absolutely! This method works for various document elements. Just adjust the cod
 ### Does Aspose.Words support other platforms besides .NET?  
 Yes, Aspose.Words is available for Java, C++, and other platforms. Check their [documentation](https://reference.aspose.com/words/net/) for more details.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

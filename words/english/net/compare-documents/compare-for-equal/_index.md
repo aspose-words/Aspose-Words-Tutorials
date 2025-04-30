@@ -7,8 +7,11 @@ weight: 10
 url: /net/compare-documents/compare-for-equal/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compare For Equal In Word Document
@@ -99,9 +102,13 @@ You can save the document using the `Save` method, and the revisions will be hig
 Yes, Aspose.Words for .NET supports document comparison in multiple languages.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

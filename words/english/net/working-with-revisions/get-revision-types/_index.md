@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/get-revision-types/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Revision Types Of Words
@@ -108,9 +111,13 @@ Detailed documentation is available on the [Aspose website](https://reference.as
 
 Yes, Aspose.Words for .NET can be used in both commercial and non-commercial projects, but make sure to check the licensing terms.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

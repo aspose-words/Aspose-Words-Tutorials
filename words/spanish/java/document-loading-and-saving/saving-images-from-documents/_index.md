@@ -1,26 +1,28 @@
 ---
-title: Cómo guardar imágenes de documentos en Aspose.Words para Java
-linktitle: Guardar imágenes desde documentos
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a guardar imágenes de documentos con Aspose.Words para Java con nuestra completa guía paso a paso. Personalice formatos, compresión y más.
-weight: 17
-url: /es/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Aprende a guardar imágenes de documentos con Aspose.Words para Java con nuestra completa guía paso a paso. Personaliza formatos, compresión y más."
+"linktitle": "Guardar imágenes de documentos"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Guardar imágenes de documentos en Aspose.Words para Java"
+"url": "/es/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo guardar imágenes de documentos en Aspose.Words para Java
+# Guardar imágenes de documentos en Aspose.Words para Java
 
 
-## Introducción al almacenamiento de imágenes desde documentos en Aspose.Words para Java
+## Introducción al guardado de imágenes desde documentos en Aspose.Words para Java
 
-En este tutorial, exploraremos cómo guardar imágenes de documentos usando Aspose.Words para Java. Cubriremos varios escenarios y opciones de personalización para guardar imágenes. Esta guía proporciona instrucciones paso a paso con ejemplos de código fuente.
+En este tutorial, exploraremos cómo guardar imágenes de documentos con Aspose.Words para Java. Abordaremos diversos escenarios y opciones de personalización para guardar imágenes. Esta guía proporciona instrucciones paso a paso con ejemplos de código fuente.
 
 ## Prerrequisitos
 
- Antes de comenzar, asegúrese de tener la biblioteca Aspose.Words para Java integrada en su proyecto. Puede descargarla desde[aquí](https://releases.aspose.com/words/java/).
+Antes de comenzar, asegúrese de tener la biblioteca Aspose.Words para Java integrada en su proyecto. Puede descargarla desde [aquí](https://releases.aspose.com/words/java/).
 
 ## Paso 1: Guardar imágenes como TIFF con control de umbral
 
@@ -78,7 +80,7 @@ doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 
 ## Paso 5: Uso de la devolución de llamada para guardar la página
 
-Puedes usar una devolución de llamada para personalizar el guardado de la página. A continuación, se muestra un ejemplo:
+Puedes usar una devolución de llamada para personalizar el guardado de la página. Aquí tienes un ejemplo:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -146,7 +148,7 @@ public void getJpegPageRange() throws Exception
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// Cambiar la resolución horizontal.
-	// El valor predeterminado para estas propiedades es 96,0, para una resolución de 96 ppp.
+	// El valor predeterminado para estas propiedades es 96.0, para una resolución de 96 ppp.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Conclusión
 
-Aprendió a guardar imágenes de documentos con Aspose.Words para Java. Estos ejemplos muestran varias opciones de personalización para guardar imágenes, incluido el formato, la compresión y el uso de devoluciones de llamadas. Explore más posibilidades con las potentes capacidades de Aspose.Words para Java.
+Ha aprendido a guardar imágenes de documentos con Aspose.Words para Java. Estos ejemplos muestran diversas opciones de personalización para guardar imágenes, como el formato, la compresión y el uso de devoluciones de llamada. Explore más posibilidades con las potentes funciones de Aspose.Words para Java.
 
 ## Preguntas frecuentes
 
-### ¿Cómo cambio el formato de la imagen al guardar con Aspose.Words para Java?
+### ¿Cómo cambio el formato de imagen al guardar con Aspose.Words para Java?
 
- Puede cambiar el formato de la imagen especificando el formato deseado en el`ImageSaveOptions` Por ejemplo, para guardar como PNG, utilice`SaveFormat.PNG` como se muestra en el código:
+Puede cambiar el formato de la imagen especificando el formato deseado en el `ImageSaveOptions`Por ejemplo, para guardar como PNG, utilice `SaveFormat.PNG` como se muestra en el código:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -185,7 +187,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions();
 
 ### ¿Puedo personalizar la configuración de compresión para las imágenes TIFF?
 
-Sí, puedes personalizar la configuración de compresión de imágenes TIFF. Por ejemplo, para configurar el método de compresión en CCITT_3, utiliza el siguiente código:
+Sí, puedes personalizar la configuración de compresión de imágenes TIFF. Por ejemplo, para configurar el método de compresión en CCITT_3, usa el siguiente código:
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
@@ -193,15 +195,15 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### ¿Cómo puedo guardar una página específica de un documento como una imagen separada?
 
- Para guardar una página específica como imagen, utilice el`setPageSet`método en`ImageSaveOptions` Por ejemplo, para guardar solo la primera página, configure el`PageSet` a`new PageSet(0)`.
+Para guardar una página específica como imagen, utilice el `setPageSet` método en `ImageSaveOptions`Por ejemplo, para guardar solo la primera página, configure el `PageSet` a `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Guardar la primera página como imagen
 ```
 
-### ¿Cómo aplico configuraciones personalizadas a las imágenes JPEG al guardarlas?
+### ¿Cómo puedo aplicar configuraciones personalizadas a las imágenes JPEG al guardarlas?
 
-Puede aplicar configuraciones personalizadas a las imágenes JPEG usando`ImageSaveOptions`Ajuste propiedades como el brillo, el contraste y la resolución. Por ejemplo, para cambiar el brillo a 0,3 y el contraste a 0,7, utilice este código:
+Puede aplicar configuraciones personalizadas a las imágenes JPEG usando `ImageSaveOptions`Ajuste propiedades como el brillo, el contraste y la resolución. Por ejemplo, para cambiar el brillo a 0,3 y el contraste a 0,7, use este código:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### ¿Cómo puedo utilizar una devolución de llamada para personalizar el guardado de imágenes?
 
- Para utilizar una devolución de llamada para personalizar el guardado de imágenes, configure el`PageSavingCallback` en`ImageSaveOptions` . Crea una clase que implemente el`IPageSavingCallback` interfaz y anular la`pageSaving` método.
+Para utilizar una devolución de llamada para personalizar el guardado de imágenes, configure el `PageSavengCallback` in `ImageSaveOptions`. Crea una clase que implemente el `IPageSavingCallback` interfaz y anular la `pageSaving` método.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Luego, crea una clase que implemente el`IPageSavingCallback` interfaz y personalizar el nombre del archivo y la ubicación en el`pageSaving` método.
+Luego, crea una clase que implemente el `IPageSavingCallback` interfaz y personalizar el nombre del archivo y la ubicación en el `pageSaving` método.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

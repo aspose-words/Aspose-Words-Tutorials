@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/interpolate-images/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interpolate Images in a PDF Document
@@ -108,9 +111,13 @@ You can [download a free trial](https://releases.aspose.com/) of Aspose.Words to
 
 For assistance, visit the [Aspose Support Forum](https://forum.aspose.com/c/words/8) where you can get help from the community and Aspose experts.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

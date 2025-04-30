@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-headers-and-footers/copy-headers-footers-from-previous-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Headers Footers From Previous Section
@@ -114,9 +117,13 @@ You can find comprehensive documentation on the [Aspose.Words API documentation 
 
 Yes, you can download a free trial from the [download page](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

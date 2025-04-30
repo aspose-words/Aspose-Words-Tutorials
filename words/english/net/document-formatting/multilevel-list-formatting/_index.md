@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-formatting/multilevel-list-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Multilevel List Formatting In Word Document
@@ -137,9 +140,13 @@ You can dynamically change the indentation level by using `ListIndent` and `List
 Yes, Aspose.Words supports saving documents in various formats including PDF, maintaining the formatting.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

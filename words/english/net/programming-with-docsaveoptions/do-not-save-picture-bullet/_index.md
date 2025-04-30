@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-docsaveoptions/do-not-save-picture-bullet/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Do Not Save Picture Bullet
@@ -103,9 +106,13 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 You can purchase a license from the [Aspose Store](https://purchase.aspose.com/buy).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

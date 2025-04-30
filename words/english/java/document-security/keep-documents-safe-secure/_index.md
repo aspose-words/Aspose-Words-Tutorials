@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-security/keep-documents-safe-secure/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Keep Your Documents Safe and Secure
@@ -198,9 +201,13 @@ No, Aspose.Words does not provide password recovery features. Make sure to keep 
 
 ### Can I customize the appearance of watermarks?
 Yes, you can fully customize the appearance of watermarks, including text, font, color, size, and rotation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

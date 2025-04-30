@@ -1,58 +1,66 @@
 ---
-title: Añadir y preponderar contenido en documentos de Word usando Aspose.Words
-weight: 7700
-limit: 
-description: Aprenda a añadir y prepender contenido entre secciones en documentos de Word utilizando Aspose.Words para .NET. Guía paso a paso con ejemplos de código claros.
-keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
-url: /es/net/document-sections/append-section-content/
+"description": "Aprenda a añadir y anteponer contenido entre secciones en documentos de Word con Aspose.Words para .NET. Guía paso a paso con ejemplos de código claros."
+"title": "Añadir y anteponer contenido en documentos de Word con Aspose.Words"
+"url": "/es/net/document-sections/append-section-content/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Añadir y pre-aplicar contenido en documentos de Word
+# Añadir y anteponer contenido en documentos de Word
 
-Aspose.Words para .NET es una poderosa biblioteca para crear, manipular y transformar documentos de Word en aplicaciones de .NET. Este ejemplo demuestra cómo agregar y prepender contenido de una sección a otra en un documento de Word. Al usar APIs simples e intuitivas, puede manipular secciones, fusionar contenido y realizar tareas avanzadas de edición de documentos sin problemas. Ya sea que esté construyendo flujos de trabajo de automatización o editores de documentos personalizados, Aspose.Words simplifica su proceso de desarrollo.  
+Aspose.Words para .NET es una potente biblioteca para crear, manipular y transformar documentos de Word en aplicaciones .NET. Este ejemplo muestra cómo añadir y anteponer contenido de una sección a otra en un documento de Word. Mediante APIs sencillas e intuitivas, puede manipular secciones, combinar contenido y realizar tareas avanzadas de edición de documentos sin problemas. Tanto si crea flujos de trabajo de automatización como editores de documentos personalizados, Aspose.Words simplifica su proceso de desarrollo.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/append-section-content" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación  
 
-Para usar Aspose.Words para .NET, siga estos pasos:  
+Para utilizar Aspose.Words para .NET, siga estos pasos:  
 
-1. Descarga Aspose.Words:  
-   * Visita el[Aspose.Words para la página de descarga de .NET](https://releases.aspose.com/words/net/)para obtener la última versión.  
+1. Descargar Aspose.Words:  
+   - Visita el [Página de descarga de Aspose.Words para .NET](https://releases.aspose.com/words/net/) para obtener la última versión.  
 
-2. Instalar a través del administrador de paquetes NuGet:  
-   * Abre tu proyecto .NET en Visual Studio.  
-   * Navegar al menú Herramientas > Gestión de paquetes NuGet > Gestión de paquetes NuGet para Solución.  
-   * Busca Aspose.Words en el administrador de paquetes NuGet.  
-   * Seleccione el paquete y haga clic en Instalar.  
+2. Instalar a través del Administrador de paquetes NuGet:  
+   - Abra su proyecto .NET en Visual Studio.  
+   - Vaya al menú Herramientas > Administrador de paquetes NuGet > Administrar paquetes NuGet para la solución.  
+   - Busque "Aspose.Words" en el Administrador de paquetes NuGet.  
+   - Seleccione el paquete y haga clic en Instalar.  
 
-3. Incluye los espacios de nombres requeridos:  
-   - Add the necessary `using` directives to your C# file:  
+3. Incluir espacios de nombres obligatorios:  
+   - Añade lo necesario `using` directivas para su archivo C#:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
-4. Añadir la Licencia:  
-   * Si ha comprado una licencia, aplicarla utilizando el siguiente fragmento de código:  
+4. Añadir la licencia:  
+   - Si ha adquirido una licencia, aplíquela utilizando el siguiente fragmento de código:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * Para la evaluación o la prueba, puede solicitar una[licencia temporal gratuita](https://purchase.aspose.com/temporary-license/)¿ Qué ?  
+   - Para evaluación o prueba, puede solicitar una [licencia temporal gratuita](https://purchase.aspose.com/temporary-license/).  
 
 
-## También véase
-[Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para las referencias .NET](https://reference.aspose.com/words/net/)
+## Ver también
+[Documentación de Aspose.Word para .NET](https://docs.aspose.com/words/net/)
+[Referencias de Aspose.Word para .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

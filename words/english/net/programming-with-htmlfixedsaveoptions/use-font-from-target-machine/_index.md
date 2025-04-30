@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Font From Target Machine
@@ -119,9 +122,13 @@ Yes, you can use the `DocumentRenderer` class to preview the document before sav
 Absolutely! The `HtmlFixedSaveOptions` class provides various properties to customize the HTML output. Explore the [documentation](https://reference.aspose.com/words/net/) for all available options.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

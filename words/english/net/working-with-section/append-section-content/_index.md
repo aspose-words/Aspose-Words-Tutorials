@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-section/append-section-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Append Section Word Content
@@ -131,9 +134,13 @@ You can get support by visiting the [Aspose support forum](https://forum.aspose.
 ## 5. Can I manipulate other types of documents with Aspose.Words for .NET?
 
 Yes, Aspose.Words for .NET supports various document formats including DOCX, DOC, RTF, HTML, PDF, and more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/allow-only-form-fields-protect/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Allow Only Form Fields Protect In Word Document
@@ -107,9 +110,13 @@ If an incorrect password is used, the document will remain protected, and the sp
 Yes, you can use the `doc.ProtectionType` property to check the protection status of a document.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

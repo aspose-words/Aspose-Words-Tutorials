@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/different-page-setup/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Different Page Setup
@@ -145,9 +148,13 @@ Yes, the `ImportFormatMode.KeepSourceFormatting` option ensures that styles from
 Check out the [Aspose.Words documentation](https://reference.aspose.com/words/net/) or visit their [support forum](https://forum.aspose.com/c/words/8) for more assistance.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

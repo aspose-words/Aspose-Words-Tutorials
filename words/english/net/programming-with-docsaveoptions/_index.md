@@ -7,8 +7,11 @@ weight: 1600
 url: /net/programming-with-docsaveoptions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with DocSaveOptions
@@ -26,9 +29,13 @@ By following these tutorials, you will learn the best practices for saving your 
 | [Do Not Compress Small Metafiles](./do-not-compress-small-metafiles/) | Learn how to use Aspose.Words for .NET to ensure small metafiles in Word documents are not compressed, preserving their quality and integrity. Step-by-step guide included. |
 | [Do Not Save Picture Bullet](./do-not-save-picture-bullet/) | earn how to handle picture bullets in Aspose.Words for .NET with our step-by-step guide. Simplify document management and create professional Word documents effortlessly. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

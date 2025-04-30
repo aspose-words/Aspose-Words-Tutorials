@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/italic-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Italic Text
@@ -96,9 +99,13 @@ Absolutely! Use the same `DocumentBuilder` techniques to format text within tabl
 ### What if I want to make italic text in a specific font size or color?
 You can set additional properties like `builder.Font.Size = 14;` or `builder.Font.Color = Color.Red;` to customize text appearance further.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

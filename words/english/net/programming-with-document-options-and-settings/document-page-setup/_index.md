@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-options-and-settings/document-page-setup/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Page Setup
@@ -102,9 +105,13 @@ It supports a wide range of languages including Asian languages like Chinese and
 ### Where can I find more detailed documentation?
 Detailed documentation is available [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

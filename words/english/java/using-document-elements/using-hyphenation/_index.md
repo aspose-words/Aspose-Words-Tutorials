@@ -7,8 +7,11 @@ weight: 17
 url: /java/using-document-elements/using-hyphenation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Hyphenation in Aspose.Words for Java
@@ -84,9 +87,13 @@ You can visit the [Aspose.Words API Documentation](https://reference.aspose.com/
 
 To get access to Aspose.Words for Java, [click here](https://purchase.aspose.com/buy). Experience the power of document processing in your Java applications!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

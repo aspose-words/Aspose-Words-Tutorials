@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/vertical-merge/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vertical Merge
@@ -123,9 +126,13 @@ No, Aspose.Words for .NET works independently of Microsoft Word. You don't need 
 ### Can I use Aspose.Words for .NET to manipulate existing Word documents?
 Absolutely! Aspose.Words for .NET allows you to create, modify, and manage existing Word documents with ease.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

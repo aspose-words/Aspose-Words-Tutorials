@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-splitting/document-page-separation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Page Separation
@@ -110,9 +113,13 @@ The `extractPages` method preserves all content, including images, tables, and f
 ### Can I split other file types like PDF?  
 No, this tutorial focuses on Word documents. For PDF splitting, use Aspose.PDF.  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

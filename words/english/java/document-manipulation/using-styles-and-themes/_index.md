@@ -7,8 +7,11 @@ weight: 20
 url: /java/document-manipulation/using-styles-and-themes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Styles and Themes in Aspose.Words for Java
@@ -134,9 +137,13 @@ You can set theme properties by modifying the theme object's properties.
 
 You can insert style separators using the `insertStyleSeparator` method of the `DocumentBuilder` class.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

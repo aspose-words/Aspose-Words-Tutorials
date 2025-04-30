@@ -7,8 +7,11 @@ weight: 10
 url: /java/rendering-documents/rendering-shapes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rendering Shapes in Aspose.Words for Java
@@ -108,9 +111,13 @@ For any questions or support, visit the [Aspose.Words for Java forum](https://fo
 Now that you've mastered rendering shapes with Aspose.Words for Java, you're ready to unleash the full potential of this versatile API in your document processing projects. Happy coding!
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -13,8 +13,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -248,9 +251,13 @@ Save your multi-page document with visible page boundaries.
 
 ## Conclusion
 In this guide, you've learned how to use Aspose.Words for Java to customize zoom factors, set different zoom types, and manage visual elements like background shapes and page boundaries. These features allow you to enhance the presentation of your documents programmatically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

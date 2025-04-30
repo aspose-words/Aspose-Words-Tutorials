@@ -7,8 +7,11 @@ weight: 10
 url: /java/using-document-elements/using-comments/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Comments in Aspose.Words for Java
@@ -96,9 +99,13 @@ Aspose.Words for Java allows you to add comments of varying lengths, accommodati
 Now that you have a comprehensive understanding of working with comments in Aspose.Words for Java, you can start creating dynamic and informative documents with ease. Happy coding!
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

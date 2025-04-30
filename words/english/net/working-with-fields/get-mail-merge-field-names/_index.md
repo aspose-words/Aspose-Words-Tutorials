@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/get-mail-merge-field-names/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Mail Merge Field Names
@@ -117,9 +120,13 @@ For support, you can visit the [Aspose forum](https://forum.aspose.com/c/words/8
 ### How can I obtain a temporary license for Aspose.Words?
 You can apply for a temporary license through [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

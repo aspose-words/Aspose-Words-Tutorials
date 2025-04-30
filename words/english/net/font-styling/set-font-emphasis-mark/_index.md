@@ -6,8 +6,11 @@ description: Learn how to set an emphasis mark in Word documents using Aspose.Wo
 keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
 url: /net/font-styling/set-font-emphasis-mark/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Emphasis Mark in Word Document Using Aspose.Words
@@ -15,9 +18,12 @@ url: /net/font-styling/set-font-emphasis-mark/
 Setting an emphasis mark in Word documents is an excellent way to highlight specific text, ensuring it stands out in your content. With Aspose.Words for .NET, you can effortlessly apply emphasis marks, such as an under solid circle, using a few lines of code. This example demonstrates how to use the `DocumentBuilder` class to manipulate Word documents, format text with emphasis marks, and save the result in DOCX format. Follow this guide to streamline your document formatting tasks with professional precision.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 To run the provided code example and use Aspose.Words for .NET, follow these steps:  
@@ -47,8 +53,12 @@ To run the provided code example and use Aspose.Words for .NET, follow these ste
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

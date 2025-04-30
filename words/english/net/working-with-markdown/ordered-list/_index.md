@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/ordered-list/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ordered List
@@ -102,9 +105,13 @@ Yes, you can continue numbering by using the same list format. Aspose.Words allo
 ### How can I remove the list format?  
 You can remove the list format by calling `ListFormat.RemoveNumbers()`. This will turn the list items back into regular paragraphs.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

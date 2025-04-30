@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/document-combining-and-comparison/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Combining and Comparison
@@ -46,9 +49,13 @@ Craft a reader-friendly table of contents with Aspose.Words for Python. Learn to
 Secure your documents with advanced protection using Aspose.Words for Python. Learn how to add passwords, encrypt content, apply digital signatures, and more.
 ### [Managing Digital Signatures and Authenticity](./manage-digital-signatures/)
 Learn how to manage digital signatures and ensure document authenticity using Aspose.Words for Python. Step-by-step guide with source code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

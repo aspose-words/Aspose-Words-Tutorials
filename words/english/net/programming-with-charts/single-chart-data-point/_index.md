@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/single-chart-data-point/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customize A Single Chart Data Point In A Chart
@@ -148,9 +151,13 @@ While Aspose.Words does not support using images directly as markers, you can cr
 
 Aspose.Words for .NET does not support animation for chart data points. However, you can create animated charts using other tools and embed them into your Word documents.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Búsqueda y reemplazo de texto en Aspose.Words para Java
-linktitle: Búsqueda y reemplazo de texto
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a buscar y reemplazar texto en documentos de Word con Aspose.Words para Java. Guía paso a paso con ejemplos de código. Mejore sus habilidades de manipulación de documentos Java.
-weight: 15
-url: /es/java/document-manipulation/finding-and-replacing-text/
+"description": "Aprende a buscar y reemplazar texto en documentos de Word con Aspose.Words para Java. Guía paso a paso con ejemplos de código. Mejora tus habilidades de manipulación de documentos Java."
+"linktitle": "Buscar y reemplazar texto"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Búsqueda y reemplazo de texto en Aspose.Words para Java"
+"url": "/es/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Búsqueda y reemplazo de texto en Aspose.Words para Java
@@ -16,17 +18,17 @@ url: /es/java/document-manipulation/finding-and-replacing-text/
 
 ## Introducción a la búsqueda y reemplazo de texto en Aspose.Words para Java
 
-Aspose.Words para Java es una potente API de Java que le permite trabajar con documentos de Word de forma programática. Una de las tareas habituales al trabajar con documentos de Word es buscar y reemplazar texto. Ya sea que necesite actualizar marcadores de posición en plantillas o realizar manipulaciones de texto más complejas, Aspose.Words para Java puede ayudarlo a lograr sus objetivos de manera eficiente.
+Aspose.Words para Java es una potente API de Java que permite trabajar con documentos de Word mediante programación. Una de las tareas más comunes al trabajar con documentos de Word es buscar y reemplazar texto. Ya sea que necesite actualizar marcadores de posición en plantillas o realizar manipulaciones de texto más complejas, Aspose.Words para Java puede ayudarle a lograr sus objetivos de forma eficiente.
 
 ## Prerrequisitos
 
-Antes de profundizar en los detalles de cómo buscar y reemplazar texto, asegúrese de tener los siguientes requisitos previos:
+Antes de profundizar en los detalles de la búsqueda y el reemplazo de texto, asegúrese de tener los siguientes requisitos previos:
 
-- Entorno de desarrollo Java
+- Entorno de desarrollo de Java
 - Biblioteca Aspose.Words para Java
-- Un documento de Word de muestra con el que trabajar
+- Un documento de Word de muestra para trabajar
 
- Puede descargar la biblioteca Aspose.Words para Java desde[aquí](https://releases.aspose.com/words/java/).
+Puede descargar la biblioteca Aspose.Words para Java desde [aquí](https://releases.aspose.com/words/java/).
 
 ## Cómo buscar y reemplazar texto simple
 
@@ -44,11 +46,11 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- En este ejemplo, cargamos un documento de Word, creamos un`DocumentBuilder` , y utiliza el`replace` método para buscar y reemplazar "texto antiguo" con "texto nuevo" dentro del documento.
+En este ejemplo, cargamos un documento de Word, creamos un `DocumentBuilder`, y utiliza el `replace` método para buscar y reemplazar "texto antiguo" con "texto nuevo" dentro del documento.
 
 ## Uso de expresiones regulares
 
-Las expresiones regulares proporcionan potentes capacidades de búsqueda y reemplazo de patrones para la búsqueda y el reemplazo de texto. Aspose.Words para Java admite expresiones regulares para operaciones de búsqueda y reemplazo más avanzadas.
+Las expresiones regulares ofrecen potentes funciones de coincidencia de patrones para la búsqueda y el reemplazo de texto. Aspose.Words para Java admite expresiones regulares para operaciones de búsqueda y reemplazo más avanzadas.
 
 ```java
 // Cargar el documento
@@ -86,9 +88,9 @@ doc.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Esto es útil cuando desea excluir texto dentro de campos, como campos de combinación, para que no sea reemplazado.
+Esto es útil cuando desea excluir texto dentro de campos, como campos de combinación, para que no sean reemplazados.
 
-## Ignorar texto dentro de Eliminar revisiones
+## Ignorar texto dentro de las revisiones de eliminación
 
 Puede configurar Aspose.Words para ignorar el texto dentro de las revisiones eliminadas durante las operaciones de búsqueda y reemplazo.
 
@@ -107,7 +109,7 @@ doc.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Esto le permite excluir el texto que ha sido marcado para su eliminación en los cambios registrados para que no sea reemplazado.
+Esto le permite excluir el texto que ha sido marcado para su eliminación en los cambios rastreados para que no sea reemplazado.
 
 ## Ignorar texto dentro de las revisiones de inserción
 
@@ -128,7 +130,7 @@ doc.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Esto le permite excluir el texto que ha sido marcado como insertado en los cambios controlados para que no sea reemplazado.
+Esto le permite excluir el texto que ha sido marcado como insertado en los cambios rastreados para que no sea reemplazado.
 
 ## Reemplazar texto con HTML
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- En este ejemplo, utilizamos un personalizado`ReplaceWithHtmlEvaluator` para reemplazar texto con contenido HTML.
+En este ejemplo, utilizamos un método personalizado. `ReplaceWithHtmlEvaluator` para reemplazar texto con contenido HTML.
 
 ## Reemplazo de texto en encabezados y pies de página
 
@@ -175,7 +177,7 @@ doc.save("modified-document.docx");
 
 Esto le permite realizar reemplazos de texto específicamente en encabezados y pies de página.
 
-## Cómo mostrar cambios en los pedidos de encabezado y pie de página
+## Mostrar cambios en los pedidos de encabezado y pie de página
 
 Puede utilizar Aspose.Words para mostrar cambios en los órdenes de encabezado y pie de página en su documento.
 
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // Obtenga la primera sección
 Section firstPageSection = doc.getFirstSection();
 
-//Cree una instancia de FindReplaceOptions y aplíquela al rango del documento
+// Cree una instancia de FindReplaceOptions y aplíquela al rango del documento
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- En este ejemplo, reemplazamos el texto con campos y especificamos el tipo de campo (por ejemplo,`FieldType.FIELD_MERGE_FIELD`).
+En este ejemplo, reemplazamos el texto con campos y especificamos el tipo de campo (por ejemplo, `FieldType.FIELD_MERGE_FIELD`).
 
 ## Reemplazar por un evaluador
 
@@ -304,7 +306,7 @@ Puede utilizar el orden heredado al realizar operaciones de búsqueda y reemplaz
 // Cargar el documento
 Document doc = new Document("your-document.docx");
 
-// Cree una instancia de FindReplaceOptions y configure UseLegacyOrder como verdadero
+// Cree una instancia de FindReplaceOptions y establezca UseLegacyOrder en verdadero
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
@@ -328,7 +330,7 @@ Document doc = new Document("your-document.docx");
 // Obtener una tabla específica (por ejemplo, la primera tabla)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Utilice FindReplaceOptions para reemplazar texto en la tabla
+// Utilice FindReplaceOptions para reemplazar texto en la tabla
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Guardar el documento modificado
@@ -339,32 +341,37 @@ Esto le permite realizar reemplazos de texto específicamente dentro de las tabl
 
 ## Conclusión
 
-Aspose.Words para Java ofrece funciones integrales para buscar y reemplazar texto en documentos de Word. Ya sea que necesite realizar reemplazos de texto simples u operaciones más avanzadas mediante expresiones regulares, manipulaciones de campos o evaluadores personalizados, Aspose.Words para Java lo tiene cubierto. Asegúrese de explorar la extensa documentación y los ejemplos que ofrece Aspose para aprovechar todo el potencial de esta poderosa biblioteca de Java.
+Aspose.Words para Java ofrece funciones completas para buscar y reemplazar texto en documentos de Word. Ya sea que necesite realizar reemplazos de texto sencillos o operaciones más avanzadas con expresiones regulares, manipulación de campos o evaluadores personalizados, Aspose.Words para Java le ofrece la solución. Explore la extensa documentación y los ejemplos que ofrece Aspose para aprovechar al máximo el potencial de esta potente biblioteca de Java.
 
 ## Preguntas frecuentes
 
 ### ¿Cómo descargo Aspose.Words para Java?
 
- Puede descargar Aspose.Words para Java desde el sitio web visitando[Este enlace](https://releases.aspose.com/words/java/).
+Puede descargar Aspose.Words para Java desde el sitio web visitando [este enlace](https://releases.aspose.com/words/java/).
 
-### ¿Puedo usar expresiones regulares para reemplazar texto?
+### ¿Puedo utilizar expresiones regulares para reemplazar texto?
 
-Sí, puede utilizar expresiones regulares para reemplazar texto en Aspose.Words para Java. Esto le permite realizar operaciones de búsqueda y reemplazo más avanzadas y flexibles.
+Sí, puedes usar expresiones regulares para reemplazar texto en Aspose.Words para Java. Esto te permite realizar operaciones de búsqueda y reemplazo más avanzadas y flexibles.
 
 ### ¿Cómo puedo ignorar el texto dentro de los campos durante el reemplazo?
 
-Para ignorar el texto dentro de los campos durante el reemplazo, puede configurar la`IgnoreFields` propiedad de la`FindReplaceOptions` a`true`Esto garantiza que el texto dentro de los campos, como los campos de combinación, se excluya del reemplazo.
+Para ignorar el texto dentro de los campos durante el reemplazo, puede configurar la `IgnoreFields` propiedad de la `FindReplaceOptions` a `true`Esto garantiza que el texto dentro de los campos, como los campos de combinación, se excluya del reemplazo.
 
 ### ¿Puedo reemplazar el texto dentro de los encabezados y pies de página?
 
- Sí, puedes reemplazar el texto dentro de los encabezados y pies de página de tu documento de Word. Simplemente accede al encabezado o pie de página correspondiente y usa el`replace` método con el deseado`FindReplaceOptions`.
+Sí, puedes reemplazar el texto dentro de los encabezados y pies de página de tu documento de Word. Simplemente accede al encabezado o pie de página correspondiente y usa el botón `replace` método con el deseado `FindReplaceOptions`.
 
 ### ¿Para qué sirve la opción UseLegacyOrder?
 
- El`UseLegacyOrder` Opción en`FindReplaceOptions` Permite utilizar el orden heredado al realizar operaciones de búsqueda y reemplazo. Esto puede resultar útil en determinadas situaciones en las que se desea un comportamiento del orden heredado.
+El `UseLegacyOrder` opción en `FindReplaceOptions` Permite usar el orden heredado al realizar operaciones de búsqueda y reemplazo. Esto puede ser útil en ciertos escenarios donde se desea mantener el orden heredado.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

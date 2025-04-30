@@ -1,34 +1,36 @@
 ---
-title: Revisión de la forma
-linktitle: Revisión de la forma
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a gestionar las revisiones de formas en documentos de Word con Aspose.Words para .NET con esta guía completa. Domine el seguimiento de cambios, la inserción de formas y mucho más.
-weight: 10
-url: /es/net/working-with-revisions/shape-revision/
+"description": "Aprenda a gestionar las revisiones de formas en documentos de Word con Aspose.Words para .NET con esta guía completa. Domine el seguimiento de cambios, la inserción de formas y mucho más."
+"linktitle": "Revisión de la forma"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Revisión de la forma"
+"url": "/es/net/working-with-revisions/shape-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Revisión de la forma
 
 ## Introducción
 
-Editar documentos de Word mediante programación puede ser una tarea abrumadora, especialmente cuando se trata de manejar formas. Ya sea que esté creando informes, diseñando plantillas o simplemente automatizando la creación de documentos, la capacidad de realizar un seguimiento y administrar las revisiones de formas es crucial. Aspose.Words para .NET ofrece una potente API para que este proceso sea sencillo y eficiente. En este tutorial, profundizaremos en los detalles de la revisión de formas en documentos de Word, lo que garantizará que tenga las herramientas y el conocimiento para administrar sus documentos con facilidad.
+Editar documentos de Word mediante programación puede ser una tarea abrumadora, especialmente al gestionar formas. Ya sea que esté creando informes, diseñando plantillas o simplemente automatizando la creación de documentos, la capacidad de rastrear y administrar las revisiones de formas es crucial. Aspose.Words para .NET ofrece una potente API para que este proceso sea fluido y eficiente. En este tutorial, profundizaremos en los detalles de la revisión de formas en documentos de Word, asegurándonos de que cuente con las herramientas y los conocimientos necesarios para gestionar sus documentos con facilidad.
 
 ## Prerrequisitos
 
 Antes de sumergirnos en el código, asegurémonos de que tienes todo lo que necesitas:
 
--  Aspose.Words para .NET: Asegúrese de tener instalada la biblioteca Aspose.Words. Puede[Descárgalo aquí](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Asegúrate de tener instalada la biblioteca Aspose.Words. Puedes... [Descárgalo aquí](https://releases.aspose.com/words/net/).
 - Entorno de desarrollo: debe tener configurado un entorno de desarrollo, como Visual Studio.
 - Comprensión básica de C#: familiaridad con el lenguaje de programación C# y conceptos básicos de programación orientada a objetos.
-- Documento de Word: un documento de Word con el que trabajar, o puede crear uno durante el tutorial.
+- Documento de Word: un documento de Word con el que trabajar, o puedes crear uno durante el tutorial.
 
 ## Importar espacios de nombres
 
-En primer lugar, importemos los espacios de nombres necesarios. Estos nos proporcionarán acceso a las clases y métodos necesarios para manejar documentos y formas de Word.
+Primero, importemos los espacios de nombres necesarios. Estos nos darán acceso a las clases y métodos necesarios para gestionar documentos y formas de Word.
 
 ```csharp
 using System;
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 
 ## Paso 1: Configuración del directorio de documentos
 
-Antes de comenzar a trabajar con formas, debemos definir la ruta de acceso al directorio de nuestros documentos. Aquí es donde guardaremos los documentos modificados.
+Antes de empezar a trabajar con formas, debemos definir la ruta de acceso a nuestro directorio de documentos. Aquí guardaremos los documentos modificados.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Paso 2: Crear un nuevo documento
 
-Vamos a crear un nuevo documento de Word donde insertaremos y revisaremos formas.
+Creemos un nuevo documento de Word donde insertaremos y revisaremos formas.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +59,7 @@ Document doc = new Document();
 
 ## Paso 3: Insertar una forma en línea
 
-Comenzaremos insertando una forma en línea en nuestro documento sin realizar un seguimiento de las revisiones. Una forma en línea es aquella que fluye con el texto.
+Comenzaremos insertando una forma en línea en nuestro documento sin seguimiento de revisiones. Una forma en línea se adapta al texto.
 
 ```csharp
 Shape shape = new Shape(doc, ShapeType.Cube);
@@ -69,7 +71,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
 ## Paso 4: Comenzar a realizar un seguimiento de las revisiones
 
-Para realizar un seguimiento de los cambios en nuestro documento, debemos habilitar el seguimiento de revisiones. Esto es esencial para identificar las modificaciones realizadas en las formas.
+Para rastrear los cambios en nuestro documento, necesitamos habilitar el seguimiento de revisiones. Esto es esencial para identificar las modificaciones realizadas en las formas.
 
 ```csharp
 doc.StartTrackRevisions("John Doe");
@@ -77,7 +79,7 @@ doc.StartTrackRevisions("John Doe");
 
 ## Paso 5: Insertar otra forma con revisiones
 
-Ahora que el seguimiento de revisiones está habilitado, insertemos otra forma. Esta vez, se realizará un seguimiento de todos los cambios.
+Ahora que el seguimiento de revisiones está habilitado, insertemos otra forma. Esta vez, se registrarán todos los cambios.
 
 ```csharp
 shape = new Shape(doc, ShapeType.Sun);
@@ -98,7 +100,7 @@ shapes[0].Remove();
 
 ## Paso 7: Guardar el documento
 
-Después de realizar los cambios, debemos guardar el documento. Esto garantiza que se almacenen todas las revisiones y modificaciones.
+Después de realizar los cambios, debemos guardar el documento. Esto garantiza que se guarden todas las revisiones y modificaciones.
 
 ```csharp
 doc.Save(dataDir + "Revision shape.docx");
@@ -115,7 +117,7 @@ shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
 
 ## Conclusión
 
-¡Y ya está! Ha aprendido a gestionar las revisiones de formas en documentos de Word con Aspose.Words para .NET. Ya sea que esté gestionando plantillas de documentos, automatizando informes o simplemente haciendo un seguimiento de los cambios, estas habilidades son invaluables. Si sigue esta guía paso a paso, no solo dominará los conceptos básicos, sino que también adquirirá conocimientos sobre técnicas de gestión de documentos más avanzadas.
+¡Y listo! Has aprendido a gestionar las revisiones de formas en documentos de Word con Aspose.Words para .NET. Ya sea que administres plantillas de documentos, automatices informes o simplemente realices un seguimiento de los cambios, estas habilidades son invaluables. Siguiendo esta guía paso a paso, no solo dominarás los conceptos básicos, sino que también adquirirás conocimientos sobre técnicas más avanzadas de gestión de documentos.
 
 ## Preguntas frecuentes
 
@@ -126,16 +128,21 @@ Aspose.Words para .NET es una potente biblioteca que permite a los desarrollador
 Sí, Aspose.Words para .NET admite el seguimiento de cambios en varios elementos, incluidos texto, tablas y más.
 
 ### ¿Cómo puedo obtener una prueba gratuita de Aspose.Words para .NET?
- Puede obtener una prueba gratuita de Aspose.Words para .NET[aquí](https://releases.aspose.com/).
+Puede obtener una prueba gratuita de Aspose.Words para .NET [aquí](https://releases.aspose.com/).
 
-### ¿Es posible aceptar o rechazar revisiones mediante programación?
+### ¿Es posible aceptar o rechazar revisiones programáticamente?
 Sí, Aspose.Words para .NET proporciona métodos para aceptar o rechazar revisiones mediante programación.
 
 ### ¿Puedo usar Aspose.Words para .NET con otros lenguajes .NET además de C#?
-¡Por supuesto! Aspose.Words para .NET se puede utilizar con cualquier lenguaje .NET, incluidos VB.NET y F#.
+¡Por supuesto! Aspose.Words para .NET se puede usar con cualquier lenguaje .NET, incluyendo VB.NET y F#.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-footnote-and-endnote/set-foot-note-columns/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Footnote Columns
@@ -88,9 +91,13 @@ No, setting footnote columns only affects the footnote area. The main text layou
 ### Can I preview the changes before saving the document?  
 Yes, you can use Aspose.Words' rendering options to preview the document. However, this requires additional steps and setup.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

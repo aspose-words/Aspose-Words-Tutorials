@@ -7,8 +7,11 @@ weight: 1080
 url: /net/working-with-oleobjects-and-activex/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with OleObjects and ActiveX
@@ -27,9 +30,13 @@ These tutorials give you a hands-on, step-by-step approach to Words Processing w
 | [Insert Ole Object As Icon Using Stream](./insert-ole-object-as-icon-using-stream/) | Learn how to insert an OLE object as an icon using a stream with Aspose.Words for .NET in this detailed, step-by-step tutorial. |
 | [Read Active XControl Properties From Word File](./read-active-xcontrol-properties/) | Learn how to read ActiveX control properties from Word files using Aspose.Words for .NET in a step-by-step guide. Enhance your document automation skills. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

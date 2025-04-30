@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-merging/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Merging
@@ -40,9 +43,13 @@ Learn how to join and append documents using Aspose.Words for Java. Step-by-step
 Learn how to compare documents for differences using Aspose.Words in Java. Our step-by-step guide ensures accurate document management.
 ### [Merging Documents with DocumentBuilder](./merging-documents-documentbuilder/)
 Learn how to manipulate Word documents with Aspose.Words for Java. Create, edit, merge, and convert documents programmatically in Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

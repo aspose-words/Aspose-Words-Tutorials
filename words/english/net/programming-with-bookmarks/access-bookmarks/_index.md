@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-bookmarks/access-bookmarks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Bookmarks In Word Document
@@ -139,9 +142,13 @@ Yes, you can remove a bookmark by calling the `Remove` method on the bookmark ob
 Yes, Aspose.Words for .NET is compatible with .NET Core.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

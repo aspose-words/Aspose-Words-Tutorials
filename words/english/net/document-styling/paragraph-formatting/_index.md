@@ -6,17 +6,23 @@ description: Learn how to format paragraphs in a Word document with Aspose.Words
 keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
 url: /net/document-styling/paragraph-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Paragraphs Using Aspose.Words
 This guide provides an example of how to format paragraphs in a Word document using Aspose.Words for .NET. You will learn how to set various paragraph formatting options such as alignment, indentation, and space after paragraphs. The example illustrates the usage of the Document and DocumentBuilder classes, enabling the creation of well-structured documents programmatically.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Download Aspose.Words for .NET: Visit the [Aspose website](https://www.aspose.com/downloads/words/net) to download the latest version of Aspose.Words for .NET.
@@ -41,6 +47,9 @@ This guide provides an example of how to format paragraphs in a Word document us
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

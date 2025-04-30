@@ -7,8 +7,11 @@ weight: 13
 url: /java/table-processing/formatting-tables/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Tables in Documents
@@ -153,9 +156,13 @@ Yes, you can use the `DocumentBuilder` to insert images into table cells.
 ### Where can I find more resources on Aspose.Words for Java?  
 Check the [documentation](https://reference.aspose.com/words/java/) or the [support forum](https://forum.aspose.com/c/words/8/) for detailed guides.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

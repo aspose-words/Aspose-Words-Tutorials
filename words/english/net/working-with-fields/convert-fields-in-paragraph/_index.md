@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/convert-fields-in-paragraph/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Fields In Paragraph
@@ -98,9 +101,13 @@ The method will simply make no changes, as there are no fields to unlink.
 ### Can I revert the changes after unlinking the fields?
 No, once fields are unlinked and converted to plain text, you can't revert them back to fields.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

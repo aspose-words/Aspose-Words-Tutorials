@@ -7,8 +7,11 @@ weight: 30
 url: /java/document-manipulation/joining-and-appending-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Joining and Appending Documents in Aspose.Words for Java
@@ -148,9 +151,13 @@ Set `importFormatOptions.setIgnoreTextBoxes(false)` to include text boxes during
 
 You can link headers and footers with `linkToPrevious(true)` or unlink them with `linkToPrevious(false)` as needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 13
 url: /python-net/content-extraction-and-manipulation/remove-content-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Removing and Refining Content in Word Documents
@@ -149,9 +152,13 @@ Use the `save` method on the document object, specifying the output file path, t
 
 You can find detailed documentation and API references at [Aspose.Words for Python Documentation](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

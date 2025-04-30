@@ -8,8 +8,11 @@ weight: 10
 url: /net/programming-with-loadoptions/set-ms-word-version/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Ms Word Version
@@ -95,9 +98,13 @@ Yes, Aspose.Words is a comprehensive library that allows you to manipulate almos
 Check out the [documentation](https://reference.aspose.com/words/net/) for more examples and detailed information.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

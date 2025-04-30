@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/combo-box-content-control/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combo Box Content Control
@@ -121,9 +124,13 @@ Aside from combo boxes, you can create text input controls, checkboxes, date pic
 ### Where can I find more detailed documentation on Aspose.Words for .NET?
 For detailed documentation, visit the [Aspose.Words for .NET documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

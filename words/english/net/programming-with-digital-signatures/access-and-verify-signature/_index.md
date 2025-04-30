@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-digital-signatures/access-and-verify-signature/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access And Verify Signature In Word Document
@@ -156,9 +159,13 @@ You can get a temporary license for Aspose.Words for .NET from [here](https://pu
 
 You can find detailed documentation for Aspose.Words for .NET [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

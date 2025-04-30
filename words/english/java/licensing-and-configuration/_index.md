@@ -7,8 +7,11 @@ weight: 23
 url: /java/licensing-and-configuration/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Licensing and Configuration
@@ -46,9 +49,13 @@ Remember, for detailed code examples and further guidance, refer to the [Aspose.
 ## Licensing and Configuration Tutorials
 ### [Applying Licensing to Aspose.Words for Java](./applying-licensing/)
 Learn how to apply licensing to Aspose.Words for Java step by step. Get access now and unlock its full potential.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

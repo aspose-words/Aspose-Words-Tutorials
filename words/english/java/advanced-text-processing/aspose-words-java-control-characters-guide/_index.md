@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,9 +181,13 @@ In this guide, we've explored how to master control characters in Aspose.Words f
    Set up your project using Maven or Gradle dependencies and apply for a free trial license if needed.
 3. **Can control characters handle multi-column layouts?**
    Yes, you can use `ControlChar.COLUMN_BREAK` to manage text across multiple columns effectively.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-manipulation/using-xml-data/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using XML Data in Aspose.Words for Java
@@ -83,9 +86,13 @@ Yes, you can control whether leading and trailing whitespaces are trimmed during
 
 The Mustache syntax allows you to format mail merge fields in a more flexible way. Use `doc.getMailMerge().setUseNonMergeFields(true)` to enable Mustache syntax.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

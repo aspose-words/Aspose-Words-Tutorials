@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-styles-and-themes/set-theme-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Theme Properties in Word Document
@@ -97,9 +100,13 @@ You can refer to the [Aspose.Words documentation](https://reference.aspose.com/w
 ### What support options are available if I encounter issues?  
 Aspose provides a [support forum](https://forum.aspose.com/c/words/8) where you can get help from the community and the Aspose team.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

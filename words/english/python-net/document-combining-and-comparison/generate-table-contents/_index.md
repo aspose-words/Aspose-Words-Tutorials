@@ -7,8 +7,11 @@ weight: 15
 url: /python-net/document-combining-and-comparison/generate-table-contents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Crafting Comprehensive Table of Contents for Word Documents
@@ -104,9 +107,13 @@ Yes, you can generate a table of contents for existing documents. Simply load th
 
 If you decide to remove the table of contents, simply delete the section containing the table of contents. Don't forget to update the remaining page numbers to reflect the changes.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

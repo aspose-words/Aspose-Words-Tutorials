@@ -7,8 +7,11 @@ weight: 24
 url: /python-net/document-structure-and-content-manipulation/document-sections/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Document Sections and Layout
@@ -107,9 +110,13 @@ You can use the `Shape` class to add images to headers or footers. Check the API
 ### Where can I download the latest version of Aspose.Words for Python?
 You can download the latest version of Aspose.Words for Python from the [Aspose.Words releases page](https://releases.aspose.com/words/python/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

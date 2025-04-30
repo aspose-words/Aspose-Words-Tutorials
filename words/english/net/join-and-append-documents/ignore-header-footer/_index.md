@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/ignore-header-footer/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Header Footer
@@ -134,9 +137,13 @@ Yes, you can append multiple documents in a loop by repeating the `AppendDocumen
 You can find comprehensive documentation and examples on the [Aspose website](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn how to create a Word document with a styled table using Aspos
 keywords: [Aspose.Words for .NET, styled table, Word document, table style, table formatting, document creation, borders, padding, .NET tutorial]
 url: /net/working-with-table-styles-and-formatting/create-table-style/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Styled Table in Word Document using Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-table-styles-and-formatting/create-table-style/
 In this tutorial, we will walk you through the process of creating a Word document with a customized table using Aspose.Words for .NET. You’ll learn how to initialize a new document, insert table rows and columns, and apply a custom table style with specific border settings and padding. By the end, you’ll be able to save a fully formatted Word document with a styled table that fits your needs.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:
 To get started with Aspose.Words for .NET, follow these steps:
@@ -39,8 +45,12 @@ To get started with Aspose.Words for .NET, follow these steps:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

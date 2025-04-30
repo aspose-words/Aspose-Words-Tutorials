@@ -7,8 +7,11 @@ weight: 17
 url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Tables and Table Styles
@@ -193,9 +196,13 @@ Yes, you can adjust the table layout dynamically by modifying cell sizes, table 
 
 For more detailed examples and options, visit the [Aspose.Words API documentation](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

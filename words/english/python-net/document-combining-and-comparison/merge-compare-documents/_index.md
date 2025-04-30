@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/document-combining-and-comparison/merge-compare-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merging and Comparing Documents in Word
@@ -115,9 +118,13 @@ Yes, you can merge any number of documents using the `append_document` method, a
 
 Access the library and learn more at [here](https://releases.aspose.com/words/python/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

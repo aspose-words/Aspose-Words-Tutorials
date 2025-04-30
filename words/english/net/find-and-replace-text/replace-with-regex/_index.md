@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/replace-with-regex/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace With Regex
@@ -110,9 +113,13 @@ While Aspose.Words doesn't provide a direct preview feature, you can always save
 ### Can I use Aspose.Words for .NET in web applications?  
 Yes, Aspose.Words for .NET is versatile and can be used in various types of applications, including web, desktop, and cloud-based applications.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

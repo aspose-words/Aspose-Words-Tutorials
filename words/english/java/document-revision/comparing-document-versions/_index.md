@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-revision/comparing-document-versions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comparing Document Versions
@@ -128,9 +131,13 @@ No, but you can explore it with a [free trial](https://releases.aspose.com/) or 
 ### What happens to formatting differences during comparison?  
 Aspose.Words can detect and mark formatting changes as revisions, depending on your settings.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

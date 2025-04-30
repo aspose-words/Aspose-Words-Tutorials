@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-rendering/rendering-shapes-graphics/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rendering Shapes and Graphics in Documents
@@ -172,9 +175,13 @@ Yes, you can add text inside a shape. Use the `getTextPath` property of the shap
 
 You can control the order of shapes using the Z-order property. Set the `ZOrder` property of a shape to determine its position in the stack of shapes. Lower values are sent to the back, while higher values are brought to the front.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/replace-text-in-footer/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Text In Footer
@@ -113,9 +116,13 @@ Yes, Aspose.Words supports using regular expressions for find and replace operat
 ### How do I handle multiple footers in a document?
 If your document has multiple sections with different footers, iterate through each section and apply the text replacement for each footer individually.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

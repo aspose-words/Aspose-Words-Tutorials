@@ -7,8 +7,11 @@ weight: 1660
 url: /net/programming-with-ooxmlsaveoptions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Ooxmlsaveoptions
@@ -28,9 +31,13 @@ Whether you want to create documents compatible with older versions of Word, red
 | [Keep Legacy Control Chars](./keep-legacy-control-chars/) | Learn how to preserve legacy control characters in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 | [Set Compression Level](./set-compression-level/) | Learn how to set the compression level in Word documents using Aspose.Words for .NET. Follow our step-by-step guide to optimize your document storage and performance. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

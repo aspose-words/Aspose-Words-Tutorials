@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-splitting/extracting-document-content-pages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extracting Document Content by Pages
@@ -164,9 +167,13 @@ Aspose.Words for Java requires a valid license for commercial use. Make sure to 
 
 Congratulations! You've completed the step-by-step guide on extracting document content by pages using Aspose.Words for Java. You now possess a valuable skillset for working with Word documents programmatically. Feel free to explore more features of Aspose.Words and unleash your creativity in document manipulation.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

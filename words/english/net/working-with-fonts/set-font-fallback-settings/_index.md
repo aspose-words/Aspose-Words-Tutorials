@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-font-fallback-settings/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Font Fallback Settings
@@ -123,9 +126,13 @@ The XML file can be created using any text editor. It should follow the structur
 
 Yes, you can find support on the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

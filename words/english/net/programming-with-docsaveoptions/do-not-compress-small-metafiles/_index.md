@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Do Not Compress Small Metafiles
@@ -111,9 +114,13 @@ Aspose.Words for .NET allows you to set compliance options such as `PdfComplianc
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/), and you can download the latest version [here](https://releases.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

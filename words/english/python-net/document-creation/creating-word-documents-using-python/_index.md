@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/document-creation/creating-word-documents-using-python/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comprehensive Guide - Creating Word Documents Using Python
@@ -171,9 +174,13 @@ Yes, Aspose.Words for Python supports mail merge functionality. This feature all
 
 Yes, Aspose.Words for Python is designed to handle complex documents with multiple sections, headers, footers, and page settings. You can programmatically create and modify the structure of the document as needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 29
 url: /java/document-manipulation/formatting-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Documents in Aspose.Words for Java
@@ -189,9 +192,13 @@ Yes, Aspose.Words for Java provides excellent support for creating and formattin
 
 You can fine-tune paragraph spacing for Asian text by adjusting the relevant settings in Aspose.Words for Java.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

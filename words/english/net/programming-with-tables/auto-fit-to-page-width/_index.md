@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/auto-fit-to-page-width/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto Fit To Window
@@ -108,9 +111,13 @@ Aspose.Words primarily supports Word documents (.docx). For other formats, you m
 ### How can I get a trial version of Aspose.Words?  
 You can download a free trial version [here](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

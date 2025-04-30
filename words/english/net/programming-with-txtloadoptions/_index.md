@@ -7,8 +7,11 @@ weight: 1640
 url: /net/programming-with-txtloadoptions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Txtloadoptions
@@ -26,9 +29,13 @@ By using Aspose.Words, you can effectively automate Word document processing tas
 | [Handle Spaces Options](./handle-spaces-options/) | Learn how to handle leading and trailing spaces in text documents with Aspose.Words for .NET. This tutorial provides a guide to clean up text formatting. |
 | [Document Text Direction](./document-text-direction/) | Learn how to set document text direction in Word using Aspose.Words for .NET with this step-by-step guide. Perfect for handling right-to-left languages. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

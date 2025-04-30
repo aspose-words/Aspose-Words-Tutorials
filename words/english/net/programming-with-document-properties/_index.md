@@ -7,8 +7,11 @@ weight: 1520
 url: /net/programming-with-document-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Document Properties
@@ -31,9 +34,13 @@ Whether you are a beginner or an experienced developer, the Aspose.Words for .NE
 | [Convert Between Measurement Units](./convert-between-measurement-units/) | Learn how to convert measurement units in Aspose.Words for .NET. Follow our step-by-step guide to set document margins, headers, and footers in inches and points. |
 | [Use Control Characters](./use-control-characters/) | Discover how to automate Word document tasks using Aspose.Words for .NET. This guide covers setup, text replacement, and more, making your workflow efficient. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

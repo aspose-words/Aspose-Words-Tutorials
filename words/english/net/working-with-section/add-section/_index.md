@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-section/add-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Sections in Word
@@ -137,9 +140,13 @@ No, sections cannot be nested within each other. However, you can have multiple 
 
 For more information, you can visit the [Aspose.Words documentation](https://reference.aspose.com/words/net/) or the [support forum](https://forum.aspose.com/c/words/8) for help and discussions.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

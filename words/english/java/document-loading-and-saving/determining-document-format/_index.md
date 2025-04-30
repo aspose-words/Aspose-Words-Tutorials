@@ -7,8 +7,11 @@ weight: 25
 url: /java/document-loading-and-saving/determining-document-format/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determining Document Format in Aspose.Words for Java
@@ -213,9 +216,13 @@ Older document formats, such as MS Word 6 or Word 95, may have limitations in te
 
 Yes, you can automate document format detection by integrating the provided code into your Java application. This allows you to process documents based on their detected formats.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

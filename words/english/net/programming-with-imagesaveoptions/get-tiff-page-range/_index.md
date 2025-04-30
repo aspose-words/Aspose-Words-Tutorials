@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-imagesaveoptions/get-tiff-page-range/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Tiff Page Range
@@ -113,9 +116,13 @@ Yes, you can use Aspose.Words to add annotations or watermarks to your Word docu
 
 Aspose.Words for .NET supports a wide range of image formats, including PNG, JPEG, BMP, and GIF. You can specify the desired format in the `ImageSaveOptions`.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

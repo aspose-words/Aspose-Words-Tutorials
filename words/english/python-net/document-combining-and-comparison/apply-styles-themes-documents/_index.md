@@ -7,8 +7,11 @@ weight: 14
 url: /python-net/document-combining-and-comparison/apply-styles-themes-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Styles and Themes to Transform Documents
@@ -117,9 +120,13 @@ Themes provide a cohesive look and feel by grouping styles together, resulting i
 
 Yes, you can easily remove formatting and styles using the `clear_formatting()` method provided by Aspose.Words for Python.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

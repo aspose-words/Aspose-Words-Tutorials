@@ -7,8 +7,11 @@ weight: 16
 url: /java/using-document-elements/using-headers-and-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Headers and Footers in Aspose.Words for Java
@@ -234,9 +237,13 @@ Yes, you can use `PageSetup.OddAndEvenPagesHeaderFooter` to specify different he
 ### 5. How do I get started with Aspose.Words for Java?
 To begin, visit the [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/) for comprehensive guidance on using the API.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

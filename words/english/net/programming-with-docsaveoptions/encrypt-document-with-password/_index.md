@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-docsaveoptions/encrypt-document-with-password/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Encrypt Document With Password
@@ -111,9 +114,13 @@ Yes, by saving the document without specifying a password, you can remove the ex
 ### How secure is the encryption provided by Aspose.Words for .NET?
 Aspose.Words for .NET uses strong encryption standards, ensuring that your documents are well-protected.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

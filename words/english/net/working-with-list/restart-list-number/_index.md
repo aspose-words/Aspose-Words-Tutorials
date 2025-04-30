@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-list/restart-list-number/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Restart List Number
@@ -131,9 +134,13 @@ If you want to continue numbering, you don't need to create a copy of the list. 
 
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

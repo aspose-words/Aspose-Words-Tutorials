@@ -1,33 +1,35 @@
 ---
-title: Insertar campos anidados
-linktitle: Insertar campos anidados
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a insertar campos anidados en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Perfecta para desarrolladores que buscan automatizar la creación de documentos.
-weight: 10
-url: /es/net/working-with-fields/insert-nested-fields/
+"description": "Aprenda a insertar campos anidados en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Ideal para desarrolladores que buscan automatizar la creación de documentos."
+"linktitle": "Insertar campos anidados"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Insertar campos anidados"
+"url": "/es/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insertar campos anidados
 
 ## Introducción
 
-¿Alguna vez ha tenido que insertar campos anidados en sus documentos de Word mediante programación? ¿Quizás desee mostrar condicionalmente diferentes textos según el número de página? ¡Pues está de suerte! Este tutorial le guiará a través del proceso de inserción de campos anidados mediante Aspose.Words para .NET. ¡Vamos a profundizar!
+¿Alguna vez has tenido que insertar campos anidados en tus documentos de Word mediante programación? ¿Quizás quieras mostrar diferentes textos según el número de página? ¡Tienes suerte! Este tutorial te guiará en el proceso de inserción de campos anidados con Aspose.Words para .NET. ¡Comencemos!
 
 ## Prerrequisitos
 
 Antes de comenzar, necesitarás algunas cosas:
 
-1.  Aspose.Words para .NET: Asegúrese de tener la biblioteca Aspose.Words para .NET. Puede descargarla desde[aquí](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Asegúrate de tener la biblioteca Aspose.Words para .NET. Puedes descargarla desde [aquí](https://releases.aspose.com/words/net/).
 2. Entorno de desarrollo: un IDE como Visual Studio.
 3. Conocimientos básicos de C#: comprensión del lenguaje de programación C#.
 
 ## Importar espacios de nombres
 
-En primer lugar, asegúrese de importar los espacios de nombres necesarios en su proyecto. Estos espacios de nombres contienen las clases que necesitará para interactuar con Aspose.Words.
+Primero, asegúrese de importar los espacios de nombres necesarios en su proyecto. Estos espacios de nombres contienen las clases que necesitará para interactuar con Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Paso 2: Insertar saltos de página
 
-A continuación, insertaremos algunos saltos de página en el documento. Esto nos permitirá demostrar los campos anidados de forma eficaz.
+A continuación, insertaremos algunos saltos de página en el documento. Esto nos permitirá mostrar los campos anidados eficazmente.
 
 ```csharp
 // Insertar saltos de página.
@@ -62,7 +64,7 @@ for (int i = 0; i < 5; i++)
 
 ## Paso 3: Mover al pie de página
 
-Después de insertar saltos de página, debemos pasar al pie de página del documento. Aquí es donde insertaremos nuestro campo anidado.
+Después de insertar saltos de página, debemos ir al pie de página del documento. Aquí es donde insertaremos nuestro campo anidado.
 
 ```csharp
 // Mover al pie de página.
@@ -71,7 +73,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 
 ## Paso 4: Insertar campo anidado
 
-Ahora, insertemos el campo anidado. Usaremos el campo IF para mostrar texto condicionalmente según el número de página actual.
+Ahora, insertemos el campo anidado. Usaremos el campo SI para mostrar el texto condicionalmente según el número de página actual.
 
 ```csharp
 // Insertar campo anidado.
@@ -83,7 +85,7 @@ builder.InsertField("NUMPAGES");
 builder.Write(" \"See next page\" \"Last page\" ");
 ```
 
-En este paso, primero insertamos el campo IF, nos desplazamos hasta su separador y luego insertamos los campos PAGE y NUMPAGES. El campo IF verifica si el número de página actual (PAGE) no es igual al número total de páginas (NUMPAGES). Si es verdadero, muestra “Ver página siguiente”, de lo contrario, muestra “Última página”.
+En este paso, primero insertamos el campo SI, nos desplazamos hasta su separador y luego insertamos los campos PÁGINA y NÚMERO DE PÁGINAS. El campo SI comprueba si el número de página actual (PÁGINA) es diferente del número total de páginas (NÚMERO DE PÁGINAS). Si es verdadero, muestra "Ver página siguiente"; de lo contrario, muestra "Última página".
 
 ## Paso 5: Actualizar el campo
 
@@ -104,27 +106,32 @@ doc.Save(dataDir + "InsertNestedFields.docx");
 
 ## Conclusión
 
-¡Y ya está! Ha insertado correctamente campos anidados en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita enormemente la manipulación de documentos de Word mediante programación. Ya sea que esté generando informes, creando plantillas o automatizando flujos de trabajo de documentos, Aspose.Words lo tiene cubierto.
+¡Y listo! Has insertado correctamente campos anidados en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita enormemente la manipulación programática de documentos de Word. Ya sea que generes informes, crees plantillas o automatices flujos de trabajo, Aspose.Words te ayuda.
 
 ## Preguntas frecuentes
 
 ### ¿Qué es un campo anidado en documentos de Word?
-Un campo anidado es un campo que contiene otros campos en su interior. Permite incluir contenido más complejo y condicional en los documentos.
+Un campo anidado es un campo que contiene otros campos. Permite contenido más complejo y condicional en los documentos.
 
 ### ¿Puedo utilizar otros campos dentro del campo SI?
-Sí, puedes anidar varios campos como FECHA, HORA y AUTOR dentro del campo SI para crear contenido dinámico.
+Sí, puede anidar varios campos como FECHA, HORA y AUTOR dentro del campo SI para crear contenido dinámico.
 
 ### ¿Aspose.Words para .NET es gratuito?
- Aspose.Words para .NET es una biblioteca comercial, pero puedes conseguir una[prueba gratis](https://releases.aspose.com/) Para probarlo.
+Aspose.Words para .NET es una biblioteca comercial, pero puedes conseguir una [prueba gratuita](https://releases.aspose.com/) para probarlo.
 
-### ¿Puedo usar Aspose.Words con otros lenguajes .NET?
+### ¿Puedo utilizar Aspose.Words con otros lenguajes .NET?
 Sí, Aspose.Words admite todos los lenguajes .NET, incluidos VB.NET y F#.
 
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Words para .NET?
- Puede encontrar documentación detallada[aquí](https://reference.aspose.com/words/net/).
+Puede encontrar documentación detallada [aquí](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

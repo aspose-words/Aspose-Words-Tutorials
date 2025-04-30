@@ -7,8 +7,11 @@ weight: 10
 url: /java/licensing-and-configuration/applying-licensing/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Licensing to Aspose.Words for Java
@@ -130,9 +133,13 @@ Yes, you can find sample projects and code examples in the Aspose.Words for Java
 Now that you have a comprehensive understanding of applying licensing to Aspose.Words for Java, you can start leveraging its powerful features for document processing in your Java applications.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

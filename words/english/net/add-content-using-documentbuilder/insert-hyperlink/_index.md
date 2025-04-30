@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-hyperlink/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Hyperlink In Word Document
@@ -130,9 +133,13 @@ The `InsertHyperlink` method doesn't validate URLs, so it's important to ensure 
 
 Yes, you can remove a hyperlink by accessing the `FieldHyperlink` and calling the `Remove` method.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

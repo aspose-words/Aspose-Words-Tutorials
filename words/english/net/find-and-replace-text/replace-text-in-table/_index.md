@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/replace-text-in-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Text In Table
@@ -110,9 +113,13 @@ Aspose.Words for .NET allows you to replace text with various objects, including
 ### What if the text to be replaced contains special characters?
 Special characters need to be escaped or handled correctly using the appropriate methods provided by Aspose.Words for .NET.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

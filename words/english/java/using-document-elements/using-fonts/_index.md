@@ -7,8 +7,11 @@ weight: 12
 url: /java/using-document-elements/using-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Fonts in Aspose.Words for Java
@@ -98,9 +101,13 @@ A: You can use the `Font.setColor()` method to set the font color.
 ### Q: Are there any limitations on the number of fonts I can use in a document?
 A: Aspose.Words for Java supports a wide range of fonts, and there are generally no strict limitations on the number of fonts you can use in a document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

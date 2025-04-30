@@ -1,28 +1,30 @@
 ---
-title: Unidad de intervalo entre etiquetas en el eje de un gráfico
-linktitle: Unidad de intervalo entre etiquetas en el eje de un gráfico
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a establecer la unidad de intervalo entre etiquetas en el eje de un gráfico usando Aspose.Words para .NET.
-weight: 10
-url: /es/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "Aprenda a establecer la unidad de intervalo entre etiquetas en el eje de un gráfico usando Aspose.Words para .NET."
+"linktitle": "Unidad de intervalo entre etiquetas en el eje de un gráfico"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Unidad de intervalo entre etiquetas en el eje de un gráfico"
+"url": "/es/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unidad de intervalo entre etiquetas en el eje de un gráfico
 
 ## Introducción
 
-¡Bienvenido a nuestra guía completa sobre el uso de Aspose.Words para .NET! Ya sea que sea un desarrollador experimentado o que recién esté comenzando, este artículo lo guiará a través de todo lo que necesita saber sobre cómo aprovechar Aspose.Words para manipular y generar documentos de Word de manera programática en aplicaciones .NET.
+¡Bienvenido a nuestra guía completa sobre el uso de Aspose.Words para .NET! Tanto si eres un desarrollador experimentado como si estás empezando, este artículo te explicará todo lo que necesitas saber sobre cómo usar Aspose.Words para manipular y generar documentos de Word programáticamente en aplicaciones .NET.
 
 ## Prerrequisitos
 
-Antes de sumergirse en Aspose.Words, asegúrese de tener lo siguiente configurado:
+Antes de sumergirse en Aspose.Words, asegúrese de tener la siguiente configuración:
 - Visual Studio instalado en su máquina
 - Conocimientos básicos del lenguaje de programación C#
--  Acceso a la biblioteca Aspose.Words para .NET (enlace de descarga)[aquí](https://releases.aspose.com/words/net/))
+- Acceso a la biblioteca Aspose.Words para .NET (enlace de descarga) [aquí](https://releases.aspose.com/words/net/))
 
 ## Importación de espacios de nombres y primeros pasos
 
@@ -32,7 +34,7 @@ Comencemos importando los espacios de nombres necesarios y configurando nuestro 
 Para comenzar, inicie Visual Studio y cree un nuevo proyecto C#.
 
 ### Instalación de Aspose.Words para .NET
- Puede instalar Aspose.Words para .NET a través del Administrador de paquetes NuGet o descargándolo directamente desde[Sitio web de Aspose](https://releases.aspose.com/words/net/).
+Puede instalar Aspose.Words para .NET a través del Administrador de paquetes NuGet o descargándolo directamente desde [Sitio web de Aspose](https://releases.aspose.com/words/net/).
 
 ### Importación del espacio de nombres Aspose.Words
 En su archivo de código C#, importe el espacio de nombres Aspose.Words para obtener acceso a sus clases y métodos:
@@ -47,7 +49,7 @@ Para insertar un gráfico en un documento de Word, siga estos pasos:
 
 ### Paso 1.1: Inicializar DocumentBuilder e insertar un gráfico
 ```csharp
-// Ruta al directorio de su documento
+// Ruta a su directorio de documentos 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -80,7 +82,7 @@ doc.Save(dataDir + "WorkingWithCharts.IntervalUnitBetweenLabelsOnAxis.docx");
 
 ## Conclusión
 
-¡Felicitaciones! Aprendió a integrar y manipular gráficos con Aspose.Words para .NET. Esta potente biblioteca permite a los desarrolladores crear documentos dinámicos y visualmente atractivos sin esfuerzo.
+¡Felicitaciones! Has aprendido a integrar y manipular gráficos con Aspose.Words para .NET. Esta potente biblioteca permite a los desarrolladores crear documentos dinámicos y visualmente atractivos sin esfuerzo.
 
 
 ## Preguntas frecuentes
@@ -89,20 +91,25 @@ doc.Save(dataDir + "WorkingWithCharts.IntervalUnitBetweenLabelsOnAxis.docx");
 Aspose.Words para .NET es una biblioteca de procesamiento de documentos que permite a los desarrolladores crear, modificar y convertir documentos de Word dentro de aplicaciones .NET.
 
 ### ¿Dónde puedo encontrar documentación de Aspose.Words para .NET?
- Puede encontrar documentación detallada[aquí](https://reference.aspose.com/words/net/).
+Puede encontrar documentación detallada [aquí](https://reference.aspose.com/words/net/).
 
 ### ¿Puedo probar Aspose.Words para .NET antes de comprarlo?
- Sí, puedes descargar una versión de prueba gratuita[aquí](https://releases.aspose.com/).
+Sí, puedes descargar una prueba gratuita [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.Words para .NET?
- Para obtener ayuda y participar en debates comunitarios, visite[Foro Aspose.Words](https://forum.aspose.com/c/words/8).
+Para obtener ayuda y participar en debates comunitarios, visite el sitio [Foro de Aspose.Words](https://forum.aspose.com/c/words/8).
 
-### ¿Dónde puedo comprar una licencia para Aspose.Words para .NET?
- Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+### ¿Dónde puedo comprar una licencia de Aspose.Words para .NET?
+Puedes comprar una licencia [aquí](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

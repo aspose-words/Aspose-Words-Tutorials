@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/get-protection-type/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Protection Type In Word Document
@@ -92,9 +95,13 @@ For any issues, you can visit the [Aspose.Words support forum](https://forum.asp
 ### Is Aspose.Words compatible with .NET Core?
 Yes, Aspose.Words is compatible with both .NET Framework and .NET Core.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/get-actual-shape-bounds-points/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Actual Shape Bounds Points
@@ -98,9 +101,13 @@ Set `shape.AspectRatioLocked = true;` to maintain the original proportions when 
 ### Is it possible to get bounds in units other than points?
 Yes, you can convert points to other units such as inches or centimeters using appropriate conversion factors.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

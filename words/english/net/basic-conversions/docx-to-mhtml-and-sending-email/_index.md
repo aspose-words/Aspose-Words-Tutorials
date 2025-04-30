@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/docx-to-mhtml-and-sending-email/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Docx To Mhtml And Sending Email
@@ -107,9 +110,13 @@ Yes, both libraries require licenses. You can get a temporary license from the [
 You can find detailed documentation for Aspose.Words [here](https://reference.aspose.com/words/net/) and for Aspose.Email [here](https://reference.aspose.com/email/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

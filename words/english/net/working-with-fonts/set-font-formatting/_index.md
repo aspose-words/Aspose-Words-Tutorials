@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-font-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Font Formatting
@@ -109,9 +112,13 @@ You can get support from the Aspose community and support team [here](https://fo
 ### Can I format specific parts of the text differently?
 Yes, you can apply different formatting to specific parts of the text by adjusting the `Font` properties of the `DocumentBuilder` as needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

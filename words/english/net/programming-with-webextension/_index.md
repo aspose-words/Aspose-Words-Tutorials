@@ -7,8 +7,11 @@ weight: 1530
 url: /net/programming-with-webextension/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Webextension
@@ -24,9 +27,13 @@ By following these tutorials, you will be able to fully exploit the capabilities
 | --- | --- |
 | [Using Web Extension Task Panes](./using-web-extension-task-panes/) | Learn how to add and configure Web Extension Task Panes in Word documents using Aspose.Words for .NET in this detailed, step-by-step tutorial. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/bulleted-list/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bulleted List
@@ -104,9 +107,13 @@ Feel free to experiment with different list styles and formats to suit your need
 ### How can I create a multi-column bulleted list?
    You can use table formatting to create multi-column lists, where each cell contains a separate bulleted list.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/apply-license/apply-license-from-stream/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply License From Stream
@@ -106,9 +109,13 @@ Store it in a secure location within your project directory and ensure it's acce
 Yes, the same principle applies. Just ensure the stream contains the license file data.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

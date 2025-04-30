@@ -1,27 +1,29 @@
 ---
-title: Tabla formateada
-linktitle: Tabla formateada
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a crear y formatear tablas en documentos de Word usando Aspose.Words para .NET con esta guía detallada paso a paso.
-weight: 10
-url: /es/net/programming-with-tables/formatted-table/
+"description": "Aprenda a crear y formatear tablas en documentos de Word usando Aspose.Words para .NET con esta guía detallada paso a paso."
+"linktitle": "Tabla formateada"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Tabla formateada"
+"url": "/es/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabla formateada
 
 ## Introducción
 
-Crear y formatear tablas en documentos de Word mediante programación puede parecer una tarea abrumadora, pero con Aspose.Words para .NET, se vuelve sencillo y manejable. En este tutorial, le mostraremos cómo crear una tabla con formato en un documento de Word utilizando Aspose.Words para .NET. Cubriremos todo, desde la configuración de su entorno hasta cómo guardar su documento con una tabla con un formato atractivo.
+Crear y formatear tablas en documentos de Word mediante programación puede parecer una tarea ardua, pero con Aspose.Words para .NET, se vuelve sencillo y fácil de manejar. En este tutorial, le mostraremos cómo crear una tabla formateada en un documento de Word con Aspose.Words para .NET. Cubriremos todo, desde la configuración de su entorno hasta cómo guardar su documento con una tabla perfectamente formateada.
 
 ## Prerrequisitos
 
-Antes de sumergirnos en el código, asegurémonos de que tienes todo lo que necesitas:
+Antes de sumergirnos en el código, asegurémonos de tener todo lo que necesitas:
 
-1. Biblioteca Aspose.Words para .NET: Descárguela desde[aquí](https://releases.aspose.com/words/net/).
+1. Biblioteca Aspose.Words para .NET: Descárguela desde [aquí](https://releases.aspose.com/words/net/).
 2. Entorno de desarrollo: un IDE como Visual Studio.
 3. .NET Framework: asegúrese de tener .NET Framework instalado en su máquina.
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## Paso 1: Configurar el directorio de documentos
+## Paso 1: Configure su directorio de documentos
 
 Primero debes definir la ruta donde se guardará tu documento.
 
@@ -44,7 +46,7 @@ Primero debes definir la ruta donde se guardará tu documento.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Reemplazar`"YOUR DOCUMENT DIRECTORY"` con la ruta real donde desea guardar el documento.
+Reemplazar `"YOUR DOCUMENT DIRECTORY"` con la ruta real donde desea guardar el documento.
 
 ## Paso 2: Inicializar el documento y DocumentBuilder
 
@@ -55,22 +57,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- El`DocumentBuilder` es una clase auxiliar que simplifica el proceso de creación de documentos.
+El `DocumentBuilder` es una clase auxiliar que simplifica el proceso de creación de documentos.
 
 ## Paso 3: Iniciar la tabla
 
- A continuación, comience a crear la tabla utilizando el`StartTable` método.
+A continuación, comience a crear la tabla utilizando el `StartTable` método.
 
 ```csharp
 Table table = builder.StartTable();
 builder.InsertCell();
 ```
 
-Insertar una celda es necesario para comenzar la tabla.
+Es necesario insertar una celda para comenzar la tabla.
 
 ## Paso 4: Aplicar formato a toda la tabla
 
-Puede aplicar un formato que afecte a toda la tabla. Por ejemplo, establecer la sangría izquierda:
+Puedes aplicar formato a toda la tabla. Por ejemplo, establecer la sangría izquierda:
 
 ```csharp
 table.LeftIndent = 20.0;
@@ -163,7 +165,7 @@ Esto creará y guardará un documento de Word con la tabla formateada.
 
 ## Conclusión
 
-¡Y ya está! Siguiendo estos pasos, puedes crear una tabla con el formato correcto en un documento de Word usando Aspose.Words para .NET. Esta potente biblioteca facilita la manipulación programática de documentos de Word, lo que te permite ahorrar tiempo y esfuerzo.
+¡Listo! Siguiendo estos pasos, puedes crear una tabla con buen formato en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita la manipulación programática de documentos de Word, ahorrándote tiempo y esfuerzo.
 
 ## Preguntas frecuentes
 
@@ -171,19 +173,24 @@ Esto creará y guardará un documento de Word con la tabla formateada.
 Aspose.Words para .NET es una potente biblioteca para crear, editar y convertir documentos de Word mediante programación.
 
 ### ¿Puedo usar diferentes colores para diferentes filas?
-Sí, puede aplicar diferentes formatos, incluidos colores, a diferentes filas o celdas.
+Sí, puedes aplicar diferentes formatos, incluidos colores, a diferentes filas o celdas.
 
 ### ¿Aspose.Words para .NET es gratuito?
- Aspose.Words para .NET es una biblioteca paga, pero puedes obtener una[prueba gratis](https://releases.aspose.com/).
+Aspose.Words para .NET es una biblioteca paga, pero puedes obtener una [prueba gratuita](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.Words para .NET?
- Puede obtener ayuda de la[Foros de la comunidad Aspose](https://forum.aspose.com/c/words/8).
+Puede obtener ayuda de la [Foros de la comunidad de Aspose](https://forum.aspose.com/c/words/8).
 
 ### ¿Puedo crear otros tipos de documentos con Aspose.Words para .NET?
 Sí, Aspose.Words para .NET admite varios formatos de documentos, incluidos PDF, HTML y TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Table Repeating Section Mapped To Custom Xml Part
@@ -127,9 +130,13 @@ Yes, you can structure your custom XML part with any data types and map them acc
 ### How do I add more rows to the repeating section?
 The repeating section automatically replicates the row structure for each item in the mapped XML path.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

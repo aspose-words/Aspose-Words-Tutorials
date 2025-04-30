@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/current-state-of-check-box/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Current State Of Check Box
@@ -109,9 +112,13 @@ Absolutely. You can read the state of a checkbox by accessing the `Checked` prop
 ### How do I get a temporary license for Aspose.Words for .NET?
 You can obtain a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/), which allows you to evaluate the full functionality of the library.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

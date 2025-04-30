@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/remove-read-only-restriction/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Read Only Restriction
@@ -121,9 +124,13 @@ Yes, you can loop through multiple documents and apply the same method to each o
 
 Unfortunately, you need to know the password to remove any restrictions. Without the password, you won't be able to modify the protection settings.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn to create a Word document with a formatted table using Aspose
 keywords: [Aspose.Words, .NET, Word document, formatted table, DocumentBuilder, table formatting, C# example]
 url: /net/working-with-table-styles-and-formatting/set-table-row-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Formatted Table in Word with Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-table-styles-and-formatting/set-table-row-formatting/
 This example demonstrates how to create a Word document containing a formatted table using Aspose.Words for .NET. You will learn to initialize a new document, set up a table with specific row formatting and padding, and save the document to a specified path. This guide is ideal for developers looking to enhance their document generation capabilities with Aspose.Words.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Words for .NET: Use NuGet Package Manager to install Aspose.Words. You can run the following command in the Package Manager Console:
@@ -35,8 +41,12 @@ This example demonstrates how to create a Word document containing a formatted t
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 19
 url: /java/document-revision/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Revision
@@ -43,9 +46,13 @@ Learn how to manage document changes effortlessly with Aspose.Words for Java. Ac
 Learn efficient document version control using Aspose.Words for Java. Manage changes, collaborate seamlessly, and track revisions effortlessly.
 ### [Document Collaboration and Review](./document-collaboration-review/)
 Unlock Efficient Document Collaboration and Review with Aspose.Words for Java. Learn How to Track Changes, Share Documents, and Streamline Workflow.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

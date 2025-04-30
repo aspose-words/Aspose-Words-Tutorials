@@ -7,8 +7,11 @@ weight: 1570
 url: /net/programming-with-watermark/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Watermark
@@ -20,9 +23,13 @@ Words Processing with Watermark is a comprehensive resource that walks you throu
 | --- | --- |
 | [Add Text Watermark With Specific Options](./add-text-watermark-with-specific-options/) | Learn how to add a text watermark with specific options to your Word documents using Aspose.Words for .NET. Customize font, size, color, and layout easily. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -224,9 +227,13 @@ To ensure optimal performance:
 - **Optimize Resource Handling:** Only load essential resources and store them locally when necessary.
 - **Monitor Load Times:** Use progress callbacks to alert users of long processing times, allowing you to optimize further.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

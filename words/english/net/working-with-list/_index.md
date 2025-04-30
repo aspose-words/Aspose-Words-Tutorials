@@ -7,8 +7,11 @@ weight: 780
 url: /net/working-with-list/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with List
@@ -23,9 +26,13 @@ Words Processing with Lists is a comprehensive resource that guides you through 
 | [Specify List Level](./specify-list-level/) | Learn how to create multi-level numbered and bulleted lists in Word documents using Aspose.Words for .NET. Step-by-step guide included. Perfect for .NET developers. |
 | [Restart List Number](./restart-list-number/) | Learn how to restart list numbers in Word documents using Aspose.Words for .NET. This detailed, 2000-word guide covers everything you need to know, from setup to advanced customization. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

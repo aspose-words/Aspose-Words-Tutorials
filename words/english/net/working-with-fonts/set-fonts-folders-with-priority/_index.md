@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-fonts-folders-with-priority/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fonts Folders With Priority
@@ -97,9 +100,13 @@ The system fonts are always included by default, but you can set their priority 
 ### Is it possible to use network paths for custom font folders?
 Yes, you can specify network paths as custom font folders, allowing you to centralize font resources on a network location.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

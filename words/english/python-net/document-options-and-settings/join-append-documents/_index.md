@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/document-options-and-settings/join-append-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Techniques for Joining and Appending Documents
@@ -124,9 +127,13 @@ Absolutely, you can encapsulate the merging logic into functions or classes to a
 
 For more detailed information, documentation, and examples, visit the [Aspose.Words for Python API References](https://reference.aspose.com/words/python-net/) page.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

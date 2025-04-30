@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-imagesaveoptions/format-1bpp-indexed/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format 1Bpp Indexed
@@ -100,9 +103,13 @@ Aspose.Words supports various image formats including JPEG, BMP, and TIFF. Simpl
 You can find detailed documentation on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

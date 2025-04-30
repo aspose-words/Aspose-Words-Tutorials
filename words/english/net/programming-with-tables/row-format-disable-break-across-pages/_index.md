@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/row-format-disable-break-across-pages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Row Format Disable Break Across Pages
@@ -92,9 +95,13 @@ You can check if a row allows breaking across pages by accessing the `AllowBreak
 ### Is there a way to apply this setting to all tables in a document?  
 Yes, you can loop through all tables in the document and apply this setting to each one.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

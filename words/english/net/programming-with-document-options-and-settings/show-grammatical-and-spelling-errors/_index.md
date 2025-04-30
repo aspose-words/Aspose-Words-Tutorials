@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-options-and-settings/show-grammatical-and-spelling-errors/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Show Grammatical And Spelling Errors
@@ -105,9 +108,13 @@ Yes, you can get a free trial from [here](https://releases.aspose.com/).
 The documentation is available [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

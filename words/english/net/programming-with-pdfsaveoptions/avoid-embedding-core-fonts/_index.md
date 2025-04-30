@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reduce PDF File Size by Not Embedding Core Fonts
@@ -103,9 +106,13 @@ Aspose.Words for .NET requires a license. You can get a free trial [here](https:
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

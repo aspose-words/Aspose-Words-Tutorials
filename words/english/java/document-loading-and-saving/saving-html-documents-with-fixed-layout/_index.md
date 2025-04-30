@@ -7,8 +7,11 @@ weight: 15
 url: /java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving HTML Documents with Fixed Layout in Aspose.Words for Java
@@ -88,9 +91,13 @@ Certainly! Aspose.Words for Java provides a wide range of options for customizin
 
 Yes, Aspose.Words for Java is compatible with various versions of Java. Ensure that you are using a compatible version of Aspose.Words for Java that matches your Java development environment.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

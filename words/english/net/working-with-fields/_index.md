@@ -7,8 +7,11 @@ weight: 140
 url: /net/working-with-fields/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Fields
@@ -45,9 +48,13 @@ This is a comprehensive resource for learning how to work with fields in Word do
 | [Convert Fields In Body](./convert-fields-in-body/) | Learn how to use Aspose.Words for .NET to convert Page fields to text in the body of a Word document. |
 | [Change Locale](./change-locale/) | Learn how to change the locale in Word documents using Aspose.Words for .NET with this guide. Perfect for handling international clients and projects. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

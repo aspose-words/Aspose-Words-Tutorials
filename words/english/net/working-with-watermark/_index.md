@@ -6,8 +6,11 @@ description: Learn how to add, remove, and manage watermarks in Word documents w
 keywords:
 url: /net/working-with-watermark/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Introduction
@@ -16,10 +19,15 @@ Watermarks are a fantastic way to add branding, confidentiality marks, or visual
 
 In addition to adding watermarks, Aspose.Words for .NET allows you to manage them effectively. You can remove existing watermarks, update their properties, or tailor them to specific pages in your document. With detailed examples and step-by-step guidance, this feature-rich toolkit ensures that watermarking becomes a hassle-free process. Transform your document workflow with Aspose.Words and take control of your watermarks effortlessly.
 
+
 {{< tutorial-card link="./add-text-watermark/" title="Add Text Watermark in Word Document Using Aspose.Words for .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

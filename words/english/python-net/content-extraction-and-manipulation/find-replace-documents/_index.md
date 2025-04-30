@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/content-extraction-and-manipulation/find-replace-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Find and Replace Techniques in Word Documents
@@ -126,9 +129,13 @@ Yes, you can use wildcards and regular expressions to perform advanced find and 
 
 Yes, you can track changes by using the `revision` feature of Aspose.Words. It allows you to keep track of all the modifications made to the document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

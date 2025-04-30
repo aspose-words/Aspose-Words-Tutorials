@@ -7,8 +7,11 @@ weight: 10
 url: /net/apply-license/apply-metered-license/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Metered License
@@ -114,9 +117,13 @@ If the keys are incorrect, the license won't be applied, and your application wi
 
 ### How do I verify that the metered license is applied correctly?
 You can verify the metered license by performing any operation on a Word document (like printing the page count) and ensuring it executes without licensing errors.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

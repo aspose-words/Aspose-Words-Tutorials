@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-node/typed-access/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Typed Access
@@ -117,9 +120,13 @@ Absolutely! Typed Access is designed to handle documents of all sizes efficientl
 ### Where can I find more detailed documentation?
 You can access the detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

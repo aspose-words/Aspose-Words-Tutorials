@@ -7,8 +7,11 @@ weight: 20
 url: /java/document-loading-and-saving/saving-documents-as-ooxml-format/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Documents as OOXML Format in Aspose.Words for Java
@@ -184,9 +187,13 @@ Yes, you can set custom properties for a document before saving it in OOXML form
 
 The default compression level when saving a document in OOXML format using Aspose.Words for Java is `NORMAL`. You can change the compression level to `SUPER_FAST` or `MAXIMUM` as needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

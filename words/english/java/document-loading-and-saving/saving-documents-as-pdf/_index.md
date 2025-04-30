@@ -7,8 +7,11 @@ weight: 22
 url: /java/document-loading-and-saving/saving-documents-as-pdf/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Documents as PDF in Aspose.Words for Java
@@ -167,9 +170,13 @@ You can update the "Last Printed" property in the PDF by setting `setUpdateLastP
 
 To improve image quality, enable image interpolation by setting `setInterpolateImages` to `true` in `PdfSaveOptions`. This will result in smoother and higher-quality images in the PDF.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

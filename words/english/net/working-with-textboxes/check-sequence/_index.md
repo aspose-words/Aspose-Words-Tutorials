@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-textboxes/check-sequence/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # TextBox Sequence Check in Word
@@ -159,9 +162,13 @@ Yes, you can style the text within each text box independently, giving you flexi
 ### Where can I find more resources on working with text boxes in Aspose.Words?
 For more information, check out the [Aspose.Words documentation](https://reference.aspose.com/words/net/) and [support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

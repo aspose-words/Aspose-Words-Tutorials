@@ -7,8 +7,11 @@ weight: 1590
 url: /net/programming-with-tables/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Tables
@@ -46,9 +49,13 @@ By following these tutorials, you will be able to fully exploit the table manipu
 | [Floating Table Position](./floating-table-position/) | Learn how to control the floating position of tables in Word documents using Aspose.Words for .NET with our detailed, step-by-step guide. |
 | [Set Relative Horizontal Or Vertical Position](./set-relative-horizontal-or-vertical-position/) | Learn how to set relative horizontal and vertical positions for tables in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

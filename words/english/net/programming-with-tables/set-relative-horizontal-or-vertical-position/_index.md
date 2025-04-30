@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/set-relative-horizontal-or-vertical-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Relative Horizontal Or Vertical Position
@@ -108,9 +111,13 @@ Aspose.Words is designed primarily for .NET, but there are versions available fo
 ### Where can I find more detailed documentation?  
 For more in-depth information, check out the Aspose.Words documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

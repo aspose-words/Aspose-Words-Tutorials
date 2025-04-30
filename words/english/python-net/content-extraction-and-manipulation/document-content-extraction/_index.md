@@ -7,8 +7,11 @@ weight: 11
 url: /python-net/content-extraction-and-manipulation/document-content-extraction/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Efficient Content Extraction in Word Documents
@@ -121,9 +124,13 @@ Yes, you can extract content from both headers and footers using appropriate cod
 
 For comprehensive documentation and references, visit [here](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 15
 url: /java/using-document-elements/using-harfbuzz/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using HarfBuzz in Aspose.Words for Java
@@ -98,9 +101,13 @@ You can find detailed documentation and resources for Aspose.Words for Java at [
 
 Now that you have a comprehensive understanding of using HarfBuzz in Aspose.Words for Java, you can start incorporating advanced text shaping features into your Java applications. Happy coding!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

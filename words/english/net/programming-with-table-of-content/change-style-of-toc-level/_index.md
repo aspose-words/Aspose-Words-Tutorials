@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-of-content/change-style-of-toc-level/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Toc Style In Word Document
@@ -88,9 +91,13 @@ No, Aspose.Words for .NET does not require Microsoft Word to be installed on you
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find more detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

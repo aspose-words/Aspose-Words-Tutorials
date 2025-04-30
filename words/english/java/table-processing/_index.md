@@ -7,8 +7,11 @@ weight: 11
 url: /java/table-processing/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Table Processing Made Easy
@@ -45,9 +48,13 @@ Learn how to create tables and rows in documents using Aspose.Words for Java. Fo
 Master the art of formatting tables in documents using Aspose.Words for Java. Explore step-by-step guidance and source code examples for precise table formatting.
 ### [Table of Contents Generation](./table-contents-generation/)
 Learn how to create dynamic Table of Contents using Aspose.Words for Java. Master TOC generation with step-by-step guidance and source code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

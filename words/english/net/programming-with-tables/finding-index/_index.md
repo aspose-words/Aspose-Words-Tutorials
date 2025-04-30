@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/finding-index/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Finding Index
@@ -104,9 +107,13 @@ Aspose.Words can handle a large number of tables, but performance may vary based
 ### Can I modify the properties of a specific cell using its index?
 Yes, once you have the cell index, you can easily modify its properties such as text, formatting, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,9 +183,13 @@ You've now learned how to implement track changes using inline revision manageme
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 Embark on your journey with Aspose.Words Java today, and harness the full potential of document processing in your applications!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

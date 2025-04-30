@@ -7,8 +7,11 @@ weight: 24
 url: /java/using-document-elements/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Document Elements
@@ -69,9 +72,13 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/split-document/by-headings-html/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Word Document By Headings Html
@@ -103,9 +106,13 @@ Comprehensive documentation is available [here](https://reference.aspose.com/wor
 ### How do I get support?
 For support, visit the Aspose.Words [forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

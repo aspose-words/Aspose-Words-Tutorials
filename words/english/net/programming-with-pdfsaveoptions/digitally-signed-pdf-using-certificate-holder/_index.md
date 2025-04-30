@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Digital Signature to PDF using Certificate Holder
@@ -102,9 +105,13 @@ Aspose.Words for .NET is a commercial product, but you can download a free trial
 ### Can I use Aspose.Words for .NET to sign other types of documents?
 Yes, Aspose.Words for .NET can be used to sign various types of documents, not just PDFs.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-formatting/snap-to-grid/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Snap To Grid In Word Document
@@ -145,9 +148,13 @@ No, enabling Snap to Grid does not significantly impact document performance.
 ### Where can I find more information about Aspose.Words for .NET?
 Visit the [documentation](https://reference.aspose.com/words/net/) for detailed information and examples.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

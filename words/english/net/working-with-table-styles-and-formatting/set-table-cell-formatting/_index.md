@@ -6,8 +6,11 @@ description: Learn how to create and format a table in a Word document using the
 keywords: [Aspose.Words for .NET, create table in Word, format table cell, DocumentBuilder example, Word automation .NET, table formatting, Aspose.Words tutorial, .NET library for Word]
 url: /net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Format a Table in Word Document with Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-table-styles-and-formatting/set-table-cell-formatting/
 Aspose.Words for .NET simplifies Word document manipulation, making tasks like creating and formatting tables straightforward. Using the powerful `DocumentBuilder` class, developers can easily build tables, adjust cell formatting, and insert content programmatically. This tutorial demonstrates step-by-step how to create a table, set cell properties like padding and width, and add text to cells. Whether you're automating reports or generating documents, this guide helps you unlock Aspose.Words' full potential for Word table formatting. Dive in and enhance your Word automation projects today!
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/set-table-cell-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 Follow these steps to install and use Aspose.Words for .NET in your project:  
@@ -53,8 +59,12 @@ Follow these steps to install and use Aspose.Words for .NET in your project:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/) 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/floating-table-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Floating Table Position
@@ -119,9 +122,13 @@ Yes, Aspose.Words supports relative positioning for both horizontal and vertical
 
 Yes, you can position floating tables in different sections by accessing the specific section and its tables within your document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

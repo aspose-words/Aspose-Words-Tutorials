@@ -7,8 +7,11 @@ weight: 1400
 url: /net/programming-with-sdt/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Sdt
@@ -35,9 +38,13 @@ The code samples provided in the tutorials will help you understand the concepts
 | [Multi Section](./multi-section/) | Learn how to work with multi-section structured document tags in Aspose.Words for .NET with this step-by-step tutorial. Ideal for dynamic document manipulation. |
 | [Structured Document Tag Range Start Xml Mapping](./structured-document-tag-range-start-xml-mapping/) | Learn how to dynamically bind XML data to structured document tags in Word using Aspose.Words for .NET. Follow our step-by-step guide. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 1480
 url: /net/compare-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compare Documents
@@ -24,9 +27,13 @@ Compare Documents is a comprehensive tutorial on comparing documents using Aspos
 | [Comparison Target In Word Document](./comparison-target/) | Effortlessly compare Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. Save time and enhance accuracy in document comparison. |
 | [Comparison Granularity In Word Document](./comparison-granularity/) | Learn compare granularity in word document feature of Aspose.Words for .NET that allows documents to be compared character by character, reporting changes made. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

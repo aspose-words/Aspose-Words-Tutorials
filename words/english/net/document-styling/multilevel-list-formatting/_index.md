@@ -6,17 +6,23 @@ description: Learn how to create a multilevel list in a Word document using Aspo
 keywords: [Aspose.Words, .NET, multilevel list, Word document, document formatting, C#]
 url: /net/document-styling/multilevel-list-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Multilevel Lists in Word with Aspose.Words
 This example demonstrates how to create a multilevel list in a Word document using Aspose.Words for .NET. It initializes a new document and a DocumentBuilder instance, applies a numbering format, creates main and sub-items, and saves the document as a .docx file. Follow the step-by-step guide to efficiently format your document with numbered lists.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 To use Aspose.Words for .NET, follow these steps:
@@ -37,8 +43,12 @@ To use Aspose.Words for .NET, follow these steps:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

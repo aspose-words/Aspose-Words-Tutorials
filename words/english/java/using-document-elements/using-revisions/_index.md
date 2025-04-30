@@ -7,8 +7,11 @@ weight: 22
 url: /java/using-document-elements/using-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Revisions in Aspose.Words for Java
@@ -150,9 +153,13 @@ For any questions or issues, you can visit the [Aspose.Words for Java support fo
 Get started with Aspose.Words for Java today and streamline your document management processes.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

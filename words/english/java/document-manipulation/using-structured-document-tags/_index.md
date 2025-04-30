@@ -7,8 +7,11 @@ weight: 19
 url: /java/document-manipulation/using-structured-document-tags/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Structured Document Tags (SDT) in Aspose.Words for Java
@@ -247,9 +250,13 @@ Yes, you can bind an SDT to custom XML data, allowing for dynamic content genera
 
 Repeating Sections in SDTs allow you to create tables with dynamic data, where rows can be repeated based on the mapped XML data.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

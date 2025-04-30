@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/set-content-control-color/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Content Control Color
@@ -101,9 +104,13 @@ Aspose.Words does not directly support event handling for SDTs. However, you can
 
 Yes, you can remove an SDT by calling the `Remove()` method on the parent node of the SDT.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

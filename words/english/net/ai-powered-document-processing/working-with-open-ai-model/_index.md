@@ -7,8 +7,11 @@ weight: 10
 url: /net/ai-powered-document-processing/working-with-open-ai-model/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Open AI Model
@@ -151,9 +154,13 @@ You can install it via NuGet Package Manager in Visual Studio by searching for "
 ### Is there a free trial for Aspose.Words?  
 Yes, you can access a free trial of Aspose.Words through their [website](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

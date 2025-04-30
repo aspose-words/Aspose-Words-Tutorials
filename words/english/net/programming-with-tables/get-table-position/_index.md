@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/get-table-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Table Position
@@ -109,9 +112,13 @@ You’ll need to navigate through the document’s node tree to access nested ta
 
 Yes, you can get a [free trial](https://releases.aspose.com/) or a [temporary license](https://purchase.aspose.com/temporary-license/) to try out Aspose.Words for .NET.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-splitting/splitting-documents-into-html-pages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Splitting Documents into HTML Pages
@@ -97,9 +100,13 @@ You can find detailed documentation and code examples on the Aspose.Words for Ja
 
 
 Now that you have a solid understanding of how to split Word documents into HTML pages using Aspose.Words for Java, you can start implementing this feature in your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

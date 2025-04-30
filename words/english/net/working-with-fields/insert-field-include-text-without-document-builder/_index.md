@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/insert-field-include-text-without-document-builder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Field Include Text Without Document Builder
@@ -118,9 +121,13 @@ Yes, Aspose.Words for .NET supports .NET Framework, .NET Core, and .NET 5/6.
 ### How can I get a free trial of Aspose.Words for .NET?  
 You can get a free trial from [here](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

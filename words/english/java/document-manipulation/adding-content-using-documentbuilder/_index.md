@@ -7,8 +7,11 @@ weight: 26
 url: /java/document-manipulation/adding-content-using-documentbuilder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Content using DocumentBuilder in Aspose.Words for Java
@@ -331,9 +334,13 @@ builder.writeln("This is the 3rd paragraph.");
 
 These are some common questions and answers to help you get started with Aspose.Words for Java's DocumentBuilder. If you have more questions or need further assistance, refer to the [library's documentation](https://reference.aspose.com/words/java/) or seek help from the Aspose.Words community and support resources.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

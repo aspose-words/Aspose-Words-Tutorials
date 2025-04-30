@@ -7,8 +7,11 @@ weight: 15
 url: /java/document-printing/guide-to-document-printing/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # A Guide To Document Printing
@@ -212,9 +215,13 @@ Aspose.Words for Java allows you to specify the pages or page ranges you want to
 ### Does Aspose.Words for Java support duplex printing?
 
 Yes, Aspose.Words for Java provides options for duplex printing, enabling you to print on both sides of the paper.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

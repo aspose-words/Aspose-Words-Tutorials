@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-printing/printing-documents-page-setup/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Printing Documents with Page Setup
@@ -99,9 +102,13 @@ Certainly! You can specify a specific printer by using the `setPrintService` met
 
 To save the printed document as a PDF, you can use Aspose.Words for Java to save the document as a PDF file after printing.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

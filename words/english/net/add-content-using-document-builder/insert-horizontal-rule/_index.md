@@ -6,17 +6,23 @@ description: Learn how to create a Word document in .NET using Aspose.Words and 
 keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
 url: /net/add-content-using-document-builder/insert-horizontal-rule/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Horizontal Rule
 This example demonstrates the use of Aspose.Words for .NET to create a Word document and add a horizontal rule using DocumentBuilder. Follow the steps below to learn how to format your documents effectively.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Words: Use NuGet Package Manager in Visual Studio.
@@ -36,8 +42,12 @@ This example demonstrates the use of Aspose.Words for .NET to create a Word docu
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

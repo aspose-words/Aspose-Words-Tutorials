@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-hyphenation/hyphenate-words-of-languages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hyphenate Words Of Languages
@@ -82,9 +85,13 @@ Yes, Aspose.Words for .NET supports both .NET Framework and .NET Core.
 ### How do I handle multiple languages in a single document?
 You can register multiple hyphenation dictionaries as shown in the example, and Aspose.Words will handle them accordingly.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

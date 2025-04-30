@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-textboxes/create-a-link/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Linking Text Boxes in Word with Aspose.Words
@@ -143,9 +146,13 @@ Yes, you can unlink text boxes by setting the `Next` property of the `TextBox` o
 ### Where can I find more tutorials on Aspose.Words for .NET?
 You can find more tutorials and resources on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

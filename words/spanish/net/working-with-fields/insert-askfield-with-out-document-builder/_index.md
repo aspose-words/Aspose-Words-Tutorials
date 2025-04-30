@@ -1,35 +1,37 @@
 ---
-title: Insertar ASKField sin el generador de documentos
-linktitle: Insertar ASKField sin el generador de documentos
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a insertar un campo ASK sin utilizar el Generador de documentos en Aspose.Words para .NET. Siga esta guía para mejorar sus documentos de Word de forma dinámica.
-weight: 10
-url: /es/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Aprenda a insertar un campo ASK sin usar el Constructor de Documentos en Aspose.Words para .NET. Siga esta guía para optimizar sus documentos de Word dinámicamente."
+"linktitle": "Insertar ASKField sin el generador de documentos"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Insertar ASKField sin el generador de documentos"
+"url": "/es/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insertar ASKField sin el generador de documentos
 
 ## Introducción
 
-¿Está buscando dominar la automatización de documentos con Aspose.Words para .NET? ¡Ha llegado al lugar correcto! Hoy le mostraremos cómo insertar un campo ASK sin usar un generador de documentos. Esta es una característica ingeniosa cuando desea que su documento solicite a los usuarios una entrada específica, lo que hace que sus documentos de Word sean más interactivos y dinámicos. ¡Así que profundicemos y hagamos que sus documentos sean más inteligentes!
+¿Quieres dominar la automatización de documentos con Aspose.Words para .NET? ¡Estás en el lugar indicado! Hoy te explicaremos cómo insertar un campo ASK sin usar un Constructor de Documentos. Esta función es muy útil si quieres que tu documento solicite a los usuarios información específica, lo que hace que tus documentos de Word sean más interactivos y dinámicos. ¡Vamos a profundizar en el tema y a hacer tus documentos más inteligentes!
 
 ## Prerrequisitos
 
 Antes de ponernos manos a la obra con algún código, asegurémonos de tener todo configurado:
 
-1.  Aspose.Words para .NET: Asegúrate de tener instalada esta biblioteca. Si no es así, puedes descargarla desde[aquí](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Asegúrate de tener esta biblioteca instalada. Si no es así, puedes descargarla desde [aquí](https://releases.aspose.com/words/net/).
 2. Entorno de desarrollo: un IDE adecuado como Visual Studio.
 3. .NET Framework: asegúrese de tener .NET Framework instalado.
 
-¡Genial! Ahora que ya tenemos todo listo, comencemos por importar los espacios de nombres necesarios.
+¡Genial! Ahora que ya está todo listo, comencemos a importar los espacios de nombres necesarios.
 
 ## Importar espacios de nombres
 
-Lo primero es lo primero: debemos importar el espacio de nombres Aspose.Words para acceder a todas las funciones de Aspose.Words para .NET. A continuación, le indicamos cómo hacerlo:
+Primero, necesitamos importar el espacio de nombres Aspose.Words para acceder a todas sus funciones para .NET. Así es como se hace:
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ using Aspose.Words.Fields;
 
 ## Paso 1: Crear un nuevo documento
 
-Antes de poder insertar un campo ASK, necesitamos un documento con el que trabajar. A continuación, se muestra cómo crear un documento nuevo:
+Antes de insertar un campo ASK, necesitamos un documento con el que trabajar. Para crear un documento nuevo, siga estos pasos:
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -50,7 +52,7 @@ Document doc = new Document();
 
 Este fragmento de código configura un nuevo documento de Word donde agregaremos nuestro campo ASK.
 
-## Paso 2: Acceda al nodo de párrafo
+## Paso 2: Acceder al nodo de párrafo
 
 En un documento de Word, el contenido se organiza en nodos. Necesitamos acceder al nodo del primer párrafo donde insertaremos nuestro campo ASK:
 
@@ -58,22 +60,22 @@ En un documento de Word, el contenido se organiza en nodos. Necesitamos acceder 
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 ```
 
-Esta línea de código recupera el primer párrafo del documento, listo para nuestra inserción del campo ASK.
+Esta línea de código recupera el primer párrafo del documento, listo para la inserción del campo ASK.
 
 ## Paso 3: Insertar el campo ASK
 
-Ahora, pasemos al punto principal: insertar el campo ASK. Este campo solicitará información al usuario cuando se abra el documento.
+Ahora, pasemos al evento principal: insertar el campo ASK. Este campo solicitará información al usuario al abrir el documento.
 
 ```csharp
 // Inserte el campo ASK.
 FieldAsk field = (FieldAsk)para.AppendField(FieldType.FieldAsk, false);
 ```
 
-Aquí, agregamos un campo ASK al párrafo. Sencillo, ¿verdad?
+Aquí, añadimos un campo ASK al párrafo. Sencillo, ¿verdad?
 
 ## Paso 4: Configurar el campo ASK
 
-Necesitamos configurar algunas propiedades para definir cómo se comporta el campo ASK. Configuremos el nombre del marcador, el texto del mensaje, la respuesta predeterminada y el comportamiento de la combinación de correspondencia:
+Necesitamos configurar algunas propiedades para definir el comportamiento del campo ASK. Configuremos el nombre del marcador, el texto del mensaje, la respuesta predeterminada y el comportamiento de la combinación de correspondencia:
 
 ```csharp
 field.BookmarkName = "Test1";
@@ -83,7 +85,7 @@ field.PromptOnceOnMailMerge = true;
 ```
 
 - BookmarkName: Un identificador único para el campo ASK.
-- PromptText: El texto que solicita al usuario una entrada.
+- PromptText: El texto que solicita al usuario que ingrese información.
 - DefaultResponse: la respuesta precargada que el usuario puede cambiar.
 - PromptOnceOnMailMerge: determina si el mensaje aparece solo una vez durante una combinación de correspondencia.
 
@@ -105,11 +107,11 @@ Por último, guardemos el documento en nuestro directorio especificado:
 doc.Save(dataDir + "InsertionChampASKSansDocumentBuilder.docx");
 ```
 
-Esta línea guarda el documento con el campo ASK insertado. ¡Y ya está! ¡Su documento ahora está equipado con un campo ASK dinámico!
+Esta línea guarda el documento con el campo ASK insertado. ¡Listo! ¡Su documento ahora cuenta con un campo ASK dinámico!
 
 ## Conclusión
 
-¡Felicitaciones! Acaba de agregar un campo ASK a un documento de Word usando Aspose.Words para .NET sin el Generador de documentos. Esta función puede mejorar significativamente la interacción del usuario con sus documentos, haciéndolos más flexibles y fáciles de usar. Siga experimentando con diferentes campos y propiedades para liberar todo el potencial de Aspose.Words. ¡Que disfrute programando!
+¡Felicitaciones! Acabas de agregar un campo ASK a un documento de Word usando Aspose.Words para .NET sin el Constructor de Documentos. Esta función puede mejorar significativamente la interacción del usuario con tus documentos, haciéndolos más flexibles e intuitivos. Sigue experimentando con diferentes campos y propiedades para aprovechar al máximo el potencial de Aspose.Words. ¡Que disfrutes programando!
 
 ## Preguntas frecuentes
 
@@ -119,17 +121,22 @@ Un campo ASK en Aspose.Words es un campo que solicita al usuario una entrada esp
 ### ¿Puedo utilizar varios campos ASK en un solo documento?
 Sí, puedes insertar varios campos ASK en un documento, cada uno con indicaciones y respuestas únicas.
 
-###  ¿Cuál es el propósito de la`PromptOnceOnMailMerge` property?
- El`PromptOnceOnMailMerge` La propiedad determina si el mensaje ASK aparece solo una vez durante una operación de combinación de correspondencia o cada vez.
+### ¿Cuál es el propósito de la `PromptOnceOnMailMerge` ¿propiedad?
+El `PromptOnceOnMailMerge` La propiedad determina si la solicitud ASK aparece solo una vez durante una operación de combinación de correspondencia o cada vez.
 
 ### ¿Necesito actualizar el campo ASK después de configurar sus propiedades?
 Sí, actualizar el campo ASK garantiza que todas las propiedades se apliquen correctamente y que el campo funcione como se espera.
 
 ### ¿Puedo personalizar el texto del aviso y la respuesta predeterminada?
-¡Por supuesto! Puedes configurar un texto de solicitud personalizado y respuestas predeterminadas para adaptar el campo ASK a tus necesidades específicas.
+¡Por supuesto! Puedes configurar textos de solicitud personalizados y respuestas predeterminadas para adaptar el campo "Preguntar" a tus necesidades específicas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

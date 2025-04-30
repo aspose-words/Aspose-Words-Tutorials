@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-revision/document-collaboration-review/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Collaboration and Review
@@ -90,9 +93,13 @@ Yes, Aspose.Words for Java is an excellent choice for collaborative document man
 
 You can find comprehensive documentation for Aspose.Words for Java at [here](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-bookmarks/copy-bookmarked-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Bookmarked Text In Word Document
@@ -129,9 +132,13 @@ There's no specific limit, but performance may vary with extremely large documen
 ### Can I copy text between different Word document formats?
 Yes, Aspose.Words supports various Word formats, and the method works across these formats.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

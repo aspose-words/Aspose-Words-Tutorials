@@ -7,8 +7,11 @@ weight: 10
 url: /net/clone-and-combine-documents/insert-document-at-replace/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Document At Replace
@@ -176,9 +179,13 @@ You can get support by visiting the [Aspose.Words forum](https://forum.aspose.co
 ### Can I keep the formatting of the inserted document?
 Yes, the `NodeImporter` class allows you to specify how formatting is handled when importing nodes from one document to another.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

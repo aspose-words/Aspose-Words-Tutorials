@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-properties/add-custom-document-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Document Properties
@@ -141,9 +144,13 @@ Yes, you can easily edit or delete custom properties using similar methods provi
 Absolutely! Custom properties are excellent for categorizing and filtering documents based on specific metadata.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

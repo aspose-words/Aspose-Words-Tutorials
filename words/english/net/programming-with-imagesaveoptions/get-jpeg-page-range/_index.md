@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-imagesaveoptions/get-jpeg-page-range/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Jpeg Page Range
@@ -91,9 +94,13 @@ You would need to implement a preview mechanism separately, as Aspose.Words does
 ### How do I get a temporary license for Aspose.Words?
 You can request a [temporary license here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}
