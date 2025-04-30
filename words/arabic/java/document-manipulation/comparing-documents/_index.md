@@ -1,30 +1,32 @@
 ---
-title: مقارنة المستندات في Aspose.Words للغة Java
-linktitle: مقارنة المستندات
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية مقارنة المستندات في Aspose.Words for Java، وهي مكتبة Java قوية لتحليل المستندات بكفاءة.
-weight: 28
-url: /ar/java/document-manipulation/comparing-documents/
+"description": "تعرف على كيفية مقارنة المستندات في Aspose.Words for Java، وهي مكتبة Java قوية لتحليل المستندات بكفاءة."
+"linktitle": "مقارنة المستندات"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "مقارنة المستندات في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/comparing-documents/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مقارنة المستندات في Aspose.Words للغة Java
+# مقارنة المستندات في Aspose.Words لـ Java
 
 
 ## مقدمة لمقارنة المستندات
 
-تتضمن مقارنة المستندات تحليل مستندين وتحديد الاختلافات، وهو أمر قد يكون ضروريًا في سيناريوهات مختلفة، مثل السيناريوهات القانونية أو التنظيمية أو إدارة المحتوى. يبسط Aspose.Words for Java هذه العملية، مما يجعلها في متناول مطوري Java.
+تتضمن مقارنة المستندات تحليل مستندين وتحديد الاختلافات، وهو أمرٌ أساسي في سيناريوهات مختلفة، مثل الجوانب القانونية والتنظيمية وإدارة المحتوى. يُبسط Aspose.Words لـ Java هذه العملية، مما يجعلها في متناول مطوري Java.
 
-## إعداد البيئة الخاصة بك
+## إعداد بيئتك
 
- قبل أن نتعمق في مقارنة المستندات، تأكد من تثبيت Aspose.Words for Java. يمكنك تنزيل المكتبة من[إصدارات Aspose.Words للغة Java](https://releases.aspose.com/words/java/) الصفحة. بمجرد تنزيلها، قم بتضمينها في مشروع Java الخاص بك.
+قبل الخوض في مقارنة المستندات، تأكد من تثبيت Aspose.Words لجافا. يمكنك تنزيل المكتبة من [إصدارات Aspose.Words لـ Java](https://releases.aspose.com/words/java/) الصفحة. بعد تنزيلها، قم بإضافتها إلى مشروع Java الخاص بك.
 
 ## مقارنة المستندات الأساسية
 
- لنبدأ بأساسيات مقارنة المستندات. سنستخدم مستندين،`docA` و`docB`وقارن بينهما.
+لنبدأ بأساسيات مقارنة المستندات. سنستخدم مستندين، `docA` و `docB`، وقارن بينهما.
 
 ```java
 Document docA = new Document("Your Directory Path" + "Document.docx");
@@ -33,15 +35,15 @@ docA.compare(docB, "user", new Date());
 System.out.println(docA.getRevisions().getCount() == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
-في مقتطف التعليمات البرمجية هذا، نقوم بتحميل مستندين،`docA` و`docB` ، ثم استخدم`compare` الطريقة المستخدمة لمقارنتها هي تحديد المؤلف باعتباره "مستخدمًا"، ثم إجراء المقارنة. وأخيرًا، نتحقق مما إذا كانت هناك مراجعات تشير إلى الاختلافات بين المستندات.
+في مقتطف التعليمات البرمجية هذا، نقوم بتحميل مستندين، `docA` و `docB`، ثم استخدم `compare` طريقة لمقارنتها. نُحدد المؤلف بـ "المستخدم"، وتُجرى المقارنة. وأخيرًا، نتحقق من وجود مراجعات تُشير إلى الاختلافات بين الوثائق.
 
 ## تخصيص المقارنة باستخدام الخيارات
 
-يوفر Aspose.Words for Java خيارات واسعة لتخصيص مقارنة المستندات. دعنا نستكشف بعضًا منها.
+يوفر Aspose.Words لجافا خيارات شاملة لتخصيص مقارنة المستندات. لنستكشف بعضًا منها.
 
 ## تجاهل التنسيق
 
- لتجاهل الاختلافات في التنسيق، استخدم`setIgnoreFormatting` خيار.
+لتجاهل الاختلافات في التنسيق، استخدم `setIgnoreFormatting` خيار.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -51,7 +53,7 @@ docA.compare(docB, "user", new Date(), options);
 
 ## تجاهل الرؤوس والتذييلات
 
- لاستبعاد الرؤوس والتذييلات من المقارنة، اضبط`setIgnoreHeadersAndFooters` خيار.
+لاستبعاد الرؤوس والتذييلات من المقارنة، اضبط `setIgnoreHeadersAndFooters` خيار.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -85,7 +87,7 @@ docA.compare(docB, "user", new Date(), options);
 
 ## حبيبات المقارنة
 
-يمكنك التحكم في دقة المقارنة، من مستوى الحرف إلى مستوى الكلمة.
+يمكنك التحكم في تفاصيل المقارنة، من مستوى الحرف إلى مستوى الكلمة.
 
 ```java
 DocumentBuilder builderA = new DocumentBuilder(new Document());
@@ -99,21 +101,21 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 ## خاتمة
 
-إن مقارنة المستندات في Aspose.Words for Java هي قدرة قوية يمكن استخدامها في سيناريوهات معالجة المستندات المختلفة. بفضل خيارات التخصيص الشاملة، يمكنك تخصيص عملية المقارنة وفقًا لاحتياجاتك المحددة، مما يجعلها أداة قيمة في مجموعة أدوات تطوير Java الخاصة بك.
+تُعد مقارنة المستندات في Aspose.Words for Java ميزة فعّالة يُمكن استخدامها في مختلف سيناريوهات معالجة المستندات. بفضل خيارات التخصيص الواسعة، يُمكنك تخصيص عملية المقارنة لتناسب احتياجاتك الخاصة، مما يجعلها أداة قيّمة في مجموعة أدوات تطوير Java.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.Words لـ Java؟
 
- لتثبيت Aspose.Words لـ Java، قم بتنزيل المكتبة من[إصدارات Aspose.Words للغة Java](https://releases.aspose.com/words/java/) الصفحة وتضمينها في تبعيات مشروع Java الخاص بك.
+لتثبيت Aspose.Words لـ Java، قم بتنزيل المكتبة من [إصدارات Aspose.Words لـ Java](https://releases.aspose.com/words/java/) الصفحة وتضمينها في تبعيات مشروع Java الخاص بك.
 
 ### هل يمكنني مقارنة المستندات ذات التنسيق المعقد باستخدام Aspose.Words لـ Java؟
 
-نعم، يوفر Aspose.Words for Java خيارات لمقارنة المستندات ذات التنسيق المعقد. يمكنك تخصيص المقارنة لتناسب متطلباتك.
+نعم، يوفر Aspose.Words لجافا خيارات لمقارنة المستندات ذات التنسيقات المعقدة. يمكنك تخصيص المقارنة لتناسب احتياجاتك.
 
 ### هل Aspose.Words for Java مناسب لأنظمة إدارة المستندات؟
 
-بالتأكيد. إن ميزات مقارنة المستندات في Aspose.Words for Java تجعلها مناسبة تمامًا لأنظمة إدارة المستندات حيث يكون التحكم في الإصدار وتتبع التغييرات أمرًا بالغ الأهمية.
+بالتأكيد. ميزات مقارنة المستندات في Aspose.Words لـ Java تجعلها مناسبة تمامًا لأنظمة إدارة المستندات حيث يكون التحكم في الإصدارات وتتبع التغييرات أمرًا بالغ الأهمية.
 
 ### هل هناك أي قيود على مقارنة المستندات في Aspose.Words لـ Java؟
 
@@ -121,10 +123,15 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 ### كيف يمكنني الوصول إلى المزيد من الموارد والوثائق الخاصة بـ Aspose.Words for Java؟
 
- للحصول على موارد إضافية ووثائق مفصلة حول Aspose.Words for Java، تفضل بزيارة[توثيق Aspose.Words للغة Java](https://reference.aspose.com/words/java/).
+للحصول على موارد إضافية ووثائق مفصلة حول Aspose.Words for Java، تفضل بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

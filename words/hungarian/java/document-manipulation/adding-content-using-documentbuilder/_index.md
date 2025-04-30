@@ -1,26 +1,28 @@
 ---
-title: Tartalom hozzáadása az Aspose.Words for Java DocumentBuilder használatával
-linktitle: Tartalom hozzáadása a DocumentBuilder segítségével
-second_title: Aspose.Words Java Document Processing API
-description: Fődokumentumkészítés az Aspose.Words for Java segítségével. Útmutató lépésről lépésre szövegek, táblázatok, képek és egyebek hozzáadásához. Lenyűgöző Word dokumentumokat készíthet könnyedén.
-weight: 26
-url: /hu/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Dokumentumkészítés mestere az Aspose.Words segítségével Java-ban. Lépésről lépésre útmutató szöveg, táblázatok, képek és egyebek hozzáadásához. Készítsen lenyűgöző Word-dokumentumokat könnyedén."
+"linktitle": "Tartalom hozzáadása a DocumentBuilder használatával"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Tartalom hozzáadása a DocumentBuilder használatával az Aspose.Words for Java programban"
+"url": "/hu/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tartalom hozzáadása az Aspose.Words for Java DocumentBuilder használatával
+# Tartalom hozzáadása a DocumentBuilder használatával az Aspose.Words for Java programban
 
 
-## Bevezetés a tartalom hozzáadásához az Aspose.Words for Java DocumentBuilder használatával
+## Bevezetés a DocumentBuilder használatával történő tartalom hozzáadásához Aspose.Words for Java nyelven
 
-Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan használhatjuk az Aspose.Words for Java DocumentBuilder alkalmazását különféle típusú tartalom hozzáadására egy Word-dokumentumhoz. Kitérünk a szöveg beszúrására, táblázatokra, vízszintes szabályokra, űrlapmezőkre, HTML-re, hiperhivatkozásokra, tartalomjegyzékre, szövegközi és lebegő képekre, bekezdésekre és egyebekre. Kezdjük is!
+Ebben a lépésről lépésre bemutatott útmutatóban bemutatjuk, hogyan használható az Aspose.Words Java DocumentBuilderéhez különféle típusú tartalmak Word-dokumentumokhoz való hozzáadásához. Áttekintjük a szöveg, táblázatok, vízszintes vonalak, űrlapmezők, HTML, hiperhivatkozások, tartalomjegyzék, beágyazott és lebegő képek, bekezdések és egyebek beszúrását. Kezdjük is!
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy a projektben be van állítva az Aspose.Words for Java könyvtár. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Words for Java könyvtár telepítve van a projektedben. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 
 ## Szöveg hozzáadása
 
@@ -28,7 +30,7 @@ Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan használhatjuk az A
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy egyszerű szöveges bekezdést
+// Egyszerű szöveges bekezdés beszúrása
 builder.write("This is a simple text paragraph.");
 
 // Mentse el a dokumentumot
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Indíts el egy asztalt
+// Táblázat indítása
 Table table = builder.startTable();
 
 // Cellák és tartalom beszúrása
@@ -51,20 +53,20 @@ builder.write("Cell 1");
 builder.insertCell();
 builder.write("Cell 2");
 
-// Vége az asztalnak
+// A táblázat vége
 builder.endTable();
 
 // Mentse el a dokumentumot
 doc.save("path/to/your/document.docx");
 ```
 
-## Vízszintes szabály hozzáadása
+## Vízszintes vonal hozzáadása
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy vízszintes szabályt
+// Vízszintes vonal beszúrása
 builder.insertHorizontalRule();
 
 // Mentse el a dokumentumot
@@ -73,7 +75,7 @@ doc.save("path/to/your/document.docx");
 
 ## Űrlapmezők hozzáadása
 
-### Szövegbeviteli űrlapmező
+### Szövegbeviteli űrlap mező
 
 ```java
 Document doc = new Document();
@@ -86,29 +88,29 @@ builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default tex
 doc.save("path/to/your/document.docx");
 ```
 
-### Jelölőnégyzet Űrlapmező
+### Jelölőnégyzet űrlapmező
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Helyezzen be egy jelölőnégyzetet az űrlapmezőbe
+// Jelölőnégyzet űrlapmező beszúrása
 builder.insertCheckBox("CheckBox", true, true, 0);
 
 // Mentse el a dokumentumot
 doc.save("path/to/your/document.docx");
 ```
 
-### Kombinált doboz űrlapmező
+### Kombinált lista űrlapmező
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Határozzon meg elemeket a kombinált mezőhöz
+// Elemek definiálása a kombinált listához
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// Szúrjon be egy kombinált űrlapmezőt
+// Kombinált lista űrlapmező beszúrása
 builder.insertComboBox("DropDown", items, 0);
 
 // Mentse el a dokumentumot
@@ -121,7 +123,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// HTML tartalom beszúrása
+// HTML-tartalom beszúrása
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
 // Mentse el a dokumentumot
@@ -134,11 +136,11 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy hiperhivatkozást
+// Hivatkozás beszúrása
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", hamis);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
@@ -152,13 +154,13 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Helyezzen be egy tartalomjegyzéket
+// Tartalomjegyzék beszúrása
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 // Dokumentumtartalom hozzáadása
 // ...
 
-// Frissítse a tartalomjegyzéket
+// Tartalomjegyzék frissítése
 doc.updateFields();
 
 // Mentse el a dokumentumot
@@ -167,13 +169,13 @@ doc.save("path/to/your/document.docx");
 
 ## Képek hozzáadása
 
-### Inline kép
+### Beágyazott kép
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy soros képet
+// Beszúr egy beágyazott képet
 builder.insertImage("path/to/your/image.png");
 
 // Mentse el a dokumentumot
@@ -186,7 +188,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy lebegő képet
+// Lebegő kép beszúrása
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
 // Mentse el a dokumentumot
@@ -212,7 +214,7 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Szúrjon be egy bekezdést
+// Bekezdés beszúrása
 builder.writeln("This is a formatted paragraph.");
 
 // Mentse el a dokumentumot
@@ -221,61 +223,61 @@ doc.save("path/to/your/document.docx");
 
 ## 10. lépés: A kurzor mozgatása
 
- Különféle módszerekkel szabályozhatja a kurzor pozícióját a dokumentumon belül`moveToParagraph`, `moveToCell`és még sok más. Íme egy példa:
+A kurzor pozícióját a dokumentumon belül többféleképpen is szabályozhatja, például `moveToParagraph`, `moveToCell`és még sok más. Íme egy példa:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mozgassa a kurzort egy adott bekezdésre
+// Kurzor áthelyezése egy adott bekezdésre
 builder.moveToParagraph(2, 0);
 
 // Tartalom hozzáadása az új kurzorpozícióhoz
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Íme néhány gyakori művelet, amelyet az Aspose.Words for Java DocumentBuilder használatával hajthat végre. Fedezze fel a könyvtár dokumentációját a fejlettebb funkciók és testreszabási lehetőségek megtekintéséhez. Boldog dokumentumkészítést!
+Íme néhány gyakori művelet, amelyet az Aspose.Words for Java DocumentBuilder segítségével végezhet el. A könyvtár dokumentációjában további speciális funkciókat és testreszabási lehetőségeket talál. Jó dokumentumkészítést!
 
 
 ## Következtetés
 
-Ebben az átfogó útmutatóban feltártuk az Aspose.Words for Java DocumentBuilder képességeit, amellyel különféle típusú tartalmakat adhatunk Word dokumentumokhoz. Lefedtük a szöveget, a táblázatokat, a vízszintes szabályokat, az űrlapmezőket, a HTML-t, a hiperhivatkozásokat, a tartalomjegyzéket, a képeket, a bekezdéseket és a kurzormozgást.
+Ebben az átfogó útmutatóban az Aspose.Words for Java DocumentBuilder funkcióit vizsgáltuk meg, amelyekkel különféle típusú tartalmakat lehet Word dokumentumokhoz hozzáadni. Áttekintettük a szöveget, táblázatokat, vízszintes vonalakat, űrlapmezőket, HTML-t, hiperhivatkozásokat, tartalomjegyzéket, képeket, bekezdéseket és a kurzor mozgatását.
 
 ## GYIK
 
-### K: Mi az Aspose.Words for Java?
+### K: Mi az Aspose.Words Java-hoz?
 
-V: Az Aspose.Words for Java egy Java-könyvtár, amely lehetővé teszi a fejlesztők számára Microsoft Word dokumentumok programozott létrehozását, módosítását és kezelését. A funkciók széles skáláját kínálja a dokumentumok generálásához, formázásához és tartalombeillesztéséhez.
+A: Az Aspose.Words for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és manipuláljanak Microsoft Word dokumentumokat. Széleskörű funkciókat kínál a dokumentumok generálásához, formázásához és tartalom beszúrásához.
 
 ### K: Hogyan adhatok hozzá tartalomjegyzéket a dokumentumomhoz?
 
-V: Tartalomjegyzék hozzáadásához használja a`DocumentBuilder` tartalomjegyzék mező beszúrásához a dokumentumba. Ügyeljen arra, hogy a tartalom hozzáadása után frissítse a dokumentum mezőit a tartalomjegyzék feltöltéséhez. Íme egy példa:
+A: Tartalomjegyzék hozzáadásához használja a `DocumentBuilder` tartalomjegyzék mező beszúrásához a dokumentumba. A tartalomjegyzék feltöltéséhez a tartalomjegyzéket frissítse a dokumentum mezőinek frissítésével. Íme egy példa:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy tartalomjegyzék mezőt
+// Tartalomjegyzék mező beszúrása
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 // Dokumentumtartalom hozzáadása
 // ...
 
-// Frissítse a tartalomjegyzéket
+// Tartalomjegyzék frissítése
 doc.updateFields();
 ```
 
-### K: Hogyan illeszthetek be képeket egy dokumentumba az Aspose.Words for Java használatával?
+### K: Hogyan szúrhatok be képeket egy dokumentumba az Aspose.Words for Java használatával?
 
- V: Beszúrhat képeket, mind soron belül, mind lebegőben, a`DocumentBuilder`. Íme mindkettőre példa:
+A: Képeket beszúrhat, mind beágyazottan, mind lebegően, a következő használatával: `DocumentBuilder`Íme mindkettőre példa:
 
-#### Soron belüli kép:
+#### Beágyazott kép:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy soros képet
+// Beszúr egy beágyazott képet
 builder.insertImage("path/to/your/image.png");
 ```
 
@@ -285,13 +287,13 @@ builder.insertImage("path/to/your/image.png");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szúrjon be egy lebegő képet
+// Lebegő kép beszúrása
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### K: Formázhatok szöveget és bekezdéseket tartalom hozzáadásakor?
+### K: Formázhatom a szöveget és a bekezdéseket tartalom hozzáadásakor?
 
- V: Igen, formázhatja a szöveget és a bekezdéseket a`DocumentBuilder`. Beállíthatja a betűtípus tulajdonságait, a bekezdésigazítást, a behúzást stb. Íme egy példa:
+V: Igen, a szöveget és a bekezdéseket formázhatja a `DocumentBuilder`Beállíthatja a betűtípus tulajdonságait, a bekezdések igazítását, a behúzást és egyebeket. Íme egy példa:
 
 ```java
 Document doc = new Document();
@@ -310,29 +312,34 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Szúrjon be egy formázott bekezdést
+// Formázott bekezdés beszúrása
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### K: Hogyan mozgathatom a kurzort egy adott helyre a dokumentumon belül?
+### K: Hogyan tudom a kurzort a dokumentumon belül egy adott helyre mozgatni?
 
- V: A kurzor pozícióját olyan módszerekkel szabályozhatja, mint pl`moveToParagraph`, `moveToCell`és még sok más. Íme egy példa:
+A: A kurzor pozícióját olyan módszerekkel szabályozhatja, mint például `moveToParagraph`, `moveToCell`és még sok más. Íme egy példa:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mozgassa a kurzort egy adott bekezdésre
+// Kurzor áthelyezése egy adott bekezdésre
 builder.moveToParagraph(2, 0);
 
 // Tartalom hozzáadása az új kurzorpozícióhoz
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Íme néhány gyakori kérdés és válasz, amelyek segítenek az Aspose.Words for Java DocumentBuilder használatában. Ha további kérdése van, vagy további segítségre van szüksége, tekintse meg a[könyvtár dokumentációja](https://reference.aspose.com/words/java/) vagy kérjen segítséget az Aspose.Words közösségtől és támogatási forrásoktól.
+Íme néhány gyakori kérdés és válasz, amelyek segíthetnek az Aspose.Words használatának elkezdésében a Java DocumentBuilderhez. Ha további kérdései vannak, vagy további segítségre van szüksége, tekintse meg a következőt: [a könyvtár dokumentációja](https://reference.aspose.com/words/java/) vagy kérjen segítséget az Aspose.Words közösségtől és a támogatási forrásoktól.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

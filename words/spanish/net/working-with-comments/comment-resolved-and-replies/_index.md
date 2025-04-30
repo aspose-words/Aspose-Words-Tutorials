@@ -1,75 +1,77 @@
 ---
-title: Comentario Resuelto Y Respuestas
-linktitle: Comentario Resuelto Y Respuestas
-second_title: API de procesamiento de documentos Aspose.Words
-description: Automatice la resolución y respuesta de comentarios en documentos de Word con Aspose.Words para .NET. Guía paso a paso incluida.
-weight: 10
-url: /es/net/working-with-comments/comment-resolved-and-replies/
+"description": "Automatiza la resolución y respuesta de comentarios en documentos de Word con Aspose.Words para .NET. Incluye guía paso a paso."
+"linktitle": "Comentario Resuelto y Respuestas"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Comentario Resuelto y Respuestas"
+"url": "/es/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comentario Resuelto Y Respuestas
+# Comentario Resuelto y Respuestas
 
 ## Introducción
 
-Si trabaja con documentos de Word, probablemente haya tenido que lidiar con comentarios. Son excelentes para la colaboración, pero administrarlos puede ser una molestia. Con Aspose.Words para .NET, puede automatizar el proceso de resolución y respuesta de comentarios. Esta guía le indicará los pasos necesarios para hacerlo.
+Si trabajas con documentos de Word, probablemente hayas trabajado con comentarios. Son excelentes para la colaboración, pero gestionarlos puede ser complicado. Con Aspose.Words para .NET, puedes automatizar el proceso de resolver y responder comentarios. Esta guía te guiará paso a paso para lograrlo.
 
 ## Prerrequisitos
 
 Antes de sumergirte, asegúrate de tener lo siguiente:
 
-1.  Aspose.Words para .NET: Puedes descargarlo desde[aquí](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Puedes descargarlo desde [aquí](https://releases.aspose.com/words/net/).
 2. Entorno de desarrollo: configurado con .NET Framework.
 3. Conocimientos básicos de C#: Familiaridad con la sintaxis y los conceptos.
 
 ## Importar espacios de nombres
 
-Lo primero es lo primero: importemos los espacios de nombres necesarios. Esto garantiza que todas las clases y los métodos que necesitamos estén disponibles.
+Primero, importemos los espacios de nombres necesarios. Esto garantiza que todas las clases y métodos necesarios estén disponibles.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Comments;
 ```
 
-Vamos a dividir el proceso en pasos sencillos y fáciles de seguir. Cada paso te ayudará a comprender el código y su funcionalidad.
+Desglosemos el proceso en pasos sencillos y fáciles de seguir. Cada paso te ayudará a comprender el código y su funcionalidad.
 
-## Paso 1: Cargue el documento
+## Paso 1: Cargar el documento
 
- Para comenzar, cargue el documento de Word que contiene los comentarios. Utilice el botón`Document` clase para esto.
+Para comenzar, cargue el documento de Word que contiene los comentarios. Utilice el `Document` clase para esto.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Esta línea de código inicializa un nuevo`Document` objeto con la ruta a su documento de Word.
+Esta línea de código inicializa un nuevo `Document` objeto con la ruta a su documento de Word.
 
 ## Paso 2: Recuperar comentarios
 
- A continuación, necesitamos obtener todos los comentarios del documento. Usaremos el`GetChildNodes` método para recuperar una colección de`Comment` nodos.
+A continuación, necesitamos obtener todos los comentarios del documento. Usaremos el `GetChildNodes` método para recuperar una colección de `Comment` nodos.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Este código recupera todos los comentarios del documento y los almacena en un`NodeCollection`.
+Este código recupera todos los comentarios del documento y los almacena en un `NodeCollection`.
 
 ## Paso 3: Acceda al comentario de los padres
 
-Para nuestro ejemplo, nos centraremos en el primer comentario de la colección. Este será nuestro comentario principal.
+En nuestro ejemplo, nos centraremos en el primer comentario de la colección. Este será nuestro comentario principal.
 
 ```csharp
 Comment parentComment = (Comment)comments[0];
 ```
 
- Aquí, estamos convirtiendo el primer nodo de la colección en un`Comment` objeto.
+Aquí, estamos convirtiendo el primer nodo de la colección a un `Comment` objeto.
 
 ## Paso 4: Recorrer las respuestas
 
- Ahora, repasemos las respuestas al comentario principal. Usaremos un`foreach` bucle para iterar sobre cada respuesta.
+Ahora, repasemos las respuestas al comentario principal. Usaremos un `foreach` bucle para iterar sobre cada respuesta.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -81,7 +83,7 @@ foreach (Comment childComment in parentComment.Replies)
 }
 ```
 
-En este bucle, imprimimos el ID del comentario anterior y su estado (si está terminado o no). Luego, marcamos cada respuesta como terminada.
+En este bucle, imprimimos el ID del comentario anterior y su estado (si está completado o no). Luego, marcamos cada respuesta como completada.
 
 ## Paso 5: Guardar el documento
 
@@ -95,7 +97,7 @@ Este código guarda los cambios en un nuevo documento, garantizando que el archi
 
 ## Conclusión
 
-Gestionar comentarios en documentos de Word no tiene por qué ser una tarea manual. Con Aspose.Words para .NET, puede automatizar el proceso, ahorrando tiempo y reduciendo errores. Siga esta guía para resolver y responder de manera eficiente los comentarios en sus documentos.
+Gestionar comentarios en documentos de Word no tiene por qué ser una tarea manual. Con Aspose.Words para .NET, puede automatizar el proceso, ahorrando tiempo y reduciendo errores. Siga esta guía para resolver y responder eficazmente a los comentarios en sus documentos.
 
 ## Preguntas frecuentes
 
@@ -106,16 +108,21 @@ Sí, puedes automatizar varias tareas como agregar, eliminar y modificar comenta
 Sí, Aspose.Words para .NET es compatible con .NET Framework y .NET Core.
 
 ### ¿Cómo puedo obtener una prueba gratuita de Aspose.Words para .NET?  
- Puede descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+Puede descargar una prueba gratuita desde [aquí](https://releases.aspose.com/).
 
 ### ¿Puedo usar Aspose.Words para .NET para trabajar con otros tipos de documentos?  
 Sí, Aspose.Words admite varios formatos, incluidos DOCX, PDF, HTML y más.
 
 ### ¿Dónde puedo encontrar documentación detallada de Aspose.Words para .NET?  
- Puedes acceder a la documentación[aquí](https://reference.aspose.com/words/net/).
+Puedes acceder a la documentación [aquí](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

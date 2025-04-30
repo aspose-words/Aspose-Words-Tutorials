@@ -1,14 +1,16 @@
 ---
-title: Menandatangani Baris Tanda Tangan yang Ada di Dokumen Word
-linktitle: Menandatangani Baris Tanda Tangan yang Ada di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menandatangani baris tanda tangan yang sudah ada di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "Pelajari cara menandatangani baris tanda tangan yang sudah ada di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang."
+"linktitle": "Menandatangani Baris Tanda Tangan yang Ada di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menandatangani Baris Tanda Tangan yang Ada di Dokumen Word"
+"url": "/id/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menandatangani Baris Tanda Tangan yang Ada di Dokumen Word
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda perlu menandatangani dokumen digital tetapi merasa sedikit k
 
 Sebelum kita menyelami detailnya, mari pastikan kita memiliki semua yang kita butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan C#.
 3. Dokumen dan Sertifikat: Dokumen Word dengan baris tanda tangan dan sertifikat digital (file PFX).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat.
@@ -100,7 +102,7 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen W
 
 ### Di mana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
 
- Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya menggunakan format gambar apa pun untuk tanda tangan?
 
@@ -112,10 +114,15 @@ Anda dapat membeli sertifikat digital dari berbagai penyedia secara daring. Past
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

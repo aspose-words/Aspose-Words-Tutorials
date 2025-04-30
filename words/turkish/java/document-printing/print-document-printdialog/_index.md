@@ -1,14 +1,16 @@
 ---
-title: PrintDialog ile Belgeyi Yazdır
-linktitle: PrintDialog ile Belgeyi Yazdır
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile PrintDialog kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Bu adım adım kılavuzda ayarları özelleştirin, belirli sayfaları yazdırın ve daha fazlasını yapın.
-weight: 14
-url: /tr/java/document-printing/print-document-printdialog/
+"description": "Aspose.Words for Java ile PrintDialog kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Bu adım adım kılavuzda ayarları özelleştirin, belirli sayfaları yazdırın ve daha fazlasını yapın."
+"linktitle": "PrintDialog ile Belgeyi Yazdır"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "PrintDialog ile Belgeyi Yazdır"
+"url": "/tr/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PrintDialog ile Belgeyi Yazdır
@@ -24,7 +26,7 @@ Belge yazdırma, birçok Java uygulamasında ortak bir gereksinimdir. Aspose.Wor
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK): Sisteminizde Java'nın yüklü olduğundan emin olun.
--  Java için Aspose.Words: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+- Java için Aspose.Words: Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Java Projenizi Kurma
 
@@ -56,14 +58,14 @@ public class PrintDocumentWithDialog {
 
         // Yazdırma iletişim kutusunu göster
         if (settings.showPrintDialog()) {
-            // Belgeyi seçili ayarlarla yazdır
+            // Belgeyi seçili ayarlarla yazdırın
             doc.print(settings);
         }
     }
 }
 ```
 
- Bu kodda, önce Aspose.Words kullanarak belgeyi yüklüyoruz ve ardından PrinterSettings'i başlatıyoruz.`showPrintDialog()` PrintDialog'u kullanıcıya görüntüleme yöntemi. Kullanıcı yazdırma ayarlarını seçtikten sonra, belgeyi kullanarak yazdırırız`doc.print(settings)`.
+Bu kodda, önce Aspose.Words kullanarak belgeyi yüklüyoruz ve ardından PrinterSettings'i başlatıyoruz. `showPrintDialog()` PrintDialog'u kullanıcıya görüntüleme yöntemi. Kullanıcı yazdırma ayarlarını seçtikten sonra, belgeyi kullanarak yazdırırız `doc.print(settings)`.
 
 ## Yazdırma Ayarlarını Özelleştirme
 
@@ -77,7 +79,7 @@ Bu kılavuzda, Java için Aspose.Words kullanarak PrintDialog ile bir belgenin n
 
 ### Yazdırma için sayfa yönünü nasıl ayarlayabilirim?
 
- Yazdırma için sayfa yönünü (dikey veya yatay) ayarlamak için,`PageSetup` Aspose.Words'deki sınıf. İşte bir örnek:
+Yazdırma için sayfa yönünü (dikey veya yatay) ayarlamak için, `PageSetup` Aspose.Words'deki sınıf. İşte bir örnek:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Bir belgenin belirli sayfalarını yazdırabilir miyim?
 
- Evet, sayfa aralığını belirterek bir belgenin belirli sayfalarını yazdırabilirsiniz.`PrinterSettings` nesne. İşte bir örnek:
+Evet, sayfa aralığını belirterek bir belgenin belirli sayfalarını yazdırabilirsiniz. `PrinterSettings` nesne. İşte bir örnek:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### Yazdırma için kağıt boyutunu nasıl değiştirebilirim?
 
-Yazdırma için kağıt boyutunu değiştirmek için şunu kullanabilirsiniz:`PageSetup` sınıf ve ayarla`PaperSize` mülk. İşte bir örnek:
+Yazdırma için kağıt boyutunu değiştirmek için şunu kullanabilirsiniz: `PageSetup` sınıf ve ayarla `PaperSize` mülk. İşte bir örnek:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -110,10 +112,15 @@ Evet, Aspose.Words for Java, Windows, Linux ve macOS dahil olmak üzere çeşitl
 
 ### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Aspose.Words for Java için kapsamlı dokümanları ve örnekleri web sitesinde bulabilirsiniz:[Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+Aspose.Words for Java için kapsamlı dokümanları ve örnekleri web sitesinde bulabilirsiniz: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

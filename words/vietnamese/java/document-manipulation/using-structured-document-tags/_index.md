@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java
-linktitle: Sử dụng Thẻ Tài liệu có Cấu trúc (SDT)
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh.
-weight: 19
-url: /vi/java/document-manipulation/using-structured-document-tags/
+"description": "Tìm hiểu cách sử dụng Thẻ tài liệu có cấu trúc (SDT) trong Aspose.Words cho Java với hướng dẫn toàn diện này. Tạo, sửa đổi và liên kết SDT với dữ liệu XML tùy chỉnh."
+"linktitle": "Sử dụng Thẻ Tài liệu có Cấu trúc (SDT)"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Thẻ Tài liệu có Cấu trúc (SDT) trong Aspose.Words cho Java
@@ -233,7 +235,7 @@ Thẻ tài liệu có cấu trúc (SDT) có mục đích tổ chức và định
 
 ### Làm thế nào để tôi có thể kiểm tra trạng thái hiện tại của Checkbox SDT?
 
- Bạn có thể kiểm tra trạng thái hiện tại của Checkbox SDT bằng cách sử dụng`setChecked` phương pháp như đã trình bày trong bài viết.
+Bạn có thể kiểm tra trạng thái hiện tại của Checkbox SDT bằng cách sử dụng `setChecked` phương pháp như đã trình bày trong bài viết.
 
 ### Tôi có thể áp dụng kiểu cho Kiểm soát nội dung không?
 
@@ -246,9 +248,14 @@ Có, bạn có thể liên kết SDT với dữ liệu XML tùy chỉnh, cho ph�
 ### Các phần lặp lại trong SDT là gì?
 
 Lặp lại các phần trong SDT cho phép bạn tạo các bảng có dữ liệu động, trong đó các hàng có thể được lặp lại dựa trên dữ liệu XML được ánh xạ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Nhận biết và thay thế trong các mẫu thay thế
-linktitle: Nhận biết và thay thế trong các mẫu thay thế
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách nhận dạng và thay thế văn bản trong các mẫu thay thế bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ chi tiết.
-weight: 10
-url: /vi/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/
+"description": "Tìm hiểu cách nhận dạng và thay thế văn bản trong các mẫu thay thế bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ chi tiết."
+"linktitle": "Nhận biết và thay thế trong các mẫu thay thế"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận biết và thay thế trong các mẫu thay thế"
+"url": "/vi/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận biết và thay thế trong các mẫu thay thế
@@ -21,7 +23,7 @@ Chào mừng bạn đến với hành trình thú vị vào thế giới thao t�
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ IDE nào như Visual Studio đều có thể sử dụng.
 - Kiến thức cơ bản về C#: Nếu bạn đã quen thuộc với C# thì bạn đã sẵn sàng!
 
@@ -46,7 +48,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`Document` đối tượng là cốt lõi của Aspose.Words. Nó đại diện cho toàn bộ tài liệu Word.
+Các `Document` đối tượng là cốt lõi của Aspose.Words. Nó đại diện cho toàn bộ tài liệu Word.
 
 ## Bước 2: Thêm văn bản vào tài liệu
 
@@ -56,7 +58,7 @@ Tiếp theo, hãy thêm một số văn bản vào tài liệu. Văn bản này 
 builder.Write("Jason give money to Paul.");
 ```
 
- Các`DocumentBuilder` lớp là một công cụ mạnh mẽ để thêm văn bản và các thành phần khác vào tài liệu của bạn.
+Các `DocumentBuilder` lớp là một công cụ mạnh mẽ để thêm văn bản và các thành phần khác vào tài liệu của bạn.
 
 ## Bước 3: Xác định mẫu Regex
 
@@ -66,7 +68,7 @@ builder.Write("Jason give money to Paul.");
 Regex regex = new Regex(@"([A-z]+) give money to ([A-z]+)");
 ```
 
- Trong biểu thức chính quy này,`([A-z]+)` phù hợp với bất kỳ từ nào bao gồm các chữ cái, giúp nó linh hoạt cho nhiều tên gọi khác nhau.
+Trong biểu thức chính quy này, `([A-z]+)` phù hợp với bất kỳ từ nào bao gồm các chữ cái, giúp nó linh hoạt cho nhiều tên gọi khác nhau.
 
 ## Bước 4: Thiết lập tùy chọn thay thế
 
@@ -76,7 +78,7 @@ Aspose.Words cho phép bạn sử dụng các thay thế trong các thay thế c
 FindReplaceOptions options = new FindReplaceOptions { UseSubstitutions = true };
 ```
 
- Các`FindReplaceOptions` Lớp này cung cấp nhiều tùy chọn khác nhau để tùy chỉnh hoạt động tìm kiếm và thay thế của bạn.
+Các `FindReplaceOptions` Lớp này cung cấp nhiều tùy chọn khác nhau để tùy chỉnh hoạt động tìm kiếm và thay thế của bạn.
 
 ## Bước 5: Thực hiện thay thế
 
@@ -86,7 +88,7 @@ Bây giờ, chúng ta hãy thực hiện thao tác thay thế. Đây chính là 
 doc.Range.Replace(regex, @"$2 take money from $1", options);
 ```
 
- Đây,`$2` Và`$1` là các mẫu thay thế.`$2` đề cập đến nhóm bị bắt thứ hai (Paul), và`$1` ám chỉ nhóm bị bắt đầu tiên (Jason). Kết quả sẽ là "Paul lấy tiền từ Jason."
+Đây, `$2` Và `$1` là các mẫu thay thế. `$2` đề cập đến nhóm bị bắt thứ hai (Paul), và `$1` ám chỉ nhóm bị bắt đầu tiên (Jason). Kết quả sẽ là "Paul lấy tiền từ Jason."
 
 ## Bước 6: Lưu tài liệu
 
@@ -108,20 +110,25 @@ Xin chúc mừng! Bạn đã học thành công cách nhận dạng và thay th�
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word trong các ứng dụng .NET. Nó cho phép bạn tạo, sửa đổi và chuyển đổi tài liệu theo chương trình.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể cài đặt Aspose.Words cho .NET từ[liên kết tải xuống](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể cài đặt Aspose.Words cho .NET từ [liên kết tải xuống](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể sử dụng biểu thức chính quy với Aspose.Words cho .NET không?
 Có, Aspose.Words hỗ trợ biểu thức chính quy cho các hoạt động tìm kiếm và thay thế, cho phép thao tác văn bản phức tạp.
 
 ### Mẫu thay thế trong regex là gì?
- Các mẫu thay thế, như`$1` Và`$2`, tham chiếu đến các nhóm đã chụp trong phép khớp regex. Chúng được sử dụng để sắp xếp lại hoặc tái sử dụng các phần của văn bản khớp trong chuỗi thay thế.
+Các mẫu thay thế, như `$1` Và `$2`, tham chiếu đến các nhóm đã chụp trong phép khớp regex. Chúng được sử dụng để sắp xếp lại hoặc tái sử dụng các phần của văn bản khớp trong chuỗi thay thế.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

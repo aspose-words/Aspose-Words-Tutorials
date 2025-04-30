@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ bằng mật khẩu trong tài liệu Word
-linktitle: Bảo vệ bằng mật khẩu trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bảo mật tài liệu Word của bạn bằng mật khẩu khi sử dụng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết này.
-weight: 10
-url: /vi/net/document-protection/password-protection/
+"description": "Tìm hiểu cách bảo mật tài liệu Word của bạn bằng mật khẩu khi sử dụng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết này."
+"linktitle": "Bảo vệ bằng mật khẩu trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bảo vệ bằng mật khẩu trong tài liệu Word"
+"url": "/vi/net/document-protection/password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ bằng mật khẩu trong tài liệu Word
@@ -21,10 +23,10 @@ Xin chào! Bạn đã bao giờ tự hỏi làm thế nào để bảo vệ các
 
 Trước khi đi sâu vào cách bảo vệ tài liệu Word bằng mật khẩu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C#.
-4.  Giấy phép Aspose: Nhận giấy phép từ[đây](https://purchase.aspose.com/buy) hoặc sử dụng một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+4. Giấy phép Aspose: Nhận giấy phép từ [đây](https://purchase.aspose.com/buy) hoặc sử dụng một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ## Nhập không gian tên
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 Bây giờ dự án của chúng ta đã được thiết lập, hãy tạo một tài liệu Word mà chúng ta có thể bảo vệ.
 
- Trong của bạn`Program.cs` tập tin, khởi tạo một phiên bản mới của`Document` lớp. Lớp này đại diện cho tài liệu Word mà bạn sẽ làm việc.
+Trong của bạn `Program.cs` tập tin, khởi tạo một phiên bản mới của `Document` lớp. Lớp này đại diện cho tài liệu Word mà bạn sẽ làm việc.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -70,11 +72,11 @@ Document doc = new Document();
 
 ### Chọn loại bảo vệ
 
- Aspose.Words cung cấp nhiều loại bảo vệ khác nhau, chẳng hạn như`NoProtection`, `ReadOnly`, `AllowOnlyComments` , Và`AllowOnlyFormFields` Đối với ví dụ này, chúng ta sẽ sử dụng`NoProtection` nhưng phải có mật khẩu, về cơ bản có nghĩa là tài liệu có thể chỉnh sửa được nhưng cần có mật khẩu để xóa chế độ bảo vệ.
+Aspose.Words cung cấp nhiều loại bảo vệ khác nhau, chẳng hạn như `NoProtection`, `ReadOnly`, `AllowOnlyComments`, Và `AllowOnlyFormFields`. Đối với ví dụ này, chúng ta sẽ sử dụng `NoProtection` nhưng phải có mật khẩu, về cơ bản có nghĩa là tài liệu có thể chỉnh sửa được nhưng cần có mật khẩu để xóa chế độ bảo vệ.
 
 ### Áp dụng bảo vệ
 
- Sử dụng`Protect` phương pháp của`Document` lớp để áp dụng bảo vệ bằng mật khẩu. 
+Sử dụng `Protect` phương pháp của `Document` lớp để áp dụng bảo vệ bằng mật khẩu. 
 
 ```csharp
 // Áp dụng bảo vệ tài liệu.
@@ -86,7 +88,7 @@ doc.Protect(ProtectionType.NoProtection, "password");
 Cuối cùng, hãy lưu tài liệu được bảo vệ vào một thư mục được chỉ định.
 
 
- Sử dụng`Save` phương pháp lưu tài liệu của bạn. Cung cấp đường dẫn đến nơi bạn muốn lưu tài liệu cùng với tên tệp.
+Sử dụng `Save` phương pháp lưu tài liệu của bạn. Cung cấp đường dẫn đến nơi bạn muốn lưu tài liệu cùng với tên tệp.
 
 ```csharp
 doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
@@ -100,11 +102,11 @@ Và thế là xong! Bạn đã thêm thành công bảo vệ bằng mật khẩu
 
 ### Tôi có thể sử dụng các loại bảo vệ khác nhau với Aspose.Words không?
 
-Có, Aspose.Words hỗ trợ nhiều loại bảo vệ khác nhau, bao gồm`ReadOnly`, `AllowOnlyComments` , Và`AllowOnlyFormFields`.
+Có, Aspose.Words hỗ trợ nhiều loại bảo vệ khác nhau, bao gồm `ReadOnly`, `AllowOnlyComments`, Và `AllowOnlyFormFields`.
 
 ### Làm thế nào để xóa mật khẩu bảo vệ khỏi tài liệu?
 
- Để xóa bảo vệ, hãy sử dụng`Unprotect` phương pháp và cung cấp mật khẩu chính xác.
+Để xóa bảo vệ, hãy sử dụng `Unprotect` phương pháp và cung cấp mật khẩu chính xác.
 
 ### Aspose.Words có tương thích với .NET Core không?
 
@@ -112,15 +114,20 @@ Có, Aspose.Words tương thích với .NET Core, .NET Framework và các nền 
 
 ### Tôi có thể bảo vệ bằng mật khẩu một tài liệu đã tồn tại không?
 
- Chắc chắn rồi! Bạn có thể tải một tài liệu hiện có bằng cách sử dụng`Document` lớp và sau đó áp dụng biện pháp bảo vệ.
+Chắc chắn rồi! Bạn có thể tải một tài liệu hiện có bằng cách sử dụng `Document` lớp và sau đó áp dụng biện pháp bảo vệ.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words ở đâu?
 
- Bạn có thể tìm thêm tài liệu trên[Trang tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thêm tài liệu trên [Trang tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

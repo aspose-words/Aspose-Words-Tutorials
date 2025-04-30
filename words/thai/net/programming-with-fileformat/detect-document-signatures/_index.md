@@ -1,14 +1,16 @@
 ---
-title: ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word
-linktitle: ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตรวจจับลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา
-weight: 10
-url: /th/net/programming-with-fileformat/detect-document-signatures/
+"description": "เรียนรู้วิธีตรวจจับลายเซ็นดิจิทัลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา"
+"linktitle": "ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word"
+"url": "/th/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตรวจจับลายเซ็นดิจิทัลบนเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-fileformat/detect-document-signatures/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: ให้แน่ใจว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
@@ -41,7 +43,7 @@ using Aspose.Words;
 
 ### 1.1 สร้างโครงการใหม่
 
- เปิด Visual Studio และสร้างโปรเจ็กต์ Console App (.NET Core) ใหม่ ตั้งชื่อ`DigitalSignatureDetector`.
+เปิด Visual Studio และสร้างโปรเจ็กต์ Console App (.NET Core) ใหม่ ตั้งชื่อ `DigitalSignatureDetector`-
 
 ### 1.2 ติดตั้ง Aspose.Words สำหรับ .NET
 
@@ -60,17 +62,17 @@ using Aspose.Words;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: ตรวจจับรูปแบบไฟล์
 
-ต่อไปเราจะต้องตรวจสอบรูปแบบไฟล์ของเอกสารเพื่อให้แน่ใจว่าเป็นเอกสาร Word
+ต่อไปเราจะต้องตรวจจับรูปแบบไฟล์ของเอกสารเพื่อให้แน่ใจว่าเป็นเอกสาร Word
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- บรรทัดโค้ดนี้จะตรวจสอบรูปแบบไฟล์ของเอกสารที่ชื่อ`Digitally signed.docx`.
+บรรทัดโค้ดนี้จะตรวจสอบรูปแบบไฟล์ของเอกสารที่ชื่อ `Digitally signed-docx`.
 
 ## ขั้นตอนที่ 4: ตรวจสอบลายเซ็นดิจิทัล
 
@@ -97,23 +99,28 @@ if (info.HasDigitalSignature)
 
 ### มีวิธีตรวจจับลายเซ็นดิจิทัลหลายรายการบนเอกสารหรือไม่
 
- ใช่ครับ`HasDigitalSignature` คุณสมบัติสามารถระบุถึงการมีอยู่ของลายเซ็นดิจิทัลหนึ่งรายการหรือมากกว่าบนเอกสารได้
+ใช่ครับ `HasDigitalSignature` คุณสมบัติสามารถระบุถึงการมีอยู่ของลายเซ็นดิจิทัลหนึ่งรายการหรือมากกว่าบนเอกสารได้
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
 
- คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
 
- คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์ได้ที่[หน้าเอกสาร Aspose](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบฉบับสมบูรณ์ได้ที่ [หน้าเอกสาร Aspose](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถรับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้หรือไม่
 
- ใช่ คุณสามารถรับการสนับสนุนจาก[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+ใช่ คุณสามารถรับการสนับสนุนจาก [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

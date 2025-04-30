@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Properti Dokumen Kustom
-linktitle: Tambahkan Properti Dokumen Kustom
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan properti dokumen kustom dalam file Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk menyempurnakan dokumen Anda dengan metadata tambahan.
-weight: 10
-url: /id/net/programming-with-document-properties/add-custom-document-properties/
+"description": "Pelajari cara menambahkan properti dokumen kustom dalam file Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk menyempurnakan dokumen Anda dengan metadata tambahan."
+"linktitle": "Tambahkan Properti Dokumen Kustom"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Properti Dokumen Kustom"
+"url": "/id/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Properti Dokumen Kustom
@@ -21,10 +23,10 @@ Hai! Apakah Anda sedang mendalami dunia Aspose.Words untuk .NET dan ingin tahu c
 
 Sebelum kita masuk ke kode, mari pastikan Anda sudah memiliki semua yang dibutuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C# dan .NET.
-4.  Contoh Dokumen: Siapkan contoh dokumen Word yang diberi nama`Properties.docx`, yang akan Anda modifikasi.
+4. Contoh Dokumen: Siapkan contoh dokumen Word yang diberi nama `Properties.docx`, yang akan Anda modifikasi.
 
 ## Mengimpor Ruang Nama
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## Langkah 1: Menyiapkan Jalur Dokumen
 
- Pertama-tama, kita perlu mengatur jalur ke dokumen kita. Di sinilah kita akan menentukan lokasi dokumen kita.`Properties.docx` mengajukan.
+Pertama-tama, kita perlu mengatur jalur ke dokumen kita. Di sinilah kita akan menentukan lokasi dokumen kita. `Properties.docx` mengajukan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- Dalam cuplikan ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Langkah ini penting karena memungkinkan program untuk menemukan dan membuka berkas Word Anda.
+Dalam cuplikan ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Langkah ini penting karena memungkinkan program untuk menemukan dan membuka berkas Word Anda.
 
 ## Langkah 2: Mengakses Properti Dokumen Kustom
 
@@ -75,7 +77,7 @@ Sekarang, mari tambahkan properti kustom pertama kita—nilai boolean untuk menu
 customDocumentProperties.Add("Authorized", true);
 ```
 
- Baris ini menambahkan properti kustom bernama "Diotorisasi" dengan nilai`true`Sederhana dan mudah!
+Baris ini menambahkan properti kustom bernama "Diotorisasi" dengan nilai `true`Sederhana dan mudah!
 
 ## Langkah 5: Menambahkan Properti String
 
@@ -95,7 +97,7 @@ Mari tambahkan properti untuk menyimpan tanggal otorisasi. Ini membantu melacak 
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- Potongan kode ini menambahkan properti bernama "Tanggal Resmi" dengan tanggal saat ini sebagai nilainya.`DateTime.Today`properti secara otomatis mengambil tanggal hari ini.
+Potongan kode ini menambahkan properti bernama "Tanggal Resmi" dengan tanggal saat ini sebagai nilainya. `DateTime.Today` properti secara otomatis mengambil tanggal hari ini.
 
 ## Langkah 7: Menambahkan Nomor Revisi
 
@@ -115,7 +117,7 @@ Terakhir, mari tambahkan properti numerik untuk menyimpan jumlah yang diizinkan.
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- Baris ini menambahkan properti bernama "Jumlah Resmi" dengan nilai`123.45`Sekali lagi, jangan ragu untuk menggantinya dengan angka apa pun yang sesuai dengan kebutuhan Anda.
+Baris ini menambahkan properti bernama "Jumlah Resmi" dengan nilai `123.45`Sekali lagi, jangan ragu untuk menggantinya dengan angka apa pun yang sesuai dengan kebutuhan Anda.
 
 ## Kesimpulan
 
@@ -140,9 +142,14 @@ Ya, Anda dapat dengan mudah mengedit atau menghapus properti kustom menggunakan 
 ### Bisakah properti khusus digunakan untuk memfilter dokumen?
 Tentu saja! Properti kustom sangat bagus untuk mengkategorikan dan memfilter dokumen berdasarkan metadata tertentu.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

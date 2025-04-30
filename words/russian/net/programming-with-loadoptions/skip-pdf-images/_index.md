@@ -1,14 +1,16 @@
 ---
-title: Пропустить PDF-изображения
-linktitle: Пропустить PDF-изображения
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как пропускать изображения при загрузке PDF-документов с помощью Aspose.Words for .NET. Следуйте этому пошаговому руководству для бесперебойного извлечения текста.
-weight: 10
-url: /ru/net/programming-with-loadoptions/skip-pdf-images/
+"description": "Узнайте, как пропускать изображения при загрузке PDF-документов с помощью Aspose.Words for .NET. Следуйте этому пошаговому руководству для бесперебойного извлечения текста."
+"linktitle": "Пропустить PDF-изображения"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Пропустить PDF-изображения"
+"url": "/ru/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пропустить PDF-изображения
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-loadoptions/skip-pdf-images/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: загрузить последнюю версию[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: загрузить последнюю версию [здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: любая последняя версия должна работать нормально.
 - Базовые знания C#: Вам не нужно быть профессионалом, но базовые знания будут полезны.
 - Документ PDF: Подготовьте образец документа PDF для тестирования.
@@ -55,13 +57,13 @@ using Aspose.Words.Loading;
 
 ### Определить каталог данных
 
- В вашем проекте`Program.cs` file, начните с определения пути к каталогу ваших документов. Это то место, где находится ваш PDF-файл.
+В вашем проекте `Program.cs` файл, начните с определения пути к каталогу ваших документов. Это то место, где находится ваш PDF-файл.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к папке с вашими документами.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к папке с вашими документами.
 
 ### Установите параметры загрузки, чтобы пропустить изображения PDF
 
@@ -79,7 +81,7 @@ PdfLoadOptions loadOptions = new PdfLoadOptions { SkipPdfImages = true };
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- Убедитесь, что`"Pdf Document.pdf"` — имя вашего PDF-файла в указанном каталоге.
+Убедитесь, что `"Pdf Document.pdf"` — имя вашего PDF-файла в указанном каталоге.
 
 ## Заключение
 
@@ -89,7 +91,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### Могу ли я выборочно пропускать определенные изображения в PDF-файле?
 
- Нет,`SkipPdfImages` опция пропускает все изображения в PDF. Если вам нужен выборочный контроль, рассмотрите возможность предварительной обработки PDF.
+Нет, `SkipPdfImages` опция пропускает все изображения в PDF. Если вам нужен выборочный контроль, рассмотрите возможность предварительной обработки PDF.
 
 ### Влияет ли эта функция на текст в PDF-файле?
 
@@ -97,19 +99,24 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### Могу ли я использовать эту функцию с другими форматами документов?
 
- The`SkipPdfImages` опция предназначена специально для документов PDF. Для других форматов доступны другие опции и методы.
+The `SkipPdfImages` опция предназначена специально для документов PDF. Для других форматов доступны другие опции и методы.
 
 ### Как я могу убедиться, что изображения были пропущены?
 
-Вы можете открыть выходной документ в текстовом редакторе, чтобы визуально убедиться в отсутствии изображений.
+Вы можете открыть выходной документ в текстовом процессоре, чтобы визуально убедиться в отсутствии изображений.
 
 ### Что произойдет, если в PDF-файле нет изображений?
 
- Документ загружается как обычно, без влияния на процесс.`SkipPdfImages` в данном случае опция просто не имеет никакого эффекта.
+Документ загружается как обычно, без влияния на процесс. `SkipPdfImages` в данном случае опция просто не имеет никакого эффекта.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

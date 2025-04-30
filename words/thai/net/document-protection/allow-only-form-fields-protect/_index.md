@@ -1,14 +1,16 @@
 ---
-title: อนุญาติให้ป้องกันเฉพาะช่องฟอร์มในเอกสาร Word เท่านั้น
-linktitle: อนุญาติให้ป้องกันเฉพาะช่องฟอร์มในเอกสาร Word เท่านั้น
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีปกป้องเอกสาร Word โดยอนุญาตให้แก้ไขเฉพาะฟิลด์ฟอร์มเท่านั้นโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำของเราเพื่อให้แน่ใจว่าเอกสารของคุณปลอดภัยและแก้ไขได้ง่าย
-weight: 10
-url: /th/net/document-protection/allow-only-form-fields-protect/
+"description": "เรียนรู้วิธีปกป้องเอกสาร Word โดยอนุญาตให้แก้ไขเฉพาะฟิลด์ฟอร์มเท่านั้นโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำของเราเพื่อให้แน่ใจว่าเอกสารของคุณปลอดภัยและแก้ไขได้ง่าย"
+"linktitle": "อนุญาติให้ป้องกันเฉพาะช่องฟอร์มในเอกสาร Word เท่านั้น"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อนุญาติให้ป้องกันเฉพาะช่องฟอร์มในเอกสาร Word เท่านั้น"
+"url": "/th/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อนุญาติให้ป้องกันเฉพาะช่องฟอร์มในเอกสาร Word เท่านั้น
@@ -21,7 +23,7 @@ url: /th/net/document-protection/allow-only-form-fields-protect/
 
 ก่อนที่เราจะเจาะลึกในส่วนของการเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: เวอร์ชันล่าสุดใดๆ ก็ทำงานได้ดี
 3. ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานจะช่วยให้คุณทำตามบทช่วยสอนได้
 
@@ -42,7 +44,7 @@ using Aspose.Words.Saving;
 ## ขั้นตอนที่ 2: ติดตั้ง Aspose.Words สำหรับ .NET
 
 ติดตั้งผ่านตัวจัดการแพ็คเกจ NuGet  
-คลิกขวาที่โครงการของคุณใน Solution Explorer เลือก "จัดการแพ็คเกจ NuGet" และค้นหา`Aspose.Words`. ติดตั้งมัน.
+คลิกขวาที่โครงการของคุณใน Solution Explorer เลือก "จัดการแพ็คเกจ NuGet" และค้นหา `Aspose.Words`. ติดตั้งมัน.
 
 ## ขั้นตอนที่ 3: เริ่มต้นเอกสาร
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- ที่นี่เราสร้างใหม่`Document` และ`DocumentBuilder` ตัวอย่าง.`DocumentBuilder` ช่วยให้เราเพิ่มข้อความลงในเอกสารของเราได้
+ที่นี่เราสร้างใหม่ `Document` และ `DocumentBuilder` ตัวอย่าง. `DocumentBuilder` ช่วยให้เราเพิ่มข้อความลงในเอกสารของเราได้
 
 ## ขั้นตอนที่ 4: ปกป้องเอกสาร
 
@@ -92,10 +94,10 @@ doc.Save(dataDir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
 ## คำถามที่พบบ่อย
 
 ###	 ฉันจะลบการป้องกันออกจากเอกสารได้อย่างไร  
- หากต้องการลบการป้องกัน ให้ใช้`doc.Unprotect("password")` วิธีการที่ “รหัสผ่าน” คือรหัสผ่านที่ใช้เพื่อป้องกันเอกสาร
+หากต้องการลบการป้องกัน ให้ใช้ `doc.Unprotect("password")` วิธีการที่ “รหัสผ่าน” คือรหัสผ่านที่ใช้เพื่อป้องกันเอกสาร
 
 ###	 ฉันสามารถใช้การป้องกันประเภทต่างๆ โดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่  
- ใช่ Aspose.Words รองรับการป้องกันประเภทต่างๆ เช่น`ReadOnly`, `NoProtection` , และ`AllowOnlyRevisions`.
+ใช่ Aspose.Words รองรับการป้องกันประเภทต่างๆ เช่น `ReadOnly`- `NoProtection`, และ `AllowOnlyRevisions`-
 
 ###	 สามารถใช้รหัสผ่านที่แตกต่างกันสำหรับแต่ละส่วนได้หรือไม่  
 ไม่ การป้องกันระดับเอกสารใน Aspose.Words จะใช้กับเอกสารทั้งหมด คุณไม่สามารถกำหนดรหัสผ่านที่แตกต่างกันให้กับส่วนต่างๆ ได้
@@ -104,11 +106,16 @@ doc.Save(dataDir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
 หากใช้รหัสผ่านไม่ถูกต้อง เอกสารจะยังคงได้รับการปกป้อง และการเปลี่ยนแปลงที่ระบุจะไม่ถูกนำไปใช้
 
 ###	 ฉันสามารถตรวจสอบโดยโปรแกรมว่าเอกสารได้รับการป้องกันหรือไม่ได้หรือไม่  
- ใช่คุณสามารถใช้`doc.ProtectionType` คุณสมบัติเพื่อตรวจสอบสถานะการคุ้มครองของเอกสาร
+ใช่คุณสามารถใช้ `doc.ProtectionType` คุณสมบัติเพื่อตรวจสอบสถานะการคุ้มครองของเอกสาร
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

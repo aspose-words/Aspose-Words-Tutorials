@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में विषय सूची डालें
-linktitle: वर्ड दस्तावेज़ में विषय सूची डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word में विषय-सूची सम्मिलित करना सीखें। दस्तावेज़ों में सहज नेविगेशन के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word में विषय-सूची सम्मिलित करना सीखें। दस्तावेज़ों में सहज नेविगेशन के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड दस्तावेज़ में विषय सूची डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में विषय सूची डालें"
+"url": "/hi/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में विषय सूची डालें
@@ -22,7 +24,7 @@ url: /hi/net/add-content-using-documentbuilder/insert-table-of-contents/
 
 - C# और .NET फ्रेमवर्क की बुनियादी समझ।
 - आपके मशीन पर Visual Studio स्थापित है.
--  Aspose.Words for .NET लाइब्रेरी। यदि आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET लाइब्रेरी। यदि आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 ## नामस्थान आयात करें
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 
 ## चरण 1: Aspose.Words दस्तावेज़ और DocumentBuilder को आरंभ करें
 
- सबसे पहले, एक नया Aspose.Words आरंभ करें`Document` वस्तु और एक`DocumentBuilder` इसके साथ कार्य करने के लिए:
+सबसे पहले, एक नया Aspose.Words आरंभ करें `Document` वस्तु और एक `DocumentBuilder` इसके साथ कार्य करने के लिए:
 
 ```csharp
 // दस्तावेज़ और दस्तावेज़बिल्डर आरंभ करें
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: विषय-सूची डालें
 
- अब, का उपयोग कर सामग्री की तालिका डालें`InsertTableOfContents` तरीका:
+अब, का उपयोग कर सामग्री की तालिका डालें `InsertTableOfContents` तरीका:
 
 ```csharp
 // विषय सूची डालें
@@ -133,10 +135,15 @@ Aspose.Words एक ही दस्तावेज़ में विभिन
 हां, Aspose.Words माइक्रोसॉफ्ट वर्ड प्रारूपों के विभिन्न संस्करणों के साथ संगतता सुनिश्चित करता है।
 
 ### मैं Aspose.Words के लिए और अधिक सहायता और समर्थन कहां पा सकता हूं?
- अधिक सहायता के लिए, कृपया यहां जाएं[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8) या जाँच करें[आधिकारिक दस्तावेज](https://reference.aspose.com/words/net/).
+अधिक सहायता के लिए, कृपया यहां जाएं [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8) या जाँच करें [आधिकारिक दस्तावेज](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

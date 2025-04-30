@@ -1,14 +1,16 @@
 ---
-title: Ignoruj tekst wewnątrz wstawianych wersji
-linktitle: Ignoruj tekst wewnątrz wstawianych wersji
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak skutecznie zarządzać rewizjami dokumentów za pomocą Aspose.Words dla .NET. Odkryj techniki ignorowania tekstu wewnątrz wstawianych rewizji w celu usprawnienia edycji.
-weight: 10
-url: /pl/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Dowiedz się, jak skutecznie zarządzać rewizjami dokumentów za pomocą Aspose.Words dla .NET. Odkryj techniki ignorowania tekstu wewnątrz wstawianych rewizji w celu usprawnienia edycji."
+"linktitle": "Ignoruj tekst wewnątrz wstawianych wersji"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ignoruj tekst wewnątrz wstawianych wersji"
+"url": "/pl/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignoruj tekst wewnątrz wstawianych wersji
@@ -85,8 +87,8 @@ Opanowanie techniki ignorowania tekstu wewnątrz wstawianych rewizji z Aspose.Wo
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę rozpocząć śledzenie zmian w dokumencie Word za pomocą Aspose.Words dla .NET?
- Aby rozpocząć śledzenie rewizji, użyj`doc.StartTrackRevisions(author, date)` metoda.
+### Jak mogę rozpocząć śledzenie zmian w dokumencie Word za pomocą Aspose.Words dla platformy .NET?
+Aby rozpocząć śledzenie rewizji, użyj `doc.StartTrackRevisions(author, date)` metoda.
 
 ### Jaka jest korzyść z ignorowania wstawionego tekstu w wersjach dokumentu?
 Ignorowanie wstawionego tekstu pozwala skupić się na głównej treści i sprawnie zarządzać zmianami w dokumencie.
@@ -95,13 +97,18 @@ Ignorowanie wstawionego tekstu pozwala skupić się na głównej treści i spraw
 Tak, możesz przywrócić zignorowany wstawiony tekst, używając odpowiednich ustawień FindReplaceOptions.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Odwiedź[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
+Odwiedź [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
 
 ### Czy istnieje forum społecznościowe umożliwiające dyskusję na temat Aspose.Words w przypadku zapytań związanych z platformą .NET?
- Tak, możesz odwiedzić[Forum Aspose.Words](https://forum.aspose.com/c/words/8) w celu uzyskania wsparcia społeczności i dyskusji.
+Tak, możesz odwiedzić [Forum Aspose.Words](https://forum.aspose.com/c/words/8) w celu uzyskania wsparcia społeczności i dyskusji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

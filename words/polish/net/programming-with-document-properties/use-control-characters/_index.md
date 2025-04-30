@@ -1,14 +1,16 @@
 ---
-title: Użyj znaków kontrolnych
-linktitle: Użyj znaków kontrolnych
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak automatyzować zadania związane z dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje konfigurację, zamianę tekstu i wiele więcej, co usprawni Twój przepływ pracy.
-weight: 10
-url: /pl/net/programming-with-document-properties/use-control-characters/
+"description": "Dowiedz się, jak automatyzować zadania związane z dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje konfigurację, zamianę tekstu i wiele więcej, co usprawni Twój przepływ pracy."
+"linktitle": "Użyj znaków kontrolnych"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Użyj znaków kontrolnych"
+"url": "/pl/net/programming-with-document-properties/use-control-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Użyj znaków kontrolnych
@@ -22,8 +24,8 @@ Gotowy, aby zanurzyć się w świecie automatyzacji dokumentów? Jeśli kiedykol
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
 1. Podstawowa znajomość języka C#: Nie musisz być ekspertem w języku C#, ale znajomość podstaw będzie pomocna.
-2. Zainstalowany .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Możesz go pobrać ze strony[Witryna internetowa Microsoft .NET](https://dotnet.microsoft.com/download).
-3.  Biblioteka Aspose.Words dla .NET: Pobierz najnowszą wersję z[Strona pobierania Aspose](https://releases.aspose.com/words/net/).
+2. Zainstalowany .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Możesz go pobrać ze strony [Witryna internetowa Microsoft .NET](https://dotnet.microsoft.com/download).
+3. Biblioteka Aspose.Words dla .NET: Pobierz najnowszą wersję z [Strona pobierania Aspose](https://releases.aspose.com/words/net/).
 
 ## Importuj przestrzenie nazw
 
@@ -55,7 +57,7 @@ Zacznijmy od załadowania istniejącego dokumentu Word. Może to być dowolny pl
 Document doc = new Document("path/to/your/document.docx");
 ```
 
- Ta linia kodu ładuje Twój dokument do`doc`obiekt. Można to sobie wyobrazić jako otwieranie pliku Word za pomocą programu, a nie ręcznie.
+Ta linia kodu ładuje Twój dokument do `doc` obiekt. Można to sobie wyobrazić jako otwieranie pliku Word za pomocą programu, a nie ręcznie.
 
 ## Krok 3: Zastępowanie tekstu w dokumencie
 
@@ -80,11 +82,11 @@ doc.Range.Replace(oldText, newText, new FindReplaceOptions());
 
 ### Zrozumienie znaków sterujących
 
- Znaki kontrolne to znaki specjalne, które możesz chcieć zastąpić. Na przykład zastąpmy`\r` steruj postacią za pomocą`\r\n`.
+Znaki kontrolne to znaki specjalne, które możesz chcieć zastąpić. Na przykład zastąpmy `\r` steruj postacią za pomocą `\r\n`.
 
 ### Zamień znaki kontrolne
 
- Oto kod do zastąpienia`\r` z`\r\n`:
+Oto kod do zastąpienia `\r` z `\r\n`:
 
 ```csharp
 const string text = "test\r";
@@ -113,7 +115,7 @@ Gratulacje! Właśnie postawiłeś pierwsze kroki w świecie automatyzacji dokum
 Aspose.Words for .NET to biblioteka umożliwiająca programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Możesz wypróbować go za darmo, pobierając[bezpłatny okres próbny](https://releases.aspose.com/)Aby korzystać z pełnej funkcjonalności, musisz kupić licencję.
+Możesz wypróbować go za darmo, pobierając [bezpłatny okres próbny](https://releases.aspose.com/)Aby korzystać z pełnej funkcjonalności, musisz kupić licencję.
 
 ### Jakie formaty obsługuje Aspose.Words?
 Obsługuje wiele formatów, w tym .doc, .docx, .pdf, .html i inne.
@@ -122,11 +124,16 @@ Obsługuje wiele formatów, w tym .doc, .docx, .pdf, .html i inne.
 Podstawowa znajomość języka C# będzie pomocna, jednak biblioteka została zaprojektowana tak, aby była przyjazna dla programistów na każdym poziomie zaawansowania.
 
 ### Gdzie mogę znaleźć więcej informacji lub uzyskać pomoc?
- Sprawdź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź[forum wsparcia](https://forum.aspose.com/c/words/8).
+Sprawdź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź [forum wsparcia](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual
-linktitle: Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara menguasai pemformatan dokumen menggunakan Aspose.Words untuk Python. Buat dokumen yang menarik secara visual dengan gaya font, tabel, gambar, dan banyak lagi. Panduan langkah demi langkah dengan contoh kode.
-weight: 14
-url: /id/python-net/document-splitting-and-formatting/document-formatting-techniques/
+"description": "Pelajari cara menguasai pemformatan dokumen menggunakan Aspose.Words untuk Python. Buat dokumen yang menarik secara visual dengan gaya font, tabel, gambar, dan banyak lagi. Panduan langkah demi langkah dengan contoh kode."
+"linktitle": "Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual"
+"url": "/id/python-net/document-splitting-and-formatting/document-formatting-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual
@@ -46,7 +48,7 @@ doc.save("basic_document.docx")
 Untuk menyusun dokumen Anda secara efektif, pemformatan paragraf dan judul sangatlah penting. Lakukan ini dengan menggunakan kode di bawah ini:
 
 ```python
-# For paragraphs
+# Untuk paragraf
 paragraph.alignment = aw.ParagraphAlignment.CENTER
 builder.paragraph_format.line_spacing = 1.5
 ```
@@ -119,7 +121,7 @@ Tambahkan daftar isi dan hyperlink untuk memudahkan navigasi:
 
 ```python
 doc.update_fields()
-builder.insert_hyperlink("Jump to Section 2", "#section2")
+builder.insert_hyperlink("Jump to Section 2", "#bagian2")
 ```
 
 ## Keamanan dan Perlindungan Dokumen
@@ -151,21 +153,26 @@ pip install aspose-words
 ```
 
 ### Dapatkah saya menerapkan gaya yang berbeda pada paragraf dan judul?
- Ya, Anda dapat menerapkan gaya yang berbeda pada paragraf dan judul menggunakan`paragraph_format.style` milik.
+Ya, Anda dapat menerapkan gaya yang berbeda pada paragraf dan judul menggunakan `paragraph_format.style` milik.
 
 ### Bisakah saya menambahkan gambar ke dokumen saya?
- Tentu saja! Anda dapat memasukkan gambar ke dalam dokumen Anda menggunakan`insert_image` metode.
+Tentu saja! Anda dapat memasukkan gambar ke dalam dokumen Anda menggunakan `insert_image` metode.
 
 ### Bisakah saya melindungi dokumen saya dengan kata sandi?
- Ya, Anda dapat melindungi dokumen Anda dengan mengatur perlindungan dokumen menggunakan`protect` metode.
+Ya, Anda dapat melindungi dokumen Anda dengan mengatur perlindungan dokumen menggunakan `protect` metode.
 
 ### Format apa saja yang dapat saya ekspor dokumen saya?
 Aspose.Words memungkinkan Anda mengekspor dokumen ke berbagai format, termasuk PDF, DOCX, dan banyak lagi.
 
- Untuk rincian lebih lanjut dan untuk mengakses dokumentasi dan unduhan Aspose.Words untuk Python, kunjungi[Di Sini](https://reference.aspose.com/words/python-net/).
+Untuk rincian lebih lanjut dan untuk mengakses dokumentasi dan unduhan Aspose.Words untuk Python, kunjungi [Di Sini](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

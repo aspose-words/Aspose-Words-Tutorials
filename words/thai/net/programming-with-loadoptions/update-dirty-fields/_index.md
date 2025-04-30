@@ -1,14 +1,16 @@
 ---
-title: การอัปเดตฟิลด์ที่สกปรกในเอกสาร Word
-linktitle: การอัปเดตฟิลด์ที่สกปรกในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: อัปเดตฟิลด์ข้อมูลที่ไม่สามารถเข้าถึงได้ในเอกสาร Word ของคุณได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/programming-with-loadoptions/update-dirty-fields/
+"description": "อัปเดตฟิลด์ที่ไม่สามารถเข้าถึงได้ในเอกสาร Word ของคุณได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "การอัปเดตฟิลด์ที่สกปรกในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การอัปเดตฟิลด์ที่สกปรกในเอกสาร Word"
+"url": "/th/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การอัปเดตฟิลด์ที่สกปรกในเอกสาร Word
@@ -22,7 +24,7 @@ url: /th/net/programming-with-loadoptions/update-dirty-fields/
 
 ก่อนที่เราจะเจาะลึกรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีเวอร์ชันล่าสุดหรือไม่ หากไม่มี คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีเวอร์ชันล่าสุดหรือไม่ หากไม่มี คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ทุกเวอร์ชันที่เข้ากันได้กับ Aspose.Words
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 4. ตัวอย่างเอกสาร Word: เอกสารที่มีฟิลด์ที่ไม่เรียบร้อยซึ่งจำเป็นต้องมีการอัปเดต
@@ -88,7 +90,7 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ### ฟิลด์สกปรกในเอกสาร Word คืออะไร?
 ฟิลด์ที่สกปรกคือฟิลด์ที่ถูกทำเครื่องหมายไว้สำหรับการอัปเดต เนื่องจากผลลัพธ์ที่แสดงนั้นล้าสมัยแล้ว
 
-### เหตุใดการอัปเดตฟิลด์สกปรกจึงมีความสำคัญ?
+### เหตุใดการอัปเดตฟิลด์สกปรกจึงสำคัญ?
 การอัปเดตฟิลด์ข้อมูลที่ไม่ถูกต้องจะช่วยให้แน่ใจว่าข้อมูลที่แสดงในเอกสารเป็นปัจจุบันและถูกต้อง ซึ่งถือเป็นสิ่งสำคัญสำหรับเอกสารระดับมืออาชีพ
 
 ### ฉันสามารถอัปเดตฟิลด์ที่เจาะจงแทนฟิลด์ที่ไม่เรียบร้อยทั้งหมดได้ไหม
@@ -97,12 +99,17 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ### ฉันต้องใช้ Aspose.Words สำหรับงานนี้หรือไม่?
 ใช่ Aspose.Words เป็นไลบรารีอันทรงพลังที่ช่วยลดความยุ่งยากของกระบวนการจัดการเอกสาร Word ด้วยโปรแกรม
 
-### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words ได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างโดยละเอียด
+### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words ได้จากที่ใด
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับคำแนะนำและตัวอย่างโดยละเอียด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

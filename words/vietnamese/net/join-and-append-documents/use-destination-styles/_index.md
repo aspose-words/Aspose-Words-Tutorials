@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Kiểu đích
-linktitle: Sử dụng Kiểu đích
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng kiểu đích với Aspose.Words cho .NET để thêm tài liệu một cách liền mạch trong khi vẫn duy trì định dạng nhất quán.
-weight: 10
-url: /vi/net/join-and-append-documents/use-destination-styles/
+"description": "Tìm hiểu cách sử dụng kiểu đích với Aspose.Words cho .NET để thêm tài liệu một cách liền mạch trong khi vẫn duy trì định dạng nhất quán."
+"linktitle": "Sử dụng Kiểu đích"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sử dụng Kiểu đích"
+"url": "/vi/net/join-and-append-documents/use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Kiểu đích
@@ -21,7 +23,7 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để thao tác các tà
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
 - Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về lập trình C# sẽ rất hữu ích.
 
@@ -37,7 +39,7 @@ Chúng ta hãy chia nhỏ quy trình sử dụng kiểu đích khi thêm tài li
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Đầu tiên, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi chứa tài liệu nguồn và đích của bạn. Bạn sẽ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế tới tài liệu của bạn.
+Đầu tiên, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi chứa tài liệu nguồn và đích của bạn. Bạn sẽ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế tới tài liệu của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải Tài liệu Nguồn
 
-Tiếp theo, tải tài liệu nguồn mà bạn muốn thêm vào tài liệu đích. Aspose.Words cung cấp một cách đơn giản để thực hiện việc này bằng cách sử dụng`Document` lớp học.
+Tiếp theo, tải tài liệu nguồn mà bạn muốn thêm vào tài liệu đích. Aspose.Words cung cấp một cách đơn giản để thực hiện việc này bằng cách sử dụng `Document` lớp học.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -61,7 +63,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 4: Thêm Tài liệu Nguồn bằng cách Sử dụng Kiểu đích
 
- Bây giờ đến phần chính: thêm tài liệu nguồn vào tài liệu đích trong khi sử dụng các kiểu của tài liệu đích.`AppendDocument` phương pháp của`Document` lớp cho phép bạn làm điều này.`ImportFormatMode.UseDestinationStyles` tham số đảm bảo rằng các kiểu của tài liệu đích được sử dụng.
+Bây giờ đến phần chính: thêm tài liệu nguồn vào tài liệu đích trong khi sử dụng các kiểu của tài liệu đích. `AppendDocument` phương pháp của `Document` lớp cho phép bạn làm điều này. `ImportFormatMode.UseDestinationStyles` tham số đảm bảo rằng các kiểu của tài liệu đích được sử dụng.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
@@ -94,10 +96,15 @@ Không có giới hạn cứng nào; nó phụ thuộc vào bộ nhớ và khả
 Aspose.Words cho phép bạn thêm các tài liệu có định dạng khác nhau, nhưng tài liệu cuối cùng phải được lưu ở một định dạng duy nhất.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

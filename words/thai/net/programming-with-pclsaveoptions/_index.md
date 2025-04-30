@@ -1,14 +1,16 @@
 ---
-title: การประมวลผลคำด้วย Pclsaveoptions
-linktitle: การประมวลผลคำด้วย Pclsaveoptions
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: สำรวจการประมวลผลคำด้วยตัวเลือกการบันทึก PCL ใน Aspose.Words สำหรับ .NET เรียนรู้วิธีการจัดการและปรับแต่งการบันทึกเอกสาร Word ในรูปแบบ PCL ด้วยบทช่วยสอนทีละขั้นตอนและตัวอย่างโค้ด
-weight: 1670
-url: /th/net/programming-with-pclsaveoptions/
+"description": "สำรวจการประมวลผลคำด้วยตัวเลือกการบันทึก PCL ใน Aspose.Words สำหรับ .NET เรียนรู้วิธีการจัดการและปรับแต่งการบันทึกเอกสาร Word ในรูปแบบ PCL ด้วยบทช่วยสอนทีละขั้นตอนและตัวอย่างโค้ด"
+"linktitle": "การประมวลผลคำด้วย Pclsaveoptions"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การประมวลผลคำด้วย Pclsaveoptions"
+"url": "/th/net/programming-with-pclsaveoptions/"
+"weight": 1670
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การประมวลผลคำด้วย Pclsaveoptions
@@ -18,12 +20,17 @@ url: /th/net/programming-with-pclsaveoptions/
 บทช่วยสอน Aspose.Words สำหรับ .NET มอบแหล่งข้อมูลอันมีค่าแก่คุณเพื่อช่วยให้คุณเชี่ยวชาญความสามารถอันทรงพลังของไลบรารีนี้ในแอปพลิเคชัน .NET ของคุณ ไม่ว่าคุณต้องการสร้างเอกสาร Word แยกข้อมูล ดำเนินการผสาน หรือทำงานอื่น ๆ บทช่วยสอนเหล่านี้จะพาคุณผ่านขั้นตอนต่าง ๆ ที่จำเป็นเพื่อบรรลุเป้าหมายของคุณทีละขั้นตอน บทช่วยสอนแต่ละบทมาพร้อมกับตัวอย่างโค้ดที่ชัดเจนและคำอธิบายโดยละเอียดเพื่ออำนวยความสะดวกให้คุณเข้าใจและช่วยให้คุณนำแนวคิดไปใช้ในโครงการของคุณเองได้
 
  ## บทช่วยสอน
-| ชื่อ | คำอธิบาย |
-| --- | --- |
-| [แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง](./rasterize-transformed-elements/) | เรียนรู้วิธีการแรสเตอร์องค์ประกอบที่แปลงแล้วเมื่อแปลงเอกสาร Word เป็นรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย |
+| ชื่อเรื่อง | คำอธิบาย |
+-
+- [แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง](./rasterize-transformed-elements/) | เรียนรู้วิธีการแรสเตอร์ไรซ์องค์ประกอบที่แปลงแล้วเมื่อแปลงเอกสาร Word เป็นรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Değiştir'de Belge Ekle
-linktitle: Değiştir'de Belge Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak bir Word belgesini diğerine sorunsuz bir şekilde nasıl ekleyeceğinizi öğrenin. Belge işlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/clone-and-combine-documents/insert-document-at-replace/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak bir Word belgesini diğerine sorunsuz bir şekilde nasıl ekleyeceğinizi öğrenin. Belge işlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Değiştir'de Belge Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Değiştir'de Belge Ekle"
+"url": "/tr/net/clone-and-combine-documents/insert-document-at-replace/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Değiştir'de Belge Ekle
@@ -21,8 +23,8 @@ Merhaba, belge ustaları! Kendinizi hiç bir Word belgesini diğerine sorunsuz b
 
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
--  Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz:[Burada](https://visualstudio.microsoft.com/).
--  .NET için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. Bunu şuradan edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+- Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Eğer henüz yüklü değilse, şuradan indirebilirsiniz: [Burada](https://visualstudio.microsoft.com/).
+- .NET için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. Bunu şuradan edinebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 - Temel C# Bilgisi: C# ve .NET hakkında temel bir anlayışa sahip olmak bu eğitimi takip etmenize yardımcı olacaktır.
 
 Tamam, bunları aradan çıkardığımıza göre, biraz kodla işimize bakalım!
@@ -39,7 +41,7 @@ using Aspose.Words.Replacing;
 using Aspose.Words.Tables;
 ```
 
-Artık ön koşullarımız hazır olduğuna göre, süreci küçük adımlara bölelim. Her adım kritik öneme sahiptir ve bizi hedefimize yaklaştıracaktır.
+Artık ön koşullarımız hazır olduğuna göre, süreci küçük parçalara bölelim. Her adım kritik öneme sahiptir ve bizi hedefimize yaklaştıracaktır.
 
 ## Adım 1: Belgeler Dizinini Ayarlama
 
@@ -49,7 +51,7 @@ Artık ön koşullarımız hazır olduğuna göre, süreci küçük adımlara b�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dizininize giden yol ile. Belgelerinizin yaşayacağı ve nefes alacağı yer burasıdır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dizininize giden yol ile. Belgelerinizin yaşayacağı ve nefes alacağı yer burasıdır.
 
 ## Adım 2: Ana Belgeyi Yükleyin
 
@@ -168,16 +170,21 @@ Aspose.Words for .NET, Word belgelerini programatik olarak düzenlemek için gü
 Evet, bir belge koleksiyonu üzerinde yineleme yaparak birden fazla eklemeyi işleyecek şekilde geri çağırma işleyicisini değiştirebilirsiniz.
 
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
 
 ### Eklediğim belgenin formatını koruyabilir miyim?
- Evet,`NodeImporter` sınıfı, düğümleri bir belgeden diğerine aktarırken biçimlendirmenin nasıl işleneceğini belirtmenize olanak tanır.
+Evet, `NodeImporter` sınıfı, düğümleri bir belgeden diğerine aktarırken biçimlendirmenin nasıl işleneceğini belirtmenize olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

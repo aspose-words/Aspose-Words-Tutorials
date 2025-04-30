@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java
-linktitle: Lưu tài liệu HTML với bố cục cố định
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để định dạng tài liệu liền mạch.
-weight: 15
-url: /vi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "Tìm hiểu cách lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để định dạng tài liệu liền mạch."
+"linktitle": "Lưu tài liệu HTML với bố cục cố định"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java
@@ -33,11 +35,11 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Thay thế`"YourDocument.docx"` bằng đường dẫn đến tài liệu Word của bạn.
+Thay thế `"YourDocument.docx"` bằng đường dẫn đến tài liệu Word của bạn.
 
-## Bước 2: Cấu hình tùy chọn lưu cố định HTML
+## Bước 2: Cấu hình tùy chọn lưu HTML cố định
 
- Để lưu tài liệu với bố cục cố định, chúng ta cần cấu hình`HtmlFixedSaveOptions` lớp. Chúng tôi sẽ thiết lập`useTargetMachineFonts`tài sản để`true` để đảm bảo rằng phông chữ của máy đích được sử dụng trong đầu ra HTML:
+Để lưu tài liệu với bố cục cố định, chúng ta cần cấu hình `HtmlFixedSaveOptions` lớp. Chúng tôi sẽ thiết lập `useTargetMachineFonts` tài sản để `true` để đảm bảo rằng phông chữ của máy đích được sử dụng trong đầu ra HTML:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
@@ -52,7 +54,7 @@ Bây giờ, hãy lưu tài liệu dưới dạng HTML với bố cục cố đ�
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- Thay thế`"FixedLayoutDocument.html"` với tên mong muốn cho tệp HTML của bạn.
+Thay thế `"FixedLayoutDocument.html"` với tên mong muốn cho tệp HTML của bạn.
 
 ## Mã nguồn đầy đủ để lưu tài liệu HTML với bố cục cố định trong Aspose.Words cho Java
 
@@ -74,7 +76,7 @@ Trong hướng dẫn này, chúng ta đã học cách lưu tài liệu HTML vớ
 
 ### Làm thế nào tôi có thể thiết lập Aspose.Words cho Java trong dự án của mình?
 
- Thiết lập Aspose.Words cho Java rất đơn giản. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu[đây](https://reference.aspose.com/words/java/).
+Thiết lập Aspose.Words cho Java rất đơn giản. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu [đây](https://reference.aspose.com/words/java/).
 
 ### Có yêu cầu cấp phép nào khi sử dụng Aspose.Words cho Java không?
 
@@ -87,9 +89,14 @@ Chắc chắn rồi! Aspose.Words for Java cung cấp nhiều tùy chọn để 
 ### Aspose.Words for Java có tương thích với các phiên bản Java khác nhau không?
 
 Có, Aspose.Words for Java tương thích với nhiều phiên bản Java khác nhau. Đảm bảo rằng bạn đang sử dụng phiên bản Aspose.Words for Java tương thích với môi trường phát triển Java của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

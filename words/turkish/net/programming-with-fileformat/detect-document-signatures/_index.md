@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Dijital İmzayı Algıla
-linktitle: Word Belgesinde Dijital İmzayı Algıla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerindeki dijital imzaların nasıl tespit edileceğini adım adım anlatan kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-fileformat/detect-document-signatures/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerindeki dijital imzaların nasıl tespit edileceğini adım adım anlatan kılavuzumuzla öğrenin."
+"linktitle": "Word Belgesinde Dijital İmzayı Algıla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Dijital İmzayı Algıla"
+"url": "/tr/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Dijital İmzayı Algıla
@@ -21,7 +23,7 @@ Word belgelerinizin bütünlüğünü ve gerçekliğini sağlamak, özellikle g�
 
 Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamının kurulu olduğundan emin olun.
 - C# Temel Anlayışı: C# programlama diline aşina olmak, dili akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
@@ -41,7 +43,7 @@ Dijital imzaları tespit etmeye başlamadan önce projemizi kurmamız gerekiyor.
 
 ### 1.1 Yeni Bir Proje Oluşturun
 
- Visual Studio'yu açın ve yeni bir Konsol Uygulaması (.NET Core) projesi oluşturun. Adını`DigitalSignatureDetector`.
+Visual Studio'yu açın ve yeni bir Konsol Uygulaması (.NET Core) projesi oluşturun. Adını `DigitalSignatureDetector`.
 
 ### 1.2 .NET için Aspose.Words'ü yükleyin
 
@@ -60,7 +62,7 @@ Projenize Aspose.Words eklemeniz gerekiyor. Bunu NuGet Paket Yöneticisi aracıl
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
 
 ## Adım 3: Dosya Biçimini Algıla
 
@@ -70,7 +72,7 @@ Daha sonra, belgenin bir Word belgesi olduğundan emin olmak için dosya biçimi
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- Bu kod satırı, adlı belgenin dosya biçimini kontrol eder`Digitally signed.docx`.
+Bu kod satırı, adlı belgenin dosya biçimini kontrol eder `Digitally signed.docx`.
 
 ## Adım 4: Dijital İmzaları Kontrol Edin
 
@@ -97,23 +99,28 @@ Hayır, Aspose.Words for .NET belgeleri açarken veya kaydederken dijital imzala
 
 ### Bir belgede birden fazla dijital imzanın tespit edilmesinin bir yolu var mı?
 
- Evet,`HasDigitalSignature` Özellik, belgede bir veya daha fazla dijital imzanın varlığını gösterebilir.
+Evet, `HasDigitalSignature` Özellik, belgede bir veya daha fazla dijital imzanın varlığını gösterebilir.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı dokümanları şu adreste bulabilirsiniz:[Aspose Belgeler sayfası](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları şu adreste bulabilirsiniz: [Aspose Belgeler sayfası](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için destek alabilir miyim?
 
- Evet, destek alabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/words/8).
+Evet, destek alabilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Určení formátu dokumentu v Aspose.Words pro Java
-linktitle: Určení formátu dokumentu
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
-weight: 25
-url: /cs/java/document-loading-and-saving/determining-document-format/
+"description": "Naučte se, jak detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory."
+"linktitle": "Určení formátu dokumentu"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Určení formátu dokumentu v Aspose.Words pro Javu"
+"url": "/cs/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Určení formátu dokumentu v Aspose.Words pro Java
+# Určení formátu dokumentu v Aspose.Words pro Javu
 
 
 ## Úvod do určování formátu dokumentu v Aspose.Words pro Javu
 
-Při práci se zpracováním dokumentů v Javě je zásadní určit formát souborů, se kterými pracujete. Aspose.Words for Java poskytuje výkonné funkce pro identifikaci formátů dokumentů a my vás celým procesem provedeme.
+Při práci se zpracováním dokumentů v Javě je zásadní určit formát souborů, se kterými pracujete. Aspose.Words pro Javu poskytuje výkonné funkce pro identifikaci formátů dokumentů a my vás tímto procesem provedeme.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
-- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- Java Development Kit (JDK) nainstalovaný ve vašem systému
+- [Aspose.Words pro Javu](https://releases.aspose.com/words/java/)
+- Sada pro vývoj Java (JDK) nainstalovaná ve vašem systému
 - Základní znalost programování v Javě
 
 ## Krok 1: Nastavení adresáře
 
-Nejprve musíme nastavit potřebné adresáře, abychom mohli efektivně organizovat naše soubory. Vytvoříme adresáře pro různé typy dokumentů.
+Nejprve musíme nastavit potřebné adresáře pro efektivní uspořádání našich souborů. Vytvoříme adresáře pro různé typy dokumentů.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -47,11 +49,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Vytvořili jsme adresáře pro podporované, neznámé, šifrované dokumenty a dokumenty starší než 97.
+Vytvořili jsme adresáře pro podporované, neznámé, šifrované a starší typy dokumentů než 97.
 
-## Krok 2: Zjištění formátu dokumentu
+## Krok 2: Detekce formátu dokumentu
 
-Nyní zjistíme formát dokumentů v našich adresářích. K dosažení tohoto cíle použijeme Aspose.Words for Java.
+Nyní se podíváme na formát dokumentů v našich adresářích. K tomu použijeme Aspose.Words pro Javu.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -64,20 +66,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Zobrazte typ dokumentu
+    // Zobrazit typ dokumentu
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Podle potřeby přidejte pouzdra pro jiné formáty dokumentů
+        // V případě potřeby přidejte případy pro další formáty dokumentů
     }
 
-    // Zpracovávat šifrované dokumenty
+    // Zpracování šifrovaných dokumentů
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Zvládněte jiné typy dokumentů
+        // Zpracování dalších typů dokumentů
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -93,7 +95,7 @@ for (String fileName : listFiles) {
 }
 ```
 
-V tomto úryvku kódu procházíme soubory, zjišťujeme jejich formáty a organizujeme je do příslušných adresářů.
+V tomto úryvku kódu iterujeme soubory, detekujeme jejich formáty a uspořádáme je do příslušných adresářů.
 
 ## Kompletní zdrojový kód pro určení formátu dokumentu v Aspose.Words pro Javu
 
@@ -119,7 +121,7 @@ V tomto úryvku kódu procházíme soubory, zjišťujeme jejich formáty a organ
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Zobrazte typ dokumentu
+            // Zobrazit typ dokumentu
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,32 +191,37 @@ V tomto úryvku kódu procházíme soubory, zjišťujeme jejich formáty a organ
 
 ## Závěr
 
-Určení formátů dokumentů v Aspose.Words pro Java je nezbytné pro efektivní zpracování dokumentů. Pomocí kroků uvedených v této příručce můžete identifikovat typy dokumentů a podle toho s nimi zacházet ve svých aplikacích Java.
+Určení formátů dokumentů v Aspose.Words pro Javu je nezbytné pro efektivní zpracování dokumentů. Pomocí kroků popsaných v této příručce můžete identifikovat typy dokumentů a odpovídajícím způsobem s nimi pracovat ve svých aplikacích Java.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Words for Java?
+### Jak nainstaluji Aspose.Words pro Javu?
 
- Aspose.Words for Java si můžete stáhnout z[zde](https://releases.aspose.com/words/java/) postupujte podle dodaných pokynů k instalaci.
+Aspose.Words pro Javu si můžete stáhnout z [zde](https://releases.aspose.com/words/java/) a postupujte podle přiložených pokynů k instalaci.
 
 ### Jaké jsou podporované formáty dokumentů?
 
-Aspose.Words for Java podporuje různé formáty dokumentů, včetně DOC, DOCX, RTF, HTML a dalších. Úplný seznam naleznete v dokumentaci.
+Aspose.Words pro Javu podporuje různé formáty dokumentů, včetně DOC, DOCX, RTF, HTML a dalších. Úplný seznam naleznete v dokumentaci.
 
-### Jak zjistím šifrované dokumenty pomocí Aspose.Words for Java?
+### Jak mohu detekovat šifrované dokumenty pomocí Aspose.Words pro Javu?
 
- Můžete použít`FileFormatUtil.detectFileFormat()` způsob detekce zašifrovaných dokumentů, jak je ukázáno v této příručce.
+Můžete použít `FileFormatUtil.detectFileFormat()` metoda pro detekci šifrovaných dokumentů, jak je ukázáno v této příručce.
 
 ### Existují nějaká omezení při práci se staršími formáty dokumentů?
 
-Starší formáty dokumentů, jako je MS Word 6 nebo Word 95, mohou mít omezení z hlediska funkcí a kompatibility s moderními aplikacemi. V případě potřeby zvažte upgrade nebo konverzi těchto dokumentů.
+Starší formáty dokumentů, jako například MS Word 6 nebo Word 95, mohou mít omezení, pokud jde o funkce a kompatibilitu s moderními aplikacemi. V případě potřeby zvažte upgrade nebo konverzi těchto dokumentů.
 
-### Mohu automatizovat zjišťování formátu dokumentu v mé aplikaci Java?
+### Mohu automatizovat detekci formátu dokumentu v mé aplikaci Java?
 
-Ano, můžete automatizovat detekci formátu dokumentu integrací poskytnutého kódu do vaší Java aplikace. To vám umožní zpracovávat dokumenty na základě jejich zjištěných formátů.
+Ano, detekci formátu dokumentů můžete automatizovat integrací poskytnutého kódu do vaší aplikace Java. To vám umožní zpracovávat dokumenty na základě jejich detekovaných formátů.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: दृश्य प्रभाव के लिए दस्तावेज़ स्वरूपण तकनीकों में निपुणता प्राप्त करना
-linktitle: दृश्य प्रभाव के लिए दस्तावेज़ स्वरूपण तकनीकों में निपुणता प्राप्त करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ स्वरूपण में महारत हासिल करना सीखें। फ़ॉन्ट शैलियों, तालिकाओं, छवियों और बहुत कुछ के साथ आकर्षक दस्तावेज़ बनाएँ। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 14
-url: /hi/python-net/document-splitting-and-formatting/document-formatting-techniques/
+"description": "Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ स्वरूपण में महारत हासिल करना सीखें। फ़ॉन्ट शैलियों, तालिकाओं, छवियों और बहुत कुछ के साथ आकर्षक दस्तावेज़ बनाएँ। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दृश्य प्रभाव के लिए दस्तावेज़ स्वरूपण तकनीकों में निपुणता प्राप्त करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "दृश्य प्रभाव के लिए दस्तावेज़ स्वरूपण तकनीकों में निपुणता प्राप्त करना"
+"url": "/hi/python-net/document-splitting-and-formatting/document-formatting-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दृश्य प्रभाव के लिए दस्तावेज़ स्वरूपण तकनीकों में निपुणता प्राप्त करना
@@ -46,7 +48,7 @@ doc.save("basic_document.docx")
 अपने दस्तावेज़ को प्रभावी ढंग से संरचित करने के लिए, पैराग्राफ़ और शीर्षकों को फ़ॉर्मेट करना महत्वपूर्ण है। नीचे दिए गए कोड का उपयोग करके इसे प्राप्त करें:
 
 ```python
-# For paragraphs
+# पैराग्राफ के लिए
 paragraph.alignment = aw.ParagraphAlignment.CENTER
 builder.paragraph_format.line_spacing = 1.5
 ```
@@ -119,7 +121,7 @@ builder.writeln("Header Text")
 
 ```python
 doc.update_fields()
-builder.insert_hyperlink("Jump to Section 2", "#section2")
+builder.insert_hyperlink("Jump to Section 2", "#अनुभाग2")
 ```
 
 ## दस्तावेज़ सुरक्षा और संरक्षण
@@ -151,21 +153,26 @@ pip install aspose-words
 ```
 
 ### क्या मैं पैराग्राफ़ और शीर्षकों पर अलग-अलग शैलियाँ लागू कर सकता हूँ?
- हां, आप पैराग्राफ और शीर्षकों पर अलग-अलग शैलियाँ लागू कर सकते हैं`paragraph_format.style` संपत्ति।
+हां, आप पैराग्राफ और शीर्षकों पर अलग-अलग शैलियाँ लागू कर सकते हैं `paragraph_format.style` संपत्ति।
 
 ### क्या मेरे दस्तावेज़ों में छवियाँ जोड़ना संभव है?
- बिल्कुल! आप अपने दस्तावेज़ों में छवियाँ सम्मिलित कर सकते हैं`insert_image` तरीका।
+बिल्कुल! आप अपने दस्तावेज़ों में छवियाँ सम्मिलित कर सकते हैं `insert_image` तरीका।
 
 ### क्या मैं अपने दस्तावेज़ को पासवर्ड से सुरक्षित कर सकता हूँ?
- हां, आप दस्तावेज़ सुरक्षा सेट करके अपने दस्तावेज़ की सुरक्षा कर सकते हैं`protect` तरीका।
+हां, आप दस्तावेज़ सुरक्षा सेट करके अपने दस्तावेज़ की सुरक्षा कर सकते हैं `protect` तरीका।
 
 ### मैं अपने दस्तावेज़ों को किस प्रारूप में निर्यात कर सकता हूँ?
 Aspose.Words आपको अपने दस्तावेज़ों को PDF, DOCX आदि सहित विभिन्न प्रारूपों में निर्यात करने की अनुमति देता है।
 
- अधिक जानकारी के लिए और पायथन दस्तावेज़ और डाउनलोड के लिए Aspose.Words तक पहुंचने के लिए, यहां जाएं[यहाँ](https://reference.aspose.com/words/python-net/).
+अधिक जानकारी के लिए और पायथन दस्तावेज़ और डाउनलोड के लिए Aspose.Words तक पहुंचने के लिए, यहां जाएं [यहाँ](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

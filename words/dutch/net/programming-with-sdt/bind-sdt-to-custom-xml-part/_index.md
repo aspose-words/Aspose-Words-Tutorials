@@ -1,33 +1,35 @@
 ---
-title: SDT binden aan aangepast XML-onderdeel
-linktitle: SDT binden aan aangepast XML-onderdeel
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u Structured Document Tags (SDT's) kunt koppelen aan aangepaste XML-onderdelen in Word-documenten met behulp van Aspose.Words voor .NET met deze stapsgewijze zelfstudie.
-weight: 10
-url: /nl/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Leer hoe u Structured Document Tags (SDT's) kunt koppelen aan aangepaste XML-onderdelen in Word-documenten met behulp van Aspose.Words voor .NET met deze stapsgewijze zelfstudie."
+"linktitle": "SDT koppelen aan aangepast XML-onderdeel"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "SDT koppelen aan aangepast XML-onderdeel"
+"url": "/nl/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SDT binden aan aangepast XML-onderdeel
+# SDT koppelen aan aangepast XML-onderdeel
 
 ## Invoering
 
-Het maken van dynamische Word-documenten die interacteren met aangepaste XML-gegevens kan de flexibiliteit en functionaliteit van uw toepassingen aanzienlijk verbeteren. Aspose.Words voor .NET biedt robuuste functies om Structured Document Tags (SDT's) te binden aan aangepaste XML-onderdelen, zodat u documenten kunt maken die dynamisch gegevens weergeven. In deze tutorial leiden we u stap voor stap door het proces van het binden van een SDT aan een aangepast XML-onderdeel. Laten we erin duiken!
+Het creëren van dynamische Word-documenten die interactie hebben met aangepaste XML-gegevens kan de flexibiliteit en functionaliteit van uw applicaties aanzienlijk verbeteren. Aspose.Words voor .NET biedt robuuste functies om Structured Document Tags (SDT's) te koppelen aan aangepaste XML-onderdelen, zodat u documenten kunt maken die dynamisch gegevens weergeven. In deze tutorial leiden we u stap voor stap door het proces van het koppelen van een SDT aan een aangepast XML-onderdeel. Laten we beginnen!
 
 ## Vereisten
 
 Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.Words voor .NET: U kunt de nieuwste versie downloaden van[Aspose.Words voor .NET-releases](https://releases.aspose.com/words/net/).
+- Aspose.Words voor .NET: U kunt de nieuwste versie downloaden van [Aspose.Words voor .NET-releases](https://releases.aspose.com/words/net/).
 - Ontwikkelomgeving: Visual Studio of een andere compatibele .NET IDE.
 - Basiskennis van C#: Kennis van de programmeertaal C# en het .NET Framework.
 
 ## Naamruimten importeren
 
-Om Aspose.Words voor .NET effectief te gebruiken, moet u de benodigde naamruimten importeren in uw project. Voeg de volgende using directives toe bovenaan uw codebestand:
+Om Aspose.Words voor .NET effectief te gebruiken, moet u de benodigde naamruimten in uw project importeren. Voeg de volgende using-richtlijnen bovenaan uw codebestand toe:
 
 ```csharp
 using System;
@@ -36,7 +38,7 @@ using Aspose.Words.Markup;
 using Aspose.Words.Saving;
 ```
 
-Laten we het proces opsplitsen in beheersbare stappen om het makkelijker te volgen te maken. Elke stap zal een specifiek deel van de taak bestrijken.
+Laten we het proces opsplitsen in hanteerbare stappen om het gemakkelijker te volgen te maken. Elke stap behandelt een specifiek onderdeel van de taak.
 
 ## Stap 1: Initialiseer het document
 
@@ -52,9 +54,9 @@ Document doc = new Document();
 
 In deze stap initialiseren we een nieuw document dat onze aangepaste XML-gegevens en de SDT bevat.
 
-## Stap 2: Voeg een aangepast XML-onderdeel toe
+## Stap 2: Een aangepast XML-onderdeel toevoegen
 
-Vervolgens voegen we een Custom XML Part toe aan het document. Dit part bevat de XML-gegevens die we willen binden aan de SDT.
+Vervolgens voegen we een aangepast XML-onderdeel toe aan het document. Dit onderdeel bevat de XML-gegevens die we aan de SDT willen koppelen.
 
 ```csharp
 // Voeg een aangepast XML-onderdeel toe aan het document
@@ -68,23 +70,23 @@ Hier maken we een nieuw aangepast XML-onderdeel met een unieke identificatie en 
 Nadat we het aangepaste XML-onderdeel hebben toegevoegd, maken we een SDT om de XML-gegevens weer te geven.
 
 ```csharp
-//Een gestructureerde documenttag (SDT) maken
+// Een gestructureerde documenttag (SDT) maken
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
 
 We maken een SDT van het type PlainText en voegen deze toe aan het eerste gedeelte van de documenttekst.
 
-## Stap 4: Bind de SDT aan het aangepaste XML-onderdeel
+## Stap 4: Koppel de SDT aan het aangepaste XML-onderdeel
 
 Nu koppelen we de SDT aan het aangepaste XML-onderdeel met behulp van een XPath-expressie.
 
 ```csharp
-// Bind de SDT aan het aangepaste XML-onderdeel
+// Koppel de SDT aan het aangepaste XML-onderdeel
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Deze stap brengt de SDT in kaart naar de`<text>` element binnen de`<root>` knooppunt van ons aangepaste XML-onderdeel.
+Deze stap brengt de SDT in kaart naar de `<text>` element binnen de `<root>` knooppunt van ons aangepaste XML-onderdeel.
 
 ## Stap 5: Sla het document op
 
@@ -95,11 +97,11 @@ Ten slotte slaan we het document op in de opgegeven directory.
 doc.Save(dataDir + "WorkingWithSdt.BindSDTtoCustomXmlPart.doc");
 ```
 
-Met deze opdracht wordt het document met de gekoppelde SDT opgeslagen in de door u aangewezen directory.
+Met deze opdracht wordt het document met de gebonden SDT opgeslagen in de door u aangewezen directory.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een SDT aan een aangepast XML-onderdeel gekoppeld met Aspose.Words voor .NET. Met deze krachtige functie kunt u dynamische documenten maken die eenvoudig kunnen worden bijgewerkt met nieuwe gegevens door simpelweg de XML-inhoud te wijzigen. Of u nu rapporten genereert, sjablonen maakt of documentworkflows automatiseert, Aspose.Words voor .NET biedt de tools die u nodig hebt om uw taken eenvoudiger en efficiënter te maken.
+Gefeliciteerd! U hebt met succes een SDT gekoppeld aan een aangepast XML-onderdeel met Aspose.Words voor .NET. Met deze krachtige functie kunt u dynamische documenten maken die eenvoudig kunnen worden bijgewerkt met nieuwe gegevens door simpelweg de XML-inhoud aan te passen. Of u nu rapporten genereert, sjablonen maakt of documentworkflows automatiseert, Aspose.Words voor .NET biedt de tools die u nodig hebt om uw taken eenvoudiger en efficiënter te maken.
 
 ## Veelgestelde vragen
 
@@ -109,17 +111,22 @@ Een Structured Document Tag (SDT) is een inhoudscontrole-element in Word-documen
 ### Kan ik meerdere SDT's aan verschillende XML-onderdelen in één document binden?
 Ja, u kunt meerdere SDT's aan verschillende XML-onderdelen in hetzelfde document koppelen, waardoor complexe, datagestuurde sjablonen mogelijk worden.
 
-### Hoe kan ik de XML-gegevens in het aangepaste XML-onderdeel bijwerken?
- U kunt de XML-gegevens bijwerken door toegang te krijgen tot de`CustomXmlPart` object en het rechtstreeks wijzigen van de XML-inhoud.
+### Hoe werk ik de XML-gegevens in het aangepaste XML-onderdeel bij?
+U kunt de XML-gegevens bijwerken door toegang te krijgen tot de `CustomXmlPart` object en het rechtstreeks wijzigen van de XML-inhoud.
 
-### Is het mogelijk om SDT's te binden aan XML-attributen in plaats van elementen?
+### Is het mogelijk om SDT's te binden aan XML-attributen in plaats van aan elementen?
 Ja, u kunt SDT's aan XML-kenmerken koppelen door de juiste XPath-expressie op te geven die op het gewenste kenmerk is gericht.
 
 ### Waar kan ik meer documentatie vinden over Aspose.Words voor .NET?
- Uitgebreide documentatie over Aspose.Words voor .NET vindt u op[Aspose.Words-documentatie](https://reference.aspose.com/words/net/).
+Uitgebreide documentatie over Aspose.Words voor .NET vindt u op [Aspose.Words-documentatie](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

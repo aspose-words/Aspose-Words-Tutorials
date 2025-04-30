@@ -1,14 +1,16 @@
 ---
-title: ลบฟิลด์
-linktitle: ลบฟิลด์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการลบฟิลด์ออกจากเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำแบบทีละขั้นตอนที่ชัดเจนพร้อมตัวอย่างโค้ด
-weight: 10
-url: /th/net/working-with-fields/delete-fields/
+"description": "เรียนรู้วิธีการลบฟิลด์ออกจากเอกสาร Word ด้วยโปรแกรมโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำแบบทีละขั้นตอนที่ชัดเจนพร้อมตัวอย่างโค้ด"
+"linktitle": "ลบฟิลด์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลบฟิลด์"
+"url": "/th/net/working-with-fields/delete-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบฟิลด์
@@ -24,7 +26,7 @@ url: /th/net/working-with-fields/delete-fields/
 ### ข้อกำหนดของซอฟต์แวร์
 
 1. Visual Studio: ติดตั้งและกำหนดค่าบนระบบของคุณ
-2.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและรวมเข้ากับโครงการ Visual Studio ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+2. Aspose.Words สำหรับ .NET: ดาวน์โหลดและรวมเข้ากับโครงการ Visual Studio ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 3. เอกสาร Word: เตรียมเอกสาร Word ตัวอย่าง (.docx) พร้อมด้วยฟิลด์ที่คุณต้องการลบออก
 
 ### ข้อกำหนดด้านความรู้
@@ -55,7 +57,7 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 3: เตรียมเอกสารของคุณ
 
- วางเอกสารที่คุณต้องการแก้ไข (เช่น`your-document.docx`ในไดเร็กทอรีโครงการของคุณหรือระบุเส้นทางเต็มไปยังไดเร็กทอรีนั้น
+วางเอกสารที่คุณต้องการแก้ไข (เช่น `your-document.docx`) ในไดเร็กทอรีโครงการของคุณหรือระบุเส้นทางเต็มไปยังไดเร็กทอรีนั้น
 
 ## ขั้นตอนที่ 4: เริ่มต้นวัตถุเอกสาร Aspose.Words
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "your-document.docx");
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 5: ลบฟิลด์
 
@@ -106,11 +108,16 @@ doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ใช่ วิธีการที่แสดงที่นี่กำหนดเป้าหมายเฉพาะฟิลด์เท่านั้นและไม่เปลี่ยนแปลงเนื้อหาอื่น
 
 ### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words ได้จากที่ใด
- เยี่ยมชม[เอกสารประกอบ API Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/) และ[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อความช่วยเหลือเพิ่มเติม
+เยี่ยมชม [เอกสารประกอบ API Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/) และ [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อความช่วยเหลือเพิ่มเติม
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

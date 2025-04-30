@@ -1,14 +1,16 @@
 ---
-title: Formatuj liczbę etykiet danych na wykresie
-linktitle: Formatuj liczbę etykiet danych na wykresie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak formatować etykiety danych na wykresach za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty Word bez wysiłku.
-weight: 10
-url: /pl/net/programming-with-charts/format-number-of-data-label/
+"description": "Dowiedz się, jak formatować etykiety danych na wykresach za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty Word bez wysiłku."
+"linktitle": "Formatuj liczbę etykiet danych na wykresie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Formatuj liczbę etykiet danych na wykresie"
+"url": "/pl/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatuj liczbę etykiet danych na wykresie
@@ -21,10 +23,10 @@ Tworzenie angażujących i informacyjnych dokumentów często obejmuje dołącza
 
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Visual Studio jest wysoce zalecane.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna, ponieważ ten samouczek obejmuje pisanie i rozumienie kodu w języku C#.
--  Licencja tymczasowa: Aby korzystać z Aspose.Words bez żadnych ograniczeń, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Licencja tymczasowa: Aby korzystać z Aspose.Words bez żadnych ograniczeń, możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 Teraz przeanalizujemy krok po kroku proces formatowania etykiet liczbowych na wykresie.
 
@@ -46,11 +48,11 @@ Zanim zaczniesz manipulować dokumentem Word, musisz określić katalog, w któr
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Zainicjuj dokument i DocumentBuilder
 
- Następnym krokiem jest zainicjowanie nowego`Document` i`DocumentBuilder` . Ten`DocumentBuilder` jest klasą pomocniczą umożliwiającą konstruowanie treści dokumentu.
+Następnym krokiem jest zainicjowanie nowego `Document` i `DocumentBuilder`. Ten `DocumentBuilder` jest klasą pomocniczą umożliwiającą konstruowanie treści dokumentu.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 3: Wstaw wykres do dokumentu
 
- Teraz wstawmy wykres do dokumentu za pomocą`DocumentBuilder`W tym samouczku użyjemy wykresu liniowego jako przykładu.
+Teraz wstawmy wykres do dokumentu za pomocą `DocumentBuilder`W tym samouczku użyjemy wykresu liniowego jako przykładu.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Format daty
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Format procentowy
 ```
 
- Dodatkowo możesz połączyć format etykiety danych z komórką źródłową. Po połączeniu`NumberFormat` zostanie zresetowany do ogólnego i odziedziczony z komórki źródłowej.
+Dodatkowo możesz połączyć format etykiety danych z komórką źródłową. Po połączeniu `NumberFormat` zostanie zresetowany do ogólnego i odziedziczony z komórki źródłowej.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -116,7 +118,7 @@ Na koniec zapisz dokument w podanym katalogu.
 doc.Save(dataDir + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-Spowoduje to zapisanie dokumentu pod określoną nazwą i zapewni zachowanie wykresu ze sformatowanymi etykietami danych.
+Spowoduje to zapisanie dokumentu pod określoną nazwą i zachowanie wykresu ze sformatowanymi etykietami danych.
 
 ## Wniosek
 
@@ -131,17 +133,22 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe twor
 Tak, Aspose.Words dla platformy .NET obsługuje wiele typów wykresów, w tym słupkowe, kolumnowe, kołowe i inne.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words dla .NET?
-Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy w programie Excel można powiązać etykiety danych z komórkami źródłowymi?
 Tak, można łączyć etykiety danych z komórkami źródłowymi, co umożliwia dziedziczenie formatu liczb z komórki źródłowej.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Words dla .NET?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

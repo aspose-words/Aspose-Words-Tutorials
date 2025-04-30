@@ -1,14 +1,16 @@
 ---
-title: Копировать закладку текста в документе Word
-linktitle: Копировать закладку текста в документе Word
-second_title: API обработки документов Aspose.Words
-description: Легко копируйте текст закладок между документами Word с помощью Aspose.Words для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-bookmarks/copy-bookmarked-text/
+"description": "Легко копируйте текст закладок между документами Word с помощью Aspose.Words для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства."
+"linktitle": "Копировать закладку текста в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Копировать закладку текста в документе Word"
+"url": "/ru/net/programming-with-bookmarks/copy-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Копировать закладку текста в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-bookmarks/copy-bookmarked-text/
 
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая среда разработки .NET.
 - Базовые знания C#: знакомство с программированием на C# и платформой .NET.
 
@@ -44,7 +46,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Здесь,`dataDir` это путь к каталогу ваших документов, и`Bookmarks.docx` является исходным документом.
+Здесь, `dataDir` это путь к каталогу ваших документов, и `Bookmarks.docx` является исходным документом.
 
 ## Шаг 2: Определите закладку
 
@@ -54,7 +56,7 @@ Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["MyBookmark1"];
 ```
 
- Заменять`"MyBookmark1"` с фактическим названием вашей закладки.
+Заменять `"MyBookmark1"` с фактическим названием вашей закладки.
 
 ## Шаг 3: Создайте целевой документ
 
@@ -67,7 +69,7 @@ CompositeNode dstNode = dstDoc.LastSection.Body;
 
 ## Шаг 4: Импортируйте заложенный контент
 
- Чтобы гарантировать сохранение стилей и форматирования, используйте`NodeImporter` для импорта содержимого закладок из исходного документа в целевой документ.
+Чтобы гарантировать сохранение стилей и форматирования, используйте `NodeImporter` для импорта содержимого закладок из исходного документа в целевой документ.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
@@ -118,19 +120,24 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 Да, вы можете перебрать несколько закладок и использовать один и тот же метод для копирования каждой из них.
 
 ### Что произойдет, если закладка не будет найдена?
- The`Range.Bookmarks` собственность вернется`null`, поэтому убедитесь, что вы обработали этот случай, чтобы избежать исключений.
+The `Range.Bookmarks` собственность вернется `null`, поэтому убедитесь, что вы обработали этот случай, чтобы избежать исключений.
 
 ### Можно ли сохранить форматирование исходной закладки?
- Конечно! Используя`ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение исходного форматирования.
+Конечно! Используя `ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение исходного форматирования.
 
 ### Есть ли ограничение на размер текста, добавляемого в закладки?
 Конкретных ограничений нет, но производительность может меняться при обработке очень больших документов.
 
 ### Можно ли копировать текст между различными форматами документов Word?
 Да, Aspose.Words поддерживает различные форматы Word, и метод работает во всех этих форматах.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

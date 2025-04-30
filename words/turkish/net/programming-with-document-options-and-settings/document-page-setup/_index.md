@@ -1,14 +1,16 @@
 ---
-title: Belge Sayfa Düzeni
-linktitle: Belge Sayfa Düzeni
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET ile kolay adımlarla ana belge sayfa kurulumunu yapın. Yüklemeyi, düzeni ayarlamayı, satır başına karakter sayısını, sayfa başına satır sayısını tanımlamayı ve belgenizi kaydetmeyi öğrenin.
-weight: 10
-url: /tr/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Aspose.Words for .NET ile kolay adımlarla ana belge sayfa kurulumunu yapın. Yüklemeyi, düzeni ayarlamayı, satır başına karakter sayısını, sayfa başına satır sayısını tanımlamayı ve belgenizi kaydetmeyi öğrenin."
+"linktitle": "Belge Sayfa Düzeni"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Sayfa Düzeni"
+"url": "/tr/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Sayfa Düzeni
@@ -19,10 +21,10 @@ Aspose.Words for .NET kullanarak belgenizin sayfa düzenini nasıl ayarlayacağ�
 
 ## Ön koşullar
 
-Ayrıntılara dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
+Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
--  Geçerli bir lisans: Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+- Geçerli bir lisans: Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 - C# programlamaya dair temel bir anlayış: Merak etmeyin, basit ve anlaşılır tutacağım.
 - Entegre geliştirme ortamı (IDE): Visual Studio iyi bir seçimdir.
 
@@ -38,9 +40,9 @@ using Aspose.Words.PageSetup;
 
 ## Adım 1: Belgenizi Yükleyin
 
-İlk önce yapmanız gereken şey, belgenizi yüklemenizdir. Bu, sayfa kurulumunuzu oluşturacağınız temeldir.
+İlk önce, belgenizi yüklemeniz gerekir. Bu, sayfa kurulumunuzu oluşturacağınız temeldir.
 
- Yeni bir örnek oluşturun`Document` sınıfına gidin ve belgenizi belirtilen dizinden yükleyin.
+Yeni bir örnek oluşturun `Document` sınıfına gidin ve belgenizi belirtilen dizinden yükleyin.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -91,19 +93,24 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.DocumentPageSetup.docx
 .NET uygulamalarını kullanarak çeşitli formatlardaki belgeleri oluşturmak, değiştirmek ve dönüştürmek için güçlü bir kütüphanedir.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
-Evet, geçici bir lisans alarak kullanabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alarak kullanabilirsiniz. [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/) ve kurulum talimatlarını izleyin.
+Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/) ve kurulum talimatlarını izleyin.
 
 ### Aspose.Words hangi dilleri destekliyor?
-Çince ve Japonca gibi Asya dilleri de dahil olmak üzere geniş bir yelpazede dili destekler.
+Çince ve Japonca gibi Asya dilleri de dahil olmak üzere geniş bir dil yelpazesini destekler.
 
 ### Daha detaylı dokümanları nerede bulabilirim?
- Ayrıntılı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

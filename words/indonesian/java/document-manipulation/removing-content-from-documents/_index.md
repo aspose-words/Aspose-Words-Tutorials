@@ -1,14 +1,16 @@
 ---
-title: Menghapus Konten dari Dokumen di Aspose.Words untuk Java
-linktitle: Menghapus Konten dari Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menghapus konten dari dokumen Word di Java menggunakan Aspose.Words untuk Java. Hapus pemisah halaman, pemisah bagian, dan lainnya. Optimalkan pemrosesan dokumen Anda.
-weight: 16
-url: /id/java/document-manipulation/removing-content-from-documents/
+"description": "Pelajari cara menghapus konten dari dokumen Word di Java menggunakan Aspose.Words untuk Java. Hapus pemisah halaman, pemisah bagian, dan lainnya. Optimalkan pemrosesan dokumen Anda."
+"linktitle": "Menghapus Konten dari Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menghapus Konten dari Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menghapus Konten dari Dokumen di Aspose.Words untuk Java
@@ -82,7 +84,7 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- Kode ini mendefinisikan sebuah metode`removeTableOfContents` yang menghapus TOC yang ditentukan dari dokumen.
+Kode ini mendefinisikan sebuah metode `removeTableOfContents` yang menghapus TOC yang ditentukan dari dokumen.
 
 
 ## Kesimpulan
@@ -93,7 +95,7 @@ Dalam artikel ini, kami telah membahas cara menghapus berbagai jenis konten dari
 
 ### Bagaimana cara menghapus jeda halaman tertentu?
 
-Untuk menghapus jeda halaman tertentu, ulangi paragraf demi paragraf dalam dokumen Anda dan hapus atribut jeda halaman untuk paragraf yang diinginkan.
+Untuk menghapus hentian halaman tertentu, ulangi paragraf demi paragraf dalam dokumen Anda dan hapus atribut hentian halaman untuk paragraf yang diinginkan.
 
 ### Bisakah saya menghapus header dan footer?
 
@@ -106,9 +108,14 @@ Ya, Aspose.Words untuk Java mendukung format dokumen Word terbaru, memastikan ko
 ### Fitur manipulasi dokumen apa lagi yang ditawarkan Aspose.Words untuk Java?
 
 Aspose.Words untuk Java menawarkan berbagai fitur, termasuk pembuatan dokumen, penyuntingan, konversi, dan banyak lagi. Anda dapat menjelajahi dokumentasinya untuk informasi terperinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

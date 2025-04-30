@@ -1,40 +1,42 @@
 ---
-title: Extrahování obsahu dokumentu podle stránek
-linktitle: Extrahování obsahu dokumentu podle stránek
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se extrahovat obsah dokumentu podle stránek pomocí Aspose.Words for Java. Tento podrobný průvodce se zdrojovým kódem z vás během okamžiku udělá odborníka.
-weight: 13
-url: /cs/java/document-splitting/extracting-document-content-pages/
+"description": "Naučte se, jak extrahovat obsah dokumentu po stránkách pomocí Aspose.Words pro Javu. Tento podrobný návod se zdrojovým kódem z vás udělá experta raz dva."
+"linktitle": "Extrakce obsahu dokumentu po stránkách"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Extrakce obsahu dokumentu po stránkách"
+"url": "/cs/java/document-splitting/extracting-document-content-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahování obsahu dokumentu podle stránek
+# Extrakce obsahu dokumentu po stránkách
 
 
-Jste připraveni vydat se na cestu k zvládnutí umění extrahování obsahu dokumentů po stránkách pomocí Aspose.Words for Java? Jste na správném místě! V tomto komplexním průvodci se ponoříme hluboko do spletitosti Aspose.Words for Java, kde najdete podrobné pokyny a příklady zdrojového kódu, které vám pomohou odemknout plný potenciál tohoto výkonného Java API.
+Jste připraveni vydat se na cestu k ovládnutí umění extrakce obsahu dokumentů po stránkách pomocí Aspose.Words pro Javu? Jste na správném místě! V této komplexní příručce se ponoříme hluboko do složitostí Aspose.Words pro Javu a budeme vás informovat o podrobných pokynech a příkladech zdrojového kódu, které vám pomohou odemknout plný potenciál tohoto výkonného Java API.
 
 ## Zavedení
 
-Aspose.Words for Java mění hru, pokud jde o programovou práci s dokumenty Wordu. Ať už jste zkušený vývojář Java nebo teprve začínáte svou cestu kódování, tento průvodce vás provede procesem extrahování obsahu dokumentu po stránkách a poskytne vám cenné dovednosti pro různé aplikace.
+Aspose.Words pro Javu je převratnou volbou, pokud jde o programovou práci s dokumenty Wordu. Ať už jste zkušený vývojář v Javě, nebo s programováním teprve začínáte, tato příručka vás provede procesem extrakce obsahu dokumentu po stránkách a poskytne vám cenné dovednosti pro různé aplikace.
 
 ## Začínáme
 
 ### Nastavení vývojového prostředí
 
-Než začneme pracovat s Aspose.Words for Java, musíme nastavit naše vývojové prostředí. Postupujte takto:
+Než začneme pracovat s Aspose.Words pro Javu, musíme si nastavit vývojové prostředí. Postupujte takto:
 
-1. Nainstalujte Javu: Pokud nemáte nainstalovanou Javu, stáhněte si a nainstalujte nejnovější verzi z webu.
+1. Instalace Javy: Pokud nemáte Javu nainstalovanou, stáhněte si a nainstalujte nejnovější verzi z webových stránek.
 
-2.  Stáhněte si Aspose.Words for Java: Head over to[Aspose.Words for Java](https://releases.aspose.com/words/java/) a stáhněte si nejnovější verzi knihovny.
+2. Stáhněte si Aspose.Words pro Javu: Přejděte na [Aspose.Words pro Javu](https://releases.aspose.com/words/java/) a stáhněte si nejnovější verzi knihovny.
 
-3. Integrujte Aspose.Words do svého projektu: Přidejte soubory Aspose.Words JAR do cesty třídy svého projektu Java.
+3. Integrace Aspose.Words do vašeho projektu: Přidejte soubory JAR Aspose.Words do třídní cesty vašeho projektu Java.
 
-### Vytvoření nového projektu Java
+### Vytvoření nového projektu v Javě
 
-Nyní vytvoříme nový Java projekt, který nastartuje naši cestu:
+Nyní si vytvořme nový projekt v Javě, který nastartuje naši cestu:
 
 ```java
 public class DocumentExtractor {
@@ -46,95 +48,95 @@ public class DocumentExtractor {
 
 ### Přidání Aspose.Words do vašeho projektu
 
-Chcete-li do projektu přidat Aspose.Words, zkopírujte stažené soubory JAR do svého projektu`lib` složku a přidejte je do své třídy. Nyní jste připraveni ponořit se do světa extrakce dokumentů!
+Chcete-li do projektu přidat Aspose.Words, zkopírujte stažené soubory JAR do složky projektu. `lib` složku a přidejte je do své cesty tříd. Nyní jste připraveni ponořit se do světa extrakce dokumentů!
 
-## Načítání a analýza dokumentů
+## Načítání a parsování dokumentů
 
-### Načítání dokumentu aplikace Word
+### Načítání dokumentu Wordu
 
-Začněme načtením dokumentu aplikace Word:
+Začněme načtením dokumentu Word:
 
 ```java
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document("sample.docx");
 ```
 
 ### Analýza struktury dokumentu
 
-Nyní, když máme načtený náš dokument, pojďme analyzovat jeho strukturu:
+Nyní, když máme načtený dokument, pojďme analyzovat jeho strukturu:
 
 ```java
 // Vytvořte DocumentVisitor
 DocumentVisitor visitor = new DocumentVisitor();
 
-// Projděte dokument
+// Procházení dokumentu
 doc.accept(visitor);
 
-// Extrahovaný obsah je nyní k dispozici v návštěvníkovi
+// Extrahovaný obsah je nyní k dispozici v návštěvnickém prohlížeči.
 String extractedText = visitor.getText();
 ```
 
-## Extrahování obsahu podle stránek
+## Extrakce obsahu po stránkách
 
-### Co jsou stránky dokumentů?
+### Co jsou stránky dokumentu?
 
-V Aspose.Words lze dokument rozdělit na stránky. Každá stránka představuje část obsahu dokumentu. Ale jak se k těmto stránkám dostaneme programově?
+V Aspose.Words lze dokument rozdělit na stránky. Každá stránka představuje část obsahu dokumentu. Jak ale k těmto stránkám programově přistupujeme?
 
-### Extrahování textu z konkrétní stránky
+### Extrakce textu z konkrétní stránky
 
 ```java
-// Zadejte číslo stránky (index založený na nule)
+// Zadejte číslo stránky (index od nuly)
 int pageNumber = 0;
 
-// Extrahujte text ze zadané stránky
+// Extrahovat text ze zadané stránky
 PageInfo pageInfo = doc.getPageInfo(pageNumber);
 String pageText = doc.extractText(pageInfo);
 ```
 
-### Procházení všemi stránkami
+### Procházení všech stránek
 
-Chcete-li extrahovat obsah ze všech stránek, můžete použít jednoduchou smyčku:
+Pro extrahování obsahu ze všech stránek můžete použít jednoduchou smyčku:
 
 ```java
-//Získejte celkový počet stránek v dokumentu
+// Získejte celkový počet stránek v dokumentu
 int pageCount = doc.getPageCount();
 
 for (int i = 0; i < pageCount; i++) {
     PageInfo pageInfo = doc.getPageInfo(i);
     String pageText = doc.extractText(pageInfo);
-    // Extrahovaný obsah zpracujte podle potřeby
+    // Zpracujte extrahovaný obsah dle potřeby
 }
 ```
 
 ## Manipulace s extrahovaným obsahem
 
-### Formátování a styling textu
+### Formátování a stylování textu
 
-Na extrahovaný text můžete použít formátování a styl, stejně jako na jakýkoli jiný text v Javě. Chcete-li například nastavit tučný text:
+Na extrahovaný text můžete použít formátování a styly, stejně jako na jakýkoli jiný text v Javě. Například pro tučné písmo:
 
 ```java
-// Vytvořte DocumentBuilder
+// Vytvořte nástroj pro tvorbu dokumentů
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte formátovaný text
+// Vložit formátovaný text
 builder.getFont().setBold(true);
 builder.write("This text is bold.");
 ```
 
 ### Uložení extrahovaného obsahu do nového dokumentu
 
-Jakmile obsah extrahujete a zpracujete s ním, můžete jej uložit do nového dokumentu:
+Jakmile obsah extrahujete a upravíte, můžete jej uložit do nového dokumentu:
 
 ```java
-// Uložte extrahovaný obsah do nového dokumentu
+// Uložit extrahovaný obsah do nového dokumentu
 doc.save("extracted_content.docx");
 ```
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Jak nakládám se zašifrovanými dokumenty aplikace Word?
+### Jak mám zpracovat šifrované dokumenty Wordu?
 
-Aspose.Words for Java poskytuje metody pro otevírání a manipulaci se zašifrovanými dokumenty aplikace Word. Při načítání dokumentu můžete zadat heslo:
+Aspose.Words pro Javu poskytuje metody pro otevírání a manipulaci se šifrovanými dokumenty Word. Při načítání dokumentu můžete zadat heslo:
 
 ```java
 Document doc = new Document("encrypted.docx", new LoadOptions("password"));
@@ -142,30 +144,35 @@ Document doc = new Document("encrypted.docx", new LoadOptions("password"));
 
 ### Mohu extrahovat obsah z dokumentů chráněných heslem?
 
-Ano, můžete extrahovat obsah z dokumentů chráněných heslem pomocí Aspose.Words for Java. Stačí zadat správné heslo při načítání dokumentu, jak je uvedeno výše.
+Ano, můžete extrahovat obsah z dokumentů chráněných heslem pomocí Aspose.Words pro Javu. Stačí při načítání dokumentu zadat správné heslo, jak je uvedeno výše.
 
-### Je Aspose.Words for Java kompatibilní s Java 11 a vyšší?
+### Je Aspose.Words pro Javu kompatibilní s Javou 11 a vyšší?
 
-Ano, Aspose.Words for Java je kompatibilní s verzí Java 11 a vyšší.
+Ano, Aspose.Words pro Javu je kompatibilní s Javou 11 a vyššími verzemi.
 
-### Jaké jsou některé běžné chyby a jak je odstranit?
+### Jaké jsou některé běžné chyby a jak je řešit?
 
-Běžné chyby v Aspose.Words for Java se obvykle týkají struktury nebo formátování dokumentu. Tipy pro odstraňování problémů najdete v dokumentaci a komunitních fórech.
+Běžné chyby v Aspose.Words pro Javu obvykle souvisejí se strukturou nebo formátováním dokumentu. Tipy pro řešení problémů naleznete v dokumentaci a na komunitních fórech.
 
-### Jak mohu přispět do komunity Aspose.Words for Java?
+### Jak mohu přispět do komunity Aspose.Words pro Javu?
 
-Můžete přispět sdílením svých znalostí na fórech, hlášením chyb nebo dokonce odesláním příspěvků s kódem. Připojte se k pulzující komunitě Aspose ještě dnes!
+Můžete přispět sdílením svých znalostí na fórech, hlášením chyb nebo dokonce odesláním příspěvků k kódu. Připojte se k dynamické komunitě Aspose ještě dnes!
 
-### Existují nějaké licenční úvahy?
+### Existují nějaké licenční aspekty?
 
-Aspose.Words for Java vyžaduje platnou licenci pro komerční použití. Ujistěte se, že jste získali potřebné licence, abyste dodrželi podmínky používání.
+Aspose.Words pro Javu vyžaduje platnou licenci pro komerční použití. Ujistěte se, že máte potřebnou licenci, abyste splnili podmínky používání.
 
 ## Závěr
 
-Gratuluji! Dokončili jste podrobného průvodce extrahováním obsahu dokumentu po stránkách pomocí Aspose.Words for Java. Nyní máte cenné dovednosti pro programovou práci s dokumenty Wordu. Neváhejte a prozkoumejte další funkce Aspose.Words a popusťte uzdu své kreativitě při manipulaci s dokumenty.
+Gratulujeme! Dokončili jste podrobný návod na extrakci obsahu dokumentu po stránkách pomocí Aspose.Words pro Javu. Nyní máte cenné dovednosti pro programovou práci s dokumenty Wordu. Neváhejte prozkoumat další funkce Aspose.Words a popusťte popusťte svou kreativitu při manipulaci s dokumenty.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

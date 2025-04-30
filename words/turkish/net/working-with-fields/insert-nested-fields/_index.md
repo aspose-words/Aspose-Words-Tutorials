@@ -1,14 +1,16 @@
 ---
-title: İç İçe Alanlar Ekle
-linktitle: İç İçe Alanlar Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerine iç içe alanların nasıl ekleneceğini adım adım kılavuzumuzla öğrenin. Belge oluşturmayı otomatikleştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fields/insert-nested-fields/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerine iç içe alanların nasıl ekleneceğini adım adım kılavuzumuzla öğrenin. Belge oluşturmayı otomatikleştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "İç İçe Alanlar Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İç İçe Alanlar Ekle"
+"url": "/tr/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İç İçe Alanlar Ekle
@@ -21,7 +23,7 @@ Word belgelerinize programatik olarak iç içe alanlar eklemeniz gerektiğini hi
 
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 3. C# Temel Bilgisi: C# programlama dilinin anlaşılması.
 
@@ -83,7 +85,7 @@ builder.InsertField("NUMPAGES");
 builder.Write(" \"See next page\" \"Last page\" ");
 ```
 
-Bu adımda, önce IF alanını ekliyoruz, ayırıcısına geçiyoruz ve sonra PAGE ve NUMPAGES alanlarını ekliyoruz. IF alanı, geçerli sayfa numarasının (PAGE) toplam sayfa sayısına (NUMPAGES) eşit olup olmadığını kontrol eder. True ise, “Sonraki sayfaya bak”ı, aksi takdirde “Last page”ı görüntüler.
+Bu adımda, önce IF alanını ekliyoruz, ayırıcısına geçiyoruz ve sonra PAGE ve NUMPAGES alanlarını ekliyoruz. IF alanı, geçerli sayfa numarasının (PAGE) toplam sayfa sayısına (NUMPAGES) eşit olup olmadığını kontrol eder. True ise, “Sonraki sayfaya bak”ı, aksi takdirde “Son sayfa”yı görüntüler.
 
 ## Adım 5: Alanı Güncelleyin
 
@@ -115,16 +117,21 @@ doc.Save(dataDir + "InsertNestedFields.docx");
 Evet, dinamik içerik oluşturmak için TARİH, SAAT ve YAZAR gibi çeşitli alanları IF alanının içine yerleştirebilirsiniz.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ticari bir kütüphanedir, ancak bir tane edinebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) denemek için.
+Aspose.Words for .NET ticari bir kütüphanedir, ancak bir tane edinebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) denemek için.
 
 ### Aspose.Words'ü diğer .NET dilleriyle kullanabilir miyim?
 Evet, Aspose.Words VB.NET ve F# dahil tüm .NET dillerini destekler.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

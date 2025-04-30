@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-conversion-and-export/using-document-shapes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Document Shapes in Aspose.Words for Java
@@ -192,9 +195,13 @@ Yes, you can customize the appearance of shapes by adjusting their properties su
 
 Yes, Aspose.Words for Java supports SmartArt shapes, allowing you to work with complex diagrams and graphics in your documents.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Abaikan Header dan Footer
-linktitle: Abaikan Header dan Footer
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dokumen Word sambil mengabaikan header dan footer menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/join-and-append-documents/ignore-header-footer/
+"description": "Pelajari cara menggabungkan dokumen Word sambil mengabaikan header dan footer menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Abaikan Header dan Footer"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Abaikan Header dan Footer"
+"url": "/id/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Abaikan Header dan Footer
@@ -21,7 +23,7 @@ Menggabungkan dokumen Word terkadang bisa sedikit rumit, terutama jika Anda ingi
 
 Sebelum kita memulai, mari pastikan kita memiliki semua yang kita butuhkan:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi terbaru apa pun seharusnya berfungsi.
 - Pemahaman Dasar C#: Jangan khawatir, saya akan memandu Anda melalui kodenya.
 - Dua Dokumen Word: Satu untuk ditambahkan ke yang lain.
@@ -79,7 +81,7 @@ Berikut kode untuk mengonfigurasi opsi impor:
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Dengan pengaturan`IgnoreHeaderFooter` ke`true`, kami memberi tahu Aspose.Words untuk mengabaikan header dan footer selama proses penggabungan.
+Dengan pengaturan `IgnoreHeaderFooter` ke `true`, kami memberi tahu Aspose.Words untuk mengabaikan header dan footer selama proses penggabungan.
 
 ## Langkah 4: Gabungkan Dokumen
 
@@ -109,7 +111,7 @@ Ini akan menyimpan dokumen gabungan dalam direktori yang ditentukan dengan nama 
 
 Nah, itu dia! Anda telah berhasil menggabungkan dua dokumen Word sambil mengabaikan header dan footer-nya menggunakan Aspose.Words untuk .NET. Metode ini berguna untuk berbagai tugas manajemen dokumen yang mengharuskan pemeliharaan bagian-bagian dokumen tertentu.
 
-Bekerja dengan Aspose.Words untuk .NET dapat secara signifikan memperlancar alur kerja pemrosesan dokumen Anda. Ingat, jika Anda mengalami kendala atau memerlukan informasi lebih lanjut, Anda selalu dapat memeriksa[dokumentasi](https://reference.aspose.com/words/net/).
+Bekerja dengan Aspose.Words untuk .NET dapat secara signifikan memperlancar alur kerja pemrosesan dokumen Anda. Ingat, jika Anda mengalami kendala atau memerlukan informasi lebih lanjut, Anda selalu dapat memeriksa [dokumentasi](https://reference.aspose.com/words/net/).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -119,23 +121,28 @@ Ya, Aspose.Words menyediakan berbagai opsi untuk menyesuaikan proses impor, term
 
 ### Mungkinkah tetap menampilkan header dan footer, alih-alih mengabaikannya?
 
- Tentu saja. Cukup atur`IgnoreHeaderFooter` ke`false` di dalam`ImportFormatOptions`.
+Tentu saja. Cukup atur `IgnoreHeaderFooter` ke `false` di dalam `ImportFormatOptions`.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Ya, Aspose.Words untuk .NET adalah produk komersial. Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.Words untuk .NET adalah produk komersial. Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menggabungkan lebih dari dua dokumen menggunakan metode ini?
 
- Ya, Anda dapat menambahkan beberapa dokumen dalam satu lingkaran dengan mengulangi`AppendDocument` metode untuk setiap dokumen tambahan.
+Ya, Anda dapat menambahkan beberapa dokumen dalam satu lingkaran dengan mengulangi `AppendDocument` metode untuk setiap dokumen tambahan.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi dan contoh yang lengkap di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan contoh yang lengkap di [Situs web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

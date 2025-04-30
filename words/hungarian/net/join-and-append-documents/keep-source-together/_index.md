@@ -1,61 +1,63 @@
 ---
-title: Tartsa együtt az asztalt
-linktitle: Tartsa együtt az asztalt
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan akadályozhatja meg, hogy a táblázatok oldalakra törjenek az Aspose.Words for .NET használatával. Gondoskodjon rendezett, professzionális megjelenésű Word-dokumentumokról
-weight: 10
-url: /hu/net/join-and-append-documents/keep-source-together/
+"description": "Tanulja meg, hogyan akadályozhatja meg a táblázatok oldalak közötti töredezését az Aspose.Words for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Gondoskodjon rendezett, professzionális megjelenésű Word-dokumentumokról."
+"linktitle": "Tartsa együtt az asztalt"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Tartsa együtt az asztalt"
+"url": "/hu/net/join-and-append-documents/keep-source-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tartsa együtt az asztalt
 
 ## Bevezetés
 
-A táblázatok sok Word-dokumentum elengedhetetlen részét képezik, de néha előfordulhat, hogy olyan helyzetbe kerülhet, hogy a táblázat két oldalra tör. Ez megzavarhatja a dokumentum áramlását és befolyásolhatja annak olvashatóságát. Nem lenne jó, ha az egész táblázatot egy oldalon tartanák? Nos, az Aspose.Words for .NET segítségével egyszerű megoldást kínál erre a problémára! Ebben az oktatóanyagban végigvezetjük, hogyan akadályozhatja meg a táblázatok oldalakra való szétválását, így biztosítva, hogy a dokumentuma ügyes és professzionális megjelenést biztosítson.
+táblázatok számos Word-dokumentum elengedhetetlen részét képezik, de néha előfordulhat olyan helyzet, amikor a táblázat két oldalon keresztül törik meg. Ez megzavarhatja a dokumentum folyását és befolyásolhatja az olvashatóságát. Nem lenne jó, ha lenne mód arra, hogy a teljes táblázat egy oldalon maradjon? Nos, az Aspose.Words for .NET segítségével van egy egyszerű megoldás erre a problémára! Ebben az oktatóanyagban bemutatjuk, hogyan akadályozhatjuk meg a táblázatok oldalak közötti szétválását, biztosítva, hogy a dokumentumunk rendezett és professzionális megjelenésű legyen.
 
 ## Előfeltételek
 
-Mielőtt belevágnánk az oktatóanyagba, győződjünk meg arról, hogy mindennel rendelkezel, ami a zökkenőmentes követéshez szükséges.
+Mielőtt belevágnánk az oktatóanyagba, győződjünk meg róla, hogy minden megvan, amire szükséged van a zökkenőmentes követéshez.
 
-### Aspose.Words for .NET Library
+### Aspose.Words .NET könyvtárhoz
 
-Először is telepítenie kell az Aspose.Words for .NET programot. Ez az a hatékony könyvtár, amely lehetővé teszi a Word-dokumentumok programozott kezelését.
+Először is telepítenie kell az Aspose.Words for .NET programot. Ez egy hatékony könyvtár, amely lehetővé teszi a Word dokumentumokkal való programozott munkát.
 
-- [Töltse le az Aspose.Words for .NET programot](https://releases.aspose.com/words/net/)
+- [Aspose.Words letöltése .NET-hez](https://releases.aspose.com/words/net/)
 
-### Fejlesztési környezet
+### Fejlesztői környezet
 
-A C# kód futtatásához be kell állítani egy fejlesztői környezetet, például:
+C# kód futtatásához be kell állítani egy fejlesztői környezetet, például:
 
 - Visual Studio (bármely újabb verzió)
-- .NET-keretrendszer 2.0 vagy újabb
+- .NET-keretrendszer 2.0 vagy újabb verzió
 
-### Word dokumentum táblázattal
+### Egy táblázatot tartalmazó Word-dokumentum
 
- Szüksége lesz egy táblázatot tartalmazó Word dokumentumra. Ebben az oktatóanyagban egy mintadokumentummal fogunk dolgozni`"Table spanning two pages.docx"`. Ez a fájl egy táblázatot tartalmaz, amely jelenleg két oldalt ölel fel.
+Szükséged lesz egy táblázatot tartalmazó Word-dokumentumra. Ebben az oktatóanyagban egy példadokumentummal fogunk dolgozni, melynek neve: `"Table spanning two pages.docx"`Ez a fájl egy táblázatot tartalmaz, amely jelenleg két oldalon átível.
 
 ### Ideiglenes engedély (opcionális)
 
- Míg az Aspose.Words ingyenes próbaverzióval rendelkezik, érdemes lehet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy kibontakoztassa a könyvtárban rejlő lehetőségeket.
+Bár az Aspose.Words ingyenes próbaverzióval érkezik, érdemes lehet egyet használni [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy kiaknázzuk a könyvtár teljes potenciálját.
 
 ## Csomagok importálása
 
-Mielőtt bármilyen kódot írnánk, importálnunk kell az Aspose.Words for .NET használatához szükséges névtereket. Adja hozzá a következő importálásokat a kódfájl tetejéhez:
+Mielőtt bármilyen kódot írnánk, importálnunk kell a szükséges névtereket az Aspose.Words for .NET használatához. Adjuk hozzá a következő importálásokat a kódfájl elejéhez:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Ezek a névterek hozzáférést biztosítanak olyan osztályokhoz, mint a`Document`, `Table`, `Cell`, és mások, amelyeket ebben az oktatóanyagban fogunk használni.
+Ezek a névterek hozzáférést biztosítanak olyan osztályokhoz, mint a `Document`, `Table`, `Cell`, és mások, amelyeket ebben az oktatóanyagban fogunk használni.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
- Az első dolog, amit tennünk kell, hogy betöltsük a táblázatot tartalmazó Word dokumentumot. Ehhez használjuk a`Document` osztály Aspose-tól.Words. Ez az osztály lehetővé teszi Word-fájlok programozott megnyitását és kezelését.
+Az első dolog, amit tennünk kell, az a táblázatot tartalmazó Word dokumentum betöltése. Ehhez a következőt fogjuk használni: `Document` osztály az Aspose.Words-ből. Ez az osztály lehetővé teszi Word fájlok programozott megnyitását és kezelését.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -64,21 +66,21 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
 ```
 
- Ebben a kódrészletben megadjuk a dokumentumunk helyét. Cserélje ki`"YOUR DOCUMENTS DIRECTORY"` azzal a könyvtárral, ahol a dokumentumot tárolják.
+Ebben a kódrészletben a dokumentumunk helyét adjuk meg. Csere `"YOUR DOCUMENTS DIRECTORY"` a dokumentum tényleges tárolási mappájával.
 
-## 2. lépés: Nyissa meg a táblázatot
+## 2. lépés: Hozzáférés a táblázathoz
 
-A dokumentum betöltése után a következő lépés az egyben tartani kívánt táblázat elérése. Ebben a példában feltételezzük, hogy a tábla a dokumentum első táblája.
+Miután a dokumentum betöltődött, a következő lépés az együtt tartani kívánt tábla elérése. Ebben a példában feltételezzük, hogy a tábla a dokumentum első táblája.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Ez a kódsor megtalálja a dokumentum első táblázatát. A`GetChild` módszer egy adott típusú csomópontot kér le, amely ebben az esetben az`NodeType.Table` . A`0` azt jelzi, hogy szeretnénk az első táblázatot, és a`true`flag biztosítja, hogy rekurzívan keressünk az összes gyermek csomóponton.
+Ez a kódsor megkeresi a dokumentum első táblázatát. A `GetChild` metódus egy adott típusú csomópontot kér le, amely ebben az esetben a következő: `NodeType.Table`. A `0` jelzi, hogy az első táblázatot akarjuk, és a `true` A flag biztosítja, hogy rekurzívan keressünk az összes gyermekcsomóponton.
 
-## 3. lépés: Hurok át a táblázat celláin
+## 3. lépés: Táblázatcellákon keresztüli ciklus
 
-Most végig kell lépnünk a táblázat minden celláján. Mivel egy táblázat több sort tartalmaz, és minden sor több cellát tartalmaz, minden cellát végig fogunk iterálni, és gondoskodunk arról, hogy ne törjenek oldalakra.
+Most végig kell mennünk a táblázat minden celláján. Mivel egy táblázat több sort tartalmaz, és minden sor több cellát tartalmaz, végigmegyünk minden cellán, és biztosítjuk, hogy ne törjön meg több oldal között.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -86,11 +88,11 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
     cell.EnsureMinimum();
 ```
 
- Itt,`GetChildNodes` lekéri a táblázat összes celláját, és mindegyiken végigfutunk. A`EnsureMinimum()` A metódus gondoskodik arról, hogy minden cellában legyen legalább egy bekezdés, mivel az üres cella később problémákat okozhat.
+Itt, `GetChildNodes` lekéri a táblázat összes celláját, és mindegyiken végigmegyünk. `EnsureMinimum()` A metódus biztosítja, hogy minden cella legalább egy bekezdést tartalmazzon, mivel egy üres cella később problémákat okozhat.
 
-## 4. lépés: Állítsa be a KeepWithNext tulajdonságot
+## 4. lépés: A KeepWithNext tulajdonság beállítása
 
- Ahhoz, hogy a táblázat ne törjön oldalakra, be kell állítanunk a`KeepWithNext` tulajdonság a táblázat minden bekezdéséhez. Ez a tulajdonság biztosítja, hogy a bekezdés a következő bekezdéssel maradjon, hatékonyan megakadályozva az oldaltöréseket közöttük.
+Ahhoz, hogy a táblázat ne töredezzen több oldalra, be kell állítanunk a `KeepWithNext` tulajdonság a táblázat minden bekezdéséhez. Ez a tulajdonság biztosítja, hogy a bekezdés a következő bekezdéssel maradjon, így hatékonyan megakadályozva az oldaltöréseket közöttük.
 
 ```csharp
     foreach (Paragraph para in cell.Paragraphs)
@@ -98,48 +100,53 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
             para.ParagraphFormat.KeepWithNext = true;
 ```
 
- Ez a ciklus minden cellán belül minden bekezdést ellenőriz. A feltétel biztosítja, hogy ne alkalmazzuk a`KeepWithNext`tulajdonság az utolsó sor utolsó bekezdéséig. Ellenkező esetben a tulajdonságnak nem lenne hatása, mivel nincs következő bekezdés.
+Ez a ciklus minden egyes cellán belüli összes bekezdést ellenőrzi. A feltétel biztosítja, hogy ne alkalmazzuk a `KeepWithNext` tulajdonság az utolsó sor utolsó bekezdésére vonatkozik. Ellenkező esetben a tulajdonságnak nem lenne hatása, mivel nincs következő bekezdés.
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
- Végül alkalmazása után a`KeepWithNext` tulajdonságot, el kell mentenünk a módosított dokumentumot.
+Végül, miután alkalmaztuk a `KeepWithNext` tulajdonsággal, mentenünk kell a módosított dokumentumot.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
 ```
 
-Ez a sor új néven menti a frissített dokumentumot, megőrzi az eredeti fájlt. Most megnyithatja a kapott fájlt, és láthatja, hogy a táblázat már nincs két oldalra osztva!
+Ez a sor új néven menti el a frissített dokumentumot, megőrizve az eredeti fájlt. Most megnyithatja a kapott fájlt, és láthatja, hogy a táblázat már nincs két oldalra osztva!
 
 ## Következtetés
 
-És megvan! Ha követi ezeket az egyszerű lépéseket, az Aspose.Words for .NET segítségével könnyedén megakadályozhatja, hogy a táblázatok oldalakra törjenek a Word dokumentumokban. Legyen szó jelentésekről, szerződésekről vagy egyéb dokumentumokról, a táblázatok érintetlen megőrzése még kifinomultabb, professzionálisabb megjelenést biztosít.
+És íme! Ezeket az egyszerű lépéseket követve könnyedén megakadályozhatod, hogy a táblázatok oldalak között töredezzenek a Word-dokumentumokban az Aspose.Words for .NET segítségével. Akár jelentéseken, szerződéseken vagy más dokumentumokon dolgozol, a táblázatok érintetlenül tartása kifinomultabb, professzionálisabb megjelenést biztosít.
 
-Az Aspose.Words szépsége a rugalmasságban és a könnyű használatban rejlik, amely lehetővé teszi a Word-dokumentumok programozott kezelését anélkül, hogy a Microsoft Word programot telepítenie kellene a gépére. Most, hogy rájött a táblázatok egyben tartására, fedezze fel a könyvtár egyéb funkcióit, hogy dokumentumfeldolgozási készségeit a következő szintre emelje!
+Az Aspose.Words szépsége a rugalmasságában és a könnyű használatában rejlik, amely lehetővé teszi Word-dokumentumok programozott kezelését anélkül, hogy a Microsoft Wordöt telepíteni kellene a gépedre. Most, hogy elsajátítottad a táblázatok rendszerezésének alapjait, fedezd fel a könyvtár további funkcióit, hogy a következő szintre emeld dokumentumszerkesztési készségeidet!
 
 ## GYIK
 
-### Miért törik a táblázatom továbbra is oldalakra a kód használata után?
+### Miért törik meg a táblázatom több oldalon is a kód használata után?
 
- Ha az asztal még mindig törik, győződjön meg arról, hogy alkalmazta a`KeepWithNext` tulajdonát helyesen. Ellenőrizze még egyszer, hogy az utolsó bekezdés kivételével az összes bekezdés rendelkezik-e ezzel a tulajdonsággal.
+Ha az asztalod továbbra is törik, győződj meg róla, hogy alkalmaztad a `KeepWithNext` tulajdonságot helyesen. Ellenőrizze kétszer, hogy minden cellában az utolsó kivételével minden bekezdésben be van-e állítva ez a tulajdonság.
 
-### Csak meghatározott sorokat tarthatok együtt?
+### Csak bizonyos sorokat tarthatok együtt?
 
- Igen, szelektíven alkalmazhatja a`KeepWithNext` tulajdonságot a táblázat adott soraihoz vagy bekezdéseihez, hogy szabályozza, mely részek maradjanak együtt.
+Igen, szelektíven alkalmazhatja a `KeepWithNext` tulajdonságot a táblázat adott soraira vagy bekezdéseire oszthat fel, hogy szabályozza, mely részek maradjanak együtt.
 
-### Működik ez a módszer nagy asztaloknál?
+### Ez a módszer működik nagy táblázatokkal?
 
-Nagyon nagy táblázatok esetén a Word továbbra is feloszthatja azokat oldalakra, ha nincs elég hely ahhoz, hogy a teljes táblázat egy oldalon elférjen. Fontolja meg a táblázat formázásának vagy margóinak módosítását a nagyobb táblázatok elhelyezéséhez.
+Nagyon nagy táblázatok esetén a Word továbbra is oldalakra oszthatja azokat, ha nincs elég hely a teljes táblázat egy oldalra való elféréséhez. Érdemes lehet a táblázat formázását vagy margóit a nagyobb táblázatok elféréséhez igazítani.
 
 ### Használhatom ezt a módszert más dokumentumformátumokkal?
 
-Igen! Az Aspose.Words for .NET számos formátumot támogat, például DOC, DOCX, PDF és más formátumokat. Ugyanez a módszer minden táblázatot támogató formátumban működik.
+Igen! Az Aspose.Words for .NET számos formátumot támogat, például a DOC, DOCX, PDF és másokat. Ugyanez a metódus működik minden olyan formátumban, amely támogatja a táblázatokat.
 
-### Az Aspose.Words for .NET ingyenes könyvtár?
+### Az Aspose.Words for .NET egy ingyenes könyvtár?
 
- Az Aspose.Words for .NET ingyenes próbaverziót kínál, de az összes funkcióhoz való teljes hozzáféréshez licencet kell vásárolnia. Az engedélyezési lehetőségeket a[Aspose vásárlási oldal](https://purchase.aspose.com/buy).
+Az Aspose.Words for .NET ingyenes próbaverziót kínál, de az összes funkció teljes eléréséhez licencet kell vásárolnia. A licencelési lehetőségeket a következő helyen tekintheti meg: [Aspose vásárlási oldal](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

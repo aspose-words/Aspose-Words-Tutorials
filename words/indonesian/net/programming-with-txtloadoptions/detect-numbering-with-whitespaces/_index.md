@@ -1,27 +1,29 @@
 ---
-title: Mendeteksi Penomoran Dengan Spasi Putih
-linktitle: Mendeteksi Penomoran Dengan Spasi Putih
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Temukan cara menggunakan Aspose.Words untuk .NET untuk mendeteksi penomoran dengan spasi dalam dokumen teks biasa dan memastikan daftar Anda dikenali dengan benar.
-weight: 10
-url: /id/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "Temukan cara menggunakan Aspose.Words untuk .NET untuk mendeteksi penomoran dengan spasi dalam dokumen teks biasa dan memastikan daftar Anda dikenali dengan benar."
+"linktitle": "Mendeteksi Penomoran Dengan Spasi Putih"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mendeteksi Penomoran Dengan Spasi Putih"
+"url": "/id/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mendeteksi Penomoran Dengan Spasi Putih
 
 ## Perkenalan
 
-Aspose.Words untuk penggemar .NET! Hari ini, kita akan menyelami fitur menarik yang dapat mempermudah penanganan daftar dalam dokumen teks biasa. Pernahkah Anda menangani berkas teks yang beberapa barisnya seharusnya berupa daftar, tetapi tidak terlihat benar saat dimuat ke dalam dokumen Word? Nah, kami punya trik yang bagus: mendeteksi penomoran dengan spasi. Tutorial ini akan memandu Anda tentang cara menggunakan`DetectNumberingWithWhitespaces` opsi di Aspose.Words untuk .NET untuk memastikan daftar Anda dikenali dengan benar, bahkan saat ada spasi di antara angka dan teks.
+Aspose.Words untuk penggemar .NET! Hari ini, kita akan menyelami fitur menarik yang dapat mempermudah penanganan daftar dalam dokumen teks biasa. Pernahkah Anda menangani berkas teks yang beberapa barisnya seharusnya berupa daftar, tetapi tidak terlihat benar saat dimuat ke dalam dokumen Word? Nah, kami punya trik yang bagus: mendeteksi penomoran dengan spasi. Tutorial ini akan memandu Anda tentang cara menggunakan `DetectNumberingWithWhitespaces` opsi di Aspose.Words untuk .NET untuk memastikan daftar Anda dikenali dengan benar, bahkan saat ada spasi di antara angka dan teks.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 - .NET Framework terinstal di komputer Anda.
 - Pengetahuan Dasar C#: Memahami dasar-dasarnya akan membantu Anda mengikuti contoh-contohnya.
@@ -72,7 +74,7 @@ const string textDoc = "Full stop delimiters:\n" +
 
 ## Langkah 3: Konfigurasikan LoadOptions
 
- Untuk mendeteksi penomoran dengan spasi, kita perlu mengatur`DetectNumberingWithWhitespaces` pilihan untuk`true` di sebuah`TxtLoadOptions` obyek.
+Untuk mendeteksi penomoran dengan spasi, kita perlu mengatur `DetectNumberingWithWhitespaces` pilihan untuk `true` di sebuah `TxtLoadOptions` obyek.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
@@ -80,7 +82,7 @@ TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces
 
 ## Langkah 4: Muat Dokumen
 
- Sekarang, mari kita memuat dokumen menggunakan`TxtLoadOptions` sebagai parameter. Ini memastikan bahwa daftar keempat (dengan spasi) terdeteksi dengan benar.
+Sekarang, mari kita memuat dokumen menggunakan `TxtLoadOptions` sebagai parameter. Ini memastikan bahwa daftar keempat (dengan spasi) terdeteksi dengan benar.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -100,25 +102,30 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah menguasai seni mendet
 
 ## Pertanyaan yang Sering Diajukan
 
-###  Apa`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` adalah sebuah pilihan di`TxtLoadOptions` yang memungkinkan Aspose.Words mengenali daftar bahkan ketika ada spasi antara penomoran dan teks item daftar.
+### Apa `DetectNumberingWithWhitespaces` di Aspose.Words untuk .NET?
+`DetectNumberingWithWhitespaces` adalah sebuah pilihan di `TxtLoadOptions` yang memungkinkan Aspose.Words mengenali daftar bahkan ketika ada spasi antara penomoran dan teks item daftar.
 
 ### Dapatkah saya menggunakan fitur ini untuk pemisah lain seperti poin dan tanda kurung?
- Ya, Aspose.Words secara otomatis mendeteksi daftar dengan pembatas umum seperti poin dan tanda kurung.`DetectNumberingWithWhitespaces` khususnya membantu dengan daftar yang memiliki spasi.
+Ya, Aspose.Words secara otomatis mendeteksi daftar dengan pembatas umum seperti poin dan tanda kurung. `DetectNumberingWithWhitespaces` khususnya membantu dengan daftar yang memiliki spasi.
 
-###  Apa yang terjadi jika saya tidak menggunakannya?`DetectNumberingWithWhitespaces`?
+### Apa yang terjadi jika saya tidak menggunakannya.... `DetectNumberingWithWhitespaces`?
 Tanpa opsi ini, daftar dengan spasi antara penomoran dan teks mungkin tidak dikenali sebagai daftar, dan item dapat muncul sebagai paragraf biasa.
 
 ### Apakah fitur ini tersedia di produk Aspose lainnya?
 Fitur khusus ini dirancang untuk Aspose.Words untuk .NET, yang dirancang untuk menangani pemrosesan dokumen Word.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
- Anda dapat memperoleh lisensi sementara dari[Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/) halaman.
+Anda dapat memperoleh lisensi sementara dari [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/) halaman.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

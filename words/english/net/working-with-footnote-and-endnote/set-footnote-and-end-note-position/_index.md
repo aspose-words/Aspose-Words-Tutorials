@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-footnote-and-endnote/set-footnote-and-end-note-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Footnote And Endnote Position
@@ -101,9 +104,13 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 
 Detailed documentation is available [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

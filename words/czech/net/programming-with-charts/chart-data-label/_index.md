@@ -1,21 +1,23 @@
 ---
-title: Přizpůsobit štítek dat grafu
-linktitle: Přizpůsobit štítek dat grafu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak přizpůsobit štítky dat grafu pomocí Aspose.Words for .NET v podrobném průvodci. Ideální pro .NET vývojáře.
-weight: 10
-url: /cs/net/programming-with-charts/chart-data-label/
+"description": "Naučte se, jak přizpůsobit popisky dat grafů pomocí Aspose.Words pro .NET v podrobném návodu. Ideální pro vývojáře .NET."
+"linktitle": "Přizpůsobení popisku dat grafu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přizpůsobení popisku dat grafu"
+"url": "/cs/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přizpůsobit štítek dat grafu
+# Přizpůsobení popisku dat grafu
 
 ## Zavedení
 
-Chcete vylepšit své aplikace .NET dynamickými a přizpůsobenými možnostmi zpracování dokumentů? Aspose.Words pro .NET může být právě vaší odpovědí! V této příručce se ponoříme hluboko do přizpůsobení štítků dat grafu pomocí Aspose.Words for .NET, výkonné knihovny pro vytváření, úpravy a převod dokumentů aplikace Word. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vás provede každým krokem a zajistí, že pochopíte, jak tento nástroj efektivně využívat.
+Hledáte způsob, jak vylepšit své .NET aplikace dynamickými a přizpůsobitelnými funkcemi pro zpracování dokumentů? Aspose.Words pro .NET by mohla být přesně ta správná odpověď! V této příručce se podrobně ponoříme do úpravy popisků dat grafů pomocí Aspose.Words pro .NET, výkonné knihovny pro vytváření, úpravy a převod dokumentů Word. Ať už jste zkušený vývojář, nebo teprve začínáte, tento tutoriál vás provede každým krokem a zajistí, že pochopíte, jak tento nástroj efektivně používat.
 
 ## Předpoklady
 
@@ -23,13 +25,13 @@ Než začneme, ujistěte se, že máte následující:
 
 1. Visual Studio: Nainstalujte Visual Studio 2019 nebo novější.
 2. .NET Framework: Ujistěte se, že máte .NET Framework 4.0 nebo novější.
-3.  Aspose.Words for .NET: Stáhněte si a nainstalujte Aspose.Words for .NET z[odkaz ke stažení](https://releases.aspose.com/words/net/).
+3. Aspose.Words pro .NET: Stáhněte a nainstalujte Aspose.Words pro .NET z [odkaz ke stažení](https://releases.aspose.com/words/net/).
 4. Základní znalost C#: Znalost programování v C# je nezbytná.
-5.  Platná licence: Získejte a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo koupit jeden od[koupit odkaz](https://purchase.aspose.com/buy).
+5. Platný řidičský průkaz: Získejte [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si jeden zakoupit od [koupit odkaz](https://purchase.aspose.com/buy).
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte do projektu C# importovat potřebné jmenné prostory. Tento krok je zásadní, protože zajišťuje, že máte přístup ke všem třídám a metodám poskytovaným Aspose.Words.
+Chcete-li začít, musíte do svého projektu v C# importovat potřebné jmenné prostory. Tento krok je klíčový, protože vám zajistí přístup ke všem třídám a metodám poskytovaným Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -38,12 +40,12 @@ using Aspose.Words.Saving;
 using Aspose.Words.Charts;
 ```
 
-## Krok 1: Inicializujte Document a DocumentBuilder
+## Krok 1: Inicializace dokumentu a nástroje DocumentBuilder
 
-Abychom mohli vytvářet a manipulovat s dokumenty Wordu, musíme nejprve inicializovat instanci souboru`Document` třída a a`DocumentBuilder` objekt.
+Abychom mohli vytvářet a manipulovat s dokumenty Wordu, musíme nejprve inicializovat instanci třídy `Document` třída a `DocumentBuilder` objekt.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -52,12 +54,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Vysvětlení
 
-- Dokument dokumentu: Vytvoří novou instanci třídy Document.
-- Tvůrce DocumentBuilder: Nástroj DocumentBuilder pomáhá při vkládání obsahu do objektu Document.
+- Dokument doc: Vytvoří novou instanci třídy Document.
+- Tvůrce DocumentBuilder: Tvůrce DocumentBuilder pomáhá s vkládáním obsahu do objektu Document.
 
-## Krok 2: Vložte graf
+## Krok 2: Vložení grafu
 
- Dále do dokumentu vložíme sloupcový graf pomocí`DocumentBuilder` objekt.
+Dále vložíme do dokumentu sloupcový graf pomocí `DocumentBuilder` objekt.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -69,9 +71,9 @@ Chart chart = shape.Chart;
 - Tvar tvaru: Představuje graf jako tvar v dokumentu.
 - builder.InsertChart(ChartType.Bar, 432, 252): Vloží sloupcový graf se zadanými rozměry.
 
-## Krok 3: Přístup k řadě grafů
+## Krok 3: Přístup k sérii grafů
 
-Chcete-li upravit štítky dat, musíme nejprve získat přístup k řadě v grafu.
+Pro přizpůsobení popisků dat potřebujeme nejprve přístup k řadě v grafu.
 
 ```csharp
 ChartSeries series0 = shape.Chart.Series[0];
@@ -79,11 +81,11 @@ ChartSeries series0 = shape.Chart.Series[0];
 
 ### Vysvětlení
 
-- ChartSeries series0: Načte první řadu grafu, kterou přizpůsobíme.
+- ChartSeries series0: Načte první sérii grafu, kterou upravíme.
 
-## Krok 4: Přizpůsobte štítky dat
+## Krok 4: Úprava popisků dat
 
-Datové štítky lze přizpůsobit tak, aby zobrazovaly různé informace. Nakonfigurujeme štítky tak, aby zobrazovaly klíč legendy, název série a hodnotu a zároveň skryly název kategorie a procento.
+Popisky dat lze přizpůsobit tak, aby zobrazovaly různé informace. Nakonfigurujeme je tak, aby zobrazovaly legendu, název řady a hodnotu, zatímco název kategorie a procento budou skryté.
 
 ```csharp
 ChartDataLabelCollection labels = series0.DataLabels;
@@ -98,18 +100,18 @@ labels.Separator = "/";
 
 ### Vysvětlení
 
-- Štítky ChartDataLabelCollection: Přistupuje k štítkům dat řady.
+- Popisky kolekce ChartDataLabelCollection: Přistupuje k popiskům dat v řadě.
 - labels.ShowLegendKey: Zobrazí klíč legendy.
-- labels.ShowLeaderLines: Zobrazuje odkazové čáry pro datové štítky umístěné daleko mimo datové body.
+- labels.ShowLeaderLines: Zobrazuje vodicí čáry pro datové popisky umístěné daleko vně datových bodů.
 - labels.ShowCategoryName: Skryje název kategorie.
 - labels.ShowPercentage: Skryje procentuální hodnotu.
-- labels.ShowSeriesName: Zobrazuje název série.
-- labels.ShowValue: Zobrazuje hodnotu datových bodů.
-- labels.Separator: Nastavuje oddělovač pro štítky dat.
+- labels.ShowSeriesName: Zobrazí název série.
+- labels.ShowValue: Zobrazí hodnotu datových bodů.
+- labels.Separator: Nastaví oddělovač pro popisky dat.
 
 ## Krok 5: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře.
+Nakonec uložte dokument do zadaného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
@@ -117,32 +119,37 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ### Vysvětlení
 
-- doc.Save: Uloží dokument se zadaným názvem do poskytnutého adresáře.
+- doc.Save: Uloží dokument se zadaným názvem do zadaného adresáře.
 
 ## Závěr
 
- Gratuluji! Úspěšně jste přizpůsobili štítky dat grafu pomocí Aspose.Words pro .NET. Tato knihovna nabízí robustní řešení pro programovou manipulaci s dokumenty Word, což vývojářům usnadňuje vytváření sofistikovaných a dynamických aplikací pro zpracování dokumentů. Ponořte se do[dokumentace](https://reference.aspose.com/words/net/) prozkoumat další funkce a možnosti.
+Gratulujeme! Úspěšně jste upravili popisky dat grafu pomocí knihovny Aspose.Words pro .NET. Tato knihovna nabízí robustní řešení pro programovou práci s dokumenty Word, což vývojářům usnadňuje vytváření sofistikovaných a dynamických aplikací pro zpracování dokumentů. Ponořte se do… [dokumentace](https://reference.aspose.com/words/net/) prozkoumat další funkce a možnosti.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro zpracování dokumentů, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word programově.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro zpracování dokumentů, která umožňuje vývojářům programově vytvářet, upravovat a převádět dokumenty Wordu.
 
-### Jak nainstaluji Aspose.Words for .NET?
- Můžete si jej stáhnout a nainstalovat z[odkaz ke stažení](https://releases.aspose.com/words/net/). Postupujte podle dodaných pokynů k instalaci.
+### Jak nainstaluji Aspose.Words pro .NET?
+Můžete si jej stáhnout a nainstalovat z [odkaz ke stažení](https://releases.aspose.com/words/net/)Řiďte se přiloženými pokyny k instalaci.
 
-### Mohu vyzkoušet Aspose.Words pro .NET zdarma?
- Ano, můžete získat a[zkušební verze zdarma](https://releases.aspose.com/) nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/)hodnotit produkt.
+### Mohu si Aspose.Words pro .NET vyzkoušet zdarma?
+Ano, můžete získat [bezplatná zkušební verze](https://releases.aspose.com/) nebo a [dočasná licence](https://purchase.aspose.com/temporary-license/) k vyhodnocení produktu.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?
-Ano, Aspose.Words for .NET je kompatibilní s .NET Core, .NET Standard a .NET Framework.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?
+Ano, Aspose.Words pro .NET je kompatibilní s .NET Core, .NET Standard a .NET Framework.
 
 ### Kde mohu získat podporu pro Aspose.Words pro .NET?
- Můžete navštívit[fórum podpory](https://forum.aspose.com/c/words/8) za pomoc a pomoc od komunity Aspose a odborníků.
+Můžete navštívit [fórum podpory](https://forum.aspose.com/c/words/8) za pomoc a podporu od komunity a odborníků Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

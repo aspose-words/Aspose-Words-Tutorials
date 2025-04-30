@@ -1,14 +1,16 @@
 ---
-title: Đặt màu điều khiển nội dung
-linktitle: Đặt màu điều khiển nội dung
-second_title: API xử lý tài liệu Aspose.Words
-description: Dễ dàng thiết lập màu của Thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Tùy chỉnh SDT của bạn để cải thiện giao diện tài liệu bằng hướng dẫn đơn giản này.
-weight: 10
-url: /vi/net/programming-with-sdt/set-content-control-color/
+"description": "Dễ dàng thiết lập màu của Thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Tùy chỉnh SDT của bạn để cải thiện giao diện tài liệu bằng hướng dẫn đơn giản này."
+"linktitle": "Đặt màu điều khiển nội dung"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt màu điều khiển nội dung"
+"url": "/vi/net/programming-with-sdt/set-content-control-color/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt màu điều khiển nội dung
@@ -20,7 +22,7 @@ Nếu bạn đang làm việc với các tài liệu Word và cần tùy chỉnh
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
--  Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ[Trang web của Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ [Trang web của Aspose](https://releases.aspose.com/words/net/).
 - Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen thuộc với các khái niệm lập trình C# cơ bản.
 - Một tài liệu Word: Bạn phải có một tài liệu Word chứa ít nhất một Thẻ tài liệu có cấu trúc.
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu
 
- Tạo một`Document` đối tượng bằng cách tải tệp Word của bạn:
+Tạo một `Document` đối tượng bằng cách tải tệp Word của bạn:
 
 ```csharp
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -83,7 +85,7 @@ Việc thay đổi màu của Thẻ tài liệu có cấu trúc trong tài liệ
 
 ### Tôi có thể sử dụng các màu khác nhau cho SDT không?
 
- Có, bạn có thể sử dụng bất kỳ màu nào có sẵn trong`System.Drawing.Color` lớp. Ví dụ, bạn có thể sử dụng`Color.Blue`, `Color.Green`, vân vân.
+Có, bạn có thể sử dụng bất kỳ màu nào có sẵn trong `System.Drawing.Color` lớp. Ví dụ, bạn có thể sử dụng `Color.Blue`, `Color.Green`, vân vân.
 
 ### Làm thế nào để thay đổi màu của nhiều SDT trong một tài liệu?
 
@@ -91,7 +93,7 @@ Bạn sẽ cần lặp qua tất cả SDT trong tài liệu và áp dụng thay 
 
 ### Có thể thiết lập các thuộc tính khác của SDT ngoài màu sắc không?
 
- Vâng,`StructuredDocumentTag` lớp có nhiều thuộc tính khác nhau mà bạn có thể thiết lập, bao gồm kích thước phông chữ, kiểu phông chữ, v.v. Tham khảo tài liệu Aspose.Words để biết thêm chi tiết.
+Vâng, `StructuredDocumentTag` lớp có nhiều thuộc tính khác nhau mà bạn có thể thiết lập, bao gồm kích thước phông chữ, kiểu phông chữ, v.v. Tham khảo tài liệu Aspose.Words để biết thêm chi tiết.
 
 ### Tôi có thể thêm sự kiện vào SDT, chẳng hạn như sự kiện nhấp chuột không?
 
@@ -99,10 +101,15 @@ Aspose.Words không hỗ trợ trực tiếp việc xử lý sự kiện cho SDT
 
 ### Có thể xóa SDT khỏi tài liệu không?
 
- Có, bạn có thể xóa SDT bằng cách gọi`Remove()` phương pháp trên nút cha của SDT.
+Có, bạn có thể xóa SDT bằng cách gọi `Remove()` phương pháp trên nút cha của SDT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

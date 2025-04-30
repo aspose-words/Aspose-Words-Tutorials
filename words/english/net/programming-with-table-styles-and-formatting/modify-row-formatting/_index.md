@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/modify-row-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Row Formatting
@@ -120,9 +123,13 @@ Yes, you can set a fixed height by using the `HeightRule` property and specifyin
 ### Is it possible to apply different formatting to different parts of the document?
 Absolutely! Aspose.Words for .NET provides extensive support for formatting individual sections, paragraphs, and elements within a document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

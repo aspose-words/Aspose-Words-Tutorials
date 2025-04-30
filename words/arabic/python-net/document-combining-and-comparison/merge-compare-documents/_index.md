@@ -1,14 +1,16 @@
 ---
-title: دمج المستندات ومقارنتها في Word
-linktitle: دمج المستندات ومقارنتها في Word
-second_title: Aspose.Words - واجهة برمجة تطبيقات إدارة المستندات باستخدام Python
-description: دمج مستندات Word ومقارنتها بسهولة باستخدام Aspose.Words for Python. تعرّف على كيفية التعامل مع المستندات وإبراز الاختلافات وأتمتة المهام.
-weight: 10
-url: /ar/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "دمج ومقارنة مستندات Word بسهولة باستخدام Aspose.Words لـ Python. تعلّم كيفية التعامل مع المستندات، وتمييز الاختلافات، وأتمتة المهام."
+"linktitle": "دمج المستندات ومقارنتها في Word"
+"second_title": "Aspose.Words Python Document Management API"
+"title": "دمج المستندات ومقارنتها في Word"
+"url": "/ar/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # دمج المستندات ومقارنتها في Word
@@ -16,11 +18,11 @@ url: /ar/python-net/document-combining-and-comparison/merge-compare-documents/
 
 ## مقدمة إلى Aspose.Words للغة بايثون
 
-Aspose.Words هي مكتبة متعددة الاستخدامات تتيح لك إنشاء مستندات Word وتحريرها ومعالجتها برمجيًا. وهي توفر مجموعة واسعة من الميزات، بما في ذلك دمج المستندات ومقارنتها، والتي يمكنها تبسيط مهام إدارة المستندات بشكل كبير.
+Aspose.Words مكتبة متعددة الاستخدامات تتيح لك إنشاء مستندات Word وتحريرها ومعالجتها برمجيًا. توفر مجموعة واسعة من الميزات، بما في ذلك دمج المستندات ومقارنتها، مما يُبسط مهام إدارة المستندات بشكل كبير.
 
 ## تثبيت وإعداد Aspose.Words
 
-للبدء، تحتاج إلى تثبيت مكتبة Aspose.Words للغة Python. يمكنك تثبيتها باستخدام pip، مدير الحزم للغة Python:
+للبدء، عليك تثبيت مكتبة Aspose.Words لبايثون. يمكنك تثبيتها باستخدام pip، مدير حزم بايثون:
 
 ```python
 pip install aspose-words
@@ -61,7 +63,7 @@ doc1.append_document(doc2, DocumentImportFormatMode.KEEP_SOURCE_FORMATTING)
 doc1.save("merged_document.docx")
 ```
 
-## تحميل المستندات المصدرية
+## تحميل مستندات المصدر
 
 قم بتحميل المستندات التي تريد مقارنتها:
 
@@ -72,7 +74,7 @@ modified_doc = Document("modified_document.docx")
 
 ## مقارنة المستندات
 
-مقارنة الوثيقة المصدر مع الوثيقة المعدلة:
+قارن الوثيقة المصدر مع الوثيقة المعدلة:
 
 ```python
 comparison = source_doc.compare(modified_doc, "John Doe", datetime.now())
@@ -88,13 +90,13 @@ comparison.save("comparison_result.docx")
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، استكشفنا كيفية استخدام Aspose.Words for Python لدمج مستندات Word ومقارنتها بسلاسة. تفتح هذه المكتبة القوية فرصًا لإدارة المستندات والتعاون والأتمتة بكفاءة.
+في هذا البرنامج التعليمي، استكشفنا كيفية استخدام Aspose.Words لدمج مستندات Word ومقارنتها بسلاسة. تتيح هذه المكتبة القوية فرصًا لإدارة المستندات بكفاءة والتعاون والأتمتة.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.Words لـ Python؟
 
-يمكنك تثبيت Aspose.Words لـ Python باستخدام الأمر pip التالي:
+يمكنك تثبيت Aspose.Words لـ Python باستخدام أمر pip التالي:
 ```
 pip install aspose-words
 ```
@@ -105,18 +107,23 @@ pip install aspose-words
 
 ### هل Aspose.Words مناسب لإنشاء المستندات تلقائيًا؟
 
-بالتأكيد! يتيح لك Aspose.Words إنشاء المستندات ومعالجتها تلقائيًا، مما يجعله خيارًا ممتازًا للعديد من التطبيقات.
+بالتأكيد! يُمكّن Aspose.Words من إنشاء المستندات ومعالجتها تلقائيًا، مما يجعله خيارًا ممتازًا لمختلف التطبيقات.
 
 ### هل يمكنني دمج أكثر من مستندين باستخدام هذه المكتبة؟
 
-نعم، يمكنك دمج أي عدد من المستندات باستخدام`append_document` الطريقة كما هو موضح في البرنامج التعليمي.
+نعم، يمكنك دمج أي عدد من المستندات باستخدام `append_document` الطريقة كما هو موضح في البرنامج التعليمي.
 
 ### أين يمكنني الوصول إلى المكتبة والموارد؟
 
- قم بالوصول إلى المكتبة وتعلم المزيد على[هنا](https://releases.aspose.com/words/python/).
+يمكنك الوصول إلى المكتبة ومعرفة المزيد على [هنا](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

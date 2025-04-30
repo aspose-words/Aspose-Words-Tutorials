@@ -1,14 +1,16 @@
 ---
-title: Alan Değiştir Kültür Kaynağını Güncelle
-linktitle: Alan Değiştir Kültür Kaynağını Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kılavuzla Aspose.Words for .NET'te alan güncelleme kültür kaynağını nasıl değiştireceğinizi öğrenin. Farklı kültürlere göre tarih biçimlendirmesini kolayca kontrol edin.
-weight: 10
-url: /tr/net/working-with-fields/change-field-update-culture-source/
+"description": "Bu kılavuzla Aspose.Words for .NET'te alan güncelleme kültür kaynağını nasıl değiştireceğinizi öğrenin. Farklı kültürlere göre tarih biçimlendirmesini kolayca kontrol edin."
+"linktitle": "Alan Değiştir Kültür Kaynağını Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Değiştir Kültür Kaynağını Güncelle"
+"url": "/tr/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Değiştir Kültür Kaynağını Güncelle
@@ -21,7 +23,7 @@ Bu eğitimde, .NET için Aspose.Words dünyasına dalacağız ve alan güncellem
 
 Koda geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Herhangi bir .NET uyumlu IDE (örneğin, Visual Studio).
 - Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Fields;
 
 ## Adım 1: Belgeyi Başlatın
 
- İlk adım, yeni bir örnek oluşturmaktır`Document` sınıf ve bir`DocumentBuilder`Bu, Word belgemizi oluşturmanın ve düzenlemenin temelini oluşturur.
+İlk adım, yeni bir örnek oluşturmaktır `Document` sınıf ve bir `DocumentBuilder`Bu, Word belgemizi oluşturmak ve düzenlemek için temel oluşturur.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## Adım 3: Alan Güncelleme Kültür Kaynağını Ayarla
 
- Alanları güncellerken kullanılan kültürü kontrol etmek için,`FieldUpdateCultureSource` mülkiyeti`FieldOptions`sınıf. Bu özellik kültürün alan kodundan mı yoksa belgeden mi alındığını belirler.
+Alanları güncellerken kullanılan kültürü kontrol etmek için, `FieldUpdateCultureSource` mülkiyeti `FieldOptions` sınıf. Bu özellik kültürün alan kodundan mı yoksa belgeden mi alındığını belirler.
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ Ve işte oldu! Aspose.Words for .NET'te alan güncelleme kültür kaynağını b
 
 ## SSS
 
-###  Bu ayarın amacı nedir?`LocaleId`?
- The`LocaleId` Metnin kültür ayarlarını belirtir; bu ayarlar tarihlerin ve diğer yerel ayarlara duyarlı verilerin nasıl biçimlendirileceğini etkiler.
+### Bu ayarın amacı nedir? `LocaleId`?
+The `LocaleId` Metnin kültür ayarlarını belirtir; bu ayarlar tarihlerin ve diğer yerel ayarlara duyarlı verilerin nasıl biçimlendirileceğini etkiler.
 
 ### Almanca dışında farklı bir yerel ayar kullanabilir miyim?
- Evet, ayarlayabilirsiniz`LocaleId`herhangi bir geçerli yerel tanımlayıcıya. Örneğin, İngilizce (ABD) için 1033.
+Evet, ayarlayabilirsiniz `LocaleId` herhangi bir geçerli yerel tanımlayıcıya. Örneğin, İngilizce (ABD) için 1033.
 
-###  Ayarlamazsam ne olur?`FieldUpdateCultureSource` property?
+### Ayarlamazsam ne olur? `FieldUpdateCultureSource` mülk?
 Bu özellik ayarlanmazsa, alanlar güncellenirken belgenin varsayılan kültür ayarları kullanılır.
 
 ### Alan kodu yerine belgenin kültürüne göre alanları güncellemek mümkün müdür?
- Evet, ayarlayabilirsiniz`FieldUpdateCultureSource` ile`FieldUpdateCultureSource.Document` Belgenin kültür ayarlarını kullanmak için.
+Evet, ayarlayabilirsiniz `FieldUpdateCultureSource` ile `FieldUpdateCultureSource.Document` Belgenin kültür ayarlarını kullanmak için.
 
 ### Tarihleri farklı bir desende nasıl biçimlendirebilirim?
- Tarih biçimi desenini şurada değiştirebilirsiniz:`InsertField` yöntemi değiştirerek`\\@` anahtar değeri.
+Tarih biçimi desenini şurada değiştirebilirsiniz: `InsertField` yöntemi değiştirerek `\\@` anahtar değeri.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

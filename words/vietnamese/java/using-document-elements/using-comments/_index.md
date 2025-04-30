@@ -1,14 +1,16 @@
 ---
-title: Sử dụng chú thích trong Aspose.Words cho Java
-linktitle: Sử dụng Bình luận
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
-weight: 10
-url: /vi/java/using-document-elements/using-comments/
+"description": "Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn."
+"linktitle": "Sử dụng Bình luận"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng chú thích trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng chú thích trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong thế giới xử lý tài liệu, việc thêm chú thích vào tài li�
 Bình luận có giá trị trong việc ghi lại mã của bạn hoặc cung cấp lời giải thích trong tài liệu. Aspose.Words for Java cho phép bạn thêm bình luận theo chương trình vào tài liệu của mình, khiến nó trở thành lựa chọn tuyệt vời để tạo tài liệu động và tương tác.
 
 ## 2. Thiết lập Môi trường
- Trước khi đi sâu vào mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt và cấu hình Aspose.Words for Java. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi đi sâu vào mã, bạn cần thiết lập môi trường phát triển của mình. Đảm bảo bạn đã cài đặt và cấu hình Aspose.Words for Java. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## 3. Tạo một tài liệu mới
 Hãy bắt đầu bằng cách tạo một tài liệu mới. Trong dự án Java của bạn, hãy đảm bảo bạn đã thêm các thư viện và phụ thuộc cần thiết.
@@ -40,7 +42,7 @@ builder.write("Some text is added.");
 ```
 
 ## 5. Thêm bình luận
-Bây giờ đến phần thú vị - thêm bình luận. Aspose.Words for Java giúp bạn thực hiện việc này một cách đơn giản. Bạn có thể tạo bình luận và thêm vào tài liệu của mình như minh họa bên dưới:
+Bây giờ đến phần thú vị - thêm bình luận. Aspose.Words for Java giúp bạn thực hiện việc này một cách đơn giản. Bạn có thể tạo bình luận và thêm vào tài liệu của mình như được hiển thị bên dưới:
 
 ```java
 Comment comment = new Comment(doc, "Awais Hafeez", "AH", new Date());
@@ -95,9 +97,14 @@ Aspose.Words for Java cho phép bạn thêm các bình luận có độ dài kh�
 
 Bây giờ bạn đã hiểu toàn diện về cách làm việc với chú thích trong Aspose.Words for Java, bạn có thể bắt đầu tạo các tài liệu năng động và nhiều thông tin một cách dễ dàng. Chúc bạn viết mã vui vẻ!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tải và lưu tài liệu
-linktitle: Tải và lưu tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tải và lưu tài liệu hiệu quả bằng Aspose.Words cho Java trong danh sách hướng dẫn toàn diện của chúng tôi. Làm chủ thao tác tài liệu một cách dễ dàng.
-weight: 20
-url: /vi/java/document-loading-and-saving/
+"description": "Tìm hiểu cách tải và lưu tài liệu hiệu quả bằng Aspose.Words cho Java trong danh sách hướng dẫn toàn diện của chúng tôi. Làm chủ thao tác tài liệu một cách dễ dàng."
+"linktitle": "Tải và lưu tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tải và lưu tài liệu"
+"url": "/vi/java/document-loading-and-saving/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tải và lưu tài liệu
@@ -53,7 +55,7 @@ Tìm hiểu cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words
 ### [Làm việc với Tùy chọn tải trong Aspose.Words cho Java](./using-load-options/)
 Làm chủ các tùy chọn tải trong Aspose.Words cho Java. Tùy chỉnh việc tải tài liệu, xử lý mã hóa, chuyển đổi hình dạng, đặt phiên bản Word và nhiều hơn nữa để xử lý tài liệu Java hiệu quả.
 ### [Cấu hình tùy chọn tải RTF trong Aspose.Words cho Java](./configuring-rtf-load-options/)
-Cấu hình tùy chọn tải RTF trong Aspose.Words cho Java. Tìm hiểu cách nhận dạng văn bản UTF-8 trong tài liệu RTF. Hướng dẫn từng bước với ví dụ mã.
+Cấu hình tùy chọn tải RTF trong Aspose.Words cho Java. Tìm hiểu cách nhận dạng văn bản UTF-8 trong tài liệu RTF. Hướng dẫn từng bước với ví dụ về mã.
 ### [Tải tệp văn bản bằng Aspose.Words cho Java](./loading-text-files/)
 Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và kiểm soát hướng văn bản.
 ### [Tùy chọn lưu nâng cao với Aspose.Words cho Java](./advance-saving-options/)
@@ -67,7 +69,7 @@ Tìm hiểu cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java
 ### [Lưu tài liệu dưới dạng Markdown trong Aspose.Words cho Java](./saving-documents-as-markdown/)
 Tìm hiểu cách chuyển đổi tài liệu Word sang Markdown bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm căn chỉnh bảng, xử lý hình ảnh và nhiều hơn nữa.
 ### [Lưu tài liệu dưới dạng định dạng ODT trong Aspose.Words cho Java](./saving-documents-as-odt-format/)
-Tìm hiểu cách lưu tài liệu ở định dạng ODT bằng Aspose.Words cho Java. Đảm bảo khả năng tương thích với các bộ ứng dụng văn phòng nguồn mở. 
+Tìm hiểu cách lưu tài liệu ở định dạng ODT bằng Aspose.Words cho Java. Đảm bảo khả năng tương thích với bộ ứng dụng văn phòng nguồn mở. 
 ### [Lưu tài liệu dưới dạng định dạng OOXML trong Aspose.Words cho Java](./saving-documents-as-ooxml-format/)
 Tìm hiểu cách lưu tài liệu ở định dạng OOXML với Aspose.Words for Java. Bảo mật, tối ưu hóa và tùy chỉnh tệp của bạn một cách dễ dàng. 
 ### [Lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java](./saving-documents-as-pcl-format/)
@@ -80,9 +82,13 @@ Tìm hiểu cách lưu tài liệu dưới dạng RTF bằng Aspose.Words cho Ja
 Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java.
 ### [Xác định định dạng tài liệu trong Aspose.Words cho Java](./determining-document-format/)
 Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

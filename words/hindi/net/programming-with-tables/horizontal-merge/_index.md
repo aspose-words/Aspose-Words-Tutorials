@@ -1,14 +1,16 @@
 ---
-title: क्षैतिज मर्ज
-linktitle: क्षैतिज मर्ज
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कोशिकाओं को क्षैतिज रूप से मर्ज करना सीखें।
-weight: 10
-url: /hi/net/programming-with-tables/horizontal-merge/
+"description": "इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कोशिकाओं को क्षैतिज रूप से मर्ज करना सीखें।"
+"linktitle": "क्षैतिज मर्ज"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "क्षैतिज मर्ज"
+"url": "/hi/net/programming-with-tables/horizontal-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # क्षैतिज मर्ज
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-tables/horizontal-merge/
 
 इससे पहले कि हम इसकी बारीकियों पर जाएं, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
-1. Aspose.Words for .NET लाइब्रेरी: यदि आपने अभी तक Aspose.Words for .NET लाइब्रेरी डाउनलोड नहीं की है, तो आप इसे डाउनलोड कर सकते हैं।[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: यदि आपने अभी तक Aspose.Words for .NET लाइब्रेरी डाउनलोड नहीं की है, तो आप इसे डाउनलोड कर सकते हैं। [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: सुनिश्चित करें कि आपके पास उपयुक्त विकास परिवेश स्थापित है, जैसे कि विजुअल स्टूडियो।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी समझ लाभदायक होगी।
 
@@ -40,17 +42,17 @@ using Aspose.Words.Tables;
 
 ## चरण 1: अपना दस्तावेज़ सेट करना
 
- सबसे पहले, हमें एक नया वर्ड डॉक्यूमेंट बनाना होगा और उसे इनिशियलाइज़ करना होगा।`DocumentBuilder`:
+सबसे पहले, हमें एक नया वर्ड डॉक्यूमेंट बनाना होगा और उसे इनिशियलाइज़ करना होगा। `DocumentBuilder`:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यह कोड स्निपेट एक नया दस्तावेज़ सेट करता है और तैयार करता है`DocumentBuilder` कार्रवाई के लिए.
+यह कोड स्निपेट एक नया दस्तावेज़ सेट करता है और तैयार करता है `DocumentBuilder` कार्रवाई के लिए.
 
 ## चरण 2: पहला सेल सम्मिलित करना
 
@@ -62,7 +64,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- यहाँ, हम एक नया सेल डालते हैं और उसका मान सेट करते हैं`HorizontalMerge`संपत्ति को`CellMerge.First`, यह दर्शाता है कि यह सेल मर्ज किए गए सेल अनुक्रम की शुरुआत है।
+यहाँ, हम एक नया सेल डालते हैं और उसका मान सेट करते हैं `HorizontalMerge` संपत्ति को `CellMerge.First`, यह दर्शाता है कि यह सेल मर्ज किए गए सेल अनुक्रम की शुरुआत है।
 
 ## चरण 3: मर्ज किए गए सेल को सम्मिलित करना
 
@@ -74,7 +76,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 ```
 
- इस सेल को पिछले सेल के साथ मर्ज करने के लिए सेट किया गया है`CellMerge.Previous` ध्यान दें कि हमने पंक्ति को किस प्रकार समाप्त किया है`builder.EndRow()`.
+इस सेल को पिछले सेल के साथ मर्ज करने के लिए सेट किया गया है `CellMerge.Previous`ध्यान दें कि हमने पंक्ति को किस प्रकार समाप्त किया है `builder.EndRow()`.
 
 ## चरण 4: अविलयित कोशिकाओं को सम्मिलित करना
 
@@ -112,19 +114,24 @@ doc.Save(dataDir + "WorkingWithTables.HorizontalMerge.docx");
 Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को .NET अनुप्रयोगों में प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संपादित करने और हेरफेर करने की अनुमति देती है।
 
 ### क्या मैं .NET के लिए Aspose.Words के साथ कोशिकाओं को लंबवत रूप से मर्ज कर सकता हूं?
- हां, आप इसका उपयोग करके कोशिकाओं को लंबवत रूप से मर्ज भी कर सकते हैं`CellFormat.VerticalMerge` संपत्ति।
+हां, आप इसका उपयोग करके कोशिकाओं को लंबवत रूप से मर्ज भी कर सकते हैं `CellFormat.VerticalMerge` संपत्ति।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words के बारे में अधिक कैसे जान सकता हूं?
- आप विस्तृत दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- किसी भी प्रश्न या समस्या के लिए, आप Aspose सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+किसी भी प्रश्न या समस्या के लिए, आप Aspose सहायता फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

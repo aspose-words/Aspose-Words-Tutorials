@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/move-to-headers-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move To Headers Footers In Word Document
@@ -125,9 +128,13 @@ You can use tables, images, and various formatting options provided by Aspose.Wo
 Check out the [documentation](https://reference.aspose.com/words/net/) and the [support forum](https://forum.aspose.com/c/words/8) for more examples and community support.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

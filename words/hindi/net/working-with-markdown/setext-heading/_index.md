@@ -1,14 +1,16 @@
 ---
-title: सेटेक्स्ट शीर्षक
-linktitle: सेटेक्स्ट शीर्षक
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ Word दस्तावेज़ निर्माण और स्वरूपण को स्वचालित करने के लिए .NET के लिए Aspose.Words का उपयोग करना सीखें।
-weight: 10
-url: /hi/net/working-with-markdown/setext-heading/
+"description": "इस व्यापक, चरण-दर-चरण ट्यूटोरियल के साथ Word दस्तावेज़ निर्माण और स्वरूपण को स्वचालित करने के लिए .NET के लिए Aspose.Words का उपयोग करना सीखें।"
+"linktitle": "सेटेक्स्ट शीर्षक"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सेटेक्स्ट शीर्षक"
+"url": "/hi/net/working-with-markdown/setext-heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सेटेक्स्ट शीर्षक
@@ -23,7 +25,7 @@ url: /hi/net/working-with-markdown/setext-heading/
 
 1. विकास वातावरण: विजुअल स्टूडियो (या कोई अन्य पसंदीदा IDE).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क 4.0 या उच्चतर संस्करण स्थापित है।
-3.  .NET के लिए Aspose.Words: आप कर सकते हैं[नवीनतम संस्करण डाउनलोड करें](https://releases.aspose.com/words/net/) या प्राप्त करें[मुफ्त परीक्षण](https://releases.aspose.com/).
+3. .NET के लिए Aspose.Words: आप कर सकते हैं [नवीनतम संस्करण डाउनलोड करें](https://releases.aspose.com/words/net/) या प्राप्त करें [मुफ्त परीक्षण](https://releases.aspose.com/).
 4. C# का बुनियादी ज्ञान: C# सिंटैक्स और बुनियादी प्रोग्रामिंग अवधारणाओं से परिचित होना उपयोगी होगा।
 
 एक बार जब आप ये सब ठीक कर देंगे, तो हम आगे बढ़ेंगे!
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: दस्तावेज़ बिल्डर बनाना
 
- इसके बाद, हम इसका एक उदाहरण बनाएंगे`DocumentBuilder` यह क्लास हमें अपने वर्ड दस्तावेज़ में सामग्री जोड़ने में मदद करती है।
+इसके बाद, हम इसका एक उदाहरण बनाएंगे `DocumentBuilder` यह क्लास हमें अपने वर्ड दस्तावेज़ में सामग्री जोड़ने में मदद करती है।
 
 ```csharp
 // दस्तावेज़ में सामग्री जोड़ने के लिए दस्तावेज़ बिल्डर का उपयोग करें.
@@ -70,7 +72,7 @@ builder.Writeln("This is an H1 tag");
 अपना शीर्षक जोड़ने के बाद, हमें शैलियों को रीसेट करना होगा ताकि यह सुनिश्चित हो सके कि वे अगले पैराग्राफ में न चले जाएं।
 
 ```csharp
-//पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
+// पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -100,7 +102,7 @@ builder.Writeln("This is an H3 tag");
 पहले की तरह, हमें किसी भी अवांछित स्वरूपण से बचने के लिए शैलियों को रीसेट करना होगा।
 
 ```csharp
-//पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
+// पैराग्राफों के बीच शैलियों को संयोजित न करने के लिए पिछले पैराग्राफ से शैलियों को रीसेट करें।
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -138,19 +140,24 @@ builder.Document.Save(dataDir + "Test.md");
 Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को C# या VB.NET का उपयोग करके प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप नवीनतम संस्करण को यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/) या प्राप्त करें[मुफ्त परीक्षण](https://releases.aspose.com/).
+आप नवीनतम संस्करण को यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/) या प्राप्त करें [मुफ्त परीक्षण](https://releases.aspose.com/).
 
 ### क्या मैं .NET कोर के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूं?
 हां, .NET के लिए Aspose.Words .NET कोर का समर्थन करता है, जिससे आप इसे क्रॉस-प्लेटफॉर्म अनुप्रयोगों में उपयोग कर सकते हैं।
 
 ### क्या .NET के लिए Aspose.Words का कोई निःशुल्क संस्करण उपलब्ध है?
- Aspose एक प्रदान करता है[मुफ्त परीक्षण](https://releases.aspose.com/) जिसका उपयोग आप लाइसेंस खरीदने से पहले लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं।
+Aspose एक प्रदान करता है [मुफ्त परीक्षण](https://releases.aspose.com/) जिसका उपयोग आप लाइसेंस खरीदने से पहले लाइब्रेरी का मूल्यांकन करने के लिए कर सकते हैं।
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- आप Aspose समुदाय से उनके यहां सहायता प्राप्त कर सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से उनके यहां सहायता प्राप्त कर सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

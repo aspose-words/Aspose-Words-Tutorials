@@ -1,20 +1,22 @@
 ---
-title: Osadzanie obiektów OLE i kontrolek ActiveX w dokumentach programu Word
-linktitle: Osadzanie obiektów OLE i kontrolek ActiveX w dokumentach programu Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak osadzać obiekty OLE i kontrolki ActiveX w dokumentach Worda za pomocą Aspose.Words dla Pythona. Twórz interaktywne i dynamiczne dokumenty bezproblemowo.
-weight: 21
-url: /pl/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "Dowiedz się, jak osadzać obiekty OLE i kontrolki ActiveX w dokumentach Worda za pomocą Aspose.Words dla Pythona. Twórz interaktywne i dynamiczne dokumenty bezproblemowo."
+"linktitle": "Osadzanie obiektów OLE i kontrolek ActiveX w dokumentach programu Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Osadzanie obiektów OLE i kontrolek ActiveX w dokumentach programu Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Osadzanie obiektów OLE i kontrolek ActiveX w dokumentach programu Word
 
 
-dzisiejszej erze cyfrowej tworzenie bogatych i interaktywnych dokumentów jest kluczowe dla skutecznej komunikacji. Aspose.Words for Python zapewnia potężny zestaw narzędzi, który umożliwia osadzanie obiektów OLE (Object Linking and Embedding) i kontrolek ActiveX bezpośrednio w dokumentach Word. Ta funkcja otwiera świat możliwości, umożliwiając tworzenie dokumentów ze zintegrowanymi arkuszami kalkulacyjnymi, wykresami, multimediami i nie tylko. W tym samouczku przeprowadzimy Cię przez proces osadzania obiektów OLE i kontrolek ActiveX przy użyciu Aspose.Words for Python.
+W dzisiejszej erze cyfrowej tworzenie bogatych i interaktywnych dokumentów jest kluczowe dla skutecznej komunikacji. Aspose.Words for Python zapewnia potężny zestaw narzędzi, który umożliwia osadzanie obiektów OLE (Object Linking and Embedding) i kontrolek ActiveX bezpośrednio w dokumentach Word. Ta funkcja otwiera świat możliwości, umożliwiając tworzenie dokumentów ze zintegrowanymi arkuszami kalkulacyjnymi, wykresami, multimediami i nie tylko. W tym samouczku przeprowadzimy Cię przez proces osadzania obiektów OLE i kontrolek ActiveX przy użyciu Aspose.Words for Python.
 
 
 ## Pierwsze kroki z Aspose.Words dla Pythona
@@ -48,7 +50,7 @@ Teraz możesz wstawić obiekt OLE do swojego dokumentu. Na przykład osadźmy ar
 ```python
 builder = aw.DocumentBuilder(doc)
 
-builder.insert_ole_object("http://www.aspose.com", "htmlfile", Prawda, Prawda, Brak)
+builder.insert_ole_object("http://www.aspose.com", "htmlfile", True, True, None)
 
 doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx")
 ```
@@ -76,9 +78,14 @@ Jeśli kontrolka ActiveX nie działa, może to być spowodowane ustawieniami zab
 ## Wniosek
 
 Włączanie obiektów OLE i kontrolek ActiveX za pomocą Aspose.Words dla Pythona otwiera świat możliwości tworzenia dynamicznych i interaktywnych dokumentów Word. Niezależnie od tego, czy chcesz osadzać arkusze kalkulacyjne, multimedia czy interaktywne formularze, ta funkcja umożliwia skuteczną komunikację Twoich pomysłów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

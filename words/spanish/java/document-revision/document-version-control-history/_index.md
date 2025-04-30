@@ -1,38 +1,40 @@
 ---
-title: Control de versiones y historial de documentos
-linktitle: Control de versiones y historial de documentos
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a controlar de manera eficiente las versiones de documentos con Aspose.Words para Java. Gestione cambios, colabore sin problemas y realice un seguimiento de las revisiones sin esfuerzo.
-weight: 13
-url: /es/java/document-revision/document-version-control-history/
+"description": "Aprenda a controlar eficientemente las versiones de documentos con Aspose.Words para Java. Gestione cambios, colabore fluidamente y realice un seguimiento de las revisiones sin esfuerzo."
+"linktitle": "Control de versiones e historial de documentos"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Control de versiones e historial de documentos"
+"url": "/es/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Control de versiones y historial de documentos
+# Control de versiones e historial de documentos
 
 
 ## Introducción
 
-Un control eficaz de las versiones de los documentos garantiza que todas las partes interesadas trabajen con la información más reciente y precisa. Aspose.Words para Java es una biblioteca versátil que permite a los desarrolladores crear, editar y gestionar documentos con facilidad. Veamos paso a paso el proceso de implementación del control de versiones y el historial de documentos.
+Un control eficaz de versiones de documentos garantiza que todos los involucrados trabajen con la información más reciente y precisa. Aspose.Words para Java es una biblioteca versátil que permite a los desarrolladores crear, editar y gestionar documentos fácilmente. Analicemos paso a paso el proceso de implementación del control de versiones y el historial de documentos.
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
-- Entorno de desarrollo Java
+- Entorno de desarrollo de Java
 - Biblioteca Aspose.Words para Java
 - Un documento de muestra para trabajar
 
 ## Paso 1: Importar la biblioteca Aspose.Words
 
-Comience por importar la biblioteca Aspose.Words para Java a su proyecto. Puede agregarla como una dependencia en el archivo de compilación de su proyecto o descargar el archivo JAR del sitio web de Aspose.
+Empieza importando la biblioteca Aspose.Words para Java a tu proyecto. Puedes añadirla como dependencia en el archivo de compilación de tu proyecto o descargar el archivo JAR del sitio web de Aspose.
 
-## Paso 2: Cargue el documento
+## Paso 2: Cargar el documento
 
-Para implementar el control de versiones, cargue el documento con el que desea trabajar mediante Aspose.Words. A continuación, se incluye un fragmento de código para comenzar:
+Para implementar el control de versiones, cargue el documento con el que desea trabajar usando Aspose.Words. Aquí tiene un fragmento de código para empezar:
 
 ```java
 // Cargar el documento
@@ -41,7 +43,7 @@ Document doc = new Document("sample.docx");
 
 ## Paso 3: Seguimiento de cambios
 
-Aspose.Words le permite habilitar el seguimiento de cambios en el documento, que registrará todas las modificaciones realizadas por diferentes usuarios. Utilice el siguiente código para habilitar el seguimiento de cambios:
+Aspose.Words permite activar el seguimiento de cambios en el documento, lo que registrará todas las modificaciones realizadas por los diferentes usuarios. Utilice el siguiente código para activar el seguimiento de cambios:
 
 ```java
 // Habilitar seguimiento de cambios
@@ -50,7 +52,7 @@ doc.startTrackRevisions();
 
 ## Paso 4: Realizar cambios en el documento
 
-Ahora, puedes realizar cambios en el documento según sea necesario. Aspose.Words hará un seguimiento de estos cambios.
+Ahora puede realizar cambios en el documento según sea necesario. Aspose.Words registrará estos cambios.
 
 ```java
 // Realizar cambios en el documento
@@ -60,10 +62,10 @@ builder.writeln("Updated content goes here.");
 
 ## Paso 5: Aceptar o rechazar los cambios
 
-Después de realizar los cambios, puede revisarlos y aceptarlos o rechazarlos. Este paso garantiza que solo las modificaciones aprobadas se incluyan en el documento final.
+Después de realizar cambios, puede revisarlos y aceptarlos o rechazarlos. Este paso garantiza que solo las modificaciones aprobadas se incluyan en el documento final.
 
 ```java
-// Aceptar o rechazar cambios
+// Aceptar o rechazar los cambios
 doc.acceptAllRevisions();
 ```
 
@@ -72,13 +74,13 @@ doc.acceptAllRevisions();
 Guarde el documento con un nuevo número de versión o marca de tiempo para mantener un historial de cambios.
 
 ```java
-// Guarde el documento con un nuevo número de versión
+// Guardar el documento con un nuevo número de versión
 doc.save("sample_v2.docx");
 ```
 
 ## Conclusión
 
-Implementar el control de versiones de documentos y el historial con Aspose.Words para Java es sencillo y muy eficaz. Garantiza que sus documentos estén siempre actualizados y que pueda realizar un seguimiento de todos los cambios realizados por los colaboradores. Comience a utilizar Aspose.Words para Java hoy mismo para optimizar su proceso de gestión de documentos.
+Implementar el control de versiones y el historial de documentos con Aspose.Words para Java es sencillo y muy eficaz. Garantiza que tus documentos estén siempre actualizados y que puedas realizar un seguimiento de todos los cambios realizados por tus colaboradores. Empieza a usar Aspose.Words para Java hoy mismo para optimizar tu proceso de gestión documental.
 
 ## Preguntas frecuentes
 
@@ -100,10 +102,15 @@ Por supuesto, Aspose.Words para Java se puede integrar fácilmente con otras bib
 
 ### ¿Dónde puedo encontrar más recursos y documentación?
 
- Puede acceder a documentación completa y recursos adicionales para Aspose.Words para Java en[aquí](https://reference.aspose.com/words/java/).
+Puede acceder a documentación completa y recursos adicionales para Aspose.Words para Java en [aquí](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gunakan Folder Temp Dalam Dokumen Word
-linktitle: Gunakan Folder Temp Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara meningkatkan kinerja aplikasi .NET Anda dengan menggunakan folder sementara saat memuat dokumen Word dengan Aspose.Words.
-weight: 10
-url: /id/net/programming-with-loadoptions/use-temp-folder/
+"description": "Pelajari cara meningkatkan kinerja aplikasi .NET Anda dengan menggunakan folder sementara saat memuat dokumen Word dengan Aspose.Words."
+"linktitle": "Gunakan Folder Temp Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gunakan Folder Temp Dalam Dokumen Word"
+"url": "/id/net/programming-with-loadoptions/use-temp-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Folder Temp Dalam Dokumen Word
@@ -21,7 +23,7 @@ Pernahkah Anda berhadapan dengan dokumen Word berukuran besar yang tidak dapat d
 
 Sebelum masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda familier dengan pemrograman C#.
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { TempFolder = dataDir };
 ```
 
- Di Sini,`LoadOptions` digunakan untuk menentukan folder sementara. Ganti`"YOUR DOCUMENTS DIRECTORY"`dengan jalur ke direktori Anda.
+Di Sini, `LoadOptions` digunakan untuk menentukan folder sementara. Ganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur ke direktori Anda.
 
 ## Langkah 3: Memuat Dokumen
 
@@ -62,7 +64,7 @@ Setelah opsi muat dikonfigurasi, langkah berikutnya adalah memuat dokumen Anda m
 Document doc = new Document(dataDir + "Document.docx", loadOptions);
 ```
 
- Pada baris kode ini, kita memuat dokumen bernama`Document.docx` dari direktori yang ditentukan.`loadOptions` parameter memastikan bahwa fitur folder temp digunakan.
+Pada baris kode ini, kita memuat dokumen bernama `Document.docx` dari direktori yang ditentukan. `loadOptions` parameter memastikan bahwa fitur folder temp digunakan.
 
 ## Kesimpulan
 
@@ -74,7 +76,7 @@ Nah, itu dia! Dengan menggunakan folder sementara saat memuat dokumen Word, Anda
 Menggunakan folder temp membantu dalam mengelola penggunaan memori secara lebih efisien, terutama saat bekerja dengan dokumen besar.
 
 ### Bagaimana cara menentukan folder temp di proyek saya?
-Anda dapat menentukan folder temp dengan mengonfigurasi`LoadOptions` kelas dengan`TempFolder` properti diatur ke direktori yang Anda inginkan.
+Anda dapat menentukan folder temp dengan mengonfigurasi `LoadOptions` kelas dengan `TempFolder` properti diatur ke direktori yang Anda inginkan.
 
 ### Bisakah saya menggunakan direktori mana saja sebagai folder temp?
 Ya, Anda dapat menggunakan direktori mana pun tempat aplikasi Anda memiliki akses tulis.
@@ -83,10 +85,15 @@ Ya, Anda dapat menggunakan direktori mana pun tempat aplikasi Anda memiliki akse
 Ya, ini dapat meningkatkan kinerja secara signifikan dengan memindahkan sebagian penggunaan memori ke disk.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/words/net/) untuk rincian dan contoh lebih lanjut.
+Anda dapat merujuk ke [dokumentasi](https://reference.aspose.com/words/net/) untuk rincian dan contoh lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlloadoptions/preferred-control-type/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Preferred Control Type In Word Document
@@ -119,9 +122,13 @@ You can find detailed documentation and examples on the [Aspose.Words for .NET d
 Yes, you can download a free trial from the [Aspose website](https://releases.aspose.com/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

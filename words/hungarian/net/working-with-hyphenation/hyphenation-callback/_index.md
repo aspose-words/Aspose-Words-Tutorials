@@ -1,36 +1,38 @@
 ---
-title: Elválasztás visszahívás
-linktitle: Elválasztás visszahívás
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan valósíthat meg elválasztási visszahívást az Aspose.Words for .NET-ben a dokumentumok formázásának javítása érdekében ezzel az átfogó, lépésről lépésre szóló útmutatóval.
-weight: 10
-url: /hu/net/working-with-hyphenation/hyphenation-callback/
+"description": "Tanuld meg, hogyan valósítsd meg az elválasztási visszahívást az Aspose.Words for .NET-ben a dokumentumok formázásának javítása érdekében ezzel az átfogó, lépésről lépésre haladó útmutatóval."
+"linktitle": "Elválasztó visszahívás"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Elválasztó visszahívás"
+"url": "/hu/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Elválasztás visszahívás
+# Elválasztó visszahívás
 
 
 ## Bevezetés
 
-Szia! Volt már olyan, hogy belegabalyodott a szövegformázás bonyolultságába, különösen, ha olyan nyelvekkel foglalkozik, amelyek elválasztást igényelnek? Nem vagy egyedül. Az elválasztás, bár kulcsfontosságú a megfelelő szövegelrendezéshez, egy kis fejfájást okozhat. De mit gondol? Az Aspose.Words for .NET hátat kapott. Ez a hatékony könyvtár lehetővé teszi a szöveg formázásának zökkenőmentes kezelését, beleértve az elválasztás kezelését visszahívási mechanizmuson keresztül. Érdekelt? Nézzük meg, hogyan valósíthat meg elválasztási visszahívást az Aspose.Words for .NET használatával.
+Sziasztok! Elkeseredtetek már a szövegformázás bonyolultságában, különösen, ha olyan nyelvekkel dolgoztok, amelyek elválasztást igényelnek? Nem vagy egyedül. Az elválasztás, bár elengedhetetlen a megfelelő szövegelrendezéshez, kissé fejfájást okozhat. De tudjátok mit? Az Aspose.Words for .NET a segítségedre lesz. Ez a hatékony függvénykönyvtár lehetővé teszi a szövegformázás zökkenőmentes kezelését, beleértve az elválasztást egy visszahívási mechanizmuson keresztül. Kíváncsiak vagytok? Nézzük meg részletesebben, hogyan valósíthattok meg elválasztási visszahívást az Aspose.Words for .NET segítségével.
 
 ## Előfeltételek
 
-Mielőtt bepiszkítanánk a kódot, győződjünk meg arról, hogy mindennel megvan, amire szüksége van:
+Mielőtt belekezdenénk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1. Aspose.Words for .NET: Győződjön meg arról, hogy rendelkezik a könyvtárral. Megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. IDE: Olyan fejlesztői környezet, mint a Visual Studio.
-3. C# alapismeretek: C# és .NET keretrendszer ismerete.
-4. Elválasztási szótárak: Elválasztási szótárak a használni kívánt nyelvekhez.
-5.  Aspose licenc: Érvényes Aspose licenc. Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha nincs ilyened.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy rendelkezik a könyvtárral. Tudja [töltsd le itt](https://releases.aspose.com/words/net/).
+2. IDE: Egy fejlesztői környezet, mint például a Visual Studio.
+3. C# alapismeretek: A C# és a .NET keretrendszer ismerete.
+4. Elválasztó szótárak: Elválasztó szótárak a használni kívánt nyelvekhez.
+5. Aspose licenc: Érvényes Aspose licenc. Szerezhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha nincs ilyened.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket. Ez biztosítja, hogy kódunk hozzáférjen az Aspose.Words összes osztályához és metódusához, amire szükségünk van.
+Először is importáljuk a szükséges névtereket. Ez biztosítja, hogy a kódunk hozzáférjen az Aspose.Words összes szükséges osztályához és metódusához.
 
 ```csharp
 using Aspose.Words;
@@ -40,12 +42,12 @@ using System.IO;
 
 ## 1. lépés: Regisztrálja az elválasztási visszahívást
 
-A kezdéshez regisztrálnunk kell az elválasztási visszahívásunkat. Itt mondjuk meg az Aspose.Words-nek, hogy használja az egyéni elválasztási logikánkat.
+Kezdésként regisztrálnunk kell az elválasztási visszahívásunkat. Itt utasítjuk az Aspose.Words-t, hogy használja az egyéni elválasztási logikánkat.
 
 ```csharp
 try
 {
-    // Regisztráljon elválasztási visszahívást.
+    // Regiszter elválasztási visszahívása.
     Hyphenation.Callback = new CustomHyphenationCallback();
 }
 catch (Exception e)
@@ -54,41 +56,41 @@ catch (Exception e)
 }
 ```
 
- Itt létrehozzuk az egyéni visszahívásunk példányát, és hozzárendeljük`Hyphenation.Callback`.
+Itt létrehozunk egy példányt az egyéni visszahívásunkból, és hozzárendeljük a következőhöz: `Hyphenation.Callback`.
 
-## 2. lépés: Határozza meg a dokumentum elérési útját
+## 2. lépés: A dokumentum elérési útjának meghatározása
 
-Ezután meg kell határoznunk a könyvtárat, ahol a dokumentumainkat tároljuk. Ez kulcsfontosságú, mivel ezen az úton fogunk betölteni és elmenteni dokumentumokat.
+Ezután meg kell határoznunk azt a könyvtárat, ahová a dokumentumainkat tároljuk. Ez kulcsfontosságú, mivel erről az elérési útról fogjuk betölteni és menteni a dokumentumokat.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a dokumentumok tényleges elérési útjával.
+Csere `"YOUR DOCUMENT DIRECTORY"` a dokumentumok tényleges elérési útjával.
 
-## 3. lépés: Töltse be a dokumentumot
+## 3. lépés: A dokumentum betöltése
 
-Most töltsük be az elválasztást igénylő dokumentumot.
+Most töltsük be a kötőjelezést igénylő dokumentumot.
 
 ```csharp
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Itt egy német szöveges dokumentumot töltünk be. Cserélheted`"German text.docx"` a dokumentum fájlnevével.
+Itt egy német szöveges dokumentumot töltünk be. Lecserélheti `"German text.docx"` dokumentum fájlnevével.
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
-A dokumentum betöltése után elmentjük egy új fájlba, és közben alkalmazzuk az elválasztási visszahívást.
+A dokumentum betöltése után új fájlba mentjük, a folyamat során alkalmazva az elválasztási visszahívást.
 
 ```csharp
 document.Save(dataDir + "TreatmentByCesureWithRecall.pdf");
 ```
 
-Ez a sor PDF-ként menti a dokumentumot elválasztással.
+Ez a sor PDF formátumban menti el a dokumentumot elválasztással.
 
-## 5. lépés: Kezelje a hiányzó elválasztási szótár kivételét
+## 5. lépés: Hiányzó elválasztási szótár kivétel kezelése
 
-Néha olyan problémába ütközhet, hogy hiányzik az elválasztási szótár. Intézzük ezt.
+Előfordulhat, hogy hiányzik a kötőjelszótár. Nézzük ezt meg.
 
 ```csharp
 catch (Exception e) when (e.Message.StartsWith("Missing hyphenation dictionary"))
@@ -101,11 +103,11 @@ finally
 }
 ```
 
-Ebben a blokkban felfogjuk a hiányzó szótárak kivételét, és kinyomtatjuk az üzenetet.
+Ebben a blokkban a hiányzó szótárakkal kapcsolatos specifikus kivételt fogjuk el, és kinyomtatjuk az üzenetet.
 
-## 6. lépés: Valósítsa meg az Egyéni elválasztási visszahívási osztályt
+## 6. lépés: Az egyéni elválasztási visszahívási osztály megvalósítása
 
- Most pedig hajtsuk végre a`CustomHyphenationCallback` osztály, amely kezeli az elválasztási szótárak kérését.
+Most pedig implementáljuk a `CustomHyphenationCallback` osztály, amely a kötőszótárak iránti kérelmeket kezeli.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -125,37 +127,42 @@ public class CustomHyphenationCallback : IHyphenationCallback
             default:
                 throw new Exception($"Missing hyphenation dictionary for {language}.");
         }
-        // Regisztráljon szótárt a kívánt nyelvhez.
+        // Regisztrálja a szótárat a kért nyelvhez.
         Hyphenation.RegisterDictionary(language, dictionaryFullFileName);
     }
 }
 ```
 
- Ebben az osztályban a`RequestDictionary` metódus hívódik meg, amikor elválasztási szótárra van szükség. Ellenőrzi a nyelvet és regisztrálja a megfelelő szótárt.
+Ebben az osztályban a `RequestDictionary` A metódust minden alkalommal meghívjuk, amikor elválasztási szótárra van szükség. Ellenőrzi a nyelvet, és regisztrálja a megfelelő szótárat.
 
 ## Következtetés
 
-És megvan! Most tanulta meg, hogyan valósítson meg elválasztási visszahívást az Aspose.Words for .NET-ben. Az alábbi lépések követésével biztosíthatja, hogy a dokumentumok gyönyörűen formázva legyenek, nyelvtől függetlenül. Legyen szó angolról, németről vagy bármilyen más nyelvről, ezzel a módszerrel könnyedén kezelheti az elválasztást.
+És íme! Most megtanultad, hogyan implementálhatsz elválasztási visszahívást az Aspose.Words for .NET-ben. A következő lépéseket követve biztosíthatod, hogy dokumentumaid szépen formázottak legyenek, a nyelvtől függetlenül. Akár angolul, németül vagy bármilyen más nyelven dolgozol, ez a módszer lehetővé teszi az elválasztások egyszerű kezelését.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony dokumentummanipulációs könyvtár, amely lehetővé teszi a fejlesztők számára a dokumentumok programozott létrehozását, módosítását és konvertálását.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony dokumentumkezelő könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és konvertáljanak dokumentumokat.
 
-### Miért fontos az elválasztás a dokumentum formázásánál?
-Az elválasztás javítja a szöveg elrendezését azáltal, hogy a megfelelő helyeken töri a szavakat, így olvashatóbb és látványosabb dokumentumot biztosít.
+### Miért fontos a kötőjel használata a dokumentum formázásában?
+A kötőjelek használata javítja a szöveg elrendezését azáltal, hogy a szavakat a megfelelő helyeken töri el, így biztosítva az olvashatóbb és vizuálisan vonzóbb dokumentumot.
 
-### Használhatom ingyenesen az Aspose.Words-t?
- Az Aspose.Words ingyenes próbaverziót kínál. Megkaphatod[itt](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Words-öt?
+Az Aspose.Words ingyenes próbaverziót kínál. Letöltheted. [itt](https://releases.aspose.com/).
 
-### Hogyan juthatok el kötőjeles szótárhoz?
-Elválasztási szótárakat letölthet különféle online forrásokból, vagy szükség esetén létrehozhat saját szótárakat.
+### Hogyan jutok hozzá egy kötőjelezési szótárhoz?
+A kötőjeles szótárakat különböző online forrásokból töltheti le, vagy szükség esetén létrehozhat sajátokat.
 
 ### Mi történik, ha hiányzik egy elválasztási szótár?
- Ha hiányzik egy szótár, a`RequestDictionary`metódus kivételt dob, amelyet kezelve tájékoztathatja a felhasználót, vagy tartalékot adhat.
+Ha hiányzik egy szótár, akkor a `RequestDictionary` A metódus kivételt dob, amelynek kezelésével tájékoztathatod a felhasználót, vagy tartalék megoldást biztosíthatsz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

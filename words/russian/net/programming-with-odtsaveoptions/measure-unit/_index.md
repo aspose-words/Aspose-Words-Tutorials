@@ -1,14 +1,16 @@
 ---
-title: Единица измерения
-linktitle: Единица измерения
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить функцию единиц измерения в Aspose.Words для .NET, чтобы сохранить форматирование документа во время преобразования ODT.
-weight: 10
-url: /ru/net/programming-with-odtsaveoptions/measure-unit/
+"description": "Узнайте, как настроить функцию единиц измерения в Aspose.Words для .NET, чтобы сохранить форматирование документа во время преобразования ODT."
+"linktitle": "Единица измерения"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Единица измерения"
+"url": "/ru/net/programming-with-odtsaveoptions/measure-unit/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Единица измерения
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-odtsaveoptions/measure-unit/
 
 Прежде чем погрузиться в код, вам понадобится сделать несколько вещей:
 
-1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если у вас ее еще нет, вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если у вас ее еще нет, вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: IDE, например Visual Studio, для написания и выполнения кода C#.
 3. Базовые знания C#: понимание основ C# поможет вам усвоить материал урока.
 4. Документ Word: подготовьте образец документа Word, который вы сможете использовать для преобразования.
@@ -44,11 +46,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашему каталогу. Это гарантирует, что ваш код знает, где найти ваш документ Word.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` с фактическим путем к вашему каталогу. Это гарантирует, что ваш код знает, где найти ваш документ Word.
 
 ## Шаг 2: Загрузите документ Word
 
- Далее вам нужно загрузить документ Word, который вы хотите преобразовать. Это делается с помощью`Document` класс из Aspose.Words.
+Далее вам нужно загрузить документ Word, который вы хотите преобразовать. Это делается с помощью `Document` класс из Aspose.Words.
 
 ```csharp
 // Загрузите документ Word
@@ -59,18 +61,18 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Шаг 3: Настройте единицу измерения
 
- Теперь давайте настроим единицу измерения для преобразования ODT. Вот где происходит волшебство. Мы настроим`OdtSaveOptions` использовать дюймы в качестве единицы измерения.
+Теперь давайте настроим единицу измерения для преобразования ODT. Вот где происходит волшебство. Мы настроим `OdtSaveOptions` использовать дюймы в качестве единицы измерения.
 
 ```csharp
 // Настройка параметров резервного копирования с помощью функции «Единица измерения»
 OdtSaveOptions saveOptions = new OdtSaveOptions { MeasureUnit = OdtSaveMeasureUnit.Inches };
 ```
 
- В этом примере мы устанавливаем единицу измерения на дюймы. Вы также можете выбрать другие единицы, такие как`OdtSaveMeasureUnit.Centimeters` или`OdtSaveMeasureUnit.Points` в зависимости от Ваших требований.
+В этом примере мы устанавливаем единицу измерения на дюймы. Вы также можете выбрать другие единицы, такие как `OdtSaveMeasureUnit.Centimeters` или `OdtSaveMeasureUnit.Points` в зависимости от Ваших требований.
 
 ## Шаг 4: Преобразование документа в ODT
 
- Наконец, мы преобразуем документ Word в формат ODT, используя настроенный`OdtSaveOptions`.
+Наконец, мы преобразуем документ Word в формат ODT, используя настроенный `OdtSaveOptions`.
 
 ```csharp
 // Конвертировать документ в ODT
@@ -89,20 +91,25 @@ doc.Save(dataDir + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она позволяет разработчикам создавать, изменять, конвертировать и обрабатывать документы Word без необходимости использования Microsoft Word.
 
 ### Могу ли я использовать другие единицы измерения, помимо дюймов?
- Да, Aspose.Words for .NET поддерживает другие единицы измерения, такие как сантиметры и точки. Вы можете указать нужную единицу, используя`OdtSaveMeasureUnit` перечисление.
+Да, Aspose.Words for .NET поддерживает другие единицы измерения, такие как сантиметры и точки. Вы можете указать нужную единицу, используя `OdtSaveMeasureUnit` перечисление.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти документацию по Aspose.Words для .NET?
- Вы можете получить доступ к полной документации по Aspose.Words для .NET по адресу[эта ссылка](https://reference.aspose.com/words/net/).
+Вы можете получить доступ к полной документации по Aspose.Words для .NET по адресу [эта ссылка](https://reference.aspose.com/words/net/).
 
 ### Как я могу получить поддержку по Aspose.Words для .NET?
- Для получения поддержки вы можете посетить форум Aspose.Words по адресу[эта ссылка](https://forum.aspose.com/c/words/8).
+Для получения поддержки вы можете посетить форум Aspose.Words по адресу [эта ссылка](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

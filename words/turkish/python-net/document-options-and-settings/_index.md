@@ -1,14 +1,16 @@
 ---
-title: Belge Seçenekleri ve Ayarları
-linktitle: Belge Seçenekleri ve Ayarları
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python ve .NET'te belge seçenekleri ve ayarları hakkında Aspose.Words eğitimlerini keşfedin. Adım adım rehberlik ve kaynak kodu örneklerini kullanarak belge oluşturma ve biçimlendirmeyi optimize etmeyi öğrenin.
-weight: 14
-url: /tr/python-net/document-options-and-settings/
+"description": "Python ve .NET'te belge seçenekleri ve ayarları hakkında Aspose.Words eğitimlerini keşfedin. Adım adım rehberlik ve kaynak kodu örneklerini kullanarak belge oluşturma ve biçimlendirmeyi optimize etmeyi öğrenin."
+"linktitle": "Belge Seçenekleri ve Ayarları"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Belge Seçenekleri ve Ayarları"
+"url": "/tr/python-net/document-options-and-settings/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Seçenekleri ve Ayarları
@@ -47,9 +49,13 @@ Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şeki
 Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Web Uzantıları ile Belge İşlevselliğini Genişletme](./document-functionality-web-extensions/)
 Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişleteceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

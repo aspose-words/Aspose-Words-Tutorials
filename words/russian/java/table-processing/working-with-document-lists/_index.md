@@ -1,14 +1,16 @@
 ---
-title: Работа со списками документов
-linktitle: Работа со списками документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как работать со списками документов в Java с помощью Aspose.Words для Java. Это пошаговое руководство включает примеры исходного кода для эффективной обработки документов.
-weight: 11
-url: /ru/java/table-processing/working-with-document-lists/
+"description": "Узнайте, как работать со списками документов в Java с помощью Aspose.Words для Java. Это пошаговое руководство включает примеры исходного кода для эффективной обработки документов."
+"linktitle": "Работа со списками документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Работа со списками документов"
+"url": "/ru/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Работа со списками документов
@@ -105,7 +107,7 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 ## Часто задаваемые вопросы
 
 ### Как добавить маркеры в список документов?
- Чтобы добавить маркеры в список документов, используйте соответствующий ListTemplate при создании списка. Например, используйте`ListTemplate.BULLET_DEFAULT` вместо`ListTemplate.NUMBER_DEFAULT`.
+Чтобы добавить маркеры в список документов, используйте соответствующий ListTemplate при создании списка. Например, используйте `ListTemplate.BULLET_DEFAULT` вместо `ListTemplate.NUMBER_DEFAULT`.
 
 ### Могу ли я изменить форматирование элементов списка?
 Да, вы можете настраивать форматирование элементов списка, включая шрифт, размер, цвет и многое другое, используя функции форматирования Aspose.Words для Java.
@@ -118,9 +120,14 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 
 ### Поддерживает ли Aspose.Words для Java работу с таблицами в документах?
 Да, Aspose.Words для Java обеспечивает расширенную поддержку работы с таблицами, позволяя вам без труда создавать, изменять и извлекать табличные данные.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

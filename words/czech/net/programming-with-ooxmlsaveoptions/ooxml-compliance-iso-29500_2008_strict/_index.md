@@ -1,33 +1,35 @@
 ---
-title: Soulad s Ooxml ISO 29500_2008_Strict
-linktitle: Soulad s Ooxml ISO 29500_2008_Strict
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zjistěte, jak zajistit shodu s OOXML ISO 29500_2008_Strict pomocí Aspose.Words for .NET pomocí tohoto podrobného průvodce.
-weight: 10
-url: /cs/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/
+"description": "Naučte se, jak zajistit soulad OOXML s normou ISO 29500_2008_Strict pomocí Aspose.Words pro .NET v tomto podrobném návodu."
+"linktitle": "Shoda s Ooxml dle normy ISO 29500_2008_Strict"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Shoda s Ooxml dle normy ISO 29500_2008_Strict"
+"url": "/cs/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Soulad s Ooxml ISO 29500_2008_Strict
+# Shoda s Ooxml dle normy ISO 29500_2008_Strict
 
 ## Zavedení
 
-Jste připraveni ponořit se do světa shody dokumentů s OOXML ISO 29500_2008_Strict? Pojďme si projít tento komplexní návod pomocí Aspose.Words pro .NET. Každý krok rozebereme, aby bylo velmi snadné jej sledovat a implementovat. Tak se připoutejte a můžeme začít!
+Jste připraveni ponořit se do světa dokumentů splňujících normu OOXML ISO 29500_2008_Strict? Pojďme se s vámi projít tímto komplexním tutoriálem s využitím Aspose.Words pro .NET. Rozebereme si jednotlivé kroky, aby bylo snadné je sledovat a implementovat. Takže se připoutejte a pojďme na to!
 
 ## Předpoklady
 
-Než se vrhneme na to, co potřebujete, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do detailů, ujistěme se, že máte vše potřebné:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou aplikaci Aspose.Words for .NET. Pokud ne, stáhněte si ji[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Nastavte své vývojové prostředí (např. Visual Studio).
-3. Adresář dokumentů: Připravte si adresář, kde jsou uloženy vaše dokumenty aplikace Word.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovaný Aspose.Words pro .NET. Pokud ne, stáhněte si ho. [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Nastavte si vývojové prostředí (např. Visual Studio).
+3. Adresář dokumentů: Mějte připravený adresář, kde jsou uloženy vaše dokumenty Wordu.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To zajistí, že budeme mít přístup ke všem funkcím Aspose.Words, které potřebujeme.
+Nejdříve si importujme potřebné jmenné prostory. Tím zajistíme přístup ke všem funkcím Aspose.Words, které potřebujeme.
 
 ```csharp
 using System;
@@ -35,18 +37,18 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na stravitelné kroky, abychom zajistili přehlednost a snadnou implementaci.
+Rozdělme si proces na srozumitelné kroky, abychom zajistili jasnost a snadnou implementaci.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Než začneme s dokumentem pracovat, musíme nastavit cestu k adresáři vašeho dokumentu.
+Než začneme s dokumentem pracovat, musíme nastavit cestu k adresáři s dokumenty.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vysvětlení: Tento řádek kódu nastavuje řetězcovou proměnnou`dataDir` který obsahuje cestu k adresáři, kde jsou uloženy vaše dokumenty. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ve vašem systému.
+Vysvětlení: Tento řádek kódu nastavuje řetězcovou proměnnou `dataDir` , který obsahuje cestu k adresáři, kde jsou uloženy vaše dokumenty. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ve vašem systému.
 
 ## Krok 2: Načtěte dokument aplikace Word
 
@@ -56,62 +58,67 @@ Dále načteme dokument aplikace Word, se kterým chcete pracovat.
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Vysvětlení: The`Document` třída z Aspose.Words se používá k načtení dokumentu aplikace Word. Cesta dokumentu je vytvořena zřetězením`dataDir` s názvem dokumentu`"Document.docx"`. Ujistěte se, že dokument existuje v zadaném adresáři.
+Vysvětlení: `Document` Třída z Aspose.Words se používá k načtení dokumentu Word. Cesta k dokumentu se vytvoří zřetězením `dataDir` s názvem dokumentu `"Document.docx"`Ujistěte se, že dokument existuje v zadaném adresáři.
 
-## Krok 3: Optimalizujte dokument pro Word 2016
+## Krok 3: Optimalizace dokumentu pro Word 2016
 
-Aby byla zajištěna kompatibilita a optimální výkon, musíme optimalizovat dokument pro konkrétní verzi aplikace Word.
+Abychom zajistili kompatibilitu a optimální výkon, musíme dokument optimalizovat pro konkrétní verzi Wordu.
 
 ```csharp
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 ```
 
- Vysvětlení: Tento řádek volá`OptimizeFor` metoda na`CompatibilityOptions` vlastnictvím`doc` objekt, upřesňující`MsWordVersion.Word2016` k optimalizaci dokumentu pro Microsoft Word 2016.
+Vysvětlení: Tento řádek volá `OptimizeFor` metoda na `CompatibilityOptions` majetek `doc` objekt, specifikace `MsWordVersion.Word2016` optimalizovat dokument pro Microsoft Word 2016.
 
-## Krok 4: Nastavte soulad OOXML na ISO 29500_2008_Strict
+## Krok 4: Nastavení shody OOXML na ISO 29500_2008_Strict
 
-Nyní nastavíme úroveň shody OOXML na ISO 29500_2008_Strict.
+Nyní nastavme úroveň shody s OOXML na ISO 29500_2008_Strict.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 ```
 
- Vysvětlení: Vytvoříme instanci`OoxmlSaveOptions` a nastavte jej`Compliance`majetek do`OoxmlCompliance.Iso29500_2008_Strict`Tím zajistíte, že dokument bude uložen podle norem ISO 29500_2008_Strict.
+Vysvětlení: Vytvoříme instanci `OoxmlSaveOptions` a nastavit jeho `Compliance` majetek `OoxmlCompliance.Iso29500_2008_Strict`Tím je zajištěno, že dokument bude uložen v souladu s normami ISO 29500_2008_Strict.
 
 ## Krok 5: Uložte dokument
 
-Nakonec uložíme dokument s novým nastavením souladu.
+Nakonec uložme dokument s novým nastavením dodržování předpisů.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx", saveOptions);
 ```
 
- Vysvětlení: The`Save` metoda je volána na`doc` objekt pro uložení dokumentu. Cesta obsahuje adresář a nový název souboru`"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"` a používá`saveOptions` jsme nakonfigurovali dříve.
+Vysvětlení: `Save` metoda je volána na `doc` objekt pro uložení dokumentu. Cesta obsahuje adresář a nový název souboru `"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"`a používá `saveOptions` nakonfigurovali jsme to dříve.
 
 ## Závěr
 
-Tady to máš! Úspěšně jste nakonfigurovali dokument aplikace Word tak, aby vyhovoval normě OOXML ISO 29500_2008_Strict pomocí Aspose.Words for .NET. Tento průvodce vás provede nastavením adresáře dokumentů, načtením dokumentu, optimalizací pro Word 2016, nastavením úrovně souladu a uložením dokumentu. Nyní jste připraveni zajistit, aby vaše dokumenty snadno splňovaly nejvyšší standardy shody.
+máte to! Úspěšně jste nakonfigurovali dokument Wordu tak, aby splňoval normu OOXML ISO 29500_2008_Strict, pomocí nástroje Aspose.Words pro .NET. Tato příručka vás provede nastavením adresáře dokumentů, načtením dokumentu, optimalizací pro Word 2016, nastavením úrovně shody a uložením dokumentu. Nyní jste připraveni snadno zajistit, aby vaše dokumenty splňovaly nejvyšší standardy shody.
 
-## FAQ
+## Často kladené otázky
 
 ### Proč je dodržování OOXML důležité?
-Soulad s OOXML zajišťuje, že vaše dokumenty jsou kompatibilní s různými verzemi aplikace Microsoft Word, což zlepšuje dostupnost a konzistenci.
+Soulad s OOXML zajišťuje kompatibilitu vašich dokumentů s různými verzemi aplikace Microsoft Word, což zlepšuje přístupnost a konzistenci.
 
-### Mohu tuto metodu použít pro jiné úrovně souladu?
-Ano, můžete nastavit různé úrovně souladu změnou`OoxmlCompliance` majetek v`OoxmlSaveOptions`.
+### Mohu tuto metodu použít i pro jiné úrovně shody?
+Ano, můžete nastavit různé úrovně shody změnou `OoxmlCompliance` nemovitost v `OoxmlSaveOptions`.
 
-### Co se stane, když je cesta dokumentu nesprávná?
- Pokud je cesta dokumentu nesprávná,`Document` konstruktor vyvolá a`FileNotFoundException`. Ujistěte se, že cesta je správná.
+### Co se stane, když je cesta k dokumentu nesprávná?
+Pokud je cesta k dokumentu nesprávná, `Document` konstruktor vyvolá `FileNotFoundException`Ujistěte se, že je cesta správná.
 
-### Potřebuji optimalizovat pro Word 2016?
-I když to není povinné, optimalizace pro konkrétní verzi aplikace Word může zlepšit kompatibilitu a výkon.
+### Musím optimalizovat pro Word 2016?
+když to není povinné, optimalizace pro konkrétní verzi Wordu může zlepšit kompatibilitu a výkon.
 
-### Kde najdu další zdroje na Aspose.Words pro .NET?
- Můžete najít další zdroje a dokumentaci[zde](https://reference.aspose.com/words/net/).
+### Kde najdu další zdroje o Aspose.Words pro .NET?
+Další zdroje a dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

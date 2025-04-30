@@ -1,14 +1,16 @@
 ---
-title: Ekler Olmadan İkame Edin
-linktitle: Ekler Olmadan İkame Edin
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te son ekler olmadan font değişimini nasıl yöneteceğinizi öğrenin. Belgelerinizin her seferinde mükemmel görünmesini sağlamak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fonts/get-substitution-without-suffixes/
+"description": "Aspose.Words for .NET'te son ekler olmadan font değişimini nasıl yöneteceğinizi öğrenin. Belgelerinizin her seferinde mükemmel görünmesini sağlamak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Ekler Olmadan İkame Edin"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ekler Olmadan İkame Edin"
+"url": "/tr/net/working-with-fonts/get-substitution-without-suffixes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekler Olmadan İkame Edin
@@ -22,9 +24,9 @@ Aspose.Words for .NET kullanarak font değiştirmeyi yönetmeye yönelik bu kaps
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Temel C# Bilgisi: C# programlamayı anlamak adımları takip etmeyi ve uygulamayı kolaylaştıracaktır.
--  Aspose.Words for .NET Kütüphanesi: Kütüphaneyi şu adresten indirin ve yükleyin:[indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Kütüphaneyi şu adresten indirin ve yükleyin: [indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir geliştirme ortamı kurun.
--  Örnek Belge: Örnek bir belge (örneğin,`Rendering.docx`) bu eğitim sırasında çalışılacak.
+- Örnek Belge: Örnek bir belge (örneğin, `Rendering.docx`) bu eğitim sırasında çalışılacak.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: İkame Uyarı İşleyicisini Ayarlayın
 
-Sonra, belge işleme sırasında bir font değişimi gerçekleştiğinde bizi bilgilendirecek bir uyarı işleyicisi ayarlamamız gerekiyor. Bu, herhangi bir font sorununu yakalamak ve ele almak için çok önemlidir.
+Sonra, belge işleme sırasında bir font değişimi gerçekleştiğinde bizi bilgilendirecek bir uyarı işleyicisi ayarlamamız gerekiyor. Bu, font sorunlarını yakalamak ve ele almak için çok önemlidir.
 
 ```csharp
 DocumentSubstitutionWarnings substitutionWarningHandler = new DocumentSubstitutionWarnings();
@@ -70,7 +72,7 @@ FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 ```
 
 Bu kodda:
--  Mevcut yazı tipi kaynaklarını alıyoruz ve yeni bir tane ekliyoruz`FolderFontSource` özel yazı tipi dizinimize işaret ediyor (`C:\\MyFonts\\`).
+- Mevcut yazı tipi kaynaklarını alıyoruz ve yeni bir tane ekliyoruz `FolderFontSource` özel yazı tipi dizinimize işaret ediyor (`C:\\MyFonts\\`).
 - Daha sonra font kaynaklarını bu yeni listeye göre güncelliyoruz.
 
 ## Adım 4: Belgeyi Kaydedin
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.GetSubstitutionWithoutSuffixes.pdf");
 
 ## Adım 5: Uyarı İşleyici Sınıfını Oluşturun
 
- Uyarıları etkili bir şekilde işlemek için, aşağıdakileri uygulayan özel bir sınıf oluşturun:`IWarningCallback` arayüz. Bu sınıf, herhangi bir yazı tipi değiştirme uyarısını yakalayacak ve günlüğe kaydedecektir.
+Uyarıları etkili bir şekilde işlemek için, aşağıdakileri uygulayan özel bir sınıf oluşturun: `IWarningCallback` arayüz. Bu sınıf, herhangi bir yazı tipi değiştirme uyarısını yakalayacak ve günlüğe kaydedecektir.
 
 ```csharp
 public class DocumentSubstitutionWarnings : IWarningCallback
@@ -99,8 +101,8 @@ public class DocumentSubstitutionWarnings : IWarningCallback
 ```
 
 Bu sınıfta:
--  The`Warning`yöntem, yazı tipi değiştirmeyle ilgili uyarıları yakalar.
--  The`FontWarnings` koleksiyon bu uyarıları daha sonra incelenmek veya kaydedilmek üzere depolar.
+- The `Warning` yöntem, yazı tipi değiştirmeyle ilgili uyarıları yakalar.
+- The `FontWarnings` koleksiyon bu uyarıları daha sonra incelenmek veya kaydedilmek üzere depolar.
 
 ## Çözüm
 
@@ -110,26 +112,31 @@ Artık Aspose.Words for .NET kullanarak eksiz font değiştirme işlemini yönet
 
 ### Birden fazla özel dizindeki yazı tiplerini nasıl kullanabilirim?
 
- Birden fazla ekleyebilirsiniz`FolderFontSource` örneklere`fontSources` yazı tipi kaynaklarını listeleyin ve buna göre güncelleyin.
+Birden fazla ekleyebilirsiniz `FolderFontSource` örneklere `fontSources` yazı tipi kaynaklarını listeleyin ve buna göre güncelleyin.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nereden indirebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
 
-###  Birden fazla uyarı türünü kullanarak işleyebilir miyim?`IWarningCallback`?
+### Birden fazla uyarı türünü kullanarak işleyebilir miyim? `IWarningCallback`?
 
- Evet,`IWarningCallback` arayüzü sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de yönetmenize olanak tanır.
+Evet, `IWarningCallback` arayüzü sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de yönetmenize olanak tanır.
 
 ### Aspose.Words için desteği nereden alabilirim?
 
- Destek için şu adresi ziyaret edin:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek için şu adresi ziyaret edin: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
 
 ### Geçici lisans satın almak mümkün müdür?
 
- Evet, geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

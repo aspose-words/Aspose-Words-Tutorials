@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/tables-and-formatting/document-table-styles-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Table Styles and Formatting using Aspose.Words Python
@@ -205,9 +208,13 @@ You can export your tables to different formats like PDF or DOCX using the `save
 For comprehensive documentation and references, visit [Aspose.Words for Python API References](https://reference.aspose.com/words/python-net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

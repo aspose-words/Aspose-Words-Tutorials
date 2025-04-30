@@ -1,14 +1,16 @@
 ---
-title: Drukowanie i renderowanie dokumentów
-linktitle: Drukowanie i renderowanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla Java. Ucz się krok po kroku z przykładami kodu źródłowego.
-weight: 13
-url: /pl/java/document-rendering/document-printing-rendering/
+"description": "Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla Java. Ucz się krok po kroku z przykładami kodu źródłowego."
+"linktitle": "Drukowanie i renderowanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Drukowanie i renderowanie dokumentów"
+"url": "/pl/java/document-rendering/document-printing-rendering/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drukowanie i renderowanie dokumentów
@@ -20,7 +22,7 @@ Aspose.Words for Java to bogata w funkcje biblioteka, która umożliwia programi
 
 ## Konfigurowanie środowiska programistycznego
 
- Zanim zaczniemy, skonfigurujmy nasze środowisko programistyczne. Upewnij się, że masz zainstalowaną Javę w swoim systemie. Możesz pobrać Aspose.Words dla Javy ze strony internetowej[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniemy, skonfigurujmy nasze środowisko programistyczne. Upewnij się, że masz zainstalowaną Javę w swoim systemie. Możesz pobrać Aspose.Words dla Javy ze strony internetowej [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Tworzenie i ładowanie dokumentów
 
@@ -47,7 +49,7 @@ Drukowanie dokumentu za pomocą Aspose.Words for Java jest proste. Oto podstawow
 doc.print("printerName");
 ```
 
- Można określić nazwę drukarki jako argument`print`Metoda ta wyśle dokument do określonej drukarki w celu wydrukowania.
+Można określić nazwę drukarki jako argument `print` Metoda ta wyśle dokument do określonej drukarki w celu wydrukowania.
 
 ## Renderowanie dokumentów
 
@@ -58,7 +60,7 @@ Renderowanie dokumentów jest niezbędne, gdy trzeba je przekonwertować do ró�
 doc.save("output.pdf");
 ```
 
- Możesz zastąpić`SaveFormat.PDF` z żądanym formatem renderowania.
+Możesz zastąpić `SaveFormat.PDF` z żądanym formatem renderowania.
 
 ## Dostosowywanie drukowania i renderowania
 
@@ -76,15 +78,15 @@ Aspose.Words for Java to potężne narzędzie do drukowania i renderowania dokum
 
 ### Jak ustawić marginesy strony w Aspose.Words dla Java?
 
- Aby ustawić marginesy strony, użyj`PageSetup` Klasa i jej właściwości, takie jak`setLeftMargin`, `setRightMargin`, `setTopMargin` , I`setBottomMargin`.
+Aby ustawić marginesy strony, użyj `PageSetup` Klasa i jej właściwości, takie jak `setLeftMargin`, `setRightMargin`, `setTopMargin`, I `setBottomMargin`.
 
 ### Czy mogę wydrukować wiele kopii dokumentu?
 
- Tak, możesz wydrukować wiele kopii, podając liczbę kopii podczas rozmowy telefonicznej.`print` metoda.
+Tak, możesz wydrukować wiele kopii, podając liczbę kopii podczas rozmowy telefonicznej. `print` metoda.
 
 ### Jak mogę przekonwertować dokument na obraz?
 
- Aby przekonwertować dokument na obraz, możesz użyć`save` metoda z`SaveFormat.PNG` lub inne formaty obrazów.
+Aby przekonwertować dokument na obraz, możesz użyć `save` metoda z `SaveFormat.PNG` lub inne formaty obrazów.
 
 ### Czy Aspose.Words dla Java nadaje się do przetwarzania dokumentów na dużą skalę?
 
@@ -92,10 +94,15 @@ Tak, Aspose.Words for Java jest przeznaczony do przetwarzania dokumentów zarów
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 
- Więcej przykładów i szczegółową dokumentację znajdziesz na stronie[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+Więcej przykładów i szczegółową dokumentację znajdziesz na stronie [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

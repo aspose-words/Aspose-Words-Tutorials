@@ -1,27 +1,29 @@
 ---
-title: Memisahkan Dokumen Word Berdasarkan Rentang Halaman
-linktitle: Memisahkan Dokumen Word Berdasarkan Rentang Halaman
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membagi dokumen Word berdasarkan rentang halaman menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/split-document/by-page-range/
+"description": "Pelajari cara membagi dokumen Word berdasarkan rentang halaman menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang."
+"linktitle": "Memisahkan Dokumen Word Berdasarkan Rentang Halaman"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Memisahkan Dokumen Word Berdasarkan Rentang Halaman"
+"url": "/id/net/split-document/by-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memisahkan Dokumen Word Berdasarkan Rentang Halaman
 
 ## Perkenalan
 
-Pernahkah Anda merasa hanya perlu beberapa halaman dari dokumen Word yang tebal? Mungkin Anda perlu berbagi bagian tertentu dengan kolega atau mengekstrak bab untuk laporan. Apa pun masalahnya, membagi dokumen Word menurut rentang halaman dapat menjadi penyelamat. Dengan Aspose.Words untuk .NET, tugas ini menjadi mudah. Dalam panduan ini, kami akan memandu Anda tentang cara membagi dokumen Word menurut rentang halaman tertentu menggunakan Aspose.Words untuk .NET. Baik Anda pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan memudahkan Anda mencapai tujuan.
+Pernahkah Anda merasa hanya perlu beberapa halaman dari dokumen Word yang tebal? Mungkin Anda perlu berbagi bagian tertentu dengan rekan kerja atau mengekstrak bab untuk laporan. Apa pun masalahnya, membagi dokumen Word menurut rentang halaman dapat menjadi penyelamat. Dengan Aspose.Words untuk .NET, tugas ini menjadi mudah. Dalam panduan ini, kami akan memandu Anda tentang cara membagi dokumen Word menurut rentang halaman tertentu menggunakan Aspose.Words untuk .NET. Baik Anda pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan memudahkan Anda mencapai tujuan.
 
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang sesuai seperti Visual Studio.
 3. Pengetahuan Dasar C#: Meskipun kami akan memandu Anda melalui setiap langkah, pemahaman dasar tentang C# akan sangat membantu.
 
@@ -48,7 +50,7 @@ Untuk menggunakan Aspose.Words, Anda perlu menambahkannya ke proyek Anda. Anda d
 
 ## Langkah 3: Muat Dokumen Anda
 
- Sekarang, mari kita muat dokumen yang ingin Anda bagi. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda:
+Sekarang, mari kita muat dokumen yang ingin Anda bagi. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -97,9 +99,14 @@ Ya, tetapi Anda perlu melakukan beberapa operasi ekstraksi untuk setiap halaman 
 
 Tentu saja! Aspose.Words untuk .NET mendukung berbagai format termasuk DOC, PDF, HTML, dan banyak lagi.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

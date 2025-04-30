@@ -1,14 +1,16 @@
 ---
-title: Вставить объект Ole в документ Word
-linktitle: Вставить объект Ole в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять объекты OLE в документы Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы с помощью встроенного контента.
-weight: 10
-url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object/
+"description": "Узнайте, как вставлять объекты OLE в документы Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшите свои документы с помощью встроенного контента."
+"linktitle": "Вставить объект Ole в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить объект Ole в документ Word"
+"url": "/ru/net/working-with-oleobjects-and-activex/insert-ole-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить объект Ole в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1. Библиотека Aspose.Words для .NET: загрузите ее с[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words для .NET: загрузите ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки .NET.
 3. Базовые знания C#: предполагается знакомство с программированием на C#.
 
@@ -47,13 +49,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте объект OLE
 
- Далее вы будете использовать`DocumentBuilder`класс для вставки объекта OLE. Здесь мы используем HTML-файл, расположенный по адресу "http://www.aspose.com", в качестве примера.
+Далее вы будете использовать `DocumentBuilder` класс для вставки объекта OLE. Здесь мы используем HTML-файл, расположенный по адресу "http://www.aspose.com", в качестве примера.
 
 ```csharp
 builder.InsertOleObject("http://www.aspose.com", "htmlfile", правда, правда, null);
 ```
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Наконец, сохраните документ по указанному пути. Убедитесь, что путь правильный и доступный.
 
@@ -71,19 +73,24 @@ doc.Save("Path_to_your_directory/WorkingWithOleObjectsAndActiveX.InsertOleObject
 Вы можете вставлять различные типы объектов OLE, включая файлы HTML, электронные таблицы Excel, презентации PowerPoint и другой контент, совместимый с OLE.
 
 ### Можно ли отобразить OLE-объект в виде значка вместо его фактического содержимого?
- Да, вы можете выбрать отображение объекта OLE в виде значка, установив`asIcon` параметр для`true`.
+Да, вы можете выбрать отображение объекта OLE в виде значка, установив `asIcon` параметр для `true`.
 
 ### Можно ли связать объект OLE с его исходным файлом?
- Да, установив`isLinked` параметр для`true`, вы можете связать объект OLE с его исходным файлом.
+Да, установив `isLinked` параметр для `true`, вы можете связать объект OLE с его исходным файлом.
 
 ### Как настроить значок, используемый для объекта OLE?
- Вы можете предоставить пользовательский значок, указав`Image` объект как`image` параметр в`InsertOleObject` метод.
+Вы можете предоставить пользовательский значок, указав `Image` объект как `image` параметр в `InsertOleObject` метод.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти на[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти на [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

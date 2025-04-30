@@ -1,14 +1,16 @@
 ---
-title: Kontrola zawartości typu pola wyboru
-linktitle: Kontrola zawartości typu pola wyboru
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodać kontrolkę zawartości typu pole wyboru w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-sdt/check-box-type-content-control/
+"description": "Dowiedz się, jak dodać kontrolkę zawartości typu pole wyboru w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku."
+"linktitle": "Kontrola zawartości typu pola wyboru"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Kontrola zawartości typu pola wyboru"
+"url": "/pl/net/programming-with-sdt/check-box-type-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrola zawartości typu pola wyboru
@@ -21,8 +23,8 @@ Witamy w najlepszym przewodniku, jak wstawić kontrolkę zawartości pola wyboru
 
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE języka C# zainstalowane na Twoim komputerze.
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C# zainstalowane na Twoim komputerze.
 3. Podstawowa znajomość języka C#: Aby uczestniczyć w tym samouczku, wymagana jest znajomość programowania w języku C#.
 4. Katalog dokumentów: Katalog, w którym będziesz zapisywać dokumenty Word.
 
@@ -39,7 +41,7 @@ Aby lepiej zrozumieć proces wstawiania kontrolki zawartości pola wyboru, podzi
 
 ## Krok 1: Skonfiguruj swój projekt
 
-Pierwszym krokiem jest skonfigurowanie środowiska projektu. Otwórz program Visual Studio i utwórz nową aplikację konsoli C#. Nazwij ją w sposób opisowy, np. „AsposeWordsCheckBoxTutorial”.
+Pierwszym krokiem jest skonfigurowanie środowiska projektu. Otwórz program Visual Studio i utwórz nową aplikację konsolową C#. Nazwij ją w sposób opisowy, np. „AsposeWordsCheckBoxTutorial”.
 
 ## Krok 2: Dodaj odniesienie Aspose.Words
 
@@ -61,18 +63,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym fragmencie kodu tworzymy nowy`Document` obiekt i`DocumentBuilder` obiekt, który pomoże nam manipulować dokumentem.
+W tym fragmencie kodu tworzymy nowy `Document` obiekt i `DocumentBuilder` obiekt, który pomoże nam manipulować dokumentem.
 
 ## Krok 4: Utwórz Kontrolę zawartości typu pola wyboru
 
-Sercem naszego samouczka jest stworzenie kontrolki zawartości typu pola wyboru. Użyjemy`StructuredDocumentTag` klasę w tym celu.
+Sercem naszego samouczka jest stworzenie kontrolki zawartości typu pola wyboru. Użyjemy `StructuredDocumentTag` klasę w tym celu.
 
 ```csharp
 StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 builder.InsertNode(sdtCheckBox);
 ```
 
- Tutaj tworzymy nowy`StructuredDocumentTag` obiekt z typem`Checkbox` i wstaw go do dokumentu za pomocą`DocumentBuilder`.
+Tutaj tworzymy nowy `StructuredDocumentTag` obiekt z typem `Checkbox` i wstaw go do dokumentu za pomocą `DocumentBuilder`.
 
 ## Krok 5: Zapisz dokument
 
@@ -86,9 +88,9 @@ Ten wiersz zapisuje dokument z nowo dodanym polem wyboru w określonym katalogu.
 
 ## Wniosek
 
-I masz! Udało Ci się dodać kontrolkę zawartości Check Box Type do dokumentu Word przy użyciu Aspose.Words dla .NET. Ta funkcja może być niezwykle przydatna do tworzenia interaktywnych i przyjaznych dla użytkownika dokumentów. Niezależnie od tego, czy tworzysz formularze, ankiety czy jakikolwiek dokument wymagający danych od użytkownika, pola wyboru są świetnym sposobem na zwiększenie użyteczności.
+masz! Udało Ci się dodać kontrolkę zawartości Check Box Type do dokumentu Word przy użyciu Aspose.Words dla .NET. Ta funkcja może być niezwykle przydatna do tworzenia interaktywnych i przyjaznych dla użytkownika dokumentów. Niezależnie od tego, czy tworzysz formularze, ankiety czy jakikolwiek dokument wymagający danych od użytkownika, pola wyboru są świetnym sposobem na zwiększenie użyteczności.
 
- Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, możesz zapoznać się z [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub odwiedź [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
 
 ## Najczęściej zadawane pytania
 
@@ -96,20 +98,25 @@ I masz! Udało Ci się dodać kontrolkę zawartości Check Box Type do dokumentu
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów Word.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać go ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 
 ### Czy mogę dodać inne typy kontrolek treści za pomocą Aspose.Words?
 Tak, Aspose.Words obsługuje różne typy kontrolek treści, w tym kontrolki tekstu, daty i pola kombi.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) po pomoc.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) po pomoc.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

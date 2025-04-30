@@ -1,14 +1,16 @@
 ---
-title: Phát hiện chữ ký số trên tài liệu Word
-linktitle: Phát hiện chữ ký số trên tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách phát hiện chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-fileformat/detect-document-signatures/
+"description": "Tìm hiểu cách phát hiện chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Phát hiện chữ ký số trên tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Phát hiện chữ ký số trên tài liệu Word"
+"url": "/vi/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phát hiện chữ ký số trên tài liệu Word
@@ -21,7 +23,7 @@ url: /vi/net/programming-with-fileformat/detect-document-signatures/
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những điều sau:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
 - Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
@@ -41,7 +43,7 @@ Trước khi có thể bắt đầu phát hiện chữ ký số, chúng ta cần
 
 ### 1.1 Tạo một dự án mới
 
- Mở Visual Studio và tạo một dự án Console App (.NET Core) mới. Đặt tên cho nó`DigitalSignatureDetector`.
+Mở Visual Studio và tạo một dự án Console App (.NET Core) mới. Đặt tên cho nó `DigitalSignatureDetector`.
 
 ### 1.2 Cài đặt Aspose.Words cho .NET
 
@@ -60,7 +62,7 @@ Bây giờ, chúng ta cần xác định đường dẫn đến thư mục lưu 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 3: Phát hiện định dạng tệp
 
@@ -70,7 +72,7 @@ Tiếp theo, chúng ta cần kiểm tra định dạng tệp của tài liệu �
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- Dòng mã này kiểm tra định dạng tệp của tài liệu có tên`Digitally signed.docx`.
+Dòng mã này kiểm tra định dạng tệp của tài liệu có tên `Digitally signed.docx`.
 
 ## Bước 4: Kiểm tra chữ ký số
 
@@ -97,23 +99,28 @@ Không, Aspose.Words for .NET không lưu giữ chữ ký số khi mở hoặc l
 
 ### Có cách nào để phát hiện nhiều chữ ký số trên một tài liệu không?
 
- Vâng,`HasDigitalSignature` Thuộc tính có thể chỉ ra sự hiện diện của một hoặc nhiều chữ ký số trên tài liệu.
+Vâng, `HasDigitalSignature` Thuộc tính có thể chỉ ra sự hiện diện của một hoặc nhiều chữ ký số trên tài liệu.
 
 ### Làm thế nào để tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
 
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện tại[Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện tại [Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET không?
 
- Có, bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+Có, bạn có thể nhận được sự hỗ trợ từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เค้าโครงในเซลล์
-linktitle: เค้าโครงในเซลล์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการตั้งค่าเค้าโครงในเซลล์โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับแต่งเอกสาร Word
-weight: 10
-url: /th/net/programming-with-shapes/layout-in-cell/
+"description": "เรียนรู้วิธีการตั้งค่าเค้าโครงในเซลล์โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับแต่งเอกสาร Word"
+"linktitle": "เค้าโครงในเซลล์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เค้าโครงในเซลล์"
+"url": "/th/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เค้าโครงในเซลล์
@@ -21,10 +23,10 @@ url: /th/net/programming-with-shapes/layout-in-cell/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณจะต้องมีสภาพแวดล้อมการพัฒนาที่ตั้งค่าด้วย .NET Visual Studio เป็นตัวเลือกที่ดีหากคุณกำลังมองหาคำแนะนำ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าฉันจะอธิบายแต่ละขั้นตอน แต่ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณทำตามได้ง่ายขึ้น
-4.  ไดเรกทอรีเอกสาร: เตรียมเส้นทางไดเรกทอรีที่คุณจะบันทึกเอกสารของคุณ เราจะเรียกสิ่งนี้ว่า`YOUR DOCUMENT DIRECTORY`.
+4. ไดเรกทอรีเอกสาร: เตรียมเส้นทางไดเรกทอรีที่คุณจะบันทึกเอกสารของคุณ เราจะเรียกสิ่งนี้ว่า `YOUR DOCUMENT DIRECTORY`-
 
 ## นำเข้าเนมสเปซ
 
@@ -42,7 +44,7 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: สร้างเอกสารใหม่
 
- ขั้นแรกเราจะสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน`DocumentBuilder` วัตถุที่จะช่วยเราสร้างเนื้อหาของเรา
+ขั้นแรกเราจะสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน `DocumentBuilder` วัตถุที่จะช่วยเราสร้างเนื้อหาของเรา
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## ขั้นตอนที่ 4: เพิ่มรูปทรงลายน้ำ
 
- ตอนนี้เรามาเพิ่มลายน้ำลงในเอกสารของเรากัน เราจะสร้าง`Shape` วัตถุและกำหนดคุณสมบัติของมัน
+ตอนนี้เรามาเพิ่มลายน้ำลงในเอกสารของเรากัน เราจะสร้าง `Shape` วัตถุและกำหนดคุณสมบัติของมัน
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -138,22 +140,27 @@ doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้แบบอักษรอื่นสำหรับข้อความลายน้ำได้ไหม
- ใช่ คุณสามารถเปลี่ยนแบบอักษรได้โดยการตั้งค่า`watermark.TextPath.FontFamily` คุณสมบัติของแบบอักษรที่คุณต้องการ
+ใช่ คุณสามารถเปลี่ยนแบบอักษรได้โดยการตั้งค่า `watermark.TextPath.FontFamily` คุณสมบัติของแบบอักษรที่คุณต้องการ
 
 ### ฉันจะปรับตำแหน่งลายน้ำได้อย่างไร?
- คุณสามารถปรับเปลี่ยนได้`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , และ`VerticalAlignment` คุณสมบัติในการปรับตำแหน่งลายน้ำ
+คุณสามารถปรับเปลี่ยนได้ `RelativeHorizontalPosition`- `RelativeVerticalPosition`- `HorizontalAlignment`, และ `VerticalAlignment` คุณสมบัติในการปรับตำแหน่งลายน้ำ
 
 ### เป็นไปได้ไหมที่จะใช้รูปภาพแทนข้อความสำหรับลายน้ำ?
- แน่นอน! คุณสามารถสร้าง`Shape` ด้วยประเภท`ShapeType.Image` และตั้งค่าภาพโดยใช้`ImageData.SetImage` วิธี.
+แน่นอน! คุณสามารถสร้าง `Shape` ด้วยประเภท `ShapeType.Image` และตั้งค่าภาพโดยใช้ `ImageData.SetImage` วิธี.
 
 ### ฉันสามารถสร้างตารางที่มีความสูงของแถวแตกต่างกันได้หรือไม่
-ใช่ คุณสามารถตั้งค่าความสูงที่แตกต่างกันสำหรับแต่ละแถวได้โดยการเปลี่ยนแปลง`RowFormat.Height` คุณสมบัติก่อนที่จะแทรกเซลล์ลงในแถวนั้น
+ใช่ คุณสามารถตั้งค่าความสูงที่แตกต่างกันสำหรับแต่ละแถวได้โดยการเปลี่ยนแปลง `RowFormat.Height` คุณสมบัติก่อนที่จะแทรกเซลล์ลงในแถวนั้น
 
 ### ฉันจะลบลายน้ำออกจากเอกสารได้อย่างไร?
- คุณสามารถลบลายน้ำได้โดยค้นหาในคอลเล็กชันรูปร่างของเอกสารและเรียกใช้`Remove` วิธี.
+คุณสามารถลบลายน้ำได้โดยค้นหาในคอลเล็กชันรูปร่างของเอกสารและเรียกใช้ `Remove` วิธี.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Загрузить зашифрованный документ Word
-linktitle: Загрузить зашифрованный документ в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как загружать и сохранять зашифрованные документы Word с помощью Aspose.Words for .NET. Легко защитите свои документы новыми паролями. Пошаговое руководство включено.
-weight: 10
-url: /ru/net/programming-with-loadoptions/load-encrypted-document/
+"description": "Узнайте, как загружать и сохранять зашифрованные документы Word с помощью Aspose.Words for .NET. Легко защитите свои документы новыми паролями. Пошаговое руководство включено."
+"linktitle": "Загрузить зашифрованный документ в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Загрузить зашифрованный документ Word"
+"url": "/ru/net/programming-with-loadoptions/load-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Загрузить зашифрованный документ Word
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-loadoptions/load-encrypted-document/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Установлена библиотека Aspose.Words for .NET. Скачать ее можно здесь[здесь](https://downloads.aspose.com/words/net).
-2.  Действующая лицензия Aspose. Вы можете получить бесплатную пробную версию или купить ее у[здесь](https://purchase.aspose.com/buy).
+1. Установлена библиотека Aspose.Words for .NET. Скачать ее можно здесь [здесь](https://downloads.aspose.com/words/net).
+2. Действующая лицензия Aspose. Вы можете получить бесплатную пробную версию или купить ее у [здесь](https://purchase.aspose.com/buy).
 3. Visual Studio или любая другая среда разработки .NET.
 
 ## Импорт пространств имен
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Загрузите зашифрованный документ
 
- Сначала вы загрузите зашифрованный документ с помощью`LoadOptions` класс. Этот класс позволяет указать пароль, необходимый для открытия документа.
+Сначала вы загрузите зашифрованный документ с помощью `LoadOptions` класс. Этот класс позволяет указать пароль, необходимый для открытия документа.
 
 ```csharp
 // Путь к каталогу ваших документов
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "Encrypted.docx", new LoadOptions("passwor
 
 ## Шаг 2: Сохраните документ с новым паролем.
 
- Далее вы сохраните загруженный документ как файл ODT, на этот раз установив новый пароль с помощью`OdtSaveOptions` сорт.
+Далее вы сохраните загруженный документ как файл ODT, на этот раз установив новый пароль с помощью `OdtSaveOptions` сорт.
 
 ```csharp
 // Сохраните зашифрованный документ с новым паролем
@@ -77,9 +79,14 @@ doc.Save(dataDir + "WorkingWithLoadOptions.LoadAndSaveEncryptedOdt.odt", new Odt
 ### Существует ли ограничение на размер документа, который можно зашифровать?
 Нет, Aspose.Words может обрабатывать документы любого размера в зависимости от ограничений памяти вашей системы.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

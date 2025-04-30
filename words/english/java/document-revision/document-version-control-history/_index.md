@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-revision/document-version-control-history/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Version Control and History
@@ -102,9 +105,13 @@ Absolutely, Aspose.Words for Java can be easily integrated with other Java libra
 
 You can access comprehensive documentation and additional resources for Aspose.Words for Java at [here](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

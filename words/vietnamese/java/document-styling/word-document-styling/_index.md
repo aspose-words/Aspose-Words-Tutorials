@@ -1,14 +1,16 @@
 ---
-title: Kiểu dáng tài liệu Word
-linktitle: Kiểu dáng tài liệu Word
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách định dạng và xử lý tài liệu bằng Aspose.Words cho Java! Tạo ra các đầu ra trực quan tuyệt đẹp với các ví dụ về mã nguồn.
-weight: 10
-url: /vi/java/document-styling/word-document-styling/
+"description": "Tìm hiểu cách định dạng và xử lý tài liệu bằng Aspose.Words cho Java! Tạo ra các đầu ra trực quan tuyệt đẹp với các ví dụ về mã nguồn."
+"linktitle": "Kiểu dáng tài liệu Word"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kiểu dáng tài liệu Word"
+"url": "/vi/java/document-styling/word-document-styling/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu dáng tài liệu Word
@@ -24,7 +26,7 @@ Aspose.Words for Java là một thư viện mạnh mẽ cho phép các nhà phá
 
 ### 1. Cài đặt Aspose.Words cho Java
 
-Để bắt đầu, hãy truy cập Aspose Releases (https://releases.aspose.com/words/java/) và tải xuống thư viện Aspose.Words cho Java. Sau khi tải xuống, hãy làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường phát triển của bạn.
+Để bắt đầu, hãy truy cập Aspose Releases (https://releases.aspose.com/words/java/) và tải xuống thư viện Aspose.Words for Java. Sau khi tải xuống, hãy làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường phát triển của bạn.
 
 ### 2. Thiết lập môi trường phát triển
 
@@ -382,9 +384,14 @@ Aspose.Words for Java là một công cụ mạnh mẽ giúp các nhà phát tri
 
 ---
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/append-document-to-blank/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Append Document To Blank
@@ -142,9 +145,13 @@ Yes, Aspose.Words supports various document formats, and you can append differen
 
 Check if the destination document is completely empty before appending. Any leftover content can cause formatting issues.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: หัวข้อเซเท็กซ์
-linktitle: หัวข้อเซเท็กซ์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อสร้างและจัดรูปแบบเอกสาร Word แบบอัตโนมัติด้วยบทช่วยสอนแบบทีละขั้นตอนครอบคลุมนี้
-weight: 10
-url: /th/net/working-with-markdown/setext-heading/
+"description": "เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET เพื่อสร้างและจัดรูปแบบเอกสาร Word แบบอัตโนมัติด้วยบทช่วยสอนแบบทีละขั้นตอนครอบคลุมนี้"
+"linktitle": "หัวข้อเซเท็กซ์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "หัวข้อเซเท็กซ์"
+"url": "/th/net/working-with-markdown/setext-heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หัวข้อเซเท็กซ์
@@ -23,7 +25,7 @@ url: /th/net/working-with-markdown/setext-heading/
 
 1. สภาพแวดล้อมการพัฒนา: Visual Studio (หรือ IDE อื่น ๆ ที่ต้องการ)
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework 4.0 ขึ้นไป
-3.  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลดเวอร์ชั่นล่าสุด](https://releases.aspose.com/words/net/) หรือรับ[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+3. Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลดเวอร์ชั่นล่าสุด](https://releases.aspose.com/words/net/) หรือรับ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับรูปแบบภาษา C# และแนวคิดการเขียนโปรแกรมพื้นฐานจะเป็นประโยชน์
 
 เมื่อคุณติดตั้งสิ่งเหล่านี้เรียบร้อยแล้ว เราก็พร้อมที่จะไปต่อ!
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: การสร้างเครื่องมือสร้างเอกสาร
 
- ต่อไปเราจะสร้างอินสแตนซ์ของ`DocumentBuilder` คลาสนี้ช่วยให้เราเพิ่มเนื้อหาลงในเอกสาร Word ของเรา
+ต่อไปเราจะสร้างอินสแตนซ์ของ `DocumentBuilder` คลาสนี้ช่วยให้เราเพิ่มเนื้อหาลงในเอกสาร Word ของเรา
 
 ```csharp
 // ใช้เครื่องมือสร้างเอกสารเพื่อเพิ่มเนื้อหาลงในเอกสาร
@@ -70,7 +72,7 @@ builder.Writeln("This is an H1 tag");
 หลังจากเพิ่มหัวเรื่องแล้ว เราจะต้องรีเซ็ตสไตล์เพื่อให้แน่ใจว่าจะไม่ส่งต่อไปยังย่อหน้าถัดไป
 
 ```csharp
-//รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
+// รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -100,7 +102,7 @@ builder.Writeln("This is an H3 tag");
 เช่นเดียวกับก่อนหน้านี้ เราจำเป็นต้องรีเซ็ตรูปแบบเพื่อหลีกเลี่ยงการจัดรูปแบบที่ไม่ต้องการ
 
 ```csharp
-//รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
+// รีเซ็ตรูปแบบจากย่อหน้าก่อนหน้าเพื่อไม่รวมรูปแบบระหว่างย่อหน้า
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -138,19 +140,24 @@ builder.Document.Save(dataDir + "Test.md");
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ด้วยโปรแกรมโดยใช้ C# หรือ VB.NET
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) หรือรับ[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) หรือรับ [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET กับ .NET Core ได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET รองรับ .NET Core ช่วยให้คุณสามารถใช้ในแอปพลิเคชันข้ามแพลตฟอร์มได้
 
 ### มี Aspose.Words เวอร์ชันฟรีสำหรับ .NET หรือไม่
- Aspose นำเสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) ที่คุณสามารถนำมาใช้ประเมินห้องสมุดก่อนซื้อใบอนุญาต
+Aspose นำเสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) ที่คุณสามารถนำมาใช้ประเมินห้องสมุดก่อนซื้อใบอนุญาต
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

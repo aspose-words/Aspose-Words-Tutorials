@@ -1,14 +1,16 @@
 ---
-title: Định dạng đoạn văn và văn bản trong tài liệu
-linktitle: Định dạng đoạn văn và văn bản trong tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách định dạng đoạn văn và văn bản trong tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để định dạng tài liệu hiệu quả.
-weight: 11
-url: /vi/java/document-styling/styling-paragraphs-text/
+"description": "Tìm hiểu cách định dạng đoạn văn và văn bản trong tài liệu bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để định dạng tài liệu hiệu quả."
+"linktitle": "Định dạng đoạn văn và văn bản trong tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Định dạng đoạn văn và văn bản trong tài liệu"
+"url": "/vi/java/document-styling/styling-paragraphs-text/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng đoạn văn và văn bản trong tài liệu
@@ -23,7 +25,7 @@ Aspose.Words for Java là một thư viện Java cho phép các nhà phát tri�
 
 ## Thiết lập môi trường phát triển của bạn
 
-Trước khi đi sâu vào các khía cạnh mã hóa, điều quan trọng là phải thiết lập môi trường phát triển của bạn. Đảm bảo bạn đã cài đặt Java, sau đó tải xuống và cấu hình thư viện Aspose.Words cho Java. Bạn có thể tìm thấy hướng dẫn cài đặt chi tiết trong[tài liệu](https://reference.aspose.com/words/java/).
+Trước khi đi sâu vào các khía cạnh mã hóa, điều quan trọng là phải thiết lập môi trường phát triển của bạn. Đảm bảo bạn đã cài đặt Java, sau đó tải xuống và cấu hình thư viện Aspose.Words cho Java. Bạn có thể tìm thấy hướng dẫn cài đặt chi tiết trong [tài liệu](https://reference.aspose.com/words/java/).
 
 ## Tạo một tài liệu mới
 
@@ -325,7 +327,7 @@ builder.endRow();
 builder.endTable();
 ```
 
-Trong đoạn mã này, chúng ta tạo một bảng đơn giản có ba hàng và ba cột.
+Trong đoạn mã này, chúng ta tạo một bảng đơn giản với ba hàng và ba cột.
 
 ## Lưu và xuất tài liệu
 
@@ -399,7 +401,7 @@ Bạn có thể kiểm tra trang web Aspose hoặc kho lưu trữ Maven để bi
 Có, Aspose.Words for Java tương thích với Java 11 và các phiên bản mới hơn.
 
 ### Làm thế nào để tôi có thể thiết lập lề trang cho các phần cụ thể trong tài liệu của mình?
- Bạn có thể thiết lập lề trang cho các phần cụ thể của tài liệu bằng cách sử dụng`PageSetup` lớp. Đây là một ví dụ:
+Bạn có thể thiết lập lề trang cho các phần cụ thể của tài liệu bằng cách sử dụng `PageSetup` lớp. Đây là một ví dụ:
 
 ```java
 Section section = doc.getSections().get(0); // Nhận phần đầu tiên
@@ -415,9 +417,14 @@ pageSetup.setBottomMargin(72); // Lề dưới tính bằng điểm
 Trong hướng dẫn toàn diện này, chúng tôi đã khám phá các khả năng mạnh mẽ của Aspose.Words for Java để định dạng đoạn văn và văn bản trong tài liệu. Bạn đã học cách tạo, định dạng và cải thiện tài liệu của mình theo chương trình, từ thao tác văn bản cơ bản đến các tính năng nâng cao. Aspose.Words for Java trao quyền cho các nhà phát triển tự động hóa các tác vụ định dạng tài liệu một cách hiệu quả. Tiếp tục thực hành và thử nghiệm các tính năng khác nhau để trở nên thành thạo trong việc định dạng tài liệu với Aspose.Words for Java.
 
 Bây giờ bạn đã hiểu rõ cách định dạng đoạn văn và văn bản trong tài liệu bằng Aspose.Words for Java, bạn đã sẵn sàng tạo các tài liệu được định dạng đẹp mắt theo nhu cầu cụ thể của mình. Chúc bạn viết mã vui vẻ!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

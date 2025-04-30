@@ -1,38 +1,40 @@
 ---
-title: إنشاء وتنسيق العلامات المائية لتحسين جمالية المستندات
-linktitle: إنشاء وتنسيق العلامات المائية لتحسين جمالية المستندات
-second_title: Aspose.Words - واجهة برمجة تطبيقات إدارة المستندات باستخدام Python
-description: تعرف على كيفية إنشاء العلامات المائية وتنسيقها في المستندات باستخدام Aspose.Words for Python. دليل خطوة بخطوة مع الكود المصدر لإضافة علامات مائية نصية وصورية. عزز جماليات مستندك من خلال هذا البرنامج التعليمي.
-weight: 10
-url: /ar/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "تعلّم كيفية إنشاء وتنسيق العلامات المائية في المستندات باستخدام Aspose.Words لبايثون. دليل خطوة بخطوة مع الكود المصدري لإضافة علامات مائية نصية وصورية. حسّن مظهر مستندك مع هذا البرنامج التعليمي."
+"linktitle": "إنشاء وتنسيق العلامات المائية لتحسين جمالية المستندات"
+"second_title": "Aspose.Words Python Document Management API"
+"title": "إنشاء وتنسيق العلامات المائية لتحسين جمالية المستندات"
+"url": "/ar/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء وتنسيق العلامات المائية لتحسين جمالية المستندات
 
 
-تعمل العلامات المائية كعنصر خفي ولكنه مؤثر في المستندات، مما يضيف طبقة من الاحترافية والجماليات. باستخدام Aspose.Words for Python، يمكنك بسهولة إنشاء وتنسيق العلامات المائية لتعزيز الجاذبية البصرية لمستنداتك. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة العلامات المائية إلى مستنداتك خطوة بخطوة باستخدام واجهة برمجة تطبيقات Aspose.Words for Python.
+تُعدّ العلامات المائية عنصرًا دقيقًا وفعّالًا في المستندات، إذ تُضفي عليها لمسةً من الاحترافية والجمال. مع Aspose.Words لبايثون، يُمكنك بسهولة إنشاء وتنسيق العلامات المائية لتحسين المظهر البصري لمستنداتك. سيُرشدك هذا البرنامج التعليمي خطوة بخطوة خلال عملية إضافة العلامات المائية إلى مستنداتك باستخدام واجهة برمجة تطبيقات Aspose.Words لبايثون.
 
-## مقدمة حول العلامات المائية في المستندات
+## مقدمة عن العلامات المائية في المستندات
 
-العلامات المائية هي عناصر تصميم توضع في خلفية المستندات لنقل معلومات إضافية أو علامة تجارية دون إعاقة المحتوى الرئيسي. تُستخدم عادةً في المستندات التجارية والأوراق القانونية والأعمال الإبداعية للحفاظ على سلامة المستندات وتعزيز الجاذبية البصرية.
+العلامات المائية هي عناصر تصميمية تُوضع في خلفية المستندات لتوصيل معلومات إضافية أو إضافة علامة تجارية دون إعاقة المحتوى الرئيسي. تُستخدم عادةً في المستندات التجارية، والأوراق القانونية، والأعمال الإبداعية للحفاظ على سلامة المستندات وتعزيز جاذبيتها البصرية.
 
-## البدء باستخدام Aspose.Words للغة Python
+## البدء باستخدام Aspose.Words للغة بايثون
 
- للبدء، تأكد من تثبيت Aspose.Words for Python. يمكنك تنزيله من إصدارات Aspose:[تنزيل Aspose.Words لـ Python](https://releases.aspose.com/words/python/).
+للبدء، تأكد من تثبيت Aspose.Words لبايثون. يمكنك تنزيله من إصدارات Aspose: [تنزيل Aspose.Words لـ Python](https://releases.aspose.com/words/python/).
 
 بعد التثبيت، يمكنك استيراد الوحدات النمطية اللازمة وإعداد كائن المستند.
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# تحميل أو إنشاء مستند
 doc = aw.Document()
 
-# Your code continues here
+# يستمر الكود الخاص بك هنا
 ```
 
 ## إضافة علامات مائية نصية
@@ -44,13 +46,13 @@ doc = aw.Document()
 3. أضف العلامة المائية إلى المستند.
 
 ```python
-# Create a watermark object
+# إنشاء كائن العلامة المائية
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# تعيين نص للعلامة المائية
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# إضافة العلامة المائية إلى المستند
 doc.watermark = watermark
 ```
 
@@ -59,13 +61,13 @@ doc.watermark = watermark
 يمكنك تخصيص مظهر العلامة المائية النصية عن طريق ضبط خصائص مختلفة:
 
 ```python
-# Customize text watermark appearance
+# تخصيص مظهر العلامة المائية النصية
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
 ```
 
-## إضافة علامات مائية للصور
+## إضافة العلامات المائية للصور
 
 تتضمن إضافة العلامات المائية للصور عملية مماثلة:
 
@@ -74,14 +76,14 @@ watermark.color = aw.drawing.Color.GRAY
 3. أضف العلامة المائية للصورة إلى المستند.
 
 ```python
-# Load the image for the watermark
+# تحميل الصورة للعلامة المائية
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# إنشاء كائن علامة مائية للصورة
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# أضف العلامة المائية للصورة إلى المستند
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 يمكنك التحكم في حجم وموضع العلامة المائية للصورة:
 
 ```python
-# Adjust image watermark properties
+# ضبط خصائص العلامة المائية للصورة
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -98,10 +100,10 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 
 ## تطبيق العلامات المائية على أقسام محددة من المستند
 
-إذا كنت تريد تطبيق العلامات المائية على أقسام محددة من المستند، فيمكنك استخدام الطريقة التالية:
+إذا كنت تريد تطبيق العلامات المائية على أقسام محددة من المستند، فيمكنك استخدام النهج التالي:
 
 ```python
-# Apply watermark to a specific section
+# تطبيق العلامة المائية على قسم معين
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 لإنشاء علامة مائية شفافة، اضبط مستوى الشفافية:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# إنشاء علامة مائية شفافة
+watermark.transparency = 0.5  # النطاق: من 0 (غير شفاف) إلى 1 (شفاف بالكامل)
 ```
 
 ## حفظ المستند مع العلامات المائية
@@ -120,20 +122,20 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 بمجرد إضافة العلامات المائية، احفظ المستند بالعلامات المائية المطبقة:
 
 ```python
-# Save the document with watermarks
+# حفظ المستند مع العلامات المائية
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
 
 ## خاتمة
 
-إن إضافة العلامات المائية إلى مستنداتك باستخدام Aspose.Words for Python هي عملية بسيطة تعزز الجاذبية البصرية والعلامة التجارية لمحتواك. سواء كانت علامات مائية نصية أو صورية، فلديك المرونة لتخصيص مظهرها وموضعها وفقًا لتفضيلاتك.
+إضافة العلامات المائية إلى مستنداتك باستخدام Aspose.Words لبايثون عملية سهلة تُحسّن المظهر المرئي والعلامة التجارية لمحتواك. سواءً كانت علامات مائية نصية أو صورية، يمكنك تخصيص مظهرها وموقعها حسب تفضيلاتك.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني إزالة العلامة المائية من مستند؟
 
- لإزالة علامة مائية، اضبط خاصية العلامة المائية للمستند على`None`.
+لإزالة العلامة المائية، اضبط خاصية العلامة المائية للمستند على `None`.
 
 ### هل يمكنني تطبيق علامات مائية مختلفة على صفحات مختلفة؟
 
@@ -141,7 +143,7 @@ doc.save(output_path)
 
 ### هل من الممكن استخدام علامة مائية نصية مدورة؟
 
-بالتأكيد! يمكنك تدوير العلامة المائية النصية عن طريق ضبط خاصية زاوية الدوران.
+بالتأكيد! يمكنك تدوير العلامة المائية النصية بضبط زاوية الدوران.
 
 ### هل يمكنني حماية العلامة المائية من التعديل أو الإزالة؟
 
@@ -151,10 +153,15 @@ doc.save(output_path)
 
 نعم، Aspose.Words for Python متوافق مع بيئات Windows وLinux.
 
- لمزيد من التفاصيل والمراجع الشاملة لواجهة برمجة التطبيقات، تفضل بزيارة وثائق Aspose.Words:[مراجع API لـ Aspose.Words لـ Python](https://reference.aspose.com/words/python-net/)
+لمزيد من التفاصيل والمراجع الشاملة لواجهة برمجة التطبيقات، تفضل بزيارة وثائق Aspose.Words: [مراجع واجهة برمجة تطبيقات Aspose.Words للغة Python](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

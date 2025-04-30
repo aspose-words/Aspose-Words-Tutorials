@@ -1,14 +1,16 @@
 ---
-title: Bağlantı Başlıkları Altbilgileri
-linktitle: Bağlantı Başlıkları Altbilgileri
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te belgeler arasında üstbilgi ve altbilgileri nasıl bağlayacağınızı öğrenin. Tutarlılığı ve biçimlendirme bütünlüğünü zahmetsizce sağlayın.
-weight: 10
-url: /tr/net/join-and-append-documents/link-headers-footers/
+"description": "Aspose.Words for .NET'te belgeler arasında üstbilgi ve altbilgileri nasıl bağlayacağınızı öğrenin. Tutarlılığı ve biçimlendirme bütünlüğünü zahmetsizce sağlayın."
+"linktitle": "Bağlantı Başlıkları Altbilgileri"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bağlantı Başlıkları Altbilgileri"
+"url": "/tr/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bağlantı Başlıkları Altbilgileri
@@ -37,7 +39,7 @@ Süreci net adımlara bölelim:
 
 ## Adım 1: Belgeleri Yükle
 
- İlk olarak kaynak ve hedef belgeleri yükleyin`Document` nesneler:
+İlk olarak kaynak ve hedef belgeleri yükleyin `Document` nesneler:
 
 ```csharp
 // Belge dizininize giden yol
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Adım 2: Bölüm Başlangıcını Ayarla
 
- Eklenen belgenin yeni bir sayfada başlamasını sağlamak için,`SectionStart` kaynak belgenin ilk bölümünün mülkiyeti:
+Eklenen belgenin yeni bir sayfada başlamasını sağlamak için, `SectionStart` kaynak belgenin ilk bölümünün mülkiyeti:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -98,10 +100,15 @@ Aspose.Words, .NET Framework ve .NET Core'un çeşitli sürümlerini destekleyer
 Evet, Aspose.Words API yöntemlerini kullanarak başlık ve altbilgilerin bağlantısını kaldırabilir ve bireysel belge biçimlendirmesini geri yükleyebilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha detaylı dokümanları nerede bulabilirim?
- Ziyaret etmek[Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+Ziyaret etmek [Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) kapsamlı kılavuzlar ve API referansları için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

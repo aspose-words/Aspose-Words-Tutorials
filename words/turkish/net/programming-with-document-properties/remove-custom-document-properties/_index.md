@@ -1,14 +1,16 @@
 ---
-title: Özel Belge Özelliklerini Kaldır
-linktitle: Özel Belge Özelliklerini Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word dosyalarındaki özel belge özelliklerini kaldırın. Hızlı ve kolay bir çözüm için adım adım kılavuzumuzu izleyin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/programming-with-document-properties/remove-custom-document-properties/
+"description": "Aspose.Words for .NET kullanarak Word dosyalarındaki özel belge özelliklerini kaldırın. Hızlı ve kolay bir çözüm için adım adım kılavuzumuzu izleyin. Geliştiriciler için mükemmel."
+"linktitle": "Özel Belge Özelliklerini Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Özel Belge Özelliklerini Kaldır"
+"url": "/tr/net/programming-with-document-properties/remove-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel Belge Özelliklerini Kaldır
@@ -21,7 +23,7 @@ Word dosyalarınızdaki özel belge özelliklerinin ağında kendinizi hiç sık
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Şunları yapabilirsiniz: [buradan indirin](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. Temel C# Bilgisi: C# programlamaya aşinalık faydalıdır.
 
@@ -107,16 +109,21 @@ Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için g�
 Aspose.Words for .NET, özellikle .NET uygulamaları için tasarlanmıştır. Ancak Aspose, Java ve diğer platformlar için benzer kütüphaneler sunar.
 
 ### 3. Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Yapabilirsiniz[ücretsiz deneme sürümünü indirin](https://releases.aspose.com/) Aspose web sitesinden.
+Yapabilirsiniz [ücretsiz deneme sürümünü indirin](https://releases.aspose.com/) Aspose web sitesinden.
 
 ### 4. Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Daha fazla öğretici ve örnek için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Daha fazla eğitim ve örnek için.
 
 ### 5. Aspose.Words for .NET için lisansı nasıl satın alabilirim?
- Yapabilirsiniz[lisans satın al](https://purchase.aspose.com/buy) doğrudan Aspose web sitesinden.
+Yapabilirsiniz [lisans satın al](https://purchase.aspose.com/buy) doğrudan Aspose web sitesinden.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

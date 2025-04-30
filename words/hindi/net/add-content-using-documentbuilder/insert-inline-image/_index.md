@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में इनलाइन छवि डालें
-linktitle: वर्ड दस्तावेज़ में इनलाइन छवि डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में इनलाइन छवियाँ सम्मिलित करना सीखें। कोड उदाहरणों और FAQ के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/insert-inline-image/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में इनलाइन छवियाँ सम्मिलित करना सीखें। कोड उदाहरणों और FAQ के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "वर्ड दस्तावेज़ में इनलाइन छवि डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में इनलाइन छवि डालें"
+"url": "/hi/net/add-content-using-documentbuilder/insert-inline-image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में इनलाइन छवि डालें
@@ -22,7 +24,7 @@ url: /hi/net/add-content-using-documentbuilder/insert-inline-image/
 .NET के लिए Aspose.Words का उपयोग करके इनलाइन चित्र सम्मिलित करने की प्रक्रिया में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 1. विज़ुअल स्टूडियो वातावरण: विज़ुअल स्टूडियो स्थापित करें और .NET अनुप्रयोगों को बनाने और संकलित करने के लिए तैयार रहें।
-2.  Aspose.Words for .NET लाइब्रेरी: Aspose.Words for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+2. Aspose.Words for .NET लाइब्रेरी: Aspose.Words for .NET लाइब्रेरी को यहां से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 3. C# की बुनियादी समझ: C# प्रोग्रामिंग भाषा की बुनियादी बातों से परिचित होना कोड स्निपेट को लागू करने के लिए फायदेमंद होगा।
 
 अब, आइए .NET के लिए Aspose.Words का उपयोग करके आवश्यक नामस्थानों को आयात करने और इनलाइन छवि सम्मिलित करने के चरणों पर चलते हैं।
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 
 ## चरण 1: नया दस्तावेज़ बनाएँ
 
- एक नया उदाहरण आरंभ करके आरंभ करें`Document` कक्षा और एक`DocumentBuilder` दस्तावेज़ निर्माण को सुविधाजनक बनाने के लिए।
+एक नया उदाहरण आरंभ करके आरंभ करें `Document` कक्षा और एक `DocumentBuilder` दस्तावेज़ निर्माण को सुविधाजनक बनाने के लिए।
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -50,18 +52,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: इनलाइन छवि डालें
 
- उपयोग`InsertImage` की विधि`DocumentBuilder` दस्तावेज़ में वर्तमान स्थिति पर एक छवि सम्मिलित करने के लिए क्लास का उपयोग करें।
+उपयोग `InsertImage` की विधि `DocumentBuilder` दस्तावेज़ में वर्तमान स्थिति पर एक छवि सम्मिलित करने के लिए क्लास का उपयोग करें।
 
 ```csharp
 string imagePath = "PATH_TO_YOUR_IMAGE_FILE";
 builder.InsertImage(imagePath);
 ```
 
- प्रतिस्थापित करें`"PATH_TO_YOUR_IMAGE_FILE"` आपकी छवि फ़ाइल के वास्तविक पथ के साथ। यह विधि छवि को दस्तावेज़ में सहजता से एकीकृत करती है।
+प्रतिस्थापित करें `"PATH_TO_YOUR_IMAGE_FILE"` आपकी छवि फ़ाइल के वास्तविक पथ के साथ। यह विधि छवि को दस्तावेज़ में सहजता से एकीकृत करती है।
 
 ## चरण 3: दस्तावेज़ सहेजें
 
- अंत में, दस्तावेज़ को अपने इच्छित स्थान पर सहेजें`Save` की विधि`Document` कक्षा।
+अंत में, दस्तावेज़ को अपने इच्छित स्थान पर सहेजें `Save` की विधि `Document` कक्षा।
 
 ```csharp
 doc.Save(dataDir + "InsertInlineImage.docx");
@@ -76,22 +78,27 @@ doc.Save(dataDir + "InsertInlineImage.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं .NET के लिए Aspose.Words का उपयोग करके एक ही Word दस्तावेज़ में एकाधिक छवियाँ सम्मिलित कर सकता हूँ?
- हां, आप अपनी छवि फ़ाइलों के माध्यम से पुनरावृति करके और कॉल करके कई छवियां सम्मिलित कर सकते हैं`builder.InsertImage` प्रत्येक छवि के लिए.
+हां, आप अपनी छवि फ़ाइलों के माध्यम से पुनरावृति करके और कॉल करके कई छवियां सम्मिलित कर सकते हैं `builder.InsertImage` प्रत्येक छवि के लिए.
 
 ### क्या Aspose.Words for .NET पारदर्शी पृष्ठभूमि वाली छवियां सम्मिलित करने का समर्थन करता है?
 हां, .NET के लिए Aspose.Words पारदर्शी पृष्ठभूमि वाली छवियों को सम्मिलित करने का समर्थन करता है, जिससे दस्तावेज़ में छवि की पारदर्शिता बनी रहती है।
 
 ### मैं .NET के लिए Aspose.Words का उपयोग करके डाली गई इनलाइन छवि का आकार कैसे बदल सकता हूं?
- आप छवि की चौड़ाई और ऊंचाई गुणधर्म सेट करके उसका आकार बदल सकते हैं।`Shape` द्वारा लौटाया गया ऑब्जेक्ट`builder.InsertImage`.
+आप छवि की चौड़ाई और ऊंचाई गुणधर्म सेट करके उसका आकार बदल सकते हैं। `Shape` द्वारा लौटाया गया ऑब्जेक्ट `builder.InsertImage`.
 
 ### क्या .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ के भीतर किसी विशिष्ट स्थान पर इनलाइन छवि को रखना संभव है?
- हां, आप कॉल करने से पहले दस्तावेज़ बिल्डर की कर्सर स्थिति का उपयोग करके इनलाइन छवि की स्थिति निर्दिष्ट कर सकते हैं`builder.InsertImage`.
+हां, आप कॉल करने से पहले दस्तावेज़ बिल्डर की कर्सर स्थिति का उपयोग करके इनलाइन छवि की स्थिति निर्दिष्ट कर सकते हैं `builder.InsertImage`.
 
 ### क्या मैं .NET के लिए Aspose.Words का उपयोग करके URL से छवियों को Word दस्तावेज़ में एम्बेड कर सकता हूँ?
 हां, आप .NET लाइब्रेरी का उपयोग करके URL से चित्र डाउनलोड कर सकते हैं और फिर उन्हें .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सम्मिलित कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

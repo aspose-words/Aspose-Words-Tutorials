@@ -1,14 +1,16 @@
 ---
-title: Mengekstrak Konten Dokumen Berdasarkan Halaman
-linktitle: Mengekstrak Konten Dokumen Berdasarkan Halaman
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengekstrak konten dokumen per halaman menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber ini akan menjadikan Anda ahli dalam waktu singkat.
-weight: 13
-url: /id/java/document-splitting/extracting-document-content-pages/
+"description": "Pelajari cara mengekstrak konten dokumen per halaman menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber ini akan menjadikan Anda ahli dalam waktu singkat."
+"linktitle": "Mengekstrak Konten Dokumen Berdasarkan Halaman"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mengekstrak Konten Dokumen Berdasarkan Halaman"
+"url": "/id/java/document-splitting/extracting-document-content-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengekstrak Konten Dokumen Berdasarkan Halaman
@@ -18,7 +20,7 @@ Apakah Anda siap untuk memulai perjalanan untuk menguasai seni mengekstraksi kon
 
 ## Perkenalan
 
-Aspose.Words untuk Java merupakan pengubah permainan dalam hal bekerja dengan dokumen Word secara terprogram. Apakah Anda seorang pengembang Java berpengalaman atau baru memulai perjalanan pengkodean, panduan ini akan memandu Anda melalui proses mengekstraksi konten dokumen per halaman, memberi Anda keahlian yang berharga untuk berbagai aplikasi.
+Aspose.Words untuk Java adalah pengubah permainan dalam hal bekerja dengan dokumen Word secara terprogram. Apakah Anda seorang pengembang Java berpengalaman atau baru memulai perjalanan pengkodean, panduan ini akan memandu Anda melalui proses mengekstraksi konten dokumen per halaman, memberi Anda keahlian yang berharga untuk berbagai aplikasi.
 
 ## Memulai
 
@@ -28,7 +30,7 @@ Sebelum kita dapat mulai bekerja dengan Aspose.Words untuk Java, kita perlu meny
 
 1. Instal Java: Jika Anda belum menginstal Java, unduh dan instal versi terbaru dari situs web.
 
-2.  Unduh Aspose.Words untuk Java: Kunjungi[Aspose.Words untuk Java](https://releases.aspose.com/words/java/) dan mengunduh versi terbaru perpustakaan.
+2. Unduh Aspose.Words untuk Java: Kunjungi [Aspose.Words untuk Java](https://releases.aspose.com/words/java/) dan mengunduh versi terbaru perpustakaan.
 
 3. Integrasikan Aspose.Words ke dalam Proyek Anda: Tambahkan file JAR Aspose.Words ke classpath proyek Java Anda.
 
@@ -46,7 +48,7 @@ public class DocumentExtractor {
 
 ### Menambahkan Aspose.Words ke Proyek Anda
 
-Untuk menambahkan Aspose.Words ke proyek Anda, salin file JAR yang diunduh ke direktori proyek Anda.`lib` folder dan menambahkannya ke classpath Anda. Anda sekarang siap untuk terjun ke dunia ekstraksi dokumen!
+Untuk menambahkan Aspose.Words ke proyek Anda, salin file JAR yang diunduh ke direktori proyek Anda. `lib` folder dan menambahkannya ke classpath Anda. Anda sekarang siap untuk terjun ke dunia ekstraksi dokumen!
 
 ## Memuat dan Mengurai Dokumen
 
@@ -96,7 +98,7 @@ String pageText = doc.extractText(pageInfo);
 Untuk mengekstrak konten dari semua halaman, Anda dapat menggunakan loop sederhana:
 
 ```java
-//Dapatkan jumlah total halaman dalam dokumen
+// Dapatkan jumlah total halaman dalam dokumen
 int pageCount = doc.getPageCount();
 
 for (int i = 0; i < pageCount; i++) {
@@ -162,10 +164,15 @@ Aspose.Words untuk Java memerlukan lisensi yang valid untuk penggunaan komersial
 
 ## Kesimpulan
 
-Selamat! Anda telah menyelesaikan panduan langkah demi langkah tentang mengekstraksi konten dokumen per halaman menggunakan Aspose.Words untuk Java. Kini Anda memiliki keterampilan berharga untuk bekerja dengan dokumen Word secara terprogram. Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Words dan bebaskan kreativitas Anda dalam memanipulasi dokumen.
+Selamat! Anda telah menyelesaikan panduan langkah demi langkah tentang mengekstraksi konten dokumen per halaman menggunakan Aspose.Words untuk Java. Kini Anda memiliki keterampilan berharga untuk bekerja dengan dokumen Word secara terprogram. Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Words dan bebaskan kreativitas Anda dalam manipulasi dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

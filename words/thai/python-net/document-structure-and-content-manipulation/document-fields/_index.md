@@ -1,14 +1,16 @@
 ---
-title: การจัดการฟิลด์และข้อมูลในเอกสาร Word
-linktitle: การจัดการฟิลด์และข้อมูลในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีจัดการฟิลด์และข้อมูลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับเนื้อหาแบบไดนามิก การทำงานอัตโนมัติ และอื่นๆ อีกมากมาย
-weight: 12
-url: /th/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "เรียนรู้วิธีจัดการฟิลด์และข้อมูลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับเนื้อหาแบบไดนามิก การทำงานอัตโนมัติ และอื่นๆ อีกมากมาย"
+"linktitle": "การจัดการฟิลด์และข้อมูลในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การจัดการฟิลด์และข้อมูลในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการฟิลด์และข้อมูลในเอกสาร Word
@@ -26,7 +28,7 @@ url: /th/python-net/document-structure-and-content-manipulation/document-fields/
 
 ## การแทรกฟิลด์แบบง่าย
 
- ในการแทรกฟิลด์คุณสามารถใช้`FieldBuilder` คลาส ตัวอย่างเช่น การแทรกฟิลด์วันที่ปัจจุบัน:
+ในการแทรกฟิลด์คุณสามารถใช้ `FieldBuilder` คลาส ตัวอย่างเช่น การแทรกฟิลด์วันที่ปัจจุบัน:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## การดึงข้อมูลจากฟิลด์
 
- คุณสามารถดึงข้อมูลภาคสนามได้โดยใช้`Field` ระดับ:
+คุณสามารถดึงข้อมูลภาคสนามได้โดยใช้ `Field` ระดับ:
 
 ```python
 field = doc.range.fields[0]
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 ฟิลด์สามารถสร้างไฮเปอร์ลิงก์และการอ้างอิงแบบไขว้ได้:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "เยี่ยมชมเว็บไซต์ของเรา"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## การปรับแต่งรูปแบบฟิลด์
@@ -112,7 +114,7 @@ doc.update_fields()
 
 ### ฉันจะอัปเดตค่าฟิลด์ด้วยตนเองได้อย่างไร
 
- หากต้องการอัปเดตค่าฟิลด์ด้วยตนเอง ให้เลือกฟิลด์แล้วกด`F9`.
+หากต้องการอัปเดตค่าฟิลด์ด้วยตนเอง ให้เลือกฟิลด์แล้วกด `F9`-
 
 ### ฉันสามารถใช้ฟิลด์ในพื้นที่ส่วนหัวและส่วนท้ายได้หรือไม่
 
@@ -126,16 +128,21 @@ doc.update_fields()
 
 คุณสามารถป้องกันฟิลด์จากการแก้ไขโดยไม่ได้ตั้งใจได้โดยการล็อกฟิลด์ คลิกขวาที่ฟิลด์ เลือก "แก้ไขฟิลด์" และเปิดใช้งานตัวเลือก "ล็อก"
 
-### สามารถซ้อนฟิลด์กันได้ไหม?
+### สามารถซ้อนฟิลด์ไว้ด้วยกันได้หรือไม่?
 
 ใช่ สามารถซ้อนฟิลด์ต่างๆ เข้าด้วยกันเพื่อสร้างเนื้อหาไดนามิกที่ซับซ้อนได้
 
 ## เข้าถึงแหล่งข้อมูลเพิ่มเติม
 
- สำหรับข้อมูลโดยละเอียดเพิ่มเติมและตัวอย่างโค้ด โปรดไปที่[เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/) หากต้องการดาวน์โหลดเวอร์ชันล่าสุดของไลบรารี โปรดไปที่[หน้าดาวน์โหลด Aspose.Words สำหรับ Python](https://releases.aspose.com/words/python/).
+สำหรับข้อมูลโดยละเอียดเพิ่มเติมและตัวอย่างโค้ด โปรดไปที่ [เอกสารอ้างอิง API Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/)หากต้องการดาวน์โหลดเวอร์ชันล่าสุดของไลบรารี โปรดไปที่ [หน้าดาวน์โหลด Aspose.Words สำหรับ Python](https://releases-aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

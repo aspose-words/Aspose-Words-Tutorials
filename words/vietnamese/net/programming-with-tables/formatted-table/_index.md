@@ -1,14 +1,16 @@
 ---
-title: Bảng được định dạng
-linktitle: Bảng được định dạng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo và định dạng bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này.
-weight: 10
-url: /vi/net/programming-with-tables/formatted-table/
+"description": "Tìm hiểu cách tạo và định dạng bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này."
+"linktitle": "Bảng được định dạng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bảng được định dạng"
+"url": "/vi/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng được định dạng
@@ -21,7 +23,7 @@ Việc tạo và định dạng bảng trong tài liệu Word theo chương trì
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1. Aspose.Words cho Thư viện .NET: Tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu.
 
 ## Bước 2: Khởi tạo Document và DocumentBuilder
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`DocumentBuilder` là lớp trợ giúp giúp đơn giản hóa quá trình xây dựng tài liệu.
+Các `DocumentBuilder` là lớp trợ giúp giúp đơn giản hóa quá trình xây dựng tài liệu.
 
 ## Bước 3: Bắt đầu bảng
 
- Tiếp theo, bắt đầu tạo bảng bằng cách sử dụng`StartTable` phương pháp.
+Tiếp theo, bắt đầu tạo bảng bằng cách sử dụng `StartTable` phương pháp.
 
 ```csharp
 Table table = builder.StartTable();
@@ -174,16 +176,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, chỉnh s�
 Có, bạn có thể áp dụng định dạng khác nhau, bao gồm cả màu sắc, cho các hàng hoặc ô khác nhau.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể tạo các loại tài liệu khác bằng Aspose.Words cho .NET không?
 Có, Aspose.Words for .NET hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm PDF, HTML và TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Эффективное извлечение контента из документов Word
-linktitle: Эффективное извлечение контента из документов Word
-second_title: API управления документами Python Aspose.Words
-description: Эффективно извлекайте контент из документов Word с помощью Aspose.Words для Python. Изучите пошаговое руководство с примерами кода.
-weight: 11
-url: /ru/python-net/content-extraction-and-manipulation/document-content-extraction/
+"description": "Эффективно извлекайте контент из документов Word с помощью Aspose.Words для Python. Изучите пошаговое руководство с примерами кода."
+"linktitle": "Эффективное извлечение контента из документов Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Эффективное извлечение контента из документов Word"
+"url": "/ru/python-net/content-extraction-and-manipulation/document-content-extraction/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Эффективное извлечение контента из документов Word
@@ -20,7 +22,7 @@ url: /ru/python-net/content-extraction-and-manipulation/document-content-extract
 
 ## Предпосылки
 
- Прежде чем погрузиться в код, убедитесь, что у вас установлены Python и библиотека Aspose.Words. Вы можете скачать библиотеку с сайта[здесь](https://releases.aspose.com/words/python/). Кроме того, убедитесь, что у вас есть готовый документ Word для тестирования.
+Прежде чем погрузиться в код, убедитесь, что у вас установлены Python и библиотека Aspose.Words. Вы можете скачать библиотеку с сайта [здесь](https://releases.aspose.com/words/python/). Кроме того, убедитесь, что у вас есть готовый документ Word для тестирования.
 
 ## Установка Aspose.Words для Python
 
@@ -103,7 +105,7 @@ for section in doc.sections:
 
 ### Как установить Aspose.Words для Python?
 
- Чтобы установить Aspose.Words для Python, используйте следующую команду:`pip install aspose-words`.
+Чтобы установить Aspose.Words для Python, используйте следующую команду: `pip install aspose-words`.
 
 ### Можно ли извлекать изображения и текст одновременно?
 
@@ -119,10 +121,15 @@ for section in doc.sections:
 
 ### Где я могу найти более подробную информацию об Aspose.Words для Python?
 
- Для получения полной документации и ссылок посетите[здесь](https://reference.aspose.com/words/python-net/).
+Для получения полной документации и ссылок посетите [здесь](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

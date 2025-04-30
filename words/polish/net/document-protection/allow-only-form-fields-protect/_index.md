@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj tylko na ochronę pól formularza w dokumencie Word
-linktitle: Zezwalaj tylko na ochronę pól formularza w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak chronić dokumenty Word, umożliwiając edycję tylko pól formularzy za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby upewnić się, że Twoje dokumenty są bezpieczne i łatwe do edycji.
-weight: 10
-url: /pl/net/document-protection/allow-only-form-fields-protect/
+"description": "Dowiedz się, jak chronić dokumenty Word, umożliwiając edycję tylko pól formularzy za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby upewnić się, że Twoje dokumenty są bezpieczne i łatwe do edycji."
+"linktitle": "Zezwalaj tylko na ochronę pól formularza w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zezwalaj tylko na ochronę pól formularza w dokumencie Word"
+"url": "/pl/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj tylko na ochronę pól formularza w dokumencie Word
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek musiałeś chronić określone części dokumentu Word
 
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Każda nowsza wersja będzie działać dobrze.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw ułatwi Ci korzystanie z samouczka.
 
@@ -42,7 +44,7 @@ Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli (.NET Cor
 ## Krok 2: Zainstaluj Aspose.Words dla .NET
 
 Zainstaluj za pomocą Menedżera pakietów NuGet  
-Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję „Zarządzaj pakietami NuGet” i wyszukaj`Aspose.Words`Zainstaluj.
+Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję „Zarządzaj pakietami NuGet” i wyszukaj `Aspose.Words`Zainstaluj.
 
 ## Krok 3: Zainicjuj dokument
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Tutaj tworzymy nowy`Document` I`DocumentBuilder` instancja.`DocumentBuilder` pozwala nam dodać tekst do naszego dokumentu.
+Tutaj tworzymy nowy `Document` I `DocumentBuilder` instancja. `DocumentBuilder` pozwala nam dodać tekst do naszego dokumentu.
 
 ## Krok 4: Chroń dokument
 
@@ -87,15 +89,15 @@ Zapisuje dokument z zastosowaną ochroną.
 
 ## Wniosek
 
-I masz to! Właśnie nauczyłeś się, jak chronić dokument Worda, aby tylko pola formularza mogły być edytowane za pomocą Aspose.Words dla .NET. Jest to przydatna funkcja, gdy musisz upewnić się, że pewne części dokumentu pozostaną niezmienione, a jednocześnie umożliwisz wypełnienie określonych pól.
+masz to! Właśnie nauczyłeś się, jak chronić dokument Worda, aby tylko pola formularza mogły być edytowane za pomocą Aspose.Words dla .NET. Jest to przydatna funkcja, gdy musisz upewnić się, że pewne części dokumentu pozostaną niezmienione, a jednocześnie umożliwisz wypełnienie określonych pól.
 
 ## Najczęściej zadawane pytania
 
 ###	 Jak mogę usunąć zabezpieczenie dokumentu?  
- Aby usunąć zabezpieczenie, należy użyć`doc.Unprotect("password")` metoda, gdzie „hasło” jest hasłem używanym do ochrony dokumentu.
+Aby usunąć zabezpieczenie, należy użyć `doc.Unprotect("password")` metoda, gdzie „hasło” jest hasłem używanym do ochrony dokumentu.
 
 ###	 Czy mogę stosować różne typy ochrony przy użyciu Aspose.Words dla .NET?  
- Tak, Aspose.Words obsługuje różne typy ochrony, takie jak:`ReadOnly`, `NoProtection` , I`AllowOnlyRevisions`.
+Tak, Aspose.Words obsługuje różne typy ochrony, takie jak: `ReadOnly`, `NoProtection`, I `AllowOnlyRevisions`.
 
 ###	 Czy można używać różnych haseł w różnych sekcjach?  
 Nie, ochrona na poziomie dokumentu w Aspose.Words dotyczy całego dokumentu. Nie można przypisać różnych haseł do różnych sekcji.
@@ -104,11 +106,16 @@ Nie, ochrona na poziomie dokumentu w Aspose.Words dotyczy całego dokumentu. Nie
 Jeśli podane zostanie nieprawidłowe hasło, dokument pozostanie chroniony, a wprowadzone zmiany nie zostaną zastosowane.
 
 ###	 Czy mogę programowo sprawdzić, czy dokument jest chroniony?  
- Tak, możesz użyć`doc.ProtectionType` właściwość umożliwiająca sprawdzenie statusu ochrony dokumentu.
+Tak, możesz użyć `doc.ProtectionType` właściwość umożliwiająca sprawdzenie statusu ochrony dokumentu.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ไม่สนใจส่วนหัว ส่วนท้าย
-linktitle: ไม่สนใจส่วนหัว ส่วนท้าย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีผสานเอกสาร Word โดยไม่สนใจส่วนหัวและส่วนท้ายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/join-and-append-documents/ignore-header-footer/
+"description": "เรียนรู้วิธีผสานเอกสาร Word โดยไม่สนใจส่วนหัวและส่วนท้ายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "ไม่สนใจส่วนหัว ส่วนท้าย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ไม่สนใจส่วนหัว ส่วนท้าย"
+"url": "/th/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ไม่สนใจส่วนหัว ส่วนท้าย
@@ -21,7 +23,7 @@ url: /th/net/join-and-append-documents/ignore-header-footer/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - Visual Studio: เวอร์ชันล่าสุดใดๆ ก็สามารถใช้ได้
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ไม่ต้องกังวล ฉันจะแนะนำคุณเกี่ยวกับโค้ดเอง
 - เอกสาร Word สองฉบับ: ฉบับหนึ่งต้องผนวกเข้ากับอีกฉบับหนึ่ง
@@ -79,7 +81,7 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- โดยการตั้งค่า`IgnoreHeaderFooter` ถึง`true`เรากำลังแจ้งให้ Aspose.Words ละเว้นส่วนหัวและส่วนท้ายในระหว่างกระบวนการผสาน
+โดยการตั้งค่า `IgnoreHeaderFooter` ถึง `true`เรากำลังแจ้งให้ Aspose.Words ละเว้นส่วนหัวและส่วนท้ายในระหว่างกระบวนการผสาน
 
 ## ขั้นตอนที่ 4: รวมเอกสาร
 
@@ -109,7 +111,7 @@ dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 
 และแล้วคุณก็ทำได้! คุณได้รวมเอกสาร Word สองฉบับเข้าด้วยกันสำเร็จแล้วโดยไม่สนใจส่วนหัวและส่วนท้ายของเอกสารโดยใช้ Aspose.Words สำหรับ .NET วิธีนี้มีประโยชน์สำหรับงานจัดการเอกสารต่างๆ ที่การดูแลรักษาส่วนต่างๆ ของเอกสารเป็นสิ่งสำคัญ
 
-การทำงานกับ Aspose.Words สำหรับ .NET จะช่วยเพิ่มประสิทธิภาพเวิร์กโฟลว์การประมวลผลเอกสารของคุณได้อย่างมาก โปรดจำไว้ว่าหากคุณประสบปัญหาหรือต้องการข้อมูลเพิ่มเติม คุณสามารถตรวจสอบได้เสมอ[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+การทำงานกับ Aspose.Words สำหรับ .NET จะช่วยเพิ่มประสิทธิภาพเวิร์กโฟลว์การประมวลผลเอกสารของคุณได้อย่างมาก โปรดจำไว้ว่าหากคุณประสบปัญหาหรือต้องการข้อมูลเพิ่มเติม คุณสามารถตรวจสอบได้เสมอ [เอกสารประกอบ](https://reference-aspose.com/words/net/).
 
 ## คำถามที่พบบ่อย
 
@@ -119,23 +121,28 @@ dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 
 ### เป็นไปได้ไหมที่จะเก็บส่วนหัวและส่วนท้ายไว้แทนที่จะละเลยมัน?
 
- แน่นอน ตั้งค่าอย่างง่ายๆ`IgnoreHeaderFooter` ถึง`false` ใน`ImportFormatOptions`.
+แน่นอน ตั้งค่าอย่างง่ายๆ `IgnoreHeaderFooter` ถึง `false` ใน `ImportFormatOptions`-
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
 
- ใช่ Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+ใช่ Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถรวมเอกสารมากกว่าสองฉบับด้วยวิธีนี้ได้หรือไม่?
 
- ใช่ คุณสามารถผนวกเอกสารหลายฉบับในลูปได้โดยการทำซ้ำ`AppendDocument` วิธีการสำหรับเอกสารเพิ่มเติมแต่ละฉบับ
+ใช่ คุณสามารถผนวกเอกสารหลายฉบับในลูปได้โดยการทำซ้ำ `AppendDocument` วิธีการสำหรับเอกสารเพิ่มเติมแต่ละฉบับ
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

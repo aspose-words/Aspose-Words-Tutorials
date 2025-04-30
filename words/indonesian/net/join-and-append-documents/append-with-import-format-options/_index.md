@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Dengan Opsi Format Impor
-linktitle: Tambahkan Dengan Opsi Format Impor
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Tambahkan dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET, pertahankan pemformatan dengan panduan langkah demi langkah yang terperinci.
-weight: 10
-url: /id/net/join-and-append-documents/append-with-import-format-options/
+"description": "Tambahkan dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET, pertahankan pemformatan dengan panduan langkah demi langkah yang terperinci."
+"linktitle": "Tambahkan Dengan Opsi Format Impor"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Dengan Opsi Format Impor"
+"url": "/id/net/join-and-append-documents/append-with-import-format-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Dengan Opsi Format Impor
@@ -21,13 +23,13 @@ Hai! Pernahkah Anda merasa perlu menggabungkan beberapa dokumen Word menjadi sat
 
 Sebelum kita masuk ke bagian yang menyenangkan, mari pastikan Anda telah memiliki semua yang Anda butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka ini. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka ini. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan apa pun yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Anda tidak perlu menjadi seorang ahli, namun sedikit pengetahuan tentang C# akan sangat membantu.
 
 ## Mengimpor Ruang Nama
 
-Pertama-tama, mari impor namespace yang diperlukan. Ini akan menjadi tahap awal petualangan coding kita.
+Pertama-tama, mari impor namespace yang diperlukan. Ini akan menjadi dasar petualangan coding kita.
 
 ```csharp
 using Aspose.Words;
@@ -45,7 +47,7 @@ Setiap perjalanan dimulai dengan langkah pertama, dan di sini, langkah pertama a
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan. Dari sinilah kita akan mengambil dokumen sumber dan tujuan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan. Dari sinilah kita akan mengambil dokumen sumber dan tujuan.
 
 ## Langkah 2: Muat Dokumen Sumber dan Tujuan
 
@@ -63,7 +65,7 @@ Di sini, kita memuat dokumen sumber dan tujuan ke dalam memori. Pastikan nama be
 Nah, di sinilah keajaiban terjadi. Kita akan menentukan bagaimana format harus ditangani selama operasi penambahan.
 
 ```csharp
-// Tentukan jika penomoran bentrok dalam dokumen sumber dan tujuan,
+// Tentukan jika penomoran bentrok di dokumen sumber dan tujuan,
 // maka penomoran dari dokumen sumber akan digunakan.
 ImportFormatOptions options = new ImportFormatOptions { KeepSourceNumbering = true };
 ```
@@ -78,7 +80,7 @@ Saatnya menyatukan semuanya! Kami akan menambahkan dokumen sumber ke dokumen tuj
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 ```
 
- Di sini, kami menambahkan`srcDoc` ke`dstDoc` menggunakan gaya tujuan.`options` parameter memastikan aturan pemformatan kami diterapkan.
+Di sini, kami menambahkan `srcDoc` ke `dstDoc` menggunakan gaya tujuan. `options` parameter memastikan aturan pemformatan kami diterapkan.
 
 ## Langkah 5: Simpan Dokumen yang Digabungkan
 
@@ -97,10 +99,10 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat menambahkan dokum
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya tetap menggunakan penomoran dokumen tujuan dan bukan penomoran dokumen sumber?
- Ya, Anda dapat memodifikasi`ImportFormatOptions` untuk mencapai hal ini.
+Ya, Anda dapat memodifikasi `ImportFormatOptions` untuk mencapai hal ini.
 
 ### Bagaimana jika saya tidak memiliki Aspose.Words untuk .NET?
- Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya menggunakan metode ini untuk jenis dokumen lain seperti PDF?
 Aspose.Words khusus untuk dokumen Word. Untuk PDF, Anda mungkin memerlukan Aspose.PDF.
@@ -110,9 +112,14 @@ Gambar biasanya ditangani dengan lancar, tetapi pastikan dokumen sumber dan tuju
 
 ###ment sebelum menyimpan?
 Anda dapat menyajikan dokumen dalam bentuk aliran atau menggunakan penampil di aplikasi Anda untuk melihat pratinjaunya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

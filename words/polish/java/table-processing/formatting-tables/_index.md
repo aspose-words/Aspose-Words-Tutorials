@@ -1,14 +1,16 @@
 ---
-title: Formatowanie tabel w dokumentach
-linktitle: Formatowanie tabel w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Opanuj sztukę formatowania tabel w dokumentach za pomocą Aspose.Words for Java. Poznaj wskazówki krok po kroku i przykłady kodu źródłowego dla precyzyjnego formatowania tabel.
-weight: 13
-url: /pl/java/table-processing/formatting-tables/
+"description": "Opanuj sztukę formatowania tabel w dokumentach za pomocą Aspose.Words for Java. Poznaj wskazówki krok po kroku i przykłady kodu źródłowego dla precyzyjnego formatowania tabel."
+"linktitle": "Formatowanie tabel w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Formatowanie tabel w dokumentach"
+"url": "/pl/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatowanie tabel w dokumentach
@@ -22,10 +24,10 @@ Czy jesteś gotowy, aby z łatwością tworzyć tabele w dokumentach Worda za po
 Zanim zaczniesz kodować, upewnij się, że masz następujące rzeczy:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Aspose.Words dla biblioteki Java.[Pobierz tutaj](https://releases.aspose.com/words/java/).
+- Aspose.Words dla biblioteki Java. [Pobierz tutaj](https://releases.aspose.com/words/java/).
 - Podstawowa znajomość programowania w języku Java.
 - Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub inne, z którym czujesz się komfortowo.
--  A[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełne możliwości Aspose.Words.
+- A [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby odblokować pełne możliwości Aspose.Words.
 
 ## Importuj pakiety
 
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`:Uproszcza konstrukcję dokumentu.
 - `setHorizontalMerge`: Łączy komórki w poziomie.
-- `write`: Dodaje zawartość do scalonych komórek.
+- `write`Dodaje zawartość do scalonych komórek.
 
 ## Krok 5: Dodaj zagnieżdżone tabele
 
@@ -118,7 +120,7 @@ builder.endTable();
 ```
 
 - `moveTo`: Przenosi kursor do określonego miejsca w dokumencie.
-- `startTable`:Rozpoczyna tworzenie tabeli zagnieżdżonej.
+- `startTable`:Rozpoczyna tworzenie zagnieżdżonej tabeli.
 - `endTable`: Kończy zagnieżdżoną tabelę.
 
 ## Wniosek
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", fałsz);
 ```
 
 ### Czy mogę używać Aspose.Words for Java za darmo?  
- Można go używać z ograniczeniami lub uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) aby w pełni wykorzystać jego potencjał.
+Można go używać z ograniczeniami lub uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) aby w pełni wykorzystać jego potencjał.
 
 ### Jak połączyć komórki w tabeli w pionie?  
- Użyj`setVerticalMerge` metoda`CellFormat` klasa, podobna do scalania poziomego.
+Użyj `setVerticalMerge` metoda `CellFormat` klasa, podobna do scalania poziomego.
 
 ### Czy mogę dodać obrazy do komórki tabeli?  
- Tak, możesz użyć`DocumentBuilder` aby wstawić obrazy do komórek tabeli.
+Tak, możesz użyć `DocumentBuilder` aby wstawić obrazy do komórek tabeli.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words dla języka Java?  
- Sprawdź[dokumentacja](https://reference.aspose.com/words/java/) lub[forum wsparcia](https://forum.aspose.com/c/words/8/) Aby uzyskać szczegółowe przewodniki.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/java/) lub [forum wsparcia](https://forum.aspose.com/c/words/8/) Aby uzyskać szczegółowe przewodniki.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

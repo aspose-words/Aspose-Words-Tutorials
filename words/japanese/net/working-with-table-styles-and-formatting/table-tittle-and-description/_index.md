@@ -1,42 +1,50 @@
 ---
-title: Aspose.Wordsを使用して,Wordで表にタイトルと説明を追加する
-weight: 7700
-limit: 
-description: この簡単な例で,Word文書の表にタイトルと説明を追加する方法について.NETのAspose.Wordsで学びましょう.
-keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
-url: /ja/net/working-with-table-styles-and-formatting/table-tittle-and-description/
+"description": "このわかりやすい例で、Aspose.Words for .NET を使用して Word 文書内の表にタイトルと説明を追加する方法を学びます。"
+"title": "Aspose.Words を使用して Word の表にタイトルと説明を追加する"
+"url": "/ja/net/working-with-table-styles-and-formatting/table-tittle-and-description/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Wordsを使用して,Wordで表にタイトルと説明を追加する
+# Aspose.Words を使用して Word の表にタイトルと説明を追加する
 
-このガイドでは,既存の Word ドキュメントのテーブルプロパティを操作する方法を学び,既知のコンパティビリティのために保存オプションを設定し,Word 2016 の最適化されたフォーマットを確保します.例コードは,ドキュメントをロードし,テーブルプロパティを更新し,正確な設定設定でファイルを保存する方法を説明します.
+このガイドでは、Aspose.Words for .NET を使用して表にタイトルと説明を追加することで、Word 文書を魅力的に見せる方法を紹介します。既存の Word 文書の表のプロパティを操作する方法、必要な互換性を確保するための保存オプションを設定する方法、そして Word 2016 向けに最適化された書式設定を行う方法を学習します。サンプルコードでは、文書の読み込み、表のプロパティの更新、そして正確な設定でのファイルの保存手順を順を追って説明します。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示:
+## インストール手順:
 
-この例を実行するには,以下の簡単な手順を実行します.
+Aspose.Words for .NET を使い始めてこの例を実行するには、次の簡単な手順に従います。
 
-1. .NET に Aspose.Words をインストールする
-   NuGet を通して .NET のAspose.Wordsを簡単にインストールできます. パッケージ管理者コンソールで次のコマンドを実行します:
+1. Aspose.Words for .NET をインストールします。
+   Aspose.Words for .NETはNuGet経由で簡単にインストールできます。パッケージマネージャーコンソールで以下のコマンドを実行してください。
    ```
    Install-Package Aspose.Words
    ```
 
-2. 申請許可 (オプション):  
-   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
+2. ライセンスの適用（オプション）:  
+   フルバージョンを使用するには、 [ライセンスを適用する](https://purchase.aspose.com/temporary-license/) または [無料トライアル](https://releases。aspose.com/words/net/).
    
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

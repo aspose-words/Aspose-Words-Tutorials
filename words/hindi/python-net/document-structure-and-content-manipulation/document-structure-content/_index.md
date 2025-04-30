@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में संरचना और सामग्री का प्रबंधन
-linktitle: वर्ड दस्तावेज़ों में संरचना और सामग्री का प्रबंधन
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को कुशलतापूर्वक प्रबंधित करना सीखें। यह चरण-दर-चरण मार्गदर्शिका दस्तावेज़ संरचना, पाठ हेरफेर, स्वरूपण, चित्र, तालिकाएँ, और बहुत कुछ को कवर करती है।
-weight: 10
-url: /hi/python-net/document-structure-and-content-manipulation/document-structure-content/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को कुशलतापूर्वक प्रबंधित करना सीखें। यह चरण-दर-चरण मार्गदर्शिका दस्तावेज़ संरचना, पाठ हेरफेर, स्वरूपण, चित्र, तालिकाएँ, और बहुत कुछ को कवर करती है।"
+"linktitle": "वर्ड दस्तावेज़ों में संरचना और सामग्री का प्रबंधन"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में संरचना और सामग्री का प्रबंधन"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-structure-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में संरचना और सामग्री का प्रबंधन
@@ -35,10 +37,10 @@ pip install aspose-words
 ```python
 from aspose.words import Document
 
-# Load an existing document
+# मौजूदा दस्तावेज़ लोड करें
 doc = Document("existing_document.docx")
 
-# Create a new document
+# नया दस्तावेज़ बनाएँ
 new_doc = Document()
 ```
 
@@ -49,7 +51,7 @@ Aspose.Words आपको अपने दस्तावेज़ की सं
 ```python
 from aspose.words import Section, Paragraph
 
-# Add a new section
+# नया अनुभाग जोड़ें
 section = doc.sections.add()
 ```
 
@@ -58,7 +60,7 @@ section = doc.sections.add()
 टेक्स्ट हेरफेर दस्तावेज़ प्रबंधन का एक मूलभूत हिस्सा है। आप अपने दस्तावेज़ में टेक्स्ट को बदल सकते हैं, डाल सकते हैं या हटा सकते हैं:
 
 ```python
-# Replace text
+# पाठ बदलें
 text_to_replace = "replace_this"
 replacement_text = "with_this"
 doc.range.replace(text_to_replace, replacement_text, False, False)
@@ -71,13 +73,13 @@ doc.range.replace(text_to_replace, replacement_text, False, False)
 ```python
 from aspose.words import Font, Color
 
-# Apply formatting to text
+# पाठ पर स्वरूपण लागू करें
 font = paragraph.runs[0].font
 font.bold = True
 font.size = 12
 font.color = Color.red
 
-# Align paragraph
+# पैराग्राफ संरेखित करें
 paragraph.alignment = ParagraphAlignment.RIGHT
 ```
 
@@ -88,7 +90,7 @@ paragraph.alignment = ParagraphAlignment.RIGHT
 ```python
 from aspose.words import ShapeType
 
-# Insert an image
+# एक छवि डालें
 shape = section.add_shape(ShapeType.IMAGE, left, top, width, height)
 shape.image_data.set_image("image_path.png")
 ```
@@ -100,10 +102,10 @@ shape.image_data.set_image("image_path.png")
 ```python
 from aspose.words import Table, Cell
 
-# Add a table to the document
+# दस्तावेज़ में तालिका जोड़ें
 table = section.add_table()
 
-# Add rows and cells to the table
+# तालिका में पंक्तियाँ और कक्ष जोड़ें
 row = table.rows.add()
 cell = row.cells.add()
 cell.text = "Cell content"
@@ -116,7 +118,7 @@ cell.text = "Cell content"
 ```python
 from aspose.words import PageSetup
 
-# Set page size and margins
+# पृष्ठ का आकार और मार्जिन सेट करें
 page_setup = section.page_setup
 page_setup.page_width = 612
 page_setup.page_height = 792
@@ -130,7 +132,7 @@ page_setup.left_margin = 72
 ```python
 from aspose.words import HeaderFooterType
 
-# Add header and footer
+# शीर्षलेख और पादलेख जोड़ें
 header = section.headers_footers.add(HeaderFooterType.HEADER_PRIMARY)
 header_paragraph = header.append_paragraph("Header text")
 
@@ -145,10 +147,10 @@ footer_paragraph = footer.append_paragraph("Footer text")
 ```python
 from aspose.words import Hyperlink
 
-# Add a hyperlink
-hyperlink = paragraph.append_hyperlink("https://www.example.com", "यहाँ क्लिक करें")
+# हाइपरलिंक जोड़ें
+hyperlink = paragraph.append_hyperlink("https://www.example.com", "Click here")
 
-# Add a bookmark
+# बुकमार्क जोड़ें
 bookmark = paragraph.range.bookmarks.add("section1")
 ```
 
@@ -157,10 +159,10 @@ bookmark = paragraph.range.bookmarks.add("section1")
 अपने दस्तावेज़ को विभिन्न प्रारूपों में सहेजें:
 
 ```python
-# Save the document
+# दस्तावेज़ सहेजें
 doc.save("output_document.docx")
 
-# Export to PDF
+# पीडीएफ में निर्यात करें
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
 
@@ -168,7 +170,7 @@ doc.save("output_document.pdf", SaveFormat.PDF)
 
 - विभिन्न दस्तावेज़ हेरफेर कार्यों के लिए फ़ंक्शन का उपयोग करके अपने कोड को व्यवस्थित रखें।
 - दस्तावेज़ प्रसंस्करण के दौरान त्रुटियों को सुचारू रूप से संभालने के लिए अपवाद प्रबंधन का उपयोग करें।
--  जाँचें[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/python-net/) विस्तृत API संदर्भ और उदाहरण के लिए.
+- जाँचें [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/python-net/) विस्तृत API संदर्भ और उदाहरण के लिए.
 
 ## निष्कर्ष
 
@@ -186,7 +188,7 @@ pip install aspose-words
 
 ### क्या मैं Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों में छवियाँ जोड़ सकता हूँ?
 
-हां, आप Aspose.Words Python API का उपयोग करके आसानी से अपने Word दस्तावेज़ों में चित्र सम्मिलित कर सकते हैं।
+हां, आप Aspose.Words पायथन एपीआई का उपयोग करके आसानी से अपने वर्ड दस्तावेज़ों में चित्र सम्मिलित कर सकते हैं।
 
 ### क्या Aspose.Words के साथ स्वचालित रूप से दस्तावेज़ उत्पन्न करना संभव है?
 
@@ -194,7 +196,7 @@ pip install aspose-words
 
 ### मैं Aspose.Words पायथन सुविधाओं के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- Aspose.Words पायथन सुविधाओं के बारे में व्यापक जानकारी के लिए, देखें[प्रलेखन](https://reference.aspose.com/words/python-net/).
+Aspose.Words पायथन सुविधाओं के बारे में व्यापक जानकारी के लिए, देखें [प्रलेखन](https://reference.aspose.com/words/python-net/).
 
 ### मैं Aspose.Words का उपयोग करके अपने दस्तावेज़ को PDF प्रारूप में कैसे सहेजूँ?
 
@@ -203,9 +205,14 @@ pip install aspose-words
 ```python
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pindahkan Ke Penanda Akhir Di Dokumen Word
-linktitle: Pindahkan Ke Penanda Akhir Di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memindahkan ke akhir penanda halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk manipulasi dokumen yang tepat.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Pelajari cara memindahkan ke akhir penanda halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk manipulasi dokumen yang tepat."
+"linktitle": "Pindahkan Ke Penanda Akhir Di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pindahkan Ke Penanda Akhir Di Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pindahkan Ke Penanda Akhir Di Dokumen Word
@@ -21,9 +23,9 @@ Hai, rekan pembuat kode! Pernahkah Anda terjerat dalam jaringan manipulasi dokum
 
 Sebelum kita memulai, mari pastikan kita memiliki semua yang kita butuhkan:
 
--  Visual Studio: Anda dapat mengunduhnya dari[Di Sini](https://visualstudio.microsoft.com/).
--  Aspose.Words untuk .NET: Ambil dari[tautan unduhan](https://releases.aspose.com/words/net/).
--  Lisensi Aspose.Words yang valid: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
+- Visual Studio: Anda dapat mengunduhnya dari [Di Sini](https://visualstudio.microsoft.com/).
+- Aspose.Words untuk .NET: Ambil dari [tautan unduhan](https://releases.aspose.com/words/net/).
+- Lisensi Aspose.Words yang valid: Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
 
 Dan tentu saja, beberapa pengetahuan dasar tentang C# dan .NET akan sangat membantu.
 
@@ -45,11 +47,11 @@ Baiklah, mari kita uraikan ini menjadi beberapa langkah yang mudah dipahami. Set
 
 ### Buat Proyek Baru
 
- Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Beri nama seperti ini`BookmarkEndExample`Ini akan menjadi taman bermain kita untuk tutorial ini.
+Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Beri nama seperti ini `BookmarkEndExample`Ini akan menjadi taman bermain kita untuk tutorial ini.
 
 ### Instal Aspose.Words untuk .NET
 
- Selanjutnya, Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat melakukannya melalui NuGet Package Manager. Cukup cari`Aspose.Words` dan tekan install. Atau, gunakan Package Manager Console:
+Selanjutnya, Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat melakukannya melalui NuGet Package Manager. Cukup cari `Aspose.Words` dan tekan install. Atau, gunakan Package Manager Console:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Pastikan untuk mengganti`YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Pastikan untuk mengganti `YOUR DOCUMENT DIRECTORY` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 3: Inisialisasi DocumentBuilder
 
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Memahami MoveToBookmark
 
- Itu`MoveToBookmark`metode ini memungkinkan Anda untuk menavigasi ke penanda tertentu dalam dokumen Anda. Tanda tangan metode ini adalah:
+Itu `MoveToBookmark` metode ini memungkinkan Anda untuk menavigasi ke penanda tertentu dalam dokumen Anda. Tanda tangan metode ini adalah:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: Nama penanda yang ingin Anda navigasikan.
-- `isBookmarkStart` : Jika diatur ke`true`, pindah ke awal penanda buku.
-- `isBookmarkEnd` : Jika diatur ke`true`, pindah ke akhir penanda buku.
+- `isBookmarkStart`: Jika diatur ke `true`, pindah ke awal penanda buku.
+- `isBookmarkEnd`: Jika diatur ke `true`, pindah ke akhir penanda buku.
 
 ### Terapkan Metode MoveToBookmark
 
- Sekarang, mari kita pindah ke akhir penanda buku`MyBookmark1`:
+Sekarang, mari kita pindah ke akhir penanda buku `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -126,7 +128,7 @@ Terakhir, jangan lupa untuk menyimpan perubahan Anda:
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- Anda sekarang dapat membuka dokumen yang diperbarui dan melihat teks "Ini adalah penanda buku." tepat setelahnya`MyBookmark1`.
+Anda sekarang dapat membuka dokumen yang diperbarui dan melihat teks "Ini adalah penanda buku." tepat setelahnya `MyBookmark1`.
 
 ## Kesimpulan
 
@@ -136,27 +138,32 @@ Nah, itu dia! Anda baru saja mempelajari cara berpindah ke akhir penanda halaman
 
 ### 1. Bisakah saya memindahkan ke awal penanda buku dan bukan ke akhir?
 
- Tentu saja! Cukup atur`isBookmarkStart` parameter untuk`true` Dan`isBookmarkEnd` ke`false` di dalam`MoveToBookmark` metode.
+Tentu saja! Cukup atur `isBookmarkStart` parameter untuk `true` Dan `isBookmarkEnd` ke `false` di dalam `MoveToBookmark` metode.
 
 ### 2. Bagaimana jika nama penanda buku saya salah?
 
- Jika nama penanda salah atau tidak ada,`MoveToBookmark` metode akan kembali`false`, dan DocumentBuilder tidak akan berpindah ke lokasi mana pun.
+Jika nama penanda salah atau tidak ada, `MoveToBookmark` metode akan kembali `false`, dan DocumentBuilder tidak akan berpindah ke lokasi mana pun.
 
 ### 3. Dapatkah saya menyisipkan jenis konten lain di akhir penanda halaman?
 
- Ya, DocumentBuilder memungkinkan Anda memasukkan berbagai jenis konten seperti tabel, gambar, dan lainnya. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Ya, DocumentBuilder memungkinkan Anda memasukkan berbagai jenis konten seperti tabel, gambar, dan lainnya. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### 4. Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
 
- Anda bisa mendapatkan lisensi sementara dari[Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Apakah Aspose.Words untuk .NET gratis?
 
-Aspose.Words untuk .NET adalah produk komersial, tetapi Anda bisa mendapatkan uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda bisa mendapatkan uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

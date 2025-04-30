@@ -1,27 +1,29 @@
 ---
-title: Håll ihop bordet
-linktitle: Håll ihop bordet
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du förhindrar tabeller från att delas över sidor med Aspose.Words för .NET med denna steg-för-steg-guide. Säkerställ snygga, professionella Word-dokument
-weight: 10
-url: /sv/net/join-and-append-documents/keep-source-together/
+"description": "Lär dig hur du förhindrar att tabeller bryts över sidor med Aspose.Words för .NET med den här steg-för-steg-guiden. Säkerställ snygga, professionella Word-dokument."
+"linktitle": "Håll ihop bordet"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Håll ihop bordet"
+"url": "/sv/net/join-and-append-documents/keep-source-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Håll ihop bordet
 
 ## Introduktion
 
-Tabeller är en viktig del av många Word-dokument, men ibland kan du stöta på en situation där din tabell delas över två sidor. Detta kan störa flödet av ditt dokument och påverka dess läsbarhet. Skulle det inte vara trevligt om det fanns ett sätt att hålla ihop hela bordet på en sida? Tja, med Aspose.Words för .NET finns det en enkel lösning på detta problem! I den här självstudien går vi igenom hur du förhindrar att tabeller delas upp på sidorna och ser till att ditt dokument ser snyggt och professionellt ut.
+Tabeller är en viktig del av många Word-dokument, men ibland kan det hända att tabellen delas upp över två sidor. Detta kan störa dokumentets flöde och påverka dess läsbarhet. Skulle det inte vara trevligt om det fanns ett sätt att hålla hela tabellen samlad på en sida? Med Aspose.Words för .NET finns det en enkel lösning på problemet! I den här handledningen går vi igenom hur du förhindrar att tabeller delas upp över sidor, vilket säkerställer att ditt dokument ser snyggt och professionellt ut.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi hoppar in i handledningen, låt oss se till att du har allt du behöver för att följa smidigt.
+Innan vi börjar med handledningen, låt oss se till att du har allt du behöver för att följa den smidigt.
 
-### Aspose.Words för .NET Library
+### Aspose.Words för .NET-biblioteket
 
 Först måste du ha Aspose.Words för .NET installerat. Detta är det kraftfulla biblioteket som låter dig arbeta med Word-dokument programmatiskt.
 
@@ -29,33 +31,33 @@ Först måste du ha Aspose.Words för .NET installerat. Detta är det kraftfulla
 
 ### Utvecklingsmiljö
 
-Du bör ha en utvecklingsmiljö inställd för att köra C#-kod, till exempel:
+Du bör ha en utvecklingsmiljö konfigurerad för att köra C#-kod, till exempel:
 
 - Visual Studio (alla nyare versioner)
 - .NET Framework 2.0 eller senare
 
 ### Ett Word-dokument med en tabell
 
- Du behöver ett Word-dokument som innehåller en tabell. I den här handledningen kommer vi att arbeta med ett exempeldokument som heter`"Table spanning two pages.docx"`. Den här filen innehåller en tabell som för närvarande sträcker sig över två sidor.
+Du behöver ett Word-dokument som innehåller en tabell. I den här handledningen kommer vi att arbeta med ett exempeldokument som heter `"Table spanning two pages.docx"`Den här filen innehåller en tabell som för närvarande sträcker sig över två sidor.
 
 ### Tillfällig licens (valfritt)
 
- Medan Aspose.Words kommer med en gratis provperiod, kanske du vill använda en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att låsa upp bibliotekets fulla potential.
+Även om Aspose.Words har en gratis provperiod kanske du vill använda en [tillfällig licens](https://purchase.aspose.com/temporary-license/) för att frigöra bibliotekets fulla potential.
 
 ## Importera paket
 
-Innan vi skriver någon kod måste vi importera de nödvändiga namnrymden för att arbeta med Aspose.Words för .NET. Lägg till följande importer överst i din kodfil:
+Innan vi skriver någon kod måste vi importera de namnrymder som krävs för att arbeta med Aspose.Words för .NET. Lägg till följande importfiler högst upp i din kodfil:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Dessa namnrymder ger dig tillgång till klasser som`Document`, `Table`, `Cell`, och andra som vi kommer att använda i den här handledningen.
+Dessa namnrymder ger dig tillgång till klasser som `Document`, `Table`, `Cell`och andra som vi kommer att använda i den här handledningen.
 
 ## Steg 1: Ladda dokumentet
 
- Det första vi behöver göra är att ladda Word-dokumentet som innehåller tabellen. För detta kommer vi att använda`Document` klass från Aspose.Words. Denna klass låter dig öppna och manipulera Word-filer programmatiskt.
+Det första vi behöver göra är att ladda Word-dokumentet som innehåller tabellen. För detta använder vi `Document` klassen från Aspose.Words. Den här klassen låter dig öppna och manipulera Word-filer programmatiskt.
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
@@ -64,21 +66,21 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
 ```
 
- I det här kodavsnittet anger vi platsen för vårt dokument. Ersätta`"YOUR DOCUMENTS DIRECTORY"` med den faktiska katalogen där ditt dokument är lagrat.
+I det här kodavsnittet anger vi platsen för vårt dokument. Ersätt `"YOUR DOCUMENTS DIRECTORY"` med den faktiska katalogen där ditt dokument är lagrat.
 
-## Steg 2: Gå till tabellen
+## Steg 2: Åtkomst till tabellen
 
-När dokumentet är laddat är nästa steg att komma åt tabellen som vi vill hålla ihop. I det här exemplet antar vi att tabellen är den första tabellen i dokumentet.
+När dokumentet har laddats är nästa steg att komma åt tabellen som vi vill hålla ihop. I det här exemplet antar vi att tabellen är den första tabellen i dokumentet.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Denna kodrad hittar den första tabellen i dokumentet. De`GetChild` metod hämtar en specifik typ av nod, vilket i det här fallet är`NodeType.Table` . De`0` indikerar att vi vill ha den första tabellen och`true`flaggan ser till att vi söker rekursivt genom alla underordnade noder.
+Den här kodraden hittar den första tabellen i dokumentet. `GetChild` metoden hämtar en specifik typ av nod, vilket i detta fall är `NodeType.Table`Den `0` indikerar att vi vill ha den första tabellen, och `true` flaggan säkerställer att vi söker rekursivt igenom alla underordnade noder.
 
-## Steg 3: Slinga genom tabellceller
+## Steg 3: Loopa igenom tabellceller
 
-Nu måste vi gå igenom varje cell i tabellen. Eftersom en tabell innehåller flera rader och varje rad innehåller flera celler, går vi igenom varje cell och säkerställer att den inte delas över sidor.
+Nu behöver vi loopa igenom varje cell i tabellen. Eftersom en tabell innehåller flera rader och varje rad innehåller flera celler, kommer vi att iterera igenom varje cell och se till att den inte bryts över sidor.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -86,11 +88,11 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
     cell.EnsureMinimum();
 ```
 
- Här,`GetChildNodes` hämtar alla celler i tabellen, och vi går igenom var och en av dem. De`EnsureMinimum()` metod ser till att varje cell innehåller minst ett stycke, eftersom en tom cell kan orsaka problem senare.
+Här, `GetChildNodes` hämtar alla celler i tabellen, och vi loopar igenom var och en av dem. `EnsureMinimum()` Metoden ser till att varje cell innehåller minst ett stycke, eftersom en tom cell kan orsaka problem senare.
 
-## Steg 4: Ställ in KeepWithNext-egenskapen
+## Steg 4: Ställ in egenskapen KeepWithNext
 
- För att förhindra att tabellen delas över sidor måste vi ställa in`KeepWithNext` egenskap för varje stycke i tabellen. Den här egenskapen säkerställer att stycket förblir med nästa stycke, vilket effektivt förhindrar sidbrytningar mellan dem.
+För att förhindra att tabellen bryts över sidor måste vi ställa in `KeepWithNext` egenskap för varje stycke i tabellen. Den här egenskapen säkerställer att stycket stannar kvar i nästa stycke, vilket effektivt förhindrar sidbrytningar mellan dem.
 
 ```csharp
     foreach (Paragraph para in cell.Paragraphs)
@@ -98,37 +100,37 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
             para.ParagraphFormat.KeepWithNext = true;
 ```
 
- Denna loop kontrollerar varje stycke i varje cell. Villkoret säkerställer att vi inte tillämpar`KeepWithNext`egenskap till sista stycket i sista raden. Annars skulle egendomen inte ha någon effekt eftersom det inte finns något nästa stycke.
+Den här loopen kontrollerar varje stycke i varje cell. Villkoret säkerställer att vi inte tillämpar `KeepWithNext` egenskapen till det sista stycket på den sista raden. Annars skulle egenskapen inte ha någon effekt eftersom det inte finns något nästa stycke.
 
 ## Steg 5: Spara dokumentet
 
- Slutligen, efter att ha tillämpat`KeepWithNext` egenskap måste vi spara det ändrade dokumentet.
+Slutligen, efter att ha applicerat `KeepWithNext` egenskapen måste vi spara det ändrade dokumentet.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
 ```
 
-Den här raden sparar det uppdaterade dokumentet med ett nytt namn och bevarar originalfilen. Du kan nu öppna den resulterande filen och se att tabellen inte längre är uppdelad på två sidor!
+Den här raden sparar det uppdaterade dokumentet med ett nytt namn, och bevarar originalfilen. Du kan nu öppna den resulterande filen och se att tabellen inte längre är uppdelad på två sidor!
 
 ## Slutsats
 
-Och där har du det! Genom att följa dessa enkla steg kan du enkelt förhindra att tabeller delas över sidor i Word-dokument med Aspose.Words för .NET. Oavsett om du arbetar med rapporter, kontrakt eller andra dokument, garanterar att hålla tabellerna intakta ett mer polerat, professionellt utseende.
+Och där har du det! Genom att följa dessa enkla steg kan du enkelt förhindra att tabeller bryts över sidor i Word-dokument med hjälp av Aspose.Words för .NET. Oavsett om du arbetar med rapporter, kontrakt eller andra dokument, ger det ett mer polerat och professionellt utseende att behålla tabellerna intakta.
 
-Det fina med Aspose.Words är dess flexibilitet och användarvänlighet, vilket gör att du kan manipulera Word-dokument programmatiskt utan att behöva Microsoft Word installerat på din maskin. Nu när du har hunnit med att hålla ihop tabeller kan du utforska andra funktioner i biblioteket för att ta dina färdigheter i dokumentbehandling till nästa nivå!
+Det fina med Aspose.Words är dess flexibilitet och användarvänlighet, vilket gör att du kan manipulera Word-dokument programmatiskt utan att behöva Microsoft Word installerat på din dator. Nu när du har fått kläm på att hålla ihop tabeller kan du utforska andra funktioner i biblioteket för att ta dina dokumentbehandlingsfärdigheter till nästa nivå!
 
-## FAQ's
+## Vanliga frågor
 
-### Varför delas min tabell fortfarande över sidor efter att ha använt den här koden?
+### Varför bryts min tabell fortfarande över olika sidor efter att jag har använt den här koden?
 
- Om ditt bord fortfarande går sönder, se till att du har tillämpat`KeepWithNext` egendom korrekt. Dubbelkolla att alla stycken utom det sista i varje cell har denna egenskap.
+Om ditt bord fortfarande går sönder, se till att du har applicerat `KeepWithNext` egenskapen korrekt. Dubbelkolla att alla stycken utom det sista i varje cell har den här egenskapen inställd.
 
 ### Kan jag bara hålla ihop specifika rader?
 
- Ja, du kan selektivt tillämpa`KeepWithNext` egenskap till specifika rader eller stycken i tabellen för att styra vilka delar som ska hålla ihop.
+Ja, du kan selektivt tillämpa `KeepWithNext` egenskapen till specifika rader eller stycken i tabellen för att styra vilka delar som ska hållas ihop.
 
-### Fungerar den här metoden med stora bord?
+### Fungerar den här metoden med stora tabeller?
 
-För mycket stora tabeller kan Word fortfarande dela upp dem över sidor om det inte finns tillräckligt med utrymme för att få plats med hela tabellen på en sida. Överväg att justera tabellens formatering eller marginaler för att passa större tabeller.
+För mycket stora tabeller kan Word fortfarande dela upp dem över sidor om det inte finns tillräckligt med utrymme för att få plats med hela tabellen på en sida. Överväg att justera tabellens formatering eller marginaler för att anpassa den till större tabeller.
 
 ### Kan jag använda den här metoden med andra dokumentformat?
 
@@ -136,10 +138,15 @@ Ja! Aspose.Words för .NET stöder många format som DOC, DOCX, PDF och andra. S
 
 ### Är Aspose.Words för .NET ett gratis bibliotek?
 
- Aspose.Words för .NET erbjuder en gratis provperiod, men för full tillgång till alla funktioner måste du köpa en licens. Du kan utforska licensalternativ på[Aspose köpsida](https://purchase.aspose.com/buy).
+Aspose.Words för .NET erbjuder en gratis provperiod, men för fullständig åtkomst till alla funktioner måste du köpa en licens. Du kan utforska licensalternativ på [Aspose köpsida](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

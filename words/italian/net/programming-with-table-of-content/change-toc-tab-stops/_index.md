@@ -1,46 +1,48 @@
 ---
-title: Cambiare le tabulazioni del sommario nel documento Word
-linktitle: Cambiare le tabulazioni del sommario nel documento Word
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come modificare le tabulazioni del sommario nei documenti Word usando Aspose.Words per .NET. Questa guida passo passo ti aiuterà a creare un indice dall'aspetto professionale.
-weight: 10
-url: /it/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Scopri come modificare le tabulazioni del sommario nei documenti Word utilizzando Aspose.Words per .NET. Questa guida passo passo ti aiuterà a creare un indice dall'aspetto professionale."
+"linktitle": "Modificare le tabulazioni del sommario nel documento Word"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Modificare le tabulazioni del sommario nel documento Word"
+"url": "/it/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cambiare le tabulazioni del sommario nel documento Word
+# Modificare le tabulazioni del sommario nel documento Word
 
 ## Introduzione
 
-Ti sei mai chiesto come ravvivare l'indice (TOC) nei tuoi documenti Word? Forse vuoi che quelle tabulazioni siano perfettamente allineate per quel tocco professionale. Sei nel posto giusto! Oggi, ci immergiamo in profondità in come puoi cambiare le tabulazioni del TOC usando Aspose.Words per .NET. Resta e ti prometto che te ne andrai con tutto il know-how per rendere il tuo TOC elegante e ordinato.
+Ti sei mai chiesto come dare un tocco di classe al sommario (TOC) dei tuoi documenti Word? Forse desideri che le tabulazioni siano perfettamente allineate per un tocco professionale? Sei nel posto giusto! Oggi approfondiremo come modificare le tabulazioni del sommario utilizzando Aspose.Words per .NET. Rimani con noi e ti prometto che ne uscirai con tutte le competenze necessarie per rendere il tuo sommario elegante e ordinato.
 
 ## Prerequisiti
 
 Prima di iniziare, assicuriamoci di avere tutto ciò di cui hai bisogno:
 
-1.  Aspose.Words per .NET: puoi[scaricalo qui](https://releases.aspose.com/words/net/).
+1. Aspose.Words per .NET: puoi [scaricalo qui](https://releases.aspose.com/words/net/).
 2. Ambiente di sviluppo: Visual Studio o qualsiasi IDE compatibile con C#.
 3. Un documento Word: in particolare, un documento che contiene un indice.
 
-Tutto chiaro? Fantastico! Andiamo.
+Tutto chiaro? Fantastico! Si parte.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
-Per prima cosa, dovrai importare i namespace necessari. È come impacchettare gli strumenti prima di iniziare un progetto.
+Per prima cosa, dovrai importare i namespace necessari. È come preparare gli strumenti prima di iniziare un progetto.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Analizziamo questo processo in semplici passaggi digeribili. Passeremo attraverso il caricamento del documento, la modifica delle tabulazioni del sommario e il salvataggio del documento aggiornato.
+Scomponiamo questo processo in passaggi semplici e comprensibili. Passeremo dal caricamento del documento, alla modifica delle tabulazioni dell'indice e al salvataggio del documento aggiornato.
 
 ## Passaggio 1: caricare il documento
 
-Perché? Dobbiamo accedere al documento Word che contiene il sommario che vogliamo modificare.
+Perché? Dobbiamo accedere al documento Word che contiene l'indice che vogliamo modificare.
 
 Come? Ecco un semplice frammento di codice per iniziare:
 
@@ -48,17 +50,17 @@ Come? Ecco un semplice frammento di codice per iniziare:
 // Percorso alla directory dei tuoi documenti
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Carica il documento contenente l'indice
+// Carica il documento contenente il sommario
 Document doc = new Document(dataDir + "Table of contents.docx");
 ```
 
-Immagina che il tuo documento sia come una torta, e stiamo per aggiungere un po' di glassa. Il primo passo è tirare fuori la torta dalla scatola.
+Immagina che il tuo documento sia come una torta, e che stiamo per aggiungere la glassa. Il primo passo è tirare fuori la torta dalla scatola.
 
 ## Passaggio 2: identificare i paragrafi dell'indice
 
 Perché? Dobbiamo individuare i paragrafi che compongono l'indice. 
 
-Come? Scorri i paragrafi e controlla i loro stili:
+Come? Scorre i paragrafi e controllane lo stile:
 
 ```csharp
 foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -71,11 +73,11 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Immagina di scandagliare una folla per trovare i tuoi amici. Qui, stiamo cercando paragrafi formattati come voci di indice.
+Immagina di scandagliare una folla alla ricerca dei tuoi amici. Qui, stiamo cercando paragrafi formattati come voci di indice.
 
 ## Passaggio 3: modificare le tabulazioni
 
-Perché? È qui che avviene la magia. Cambiare i tab stop conferisce al TOC un aspetto più pulito.
+Perché? È qui che avviene la magia. Cambiare le tabulazioni conferisce al tuo indice un aspetto più pulito.
 
 Come? Rimuovi la tabulazione esistente e aggiungine una nuova in una posizione modificata:
 
@@ -92,11 +94,11 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-È come regolare i mobili del tuo soggiorno finché non ti sembrano perfetti. Stiamo modificando quei fermi di tabulazione per renderli perfetti.
+È come regolare i mobili del soggiorno finché non ti sembrano perfetti. Stiamo perfezionando quei fermi.
 
 ## Passaggio 4: salvare il documento modificato
 
-Perché? Per assicurarti che tutto il tuo duro lavoro venga salvato e possa essere visualizzato o condiviso.
+Perché? Per garantire che tutto il tuo duro lavoro venga salvato e possa essere visualizzato o condiviso.
 
 Come? Salva il documento con un nuovo nome per mantenere intatto l'originale:
 
@@ -105,31 +107,36 @@ Come? Salva il documento con un nuovo nome per mantenere intatto l'originale:
 doc.Save(dataDir + "WorkingWithTableOfContent.ChangeTocTabStops.docx");
 ```
 
-Ed ecco fatto! Il tuo TOC ora ha le tabulazioni esattamente dove le vuoi.
+Ed ecco fatto! Il tuo indice ora ha le tabulazioni esattamente dove vuoi.
 
 ## Conclusione
 
-Cambiare le tabulazioni del TOC in un documento Word usando Aspose.Words per .NET è semplice una volta che lo si scompone. Caricando il documento, identificando i paragrafi del TOC, modificando le tabulazioni e salvando il documento, è possibile ottenere un aspetto raffinato e professionale. Ricorda, la pratica rende perfetti, quindi continua a sperimentare con diverse posizioni di tabulazione per ottenere esattamente il layout desiderato.
+Modificare le tabulazioni dell'indice in un documento Word utilizzando Aspose.Words per .NET è semplice, una volta che si è capito come funziona. Caricando il documento, identificando i paragrafi dell'indice, modificando le tabulazioni e salvando il documento, è possibile ottenere un aspetto curato e professionale. Ricordate, la pratica rende perfetti, quindi continuate a sperimentare diverse posizioni delle tabulazioni per ottenere il layout desiderato.
 
 ## Domande frequenti
 
 ### Posso modificare separatamente le tabulazioni per diversi livelli di indice?
-Sì, puoi! Basta controllare ogni livello TOC specifico (Toc1, Toc2, ecc.) e regolarti di conseguenza.
+Certo che puoi! Basta controllare ogni livello di TOC specifico (Toc1, Toc2, ecc.) e regolarlo di conseguenza.
 
-### Cosa succede se il mio documento contiene più indici?
+### Cosa succede se il mio documento ha più indici?
 Il codice analizza tutti i paragrafi in stile indice, quindi modificherà tutti gli indici presenti nel documento.
 
-### È possibile aggiungere più tabulazioni in una voce dell'indice?
- Assolutamente! Puoi aggiungere tutti i tab stop che desideri regolando il`para.ParagraphFormat.TabStops` collezione.
+### È possibile aggiungere più tabulazioni in una voce di indice?
+Assolutamente! Puoi aggiungere tutti i punti di tabulazione che desideri regolando il `para.ParagraphFormat.TabStops` collezione.
 
 ### Posso modificare l'allineamento della tabulazione e lo stile della riga di intestazione?
-Sì, puoi specificare allineamenti e stili di carattere diversi quando aggiungi una nuova tabulazione.
+Sì, puoi specificare allineamenti e stili di riga diversi quando aggiungi una nuova tabulazione.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Words per .NET?
- Sì, hai bisogno di una licenza valida per usare Aspose.Words for .NET oltre il periodo di prova. Puoi ottenere una[licenza temporanea](https://purchase.aspose.com/temporary-license/) O[comprane uno](https://purchase.aspose.com/buy).
+Sì, è necessaria una licenza valida per utilizzare Aspose.Words per .NET oltre il periodo di prova. È possibile ottenere una [licenza temporanea](https://purchase.aspose.com/tempOary-license/) or [comprane uno](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

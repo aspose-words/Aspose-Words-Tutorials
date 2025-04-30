@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole bloku adresu korespondencji seryjnej za pomocą DOM
-linktitle: Wstaw pole bloku adresu korespondencji seryjnej za pomocą DOM
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić pole bloku adresu korespondencji seryjnej do dokumentów programu Word za pomocą programu Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/
+"description": "Dowiedz się, jak wstawić pole bloku adresu korespondencji seryjnej do dokumentów programu Word za pomocą programu Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Wstaw pole bloku adresu korespondencji seryjnej za pomocą DOM"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole bloku adresu korespondencji seryjnej za pomocą DOM"
+"url": "/pl/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole bloku adresu korespondencji seryjnej za pomocą DOM
@@ -21,10 +23,10 @@ Czy kiedykolwiek zastanawiałeś się, jak wydajnie zarządzać dokumentami Word
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio.
 3. Podstawowa znajomość języka C#: W tym przewodniku założono, że znasz już programowanie w języku C#.
-4.  Licencja Aspose: Możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/) lub uzyskaj tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja Aspose: Możesz skorzystać z bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/) lub uzyskaj tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -66,7 +68,7 @@ builder.MoveTo(para);
 
 ## Krok 4: Wstaw pole bloku adresu
 
-Tutaj dzieje się magia. Wstawimy pole Mail Merge Address Block za pomocą kreatora.`InsertField` Metoda ta jest używana do utworzenia pola.
+Tutaj dzieje się magia. Wstawimy pole Mail Merge Address Block za pomocą kreatora. `InsertField` Metoda ta jest używana do utworzenia pola.
 
 ```csharp
 FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.FieldAddressBlock, false);
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithFields.InsertMailMergeAddressBlockFieldUsingDOM.d
 
 ## Wniosek
 
-masz! Udało Ci się wstawić pole Mail Merge Address Block do dokumentu Word przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami Word, oszczędzając czas i wysiłek. Eksperymentuj z innymi funkcjami Aspose.Words, aby odblokować jeszcze większy potencjał w zadaniach przetwarzania dokumentów.
+I masz! Udało Ci się wstawić pole Mail Merge Address Block do dokumentu Word przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami Word, oszczędzając czas i wysiłek. Eksperymentuj z innymi funkcjami Aspose.Words, aby odblokować jeszcze większy potencjał w zadaniach przetwarzania dokumentów.
 
 ## Najczęściej zadawane pytania
 
@@ -119,19 +121,24 @@ masz! Udało Ci się wstawić pole Mail Merge Address Block do dokumentu Word pr
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edycję, konwertowanie i drukowanie dokumentów Word programowo przy użyciu aplikacji .NET.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/) . Do dłuższego użytkowania możesz rozważyć zakup licencji[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/). Do dłuższego użytkowania możesz rozważyć zakup licencji [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czym jest blok adresów korespondencji seryjnej?
 Blok adresu korespondencji seryjnej to pole w programie Word, które umożliwia wstawianie informacji adresowych ze źródła danych, sformatowanych w określony sposób, co czyni je idealnymi do generowania spersonalizowanych listów lub etykiet.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words?
- Możesz uzyskać wsparcie od społeczności Aspose i zespołu technicznego[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose i zespołu technicznego [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę zautomatyzować inne aspekty dokumentów Word za pomocą Aspose.Words?
-Oczywiście! Aspose.Words dla .NET oferuje szeroki zakres funkcji do automatyzacji generowania, edytowania, konwersji i innych czynności w dokumentach. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Oczywiście! Aspose.Words dla .NET oferuje szeroki zakres funkcji do automatyzacji generowania, edytowania, konwersji i innych czynności w dokumentach. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

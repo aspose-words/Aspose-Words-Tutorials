@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi hình dạng sang Office Math
-linktitle: Chuyển đổi hình dạng sang Office Math
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi hình dạng thành Office Math trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Cải thiện định dạng tài liệu của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-loadoptions/convert-shape-to-office-math/
+"description": "Tìm hiểu cách chuyển đổi hình dạng thành Office Math trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Cải thiện định dạng tài liệu của bạn một cách dễ dàng."
+"linktitle": "Chuyển đổi hình dạng sang Office Math"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi hình dạng sang Office Math"
+"url": "/vi/net/programming-with-loadoptions/convert-shape-to-office-math/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi hình dạng sang Office Math
@@ -21,7 +23,7 @@ Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể 
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ IDE nào hỗ trợ .NET, chẳng hạn như Visual Studio.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
 - Tài liệu Word: Tài liệu Word chứa các hình dạng mà bạn muốn chuyển đổi sang Office Math.
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { ConvertShapeToOfficeMath = true };
 ```
 
- Trong bước này, chúng tôi chỉ định thư mục chứa tài liệu của chúng tôi và cấu hình các tùy chọn tải.`ConvertShapeToOfficeMath` thuộc tính được thiết lập thành`true` để kích hoạt chuyển đổi.
+Trong bước này, chúng tôi chỉ định thư mục nơi tài liệu của chúng tôi được lưu trữ và cấu hình các tùy chọn tải. `ConvertShapeToOfficeMath` thuộc tính được thiết lập thành `true` để kích hoạt chuyển đổi.
 
 ## Bước 2: Tải tài liệu
 
@@ -60,7 +62,7 @@ Tiếp theo, chúng ta sẽ tải tài liệu với các tùy chọn đã chỉ 
 Document doc = new Document(dataDir + "Office math.docx", loadOptions);
 ```
 
- Ở đây, chúng tôi sử dụng`Document` lớp để tải tài liệu Word của chúng tôi.`loadOptions`tham số đảm bảo rằng mọi hình dạng trong tài liệu đều được chuyển đổi sang Office Math trong quá trình tải.
+Ở đây, chúng tôi sử dụng `Document` lớp để tải tài liệu Word của chúng tôi. `loadOptions` tham số đảm bảo rằng mọi hình dạng trong tài liệu đều được chuyển đổi sang Office Math trong quá trình tải.
 
 ## Bước 3: Lưu tài liệu
 
@@ -71,7 +73,7 @@ Cuối cùng, chúng ta sẽ lưu tài liệu theo định dạng mong muốn.
 doc.Save(dataDir + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx", SaveFormat.Docx);
 ```
 
- Trong bước này, chúng tôi lưu tài liệu đã sửa đổi trở lại thư mục.`SaveFormat.Docx` đảm bảo tài liệu được lưu ở định dạng DOCX.
+Trong bước này, chúng tôi lưu tài liệu đã sửa đổi trở lại thư mục. `SaveFormat.Docx` đảm bảo tài liệu được lưu ở định dạng DOCX.
 
 ## Phần kết luận
 
@@ -92,11 +94,16 @@ Có, hãy đảm bảo bạn có phiên bản Aspose.Words mới nhất cho .NET
 Aspose.Words for .NET được thiết kế để sử dụng với các ngôn ngữ .NET, chủ yếu là C#. Tuy nhiên, các chức năng tương tự có sẵn trong các API Aspose.Words khác cho các ngôn ngữ khác nhau.
 
 ### Có bản dùng thử miễn phí Aspose.Words không?  
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

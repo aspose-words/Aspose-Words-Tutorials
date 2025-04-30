@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Table And Cell With Different Borders
@@ -152,9 +155,13 @@ While Aspose.Words doesn’t directly support images as cell backgrounds, you ca
 ### How do I merge cells in a table?
 You can merge cells using the `CellFormat.HorizontalMerge` and `CellFormat.VerticalMerge` properties.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

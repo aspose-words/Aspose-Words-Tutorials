@@ -1,14 +1,16 @@
 ---
-title: Quy tắc ngang
-linktitle: Quy tắc ngang
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm các quy tắc ngang trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết từng bước này để cải thiện bố cục tài liệu của bạn.
-weight: 10
-url: /vi/net/working-with-markdown/horizontal-rule/
+"description": "Tìm hiểu cách thêm các quy tắc ngang trong tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết từng bước này để cải thiện bố cục tài liệu của bạn."
+"linktitle": "Quy tắc ngang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Quy tắc ngang"
+"url": "/vi/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quy tắc ngang
@@ -21,7 +23,7 @@ Bạn đã bao giờ muốn thêm một chút chuyên nghiệp vào tài liệu 
 
 Trước khi đi vào hướng dẫn từng bước, hãy đảm bảo rằng bạn có mọi thứ mình cần.
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn sẽ cần thiết lập môi trường phát triển .NET trên máy của mình. Visual Studio là một lựa chọn tuyệt vời.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và .NET.
 
@@ -73,13 +75,18 @@ Có, Aspose.Words cho phép bạn tùy chỉnh kiểu dáng, chiều rộng, chi
 Bạn cần một môi trường phát triển .NET như Visual Studio và một bản sao của Aspose.Words cho .NET.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET là một sản phẩm trả phí, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Aspose.Words cho .NET là một sản phẩm trả phí, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

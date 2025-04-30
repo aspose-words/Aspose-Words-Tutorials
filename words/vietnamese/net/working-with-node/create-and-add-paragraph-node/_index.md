@@ -1,28 +1,30 @@
 ---
-title: Tạo và thêm nút đoạn văn
-linktitle: Tạo và thêm nút đoạn văn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo và thêm nút đoạn văn vào tài liệu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/working-with-node/create-and-add-paragraph-node/
+"description": "Tìm hiểu cách tạo và thêm nút đoạn văn vào tài liệu bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Tạo và thêm nút đoạn văn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo và thêm nút đoạn văn"
+"url": "/vi/net/working-with-node/create-and-add-paragraph-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo và thêm nút đoạn văn
 
 ## Giới thiệu
 
-Xin chào, các lập trình viên! Bạn đã sẵn sàng khám phá thế giới tuyệt vời của việc xử lý tài liệu bằng Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ giải quyết một nhiệm vụ quan trọng: tạo và thêm một nút đoạn văn vào tài liệu của bạn. Đây là một kỹ năng cơ bản dành cho bất kỳ ai muốn tạo tài liệu động theo chương trình. Cho dù bạn đang soạn thảo báo cáo, tạo hóa đơn hay tạo ra một số tài liệu Word đẹp mắt, bạn phải biết cách xử lý các đoạn văn. Vậy thì, hãy xắn tay áo lên và bắt đầu thôi!
+Xin chào, các lập trình viên! Bạn đã sẵn sàng khám phá thế giới tuyệt vời của việc xử lý tài liệu bằng Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ giải quyết một nhiệm vụ thiết yếu: tạo và thêm một nút đoạn văn vào tài liệu của bạn. Đây là một kỹ năng cơ bản dành cho bất kỳ ai muốn tạo tài liệu động theo chương trình. Cho dù bạn đang soạn thảo báo cáo, tạo hóa đơn hay tạo ra một số tài liệu Word đẹp mắt, bạn phải biết cách xử lý các đoạn văn. Vậy thì, hãy xắn tay áo lên và bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra của bạn:
 
-1.  Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống từ[địa điểm](https://visualstudio.microsoft.com/).
-2.  Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải xuống và cài đặt Aspose.Words cho .NET. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/words/net/). Nếu bạn mới bắt đầu, bạn có thể sử dụng bản dùng thử miễn phí.
+1. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể tải xuống từ [địa điểm](https://visualstudio.microsoft.com/).
+2. Aspose.Words cho .NET: Nếu bạn chưa có, hãy tải xuống và cài đặt Aspose.Words cho .NET. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/words/net/). Nếu bạn mới bắt đầu, bạn có thể sử dụng bản dùng thử miễn phí.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ rất hữu ích.
 
 Bạn đã hiểu hết chưa? Tuyệt! Chúng ta hãy chuyển sang nhập các không gian tên cần thiết.
@@ -62,7 +64,7 @@ Section section = doc.LastSection;
 
 ## Bước 4: Thêm Đoạn văn vào Phần
 
-Bây giờ, hãy thêm đoạn văn vào phần thân của phần. Đây là nơi phép thuật xảy ra, vì đoạn văn của bạn trở thành một phần của cấu trúc tài liệu.
+Bây giờ, hãy thêm đoạn văn vào phần thân của phần. Đây là nơi phép thuật xảy ra, khi đoạn văn của bạn trở thành một phần của cấu trúc tài liệu.
 
 ```csharp
 section.Body.AppendChild(para);
@@ -81,16 +83,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 Có, Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và C#.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
-Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm hỗ trợ của họ thông qua[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và nhóm hỗ trợ của họ thông qua [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words cho .NET có thể xử lý được các tài liệu lớn không?
 Hoàn toàn đúng! Aspose.Words for .NET được thiết kế để xử lý hiệu quả các tài liệu lớn, lý tưởng cho các ứng dụng cấp doanh nghiệp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

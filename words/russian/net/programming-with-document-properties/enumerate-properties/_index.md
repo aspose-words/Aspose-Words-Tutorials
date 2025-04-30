@@ -1,14 +1,16 @@
 ---
-title: Перечислить свойства
-linktitle: Перечислить свойства
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как перечислить свойства в документе Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков всех уровней квалификации.
-weight: 10
-url: /ru/net/programming-with-document-properties/enumerate-properties/
+"description": "Узнайте, как перечислить свойства в документе Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков всех уровней квалификации."
+"linktitle": "Перечислить свойства"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Перечислить свойства"
+"url": "/ru/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Перечислить свойства
@@ -19,9 +21,9 @@ url: /ru/net/programming-with-document-properties/enumerate-properties/
 
 ## Предпосылки
 
-Прежде чем мы углубимся в руководство, вам понадобится выполнить несколько действий:
+Прежде чем мы углубимся в обучение, вам понадобится выполнить несколько действий:
 
--  Aspose.Words для .NET: Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: рекомендуется Visual Studio, но вы можете использовать любую C# IDE.
 - Базовые знания C#: Фундаментальное понимание C# поможет вам в дальнейшем изучении.
 
@@ -32,7 +34,7 @@ url: /ru/net/programming-with-document-properties/enumerate-properties/
 Прежде всего, вам необходимо настроить свой проект в Visual Studio.
 
 1. Создайте новый проект: откройте Visual Studio и создайте новый проект консольного приложения.
-2. Установите Aspose.Words для .NET: используйте NuGet Package Manager для установки Aspose.Words для .NET. Щелкните правой кнопкой мыши по проекту в обозревателе решений, выберите «Управление пакетами NuGet» и найдите «Aspose.Words». Установите пакет.
+2. Установите Aspose.Words для .NET: используйте NuGet Package Manager для установки Aspose.Words для .NET. Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений, выберите «Управление пакетами NuGet» и найдите «Aspose.Words». Установите пакет.
 
 ## Шаг 2: Импорт пространств имен
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 Далее давайте загрузим документ Word, с которым вы хотите работать. Для этого примера мы будем использовать документ с именем "Properties.docx", расположенный в каталоге вашего проекта.
 
 1. Определите путь к документу: укажите путь к вашему документу.
-2.  Загрузите документ: используйте Aspose.Words`Document` класс для загрузки документа.
+2. Загрузите документ: используйте Aspose.Words `Document` класс для загрузки документа.
 
 Вот код:
 
@@ -71,7 +73,7 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 Встроенные свойства — это свойства метаданных, предопределенные Microsoft Word. Они включают название, автора и т. д.
 
-1.  Доступ к встроенным свойствам: используйте`BuiltInDocumentProperties` коллекция.
+1. Доступ к встроенным свойствам: используйте `BuiltInDocumentProperties` коллекция.
 2. Цикл по свойствам: перебор свойств и отображение их имен и значений.
 
 Вот код:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 Пользовательские свойства — это определяемые пользователем свойства метаданных. Это может быть все, что вы хотите добавить в свой документ.
 
-1.  Доступ к пользовательским свойствам: используйте`CustomDocumentProperties` коллекция.
+1. Доступ к пользовательским свойствам: используйте `CustomDocumentProperties` коллекция.
 2. Цикл по свойствам: перебор свойств и отображение их имен и значений.
 
 Вот код:
@@ -106,23 +108,28 @@ foreach (DocumentProperty prop in doc.CustomDocumentProperties)
 ## Часто задаваемые вопросы
 
 ### Могу ли я добавить новые свойства в документ?
- Да, вы можете добавлять новые пользовательские свойства, используя`CustomDocumentProperties` коллекция.
+Да, вы можете добавлять новые пользовательские свойства, используя `CustomDocumentProperties` коллекция.
 
 ### Можно ли использовать Aspose.Words бесплатно?
- Aspose.Words предлагает[бесплатная пробная версия](https://releases.aspose.com/) и разные[варианты покупки](https://purchase.aspose.com/buy).
+Aspose.Words предлагает [бесплатная пробная версия](https://releases.aspose.com/) и разные [варианты покупки](https://purchase.aspose.com/buy).
 
 ### Как получить поддержку по Aspose.Words?
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
 
 ### Могу ли я использовать Aspose.Words с другими языками .NET?
 Да, Aspose.Words поддерживает несколько языков .NET, включая VB.NET.
 
 ### Где я могу найти больше примеров?
- Проверьте[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробной информации.
+Проверьте [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробной информации.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

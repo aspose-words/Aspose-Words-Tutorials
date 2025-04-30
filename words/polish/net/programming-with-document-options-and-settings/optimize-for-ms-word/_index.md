@@ -1,14 +1,16 @@
 ---
-title: Zoptymalizuj dla programu Ms Word
-linktitle: Zoptymalizuj dla programu Ms Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Z łatwością zoptymalizujesz dokumenty Word dla różnych wersji programu MS Word za pomocą Aspose.Words for .NET dzięki temu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/optimize-for-ms-word/
+"description": "Z łatwością zoptymalizujesz dokumenty Word dla różnych wersji programu MS Word za pomocą Aspose.Words for .NET dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Zoptymalizuj dla programu Ms Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zoptymalizuj dla programu Ms Word"
+"url": "/pl/net/programming-with-document-options-and-settings/optimize-for-ms-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zoptymalizuj dla programu Ms Word
@@ -21,7 +23,7 @@ Cześć! Czy kiedykolwiek zastanawiałeś się, jak sprawić, by Twoje dokumenty
 
 Zanim zaczniemy brudzić sobie ręce, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 3. Podstawowa znajomość języka C#: Nie musisz być czarodziejem, ale dobra znajomość języka C# będzie pomocna.
 
@@ -79,20 +81,25 @@ masz! Za pomocą zaledwie kilku linijek kodu zoptymalizowałeś swój dokument p
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie dokumentów Word.
 
 ### Czy mogę zoptymalizować działanie programu MS Word pod kątem innych wersji?
- Oczywiście! Aspose.Words obsługuje wiele wersji. Wystarczy zastąpić`MsWordVersion.Word2016` z wersją, której potrzebujesz.
+Oczywiście! Aspose.Words obsługuje wiele wersji. Wystarczy zastąpić `MsWordVersion.Word2016` z wersją, której potrzebujesz.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Możesz wypróbować go za darmo, używając[licencja tymczasowa](https://purchase.aspose.com/temporary-license/), ale w celu długoterminowego użytkowania musisz zakupić licencję.
+Możesz wypróbować go za darmo, używając [licencja tymczasowa](https://purchase.aspose.com/temporary-license/), ale w celu długoterminowego użytkowania musisz zakupić licencję.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
 
 ### A co jeśli będę potrzebować pomocy?
- Jeśli napotkasz jakiekolwiek problemy, zawsze możesz zwrócić się o pomoc na[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Jeśli napotkasz jakiekolwiek problemy, zawsze możesz zwrócić się o pomoc na [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

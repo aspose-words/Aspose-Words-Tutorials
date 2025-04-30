@@ -1,14 +1,16 @@
 ---
-title: Добавить документ к пустому
-linktitle: Добавить документ к пустому
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как легко добавить документ к пустому с помощью Aspose.Words для .NET. Пошаговое руководство, фрагменты кода и часто задаваемые вопросы включены.
-weight: 10
-url: /ru/net/join-and-append-documents/append-document-to-blank/
+"description": "Узнайте, как легко добавить документ к пустому с помощью Aspose.Words для .NET. Пошаговое руководство, фрагменты кода и часто задаваемые вопросы включены."
+"linktitle": "Добавить документ к пустому"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить документ к пустому"
+"url": "/ru/net/join-and-append-documents/append-document-to-blank/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить документ к пустому
@@ -21,11 +23,11 @@ url: /ru/net/join-and-append-documents/append-document-to-blank/
 
 Прежде чем мы перейдем к деталям, вам необходимо иметь под рукой несколько вещей:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[Релизы Aspose](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [Релизы Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 3. Базовое понимание C#: хотя мы и постараемся упростить материал, небольшое знакомство с C# будет иметь большое значение.
 4. Исходный документ: документ Word, который вы хотите добавить к пустому документу.
-5.  Лицензия (необязательно): Если вы не используете пробную версию, вам может понадобиться[временная лицензия](https://purchase.aspose.com/temporary-license/) или[полная лицензия](https://purchase.aspose.com/buy).
+5. Лицензия (необязательно): Если вы не используете пробную версию, вам может понадобиться [временная лицензия](https://purchase.aspose.com/temporary-license/) или [полная лицензия](https://purchase.aspose.com/buy).
 
 ## Импорт пространств имен
 
@@ -72,7 +74,7 @@ using Aspose.Words;
    Document srcDoc = new Document(dataDir + "Document source.docx");
    ```
 
- Этот фрагмент загружает исходный документ в`Document` объект, который мы добавим к нашему пустому документу на следующих шагах.
+Этот фрагмент загружает исходный документ в `Document` объект, который мы добавим к нашему пустому документу на следующих шагах.
 
 ## Шаг 3: Создайте и подготовьте документ о месте назначения
 
@@ -124,15 +126,15 @@ using Aspose.Words;
 
 ### Могу ли я прикрепить несколько документов к одному целевому документу?
 
-Да, вы можете добавить несколько документов, повторно вызвав`AppendDocument` метод для каждого документа.
+Да, вы можете добавить несколько документов, повторно вызвав `AppendDocument` метод для каждого документа.
 
 ### Что произойдет, если исходный документ имеет другое форматирование?
 
- The`ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа при добавлении.
+The `ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа при добавлении.
 
 ### Нужна ли мне лицензия для использования Aspose.Words?
 
- Вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенных функций.
+Вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенных функций.
 
 ### Могу ли я прикреплять документы разных типов, например DOCX и DOC?
 
@@ -141,9 +143,14 @@ using Aspose.Words;
 ### Как устранить неполадки, если приложенный документ выглядит неправильно?
 
 Проверьте, полностью ли пуст целевой документ перед добавлением. Любое оставшееся содержимое может вызвать проблемы с форматированием.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

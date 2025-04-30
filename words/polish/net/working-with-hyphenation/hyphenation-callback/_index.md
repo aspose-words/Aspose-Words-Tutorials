@@ -1,14 +1,16 @@
 ---
-title: Wywołanie zwrotne dzielenia wyrazów
-linktitle: Wywołanie zwrotne dzielenia wyrazów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Naucz się implementować funkcję zwrotną dzielenia wyrazów w Aspose.Words dla platformy .NET, aby ulepszyć formatowanie dokumentów, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-hyphenation/hyphenation-callback/
+"description": "Naucz się implementować funkcję zwrotną dzielenia wyrazów w Aspose.Words dla platformy .NET, aby ulepszyć formatowanie dokumentów, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Wywołanie zwrotne dzielenia wyrazów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wywołanie zwrotne dzielenia wyrazów"
+"url": "/pl/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wywołanie zwrotne dzielenia wyrazów
@@ -22,11 +24,11 @@ Cześć! Czy kiedykolwiek znalazłeś się w pułapce zawiłości formatowania t
 
 Zanim zaczniemy pisać kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. IDE: Środowisko programistyczne podobne do Visual Studio.
 3. Podstawowa wiedza o języku C#: zrozumienie języka C# i platformy .NET.
 4. Słowniki dzielenia wyrazów: słowniki dzielenia wyrazów dla języków, których planujesz używać.
-5.  Licencja Aspose: Ważna licencja Aspose. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
+5. Licencja Aspose: Ważna licencja Aspose. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
 
 ## Importuj przestrzenie nazw
 
@@ -54,7 +56,7 @@ catch (Exception e)
 }
 ```
 
- Tutaj tworzymy wystąpienie naszego niestandardowego wywołania zwrotnego i przypisujemy je do`Hyphenation.Callback`.
+Tutaj tworzymy wystąpienie naszego niestandardowego wywołania zwrotnego i przypisujemy je do `Hyphenation.Callback`.
 
 ## Krok 2: Zdefiniuj ścieżkę dokumentu
 
@@ -64,7 +66,7 @@ Następnie musimy zdefiniować katalog, w którym przechowywane są nasze dokume
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
 
 ## Krok 3: Załaduj dokument
 
@@ -74,7 +76,7 @@ Teraz wczytajmy dokument, który wymaga podziału wyrazów.
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Tutaj ładujemy niemiecki dokument tekstowy. Możesz zastąpić`"German text.docx"` z nazwą pliku Twojego dokumentu.
+Tutaj ładujemy niemiecki dokument tekstowy. Możesz zastąpić `"German text.docx"` nazwą pliku Twojego dokumentu.
 
 ## Krok 4: Zapisz dokument
 
@@ -105,7 +107,7 @@ W tym bloku wychwytujemy konkretny wyjątek związany z brakującymi słownikami
 
 ## Krok 6: Implementacja niestandardowej klasy wywołania zwrotnego dzielenia wyrazów
 
- Teraz wdrożymy`CustomHyphenationCallback` klasa, która obsługuje żądania słowników dzielenia wyrazów.
+Teraz wdrożymy `CustomHyphenationCallback` klasa, która obsługuje żądania słowników dzielenia wyrazów.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -131,7 +133,7 @@ public class CustomHyphenationCallback : IHyphenationCallback
 }
 ```
 
- W tej klasie`RequestDictionary` Metoda jest wywoływana zawsze, gdy potrzebny jest słownik łącznikowy. Sprawdza język i rejestruje odpowiedni słownik.
+W tej klasie `RequestDictionary` Metoda jest wywoływana zawsze, gdy potrzebny jest słownik łącznikowy. Sprawdza język i rejestruje odpowiedni słownik.
 
 ## Wniosek
 
@@ -140,22 +142,27 @@ masz to! Właśnie nauczyłeś się, jak zaimplementować wywołanie zwrotne dzi
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Words dla .NET?
-Aspose.Words for .NET to zaawansowana biblioteka do manipulowania dokumentami, która umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów.
+Aspose.Words for .NET to potężna biblioteka do manipulowania dokumentami, która umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów.
 
 ### Dlaczego dzielenie wyrazów jest ważne w formatowaniu dokumentów?
 Funkcja dzielenia wyrazów poprawia układ tekstu, dzieląc słowa w odpowiednich miejscach, co zapewnia bardziej czytelny i atrakcyjny wizualnie dokument.
 
 ### Czy mogę używać Aspose.Words za darmo?
- Aspose.Words oferuje bezpłatną wersję próbną. Możesz ją otrzymać[Tutaj](https://releases.aspose.com/).
+Aspose.Words oferuje bezpłatną wersję próbną. Możesz ją otrzymać [Tutaj](https://releases.aspose.com/).
 
 ### Jak zdobyć słownik dzielenia wyrazów?
 Możesz pobrać słowniki dzielenia wyrazów z różnych źródeł online lub, jeśli zajdzie taka potrzeba, utworzyć swój własny.
 
 ### Co się stanie, jeśli brakuje słownika dzielenia wyrazów?
- Jeśli brakuje słownika,`RequestDictionary`Metoda zgłasza wyjątek, który można obsłużyć, informując o nim użytkownika lub zapewniając rozwiązanie awaryjne.
+Jeśli brakuje słownika, `RequestDictionary` Metoda zgłasza wyjątek, który można obsłużyć, informując o nim użytkownika lub zapewniając rozwiązanie awaryjne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

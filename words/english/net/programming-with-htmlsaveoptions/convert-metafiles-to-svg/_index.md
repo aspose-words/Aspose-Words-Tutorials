@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/convert-metafiles-to-svg/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Metafiles To Svg
@@ -119,9 +122,13 @@ Yes, Aspose.Words supports converting various image formats, including metafiles
 You can find detailed documentation on the [Aspose documentation page](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

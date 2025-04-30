@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ में Chm फ़ाइलें लोड करें
-linktitle: Word दस्तावेज़ में Chm फ़ाइलें लोड करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके आसानी से CHM फ़ाइलों को Word दस्तावेज़ों में लोड करें। अपने तकनीकी दस्तावेज़ों को समेकित करने के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-loadoptions/load-chm/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके आसानी से CHM फ़ाइलों को Word दस्तावेज़ों में लोड करें। अपने तकनीकी दस्तावेज़ों को समेकित करने के लिए बिल्कुल सही।"
+"linktitle": "Word दस्तावेज़ में Chm फ़ाइलें लोड करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Word दस्तावेज़ में Chm फ़ाइलें लोड करें"
+"url": "/hi/net/programming-with-loadoptions/load-chm/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ में Chm फ़ाइलें लोड करें
@@ -20,7 +22,7 @@ url: /hi/net/programming-with-loadoptions/load-chm/
 ## आवश्यक शर्तें
 
 इससे पहले कि हम चरणों में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीजें मौजूद हैं:
--  .NET के लिए Aspose.Words: आप कर सकते हैं[लाइब्रेरी डाउनलोड करें](https://releases.aspose.com/words/net/) साइट से.
+- .NET के लिए Aspose.Words: आप कर सकते हैं [लाइब्रेरी डाउनलोड करें](https://releases.aspose.com/words/net/) साइट से.
 - .NET विकास वातावरण: विजुअल स्टूडियो या आपकी पसंद का कोई अन्य IDE.
 - CHM फ़ाइल: वह CHM फ़ाइल जिसे आप Word दस्तावेज़ में लोड करना चाहते हैं।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा और .NET फ्रेमवर्क से परिचित होना।
@@ -68,7 +70,7 @@ LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.GetEncoding("win
 
 आपके लोड विकल्प कॉन्फ़िगर होने के बाद, अगला चरण CHM फ़ाइल को Aspose.Words दस्तावेज़ ऑब्जेक्ट में लोड करना है।
 
-1.  दस्तावेज़ ऑब्जेक्ट बनाएँ: का उपयोग करें`Document` क्लास का उपयोग करके अपनी CHM फ़ाइल को निर्दिष्ट विकल्पों के साथ लोड करें।
+1. दस्तावेज़ ऑब्जेक्ट बनाएँ: का उपयोग करें `Document` क्लास का उपयोग करके अपनी CHM फ़ाइल को निर्दिष्ट विकल्पों के साथ लोड करें।
 
 ```csharp
 Document doc = new Document(dataDir + "HTML help.chm", loadOptions);
@@ -89,7 +91,7 @@ catch (Exception ex)
 
 ## चरण 4: दस्तावेज़ सहेजें
 
- एक बार आपकी CHM फ़ाइल लोड हो जाए`Document` ऑब्जेक्ट को वर्ड डॉक्यूमेंट के रूप में सेव कर सकते हैं।
+एक बार आपकी CHM फ़ाइल लोड हो जाए `Document` ऑब्जेक्ट को वर्ड डॉक्यूमेंट के रूप में सेव कर सकते हैं।
 
 1. आउटपुट पथ निर्दिष्ट करें: वह पथ परिभाषित करें जहाँ आप Word दस्तावेज़ को सहेजना चाहते हैं।
 
@@ -97,7 +99,7 @@ catch (Exception ex)
 string outputPath = dataDir + "LoadedCHM.docx";
 ```
 
-2.  दस्तावेज़ सहेजें: का उपयोग करें`Save` की विधि`Document` लोड की गई CHM सामग्री को वर्ड दस्तावेज़ के रूप में सहेजने के लिए क्लास का उपयोग करें।
+2. दस्तावेज़ सहेजें: का उपयोग करें `Save` की विधि `Document` लोड की गई CHM सामग्री को वर्ड दस्तावेज़ के रूप में सहेजने के लिए क्लास का उपयोग करें।
 
 ```csharp
 doc.Save(outputPath);
@@ -115,11 +117,11 @@ doc.Save(outputPath);
 
 ### मैं CHM फ़ाइलों के लिए अलग-अलग एनकोडिंग कैसे संभाल सकता हूँ?
 
- आप का उपयोग कर एन्कोडिंग निर्दिष्ट कर सकते हैं`LoadOptions` ट्यूटोरियल में दिखाए अनुसार क्लास का उपयोग करें। सुनिश्चित करें कि आपने सही एन्कोडिंग सेट की है जो आपकी CHM फ़ाइल से मेल खाती है।
+आप का उपयोग कर एन्कोडिंग निर्दिष्ट कर सकते हैं `LoadOptions` ट्यूटोरियल में दिखाए अनुसार क्लास का उपयोग करें। सुनिश्चित करें कि आपने सही एन्कोडिंग सेट की है जो आपकी CHM फ़ाइल से मेल खाती है।
 
 ### क्या लोड की गई CHM सामग्री को Word दस्तावेज़ के रूप में सहेजने से पहले संपादित करना संभव है?
 
- बिलकुल! एक बार CHM फ़ाइल लोड हो जाए`Document` ऑब्जेक्ट, आप Aspose.Words के समृद्ध API का उपयोग करके सामग्री में हेरफेर कर सकते हैं।
+बिलकुल! एक बार CHM फ़ाइल लोड हो जाए `Document` ऑब्जेक्ट के लिए, आप Aspose.Words के समृद्ध API का उपयोग करके सामग्री में हेरफेर कर सकते हैं।
 
 ### क्या मैं एकाधिक CHM फ़ाइलों के लिए इस प्रक्रिया को स्वचालित कर सकता हूँ?
 
@@ -127,11 +129,16 @@ doc.Save(outputPath);
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप यहां जा सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/) अधिक विस्तृत जानकारी और उदाहरण के लिए.
+आप यहां जा सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/) अधिक विस्तृत जानकारी और उदाहरण के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

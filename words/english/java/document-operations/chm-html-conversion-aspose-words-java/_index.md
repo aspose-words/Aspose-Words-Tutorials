@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +105,7 @@ Load your CHM file into an Aspose.Words `Document` object using the specified op
 ```java
 import com.aspose.words.Document;
 
-// Read the CHM file as a byte arrayyte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
+// Read the CHM file as a byte array byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
 
 // Load the document using ChmLoadOptions
 Document doc = new Document(new ByteArrayInputStream(chmData), loadOptions);
@@ -148,9 +151,13 @@ Ready to convert? Implement this solution in your next project and streamline yo
 - **Download**: Get the latest version from [Aspose Downloads](https://releases.aspose.com/words/java/)
 - **Purchase & Trial**: Learn about licensing options and trial versions [here](https://purchase.aspose.com/buy) and [here](https://releases.aspose.com/words/java/)
 - **Support**: For questions, visit the [Aspose Forum](https://forum.aspose.com/c/words/10)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

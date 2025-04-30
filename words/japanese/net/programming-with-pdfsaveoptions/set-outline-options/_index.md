@@ -1,34 +1,36 @@
 ---
-title: PDF ドキュメントのアウトライン オプションを設定する
-linktitle: PDF ドキュメントのアウトライン オプションを設定する
-second_title: Aspose.Words ドキュメント処理 API
-description: Aspose.Words for .NET を使用して PDF ドキュメントのアウトライン オプションを設定する方法を学習します。見出しレベルと拡張アウトラインを構成することで、PDF ナビゲーションを強化します。
-weight: 10
-url: /ja/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "Aspose.Words for .NET を使用して PDF ドキュメントのアウトラインオプションを設定する方法を学びます。見出しレベルと展開アウトラインを設定することで、PDF のナビゲーションを強化します。"
+"linktitle": "PDF文書のアウトラインオプションを設定する"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "PDF文書のアウトラインオプションを設定する"
+"url": "/ja/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF ドキュメントのアウトライン オプションを設定する
+# PDF文書のアウトラインオプションを設定する
 
 ## 導入
 
-ドキュメントを扱う場合、特に専門的または学術的な目的では、コンテンツを効果的に整理することが重要です。PDF ドキュメントの使いやすさを向上させる方法の 1 つは、アウトライン オプションを設定することです。アウトライン (ブックマーク) を使用すると、ユーザーは本の章のようにドキュメント内を効率的に移動できます。このガイドでは、Aspose.Words for .NET を使用してこれらのオプションを設定し、PDF ファイルが適切に整理され、ユーザー フレンドリになるようにする方法について詳しく説明します。
+ドキュメントを扱う際、特に専門分野や学術分野では、コンテンツを効果的に整理することが非常に重要です。PDFドキュメントのユーザビリティを向上させる方法の一つは、アウトラインオプションを設定することです。アウトライン（ブックマーク）を使用すると、ユーザーは本の章のようにドキュメント内を効率的に移動できます。このガイドでは、Aspose.Words for .NETを使用してこれらのオプションを設定し、PDFファイルを整理されたユーザーフレンドリーな状態にする方法を詳しく説明します。
 
 ## 前提条件
 
 始める前に、次のものを用意しておく必要があります。
 
-1.  Aspose.Words for .NET: Aspose.Words for .NETがインストールされていることを確認してください。インストールされていない場合は、[最新バージョンはこちらからダウンロードしてください](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NETがインストールされていることを確認してください。インストールされていない場合は、 [最新バージョンはこちらからダウンロードしてください](https://releases。aspose.com/words/net/).
 2. .NET 開発環境: Visual Studio などの動作する .NET 開発環境が必要です。
-3. C# の基本的な理解: C# プログラミング言語に精通していると、簡単に理解できるようになります。
-4. Word 文書: PDF に変換する Word 文書を用意します。
+3. C# の基本的な理解: C# プログラミング言語に精通していれば、簡単に理解できるようになります。
+4. Word 文書: PDF に変換する Word 文書を用意しておきます。
 
 ## 名前空間のインポート
 
-まず、必要な名前空間をインポートする必要があります。ここで、ドキュメントを操作するための Aspose.Words ライブラリを組み込みます。設定方法は次のとおりです。
+まず、必要な名前空間をインポートする必要があります。ここで、ドキュメントを操作するためのAspose.Wordsライブラリをインクルードします。設定方法は以下の通りです。
 
 ```csharp
 using Aspose.Words;
@@ -37,18 +39,18 @@ using Aspose.Words.Saving;
 
 ## ステップ1: ドキュメントパスを定義する
 
-まず、Word 文書へのパスを指定する必要があります。これは、アウトライン オプションを使用して PDF に変換するファイルです。 
+まず、Word文書へのパスを指定する必要があります。これは、アウトラインオプション付きのPDFに変換するファイルです。 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-上記のコードスニペットで、`"YOUR DOCUMENT DIRECTORY"`ドキュメント ディレクトリへの実際のパスを入力します。これにより、プログラムに Word ドキュメントがどこにあるかが伝えられます。
+上記のコードスニペットで、 `"YOUR DOCUMENT DIRECTORY"` ドキュメントディレクトリへの実際のパスを入力します。これにより、プログラムにWord文書の場所が指示されます。
 
 ## ステップ2: PDF保存オプションを設定する
 
-次に、PDF保存オプションを設定する必要があります。これには、PDF出力でアウトラインをどのように処理するかの設定が含まれます。`PdfSaveOptions`これを実行するクラス。
+次に、PDF保存オプションを設定する必要があります。これには、PDF出力におけるアウトラインの扱い方の設定も含まれます。 `PdfSaveOptions` これを実行するクラス。
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,7 +60,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 ### 見出しのアウトラインレベルを設定する
 
-の`HeadingsOutlineLevels`プロパティは、PDF アウトラインに含める見出しのレベル数を定義します。たとえば、3 に設定すると、PDF アウトラインに最大 3 レベルの見出しが含まれます。
+その `HeadingsOutlineLevels` このプロパティは、PDFアウトラインに含める見出しのレベル数を定義します。例えば、3に設定すると、PDFアウトラインには最大3レベルの見出しが含まれます。
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
@@ -66,7 +68,7 @@ saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 
 ### 拡張アウトラインレベルを設定する
 
-の`ExpandedOutlineLevels`プロパティは、PDF を開いたときにデフォルトでアウトラインを何レベル展開するかを制御します。これを 1 に設定すると、最上位の見出しが展開され、主要なセクションが明確に表示されます。
+その `ExpandedOutlineLevels` このプロパティは、PDFを開いたときにデフォルトでアウトラインを何レベルまで展開するかを制御します。このプロパティを1に設定すると、最上位の見出しが展開され、主要なセクションが明確に表示されます。
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
@@ -74,7 +76,7 @@ saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 
 ## ステップ3: ドキュメントをPDFとして保存する
 
-オプションを設定したら、文書をPDFとして保存する準備が整いました。`Save`方法の`Document`クラスにファイル パスと保存オプションを渡します。
+オプションを設定したら、文書をPDFとして保存する準備が整いました。 `Save` の方法 `Document` クラスにファイル パスと保存オプションを渡します。
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOption
 
 ## 結論
 
-PDF ドキュメントでアウトライン オプションを設定すると、ナビゲーション性が大幅に向上し、ユーザーが必要なセクションを簡単に見つけてアクセスできるようになります。Aspose.Words for .NET を使用すると、ニーズに合わせてこれらの設定を簡単に構成できるため、PDF ドキュメントを可能な限りユーザー フレンドリにすることができます。
+PDFドキュメントにアウトラインオプションを設定すると、ナビゲーション性が大幅に向上し、ユーザーが必要なセクションを簡単に見つけてアクセスできるようになります。Aspose.Words for .NETを使えば、これらの設定をニーズに合わせて簡単に変更できるため、PDFドキュメントを可能な限りユーザーフレンドリーなものにすることができます。
 
 ## よくある質問
 
@@ -94,22 +96,27 @@ PDF ドキュメントでアウトライン オプションを設定すると、
 
 ### ドキュメント内のセクションごとに異なる見出しレベルを設定できますか?
 
-いいえ、アウトライン設定はドキュメント全体に適用されます。ただし、適切な見出しレベルでドキュメントを構造化することで、同様の効果を得ることができます。
+いいえ、アウトライン設定は文書全体に適用されます。ただし、適切な見出しレベルを設定して文書を構造化することで、同様の効果を得ることができます。
 
 ### PDF を保存する前に変更をプレビューするにはどうすればよいですか?
 
-アウトラインナビゲーションをサポートする PDF ビューアを使用して、アウトラインの表示方法を確認できます。一部のアプリケーションでは、このためのプレビュー機能が提供されています。
+アウトラインナビゲーションをサポートするPDFビューアを使用すると、アウトラインの表示を確認できます。一部のアプリケーションでは、プレビュー機能も提供されています。
 
 ### PDF を保存した後にアウトラインを削除することは可能ですか?
 
 はい、PDF 編集ソフトウェアを使用してアウトラインを削除することはできますが、PDF の作成後に Aspose.Words で直接これを行うことはできません。
 
-### Aspose.Words で設定できるその他の PDF 保存オプションは何ですか?
+### Aspose.Words では他にどのような PDF 保存オプションを設定できますか?
 
 Aspose.Words には、PDF 準拠レベルの設定、フォントの埋め込み、画像品質の調整など、さまざまなオプションが用意されています。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

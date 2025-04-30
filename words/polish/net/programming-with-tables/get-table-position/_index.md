@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj pozycję w tabeli
-linktitle: Uzyskaj pozycję w tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak określić położenie tabeli w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/get-table-position/
+"description": "Dowiedz się, jak określić położenie tabeli w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Uzyskaj pozycję w tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Uzyskaj pozycję w tabeli"
+"url": "/pl/net/programming-with-tables/get-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj pozycję w tabeli
@@ -20,14 +22,14 @@ Czy kiedykolwiek znalazłeś się w tarapatach, próbując ustalić dokładną p
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
--  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: każda wersja jest dobra, ale zawsze zalecamy korzystanie z najnowszej.
 - .NET Framework: Upewnij się, że masz .NET Framework 4.0 lub nowszy.
-- Dokument Word: W tym samouczku użyjemy dokumentu o nazwie`Tables.docx`.
+- Dokument Word: W tym samouczku użyjemy dokumentu o nazwie `Tables.docx`.
 
 ## Importuj przestrzenie nazw
 
-Po pierwsze, zaimportujmy niezbędne przestrzenie nazw. To jak skonfigurowanie skrzynki narzędziowej przed rozpoczęciem projektu.
+Po pierwsze, zaimportujmy niezbędne przestrzenie nazw. To tak, jakbyś konfigurował swój zestaw narzędzi przed rozpoczęciem projektu.
 
 ```csharp
 using System;
@@ -70,7 +72,7 @@ if (table.TextWrapping == TextWrapping.Around)
 }
 else
 {
-    // Jeżeli nie jest zawinięty, uzyskaj standardowe wyrównanie
+    // Jeśli nie jest zawinięty, uzyskaj standardowe wyrównanie
     Console.WriteLine(table.Alignment);
 }
 ```
@@ -79,7 +81,7 @@ else
 
 Gdy wszystko jest już skonfigurowane, czas uruchomić kod. Otwórz konsolę i zobacz, jak dzieje się magia! Otrzymasz albo względne wyrównania, jeśli tabela jest zawinięta, albo standardowe wyrównanie, jeśli nie jest.
 
-## Krok 5: Przeanalizuj wynik
+## Krok 5: Analiza wyników
 
 Po uruchomieniu kodu zobaczysz szczegóły pozycji tabeli wydrukowane w konsoli. Informacje te są bardzo przydatne do wyrównywania zawartości lub debugowania problemów z układem.
 
@@ -95,7 +97,7 @@ Aspose.Words for .NET to zaawansowana biblioteka do przetwarzania dokumentów, k
 
 ### Jak zainstalować Aspose.Words dla .NET?
 
- Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet w programie Visual Studio lub[pobierz bezpośrednio](https://releases.aspose.com/words/net/).
+Możesz zainstalować Aspose.Words dla .NET za pomocą Menedżera pakietów NuGet w programie Visual Studio lub [pobierz bezpośrednio](https://releases.aspose.com/words/net/).
 
 ### Czy mogę uzyskać informacje o położeniu wielu tabel?
 
@@ -107,10 +109,15 @@ Aby uzyskać dostęp do zagnieżdżonych tabel, należy przejść przez drzewo w
 
 ### Czy jest dostępna wersja próbna?
 
- Tak, możesz dostać[bezpłatny okres próbny](https://releases.aspose.com/) lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować Aspose.Words dla .NET.
+Tak, możesz dostać [bezpłatny okres próbny](https://releases.aspose.com/) lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby wypróbować Aspose.Words dla .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

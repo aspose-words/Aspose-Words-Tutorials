@@ -1,14 +1,16 @@
 ---
-title: प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें
-linktitle: प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके अपनी PDF फ़ाइलों को डिजिटल हस्ताक्षर से सुरक्षित करें। अपनी PDF में आसानी से डिजिटल हस्ताक्षर जोड़ने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": ".NET के लिए Aspose.Words का उपयोग करके अपनी PDF फ़ाइलों को डिजिटल हस्ताक्षर से सुरक्षित करें। अपनी PDF में आसानी से डिजिटल हस्ताक्षर जोड़ने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें"
+"url": "/hi/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certific
 
 आरंभ करने से पहले, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 2. प्रमाणपत्र फ़ाइल: PDF पर हस्ताक्षर करने के लिए आपको .pfx प्रमाणपत्र फ़ाइल की आवश्यकता होगी। यदि आपके पास एक नहीं है, तो आप परीक्षण उद्देश्यों के लिए एक स्व-हस्ताक्षरित प्रमाणपत्र बना सकते हैं।
 3. विज़ुअल स्टूडियो: यह ट्यूटोरियल मानता है कि आप अपने विकास वातावरण के रूप में विज़ुअल स्टूडियो का उपयोग कर रहे हैं।
 4. C# का बुनियादी ज्ञान: C# और .NET प्रोग्रामिंग से परिचित होना आवश्यक है।
@@ -69,7 +71,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- प्रतिस्थापित करें`"your_password"` अपनी .pfx फ़ाइल के पासवर्ड के साथ.
+प्रतिस्थापित करें `"your_password"` अपनी .pfx फ़ाइल के पासवर्ड के साथ.
 
 ## चरण 4: दस्तावेज़ को डिजिटल रूप से हस्ताक्षरित पीडीएफ के रूप में सहेजें
 
@@ -94,16 +96,21 @@ doc.Save(dataDir + "DigitallySignedPdfUsingCertificateHolder.pdf", saveOptions);
 हां, आपको अपने PDF में डिजिटल हस्ताक्षर जोड़ने के लिए .pfx प्रमाणपत्र फ़ाइल की आवश्यकता होगी।
 
 ### क्या मैं परीक्षण के लिए स्व-हस्ताक्षरित प्रमाणपत्र बना सकता हूँ?
-हां, आप परीक्षण उद्देश्यों के लिए एक स्व-हस्ताक्षरित प्रमाणपत्र बना सकते हैं। हालांकि, उत्पादन उपयोग के लिए, किसी विश्वसनीय प्रमाणपत्र प्राधिकरण से प्रमाणपत्र प्राप्त करने की अनुशंसा की जाती है।
+हां, आप परीक्षण उद्देश्यों के लिए स्व-हस्ताक्षरित प्रमाणपत्र बना सकते हैं। हालांकि, उत्पादन उपयोग के लिए, किसी विश्वसनीय प्रमाणपत्र प्राधिकरण से प्रमाणपत्र प्राप्त करने की अनुशंसा की जाती है।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहाँ से एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं।[Aspose वेबसाइट](https://releases.aspose.com/).
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहाँ से एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं। [Aspose वेबसाइट](https://releases.aspose.com/).
 
 ### क्या मैं अन्य प्रकार के दस्तावेजों पर हस्ताक्षर करने के लिए Aspose.Words for .NET का उपयोग कर सकता हूं?
 हां, .NET के लिए Aspose.Words का उपयोग न केवल PDF बल्कि विभिन्न प्रकार के दस्तावेजों पर हस्ताक्षर करने के लिए किया जा सकता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

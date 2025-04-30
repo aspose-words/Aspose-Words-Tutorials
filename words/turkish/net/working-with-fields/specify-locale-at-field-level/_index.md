@@ -1,17 +1,19 @@
 ---
-title: Alan Düzeyinde Yerel Ayarları Belirleyin
-linktitle: Alan Düzeyinde Yerel Ayarları Belirleyin
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki alanlar için yerel ayarları nasıl belirleyeceğinizi öğrenin. Belge biçimlendirmenizi kolayca özelleştirmek için kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fields/specify-locale-at-field-level/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki alanlar için yerel ayarları nasıl belirleyeceğinizi öğrenin. Belge biçimlendirmenizi kolayca özelleştirmek için kılavuzumuzu izleyin."
+"linktitle": "Alan Düzeyinde Yerel Ayarı Belirleyin"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Düzeyinde Yerel Ayarı Belirleyin"
+"url": "/tr/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alan Düzeyinde Yerel Ayarları Belirleyin
+# Alan Düzeyinde Yerel Ayarı Belirleyin
 
 ## giriiş
 
@@ -21,10 +23,10 @@ Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, alan düzey
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşinalık, örnekleri takip etmenize yardımcı olacaktır.
-4. Aspose Lisansı: Lisansınız yoksa, bir lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini denemek için.
+4. Aspose Lisansı: Lisansınız yoksa, bir lisans alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini denemek için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,11 +49,11 @@ Tamam, ön koşulları hallettiğimize göre, süreci adım adım inceleyelim. H
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR_DOCUMENT_DIRECTORY"` dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR_DOCUMENT_DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: DocumentBuilder'ı Başlatın
 
- Daha sonra, yeni bir örnek oluşturacağız`DocumentBuilder`Bu, Word belgesini oluşturmak ve düzenlemek için kullandığımız kalem ve kağıt gibidir.
+Daha sonra, yeni bir örnek oluşturacağız `DocumentBuilder`Bu, Word belgesini oluşturmak ve düzenlemek için kullandığımız kalem ve kağıt gibidir.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -67,7 +69,7 @@ Field field = builder.InsertField(FieldType.FieldDate, true);
 
 ## Adım 4: Yerel Ayarları Belirleyin
 
- İşte sihir geliyor! Alan için yerel ayarı belirleyeceğiz. Yerel ayar kimliği`1049`Rusça'ya karşılık gelir. Bu, tarih alanımızın Rusça biçimlendirme kurallarını takip edeceği anlamına gelir.
+İşte sihir geliyor! Alan için yerel ayarı belirleyeceğiz. Yerel ayar kimliği `1049` Rusça'ya karşılık gelir. Bu, tarih alanımızın Rusça biçimlendirme kurallarını takip edeceği anlamına gelir.
 
 ```csharp
 field.LocaleId = 1049;
@@ -75,7 +77,7 @@ field.LocaleId = 1049;
 
 ## Adım 5: Belgeyi Kaydedin
 
-Son olarak belgemizi kaydedelim. Bu adım yaptığımız tüm değişiklikleri sonlandırır.
+Son olarak, belgemizi kaydedelim. Bu adım yaptığımız tüm değişiklikleri sonlandırır.
 
 ```csharp
 builder.Document.Save(dataDir + "WorkingWithFields.SpecifyLocaleAtFieldLevel.docx");
@@ -101,14 +103,19 @@ Yerel kimliklerin listesini Microsoft belgelerinde veya Aspose.Words API belgele
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Değerlendirme modunda Aspose.Words for .NET'i lisans olmadan kullanabilirsiniz ancak bir lisans edinmeniz önerilir.[lisans](https://purchase.aspose.com/buy) Tüm işlevlerin kilidini açmak için.
+Değerlendirme modunda Aspose.Words for .NET'i lisans olmadan kullanabilirsiniz ancak bir lisans edinmeniz önerilir. [lisans](https://purchase.aspose.com/buy) Tüm işlevlerin kilidini açmak için.
 
 ### Aspose.Words kütüphanesini en son sürüme nasıl güncelleyebilirim?
 
- Aspose.Words for .NET'in en son sürümünü şu adresten indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'in en son sürümünü şu adresten indirebilirsiniz: [indirme sayfası](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

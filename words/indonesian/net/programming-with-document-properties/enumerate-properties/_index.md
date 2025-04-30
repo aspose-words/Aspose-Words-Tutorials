@@ -1,14 +1,16 @@
 ---
-title: Hitung Properti
-linktitle: Hitung Properti
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghitung properti dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dari semua tingkat keterampilan.
-weight: 10
-url: /id/net/programming-with-document-properties/enumerate-properties/
+"description": "Pelajari cara menghitung properti dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dari semua tingkat keterampilan."
+"linktitle": "Hitung Properti"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hitung Properti"
+"url": "/id/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hitung Properti
@@ -21,7 +23,7 @@ Ingin bekerja dengan dokumen Word secara terprogram? Aspose.Words for .NET adala
 
 Sebelum kita masuk ke tutorial, ada beberapa hal yang Anda perlukan untuk memulai:
 
--  Aspose.Words untuk .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio direkomendasikan, tetapi Anda dapat menggunakan IDE C# apa pun.
 - Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan membantu Anda mengikutinya.
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 Selanjutnya, mari kita muat dokumen Word yang ingin Anda gunakan. Untuk contoh ini, kita akan menggunakan dokumen bernama "Properties.docx" yang ada di direktori proyek Anda.
 
 1. Tentukan Jalur Dokumen: Tentukan jalur ke dokumen Anda.
-2.  Memuat Dokumen: Gunakan Aspose.Words`Document` kelas untuk memuat dokumen.
+2. Memuat Dokumen: Gunakan Aspose.Words `Document` kelas untuk memuat dokumen.
 
 Berikut kodenya:
 
@@ -69,9 +71,9 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 ## Langkah 5: Hitung Properti Bawaan
 
-Properti bawaan adalah properti metadata yang telah ditetapkan oleh Microsoft Word. Properti ini meliputi judul, penulis, dan lain-lain.
+Properti bawaan adalah properti metadata yang telah ditetapkan sebelumnya oleh Microsoft Word. Properti ini meliputi judul, penulis, dan lain-lain.
 
-1.  Mengakses Properti Bawaan: Gunakan`BuiltInDocumentProperties` koleksi.
+1. Mengakses Properti Bawaan: Gunakan `BuiltInDocumentProperties` koleksi.
 2. Ulangi Properti: Ulangi properti dan tampilkan nama dan nilainya.
 
 Berikut kodenya:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 Properti kustom adalah properti metadata yang ditentukan pengguna. Properti ini dapat berupa apa pun yang ingin Anda tambahkan ke dokumen Anda.
 
-1.  Akses Properti Kustom: Gunakan`CustomDocumentProperties` koleksi.
+1. Akses Properti Kustom: Gunakan `CustomDocumentProperties` koleksi.
 2. Ulangi Properti: Ulangi properti dan tampilkan nama dan nilainya.
 
 Berikut kodenya:
@@ -106,23 +108,28 @@ Nah, itu dia! Anda telah berhasil menghitung properti bawaan dan kustom dokumen 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan properti baru ke dokumen?
- Ya, Anda dapat menambahkan properti kustom baru menggunakan`CustomDocumentProperties` koleksi.
+Ya, Anda dapat menambahkan properti kustom baru menggunakan `CustomDocumentProperties` koleksi.
 
 ### Apakah Aspose.Words gratis untuk digunakan?
- Aspose.Words menawarkan[uji coba gratis](https://releases.aspose.com/) dan berbeda[opsi pembelian](https://purchase.aspose.com/buy).
+Aspose.Words menawarkan [uji coba gratis](https://releases.aspose.com/) dan berbeda [opsi pembelian](https://purchase.aspose.com/buy).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Bisakah saya menggunakan Aspose.Words dengan bahasa .NET lainnya?
 Ya, Aspose.Words mendukung beberapa bahasa .NET termasuk VB.NET.
 
 ### Di mana saya dapat menemukan lebih banyak contoh?
- Lihat di sini[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan informasi lebih rinci.
+Lihat di sini [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan informasi lebih rinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

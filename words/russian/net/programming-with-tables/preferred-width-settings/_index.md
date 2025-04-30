@@ -1,14 +1,16 @@
 ---
-title: Предпочтительные настройки ширины
-linktitle: Предпочтительные настройки ширины
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать таблицы с абсолютными, относительными и автоматическими настройками ширины в Aspose.Words для .NET с помощью этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/preferred-width-settings/
+"description": "Узнайте, как создавать таблицы с абсолютными, относительными и автоматическими настройками ширины в Aspose.Words для .NET с помощью этого пошагового руководства."
+"linktitle": "Предпочтительные настройки ширины"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Предпочтительные настройки ширины"
+"url": "/ru/net/programming-with-tables/preferred-width-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Предпочтительные настройки ширины
@@ -21,13 +23,13 @@ url: /ru/net/programming-with-tables/preferred-width-settings/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words for .NET: Убедитесь, что Aspose.Words for .NET установлен в вашей среде разработки. Вы можете загрузить его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что Aspose.Words for .NET установлен в вашей среде разработки. Вы можете загрузить его [здесь](https://releases.aspose.com/words/net/).
 
 2. Среда разработки .NET: настройте среду разработки .NET, например Visual Studio.
 
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять фрагменты кода и примеры.
 
-4.  Документация Aspose.Words: см.[Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения подробной информации об API и дальнейшего чтения.
+4. Документация Aspose.Words: см. [Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения подробной информации об API и дальнейшего чтения.
 
 ## Импорт пространств имен
 
@@ -46,7 +48,7 @@ using Aspose.Words.Tables;
 
 Заголовок: Создание нового документа и DocumentBuilder
 
- Объяснение: Начните с создания нового документа Word и`DocumentBuilder` пример.`DocumentBuilder` класс предоставляет простой способ добавления контента в ваш документ.
+Объяснение: Начните с создания нового документа Word и `DocumentBuilder` пример. `DocumentBuilder` класс предоставляет простой способ добавления контента в ваш документ.
 
 ```csharp
 // Определите путь для сохранения документа.
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь вы указываете каталог, в котором будет сохранен документ, и инициализируете`Document` и`DocumentBuilder` объекты.
+Здесь вы указываете каталог, в котором будет сохранен документ, и инициализируете `Document` и `DocumentBuilder` объекты.
 
 ## Шаг 2: Вставьте первую ячейку таблицы с абсолютной шириной
 
@@ -73,7 +75,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln("Cell at 40 points width");
 ```
 
-На этом этапе вы начинаете создавать таблицу и вставляете ячейку с абсолютной шириной.`PreferredWidth.FromPoints(40)` метод устанавливает ширину ячейки в 40 точек, а`Shading.BackgroundPatternColor` применяется светло-желтый цвет фона.
+На этом этапе вы начинаете создавать таблицу и вставляете ячейку с абсолютной шириной. `PreferredWidth.FromPoints(40)` метод устанавливает ширину ячейки в 40 точек, а `Shading.BackgroundPatternColor` применяется светло-желтый цвет фона.
 
 ## Шаг 3: Вставьте ячейку относительного размера
 
@@ -102,7 +104,7 @@ builder.Writeln("Cell automatically sized. The size of this cell is calculated f
 builder.Writeln("In this case the cell will fill up the rest of the available space.");
 ```
 
- The`PreferredWidth.Auto` настройка позволяет этой ячейке расширяться или сжиматься в зависимости от пространства, оставшегося после учета других ячеек. Это гарантирует, что макет таблицы будет выглядеть сбалансированным и профессиональным.
+The `PreferredWidth.Auto` настройка позволяет этой ячейке расширяться или сжиматься в зависимости от пространства, оставшегося после учета других ячеек. Это гарантирует, что макет таблицы будет выглядеть сбалансированным и профессиональным.
 
 ## Шаг 5: Завершите и сохраните документ
 
@@ -134,10 +136,15 @@ doc.Save(dataDir + "WorkingWithTables.PreferredWidthSettings.docx");
 Да, вы можете применять различные стили и форматирование к ячейкам независимо от настроек их ширины.
 
 ### Что произойдет, если общая ширина таблицы меньше суммы ширины всех ячеек?
-Таблица автоматически отрегулирует ширину ячеек в соответствии с доступным пространством, что может привести к сжатию некоторых ячеек.
+Таблица автоматически отрегулирует ширину ячеек в соответствии с доступным пространством, что может привести к уменьшению размера некоторых ячеек.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

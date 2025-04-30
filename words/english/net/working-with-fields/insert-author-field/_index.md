@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/insert-author-field/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Author Field
@@ -150,9 +153,13 @@ Yes, Aspose.Words supports various field types, including date, time, page numbe
 
 You can find support on the Aspose.Words forum [here](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

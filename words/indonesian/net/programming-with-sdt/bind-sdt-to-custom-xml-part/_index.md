@@ -1,14 +1,16 @@
 ---
-title: Ikat SDT ke Bagian XML Kustom
-linktitle: Ikat SDT ke Bagian XML Kustom
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengikat Tag Dokumen Terstruktur (SDT) ke Bagian XML Kustom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Pelajari cara mengikat Tag Dokumen Terstruktur (SDT) ke Bagian XML Kustom dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini."
+"linktitle": "Ikat SDT ke Bagian XML Kustom"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ikat SDT ke Bagian XML Kustom"
+"url": "/id/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ikat SDT ke Bagian XML Kustom
@@ -21,7 +23,7 @@ Membuat dokumen Word dinamis yang berinteraksi dengan data XML kustom dapat meni
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduh versi terbaru dari[Aspose.Words untuk rilis .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduh versi terbaru dari [Aspose.Words untuk rilis .NET](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE .NET lain yang kompatibel.
 - Pemahaman Dasar tentang C#: Keakraban dengan bahasa pemrograman C# dan kerangka kerja .NET.
 
@@ -68,7 +70,7 @@ Di sini, kita membuat Bagian XML Kustom baru dengan pengenal unik dan menambahka
 Setelah menambahkan Bagian XML Kustom, kami membuat SDT untuk menampilkan data XML.
 
 ```csharp
-//Membuat Tag Dokumen Terstruktur (SDT)
+// Membuat Tag Dokumen Terstruktur (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ Sekarang, kita ikat SDT ke Bagian XML Kustom menggunakan ekspresi XPath.
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Langkah ini memetakan SDT ke`<text>` elemen dalam`<root>` simpul dari Bagian XML Kustom kita.
+Langkah ini memetakan SDT ke `<text>` elemen dalam `<root>` simpul dari Bagian XML Kustom kita.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -110,16 +112,21 @@ Tag Dokumen Terstruktur (SDT) adalah elemen kontrol konten dalam dokumen Word ya
 Ya, Anda dapat mengikat beberapa SDT ke beberapa bagian XML dalam dokumen yang sama, yang memungkinkan templat berbasis data yang kompleks.
 
 ### Bagaimana cara memperbarui data XML di Bagian XML Kustom?
- Anda dapat memperbarui data XML dengan mengakses`CustomXmlPart` objek dan memodifikasi konten XML-nya secara langsung.
+Anda dapat memperbarui data XML dengan mengakses `CustomXmlPart` objek dan memodifikasi konten XML-nya secara langsung.
 
-### Mungkinkah untuk mengikat SDT ke atribut XML, bukan elemen?
+### Mungkinkah mengikat SDT ke atribut XML, bukan elemen?
 Ya, Anda dapat mengikat SDT ke atribut XML dengan menentukan ekspresi XPath yang tepat yang menargetkan atribut yang diinginkan.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi lengkap tentang Aspose.Words untuk .NET di[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap tentang Aspose.Words untuk .NET di [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

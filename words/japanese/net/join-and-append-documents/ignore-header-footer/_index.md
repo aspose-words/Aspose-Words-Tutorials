@@ -1,41 +1,43 @@
 ---
-title: ヘッダーフッターを無視
-linktitle: ヘッダーフッターを無視
-second_title: Aspose.Words ドキュメント処理 API
-description: このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して、ヘッダーとフッターを無視しながら Word 文書を結合する方法を学習します。
-weight: 10
-url: /ja/net/join-and-append-documents/ignore-header-footer/
+"description": "このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して、ヘッダーとフッターを無視しながら Word 文書を結合する方法を学習します。"
+"linktitle": "ヘッダーフッターを無視"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "ヘッダーフッターを無視"
+"url": "/ja/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ヘッダーフッターを無視
 
 ## 導入
 
-Word 文書の結合は、ヘッダーやフッターなど、一部の部分をそのままにして他の部分を無視したい場合など、少し難しい場合があります。幸い、Aspose.Words for .NET では、これを簡単に処理できます。このチュートリアルでは、プロセスをステップごとに説明し、すべての部分を理解できるようにします。友人とチャットするのと同じように、軽快で会話的で魅力的な内容にします。準備はいいですか? さあ、始めましょう!
+Word文書の結合は、特にヘッダーやフッターなど、一部の要素はそのままにして、他の要素を無視したい場合など、少し難しい場合があります。しかし、Aspose.Words for .NETなら、この作業をスマートに処理できます。このチュートリアルでは、プロセスをステップバイステップで解説し、すべての要素を理解できるようにします。まるで友達とチャットしているかのように、軽快で会話的で、魅力的な内容にしていきます。準備はいいですか？さあ、始めましょう！
 
 ## 前提条件
 
 始める前に、必要なものがすべて揃っていることを確認しましょう。
 
--  Aspose.Words for .NET: ダウンロードはこちらから[ここ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: ダウンロードはこちらから [ここ](https://releases。aspose.com/words/net/).
 - Visual Studio: 最新バージョンであれば動作するはずです。
-- C# の基本的な理解: 心配しないでください。コードについて説明します。
+- C# の基本的な理解: 心配しないでください。コードをガイドします。
 - 2 つの Word 文書: 1 つはもう 1 つに追加されます。
 
 ## 名前空間のインポート
 
-まず最初に、C# プロジェクトに必要な名前空間をインポートする必要があります。これは、完全な名前空間を常に参照することなく Aspose.Words のクラスとメソッドを使用できるようにするため、非常に重要です。
+まず最初に、C#プロジェクトに必要な名前空間をインポートする必要があります。これは、Aspose.Wordsのクラスとメソッドを、名前空間全体を常に参照することなく使用できるようにするため、非常に重要です。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## ステップ1: プロジェクトを設定する
+## ステップ1: プロジェクトの設定
 
 ### 新しいプロジェクトを作成する
 
@@ -48,15 +50,15 @@ using Aspose.Words.Saving;
 
 ### Aspose.Words for .NET をインストールする
 
-次に、Aspose.Words for .NET をプロジェクトに追加する必要があります。これは NuGet パッケージ マネージャーを使用して実行できます。
+次に、Aspose.Words for .NETをプロジェクトに追加する必要があります。これはNuGetパッケージマネージャーから実行できます。
 
 1. ソリューション エクスプローラーでプロジェクトを右クリックします。
 2. 「NuGet パッケージの管理」を選択します。
 3. 「Aspose.Words」を検索してインストールします。
 
-## ステップ2: ドキュメントを読み込む
+## ステップ2：ドキュメントを読み込む
 
-プロジェクトがセットアップされたので、結合する Word 文書を読み込みます。このチュートリアルでは、これらを「Document source.docx」と「Northwind traders.docx」と呼びます。
+プロジェクトの準備ができたので、結合したいWord文書を読み込みます。このチュートリアルでは、それぞれ「Document source.docx」と「Northwind traders.docx」という名前にします。
 
 Aspose.Words を使用してロードする方法は次のとおりです。
 
@@ -69,9 +71,9 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 
 このコード スニペットは、ドキュメント ディレクトリへのパスを設定し、ドキュメントをメモリに読み込みます。
 
-## ステップ3: インポートオプションを構成する
+## ステップ3: インポートオプションを設定する
 
-ドキュメントを結合する前に、インポート オプションを設定する必要があります。この手順は、ヘッダーとフッターを無視するように指定できるため、重要です。
+ドキュメントを結合する前に、インポートオプションを設定する必要があります。この手順は、ヘッダーとフッターを無視するように指定できるため、非常に重要です。
 
 インポート オプションを構成するコードは次のとおりです。
 
@@ -79,9 +81,9 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
-設定により`IgnoreHeaderFooter`に`true`、マージ プロセス中にヘッダーとフッターを無視するように Aspose.Words に指示します。
+設定により `IgnoreHeaderFooter` に `true`、マージ プロセス中にヘッダーとフッターを無視するように Aspose.Words に指示します。
 
-## ステップ4: ドキュメントを結合する
+## ステップ4：ドキュメントを結合する
 
 ドキュメントを読み込み、インポート オプションを設定したら、ドキュメントを結合します。
 
@@ -91,7 +93,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeader
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 ```
 
-このコード行は、ソースの書式設定を維持し、ヘッダーとフッターを無視しながら、ソース ドキュメントを宛先ドキュメントに追加します。
+このコード行は、ソースの書式を維持し、ヘッダーとフッターを無視しながら、ソース ドキュメントを宛先ドキュメントに追加します。
 
 ## ステップ5: 結合した文書を保存する
 
@@ -107,9 +109,9 @@ dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 
 ## 結論
 
-これで完了です。Aspose.Words for .NET を使用して、ヘッダーとフッターを無視しながら 2 つの Word 文書を結合できました。この方法は、特定の文書セクションを維持することが重要なさまざまな文書管理タスクに便利です。
+これで完了です！Aspose.Words for .NET を使って、ヘッダーとフッターを無視しながら2つのWord文書を結合できました。この方法は、特定の文書セクションの保持が重要な、様々な文書管理タスクに便利です。
 
-Aspose.Words for .NETを使用すると、ドキュメント処理ワークフローを大幅に効率化できます。困ったときやさらに詳しい情報が必要なときは、いつでも[ドキュメント](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET を使用すると、ドキュメント処理ワークフローを大幅に効率化できます。困ったときや詳しい情報が必要なときは、いつでも [ドキュメント](https://reference。aspose.com/words/net/).
 
 ## よくある質問
 
@@ -119,23 +121,28 @@ Aspose.Words for .NETを使用すると、ドキュメント処理ワークフ�
 
 ### ヘッダーとフッターを無視せずに保持することは可能ですか?
 
-もちろんです。`IgnoreHeaderFooter`に`false`の`ImportFormatOptions`.
+はい。設定するだけで `IgnoreHeaderFooter` に `false` の中で `ImportFormatOptions`。
 
 ### Aspose.Words for .NET を使用するにはライセンスが必要ですか?
 
-はい、Aspose.Words for .NETは商用製品です。[無料トライアル](https://releases.aspose.com/)またはライセンスを購入する[ここ](https://purchase.aspose.com/buy).
+はい、Aspose.Words for .NETは商用製品です。 [無料トライアル](https://releases.aspose.com/) またはライセンスを購入する [ここ](https://purchase。aspose.com/buy).
 
 ### この方法を使用して 2 つ以上のドキュメントを結合できますか?
 
-はい、ループで複数のドキュメントを追加することができます。`AppendDocument`追加ドキュメントごとにメソッドを使用します。
+はい、ループで複数のドキュメントを追加することができます。 `AppendDocument` 追加ドキュメントごとにメソッドを使用します。
 
 ### Aspose.Words for .NET のその他の例やドキュメントはどこで入手できますか?
 
-包括的なドキュメントと例については、[Aspose ウェブサイト](https://reference.aspose.com/words/net/).
+包括的なドキュメントと例については、 [Aspose ウェブサイト](https://reference。aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

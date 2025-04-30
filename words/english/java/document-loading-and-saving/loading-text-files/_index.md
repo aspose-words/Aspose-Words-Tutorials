@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-loading-and-saving/loading-text-files/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Loading Text Files with Aspose.Words for Java
@@ -199,9 +202,13 @@ For additional resources, documentation, and support, visit the [Aspose.Words fo
 
 Yes, Aspose.Words for Java is suitable for both personal and commercial projects. It offers licensing options to accommodate various usage scenarios. Make sure to review the licensing terms and pricing on the Aspose website to choose the appropriate license for your project.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

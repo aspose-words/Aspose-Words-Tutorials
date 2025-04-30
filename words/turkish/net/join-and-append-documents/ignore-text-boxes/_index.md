@@ -1,14 +1,16 @@
 ---
-title: Metin Kutularını Yoksay
-linktitle: Metin Kutularını Yoksay
-second_title: Aspose.Words Belge İşleme API'si
-description: Word belgelerini Aspose.Words for .NET ile birleştirin ve metin kutusu biçimlendirmesinin korunduğundan emin olun. Sorunsuz belge işleme için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/join-and-append-documents/ignore-text-boxes/
+"description": "Word belgelerini Aspose.Words for .NET ile birleştirin ve metin kutusu biçimlendirmesinin korunduğundan emin olun. Sorunsuz belge işleme için bu adım adım kılavuzu izleyin."
+"linktitle": "Metin Kutularını Yoksay"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Metin Kutularını Yoksay"
+"url": "/tr/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metin Kutularını Yoksay
@@ -21,7 +23,7 @@ Metin kutularını yok sayarak Word belgelerini birleştirmek için Aspose.Words
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: İndirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: İndirin [Burada](https://releases.aspose.com/words/net/).
 2. .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE.
 3. C# Temel Bilgileri: C# dilinde temel programlama kavramlarının anlaşılması.
 
@@ -52,7 +54,7 @@ Daha sonra kaynak ve hedef belgelerinizin bulunduğu dizini belirtin.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
 
 ## Adım 3: Belgeleri Yükleyin
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Adım 4: İçe Aktarma Seçeneklerini Yapılandırın
 
- Metin kutularının biçimlendirmesinin korunduğundan emin olmak için,`IgnoreTextBoxes` seçeneği`false`.
+Metin kutularının biçimlendirmesinin korunduğundan emin olmak için, `IgnoreTextBoxes` seçeneği `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## Adım 5: Düğüm İçe Aktarıcısını Başlatın
 
- Başlat`NodeImporter` kaynak belgeden hedef belgeye düğümleri içe aktarmak için.
+Başlat `NodeImporter` kaynak belgeden hedef belgeye düğümleri içe aktarmak için.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -114,23 +116,28 @@ Aspose.Words for .NET'i kullanarak iki Word belgesini başarıyla birleştirdini
 ## SSS
 
 ### Aspose.Words for .NET nedir?
- Aspose.Words for .NET, .NET uygulamaları içerisinde Word belgeleri oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir.[Daha fazla bilgi edin](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET, .NET uygulamaları içerisinde Word belgeleri oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir. [Daha fazla bilgi edin](https://reference.aspose.com/words/net/).
 
 ### Satın almadan önce Aspose.Words for .NET'i deneyebilir miyim?
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
-Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Daha detaylı dokümanları nerede bulabilirim?
- Kapsamlı dokümantasyonu bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümantasyonu bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek için Aspose forumlarını ziyaret edin[Burada](https://forum.aspose.com/c/words/8).
+Destek için Aspose forumlarını ziyaret edin [Burada](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

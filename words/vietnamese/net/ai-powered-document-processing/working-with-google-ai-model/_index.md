@@ -1,14 +1,16 @@
 ---
-title: Làm việc với mô hình AI của Google
-linktitle: Làm việc với mô hình AI của Google
-second_title: API xử lý tài liệu Aspose.Words
-description: Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words dành cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng.
-weight: 10
-url: /vi/net/ai-powered-document-processing/working-with-google-ai-model/
+"description": "Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words dành cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng."
+"linktitle": "Làm việc với mô hình AI của Google"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Làm việc với mô hình AI của Google"
+"url": "/vi/net/ai-powered-document-processing/working-with-google-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với mô hình AI của Google
@@ -23,7 +25,7 @@ Trước khi đi sâu vào phần thực hành, hãy đảm bảo rằng bạn �
 
 1. Kiến thức cơ bản về C# và .NET: Sự quen thuộc với các khái niệm lập trình sẽ giúp bạn nắm bắt các ví dụ tốt hơn.
    
-2.  Aspose.Words cho Thư viện .NET: Thư viện mạnh mẽ này cho phép bạn tạo và thao tác các tài liệu Word một cách liền mạch. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho Thư viện .NET: Thư viện mạnh mẽ này cho phép bạn tạo và thao tác các tài liệu Word một cách liền mạch. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 
 3. Khóa API cho Mô hình AI của Google: Để sử dụng các mô hình AI, bạn cần có khóa API để xác thực. Lưu trữ khóa này một cách an toàn trong các biến môi trường của bạn.
 
@@ -57,7 +59,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
- Thay thế`"YOUR_DOCUMENT_DIRECTORY"` Và`"YOUR_ARTIFACTS_DIRECTORY"` với các đường dẫn thực tế trên hệ thống của bạn nơi tài liệu của bạn được lưu trữ. Điều này sẽ đóng vai trò là đường cơ sở để đọc và lưu tài liệu.
+Thay thế `"YOUR_DOCUMENT_DIRECTORY"` Và `"YOUR_ARTIFACTS_DIRECTORY"` với các đường dẫn thực tế trên hệ thống của bạn nơi tài liệu của bạn được lưu trữ. Điều này sẽ đóng vai trò là đường cơ sở để đọc và lưu tài liệu.
 
 ## Bước 2: Tải tài liệu
 
@@ -68,7 +70,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
- Các`Document` lớp từ Aspose.Words cho phép bạn tải các tệp Word vào bộ nhớ. Đảm bảo rằng tên tệp khớp với các tài liệu thực tế trong thư mục của bạn, nếu không bạn sẽ gặp lỗi không tìm thấy tệp!
+Các `Document` lớp từ Aspose.Words cho phép bạn tải các tệp Word vào bộ nhớ. Đảm bảo rằng tên tệp khớp với các tài liệu thực tế trong thư mục của bạn, nếu không bạn sẽ gặp lỗi không tìm thấy tệp!
 
 ## Bước 3: Lấy khóa API
 
@@ -82,13 +84,13 @@ Dòng mã này sẽ lấy khóa API mà bạn đã lưu trong các biến môi t
 
 ## Bước 4: Tạo một phiên bản mô hình AI
 
-Bây giờ, đã đến lúc tạo một phiên bản của mô hình AI. Ở đây, bạn có thể chọn mô hình nào để sử dụng—trong ví dụ này, chúng tôi chọn mô hình GPT-4 Mini.
+Bây giờ, đã đến lúc tạo một phiên bản của mô hình AI. Tại đây, bạn có thể chọn mô hình nào để sử dụng—trong ví dụ này, chúng tôi chọn mô hình GPT-4 Mini.
 
 ```csharp
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
- Dòng này thiết lập mô hình AI mà bạn sẽ sử dụng để tóm tắt tài liệu. Hãy chắc chắn tham khảo[tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về các mẫu khác nhau và khả năng của chúng.
+Dòng này thiết lập mô hình AI mà bạn sẽ sử dụng để tóm tắt tài liệu. Hãy chắc chắn tham khảo [tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về các mẫu khác nhau và khả năng của chúng.
 
 ## Bước 5: Tóm tắt một tài liệu duy nhất
 
@@ -99,7 +101,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
- Trong bước này, chúng tôi sử dụng`Summarize`phương pháp từ phiên bản mô hình AI để có được bản tóm tắt của tài liệu đầu tiên. Chiều dài tóm tắt được đặt thành ngắn, nhưng bạn có thể tùy chỉnh tùy theo nhu cầu của mình. Cuối cùng, tài liệu tóm tắt được lưu vào thư mục hiện vật của bạn.
+Trong bước này, chúng tôi sử dụng `Summarize` phương pháp từ phiên bản mô hình AI để có được bản tóm tắt của tài liệu đầu tiên. Chiều dài tóm tắt được đặt thành ngắn, nhưng bạn có thể tùy chỉnh tùy theo nhu cầu của mình. Cuối cùng, tài liệu tóm tắt được lưu vào thư mục hiện vật của bạn.
 
 ## Bước 6: Tóm tắt nhiều tài liệu
 
@@ -110,7 +112,7 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Ở đây, chúng tôi đang gọi`Summarize` phương pháp một lần nữa, nhưng lần này với một mảng các tài liệu. Điều này sẽ cung cấp cho bạn một bản tóm tắt dài tóm tắt bản chất của cả hai tệp. Giống như trước đây, kết quả được lưu trong thư mục hiện vật đã chỉ định.
+Ở đây, chúng tôi đang gọi `Summarize` phương pháp một lần nữa, nhưng lần này với một mảng các tài liệu. Điều này sẽ cung cấp cho bạn một bản tóm tắt dài tóm tắt bản chất của cả hai tệp. Giống như trước đây, kết quả được lưu trong thư mục hiện vật đã chỉ định.
 
 ## Phần kết luận
 
@@ -125,17 +127,22 @@ Aspose.Words là một thư viện mạnh mẽ để tạo, chỉnh sửa và ch
 Bạn thường có thể lấy khóa API bằng cách đăng ký Google Cloud và kích hoạt các dịch vụ API cần thiết.
 
 ### Tôi có thể tóm tắt nhiều tài liệu cùng một lúc không?
-Có! Như đã trình bày, bạn có thể truyền một mảng tài liệu vào phương pháp tóm tắt.
+Có! Như đã trình bày, bạn có thể truyền một mảng tài liệu vào phương thức tóm tắt.
 
 ### Tôi có thể tạo những loại tóm tắt nào?
 Bạn có thể chọn tóm tắt ngắn, trung bình và dài tùy theo nhu cầu của mình.
 
 ### Tôi có thể tìm thêm tài nguyên Aspose.Words ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

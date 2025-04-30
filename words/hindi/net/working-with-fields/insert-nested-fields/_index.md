@@ -1,14 +1,16 @@
 ---
-title: नेस्टेड फ़ील्ड्स डालें
-linktitle: नेस्टेड फ़ील्ड्स डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नेस्टेड फ़ील्ड सम्मिलित करना सीखें। दस्तावेज़ निर्माण को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-fields/insert-nested-fields/
+"description": "हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नेस्टेड फ़ील्ड सम्मिलित करना सीखें। दस्तावेज़ निर्माण को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "नेस्टेड फ़ील्ड्स डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "नेस्टेड फ़ील्ड्स डालें"
+"url": "/hi/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नेस्टेड फ़ील्ड्स डालें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/insert-nested-fields/
 
 आरंभ करने से पहले, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: विजुअल स्टूडियो जैसा एक IDE.
 3. C# का मूलभूत ज्ञान: C# प्रोग्रामिंग भाषा की समझ।
 
@@ -115,16 +117,21 @@ doc.Save(dataDir + "InsertNestedFields.docx");
 हां, आप गतिशील सामग्री बनाने के लिए IF फ़ील्ड के भीतर DATE, TIME और AUTHOR जैसे विभिन्न फ़ील्ड को नेस्ट कर सकते हैं।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसे आज़माने के लिए.
+Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) इसे आज़माने के लिए.
 
 ### क्या मैं अन्य .NET भाषाओं के साथ Aspose.Words का उपयोग कर सकता हूँ?
 हां, Aspose.Words VB.NET और F# सहित सभी .NET भाषाओं का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

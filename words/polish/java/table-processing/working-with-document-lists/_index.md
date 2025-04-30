@@ -1,14 +1,16 @@
 ---
-title: Praca z listami dokumentów
-linktitle: Praca z listami dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak pracować z listami dokumentów w Javie, używając Aspose.Words for Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do wydajnej manipulacji dokumentami.
-weight: 11
-url: /pl/java/table-processing/working-with-document-lists/
+"description": "Dowiedz się, jak pracować z listami dokumentów w Javie, używając Aspose.Words for Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do wydajnej manipulacji dokumentami."
+"linktitle": "Praca z listami dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Praca z listami dokumentów"
+"url": "/pl/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Praca z listami dokumentów
@@ -66,7 +68,7 @@ Oto fragment kodu umożliwiający modyfikację listy dokumentów:
 Paragraph lastListParagraph = null;
 NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
-    // Sprawdź, czy akapit jest częścią listy.
+    // Sprawdź czy akapit jest częścią listy.
     if (paragraph.isListItem()) {
         // Zaktualizuj ostatni akapit listy.
         lastListParagraph = paragraph;
@@ -79,7 +81,7 @@ builder.writeln("Item 4");
 
 ## Wyodrębnianie informacji z listy dokumentów
 
-W niektórych przypadkach może być konieczne wyodrębnienie informacji z listy dokumentów, np. pobranie wszystkich elementów listy lub określonych elementów na podstawie kryteriów. Oto, jak możesz to zrobić:
+niektórych przypadkach może być konieczne wyodrębnienie informacji z listy dokumentów, np. pobranie wszystkich elementów listy lub określonych elementów na podstawie kryteriów. Oto, jak możesz to zrobić:
 
 1. Załaduj dokument zawierający listę.
 2. Uzyskaj dostęp do listy.
@@ -105,7 +107,7 @@ W tym kompleksowym przewodniku zbadaliśmy świat pracy z listami dokumentów pr
 ## Najczęściej zadawane pytania
 
 ### Jak dodać punkty wypunktowane do listy dokumentu?
- Aby dodać punkty wypunktowania do listy dokumentów, użyj odpowiedniego ListTemplate podczas tworzenia listy. Na przykład użyj`ListTemplate.BULLET_DEFAULT` zamiast`ListTemplate.NUMBER_DEFAULT`.
+Aby dodać punkty wypunktowania do listy dokumentów, użyj odpowiedniego ListTemplate podczas tworzenia listy. Na przykład użyj `ListTemplate.BULLET_DEFAULT` zamiast `ListTemplate.NUMBER_DEFAULT`.
 
 ### Czy mogę zmienić formatowanie elementów listy?
 Tak, możesz dostosować formatowanie elementów listy, w tym czcionkę, rozmiar, kolor i inne, korzystając z funkcji formatowania Aspose.Words for Java.
@@ -118,9 +120,14 @@ Aby przekonwertować listę dokumentów do formatu PDF, po prostu załaduj dokum
 
 ### Czy Aspose.Words for Java obsługuje pracę z tabelami w dokumentach?
 Tak, Aspose.Words for Java oferuje rozbudowane wsparcie dla pracy z tabelami, umożliwiając bezproblemowe tworzenie, modyfikowanie i wyodrębnianie danych tabelarycznych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

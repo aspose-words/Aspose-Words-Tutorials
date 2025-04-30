@@ -1,26 +1,28 @@
 ---
-title: Word 文件中的高效內容擷取
-linktitle: Word 文件中的高效內容擷取
-second_title: Aspose.Words Python 文件管理 API
-description: 使用 Aspose.Words for Python 從 Word 文件中高效提取內容。透過程式碼範例逐步學習。
-weight: 11
-url: /zh-hant/python-net/content-extraction-and-manipulation/document-content-extraction/
+"description": "使用 Aspose.Words for Python 有效率地從 Word 文件中提取內容。透過程式碼範例逐步學習。"
+"linktitle": "Word文件中高效率內容擷取"
+"second_title": "Aspose.Words Python文件管理API"
+"title": "Word文件中高效率內容擷取"
+"url": "/zh-hant/python-net/content-extraction-and-manipulation/document-content-extraction/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word 文件中的高效內容擷取
+# Word文件中高效率內容擷取
 
 
 ## 介紹
 
-從Word文件中高效提取內容是資料處理、內容分析等領域的常見要求。 Aspose.Words for Python 是一個功能強大的函式庫，提供了以程式設計方式處理 Word 文件的全面工具。
+有效率地從 Word 文件中提取內容是資料處理、內容分析等方面的常見需求。 Aspose.Words for Python 是一個功能強大的函式庫，它提供了以程式設計方式處理 Word 文件的綜合工具。
 
 ## 先決條件
 
-在我們深入研究程式碼之前，請確保您已安裝 Python 和 Aspose.Words 程式庫。您可以從網站下載該庫[這裡](https://releases.aspose.com/words/python/)。此外，請確保您有一個可供測試的 Word 文件。
+在深入研究程式碼之前，請確保您已安裝 Python 和 Aspose.Words 程式庫。您可以從網站下載該庫 [這裡](https://releases.aspose.com/words/python/)。此外，請確保您已準備好 Word 文件以進行測試。
 
 ## 安裝 Aspose.Words for Python
 
@@ -52,7 +54,7 @@ for paragraph in doc.get_child_nodes(doc.is_paragraph, True):
 
 ## 管理格式
 
-在提取過程中保留格式：
+提取期間保留格式：
 
 ```python
 for run in doc.get_child_nodes(doc.is_run, True):
@@ -97,13 +99,13 @@ for section in doc.sections:
 
 ## 結論
 
-使用 Aspose.Words for Python 可以從 Word 文件中有效地提取內容。這個強大的程式庫簡化了處理文字和視覺內容的過程，使開發人員能夠無縫地從 Word 文件中提取、操作和分析資料。
+使用 Aspose.Words for Python 可以有效率地從 Word 文件中提取內容。這個強大的程式庫簡化了處理文字和視覺內容的過程，使開發人員能夠無縫地從 Word 文件中提取、操作和分析資料。
 
 ## 常見問題解答
 
 ### 如何安裝 Aspose.Words for Python？
 
-若要安裝 Aspose.Words for Python，請使用下列指令：`pip install aspose-words`.
+若要安裝 Aspose.Words for Python，請使用下列指令： `pip install aspose-words`。
 
 ### 我可以同時提取圖像和文字嗎？
 
@@ -119,10 +121,15 @@ for section in doc.sections:
 
 ### 在哪裡可以找到有關 Aspose.Words for Python 的更多資訊？
 
-如需全面的文件和參考，請訪問[這裡](https://reference.aspose.com/words/python-net/).
+如需全面的文件和參考資料，請訪問 [這裡](https://reference。aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

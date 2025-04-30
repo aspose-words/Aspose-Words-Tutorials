@@ -1,14 +1,16 @@
 ---
-title: Afbeeldingen opslaan uit documenten in Aspose.Words voor Java
-linktitle: Afbeeldingen uit documenten opslaan
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java met onze uitgebreide stapsgewijze handleiding. Pas formaten, compressie en meer aan.
-weight: 17
-url: /nl/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Leer hoe je afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java met onze uitgebreide stapsgewijze handleiding. Pas formaten, compressie en meer aan."
+"linktitle": "Afbeeldingen uit documenten opslaan"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Afbeeldingen opslaan uit documenten in Aspose.Words voor Java"
+"url": "/nl/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Afbeeldingen opslaan uit documenten in Aspose.Words voor Java
@@ -16,11 +18,11 @@ url: /nl/java/document-loading-and-saving/saving-images-from-documents/
 
 ## Inleiding tot het opslaan van afbeeldingen uit documenten in Aspose.Words voor Java
 
-In deze tutorial gaan we onderzoeken hoe je afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java. We behandelen verschillende scenario's en aanpassingsopties voor het opslaan van afbeeldingen. Deze gids biedt stapsgewijze instructies met broncodevoorbeelden.
+In deze tutorial laten we zien hoe je afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java. We bespreken verschillende scenario's en aanpassingsmogelijkheden voor het opslaan van afbeeldingen. Deze handleiding bevat stapsgewijze instructies met broncodevoorbeelden.
 
 ## Vereisten
 
- Voordat u begint, moet u ervoor zorgen dat u de Aspose.Words for Java-bibliotheek in uw project hebt geïntegreerd. U kunt deze downloaden van[hier](https://releases.aspose.com/words/java/).
+Voordat u begint, moet u ervoor zorgen dat de Aspose.Words voor Java-bibliotheek in uw project is geïntegreerd. U kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).
 
 ## Stap 1: Afbeeldingen opslaan als TIFF met drempelcontrole
 
@@ -64,7 +66,7 @@ doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 
 ## Stap 4: Een pagina opslaan als JPEG met aanpassing
 
-Om een specifieke pagina als JPEG op te slaan met aanpassingsopties, gebruikt u deze code:
+Gebruik deze code om een specifieke pagina als JPEG op te slaan met aanpassingsopties:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -76,7 +78,7 @@ options.setHorizontalResolution(72f);
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Stap 5: Gebruik van de callback voor het opslaan van pagina's
+## Stap 5: Gebruik van de callback voor paginaopslag
 
 U kunt een callback gebruiken om het opslaan van pagina's aan te passen. Hier is een voorbeeld:
 
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Conclusie
 
-hebt geleerd hoe u afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java. Deze voorbeelden laten verschillende aanpassingsopties voor het opslaan van afbeeldingen zien, waaronder opmaak, compressie en callbackgebruik. Ontdek meer mogelijkheden met de krachtige mogelijkheden van Aspose.Words voor Java.
+Je hebt geleerd hoe je afbeeldingen uit documenten kunt opslaan met Aspose.Words voor Java. Deze voorbeelden demonstreren verschillende aanpassingsopties voor het opslaan van afbeeldingen, waaronder opmaak, compressie en callbackgebruik. Ontdek meer mogelijkheden met de krachtige mogelijkheden van Aspose.Words voor Java.
 
 ## Veelgestelde vragen
 
-### Hoe wijzig ik het afbeeldingsformaat bij het opslaan met Aspose.Words voor Java?
+### Hoe wijzig ik de afbeeldingsindeling bij het opslaan met Aspose.Words voor Java?
 
- U kunt het afbeeldingsformaat wijzigen door het gewenste formaat in het veld op te geven.`ImageSaveOptions` Om bijvoorbeeld als PNG op te slaan, gebruikt u`SaveFormat.PNG` zoals weergegeven in de code:
+U kunt het afbeeldingsformaat wijzigen door het gewenste formaat in het veld 'Afbeelding' op te geven. `ImageSaveOptions`Om bijvoorbeeld als PNG op te slaan, gebruikt u `SaveFormat.PNG` zoals weergegeven in de code:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -185,7 +187,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions();
 
 ### Kan ik de compressie-instellingen voor TIFF-afbeeldingen aanpassen?
 
-Ja, u kunt de compressie-instellingen voor TIFF-afbeeldingen aanpassen. Om bijvoorbeeld de compressiemethode in te stellen op CCITT_3, gebruikt u de volgende code:
+Ja, u kunt de compressie-instellingen voor TIFF-afbeeldingen aanpassen. Om de compressiemethode bijvoorbeeld in te stellen op CCITT_3, gebruikt u de volgende code:
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Hoe kan ik een specifieke pagina uit een document opslaan als een aparte afbeelding?
 
- Om een specifieke pagina als afbeelding op te slaan, gebruikt u de`setPageSet`methode in`ImageSaveOptions` Om bijvoorbeeld alleen de eerste pagina op te slaan, stelt u de`PageSet` naar`new PageSet(0)`.
+Om een specifieke pagina als afbeelding op te slaan, gebruikt u de `setPageSet` methode in `ImageSaveOptions`Om bijvoorbeeld alleen de eerste pagina op te slaan, stelt u de `PageSet` naar `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Sla de eerste pagina op als afbeelding
@@ -201,22 +203,22 @@ saveOptions.setPageSet(new PageSet(0)); // Sla de eerste pagina op als afbeeldin
 
 ### Hoe pas ik aangepaste instellingen toe op JPEG-afbeeldingen bij het opslaan?
 
- kunt aangepaste instellingen toepassen op JPEG-afbeeldingen met behulp van`ImageSaveOptions`. Pas eigenschappen aan zoals helderheid, contrast en resolutie. Om bijvoorbeeld de helderheid te veranderen naar 0,3 en het contrast naar 0,7, gebruikt u deze code:
+U kunt aangepaste instellingen toepassen op JPEG-afbeeldingen met behulp van `ImageSaveOptions`Pas eigenschappen zoals helderheid, contrast en resolutie aan. Om bijvoorbeeld de helderheid naar 0,3 en het contrast naar 0,7 te wijzigen, gebruikt u deze code:
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Hoe kan ik een callback gebruiken om het opslaan van afbeeldingen aan te passen?
+### Hoe kan ik een callback gebruiken voor het aanpassen van het opslaan van afbeeldingen?
 
- Om een callback te gebruiken voor het aanpassen van het opslaan van afbeeldingen, stelt u de`PageSavingCallback` in`ImageSaveOptions` . Maak een klasse die de`IPageSavingCallback` interface en overschrijf de`pageSaving` methode.
+Om een callback te gebruiken voor het aanpassen van het opslaan van afbeeldingen, stelt u de `PageSavingCallback` in `ImageSaveOptions`. Maak een klasse die de `IPageSavingCallback` interface en overschrijven de `pageSaving` methode.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Maak vervolgens een klasse die de`IPageSavingCallback` interface en pas de bestandsnaam en locatie aan in de`pageSaving` methode.
+Maak vervolgens een klasse die de `IPageSavingCallback` interface en pas de bestandsnaam en locatie aan in de `pageSaving` methode.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

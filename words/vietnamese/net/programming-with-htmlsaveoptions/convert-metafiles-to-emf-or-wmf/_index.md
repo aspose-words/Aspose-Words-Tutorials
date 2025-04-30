@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Metafile sang Emf hoặc Wmf
-linktitle: Chuyển đổi Metafile sang Emf hoặc Wmf
-second_title: API xử lý tài liệu Aspose.Words
-description: Hướng dẫn từng bước để chuyển đổi các tệp siêu dữ liệu sang định dạng EMF hoặc WMF khi chuyển đổi tài liệu sang HTML bằng Aspose.Words cho .NET.
-weight: 10
-url: /vi/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
+"description": "Hướng dẫn từng bước để chuyển đổi các tệp siêu dữ liệu sang định dạng EMF hoặc WMF khi chuyển đổi tài liệu sang HTML bằng Aspose.Words cho .NET."
+"linktitle": "Chuyển đổi Metafile sang Emf hoặc Wmf"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi Metafile sang Emf hoặc Wmf"
+"url": "/vi/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Metafile sang Emf hoặc Wmf
@@ -21,10 +23,10 @@ Chào mừng bạn đến với một cuộc khám phá sâu hơn nữa về th�
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng chúng ta đã thiết lập mọi thứ. Sau đây là những gì bạn cần:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu bạn không có, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu bạn không có, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 3. Môi trường phát triển: Một IDE như Visual Studio sẽ giúp cuộc sống của bạn dễ dàng hơn.
-4. Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng hiểu biết cơ bản sẽ hữu ích.
+4. Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng hiểu biết cơ bản sẽ giúp ích.
 
 Bạn đã hiểu hết chưa? Tuyệt! Chúng ta hãy bắt đầu thôi.
 
@@ -47,7 +49,7 @@ Hãy bắt đầu bằng cách xác định đường dẫn đến thư mục t�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
 
 ## Bước 2: Tạo chuỗi HTML bằng SVG
 
@@ -66,18 +68,18 @@ string html =
 
 ## Bước 3: Tải HTML với tùy chọn ConvertSvgToEmf
 
- Bây giờ, chúng ta sử dụng`HtmlLoadOptions` để chỉ định cách chúng ta muốn xử lý hình ảnh SVG trong HTML. Cài đặt`ConvertSvgToEmf` ĐẾN`true` đảm bảo rằng hình ảnh SVG được chuyển đổi sang định dạng EMF.
+Bây giờ, chúng ta sử dụng `HtmlLoadOptions` để chỉ định cách chúng ta muốn xử lý hình ảnh SVG trong HTML. Cài đặt `ConvertSvgToEmf` ĐẾN `true` đảm bảo rằng hình ảnh SVG được chuyển đổi sang định dạng EMF.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
- Đoạn mã này tạo ra một cái mới`Document` đối tượng bằng cách tải chuỗi HTML vào đó với các tùy chọn tải đã chỉ định.
+Đoạn mã này tạo ra một cái mới `Document` đối tượng bằng cách tải chuỗi HTML vào đó với các tùy chọn tải đã chỉ định.
 
 ## Bước 4: Thiết lập HtmlSaveOptions cho Định dạng Metafile
 
- Để lưu tài liệu với định dạng metafile chính xác, chúng tôi sử dụng`HtmlSaveOptions` . Ở đây, chúng tôi thiết lập`MetafileFormat` ĐẾN`HtmlMetafileFormat.Png` , nhưng bạn có thể thay đổi điều này thành`Emf` hoặc`Wmf` tùy thuộc vào nhu cầu của bạn.
+Để lưu tài liệu với định dạng metafile chính xác, chúng tôi sử dụng `HtmlSaveOptions`. Ở đây, chúng tôi thiết lập `MetafileFormat` ĐẾN `HtmlMetafileFormat.Png`, nhưng bạn có thể thay đổi điều này thành `Emf` hoặc `Wmf` tùy thuộc vào nhu cầu của bạn.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafileFormat.Png };
@@ -112,10 +114,15 @@ Việc chuyển đổi SVG sang EMF hoặc WMF đảm bảo đồ họa vector �
 Hoàn toàn có thể! Bạn có thể lặp qua nhiều tệp HTML, áp dụng cùng một quy trình để tự động chuyển đổi để xử lý hàng loạt.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

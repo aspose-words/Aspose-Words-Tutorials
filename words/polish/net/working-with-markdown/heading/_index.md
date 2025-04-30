@@ -1,14 +1,16 @@
 ---
-title: Nagłówek
-linktitle: Nagłówek
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak opanować formatowanie dokumentów za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera samouczek dotyczący dodawania nagłówków i dostosowywania dokumentów Word.
-weight: 10
-url: /pl/net/working-with-markdown/heading/
+"description": "Dowiedz się, jak opanować formatowanie dokumentów za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera samouczek dotyczący dodawania nagłówków i dostosowywania dokumentów Word."
+"linktitle": "Nagłówek"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Nagłówek"
+"url": "/pl/net/working-with-markdown/heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nagłówek
@@ -21,10 +23,10 @@ W dzisiejszym szybko zmieniającym się cyfrowym świecie tworzenie dobrze ustru
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne zgodne środowisko IDE.
 3. .NET Framework: Upewnij się, że masz zainstalowaną odpowiednią wersję .NET Framework.
-4. Podstawowa wiedza o języku C#: Znajomość podstaw programowania w języku C# pomoże Ci zrozumieć przykłady.
+4. Podstawowa wiedza o języku C#: Znajomość podstaw programowania w języku C# ułatwi Ci zrozumienie przykładów.
 
 ## Importuj przestrzenie nazw
 
@@ -84,7 +86,7 @@ Tak, Aspose.Words dla .NET można używać z dowolnym językiem .NET, w tym VB.N
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy można dodawać niestandardowe style w Aspose.Words dla .NET?
 
@@ -92,14 +94,19 @@ Oczywiście! Możesz definiować i stosować style niestandardowe za pomocą kla
 
 ### Czy Aspose.Words dla .NET obsługuje duże dokumenty?
 
-Tak, Aspose.Words dla platformy .NET jest zoptymalizowany pod kątem wydajności i może sprawnie obsługiwać duże dokumenty.
+Tak, Aspose.Words for .NET jest zoptymalizowany pod kątem wydajności i może sprawnie obsługiwać duże dokumenty.
 
 ### Gdzie mogę znaleźć więcej dokumentacji i pomocy?
 
- Aby uzyskać szczegółową dokumentację, odwiedź stronę[Tutaj](https://reference.aspose.com/words/net/) . Aby uzyskać pomoc, sprawdź ich[forum](https://forum.aspose.com/c/words/8).
+Aby uzyskać szczegółową dokumentację, odwiedź stronę [Tutaj](https://reference.aspose.com/words/net/). Aby uzyskać pomoc, sprawdź ich [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

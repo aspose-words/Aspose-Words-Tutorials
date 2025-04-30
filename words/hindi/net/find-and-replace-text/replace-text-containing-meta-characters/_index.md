@@ -1,14 +1,16 @@
 ---
-title: वर्ड मेटा कैरेक्टर वाले टेक्स्ट को बदलें
-linktitle: वर्ड मेटा कैरेक्टर वाले टेक्स्ट को बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मेटा वर्णों वाले टेक्स्ट को बदलना सीखें। सहज टेक्स्ट हेरफेर के लिए हमारे विस्तृत, आकर्षक ट्यूटोरियल का पालन करें।
-weight: 10
-url: /hi/net/find-and-replace-text/replace-text-containing-meta-characters/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में मेटा वर्णों वाले टेक्स्ट को बदलना सीखें। सहज टेक्स्ट हेरफेर के लिए हमारे विस्तृत, आकर्षक ट्यूटोरियल का पालन करें।"
+"linktitle": "वर्ड मेटा कैरेक्टर वाले टेक्स्ट को बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड मेटा कैरेक्टर वाले टेक्स्ट को बदलें"
+"url": "/hi/net/find-and-replace-text/replace-text-containing-meta-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड मेटा कैरेक्टर वाले टेक्स्ट को बदलें
@@ -20,7 +22,7 @@ url: /hi/net/find-and-replace-text/replace-text-containing-meta-characters/
 ## आवश्यक शर्तें
 
 इससे पहले कि हम इसकी बारीकियों पर जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
--  .NET के लिए Aspose.Words:[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/)
+- .NET के लिए Aspose.Words: [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/)
 - .NET फ्रेमवर्क: सुनिश्चित करें कि यह स्थापित है।
 - C# की बुनियादी समझ: थोड़ा सा कोडिंग ज्ञान बहुत काम आता है।
 - टेक्स्ट एडिटर या IDE: विजुअल स्टूडियो अत्यधिक अनुशंसित है।
@@ -48,9 +50,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यह कोड स्निपेट दस्तावेज़ को आरंभ करता है और बिल्डर सेट करता है।`dataDir` आपके दस्तावेज़ का मुख्य आधार है.
+यह कोड स्निपेट दस्तावेज़ को आरंभ करता है और बिल्डर सेट करता है। `dataDir` आपके दस्तावेज़ का मुख्य आधार है.
 
-## चरण 2: अपना फ़ॉन्ट कस्टमाइज़ करें और सामग्री जोड़ें
+## चरण 2: अपना फ़ॉन्ट अनुकूलित करें और सामग्री जोड़ें
 
 अब, चलिए अपने दस्तावेज़ में कुछ टेक्स्ट जोड़ते हैं। इसे अपने नाटक की स्क्रिप्ट लिखने के तौर पर सोचें।
 
@@ -75,18 +77,18 @@ FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
 findReplaceOptions.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
 ```
 
- हम एक बना रहे हैं`FindReplaceOptions` ऑब्जेक्ट और पैराग्राफ संरेखण को केंद्र में सेट करना।
+हम एक बना रहे हैं `FindReplaceOptions` ऑब्जेक्ट और पैराग्राफ संरेखण को केंद्र में सेट करना।
 
 ## चरण 4: टेक्स्ट को मेटा कैरेक्टर से बदलें
 
-इस चरण में जादू होता है! हम "सेक्शन" शब्द के स्थान पर पैराग्राफ ब्रेक लगाएंगे और एक रेखांकन जोड़ेंगे।
+यह वह चरण है जहाँ जादू होता है! हम "सेक्शन" शब्द के स्थान पर पैराग्राफ ब्रेक लगाएँगे, और एक रेखांकन जोड़ेंगे।
 
 ```csharp
-//प्रत्येक पैराग्राफ में "सेक्शन" शब्द के बाद दोहरा ब्रेक लगाएं, रेखांकन जोड़ें और उसे केन्द्र में रखें।
+// प्रत्येक पैराग्राफ में "सेक्शन" शब्द के बाद दोहरा ब्रेक लगाएं, रेखांकन जोड़ें और उसे केन्द्र में रखें।
 int count = doc.Range.Replace("section&p", "section&p----------------------&p", findReplaceOptions);
 ```
 
-इस कोड में, हम "section" टेक्स्ट के स्थान पर पैराग्राफ ब्रेक लगा रहे हैं (`&p`) को उसी टेक्स्ट के साथ रेखांकित करके, उसे केन्द्र में रखना।
+इस कोड में, हम "section" टेक्स्ट के स्थान पर पैराग्राफ ब्रेक लगा रहे हैं (`&p`) को उसी पाठ के साथ रेखांकित करके, उसे केन्द्र में रखना।
 
 ## चरण 5: अनुभाग विराम सम्मिलित करें
 
@@ -97,7 +99,7 @@ int count = doc.Range.Replace("section&p", "section&p----------------------&p", 
 count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 ```
 
- यहाँ,`{insert-section}` को अनुभाग विराम से प्रतिस्थापित किया जाता है (`&b`).
+यहाँ, `{insert-section}` को अनुभाग विराम से प्रतिस्थापित किया जाता है (`&b`).
 
 ## चरण 6: दस्तावेज़ सहेजें
 
@@ -107,7 +109,7 @@ count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ```
 
- यह कोड दस्तावेज़ को आपके निर्दिष्ट निर्देशिका में नाम के साथ सहेजता है`FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
+यह कोड दस्तावेज़ को आपके निर्दिष्ट निर्देशिका में नाम के साथ सहेजता है `FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
 
 ## निष्कर्ष
 
@@ -116,22 +118,27 @@ doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### पाठ प्रतिस्थापन में मेटा वर्ण क्या हैं?
- मेटा वर्ण विशेष वर्ण होते हैं जिनका एक विशिष्ट कार्य होता है, जैसे`&p` पैराग्राफ ब्रेक के लिए और`&b` खंड विराम के लिए.
+मेटा वर्ण विशेष वर्ण होते हैं जिनका एक विशिष्ट कार्य होता है, जैसे `&p` पैराग्राफ ब्रेक के लिए और `&b` खंड विराम के लिए.
 
 ### क्या मैं प्रतिस्थापन पाठ को और अधिक अनुकूलित कर सकता हूँ?
 बिल्कुल! आप आवश्यकतानुसार अलग-अलग टेक्स्ट, फ़ॉर्मेटिंग या अन्य मेटा वर्णों को शामिल करने के लिए प्रतिस्थापन स्ट्रिंग को संशोधित कर सकते हैं।
 
 ### यदि मुझे कई अलग-अलग टैग बदलने की आवश्यकता हो तो क्या होगा?
- आप कई श्रृंखला बना सकते हैं`Replace` आपके दस्तावेज़ में विभिन्न टैग या पैटर्न को संभालने के लिए कॉल करता है।
+आप कई श्रृंखला बना सकते हैं `Replace` आपके दस्तावेज़ में विभिन्न टैग या पैटर्न को संभालने के लिए कॉल करता है।
 
 ### क्या अन्य फ़ॉन्ट और फ़ॉर्मेटिंग का उपयोग करना संभव है?
-हां, आप फ़ॉन्ट और अन्य स्वरूपण विकल्पों को अनुकूलित कर सकते हैं`DocumentBuilder` और`FindReplaceOptions` वस्तुएं.
+हां, आप फ़ॉन्ट और अन्य स्वरूपण विकल्पों को अनुकूलित कर सकते हैं `DocumentBuilder` और `FindReplaceOptions` वस्तुएं.
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- आप यहां जा सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक जानकारी और उदाहरण के लिए.
+आप यहां जा सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक जानकारी और उदाहरण के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

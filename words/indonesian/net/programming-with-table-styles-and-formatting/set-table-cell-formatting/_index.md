@@ -1,14 +1,16 @@
 ---
-title: Mengatur Pemformatan Sel Tabel
-linktitle: Mengatur Pemformatan Sel Tabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Sempurnakan dokumen Word Anda dengan format sel tabel profesional menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini menyederhanakan prosesnya untuk Anda.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Sempurnakan dokumen Word Anda dengan format sel tabel profesional menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini menyederhanakan prosesnya untuk Anda."
+"linktitle": "Mengatur Pemformatan Sel Tabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Pemformatan Sel Tabel"
+"url": "/id/net/programming-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Pemformatan Sel Tabel
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara membuat dokumen Word Anda lebih pro
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Tautan unduhan](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Tautan unduhan](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung pengembangan .NET.
 3. Pengetahuan Dasar C#: Memahami konsep pemrograman dasar dan sintaksis dalam C#.
-4.  Direktori Dokumen Anda: Pastikan Anda memiliki direktori khusus untuk menyimpan dokumen Anda. Kami akan menyebutnya sebagai`YOUR DOCUMENT DIRECTORY`.
+4. Direktori Dokumen Anda: Pastikan Anda memiliki direktori khusus untuk menyimpan dokumen Anda. Kami akan menyebutnya sebagai `YOUR DOCUMENT DIRECTORY`.
 
 ## Mengimpor Ruang Nama
 
@@ -39,7 +41,7 @@ Mari kita uraikan cuplikan kode yang disediakan dan jelaskan setiap langkah untu
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Untuk memulai, Anda perlu membuat instance baru dari`Document` kelas dan`DocumentBuilder`kelas. Kelas-kelas ini adalah titik masuk Anda untuk membuat dan memanipulasi dokumen Word.
+Untuk memulai, Anda perlu membuat instance baru dari `Document` kelas dan `DocumentBuilder` kelas. Kelas-kelas ini adalah titik masuk Anda untuk membuat dan memanipulasi dokumen Word.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Mulai Tabel
 
- Dengan`DocumentBuilder` Misalnya, Anda dapat mulai membuat tabel. Ini dilakukan dengan memanggil`StartTable` metode.
+Dengan `DocumentBuilder` Misalnya, Anda dapat mulai membuat tabel. Ini dilakukan dengan memanggil `StartTable` metode.
 
 ```csharp
 // Mulai tabel
@@ -70,7 +72,7 @@ builder.InsertCell();
 
 ## Langkah 4: Akses dan Atur Properti Format Sel
 
- Setelah sel dimasukkan, Anda dapat mengakses properti formatnya menggunakan`CellFormat` milik`DocumentBuilder`Di sini, Anda dapat mengatur berbagai opsi pemformatan seperti lebar dan bantalan.
+Setelah sel dimasukkan, Anda dapat mengakses properti formatnya menggunakan `CellFormat` milik `DocumentBuilder`Di sini, Anda dapat mengatur berbagai opsi pemformatan seperti lebar dan bantalan.
 
 ```csharp
 // Mengakses dan mengatur properti format sel
@@ -117,22 +119,27 @@ Memformat sel tabel dapat meningkatkan keterbacaan dan daya tarik visual dokumen
 ## Tanya Jawab Umum
 
 ### Bisakah saya mengatur nilai padding yang berbeda untuk setiap sel dalam tabel?
- Ya, Anda dapat mengatur nilai padding yang berbeda untuk setiap sel secara individual dengan mengaksesnya`CellFormat` properti secara terpisah.
+Ya, Anda dapat mengatur nilai padding yang berbeda untuk setiap sel secara individual dengan mengaksesnya `CellFormat` properti secara terpisah.
 
 ### Apakah mungkin untuk menerapkan format yang sama ke beberapa sel sekaligus?
 Ya, Anda dapat melakukan pengulangan melalui sel dan menerapkan pengaturan pemformatan yang sama ke setiap sel secara terprogram.
 
-### Bagaimana saya dapat memformat seluruh tabel, bukan sel individual?
- Anda dapat mengatur format tabel secara keseluruhan menggunakan`Table` properti kelas dan metode yang tersedia di Aspose.Words.
+### Bagaimana saya dapat memformat seluruh tabel dan bukan sel individual?
+Anda dapat mengatur format tabel secara keseluruhan menggunakan `Table` properti kelas dan metode yang tersedia di Aspose.Words.
 
 ### Bisakah saya mengubah perataan teks dalam sel?
- Ya, Anda dapat mengubah perataan teks menggunakan`ParagraphFormat` milik`DocumentBuilder`.
+Ya, Anda dapat mengubah perataan teks menggunakan `ParagraphFormat` milik `DocumentBuilder`.
 
 ### Apakah ada cara untuk menambahkan batas ke sel tabel?
- Ya, Anda dapat menambahkan batas ke sel tabel dengan mengatur`Borders` milik`CellFormat` kelas.
+Ya, Anda dapat menambahkan batas ke sel tabel dengan mengatur `Borders` milik `CellFormat` kelas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

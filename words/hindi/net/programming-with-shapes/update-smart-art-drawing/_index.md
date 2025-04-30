@@ -1,14 +1,16 @@
 ---
-title: स्मार्ट आर्ट ड्राइंग अपडेट करें
-linktitle: स्मार्ट आर्ट ड्राइंग अपडेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके विज़ुअल हमेशा सटीक हों।
-weight: 10
-url: /hi/net/programming-with-shapes/update-smart-art-drawing/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके विज़ुअल हमेशा सटीक हों।"
+"linktitle": "स्मार्ट आर्ट ड्राइंग अपडेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "स्मार्ट आर्ट ड्राइंग अपडेट करें"
+"url": "/hi/net/programming-with-shapes/update-smart-art-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्मार्ट आर्ट ड्राइंग अपडेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-shapes/update-smart-art-drawing/
 
 चरणों में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose रिलीज़ पृष्ठ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose रिलीज़ पृष्ठ](https://releases.aspose.com/words/net/).
 
 2. .NET वातावरण: आपके पास .NET विकास वातावरण स्थापित होना चाहिए, जैसे कि Visual Studio.
 
@@ -31,7 +33,7 @@ url: /hi/net/programming-with-shapes/update-smart-art-drawing/
 
 ## नामस्थान आयात करें
 
-.NET के लिए Aspose.Words के साथ काम करने के लिए, आपको अपने प्रोजेक्ट में उचित नामस्थान शामिल करने होंगे। यहां बताया गया है कि आप उन्हें कैसे आयात करते हैं:
+.NET के लिए Aspose.Words के साथ काम करने के लिए, आपको अपने प्रोजेक्ट में उचित नामस्थान शामिल करने होंगे। उन्हें आयात करने का तरीका इस प्रकार है:
 
 ```csharp
 using Aspose.Words;
@@ -45,10 +47,10 @@ using Aspose.Words.Drawing;
 शीर्षक: दस्तावेज़ लोड करें
 
 स्पष्टीकरण:
- सबसे पहले, आपको स्मार्ट आर्ट ग्राफ़िक्स वाले वर्ड डॉक्यूमेंट को लोड करना होगा। यह एक इंस्टेंस बनाकर किया जाता है`Document` क्लास और आपके दस्तावेज़ के लिए पथ प्रदान करना।
+सबसे पहले, आपको स्मार्ट आर्ट ग्राफ़िक्स वाले वर्ड डॉक्यूमेंट को लोड करना होगा। यह एक इंस्टेंस बनाकर किया जाता है `Document` क्लास और आपके दस्तावेज़ के लिए पथ प्रदान करना।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // दस्तावेज़ लोड करें
@@ -86,7 +88,7 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 शीर्षक: स्मार्ट आर्ट ग्राफ़िक्स को ताज़ा करें
 
 स्पष्टीकरण:
-`UpdateSmartArtDrawing` विधि स्मार्ट आर्ट ग्राफ़िक को रिफ्रेश करती है, यह सुनिश्चित करते हुए कि यह दस्तावेज़ के डेटा या लेआउट में किसी भी बदलाव को दर्शाता है। इस विधि को पिछले चरण में पहचाने गए प्रत्येक स्मार्ट आर्ट आकार पर कॉल किया जाना चाहिए।
+The `UpdateSmartArtDrawing` विधि स्मार्ट आर्ट ग्राफ़िक को रिफ्रेश करती है, यह सुनिश्चित करते हुए कि यह दस्तावेज़ के डेटा या लेआउट में किसी भी बदलाव को दर्शाता है। इस विधि को पिछले चरण में पहचाने गए प्रत्येक स्मार्ट आर्ट आकार पर कॉल किया जाना चाहिए।
 
 ```csharp
 // प्रत्येक स्मार्ट आर्ट आकृति के लिए स्मार्ट आर्ट ड्राइंग अपडेट करें
@@ -130,13 +132,18 @@ doc.Save(dataDir + "UpdatedSmartArt.docx");
 हां, आप फ़ाइलों के संग्रह पर पुनरावृत्ति करके और समान चरणों को लागू करके एकाधिक दस्तावेज़ों में स्मार्ट आर्ट को अपडेट करने की प्रक्रिया को स्वचालित कर सकते हैं।
 
 ### क्या मुझे इन सुविधाओं का उपयोग करने के लिए Aspose.Words के लिए विशेष लाइसेंस की आवश्यकता है?
- मूल्यांकन अवधि से परे इसकी सुविधाओं का उपयोग करने के लिए एक वैध Aspose.Words लाइसेंस की आवश्यकता होती है। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+मूल्यांकन अवधि से परे इसकी सुविधाओं का उपयोग करने के लिए एक वैध Aspose.Words लाइसेंस की आवश्यकता होती है। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप दस्तावेज़ तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप दस्तावेज़ तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

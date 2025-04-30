@@ -7,8 +7,11 @@ weight: 1220
 url: /net/working-with-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Section
@@ -35,9 +38,13 @@ By following these tutorials, you will be able to manage sections in your Word d
 | [Modify Word Page Setup In All Sections](./modify-page-setup-in-all-sections/) | In this tutorial, learn how to modify the word page setup in all sections of a Word document with Aspose.Words for .NET. |
 | [Sections Access By Index](./sections-access-by-index/) | Learn how to access and manipulate sections in Word documents using Aspose.Words for .NET. This step-by-step guide ensures efficient document management. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

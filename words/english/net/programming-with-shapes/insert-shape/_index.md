@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/insert-shape/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Shape
@@ -126,9 +129,13 @@ Use the `RelativeHorizontalPosition` and `RelativeVerticalPosition` properties t
 ### Can I group multiple shapes together?
 Yes, Aspose.Words for .NET allows you to group shapes using the `GroupShape` class.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

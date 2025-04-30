@@ -1,14 +1,16 @@
 ---
-title: Thêm phần trong Word
-linktitle: Thêm phần trong Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm mọi thứ từ việc tạo tài liệu đến việc thêm và quản lý các phần.
-weight: 10
-url: /vi/net/working-with-section/add-section/
+"description": "Tìm hiểu cách thêm các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm mọi thứ từ việc tạo tài liệu đến việc thêm và quản lý các phần."
+"linktitle": "Thêm phần trong Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm phần trong Word"
+"url": "/vi/net/working-with-section/add-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm phần trong Word
@@ -22,7 +24,7 @@ Xin chào, các nhà phát triển đồng nghiệp! 👋 Bạn đã bao giờ �
 
 Trước khi tìm hiểu về mã, chúng ta hãy xem qua những gì bạn cần:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE tương thích với .NET như Visual Studio sẽ có hiệu quả.
 3. Kiến thức cơ bản về C#: Hiểu cú pháp C# sẽ giúp bạn theo dõi dễ dàng.
 4. Một tài liệu Word mẫu: Mặc dù chúng ta sẽ tạo một tài liệu từ đầu, nhưng việc có một mẫu có thể hữu ích cho mục đích thử nghiệm.
@@ -89,7 +91,7 @@ Sau khi thêm một phần mới, chúng ta có thể điền nội dung vào đ
 
 ### Sử dụng DocumentBuilder cho Phần mới
 
- Để thêm nội dung vào phần mới, bạn sẽ cần phải thiết lập`DocumentBuilder` con trỏ đến phần mới:
+Để thêm nội dung vào phần mới, bạn sẽ cần phải thiết lập `DocumentBuilder` con trỏ đến phần mới:
 
 ```csharp
 builder.MoveToSection(doc.Sections.IndexOf(sectionToAdd));
@@ -109,11 +111,11 @@ Sau khi thêm các phần và nội dung, bước cuối cùng là lưu tài li�
 doc.Save("YourPath/YourDocument.docx");
 ```
 
- Thay thế`"YourPath/YourDocument.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word của bạn, hoàn chỉnh với các phần và nội dung mới.
+Thay thế `"YourPath/YourDocument.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word của bạn, hoàn chỉnh với các phần và nội dung mới.
 
 ## Phần kết luận
 
- Xin chúc mừng! 🎉 Bạn đã học thành công cách thêm các phần vào tài liệu Word bằng Aspose.Words cho .NET. Các phần là một công cụ mạnh mẽ để sắp xếp nội dung, giúp tài liệu của bạn dễ đọc và điều hướng hơn. Cho dù bạn đang làm việc trên một tài liệu đơn giản hay một báo cáo phức tạp, việc thành thạo các phần sẽ nâng cao kỹ năng định dạng tài liệu của bạn. Đừng quên xem[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để có thêm nhiều tính năng và khả năng nâng cao hơn. Chúc bạn viết mã vui vẻ!
+Xin chúc mừng! 🎉 Bạn đã học thành công cách thêm các phần vào tài liệu Word bằng Aspose.Words cho .NET. Các phần là một công cụ mạnh mẽ để sắp xếp nội dung, giúp tài liệu của bạn dễ đọc và điều hướng hơn. Cho dù bạn đang làm việc trên một tài liệu đơn giản hay một báo cáo phức tạp, việc thành thạo các phần sẽ nâng cao kỹ năng định dạng tài liệu của bạn. Đừng quên xem [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để có thêm nhiều tính năng và khả năng nâng cao hơn. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 
@@ -135,10 +137,15 @@ Không, các phần không thể lồng vào nhau. Tuy nhiên, bạn có thể c
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Words ở đâu?
 
- Để biết thêm thông tin, bạn có thể truy cập[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
+Để biết thêm thông tin, bạn có thể truy cập [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Distance Between Table Surrounding Text
@@ -103,9 +106,13 @@ You can install Aspose.Words for .NET via NuGet Package Manager in Visual Studio
 ### Are there any limitations on the document types supported by Aspose.Words?
 Aspose.Words supports a wide range of document formats, including DOCX, DOC, PDF, HTML, and more. Check the [documentation](https://reference.aspose.com/words/net/) for a full list of supported formats.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

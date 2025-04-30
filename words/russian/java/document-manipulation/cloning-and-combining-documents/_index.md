@@ -1,14 +1,16 @@
 ---
-title: Клонирование и объединение документов в Aspose.Words для Java
-linktitle: Клонирование и объединение документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
-weight: 27
-url: /ru/java/document-manipulation/cloning-and-combining-documents/
+"description": "Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода."
+"linktitle": "Клонирование и объединение документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Клонирование и объединение документов в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Клонирование и объединение документов в Aspose.Words для Java
@@ -20,7 +22,7 @@ url: /ru/java/document-manipulation/cloning-and-combining-documents/
 
 ## Шаг 1: Клонирование документа
 
- Чтобы клонировать документ в Aspose.Words для Java, вы можете использовать`deepClone()` метод. Вот простой пример:
+Чтобы клонировать документ в Aspose.Words для Java, вы можете использовать `deepClone()` метод. Вот простой пример:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- В этом примере мы используем`FindReplaceOptions` объект для указания обработчика обратного вызова для замены.`InsertDocumentAtReplaceHandler` класс обрабатывает логику вставки.
+В этом примере мы используем `FindReplaceOptions` объект для указания обработчика обратного вызова для замены. `InsertDocumentAtReplaceHandler` класс обрабатывает логику вставки.
 
 ## Шаг 3: Вставка документов в закладки
 
@@ -57,7 +59,7 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Здесь мы находим закладку по имени и используем`insertDocument` метод вставки содержимого`subDoc` документ в месте закладки.
+Здесь мы находим закладку по имени и используем `insertDocument` метод вставки содержимого `subDoc` документ в месте закладки.
 
 ## Шаг 4: Вставка документов во время слияния почты
 
@@ -70,7 +72,7 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- В этом примере мы устанавливаем обратный вызов для слияния полей с помощью`InsertDocumentAtMailMergeHandler` класс для обработки вставки документа, указанного в поле «Document_1».
+В этом примере мы устанавливаем обратный вызов для слияния полей с помощью `InsertDocumentAtMailMergeHandler` класс для обработки вставки документа, указанного в поле «Document_1».
 
 ## Заключение
 
@@ -80,7 +82,7 @@ mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtM
 
 ### Как клонировать документ в Aspose.Words для Java?
 
- Вы можете клонировать документ в Aspose.Words для Java, используя`deepClone()` метод. Вот пример:
+Вы можете клонировать документ в Aspose.Words для Java, используя `deepClone()` метод. Вот пример:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,7 +92,7 @@ clone.save("Your Directory Path" + "ClonedDocument.docx");
 
 ### Как вставить документ в закладку?
 
- Чтобы вставить документ в закладку в Aspose.Words для Java, вы можете найти закладку по имени, а затем использовать`insertDocument` метод вставки контента. Вот пример:
+Чтобы вставить документ в закладку в Aspose.Words для Java, вы можете найти закладку по имени, а затем использовать `insertDocument` метод вставки контента. Вот пример:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- В этом примере`InsertDocumentAtMailMergeHandler`класс обрабатывает логику вставки для «DocumentField» во время слияния почты.
+В этом примере `InsertDocumentAtMailMergeHandler` класс обрабатывает логику вставки для «DocumentField» во время слияния почты.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

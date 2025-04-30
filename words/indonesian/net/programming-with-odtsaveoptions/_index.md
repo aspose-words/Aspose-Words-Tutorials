@@ -1,14 +1,16 @@
 ---
-title: Pemrosesan Kata dengan Odtsaveoptions
-linktitle: Pemrosesan Kata dengan Odtsaveoptions
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari Pemrosesan Kata dengan opsi penyimpanan ODT di Aspose.Words untuk .NET. Tutorial terperinci dengan contoh kode untuk menyimpan dokumen Word dalam format ODT.
-weight: 1650
-url: /id/net/programming-with-odtsaveoptions/
+"description": "Pelajari Pemrosesan Kata dengan opsi penyimpanan ODT di Aspose.Words untuk .NET. Tutorial terperinci dengan contoh kode untuk menyimpan dokumen Word dalam format ODT."
+"linktitle": "Pemrosesan Kata dengan Odtsaveoptions"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pemrosesan Kata dengan Odtsaveoptions"
+"url": "/id/net/programming-with-odtsaveoptions/"
+"weight": 1650
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemrosesan Kata dengan Odtsaveoptions
@@ -20,12 +22,17 @@ Tutorial ini dirancang untuk membantu pengembang menguasai penggunaan Aspose.Wor
 Baik Anda perlu mengonversi dokumen, memanipulasi konten, mengelola format, atau mengotomatiskan tugas tertentu, tutorial Aspose.Words untuk .NET hadir untuk membantu. Dengan dokumentasi yang komprehensif dan contoh kode yang relevan, Anda akan dapat menggunakan Aspose.Words secara efektif dalam proyek pengembangan .NET Anda, sehingga meningkatkan produktivitas dan kualitas.
 
  ## Tutorial
-| Judul | Keterangan |
-| --- | --- |
+| Judul | Deskripsi |
+Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Satuan Ukuran](./measure-unit/) | Pelajari cara mengonfigurasi fitur unit pengukuran di Aspose.Words untuk .NET guna mempertahankan format dokumen selama konversi ODT. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

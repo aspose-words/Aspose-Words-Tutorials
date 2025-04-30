@@ -1,48 +1,50 @@
 ---
-title: Získejte rozsah stránek Tiff
-linktitle: Získejte rozsah stránek Tiff
-second_title: Aspose.Words API pro zpracování dokumentů
-description: tomto podrobném průvodci se dozvíte, jak převést konkrétní rozsahy stránek z dokumentů aplikace Word na soubory TIFF pomocí Aspose.Words for .NET.
-weight: 10
-url: /cs/net/programming-with-imagesaveoptions/get-tiff-page-range/
+"description": "Naučte se, jak převést určité rozsahy stránek z dokumentů Word do souborů TIFF pomocí Aspose.Words pro .NET s tímto podrobným návodem."
+"linktitle": "Získat rozsah stránek TIFF"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Získat rozsah stránek TIFF"
+"url": "/cs/net/programming-with-imagesaveoptions/get-tiff-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte rozsah stránek Tiff
+# Získat rozsah stránek TIFF
 
 ## Zavedení
 
-Ahoj, kolegové vývojáři! Už vás nebaví převádět konkrétní stránky vašich dokumentů Word na obrázky TIFF? Už nehledejte! S Aspose.Words for .NET můžete bez námahy převést určené rozsahy stránek vašich dokumentů Word do souborů TIFF. Tato výkonná knihovna zjednodušuje úkol a nabízí nespočet možností přizpůsobení přesně podle vašich potřeb. V tomto tutoriálu rozebereme proces krok za krokem a zajistíme, že tuto funkci zvládnete a bezproblémově ji integrujete do svých projektů.
+Ahoj, kolegové vývojáři! Už vás nebaví trápení s převodem konkrétních stránek vašich dokumentů Word do obrázků TIFF? Už nehledejte! S Aspose.Words pro .NET můžete bez námahy převést určité rozsahy stránek vašich dokumentů Word do souborů TIFF. Tato výkonná knihovna zjednodušuje úkol a nabízí nepřeberné množství možností přizpůsobení, aby přesně vyhovovala vašim potřebám. V tomto tutoriálu si celý proces krok za krokem rozebereme, abyste tuto funkci zvládli a bezproblémově ji integrovali do svých projektů.
 
 ## Předpoklady
 
-Než se ponoříme do podrobných detailů, ujistěte se, že máte vše, co potřebujete k dodržení:
+Než se ponoříme do detailů, ujistěme se, že máte vše potřebné k tomu, abyste mohli postupovat:
 
-1.  Aspose.Words for .NET Library: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte nejnovější verzi z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: IDE jako Visual Studio bude stačit.
-3. Základní znalost C#: Tento tutoriál předpokládá, že se vyznáte v programování v C#.
-4. Ukázkový dokument Word: Připravte si dokument Word, se kterým můžete experimentovat.
+1. Knihovna Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte nejnovější verzi z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Postačí IDE, jako je Visual Studio.
+3. Základní znalost C#: Tento tutoriál předpokládá, že máte zkušenosti s programováním v C#.
+4. Ukázkový dokument Wordu: Mějte připravený dokument Wordu, se kterým můžete experimentovat.
 
-Jakmile zaškrtnete tyto předpoklady, můžete začít!
+Jakmile splníte tyto předpoklady, můžete začít!
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory do vašeho projektu C#. Otevřete svůj projekt a přidejte následující pomocí direktiv v horní části souboru kódu:
+Nejdříve si importujme potřebné jmenné prostory do vašeho projektu v C#. Otevřete projekt a na začátek souboru s kódem přidejte následující pomocí direktiv:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Dobře, začněme zadáním cesty k adresáři dokumentů. Zde se nachází váš dokument aplikace Word a kde budou uloženy výsledné soubory TIFF.
+Dobře, začněme zadáním cesty k adresáři s vašimi dokumenty. Zde se nachází váš dokument Wordu a kam se uloží výsledné soubory TIFF.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -51,70 +53,75 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Dále musíme načíst dokument aplikace Word, se kterým chcete pracovat. Tento dokument bude zdrojem, ze kterého budeme extrahovat konkrétní stránky.
 
 ```csharp
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
 ## Krok 3: Uložte celý dokument jako TIFF
 
-Než se dostaneme ke konkrétnímu rozsahu stránek, uložme celý dokument jako TIFF, abychom viděli, jak vypadá.
+Než se dostaneme k určitému rozsahu stránek, uložme si celý dokument jako TIFF, abychom viděli, jak vypadá.
 
 ```csharp
-// Uložte dokument jako vícestránkový TIFF
+// Uložit dokument jako vícestránkový TIFF
 doc.Save(dataDir + "WorkingWithImageSaveOptions.MultipageTiff.tiff");
 ```
 
-## Krok 4: Nastavte možnosti uložení obrázku
+## Krok 4: Nastavení možností ukládání obrázků
 
-Nyní se stane skutečné kouzlo! Musíme nastavit`ImageSaveOptions` k určení rozsahu stránek a dalších vlastností pro převod TIFF.
+A teď se začne dít ta pravá magie! Musíme připravit `ImageSaveOptions` pro určení rozsahu stránek a dalších vlastností pro převod TIFF.
 
 ```csharp
 // Vytvořte ImageSaveOptions se specifickými nastaveními
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 {
-    PageSet = new PageSet(new PageRange(0, 1)), // Určete rozsah stránek
-    TiffCompression = TiffCompression.Ccitt4, // Nastavte kompresi TIFF
+    PageSet = new PageSet(new PageRange(0, 1)), // Zadejte rozsah stránek
+    TiffCompression = TiffCompression.Ccitt4, // Nastavení komprese TIFF
     Resolution = 160 // Nastavte rozlišení
 };
 ```
 
-## Krok 5: Uložte zadaný rozsah stránek jako TIFF
+## Krok 5: Uložení zadaného rozsahu stránek jako souboru TIFF
 
- Nakonec uložme zadaný rozsah stránek dokumentu jako soubor TIFF pomocí`saveOptions` jsme nakonfigurovali.
+Nakonec uložme zadaný rozsah stránek dokumentu jako soubor TIFF pomocí `saveOptions` nakonfigurovali jsme.
 
 ```csharp
-// Uložte zadaný rozsah stránek jako TIFF
+// Uložit zadaný rozsah stránek jako soubor TIFF
 doc.Save(dataDir + "WorkingWithImageSaveOptions.GetTiffPageRange.tiff", saveOptions);
 ```
 
 ## Závěr
 
-A tady to máte! Pomocí těchto jednoduchých kroků jste pomocí Aspose.Words for .NET úspěšně převedli určitý rozsah stránek z dokumentu aplikace Word do souboru TIFF. Tato výkonná knihovna umožňuje snadnou manipulaci a konverzi vašich dokumentů a poskytuje vám nekonečné možnosti pro vaše projekty. Takže jděte do toho, vyzkoušejte to a uvidíte, jak to může zlepšit váš pracovní postup!
+máte to! Dodržováním těchto jednoduchých kroků jste úspěšně převedli konkrétní rozsah stránek z dokumentu Word do souboru TIFF pomocí knihovny Aspose.Words pro .NET. Tato výkonná knihovna usnadňuje manipulaci s dokumenty a jejich převod a poskytuje vám nekonečné možnosti pro vaše projekty. Tak se do toho pusťte, vyzkoušejte to a uvidíte, jak to může vylepšit váš pracovní postup!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu převést více rozsahů stránek na samostatné soubory TIFF?
+### Mohu převést více rozsahů stránek do samostatných souborů TIFF?
 
- Absolutně! Můžete vytvořit více`ImageSaveOptions`předměty s různými`PageSet` konfigurace pro převod různých rozsahů stránek do samostatných souborů TIFF.
+Rozhodně! Můžete jich vytvořit více `ImageSaveOptions` objekty s různými `PageSet` konfigurace pro převod různých rozsahů stránek do samostatných souborů TIFF.
 
 ### Jak mohu změnit rozlišení souboru TIFF?
 
- Jednoduše upravte`Resolution` nemovitost v`ImageSaveOptions` objekt na požadovanou hodnotu.
+Jednoduše upravte `Resolution` nemovitost v `ImageSaveOptions` objekt na požadovanou hodnotu.
 
-### Je možné použít různé kompresní metody pro soubor TIFF?
+### Je možné pro soubor TIFF použít různé metody komprese?
 
- Ano, Aspose.Words for .NET podporuje různé metody komprese TIFF. Můžete nastavit`TiffCompression` vlastnictví k jiným hodnotám jako`Lzw` nebo`Rle` na základě vašich požadavků.
+Ano, Aspose.Words pro .NET podporuje různé metody komprese TIFF. Můžete nastavit `TiffCompression` vlastnost na jiné hodnoty, jako například `Lzw` nebo `Rle` na základě vašich požadavků.
 
-### Mohu do souboru TIFF zahrnout anotace nebo vodoznaky?
+### Mohu do souboru TIFF vložit anotace nebo vodoznaky?
 
-Ano, můžete použít Aspose.Words k přidání anotací nebo vodoznaků do vašeho dokumentu Word před jeho převedením na soubor TIFF.
+Ano, můžete použít Aspose.Words k přidání anotací nebo vodoznaků do dokumentu Word před jeho převodem do souboru TIFF.
 
 ### Jaké další formáty obrázků podporuje Aspose.Words pro .NET?
 
- Aspose.Words for .NET podporuje širokou škálu obrazových formátů, včetně PNG, JPEG, BMP a GIF. Můžete zadat požadovaný formát v`ImageSaveOptions`.
+Aspose.Words pro .NET podporuje širokou škálu obrazových formátů, včetně PNG, JPEG, BMP a GIF. Požadovaný formát můžete zadat v `ImageSaveOptions`.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

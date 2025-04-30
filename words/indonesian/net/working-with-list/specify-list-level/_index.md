@@ -1,14 +1,16 @@
 ---
-title: Tentukan Tingkat Daftar
-linktitle: Tentukan Tingkat Daftar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat daftar bertingkat dengan nomor dan poin dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/working-with-list/specify-list-level/
+"description": "Pelajari cara membuat daftar bertingkat dengan nomor dan poin dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan. Sempurna untuk pengembang .NET."
+"linktitle": "Tentukan Tingkat Daftar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tentukan Tingkat Daftar"
+"url": "/id/net/working-with-list/specify-list-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Tingkat Daftar
@@ -21,7 +23,7 @@ Hai, rekan pembuat kode! Jika Anda pernah bergumul dengan pembuatan daftar yang 
 
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio akan membuat hidup Anda lebih mudah.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 4. Pemahaman Dasar C#: Tutorial ini mengasumsikan Anda nyaman dengan pemrograman C# dasar.
@@ -42,7 +44,7 @@ Ini menyiapkan tahap untuk bekerja dengan Aspose.Words dalam proyek Anda.
 
 ## Langkah 1: Menyiapkan Dokumen dan DocumentBuilder
 
- Mari kita mulai dengan membuat dokumen baru dan`DocumentBuilder` keberatan untuk bekerja dengannya.
+Mari kita mulai dengan membuat dokumen baru dan `DocumentBuilder` keberatan untuk bekerja dengannya.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Membuat Daftar Bernomor
 
- Sekarang, kita akan membuat daftar bernomor berdasarkan salah satu templat daftar Microsoft Word dan menerapkannya ke`DocumentBuilder`'paragraf saat ini.
+Sekarang, kita akan membuat daftar bernomor berdasarkan salah satu templat daftar Microsoft Word dan menerapkannya ke `DocumentBuilder`paragraf saat ini.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberArabicDot);
@@ -74,13 +76,13 @@ Dalam loop ini, kita menetapkan level daftar untuk setiap paragraf dan menulis b
 
 ## Langkah 4: Membuat Daftar Berpoin
 
-Selanjutnya, mari kita beralih ke topik lain dan membuat daftar berpoin. Kali ini, kita akan menggunakan templat daftar yang berbeda.
+Selanjutnya, mari beralih ke topik lain dan membuat daftar berpoin. Kali ini, kita akan menggunakan templat daftar yang berbeda.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDiamonds);
 ```
 
-## Langkah 5: Menerapkan Beberapa Level ke Daftar Berpoin
+## Langkah 5: Menerapkan Beberapa Level ke Daftar Poin
 
 Sama halnya dengan daftar bernomor, kita akan menerapkan beberapa tingkatan pada daftar berpoin kita.
 
@@ -119,8 +121,8 @@ Membuat daftar terstruktur dan bertingkat dalam dokumen Word dapat meningkatkan 
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, mengedit, mengonversi, dan mencetak dokumen Word secara terprogram dalam C#.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
-Aspose.Words menawarkan versi uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/) Untuk versi lengkapnya, Anda dapat memeriksa opsi pembelian[Di Sini](https://purchase.aspose.com/buy).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan versi uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk versi lengkapnya, Anda dapat memeriksa opsi pembelian [Di Sini](https://purchase.aspose.com/buy).
 
 ### Berapa banyak level yang dapat saya tentukan dalam daftar menggunakan Aspose.Words?
 Anda dapat menentukan hingga sembilan level dalam daftar menggunakan Aspose.Words.
@@ -129,10 +131,15 @@ Anda dapat menentukan hingga sembilan level dalam daftar menggunakan Aspose.Word
 Ya, Anda dapat mencampur berbagai jenis daftar dalam satu dokumen dengan mengganti templat daftar sesuai kebutuhan.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

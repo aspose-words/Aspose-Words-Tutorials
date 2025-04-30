@@ -1,34 +1,36 @@
 ---
-title: Lista újraindítása minden szakasznál
-linktitle: Lista újraindítása minden szakasznál
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan indíthatja újra a listákat a Word dokumentumok egyes szakaszaiban az Aspose.Words for .NET használatával. Kövesse részletes, lépésenkénti útmutatónkat a listák hatékony kezeléséhez.
-weight: 10
-url: /hu/net/working-with-list/restart-list-at-each-section/
+"description": "Tanuld meg, hogyan indíthatod újra a listákat minden egyes szakasznál a Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesd részletes, lépésről lépésre szóló útmutatónkat a listák hatékony kezeléséhez."
+"linktitle": "Újraindítja a listát minden szakaszban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Újraindítja a listát minden szakaszban"
+"url": "/hu/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lista újraindítása minden szakasznál
+# Újraindítja a listát minden szakaszban
 
 ## Bevezetés
 
-strukturált és jól szervezett dokumentumok létrehozása néha olyan érzés lehet, mint egy összetett rejtvény megoldása. A rejtvény egyik darabja a listák hatékony kezelése, különösen akkor, ha azt szeretné, hogy minden szakasznál újrainduljanak. Az Aspose.Words for .NET segítségével ezt zökkenőmentesen megvalósíthatja. Nézzük meg, hogyan indíthatja újra a listákat a Word-dokumentumok egyes szakaszaiban az Aspose.Words for .NET használatával.
+strukturált és jól szervezett dokumentumok létrehozása néha egy összetett kirakós játék megoldásának tűnhet. A kirakós játék egyik darabja a listák hatékony kezelése, különösen akkor, ha azt szeretnéd, hogy azok minden szakasznál újrainduljanak. Az Aspose.Words for .NET segítségével ezt zökkenőmentesen elérheted. Nézzük meg, hogyan indíthatod újra a listákat minden szakasznál a Word-dokumentumaidban az Aspose.Words for .NET segítségével.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Words for .NET: Töltse le és telepítse a legújabb verziót a[Aspose Releases](https://releases.aspose.com/words/net/) oldalon.
-2. .NET-környezet: Állítsa be a fejlesztői környezetet telepített .NET-tel.
-3. A C# alapszintű ismerete: A C# programozási nyelv ismerete ajánlott.
-4.  Aspose Licenc: Választhat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha nincs ilyened.
+1. Aspose.Words .NET-hez: Töltse le és telepítse a legújabb verziót a következő helyről: [Aspose kiadások](https://releases.aspose.com/words/net/) oldal.
+2. .NET környezet: Állítsa be fejlesztői környezetét telepített .NET-tel.
+3. C# alapismeretek: A C# programozási nyelv ismerete ajánlott.
+4. Aspose licenc: Választhat egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha nincs ilyened.
 
 ## Névterek importálása
 
-A kód megírása előtt győződjön meg róla, hogy importálja a szükséges névtereket:
+A kód írása előtt győződjön meg arról, hogy importálta a szükséges névtereket:
 
 ```csharp
 using System;
@@ -36,9 +38,9 @@ using Aspose.Words;
 using Aspose.Words.Lists;
 ```
 
-Most bontsuk le a folyamatot több lépésre, hogy könnyebben követhető legyen.
+Most bontsuk a folyamatot több lépésre, hogy könnyebb legyen követni.
 
-## 1. lépés: Inicializálja a dokumentumot
+## 1. lépés: A dokumentum inicializálása
 
 Először is létre kell hoznia egy új dokumentumpéldányt.
 
@@ -47,26 +49,26 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
-## 2. lépés: Adjon hozzá egy számozott listát
+## 2. lépés: Számozott lista hozzáadása
 
-Ezután adjon hozzá egy számozott listát a dokumentumhoz. Ez a lista az alapértelmezett számozási formátumot követi.
+Ezután adjon hozzá egy számozott listát a dokumentumhoz. Ez a lista az alapértelmezett számozási formátumot fogja követni.
 
 ```csharp
 doc.Lists.Add(ListTemplate.NumberDefault);
 ```
 
-## 3. lépés: Nyissa meg a listát, és állítsa be az Újraindítás tulajdonságot
+## 3. lépés: Nyissa meg a listát és állítsa be az újraindítási tulajdonságot
 
-Töltse le az imént létrehozott listát, és állítsa be`IsRestartAtEachSection`tulajdonát`true`. Ez biztosítja, hogy a lista minden új szakasznál újrakezdje a számozást.
+Hívd elő az imént létrehozott listát, és állítsd be a `IsRestartAtEachSection` ingatlan `true`Ez biztosítja, hogy a lista minden új szakasznál újrakezdje a számozást.
 
 ```csharp
 List list = doc.Lists[0];
 list.IsRestartAtEachSection = true;
 ```
 
-## 4. lépés: Hozzon létre egy dokumentumkészítőt, és társítsa hozzá a listát
+## 4. lépés: Dokumentumszerkesztő létrehozása és a lista társítása
 
- Hozzon létre a`DocumentBuilder` tartalmat beszúrni a dokumentumba és társítani a listához.
+Hozz létre egy `DocumentBuilder` tartalom beszúrása a dokumentumba és a listához társítása.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -75,7 +77,7 @@ builder.ListFormat.List = list;
 
 ## 5. lépés: Listaelemek hozzáadása és szakasztörés beszúrása
 
-Most adjon hozzá elemeket a listához. Az újraindítási funkció szemléltetésére egy szakasztörést szúrunk be bizonyos számú elem után.
+Most adj hozzá elemeket a listához. Az újraindítási funkció szemléltetésére bizonyos számú elem után beszúrunk egy szakasztörést.
 
 ```csharp
 for (int i = 1; i < 45; i++)
@@ -87,9 +89,9 @@ for (int i = 1; i < 45; i++)
 }
 ```
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Végül mentse el a dokumentumot a megfelelő opciókkal a megfelelőség biztosítása érdekében.
+Végül mentse el a dokumentumot a megfelelő beállításokkal a megfelelőség biztosítása érdekében.
 
 ```csharp
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Transitional };
@@ -98,27 +100,32 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 
 ## Következtetés
 
-És megvan! Ha követi ezeket a lépéseket, az Aspose.Words for .NET használatával könnyedén újraindíthatja a listákat a Word-dokumentumok egyes szakaszaiban. Ez a funkció hihetetlenül hasznos olyan jól strukturált dokumentumok létrehozásához, amelyek külön szakaszokat igényelnek saját listaszámozással. Az Aspose.Words segítségével az ilyen feladatok kezelése gyerekjáték, lehetővé téve, hogy a kiváló minőségű tartalom elkészítésére összpontosítson.
+És íme! A következő lépéseket követve könnyedén újraindíthatod a listákat a Word-dokumentumaid minden egyes szakaszánál az Aspose.Words for .NET segítségével. Ez a funkció hihetetlenül hasznos jól strukturált dokumentumok létrehozásához, amelyek különálló szakaszokat igényelnek saját listaszámozással. Az Aspose.Words segítségével az ilyen feladatok kezelése gyerekjáték, így a kiváló minőségű tartalom készítésére koncentrálhatsz.
 
 ## GYIK
 
-### Újraindíthatom a listákat az egyes szakaszoknál a különböző listatípusokhoz?
-Igen, az Aspose.Words for .NET lehetővé teszi a különféle listatípusok újraindítását, beleértve a felsorolásjeles és számozott listákat.
+### Újraindíthatom a listákat minden szakaszban a különböző listatípusok esetén?
+Igen, az Aspose.Words for .NET lehetővé teszi különféle listatípusok újraindítását, beleértve a felsorolásjeles és számozott listákat is.
 
-### Mi a teendő, ha testre szeretném szabni a számozási formátumot?
- A számozási formátumot testreszabhatja a`ListTemplate` tulajdonságot a lista létrehozásakor.
+### Mi van, ha testre szeretném szabni a számozási formátumot?
+A számozási formátumot testreszabhatja a következő módosításával: `ListTemplate` tulajdonságot a lista létrehozásakor.
 
-### Van-e korlát a listában szereplő elemek számának?
-Nem, az Aspose.Words for .NET használatával listában szereplő elemek száma nincs korlátozva.
+### Van-e korlátja a listában szereplő elemek számának?
+Nem, az Aspose.Words for .NET használatával nincs konkrét korlát az elemek számára vonatkozóan egy listában.
 
 ### Használhatom ezt a funkciót más dokumentumformátumokban, például PDF-ben?
-Igen, az Aspose.Words segítségével Word-dokumentumokat konvertálhat más formátumokba, például PDF-be, miközben megtartja a listaszerkezetet.
+Igen, az Aspose.Words segítségével Word dokumentumokat konvertálhatsz más formátumokba, például PDF-be, miközben megőrzöd a listaszerkezetet.
 
-### Hogyan szerezhetem be az Aspose.Words for .NET ingyenes próbaverzióját?
- Ingyenes próbaverziót kaphat a[Aspose Releases](https://releases.aspose.com/) oldalon.
+### Hogyan szerezhetek ingyenes próbaverziót az Aspose.Words for .NET-hez?
+Ingyenes próbaverziót kaphatsz a [Aspose kiadások](https://releases.aspose.com/) oldal.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

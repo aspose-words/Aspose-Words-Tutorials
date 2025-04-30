@@ -1,14 +1,16 @@
 ---
-title: Zmień ustawienia regionalne
-linktitle: Zmień ustawienia regionalne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zmienić ustawienia regionalne w dokumentach Worda za pomocą Aspose.Words dla .NET z tego przewodnika. Idealne do obsługi międzynarodowych klientów i projektów.
-weight: 10
-url: /pl/net/working-with-fields/change-locale/
+"description": "Dowiedz się, jak zmienić ustawienia regionalne w dokumentach Worda za pomocą Aspose.Words dla .NET z tego przewodnika. Idealne do obsługi międzynarodowych klientów i projektów."
+"linktitle": "Zmień ustawienia regionalne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmień ustawienia regionalne"
+"url": "/pl/net/working-with-fields/change-locale/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień ustawienia regionalne
@@ -21,11 +23,11 @@ Praca z dokumentami Worda często wymaga odrobiny finezji, zwłaszcza w przypadk
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
--  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: dowolna wersja obsługująca platformę .NET.
 - Podstawowa wiedza o języku C#: Znajomość podstaw języka C# i .NET ułatwi Ci zrozumienie materiału.
 
- Upewnij się, że zainstalowałeś Aspose.Words dla .NET. Jeśli nie, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) lub kup[Tutaj](https://purchase.aspose.com/buy).
+Upewnij się, że zainstalowałeś Aspose.Words dla .NET. Jeśli nie, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/) lub kup [Tutaj](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -98,7 +100,7 @@ Na koniec zapisz dokument w wybranym katalogu.
 doc.Save(dataDir + "WorkingWithFields.ChangeLocale.docx");
 ```
 
-masz! Udało Ci się zmienić ustawienia regionalne w dokumencie Word za pomocą Aspose.Words dla .NET.
+I masz! Udało Ci się zmienić ustawienia regionalne w dokumencie Word za pomocą Aspose.Words dla .NET.
 
 ## Wniosek
 
@@ -113,16 +115,21 @@ Tak, Aspose.Words dla .NET obsługuje zmianę ustawień regionalnych na dowolny 
 Zmiana ustawień regionalnych wpłynie przede wszystkim na formaty daty i liczb. Pozostały tekst pozostanie niezmieniony.
 
 ### Czy potrzebuję specjalnej licencji, aby używać Aspose.Words dla .NET?
- Możesz zacząć od bezpłatnego okresu próbnego, ale aby kontynuować korzystanie z usługi, musisz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Możesz zacząć od bezpłatnego okresu próbnego, ale aby kontynuować korzystanie z usługi, musisz kupić licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę powrócić do oryginalnej lokalizacji, jeśli coś pójdzie nie tak?
 Tak, możesz powrócić do oryginalnej lokalizacji, zapisując oryginalną kulturę i przywracając ją później.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

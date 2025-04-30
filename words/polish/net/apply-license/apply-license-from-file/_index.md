@@ -1,14 +1,16 @@
 ---
-title: Zastosuj licencję z pliku
-linktitle: Zastosuj licencję z pliku
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zastosować licencję z pliku w Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Odblokuj pełny potencjał swojej biblioteki bez wysiłku.
-weight: 10
-url: /pl/net/apply-license/apply-license-from-file/
+"description": "Dowiedz się, jak zastosować licencję z pliku w Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Odblokuj pełny potencjał swojej biblioteki bez wysiłku."
+"linktitle": "Zastosuj licencję z pliku"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zastosuj licencję z pliku"
+"url": "/pl/net/apply-license/apply-license-from-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj licencję z pliku
@@ -21,8 +23,8 @@ Cześć! Jeśli zanurzasz się w świat Aspose.Words dla .NET, czeka cię gratka
 
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
-2.  Ważny plik licencji Aspose: Jeśli jeszcze go nie masz, możesz uzyskać bezpłatną wersję próbną na stronie[Tutaj](https://releases.aspose.com/) lub kup jeden z[Tutaj](https://purchase.aspose.com/buy).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
+2. Ważny plik licencji Aspose: Jeśli jeszcze go nie masz, możesz uzyskać bezpłatną wersję próbną na stronie [Tutaj](https://releases.aspose.com/) lub kup jeden z [Tutaj](https://purchase.aspose.com/buy).
 3. Środowisko programistyczne: IDE, np. Visual Studio.
 4. Podstawowa znajomość języka C#: Ułatwi Ci to śledzenie przykładów kodu.
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using System;
 ```
 
-No dobrze, podzielmy teraz ten proces na łatwiejsze do opanowania kroki.
+No dobrze, podzielmy teraz proces na łatwiejsze do opanowania kroki.
 
 ## Krok 1: Skonfiguruj swój projekt
 
@@ -55,7 +57,7 @@ License license = new License();
 
 ## Krok 3: Ustaw licencję
 
- Teraz nadchodzi najważniejsza część — ustawienie licencji. Musisz określić ścieżkę do pliku licencji. Można to zrobić za pomocą`SetLicense` metoda`License` Klasa. Otocz to blokiem try-catch, aby obsłużyć wszelkie potencjalne błędy.
+Teraz nadchodzi najważniejsza część — ustawienie licencji. Musisz określić ścieżkę do pliku licencji. Można to zrobić za pomocą `SetLicense` metoda `License` Klasa. Otocz to blokiem try-catch, aby obsłużyć wszelkie potencjalne błędy.
 
 ```csharp
 try
@@ -71,7 +73,7 @@ catch (Exception e)
 
 ## Krok 4: Zweryfikuj licencję
 
-Po ustawieniu licencji, dobrym pomysłem jest sprawdzenie, czy została ona prawidłowo zastosowana. Możesz to zrobić, sprawdzając`IsLicensed` własność`License` klasa.
+Po ustawieniu licencji, dobrym pomysłem jest sprawdzenie, czy została ona prawidłowo zastosowana. Możesz to zrobić, sprawdzając `IsLicensed` własność `License` klasa.
 
 ```csharp
 if (license.IsLicensed)
@@ -86,7 +88,7 @@ else
 
 ## Wniosek
 
-I masz! Udało Ci się zastosować licencję z pliku w Aspose.Words dla .NET. To niezbędny krok, aby odblokować wszystkie funkcje i funkcjonalności, które Aspose.Words ma do zaoferowania. Dzięki ustawionej licencji możesz teraz tworzyć i manipulować dokumentami Word bez żadnych ograniczeń.
+I masz! Pomyślnie zastosowałeś licencję z pliku w Aspose.Words dla .NET. To niezbędny krok, aby odblokować wszystkie funkcje i funkcjonalności, które Aspose.Words ma do zaoferowania. Dzięki ustawionej licencji możesz teraz tworzyć i manipulować dokumentami Word bez żadnych ograniczeń.
 
 ## Najczęściej zadawane pytania
 
@@ -94,19 +96,24 @@ I masz! Udało Ci się zastosować licencję z pliku w Aspose.Words dla .NET. To
 Jeśli nie ustawisz licencji, Aspose.Words będzie działać w trybie ewaluacyjnym, który wiąże się z pewnymi ograniczeniami, takimi jak dokumenty ze znakiem wodnym i ograniczona funkcjonalność.
 
 ### Czy mogę wykorzystać licencję ze strumienia?  
- Tak, możesz załadować licencję ze strumienia, jeśli plik licencji jest osadzony jako zasób. Użyj`SetLicense` metoda akceptująca strumień.
+Tak, możesz załadować licencję ze strumienia, jeśli plik licencji jest osadzony jako zasób. Użyj `SetLicense` metoda akceptująca strumień.
 
 ### Gdzie powinienem umieścić plik licencji?  
 Plik licencji możesz umieścić w tym samym katalogu, w którym znajduje się plik wykonywalny lub w dowolnej ścieżce dostępnej dla Twojej aplikacji.
 
 ### Jak uzyskać tymczasową licencję?  
- Możesz uzyskać tymczasową licencję od[Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/) który jest ważny przez 30 dni.
+Możesz uzyskać tymczasową licencję od [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/) który jest ważny przez 30 dni.
 
 ### Czy plik licencji jest specyficzny dla danego komputera?  
 Nie, plik licencji nie jest przypisany do konkretnej maszyny. Możesz go używać na dowolnej maszynie, o ile jest to zgodne z warunkami umowy licencyjnej.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

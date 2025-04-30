@@ -1,14 +1,16 @@
 ---
-title: Форматированная таблица
-linktitle: Форматированная таблица
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать и форматировать таблицы в документах Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/formatted-table/
+"description": "Узнайте, как создавать и форматировать таблицы в документах Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Форматированная таблица"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Форматированная таблица"
+"url": "/ru/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Форматированная таблица
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/formatted-table/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1. Библиотека Aspose.Words для .NET: загрузите ее с[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words для .NET: загрузите ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: IDE, например Visual Studio.
 3. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
+Заменять `"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить документ.
 
 ## Шаг 2: Инициализация документа и DocumentBuilder
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`DocumentBuilder` — вспомогательный класс, упрощающий процесс создания документов.
+The `DocumentBuilder` — вспомогательный класс, упрощающий процесс создания документов.
 
 ## Шаг 3: Начните таблицу
 
- Далее приступайте к созданию таблицы с помощью`StartTable` метод.
+Далее приступайте к созданию таблицы с помощью `StartTable` метод.
 
 ```csharp
 Table table = builder.StartTable();
@@ -68,7 +70,7 @@ builder.InsertCell();
 
 Для начала таблицы необходимо вставить ячейку.
 
-## Шаг 4: Примените форматирование всей таблицы
+## Шаг 4: Примените форматирование ко всей таблице
 
 Вы можете применить форматирование, которое влияет на всю таблицу. Например, установив левый отступ:
 
@@ -174,16 +176,21 @@ Aspose.Words для .NET — мощная библиотека для прогр
 Да, вы можете применять различное форматирование, включая цвета, к разным строкам или ячейкам.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words для .NET — платная библиотека, но вы можете получить[бесплатная пробная версия](https://releases.aspose.com/).
+Aspose.Words для .NET — платная библиотека, но вы можете получить [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Как получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от[Форумы сообщества Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форумы сообщества Aspose](https://forum.aspose.com/c/words/8).
 
 ### Могу ли я создавать другие типы документов с помощью Aspose.Words для .NET?
 Да, Aspose.Words для .NET поддерживает различные форматы документов, включая PDF, HTML и TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

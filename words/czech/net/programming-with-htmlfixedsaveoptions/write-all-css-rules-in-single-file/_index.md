@@ -1,75 +1,77 @@
 ---
-title: Napište všechna pravidla CSS do jednoho souboru
-linktitle: Napište všechna pravidla CSS do jednoho souboru
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se převádět dokumenty Wordu do HTML pomocí Aspose.Words for .NET se všemi pravidly CSS v jediném souboru pro čistší kód a snadnější údržbu.
-weight: 10
-url: /cs/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/
+"description": "Naučte se, jak převádět dokumenty Wordu do HTML pomocí Aspose.Words pro .NET se všemi pravidly CSS v jednom souboru pro čistší kód a snadnější údržbu."
+"linktitle": "Zapsat všechna pravidla CSS do jednoho souboru"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zapsat všechna pravidla CSS do jednoho souboru"
+"url": "/cs/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Napište všechna pravidla CSS do jednoho souboru
+# Zapsat všechna pravidla CSS do jednoho souboru
 
 ## Zavedení
 
-Stalo se vám, že jste se při převodu dokumentů Wordu do HTML zapletli do sítě pravidel CSS roztroušených všude možně? Nebojte se! Dnes se ponoříme do úhledné funkce Aspose.Words for .NET, která vám umožňuje psát všechna pravidla CSS do jednoho souboru. To nejen uklidí váš kód, ale také vám to usnadní život. Připoutejte se a vydejte se na cestu k čistšímu a efektivnějšímu výstupu HTML!
+Už jste se někdy při převodu dokumentů Wordu do HTML zamotali v síti pravidel CSS rozházených všude možně? Nebojte se! Dnes se ponoříme do šikovné funkce Aspose.Words pro .NET, která vám umožňuje zapsat všechna pravidla CSS do jednoho souboru. To nejen zpřehlední váš kód, ale také vám to výrazně usnadní život. Připoutejte se a pojďme se na cestu k čistšímu a efektivnějšímu HTML výstupu!
 
 ## Předpoklady
 
-Než se ponoříme do hlíny, dáme si kachny do řady. Zde je to, co potřebujete, abyste mohli začít:
+Než se pustíme do detailů, pojďme si to rozebrat. Zde je to, co budete potřebovat k začátku:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte knihovnu Aspose.Words for .NET. Pokud ho ještě nemáte, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí .NET: Na svém počítači budete potřebovat vývojové prostředí .NET. Visual Studio je oblíbenou volbou.
+1. Aspose.Words pro .NET: Ujistěte se, že máte knihovnu Aspose.Words pro .NET. Pokud ji ještě nemáte, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí .NET: Na svém počítači budete potřebovat nainstalované vývojové prostředí .NET. Visual Studio je oblíbenou volbou.
 3. Základní znalost C#: Základní znalost programování v C# bude užitečná.
-4. Dokument aplikace Word: Připravte si dokument aplikace Word (.docx), který chcete převést.
+4. Dokument aplikace Word: Mějte připravený dokument aplikace Word (.docx), který chcete převést.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory do vašeho projektu C#. To nám umožní snadný přístup k funkcím Aspose.Words.
+Nejdříve si do vašeho projektu v C# importujme potřebné jmenné prostory. To nám umožní snadný přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Dobře, pojďme si tento proces rozdělit do snadno pochopitelných kroků. Každý krok vás provede konkrétní částí procesu, abyste zajistili, že vše proběhne hladce.
+Dobře, rozdělme si proces na snadno sledovatelné kroky. Každý krok vás provede určitou částí procesu, aby vše proběhlo hladce.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme definovat cestu k vašemu adresáři dokumentů. Zde je uložen váš dokument aplikace Word a kde bude uložen převedený HTML.
+Nejprve musíme definovat cestu k adresáři s vašimi dokumenty. Zde je uložen váš dokument Wordu a kam bude uložen převedený HTML kód.
 
 ```csharp
-// Přístupová cesta k vašemu adresáři dokumentů
+// Přístupová cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
- Dále načteme dokument Word, který chcete převést do HTML. To se provádí pomocí`Document` třídy z knihovny Aspose.Words.
+Dále načteme dokument aplikace Word, který chcete převést do formátu HTML. To se provádí pomocí `Document` třída z knihovny Aspose.Words.
 
 ```csharp
-// Načtěte dokument aplikace Word
+// Načtěte dokument Wordu
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-## Krok 3: Nakonfigurujte možnosti uložení HTML
+## Krok 3: Konfigurace možností ukládání HTML
 
- Nyní musíme nakonfigurovat možnosti uložení HTML. Konkrétně chceme povolit funkci, která zapisuje všechna pravidla CSS do jednoho souboru. Toho je dosaženo nastavením`SaveFontFaceCssSeparately`majetek do`false`.
+Nyní musíme nakonfigurovat možnosti ukládání HTML. Konkrétně chceme povolit funkci, která zapisuje všechna pravidla CSS do jednoho souboru. Toho dosáhneme nastavením `SaveFontFaceCssSeparately` majetek `false`.
 
 ```csharp
-// Nakonfigurujte možnosti zálohování pomocí funkce „Zapsat všechna pravidla CSS do jednoho souboru“.
+// Konfigurace možností zálohování pomocí funkce „Zapsat všechna pravidla CSS do jednoho souboru“
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions 
 { 
     SaveFontFaceCssSeparately = false 
 };
 ```
 
-## Krok 4: Převeďte dokument do pevného HTML
+## Krok 4: Převod dokumentu do pevného HTML
 
-Nakonec dokument uložíme jako soubor HTML pomocí nakonfigurovaných možností uložení. Tento krok zajistí, že všechna pravidla CSS budou zapsána do jednoho souboru.
+Nakonec dokument uložíme jako soubor HTML s použitím nakonfigurovaných možností ukládání. Tento krok zajistí, že všechna pravidla CSS budou zapsána v jednom souboru.
 
 ```csharp
 // Převést dokument do pevného HTML
@@ -78,28 +80,33 @@ doc.Save(dataDir + "WorkingWithHtmlFixedSaveOptions.WriteAllCssRulesInSingleFile
 
 ## Závěr
 
-A tady to máte! Pomocí pouhých několika řádků kódu jste úspěšně převedli dokument Wordu do HTML se všemi pravidly CSS úhledně uspořádanými v jediném souboru. Tato metoda nejen zjednodušuje správu CSS, ale také zlepšuje udržovatelnost vašich HTML dokumentů. Takže až budete příště mít za úkol převést dokument aplikace Word, budete přesně vědět, jak udržet pořádek!
+A tady to máte! S pouhými několika řádky kódu jste úspěšně převedli dokument Word do HTML se všemi pravidly CSS úhledně uspořádanými v jednom souboru. Tato metoda nejen zjednodušuje správu CSS, ale také zlepšuje údržbu vašich dokumentů HTML. Takže až budete příště muset převést dokument Word, budete přesně vědět, jak na to!
 
-## FAQ
+## Často kladené otázky
 
-### Proč bych měl pro výstup HTML používat jeden soubor CSS?
-Použití jediného souboru CSS zjednodušuje správu a údržbu vašich stylů. Díky tomu bude vaše HTML čistší a efektivnější.
+### Proč bych měl pro svůj HTML výstup používat jeden CSS soubor?
+Použití jednoho souboru CSS zjednodušuje správu a údržbu stylů. Díky tomu je váš HTML kód čistší a efektivnější.
 
-### Mohu v případě potřeby oddělit pravidla CSS pro vzhled písma?
- Ano, nastavením`SaveFontFaceCssSeparately` na`true`, můžete oddělit pravidla CSS pro vzhled písma do jiného souboru.
+### Mohu v případě potřeby oddělit pravidla CSS pro zobrazení písma?
+Ano, nastavením `SaveFontFaceCssSeparately` na `true`, můžete oddělit pravidla CSS pro vzhled písma do samostatného souboru.
 
-### Je Aspose.Words for .NET zdarma k použití?
- Aspose.Words nabízí bezplatnou zkušební verzi, kterou můžete[stáhnout zde](https://releases.aspose.com/) . Pro další používání zvažte zakoupení licence[zde](https://purchase.aspose.com/buy).
+### Je Aspose.Words pro .NET zdarma k použití?
+Aspose.Words nabízí bezplatnou zkušební verzi, kterou můžete [stáhnout zde](https://releases.aspose.com/)Pro další používání zvažte zakoupení licence. [zde](https://purchase.aspose.com/buy).
 
-### Na jaké další formáty lze Aspose.Words for .NET převést?
-Aspose.Words for .NET podporuje různé formáty včetně PDF, TXT a obrazových formátů jako JPEG a PNG.
+### Do jakých dalších formátů umí Aspose.Words pro .NET převést?
+Aspose.Words pro .NET podporuje různé formáty včetně PDF, TXT a obrazových formátů, jako jsou JPEG a PNG.
 
-### Kde najdu další zdroje na Aspose.Words pro .NET?
- Podívejte se na[dokumentace](https://reference.aspose.com/words/net/) pro komplexní průvodce a reference API.
+### Kde najdu další zdroje o Aspose.Words pro .NET?
+Podívejte se na [dokumentace](https://reference.aspose.com/words/net/) pro komplexní průvodce a reference API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

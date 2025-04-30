@@ -1,14 +1,16 @@
 ---
-title: Pengaturan Halaman Dokumen
-linktitle: Pengaturan Halaman Dokumen
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai pengaturan halaman dokumen dengan Aspose.Words untuk .NET dalam langkah mudah. Pelajari cara memuat, mengatur tata letak, menentukan karakter per baris, baris per halaman, dan menyimpan dokumen Anda.
-weight: 10
-url: /id/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Kuasai pengaturan halaman dokumen dengan Aspose.Words untuk .NET dalam langkah mudah. Pelajari cara memuat, mengatur tata letak, menentukan karakter per baris, baris per halaman, dan menyimpan dokumen Anda."
+"linktitle": "Pengaturan Halaman Dokumen"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengaturan Halaman Dokumen"
+"url": "/id/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Halaman Dokumen
@@ -21,8 +23,8 @@ Pernahkah Anda bingung bagaimana cara mengatur tata letak halaman dokumen Anda m
 
 Sebelum masuk ke inti pembahasan, mari pastikan Anda sudah memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
--  Lisensi yang valid: Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
+- Lisensi yang valid: Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 - Pemahaman dasar tentang pemrograman C#: Jangan khawatir, saya akan menjelaskannya secara sederhana dan langsung.
 - Lingkungan pengembangan terpadu (IDE): Visual Studio adalah pilihan yang baik.
 
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 Pertama-tama, Anda perlu memuat dokumen Anda. Ini adalah fondasi tempat Anda akan membangun pengaturan halaman Anda.
 
- Buat contoh baru dari`Document` kelas dan memuat dokumen Anda dari direktori yang ditentukan.
+Buat contoh baru dari `Document` kelas dan memuat dokumen Anda dari direktori yang ditentukan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -67,7 +69,7 @@ doc.FirstSection.PageSetup.CharactersPerLine = 30;
 
 ## Langkah 4: Tentukan Baris Per Halaman
 
-Sama seperti karakter per baris, menentukan jumlah baris per halaman memastikan dokumen Anda memiliki tampilan yang konsisten.
+Sama seperti karakter per baris, menentukan jumlah baris per halaman memastikan bahwa dokumen Anda memiliki tampilan yang konsisten.
 
 ```csharp
 doc.FirstSection.PageSetup.LinesPerPage = 10;
@@ -83,27 +85,32 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.DocumentPageSetup.docx
 
 ## Kesimpulan
 
-Nah, itu dia! Dengan langkah-langkah sederhana ini, Anda telah menyiapkan tata letak halaman dokumen Anda menggunakan Aspose.Words untuk .NET. Proses ini dapat menghemat banyak kerumitan pemformatan dan memastikan dokumen Anda terlihat profesional dan rapi. Jadi, lain kali Anda mengerjakan proyek, ingat panduan ini dan selesaikan pengaturan halaman Anda seperti seorang profesional.
+Nah, itu dia! Dengan langkah-langkah sederhana ini, Anda telah menyiapkan tata letak halaman dokumen Anda menggunakan Aspose.Words untuk .NET. Proses ini dapat menghemat banyak kerumitan pemformatan dan memastikan dokumen Anda terlihat profesional dan rapi. Jadi, lain kali Anda mengerjakan sebuah proyek, ingat panduan ini dan selesaikan pengaturan halaman Anda seperti seorang profesional.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.Words untuk .NET?
 Ini adalah pustaka yang hebat untuk membuat, memodifikasi, dan mengonversi dokumen dalam berbagai format menggunakan aplikasi .NET.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
-Ya, Anda dapat menggunakannya dengan lisensi sementara yang bisa Anda dapatkan[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Ya, Anda dapat menggunakannya dengan lisensi sementara yang bisa Anda dapatkan [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi.
+Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi.
 
 ### Bahasa apa yang didukung Aspose.Words?
-Aplikasi ini mendukung berbagai bahasa termasuk bahasa Asia seperti Cina dan Jepang.
+Mendukung berbagai bahasa termasuk bahasa Asia seperti Cina dan Jepang.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

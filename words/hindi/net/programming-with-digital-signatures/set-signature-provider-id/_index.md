@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में हस्ताक्षर प्रदाता आईडी सेट करें
-linktitle: वर्ड दस्तावेज़ में हस्ताक्षर प्रदाता आईडी सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सुरक्षित रूप से हस्ताक्षर प्रदाता ID सेट करें। अपने दस्तावेज़ों पर डिजिटल हस्ताक्षर करने के लिए हमारी विस्तृत, 2000-शब्द मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-digital-signatures/set-signature-provider-id/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सुरक्षित रूप से हस्ताक्षर प्रदाता ID सेट करें। अपने दस्तावेज़ों पर डिजिटल हस्ताक्षर करने के लिए हमारी विस्तृत, 2000-शब्द मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड दस्तावेज़ में हस्ताक्षर प्रदाता आईडी सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में हस्ताक्षर प्रदाता आईडी सेट करें"
+"url": "/hi/net/programming-with-digital-signatures/set-signature-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में हस्ताक्षर प्रदाता आईडी सेट करें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-digital-signatures/set-signature-provider-id/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. .NET लाइब्रेरी के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है,[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है, [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई भी C# संगत IDE.
 3. वर्ड दस्तावेज़: हस्ताक्षर लाइन वाला एक दस्तावेज़ (`Signature line.docx`).
-4.  डिजिटल प्रमाणपत्र: A`.pfx` प्रमाणपत्र फ़ाइल (उदाहरणार्थ,`morzal.pfx`).
+4. डिजिटल प्रमाणपत्र: A `.pfx` प्रमाणपत्र फ़ाइल (उदाहरणार्थ, `morzal.pfx`).
 5. C# का बुनियादी ज्ञान: बस मूल बातें - चिंता न करें, हम आपकी मदद के लिए यहां हैं!
 
 अब, चलिए कार्रवाई में कूद पड़ें!
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
- यहाँ, हम वह निर्देशिका निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है।`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
+यहाँ, हम वह निर्देशिका निर्दिष्ट करते हैं जहाँ आपका दस्तावेज़ स्थित है। `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
 
 ## चरण 2: हस्ताक्षर रेखा तक पहुंचें
 
@@ -60,7 +62,7 @@ Document doc = new Document(dataDir + "Signature line.docx");
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
- कोड की यह पंक्ति दस्तावेज़ के पहले खंड के मुख्य भाग में पहला आकार प्राप्त करती है और उसे एक रूप में प्रस्तुत करती है।`SignatureLine` वस्तु।
+कोड की यह पंक्ति दस्तावेज़ के पहले खंड के मुख्य भाग में पहला आकार प्राप्त करती है और उसे एक रूप में प्रस्तुत करती है। `SignatureLine` वस्तु।
 
 ## चरण 3: साइन विकल्प सेट करें
 
@@ -78,28 +80,28 @@ SignOptions signOptions = new SignOptions
 
 ## चरण 4: प्रमाणपत्र लोड करें
 
- दस्तावेज़ पर डिजिटल हस्ताक्षर करने के लिए आपको एक प्रमाणपत्र की आवश्यकता होती है। यहाँ बताया गया है कि आप अपना प्रमाणपत्र कैसे लोड करते हैं`.pfx` फ़ाइल:
+दस्तावेज़ पर डिजिटल हस्ताक्षर करने के लिए आपको एक प्रमाणपत्र की आवश्यकता होती है। यहाँ बताया गया है कि आप अपना प्रमाणपत्र कैसे लोड करते हैं `.pfx` फ़ाइल:
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- प्रतिस्थापित करें`"aw"` यदि आपके प्रमाणपत्र फ़ाइल में पासवर्ड है तो उसे भी भेजें।
+प्रतिस्थापित करें `"aw"` यदि आपके प्रमाणपत्र फ़ाइल में पासवर्ड है तो उसे भी भेजें।
 
 ## चरण 5: दस्तावेज़ पर हस्ताक्षर करें
 
- अंत में, दस्तावेज़ पर हस्ताक्षर करने का समय आ गया है।`DigitalSignatureUtil.Sign` तरीका।
+अंत में, दस्तावेज़ पर हस्ताक्षर करने का समय आ गया है। `DigitalSignatureUtil.Sign` तरीका।
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
     dataDir + "SignDocuments.SetSignatureProviderId.docx", certHolder, signOptions);
 ```
 
- यह आपके दस्तावेज़ पर हस्ताक्षर करता है और उसे एक नई फ़ाइल के रूप में सहेजता है,`Digitally signed.docx`.
+यह आपके दस्तावेज़ पर हस्ताक्षर करता है और उसे एक नई फ़ाइल के रूप में सहेजता है, `Digitally signed.docx`.
 
 ## निष्कर्ष
 
-और अब यह हो गया! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सफलतापूर्वक हस्ताक्षर प्रदाता आईडी सेट कर ली है। यह प्रक्रिया न केवल आपके दस्तावेज़ों को सुरक्षित करती है बल्कि यह भी सुनिश्चित करती है कि वे डिजिटल हस्ताक्षर मानकों के अनुरूप हैं। अब, आगे बढ़ें और अपने दस्तावेज़ों के साथ इसे आज़माएँ। कोई प्रश्न है? नीचे दिए गए FAQ देखें या हिट करें[Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+और अब यह हो गया! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सफलतापूर्वक हस्ताक्षर प्रदाता आईडी सेट कर ली है। यह प्रक्रिया न केवल आपके दस्तावेज़ों को सुरक्षित करती है बल्कि यह भी सुनिश्चित करती है कि वे डिजिटल हस्ताक्षर मानकों के अनुरूप हैं। अब, आगे बढ़ें और अपने दस्तावेज़ों के साथ इसे आज़माएँ। कोई प्रश्न है? नीचे अक्सर पूछे जाने वाले प्रश्न देखें या हिट करें [Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -123,9 +125,14 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 आपको पहले एक हस्ताक्षर लाइन डालनी होगी। Aspose.Words प्रोग्रामेटिक रूप से हस्ताक्षर लाइन जोड़ने के तरीके प्रदान करता है।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

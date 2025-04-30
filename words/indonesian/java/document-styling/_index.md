@@ -1,14 +1,16 @@
 ---
-title: Penataan Dokumen
-linktitle: Penataan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Kuasai gaya dokumen dengan tutorial Aspose.Words untuk Java. Pelajari teknik pemformatan tingkat lanjut untuk dokumen yang menarik secara visual dan efisien.
-weight: 12
-url: /id/java/document-styling/
+"description": "Kuasai gaya dokumen dengan tutorial Aspose.Words untuk Java. Pelajari teknik pemformatan tingkat lanjut untuk dokumen yang menarik secara visual dan efisien."
+"linktitle": "Penataan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Penataan Dokumen"
+"url": "/id/java/document-styling/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penataan Dokumen
@@ -41,9 +43,13 @@ Pelajari cara menyesuaikan tema dokumen menggunakan Aspose.Words untuk Java. Pan
 Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber.
 ### [Penataan Header dan Footer Dokumen](./document-header-footer-styling/)
 Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

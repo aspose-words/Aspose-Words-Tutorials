@@ -1,33 +1,35 @@
 ---
-title: Kopírovat styly dokumentů aplikace Word
-linktitle: Kopírovat styly dokumentů aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se kopírovat styly dokumentů aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce, abyste bez námahy zajistili konzistentní formátování dokumentu.
-weight: 10
-url: /cs/net/programming-with-styles-and-themes/copy-styles/
+"description": "Naučte se, jak kopírovat styly dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu, abyste bez námahy zajistili konzistentní formátování dokumentu."
+"linktitle": "Kopírování stylů dokumentů Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Kopírování stylů dokumentů Word"
+"url": "/cs/net/programming-with-styles-and-themes/copy-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kopírovat styly dokumentů aplikace Word
+# Kopírování stylů dokumentů Word
 
 ## Zavedení
 
-Pokud jste někdy potřebovali, aby dokument vypadal konzistentně s jiným, pravděpodobně jste čelili výzvě kopírování stylů. Představte si, že jste návrhář, jehož úkolem je zajistit, aby každá nová sestava odpovídala stylu existující šablony. Pomocí Aspose.Words for .NET můžete tento úkol zjednodušit a udržet vaše dokumenty ostré a jednotné. V tomto tutoriálu se ponoříme do toho, jak můžete bez námahy kopírovat styly z jednoho dokumentu aplikace Word do druhého. Začněme!
+Pokud jste někdy potřebovali, aby jeden dokument vypadal konzistentně s jiným, pravděpodobně jste čelili výzvě kopírování stylů. Představte si, že jste designér, jehož úkolem je zajistit, aby každá nová sestava odpovídala stylu existující šablony. Pomocí Aspose.Words pro .NET si můžete tento úkol zjednodušit a zachovat ostrý a jednotný vzhled vašich dokumentů. V tomto tutoriálu se ponoříme do toho, jak můžete snadno kopírovat styly z jednoho dokumentu Wordu do druhého. Pojďme na to!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET Library: Budete ji potřebovat pro práci s dokumenty Wordu v .NET. Můžete si jej stáhnout z[Aspose.Words pro .NET ke stažení](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí .NET: Měli byste mít nastavené funkční vývojové prostředí .NET, jako je Visual Studio.
-3. Základní znalost C#: Znalost C# vám pomůže porozumět a efektivně implementovat úryvky kódu.
+1. Knihovna Aspose.Words pro .NET: Budete ji potřebovat pro práci s dokumenty Word v .NET. Můžete si ji stáhnout z [Aspose.Words pro .NET ke stažení](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí .NET: Měli byste mít nastavené funkční vývojové prostředí .NET, například Visual Studio.
+3. Základní znalost C#: Znalost C# vám pomůže porozumět fragmentům kódu a efektivně je implementovat.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte do svého projektu C# zahrnout potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám poskytovaným Aspose.Words. Takto můžete importovat požadované jmenné prostory:
+Abyste mohli začít, budete muset do svého projektu v C# zahrnout potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám poskytovaným Aspose.Words. Zde je návod, jak importovat požadované jmenné prostory:
 
 ```csharp
 using Aspose.Words;
@@ -35,28 +37,28 @@ using Aspose.Words;
 
 Zahrnutím tohoto jmenného prostoru získáte přístup ke všem výkonným funkcím knihovny Aspose.Words.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
- Nejprve musíte definovat cestu k adresáři dokumentů. Zde bude Aspose.Words hledat vaše soubory. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy.
+Nejdříve je třeba definovat cestu k adresáři s dokumenty. Zde bude Aspose.Words hledat vaše soubory. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Vložte své dokumenty
+## Krok 2: Vložte dokumenty
 
-V tomto kroku načtete zdrojové a cílové dokumenty. Zdrojový dokument je ten, který obsahuje styly, které chcete zkopírovat, zatímco v cílovém dokumentu budou tyto styly použity. 
+V tomto kroku načtete zdrojový a cílový dokument. Zdrojový dokument je ten, který obsahuje styly, které chcete kopírovat, zatímco cílový dokument je dokument, ve kterém budou tyto styly použity. 
 
 ```csharp
 Document doc = new Document();
 Document target = new Document(dataDir + "Rendering.docx");
 ```
 
- Zde,`Rendering.docx` je váš zdrojový dokument obsahující styly, které chcete zkopírovat. The`doc` objekt představuje cílový dokument, do kterého budou styly zkopírovány.
+Zde, `Rendering.docx` je váš zdrojový dokument obsahující styly, které chcete kopírovat. `doc` Objekt představuje cílový dokument, kam budou styly zkopírovány.
 
-## Krok 3: Zkopírujte styly ze zdroje do cíle
+## Krok 3: Kopírování stylů ze zdroje do cíle
 
- Po načtení obou dokumentů můžete nyní kopírovat styly. The`CopyStylesFromTemplate` metoda je vaším nástrojem pro tuto práci. Kopíruje styly z`doc`šablony k`target` dokument.
+Po načtení obou dokumentů můžete nyní zkopírovat styly. `CopyStylesFromTemplate` metoda je vaším nástrojem pro tuto práci. Kopíruje styly z `doc` šablona k `target` dokument.
 
 ```csharp
 target.CopyStylesFromTemplate(doc);
@@ -64,37 +66,42 @@ target.CopyStylesFromTemplate(doc);
 
 ## Krok 4: Uložte aktualizovaný dokument
 
-Po zkopírování stylů uložte aktualizovaný cílový dokument. Tento krok zajistí, že se všechny provedené změny uloží do nového souboru.
+Po zkopírování stylů uložte aktualizovaný cílový dokument. Tímto krokem zajistíte, že všechny provedené změny budou uloženy v novém souboru.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithStylesAndThemes.CopyStyles.docx");
 ```
 
-Tento kód uloží upravený dokument pod novým názvem a zachová vaše původní soubory.
+Tento kód uloží upravený dokument pod novým názvem a zachová původní soubory.
 
 ## Závěr
 
-A tady to máte! Kopírování stylů mezi dokumenty aplikace Word pomocí Aspose.Words for .NET je jednoduchý proces, jakmile se do toho pustíte. Dodržováním těchto kroků zajistíte, že si vaše dokumenty udrží konzistentní vzhled a dojem, díky čemuž bude vaše práce efektivnější a profesionálnější. Ať už aktualizujete sestavu nebo vytváříte novou šablonu, tato metoda vám ušetří čas a námahu a umožní vám soustředit se spíše na obsah než na formátování.
+je to! Kopírování stylů mezi dokumenty Wordu pomocí Aspose.Words pro .NET je jednoduchý proces, jakmile se do něj dostanete. Dodržováním těchto kroků zajistíte, že si vaše dokumenty zachovají konzistentní vzhled a dojem, což zefektivní a zefektivní vaši práci. Ať už aktualizujete zprávu nebo vytváříte novou šablonu, tato metoda vám ušetří čas a úsilí a umožní vám soustředit se na obsah, nikoli na formátování.
 
-## FAQ
+## Často kladené otázky
 
-###  Jaký je účel`CopyStylesFromTemplate` method?  
- The`CopyStylesFromTemplate` metoda zkopíruje styly z jednoho dokumentu do druhého a zajistí, že cílový dokument zdědí formátování zdrojového dokumentu.
+### Jaký je účel `CopyStylesFromTemplate` metoda?  
+Ten/Ta/To `CopyStylesFromTemplate` Metoda kopíruje styly z jednoho dokumentu do druhého a zajišťuje, že cílový dokument zdědí formátování zdrojového dokumentu.
 
-###  Mohu použít`CopyStylesFromTemplate` with documents in different formats?  
- Ne,`CopyStylesFromTemplate` metoda funguje pouze s dokumenty ve stejném formátu, obvykle DOCX.
+### Mohu použít `CopyStylesFromTemplate` s dokumenty v různých formátech?  
+Ne, ten `CopyStylesFromTemplate` Metoda funguje pouze s dokumenty ve stejném formátu, obvykle DOCX.
 
 ### Jak mohu zkontrolovat, zda byly styly úspěšně zkopírovány?  
-Otevřete cílový dokument a zkontrolujte nastavení stylu. Měli byste vidět použité styly ze zdrojového dokumentu.
+Otevřete cílový dokument a zkontrolujte nastavení stylů. Měli byste vidět použité styly ze zdrojového dokumentu.
 
-### Co když cílový dokument již má styly?  
- The`CopyStylesFromTemplate` metoda přepíše existující styly v cílovém dokumentu styly ze zdrojového dokumentu.
+### Co když cílový dokument již styly obsahuje?  
+Ten/Ta/To `CopyStylesFromTemplate` Metoda přepíše existující styly v cílovém dokumentu styly ze zdrojového dokumentu.
 
-### Je Aspose.Words for .NET zdarma k použití?  
- Aspose.Words for .NET je komerční produkt, ale můžete získat bezplatnou zkušební verzi[Bezplatná zkušební verze Aspose.Words for .NET](https://releases.aspose.com/).
+### Je Aspose.Words pro .NET zdarma k použití?  
+Aspose.Words pro .NET je komerční produkt, ale bezplatnou zkušební verzi si můžete stáhnout zde. [Aspose.Words pro .NET - zkušební verze zdarma](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

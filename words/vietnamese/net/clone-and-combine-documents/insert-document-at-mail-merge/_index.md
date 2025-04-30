@@ -1,14 +1,16 @@
 ---
-title: Chèn tài liệu vào Mail Merge
-linktitle: Chèn tài liệu vào Mail Merge
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn tài liệu vào trường trộn thư bằng Aspose.Words cho .NET trong hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Tìm hiểu cách chèn tài liệu vào trường trộn thư bằng Aspose.Words cho .NET trong hướng dẫn toàn diện, từng bước này."
+"linktitle": "Chèn tài liệu vào Mail Merge"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn tài liệu vào Mail Merge"
+"url": "/vi/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn tài liệu vào Mail Merge
@@ -21,7 +23,7 @@ Chào mừng đến với thế giới tự động hóa tài liệu với Aspos
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Bạn có thể[tải phiên bản mới nhất tại đây](https://releases.aspose.com/words/net/) . Nếu bạn cần mua giấy phép, bạn có thể làm như vậy[đây](https://purchase.aspose.com/buy) . Ngoài ra, bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử nó với một[dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.Words cho .NET: Bạn có thể [tải phiên bản mới nhất tại đây](https://releases.aspose.com/words/net/). Nếu bạn cần mua giấy phép, bạn có thể làm như vậy [đây](https://purchase.aspose.com/buy). Ngoài ra, bạn có thể nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử nó với một [dùng thử miễn phí](https://releases.aspose.com/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào khác.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn thực hiện hướng dẫn này dễ dàng.
 
@@ -145,10 +147,10 @@ Và bạn đã có nó! Bạn đã chèn thành công các tài liệu vào các
 ## Câu hỏi thường gặp
 
 ### Tôi có thể chèn nhiều tài liệu vào các trường hợp nhập khác nhau không?
-Có, bạn có thể. Chỉ cần chỉ định các trường hợp nhập thích hợp và các đường dẫn tài liệu tương ứng trong`MailMerge.Execute` phương pháp.
+Có, bạn có thể. Chỉ cần chỉ định các trường hợp nhập thích hợp và các đường dẫn tài liệu tương ứng trong `MailMerge.Execute` phương pháp.
 
 ### Có thể định dạng tài liệu được chèn khác với tài liệu chính không?
- Chắc chắn rồi! Bạn có thể sử dụng`ImportFormatMode` tham số trong`NodeImporter` để kiểm soát định dạng.
+Chắc chắn rồi! Bạn có thể sử dụng `ImportFormatMode` tham số trong `NodeImporter` để kiểm soát định dạng.
 
 ### Nếu tên trường hợp nhập là động thì sao?
 Bạn có thể xử lý tên trường hợp nhập động bằng cách truyền chúng dưới dạng tham số cho trình xử lý gọi lại.
@@ -158,9 +160,14 @@ Có, Aspose.Words hỗ trợ nhiều định dạng tệp khác nhau bao gồm D
 
 ### Tôi phải xử lý lỗi như thế nào trong quá trình chèn tài liệu?
 Triển khai xử lý lỗi trong trình xử lý gọi lại để quản lý mọi trường hợp ngoại lệ có thể xảy ra.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

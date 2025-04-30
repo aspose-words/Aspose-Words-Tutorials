@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-loadoptions/convert-shape-to-office-math/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Shape To Office Math
@@ -95,9 +98,13 @@ Aspose.Words for .NET is designed for use with .NET languages, primarily C#. How
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

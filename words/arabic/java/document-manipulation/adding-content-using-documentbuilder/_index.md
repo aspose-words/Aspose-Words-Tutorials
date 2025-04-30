@@ -1,26 +1,28 @@
 ---
-title: إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java
-linktitle: إضافة المحتوى باستخدام DocumentBuilder
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: إتقان إنشاء المستندات باستخدام Aspose.Words for Java. دليل خطوة بخطوة لإضافة النصوص والجداول والصور والمزيد. أنشئ مستندات Word مذهلة دون عناء.
-weight: 26
-url: /ar/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "أتقن إنشاء المستندات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لإضافة النصوص والجداول والصور وغيرها. أنشئ مستندات Word رائعة بكل سهولة."
+"linktitle": "إضافة المحتوى باستخدام DocumentBuilder"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java
 
 
-## مقدمة حول إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java
+## مقدمة لإضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java
 
-في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.Words لـ DocumentBuilder في Java لإضافة أنواع مختلفة من المحتوى إلى مستند Word. سنتناول إدراج النصوص والجداول والقواعد الأفقية وحقول النماذج وHTML والارتباطات التشعبية وجدول المحتويات والصور المضمنة والعائمة والفقرات والمزيد. لنبدأ!
+في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.Words مع DocumentBuilder في جافا لإضافة أنواع مختلفة من المحتوى إلى مستند Word. سنغطي إدراج النصوص، والجداول، والقواعد الأفقية، وحقول النماذج، وHTML، والروابط التشعبية، وجدول المحتويات، والصور المضمنة والعائمة، والفقرات، وغيرها. هيا بنا نبدأ!
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من إعداد مكتبة Aspose.Words for Java في مشروعك. يمكنك تنزيلها من[هنا](https://releases.aspose.com/words/java/).
+قبل البدء، تأكد من تثبيت مكتبة Aspose.Words لجافا في مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
 
 ## إضافة نص
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//ابدأ جدولاً
+// ابدأ جدولًا
 Table table = builder.startTable();
 
 // إدراج الخلايا والمحتوى
@@ -64,7 +66,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إدراج خط أفقي
+// إدراج مسطرة أفقية
 builder.insertHorizontalRule();
 
 // حفظ المستند
@@ -138,7 +140,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com"، خطأ);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com"، خطأ)؛
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
@@ -180,7 +182,7 @@ builder.insertImage("path/to/your/image.png");
 doc.save("path/to/your/document.docx");
 ```
 
-### الصورة العائمة
+### صورة عائمة
 
 ```java
 Document doc = new Document();
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## الخطوة 10: تحريك المؤشر
 
- يمكنك التحكم في موضع المؤشر داخل المستند باستخدام طرق مختلفة مثل`moveToParagraph`, `moveToCell`، والمزيد. إليك مثال:
+يمكنك التحكم في موضع المؤشر داخل المستند باستخدام طرق مختلفة مثل `moveToParagraph`، `moveToCell`والمزيد. إليك مثال:
 
 ```java
 Document doc = new Document();
@@ -234,22 +236,22 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-هذه بعض العمليات الشائعة التي يمكنك إجراؤها باستخدام Aspose.Words لـ DocumentBuilder في Java. استكشف وثائق المكتبة للحصول على ميزات أكثر تقدمًا وخيارات تخصيص. إنشاء مستندات سعيد!
+هذه بعض العمليات الشائعة التي يمكنك إجراؤها باستخدام Aspose.Words مع DocumentBuilder في Java. استكشف وثائق المكتبة لمزيد من الميزات المتقدمة وخيارات التخصيص. إنشاء مستندات ممتع!
 
 
 ## خاتمة
 
-في هذا الدليل الشامل، استكشفنا قدرات Aspose.Words لـ DocumentBuilder في Java لإضافة أنواع مختلفة من المحتوى إلى مستندات Word. لقد قمنا بتغطية النصوص والجداول والقواعد الأفقية وحقول النماذج وHTML والارتباطات التشعبية وجدول المحتويات والصور والفقرات وحركة المؤشر.
+في هذا الدليل الشامل، استكشفنا إمكانيات Aspose.Words مع DocumentBuilder في جافا لإضافة أنواع مختلفة من المحتوى إلى مستندات Word. غطينا النصوص، والجداول، والقواعد الأفقية، وحقول النماذج، وHTML، والروابط التشعبية، وجدول المحتويات، والصور، والفقرات، وحركة المؤشر.
 
 ## الأسئلة الشائعة
 
 ### س: ما هو Aspose.Words لـ Java؟
 
-ج: Aspose.Words for Java عبارة عن مكتبة Java تتيح للمطورين إنشاء مستندات Microsoft Word وتعديلها ومعالجتها برمجيًا. وهي توفر مجموعة واسعة من الميزات لإنشاء المستندات وتنسيقها وإدراج المحتوى.
+ج: Aspose.Words for Java هي مكتبة Java تُمكّن المطورين من إنشاء مستندات Microsoft Word وتعديلها ومعالجتها برمجيًا. تُوفر مجموعة واسعة من الميزات لإنشاء المستندات وتنسيقها وإضافة المحتوى.
 
 ### س: كيف يمكنني إضافة جدول المحتويات إلى مستندي؟
 
-أ: لإضافة جدول المحتويات، استخدم`DocumentBuilder` لإدراج حقل جدول المحتويات في مستندك. تأكد من تحديث الحقول في المستند بعد إضافة المحتوى لملء جدول المحتويات. فيما يلي مثال:
+أ: لإضافة جدول المحتويات، استخدم `DocumentBuilder` لإدراج حقل جدول محتويات في مستندك. تأكد من تحديث حقول المستند بعد إضافة المحتوى لملء جدول المحتويات. إليك مثال:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### س: كيف يمكنني إدراج الصور في مستند باستخدام Aspose.Words لـ Java؟
 
- أ: يمكنك إدراج الصور، سواء المضمنة أو العائمة، باستخدام`DocumentBuilder`وفيما يلي أمثلة لكلا الأمرين:
+أ: يمكنك إدراج الصور، سواء المضمنة أو العائمة، باستخدام `DocumentBuilder`وفيما يلي أمثلة لكلا الأمرين:
 
 #### صورة مضمنة:
 
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### س: هل يمكنني تنسيق النص والفقرات عند إضافة المحتوى؟
 
- ج: نعم، يمكنك تنسيق النص والفقرات باستخدام`DocumentBuilder`يمكنك ضبط خصائص الخط ومحاذاة الفقرة والمسافة البادئة وغير ذلك. إليك مثال:
+ج: نعم، يمكنك تنسيق النص والفقرات باستخدام `DocumentBuilder`يمكنك ضبط خصائص الخط، ومحاذاة الفقرات، والمسافة البادئة، والمزيد. إليك مثال:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### س: كيف يمكنني نقل المؤشر إلى مكان محدد داخل المستند؟
 
- أ: يمكنك التحكم في موضع المؤشر باستخدام طرق مثل`moveToParagraph`, `moveToCell`، والمزيد. إليك مثال:
+أ: يمكنك التحكم في موضع المؤشر باستخدام طرق مثل `moveToParagraph`، `moveToCell`والمزيد. إليك مثال:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-هذه بعض الأسئلة والأجوبة الشائعة لمساعدتك في البدء باستخدام Aspose.Words لـ DocumentBuilder في Java. إذا كانت لديك أسئلة أخرى أو كنت بحاجة إلى مزيد من المساعدة، فراجع[توثيقات المكتبة](https://reference.aspose.com/words/java/) أو اطلب المساعدة من مجتمع Aspose.Words وموارد الدعم.
+هذه بعض الأسئلة والأجوبة الشائعة لمساعدتك في البدء باستخدام Aspose.Words مع DocumentBuilder في Java. إذا كانت لديك أسئلة أخرى أو كنت بحاجة إلى مساعدة إضافية، يُرجى مراجعة [توثيقات المكتبة](https://reference.aspose.com/words/java/) أو اطلب المساعدة من مجتمع Aspose.Words وموارد الدعم.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

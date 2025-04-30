@@ -1,17 +1,19 @@
 ---
-title: Bảo vệ Chỉ đọc trong Tài liệu Word
-linktitle: Bảo vệ Chỉ đọc trong Tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bảo vệ tài liệu Word của bạn bằng cách áp dụng chế độ bảo vệ chỉ đọc bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/document-protection/read-only-protection/
+"description": "Tìm hiểu cách bảo vệ tài liệu Word của bạn bằng cách áp dụng chế độ bảo vệ chỉ đọc bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi."
+"linktitle": "Bảo vệ chỉ đọc trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bảo vệ chỉ đọc trong tài liệu Word"
+"url": "/vi/net/document-protection/read-only-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bảo vệ Chỉ đọc trong Tài liệu Word
+# Bảo vệ chỉ đọc trong tài liệu Word
 
 ## Giới thiệu
 
@@ -21,7 +23,7 @@ Khi nói đến việc quản lý các tài liệu Word, có những lúc bạn 
 
 Trước khi đi sâu vào mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển với .NET được cài đặt. Visual Studio là một lựa chọn tốt.
 3. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có hiểu biết cơ bản về lập trình C#.
 
@@ -51,7 +53,7 @@ builder.Write("Open document as read-only");
 Giải thích:
 
 - Chúng ta bắt đầu bằng cách xác định đường dẫn thư mục nơi tài liệu sẽ được lưu.
--  Một cái mới`Document` đối tượng được tạo ra và một`DocumentBuilder` có liên quan đến nó.
+- Một cái mới `Document` đối tượng được tạo ra và một `DocumentBuilder` có liên quan đến nó.
 - Sử dụng trình xây dựng, chúng ta thêm một dòng văn bản đơn giản vào tài liệu.
 
 ## Bước 2: Đặt mật khẩu bảo vệ ghi
@@ -65,7 +67,7 @@ doc.WriteProtection.SetPassword("MyPassword");
 
 Giải thích:
 
--  Các`SetPassword` phương pháp được gọi là`WriteProtection` sở hữu của tài liệu.
+- Các `SetPassword` phương pháp được gọi là `WriteProtection` sở hữu của tài liệu.
 - Chúng tôi cung cấp mật khẩu (trong trường hợp này là "MyPassword"), mật khẩu này sẽ được sử dụng để xóa bỏ chế độ bảo vệ.
 
 ## Bước 3: Bật Đề xuất Chỉ đọc
@@ -79,7 +81,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 
 Giải thích:
 
--  Các`ReadOnlyRecommended` thuộc tính được thiết lập thành`true`.
+- Các `ReadOnlyRecommended` thuộc tính được thiết lập thành `true`.
 - Thao tác này sẽ nhắc người dùng mở tài liệu ở chế độ chỉ đọc, mặc dù họ có thể chọn bỏ qua khuyến nghị này.
 
 ## Bước 4: Áp dụng Bảo vệ Chỉ đọc
@@ -93,7 +95,7 @@ doc.Protect(ProtectionType.ReadOnly);
 
 Giải thích:
 
--  Các`Protect` phương pháp được gọi trên tài liệu với`ProtectionType.ReadOnly` như là một lập luận.
+- Các `Protect` phương pháp được gọi trên tài liệu với `ProtectionType.ReadOnly` như là một lập luận.
 - Phương pháp này thực thi chế độ bảo vệ chỉ đọc, ngăn chặn mọi sửa đổi đối với tài liệu mà không có mật khẩu.
 
 ## Bước 5: Lưu tài liệu
@@ -107,7 +109,7 @@ doc.Save(dataDir + "DocumentProtection.ReadOnlyProtection.docx");
 
 Giải thích:
 
--  Các`Save` phương thức được gọi trên tài liệu, chỉ định đường dẫn và tên của tệp.
+- Các `Save` phương thức được gọi trên tài liệu, chỉ định đường dẫn và tên của tệp.
 - Tài liệu được lưu với chế độ bảo vệ chỉ đọc.
 
 ## Phần kết luận
@@ -120,7 +122,7 @@ Và bạn đã có nó! Bạn đã tạo thành công một tài liệu Word đ�
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và bảo vệ các tài liệu Word theo chương trình bằng C# hoặc các ngôn ngữ .NET khác.
 
 ### Tôi có thể xóa chế độ bảo vệ chỉ đọc khỏi tài liệu không?
- Có, bạn có thể xóa bảo vệ chỉ đọc bằng cách sử dụng`Unprotect` phương pháp và cung cấp mật khẩu chính xác.
+Có, bạn có thể xóa bảo vệ chỉ đọc bằng cách sử dụng `Unprotect` phương pháp và cung cấp mật khẩu chính xác.
 
 ### Mật khẩu được đặt trong tài liệu có được mã hóa không?
 Có, Aspose.Words mã hóa mật khẩu để đảm bảo tính bảo mật của tài liệu được bảo vệ.
@@ -129,10 +131,15 @@ Có, Aspose.Words mã hóa mật khẩu để đảm bảo tính bảo mật c�
 Có, Aspose.Words cho .NET hỗ trợ nhiều loại bảo vệ khác nhau, bao gồm chỉ cho phép bình luận, điền vào biểu mẫu hoặc theo dõi thay đổi.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

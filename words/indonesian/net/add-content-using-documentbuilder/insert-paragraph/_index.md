@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Paragraf Dalam Dokumen Word
-linktitle: Sisipkan Paragraf Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti tutorial terperinci kami untuk manipulasi dokumen yang lancar.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/insert-paragraph/
+"description": "Pelajari cara menyisipkan paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti tutorial terperinci kami untuk manipulasi dokumen yang lancar."
+"linktitle": "Sisipkan Paragraf Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Paragraf Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/insert-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Paragraf Dalam Dokumen Word
@@ -22,7 +24,7 @@ Selamat datang di panduan lengkap kami tentang penggunaan Aspose.Words untuk .NE
 Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar tentang pemrograman C# dan kerangka kerja .NET.
 - Visual Studio terinstal di komputer Anda.
--  Pustaka Aspose.Words untuk .NET telah terinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET telah terinstal. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 
 ## Mengimpor Ruang Nama
 
@@ -35,7 +37,7 @@ using System.Drawing;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Mulailah dengan menyiapkan dokumen Anda dan menginisialisasi`DocumentBuilder` obyek.
+Mulailah dengan menyiapkan dokumen Anda dan menginisialisasi `DocumentBuilder` obyek.
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -62,7 +64,7 @@ paragraphFormat.KeepTogether = true;
 
 ## Langkah 3: Masukkan Paragraf
 
- Sekarang, tambahkan konten yang Anda inginkan menggunakan`WriteLn` metode`DocumentBuilder`.
+Sekarang, tambahkan konten yang Anda inginkan menggunakan `WriteLn` metode `DocumentBuilder`.
 ```csharp
 builder.Writeln("A whole paragraph.");
 ```
@@ -84,7 +86,7 @@ Selamat! Anda telah berhasil memasukkan paragraf yang diformat ke dalam dokumen 
 Ya, Aspose.Words untuk .NET mendukung aplikasi .NET Core dan .NET Framework.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
- Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan versi Microsoft Word?
 Ya, Aspose.Words untuk .NET memastikan kompatibilitas dengan berbagai versi Microsoft Word, termasuk rilis terkini.
@@ -93,11 +95,16 @@ Ya, Aspose.Words untuk .NET memastikan kompatibilitas dengan berbagai versi Micr
 Ya, Anda dapat mengenkripsi dan mengamankan dokumen Anda secara terprogram menggunakan Aspose.Words untuk .NET.
 
 ### Di mana saya dapat menemukan bantuan dan dukungan lebih lanjut untuk Aspose.Words untuk .NET?
- Kunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8) untuk dukungan dan diskusi komunitas.
+Kunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8) untuk dukungan dan diskusi komunitas.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

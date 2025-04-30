@@ -1,14 +1,16 @@
 ---
-title: Lägga till innehåll med DocumentBuilder i Aspose.Words för Java
-linktitle: Lägga till innehåll med DocumentBuilder
-second_title: Aspose.Words Java Document Processing API
-description: Master Document Creation med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning.
-weight: 26
-url: /sv/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning."
+"linktitle": "Lägga till innehåll med hjälp av DocumentBuilder"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Lägga till innehåll med DocumentBuilder i Aspose.Words för Java"
+"url": "/sv/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lägga till innehåll med DocumentBuilder i Aspose.Words för Java
@@ -16,13 +18,13 @@ url: /sv/java/document-manipulation/adding-content-using-documentbuilder/
 
 ## Introduktion till att lägga till innehåll med DocumentBuilder i Aspose.Words för Java
 
-I den här steg-för-steg-guiden kommer vi att utforska hur man använder Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll i ett Word-dokument. Vi täcker infogning av text, tabeller, horisontella regler, formulärfält, HTML, hyperlänkar, innehållsförteckning, infogade och flytande bilder, stycken och mer. Låt oss komma igång!
+I den här steg-för-steg-guiden utforskar vi hur man använder Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll i ett Word-dokument. Vi går igenom hur man infogar text, tabeller, horisontella linjer, formulärfält, HTML, hyperlänkar, innehållsförteckningar, inbäddade och flytande bilder, stycken och mer. Nu sätter vi igång!
 
-## Förutsättningar
+## Förkunskapskrav
 
- Innan du börjar, se till att du har Aspose.Words för Java-biblioteket inställt i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/words/java/).
+Innan du börjar, se till att du har konfigurerat Aspose.Words för Java-biblioteket i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/words/java/).
 
-## Lägger till text
+## Lägga till text
 
 ```java
 Document doc = new Document();
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Starta ett bord
+// Starta en tabell
 Table table = builder.startTable();
 
 // Infoga celler och innehåll
@@ -58,13 +60,13 @@ builder.endTable();
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägger till horisontell regel
+## Lägga till horisontell linje
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en horisontell regel
+// Infoga en horisontell linje
 builder.insertHorizontalRule();
 
 // Spara dokumentet
@@ -73,33 +75,33 @@ doc.save("path/to/your/document.docx");
 
 ## Lägga till formulärfält
 
-### Textinmatningsformulärfält
+### Textinmatningsfält
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett textinmatningsformulärfält
+// Infoga ett textinmatningsfält i formuläret
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
 // Spara dokumentet
 doc.save("path/to/your/document.docx");
 ```
 
-### Kryssrutan Formulärfält
+### Kryssruta Formulärfält
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett formulärfält för kryssruta
+// Infoga ett kryssruteformulärfält
 builder.insertCheckBox("CheckBox", true, true, 0);
 
 // Spara dokumentet
 doc.save("path/to/your/document.docx");
 ```
 
-### Kombinationsruta formulärfält
+### Kombinationsruta Formulärfält
 
 ```java
 Document doc = new Document();
@@ -115,7 +117,7 @@ builder.insertComboBox("DropDown", items, 0);
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägger till HTML
+## Lägga till HTML
 
 ```java
 Document doc = new Document();
@@ -138,7 +140,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
+builder.insertHyperlink("Aspose Website", "http://"www.aspose.com", falskt);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
@@ -167,13 +169,13 @@ doc.save("path/to/your/document.docx");
 
 ## Lägga till bilder
 
-### Inline bild
+### Inline-bild
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en inline-bild
+// Infoga en inbäddad bild
 builder.insertImage("path/to/your/image.png");
 
 // Spara dokumentet
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Steg 10: Flytta markören
 
- Du kan styra markörens position i dokumentet med olika metoder som`moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
+Du kan styra markörens position i dokumentet med olika metoder, som till exempel `moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
 
 ```java
 Document doc = new Document();
@@ -234,28 +236,28 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Det här är några vanliga operationer du kan utföra med Aspose.Words för Javas DocumentBuilder. Utforska bibliotekets dokumentation för mer avancerade funktioner och anpassningsalternativ. Glad dokumentskapande!
+Här är några vanliga operationer du kan utföra med Aspose.Words för Javas DocumentBuilder. Utforska bibliotekets dokumentation för mer avancerade funktioner och anpassningsalternativ. Lycka till med dokumentskapandet!
 
 
 ## Slutsats
 
-I den här omfattande guiden har vi utforskat funktionerna i Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll till Word-dokument. Vi har täckt text, tabeller, horisontella regler, formulärfält, HTML, hyperlänkar, innehållsförteckning, bilder, stycken och markörrörelser.
+I den här omfattande guiden har vi utforskat möjligheterna med Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll i Word-dokument. Vi har gått igenom text, tabeller, horisontella linjer, formulärfält, HTML, hyperlänkar, innehållsförteckningar, bilder, stycken och markörrörelser.
 
-## FAQ's
+## Vanliga frågor
 
 ### F: Vad är Aspose.Words för Java?
 
-S: Aspose.Words för Java är ett Java-bibliotek som låter utvecklare skapa, modifiera och manipulera Microsoft Word-dokument programmatiskt. Den tillhandahåller ett brett utbud av funktioner för dokumentgenerering, formatering och infogning av innehåll.
+A: Aspose.Words för Java är ett Java-bibliotek som låter utvecklare skapa, modifiera och manipulera Microsoft Word-dokument programmatiskt. Det erbjuder ett brett utbud av funktioner för dokumentgenerering, formatering och innehållsinsättning.
 
 ### F: Hur kan jag lägga till en innehållsförteckning i mitt dokument?
 
-S: För att lägga till en innehållsförteckning, använd`DocumentBuilder` för att infoga ett innehållsförteckningsfält i ditt dokument. Se till att uppdatera fälten i dokumentet efter att du har lagt till innehåll för att fylla i innehållsförteckningen. Här är ett exempel:
+A: För att lägga till en innehållsförteckning, använd `DocumentBuilder` för att infoga ett fält för innehållsförteckning i ditt dokument. Se till att uppdatera fälten i dokumentet efter att du har lagt till innehåll för att fylla innehållsförteckningen. Här är ett exempel:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett innehållsförteckningsfält
+// Infoga ett fält för innehållsförteckning
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
 // Lägg till dokumentinnehåll
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### F: Hur infogar jag bilder i ett dokument med Aspose.Words för Java?
 
- S: Du kan infoga bilder, både inline och flytande, med hjälp av`DocumentBuilder`. Här är exempel på båda:
+A: Du kan infoga bilder, både inbäddade och flytande, med hjälp av `DocumentBuilder`Här är exempel på båda:
 
 #### Inbäddad bild:
 
@@ -275,7 +277,7 @@ doc.updateFields();
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en inline-bild
+// Infoga en inbäddad bild
 builder.insertImage("path/to/your/image.png");
 ```
 
@@ -291,13 +293,13 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### F: Kan jag formatera text och stycken när jag lägger till innehåll?
 
- S: Ja, du kan formatera text och stycken med hjälp av`DocumentBuilder`. Du kan ställa in teckensnittsegenskaper, styckejustering, indrag och mer. Här är ett exempel:
+A: Ja, du kan formatera text och stycken med hjälp av `DocumentBuilder`Du kan ange teckensnittsegenskaper, styckejustering, indentering med mera. Här är ett exempel:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in teckensnitt och styckeformatering
+// Ange teckensnitt och styckeformatering
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### F: Hur kan jag flytta markören till en specifik plats i dokumentet?
 
- S: Du kan styra markörens position med metoder som`moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
+A: Du kan styra markörens position med metoder som `moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Det här är några vanliga frågor och svar som hjälper dig att komma igång med Aspose.Words för Javas DocumentBuilder. Om du har fler frågor eller behöver mer hjälp, se[bibliotekets dokumentation](https://reference.aspose.com/words/java/) eller sök hjälp från Aspose.Words-gemenskapen och stödresurser.
+Här är några vanliga frågor och svar som hjälper dig att komma igång med Aspose.Words för Javas DocumentBuilder. Om du har fler frågor eller behöver ytterligare hjälp kan du läsa mer på [bibliotekets dokumentation](https://reference.aspose.com/words/java/) eller sök hjälp från Aspose.Words-communityn och supportresurserna.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

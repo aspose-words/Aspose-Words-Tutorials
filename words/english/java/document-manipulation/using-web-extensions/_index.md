@@ -7,8 +7,11 @@ weight: 33
 url: /java/document-manipulation/using-web-extensions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Web Extensions in Aspose.Words for Java
@@ -111,9 +114,13 @@ While Aspose.Words for Java provides robust support for web extensions, it's ess
 
 For detailed documentation and resources on using web extensions in Aspose.Words for Java, you can refer to the Aspose documentation at [here](https://reference.aspose.com/words/java/). It provides in-depth information, examples, and guidelines for working with web extensions to enhance your document's functionality.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

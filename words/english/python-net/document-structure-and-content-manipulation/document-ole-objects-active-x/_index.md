@@ -7,8 +7,11 @@ weight: 21
 url: /python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embedding OLE Objects and ActiveX Controls in Word Documents
@@ -77,9 +80,13 @@ If the ActiveX control is not working, it might be due to security settings in t
 
 Incorporating OLE objects and ActiveX controls using Aspose.Words for Python opens up a world of possibilities for creating dynamic and interactive Word documents. Whether you want to embed spreadsheets, multimedia, or interactive forms, this feature empowers you to communicate your ideas effectively.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Mục tiêu so sánh trong tài liệu Word
-linktitle: Mục tiêu so sánh trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: So sánh các tài liệu Word dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Tiết kiệm thời gian và nâng cao độ chính xác khi so sánh tài liệu.
-weight: 10
-url: /vi/net/compare-documents/comparison-target/
+"description": "So sánh các tài liệu Word dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Tiết kiệm thời gian và nâng cao độ chính xác khi so sánh tài liệu."
+"linktitle": "Mục tiêu so sánh trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mục tiêu so sánh trong tài liệu Word"
+"url": "/vi/net/compare-documents/comparison-target/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mục tiêu so sánh trong tài liệu Word
@@ -21,8 +23,8 @@ Xin chào! Bạn đã bao giờ thấy mình so sánh hai phiên bản của m�
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Bạn cần thư viện này. Nếu bạn chưa có, hãy lấy nó từ[đây](https://releases.aspose.com/words/net/).
-2.  Giấy phép: Bạn sẽ cần một giấy phép hợp lệ để mở khóa toàn bộ tiềm năng của Aspose.Words. Bạn có thể mua một giấy phép[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words cho .NET: Bạn cần thư viện này. Nếu bạn chưa có, hãy lấy nó từ [đây](https://releases.aspose.com/words/net/).
+2. Giấy phép: Bạn sẽ cần một giấy phép hợp lệ để mở khóa toàn bộ tiềm năng của Aspose.Words. Bạn có thể mua một giấy phép [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 3. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 4. Kiến thức cơ bản về C#: Đừng lo, bạn không cần phải là người chuyên nghiệp, chỉ cần có một số hiểu biết cơ bản là được.
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 ## Bước 3: Tải tài liệu của bạn
 
-Được rồi, đến lúc tải các tài liệu bạn muốn so sánh. Bạn sẽ cần đường dẫn đến các tài liệu này. Giả sử bạn có hai tài liệu:`DocumentA.docx` Và`DocumentB.docx`.
+Được rồi, đến lúc tải các tài liệu bạn muốn so sánh. Bạn sẽ cần đường dẫn đến các tài liệu này. Giả sử bạn có hai tài liệu: `DocumentA.docx` Và `DocumentB.docx`.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -125,11 +127,16 @@ Chắc chắn rồi! Aspose.Words cung cấp nhiều tùy chọn để điều c
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
 
- Bạn có thể kiểm tra tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể kiểm tra tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

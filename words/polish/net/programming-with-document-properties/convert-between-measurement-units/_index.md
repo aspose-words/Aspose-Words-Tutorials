@@ -1,14 +1,16 @@
 ---
-title: Konwersja między jednostkami miary
-linktitle: Konwersja między jednostkami miary
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować jednostki miary w Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ustawić marginesy dokumentu, nagłówki i stopki w calach i punktach.
-weight: 10
-url: /pl/net/programming-with-document-properties/convert-between-measurement-units/
+"description": "Dowiedz się, jak konwertować jednostki miary w Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ustawić marginesy dokumentu, nagłówki i stopki w calach i punktach."
+"linktitle": "Konwersja między jednostkami miary"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwersja między jednostkami miary"
+"url": "/pl/net/programming-with-document-properties/convert-between-measurement-units/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja między jednostkami miary
@@ -21,10 +23,10 @@ Cześć! Czy jesteś programistą pracującym z dokumentami Worda przy użyciu A
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz ją [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# ułatwi Ci naukę.
-4.  Licencja Aspose: Opcjonalna, ale zalecana do pełnej funkcjonalności. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja Aspose: Opcjonalna, ale zalecana dla pełnej funkcjonalności. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -46,11 +48,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Inicjuje nowy dokument Word i`DocumentBuilder` aby ułatwić tworzenie i formatowanie treści.
+Inicjuje nowy dokument Word i `DocumentBuilder` aby ułatwić tworzenie i formatowanie treści.
 
 ## Krok 2: Dostęp do ustawień strony
 
- Aby ustawić marginesy, nagłówki i stopki, należy uzyskać dostęp do`PageSetup` obiekt.
+Aby ustawić marginesy, nagłówki i stopki, należy uzyskać dostęp do `PageSetup` obiekt.
 
 ```csharp
 PageSetup pageSetup = builder.PageSetup;
@@ -60,7 +62,7 @@ Dzięki temu uzyskujesz dostęp do różnych właściwości ustawień strony, ta
 
 ## Krok 3: Konwersja cali na punkty
 
- Aspose.Words domyślnie używa punktów jako jednostki miary. Aby ustawić marginesy w calach, musisz przekonwertować cale na punkty za pomocą`ConvertUtil.InchToPoint` metoda.
+Aspose.Words domyślnie używa punktów jako jednostki miary. Aby ustawić marginesy w calach, musisz przekonwertować cale na punkty za pomocą `ConvertUtil.InchToPoint` metoda.
 
 ```csharp
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -88,27 +90,32 @@ Zapisuje dokument z określonymi marginesami i odległościami w punktach.
 
 ## Wniosek
 
-I masz! Udało Ci się przekonwertować i ustawić marginesy i odległości w dokumencie Word za pomocą Aspose.Words dla .NET. Postępując zgodnie z tymi krokami, możesz łatwo obsługiwać różne konwersje jednostek, dzięki czemu proces dostosowywania dokumentu będzie dziecinnie prosty. Eksperymentuj z różnymi ustawieniami i odkrywaj rozległe funkcjonalności, jakie oferuje Aspose.Words. Miłego kodowania!
+masz! Udało Ci się pomyślnie przekonwertować i ustawić marginesy i odległości w dokumencie Word za pomocą Aspose.Words dla .NET. Postępując zgodnie z tymi krokami, możesz łatwo obsługiwać różne konwersje jednostek, dzięki czemu proces dostosowywania dokumentu będzie dziecinnie prosty. Eksperymentuj z różnymi ustawieniami i odkrywaj rozległe funkcjonalności, jakie oferuje Aspose.Words. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę przekonwertować inne jednostki, np. centymetry, na punkty przy użyciu Aspose.Words?
- Tak, Aspose.Words udostępnia metody takie jak`ConvertUtil.CmToPoint` do zamiany centymetrów na punkty.
+Tak, Aspose.Words udostępnia metody takie jak `ConvertUtil.CmToPoint` do zamiany centymetrów na punkty.
 
 ### Czy do korzystania z Aspose.Words dla .NET potrzebna jest licencja?
 Chociaż możesz używać Aspose.Words bez licencji, niektóre zaawansowane funkcje mogą być ograniczone. Uzyskanie licencji zapewnia pełną funkcjonalność.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Można go pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/) i postępuj zgodnie z instrukcją instalacji.
+Można go pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/) i postępuj zgodnie z instrukcją instalacji.
 
 ### Czy mogę ustawić różne jednostki dla różnych sekcji dokumentu?
- Tak, możesz dostosować marginesy i inne ustawienia dla różnych sekcji, korzystając z`Section` klasa.
+Tak, możesz dostosować marginesy i inne ustawienia dla różnych sekcji, korzystając z `Section` klasa.
 
 ### Jakie inne funkcje oferuje Aspose.Words?
- Aspose.Words obsługuje szeroki zakres funkcji, w tym konwersję dokumentów, scalanie korespondencji i rozbudowane opcje formatowania. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Aspose.Words obsługuje szeroki zakres funkcji, w tym konwersję dokumentów, scalanie korespondencji i rozbudowane opcje formatowania. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

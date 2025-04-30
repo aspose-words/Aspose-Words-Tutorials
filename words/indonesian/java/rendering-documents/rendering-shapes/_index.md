@@ -1,14 +1,16 @@
 ---
-title: Merender Bentuk di Aspose.Words untuk Java
-linktitle: Merender Bentuk
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat bentuk di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Buat gambar EMF secara terprogram.
-weight: 10
-url: /id/java/rendering-documents/rendering-shapes/
+"description": "Pelajari cara membuat bentuk di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Buat gambar EMF secara terprogram."
+"linktitle": "Merender Bentuk"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Merender Bentuk di Aspose.Words untuk Java"
+"url": "/id/java/rendering-documents/rendering-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merender Bentuk di Aspose.Words untuk Java
@@ -45,7 +47,7 @@ ShapeRenderer render = shape.getShapeRenderer();
 
 ## 5. Merender Bentuk sebagai Gambar EMF
 
- Sekarang tibalah bagian yang menarik - membuat bentuk sebagai gambar EMF. Kita akan menggunakan`ImageSaveOptions` kelas untuk menentukan format keluaran dan menyesuaikan rendering.
+Sekarang tibalah bagian yang menarik - membuat bentuk sebagai gambar EMF. Kita akan menggunakan `ImageSaveOptions` kelas untuk menentukan format keluaran dan menyesuaikan rendering.
 
 ```java
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.EMF);
@@ -95,21 +97,26 @@ Ya, Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOCX, PD
 
 ### Q3: Apakah ada pilihan lisensi yang tersedia untuk Aspose.Words untuk Java?
 
-Ya, Anda dapat menjelajahi opsi lisensi dan membeli Aspose.Words untuk Java di[Situs web Aspose](https://purchase.aspose.com/buy).
+Ya, Anda dapat menjelajahi opsi lisensi dan membeli Aspose.Words untuk Java di [Situs web Aspose](https://purchase.aspose.com/buy).
 
 ### Q4: Dapatkah saya mencoba Aspose.Words untuk Java sebelum membeli?
 
- Tentu saja! Anda dapat mengakses uji coba gratis Aspose.Words untuk Java di[Aspose.Rilis](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengakses uji coba gratis Aspose.Words untuk Java di [Aspose.Rilis](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan tentang Aspose.Words untuk Java?
 
- Untuk pertanyaan atau dukungan apa pun, kunjungi[Forum Aspose.Words untuk Java](https://forum.aspose.com/).
+Untuk pertanyaan atau dukungan apa pun, kunjungi [Forum Aspose.Words untuk Java](https://forum.aspose.com/).
 
 Sekarang setelah Anda menguasai rendering bentuk dengan Aspose.Words untuk Java, Anda siap untuk memanfaatkan sepenuhnya potensi API serbaguna ini dalam proyek pemrosesan dokumen Anda. Selamat membuat kode!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/append-with-import-format-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Append With Import Format Options
@@ -111,9 +114,13 @@ Images are usually handled seamlessly, but ensure your source and destination do
 ###ment before saving?
 You can render the document to a stream or use a viewer in your application to preview it.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

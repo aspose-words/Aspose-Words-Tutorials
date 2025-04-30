@@ -1,14 +1,16 @@
 ---
-title: Thêm góc cắt
-linktitle: Thêm góc cắt
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm hình dạng cắt góc vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo bạn có thể cải thiện tài liệu của mình một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-shapes/add-corners-snipped/
+"description": "Tìm hiểu cách thêm hình dạng cắt góc vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo bạn có thể cải thiện tài liệu của mình một cách dễ dàng."
+"linktitle": "Thêm góc cắt"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm góc cắt"
+"url": "/vi/net/programming-with-shapes/add-corners-snipped/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm góc cắt
@@ -21,9 +23,9 @@ Thêm hình dạng tùy chỉnh vào tài liệu Word của bạn có thể là 
 
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển của bạn. Visual Studio là lựa chọn phổ biến, nhưng bạn có thể sử dụng bất kỳ IDE nào hỗ trợ .NET.
-3.  Giấy phép: Nếu bạn chỉ đang thử nghiệm, bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ chức năng.
+3. Giấy phép: Nếu bạn chỉ đang thử nghiệm, bạn có thể sử dụng [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa đầy đủ chức năng.
 4. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi các ví dụ.
 
 ## Nhập không gian tên
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thêm hình dạng "Corners Sni
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Điều đầu tiên chúng ta cần làm là tạo một tài liệu mới và khởi tạo một`DocumentBuilder` đối tượng. Trình xây dựng này sẽ giúp chúng ta thêm nội dung vào tài liệu.
+Điều đầu tiên chúng ta cần làm là tạo một tài liệu mới và khởi tạo một `DocumentBuilder` đối tượng. Trình xây dựng này sẽ giúp chúng ta thêm nội dung vào tài liệu.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -49,11 +51,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, chúng tôi đã thiết lập tài liệu và trình xây dựng của mình. Hãy nghĩ đến`DocumentBuilder` như bút kỹ thuật số, sẵn sàng để viết và vẽ trong tài liệu Word của bạn.
+Trong bước này, chúng tôi đã thiết lập tài liệu và trình xây dựng của mình. Hãy nghĩ đến `DocumentBuilder` như bút kỹ thuật số, sẵn sàng để viết và vẽ trong tài liệu Word của bạn.
 
 ## Bước 2: Chèn hình dạng cắt góc
 
- Tiếp theo, chúng ta sẽ sử dụng`DocumentBuilder` để chèn hình dạng "Corners Snipped". Kiểu hình dạng này được định nghĩa sẵn trong Aspose.Words và có thể dễ dàng chèn bằng một dòng mã.
+Tiếp theo, chúng ta sẽ sử dụng `DocumentBuilder` để chèn hình dạng "Corners Snipped". Kiểu hình dạng này được định nghĩa sẵn trong Aspose.Words và có thể dễ dàng chèn bằng một dòng mã.
 
 ```csharp
 builder.InsertShape(ShapeType.TopCornersSnipped, 50, 50);
@@ -63,7 +65,7 @@ builder.InsertShape(ShapeType.TopCornersSnipped, 50, 50);
 
 ## Bước 3: Xác định tùy chọn lưu với tuân thủ
 
-Trước khi lưu tài liệu, chúng ta cần xác định các tùy chọn lưu để đảm bảo tài liệu của chúng ta tuân thủ các tiêu chuẩn cụ thể. Chúng ta sẽ sử dụng`OoxmlSaveOptions` lớp học này.
+Trước khi lưu tài liệu, chúng ta cần xác định các tùy chọn lưu để đảm bảo tài liệu của chúng ta tuân thủ các tiêu chuẩn cụ thể. Chúng ta sẽ sử dụng `OoxmlSaveOptions` lớp học này.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
@@ -91,10 +93,10 @@ Bạn đã có nó rồi! Thêm hình dạng tùy chỉnh vào tài liệu Word 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh kích thước của hình "Cắt góc" không?
-Có, bạn có thể điều chỉnh kích thước bằng cách thay đổi các kích thước trong`InsertShape` phương pháp.
+Có, bạn có thể điều chỉnh kích thước bằng cách thay đổi các kích thước trong `InsertShape` phương pháp.
 
 ### Có thể thêm các loại hình dạng khác không?
- Chắc chắn rồi! Aspose.Words hỗ trợ nhiều hình dạng khác nhau. Chỉ cần thay đổi`ShapeType` theo hình dạng mong muốn của bạn.
+Chắc chắn rồi! Aspose.Words hỗ trợ nhiều hình dạng khác nhau. Chỉ cần thay đổi `ShapeType` theo hình dạng mong muốn của bạn.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words không?
 Mặc dù bạn có thể sử dụng bản dùng thử miễn phí hoặc giấy phép tạm thời, nhưng cần phải có giấy phép đầy đủ để sử dụng không hạn chế.
@@ -104,9 +106,14 @@ Bạn có thể sử dụng các thuộc tính và phương thức bổ sung do 
 
 ### Aspose.Words có tương thích với các định dạng khác không?
 Có, Aspose.Words hỗ trợ nhiều định dạng tài liệu bao gồm DOCX, PDF, HTML, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

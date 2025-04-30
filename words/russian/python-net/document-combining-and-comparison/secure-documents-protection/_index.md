@@ -1,14 +1,16 @@
 ---
-title: Обеспечение безопасности документов с помощью современных методов защиты
-linktitle: Обеспечение безопасности документов с помощью современных методов защиты
-second_title: API управления документами Python Aspose.Words
-description: Защитите свои документы с помощью расширенной защиты с помощью Aspose.Words для Python. Узнайте, как добавлять пароли, шифровать контент, применять цифровые подписи и многое другое.
-weight: 16
-url: /ru/python-net/document-combining-and-comparison/secure-documents-protection/
+"description": "Защитите свои документы с помощью расширенной защиты с помощью Aspose.Words для Python. Узнайте, как добавлять пароли, шифровать контент, применять цифровые подписи и многое другое."
+"linktitle": "Обеспечение безопасности документов с помощью современных методов защиты"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Обеспечение безопасности документов с помощью современных методов защиты"
+"url": "/ru/python-net/document-combining-and-comparison/secure-documents-protection/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обеспечение безопасности документов с помощью современных методов защиты
@@ -81,11 +83,11 @@ Aspose.Words for Python позволяет вам защитить ваши до
 
 ### Как установить Aspose.Words для Python?
 
- Вы можете установить его с помощью pip, выполнив:`pip install aspose-words`.
+Вы можете установить его с помощью pip, выполнив: `pip install aspose-words`.
 
 ### Могу ли я ограничить редактирование для определенных групп?
 
- Да, вы можете установить разрешения на редактирование для определенных групп, используя`protection.set_editing_groups(["Editors"])`.
+Да, вы можете установить разрешения на редактирование для определенных групп, используя `protection.set_editing_groups(["Editors"])`.
 
 ### Какие варианты шифрования предлагает Aspose.Words?
 
@@ -98,9 +100,14 @@ Aspose.Words предлагает такие варианты шифровани
 ### Как можно навсегда удалить конфиденциальную информацию из документа?
 
 Используйте функцию редактирования, чтобы навсегда удалить конфиденциальную информацию из документа.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

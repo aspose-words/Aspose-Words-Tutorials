@@ -1,14 +1,16 @@
 ---
-title: Chèn Biểu Đồ Cột Vào Tài Liệu Word
-linktitle: Chèn Biểu Đồ Cột Vào Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn.
-weight: 10
-url: /vi/net/programming-with-charts/insert-column-chart/
+"description": "Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn."
+"linktitle": "Chèn Biểu Đồ Cột Vào Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Biểu Đồ Cột Vào Tài Liệu Word"
+"url": "/vi/net/programming-with-charts/insert-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Biểu Đồ Cột Vào Tài Liệu Word
@@ -22,7 +24,7 @@ Trong hướng dẫn này, bạn sẽ học cách cải thiện tài liệu Word
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 - Kiến thức cơ bản về lập trình C# và môi trường .NET.
--  Aspose.Words cho .NET được cài đặt trong môi trường phát triển của bạn. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET được cài đặt trong môi trường phát triển của bạn. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Trình soạn thảo văn bản hoặc môi trường phát triển tích hợp (IDE) như Visual Studio.
 
 ## Nhập không gian tên
@@ -39,7 +41,7 @@ Thực hiện theo các bước sau để chèn biểu đồ cột vào tài li�
 
 ## Bước 1: Tạo một tài liệu mới
 
- Đầu tiên, tạo một tài liệu Word mới và khởi tạo một`DocumentBuilder` sự vật.
+Đầu tiên, tạo một tài liệu Word mới và khởi tạo một `DocumentBuilder` sự vật.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn biểu đồ cột
 
- Sử dụng`InsertChart` phương pháp của`DocumentBuilder`lớp để chèn biểu đồ cột.
+Sử dụng `InsertChart` phương pháp của `DocumentBuilder` lớp để chèn biểu đồ cột.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -58,7 +60,7 @@ Chart chart = shape.Chart;
 
 ## Bước 3: Thêm dữ liệu vào biểu đồ
 
- Thêm chuỗi dữ liệu vào biểu đồ bằng cách sử dụng`Series` tài sản của`Chart` sự vật.
+Thêm chuỗi dữ liệu vào biểu đồ bằng cách sử dụng `Series` tài sản của `Chart` sự vật.
 
 ```csharp
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
@@ -91,12 +93,17 @@ Bạn có thể tự động điền dữ liệu vào biểu đồ cột bằng 
 Có, Aspose.Words for .NET cho phép bạn lưu tài liệu có biểu đồ ở nhiều định dạng khác nhau bao gồm PDF, HTML và hình ảnh.
 
 ### Tôi có thể nhận thêm hỗ trợ hoặc trợ giúp cho Aspose.Words dành cho .NET ở đâu?
- Để được hỗ trợ thêm, hãy truy cập[Diễn đàn Aspose.Words cho .NET](https://forum.aspose.com/c/words/8) hoặc liên hệ với bộ phận hỗ trợ của Aspose.
+Để được hỗ trợ thêm, hãy truy cập [Diễn đàn Aspose.Words cho .NET](https://forum.aspose.com/c/words/8) hoặc liên hệ với bộ phận hỗ trợ của Aspose.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Bỏ qua hộp văn bản
-linktitle: Bỏ qua hộp văn bản
-second_title: API xử lý tài liệu Aspose.Words
-description: Hợp nhất các tài liệu Word với Aspose.Words cho .NET, đảm bảo định dạng hộp văn bản được bảo toàn. Thực hiện theo hướng dẫn từng bước này để xử lý tài liệu liền mạch.
-weight: 10
-url: /vi/net/join-and-append-documents/ignore-text-boxes/
+"description": "Hợp nhất các tài liệu Word với Aspose.Words cho .NET, đảm bảo định dạng hộp văn bản được bảo toàn. Thực hiện theo hướng dẫn từng bước này để xử lý tài liệu liền mạch."
+"linktitle": "Bỏ qua hộp văn bản"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bỏ qua hộp văn bản"
+"url": "/vi/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ qua hộp văn bản
@@ -21,7 +23,7 @@ Chào mừng bạn đến với hướng dẫn chi tiết này về cách sử d
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển .NET: Visual Studio hoặc bất kỳ IDE nào khác mà bạn thích.
 3. Kiến thức cơ bản về C#: Hiểu biết về các khái niệm lập trình cơ bản trong C#.
 
@@ -52,7 +54,7 @@ Tiếp theo, hãy chỉ định thư mục chứa tài liệu nguồn và tài l
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 3: Tải tài liệu
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 4: Cấu hình Tùy chọn nhập
 
- Để đảm bảo định dạng hộp văn bản được duy trì, hãy đặt`IgnoreTextBoxes` tùy chọn để`false`.
+Để đảm bảo định dạng hộp văn bản được duy trì, hãy đặt `IgnoreTextBoxes` tùy chọn để `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## Bước 5: Khởi tạo Node Importer
 
- Khởi tạo`NodeImporter` để nhập các nút từ tài liệu nguồn vào tài liệu đích.
+Khởi tạo `NodeImporter` để nhập các nút từ tài liệu nguồn vào tài liệu đích.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -101,7 +103,7 @@ foreach (Paragraph srcPara in srcParas)
 
 ## Bước 8: Lưu tài liệu đã hợp nhất
 
-Cuối cùng, lưu tài liệu đã hợp nhất với tên mới để tránh ghi đè lên các tệp gốc.
+Cuối cùng, lưu tài liệu đã hợp nhất với tên mới để tránh ghi đè lên tệp gốc.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
@@ -114,23 +116,28 @@ Bạn đã hợp nhất thành công hai tài liệu Word bằng Aspose.Words fo
 ## Câu hỏi thường gặp
 
 ### Aspose.Words dành cho .NET là gì?
- Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, xử lý và chuyển đổi các tài liệu Word trong các ứng dụng .NET.[Tìm hiểu thêm](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, xử lý và chuyển đổi các tài liệu Word trong các ứng dụng .NET. [Tìm hiểu thêm](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET trước khi mua không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words dành cho .NET?
-Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Để được hỗ trợ, hãy truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, hãy truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

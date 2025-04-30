@@ -1,66 +1,68 @@
 ---
-title: Převést tvar na kancelářskou matematiku
-linktitle: Převést tvar na kancelářskou matematiku
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se s naším průvodcem převádět tvary na Office Math v dokumentech aplikace Word pomocí Aspose.Words for .NET. Vylepšete formátování dokumentu bez námahy.
-weight: 10
-url: /cs/net/programming-with-loadoptions/convert-shape-to-office-math/
+"description": "Naučte se, jak převádět tvary do formátu Office Math v dokumentech Word pomocí Aspose.Words pro .NET s naším průvodcem. Vylepšete formátování dokumentů bez námahy."
+"linktitle": "Převod tvaru do matematických formátů Office"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Převod tvaru do matematických formátů Office"
+"url": "/cs/net/programming-with-loadoptions/convert-shape-to-office-math/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převést tvar na kancelářskou matematiku
+# Převod tvaru do matematických formátů Office
 
 ## Zavedení
 
-V tomto tutoriálu se ponoříme do toho, jak můžete převést tvary do Office Math v dokumentech aplikace Word pomocí Aspose.Words for .NET. Ať už chcete zefektivnit zpracování dokumentů nebo zlepšit možnosti formátování dokumentů, tento průvodce vás krok za krokem provede celým procesem. Na konci tohoto kurzu budete mít jasno v tom, jak využít Aspose.Words for .NET k efektivnímu provedení tohoto úkolu.
+tomto tutoriálu se ponoříme do toho, jak můžete převádět tvary do formátu Office Math v dokumentech Word pomocí Aspose.Words pro .NET. Ať už chcete zefektivnit zpracování dokumentů nebo vylepšit možnosti formátování dokumentů, tento průvodce vás krok za krokem provede celým procesem. Na konci tohoto tutoriálu budete mít jasnou představu o tom, jak Aspose.Words pro .NET efektivně využít k provedení tohoto úkolu.
 
 ## Předpoklady
 
-Než se ponoříme do podrobností, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se ponoříme do detailů, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-- Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Jakékoli IDE, které podporuje .NET, jako je Visual Studio.
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Jakékoli IDE, které podporuje .NET, například Visual Studio.
 - Základní znalost C#: Znalost programování v C# je nezbytná.
-- Dokument aplikace Word: Dokument aplikace Word obsahující tvary, které chcete převést na Office Math.
+- Dokument aplikace Word: Dokument aplikace Word obsahující tvary, které chcete převést do formátu Office Math.
 
 ## Importovat jmenné prostory
 
-Než začneme se skutečným kódem, musíme importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují třídy a metody potřebné pro práci s Aspose.Words pro .NET.
+Než začneme s vlastním kódem, musíme importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují třídy a metody potřebné pro práci s Aspose.Words pro .NET.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-Pojďme si tento proces rozdělit do snadno pochopitelných kroků:
+Rozdělme si proces do snadno sledovatelných kroků:
 
-## Krok 1: Nakonfigurujte možnosti načítání
+## Krok 1: Konfigurace možností načítání
 
 Nejprve musíme nakonfigurovat možnosti načítání, abychom povolili funkci „Převést tvar na Office Math“.
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Konfigurace možností načítání pomocí funkce „Převést tvar na Office Math“.
+// Konfigurace možností načítání pomocí funkce „Převést tvar na Office Math“
 LoadOptions loadOptions = new LoadOptions { ConvertShapeToOfficeMath = true };
 ```
 
- V tomto kroku určíme adresář, kde se náš dokument nachází, a nakonfigurujeme možnosti načítání. The`ConvertShapeToOfficeMath` vlastnost je nastavena na`true` abyste umožnili konverzi.
+V tomto kroku určíme adresář, kde se nachází náš dokument, a nakonfigurujeme možnosti načítání. `ConvertShapeToOfficeMath` vlastnost je nastavena na `true` aby se umožnila konverze.
 
-## Krok 2: Vložte dokument
+## Krok 2: Vložení dokumentu
 
 Dále načteme dokument se zadanými možnostmi.
 
 ```csharp
-// Vložte dokument se zadanými možnostmi
+// Načíst dokument se zadanými možnostmi
 Document doc = new Document(dataDir + "Office math.docx", loadOptions);
 ```
 
- Zde používáme`Document` třídy k načtení našeho dokumentu aplikace Word. The`loadOptions`Parametr zajišťuje, že všechny tvary v dokumentu budou během procesu načítání převedeny na Office Math.
+Zde používáme `Document` třída pro načtení našeho dokumentu Wordu. `loadOptions` Parametr zajišťuje, že všechny tvary v dokumentu budou během procesu načítání převedeny do formátu Office Math.
 
 ## Krok 3: Uložte dokument
 
@@ -71,32 +73,37 @@ Nakonec dokument uložíme v požadovaném formátu.
 doc.Save(dataDir + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx", SaveFormat.Docx);
 ```
 
- V tomto kroku upravený dokument uložíme zpět do adresáře. The`SaveFormat.Docx` zajistí uložení dokumentu ve formátu DOCX.
+V tomto kroku uložíme upravený dokument zpět do adresáře. `SaveFormat.Docx` zajišťuje, že dokument je uložen ve formátu DOCX.
 
 ## Závěr
 
-Převod tvarů na Office Math v dokumentech aplikace Word pomocí Aspose.Words for .NET je jednoduchý proces, pokud je rozdělen do těchto jednoduchých kroků. Podle této příručky můžete vylepšit své možnosti zpracování dokumentů a zajistit, aby byly vaše dokumenty Word naformátovány správně.
+Převod tvarů do formátu Office Math v dokumentech Word pomocí Aspose.Words pro .NET je jednoduchý proces, pokud jej rozdělíme do těchto jednoduchých kroků. Dodržováním tohoto návodu můžete vylepšit své možnosti zpracování dokumentů a zajistit, aby vaše dokumenty Word byly správně formátovány.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Office Math?  
+### Co je to kancelářská matematika?  
 Office Math je funkce v aplikaci Microsoft Word, která umožňuje vytvářet a upravovat složité matematické rovnice a symboly.
 
-### Mohu do Office Math převést pouze určité tvary?  
-Aktuálně se převod vztahuje na všechny tvary v dokumentu. Selektivní konverze by vyžadovala další logiku zpracování.
+### Mohu do formátu Office Math převést pouze určité tvary?  
+současné době se převod vztahuje na všechny tvary v dokumentu. Selektivní převod by vyžadoval další logiku zpracování.
 
-### Potřebuji pro tuto funkci konkrétní verzi Aspose.Words?  
-Ano, ujistěte se, že máte nejnovější verzi Aspose.Words for .NET, abyste mohli tuto funkci efektivně využívat.
+### Potřebuji pro tuto funkci specifickou verzi Aspose.Words?  
+Ano, ujistěte se, že máte nejnovější verzi Aspose.Words pro .NET, abyste tuto funkci mohli efektivně využívat.
 
 ### Mohu tuto funkci použít v jiném programovacím jazyce?  
-Aspose.Words for .NET je navržen pro použití s jazyky .NET, především C#. Podobné funkce jsou však dostupné v jiných rozhraních API Aspose.Words pro různé jazyky.
+Aspose.Words pro .NET je navržen pro použití s jazyky .NET, primárně C#. Podobné funkce jsou však k dispozici i v jiných API Aspose.Words pro různé jazyky.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words?  
- Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

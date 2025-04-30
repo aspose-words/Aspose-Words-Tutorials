@@ -1,14 +1,16 @@
 ---
-title: รับรายละเอียดกลุ่มการแก้ไข
-linktitle: รับรายละเอียดกลุ่มการแก้ไข
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: รับรายละเอียดกลุ่มการแก้ไขในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา .NET
-weight: 10
-url: /th/net/working-with-revisions/get-revision-group-details/
+"description": "รับรายละเอียดกลุ่มการแก้ไขในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา .NET"
+"linktitle": "รับรายละเอียดกลุ่มการแก้ไข"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รับรายละเอียดกลุ่มการแก้ไข"
+"url": "/th/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับรายละเอียดกลุ่มการแก้ไข
@@ -19,9 +21,9 @@ url: /th/net/working-with-revisions/get-revision-group-details/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มเส้นทางการเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
-- สภาพแวดล้อมการพัฒนา .NET: ตรวจสอบว่าคุณมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ Visual Studio เป็นตัวเลือกที่ยอดเยี่ยม
+ก่อนที่เราจะเริ่มเส้นทางการเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+- สภาพแวดล้อมการพัฒนา .NET: ตรวจสอบว่าคุณมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ Visual Studio เป็นตัวเลือกที่ดี
 - เอกสาร Word ที่มีการแก้ไข: สำหรับบทช่วยสอนนี้ เราจะใช้เอกสาร Word ตัวอย่างที่มีการแก้ไข (`Revisions.docx`-
 
 ## นำเข้าเนมสเปซ
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- ในสคริปท์นี้ ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ รหัสนี้จะโหลด`Revisions.docx` ไฟล์เข้าใน`doc` วัตถุ.
+ในสคริปท์นี้ ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ รหัสนี้จะโหลด `Revisions.docx` ไฟล์เข้าใน `doc` วัตถุ.
 
 ## ขั้นตอนที่ 2: เข้าถึงคอลเลกชันการแก้ไข
 
- ตอนนี้มาดูการแก้ไขในเอกสารกัน Aspose.Words จัดเตรียม`Revisions` คอลเลกชั่นที่เราสามารถทำซ้ำได้
+ตอนนี้มาดูการแก้ไขในเอกสารกัน Aspose.Words จัดเตรียมไว้ `Revisions` คอลเลกชันที่เราสามารถทำซ้ำได้
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -95,7 +97,7 @@ foreach (Revision revision in doc.Revisions)
 
 ## บทสรุป
 
-และแล้วคุณก็ทำได้! ด้วยการทำตามขั้นตอนเหล่านี้ คุณจะได้รับข้อมูลโดยละเอียดเกี่ยวกับการแก้ไขในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET เครื่องมืออันทรงพลังนี้ทำให้การจัดการและติดตามการเปลี่ยนแปลงเป็นเรื่องง่าย และทำให้มั่นใจว่าโครงการร่วมมือของคุณดำเนินไปอย่างราบรื่น
+และแล้วคุณก็ทำได้! ด้วยการทำตามขั้นตอนเหล่านี้ คุณก็สามารถรับข้อมูลโดยละเอียดเกี่ยวกับการแก้ไขในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET เครื่องมืออันทรงพลังนี้ทำให้การจัดการและติดตามการเปลี่ยนแปลงเป็นเรื่องง่าย และทำให้มั่นใจว่าโครงการร่วมมือของคุณดำเนินไปอย่างราบรื่น
 
 ## คำถามที่พบบ่อย
 
@@ -106,16 +108,21 @@ foreach (Revision revision in doc.Revisions)
 แน่นอน! คุณสามารถใช้ได้กับภาษา .NET ใดๆ ก็ได้ รวมถึง C#, VB.NET และ ASP.NET
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
- คุณสามารถรับสิทธิ์ทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถซื้อได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- เอกสารรายละเอียดมีให้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารรายละเอียดมีให้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

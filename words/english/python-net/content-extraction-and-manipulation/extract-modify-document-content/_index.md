@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/content-extraction-and-manipulation/extract-modify-document-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extracting and Modifying Content in Word Documents
@@ -149,9 +152,13 @@ Absolutely, you can add hyperlinks to your document using the `insert_hyperlink`
 
 Aspose.Words supports conversion to various formats like PDF, HTML, EPUB, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

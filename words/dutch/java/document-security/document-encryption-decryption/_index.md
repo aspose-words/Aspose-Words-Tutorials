@@ -1,38 +1,40 @@
 ---
-title: Documentcodering en -decodering
-linktitle: Documentcodering en -decodering
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Java. Beveilig uw gegevens efficiënt met stapsgewijze begeleiding en broncodevoorbeelden.
-weight: 12
-url: /nl/java/document-security/document-encryption-decryption/
+"description": "Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Java. Beveilig uw gegevens efficiënt met stapsgewijze instructies en broncodevoorbeelden."
+"linktitle": "Documentversleuteling en -ontsleuteling"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documentversleuteling en -ontsleuteling"
+"url": "/nl/java/document-security/document-encryption-decryption/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documentcodering en -decodering
+# Documentversleuteling en -ontsleuteling
 
-Zeker! Hier is een stapsgewijze handleiding over hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Java.
+Zeker! Hier is een stapsgewijze handleiding voor het versleutelen en ontsleutelen van documenten met Aspose.Words voor Java.
 
-# Documentcodering en -decodering met Aspose.Words voor Java
+# Documenten versleutelen en ontsleutelen met Aspose.Words voor Java
 
-In deze tutorial gaan we onderzoeken hoe je documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Java. Documentversleuteling zorgt ervoor dat je gevoelige gegevens veilig blijven en alleen toegankelijk zijn voor geautoriseerde gebruikers.
+In deze tutorial laten we zien hoe je documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Java. Documentversleuteling zorgt ervoor dat je gevoelige gegevens veilig blijven en alleen toegankelijk zijn voor geautoriseerde gebruikers.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 - [Java-ontwikkelingskit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) geïnstalleerd.
-- [Aspose.Words voor Java](https://products.aspose.com/words/java) bibliotheek. U kunt het downloaden van[hier](https://downloads.aspose.com/words/java).
+- [Aspose.Words voor Java](https://products.aspose.com/words/java) bibliotheek. Je kunt het downloaden van [hier](https://downloads.aspose.com/words/java).
 
 ## Stap 1: Een Java-project maken
 
-Laten we beginnen met het maken van een nieuw Java-project in uw favoriete Integrated Development Environment (IDE). Zorg ervoor dat u de Aspose.Words JAR-bestanden hebt toegevoegd aan het classpath van uw project.
+Laten we beginnen met het aanmaken van een nieuw Java-project in je favoriete Integrated Development Environment (IDE). Zorg ervoor dat je de Aspose.Words JAR-bestanden hebt toegevoegd aan het classpath van je project.
 
 ## Stap 2: Een document versleutelen
 
-Laten we eerst een document encrypteren. Hier is een voorbeeldcode om dat te doen:
+Laten we eerst een document versleutelen. Hier is een voorbeeldcode om dat te doen:
 
 ```java
 import com.aspose.words.Document;
@@ -58,11 +60,11 @@ public class DocumentEncryptionExample {
 }
 ```
 
-In deze code laden we een document, stellen we een wachtwoord in voor encryptie en slaan we het gecodeerde document op als 'encrypted_document.docx'.
+In deze code laden we een document, stellen we een wachtwoord in voor encryptie en slaan we het gecodeerde document vervolgens op als "encrypted_document.docx".
 
-## Stap 3: Een document decoderen
+## Stap 3: Een document ontcijferen
 
-Laten we nu eens kijken hoe u het versleutelde document kunt ontsleutelen met behulp van het opgegeven wachtwoord:
+Laten we nu eens kijken hoe we het versleutelde document kunnen ontsleutelen met behulp van het opgegeven wachtwoord:
 
 ```java
 import com.aspose.words.Document;
@@ -70,13 +72,13 @@ import com.aspose.words.SaveFormat;
 
 public class DocumentDecryptionExample {
     public static void main(String[] args) throws Exception {
-        //Laad het gecodeerde document
+        // Laad het gecodeerde document
         Document doc = new Document("encrypted_document.docx");
         
         // Geef het wachtwoord voor decodering op
         String password = "mySecretPassword";
         
-        // Het document decoderen
+        // Het document ontcijferen
         doc.unprotect(password);
         
         // Sla het gedecodeerde document op
@@ -87,30 +89,34 @@ public class DocumentDecryptionExample {
 }
 ```
 
-Deze code laadt het gecodeerde document, geeft het wachtwoord voor decodering en slaat het gedecodeerde document vervolgens op als 'decrypted_document.docx'.
+Deze code laadt het versleutelde document, geeft het wachtwoord voor decodering en slaat het versleutelde document vervolgens op als "decrypted_document.docx".
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik het encryptiealgoritme wijzigen?
-Aspose.Words voor Java gebruikt een standaard encryptie-algoritme. U kunt dit niet rechtstreeks via de API wijzigen.
+Aspose.Words voor Java gebruikt een standaard encryptie-algoritme. Je kunt dit niet rechtstreeks via de API wijzigen.
 
 ### Wat gebeurt er als ik het encryptiewachtwoord vergeet?
-Als u het encryptiewachtwoord vergeet, is er geen manier om het document te herstellen. Zorg ervoor dat u het wachtwoord onthoudt of bewaar het op een veilige plek.
+Als u het encryptiewachtwoord vergeet, kunt u het document niet meer herstellen. Zorg ervoor dat u het wachtwoord onthoudt of op een veilige plaats bewaart.
 
 ## Conclusie
 
-In deze tutorial hebben we het proces van documentversleuteling en -ontsleuteling met Aspose.Words voor Java onderzocht. Het is cruciaal om de veiligheid van uw gevoelige documenten te waarborgen, en Aspose.Words biedt een robuuste en eenvoudige manier om dit te bereiken.
+In deze tutorial hebben we het proces van documentversleuteling en -ontsleuteling met Aspose.Words voor Java onderzocht. De beveiliging van uw gevoelige documenten is cruciaal, en Aspose.Words biedt een robuuste en eenvoudige manier om dit te bereiken.
 
-We begonnen met het opzetten van ons Java-project en zorgden ervoor dat we de benodigde vereisten hadden, waaronder de Aspose.Words-bibliotheek. Vervolgens liepen we door de stappen om een document te versleutelen, waarbij we een extra beschermingslaag toevoegden om ongeautoriseerde toegang te voorkomen. We leerden ook hoe we het versleutelde document konden ontsleutelen wanneer dat nodig was, met behulp van het opgegeven wachtwoord.
+We begonnen met het opzetten van ons Java-project en zorgden ervoor dat we over de nodige vereisten beschikten, waaronder de Aspose.Words-bibliotheek. Vervolgens doorliepen we de stappen om een document te versleutelen en een extra beveiligingslaag toe te voegen om ongeautoriseerde toegang te voorkomen. We leerden ook hoe we het versleutelde document indien nodig konden ontsleutelen met behulp van het opgegeven wachtwoord.
 
-Het is belangrijk om te onthouden dat documentversleuteling een waardevolle beveiligingsmaatregel is, maar het brengt ook de verantwoordelijkheid met zich mee om het versleutelingswachtwoord veilig te houden. Als u het wachtwoord vergeet, is er geen manier om de inhoud van het document te herstellen.
+Het is belangrijk om te onthouden dat documentversleuteling een waardevolle beveiligingsmaatregel is, maar dat het ook de verantwoordelijkheid met zich meebrengt om het wachtwoord veilig te bewaren. Als u het wachtwoord vergeet, is er geen manier om de inhoud van het document te herstellen.
 
 Door de stappen in deze tutorial te volgen, kunt u de beveiliging van uw Java-toepassingen verbeteren en gevoelige informatie in uw documenten effectief beschermen.
 
-Aspose.Words voor Java vereenvoudigt het proces van documentmanipulatie en -beveiliging, waardoor ontwikkelaars robuuste toepassingen kunnen creëren die voldoen aan hun behoeften op het gebied van documentverwerking.
+Aspose.Words voor Java vereenvoudigt het proces van documentbewerking en -beveiliging, waardoor ontwikkelaars robuuste toepassingen kunnen creëren die voldoen aan hun behoeften op het gebied van documentverwerking.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

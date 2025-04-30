@@ -1,14 +1,16 @@
 ---
-title: Kết hợp và so sánh tài liệu
-linktitle: Kết hợp và so sánh tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá hướng dẫn toàn diện về kết hợp và so sánh tài liệu bằng Aspose.Words cho Python và .NET. Tìm hiểu cách kết hợp và so sánh tài liệu một cách liền mạch, nâng cao quy trình xử lý tài liệu của bạn.
-weight: 12
-url: /vi/python-net/document-combining-and-comparison/
+"description": "Khám phá hướng dẫn toàn diện về kết hợp và so sánh tài liệu bằng Aspose.Words cho Python và .NET. Tìm hiểu cách kết hợp và so sánh tài liệu một cách liền mạch, nâng cao quy trình xử lý tài liệu của bạn."
+"linktitle": "Kết hợp và so sánh tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Kết hợp và so sánh tài liệu"
+"url": "/vi/python-net/document-combining-and-comparison/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết hợp và so sánh tài liệu
@@ -25,9 +27,9 @@ Khả năng kết hợp và so sánh tài liệu là điều cần thiết trong
 
 Trong suốt loạt bài hướng dẫn này, chúng tôi sẽ đề cập đến nhiều chủ đề liên quan đến việc kết hợp và so sánh tài liệu. Bạn sẽ có được sự hiểu biết toàn diện về:
 
-- Gộp tài liệu: Tìm hiểu cách kết hợp liền mạch nhiều tài liệu thành một tệp thống nhất, duy trì tính toàn vẹn về định dạng và bố cục.
+- Gộp tài liệu: Tìm hiểu cách kết hợp nhiều tài liệu thành một tệp thống nhất, duy trì tính toàn vẹn về định dạng và bố cục.
 - So sánh tài liệu: Khám phá các kỹ thuật để xác định và làm nổi bật sự khác biệt giữa hai hoặc nhiều tài liệu, cho phép theo dõi sửa đổi hiệu quả.
-- Xử lý tài liệu phức tạp: Khám phá các tình huống nâng cao như hợp nhất các phần cụ thể, xử lý bảng và hình ảnh, cũng như quản lý chú thích và chú thích cuối trang.
+- Xử lý tài liệu phức tạp: Khám phá các tình huống nâng cao như hợp nhất các phần cụ thể, xử lý bảng và hình ảnh, cũng như quản lý chú thích cuối trang và chú thích cuối văn bản.
 - Tự động hóa và tùy chỉnh: Hiểu cách tự động hóa các tác vụ xử lý tài liệu và tùy chỉnh quy trình hợp nhất và so sánh để phù hợp với nhu cầu cụ thể của bạn.
 - Tích hợp Python và .NET: Tìm hiểu các ví dụ và đoạn mã cho cả môi trường Python và .NET, đáp ứng nhu cầu của các nhà phát triển có sở thích lập trình khác nhau.
 
@@ -46,9 +48,13 @@ Tạo mục lục thân thiện với người đọc bằng Aspose.Words for Py
 Bảo mật tài liệu của bạn bằng tính năng bảo vệ nâng cao bằng Aspose.Words for Python. Tìm hiểu cách thêm mật khẩu, mã hóa nội dung, áp dụng chữ ký số và nhiều tính năng khác.
 ### [Quản lý chữ ký số và xác thực](./manage-digital-signatures/)
 Tìm hiểu cách quản lý chữ ký số và đảm bảo tính xác thực của tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

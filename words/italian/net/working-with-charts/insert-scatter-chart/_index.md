@@ -1,52 +1,60 @@
 ---
-title: Crea un grafico di diffusione di parole utilizzando Aspose.Words per .NET
-weight: 7700
-limit: 
-description: Impara come creare un documento Word con un grafico di dispersione utilizzando Aspose.Words per .NET. Guida passo-passo con codice e istruzioni incluse.
-keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
-url: /it/net/working-with-charts/insert-scatter-chart/
+"description": "Scopri come creare un documento Word con un grafico a dispersione utilizzando Aspose.Words per .NET. Guida passo passo con codice e istruzioni incluse."
+"title": "Crea un grafico a dispersione di parole utilizzando Aspose.Words per .NET"
+"url": "/it/net/working-with-charts/insert-scatter-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea una tabella di diffusione delle parole utilizzando Aspose.Words
+# Crea un grafico a dispersione di parole usando Aspose.Words
 
-Aspose.Words per .NET semplifica la creazione e la manipolazione programmatica di documenti Word. Questo esempio dimostra come inserire un grafico di scatter in un documento Word. Iniziando un documento, utilizzando il `DocumentBuilder`Per la creazione di contenuti e l'inserimento di dati di grafico in modo programmatico, è possibile aggiungere in modo efficiente grafici di scatter di livello professionale ai documenti.  
+Aspose.Words per .NET semplifica la creazione e la manipolazione di documenti Word a livello di codice. Questo esempio mostra come inserire un grafico a dispersione in un documento Word. Inizializzando un documento, utilizzando `DocumentBuilder` Per la creazione di contenuti e l'inserimento di dati tramite codice, puoi aggiungere in modo efficiente grafici a dispersione di livello professionale ai tuoi documenti. Grazie alla sua API intuitiva, Aspose.Words semplifica l'automazione dei documenti per gli sviluppatori .NET, risparmiando tempo e fatica.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruzioni di installazione  
-Per eseguire questo esempio, seguite questi passaggi:  
+## Istruzioni per l'installazione  
+Per eseguire questo esempio, segui questi passaggi:  
 
 1. Scarica e installa Aspose.Words per .NET  
-   * Scarica la biblioteca dal sito ufficiale di Aspose: [Aspose.Words per i download .NET](https://releases.aspose.com/words/net/)\- Non è vero .  
-   * Installare tramite NuGet Package Manager:  
+   - Scarica la libreria dal sito ufficiale di Aspose: [Download di Aspose.Words per .NET](https://releases.aspose.com/words/net/).  
+   - Installa tramite NuGet Package Manager:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
 2. Imposta il tuo ambiente di sviluppo  
-   * Aprire la propria IDE .NET (ad esempio, Visual Studio).  
-   * Crea una nuova applicazione console o integra un progetto esistente.  
-   * Aggiungi un riferimento alla Aspose.Words per la libreria .NET.  
+   - Apri l'IDE .NET (ad esempio Visual Studio).  
+   - Crea una nuova applicazione console o integrala in un progetto esistente.  
+   - Aggiungere un riferimento alla libreria Aspose.Words per .NET.  
 
-3. Applicare per la licenza  
-   * Se avete una licenza, applicatela nel vostro progetto utilizzando:  
+3. Applica licenza  
+   - Se hai una licenza, applicala al tuo progetto utilizzando:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * In alternativa, prendi un [licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/)per testare la biblioteca.
+   - In alternativa, ottieni un [licenza temporanea gratuita](https://purchase.aspose.com/temporary-license/) per testare la libreria.
 
 ## Vedi anche
-[Aspose.Word per Documentazione .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word per i riferimenti .NET](https://reference.aspose.com/words/net/)
+[Documentazione di Aspose.Word per .NET](https://docs.aspose.com/words/net/)
+[Riferimenti ad Aspose.Word per .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

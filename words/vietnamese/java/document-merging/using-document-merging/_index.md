@@ -1,14 +1,16 @@
 ---
-title: Sử dụng tính năng hợp nhất tài liệu
-linktitle: Sử dụng tính năng hợp nhất tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách hợp nhất các tài liệu Word một cách liền mạch bằng Aspose.Words for Java. Kết hợp, định dạng và xử lý xung đột hiệu quả chỉ trong vài bước. Bắt đầu ngay!
-weight: 10
-url: /vi/java/document-merging/using-document-merging/
+"description": "Học cách hợp nhất các tài liệu Word một cách liền mạch bằng Aspose.Words for Java. Kết hợp, định dạng và xử lý xung đột hiệu quả chỉ trong vài bước. Bắt đầu ngay!"
+"linktitle": "Sử dụng tính năng hợp nhất tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng tính năng hợp nhất tài liệu"
+"url": "/vi/java/document-merging/using-document-merging/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng tính năng hợp nhất tài liệu
@@ -59,7 +61,7 @@ public class DocumentMerger {
 }
 ```
 
- Trong ví dụ trên, chúng tôi đã tải hai tài liệu bằng cách sử dụng`Document` lớp và sau đó sử dụng`appendDocument()`phương pháp hợp nhất nội dung của "document2.docx" vào "document1.docx" trong khi vẫn giữ nguyên định dạng của tài liệu nguồn.
+Trong ví dụ trên, chúng tôi đã tải hai tài liệu bằng cách sử dụng `Document` lớp và sau đó sử dụng `appendDocument()` phương pháp hợp nhất nội dung của "document2.docx" vào "document1.docx" trong khi vẫn giữ nguyên định dạng của tài liệu nguồn.
 
 ## 4. Xử lý định dạng tài liệu
 
@@ -78,7 +80,7 @@ Chọn chế độ định dạng nhập phù hợp dựa trên yêu cầu hợp
 
 ## 5. Hợp nhất nhiều tài liệu
 
- Để hợp nhất nhiều hơn hai tài liệu, hãy làm theo cách tiếp cận tương tự như trên và sử dụng`appendDocument()` phương pháp nhiều lần:
+Để hợp nhất nhiều hơn hai tài liệu, hãy làm theo cách tiếp cận tương tự như trên và sử dụng `appendDocument()` phương pháp nhiều lần:
 
 ```java
 import com.aspose.words.*;
@@ -120,7 +122,7 @@ Chọn phương pháp phù hợp dựa trên yêu cầu cụ thể của bạn.
 
 ## 7. Hợp nhất các phần tài liệu cụ thể
 
- Trong một số trường hợp, bạn có thể chỉ muốn hợp nhất các phần cụ thể của tài liệu. Ví dụ, chỉ hợp nhất nội dung chính, không bao gồm tiêu đề và chân trang. Aspose.Words cho phép bạn đạt được mức độ chi tiết này bằng cách sử dụng`Range` lớp học:
+Trong một số trường hợp, bạn có thể chỉ muốn hợp nhất các phần cụ thể của tài liệu. Ví dụ, chỉ hợp nhất nội dung chính, không bao gồm tiêu đề và chân trang. Aspose.Words cho phép bạn đạt được mức độ chi tiết này bằng cách sử dụng `Range` lớp học:
 
 ```java
 import com.aspose.words.*;
@@ -171,7 +173,7 @@ public class DocumentMerger {
 }
 ```
 
- Bằng cách sử dụng`ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words giữ nguyên các kiểu khác nhau giữa tài liệu nguồn và tài liệu đích, giải quyết xung đột một cách khéo léo.
+Bằng cách sử dụng `ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words giữ nguyên các kiểu khác nhau giữa tài liệu nguồn và tài liệu đích, giải quyết xung đột một cách khéo léo.
 
 ## Phần kết luận
 
@@ -197,13 +199,13 @@ Có, Aspose.Words cho phép bạn chọn lọc hợp nhất các phần cụ th�
 
 ### Tôi có thể hợp nhất các tài liệu có theo dõi thay đổi và bình luận không?
 
-Chắc chắn rồi, Aspose.Words for Java có thể xử lý việc hợp nhất các tài liệu có các thay đổi và bình luận được theo dõi. Bạn có tùy chọn giữ nguyên hoặc xóa các bản sửa đổi này trong quá trình hợp nhất.
+Chắc chắn rồi, Aspose.Words for Java có thể xử lý việc hợp nhất các tài liệu có theo dõi các thay đổi và bình luận. Bạn có tùy chọn giữ nguyên hoặc xóa các bản sửa đổi này trong quá trình hợp nhất.
 
 ### Aspose.Words có giữ nguyên định dạng gốc của các tài liệu đã hợp nhất không?
 
 Aspose.Words giữ nguyên định dạng của tài liệu nguồn theo mặc định. Tuy nhiên, bạn có thể chọn các chế độ định dạng nhập khác nhau để xử lý xung đột và duy trì tính nhất quán về định dạng.
 
-### Tôi có thể ghép tài liệu từ các định dạng tệp không phải Word như PDF hoặc RTF không?
+### Tôi có thể ghép các tài liệu từ các định dạng tệp không phải Word như PDF hoặc RTF không?
 
 Aspose.Words chủ yếu được thiết kế để làm việc với các tài liệu Word. Để hợp nhất các tài liệu từ các định dạng tệp không phải Word, hãy cân nhắc sử dụng sản phẩm Aspose phù hợp cho định dạng cụ thể đó, chẳng hạn như Aspose.PDF hoặc Aspose.RTF.
 
@@ -218,9 +220,14 @@ Có, Aspose.Words for Java tương thích với Java 8 và các phiên bản m�
 ### Aspose.Words có hỗ trợ việc ghép tài liệu từ các nguồn từ xa như URL không?
 
 Có, Aspose.Words for Java có thể tải tài liệu từ nhiều nguồn khác nhau, bao gồm URL, luồng và đường dẫn tệp. Bạn có thể hợp nhất tài liệu được lấy từ các vị trí từ xa một cách liền mạch.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

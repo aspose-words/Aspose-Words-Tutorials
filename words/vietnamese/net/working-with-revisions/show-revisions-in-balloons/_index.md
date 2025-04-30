@@ -1,14 +1,16 @@
 ---
-title: Hiển thị bản sửa đổi trong Balloons
-linktitle: Hiển thị bản sửa đổi trong Balloons
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hiển thị bản sửa đổi trong bong bóng bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này sẽ hướng dẫn bạn từng bước, đảm bảo các thay đổi trong tài liệu của bạn rõ ràng và có tổ chức.
-weight: 10
-url: /vi/net/working-with-revisions/show-revisions-in-balloons/
+"description": "Tìm hiểu cách hiển thị bản sửa đổi trong bong bóng bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này sẽ hướng dẫn bạn từng bước, đảm bảo các thay đổi trong tài liệu của bạn rõ ràng và có tổ chức."
+"linktitle": "Hiển thị bản sửa đổi trong Balloons"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Hiển thị bản sửa đổi trong Balloons"
+"url": "/vi/net/working-with-revisions/show-revisions-in-balloons/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị bản sửa đổi trong Balloons
@@ -21,8 +23,8 @@ Theo dõi các thay đổi trong tài liệu Word là rất quan trọng đối 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho thư viện .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
--  Giấy phép Aspose hợp lệ. Nếu bạn không có, bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words cho thư viện .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
+- Giấy phép Aspose hợp lệ. Nếu bạn không có, bạn có thể lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 - Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ phát triển .NET.
 - Hiểu biết cơ bản về C# và .NET framework.
 
@@ -88,16 +90,21 @@ Có, Aspose.Words cho phép bạn tùy chỉnh màu sắc của thanh sửa đ�
 Hoàn toàn có thể. Bạn có thể cấu hình Aspose.Words để chỉ hiển thị một số loại bản sửa đổi nhất định, chẳng hạn như xóa hoặc thay đổi định dạng, trong bong bóng.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words?
-Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ lập trình khác không?
-Aspose.Words chủ yếu được thiết kế cho .NET, nhưng bạn có thể sử dụng nó với bất kỳ ngôn ngữ nào được .NET hỗ trợ, bao gồm VB.NET và C++/CLI.
+Aspose.Words chủ yếu được thiết kế cho .NET, nhưng bạn có thể sử dụng nó với bất kỳ ngôn ngữ nào hỗ trợ .NET, bao gồm VB.NET và C++/CLI.
 
 ### Aspose.Words có hỗ trợ các định dạng tài liệu khác ngoài Word không?
 Có, Aspose.Words hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm PDF, HTML, EPUB, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

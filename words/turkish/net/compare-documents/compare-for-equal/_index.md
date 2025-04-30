@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Eşitlik İçin Karşılaştır
-linktitle: Word Belgesinde Eşitlik İçin Karşılaştır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak iki Word belgesini eşitlik açısından nasıl karşılaştıracağınızı öğrenin. Belgelerinizin aynı olduğundan emin olmak için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/compare-documents/compare-for-equal/
+"description": "Aspose.Words for .NET kullanarak iki Word belgesini eşitlik açısından nasıl karşılaştıracağınızı öğrenin. Belgelerinizin aynı olduğundan emin olmak için bu adım adım kılavuzu izleyin."
+"linktitle": "Word Belgesinde Eşitlik İçin Karşılaştır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Eşitlik İçin Karşılaştır"
+"url": "/tr/net/compare-documents/compare-for-equal/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Eşitlik İçin Karşılaştır
@@ -21,7 +23,7 @@ Word belgeleriyle çalışırken, iki belgenin aynı olduğundan emin olmak öne
 
 Adım adım kılavuza dalmadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yüklü değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yüklü değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio şiddetle tavsiye edilir.
 3. Örnek Belgeler: Karşılaştırmak istediğiniz iki Word belgesini hazır bulundurun.
 
@@ -44,7 +46,7 @@ Install-Package Aspose.Words
 
 ## Adım 2: Belgelerinizi Yükleyin
 
- Sonra, karşılaştırmak istediğiniz Word belgelerini yüklemeniz gerekecek. Bu örnek için, iki belgenizin olduğunu varsayacağız`Document.docx` Ve`Document2.docx` Belgeler dizininizde bulunur.
+Sonra, karşılaştırmak istediğiniz Word belgelerini yüklemeniz gerekecek. Bu örnek için, iki belgenizin olduğunu varsayacağız `Document.docx` Ve `Document2.docx` Belgeler dizininizde bulunur.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -55,7 +57,7 @@ Document docB = new Document(dataDir + "Document2.docx");
 
 ## Adım 3: Belgelerden Birini Klonlayın
 
- Belgeleri karşılaştırmak için bunlardan birini klonlayacaksınız. Bu gereklidir çünkü`Compare`yöntem belgeyi değiştirir ve diğer amaçlar için orijinal belgeyi olduğu gibi tutmak isteyebilirsiniz.
+Belgeleri karşılaştırmak için bunlardan birini klonlayacaksınız. Bu gereklidir çünkü `Compare` yöntem belgeyi değiştirir ve diğer amaçlar için orijinal belgeyi olduğu gibi tutmak isteyebilirsiniz.
 
 ```csharp
 Document docBClone = docB.Clone();
@@ -63,7 +65,7 @@ Document docBClone = docB.Clone();
 
 ## Adım 4: Karşılaştırmayı Gerçekleştirin
 
- Artık belgeleri karşılaştırmaya hazırsınız.`Compare` yöntem iki belge arasındaki farkları vurgulayacaktır. Karşılaştırmayı gerçekleştiren kullanıcıyı ve karşılaştırmanın tarihini belirtebilirsiniz.
+Artık belgeleri karşılaştırmaya hazırsınız. `Compare` yöntem iki belge arasındaki farkları vurgulayacaktır. Karşılaştırmayı gerçekleştiren kullanıcıyı ve karşılaştırmanın tarihini belirtebilirsiniz.
 
 ```csharp
 docA.Compare(docBClone, "user", DateTime.Now);
@@ -71,7 +73,7 @@ docA.Compare(docBClone, "user", DateTime.Now);
 
 ## Adım 5: Revizyonları Kontrol Edin
 
- Belgeleri karşılaştırdıktan sonra kontrol edebilirsiniz.`Revisions` Herhangi bir fark olup olmadığını görmek için koleksiyona bakın. Koleksiyon boşsa, belgeler aynıdır.
+Belgeleri karşılaştırdıktan sonra kontrol edebilirsiniz. `Revisions` Herhangi bir fark olup olmadığını görmek için koleksiyona bakın. Koleksiyon boşsa, belgeler aynıdır.
 
 ```csharp
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
@@ -93,14 +95,19 @@ Aspose.Words for .NET, karşılaştırma sürecinde izlenen değişiklikleri de 
 Evet, belirli değişiklik türlerini göz ardı etmek için karşılaştırma seçeneklerini özelleştirebilirsiniz.
 
 ### Karşılaştırılan belgeyi revizyonları vurgulanmış şekilde nasıl kaydedebilirim?
- Belgeyi kullanarak kaydedebilirsiniz`Save` yöntemi ve revizyonlar çıktı dosyasında vurgulanacaktır.
+Belgeyi kullanarak kaydedebilirsiniz `Save` yöntemi ve revizyonlar çıktı dosyasında vurgulanacaktır.
 
 ### Aspose.Words for .NET İngilizce dışındaki dillerde karşılaştırmayı destekliyor mu?
 Evet, Aspose.Words for .NET birden fazla dilde belge karşılaştırmasını destekler.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

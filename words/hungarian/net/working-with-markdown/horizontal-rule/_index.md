@@ -1,85 +1,92 @@
 ---
-title: Vízszintes szabály
-linktitle: Vízszintes szabály
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan adhat hozzá vízszintes szabályokat Word-dokumentumokhoz az Aspose.Words for .NET használatával. Kövesse ezt a részletes, lépésenkénti útmutatót a dokumentum elrendezésének javításához.
-weight: 10
-url: /hu/net/working-with-markdown/horizontal-rule/
+"description": "Tanuld meg, hogyan adhatsz hozzá vízszintes vonalakat Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesd ezt a részletes, lépésről lépésre szóló útmutatót a dokumentumod elrendezésének javításához."
+"linktitle": "Vízszintes vonal"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Vízszintes vonal"
+"url": "/hu/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vízszintes szabály
+# Vízszintes vonal
 
 ## Bevezetés
 
-Szeretett volna valaha egy kis professzionalizmust adni Word-dokumentumainak? A vízszintes szabályok, más néven vízszintes vonalak nagyszerű módot kínálnak a szakaszok felosztására, és a tartalom tiszta és rendezett megjelenését biztosítják. Ebben az oktatóanyagban azt mutatjuk be, hogyan illeszthet be egyszerűen vízszintes szabályokat Word-dokumentumaiba az Aspose.Words for .NET segítségével. Készen áll arra, hogy dokumentumai kiemelkedjenek? Kezdjük is!
+Szerettél volna egy csipetnyi professzionalizmust vinni a Word-dokumentumaidba? A vízszintes vonalak, más néven vízszintes vonalak, nagyszerű módja annak, hogy szakaszokat alkoss a részek között, és a tartalom tisztábbnak és rendezettebbnek tűnjön. Ebben az oktatóanyagban bemutatjuk, hogyan szúrhatsz be egyszerűen vízszintes vonalakat a Word-dokumentumaidba az Aspose.Words for .NET segítségével. Készen állsz arra, hogy dokumentumaid kitűnjenek? Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a lépésenkénti útmutatóba, győződjünk meg arról, hogy mindenre szüksége van.
+Mielőtt belevágnánk a lépésről lépésre szóló útmutatóba, győződjünk meg arról, hogy minden szükséges eszköz a rendelkezésünkre áll.
 
--  Aspose.Words for .NET: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Ha még nem tette meg, letöltheti a webhelyről[Aspose honlapja](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: A gépen be kell állítania egy .NET fejlesztői környezetet. A Visual Studio nagyszerű választás.
-- Alapvető C# ismerete: Ez az oktatóanyag feltételezi, hogy rendelkezik a C# és a .NET alapvető ismereteivel.
+- Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words .NET-hez. Ha még nem tette meg, letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Szükséged lesz egy .NET fejlesztői környezetre a gépeden. A Visual Studio remek választás.
+- C# alapismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezel C# és .NET alapismeretekkel.
 
 ## Névterek importálása
 
-A kezdéshez győződjön meg arról, hogy a szükséges névtereket importálta a C# projektben:
+Első lépésként ellenőrizd, hogy importáltad-e a szükséges névtereket a C# projektedbe:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Most bontsuk le a vízszintes szabály hozzáadásának folyamatát egyszerű, könnyen követhető lépésekre.
+Most bontsuk le a vízszintes vonal hozzáadásának folyamatát egyszerű, könnyen követhető lépésekre.
 
-## 1. lépés: Inicializálja a dokumentumot
+## 1. lépés: A dokumentum inicializálása
 
-Először is inicializálnia kell egy új dokumentumot és egy dokumentumkészítőt. A dokumentumkészítő itt a kulcsszereplő, mivel lehetővé teszi tartalom hozzáadását a dokumentumhoz.
+Először is inicializálnod kell egy új dokumentumot és egy dokumentumszerkesztőt. A dokumentumszerkesztő a kulcsszereplő, mivel lehetővé teszi tartalom hozzáadását a dokumentumhoz.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-Ez létrehoz egy új dokumentumot, amelyhez hozzáadjuk a vízszintes szabályunkat.
+Ez létrehoz egy új dokumentumot, ahová hozzáadjuk a vízszintes vonalunkat.
 
-## 2. lépés: Illessze be a vízszintes szabályt
+## 2. lépés: Helyezze be a vízszintes vonalzót
 
-Most jön a szórakoztató rész – a vízszintes szabály beillesztése. A dokumentumkészítővel ez olyan egyszerű, mint a torta.
+Most jön a mókás rész – a vízszintes vonalzó beillesztése. A dokumentumszerkesztővel ez gyerekjáték.
 
 ```csharp
-// Szúrjon be egy vízszintes szabályt
+// Vízszintes vonal beszúrása
 builder.InsertHorizontalRule();
 ```
 
-És ennyi! Ön most hozzáadott egy vízszintes szabályt a dokumentumához.
+És ennyi! Hozzáadtál egy vízszintes vonalat a dokumentumodhoz.
 
 ## Következtetés
 
-Vízszintes szabály hozzáadása a Word-dokumentumokhoz az Aspose.Words for .NET használatával hihetetlenül egyszerű. Mindössze néhány sornyi kóddal javíthatja dokumentumai megjelenését, professzionálisabbá és könnyebben olvashatóvá téve azokat. Ezért ha legközelebb egy kis hangulatot szeretne adni dokumentumainak, ne feledje ezt az egyszerű, de hatékony trükköt.
+Vízszintes vonal hozzáadása a Word-dokumentumokhoz az Aspose.Words for .NET segítségével hihetetlenül egyszerű. Mindössze néhány sornyi kóddal javíthatod a dokumentumok megjelenését, professzionálisabbá és könnyebben olvashatóvá téve azokat. Tehát legközelebb, amikor egy kis csillogást szeretnél adni a dokumentumaidnak, ne feledkezz meg erről az egyszerű, mégis hatékony trükkről.
 
 ## GYIK
 
-### Mi az a vízszintes szabály?
-A vízszintes szabály egy oldal vagy szakasz szélességét átívelő vonal, amelyet a tartalom elkülönítésére használnak a jobb olvashatóság és rendszerezés érdekében.
+### Mi az a horizontális szabály?
+A vízszintes vonal egy olyan vonal, amely egy oldal vagy szakasz szélességét átfogja, és a tartalom elválasztására szolgál a jobb olvashatóság és rendszerezés érdekében.
 
-### Testreszabhatom a vízszintes szabály megjelenését?
-Igen, az Aspose.Words lehetővé teszi a vízszintes szabály stílusának, szélességének, magasságának és igazításának testreszabását.
+### Testreszabhatom a vízszintes vonal megjelenését?
+Igen, az Aspose.Words lehetővé teszi a vízszintes vonal stílusának, szélességének, magasságának és igazításának testreszabását.
 
 ### Szükségem van valamilyen speciális eszközre az Aspose.Words for .NET használatához?
-Szüksége van egy .NET fejlesztői környezetre, például a Visual Studiora és az Aspose.Words for .NET-re.
+Szükséged lesz egy .NET fejlesztői környezetre, például a Visual Studio-ra és az Aspose.Words for .NET egy példányára.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET fizetős termék, de beszerezheti a[ingyenes próbaverzió](https://releases.aspose.com/) vagy a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET fizetős termék, de beszerezhet egyet [ingyenes próba](https://releases.aspose.com/) vagy egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
 ### Hol kaphatok támogatást az Aspose.Words for .NET-hez?
- Támogatást kaphat a[Aspose.Words támogatási fórum](https://forum.aspose.com/c/words/8).
+Támogatást kaphatsz a [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

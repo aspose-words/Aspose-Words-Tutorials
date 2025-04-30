@@ -1,14 +1,16 @@
 ---
-title: फ़ील्ड बिल्डर का उपयोग करके फ़ील्ड सम्मिलित करें
-linktitle: फ़ील्ड बिल्डर का उपयोग करके फ़ील्ड सम्मिलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में डायनामिक फ़ील्ड सम्मिलित करना सीखें। डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/working-with-fields/insert-field-using-field-builder/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में डायनामिक फ़ील्ड सम्मिलित करना सीखें। डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "फ़ील्ड बिल्डर का उपयोग करके फ़ील्ड सम्मिलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ील्ड बिल्डर का उपयोग करके फ़ील्ड सम्मिलित करें"
+"url": "/hi/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ील्ड बिल्डर का उपयोग करके फ़ील्ड सम्मिलित करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/insert-field-using-field-builder/
 
 इससे पहले कि हम इसकी बारीकियों में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1. Aspose.Words for .NET: आपको Aspose.Words for .NET इंस्टॉल करना होगा। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे ले सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपको Aspose.Words for .NET इंस्टॉल करना होगा। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे ले सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा उपयुक्त विकास वातावरण।
 3. C# का बुनियादी ज्ञान: यदि आप C# और .NET की मूल बातों से परिचित हैं तो यह आपके लिए उपयोगी होगा।
 
@@ -46,7 +48,7 @@ Install-Package Aspose.Words
 
 ## चरण 2: नया दस्तावेज़ बनाएँ
 
-आइए एक नया वर्ड डॉक्यूमेंट बनाकर शुरू करें। यह डॉक्यूमेंट फ़ील्ड्स डालने के लिए हमारे कैनवास के रूप में काम करेगा।
+आइए एक नया वर्ड डॉक्यूमेंट बनाकर शुरुआत करें। यह डॉक्यूमेंट फ़ील्ड्स डालने के लिए हमारे कैनवास के रूप में काम करेगा।
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -61,7 +63,7 @@ Document doc = new Document();
 फ़ील्डबिल्डर यहाँ मुख्य भूमिका निभाता है। यह हमें गतिशील रूप से फ़ील्ड बनाने की अनुमति देता है।
 
 ```csharp
-//फील्डबिल्डर का उपयोग करके IF फील्ड का निर्माण।
+// फील्डबिल्डर का उपयोग करके IF फील्ड का निर्माण।
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -113,19 +115,24 @@ doc.Save(dataDir + "InsertFieldWithFieldBuilder.docx");
 .NET के लिए Aspose.Words एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को C# का उपयोग करके प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, हेरफेर करने और परिवर्तित करने में सक्षम बनाती है।
 
 ### क्या मैं Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
- Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) . दीर्घकालिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/). दीर्घकालिक उपयोग के लिए, आपको लाइसेंस खरीदना होगा [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं FieldBuilder का उपयोग करके किस प्रकार के फ़ील्ड सम्मिलित कर सकता हूँ?
- FieldBuilder कई तरह के फ़ील्ड का समर्थन करता है, जिसमें IF, MERGEFIELD, और बहुत कुछ शामिल है। आप विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+FieldBuilder कई तरह के फ़ील्ड का समर्थन करता है, जिसमें IF, MERGEFIELD, और बहुत कुछ शामिल है। आप विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं किसी फ़ील्ड को सम्मिलित करने के बाद उसे कैसे अपडेट करूँ?
- आप किसी फ़ील्ड को अपडेट करने के लिए निम्न का उपयोग कर सकते हैं:`Update` विधि, जैसा कि ट्यूटोरियल में दिखाया गया है।
+आप किसी फ़ील्ड को अपडेट करने के लिए निम्न का उपयोग कर सकते हैं: `Update` विधि, जैसा कि ट्यूटोरियल में दिखाया गया है।
 
 ### मुझे Aspose.Words के लिए समर्थन कहां मिल सकता है?
- किसी भी प्रश्न या सहायता के लिए, Aspose.Words सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/words/8).
+किसी भी प्रश्न या सहायता के लिए, Aspose.Words सहायता फ़ोरम पर जाएँ [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tạo hình thu nhỏ của tài liệu
-linktitle: Tạo hình thu nhỏ của tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tạo hình thu nhỏ tài liệu bằng Aspose.Words cho Java. Nâng cao trải nghiệm người dùng với bản xem trước trực quan.
-weight: 11
-url: /vi/java/document-rendering/document-thumbnail-generation/
+"description": "Tìm hiểu cách tạo hình thu nhỏ tài liệu bằng Aspose.Words cho Java. Nâng cao trải nghiệm người dùng với bản xem trước trực quan."
+"linktitle": "Tạo hình thu nhỏ của tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tạo hình thu nhỏ của tài liệu"
+"url": "/vi/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo hình thu nhỏ của tài liệu
@@ -23,7 +25,7 @@ Tạo hình thu nhỏ tài liệu liên quan đến việc tạo ra một hình 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ trang web[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho Java: Tải xuống và cài đặt Aspose.Words cho Java từ trang web [đây](https://releases.aspose.com/words/java/).
 - Môi trường phát triển tích hợp (IDE): Bạn có thể sử dụng bất kỳ IDE Java nào bạn chọn, chẳng hạn như Eclipse hoặc IntelliJ IDEA.
 
 ## Bước 1: Thiết lập môi trường phát triển của bạn
@@ -72,7 +74,7 @@ Tạo hình thu nhỏ tài liệu bằng Aspose.Words for Java cung cấp một 
 
 ### Làm thế nào để cài đặt Aspose.Words cho Java?
 
-Để cài đặt Aspose.Words cho Java, hãy truy cập trang tải xuống[đây](https://releases.aspose.com/words/java/)và làm theo hướng dẫn cài đặt được cung cấp.
+Để cài đặt Aspose.Words cho Java, hãy truy cập trang tải xuống [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể tùy chỉnh kích thước của hình thu nhỏ được tạo ra không?
 
@@ -88,10 +90,15 @@ Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng 
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện và tham chiếu API trên trang tài liệu Aspose.Words for Java[đây](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu toàn diện và tham chiếu API trên trang tài liệu Aspose.Words for Java [đây](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

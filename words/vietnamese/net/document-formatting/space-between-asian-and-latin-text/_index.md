@@ -1,14 +1,16 @@
 ---
-title: Khoảng cách giữa văn bản Châu Á và La Tinh trong tài liệu Word
-linktitle: Khoảng cách giữa văn bản Châu Á và La Tinh trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tự động điều chỉnh khoảng cách giữa văn bản châu Á và tiếng La-tinh trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi.
-weight: 10
-url: /vi/net/document-formatting/space-between-asian-and-latin-text/
+"description": "Tìm hiểu cách tự động điều chỉnh khoảng cách giữa văn bản châu Á và tiếng La-tinh trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi."
+"linktitle": "Khoảng cách giữa văn bản Châu Á và La Tinh trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Khoảng cách giữa văn bản Châu Á và La Tinh trong tài liệu Word"
+"url": "/vi/net/document-formatting/space-between-asian-and-latin-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Khoảng cách giữa văn bản Châu Á và La Tinh trong tài liệu Word
@@ -21,10 +23,10 @@ Xin chào! Bạn đã bao giờ có khoảnh khắc bực bội khi đang làm v
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bất kỳ môi trường nào tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Bạn không cần phải là một phù thủy, nhưng một chút quen thuộc sẽ giúp ích rất nhiều.
-4.  Giấy phép hợp lệ: Nhận bản dùng thử miễn phí[đây](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+4. Giấy phép hợp lệ: Nhận bản dùng thử miễn phí [đây](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 Được rồi, bạn đã hiểu hết chưa? Tuyệt! Hãy cùng bắt tay vào làm thôi.
 
@@ -61,7 +63,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 ```
 
- Bằng cách thiết lập`AddSpaceBetweenFarEastAndAlpha` Và`AddSpaceBetweenFarEastAndDigit` ĐẾN`true`, chúng tôi yêu cầu Aspose.Words tự động điều chỉnh khoảng cách giữa các ký tự châu Á và chữ cái hoặc chữ số La-tinh.
+Bằng cách thiết lập `AddSpaceBetweenFarEastAndAlpha` Và `AddSpaceBetweenFarEastAndDigit` ĐẾN `true`, chúng tôi yêu cầu Aspose.Words tự động điều chỉnh khoảng cách giữa các ký tự châu Á và chữ cái hoặc chữ số La-tinh.
 
 ## Bước 3: Thêm văn bản vào tài liệu
 
@@ -96,22 +98,27 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 
 ### Làm thế nào tôi có thể tải Aspose.Words cho .NET?
 
- Bạn có thể tải xuống Aspose.Words cho .NET từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/). Họ cũng cung cấp bản dùng thử miễn phí.
+Bạn có thể tải xuống Aspose.Words cho .NET từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/). Họ cũng cung cấp bản dùng thử miễn phí.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) hoặc mua một cái[đây](https://purchase.aspose.com/buy).
+Có, Aspose.Words cho .NET yêu cầu phải có giấy phép. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) hoặc mua một cái [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể điều chỉnh các thiết lập định dạng khác bằng Aspose.Words cho .NET không?
 
- Chắc chắn rồi! Aspose.Words for .NET cung cấp nhiều tùy chọn định dạng cho đoạn văn, phông chữ, bảng và nhiều hơn nữa. Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Chắc chắn rồi! Aspose.Words for .NET cung cấp nhiều tùy chọn định dạng cho đoạn văn, phông chữ, bảng và nhiều hơn nữa. Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
 
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên[diễn đàn](https://forum.aspose.com/c/words/8). Họ có một cộng đồng hữu ích và đội ngũ hỗ trợ tận tâm để hỗ trợ bạn.
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose trên [diễn đàn](https://forum.aspose.com/c/words/8). Họ có một cộng đồng hữu ích và đội ngũ hỗ trợ tận tâm để hỗ trợ bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

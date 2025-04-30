@@ -1,14 +1,16 @@
 ---
-title: Dodaj niestandardowe właściwości dokumentu
-linktitle: Dodaj niestandardowe właściwości dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać niestandardowe właściwości dokumentu w plikach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wzbogacić swoje dokumenty o dodatkowe metadane.
-weight: 10
-url: /pl/net/programming-with-document-properties/add-custom-document-properties/
+"description": "Dowiedz się, jak dodawać niestandardowe właściwości dokumentu w plikach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wzbogacić swoje dokumenty o dodatkowe metadane."
+"linktitle": "Dodaj niestandardowe właściwości dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj niestandardowe właściwości dokumentu"
+"url": "/pl/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj niestandardowe właściwości dokumentu
@@ -21,10 +23,10 @@ Cześć! Czy zanurzasz się w świat Aspose.Words dla .NET i zastanawiasz się, 
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: IDE, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę o języku C# i .NET.
-4.  Przykładowy dokument: Przygotuj przykładowy dokument Word o nazwie`Properties.docx`, który zmodyfikujesz.
+4. Przykładowy dokument: Przygotuj przykładowy dokument Word o nazwie `Properties.docx`, który zmodyfikujesz.
 
 ## Importuj przestrzenie nazw
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## Krok 1: Konfigurowanie ścieżki dokumentu
 
- Po pierwsze, musimy ustawić ścieżkę do naszego dokumentu. Tutaj określimy lokalizację naszego`Properties.docx` plik.
+Po pierwsze, musimy ustawić ścieżkę do naszego dokumentu. Tutaj określimy lokalizację naszego `Properties.docx` plik.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- W tym fragmencie kodu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego dokumentu. Ten krok jest kluczowy, ponieważ pozwala programowi zlokalizować i otworzyć Twój plik Word.
+W tym fragmencie kodu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego dokumentu. Ten krok jest kluczowy, ponieważ pozwala programowi zlokalizować i otworzyć Twój plik Word.
 
 ## Krok 2: Dostęp do niestandardowych właściwości dokumentu
 
@@ -55,11 +57,11 @@ Następnie uzyskajmy dostęp do niestandardowych właściwości dokumentu Word. 
 CustomDocumentProperties customDocumentProperties = doc.CustomDocumentProperties;
 ```
 
-W ten sposób uzyskujemy kontrolę nad zbiorem właściwości niestandardowych, z którymi będziemy pracować w kolejnych krokach.
+W ten sposób uzyskujemy kontrolę nad kolekcją niestandardowych właściwości, z którą będziemy pracować w kolejnych krokach.
 
 ## Krok 3: Sprawdzanie istniejących nieruchomości
 
-Przed dodaniem nowych właściwości, warto sprawdzić, czy konkretna właściwość już istnieje. To pozwoli uniknąć niepotrzebnego duplikowania.
+Przed dodaniem nowych właściwości, warto sprawdzić, czy dana właściwość już istnieje. To pozwoli uniknąć niepotrzebnego duplikowania.
 
 ```csharp
 if (customDocumentProperties["Authorized"] != null) return;
@@ -75,7 +77,7 @@ Teraz dodajmy pierwszą niestandardową właściwość — wartość logiczną w
 customDocumentProperties.Add("Authorized", true);
 ```
 
- Ten wiersz dodaje niestandardową właściwość o nazwie „Authorized” o wartości`true`Proste i przejrzyste!
+Ten wiersz dodaje niestandardową właściwość o nazwie „Authorized” o wartości `true`Proste i przejrzyste!
 
 ## Krok 5: Dodawanie właściwości ciągu
 
@@ -95,7 +97,7 @@ Dodajmy właściwość do przechowywania daty autoryzacji. Pomaga to śledzić, 
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- Ten fragment kodu dodaje właściwość o nazwie „Data autoryzacji” z bieżącą datą jako wartością.`DateTime.Today`Właściwość automatycznie pobiera dzisiejszą datę.
+Ten fragment kodu dodaje właściwość o nazwie „Data autoryzacji” z bieżącą datą jako wartością. `DateTime.Today` Właściwość automatycznie pobiera dzisiejszą datę.
 
 ## Krok 7: Dodawanie numeru rewizji
 
@@ -115,7 +117,7 @@ Na koniec dodajmy właściwość numeryczną, aby przechowywać autoryzowaną kw
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- Ten wiersz dodaje właściwość o nazwie „Kwota autoryzowana” o wartości`123.45`. Ponownie, możesz zastąpić to dowolną liczbą, która odpowiada Twoim potrzebom.
+Ten wiersz dodaje właściwość o nazwie „Kwota autoryzowana” o wartości `123.45`. Ponownie, możesz zastąpić to dowolną liczbą, która odpowiada Twoim potrzebom.
 
 ## Wniosek
 
@@ -132,7 +134,7 @@ Niestandardowe właściwości dokumentu to metadane, które można dodawać do d
 Tak, możesz dodawać różne typy właściwości, w tym wartości logiczne, daty i nawet obiekty niestandardowe.
 
 ### Jak mogę uzyskać dostęp do tych właściwości w dokumencie Word?
-Do właściwości niestandardowych można uzyskać dostęp programowo, używając pakietu Aspose.Words, lub przeglądać je bezpośrednio w programie Word, poprzez właściwości dokumentu.
+Do właściwości niestandardowych można uzyskać dostęp programowo, używając Aspose.Words, lub przeglądać je bezpośrednio w programie Word, poprzez właściwości dokumentu.
 
 ### Czy można edytować lub usuwać właściwości niestandardowe?
 Tak, możesz łatwo edytować lub usuwać niestandardowe właściwości, korzystając z podobnych metod udostępnianych przez Aspose.Words.
@@ -140,9 +142,14 @@ Tak, możesz łatwo edytować lub usuwać niestandardowe właściwości, korzyst
 ### Czy właściwości niestandardowe można stosować do filtrowania dokumentów?
 Oczywiście! Właściwości niestandardowe są doskonałe do kategoryzowania i filtrowania dokumentów na podstawie określonych metadanych.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การใช้ OLE Objects และ ActiveX Controls ใน Aspose.Words สำหรับ Java
-linktitle: การใช้ OLE Objects และ ActiveX Controls
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การใช้ OLE objects และ ActiveX controls ใน Aspose.Words สำหรับ Java สร้างเอกสารแบบโต้ตอบได้อย่างง่ายดาย เริ่มต้นเลยตอนนี้!
-weight: 21
-url: /th/java/using-document-elements/using-ole-objects-and-activex/
+"description": "เรียนรู้การใช้ OLE objects และ ActiveX controls ใน Aspose.Words สำหรับ Java สร้างเอกสารแบบโต้ตอบได้อย่างง่ายดาย เริ่มต้นเลยตอนนี้!"
+"linktitle": "การใช้ OLE Objects และ ActiveX Controls"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ OLE Objects และ ActiveX Controls ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ OLE Objects และ ActiveX Controls ใน Aspose.Words สำหรับ Java
@@ -19,7 +21,7 @@ url: /th/java/using-document-elements/using-ole-objects-and-activex/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  Aspose.Words สำหรับ Java: ตรวจสอบว่าคุณได้ติดตั้งไลบรารี Aspose.Words ไว้ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+1. Aspose.Words สำหรับ Java: ตรวจสอบว่าคุณได้ติดตั้งไลบรารี Aspose.Words ไว้ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 2. สภาพแวดล้อมการพัฒนา Java: คุณควรมีการตั้งค่าสภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้บนระบบของคุณ
 
@@ -135,13 +137,18 @@ public void readActiveXControlProperties() throws Exception
    - ใช่ Aspose.Words สำหรับ Java เป็นไลบรารีอันทรงพลังสำหรับการสร้างและจัดการเอกสารแบบอัตโนมัติในแอปพลิเคชัน Java
 
 ### ฉันสามารถเข้าถึง Aspose.Words สำหรับ Java ได้จากที่ใด 
-   -  คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+   - คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 เริ่มต้นใช้งาน Aspose.Words สำหรับ Java วันนี้และปลดล็อกศักยภาพเต็มรูปแบบของการทำงานอัตโนมัติและการปรับแต่งเอกสาร!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Удалить комментарии в PDF-файле
-linktitle: Удалить комментарии в PDF-файле
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как удалить комментарии из PDF-файла с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/working-with-revisions/remove-comments-in-pdf/
+"description": "Узнайте, как удалить комментарии из PDF-файла с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Удалить комментарии в PDF-файле"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Удалить комментарии в PDF-файле"
+"url": "/ru/net/working-with-revisions/remove-comments-in-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить комментарии в PDF-файле
@@ -21,7 +23,7 @@ url: /ru/net/working-with-revisions/remove-comments-in-pdf/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: любая совместимая с .NET среда разработки, например Visual Studio.
 3. Базовые знания C#: Будет полезно, если вы знакомы с основами программирования на C#.
 4. Документ с комментариями: для тестирования нам понадобится документ Word (.docx) с комментариями.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- В этом фрагменте замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу документов. Мы загружаем документ с именем`Revisions.docx`.
+В этом фрагменте замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу документов. Мы загружаем документ с именем `Revisions.docx`.
 
 ## Шаг 2: Скрыть комментарии в PDF-файле
 
@@ -61,11 +63,11 @@ Document doc = new Document(dataDir + "Revisions.docx");
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.Hide;
 ```
 
-Эта строка кода сообщает Aspose.Words о необходимости скрыть комментарии при рендеринге документа.
+Эта строка кода сообщает Aspose.Words о необходимости скрывать комментарии при рендеринге документа.
 
-## Шаг 3: Сохраните документ как PDF.
+## Шаг 3: Сохраните документ как PDF
 
-Наконец, мы сохраняем измененный документ как PDF. Этот шаг гарантирует, что наши комментарии будут удалены из выходного файла.
+Наконец, мы сохраняем измененный документ как PDF. Этот шаг гарантирует, что наши комментарии будут удалены в выходном файле.
 
 
 ```csharp
@@ -83,22 +85,27 @@ doc.Save(dataDir + "WorkingWithRevisions.RemoveCommentsInPdf.pdf");
 ## Часто задаваемые вопросы
 
 ### Что делать, если я хочу сохранить некоторые комментарии, но удалить другие?
- Вы можете выборочно скрыть комментарии, манипулируя узлами комментариев непосредственно в документе перед установкой`CommentDisplayMode`.
+Вы можете выборочно скрыть комментарии, манипулируя узлами комментариев непосредственно в документе перед установкой `CommentDisplayMode`.
 
 ### Могу ли я использовать Aspose.Words для других форматов файлов, помимо PDF?
 Конечно! Aspose.Words поддерживает широкий спектр форматов файлов, включая DOCX, TXT, HTML и другие.
 
 ### Существует ли бесплатная пробная версия Aspose.Words?
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.Words?
- Вы можете посетить[форум поддержки](https://forum.aspose.com/c/words/8) за помощь в решении любых проблем, с которыми вы можете столкнуться.
+Вы можете посетить [форум поддержки](https://forum.aspose.com/c/words/8) за помощь в решении любых проблем, с которыми вы можете столкнуться.
 
 ### Как я могу приобрести лицензию на Aspose.Words?
- Вы можете купить лицензию у[здесь](https://purchase.aspose.com/buy).
+Вы можете купить лицензию у [здесь](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

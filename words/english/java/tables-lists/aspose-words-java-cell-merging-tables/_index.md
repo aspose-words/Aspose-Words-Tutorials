@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,9 +203,13 @@ A2: Aspose.Words handles formatting consistently across formats. Ensure your mer
 
 **Q3: Are there limitations on merging cells with images or complex content?**
 A3: Basic text works seamlessly, but ensure that any complex elements maintain their format during the merge process.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

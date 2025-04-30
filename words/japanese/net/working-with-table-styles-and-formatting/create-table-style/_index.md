@@ -1,46 +1,54 @@
 ---
-title: .NET のAspose.Wordsを使用して Word ドキュメントでスタイリッシュテーブルを作成する
-weight: 7700
-limit: 
-description: .NET のAspose.Wordsを使用してスタイリングテーブルを持つWord文書を作成する方法について学びます.カスタムテーブルスタイリング,境界線,パッディングが含まれています.
-keywords: [Aspose.Words for .NET, styled table, Word document, table style, table formatting, document creation, borders, padding, .NET tutorial]
-url: /ja/net/working-with-table-styles-and-formatting/create-table-style/
+"description": "Aspose.Words for .NET を使用して、スタイル設定された表を含むWord文書を作成する方法を学びます。表のスタイル、境界線、パディングをカスタマイズできます。"
+"title": "Aspose.Words for .NET を使用して Word 文書にスタイル付きテーブルを作成する"
+"url": "/ja/net/working-with-table-styles-and-formatting/create-table-style/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Wordsを使用してWord ドキュメントでスタイリッシュテーブルを作成する
+# Aspose.Words を使用して Word 文書にスタイル付きテーブルを作成する
 
-このチュートリアルでは, .NET のAspose.Wordsを使用してカスタマイズされたテーブルでWord ドキュメントを作成するプロセスを案内します. 新しいドキュメントを初期化し,テーブル列と列を挿入し,特定の境界設定と詰め込みでカスタマイズされたテーブルスタイルを適用する方法について学びます.最後に,あなたのニーズに合ったスタイリングテーブルで完全にフォーマットされたWord ドキュメントを保存できます.
+このチュートリアルでは、Aspose.Words for .NET を使用して、カスタマイズされた表を含むWord文書を作成する手順を詳しく説明します。新規文書の初期化、表の行と列の挿入、そして罫線とパディングを指定したカスタム表スタイルの適用方法を学習します。チュートリアルを修了すると、ニーズに合ったスタイルが適用された表を含む、完全に書式設定されたWord文書を保存できるようになります。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示:
-.NETのAspose.Wordsをはじめます.
+## インストール手順:
+Aspose.Words for .NET を使い始めるには、次の手順に従います。
 
-1. Aspose.Wordsをインストールする. ダウンロードする最新バージョンの Aspose.Wordsを .NETからダウンロードできます.[ページを公開する](https://releases.aspose.com/words/net/)やってくれ
+1. Aspose.Wordsのインストール: Aspose.Words for .NETの最新バージョンは、 [リリースページ](https://releases。aspose.com/words/net/).
 
-2. NuGet を介してインストール: NuGet を介して .NET のAspose.Wordsをインストールすることもできます. NuGet パッケージ管理器で次のコマンドを実行します:
+2. NuGet経由でインストール：Aspose.Words for .NETはNuGet経由でインストールすることもできます。NuGetパッケージマネージャーで以下のコマンドを実行してください。
    ```
    Install-Package Aspose.Words
    ```
 
-3. プロジェクトを設定する: 図書館がインストールされたら,必要な名空を追加することでプロジェクトで使用を開始できます.
+3. プロジェクトのセットアップ: ライブラリがインストールされたら、必要な名前空間を追加してプロジェクトで使用できるようになります。
    ```csharp
    using Aspose.Words;
    ```
-4. 申請許可 (オプション):  
-   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/words/net/)やってくれ
+4. ライセンスの適用（オプション）:  
+   フルバージョンを使用するには、 [ライセンスを適用する](https://purchase.aspose.com/temporary-license/) または [無料トライアル](https://releases。aspose.com/words/net/).
    
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

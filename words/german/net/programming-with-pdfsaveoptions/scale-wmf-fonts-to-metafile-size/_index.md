@@ -1,30 +1,32 @@
 ---
-title: Reduzieren Sie die PDF-Größe, indem Sie WMF-Schriftarten auf Metadateigröße skalieren
-linktitle: Reduzieren Sie die PDF-Größe, indem Sie WMF-Schriftarten auf Metadateigröße skalieren
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Schritt-für-Schritt-Anleitung zum Reduzieren der PDF-Größe durch Skalieren von WMF-Schriftarten auf Metadateigröße bei der Konvertierung in PDF mit Aspose.Words für .NET.
-weight: 10
-url: /de/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
+"description": "Schritt-für-Schritt-Anleitung zum Reduzieren der PDF-Größe durch Skalieren von WMF-Schriftarten auf Metadateigröße beim Konvertieren in PDF mit Aspose.Words für .NET."
+"linktitle": "Reduzieren Sie die PDF-Größe mit „WMF-Schriftarten auf Metadateigröße skalieren“"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Reduzieren Sie die PDF-Größe mit „WMF-Schriftarten auf Metadateigröße skalieren“"
+"url": "/de/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Reduzieren Sie die PDF-Größe, indem Sie WMF-Schriftarten auf Metadateigröße skalieren
+# Reduzieren Sie die PDF-Größe mit „WMF-Schriftarten auf Metadateigröße skalieren“
 
 ## Einführung
 
-Beim Arbeiten mit PDF-Dateien, insbesondere solchen, die aus Word-Dokumenten mit WMF-Grafiken (Windows Metafile) erstellt wurden, kann die Größenverwaltung zu einem entscheidenden Aspekt der Dokumentverwaltung werden. Eine Möglichkeit, die PDF-Größe zu steuern, besteht darin, die Darstellung von WMF-Schriftarten im Dokument anzupassen. In diesem Tutorial erfahren Sie, wie Sie die PDF-Größe reduzieren können, indem Sie WMF-Schriftarten mithilfe von Aspose.Words für .NET auf die Metadateigröße skalieren.
+Bei der Arbeit mit PDF-Dateien, insbesondere solchen, die aus Word-Dokumenten mit WMF-Grafiken (Windows Metafile) erstellt wurden, kann die Größenverwaltung ein entscheidender Aspekt der Dokumentenverwaltung sein. Eine Möglichkeit, die PDF-Größe zu steuern, besteht darin, die Darstellung von WMF-Schriftarten im Dokument anzupassen. In diesem Tutorial erfahren Sie, wie Sie die PDF-Größe reduzieren können, indem Sie WMF-Schriftarten mit Aspose.Words für .NET auf die Größe der Metadatei skalieren.
 
 ## Voraussetzungen
 
 Bevor Sie mit den Schritten beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1. Aspose.Words für .NET: Stellen Sie sicher, dass Sie die Aspose.Words-Bibliothek installiert haben. Wenn nicht, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET: Stellen Sie sicher, dass die Aspose.Words-Bibliothek installiert ist. Falls nicht, können Sie [Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
 2. Entwicklungsumgebung: Dieses Tutorial setzt voraus, dass Sie eine .NET-Entwicklungsumgebung (wie Visual Studio) eingerichtet haben, in der Sie C#-Code schreiben und ausführen können.
-3. Grundlegende Kenntnisse der .NET-Programmierung: Vertrautheit mit grundlegenden Konzepten der .NET-Programmierung und der C#-Syntax ist hilfreich.
-4. Word-Dokument mit WMF-Grafiken: Sie benötigen ein Word-Dokument mit WMF-Grafiken. Sie können Ihr eigenes Dokument verwenden oder zu Testzwecken ein neues erstellen.
+3. Grundlegende Kenntnisse der .NET-Programmierung: Kenntnisse der grundlegenden Konzepte der .NET-Programmierung und der C#-Syntax sind hilfreich.
+4. Word-Dokument mit WMF-Grafiken: Sie benötigen ein Word-Dokument mit WMF-Grafiken. Sie können ein eigenes Dokument verwenden oder ein Testdokument erstellen.
 
 ## Namespaces importieren
 
@@ -37,21 +39,21 @@ using Aspose.Words.Saving;
 
 ## Schritt 1: Laden Sie das Word-Dokument
 
- Laden Sie zunächst das Word-Dokument, das die WMF-Grafiken enthält. Dies geschieht über den`Document` Klasse von Aspose.Words.
+Laden Sie zunächst das Word-Dokument, das die WMF-Grafiken enthält. Dies geschieht über `Document` Klasse von Aspose.Words.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Laden Sie das Dokument
 Document doc = new Document(dataDir + "WMF with text.docx");
 ```
 
- Hier,`dataDir` ist ein Platzhalter für Ihren Dokumentverzeichnispfad. Wir erstellen eine Instanz des`Document` Klasse, indem Sie den Pfad zur Word-Datei übergeben. Dadurch wird das Dokument in den Speicher geladen und ist für die weitere Verarbeitung bereit.
+Hier, `dataDir` ist ein Platzhalter für Ihren Dokumentverzeichnispfad. Wir erstellen eine Instanz des `Document` Klasse, indem Sie den Pfad zur Word-Datei übergeben. Dadurch wird das Dokument in den Speicher geladen und ist für die weitere Verarbeitung bereit.
 
-## Schritt 2: Konfigurieren der Optionen für die Metadateiwiedergabe
+## Schritt 2: Konfigurieren der Optionen für das Metadatei-Rendering
 
- Als nächstes müssen Sie die Optionen für die Darstellung der Metadatei konfigurieren. Legen Sie insbesondere die`ScaleWmfFontsToMetafileSize`Eigentum an`false`. Dies steuert, ob WMF-Schriftarten entsprechend der Metadateigröße skaliert werden.
+Als nächstes müssen Sie die Optionen für die Metadatei-Darstellung konfigurieren. Legen Sie insbesondere Folgendes fest: `ScaleWmfFontsToMetafileSize` Eigentum zu `false`. Dadurch wird gesteuert, ob WMF-Schriftarten so skaliert werden, dass sie der Größe der Metadatei entsprechen.
 
 ```csharp
 // Erstellen Sie eine neue Instanz von MetafileRenderingOptions
@@ -61,11 +63,11 @@ MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions
 };
 ```
 
- Der`MetafileRenderingOptions` Klasse bietet Optionen für die Darstellung von Metadateien (wie WMF). Durch die Einstellung`ScaleWmfFontsToMetafileSize` Zu`false`, weisen Sie Aspose.Words an, Schriftarten nicht entsprechend der Metadateigröße zu skalieren, was zur Reduzierung der Gesamtgröße des PDF-Dokuments beitragen kann.
+Der `MetafileRenderingOptions` Klasse bietet Optionen für die Darstellung von Metadateien (wie WMF). Durch die Einstellung `ScaleWmfFontsToMetafileSize` Zu `false`, weisen Sie Aspose.Words an, Schriftarten nicht entsprechend der Metadateigröße zu skalieren, was zur Reduzierung der Gesamtgröße des PDFs beitragen kann.
 
 ## Schritt 3: PDF-Speicheroptionen festlegen
 
-Konfigurieren Sie nun die PDF-Speicheroptionen so, dass die gerade festgelegten Metadatei-Rendering-Optionen verwendet werden. Dadurch wird Aspose.Words mitgeteilt, wie Metadateien beim Speichern des Dokuments als PDF behandelt werden sollen.
+Konfigurieren Sie nun die PDF-Speicheroptionen so, dass die soeben festgelegten Optionen zur Metadateiwiedergabe verwendet werden. Dadurch wird Aspose.Words angewiesen, wie Metadateien beim Speichern des Dokuments als PDF behandelt werden sollen.
 
 ```csharp
 // Erstellen Sie eine neue Instanz von PdfSaveOptions
@@ -75,11 +77,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Der`PdfSaveOptions` Klasse können Sie verschiedene Einstellungen für das Speichern des Dokuments als PDF festlegen. Durch die Zuweisung der zuvor konfigurierten`MetafileRenderingOptions` zur`MetafileRenderingOptions` Eigentum von`PdfSaveOptions`stellen Sie sicher, dass das Dokument entsprechend den gewünschten Einstellungen für die Metadateidarstellung gespeichert wird.
+Der `PdfSaveOptions` Klasse können Sie verschiedene Einstellungen für das Speichern des Dokuments als PDF festlegen. Durch die Zuweisung der zuvor konfigurierten `MetafileRenderingOptions` zum `MetafileRenderingOptions` Eigentum von `PdfSaveOptions`stellen Sie sicher, dass das Dokument entsprechend Ihren gewünschten Metadatei-Rendering-Einstellungen gespeichert wird.
 
 ## Schritt 4: Speichern Sie das Dokument als PDF
 
-Speichern Sie das Word-Dokument abschließend mit den konfigurierten Speicheroptionen als PDF. Dadurch werden alle Einstellungen, einschließlich der Optionen zum Rendern von Metadateien, auf das Ausgabe-PDF angewendet.
+Speichern Sie das Word-Dokument abschließend mit den konfigurierten Speicheroptionen als PDF. Dadurch werden alle Einstellungen, einschließlich der Optionen zur Metadateidarstellung, auf das Ausgabe-PDF angewendet.
 
 
 ```csharp
@@ -87,21 +89,21 @@ Speichern Sie das Word-Dokument abschließend mit den konfigurierten Speicheropt
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ScaleWmfFontsToMetafileSize.pdf", saveOptions);
 ```
 
- In diesem Schritt wird der`Save` Methode der`Document` Klasse wird verwendet, um das Dokument in eine PDF-Datei zu exportieren. Der Pfad, in dem die PDF-Datei gespeichert wird, wird angegeben, zusammen mit dem`PdfSaveOptions` die die Einstellungen für das Rendern der Metadatei beinhalten.
+In diesem Schritt wird `Save` Methode der `Document` Die Klasse wird verwendet, um das Dokument in eine PDF-Datei zu exportieren. Der Pfad, in dem die PDF-Datei gespeichert wird, wird angegeben, zusammen mit dem `PdfSaveOptions` die die Einstellungen für das Rendern der Metadatei enthalten.
 
 ## Abschluss
 
-Durch Skalieren von WMF-Schriftarten auf Metadateigröße können Sie die Größe Ihrer aus Word-Dokumenten generierten PDF-Dateien erheblich reduzieren. Diese Technik hilft bei der Optimierung der Dokumentenspeicherung und -verteilung, ohne die Qualität des visuellen Inhalts zu beeinträchtigen. Wenn Sie die oben beschriebenen Schritte befolgen, stellen Sie sicher, dass Ihre PDF-Dateien handlicher und größeneffizienter sind.
+Durch die Skalierung von WMF-Schriftarten auf Metadateigröße können Sie die Größe Ihrer aus Word-Dokumenten generierten PDF-Dateien deutlich reduzieren. Diese Technik trägt zur Optimierung der Dokumentenspeicherung und -verteilung bei, ohne die Qualität der visuellen Inhalte zu beeinträchtigen. Mit den oben beschriebenen Schritten können Sie Ihre PDF-Dateien handlicher und größeneffizienter gestalten.
 
 ## Häufig gestellte Fragen
 
 ### Was ist WMF und warum ist es für die PDF-Größe wichtig?
 
-WMF (Windows Metafile) ist ein Grafikformat, das in Microsoft Windows verwendet wird. Es kann sowohl Vektor- als auch Bitmap-Daten enthalten. Da Vektordaten skaliert und bearbeitet werden können, ist es wichtig, sie richtig zu verarbeiten, um unnötig große PDF-Dateien zu vermeiden.
+WMF (Windows Metafile) ist ein Grafikformat, das in Microsoft Windows verwendet wird. Es kann sowohl Vektor- als auch Bitmap-Daten enthalten. Da Vektordaten skaliert und bearbeitet werden können, ist eine korrekte Verarbeitung wichtig, um unnötig große PDF-Dateien zu vermeiden.
 
-### Welche Auswirkungen hat das Skalieren von WMF-Schriftarten auf die Metadateigröße auf das PDF?
+### Welche Auswirkungen hat die Skalierung von WMF-Schriftarten auf die Metadateigröße auf das PDF?
 
-Durch das Skalieren von WMF-Schriftarten auf Metadateigröße können Sie die Gesamtgröße des PDF-Dokuments verringern, indem Sie die Darstellung hochauflösender Schriftarten vermeiden, die die Dateigröße erhöhen könnten.
+Durch die Skalierung von WMF-Schriftarten auf Metadateigröße können Sie die Gesamtgröße der PDF-Datei verringern, indem Sie die Darstellung hochauflösender Schriftarten vermeiden, die die Dateigröße erhöhen könnte.
 
 ### Kann ich mit Aspose.Words andere Metadateiformate verwenden?
 
@@ -109,14 +111,19 @@ Ja, Aspose.Words unterstützt verschiedene Metadateiformate, darunter neben WMF 
 
 ### Ist diese Technik auf alle Arten von Word-Dokumenten anwendbar?
 
-Ja, diese Technik kann auf jedes Word-Dokument angewendet werden, das WMF-Grafiken enthält, und hilft dabei, die Größe der generierten PDF-Datei zu optimieren.
+Ja, diese Technik kann auf jedes Word-Dokument angewendet werden, das WMF-Grafiken enthält, und hilft dabei, die Größe des generierten PDFs zu optimieren.
 
 ### Wo finde ich weitere Informationen zu Aspose.Words?
 
- Weitere Informationen zu Aspose.Words finden Sie im[Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/) . Downloads, Testversionen und Unterstützung finden Sie im[Aspose.Words Download-Seite](https://releases.aspose.com/words/net/), [Aspose.Words kaufen](https://purchase.aspose.com/buy), [Kostenlose Testversion](https://releases.aspose.com/), [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/) , Und[Support](https://forum.aspose.com/c/words/8).
+Weitere Informationen zu Aspose.Words finden Sie im [Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/)Downloads, Testversionen und Support finden Sie auf der [Aspose.Words Download-Seite](https://releases.aspose.com/words/net/), [Aspose.Words kaufen](https://purchase.aspose.com/buy), [Kostenlose Testversion](https://releases.aspose.com/), [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/), Und [Unterstützung](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

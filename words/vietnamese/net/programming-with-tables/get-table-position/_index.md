@@ -1,14 +1,16 @@
 ---
-title: Nhận vị trí bảng
-linktitle: Nhận vị trí bảng
-second_title: API xử lý tài liệu Aspose.Words
-description: Khám phá cách xác định vị trí của bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-tables/get-table-position/
+"description": "Khám phá cách xác định vị trí của bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Nhận vị trí bảng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận vị trí bảng"
+"url": "/vi/net/programming-with-tables/get-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận vị trí bảng
@@ -20,10 +22,10 @@ Bạn đã bao giờ gặp rắc rối khi cố gắng tìm ra vị trí chính 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
--  Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Nếu không, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bạn có thể sử dụng bất kỳ phiên bản nào, nhưng phiên bản mới nhất luôn được khuyến khích.
 - .NET Framework: Đảm bảo bạn có .NET Framework 4.0 trở lên.
-- Một tài liệu Word: Đối với hướng dẫn này, chúng tôi sẽ sử dụng một tài liệu có tên`Tables.docx`.
+- Một tài liệu Word: Đối với hướng dẫn này, chúng tôi sẽ sử dụng một tài liệu có tên `Tables.docx`.
 
 ## Nhập không gian tên
 
@@ -95,7 +97,7 @@ Aspose.Words for .NET là một thư viện xử lý tài liệu mạnh mẽ cho
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
 
- Bạn có thể cài đặt Aspose.Words cho .NET thông qua NuGet Package Manager trong Visual Studio hoặc[tải xuống trực tiếp](https://releases.aspose.com/words/net/).
+Bạn có thể cài đặt Aspose.Words cho .NET thông qua NuGet Package Manager trong Visual Studio hoặc [tải xuống trực tiếp](https://releases.aspose.com/words/net/).
 
 ### Tôi có thể lấy được vị trí của nhiều bảng không?
 
@@ -107,10 +109,15 @@ Bạn sẽ cần điều hướng qua cây nút của tài liệu để truy c�
 
 ### Có phiên bản dùng thử không?
 
- Vâng, bạn có thể nhận được một[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để dùng thử Aspose.Words cho .NET.
+Vâng, bạn có thể nhận được một [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để dùng thử Aspose.Words cho .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

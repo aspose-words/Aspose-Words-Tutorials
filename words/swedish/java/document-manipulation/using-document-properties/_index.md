@@ -1,14 +1,16 @@
 ---
-title: Använda dokumentegenskaper i Aspose.Words för Java
-linktitle: Använda dokumentegenskaper
-second_title: Aspose.Words Java Document Processing API
-description: Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig att arbeta med dokumentegenskaper, lägg till anpassad metadata och mer i den här omfattande självstudien.
-weight: 32
-url: /sv/java/document-manipulation/using-document-properties/
+"description": "Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen."
+"linktitle": "Använda dokumentegenskaper"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Använda dokumentegenskaper i Aspose.Words för Java"
+"url": "/sv/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Använda dokumentegenskaper i Aspose.Words för Java
@@ -16,7 +18,7 @@ url: /sv/java/document-manipulation/using-document-properties/
 
 ## Introduktion till dokumentegenskaper
 
-Dokumentegenskaper är en viktig del av alla dokument. De tillhandahåller ytterligare information om själva dokumentet, som dess titel, författare, ämne, nyckelord och mer. I Aspose.Words för Java kan du manipulera både inbyggda och anpassade dokumentegenskaper.
+Dokumentegenskaper är en viktig del av alla dokument. De ger ytterligare information om själva dokumentet, såsom titel, författare, ämne, nyckelord och mer. I Aspose.Words för Java kan du manipulera både inbyggda och anpassade dokumentegenskaper.
 
 ## Uppräkning av dokumentegenskaper
 
@@ -36,7 +38,7 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Den här koden visar dokumentets namn och inbyggda egenskaper, inklusive egenskaper som "Titel", "Författare" och "Sökord".
+Den här koden visar dokumentets namn och inbyggda egenskaper, inklusive egenskaper som "Titel", "Författare" och "Nyckelord".
 
 ### Anpassade egenskaper
 
@@ -74,11 +76,11 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Den här koden tar bort den anpassade egenskapen "Authorized Date" från dokumentet.
+Den här koden tar bort den anpassade egenskapen "Auktoriserat datum" från dokumentet.
 
 ## Konfigurera länk till innehåll
 
-I vissa fall kanske du vill skapa länkar i ditt dokument. Så här kan du göra det:
+I vissa fall kanske du vill skapa länkar i ditt dokument. Så här gör du:
 
 ```java
 @Test
@@ -103,9 +105,9 @@ public void configuringLinkToContent() throws Exception
 
 Det här kodavsnittet visar hur du skapar ett bokmärke i ditt dokument och lägger till en anpassad dokumentegenskap som länkar till det bokmärket.
 
-## Konvertering mellan mätenheter
+## Konvertera mellan måttenheter
 
-I Aspose.Words för Java kan du enkelt konvertera måttenheter. Här är ett exempel på hur man gör:
+I Aspose.Words för Java kan du enkelt konvertera måttenheter. Här är ett exempel på hur du gör det:
 
 ```java
 @Test
@@ -115,7 +117,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // Ställ in marginaler i tum.
+    // Ange marginaler i tum.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -125,11 +127,11 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-Detta kodavsnitt ställer in olika marginaler och avstånd i tum genom att konvertera dem till poäng.
+Det här kodavsnittet anger olika marginaler och avstånd i tum genom att konvertera dem till punkter.
 
 ## Använda kontrolltecken
 
-Kontrolltecken kan vara användbara när du hanterar text. Så här ersätter du ett kontrolltecken i din text:
+Kontrolltecken kan vara användbara när man hanterar text. Så här ersätter du ett kontrolltecken i din text:
 
 ```java
 @Test
@@ -137,7 +139,7 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Byt ut "\r" kontrolltecken med "\r\n".
+    // Ersätt kontrolltecknet "\r" med "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
@@ -146,21 +148,21 @@ I det här exemplet ersätter vi vagnreturen (`\r`) med en vagnretur följt av e
 
 ## Slutsats
 
-Dokumentegenskaper spelar en viktig roll för att hantera och organisera dina dokument effektivt i Aspose.Words för Java. Oavsett om det handlar om att arbeta med inbyggda egenskaper, anpassade egenskaper eller att använda kontrolltecken, har du en rad verktyg till ditt förfogande för att förbättra dina dokumenthanteringsmöjligheter.
+Dokumentegenskaper spelar en viktig roll för att hantera och organisera dina dokument effektivt i Aspose.Words för Java. Oavsett om du arbetar med inbyggda egenskaper, anpassade egenskaper eller använder kontrolltecken, har du en rad verktyg till ditt förfogande för att förbättra dina dokumenthanteringsfunktioner.
 
-## FAQ's
+## Vanliga frågor
 
-### Hur kommer jag åt inbyggda dokumentegenskaper?
+### Hur får jag tillgång till inbyggda dokumentegenskaper?
 
- För att komma åt inbyggda dokumentegenskaper i Aspose.Words för Java kan du använda`getBuiltInDocumentProperties` metod på`Document` objekt. Den här metoden returnerar en samling inbyggda egenskaper som du kan iterera igenom.
+För att komma åt inbyggda dokumentegenskaper i Aspose.Words för Java kan du använda `getBuiltInDocumentProperties` metod på `Document` objekt. Den här metoden returnerar en samling inbyggda egenskaper som du kan iterera igenom.
 
-### Kan jag lägga till anpassade dokumentegenskaper till ett dokument?
+### Kan jag lägga till anpassade dokumentegenskaper i ett dokument?
 
- Ja, du kan lägga till anpassade dokumentegenskaper till ett dokument med hjälp av`CustomDocumentProperties` samling. Du kan definiera anpassade egenskaper med olika datatyper, inklusive strängar, booleaner, datum och numeriska värden.
+Ja, du kan lägga till anpassade dokumentegenskaper till ett dokument med hjälp av `CustomDocumentProperties` samling. Du kan definiera anpassade egenskaper med olika datatyper, inklusive strängar, booleska värden, datum och numeriska värden.
 
 ### Hur kan jag ta bort en specifik anpassad dokumentegenskap?
 
- För att ta bort en specifik anpassad dokumentegenskap kan du använda`remove` metod på`CustomDocumentProperties`samling och skickar namnet på egenskapen du vill ta bort som en parameter.
+För att ta bort en specifik anpassad dokumentegenskap kan du använda `remove` metod på `CustomDocumentProperties` samlingen och skicka namnet på den egenskap du vill ta bort som en parameter.
 
 ### Vad är syftet med att länka till innehåll i ett dokument?
 
@@ -168,10 +170,15 @@ Genom att länka till innehåll i ett dokument kan du skapa dynamiska referenser
 
 ### Hur kan jag konvertera mellan olika måttenheter i Aspose.Words för Java?
 
- Du kan konvertera mellan olika måttenheter i Aspose.Words för Java genom att använda`ConvertUtil` klass. Den tillhandahåller metoder för att konvertera enheter som tum till punkter, punkter till centimeter och mer.
+Du kan konvertera mellan olika måttenheter i Aspose.Words för Java genom att använda `ConvertUtil` klass. Den tillhandahåller metoder för att konvertera enheter som tum till punkter, punkter till centimeter och mer.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

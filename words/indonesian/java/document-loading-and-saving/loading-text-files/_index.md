@@ -1,14 +1,16 @@
 ---
-title: Memuat File Teks dengan Aspose.Words untuk Java
-linktitle: Memuat File Teks dengan
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buka Kekuatan Aspose.Words untuk Java. Pelajari Cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks.
-weight: 13
-url: /id/java/document-loading-and-saving/loading-text-files/
+"description": "Buka Kekuatan Aspose.Words untuk Java. Pelajari Cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks."
+"linktitle": "Memuat File Teks dengan"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Memuat File Teks dengan Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/loading-text-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memuat File Teks dengan Aspose.Words untuk Java
@@ -42,9 +44,9 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-//Daftar keempat, dengan spasi di antara nomor daftar dan isi item daftar,
+// Daftar keempat, dengan spasi di antara nomor daftar dan isi item daftar,
 // hanya akan terdeteksi sebagai daftar jika "DetectNumberingWithWhitespaces" dalam objek LoadOptions diatur ke benar,
-// untuk menghindari paragraf yang dimulai dengan angka keliru terdeteksi sebagai daftar.
+// untuk menghindari paragraf yang dimulai dengan angka salah terdeteksi sebagai daftar.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
@@ -54,7 +56,7 @@ Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadO
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
- Kode ini menunjukkan cara memuat dokumen teks dengan berbagai format daftar dan menggunakan`DetectNumberingWithWhitespaces` opsi untuk mendeteksi daftar dengan benar.
+Kode ini menunjukkan cara memuat dokumen teks dengan berbagai format daftar dan menggunakan `DetectNumberingWithWhitespaces` opsi untuk mendeteksi daftar dengan benar.
 
 ## Langkah 2: Menangani Opsi Spasi
 
@@ -76,7 +78,7 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
- Dalam contoh ini, kami memuat dokumen teks dan memangkas spasi di awal dan akhir menggunakan`TxtLeadingSpacesOptions.TRIM` Dan`TxtTrailingSpacesOptions.TRIM`.
+Dalam contoh ini, kami memuat dokumen teks dan memangkas spasi awal dan akhir menggunakan `TxtLeadingSpacesOptions.TRIM` Dan `TxtTrailingSpacesOptions.TRIM`.
 
 ## Langkah 3: Mengontrol Arah Teks
 
@@ -96,7 +98,7 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Kode ini mengatur arah dokumen ke deteksi otomatis (`DocumentDirection.AUTO`dan memuat dokumen teks dengan teks Ibrani. Anda dapat menyesuaikan arah dokumen sesuai kebutuhan.
+Kode ini mengatur arah dokumen ke deteksi otomatis (`DocumentDirection.AUTO`) dan memuat dokumen teks dengan teks Ibrani. Anda dapat menyesuaikan arah dokumen sesuai kebutuhan.
 
 ## Kode Sumber Lengkap Untuk Memuat File Teks dengan Aspose.Words untuk Java
 
@@ -123,7 +125,7 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"3 Fourth list item 3";
 	// Daftar keempat, dengan spasi di antara nomor daftar dan isi item daftar,
 	// hanya akan terdeteksi sebagai daftar jika "DetectNumberingWithWhitespaces" dalam objek LoadOptions diatur ke benar,
-	// untuk menghindari paragraf yang dimulai dengan angka keliru terdeteksi sebagai daftar.
+	// untuk menghindari paragraf yang dimulai dengan angka salah terdeteksi sebagai daftar.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
@@ -172,20 +174,20 @@ Aspose.Words untuk Java adalah pustaka pemrosesan dokumen canggih yang memungkin
 
 Untuk memulai Aspose.Words untuk Java, ikuti langkah-langkah berikut:
 1. Unduh dan instal pustaka Aspose.Words untuk Java.
-2.  Lihat dokumentasi di[Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk informasi dan contoh terperinci.
+2. Lihat dokumentasi di [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/) untuk informasi dan contoh terperinci.
 3. Jelajahi contoh kode dan tutorial untuk mempelajari cara menggunakan pustaka secara efektif.
 
 ### Bagaimana cara memuat dokumen teks menggunakan Aspose.Words untuk Java?
 
- Untuk memuat dokumen teks menggunakan Aspose.Words untuk Java, Anda dapat menggunakan`TxtLoadOptions` kelas dan`Document` kelas. Pastikan Anda menentukan opsi yang tepat untuk menangani spasi dan arah teks sesuai kebutuhan. Lihat panduan langkah demi langkah dalam artikel ini untuk contoh terperinci.
+Untuk memuat dokumen teks menggunakan Aspose.Words untuk Java, Anda dapat menggunakan `TxtLoadOptions` kelas dan `Document` kelas. Pastikan Anda menentukan opsi yang tepat untuk menangani spasi dan arah teks sesuai kebutuhan. Lihat panduan langkah demi langkah dalam artikel ini untuk contoh terperinci.
 
 ### Bisakah saya mengonversi dokumen teks yang dimuat ke format lain?
 
- Ya, Aspose.Words untuk Java memungkinkan Anda mengonversi dokumen teks yang dimuat ke berbagai format, termasuk DOCX, PDF, dan lainnya. Anda dapat menggunakan`Document` kelas untuk melakukan konversi. Periksa dokumentasi untuk contoh konversi tertentu.
+Ya, Aspose.Words untuk Java memungkinkan Anda mengonversi dokumen teks yang dimuat ke berbagai format, termasuk DOCX, PDF, dan lainnya. Anda dapat menggunakan `Document` kelas untuk melakukan konversi. Periksa dokumentasi untuk contoh konversi tertentu.
 
 ### Bagaimana cara menangani spasi dalam dokumen teks yang dimuat?
 
- Anda dapat mengontrol bagaimana spasi di awal dan akhir ditangani dalam dokumen teks yang dimuat menggunakan`TxtLoadOptions` Opsi seperti`TxtLeadingSpacesOptions` Dan`TxtTrailingSpacesOptions`memungkinkan Anda memangkas atau mempertahankan spasi sesuai kebutuhan. Lihat bagian "Menangani Opsi Spasi" dalam panduan ini untuk contohnya.
+Anda dapat mengontrol bagaimana spasi di awal dan akhir ditangani dalam dokumen teks yang dimuat menggunakan `TxtLoadOptions`Opsi seperti `TxtLeadingSpacesOptions` Dan `TxtTrailingSpacesOptions` memungkinkan Anda memangkas atau mempertahankan spasi sesuai kebutuhan. Lihat bagian "Menangani Opsi Spasi" dalam panduan ini untuk contohnya.
 
 ### Apa pentingnya arah teks dalam Aspose.Words untuk Java?
 
@@ -193,14 +195,19 @@ Arah teks sangat penting untuk dokumen yang berisi skrip atau bahasa campuran, s
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words untuk Java?
 
- Untuk sumber daya, dokumentasi, dan dukungan tambahan, kunjungi[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)Anda juga dapat berpartisipasi dalam forum komunitas Aspose.Words atau menghubungi dukungan Aspose untuk mendapatkan bantuan terkait masalah atau pertanyaan tertentu.
+Untuk sumber daya, dokumentasi, dan dukungan tambahan, kunjungi [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)Anda juga dapat berpartisipasi dalam forum komunitas Aspose.Words atau menghubungi dukungan Aspose untuk mendapatkan bantuan terkait masalah atau pertanyaan tertentu.
 
 ### Apakah Aspose.Words untuk Java cocok untuk proyek komersial?
 
 Ya, Aspose.Words untuk Java cocok untuk proyek pribadi dan komersial. Aplikasi ini menawarkan opsi lisensi untuk mengakomodasi berbagai skenario penggunaan. Pastikan untuk meninjau ketentuan lisensi dan harga di situs web Aspose untuk memilih lisensi yang sesuai untuk proyek Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

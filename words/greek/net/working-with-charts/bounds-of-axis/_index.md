@@ -1,40 +1,44 @@
 ---
-title: Δημιουργήστε ένα έγγραφο με διαγράμματα χρησιμοποιώντας Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word με διαγράμματα, να προσαρμόσετε τα όρια του άξονα Y και να αποθηκεύσετε ως DOCX χρησιμοποιώντας το Aspose.Words για το .NET με οδηγίες βήμα-βάθμα.
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
-url: /el/net/working-with-charts/bounds-of-axis/
+"description": "Μάθετε πώς να δημιουργείτε ένα έγγραφο Word με γραφήματα, να προσαρμόζετε τα όρια του άξονα Y και να το αποθηκεύετε ως DOCX χρησιμοποιώντας το Aspose.Words για .NET με οδηγίες βήμα προς βήμα."
+"title": "Δημιουργήστε ένα έγγραφο με γραφήματα χρησιμοποιώντας το Aspose.Words για .NET"
+"url": "/el/net/working-with-charts/bounds-of-axis/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε ένα έγγραφο με διαγράμματα χρησιμοποιώντας το Aspose.Words
+# Δημιουργήστε ένα έγγραφο με γραφήματα χρησιμοποιώντας το Aspose.Words
 
-Αυτό το εγχειρίδιο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με ένα διάγραμμα χρησιμοποιώντας το Aspose.Words για .NET. Θα μάθετε να εισάγετε ένα διάγραμμα στήλης, να καθαρίζετε τις υπάρχουσες σειρές, να προσθέσετε νέα δεδομένα και να προσαρμόζετε τα όρια του άξονα Y. Με τις οδηγίες βήμα προς βήμα, συμπεριλαμβανομένης της αρχιματοποίησης, της χειραγώγησης δεδομένων και της αποθήκευσης του εγγράφου ως αρχείο DOCX, αυτό το οδηγό απλοποιεί τη δουλειά με τα διάγραμμα στο Aspose.Words για .NET. Είτε αναπτύσσετε επαγγελματικές εκθέσεις ή δυναμικές απεικόνισεις δεδομένων, αυτό το παράδειγμα σας βοηθά να ξεκινήσετε εύκολα.
+Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με ένα γράφημα χρησιμοποιώντας το Aspose.Words για .NET. Θα μάθετε να εισάγετε ένα γράφημα στηλών, να διαγράφετε υπάρχουσες σειρές, να προσθέτετε νέα δεδομένα και να προσαρμόζετε τα όρια του άξονα Y. Με οδηγίες βήμα προς βήμα, όπως αρχικοποίηση, χειρισμό δεδομένων και αποθήκευση του εγγράφου ως αρχείο DOCX, αυτός ο οδηγός απλοποιεί την εργασία με γραφήματα στο Aspose.Words για .NET. Είτε αναπτύσσετε επαγγελματικές αναφορές είτε δυναμικές απεικονίσεις δεδομένων, αυτό το παράδειγμα σας βοηθά να ξεκινήσετε χωρίς κόπο.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
+## Οδηγίες εγκατάστασης  
 
-1. Κατεβάστε Aspose.Words για .NET  
-   Πάρτε την τελευταία έκδοση του Aspose.Words για το .NET από το [επίσημη σελίδα λήψης](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
+1. Λήψη Aspose.Words για .NET  
+   Αποκτήστε την τελευταία έκδοση του Aspose.Words για .NET από το [επίσημη σελίδα λήψης](https://releases.aspose.com/words/net/).  
 
-2. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet  
-   * Ανοίξτε το έργο σας στο Visual Studio.  
-   * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξε για`"Αποκοινώνεστε.`Στην καρτέλα Browse.  
-   * Επιλέξτε το πακέτο και κάντε κλικ στην Εγκατάσταση.  
+2. Εγκατάσταση μέσω του NuGet Package Manager  
+   - Ανοίξτε το έργο σας στο Visual Studio.  
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζήτηση για `Aspose.Words` στην καρτέλα Αναζήτηση.  
+   - Επιλέξτε το πακέτο και κάντε κλικ στην επιλογή Εγκατάσταση.  
 
-3. Προσθήκη άδειας _(Επιαιρετική)_  
-   * Αν έχετε άδεια, εφαρμόστε την στο έργο σας.[πώς να εφαρμόσετε άδεια](https://purchase.aspose.com/temporary-license/)\- Δεν ξέρω .  
+3. Προσθήκη άδειας χρήσης *(Προαιρετικός)*  
+   - Εάν έχετε άδεια χρήσης, εφαρμόστε την στο έργο σας. Για λεπτομέρειες, επισκεφθείτε τη διεύθυνση [πώς να υποβάλετε αίτηση για άδεια](https://purchase.aspose.com/temporary-license/).  
 
-4. Συμπεριλάβετε το όνομα  
-   Βεβαιωθείτε ότι προσθέτετε τα απαραίτητα namespaces στο `.cs`αρχείο:  
+4. Συμπερίληψη χώρων ονομάτων  
+   Βεβαιωθείτε ότι έχετε προσθέσει τους απαραίτητους χώρους ονομάτων στο `.cs` αρχείο:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -42,10 +46,14 @@ url: /el/net/working-with-charts/bounds-of-axis/
    ```
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

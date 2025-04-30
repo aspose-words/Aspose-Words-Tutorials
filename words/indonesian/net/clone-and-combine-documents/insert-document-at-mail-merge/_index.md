@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Dokumen di Mail Merge
-linktitle: Sisipkan Dokumen di Mail Merge
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan dokumen di bidang gabungan surat menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Pelajari cara menyisipkan dokumen di bidang gabungan surat menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Sisipkan Dokumen di Mail Merge"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Dokumen di Mail Merge"
+"url": "/id/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Dokumen di Mail Merge
@@ -21,7 +23,7 @@ Selamat datang di dunia otomatisasi dokumen dengan Aspose.Words untuk .NET! Pern
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat[unduh versi terbaru di sini](https://releases.aspose.com/words/net/) Jika Anda perlu membeli lisensi, Anda dapat melakukannya[Di Sini](https://purchase.aspose.com/buy) Atau, Anda bisa mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mencobanya dengan[uji coba gratis](https://releases.aspose.com/).
+1. Aspose.Words untuk .NET: Anda dapat [unduh versi terbaru di sini](https://releases.aspose.com/words/net/)Jika Anda perlu membeli lisensi, Anda dapat melakukannya [Di Sini](https://purchase.aspose.com/buy)Atau, Anda bisa mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mencobanya dengan [uji coba gratis](https://releases.aspose.com/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membuat tutorial ini mudah.
 
@@ -36,7 +38,7 @@ using Aspose.Words.MailMerging;
 using System.Linq;
 ```
 
-Mari kita uraikan prosesnya menjadi beberapa langkah yang dapat dikelola. Setiap langkah akan dibangun berdasarkan langkah sebelumnya, yang akan membawa Anda ke solusi yang lengkap.
+Mari kita uraikan proses ini menjadi beberapa langkah yang dapat dikelola. Setiap langkah akan dibangun berdasarkan langkah sebelumnya, yang akan membawa Anda ke solusi yang lengkap.
 
 ## Langkah 1: Menyiapkan Direktori Anda
 
@@ -145,10 +147,10 @@ Nah, itu dia! Anda telah berhasil memasukkan dokumen ke dalam bidang tertentu se
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyisipkan beberapa dokumen pada kolom gabungan yang berbeda?
-Ya, Anda bisa. Cukup tentukan bidang gabungan yang sesuai dan jalur dokumen yang sesuai di`MailMerge.Execute` metode.
+Ya, Anda bisa. Cukup tentukan bidang gabungan yang sesuai dan jalur dokumen yang sesuai di `MailMerge.Execute` metode.
 
 ### Apakah mungkin untuk memformat dokumen yang dimasukkan secara berbeda dari dokumen utama?
- Tentu saja! Anda dapat menggunakan`ImportFormatMode` parameternya di dalam`NodeImporter` untuk mengontrol pemformatan.
+Tentu saja! Anda dapat menggunakan `ImportFormatMode` parameternya di dalam `NodeImporter` untuk mengontrol pemformatan.
 
 ### Bagaimana jika nama bidang gabungan bersifat dinamis?
 Anda dapat menangani nama bidang gabungan dinamis dengan meneruskannya sebagai parameter ke pengendali panggilan balik.
@@ -158,9 +160,14 @@ Ya, Aspose.Words mendukung berbagai format file termasuk DOCX, PDF, dan banyak l
 
 ### Bagaimana cara menangani kesalahan selama proses penyisipan dokumen?
 Terapkan penanganan kesalahan dalam penangan panggilan balik Anda untuk mengelola pengecualian apa pun yang mungkin terjadi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Di chuyển đến tài liệu Bắt đầu Kết thúc trong tài liệu Word
-linktitle: Di chuyển đến tài liệu Bắt đầu Kết thúc trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách di chuyển con trỏ đến đầu và cuối tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn toàn diện với hướng dẫn từng bước và ví dụ.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/move-to-document-start-end/
+"description": "Tìm hiểu cách di chuyển con trỏ đến đầu và cuối tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn toàn diện với hướng dẫn từng bước và ví dụ."
+"linktitle": "Di chuyển đến tài liệu Bắt đầu Kết thúc trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Di chuyển đến tài liệu Bắt đầu Kết thúc trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/move-to-document-start-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển đến tài liệu Bắt đầu Kết thúc trong tài liệu Word
@@ -21,7 +23,7 @@ Xin chào! Vậy là bạn đã làm việc với các tài liệu Word và cầ
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
 
-1.  Aspose.Words cho .NET: Đây là công cụ kỳ diệu mà chúng ta sẽ sử dụng. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/) hoặc lấy một[dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.Words cho .NET: Đây là công cụ kỳ diệu mà chúng ta sẽ sử dụng. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/) hoặc lấy một [dùng thử miễn phí](https://releases.aspose.com/).
 2. Môi trường phát triển .NET: Visual Studio là lựa chọn đáng tin cậy.
 3. Kiến thức cơ bản về C#: Đừng lo, bạn không cần phải là một phù thủy, nhưng một chút quen thuộc sẽ giúp ích rất nhiều.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ở đây, chúng ta đang tạo một trường hợp của`Document` Và`DocumentBuilder` . Nghĩ về`Document` như tài liệu Word trống của bạn và`DocumentBuilder` như cây bút của bạn.
+Ở đây, chúng ta đang tạo một trường hợp của `Document` Và `DocumentBuilder`. Nghĩ về `Document` như tài liệu Word trống của bạn và `DocumentBuilder` như cây bút của bạn.
 
 ## Bước 2: Di chuyển đến Tài liệu Bắt đầu
 
@@ -58,7 +60,7 @@ builder.MoveToDocumentStart();
 Console.WriteLine("\nThis is the beginning of the document.");
 ```
 
- Với`MoveToDocumentStart()`, bạn đang bảo bút kỹ thuật số của mình đặt ở vị trí cao nhất của tài liệu. Đơn giản phải không?
+Với `MoveToDocumentStart()`, bạn đang bảo bút kỹ thuật số của mình đặt ở vị trí cao nhất của tài liệu. Đơn giản phải không?
 
 ## Bước 3: Di chuyển đến cuối tài liệu
 
@@ -84,17 +86,22 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, chỉnh s�
 Chắc chắn rồi! Mặc dù hướng dẫn này sử dụng C#, bạn có thể sử dụng Aspose.Words cho .NET với bất kỳ ngôn ngữ .NET nào như VB.NET.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?  
- Có, nhưng bạn có thể bắt đầu bằng một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, nhưng bạn có thể bắt đầu bằng một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?  
 Có, Aspose.Words cho .NET hỗ trợ cả .NET Framework và .NET Core.
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?  
-Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/words/net/) hoặc ghé thăm họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp thêm.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/words/net/) hoặc ghé thăm họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp thêm.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Modyfikuj ustawienia strony programu Word we wszystkich sekcjach
-linktitle: Modyfikuj ustawienia strony programu Word we wszystkich sekcjach
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Naucz się modyfikować ustawienia strony we wszystkich sekcjach dokumentu Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/working-with-section/modify-page-setup-in-all-sections/
+"description": "Naucz się modyfikować ustawienia strony we wszystkich sekcjach dokumentu Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Modyfikuj ustawienia strony programu Word we wszystkich sekcjach"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Modyfikuj ustawienia strony programu Word we wszystkich sekcjach"
+"url": "/pl/net/working-with-section/modify-page-setup-in-all-sections/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modyfikuj ustawienia strony programu Word we wszystkich sekcjach
@@ -22,7 +24,7 @@ Cześć! Jeśli kiedykolwiek musiałeś zmodyfikować ustawienia stron w wielu s
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
 1. Podstawowa znajomość języka C#: Znajomość składni i pojęć języka C# jest konieczna.
-2.  Aspose.Words dla .NET: Możesz[pobierz tutaj](https://releases.aspose.com/words/net/) Jeśli po prostu próbujesz,[bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny.
+2. Aspose.Words dla .NET: Możesz [pobierz tutaj](https://releases.aspose.com/words/net/). Jeśli po prostu próbujesz, [bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny.
 3. Visual Studio: powinna działać każda nowsza wersja, ale w celu uzyskania najlepszych efektów zalecamy korzystanie z najnowszej wersji.
 4. .NET Framework: Upewnij się, że jest zainstalowany w systemie.
 
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-Tutaj definiujemy ścieżkę katalogu, w którym zostanie zapisany dokument, i inicjujemy nowy dokument wraz z kreatorem dokumentów.
+Tutaj definiujemy ścieżkę katalogu, w którym zostanie zapisany dokument, i inicjujemy nowy dokument wraz z kreatorem dokumentu.
 
 ## Krok 2: Dodawanie sekcji
 
@@ -81,7 +83,7 @@ foreach (Section section in doc)
     section.PageSetup.PaperSize = PaperSize.Letter;
 ```
 
- Tutaj przechodzimy przez każdą sekcję dokumentu i ustawiamy`PaperSize`nieruchomość do`Letter`Ta zmiana zapewnia jednolitość we wszystkich sekcjach.
+Tutaj przechodzimy przez każdą sekcję dokumentu i ustawiamy `PaperSize` nieruchomość do `Letter`Zmiana ta zapewnia jednolitość we wszystkich sekcjach.
 
 ## Krok 5: Zapisywanie dokumentu
 
@@ -95,7 +97,7 @@ Ta linia kodu zapisuje dokument w określonym katalogu z jasną nazwą pliku wsk
 
 ## Wniosek
 
- I masz to! Udało Ci się zmodyfikować ustawienia strony dla wszystkich sekcji w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek przeprowadził Cię przez proces tworzenia dokumentu, dodawania sekcji i równomiernego dostosowywania ustawień ich stron. Aspose.Words oferuje bogaty zestaw funkcji, więc możesz swobodnie eksplorować[Dokumentacja API](https://reference.aspose.com/words/net/) dla bardziej zaawansowanych możliwości.
+masz to! Udało Ci się zmodyfikować ustawienia strony dla wszystkich sekcji w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek przeprowadził Cię przez proces tworzenia dokumentu, dodawania sekcji i równomiernego dostosowywania ustawień ich stron. Aspose.Words oferuje bogaty zestaw funkcji, więc możesz swobodnie eksplorować [Dokumentacja API](https://reference.aspose.com/words/net/) dla bardziej zaawansowanych możliwości.
 
 ## Często zadawane pytania
 
@@ -105,22 +107,27 @@ Aspose.Words for .NET to kompleksowa biblioteka do programowej pracy z dokumenta
 
 ### 2. Czy mogę używać Aspose.Words dla .NET za darmo?
 
- Możesz wypróbować Aspose.Words dla .NET z[bezpłatny okres próbny](https://releases.aspose.com/). Do dłuższego użytkowania konieczny jest zakup licencji.
+Możesz wypróbować Aspose.Words dla .NET z [bezpłatny okres próbny](https://releases.aspose.com/). Do dłuższego użytkowania konieczny jest zakup licencji.
 
 ### 3. Jak zmodyfikować inne właściwości ustawień strony?
 
- Aspose.Words umożliwia modyfikację różnych właściwości ustawień strony, takich jak orientacja, marginesy i rozmiar papieru. Zapoznaj się z[Dokumentacja API](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe instrukcje.
+Aspose.Words pozwala modyfikować różne właściwości ustawień strony, takie jak orientacja, marginesy i rozmiar papieru. Zapoznaj się z [Dokumentacja API](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe instrukcje.
 
 ### 4. Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
 
- Wsparcie jest dostępne poprzez[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Wsparcie jest dostępne poprzez [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
 
 ### 5. Czy mogę manipulować innymi formatami dokumentów za pomocą Aspose.Words dla .NET?
 
 Tak, Aspose.Words obsługuje wiele formatów dokumentów, w tym DOCX, DOC, RTF, HTML i PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Udostępnij kontrolę progu dla binaryzacji Tiff
-linktitle: Udostępnij kontrolę progu dla binaryzacji Tiff
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak udostępnić kontrolę progową dla binaryzacji TIFF w dokumentach Word przy użyciu Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
+"description": "Dowiedz się, jak udostępnić kontrolę progową dla binaryzacji TIFF w dokumentach Word przy użyciu Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Udostępnij kontrolę progu dla binaryzacji Tiff"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Udostępnij kontrolę progu dla binaryzacji Tiff"
+"url": "/pl/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Udostępnij kontrolę progu dla binaryzacji Tiff
@@ -21,7 +23,7 @@ Czy kiedykolwiek zastanawiałeś się, jak kontrolować próg binaryzacji TIFF w
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Można go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/) . Jeśli jeszcze nie masz licencji, możesz ją uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Można go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/). Jeśli jeszcze nie masz licencji, możesz ją uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 3. Podstawowa znajomość języka C#: Przydatna będzie pewna znajomość języka C#, ale nie martw się, jeśli jesteś początkujący — wszystko Ci wyjaśnimy.
 
@@ -43,21 +45,21 @@ Po pierwsze, musisz ustawić ścieżkę do katalogu dokumentów. To jest miejsce
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Załaduj swój dokument
 
- Następnie musimy załadować dokument, który chcemy przetworzyć. W tym przykładzie użyjemy dokumentu o nazwie`Rendering.docx`.
+Następnie musimy załadować dokument, który chcemy przetworzyć. W tym przykładzie użyjemy dokumentu o nazwie `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Ta linia kodu tworzy nowy`Document` obiekt i ładuje określony plik.
+Ta linia kodu tworzy nowy `Document` obiekt i ładuje określony plik.
 
 ## Krok 3: Skonfiguruj opcje zapisywania obrazu
 
- Teraz zaczyna się zabawa! Musimy skonfigurować opcje zapisu obrazu, aby kontrolować binaryzację TIFF. Użyjemy`ImageSaveOptions` Klasa służąca do ustawiania różnych właściwości.
+Teraz zaczyna się zabawa! Musimy skonfigurować opcje zapisu obrazu, aby kontrolować binaryzację TIFF. Użyjemy `ImageSaveOptions` Klasa służąca do ustawiania różnych właściwości.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
@@ -70,9 +72,9 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 ```
 
 Przyjrzyjmy się temu bliżej:
--  TiffCompression: Ustawia typ kompresji dla obrazu TIFF. Tutaj używamy`Ccitt3`.
--  ImageColorMode: Ustawia tryb koloru. Ustawiamy go na`Grayscale` aby utworzyć obraz w skali szarości.
--  TiffBinarizationMethod: Określa metodę binaryzacji. Używamy`FloydSteinbergDithering`.
+- TiffCompression: Ustawia typ kompresji dla obrazu TIFF. Tutaj używamy `Ccitt3`.
+- ImageColorMode: Ustawia tryb koloru. Ustawiamy go na `Grayscale` aby utworzyć obraz w skali szarości.
+- TiffBinarizationMethod: Określa metodę binaryzacji. Używamy `FloydSteinbergDithering`.
 - ThresholdForFloydSteinbergDithering: Ustawia próg dla ditheringu Floyd-Steinberg. Wyższa wartość oznacza mniej czarnych pikseli.
 
 ## Krok 4: Zapisz dokument jako TIFF
@@ -87,7 +89,7 @@ Ta linijka kodu zapisuje dokument w określonej ścieżce ze skonfigurowanymi op
 
 ## Wniosek
 
-I masz to! Właśnie nauczyłeś się, jak udostępnić kontrolę progową dla binaryzacji TIFF w dokumencie Worda przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami Worda na różne sposoby, w tym konwertowanie ich do różnych formatów z niestandardowymi ustawieniami. Wypróbuj ją i zobacz, jak może uprościć zadania przetwarzania dokumentów!
+masz to! Właśnie nauczyłeś się, jak udostępnić kontrolę progową dla binaryzacji TIFF w dokumencie Worda przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia manipulowanie dokumentami Worda na różne sposoby, w tym konwertowanie ich do różnych formatów z niestandardowymi ustawieniami. Wypróbuj ją i zobacz, jak może uprościć zadania przetwarzania dokumentów!
 
 ## Najczęściej zadawane pytania
 
@@ -101,14 +103,19 @@ Dithering Floyda-Steinberga pomaga rozłożyć błędy pikseli w taki sposób, a
 Tak, Aspose.Words obsługuje różne metody kompresji TIFF, takie jak LZW, CCITT4 i RLE.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
-Aspose.Words dla platformy .NET jest biblioteką komercyjną, ale można uzyskać bezpłatną wersję próbną lub tymczasową licencję, aby zapoznać się z jej funkcjami.
+Aspose.Words for .NET jest biblioteką komercyjną, ale można uzyskać bezpłatną wersję próbną lub tymczasową licencję, aby zapoznać się z jej funkcjami.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację Aspose.Words dla .NET można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+Pełną dokumentację Aspose.Words dla .NET można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

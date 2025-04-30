@@ -1,15 +1,16 @@
 ---
-title: Ustaw wersję programu Ms Word
-linktitle: Ustaw wersję programu Ms Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawiać wersje MS Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi. Idealne dla programistów, którzy chcą usprawnić manipulację dokumentami.
-
-weight: 10
-url: /pl/net/programming-with-loadoptions/set-ms-word-version/
+"description": "Dowiedz się, jak ustawiać wersje MS Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi. Idealne dla programistów, którzy chcą usprawnić manipulację dokumentami."
+"linktitle": "Ustaw wersję programu Ms Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw wersję programu Ms Word"
+"url": "/pl/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw wersję programu Ms Word
@@ -22,7 +23,7 @@ Czy zdarzyło Ci się kiedyś pracować z konkretnymi wersjami dokumentów MS Wo
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję.[Pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. [Pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Możesz użyć programu Visual Studio lub dowolnego innego środowiska programistycznego zgodnego z platformą .NET.
 - Podstawowa znajomość języka C#: Choć postaramy się uprościć sprawę, podstawowa znajomość języka C# jest konieczna.
 - Przykładowy dokument: Przygotuj dokument Word w katalogu dokumentów w celu przeprowadzenia testów.
@@ -80,23 +81,28 @@ Ustawianie wersji MS Word w Aspose.Words dla .NET jest proste, gdy podzielisz je
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ustawić wersję inną niż Word 2010?
- Tak, możesz ustawić różne wersje, takie jak Word 2007, Word 2013 itd., zmieniając`MsWordVersion` nieruchomość.
+Tak, możesz ustawić różne wersje, takie jak Word 2007, Word 2013 itd., zmieniając `MsWordVersion` nieruchomość.
 
 ### Czy Aspose.Words jest kompatybilny z .NET Core?
 Oczywiście! Aspose.Words obsługuje .NET Framework, .NET Core i .NET 5+.
 
-### Czy potrzebuję licencji, aby korzystać z Aspose.Words?
- Możesz skorzystać z bezpłatnej wersji próbnej, ale do korzystania ze wszystkich funkcji potrzebna będzie Ci licencja.[Uzyskaj tymczasową licencję tutaj](https://purchase.aspose.com/temporary-license/).
+### Czy potrzebuję licencji, aby używać Aspose.Words?
+Możesz skorzystać z bezpłatnej wersji próbnej, ale do korzystania ze wszystkich funkcji potrzebna będzie Ci licencja. [Uzyskaj tymczasową licencję tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę manipulować innymi funkcjami dokumentów Word za pomocą Aspose.Words?
 Tak, Aspose.Words to kompleksowa biblioteka umożliwiająca manipulowanie niemal wszystkimi aspektami dokumentów Word.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych informacji.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych informacji.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da Belgeleri PCL Biçiminde Kaydetme
-linktitle: Belgeleri PCL Formatında Kaydetme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri PCL formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için adım adım kılavuz ve kod örnekleri.
-weight: 21
-url: /tr/java/document-loading-and-saving/saving-documents-as-pcl-format/
+"description": "Aspose.Words for Java kullanarak belgeleri PCL formatında nasıl kaydedeceğinizi öğrenin. Verimli belge dönüşümü için adım adım kılavuz ve kod örnekleri."
+"linktitle": "Belgeleri PCL Formatında Kaydetme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da Belgeleri PCL Biçiminde Kaydetme"
+"url": "/tr/java/document-loading-and-saving/saving-documents-as-pcl-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da Belgeleri PCL Biçiminde Kaydetme
@@ -32,7 +34,7 @@ Başlamak için, PCL dosyası olarak kaydetmek istediğiniz Word belgesini yükl
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Yer değiştirmek`"YourDocument.docx"` Word belgenizin yolunu belirtin.
+Yer değiştirmek `"YourDocument.docx"` Word belgenizin yolunu belirtin.
 
 ## Adım 2: PCL Kaydetme Seçeneklerini Yapılandırın
 
@@ -54,7 +56,7 @@ Artık belgenizi yüklediğinize ve PCL kaydetme seçeneklerini yapılandırdı�
 doc.save("Your Directory Path" + "YourPCLDocument.pcl", saveOptions);
 ```
 
- Yer değiştirmek`"YourPCLDocument.pcl"` PCL dosyanız için istediğiniz isimle.
+Yer değiştirmek `"YourPCLDocument.pcl"` PCL dosyanız için istediğiniz isimle.
 
 ## Aspose.Words for Java'da Belgeleri PCL Formatında Kaydetmek İçin Tam Kaynak Kodu
 
@@ -91,10 +93,15 @@ Evet, satın alma yapmadan önce özelliklerini keşfetmek için Aspose.Words fo
 
 ### Aspose.Words for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Kapsamlı belgeler ve kaynaklar için Aspose.Words for Java belgelerini şu adreste ziyaret edin:[Burada](https://reference.aspose.com/words/java/).
+Kapsamlı belgeler ve kaynaklar için Aspose.Words for Java belgelerini şu adreste ziyaret edin: [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

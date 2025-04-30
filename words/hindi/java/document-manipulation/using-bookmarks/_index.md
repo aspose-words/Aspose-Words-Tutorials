@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में बुकमार्क का उपयोग करना
-linktitle: बुकमार्क का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ अपने दस्तावेज़ प्रसंस्करण को अनुकूलित करें। इस चरण-दर-चरण मार्गदर्शिका में कुशल सामग्री नेविगेशन और हेरफेर के लिए बुकमार्क का उपयोग करना सीखें।
-weight: 17
-url: /hi/java/document-manipulation/using-bookmarks/
+"description": "Aspose.Words for Java के साथ अपने दस्तावेज़ प्रसंस्करण को अनुकूलित करें। इस चरण-दर-चरण मार्गदर्शिका में कुशल सामग्री नेविगेशन और हेरफेर के लिए बुकमार्क का उपयोग करना सीखें।"
+"linktitle": "बुकमार्क का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में बुकमार्क का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में बुकमार्क का उपयोग करना
@@ -16,7 +18,7 @@ url: /hi/java/document-manipulation/using-bookmarks/
 
 ## जावा के लिए Aspose.Words में बुकमार्क का उपयोग करने का परिचय
 
-बुकमार्क Aspose.Words for Java में एक शक्तिशाली सुविधा है जो आपको दस्तावेज़ के विशिष्ट भागों को चिह्नित करने और उनमें हेरफेर करने की अनुमति देता है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि Aspose.Words for Java में बुकमार्क का उपयोग कैसे करें ताकि आपके दस्तावेज़ प्रसंस्करण को बढ़ाया जा सके। 
+बुकमार्क्स Aspose.Words for Java में एक शक्तिशाली सुविधा है जो आपको किसी दस्तावेज़ के विशिष्ट भागों को चिह्नित करने और उनमें हेरफेर करने की अनुमति देता है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि Aspose.Words for Java में बुकमार्क्स का उपयोग कैसे करें ताकि आपके दस्तावेज़ प्रसंस्करण को बढ़ाया जा सके। 
 
 ## चरण 1: बुकमार्क बनाना
 
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//बुकमार्क समाप्त करें
+// बुकमार्क समाप्त करें
 builder.endBookmark("My Bookmark");
 ```
 
@@ -63,7 +65,7 @@ bookmark.setText("This is new bookmarked text.");
 
 ## चरण 4: बुकमार्क किए गए टेक्स्ट के साथ काम करना
 
-आप बुकमार्क किए गए टेक्स्ट को कॉपी करके किसी दूसरे दस्तावेज़ में जोड़ सकते हैं। इसका तरीका इस प्रकार है:
+आप बुकमार्क किए गए टेक्स्ट को कॉपी करके किसी दूसरे दस्तावेज़ में जोड़ सकते हैं। यहाँ बताया गया है कि कैसे:
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -103,11 +105,11 @@ Aspose.Words for Java में बुकमार्क का उपयोग 
 
 ### मैं तालिका सेल में बुकमार्क कैसे बनाऊं?
 
- तालिका सेल में बुकमार्क बनाने के लिए, का उपयोग करें`DocumentBuilder` क्लास में बुकमार्क को प्रारंभ और समाप्त करें।
+तालिका सेल में बुकमार्क बनाने के लिए, का उपयोग करें `DocumentBuilder` क्लास में बुकमार्क को प्रारंभ और समाप्त करें।
 
 ### क्या मैं किसी बुकमार्क को किसी अन्य दस्तावेज़ में कॉपी कर सकता हूँ?
 
- हां, आप किसी बुकमार्क को किसी अन्य दस्तावेज़ में कॉपी कर सकते हैं`NodeImporter` स्वरूपण संरक्षित है यह सुनिश्चित करने के लिए class का उपयोग करें।
+हां, आप किसी बुकमार्क को किसी अन्य दस्तावेज़ में कॉपी कर सकते हैं `NodeImporter` स्वरूपण संरक्षित है यह सुनिश्चित करने के लिए class का उपयोग करें।
 
 ### मैं किसी पंक्ति को उसके बुकमार्क द्वारा कैसे हटा सकता हूँ?
 
@@ -119,10 +121,15 @@ Aspose.Words for Java में बुकमार्क का उपयोग 
 
 ### मैं Aspose.Words for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और डाउनलोड के लिए, यहां जाएं[जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+विस्तृत दस्तावेज़ीकरण और डाउनलोड के लिए, यहां जाएं [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

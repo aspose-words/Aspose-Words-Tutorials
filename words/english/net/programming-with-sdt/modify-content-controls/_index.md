@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/modify-content-controls/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Content Controls
@@ -188,9 +191,13 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 ```
 
 That's it! You have successfully modified different types of content controls in your Word document using Aspose.Words for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

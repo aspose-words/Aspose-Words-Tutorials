@@ -1,24 +1,26 @@
 ---
-title: Uso de HarfBuzz en Aspose.Words para Java
-linktitle: Usando HarfBuzz
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a utilizar HarfBuzz para modelar texto de manera avanzada en Aspose.Words para Java. Mejore la representación de texto en scripts complejos con esta guía paso a paso.
-weight: 15
-url: /es/java/using-document-elements/using-harfbuzz/
+"description": "Aprenda a usar HarfBuzz para modelado de texto avanzado en Aspose.Words para Java. Mejore la representación de texto en scripts complejos con esta guía paso a paso."
+"linktitle": "Usando HarfBuzz"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Uso de HarfBuzz en Aspose.Words para Java"
+"url": "/es/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uso de HarfBuzz en Aspose.Words para Java
 
 
-Aspose.Words para Java es una potente API que permite a los desarrolladores trabajar con documentos de Word en aplicaciones Java. Proporciona varias funciones para manipular y generar documentos de Word, incluida la modificación de texto. En este tutorial paso a paso, exploraremos cómo usar HarfBuzz para modificar texto en Aspose.Words para Java.
+Aspose.Words para Java es una potente API que permite a los desarrolladores trabajar con documentos de Word en aplicaciones Java. Ofrece diversas funciones para manipular y generar documentos de Word, incluyendo la modelación de texto. En este tutorial paso a paso, exploraremos cómo usar HarfBuzz para modelar texto en Aspose.Words para Java.
 
 ## Introducción a HarfBuzz
 
-HarfBuzz es un motor de modelado de texto de código abierto que admite lenguajes y escrituras complejas. Se utiliza ampliamente para representar texto en varios idiomas, especialmente aquellos que requieren funciones avanzadas de modelado de texto, como las escrituras árabe, persa e índica.
+HarfBuzz es un motor de modelado de texto de código abierto compatible con escrituras e idiomas complejos. Se utiliza ampliamente para renderizar texto en diversos idiomas, especialmente aquellos que requieren funciones avanzadas de modelado, como las escrituras árabe, persa e índica.
 
 ## Prerrequisitos
 
@@ -26,24 +28,24 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
 - Biblioteca Aspose.Words para Java instalada.
 - Configuración del entorno de desarrollo Java.
-- Ejemplo de documento de Word para prueba.
+- Documento de Word de muestra para prueba.
 
-## Paso 1: Configuración del proyecto
+## Paso 1: Configuración de su proyecto
 
 Para comenzar, cree un nuevo proyecto Java e incluya la biblioteca Aspose.Words para Java en las dependencias de su proyecto.
 
 ## Paso 2: Cargar un documento de Word
 
- En este paso, cargaremos un documento de Word de muestra con el que queremos trabajar. Reemplazar`"Your Document Directory"` con la ruta real a su documento de Word:
+En este paso, cargaremos un documento de Word de muestra con el que queremos trabajar. Reemplazar `"Your Document Directory"` con la ruta real a su documento de Word:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "SampleDocument.docx");
 ```
 
-## Paso 3: Configurar la forma del texto con HarfBuzz
+## Paso 3: Configuración del modelado de texto con HarfBuzz
 
-Para habilitar el modelado de texto de HarfBuzz, debemos configurar la fábrica de modeladores de texto en las opciones de diseño del documento:
+Para habilitar el modelado de texto de HarfBuzz, necesitamos configurar la fábrica de modeladores de texto en las opciones de diseño del documento:
 
 ```java
 // Habilitar la modelación de texto de HarfBuzz
@@ -52,7 +54,7 @@ doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstanc
 
 ## Paso 4: Guardar el documento
 
- Ahora que hemos configurado la forma del texto de HarfBuzz, podemos guardar el documento. Reemplazar`"Your Output Directory"` con el directorio de salida y nombre de archivo deseados:
+Ahora que hemos configurado el modelado de texto de HarfBuzz, podemos guardar el documento. Reemplazar `"Your Output Directory"` con el directorio de salida y nombre de archivo deseados:
 
 ```java
 String outPath = "Your Output Directory";
@@ -72,7 +74,7 @@ doc.save(outPath + "WorkingWithHarfBuzz.OpenTypeFeatures.pdf");
 
 ## Conclusión
 
-En este tutorial, hemos aprendido a utilizar HarfBuzz para dar forma al texto en Aspose.Words para Java. Si sigue estos pasos, podrá mejorar sus capacidades de procesamiento de documentos de Word y garantizar la representación adecuada de lenguajes y scripts complejos.
+En este tutorial, aprendimos a usar HarfBuzz para dar forma a texto en Aspose.Words para Java. Siguiendo estos pasos, podrá mejorar sus capacidades de procesamiento de documentos de Word y garantizar la correcta representación de scripts e idiomas complejos.
 
 ## Preguntas frecuentes
 
@@ -94,12 +96,17 @@ Sí, HarfBuzz es compatible con aplicaciones Java y se puede integrar fácilment
 
 ### 5. ¿Dónde puedo obtener más información sobre Aspose.Words para Java?
 
-Puede encontrar documentación detallada y recursos para Aspose.Words para Java en[Documentación de la API de Aspose.Words](https://reference.aspose.com/words/java/).
+Puede encontrar documentación detallada y recursos para Aspose.Words para Java en [Documentación de la API de Aspose.Words](https://reference.aspose.com/words/java/).
 
-Ahora que comprende en profundidad el uso de HarfBuzz en Aspose.Words para Java, puede comenzar a incorporar funciones avanzadas de modelado de texto en sus aplicaciones Java. ¡Que disfrute codificando!
+Ahora que comprendes a fondo el uso de HarfBuzz en Aspose.Words para Java, puedes empezar a incorporar funciones avanzadas de modelado de texto en tus aplicaciones Java. ¡Que disfrutes programando!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

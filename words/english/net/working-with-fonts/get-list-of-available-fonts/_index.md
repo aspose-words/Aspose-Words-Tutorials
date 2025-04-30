@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/get-list-of-available-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get List Of Available Fonts
@@ -119,9 +122,13 @@ Yes, you can retrieve font details from any font source by specifying the index 
 ### Does Aspose.Words for .NET support font substitution?
 Yes, it supports font substitution to ensure that text is rendered correctly even if the original font is not available.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

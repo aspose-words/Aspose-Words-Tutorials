@@ -1,14 +1,16 @@
 ---
-title: แทรกฟิลด์ที่ซ้อนกัน
-linktitle: แทรกฟิลด์ที่ซ้อนกัน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกฟิลด์แบบซ้อนกันในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา เหมาะสำหรับนักพัฒนาที่ต้องการสร้างเอกสารโดยอัตโนมัติ
-weight: 10
-url: /th/net/working-with-fields/insert-nested-fields/
+"description": "เรียนรู้วิธีการแทรกฟิลด์แบบซ้อนกันในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา เหมาะสำหรับนักพัฒนาที่ต้องการสร้างเอกสารโดยอัตโนมัติ"
+"linktitle": "แทรกฟิลด์ที่ซ้อนกัน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกฟิลด์ที่ซ้อนกัน"
+"url": "/th/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกฟิลด์ที่ซ้อนกัน
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/insert-nested-fields/
 
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจเกี่ยวกับภาษาการเขียนโปรแกรม C#
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกตัวแบ่งหน้า
 
-ต่อไปเราจะแทรกตัวแบ่งหน้าสองสามตัวลงในเอกสาร วิธีนี้จะช่วยให้เราสามารถแสดงฟิลด์ที่ซ้อนกันได้อย่างมีประสิทธิภาพ
+ต่อไปเราจะแทรกตัวแบ่งหน้าลงในเอกสาร วิธีนี้จะช่วยให้เราสามารถแสดงฟิลด์ที่ซ้อนกันได้อย่างมีประสิทธิภาพ
 
 ```csharp
 // แทรกตัวแบ่งหน้า
@@ -115,16 +117,21 @@ doc.Save(dataDir + "InsertNestedFields.docx");
 ใช่ คุณสามารถซ้อนฟิลด์ต่างๆ เช่น DATE, TIME และ AUTHOR ไว้ภายในฟิลด์ IF เพื่อสร้างเนื้อหาแบบไดนามิก
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อลองดูมันดู
+Aspose.Words สำหรับ .NET เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อลองดูมันดู
 
 ### ฉันสามารถใช้ Aspose.Words กับภาษา .NET อื่นๆ ได้หรือไม่
 ใช่ Aspose.Words รองรับภาษา .NET ทั้งหมด รวมถึง VB.NET และ F#
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

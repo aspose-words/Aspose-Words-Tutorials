@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-formfields/insert-form-fields/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Form Fields
@@ -106,9 +109,13 @@ Yes, Aspose.Words for .NET supports various types of form fields, including text
 
 You can download a free trial from [here](https://releases.aspose.com/) and request a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

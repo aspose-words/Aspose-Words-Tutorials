@@ -7,8 +7,11 @@ weight: 10
 url: /java/table-processing/add-table-in-word/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Table In Word
@@ -112,9 +115,13 @@ Yes, Aspose.Words allows you to apply various formatting options to the table ce
 ### Q5: How often is Aspose.Words updated?
 
 Aspose.Words receives regular updates and improvements to ensure compatibility with the latest versions of Microsoft Word and Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การแยกเอกสาร
-linktitle: การแยกเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: 
-weight: 18
-url: /th/java/document-splitting/
+"description": null
+"linktitle": "การแยกเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การแยกเอกสาร"
+"url": "/th/java/document-splitting/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแยกเอกสาร
@@ -32,7 +34,7 @@ url: /th/java/document-splitting/
 
 เรียนรู้วิธีแบ่งเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการประมวลผลเอกสารและการจัดการคำ เพิ่มประสิทธิภาพการทำงานทันที!
 ### [การแบ่งเอกสารออกเป็นหลายไฟล์](./splitting-documents-into-multiple-files/)
-ปลดล็อกพลังของ Aspose.Words สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนของเราในการแบ่งเอกสารออกเป็นไฟล์หลายไฟล์ รับข้อมูลเชิงลึกจากผู้เชี่ยวชาญและตัวอย่างโค้ดต้นฉบับ
+ปลดล็อกพลังของ Aspose.Words สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนของเราในการแบ่งเอกสารออกเป็นหลายไฟล์ รับข้อมูลเชิงลึกจากผู้เชี่ยวชาญและตัวอย่างโค้ดต้นฉบับ
 ### [การแยกเอกสารออกเป็นหน้า HTML](./splitting-documents-into-html-pages/)
 เรียนรู้วิธีแบ่งเอกสาร Word ออกเป็นหน้า HTML โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับจะทำให้กระบวนการนี้ง่ายดายและมีประสิทธิภาพ เริ่มแปลงเอกสารของคุณวันนี้!
 ### [การแยกหน้าเอกสาร](./document-page-separation/)
@@ -41,9 +43,13 @@ url: /th/java/document-splitting/
 เรียนรู้วิธีแยกเนื้อหาเอกสารตามหน้าต่างๆ โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับนี้จะช่วยให้คุณกลายเป็นผู้เชี่ยวชาญได้ในเวลาอันรวดเร็ว
 ### [เทคนิคการแยกและแยกเอกสาร](./document-splitting-extraction-techniques/)
 เรียนรู้การแยกและแยกเอกสารโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดการอย่างมีประสิทธิภาพ ปลดล็อกพลังของ Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

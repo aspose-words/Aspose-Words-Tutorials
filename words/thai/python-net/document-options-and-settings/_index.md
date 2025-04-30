@@ -1,14 +1,16 @@
 ---
-title: ตัวเลือกและการตั้งค่าเอกสาร
-linktitle: ตัวเลือกและการตั้งค่าเอกสาร
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: สำรวจบทช่วยสอน Aspose.Words เกี่ยวกับตัวเลือกและการตั้งค่าเอกสารใน Python และ .NET เรียนรู้การเพิ่มประสิทธิภาพการสร้างและการจัดรูปแบบเอกสารโดยใช้คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ
-weight: 14
-url: /th/python-net/document-options-and-settings/
+"description": "สำรวจบทช่วยสอน Aspose.Words เกี่ยวกับตัวเลือกและการตั้งค่าเอกสารใน Python และ .NET เรียนรู้การเพิ่มประสิทธิภาพการสร้างและการจัดรูปแบบเอกสารโดยใช้คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "ตัวเลือกและการตั้งค่าเอกสาร"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "ตัวเลือกและการตั้งค่าเอกสาร"
+"url": "/th/python-net/document-options-and-settings/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตัวเลือกและการตั้งค่าเอกสาร
@@ -47,9 +49,13 @@ url: /th/python-net/document-options-and-settings/
 เรียนรู้วิธีจัดการคุณสมบัติเอกสารและข้อมูลเมตาโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
 ### [การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ](./document-functionality-web-extensions/)
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

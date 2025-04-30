@@ -1,14 +1,16 @@
 ---
-title: Стили и форматирование таблиц документов с использованием Aspose.Words Python
-linktitle: Стили и форматирование таблиц документов
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как стилизовать и форматировать таблицы документов с помощью Aspose.Words для Python. Создавайте, настраивайте и экспортируйте таблицы с помощью пошаговых руководств и примеров кода. Улучшите презентации документов сегодня!
-weight: 12
-url: /ru/python-net/tables-and-formatting/document-table-styles-formatting/
+"description": "Узнайте, как стилизовать и форматировать таблицы документов с помощью Aspose.Words для Python. Создавайте, настраивайте и экспортируйте таблицы с помощью пошаговых руководств и примеров кода. Улучшите презентации документов сегодня!"
+"linktitle": "Стили и форматирование таблиц документов"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Стили и форматирование таблиц документов с использованием Aspose.Words Python"
+"url": "/ru/python-net/tables-and-formatting/document-table-styles-formatting/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Стили и форматирование таблиц документов с использованием Aspose.Words Python
@@ -38,14 +40,14 @@ url: /ru/python-net/tables-and-formatting/document-table-styles-formatting/
 
 Чтобы создать и вставить таблицы в документы с помощью Aspose.Words для Python, выполните следующие действия:
 
-1.  Создайте таблицу: используйте`DocumentBuilder` класс для создания новой таблицы и указания количества строк и столбцов.
+1. Создайте таблицу: используйте `DocumentBuilder` класс для создания новой таблицы и указания количества строк и столбцов.
 
     ```python
     builder = aw.DocumentBuilder(doc)
     table = builder.start_table()
     ```
 
-2.  Вставка данных: добавьте данные в таблицу с помощью конструктора.`insert_cell` и`write` методы.
+2. Вставка данных: добавьте данные в таблицу с помощью конструктора. `insert_cell` и `write` методы.
 
     ```python
     builder.insert_cell()
@@ -57,7 +59,7 @@ url: /ru/python-net/tables-and-formatting/document-table-styles-formatting/
 
 3. Повторить строки: добавляйте строки и ячейки по мере необходимости, следуя аналогичному шаблону.
 
-4.  Вставьте таблицу в документ: Наконец, вставьте таблицу в документ с помощью`end_table` метод.
+4. Вставьте таблицу в документ: Наконец, вставьте таблицу в документ с помощью `end_table` метод.
 
     ```python
     builder.end_table()
@@ -65,7 +67,7 @@ url: /ru/python-net/tables-and-formatting/document-table-styles-formatting/
 
 ## Применение базового форматирования таблицы
 
- Базовое форматирование таблиц может быть достигнуто с помощью методов, предоставляемых`Table` и`Cell` классы. Вот как можно улучшить внешний вид вашей таблицы:
+Базовое форматирование таблиц может быть достигнуто с помощью методов, предоставляемых `Table` и `Cell` классы. Вот как можно улучшить внешний вид вашей таблицы:
 
 1. Установите ширину столбцов: отрегулируйте ширину столбцов, чтобы обеспечить правильное выравнивание и визуальную привлекательность.
 
@@ -101,7 +103,7 @@ url: /ru/python-net/tables-and-formatting/document-table-styles-formatting/
     table.rows[0].cells[1].cell_format.horizontal_merge = aw.CellMerge.PREVIOUS
     ```
 
-2. Разделение ячеек: Разделение ячеек обратно на отдельные компоненты.
+2. Разделение ячеек: разделение ячеек на отдельные компоненты.
 
     ```python
     cell.cell_format.horizontal_merge = aw.CellMerge.NONE
@@ -194,19 +196,24 @@ pip install aspose-words
 
 ### Можно ли объединить ячейки в таблице?
 
- Да, вы можете объединить ячейки в таблице с помощью`CellMerge` свойство предоставлено Aspose.Words.
+Да, вы можете объединить ячейки в таблице с помощью `CellMerge` свойство предоставлено Aspose.Words.
 
 ### Как экспортировать таблицы в различные форматы?
 
- Вы можете экспортировать свои таблицы в различные форматы, такие как PDF или DOCX, используя`save` метод и указание желаемого формата.
+Вы можете экспортировать свои таблицы в различные форматы, такие как PDF или DOCX, используя `save` метод и указание желаемого формата.
 
 ### Где я могу узнать больше об Aspose.Words для Python?
 
- Для получения полной документации и ссылок посетите[Ссылки на API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+Для получения полной документации и ссылок посетите [Ссылки на API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

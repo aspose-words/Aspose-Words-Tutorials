@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/document-structure-and-content-manipulation/document-structure-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Structure and Content in Word Documents
@@ -204,9 +207,13 @@ You can save your Word document in PDF format using the following code:
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

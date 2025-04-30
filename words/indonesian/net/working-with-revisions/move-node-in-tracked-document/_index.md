@@ -1,14 +1,16 @@
 ---
-title: Pindahkan Node Dalam Dokumen yang Dilacak
-linktitle: Pindahkan Node Dalam Dokumen yang Dilacak
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memindahkan node dalam dokumen Word yang dilacak menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/working-with-revisions/move-node-in-tracked-document/
+"description": "Pelajari cara memindahkan node dalam dokumen Word yang dilacak menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah. Sempurna untuk pengembang."
+"linktitle": "Pindahkan Node Dalam Dokumen yang Dilacak"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pindahkan Node Dalam Dokumen yang Dilacak"
+"url": "/id/net/working-with-revisions/move-node-in-tracked-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pindahkan Node Dalam Dokumen yang Dilacak
@@ -21,7 +23,7 @@ Hai, penggemar Aspose.Words! Jika Anda pernah perlu memindahkan node dalam dokum
 
 Sebelum kita mulai mengerjakan beberapa kode, mari pastikan Anda memiliki semua yang dibutuhkan:
 
--  Aspose.Words untuk .NET: Unduh[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET yang kompatibel.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C#.
 
@@ -40,7 +42,7 @@ Baiklah, mari kita bagi prosesnya menjadi beberapa langkah yang mudah dikelola. 
 
 ## Langkah 1: Inisialisasi Dokumen
 
- Untuk memulai, kita perlu menginisialisasi dokumen baru dan menggunakan`DocumentBuilder` untuk menambahkan beberapa paragraf.
+Untuk memulai, kita perlu menginisialisasi dokumen baru dan menggunakan `DocumentBuilder` untuk menambahkan beberapa paragraf.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -63,7 +65,7 @@ Console.WriteLine("Paragraph count: {0}", body.Paragraphs.Count);
 
 ## Langkah 2: Mulai Melacak Revisi
 
-Selanjutnya, kita perlu mulai melacak revisi. Hal ini penting karena memungkinkan kita melihat perubahan yang dibuat pada dokumen.
+Selanjutnya, kita perlu mulai melacak revisi. Ini penting karena memungkinkan kita melihat perubahan yang dibuat pada dokumen.
 
 ```csharp
 // Mulai melacak revisi
@@ -122,22 +124,27 @@ Aspose.Words untuk .NET adalah pustaka kelas untuk bekerja dengan dokumen Word s
 
 ### Bagaimana cara melacak revisi dalam dokumen Word menggunakan Aspose.Words?
 
- Untuk melacak revisi, gunakan`StartTrackRevisions` metode pada`Document` objek. Ini akan mengaktifkan pelacakan revisi, yang menunjukkan perubahan apa pun yang dibuat pada dokumen.
+Untuk melacak revisi, gunakan `StartTrackRevisions` metode pada `Document` objek. Ini akan mengaktifkan pelacakan revisi, yang menunjukkan perubahan apa pun yang dibuat pada dokumen.
 
 ### Bisakah saya memindahkan beberapa node di Aspose.Words?
 
-Ya, Anda dapat memindahkan beberapa node dengan mengulanginya dan menggunakan metode seperti`InsertBefore` atau`InsertAfter` untuk menempatkannya di lokasi yang diinginkan.
+Ya, Anda dapat memindahkan beberapa node dengan mengulanginya dan menggunakan metode seperti `InsertBefataue` or `InsertAfter` untuk menempatkannya di lokasi yang diinginkan.
 
 ### Bagaimana cara menghentikan pelacakan revisi di Aspose.Words?
 
- Gunakan`StopTrackRevisions` metode pada`Document` keberatan untuk menghentikan pelacakan revisi.
+Gunakan `StopTrackRevisions` metode pada `Document` keberatan untuk menghentikan pelacakan revisi.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

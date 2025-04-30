@@ -1,14 +1,16 @@
 ---
-title: Pemformatan Font
-linktitle: Pemformatan Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci.
-weight: 10
-url: /id/net/working-with-fonts/font-formatting/
+"description": "Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci."
+"linktitle": "Pemformatan Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pemformatan Font"
+"url": "/id/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemformatan Font
@@ -21,7 +23,7 @@ Memformat font dalam dokumen Word Anda dapat membuat perbedaan besar dalam cara 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## Langkah 1: Menyiapkan Dokumen
 
- Untuk memulai, mari buat dokumen baru dan atur`DocumentBuilder`:
+Untuk memulai, mari buat dokumen baru dan atur `DocumentBuilder`:
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -83,7 +85,7 @@ Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat memform
 ## Pertanyaan yang Sering Diajukan
 
 ### Properti font apa lagi yang dapat saya atur menggunakan Aspose.Words untuk .NET?
- Anda dapat mengatur properti seperti Italic, StrikeThrough, Subscript, Superscript, dan lainnya. Centang[dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap.
+Anda dapat mengatur properti seperti Italic, StrikeThrough, Subscript, Superscript, dan lainnya. Centang [dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap.
 
 ### Bisakah saya mengubah font teks yang ada dalam dokumen?
 Ya, Anda dapat menelusuri dokumen dan menerapkan perubahan font pada teks yang ada. 
@@ -92,13 +94,18 @@ Ya, Anda dapat menelusuri dokumen dan menerapkan perubahan font pada teks yang a
 Tentu saja! Anda dapat menggunakan font apa pun yang terpasang di sistem Anda atau menyematkan font khusus langsung ke dalam dokumen.
 
 ### Bagaimana cara menerapkan gaya font yang berbeda pada bagian teks yang berbeda?
- Gunakan beberapa`DocumentBuilder` contoh atau mengganti pengaturan font antara`Write` panggilan untuk menerapkan gaya yang berbeda pada segmen teks yang berbeda.
+Gunakan beberapa `DocumentBuilder` contoh atau mengganti pengaturan font antara `Write` panggilan untuk menerapkan gaya yang berbeda pada segmen teks yang berbeda.
 
 ### Apakah Aspose.Words untuk .NET mendukung format dokumen lain selain DOCX?
 Ya, ia mendukung berbagai format termasuk PDF, HTML, EPUB, dan banyak lagi. 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

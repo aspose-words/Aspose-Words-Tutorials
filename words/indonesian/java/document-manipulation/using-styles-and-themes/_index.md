@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Gaya dan Tema di Aspose.Words untuk Java
-linktitle: Menggunakan Gaya dan Tema
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menyempurnakan format dokumen dengan Aspose.Words untuk Java. Jelajahi gaya, tema, dan lainnya dalam panduan lengkap ini dengan contoh kode sumber.
-weight: 20
-url: /id/java/document-manipulation/using-styles-and-themes/
+"description": "Pelajari cara menyempurnakan format dokumen dengan Aspose.Words untuk Java. Jelajahi gaya, tema, dan lainnya dalam panduan lengkap ini dengan contoh kode sumber."
+"linktitle": "Menggunakan Gaya dan Tema"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Gaya dan Tema di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Gaya dan Tema di Aspose.Words untuk Java
@@ -25,7 +27,7 @@ Untuk mengambil gaya dari dokumen, Anda dapat menggunakan potongan kode Java ber
 ```java
 Document doc = new Document();
 String styleName = "";
-//Dapatkan koleksi gaya dari dokumen.
+// Dapatkan koleksi gaya dari dokumen.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ Kode ini mengambil gaya yang ditetapkan dalam dokumen dan mencetak namanya.
 
 ## Menyalin Gaya
 
- Untuk menyalin gaya dari satu dokumen ke dokumen lain, Anda dapat menggunakan`copyStylesFromTemplate` metode seperti yang ditunjukkan di bawah ini:
+Untuk menyalin gaya dari satu dokumen ke dokumen lain, Anda dapat menggunakan `copyStylesFromTemplate` metode seperti yang ditunjukkan di bawah ini:
 
 ```java
 @Test
@@ -132,10 +134,15 @@ Anda dapat mengatur properti tema dengan memodifikasi properti objek tema.
 
 ### Bagaimana cara menggunakan pemisah gaya untuk mengganti gaya dalam paragraf yang sama?
 
- Anda dapat memasukkan pemisah gaya menggunakan`insertStyleSeparator` metode dari`DocumentBuilder` kelas.
+Anda dapat memasukkan pemisah gaya menggunakan `insertStyleSeparator` metode dari `DocumentBuilder` kelas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

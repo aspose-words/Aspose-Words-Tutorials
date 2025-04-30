@@ -1,14 +1,16 @@
 ---
-title: Mengkloning dan Menggabungkan Dokumen di Aspose.Words untuk Java
-linktitle: Mengkloning dan Menggabungkan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengkloning dan menggabungkan dokumen di Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
-weight: 27
-url: /id/java/document-manipulation/cloning-and-combining-documents/
+"description": "Pelajari cara mengkloning dan menggabungkan dokumen di Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode sumber."
+"linktitle": "Mengkloning dan Menggabungkan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mengkloning dan Menggabungkan Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/cloning-and-combining-documents/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengkloning dan Menggabungkan Dokumen di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Dalam tutorial ini, kita akan menjelajahi cara mengkloning dan menggabungkan dok
 
 ## Langkah 1: Mengkloning Dokumen
 
- Untuk mengkloning dokumen di Aspose.Words untuk Java, Anda dapat menggunakan`deepClone()` metode. Berikut contoh sederhananya:
+Untuk mengkloning dokumen di Aspose.Words untuk Java, Anda dapat menggunakan `deepClone()` metode. Berikut contoh sederhananya:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -43,7 +45,7 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
- Dalam contoh ini, kami menggunakan`FindReplaceOptions` objek untuk menentukan penangan panggilan balik untuk penggantian.`InsertDocumentAtReplaceHandler` kelas menangani logika penyisipan.
+Dalam contoh ini, kami menggunakan `FindReplaceOptions` objek untuk menentukan penangan panggilan balik untuk penggantian. `InsertDocumentAtReplaceHandler` kelas menangani logika penyisipan.
 
 ## Langkah 3: Memasukkan Dokumen ke Bookmark
 
@@ -57,7 +59,7 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
- Di sini, kita menemukan penanda berdasarkan nama dan menggunakan`insertDocument` metode untuk memasukkan konten`subDoc` dokumen di lokasi penanda.
+Di sini kita menemukan penanda berdasarkan nama dan menggunakan `insertDocument` metode untuk memasukkan konten `subDoc` dokumen di lokasi penanda.
 
 ## Langkah 4: Memasukkan Dokumen Selama Mail Merge
 
@@ -70,7 +72,7 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
- Dalam contoh ini, kami menetapkan panggilan balik penggabungan bidang menggunakan`InsertDocumentAtMailMergeHandler` kelas untuk menangani penyisipan dokumen yang ditentukan oleh bidang "Document_1".
+Dalam contoh ini, kami menetapkan panggilan balik penggabungan bidang menggunakan `InsertDocumentAtMailMergeHandler` kelas untuk menangani penyisipan dokumen yang ditentukan oleh bidang "Document_1".
 
 ## Kesimpulan
 
@@ -80,7 +82,7 @@ Pengklonan dan penggabungan dokumen di Aspose.Words untuk Java dapat dilakukan d
 
 ### Bagaimana cara mengkloning dokumen di Aspose.Words untuk Java?
 
- Anda dapat mengkloning dokumen di Aspose.Words untuk Java menggunakan`deepClone()` metode. Berikut contohnya:
+Anda dapat mengkloning dokumen di Aspose.Words untuk Java menggunakan `deepClone()` metode. Berikut contohnya:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,7 +92,7 @@ clone.save("Your Directory Path" + "ClonedDocument.docx");
 
 ### Bagaimana cara menyisipkan dokumen pada penanda halaman?
 
- Untuk memasukkan dokumen ke dalam bookmark di Aspose.Words untuk Java, Anda dapat menemukan bookmark berdasarkan nama dan kemudian menggunakan`insertDocument` metode untuk memasukkan konten. Berikut contohnya:
+Untuk memasukkan dokumen ke dalam bookmark di Aspose.Words untuk Java, Anda dapat menemukan bookmark berdasarkan nama dan kemudian menggunakan `insertDocument` metode untuk memasukkan konten. Berikut contohnya:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -111,10 +113,15 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
- Dalam contoh ini,`InsertDocumentAtMailMergeHandler`kelas menangani logika penyisipan untuk "DocumentField" selama penggabungan surat.
+Dalam contoh ini, `InsertDocumentAtMailMergeHandler` kelas menangani logika penyisipan untuk "DocumentField" selama penggabungan surat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

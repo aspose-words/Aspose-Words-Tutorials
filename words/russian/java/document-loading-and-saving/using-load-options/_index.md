@@ -1,14 +1,16 @@
 ---
-title: Использование параметров загрузки в Aspose.Words для Java
-linktitle: Использование параметров загрузки
-second_title: API обработки документов Java Aspose.Words
-description: Освоение параметров загрузки в Aspose.Words для Java. Настройте загрузку документов, управляйте шифрованием, преобразуйте фигуры, устанавливайте версии Word и многое другое для эффективной обработки документов Java.
-weight: 11
-url: /ru/java/document-loading-and-saving/using-load-options/
+"description": "Освоение параметров загрузки в Aspose.Words для Java. Настройте загрузку документов, управляйте шифрованием, преобразуйте фигуры, устанавливайте версии Word и многое другое для эффективной обработки документов Java."
+"linktitle": "Использование параметров загрузки"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование параметров загрузки в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование параметров загрузки в Aspose.Words для Java
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- Этот фрагмент кода демонстрирует, как обновить грязные поля в документе.`setUpdateDirtyFields(true)` метод используется для обеспечения обновления грязных полей во время загрузки документа.
+Этот фрагмент кода демонстрирует, как обновить грязные поля в документе. `setUpdateDirtyFields(true)` метод используется для обеспечения обновления грязных полей во время загрузки документа.
 
 ## Загрузить зашифрованный документ
 
@@ -40,7 +42,7 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- Здесь мы загружаем зашифрованный документ с использованием пароля.`LoadOptions` конструктор принимает пароль документа, и вы также можете указать новый пароль при сохранении документа, используя`OdtSaveOptions`.
+Здесь мы загружаем зашифрованный документ с использованием пароля. `LoadOptions` конструктор принимает пароль документа, и вы также можете указать новый пароль при сохранении документа, используя `OdtSaveOptions`.
 
 ## Преобразовать форму в офисную математику
 
@@ -52,7 +54,7 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- Этот код демонстрирует, как преобразовывать фигуры в объекты Office Math во время загрузки документа.`setConvertShapeToOfficeMath(true)`метод позволяет осуществить это преобразование.
+Этот код демонстрирует, как преобразовывать фигуры в объекты Office Math во время загрузки документа. `setConvertShapeToOfficeMath(true)` метод позволяет осуществить это преобразование.
 
 ## Установить версию MS Word
 
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- Вы можете указать версию MS Word для загрузки документа. В этом примере мы устанавливаем версию Microsoft Word 2010 с помощью`setMswVersion`.
+Вы можете указать версию MS Word для загрузки документа. В этом примере мы устанавливаем версию Microsoft Word 2010 с помощью `setMswVersion`.
 
 ## Использовать временную папку
 
@@ -81,7 +83,7 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- Установив временную папку с помощью`setTempFolder`, вы можете контролировать, где будут храниться временные файлы во время обработки документа.
+Установив временную папку с помощью `setTempFolder`, вы можете контролировать, где будут храниться временные файлы во время обработки документа.
 
 ## Предупреждение Обратный звонок
 
@@ -117,7 +119,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- Чтобы преобразовать метафайлы (например, WMF) в изображения PNG во время загрузки документа, можно использовать`setConvertMetafilesToPng(true)` метод.
+Чтобы преобразовать метафайлы (например, WMF) в изображения PNG во время загрузки документа, можно использовать `setConvertMetafilesToPng(true)` метод.
 
 ## Полный исходный код для работы с параметрами загрузки в Aspose.Words для Java
 
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//Печатает предупреждения и их подробности по мере их появления во время загрузки документа.
+		// Печатает предупреждения и их подробности по мере их появления во время загрузки документа.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -204,22 +206,27 @@ public void loadChm() throws Exception {
 
 ### Как обрабатывать предупреждения во время загрузки документа?
 
- Вы можете настроить обратный вызов предупреждения, как показано на рисунке.`warningCallback()` Метод выше. Настройте`DocumentLoadingWarningCallback` класс для обработки предупреждений в соответствии с требованиями вашего приложения.
+Вы можете настроить обратный вызов предупреждения, как показано на рисунке. `warningCallback()` Метод выше. Настройте `DocumentLoadingWarningCallback` класс для обработки предупреждений в соответствии с требованиями вашего приложения.
 
 ### Можно ли преобразовывать фигуры в объекты Office Math при загрузке документа?
 
- Да, вы можете преобразовывать фигуры в объекты Office Math с помощью`loadOptions.setConvertShapeToOfficeMath(true)`.
+Да, вы можете преобразовывать фигуры в объекты Office Math с помощью `loadOptions.setConvertShapeToOfficeMath(true)`.
 
 ### Как указать версию MS Word для загрузки документа?
 
- Использовать`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` указать версию MS Word для загрузки документа.
+Использовать `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` указать версию MS Word для загрузки документа.
 
-###  Какова цель`setTempFolder` method in Load Options?
+### Какова цель `setTempFolder` метод в параметрах загрузки?
 
- The`setTempFolder`Метод позволяет указать папку, в которой будут храниться временные файлы во время обработки документа.
+The `setTempFolder` Метод позволяет указать папку, в которой будут храниться временные файлы во время обработки документа.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

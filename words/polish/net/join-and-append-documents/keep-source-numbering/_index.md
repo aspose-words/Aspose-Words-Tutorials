@@ -1,27 +1,29 @@
 ---
-title: Zachowaj numerację źródłową
-linktitle: Zachowaj numerację źródłową
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak importować dokumenty, zachowując formatowanie, korzystając z Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami kodu.
-weight: 10
-url: /pl/net/join-and-append-documents/keep-source-numbering/
+"description": "Dowiedz się, jak importować dokumenty, zachowując formatowanie, korzystając z Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Zachowaj numerację źródłową"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zachowaj numerację źródłową"
+"url": "/pl/net/join-and-append-documents/keep-source-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zachowaj numerację źródłową
 
 ## Wstęp
 
- Podczas pracy z Aspose.Words dla .NET można sprawnie importować dokumenty z jednego źródła do drugiego, zachowując przy tym formatowanie, korzystając z`NodeImporter` klasa. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
+Podczas pracy z Aspose.Words dla .NET można sprawnie importować dokumenty z jednego źródła do drugiego, zachowując przy tym formatowanie, korzystając z `NodeImporter` klasa. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
 
 ## Wymagania wstępne
 
 Przed rozpoczęciem upewnij się, że masz następujące rzeczy:
 - Na Twoim komputerze zainstalowano program Visual Studio.
--  Aspose.Words dla .NET zainstalowany. Jeśli nie, pobierz go z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET zainstalowany. Jeśli nie, pobierz go z [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość programowania w języku C# i .NET.
 
 ## Importuj przestrzenie nazw
@@ -42,7 +44,7 @@ Zacznij od utworzenia nowego projektu C# w programie Visual Studio i zainstaluj 
 Utwórz wystąpienia źródła (`srcDoc`) i miejsce docelowe (`dstDoc`) dokumentów.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -79,15 +81,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 
 ## Wniosek
 
- Podsumowując, używanie Aspose.Words dla .NET do importowania dokumentów z zachowaniem formatowania jest proste dzięki`NodeImporter` Klasa. Ta metoda zapewnia, że Twoje dokumenty zachowają swój oryginalny wygląd i strukturę bezproblemowo.
+Podsumowując, używanie Aspose.Words dla .NET do importowania dokumentów z zachowaniem formatowania jest proste dzięki `NodeImporter` Klasa. Ta metoda zapewnia, że Twoje dokumenty zachowają swój oryginalny wygląd i strukturę bezproblemowo.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę importować dokumenty z różnymi stylami formatowania?
- Tak,`NodeImporter` Klasa obsługuje importowanie dokumentów o różnych stylach formatowania.
+Tak, `NodeImporter` Klasa obsługuje importowanie dokumentów o różnych stylach formatowania.
 
 ### Co zrobić, jeśli moje dokumenty zawierają skomplikowane tabele i obrazy?
-Aspose.Words dla platformy .NET obsługuje złożone struktury, takie jak tabele i obrazy, podczas operacji importowania.
+Aspose.Words dla .NET obsługuje złożone struktury, takie jak tabele i obrazy, podczas operacji importowania.
 
 ### Czy Aspose.Words jest kompatybilny ze wszystkimi wersjami .NET?
 Aspose.Words obsługuje wersje .NET Framework i .NET Core, co umożliwia bezproblemową integrację.
@@ -96,11 +98,16 @@ Aspose.Words obsługuje wersje .NET Framework i .NET Core, co umożliwia bezprob
 Użyj bloków try-catch do obsługi wyjątków, które mogą wystąpić w trakcie procesu importowania.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą Aspose.Words dla .NET?
- Odwiedź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+Odwiedź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

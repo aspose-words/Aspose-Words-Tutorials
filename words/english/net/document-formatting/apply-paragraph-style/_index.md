@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-formatting/apply-paragraph-style/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Paragraph Style In Word Document
@@ -109,9 +112,13 @@ Yes, Aspose.Words for .NET is compatible with any .NET language like VB.NET, F#,
 Yes, you can get a free trial [here](https://releases.aspose.com/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

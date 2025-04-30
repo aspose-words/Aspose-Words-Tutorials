@@ -1,37 +1,39 @@
 ---
-title: Řízení obsahu formátovaného textového pole
-linktitle: Řízení obsahu formátovaného textového pole
-second_title: Aspose.Words API pro zpracování dokumentů
-description: V tomto podrobném podrobném průvodci se dozvíte, jak přidat a upravit ovládací prvek obsahu textového pole ve formátu RTF v dokumentu aplikace Word pomocí Aspose.Words for .NET.
-weight: 10
-url: /cs/net/programming-with-sdt/rich-text-box-content-control/
+"description": "Naučte se, jak přidat a přizpůsobit ovládací prvek obsahu rámečku s formátovaným textem v dokumentu Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem."
+"linktitle": "Ovládací prvek obsahu pole s formátovaným textem"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Ovládací prvek obsahu pole s formátovaným textem"
+"url": "/cs/net/programming-with-sdt/rich-text-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Řízení obsahu formátovaného textového pole
+# Ovládací prvek obsahu pole s formátovaným textem
 
 ## Zavedení
 
-Ve světě zpracování dokumentů může možnost přidávat interaktivní prvky do dokumentů aplikace Word výrazně zlepšit jejich funkčnost. Jedním z takových interaktivních prvků je ovládací prvek obsahu pole Rich Text Box. Pomocí Aspose.Words for .NET můžete do dokumentů snadno vkládat a upravovat formátované textové pole. Tato příručka vás provede procesem krok za krokem a zajistí, že pochopíte, jak tuto funkci efektivně implementovat.
+Ve světě zpracování dokumentů může možnost přidávat interaktivní prvky do dokumentů Wordu výrazně vylepšit jejich funkčnost. Jedním z takových interaktivních prvků je ovládací prvek obsahu rámečku s formátovaným textem. Pomocí Aspose.Words pro .NET můžete snadno vkládat a přizpůsobovat rámeček s formátovaným textem do svých dokumentů. Tato příručka vás krok za krokem provede celým procesem a zajistí, že pochopíte, jak tuto funkci efektivně implementovat.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující:
+Než se pustíte do tutoriálu, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou aplikaci Aspose.Words for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovaný Aspose.Words pro .NET. Pokud ho ještě nemáte, můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/).
 
-2. Visual Studio: Vývojové prostředí jako Visual Studio vám pomůže napsat a spustit kód.
+2. Visual Studio: Vývojové prostředí, jako je Visual Studio, vám pomůže s psaním a spouštěním kódu.
 
-3. Základní znalost C#: Prospěšná bude znalost programování C# a .NET, protože budeme psát kód v tomto jazyce.
+3. Základní znalost C#: Znalost programování v C# a .NET bude výhodou, protože budeme psát kód v tomto jazyce.
 
 4. .NET Framework: Ujistěte se, že váš projekt cílí na kompatibilní verzi rozhraní .NET Framework.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte do projektu C# zahrnout potřebné jmenné prostory. To vám umožňuje používat třídy a metody poskytované Aspose.Words.
+Abyste mohli začít, musíte do svého projektu v C# zahrnout potřebné jmenné prostory. To vám umožní používat třídy a metody poskytované Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -39,42 +41,42 @@ using Aspose.Words.Saving;
 using System.Drawing;
 ```
 
-Nyní si rozeberme proces přidávání ovládacího prvku obsahu pole Rich Text Box do dokumentu aplikace Word.
+Nyní si rozebereme proces přidání ovládacího prvku obsahu rámečku s formátovaným textem do dokumentu Word.
 
-## Krok 1: Definujte cestu k adresáři vašeho dokumentu
+## Krok 1: Definujte cestu k adresáři dokumentů
 
 Nejprve zadejte cestu, kam chcete dokument uložit. Zde bude uložen vygenerovaný soubor.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit.
 
 ## Krok 2: Vytvořte nový dokument
 
- Vytvořte nový`Document` objekt, který bude sloužit jako základ pro váš dokument Word.
+Vytvořit nový `Document` objekt, který bude sloužit jako základ pro váš dokument Wordu.
 
 ```csharp
 Document doc = new Document();
 ```
 
-Tím se inicializuje prázdný dokument aplikace Word, do kterého přidáte svůj obsah.
+Tím se inicializuje prázdný dokument Wordu, do kterého budete přidávat svůj obsah.
 
-## Krok 3: Vytvořte značku strukturovaného dokumentu pro formát RTF
+## Krok 3: Vytvořte tag strukturovaného dokumentu pro formátovaný text
 
- Chcete-li přidat pole Rich Text Box, musíte vytvořit a`StructuredDocumentTag` (SDT) typu`RichText`.
+Chcete-li přidat pole s formátovaným textem, musíte vytvořit `StructuredDocumentTag` (SDT) typu `RichText`.
 
 ```csharp
 StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 ```
 
- Zde,`SdtType.RichText` určuje, že SDT bude formátované textové pole a`MarkupLevel.Block` definuje jeho chování v dokumentu.
+Zde, `SdtType.RichText` určuje, že SDT bude formátované textové pole (RIF) a `MarkupLevel.Block` definuje jeho chování v dokumentu.
 
-## Krok 4: Přidejte obsah do pole RTF
+## Krok 4: Přidání obsahu do pole s formátovaným textem
 
- Vytvořte a`Paragraph` a a`Run` objekt pro uložení obsahu, který chcete zobrazit v poli RTF. Upravte text a formátování podle potřeby.
+Vytvořte `Paragraph` a `Run` objekt pro uložení obsahu, který chcete zobrazit v poli s formátovaným textem. Upravte text a formátování podle potřeby.
 
 ```csharp
 Paragraph para = new Paragraph(doc);
@@ -85,52 +87,57 @@ para.Runs.Add(run);
 sdtRichText.ChildNodes.Add(para);
 ```
 
-tomto příkladu přidáváme odstavec obsahující text „Hello World“ se zelenou barvou písma do pole Rich Text Box.
+V tomto příkladu přidáváme do pole RTF odstavec obsahující text „Hello World“ se zelenou barvou písma.
 
-## Krok 5: Připojte k dokumentu pole RTF
+## Krok 5: Připojení pole RTF k dokumentu
 
- Přidejte`StructuredDocumentTag` do těla dokumentu.
+Přidejte `StructuredDocumentTag` k tělu dokumentu.
 
 ```csharp
 doc.FirstSection.Body.AppendChild(sdtRichText);
 ```
 
-Tento krok zajistí, že pole RTF bude zahrnuto do obsahu dokumentu.
+Tento krok zajistí, že pole RTF bude zahrnuto v obsahu dokumentu.
 
 ## Krok 6: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře.
+Nakonec uložte dokument do zadaného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithSdt.RichTextBoxContentControl.docx");
 ```
 
-Tím se vytvoří nový dokument aplikace Word s ovládacím prvkem obsahu pole RTF.
+Tím se vytvoří nový dokument Wordu s vaším ovládacím prvkem obsahu pole RTF.
 
 ## Závěr
 
-Přidání řízení obsahu RTF pomocí Aspose.Words for .NET je přímočarý proces, který zvyšuje interaktivitu vašich dokumentů Word. Podle kroků uvedených v této příručce můžete snadno integrovat formátovaný textový rámeček do svých dokumentů a přizpůsobit jej tak, aby vyhovoval vašim potřebám.
+Přidání ovládacího prvku obsahu rámečku s formátovaným textem pomocí Aspose.Words pro .NET je jednoduchý proces, který vylepšuje interaktivitu vašich dokumentů Word. Dodržováním kroků popsaných v této příručce můžete snadno integrovat rámeček s formátovaným textem do svých dokumentů a přizpůsobit ho svým potřebám.
 
-## FAQ
+## Často kladené otázky
 
-### Co je to značka strukturovaného dokumentu (SDT)?
-Značka strukturovaného dokumentu (SDT) je typ ovládacího prvku obsahu v dokumentech aplikace Word používaný k přidávání interaktivních prvků, jako jsou textová pole a rozevírací seznamy.
+### Co je to tag strukturovaného dokumentu (SDT)?
+Tag strukturovaného dokumentu (SDT) je typ ovládacího prvku obsahu v dokumentech aplikace Word, který se používá k přidávání interaktivních prvků, jako jsou textová pole a rozevírací seznamy.
 
-### Mohu přizpůsobit vzhled pole s formátovaným textem?
- Ano, vzhled si můžete přizpůsobit úpravou vlastností`Run`objekt, jako je barva, velikost a styl písma.
+### Mohu si přizpůsobit vzhled pole s formátovaným textem?
+Ano, vzhled si můžete přizpůsobit úpravou vlastností `Run` objektu, jako je barva písma, velikost a styl.
 
 ### Jaké další typy SDT mohu použít s Aspose.Words?
-Kromě formátovaného textu podporuje Aspose.Words další typy SDT, jako je prostý text, výběr data a rozevírací seznam.
+Kromě formátovaného textu (Rich Text) podporuje Aspose.Words i další typy SDT, jako je prostý text, výběr data a rozevírací seznam.
 
-### Jak do dokumentu přidám více formátovaných textových polí?
- Můžete vytvořit více`StructuredDocumentTag` instance a přidat je postupně do těla dokumentu.
+### Jak přidám do dokumentu více rámečků s formátovaným textem?
+Můžete vytvořit více `StructuredDocumentTag` instance a postupně je přidávat do těla dokumentu.
 
 ### Mohu použít Aspose.Words k úpravě existujících dokumentů?
-Ano, Aspose.Words vám umožňuje otevírat, upravovat a ukládat existující dokumenty aplikace Word, včetně přidávání nebo aktualizace SDT.
+Ano, Aspose.Words umožňuje otevírat, upravovat a ukládat existující dokumenty Wordu, včetně přidávání nebo aktualizace SDT.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

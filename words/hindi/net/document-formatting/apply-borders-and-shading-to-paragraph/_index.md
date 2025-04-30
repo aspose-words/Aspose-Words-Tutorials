@@ -1,14 +1,16 @@
 ---
-title: वर्ड डॉक्यूमेंट में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें
-linktitle: वर्ड डॉक्यूमेंट में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें। अपने दस्तावेज़ फ़ॉर्मेटिंग को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें। अपने दस्तावेज़ फ़ॉर्मेटिंग को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड डॉक्यूमेंट में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड डॉक्यूमेंट में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें"
+"url": "/hi/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड डॉक्यूमेंट में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें
@@ -21,10 +23,10 @@ url: /hi/net/document-formatting/apply-borders-and-shading-to-paragraph/
 
 इससे पहले कि हम अपनी आस्तीन ऊपर चढ़ाएं और कोडिंग में उतरें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। यहाँ आपकी त्वरित चेकलिस्ट है:
 
--  Aspose.Words for .NET: आपको यह लाइब्रेरी इंस्टॉल करनी होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपको यह लाइब्रेरी इंस्टॉल करनी होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य IDE जो .NET का समर्थन करता है।
 - C# का बुनियादी ज्ञान: कोड स्निपेट को समझने और उसमें सुधार करने के लिए पर्याप्त।
-- वैध लाइसेंस: या तो[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या किसी से खरीदा हुआ[असपोज](https://purchase.aspose.com/buy).
+- वैध लाइसेंस: या तो [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या किसी से खरीदा हुआ [असपोज](https://purchase.aspose.com/buy).
 
 ## नामस्थान आयात करें
 
@@ -48,18 +50,18 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- यह निर्देशिका वह जगह है जहाँ आपका अंतिम दस्तावेज़ सहेजा जाएगा।`"YOUR DOCUMENT DIRECTORY"` आपके मशीन पर वास्तविक पथ के साथ.
+यह निर्देशिका वह जगह है जहाँ आपका अंतिम दस्तावेज़ सहेजा जाएगा। `"YOUR DOCUMENT DIRECTORY"` आपके मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: नया दस्तावेज़ और दस्तावेज़बिल्डर बनाएँ
 
- इसके बाद, हमें एक नया दस्तावेज़ और एक बनाना होगा`DocumentBuilder` वस्तु.`DocumentBuilder` यह हमारी जादुई छड़ी है जो हमें दस्तावेज़ में हेरफेर करने देती है।
+इसके बाद, हमें एक नया दस्तावेज़ और एक बनाना होगा `DocumentBuilder` वस्तु. `DocumentBuilder` यह हमारी जादुई छड़ी है जो हमें दस्तावेज़ में हेरफेर करने देती है।
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-`Document` ऑब्जेक्ट हमारे संपूर्ण वर्ड दस्तावेज़ का प्रतिनिधित्व करता है, और`DocumentBuilder` हमें सामग्री जोड़ने और प्रारूपित करने में मदद करता है.
+The `Document` ऑब्जेक्ट हमारे संपूर्ण वर्ड दस्तावेज़ का प्रतिनिधित्व करता है, और `DocumentBuilder` हमें सामग्री जोड़ने और प्रारूपित करने में मदद करता है.
 
 ## चरण 3: पैराग्राफ़ की सीमाएँ निर्धारित करें
 
@@ -91,7 +93,7 @@ shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 
 ## चरण 5: पैराग्राफ़ में टेक्स्ट जोड़ें
 
-बिना पाठ के पैराग्राफ़ क्या होता है? आइए एक नमूना वाक्य जोड़ें और देखें कि हमारा फ़ॉर्मेटिंग कैसे काम करता है।
+बिना पाठ के पैराग्राफ़ क्या होता है? आइए एक नमूना वाक्य जोड़कर देखें कि हमारा फ़ॉर्मेटिंग कैसे काम करता है।
 
 ```csharp
 builder.Write("I'm a formatted paragraph with double border and nice shading.");
@@ -107,7 +109,7 @@ builder.Write("I'm a formatted paragraph with double border and nice shading.");
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- यह हमारे दस्तावेज़ को इस नाम से सहेजता है`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` उस निर्देशिका में जिसे हमने पहले निर्दिष्ट किया था।
+यह हमारे दस्तावेज़ को इस नाम से सहेजता है `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` उस निर्देशिका में जिसे हमने पहले निर्दिष्ट किया था।
 
 ## निष्कर्ष
 
@@ -116,23 +118,28 @@ doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं प्रत्येक बॉर्डर के लिए अलग-अलग लाइन शैलियों का उपयोग कर सकता हूँ?  
- बिलकुल! Aspose.Words for .NET आपको प्रत्येक बॉर्डर को व्यक्तिगत रूप से कस्टमाइज़ करने की अनुमति देता है। बस सेट करें`LineStyle` प्रत्येक बॉर्डर प्रकार के लिए, जैसा कि गाइड में दिखाया गया है।
+बिलकुल! Aspose.Words for .NET आपको प्रत्येक बॉर्डर को व्यक्तिगत रूप से कस्टमाइज़ करने की अनुमति देता है। बस सेट करें `LineStyle` प्रत्येक बॉर्डर प्रकार के लिए, जैसा कि गाइड में दिखाया गया है।
 
 ### अन्य कौन सी छायांकन बनावटें उपलब्ध हैं?  
- आप कई तरह की बनावट का इस्तेमाल कर सकते हैं, जैसे कि ठोस, क्षैतिज पट्टी, ऊर्ध्वाधर पट्टी, और भी बहुत कुछ।[Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) पूरी सूची के लिए यहां क्लिक करें.
+आप कई तरह की बनावट का इस्तेमाल कर सकते हैं, जैसे कि ठोस, क्षैतिज पट्टी, ऊर्ध्वाधर पट्टी, और भी बहुत कुछ। [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) पूरी सूची के लिए यहां क्लिक करें.
 
 ### मैं बॉर्डर का रंग कैसे बदल सकता हूँ?  
- आप बॉर्डर का रंग सेट कर सकते हैं`Color` प्रत्येक सीमा के लिए संपत्ति। उदाहरण के लिए,`borders[BorderType.Left].Color = Color.Red;`.
+आप बॉर्डर का रंग सेट कर सकते हैं `Color` प्रत्येक सीमा के लिए संपत्ति। उदाहरण के लिए, `borders[BorderType.Left].Color = Color.Red;`.
 
 ### क्या पाठ के किसी विशिष्ट भाग पर बॉर्डर और छायांकन लागू करना संभव है?  
- हां, आप इसका उपयोग करके पाठ के विशिष्ट भागों पर बॉर्डर और छायांकन लागू कर सकते हैं`Run` वस्तु के भीतर`DocumentBuilder`.
+हां, आप इसका उपयोग करके पाठ के विशिष्ट भागों पर बॉर्डर और छायांकन लागू कर सकते हैं `Run` वस्तु के भीतर `DocumentBuilder`.
 
 ### क्या मैं एकाधिक पैराग्राफों के लिए इस प्रक्रिया को स्वचालित कर सकता हूँ?  
-निश्चित रूप से! आप अपने पैराग्राफ़ में लूप कर सकते हैं और समान बॉर्डर और शेडिंग सेटिंग को प्रोग्रामेटिक रूप से लागू कर सकते हैं।
+निश्चित रूप से! आप अपने पैराग्राफ़ में लूप कर सकते हैं और प्रोग्रामेटिक रूप से समान बॉर्डर और शेडिंग सेटिंग लागू कर सकते हैं।
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

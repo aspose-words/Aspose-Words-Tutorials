@@ -1,14 +1,16 @@
 ---
-title: Hapus Komentar Dalam File Pdf
-linktitle: Hapus Komentar Dalam File Pdf
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus komentar dari berkas PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/working-with-revisions/remove-comments-in-pdf/
+"description": "Pelajari cara menghapus komentar dari berkas PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Hapus Komentar Dalam File Pdf"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Komentar Dalam File Pdf"
+"url": "/id/net/working-with-revisions/remove-comments-in-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Komentar Dalam File Pdf
@@ -21,7 +23,7 @@ Hai, rekan-rekan pengembang! Pernahkah Anda terjebak dalam kekacauan komentar sa
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Setiap IDE yang kompatibel dengan .NET, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Akan sangat membantu jika Anda memahami dasar-dasar pemrograman C#.
 4. Dokumen dengan Komentar: Kita memerlukan dokumen Word (.docx) dengan komentar untuk pengujian.
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Dalam cuplikan ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Kami memuat dokumen bernama`Revisions.docx`.
+Dalam cuplikan ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Kami memuat dokumen bernama `Revisions.docx`.
 
 ## Langkah 2: Sembunyikan Komentar di PDF
 
@@ -83,22 +85,27 @@ Ingat, latihan akan menghasilkan kesempurnaan. Jadi, lanjutkan dan cobalah ini p
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana jika saya ingin menyimpan beberapa komentar tetapi menghapus yang lain?
- Anda dapat menyembunyikan komentar secara selektif dengan memanipulasi node komentar secara langsung di dalam dokumen sebelum mengaturnya.`CommentDisplayMode`.
+Anda dapat menyembunyikan komentar secara selektif dengan memanipulasi node komentar secara langsung di dalam dokumen sebelum mengaturnya. `CommentDisplayMode`.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk format file lain selain PDF?
 Tentu saja! Aspose.Words mendukung berbagai format file termasuk DOCX, TXT, HTML, dan banyak lagi.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.Words?
- Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan atas masalah yang mungkin Anda hadapi.
+Anda dapat mengunjungi [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan atas masalah yang mungkin Anda hadapi.
 
 ### Bagaimana saya dapat membeli lisensi untuk Aspose.Words?
- Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi dari [Di Sini](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

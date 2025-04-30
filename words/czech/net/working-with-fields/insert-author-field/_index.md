@@ -1,78 +1,80 @@
 ---
-title: Vložit pole autora
-linktitle: Vložit pole autora
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit pole autora do dokumentu aplikace Word pomocí Aspose.Words for .NET pomocí našeho podrobného průvodce. Ideální pro automatizaci tvorby dokumentů.
-weight: 10
-url: /cs/net/working-with-fields/insert-author-field/
+"description": "Naučte se, jak vložit pole autora do dokumentu Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro automatizaci vytváření dokumentů."
+"linktitle": "Vložit pole autora"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole autora"
+"url": "/cs/net/working-with-fields/insert-author-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vložit pole autora
 
 ## Zavedení
 
-V tomto tutoriálu se ponoříme do toho, jak vložit pole autora do dokumentu aplikace Word pomocí Aspose.Words for .NET. Ať už automatizujete vytváření dokumentů pro vaši firmu, nebo si jednoduše chcete přizpůsobit své soubory, tento podrobný průvodce vás pokryje. Projdeme vším od nastavení vašeho prostředí až po uložení hotového dokumentu. Začněme!
+V tomto tutoriálu se ponoříme do detailů, jak vložit pole autora do dokumentu Wordu pomocí Aspose.Words pro .NET. Ať už automatizujete vytváření dokumentů pro svou firmu, nebo si chcete jednoduše přizpůsobit soubory, tento podrobný návod vám pomůže. Provedeme vás vším od nastavení prostředí až po uložení hotového dokumentu. Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do tutoriálu, ujistěme se, že máte vše, co potřebujete:
 
--  Aspose.Words for .NET Library: Můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
-- Visual Studio: Zde napíšeme a spustíme náš kód.
-- .NET Framework: Ujistěte se, že je na vašem počítači nainstalováno.
-- Základní znalost C#: Znalost programování v C# vám pomůže pokračovat.
+- Aspose.Words pro knihovnu .NET: Můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
+- Visual Studio: Zde budeme psát a spouštět náš kód.
+- .NET Framework: Ujistěte se, že jej máte nainstalovaný na svém počítači.
+- Základní znalost C#: Znalost programování v C# vám pomůže se v textu orientovat.
 
-Jakmile budete mít tyto předpoklady připraveny, můžeme začít.
+Jakmile budete mít tyto předpoklady připravené, můžeme začít.
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory. To nám umožní používat třídy a metody poskytované Aspose.Words.
+Nejdříve musíme importovat potřebné jmenné prostory. To nám umožní používat třídy a metody poskytované Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Nyní, když jsme naimportovali jmenné prostory, přejděme k podrobnému průvodci.
+Nyní, když jsme importovali jmenné prostory, pojďme k podrobnému návodu.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Chcete-li začít, musíme nastavit nový projekt ve Visual Studiu. Pokud již máte projekt, můžete tento krok přeskočit.
+Pro začátek musíme ve Visual Studiu nastavit nový projekt. Pokud již projekt máte, můžete tento krok přeskočit.
 
 ### Vytvořit nový projekt
 
-1. Otevřete Visual Studio: Spusťte Visual Studio na vašem počítači.
+1. Otevření Visual Studia: Spusťte Visual Studio na svém počítači.
 2. Vytvořit nový projekt: Klikněte na „Vytvořit nový projekt“.
-3. Vyberte typ projektu: Vyberte „Console App“ s jazykem C#.
-4. Nakonfigurujte svůj projekt: Pojmenujte svůj projekt a vyberte umístění pro jeho uložení. Klikněte na „Vytvořit“.
+3. Vyberte typ projektu: Zvolte „Konzolová aplikace“ s jazykem C#.
+4. Konfigurace projektu: Pojmenujte projekt a vyberte umístění pro jeho uložení. Klikněte na tlačítko „Vytvořit“.
 
-### Nainstalujte Aspose.Words for .NET
+### Instalace Aspose.Words pro .NET
 
-Dále musíme nainstalovat knihovnu Aspose.Words. Můžete to udělat prostřednictvím Správce balíčků NuGet.
+Dále musíme nainstalovat knihovnu Aspose.Words. To lze provést pomocí Správce balíčků NuGet.
 
-1. Otevřete Správce balíčků NuGet: Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a poté klikněte na „Spravovat balíčky NuGet“.
-2. Hledat Aspose.Words: Na kartě Procházet vyhledejte "Aspose.Words."
+1. Otevřete Správce balíčků NuGet: V Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt a poté klikněte na „Spravovat balíčky NuGet“.
+2. Hledání Aspose.Words: Na kartě Procházet vyhledejte „Aspose.Words“.
 3. Instalace balíčku: Klikněte na „Aspose.Words“ a poté klikněte na „Instalovat“.
 
-S nastavením projektu a nainstalovanými potřebnými balíčky přejdeme k psaní našeho kódu.
+S nastavením projektu a instalací potřebných balíčků se můžeme pustit do psaní kódu.
 
-## Krok 2: Inicializujte dokument
+## Krok 2: Inicializace dokumentu
 
-V tomto kroku vytvoříme nový dokument aplikace Word a přidáme do něj odstavec.
+V tomto kroku vytvoříme nový dokument Wordu a přidáme do něj odstavec.
 
-### Vytvořte a inicializujte dokument
+### Vytvoření a inicializace dokumentu
 
-1.  Vytvořit nový dokument: Začneme vytvořením nové instance souboru`Document` třída.
+1. Vytvoření nového dokumentu: Začneme vytvořením nové instance `Document` třída.
 
 ```csharp
 Document doc = new Document();
 ```
 
-2. Přidat odstavec: Dále do dokumentu přidáme odstavec.
+2. Přidání odstavce: Dále do dokumentu přidáme odstavec.
 
 ```csharp
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
@@ -82,23 +84,23 @@ Do tohoto odstavce vložíme pole autora.
 
 ## Krok 3: Vložte pole Autor
 
-Nyní je čas vložit pole autora do našeho dokumentu.
+Nyní je čas vložit do našeho dokumentu pole autora.
 
-### Připojte pole Autor
+### Přidat pole Autor
 
-1.  Vložte pole: Použijte`AppendField` metoda pro vložení pole autora do odstavce.
+1. Vložení pole: Použijte `AppendField` metoda pro vložení pole autora do odstavce.
 
 ```csharp
 FieldAuthor field = (FieldAuthor)para.AppendField(FieldType.FieldAuthor, false);
 ```
 
-2. Nastavit jméno autora: Nastavte jméno autora. Toto je jméno, které se objeví v dokumentu.
+2. Nastavte jméno autora: Nastavte jméno autora. Toto jméno se bude zobrazovat v dokumentu.
 
 ```csharp
 field.AuthorName = "Test1";
 ```
 
-3. Aktualizace pole: Nakonec aktualizujte pole, aby se jméno autora zobrazilo správně.
+3. Aktualizace pole: Nakonec aktualizujte pole, abyste zajistili správné zobrazení jména autora.
 
 ```csharp
 field.Update();
@@ -108,7 +110,7 @@ field.Update();
 
 Posledním krokem je uložení dokumentu do vámi určeného adresáře.
 
-### Uložte svůj dokument
+### Uložte si dokument
 
 1. Zadejte adresář: Definujte cestu, kam chcete dokument uložit.
 
@@ -116,42 +118,47 @@ Posledním krokem je uložení dokumentu do vámi určeného adresáře.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-2.  Uložit dokument: Použijte`Save` způsob uložení dokumentu.
+2. Uložení dokumentu: Použijte `Save` způsob uložení dokumentu.
 
 ```csharp
 doc.Save(dataDir + "InsertionAuthorField.docx");
 ```
 
-A tady to máte! Úspěšně jste vložili pole autora do dokumentu aplikace Word pomocí Aspose.Words for .NET.
+tady to máte! Úspěšně jste vložili pole autora do dokumentu Word pomocí Aspose.Words pro .NET.
 
 ## Závěr
 
-Vložení pole autora do dokumentu aplikace Word pomocí Aspose.Words for .NET je jednoduchý proces. Podle kroků uvedených v této příručce si můžete snadno přizpůsobit své dokumenty. Ať už automatizujete vytváření dokumentů nebo přidáváte osobní přístup, Aspose.Words poskytuje výkonné a flexibilní řešení.
+Vložení pole autora do dokumentu Word pomocí Aspose.Words pro .NET je jednoduchý proces. Dodržováním kroků uvedených v této příručce si můžete snadno přizpůsobit své dokumenty. Ať už automatizujete vytváření dokumentů nebo jim přidáváte osobní nádech, Aspose.Words poskytuje výkonné a flexibilní řešení.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít jiný programovací jazyk než C#?
 
-Aspose.Words for .NET primárně podporuje jazyky .NET, včetně C# a VB.NET. Pro jiné jazyky zkontrolujte příslušné produkty Aspose.
+Aspose.Words pro .NET primárně podporuje jazyky .NET, včetně C# a VB.NET. Pro další jazyky se podívejte na příslušné produkty Aspose.
 
-### Je Aspose.Words for .NET zdarma k použití?
+### Je Aspose.Words pro .NET zdarma k použití?
 
-Aspose.Words nabízí bezplatnou zkušební verzi, ale pro plné funkce a komerční využití si musíte zakoupit licenci. Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Aspose.Words nabízí bezplatnou zkušební verzi, ale pro plné funkce a komerční využití je nutné zakoupit licenci. Můžete získat dočasnou licenci. [zde](https://purchase.aspose.com/temporary-license/).
 
-### Jak dynamicky aktualizuji jméno autora?
+### Jak mohu dynamicky aktualizovat jméno autora?
 
- Můžete nastavit`AuthorName` vlastnost dynamicky přiřazením proměnné nebo hodnoty z databáze nebo uživatelského vstupu.
+Můžete nastavit `AuthorName` vlastnost dynamicky přiřazením proměnné nebo hodnoty z databáze nebo uživatelského vstupu.
 
-### Mohu přidat další typy polí pomocí Aspose.Words?
+### Mohu pomocí Aspose.Words přidat další typy polí?
 
- Ano, Aspose.Words podporuje různé typy polí, včetně data, času, čísla stránky a dalších. Zkontrolujte[dokumentace](https://reference.aspose.com/words/net/) pro podrobnosti.
+Ano, Aspose.Words podporuje různé typy polí, včetně data, času, čísla stránky a dalších. Zaškrtněte [dokumentace](https://reference.aspose.com/words/net/) pro podrobnosti.
 
-### Kde najdu podporu, pokud narazím na problémy?
+### Kde mohu najít podporu, pokud narazím na problémy?
 
- Podporu najdete na fóru Aspose.Words[zde](https://forum.aspose.com/c/words/8).
+Podporu najdete na fóru Aspose.Words. [zde](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

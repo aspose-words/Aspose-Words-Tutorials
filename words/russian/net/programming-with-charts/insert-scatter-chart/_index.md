@@ -1,14 +1,16 @@
 ---
-title: Вставить точечную диаграмму в документ Word
-linktitle: Вставить точечную диаграмму в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить точечную диаграмму в Word с помощью Aspose.Words для .NET. Простые шаги для интеграции визуальных представлений данных в ваши документы.
-weight: 10
-url: /ru/net/programming-with-charts/insert-scatter-chart/
+"description": "Узнайте, как вставить точечную диаграмму в Word с помощью Aspose.Words для .NET. Простые шаги для интеграции визуальных представлений данных в ваши документы."
+"linktitle": "Вставить точечную диаграмму в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить точечную диаграмму в документ Word"
+"url": "/ru/net/programming-with-charts/insert-scatter-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить точечную диаграмму в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/insert-scatter-chart/
 
 Прежде чем приступить к созданию диаграмм рассеяния с помощью Aspose.Words для .NET, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Установка Aspose.Words для .NET: Загрузите и установите Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Установка Aspose.Words для .NET: Загрузите и установите Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/).
    
 2. Базовые знания C#: знакомство с языком программирования C# и платформой .NET будет преимуществом.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Сначала инициализируйте новый экземпляр`Document` класс и`DocumentBuilder` класс, чтобы начать создание вашего документа.
+Сначала инициализируйте новый экземпляр `Document` класс и `DocumentBuilder` класс, чтобы начать создание вашего документа.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте точечную диаграмму
 
- Используйте`InsertChart` Метод`DocumentBuilder` класс для вставки диаграммы рассеяния в документ.
+Используйте `InsertChart` Метод `DocumentBuilder` класс для вставки диаграммы рассеяния в документ.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[]
 
 ## Шаг 4: Сохраните документ.
 
- Наконец, сохраните измененный документ в нужном месте с помощью`Save` Метод`Document` сорт.
+Наконец, сохраните измененный документ в нужном месте с помощью `Save` Метод `Document` сорт.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
@@ -85,16 +87,21 @@ doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
 Aspose.Words поддерживает различные версии Microsoft Word, обеспечивая совместимость на разных платформах.
 
 ### Поддерживает ли Aspose.Words другие типы диаграмм?
-Да, Aspose.Words поддерживает широкий спектр типов диаграмм, включая столбчатые диаграммы, линейные диаграммы и круговые диаграммы.
+Да, Aspose.Words поддерживает широкий спектр типов диаграмм, включая столбчатые, линейные и круговые диаграммы.
 
 ### Можно ли динамически обновлять данные в точечной диаграмме программно?
 Конечно, вы можете обновлять данные диаграммы динамически, используя вызовы API Aspose.Words.
 
 ### Где я могу получить дополнительную помощь или поддержку по Aspose.Words?
- Для получения дополнительной помощи посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Для получения дополнительной помощи посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

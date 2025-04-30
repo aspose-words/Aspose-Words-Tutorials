@@ -1,14 +1,16 @@
 ---
-title: Извлечение и манипулирование контентом
-linktitle: Извлечение и манипулирование контентом
-second_title: API управления документами Python Aspose.Words
-description: Откройте для себя мир извлечения и обработки контента с помощью учебных пособий Aspose.Words. Узнайте, как эффективно извлекать и обрабатывать контент с помощью Python и .NET, расширяя возможности обработки документов.
-weight: 11
-url: /ru/python-net/content-extraction-and-manipulation/
+"description": "Откройте для себя мир извлечения и обработки контента с помощью учебных пособий Aspose.Words. Узнайте, как эффективно извлекать и обрабатывать контент с помощью Python и .NET, расширяя возможности обработки документов."
+"linktitle": "Извлечение и манипулирование контентом"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Извлечение и манипулирование контентом"
+"url": "/ru/python-net/content-extraction-and-manipulation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечение и манипулирование контентом
@@ -37,16 +39,20 @@ url: /ru/python-net/content-extraction-and-manipulation/
 
 ## Учебники по извлечению и обработке контента
 ### [Извлечение и изменение содержимого в документах Word](./extract-modify-document-content/)
-Узнайте, как извлекать и изменять содержимое документов Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
+Узнайте, как извлекать и изменять содержимое в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
 ### [Эффективное извлечение контента из документов Word](./document-content-extraction/)
 Эффективно извлекайте контент из документов Word с помощью Aspose.Words для Python. Изучите пошаговое руководство с примерами кода.
 ### [Расширенные методы поиска и замены в документах Word](./find-replace-documents/)
 Изучите расширенные методы поиска и замены в документах Word с помощью Aspose.Words для Python. Заменяйте текст, используйте регулярные выражения, форматирование и многое другое.
 ### [Удаление и уточнение содержимого в документах Word](./remove-content-documents/)
 Узнайте, как эффективно удалять и улучшать содержимое в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с примерами исходного кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

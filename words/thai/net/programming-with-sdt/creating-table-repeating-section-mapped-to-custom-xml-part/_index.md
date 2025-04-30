@@ -1,14 +1,16 @@
 ---
-title: การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง
-linktitle: การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการสร้างตารางที่มีส่วนที่ทำซ้ำซึ่งแมปกับ CustomXmlPart ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET
-weight: 10
-url: /th/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "เรียนรู้วิธีการสร้างตารางที่มีส่วนที่ทำซ้ำซึ่งแมปกับ CustomXmlPart ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET"
+"linktitle": "การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง"
+"url": "/th/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง
@@ -20,7 +22,7 @@ url: /th/net/programming-with-sdt/creating-table-repeating-section-mapped-to-cus
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-1.  ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+1. ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 2. ความเข้าใจพื้นฐานเกี่ยวกับ C# และ XML
 
 ## นำเข้าเนมสเปซ
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรกให้สร้างเอกสารใหม่และเริ่มต้นใช้งาน`DocumentBuilder`-
+ขั้นแรกให้สร้างเอกสารใหม่และเริ่มต้นใช้งาน `DocumentBuilder`-
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## ขั้นตอนที่ 3: สร้างโครงสร้างตาราง
 
- ถัดไปใช้`DocumentBuilder` เพื่อสร้างส่วนหัวของตาราง:
+ถัดไปใช้ `DocumentBuilder` เพื่อสร้างส่วนหัวของตาราง:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## ขั้นตอนที่ 4: สร้างส่วนที่ทำซ้ำ
 
- สร้าง`StructuredDocumentTag` (SDT) สำหรับส่วนที่ทำซ้ำและแมปไปยังข้อมูล XML:
+สร้าง `StructuredDocumentTag` (SDT) สำหรับส่วนที่ทำซ้ำและแมปไปยังข้อมูล XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -121,14 +123,19 @@ doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXm
 ### StructuredDocumentTag (SDT) คืออะไร?
 SDT หรือที่เรียกอีกอย่างว่าการควบคุมเนื้อหา คือบริเวณที่มีขอบเขตในเอกสารซึ่งใช้เพื่อเก็บข้อมูลที่มีโครงสร้าง
 
-### ฉันสามารถใช้ชนิดข้อมูลอื่นในส่วน XML ที่กำหนดเองได้หรือไม่
+### ฉันสามารถใช้ประเภทข้อมูลอื่นในส่วน XML ที่กำหนดเองได้หรือไม่
 ใช่ คุณสามารถสร้างโครงสร้างส่วน XML ที่กำหนดเองด้วยประเภทข้อมูลใดๆ ก็ได้และแมปตามนั้นได้
 
 ### ฉันจะเพิ่มแถวเพิ่มเติมลงในส่วนที่ทำซ้ำได้อย่างไร
 ส่วนที่ทำซ้ำจะจำลองโครงสร้างแถวสำหรับแต่ละรายการในเส้นทาง XML ที่แมปโดยอัตโนมัติ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

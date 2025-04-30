@@ -1,69 +1,71 @@
 ---
-title: Táblázat generálása Datatable-ból
-linktitle: Táblázat generálása Datatable-ból
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan hozhat létre táblázatot DataTable-ből az Aspose.Words for Java használatával. Hozzon létre professzionális Word dokumentumokat formázott táblázatokkal könnyedén.
-weight: 11
-url: /hu/java/table-processing/generate-table-from-datatable/
+"description": "Tanuld meg, hogyan generálhatsz táblázatot egy DataTable-ból az Aspose.Words for Java használatával. Készíts professzionális Word dokumentumokat formázott táblázatokkal könnyedén."
+"linktitle": "Tábla generálása adattáblából"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Tábla generálása adattáblából"
+"url": "/hu/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Táblázat generálása Datatable-ból
+# Tábla generálása adattáblából
 
 ## Bevezetés
 
-táblázatok dinamikus adatforrásokból történő létrehozása sok alkalmazásban gyakori feladat. Függetlenül attól, hogy jelentéseket, számlákat vagy adatösszesítéseket hoz létre, ha egy táblázatot programozottan tölt fel adatokkal, sok időt és erőfeszítést takaríthat meg. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre táblázatot DataTable-ből az Aspose.Words for Java használatával. A folyamatot kezelhető lépésekre bontjuk, így biztosítva, hogy az egyes részeket világosan megértse.
+táblázatok dinamikus létrehozása adatforrásokból gyakori feladat számos alkalmazásban. Akár jelentéseket, számlákat vagy adatösszefoglalókat generálsz, a táblázatok programozott feltöltése adatokkal sok időt és energiát takaríthat meg. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan generálhatsz táblázatot egy DataTable-ből az Aspose.Words for Java használatával. A folyamatot kezelhető lépésekre bontjuk, biztosítva, hogy minden egyes részt világosan megérts.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
 
-1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java fejlesztőkészlet (JDK): Győződjön meg róla, hogy a JDK telepítve van a gépén. Letöltheti innen: [Oracle weboldal](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Aspose.Words for Java: Szüksége lesz az Aspose.Words könyvtárra. A legújabb verziót innen töltheti le[Aspose kiadási oldala](https://releases.aspose.com/words/java/).
+2. Aspose.Words Java-hoz: Szükséged lesz az Aspose.Words könyvtárra. A legújabb verziót letöltheted innen: [Az Aspose kiadási oldala](https://releases.aspose.com/words/java/).
 
-3. IDE: Az olyan integrált fejlesztési környezet (IDE), mint az IntelliJ IDEA vagy az Eclipse, megkönnyíti a kódolást.
+3. IDE: Egy integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA vagy az Eclipse, megkönnyíti a kódolást.
 
-4. Alapvető Java ismerete: A Java programozási koncepciók ismerete segít jobban megérteni a kódrészleteket.
+4. Java alapismeretek: A Java programozási fogalmak ismerete segít jobban megérteni a kódrészleteket.
 
-5. Mintaadatok: Ebben az oktatóanyagban egy „List of people.xml” nevű XML-fájlt használunk az adatforrás szimulálására. Létrehozhatja ezt a fájlt mintaadatokkal teszteléshez.
+5. Mintaadatok: Ebben az oktatóanyagban egy „Személyek listája.xml” nevű XML fájlt fogunk használni egy adatforrás szimulálására. Ezt a fájlt mintaadatokkal hozhatja létre tesztelés céljából.
 
-## 1. lépés: Hozzon létre egy új dokumentumot
+## 1. lépés: Új dokumentum létrehozása
 
-Először is létre kell hoznunk egy új dokumentumot, ahol a táblázatunk található. Ez a vászon munkánk számára.
+Először is létre kell hoznunk egy új dokumentumot, ahová a táblázatunkat helyezni fogjuk. Ez a vászon a munkánk számára.
 
 ```java
 Document doc = new Document();
 ```
 
- Itt példányosítunk egy újat`Document` objektum. Ez szolgál majd munkadokumentumunkként, ahol elkészítjük a táblázatunkat.
+Itt létrehozunk egy újat `Document` objektum. Ez fog szolgálni a munkadokumentumunkként, amelyhez a táblázatunkat fogjuk felépíteni.
 
-## 2. lépés: Inicializálja a DocumentBuilder programot
+## 2. lépés: A DocumentBuilder inicializálása
 
- Ezután a`DocumentBuilder` osztályba, amivel könnyebben kezelhetjük a dokumentumot.
+Ezután a következőt fogjuk használni: `DocumentBuilder` osztály, amely lehetővé teszi számunkra, hogy könnyebben manipuláljuk a dokumentumot.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- A`DocumentBuilder` Az objektum módszereket biztosít táblázatok, szövegek és egyéb elemek dokumentumba való beillesztésére.
+A `DocumentBuilder` Az objektum metódusokat biztosít táblázatok, szöveg és egyéb elemek beszúrásához a dokumentumba.
 
-## 3. lépés: Állítsa be az oldaltájolást
+## 3. lépés: Oldal tájolásának beállítása
 
-Mivel arra számítunk, hogy táblázatunk széles lesz, az oldaltájolást fekvőre állítjuk.
+Mivel széles táblázatot várunk, az oldal tájolását fekvőre állítjuk.
 
 ```java
 doc.getFirstSection().getPageSetup().setOrientation(Orientation.LANDSCAPE);
 ```
 
-Ez a lépés döntő fontosságú, mert biztosítja, hogy asztalunk szépen elférjen az oldalon anélkül, hogy levágnánk.
+Ez a lépés azért kulcsfontosságú, mert biztosítja, hogy a táblázatunk szépen illeszkedjen az oldalra anélkül, hogy levágódna.
 
-## 4. lépés: Töltse be az adatokat XML-ből
+## 4. lépés: Adatok betöltése XML-ből
 
- Most be kell töltenünk adatainkat az XML fájlból a`DataTable`. Innen származnak adataink.
+Most be kell töltenünk az adatainkat az XML fájlból egy `DataTable`Innen származnak az adataink.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,74 +73,74 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Itt beolvassuk az XML-fájlt, és lekérjük az első táblát az adatkészletből. Ez`DataTable` tárolja a dokumentumunkban megjeleníteni kívánt adatokat.
+Itt beolvassuk az XML fájlt, és kikeressük az első táblázatot az adathalmazból. Ez `DataTable` tárolja majd azokat az adatokat, amelyeket a dokumentumunkban meg szeretnénk jeleníteni.
 
-## 5. lépés: Importálja a táblát a DataTable alkalmazásból
+## 5. lépés: Tábla importálása a DataTable-ből
 
-Most jön az izgalmas rész: adataink importálása a dokumentumba táblázatként.
+Most jön az izgalmas rész: az adataink importálása a dokumentumba táblázatként.
 
 ```java
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- A módszert hívjuk`importTableFromDataTable` , áthaladva a`DocumentBuilder` , a miénk`DataTable`, és egy logikai érték, amely jelzi, hogy szerepeljen-e az oszlopfejlécek.
+A módszert úgy hívjuk, `importTableFromDataTable`, elhaladva a `DocumentBuilder`, a miénk `DataTable`, és egy logikai érték, amely jelzi, hogy szerepeljenek-e oszlopfejlécek.
 
-## 6. lépés: alakítsa ki az asztal stílusát
+## 6. lépés: A táblázat stílusának meghatározása
 
-Ha megvan az asztalunk, alkalmazhatunk némi stílust, hogy jól nézzen ki.
+Miután elkészült az asztalunk, alkalmazhatunk néhány stílusos megoldást, hogy jól nézzen ki.
 
 ```java
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_LIST_2_ACCENT_1);
 table.setStyleOptions(TableStyleOptions.FIRST_ROW | TableStyleOptions.ROW_BANDS | TableStyleOptions.LAST_COLUMN);
 ```
 
-Ez a kód előre meghatározott stílust alkalmaz a táblázatra, javítva annak vizuális vonzerejét és olvashatóságát.
+Ez a kód egy előre definiált stílust alkalmaz a táblázatra, javítva annak vizuális megjelenését és olvashatóságát.
 
-## 7. lépés: Távolítsa el a nem kívánt sejteket
+## 7. lépés: Távolítsa el a nem kívánt cellákat
 
-Ha van olyan oszlopa, amelyet nem szeretne megjeleníteni, például egy képoszlopot, könnyen eltávolíthatja.
+Ha vannak olyan oszlopok, amelyeket nem szeretne megjeleníteni, például egy képoszlop, könnyen eltávolíthatja azokat.
 
 ```java
 table.getFirstRow().getLastCell().removeAllChildren();
 ```
 
-Ez a lépés biztosítja, hogy táblázatunk csak a releváns információkat tartalmazza.
+Ez a lépés biztosítja, hogy a táblázatunk csak a releváns információkat jelenítse meg.
 
-## 8. lépés: Mentse el a dokumentumot
+## 8. lépés: A dokumentum mentése
 
-Végül elmentjük a dokumentumunkat a generált táblázattal.
+Végül elmentjük a dokumentumot a létrehozott táblázattal.
 
 ```java
 doc.save(getArtifactsDir() + "WorkingWithTables.BuildTableFromDataTable.docx");
 ```
 
-Ez a sor menti a dokumentumot a megadott könyvtárba, lehetővé téve az eredmények áttekintését.
+Ez a sor elmenti a dokumentumot a megadott könyvtárba, lehetővé téve az eredmények áttekintését.
 
 ## Az importTableFromDataTable metódus
 
- Nézzük meg közelebbről a`importTableFromDataTable` módszer. Ez a módszer felelős a táblaszerkezet létrehozásáért és adatokkal való feltöltéséért.
+Vessünk egy közelebbi pillantást a `importTableFromDataTable` metódus. Ez a metódus felelős a táblaszerkezet létrehozásáért és adatokkal való feltöltéséért.
 
 ### 1. lépés: Indítsa el a táblázatot
 
-Először is el kell indítanunk egy új táblát a dokumentumban.
+Először is, létre kell hoznunk egy új táblázatot a dokumentumban.
 
 ```java
 Table table = builder.startTable();
 ```
 
-Ez inicializál egy új táblát a dokumentumunkban.
+Ez inicializál egy új táblázatot a dokumentumunkban.
 
 ### 2. lépés: Oszlopcímek hozzáadása
 
- Ha oszlopfejléceket szeretnénk szerepeltetni, akkor ellenőrizzük a`importColumnHeadings` zászló.
+Ha oszlopfejléceket szeretnénk hozzáadni, akkor ellenőrizzük a `importColumnHeadings` zászló.
 
 ```java
 if (importColumnHeadings) {
-    // Tárolja az eredeti formázást
+    // Eredeti formázás tárolása
     boolean boldValue = builder.getFont().getBold();
     int paragraphAlignmentValue = builder.getParagraphFormat().getAlignment();
 
-    // Állítsa be a címsor formázását
+    // Címsor formázásának beállítása
     builder.getFont().setBold(true);
     builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 
@@ -150,17 +152,17 @@ if (importColumnHeadings) {
 
     builder.endRow();
 
-    // Az eredeti formázás visszaállítása
+    // Eredeti formázás visszaállítása
     builder.getFont().setBold(boldValue);
     builder.getParagraphFormat().setAlignment(paragraphAlignmentValue);
 }
 ```
 
- Ez a kódblokk formázza a címsort, és beszúrja az oszlopok nevét a`DataTable`.
+Ez a kódblokk formázza a címsort, és beszúrja az oszlopok nevét a `DataTable`.
 
-### 3. lépés: Töltse fel a táblázatot adatokkal
+### 3. lépés: Tábla feltöltése adatokkal
 
- Most végigpörgetjük az egyes sorokat`DataTable` adatok beszúrásához a táblázatba.
+Most végigmegyünk az egyes sorokon `DataTable` hogy adatokat illesszünk be a táblázatba.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -181,41 +183,46 @@ for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
 }
 ```
 
-Ebben a részben különböző adattípusokat kezelünk, a dátumokat megfelelően formázzuk, míg más adatokat szövegként beszúrunk.
+Ebben a részben különböző adattípusokat kezelünk, a dátumokat megfelelően formázzuk, miközben más adatokat szövegként szúrunk be.
 
-### 4. lépés: Zárja be a táblázatot
+### 4. lépés: A táblázat befejezése
 
-Végül az összes adat beszúrása után befejezzük a táblázatot.
+Végül, miután minden adatot beillesztettünk, befejezzük a táblázatot.
 
 ```java
 builder.endTable();
 ```
 
- Ez a sor jelzi táblázatunk végét, lehetővé téve a`DocumentBuilder` tudni, hogy befejeztük ezt a részt.
+Ez a sor jelzi a táblázatunk végét, lehetővé téve a `DocumentBuilder` hogy tudjuk, ezzel a szakasszal végeztünk.
 
 ## Következtetés
 
-És megvan! Sikeresen megtanulta, hogyan hozhat létre táblázatot DataTable-ből az Aspose.Words for Java használatával. Ezeket a lépéseket követve könnyedén hozhat létre dinamikus táblázatokat a dokumentumokban különböző adatforrások alapján. Akár jelentéseket, akár számlákat készít, ez a módszer leegyszerűsíti a munkafolyamatot és javítja a dokumentumkészítési folyamatot.
+És íme! Sikeresen megtanultad, hogyan generálhatsz táblázatot egy DataTable-ból az Aspose.Words for Java használatával. A következő lépéseket követve könnyedén létrehozhatsz dinamikus táblázatokat a dokumentumaidban különböző adatforrások alapján. Akár jelentéseket, akár számlákat generálsz, ez a módszer egyszerűsíti a munkafolyamatodat és javítja a dokumentumkészítési folyamatot.
 
 ## GYIK
 
-### Mi az Aspose.Words for Java?
-Az Aspose.Words for Java egy hatékony könyvtár Word-dokumentumok programozott létrehozásához, kezeléséhez és konvertálásához.
+### Mi az Aspose.Words Java-hoz?
+Az Aspose.Words for Java egy hatékony függvénykönyvtár Word dokumentumok programozott létrehozásához, kezeléséhez és konvertálásához.
 
-### Használhatom ingyenesen az Aspose.Words-t?
- Igen, az Aspose ingyenes próbaverziót kínál. Letöltheti innen[itt](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Words-öt?
+Igen, az Aspose ingyenes próbaverziót kínál. Letöltheti innen: [itt](https://releases.aspose.com/).
 
-### Hogyan alakíthatom ki a táblázatokat az Aspose.Words-ben?
-Stílusokat alkalmazhat a könyvtár által biztosított előre meghatározott stílusazonosítók és opciók használatával.
+### Hogyan formázzam meg a táblázatokat az Aspose.Words-ben?
+Stílusokat alkalmazhat előre definiált stílusazonosítók és a könyvtár által biztosított beállítások használatával.
 
-### Milyen típusú adatokat illeszthetek be a táblázatokba?
-Különféle adattípusokat, például szöveget, számokat és dátumokat szúrhat be, amelyek ennek megfelelően formázhatók.
+### Milyen típusú adatokat tudok táblázatokba illeszteni?
+Különböző adattípusokat adhatsz meg, beleértve a szöveget, számokat és dátumokat, amelyek ennek megfelelően formázhatók.
 
-### Hol kaphatok támogatást az Aspose.Words számára?
- Támogatást találhat és kérdéseket tehet fel a[Aspose fórum](https://forum.aspose.com/c/words/8/).
+### Hol kaphatok támogatást az Aspose.Words-höz?
+Támogatást találhatsz és kérdéseket tehetsz fel a következő címen: [Aspose fórum](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Chèn Tài Liệu Vào Thay Thế
-linktitle: Chèn Tài Liệu Vào Thay Thế
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn liền mạch một tài liệu Word vào tài liệu khác bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa quá trình xử lý tài liệu.
-weight: 10
-url: /vi/net/clone-and-combine-documents/insert-document-at-replace/
+"description": "Tìm hiểu cách chèn liền mạch một tài liệu Word vào tài liệu khác bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa quá trình xử lý tài liệu."
+"linktitle": "Chèn Tài Liệu Vào Thay Thế"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Tài Liệu Vào Thay Thế"
+"url": "/vi/net/clone-and-combine-documents/insert-document-at-replace/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Tài Liệu Vào Thay Thế
 
 ## Giới thiệu
 
-Xin chào, các bậc thầy về tài liệu! Bạn đã bao giờ thấy mình đang loay hoay trong mã lệnh, cố gắng tìm cách chèn một tài liệu Word vào một tài liệu Word khác một cách liền mạch chưa? Đừng lo, vì hôm nay chúng ta sẽ khám phá thế giới của Aspose.Words dành cho .NET để biến nhiệm vụ đó trở nên dễ dàng. Chúng ta sẽ hướng dẫn chi tiết từng bước về cách sử dụng thư viện mạnh mẽ này để chèn tài liệu tại các điểm cụ thể trong quá trình tìm và thay thế. Bạn đã sẵn sàng trở thành một phù thủy Aspose.Words chưa? Hãy bắt đầu thôi!
+Xin chào, các bậc thầy về tài liệu! Bạn đã bao giờ thấy mình đang loay hoay trong đống mã, cố gắng tìm cách chèn một tài liệu Word vào một tài liệu Word khác một cách liền mạch chưa? Đừng lo, vì hôm nay chúng ta sẽ khám phá thế giới của Aspose.Words dành cho .NET để biến nhiệm vụ đó trở nên dễ dàng. Chúng ta sẽ hướng dẫn chi tiết từng bước về cách sử dụng thư viện mạnh mẽ này để chèn tài liệu tại các điểm cụ thể trong quá trình tìm và thay thế. Bạn đã sẵn sàng trở thành một phù thủy Aspose.Words chưa? Hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi tìm hiểu về mã, bạn cần chuẩn bị một số thứ sau:
 
--  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://visualstudio.microsoft.com/).
--  Aspose.Words cho .NET: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể lấy nó từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+- Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ [đây](https://visualstudio.microsoft.com/).
+- Aspose.Words cho .NET: Bạn sẽ cần thư viện Aspose.Words. Bạn có thể lấy nó từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# và .NET sẽ giúp bạn theo dõi hướng dẫn này.
 
 Được rồi, sau khi đã giải quyết xong những vấn đề đó, chúng ta hãy cùng bắt tay vào viết mã nhé!
@@ -49,7 +51,7 @@ Bây giờ chúng ta đã có đủ điều kiện tiên quyết, hãy chia nh�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục của bạn. Đây là nơi tài liệu của bạn sẽ tồn tại và phát triển.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục của bạn. Đây là nơi tài liệu của bạn sẽ tồn tại và phát triển.
 
 ## Bước 2: Tải Tài liệu Chính
 
@@ -168,16 +170,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để thao tác các tà
 Có, bạn có thể sửa đổi trình xử lý gọi lại để xử lý nhiều lần chèn bằng cách lặp qua một tập hợp tài liệu.
 
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể giữ nguyên định dạng của tài liệu đã chèn không?
- Vâng,`NodeImporter` Lớp này cho phép bạn chỉ định cách xử lý định dạng khi nhập các nút từ tài liệu này sang tài liệu khác.
+Vâng, `NodeImporter` Lớp này cho phép bạn chỉ định cách xử lý định dạng khi nhập các nút từ tài liệu này sang tài liệu khác.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

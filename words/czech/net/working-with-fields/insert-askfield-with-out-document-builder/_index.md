@@ -1,35 +1,37 @@
 ---
-title: Vložit ASKField bez Tvůrce dokumentů
-linktitle: Vložit ASKField bez Tvůrce dokumentů
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak vložit pole ASK bez použití Tvůrce dokumentů v Aspose.Words pro .NET. Chcete-li dynamicky vylepšit své dokumenty Word, postupujte podle tohoto průvodce.
-weight: 10
-url: /cs/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Naučte se, jak vložit pole ASK bez použití nástroje Document Builder v Aspose.Words pro .NET. Postupujte podle tohoto návodu a dynamicky vylepšete své dokumenty Word."
+"linktitle": "Vložit pole ASKField bez nástroje pro tvorbu dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole ASKField bez nástroje pro tvorbu dokumentů"
+"url": "/cs/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit ASKField bez Tvůrce dokumentů
+# Vložit pole ASKField bez nástroje pro tvorbu dokumentů
 
 ## Zavedení
 
-Chcete zvládnout automatizaci dokumentů pomocí Aspose.Words pro .NET? Jste na správném místě! Dnes vás provedeme tím, jak vložit pole ASK bez použití Tvůrce dokumentů. Toto je šikovná funkce, když chcete, aby váš dokument vyzval uživatele ke konkrétnímu vstupu, díky čemuž budou vaše dokumenty Word interaktivnější a dynamičtější. Pojďme se tedy ponořit a udělat vaše dokumenty chytřejšími!
+Chcete zvládnout automatizaci dokumentů s Aspose.Words pro .NET? Jste na správném místě! Dnes si ukážeme, jak vložit pole ASK bez použití nástroje pro tvorbu dokumentů. Jedná se o šikovnou funkci, která se hodí, pokud chcete, aby váš dokument vyzýval uživatele k zadání konkrétního vstupu, čímž se vaše dokumenty Wordu stanou interaktivnějšími a dynamičtějšími. Pojďme se tedy do toho pustit a udělat vaše dokumenty chytřejšími!
 
 ## Předpoklady
 
-Než si ušpiníme ruce nějakým kódem, ujistěte se, že máme vše nastaveno:
+Než se pustíme do kódování, ujistěme se, že máme vše nastavené:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou tuto knihovnu. Pokud ne, můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Vhodné IDE jako Visual Studio.
-3. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework.
+1. Aspose.Words pro .NET: Ujistěte se, že máte tuto knihovnu nainstalovanou. Pokud ne, můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Vhodné IDE, například Visual Studio.
+3. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework.
 
-Velký! Nyní, když jsme vše připraveni, začněme importem potřebných jmenných prostorů.
+Skvělé! Teď, když máme vše připravené, začněme importem potřebných jmenných prostorů.
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat jmenný prostor Aspose.Words, abychom získali přístup ke všem funkcím Aspose.Words pro .NET. Postup je následující:
+Nejdříve musíme importovat jmenný prostor Aspose.Words, abychom měli přístup ke všem funkcím Aspose.Words pro .NET. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
@@ -41,39 +43,39 @@ using Aspose.Words.Fields;
 Než budeme moci vložit pole ASK, potřebujeme dokument, se kterým budeme pracovat. Zde je návod, jak vytvořit nový dokument:
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Vytvoření dokumentu.
+// Tvorba dokumentů.
 Document doc = new Document();
 ```
 
-Tento fragment kódu nastaví nový dokument aplikace Word, kam přidáme pole ASK.
+Tento úryvek kódu vytvoří nový dokument Wordu, kam přidáme pole ASK.
 
-## Krok 2: Otevřete uzel odstavce
+## Krok 2: Přístup k uzlu Odstavec
 
-V dokumentu aplikace Word je obsah uspořádán do uzlů. Potřebujeme přístup k prvnímu bodu odstavce, kam vložíme pole ASK:
+V dokumentu Word je obsah uspořádán do uzlů. Potřebujeme přistupovat k uzlu prvního odstavce, kam vložíme naše pole ASK:
 
 ```csharp
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 ```
 
-Tento řádek kódu načte první odstavec v dokumentu, připravený pro vložení pole ASK.
+Tento řádek kódu načte první odstavec v dokumentu, připravený pro vložení do našeho pole ASK.
 
 ## Krok 3: Vložte pole ASK
 
-Nyní přejdeme k hlavní události – vložení pole ASK. Toto pole vyzve uživatele k zadání při otevření dokumentu.
+A teď se přesuneme k hlavní události – vložení pole ASK. Toto pole vyzve uživatele k zadání při otevření dokumentu.
 
 ```csharp
 // Vložte pole ASK.
 FieldAsk field = (FieldAsk)para.AppendField(FieldType.FieldAsk, false);
 ```
 
-Zde k odstavci připojíme pole ASK. Jednoduché, že?
+Zde k odstavci přidáme pole ASK. Jednoduché, že?
 
-## Krok 4: Nakonfigurujte pole ASK
+## Krok 4: Konfigurace pole ASK
 
-Musíme nastavit některé vlastnosti, abychom definovali, jak se pole ASK chová. Pojďme nakonfigurovat název záložky, text výzvy, výchozí odpověď a chování hromadné korespondence:
+Potřebujeme nastavit některé vlastnosti, které definují chování pole ASK. Nakonfigurujme název záložky, text výzvy, výchozí odpověď a chování hromadné korespondence:
 
 ```csharp
 field.BookmarkName = "Test1";
@@ -82,24 +84,24 @@ field.DefaultResponse = "Default response";
 field.PromptOnceOnMailMerge = true;
 ```
 
-- BookmarkName: Jedinečný identifikátor pro pole ASK.
+- NázevZáložky: Jedinečný identifikátor pro pole ASK.
 - PromptText: Text, který uživatele vyzve k zadání.
 - DefaultResponse: Předvyplněná odpověď, kterou může uživatel změnit.
-- PromptOnceOnMailMerge: Určuje, zda se výzva během hromadné korespondence zobrazí pouze jednou.
+- PromptOnceOnMailMerge: Určuje, zda se výzva zobrazí pouze jednou během hromadné korespondence.
 
-## Krok 5: Aktualizujte pole
+## Krok 5: Aktualizace pole
 
-Po konfiguraci pole ASK jej musíme aktualizovat, abychom zajistili správnost použití všech nastavení:
+Po konfiguraci pole ASK je třeba jej aktualizovat, abychom zajistili správné použití všech nastavení:
 
 ```csharp
 field.Update();
 ```
 
-Tento příkaz zajistí, že naše pole ASK je připraveno a správně nastaveno v dokumentu.
+Tento příkaz zajistí, že je naše pole ASK připravené a správně nastavené v dokumentu.
 
 ## Krok 6: Uložte dokument
 
-Nakonec uložíme dokument do našeho zadaného adresáře:
+Nakonec uložíme dokument do námi určeného adresáře:
 
 ```csharp
 doc.Save(dataDir + "InsertionChampASKSansDocumentBuilder.docx");
@@ -109,27 +111,32 @@ Tento řádek uloží dokument s vloženým polem ASK. A tady to máte – váš
 
 ## Závěr
 
-Gratuluji! Právě jste přidali pole ASK do dokumentu aplikace Word pomocí Aspose.Words for .NET bez Tvůrce dokumentů. Tato funkce může výrazně zlepšit interakci uživatele s vašimi dokumenty, díky čemuž jsou flexibilnější a uživatelsky přívětivější. Pokračujte v experimentování s různými poli a vlastnostmi, abyste odemkli plný potenciál Aspose.Words. Šťastné kódování!
+Gratulujeme! Právě jste přidali pole ASK do dokumentu Wordu pomocí Aspose.Words pro .NET bez nástroje pro tvorbu dokumentů. Tato funkce může výrazně vylepšit interakci uživatelů s vašimi dokumenty, učinit je flexibilnějšími a uživatelsky přívětivějšími. Experimentujte s různými poli a vlastnostmi, abyste odemkli plný potenciál Aspose.Words. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je pole ASK v Aspose.Words?
-Pole ASK v Aspose.Words je pole, které uživatele vyzve k zadání konkrétního vstupu při otevření dokumentu, což umožňuje dynamické zadávání dat.
+Pole ASK v Aspose.Words je pole, které vyzve uživatele k zadání konkrétního údaje při otevření dokumentu, což umožňuje dynamické zadávání dat.
 
-### Mohu použít více polí ASK v jednom dokumentu?
+### Mohu v jednom dokumentu použít více polí ASK?
 Ano, do dokumentu můžete vložit více polí ASK, každé s jedinečnými výzvami a odpověďmi.
 
-###  Jaký je účel`PromptOnceOnMailMerge` property?
- The`PromptOnceOnMailMerge` vlastnost určuje, zda se výzva ASK zobrazí pouze jednou během operace hromadné korespondence nebo pokaždé.
+### Jaký je účel `PromptOnceOnMailMerge` vlastnictví?
+Ten/Ta/To `PromptOnceOnMailMerge` Vlastnost určuje, zda se výzva ASK zobrazí pouze jednou během operace hromadné korespondence nebo pokaždé.
 
 ### Musím aktualizovat pole ASK po nastavení jeho vlastností?
-Ano, aktualizace pole ASK zajistí, že všechny vlastnosti budou správně použity a pole bude fungovat podle očekávání.
+Ano, aktualizace pole ASK zajišťuje, že všechny vlastnosti budou správně použity a pole bude fungovat podle očekávání.
 
-### Mohu upravit text výzvy a výchozí odpověď?
-Absolutně! Můžete nastavit vlastní text výzvy a výchozí odpovědi, abyste pole ASK přizpůsobili svým konkrétním potřebám.
+### Mohu si přizpůsobit text výzvy a výchozí odpověď?
+Rozhodně! Můžete si nastavit vlastní text výzvy a výchozí odpovědi, abyste pole ASK přizpůsobili svým specifickým potřebám.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

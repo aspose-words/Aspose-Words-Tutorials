@@ -1,14 +1,16 @@
 ---
-title: Kết xuất hình dạng trong Aspose.Words cho Java
-linktitle: Kết xuất hình dạng
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách kết xuất hình dạng trong Aspose.Words cho Java với hướng dẫn từng bước này. Tạo hình ảnh EMF theo chương trình.
-weight: 10
-url: /vi/java/rendering-documents/rendering-shapes/
+"description": "Học cách kết xuất hình dạng trong Aspose.Words cho Java với hướng dẫn từng bước này. Tạo hình ảnh EMF theo chương trình."
+"linktitle": "Kết xuất hình dạng"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết xuất hình dạng trong Aspose.Words cho Java"
+"url": "/vi/java/rendering-documents/rendering-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất hình dạng trong Aspose.Words cho Java
@@ -45,7 +47,7 @@ ShapeRenderer render = shape.getShapeRenderer();
 
 ## 5. Kết xuất hình dạng dưới dạng hình ảnh EMF
 
- Bây giờ đến phần thú vị - kết xuất hình dạng dưới dạng hình ảnh EMF. Chúng ta sẽ sử dụng`ImageSaveOptions` lớp để chỉ định định dạng đầu ra và tùy chỉnh cách kết xuất.
+Bây giờ đến phần thú vị - kết xuất hình dạng dưới dạng hình ảnh EMF. Chúng ta sẽ sử dụng `ImageSaveOptions` lớp để chỉ định định dạng đầu ra và tùy chỉnh cách kết xuất.
 
 ```java
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.EMF);
@@ -95,21 +97,26 @@ Có, Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu, bao g�
 
 ### Câu hỏi 3: Có tùy chọn cấp phép nào cho Aspose.Words dành cho Java không?
 
-Có, bạn có thể khám phá các tùy chọn cấp phép và mua Aspose.Words cho Java trên[Trang web Aspose](https://purchase.aspose.com/buy).
+Có, bạn có thể khám phá các tùy chọn cấp phép và mua Aspose.Words cho Java trên [Trang web Aspose](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 4: Tôi có thể dùng thử Aspose.Words cho Java trước khi mua không?
 
- Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí của Aspose.Words cho Java trên[Aspose.Phát hành](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí của Aspose.Words cho Java trên [Aspose.Phát hành](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc đặt câu hỏi về Aspose.Words cho Java ở đâu?
 
- Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập[Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
+Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, hãy truy cập [Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
 
 Bây giờ bạn đã thành thạo việc kết xuất hình dạng bằng Aspose.Words for Java, bạn đã sẵn sàng khai thác toàn bộ tiềm năng của API đa năng này trong các dự án xử lý tài liệu của mình. Chúc bạn lập trình vui vẻ!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

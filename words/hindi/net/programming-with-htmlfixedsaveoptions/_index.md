@@ -1,14 +1,16 @@
 ---
-title: Htmlfixedsaveoptions के साथ शब्द प्रसंस्करण
-linktitle: Htmlfixedsaveoptions के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET में फिक्स्ड HTML सेव ऑप्शन के साथ प्रोग्राम करना सीखें। ट्यूटोरियल आपको फिक्स्ड लेआउट, एम्बेडेड इमेज के साथ HTML दस्तावेज़ बनाने के लिए विभिन्न सुविधाओं के माध्यम से मार्गदर्शन करते हैं।
-weight: 1610
-url: /hi/net/programming-with-htmlfixedsaveoptions/
+"description": "Aspose.Words for .NET में फिक्स्ड HTML सेव ऑप्शन के साथ प्रोग्राम करना सीखें। ट्यूटोरियल आपको फिक्स्ड लेआउट, एम्बेडेड इमेज के साथ HTML दस्तावेज़ बनाने के लिए विभिन्न सुविधाओं के माध्यम से मार्गदर्शन करते हैं।"
+"linktitle": "Htmlfixedsaveoptions के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Htmlfixedsaveoptions के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-htmlfixedsaveoptions/"
+"weight": 1610
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Htmlfixedsaveoptions के साथ शब्द प्रसंस्करण
@@ -18,11 +20,16 @@ url: /hi/net/programming-with-htmlfixedsaveoptions/
  ## ट्यूटोरियल
 | शीर्षक | विवरण |
 | --- | --- |
-| [लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें](./use-font-from-target-machine/) | Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में लक्ष्य मशीन से फ़ॉन्ट का उपयोग करना सीखें। सहज फ़ॉन्ट एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-| [सभी CSS नियम एकल फ़ाइल में लिखें](./write-all-css-rules-in-single-file/) | जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML में कैसे परिवर्तित किया जाए, जिसमें सभी CSS नियम एक ही फाइल में हों, जिससे कोड अधिक साफ़ और रखरखाव में आसान हो। |
+| [लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें](./use-font-from-target-machine/) .NET के लिए Aspose.Words के साथ अपने Word दस्तावेज़ों में लक्ष्य मशीन से फ़ॉन्ट का उपयोग करना सीखें। सहज फ़ॉन्ट एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
+| [सभी CSS नियम एकल फ़ाइल में लिखें](./write-all-css-rules-in-single-file/) | जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML में कैसे परिवर्तित किया जाए, जिसमें सभी CSS नियम एक ही फाइल में हों, जिससे स्वच्छ कोड और आसान रखरखाव प्राप्त हो। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Açık Tip Özellikleri
-linktitle: Açık Tip Özellikleri
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde OpenType özelliklerinin nasıl etkinleştirileceğini öğrenin.
-weight: 10
-url: /tr/net/enable-opentype-features/open-type-features/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde OpenType özelliklerinin nasıl etkinleştirileceğini öğrenin."
+"linktitle": "Açık Tip Özellikleri"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Açık Tip Özellikleri"
+"url": "/tr/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Açık Tip Özellikleri
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak OpenType özelliklerinin dünyasına dalmaya ha
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Uyumlu bir .NET Framework sürümünün yüklü olduğundan emin olun.
 3. Visual Studio: Kodlama için entegre bir geliştirme ortamı (IDE).
 4. Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
@@ -62,7 +64,7 @@ Belge dizininize giden yolu tutacak bir dize değişkeni oluşturun. Word belgen
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
 
 ### Belgeyi Yükleme
 
@@ -76,7 +78,7 @@ Bu kod satırı belirtilen belgeyi açarak üzerinde değişiklik yapmamızı sa
 
 ## Adım 3: OpenType Özelliklerini Etkinleştirin
 
- HarfBuzz, Aspose.Words ile sorunsuz bir şekilde çalışan açık kaynaklı bir metin şekillendirme motorudur. OpenType özelliklerini etkinleştirmek için,`TextShaperFactory` mülkiyeti`LayoutOptions` nesne.
+HarfBuzz, Aspose.Words ile sorunsuz bir şekilde çalışan açık kaynaklı bir metin şekillendirme motorudur. OpenType özelliklerini etkinleştirmek için, `TextShaperFactory` mülkiyeti `LayoutOptions` nesne.
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -92,7 +94,7 @@ Son olarak, çalışmanızın sonuçlarını görmek için değiştirdiğiniz be
 doc.Save(dataDir + "WorkingWithHarfBuzz.OpenTypeFeatures.pdf");
 ```
 
-Bu kod satırı, HarfBuzz tarafından etkinleştirilen OpenType özelliklerini de kullanarak belgeyi PDF formatında kaydeder.
+Bu kod satırı, HarfBuzz tarafından etkinleştirilen OpenType özelliklerini de dahil ederek belgeyi PDF formatında kaydeder.
 
 ## Çözüm
 
@@ -112,13 +114,18 @@ HarfBuzz, belgelerinizin tipografik kalitesini artırarak OpenType özelliklerin
 Evet, Aspose.Words farklı metin şekillendirme motorlarını destekler. Ancak, HarfBuzz kapsamlı OpenType özellik desteği nedeniyle şiddetle tavsiye edilir.
 
 ### Aspose.Words tüm .NET sürümleriyle uyumlu mudur?
- Aspose.Words, .NET Framework, .NET Core ve .NET Standard dahil olmak üzere çeşitli .NET sürümlerini destekler.[belgeleme](https://reference.aspose.com/words/net/) Ayrıntılı uyumluluk bilgisi için.
+Aspose.Words, .NET Framework, .NET Core ve .NET Standard dahil olmak üzere çeşitli .NET sürümlerini destekler. [belgeleme](https://reference.aspose.com/words/net/) Ayrıntılı uyumluluk bilgisi için.
 
 ### Satın almadan önce Aspose.Words'ü nasıl deneyebilirim?
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/) ve geçici bir lisans talep edin[Burada](https://purchase.aspose.com/temporary-license/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/) ve geçici bir lisans talep edin [Burada](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

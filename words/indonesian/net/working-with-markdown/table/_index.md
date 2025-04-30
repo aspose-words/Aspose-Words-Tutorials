@@ -1,14 +1,16 @@
 ---
-title: Meja
-linktitle: Meja
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan tabel di Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk membuat dokumen terstruktur dan menarik secara visual.
-weight: 10
-url: /id/net/working-with-markdown/table/
+"description": "Pelajari cara membuat dan menyesuaikan tabel di Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk membuat dokumen terstruktur dan menarik secara visual."
+"linktitle": "Meja"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Meja"
+"url": "/id/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meja
@@ -22,7 +24,7 @@ Bekerja dengan tabel dalam dokumen merupakan persyaratan umum. Baik Anda membuat
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Visual Studio: Anda memerlukan lingkungan pengembangan untuk menulis dan menguji kode Anda. Visual Studio adalah pilihan yang tepat.
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum memilikinya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika Anda belum memilikinya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Pemahaman Dasar tentang C#: Diperlukan sedikit pemahaman tentang pemrograman C# untuk mengikutinya.
 
 ## Mengimpor Ruang Nama
@@ -85,22 +87,26 @@ Membuat dan menyesuaikan tabel di Aspose.Words untuk .NET mudah dilakukan setela
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan lebih dari dua sel dalam satu baris?
- Ya, Anda dapat menambahkan sel sebanyak yang Anda butuhkan dalam satu baris dengan mengulangi`InsertCell()` Dan`Writeln()` metode.
+Ya, Anda dapat menambahkan sel sebanyak yang Anda butuhkan dalam satu baris dengan mengulangi `InsertCell()` Dan `Writeln()` metode.
 
 ### Bagaimana cara menggabungkan sel dalam tabel?
- Anda dapat menggabungkan sel menggunakan`CellFormat.HorizontalMerge` Dan`CellFormat.VerticalMerge` properti.
+Anda dapat menggabungkan sel menggunakan `CellFormat.HorizontalMerge` Dan `CellFormat.VerticalMerge` properti.
 
 ### Apakah mungkin untuk menambahkan gambar ke sel tabel?
- Tentu saja! Anda dapat memasukkan gambar ke dalam sel menggunakan`DocumentBuilder.InsertImage` metode.
+Tentu saja! Anda dapat memasukkan gambar ke dalam sel menggunakan `DocumentBuilder.InsertImage` metode.
 
 ### Bisakah saya menata sel individual secara berbeda?
- Ya, Anda dapat menerapkan gaya yang berbeda ke sel individual dengan mengaksesnya melalui`Cells` koleksi baris.
+Ya, Anda dapat menerapkan gaya yang berbeda ke sel individual dengan mengaksesnya melalui `Cells` koleksi baris.
 
 ### Bagaimana cara menghapus batas dari tabel?
- Anda dapat menghapus batas dengan mengatur gaya batas ke`LineStyle.None` untuk setiap jenis perbatasan.
+Anda dapat menghapus batas dengan mengatur gaya batas ke `LineStyle.None` untuk setiap jenis perbatasan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

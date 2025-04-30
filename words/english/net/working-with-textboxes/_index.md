@@ -7,8 +7,11 @@ weight: 1320
 url: /net/working-with-textboxes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Textboxes
@@ -22,9 +25,13 @@ Words Processing with Textboxes is a comprehensive resource that takes you step-
 | [TextBox Sequence Check in Word](./check-sequence/) | Discover how to check the sequence of text boxes in Word documents using Aspose.Words for .NET. Follow our detailed guide to master document flow! |
 | [Break Forward Link In Word Document](./break-a-link/) | Learn how to break forward links in Word document text boxes using Aspose.Words for .NET. Follow our guide for a smoother document management experience. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodawanie zawartości za pomocą DocumentBuilder w Aspose.Words dla Java
-linktitle: Dodawanie treści za pomocą DocumentBuilder
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Tworzenie dokumentów głównych z Aspose.Words dla Java. Przewodnik krok po kroku po dodawaniu tekstu, tabel, obrazów i innych. Twórz oszałamiające dokumenty Word bez wysiłku.
-weight: 26
-url: /pl/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Tworzenie dokumentów głównych z Aspose.Words dla Java. Przewodnik krok po kroku po dodawaniu tekstu, tabel, obrazów i innych. Twórz oszałamiające dokumenty Word bez wysiłku."
+"linktitle": "Dodawanie treści za pomocą DocumentBuilder"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dodawanie zawartości za pomocą DocumentBuilder w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie zawartości za pomocą DocumentBuilder w Aspose.Words dla Java
@@ -20,7 +22,7 @@ W tym przewodniku krok po kroku pokażemy, jak używać Aspose.Words for Java's 
 
 ## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że w swoim projekcie masz skonfigurowaną bibliotekę Aspose.Words for Java. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniesz, upewnij się, że w swoim projekcie masz skonfigurowaną bibliotekę Aspose.Words for Java. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Dodawanie tekstu
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Rozpocznij tabelę
+// Rozpocznij tabelę
 Table table = builder.startTable();
 
 // Wstaw komórki i zawartość
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Krok 10: Przesuwanie kursora
 
- Możesz kontrolować położenie kursora w dokumencie, korzystając z różnych metod, takich jak:`moveToParagraph`, `moveToCell`więcej. Oto przykład:
+Możesz kontrolować położenie kursora w dokumencie, korzystając z różnych metod, takich jak: `moveToParagraph`, `moveToCell`i więcej. Oto przykład:
 
 ```java
 Document doc = new Document();
@@ -249,7 +251,7 @@ A: Aspose.Words for Java to biblioteka Java, która umożliwia programistom prog
 
 ### P: Jak mogę dodać spis treści do mojego dokumentu?
 
-A: Aby dodać spis treści, użyj`DocumentBuilder` aby wstawić pole spisu treści do dokumentu. Upewnij się, że zaktualizowałeś pola w dokumencie po dodaniu treści, aby wypełnić spis treści. Oto przykład:
+A: Aby dodać spis treści, użyj `DocumentBuilder` aby wstawić pole spisu treści do dokumentu. Upewnij się, że zaktualizowałeś pola w dokumencie po dodaniu treści, aby wypełnić spis treści. Oto przykład:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### P: Jak wstawiać obrazy do dokumentu za pomocą Aspose.Words dla Java?
 
- A: Możesz wstawiać obrazy zarówno osadzone, jak i ruchome, używając`DocumentBuilder`Oto przykłady obu:
+A: Możesz wstawiać obrazy zarówno osadzone, jak i ruchome, używając `DocumentBuilder`Oto przykłady obu:
 
 #### Obraz w tekście:
 
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### P: Czy mogę formatować tekst i akapity podczas dodawania treści?
 
- A: Tak, możesz formatować tekst i akapity za pomocą`DocumentBuilder`. Możesz ustawić właściwości czcionki, wyrównanie akapitu, wcięcie i więcej. Oto przykład:
+A: Tak, możesz formatować tekst i akapity za pomocą `DocumentBuilder`. Możesz ustawić właściwości czcionki, wyrównanie akapitu, wcięcie i więcej. Oto przykład:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### P: Jak mogę przenieść kursor w określone miejsce w dokumencie?
 
- A: Możesz kontrolować położenie kursora za pomocą takich metod jak`moveToParagraph`, `moveToCell`więcej. Oto przykład:
+A: Możesz kontrolować położenie kursora za pomocą takich metod jak `moveToParagraph`, `moveToCell`i więcej. Oto przykład:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Oto kilka typowych pytań i odpowiedzi, które pomogą Ci rozpocząć pracę z Aspose.Words for Java's DocumentBuilder. Jeśli masz więcej pytań lub potrzebujesz dalszej pomocy, zapoznaj się z[dokumentacja biblioteki](https://reference.aspose.com/words/java/) lub zwróć się o pomoc do społeczności Aspose.Words i innych źródeł wsparcia.
+Oto kilka typowych pytań i odpowiedzi, które pomogą Ci rozpocząć pracę z Aspose.Words for Java's DocumentBuilder. Jeśli masz więcej pytań lub potrzebujesz dalszej pomocy, zapoznaj się z [dokumentacja biblioteki](https://reference.aspose.com/words/java/) lub zwróć się o pomoc do społeczności Aspose.Words i innych źródeł wsparcia.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

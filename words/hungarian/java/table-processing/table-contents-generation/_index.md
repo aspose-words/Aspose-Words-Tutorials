@@ -1,44 +1,46 @@
 ---
-title: Tartalomjegyzék Generáció
-linktitle: Tartalomjegyzék Generáció
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan hozhat létre dinamikus tartalomjegyzéket az Aspose.Words for Java használatával. Mester TOC generálás lépésről lépésre útmutatóval és forráskód példákkal.
-weight: 14
-url: /hu/java/table-processing/table-contents-generation/
+"description": "Tanuld meg, hogyan hozhatsz létre dinamikus tartalomjegyzéket az Aspose.Words for Java segítségével. Sajátítsd el a tartalomjegyzék generálását lépésről lépésre útmutatóval és forráskód példákkal."
+"linktitle": "Tartalomjegyzék generálása"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Tartalomjegyzék generálása"
+"url": "/hu/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tartalomjegyzék Generáció
+# Tartalomjegyzék generálása
 
 ## Bevezetés
 
-Küzdött már valaha egy dinamikus és professzionális megjelenésű tartalomjegyzék (TOC) létrehozásával a Word-dokumentumokban? Ne keressen tovább! Az Aspose.Words for Java segítségével a teljes folyamatot automatizálhatja, így időt takaríthat meg és biztosítja a pontosságot. Akár átfogó jelentést, akár akadémiai dolgozatot készít, ez az oktatóanyag végigvezeti Önt a Java segítségével programozott TOC létrehozásán. Készen állsz a merülésre? Kezdjük is!
+Nehézséget okozott már a dinamikus és professzionális megjelenésű tartalomjegyzék (TOC) létrehozása a Word-dokumentumaidban? Ne keress tovább! Az Aspose.Words for Java segítségével automatizálhatod a teljes folyamatot, időt takarítva meg és biztosítva a pontosságot. Akár egy átfogó jelentést, akár egy tudományos dolgozatot készítesz, ez az oktatóanyag végigvezet a tartalomjegyzék programozott létrehozásán Java-ban. Készen állsz a belevágni? Kezdjük is!
 
 ## Előfeltételek
 
-A kódolás megkezdése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdenénk a kódolást, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-1.  Java Development Kit (JDK): telepítve van a rendszerére. Letöltheti innen[Az Oracle webhelye](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Words for Java Library: Töltse le a legújabb verziót a[kiadási oldal](https://releases.aspose.com/words/java/).
-3. Integrált fejlesztői környezet (IDE): például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
-4.  Aspose ideiglenes licenc: Az értékelési korlátozások elkerülése érdekében szerezze be a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+1. Java fejlesztőkészlet (JDK): Telepítve van a rendszerére. Letöltheti innen: [Az Oracle weboldala](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Words Java könyvtárhoz: Töltse le a legújabb verziót innen: [kiadási oldal](https://releases.aspose.com/words/java/).
+3. Integrált fejlesztői környezet (IDE): Például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
+4. Aspose Ideiglenes Licenc: Az értékelési korlátozások elkerülése érdekében szerezzen be egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
 ## Csomagok importálása
 
-Az Aspose.Words for Java hatékony használatához importálja a szükséges osztályokat. Íme az import:
+Az Aspose.Words hatékony Java-beli használatához importáld a szükséges osztályokat. Az importálás a következő:
 
 ```java
 import com.aspose.words.*;
 ```
 
-Kövesse ezeket a lépéseket dinamikus tartalomjegyzék létrehozásához a Word-dokumentumban.
+Kövesse az alábbi lépéseket egy dinamikus tartalomjegyzék létrehozásához a Word-dokumentumban.
 
-## 1. lépés: Inicializálja a Dokumentumot és a DocumentBuildert
+## 1. lépés: A dokumentum és a DocumentBuilder inicializálása
 
- Az első lépés egy új dokumentum létrehozása és a`DocumentBuilder` osztályt manipulálni.
+Az első lépés egy új dokumentum létrehozása és használata `DocumentBuilder` osztály manipulálni azt.
 
 
 ```java
@@ -48,11 +50,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
 - `Document`: A Word dokumentumot jelöli.
-- `DocumentBuilder`: Segítő osztály, amely lehetővé teszi a dokumentum egyszerű kezelését.
+- `DocumentBuilder`Egy segítő osztály, amely lehetővé teszi a dokumentum egyszerű kezelését.
 
-## 2. lépés: Helyezze be a tartalomjegyzéket
+## 2. lépés: Tartalomjegyzék beillesztése
 
-Most pedig illesszük be a TOC-t a dokumentum elejére.
+Most illesszük be a tartalomjegyzéket a dokumentum elejére.
 
 
 ```java
@@ -60,16 +62,16 @@ builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-- `insertTableOfContents`: TOC mezőt szúr be. A paraméterek megadják:
+- `insertTableOfContents`: Beszúr egy tartalomjegyzék mezőt. A paraméterek a következőket adják meg:
   - `\o "1-3"`: Tartalmazza az 1–3. szintű címsorokat.
-  - `\h`: Hiperhivatkozások létrehozása a bejegyzésekben.
-  - `\z`: Az oldalszámok letiltása webes dokumentumokhoz.
-  - `\u`: Stílusok megőrzése a hiperhivatkozásokhoz.
-- `insertBreak`: Oldaltörést ad a tartalomjegyzék után.
+  - `\h`: Bejegyzések hiperhivatkozások létrehozása.
+  - `\z`: Oldalszámok letiltása webes dokumentumokban.
+  - `\u`: Hivatkozások stílusainak megőrzése.
+- `insertBreak`: Oldaltörést ad hozzá a tartalomjegyzék után.
 
-## 3. lépés: Adjon hozzá címeket a tartalomjegyzék feltöltéséhez
+## 3. lépés: Címsorok hozzáadása a tartalomjegyzék kitöltéséhez
 
-A TOC feltöltéséhez fejlécstílusú bekezdéseket kell hozzáadnia.
+A tartalomjegyzék kitöltéséhez címsorstílusokkal kell bekezdéseket hozzáadni.
 
 
 ```java
@@ -84,12 +86,12 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : A bekezdésstílust egy adott címsorszintre állítja (pl.`HEADING_1`, `HEADING_2`).
-- `writeln`: Szöveget ad hozzá a dokumentumhoz a megadott stílusban.
+- `setStyleIdentifier`: Bekezdésstílust állít be egy adott címsorszintre (pl. `HEADING_1`, `HEADING_2`).
+- `writeln`Szöveget ad a dokumentumhoz a megadott stílusban.
 
 ## 4. lépés: Beágyazott címsorok hozzáadása
 
-A TOC-szintek bemutatásához használjon beágyazott címsorokat.
+A tartalomjegyzék szintjeinek bemutatásához használjon beágyazott címsorokat.
 
 
 ```java
@@ -103,11 +105,11 @@ builder.writeln("Heading 3.1.3.1");
 builder.writeln("Heading 3.1.3.2");
 ```
 
-- Adjon hozzá mélyebb szintek címsorait a hierarchia megjelenítéséhez a tartalomjegyzékben.
+- Adjon hozzá mélyebb szintek címsorait a tartalomjegyzék hierarchiájának megjelenítéséhez.
 
-## 5. lépés: Frissítse a TOC mezőket
+## 5. lépés: Tartalomjegyzék mezők frissítése
 
-A TOC mezőt frissíteni kell a legújabb fejlécek megjelenítéséhez.
+A tartalomjegyzék mezőt frissíteni kell a legújabb címsorok megjelenítéséhez.
 
 
 ```java
@@ -116,40 +118,45 @@ doc.updateFields();
 
 - `updateFields`: Frissíti a dokumentum összes mezőjét, biztosítva, hogy a tartalomjegyzék tükrözze a hozzáadott címsorokat.
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot a kívánt formátumba.
+Végül mentse el a dokumentumot a kívánt formátumban.
 
 
 ```java
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : Exportálja a dokumentumot a`.docx` fájlt. Megadhat más formátumokat is, mint pl`.pdf` vagy`.txt` ha szükséges.
+- `save`: Exportálja a dokumentumot egy `.docx` fájl. Megadhat más formátumokat is, például `.pdf` vagy `.txt` ha szükséges.
 
 ## Következtetés
 
-Gratulálok! Sikeresen létrehozott egy dinamikus tartalomjegyzéket egy Word-dokumentumban az Aspose.Words for Java használatával. Néhány sornyi kóddal automatizált egy olyan feladatot, amely egyébként órákig is eltarthatna. Szóval, mi lesz ezután? Kísérletezzen különböző címsorstílusokkal és formátumokkal, hogy a tartalomjegyzékét az adott igényekhez igazítsa.
+Gratulálunk! Sikeresen létrehoztál egy dinamikus tartalomjegyzéket egy Word-dokumentumban az Aspose.Words for Java segítségével. Mindössze néhány sornyi kóddal automatizáltál egy feladatot, amely egyébként órákig is eltarthatna. Szóval, mi a következő lépés? Kísérletezz különböző címsorstílusokkal és formátumokkal, hogy a tartalomjegyzéket az igényeidhez igazítsd.
 
 ## GYIK
 
-### Testreszabhatom a TOC formátumot?
-Teljesen! Beállíthatja a tartalomjegyzék paramétereit, például az oldalszámokat, a szöveg igazítását vagy az egyéni címsorstílusok használatát.
+### Testreszabhatom a tartalomjegyzék formátumát?
+Természetesen! Módosíthatod a tartalomjegyzék paramétereit, például az oldalszámok hozzáadását, a szöveg igazítását vagy az egyéni címsorstílusok használatát.
 
-### Kötelező licenc az Aspose.Words for Java számára?
- Igen, a teljes funkcionalitáshoz licenc szükséges. Kezdheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+### Kötelező licenc az Aspose.Words for Java használatához?
+Igen, a teljes funkcionalitáshoz licenc szükséges. Kezdheti egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
-### Létrehozhatok TOC-t egy meglévő dokumentumhoz?
- Igen! Helyezze be a dokumentumot a`Document` objektumot, és kövesse ugyanazokat a lépéseket a tartalomjegyzék beszúrásához és frissítéséhez.
+### Létrehozhatok tartalomjegyzéket egy meglévő dokumentumhoz?
+Igen! Töltse be a dokumentumot egy `Document` objektumot, és kövesse ugyanazokat a lépéseket a tartalomjegyzék beszúrásához és frissítéséhez.
 
-### Ez működik PDF-exportálásnál?
- Igen, a tartalomjegyzék megjelenik a PDF-ben, ha menti a dokumentumot`.pdf` formátum.
+### Ez működik PDF exportálásnál?
+Igen, a tartalomjegyzék megjelenik a PDF-ben, ha a dokumentumot ide menti: `.pdf` formátum.
 
 ### Hol találok további dokumentációt?
- Nézze meg a[Aspose.Words for Java dokumentáció](https://reference.aspose.com/words/java/) további példákért és részletekért.
+Nézd meg a [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/) további példákért és részletekért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

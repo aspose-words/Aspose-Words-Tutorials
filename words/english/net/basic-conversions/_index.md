@@ -7,8 +7,11 @@ weight: 1600
 url: /net/basic-conversions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Basic Conversions
@@ -31,9 +34,13 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [Save Pdf as Jpeg](./pdf-to-jpeg/) | Effortlessly convert PDFs to JPEGs using Aspose.Words for .NET. Follow our detailed guide with examples and FAQs. Perfect for developers and enthusiasts. |
 | [Save PDF To Word Format (Docx)](./pdf-to-docx/) | Learn how to convert a PDF to a Word document (Docx) using Aspose.Words for .NET in this detailed, step-by-step guide. Perfect for developers. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

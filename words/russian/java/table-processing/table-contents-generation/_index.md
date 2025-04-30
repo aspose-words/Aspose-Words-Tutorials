@@ -1,14 +1,16 @@
 ---
-title: Генерация содержания
-linktitle: Генерация содержания
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как создать динамическое оглавление с помощью Aspose.Words для Java. Освойте генерацию TOC с пошаговыми инструкциями и примерами исходного кода.
-weight: 14
-url: /ru/java/table-processing/table-contents-generation/
+"description": "Узнайте, как создать динамическое оглавление с помощью Aspose.Words для Java. Освойте генерацию TOC с пошаговыми инструкциями и примерами исходного кода."
+"linktitle": "Генерация содержания"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Генерация содержания"
+"url": "/ru/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Генерация содержания
@@ -21,10 +23,10 @@ url: /ru/java/table-processing/table-contents-generation/
 
 Прежде чем приступить к кодированию, убедитесь, что у вас есть следующее:
 
-1.  Java Development Kit (JDK): установлен в вашей системе. Вы можете загрузить его с[Веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Библиотека Aspose.Words для Java: загрузите последнюю версию с сайта[страница релиза](https://releases.aspose.com/words/java/).
+1. Java Development Kit (JDK): установлен в вашей системе. Вы можете загрузить его с [Веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Библиотека Aspose.Words для Java: загрузите последнюю версию с сайта [страница релиза](https://releases.aspose.com/words/java/).
 3. Интегрированная среда разработки (IDE): например, IntelliJ IDEA, Eclipse или NetBeans.
-4.  Временная лицензия Aspose: чтобы избежать ограничений оценки, получите[временная лицензия](https://purchase.aspose.com/temporary-license/).
+4. Временная лицензия Aspose: чтобы избежать ограничений оценки, получите [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ## Импортные пакеты
 
@@ -38,7 +40,7 @@ import com.aspose.words.*;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Первый шаг — создать новый документ и использовать`DocumentBuilder` класс для манипулирования им.
+Первый шаг — создать новый документ и использовать `DocumentBuilder` класс для манипулирования им.
 
 
 ```java
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : Устанавливает стиль абзаца на определенный уровень заголовка (например,`HEADING_1`, `HEADING_2`).
-- `writeln`: Добавляет текст в документ с указанным стилем.
+- `setStyleIdentifier`: Устанавливает стиль абзаца на определенный уровень заголовка (например, `HEADING_1`, `HEADING_2`).
+- `writeln`Добавляет текст в документ с указанным стилем.
 
 ## Шаг 4: Добавьте вложенные заголовки
 
@@ -116,7 +118,7 @@ doc.updateFields();
 
 - `updateFields`: Обновляет все поля в документе, гарантируя, что оглавление отражает добавленные заголовки.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните документ в желаемом формате.
 
@@ -125,7 +127,7 @@ doc.updateFields();
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : Экспортирует документ в`.docx` файл. Вы можете указать другие форматы, такие как`.pdf` или`.txt` если необходимо.
+- `save`: Экспортирует документ в `.docx` файл. Вы можете указать другие форматы, такие как `.pdf` или `.txt` если необходимо.
 
 ## Заключение
 
@@ -137,19 +139,24 @@ doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 Конечно! Вы можете настроить параметры TOC, такие как включение номеров страниц, выравнивание текста или использование пользовательских стилей заголовков.
 
 ### Обязательно ли наличие лицензии для Aspose.Words для Java?
- Да, для полной функциональности требуется лицензия. Вы можете начать с[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Да, для полной функциональности требуется лицензия. Вы можете начать с [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Могу ли я создать оглавление для существующего документа?
- Да! Загрузите документ в`Document` объект и выполните те же шаги для вставки и обновления оглавления.
+Да! Загрузите документ в `Document` объект и выполните те же шаги для вставки и обновления оглавления.
 
 ### Работает ли это для экспорта в PDF?
- Да, оглавление появится в PDF-файле, если вы сохраните документ в формате`.pdf` формат.
+Да, оглавление появится в PDF-файле, если вы сохраните документ в формате `.pdf` формат.
 
 ### Где я могу найти дополнительную документацию?
- Проверьте[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/) для получения дополнительных примеров и подробностей.
+Проверьте [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/) для получения дополнительных примеров и подробностей.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Łączenie i porównywanie dokumentów
-linktitle: Łączenie i porównywanie dokumentów
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Odkryj kompleksowe samouczki dotyczące łączenia i porównywania dokumentów za pomocą Aspose.Words dla Pythona i .NET. Dowiedz się, jak bezproblemowo łączyć i porównywać dokumenty, usprawniając przepływy pracy przetwarzania dokumentów.
-weight: 12
-url: /pl/python-net/document-combining-and-comparison/
+"description": "Odkryj kompleksowe samouczki dotyczące łączenia i porównywania dokumentów za pomocą Aspose.Words dla Pythona i .NET. Dowiedz się, jak bezproblemowo łączyć i porównywać dokumenty, usprawniając przepływy pracy przetwarzania dokumentów."
+"linktitle": "Łączenie i porównywanie dokumentów"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Łączenie i porównywanie dokumentów"
+"url": "/pl/python-net/document-combining-and-comparison/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie i porównywanie dokumentów
@@ -46,9 +48,13 @@ Stwórz czytelny spis treści za pomocą Aspose.Words dla Pythona. Naucz się be
 Zabezpiecz swoje dokumenty za pomocą zaawansowanej ochrony za pomocą Aspose.Words for Python. Dowiedz się, jak dodawać hasła, szyfrować zawartość, stosować podpisy cyfrowe i nie tylko.
 ### [Zarządzanie podpisami cyfrowymi i autentycznością](./manage-digital-signatures/)
 Dowiedz się, jak zarządzać podpisami cyfrowymi i zapewnić autentyczność dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

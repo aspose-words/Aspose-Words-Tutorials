@@ -1,14 +1,16 @@
 ---
-title: Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF
-linktitle: Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak eksportować zakładki nagłówka i stopki z dokumentu Word do pliku PDF za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
+"description": "Dowiedz się, jak eksportować zakładki nagłówka i stopki z dokumentu Word do pliku PDF za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF
@@ -21,7 +23,7 @@ Konwersja dokumentów Word do PDF to typowe zadanie, zwłaszcza gdy chcesz udost
 
 Zanim przejdziemy do konkretów, upewnij się, że masz następujące rzeczy:
 
-- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Skonfiguruj swoje środowisko programistyczne. Możesz użyć Visual Studio lub dowolnego innego IDE zgodnego z .NET.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest wymagana, aby móc śledzić przykłady kodu.
 
@@ -58,7 +60,7 @@ saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 saveOptions.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
 ```
 
- Tutaj konfigurujemy`PdfSaveOptions` . Ten`DefaultBookmarksOutlineLevel` właściwość ustawia poziom konspektu dla zakładek i`HeaderFooterBookmarksExportMode` Właściwość ta zapewnia, że eksportowane jest tylko pierwsze wystąpienie zakładek w nagłówkach i stopkach.
+Tutaj konfigurujemy `PdfSaveOptions`. Ten `DefaultBookmarksOutlineLevel` właściwość ustawia poziom konspektu dla zakładek i `HeaderFooterBookmarksExportMode` Właściwość ta zapewnia, że eksportowane jest tylko pierwsze wystąpienie zakładek w nagłówkach i stopkach.
 
 ## Krok 3: Zapisz dokument jako PDF
 
@@ -78,15 +80,15 @@ masz to! Wykonując te kroki, możesz łatwo eksportować zakładki z nagłówk�
 
 ### Czy mogę wyeksportować wszystkie zakładki z dokumentu Word do pliku PDF?
 
- Tak, możesz. W`PdfSaveOptions`, jeśli zajdzie taka potrzeba, możesz dostosować ustawienia tak, aby uwzględnić wszystkie zakładki.
+Tak, możesz. W `PdfSaveOptions`, jeśli zajdzie taka potrzeba, możesz dostosować ustawienia tak, aby uwzględnić wszystkie zakładki.
 
 ### A co jeśli chcę wyeksportować zakładki również z treści dokumentu?
 
- Możesz skonfigurować`OutlineOptions` W`PdfSaveOptions` aby uwzględnić zakładki z treści dokumentu.
+Możesz skonfigurować `OutlWeOptions` in `PdfSaveOptions` aby uwzględnić zakładki z treści dokumentu.
 
 ### Czy w pliku PDF można dostosować poziomy zakładek?
 
- Oczywiście! Możesz dostosować`DefaultBookmarksOutlineLevel` właściwość umożliwiająca ustawienie różnych poziomów obrysu zakładek.
+Oczywiście! Możesz dostosować `DefaultBookmarksOutlineLevel` właściwość umożliwiająca ustawienie różnych poziomów obrysu zakładek.
 
 ### Jak postępować z dokumentami bez zakładek?
 
@@ -95,9 +97,14 @@ Jeśli Twój dokument nie ma zakładek, plik PDF zostanie wygenerowany bez żadn
 ### Czy mogę użyć tej metody do innych typów dokumentów, np. DOCX lub RTF?
 
 Tak, Aspose.Words dla platformy .NET obsługuje różne typy dokumentów, w tym DOCX, RTF i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Opanowanie pól formularzy i przechwytywania danych w dokumentach Word
-linktitle: Opanowanie pól formularzy i przechwytywania danych w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Opanuj sztukę tworzenia i zarządzania polami formularzy w dokumentach Word za pomocą Aspose.Words dla Pythona. Naucz się efektywnie przechwytywać dane i zwiększać zaangażowanie użytkowników.
-weight: 15
-url: /pl/python-net/document-structure-and-content-manipulation/document-form-fields/
+"description": "Opanuj sztukę tworzenia i zarządzania polami formularzy w dokumentach Word za pomocą Aspose.Words for Python. Naucz się efektywnie przechwytywać dane i zwiększać zaangażowanie użytkowników."
+"linktitle": "Opanowanie pól formularzy i przechwytywania danych w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Opanowanie pól formularzy i przechwytywania danych w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-form-fields/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opanowanie pól formularzy i przechwytywania danych w dokumentach Word
@@ -17,7 +19,7 @@ dzisiejszej erze cyfrowej wydajne przechwytywanie danych i organizacja dokument�
 
 ## Wprowadzenie do pól formularzy
 
-Pola formularza to interaktywne elementy w dokumencie, które umożliwiają użytkownikom wprowadzanie danych, dokonywanie wyborów i interakcję z treścią dokumentu. Są one powszechnie używane w różnych scenariuszach, takich jak ankiety, formularze opinii, formularze wniosków i inne. Aspose.Words for Python to solidna biblioteka, która umożliwia programistom tworzenie, manipulowanie i zarządzanie tymi polami formularza programowo.
+Pola formularza to interaktywne elementy w dokumencie, które umożliwiają użytkownikom wprowadzanie danych, dokonywanie wyborów i interakcję z treścią dokumentu. Są one powszechnie używane w różnych scenariuszach, takich jak ankiety, formularze opinii, formularze wniosków i inne. Aspose.Words for Python to solidna biblioteka, która umożliwia programistom programowe tworzenie, manipulowanie i zarządzanie tymi polami formularza.
 
 ## Pierwsze kroki z Aspose.Words dla Pythona
 
@@ -46,7 +48,7 @@ Pola formularzy są niezbędnymi składnikami interaktywnych dokumentów. Nauczm
 Pola wprowadzania tekstu pozwalają użytkownikom na wprowadzanie tekstu. Aby utworzyć pole wprowadzania tekstu, użyj następującego fragmentu kodu:
 
 ```python
-# Create a new text input form field
+# Utwórz nowe pole formularza wprowadzania tekstu
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
@@ -55,12 +57,12 @@ text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 1
 Pola wyboru i przyciski radiowe są używane do wielokrotnego wyboru. Oto jak możesz je utworzyć:
 
 ```python
-# Create a checkbox form field
+# Utwórz pole formularza z polem wyboru
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 ```python
-# Create a radio button form field
+# Utwórz pole formularza z przyciskiem radiowym
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
@@ -69,7 +71,7 @@ radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 
 Listy rozwijane zapewniają wybór opcji dla użytkowników. Utwórz taką jak ta:
 
 ```python
-# Create a drop-down list form field
+# Utwórz pole formularza listy rozwijanej
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
@@ -78,7 +80,7 @@ drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100,
 Selektory dat umożliwiają użytkownikom wygodne wybieranie dat. Oto jak je utworzyć:
 
 ```python
-# Create a date picker form field
+# Utwórz pole formularza wyboru daty
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
@@ -88,7 +90,7 @@ Każde pole formularza ma różne właściwości, które można dostosować, aby
 
 ### Ustawianie nazw pól
 
-Nazwy pól zapewniają unikalny identyfikator dla każdego pola formularza, ułatwiając zarządzanie przechwyconymi danymi. Ustaw nazwę pola za pomocą`Name` nieruchomość:
+Nazwy pól zapewniają unikalny identyfikator dla każdego pola formularza, ułatwiając zarządzanie przechwyconymi danymi. Ustaw nazwę pola za pomocą `Name` nieruchomość:
 
 ```python
 text_input_field.name = "full_name"
@@ -99,7 +101,7 @@ date_picker.name = "birth_date"
 
 ### Dodawanie tekstu zastępczego
 
- Tekst zastępczy w polach wprowadzania tekstu prowadzi użytkowników przez oczekiwany format wprowadzania. Użyj`PlaceholderText` właściwość do dodawania symboli zastępczych:
+Tekst zastępczy w polach wprowadzania tekstu prowadzi użytkowników przez oczekiwany format wprowadzania. Użyj `PlaceholderText` właściwość do dodawania symboli zastępczych:
 
 ```python
 text_input_field.placeholder_text = "Enter your full name"
@@ -127,20 +129,20 @@ Jak widzieliśmy, istnieją różne typy pól formularza dostępne do przechwyty
 Pola wprowadzania tekstu są wszechstronne i powszechnie używane do przechwytywania informacji tekstowych. Mogą być używane do zbierania nazw, adresów, komentarzy i innych. Tworzenie pola wprowadzania tekstu obejmuje określenie jego położenia i rozmiaru, jak pokazano we fragmencie kodu poniżej:
 
 ```python
-# Create a new text input form field
+# Utwórz nowe pole formularza wprowadzania tekstu
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
 Po utworzeniu pola możesz ustawić jego właściwości, takie jak nazwa, wartość domyślna i tekst zastępczy. Zobaczmy, jak to zrobić:
 
 ```python
-# Set the name of the text input field
+# Ustaw nazwę pola wprowadzania tekstu
 text_input_field.name = "full_name"
 
-# Set a default value for the field
+# Ustaw wartość domyślną dla pola
 text_input_field.text = "John Doe"
 
-# Add placeholder text to guide users
+# Dodaj tekst zastępczy, aby poprowadzić użytkowników
 text_input_field.placeholder_text = "Enter your full name"
 ```
 
@@ -155,28 +157,28 @@ Aby utworzyć pole formularza z polem wyboru, użyj
  poniższy kod:
 
 ```python
-# Create a checkbox form field
+# Utwórz pole formularza z polem wyboru
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 W przypadku przycisków radiowych możesz je tworzyć, korzystając z typu kształtu OLE_OBJECT:
 
 ```python
-# Create a radio button form field
+# Utwórz pole formularza z przyciskiem radiowym
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
 Po utworzeniu tych pól możesz dostosować ich właściwości, takie jak nazwa, domyślny wybór i tekst etykiety:
 
 ```python
-# Set the name of the checkbox and radio button
+# Ustaw nazwę pola wyboru i przycisku radiowego
 checkbox.name = "subscribe_newsletter"
 radio_button.name = "gender_selection"
 
-# Set the default selection for the checkbox
+# Ustaw domyślny wybór dla pola wyboru
 checkbox.checked = True
 
-# Add label text to the checkbox and radio button
+# Dodaj tekst etykiety do pola wyboru i przycisku radiowego
 checkbox.text = "Subscribe to newsletter"
 radio_button.text = "Male"
 ```
@@ -188,24 +190,24 @@ Pola wyboru i przyciski radiowe umożliwiają użytkownikom dokonywanie wyborów
 Listy rozwijane są przydatne w scenariuszach, w których użytkownicy muszą wybrać opcję z predefiniowanej listy. Są powszechnie używane do wybierania krajów, stanów lub kategorii. Przyjrzyjmy się, jak tworzyć i dostosowywać listy rozwijane:
 
 ```python
-# Create a drop-down list form field
+# Utwórz pole formularza listy rozwijanej
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
 Po utworzeniu listy rozwijanej możesz określić listę opcji dostępnych dla użytkowników:
 
 ```python
-# Set the name of the drop-down list
+# Ustaw nazwę listy rozwijanej
 drop_down.name = "country_selection"
 
-# Provide a list of options for the drop-down list
+# Podaj listę opcji dla listy rozwijanej
 drop_down.list_entries = ["USA", "Canada", "UK", "Australia", "Germany"]
 ```
 
 Dodatkowo możesz ustawić domyślny wybór dla listy rozwijanej:
 
 ```python
-# Set the default selection for the drop-down list
+# Ustaw domyślny wybór dla listy rozwijanej
 drop_down.text = "USA"
 ```
 
@@ -216,17 +218,17 @@ Listy rozwijane usprawniają proces wybierania opcji z wstępnie zdefiniowanego 
 Selektory dat upraszczają proces przechwytywania dat od użytkowników. Zapewniają przyjazny dla użytkownika interfejs do wybierania dat, zmniejszając prawdopodobieństwo błędów wprowadzania danych. Aby utworzyć pole formularza selektora dat, użyj następującego kodu:
 
 ```python
-# Create a date picker form field
+# Utwórz pole formularza wyboru daty
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
 Po utworzeniu selektora daty możesz ustawić jego właściwości, takie jak nazwę i domyślną datę:
 
 ```python
-# Set the name of the date picker
+# Ustaw nazwę selektora dat
 date_picker.name = "birth_date"
 
-# Set the default date for the date picker
+# Ustaw domyślną datę dla selektora dat
 date_picker.text = "2023-08-31"
 ```
 
@@ -248,7 +250,7 @@ pip install aspose-words
 
 ### Czy mogę ustawić wartości domyślne dla pól formularza?
 
- Tak, możesz ustawić wartości domyślne dla pól formularza, używając odpowiednich właściwości. Na przykład, aby ustawić domyślny tekst dla pola wprowadzania tekstu, użyj`text` nieruchomość.
+Tak, możesz ustawić wartości domyślne dla pól formularza, używając odpowiednich właściwości. Na przykład, aby ustawić domyślny tekst dla pola wprowadzania tekstu, użyj `text` nieruchomość.
 
 ### Czy pola formularzy są dostępne dla użytkowników niepełnosprawnych?
 
@@ -257,9 +259,14 @@ Oczywiście. Podczas projektowania formularzy należy wziąć pod uwagę wytyczn
 ### Czy mogę eksportować zebrane dane do zewnętrznych baz danych?
 
 Tak, możesz programowo wyodrębnić dane z pól formularza i zintegrować je z zewnętrznymi bazami danych lub innymi systemami. Umożliwia to bezproblemowy transfer i przetwarzanie danych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

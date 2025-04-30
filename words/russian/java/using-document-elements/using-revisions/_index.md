@@ -1,14 +1,16 @@
 ---
-title: Использование ревизий в Aspose.Words для Java
-linktitle: Использование ревизий
-second_title: API обработки документов Java Aspose.Words
-description: Научитесь эффективно использовать Aspose.Words для пересмотра Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
-weight: 22
-url: /ru/java/using-document-elements/using-revisions/
+"description": "Научитесь эффективно использовать Aspose.Words для пересмотра Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами."
+"linktitle": "Использование ревизий"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование ревизий в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование ревизий в Aspose.Words для Java
@@ -47,7 +49,7 @@ body.appendParagraph("Paragraph 3. ");
 
 ## 5. Запуск отслеживания изменений
 
-Чтобы отслеживать изменения в документе, вы можете использовать следующий код:
+Для отслеживания изменений в документе вы можете использовать следующий код:
 
 ```java
 doc.startTrackRevisions("John Doe", new Date());
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //был Is.Empty
 // Остановка отслеживания изменений приведет к тому, что этот текст будет отображаться как обычный текст.
-//При изменении документа изменения не учитываются.
+// При изменении документа изменения не учитываются.
 doc.stopTrackRevisions();
 // Сохраните документ.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
 
 ### 4. Существуют ли какие-либо лицензионные требования для использования Aspose.Words для Java?
 
- Да, вам необходимо приобрести лицензию для использования Aspose.Words for Java в ваших проектах. Вы можете[получить доступ к лицензии здесь](https://purchase.aspose.com/buy).
+Да, вам необходимо приобрести лицензию для использования Aspose.Words for Java в ваших проектах. Вы можете [получить доступ к лицензии здесь](https://purchase.aspose.com/buy).
 
 ### 5. Где я могу найти поддержку Aspose.Words для Java?
 
- По любым вопросам или проблемам вы можете посетить[Форум поддержки Aspose.Words для Java](https://forum.aspose.com/).
+По любым вопросам или проблемам вы можете посетить [Форум поддержки Aspose.Words для Java](https://forum.aspose.com/).
 
 Начните работу с Aspose.Words для Java уже сегодня и оптимизируйте процессы управления документами.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Форматирование шрифта
-linktitle: Форматирование шрифта
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как форматировать шрифты в документах Word с помощью Aspose.Words для .NET, воспользовавшись подробным пошаговым руководством.
-weight: 10
-url: /ru/net/working-with-fonts/font-formatting/
+"description": "Узнайте, как форматировать шрифты в документах Word с помощью Aspose.Words для .NET, воспользовавшись подробным пошаговым руководством."
+"linktitle": "Форматирование шрифта"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Форматирование шрифта"
+"url": "/ru/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Форматирование шрифта
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/font-formatting/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая C# IDE.
 3. Базовые знания C#: понимание основ программирования на C# поможет вам разобраться в примерах.
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## Шаг 1: Настройка документа
 
- Для начала давайте создадим новый документ и настроим`DocumentBuilder`:
+Для начала давайте создадим новый документ и настроим `DocumentBuilder`:
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 ## Часто задаваемые вопросы
 
 ### Какие еще свойства шрифта можно задать с помощью Aspose.Words для .NET?
- Вы можете задать такие свойства, как курсив, зачеркивание, подстрочный индекс, надстрочный индекс и т. д. Проверьте[документация](https://reference.aspose.com/words/net/) для полного списка.
+Вы можете задать такие свойства, как курсив, зачеркивание, подстрочный индекс, надстрочный индекс и т. д. Проверьте [документация](https://reference.aspose.com/words/net/) для полного списка.
 
 ### Могу ли я изменить шрифт существующего текста в документе?
 Да, вы можете перемещаться по документу и применять изменения шрифта к существующему тексту. 
@@ -92,13 +94,18 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 Конечно! Вы можете использовать любой шрифт, установленный в вашей системе, или встроить пользовательские шрифты непосредственно в документ.
 
 ### Как применить разные стили шрифта к разным частям текста?
- Использовать несколько`DocumentBuilder` экземпляры или переключение настроек шрифта между`Write` призывает применять разные стили к разным текстовым сегментам.
+Использовать несколько `DocumentBuilder` экземпляры или переключение настроек шрифта между `Write` призывает применять разные стили к разным текстовым сегментам.
 
 ### Поддерживает ли Aspose.Words for .NET другие форматы документов, помимо DOCX?
 Да, он поддерживает множество форматов, включая PDF, HTML, EPUB и другие. 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

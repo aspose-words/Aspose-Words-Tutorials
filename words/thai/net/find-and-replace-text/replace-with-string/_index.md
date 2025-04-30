@@ -1,14 +1,16 @@
 ---
-title: แทนที่ด้วยสตริง
-linktitle: แทนที่ด้วยสตริง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทนที่สตริงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการทำให้การแก้ไขเอกสารเป็นแบบอัตโนมัติ
-weight: 10
-url: /th/net/find-and-replace-text/replace-with-string/
+"description": "เรียนรู้วิธีการแทนที่สตริงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการทำให้การแก้ไขเอกสารเป็นแบบอัตโนมัติ"
+"linktitle": "แทนที่ด้วยสตริง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทนที่ด้วยสตริง"
+"url": "/th/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่ด้วยสตริง
@@ -20,9 +22,9 @@ url: /th/net/find-and-replace-text/replace-with-string/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มลงมือเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่เราจะลงมือทำโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ C# IDE ใดๆ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เล็กน้อยจะเป็นประโยชน์
 
@@ -46,7 +48,7 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไปยังไดเรกทอรีเอกสารของคุณ นี่คือโฮมเบสสำหรับไฟล์ของเรา
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไปยังไดเรกทอรีเอกสารของคุณ นี่คือโฮมเบสสำหรับไฟล์ของเรา
 
 ## ขั้นตอนที่ 2: เริ่มต้นเอกสารและตัวสร้าง
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่,`Document` แสดงถึงเอกสาร Word ที่เราจะใช้ทำงานด้วยและ`DocumentBuilder` เป็นเครื่องมือของเราในการปรับเปลี่ยนมัน
+ที่นี่, `Document` แสดงถึงเอกสาร Word ที่เราจะใช้ทำงานด้วยและ `DocumentBuilder` เป็นเครื่องมือของเราในการปรับเปลี่ยนมัน
 
 ## ขั้นตอนที่ 3: เพิ่มเนื้อหาเริ่มต้น
 
@@ -77,7 +79,7 @@ builder.Writeln("sad mad bad");
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- การ`Replace`วิธีการนี้ตรงไปตรงมามาก โดยเราจะระบุคำที่จะค้นหา คำที่จะแทนที่ และตัวเลือกสำหรับการดำเนินการค้นหาและแทนที่
+การ `Replace` วิธีการนี้ตรงไปตรงมามาก เราระบุคำที่จะค้นหา คำที่จะแทนที่ และตัวเลือกสำหรับการดำเนินการค้นหาและแทนที่
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
@@ -87,11 +89,11 @@ doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forw
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- เอกสารจะถูกบันทึกไว้ในไดเร็กทอรีที่ระบุโดยใช้ชื่อ`FindAndReplace.ReplaceWithString.docx`และแล้วเราก็ทำการค้นหาและแทนที่สำเร็จ
+เอกสารจะถูกบันทึกไว้ในไดเร็กทอรีที่ระบุโดยใช้ชื่อ `FindAndReplace.ReplaceWithString.docx`และแล้วเราก็ทำการค้นหาและแทนที่สำเร็จ
 
 ## บทสรุป
 
-นั่นแหละ! ด้วย Aspose.Words สำหรับ .NET การแทนที่สตริงในเอกสาร Word เป็นเรื่องง่าย เครื่องมือนี้ทรงพลังอย่างเหลือเชื่อ ช่วยให้คุณสามารถจัดการเอกสารด้วยโปรแกรมได้อย่างง่ายดาย ไม่ว่าคุณจะอัปเดตคำเดียวหรือปรับปรุงส่วนต่างๆ ทั้งหมด Aspose.Words ก็ช่วยคุณได้
+นั่นแหละ! Aspose.Words สำหรับ .NET ช่วยให้การแทนที่สตริงในเอกสาร Word เป็นเรื่องง่าย เครื่องมือนี้มีประสิทธิภาพอย่างเหลือเชื่อ ช่วยให้คุณสามารถจัดการเอกสารด้วยโปรแกรมได้อย่างง่ายดาย ไม่ว่าคุณจะอัปเดตคำเดียวหรือปรับปรุงส่วนต่างๆ ทั้งหมด Aspose.Words ก็ช่วยคุณได้
 
 ## คำถามที่พบบ่อย
 
@@ -99,7 +101,7 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ใช่ คุณสามารถเชื่อมต่อการดำเนินการแทนที่หลายรายการเข้าด้วยกันหรือใช้นิพจน์ทั่วไปเพื่อจับคู่และแทนที่รูปแบบต่างๆ ได้
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เป็นไลบรารีที่ต้องชำระเงิน แต่คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
+Aspose.Words สำหรับ .NET เป็นไลบรารีที่ต้องชำระเงิน แต่คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
 
 ### ฉันสามารถแทนที่ข้อความด้วยเนื้อหาที่มีการจัดรูปแบบแล้วได้หรือไม่
 แน่นอน! Aspose.Words ช่วยให้คุณสามารถแทนที่ข้อความด้วยเนื้อหาที่ได้รับการจัดรูปแบบ รวมถึงแบบอักษร สี และสไตล์ที่แตกต่างกัน
@@ -108,10 +110,15 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 หากไม่พบคำนั้น การดำเนินการแทนที่จะไม่เปลี่ยนแปลงสิ่งใด ไม่มีข้อผิดพลาด ไม่มีการเปลี่ยนแปลงใดๆ
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้จาก[ชุมชนอาโพส](https://forum.aspose.com/c/words/8) หรือซื้อการสนับสนุนระดับพรีเมียมหากจำเป็น
+คุณสามารถรับการสนับสนุนได้จาก [ชุมชนอาโพส](https://forum.aspose.com/c/words/8) หรือซื้อการสนับสนุนระดับพรีเมียมหากจำเป็น
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,39 +1,43 @@
 ---
-title: Creëer Word Table Cell met het plaatsen van Aspose.Words voor .NET 
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document met een geformatteerde tabelcel kunt maken met behulp van een aangepaste vulling met behulp van Aspose.Words voor .NET. Volg eenvoudige installatie stappen.
-keywords: [Aspose.Words for .NET, table cell padding, formatted cell, Word document, .NET Word API, create Word table, table formatting, document builder, .NET example]
-url: /nl/net/working-with-table-styles-and-formatting/cell-padding/
+"description": "Leer hoe u een Word-document maakt met een opgemaakte tabelcel, inclusief aangepaste opvulling, met Aspose.Words voor .NET. Volg de eenvoudige installatiestappen."
+"title": "Maak een Word-tabelcel met opvulling in Aspose.Words voor .NET"
+"url": "/nl/net/working-with-table-styles-and-formatting/cell-padding/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creëer een Word Table Cell met het inpakken van Aspose.Words
+# Maak een Word-tabelcel met opvulling in Aspose.Words
 
-Aspose.Words voor .NET maakt werken met Word documenten een briesje! Deze handleiding toont hoe je een Word-tabel met een geformatteerde cel kunt maken die aangepaste vulling bevat.`DocumentBuilder`Als je een programma voor het maken van een compositie op een computer hebt, kan je de verpakking van tafelcellen eenvoudig definiëren en professionele geformatteerde inhoud toevoegen.  
+Aspose.Words voor .NET maakt het werken met Word-documenten een fluitje van een cent! Deze tutorial laat zien hoe je een Word-tabel maakt met een opgemaakte cel met aangepaste opvulling. Door gebruik te maken van de krachtige `DocumentBuilder` Met de klasse kunt u moeiteloos de opvulling voor tabelcellen definiëren en professioneel opgemaakte inhoud toevoegen. Of u nu de rapportgeneratie automatiseert, complexe tabellen bouwt of Word-sjablonen maakt, Aspose.Words voor .NET zorgt ervoor dat uw taken efficiënt en eenvoudig verlopen.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/cell-padding" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Om het voorbeeld te laten draaien en Aspose.Words te gebruiken voor .NET, volg deze stappen:  
+Volg deze stappen om het voorbeeld uit te voeren en Aspose.Words voor .NET te gebruiken:  
 
 1. Download Aspose.Words voor .NET  
-   Haal de nieuwste versie van Aspose.Words van de [Aspose vrijgeeft pagina](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .  
+   Download de nieuwste versie van Aspose.Woorden van de [Aspose Releases Pagina](https://releases.aspose.com/words/net/).  
 
-2. Installeer via NuGet Package Manager  
-   Open je .NET-project in Visual Studio en voer het volgende commando uit in de NuGet Package Manager Console:  
+2. Installeren via NuGet Package Manager  
+   Open uw .NET-project in Visual Studio en voer de volgende opdracht uit in de NuGet Package Manager Console:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Een tijdelijke of een licentievertaling opzetten  
-   * Verzamel een [gratis tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)of een volledige licentie kopen bij de [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-   * Doe de licentie in je code:  
+3. Een tijdelijke of gelicentieerde versie instellen  
+   - Verkrijg een [gratis tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of koop een volledige licentie van de [Aspose Kooppagina](https://purchase.aspose.com/buy).  
+   - Pas de licentie toe in uw code:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
@@ -41,9 +45,13 @@ Om het voorbeeld te laten draaien en Aspose.Words te gebruiken voor .NET, volg d
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Přijímání a odmítání změn dokumentu
-linktitle: Přijímání a odmítání změn dokumentu
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se, jak snadno spravovat změny dokumentů pomocí Aspose.Words for Java. Bezproblémově přijímat a odmítat revize.
-weight: 12
-url: /cs/java/document-revision/accepting-rejecting-document-changes/
+"description": "Naučte se, jak snadno spravovat změny v dokumentech s Aspose.Words pro Javu. Bezproblémově přijímejte a odmítejte revize."
+"linktitle": "Přijímání a zamítání změn dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Přijímání a zamítání změn dokumentů"
+"url": "/cs/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přijímání a odmítání změn dokumentu
+# Přijímání a zamítání změn dokumentů
 
 
-## Úvod do Aspose.Words for Java
+## Úvod do Aspose.Words pro Javu
 
-Aspose.Words for Java je robustní knihovna, která umožňuje vývojářům Java snadno vytvářet, manipulovat a převádět dokumenty aplikace Word. Jednou z jeho klíčových vlastností je schopnost pracovat se změnami dokumentů, což z něj dělá neocenitelný nástroj pro společnou editaci dokumentů.
+Aspose.Words pro Javu je robustní knihovna, která umožňuje vývojářům v Javě snadno vytvářet, manipulovat s dokumenty Wordu a převádět je. Jednou z jejích klíčových funkcí je schopnost pracovat se změnami dokumentů, což z ní činí neocenitelný nástroj pro kolaborativní úpravy dokumentů.
 
-## Pochopení změn dokumentu
+## Pochopení změn v dokumentech
 
-Než se ponoříme do implementace, ujasněme si, co jsou změny dokumentu. Změny dokumentu zahrnují úpravy, vkládání, mazání a úpravy formátování provedené v dokumentu. Tyto změny jsou obvykle sledovány pomocí funkce revize.
+Než se ponoříme do implementace, pojďme si vysvětlit, co jsou změny dokumentu. Změny dokumentu zahrnují úpravy, vkládání, mazání a úpravy formátování provedené v dokumentu. Tyto změny se obvykle sledují pomocí funkce revizí.
 
 ## Načítání dokumentu
 
-Chcete-li začít, musíte načíst dokument aplikace Word, který obsahuje sledované změny. Aspose.Words for Java poskytuje jednoduchý způsob, jak toho dosáhnout:
+Chcete-li začít, musíte načíst dokument aplikace Word, který obsahuje sledované změny. Aspose.Words pro Javu nabízí jednoduchý způsob, jak to udělat:
 
 ```java
-// Vložte dokument
+// Načíst dokument
 Document doc = new Document("document_with_changes.docx");
 ```
 
-## Kontrola změn dokumentu
+## Kontrola změn dokumentů
 
-Jakmile dokument načtete, je nezbytné zkontrolovat změny. Můžete opakovat revize, abyste viděli, jaké úpravy byly provedeny:
+Jakmile dokument načtete, je nezbytné zkontrolovat změny. Můžete procházet revizemi a zjistit, jaké úpravy byly provedeny:
 
 ```java
-// Procházet revizemi
+// Iterovat revizemi
 for (Revision revision : doc.getRevisions()) {
     // Zobrazit podrobnosti o revizi
     System.out.println("Revision Type: " + revision.getRevisionType());
@@ -44,65 +46,70 @@ for (Revision revision : doc.getRevisions()) {
 }
 ```
 
-## Přijímání změn
+## Přijetí změn
 
-Přijetí změn je kritickým krokem při finalizaci dokumentu. Aspose.Words pro Java usnadňuje přijímání všech revizí nebo konkrétních revizí:
+Přijetí změn je klíčovým krokem při finalizaci dokumentu. Aspose.Words pro Javu usnadňuje přijetí všech revizí nebo jen konkrétních:
 
 ```java
-// Přijměte všechny revize
+// Přijmout všechny revize
 doc.getRevisions().get(0).accept();
 ```
 
 ## Odmítnutí změn
 
-V některých případech může být nutné odmítnout určité změny. Aspose.Words for Java poskytuje flexibilitu pro odmítnutí revizí podle potřeby:
+některých případech může být nutné určité změny odmítnout. Aspose.Words pro Javu nabízí flexibilitu odmítnutí revizí podle potřeby:
 
 ```java
-// Odmítnout všechny revize
+// Zamítnout všechny revize
 doc.getRevisions().get(1).reject();
 ```
 
 ## Uložení dokumentu
 
-Po přijetí nebo zamítnutí změn je důležité uložit dokument s požadovanými úpravami:
+Po přijetí nebo odmítnutí změn je nezbytné dokument uložit s požadovanými úpravami:
 
 ```java
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.save("document_with_accepted_changes.docx");
 ```
 
 ## Automatizace procesu
 
-Chcete-li proces dále zefektivnit, můžete automatizovat přijímání nebo odmítání změn na základě specifických kritérií, jako jsou komentáře recenzentů nebo typy revizí. To zajišťuje efektivnější práci s dokumenty.
+Pro další zjednodušení procesu můžete automatizovat přijetí nebo odmítnutí změn na základě specifických kritérií, jako jsou komentáře recenzentů nebo typy revizí. Tím se zajistí efektivnější pracovní postup pro dokumenty.
 
 ## Závěr
 
-Závěrem lze říci, že zvládnutí umění přijímat a odmítat změny dokumentů pomocí Aspose.Words for Java může výrazně zlepšit vaše zkušenosti s prací na dokumentech. Tato výkonná knihovna zjednodušuje proces a umožňuje vám snadno kontrolovat, upravovat a finalizovat dokumenty.
+Závěrem lze říci, že zvládnutí umění přijímání a odmítání změn dokumentů pomocí Aspose.Words pro Javu může výrazně zlepšit váš zážitek ze spolupráce na dokumentech. Tato výkonná knihovna zjednodušuje proces a umožňuje vám snadno kontrolovat, upravovat a finalizovat dokumenty.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu zjistit, kdo provedl konkrétní změnu v dokumentu?
+### Jak zjistím, kdo provedl konkrétní změnu v dokumentu?
 
- K informacím o autorovi pro každou revizi můžete přistupovat pomocí`getAuthor` metoda na`Revision` objekt.
+Informace o autorovi pro každou revizi můžete zobrazit pomocí `getAuthor` metoda na `Revision` objekt.
 
-### Mohu upravit vzhled sledovaných změn v dokumentu?
+### Mohu si přizpůsobit vzhled sledovaných změn v dokumentu?
 
-Ano, vzhled sledovaných změn můžete upravit úpravou možností formátování pro revize.
+Ano, vzhled sledovaných změn si můžete přizpůsobit úpravou možností formátování pro revize.
 
-### Je Aspose.Words for Java kompatibilní s různými formáty dokumentů aplikace Word?
+### Je Aspose.Words pro Javu kompatibilní s různými formáty dokumentů Wordu?
 
-Ano, Aspose.Words for Java podporuje širokou škálu formátů dokumentů Word, včetně DOCX, DOC, RTF a dalších.
+Ano, Aspose.Words pro Javu podporuje širokou škálu formátů dokumentů Word, včetně DOCX, DOC, RTF a dalších.
 
 ### Mohu vrátit zpět přijetí nebo odmítnutí změn?
 
-Bohužel změny, které byly přijaty nebo zamítnuty, nelze v knihovně Aspose.Words snadno vrátit zpět.
+Změny, které byly přijaty nebo odmítnuty, bohužel nelze v knihovně Aspose.Words snadno vrátit zpět.
 
-### Kde najdu další informace a dokumentaci k Aspose.Words for Java?
+### Kde najdu více informací a dokumentaci k Aspose.Words pro Javu?
 
- Pro podrobnou dokumentaci a příklady navštivte[Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/).
+Podrobnou dokumentaci a příklady naleznete na [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

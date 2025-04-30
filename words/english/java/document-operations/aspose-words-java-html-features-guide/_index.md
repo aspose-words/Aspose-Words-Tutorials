@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -272,9 +275,13 @@ Importing `<select>` elements as structured document tags allows for better cont
        throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
    }
    ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

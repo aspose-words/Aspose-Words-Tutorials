@@ -1,14 +1,16 @@
 ---
-title: Управление переносами и потоком текста в документах Word
-linktitle: Управление переносами и потоком текста в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как управлять переносами и потоком текста в документах Word с помощью Aspose.Words для Python. Создавайте отточенные, удобные для чтения документы с пошаговыми примерами и исходным кодом.
-weight: 17
-url: /ru/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Узнайте, как управлять переносами и потоком текста в документах Word с помощью Aspose.Words для Python. Создавайте отточенные, удобные для чтения документы с пошаговыми примерами и исходным кодом."
+"linktitle": "Управление переносами и потоком текста в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Управление переносами и потоком текста в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление переносами и потоком текста в документах Word
@@ -110,13 +112,13 @@ Aspose.Words позволяет вам выравнивать текст в со
 
 Эффективное управление переносами и потоком текста имеет важное значение для создания отполированных и удобных для чтения документов Word. С Aspose.Words для Python у вас есть инструменты для реализации стратегий переносов, управления потоком текста и улучшения общей эстетики документа.
 
- Более подробную информацию и примеры см.[API-документация](https://reference.aspose.com/words/python-net/).
+Более подробную информацию и примеры см. [API-документация](https://reference.aspose.com/words/python-net/).
 
 ## Часто задаваемые вопросы
 
 ### Как включить автоматическую расстановку переносов в документе?
 
- Чтобы включить автоматическую расстановку переносов, установите`auto_hyphenation` возможность`True` с использованием Aspose.Words для Python.
+Чтобы включить автоматическую расстановку переносов, установите `auto_hyphenation` возможность `True` с использованием Aspose.Words для Python.
 
 ### Могу ли я вручную контролировать, где будет переноситься слово?
 
@@ -132,11 +134,16 @@ Aspose.Words позволяет вам выравнивать текст в со
 
 ### Где я могу получить доступ к документации Aspose.Words для Python?
 
- Доступ к документации API можно получить по адресу[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+Доступ к документации API можно получить по адресу [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

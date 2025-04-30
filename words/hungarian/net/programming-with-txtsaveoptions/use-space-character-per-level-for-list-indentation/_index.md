@@ -1,62 +1,64 @@
 ---
-title: Használjon szóközt szintenként a lista behúzásához
-linktitle: Használjon szóközt szintenként a lista behúzásához
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan hozhat létre többszintű listákat szóköz karakter behúzással az Aspose.Words for .NET programban. Lépésről lépésre útmutató a precíz dokumentumformázáshoz.
-weight: 10
-url: /hu/net/programming-with-txtsaveoptions/use-space-character-per-level-for-list-indentation/
+"description": "Tanuld meg, hogyan hozhatsz létre többszintű listákat szóközök behúzásával az Aspose.Words for .NET programban. Lépésről lépésre útmutató a precíz dokumentumformázáshoz."
+"linktitle": "Szóköz karakter használata szintenként a lista behúzásához"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Szóköz karakter használata szintenként a lista behúzásához"
+"url": "/hu/net/programming-with-txtsaveoptions/use-space-character-per-level-for-list-indentation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Használjon szóközt szintenként a lista behúzásához
+# Szóköz karakter használata szintenként a lista behúzásához
 
 ## Bevezetés
 
-dokumentumok formázásakor, különösen a listákkal való munka során, a pontosság kulcsfontosságú. Azokban a helyzetekben, amikor különféle behúzási szintekkel kell dokumentumokat készíteni, az Aspose.Words for .NET hatékony eszközöket kínál a feladat kezelésére. Az egyik hasznos funkció a lista behúzásának konfigurálása a szöveges fájlokban. Ez az útmutató végigvezeti Önt, hogyan kell szóközt használni a lista behúzásához, biztosítva ezzel, hogy a dokumentum megőrizze a kívánt szerkezetet és olvashatóságot.
+A dokumentumok formázása terén, különösen listákkal való munka esetén, a pontosság kulcsfontosságú. Azokban az esetekben, amikor különböző behúzási szintű dokumentumokat kell létrehozni, az Aspose.Words for .NET hatékony eszközöket kínál ennek a feladatnak a kezelésére. Az egyik különösen hasznos funkció a lista behúzásának konfigurálása szövegfájlokban. Ez az útmutató végigvezeti Önt a szóközök használatán a lista behúzásához, biztosítva, hogy a dokumentum megőrizze a kívánt szerkezetet és olvashatóságot.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, a következőkre lesz szüksége:
+Mielőtt belevágnál az oktatóanyagba, itt van, amire szükséged lesz:
 
--  Aspose.Words for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Words könyvtár. Ha még nem rendelkezik vele, letöltheti a webhelyről[Aspose honlapja](https://releases.aspose.com/words/net/).
-- Visual Studio: fejlesztői környezet a kód írásához és teszteléséhez.
-- A C# alapvető ismerete: A C# és a .NET keretrendszer ismerete segít a zökkenőmentes követésben.
+- Aspose.Words .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Words könyvtár. Ha még nem telepítette, letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
+- Visual Studio: Egy fejlesztői környezet a kód írásához és teszteléséhez.
+- C# alapismeretek: A C# és a .NET keretrendszer ismerete segít a gördülékeny haladásban.
 
 ## Névterek importálása
 
-Az Aspose.Words használatához importálnia kell a szükséges névtereket. A következőképpen veheti fel őket a projektjébe:
+Az Aspose.Words használatának megkezdéséhez importálnia kell a szükséges névtereket. Így illesztheti be őket a projektjébe:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Bontsuk fel a dokumentum létrehozásának folyamatát többszintű listával és szóköz karakterek megadásával a behúzáshoz. 
+Bontsuk le egy többszintű listával rendelkező dokumentum létrehozásának folyamatát, és adjuk meg a szóközök karaktereit a behúzáshoz. 
 
-## 1. lépés: Állítsa be a dokumentumot
+## 1. lépés: A dokumentum beállítása
 
- Először is létre kell hoznia egy új dokumentumot, és inicializálnia kell`DocumentBuilder` objektum. Ez az objektum lehetővé teszi a tartalom egyszerű hozzáadását és szükség szerinti formázását.
+Először is létre kell hoznod egy új dokumentumot, és inicializálnod kell a `DocumentBuilder` objektum. Ez az objektum lehetővé teszi a tartalom egyszerű hozzáadását és igény szerinti formázását.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Hozzon létre egy dokumentumot, és adjon hozzá tartalmat
+// Dokumentum létrehozása és tartalom hozzáadása
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ebben a részletben cserélje ki`"YOUR DOCUMENTS DIRECTORY"` azzal a tényleges elérési úttal, ahová a dokumentumot menteni szeretné.
+Ebben a kódrészletben cserélje ki a következőt: `"YOUR DOCUMENTS DIRECTORY"` a dokumentum tényleges mentési útvonalával.
 
-## 2. lépés: Hozzon létre egy listát többszintű behúzással
+## 2. lépés: Több behúzási szintű lista létrehozása
 
- A`DocumentBuilder` Például most már létrehozhat egy listát különböző behúzási szintekkel. Használja a`ListFormat` tulajdonság a számozás alkalmazásához és a listaelemek igény szerinti behúzásához.
+A `DocumentBuilder` Például most már létrehozhat egy listát különböző behúzási szintekkel. Használja a `ListFormat` tulajdonság a listaelemek számozásának alkalmazásához és szükség szerinti behúzásához.
 
 ```csharp
-// Hozzon létre egy listát három behúzási szinttel
+// Három behúzási szintű lista létrehozása
 builder.ListFormat.ApplyNumberDefault();
 builder.Write("Element 1");
 builder.ListFormat.ListIndent();
@@ -65,55 +67,60 @@ builder.ListFormat.ListIndent();
 builder.Write("Element 3");
 ```
 
- Ebben a lépésben`ApplyNumberDefault` beállítja a lista formátumát, és`ListIndent` a behúzás szintjének növelésére szolgál minden következő listaelemnél.
+Ebben a lépésben `ApplyNumberDefault` beállítja a lista formátumát, és `ListIndent` a következő listaelemek behúzási szintjének növelésére szolgál.
 
-## 3. lépés: Konfigurálja a szóköz karakterét a behúzáshoz
+## 3. lépés: Szóköz karakter konfigurálása behúzáshoz
 
-Most, hogy beállította a listát, a következő lépés az, hogy beállítsa a lista behúzásának kezelését a dokumentum szöveges fájlba mentésekor. Használni fogod`TxtSaveOptions` annak megadásához, hogy a behúzáshoz szóköz karaktereket kell használni.
+Most, hogy beállította a listát, a következő lépés annak konfigurálása, hogy a lista behúzása hogyan legyen kezelve a dokumentum szövegfájlba mentésekor. A következőt fogja használni: `TxtSaveOptions` annak megadásához, hogy a behúzáshoz szóközöket kell használni.
 
 ```csharp
-// Használjon szintenként egy szóköz karaktert a lista behúzásához
+// Használjon egy szóköz karaktert szintenként a lista behúzásához
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.ListIndentation.Count = 3;
 saveOptions.ListIndentation.Character = ' ';
 ```
 
- Itt,`ListIndentation.Count` megadja a szóköz karakterek számát behúzási szintenként, és`ListIndentation.Character` beállítja a behúzáshoz használt tényleges karaktert.
+Itt, `ListIndentation.Count` meghatározza a szóközök számát behúzási szintenként, és `ListIndentation.Character` beállítja a behúzáshoz használt tényleges karaktert.
 
 ## 4. lépés: Mentse el a dokumentumot a megadott beállításokkal
 
-Végül mentse el a dokumentumot a konfigurált beállításokkal. Ez alkalmazza a behúzás beállításait, és elmenti a fájlt a kívánt formátumban.
+Végül mentse el a dokumentumot a konfigurált beállításokkal. Ez alkalmazza a behúzási beállításokat, és a fájlt a kívánt formátumban menti.
 
 ```csharp
-// Mentse el a dokumentumot a megadott opciókkal
+// Mentse el a dokumentumot a megadott beállításokkal
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt", saveOptions);
 ```
 
- Ez a kódrészlet a dokumentumot a pontban megadott elérési útra menti`dataDir` a fájlnévvel`"WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt"`. A mentett fájl listája a behúzás beállításai szerint lesz formázva.
+Ez a kódrészlet a dokumentumot a megadott elérési útra menti. `dataDir` a fájlnévvel `"WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt"`A mentett fájl listája a behúzási beállításoknak megfelelően lesz formázva.
 
 ## Következtetés
 
-Az alábbi lépések végrehajtásával sikeresen létrehozott egy dokumentumot többszintű lista behúzással, szóköz karakterekkel a formázáshoz. Ez a megközelítés biztosítja, hogy a listák jól strukturáltak és könnyen olvashatóak legyenek, még akkor is, ha szöveges fájlként mentik őket. Az Aspose.Words for .NET robusztus eszközöket biztosít a dokumentumkezeléshez, és ezen szolgáltatások elsajátítása jelentősen javíthatja a dokumentumfeldolgozási munkafolyamatokat.
+A következő lépések követésével sikeresen létrehoztál egy többszintű listabehúzással rendelkező dokumentumot, amely szóközöket használ a formázáshoz. Ez a megközelítés biztosítja, hogy a listáid jól strukturáltak és könnyen olvashatók legyenek, még szövegfájlként mentés esetén is. Az Aspose.Words for .NET robusztus eszközöket biztosít a dokumentumkezeléshez, és ezeknek a funkcióknak az elsajátítása jelentősen javíthatja a dokumentumfeldolgozási munkafolyamatokat.
 
 ## GYIK
 
-### Használhatok különböző karaktereket a lista behúzásához a szóközökön kívül?
- Igen, a lista behúzásához különböző karaktereket adhat meg a`Character` ingatlan be`TxtSaveOptions`.
+### Használhatok a szóközökön kívül más karaktereket a lista behúzásához?
+Igen, a lista behúzásához különböző karaktereket adhat meg a `Character` ingatlan `TxtSaveOptions`.
 
-### Hogyan alkalmazhatok felsorolásjeleket a számok helyett a listákban?
- Használat`ListFormat.ApplyBulletDefault()` helyett`ApplyNumberDefault()` pontozott lista létrehozásához.
+### Hogyan használhatok felsorolásjeleket számok helyett a listákban?
+Használat `ListFormat.ApplyBulletDefault()` helyett `ApplyNumberDefault()` felsorolásjeles lista létrehozásához.
 
-### Beállíthatom a szóközök számát dinamikusan a behúzáshoz?
- Igen, beállíthatja a`ListIndentation.Count` tulajdonságot a helyek számának beállításához az Ön igényei alapján.
+### Dinamikusan beállíthatom a behúzás szóközeinek számát?
+Igen, beállíthatja a `ListIndentation.Count` tulajdonsággal beállíthatja a szóközök számát az igényei alapján.
 
-### Lehetséges-e módosítani a lista behúzását a dokumentum létrehozása után?
+### Lehetséges a lista behúzásának módosítása a dokumentum létrehozása után?
 Igen, a lista formázási és behúzási beállításait bármikor módosíthatja a dokumentum mentése előtt.
 
-### Milyen más dokumentumformátumok támogatják a lista behúzásának beállításait?
-A szöveges fájlok mellett a lista behúzási beállításai más formátumokra is alkalmazhatók, mint például a DOCX, PDF és HTML, amikor az Aspose.Words fájlt használja.
+### Milyen más dokumentumformátumok támogatják a lista behúzási beállításait?
+A szöveges fájlokon kívül a lista behúzási beállításai más formátumokra, például DOCX, PDF és HTML fájlokra is alkalmazhatók az Aspose.Words használatakor.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

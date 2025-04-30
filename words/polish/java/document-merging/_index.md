@@ -1,14 +1,16 @@
 ---
-title: Łączenie dokumentów
-linktitle: Łączenie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj potencjał scalania dokumentów w Javie za pomocą Aspose.Words! Naucz się wydajnego przetwarzania tekstu i dokumentów dzięki szczegółowym samouczkom.
-weight: 13
-url: /pl/java/document-merging/
+"description": "Odblokuj potencjał scalania dokumentów w Javie za pomocą Aspose.Words! Naucz się wydajnego przetwarzania tekstu i dokumentów dzięki szczegółowym samouczkom."
+"linktitle": "Łączenie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Łączenie dokumentów"
+"url": "/pl/java/document-merging/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie dokumentów
@@ -20,7 +22,7 @@ Samouczki scalania dokumentów przy użyciu Aspose.Words for Java oferują kompl
 
 ## Szczegółowe omówienie scalania dokumentów
 
-tych samouczkach programiści poznają podstawy scalania dokumentów i zrozumieją jego znaczenie w przepływach pracy przetwarzania dokumentów. Aspose.Words for Java zapewnia wszechstronny zestaw narzędzi do obsługi różnych formatów plików, w tym DOCX, DOC, RTF i ODT, zapewniając bezproblemową zgodność podczas procesu scalania. Kładąc nacisk na wydajność i dokładność, samouczki obejmują sposób obsługi różnych scenariuszy, takich jak scalanie dokumentów o różnych orientacjach stron i zachowywanie hiperłączy. Instrukcje krok po kroku i przykłady kodu ułatwiają programistom implementację funkcji scalania dokumentów w ich aplikacjach Java.
+tych samouczkach programiści poznają podstawy scalania dokumentów i zrozumieją jego znaczenie w przepływach pracy przetwarzania dokumentów. Aspose.Words for Java zapewnia wszechstronny zestaw narzędzi do obsługi różnych formatów plików, w tym DOCX, DOC, RTF i ODT, zapewniając bezproblemową zgodność podczas procesu scalania. Kładąc nacisk na wydajność i dokładność, samouczki obejmują sposób obsługi różnych scenariuszy, takich jak scalanie dokumentów o różnych orientacjach stron i zachowywanie hiperłączy. Instrukcje krok po kroku i przykłady kodu ułatwiają programistom implementację funkcjonalności scalania dokumentów w ich aplikacjach Java.
 
 ## Zaawansowane techniki optymalnego łączenia dokumentów
 
@@ -40,9 +42,13 @@ Dowiedz się, jak łączyć i dołączać dokumenty za pomocą Aspose.Words dla 
 Dowiedz się, jak porównywać dokumenty pod kątem różnic, używając Aspose.Words w Javie. Nasz przewodnik krok po kroku zapewnia dokładne zarządzanie dokumentami.
 ### [Łączenie dokumentów za pomocą DocumentBuilder](./merging-documents-documentbuilder/)
 Dowiedz się, jak manipulować dokumentami Word za pomocą Aspose.Words dla Java. Twórz, edytuj, scalaj i konwertuj dokumenty programowo w Javie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

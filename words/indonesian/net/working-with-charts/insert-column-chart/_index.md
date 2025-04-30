@@ -1,50 +1,58 @@
 ---
-title: Masukkan grafik kolom di Word menggunakan Aspose.Words untuk .NET
-weight: 7700
-limit: 
-description: Pelajari cara memasukkan grafik kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan kode, membuat grafik dan menyimpan dokumen Anda.
-keywords: [Aspose.Words for .NET, insert column chart, Word document, .NET charts, Aspose chart example, document builder, chart insertion tutorial]
-url: /id/net/working-with-charts/insert-column-chart/
+"description": "Pelajari cara menyisipkan bagan kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan kode, membuat bagan, dan menyimpan dokumen Anda."
+"title": "Menyisipkan Bagan Kolom di Word Menggunakan Aspose.Words untuk .NET"
+"url": "/id/net/working-with-charts/insert-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Masukkan grafik kolom dalam Word menggunakan Aspose.Words
+# Sisipkan Bagan Kolom di Word Menggunakan Aspose.Words
 
-Aspose.Words untuk .NET membuat sangat mudah untuk membuat dan memanipulasi dokumen Word secara programatik. Contoh ini menunjukkan bagaimana memasukkan grafik kolom ke dalam dokumen Word dengan hanya beberapa baris kode. Dengan menggunakan API yang kuat, Anda dapat menambahkan grafik, mendefinisikan kategori dan nilai, dan menyimpan dokumen dalam format yang Anda inginkan. Ikuti panduan ini untuk melihat betapa mudahnya untuk menghasilkan grafik profesional langsung dari aplikasi .NET Anda.
+Aspose.Words untuk .NET memudahkan pembuatan dan manipulasi dokumen Word secara terprogram. Contoh ini menunjukkan cara menyisipkan bagan kolom ke dalam dokumen Word hanya dengan beberapa baris kode. Dengan menggunakan API yang canggih, Anda dapat menambahkan bagan, menentukan kategori dan nilai, serta menyimpan dokumen dalam format yang diinginkan. Ikuti panduan ini untuk melihat betapa mudahnya membuat bagan profesional langsung dari aplikasi .NET Anda.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi Instalasi  
+## Petunjuk Instalasi  
 
 1. Unduh Aspose.Words untuk .NET  
-   * Kunjungi [Aspose.Words untuk halaman download .NET](https://releases.aspose.com/words/net/)dan download versi terbaru.  
+   - Kunjungi [Halaman unduhan Aspose.Words untuk .NET](https://releases.aspose.com/words/net/) dan unduh versi terbaru.  
 
-2. Menginstal Perpustakaan  
-   * Gunakan NuGet Package Manager di Visual Studio untuk menginstal Aspose.Words untuk .NET:  
+2. Instal Perpustakaan  
+   - Gunakan NuGet Package Manager di Visual Studio untuk menginstal Aspose.Words untuk .NET:  
      ```
      Install-Package Aspose.Words
      ```
 
-3. Tambahkan ruang nama  
-   * Tambahkan ruang nama yang diperlukan untuk proyek Anda:  
+3. Sertakan Namespace  
+   - Tambahkan namespace yang diperlukan ke proyek Anda:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
-4. Buat Percobaan Gratis atau Lisensi  
-   * Mulailah dengan [uji coba gratis](https://releases.aspose.com/)atau mengajukan permohonan[lisensi sementara](https://purchase.aspose.com/temporary-license/)untuk membuka semua kemampuan perpustakaan.
+4. Siapkan Uji Coba atau Lisensi Gratis  
+   - Mulailah dengan [uji coba gratis](https://releases.aspose.com/) atau melamar [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk membuka potensi penuh perpustakaan.
 
-## Lihat juga
-[Aspose.Word untuk Dokumen .NET](https://docs.aspose.com/words/net/)
+## Lihat Juga
+[Dokumentasi Aspose.Word untuk .NET](https://docs.aspose.com/words/net/)
 [Aspose.Word untuk Referensi .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

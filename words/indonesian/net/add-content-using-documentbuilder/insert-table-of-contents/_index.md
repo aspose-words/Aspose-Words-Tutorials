@@ -1,14 +1,16 @@
 ---
-title: Masukkan Daftar Isi Dalam Dokumen Word
-linktitle: Masukkan Daftar Isi Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memasukkan Daftar Isi di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk navigasi dokumen yang lancar.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Pelajari cara memasukkan Daftar Isi di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk navigasi dokumen yang lancar."
+"linktitle": "Masukkan Daftar Isi Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Daftar Isi Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Daftar Isi Dalam Dokumen Word
@@ -22,7 +24,7 @@ Sebelum memulai, pastikan Anda memiliki hal berikut:
 
 - Pemahaman dasar tentang C# dan kerangka kerja .NET.
 - Visual Studio terinstal di komputer Anda.
--  Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk pustaka .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 
 ## Mengimpor Ruang Nama
 
@@ -39,7 +41,7 @@ Mari kita uraikan prosesnya menjadi beberapa langkah yang jelas:
 
 ## Langkah 1: Inisialisasi Dokumen Aspose.Words dan DocumentBuilder
 
- Pertama, inisialisasi Aspose.Words baru`Document` objek dan sebuah`DocumentBuilder` untuk bekerja dengan:
+Pertama, inisialisasi Aspose.Words baru `Document` objek dan sebuah `DocumentBuilder` untuk bekerja dengan:
 
 ```csharp
 // Inisialisasi Dokumen dan DocumentBuilder
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Masukkan Daftar Isi
 
- Sekarang, masukkan Daftar Isi menggunakan`InsertTableOfContents` metode:
+Sekarang, masukkan Daftar Isi menggunakan `InsertTableOfContents` metode:
 
 ```csharp
 // Masukkan Daftar Isi
@@ -133,10 +135,15 @@ Aspose.Words mendukung pembuatan beberapa Daftar Isi dengan pengaturan berbeda d
 Ya, Aspose.Words memastikan kompatibilitas dengan berbagai versi format Microsoft Word.
 
 ### Di mana saya dapat menemukan bantuan dan dukungan lebih lanjut untuk Aspose.Words?
- Untuk bantuan lebih lanjut, kunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8) atau lihat di[dokumentasi resmi](https://reference.aspose.com/words/net/).
+Untuk bantuan lebih lanjut, kunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8) atau lihat di [dokumentasi resmi](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

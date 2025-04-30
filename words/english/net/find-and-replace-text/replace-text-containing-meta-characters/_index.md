@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/replace-text-containing-meta-characters/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Replace Text Containing Meta Characters
@@ -130,9 +133,13 @@ Yes, you can customize fonts and other formatting options using the `DocumentBui
 ### Where can I find more information about Aspose.Words for .NET?
 You can visit the [Aspose.Words documentation](https://reference.aspose.com/words/net/) for more details and examples.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

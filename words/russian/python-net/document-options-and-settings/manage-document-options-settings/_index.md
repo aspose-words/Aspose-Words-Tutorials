@@ -1,14 +1,16 @@
 ---
-title: Тонкая настройка параметров и настроек документа для повышения эффективности
-linktitle: Тонкая настройка параметров и настроек документа для повышения эффективности
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как эффективно обрабатывать документы Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
-weight: 11
-url: /ru/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "Узнайте, как эффективно обрабатывать документы Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом."
+"linktitle": "Тонкая настройка параметров и настроек документа для повышения эффективности"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Тонкая настройка параметров и настроек документа для повышения эффективности"
+"url": "/ru/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Тонкая настройка параметров и настроек документа для повышения эффективности
@@ -129,7 +131,7 @@ pip install aspose-words
 
 ### Как настроить поля страницы с помощью API?
 
- Вы можете настроить поля страницы с помощью`PageSetup` класс. Например:
+Вы можете настроить поля страницы с помощью `PageSetup` класс. Например:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### Могу ли я экспортировать свой документ в PDF с помощью Aspose.Words?
 
- Конечно, вы можете экспортировать свой документ в различные форматы, включая PDF, используя`save` метод. Например:
+Конечно, вы можете экспортировать свой документ в различные форматы, включая PDF, используя `save` метод. Например:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### Где я могу найти более подробную информацию об Aspose.Words для Python?
 
- Вы можете обратиться к документации по адресу[здесь](https://reference.aspose.com/words/python-net/).
+Вы можете обратиться к документации по адресу [здесь](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

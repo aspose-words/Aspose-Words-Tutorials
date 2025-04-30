@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/keep-source-together/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Table Together
@@ -138,9 +141,13 @@ Yes! Aspose.Words for .NET supports many formats such as DOC, DOCX, PDF, and oth
 
 Aspose.Words for .NET offers a free trial, but for full access to all features, you'll need to purchase a license. You can explore licensing options on the [Aspose purchase page](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

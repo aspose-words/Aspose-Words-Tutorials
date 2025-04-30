@@ -1,14 +1,16 @@
 ---
-title: Render 3D DML 3D Effects dalam Dokumen PDF
-linktitle: Render 3D DML 3D Effects dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
+"description": "Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Render 3D DML 3D Effects dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Render 3D DML 3D Effects dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render 3D DML 3D Effects dalam Dokumen PDF
@@ -21,13 +23,13 @@ Pernahkah Anda ingin membuat dokumen PDF yang memukau dengan efek 3D dari file W
 
 Sebelum kita mulai membuat kode, pastikan Anda memiliki semua yang dibutuhkan. Berikut ini adalah daftar prasyarat untuk membantu Anda memulai:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Anda harus menginstal .NET Framework di komputer Anda.
 3. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 4. Dokumen Word: Dokumen Word dengan efek 3D yang ingin Anda ubah ke PDF.
-5.  Lisensi Sementara: Untuk kemampuan penuh, Anda mungkin memerlukan lisensi sementara dari Aspose, yang bisa Anda dapatkan[Di Sini](https://purchase.aspose.com/temporary-license/).
+5. Lisensi Sementara: Untuk kemampuan penuh, Anda mungkin memerlukan lisensi sementara dari Aspose, yang bisa Anda dapatkan [Di Sini](https://purchase.aspose.com/temporary-license/).
 
-Dengan prasyarat ini, Anda siap untuk membuat efek 3D dalam dokumen PDF Anda.
+Jika prasyarat ini terpenuhi, Anda siap untuk membuat efek 3D pada dokumen PDF Anda.
 
 ## Mengimpor Ruang Nama
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Di sini, kami menentukan jalur ke direktori dokumen Anda dan memuat dokumen Word menggunakan`Document` kelas. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Di sini, kami menentukan jalur ke direktori dokumen Anda dan memuat dokumen Word menggunakan `Document` kelas. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Kami membuat sebuah contoh dari`PdfSaveOptions` dan mengatur`Dml3DEffectsRenderingMode` ke`Advanced`Ini memberi tahu Aspose.Words untuk menyajikan efek 3D menggunakan pengaturan tingkat lanjut, guna memastikan efek tersebut terlihat semenarik mungkin dalam PDF.
+Kami membuat sebuah contoh dari `PdfSaveOptions` dan mengatur `Dml3DEffectsRenderingMode` ke `Advanced`Ini memberi tahu Aspose.Words untuk menyajikan efek 3D menggunakan pengaturan tingkat lanjut, guna memastikan efek tersebut terlihat semenarik mungkin dalam PDF.
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
@@ -72,7 +74,7 @@ Terakhir, kami menyimpan dokumen sebagai PDF menggunakan opsi penyimpanan yang d
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOptions);
 ```
 
- Kami menggunakan`Save` metode dari`Document` kelas untuk menyimpan dokumen Word sebagai PDF. Opsi penyimpanan yang kami konfigurasikan sebelumnya diteruskan sebagai parameter untuk memastikan efek 3D ditampilkan dengan benar.
+Kami menggunakan `Save` metode dari `Document` kelas untuk menyimpan dokumen Word sebagai PDF. Opsi penyimpanan yang kami konfigurasikan sebelumnya diteruskan sebagai parameter untuk memastikan efek 3D ditampilkan dengan benar.
 
 ## Kesimpulan
 
@@ -98,10 +100,15 @@ Tentu saja! Aspose.Words menyediakan berbagai pilihan untuk menyesuaikan hasil k
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
 
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

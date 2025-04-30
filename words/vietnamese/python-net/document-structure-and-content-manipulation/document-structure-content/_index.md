@@ -1,14 +1,16 @@
 ---
-title: Quản lý Cấu trúc và Nội dung trong Tài liệu Word
-linktitle: Quản lý Cấu trúc và Nội dung trong Tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách quản lý tài liệu Word hiệu quả bằng Aspose.Words for Python. Hướng dẫn từng bước này bao gồm cấu trúc tài liệu, thao tác văn bản, định dạng, hình ảnh, bảng và nhiều hơn nữa.
-weight: 10
-url: /vi/python-net/document-structure-and-content-manipulation/document-structure-content/
+"description": "Tìm hiểu cách quản lý tài liệu Word hiệu quả bằng Aspose.Words for Python. Hướng dẫn từng bước này bao gồm cấu trúc tài liệu, thao tác văn bản, định dạng, hình ảnh, bảng và nhiều hơn nữa."
+"linktitle": "Quản lý Cấu trúc và Nội dung trong Tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Quản lý Cấu trúc và Nội dung trong Tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-structure-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý Cấu trúc và Nội dung trong Tài liệu Word
@@ -35,10 +37,10 @@ Bạn có thể tải một tài liệu Word hiện có hoặc tạo một tài 
 ```python
 from aspose.words import Document
 
-# Load an existing document
+# Tải một tài liệu hiện có
 doc = Document("existing_document.docx")
 
-# Create a new document
+# Tạo một tài liệu mới
 new_doc = Document()
 ```
 
@@ -49,7 +51,7 @@ Aspose.Words cho phép bạn dễ dàng thao tác cấu trúc tài liệu của 
 ```python
 from aspose.words import Section, Paragraph
 
-# Add a new section
+# Thêm một phần mới
 section = doc.sections.add()
 ```
 
@@ -58,7 +60,7 @@ section = doc.sections.add()
 Thao tác văn bản là một phần cơ bản của quản lý tài liệu. Bạn có thể thay thế, chèn hoặc xóa văn bản trong tài liệu của mình:
 
 ```python
-# Replace text
+# Thay thế văn bản
 text_to_replace = "replace_this"
 replacement_text = "with_this"
 doc.range.replace(text_to_replace, replacement_text, False, False)
@@ -71,13 +73,13 @@ doc.range.replace(text_to_replace, replacement_text, False, False)
 ```python
 from aspose.words import Font, Color
 
-# Apply formatting to text
+# Áp dụng định dạng cho văn bản
 font = paragraph.runs[0].font
 font.bold = True
 font.size = 12
 font.color = Color.red
 
-# Align paragraph
+# Căn chỉnh đoạn văn
 paragraph.alignment = ParagraphAlignment.RIGHT
 ```
 
@@ -88,7 +90,7 @@ Tăng cường tài liệu của bạn bằng cách chèn hình ảnh và đồ 
 ```python
 from aspose.words import ShapeType
 
-# Insert an image
+# Chèn một hình ảnh
 shape = section.add_shape(ShapeType.IMAGE, left, top, width, height)
 shape.image_data.set_image("image_path.png")
 ```
@@ -100,10 +102,10 @@ Bảng sắp xếp dữ liệu hiệu quả. Bạn có thể tạo và thao tác
 ```python
 from aspose.words import Table, Cell
 
-# Add a table to the document
+# Thêm bảng vào tài liệu
 table = section.add_table()
 
-# Add rows and cells to the table
+# Thêm hàng và ô vào bảng
 row = table.rows.add()
 cell = row.cells.add()
 cell.text = "Cell content"
@@ -116,7 +118,7 @@ Kiểm soát giao diện các trang trong tài liệu của bạn:
 ```python
 from aspose.words import PageSetup
 
-# Set page size and margins
+# Đặt kích thước trang và lề
 page_setup = section.page_setup
 page_setup.page_width = 612
 page_setup.page_height = 792
@@ -130,7 +132,7 @@ Tiêu đề và chân trang cung cấp thông tin nhất quán trên các trang:
 ```python
 from aspose.words import HeaderFooterType
 
-# Add header and footer
+# Thêm tiêu đề và chân trang
 header = section.headers_footers.add(HeaderFooterType.HEADER_PRIMARY)
 header_paragraph = header.append_paragraph("Header text")
 
@@ -145,10 +147,10 @@ Làm cho tài liệu của bạn mang tính tương tác bằng cách thêm siê
 ```python
 from aspose.words import Hyperlink
 
-# Add a hyperlink
-hyperlink = paragraph.append_hyperlink("https://www.example.com", "Nhấp vào đây")
+# Thêm siêu liên kết
+hyperlink = paragraph.append_hyperlink("https://www.example.com", "Click here")
 
-# Add a bookmark
+# Thêm dấu trang
 bookmark = paragraph.range.bookmarks.add("section1")
 ```
 
@@ -157,10 +159,10 @@ bookmark = paragraph.range.bookmarks.add("section1")
 Lưu tài liệu của bạn ở nhiều định dạng khác nhau:
 
 ```python
-# Save the document
+# Lưu tài liệu
 doc.save("output_document.docx")
 
-# Export to PDF
+# Xuất sang PDF
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
 
@@ -168,7 +170,7 @@ doc.save("output_document.pdf", SaveFormat.PDF)
 
 - Giữ cho mã của bạn được tổ chức bằng cách sử dụng các hàm cho các tác vụ thao tác tài liệu khác nhau.
 - Sử dụng xử lý ngoại lệ để xử lý lỗi một cách khéo léo trong quá trình xử lý tài liệu.
--  Kiểm tra[Tài liệu Aspose.Words](https://reference.aspose.com/words/python-net/) để biết ví dụ và tài liệu tham khảo API chi tiết.
+- Kiểm tra [Tài liệu Aspose.Words](https://reference.aspose.com/words/python-net/) để biết ví dụ và tài liệu tham khảo API chi tiết.
 
 ## Phần kết luận
 
@@ -194,7 +196,7 @@ Chắc chắn rồi! Aspose.Words cho phép bạn tự động tạo tài liệu
 
 ### Tôi có thể tìm thêm thông tin về các tính năng Python của Aspose.Words ở đâu?
 
- Để biết thông tin đầy đủ về các tính năng Python của Aspose.Words, hãy tham khảo[tài liệu](https://reference.aspose.com/words/python-net/).
+Để biết thông tin đầy đủ về các tính năng Python của Aspose.Words, hãy tham khảo [tài liệu](https://reference.aspose.com/words/python-net/).
 
 ### Làm thế nào để lưu tài liệu của tôi ở định dạng PDF bằng Aspose.Words?
 
@@ -203,9 +205,14 @@ Bạn có thể lưu tài liệu Word của mình ở định dạng PDF bằng 
 ```python
 doc.save("output_document.pdf", SaveFormat.PDF)
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,33 @@
 ---
-title: Szöveges fájlok betöltése az Aspose.Words for Java segítségével
-linktitle: Szöveges fájlok betöltése a
-second_title: Aspose.Words Java Document Processing API
-description: Fedezze fel az Aspose.Words for Java erejét. Ismerje meg a szöveges dokumentumok betöltését, a listák kezelését, a szóközök kezelését és a szöveg irányának vezérlését.
-weight: 13
-url: /hu/java/document-loading-and-saving/loading-text-files/
+"description": "Engedd szabadjára az Aspose.Words erejét Java-ban. Tanuld meg, hogyan tölts be szöveges dokumentumokat, hogyan kezeld a listákat, hogyan kezeld a szóközöket és hogyan szabályozd a szöveg irányát."
+"linktitle": "Szövegfájlok betöltése"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Szövegfájlok betöltése az Aspose.Words segítségével Java-ban"
+"url": "/hu/java/document-loading-and-saving/loading-text-files/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveges fájlok betöltése az Aspose.Words for Java segítségével
+# Szövegfájlok betöltése az Aspose.Words segítségével Java-ban
 
 
-## Bevezetés a szöveges fájlok betöltéséhez az Aspose.Words for Java segítségével
+## Bevezetés a szövegfájlok betöltésébe az Aspose.Words for Java segítségével
 
-Ebben az útmutatóban megvizsgáljuk, hogyan tölthet be szöveges fájlokat az Aspose.Words for Java használatával, és hogyan kezelheti azokat Word-dokumentumként. Kitérünk a különféle szempontokra, például a listák észlelésére, a szóközök kezelésére és a szöveg irányának szabályozására.
+Ebben az útmutatóban azt vizsgáljuk meg, hogyan tölthetünk be szövegfájlokat az Aspose.Words for Java segítségével, és hogyan kezelhetjük őket Word-dokumentumokként. Különböző szempontokat fogunk áttekinteni, például a listák észlelését, a szóközök kezelését és a szövegirány szabályozását.
 
 ## 1. lépés: Listák észlelése
 
 Szöveges dokumentum betöltéséhez és listák észleléséhez kövesse az alábbi lépéseket:
 
 ```java
-// Hozzon létre egy egyszerű szöveges dokumentumot karakterlánc formájában, amely részek listákként értelmezhetők.
-// Betöltéskor az első három listát mindig észleli az Aspose.Words,
-// és a Lista objektumok a betöltés után jönnek létre számukra.
+// Hozz létre egy egyszerű szöveges dokumentumot karakterlánc formájában, amelynek részei listaként értelmezhetők.
+// Betöltéskor az Aspose.Words mindig felismeri az első három listát,
+// és a betöltés után létrejönnek hozzájuk a List objektumok.
 final String TEXT_DOC = "Full stop delimiters:\n" +
         "1. First list item 1\n" +
         "2. First list item 2\n" +
@@ -42,23 +44,23 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-// negyedik lista, szóközzel a lista száma és a listaelem tartalma között,
-// csak akkor észlelhető listaként, ha egy LoadOptions objektum "DetectNumberingWithWhitespaces" értéke igaz,
-// hogy elkerüljük, hogy a számokkal kezdődő bekezdések tévesen listákként jelenjenek meg.
+// A negyedik lista, ahol a lista száma és a listaelem tartalma között szóköz van,
+// csak akkor lesz listaként érzékelve, ha a LoadOptions objektumban a "DetectNumberingWithWhitespaces" értéke igaz,
+// hogy elkerülje a számokkal kezdődő bekezdések téves felsorolásként való felismerését.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
 }
-// Töltse be a dokumentumot a LoadOptions paraméterként történő alkalmazása közben, és ellenőrizze az eredményt.
+// Töltse be a dokumentumot a LoadOptions paraméterrel, és ellenőrizze az eredményt.
 Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
- Ez a kód bemutatja, hogyan tölthet be egy szöveges dokumentumot különböző listaformátumokkal, és hogyan használhatja a`DetectNumberingWithWhitespaces` lehetőség a listák helyes észlelésére.
+Ez a kód bemutatja, hogyan lehet betöltődni egy szöveges dokumentumot különböző listaformátumokkal, és hogyan lehet használni a `DetectNumberingWithWhitespaces` lehetőség a listák helyes felismerésére.
 
-## 2. lépés: A Spaces opciók kezelése
+## 2. lépés: A szóközök kezelési beállításai
 
-Szöveges dokumentum betöltésekor a kezdő és záró szóközök szabályozásához a következő kódot használhatja:
+A szöveges dokumentum betöltésekor a kezdő és záró szóközök szabályozásához a következő kódot használhatja:
 
 ```java
 @Test
@@ -76,9 +78,9 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
- Ebben a példában egy szöveges dokumentumot töltünk be, és a kezdő és záró szóközöket levágjuk`TxtLeadingSpacesOptions.TRIM` és`TxtTrailingSpacesOptions.TRIM`.
+Ebben a példában betöltünk egy szöveges dokumentumot, és levágjuk a kezdő és a záró szóközöket a következő használatával: `TxtLeadingSpacesOptions.TRIM` és `TxtTrailingSpacesOptions.TRIM`.
 
-## 3. lépés: A szöveg irányának vezérlése
+## 3. lépés: A szöveg irányának szabályozása
 
 A szöveg irányának megadásához szöveges dokumentum betöltésekor a következő kódot használhatja:
 
@@ -96,15 +98,15 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Ez a kód a dokumentum irányát automatikus felismerésre állítja (`DocumentDirection.AUTO`), és betölt egy szöveges dokumentumot héber szöveggel. Szükség szerint módosíthatja a dokumentum irányát.
+Ez a kód automatikus felismerésre állítja be a dokumentum irányát (`DocumentDirection.AUTO`) és betölt egy héber szöveget tartalmazó szöveges dokumentumot. Szükség szerint módosíthatja a dokumentum irányát.
 
-## Teljes forráskód szöveges fájlok betöltéséhez az Aspose.Words for Java segítségével
+## Teljes forráskód szövegfájlok betöltéséhez az Aspose.Words segítségével Java-ban
 
 ```java
 public void detectNumberingWithWhitespaces() throws Exception {
-	// Hozzon létre egy egyszerű szöveges dokumentumot karakterlánc formájában, amely részek listákként értelmezhetők.
-	// Betöltéskor az első három listát mindig észleli az Aspose.Words,
-	// és a Lista objektumok a betöltés után jönnek létre számukra.
+	// Hozz létre egy egyszerű szöveges dokumentumot karakterlánc formájában, amelynek részei listaként értelmezhetők.
+	// Betöltéskor az Aspose.Words mindig felismeri az első három listát,
+	// és a betöltés után létrejönnek hozzájuk a List objektumok.
 	final String TEXT_DOC = "Full stop delimiters:\n" +
 			"1. First list item 1\n" +
 			"2. First list item 2\n" +
@@ -121,14 +123,14 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"1 Fourth list item 1\n" +
 			"2 Fourth list item 2\n" +
 			"3 Fourth list item 3";
-	// A negyedik lista, szóközzel a lista száma és a listaelem tartalma között,
-	// csak akkor észlelhető listaként, ha egy LoadOptions objektum "DetectNumberingWithWhitespaces" értéke igaz,
-	// hogy elkerüljük, hogy a számokkal kezdődő bekezdések tévesen listákként jelenjenek meg.
+	// A negyedik lista, ahol a lista száma és a listaelem tartalma között szóköz van,
+	// csak akkor lesz listaként érzékelve, ha a LoadOptions objektumban a "DetectNumberingWithWhitespaces" értéke igaz,
+	// hogy elkerülje a számokkal kezdődő bekezdések téves felsorolásként való felismerését.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
 	}
-	// Töltse be a dokumentumot a LoadOptions paraméterként történő alkalmazása közben, és ellenőrizze az eredményt.
+	// Töltse be a dokumentumot a LoadOptions paraméterrel, és ellenőrizze az eredményt.
 	Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 	doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 }
@@ -160,47 +162,52 @@ public void documentTextDirection() throws Exception {
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan tölthet be szöveges fájlokat az Aspose.Words for Java használatával, hogyan lehet felismerni a listákat, kezelni a szóközöket és szabályozni a szöveg irányát. Ezek a technikák lehetővé teszik a szöveges dokumentumok hatékony kezelését a Java-alkalmazásokban.
+Ebben az útmutatóban azt vizsgáltuk meg, hogyan lehet szövegfájlokat betölteni az Aspose.Words for Java segítségével, hogyan lehet listákat észlelni, szóközöket kezelni és a szöveg irányát szabályozni. Ezek a technikák lehetővé teszik a szöveges dokumentumok hatékony kezelését a Java alkalmazásokban.
 
 ## GYIK
 
-### Mi az Aspose.Words for Java?
+### Mi az Aspose.Words Java-hoz?
 
-Az Aspose.Words for Java egy hatékony dokumentumfeldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok programozott létrehozását, kezelését és konvertálását Java alkalmazásokban. A funkciók széles skáláját kínálja a szöveggel, táblázatokkal, képekkel és egyéb dokumentumelemekkel való munkavégzéshez.
+Az Aspose.Words for Java egy hatékony dokumentumfeldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Word dokumentumokat hozzanak létre, szerkeszszenek és konvertáljanak programozottan Java alkalmazásokban. Széleskörű funkciókat kínál szövegekkel, táblázatokkal, képekkel és más dokumentumelemekkel való munkához.
 
-### Hogyan kezdhetem el az Aspose.Words for Java használatát?
+### Hogyan kezdhetem el az Aspose.Words használatát Java-ban?
 
-Az Aspose.Words for Java használatának megkezdéséhez kövesse az alábbi lépéseket:
-1. Töltse le és telepítse az Aspose.Words for Java könyvtárat.
-2.  Tekintse meg a dokumentációt a címen[Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/) részletes információkért és példákért.
-3. Fedezze fel a mintakódot és az oktatóanyagokat, hogy megtanulja, hogyan kell hatékonyan használni a könyvtárat.
+Az Aspose.Words Java-beli használatának megkezdéséhez kövesse az alábbi lépéseket:
+1. Töltsd le és telepítsd az Aspose.Words for Java könyvtárat.
+2. Lásd a dokumentációt a következő címen: [Aspose.Words Java API-referenciához](https://reference.aspose.com/words/java/) részletes információkért és példákért.
+3. Ismerd meg a mintakódot és az oktatóanyagokat, hogy megtanuld, hogyan használhatod hatékonyan a könyvtárat.
 
-### Hogyan tölthetek be szöveges dokumentumot az Aspose.Words for Java használatával?
+### Hogyan tölthetek be egy szöveges dokumentumot az Aspose.Words for Java használatával?
 
- Szöveges dokumentum betöltéséhez az Aspose.Words for Java használatával a`TxtLoadOptions` osztály és a`Document` osztály. Győződjön meg arról, hogy szükség szerint megadta a megfelelő beállításokat a szóközök és a szövegirány kezeléséhez. A részletes példaért tekintse meg a cikk lépésenkénti útmutatóját.
+Egy szöveges dokumentum betöltéséhez az Aspose.Words for Java használatával használhatja a következőt: `TxtLoadOptions` osztály és a `Document` osztály. Győződjön meg róla, hogy a megfelelő beállításokat adta meg a szóközök és a szövegirány kezeléséhez, szükség szerint. Részletes példáért lásd a cikkben található lépésenkénti útmutatót.
 
-### Átalakíthatok egy betöltött szöveges dokumentumot más formátumba?
+### Átalakíthatok egy betöltött szöveges dokumentumot más formátumokba?
 
- Igen, az Aspose.Words for Java lehetővé teszi a betöltött szöveges dokumentumok különböző formátumokba konvertálását, beleértve a DOCX-et, PDF-t és egyebeket. Használhatja a`Document` osztályt a konverziók végrehajtásához. Tekintse meg a dokumentációt konkrét konverziós példákért.
+Igen, az Aspose.Words for Java lehetővé teszi a betöltött szöveges dokumentumok különböző formátumokba konvertálását, beleértve a DOCX, PDF és egyebeket. Használhatja a `Document` osztály a konverziók végrehajtásához. A konkrét konverziós példákért tekintse meg a dokumentációt.
 
-### Hogyan kezelhetem a szóközöket a betöltött szöveges dokumentumokban?
+### Hogyan kezeljem a szóközöket a betöltött szöveges dokumentumokban?
 
- Szabályozhatja, hogy a betöltött szöveges dokumentumokban a kezdő és a záró szóközök hogyan legyenek kezelve`TxtLoadOptions` . Opciók, mint`TxtLeadingSpacesOptions` és`TxtTrailingSpacesOptions`lehetővé teszi a terek vágását vagy megőrzését szükség szerint. Példaként tekintse meg a jelen útmutató „Térbeállítások kezelése” című részét.
+A betöltött szöveges dokumentumokban a kezdő és a záró szóközök kezelését a következővel szabályozhatja: `TxtLoadOptions`. Lehetőségek, mint például `TxtLeadingSpacesOptions` és `TxtTrailingSpacesOptions` lehetővé teszik a szóközök szükség szerinti levágását vagy megőrzését. Példaért lásd a jelen útmutató „Szóközök kezelési beállításai” című részét.
 
-### Mi a jelentősége a szövegiránynak az Aspose.Words for Java-ban?
+### Mi a szövegirány jelentősége az Aspose.Words for Java-ban?
 
-Vegyes írásmódot vagy nyelvet, például héber vagy arab, tartalmazó dokumentumok szövegének iránya elengedhetetlen. Az Aspose.Words for Java lehetőséget biztosít a szöveg irányának megadására, biztosítva a szöveg megfelelő megjelenítését és formázását ezeken a nyelveken. Ennek az útmutatónak a "Szöveg irányának vezérlése" szakasza bemutatja, hogyan kell beállítani a szöveg irányát.
+szövegirány elengedhetetlen a vegyes írásrendszert vagy nyelvet, például héberül vagy arabul tartalmazó dokumentumokhoz. Az Aspose.Words for Java beállításokat biztosít a szövegirány megadásához, biztosítva a szöveg megfelelő megjelenítését és formázását ezeken a nyelveken. Az útmutató „Szövegirány szabályozása” című szakasza bemutatja, hogyan állíthatja be a szövegirányt.
 
-### Hol találok további forrásokat és támogatást az Aspose.Words for Java számára?
+### Hol találok további forrásokat és támogatást az Aspose.Words for Java-hoz?
 
- További forrásokért, dokumentációért és támogatásért keresse fel a[Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/). Ezenkívül részt vehet az Aspose.Words közösségi fórumokon, vagy kapcsolatba léphet az Aspose ügyfélszolgálatával, ha segítségre van szüksége konkrét kérdésekben vagy kérdésekben.
+További forrásokért, dokumentációért és támogatásért látogassa meg a következő weboldalt: [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)Részt vehetsz az Aspose.Words közösségi fórumokon is, vagy felveheted a kapcsolatot az Aspose ügyfélszolgálatával, ha konkrét problémákkal vagy kérdésekkel szeretnél segítséget kérni.
 
-### Alkalmas az Aspose.Words for Java kereskedelmi projektekhez?
+### Alkalmas-e az Aspose.Words for Java kereskedelmi projektekhez?
 
-Igen, az Aspose.Words for Java alkalmas személyes és kereskedelmi projektekre is. Licencelési lehetőségeket kínál a különféle használati forgatókönyvekhez. Feltétlenül tekintse át a licencfeltételeket és az árakat az Aspose webhelyén, hogy kiválaszthassa a projektjéhez megfelelő licencet.
+Igen, az Aspose.Words for Java alkalmas mind személyes, mind kereskedelmi projektekhez. Licencelési lehetőségeket kínál a különféle felhasználási forgatókönyvek kielégítésére. A projektedhez megfelelő licenc kiválasztásához mindenképpen tekintsd át a licencelési feltételeket és az árakat az Aspose weboldalán.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

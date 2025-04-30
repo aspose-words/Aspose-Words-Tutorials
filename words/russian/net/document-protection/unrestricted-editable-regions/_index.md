@@ -1,14 +1,16 @@
 ---
-title: Неограниченные возможности редактирования областей в документе Word
-linktitle: Неограниченные возможности редактирования областей в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать неограниченные редактируемые области в документе Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/document-protection/unrestricted-editable-regions/
+"description": "Узнайте, как создавать неограниченные редактируемые области в документе Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства."
+"linktitle": "Неограниченные возможности редактирования областей в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Неограниченные возможности редактирования областей в документе Word"
+"url": "/ru/net/document-protection/unrestricted-editable-regions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Неограниченные возможности редактирования областей в документе Word
@@ -21,8 +23,8 @@ url: /ru/net/document-protection/unrestricted-editable-regions/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите его[здесь](https://releases.aspose.com/words/net/).
-2. Действующая лицензия Aspose: вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите его [здесь](https://releases.aspose.com/words/net/).
+2. Действующая лицензия Aspose: вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 3. Visual Studio: любая последняя версия должна работать нормально.
 4. Базовые знания C# и .NET: это поможет вам следить за кодом.
 
@@ -55,7 +57,7 @@ using Aspose.Words.Editing;
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Загрузите документ: используйте`Document` класс для загрузки вашего документа Word.
+2. Загрузите документ: используйте `Document` класс для загрузки вашего документа Word.
    ```csharp
    Document doc = new Document(dataDir + "Document.docx");
    ```
@@ -64,7 +66,7 @@ using Aspose.Words.Editing;
 
 Далее мы установим для документа статус «только для чтения». Это гарантирует, что без пароля вносить изменения будет невозможно.
 
-1.  Инициализация DocumentBuilder: создание экземпляра`DocumentBuilder` вносить изменения в документ.
+1. Инициализация DocumentBuilder: создание экземпляра `DocumentBuilder` вносить изменения в документ.
    ```csharp
    DocumentBuilder builder = new DocumentBuilder(doc);
    ```
@@ -85,7 +87,7 @@ using Aspose.Words.Editing;
    ```csharp
    EditableRangeStart edRangeStart = builder.StartEditableRange();
    ```
-2.  Создать редактируемый объект диапазона:`EditableRange` объект будет создан автоматически.
+2. Создать редактируемый объект диапазона: `EditableRange` объект будет создан автоматически.
    ```csharp
    EditableRange editableRange = edRangeStart.EditableRange;
    ```
@@ -111,7 +113,7 @@ using Aspose.Words.Editing;
 
 Наконец, сохраним документ с примененной защитой и редактируемыми областями.
 
-1.  Сохраните документ: используйте`Save` метод сохранения измененного документа.
+1. Сохраните документ: используйте `Save` метод сохранения измененного документа.
    ```csharp
    doc.Save(dataDir + "DocumentProtection.UnrestrictedEditableRegions.docx");
    ```
@@ -120,7 +122,7 @@ using Aspose.Words.Editing;
 
 И вот оно! Вы успешно создали неограниченные редактируемые области в документе Word с помощью Aspose.Words для .NET. Эта функция невероятно полезна для совместной работы, где некоторые части документа должны оставаться неизменными, а другие можно редактировать. 
 
- Экспериментируйте с более сложными сценариями и различными уровнями защиты, чтобы получить максимальную отдачу от Aspose.Words. Если у вас есть какие-либо вопросы или вы столкнулись с проблемами, не стесняйтесь ознакомиться с[документация](https://reference.aspose.com/words/net/) или обратитесь к[поддерживать](https://forum.aspose.com/c/words/8).
+Экспериментируйте с более сложными сценариями и различными уровнями защиты, чтобы получить максимальную отдачу от Aspose.Words. Если у вас есть вопросы или вы столкнулись с проблемами, не стесняйтесь ознакомиться с [документация](https://reference.aspose.com/words/net/) или обратитесь к [поддерживать](https://forum.aspose.com/c/words/8).
 
 ## Часто задаваемые вопросы
 
@@ -131,7 +133,7 @@ using Aspose.Words.Editing;
 Aspose.Words поддерживает различные типы защиты, такие как AllowOnlyComments, AllowOnlyFormFields и NoProtection.
 
 ### Можно ли снять защиту с документа?
- Да, вы можете снять защиту с помощью`Unprotect` метод и предоставление правильного пароля.
+Да, вы можете снять защиту с помощью `Unprotect` метод и предоставление правильного пароля.
 
 ### Могу ли я указать разные пароли для разных разделов?
 Нет, защита на уровне документа применяет единый пароль для всего документа.
@@ -139,9 +141,14 @@ Aspose.Words поддерживает различные типы защиты, 
 ### Как применить лицензию для Aspose.Words?
 Вы можете применить лицензию, загрузив ее из файла или потока. Проверьте документацию для получения подробных шагов.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

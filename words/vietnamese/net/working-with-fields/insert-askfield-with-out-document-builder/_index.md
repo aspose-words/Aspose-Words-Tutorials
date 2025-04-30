@@ -1,14 +1,16 @@
 ---
-title: Chèn ASKField mà không cần Document Builder
-linktitle: Chèn ASKField mà không cần Document Builder
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường ASK mà không cần sử dụng Document Builder trong Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để cải thiện tài liệu Word của bạn một cách năng động.
-weight: 10
-url: /vi/net/working-with-fields/insert-askfield-with-out-document-builder/
+"description": "Tìm hiểu cách chèn trường ASK mà không cần sử dụng Document Builder trong Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để cải thiện tài liệu Word của bạn một cách năng động."
+"linktitle": "Chèn ASKField mà không cần Document Builder"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn ASKField mà không cần Document Builder"
+"url": "/vi/net/working-with-fields/insert-askfield-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn ASKField mà không cần Document Builder
@@ -21,7 +23,7 @@ Bạn đang muốn làm chủ tự động hóa tài liệu với Aspose.Words c
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng chúng ta đã thiết lập mọi thứ:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE phù hợp như Visual Studio.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
 
@@ -52,7 +54,7 @@ Document doc = new Document();
 
 ## Bước 2: Truy cập vào nút đoạn văn
 
-Trong tài liệu Word, nội dung được tổ chức thành các nút. Chúng ta cần truy cập nút đoạn văn đầu tiên nơi chúng ta sẽ chèn trường ASK của mình:
+Trong tài liệu Word, nội dung được tổ chức thành các nút. Chúng ta cần truy cập nút đoạn văn đầu tiên nơi chúng ta sẽ chèn trường ASK:
 
 ```csharp
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
@@ -109,7 +111,7 @@ Dòng này lưu tài liệu với trường ASK đã chèn. Và thế là xong �
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn vừa thêm trường ASK vào tài liệu Word bằng Aspose.Words cho .NET mà không cần Document Builder. Tính năng này có thể cải thiện đáng kể tương tác của người dùng với tài liệu của bạn, giúp chúng linh hoạt và thân thiện hơn với người dùng. Tiếp tục thử nghiệm với các trường và thuộc tính khác nhau để mở khóa toàn bộ tiềm năng của Aspose.Words. Chúc bạn lập trình vui vẻ!
+Xin chúc mừng! Bạn vừa thêm trường ASK vào tài liệu Word bằng Aspose.Words cho .NET mà không cần Document Builder. Tính năng này có thể cải thiện đáng kể tương tác của người dùng với tài liệu của bạn, giúp chúng linh hoạt và thân thiện hơn với người dùng. Tiếp tục thử nghiệm với các trường và thuộc tính khác nhau để mở khóa toàn bộ tiềm năng của Aspose.Words. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 
@@ -119,17 +121,22 @@ Trường ASK trong Aspose.Words là trường nhắc người dùng nhập thô
 ### Tôi có thể sử dụng nhiều trường ASK trong một tài liệu không?
 Có, bạn có thể chèn nhiều trường ASK vào một tài liệu, mỗi trường có lời nhắc và phản hồi riêng.
 
-###  Mục đích của việc này là gì?`PromptOnceOnMailMerge` property?
- Các`PromptOnceOnMailMerge` thuộc tính này xác định xem lời nhắc ASK chỉ xuất hiện một lần trong quá trình trộn thư hay xuất hiện mọi lúc.
+### Mục đích của việc này là gì? `PromptOnceOnMailMerge` tài sản?
+Các `PromptOnceOnMailMerge` thuộc tính này xác định xem lời nhắc ASK chỉ xuất hiện một lần trong quá trình trộn thư hay xuất hiện mọi lúc.
 
 ### Tôi có cần cập nhật trường ASK sau khi thiết lập thuộc tính của nó không?
 Có, việc cập nhật trường ASK sẽ đảm bảo rằng tất cả các thuộc tính được áp dụng chính xác và trường hoạt động như mong đợi.
 
 ### Tôi có thể tùy chỉnh văn bản nhắc nhở và phản hồi mặc định không?
 Chắc chắn rồi! Bạn có thể thiết lập văn bản nhắc nhở tùy chỉnh và phản hồi mặc định để điều chỉnh trường ASK theo nhu cầu cụ thể của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

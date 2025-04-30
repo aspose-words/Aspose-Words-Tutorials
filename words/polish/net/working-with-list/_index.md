@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z listą
-linktitle: Przetwarzanie słów z listą
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pracować z listami w dokumentach Worda, korzystając z Aspose.Words dla .NET. Szczegółowe samouczki z przykładami kodu.
-weight: 780
-url: /pl/net/working-with-list/
+"description": "Dowiedz się, jak pracować z listami w dokumentach Worda, używając Aspose.Words dla .NET. Szczegółowe samouczki z przykładami kodu."
+"linktitle": "Przetwarzanie słów z listą"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z listą"
+"url": "/pl/net/working-with-list/"
+"weight": 780
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z listą
@@ -19,12 +21,17 @@ Words Processing with Lists to kompleksowe źródło, które przeprowadzi Cię p
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Lista ponownego uruchomienia w każdej sekcji](./restart-list-at-each-section/)  | Dowiedz się, jak ponownie uruchomić listy w każdej sekcji w dokumentach Worda przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby skutecznie zarządzać listami. |
-| [Określ poziom listy](./specify-list-level/) | Dowiedz się, jak tworzyć wielopoziomowe listy numerowane i wypunktowane w dokumentach Worda przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku. Idealne dla programistów .NET. |
+| [Lista ponownego uruchomienia w każdej sekcji](./restart-list-at-each-section/)  | Dowiedz się, jak ponownie uruchomić listy w każdej sekcji w dokumentach Worda, używając Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby skutecznie zarządzać listami. |
+| [Określ poziom listy](./specify-list-level/) Dowiedz się, jak tworzyć wielopoziomowe listy numerowane i wypunktowane w dokumentach Worda przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku. Idealne dla programistów .NET. |
 | [Numer listy ponownego uruchomienia](./restart-list-number/) | Dowiedz się, jak ponownie uruchomić numery list w dokumentach Word za pomocą Aspose.Words dla .NET. Ten szczegółowy, 2000-wyrazowy przewodnik obejmuje wszystko, co musisz wiedzieć, od konfiguracji po zaawansowaną personalizację. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

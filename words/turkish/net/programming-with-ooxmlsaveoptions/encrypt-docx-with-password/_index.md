@@ -1,14 +1,16 @@
 ---
-title: Docx'i Şifreyle Şifrele
-linktitle: Docx'i Şifreyle Şifrele
-second_title: Aspose.Words Belge İşleme API'si
-description: Word belgelerinizi Aspose.Words for .NET kullanarak bir parola ile şifreleyerek güvence altına alın. Hassas bilgilerinizi korumak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
+"description": "Word belgelerinizi Aspose.Words for .NET kullanarak bir parola ile şifreleyerek güvence altına alın. Hassas bilgilerinizi korumak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Docx'i Şifreyle Şifrele"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Docx'i Şifreyle Şifrele"
+"url": "/tr/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Docx'i Şifreyle Şifrele
@@ -21,7 +23,7 @@ Günümüzün dijital çağında, hassas bilgileri güvence altına almak her za
 
 Detaylara dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve kurun:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve kurun: [Burada](https://releases.aspose.com/words/net/).
 - .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 - Geliştirme Ortamı: Visual Studio gibi bir IDE kodlamayı kolaylaştıracaktır.
 - Temel C# Bilgisi: C# programlamaya aşinalık, kodu anlamanıza ve uygulamanıza yardımcı olacaktır.
@@ -39,17 +41,17 @@ Bir DOCX dosyasını şifreleme sürecini yönetilebilir adımlara bölelim. Tak
 
 ## Adım 1: Belgeyi Yükleyin
 
- İlk adım şifrelemek istediğiniz belgeyi yüklemektir. Şunu kullanacağız:`Document` Bunu başarmak için Aspose.Words sınıfından faydalanabilirsiniz.
+İlk adım şifrelemek istediğiniz belgeyi yüklemektir. Şunu kullanacağız: `Document` Bunu başarmak için Aspose.Words sınıfından faydalanabilirsiniz.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";  
 
 // Belgeyi yükle
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Bu adımda, belgenizin bulunduğu dizine giden yolu belirtiyoruz.`Document` sınıfı daha sonra DOCX dosyasını bu dizinden yüklemek için kullanılır. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
+Bu adımda, belgenizin bulunduğu dizine giden yolu belirtiyoruz. `Document` sınıfı daha sonra DOCX dosyasını bu dizinden yüklemek için kullanılır. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
 
 ## Adım 2: Kaydetme Seçeneklerini Yapılandırın
 
@@ -60,7 +62,7 @@ Sonra, belgeyi kaydetmek için seçenekleri ayarlamamız gerekiyor. Burada şifr
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "password" };
 ```
 
- The`OoxmlSaveOptions`sınıfı, DOCX dosyalarını kaydetmek için çeşitli seçenekler belirtmemize olanak tanır. Burada,`Password`mülk`"password"` . Değiştirebilirsiniz`"password"` seçtiğiniz herhangi bir şifre ile. Bu şifre şifrelenmiş DOCX dosyasını açmak için gerekli olacaktır.
+The `OoxmlSaveOptions` sınıfı, DOCX dosyalarını kaydetmek için çeşitli seçenekler belirtmemize olanak tanır. Burada, `Password` mülk `"password"`. Değiştirebilirsiniz `"password"` seçtiğiniz herhangi bir şifre ile. Bu şifre şifrelenmiş DOCX dosyasını açmak için gerekli olacaktır.
 
 ## Adım 3: Şifrelenmiş Belgeyi Kaydedin
 
@@ -71,7 +73,7 @@ Son olarak, önceki adımda yapılandırdığımız kaydetme seçeneklerini kull
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", saveOptions);
 ```
 
- The`Save` yöntemi`Document` sınıf, belgeyi kaydetmek için kullanılır. Şifrelenmiş belge için yol ve dosya adını,`saveOptions` daha önce yapılandırdık. Belge artık şifrelenmiş bir DOCX dosyası olarak kaydedildi.
+The `Save` yöntemi `Document` sınıf, belgeyi kaydetmek için kullanılır. Şifrelenmiş belge için yol ve dosya adını, `saveOptions` daha önce yapılandırdık. Belge artık şifrelenmiş bir DOCX dosyası olarak kaydedildi.
 
 ## Çözüm
 
@@ -81,7 +83,7 @@ Tebrikler! Aspose.Words for .NET kullanarak bir DOCX dosyasını başarıyla şi
 
 ### Aspose.Words for .NET ile farklı bir şifreleme algoritması kullanabilir miyim?
 
-Evet, Aspose.Words for .NET çeşitli şifreleme algoritmalarını destekler. Şifreleme ayarlarını kullanarak özelleştirebilirsiniz.`OoxmlSaveOptions` sınıf.
+Evet, Aspose.Words for .NET çeşitli şifreleme algoritmalarını destekler. Şifreleme ayarlarını kullanarak özelleştirebilirsiniz. `OoxmlSaveOptions` sınıf.
 
 ### DOCX dosyasındaki şifrelemeyi kaldırmak mümkün müdür?
 
@@ -99,9 +101,14 @@ Aspose.Words for .NET öncelikli olarak Word belgelerini işler. Diğer dosya t�
 
 Evet, bu eğitimde özetlenen adımları kullanarak birden fazla belge arasında geçiş yapan ve her birine şifreleme uygulayan bir komut dosyası yazabilirsiniz.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: चाइल्ड नोड्स की गणना करें
-linktitle: चाइल्ड नोड्स की गणना करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चाइल्ड नोड्स की गणना करना सीखें।
-weight: 10
-url: /hi/net/working-with-node/enumerate-child-nodes/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चाइल्ड नोड्स की गणना करना सीखें।"
+"linktitle": "चाइल्ड नोड्स की गणना करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चाइल्ड नोड्स की गणना करें"
+"url": "/hi/net/working-with-node/enumerate-child-nodes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चाइल्ड नोड्स की गणना करें
@@ -22,12 +24,12 @@ url: /hi/net/working-with-node/enumerate-child-nodes/
 कोड में गोता लगाने से पहले, आइए एक सहज अनुभव सुनिश्चित करने के लिए आवश्यक पूर्वापेक्षाओं को कवर करें:
 
 1. विकास वातावरण: सुनिश्चित करें कि आपके पास Visual Studio या कोई अन्य .NET-संगत IDE स्थापित है।
-2.  Aspose.Words for .NET: Aspose.Words for .NET लाइब्रेरी को यहाँ से डाउनलोड करें[रिलीज़ पेज](https://releases.aspose.com/words/net/).
-3.  लाइसेंस: निःशुल्क परीक्षण या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words for .NET: Aspose.Words for .NET लाइब्रेरी को यहाँ से डाउनलोड करें [रिलीज़ पेज](https://releases.aspose.com/words/net/).
+3. लाइसेंस: निःशुल्क परीक्षण या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
-कोडिंग शुरू करने से पहले, ज़रूरी नेमस्पेस को आयात करना सुनिश्चित करें। इससे आप Aspose.Words क्लास और मेथड्स को सहजता से एक्सेस कर पाएँगे।
+कोडिंग शुरू करने से पहले, ज़रूरी नेमस्पेस को इंपोर्ट करना न भूलें। इससे आप Aspose.Words क्लास और मेथड्स को आसानी से एक्सेस कर पाएँगे।
 
 ```csharp
 using System;
@@ -60,7 +62,7 @@ Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 ## चरण 3: चाइल्ड नोड्स पुनः प्राप्त करें
 
-अब जब हमारे पास पैराग्राफ़ है, तो उसके चाइल्ड नोड्स को पुनः प्राप्त करने का समय आ गया है। चाइल्ड नोड्स पैराग्राफ़ के भीतर रन, शेप या अन्य प्रकार के नोड हो सकते हैं।
+अब जबकि हमारे पास पैराग्राफ़ है, तो अब इसके चाइल्ड नोड्स को पुनः प्राप्त करने का समय आ गया है। चाइल्ड नोड्स पैराग्राफ़ के भीतर रन, शेप या अन्य प्रकार के नोड हो सकते हैं।
 
 ```csharp
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
@@ -91,28 +93,33 @@ foreach (Node child in children)
 
 एक बार जब आप बुनियादी चरणों को समझ लेते हैं, तो .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चाइल्ड नोड्स की गणना करना सरल है। दस्तावेज़ को आरंभ करके, विशिष्ट पैराग्राफ़ तक पहुँचकर, चाइल्ड नोड्स को पुनः प्राप्त करके, और उनके माध्यम से पुनरावृत्ति करके, आप आसानी से Word दस्तावेज़ों को प्रोग्रामेटिक रूप से हेरफेर कर सकते हैं। Aspose.Words विभिन्न दस्तावेज़ तत्वों को संभालने के लिए एक मजबूत API प्रदान करता है, जो इसे .NET डेवलपर्स के लिए एक अपरिहार्य उपकरण बनाता है।
 
- अधिक विस्तृत दस्तावेज़ीकरण और उन्नत उपयोग के लिए, यहां जाएं[.NET API के लिए Aspose.Words दस्तावेज़](https://reference.aspose.com/words/net/) यदि आपको अतिरिक्त सहायता की आवश्यकता है, तो देखें[समर्थन मंच](https://forum.aspose.com/c/words/8).
+अधिक विस्तृत दस्तावेज़ीकरण और उन्नत उपयोग के लिए, यहां जाएं [.NET API के लिए Aspose.Words दस्तावेज़](https://reference.aspose.com/words/net/)यदि आपको अतिरिक्त सहायता की आवश्यकता है, तो देखें [समर्थन मंच](https://forum.aspose.com/c/words/8).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### एक पैराग्राफ में किस प्रकार के नोड हो सकते हैं?
-एक पैराग्राफ में रन, आकृतियाँ, टिप्पणियाँ और अन्य इनलाइन तत्व जैसे नोड हो सकते हैं।
+एक पैराग्राफ में रन, आकृतियाँ, टिप्पणियाँ और अन्य इनलाइन तत्व जैसे नोड शामिल हो सकते हैं।
 
 ### मैं किसी मौजूदा वर्ड दस्तावेज़ को कैसे लोड कर सकता हूँ?
- आप किसी मौजूदा दस्तावेज़ को लोड कर सकते हैं`Document doc = new Document("path/to/your/document.docx");`.
+आप किसी मौजूदा दस्तावेज़ को लोड कर सकते हैं `Document doc = new Document("path/to/your/document.docx");`.
 
 ### क्या मैं रन के अलावा अन्य नोड प्रकारों में भी हेरफेर कर सकता हूँ?
- हां, आप विभिन्न नोड प्रकारों जैसे आकार, टिप्पणियाँ, और अधिक को उनकी जाँच करके हेरफेर कर सकते हैं`NodeType`.
+हां, आप विभिन्न नोड प्रकारों जैसे आकार, टिप्पणियाँ, और अधिक को उनकी जाँच करके हेरफेर कर सकते हैं `NodeType`.
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं या अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं या अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
- दौरा करना[.NET API के लिए Aspose.Words दस्तावेज़](https://reference.aspose.com/words/net/)अधिक उदाहरण और विस्तृत दस्तावेज़ीकरण के लिए.
+दौरा करना [.NET API के लिए Aspose.Words दस्तावेज़](https://reference.aspose.com/words/net/) अधिक उदाहरण और विस्तृत दस्तावेज़ीकरण के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đóng dấu bản quyền tài liệu và thiết lập trang
-linktitle: Đóng dấu bản quyền tài liệu và thiết lập trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằng Aspose.Words cho Java. Hướng dẫn toàn diện với mã nguồn.
-weight: 13
-url: /vi/java/document-styling/document-watermarking-page-setup/
+"description": "Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằng Aspose.Words cho Java. Hướng dẫn toàn diện với mã nguồn."
+"linktitle": "Đóng dấu bản quyền tài liệu và thiết lập trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Đóng dấu bản quyền tài liệu và thiết lập trang"
+"url": "/vi/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đóng dấu bản quyền tài liệu và thiết lập trang
@@ -147,9 +149,14 @@ Bạn có thể căn giữa văn bản ở phần đầu trang hoặc phần ch�
 Trong hướng dẫn mở rộng này, chúng tôi đã khám phá nghệ thuật đóng dấu bản quyền tài liệu và thiết lập trang bằng Aspose.Words for Java. Được trang bị các đoạn mã nguồn và thông tin chi tiết được cung cấp, giờ đây bạn sở hữu các công cụ để thao tác và định dạng tài liệu của mình một cách tinh tế. Aspose.Words for Java cho phép bạn tạo các tài liệu chuyên nghiệp, có thương hiệu phù hợp với thông số kỹ thuật chính xác của bạn.
 
 Thành thạo thao tác tài liệu là một kỹ năng có giá trị đối với các nhà phát triển và Aspose.Words for Java là người bạn đồng hành đáng tin cậy của bạn trong hành trình này. Hãy bắt đầu tạo các tài liệu tuyệt đẹp ngay hôm nay!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

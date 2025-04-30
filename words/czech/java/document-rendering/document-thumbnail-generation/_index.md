@@ -1,97 +1,104 @@
 ---
-title: Generování miniatur dokumentu
-linktitle: Generování miniatur dokumentu
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se generovat miniatury dokumentů pomocí Aspose.Words for Java. Vylepšete uživatelské prostředí pomocí vizuálních náhledů.
-weight: 11
-url: /cs/java/document-rendering/document-thumbnail-generation/
+"description": "Naučte se, jak generovat miniatury dokumentů pomocí Aspose.Words pro Javu. Vylepšete uživatelský zážitek pomocí vizuálních náhledů."
+"linktitle": "Generování miniatur dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Generování miniatur dokumentů"
+"url": "/cs/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generování miniatur dokumentu
+# Generování miniatur dokumentů
 
 
-## Úvod do generování miniatur dokumentu
+## Úvod do generování miniatur dokumentů
 
-Generování miniatur dokumentu zahrnuje vytvoření miniaturní vizuální reprezentace dokumentu, která se často zobrazuje jako náhledový obrázek. Umožňuje uživatelům rychle posoudit obsah dokumentu, aniž by jej zcela otevíral.
+Generování miniatur dokumentů zahrnuje vytvoření miniaturní vizuální reprezentace dokumentu, často zobrazené jako náhledový obrázek. Umožňuje uživatelům rychle posoudit obsah dokumentu, aniž by jej museli zcela otevírat.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
 - Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou Javu.
--  Aspose.Words for Java: Stáhněte si a nainstalujte Aspose.Words for Java z webu[zde](https://releases.aspose.com/words/java/).
-- Integrované vývojové prostředí (IDE): Můžete použít libovolné Java IDE dle vašeho výběru, jako je Eclipse nebo IntelliJ IDEA.
+- Aspose.Words pro Javu: Stáhněte a nainstalujte Aspose.Words pro Javu z webových stránek [zde](https://releases.aspose.com/words/java/).
+- Integrované vývojové prostředí (IDE): Můžete použít libovolné vývojové prostředí Java IDE dle vlastního výběru, například Eclipse nebo IntelliJ IDEA.
 
 ## Krok 1: Nastavení vývojového prostředí
 
-Chcete-li začít, ujistěte se, že máte v systému nainstalované Java a Aspose.Words for Java. Budete také potřebovat IDE pro kódování.
+Pro začátek se ujistěte, že máte v systému nainstalovanou Javu a Aspose.Words pro Javu. Budete také potřebovat IDE pro kódování.
 
-## Krok 2: Načtení dokumentu aplikace Word
+## Krok 2: Načtení dokumentu Word
 
-tomto kroku se naučíme, jak načíst dokument aplikace Word pomocí Aspose.Words for Java.
+V tomto kroku se naučíme, jak načíst dokument Wordu pomocí Aspose.Words pro Javu.
 
 ```java
-// Java kód pro načtení dokumentu aplikace Word
+// Kód v Javě pro načtení dokumentu Wordu
 Document doc = new Document("sample.docx");
 ```
 
 ## Krok 3: Generování miniatur dokumentů
 
-Nyní se pojďme ponořit do procesu generování miniatur z načteného dokumentu.
+Nyní se ponoříme do procesu generování miniatur z načteného dokumentu.
 
 ```java
-// Java kód pro vygenerování miniatury dokumentu
+// Kód v Javě pro generování miniatury dokumentu
 ByteArrayOutputStream stream = new ByteArrayOutputStream();
 ImageSaveOptions options = new ImageSaveOptions();
 doc.save(stream, options);
 ```
 
-## Krok 4: Přizpůsobení vzhledu miniatur
+## Krok 4: Úprava vzhledu miniatur
 
-Vzhled svých miniatur si můžete přizpůsobit tak, aby odpovídal designu a požadavkům vaší aplikace. To zahrnuje nastavení rozměrů, kvality a barvy pozadí.
+Vzhled miniatur si můžete přizpůsobit tak, aby odpovídal designu a požadavkům vaší aplikace. To zahrnuje nastavení rozměrů, kvality a barvy pozadí.
 
 ## Krok 5: Uložení miniatur
 
-Jakmile miniaturu vygenerujete, můžete ji uložit do preferovaného umístění.
+Jakmile vygenerujete miniaturu, můžete ji uložit na vámi preferované místo.
 
 ```java
-// Java kód pro uložení vygenerované miniatury
+// Kód v Javě pro uložení vygenerované miniatury
 FileOutputStream outputStream = new FileOutputStream("thumbnail.png");
 stream.writeTo(outputStream);
 ```
 
 ## Závěr
 
-Generování miniatur dokumentů pomocí Aspose.Words for Java nabízí bezproblémový způsob, jak zlepšit uživatelské prostředí vaší aplikace tím, že poskytuje vizuálně přitažlivé náhledy dokumentů. To může být zvláště cenné v systémech správy dokumentů, obsahových platformách a webových stránkách elektronického obchodu.
+Generování miniatur dokumentů pomocí Aspose.Words pro Javu nabízí bezproblémový způsob, jak vylepšit uživatelský zážitek vaší aplikace tím, že poskytuje vizuálně atraktivní náhledy dokumentů. To může být obzvláště cenné v systémech pro správu dokumentů, obsahových platformách a e-commerce webech.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Words for Java?
+### Jak nainstaluji Aspose.Words pro Javu?
 
-Chcete-li nainstalovat Aspose.Words for Java, navštivte stránku pro stahování[zde](https://releases.aspose.com/words/java/) postupujte podle dodaných pokynů k instalaci.
+Chcete-li nainstalovat Aspose.Words pro Javu, navštivte stránku pro stahování [zde](https://releases.aspose.com/words/java/) a postupujte podle přiložených pokynů k instalaci.
 
-### Mohu přizpůsobit velikost vygenerované miniatury?
+### Mohu si přizpůsobit velikost vygenerované miniatury?
 
-Ano, můžete upravit velikost vygenerované miniatury úpravou rozměrů v kódu. Další podrobnosti naleznete v kroku 5.
+Ano, velikost vygenerované miniatury můžete upravit úpravou rozměrů v kódu. Další podrobnosti naleznete v kroku 5.
 
-### Je Aspose.Words for Java kompatibilní s různými formáty dokumentů?
+### Je Aspose.Words pro Javu kompatibilní s různými formáty dokumentů?
 
-Ano, Aspose.Words for Java podporuje různé formáty dokumentů, včetně DOCX, DOC, RTF a dalších.
+Ano, Aspose.Words pro Javu podporuje různé formáty dokumentů, včetně DOCX, DOC, RTF a dalších.
 
-### Existují nějaké licenční požadavky pro používání Aspose.Words for Java?
+### Existují nějaké licenční požadavky pro používání Aspose.Words pro Javu?
 
-Ano, Aspose.Words for Java vyžaduje platnou licenci pro komerční použití. Licenci můžete získat z webu Aspose.
+Ano, Aspose.Words pro Javu vyžaduje platnou licenci pro komerční použití. Licenci můžete získat na webových stránkách Aspose.
 
-### Kde najdu další dokumentaci k Aspose.Words for Java?
+### Kde najdu další dokumentaci k Aspose.Words pro Javu?
 
- Na stránce dokumentace Aspose.Words for Java můžete najít komplexní dokumentaci a odkazy na API[zde](https://reference.aspose.com/words/java/).
+Komplexní dokumentaci a reference API naleznete na stránce dokumentace k Aspose.Words pro Javu. [zde](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

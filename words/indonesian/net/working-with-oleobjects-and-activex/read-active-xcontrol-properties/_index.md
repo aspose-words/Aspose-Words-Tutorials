@@ -1,14 +1,16 @@
 ---
-title: Membaca Properti XControl Aktif Dari File Word
-linktitle: Membaca Properti XControl Aktif Dari File Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membaca properti kontrol ActiveX dari file Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Tingkatkan keterampilan otomatisasi dokumen Anda.
-weight: 10
-url: /id/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Pelajari cara membaca properti kontrol ActiveX dari file Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Tingkatkan keterampilan otomatisasi dokumen Anda."
+"linktitle": "Membaca Properti XControl Aktif Dari File Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membaca Properti XControl Aktif Dari File Word"
+"url": "/id/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membaca Properti XControl Aktif Dari File Word
@@ -21,7 +23,7 @@ Di era digital saat ini, otomatisasi adalah kunci untuk meningkatkan produktivit
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio atau IDE C# apa pun: Untuk menulis dan mengeksekusi kode Anda.
 3. Dokumen Word dengan kontrol ActiveX: Misalnya, "Kontrol ActiveX.docx".
 4. Pengetahuan dasar C#: Keakraban dengan pemrograman C# diperlukan untuk mengikutinya.
@@ -120,16 +122,21 @@ Kontrol ActiveX adalah objek interaktif yang tertanam dalam dokumen Word, sepert
 Ya, Aspose.Words untuk .NET memungkinkan Anda mengubah properti kontrol ActiveX secara terprogram.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi Anda harus membeli lisensi untuk penggunaan lebih lanjut. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.Words untuk .NET menawarkan uji coba gratis, tetapi Anda harus membeli lisensi untuk penggunaan lebih lanjut. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa .NET lain selain C#?
 Ya, Aspose.Words untuk .NET dapat digunakan dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

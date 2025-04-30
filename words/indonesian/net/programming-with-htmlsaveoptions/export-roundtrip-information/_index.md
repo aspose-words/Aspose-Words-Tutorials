@@ -1,14 +1,16 @@
 ---
-title: Ekspor Informasi Perjalanan Pulang Pergi
-linktitle: Ekspor Informasi Perjalanan Pulang Pergi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspor informasi perjalanan pulang pergi menggunakan Aspose.Words untuk .NET. Pertahankan integritas dan format dokumen Anda selama konversi.
-weight: 10
-url: /id/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": "Pelajari cara mengekspor informasi perjalanan pulang pergi menggunakan Aspose.Words untuk .NET. Pertahankan integritas dan format dokumen Anda selama konversi."
+"linktitle": "Ekspor Informasi Perjalanan Pulang Pergi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor Informasi Perjalanan Pulang Pergi"
+"url": "/id/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Informasi Perjalanan Pulang Pergi
@@ -21,10 +23,10 @@ Selamat datang di dunia Aspose.Words yang menakjubkan untuk .NET! Hari ini, kita
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan kita memiliki semua yang kita butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru.[Unduh di sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. [Unduh di sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan C#.
 3. Pengetahuan Dasar C#: Akan sangat membantu jika Anda memiliki sedikit pengetahuan tentang C# dan kerangka kerja .NET.
-4. Lisensi: Anda dapat menggunakan lisensi sementara jika Anda tidak memiliki lisensi lengkap. Dapatkan lisensi tersebut[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi: Anda dapat menggunakan lisensi sementara jika Anda tidak memiliki lisensi lengkap. Dapatkan lisensi tersebut [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -79,19 +81,24 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah berhasil mengekspor i
 Informasi pulang pergi mengacu pada data yang memastikan integritas dan pemformatan suatu dokumen saat diubah dari satu format ke format lain dan sebaliknya.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET tanpa lisensi?
-Ya, Anda dapat menggunakannya dengan lisensi sementara yang bisa Anda dapatkan[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat menggunakannya dengan lisensi sementara yang bisa Anda dapatkan [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan versi terbaru Aspose.Words untuk .NET?
- Anda dapat mengunduh versi terbaru[Di Sini](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh versi terbaru [Di Sini](https://releases.aspose.com/words/net/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Apakah mungkin untuk mempertahankan format saat mengonversi dokumen Word ke HTML?
 Ya, dengan menggunakan properti ExportRoundtripInformation di HtmlSaveOptions, Anda dapat mempertahankan semua format selama konversi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

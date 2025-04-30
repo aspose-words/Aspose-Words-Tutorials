@@ -1,14 +1,16 @@
 ---
-title: Xóa bỏ giới hạn chỉ đọc
-linktitle: Xóa bỏ giới hạn chỉ đọc
-second_title: API xử lý tài liệu Aspose.Words
-description: Dễ dàng xóa các hạn chế chỉ đọc khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/document-protection/remove-read-only-restriction/
+"description": "Dễ dàng xóa các hạn chế chỉ đọc khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Xóa bỏ giới hạn chỉ đọc"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa bỏ giới hạn chỉ đọc"
+"url": "/vi/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa bỏ giới hạn chỉ đọc
@@ -21,7 +23,7 @@ Việc xóa giới hạn chỉ đọc khỏi tài liệu Word có thể là mộ
 
 Trước khi đi sâu vào hướng dẫn từng bước, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
--  Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Môi trường phát triển .NET như Visual Studio.
 - Kiến thức cơ bản về C#: Hiểu các khái niệm lập trình C# cơ bản sẽ rất hữu ích.
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- Trong bước này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.`"YourDocument.docx"` là tên của tài liệu bạn muốn sửa đổi.
+Trong bước này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. `"YourDocument.docx"` là tên của tài liệu bạn muốn sửa đổi.
 
 ## Bước 3: Đặt mật khẩu (Tùy chọn)
 
@@ -85,13 +87,13 @@ Bước này rất quan trọng vì nó đảm bảo rằng không có biện ph
 
 ## Bước 6: Lưu tài liệu
 
-Cuối cùng, lưu tài liệu đã sửa đổi vào vị trí bạn mong muốn.
+Cuối cùng, lưu tài liệu đã chỉnh sửa vào vị trí bạn mong muốn.
 
 ```csharp
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- Trong bước này, tài liệu đã sửa đổi được lưu với tên`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+Trong bước này, tài liệu đã sửa đổi được lưu với tên `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## Phần kết luận
 
@@ -107,11 +109,11 @@ Có, việc đặt mật khẩu là tùy chọn. Bạn có thể trực tiếp x
 
 ### Điều gì xảy ra nếu tài liệu đã có loại bảo vệ khác?
 
- Các`doc.Protect(ProtectionType.NoProtection)` phương pháp này đảm bảo rằng mọi loại biện pháp bảo vệ đều được loại bỏ khỏi tài liệu.
+Các `doc.Protect(ProtectionType.NoProtection)` phương pháp này đảm bảo rằng tất cả các loại bảo vệ đều được loại bỏ khỏi tài liệu.
 
 ### Có cách nào để biết tài liệu có phải là chỉ đọc trước khi xóa hạn chế không?
 
- Vâng, bạn có thể kiểm tra`ReadOnlyRecommended` thuộc tính để xem tài liệu có được phép chỉ đọc hay không trước khi thực hiện bất kỳ thay đổi nào.
+Vâng, bạn có thể kiểm tra `ReadOnlyRecommended` thuộc tính để xem tài liệu có được phép chỉ đọc hay không trước khi thực hiện bất kỳ thay đổi nào.
 
 ### Tôi có thể sử dụng phương pháp này để xóa hạn chế khỏi nhiều tài liệu cùng lúc không?
 
@@ -120,9 +122,14 @@ Có, bạn có thể lặp qua nhiều tài liệu và áp dụng cùng một ph
 ### Nếu tài liệu được bảo vệ bằng mật khẩu và tôi không biết mật khẩu thì sao?
 
 Thật không may, bạn cần biết mật khẩu để xóa bất kỳ hạn chế nào. Nếu không có mật khẩu, bạn sẽ không thể sửa đổi cài đặt bảo vệ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

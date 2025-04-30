@@ -1,14 +1,16 @@
 ---
-title: विषय सूची पीढ़ी
-linktitle: विषय सूची पीढ़ी
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके गतिशील विषय-सूची बनाना सीखें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरणों के साथ TOC जनरेशन में महारत हासिल करें।
-weight: 14
-url: /hi/java/table-processing/table-contents-generation/
+"description": "Java के लिए Aspose.Words का उपयोग करके गतिशील विषय-सूची बनाना सीखें। चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरणों के साथ TOC जनरेशन में महारत हासिल करें।"
+"linktitle": "विषय सूची पीढ़ी"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "विषय सूची पीढ़ी"
+"url": "/hi/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # विषय सूची पीढ़ी
@@ -21,10 +23,10 @@ url: /hi/java/table-processing/table-contents-generation/
 
 कोडिंग शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  जावा डेवलपमेंट किट (JDK): आपके सिस्टम पर इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[ओरेकल की वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Words for Java लाइब्रेरी: से नवीनतम संस्करण डाउनलोड करें[रिलीज़ पेज](https://releases.aspose.com/words/java/).
+1. जावा डेवलपमेंट किट (JDK): आपके सिस्टम पर इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [ओरेकल की वेबसाइट](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Words for Java लाइब्रेरी: से नवीनतम संस्करण डाउनलोड करें [रिलीज़ पेज](https://releases.aspose.com/words/java/).
 3. एकीकृत विकास वातावरण (IDE): जैसे कि IntelliJ IDEA, Eclipse, या NetBeans.
-4.  Aspose अस्थायी लाइसेंस: मूल्यांकन सीमाओं से बचने के लिए, प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+4. Aspose अस्थायी लाइसेंस: मूल्यांकन सीमाओं से बचने के लिए, एक प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ## पैकेज आयात करें
 
@@ -38,7 +40,7 @@ import com.aspose.words.*;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
- पहला कदम एक नया दस्तावेज़ बनाना और उसका उपयोग करना है`DocumentBuilder` वर्ग को इसमें हेरफेर करने के लिए।
+पहला कदम एक नया दस्तावेज़ बनाना और उसका उपयोग करना है `DocumentBuilder` वर्ग को इसमें हेरफेर करने के लिए।
 
 
 ```java
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document`: वर्ड दस्तावेज़ को दर्शाता है.
+- `Document`: वर्ड दस्तावेज़ का प्रतिनिधित्व करता है.
 - `DocumentBuilder`: एक सहायक वर्ग जो दस्तावेज़ में आसान हेरफेर की अनुमति देता है।
 
 ## चरण 2: विषय-सूची डालें
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : पैराग्राफ़ शैली को एक विशिष्ट शीर्षक स्तर पर सेट करता है (उदाहरण के लिए,`HEADING_1`, `HEADING_2`).
-- `writeln`: निर्दिष्ट शैली के साथ दस्तावेज़ में पाठ जोड़ता है।
+- `setStyleIdentifier`: पैराग्राफ़ शैली को एक विशिष्ट शीर्षक स्तर पर सेट करता है (उदाहरण के लिए, `HEADING_1`, `HEADING_2`).
+- `writeln`निर्दिष्ट शैली के साथ दस्तावेज़ में पाठ जोड़ता है।
 
 ## चरण 4: नेस्टेड हेडिंग जोड़ें
 
@@ -125,7 +127,7 @@ doc.updateFields();
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : दस्तावेज़ को निर्यात करता है`.docx` फ़ाइल. आप अन्य प्रारूप निर्दिष्ट कर सकते हैं जैसे`.pdf` या`.txt` यदि ज़रूरत हो तो।
+- `save`: दस्तावेज़ को निर्यात करता है `.docx` फ़ाइल. आप अन्य प्रारूप निर्दिष्ट कर सकते हैं जैसे `.pdf` या `.txt` यदि ज़रूरत हो तो।
 
 ## निष्कर्ष
 
@@ -137,19 +139,24 @@ doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 बिल्कुल! आप TOC पैरामीटर समायोजित कर सकते हैं जैसे पेज नंबर शामिल करना, टेक्स्ट संरेखित करना, या कस्टम हेडिंग शैलियों का उपयोग करना।
 
 ### क्या Java के लिए Aspose.Words हेतु लाइसेंस अनिवार्य है?
- हां, पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता है। आप एक से शुरू कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+हां, पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता है। आप एक से शुरू कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ### क्या मैं किसी मौजूदा दस्तावेज़ के लिए TOC तैयार कर सकता हूँ?
- हाँ! दस्तावेज़ को लोड करें`Document` ऑब्जेक्ट पर जाएं और TOC को सम्मिलित करने और अद्यतन करने के लिए समान चरणों का पालन करें।
+हाँ! दस्तावेज़ को लोड करें `Document` ऑब्जेक्ट पर जाएं और TOC को सम्मिलित करने और अद्यतन करने के लिए समान चरणों का पालन करें।
 
 ### क्या यह पीडीएफ निर्यात के लिए काम करता है?
- हां, यदि आप दस्तावेज़ को पीडीएफ में सहेजते हैं तो TOC पीडीएफ में दिखाई देगा`.pdf` प्रारूप।
+हां, यदि आप दस्तावेज़ को पीडीएफ में सहेजते हैं तो TOC पीडीएफ में दिखाई देगा `.pdf` प्रारूप।
 
 ### मैं अधिक दस्तावेज कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/) अधिक उदाहरण और विवरण के लिए.
+इसकी जाँच पड़ताल करो [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/) अधिक उदाहरण और विवरण के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

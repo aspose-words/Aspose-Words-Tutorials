@@ -1,14 +1,16 @@
 ---
-title: Belgeyi Boşluğa Ekle
-linktitle: Belgeyi Boşluğa Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak boş bir belgeye sorunsuz bir şekilde nasıl belge ekleyeceğinizi öğrenin. Adım adım kılavuz, kod parçacıkları ve SSS dahildir.
-weight: 10
-url: /tr/net/join-and-append-documents/append-document-to-blank/
+"description": "Aspose.Words for .NET kullanarak boş bir belgeye sorunsuz bir şekilde nasıl belge ekleyeceğinizi öğrenin. Adım adım kılavuz, kod parçacıkları ve SSS dahildir."
+"linktitle": "Belgeyi Boşluğa Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belgeyi Boşluğa Ekle"
+"url": "/tr/net/join-and-append-documents/append-document-to-blank/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeyi Boşluğa Ekle
@@ -21,11 +23,11 @@ Merhaba! Hiç Aspose.Words for .NET kullanarak boş bir belgeye sorunsuz bir şe
 
 Ayrıntılara girmeden önce, elinizde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 3. C#'ın Temel Anlayışı: Her şeyi basit tutacağız ancak C#'a biraz aşinalık çok işinize yarayacaktır.
 4. Kaynak Belge: Boş belgeye eklemek istediğiniz bir Word belgesi.
-5.  Lisans (İsteğe bağlı): Deneme sürümünü kullanmıyorsanız, bir lisansa ihtiyacınız olabilir.[geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir[tam lisans](https://purchase.aspose.com/buy).
+5. Lisans (İsteğe bağlı): Deneme sürümünü kullanmıyorsanız, bir lisansa ihtiyacınız olabilir. [geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir [tam lisans](https://purchase.aspose.com/buy).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -72,7 +74,7 @@ Artık projemiz kurulduğuna göre, boş belgemize eklemek istediğimiz kaynak b
    Document srcDoc = new Document(dataDir + "Document source.docx");
    ```
 
- Bu kod parçacığı kaynak belgeyi bir`Document` Bir sonraki adımda boş belgemize ekleyeceğimiz nesne.
+Bu kod parçacığı kaynak belgeyi bir `Document` Bir sonraki adımda boş belgemize ekleyeceğimiz nesne.
 
 ## Adım 3: Hedef Belgeyi Oluşturun ve Hazırlayın
 
@@ -106,7 +108,7 @@ Bu kod satırı, orijinal biçimlendirmeyi bozmadan kaynak belgeyi hedef belgeye
 
 ## Adım 5: Son Belgeyi Kaydedin
 
-Belgeleri ekledikten sonra yapmanız gereken son adım, birleştirilen belgeyi belirttiğiniz dizine kaydetmektir.
+Belgeleri ekledikten sonra, son adım birleştirilen belgeyi belirtilen dizine kaydetmektir.
 
 1. Belgeyi kaydedin:
 
@@ -124,15 +126,15 @@ Aspose.Words for .NET ile belgeleri eklemek, adımları öğrendikten sonra çoc
 
 ### Tek bir hedef belgeye birden fazla belge ekleyebilir miyim?
 
-Evet, birden fazla belgeyi tekrar tekrar çağırarak ekleyebilirsiniz.`AppendDocument` Her belge için bir yöntem.
+Evet, birden fazla belgeyi tekrar tekrar çağırarak ekleyebilirsiniz. `AppendDocument` Her belge için bir yöntem.
 
 ### Kaynak belgenin farklı bir biçimlendirmesi varsa ne olur?
 
- The`ImportFormatMode.KeepSourceFormatting` kaynak belgenin biçimlendirmesinin eklendiğinde korunmasını sağlar.
+The `ImportFormatMode.KeepSourceFormatting` kaynak belgenin biçimlendirmesinin eklendiğinde korunmasını sağlar.
 
 ### Aspose.Words'ü kullanmak için lisansa ihtiyacım var mı?
 
- Bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş özellikler için.
+Bir ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş özellikler için.
 
 ### DOCX ve DOC gibi farklı türdeki belgeleri ekleyebilir miyim?
 
@@ -141,9 +143,14 @@ Evet, Aspose.Words çeşitli belge biçimlerini destekler ve farklı türdeki be
 ### Eklenen belge düzgün görünmüyorsa sorunu nasıl giderebilirim?
 
 Eklemeden önce hedef belgenin tamamen boş olup olmadığını kontrol edin. Herhangi bir kalan içerik biçimlendirme sorunlarına neden olabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

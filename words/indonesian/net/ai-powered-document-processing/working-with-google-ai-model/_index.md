@@ -1,14 +1,16 @@
 ---
-title: Bekerja dengan Model AI Google
-linktitle: Bekerja dengan Model AI Google
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah.
-weight: 10
-url: /id/net/ai-powered-document-processing/working-with-google-ai-model/
+"description": "Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah."
+"linktitle": "Bekerja dengan Model AI Google"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bekerja dengan Model AI Google"
+"url": "/id/net/ai-powered-document-processing/working-with-google-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bekerja dengan Model AI Google
@@ -23,9 +25,9 @@ Sebelum masuk ke bagian praktis, mari pastikan Anda siap untuk meraih kesuksesan
 
 1. Pengetahuan Dasar tentang C# dan .NET: Keakraban dengan konsep pemrograman akan membantu Anda memahami contoh dengan lebih baik.
    
-2.  Pustaka Aspose.Words untuk .NET: Pustaka canggih ini memungkinkan Anda membuat dan memanipulasi dokumen Word dengan mudah. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+2. Pustaka Aspose.Words untuk .NET: Pustaka canggih ini memungkinkan Anda membuat dan memanipulasi dokumen Word dengan mudah. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 
-3. Kunci API untuk Model AI Google: Untuk menggunakan model AI, Anda memerlukan kunci API untuk autentikasi. Simpan kunci tersebut dengan aman di variabel lingkungan Anda.
+3. Kunci API untuk Model AI Google: Untuk memanfaatkan model AI, Anda memerlukan kunci API untuk autentikasi. Simpan kunci tersebut dengan aman di variabel lingkungan Anda.
 
 4. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan .NET yang berfungsi (Visual Studio atau IDE lainnya).
 
@@ -57,7 +59,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
- Mengganti`"YOUR_DOCUMENT_DIRECTORY"` Dan`"YOUR_ARTIFACTS_DIRECTORY"` dengan jalur aktual pada sistem tempat dokumen Anda disimpan. Ini akan berfungsi sebagai dasar untuk membaca dan menyimpan dokumen.
+Mengganti `"YOUR_DOCUMENT_DIRECTORY"` Dan `"YOUR_ARTIFACTS_DIRECTORY"` dengan jalur aktual pada sistem tempat dokumen Anda disimpan. Ini akan berfungsi sebagai dasar untuk membaca dan menyimpan dokumen.
 
 ## Langkah 2: Memuat Dokumen
 
@@ -68,7 +70,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
- Itu`Document` kelas dari Aspose.Words memungkinkan Anda memuat berkas Word ke dalam memori. Pastikan nama berkas sesuai dengan dokumen sebenarnya di direktori Anda, atau Anda akan mengalami galat berkas tidak ditemukan!
+Itu `Document` kelas dari Aspose.Words memungkinkan Anda memuat berkas Word ke dalam memori. Pastikan nama berkas sesuai dengan dokumen sebenarnya di direktori Anda, atau Anda akan mengalami galat berkas tidak ditemukan!
 
 ## Langkah 3: Mengambil Kunci API
 
@@ -88,7 +90,7 @@ Sekarang, saatnya membuat contoh model AI. Di sini Anda dapat memilih model mana
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
- Baris ini menyiapkan model AI yang akan Anda gunakan untuk meringkas dokumen. Pastikan untuk berkonsultasi[dokumentasi](https://reference.aspose.com/words/net/) untuk mengetahui rincian mengenai berbagai model dan kemampuannya.
+Baris ini menyiapkan model AI yang akan Anda gunakan untuk meringkas dokumen. Pastikan untuk berkonsultasi [dokumentasi](https://reference.aspose.com/words/net/) untuk mengetahui rincian mengenai berbagai model dan kemampuannya.
 
 ## Langkah 5: Merangkum Satu Dokumen
 
@@ -99,7 +101,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
- Pada langkah ini, kami menggunakan`Summarize`metode dari instans model AI untuk mendapatkan ringkasan dokumen pertama. Panjang ringkasan ditetapkan menjadi pendek, tetapi Anda dapat menyesuaikannya tergantung pada kebutuhan Anda. Terakhir, dokumen yang diringkas disimpan ke direktori artefak Anda.
+Pada langkah ini, kami menggunakan `Summarize` metode dari instans model AI untuk mendapatkan ringkasan dokumen pertama. Panjang ringkasan ditetapkan menjadi pendek, tetapi Anda dapat menyesuaikannya tergantung pada kebutuhan Anda. Terakhir, dokumen yang diringkas disimpan ke direktori artefak Anda.
 
 ## Langkah 6: Merangkum Beberapa Dokumen
 
@@ -110,7 +112,7 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Di sini, kami memanggil`Summarize` metode lagi, tetapi kali ini dengan serangkaian dokumen. Ini akan memberi Anda ringkasan panjang yang merangkum esensi kedua berkas. Sama seperti sebelumnya, hasilnya disimpan dalam direktori artefak yang ditentukan.
+Di sini, kami memanggil `Summarize` metode lagi, tetapi kali ini dengan serangkaian dokumen. Ini akan memberi Anda ringkasan panjang yang merangkum esensi kedua berkas. Sama seperti sebelumnya, hasilnya disimpan dalam direktori artefak yang ditentukan.
 
 ## Kesimpulan
 
@@ -131,11 +133,16 @@ Ya! Seperti yang ditunjukkan, Anda dapat meneruskan serangkaian dokumen ke metod
 Anda dapat memilih ringkasan pendek, sedang, dan panjang berdasarkan kebutuhan Anda.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya Aspose.Words?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk contoh dan panduan lebih lanjut.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk contoh dan panduan lebih lanjut.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

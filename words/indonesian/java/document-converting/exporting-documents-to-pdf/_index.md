@@ -1,14 +1,16 @@
 ---
-title: Mengekspor Dokumen ke PDF
-linktitle: Mengekspor Dokumen ke PDF
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengekspor dokumen ke PDF menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini menyederhanakan proses konversi dokumen yang lancar.
-weight: 10
-url: /id/java/document-converting/exporting-documents-to-pdf/
+"description": "Pelajari cara mengekspor dokumen ke PDF menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah ini menyederhanakan proses konversi dokumen yang lancar."
+"linktitle": "Mengekspor Dokumen ke PDF"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mengekspor Dokumen ke PDF"
+"url": "/id/java/document-converting/exporting-documents-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengekspor Dokumen ke PDF
@@ -24,7 +26,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
--  Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Menyiapkan Proyek
 
@@ -61,7 +63,7 @@ Mengekspor dokumen ke PDF menggunakan Aspose.Words untuk Java merupakan proses y
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana saya dapat menangani format yang rumit selama konversi?
+### Bagaimana saya dapat menangani pemformatan yang rumit selama konversi?
 
 Aspose.Words untuk Java mempertahankan format yang rumit, seperti tabel, gambar, dan gaya, selama proses konversi. Anda tidak perlu khawatir kehilangan struktur atau desain dokumen apa pun.
 
@@ -79,10 +81,15 @@ Ya, Aspose.Words dapat menangani dokumen Word yang dilindungi kata sandi. Anda d
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Untuk dokumentasi dan contoh kode yang lengkap, kunjungi dokumentasi Aspose.Words untuk Java[Di Sini](https://reference.aspose.com/words/java/).
+Untuk dokumentasi dan contoh kode yang lengkap, kunjungi dokumentasi Aspose.Words untuk Java [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

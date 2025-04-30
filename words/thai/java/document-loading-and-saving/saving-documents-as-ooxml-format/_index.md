@@ -1,14 +1,16 @@
 ---
-title: การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java
-linktitle: การบันทึกเอกสารเป็นรูปแบบ OOXML
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีบันทึกเอกสารในรูปแบบ OOXML ด้วย Aspose.Words สำหรับ Java รักษาความปลอดภัย เพิ่มประสิทธิภาพ และปรับแต่งไฟล์ของคุณได้อย่างง่ายดาย
-weight: 20
-url: /th/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "เรียนรู้วิธีบันทึกเอกสารในรูปแบบ OOXML ด้วย Aspose.Words สำหรับ Java รักษาความปลอดภัย เพิ่มประสิทธิภาพ และปรับแต่งไฟล์ของคุณได้อย่างง่ายดาย"
+"linktitle": "การบันทึกเอกสารเป็นรูปแบบ OOXML"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java
@@ -84,7 +86,7 @@ saveOptions.setUpdateLastSavedTimeProperty(true);
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## การรักษาตัวละครควบคุมแบบเลกาซี
+## การรักษาตัวละครควบคุมดั้งเดิม
 
 หากเอกสารของคุณมีอักขระควบคุมแบบเก่า คุณสามารถเลือกที่จะเก็บอักขระเหล่านี้ไว้ขณะบันทึกได้ ดังต่อไปนี้:
 
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//โหลดเอกสารด้วยอักขระควบคุมแบบเดิม
+// โหลดเอกสารด้วยอักขระควบคุมแบบเดิม
 Document doc = new Document("LegacyControlChars.doc");
 
 // สร้าง OoxmlSaveOptions ด้วยรูปแบบ FLAT_OPC และเปิดใช้งานการเก็บอักขระควบคุมแบบเดิม
@@ -178,14 +180,19 @@ public void setCompressionLevel() throws Exception
 
 ### ฉันสามารถตั้งค่าคุณสมบัติแบบกำหนดเองเมื่อบันทึกเอกสารในรูปแบบ OOXML ได้หรือไม่
 
- ใช่ คุณสามารถตั้งค่าคุณสมบัติแบบกำหนดเองสำหรับเอกสารก่อนบันทึกเป็นรูปแบบ OOXML ได้ ใช้`BuiltInDocumentProperties` และ`CustomDocumentProperties` คลาสที่จะตั้งค่าคุณสมบัติต่างๆ เช่น ผู้แต่ง ชื่อเรื่อง คำสำคัญ และคุณสมบัติแบบกำหนดเอง
+ใช่ คุณสามารถตั้งค่าคุณสมบัติแบบกำหนดเองสำหรับเอกสารก่อนบันทึกเป็นรูปแบบ OOXML ได้ ใช้ `BuiltInDocumentProperties` และ `CustomDocumentProperties` คลาสที่จะตั้งค่าคุณสมบัติต่างๆ เช่น ผู้แต่ง ชื่อเรื่อง คำสำคัญ และคุณสมบัติแบบกำหนดเอง
 
 ### ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML คืออะไร
 
- ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java คือ`NORMAL` . คุณสามารถเปลี่ยนระดับการบีบอัดได้`SUPER_FAST` หรือ`MAXIMUM` ตามความจำเป็น.
+ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java คือ `NORMAL`. คุณสามารถเปลี่ยนระดับการบีบอัดได้ `SUPER_FAST` หรือ `MAXIMUM` ตามความจำเป็น.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

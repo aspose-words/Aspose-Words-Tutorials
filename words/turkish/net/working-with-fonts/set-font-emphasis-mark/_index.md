@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipi Vurgu İşaretini Ayarla
-linktitle: Yazı Tipi Vurgu İşaretini Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yazı tipi vurgu işaretlerinin nasıl ayarlanacağını öğrenin. .NET geliştiricileri için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fonts/set-font-emphasis-mark/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde yazı tipi vurgu işaretlerinin nasıl ayarlanacağını öğrenin. .NET geliştiricileri için mükemmeldir."
+"linktitle": "Yazı Tipi Vurgu İşaretini Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipi Vurgu İşaretini Ayarla"
+"url": "/tr/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipi Vurgu İşaretini Ayarla
@@ -21,7 +23,7 @@ Bugünkü eğitimde, Aspose.Words for .NET kullanarak bir Word belgesinde yazı 
 
 Ayrıntılara dalmadan önce, aşağıdaki ön koşulların işaretlendiğinden emin olun:
 
--  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri çalışan bir geliştirme ortamı.
 - .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 
@@ -41,7 +43,7 @@ using Aspose.Words.Fonts;
 İlk önce, yeni bir belge ve bir DocumentBuilder başlatmanız gerekir. DocumentBuilder sınıfı, belgeye metin ve diğer öğeleri eklemek için yöntemler sağlar.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Yeni bir Belge Başlat
@@ -97,22 +99,27 @@ Yazı tipi vurgu işaretleri, metni öne çıkarmak için eklenen özel sembolle
 
 ### Aspose.Words for .NET ile diğer vurgu işaretlerini kullanabilir miyim?
 
- Evet, Aspose.Words for .NET çeşitli vurgu işaretlerini destekler. Aşağıdakilere başvurarak farklı seçenekleri keşfedebilirsiniz:[belgeleme](https://reference.aspose.com/words/net/).
+Evet, Aspose.Words for .NET çeşitli vurgu işaretlerini destekler. Aşağıdakilere başvurarak farklı seçenekleri keşfedebilirsiniz: [belgeleme](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
 
- Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/) veya bir lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
 
- Aspose topluluğundan ve destek ekibinden destek almak için şu adresi ziyaret edebilirsiniz:[destek forumu](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan ve destek ekibinden destek almak için şu adresi ziyaret edebilirsiniz: [destek forumu](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'i diğer .NET framework'leriyle birlikte kullanabilir miyim?
 
 Evet, Aspose.Words for .NET, .NET Core ve .NET 5/6 dahil olmak üzere çeşitli .NET çerçeveleriyle uyumludur.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

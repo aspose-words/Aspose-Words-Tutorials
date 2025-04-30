@@ -1,50 +1,58 @@
 ---
-title: Invoeg kolomgrafiek in Word met behulp van Aspose.Words voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je een kolomgrafiek in een Word-document kunt insetten met behulp van Aspose.Words voor .NET. Stap-voor-stap gids met code, het maken van grafieken en het opslaan van je document.
-keywords: [Aspose.Words for .NET, insert column chart, Word document, .NET charts, Aspose chart example, document builder, chart insertion tutorial]
-url: /nl/net/working-with-charts/insert-column-chart/
+"description": "Leer hoe je een kolomdiagram in een Word-document invoegt met Aspose.Words voor .NET. Stapsgewijze handleiding met code, het maken van diagrammen en het opslaan van je document."
+"title": "Kolomdiagram invoegen in Word met Aspose.Words voor .NET"
+"url": "/nl/net/working-with-charts/insert-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Invoeg kolomgrafiek in Word met behulp van Aspose.Words
+# Kolomdiagram invoegen in Word met Aspose.Words
 
-Aspose.Words voor .NET maakt het ongelooflijk eenvoudig om Word documenten programmaal te maken en te manipuleren. Dit voorbeeld toont aan hoe je een kolomgrafiek in een Word document met slechts een paar regels code kunt inslaan. Met behulp van de krachtige API kunt u kaarten toevoegen, categorieën en waarden definiëren en het document in uw gewenste formaat opslaan. Volg deze gids om te zien hoe eenvoudig het is om professionele kaarten rechtstreeks van uw .NET-toepassingen te genereren.
+Aspose.Words voor .NET maakt het ongelooflijk eenvoudig om Word-documenten programmatisch te maken en te bewerken. Dit voorbeeld laat zien hoe u met slechts een paar regels code een kolomdiagram in een Word-document invoegt. Met de krachtige API kunt u grafieken toevoegen, categorieën en waarden definiëren en het document opslaan in de gewenste indeling. Volg deze handleiding om te zien hoe eenvoudig het is om professionele grafieken rechtstreeks vanuit uw .NET-applicaties te genereren.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
 
 1. Download Aspose.Words voor .NET  
-   * Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/)en download de nieuwste versie.  
+   - Bezoek de [Aspose.Words voor .NET downloadpagina](https://releases.aspose.com/words/net/) en download de nieuwste versie.  
 
 2. Installeer de bibliotheek  
-   * Gebruik NuGet Package Manager in Visual Studio om Aspose.Words voor .NET te installeren:  
+   - Gebruik NuGet Package Manager in Visual Studio om Aspose.Words voor .NET te installeren:  
      ```
      Install-Package Aspose.Words
      ```
 
-3. Voeg de naamruimte in  
-   * Voeg de benodigde naamruimte toe aan uw project:  
+3. Neem de naamruimte op  
+   - Voeg de benodigde naamruimte toe aan uw project:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
-4. Stel een gratis proefproef of licentie op  
-   * Begin met een [gratis proefproef](https://releases.aspose.com/)of een aanvraag indienen voor een[tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)om de volledige mogelijkheden van de bibliotheek te ontgrendelen.
+4. Stel een gratis proefversie of licentie in  
+   - Begin met een [gratis proefperiode](https://releases.aspose.com/) of een aanvraag indienen voor een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om de volledige mogelijkheden van de bibliotheek te benutten.
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

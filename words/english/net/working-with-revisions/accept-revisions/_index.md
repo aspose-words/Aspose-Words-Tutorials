@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/accept-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accept Revisions
@@ -154,9 +157,13 @@ Yes, you can reject specific revisions by navigating to them and using the `Reje
 
 You can download Aspose.Words for .NET from the [download link](https://releases.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

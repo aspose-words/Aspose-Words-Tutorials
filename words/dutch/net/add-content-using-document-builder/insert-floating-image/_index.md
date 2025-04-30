@@ -1,31 +1,35 @@
 ---
-title: Word Document maken met Floating Image in .NET
-weight: 7700
-limit: 
-description: Leer hoe je Aspose.Words voor .NET gebruikt om een Word document te maken en een drijvende afbeelding in te voegen.
-keywords: [Aspose.Words, .NET, Word document, insert image, floating layout, DocumentBuilder, C# example]
-url: /nl/net/add-content-using-document-builder/insert-floating-image/
+"description": "Leer hoe je Aspose.Words voor .NET gebruikt om een Word-document te maken en een zwevende afbeelding in te voegen. Stapsgewijs voorbeeld."
+"title": "Maak een Word-document met een zwevende afbeelding in .NET"
+"url": "/nl/net/add-content-using-document-builder/insert-floating-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Document maken met een zwevend beeld
+# Maak een Word-document met een zwevende afbeelding
 
-Dit voorbeeld toont aan hoe je een Word-document kunt maken met behulp van Aspose.Words voor .NET en een afbeelding met een drijvende lay-out kunt inslaan. De aangeboden code initialiseert een Document en DocumentBuilder, voegt een afbeelding met gespecificeerde afmetingen en posities in, en slaat het document uiteindelijk op. Deze gids is ideaal voor ontwikkelaars die hun documentgeneratie mogelijkheden willen verbeteren met behulp van Aspose.Words.
+Dit voorbeeld laat zien hoe u een Word-document maakt met Aspose.Words voor .NET en een afbeelding met een zwevende lay-out invoegt. De meegeleverde code initialiseert een Document en DocumentBuilder, voegt een afbeelding in met de opgegeven afmetingen en positionering en slaat het document op. Deze handleiding is ideaal voor ontwikkelaars die hun mogelijkheden voor documentgeneratie met Aspose.Words willen verbeteren.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-floating-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
-1. Installeer Aspose.Words: Voeg het NuGet pakket Aspose.Words toe aan je .NET- project. Dit kan je doen door het volgende commando uit te voeren in de Pakketmanager Console:
+1. Aspose.Words installeren: Voeg het Aspose.Words NuGet-pakket toe aan uw .NET-project. U kunt dit doen door de volgende opdracht uit te voeren in de Package Manager Console:
    ```
    Install-Package Aspose.Words
    ```
 
-2. Voeg vereiste naamruimten toe: zorg ervoor dat uw codebestand de volgende naamruimten bevat:
+2. Voeg de vereiste naamruimten toe: zorg ervoor dat uw codebestand de volgende naamruimten bevat:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
@@ -33,10 +37,14 @@ Dit voorbeeld toont aan hoe je een Word-document kunt maken met behulp van Aspos
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

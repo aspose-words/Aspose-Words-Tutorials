@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Docx sang Txt
-linktitle: Chuyển đổi Docx sang Txt
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi DOCX sang TXT bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Học cách chuyển đổi tài liệu hiệu quả và dễ dàng.
-weight: 10
-url: /vi/net/basic-conversions/docx-to-txt/
+"description": "Chuyển đổi DOCX sang TXT bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Học cách chuyển đổi tài liệu hiệu quả và dễ dàng."
+"linktitle": "Chuyển đổi Docx sang Txt"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi Docx sang Txt"
+"url": "/vi/net/basic-conversions/docx-to-txt/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Docx sang Txt
@@ -21,9 +23,9 @@ Chuyển đổi tệp DOCX sang định dạng TXT có thể rất cần thiết
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Thư viện Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
-3. Kiến thức cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C# và .NET framework.
+3. Kiến thức cơ bản về C#: Có hiểu biết về ngôn ngữ lập trình C# và .NET framework.
 
 ## Nhập không gian tên
 
@@ -46,7 +48,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo dự án của bạn đ�
 
 Tiếp theo, bạn sẽ cần chỉ định đường dẫn đến thư mục tài liệu của mình. Đây là nơi lưu trữ các tệp DOCX và nơi lưu các tệp TXT đã chuyển đổi.
 
-1.  Xác định Đường dẫn Thư mục Dữ liệu: Trong mã của bạn, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
+1. Xác định Đường dẫn Thư mục Dữ liệu: Trong mã của bạn, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,11 +56,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 2. Đảm bảo đường dẫn chính xác: Kiểm tra lại xem đường dẫn thư mục có chính xác không để tránh lỗi không tìm thấy tệp.
 
-## Bước 3: Tải Tài liệu DOCX
+## Bước 3: Tải tài liệu DOCX
 
 Bây giờ, hãy tải tài liệu DOCX mà bạn muốn chuyển đổi.
 
-1.  Khởi tạo Tài liệu: Sử dụng`Document` lớp từ Aspose.Words để tải tệp DOCX.
+1. Khởi tạo Tài liệu: Sử dụng `Document` lớp từ Aspose.Words để tải tệp DOCX.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
@@ -70,7 +72,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Cuối cùng, lưu tài liệu DOCX đã tải ở định dạng TXT.
 
-1.  Lưu tài liệu: Sử dụng`Save` phương pháp chuyển đổi và lưu tài liệu dưới dạng tệp TXT.
+1. Lưu tài liệu: Sử dụng `Save` phương pháp chuyển đổi và lưu tài liệu dưới dạng tệp TXT.
 
 ```csharp
 doc.Save(dataDir + "BaseConversions.DocxToTxt.txt");
@@ -102,12 +104,17 @@ Có, Aspose.Words for .NET hỗ trợ chuyển đổi tệp DOCX sang nhiều đ
 
 ### Tôi có thể tìm thêm hướng dẫn và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
 
- Bạn có thể tìm thêm hướng dẫn trên[Tài liệu Aspose](https://reference.aspose.com/words/net/) và để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thêm hướng dẫn trên [Tài liệu Aspose](https://reference.aspose.com/words/net/)và để được hỗ trợ, hãy truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

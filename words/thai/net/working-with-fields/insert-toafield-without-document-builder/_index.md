@@ -1,14 +1,16 @@
 ---
-title: แทรกฟิลด์ TOA โดยไม่ต้องใช้ตัวสร้างเอกสาร
-linktitle: แทรกฟิลด์ TOA โดยไม่ต้องใช้ตัวสร้างเอกสาร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกฟิลด์ TOA โดยไม่ใช้ตัวสร้างเอกสารใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดการการอ้างอิงทางกฎหมายอย่างมีประสิทธิภาพ
-weight: 10
-url: /th/net/working-with-fields/insert-toafield-without-document-builder/
+"description": "เรียนรู้วิธีแทรกฟิลด์ TOA โดยไม่ใช้ตัวสร้างเอกสารใน Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อจัดการการอ้างอิงทางกฎหมายอย่างมีประสิทธิภาพ"
+"linktitle": "แทรกฟิลด์ TOA โดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกฟิลด์ TOA โดยไม่ต้องใช้ตัวสร้างเอกสาร"
+"url": "/th/net/working-with-fields/insert-toafield-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกฟิลด์ TOA โดยไม่ต้องใช้ตัวสร้างเอกสาร
@@ -21,7 +23,7 @@ url: /th/net/working-with-fields/insert-toafield-without-document-builder/
 
 ก่อนที่จะเริ่มบทช่วยสอน เรามาทำความเข้าใจสิ่งสำคัญที่คุณจำเป็นต้องมีกันก่อน:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: IDE ที่เข้ากันได้กับ .NET เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจโครงสร้างและแนวคิดพื้นฐานของ C# จะเป็นประโยชน์
 - ตัวอย่างเอกสาร Word: สร้างหรือเตรียมเอกสารตัวอย่างไว้ที่คุณต้องการแทรกฟิลด์ TOA
@@ -40,7 +42,7 @@ using Aspose.Words.Fields;
 
 ## ขั้นตอนที่ 1: เริ่มต้นเอกสาร
 
- ขั้นแรกคุณต้องสร้างอินสแตนซ์ของ`Document` คลาส วัตถุนี้แสดงถึงเอกสาร Word ที่คุณกำลังทำงานอยู่
+ขั้นแรกคุณต้องสร้างอินสแตนซ์ของ `Document` คลาส วัตถุนี้แสดงถึงเอกสาร Word ที่คุณกำลังทำงานอยู่
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -69,7 +71,7 @@ doc.FirstSection.Body.AppendChild(para);
 
 นี่คือรายละเอียด:
 - Paragraph para = new Paragraph(doc);: สร้างย่อหน้าใหม่ภายในเอกสาร
--  FieldTA fieldTA = (FieldTA) para.AppendField(FieldType.FieldTOAEntry, false);: เพิ่มฟิลด์ TA ให้กับย่อหน้า ที่`FieldType.FieldTOAEntry` ระบุว่านี่คือฟิลด์รายการ TOA
+- FieldTA fieldTA = (FieldTA) para.AppendField(FieldType.FieldTOAEntry, false);: เพิ่มฟิลด์ TA ให้กับย่อหน้า ที่ `FieldType.FieldTOAEntry` ระบุว่านี่คือฟิลด์รายการ TOA
 - fieldTA.EntryCategory = "1";: กำหนดหมวดหมู่ของรายการ ซึ่งมีประโยชน์ในการจัดหมวดหมู่รายการประเภทต่างๆ
 - fieldTA.LongCitation = "Value 0";: ระบุข้อความอ้างอิงแบบยาว นี่คือข้อความที่จะปรากฏใน TOA
 - doc.FirstSection.Body.AppendChild(para);: ผนวกย่อหน้าที่มีฟิลด์ TA ลงในเนื้อหาของเอกสาร
@@ -108,7 +110,7 @@ fieldToa.Update();
 doc.Save(dataDir + "WorkingWithFields.InsertTOAFieldWithoutDocumentBuilder.docx");
 ```
 
- บรรทัดโค้ดนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่ระบุ อย่าลืมแทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ของคุณ
+บรรทัดโค้ดนี้จะบันทึกเอกสารไปยังไดเร็กทอรีที่ระบุ อย่าลืมแทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ของคุณ
 
 ## บทสรุป
 
@@ -117,22 +119,27 @@ doc.Save(dataDir + "WorkingWithFields.InsertTOAFieldWithoutDocumentBuilder.docx"
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถเพิ่มฟิลด์ TA หลายฟิลด์ที่มีหมวดหมู่ที่แตกต่างกันได้หรือไม่
- ใช่ คุณสามารถเพิ่มฟิลด์ TA หลายฟิลด์ที่มีหมวดหมู่ที่แตกต่างกันได้โดยการตั้งค่า`EntryCategory`ทรัพย์สินตามนั้น
+ใช่ คุณสามารถเพิ่มฟิลด์ TA หลายฟิลด์ที่มีหมวดหมู่ที่แตกต่างกันได้โดยการตั้งค่า `EntryCategory` ทรัพย์สินตามนั้น
 
 ### ฉันจะปรับแต่งรูปลักษณ์ของ TOA ได้อย่างไร?
 คุณสามารถปรับแต่งลักษณะที่ปรากฏของ TOA ได้โดยการแก้ไขคุณสมบัติของฟิลด์ TOA เช่น การจัดรูปแบบรายการและป้ายหมวดหมู่
 
 ### สามารถอัพเดตฟิลด์ TOA โดยอัตโนมัติได้หรือไม่?
- ในขณะที่คุณสามารถอัปเดตฟิลด์ TOA ด้วยตนเองโดยใช้`Update` วิธีการ Aspose.Words ปัจจุบันไม่รองรับการอัปเดตอัตโนมัติในการเปลี่ยนแปลงเอกสาร
+ในขณะที่คุณสามารถอัปเดตฟิลด์ TOA ด้วยตนเองโดยใช้ `Update` วิธีการ Aspose.Words ปัจจุบันไม่รองรับการอัปเดตอัตโนมัติในการเปลี่ยนแปลงเอกสาร
 
 ### ฉันสามารถเพิ่มฟิลด์ TA โดยโปรแกรมในส่วนเฉพาะของเอกสารได้หรือไม่
 ใช่ คุณสามารถเพิ่มฟิลด์ TA ในตำแหน่งที่เจาะจงได้ โดยการแทรกเข้าไปในย่อหน้าหรือส่วนที่ต้องการ
 
 ### ฉันจะจัดการฟิลด์ TOA หลายฟิลด์ในเอกสารเดียวได้อย่างไร
- คุณสามารถจัดการฟิลด์ TOA หลายฟิลด์ได้โดยการกำหนดฟิลด์ที่แตกต่างกัน`EntryCategory` ค่าต่างๆ และทำให้แน่ใจว่าแต่ละฟิลด์ TOA กรองรายการตามหมวดหมู่ของมัน
+คุณสามารถจัดการฟิลด์ TOA หลายฟิลด์ได้โดยการกำหนดฟิลด์ที่แตกต่างกัน `EntryCategory` ค่าต่างๆ และทำให้แน่ใจว่าแต่ละฟิลด์ TOA กรองรายการตามหมวดหมู่ของมัน
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

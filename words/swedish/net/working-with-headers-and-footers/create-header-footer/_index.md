@@ -1,34 +1,36 @@
 ---
-title: Skapa sidhuvud
-linktitle: Skapa sidhuvud
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du lägger till och anpassar sidhuvuden och sidfötter i Word-dokument med Aspose.Words för .NET. Denna steg-för-steg-guide säkerställer professionell dokumentformatering.
-weight: 10
-url: /sv/net/working-with-headers-and-footers/create-header-footer/
+"description": "Lär dig hur du lägger till och anpassar sidhuvuden och sidfot i Word-dokument med Aspose.Words för .NET. Den här steg-för-steg-guiden säkerställer professionell dokumentformatering."
+"linktitle": "Skapa sidhuvud/sidfot"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Skapa sidhuvud/sidfot"
+"url": "/sv/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa sidhuvud
+# Skapa sidhuvud/sidfot
 
 ## Introduktion
 
-Att lägga till sidhuvuden och sidfötter till dina dokument kan förbättra deras professionalism och läsbarhet. Med Aspose.Words för .NET kan du enkelt skapa och anpassa sidhuvuden och sidfötter för dina Word-dokument. I den här handledningen går vi igenom processen steg för steg, och ser till att du kan implementera dessa funktioner sömlöst.
+Att lägga till sidhuvuden och sidfot i dina dokument kan förbättra deras professionalism och läsbarhet. Med Aspose.Words för .NET kan du enkelt skapa och anpassa sidhuvuden och sidfot för dina Word-dokument. I den här handledningen guidar vi dig genom processen steg för steg, så att du kan implementera dessa funktioner sömlöst.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 
--  Aspose.Words för .NET: Ladda ner och installera från[nedladdningslänk](https://releases.aspose.com/words/net/).
-- Utvecklingsmiljö: Som Visual Studio, för att skriva och köra din kod.
-- Grundläggande kunskaper i C#: Förståelse av C# och .NET framework.
-- Exempeldokument: Ett exempeldokument för att tillämpa sidhuvuden och sidfötter, eller skapa ett nytt som visas i handledningen.
+- Aspose.Words för .NET: Ladda ner och installera från [nedladdningslänk](https://releases.aspose.com/words/net/).
+- Utvecklingsmiljö: Till exempel Visual Studio, för att skriva och köra din kod.
+- Grundläggande kunskaper i C#: Förståelse för C# och .NET framework.
+- Exempeldokument: Ett exempeldokument för att tillämpa sidhuvuden och sidfoten, eller skapa ett nytt enligt handledningen.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först måste du importera de nödvändiga namnområdena för att komma åt Aspose.Words-klasserna och -metoderna.
+Först måste du importera de namnrymder som behövs för att komma åt Aspose.Words-klasserna och metoderna.
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ using System;
 
 ## Steg 1: Definiera dokumentkatalogen
 
-Definiera katalogen där ditt dokument ska sparas. Detta hjälper till att hantera vägen effektivt.
+Definiera katalogen där ditt dokument ska sparas. Detta hjälper till att hantera sökvägen effektivt.
 
 ```csharp
 // Sökvägen till dokumentkatalogen
@@ -47,7 +49,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## Steg 2: Skapa ett nytt dokument
 
- Skapa ett nytt dokument och en`DocumentBuilder`för att underlätta tillägg av innehåll.
+Skapa ett nytt dokument och en `DocumentBuilder` för att underlätta tillägg av innehåll.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Steg 3: Konfigurera sidinställningar
 
-Ställ in sidinställningarna, inklusive om den första sidan kommer att ha en annan sidhuvud/sidfot.
+Ställ in sidinställningarna, inklusive om den första sidan ska ha ett annat sidhuvud/sidfot.
 
 ```csharp
 Section currentSection = builder.CurrentSection;
@@ -66,9 +68,9 @@ pageSetup.DifferentFirstPageHeaderFooter = true;
 pageSetup.HeaderDistance = 20;
 ```
 
-## Steg 4: Lägg till en rubrik på den första sidan
+## Steg 4: Lägg till en rubrik på första sidan
 
-Flytta till rubriksektionen för första sidan och konfigurera rubriktexten.
+Gå till sidhuvudsavsnittet för första sidan och konfigurera sidhuvudtexten.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
@@ -83,12 +85,12 @@ builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 
 ## Steg 5: Lägg till en primär rubrik
 
-Flytta till den primära rubriken och infoga en bild och text.
+Gå till den primära rubriksektionen och infoga en bild och text.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Infoga en bild i rubriken
+// Infoga en bild i sidhuvudet
 builder.InsertImage(dataDir + "Graphics Interchange Format.gif", 
     RelativeHorizontalPosition.Page, 10, RelativeVerticalPosition.Page, 10, 50, 50, WrapType.Through);
 
@@ -98,7 +100,7 @@ builder.Write("Aspose.Words Header/Footer Creation Primer.");
 
 ## Steg 6: Lägg till en primär sidfot
 
-Flytta till den primära sidfotssektionen och skapa en tabell för att formatera sidfotens innehåll.
+Gå till den primära sidfotssektionen och skapa en tabell för att formatera sidfotsinnehållet.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
@@ -127,7 +129,7 @@ builder.EndTable();
 
 ## Steg 7: Lägg till innehåll och sidbrytningar
 
-Flytta till slutet av dokumentet, lägg till en sidbrytning och skapa ett nytt avsnitt med olika sidinställningar.
+Flytta till slutet av dokumentet, lägg till en sidbrytning och skapa ett nytt avsnitt med andra sidinställningar.
 
 ```csharp
 builder.MoveToDocumentEnd();
@@ -150,9 +152,9 @@ row.LastCell.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 * 2 / 3)
 doc.Save(dataDir + "WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 ```
 
-## Steg 8: Kopiera sidhuvuden och sidfötter från föregående avsnitt
+## Steg 8: Kopiera sidhuvuden och sidfot från föregående avsnitt
 
-Om du vill återanvända sidhuvuden och sidfötter från ett tidigare avsnitt kopierar du dem och gör nödvändiga ändringar.
+Om du vill återanvända sidhuvuden och sidfot från ett tidigare avsnitt, kopiera dem och gör nödvändiga ändringar.
 
 ```csharp
 private static void CopyHeadersFootersFromPreviousSection(Section section)
@@ -171,33 +173,38 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Slutsats
 
-Genom att följa dessa steg kan du effektivt lägga till och anpassa sidhuvuden och sidfötter i dina Word-dokument med Aspose.Words för .NET. Detta förbättrar ditt dokuments utseende och professionalism, vilket gör det mer läsbart och engagerande.
+Genom att följa dessa steg kan du effektivt lägga till och anpassa sidhuvuden och sidfot i dina Word-dokument med hjälp av Aspose.Words för .NET. Detta förbättrar ditt dokuments utseende och professionalism, vilket gör det mer läsbart och engagerande.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
 
-Aspose.Words för .NET är ett bibliotek som gör det möjligt för utvecklare att skapa, redigera och konvertera Word-dokument programmatiskt i .NET-applikationer.
+Aspose.Words för .NET är ett bibliotek som gör det möjligt för utvecklare att skapa, redigera och konvertera Word-dokument programmatiskt inom .NET-applikationer.
 
 ### Kan jag lägga till bilder i sidhuvudet eller sidfoten?
 
- Ja, du kan enkelt lägga till bilder i sidhuvudet eller sidfoten med hjälp av`DocumentBuilder.InsertImage` metod.
+Ja, du kan enkelt lägga till bilder i sidhuvudet eller sidfoten med hjälp av `DocumentBuilder.InsertImage` metod.
 
-### Hur ställer jag in olika sidhuvuden och sidfötter för första sidan?
+### Hur ställer jag in olika sidhuvuden och sidfot för första sidan?
 
- Du kan ställa in olika sidhuvuden och sidfötter för den första sidan genom att använda`DifferentFirstPageHeaderFooter` egendom av`PageSetup` klass.
+Du kan ange olika sidhuvuden och sidfot för första sidan genom att använda `DifferentFirstPageHeaderFooter` egendomen tillhörande `PageSetup` klass.
 
 ### Var kan jag hitta mer dokumentation om Aspose.Words?
 
- Du kan hitta omfattande dokumentation på[Dokumentationssida för Aspose.Words API](https://reference.aspose.com/words/net/).
+Du kan hitta omfattande dokumentation om [Aspose.Words API-dokumentationssida](https://reference.aspose.com/words/net/).
 
-### Finns det stöd tillgängligt för Aspose.Words?
+### Finns det stöd för Aspose.Words?
 
- Ja, Aspose erbjuder support genom deras[supportforum](https://forum.aspose.com/c/words/8).
+Ja, Aspose erbjuder support genom sina [supportforum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

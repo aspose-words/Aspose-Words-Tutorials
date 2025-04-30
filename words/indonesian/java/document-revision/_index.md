@@ -1,14 +1,16 @@
 ---
-title: Revisi Dokumen
-linktitle: Revisi Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Sederhanakan revisi dokumen dengan Aspose.Words untuk Java! Lacak perubahan, kelola kontrol versi, dan otomatisasi tugas revisi dengan mudah.
-weight: 19
-url: /id/java/document-revision/
+"description": "Sederhanakan revisi dokumen dengan Aspose.Words untuk Java! Lacak perubahan, kelola kontrol versi, dan otomatisasi tugas revisi dengan mudah."
+"linktitle": "Revisi Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Revisi Dokumen"
+"url": "/id/java/document-revision/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Revisi Dokumen
@@ -43,9 +45,13 @@ Pelajari cara mengelola perubahan dokumen dengan mudah menggunakan Aspose.Words 
 Pelajari cara mengontrol versi dokumen secara efisien menggunakan Aspose.Words untuk Java. Kelola perubahan, berkolaborasi dengan lancar, dan lacak revisi dengan mudah.
 ### [Kolaborasi dan Tinjauan Dokumen](./document-collaboration-review/)
 Buka Kolaborasi dan Tinjauan Dokumen yang Efisien dengan Aspose.Words untuk Java. Pelajari Cara Melacak Perubahan, Membagikan Dokumen, dan Menyederhanakan Alur Kerja.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

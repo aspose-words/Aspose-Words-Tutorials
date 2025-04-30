@@ -1,14 +1,16 @@
 ---
-title: Pemisahan dan Pemformatan Dokumen
-linktitle: Pemisahan dan Pemformatan Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Jelajahi tutorial Aspose.Words tentang pemisahan dan pemformatan dokumen dalam Python dan .NET. Pelajari cara membagi dan memformat dokumen secara efisien, yang akan meningkatkan tugas pemrosesan dokumen Anda.
-weight: 13
-url: /id/python-net/document-splitting-and-formatting/
+"description": "Jelajahi tutorial Aspose.Words tentang pemisahan dan pemformatan dokumen dalam Python dan .NET. Pelajari cara membagi dan memformat dokumen secara efisien, yang akan meningkatkan tugas pemrosesan dokumen Anda."
+"linktitle": "Pemisahan dan Pemformatan Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Pemisahan dan Pemformatan Dokumen"
+"url": "/id/python-net/document-splitting-and-formatting/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemisahan dan Pemformatan Dokumen
@@ -48,9 +50,13 @@ Pelajari cara menggabungkan dan mengkloning dokumen secara efisien menggunakan A
 Pelajari cara membandingkan versi dokumen secara efektif menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk kontrol revisi. Tingkatkan kolaborasi dan cegah kesalahan.
 ### [Menguasai Teknik Pemformatan Dokumen untuk Dampak Visual](./document-formatting-techniques/)
 Pelajari cara menguasai pemformatan dokumen menggunakan Aspose.Words untuk Python. Buat dokumen yang menarik secara visual dengan gaya font, tabel, gambar, dan banyak lagi. Panduan langkah demi langkah dengan contoh kode.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

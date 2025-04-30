@@ -1,29 +1,31 @@
 ---
-title: Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata
-linktitle: Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come creare una tabella con una sezione ripetuta mappata a una CustomXmlPart in un documento Word utilizzando Aspose.Words per .NET.
-weight: 10
-url: /it/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Scopri come creare una tabella con una sezione ripetuta mappata a una CustomXmlPart in un documento Word utilizzando Aspose.Words per .NET."
+"linktitle": "Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata"
+"url": "/it/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata
 
 ## Introduzione
 
-In questo tutorial, illustreremo il processo di creazione di una tabella con una sezione ripetuta che è mappata a una parte XML personalizzata usando Aspose.Words per .NET. Ciò è particolarmente utile per generare dinamicamente documenti basati su dati strutturati.
+In questo tutorial, illustreremo il processo di creazione di una tabella con una sezione ripetuta mappata a una parte XML personalizzata utilizzando Aspose.Words per .NET. Questo è particolarmente utile per generare dinamicamente documenti basati su dati strutturati.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
-1.  Aspose.Words per la libreria .NET installata. Puoi scaricarla da[Sito web di Aspose](https://releases.aspose.com/words/net/).
-2. Conoscenza di base di C# e XML.
+1. Libreria Aspose.Words per .NET installata. Puoi scaricarla da [Sito web di Aspose](https://releases.aspose.com/words/net/).
+2. Una conoscenza di base di C# e XML.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
 Assicurati di includere gli spazi dei nomi necessari nel tuo progetto:
 
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## Passaggio 1: inizializzare Document e DocumentBuilder
 
- Per prima cosa, crea un nuovo documento e inizializza un`DocumentBuilder`:
+Per prima cosa, crea un nuovo documento e inizializzalo `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Passaggio 3: creare la struttura della tabella
 
- Quindi, utilizzare il`DocumentBuilder` per creare l'intestazione della tabella:
+Quindi, usa il `DocumentBuilder` per creare l'intestazione della tabella:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## Passaggio 4: creare una sezione ripetuta
 
- Crea un`StructuredDocumentTag` (SDT) per la sezione ripetuta e mapparla nei dati XML:
+Crea un `StructuredDocumentTag` (SDT) per la sezione ripetuta e mapparla ai dati XML:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -92,7 +94,7 @@ repeatingSectionItemSdt.AppendChild(row);
 
 ## Passaggio 6: mappare i dati XML alle celle della tabella
 
-Crea SDT per il titolo e l'autore, associali ai dati XML e aggiungili alla riga:
+Crea SDT per il titolo e l'autore, mappali ai dati XML e aggiungili alla riga:
 
 ```csharp
 StructuredDocumentTag titleSdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
@@ -104,7 +106,7 @@ authorSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/author[1]", "");
 row.AppendChild(authorSdt);
 ```
 
-## Passaggio 7: Salvare il documento
+## Passaggio 7: salvare il documento
 
 Infine, salva il documento nella directory specificata:
 
@@ -114,21 +116,26 @@ doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXm
 
 ## Conclusione
 
-Seguendo questi passaggi, hai creato con successo una tabella con una sezione ripetuta mappata a una parte XML personalizzata utilizzando Aspose.Words per .NET. Ciò consente la generazione di contenuti dinamici basati su dati strutturati, rendendo la creazione di documenti più flessibile e potente.
+Seguendo questi passaggi, hai creato con successo una tabella con una sezione ripetuta mappata a una parte XML personalizzata utilizzando Aspose.Words per .NET. Questo consente la generazione di contenuti dinamici basati su dati strutturati, rendendo la creazione di documenti più flessibile e potente.
 
 ## Domande frequenti
 
-### Che cos'è uno StructuredDocumentTag (SDT)?
+### Che cosa è uno StructuredDocumentTag (SDT)?
 Un SDT, noto anche come controllo del contenuto, è un'area delimitata in un documento utilizzata per contenere dati strutturati.
 
 ### Posso utilizzare altri tipi di dati nella parte XML personalizzata?
 Sì, puoi strutturare la tua parte XML personalizzata con qualsiasi tipo di dati e mapparli di conseguenza.
 
-### Come posso aggiungere più righe alla sezione ripetuta?
+### Come posso aggiungere altre righe alla sezione ripetuta?
 La sezione ripetuta replica automaticamente la struttura delle righe per ciascun elemento nel percorso XML mappato.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

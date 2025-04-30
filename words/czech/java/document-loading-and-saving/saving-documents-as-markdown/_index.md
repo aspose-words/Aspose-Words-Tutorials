@@ -1,39 +1,41 @@
 ---
-title: Ukládání dokumentů jako Markdown v Aspose.Words pro Java
-linktitle: Ukládání dokumentů jako Markdown
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se převádět dokumenty aplikace Word do formátu Markdown pomocí Aspose.Words for Java. Tento podrobný průvodce popisuje zarovnání stolu, manipulaci s obrázky a další.
-weight: 18
-url: /cs/java/document-loading-and-saving/saving-documents-as-markdown/
+"description": "Naučte se, jak převést dokumenty Wordu do formátu Markdown pomocí Aspose.Words pro Javu. Tato podrobná příručka zahrnuje zarovnání tabulek, práci s obrázky a další."
+"linktitle": "Ukládání dokumentů ve formátu Markdown"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Ukládání dokumentů jako Markdown v Aspose.Words pro Javu"
+"url": "/cs/java/document-loading-and-saving/saving-documents-as-markdown/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ukládání dokumentů jako Markdown v Aspose.Words pro Java
+# Ukládání dokumentů jako Markdown v Aspose.Words pro Javu
 
 
-## Úvod do ukládání dokumentů jako Markdown v Aspose.Words for Java
+## Úvod do ukládání dokumentů ve formátu Markdown v Aspose.Words pro Javu
 
-V tomto podrobném průvodci si ukážeme, jak ukládat dokumenty jako Markdown pomocí Aspose.Words for Java. Markdown je lehký značkovací jazyk, který se běžně používá pro formátování textových dokumentů. S Aspose.Words for Java můžete snadno převést své dokumenty Word do formátu Markdown. Probereme různé aspekty ukládání souborů Markdown, včetně zarovnání obsahu tabulky a manipulace s obrázky.
+tomto podrobném návodu si ukážeme, jak ukládat dokumenty ve formátu Markdown pomocí Aspose.Words pro Javu. Markdown je odlehčený značkovací jazyk, který se běžně používá pro formátování textových dokumentů. S Aspose.Words pro Javu můžete snadno převést dokumenty Wordu do formátu Markdown. Probereme různé aspekty ukládání souborů Markdown, včetně zarovnání obsahu tabulek a práce s obrázky.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující předpoklady:
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Aspose.Words pro knihovnu Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/java/).
+- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
+- Knihovna Aspose.Words pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/java/).
 
-## Krok 1: Vytvoření dokumentu aplikace Word
+## Krok 1: Vytvoření dokumentu Word
 
-Začněme vytvořením dokumentu Word, který později převedeme do formátu Markdown. Tento dokument si můžete upravit podle svých požadavků.
+Začněme vytvořením dokumentu Word, který později převedeme do formátu Markdown. Tento dokument si můžete přizpůsobit podle svých požadavků.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložte tabulku se dvěma buňkami
+// Vložení tabulky se dvěma buňkami
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -42,47 +44,47 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// Uložte dokument jako Markdown
+// Uložit dokument jako Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
- V tomto příkladu vytvoříme jednoduchou tabulku se dvěma buňkami a nastavíme zarovnání odstavců uvnitř těchto buněk. Poté dokument uložíme jako Markdown pomocí`MarkdownSaveOptions`.
+tomto příkladu vytvoříme jednoduchou tabulku se dvěma buňkami a nastavíme zarovnání odstavců v rámci těchto buněk. Poté dokument uložíme jako Markdown pomocí příkazu `MarkdownSaveOptions`.
 
-## Krok 2: Přizpůsobte zarovnání obsahu tabulky
+## Krok 2: Úprava zarovnání obsahu tabulky
 
-Aspose.Words for Java umožňuje přizpůsobit zarovnání obsahu tabulky při ukládání jako Markdown. Obsah tabulky můžete zarovnat doleva, doprava, na střed nebo jej nechat být určen automaticky na základě prvního odstavce v každém sloupci tabulky.
+Aspose.Words pro Javu umožňuje přizpůsobit zarovnání obsahu tabulky při ukládání ve formátu Markdown. Obsah tabulky můžete zarovnat vlevo, vpravo, na střed nebo jej nechat určit automaticky na základě prvního odstavce v každém sloupci tabulky.
 
 Zde je návod, jak přizpůsobit zarovnání obsahu tabulky:
 
 ```java
-// Nastavte zarovnání obsahu tabulky doleva
+// Nastavit zarovnání obsahu tabulky doleva
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// Nastavte zarovnání obsahu tabulky doprava
+// Nastavit zarovnání obsahu tabulky doprava
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// Nastavte zarovnání obsahu tabulky na střed
+// Nastavení zarovnání obsahu tabulky na střed
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-//Nastavit zarovnání obsahu tabulky na automatické (určeno podle prvního odstavce)
+// Nastavte zarovnání obsahu tabulky na automatické (určené prvním odstavcem)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
- Změnou`TableContentAlignment` můžete ovládat, jak je obsah uvnitř tabulek zarovnán při převodu na Markdown.
+Změnou `TableContentAlignment` vlastnost , můžete ovládat, jak se obsah uvnitř tabulek zarovná při převodu do Markdownu.
 
-## Krok 3: Manipulace s obrázky
+## Krok 3: Zpracování obrázků
 
- Chcete-li do dokumentu Markdown zahrnout obrázky, musíte určit složku, kde jsou obrázky umístěny. Aspose.Words for Java umožňuje nastavit složku obrázků v`MarkdownSaveOptions`.
+Chcete-li do dokumentu Markdownu zahrnout obrázky, musíte zadat složku, ve které se obrázky nacházejí. Aspose.Words pro Javu umožňuje nastavit složku s obrázky v `MarkdownSaveOptions`.
 
-Zde je návod, jak nastavit složku obrázků a uložit dokument s obrázky:
+Zde je návod, jak nastavit složku s obrázky a uložit dokument s obrázky:
 
 ```java
-// Vložte dokument obsahující obrázky
+// Načíst dokument obsahující obrázky
 Document doc = new Document("document_with_images.docx");
 
 // Nastavte cestu ke složce obrázků
@@ -93,9 +95,9 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
- Nezapomeňte vyměnit`"document_with_images.docx"` s cestou k vašemu dokumentu Word obsahujícímu obrázky a`"images_folder/"` se skutečnou cestou ke složce, kde jsou uloženy vaše obrázky.
+Nezapomeňte vyměnit `"document_with_images.docx"` s cestou k dokumentu Wordu obsahujícímu obrázky a `"images_folder/"` se skutečnou cestou ke složce, kde jsou uloženy vaše obrázky.
 
-## Kompletní zdrojový kód pro ukládání dokumentů jako Markdown v Aspose.Words pro Java
+## Kompletní zdrojový kód pro ukládání dokumentů jako Markdown v Aspose.Words pro Javu
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -108,7 +110,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// Umožňuje zarovnat všechny odstavce uvnitř tabulky.
+	// Zarovná všechny odstavce uvnitř tabulky.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -136,32 +138,37 @@ public void setImagesFolder() throws Exception
 
 ## Závěr
 
-této příručce jsme prozkoumali, jak ukládat dokumenty jako Markdown pomocí Aspose.Words for Java. Zabývali jsme se vytvořením dokumentu aplikace Word, přizpůsobením zarovnání obsahu tabulky a manipulací s obrázky v souborech Markdown. Nyní můžete efektivně převádět své dokumenty Word do formátu Markdown, takže jsou vhodné pro různé platformy pro publikování a potřeby dokumentace.
+této příručce jsme prozkoumali, jak ukládat dokumenty ve formátu Markdown pomocí Aspose.Words pro Javu. Probrali jsme vytvoření dokumentu Word, úpravu zarovnání obsahu tabulek a práci s obrázky v souborech Markdown. Nyní můžete efektivně převádět dokumenty Word do formátu Markdown, což je činí vhodnými pro různé publikační platformy a potřeby dokumentace.
 
-## FAQ
+## Často kladené otázky
 
-### Jak nainstaluji Aspose.Words for Java?
+### Jak nainstaluji Aspose.Words pro Javu?
 
- Aspose.Words for Java lze nainstalovat zahrnutím knihovny do vašeho projektu Java. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/words/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
+Aspose.Words pro Javu lze nainstalovat zahrnutím knihovny do vašeho projektu Java. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/words/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
-### Mohu převést složité dokumenty Wordu s tabulkami a obrázky do Markdown?
+### Mohu převést složité dokumenty Wordu s tabulkami a obrázky do formátu Markdown?
 
-Ano, Aspose.Words for Java podporuje převod složitých dokumentů Wordu s tabulkami, obrázky a různými prvky formátování do Markdown. Výstup Markdown můžete přizpůsobit podle složitosti dokumentu.
+Ano, Aspose.Words pro Javu podporuje převod složitých dokumentů Word s tabulkami, obrázky a různými formátovacími prvky do formátu Markdown. Výstup v Markdownu si můžete přizpůsobit složitosti vašeho dokumentu.
 
-### Jak mohu zacházet s obrázky v souborech Markdown?
+### Jak mohu pracovat s obrázky v souborech Markdown?
 
- Chcete-li zahrnout obrázky do souborů Markdown, nastavte cestu ke složce obrázků pomocí`setImagesFolder`metoda v`MarkdownSaveOptions`. Ujistěte se, že soubory obrázků jsou uloženy v určené složce, a Aspose.Words for Java podle toho zpracuje odkazy na obrázky.
+Chcete-li do souborů Markdown zahrnout obrázky, nastavte cestu ke složce obrázků pomocí `setImagesFolder` metoda v `MarkdownSaveOptions`Ujistěte se, že obrazové soubory jsou uloženy v zadané složce a Aspose.Words pro Javu bude s odkazy na obrázky nakládat odpovídajícím způsobem.
 
-### Je k dispozici zkušební verze Aspose.Words for Java?
+### Je k dispozici zkušební verze Aspose.Words pro Javu?
 
-Ano, zkušební verzi Aspose.Words for Java můžete získat z webu Aspose. Zkušební verze umožňuje vyhodnotit možnosti knihovny před zakoupením licence.
+Ano, zkušební verzi Aspose.Words pro Javu si můžete stáhnout z webových stránek Aspose. Zkušební verze vám umožňuje otestovat možnosti knihovny před zakoupením licence.
 
 ### Kde najdu další příklady a dokumentaci?
 
- Další příklady, dokumentaci a podrobné informace o Aspose.Words for Java naleznete na[dokumentace](https://reference.aspose.com/words/java/).
+Další příklady, dokumentaci a podrobné informace o Aspose.Words pro Javu naleznete na [dokumentace](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

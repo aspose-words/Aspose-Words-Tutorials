@@ -1,31 +1,33 @@
 ---
-title: 嵌套表
-linktitle: 嵌套表
-second_title: Aspose.Words 文档处理 API
-description: 通过我们的指南学习如何使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表格。非常适合以编程方式生成复杂的文档布局。
-weight: 10
-url: /zh/net/programming-with-tables/nested-table/
+"description": "学习如何使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表格。非常适合以编程方式生成复杂的文档布局。"
+"linktitle": "嵌套表"
+"second_title": "Aspose.Words文档处理API"
+"title": "嵌套表"
+"url": "/zh/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 嵌套表
 
 ## 介绍
 
-您是否曾经需要以编程方式在 Word 文档中创建嵌套表？无论您是生成报告、发票还是任何需要详细表格结构的文档，Aspose.Words for .NET 都可以成为您的最佳助手。在本教程中，我们将深入研究使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表的过程。我们将介绍从先决条件到最终代码实现的所有内容。那么，让我们开始吧！
+您是否曾经需要以编程方式在 Word 文档中创建嵌套表格？无论您是生成报告、发票还是任何需要详细表格结构的文档，Aspose.Words for .NET 都能成为您的得力助手。在本教程中，我们将深入探讨如何使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表格的过程。我们将涵盖从先决条件到最终代码实现的所有内容。那么，让我们开始吧！
 
 ## 先决条件
 
-在我们进入代码之前，您需要准备一些东西：
+在我们进入代码之前，您需要做几件事：
 
--  Aspose.Words for .NET：你可以从以下网址下载[这里](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET：您可以从 [这里](https://releases。aspose.com/words/net/).
 - 开发环境：Visual Studio 或任何其他 C# IDE。
 - C# 基础知识：了解 C# 语法和概念。
 
-在继续操作之前请确保已完成这些设置。
+在继续操作之前请确保您已完成这些设置。
 
 ## 导入命名空间
 
@@ -38,10 +40,10 @@ using Aspose.Words.Tables;
 
 ## 步骤 1：初始化 Document 和 DocumentBuilder
 
-首先，我们将创建一个新的 Word 文档并初始化`DocumentBuilder`对象，它将帮助我们构建表格。
+首先，我们将创建一个新的 Word 文档并初始化 `DocumentBuilder` 对象，它将帮助我们构建表格。
 
 ```csharp
-//文档目录的路径
+// 文档目录的路径
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -52,14 +54,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 现在，让我们创建外部表格。我们将首先插入第一个单元格并向其中添加一些内容。
 
-### 步骤 2.1：插入外部表格的第一个单元格
+### 步骤 2.1：插入外部表的第一个单元格
 
 ```csharp
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 ```
 
-### 步骤 2.2：插入外部表格的第二个单元格
+### 步骤 2.2：插入外部表的第二个单元格
 
 接下来，我们将插入第二个单元格并添加一些内容。
 
@@ -78,9 +80,9 @@ builder.EndTable();
 
 ## 步骤 3：创建内部表
 
-要创建嵌套表格，我们需要将光标移动到外部表格的第一个单元格，然后开始构建内部表格。
+要创建嵌套表，我们需要将光标移动到外部表的第一个单元格，然后开始构建内部表。
 
-### 步骤 3.1：移至外表的第一个单元格
+### 步骤 3.1：移动到外表的第一个单元格
 
 ```csharp
 builder.MoveTo(cell.FirstParagraph);
@@ -104,17 +106,17 @@ builder.InsertCell();
 builder.Writeln("Inner Table Cell 2");
 ```
 
-### 步骤 3.4：结束内表
+### 步骤 3.4：结束内部表
 
-我们最后结束内表。
+我们以结束内表作为结束。
 
 ```csharp
 builder.EndTable();
 ```
 
-## 步骤 4：保存文档
+## 步骤4：保存文档
 
-最后一步是将文档保存到您指定的目录。
+最后一步是将文档保存到指定的目录。
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.NestedTable.docx");
@@ -122,7 +124,7 @@ doc.Save(dataDir + "WorkingWithTables.NestedTable.docx");
 
 ## 结论
 
-就这样！您已成功使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表格。这个功能强大的库使以编程方式操作 Word 文档变得异常简单。无论您是生成复杂的报告还是简单的表格，Aspose.Words for .NET 都能满足您的需求。
+就这样！您已成功使用 Aspose.Words for .NET 在 Word 文档中创建嵌套表格。这个强大的库让您能够轻松地以编程方式操作 Word 文档。无论您是生成复杂的报表还是简单的表格，Aspose.Words for .NET 都能满足您的需求。
 
 ## 常见问题解答
 
@@ -144,10 +146,15 @@ Aspose.Words for .NET 与多种 Word 文档格式兼容，包括 DOC、DOCX、RT
 
 ### 如何获得 Aspose.Words for .NET 的支持？
 
-您可以从[Aspose.Words 支持论坛](https://forum.aspose.com/c/words/8).
+您可以从 [Aspose.Words 支持论坛](https://forum。aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

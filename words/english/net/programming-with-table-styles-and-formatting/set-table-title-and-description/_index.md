@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/set-table-title-and-description/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Table Title And Description
@@ -101,9 +104,13 @@ Absolutely! You can customize almost every aspect of your tables and documents.
 ### What if I want to save the document in a different format?
 Aspose.Words supports saving in various formats like PDF, HTML, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-loadoptions/load-chm/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Chm Files In Word Document
@@ -130,9 +133,13 @@ Yes, you can create a script or a function to automate the loading and saving pr
 You can visit the [documentation](https://reference.aspose.com/words/net/) for more detailed information and examples.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

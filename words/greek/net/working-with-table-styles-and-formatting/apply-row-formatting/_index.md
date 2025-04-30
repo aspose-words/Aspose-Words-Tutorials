@@ -1,56 +1,64 @@
 ---
-title: Εφαρμόστε τη μορφοποίηση γραμμών στα έγγραφα Word με Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να εφαρμόζετε τη μορφοποίηση γραμμών σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. Σχεδιασμός βήματος με παράδειγμα κώδικα και λεπτομερείς οδηγίες.
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /el/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Μάθετε πώς να εφαρμόζετε μορφοποίηση γραμμών σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με παράδειγμα κώδικα και λεπτομερείς οδηγίες."
+"title": "Εφαρμογή μορφοποίησης γραμμών σε έγγραφα του Word με το Aspose.Words για .NET"
+"url": "/el/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εφαρμόστε τη μορφοποίηση γραμμών στα έγγραφα Word με το Aspose.Words
+# Εφαρμογή μορφοποίησης γραμμών σε έγγραφα του Word με το Aspose.Words
 
-Το Aspose.Words για το .NET προσφέρει ισχυρά εργαλεία για τη δημιουργία και την τροποποίηση των εγγράφων Word προγραμματικά. Σε αυτό το παράδειγμα, δείχνουμε πώς να εφαρμόζουμε τη μορφοποίηση γραμμών σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words. Θα μάθετε να ρυθμίσετε τα ύψη γραμμών, να ρυθμίσετε τα συμπλέγματα και να εφαρμόσετε ακριβή μορφοποίηση για να δημιουργήσετε καλά δομημένα πίνακα. Αυτό το βήμα-με-βήμα οδηγός περιλαμβάνει αποσπάσματα κώδικα και οδηγίες για να σας βοηθήσουν να εφαρμόσετε γρήγορα αυτές τις δυνατότητες στις εφαρμογές .NET σας.
+Το Aspose.Words για .NET προσφέρει ισχυρά εργαλεία για τη δημιουργία και τροποποίηση εγγράφων Word μέσω προγραμματισμού. Σε αυτό το παράδειγμα, παρουσιάζουμε πώς να εφαρμόσετε μορφοποίηση γραμμών σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words. Θα μάθετε να ορίζετε ύψη γραμμών, να ρυθμίζετε την αναπλήρωση και να εφαρμόζετε ακριβή μορφοποίηση για να δημιουργήσετε καλά δομημένους πίνακες. Αυτός ο οδηγός βήμα προς βήμα περιλαμβάνει αποσπάσματα κώδικα και οδηγίες που θα σας βοηθήσουν να εφαρμόσετε γρήγορα αυτές τις λειτουργίες στις εφαρμογές .NET σας.
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
-Για να χρησιμοποιήσετε το Aspose.Words για το .NET στο έργο σας, ακολουθήστε τα παρακάτω βήματα:  
 
-1. Κατεβάστε Aspose.Words για .NET  
-   * Επισκεφτείτε το ["Αποθέστε.Πράξεις" για τη σελίδα λήψης .NET](https://releases.aspose.com/words/net/)Και να κατεβάσετε την τελευταία έκδοση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Οδηγίες εγκατάστασης  
+Για να χρησιμοποιήσετε το Aspose.Words για .NET στο έργο σας, ακολουθήστε τα εξής βήματα:  
+
+1. Λήψη Aspose.Words για .NET  
+   - Επισκεφθείτε το [Σελίδα λήψης Aspose.Words για .NET](https://releases.aspose.com/words/net/) και κατεβάστε την τελευταία έκδοση.
 
 2. Εγκατάσταση μέσω NuGet  
-   * Ανοίξτε το έργο σας στο Visual Studio.  
-   * Πηγαίνετε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξε για`"Αποκοινώνεστε.`και κάντε κλικ στην εγκατάσταση.
+   - Ανοίξτε το έργο σας στο Visual Studio.  
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζήτηση για `Aspose.Words` και κάντε κλικ στην επιλογή Εγκατάσταση.
 
-3. Συμπεριλάβετε το χώρο ονομάτων  
-   * Προσθέστε την ακόλουθη γραμμή στο κώδικα σας:  
+3. Συμπερίληψη του χώρου ονομάτων  
+   - Προσθέστε την ακόλουθη γραμμή στον κώδικά σας:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. Ενεργοποίηση της άδειας (Επιαιρετική)  
-   * Για να αποφευχθούν περιορισμοί στην αξιολόγηση, υποβάλλετε αίτηση για [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)ή αγοράζοντας ένα [πλήρης άδεια](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
-   * Γράψε την άδεια στο κωδικό σου:  
+4. Ενεργοποίηση της Άδειας Χρήσης (Προαιρετικό)  
+   - Για να αποφύγετε τους περιορισμούς στην αξιολόγηση, υποβάλετε αίτηση [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) ή αγοράστε ένα [πλήρης άδεια](https://purchase.aspose.com/buy).  
+   - Φορτώστε την άδεια χρήσης στον κώδικά σας:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

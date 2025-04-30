@@ -1,17 +1,19 @@
 ---
-title: Улучшить размещение текста в PDF с помощью дополнительного позиционирования текста
-linktitle: Улучшить размещение текста в PDF с помощью дополнительного позиционирования текста
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как улучшить позиционирование текста PDF с помощью Aspose.Words для .NET за несколько простых шагов. Улучшите внешний вид вашего документа.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "Узнайте, как улучшить позиционирование текста PDF с помощью Aspose.Words для .NET за несколько простых шагов. Улучшите внешний вид вашего документа."
+"linktitle": "Улучшение размещения текста в PDF с помощью дополнительного позиционирования текста"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Улучшение размещения текста в PDF с помощью дополнительного позиционирования текста"
+"url": "/ru/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Улучшить размещение текста в PDF с помощью дополнительного позиционирования текста
+# Улучшение размещения текста в PDF с помощью дополнительного позиционирования текста
 
 ## Введение
 
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-pdfsaveoptions/additional-text-positioning/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимые инструменты и ресурсы:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее с[Сайт Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее с [Сайт Aspose](https://releases.aspose.com/words/net/).
 - Среда разработки: интегрированная среда разработки (IDE), такая как Visual Studio.
 - .NET Framework: Убедитесь, что у вас установлен .NET Framework 4.0 или выше.
 - Базовые знания C#: знакомство с языком программирования C# будет преимуществом.
@@ -40,7 +42,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Настройка вашего проекта
 
-Для начала вам необходимо настроить проект в выбранной вами среде разработки.
+Для начала вам необходимо настроить свой проект в выбранной вами среде разработки.
 
 1. Создайте новый проект: откройте Visual Studio и создайте новый проект C#.
 2. Установите Aspose.Words для .NET: вы можете установить его через диспетчер пакетов NuGet, выполнив поиск по запросу «Aspose.Words» и добавив его в свой проект.
@@ -53,25 +55,25 @@ using Aspose.Words.Saving;
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  Загрузите документ: используйте`Document` класс для загрузки вашего документа Word.
+2. Загрузите документ: используйте `Document` класс для загрузки вашего документа Word.
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## Шаг 3: Настройте параметры сохранения PDF-файла
 
- Здесь происходит волшебство! Мы настроим`PdfSaveOptions` для включения дополнительного позиционирования текста.
+Здесь происходит волшебство! Мы настроим `PdfSaveOptions` для включения дополнительного позиционирования текста.
 
-1.  Создайте объект PdfSaveOptions: создайте экземпляр`PdfSaveOptions` сорт.
+1. Создайте объект PdfSaveOptions: создайте экземпляр `PdfSaveOptions` сорт.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  Включить дополнительное позиционирование текста: установите`AdditionalTextPositioning`собственность`true`.
+2. Включить дополнительное позиционирование текста: установите `AdditionalTextPositioning` собственность `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
 
-## Шаг 4: Сохраните документ как PDF.
+## Шаг 4: Сохраните документ как PDF
 
 Теперь пришло время сохранить ваш документ Word в формате PDF с настроенными параметрами.
 
@@ -92,17 +94,22 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 Нет, функция дополнительного позиционирования текста предназначена только для конвертации PDF-файлов.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) или приобрести полную лицензию[здесь](https://purchase.aspose.com/buy).
+Да, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) или приобрести полную лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Есть ли бесплатная пробная версия?
- Да, вы можете скачать[бесплатная пробная версия](https://releases.aspose.com/) Aspose.Words для .NET.
+Да, вы можете скачать [бесплатная пробная версия](https://releases.aspose.com/) Aspose.Words для .NET.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробная документация доступна на[Сайт Aspose](https://reference.aspose.com/words/net/).
+Подробная документация доступна на [Сайт Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

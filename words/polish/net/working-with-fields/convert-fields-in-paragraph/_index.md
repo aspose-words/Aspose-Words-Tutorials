@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pola w akapicie
-linktitle: Konwertuj pola w akapicie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować pola IF na zwykły tekst w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-fields/convert-fields-in-paragraph/
+"description": "Dowiedz się, jak konwertować pola IF na zwykły tekst w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Konwertuj pola w akapicie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj pola w akapicie"
+"url": "/pl/net/working-with-fields/convert-fields-in-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pola w akapicie
@@ -21,7 +23,7 @@ Czy kiedykolwiek znalazłeś się w sieci pól w dokumentach Worda, zwłaszcza g
 
 Zanim przejdziemy do rzucania czarów, eee, kodowania, jest kilka rzeczy, które musisz mieć na miejscu. Pomyśl o nich jak o zestawie narzędzi twojego czarodzieja:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne .NET: Przygotuj odpowiednie środowisko, niezależnie od tego, czy jest to Visual Studio czy inne środowisko IDE.
 - Podstawowa znajomość języka C#: Niewielka znajomość języka C# okaże się bardzo pomocna.
 
@@ -70,7 +72,7 @@ doc.FirstSection.Body.LastParagraph.Range.Fields
 
 ## Krok 4: Zapisz zmodyfikowany dokument
 
-Na koniec zapisz swój nowo zmodyfikowany dokument. To tutaj podziwiasz swoje dzieło i widzisz rezultaty swojej magii.
+Na koniec zapisz nowo zmodyfikowany dokument. To tutaj podziwiasz swoje dzieło i widzisz rezultaty swojej magii.
 
 ```csharp
 // Zapisz zmodyfikowany dokument.
@@ -79,7 +81,7 @@ doc.Save(dataDir + "WorkingWithFields.TestFile.docx");
 
 ## Wniosek
 
-masz to! Udało Ci się przekształcić pola IF w zwykły tekst za pomocą Aspose.Words dla .NET. To jak przekształcanie skomplikowanych zaklęć w proste, co znacznie ułatwia zarządzanie dokumentami. Więc następnym razem, gdy natkniesz się na splątany bałagan pól, będziesz dokładnie wiedział, co robić. Miłego kodowania!
+I masz to! Udało Ci się przekształcić pola IF w zwykły tekst za pomocą Aspose.Words dla .NET. To jak przekształcanie skomplikowanych zaklęć w proste, co znacznie ułatwia zarządzanie dokumentami. Więc następnym razem, gdy natkniesz się na splątany bałagan pól, będziesz dokładnie wiedział, co robić. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -87,7 +89,7 @@ masz to! Udało Ci się przekształcić pola IF w zwykły tekst za pomocą Aspos
 Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami Word. Umożliwia tworzenie, modyfikowanie i konwertowanie dokumentów bez konieczności instalowania programu Microsoft Word.
 
 ### Czy mogę użyć tej metody do konwersji innych typów pól?
- Tak, możesz dostosować tę metodę do konwersji różnych typów pól, zmieniając`FieldType`.
+Tak, możesz dostosować tę metodę do konwersji różnych typów pól, zmieniając `FieldType`.
 
 ### Czy można zautomatyzować ten proces dla wielu dokumentów?
 Oczywiście! Możesz przejść przez katalog dokumentów i zastosować te same kroki do każdego z nich.
@@ -97,9 +99,14 @@ Ta metoda po prostu nie wprowadzi żadnych zmian, ponieważ nie ma pól do odł�
 
 ### Czy mogę cofnąć zmiany po rozłączeniu pól?
 Nie, po rozłączeniu pól i przekonwertowaniu ich na zwykły tekst nie można ich już przywrócić do postaci pól.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

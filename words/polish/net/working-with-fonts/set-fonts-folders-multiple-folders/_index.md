@@ -1,14 +1,16 @@
 ---
-title: Ustaw foldery czcionek Wiele folderów
-linktitle: Ustaw foldery czcionek Wiele folderów
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić wiele folderów czcionek w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia, że Twoje dokumenty używają dokładnie tych czcionek, których potrzebujesz.
-weight: 10
-url: /pl/net/working-with-fonts/set-fonts-folders-multiple-folders/
+"description": "Dowiedz się, jak ustawić wiele folderów czcionek w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zapewnia, że Twoje dokumenty używają dokładnie tych czcionek, których potrzebujesz."
+"linktitle": "Ustaw foldery czcionek Wiele folderów"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw foldery czcionek Wiele folderów"
+"url": "/pl/net/working-with-fonts/set-fonts-folders-multiple-folders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw foldery czcionek Wiele folderów
@@ -21,7 +23,7 @@ Czy zastanawiałeś się kiedyś, jak zarządzać wieloma źródłami czcionek w
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować, aby to zrobić:
 
--  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET. Możesz go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne zgodne z platformą .NET.
 - Podstawowa znajomość języka C#: Niewielka znajomość języka C# ułatwi zrozumienie przykładów.
 - Pliki czcionek: Upewnij się, że pliki czcionek są przechowywane w katalogach, do których masz łatwy dostęp.
@@ -51,23 +53,23 @@ Tutaj ładujemy dokument z określonego katalogu. Proste, prawda?
 
 ## Krok 2: Utwórz obiekt FontSettings
 
- Następnie musimy utworzyć`FontSettings` obiekt. Ten obiekt pozwoli nam zarządzać źródłami czcionek dla naszego dokumentu.
+Następnie musimy utworzyć `FontSettings` obiekt. Ten obiekt pozwoli nam zarządzać źródłami czcionek dla naszego dokumentu.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 ```
 
- Ten`FontSettings`Obiekt ten pomoże nam zdefiniować, których folderów czcionek używać.
+Ten `FontSettings` Obiekt ten pomoże nam zdefiniować, których folderów czcionek używać.
 
 ## Krok 3: Ustaw foldery czcionek
 
-Teraz nadchodzi najważniejsza część — ustawienie folderów czcionek. Tutaj określasz katalogi, w których znajdują się Twoje czcionki. W tym przykładzie mamy czcionki w „C:\MyFonts\„ i „D:\Różne\Czcionki\".
+Teraz nadchodzi kluczowa część — ustawienie folderów czcionek. Tutaj określasz katalogi, w których znajdują się Twoje czcionki. W tym przykładzie mamy czcionki w „C:\MyFonts” i „D:\Misc\Fonts”.
 
 ```csharp
 fontSettings.SetFontsFolders(new[] { @"C:\MyFonts\", @"D:\Misc\Fonts\" }, true);
 ```
 
-Drugi parametr (`true` ) oznacza, że te foldery zastąpią wszystkie domyślne źródła czcionek. Jeśli chcesz zachować również systemowe źródła czcionek, możesz użyć kombinacji`GetFontSources` I`SetFontSources`.
+Drugi parametr (`true`) oznacza, że te foldery zastąpią wszystkie domyślne źródła czcionek. Jeśli chcesz zachować również systemowe źródła czcionek, możesz użyć kombinacji `GetFontSources` I `SetFontSources`.
 
 ## Krok 4: Zastosuj ustawienia czcionki do dokumentu
 
@@ -100,16 +102,21 @@ Tak, możesz używać ścieżek sieciowych dla folderów czcionek. Upewnij się 
 Jeśli brakuje czcionki, Aspose.Words powróci do określonej czcionki domyślnej lub użyje czcionki zastępczej.
 
 ### Czy mogę dodać foldery czcionek bez nadpisywania czcionek systemowych?
- Oczywiście! Użyj`FontSettings.GetFontSources` aby pobrać istniejące źródła i połączyć je z niestandardowymi folderami za pomocą`FontSettings.SetFontSources`.
+Oczywiście! Użyj `FontSettings.GetFontSources` aby pobrać istniejące źródła i połączyć je z niestandardowymi folderami za pomocą `FontSettings.SetFontSources`.
 
 ### Czy istnieje limit liczby folderów czcionek, które mogę dodać?
 Nie ma ścisłego limitu liczby folderów czcionek. Należy jednak pamiętać o wydajności, ponieważ większa liczba folderów może wydłużyć czas ładowania czcionek.
 
 ### Jak mogę sprawdzić, jakie czcionki są używane w moim dokumencie?
- Możesz użyć`FontSettings.GetFontsSources` metoda pobierania i sprawdzania źródeł czcionek aktualnie ustawionych w dokumencie.
+Możesz użyć `FontSettings.GetFontsSources` metoda pobierania i sprawdzania źródeł czcionek aktualnie ustawionych w dokumencie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

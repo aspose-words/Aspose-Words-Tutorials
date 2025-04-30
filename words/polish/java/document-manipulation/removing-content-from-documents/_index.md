@@ -1,14 +1,16 @@
 ---
-title: Usuwanie zawartości z dokumentów w Aspose.Words dla Java
-linktitle: Usuwanie zawartości z dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
-weight: 16
-url: /pl/java/document-manipulation/removing-content-from-documents/
+"description": "Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów."
+"linktitle": "Usuwanie zawartości z dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Usuwanie zawartości z dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuwanie zawartości z dokumentów w Aspose.Words dla Java
@@ -74,7 +76,7 @@ Ten kod usuwa wszystkie typy stopek (pierwszą, główną i parzystą) z każdej
 
 ## Usuwanie spisu treści
 
-Pola spisu treści (TOC) generują dynamiczną tabelę, która zawiera nagłówki i numery stron. Aby usunąć spis treści, możesz użyć następującego kodu:
+Pola spisu treści (TOC) generują dynamiczną tabelę, która zawiera nagłówki i numery ich stron. Aby usunąć spis treści, możesz użyć następującego kodu:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
@@ -82,12 +84,12 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- Ten kod definiuje metodę`removeTableOfContents` usuwa określony spis treści z dokumentu.
+Ten kod definiuje metodę `removeTableOfContents` usuwa określony spis treści z dokumentu.
 
 
 ## Wniosek
 
-W tym artykule przyjrzeliśmy się sposobom usuwania różnych typów treści z dokumentów Word za pomocą Aspose.Words for Java. Niezależnie od tego, czy chodzi o podziały stron, podziały sekcji, stopki czy spis treści, Aspose.Words zapewnia narzędzia do skutecznego manipulowania dokumentami.
+tym artykule przyjrzeliśmy się sposobom usuwania różnych typów treści z dokumentów Word za pomocą Aspose.Words for Java. Niezależnie od tego, czy chodzi o podziały stron, podziały sekcji, stopki czy spis treści, Aspose.Words zapewnia narzędzia do skutecznego manipulowania dokumentami.
 
 ## Najczęściej zadawane pytania
 
@@ -106,9 +108,14 @@ Tak, Aspose.Words for Java obsługuje najnowsze formaty dokumentów Word, zapewn
 ### Jakie inne funkcje manipulowania dokumentami oferuje Aspose.Words for Java?
 
 Aspose.Words for Java oferuje szeroki zakres funkcji, w tym tworzenie dokumentów, edycję, konwersję i wiele więcej. Możesz przejrzeć jego dokumentację, aby uzyskać szczegółowe informacje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

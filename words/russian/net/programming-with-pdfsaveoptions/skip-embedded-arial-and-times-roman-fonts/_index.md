@@ -1,14 +1,16 @@
 ---
-title: Оптимизируйте размер PDF-файла, пропустив встроенные шрифты Arial и Times Roman
-linktitle: Оптимизируйте размер PDF-файла, пропустив встроенные шрифты Arial и Times Roman
-second_title: API обработки документов Aspose.Words
-description: Оптимизируйте размер PDF, пропустив встроенные шрифты Arial и Times Roman с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству, чтобы оптимизировать ваши файлы PDF.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "Оптимизируйте размер PDF, пропустив встроенные шрифты Arial и Times Roman с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству, чтобы оптимизировать ваши файлы PDF."
+"linktitle": "Оптимизируйте размер PDF-файла, пропустив встроенные шрифты Arial и Times Roman"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Оптимизируйте размер PDF-файла, пропустив встроенные шрифты Arial и Times Roman"
+"url": "/ru/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Оптимизируйте размер PDF-файла, пропустив встроенные шрифты Arial и Times Roman
@@ -20,7 +22,7 @@ url: /ru/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman
 ## Предпосылки
 
 Прежде чем мы перейдем к деталям, вам понадобится несколько вещей:
--  Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если нет, вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если нет, вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - Базовые знания C#: это поможет вам следить за фрагментами кода.
 - Документ Word: мы будем использовать образец документа для демонстрации процесса. 
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- В этом фрагменте замените`"YOUR DOCUMENT DIRECTORY"` с путем к каталогу ваших документов.
+В этом фрагменте замените `"YOUR DOCUMENT DIRECTORY"` с путем к каталогу ваших документов.
 
 ## Шаг 3: Настройте параметры сохранения PDF-файла
 
@@ -61,7 +63,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
-## Шаг 4: Сохраните документ как PDF.
+## Шаг 4: Сохраните документ как PDF
 
 Наконец, сохраните документ как PDF с указанными параметрами сохранения. Вот тут-то и происходит волшебство.
 
@@ -73,7 +75,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.SkipEmbeddedArialAndTimesRomanFont
 
 ## Заключение
 
-И вот оно! Вы только что узнали, как оптимизировать размер файла PDF, пропустив внедрение шрифтов Arial и Times Roman с помощью Aspose.Words for .NET. Эта простая настройка может значительно уменьшить размер файлов, что упрощает их совместное использование и хранение. Это как ходить в спортзал ради файлов PDF, избавляясь от лишнего веса и сохраняя все необходимое.
+И вот оно! Вы только что узнали, как оптимизировать размер файла PDF, пропустив внедрение шрифтов Arial и Times Roman с помощью Aspose.Words for .NET. Эта простая настройка может значительно уменьшить размер файлов, что упрощает их распространение и хранение. Это как ходить в спортзал ради файлов PDF, избавляясь от лишнего веса и сохраняя все необходимое.
 
 ## Часто задаваемые вопросы
 
@@ -87,13 +89,18 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.SkipEmbeddedArialAndTimesRomanFont
 Да, при необходимости вы можете настроить параметры сохранения, чтобы пропустить внедрение других шрифтов.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) , но для полного доступа необходимо приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/), но для полного доступа необходимо приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти больше руководств по Aspose.Words для .NET?
-Вы можете найти подробную документацию и учебные пособия[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти подробную документацию и учебные пособия [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

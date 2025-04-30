@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ वॉटरमार्किंग और पृष्ठ सेटअप
-linktitle: दस्तावेज़ वॉटरमार्किंग और पृष्ठ सेटअप
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ वॉटरमार्क लगाना और पेज कॉन्फ़िगरेशन सेट करना सीखें। सोर्स कोड के साथ एक व्यापक गाइड।
-weight: 13
-url: /hi/java/document-styling/document-watermarking-page-setup/
+"description": "Aspose.Words for Java के साथ वॉटरमार्क लगाना और पेज कॉन्फ़िगरेशन सेट करना सीखें। सोर्स कोड के साथ एक व्यापक गाइड।"
+"linktitle": "दस्तावेज़ वॉटरमार्किंग और पृष्ठ सेटअप"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ वॉटरमार्किंग और पृष्ठ सेटअप"
+"url": "/hi/java/document-styling/document-watermarking-page-setup/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ वॉटरमार्किंग और पृष्ठ सेटअप
@@ -55,7 +57,7 @@ doc.save("document_with_watermark.docx");
 
 ### पृष्ठ का आकार और अभिविन्यास
 
-दस्तावेज़ स्वरूपण में पृष्ठ सेटअप महत्वपूर्ण है। Aspose.Words for Java पृष्ठ आकार और अभिविन्यास पर पूर्ण नियंत्रण प्रदान करता है:
+पेज सेटअप दस्तावेज़ स्वरूपण में महत्वपूर्ण है। Aspose.Words for Java पेज आकार और अभिविन्यास पर पूर्ण नियंत्रण प्रदान करता है:
 
 ```java
 // दस्तावेज़ लोड करें
@@ -74,7 +76,7 @@ doc.save("formatted_document.docx");
 
 ### मार्जिन और पृष्ठ क्रमांकन
 
-व्यावसायिक दस्तावेज़ों के लिए मार्जिन और पेज नंबरिंग पर सटीक नियंत्रण आवश्यक है। Java के लिए Aspose.Words के साथ इसे प्राप्त करें:
+पेशेवर दस्तावेज़ों के लिए मार्जिन और पेज नंबरिंग पर सटीक नियंत्रण आवश्यक है। Java के लिए Aspose.Words के साथ इसे प्राप्त करें:
 
 ```java
 // दस्तावेज़ लोड करें
@@ -147,9 +149,14 @@ doc.getFirstSection().getPageSetup().setPageStartingNumber(5);
 इस विस्तृत गाइड में, हमने Aspose.Words for Java का उपयोग करके दस्तावेज़ वॉटरमार्किंग और पेज सेटअप की कला का पता लगाया है। प्रदान किए गए स्रोत कोड स्निपेट और अंतर्दृष्टि से लैस, अब आपके पास अपने दस्तावेज़ों को कुशलता से हेरफेर करने और प्रारूपित करने के लिए उपकरण हैं। Aspose.Words for Java आपको अपने सटीक विनिर्देशों के अनुरूप पेशेवर, ब्रांडेड दस्तावेज़ बनाने की शक्ति देता है।
 
 दस्तावेज़ हेरफेर में महारत हासिल करना डेवलपर्स के लिए एक मूल्यवान कौशल है, और इस यात्रा में Aspose.Words for Java आपका भरोसेमंद साथी है। आज ही शानदार दस्तावेज़ बनाना शुरू करें!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

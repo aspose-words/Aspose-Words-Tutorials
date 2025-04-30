@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Ole Object In Word With Ole Package
@@ -109,9 +112,13 @@ Yes, Aspose.Words supports both .NET Framework and .NET Core.
 ### Can I edit the embedded OLE object within the Word document?
 No, you can't edit the OLE object directly within Word. You need to open it in its native application.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

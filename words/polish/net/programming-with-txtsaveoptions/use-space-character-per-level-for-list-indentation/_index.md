@@ -1,14 +1,16 @@
 ---
-title: Użyj znaku spacji na każdym poziomie do wcięcia listy
-linktitle: Użyj znaku spacji na każdym poziomie do wcięcia listy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentów.
-weight: 10
-url: /pl/net/programming-with-txtsaveoptions/use-space-character-per-level-for-list-indentation/
+"description": "Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentów."
+"linktitle": "Użyj znaku spacji na każdym poziomie do wcięcia listy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Użyj znaku spacji na każdym poziomie do wcięcia listy"
+"url": "/pl/net/programming-with-txtsaveoptions/use-space-character-per-level-for-list-indentation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Użyj znaku spacji na każdym poziomie do wcięcia listy
@@ -21,7 +23,7 @@ Jeśli chodzi o formatowanie dokumentów, zwłaszcza podczas pracy z listami, pr
 
 Zanim przejdziesz do samouczka, oto czego będziesz potrzebować:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jej jeszcze nie masz, możesz ją pobrać z[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jej jeszcze nie masz, możesz ją pobrać z [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Visual Studio: środowisko programistyczne do pisania i testowania kodu.
 - Podstawowa znajomość języka C#: Znajomość języka C# i platformy .NET pomoże Ci płynnie uczyć się języka.
 
@@ -38,7 +40,7 @@ Przyjrzyjmy się bliżej procesowi tworzenia dokumentu z listą wielopoziomową 
 
 ## Krok 1: Skonfiguruj swój dokument
 
- Najpierw musisz utworzyć nowy dokument i zainicjować go`DocumentBuilder` obiekt. Ten obiekt pozwoli Ci łatwo dodawać zawartość i formatować ją według potrzeb.
+Najpierw musisz utworzyć nowy dokument i zainicjować go `DocumentBuilder` obiekt. Ten obiekt pozwoli Ci łatwo dodawać zawartość i formatować ją według potrzeb.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -49,11 +51,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym fragmencie kodu zamień`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+W tym fragmencie kodu zamień `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
 ## Krok 2: Utwórz listę z wieloma poziomami wcięć
 
- Z`DocumentBuilder` na przykład możesz teraz utworzyć listę z różnymi poziomami wcięć. Użyj`ListFormat` właściwość umożliwiająca numerowanie i wcinanie elementów listy zgodnie z potrzebami.
+Z `DocumentBuilder` na przykład możesz teraz utworzyć listę z różnymi poziomami wcięć. Użyj `ListFormat` właściwość umożliwiająca numerowanie i wcinanie elementów listy zgodnie z potrzebami.
 
 ```csharp
 // Utwórz listę z trzema poziomami wcięć
@@ -65,11 +67,11 @@ builder.ListFormat.ListIndent();
 builder.Write("Element 3");
 ```
 
- W tym kroku`ApplyNumberDefault` ustawia format listy i`ListIndent` służy do zwiększenia poziomu wcięcia dla każdego kolejnego elementu listy.
+W tym kroku `ApplyNumberDefault` ustawia format listy i `ListIndent` służy do zwiększenia poziomu wcięcia dla każdego kolejnego elementu listy.
 
 ## Krok 3: Skonfiguruj znak spacji dla wcięć
 
-Teraz, gdy masz już skonfigurowaną listę, następnym krokiem jest skonfigurowanie sposobu obsługi wcięć listy podczas zapisywania dokumentu do pliku tekstowego. Użyjesz`TxtSaveOptions` aby określić, że do wcięć należy używać znaków spacji.
+Teraz, gdy masz już skonfigurowaną listę, następnym krokiem jest skonfigurowanie sposobu obsługi wcięć listy podczas zapisywania dokumentu do pliku tekstowego. Użyjesz `TxtSaveOptions` aby określić, że do wcięć należy używać znaków spacji.
 
 ```csharp
 // Użyj jednego znaku spacji na poziom do wcięcia listy
@@ -78,7 +80,7 @@ saveOptions.ListIndentation.Count = 3;
 saveOptions.ListIndentation.Character = ' ';
 ```
 
- Tutaj,`ListIndentation.Count` określa liczbę znaków spacji na każdy poziom wcięcia i`ListIndentation.Character` ustawia rzeczywisty znak używany do wcięć.
+Tutaj, `ListIndentation.Count` określa liczbę znaków spacji na każdy poziom wcięcia i `ListIndentation.Character` ustawia rzeczywisty znak używany do wcięć.
 
 ## Krok 4: Zapisz dokument z określonymi opcjami
 
@@ -89,7 +91,7 @@ Na koniec zapisz dokument, używając skonfigurowanych opcji. Spowoduje to zasto
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt", saveOptions);
 ```
 
- Ten fragment kodu zapisuje dokument w ścieżce określonej w`dataDir` z nazwą pliku`"WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt"`Zapisany plik będzie miał listę sformatowaną zgodnie z ustawieniami wcięć.
+Ten fragment kodu zapisuje dokument w ścieżce określonej w `dataDir` z nazwą pliku `"WorkingWithTxtSaveOptions.UseSpaceCharacterPerLevelForListIndentation.txt"`Zapisany plik będzie miał listę sformatowaną zgodnie z ustawieniami wcięć.
 
 ## Wniosek
 
@@ -98,22 +100,27 @@ Postępując zgodnie z tymi krokami, udało Ci się utworzyć dokument z wielopo
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać innych znaków do wcięć listy niż spacje?
- Tak, możesz określić różne znaki wcięcia listy, ustawiając`Character` nieruchomość w`TxtSaveOptions`.
+Tak, możesz określić różne znaki wcięcia listy, ustawiając `Character` nieruchomość w `TxtSaveOptions`.
 
 ### Jak stosować punkty wypunktowane zamiast numerów na listach?
- Używać`ListFormat.ApplyBulletDefault()` zamiast`ApplyNumberDefault()` aby utworzyć listę wypunktowaną.
+Używać `ListFormat.ApplyBulletDefault()` zamiast `ApplyNumberDefault()` aby utworzyć listę wypunktowaną.
 
 ### Czy mogę dynamicznie zmieniać liczbę spacji wcięć?
- Tak, możesz dostosować`ListIndentation.Count` Właściwość umożliwiająca ustawienie liczby przestrzeni w oparciu o Twoje wymagania.
+Tak, możesz dostosować `ListIndentation.Count` Właściwość umożliwiająca ustawienie liczby przestrzeni w oparciu o Twoje wymagania.
 
 ### Czy można zmienić wcięcie listy po utworzeniu dokumentu?
 Tak, możesz zmienić formatowanie listy i ustawienia wcięć w dowolnym momencie przed zapisaniem dokumentu.
 
 ### Jakie inne formaty dokumentów obsługują ustawienia wcięć listy?
 Oprócz plików tekstowych ustawienia wcięć listy można stosować także do innych formatów, takich jak DOCX, PDF i HTML, podczas korzystania z Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

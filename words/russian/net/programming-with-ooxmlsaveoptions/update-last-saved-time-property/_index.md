@@ -1,14 +1,16 @@
 ---
-title: Обновить свойство последнего сохраненного времени
-linktitle: Обновить свойство последнего сохраненного времени
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обновить свойство последнего сохраненного времени в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
+"description": "Узнайте, как обновить свойство последнего сохраненного времени в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству."
+"linktitle": "Обновить свойство последнего сохраненного времени"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обновить свойство последнего сохраненного времени"
+"url": "/ru/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновить свойство последнего сохраненного времени
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
 
 Прежде чем перейти к пошаговому руководству, вам понадобится несколько вещей:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если у вас его нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Если у вас его нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: среда разработки, подобная Visual Studio.
 3. Базовые знания C#: Понимание основ программирования на C# будет полезным.
 
@@ -44,21 +46,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Загрузите документ Word
 
- Далее загрузите документ Word, который вы хотите обновить. Вы можете сделать это, создав экземпляр`Document` класс и передача пути к вашему документу.
+Далее загрузите документ Word, который вы хотите обновить. Вы можете сделать это, создав экземпляр `Document` класс и передача пути к вашему документу.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Убедитесь, что документ с именем`Document.docx` присутствует в указанном каталоге.
+Убедитесь, что документ с именем `Document.docx` присутствует в указанном каталоге.
 
 ## Шаг 3: Настройте параметры сохранения
 
- Теперь создайте экземпляр`OoxmlSaveOptions` класс. Этот класс позволяет вам указать параметры сохранения вашего документа в формате Office Open XML (OOXML). Здесь вы зададите`UpdateLastSavedTimeProperty` к`true`.
+Теперь создайте экземпляр `OoxmlSaveOptions` класс. Этот класс позволяет вам указать параметры сохранения вашего документа в формате Office Open XML (OOXML). Здесь вы зададите `UpdateLastSavedTimeProperty` к `true`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -71,7 +73,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 ## Шаг 4: Сохраните обновленный документ.
 
- Наконец, сохраните документ с помощью`Save` Метод`Document` класс, передавая путь, по которому вы хотите сохранить обновленный документ, и параметры сохранения.
+Наконец, сохраните документ с помощью `Save` Метод `Document` класс, передавая путь, по которому вы хотите сохранить обновленный документ, и параметры сохранения.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.UpdateLastSavedTimeProperty.docx", saveOptions);
@@ -95,14 +97,19 @@ Aspose.Words для .NET — мощная библиотека для созда
 Да, Aspose.Words для .NET позволяет обновлять различные свойства документа, такие как заголовок, автора и тему.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности требуется лицензия. Вы можете получить лицензию[здесь](https://purchase.aspose.com/buy).
+Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности требуется лицензия. Вы можете получить лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти больше руководств по Aspose.Words для .NET?
-Вы можете найти больше руководств и документации[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти больше руководств и документации [здесь](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

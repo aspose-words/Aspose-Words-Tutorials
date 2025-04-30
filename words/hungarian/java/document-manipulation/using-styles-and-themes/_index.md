@@ -1,31 +1,33 @@
 ---
-title: Stílusok és témák használata az Aspose.Words for Java programban
-linktitle: Stílusok és témák használata
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan javíthatja a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezze fel a stílusokat, témákat és egyebeket ebben a forráskód-példákat tartalmazó átfogó útmutatóban.
-weight: 20
-url: /hu/java/document-manipulation/using-styles-and-themes/
+"description": "Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal."
+"linktitle": "Stílusok és témák használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Stílusok és témák használata az Aspose.Words for Java-ban"
+"url": "/hu/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stílusok és témák használata az Aspose.Words for Java programban
+# Stílusok és témák használata az Aspose.Words for Java-ban
 
 
-## Bevezetés az Aspose.Words for Java stílusok és témák használatába
+## Bevezetés a stílusok és témák használatába az Aspose.Words for Java-ban
 
-Ebben az útmutatóban megvizsgáljuk, hogyan dolgozhat stílusokkal és témákkal az Aspose.Words for Java programban, hogy javítsa a dokumentumok formázását és megjelenését. Olyan témákkal foglalkozunk, mint a stílusok lekérése, a stílusok másolása, a témák kezelése és a stíluselválasztók beszúrása. Kezdjük is!
+Ebben az útmutatóban azt vizsgáljuk meg, hogyan használhatunk stílusokat és témákat az Aspose.Words for Java programban a dokumentumok formázásának és megjelenésének javítása érdekében. Olyan témákat fogunk áttekinteni, mint a stílusok lekérése, stílusok másolása, témák kezelése és stíluselválasztók beszúrása. Kezdjük is!
 
-## Stílusok lekérése
+## Stílusok visszakeresése
 
-Stílusok lekéréséhez egy dokumentumból a következő Java kódrészletet használhatja:
+Stílusok dokumentumból való lekéréséhez a következő Java kódrészletet használhatja:
 
 ```java
 Document doc = new Document();
 String styleName = "";
-//Stílusgyűjtemény lekérése a dokumentumból.
+// Stílusgyűjtemény lekérése a dokumentumból.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -42,11 +44,11 @@ for (Style style : styles)
 }
 ```
 
-Ez a kód lekéri a dokumentumban meghatározott stílusokat, és kiírja a nevüket.
+Ez a kód beolvassa a dokumentumban definiált stílusokat, és kinyomtatja a nevüket.
 
 ## Stílusok másolása
 
- Stílusok egyik dokumentumból a másikba másolásához használhatja a`copyStylesFromTemplate` az alábbiak szerint:
+Stílusok másolásához egyik dokumentumból a másikba használhatja a `copyStylesFromTemplate` az alább látható módszer:
 
 ```java
 @Test
@@ -86,11 +88,11 @@ public void setThemeProperties() throws Exception
 }
 ```
 
-Ezek a részletek bemutatják, hogyan lehet lekérni és módosítani a téma tulajdonságait, például a betűtípusokat és a színeket.
+Ezek a kódrészletek bemutatják, hogyan lehet lekérni és módosítani a téma tulajdonságait, például a betűtípusokat és a színeket.
 
 ## Stíluselválasztók beszúrása
 
-A stíluselválasztók hasznosak különböző stílusok egyetlen bekezdésen belüli alkalmazásakor. Íme egy példa a stíluselválasztók beszúrására:
+A stíluselválasztók hasznosak különböző stílusok egyetlen bekezdésen belüli alkalmazásához. Íme egy példa a stíluselválasztók beszúrására:
 
 ```java
 @Test
@@ -102,40 +104,45 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    // Szöveg hozzáfűzése „1. címsor” stílusban.
+    // Szöveg hozzáfűzése „Címsor 1” stílusban.
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
-    // Szöveg hozzáfűzése más stílussal.
+    // Szöveg hozzáfűzése másik stílussal.
     builder.getParagraphFormat().setStyleName(paraStyle.getName());
     builder.write("This is text with some other formatting ");
     doc.save("Your Directory Path" + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 }
 ```
 
-Ebben a kódban egyéni bekezdésstílust hozunk létre, és stíluselválasztót szúrunk be a stílusok váltásához ugyanazon a bekezdésen belül.
+Ebben a kódban létrehozunk egy egyéni bekezdésstílust, és beszúrunk egy stíluselválasztót a stílusok közötti váltáshoz ugyanazon a bekezdésen belül.
 
 ## Következtetés
 
-Ez az útmutató az Aspose.Words for Java stílusaival és témáival való munka alapjait ismerteti. Megtanulta a stílusok lekérését és másolását, a témák kezelését, valamint a stíluselválasztók beszúrását, így tetszetős és jól formázott dokumentumokat hozhat létre. Kísérletezzen ezekkel a technikákkal, hogy igényei szerint testreszabhassa dokumentumait.
+Ez az útmutató az Aspose.Words for Java stílusokkal és témákkal való munka alapjait ismertette. Megtanultad, hogyan kérhetsz le és másolhatsz stílusokat, hogyan kezelhetsz témákat, és hogyan szúrhatsz be stíluselválasztókat vizuálisan vonzó és jól formázott dokumentumok létrehozásához. Kísérletezz ezekkel a technikákkal, hogy a dokumentumaidat az igényeidnek megfelelően testre szabd.
 
 
 ## GYIK
 
-### Hogyan kérhetem le a téma tulajdonságait az Aspose.Words for Java programban?
+### Hogyan tudom lekérni a téma tulajdonságait az Aspose.Words for Java fájlban?
 
-A téma tulajdonságait a téma objektumhoz és tulajdonságaihoz való hozzáféréssel kérheti le.
+A téma tulajdonságait a téma objektum és annak tulajdonságainak elérésével kérheti le.
 
-### Hogyan állíthatom be a téma tulajdonságait, például a betűtípusokat és a színeket?
+### Hogyan tudom beállítani a téma tulajdonságait, például a betűtípusokat és a színeket?
 
 A téma tulajdonságait a témaobjektum tulajdonságainak módosításával állíthatja be.
 
-### Hogyan használhatok stíluselválasztókat a stílusok váltásához ugyanazon a bekezdésen belül?
+### Hogyan használhatok stíluselválasztókat stílusváltásra ugyanazon a bekezdésen belül?
 
- Stíluselválasztókat szúrhat be a`insertStyleSeparator` módszere a`DocumentBuilder` osztály.
+Stíluselválasztókat a következővel szúrhat be: `insertStyleSeparator` a módszer `DocumentBuilder` osztály.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

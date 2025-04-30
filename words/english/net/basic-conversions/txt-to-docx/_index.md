@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/txt-to-docx/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Text File To Word Document
@@ -73,9 +76,13 @@ Yes, you can batch process multiple text files using Aspose.Words APIs to stream
 ### Where can I find more resources and support for Aspose.Words?
 Visit the [Aspose.Words documentation](https://reference.aspose.com/words/net/) and [support forum](https://forum.aspose.com/c/words/8) for more information and assistance.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

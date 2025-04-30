@@ -1,53 +1,55 @@
 ---
-title: Megjegyzések hozzáadása
-linktitle: Megjegyzések hozzáadása
-second_title: Aspose.Words Document Processing API
-description: Útmutatónkból megtudhatja, hogyan írhat megjegyzéseket Word-dokumentumaihoz az Aspose.Words for .NET használatával. Fokozza könnyedén a dokumentumok együttműködési folyamatát.
-weight: 10
-url: /hu/net/working-with-comments/add-comments/
+"description": "Tanulja meg útmutatónkkal, hogyan fűzhet megjegyzéseket Word-dokumentumaihoz az Aspose.Words for .NET használatával. Fejlessze dokumentum-együttműködési folyamatát könnyedén."
+"linktitle": "Hozzászólások hozzáadása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Hozzászólások hozzáadása"
+"url": "/hu/net/working-with-comments/add-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzések hozzáadása
+# Hozzászólások hozzáadása
 
 ## Bevezetés
 
-Üdvözöljük részletes útmutatónkban a Word-dokumentumokhoz való megjegyzések Aspose.Words for .NET használatával fűzéséhez! Ha egyszerűsíteni szeretné dokumentum-ellenőrzési folyamatát a megjegyzések programozott beépítésével, akkor jó helyen jár. Ez az oktatóanyag végigvezeti Önt mindenen, amit tudnia kell, a környezet beállításától a megjegyzések írásáig és mentéséig a Word-dokumentumokba. Merüljünk el, és tegyük gyerekjátékká a dokumentumokkal való együttműködést!
+Üdvözöljük részletes útmutatónkban, amely bemutatja, hogyan adhatsz megjegyzéseket Word-dokumentumaidhoz az Aspose.Words for .NET segítségével! Ha szeretnéd egyszerűsíteni a dokumentum-ellenőrzési folyamatot a megjegyzések programozott beépítésével, jó helyen jársz. Ez az oktatóanyag végigvezet mindenen, amit tudnod kell, a környezet beállításától kezdve a megjegyzések írásán és mentésén át a Word-dokumentumokban. Vágjunk bele, és tegyük a dokumentumokkal való együttműködést gyerekjátékká!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-1. Aspose.Words for .NET: Az Aspose.Words for .NET-re telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépen.
-3. Fejlesztői környezet: Egy IDE, mint a Visual Studio a kód írásához és végrehajtásához.
-4. A C# alapismeretei: A C# programozási nyelv ismerete segít a példák követésében.
+1. Aspose.Words .NET-hez: Telepítenie kell az Aspose.Words .NET-hez programot. Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépén.
+3. Fejlesztői környezet: Egy Visual Studio-hoz hasonló IDE, amely a kód írására és végrehajtására szolgál.
+4. C# alapismeretek: A C# programozási nyelv ismerete segít a példák követésében.
 
 ## Névterek importálása
 
-Először is importálnia kell a szükséges névtereket a projektbe. Ez lehetővé teszi az Aspose.Words használatához szükséges osztályok és módszerek elérését.
+Először importálnod kell a szükséges névtereket a projektedbe. Ez lehetővé teszi majd az Aspose.Words használatához szükséges osztályok és metódusok elérését.
 
 ```csharp
 using System;
 using Aspose.Words;
 ```
 
-Most bontsuk le a folyamatot könnyen követhető lépésekre. Minden lépés részletes magyarázatot tartalmaz, amely segít megérteni a logikát és a funkcionalitást.
+Most bontsuk le a folyamatot könnyen követhető lépésekre. Minden lépéshez részletes magyarázat tartozik, amely segít megérteni a logikát és a funkciókat.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
- Először is meg kell határoznunk a könyvtárat, ahová a dokumentumot menteni kell. Helyőrzőt fogunk használni`YOUR DOCUMENT DIRECTORY` amelyet le kell cserélnie a tényleges könyvtár elérési útjával.
+Először is meg kell adnunk azt a könyvtárat, ahová a dokumentumot menteni fogjuk. Helyőrzőt fogunk használni. `YOUR DOCUMENT DIRECTORY` amit a tényleges könyvtár elérési útjával kell helyettesítened.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## 2. lépés: Inicializálja a dokumentumot
+## 2. lépés: A dokumentum inicializálása
 
-Ezután inicializálunk egy új dokumentumot és egy DocumentBuilder objektumot. A DocumentBuilder segít a dokumentum elkészítésében és módosításában.
+Következő lépésként inicializálunk egy új dokumentumot és egy DocumentBuilder objektumot. A DocumentBuilder segít a dokumentum felépítésében és módosításában.
 
 ```csharp
 Document doc = new Document();
@@ -56,23 +58,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## 3. lépés: Szöveg hozzáadása a dokumentumhoz
 
-A DocumentBuilder segítségével szöveget adunk a dokumentumhoz. Ehhez a szöveghez csatoljuk megjegyzésünket.
+A DocumentBuilder segítségével szöveget fogunk hozzáadni a dokumentumhoz. Ehhez a szöveghez fogjuk csatolni a megjegyzésünket.
 
 ```csharp
 builder.Write("Some text is added.");
 ```
 
-## 4. lépés: Hozzon létre és fűzzen hozzá megjegyzést
+## 4. lépés: Hozzon létre és fűzzen hozzá egy megjegyzést
 
-Itt az ideje, hogy megjegyzést hozzon létre. Egy új Comment objektumot inicializálunk, megadva a dokumentumot, a szerző nevét, kezdőbetűit és a dátumot.
+Most itt az ideje egy megjegyzés létrehozásának. Inicializálunk egy új Comment objektumot, megadva a dokumentumot, a szerző nevét, a kezdőbetűket és a dátumot.
 
 ```csharp
 Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 ```
 
-## 5. lépés: Adjon hozzá tartalmat a megjegyzéshez
+## 5. lépés: Tartalom hozzáadása a megjegyzéshez
 
-Végül tartalommal egészítjük ki a megjegyzést. Létrehozunk egy új bekezdést és a Futtatást a megjegyzés szövegének megtartásához, majd hozzáadjuk ezeket a megjegyzéshez.
+Végül tartalmat adunk a megjegyzéshez. Létrehozunk egy új bekezdést, és a Run paranccsal tároljuk a megjegyzés szövegét, majd ezeket hozzáadjuk a megjegyzéshez.
 
 ```csharp
 comment.SetText("Comment text.");
@@ -80,15 +82,15 @@ comment.SetText("Comment text.");
 
 ## 6. lépés: Csatolja a megjegyzést a bekezdéshez
 
-A megjegyzést az aktuális bekezdéshez kell csatolnunk, ahol a szöveget hozzáadtuk. Ez úgy történik, hogy a bekezdéshez csatolja a megjegyzést.
+A megjegyzést ahhoz az aktuális bekezdéshez kell csatolnunk, ahová a szöveget beillesztettük. Ezt úgy tehetjük meg, hogy a megjegyzést a bekezdéshez fűzzük.
 
 ```csharp
 builder.CurrentParagraph.AppendChild(comment);
 ```
 
-## 7. lépés: Mentse el a dokumentumot
+## 7. lépés: A dokumentum mentése
 
-Az utolsó lépés a dokumentum mentése a megjegyzésekkel. Megadjuk a könyvtárat és a fájlnevet.
+Az utolsó lépés a dokumentum mentése a megjegyzésekkel együtt. Megadjuk a könyvtárat és a fájlnevet.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithComments.AddComments.docx");
@@ -96,32 +98,37 @@ doc.Save(dataDir + "WorkingWithComments.AddComments.docx");
 
 ## Következtetés
 
-Megvan! Sikeresen hozzáadott megjegyzéseket egy Word-dokumentumhoz az Aspose.Words for .NET használatával. Ez a hatékony funkció nagyban javíthatja a dokumentum-ellenőrzési folyamatot, megkönnyítve az együttműködést és a visszajelzések közlését. Ne felejtse el felfedezni az Aspose.Words egyéb lehetőségeit a dokumentumkezelési feladatok további egyszerűsítéséhez.
+Íme! Sikeresen hozzáadott megjegyzéseket egy Word-dokumentumhoz az Aspose.Words for .NET segítségével. Ez a hatékony funkció nagymértékben javíthatja a dokumentumok áttekintési folyamatát, megkönnyítve az együttműködést és a visszajelzések közlését. Ne felejtse el felfedezni az Aspose.Words egyéb funkcióit, amelyekkel tovább egyszerűsítheti dokumentumkezelési feladatait.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
+### Mi az Aspose.Words .NET-hez?
 
-Az Aspose.Words for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy Word-dokumentumokat .NET-nyelvek használatával programozottan hozzanak létre, kezeljenek és konvertáljanak.
+Az Aspose.Words for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy Word dokumentumokat hozzanak létre, szerkeszszenek és konvertáljanak programozottan .NET nyelvek használatával.
 
 ### Hozzáadhatok több megjegyzést egyetlen dokumentumhoz?
 
-Igen, több megjegyzést is hozzáadhat egyetlen dokumentumhoz, ha megismétli a megjegyzések létrehozásának és hozzáfűzésének folyamatát a különböző bekezdésekhez vagy szövegfuttatásokhoz.
+Igen, több megjegyzést is hozzáadhat egyetlen dokumentumhoz a megjegyzések létrehozásának és hozzáfűzésének folyamatának megismétlésével különböző bekezdésekhez vagy szövegrészekhez.
 
-### Hogyan szabhatom testre a megjegyzések megjelenését?
+### Hogyan tudom testreszabni a hozzászólások megjelenését?
 
 Míg az Aspose.Words a megjegyzések tartalmára és szerkezetére összpontosít, a megjelenés testreszabható a Word beépített formázási funkcióival.
 
-### Lehetséges a megjegyzések programozott eltávolítása?
+### Lehetséges programozottan eltávolítani a hozzászólásokat?
 
-Igen, programozottan is eltávolíthatja a megjegyzéseket, ha végignézi a megjegyzéseket a dokumentumban, és szükség szerint eltávolítja őket.
+Igen, programozottan is eltávolíthatja a megjegyzéseket a dokumentumban található megjegyzések végigkeresésével és szükség szerinti eltávolításával.
 
-### Hozzáadhatok válaszokat a megjegyzésekhez?
+### Hozzáadhatok válaszokat a hozzászólásokhoz?
 
-Az Aspose.Words lehetővé teszi a szálas megjegyzésekkel való munkát, lehetővé téve, hogy válaszokat adjon a meglévő megjegyzésekhez a részletesebb megbeszélésekhez.
+Az Aspose.Words lehetővé teszi a hozzászólásláncokkal való munkát, így válaszokat adhatsz a meglévő hozzászólásokhoz a részletesebb megbeszélések érdekében.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

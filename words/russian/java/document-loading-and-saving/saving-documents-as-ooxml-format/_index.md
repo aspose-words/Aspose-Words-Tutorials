@@ -1,14 +1,16 @@
 ---
-title: Сохранение документов в формате OOXML в Aspose.Words для Java
-linktitle: Сохранение документов в формате OOXML
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сохранять документы в формате OOXML с помощью Aspose.Words для Java. Защищайте, оптимизируйте и настраивайте свои файлы без усилий.
-weight: 20
-url: /ru/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Узнайте, как сохранять документы в формате OOXML с помощью Aspose.Words для Java. Защищайте, оптимизируйте и настраивайте свои файлы без усилий."
+"linktitle": "Сохранение документов в формате OOXML"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сохранение документов в формате OOXML в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение документов в формате OOXML в Aspose.Words для Java
@@ -16,7 +18,7 @@ url: /ru/java/document-loading-and-saving/saving-documents-as-ooxml-format/
 
 ## Введение в сохранение документов в формате OOXML в Aspose.Words для Java
 
-В этом руководстве мы рассмотрим, как сохранять документы в формате OOXML с помощью Aspose.Words for Java. OOXML (Office Open XML) — это формат файлов, используемый Microsoft Word и другими офисными приложениями. Мы рассмотрим различные параметры и настройки для сохранения документов в формате OOXML.
+В этом руководстве мы рассмотрим, как сохранять документы в формате OOXML с помощью Aspose.Words for Java. OOXML (Office Open XML) — это формат файла, используемый Microsoft Word и другими офисными приложениями. Мы рассмотрим различные параметры и настройки для сохранения документов в формате OOXML.
 
 ## Предпосылки
 
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Загрузите документ с устаревшими управляющими символами
+// Загрузите документ с устаревшими управляющими символами
 Document doc = new Document("LegacyControlChars.doc");
 
 // Создайте OoxmlSaveOptions с форматом FLAT_OPC и включите сохранение устаревших управляющих символов.
@@ -116,7 +118,7 @@ import com.aspose.words.CompressionLevel;
 // Загрузить документ
 Document doc = new Document("Document.docx");
 
-// Создайте OoxmlSaveOptions и установите уровень сжатия.
+// Создайте OoxmlSaveOptions и установите уровень сжатия
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
@@ -178,14 +180,19 @@ public void setCompressionLevel() throws Exception
 
 ### Можно ли задать пользовательские свойства при сохранении документа в формате OOXML?
 
- Да, вы можете задать пользовательские свойства для документа перед сохранением его в формате OOXML. Используйте`BuiltInDocumentProperties` и`CustomDocumentProperties` классы для установки различных свойств, таких как автор, заголовок, ключевые слова и пользовательские свойства.
+Да, вы можете задать пользовательские свойства для документа перед сохранением его в формате OOXML. Используйте `BuiltInDocumentProperties` и `CustomDocumentProperties` классы для установки различных свойств, таких как автор, заголовок, ключевые слова и пользовательские свойства.
 
 ### Какой уровень сжатия используется по умолчанию при сохранении документа в формате OOXML?
 
- Уровень сжатия по умолчанию при сохранении документа в формате OOXML с помощью Aspose.Words для Java составляет`NORMAL` . Вы можете изменить уровень сжатия на`SUPER_FAST` или`MAXIMUM` по мере необходимости.
+Уровень сжатия по умолчанию при сохранении документа в формате OOXML с помощью Aspose.Words для Java составляет `NORMAL`. Вы можете изменить уровень сжатия на `SUPER_FAST` или `MAXIMUM` по мере необходимости.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

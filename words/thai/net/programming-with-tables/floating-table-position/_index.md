@@ -1,14 +1,16 @@
 ---
-title: ตำแหน่งโต๊ะลอย
-linktitle: ตำแหน่งโต๊ะลอย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีควบคุมตำแหน่งลอยของตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/programming-with-tables/floating-table-position/
+"description": "เรียนรู้วิธีควบคุมตำแหน่งลอยของตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "ตำแหน่งโต๊ะลอย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตำแหน่งโต๊ะลอย"
+"url": "/th/net/programming-with-tables/floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตำแหน่งโต๊ะลอย
@@ -21,7 +23,7 @@ url: /th/net/programming-with-tables/floating-table-position/
 
 ก่อนที่เราจะเริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
 
-1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบว่าคุณมีเวอร์ชันล่าสุดหรือไม่ หากไม่มี[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบว่าคุณมีเวอร์ชันล่าสุดหรือไม่ หากไม่มี [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าด้วย .NET
 3. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่ต้องการ
 4. เอกสาร Word: เตรียมเอกสาร Word ที่มีตารางไว้
@@ -45,7 +47,7 @@ using Aspose.Words.Tables;
 ขั้นแรก คุณต้องโหลดเอกสาร Word ของคุณก่อน นี่คือที่ตั้งของตารางของคุณ
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -71,7 +73,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 table.AbsoluteHorizontalDistance = 10;
 ```
 
- ลองนึกภาพว่านี่เป็นการย้ายตารางในแนวนอนข้ามเอกสารของคุณ`AbsoluteHorizontalDistance` คือระยะห่างที่แน่นอนจากขอบด้านซ้าย
+ลองนึกภาพว่านี่เป็นการย้ายตารางในแนวนอนข้ามเอกสารของคุณ `AbsoluteHorizontalDistance` คือระยะห่างที่แน่นอนจากขอบด้านซ้าย
 
 ## ขั้นตอนที่ 4: ตั้งค่าการจัดตำแหน่งแนวตั้ง
 
@@ -91,7 +93,7 @@ table.RelativeVerticalAlignment = VerticalAlignment.Center;
 doc.Save(dataDir + "WorkingWithTables.FloatingTablePosition.docx");
 ```
 
-วิธีนี้เหมือนกับการกด "บันทึก" บนเอกสารที่คุณแก้ไข การเปลี่ยนแปลงทั้งหมดของคุณจะถูกบันทึกไว้
+การดำเนินการนี้เหมือนกับการกด "บันทึก" บนเอกสารที่คุณแก้ไข การเปลี่ยนแปลงทั้งหมดของคุณจะถูกบันทึกไว้
 
 ## บทสรุป
 
@@ -101,26 +103,31 @@ doc.Save(dataDir + "WorkingWithTables.FloatingTablePosition.docx");
 
 ### ฉันสามารถกำหนดระยะห่างแนวตั้งของตารางจากด้านบนของหน้าได้หรือไม่
 
- ใช่คุณสามารถใช้`AbsoluteVerticalDistance` คุณสมบัติในการกำหนดระยะห่างแนวตั้งของตารางจากขอบบนของหน้า
+ใช่คุณสามารถใช้ `AbsoluteVerticalDistance` คุณสมบัติในการกำหนดระยะห่างแนวตั้งของตารางจากขอบบนของหน้า
 
 ### ฉันจะจัดตำแหน่งตารางให้ชิดขวาของเอกสารได้อย่างไร
 
- หากต้องการจัดตำแหน่งตารางให้อยู่ทางขวา คุณสามารถตั้งค่า`HorizontalAlignment` คุณสมบัติของตารางที่จะ`HorizontalAlignment.Right`.
+หากต้องการจัดตำแหน่งตารางให้อยู่ทางขวา คุณสามารถตั้งค่า `HorizontalAlignment` คุณสมบัติของตารางที่จะ `HorizontalAlignment-Right`.
 
 ### เป็นไปได้ไหมที่จะวางตำแหน่งตารางหลายตารางต่างกันในเอกสารเดียวกัน?
 
- แน่นอน! คุณสามารถเข้าถึงและกำหนดตำแหน่งสำหรับตารางหลายตารางได้ทีละรายการโดยทำซ้ำผ่าน`Tables` การเก็บรวบรวมไว้ในเอกสาร
+แน่นอน! คุณสามารถเข้าถึงและกำหนดตำแหน่งสำหรับตารางหลายตารางได้ทีละรายการโดยทำซ้ำผ่าน `Tables` การเก็บรวบรวมไว้ในเอกสาร
 
 ### ฉันสามารถใช้ตำแหน่งสัมพันธ์สำหรับการจัดตำแหน่งแนวนอนได้หรือไม่
 
-ใช่ Aspose.Words รองรับการวางตำแหน่งสัมพันธ์สำหรับการจัดตำแหน่งทั้งแนวนอนและแนวตั้งโดยใช้คุณสมบัติเช่น`RelativeHorizontalAlignment`.
+ใช่ Aspose.Words รองรับการวางตำแหน่งสัมพันธ์สำหรับการจัดตำแหน่งทั้งแนวนอนและแนวตั้งโดยใช้คุณสมบัติเช่น `RelativeHorizontalAlignment`-
 
 ### Aspose.Words รองรับตารางแบบลอยตัวในส่วนต่าง ๆ ของเอกสารหรือไม่
 
-ใช่ คุณสามารถวางตำแหน่งตารางแบบลอยในส่วนต่างๆ ได้โดยการเข้าถึงส่วนที่ต้องการและตารางภายในเอกสารของคุณ
+ใช่ คุณสามารถวางตำแหน่งตารางลอยในส่วนต่าง ๆ ได้โดยการเข้าถึงส่วนที่ต้องการและตารางภายในเอกสารของคุณ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

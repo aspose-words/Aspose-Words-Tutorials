@@ -1,14 +1,16 @@
 ---
-title: पंक्ति स्वरूपण लागू करें
-linktitle: पंक्ति स्वरूपण लागू करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में पंक्ति स्वरूपण लागू करना सीखें। विस्तृत निर्देशों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में पंक्ति स्वरूपण लागू करना सीखें। विस्तृत निर्देशों के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पंक्ति स्वरूपण लागू करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पंक्ति स्वरूपण लागू करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पंक्ति स्वरूपण लागू करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/apply-row-formatting/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
-1.  .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि आपके पास नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि आपके पास नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा AC# विकास वातावरण.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना आवश्यक है।
 4. दस्तावेज़ निर्देशिका: वह निर्देशिका जहाँ आप अपना दस्तावेज़ सहेजेंगे।
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: एक नई तालिका शुरू करें
 
- इसके बाद, हम एक नई तालिका शुरू करेंगे`DocumentBuilder`वस्तु। यहीं पर जादू होता है।
+इसके बाद, हम एक नई तालिका शुरू करेंगे `DocumentBuilder` वस्तु। यहीं पर जादू होता है।
 
 ```csharp
 Table table = builder.StartTable();
@@ -97,27 +99,32 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx"
 
 ## निष्कर्ष
 
-और अब यह हो गया! आपने Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में तालिका में पंक्ति स्वरूपण सफलतापूर्वक लागू कर दिया है। यह सरल लेकिन शक्तिशाली तकनीक आपके दस्तावेज़ों की पठनीयता और सौंदर्य को बहुत बढ़ा सकती है।
+और अब यह हो गया! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में तालिका में पंक्ति स्वरूपण सफलतापूर्वक लागू कर दिया है। यह सरल लेकिन शक्तिशाली तकनीक आपके दस्तावेज़ों की पठनीयता और सौंदर्य को बहुत बढ़ा सकती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं अलग-अलग पंक्तियों पर अलग-अलग स्वरूपण लागू कर सकता हूँ?  
- हां, आप प्रत्येक पंक्ति को अलग-अलग गुण सेट करके व्यक्तिगत रूप से अनुकूलित कर सकते हैं`RowFormat`.
+हां, आप प्रत्येक पंक्ति के लिए अलग-अलग गुण सेट करके उसे व्यक्तिगत रूप से अनुकूलित कर सकते हैं `RowFormat`.
 
 ### मैं स्तंभों की चौड़ाई कैसे समायोजित करूं?  
- आप कॉलम की चौड़ाई निर्धारित कर सकते हैं`CellFormat.Width` संपत्ति।
+आप कॉलम की चौड़ाई निर्धारित कर सकते हैं `CellFormat.Width` संपत्ति।
 
 ### क्या .NET के लिए Aspose.Words में कोशिकाओं को मर्ज करना संभव है?  
- हां, आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं`CellMerge` की संपत्ति`CellFormat`.
+हां, आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं `CellMerge` की संपत्ति `CellFormat`.
 
 ### क्या मैं पंक्तियों में बॉर्डर जोड़ सकता हूँ?  
- बिल्कुल! आप पंक्तियों में बॉर्डर सेट करके जोड़ सकते हैं`Borders` की संपत्ति`RowFormat`.
+बिल्कुल! आप पंक्तियों में बॉर्डर सेट करके जोड़ सकते हैं `Borders` की संपत्ति `RowFormat`.
 
 ### मैं पंक्तियों पर सशर्त स्वरूपण कैसे लागू करूँ?  
 आप विशिष्ट स्थितियों के आधार पर भिन्न स्वरूपण लागू करने के लिए अपने कोड में सशर्त तर्क का उपयोग कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

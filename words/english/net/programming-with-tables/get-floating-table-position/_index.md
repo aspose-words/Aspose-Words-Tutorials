@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/get-floating-table-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Floating Table Position
@@ -117,9 +120,13 @@ Absolutely! Aspose.Words for .NET is designed for high-performance document auto
 ### Where can I find more information and resources on Aspose.Words for .NET?
 You can find detailed documentation and resources on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

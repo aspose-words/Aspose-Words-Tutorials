@@ -1,14 +1,16 @@
 ---
-title: Поиск индекса
-linktitle: Поиск индекса
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как найти индекс таблиц, строк и ячеек в документах Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/finding-index/
+"description": "Узнайте, как найти индекс таблиц, строк и ячеек в документах Word с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Поиск индекса"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Поиск индекса"
+"url": "/ru/net/programming-with-tables/finding-index/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поиск индекса
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/finding-index/
 
 Прежде чем мы начнем, давайте убедимся, что у вас есть все необходимое:
 
-- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая IDE по вашему выбору.
 - Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания C#.
 
@@ -41,7 +43,7 @@ using Aspose.Words.Tables;
 Сначала вам нужно загрузить документ Word, содержащий таблицы, с которыми вы работаете. Здесь вы указываете путь к каталогу вашего документа.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -66,7 +68,7 @@ Console.WriteLine("\nTable index is " + tableIndex);
 
 ## Шаг 4: Найдите индекс последней строки.
 
- Чтобы найти последнюю строку таблицы, мы используем`LastRow` свойство. Это может быть удобно, когда вам нужно манипулировать или извлекать данные из последней строки.
+Чтобы найти последнюю строку таблицы, мы используем `LastRow` свойство. Это может быть удобно, когда вам нужно манипулировать или извлекать данные из последней строки.
 
 ```csharp
 int rowIndex = table.IndexOf(table.LastRow);
@@ -103,9 +105,14 @@ Aspose.Words может обрабатывать большое количест
 
 ### Можно ли изменить свойства конкретной ячейки, используя ее индекс?
 Да, получив индекс ячейки, вы можете легко изменить ее свойства, такие как текст, форматирование и многое другое.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

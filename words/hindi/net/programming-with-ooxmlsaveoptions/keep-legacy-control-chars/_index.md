@@ -1,14 +1,16 @@
 ---
-title: लीगेसी नियंत्रण वर्ण रखें
-linktitle: लीगेसी नियंत्रण वर्ण रखें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में विरासत नियंत्रण वर्णों को संरक्षित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में विरासत नियंत्रण वर्णों को संरक्षित करना सीखें।"
+"linktitle": "लीगेसी नियंत्रण वर्ण रखें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "लीगेसी नियंत्रण वर्ण रखें"
+"url": "/hi/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # लीगेसी नियंत्रण वर्ण रखें
@@ -21,8 +23,8 @@ url: /hi/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Words for .NET: यहां से डाउनलोड करें और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
-2.  एक वैध Aspose लाइसेंस: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words for .NET: यहां से डाउनलोड करें और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
+2. एक वैध Aspose लाइसेंस: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 3. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य IDE जो .NET का समर्थन करता है।
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना उपयोगी होगा।
 
@@ -40,7 +42,7 @@ using Aspose.Words.Saving;
 सबसे पहले, आपको अपना प्रोजेक्ट विजुअल स्टूडियो (या अपने पसंदीदा IDE) में सेट करना होगा। 
 
 1. एक नया C# प्रोजेक्ट बनाएँ: Visual Studio खोलें और एक नया C# कंसोल अनुप्रयोग प्रोजेक्ट बनाएँ।
-2. .NET के लिए Aspose.Words स्थापित करें: .NET के लिए Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। समाधान एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें, "NuGet पैकेज प्रबंधित करें" चुनें, "Aspose.Words" खोजें, और इसे स्थापित करें।
+2. .NET के लिए Aspose.Words स्थापित करें: .NET के लिए Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। समाधान एक्सप्लोरर में अपने प्रोजेक्ट पर राइट-क्लिक करें, "NuGet पैकेज प्रबंधित करें" चुनें, "Aspose.Words" खोजें और इसे स्थापित करें।
 
 ## चरण 2: अपना दस्तावेज़ लोड करें
 
@@ -52,7 +54,7 @@ using Aspose.Words.Saving;
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  दस्तावेज़ लोड करें: का उपयोग करें`Document` अपने दस्तावेज़ को लोड करने के लिए क्लास का उपयोग करें।
+2. दस्तावेज़ लोड करें: का उपयोग करें `Document` अपने दस्तावेज़ को लोड करने के लिए क्लास का उपयोग करें।
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ using Aspose.Words.Saving;
 
 अब, विरासत नियंत्रण वर्णों को बरकरार रखने के लिए सेव विकल्पों को कॉन्फ़िगर करें।
 
-1.  सहेजें विकल्प बनाएँ: का एक उदाहरण आरंभ करें`OoxmlSaveOptions` और सेट करें`KeepLegacyControlChars`संपत्ति को`true`.
+1. सहेजें विकल्प बनाएँ: का एक उदाहरण आरंभ करें `OoxmlSaveOptions` और सेट करें `KeepLegacyControlChars` संपत्ति को `true`.
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ using Aspose.Words.Saving;
 
 अंत में, कॉन्फ़िगर किए गए सहेजें विकल्पों के साथ दस्तावेज़ को सहेजें।
 
-1.  दस्तावेज़ सहेजें: का उपयोग करें`Save` की विधि`Document` निर्दिष्ट सहेजें विकल्पों के साथ दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें।
+1. दस्तावेज़ सहेजें: का उपयोग करें `Save` की विधि `Document` निर्दिष्ट सहेजें विकल्पों के साथ दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें।
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -101,15 +103,20 @@ using Aspose.Words.Saving;
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
- हां, आपको वैध लाइसेंस की आवश्यकता है। आप मूल्यांकन उद्देश्यों के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आपको वैध लाइसेंस की आवश्यकता है। आप मूल्यांकन उद्देश्यों के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

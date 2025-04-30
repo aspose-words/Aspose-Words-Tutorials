@@ -1,14 +1,16 @@
 ---
-title: नेस्टेड तालिका
-linktitle: नेस्टेड तालिका
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नेस्टेड टेबल बनाने का तरीका जानें। प्रोग्रामेटिक रूप से जटिल दस्तावेज़ लेआउट बनाने के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-tables/nested-table/
+"description": "हमारे गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नेस्टेड टेबल बनाने का तरीका जानें। प्रोग्रामेटिक रूप से जटिल दस्तावेज़ लेआउट बनाने के लिए बिल्कुल सही।"
+"linktitle": "नेस्टेड तालिका"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "नेस्टेड तालिका"
+"url": "/hi/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नेस्टेड तालिका
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-tables/nested-table/
 
 इससे पहले कि हम कोड में प्रवेश करें, आपको कुछ चीजों की आवश्यकता होगी:
 
--  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# IDE.
 - C# का मूलभूत ज्ञान: C# वाक्यविन्यास और अवधारणाओं की समझ।
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
- आरंभ करने के लिए, हम एक नया वर्ड दस्तावेज़ बनाएंगे और आरंभ करेंगे`DocumentBuilder` ऑब्जेक्ट, जो हमें तालिका बनाने में मदद करेगा।
+आरंभ करने के लिए, हम एक नया वर्ड दस्तावेज़ बनाएंगे और आरंभ करेंगे `DocumentBuilder` ऑब्जेक्ट, जो हमें तालिका बनाने में मदद करेगा।
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -144,10 +146,15 @@ doc.Save(dataDir + "WorkingWithTables.NestedTable.docx");
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त कर सकता हूं?
 
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/docx-to-txt/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Docx To Txt
@@ -106,9 +109,13 @@ You can find more tutorials on the [Aspose Documentation](https://reference.aspo
 
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: PDF Görüntülerini Atla
-linktitle: PDF Görüntülerini Atla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak PDF belgelerini yüklerken resimleri nasıl atlayacağınızı öğrenin. Sorunsuz metin çıkarma için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-loadoptions/skip-pdf-images/
+"description": "Aspose.Words for .NET kullanarak PDF belgelerini yüklerken resimleri nasıl atlayacağınızı öğrenin. Sorunsuz metin çıkarma için bu adım adım kılavuzu izleyin."
+"linktitle": "PDF Görüntülerini Atla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "PDF Görüntülerini Atla"
+"url": "/tr/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Görüntülerini Atla
@@ -21,7 +23,7 @@ Merhaba, Aspose.Words meraklıları! Bugün, .NET için Aspose.Words'ün harika 
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: En son sürümü indirin[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümü indirin [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: Güncel herhangi bir sürüm sorunsuz çalışır.
 - Temel C# bilgisi: Uzman olmanıza gerek yok, ancak temel bir kavrayışa sahip olmak faydalı olacaktır.
 - PDF belgesi: Test için hazır bir örnek PDF belgesi bulundurun.
@@ -55,13 +57,13 @@ Sonra, .NET için Aspose.Words'e bir referans eklemeniz gerekir. Bunu NuGet Pake
 
 ### Veri Dizinini Tanımlayın
 
- Projenizde`Program.cs` dosya, belgelerinizin dizinine giden yolu tanımlayarak başlayın. PDF dosyanız burada bulunur.
+Projenizde `Program.cs` dosya, belgelerinizin dizinine giden yolu tanımlayarak başlayın. PDF dosyanız burada bulunur.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` Belgelerinizin bulunduğu klasöre giden gerçek yol ile.
 
 ### PDF Görüntülerini Atlamak İçin Yükleme Seçeneklerini Ayarla
 
@@ -79,7 +81,7 @@ Yükleme seçenekleri ayarlandığında, PDF belgesini yüklemeye hazırsınız.
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- Emin olun ki`"Pdf Document.pdf"` belirtilen dizindeki PDF dosyanızın adıdır.
+Emin olun ki `"Pdf Document.pdf"` belirtilen dizindeki PDF dosyanızın adıdır.
 
 ## Çözüm
 
@@ -89,7 +91,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### PDF'deki belirli resimleri seçerek atlayabilir miyim?
 
- Hayır,`SkipPdfImages` seçeneği PDF'deki tüm resimleri atlar. Seçici kontrole ihtiyacınız varsa, PDF'yi önceden işlemeyi düşünün.
+Hayır, `SkipPdfImages` seçeneği PDF'deki tüm resimleri atlar. Seçici kontrole ihtiyacınız varsa, PDF'yi önceden işlemeyi düşünün.
 
 ### Bu özellik PDF'deki metni etkiliyor mu?
 
@@ -97,7 +99,7 @@ Hayır, görselleri atlamak yalnızca görselleri etkiler. Metin bozulmadan ve t
 
 ### Bu özelliği diğer belge formatlarıyla da kullanabilir miyim?
 
- The`SkipPdfImages` seçeneği özellikle PDF belgeleri içindir. Diğer formatlar için farklı seçenekler ve yöntemler mevcuttur.
+The `SkipPdfImages` seçeneği özellikle PDF belgeleri içindir. Diğer formatlar için farklı seçenekler ve yöntemler mevcuttur.
 
 ### Resimlerin atlandığını nasıl doğrulayabilirim?
 
@@ -105,11 +107,16 @@ Hayır, görselleri atlamak yalnızca görselleri etkiler. Metin bozulmadan ve t
 
 ### PDF'de resim yoksa ne olur?
 
- Belge her zamanki gibi yüklenir ve işlem üzerinde hiçbir etkisi olmaz.`SkipPdfImages` Bu durumda seçeneğin hiçbir etkisi yoktur.
+Belge her zamanki gibi yüklenir ve işlem üzerinde hiçbir etkisi olmaz. `SkipPdfImages` Bu durumda seçeneğin hiçbir etkisi yoktur.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

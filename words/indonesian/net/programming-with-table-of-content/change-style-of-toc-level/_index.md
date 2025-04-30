@@ -1,14 +1,16 @@
 ---
-title: Ubah Gaya Daftar Isi Dalam Dokumen Word
-linktitle: Ubah Gaya Daftar Isi Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah gaya TOC dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sesuaikan TOC Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Pelajari cara mengubah gaya TOC dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sesuaikan TOC Anda dengan mudah."
+"linktitle": "Ubah Gaya Daftar Isi Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Gaya Daftar Isi Dalam Dokumen Word"
+"url": "/id/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Gaya Daftar Isi Dalam Dokumen Word
@@ -21,7 +23,7 @@ Jika Anda pernah perlu membuat dokumen Word profesional, Anda tahu betapa pentin
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki yang berikut ini:
 
-1.  Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman tentang bahasa pemrograman C#.
 
@@ -80,16 +82,21 @@ Aspose.Words untuk .NET adalah pustaka kelas untuk membuat, memodifikasi, dan me
 Ya, Anda dapat mengubah berbagai gaya dalam TOC dengan mengakses berbagai level dan properti gaya.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah saya perlu menginstal Microsoft Word untuk menggunakan Aspose.Words untuk .NET?
 Tidak, Aspose.Words untuk .NET tidak memerlukan Microsoft Word untuk diinstal di komputer Anda.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lebih rinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lebih rinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

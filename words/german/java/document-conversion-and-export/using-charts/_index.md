@@ -1,14 +1,16 @@
 ---
-title: Verwenden von Diagrammen in Aspose.Words für Java
-linktitle: Verwenden von Diagrammen
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie, wie Sie in Aspose.Words für Java Diagramme erstellen und anpassen. Erkunden Sie Diagrammtypen, Formatierungen und Achseneigenschaften zur Datenvisualisierung.
-weight: 12
-url: /de/java/document-conversion-and-export/using-charts/
+"description": "Erfahren Sie, wie Sie Diagramme in Aspose.Words für Java erstellen und anpassen. Entdecken Sie Diagrammtypen, Formatierungen und Achseneigenschaften zur Datenvisualisierung."
+"linktitle": "Verwenden von Diagrammen"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Verwenden von Diagrammen in Aspose.Words für Java"
+"url": "/de/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verwenden von Diagrammen in Aspose.Words für Java
@@ -16,7 +18,7 @@ url: /de/java/document-conversion-and-export/using-charts/
 
 ## Einführung in die Verwendung von Diagrammen in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für Java mit Diagrammen arbeiten. Sie erfahren, wie Sie verschiedene Diagrammtypen erstellen, Achseneigenschaften anpassen, Datenbeschriftungen formatieren und vieles mehr. Lassen Sie uns eintauchen!
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für Java Diagramme erstellen. Sie lernen, wie Sie verschiedene Diagrammtypen erstellen, Achseneigenschaften anpassen, Datenbeschriftungen formatieren und vieles mehr. Los geht‘s!
 
 ## Erstellen eines Liniendiagramms
 
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx
 
 ## Erstellen anderer Diagrammtypen
 
-Sie können mit ähnlichen Techniken verschiedene Diagrammtypen wie Säulen-, Flächen-, Blasen-, Streudiagramme und mehr erstellen. Hier ist ein Beispiel für das Einfügen eines einfachen Säulendiagramms:
+Mit ähnlichen Techniken können Sie verschiedene Diagrammtypen wie Säulen-, Flächen-, Blasen-, Streu- und weitere Diagramme erstellen. Hier ist ein Beispiel für das Einfügen eines einfachen Säulendiagramms:
 
 ```java
 Document doc = new Document();
@@ -80,15 +82,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.AREA, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Löschen Sie die Standardreihe und fügen Sie Ihre Daten hinzu.
+// Löschen Sie die Standardreihen und fügen Sie Ihre Daten hinzu.
 
 ChartAxis xAxis = chart.getAxisX();
 ChartAxis yAxis = chart.getAxisY();
 
-// Ändern Sie die X-Achse so, dass sie eine Kategorie statt einem Datum anzeigt.
+// Ändern Sie die X-Achse so, dass sie eine Kategorie statt eines Datums ist.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Gemessen in Anzeigeeinheiten der Y-Achse (Hunderter).
+xAxis.setCrossesAt(3.0); // Gemessen in Anzeigeeinheiten der Y-Achse (Hunderter).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,7 +108,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx"
 
 ## Formatieren von Datenbeschriftungen
 
-Sie können Datenbeschriftungen mit unterschiedlichen Zahlenformaten formatieren. Hier ist ein Beispiel:
+Sie können Datenbeschriftungen mit verschiedenen Zahlenformaten formatieren. Hier ist ein Beispiel:
 
 ```java
 Document doc = new Document();
@@ -114,7 +116,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Löschen Sie die Standardreihe und fügen Sie Ihre Daten hinzu.
+// Löschen Sie die Standardreihen und fügen Sie Ihre Daten hinzu.
 
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 
@@ -123,36 +125,41 @@ doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 
 ## Zusätzliche Diagrammanpassungen
 
-Sie können Ihre Diagramme weiter anpassen, indem Sie Grenzen, Intervalleinheiten zwischen Beschriftungen, das Ausblenden von Diagrammachsen und mehr anpassen. Sehen Sie sich die bereitgestellten Codeausschnitte an, um mehr über diese Optionen zu erfahren.
+Sie können Ihre Diagramme weiter anpassen, indem Sie Grenzen, Intervalleinheiten zwischen Beschriftungen, das Ausblenden von Diagrammachsen und vieles mehr anpassen. Sehen Sie sich die bereitgestellten Codeausschnitte an, um mehr über diese Optionen zu erfahren.
 
 ## Abschluss
 
-In diesem Tutorial haben wir untersucht, wie Sie mit Diagrammen unter Verwendung von Aspose.Words für Java arbeiten. Sie haben gelernt, wie Sie verschiedene Diagrammtypen erstellen, Achseneigenschaften anpassen, Datenbeschriftungen formatieren und vieles mehr. Aspose.Words für Java bietet leistungsstarke Tools zum Hinzufügen visueller Darstellungen von Daten zu Ihren Dokumenten und verbessert so die Art und Weise, wie Sie Informationen präsentieren.
+In diesem Tutorial haben wir die Arbeit mit Diagrammen mit Aspose.Words für Java erkundet. Sie haben gelernt, verschiedene Diagrammtypen zu erstellen, Achseneigenschaften anzupassen, Datenbeschriftungen zu formatieren und vieles mehr. Aspose.Words für Java bietet leistungsstarke Tools zum Hinzufügen visueller Datendarstellungen zu Ihren Dokumenten und verbessert so die Informationspräsentation.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich einem Diagramm mehrere Reihen hinzufügen?
 
- Sie können einem Diagramm mehrere Reihen hinzufügen, indem Sie das`chart.getSeries().add()` Methode. Stellen Sie sicher, dass Sie den Seriennamen, die Kategorien und die Datenwerte angeben.
+Sie können einem Diagramm mehrere Reihen hinzufügen, indem Sie das `chart.getSeries().add()` Methode. Stellen Sie sicher, dass Sie den Seriennamen, die Kategorien und die Datenwerte angeben.
 
 ### Wie kann ich Datenbeschriftungen mit benutzerdefinierten Zahlenformaten formatieren?
 
-Sie können Datenbeschriftungen formatieren, indem Sie auf das`DataLabels` Eigenschaften einer Serie und Festlegen des gewünschten Formatcodes mit`getNumberFormat().setFormatCode()`.
+Sie können Datenbeschriftungen formatieren, indem Sie auf die `DataLabels` Eigenschaften einer Serie und Festlegen des gewünschten Formatcodes mithilfe `getNumberFormat().setFormatCode()`.
 
 ### Wie passe ich Achseneigenschaften in einem Diagramm an?
 
- Sie können Achseneigenschaften wie Typ, Teilstriche, Beschriftungen und mehr anpassen, indem Sie auf das`ChartAxis` Eigenschaften wie`setCategoryType()`, `setCrosses()` , Und`setMajorTickMark()`.
+Sie können Achseneigenschaften wie Typ, Teilstriche, Beschriftungen und mehr anpassen, indem Sie auf die `ChartAxis` Eigenschaften wie `setCategoryType()`, `setCrosses()`, Und `setMajorTickMark()`.
 
 ### Wie kann ich andere Diagrammtypen wie Streu- oder Flächendiagramme erstellen?
 
- Sie können verschiedene Diagrammtypen erstellen, indem Sie die entsprechenden`ChartType` beim Einfügen des Diagramms mit`builder.insertChart(ChartType.TYPE, width, height)`.
+Sie können verschiedene Diagrammtypen erstellen, indem Sie die entsprechenden `ChartType` beim Einfügen des Diagramms mit `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Wie kann ich eine Diagrammachse ausblenden?
 
- Sie können eine Diagrammachse ausblenden, indem Sie das`setHidden(true)` Eigenschaft der Achse.
+Sie können eine Diagrammachse ausblenden, indem Sie die `setHidden(true)` Eigenschaft der Achse.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

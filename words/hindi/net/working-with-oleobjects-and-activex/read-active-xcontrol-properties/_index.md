@@ -1,14 +1,16 @@
 ---
-title: वर्ड फ़ाइल से Active XControl गुण पढ़ें
-linktitle: वर्ड फ़ाइल से Active XControl गुण पढ़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुण पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ।
-weight: 10
-url: /hi/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुण पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ।"
+"linktitle": "वर्ड फ़ाइल से Active XControl गुण पढ़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड फ़ाइल से Active XControl गुण पढ़ें"
+"url": "/hi/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड फ़ाइल से Active XControl गुण पढ़ें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विजुअल स्टूडियो या कोई भी C# IDE: अपना कोड लिखने और निष्पादित करने के लिए।
 3. ActiveX नियंत्रणों वाला एक Word दस्तावेज़: उदाहरण के लिए, "ActiveX controls.docx".
 4. C# का बुनियादी ज्ञान: आगे बढ़ने के लिए C# प्रोग्रामिंग से परिचित होना आवश्यक है।
@@ -120,16 +122,21 @@ Console.WriteLine("\n" + properties);
 हां, .NET के लिए Aspose.Words आपको प्रोग्रामेटिक रूप से ActiveX नियंत्रणों के गुणों को संशोधित करने की अनुमति देता है।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है, लेकिन आपको निरंतर उपयोग के लिए लाइसेंस खरीदना होगा। आप एक निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है, लेकिन आपको निरंतर उपयोग के लिए लाइसेंस खरीदना होगा। आप एक निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं C# के अलावा अन्य .NET भाषाओं के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
 हां, .NET के लिए Aspose.Words का उपयोग किसी भी .NET भाषा के साथ किया जा सकता है, जिसमें VB.NET और F# शामिल हैं।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

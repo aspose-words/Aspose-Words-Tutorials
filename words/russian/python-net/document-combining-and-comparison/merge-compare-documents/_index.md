@@ -1,14 +1,16 @@
 ---
-title: Объединение и сравнение документов в Word
-linktitle: Объединение и сравнение документов в Word
-second_title: API управления документами Python Aspose.Words
-description: Объединяйте и сравнивайте документы Word без усилий с помощью Aspose.Words для Python. Узнайте, как манипулировать документами, выделять различия и автоматизировать задачи.
-weight: 10
-url: /ru/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "Объединяйте и сравнивайте документы Word без усилий с помощью Aspose.Words для Python. Узнайте, как управлять документами, выделять различия и автоматизировать задачи."
+"linktitle": "Объединение и сравнение документов в Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Объединение и сравнение документов в Word"
+"url": "/ru/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединение и сравнение документов в Word
@@ -109,14 +111,19 @@ pip install aspose-words
 
 ### Могу ли я объединить более двух документов с помощью этой библиотеки?
 
-Да, вы можете объединить любое количество документов, используя`append_document` метод, как показано в уроке.
+Да, вы можете объединить любое количество документов, используя `append_document` метод, как показано в уроке.
 
 ### Где я могу получить доступ к библиотеке и ресурсам?
 
- Посетите библиотеку и узнайте больше на сайте[здесь](https://releases.aspose.com/words/python/).
+Посетите библиотеку и узнайте больше на сайте [здесь](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

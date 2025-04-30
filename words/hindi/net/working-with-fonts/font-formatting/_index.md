@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट स्वरूपण
-linktitle: फ़ॉन्ट स्वरूपण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट को प्रारूपित करना सीखें।
-weight: 10
-url: /hi/net/working-with-fonts/font-formatting/
+"description": "विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट को प्रारूपित करना सीखें।"
+"linktitle": "फ़ॉन्ट स्वरूपण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट स्वरूपण"
+"url": "/hi/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट स्वरूपण
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fonts/font-formatting/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Words for .NET लाइब्रेरी: आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# IDE.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की मूल बातें समझने से आपको उदाहरणों के साथ आगे बढ़ने में मदद मिलेगी।
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## चरण 1: दस्तावेज़ सेट करना
 
- शुरू करने के लिए, आइए एक नया दस्तावेज़ बनाएं और एक सेटअप करें`DocumentBuilder`:
+शुरू करने के लिए, आइए एक नया दस्तावेज़ बनाएं और एक सेटअप करें `DocumentBuilder`:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words का उपयोग करके मैं अन्य कौन से फ़ॉन्ट गुण सेट कर सकता हूँ?
- आप इटैलिक, स्ट्राइकथ्रू, सबस्क्रिप्ट, सुपरस्क्रिप्ट और अन्य जैसे गुण सेट कर सकते हैं।[प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए.
+आप इटैलिक, स्ट्राइकथ्रू, सबस्क्रिप्ट, सुपरस्क्रिप्ट और अन्य जैसे गुण सेट कर सकते हैं। [प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए.
 
 ### क्या मैं किसी दस्तावेज़ में मौजूदा पाठ का फ़ॉन्ट बदल सकता हूँ?
 हां, आप दस्तावेज़ में जा सकते हैं और मौजूदा पाठ में फ़ॉन्ट परिवर्तन लागू कर सकते हैं। 
@@ -92,13 +94,18 @@ doc.Save(dataDir + "WorkingWithFonts.FontFormatting.docx");
 बिल्कुल! आप अपने सिस्टम पर इंस्टॉल किए गए किसी भी फ़ॉन्ट का उपयोग कर सकते हैं या सीधे दस्तावेज़ में कस्टम फ़ॉन्ट एम्बेड कर सकते हैं।
 
 ### मैं पाठ के विभिन्न भागों पर भिन्न फ़ॉन्ट शैलियाँ कैसे लागू कर सकता हूँ?
- एकाधिक उपयोग करें`DocumentBuilder` उदाहरणों के बीच फ़ॉन्ट सेटिंग स्विच करें या`Write` विभिन्न पाठ खंडों पर अलग-अलग शैलियाँ लागू करने का आह्वान करता है।
+एकाधिक उपयोग करें `DocumentBuilder` उदाहरणों के बीच फ़ॉन्ट सेटिंग स्विच करें या `Write` विभिन्न पाठ खंडों पर अलग-अलग शैलियाँ लागू करने का आह्वान करता है।
 
 ### क्या .NET के लिए Aspose.Words DOCX के अलावा अन्य दस्तावेज़ स्वरूपों का समर्थन करता है?
 हां, यह पीडीएफ, एचटीएमएल, ईपीयूबी आदि सहित विभिन्न प्रारूपों का समर्थन करता है। 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

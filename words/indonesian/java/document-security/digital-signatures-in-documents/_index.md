@@ -1,14 +1,16 @@
 ---
-title: Tanda Tangan Digital dalam Dokumen
-linktitle: Tanda Tangan Digital dalam Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menerapkan tanda tangan digital yang aman dalam dokumen menggunakan Aspose.Words untuk Java. Pastikan integritas dokumen dengan panduan langkah demi langkah dan kode sumber
-weight: 13
-url: /id/java/document-security/digital-signatures-in-documents/
+"description": "Pelajari cara menerapkan tanda tangan digital yang aman dalam dokumen menggunakan Aspose.Words untuk Java. Pastikan integritas dokumen dengan panduan langkah demi langkah dan kode sumber"
+"linktitle": "Tanda Tangan Digital dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Tanda Tangan Digital dalam Dokumen"
+"url": "/id/java/document-security/digital-signatures-in-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tanda Tangan Digital dalam Dokumen
@@ -21,13 +23,13 @@ Di dunia digital yang semakin berkembang, kebutuhan akan penandatanganan dokumen
 
 Sebelum kita masuk ke inti penambahan tanda tangan digital, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di komputer Anda. Anda dapat mengunduhnya dari[Situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di komputer Anda. Anda dapat mengunduhnya dari [Situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-2.  Aspose.Words untuk Java: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/words/java/).
+2. Aspose.Words untuk Java: Anda memerlukan pustaka Aspose.Words. Anda dapat mengunduhnya dari [halaman rilis](https://releases.aspose.com/words/java/).
 
 3. Editor Kode: Gunakan editor kode atau IDE pilihan Anda (seperti IntelliJ IDEA, Eclipse, atau NetBeans) untuk menulis kode Java Anda.
 
-4.  Sertifikat Digital: Untuk menandatangani dokumen, Anda memerlukan sertifikat digital dalam format PFX. Jika Anda tidak memilikinya, Anda dapat membuat lisensi sementara dari[Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
+4. Sertifikat Digital: Untuk menandatangani dokumen, Anda memerlukan sertifikat digital dalam format PFX. Jika Anda tidak memilikinya, Anda dapat membuat lisensi sementara dari [Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
 5. Pengetahuan Dasar Java: Keakraban dengan pemrograman Java akan membantu Anda memahami potongan kode yang akan kita gunakan.
 
@@ -54,8 +56,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
--  Kami membuat contoh baru`Document` objek, yang mewakili dokumen Word kita.
--  Itu`DocumentBuilder` adalah alat yang hebat yang membantu kita membuat dan memanipulasi dokumen kita dengan mudah.
+- Kami membuat contoh baru `Document` objek, yang mewakili dokumen Word kita.
+- Itu `DocumentBuilder` adalah alat yang hebat yang membantu kita membuat dan memanipulasi dokumen kita dengan mudah.
 
 ## Langkah 2: Konfigurasikan Opsi Baris Tanda Tangan
 
@@ -74,7 +76,7 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
 }
 ```
  
--  Di sini, kita membuat sebuah instance dari`SignatureLineOptions` dan tetapkan berbagai parameter seperti nama penanda tangan, jabatan, email, dan instruksi. Kustomisasi ini memastikan bahwa baris tanda tangan jelas dan informatif.
+- Di sini, kita membuat sebuah instance dari `SignatureLineOptions` dan tetapkan berbagai parameter seperti nama penanda tangan, jabatan, email, dan instruksi. Kustomisasi ini memastikan bahwa baris tanda tangan jelas dan informatif.
 
 ## Langkah 3: Masukkan Baris Tanda Tangan
 
@@ -85,7 +87,7 @@ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).
 signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
 ```
  
--  Kami menggunakan`insertSignatureLine` metode dari`DocumentBuilder` untuk menambahkan baris tanda tangan ke dokumen kita.`getSignatureLine()` metode mengambil baris tanda tangan yang dibuat, yang dapat kita manipulasi lebih lanjut.
+- Kami menggunakan `insertSignatureLine` metode dari `DocumentBuilder` untuk menambahkan baris tanda tangan ke dokumen kita. `getSignatureLine()` metode mengambil baris tanda tangan yang dibuat, yang dapat kita manipulasi lebih lanjut.
 - Kami juga menetapkan ID penyedia unik untuk baris tanda tangan, yang membantu mengidentifikasi penyedia tanda tangan.
 
 ## Langkah 4: Simpan Dokumen
@@ -96,7 +98,7 @@ Sebelum kita menandatangani dokumen, mari kita simpan di lokasi yang kita ingink
 doc.save(getArtifactsDir() + "SignDocuments.SignatureLineProviderId.docx");
 ```
  
--  Itu`save` metode ini digunakan untuk menyimpan dokumen dengan baris tanda tangan yang disisipkan. Pastikan untuk mengganti`getArtifactsDir()` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+- Itu `save` metode ini digunakan untuk menyimpan dokumen dengan baris tanda tangan yang disisipkan. Pastikan untuk mengganti `getArtifactsDir()` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ## Langkah 5: Konfigurasikan Opsi Tanda
 
@@ -112,7 +114,7 @@ SignOptions signOptions = new SignOptions();
 }
 ```
  
--  Kami membuat sebuah contoh dari`SignOptions` dan konfigurasikan dengan ID baris tanda tangan, ID penyedia, komentar, dan waktu penandatanganan saat ini. Langkah ini penting untuk memastikan bahwa tanda tangan dikaitkan dengan benar dengan baris tanda tangan yang kita buat sebelumnya.
+- Kami membuat sebuah contoh dari `SignOptions` dan konfigurasikan dengan ID baris tanda tangan, ID penyedia, komentar, dan waktu penandatanganan saat ini. Langkah ini penting untuk memastikan bahwa tanda tangan dikaitkan dengan benar dengan baris tanda tangan yang kita buat sebelumnya.
 
 ## Langkah 6: Buat Pemegang Sertifikat
 
@@ -122,7 +124,7 @@ Untuk menandatangani dokumen, kita perlu membuat pemegang sertifikat menggunakan
 CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 ```
  
--  Itu`CertificateHolder.create`metode mengambil jalur ke berkas PFX Anda dan kata sandinya. Objek ini akan digunakan untuk mengautentikasi proses penandatanganan.
+- Itu `CertificateHolder.create` metode mengambil jalur ke berkas PFX Anda dan kata sandinya. Objek ini akan digunakan untuk mengautentikasi proses penandatanganan.
 
 ## Langkah 7: Tandatangani Dokumen
 
@@ -133,7 +135,7 @@ DigitalSignatureUtil.sign(getArtifactsDir() + "SignDocuments.SignatureLineProvid
     getArtifactsDir() + "SignDocuments.CreateNewSignatureLineAndSetProviderId.docx", certHolder, signOptions);
 ```
  
--  Itu`DigitalSignatureUtil.sign` Metode ini mengambil jalur dokumen asli, jalur untuk dokumen yang ditandatangani, pemegang sertifikat, dan opsi penandatanganan. Metode ini menerapkan tanda tangan digital ke dokumen Anda.
+- Itu `DigitalSignatureUtil.sign` Metode ini mengambil jalur dokumen asli, jalur untuk dokumen yang ditandatangani, pemegang sertifikat, dan opsi penandatanganan. Metode ini menerapkan tanda tangan digital ke dokumen Anda.
 
 ## Kesimpulan
 
@@ -154,10 +156,15 @@ Ya, Anda dapat menggunakan sertifikat yang ditandatangani sendiri, tetapi mungki
 Ya, tanda tangan digital menyediakan lapisan keamanan, memastikan bahwa dokumen tidak diubah setelah penandatanganan.
 
 ### Di mana saya dapat mempelajari lebih lanjut tentang Aspose.Words?
- Anda dapat menjelajahi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/) untuk rincian lebih lanjut dan fitur-fitur lanjutan.
+Anda dapat menjelajahi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/) untuk rincian lebih lanjut dan fitur-fitur lanjutan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

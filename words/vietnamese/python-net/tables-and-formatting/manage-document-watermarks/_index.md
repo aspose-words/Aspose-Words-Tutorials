@@ -1,14 +1,16 @@
 ---
-title: Tạo và định dạng hình mờ cho tính thẩm mỹ của tài liệu
-linktitle: Tạo và định dạng hình mờ cho tính thẩm mỹ của tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách tạo và định dạng hình mờ trong tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để thêm hình mờ văn bản và hình ảnh. Nâng cao tính thẩm mỹ cho tài liệu của bạn với hướng dẫn này.
-weight: 10
-url: /vi/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "Tìm hiểu cách tạo và định dạng hình mờ trong tài liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để thêm hình mờ văn bản và hình ảnh. Nâng cao tính thẩm mỹ cho tài liệu của bạn với hướng dẫn này."
+"linktitle": "Tạo và định dạng hình mờ cho tính thẩm mỹ của tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tạo và định dạng hình mờ cho tính thẩm mỹ của tài liệu"
+"url": "/vi/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo và định dạng hình mờ cho tính thẩm mỹ của tài liệu
@@ -18,21 +20,21 @@ Watermark đóng vai trò là một yếu tố tinh tế nhưng có tác động
 
 ## Giới thiệu về Watermark trong Tài liệu
 
-Hình mờ là các yếu tố thiết kế được đặt ở nền của tài liệu để truyền tải thông tin bổ sung hoặc thương hiệu mà không cản trở nội dung chính. Chúng thường được sử dụng trong các tài liệu kinh doanh, giấy tờ pháp lý và các tác phẩm sáng tạo để duy trì tính toàn vẹn của tài liệu và tăng cường sức hấp dẫn trực quan.
+Hình mờ là các yếu tố thiết kế được đặt ở phần nền của tài liệu để truyền tải thông tin bổ sung hoặc thương hiệu mà không cản trở nội dung chính. Chúng thường được sử dụng trong các tài liệu kinh doanh, giấy tờ pháp lý và các tác phẩm sáng tạo để duy trì tính toàn vẹn của tài liệu và tăng cường sức hấp dẫn trực quan.
 
 ## Bắt đầu với Aspose.Words cho Python
 
- Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Python. Bạn có thể tải xuống từ Aspose Releases:[Tải xuống Aspose.Words cho Python](https://releases.aspose.com/words/python/).
+Để bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Python. Bạn có thể tải xuống từ Aspose Releases: [Tải xuống Aspose.Words cho Python](https://releases.aspose.com/words/python/).
 
 Sau khi cài đặt, bạn có thể nhập các mô-đun cần thiết và thiết lập đối tượng tài liệu.
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# Tải hoặc tạo một tài liệu
 doc = aw.Document()
 
-# Your code continues here
+# Mã của bạn tiếp tục ở đây
 ```
 
 ## Thêm hình mờ văn bản
@@ -44,13 +46,13 @@ doc = aw.Document()
 3. Thêm hình mờ vào tài liệu.
 
 ```python
-# Create a watermark object
+# Tạo đối tượng hình mờ
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# Đặt văn bản cho hình mờ
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# Thêm hình mờ vào tài liệu
 doc.watermark = watermark
 ```
 
@@ -59,7 +61,7 @@ doc.watermark = watermark
 Bạn có thể tùy chỉnh giao diện của hình mờ văn bản bằng cách điều chỉnh nhiều thuộc tính khác nhau:
 
 ```python
-# Customize text watermark appearance
+# Tùy chỉnh giao diện hình mờ văn bản
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
@@ -74,14 +76,14 @@ Việc thêm hình mờ vào ảnh cũng bao gồm một quá trình tương t�
 3. Thêm hình mờ vào tài liệu.
 
 ```python
-# Load the image for the watermark
+# Tải hình ảnh cho hình mờ
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# Tạo đối tượng hình mờ hình ảnh
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# Thêm hình mờ vào tài liệu
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 Bạn có thể kiểm soát kích thước và vị trí của hình mờ:
 
 ```python
-# Adjust image watermark properties
+# Điều chỉnh thuộc tính hình mờ của hình ảnh
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -101,7 +103,7 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 Nếu bạn muốn áp dụng hình mờ vào các phần cụ thể của tài liệu, bạn có thể sử dụng cách sau:
 
 ```python
-# Apply watermark to a specific section
+# Áp dụng hình mờ cho một phần cụ thể
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 Để tạo hình mờ trong suốt, hãy điều chỉnh mức độ trong suốt:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# Tạo hình mờ trong suốt
+watermark.transparency = 0.5  # Phạm vi: 0 (mờ đục) đến 1 (hoàn toàn trong suốt)
 ```
 
 ## Lưu tài liệu có hình mờ
@@ -120,7 +122,7 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 Sau khi đã thêm hình mờ, hãy lưu tài liệu với hình mờ đã áp dụng:
 
 ```python
-# Save the document with watermarks
+# Lưu tài liệu có hình mờ
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
@@ -133,28 +135,33 @@ Thêm hình mờ vào tài liệu của bạn bằng Aspose.Words for Python là
 
 ### Làm thế nào để xóa hình mờ khỏi tài liệu?
 
- Để xóa hình mờ, hãy đặt thuộc tính hình mờ của tài liệu thành`None`.
+Để xóa hình mờ, hãy đặt thuộc tính hình mờ của tài liệu thành `None`.
 
 ### Tôi có thể áp dụng nhiều hình mờ khác nhau cho các trang khác nhau không?
 
-Có, bạn có thể áp dụng nhiều hình mờ khác nhau cho các phần hoặc trang khác nhau trong một tài liệu.
+Có, bạn có thể áp dụng nhiều hình mờ khác nhau cho các phần hoặc trang khác nhau trong tài liệu.
 
 ### Có thể sử dụng hình mờ văn bản xoay được không?
 
-Hoàn toàn được! Bạn có thể xoay hình mờ văn bản bằng cách thiết lập thuộc tính góc xoay.
+Chắc chắn rồi! Bạn có thể xoay hình mờ văn bản bằng cách thiết lập thuộc tính góc xoay.
 
 ### Tôi có thể bảo vệ hình mờ khỏi bị chỉnh sửa hoặc xóa không?
 
-Mặc dù hình mờ không thể được bảo vệ hoàn toàn, bạn có thể bảo vệ chúng khỏi bị phá hoại bằng cách điều chỉnh độ trong suốt và vị trí của chúng.
+Mặc dù hình mờ không thể được bảo vệ hoàn toàn, bạn có thể bảo vệ chúng tốt hơn khỏi sự xâm phạm bằng cách điều chỉnh độ trong suốt và vị trí của chúng.
 
 ### Aspose.Words dành cho Python có phù hợp với cả Windows và Linux không?
 
 Có, Aspose.Words for Python tương thích với cả môi trường Windows và Linux.
 
- Để biết thêm chi tiết và tài liệu tham khảo API toàn diện, hãy truy cập tài liệu Aspose.Words:[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/)
+Để biết thêm chi tiết và tài liệu tham khảo API toàn diện, hãy truy cập tài liệu Aspose.Words: [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

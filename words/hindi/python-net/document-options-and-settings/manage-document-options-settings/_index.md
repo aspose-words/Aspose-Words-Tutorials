@@ -1,14 +1,16 @@
 ---
-title: दक्षता के लिए दस्तावेज़ विकल्पों और सेटिंग्स को बेहतर बनाना
-linktitle: दक्षता के लिए दस्तावेज़ विकल्पों और सेटिंग्स को बेहतर बनाना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को कुशलतापूर्वक संचालित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को कुशलतापूर्वक हेरफेर करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दक्षता के लिए दस्तावेज़ विकल्पों और सेटिंग्स को बेहतर बनाना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "दक्षता के लिए दस्तावेज़ विकल्पों और सेटिंग्स को बेहतर बनाना"
+"url": "/hi/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दक्षता के लिए दस्तावेज़ विकल्पों और सेटिंग्स को बेहतर बनाना
@@ -38,7 +40,7 @@ doc = aw.Document()
 
 ## दस्तावेज़ गुण संशोधित करना:
 
-उचित संगठन और खोज योग्यता के लिए दस्तावेज़ के गुणों जैसे शीर्षक, लेखक और कीवर्ड को समायोजित करना आवश्यक है:
+उचित संगठन और खोज योग्यता के लिए शीर्षक, लेखक और कीवर्ड जैसे दस्तावेज़ गुणों को समायोजित करना आवश्यक है:
 
 ```python
 doc.built_in_document_properties["Title"].value = "My Document"
@@ -48,7 +50,7 @@ doc.built_in_document_properties["Keywords"].value = "Python, Aspose.Words, Docu
 
 ## पेज सेटअप प्रबंधित करना:
 
-पृष्ठ आयाम, मार्जिन और ओरिएंटेशन को नियंत्रित करने से यह सुनिश्चित होता है कि आपका दस्तावेज़ इच्छित रूप में दिखाई दे:
+पृष्ठ आयाम, मार्जिन और ओरिएंटेशन को नियंत्रित करने से यह सुनिश्चित होता है कि आपका दस्तावेज़ अपेक्षित रूप में दिखाई दे:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -129,7 +131,7 @@ pip install aspose-words
 
 ### मैं API का उपयोग करके पृष्ठ मार्जिन कैसे समायोजित करूं?
 
- आप पृष्ठ मार्जिन को समायोजित कर सकते हैं`PageSetup` वर्ग. उदाहरण के लिए:
+आप पृष्ठ मार्जिन को समायोजित कर सकते हैं `PageSetup` वर्ग. उदाहरण के लिए:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### क्या मैं Aspose.Words का उपयोग करके अपने दस्तावेज़ को PDF में निर्यात कर सकता हूँ?
 
- बिल्कुल, आप अपने दस्तावेज़ को पीडीएफ सहित विभिन्न प्रारूपों में निर्यात कर सकते हैं,`save` विधि. उदाहरण के लिए:
+बिल्कुल, आप अपने दस्तावेज़ को पीडीएफ सहित विभिन्न प्रारूपों में निर्यात कर सकते हैं `save` विधि. उदाहरण के लिए:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### मैं Python के लिए Aspose.Words के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप दस्तावेज़ का संदर्भ यहां ले सकते हैं[यहाँ](https://reference.aspose.com/words/python-net/).
+आप दस्तावेज़ का संदर्भ यहां ले सकते हैं [यहाँ](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,60 +1,62 @@
 ---
-title: Obdržet upozornění na varování
-linktitle: Obdržet upozornění na varování
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak přijímat oznámení o záměně písem v Aspose.Words pro .NET s naším podrobným průvodcem. Ujistěte se, že se vaše dokumenty pokaždé vykreslí správně.
-weight: 10
-url: /cs/net/working-with-fonts/receive-warning-notification/
+"description": "Naučte se, jak dostávat oznámení o nahrazování písem v Aspose.Words pro .NET s naším podrobným návodem. Zajistěte, aby se vaše dokumenty pokaždé vykreslovaly správně."
+"linktitle": "Přijímat varovné oznámení"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přijímat varovné oznámení"
+"url": "/cs/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obdržet upozornění na varování
+# Přijímat varovné oznámení
 
 ## Zavedení
 
-Už vás nebaví řešit neočekávané problémy s písmy ve vašich dokumentech? S Aspose.Words for .NET můžete být upozorněni na jakékoli potenciální problémy během zpracování dokumentu, což usnadňuje udržování kvality dokumentu. Tento komplexní průvodce vás provede nastavením varovných upozornění v Aspose.Words a zajistí, že už nikdy nezmeškáte zásadní varování.
+Už vás nebaví potýkat se s neočekávanými problémy s písmy ve vašich dokumentech? S Aspose.Words pro .NET můžete dostávat upozornění na jakékoli potenciální problémy během zpracování dokumentů, což usnadňuje udržování kvality dokumentů. Tato komplexní příručka vás provede nastavením upozornění v Aspose.Words a zajistí, že už nikdy nezmeškáte žádné důležité varování.
 
 ## Předpoklady
 
-Než se ponoříme, ujistěte se, že máte následující:
+Než se do toho pustíme, ujistěte se, že máte následující:
 
-- Základní znalost C#: Znalost C# vám pomůže pochopit a implementovat kroky.
--  Aspose.Words for .NET Library: Stáhněte a nainstalujte ji z[odkaz ke stažení](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Nastavení jako Visual Studio pro psaní a spouštění kódu.
--  Vzorový dokument: Mějte vzorový dokument (např.`Rendering.docx`) pracovat.
+- Základní znalost C#: Znalost C# vám pomůže porozumět jednotlivým krokům a implementovat je.
+- Knihovna Aspose.Words pro .NET: Stáhněte si ji a nainstalujte z [odkaz ke stažení](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Nastavení, jako je Visual Studio, pro psaní a spouštění kódu.
+- Vzorový dokument: Mějte k dispozici vzorový dokument (např. `Rendering.docx`) s nimiž pracovat.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, musíte importovat potřebné jmenné prostory. Ty nám poskytnou přístup ke třídám a metodám potřebným pro náš úkol.
+Pro začátek je potřeba importovat potřebné jmenné prostory. Ty nám poskytnou přístup ke třídám a metodám potřebným pro náš úkol.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.WarningInfo;
 ```
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
-Nejprve zadejte adresář, kde je dokument uložen. To je nezbytné pro nalezení dokumentu, který chcete zpracovat.
+Nejprve zadejte adresář, kde je váš dokument uložen. To je nezbytné pro nalezení dokumentu, který chcete zpracovat.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Vložte dokument
+## Krok 2: Vložení dokumentu
 
- Vložte dokument do Aspose.Words`Document` objekt. To vám umožní programově manipulovat s dokumentem.
+Vložte dokument do Aspose.Words `Document` objekt. To umožňuje programově manipulovat s dokumentem.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 3: Nastavte zpětné volání upozornění
+## Krok 3: Nastavení zpětného volání varování
 
- Chcete-li zachytit a zpracovat varování, vytvořte třídu, která implementuje`IWarningCallback` rozhraní. Tato třída zaznamená všechna varování, která se vyskytnou během zpracování dokumentu.
+Pro zachycení a zpracování varování vytvořte třídu, která implementuje `IWarningCallback` rozhraní. Tato třída bude zaznamenávat veškerá varování, ke kterým dojde během zpracování dokumentu.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -66,17 +68,17 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-## Krok 4: Přiřaďte zpětné volání dokumentu
+## Krok 4: Přiřaďte zpětné volání k dokumentu
 
-Přiřaďte dokumentu zpětné volání upozornění. Tím je zajištěno, že budou zachyceny a zaznamenány všechny problémy s písmy.
+Přiřaďte zpětné volání varování k dokumentu. Tím zajistíte, že budou zaznamenány a zaprotokolovány veškeré problémy s písmy.
 
 ```csharp
 HandleDocumentWarnings callback = new HandleDocumentWarnings();
 doc.WarningCallback = callback;
 ```
-## Krok 5: Aktualizujte rozvržení stránky
+## Krok 5: Aktualizace rozvržení stránky
 
- Zavolejte na`UpdatePageLayout` metoda. Tím se vykreslí dokument v paměti a zachytí se všechna varování, která se vyskytnou během vykreslování.
+Zavolejte `UpdatePageLayout` metoda. Tato metoda vykreslí dokument v paměti a zachytí veškerá varování, která se během vykreslování objeví.
 
 ```csharp
 doc.UpdatePageLayout();
@@ -84,42 +86,47 @@ doc.UpdatePageLayout();
 
 ## Krok 6: Uložte dokument
 
-Nakonec dokument uložte. I v případě, že byl dokument vykreslen dříve, bude uživatel během tohoto kroku upozorněn na všechna varování o uložení.
+Nakonec dokument uložte. I když byl dokument dříve vykreslen, budou uživateli v tomto kroku oznámena všechna varování týkající se uložení.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.ReceiveWarningNotification.pdf");
 ```
 
-Provedením těchto kroků jste nakonfigurovali aplikaci tak, aby zpracovávala záměny písem elegantně a dostávala upozornění, kdykoli dojde k záměně.
+Dodržením těchto kroků jste nakonfigurovali aplikaci tak, aby elegantně zpracovávala nahrazování písem a přijímala oznámení vždy, když k nahrazení dojde.
 
 ## Závěr
 
-Nyní jste zvládli proces přijímání upozornění na nahrazení písem pomocí Aspose.Words for .NET. Tato dovednost vám pomůže zajistit, aby vaše dokumenty vždy vypadaly co nejlépe, i když nejsou k dispozici potřebná písma. Pokračujte v experimentování s různými nastaveními, abyste plně využili sílu Aspose.Words.
+Nyní jste zvládli proces přijímání oznámení o nahrazování písem pomocí Aspose.Words pro .NET. Tato dovednost vám pomůže zajistit, aby vaše dokumenty vždy vypadaly co nejlépe, i když potřebná písma nejsou k dispozici. Neustále experimentujte s různými nastaveními, abyste plně využili sílu Aspose.Words.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
 ### Q1: Mohu zadat více výchozích písem?
 
-Ne, můžete zadat pouze jedno výchozí písmo pro nahrazení. Můžete však nakonfigurovat více zdrojů záložních písem.
+Ne, pro nahrazení můžete zadat pouze jedno výchozí písmo. Můžete však nakonfigurovat více záložních zdrojů písem.
 
 ### Q2: Kde mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?
 
- Můžete si stáhnout bezplatnou zkušební verzi z[Aspose zkušební stránku zdarma](https://releases.aspose.com/).
+Zkušební verzi zdarma si můžete stáhnout z [Zkušební stránka Aspose zdarma](https://releases.aspose.com/).
 
-###  Q3: Mohu zpracovat jiné typy varování pomocí`IWarningCallback`?
+### Q3: Mohu zpracovávat jiné typy varování pomocí `IWarningCallback`?
 
- Ano,`IWarningCallback`rozhraní zvládne různé typy varování, nejen náhradu písem.
+Ano, `IWarningCallback` Rozhraní dokáže zpracovat různé typy varování, nejen substituci fontů.
 
 ### Q4: Kde najdu podporu pro Aspose.Words?
 
- Navštivte[Fórum podpory Aspose.Words](https://forum.aspose.com/c/words/8) o pomoc.
+Navštivte [Fórum podpory Aspose.Words](https://forum.aspose.com/c/words/8) o pomoc.
 
 ### Q5: Je možné získat dočasnou licenci pro Aspose.Words?
 
- Ano, můžete získat dočasnou licenci od[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+Ano, můžete získat dočasnou licenci od [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

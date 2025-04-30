@@ -1,14 +1,16 @@
 ---
-title: विकल्प देखें
-linktitle: विकल्प देखें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में विकल्पों को देखने का तरीका जानें। यह मार्गदर्शिका दृश्य प्रकार सेट करना, ज़ूम स्तर समायोजित करना और आपके दस्तावेज़ को सहेजना शामिल करती है।
-weight: 10
-url: /hi/net/programming-with-document-options-and-settings/view-options/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में विकल्पों को देखने का तरीका जानें। यह मार्गदर्शिका दृश्य प्रकार सेट करना, ज़ूम स्तर समायोजित करना और आपके दस्तावेज़ को सहेजना शामिल करती है।"
+"linktitle": "विकल्प देखें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "विकल्प देखें"
+"url": "/hi/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # विकल्प देखें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document-options-and-settings/view-options/
 
 इससे पहले कि हम कोड में पूरी तरह से उतरें, आइए सुनिश्चित करें कि हमारे पास इस ट्यूटोरियल को पूरा करने के लिए आवश्यक सभी चीजें मौजूद हैं। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
-1.  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: आपके मशीन पर विजुअल स्टूडियो जैसा IDE स्थापित होना चाहिए।
 3. C# का बुनियादी ज्ञान: यद्यपि हम चीजों को सरल रखेंगे, लेकिन C# की बुनियादी समझ लाभदायक होगी।
 4. नमूना वर्ड दस्तावेज़: एक नमूना वर्ड दस्तावेज़ तैयार रखें। इस ट्यूटोरियल के लिए, हम इसे "Document.docx" के रूप में संदर्भित करेंगे।
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- इस स्निपेट में, हम अपने दस्तावेज़ का पथ परिभाषित करते हैं और इसका उपयोग करके इसे लोड करते हैं`Document` कक्षा। प्रतिस्थापित करना सुनिश्चित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
+इस स्निपेट में, हम अपने दस्तावेज़ का पथ परिभाषित करते हैं और इसका उपयोग करके इसे लोड करते हैं `Document` कक्षा। प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
 
 ## चरण 2: दृश्य प्रकार सेट करें
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- यहाँ, हम दृश्य प्रकार सेट कर रहे हैं`PageLayout`, जो माइक्रोसॉफ्ट वर्ड में प्रिंट लेआउट दृश्य के समान है। यह आपको इस बात का अधिक सटीक प्रतिनिधित्व देता है कि आपका दस्तावेज़ प्रिंट होने पर कैसा दिखेगा।
+यहाँ, हम दृश्य प्रकार सेट कर रहे हैं `PageLayout`, जो माइक्रोसॉफ्ट वर्ड में प्रिंट लेआउट दृश्य के समान है। यह आपको इस बात का अधिक सटीक प्रतिनिधित्व देता है कि आपका दस्तावेज़ प्रिंट होने पर कैसा दिखेगा।
 
 ## चरण 3: ज़ूम स्तर समायोजित करें
 
@@ -68,7 +70,7 @@ doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- सेट करके`ZoomPercent` को`50`, हम वास्तविक आकार के 50% तक ज़ूम आउट कर रहे हैं। आप अपनी ज़रूरतों के हिसाब से इस मान को समायोजित कर सकते हैं।
+सेट करके `ZoomPercent` को `50`, हम वास्तविक आकार के 50% तक ज़ूम आउट कर रहे हैं। आप अपनी ज़रूरतों के हिसाब से इस मान को समायोजित कर सकते हैं।
 
 ## चरण 4: अपना दस्तावेज़ सहेजें
 
@@ -88,7 +90,7 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### मैं अपने दस्तावेज़ के लिए अन्य कौन से दृश्य प्रकार सेट कर सकता हूँ?
 
- .NET के लिए Aspose.Words कई दृश्य प्रकारों का समर्थन करता है, जिनमें शामिल हैं`PrintLayout`, `WebLayout`, `Reading` , और`Outline`आप अपनी आवश्यकताओं के आधार पर इन विकल्पों पर विचार कर सकते हैं।
+.NET के लिए Aspose.Words कई दृश्य प्रकारों का समर्थन करता है, जिनमें शामिल हैं `PrintLayout`, `WebLayout`, `Reading`, और `Outline`आप अपनी आवश्यकताओं के आधार पर इन विकल्पों पर विचार कर सकते हैं।
 
 ### क्या मैं अपने दस्तावेज़ के विभिन्न अनुभागों के लिए अलग-अलग ज़ूम स्तर सेट कर सकता हूँ?
 
@@ -104,10 +106,15 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### मैं .NET के लिए Aspose.Words पर अधिक विस्तृत दस्तावेज़ कहां पा सकता हूं?
 
- आप अधिक विस्तृत दस्तावेज और उदाहरण यहां पा सकते हैं[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+आप अधिक विस्तृत दस्तावेज और उदाहरण यहां पा सकते हैं [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

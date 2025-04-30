@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bagan Area Ke Dalam Dokumen Word
-linktitle: Masukkan Bagan Area Ke Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan diagram area ke dalam dokumen menggunakan Aspose.Words untuk .NET. Tambahkan data seri dan simpan dokumen dengan diagram tersebut.
-weight: 10
-url: /id/net/programming-with-charts/insert-area-chart/
+"description": "Pelajari cara menyisipkan diagram area ke dalam dokumen menggunakan Aspose.Words untuk .NET. Tambahkan data seri dan simpan dokumen dengan diagram tersebut."
+"linktitle": "Masukkan Bagan Area Ke Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bagan Area Ke Dalam Dokumen Word"
+"url": "/id/net/programming-with-charts/insert-area-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bagan Area Ke Dalam Dokumen Word
@@ -21,7 +23,7 @@ Selamat datang di panduan langkah demi langkah tentang cara menyisipkan bagan ar
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. IDE: Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 4. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu.
@@ -30,7 +32,7 @@ Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai membuat bagan area ya
 
 ## Mengimpor Ruang Nama
 
-Pertama-tama, mari impor namespace yang diperlukan. Namespace ini menyediakan kelas dan metode yang diperlukan untuk bekerja dengan dokumen dan grafik Word di Aspose.Words untuk .NET.
+Pertama-tama, mari impor namespace yang diperlukan. Namespace ini menyediakan kelas dan metode yang diperlukan untuk bekerja dengan dokumen dan grafik Word di Aspose.Words for .NET.
 
 ```csharp
 using Aspose.Words;
@@ -42,37 +44,37 @@ Sekarang setelah kita mengimpor namespace penting, mari lanjutkan ke pembuatan d
 
 ## Langkah 1: Buat Dokumen Word Baru
 
-Mari kita mulai dengan membuat dokumen Word baru. Ini akan menjadi dasar untuk menyisipkan diagram area.
+Mari kita mulai dengan membuat dokumen Word baru. Ini akan menjadi dasar tempat kita akan menyisipkan diagram area.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Pada langkah ini, kami menginisialisasi yang baru`Document` objek yang mewakili dokumen Word kita.
+Pada langkah ini, kita menginisialisasi yang baru `Document` objek yang mewakili dokumen Word kita.
 
 ## Langkah 2: Gunakan DocumentBuilder untuk Menyisipkan Bagan
 
- Selanjutnya, kita akan menggunakan`DocumentBuilder` kelas untuk menyisipkan bagan area ke dalam dokumen kita.
+Selanjutnya, kita akan menggunakan `DocumentBuilder` kelas untuk menyisipkan bagan area ke dalam dokumen kita.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 ```
 
- Di sini, kita membuat`DocumentBuilder` objek dan menggunakannya untuk menyisipkan bagan area dengan dimensi tertentu (432x252) ke dalam dokumen kita.
+Di sini, kita membuat `DocumentBuilder` objek dan menggunakannya untuk menyisipkan bagan area dengan dimensi tertentu (432x252) ke dalam dokumen kita.
 
 ## Langkah 3: Akses Objek Bagan
 
- Setelah memasukkan grafik, kita perlu mengakses`Chart` objek untuk menyesuaikan bagan area kami.
+Setelah memasukkan grafik, kita perlu mengakses `Chart` objek untuk menyesuaikan bagan area kami.
 
 ```csharp
 Chart chart = shape.Chart;
 ```
 
- Baris kode ini mengambil`Chart` objek dari bentuk yang baru saja kita masukkan.
+Baris kode ini mengambil `Chart` objek dari bentuk yang baru saja kita masukkan.
 
 ## Langkah 4: Tambahkan Data Seri ke Bagan
 
@@ -121,10 +123,15 @@ Ya, Anda dapat menyisipkan bagan sebanyak yang Anda perlukan ke dalam satu dokum
 Ya, Aspose.Words untuk .NET mendukung berbagai jenis bagan termasuk batang, garis, pai, dan banyak lagi.
 
 ### Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
- Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

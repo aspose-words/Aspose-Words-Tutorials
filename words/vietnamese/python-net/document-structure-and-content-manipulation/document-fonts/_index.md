@@ -1,14 +1,16 @@
 ---
-title: Hiểu về Phông chữ và Kiểu chữ trong Tài liệu Word
-linktitle: Hiểu về Phông chữ và Kiểu chữ trong Tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá thế giới phông chữ và kiểu chữ trong tài liệu Word. Tìm hiểu cách tăng khả năng đọc và hấp dẫn trực quan bằng Aspose.Words for Python. Hướng dẫn toàn diện với các ví dụ từng bước.
-weight: 13
-url: /vi/python-net/document-structure-and-content-manipulation/document-fonts/
+"description": "Khám phá thế giới phông chữ và kiểu chữ trong tài liệu Word. Tìm hiểu cách tăng khả năng đọc và hấp dẫn trực quan bằng Aspose.Words for Python. Hướng dẫn toàn diện với các ví dụ từng bước."
+"linktitle": "Hiểu về Phông chữ và Kiểu chữ trong Tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Hiểu về Phông chữ và Kiểu chữ trong Tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-fonts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiểu về Phông chữ và Kiểu chữ trong Tài liệu Word
@@ -58,21 +60,21 @@ Aspose.Words for Python là một công cụ mạnh mẽ để tạo và thao t�
 Bạn có thể sử dụng Aspose.Words để áp dụng chữ nghiêng cho các phần văn bản cụ thể. Sau đây là ví dụ về cách thực hiện điều này:
 
 ```python
-# Import the required classes
+# Nhập các lớp cần thiết
 from aspose.words import Document, Font, Style
 import aspose.words as aw
 
-# Load the document
+# Tải tài liệu
 doc = Document("document.docx")
 
-# Access a specific run of text
+# Truy cập một đoạn văn bản cụ thể
 run = doc.get_child(aw.NodeType.RUN, 0, True).as_run()
 
-# Apply italic style
+# Áp dụng kiểu chữ nghiêng
 font = run.font
 font.italic = True
 
-# Save the modified document
+# Lưu tài liệu đã sửa đổi
 doc.save("modified_document.docx")
 ```
 
@@ -81,20 +83,20 @@ doc.save("modified_document.docx")
 Để làm nổi bật văn bản, bạn có thể điều chỉnh màu nền của một lần chạy. Sau đây là cách thực hiện với Aspose.Words:
 
 ```python
-# Import the required classes
+# Nhập các lớp cần thiết
 from aspose.words import Document, Color
 import aspose.words as aw
 
-# Load the document
+# Tải tài liệu
 doc = Document("document.docx")
 
-# Access a specific run of text
+# Truy cập một đoạn văn bản cụ thể
 run = doc.get_child(aw.NodeType.RUN, 0, True).as_run()
 
-# Apply background color
+# Áp dụng màu nền
 run.font.highlight_color = Color.YELLOW
 
-# Save the modified document
+# Lưu tài liệu đã sửa đổi
 doc.save("modified_document.docx")
 ```
 
@@ -103,20 +105,20 @@ doc.save("modified_document.docx")
 Có thể thiết lập căn chỉnh bằng cách sử dụng kiểu. Sau đây là một ví dụ:
 
 ```python
-# Import the required classes
+# Nhập các lớp cần thiết
 from aspose.words import Document, ParagraphAlignment
 import aspose.words as aw
 
-# Load the document
+# Tải tài liệu
 doc = Document("document.docx")
 
-# Access a specific paragraph
+# Truy cập một đoạn văn cụ thể
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
 
-# Set alignment
+# Đặt căn chỉnh
 paragraph.paragraph_format.alignment = aw.ParagraphAlignment.RIGHT
 
-# Save the modified document
+# Lưu tài liệu đã sửa đổi
 doc.save("modified_document.docx")
 ```
 
@@ -125,21 +127,21 @@ doc.save("modified_document.docx")
 Áp dụng khoảng cách dòng thích hợp giúp tăng khả năng đọc. Bạn có thể đạt được điều này bằng cách sử dụng Aspose.Words:
 
 ```python
-# Import the required classes
+# Nhập các lớp cần thiết
 from aspose.words import Document, LineSpacingRule
 import aspose.words as aw
 
-# Load the document
+# Tải tài liệu
 doc = Document("document.docx")
 
-# Access a specific paragraph
+# Truy cập một đoạn văn cụ thể
 paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
 
-# Set line spacing
+# Đặt khoảng cách dòng
 paragraph.paragraph_format.line_spacing_rule = LineSpacingRule.MULTIPLE
 paragraph.paragraph_format.line_spacing = 1.5
 
-# Save the modified document
+# Lưu tài liệu đã sửa đổi
 doc.save("modified_document.docx")
 ```
 
@@ -155,7 +157,7 @@ Trong lĩnh vực tạo tài liệu, phông chữ và kiểu văn bản là nh�
 
 ### Làm thế nào để thay đổi màu phông chữ bằng Aspose.Words cho Python?
 
- Để thay đổi màu phông chữ, bạn có thể truy cập`Font` lớp và thiết lập`color` thuộc tính với giá trị màu mong muốn.
+Để thay đổi màu phông chữ, bạn có thể truy cập `Font` lớp và thiết lập `color` thuộc tính với giá trị màu mong muốn.
 
 ### Tôi có thể áp dụng nhiều kiểu cho cùng một văn bản bằng Aspose.Words không?
 
@@ -163,7 +165,7 @@ Có, bạn có thể áp dụng nhiều kiểu cho cùng một văn bản bằng
 
 ### Có thể điều chỉnh khoảng cách giữa các ký tự không?
 
-Có, Aspose.Words cho phép bạn điều chỉnh khoảng cách giữa các ký tự bằng cách sử dụng`kerning` tài sản của`Font` lớp học.
+Có, Aspose.Words cho phép bạn điều chỉnh khoảng cách giữa các ký tự bằng cách sử dụng `kerning` tài sản của `Font` lớp học.
 
 ### Aspose.Words có hỗ trợ nhập phông chữ từ nguồn bên ngoài không?
 
@@ -171,11 +173,16 @@ Có, Aspose.Words hỗ trợ nhúng phông chữ từ các nguồn bên ngoài �
 
 ### Tôi có thể truy cập tài liệu và tải xuống Aspose.Words for Python ở đâu?
 
- Để biết tài liệu về Aspose.Words dành cho Python, hãy truy cập[đây](https://reference.aspose.com/words/python-net/) . Để tải xuống thư viện, hãy truy cập[đây](https://releases.aspose.com/words/python/).
+Để biết tài liệu về Aspose.Words dành cho Python, hãy truy cập [đây](https://reference.aspose.com/words/python-net/). Để tải xuống thư viện, hãy truy cập [đây](https://releases.aspose.com/words/python/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

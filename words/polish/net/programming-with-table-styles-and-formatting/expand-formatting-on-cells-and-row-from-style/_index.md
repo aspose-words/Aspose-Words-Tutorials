@@ -1,27 +1,29 @@
 ---
-title: Rozszerz formatowanie komórek i wierszy ze stylu
-linktitle: Rozszerz formatowanie komórek i wierszy ze stylu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak rozszerzyć formatowanie komórek i wierszy ze stylów w dokumentach Worda przy użyciu Aspose.Words dla .NET. Zawiera przewodnik krok po kroku.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/
+"description": "Dowiedz się, jak rozszerzyć formatowanie komórek i wierszy ze stylów w dokumentach Word za pomocą Aspose.Words dla .NET. Zawiera przewodnik krok po kroku."
+"linktitle": "Rozszerz formatowanie komórek i wierszy ze stylu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Rozszerz formatowanie komórek i wierszy ze stylu"
+"url": "/pl/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozszerz formatowanie komórek i wierszy ze stylu
 
 ## Wstęp
 
-Czy kiedykolwiek zdarzyło Ci się stosować spójny styl w tabelach w dokumentach Word? Ręczne dostosowywanie każdej komórki może być żmudne i podatne na błędy. W tym miejscu Aspose.Words dla .NET okazuje się przydatne. Ten samouczek przeprowadzi Cię przez proces rozszerzania formatowania komórek i wierszy ze stylu tabeli, zapewniając, że Twoje dokumenty będą wyglądać dopracowane i profesjonalne bez dodatkowych problemów.
+Czy kiedykolwiek zdarzyło Ci się stosować spójny styl w tabelach w dokumentach Word? Ręczne dostosowywanie każdej komórki może być żmudne i podatne na błędy. W tym miejscu przydaje się Aspose.Words dla .NET. Ten samouczek przeprowadzi Cię przez proces rozszerzania formatowania komórek i wierszy ze stylu tabeli, zapewniając, że Twoje dokumenty będą wyglądać dopracowane i profesjonalne bez dodatkowych problemów.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów, upewnij się, że masz zapewnione następujące rzeczy:
 
--  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: Działa każda nowsza wersja.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna.
 - Przykładowy dokument: Przygotuj dokument Word zawierający tabelę lub wykorzystaj tabelę podaną w przykładowym kodzie.
@@ -44,7 +46,7 @@ Teraz podzielimy ten proces na proste, łatwe do wykonania kroki.
 W tym kroku załadujemy dokument Word zawierający tabelę, którą chcesz sformatować. 
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -79,7 +81,7 @@ Console.WriteLine("Cell shading before style expansion: " + cellShadingBefore);
 
 ## Krok 5: Rozwiń style tabeli
 
- Tutaj dzieje się magia. Nazwiemy`ExpandTableStylesToDirectFormatting` metoda pozwalająca zastosować style tabeli bezpośrednio do komórek.
+Tutaj dzieje się magia. Nazwiemy to `ExpandTableStylesToDirectFormatting` metoda pozwalająca zastosować style tabeli bezpośrednio do komórek.
 
 ```csharp
 // Rozszerz style tabeli o bezpośrednie formatowanie.
@@ -115,10 +117,15 @@ Oczywiście! Możesz przejść przez wszystkie tabele w dokumencie i zastosować
 Po rozwinięciu style są bezpośrednio stosowane do komórek. Aby przywrócić, musisz ponownie załadować dokument lub ręcznie ponownie zastosować style.
 
 ### Czy ta metoda działa ze wszystkimi wersjami Aspose.Words dla .NET?
- Tak,`ExpandTableStylesToDirectFormatting` Metoda jest dostępna w ostatnich wersjach Aspose.Words dla .NET. Zawsze sprawdzaj[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać najnowsze informacje.
+Tak, `ExpandTableStylesToDirectFormatting` Metoda jest dostępna w ostatnich wersjach Aspose.Words dla .NET. Zawsze sprawdzaj [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać najnowsze informacje.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

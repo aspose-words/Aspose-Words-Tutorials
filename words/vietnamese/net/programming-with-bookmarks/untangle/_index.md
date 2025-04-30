@@ -1,14 +1,16 @@
 ---
-title: Gỡ rối trong tài liệu Word
-linktitle: Gỡ rối trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ việc gỡ rối dấu trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/programming-with-bookmarks/untangle/
+"description": "Làm chủ việc gỡ rối dấu trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Gỡ rối trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Gỡ rối trong tài liệu Word"
+"url": "/vi/net/programming-with-bookmarks/untangle/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gỡ rối trong tài liệu Word
@@ -21,7 +23,7 @@ url: /vi/net/programming-with-bookmarks/untangle/
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn sẽ cần thư viện Aspose.Words cho .NET. Nếu bạn không có nó, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn sẽ cần thư viện Aspose.Words cho .NET. Nếu bạn không có nó, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về C# sẽ giúp bạn theo dõi các đoạn mã và giải thích.
 
@@ -55,7 +57,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 }
 ```
 
- Ở đây, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua từng dấu trang trong phạm vi của tài liệu. Vòng lặp này sẽ cho phép chúng ta xử lý từng dấu trang riêng lẻ.
+Ở đây, chúng tôi đang sử dụng một `foreach` vòng lặp để duyệt qua từng dấu trang trong phạm vi của tài liệu. Vòng lặp này sẽ cho phép chúng ta xử lý từng dấu trang riêng lẻ.
 
 ## Bước 3: Xác định hàng bắt đầu và kết thúc của dấu trang
 
@@ -66,7 +68,7 @@ Row row1 = (Row)bookmark.BookmarkStart.GetAncestor(typeof(Row));
 Row row2 = (Row)bookmark.BookmarkEnd.GetAncestor(typeof(Row));
 ```
 
- Trong bước này, chúng tôi đang sử dụng`GetAncestor` phương pháp tìm hàng cha của cả nút bắt đầu và nút kết thúc dấu trang. Điều này giúp chúng ta xác định chính xác các hàng liên quan.
+Trong bước này, chúng tôi đang sử dụng `GetAncestor` phương pháp tìm hàng cha của cả nút bắt đầu và nút kết thúc dấu trang. Điều này giúp chúng ta xác định chính xác các hàng liên quan.
 
 ## Bước 4: Kiểm tra các hàng liền kề
 
@@ -79,7 +81,7 @@ if (row1 != null && row2 != null && row1.NextSibling == row2)
 }
 ```
 
- Ở đây, chúng tôi đang thêm một điều kiện để kiểm tra xem cả hai hàng có được tìm thấy hay không và chúng có liền kề hay không.`NextSibling` thuộc tính giúp chúng ta xác minh tính liền kề.
+Ở đây, chúng tôi đang thêm một điều kiện để kiểm tra xem cả hai hàng có được tìm thấy hay không và chúng có liền kề hay không. `NextSibling` thuộc tính giúp chúng ta xác minh tính liền kề.
 
 ## Bước 5: Di chuyển Dấu trang Cuối
 
@@ -89,7 +91,7 @@ Cuối cùng, nếu các điều kiện được đáp ứng, chúng ta di chuy�
 row1.LastCell.LastParagraph.AppendChild(bookmark.BookmarkEnd);
 ```
 
- Trong bước này, chúng tôi đang sử dụng`AppendChild`phương pháp di chuyển nút kết thúc dấu trang. Bằng cách thêm nó vào đoạn văn cuối cùng của ô cuối cùng của hàng trên cùng, chúng tôi đảm bảo rằng dấu trang được gỡ rối chính xác.
+Trong bước này, chúng tôi đang sử dụng `AppendChild` phương pháp di chuyển nút kết thúc dấu trang. Bằng cách thêm nó vào đoạn văn cuối cùng của ô cuối cùng của hàng trên cùng, chúng tôi đảm bảo rằng dấu trang được gỡ rối chính xác.
 
 ## Phần kết luận
 
@@ -107,18 +109,23 @@ Hướng dẫn này đề cập đến các dấu trang trải dài trên hai h�
 
 ### Có phiên bản dùng thử của Aspose.Words dành cho .NET không?
 
- Vâng, bạn có thể[tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose để khám phá các tính năng của thư viện.
+Vâng, bạn có thể [tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose để khám phá các tính năng của thư viện.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
 
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license) cho mục đích đánh giá.
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license) cho mục đích đánh giá.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

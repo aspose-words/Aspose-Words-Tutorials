@@ -1,14 +1,16 @@
 ---
-title: Podpisywanie zaszyfrowanego dokumentu Word
-linktitle: Podpisywanie zaszyfrowanego dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak podpisywać zaszyfrowane dokumenty Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Dowiedz się, jak podpisywać zaszyfrowane dokumenty Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Podpisywanie zaszyfrowanego dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Podpisywanie zaszyfrowanego dokumentu Word"
+"url": "/pl/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podpisywanie zaszyfrowanego dokumentu Word
@@ -21,7 +23,7 @@ Czy kiedykolwiek zastanawiałeś się, jak podpisać zaszyfrowany dokument Word?
 
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Upewnij się, że jest zainstalowany.
 3. Ważny certyfikat: Będziesz potrzebować pliku certyfikatu .pfx.
 4. Podstawowa wiedza o języku C#: Zrozumienie podstaw ułatwi naukę tego kursu.
@@ -41,11 +43,11 @@ Teraz podzielimy ten proces na proste i łatwe do opanowania kroki.
 
 ## Krok 1: Konfigurowanie projektu
 
-Najpierw skonfiguruj swój projekt Visual Studio. Otwórz Visual Studio i utwórz nową aplikację konsolową C#. Nazwij ją opisowo, np. „SignEncryptedWordDoc”.
+Najpierw skonfiguruj swój projekt Visual Studio. Otwórz Visual Studio i utwórz nową aplikację konsolową C#. Nazwij ją w sposób opisowy, np. „SignEncryptedWordDoc”.
 
 ## Krok 2: Dodawanie Aspose.Words do projektu
 
-Następnie musimy dodać Aspose.Words do Twojego projektu. Jest kilka sposobów, aby to zrobić, ale użycie NuGet jest najprostsze. 
+Następnie musimy dodać Aspose.Words do Twojego projektu. Istnieje kilka sposobów, aby to zrobić, ale użycie NuGet jest najprostsze. 
 
 1. Otwórz konsolę Menedżera pakietów NuGet, wybierając kolejno Narzędzia > Menedżer pakietów NuGet > Konsola Menedżera pakietów.
 2. Uruchom następujące polecenie:
@@ -63,7 +65,7 @@ Będziesz potrzebować katalogu do przechowywania dokumentów Word i certyfikat�
 
 ## Krok 4: Pisanie kodu
 
- Teraz zanurkujmy w kod. Otwórz swój`Program.cs` plik i zacznij od ustawienia ścieżki do katalogu dokumentów i zainicjowania`SignOptions` z hasłem deszyfrującym.
+Teraz zanurkujmy w kod. Otwórz swój `Program.cs` plik i zacznij od ustawienia ścieżki do katalogu dokumentów i zainicjowania `SignOptions` z hasłem deszyfrującym.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## Krok 5: Ładowanie certyfikatu
 
- Następnie załaduj swój certyfikat za pomocą`CertificateHolder`Klasa. Będzie to wymagało ścieżki do pliku .pfx i hasła certyfikatu.
+Następnie załaduj swój certyfikat za pomocą `CertificateHolder` Klasa. Będzie to wymagało ścieżki do pliku .pfx i hasła certyfikatu.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Krok 6: Podpisanie dokumentu
 
- Na koniec użyj`DigitalSignatureUtil.Sign` metoda podpisywania zaszyfrowanego dokumentu Word. Ta metoda wymaga pliku wejściowego, pliku wyjściowego, posiadacza certyfikatu i opcji podpisu.
+Na koniec użyj `DigitalSignatureUtil.Sign` metoda podpisywania zaszyfrowanego dokumentu Word. Ta metoda wymaga pliku wejściowego, pliku wyjściowego, posiadacza certyfikatu i opcji podpisu.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -114,10 +116,15 @@ Niestety, bez hasła deszyfrującego nie będziesz mógł podpisać dokumentu.
 Tak, Aspose.Words pozwala również na dodawanie widocznych podpisów cyfrowych.
 
 ### Czy istnieje sposób na sprawdzenie podpisu?
- Tak, możesz użyć`DigitalSignatureUtil.Verify` metoda weryfikacji podpisów.
+Tak, możesz użyć `DigitalSignatureUtil.Verify` metoda weryfikacji podpisów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

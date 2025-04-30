@@ -1,14 +1,16 @@
 ---
-title: Kết xuất tài liệu bằng Aspose.Words Java
-linktitle: Kết xuất tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách kết xuất tài liệu bằng Aspose.Words cho Java trong hướng dẫn toàn diện này. Nhận hướng dẫn từng bước, mẹo và ví dụ để kết xuất tài liệu hiệu quả.
-weight: 26
-url: /vi/java/rendering-documents/
+"description": "Tìm hiểu cách kết xuất tài liệu bằng Aspose.Words cho Java trong hướng dẫn toàn diện này. Nhận hướng dẫn từng bước, mẹo và ví dụ để kết xuất tài liệu hiệu quả."
+"linktitle": "Kết xuất tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết xuất tài liệu bằng Aspose.Words Java"
+"url": "/vi/java/rendering-documents/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất tài liệu bằng Aspose.Words Java
@@ -30,18 +32,22 @@ Bây giờ, chúng ta hãy đi sâu vào chi tiết về việc kết xuất tà
 
 ## Bắt đầu hành trình kết xuất tài liệu của bạn
 
-Tóm lại, nếu bạn đang muốn thành thạo nghệ thuật kết xuất tài liệu bằng Aspose.Words for Java, bạn đã đến đúng nơi rồi. Các hướng dẫn của chúng tôi được thiết kế để cung cấp cho bạn kiến thức và kỹ năng cần thiết để xuất sắc trong việc kết xuất tài liệu. Vậy, còn chần chừ gì nữa? Hãy cùng bắt đầu hành trình thú vị này nhé!
+Tóm lại, nếu bạn đang muốn thành thạo nghệ thuật dựng hình tài liệu bằng Aspose.Words for Java, bạn đã đến đúng nơi rồi. Các hướng dẫn của chúng tôi được thiết kế để cung cấp cho bạn kiến thức và kỹ năng cần thiết để thành thạo trong việc dựng hình tài liệu. Vậy, còn chần chừ gì nữa? Hãy cùng bắt đầu hành trình thú vị này nhé!
 
- Với hướng dẫn toàn diện này, bạn đã được trang bị đầy đủ để bắt đầu hành trình khám phá thế giới kết xuất tài liệu bằng Aspose.Words for Java. Hãy thoải mái khám phá tài liệu API Aspose.Words for Java[đây](https://reference.aspose.com/words/java/) để biết thông tin chi tiết. Nếu bạn đã sẵn sàng bắt đầu, bạn có thể tải xuống các tài nguyên cần thiết[đây](https://releases.aspose.com/words/java/).
+Với hướng dẫn toàn diện này, bạn đã được trang bị đầy đủ để bắt đầu hành trình khám phá thế giới kết xuất tài liệu bằng Aspose.Words for Java. Hãy thoải mái khám phá tài liệu API Aspose.Words for Java [đây](https://reference.aspose.com/words/java/) để biết thông tin chi tiết. Nếu bạn đã sẵn sàng bắt đầu, bạn có thể tải xuống các tài nguyên cần thiết [đây](https://releases.aspose.com/words/java/).
 
- Nếu có bất kỳ câu hỏi, hỗ trợ hoặc trợ giúp nào, bạn luôn có thể liên hệ với cộng đồng và diễn đàn Aspose[đây](https://forum.aspose.com/). Đừng quên xem các hướng dẫn và tài nguyên khác của chúng tôi về sản phẩm Aspose. Chúc bạn render vui vẻ!
+Nếu có bất kỳ câu hỏi, hỗ trợ hoặc trợ giúp nào, bạn luôn có thể liên hệ với cộng đồng và diễn đàn Aspose [đây](https://forum.aspose.com/). Đừng quên xem các hướng dẫn và tài nguyên khác của chúng tôi về sản phẩm Aspose. Chúc bạn render vui vẻ!
 
 ## Hướng dẫn kết xuất tài liệu
 ### [Kết xuất hình dạng trong Aspose.Words cho Java](./rendering-shapes/)
 Học cách kết xuất hình dạng trong Aspose.Words cho Java với hướng dẫn từng bước này. Tạo hình ảnh EMF theo chương trình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

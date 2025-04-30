@@ -1,14 +1,16 @@
 ---
-title: Добавить знаки биди в документ Word
-linktitle: Добавить знаки биди в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять двунаправленные (Bidi) знаки в документы Word с помощью Aspose.Words для .NET с помощью этого руководства. Обеспечьте правильное направление текста для многоязычного контента.
-weight: 10
-url: /ru/net/programming-with-txtsaveoptions/add-bidi-marks/
+"description": "Узнайте, как добавлять двунаправленные (Bidi) знаки в документы Word с помощью Aspose.Words для .NET с помощью этого руководства. Обеспечьте правильное направление текста для многоязычного контента."
+"linktitle": "Добавить знаки биди в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить знаки биди в документ Word"
+"url": "/ru/net/programming-with-txtsaveoptions/add-bidi-marks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить знаки биди в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-txtsaveoptions/add-bidi-marks/
 
 Прежде чем погрузиться в код, убедитесь, что у вас есть следующее:
 
-1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[Страница загрузок Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [Страница загрузок Aspose](https://releases.aspose.com/words/net/).
 2. .NET Framework или .NET Core: убедитесь, что у вас настроена совместимая среда .NET для запуска примеров.
 3. Базовые знания C#: знакомство с языком программирования C# и основными операциями в .NET.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 1: Настройте свой документ
 
- Начните с создания нового экземпляра`Document` класс и а`DocumentBuilder` для добавления содержимого в документ.
+Начните с создания нового экземпляра `Document` класс и а `DocumentBuilder` для добавления содержимого в документ.
 
 ```csharp
 // Путь к каталогу ваших документов
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- На этом этапе вы инициализируете новый документ Word и настраиваете`DocumentBuilder` для облегчения вставки контента.
+На этом этапе вы инициализируете новый документ Word и настраиваете `DocumentBuilder` для облегчения вставки контента.
 
 ## Шаг 2: Добавьте содержимое в документ
 
@@ -66,7 +68,7 @@ builder.Writeln("مرحبا بالعالم!");
 
 ## Шаг 3: Настройте параметры сохранения для двунаправленных меток
 
- Чтобы обеспечить корректное сохранение меток Bidi в документе, необходимо настроить`TxtSaveOptions` и включить`AddBidiMarks` вариант.
+Чтобы обеспечить правильное сохранение меток Bidi в документе, необходимо настроить `TxtSaveOptions` и включить `AddBidiMarks` вариант.
 
 ```csharp
 // Добавить знаки биди
@@ -74,7 +76,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions { AddBidiMarks = true };
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 ```
 
- На этом этапе мы создаем экземпляр`TxtSaveOptions` и установите`AddBidiMarks`собственность`true`. Это гарантирует включение меток Bidi при сохранении документа в виде текстового файла.
+На этом этапе мы создаем экземпляр `TxtSaveOptions` и установите `AddBidiMarks` собственность `true`. Это гарантирует включение меток Bidi при сохранении документа в виде текстового файла.
 
 ## Заключение
 
@@ -95,10 +97,15 @@ doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 В приведенном примере документ сохраняется как текстовый файл. Однако Aspose.Words также поддерживает сохранение документов в различных форматах с сохранением меток Bidi.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
- Вы можете узнать больше об Aspose.Words для .NET через[Документация Aspose](https://reference.aspose.com/words/net/) и получите доступ к[Форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+Вы можете узнать больше об Aspose.Words для .NET через [Документация Aspose](https://reference.aspose.com/words/net/) и получите доступ к [Форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

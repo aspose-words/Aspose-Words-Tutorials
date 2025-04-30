@@ -1,14 +1,16 @@
 ---
-title: Membaca Makro VBA dari Dokumen Word
-linktitle: Membaca Makro VBA dari Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membaca makro VBA dari dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk otomatisasi dokumen yang lancar!
-weight: 10
-url: /id/net/working-with-vba-macros/read-vba-macros/
+"description": "Pelajari cara membaca makro VBA dari dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk otomatisasi dokumen yang lancar!"
+"linktitle": "Membaca Makro VBA dari Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membaca Makro VBA dari Dokumen Word"
+"url": "/id/net/working-with-vba-macros/read-vba-macros/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membaca Makro VBA dari Dokumen Word
@@ -21,10 +23,10 @@ Halo, para ahli dokumen Word! Pernahkah Anda bertanya-tanya apa yang terjadi di 
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Untuk bekerja dengan dokumen Word, Anda memerlukan versi terbaru Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Untuk bekerja dengan dokumen Word, Anda memerlukan versi terbaru Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET, seperti Visual Studio, penting untuk menulis dan menguji kode Anda.
-3. Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda menavigasi cuplikan kode dan konsep.
-4.  Contoh Dokumen Word: Memiliki[Dokumen kata](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) dengan makro VBA yang sudah siap. Ini akan menjadi sumber untuk membaca makro.
+3. Pengetahuan Dasar C#: Pemahaman dasar tentang C# akan membantu Anda menavigasi potongan kode dan konsep.
+4. Contoh Dokumen Word: Memiliki [Dokumen kata](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) (.docm) dengan makro VBA yang sudah siap. Ini akan menjadi sumber untuk membaca makro.
 
 ## Mengimpor Ruang Nama
 
@@ -51,7 +53,7 @@ Atur jalur ke direktori Anda seperti ini:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Word Anda berada. Di sinilah kesenangan dimulai!
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Word Anda berada. Di sinilah kesenangan dimulai!
 
 ## Langkah 2: Memuat Dokumen Word
 
@@ -65,7 +67,7 @@ Berikut cara memuat dokumen Anda:
 Document doc = new Document(dataDir + "VBA project.docm");
 ```
 
- Baris ini memuat dokumen Word bernama "VBA project.docm" dari direktori yang Anda tentukan ke dalam`doc` obyek.
+Baris ini memuat dokumen Word bernama "VBA project.docm" dari direktori yang Anda tentukan ke dalam `doc` obyek.
 
 ## Langkah 3: Mengakses Proyek VBA
 
@@ -101,7 +103,7 @@ foreach (VbaModule module in doc.VbaProject.Modules)
 
 Dalam cuplikan ini:
 - Kami mengulangi setiap modul dalam proyek VBA.
--  Untuk setiap modul, kami mencetak`SourceCode` properti, yang berisi kode makro VBA.
+- Untuk setiap modul, kami mencetak `SourceCode` properti, yang berisi kode makro VBA.
 
 ## Langkah 5: Memahami Output
 
@@ -123,7 +125,7 @@ Ini adalah contoh sederhana makro VBA yang menampilkan kotak pesan dengan teks "
 
 Nah, itu dia! Anda telah berhasil membaca makro VBA dari dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini mencakup semuanya, mulai dari menyiapkan lingkungan dan memuat dokumen hingga mengakses proyek VBA dan membaca makro. Dengan Aspose.Words, Anda memiliki alat yang hebat untuk mengotomatiskan tugas, menyesuaikan dokumen, dan mendalami dunia VBA.
 
- Jika Anda ingin mempelajari lebih lanjut,[Dokumentasi API](https://reference.aspose.com/words/net/) adalah tempat yang bagus untuk memulai. Dan jika Anda memiliki pertanyaan atau butuh bantuan,[forum dukungan](https://forum.aspose.com/c/words/8) ada untuk Anda.
+Jika Anda ingin mempelajari lebih lanjut, [Dokumentasi API](https://reference.aspose.com/words/net/) adalah tempat yang bagus untuk memulai. Dan jika Anda memiliki pertanyaan atau butuh bantuan, [forum dukungan](https://forum.aspose.com/c/words/8) ada untuk Anda.
 
 Selamat membuat kode, dan semoga makro Anda selalu berjalan lancar!
 
@@ -136,16 +138,21 @@ Aspose.Words untuk .NET adalah pustaka canggih yang memungkinkan pengembang memb
 Anda dapat membaca makro VBA dari dokumen Word mana pun yang berisi proyek VBA. Dokumen harus dalam format yang mendukung makro (.docm).
 
 ### Bagaimana cara mengedit makro VBA setelah membacanya?  
- Setelah membaca makro, Anda dapat memodifikasi`SourceCode` milik`VbaModule` objek. Kemudian, simpan dokumen untuk menerapkan perubahan.
+Setelah membaca makro, Anda dapat memodifikasi `SourceCode` milik `VbaModule` objek. Kemudian, simpan dokumen untuk menerapkan perubahan.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan semua versi Word?  
 Aspose.Words untuk .NET kompatibel dengan berbagai versi Word, memastikan dokumen Anda berfungsi lancar di berbagai platform.
 
 ### Di mana saya dapat membeli Aspose.Words untuk .NET?  
- Anda dapat membeli Aspose.Words untuk .NET dari[halaman pembelian resmi](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.Words untuk .NET dari [halaman pembelian resmi](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

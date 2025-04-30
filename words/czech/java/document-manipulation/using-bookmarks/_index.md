@@ -1,22 +1,24 @@
 ---
-title: Použití záložek v Aspose.Words pro Java
-linktitle: Používání záložek
-second_title: Aspose.Words Java Document Processing API
-description: Optimalizujte zpracování dokumentů pomocí Aspose.Words for Java. Naučte se používat záložky pro efektivní navigaci a manipulaci s obsahem v tomto podrobném průvodci.
-weight: 17
-url: /cs/java/document-manipulation/using-bookmarks/
+"description": "Optimalizujte zpracování dokumentů s Aspose.Words pro Javu. V tomto podrobném průvodci se naučte používat záložky pro efektivní navigaci a manipulaci s obsahem."
+"linktitle": "Používání záložek"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Používání záložek v Aspose.Words pro Javu"
+"url": "/cs/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití záložek v Aspose.Words pro Java
+# Používání záložek v Aspose.Words pro Javu
 
 
 ## Úvod do používání záložek v Aspose.Words pro Javu
 
-Záložky jsou výkonnou funkcí v Aspose.Words for Java, která vám umožňuje označit a manipulovat s konkrétními částmi dokumentu. V tomto podrobném průvodci prozkoumáme, jak používat záložky v Aspose.Words pro Java ke zlepšení zpracování dokumentů. 
+Záložky jsou v Aspose.Words pro Javu výkonnou funkcí, která umožňuje označovat a manipulovat s konkrétními částmi dokumentu. V tomto podrobném návodu se podíváme na to, jak používat záložky v Aspose.Words pro Javu pro vylepšení zpracování dokumentů. 
 
 ## Krok 1: Vytvoření záložky
 
@@ -26,17 +28,17 @@ Chcete-li vytvořit záložku, postupujte takto:
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spusťte záložku
+// Spustit záložku
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Ukončete záložku
+// Ukončit záložku
 builder.endBookmark("My Bookmark");
 ```
 
 ## Krok 2: Přístup k záložkám
 
-K záložkám v dokumentu můžete přistupovat pomocí jejich rejstříku nebo názvu. Zde je postup:
+K záložkám v dokumentu můžete přistupovat pomocí jejich indexu nebo názvu. Postupujte takto:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -44,13 +46,13 @@ Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 // Podle indexu:
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
-// podle jména:
+// Podle jména:
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
 ## Krok 3: Aktualizace dat záložek
 
-Chcete-li aktualizovat data záložek, použijte následující kód:
+Pro aktualizaci dat záložek použijte následující kód:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -61,9 +63,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## Krok 4: Práce s textem v záložce
+## Krok 4: Práce s textem označeným záložkou
 
-Text označený záložkou můžete zkopírovat a přidat do jiného dokumentu. Zde je postup:
+Text označený záložkou můžete zkopírovat a přidat do jiného dokumentu. Postupujte takto:
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -74,7 +76,7 @@ appendBookmarkedText(importer, srcBookmark, dstDoc.getLastSection().getBody());
 dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 ```
 
-## Krok 5: Zobrazit a skrýt záložky
+## Krok 5: Zobrazení a skrytí záložek
 
 Záložky v dokumentu můžete zobrazit nebo skrýt. Zde je příklad:
 
@@ -84,9 +86,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Krok 6: Rozbalení záložek řádků
+## Krok 6: Rozmotání záložek řádků
 
-Rozbalení záložek řádků vám umožní pracovat s nimi efektivněji:
+Rozmotávání záložek řádků vám umožňuje s nimi pracovat efektivněji:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -97,32 +99,37 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ## Závěr
 
-Použití záložek v Aspose.Words pro Java může výrazně zjednodušit úlohy zpracování dokumentů. Ať už potřebujete procházet, extrahovat nebo manipulovat s obsahem, záložky poskytují výkonný mechanismus, jak toho dosáhnout efektivně.
+Používání záložek v Aspose.Words pro Javu může výrazně zjednodušit úlohy zpracování dokumentů. Ať už potřebujete procházet, extrahovat nebo manipulovat s obsahem, záložky poskytují výkonný mechanismus, jak toho dosáhnout efektivně.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak vytvořím záložku v buňce tabulky?
 
- Chcete-li vytvořit záložku v buňce tabulky, použijte`DocumentBuilder` třídu a spustit a ukončit záložku v buňce.
+Chcete-li vytvořit záložku v buňce tabulky, použijte `DocumentBuilder` třídu a začátek a konec záložky v buňce.
 
 ### Mohu zkopírovat záložku do jiného dokumentu?
 
- Ano, záložku můžete zkopírovat do jiného dokumentu pomocí`NodeImporter` třídy, aby bylo zajištěno zachování formátování.
+Ano, záložku můžete zkopírovat do jiného dokumentu pomocí `NodeImporter` třídu, aby se zajistilo zachování formátování.
 
 ### Jak mohu smazat řádek podle jeho záložky?
 
-Řádek podle jeho záložky můžete odstranit tak, že nejprve najdete řádek označený záložkou a poté jej odstraníte z dokumentu.
+Řádek můžete smazat pomocí jeho záložky tak, že nejprve najdete řádek se záložkou a poté jej z dokumentu odstraníte.
 
-### Jaké jsou běžné případy použití záložek?
+### Jaké jsou některé běžné případy použití záložek?
 
-Záložky se běžně používají pro generování obsahu, extrahování konkrétního obsahu a automatizaci procesů generování dokumentů.
+Záložky se běžně používají ke generování obsahu, extrakci specifického obsahu a automatizaci procesů generování dokumentů.
 
-### Kde najdu další informace o Aspose.Words for Java?
+### Kde najdu více informací o Aspose.Words pro Javu?
 
- Pro podrobnou dokumentaci a soubory ke stažení navštivte[Aspose.Words pro dokumentaci Java](https://reference.aspose.com/words/java/).
+Podrobnou dokumentaci a soubory ke stažení naleznete na [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

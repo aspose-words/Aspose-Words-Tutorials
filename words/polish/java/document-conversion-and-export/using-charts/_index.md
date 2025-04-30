@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z wykresów w Aspose.Words dla Java
-linktitle: Korzystanie z wykresów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak tworzyć i dostosowywać wykresy w Aspose.Words for Java. Poznaj typy wykresów, formatowanie i właściwości osi do wizualizacji danych.
-weight: 12
-url: /pl/java/document-conversion-and-export/using-charts/
+"description": "Dowiedz się, jak tworzyć i dostosowywać wykresy w Aspose.Words for Java. Poznaj typy wykresów, formatowanie i właściwości osi do wizualizacji danych."
+"linktitle": "Korzystanie z wykresów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z wykresów w Aspose.Words dla Java"
+"url": "/pl/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z wykresów w Aspose.Words dla Java
@@ -16,7 +18,7 @@ url: /pl/java/document-conversion-and-export/using-charts/
 
 ## Wprowadzenie do korzystania z wykresów w Aspose.Words dla Java
 
-tym samouczku pokażemy, jak pracować z wykresami przy użyciu Aspose.Words for Java. Dowiesz się, jak tworzyć różne typy wykresów, dostosowywać właściwości osi, formatować etykiety danych i nie tylko. Zanurzmy się!
+W tym samouczku pokażemy, jak pracować z wykresami przy użyciu Aspose.Words for Java. Dowiesz się, jak tworzyć różne typy wykresów, dostosowywać właściwości osi, formatować etykiety danych i nie tylko. Zanurzmy się!
 
 ## Tworzenie wykresu liniowego
 
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx
 
 ## Tworzenie innych typów wykresów
 
-Możesz tworzyć różne typy wykresów, takie jak wykresy kolumnowe, obszarowe, bąbelkowe, punktowe i inne, używając podobnych technik. Oto przykład wstawiania prostego wykresu kolumnowego:
+Możesz tworzyć różne typy wykresów, takie jak kolumnowy, obszarowy, bąbelkowy, punktowy i inne, używając podobnych technik. Oto przykład wstawiania prostego wykresu kolumnowego:
 
 ```java
 Document doc = new Document();
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // Zmień oś X tak, aby przedstawiała kategorię zamiast daty.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Mierzone w jednostkach wyświetlanych na osi Y (setkach).
+xAxis.setCrossesAt(3.0); // Mierzone w jednostkach wyświetlanych na osi Y (setkach).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,7 +108,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx"
 
 ## Formatowanie etykiet danych
 
-Możesz formatować etykiety danych różnymi formatami liczb. Oto przykład:
+Możesz formatować etykiety danych za pomocą różnych formatów liczb. Oto przykład:
 
 ```java
 Document doc = new Document();
@@ -127,32 +129,37 @@ Możesz dalej dostosowywać swoje wykresy, dostosowując granice, jednostki inte
 
 ## Wniosek
 
-W tym samouczku przyjrzeliśmy się sposobowi pracy z wykresami przy użyciu Aspose.Words for Java. Nauczyłeś się, jak tworzyć różne typy wykresów, dostosowywać właściwości osi, formatować etykiety danych i nie tylko. Aspose.Words for Java udostępnia potężne narzędzia do dodawania wizualnych reprezentacji danych do dokumentów, ulepszając sposób prezentacji informacji.
+tym samouczku przyjrzeliśmy się, jak pracować z wykresami przy użyciu Aspose.Words for Java. Nauczyłeś się, jak tworzyć różne typy wykresów, dostosowywać właściwości osi, formatować etykiety danych i nie tylko. Aspose.Words for Java udostępnia potężne narzędzia do dodawania wizualnych reprezentacji danych do dokumentów, ulepszając sposób prezentacji informacji.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę dodać wiele serii do wykresu?
 
- Do wykresu można dodać wiele serii za pomocą`chart.getSeries().add()` metoda. Upewnij się, że określiłeś nazwę serii, kategorie i wartości danych.
+Do wykresu można dodać wiele serii za pomocą `chart.getSeries().add()` metoda. Upewnij się, że określiłeś nazwę serii, kategorie i wartości danych.
 
 ### Jak mogę sformatować etykiety danych, używając niestandardowych formatów liczb?
 
-Możesz sformatować etykiety danych, uzyskując dostęp do`DataLabels` właściwości serii i ustawienie żądanego kodu formatu za pomocą`getNumberFormat().setFormatCode()`.
+Możesz sformatować etykiety danych, uzyskując dostęp do `DataLabels` właściwości serii i ustawienie żądanego kodu formatu za pomocą `getNumberFormat().setFormatCode()`.
 
 ### Jak dostosować właściwości osi na wykresie?
 
- Możesz dostosować właściwości osi, takie jak typ, znaczniki, etykiety i inne, uzyskując dostęp do`ChartAxis` właściwości takie jak`setCategoryType()`, `setCrosses()` , I`setMajorTickMark()`.
+Możesz dostosować właściwości osi, takie jak typ, znaczniki, etykiety i inne, uzyskując dostęp do `ChartAxis` właściwości takie jak `setCategoryType()`, `setCrosses()`, I `setMajorTickMark()`.
 
-### Jak mogę tworzyć inne typy wykresów, np. wykresy punktowe lub wykresy powierzchniowe?
+### Jak mogę tworzyć inne rodzaje wykresów, np. wykresy punktowe lub wykresy powierzchniowe?
 
- Możesz tworzyć różne typy wykresów, określając odpowiednie`ChartType` podczas wstawiania wykresu za pomocą`builder.insertChart(ChartType.TYPE, width, height)`.
+Możesz tworzyć różne typy wykresów, określając odpowiednie `ChartType` podczas wstawiania wykresu za pomocą `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Jak mogę ukryć oś wykresu?
 
- Możesz ukryć oś wykresu, ustawiając`setHidden(true)` Własność osi.
+Możesz ukryć oś wykresu, ustawiając `setHidden(true)` Własność osi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

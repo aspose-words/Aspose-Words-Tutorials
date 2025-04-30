@@ -1,34 +1,36 @@
 ---
-title: Vložit Ole Objekt Do Wordu S Balíčkem Ole
-linktitle: Vložit Ole Objekt Do Wordu S Balíčkem Ole
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vkládat objekty OLE do dokumentů aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce krok za krokem pro bezproblémové vkládání souborů.
-weight: 10
-url: /cs/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/
+"description": "Naučte se, jak vkládat objekty OLE do dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem a vkládejte soubory bez problémů."
+"linktitle": "Vložení objektu Ole do Wordu pomocí balíčku Ole"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložení objektu Ole do Wordu pomocí balíčku Ole"
+"url": "/cs/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit Ole Objekt Do Wordu S Balíčkem Ole
+# Vložení objektu Ole do Wordu pomocí balíčku Ole
 
 ## Zavedení
 
-Pokud jste někdy chtěli vložit soubor do dokumentu aplikace Word, jste na správném místě. Ať už se jedná o soubor ZIP, list aplikace Excel nebo jakýkoli jiný typ souboru, vložení přímo do dokumentu aplikace Word může být neuvěřitelně užitečné. Představte si to, jako byste měli v dokumentu tajnou přihrádku, kam můžete schovat nejrůznější poklady. A dnes si projdeme, jak to udělat pomocí Aspose.Words for .NET. Jste připraveni stát se průvodcem aplikace Word? Pojďme se ponořit!
+Pokud jste někdy chtěli vložit soubor do dokumentu Wordu, jste na správném místě. Ať už se jedná o soubor ZIP, excelový list nebo jakýkoli jiný typ souboru, jeho vložení přímo do dokumentu Wordu může být neuvěřitelně užitečné. Představte si to jako tajnou přihrádku v dokumentu, kam si můžete uložit nejrůznější poklady. A dnes si ukážeme, jak to udělat pomocí Aspose.Words pro .NET. Jste připraveni stát se mágem Wordu? Pojďme se do toho pustit!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1. Aspose.Words for .NET: Pokud jste to ještě neudělali, stáhněte si ji z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí .NET.
-3. Základní porozumění C#: Nemusíte být expert, ale znalost C# vám pomůže.
-4. Adresář dokumentů: Složka, do které můžete ukládat a načítat dokumenty.
+1. Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si jej z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí pro .NET.
+3. Základní znalost C#: Nemusíte být expert, ale znalost C# vám pomůže.
+4. Adresář dokumentů: Složka, kde můžete ukládat a vyhledávat dokumenty.
 
 ## Importovat jmenné prostory
 
-Nejprve si udělejme pořádek ve jmenných prostorech. Do projektu musíte zahrnout následující jmenné prostory:
+Nejdříve si ujasníme jmenné prostory. Do projektu je třeba zahrnout následující jmenné prostory:
 
 ```csharp
 using System;
@@ -37,34 +39,34 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-Pojďme si to rozdělit do malých kroků, takže je snadné je sledovat.
+Rozdělme si to na několik kroků, aby se vám to snadno dařilo.
 
-## Krok 1: Nastavte svůj dokument
+## Krok 1: Nastavení dokumentu
 
-Představte si, že jste umělec s prázdným plátnem. Nejprve potřebujeme naše prázdné plátno, což je náš dokument Word. Postup nastavení:
+Představte si, že jste umělec s prázdným plátnem. Nejprve potřebujeme prázdné plátno, což je náš dokument Word. Zde je návod, jak ho nastavit:
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-Tento kód inicializuje nový dokument Word a nastaví DocumentBuilder, který použijeme k vložení obsahu do našeho dokumentu.
+Tento kód inicializuje nový dokument Wordu a nastavuje DocumentBuilder, který použijeme k vložení obsahu do našeho dokumentu.
 
-## Krok 2: Přečtěte si svůj Ole Object
+## Krok 2: Přečtěte si svůj objekt Ole
 
-Dále si přečteme soubor, který chcete vložit. Berte to jako vyzvednutí pokladu, který chcete ukrýt ve své tajné přihrádce:
+Dále si přečtěme soubor, který chcete vložit. Představte si to jako sbírání pokladu, který chcete schovat ve své tajné přihrádce:
 
 ```csharp
 byte[] bs = File.ReadAllBytes(dataDir + "Zip file.zip");
 ```
 
-Tento řádek přečte všechny bajty ze souboru ZIP a uloží je do bajtového pole.
+Tento řádek přečte všechny bajty z vašeho ZIP souboru a uloží je do bajtového pole.
 
-## Krok 3: Vložte objekt Ole
+## Krok 3: Vložení objektu Ole
 
-Nyní přichází ta kouzelná část. Tento soubor vložíme do dokumentu aplikace Word:
+A teď přichází ta magická část. Soubor vložíme do našeho dokumentu Wordu:
 
 ```csharp
 using (Stream stream = new MemoryStream(bs))
@@ -76,7 +78,7 @@ using (Stream stream = new MemoryStream(bs))
 }
 ```
 
- Zde vytvoříme paměťový proud z bajtového pole a použijeme`InsertOleObject` způsob, jak jej vložit do dokumentu. Nastavíme také název souboru a zobrazovaný název pro vložený objekt.
+Zde vytvoříme paměťový proud z bajtového pole a použijeme `InsertOleObject` metodu pro vložení do dokumentu. Také nastavíme název souboru a zobrazovaný název pro vložený objekt.
 
 ## Krok 4: Uložte dokument
 
@@ -86,31 +88,36 @@ Nakonec si uložme naše mistrovské dílo:
 doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectWithOlePackage.docx");
 ```
 
-Tím se dokument s vloženým souborem uloží do určeného adresáře.
+Tím se dokument s vloženým souborem uloží do zadaného adresáře.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vložili objekt OLE do dokumentu aplikace Word pomocí Aspose.Words for .NET. Je to jako přidat do dokumentu skrytý klenot, který lze kdykoli odhalit. Tato technika může být neuvěřitelně užitečná pro různé aplikace, od technické dokumentace po dynamické zprávy. 
+A tady to máte! Úspěšně jste vložili objekt OLE do dokumentu Wordu pomocí Aspose.Words pro .NET. Je to jako byste do dokumentu přidali skrytý klenot, který můžete kdykoli odhalit. Tato technika může být neuvěřitelně užitečná pro řadu aplikací, od technické dokumentace až po dynamické reporty. 
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí této metody vložit jiné typy souborů?
-Ano, můžete vložit různé typy souborů, jako jsou listy aplikace Excel, soubory PDF a obrázky.
+### Mohu touto metodou vkládat i jiné typy souborů?
+Ano, můžete vkládat různé typy souborů, jako jsou excelovské listy, PDF soubory a obrázky.
 
 ### Potřebuji licenci pro Aspose.Words?
- Ano, potřebujete platnou licenci. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
+Ano, potřebujete platný řidičský průkaz. Můžete získat [dočasná licence](https://purchase.aspose.com/temporary-license/) pro hodnocení.
 
-### Jak mohu upravit zobrazovaný název objektu OLE?
- Můžete nastavit`DisplayName` vlastnictvím`OlePackage` jej přizpůsobit.
+### Jak mohu přizpůsobit zobrazovaný název objektu OLE?
+Můžete nastavit `DisplayName` majetek `OlePackage` přizpůsobit si ho.
 
 ### Je Aspose.Words kompatibilní s .NET Core?
-Ano, Aspose.Words podporuje jak .NET Framework, tak .NET Core.
+Ano, Aspose.Words podporuje .NET Framework i .NET Core.
 
-### Mohu upravit vložený objekt OLE v dokumentu aplikace Word?
-Ne, objekt OLE nemůžete upravovat přímo v aplikaci Word. Musíte jej otevřít v jeho nativní aplikaci.
+### Mohu upravovat vložený objekt OLE v dokumentu Wordu?
+Ne, objekt OLE nelze upravovat přímo ve Wordu. Musíte ho otevřít v jeho nativní aplikaci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

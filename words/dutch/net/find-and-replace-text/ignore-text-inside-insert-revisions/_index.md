@@ -1,21 +1,23 @@
 ---
-title: Negeer tekst in invoegrevisies
-linktitle: Negeer tekst in invoegrevisies
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u documentrevisies effectief beheert met Aspose.Words voor .NET. Ontdek technieken om tekst in invoegrevisies te negeren voor gestroomlijnde bewerking.
-weight: 10
-url: /nl/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Leer hoe u documentrevisies effectief kunt beheren met Aspose.Words voor .NET. Ontdek technieken om tekst in ingevoegde revisies te negeren voor gestroomlijnde bewerking."
+"linktitle": "Negeer tekst in ingevoegde revisies"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Negeer tekst in ingevoegde revisies"
+"url": "/nl/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Negeer tekst in invoegrevisies
+# Negeer tekst in ingevoegde revisies
 
 ## Invoering
 
-In deze uitgebreide gids duiken we in het gebruik van Aspose.Words voor .NET om documentrevisies effectief te beheren. Of u nu een ontwikkelaar of een techneut bent, begrijpen hoe u tekst in invoegrevisies kunt negeren, kan uw documentverwerkingsworkflows stroomlijnen. Deze tutorial zal u voorzien van de nodige vaardigheden om de krachtige functies van Aspose.Words te benutten voor het naadloos beheren van documentrevisies.
+In deze uitgebreide handleiding verdiepen we ons in het gebruik van Aspose.Words voor .NET om documentrevisies effectief te beheren. Of je nu een ontwikkelaar of een techneut bent, begrijpen hoe je tekst in invoegrevisies kunt negeren, kan je documentverwerkingsworkflows stroomlijnen. Deze tutorial geeft je de nodige vaardigheden om de krachtige functies van Aspose.Words te gebruiken voor het naadloos beheren van documentrevisies.
 
 ## Vereisten
 
@@ -71,9 +73,9 @@ Geef de documenttekst weer nadat de ingevoegde revisies zijn genegeerd:
 Console.WriteLine(doc.GetText());
 ```
 
-## Stap 5: Optie Negeer ingevoegde tekst terugdraaien
+## Stap 5: Optie Negeren ingevoegde tekst terugdraaien
 
-Om de ingevoegde tekst te negeren, wijzigt u de FindReplaceOptions:
+Om de ingevoegde tekst niet meer te negeren, wijzigt u de FindReplaceOptions:
 ```csharp
 options.IgnoreInserted = false;
 doc.Range.Replace(regex, "*", options);
@@ -81,27 +83,32 @@ doc.Range.Replace(regex, "*", options);
 
 ## Conclusie
 
-Het beheersen van de techniek van het negeren van tekst in invoegrevisies met Aspose.Words voor .NET verbetert uw documentbewerkingsmogelijkheden. Door deze stappen te volgen, kunt u effectief revisies in uw documenten beheren, wat zorgt voor duidelijkheid en precisie in uw tekstverwerkingstaken.
+Het beheersen van de techniek van het negeren van tekst in invoegrevisies met Aspose.Words voor .NET verbetert uw documentbewerkingsmogelijkheden. Door deze stappen te volgen, kunt u effectief revisies in uw documenten beheren en zo duidelijkheid en precisie in uw tekstverwerkingstaken garanderen.
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik revisies in een Word-document bijhouden met Aspose.Words voor .NET?
- Om revisies te gaan bijhouden, gebruikt u`doc.StartTrackRevisions(author, date)` methode.
+Om met het bijhouden van revisies te beginnen, gebruikt u `doc.StartTrackRevisions(author, date)` methode.
 
 ### Wat is het voordeel van het negeren van ingevoegde tekst in documentrevisies?
-Door ingevoegde tekst te negeren, blijft de focus op de kerninhoud liggen en kunt u wijzigingen in het document efficiënt beheren.
+Door ingevoegde tekst te negeren, kunt u zich blijven concentreren op de kerninhoud en kunt u wijzigingen in het document efficiënt beheren.
 
 ### Kan ik genegeerde ingevoegde tekst terugzetten naar de originele tekst in Aspose.Words voor .NET?
-Ja, u kunt genegeerde ingevoegde tekst terugzetten met behulp van de juiste FindReplaceOptions-instellingen.
+Ja, u kunt genegeerde ingevoegde tekst terugzetten met de juiste FindReplaceOptions-instellingen.
 
 ### Waar kan ik meer documentatie vinden over Aspose.Words voor .NET?
- Bezoek de[Aspose.Words voor .NET-documentatie](https://reference.aspose.com/words/net/) voor gedetailleerde handleidingen en API-referenties.
+Bezoek de [Aspose.Words voor .NET-documentatie](https://reference.aspose.com/words/net/) voor gedetailleerde handleidingen en API-referenties.
 
-### Bestaat er een communityforum voor het bespreken van Aspose.Words voor .NET-gerelateerde vragen?
- Ja, u kunt de[Aspose.Words-forum](https://forum.aspose.com/c/words/8) voor ondersteuning en discussies in de gemeenschap.
+### Bestaat er een communityforum waar Aspose.Words voor .NET-gerelateerde vragen kan worden besproken?
+Ja, u kunt de [Aspose.Words forum](https://forum.aspose.com/c/words/8) voor ondersteuning en discussies vanuit de gemeenschap.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

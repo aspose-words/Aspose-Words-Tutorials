@@ -1,14 +1,16 @@
 ---
-title: Mengubah Spasi Paragraf Asia dan Indentasi dalam Dokumen Word
-linktitle: Mengubah Spasi Paragraf Asia dan Indentasi dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah spasi dan indentasi paragraf Asia dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/document-formatting/change-asian-paragraph-spacing-and-indents/
+"description": "Pelajari cara mengubah spasi dan indentasi paragraf Asia dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Mengubah Spasi Paragraf Asia dan Indentasi dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengubah Spasi Paragraf Asia dan Indentasi dalam Dokumen Word"
+"url": "/id/net/document-formatting/change-asian-paragraph-spacing-and-indents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengubah Spasi Paragraf Asia dan Indentasi dalam Dokumen Word
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda bertanya-tanya bagaimana cara mengubah spasi dan indentasi d
 
 Sebelum kita masuk ke kodenya, mari pastikan Anda memiliki semua yang perlu diikuti:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda perlu menyiapkan lingkungan pengembangan. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 3. Dokumen Word: Siapkan dokumen Word yang dapat Anda gunakan. Kita akan menggunakan contoh dokumen bernama "Asian typography.docx".
 4. Pengetahuan Dasar C#: Anda harus terbiasa dengan pemrograman C# untuk mengikuti contoh kode.
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Formatting;
 ```
 
-Setelah kita membahas dasar-dasarnya, mari kita mulai panduan langkah demi langkah. Kami akan membagi prosesnya menjadi beberapa langkah yang mudah untuk memastikan Anda dapat mengikutinya dengan mudah.
+Setelah kita membahas dasar-dasarnya, mari kita mulai panduan langkah demi langkah. Kami akan membagi prosesnya menjadi beberapa langkah yang mudah diikuti agar Anda dapat mengikutinya dengan mudah.
 
 ## Langkah 1: Muat Dokumen
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Asian typography.docx");
 ```
 
- Pada langkah ini, kami menentukan jalur ke direktori dokumen kami dan memuat dokumen ke dalam`Document` objek. Sederhana, bukan?
+Pada langkah ini, kami menentukan jalur ke direktori dokumen kami dan memuat dokumen ke dalam `Document` objek. Sederhana, bukan?
 
 ## Langkah 2: Akses Format Paragraf
 
@@ -58,7 +60,7 @@ Selanjutnya, kita perlu mengakses format paragraf dari paragraf pertama dalam do
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 ```
 
- Di sini, kita ambil`ParagraphFormat` objek dari paragraf pertama dalam dokumen. Objek ini menyimpan semua properti pemformatan untuk paragraf tersebut.
+Di sini, kita ambil `ParagraphFormat` objek dari paragraf pertama dalam dokumen. Objek ini menyimpan semua properti pemformatan untuk paragraf tersebut.
 
 ## Langkah 3: Mengatur Indentasi Unit Karakter
 
@@ -81,7 +83,7 @@ format.LineUnitBefore = 5;  // ParagraphFormat.SpaceBefore akan diperbarui
 format.LineUnitAfter = 10;  // ParagraphFormat.SpaceAfter akan diperbarui
 ```
 
-Menetapkan satuan baris sebelum dan sesudah masing-masing menjadi 5 dan 10 satuan, memastikan ada ruang yang cukup antar paragraf, membuat dokumen lebih mudah dibaca.
+Menetapkan satuan baris sebelum dan sesudah masing-masing menjadi 5 dan 10 satuan, memastikan ada ruang yang cukup antara paragraf, membuat dokumen lebih mudah dibaca.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -103,20 +105,25 @@ Nah, itu dia! Anda baru saja mempelajari cara mengubah spasi paragraf dan indent
 Ya, pengaturan ini dapat diterapkan pada teks apa pun, tetapi sangat berguna untuk tipografi Asia karena persyaratan spasi dan indentasi yang unik.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencobanya.
+Ya, Aspose.Words untuk .NET adalah pustaka berbayar, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mencobanya.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi lengkap di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa dokumen?
 Tentu saja! Anda dapat mengulang koleksi dokumen dan menerapkan pengaturan ini secara terprogram ke setiap dokumen.
 
 ### Bagaimana jika saya mengalami masalah atau memiliki pertanyaan?
- Jika Anda mengalami masalah atau memiliki pertanyaan lebih lanjut,[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) adalah tempat yang tepat untuk mencari bantuan.
+Jika Anda mengalami masalah atau memiliki pertanyaan lebih lanjut, [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) adalah tempat yang tepat untuk mencari bantuan.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

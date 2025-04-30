@@ -7,8 +7,11 @@ weight: 11
 url: /python-net/document-structure-and-content-manipulation/document-comments/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilizing Comment Features in Word Documents
@@ -153,9 +156,13 @@ Yes, you can control the visibility of comments using the `comment.visible` prop
 ### Does Aspose.Words for Python support adding comments to specific ranges of text?
 
 Absolutely, you can add comments to specific ranges of text within a document using Aspose.Words for Python's rich API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

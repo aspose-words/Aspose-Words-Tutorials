@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-true-type-fonts-folder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set True Type Fonts Folder
@@ -102,9 +105,13 @@ Yes, Aspose.Words allows you to embed fonts in the document to ensure consistenc
 ### What formats can I save my document in?
 Aspose.Words supports a variety of formats including PDF, DOCX, HTML, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

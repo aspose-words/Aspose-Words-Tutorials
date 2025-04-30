@@ -1,14 +1,16 @@
 ---
-title: เพิ่มลายเซ็นดิจิทัลลงใน PDF โดยใช้ผู้ถือใบรับรอง
-linktitle: เพิ่มลายเซ็นดิจิทัลลงใน PDF โดยใช้ผู้ถือใบรับรอง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: รักษาความปลอดภัยไฟล์ PDF ของคุณด้วยลายเซ็นดิจิทัลโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อเพิ่มลายเซ็นดิจิทัลลงใน PDF ของคุณได้อย่างง่ายดาย
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/
+"description": "รักษาความปลอดภัยไฟล์ PDF ของคุณด้วยลายเซ็นดิจิทัลโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อเพิ่มลายเซ็นดิจิทัลลงใน PDF ของคุณได้อย่างง่ายดาย"
+"linktitle": "เพิ่มลายเซ็นดิจิทัลลงใน PDF โดยใช้ผู้ถือใบรับรอง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เพิ่มลายเซ็นดิจิทัลลงใน PDF โดยใช้ผู้ถือใบรับรอง"
+"url": "/th/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certificate-holder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มลายเซ็นดิจิทัลลงใน PDF โดยใช้ผู้ถือใบรับรอง
@@ -21,14 +23,14 @@ url: /th/net/programming-with-pdfsaveoptions/digitally-signed-pdf-using-certific
 
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 2. ไฟล์ใบรับรอง: คุณจะต้องมีไฟล์ใบรับรอง .pfx เพื่อลงนามในไฟล์ PDF หากคุณไม่มี คุณสามารถสร้างใบรับรองที่ลงนามเองเพื่อวัตถุประสงค์ในการทดสอบได้
 3. Visual Studio: บทช่วยสอนนี้ถือว่าคุณใช้ Visual Studio เป็นสภาพแวดล้อมการพัฒนาของคุณ
-4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# และ .NET เป็นสิ่งสำคัญ
+4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# และ .NET เป็นสิ่งจำเป็น
 
 ## นำเข้าเนมสเปซ
 
-ก่อนอื่นเรามาทำการนำเข้าเนมสเปซที่จำเป็นกันก่อน ซึ่งเนมสเปซเหล่านี้มีความจำเป็นต่อการเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการเอกสารและลายเซ็นดิจิทัล
+ก่อนอื่นให้นำเข้าเนมสเปซที่จำเป็น ซึ่งจำเป็นสำหรับการเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการเอกสารและลายเซ็นดิจิทัล
 
 ```csharp
 using Aspose.Words;
@@ -69,7 +71,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- แทนที่`"your_password"` ด้วยรหัสผ่านสำหรับไฟล์ .pfx ของคุณ
+แทนที่ `"your_password"` ด้วยรหัสผ่านสำหรับไฟล์ .pfx ของคุณ
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น PDF ที่มีลายเซ็นดิจิทัล
 
@@ -97,13 +99,18 @@ doc.Save(dataDir + "DigitallySignedPdfUsingCertificateHolder.pdf", saveOptions);
 ใช่ คุณสามารถสร้างใบรับรองที่ลงนามเองเพื่อวัตถุประสงค์ในการทดสอบได้ อย่างไรก็ตาม สำหรับการใช้งานจริง ขอแนะนำให้ขอรับใบรับรองจากผู้มีอำนาจออกใบรับรองที่เชื่อถือได้
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET เพื่อลงนามในเอกสารประเภทอื่นได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้ลงนามในเอกสารหลายประเภท ไม่เพียงแค่ PDF เท่านั้น
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

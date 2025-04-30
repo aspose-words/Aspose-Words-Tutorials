@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie tekstu z podpisami cyfrowymi
-linktitle: Przetwarzanie tekstu z podpisami cyfrowymi
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać i zarządzać podpisami cyfrowymi w dokumentach Word za pomocą Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez kroki generowania podpisów cyfrowych i dodawania ich do dokumentów.
-weight: 1440
-url: /pl/net/programming-with-digital-signatures/
+"description": "Dowiedz się, jak dodawać i zarządzać podpisami cyfrowymi w dokumentach Word za pomocą Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez kroki generowania podpisów cyfrowych i dodawania ich do dokumentów."
+"linktitle": "Przetwarzanie tekstu z podpisami cyfrowymi"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie tekstu z podpisami cyfrowymi"
+"url": "/pl/net/programming-with-digital-signatures/"
+"weight": 1440
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie tekstu z podpisami cyfrowymi
@@ -24,12 +26,17 @@ Dzięki tym samouczkom będziesz w stanie opanować funkcje podpisu cyfrowego As
 | [Podpisywanie zaszyfrowanego dokumentu Word](./signing-encrypted-document/) | Dowiedz się, jak podpisywać zaszyfrowane dokumenty Word za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów. |
 | [Tworzenie i podpisywanie nowej linii podpisu](./creating-and-signing-new-signature-line/) | Dowiedz się, jak utworzyć i cyfrowo podpisać linię podpisu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do automatyzacji dokumentów. |
 | [Podpisywanie istniejącej linii podpisu w dokumencie Word](./signing-existing-signature-line/) | Dowiedz się, jak podpisać istniejącą linię podpisu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów. |
-| [Ustaw identyfikator dostawcy podpisu w dokumencie Word](./set-signature-provider-id/) | Bezpiecznie ustaw Signature Provider ID w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym, 2000-wyrazowym przewodnikiem, aby cyfrowo podpisywać dokumenty. |
+| [Ustaw identyfikator dostawcy podpisu w dokumencie Word](./set-signature-provider-id/) Bezpiecznie ustaw identyfikator dostawcy podpisu w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym, 2000-wyrazowym przewodnikiem, aby cyfrowo podpisywać dokumenty. |
 | [Utwórz nową linię podpisu i ustaw identyfikator dostawcy](./create-new-signature-line-and-set-provider-id/) | Dowiedz się, jak utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku. |
-| [Dostęp i weryfikacja podpisu w dokumencie Word](./access-and-verify-signature/) | Uzyskaj dostęp i zweryfikuj podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij autentyczność dokumentu bez wysiłku. |
+| [Dostęp i weryfikacja podpisu w dokumencie Word](./access-and-verify-signature/) | Uzyskaj dostęp i weryfikuj podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij autentyczność dokumentu bez wysiłku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

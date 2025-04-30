@@ -1,14 +1,16 @@
 ---
-title: Ustawienia strony dokumentu
-linktitle: Ustawienia strony dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Opanuj konfigurację strony dokumentu z Aspose.Words dla .NET w prostych krokach. Naucz się ładować, ustawiać układ, definiować znaki na wiersz, wiersze na stronę i zapisywać dokument.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Opanuj konfigurację strony dokumentu z Aspose.Words dla .NET w prostych krokach. Naucz się ładować, ustawiać układ, definiować znaki na wiersz, wiersze na stronę i zapisywać dokument."
+"linktitle": "Ustawienia strony dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustawienia strony dokumentu"
+"url": "/pl/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawienia strony dokumentu
@@ -21,8 +23,8 @@ Czy kiedykolwiek zastanawiałeś się, jak skonfigurować układ strony dokument
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
--  Ważna licencja: Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
+- Ważna licencja: Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 - Podstawowa znajomość programowania w języku C#: Nie martw się, przedstawię to w sposób prosty i zrozumiały.
 - Zintegrowane środowisko programistyczne (IDE): Visual Studio jest dobrym wyborem.
 
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 Po pierwsze, musisz załadować swój dokument. To jest fundament, na którym zbudujesz konfigurację swojej strony.
 
- Utwórz nową instancję`Document` klasę i załaduj dokument z określonego katalogu.
+Utwórz nową instancję `Document` klasę i załaduj dokument z określonego katalogu.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -88,22 +90,27 @@ I masz to! Dzięki tym prostym krokom skonfigurowałeś układ strony dokumentu 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Words dla .NET?
-To potężna biblioteka umożliwiająca tworzenie, modyfikowanie i konwertowanie dokumentów w różnych formatach przy użyciu aplikacji .NET.
+To potężna biblioteka umożliwiająca tworzenie, modyfikowanie i konwertowanie dokumentów w różnych formatach za pomocą aplikacji .NET.
 
 ### Czy mogę używać Aspose.Words za darmo?
-Tak, możesz go używać z licencją tymczasową, którą możesz uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz go używać z licencją tymczasową, którą możesz uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Można go pobrać z[Tutaj](https://releases.aspose.com/words/net/) i postępuj zgodnie z instrukcją instalacji.
+Można go pobrać z [Tutaj](https://releases.aspose.com/words/net/) i postępuj zgodnie z instrukcją instalacji.
 
 ### Jakie języki obsługuje Aspose.Words?
 Obsługuje szeroką gamę języków, w tym języki azjatyckie, takie jak chiński i japoński.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

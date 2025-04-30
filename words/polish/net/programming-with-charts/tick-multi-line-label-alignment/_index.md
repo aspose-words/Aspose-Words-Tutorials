@@ -1,14 +1,16 @@
 ---
-title: Zaznacz wieloliniowe wyrównanie etykiet na wykresie
-linktitle: Zaznacz wieloliniowe wyrównanie etykiet na wykresie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zaznaczyć wielowierszowe wyrównanie etykiet na wykresie za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów na każdym poziomie.
-weight: 10
-url: /pl/net/programming-with-charts/tick-multi-line-label-alignment/
+"description": "Dowiedz się, jak zaznaczyć wielowierszowe wyrównanie etykiet na wykresie za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów na każdym poziomie."
+"linktitle": "Zaznacz wieloliniowe wyrównanie etykiet na wykresie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zaznacz wieloliniowe wyrównanie etykiet na wykresie"
+"url": "/pl/net/programming-with-charts/tick-multi-line-label-alignment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaznacz wieloliniowe wyrównanie etykiet na wykresie
@@ -21,7 +23,7 @@ Hej, entuzjaści technologii! Czy kiedykolwiek drapaliście się po głowie, zas
 
 Zanim zanurzymy się w świecie wielowierszowego wyrównania etykiet, upewnijmy się, że masz wszystko pod kontrolą. Oto, czego będziesz potrzebować:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję Aspose.Words dla .NET. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko .NET: Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane z obsługą .NET.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# ułatwi Ci tę podróż.
 
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 Po pierwsze, musimy określić ścieżkę do katalogu dokumentów. To tutaj zostanie zapisany dokument Word.
 
 
- Zdefiniujmy ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+Zdefiniujmy ścieżkę do katalogu dokumentów. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Teraz utwórzmy nowy dokument Word. Ten dokument będzie służył jako płótno dla naszego wykresu.
 
- Zaczniemy od zainicjowania nowego wystąpienia`Document` klasa.
+Zaczniemy od zainicjowania nowego wystąpienia `Document` klasa.
 
 ```csharp
 Document doc = new Document();
@@ -58,9 +60,9 @@ Document doc = new Document();
 
 ## Krok 3: Użyj DocumentBuilder
 
- Ten`DocumentBuilder` Klasa w Aspose.Words jest potężnym narzędziem, które pomaga w konstruowaniu dokumentów. Użyjemy jej, aby wstawić wykres do naszego dokumentu.
+Ten `DocumentBuilder` Klasa w Aspose.Words jest potężnym narzędziem, które pomaga w konstruowaniu dokumentów. Użyjemy jej, aby wstawić wykres do naszego dokumentu.
 
- Zainicjuj instancję`DocumentBuilder` klasy, przekazując obiekt dokumentu do jej konstruktora.
+Zainicjuj instancję `DocumentBuilder` klasy, przekazując obiekt dokumentu do jej konstruktora.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Wstawmy wykres do naszego dokumentu. W tym przykładzie użyjemy wykresu punktowego.
 
- Korzystanie z`InsertChart` metoda`DocumentBuilder` klasie możemy wstawić wykres punktowy do naszego dokumentu.
+Korzystanie z `InsertChart` metoda `DocumentBuilder` klasie możemy wstawić wykres punktowy do naszego dokumentu.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 450, 250);
@@ -90,7 +92,7 @@ ChartAxis axis = shape.Chart.AxisX;
 
 Teraz nadchodzi magia! Ustawimy wyrównanie etykiety znacznika dla etykiet wielowierszowych.
 
- Ustaw`TickLabelAlignment` właściwość osi do`ParagraphAlignment.Right`.
+Ustaw `TickLabelAlignment` właściwość osi do `ParagraphAlignment.Right`.
 
 ```csharp
 axis.TickLabelAlignment = ParagraphAlignment.Right;
@@ -100,7 +102,7 @@ axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Na koniec zapiszmy dokument ze zmianami, które chcemy wprowadzić.
 
- Użyj`Save` metoda`Document` Klasa umożliwiająca zapisanie dokumentu w określonym katalogu.
+Użyj `Save` metoda `Document` Klasa umożliwiająca zapisanie dokumentu w określonym katalogu.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
@@ -114,26 +116,31 @@ I masz to! Udało Ci się zaznaczyć wielowierszowe wyrównanie etykiet na wykre
 
 ### Czym jest Aspose.Words dla .NET?
 
- Aspose.Words for .NET to potężna biblioteka, która umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word. Możesz dowiedzieć się o niej więcej[Tutaj](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET to potężna biblioteka, która umożliwia programistom programowe tworzenie, modyfikowanie i konwertowanie dokumentów Word. Możesz dowiedzieć się o niej więcej [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak zainstalować Aspose.Words dla .NET?
 
- Aspose.Words dla .NET można pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/)Postępuj zgodnie z instrukcjami instalacji tam podanymi.
+Aspose.Words dla .NET można pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/)Postępuj zgodnie z instrukcjami instalacji tam podanymi.
 
 ### Czy mogę używać Aspose.Words dla .NET za darmo?
 
- Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) którego możesz użyć do oceny produktu. Aby uzyskać pełny dostęp, musisz kupić licencję.
+Aspose oferuje [bezpłatny okres próbny](https://releases.aspose.com/) którego możesz użyć do oceny produktu. Aby uzyskać pełny dostęp, musisz kupić licencję.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
 
- Możesz uzyskać wsparcie od[Forum społeczności Aspose](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od [Forum społeczności Aspose](https://forum.aspose.com/c/words/8).
 
 ### Jakie są wymagania systemowe dla Aspose.Words dla .NET?
 
- Aspose.Words dla .NET wymaga środowiska .NET. Szczegółowe wymagania systemowe można znaleźć w[dokumentacja](https://reference.aspose.com/words/net/).
+Aspose.Words dla .NET wymaga środowiska .NET. Szczegółowe wymagania systemowe można znaleźć w [dokumentacja](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

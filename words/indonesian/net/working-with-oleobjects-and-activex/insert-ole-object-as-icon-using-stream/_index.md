@@ -1,14 +1,16 @@
 ---
-title: Masukkan Objek Ole Sebagai Ikon Menggunakan Stream
-linktitle: Masukkan Objek Ole Sebagai Ikon Menggunakan Stream
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan objek OLE sebagai ikon menggunakan aliran dengan Aspose.Words untuk .NET dalam tutorial langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "Pelajari cara menyisipkan objek OLE sebagai ikon menggunakan aliran dengan Aspose.Words untuk .NET dalam tutorial langkah demi langkah terperinci ini."
+"linktitle": "Masukkan Objek Ole Sebagai Ikon Menggunakan Stream"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Objek Ole Sebagai Ikon Menggunakan Stream"
+"url": "/id/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Objek Ole Sebagai Ikon Menggunakan Stream
@@ -21,7 +23,7 @@ Dalam tutorial ini, kita akan menyelami fitur Aspose.Words yang sangat keren unt
 
 Sebelum kita masuk ke kode, ada beberapa hal yang Anda perlukan:
 
--  Aspose.Words untuk .NET: Jika Anda belum melakukannya,[Unduh](https://releases.aspose.com/words/net/) dan instal Aspose.Words untuk .NET.
+- Aspose.Words untuk .NET: Jika Anda belum melakukannya, [Unduh](https://releases.aspose.com/words/net/) dan instal Aspose.Words untuk .NET.
 - Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 - File Input: File yang ingin Anda sisipkan (misalnya, presentasi PowerPoint) dan gambar ikon.
 
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pikirkanlah`Document` sebagai kanvas kosong Anda dan`DocumentBuilder` seperti kuas lukis Anda. Kami sedang menyiapkan peralatan untuk mulai menciptakan karya agung kami.
+Pikirkanlah `Document` sebagai kanvas kosong Anda dan `DocumentBuilder` seperti kuas lukis Anda. Kami sedang menyiapkan peralatan untuk mulai menciptakan karya agung kami.
 
 ## Langkah 2: Siapkan Streaming
 
@@ -60,7 +62,7 @@ using (MemoryStream stream = new MemoryStream(File.ReadAllBytes("Path_to_your_di
 {
 ```
 
-Langkah ini seperti menuangkan cat ke kuas. Kami menyiapkan berkas untuk disematkan.
+Langkah ini seperti menuangkan cat ke kuas. Kita menyiapkan berkas untuk disematkan.
 
 ## Langkah 3: Masukkan Objek OLE sebagai Ikon
 
@@ -93,19 +95,24 @@ Nah, itu dia! Anda telah berhasil menyematkan objek OLE sebagai ikon dalam dokum
 Ya, Anda dapat menyematkan jenis file apa pun yang didukung oleh OLE, termasuk Word, Excel, PowerPoint, dan lainnya.
 
 ### Apakah saya memerlukan lisensi khusus untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau membeli[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian.
+Ya, Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau membeli [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian.
 
 ### Dapatkah saya menyesuaikan ikon yang digunakan untuk objek OLE?
- Tentu saja! Anda dapat menggunakan file gambar apa pun untuk ikon dengan menentukan jalurnya di`InsertOleObjectAsIcon` metode.
+Tentu saja! Anda dapat menggunakan file gambar apa pun untuk ikon dengan menentukan jalurnya di `InsertOleObjectAsIcon` metode.
 
 ### Apa yang terjadi jika jalur berkas atau ikon salah?
 Metode ini akan memunculkan pengecualian. Pastikan jalur ke file Anda sudah benar untuk menghindari kesalahan.
 
 ### Mungkinkah menautkan objek yang tertanam alih-alih menanamkannya?
 Ya, Aspose.Words memungkinkan Anda menyisipkan objek OLE yang tertaut, yang mereferensikan berkas tanpa menyematkan kontennya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

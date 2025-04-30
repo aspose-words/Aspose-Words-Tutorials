@@ -1,42 +1,44 @@
 ---
-title: تقسيم المستندات إلى صفحات في Aspose.Words لـ Java
-linktitle: تقسيم المستندات إلى صفحات
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية تقسيم المستندات إلى صفحات باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع الكود المصدر لمعالجة المستندات بكفاءة.
-weight: 23
-url: /ar/java/document-manipulation/splitting-documents-into-pages/
+"description": "تعلّم كيفية تقسيم المستندات إلى صفحات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لمعالجة مستندات فعّالة."
+"linktitle": "تقسيم المستندات إلى صفحات"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "تقسيم المستندات إلى صفحات في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/splitting-documents-into-pages/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تقسيم المستندات إلى صفحات في Aspose.Words لـ Java
 
 
-إذا كنت تعمل على معالجة المستندات في Java، فإن Aspose.Words for Java عبارة عن واجهة برمجة تطبيقات قوية يمكنها مساعدتك في تقسيم المستندات إلى صفحات منفصلة بكفاءة. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تقسيم المستندات باستخدام الكود المصدر المقدم. بحلول نهاية هذا البرنامج التعليمي، ستتمكن من تقسيم المستندات بسهولة، مما يحسن من قدرات إدارة المستندات لديك.
+إذا كنت تعمل على معالجة المستندات بلغة جافا، فإن Aspose.Words for Java واجهة برمجة تطبيقات فعّالة تساعدك على تقسيم المستندات إلى صفحات منفصلة بكفاءة. في هذا البرنامج التعليمي المفصل، سنرشدك خلال عملية تقسيم المستندات باستخدام الكود المصدري المُرفق. بنهاية هذا البرنامج التعليمي، ستتمكن من تقسيم المستندات بسهولة، مما يُحسّن من قدراتك في إدارة المستندات.
 
 ## 1. المقدمة
 
-Aspose.Words for Java هي مكتبة Java تتيح لك التعامل مع مستندات Word برمجيًا. إحدى المهام الشائعة هي تقسيم المستند إلى صفحات منفصلة، والتي يمكن أن تكون مفيدة لأغراض مختلفة، مثل الأرشفة أو الطباعة أو معالجة المستندات.
+Aspose.Words for Java هي مكتبة جافا تتيح لك التعامل مع مستندات Word برمجيًا. من المهام الشائعة تقسيم المستند إلى صفحات منفصلة، وهو أمر مفيد لأغراض متعددة، مثل الأرشفة والطباعة ومعالجة المستندات.
 
 ## 2. المتطلبات الأساسية
 
-قبل أن نتعمق في الكود، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن نتعمق في الكود، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - تم تثبيت Java Development Kit (JDK) على نظامك.
--  مكتبة Aspose.Words لـ Java، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/words/java/).
+- مكتبة Aspose.Words لـ Java، والتي يمكنك تنزيلها [هنا](https://releases.aspose.com/words/java/).
 
 ## 3. إعداد البيئة الخاصة بك
 
 للبدء، قم بإعداد بيئة التطوير الخاصة بك على النحو التالي:
 
 - قم بإنشاء مشروع Java في بيئة التطوير المتكاملة (IDE) المفضلة لديك.
-- أضف مكتبة Aspose.Words for Java إلى مشروعك. يمكنك الرجوع إلى[التوثيق](https://reference.aspose.com/words/java/) للحصول على تعليمات مفصلة.
+- أضف مكتبة Aspose.Words لجافا إلى مشروعك. يمكنك الرجوع إلى [التوثيق](https://reference.aspose.com/words/java/) للحصول على تعليمات مفصلة.
 
 ## 4. فهم الكود المصدر
 
-تم تصميم الكود المصدر الذي قدمته لتقسيم المستند إلى صفحات منفصلة. دعنا نحلل المكونات الرئيسية:
+صُمم الكود المصدري الذي قدمته لتقسيم المستند إلى صفحات منفصلة. لنبدأ بشرح المكونات الرئيسية:
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -56,7 +58,7 @@ Document doc = new Document(docName);
 Document doc = new Document(docName);
 ```
 
- في هذه الخطوة، نقوم بتحميل مستند الإدخال إلى`Document` الكائن الذي يسمح لنا بالعمل مع محتوى المستند.
+في هذه الخطوة، نقوم بتحميل مستند الإدخال إلى `Document` الكائن الذي يسمح لنا بالعمل مع محتوى المستند.
 
 ### 5.2. تهيئة DocumentPageSplitter
 
@@ -64,7 +66,7 @@ Document doc = new Document(docName);
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
 
- نحن نقوم بتهيئة`DocumentPageSplitter` الكائن مع المستند الذي قمنا بتحميله. يتم توفير هذه الفئة بواسطة Aspose.Words لـ Java وتساعدنا في تقسيم المستند إلى صفحات.
+نحن نقوم بتهيئة `DocumentPageSplitter` باستخدام مستندنا المُحمّل. هذه الفئة مُقدّمة من Aspose.Words لجافا، وتساعدنا على تقسيم المستند إلى صفحات.
 
 ### 5.3. حفظ كل صفحة
 
@@ -75,27 +77,27 @@ for (int page = 1; page <= doc.getPageCount(); page++) {
 }
 ```
 
-في هذه الخطوة، نقوم بتكرار كل صفحة من المستند وحفظها كمستند منفصل. يمكنك تحديد مسار الدليل الذي سيتم حفظ الصفحات المقسمة فيه.
+في هذه الخطوة، نراجع كل صفحة من المستند ونحفظها كمستند منفصل. يمكنك تحديد مسار المجلد الذي ستُحفظ فيه الصفحات المقسمة.
 
 ## 6. تشغيل الكود
 
-لتشغيل هذا الكود بنجاح، تأكد من إعداد البيئة الخاصة بك وإضافة مكتبة Aspose.Words for Java إلى مشروعك. ثم قم بتنفيذ الكود، وستتمكن من تقسيم مستندك إلى صفحات منفصلة.
+لتشغيل هذا الكود بنجاح، تأكد من إعداد بيئتك وإضافة مكتبة Aspose.Words لجافا إلى مشروعك. بعد ذلك، نفّذ الكود، وسيتم تقسيم مستندك إلى صفحات منفصلة.
 
 ## كود مصدر DocumentPageSplitter
 
 ```java
 /// <ملخص>
-///تقسيم المستند إلى مستندات متعددة، مستند واحد لكل صفحة.
+/// تقسيم المستند إلى مستندات متعددة، مستند واحد لكل صفحة.
 /// </ملخص>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
 /// <ملخص>
-//يقوم بتهيئة مثيل جديد لفئة <see cref="DocumentPageSplitter"/>.
+/// يقوم بتهيئة مثيل جديد لفئة <see cref="DocumentPageSplitter"/>.
 //تقوم هذه الطريقة بتقسيم المستند إلى أقسام بحيث تبدأ كل صفحة وتنتهي عند حدود القسم.
 ///من المستحسن عدم تعديل المستند بعد ذلك.
 /// </ملخص>
-/// <param name="source">وثيقة المصدر</param>
+/// <param name="source">المستند المصدر</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -107,26 +109,26 @@ private Document getDocument() {
 /// يحصل على مستند الصفحة.
 /// </ملخص>
 /// <param name="pageIndex">
-/// 1-فهرس الصفحة.
+/// فهرس يعتمد على 1 صفحة.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// <see cref="Document"/>.
-/// </إرجاع>
+/// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
 /// <ملخص>
-//يحصل على مستند نطاق الصفحات.
+/// يحصل على مستند نطاق الصفحات.
 /// </ملخص>
 /// <param name="startIndex">
-/// 1-فهرس يعتمد على صفحة البداية.
+/// 1-فهرس قائم على صفحة البداية.
 /// </param>
-/// <param name="endIndex">
+//<param name="endIndex">
 /// 1-فهرس الصفحة النهائية.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// <see cref="Document"/>.
-/// </إرجاع>
+/// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
 	for (Node section : pageNumberFinder.retrieveAllNodesOnPages(startIndex, endIndex, NodeType.SECTION))
@@ -149,9 +151,9 @@ private LayoutCollector collector;
 // تعيين رقم الصفحة إلى قائمة العقد الموجودة على تلك الصفحة.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
 /// <ملخص>
-//يقوم بتهيئة مثيل جديد لفئة <see cref="PageNumberFinder"/>.
+/// يقوم بتهيئة مثيل جديد لفئة <see cref="PageNumberFinder"/>.
 /// </ملخص>
-/// <param name="collector">مثال جامع يحتوي على سجلات نموذج التخطيط للمستند.</param>
+/// <param name="collector">مثيل جامع يحتوي على سجلات نموذج التخطيط للمستند.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -161,47 +163,47 @@ public Document getDocument()
 	return collector.getDocument();
 }
 /// <ملخص>
-/// يقوم باسترجاع الفهرس 1-based للصفحة التي تبدأ فيها العقدة.
+/// يقوم باسترجاع الفهرس القائم على 1 للصفحة التي تبدأ فيها العقدة.
 /// </ملخص>
-/// <param name="عقدة">
+/// <param name="node">
 ///العقدة.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// فهرس الصفحة.
-/// </إرجاع>
+/// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
 /// <ملخص>
-/// يقوم باسترجاع الفهرس 1-based للصفحة التي تنتهي بها العقدة.
+/// يقوم باسترجاع الفهرس القائم على 1 للصفحة التي تنتهي بها العقدة.
 /// </ملخص>
-/// <param name="عقدة">
+/// <param name="node">
 ///العقدة.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// فهرس الصفحة.
-/// </إرجاع>
+/// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
 /// <ملخص>
-//يُرجع عدد الصفحات التي تمتد عبرها العقدة المحددة. يُرجع 1 إذا كانت العقدة موجودة داخل صفحة واحدة.
+/// يُرجع عدد الصفحات التي تغطيها العقدة المحددة. يُرجع القيمة ١ إذا كانت العقدة ضمن صفحة واحدة.
 /// </ملخص>
-/// <param name="عقدة">
+/// <param name="node">
 ///العقدة.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// فهرس الصفحة.
-/// </إرجاع>
+/// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
 /// <ملخص>
-///إرجاع قائمة بالعقد الموجودة في أي مكان على الصفحة أو الصفحات المحددة التي تطابق نوع العقدة المحدد.
+/// يقوم بإرجاع قائمة بالعقد الموجودة في أي مكان على الصفحة المحددة أو الصفحات التي تطابق نوع العقدة المحدد.
 /// </ملخص>
 /// <param name="startPage">
 /// صفحة البداية.
@@ -212,10 +214,10 @@ public int pageSpan(Node node) throws Exception {
 /// <param name="nodeType">
 /// نوع العقدة.
 /// </param>
-/// <العودة>
+/// <إرجاع>
 /// <see cref="IList{T}"/>.
-/// </إرجاع>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
+/// </returns>
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*نوع العقدة*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -260,13 +262,13 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// قم بزيارة أي مركبات من الممكن تقسيمها عبر الصفحات وقم بتقسيمها إلى عقد منفصلة.
+	// قم بزيارة أي مركبات من الممكن تقسيمها عبر الصفحات وتقسيمها إلى عقد منفصلة.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
 /// <ملخص>
 //يتم استدعاء هذا بواسطة <see cref="SectionSplitter"/> لتحديث أرقام الصفحات الخاصة بالعقد المنقسمة.
 /// </ملخص>
-/// <param name="عقدة">
+/// <param name="node">
 ///العقدة.
 /// </param>
 /// <param name="startPage">
@@ -299,7 +301,7 @@ private void checkPageListsPopulated() throws Exception {
 	// أضف كل عقدة إلى القائمة التي تمثل العقد الموجودة في كل صفحة.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		//تتبع الرؤوس والتذييلات الأقسام ولا يتم تقسيمها على حدة.
+		// تتبع الرؤوس والتذييلات الأقسام ولا يتم تقسيمها على حدة.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -408,7 +410,7 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// إذا كان هناك قسم سابق، حاول نسخ أي تذييلات ورؤوس صفحات مرتبطة.
+	// إذا كان هناك قسم سابق، حاول نسخ أي تذييلات رأسية مرتبطة.
 	// وإلا فلن تظهر في المستند المستخرج إذا كان القسم السابق مفقودًا.
 	if (previousSection != null)
 	{
@@ -452,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// إذا كانت الفقرة تحتوي على فاصل قسم فقط، أضف فاصلًا وهميًا إليها.
+	// إذا كانت الفقرة تحتوي على فاصل قسم فقط، أضف تشغيلًا وهميًا إليها.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -464,7 +466,7 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// قم بإزالة ترقيم القائمة من الفقرة المستنسخة ولكن اترك المسافة البادئة كما هي
+		// قم بإزالة ترقيم القائمة من الفقرة المستنسخة ولكن اترك المسافة البادئة كما هي 
 		// حيث أن الفقرة من المفترض أن تكون جزءًا من العنصر السابق.
 		if (paragraph.isListItem())
 		{
@@ -472,7 +474,7 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// قم بإعادة تعيين المسافات بين الفقرات المقسمة في الجداول، حيث أن المسافات الإضافية قد تؤدي إلى اختلاف مظهرها.
+		// قم بإعادة تعيين المسافات بين الفقرات المنقسمة في الجداول، حيث أن المسافات الإضافية قد تؤدي إلى اختلاف مظهرها.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -498,7 +500,7 @@ public int visitSectionEnd(Section section) throws Exception {
 	// أضف ترقيمًا جديدًا للصفحات لجسم القسم أيضًا.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return VisitorAction.CONTINUE;
+	return زائر العمل.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -514,8 +516,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// قد تمتد العقدة عبر صفحات متعددة، لذا يتم إرجاع قائمة بالمواضع المنقسمة.
-	//العقدة المنقسمة هي العقدة الأولى في الصفحة التالية.
+	// قد تمتد العقدة عبر صفحات متعددة، وبالتالي يتم إرجاع قائمة بالمواضع المنقسمة.
+	// العقدة المنقسمة هي العقدة الأولى في الصفحة التالية.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -528,7 +530,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// إذا تغيرت صفحة العقدة الفرعية، فهذا هو موضع الانقسام.
+		// إذا تغيرت صفحة العقدة الفرعية، فهذا هو موضع التقسيم.
 		// أضف هذا إلى القائمة.
 		if (pageNum > startingPage)
 		{
@@ -540,7 +542,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// تقسيم المركبات إلى الخلف، بحيث يتم إدراج العقد المستنسخة بالترتيب الصحيح.
+	// قم بتقسيم المركبات إلى الخلف، بحيث يتم إدراج العقد المستنسخة بالترتيب الصحيح.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -568,7 +570,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// إذا كنا نتعامل مع صف، فنحن بحاجة إلى إضافة خلايا وهمية للصف المستنسخ.
+		// إذا كنا نتعامل مع صف، نحتاج إلى إضافة خلايا وهمية للصف المستنسخ.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,7 +598,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	// أدخل العقدة المنقسمة بعد الأصلية.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// قم بتحديث أرقام الصفحات الجديدة للعقدة الأساسية والعقدة المستنسخة، بما في ذلك أحفادها.
+	// قم بتحديث أرقام الصفحات الجديدة للعقدة الأساسية والعقدة المستنسخة، بما في ذلك العقد التابعة لها.
 	// ستكون هذه صفحة واحدة فقط حيث تم تقسيم المركب المستنسخ ليكون في صفحة واحدة.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
@@ -668,8 +670,8 @@ private static void removePageBreak(Run run)
 
 ## خاتمة
 
-لقد تعلمت الآن كيفية تقسيم مستند إلى صفحات منفصلة باستخدام Aspose.Words for Java. يوفر هذا الدليل برنامجًا تعليميًا شاملاً خطوة بخطوة مع أمثلة على التعليمات البرمجية المصدرية. يمكنك تخصيص هذا الكود وتوسيعه بشكل أكبر لتلبية متطلباتك المحددة عند العمل مع المستندات.
-بالتأكيد! دعنا نضيف قسم الأسئلة الشائعة إلى دليلنا حول تقسيم المستندات إلى صفحات باستخدام Aspose.Words for Java.
+لقد تعلمتَ الآن كيفية تقسيم مستند إلى صفحات منفصلة باستخدام Aspose.Words لجافا. يقدم هذا الدليل شرحًا شاملاً خطوة بخطوة مع أمثلة على الكود المصدري. يمكنك تخصيص هذا الكود وتوسيعه لتلبية متطلباتك الخاصة عند العمل مع المستندات.
+بالتأكيد! لنُضِف قسمًا للأسئلة الشائعة إلى دليلنا حول تقسيم المستندات إلى صفحات باستخدام Aspose.Words لجافا.
 
 ## الأسئلة الشائعة
 
@@ -677,32 +679,37 @@ private static void removePageBreak(Run run)
 
 لإضافة Aspose.Words for Java إلى مشروعك، اتبع الخطوات التالية:
 
-1.  قم بتنزيل مكتبة Aspose.Words لـ Java من[هنا](https://releases.aspose.com/words/java/).
+1. قم بتنزيل مكتبة Aspose.Words لـ Java من [هنا](https://releases.aspose.com/words/java/).
 2. أضف ملف JAR الذي تم تنزيله إلى مسار مشروعك.
 3. يمكنك الآن البدء في استخدام Aspose.Words لـ Java في مشروعك.
 
-### هل يمكنني تقسيم المستندات إلى تنسيقات أخرى، مثل PDF أو DOCX؟
+### هل يمكنني تقسيم المستندات بتنسيقات أخرى، مثل PDF أو DOCX؟
 
-لا، يتناول هذا الدليل على وجه التحديد تقسيم المستندات بتنسيق DOC باستخدام Aspose.Words for Java. إذا كنت بحاجة إلى تقسيم المستندات بتنسيقات أخرى، فقد تحتاج إلى استكشاف مكتبات أو أدوات أخرى تدعم هذه التنسيقات.
+لا، يتناول هذا الدليل تحديدًا تقسيم المستندات بتنسيق DOC باستخدام Aspose.Words لجافا. إذا كنت بحاجة إلى تقسيم مستندات بتنسيقات أخرى، فقد تحتاج إلى استكشاف مكتبات أو أدوات أخرى تدعم هذه التنسيقات.
 
 ### هل Aspose.Words for Java مكتبة مجانية؟
 
- لا، Aspose.Words for Java ليست مكتبة مجانية. إنها منتج تجاري يتطلب رسوم ترخيص. يمكنك زيارة[صفحة تسعير Aspose.Words لـ Java](https://purchase.aspose.com/words/java) لمزيد من المعلومات حول تفاصيل الترخيص والتسعير.
+لا، Aspose.Words لجافا ليست مكتبة مجانية. إنها منتج تجاري يتطلب ترخيصًا. يمكنك زيارة [صفحة تسعير Aspose.Words لـ Java](https://purchase.aspose.com/words/java) لمزيد من المعلومات حول تفاصيل الترخيص والتسعير.
 
-### هل يمكنني تقسيم المستندات إلى أحجام وتنسيقات صفحات مخصصة؟
+### هل يمكنني تقسيم المستندات إلى أحجام صفحات وتنسيقات مخصصة؟
 
-نعم، يمكنك تخصيص أحجام الصفحات وتنسيقات المستندات المقسمة عن طريق تعديل خصائص إعداد الصفحة في Aspose.Words for Java. راجع وثائق Aspose.Words للحصول على تفاصيل حول كيفية تخصيص إعدادات الصفحة وفقًا لمتطلباتك.
+نعم، يمكنك تخصيص أحجام الصفحات وتنسيقاتها في المستندات المقسمة عن طريق تعديل خصائص إعداد الصفحة في Aspose.Words لجافا. راجع وثائق Aspose.Words لمزيد من التفاصيل حول كيفية تخصيص إعدادات الصفحة وفقًا لمتطلباتك.
 
 ### هل هناك أي قيود على عدد الصفحات التي يمكن تقسيمها؟
 
-لا يفرض Aspose.Words for Java قيودًا محددة على عدد الصفحات التي يمكنك تقسيمها. ومع ذلك، ضع في اعتبارك أن المستندات الكبيرة جدًا قد تتطلب مزيدًا من الذاكرة ووقت المعالجة. كن حريصًا على موارد النظام عند العمل مع مستندات كبيرة.
+لا يفرض Aspose.Words لجافا قيودًا محددة على عدد الصفحات التي يمكنك تقسيمها. مع ذلك، تذكّر أن المستندات الكبيرة جدًا قد تتطلب ذاكرة ووقت معالجة أكبر. انتبه لموارد النظام عند العمل مع مستندات كبيرة.
 
 ### كيف يمكنني التعامل مع الرؤوس والتذييلات عند تقسيم المستندات؟
 
-يمكن التعامل مع الرؤوس والتذييلات عند تقسيم المستندات باستخدام مكتبة Aspose.Words for Java. يمكنك نسخ محتوى الرؤوس والتذييلات من المستند الأصلي إلى المستندات المقسمة، مع التأكد من حفظها بشكل صحيح. قد تحتاج إلى تخصيص هذه العملية بناءً على متطلبات الرؤوس والتذييلات الخاصة بك.
+يمكن معالجة الرؤوس والتذييلات عند تقسيم المستندات باستخدام مكتبة Aspose.Words لجافا. يمكنك نسخ محتوى الرؤوس والتذييلات من المستند الأصلي إلى المستندات المقسمة، مع ضمان حفظها بشكل صحيح. قد تحتاج إلى تخصيص هذه العملية وفقًا لمتطلباتك الخاصة بالرؤوس والتذييلات.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

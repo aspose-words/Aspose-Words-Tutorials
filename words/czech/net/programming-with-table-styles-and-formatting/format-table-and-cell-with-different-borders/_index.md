@@ -1,33 +1,35 @@
 ---
-title: Formát Tabulky A Buňky S Různými Hranicemi
-linktitle: Formát Tabulky A Buňky S Různými Hranicemi
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se formátovat tabulky a buňky s různými okraji pomocí Aspose.Words for .NET. Vylepšete své dokumenty aplikace Word pomocí přizpůsobených stylů tabulek a stínování buněk.
-weight: 10
-url: /cs/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "Naučte se, jak formátovat tabulky a buňky s různými ohraničeními pomocí Aspose.Words pro .NET. Vylepšete své dokumenty Word pomocí přizpůsobených stylů tabulek a stínování buněk."
+"linktitle": "Formátování tabulky a buňky s různými ohraničeními"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Formátování tabulky a buňky s různými ohraničeními"
+"url": "/cs/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formát Tabulky A Buňky S Různými Hranicemi
+# Formátování tabulky a buňky s různými ohraničeními
 
 ## Zavedení
 
-Zkoušeli jste někdy, aby vaše dokumenty Word vypadaly profesionálněji tím, že jste si přizpůsobili okraje tabulek a buněk? Pokud ne, máte se na co těšit! Tento tutoriál vás provede procesem formátování tabulek a buněk s různými okraji pomocí Aspose.Words for .NET. Představte si, že máte možnost změnit vzhled svých tabulek pomocí pouhých několika řádků kódu. Zaujalo? Pojďme se ponořit a prozkoumat, jak toho můžete snadno dosáhnout.
+Už jste někdy zkoušeli, jak vylepšit vzhled vašich dokumentů Word úpravou okrajů tabulek a buněk? Pokud ne, čeká vás lahůdka! Tento tutoriál vás provede procesem formátování tabulek a buněk s různými okraji pomocí Aspose.Words pro .NET. Představte si, že máte možnost změnit vzhled svých tabulek jen pomocí několika řádků kódu. Zaujalo vás to? Pojďme se do toho pustit a prozkoumat, jak toho snadno dosáhnout.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 - Základní znalost programování v C#.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.Words pro knihovnu .NET. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
--  Platná licence Aspose. Můžete získat bezplatnou zkušební verzi nebo dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
+- Knihovna Aspose.Words pro .NET. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+- Platná licence Aspose. Bezplatnou zkušební verzi nebo dočasnou licenci můžete získat od [zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importovat jmenné prostory
 
-Chcete-li pracovat s Aspose.Words for .NET, musíte do projektu importovat potřebné jmenné prostory. Přidejte následující pomocí direktiv v horní části souboru kódu:
+Pro práci s Aspose.Words pro .NET je nutné do projektu importovat potřebné jmenné prostory. Na začátek souboru s kódem přidejte následující direktivy using:
 
 ```csharp
 using Aspose.Words;
@@ -35,12 +37,12 @@ using Aspose.Words.Tables;
 using System.Drawing;
 ```
 
-## Krok 1: Inicializujte Document a DocumentBuilder
+## Krok 1: Inicializace dokumentu a DocumentBuilderu
 
-Nejprve musíte vytvořit nový dokument a inicializovat DocumentBuilder, který pomáhá při vytváření obsahu dokumentu. 
+Nejprve je třeba vytvořit nový dokument a inicializovat DocumentBuilder, který pomáhá s vytvářením obsahu dokumentu. 
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -49,25 +51,25 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Začněte vytvářet tabulku
 
-Dále pomocí DocumentBuilder začněte vytvářet tabulku a vložte první buňku.
+Dále použijte DocumentBuilder k zahájení vytváření tabulky a vložení první buňky.
 
 ```csharp
 Table table = builder.StartTable();
 builder.InsertCell();
 ```
 
-## Krok 3: Nastavte okraje tabulky
+## Krok 3: Nastavení ohraničení tabulky
 
-Nastavte okraje pro celou tabulku. Tento krok zajistí, že všechny buňky v tabulce budou mít konzistentní styl ohraničení, pokud není uvedeno jinak.
+Nastavte ohraničení pro celou tabulku. Tento krok zajistí, že všechny buňky v tabulce budou mít konzistentní styl ohraničení, pokud není uvedeno jinak.
 
 ```csharp
-// Nastavte okraje pro celou tabulku.
+// Nastavte ohraničení pro celou tabulku.
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 ```
 
-## Krok 4: Použijte stínování buněk
+## Krok 4: Použití stínování buněk
 
-Aplikujte na buňky stínování, aby byly vizuálně odlišné. V tomto příkladu nastavíme barvu pozadí první buňky na červenou.
+Pro vizuální odlišení buněk použijte na ně stínování. V tomto příkladu nastavíme barvu pozadí první buňky na červenou.
 
 
 ```csharp
@@ -78,34 +80,34 @@ builder.Writeln("Cell #1");
 
 ## Krok 5: Vložte další buňku s jiným stínováním
 
-Vložte druhou buňku a použijte jinou barvu stínování. Díky tomu je tabulka barevnější a lépe čitelná.
+Vložte druhou buňku a použijte jinou barvu stínování. Tabulka se tak stane barevnější a snáze čitelnou.
 
 ```csharp
 builder.InsertCell();
-// Zadejte jiné stínování buňky pro druhou buňku.
+// Zadejte jiné stínování buněk pro druhou buňku.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.Green;
 builder.Writeln("Cell #2");
 builder.EndRow();
 ```
 
-## Krok 6: Vymažte formátování buněk
+## Krok 6: Vymazání formátování buněk
 
-Vymažte formátování buněk z předchozích operací, abyste zajistili, že další buňky nedědí stejné styly.
+Vymažte formátování buněk z předchozích operací, abyste zajistili, že další buňky nebudou dědit stejné styly.
 
 
 ```csharp
-// Vymažte formátování buňky z předchozích operací.
+// Vymaže formátování buněk z předchozích operací.
 builder.CellFormat.ClearFormatting();
 ```
 
-## Krok 7: Přizpůsobte ohraničení pro konkrétní buňky
+## Krok 7: Úprava ohraničení pro konkrétní buňky
 
-Upravte okraje pro konkrétní buňky, aby vynikly. Zde nastavíme větší ohraničení pro první buňku nového řádku.
+Upravte ohraničení konkrétních buněk tak, aby vynikly. Zde nastavíme větší ohraničení pro první buňku nového řádku.
 
 ```csharp
 builder.InsertCell();
-// Vytvořte větší ohraničení pro první buňku tohoto řádku. Tohle bude jiné
-// ve srovnání s hranicemi stanovenými pro tabulku.
+// Vytvořte větší ohraničení pro první buňku v tomto řádku. Bude to jiné.
+// ve srovnání s okraji stanovenými pro stůl.
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;
 builder.CellFormat.Borders.Top.LineWidth = 4.0;
@@ -113,9 +115,9 @@ builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
 builder.Writeln("Cell #3");
 ```
 
-## Krok 8: Vložte poslední buňku
+## Krok 8: Vložení poslední buňky
 
-Vložte poslední buňku a ujistěte se, že její formátování je vymazáno, aby používala výchozí styly tabulky.
+Vložte poslední buňku a ujistěte se, že je její formátování vymazáno, aby se použily výchozí styly tabulky.
 
 ```csharp
 builder.InsertCell();
@@ -125,7 +127,7 @@ builder.Writeln("Cell #4");
 
 ## Krok 9: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře.
+Nakonec uložte dokument do zadaného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDifferentBorders.docx");
@@ -133,27 +135,32 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDi
 
 ## Závěr
 
-A tady to máte! Právě jste se naučili formátovat tabulky a buňky s různými okraji pomocí Aspose.Words for .NET. Přizpůsobením ohraničení tabulek a stínování buněk můžete výrazně zlepšit vizuální přitažlivost svých dokumentů. Takže pokračujte, experimentujte s různými styly a nechte své dokumenty vyniknout!
+A tady to máte! Právě jste se naučili, jak formátovat tabulky a buňky s různými ohraničeními pomocí Aspose.Words pro .NET. Úpravou ohraničení tabulek a stínování buněk můžete výrazně vylepšit vizuální atraktivitu vašich dokumentů. Tak se do toho pusťte, experimentujte s různými styly a nechte své dokumenty vyniknout!
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu pro každou buňku použít různé styly ohraničení?
- Ano, můžete nastavit různé styly ohraničení pro každou buňku pomocí`CellFormat.Borders` vlastnictví.
+Ano, pro každou buňku můžete nastavit různé styly ohraničení pomocí `CellFormat.Borders` vlastnictví.
 
-### Jak mohu odstranit všechna ohraničení z tabulky?
- Nastavením stylu ohraničení na můžete odstranit všechna ohraničení`LineStyle.None`.
+### Jak mohu odstranit všechny okraje z tabulky?
+Všechny ohraničení můžete odstranit nastavením stylu ohraničení na `LineStyle.None`.
 
-### Je možné nastavit různé barvy ohraničení pro každou buňku?
- Absolutně! Barvu ohraničení pro každou buňku můžete upravit pomocí`CellFormat.Borders.Color` vlastnictví.
+### Je možné nastavit pro každou buňku jinou barvu ohraničení?
+Rozhodně! Barvu ohraničení pro každou buňku si můžete přizpůsobit pomocí `CellFormat.Borders.Color` vlastnictví.
 
 ### Mohu použít obrázky jako pozadí buněk?
-Přestože Aspose.Words přímo nepodporuje obrázky jako pozadí buněk, můžete do buňky vložit obrázek a upravit jeho velikost tak, aby pokryla oblast buňky.
+I když Aspose.Words přímo nepodporuje obrázky jako pozadí buněk, můžete do buňky vložit obrázek a upravit jeho velikost tak, aby pokrýval oblast buňky.
 
 ### Jak sloučím buňky v tabulce?
- Buňky můžete sloučit pomocí`CellFormat.HorizontalMerge` a`CellFormat.VerticalMerge` vlastnosti.
+Buňky můžete sloučit pomocí `CellFormat.HorizontalMerge` a `CellFormat.VerticalMerge` vlastnosti.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

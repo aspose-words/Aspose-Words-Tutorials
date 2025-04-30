@@ -1,14 +1,16 @@
 ---
-title: Wstaw prosty wykres kolumnowy do dokumentu Word
-linktitle: Wstaw prosty wykres kolumnowy do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić prosty wykres kolumnowy do programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz swoje dokumenty za pomocą dynamicznych, wizualnych prezentacji danych.
-weight: 10
-url: /pl/net/programming-with-charts/insert-simple-column-chart/
+"description": "Dowiedz się, jak wstawić prosty wykres kolumnowy do programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz swoje dokumenty za pomocą dynamicznych, wizualnych prezentacji danych."
+"linktitle": "Wstaw prosty wykres kolumnowy do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw prosty wykres kolumnowy do dokumentu Word"
+"url": "/pl/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw prosty wykres kolumnowy do dokumentu Word
@@ -94,16 +96,21 @@ Tak, możesz programowo dostosować różne aspekty wykresu, takie jak kolory, c
 Oczywiście! Aspose.Words dla .NET obsługuje szeroki zakres typów wykresów i opcji dostosowywania do tworzenia złożonych wykresów.
 
 ### Czy Aspose.Words dla .NET obsługuje eksportowanie wykresów do innych formatów, takich jak PDF?
-Tak, możesz bezproblemowo eksportować dokumenty zawierające wykresy do różnych formatów, w tym do PDF.
+Tak, możesz bez problemu eksportować dokumenty zawierające wykresy do różnych formatów, w tym do PDF.
 
 ### Czy mogę zintegrować dane ze źródeł zewnętrznych z tymi wykresami?
 Tak, Aspose.Words for .NET pozwala na dynamiczne wypełnianie wykresów danymi z zewnętrznych źródeł, takich jak bazy danych lub interfejsy API.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words dla .NET?
- Odwiedź[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe odniesienia i przykłady API. Aby uzyskać pomoc, możesz również odwiedzić stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Odwiedź [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe odniesienia i przykłady API. Aby uzyskać pomoc, możesz również odwiedzić stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

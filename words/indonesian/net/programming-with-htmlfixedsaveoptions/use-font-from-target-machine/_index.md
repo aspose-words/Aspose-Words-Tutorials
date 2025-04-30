@@ -1,14 +1,16 @@
 ---
-title: Gunakan Font Dari Mesin Target
-linktitle: Gunakan Font Dari Mesin Target
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan font dari mesin target di dokumen Word Anda dengan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi font yang lancar.
-weight: 10
-url: /id/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
+"description": "Pelajari cara menggunakan font dari mesin target di dokumen Word Anda dengan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi font yang lancar."
+"linktitle": "Gunakan Font Dari Mesin Target"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gunakan Font Dari Mesin Target"
+"url": "/id/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Font Dari Mesin Target
@@ -21,7 +23,7 @@ Apakah Anda siap menyelami dunia Aspose.Words yang menarik untuk .NET? Bersiapla
 
 Sebelum kita masuk ke detail yang lebih mendalam, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.
 3. Dokumen yang Dapat Digunakan: Siapkan dokumen Word untuk pengujian. Kami akan menggunakan dokumen bernama "Bullet points with alternative font.docx".
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## Langkah 1: Muat Dokumen Word
 
- Langkah pertama dalam tutorial kami adalah memuat dokumen Word. Di sinilah semuanya dimulai. Kami akan menggunakan`Document` kelas dari pustaka Aspose.Words untuk mencapai hal ini.
+Langkah pertama dalam tutorial kami adalah memuat dokumen Word. Di sinilah semuanya dimulai. Kami akan menggunakan `Document` kelas dari pustaka Aspose.Words untuk mencapai hal ini.
 
 ### Langkah 1.1: Tentukan Jalur Dokumen
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ### Langkah 1.2: Muat Dokumen
 
- Sekarang, kita memuat dokumen menggunakan`Document` kelas.
+Sekarang, kita memuat dokumen menggunakan `Document` kelas.
 
 ```csharp
 // Memuat dokumen Word
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Bullet points with alternative font.docx"
 
 Selanjutnya, kita perlu mengonfigurasi opsi penyimpanan. Langkah ini penting karena memastikan bahwa font yang digunakan dalam dokumen Anda adalah font dari mesin target.
 
- Kita akan membuat sebuah instance dari`HtmlFixedSaveOptions` dan mengatur`UseTargetMachineFonts`properti untuk`true`.
+Kita akan membuat sebuah instance dari `HtmlFixedSaveOptions` dan mengatur `UseTargetMachineFonts` properti untuk `true`.
 
 ```csharp
 // Konfigurasikan opsi cadangan dengan fitur "Gunakan font dari mesin target"
@@ -77,7 +79,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 
 Terakhir, kami menyimpan dokumen sebagai file HTML tetap. Di sinilah keajaiban terjadi!
 
- Kami akan menggunakan`Save` metode untuk menyimpan dokumen dengan opsi penyimpanan yang dikonfigurasi.
+Kami akan menggunakan `Save` metode untuk menyimpan dokumen dengan opsi penyimpanan yang dikonfigurasi.
 
 ```csharp
 // Konversi dokumen ke HTML tetap
@@ -110,17 +112,22 @@ Ya, Aspose.Words untuk .NET mendukung berbagai format dokumen, dan Anda dapat me
 Jika mesin target tidak memiliki font yang dibutuhkan, dokumen mungkin tidak ditampilkan sebagaimana mestinya. Sebaiknya Anda menyematkan font bila perlu.
 
 ### Bagaimana cara menyematkan font dalam dokumen?
- Penyematan font dapat dilakukan dengan menggunakan`FontSettings` kelas di Aspose.Words untuk .NET. Lihat[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Penyematan font dapat dilakukan dengan menggunakan `FontSettings` kelas di Aspose.Words untuk .NET. Lihat [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
 
 ### Apakah ada cara untuk melihat pratinjau dokumen sebelum menyimpan?
- Ya, Anda bisa menggunakan`DocumentRenderer` kelas untuk melihat pratinjau dokumen sebelum menyimpan. Lihat Aspose.Words untuk .NET[dokumentasi](https://reference.aspose.com/words/net/) untuk informasi lebih lanjut.
+Ya, Anda bisa menggunakan `DocumentRenderer` kelas untuk melihat pratinjau dokumen sebelum menyimpan. Lihat Aspose.Words untuk .NET [dokumentasi](https://reference.aspose.com/words/net/) untuk informasi lebih lanjut.
 
 ### Bisakah saya menyesuaikan keluaran HTML lebih lanjut?
- Tentu saja!`HtmlFixedSaveOptions` kelas menyediakan berbagai properti untuk menyesuaikan output HTML. Jelajahi[dokumentasi](https://reference.aspose.com/words/net/) untuk semua pilihan yang tersedia.
+Tentu saja! `HtmlFixedSaveOptions` kelas menyediakan berbagai properti untuk menyesuaikan output HTML. Jelajahi [dokumentasi](https://reference.aspose.com/words/net/) untuk semua pilihan yang tersedia.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

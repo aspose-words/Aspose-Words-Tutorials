@@ -1,14 +1,16 @@
 ---
-title: Trích xuất nội dung tài liệu theo trang
-linktitle: Trích xuất nội dung tài liệu theo trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách trích xuất nội dung tài liệu theo trang bằng Aspose.Words for Java. Hướng dẫn từng bước này với mã nguồn sẽ giúp bạn trở thành chuyên gia trong thời gian ngắn.
-weight: 13
-url: /vi/java/document-splitting/extracting-document-content-pages/
+"description": "Tìm hiểu cách trích xuất nội dung tài liệu theo trang bằng Aspose.Words for Java. Hướng dẫn từng bước này với mã nguồn sẽ giúp bạn trở thành chuyên gia trong thời gian ngắn."
+"linktitle": "Trích xuất nội dung tài liệu theo trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Trích xuất nội dung tài liệu theo trang"
+"url": "/vi/java/document-splitting/extracting-document-content-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất nội dung tài liệu theo trang
@@ -28,13 +30,13 @@ Trước khi chúng ta có thể bắt đầu làm việc với Aspose.Words for
 
 1. Cài đặt Java: Nếu bạn chưa cài đặt Java, hãy tải xuống và cài đặt phiên bản mới nhất từ trang web.
 
-2.  Tải xuống Aspose.Words cho Java: Truy cập[Aspose.Words cho Java](https://releases.aspose.com/words/java/) và tải xuống phiên bản mới nhất của thư viện.
+2. Tải xuống Aspose.Words cho Java: Truy cập [Aspose.Words cho Java](https://releases.aspose.com/words/java/) và tải xuống phiên bản mới nhất của thư viện.
 
 3. Tích hợp Aspose.Words vào dự án của bạn: Thêm các tệp JAR Aspose.Words vào classpath của dự án Java.
 
 ### Tạo một dự án Java mới
 
-Bây giờ, chúng ta hãy tạo một dự án Java mới để bắt đầu hành trình của mình:
+Bây giờ, hãy tạo một dự án Java mới để bắt đầu hành trình của chúng ta:
 
 ```java
 public class DocumentExtractor {
@@ -46,9 +48,9 @@ public class DocumentExtractor {
 
 ### Thêm Aspose.Words vào Dự án của bạn
 
-Để thêm Aspose.Words vào dự án của bạn, hãy sao chép các tệp JAR đã tải xuống vào thư mục dự án của bạn`lib` và thêm chúng vào classpath của bạn. Bây giờ bạn đã sẵn sàng để khám phá thế giới trích xuất tài liệu!
+Để thêm Aspose.Words vào dự án của bạn, hãy sao chép các tệp JAR đã tải xuống vào thư mục dự án của bạn `lib` và thêm chúng vào classpath của bạn. Bây giờ bạn đã sẵn sàng để khám phá thế giới trích xuất tài liệu!
 
-## Tải và phân tích tài liệu
+## Tải và Phân tích Tài liệu
 
 ### Tải một tài liệu Word
 
@@ -96,7 +98,7 @@ String pageText = doc.extractText(pageInfo);
 Để trích xuất nội dung từ tất cả các trang, bạn có thể sử dụng vòng lặp đơn giản:
 
 ```java
-//Lấy tổng số trang trong tài liệu
+// Lấy tổng số trang trong tài liệu
 int pageCount = doc.getPageCount();
 
 for (int i = 0; i < pageCount; i++) {
@@ -163,9 +165,14 @@ Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng thư�
 ## Phần kết luận
 
 Xin chúc mừng! Bạn đã hoàn thành hướng dẫn từng bước về cách trích xuất nội dung tài liệu theo trang bằng Aspose.Words for Java. Bây giờ bạn đã có một bộ kỹ năng có giá trị để làm việc với các tài liệu Word theo chương trình. Hãy thoải mái khám phá thêm các tính năng của Aspose.Words và giải phóng sự sáng tạo của bạn trong việc thao tác tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Wstaw wykres punktowy do dokumentu Word
-linktitle: Wstaw wykres punktowy do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić wykres punktowy w programie Word za pomocą Aspose.Words dla .NET. Proste kroki integrowania wizualnych reprezentacji danych z dokumentami.
-weight: 10
-url: /pl/net/programming-with-charts/insert-scatter-chart/
+"description": "Dowiedz się, jak wstawić wykres punktowy w programie Word za pomocą Aspose.Words dla .NET. Proste kroki integrowania wizualnych reprezentacji danych w dokumentach."
+"linktitle": "Wstaw wykres punktowy do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw wykres punktowy do dokumentu Word"
+"url": "/pl/net/programming-with-charts/insert-scatter-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw wykres punktowy do dokumentu Word
 
 ## Wstęp
 
-W tym samouczku dowiesz się, jak wykorzystać Aspose.Words dla .NET, aby wstawić wykres punktowy do dokumentu Word. Wykresy punktowe to potężne narzędzia wizualne, które mogą skutecznie wyświetlać punkty danych na podstawie dwóch zmiennych, dzięki czemu Twoje dokumenty będą bardziej angażujące i pouczające.
+tym samouczku dowiesz się, jak wykorzystać Aspose.Words dla .NET, aby wstawić wykres punktowy do dokumentu Word. Wykresy punktowe to potężne narzędzia wizualne, które mogą skutecznie wyświetlać punkty danych na podstawie dwóch zmiennych, dzięki czemu Twoje dokumenty będą bardziej angażujące i pouczające.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do tworzenia wykresów punktowych za pomocą Aspose.Words dla platformy .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Instalacja Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+1. Instalacja Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/).
    
 2. Podstawowa znajomość języka C#: Znajomość języka programowania C# i platformy .NET będzie dodatkowym atutem.
 
@@ -39,7 +41,7 @@ Teraz przeanalizujmy szczegółowo proces wstawiania wykresu punktowego do dokum
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw zainicjuj nową instancję`Document` klasa i`DocumentBuilder` aby rozpocząć tworzenie dokumentu.
+Najpierw zainicjuj nową instancję `Document` klasa i `DocumentBuilder` aby rozpocząć tworzenie dokumentu.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw wykres punktowy
 
- Użyj`InsertChart` metoda`DocumentBuilder` Klasa umożliwiająca wstawienie wykresu punktowego do dokumentu.
+Użyj `InsertChart` metoda `DocumentBuilder` Klasa umożliwiająca wstawienie wykresu punktowego do dokumentu.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[]
 
 ## Krok 4: Zapisz dokument
 
- Na koniec zapisz zmodyfikowany dokument w wybranej lokalizacji, korzystając z`Save` metoda`Document` klasa.
+Na koniec zapisz zmodyfikowany dokument w wybranej lokalizacji, korzystając z `Save` metoda `Document` klasa.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
@@ -91,10 +93,15 @@ Tak, Aspose.Words obsługuje szeroką gamę typów wykresów, w tym wykresy słu
 Oczywiście, dane na wykresie można aktualizować dynamicznie, korzystając z wywołań API Aspose.Words.
 
 ### Gdzie mogę uzyskać dalszą pomoc lub wsparcie dotyczące Aspose.Words?
- Aby uzyskać dalszą pomoc, odwiedź stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać dalszą pomoc, odwiedź stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

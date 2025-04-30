@@ -1,34 +1,36 @@
 ---
-title: Meglévő aláírási sor aláírása Word dokumentumban
-linktitle: Meglévő aláírási sor aláírása Word dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan írhat alá egy meglévő aláírási sort egy Word-dokumentumban az Aspose.Words for .NET használatával. Tökéletes fejlesztőknek.
-weight: 10
-url: /hu/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "Tanuld meg, hogyan írhatsz alá egy meglévő aláírási sort egy Word-dokumentumban az Aspose.Words for .NET segítségével részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes fejlesztők számára."
+"linktitle": "Meglévő aláírássor aláírása Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Meglévő aláírássor aláírása Word dokumentumban"
+"url": "/hu/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Meglévő aláírási sor aláírása Word dokumentumban
+# Meglévő aláírássor aláírása Word dokumentumban
 
 ## Bevezetés
 
-Szia! Előfordult már, hogy alá kellett írnia egy digitális dokumentumot, de egy kis gondot okozott? Szerencséje van, mert ma belemerülünk abba, hogyan írhat alá könnyedén egy meglévő aláírási sort egy Word-dokumentumban az Aspose.Words for .NET használatával. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, így biztosítva, hogy gyorsan elsajátítsa ezt a feladatot.
+Szia! Előfordult már, hogy digitális dokumentumot kellett aláírnod, de kicsit macerásnak találtad? Szerencséd van, mert ma belemerülünk abba, hogyan írhatsz alá könnyedén egy meglévő aláírássort egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez az oktatóanyag lépésről lépésre végigvezet a folyamaton, biztosítva, hogy pillanatok alatt elsajátítsd ezt a feladatot.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a finom részletekbe, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belemerülnénk a részletekbe, győződjünk meg arról, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Words for .NET könyvtár. Ha még nem tette meg, letöltheti[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Visual Studio vagy bármely más C#-kompatibilis IDE.
-3. Dokumentum és tanúsítvány: Word dokumentum aláírási sorral és digitális tanúsítvánnyal (PFX fájl).
-4. C# alapismeretek: A C# programozás ismerete előnyt jelent.
+1. Aspose.Words for .NET: Győződjön meg róla, hogy telepítve van az Aspose.Words for .NET könyvtár. Ha még nem tette meg, letöltheti. [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Visual Studio vagy bármilyen más C# kompatibilis IDE.
+3. Dokumentum és tanúsítvány: Egy Word-dokumentum aláírási sorral és digitális tanúsítvánnyal (PFX-fájl).
+4. C# alapismeretek: A C# programozásban való jártasság előnyt jelent.
 
 ## Névterek importálása
 
-Mielőtt használhatná az Aspose.Words osztályait és metódusait, importálnia kell a szükséges névtereket. Íme egy részlet a szükséges importálásokból:
+Mielőtt használhatnád az Aspose.Words osztályait és metódusait, importálnod kell a szükséges névtereket. Íme egy részlet a szükséges importálásokból:
 
 ```csharp
 using System;
@@ -40,24 +42,24 @@ using Aspose.Words.DigitalSignatures;
 
 ## 1. lépés: Töltse be a dokumentumot
 
-Először is be kell töltenie az aláírássort tartalmazó Word-dokumentumot. Ez a lépés kulcsfontosságú, mivel megalapozza az egész folyamatot.
+Először is be kell töltened a Word-dokumentumot, amely tartalmazza az aláírási sort. Ez a lépés kulcsfontosságú, mivel ez alapozza meg az egész folyamatot.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
-## 2. lépés: Nyissa meg az aláírási sort
+## 2. lépés: Hozzáférés az aláírási sorhoz
 
-Most, hogy a dokumentumunk betöltődött, a következő lépés az aláírási sor megkeresése és elérése a dokumentumon belül.
+Most, hogy betöltöttük a dokumentumot, a következő lépés az aláírás sor megkeresése és elérése a dokumentumon belül.
 
 ```csharp
 SignatureLine signatureLine = ((Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
-## 3. lépés: Aláírási beállítások beállítása
+## 3. lépés: Aláírási beállítások megadása
 
-jelbeállítások beállítása elengedhetetlen. Ez magában foglalja az aláírási sor azonosítójának megadását és az aláírásként használt kép megadását.
+Az aláírási beállítások megadása elengedhetetlen. Ez magában foglalja az aláírási sor azonosítójának megadását és az aláírásként használandó kép megadását.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -67,17 +69,17 @@ SignOptions signOptions = new SignOptions
 };
 ```
 
-## 4. lépés: Hozzon létre tanúsítványtulajdonost
+## 4. lépés: Tanúsítványtulajdonos létrehozása
 
-A dokumentum digitális aláírásához digitális tanúsítványra van szükség. Így hozhat létre tanúsítványtartót a PFX-fájlból.
+A dokumentum digitális aláírásához digitális tanúsítványra van szükség. Így hozhat létre tanúsítványtulajdonost a PFX-fájlból.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "your_password");
 ```
 
-## 5. lépés: Aláírja a dokumentumot
+## 5. lépés: A dokumentum aláírása
 
-Most az összes összetevőt egyesítjük a dokumentum aláírásához. Itt történik a varázslat!
+Most egyesítjük az összes összetevőt a dokumentum aláírásához. Itt történik a varázslat!
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -90,32 +92,37 @@ DigitalSignatureUtil.Sign(
 
 ## Következtetés
 
-És megvan! Sikeresen aláírt egy meglévő aláírási sort egy Word-dokumentumban az Aspose.Words for .NET használatával. Nem túl kemény, igaz? Ezekkel a lépésekkel immár digitálisan aláírhatja a dokumentumokat, ami a hitelesség és a professzionalizmus további rétegét adja. Így ha legközelebb valaki aláírandó dokumentumot küld Önnek, pontosan tudni fogja, mit kell tennie!
+És tessék! Sikeresen aláírtál egy meglévő aláírási sort egy Word dokumentumban az Aspose.Words for .NET segítségével. Nem túl bonyolult, ugye? Ezekkel a lépésekkel mostantól digitálisan aláírhatod a dokumentumokat, amivel extra hitelességet és professzionalizmust biztosíthatsz. Így legközelebb, amikor valaki aláírásra küld neked egy dokumentumot, pontosan tudni fogod, mit kell tenned!
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
+### Mi az Aspose.Words .NET-hez?
 
-Az Aspose.Words for .NET egy hatékony könyvtár a Word dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Lehetővé teszi Word-dokumentumok programozott létrehozását, módosítását és konvertálását.
+Az Aspose.Words for .NET egy hatékony függvénytár, amely lehetővé teszi Word-dokumentumok .NET-alkalmazásokban történő kezelését. Lehetővé teszi Word-dokumentumok programozott létrehozását, módosítását és konvertálását.
 
-### Hol szerezhetem be az Aspose.Words for .NET ingyenes próbaverzióját?
+### Hol tudom ingyenesen kipróbálni az Aspose.Words for .NET programot?
 
- Letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+Ingyenes próbaverziót tölthet le [itt](https://releases.aspose.com/).
 
-### Használhatok bármilyen képformátumot az aláíráshoz?
+### Bármilyen képformátumot használhatok az aláíráshoz?
 
-Az Aspose.Words különféle képformátumokat támogat, de egy továbbfejlesztett metafájl (EMF) használata jobb minőséget biztosít az aláírásokhoz.
+Az Aspose.Words számos képformátumot támogat, de a továbbfejlesztett metafájl (EMF) használata jobb minőséget biztosít az aláírások esetében.
 
 ### Hogyan szerezhetek digitális tanúsítványt?
 
-Különféle szolgáltatóktól vásárolhat digitális tanúsítványokat online. Győződjön meg arról, hogy a tanúsítvány PFX formátumú, és rendelkezik a jelszóval.
+Digitális tanúsítványokat vásárolhat online különböző szolgáltatóktól. Győződjön meg róla, hogy a tanúsítvány PFX formátumú, és rendelkezik a jelszóval.
 
 ### Hol találok további dokumentációt az Aspose.Words for .NET-ről?
 
- Részletes dokumentációt találhat[itt](https://reference.aspose.com/words/net/).
+Bőséges dokumentációt találhat [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Использование объектов Office Math в Aspose.Words для Java
-linktitle: Использование объектов Office Math
-second_title: API обработки документов Java Aspose.Words
-description: Раскройте силу математических уравнений в документах с Aspose.Words для Java. Научитесь без труда манипулировать и отображать объекты Office Math.
-weight: 13
-url: /ru/java/document-conversion-and-export/using-office-math-objects/
+"description": "Раскройте силу математических уравнений в документах с Aspose.Words для Java. Научитесь без труда манипулировать и отображать объекты Office Math."
+"linktitle": "Использование объектов Office Math"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование объектов Office Math в Aspose.Words для Java"
+"url": "/ru/java/document-conversion-and-export/using-office-math-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование объектов Office Math в Aspose.Words для Java
@@ -51,7 +53,7 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 
 ### Установить тип отображения
 
- Вы можете контролировать, как уравнение будет отображаться в документе. Используйте`setDisplayType` метод, указывающий, должен ли он отображаться внутри текста или на его строке:
+Вы можете контролировать, как уравнение будет отображаться в документе. Используйте `setDisplayType` метод, указывающий, должен ли он отображаться внутри текста или на его строке:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
@@ -78,7 +80,7 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // Тип отображения OfficeMath определяет, будет ли уравнение отображаться в тексте или на его строке.
+        // Тип отображения OfficeMath определяет, будет ли уравнение отображаться внутри текста или на его строке.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
@@ -96,7 +98,7 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 
 ### Можно ли по-разному выравнивать уравнения Office Math в документе?
 
- Да, вы можете управлять выравниванием уравнений Office Math. Используйте`setJustification`метод для указания параметров выравнивания, таких как левое, правое или центральное.
+Да, вы можете управлять выравниванием уравнений Office Math. Используйте `setJustification` метод для указания параметров выравнивания, таких как левое, правое или центральное.
 
 ### Подходит ли Aspose.Words для Java для обработки сложных математических документов?
 
@@ -104,14 +106,19 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 
 ### Как я могу узнать больше об Aspose.Words для Java?
 
- Для получения полной документации и загрузок посетите сайт[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Для получения полной документации и загрузок посетите сайт [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
 
 ### Где можно скачать Aspose.Words для Java?
 
- Вы можете загрузить Aspose.Words для Java с сайта:[Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/).
+Вы можете загрузить Aspose.Words для Java с сайта: [Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,79 +1,81 @@
 ---
-title: Použití podoken úloh webového rozšíření
-linktitle: Použití podoken úloh webového rozšíření
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat a konfigurovat podokna úloh rozšíření webu v dokumentech aplikace Word pomocí Aspose.Words for .NET v tomto podrobném, podrobném kurzu.
-weight: 10
-url: /cs/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "V tomto podrobném návodu se naučíte, jak přidávat a konfigurovat panely úloh webového rozšíření v dokumentech Word pomocí Aspose.Words pro .NET."
+"linktitle": "Používání podoken úloh webového rozšíření"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Používání podoken úloh webového rozšíření"
+"url": "/cs/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití podoken úloh webového rozšíření
+# Používání podoken úloh webového rozšíření
 
 ## Zavedení
 
-Vítejte v tomto podrobném kurzu o používání podoken úloh rozšíření webu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Pokud jste někdy chtěli vylepšit své dokumenty aplikace Word pomocí interaktivních podoken úloh, jste na správném místě. Tento průvodce vás provede každým krokem, jak toho dosáhnout.
+Vítejte v tomto podrobném tutoriálu o používání panelů úloh webového rozšíření v dokumentu Word pomocí Aspose.Words pro .NET. Pokud jste někdy chtěli vylepšit své dokumenty Word interaktivními panely úloh, jste na správném místě. Tato příručka vás provede každým krokem, abyste toho bez problémů dosáhli.
 
 ## Předpoklady
 
-Než se ponoříme, ujistěte se, že máte vše, co potřebujete:
+Než se do toho pustíme, ujistěme se, že máte vše potřebné:
 
--  Aspose.Words for .NET: Můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Můžete si ho stáhnout [zde](https://releases.aspose.com/words/net/).
 - Vývojové prostředí .NET: Visual Studio nebo jakékoli jiné IDE, které preferujete.
-- Základní znalost C#: To vám pomůže sledovat příklady kódu.
--  Licence pro Aspose.Words: Můžete si jednu koupit[zde](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+- Základní znalost jazyka C#: To vám pomůže sledovat příklady kódu.
+- Licence pro Aspose.Words: Můžete si jednu koupit [zde](https://purchase.aspose.com/buy) nebo si pořídit dočasný řidičský průkaz [zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importovat jmenné prostory
 
-Než začneme kódovat, ujistěte se, že máte do projektu importovány následující jmenné prostory:
+Než začneme s kódováním, ujistěte se, že máte v projektu importovány následující jmenné prostory:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.WebExtensions;
 ```
 
-## Průvodce krok za krokem
+## Podrobný průvodce
 
-Nyní si tento proces rozdělíme do snadno pochopitelných kroků.
+Nyní si celý proces rozdělme na snadno sledovatelné kroky.
 
 ### Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme nastavit cestu k adresáři vašich dokumentů. Zde bude uložen váš dokument aplikace Word.
+Nejdříve musíme nastavit cestu k adresáři s vašimi dokumenty. Zde bude uložen váš dokument Wordu.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce dokumentů.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce s dokumenty.
 
 ### Krok 2: Vytvoření nového dokumentu
 
-Dále vytvoříme nový dokument Word pomocí Aspose.Words.
+Dále vytvoříme nový dokument Wordu pomocí Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Tento řádek inicializuje novou instanci souboru`Document` třídy, která představuje dokument aplikace Word.
+Tento řádek inicializuje novou instanci třídy `Document` třída, která představuje dokument aplikace Word.
 
 ### Krok 3: Přidání podokna úloh
 
-Nyní do našeho dokumentu přidáme podokno úloh. Panely úloh jsou užitečné pro poskytování dalších funkcí a nástrojů v dokumentu aplikace Word.
+Nyní do našeho dokumentu přidáme podokno úloh. Podokna úloh jsou užitečná pro poskytování dalších funkcí a nástrojů v dokumentu Word.
 
 ```csharp
 TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- Zde vytvoříme nový`TaskPane` objekt a přidejte jej do dokumentu`WebExtensionTaskPanes` sbírka.
+Zde vytváříme nový `TaskPane` objekt a přidat ho do dokumentu `WebExtensionTaskPanes` sbírka.
 
 ### Krok 4: Konfigurace podokna úloh
 
-K zviditelnění našeho podokna úloh a nastavení jeho vlastností používáme následující kód:
+Pro zobrazení našeho panelu úloh a nastavení jeho vlastností použijeme následující kód:
 
 ```csharp
 taskPane.DockState = TaskPaneDockState.Right;
@@ -81,13 +83,13 @@ taskPane.IsVisible = true;
 taskPane.Width = 300;
 ```
 
-- `DockState` nastavuje, kde se zobrazí podokno úloh. V tomto případě je to vpravo.
+- `DockState` určuje, kde se zobrazí podokno úloh. V tomto případě je to vpravo.
 - `IsVisible` zajišťuje, že je podokno úloh viditelné.
 - `Width` nastavuje šířku podokna úloh.
 
-### Krok 5: Referenční příručka pro nastavení webového rozšíření
+### Krok 5: Nastavení referenčního webového rozšíření
 
-Dále nastavíme Web Extension Reference, který obsahuje ID, verzi, typ úložiště a úložiště.
+Dále nastavíme referenci webového rozšíření, která obsahuje ID, verzi, typ úložiště a samotné úložiště.
 
 ```csharp
 taskPane.WebExtension.Reference.Id = "wa102923726";
@@ -96,24 +98,24 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`je jedinečný identifikátor webového rozšíření.
+- `Id` je jedinečný identifikátor pro webové rozšíření.
 - `Version` určuje verzi rozšíření.
-- `StoreType` označuje typ obchodu (v tomto případě OMEX).
-- `Store` určuje kód jazyka/kultury obchodu.
+- `StoreType` označuje typ prodejny (v tomto případě OMEX).
+- `Store` určuje jazykový/kulturní kód obchodu.
 
-### Krok 6: Přidání vlastností do webového rozšíření
+### Krok 6: Přidání vlastností k webovému rozšíření
 
-Ke svému webovému rozšíření můžete přidat vlastnosti a definovat jeho chování nebo obsah.
+Do webového rozšíření můžete přidat vlastnosti, které definují jeho chování nebo obsah.
 
 ```csharp
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- Zde přidáme vlastnost s názvem`mailchimpCampaign`.
+Zde přidáme vlastnost s názvem `mailchimpCampaign`.
 
-### Krok 7: Svázání webového rozšíření
+### Krok 7: Vazba webového rozšíření
 
-Nakonec do našeho webového rozšíření přidáme vazby. Vazby umožňují propojit rozšíření s konkrétními částmi dokumentu.
+Nakonec přidáme k našemu webovému rozšíření vazby. Vazby umožňují propojit rozšíření s konkrétními částmi dokumentu.
 
 ```csharp
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
@@ -125,7 +127,7 @@ taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_150
 
 ### Krok 8: Uložení dokumentu
 
-Po nastavení všeho dokument uložte.
+Po nastavení všech parametrů dokument uložte.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithWebExtension.UsingWebExtensionTaskPanes.docx");
@@ -133,9 +135,9 @@ doc.Save(dataDir + "WorkingWithWebExtension.UsingWebExtensionTaskPanes.docx");
 
 Tento řádek uloží dokument do zadaného adresáře s daným názvem souboru.
 
-### Krok 9: Načtení a zobrazení informací v podokně úloh
+### Krok 9: Načtení a zobrazení informací z podokna úloh
 
-Abychom ověřili a zobrazili informace v podokně úloh, načteme dokument a projdeme podokny úloh.
+Pro ověření a zobrazení informací v podokně úloh načteme dokument a iterujeme podokny úloh.
 
 ```csharp
 doc = new Document(dataDir + "WorkingWithWebExtension.UsingWebExtensionTaskPanes.docx");
@@ -149,31 +151,36 @@ foreach (TaskPane taskPaneInfo in doc.WebExtensionTaskPanes)
 }
 ```
 
-Tento kód načte dokument a vytiskne identifikátor poskytovatele, verze a katalogu každého podokna úloh v konzole.
+Tento kód načte dokument a v konzoli vypíše poskytovatele, verzi a identifikátor katalogu pro každé podokno úloh.
 
 ## Závěr
 
-A je to! Úspěšně jste přidali a nakonfigurovali podokno úloh rozšíření webu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce může výrazně vylepšit vaše dokumenty aplikace Word tím, že poskytuje další funkce přímo v dokumentu. 
+A to je vše! Úspěšně jste přidali a nakonfigurovali podokno úloh webového rozšíření v dokumentu Word pomocí Aspose.Words pro .NET. Tato výkonná funkce může výrazně vylepšit vaše dokumenty Word tím, že přímo v dokumentu poskytne další funkce. 
 
-## FAQ
+## Často kladené otázky
 
-### Co je podokno úloh ve Wordu?
-Podokno úloh je prvek rozhraní, který poskytuje další nástroje a funkce v dokumentu aplikace Word, čímž zlepšuje interakci a produktivitu uživatele.
+### Co je to podokno úloh ve Wordu?
+Podokno úloh je prvek rozhraní, který poskytuje další nástroje a funkce v dokumentu Word, čímž zlepšuje interakci s uživatelem a produktivitu.
 
-### Mohu přizpůsobit vzhled podokna úloh?
- Ano, vzhled podokna úloh můžete přizpůsobit nastavením vlastností jako`DockState`, `IsVisible` a`Width`.
+### Mohu si přizpůsobit vzhled podokna úloh?
+Ano, vzhled podokna úloh si můžete přizpůsobit nastavením vlastností, jako je `DockState`, `IsVisible`a `Width`.
 
-### Co jsou vlastnosti webových rozšíření?
-Vlastnosti webového rozšíření jsou vlastní vlastnosti, které můžete přidat k webovému rozšíření a definovat jeho chování nebo obsah.
+### Co jsou vlastnosti webového rozšíření?
+Vlastnosti webového rozšíření jsou vlastní vlastnosti, které můžete přidat k webovému rozšíření a definovat tak jeho chování nebo obsah.
 
-### Jak připojím webové rozšíření k části dokumentu?
- Webové rozšíření můžete svázat s částí dokumentu pomocí`WebExtensionBinding` třída s uvedením typu vazby a cílového ID.
+### Jak propojím webové rozšíření s částí dokumentu?
+Webové rozšíření můžete svázat s částí dokumentu pomocí `WebExtensionBinding` třída s uvedením typu vazby a ID cíle.
 
-### Kde najdu další informace o Aspose.Words pro .NET?
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+### Kde najdu více informací o Aspose.Words pro .NET?
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

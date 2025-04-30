@@ -1,14 +1,16 @@
 ---
-title: Sematkan Subset Font dalam Dokumen PDF
-linktitle: Sematkan Subset Font dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kurangi ukuran file PDF dengan hanya menyematkan subset font yang diperlukan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan PDF Anda secara efisien.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/embedded-subset-fonts/
+"description": "Kurangi ukuran file PDF dengan hanya menyematkan subset font yang diperlukan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan PDF Anda secara efisien."
+"linktitle": "Sematkan Subset Font dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sematkan Subset Font dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/embedded-subset-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sematkan Subset Font dalam Dokumen PDF
@@ -21,7 +23,7 @@ Pernahkah Anda memperhatikan bagaimana beberapa file PDF jauh lebih besar daripa
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Langkah 1: Muat Dokumen
 
- Pertama, kita perlu memuat dokumen Word yang ingin kita ubah ke PDF. Ini dilakukan dengan menggunakan`Document` kelas yang disediakan oleh Aspose.Words.
+Pertama, kita perlu memuat dokumen Word yang ingin kita ubah ke PDF. Ini dilakukan dengan menggunakan `Document` kelas yang disediakan oleh Aspose.Words.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Potongan kode ini memuat dokumen yang terletak di`dataDir` Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Potongan kode ini memuat dokumen yang terletak di `dataDir`Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
 
- Selanjutnya kita konfigurasikan`PdfSaveOptions` untuk memastikan bahwa hanya subset font yang diperlukan yang disematkan. Dengan menyetel`EmbedFullFonts` ke`false`, kami memberi tahu Aspose.Words untuk hanya menanamkan glif yang digunakan dalam dokumen.
+Selanjutnya kita konfigurasikan `PdfSaveOptions` untuk memastikan bahwa hanya subset font yang diperlukan yang disematkan. Dengan menyetel `EmbedFullFonts` ke `false`, kami memberi tahu Aspose.Words untuk hanya menanamkan glif yang digunakan dalam dokumen.
 
 ```csharp
 // Hasil PDF akan berisi sebagian font yang ada di dokumen.
@@ -61,13 +63,13 @@ Langkah kecil namun penting ini membantu mengurangi ukuran berkas PDF secara sig
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
- Terakhir, kami menyimpan dokumen sebagai PDF menggunakan`Save` metode, menerapkan konfigurasi`PdfSaveOptions`.
+Terakhir, kami menyimpan dokumen sebagai PDF menggunakan `Save` metode, menerapkan konfigurasi `PdfSaveOptions`.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.EmbedSubsetFonts.pdf", saveOptions);
 ```
 
- Kode ini akan menghasilkan file PDF dengan nama`WorkingWithPdfSaveOptions.EmbedSubsetFonts.pdf` di direktori yang ditentukan, dengan hanya menanamkan subset font yang diperlukan.
+Kode ini akan menghasilkan file PDF dengan nama `WorkingWithPdfSaveOptions.EmbedSubsetFonts.pdf` di direktori yang ditentukan, dengan hanya menanamkan subset font yang diperlukan.
 
 ## Kesimpulan
 
@@ -79,7 +81,7 @@ Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda dapat mengura
 Menanamkan hanya subset font yang diperlukan dapat mengurangi ukuran berkas PDF secara signifikan tanpa mengurangi tampilan dan keterbacaan dokumen.
 
 ### Bisakah saya kembali menyematkan font penuh jika diperlukan?
- Ya, Anda bisa. Cukup atur`EmbedFullFonts`properti untuk`true` di dalam`PdfSaveOptions`.
+Ya, Anda bisa. Cukup atur `EmbedFullFonts` properti untuk `true` di dalam `PdfSaveOptions`.
 
 ### Apakah Aspose.Words untuk .NET mendukung fitur pengoptimalan PDF lainnya?
 Tentu saja! Aspose.Words untuk .NET menawarkan berbagai opsi untuk mengoptimalkan PDF, termasuk kompresi gambar dan menghapus objek yang tidak digunakan.
@@ -90,9 +92,14 @@ Aspose.Words untuk .NET mendukung penyematan subset untuk semua font TrueType ya
 ### Bagaimana saya dapat memverifikasi font mana yang tertanam dalam PDF saya?
 Anda dapat membuka PDF di Adobe Acrobat Reader dan memeriksa properti di bawah tab Font untuk melihat font yang tertanam.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

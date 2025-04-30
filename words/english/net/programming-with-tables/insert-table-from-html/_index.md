@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/insert-table-from-html/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Table From Html
@@ -106,9 +109,13 @@ Aspose.Words for .NET automatically handles large tables, ensuring they are prop
 ### Can I use Aspose.Words for .NET in a web application?
 Yes, Aspose.Words for .NET can be used in both desktop and web applications, making it a versatile tool for document manipulation.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

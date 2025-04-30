@@ -1,27 +1,29 @@
 ---
-title: Dodaj znaczniki Bidi w dokumencie Word
-linktitle: Dodaj znaczniki Bidi w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać znaki dwukierunkowe (Bidi) w dokumentach Worda przy użyciu Aspose.Words dla .NET z tego przewodnika. Zapewnij właściwy kierunek tekstu dla treści wielojęzycznych.
-weight: 10
-url: /pl/net/programming-with-txtsaveoptions/add-bidi-marks/
+"description": "Dowiedz się, jak dodawać znaki dwukierunkowe (Bidi) w dokumentach Worda przy użyciu Aspose.Words dla .NET z tego przewodnika. Zapewnij właściwy kierunek tekstu dla treści wielojęzycznych."
+"linktitle": "Dodaj znaczniki Bidi w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj znaczniki Bidi w dokumencie Word"
+"url": "/pl/net/programming-with-txtsaveoptions/add-bidi-marks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj znaczniki Bidi w dokumencie Word
 
 ## Wstęp
 
-W świecie przetwarzania dokumentów tekst dwukierunkowy (Bidi) może być często nieco trudny w zarządzaniu. Dotyczy to zwłaszcza języków, które mają różne kierunki tekstu, takich jak arabski lub hebrajski. Na szczęście Aspose.Words dla .NET ułatwia obsługę takich scenariuszy. W tym samouczku pokażemy, jak dodawać znaczniki Bidi do dokumentu Word za pomocą Aspose.Words dla .NET.
+świecie przetwarzania dokumentów tekst dwukierunkowy (Bidi) często może być nieco trudny w zarządzaniu. Dotyczy to zwłaszcza języków, które mają różne kierunki tekstu, takich jak arabski lub hebrajski. Na szczęście Aspose.Words dla .NET ułatwia obsługę takich scenariuszy. W tym samouczku pokażemy, jak dodawać znaczniki Bidi do dokumentu Word za pomocą Aspose.Words dla .NET.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnij się, że masz następujące elementy:
 
-1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony[Strona pobierania Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony [Strona pobierania Aspose](https://releases.aspose.com/words/net/).
 2. .NET Framework lub .NET Core: Upewnij się, że masz skonfigurowane zgodne środowisko .NET do uruchomienia przykładów.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# i podstawowych operacji w środowisku .NET.
 
@@ -38,7 +40,7 @@ Podzielmy proces dodawania znaczników Bidi w dokumencie Word na jasne kroki. Ka
 
 ## Krok 1: Skonfiguruj swój dokument
 
- Zacznij od utworzenia nowej instancji`Document` klasa i`DocumentBuilder` aby dodać treść do dokumentu.
+Zacznij od utworzenia nowej instancji `Document` klasa i `DocumentBuilder` aby dodać treść do dokumentu.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym kroku zainicjujesz nowy dokument Word i skonfigurujesz`DocumentBuilder` aby ułatwić wstawianie treści.
+W tym kroku zainicjujesz nowy dokument Word i skonfigurujesz `DocumentBuilder` aby ułatwić wstawianie treści.
 
 ## Krok 2: Dodaj zawartość do dokumentu
 
@@ -66,7 +68,7 @@ Tutaj najpierw dodajemy standardową angielską frazę. Następnie włączamy fo
 
 ## Krok 3: Skonfiguruj opcje zapisu dla znaczników Bidi
 
- Aby mieć pewność, że znaki Bidi zostaną poprawnie zapisane w dokumencie, należy skonfigurować`TxtSaveOptions` i włącz`AddBidiMarks` opcja.
+Aby mieć pewność, że znaki Bidi zostaną poprawnie zapisane w dokumencie, należy skonfigurować `TxtSaveOptions` i włącz `AddBidiMarks` opcja.
 
 ```csharp
 // Dodaj znaki Bidi
@@ -74,7 +76,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions { AddBidiMarks = true };
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 ```
 
- W tym kroku tworzymy instancję`TxtSaveOptions` i ustaw`AddBidiMarks`nieruchomość do`true`. Dzięki temu znaczniki Bidi zostaną uwzględnione podczas zapisywania dokumentu jako pliku tekstowego.
+W tym kroku tworzymy instancję `TxtSaveOptions` i ustaw `AddBidiMarks` nieruchomość do `true`. Dzięki temu znaczniki Bidi zostaną uwzględnione podczas zapisywania dokumentu jako pliku tekstowego.
 
 ## Wniosek
 
@@ -95,10 +97,15 @@ Tak, możesz stosować formatowanie BiDi w określonych akapitach lub sekcjach d
 W podanym przykładzie dokument jest zapisany jako plik tekstowy. Jednak Aspose.Words obsługuje również zapisywanie dokumentów w różnych formatach, zachowując jednocześnie znaki Bidi.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
- Więcej informacji na temat Aspose.Words dla .NET można znaleźć w[Dokumentacja Aspose](https://reference.aspose.com/words/net/) i uzyskaj dostęp[Forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać dodatkową pomoc.
+Więcej informacji na temat Aspose.Words dla .NET można znaleźć w [Dokumentacja Aspose](https://reference.aspose.com/words/net/) i uzyskaj dostęp [Forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać dodatkową pomoc.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

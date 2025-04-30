@@ -1,34 +1,36 @@
 ---
-title: Creazione e firma di una nuova riga di firma
-linktitle: Creazione e firma di una nuova riga di firma
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come creare e firmare digitalmente una riga di firma in un documento Word usando Aspose.Words per .NET con questo tutorial passo dopo passo. Perfetto per l'automazione dei documenti.
-weight: 10
-url: /it/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
+"description": "Scopri come creare e firmare digitalmente una riga di firma in un documento Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per l'automazione dei documenti."
+"linktitle": "Creazione e firma di una nuova riga di firma"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Creazione e firma di una nuova riga di firma"
+"url": "/it/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione e firma di una nuova riga di firma
 
 ## Introduzione
 
-Ciao! Quindi, hai un documento Word e devi aggiungere una riga di firma e poi firmarlo digitalmente. Sembra complicato? Niente affatto! Grazie ad Aspose.Words per .NET, puoi ottenere questo risultato senza problemi con solo poche righe di codice. In questo tutorial, ti guideremo attraverso l'intero processo, dalla configurazione del tuo ambiente al salvataggio del tuo documento con una nuova firma brillante. Pronti? Tuffiamoci!
+Ciao! Hai un documento Word e devi aggiungere una riga per la firma e poi firmarlo digitalmente. Sembra complicato? Assolutamente no! Grazie ad Aspose.Words per .NET, puoi farlo senza problemi con poche righe di codice. In questo tutorial, ti guideremo attraverso l'intero processo, dalla configurazione dell'ambiente al salvataggio del documento con una nuova firma. Pronto? Iniziamo!
 
 ## Prerequisiti
 
-Prima di passare al codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
-1.  Aspose.Words per .NET - Puoi[scaricalo qui](https://releases.aspose.com/words/net/).
+Prima di passare al codice, assicuriamoci di avere tutto il necessario:
+1. Aspose.Words per .NET - Puoi [scaricalo qui](https://releases.aspose.com/words/net/).
 2. Un ambiente di sviluppo .NET: Visual Studio è altamente consigliato.
-3. Un documento da firmare: crea un semplice documento Word o utilizzane uno esistente.
-4.  Un file di certificato: è necessario per le firme digitali. Puoi usare un`.pfx` file.
+3. Un documento da firmare: crea un semplice documento Word o usane uno esistente.
+4. Un file di certificato: necessario per le firme digitali. È possibile utilizzare un `.pfx` file.
 5. Immagini per la riga della firma: facoltativamente, un file immagine per la firma.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
-Per prima cosa, dobbiamo importare i namespace necessari. Questo passaggio è cruciale in quanto imposta l'ambiente per l'utilizzo delle funzionalità di Aspose.Words.
+Per prima cosa, dobbiamo importare i namespace necessari. Questo passaggio è fondamentale perché configura l'ambiente per l'utilizzo delle funzionalità di Aspose.Words.
 
 ```csharp
 using System;
@@ -49,32 +51,32 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Passaggio 2: creazione di un nuovo documento
 
-Ora, creiamo un nuovo documento Word usando Aspose.Words. Questa sarà la nostra tela dove aggiungeremo la riga della firma.
+Ora creiamo un nuovo documento Word usando Aspose.Words. Questo sarà il nostro canvas su cui aggiungeremo la riga della firma.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Fase 3: Inserimento della riga della firma
+## Passaggio 3: inserimento della riga della firma
 
- Qui è dove avviene la magia. Inseriamo una riga di firma nel nostro documento utilizzando`DocumentBuilder` classe.
+È qui che avviene la magia. Inseriamo una riga per la firma nel nostro documento utilizzando `DocumentBuilder` classe.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
 ```
 
-## Fase 4: Salvataggio del documento con la riga della firma
+## Passaggio 4: salvataggio del documento con la riga della firma
 
-Una volta che la riga della firma è a posto, dobbiamo salvare il documento. Questo è un passaggio intermedio prima di procedere alla firma.
+Una volta posizionata la riga per la firma, dobbiamo salvare il documento. Questo è un passaggio intermedio prima di procedere alla firma.
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLine.docx");
 ```
 
-## Passaggio 5: Impostazione delle opzioni di firma
+## Passaggio 5: impostazione delle opzioni di firma
 
-Ora, impostiamo le opzioni per la firma del documento. Ciò include la specifica dell'ID della riga della firma e dell'immagine da utilizzare.
+Ora impostiamo le opzioni per la firma del documento. Questo include la specifica dell'ID della riga della firma e dell'immagine da utilizzare.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -86,7 +88,7 @@ SignOptions signOptions = new SignOptions
 
 ## Fase 6: Caricamento del certificato
 
-Le firme digitali richiedono un certificato. Qui, carichiamo il file del certificato che verrà utilizzato per firmare il documento.
+Le firme digitali richiedono un certificato. Qui carichiamo il file del certificato che verrà utilizzato per firmare il documento.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -94,7 +96,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Fase 7: Firma del documento
 
- Questo è il passaggio finale. Utilizziamo il`DigitalSignatureUtil`classe per firmare il documento. Il documento firmato viene salvato con un nuovo nome.
+Questo è il passaggio finale. Utilizziamo il `DigitalSignatureUtil` classe per firmare il documento. Il documento firmato viene salvato con un nuovo nome.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -103,27 +105,32 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
 
 ## Conclusione
 
-Ed ecco fatto! Con questi passaggi, hai creato con successo un nuovo documento Word, aggiunto una riga di firma e firmato digitalmente usando Aspose.Words per .NET. È uno strumento potente che rende l'automazione dei documenti un gioco da ragazzi. Che tu abbia a che fare con contratti, accordi o documenti formali, questo metodo garantisce che siano firmati e autenticati in modo sicuro.
+Ed ecco fatto! Con questi passaggi, hai creato con successo un nuovo documento Word, aggiunto una riga per la firma e firmato digitalmente utilizzando Aspose.Words per .NET. È uno strumento potente che semplifica l'automazione dei documenti. Che si tratti di contratti, accordi o documenti formali, questo metodo garantisce che siano firmati e autenticati in modo sicuro.
 
 ## Domande frequenti
 
-### Posso utilizzare altri formati di immagine per la riga della firma?
-Sì, puoi utilizzare vari formati di immagine come PNG, JPG, BMP, ecc.
+### Posso utilizzare altri formati immagine per la riga della firma?
+Sì, puoi usare vari formati immagine come PNG, JPG, BMP, ecc.
 
-###  È necessario utilizzare un`.pfx` file for the certificate?
- Sì, un`.pfx` file è un formato comune per l'archiviazione di informazioni crittografiche, tra cui certificati e chiavi private.
+### È necessario utilizzare un `.pfx` presentare domanda per il certificato?
+Sì, un `.pfx` file è un formato comune per l'archiviazione di informazioni crittografiche, tra cui certificati e chiavi private.
 
 ### Posso aggiungere più righe di firma in un singolo documento?
-Assolutamente! Puoi inserire più righe di firma ripetendo il passaggio di inserimento per ogni firma.
+Assolutamente! Puoi inserire più righe di firma ripetendo il passaggio per ogni firma.
 
 ### Cosa succede se non ho un certificato digitale?
 Dovrai ottenere un certificato digitale da un'autorità di certificazione attendibile o generarne uno utilizzando strumenti come OpenSSL.
 
 ### Come posso verificare la firma digitale nel documento?
 È possibile aprire il documento firmato in Word e andare ai dettagli della firma per verificarne l'autenticità e l'integrità.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

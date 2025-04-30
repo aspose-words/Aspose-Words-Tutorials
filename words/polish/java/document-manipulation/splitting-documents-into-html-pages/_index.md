@@ -1,14 +1,16 @@
 ---
-title: Dzielenie dokumentów na strony HTML w Aspose.Words dla Java
-linktitle: Dzielenie dokumentów na strony HTML
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów.
-weight: 25
-url: /pl/java/document-manipulation/splitting-documents-into-html-pages/
+"description": "Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów."
+"linktitle": "Dzielenie dokumentów na strony HTML"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dzielenie dokumentów na strony HTML w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/splitting-documents-into-html-pages/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dzielenie dokumentów na strony HTML w Aspose.Words dla Java
@@ -23,7 +25,7 @@ W tym przewodniku krok po kroku pokażemy, jak dzielić dokumenty na strony HTML
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Words dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/java/).
+- Biblioteka Aspose.Words dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Krok 1: Importuj niezbędne pakiety
 
@@ -145,11 +147,11 @@ W tym kompleksowym przewodniku omówiliśmy proces dzielenia dokumentów na stro
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Aby zainstalować Aspose.Words dla Java, możesz pobrać bibliotekę ze strony[Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+Aby zainstalować Aspose.Words dla Java, możesz pobrać bibliotekę ze strony [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
 
 ### Czy mogę dostosować wynik HTML?
 
- Tak, możesz dostosować wyjście HTML, dostosowując opcje zapisu w`HtmlSaveOptions` Klasa. Pozwala to kontrolować formatowanie i wygląd generowanych plików HTML.
+Tak, możesz dostosować wyjście HTML, dostosowując opcje zapisu w `HtmlSaveOptions` Klasa. Pozwala to kontrolować formatowanie i wygląd generowanych plików HTML.
 
 ### Jakie wersje programu Microsoft Word są obsługiwane przez Aspose.Words for Java?
 
@@ -162,9 +164,14 @@ Aspose.Words for Java może obsługiwać obrazy w przekonwertowanym HTML, zapisu
 ### Czy jest dostępna wersja próbna Aspose.Words dla Java?
 
 Tak, możesz poprosić o bezpłatną wersję próbną Aspose.Words for Java na stronie internetowej Aspose, aby ocenić jej funkcje i możliwości przed zakupem licencji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/compare-documents/comparison-granularity/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comparison Granularity In Word Document
@@ -114,9 +117,13 @@ A: Aspose.Words for .NET provides three levels of Comparison Granularity:
 
 A: With character-level granularity, each character in the compared documents is analyzed for differences. The comparison results will show changes at the individual character level, including additions, deletions, and modifications.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

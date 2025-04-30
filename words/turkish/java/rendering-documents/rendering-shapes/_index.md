@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da Şekillerin İşlenmesi
-linktitle: Şekillerin Oluşturulması
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for Java'da şekilleri işlemeyi öğrenin. EMF görüntülerini programatik olarak oluşturun.
-weight: 10
-url: /tr/java/rendering-documents/rendering-shapes/
+"description": "Bu adım adım eğitimle Aspose.Words for Java'da şekilleri işlemeyi öğrenin. EMF görüntülerini programatik olarak oluşturun."
+"linktitle": "Şekillerin Oluşturulması"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da Şekillerin İşlenmesi"
+"url": "/tr/java/rendering-documents/rendering-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da Şekillerin İşlenmesi
@@ -26,7 +28,7 @@ Koda dalmadan önce, geliştirme ortamınızı ayarlamanız gerekir. Aspose.Word
 
 ## 3. Bir Belgenin Yüklenmesi
 
-Başlamak için, çalışmak için bir Word belgesine ihtiyacınız olacak. Belirlenen dizininizde bir belgenin mevcut olduğundan emin olun.
+Başlamak için, çalışmak için bir Word belgesine ihtiyacınız olacak. Belirlediğiniz dizinde bir belgenin mevcut olduğundan emin olun.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -45,7 +47,7 @@ ShapeRenderer render = shape.getShapeRenderer();
 
 ## 5. Şeklin EMF Görüntüsü Olarak İşlenmesi
 
- Şimdi heyecan verici kısım geliyor - şekli bir EMF görüntüsü olarak işlemek. Bunu kullanacağız`ImageSaveOptions` Çıktı formatını belirtmek ve işlemeyi özelleştirmek için sınıf.
+Şimdi heyecan verici kısım geliyor - şekli bir EMF görüntüsü olarak işlemek. Bunu kullanacağız `ImageSaveOptions` Çıktı formatını belirtmek ve işlemeyi özelleştirmek için sınıf.
 
 ```java
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.EMF);
@@ -93,23 +95,28 @@ Evet, tek bir belgede birden fazla şekil oluşturabilirsiniz. Oluşturmak isted
 
 Evet, Aspose.Words for Java, DOCX, PDF, HTML ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler.
 
-### S3: Aspose.Words for Java için herhangi bir lisanslama seçeneği mevcut mu?
+### S3: Aspose.Words for Java için herhangi bir lisanslama seçeneği mevcut mudur?
 
-Evet, lisanslama seçeneklerini inceleyebilir ve Aspose.Words for Java'yı satın alabilirsiniz.[Aspose web sitesi](https://purchase.aspose.com/buy).
+Evet, lisanslama seçeneklerini inceleyebilir ve Aspose.Words for Java'yı satın alabilirsiniz. [Aspose web sitesi](https://purchase.aspose.com/buy).
 
 ### S4: Satın almadan önce Aspose.Words for Java'yı deneyebilir miyim?
 
- Elbette! Aspose.Words for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Aspose.Sürümler](https://releases.aspose.com/).
+Elbette! Aspose.Words for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz: [Aspose.Sürümler](https://releases.aspose.com/).
 
 ### S5: Aspose.Words for Java hakkında nereden destek alabilir veya soru sorabilirim?
 
- Herhangi bir soru veya destek için şu adresi ziyaret edin:[Aspose.Words for Java forumu](https://forum.aspose.com/).
+Herhangi bir soru veya destek için şu adresi ziyaret edin: [Aspose.Words for Java forumu](https://forum.aspose.com/).
 
 Artık Aspose.Words for Java ile şekillerin işlenmesinde ustalaştığınıza göre, belge işleme projelerinizde bu çok yönlü API'nin tüm potansiyelini ortaya çıkarmaya hazırsınız. İyi kodlamalar!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

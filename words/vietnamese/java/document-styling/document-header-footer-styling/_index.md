@@ -1,14 +1,16 @@
 ---
-title: Kiểu dáng của Đầu trang và Chân trang Tài liệu
-linktitle: Kiểu dáng của Đầu trang và Chân trang Tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn.
-weight: 14
-url: /vi/java/document-styling/document-header-footer-styling/
+"description": "Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn."
+"linktitle": "Kiểu dáng của Đầu trang và Chân trang Tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kiểu dáng của Đầu trang và Chân trang Tài liệu"
+"url": "/vi/java/document-styling/document-header-footer-styling/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểu dáng của Đầu trang và Chân trang Tài liệu
@@ -30,7 +32,7 @@ Trước khi đi sâu vào chi tiết, chúng ta hãy bắt đầu với những
 
 #### Tạo tiêu đề:
 
- Để tạo tiêu đề trong tài liệu của bạn bằng Aspose.Words cho Java, bạn có thể sử dụng`HeaderFooter` lớp. Đây là một ví dụ đơn giản:
+Để tạo tiêu đề trong tài liệu của bạn bằng Aspose.Words cho Java, bạn có thể sử dụng `HeaderFooter` lớp. Đây là một ví dụ đơn giản:
 
 ```java
 Document doc = new Document();
@@ -93,7 +95,7 @@ header.appendChild(field);
 
 ### Làm thế nào để xóa phần đầu trang hoặc phần chân trang khỏi các phần cụ thể?
 
- Bạn có thể xóa tiêu đề hoặc chân trang khỏi các phần cụ thể bằng cách truy cập`HeaderFooter` đối tượng và đặt nội dung của chúng thành null. Ví dụ:
+Bạn có thể xóa tiêu đề hoặc chân trang khỏi các phần cụ thể bằng cách truy cập `HeaderFooter` đối tượng và đặt nội dung của chúng thành null. Ví dụ:
 
 ```java
 header.removeAllChildren();
@@ -105,11 +107,11 @@ Có, bạn có thể có các header và footer khác nhau cho các trang lẻ v
 
 ### Có thể thêm siêu liên kết vào phần đầu trang hoặc chân trang không?
 
- Chắc chắn rồi! Bạn có thể thêm siêu liên kết trong phần đầu trang hoặc phần chân trang bằng cách sử dụng Aspose.Words cho Java. Sử dụng`Hyperlink` lớp để tạo siêu liên kết và chèn chúng vào nội dung đầu trang hoặc chân trang của bạn.
+Chắc chắn rồi! Bạn có thể thêm siêu liên kết trong phần đầu trang hoặc phần chân trang bằng cách sử dụng Aspose.Words cho Java. Sử dụng `Hyperlink` lớp để tạo siêu liên kết và chèn chúng vào nội dung đầu trang hoặc chân trang của bạn.
 
 ### Làm thế nào tôi có thể căn chỉnh nội dung đầu trang hoặc chân trang sang trái hoặc phải?
 
- Để căn chỉnh nội dung đầu trang hoặc chân trang sang trái hoặc phải, bạn có thể thiết lập căn chỉnh đoạn văn bằng cách sử dụng`ParagraphAlignment` enum. Ví dụ, để căn chỉnh nội dung sang bên phải:
+Để căn chỉnh nội dung đầu trang hoặc chân trang sang trái hoặc phải, bạn có thể thiết lập căn chỉnh đoạn văn bằng cách sử dụng `ParagraphAlignment` enum. Ví dụ, để căn chỉnh nội dung sang bên phải:
 
 ```java
 header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
@@ -117,7 +119,7 @@ header.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.
 
 ### Tôi có thể thêm các trường tùy chỉnh, chẳng hạn như tiêu đề tài liệu, vào đầu trang hoặc chân trang không?
 
- Có, bạn có thể thêm các trường tùy chỉnh vào tiêu đề hoặc chân trang. Tạo một`Run` phần tử và chèn nó vào nội dung đầu trang hoặc chân trang, cung cấp văn bản mong muốn. Tùy chỉnh định dạng khi cần thiết.
+Có, bạn có thể thêm các trường tùy chỉnh vào tiêu đề hoặc chân trang. Tạo một `Run` phần tử và chèn nó vào nội dung đầu trang hoặc chân trang, cung cấp văn bản mong muốn. Tùy chỉnh định dạng khi cần thiết.
 
 ### Aspose.Words for Java có tương thích với các định dạng tài liệu khác nhau không?
 
@@ -130,9 +132,13 @@ Trong hướng dẫn mở rộng này, chúng tôi đã khám phá nghệ thuậ
 Hãy nhớ thực hành các kỹ năng này và thử nghiệm với nhiều phong cách khác nhau để tìm ra phong cách phù hợp nhất với tài liệu của bạn. Aspose.Words for Java cho phép bạn kiểm soát hoàn toàn định dạng tài liệu của mình, mở ra vô số khả năng để tạo ra nội dung ấn tượng.
 
 Vì vậy, hãy tiếp tục và bắt đầu tạo các tài liệu để lại ấn tượng lâu dài. Chuyên môn mới tìm thấy của bạn về kiểu dáng tiêu đề và chân trang tài liệu chắc chắn sẽ đưa bạn đến con đường hoàn thiện tài liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Формат 1Bpp индексированный
-linktitle: Формат 1Bpp индексированный
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как преобразовать документ Word в индексированное изображение 1Bpp с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для легкого преобразования.
-weight: 10
-url: /ru/net/programming-with-imagesaveoptions/format-1bpp-indexed/
+"description": "Узнайте, как преобразовать документ Word в индексированное изображение 1Bpp с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для легкого преобразования."
+"linktitle": "Формат 1Bpp индексированный"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Формат 1Bpp индексированный"
+"url": "/ru/net/programming-with-imagesaveoptions/format-1bpp-indexed/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Формат 1Bpp индексированный
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-imagesaveoptions/format-1bpp-indexed/
 
 Прежде чем приступить к работе, вам необходимо подготовить несколько вещей:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки .NET: Visual Studio — хороший вариант, но вы можете использовать любую удобную для вас среду.
 - Базовые знания C#: не волнуйтесь, мы постараемся упростить задачу, но небольшое знакомство с C# не помешает.
 - Документ Word: подготовьте образец документа Word для преобразования.
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Загрузите документ Word
 
- Теперь загрузим документ Word в Aspose.Words.`Document` объект. Этот объект представляет ваш файл Word и позволяет вам манипулировать им.
+Теперь загрузим документ Word в Aspose.Words. `Document` объект. Этот объект представляет ваш файл Word и позволяет вам манипулировать им.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 3: Настройте параметры сохранения изображения
 
- Далее нам нужно настроить`ImageSaveOptions`Вот тут-то и происходит волшебство. Мы настроим его на сохранение изображения в формате PNG с индексированным цветовым режимом 1Bpp.
+Далее нам нужно настроить `ImageSaveOptions`. Вот тут-то и происходит волшебство. Мы настроим его на сохранение изображения в формате PNG с индексированным цветовым режимом 1Bpp.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -72,7 +74,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 
 ## Шаг 4: Сохраните документ как изображение
 
- Наконец, мы сохраняем документ как изображение, используя`Save` Метод`Document` объект.
+Наконец, мы сохраняем документ как изображение, используя `Save` Метод `Document` объект.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOptions);
@@ -88,20 +90,25 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOpti
 Индексированное изображение 1Bpp (1 бит на пиксель) — это формат черно-белого изображения, в котором каждый пиксель представлен одним битом, 0 или 1. Этот формат очень экономичен с точки зрения использования пространства.
 
 ### Можно ли конвертировать несколько страниц документа Word одновременно?
- Да, можно. Изменить`PageSet` недвижимость в`ImageSaveOptions` для включения нескольких страниц или всего документа.
+Да, можно. Изменить `PageSet` недвижимость в `ImageSaveOptions` для включения нескольких страниц или всего документа.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить[временная лицензия здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить [временная лицензия здесь](https://purchase.aspose.com/temporary-license/).
 
 ### В какие еще форматы изображений я могу конвертировать свой документ Word?
- Aspose.Words поддерживает различные форматы изображений, включая JPEG, BMP и TIFF. Просто измените`SaveFormat` в`ImageSaveOptions`.
+Aspose.Words поддерживает различные форматы изображений, включая JPEG, BMP и TIFF. Просто измените `SaveFormat` в `ImageSaveOptions`.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти на[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти на [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

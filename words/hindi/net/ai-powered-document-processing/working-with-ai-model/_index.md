@@ -1,14 +1,16 @@
 ---
-title: एआई मॉडल के साथ काम करना
-linktitle: एआई मॉडल के साथ काम करना
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: AI के साथ दस्तावेज़ों को सारांशित करने के लिए .NET के लिए Aspose.Words का उपयोग करना सीखें। दस्तावेज़ प्रबंधन को बेहतर बनाने के लिए आसान कदम।
-weight: 10
-url: /hi/net/ai-powered-document-processing/working-with-ai-model/
+"description": "AI के साथ दस्तावेज़ों को सारांशित करने के लिए .NET के लिए Aspose.Words का उपयोग करना सीखें। दस्तावेज़ प्रबंधन को बेहतर बनाने के लिए आसान कदम।"
+"linktitle": "एआई मॉडल के साथ काम करना"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "एआई मॉडल के साथ काम करना"
+"url": "/hi/net/ai-powered-document-processing/working-with-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एआई मॉडल के साथ काम करना
@@ -25,7 +27,7 @@ url: /hi/net/ai-powered-document-processing/working-with-ai-model/
   
 2. .NET Framework: सुनिश्चित करें कि आप Aspose.Words के लिए .NET Framework का संगत संस्करण उपयोग कर रहे हैं। यह .NET Framework और .NET Core दोनों का समर्थन करता है।
 
-3.  .NET के लिए Aspose.Words: आपको Aspose.Words डाउनलोड और इंस्टॉल करना होगा। आप नवीनतम संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+3. .NET के लिए Aspose.Words: आपको Aspose.Words डाउनलोड और इंस्टॉल करना होगा। आप नवीनतम संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 4. AI मॉडल के लिए API कुंजी: AI सारांश का उपयोग करने के लिए, आपको AI मॉडल तक पहुंच की आवश्यकता होगी। OpenAI या Google जैसे प्लेटफ़ॉर्म से अपनी API कुंजी प्राप्त करें।
 
@@ -72,7 +74,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
--  यहाँ, प्रतिस्थापित करें`YOUR_DOCUMENT_DIRECTORY` उस स्थान के साथ जहाँ आपके दस्तावेज़ संग्रहीत हैं और`YOUR_ARTIFACTS_DIRECTORY` जहाँ आप सारांशित फ़ाइलें सहेजना चाहते हैं.
+- यहाँ, प्रतिस्थापित करें `YOUR_DOCUMENT_DIRECTORY` उस स्थान के साथ जहाँ आपके दस्तावेज़ संग्रहीत हैं और `YOUR_ARTIFACTS_DIRECTORY` जहाँ आप सारांशित फ़ाइलें सहेजना चाहते हैं.
 
 ## चरण 2: दस्तावेज़ लोड करें
 
@@ -109,7 +111,7 @@ oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 
 ## चरण 5: एकाधिक दस्तावेज़ों के लिए सारांश तैयार करें
 
-क्या आप रोमांच का अनुभव कर रहे हैं? आप एक साथ कई दस्तावेज़ों का सारांश भी बना सकते हैं! यहाँ बताया गया है कि आप यह कैसे कर सकते हैं:
+क्या आप रोमांच का अनुभव कर रहे हैं? आप एक साथ कई दस्तावेज़ों का सारांश भी तैयार कर सकते हैं! यहाँ बताया गया है कि आप यह कैसे कर सकते हैं:
 
 ```csharp
 Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
@@ -125,7 +127,7 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
-.NET के लिए Aspose.Words एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, संशोधित करने, परिवर्तित करने और प्रस्तुत करने में सक्षम बनाती है।
+.NET के लिए Aspose.Words एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने, परिवर्तित करने और प्रस्तुत करने में सक्षम बनाती है।
 
 ### मैं AI मॉडल के लिए API कुंजी कैसे प्राप्त करूं?
 आप OpenAI या Google जैसे AI प्रदाताओं से API कुंजी प्राप्त कर सकते हैं। एक खाता बनाना सुनिश्चित करें और अपनी कुंजी बनाने के लिए उनके निर्देशों का पालन करें।
@@ -137,10 +139,15 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 Aspose एक निःशुल्क परीक्षण प्रदान करता है, जिससे आप इसकी विशेषताओं का परीक्षण कर सकते हैं। आप इसे उनकी साइट से डाउनलोड कर सकते हैं।
 
 ### मैं Aspose.Words के लिए और अधिक संसाधन कहां पा सकता हूं?
- आप दस्तावेज़ की जांच कर सकते हैं[यहाँ](https://reference.aspose.com/words/net/) व्यापक मार्गदर्शन और अंतर्दृष्टि के लिए.
+आप दस्तावेज़ की जांच कर सकते हैं [यहाँ](https://reference.aspose.com/words/net/) व्यापक मार्गदर्शन और अंतर्दृष्टि के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

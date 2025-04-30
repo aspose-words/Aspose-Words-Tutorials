@@ -1,34 +1,36 @@
 ---
-title: Vastklikken op raster in Word-document
-linktitle: Vastklikken op raster in Word-document
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u Snap to Grid in Word-documenten inschakelt met Aspose.Words voor .NET. Deze gedetailleerde tutorial behandelt vereisten, een stapsgewijze handleiding en veelgestelde vragen.
-weight: 10
-url: /nl/net/document-formatting/snap-to-grid/
+"description": "Leer hoe u 'Uitlijnen op raster' in Word-documenten kunt inschakelen met Aspose.Words voor .NET. Deze gedetailleerde tutorial behandelt de vereisten, een stapsgewijze handleiding en veelgestelde vragen."
+"linktitle": "Uitlijnen op raster in Word-document"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Uitlijnen op raster in Word-document"
+"url": "/nl/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vastklikken op raster in Word-document
+# Uitlijnen op raster in Word-document
 
 ## Invoering
 
-Bij het werken met Word-documenten is het cruciaal om een consistente en gestructureerde lay-out te behouden, vooral bij complexe opmaak of meertalige content. Een handige functie die hierbij kan helpen, is de functionaliteit 'Snap to Grid'. In deze tutorial duiken we diep in hoe u Snap to Grid in uw Word-documenten kunt inschakelen en gebruiken met Aspose.Words voor .NET.
+Bij het werken met Word-documenten is het cruciaal om een consistente en gestructureerde lay-out te behouden, vooral bij complexe opmaak of meertalige content. Een handige functie die hierbij kan helpen, is de functionaliteit 'Uitlijnen op raster'. In deze tutorial gaan we dieper in op hoe je 'Uitlijnen op raster' kunt inschakelen en gebruiken in je Word-documenten met Aspose.Words voor .NET.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
--  Aspose.Words voor .NET-bibliotheek: U kunt het downloaden[hier](https://releases.aspose.com/words/net/).
+- Aspose.Words voor .NET-bibliotheek: u kunt het downloaden [hier](https://releases.aspose.com/words/net/).
 - Ontwikkelomgeving: Visual Studio of een andere .NET-compatibele IDE.
 - Basiskennis van C#: Als u de basisbeginselen van C#-programmering begrijpt, kunt u de voorbeelden beter volgen.
--  Aspose-licentie: Hoewel een tijdelijke licentie kan worden verkregen[hier](https://purchase.aspose.com/temporary-license/)Als u een volledige licentie gebruikt, krijgt u toegang tot alle functies zonder beperkingen.
+- Aspose-licentie: Hoewel een tijdelijke licentie kan worden verkregen [hier](https://purchase.aspose.com/temporary-license/)Als u een volledige licentie gebruikt, heeft u toegang tot alle functies zonder beperkingen.
 
 ## Naamruimten importeren
 
-Om te beginnen moet u de benodigde namespaces importeren. Hiermee kunt u de Aspose.Words-bibliotheekfunctionaliteiten in uw project gebruiken.
+Om te beginnen moet u de benodigde naamruimten importeren. Dit stelt u in staat om de functionaliteiten van de Aspose.Words-bibliotheek in uw project te gebruiken.
 
 ```csharp
 using Aspose.Words;
@@ -36,7 +38,7 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-Laten we het proces van het inschakelen van Snap to Grid in een Word-document stap voor stap doornemen. Elke stap bevat een kop en een gedetailleerde uitleg.
+Laten we het proces van het inschakelen van 'Uitlijnen op raster' in een Word-document stap voor stap uitleggen. Elke stap bevat een kop en een gedetailleerde uitleg.
 
 ## Stap 1: Stel uw project in
 
@@ -45,10 +47,10 @@ Eerst moet u uw .NET-project instellen en de Aspose.Words-bibliotheek opnemen.
 Het project opzetten
 
 1. Een nieuw project maken:
-   - Open Visual Studio.
+   - Visual Studio openen.
    - Maak een nieuw Console App (.NET Framework)-project.
 
-2. Installeer Aspose.Words:
+2. Aspose.Words installeren:
    - Open de NuGet Package Manager (Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing).
    - Zoek naar "Aspose.Words" en installeer het.
 
@@ -57,11 +59,11 @@ Het project opzetten
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Deze regel stelt de directory in waar uw documenten worden opgeslagen. Vervangen`"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad naar uw directory.
+Met deze regel stelt u de map in waar uw documenten worden opgeslagen. Vervangen `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad naar uw directory.
 
-## Stap 2: Initialiseer het document en DocumentBuilder
+## Stap 2: Initialiseer het document en de DocumentBuilder
 
- Vervolgens moet u een nieuw Word-document maken en het initialiseren`DocumentBuilder` klasse, die helpt bij het samenstellen van het document.
+Vervolgens moet u een nieuw Word-document maken en het initialiseren `DocumentBuilder` klasse, die helpt bij het samenstellen van het document.
 
 Een nieuw document maken
 
@@ -70,23 +72,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`maakt een nieuw Word-document.
+- `Document doc = new Document();` maakt een nieuw Word-document.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` initialiseert de DocumentBuilder met het gemaakte document.
 
-## Stap 3: Schakel 'Uitlijnen op raster' in voor alinea's
+## Stap 3: Uitlijnen op raster inschakelen voor alinea's
 
 Laten we nu 'Uitlijnen op raster' inschakelen voor een alinea in uw document.
 
-Optimaliseren van alinea-indeling
+Alinea-indeling optimaliseren
 
 ```csharp
-// Optimaliseer de lay-out bij het typen in Aziatische tekens.
+// Optimaliseer de lay-out wanneer u in Aziatische tekens typt.
 Paragraph par = doc.FirstSection.Body.FirstParagraph;
 par.ParagraphFormat.SnapToGrid = true;
 ```
 
 - `Paragraph par = doc.FirstSection.Body.FirstParagraph;` haalt de eerste alinea van het document op.
-- `par.ParagraphFormat.SnapToGrid = true;` schakelt de functie Uitlijnen op raster in voor de alinea, zodat de tekst wordt uitgelijnd op het raster.
+- `par.ParagraphFormat.SnapToGrid = true;` schakelt de functie 'Uitlijnen op raster' in voor de alinea, zodat de tekst op het raster wordt uitgelijnd.
 
 ## Stap 4: Inhoud toevoegen aan het document
 
@@ -104,7 +106,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 Bovendien kunt u 'Uitlijnen op raster' inschakelen voor lettertypen binnen een alinea, zodat de tekens consistent worden uitgelijnd.
 
-Lettertype-uitlijning op raster instellen
+Lettertype uitlijnen op raster instellen
 
 ```csharp
 par.Runs[0].Font.SnapToGrid = true;
@@ -114,7 +116,7 @@ par.Runs[0].Font.SnapToGrid = true;
 
 ## Stap 6: Sla het document op
 
-Sla het document ten slotte op in de door u opgegeven map.
+Sla het document ten slotte op in de door u opgegeven directory.
 
 Het document opslaan
 
@@ -122,16 +124,16 @@ Het document opslaan
 doc.Save(dataDir + "Paragraph.SnapToGrid.docx");
 ```
 
-- `doc.Save(dataDir + "Paragraph.SnapToGrid.docx");` slaat het document op met de opgegeven naam in de aangewezen map.
+- `doc.Save(dataDir + "Paragraph.SnapToGrid.docx");` slaat het document op met de opgegeven naam in de aangegeven map.
 
 ## Conclusie
 
-Door deze stappen te volgen, hebt u Snap to Grid succesvol ingeschakeld in een Word-document met Aspose.Words voor .NET. Deze functie helpt een nette en georganiseerde lay-out te behouden, wat vooral handig is bij het werken met complexe documentstructuren of meertalige inhoud.
+Door deze stappen te volgen, hebt u 'Uitlijnen op raster' succesvol ingeschakeld in een Word-document met Aspose.Words voor .NET. Deze functie zorgt voor een overzichtelijke en overzichtelijke lay-out, wat vooral handig is bij complexe documentstructuren of meertalige content.
 
 ## Veelgestelde vragen
 
 ### Wat is de functie 'Uitlijnen op raster'?
-Met Snap to Grid worden tekst en elementen uitgelijnd op een vooraf gedefinieerd raster, waardoor een consistente en gestructureerde documentopmaak wordt gegarandeerd.
+Met Snap to Grid worden tekst en elementen uitgelijnd op een vooraf gedefinieerd raster. Zo wordt een consistente en gestructureerde documentopmaak gegarandeerd.
 
 ### Kan ik 'Uitlijnen op raster' alleen voor specifieke secties gebruiken?
 Ja, u kunt 'Uitlijnen op raster' inschakelen voor specifieke alinea's of secties in uw document.
@@ -140,13 +142,18 @@ Ja, u kunt 'Uitlijnen op raster' inschakelen voor specifieke alinea's of secties
 Ja, u kunt een tijdelijke licentie gebruiken voor evaluatie, maar voor volledige toegang wordt een volledige licentie aanbevolen.
 
 ### Heeft Snap to Grid invloed op de documentprestaties?
-Nee, het inschakelen van Snap to Grid heeft geen significante invloed op de documentprestaties.
+Nee, het inschakelen van Snap to Grid heeft geen grote invloed op de documentprestaties.
 
 ### Waar kan ik meer informatie vinden over Aspose.Words voor .NET?
- Bezoek de[documentatie](https://reference.aspose.com/words/net/) voor gedetailleerde informatie en voorbeelden.
+Bezoek de [documentatie](https://reference.aspose.com/words/net/) voor gedetailleerde informatie en voorbeelden.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

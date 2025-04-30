@@ -1,14 +1,16 @@
 ---
-title: Belgeyi Posta Birleştirmede Ekle
-linktitle: Belgeyi Posta Birleştirmede Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimde Aspose.Words for .NET kullanarak birleştirme alanlarına belgelerin nasıl ekleneceğini öğrenin.
-weight: 10
-url: /tr/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Bu kapsamlı, adım adım eğitimde Aspose.Words for .NET kullanarak birleştirme alanlarına belgelerin nasıl ekleneceğini öğrenin."
+"linktitle": "Belgeyi Posta Birleştirmede Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belgeyi Posta Birleştirmede Ekle"
+"url": "/tr/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeyi Posta Birleştirmede Ekle
@@ -21,7 +23,7 @@ Aspose.Words for .NET ile belge otomasyonu dünyasına hoş geldiniz! Bir posta 
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Şunları yapabilirsiniz:[en son sürümü buradan indirin](https://releases.aspose.com/words/net/) . Lisans satın almanız gerekiyorsa bunu yapabilirsiniz[Burada](https://purchase.aspose.com/buy) Alternatif olarak, bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir deneyin[ücretsiz deneme](https://releases.aspose.com/).
+1. Aspose.Words for .NET: Şunları yapabilirsiniz: [en son sürümü buradan indirin](https://releases.aspose.com/words/net/). Lisans satın almanız gerekiyorsa bunu yapabilirsiniz [Burada](https://purchase.aspose.com/buy)Alternatif olarak, bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir deneyin [ücretsiz deneme](https://releases.aspose.com/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# IDE.
 3. Temel C# Bilgisi: C# programlamaya aşinalık bu eğitimi çok kolaylaştıracaktır.
 
@@ -145,10 +147,10 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir posta birleştirme işlemi s
 ## SSS
 
 ### Farklı birleştirme alanlarına birden fazla belge ekleyebilir miyim?
-Evet, yapabilirsiniz. Uygun birleştirme alanlarını ve karşılık gelen belge yollarını belirtmeniz yeterlidir.`MailMerge.Execute` yöntem.
+Evet, yapabilirsiniz. Uygun birleştirme alanlarını ve karşılık gelen belge yollarını belirtmeniz yeterlidir. `MailMerge.Execute` yöntem.
 
 ### Eklenen belgeyi ana belgeden farklı bir biçimde biçimlendirmek mümkün müdür?
- Kesinlikle! Şunu kullanabilirsiniz`ImportFormatMode` parametre içinde`NodeImporter` Biçimlendirmeyi kontrol etmek için.
+Kesinlikle! Şunu kullanabilirsiniz: `ImportFormatMode` parametre içinde `NodeImporter` Biçimlendirmeyi kontrol etmek için.
 
 ### Birleştirme alanı adı dinamik ise ne olur?
 Dinamik birleştirme alan adlarını, geri çağırma işleyicisine parametre olarak geçirerek işleyebilirsiniz.
@@ -158,9 +160,14 @@ Evet, Aspose.Words DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli dosya
 
 ### Belge ekleme işlemi sırasında oluşan hataları nasıl çözebilirim?
 Oluşabilecek istisnaları yönetmek için geri çağırma işleyicinizde hata işlemeyi uygulayın.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

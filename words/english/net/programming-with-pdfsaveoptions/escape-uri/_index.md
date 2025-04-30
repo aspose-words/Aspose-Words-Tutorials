@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/escape-uri/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Escape URI in PDF Document
@@ -107,9 +110,13 @@ You can get a free trial [here](https://releases.aspose.com/).
 You can find the detailed documentation [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

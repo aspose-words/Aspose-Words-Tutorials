@@ -1,14 +1,16 @@
 ---
-title: Yeni Sayfaya Katıl
-linktitle: Yeni Sayfaya Katıl
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word'de belgeleri nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Verimli belge birleştirme için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/join-and-append-documents/join-new-page/
+"description": "Aspose.Words for .NET kullanarak Word'de belgeleri nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Verimli belge birleştirme için adım adım kılavuzumuzu izleyin."
+"linktitle": "Yeni Sayfaya Katıl"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yeni Sayfaya Katıl"
+"url": "/tr/net/join-and-append-documents/join-new-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yeni Sayfaya Katıl
@@ -21,7 +23,7 @@ Büyük belgelerle çalışırken veya birden fazla belgeyi tek bir belgede birl
 
 Bu eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Bilgisayarınızda Visual Studio yüklü.
--  Aspose.Words for .NET kütüphanesi. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET kütüphanesi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - C# programlama ve .NET ortamının temel bilgisi.
 
 ## Ad Alanlarını İçe Aktar
@@ -42,7 +44,7 @@ Visual Studio'da yeni bir C# konsol uygulaması oluşturarak başlayın. Projeni
 ## Adım 2: Kaynak ve Hedef Belgelerini Yükle
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Kaynak ve hedef belgeleri yükleyin
@@ -50,7 +52,7 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dosyalarınıza giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dosyalarınıza giden gerçek yol ile.
 
 ## Adım 3: Bölüm Başlangıcını Yeni Sayfaya Ayarla
 
@@ -83,7 +85,7 @@ Bu, eklenen içerikle birleştirilmiş belgeyi yeni bir sayfadan başlayarak kay
 
 ## Çözüm
 
-Bu eğitimde, .NET için Aspose.Words kullanarak bir Word dosyasındaki belgeleri nasıl birleştireceğimizi ve ekleyeceğimizi öğrendik. Bu adımları izleyerek, eklenen içeriğin yeni bir sayfada başlamasını sağlayarak, orijinal biçimlendirmeyi koruyarak birden fazla belgeyi verimli bir şekilde birleştirebilirsiniz.
+Bu eğitimde, .NET için Aspose.Words kullanarak bir Word dosyasındaki belgeleri nasıl birleştireceğimizi ve ekleyeceğimizi öğrendik. Bu adımları izleyerek, eklenen içeriğin yeni bir sayfada başlamasını sağlayarak ve orijinal biçimlendirmeyi koruyarak birden fazla belgeyi verimli bir şekilde birleştirebilirsiniz.
 
 ## SSS
 
@@ -101,9 +103,14 @@ Aspose.Words, birleştirilmiş belgede işlevselliğini koruyarak makrolar ve fo
 
 ### Aspose.Words kullanarak toplu işlemdeki belge ekleme görevlerini otomatikleştirebilir miyim?
 Aspose.Words for .NET, toplu işlemlerde belge ekleme görevlerini otomatikleştirmenize olanak tanır ve belge yönetiminde üretkenliği artırır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

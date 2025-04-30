@@ -12,8 +12,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -271,9 +274,13 @@ In this guide, you've learned how to effectively manipulate documents using Aspo
 - "Document initialization in Java"
 - "Customize page backgrounds with Java"
 - "Import nodes between documents using Java"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: वॉटरमार्क के साथ शब्द प्रसंस्करण
-linktitle: वॉटरमार्क के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET में वॉटरमार्क के साथ प्रोग्राम करना सीखें। चरण-दर-चरण ट्यूटोरियल और नमूना C# कोड के साथ टेक्स्ट या छवि वॉटरमार्क जोड़ना, उनकी उपस्थिति को अनुकूलित करना, उन्हें पृष्ठों पर रखना आदि सीखें।
-weight: 1570
-url: /hi/net/programming-with-watermark/
+"description": "Aspose.Words for .NET में वॉटरमार्क के साथ प्रोग्राम करना सीखें। चरण-दर-चरण ट्यूटोरियल और नमूना C# कोड के साथ टेक्स्ट या छवि वॉटरमार्क जोड़ना, उनकी उपस्थिति को अनुकूलित करना, उन्हें पृष्ठों पर रखना आदि सीखें।"
+"linktitle": "वॉटरमार्क के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वॉटरमार्क के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-watermark/"
+"weight": 1570
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वॉटरमार्क के साथ शब्द प्रसंस्करण
@@ -19,9 +21,14 @@ url: /hi/net/programming-with-watermark/
 | शीर्षक | विवरण |
 | --- | --- |
 | [विशिष्ट विकल्पों के साथ टेक्स्ट वॉटरमार्क जोड़ें](./add-text-watermark-with-specific-options/) | .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों में विशिष्ट विकल्पों के साथ टेक्स्ट वॉटरमार्क जोड़ना सीखें। फ़ॉन्ट, आकार, रंग और लेआउट को आसानी से अनुकूलित करें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

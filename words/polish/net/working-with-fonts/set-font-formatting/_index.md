@@ -1,14 +1,16 @@
 ---
-title: Ustaw formatowanie czcionki
-linktitle: Ustaw formatowanie czcionki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić formatowanie czcionki w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby ulepszyć automatyzację dokumentów.
-weight: 10
-url: /pl/net/working-with-fonts/set-font-formatting/
+"description": "Dowiedz się, jak ustawić formatowanie czcionki w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby ulepszyć automatyzację dokumentów."
+"linktitle": "Ustaw formatowanie czcionki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw formatowanie czcionki"
+"url": "/pl/net/working-with-fonts/set-font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw formatowanie czcionki
@@ -21,9 +23,9 @@ Czy jesteś gotowy, aby zanurzyć się w świecie manipulacji dokumentami za pom
 
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
-- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie dodatkowym atutem.
+- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie zaletą.
 
 ## Importuj przestrzenie nazw
 
@@ -39,7 +41,7 @@ Teraz podzielimy ten proces na proste i łatwe do opanowania kroki.
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw musisz utworzyć nowy dokument i zainicjować go`DocumentBuilder` klasa, która pomoże Ci utworzyć i sformatować Twój dokument.
+Najpierw musisz utworzyć nowy dokument i zainicjować go `DocumentBuilder` klasa, która pomoże Ci utworzyć i sformatować Twój dokument.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -90,7 +92,7 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontFormatting.docx");
 
 ## Wniosek
 
-I masz to! Udało Ci się ustawić formatowanie czcionki w dokumencie Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że manipulacja dokumentami staje się dziecinnie prosta, umożliwiając programowe tworzenie bogato sformatowanych dokumentów. Niezależnie od tego, czy generujesz raporty, tworzysz szablony, czy po prostu automatyzujesz tworzenie dokumentów, Aspose.Words dla .NET ma dla Ciebie rozwiązanie.
+masz to! Udało Ci się ustawić formatowanie czcionki w dokumencie Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka sprawia, że manipulacja dokumentami staje się dziecinnie prosta, umożliwiając programowe tworzenie bogato sformatowanych dokumentów. Niezależnie od tego, czy generujesz raporty, tworzysz szablony, czy po prostu automatyzujesz tworzenie dokumentów, Aspose.Words dla .NET ma dla Ciebie rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
@@ -101,16 +103,21 @@ Aspose.Words for .NET to potężna biblioteka do tworzenia, edytowania i manipul
 Tak, możesz używać Aspose.Words dla .NET z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji do użytku produkcyjnego. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license) w celach ewaluacyjnych.
+Tak, Aspose.Words dla .NET wymaga licencji do użytku produkcyjnego. Możesz kupić licencję [Tutaj](https://purchase.aspose.com/buy) lub uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license) w celach ewaluacyjnych.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
-Możesz uzyskać wsparcie od społeczności Aspose i zespołu wsparcia[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose i zespołu wsparcia [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę inaczej sformatować określone fragmenty tekstu?
- Tak, możesz zastosować różne formatowanie do określonych części tekstu, dostosowując`Font` właściwości`DocumentBuilder` w razie potrzeby.
+Tak, możesz zastosować różne formatowanie do określonych części tekstu, dostosowując `Font` właściwości `DocumentBuilder` w razie potrzeby.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

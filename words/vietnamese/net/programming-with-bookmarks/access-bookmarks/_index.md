@@ -1,14 +1,16 @@
 ---
-title: Truy cập Bookmarks trong tài liệu Word
-linktitle: Truy cập Bookmarks trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách truy cập và thao tác dấu trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/programming-with-bookmarks/access-bookmarks/
+"description": "Tìm hiểu cách truy cập và thao tác dấu trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Truy cập Bookmarks trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Truy cập Bookmarks trong tài liệu Word"
+"url": "/vi/net/programming-with-bookmarks/access-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập Bookmarks trong tài liệu Word
@@ -19,9 +21,9 @@ Trong thời đại kỹ thuật số ngày nay, việc tự động hóa các t
 
 ## Điều kiện tiên quyết
 
-Trước khi đi vào hướng dẫn từng bước, bạn sẽ cần một số thứ sau:
+Trước khi đi vào hướng dẫn từng bước, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt nó trên máy phát triển của mình.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 - Một tài liệu Word: Đảm bảo bạn có một tài liệu Word có dấu trang để kiểm tra.
@@ -47,11 +49,11 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 Giải thích:
 - `dataDir`: Biến này sẽ chứa đường dẫn đến thư mục tài liệu của bạn.
-- `Document doc = new Document(dataDir + "Bookmarks.docx");` : Dòng này tải tài liệu Word có tên "Bookmarks.docx" vào`doc` sự vật.
+- `Document doc = new Document(dataDir + "Bookmarks.docx");`: Dòng này tải tài liệu Word có tên "Bookmarks.docx" vào `doc` sự vật.
 
 ## Bước 2: Truy cập Bookmark theo Index
 
- Bạn có thể truy cập các dấu trang trong tài liệu Word theo chỉ mục của chúng. Các dấu trang được lưu trữ trong`Bookmarks` bộ sưu tập của`Range` đối tượng trong`Document`.
+Bạn có thể truy cập các dấu trang trong tài liệu Word theo chỉ mục của chúng. Các dấu trang được lưu trữ trong `Bookmarks` bộ sưu tập của `Range` đối tượng trong `Document`.
 
 ```csharp
 // Truy cập dấu trang đầu tiên theo chỉ mục.
@@ -60,7 +62,7 @@ Bookmark bookmark1 = doc.Range.Bookmarks[0];
 
 Giải thích:
 - `doc.Range.Bookmarks[0]`: Thao tác này sẽ truy cập vào dấu trang đầu tiên trong tài liệu.
-- `Bookmark bookmark1 = doc.Range.Bookmarks[0];` : Điều này lưu trữ dấu trang đã truy cập vào`bookmark1` biến đổi.
+- `Bookmark bookmark1 = doc.Range.Bookmarks[0];`: Điều này lưu trữ dấu trang đã truy cập vào `bookmark1` biến đổi.
 
 ## Bước 3: Truy cập Bookmark theo Tên
 
@@ -73,7 +75,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];
 
 Giải thích:
 - `doc.Range.Bookmarks["MyBookmark3"]`: Thao tác này sẽ truy cập vào dấu trang có tên "MyBookmark3".
-- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];` : Điều này lưu trữ dấu trang đã truy cập vào`bookmark2` biến đổi.
+- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];`: Điều này lưu trữ dấu trang đã truy cập vào `bookmark2` biến đổi.
 
 ## Bước 4: Thao tác nội dung dấu trang
 
@@ -89,7 +91,7 @@ Giải thích:
 
 ## Bước 5: Thêm Dấu trang Mới
 
-Bạn cũng có thể thêm dấu trang mới vào tài liệu của mình theo chương trình.
+Bạn cũng có thể thêm dấu trang mới vào tài liệu của mình theo cách lập trình.
 
 ```csharp
 // Thêm dấu trang mới.
@@ -100,10 +102,10 @@ builder.EndBookmark("NewBookmark");
 ```
 
 Giải thích:
-- `DocumentBuilder builder = new DocumentBuilder(doc);` : Điều này khởi tạo một`DocumentBuilder` đối tượng có tài liệu được tải.
+- `DocumentBuilder builder = new DocumentBuilder(doc);`: Điều này khởi tạo một `DocumentBuilder` đối tượng có tài liệu được tải.
 - `builder.StartBookmark("NewBookmark");`: Thao tác này sẽ tạo một dấu trang mới có tên "NewBookmark".
-- `builder.Write("This is a new bookmark.");`: Ghi dòng chữ "Đây là dấu trang mới" vào bên trong dấu trang.
-- `builder.EndBookmark("NewBookmark");`: Điều này kết thúc dấu trang có tên "NewBookmark".
+- `builder.Write("This is a new bookmark.");`: Thao tác này sẽ ghi dòng chữ "Đây là dấu trang mới" vào bên trong dấu trang.
+- `builder.EndBookmark("NewBookmark");`Điều này kết thúc dấu trang có tên "NewBookmark".
 
 ## Bước 6: Lưu tài liệu
 
@@ -124,23 +126,28 @@ Truy cập và thao tác các dấu trang trong tài liệu Word bằng Aspose.W
 ## Câu hỏi thường gặp
 
 ### Dấu trang trong tài liệu Word là gì?
-Dấu trang trong tài liệu Word là chỗ giữ chỗ đánh dấu một vị trí hoặc phần cụ thể trong tài liệu để truy cập hoặc tham khảo nhanh.
+Dấu trang trong tài liệu Word là chỗ giữ chỗ đánh dấu vị trí hoặc phần cụ thể của tài liệu để truy cập hoặc tham khảo nhanh.
 
 ### Tôi có thể truy cập dấu trang trong tài liệu Word được bảo vệ bằng mật khẩu không?
 Có, nhưng bạn sẽ cần cung cấp mật khẩu khi tải tài liệu bằng Aspose.Words.
 
 ### Làm thế nào tôi có thể liệt kê tất cả các dấu trang trong một tài liệu?
- Bạn có thể lặp lại thông qua`Bookmarks` bộ sưu tập trong`Range` đối tượng của`Document`.
+Bạn có thể lặp lại thông qua `Bookmarks` bộ sưu tập trong `Range` đối tượng của `Document`.
 
 ### Tôi có thể xóa dấu trang bằng Aspose.Words cho .NET không?
- Có, bạn có thể xóa dấu trang bằng cách gọi`Remove` phương pháp trên đối tượng dấu trang.
+Có, bạn có thể xóa dấu trang bằng cách gọi `Remove` phương pháp trên đối tượng dấu trang.
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?
 Có, Aspose.Words cho .NET tương thích với .NET Core.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

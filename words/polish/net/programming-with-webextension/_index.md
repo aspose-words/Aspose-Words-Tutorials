@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z rozszerzeniem Webextension
-linktitle: Przetwarzanie słów z rozszerzeniem Webextension
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć rozszerzenia internetowe dla dokumentów Word za pomocą Aspose.Words dla .NET. Dowiedz się, jak tworzyć, modyfikować i dostosowywać rozszerzenia internetowe, integrować je z dokumentami Word.
-weight: 1530
-url: /pl/net/programming-with-webextension/
+"description": "Dowiedz się, jak tworzyć rozszerzenia internetowe dla dokumentów Word za pomocą Aspose.Words dla .NET. Dowiedz się, jak tworzyć, modyfikować i dostosowywać rozszerzenia internetowe, integrować je z dokumentami Word."
+"linktitle": "Przetwarzanie słów z rozszerzeniem Webextension"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z rozszerzeniem Webextension"
+"url": "/pl/net/programming-with-webextension/"
+"weight": 1530
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z rozszerzeniem Webextension
@@ -23,9 +25,14 @@ Postępując zgodnie z tymi samouczkami, będziesz w stanie w pełni wykorzysta�
 | Tytuł | Opis |
 | --- | --- |
 | [Korzystanie z paneli zadań rozszerzeń internetowych](./using-web-extension-task-panes/) | Dowiedz się, jak dodawać i konfigurować panele zadań rozszerzeń internetowych w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

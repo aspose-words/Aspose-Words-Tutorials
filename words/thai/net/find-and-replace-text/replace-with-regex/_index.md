@@ -1,14 +1,16 @@
 ---
-title: แทนที่ด้วย Regex
-linktitle: แทนที่ด้วย Regex
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้ regex เพื่อค้นหาและแทนที่ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อเชี่ยวชาญการจัดการข้อความ
-weight: 10
-url: /th/net/find-and-replace-text/replace-with-regex/
+"description": "เรียนรู้วิธีใช้ regex เพื่อค้นหาและแทนที่ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อเชี่ยวชาญการจัดการข้อความ"
+"linktitle": "แทนที่ด้วย Regex"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทนที่ด้วย Regex"
+"url": "/th/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทนที่ด้วย Regex
@@ -20,7 +22,7 @@ url: /th/net/find-and-replace-text/replace-with-regex/
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
-1. Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio ที่คุณสามารถเขียนและรันโค้ด C# ได้
 3. ความรู้พื้นฐานเกี่ยวกับ C# และ Regex: ความคุ้นเคยกับ C# และความเข้าใจพื้นฐานเกี่ยวกับนิพจน์ทั่วไปจะเป็นประโยชน์
 
@@ -44,11 +46,11 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่
 
- ต่อไปเราจะสร้างเอกสารใหม่และ`DocumentBuilder` เพื่อเพิ่มข้อความเริ่มต้นบางอย่าง
+ต่อไปเราจะสร้างเอกสารใหม่และ `DocumentBuilder` เพื่อเพิ่มข้อความเริ่มต้นบางอย่าง
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ builder.Writeln("sad mad bad");
 
 ## ขั้นตอนที่ 3: กำหนดตัวเลือกค้นหาและแทนที่
 
- เพื่อดำเนินการแทนที่ regex เราจำเป็นต้องตั้งค่าตัวเลือกบางอย่าง`FindReplaceOptions`คลาสช่วยให้เราระบุได้ว่าการค้นหาและแทนที่ควรมีลักษณะอย่างไร
+เพื่อดำเนินการแทนที่ regex เราจำเป็นต้องตั้งค่าตัวเลือกบางอย่าง `FindReplaceOptions` คลาสช่วยให้เราระบุได้ว่าการค้นหาและแทนที่ควรมีลักษณะอย่างไร
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ FindReplaceOptions options = new FindReplaceOptions();
 
 ## ขั้นตอนที่ 4: ดำเนินการเปลี่ยน Regex
 
- ตอนนี้มาถึงส่วนสนุกแล้ว! เราจะใช้`Range.Replace` วิธีการแทนที่การเกิดขึ้นทั้งหมดของคำว่า "เศร้า" หรือ "โกรธ" ด้วยคำว่า "แย่" โดยใช้นิพจน์ทั่วไป
+ตอนนี้มาถึงส่วนสนุกแล้ว! เราจะใช้ `Range.Replace` วิธีการแทนที่การเกิดขึ้นทั้งหมดของคำว่า "เศร้า" หรือ "โกรธ" ด้วยคำว่า "แย่" โดยใช้นิพจน์ทั่วไป
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- รูปแบบ regex`[s|m]ad` ตรงกับคำที่ลงท้ายด้วย "ad" ที่ขึ้นต้นด้วย "s" หรือ "m" สตริงที่ใช้แทนคือ "bad" จะแทนที่คำที่ตรงกันทั้งหมดที่พบ
+รูปแบบ regex `[s|m]ad` ตรงกับคำที่ลงท้ายด้วย "ad" ที่ขึ้นต้นด้วย "s" หรือ "m" สตริงที่ใช้แทนคือ "bad" ซึ่งจะแทนที่คำที่ตรงกันทั้งหมดที่พบ
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่แก้ไข
 
@@ -87,7 +89,7 @@ doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- บรรทัดนี้จะบันทึกเอกสารด้วยชื่อไฟล์`FindAndReplace.ReplaceWithRegex.docx` ในไดเรกทอรีที่ระบุโดย`dataDir`.
+บรรทัดนี้จะบันทึกเอกสารด้วยชื่อไฟล์ `FindAndReplace.ReplaceWithRegex.docx` ในไดเรกทอรีที่ระบุโดย `dataDir`-
 
 ## บทสรุป
 
@@ -99,7 +101,7 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 แน่นอน! Aspose.Words รองรับรูปแบบ regex มากมาย คุณสามารถปรับแต่งรูปแบบให้ตรงกับความต้องการของคุณได้
 
 ### Aspose.Words สำหรับ .NET รองรับการดำเนินการข้อความอื่น ๆ หรือไม่  
-ใช่แล้ว Aspose.Words สำหรับ .NET นำเสนอชุดคุณลักษณะอันหลากหลายสำหรับการจัดการเอกสาร Word รวมถึงการแยกข้อความ การจัดรูปแบบ และอื่นๆ อีกมากมาย
+ใช่ Aspose.Words สำหรับ .NET นำเสนอชุดคุณลักษณะอันหลากหลายสำหรับการจัดการเอกสาร Word รวมถึงการแยกข้อความ การจัดรูปแบบ และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถแทนที่ข้อความในส่วนที่เจาะจงของเอกสารได้หรือไม่  
 ใช่ คุณสามารถทำได้ คุณสามารถใช้วิธีการต่างๆ เพื่อกำหนดเป้าหมายเฉพาะส่วน ย่อหน้า หรือแม้แต่ส่วนหัวและส่วนท้ายในเอกสารของคุณได้
@@ -109,9 +111,14 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ในแอพพลิเคชันเว็บได้หรือไม่  
 ใช่ Aspose.Words สำหรับ .NET มีความหลากหลายและสามารถใช้ในแอปพลิเคชันประเภทต่างๆ รวมถึงเว็บ เดสก์ท็อป และแอปพลิเคชันบนคลาวด์
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

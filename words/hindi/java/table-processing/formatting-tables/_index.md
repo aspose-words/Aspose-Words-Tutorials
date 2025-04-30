@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों में तालिकाओं का प्रारूपण
-linktitle: दस्तावेज़ों में तालिकाओं का प्रारूपण
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों में तालिकाओं को फ़ॉर्मेट करने की कला में महारत हासिल करें। सटीक तालिका फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरणों का अन्वेषण करें।
-weight: 13
-url: /hi/java/table-processing/formatting-tables/
+"description": "Aspose.Words for Java का उपयोग करके दस्तावेज़ों में तालिकाओं को फ़ॉर्मेट करने की कला में महारत हासिल करें। सटीक तालिका फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरणों का अन्वेषण करें।"
+"linktitle": "दस्तावेज़ों में तालिकाओं का प्रारूपण"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों में तालिकाओं का प्रारूपण"
+"url": "/hi/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों में तालिकाओं का प्रारूपण
@@ -22,10 +24,10 @@ url: /hi/java/table-processing/formatting-tables/
 कोडिंग शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  जावा लाइब्रेरी के लिए Aspose.Words.[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/java/).
+- जावा लाइब्रेरी के लिए Aspose.Words. [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/java/).
 - जावा प्रोग्रामिंग की बुनियादी समझ.
 - एक IDE जैसे IntelliJ IDEA, Eclipse, या कोई अन्य जिससे आप सहज हों।
--  ए[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose.Words की पूर्ण क्षमताओं को अनलॉक करने के लिए.
+- ए [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose.Words की पूर्ण क्षमताओं को अनलॉक करने के लिए.
 
 ## पैकेज आयात करें
 
@@ -39,9 +41,9 @@ import com.aspose.words.*;
 
 ## चरण 1: दस्तावेज़ और तालिका बनाएँ
 
-आपको सबसे पहले क्या चाहिए? काम करने के लिए एक दस्तावेज़!
+सबसे पहले आपको क्या चाहिए? काम करने के लिए एक दस्तावेज़!
 
-एक नया वर्ड दस्तावेज़ और एक तालिका बनाकर शुरू करें। तालिका को दस्तावेज़ के मुख्य भाग में जोड़ें।
+एक नया वर्ड डॉक्यूमेंट और एक टेबल बनाकर शुरू करें। टेबल को डॉक्यूमेंट के मुख्य भाग में जोड़ें।
 
 ```java
 Document doc = new Document();
@@ -49,7 +51,7 @@ Table table = new Table(doc);
 doc.getFirstSection().getBody().appendChild(table);
 ```
 
-- `Document`: वर्ड दस्तावेज़ को दर्शाता है.
+- `Document`: वर्ड दस्तावेज़ का प्रतिनिधित्व करता है.
 - `Table`: एक रिक्त तालिका बनाता है.
 - `appendChild`: दस्तावेज़ के मुख्य भाग में तालिका जोड़ता है.
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`तालिका में एक पंक्ति का प्रतिनिधित्व करता है.
+- `Row`: तालिका में एक पंक्ति का प्रतिनिधित्व करता है.
 - `Cell`: पंक्ति में एक सेल का प्रतिनिधित्व करता है.
 - `appendChild`: तालिका में पंक्तियाँ और कक्ष जोड़ता है.
 
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`: दस्तावेज़ निर्माण को सरल बनाता है.
 - `setHorizontalMerge`: कोशिकाओं को क्षैतिज रूप से विलीन करता है.
-- `write`: मर्ज किए गए कक्षों में सामग्री जोड़ता है.
+- `write`मर्ज किए गए कक्षों में सामग्री जोड़ता है.
 
 ## चरण 5: नेस्टेड टेबल्स जोड़ें
 
@@ -134,7 +136,7 @@ builder.endTable();
 ```java
 builder.moveTo(table.getRows().get(0).getCells().get(0).getFirstParagraph());
 
-// एक हाइपरलिंक डालें और उसे कस्टम फ़ॉर्मेटिंग के साथ ज़ोर दें।
+// एक हाइपरलिंक डालें और उसे कस्टम फ़ॉर्मेटिंग के साथ ज़ोर दें.
 // हाइपरलिंक एक क्लिक करने योग्य पाठ होगा जो हमें URL में निर्दिष्ट स्थान पर ले जाएगा।
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", गलत);
 ```
 
 ### क्या मैं Java के लिए Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?  
- आप इसे सीमाओं के साथ उपयोग कर सकते हैं या प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसकी पूर्ण क्षमता का पता लगाने के लिए।
+आप इसे सीमाओं के साथ उपयोग कर सकते हैं या प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) इसकी पूर्ण क्षमता का पता लगाने के लिए।
 
 ### मैं किसी तालिका में कोशिकाओं को लंबवत रूप से कैसे मर्ज करूं?  
- उपयोग`setVerticalMerge` की विधि`CellFormat` वर्ग, क्षैतिज विलय के समान।
+उपयोग `setVerticalMerge` की विधि `CellFormat` वर्ग, क्षैतिज विलय के समान।
 
 ### क्या मैं किसी तालिका सेल में छवियाँ जोड़ सकता हूँ?  
- हां, आप इसका उपयोग कर सकते हैं`DocumentBuilder` तालिका कक्षों में छवियाँ सम्मिलित करने के लिए.
+हां, आप इसका उपयोग कर सकते हैं `DocumentBuilder` तालिका कक्षों में छवियाँ सम्मिलित करने के लिए.
 
 ### मैं Java के लिए Aspose.Words पर अधिक संसाधन कहां पा सकता हूं?  
- जाँचें[प्रलेखन](https://reference.aspose.com/words/java/) या[सहयता मंच](https://forum.aspose.com/c/words/8/) विस्तृत मार्गदर्शन के लिए.
+जाँचें [प्रलेखन](https://reference.aspose.com/words/java/) या [सहयता मंच](https://forum.aspose.com/c/words/8/) विस्तृत मार्गदर्शन के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

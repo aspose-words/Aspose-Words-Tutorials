@@ -1,14 +1,16 @@
 ---
-title: Wykryj podpis cyfrowy w dokumencie Word
-linktitle: Wykryj podpis cyfrowy w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wykrywać podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-fileformat/detect-document-signatures/
+"description": "Dowiedz się, jak wykrywać podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Wykryj podpis cyfrowy w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wykryj podpis cyfrowy w dokumencie Word"
+"url": "/pl/net/programming-with-fileformat/detect-document-signatures/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykryj podpis cyfrowy w dokumencie Word
@@ -21,7 +23,7 @@ Zapewnienie integralności i autentyczności dokumentów Word jest kluczowe, szc
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET, np. Visual Studio.
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci płynnie nadążać za programem.
 
@@ -41,7 +43,7 @@ Zanim zaczniemy wykrywać podpisy cyfrowe, musimy skonfigurować nasz projekt.
 
 ### 1.1 Utwórz nowy projekt
 
- Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli (.NET Core). Nadaj mu nazwę`DigitalSignatureDetector`.
+Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli (.NET Core). Nadaj mu nazwę `DigitalSignatureDetector`.
 
 ### 1.2 Zainstaluj Aspose.Words dla .NET
 
@@ -60,7 +62,7 @@ Teraz musimy określić ścieżkę do katalogu, w którym przechowywany jest Tw�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 3: Wykryj format pliku
 
@@ -70,7 +72,7 @@ Następnie musimy wykryć format pliku dokumentu, aby upewnić się, że jest to
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Digitally signed.docx");
 ```
 
- Ta linia kodu sprawdza format pliku dokumentu o nazwie`Digitally signed.docx`.
+Ta linia kodu sprawdza format pliku dokumentu o nazwie `Digitally signed.docx`.
 
 ## Krok 4: Sprawdź podpisy cyfrowe
 
@@ -97,23 +99,28 @@ Nie, Aspose.Words dla .NET nie zachowuje podpisów cyfrowych podczas otwierania 
 
 ### Czy istnieje sposób na wykrycie wielu podpisów cyfrowych w dokumencie?
 
- Tak,`HasDigitalSignature` Właściwość może wskazywać na obecność jednego lub większej liczby podpisów cyfrowych w dokumencie.
+Tak, `HasDigitalSignature` Właściwość może wskazywać na obecność jednego lub większej liczby podpisów cyfrowych w dokumencie.
 
 ### Jak mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Darmową wersję próbną możesz pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Pełną dokumentację można znaleźć pod adresem[Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć pod adresem [Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
 
 ### Czy mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
 
- Tak, możesz uzyskać wsparcie od[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+Tak, możesz uzyskać wsparcie od [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

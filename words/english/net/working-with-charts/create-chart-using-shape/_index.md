@@ -6,8 +6,11 @@ description: Learn how to create a line chart in a Word document using Aspose.Wo
 keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
 url: /net/working-with-charts/create-chart-using-shape/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Line Chart in Word using Aspose.Words  
@@ -15,9 +18,12 @@ url: /net/working-with-charts/create-chart-using-shape/
 Aspose.Words for .NET empowers developers to create visually appealing and professional documents with ease. This tutorial walks you through creating a line chart in a Word document step by step using Aspose.Words for .NET. Whether you're building reports, dashboards, or presentations, the ability to embed dynamic charts enhances your documents' impact. Follow the simple code example provided to get started, complete with detailed explanations, images, and tips to ensure seamless integration into your project.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
@@ -38,8 +44,12 @@ Aspose.Words for .NET empowers developers to create visually appealing and profe
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

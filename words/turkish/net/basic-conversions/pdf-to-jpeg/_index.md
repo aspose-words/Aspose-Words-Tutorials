@@ -1,14 +1,16 @@
 ---
-title: PDF'yi Jpeg olarak kaydet
-linktitle: PDF'yi Jpeg olarak kaydet
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak PDF'leri zahmetsizce JPEG'lere dönüştürün. Örnekler ve SSS içeren ayrıntılı kılavuzumuzu takip edin. Geliştiriciler ve meraklılar için mükemmel.
-weight: 10
-url: /tr/net/basic-conversions/pdf-to-jpeg/
+"description": "Aspose.Words for .NET kullanarak PDF'leri zahmetsizce JPEG'lere dönüştürün. Örnekler ve SSS içeren ayrıntılı kılavuzumuzu takip edin. Geliştiriciler ve meraklılar için mükemmel."
+"linktitle": "PDF'yi Jpeg olarak kaydet"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "PDF'yi Jpeg olarak kaydet"
+"url": "/tr/net/basic-conversions/pdf-to-jpeg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF'yi Jpeg olarak kaydet
@@ -21,10 +23,10 @@ Hiç kendinizi bir PDF dosyasını JPEG resmine dönüştürmeniz gereken bir du
 
 Esas konuya girmeden önce, tüm işlerin yolunda olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 
-1. Aspose.Words for .NET: Bu güçlü kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bu güçlü kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Makinenizde .NET ortamının kurulu olduğundan emin olun.
 3. Visual Studio: Herhangi bir sürüm işinizi görecektir, yeter ki içinde rahatça gezinebilin.
-4.  Bir PDF dosyası: PDF dosyanızı dönüştürülmeye hazır hale getirin. Bu eğitim için, şu adlı bir dosya kullanacağız:`Pdf Document.pdf`.
+4. Bir PDF dosyası: PDF dosyanızı dönüştürülmeye hazır hale getirin. Bu eğitim için, şu adlı bir dosya kullanacağız: `Pdf Document.pdf`.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -42,7 +44,7 @@ Tamam, eğlenceli kısma geçelim! Süreci takip etmesi kolay adımlara bölece�
 Koda dalmadan önce projenizi kurmanız gerekir. İşte nasıl:
 
 1. Visual Studio'yu açın: Visual Studio'yu başlatarak ve yeni bir C# projesi oluşturarak başlayın.
-2.  Aspose.Words'ü yükleyin: .NET için Aspose.Words'ü yüklemek için NuGet Paket Yöneticisini kullanın. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/words/net/).
+2. Aspose.Words'ü yükleyin: .NET için Aspose.Words'ü yüklemek için NuGet Paket Yöneticisini kullanın. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/words/net/).
 
 ```shell
 Install-Package Aspose.Words
@@ -60,7 +62,7 @@ Artık projemiz hazır olduğuna göre, PDF belgesini yükleyelim. Aspose.Words'
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  PDF'yi yükleyin: Şunu kullanın:`Document` PDF'nizi yüklemek için Aspose.Words'den sınıfa gidin.
+2. PDF'yi yükleyin: Şunu kullanın: `Document` PDF'nizi yüklemek için Aspose.Words'den sınıfa gidin.
 
     ```csharp
     Document doc = new Document(dataDir + "Pdf Document.pdf");
@@ -70,7 +72,7 @@ Artık projemiz hazır olduğuna göre, PDF belgesini yükleyelim. Aspose.Words'
 
 PDF'imiz yüklendiğinde, dönüştürmeyi gerçekleştirme zamanı geldi. Bu adım şaşırtıcı derecede basittir.
 
-1.  JPEG olarak kaydet: Şunu kullanın:`Save` PDF'yi JPEG görüntüsüne dönüştürme yöntemi.
+1. JPEG olarak kaydet: Şunu kullanın: `Save` PDF'yi JPEG görüntüsüne dönüştürme yöntemi.
 
     ```csharp
     doc.Save(dataDir + "BaseConversions.PdfToJpeg.jpeg");
@@ -88,20 +90,25 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak bir PDF'i JPEG'e dönü
 Kesinlikle! Bir PDF dizininde dolaşıp her birini JPEG'e dönüştürebilirsiniz.
 
 ### Aspose.Words diğer resim formatlarını destekliyor mu?
-Evet, öyle! PDF'lerinizi PNG, BMP ve daha fazlasına kaydedebilirsiniz.
+Evet, öyle! PDF'lerinizi PNG, BMP ve daha fazlası olarak kaydedebilirsiniz.
 
 ### Aspose.Words .NET Core ile uyumlu mu?
 Gerçekten de öyle. Aspose.Words hem .NET Framework'ü hem de .NET Core'u destekler.
 
 ### Aspose.Words'ü kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/) veya bir lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words hakkında daha fazla öğreticiyi nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Çok sayıda öğretici ve kılavuz için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Çok sayıda öğretici ve kılavuz için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

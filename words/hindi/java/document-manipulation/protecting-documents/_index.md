@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में दस्तावेज़ों की सुरक्षा करना
-linktitle: दस्तावेजों की सुरक्षा
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जानें कि Aspose.Words for Java के साथ अपने Java Word दस्तावेज़ों को कैसे सुरक्षित करें। पासवर्ड और अन्य सुविधाओं से अपने डेटा को सुरक्षित रखें।
-weight: 22
-url: /hi/java/document-manipulation/protecting-documents/
+"description": "जानें कि Aspose.Words for Java के साथ अपने Java Word दस्तावेज़ों को कैसे सुरक्षित करें। पासवर्ड और अन्य सुविधाओं से अपने डेटा को सुरक्षित रखें।"
+"linktitle": "दस्तावेजों की सुरक्षा"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में दस्तावेज़ों की सुरक्षा करना"
+"url": "/hi/java/document-manipulation/protecting-documents/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में दस्तावेज़ों की सुरक्षा करना
@@ -38,18 +40,18 @@ Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
-`unprotect` यह विधि दस्तावेज़ पर लागू किसी भी सुरक्षा को हटा देती है, जिससे इसे पासवर्ड के बिना भी उपयोग किया जा सकता है।
+The `unprotect` यह विधि दस्तावेज़ पर लागू किसी भी सुरक्षा को हटा देती है, जिससे इसे पासवर्ड के बिना भी उपयोग किया जा सकता है।
 
 ## दस्तावेज़ सुरक्षा प्रकार की जाँच करना
 
-आप प्रोग्रामेटिक रूप से किसी दस्तावेज़ पर लागू सुरक्षा प्रकार का निर्धारण करना चाह सकते हैं:
+आप प्रोग्रामेटिक रूप से किसी दस्तावेज़ पर लागू सुरक्षा प्रकार निर्धारित करना चाह सकते हैं:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
-`getProtectionType` विधि दस्तावेज़ पर लागू सुरक्षा प्रकार का प्रतिनिधित्व करने वाला एक पूर्णांक लौटाती है।
+The `getProtectionType` विधि दस्तावेज़ पर लागू सुरक्षा प्रकार का प्रतिनिधित्व करने वाला एक पूर्णांक लौटाती है।
 
 
 ## निष्कर्ष
@@ -60,11 +62,11 @@ int protectionType = doc.getProtectionType();
 
 ### मैं बिना पासवर्ड के दस्तावेज़ को कैसे सुरक्षित रख सकता हूँ?
 
- यदि आप किसी दस्तावेज़ को पासवर्ड के बिना सुरक्षित करना चाहते हैं, तो आप अन्य सुरक्षा प्रकारों का उपयोग कर सकते हैं, जैसे`ProtectionType.NO_PROTECTION` या`ProtectionType.READ_ONLY`.
+यदि आप किसी दस्तावेज़ को पासवर्ड के बिना सुरक्षित करना चाहते हैं, तो आप अन्य सुरक्षा प्रकारों का उपयोग कर सकते हैं, जैसे `ProtectionType.NO_PROTECTION` या `ProtectionType.READ_ONLY`.
 
 ### क्या मैं किसी संरक्षित दस्तावेज़ का पासवर्ड बदल सकता हूँ?
 
-हां, आप इसका उपयोग करके किसी संरक्षित दस्तावेज़ का पासवर्ड बदल सकते हैं.`protect` नये पासवर्ड के साथ विधि का प्रयोग करें।
+हां, आप इसका उपयोग करके किसी संरक्षित दस्तावेज़ का पासवर्ड बदल सकते हैं. `protect` नये पासवर्ड के साथ विधि का प्रयोग करें।
 
 ### यदि मैं किसी संरक्षित दस्तावेज़ का पासवर्ड भूल जाऊं तो क्या होगा?
 
@@ -77,9 +79,14 @@ int protectionType = doc.getProtectionType();
 ### क्या पीडीएफ या एचटीएमएल जैसे अन्य प्रारूपों में दस्तावेजों को सुरक्षित करना संभव है?
 
 Aspose.Words for Java मुख्य रूप से Word दस्तावेज़ों से संबंधित है, लेकिन आप अपने दस्तावेज़ों को PDF या HTML जैसे अन्य प्रारूपों में परिवर्तित कर सकते हैं और फिर आवश्यकता पड़ने पर सुरक्षा लागू कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

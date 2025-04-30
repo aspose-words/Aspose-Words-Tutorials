@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -263,9 +266,13 @@ Ready to create sophisticated documents? Start by integrating Aspose.Words into 
    - It's an implementation of `IMailMergeDataSource` allowing you to use custom Java objects for mail merges in Aspose.Words.
 2. **How do I handle nested data structures in mail merges?**
    - Use the `getChildDataSource` method in your data source classes to manage hierarchical relationships effectively.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

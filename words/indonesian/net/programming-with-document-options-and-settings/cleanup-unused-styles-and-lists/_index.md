@@ -1,14 +1,16 @@
 ---
-title: Bersihkan Gaya dan Daftar yang Tidak Digunakan
-linktitle: Bersihkan Gaya dan Daftar yang Tidak Digunakan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Bersihkan dokumen Word Anda dengan Aspose.Words untuk .NET dengan menghapus gaya dan daftar yang tidak digunakan. Ikuti panduan langkah demi langkah ini untuk menyederhanakan dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/
+"description": "Bersihkan dokumen Word Anda dengan Aspose.Words untuk .NET dengan menghapus gaya dan daftar yang tidak digunakan. Ikuti panduan langkah demi langkah ini untuk menyederhanakan dokumen Anda dengan mudah."
+"linktitle": "Bersihkan Gaya dan Daftar yang Tidak Digunakan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bersihkan Gaya dan Daftar yang Tidak Digunakan"
+"url": "/id/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bersihkan Gaya dan Daftar yang Tidak Digunakan
@@ -22,8 +24,8 @@ Hai! Pernahkah Anda merasa dokumen Word Anda agak berantakan? Tahukah Anda, gaya
 Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa singkatnya:
 
 - Pengetahuan Dasar C#: Anda harus merasa nyaman dengan pemrograman C#.
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka ini. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
-- Lingkungan Pengembangan: IDE apa pun yang kompatibel dengan C# seperti Visual Studio.
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka ini. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
+- Lingkungan Pengembangan: Setiap IDE yang kompatibel dengan C# seperti Visual Studio.
 - Contoh Dokumen: Dokumen Word dengan beberapa gaya dan daftar yang tidak digunakan untuk dibersihkan.
 
 ## Mengimpor Ruang Nama
@@ -96,20 +98,25 @@ Nah, itu dia! Anda telah berhasil membersihkan dokumen Word Anda dengan menghapu
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram menggunakan C#.
 
 ### Bisakah saya menghapus gaya dan daftar yang tidak digunakan secara bersamaan?
-Ya, Anda dapat mengatur keduanya`UnusedLists` Dan`UnusedStyles` ke`true` di dalam`CleanupOptions` untuk menghapus keduanya.
+Ya, Anda dapat mengatur keduanya `UnusedLists` Dan `UnusedStyles` ke `true` di dalam `CleanupOptions` untuk menghapus keduanya.
 
 ### Apakah mungkin untuk membatalkan pembersihan?
 Tidak, setelah pembersihan selesai dan dokumen disimpan, Anda tidak dapat membatalkan perubahan. Selalu simpan cadangan dokumen asli Anda.
 
 ### Apakah saya memerlukan lisensi untuk Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license) atau[beli satu](https://purchase.aspose.com/buy).
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/tempatauary-license) or [beli satu](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan informasi dan dukungan lebih lanjut?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/) dan mendapatkan dukungan dari[Forum Aspose](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/) dan mendapatkan dukungan dari [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

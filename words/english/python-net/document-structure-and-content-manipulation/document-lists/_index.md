@@ -7,8 +7,11 @@ weight: 18
 url: /python-net/document-structure-and-content-manipulation/document-lists/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating and Managing Lists in Word Documents
@@ -130,9 +133,13 @@ Yes, Aspose.Words Python provides methods to parse and format plain text into li
 ### How can I save my document after creating lists?
 You can save your document using the `doc.save()` method and specifying the desired output format, such as DOCX or PDF.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

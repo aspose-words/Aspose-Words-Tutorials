@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-text-input-form-field/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Text Input Form Field In Word Document
@@ -105,9 +108,13 @@ You can customize the appearance of form fields using various properties of the 
 You can find more tutorials and documentation on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

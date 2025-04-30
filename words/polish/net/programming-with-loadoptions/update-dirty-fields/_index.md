@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj brudne pola w dokumencie Word
-linktitle: Aktualizuj brudne pola w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Bezproblemowo aktualizuj pola brudne w dokumentach Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Bezproblemowo aktualizuj pola brudne w dokumentach Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Aktualizuj brudne pola w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Aktualizuj brudne pola w dokumencie Word"
+"url": "/pl/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj brudne pola w dokumencie Word
@@ -22,9 +24,9 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której masz dokument Word wype�
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Jeśli nie, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Dowolna wersja zgodna z Aspose.Words.
-3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie dodatkowym atutem.
+3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie zaletą.
 4. Przykładowy dokument Word: Dokument z niepoprawnymi polami, które wymagają aktualizacji.
 
 ## Importuj przestrzenie nazw
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 
 ## Wniosek
 
-masz to! Właśnie zautomatyzowałeś proces aktualizacji brudnych pól w dokumencie Word za pomocą Aspose.Words dla .NET. Koniec z ręcznymi aktualizacjami, koniec z bólem głowy. Dzięki tym prostym krokom możesz zaoszczędzić czas i zapewnić dokładność swoich dokumentów. Gotowy, aby spróbować?
+I masz to! Właśnie zautomatyzowałeś proces aktualizacji brudnych pól w dokumencie Word za pomocą Aspose.Words dla .NET. Koniec z ręcznymi aktualizacjami, koniec z bólem głowy. Dzięki tym prostym krokom możesz zaoszczędzić czas i zapewnić dokładność swoich dokumentów. Gotowy, aby spróbować?
 
 ## Najczęściej zadawane pytania
 
@@ -98,11 +100,16 @@ Tak, Aspose.Words zapewnia elastyczność w aktualizowaniu określonych pól, al
 Tak, Aspose.Words to potężna biblioteka, która upraszcza proces programistycznego manipulowania dokumentami Word.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe wskazówki i przykłady.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe wskazówki i przykłady.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

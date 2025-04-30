@@ -1,14 +1,16 @@
 ---
-title: फील्ड अपडेट संस्कृति
-linktitle: फील्ड अपडेट संस्कृति
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड अपडेट कल्चर को कॉन्फ़िगर करना सीखें। सटीक अपडेट के लिए कोड उदाहरणों और युक्तियों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/working-with-fields/field-update-culture/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ील्ड अपडेट कल्चर को कॉन्फ़िगर करना सीखें। सटीक अपडेट के लिए कोड उदाहरणों और युक्तियों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "फील्ड अपडेट संस्कृति"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फील्ड अपडेट संस्कृति"
+"url": "/hi/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फील्ड अपडेट संस्कृति
@@ -21,15 +23,15 @@ url: /hi/net/working-with-fields/field-update-culture/
 
 इससे पहले कि हम फील्ड अपडेट संस्कृति की बारीकियों में उतरें, कुछ चीजें हैं जिन्हें आपको शुरू करने की आवश्यकता होगी:
 
-1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 
 2. विज़ुअल स्टूडियो: यह ट्यूटोरियल मानता है कि आप विज़ुअल स्टूडियो या किसी ऐसे समान IDE का उपयोग कर रहे हैं जो .NET विकास का समर्थन करता है।
 
 3. C# का बुनियादी ज्ञान: आपको C# प्रोग्रामिंग और बुनियादी वर्ड दस्तावेज़ हेरफेर में सहज होना चाहिए।
 
-4.  Aspose लाइसेंस: पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस की आवश्यकता हो सकती है। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+4. Aspose लाइसेंस: पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस की आवश्यकता हो सकती है। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
-5.  दस्तावेज़ और सहायता तक पहुंच: किसी भी अतिरिक्त सहायता के लिए,[Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और[सहयता मंच](https://forum.aspose.com/c/words/8) महान संसाधन हैं.
+5. दस्तावेज़ और सहायता तक पहुंच: किसी भी अतिरिक्त सहायता के लिए, [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और [सहयता मंच](https://forum.aspose.com/c/words/8) महान संसाधन हैं.
 
 ## नामस्थान आयात करें
 
@@ -44,7 +46,7 @@ using Aspose.Words.Fields;
 
 ## चरण 1: अपना दस्तावेज़ और दस्तावेज़बिल्डर सेट करें
 
- सबसे पहले, आपको एक नया दस्तावेज़ बनाना होगा और`DocumentBuilder` वस्तु.`DocumentBuilder` एक उपयोगी क्लास है जो आपको आसानी से वर्ड दस्तावेज़ बनाने और संशोधित करने की अनुमति देता है।
+सबसे पहले, आपको एक नया दस्तावेज़ बनाना होगा और `DocumentBuilder` वस्तु. `DocumentBuilder` एक उपयोगी क्लास है जो आपको आसानी से वर्ड दस्तावेज़ बनाने और संशोधित करने की अनुमति देता है।
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- इस चरण में, आप वह निर्देशिका निर्दिष्ट करते हैं जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं।`Document` क्लास एक नया वर्ड दस्तावेज़ आरंभ करता है, और`DocumentBuilder` क्लास आपको सामग्री सम्मिलित करने और प्रारूपित करने में मदद करता है।
+इस चरण में, आप वह निर्देशिका निर्दिष्ट करते हैं जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। `Document` क्लास एक नया वर्ड दस्तावेज़ आरंभ करता है, और `DocumentBuilder` क्लास आपको सामग्री सम्मिलित करने और प्रारूपित करने में मदद करता है।
 
 ## चरण 2: समय फ़ील्ड डालें
 
@@ -66,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- यहाँ,`FieldType.FieldTime` यह निर्दिष्ट करता है कि आप समय फ़ील्ड सम्मिलित करना चाहते हैं। दूसरा पैरामीटर,`true`, यह इंगित करता है कि फ़ील्ड को स्वचालित रूप से अपडेट किया जाना चाहिए.
+यहाँ, `FieldType.FieldTime` यह निर्दिष्ट करता है कि आप समय फ़ील्ड सम्मिलित करना चाहते हैं। दूसरा पैरामीटर, `true`, यह इंगित करता है कि फ़ील्ड को स्वचालित रूप से अपडेट किया जाना चाहिए.
 
 ## चरण 3: फ़ील्ड अपडेट कल्चर कॉन्फ़िगर करें
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 अब हमें कस्टम कल्चर प्रदाता को क्रियान्वित करने की आवश्यकता है, जो यह नियंत्रित करेगा कि फ़ील्ड को अद्यतन करते समय दिनांक प्रारूप जैसी कल्चर सेटिंग्स कैसे लागू की जाएँ।
 
-हम एक क्लास बनाएंगे जिसका नाम होगा`FieldUpdateCultureProvider` जो लागू करता है`IFieldUpdateCultureProvider` इंटरफ़ेस। यह वर्ग क्षेत्र के आधार पर विभिन्न संस्कृति प्रारूप लौटाएगा। इस उदाहरण के लिए, हम रूसी और अमेरिकी संस्कृति सेटिंग्स कॉन्फ़िगर करेंगे।
+हम एक क्लास बनाएंगे जिसका नाम होगा `FieldUpdateCultureProvider` जो लागू करता है `IFieldUpdateCultureProvider` इंटरफ़ेस। यह वर्ग क्षेत्र के आधार पर विभिन्न संस्कृति प्रारूप लौटाएगा। इस उदाहरण के लिए, हम रूसी और अमेरिकी संस्कृति सेटिंग्स कॉन्फ़िगर करेंगे।
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -135,7 +137,7 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` उस पथ के साथ जहाँ आप फ़ाइल को सहेजना चाहते हैं। दस्तावेज़ को नाम के साथ PDF के रूप में सहेजा जाएगा`UpdateCultureChamps.pdf`.
+प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` उस पथ के साथ जहाँ आप फ़ाइल को सहेजना चाहते हैं। दस्तावेज़ को नाम के साथ PDF के रूप में सहेजा जाएगा `UpdateCultureChamps.pdf`.
 
 ## निष्कर्ष
 
@@ -153,18 +155,23 @@ Word दस्तावेज़ों में फ़ील्ड अपडे
 
 ### क्या मुझे Aspose.Words में फ़ील्ड अपडेट कल्चर सुविधाओं का उपयोग करने के लिए किसी विशिष्ट लाइसेंस की आवश्यकता है?
 
- पूर्ण कार्यक्षमता के लिए, आपको एक वैध Aspose लाइसेंस की आवश्यकता हो सकती है। आप इसे यहाँ से प्राप्त कर सकते हैं[Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस का उपयोग करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+पूर्ण कार्यक्षमता के लिए, आपको एक वैध Aspose लाइसेंस की आवश्यकता हो सकती है। आप इसे यहाँ से प्राप्त कर सकते हैं [Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस का उपयोग करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं फील्ड अपडेट संस्कृति को और अधिक कैसे अनुकूलित कर सकता हूं?
 
- आप विस्तार कर सकते हैं`FieldUpdateCultureProvider` अपनी विशिष्ट आवश्यकताओं के अनुरूप कस्टम संस्कृति प्रदाता बनाने के लिए क्लास का उपयोग करें।
+आप विस्तार कर सकते हैं `FieldUpdateCultureProvider` अपनी विशिष्ट आवश्यकताओं के अनुरूप कस्टम संस्कृति प्रदाता बनाने के लिए क्लास का उपयोग करें।
 
 ### यदि मुझे कोई समस्या आती है तो मैं अधिक जानकारी कहां से प्राप्त कर सकता हूं या सहायता कहां से प्राप्त कर सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और समर्थन के लिए, यहां जाएं[Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और यह[Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+विस्तृत दस्तावेज़ीकरण और समर्थन के लिए, यहां जाएं [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और यह [Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml
-linktitle: Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách liên kết động dữ liệu XML với thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/
+"description": "Tìm hiểu cách liên kết dữ liệu XML động với thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi."
+"linktitle": "Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml"
+"url": "/vi/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml
@@ -21,7 +23,7 @@ Bạn đã bao giờ muốn chèn dữ liệu XML động vào một tài liệu
 
 Trước khi bắt đầu phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ C#.
 3. Kiến thức cơ bản về C#: Phải quen thuộc với lập trình C#.
 4. Tài liệu Word: Một mẫu tài liệu Word để làm việc.
@@ -42,7 +44,7 @@ using System.Text;
 Mọi dự án đều cần một nền tảng, đúng không? Ở đây, chúng tôi thiết lập đường dẫn đến thư mục tài liệu của bạn.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -91,7 +93,7 @@ StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart
 
 Bây giờ, đã đến lúc liên kết phần XML của chúng ta với SDT. Bằng cách thiết lập ánh xạ XML, chúng ta chỉ định phần nào của dữ liệu XML sẽ được hiển thị trong SDT.
 
- XPath trỏ đến phần tử cụ thể trong phần XML mà chúng ta muốn hiển thị. Ở đây, chúng ta trỏ đến phần tử thứ hai`<text>` phần tử trong`<root>` yếu tố.
+XPath trỏ đến phần tử cụ thể trong phần XML mà chúng ta muốn hiển thị. Ở đây, chúng ta trỏ đến phần tử thứ hai `<text>` phần tử trong `<root>` yếu tố.
 
 ```csharp
 // Đặt ánh xạ cho StructuredDocumentTag của chúng tôi
@@ -116,7 +118,7 @@ Và bạn đã có nó! Bạn đã ánh xạ thành công một phần XML vào 
 Thẻ tài liệu có cấu trúc, còn được gọi là điều khiển nội dung, là các thùng chứa cho các loại nội dung cụ thể trong tài liệu Word. Chúng có thể được sử dụng để liên kết dữ liệu, hạn chế chỉnh sửa hoặc hướng dẫn người dùng tạo tài liệu.
 
 ### Làm thế nào tôi có thể cập nhật nội dung phần XML một cách động?
- Bạn có thể cập nhật nội dung phần XML bằng cách sửa đổi`xmlPartContent` chuỗi trước khi thêm nó vào tài liệu. Chỉ cần cập nhật chuỗi với dữ liệu mới và thêm nó vào`CustomXmlParts` bộ sưu tập.
+Bạn có thể cập nhật nội dung phần XML bằng cách sửa đổi `xmlPartContent` chuỗi trước khi thêm nó vào tài liệu. Chỉ cần cập nhật chuỗi với dữ liệu mới và thêm nó vào `CustomXmlParts` bộ sưu tập.
 
 ### Tôi có thể liên kết nhiều phần XML với các SDT khác nhau trong cùng một tài liệu không?
 Có, bạn có thể liên kết nhiều phần XML với các SDT khác nhau trong cùng một tài liệu. Mỗi SDT có thể có phần XML và ánh xạ XPath riêng.
@@ -125,10 +127,15 @@ Có, bạn có thể liên kết nhiều phần XML với các SDT khác nhau tr
 Chắc chắn rồi! Bạn có thể ánh xạ các cấu trúc XML phức tạp vào SDT bằng cách sử dụng các biểu thức XPath chi tiết trỏ chính xác đến các phần tử mong muốn trong phần XML.
 
 ### Làm thế nào để xóa một phần XML khỏi tài liệu?
- Bạn có thể xóa một phần XML bằng cách gọi`Remove` phương pháp trên`CustomXmlParts` bộ sưu tập, vượt qua`xmlPartId` của phần XML mà bạn muốn xóa.
+Bạn có thể xóa một phần XML bằng cách gọi `Remove` phương pháp trên `CustomXmlParts` bộ sưu tập, vượt qua `xmlPartId` của phần XML mà bạn muốn xóa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

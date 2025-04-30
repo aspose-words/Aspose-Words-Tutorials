@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/unrestricted-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unrestricted Section In Word Document
@@ -149,9 +152,13 @@ Yes, you can protect a document without specifying a password.
 ### How can I check if a section is protected?
 You can check the `ProtectedForForms` property of a section to determine if it is protected.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

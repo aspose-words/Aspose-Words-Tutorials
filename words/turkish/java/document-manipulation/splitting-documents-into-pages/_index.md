@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Sayfalara Bölme
-linktitle: Belgeleri Sayfalara Bölme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri sayfalara nasıl böleceğinizi öğrenin. Verimli belge işleme için kaynak kodlu adım adım kılavuz.
-weight: 23
-url: /tr/java/document-manipulation/splitting-documents-into-pages/
+"description": "Java için Aspose.Words'ü kullanarak belgeleri sayfalara nasıl böleceğinizi öğrenin. Verimli belge işleme için kaynak kodlu adım adım kılavuz."
+"linktitle": "Belgeleri Sayfalara Bölme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Sayfalara Bölme"
+"url": "/tr/java/document-manipulation/splitting-documents-into-pages/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Sayfalara Bölme
@@ -24,15 +26,15 @@ Aspose.Words for Java, Word belgelerini programatik olarak düzenlemenize olanak
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  İndirebileceğiniz Aspose.Words for Java kütüphanesi[Burada](https://releases.aspose.com/words/java/).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- İndirebileceğiniz Java kütüphanesi için Aspose.Words [Burada](https://releases.aspose.com/words/java/).
 
 ## 3. Ortamınızı Ayarlama
 
 Başlamak için geliştirme ortamınızı aşağıdaki şekilde ayarlayın:
 
 - Tercih ettiğiniz Entegre Geliştirme Ortamında (IDE) bir Java projesi oluşturun.
-- Projenize Aspose.Words for Java kütüphanesini ekleyin. Şuraya başvurabilirsiniz:[belgeleme](https://reference.aspose.com/words/java/) Ayrıntılı talimatlar için.
+- Projenize Aspose.Words for Java kütüphanesini ekleyin. Şuraya başvurabilirsiniz: [belgeleme](https://reference.aspose.com/words/java/) Ayrıntılı talimatlar için.
 
 ## 4. Kaynak Kodunu Anlamak
 
@@ -56,7 +58,7 @@ Document doc = new Document(docName);
 Document doc = new Document(docName);
 ```
 
- Bu adımda, giriş belgesini bir`Document` Belgenin içeriğiyle çalışmamızı sağlayan nesne.
+Bu adımda, giriş belgesini bir `Document` Belgenin içeriğiyle çalışmamızı sağlayan nesne.
 
 ### 5.2. DocumentPageSplitter'ı Başlatma
 
@@ -64,7 +66,7 @@ Document doc = new Document(docName);
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
 
- Birini başlatıyoruz`DocumentPageSplitter` yüklenen belgemizle nesne. Bu sınıf Java için Aspose.Words tarafından sağlanır ve belgeyi sayfalara bölmemize yardımcı olur.
+Birini başlatıyoruz `DocumentPageSplitter` yüklenen belgemizle nesne. Bu sınıf Java için Aspose.Words tarafından sağlanır ve belgeyi sayfalara bölmemize yardımcı olur.
 
 ### 5.3. Her Sayfanın Kaydedilmesi
 
@@ -116,12 +118,12 @@ public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
 /// <özet>
-//Bir sayfa aralığının belgesini alır.
+/// Bir sayfa aralığının belgesini alır.
 /// </özet>
-/// <param name="başlangıçIndex">
+/// <param name="startIndex">
 /// Başlangıç sayfasının 1 tabanlı indeksi.
 /// </param>
-/// <param name="endIndex">
+//<param name="endIndex">
 /// 1-son sayfanın indeksi.
 /// </param>
 /// <geri döner>
@@ -189,7 +191,7 @@ public int getPageEnd(Node node) throws Exception {
 		: collector.getEndPageIndex(node);
 }
 /// <özet>
-//Belirtilen düğümün kaç sayfaya yayıldığını döndürür. Düğüm bir sayfada yer alıyorsa 1 döndürür.
+/// Belirtilen düğümün kaç sayfaya yayıldığını döndürür. Düğüm bir sayfada yer alıyorsa 1 döndürür.
 /// </özet>
 /// <param name="node">
 /// Düğüm.
@@ -215,7 +217,7 @@ public int pageSpan(Node node) throws Exception {
 /// <geri döner>
 /// <bkz. cref="IList{T}"/>.
 /// </döndürür>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Düğüm Türü*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -247,7 +249,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Nod
 	return pageNodes;
 }
 /// <özet>
-/// İki veya daha fazla sayfada görünen düğümleri, aynı şekilde görünmeleri için ayrı düğümlere ayırır
+/// İki veya daha fazla sayfada görünen düğümleri, aynı şekilde görünmeye devam etmeleri için ayrı düğümlere ayırır
 /// ancak artık bir sayfada görünmüyor.
 /// </özet>
 public void splitNodesAcrossPages() throws Exception
@@ -299,7 +301,7 @@ private void checkPageListsPopulated() throws Exception {
 	// Her düğümü, her sayfada bulunan düğümleri temsil eden bir listeye ekleyin.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		//Üstbilgiler/Altbilgiler bölümleri takip eder ve kendi başlarına bölünmezler.
+		// Üstbilgiler/Altbilgiler bölümleri takip eder ve kendi başlarına bölünmezler.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -464,7 +466,7 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// Klonlanmış paragraftan liste numaralandırmasını kaldırın ancak girintiyi aynı bırakın
+		// Klonlanmış paragraftan liste numaralandırmasını kaldırın ancak girintiyi aynı bırakın 
 		// çünkü paragrafın kendisinden önceki maddenin bir parçası olması gerekiyor.
 		if (paragraph.isListItem())
 		{
@@ -498,7 +500,7 @@ public int visitSectionEnd(Section section) throws Exception {
 	// Bölümün gövdesi için de yeni sayfa numaralandırması ekleyin.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return VisitorAction.CONTINUE;
+	return ZiyaretçiEylemi.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -515,7 +517,7 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
 	// Bir düğüm birden fazla sayfaya yayılabilir, bu nedenle bölünmüş konumların bir listesi döndürülür.
-	//Bölünmüş düğüm bir sonraki sayfadaki ilk düğümdür.
+	// Bölünmüş düğüm bir sonraki sayfadaki ilk düğümdür.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -677,7 +679,7 @@ Elbette! Aspose.Words for Java kullanarak belgeleri sayfalara bölmeye ilişkin 
 
 Projenize Aspose.Words for Java'yı eklemek için şu adımları izleyin:
 
-1.  Aspose.Words for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/words/java/).
+1. Java için Aspose.Words kitaplığını şu adresten indirin: [Burada](https://releases.aspose.com/words/java/).
 2. İndirdiğiniz JAR dosyasını projenizin sınıf yoluna ekleyin.
 3. Artık projenizde Aspose.Words for Java'yı kullanmaya başlayabilirsiniz.
 
@@ -687,7 +689,7 @@ Hayır, bu kılavuz özellikle Aspose.Words for Java kullanarak DOC formatındak
 
 ### Aspose.Words for Java ücretsiz bir kütüphane midir?
 
- Hayır, Aspose.Words for Java ücretsiz bir kütüphane değildir. Lisans ücreti olan ticari bir üründür. Şurayı ziyaret edebilirsiniz:[Aspose.Words for Java fiyatlandırma sayfası](https://purchase.aspose.com/words/java) Lisanslama ve fiyatlandırma ayrıntıları hakkında daha fazla bilgi için.
+Hayır, Aspose.Words for Java ücretsiz bir kütüphane değildir. Lisans ücreti olan ticari bir üründür. Şurayı ziyaret edebilirsiniz: [Aspose.Words for Java fiyatlandırma sayfası](https://purchase.aspose.com/words/java) Lisanslama ve fiyatlandırma ayrıntıları hakkında daha fazla bilgi için.
 
 ### Belgeleri özel sayfa boyutlarına ve biçimlerine bölebilir miyim?
 
@@ -700,9 +702,14 @@ Java için Aspose.Words bölebileceğiniz sayfa sayısı konusunda belirli sın�
 ### Belgeleri böldüğümde üstbilgi ve altbilgileri nasıl işleyebilirim?
 
 Belgeleri bölerken Aspose.Words for Java kütüphanesini kullanarak başlıklar ve altbilgiler işlenebilir. Başlık ve altbilgi içeriğini orijinal belgeden bölünen belgelere kopyalayabilir ve bunların doğru şekilde korunduğundan emin olabilirsiniz. Bu işlemi belirli başlık ve altbilgi gereksinimlerinize göre özelleştirmeniz gerekebilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

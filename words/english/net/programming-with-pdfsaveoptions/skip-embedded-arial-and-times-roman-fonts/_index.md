@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimize PDF Size with Skip Embedded Arial & Times Roman Fonts
@@ -92,9 +95,13 @@ Aspose.Words for .NET offers a free trial which you can download [here](https://
 ### Where can I find more tutorials on Aspose.Words for .NET?
 You can find comprehensive documentation and tutorials [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Xuất URL Cid cho Tài nguyên Mhtml
-linktitle: Xuất URL Cid cho Tài nguyên Mhtml
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xuất URL Cid cho tài nguyên MHTML bằng Aspose.Words cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 10
-url: /vi/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
+"description": "Tìm hiểu cách xuất URL Cid cho tài nguyên MHTML bằng Aspose.Words cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Xuất URL Cid cho Tài nguyên Mhtml"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất URL Cid cho Tài nguyên Mhtml"
+"url": "/vi/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất URL Cid cho Tài nguyên Mhtml
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để thành thạo nghệ thuật xuất URL Cid cho tà
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.Words for .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words for .NET. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words cho .NET. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Môi trường phát triển như Visual Studio.
 - Kiến thức cơ bản về C#: Mặc dù tôi sẽ hướng dẫn bạn từng bước, nhưng hiểu biết cơ bản về C# sẽ rất có ích.
 
@@ -52,13 +54,13 @@ Mở Visual Studio và tạo một dự án C# mới. Chọn mẫu Console App �
 ## Bước 2: Tải tài liệu Word
 
 ### Bước 2.1: Chỉ định thư mục tài liệu
-Xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi tài liệu Word của bạn nằm.
+Xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi lưu trữ tài liệu Word của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ### Bước 2.2: Tải Tài liệu
 Tải tài liệu Word của bạn vào dự án.
@@ -69,7 +71,7 @@ Document doc = new Document(dataDir + "Content-ID.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu HTML
 
- Tạo một trường hợp của`HtmlSaveOptions` để tùy chỉnh cách lưu tài liệu của bạn dưới dạng MHTML.
+Tạo một trường hợp của `HtmlSaveOptions` để tùy chỉnh cách lưu tài liệu của bạn dưới dạng MHTML.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Mhtml)
@@ -94,27 +96,32 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportCidUrlsForMhtmlResources.mh
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã xuất thành công URL Cid cho tài nguyên MHTML bằng Aspose.Words cho .NET. Hướng dẫn này hướng dẫn bạn thiết lập dự án, tải tài liệu Word, cấu hình tùy chọn lưu HTML và lưu tài liệu dưới dạng MHTML. Bây giờ bạn có thể áp dụng các bước này vào dự án của riêng mình và cải thiện các tác vụ quản lý tài liệu.
+Xin chúc mừng! Bạn đã xuất thành công URL Cid cho các tài nguyên MHTML bằng Aspose.Words cho .NET. Hướng dẫn này hướng dẫn bạn thiết lập dự án, tải tài liệu Word, cấu hình tùy chọn lưu HTML và lưu tài liệu dưới dạng MHTML. Bây giờ bạn có thể áp dụng các bước này vào các dự án của riêng mình và cải thiện các tác vụ quản lý tài liệu.
 
 ## Câu hỏi thường gặp
 
 ### Mục đích của việc xuất URL Cid cho tài nguyên MHTML là gì?
 Việc xuất URL Cid cho các tài nguyên MHTML đảm bảo rằng các tài nguyên nhúng trong tệp MHTML của bạn được tham chiếu đúng cách, cải thiện tính di động và tính toàn vẹn của tài liệu.
 
-### Tôi có thể tùy chỉnh định dạng đầu ra thêm không?
- Có, Aspose.Words cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng để lưu tài liệu. Tham khảo[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+### Tôi có thể tùy chỉnh định dạng đầu ra hơn nữa không?
+Có, Aspose.Words cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng để lưu tài liệu. Tham khảo [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, bạn cần có giấy phép để sử dụng Aspose.Words cho .NET. Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+Có, bạn cần có giấy phép để sử dụng Aspose.Words cho .NET. Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tự động hóa quy trình này cho nhiều tài liệu không?
 Chắc chắn rồi! Bạn có thể tạo một tập lệnh để tự động hóa quy trình cho nhiều tài liệu, tận dụng sức mạnh của Aspose.Words cho .NET để xử lý các hoạt động hàng loạt một cách hiệu quả.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
-Nếu bạn cần hỗ trợ, hãy truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/words/8) để được hỗ trợ từ cộng đồng và các nhà phát triển Aspose.
+Nếu bạn cần hỗ trợ, hãy truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/words/8) để được hỗ trợ từ cộng đồng và các nhà phát triển Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

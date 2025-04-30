@@ -1,25 +1,31 @@
 ---
-title: Werken met formuliervelden in Aspose.Words voor .NET
-weight: 10
-limit:
-description: Leer hoe je met formuliervelden in Aspose.Words voor .NET kunt werken. Verken functies voor het eenvoudig toevoegen, bewerken en beheren van tekstinvoer, combo box en check box velden.
-keywords:
-url: /nl/net/working-with-form-fields/
+"description": "Leer hoe u met formuliervelden werkt in Aspose.Words voor .NET. Ontdek functies voor het eenvoudig toevoegen, bewerken en beheren van tekstinvoer, keuzelijsten en selectievakjes."
+"title": "Werken met formuliervelden in Aspose.Words voor .NET"
+"url": "/nl/net/working-with-form-fields/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Inleiding
+## Invoering
 
-Het is essentieel om interactieve en invullenbare Word documenten te maken en Aspose.Words voor .NET maakt het proces naadloos en efficiënt. Of je nu een tekstinvoerveld moet toevoegen voor het verzamelen van gebruikersinformatie, een combo box voor het leveren van een dropdown selectie of een checkbox voor eenvoudige ja/nee opties, deze bibliotheek biedt uitgebreide functionaliteit. Ontwikkelaars kunnen eenvoudig formuliervelden programmaal toevoegen, bewerken en beheren, waardoor het een perfect hulpmiddel is voor het automatiseren van documentworkflows.
+Formuliervelden zijn essentieel voor het maken van interactieve en invulbare Word-documenten, en Aspose.Words voor .NET maakt het proces naadloos en efficiënt. Of u nu een tekstinvoerveld wilt toevoegen voor het verzamelen van gebruikersinformatie, een keuzelijst met invoervak voor een vervolgkeuzelijst of een selectievakje voor eenvoudige ja/nee-opties, deze bibliotheek biedt uitgebreide functionaliteit. Ontwikkelaars kunnen formuliervelden eenvoudig programmatisch toevoegen, bewerken en beheren, waardoor het een perfecte tool is voor het automatiseren van documentworkflows.
 
-Aspose.Words voor .NET ondersteunt verschillende vormveldtypen, waardoor je complexe formulieren met precisie en flexibiliteit kunt ontwerpen. Met zijn rijke API kunt u veldeigenschappen controleren, gegevens bevolken en zelfs gebruikersinvoer met minimale inspanning verwerken. Of u nu enquêtes, contracten of aangepaste sjablonen genereert, werken met vormvelden met behulp van Aspose.Words zorgt voor een professionele en gebruiksvriendelijke ervaring.
+Aspose.Words voor .NET ondersteunt verschillende formulierveldtypen, zodat u complexe formulieren nauwkeurig en flexibel kunt ontwerpen. Dankzij de uitgebreide API kunt u veldeigenschappen beheren, gegevens invullen en zelfs gebruikersinvoer verwerken met minimale inspanning. Of u nu enquêtes, contracten of aangepaste sjablonen genereert, werken met formuliervelden in Aspose.Words garandeert een professionele en gebruiksvriendelijke ervaring.
 
-{{< tutorial-card link="./insert-form-fields/" title="Voeg het formulierveld in het Word-document in" imgSrc="/words/net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-form-fields/" title="Invoegen van een keuzelijst met invoervak in een Word-document" imgSrc="./insert-form-fields/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

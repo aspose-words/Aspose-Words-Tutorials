@@ -1,46 +1,54 @@
 ---
-title: Crea un documento de Word con bordes de tabla personalizados y sombreado
-weight: 7700
-limit: 
-description: Aprende a crear un documento de Word con una tabla que incluya varios estilos de bordes y sombras utilizando Aspose.Words para .NET.
-keywords: [Aspose.Words, .NET, Word document, table borders, cell shading, document manipulation, programming example]
-url: /es/net/working-with-table-styles-and-formatting/format-table-and-cell/
+"description": "Aprenda a crear un documento de Word con una tabla con varios estilos de borde y sombreado usando Aspose.Words para .NET."
+"title": "Crear un documento de Word con bordes de tabla y sombreado personalizados"
+"url": "/es/net/working-with-table-styles-and-formatting/format-table-and-cell/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un documento de Word con bordes de tabla personalizados y sombreado
+# Crear un documento de Word con bordes de tabla y sombreado personalizados
 
-Este ejemplo muestra cómo utilizar Aspose.Words para .NET para crear un documento Word que incluye una tabla con estilos de borde y sombreado personalizados para sus celdas. Aprenderá a iniciar un documento, establecer límites de tabla, aplicar colores de fondo a celdas individuales y guardar el documento en formato DOCX.
+Este ejemplo demuestra cómo usar Aspose.Words para .NET para crear un documento de Word que incluye una tabla con bordes y sombreados personalizados para sus celdas. Aprenderá a inicializar un documento, definir bordes de tabla, aplicar colores de fondo a celdas individuales y guardar el documento en formato DOCX.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación
-1. Descarga Aspose.Words para .NET: Visite el [Aspose el sitio web](https://www.aspose.com)y descargar la última versión de Aspose.Words para .NET.
-2. Añadir Referencia: En su proyecto .NET, añadir una referencia al archivo DLL Aspose.Words.
-3. Instalar a través de NuGet: Alternativamente, puede instalar el paquete utilizando NuGet Package Manager con el siguiente comando:
+1. Descargue Aspose.Words para .NET: Visite el sitio [Sitio web de Aspose](https://www.aspose.com) y descargue la última versión de Aspose.Words para .NET.
+2. Agregar referencia: en su proyecto .NET, agregue una referencia al archivo DLL Aspose.Words.
+3. Instalar mediante NuGet: como alternativa, puede instalar el paquete utilizando el Administrador de paquetes NuGet con el siguiente comando:
    ```
    Install-Package Aspose.Words
    ```
-4. Incluya el espacio de nombres: Agrega el siguiente en tu código utilizando la directiva:
+4. Incluir espacio de nombres: agregue la siguiente directiva using en su código:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```
 
-4. Licencia de solicitud (opcional):  
-   Para usar la versión completa,[aplicar una licencia](https://purchase.aspose.com/temporary-license/)o utilizar una[prueba gratuita](https://releases.aspose.com/words/net/)¿ Qué ?
+4. Solicitar licencia (opcional):  
+   Para utilizar la versión completa, [solicitar una licencia](https://purchase.aspose.com/temporary-license/) o utilizar un [prueba gratuita](https://releases.aspose.com/words/net/).
    
-## También véase
-[Aspose.Word para Documentación .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word para las referencias .NET](https://reference.aspose.com/words/net/)
+## Ver también
+[Documentación de Aspose.Word para .NET](https://docs.aspose.com/words/net/)
+[Referencias de Aspose.Word para .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

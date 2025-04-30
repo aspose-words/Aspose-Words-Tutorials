@@ -1,14 +1,16 @@
 ---
-title: Установить папку шрифтов True Type
-linktitle: Установить папку шрифтов True Type
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать папку True Type Fonts в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы обеспечить единообразное управление шрифтами.
-weight: 10
-url: /ru/net/working-with-fonts/set-true-type-fonts-folder/
+"description": "Узнайте, как задать папку True Type Fonts в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы обеспечить единообразное управление шрифтами."
+"linktitle": "Установить папку шрифтов True Type"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить папку шрифтов True Type"
+"url": "/ru/net/working-with-fonts/set-true-type-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить папку шрифтов True Type
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/set-true-type-fonts-folder/
 
 Прежде чем перейти к деталям, давайте рассмотрим несколько предварительных условий, которые позволят вам быть уверенными в том, что вы полностью готовы к успеху:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: рабочая среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# будет полезным.
 4. Образец документа: подготовьте документ Word, с которым вы хотите работать.
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 
 ## Шаг 1: Загрузите документ
 
- Давайте начнем с загрузки вашего документа. Мы будем использовать`Document` класс из Aspose.Words для загрузки существующего документа Word.
+Давайте начнем с загрузки вашего документа. Мы будем использовать `Document` класс из Aspose.Words для загрузки существующего документа Word.
 
 ```csharp
 // Путь к каталогу ваших документов
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 2: Инициализация FontSettings
 
- Далее мы создадим экземпляр`FontSettings`класс. Этот класс позволяет нам настраивать обработку шрифтов в нашем документе.
+Далее мы создадим экземпляр `FontSettings` класс. Этот класс позволяет нам настраивать способ обработки шрифтов в нашем документе.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -88,22 +90,27 @@ doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
 ## Часто задаваемые вопросы
 
 ### Могу ли я использовать несколько папок со шрифтами?
- Да, вы можете использовать несколько папок шрифтов, объединив их`FontSettings.GetFontSources` и`FontSettings.SetFontSources`.
+Да, вы можете использовать несколько папок шрифтов, объединив их `FontSettings.GetFontSources` и `FontSettings.SetFontSources`.
 
 ### Что делать, если указанная папка со шрифтами не существует?
 Если указанная папка шрифтов не существует, Aspose.Words не сможет найти шрифты, и вместо них будут использоваться системные шрифты по умолчанию.
 
 ### Можно ли вернуться к настройкам шрифта по умолчанию?
- Да, вы можете вернуться к настройкам шрифта по умолчанию, сбросив настройки`FontSettings` пример.
+Да, вы можете вернуться к настройкам шрифта по умолчанию, сбросив настройки `FontSettings` пример.
 
 ### Можно ли встроить шрифты в документ?
 Да, Aspose.Words позволяет встраивать шрифты в документ, чтобы обеспечить единообразие на разных устройствах.
 
 ### В каких форматах я могу сохранить свой документ?
 Aspose.Words поддерживает множество форматов, включая PDF, DOCX, HTML и другие.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,46 +1,54 @@
 ---
-title: 应用边界和阴影到Aspose.Words中的段落  
-weight: 7700
-limit: 
-description: 学习如何在Word文档中将边界和阴影应用于.NET的Aspose.Words使用.
-keywords: [Aspose.Words for .NET, paragraph formatting, borders, shading, Word documents, C# tutorial, document formatting]
-url: /zh/net/document-styling/apply-border-and-shading/
+"description": "学习如何使用 Aspose.Words for .NET 为 Word 文档中的段落添加边框和阴影。包含分步指南和代码示例。"
+"title": "在 Aspose.Words for .NET 中将边框和底纹应用于段落"
+"url": "/zh/net/document-styling/apply-border-and-shading/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 适用Aspose.Words中的边界和阴影
-对于 .NET, Aspose.Words 允许开发人员编程创建丰富格式的Word文档.本例展示了如何使用Aspose.Words来将边界和阴影应用于Word文档中的段落.您将学习设置双线边界和横向横向横色阴影,以定制色彩以优雅和专业的外观.提供的C#代码摘录简化了实现过程,使其成为希望编程增强文档美学的开发人员的理想解决方案.  
+# 在 Aspose.Words 中将边框和底纹应用于段落
+Aspose.Words for .NET 使开发人员能够以编程方式创建格式丰富的 Word 文档。本示例演示如何使用 Aspose.Words 为 Word 文档中的段落添加边框和底纹。您将学习如何使用自定义颜色设置双线边框和对角交叉底纹，以获得优雅专业的外观。提供的 C# 代码片段简化了实现过程，使其成为希望以编程方式增强文档美感的开发人员的理想解决方案。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/apply-border-and-shading" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明  
 
-1. 为了 .NET,下载Aspose.Words  
-   获取最新版本[对于 .NET 下载页面的Aspose.Words](https://releases.aspose.com/words/net/)现在,我们要去.  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安装说明  
+
+1. 下载 Aspose.Words for .NET  
+   从 [Aspose.Words for .NET下载页面](https://releases。aspose.com/words/net/).  
 
 2. 通过 NuGet 安装  
-   * 在视觉工作室打开你的项目.  
-   * 进入 NuGet 包管理器 (`工具`其他` NuGet 包管理器`其他`管理NuGet包解决方案..`)  
-   * 搜索`"回答. 字"`然后点击`安装`现在,我们要去.  
+   - 在 Visual Studio 中打开您的项目。  
+   - 转到 NuGet 包管理器 (`Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution...`）。  
+   - 搜索 `Aspose.Words` 并点击 `Install`。  
 
-3. 包含名区  
-   添加必要的名称空间到您的代码中:  
+3. 包含命名空间  
+   将必要的命名空间添加到您的代码中：  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```  
 
 
-## 查看
-[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
-[标用.NET引用的Word](https://reference.aspose.com/words/net/)
+## 另请参阅
+[Aspose.Word for .NET 文档](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET 参考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wstaw separator stylu dokumentu w programie Word
-linktitle: Wstaw separator stylu dokumentu w programie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić separator stylów dokumentu w programie Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera instrukcje i wskazówki dotyczące zarządzania stylami dokumentu.
-weight: 10
-url: /pl/net/programming-with-styles-and-themes/insert-style-separator/
+"description": "Dowiedz się, jak wstawić separator stylów dokumentu w programie Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera instrukcje i wskazówki dotyczące zarządzania stylami dokumentu."
+"linktitle": "Wstaw separator stylu dokumentu w programie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw separator stylu dokumentu w programie Word"
+"url": "/pl/net/programming-with-styles-and-themes/insert-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw separator stylu dokumentu w programie Word
@@ -21,13 +23,13 @@ Podczas pracy z dokumentami Word programowo przy użyciu Aspose.Words dla .NET, 
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 
-1.  Biblioteka Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words w swoim projekcie. Jeśli jej jeszcze nie masz, możesz ją pobrać ze strony[Strona wydań Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Words w swoim projekcie. Jeśli jej jeszcze nie masz, możesz ją pobrać ze strony [Strona wydań Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
    
 2. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET, np. Visual Studio.
 
 3. Wiedza podstawowa: Przydatna będzie podstawowa znajomość języka C# i umiejętność korzystania z bibliotek w środowisku .NET.
 
-4.  Konto Aspose: Aby uzyskać pomoc, dokonać zakupu lub uzyskać bezpłatną wersję próbną, sprawdź[Strona zakupu Aspose](https://purchase.aspose.com/buy) Lub[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
+4. Konto Aspose: Aby uzyskać pomoc, dokonać zakupu lub uzyskać bezpłatną wersję próbną, sprawdź [Strona zakupu Aspose](https://purchase.aspose.com/buy) Lub [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -44,10 +46,10 @@ Te przestrzenie nazw zapewniają dostęp do klas i metod wymaganych do manipulow
 
 Nagłówek: Utwórz nowy dokument i kreator
 
- Wyjaśnienie: Zacznij od utworzenia nowego`Document` obiekt i`DocumentBuilder` instancja.`DocumentBuilder` Klasa umożliwia wstawianie i formatowanie tekstu i elementów w dokumencie.
+Wyjaśnienie: Zacznij od utworzenia nowego `Document` obiekt i `DocumentBuilder` instancja. `DocumentBuilder` Klasa umożliwia wstawianie i formatowanie tekstu i elementów w dokumencie.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 
 Document doc = new Document();
@@ -75,7 +77,7 @@ Tutaj tworzymy nowy styl akapitu o nazwie „MyParaStyle” i ustawiamy jego wł
 
 Nagłówek: Dodaj tekst w stylu „Nagłówek 1”
 
- Wyjaśnienie: Użyj`DocumentBuilder` aby wstawić tekst sformatowany w stylu „Nagłówek 1”. Ten krok pomaga w wizualnym oddzieleniu różnych sekcji dokumentu.
+Wyjaśnienie: Użyj `DocumentBuilder` aby wstawić tekst sformatowany w stylu „Nagłówek 1”. Ten krok pomaga w wizualnym oddzieleniu różnych sekcji dokumentu.
 
 ```csharp
 // Dodaj tekst w stylu „Nagłówek 1”.
@@ -83,7 +85,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("Heading 1");
 ```
 
-Tutaj ustawiamy`StyleIdentifier` Do`Heading1`, która stosuje predefiniowany styl nagłówka do tekstu, który chcemy wstawić.
+Tutaj ustawiamy `StyleIdentifier` Do `Heading1`, która stosuje predefiniowany styl nagłówka do tekstu, który chcemy wstawić.
 
 ## Krok 4: Wstaw separator stylu
 
@@ -135,7 +137,7 @@ Eksperymentuj swobodnie z różnymi stylami i separatorami, aby dopasować je do
 Separator stylów to specjalny znak, który oddziela w dokumencie programu Word treści o różnych stylach, pomagając zachować spójne formatowanie.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Możesz pobrać i zainstalować Aspose.Words dla .NET ze strony[Aspose.Words udostępnia stronę](https://releases.aspose.com/words/net/).
+Możesz pobrać i zainstalować Aspose.Words dla .NET ze strony [Aspose.Words udostępnia stronę](https://releases.aspose.com/words/net/).
 
 ### Czy mogę użyć wielu stylów w jednym akapicie?
 Nie, style są stosowane na poziomie akapitu. Użyj separatorów stylów, aby przełączać style w obrębie tego samego akapitu.
@@ -144,10 +146,15 @@ Nie, style są stosowane na poziomie akapitu. Użyj separatorów stylów, aby pr
 Upewnij się, że ścieżka do pliku jest poprawna i masz uprawnienia do zapisu w określonym katalogu. Sprawdź, czy w kodzie nie ma wyjątków lub błędów.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/words/8).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

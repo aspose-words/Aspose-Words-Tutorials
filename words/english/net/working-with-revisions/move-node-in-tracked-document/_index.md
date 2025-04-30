@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/move-node-in-tracked-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move Node In Tracked Document
@@ -136,9 +139,13 @@ Use the `StopTrackRevisions` method on the `Document` object to stop tracking re
 
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

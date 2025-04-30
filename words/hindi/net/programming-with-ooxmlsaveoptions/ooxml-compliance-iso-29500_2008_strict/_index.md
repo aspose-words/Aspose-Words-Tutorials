@@ -1,14 +1,16 @@
 ---
-title: Ooxml अनुपालन Iso 29500_2008_Strict
-linktitle: Ooxml अनुपालन Iso 29500_2008_Strict
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके OOXML अनुपालन ISO 29500_2008_Strict सुनिश्चित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके OOXML अनुपालन ISO 29500_2008_Strict सुनिश्चित करना सीखें।"
+"linktitle": "Ooxml अनुपालन Iso 29500_2008_Strict"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Ooxml अनुपालन Iso 29500_2008_Strict"
+"url": "/hi/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ooxml अनुपालन Iso 29500_2008_Strict
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_s
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि नहीं, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि नहीं, तो इसे डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: अपना विकास परिवेश सेट करें (उदाहरणार्थ, विज़ुअल स्टूडियो).
 3. दस्तावेज़ निर्देशिका: एक निर्देशिका तैयार रखें जहाँ आपके Word दस्तावेज़ संग्रहीत हों।
 
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- स्पष्टीकरण: कोड की यह पंक्ति एक स्ट्रिंग वैरिएबल सेट करती है`dataDir` जो उस निर्देशिका का पथ रखता है जहाँ आपके दस्तावेज़ संग्रहीत हैं।`"YOUR DOCUMENT DIRECTORY"` आपके सिस्टम पर वास्तविक पथ के साथ.
+स्पष्टीकरण: कोड की यह पंक्ति एक स्ट्रिंग वैरिएबल सेट करती है `dataDir` जो उस निर्देशिका का पथ रखता है जहाँ आपके दस्तावेज़ संग्रहीत हैं। `"YOUR DOCUMENT DIRECTORY"` आपके सिस्टम पर वास्तविक पथ के साथ.
 
 ## चरण 2: अपना वर्ड दस्तावेज़ लोड करें
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- स्पष्टीकरण:`Document` Aspose.Words से क्लास का उपयोग Word दस्तावेज़ को लोड करने के लिए किया जाता है। दस्तावेज़ पथ को संयोजित करके बनाया जाता है`dataDir` दस्तावेज़ नाम के साथ`"Document.docx"`सुनिश्चित करें कि दस्तावेज़ निर्दिष्ट निर्देशिका में मौजूद है.
+स्पष्टीकरण: `Document` Aspose.Words से क्लास का उपयोग Word दस्तावेज़ को लोड करने के लिए किया जाता है। दस्तावेज़ पथ को संयोजित करके बनाया जाता है `dataDir` दस्तावेज़ नाम के साथ `"Document.docx"`सुनिश्चित करें कि दस्तावेज़ निर्दिष्ट निर्देशिका में मौजूद है.
 
 ## चरण 3: Word 2016 के लिए दस्तावेज़ को अनुकूलित करें
 
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 ```
 
- स्पष्टीकरण: यह पंक्ति कॉल करती है`OptimizeFor` विधि पर`CompatibilityOptions` की संपत्ति`doc` वस्तु, निर्दिष्ट करना`MsWordVersion.Word2016` Microsoft Word 2016 के लिए दस्तावेज़ को अनुकूलित करने के लिए.
+स्पष्टीकरण: यह पंक्ति कॉल करती है `OptimizeFor` विधि पर `CompatibilityOptions` की संपत्ति `doc` वस्तु, निर्दिष्ट करना `MsWordVersion.Word2016` Microsoft Word 2016 के लिए दस्तावेज़ को अनुकूलित करने के लिए.
 
 ## चरण 4: OOXML अनुपालन को ISO 29500_2008_Strict पर सेट करें
 
@@ -76,7 +78,7 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 ```
 
- स्पष्टीकरण: हम इसका एक उदाहरण बनाते हैं`OoxmlSaveOptions` और इसे सेट करें`Compliance`संपत्ति को`OoxmlCompliance.Iso29500_2008_Strict`यह सुनिश्चित करता है कि दस्तावेज़ को ISO 29500_2008_Strict मानकों का पालन करते हुए सहेजा जाएगा।
+स्पष्टीकरण: हम इसका एक उदाहरण बनाते हैं `OoxmlSaveOptions` और इसे सेट करें `Compliance` संपत्ति को `OoxmlCompliance.Iso29500_2008_Strict`यह सुनिश्चित करता है कि दस्तावेज़ को ISO 29500_2008_Strict मानकों का पालन करते हुए सहेजा जाएगा।
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -86,7 +88,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompli
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx", saveOptions);
 ```
 
- स्पष्टीकरण:`Save` विधि को कॉल किया जाता है`doc` दस्तावेज़ को सहेजने के लिए ऑब्जेक्ट। पथ में निर्देशिका और नया फ़ाइल नाम शामिल है`"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"` , और यह का उपयोग करता है`saveOptions` हमने पहले कॉन्फ़िगर किया था।
+स्पष्टीकरण: `Save` विधि को कॉल किया जाता है `doc` दस्तावेज़ को सहेजने के लिए ऑब्जेक्ट। पथ में निर्देशिका और नया फ़ाइल नाम शामिल है `"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"`, और यह का उपयोग करता है `saveOptions` हमने पहले कॉन्फ़िगर किया था।
 
 ## निष्कर्ष
 
@@ -98,20 +100,25 @@ doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Str
 OOXML अनुपालन सुनिश्चित करता है कि आपके दस्तावेज़ Microsoft Word के विभिन्न संस्करणों के साथ संगत हैं, जिससे पहुंच और स्थिरता में सुधार होता है।
 
 ### क्या मैं इस पद्धति का उपयोग अन्य अनुपालन स्तरों के लिए कर सकता हूँ?
-हां, आप परिवर्तन करके विभिन्न अनुपालन स्तर निर्धारित कर सकते हैं`OoxmlCompliance` संपत्ति में`OoxmlSaveOptions`.
+हां, आप परिवर्तन करके विभिन्न अनुपालन स्तर निर्धारित कर सकते हैं `OoxmlCompliance` संपत्ति में `OoxmlSaveOptions`.
 
 ### यदि दस्तावेज़ पथ ग़लत हो तो क्या होगा?
- यदि दस्तावेज़ पथ ग़लत है, तो`Document` कन्स्ट्रक्टर एक फेंक देगा`FileNotFoundException`सुनिश्चित करें कि रास्ता सही है.
+यदि दस्तावेज़ पथ ग़लत है, तो `Document` कन्स्ट्रक्टर एक फेंक देगा `FileNotFoundException`सुनिश्चित करें कि रास्ता सही है.
 
 ### क्या मुझे Word 2016 के लिए अनुकूलन की आवश्यकता है?
 यद्यपि यह अनिवार्य नहीं है, लेकिन किसी विशिष्ट वर्ड संस्करण के लिए अनुकूलन करने से संगतता और प्रदर्शन में वृद्धि हो सकती है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक संसाधन कहां पा सकता हूं?
- आप अधिक संसाधन और दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप अधिक संसाधन और दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Panggilan Balik Pemenggalan Kata
-linktitle: Panggilan Balik Pemenggalan Kata
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengimplementasikan panggilan balik pemenggalan kata dalam Aspose.Words untuk .NET guna menyempurnakan pemformatan dokumen dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/working-with-hyphenation/hyphenation-callback/
+"description": "Pelajari cara mengimplementasikan panggilan balik pemenggalan kata dalam Aspose.Words untuk .NET guna menyempurnakan pemformatan dokumen dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Panggilan Balik Pemenggalan Kata"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Panggilan Balik Pemenggalan Kata"
+"url": "/id/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Panggilan Balik Pemenggalan Kata
@@ -22,11 +24,11 @@ Hai! Pernahkah Anda merasa terjerat dalam kerumitan pemformatan teks, terutama s
 
 Sebelum kita mulai mengerjakan kode, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. IDE: Lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman tentang C# dan kerangka kerja .NET.
 4. Kamus Pemenggalan Kata: Kamus pemenggalan kata untuk bahasa yang ingin Anda gunakan.
-5.  Lisensi Aspose: Lisensi Aspose yang valid. Anda bisa mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
+5. Lisensi Aspose: Lisensi Aspose yang valid. Anda bisa mendapatkan lisensi ini [lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
 
 ## Mengimpor Ruang Nama
 
@@ -54,7 +56,7 @@ catch (Exception e)
 }
 ```
 
- Di sini, kami membuat contoh panggilan balik kustom kami dan menetapkannya ke`Hyphenation.Callback`.
+Di sini, kami membuat contoh panggilan balik kustom kami dan menetapkannya ke `Hyphenation.Callback`.
 
 ## Langkah 2: Tentukan Jalur Dokumen
 
@@ -64,7 +66,7 @@ Selanjutnya, kita perlu menentukan direktori tempat dokumen kita disimpan. Ini p
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 3: Muat Dokumen
 
@@ -74,7 +76,7 @@ Sekarang, mari kita muat dokumen yang memerlukan pemenggalan kata.
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Di sini, kami memuat dokumen teks Jerman. Anda dapat mengganti`"German text.docx"` dengan nama berkas dokumen Anda.
+Di sini, kami memuat dokumen teks Jerman. Anda dapat mengganti `"German text.docx"` dengan nama berkas dokumen Anda.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -105,7 +107,7 @@ Di blok ini, kami menangkap pengecualian spesifik yang terkait dengan kamus yang
 
 ## Langkah 6: Terapkan Kelas Panggilan Balik Pemenggalan Kata Kustom
 
- Sekarang, mari kita terapkan`CustomHyphenationCallback` kelas yang menangani permintaan kamus pemenggalan kata.
+Sekarang, mari kita terapkan `CustomHyphenationCallback` kelas yang menangani permintaan kamus pemenggalan kata.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -131,7 +133,7 @@ public class CustomHyphenationCallback : IHyphenationCallback
 }
 ```
 
- Di kelas ini,`RequestDictionary` Metode ini dipanggil setiap kali kamus pemenggalan kata dibutuhkan. Metode ini memeriksa bahasa dan mendaftarkan kamus yang sesuai.
+Di kelas ini, `RequestDictionary` Metode ini dipanggil setiap kali kamus pemenggalan kata dibutuhkan. Metode ini memeriksa bahasa dan mendaftarkan kamus yang sesuai.
 
 ## Kesimpulan
 
@@ -145,17 +147,22 @@ Aspose.Words untuk .NET adalah pustaka manipulasi dokumen canggih yang memungkin
 ### Mengapa pemenggalan kata penting dalam pemformatan dokumen?
 Pemenggalan kata memperbaiki tata letak teks dengan memisahkan kata pada tempat yang tepat, sehingga menghasilkan dokumen yang lebih mudah dibaca dan menarik secara visual.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan uji coba gratis. Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan uji coba gratis. Anda bisa mendapatkannya [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan kamus pemenggalan kata?
 Anda dapat mengunduh kamus pemenggalan kata dari berbagai sumber daring atau membuatnya sendiri jika diperlukan.
 
 ### Apa yang terjadi jika kamus pemenggalan kata tidak ada?
- Jika kamus tidak ada,`RequestDictionary`metode ini melempar pengecualian, yang dapat Anda tangani untuk memberi tahu pengguna atau menyediakan solusi sementara.
+Jika kamus tidak ada, `RequestDictionary` metode ini melempar pengecualian, yang dapat Anda tangani untuk memberi tahu pengguna atau menyediakan solusi sementara.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Перейти к началу документа Конец в документе Word
-linktitle: Перейти к началу документа Конец в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как переместить курсор в начало и конец документа Word с помощью Aspose.Words для .NET. Подробное руководство с пошаговыми инструкциями и примерами.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/move-to-document-start-end/
+"description": "Узнайте, как переместить курсор в начало и конец документа Word с помощью Aspose.Words для .NET. Подробное руководство с пошаговыми инструкциями и примерами."
+"linktitle": "Перейти к началу документа Конец в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Перейти к началу документа Конец в документе Word"
+"url": "/ru/net/add-content-using-documentbuilder/move-to-document-start-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Перейти к началу документа Конец в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/add-content-using-documentbuilder/move-to-document-start-end/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Это магический инструмент, который мы будем использовать. Вы можете[скачать здесь](https://releases.aspose.com/words/net/) или возьмите[бесплатная пробная версия](https://releases.aspose.com/).
+1. Aspose.Words для .NET: Это магический инструмент, который мы будем использовать. Вы можете [скачать здесь](https://releases.aspose.com/words/net/) или возьмите [бесплатная пробная версия](https://releases.aspose.com/).
 2. Среда разработки .NET: Visual Studio — надежный выбор.
 3. Базовые знания C#: Не волнуйтесь, вам не нужно быть волшебником, но немного знакомства не помешает.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь мы создаем экземпляр`Document` и`DocumentBuilder` . Подумайте о`Document` как ваш пустой документ Word и`DocumentBuilder` как твоя ручка.
+Здесь мы создаем экземпляр `Document` и `DocumentBuilder`. Подумайте о `Document` как ваш пустой документ Word и `DocumentBuilder` как твоя ручка.
 
 ## Шаг 2: Перейдите в начало документа
 
@@ -58,7 +60,7 @@ builder.MoveToDocumentStart();
 Console.WriteLine("\nThis is the beginning of the document.");
 ```
 
- С`MoveToDocumentStart()`, вы указываете своей цифровой ручке расположиться в самом верху документа. Просто, не правда ли?
+С `MoveToDocumentStart()`, вы говорите своему цифровому перу расположиться в самом верху документа. Просто, не правда ли?
 
 ## Шаг 3: Перейдите в конец документа
 
@@ -84,17 +86,22 @@ Aspose.Words для .NET — мощная библиотека для прогр
 Конечно! Хотя в этом руководстве используется C#, вы можете использовать Aspose.Words для .NET с любым языком .NET, например VB.NET.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?  
- Да, но вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Да, но вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Совместим ли Aspose.Words для .NET с .NET Core?  
 Да, Aspose.Words для .NET поддерживает как .NET Framework, так и .NET Core.
 
 ### Где я могу найти больше руководств по Aspose.Words для .NET?  
-Вы можете проверить[документация](https://reference.aspose.com/words/net/) или посетите их[форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+Вы можете проверить [документация](https://reference.aspose.com/words/net/) или посетите их [форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tải Cài đặt Noto Fallback
-linktitle: Tải Cài đặt Noto Fallback
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tải cài đặt Noto fallback trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo tất cả các ký tự hiển thị chính xác.
-weight: 10
-url: /vi/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Tìm hiểu cách tải cài đặt Noto fallback trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo tất cả các ký tự hiển thị chính xác."
+"linktitle": "Tải Cài đặt Noto Fallback"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tải Cài đặt Noto Fallback"
+"url": "/vi/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tải Cài đặt Noto Fallback
@@ -21,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách tải cài đặt Not
 
 Trước khi đi sâu vào hướng dẫn từng bước, chúng ta hãy cùng xem qua các điều kiện tiên quyết mà bạn cần có:
 
-1.  Thư viện Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Thư viện Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất của Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET tương thích nào khác.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
 4. Tài liệu Word: Một tài liệu Word mẫu để áp dụng cài đặt dự phòng Noto.
@@ -52,11 +54,11 @@ Tiếp theo, hãy xác định đường dẫn đến thư mục tài liệu c�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 3: Tải tài liệu của bạn
 
-Tải tài liệu Word mà bạn muốn áp dụng cài đặt Noto dự phòng vào. Sử dụng`Document` lớp từ không gian tên Aspose.Words.
+Tải tài liệu Word mà bạn muốn áp dụng cài đặt Noto dự phòng vào. Sử dụng `Document` lớp từ không gian tên Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 4: Cấu hình cài đặt phông chữ
 
- Tạo một phiên bản của`FontSettings` lớp và tải các thiết lập dự phòng Noto. Bước này cấu hình các thiết lập phông chữ để sử dụng phông chữ Noto làm dự phòng.
+Tạo một phiên bản của `FontSettings` lớp và tải các thiết lập dự phòng Noto. Bước này cấu hình các thiết lập phông chữ để sử dụng phông chữ Noto làm dự phòng.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -99,7 +101,7 @@ Xin chúc mừng! Bạn đã tải thành công cài đặt Noto fallback vào t
 Cài đặt dự phòng Noto cung cấp một bộ phông chữ dự phòng toàn diện để đảm bảo tất cả các ký tự trong tài liệu được hiển thị chính xác.
 
 ### Tại sao tôi nên sử dụng cài đặt dự phòng Noto?
-Sử dụng cài đặt dự phòng Noto đảm bảo rằng tài liệu của bạn có thể hiển thị nhiều loại ký tự, đặc biệt là trong các tài liệu đa ngôn ngữ.
+Sử dụng cài đặt dự phòng Noto đảm bảo tài liệu của bạn có thể hiển thị nhiều loại ký tự, đặc biệt là trong các tài liệu đa ngôn ngữ.
 
 ### Tôi có thể sử dụng các thiết lập dự phòng khác ngoài Noto không?
 Có, Aspose.Words cho phép bạn cấu hình các thiết lập dự phòng khác dựa trên yêu cầu của bạn.
@@ -108,10 +110,15 @@ Có, Aspose.Words cho phép bạn cấu hình các thiết lập dự phòng kh�
 Bạn có thể cài đặt Aspose.Words cho .NET thông qua Trình quản lý gói NuGet trong Visual Studio.
 
 ### Có bản dùng thử miễn phí Aspose.Words cho .NET không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

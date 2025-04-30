@@ -1,14 +1,16 @@
 ---
-title: Abaikan Teks Di Dalam Sisipkan Revisi
-linktitle: Abaikan Teks Di Dalam Sisipkan Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengelola revisi dokumen secara efektif dengan Aspose.Words untuk .NET. Temukan teknik untuk mengabaikan teks di dalam revisi sisipan demi pengeditan yang lebih mudah.
-weight: 10
-url: /id/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "Pelajari cara mengelola revisi dokumen secara efektif dengan Aspose.Words untuk .NET. Temukan teknik untuk mengabaikan teks di dalam revisi sisipan demi pengeditan yang lebih mudah."
+"linktitle": "Abaikan Teks Di Dalam Sisipkan Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Abaikan Teks Di Dalam Sisipkan Revisi"
+"url": "/id/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Abaikan Teks Di Dalam Sisipkan Revisi
@@ -43,7 +45,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Mulai melacak revisi
 doc.StartTrackRevisions("author", DateTime.Now);
-builder.Writeln("Inserted"); // Sisipkan teks dengan revisi pelacakan
+builder.Writeln("Inserted"); // Masukkan teks dengan revisi pelacakan
 doc.StopTrackRevisions();
 ```
 
@@ -85,8 +87,8 @@ Menguasai teknik mengabaikan teks di dalam revisi sisipan dengan Aspose.Words un
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mulai melacak revisi dalam dokumen Word menggunakan Aspose.Words untuk .NET?
- Untuk mulai melacak revisi, gunakan`doc.StartTrackRevisions(author, date)` metode.
+### Bagaimana saya bisa mulai melacak revisi dalam dokumen Word menggunakan Aspose.Words untuk .NET?
+Untuk mulai melacak revisi, gunakan `doc.StartTrackRevisions(author, date)` metode.
 
 ### Apa manfaat mengabaikan teks yang disisipkan dalam revisi dokumen?
 Mengabaikan teks yang disisipkan membantu mempertahankan fokus pada konten inti sambil mengelola perubahan dokumen secara efisien.
@@ -95,13 +97,18 @@ Mengabaikan teks yang disisipkan membantu mempertahankan fokus pada konten inti 
 Ya, Anda dapat mengembalikan teks tersisipkan yang diabaikan menggunakan pengaturan FindReplaceOptions yang sesuai.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk panduan terperinci dan referensi API.
+Kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk panduan terperinci dan referensi API.
 
 ### Apakah ada forum komunitas untuk mendiskusikan Aspose.Words untuk pertanyaan terkait .NET?
- Ya, Anda dapat mengunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8) untuk dukungan dan diskusi komunitas.
+Ya, Anda dapat mengunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8) untuk dukungan dan diskusi komunitas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Optimalkan Ukuran PDF dengan Melewati Font Arial & Times Roman yang Tertanam
-linktitle: Optimalkan Ukuran PDF dengan Melewati Font Arial & Times Roman yang Tertanam
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Optimalkan ukuran PDF dengan melewati font Arial dan Times Roman yang tertanam menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menyederhanakan file PDF Anda.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "Optimalkan ukuran PDF dengan melewati font Arial dan Times Roman yang tertanam menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menyederhanakan file PDF Anda."
+"linktitle": "Optimalkan Ukuran PDF dengan Melewati Font Arial & Times Roman yang Tertanam"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Optimalkan Ukuran PDF dengan Melewati Font Arial & Times Roman yang Tertanam"
+"url": "/id/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimalkan Ukuran PDF dengan Melewati Font Arial & Times Roman yang Tertanam
@@ -20,7 +22,7 @@ Pernahkah Anda menemukan diri Anda dalam situasi di mana ukuran file PDF Anda te
 ## Prasyarat
 
 Sebelum kita masuk ke inti permasalahan, ada beberapa hal yang Anda perlukan:
--  Aspose.Words untuk .NET: Pastikan Anda telah memasang pustaka canggih ini. Jika belum, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah memasang pustaka canggih ini. Jika belum, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pemahaman dasar tentang C#: Ini akan membantu Anda mengikuti potongan kode.
 - Dokumen Word: Kami akan menggunakan dokumen contoh untuk mendemonstrasikan prosesnya. 
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Dalam cuplikan ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori dokumen Anda.
+Dalam cuplikan ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke direktori dokumen Anda.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan PDF
 
@@ -87,13 +89,18 @@ Tidak, tidak akan. Karena Arial dan Times Roman adalah font standar, tampilannya
 Ya, Anda dapat mengonfigurasi opsi penyimpanan untuk melewati penyematan font lain jika diperlukan.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/) , tetapi untuk akses penuh, Anda perlu membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/), tetapi untuk akses penuh, Anda perlu membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Words untuk .NET?
-Anda dapat menemukan dokumentasi dan tutorial yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan tutorial yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

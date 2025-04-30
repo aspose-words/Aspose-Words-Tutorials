@@ -1,43 +1,45 @@
 ---
-title: Få information om revisionsgruppen
-linktitle: Få information om revisionsgruppen
-second_title: Aspose.Words Document Processing API
-description: Få enkelt versionsgruppsinformation i Word-dokument med Aspose.Words för .NET med denna steg-för-steg-guide. Perfekt för .NET-utvecklare.
-weight: 10
-url: /sv/net/working-with-revisions/get-revision-group-details/
+"description": "Hämta enkelt information om revisionsgrupper i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för .NET-utvecklare."
+"linktitle": "Hämta information om revisionsgruppen"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Hämta information om revisionsgruppen"
+"url": "/sv/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Få information om revisionsgruppen
+# Hämta information om revisionsgruppen
 
 ## Introduktion
 
-Har du någonsin funnit att du behöver fördjupa dig i de snåla detaljerna i revisioner i ett Word-dokument? Kanske samarbetar du i ett projekt och du måste spåra förändringar noggrant. Nåväl, spänn fast dig för vi är på väg att dyka in i en fantastisk handledning om hur man får detaljer om revisionsgrupp med Aspose.Words för .NET. I slutet av den här guiden kommer du att vara ett proffs på att extrahera och visa revisionsdetaljer, vilket gör din dokumenthantering till en lek.
+Har du någonsin behövt fördjupa dig i detaljerna kring revisioner i ett Word-dokument? Kanske samarbetar du i ett projekt och behöver noggrant spåra ändringar. Spänn dig fast, för vi ska dyka in i en fantastisk handledning om hur man får information om revisionsgrupper med Aspose.Words för .NET. I slutet av den här guiden kommer du att vara ett proffs på att extrahera och visa revisionsinformation, vilket gör din dokumenthantering till en barnlek.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi ger oss ut på denna kodningsresa, låt oss se till att du har allt du behöver:
--  Aspose.Words för .NET: Se till att du har den senaste versionen installerad. Om inte kan du ladda ner den[här](https://releases.aspose.com/words/net/).
-- .NET-miljö: Se till att du har en fungerande .NET-utvecklingsmiljö inställd. Visual Studio är ett bra alternativ.
-- Ett Word-dokument med versioner: För den här handledningen kommer vi att använda ett exempel på Word-dokument med versioner (`Revisions.docx`).
+Innan vi ger oss ut på den här kodningsresan, låt oss se till att du har allt du behöver:
+- Aspose.Words för .NET: Se till att du har den senaste versionen installerad. Om inte kan du ladda ner den. [här](https://releases.aspose.com/words/net/).
+- .NET-miljö: Se till att du har en fungerande .NET-utvecklingsmiljö konfigurerad. Visual Studio är ett bra alternativ.
+- Ett Word-dokument med revideringar: I den här handledningen använder vi ett exempel på ett Word-dokument med revideringar (`Revisions.docx`).
 
-## Importera namnområden
+## Importera namnrymder
 
-Först och främst, låt oss importera de nödvändiga namnrymden i ditt projekt. Detta är avgörande för att få tillgång till Aspose.Words-funktionen.
+Först och främst, låt oss importera de nödvändiga namnrymderna i ditt projekt. Detta är avgörande för att komma åt Aspose.Words-funktionen.
 
 ```csharp
 using Aspose.Words;
 using System;
 ```
 
-Okej, låt oss dela upp det här steg för steg. Varje steg kommer att guida dig genom processen för att få information om revisionsgruppen med Aspose.Words för .NET.
+Okej, låt oss gå igenom detta steg för steg. Varje steg guidar dig genom processen att hämta information om revisionsgrupper med hjälp av Aspose.Words för .NET.
 
 ## Steg 1: Ladda Word-dokumentet
 
-Det första steget är att ladda ditt Word-dokument. Det är här dina revisioner lagras.
+Det första steget är att ladda ditt Word-dokument. Det är här dina ändringar lagras.
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- I det här utdraget, ersätt`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till ditt dokument. Denna kod kommer att ladda`Revisions.docx` fil i`doc` objekt.
+I det här utdraget, ersätt `"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till ditt dokument. Den här koden kommer att ladda `Revisions.docx` filen in i `doc` objekt.
 
-## Steg 2: Öppna Revisions Collection
+## Steg 2: Få åtkomst till revisionssamlingen
 
- Låt oss nu komma åt versionerna i dokumentet. Aspose.Words tillhandahåller en`Revisions` samling som vi kan iterera igenom.
+Nu ska vi se över ändringarna i dokumentet. Aspose.Words tillhandahåller en `Revisions` samling som vi kan iterera igenom.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -58,11 +60,11 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Denna loop kommer att gå igenom varje revision i dokumentet, vilket gör att vi kan extrahera detaljer.
+Denna loop går igenom varje revision i dokumentet, vilket gör att vi kan extrahera detaljer.
 
-## Steg 3: Extrahera revisionsdetaljer
+## Steg 3: Extrahera revisionsinformation
 
-Inom slingan kan vi extrahera olika detaljer om varje revision, såsom typ, författare, datum och text.
+Inom loopen kan vi extrahera olika detaljer om varje revision, såsom typ, författare, datum och text.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -74,11 +76,11 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Denna kod kommer att skriva ut revisionstyp, författare, datum och text till konsolen.
+Den här koden skriver ut revisionstyp, författare, datum och text till konsolen.
 
-## Steg 4: Sök efter revisionsgrupp
+## Steg 4: Kontrollera revisionsgruppen
 
-Ibland är revisioner grupperade. Vi måste kontrollera om en revision tillhör en grupp och visa gruppens text om den gör det.
+Ibland grupperas revisioner. Vi behöver kontrollera om en revision tillhör en grupp och visa gruppens text om den gör det.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -91,31 +93,36 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Detta utdrag kommer att skriva ut grupptexten om revisionen är en del av en grupp eller indikerar att den inte tillhör någon grupp.
+Det här utdraget skriver ut grupptexten om revisionen är en del av en grupp eller indikerar att den inte tillhör någon grupp.
 
 ## Slutsats
 
-Och där har du det! Genom att följa dessa steg kan du enkelt få detaljerad information om revisioner i ett Word-dokument med Aspose.Words för .NET. Detta kraftfulla verktyg gör det enkelt att hantera och spåra förändringar, vilket säkerställer att dina samarbetsprojekt löper smidigt.
+Och där har du det! Genom att följa dessa steg kan du enkelt få detaljerad information om revisioner i ett Word-dokument med hjälp av Aspose.Words för .NET. Detta kraftfulla verktyg gör det enkelt att hantera och spåra ändringar, vilket säkerställer att dina samarbetsprojekt löper smidigt.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
 Det är ett kraftfullt .NET-bibliotek för att skapa, redigera, konvertera och skriva ut Word-dokument programmatiskt.
 
 ### Kan jag använda Aspose.Words för .NET med andra .NET-språk?
-Absolut! Du kan använda det med alla .NET-språk, inklusive C#, VB.NET och ASP.NET.
+Absolut! Du kan använda det med vilket .NET-språk som helst, inklusive C#, VB.NET och ASP.NET.
 
 ### Hur kan jag få en gratis provversion av Aspose.Words för .NET?
- Du kan få en gratis provperiod[här](https://releases.aspose.com/).
+Du kan få en gratis provperiod [här](https://releases.aspose.com/).
 
 ### Behöver jag en licens för att använda Aspose.Words för .NET?
- Ja, Aspose.Words för .NET kräver en licens för full funktionalitet. Du kan köpa en[här](https://purchase.aspose.com/buy) eller få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+Ja, Aspose.Words för .NET kräver en licens för full funktionalitet. Du kan köpa en. [här](https://purchase.aspose.com/buy) eller skaffa ett tillfälligt körkort [här](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag hitta mer dokumentation om Aspose.Words för .NET?
- Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/words/net/).
+Detaljerad dokumentation finns tillgänglig [här](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

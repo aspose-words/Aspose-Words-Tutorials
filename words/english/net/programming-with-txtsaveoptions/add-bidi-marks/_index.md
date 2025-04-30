@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtsaveoptions/add-bidi-marks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Bidi Marks in Word Document
@@ -97,9 +100,13 @@ In the example provided, the document is saved as a text file. However, Aspose.W
 ### Where can I find more information about Aspose.Words for .NET?
 You can explore more about Aspose.Words for .NET through the [Aspose Documentation](https://reference.aspose.com/words/net/) and access the [Support Forum](https://forum.aspose.com/c/words/8) for additional help.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

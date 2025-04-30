@@ -1,14 +1,16 @@
 ---
-title: Stosowanie stylów i czcionek w dokumentach
-linktitle: Stosowanie stylów i czcionek w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak stosować style i czcionki w dokumentach za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym. Odblokuj pełny potencjał formatowania dokumentów.
-weight: 10
-url: /pl/java/document-styling/applying-styles-fonts/
+"description": "Dowiedz się, jak stosować style i czcionki w dokumentach za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym. Odblokuj pełny potencjał formatowania dokumentów."
+"linktitle": "Stosowanie stylów i czcionek w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Stosowanie stylów i czcionek w dokumentach"
+"url": "/pl/java/document-styling/applying-styles-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stosowanie stylów i czcionek w dokumentach
@@ -22,7 +24,7 @@ Aspose.Words for Java to oparty na Javie interfejs API, który umożliwia progra
 ## Stosowanie stylów i czcionek: podstawy
 
 ### Pierwsze kroki
-Na początek musisz skonfigurować środowisko programistyczne Java i pobrać bibliotekę Aspose.Words for Java. Link do pobrania znajdziesz tutaj[Tutaj](https://releases.aspose.com/words/java/). Upewnij się, że biblioteka została uwzględniona w Twoim projekcie.
+Na początek musisz skonfigurować środowisko programistyczne Java i pobrać bibliotekę Aspose.Words for Java. Link do pobrania znajdziesz tutaj [Tutaj](https://releases.aspose.com/words/java/). Upewnij się, że biblioteka została uwzględniona w Twoim projekcie.
 
 ### Tworzenie dokumentu
 Zacznijmy od utworzenia nowego dokumentu przy użyciu Aspose.Words dla Java:
@@ -101,7 +103,7 @@ builder.getFont().setBold(true);
 ## Często zadawane pytania
 
 ### Jak mogę zastosować różne style do różnych akapitów w dokumencie?
- Aby zastosować różne style do różnych akapitów, utwórz wiele wystąpień`DocumentBuilder` i ustaw style osobno dla każdego akapitu.
+Aby zastosować różne style do różnych akapitów, utwórz wiele wystąpień `DocumentBuilder` i ustaw style osobno dla każdego akapitu.
 
 ### Czy mogę zaimportować istniejące style z dokumentu szablonu?
 Tak, możesz importować style z dokumentu szablonu za pomocą Aspose.Words for Java. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe instrukcje.
@@ -113,17 +115,22 @@ Aspose.Words for Java zapewnia potężne możliwości formatowania warunkowego. 
 Oczywiście! Aspose.Words for Java obsługuje szeroki zakres czcionek i znaków z różnych języków i skryptów.
 
 ### Jak mogę dodać hiperłącza do tekstu przy użyciu określonych stylów?
- Aby dodać hiperłącza do tekstu, użyj`FieldHyperlink` klasę w połączeniu ze stylami w celu uzyskania pożądanego formatowania.
+Aby dodać hiperłącza do tekstu, użyj `FieldHyperlink` klasę w połączeniu ze stylami w celu uzyskania pożądanego formatowania.
 
 ### Czy istnieją jakieś ograniczenia co do rozmiaru lub złożoności dokumentu?
 Aspose.Words for Java może obsługiwać dokumenty o różnych rozmiarach i złożoności. Jednak bardzo duże dokumenty mogą wymagać dodatkowych zasobów pamięci.
 
 ## Wniosek
 
-W tym kompleksowym przewodniku zgłębiliśmy sztukę stosowania stylów i czcionek w dokumentach przy użyciu Aspose.Words for Java. Niezależnie od tego, czy tworzysz raporty biznesowe, generujesz faktury czy tworzysz piękne dokumenty, opanowanie formatowania dokumentów jest kluczowe. Dzięki mocy Aspose.Words for Java masz narzędzia, aby Twoje dokumenty lśniły.
+tym kompleksowym przewodniku zgłębiliśmy sztukę stosowania stylów i czcionek w dokumentach przy użyciu Aspose.Words for Java. Niezależnie od tego, czy tworzysz raporty biznesowe, generujesz faktury czy tworzysz piękne dokumenty, opanowanie formatowania dokumentów jest kluczowe. Dzięki mocy Aspose.Words for Java masz narzędzia, aby Twoje dokumenty lśniły.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

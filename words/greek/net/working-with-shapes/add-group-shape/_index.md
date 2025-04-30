@@ -1,44 +1,52 @@
 ---
-title: Δημιουργήστε σχήμα ομάδας στο έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα σχήμα ομάδας σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET. Προσθέστε πολλαπλά σχήματα, προσαρμόστε διαστάσεις και αποθηκεύστε το έγγραφο σας χωρίς προσπάθεια.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /el/net/working-with-shapes/add-group-shape/
+"description": "Μάθετε πώς να δημιουργείτε ένα σχήμα ομάδας σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Προσθέστε πολλά σχήματα, προσαρμόστε τις διαστάσεις και αποθηκεύστε το έγγραφό σας χωρίς κόπο."
+"title": "Δημιουργία σχήματος ομάδας σε έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET"
+"url": "/el/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε σχήμα ομάδας στο έγγραφο Word χρησιμοποιώντας το Aspose.Words
+# Δημιουργία σχήματος ομάδας σε έγγραφο του Word χρησιμοποιώντας το Aspose.Words
 
-Αυτό το εγχειρίδιο δείχνει πώς να δημιουργείτε και να διαχειρίζεστε τα σχήματα ομάδων σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για το .NET. Με αυτή την ισχυρή βιβλιοθήκη, μπορείτε εύκολα να συνδυάσετε πολλαπλά σχήματα, όπως μια κλήση εξόφλησης και ένα κουμπί δράσης, σε ένα μόνο σχήμα ομάδας. Ο οδηγός καλύπτει κάθε βήμα, από την αρχική δημιουργία του εγγράφου μέχρι την προσθήκη σχημάτων, την προσαρμογή διαστάσεων και την εισαγωγή του σχήματος ομάδας στο αρχείο Word. Τέλος, το παράδειγμα αποθηκεύει το έγγραφο, παρουσιάζοντας πώς να ενσωματώσετε ομακτα δυναμικά σχήματα σε έγγραφα Word για οπτικά ελκυστικά αποτελέσματα  
+Αυτό το σεμινάριο δείχνει πώς να δημιουργείτε και να διαχειρίζεστε σχήματα ομάδας σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Με αυτήν την ισχυρή βιβλιοθήκη, μπορείτε να συνδυάσετε εύκολα πολλά σχήματα, όπως μια επεξήγηση περιγράμματος έμφασης και ένα κουμπί ενέργειας, σε ένα μόνο σχήμα ομάδας. Ο οδηγός καλύπτει κάθε βήμα, από την αρχικοποίηση του εγγράφου έως την προσθήκη σχημάτων, την προσαρμογή διαστάσεων και την εισαγωγή του σχήματος ομάδας στο αρχείο Word. Τέλος, το παράδειγμα αποθηκεύει το έγγραφο, δείχνοντας πώς να ενσωματώνετε απρόσκοπτα δυναμικά σχήματα σε έγγραφα Word για οπτικά ελκυστικά αποτελέσματα.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
 
-1. Κατεβάστε Aspose.Words για .NET:  
-   Επισκεφτείτε το [Σχεδιάστε σελίδα λήψης](https://releases.aspose.com/words/net/)Και να κατεβάσετε την τελευταία έκδοση του Aspose.Words για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Οδηγίες εγκατάστασης  
+
+1. Λήψη Aspose.Words για .NET:  
+   Επισκεφθείτε το [Σελίδα λήψεων Aspose](https://releases.aspose.com/words/net/) και κατεβάστε την τελευταία έκδοση του Aspose.Words για .NET.
 
 2. Εγκατάσταση μέσω NuGet:  
-   * Ανοίξτε το έργο σας στο Visual Studio.  
-   * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξτε για Aspose.Words στο Διαχειριστό πακέτων NuGet.  
-   * Κάντε κλικ στην επιλογή Εγκατάσταση για να προσθέσετε τη βιβλιοθήκη στο έργο σας.
+   - Ανοίξτε το έργο σας στο Visual Studio.  
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζητήστε το Aspose.Words στον Διαχειριστή Πακέτων NuGet.  
+   - Κάντε κλικ στην επιλογή Εγκατάσταση για να προσθέσετε τη βιβλιοθήκη στο έργο σας.
 
-3. Ακτιβίαση άδειας:  
-   * Πάρτε άδεια από το [Στόχος Σελίδα αγορών](https://purchase.aspose.com/buy)ή να υποβάλουν αίτηση για [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)\- Δεν ξέρω .  
-   * Ενεργοποιήστε την άδεια στο έργο σας χρησιμοποιώντας το `"Αποκοινώνεται. Λέξεις".`\- Διάφορα.
+3. Ενεργοποίηση Άδειας Χρήσης:  
+   - Αποκτήστε άδεια από το [Σελίδα αγοράς Aspose](https://purchase.aspose.com/buy) ή κάντε αίτηση για ένα [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/).  
+   - Ενεργοποιήστε την άδεια χρήσης στο έργο σας χρησιμοποιώντας το `Aspose.Words.License` τάξη.
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

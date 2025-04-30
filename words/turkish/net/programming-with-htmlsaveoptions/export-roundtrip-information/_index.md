@@ -1,14 +1,16 @@
 ---
-title: Gidiş-Dönüş Bilgilerini Dışa Aktar
-linktitle: Gidiş-Dönüş Bilgilerini Dışa Aktar
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak gidiş dönüş bilgilerinin nasıl dışa aktarılacağını öğrenin. Dönüştürmeler sırasında belgenizin bütünlüğünü ve biçimlendirmesini koruyun.
-weight: 10
-url: /tr/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": "Aspose.Words for .NET kullanarak gidiş dönüş bilgilerinin nasıl dışa aktarılacağını öğrenin. Dönüştürmeler sırasında belgenizin bütünlüğünü ve biçimlendirmesini koruyun."
+"linktitle": "Gidiş-Dönüş Bilgilerini Dışa Aktar"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Gidiş-Dönüş Bilgilerini Dışa Aktar"
+"url": "/tr/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gidiş-Dönüş Bilgilerini Dışa Aktar
@@ -21,10 +23,10 @@ url: /tr/net/programming-with-htmlsaveoptions/export-roundtrip-information/
 
 Ayrıntılara girmeden önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun.[Buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. [Buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# uyumlu IDE.
 3. Temel C# Bilgisi: C# ve .NET framework'üne biraz aşina olmak faydalı olacaktır.
-4. Lisans: Tam lisansınız yoksa geçici lisans kullanabilirsiniz. Alın[Burada](https://purchase.aspose.com/temporary-license/).
+4. Lisans: Tam lisansınız yoksa geçici lisans kullanabilirsiniz. Alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -71,7 +73,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportRoundtripInformation.html",
 
 ## Çözüm
 
-Ve işte karşınızda! Sadece birkaç satır kodla, Aspose.Words for .NET kullanarak Word belgesinden HTML'e gidiş dönüş bilgilerini başarıyla aktardınız. Bu güçlü özellik, belgelerinizin dönüşümler sırasında bütünlüğünü ve biçimlendirmesini koruyarak hayatınızı çok daha kolay hale getirir.
+Ve işte oldu! Sadece birkaç satır kodla, Aspose.Words for .NET kullanarak Word belgesinden HTML'e gidiş dönüş bilgilerini başarıyla aktardınız. Bu güçlü özellik, belgelerinizin dönüşümler sırasında bütünlüğünü ve biçimlendirmesini koruyarak hayatınızı çok daha kolay hale getirir.
 
 ## SSS
 
@@ -79,19 +81,24 @@ Ve işte karşınızda! Sadece birkaç satır kodla, Aspose.Words for .NET kulla
 Gidiş-dönüş bilgileri, bir belgenin bir formattan diğerine ve tekrar geri dönüştürülmesi sırasında bütünlüğünü ve biçimlendirmesini sağlayan verileri ifade eder.
 
 ### Lisans olmadan Aspose.Words for .NET'i kullanabilir miyim?
-Evet, geçici bir lisans alarak kullanabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alarak kullanabilirsiniz. [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'in en son sürümünü nerede bulabilirim?
- En son sürümü indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+En son sürümü indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Word belgelerini HTML'e dönüştürürken biçimlendirmeyi korumak mümkün müdür?
 Evet, HtmlSaveOptions'daki ExportRoundtripInformation özelliğini kullanarak dönüştürme sırasında tüm biçimlendirmeyi koruyabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

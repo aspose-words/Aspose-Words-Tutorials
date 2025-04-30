@@ -1,14 +1,16 @@
 ---
-title: Определение формата документа в Aspose.Words для Java
-linktitle: Определение формата документа
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как определять форматы документов в Java с помощью Aspose.Words. Определите DOC, DOCX и другие. Эффективно организуйте файлы.
-weight: 25
-url: /ru/java/document-loading-and-saving/determining-document-format/
+"description": "Узнайте, как определять форматы документов в Java с помощью Aspose.Words. Определите DOC, DOCX и другие. Эффективно организуйте файлы."
+"linktitle": "Определение формата документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Определение формата документа в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определение формата документа в Aspose.Words для Java
@@ -47,7 +49,7 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Мы создали каталоги для поддерживаемых, неизвестных, зашифрованных и до 97-го типов документов.
+Мы создали каталоги для поддерживаемых, неизвестных, зашифрованных и до 97 года типов документов.
 
 ## Шаг 2: Определение формата документа
 
@@ -195,7 +197,7 @@ for (String fileName : listFiles) {
 
 ### Как установить Aspose.Words для Java?
 
- Вы можете загрузить Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/)и следуйте предоставленным инструкциям по установке.
+Вы можете загрузить Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/) и следуйте предоставленным инструкциям по установке.
 
 ### Какие форматы документов поддерживаются?
 
@@ -203,7 +205,7 @@ Aspose.Words for Java поддерживает различные форматы
 
 ### Как обнаружить зашифрованные документы с помощью Aspose.Words для Java?
 
- Вы можете использовать`FileFormatUtil.detectFileFormat()` метод обнаружения зашифрованных документов, продемонстрированный в этом руководстве.
+Вы можете использовать `FileFormatUtil.detectFileFormat()` метод обнаружения зашифрованных документов, продемонстрированный в этом руководстве.
 
 ### Существуют ли какие-либо ограничения при работе со старыми форматами документов?
 
@@ -212,9 +214,14 @@ Aspose.Words for Java поддерживает различные форматы
 ### Могу ли я автоматизировать определение формата документа в моем Java-приложении?
 
 Да, вы можете автоматизировать определение формата документа, интегрировав предоставленный код в ваше приложение Java. Это позволяет обрабатывать документы на основе их обнаруженных форматов.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-loadoptions/load-encrypted-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Encrypted In Word Document
@@ -78,9 +81,13 @@ Yes, Aspose.Words provides various options for encrypting documents, including s
 No, Aspose.Words can handle documents of any size, subject to the limitations of your system's memory.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

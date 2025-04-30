@@ -1,14 +1,16 @@
 ---
-title: Различные настройки страницы
-linktitle: Различные настройки страницы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить различные конфигурации страниц при объединении документов Word с помощью Aspose.Words для .NET. Пошаговое руководство включено.
-weight: 10
-url: /ru/net/join-and-append-documents/different-page-setup/
+"description": "Узнайте, как настроить различные конфигурации страниц при объединении документов Word с помощью Aspose.Words для .NET. Пошаговое руководство включено."
+"linktitle": "Различные настройки страницы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Различные настройки страницы"
+"url": "/ru/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Различные настройки страницы
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/different-page-setup/
 
 Прежде чем мы приступим к делу, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: любая версия, поддерживающая Aspose.Words для .NET.
 3. Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 4. Базовые знания C#: только основы для понимания синтаксиса и структуры.
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Шаг 2: Загрузите документы
 
- Теперь давайте загрузим документы, которые мы хотим объединить. Для этого примера вам понадобятся два документа Word:`Document source.docx` и`Northwind traders.docx`. Убедитесь, что эти файлы находятся в каталоге вашего проекта.
+Теперь давайте загрузим документы, которые мы хотим объединить. Для этого примера вам понадобятся два документа Word: `Document source.docx` и `Northwind traders.docx`. Убедитесь, что эти файлы находятся в каталоге вашего проекта.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -77,7 +79,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 
 ### Шаг 3.2: Перезапуск нумерации страниц
 
-Начните нумерацию страниц заново с начала исходного документа.
+Восстановите нумерацию страниц с начала исходного документа.
 
 ```csharp
 srcDoc.FirstSection.PageSetup.RestartPageNumbering = true;
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 Чтобы обеспечить плавность хода текста, нам необходимо скорректировать форматирование абзацев в исходном документе.
 
- Пройдитесь по всем абзацам исходного документа и установите`KeepWithNext` свойство.
+Пройдитесь по всем абзацам исходного документа и установите `KeepWithNext` свойство.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -139,14 +141,19 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
 Да, Aspose.Words для .NET полностью совместим с .NET Core.
 
 ### Можно ли сохранить стили из обоих документов?
- Да,`ImportFormatMode.KeepSourceFormatting` опция гарантирует сохранение стилей исходного документа.
+Да, `ImportFormatMode.KeepSourceFormatting` опция гарантирует сохранение стилей исходного документа.
 
 ### Где я могу получить дополнительную помощь по Aspose.Words?
- Проверьте[Документация Aspose.Words](https://reference.aspose.com/words/net/) или посетите их[форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+Проверьте [Документация Aspose.Words](https://reference.aspose.com/words/net/) или посетите их [форум поддержки](https://forum.aspose.com/c/words/8) для получения дополнительной помощи.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

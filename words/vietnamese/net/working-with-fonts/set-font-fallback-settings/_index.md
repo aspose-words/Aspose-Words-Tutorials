@@ -1,14 +1,16 @@
 ---
-title: Thiết lập cài đặt dự phòng phông chữ
-linktitle: Thiết lập cài đặt dự phòng phông chữ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập Font Fallback Settings trong Aspose.Words cho .NET. Hướng dẫn toàn diện này đảm bảo tất cả các ký tự trong tài liệu của bạn được hiển thị chính xác.
-weight: 10
-url: /vi/net/working-with-fonts/set-font-fallback-settings/
+"description": "Tìm hiểu cách thiết lập Font Fallback Settings trong Aspose.Words cho .NET. Hướng dẫn toàn diện này đảm bảo tất cả các ký tự trong tài liệu của bạn được hiển thị chính xác."
+"linktitle": "Thiết lập cài đặt dự phòng phông chữ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập cài đặt dự phòng phông chữ"
+"url": "/vi/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập cài đặt dự phòng phông chữ
@@ -21,10 +23,10 @@ Khi làm việc với các tài liệu chứa nhiều thành phần văn bản k
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-- Kiến thức cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C# và .NET framework.
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Kiến thức cơ bản về C#: Có hiểu biết về ngôn ngữ lập trình C# và .NET framework.
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một thiết lập như Visual Studio để viết và chạy mã của bạn.
--  Tài liệu mẫu: Có một tài liệu mẫu (ví dụ,`Rendering.docx`) đã sẵn sàng để thử nghiệm.
+- Tài liệu mẫu: Có một tài liệu mẫu (ví dụ, `Rendering.docx`) đã sẵn sàng để thử nghiệm.
 - Quy tắc dự phòng phông chữ XML: Chuẩn bị tệp XML xác định các quy tắc dự phòng phông chữ.
 
 ## Nhập không gian tên
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu
 
- Tải tài liệu của bạn vào Aspose.Words`Document` đối tượng. Bước này cho phép bạn làm việc với tài liệu theo chương trình.
+Tải tài liệu của bạn vào Aspose.Words `Document` đối tượng. Bước này cho phép bạn làm việc với tài liệu theo chương trình.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình cài đặt phông chữ
 
- Tạo một cái mới`FontSettings` đối tượng và tải cài đặt phông chữ dự phòng từ tệp XML. Tệp XML này chứa các quy tắc cho phông chữ dự phòng.
+Tạo một cái mới `FontSettings` đối tượng và tải các thiết lập dự phòng phông chữ từ một tệp XML. Tệp XML này chứa các quy tắc cho dự phòng phông chữ.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## Bước 4: Áp dụng Cài đặt Phông chữ cho Tài liệu
 
- Chỉ định cấu hình`FontSettings`vào tài liệu. Điều này đảm bảo rằng các quy tắc dự phòng phông chữ được áp dụng khi hiển thị tài liệu.
+Chỉ định cấu hình `FontSettings` vào tài liệu. Điều này đảm bảo rằng các quy tắc dự phòng phông chữ được áp dụng khi hiển thị tài liệu.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -99,7 +101,7 @@ Sau đây là ví dụ về cách tệp XML xác định các quy tắc dự ph�
 
 ## Phần kết luận
 
-Bằng cách làm theo các bước này, bạn có thể thiết lập và sử dụng Font Fallback Settings hiệu quả trong Aspose.Words cho .NET. Điều này đảm bảo rằng tài liệu của bạn hiển thị đúng tất cả các ký tự, ngay cả khi phông chữ gốc không hỗ trợ một số ký tự nhất định. Việc triển khai các thiết lập này sẽ cải thiện đáng kể chất lượng và khả năng đọc của tài liệu.
+Bằng cách làm theo các bước này, bạn có thể thiết lập và sử dụng Cài đặt dự phòng phông chữ hiệu quả trong Aspose.Words cho .NET. Điều này đảm bảo rằng tài liệu của bạn hiển thị đúng tất cả các ký tự, ngay cả khi phông chữ gốc không hỗ trợ một số ký tự nhất định. Việc triển khai các cài đặt này sẽ cải thiện đáng kể chất lượng và khả năng đọc của tài liệu.
 
 ## Câu hỏi thường gặp
 
@@ -113,7 +115,7 @@ Có, bạn có thể chỉ định nhiều phông chữ dự phòng trong các q
 
 ### Câu hỏi 3: Tôi có thể tải Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải nó xuống từ[Trang tải xuống Aspose](https://releases.aspose.com/words/net/).
+Bạn có thể tải nó xuống từ [Trang tải xuống Aspose](https://releases.aspose.com/words/net/).
 
 ### Câu hỏi 4: Làm thế nào để tạo tệp XML cho các quy tắc dự phòng phông chữ?
 
@@ -121,10 +123,15 @@ Tệp XML có thể được tạo bằng bất kỳ trình soạn thảo văn b
 
 ### Câu hỏi 5: Có hỗ trợ cho Aspose.Words không?
 
- Có, bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Có, bạn có thể tìm thấy sự hỗ trợ trên [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

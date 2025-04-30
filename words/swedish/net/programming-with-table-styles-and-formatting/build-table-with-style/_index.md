@@ -1,33 +1,35 @@
 ---
-title: Bygg bord med stil
-linktitle: Bygg bord med stil
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du skapar och formaterar tabeller i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-guiden.
-weight: 10
-url: /sv/net/programming-with-table-styles-and-formatting/build-table-with-style/
+"description": "Lär dig hur du skapar och formaterar tabeller i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-guiden."
+"linktitle": "Bygg ett bord med stil"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Bygg ett bord med stil"
+"url": "/sv/net/programming-with-table-styles-and-formatting/build-table-with-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bygg bord med stil
+# Bygg ett bord med stil
 
 ## Introduktion
 
-Att skapa snygga, professionella dokument kräver ofta mer än bara vanlig text. Tabeller är ett fantastiskt sätt att organisera data, men att få dem att se tilltalande ut är en helt annan utmaning. Ange Aspose.Words för .NET! I den här självstudien kommer vi att dyka in i hur man bygger en tabell med stil, så att dina Word-dokument ser snygga och professionella ut.
+Att skapa snygga, professionella dokument kräver ofta mer än bara vanlig text. Tabeller är ett fantastiskt sätt att organisera data, men att få dem att se tilltalande ut är en helt annan utmaning. Kör Aspose.Words för .NET! I den här handledningen ska vi dyka ner i hur man bygger en tabell med stil, vilket får dina Word-dokument att se eleganta och professionella ut.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi går in i steg-för-steg-guiden, låt oss se till att du har allt du behöver:
+Innan vi går vidare till steg-för-steg-guiden, låt oss se till att du har allt du behöver:
 
-1.  Aspose.Words för .NET: Ladda ner och installera om du inte redan har gjort det[Aspose.Words för .NET](https://releases.aspose.com/words/net/).
-2. Utvecklingsmiljö: Du bör ha en utvecklingsmiljö inrättad. Visual Studio är ett bra alternativ för denna handledning.
-3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering hjälper dig att följa med enklare.
+1. Aspose.Words för .NET: Om du inte redan har gjort det, ladda ner och installera [Aspose.Words för .NET](https://releases.aspose.com/words/net/).
+2. Utvecklingsmiljö: Du bör ha en utvecklingsmiljö konfigurerad. Visual Studio är ett bra alternativ för den här handledningen.
+3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering gör att du lättare kan följa med.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att komma igång måste du importera de nödvändiga namnrymden. Detta ger dig tillgång till de klasser och metoder som krävs för att manipulera Word-dokument.
+För att komma igång behöver du importera de nödvändiga namnrymderna. Detta ger dig tillgång till de klasser och metoder som krävs för att manipulera Word-dokument.
 
 ```csharp
 using Aspose.Words;
@@ -36,7 +38,7 @@ using Aspose.Words.Tables;
 
 ## Steg 1: Skapa ett nytt dokument och DocumentBuilder
 
- Först och främst måste du skapa ett nytt dokument och ett`DocumentBuilder` objekt. Detta`DocumentBuilder` hjälper dig att konstruera tabellen i ditt dokument.
+Först och främst måste du skapa ett nytt dokument och ett `DocumentBuilder` objekt. Detta `DocumentBuilder` hjälper dig att konstruera tabellen i ditt dokument.
 
 ```csharp
 // Sökväg till din dokumentkatalog
@@ -46,9 +48,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Steg 2: Börja bygga tabellen
+## Steg 2: Börja bygga bordet
 
-Nu när vi har vårt dokument och byggare redo, låt oss börja skapa tabellen.
+Nu när vi har vårt dokument och vår byggare redo, låt oss börja skapa tabellen.
 
 ```csharp
 Table table = builder.StartTable();
@@ -56,7 +58,7 @@ Table table = builder.StartTable();
 
 ## Steg 3: Infoga den första raden
 
-En tabell utan rader är bara en tom struktur. Vi måste infoga minst en rad innan vi kan ställa in någon tabellformatering.
+En tabell utan rader är bara en tom struktur. Vi måste infoga minst en rad innan vi kan ange någon tabellformatering.
 
 ```csharp
 builder.InsertCell();
@@ -64,25 +66,25 @@ builder.InsertCell();
 
 ## Steg 4: Ställ in tabellstilen
 
- Med den första cellen insatt är det dags att lägga till lite stil till vår tabell. Vi kommer att använda`StyleIdentifier` för att tillämpa en fördefinierad stil.
+Med den första cellen insatt är det dags att lägga till lite stil i vår tabell. Vi använder `StyleIdentifier` för att tillämpa en fördefinierad stil.
 
 ```csharp
-// Ställ in tabellstilen som används baserat på den unika stilidentifieraren
+// Ange tabellstilen som används baserat på den unika stilidentifieraren
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 ```
 
 ## Steg 5: Definiera stilalternativ
 
-Tabellstilsalternativen definierar vilka delar av tabellen som ska formateras. Till exempel kan vi välja att utforma den första kolumnen, radbanden och den första raden.
+Tabellens stilalternativ definierar vilka delar av tabellen som ska formateras. Vi kan till exempel välja att formatera den första kolumnen, radbanden och den första raden.
 
 ```csharp
-// Använd vilka funktioner som ska formateras av stilen
+// Tillämpa vilka funktioner som ska formateras av stilen
 table.StyleOptions = TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 ```
 
-## Steg 6: Justera tabellen så att den passar innehållet
+## Steg 6: Anpassa tabellen så att den passar innehållet
 
-För att säkerställa att vårt bord ser snyggt och snyggt ut kan vi använda`AutoFit` metod för att justera tabellen så att den passar dess innehåll.
+För att säkerställa att vårt bord ser prydligt och prydligt ut kan vi använda `AutoFit` metod för att justera tabellen så att den passar dess innehåll.
 
 ```csharp
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -90,7 +92,7 @@ table.AutoFit(AutoFitBehavior.AutoFitToContents);
 
 ## Steg 7: Infoga data i tabellen
 
-Nu är det dags att fylla vår tabell med lite data. Vi börjar med rubrikraden och lägger sedan till några exempeldata.
+Nu är det dags att fylla vår tabell med lite data. Vi börjar med rubrikraden och lägger sedan till lite exempeldata.
 
 ### Infogar rubrikrad
 
@@ -126,7 +128,7 @@ builder.EndRow();
 
 ## Steg 8: Spara dokumentet
 
-När du har infogat all data är det sista steget att spara dokumentet.
+Efter att all data har lagts in är det sista steget att spara dokumentet.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx");
@@ -134,27 +136,32 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx
 
 ## Slutsats
 
-Och där har du det! Du har framgångsrikt skapat en snygg tabell i ett Word-dokument med Aspose.Words för .NET. Detta kraftfulla bibliotek gör det enkelt att automatisera och anpassa Word-dokument för att möta dina exakta behov. Oavsett om du skapar rapporter, fakturor eller någon annan typ av dokument, har Aspose.Words dig täckt.
+Och där har du det! Du har skapat en snygg tabell i ett Word-dokument med hjälp av Aspose.Words för .NET. Det här kraftfulla biblioteket gör det enkelt att automatisera och anpassa Word-dokument för att möta dina exakta behov. Oavsett om du skapar rapporter, fakturor eller någon annan typ av dokument, har Aspose.Words det du behöver.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Words för .NET?
-Aspose.Words för .NET är ett kraftfullt bibliotek som låter utvecklare skapa, redigera och manipulera Word-dokument programmatiskt med C#.
+Aspose.Words för .NET är ett kraftfullt bibliotek som låter utvecklare skapa, redigera och manipulera Word-dokument programmatiskt med hjälp av C#.
 
-### Kan jag använda Aspose.Words för .NET för att utforma befintliga tabeller?
-Ja, Aspose.Words för .NET kan användas för att utforma både nya och befintliga tabeller i dina Word-dokument.
+### Kan jag använda Aspose.Words för .NET för att formatera befintliga tabeller?
+Ja, Aspose.Words för .NET kan användas för att formatera både nya och befintliga tabeller i dina Word-dokument.
 
 ### Behöver jag en licens för att använda Aspose.Words för .NET?
- Ja, Aspose.Words för .NET kräver en licens för full funktionalitet. Du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) eller köp en hel[här](https://purchase.aspose.com/buy).
+Ja, Aspose.Words för .NET kräver en licens för full funktionalitet. Du kan få en [tillfällig licens](https://purchase.aspose.com/temporary-license/) eller köp en hel [här](https://purchase.aspose.com/buy).
 
 ### Kan jag automatisera andra dokumenttyper med Aspose.Words för .NET?
 Absolut! Aspose.Words för .NET stöder olika dokumenttyper, inklusive DOCX, PDF, HTML och mer.
 
 ### Var kan jag hitta fler exempel och dokumentation?
- Du kan hitta omfattande dokumentation och exempel på[Aspose.Words för .NET dokumentationssida](https://reference.aspose.com/words/net/).
+Du hittar omfattande dokumentation och exempel på [Dokumentationssida för Aspose.Words för .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

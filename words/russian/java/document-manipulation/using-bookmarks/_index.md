@@ -1,14 +1,16 @@
 ---
-title: Использование закладок в Aspose.Words для Java
-linktitle: Использование закладок
-second_title: API обработки документов Java Aspose.Words
-description: Оптимизируйте обработку документов с помощью Aspose.Words для Java. Узнайте, как использовать закладки для эффективной навигации и управления контентом в этом пошаговом руководстве.
-weight: 17
-url: /ru/java/document-manipulation/using-bookmarks/
+"description": "Оптимизируйте обработку документов с помощью Aspose.Words для Java. Узнайте, как использовать закладки для эффективной навигации и управления контентом в этом пошаговом руководстве."
+"linktitle": "Использование закладок"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование закладок в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование закладок в Aspose.Words для Java
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Завершить закладку
+// Завершить закладку
 builder.endBookmark("My Bookmark");
 ```
 
@@ -103,11 +105,11 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ### Как создать закладку в ячейке таблицы?
 
- Чтобы создать закладку в ячейке таблицы, используйте`DocumentBuilder` класс и начало и конец закладки внутри ячейки.
+Чтобы создать закладку в ячейке таблицы, используйте `DocumentBuilder` класс и начало и конец закладки внутри ячейки.
 
 ### Могу ли я скопировать закладку в другой документ?
 
- Да, вы можете скопировать закладку в другой документ с помощью`NodeImporter` класс, гарантирующий сохранение форматирования.
+Да, вы можете скопировать закладку в другой документ с помощью `NodeImporter` класс, гарантирующий сохранение форматирования.
 
 ### Как удалить строку по закладке?
 
@@ -119,10 +121,15 @@ doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx
 
 ### Где я могу найти более подробную информацию об Aspose.Words для Java?
 
- Подробную документацию и материалы для загрузки можно найти на сайте[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Подробную документацию и материалы для загрузки можно найти на сайте [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

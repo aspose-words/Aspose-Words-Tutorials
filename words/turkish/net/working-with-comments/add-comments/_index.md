@@ -1,14 +1,16 @@
 ---
-title: Yorum Ekle
-linktitle: Yorum Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinize yorum eklemeyi rehberimizle öğrenin. Belge işbirliği sürecinizi zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/working-with-comments/add-comments/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinize yorum eklemeyi rehberimizle öğrenin. Belge işbirliği sürecinizi zahmetsizce geliştirin."
+"linktitle": "Yorum Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yorum Ekle"
+"url": "/tr/net/working-with-comments/add-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yorum Ekle
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak Word belgelerinize yorum ekleme konusunda detay
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio benzeri bir IDE.
 4. Temel C# Bilgisi: C# programlama diline aşina olmanız örnekleri takip etmenize yardımcı olacaktır.
@@ -39,7 +41,7 @@ using Aspose.Words;
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
- İlk olarak, belgenizin kaydedileceği dizini tanımlamamız gerekiyor. Bir yer tutucu kullanacağız`YOUR DOCUMENT DIRECTORY` Bunu gerçek dizin yolunuzla değiştirmeniz gerekir.
+İlk olarak, belgenizin kaydedileceği dizini tanımlamamız gerekiyor. Bir yer tutucu kullanacağız `YOUR DOCUMENT DIRECTORY` Bunu gerçek dizin yolunuzla değiştirmeniz gerekir.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -114,14 +116,19 @@ Aspose.Words yorumların içeriğine ve yapısına odaklanırken, görünüm Wor
 
 ### Yorumları programatik olarak kaldırmak mümkün müdür?
 
-Evet, belgedeki yorumlar arasında gezinerek ve gerektiğinde bunları kaldırarak yorumları programlı bir şekilde kaldırabilirsiniz.
+Evet, belgedeki yorumlar arasında gezinerek ve gerektiğinde bunları kaldırarak yorumları program aracılığıyla kaldırabilirsiniz.
 
 ### Yorumlara cevap ekleyebilir miyim?
 
 Aspose.Words, daha ayrıntılı tartışmalar için mevcut yorumlara yanıtlar eklemenize olanak tanıyan, dizili yorumlarla çalışmanıza olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

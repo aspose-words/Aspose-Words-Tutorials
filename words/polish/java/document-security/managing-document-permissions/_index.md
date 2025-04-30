@@ -1,14 +1,16 @@
 ---
-title: Zarządzanie uprawnieniami do dokumentów
-linktitle: Zarządzanie uprawnieniami do dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak skutecznie zarządzać uprawnieniami do dokumentów za pomocą Aspose.Words for Java. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku i przykłady kodu źródłowego.
-weight: 11
-url: /pl/java/document-security/managing-document-permissions/
+"description": "Dowiedz się, jak skutecznie zarządzać uprawnieniami do dokumentów za pomocą Aspose.Words for Java. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku i przykłady kodu źródłowego."
+"linktitle": "Zarządzanie uprawnieniami do dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Zarządzanie uprawnieniami do dokumentów"
+"url": "/pl/java/document-security/managing-document-permissions/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zarządzanie uprawnieniami do dokumentów
@@ -22,9 +24,9 @@ dzisiejszym cyfrowym świecie zarządzanie dokumentami jest krytycznym aspektem 
 
 Zanim przejdziemy do zarządzania uprawnieniami do dokumentów, zacznijmy od skonfigurowania Aspose.Words dla Java. Aby rozpocząć, wykonaj następujące kroki:
 
-1.  Pobierz Aspose.Words dla Java: Odwiedź[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)aby pobrać najnowszą wersję Aspose.Words dla Java.
+1. Pobierz Aspose.Words dla Java: Odwiedź [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) aby pobrać najnowszą wersję Aspose.Words dla Java.
 
-2. Zainstaluj Aspose.Words dla Java: Po pobraniu biblioteki postępuj zgodnie z instrukcjami instalacji, aby skonfigurować ją w środowisku programistycznym Java.
+2. Zainstaluj Aspose.Words dla języka Java: Po pobraniu biblioteki postępuj zgodnie z instrukcjami instalacji, aby skonfigurować ją w środowisku programistycznym Java.
 
 3. Dodaj Aspose.Words do swojego projektu: Dodaj Aspose.Words dla Java do swojego projektu Java jako zależność.
 
@@ -100,9 +102,13 @@ Zarządzanie uprawnieniami do dokumentów jest kluczowe dla zachowania poufnośc
 Teraz, gdy masz już solidne zrozumienie zarządzania uprawnieniami do dokumentów za pomocą Aspose.Words for Java, czas wykorzystać tę wiedzę w praktyce. Ulepsz swoje procesy zarządzania dokumentami i chroń swoje dane z łatwością.
 
 Pamiętaj, że zabezpieczanie dokumentów to proces ciągły, dlatego zachowaj czujność i wykorzystaj potężne funkcje oferowane przez Aspose.Words for Java, aby chronić swoje cenne dokumenty.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,17 +6,23 @@ description: Learn how to create a Word document, apply a paragraph style, and s
 keywords: [Aspose.Words for .NET, create Word document, paragraph style, save .docx, C# Word example, apply styles in Word, document builder, Aspose tutorial]
 url: /net/document-styling/apply-paragraph-style/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Style a Word Document in Aspose.Words
 Aspose.Words for .NET empowers developers to effortlessly create, modify, and style Word documents programmatically. This example demonstrates a simple yet powerful way to create a Word document, apply a "Title" paragraph style, and save it in the .docx format. Whether you're building a document automation solution or just exploring Aspose.Words features, this guide is a perfect starting point. Follow the steps below to get started with document styling in .NET!  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/apply-paragraph-style" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 1. Download Aspose.Words for .NET:  
@@ -33,8 +39,12 @@ Aspose.Words for .NET empowers developers to effortlessly create, modify, and st
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

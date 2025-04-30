@@ -1,20 +1,22 @@
 ---
-title: Używanie dzielenia wyrazów w Aspose.Words dla Java
-linktitle: Używanie dzielenia wyrazów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak skutecznie używać łączników w Aspose.Words dla Java dzięki temu kompleksowemu samouczkowi. Popraw czytelność dokumentu już dziś!
-weight: 17
-url: /pl/java/using-document-elements/using-hyphenation/
+"description": "Dowiedz się, jak skutecznie używać łączników w Aspose.Words dla Java dzięki temu kompleksowemu samouczkowi. Popraw czytelność dokumentu już dziś!"
+"linktitle": "Używanie dzielenia wyrazów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Używanie dzielenia wyrazów w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Używanie dzielenia wyrazów w Aspose.Words dla Java
 
 
-W świecie przetwarzania dokumentów precyzja i estetyka odgrywają kluczową rolę. Jeśli chodzi o tworzenie dokumentów w różnych językach, dzielenie wyrazów staje się kluczowym aspektem. Dzielenie wyrazów zapewnia, że słowa są poprawnie dzielone na końcu wierszy, zachowując czytelność i wygląd dokumentu. W tym samouczku zbadamy, jak używać dzielenia wyrazów w Aspose.Words for Java, aby poprawić jakość dokumentów.
+świecie przetwarzania dokumentów precyzja i estetyka odgrywają kluczową rolę. Jeśli chodzi o tworzenie dokumentów w różnych językach, dzielenie wyrazów staje się kluczowym aspektem. Dzielenie wyrazów zapewnia, że słowa są poprawnie dzielone na końcu wierszy, zachowując czytelność i wygląd dokumentu. W tym samouczku zbadamy, jak używać dzielenia wyrazów w Aspose.Words for Java, aby poprawić jakość dokumentów.
 
 ## 1. Wprowadzenie do dzielenia wyrazów
 
@@ -47,7 +49,7 @@ Teraz, gdy zarejestrowałeś słowniki, czas zastosować dywiz w swoich dokument
 
 ## 5. Ładowanie słowników dzielenia wyrazów
 
-niektórych przypadkach może być konieczne dynamiczne ładowanie słowników dzielenia wyrazów. Pozwala to na dostosowanie się do różnych wymagań językowych. Oto, jak można załadować słownik dzielenia wyrazów dla określonego języka:
+W niektórych przypadkach może być konieczne dynamiczne ładowanie słowników dzielenia wyrazów. Pozwala to na dostosowanie się do różnych wymagań językowych. Oto, jak można załadować słownik dzielenia wyrazów dla określonego języka:
 
 ```java
 Document doc = new Document(dataDir + "German text.docx");
@@ -78,14 +80,19 @@ Tak, Aspose.Words for Java oferuje przyjazny użytkownikowi interfejs API, dzię
 
 ### 4. Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words dla Java?
 
- Możesz odwiedzić[Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) aby uzyskać szczegółowe informacje. Aby uzyskać wsparcie i dyskusje, sprawdź[Forum Aspose.Words](https://forum.aspose.com/).
+Możesz odwiedzić [Dokumentacja API Aspose.Words](https://reference.aspose.com/words/java/) aby uzyskać szczegółowe informacje. Aby uzyskać wsparcie i dyskusje, sprawdź [Forum Aspose.Words](https://forum.aspose.com/).
 
 ### 5. Jak mogę uzyskać dostęp do Aspose.Words dla Java?
 
- Aby uzyskać dostęp do Aspose.Words dla Java,[Kliknij tutaj](https://purchase.aspose.com/buy). Poznaj moc przetwarzania dokumentów w swoich aplikacjach Java!
+Aby uzyskać dostęp do Aspose.Words dla Java, [Kliknij tutaj](https://purchase.aspose.com/buy). Poznaj moc przetwarzania dokumentów w swoich aplikacjach Java!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

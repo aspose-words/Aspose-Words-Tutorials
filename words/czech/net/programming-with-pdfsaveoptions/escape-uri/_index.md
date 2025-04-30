@@ -1,51 +1,53 @@
 ---
-title: Escape URI v dokumentu PDF
-linktitle: Escape URI v dokumentu PDF
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak uniknout z URI v souborech PDF pomocí Aspose.Words for .NET. Tento podrobný průvodce vás provede procesem krok za krokem.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/escape-uri/
+"description": "Naučte se, jak pomocí Aspose.Words pro .NET escapovat URI v PDF souborech. Tato podrobná příručka vás krok za krokem provede celým procesem."
+"linktitle": "URI escape v dokumentu PDF"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "URI escape v dokumentu PDF"
+"url": "/cs/net/programming-with-pdfsaveoptions/escape-uri/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Escape URI v dokumentu PDF
+# URI escape v dokumentu PDF
 
 ## Zavedení
 
-Ahoj! Přemýšleli jste někdy, jak zacházet s URI při ukládání dokumentu aplikace Word jako PDF pomocí Aspose.Words for .NET? Jste na správném místě! Dnes se ponoříme hluboko do únikových URI v dokumentech PDF, abychom zajistili jejich správnou funkci při převodu dokumentu. Vydejme se na tuto cestu společně, krok za krokem, a ujistěte se, že na cestě pochopíte každý koncept.
+Ahoj! Přemýšleli jste někdy, jak zacházet s URI při ukládání dokumentu Word jako PDF pomocí Aspose.Words pro .NET? Jste na správném místě! Dnes se podrobně ponoříme do escapování URI v dokumentech PDF, abychom zajistili jejich správné fungování při převodu dokumentu. Pojďme se na tuto cestu společně vydat krok za krokem a ujistit se, že pochopíte každý koncept.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nejnovější verzi. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí .NET.
-3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti o programování v C#.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nejnovější verzi. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí pro .NET.
+3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programování v C#.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory. To je zásadní pro přístup k funkcím Aspose.Words.
+Nejdříve je potřeba importovat potřebné jmenné prostory. To je klíčové pro přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Dobře, pojďme si tento proces rozdělit na stravitelné kroky. Postupujte podle toho a okamžitě budete profesionálem v úniku z URI!
+Dobře, pojďme si celý proces rozdělit na srozumitelné kroky. Sledujte je a brzy se stanete profesionálem v escapování URI!
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Než se ponoříte do kódu, nastavte cestu k adresáři dokumentů. Zde budou uloženy vaše soubory.
+Než se ponoříte do kódu, nastavte cestu k adresáři s dokumenty. Zde budou vaše soubory uloženy.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete uložit dokument PDF.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument PDF uložit.
 
 ## Krok 2: Vytvořte nový dokument
 
@@ -56,59 +58,64 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Zde,`Document` je váš nový dokument aplikace Word a`DocumentBuilder` je pomocná třída, která zjednodušuje proces vytváření dokumentu.
+Zde, `Document` je váš nový dokument Wordu a `DocumentBuilder` je pomocná třída, která zjednodušuje proces vytváření dokumentů.
 
-## Krok 3: Vložte hypertextový odkaz
+## Krok 3: Vložení hypertextového odkazu
 
-Nyní do dokumentu vložíme hypertextový odkaz. Tento hypertextový odkaz bude středem našeho procesu úniku z URI.
+Nyní vložme do dokumentu hypertextový odkaz. Tento hypertextový odkaz bude středem našeho procesu escapování URI.
 
 ```csharp
 builder.InsertHyperlink("Testlink", "https://www.google.com/search?q= aspose", false);
 ```
 
- V tomto řádku`"Testlink"` je zobrazovaný text pro hypertextový odkaz a`"https://www.google.com/search?q= aspose"` je URL. The`false` parametr označuje, že odkaz by neměl být formátován jako hypertextový odkaz (tj. nebude podtržený a modrý).
+V tomto řádku, `"Testlink"` je zobrazovaný text pro hypertextový odkaz a `"https://www.google.com/search?q= aspose"` je URL adresa. `false` Parametr označuje, že odkaz by neměl být formátován jako hypertextový odkaz (tj. nebude podtržený a modře zobrazený).
 
 ## Krok 4: Uložte dokument jako PDF
 
-Nakonec dokument uložte jako PDF. Zde se Aspose.Words stará o únik z URI ve výstupu PDF.
+Nakonec uložte dokument jako PDF. Zde se Aspose.Words postará o escapování URI ve výstupu PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.EscapeUri.pdf");
 ```
 
- Tento řádek uloží dokument do zadaného adresáře s názvem souboru`WorkingWithPdfSaveOptions.EscapeUri.pdf`.
+Tento řádek uloží dokument do zadaného adresáře s názvem souboru `WorkingWithPdfSaveOptions.EscapeUri.pdf`.
 
 ## Závěr
 
-A tady to máte! Právě jste se naučili, jak uniknout URI při ukládání dokumentu aplikace Word jako PDF pomocí Aspose.Words for .NET. Tento proces zajišťuje, že vaše hypertextové odkazy zůstanou ve výsledném PDF funkční a správně naformátované. 
+A tady to máte! Právě jste se naučili, jak escapovat URI při ukládání dokumentu Word jako PDF pomocí Aspose.Words pro .NET. Tento proces zajišťuje, že vaše hypertextové odkazy zůstanou ve výsledném PDF funkční a správně naformátované. 
 
-Pamatujte, že zvládnutí těchto malých, ale významných technik může výrazně zlepšit kvalitu a funkčnost vašich dokumentů. Šťastné kódování!
+Nezapomeňte, že zvládnutí těchto malých, ale důležitých technik může výrazně zlepšit kvalitu a funkčnost vašich dokumentů. Přeji vám šťastné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty aplikace Word v aplikacích .NET.
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty Wordu v aplikacích .NET.
 
-### Proč je escapování URI důležité v souborech PDF?
+### Proč je v PDF důležité escapovat URI?
 
-Escapování URI zajišťuje správnou interpretaci speciálních znaků v adresách URL, zabraňuje nefunkčním odkazům a zajišťuje, že fungují tak, jak mají.
+Řízení URI kódů zajišťuje správnou interpretaci speciálních znaků v URL adresách, čímž se zabraňuje nefunkčním odkazům a zajišťuje se jejich fungování podle očekávání.
 
-### Mohu v Aspose.Words pro .NET použít jiné typy odkazů?
+### Mohu v Aspose.Words pro .NET použít i jiné typy odkazů?
 
-Absolutně! Aspose.Words podporuje různé typy odkazů, včetně odkazů na interní dokumenty, záložek a externích adres URL.
+Rozhodně! Aspose.Words podporuje různé typy odkazů, včetně interních odkazů na dokumenty, záložek a externích URL adres.
 
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?
 
- Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Kde najdu podrobnější dokumentaci k Aspose.Words pro .NET?
 
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

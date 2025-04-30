@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों को एकाधिक फ़ाइलों में विभाजित करना
-linktitle: दस्तावेज़ों को एकाधिक फ़ाइलों में विभाजित करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: दस्तावेज़ों को कई फ़ाइलों में विभाजित करने के बारे में हमारी चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.Words की शक्ति को अनलॉक करें। विशेषज्ञ अंतर्दृष्टि और स्रोत कोड उदाहरण प्राप्त करें।
-weight: 10
-url: /hi/java/document-splitting/splitting-documents-into-multiple-files/
+"description": "दस्तावेज़ों को कई फ़ाइलों में विभाजित करने के बारे में हमारी चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.Words की शक्ति को अनलॉक करें। विशेषज्ञ अंतर्दृष्टि और स्रोत कोड उदाहरण प्राप्त करें।"
+"linktitle": "दस्तावेज़ों को एकाधिक फ़ाइलों में विभाजित करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों को एकाधिक फ़ाइलों में विभाजित करना"
+"url": "/hi/java/document-splitting/splitting-documents-into-multiple-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों को एकाधिक फ़ाइलों में विभाजित करना
@@ -20,10 +22,10 @@ url: /hi/java/document-splitting/splitting-documents-into-multiple-files/
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें तैयार हैं:
 
-1.  Aspose.Words for Java: इसे यहाँ से डाउनलोड करें[Aspose रिलीज़ पेज](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java: इसे यहाँ से डाउनलोड करें [Aspose रिलीज़ पेज](https://releases.aspose.com/words/java/).
 2. जावा विकास वातावरण: कोई भी IDE जैसे IntelliJ IDEA, Eclipse, या NetBeans.
 3. जावा रनटाइम एनवायरनमेंट (JRE): सुनिश्चित करें कि यह स्थापित और उचित रूप से कॉन्फ़िगर किया गया है।
-4.  Aspose.Words के लिए लाइसेंस: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/) या लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy).
+4. Aspose.Words के लिए लाइसेंस: एक अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/) या लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 5. इनपुट वर्ड दस्तावेज़: एक .docx फ़ाइल जिसमें कई अनुभाग हैं जिन्हें आप विभाजित करना चाहते हैं।
 
 ## पैकेज आयात करें
@@ -38,7 +40,7 @@ import java.io.File;
 अब जब हम पूरी तरह तैयार हैं, तो चलिए चरण-दर-चरण मार्गदर्शिका में गोता लगाते हैं!
 
 ## चरण 1: दस्तावेज़ लोड करें
- पहला कदम उस वर्ड डॉक्यूमेंट को लोड करना है जिसे आप विभाजित करना चाहते हैं। आइए इसे इस तरह से करें`Document` Aspose.Words में वर्ग.
+पहला कदम उस वर्ड डॉक्यूमेंट को लोड करना है जिसे आप विभाजित करना चाहते हैं। आइए इसे इस तरह से करें `Document` Aspose.Words में वर्ग.
 
 ```java
 String dataDir = "Your Document Directory"; // अपने फ़ाइल पथ से प्रतिस्थापित करें
@@ -68,7 +70,7 @@ for (int i = 0; i < doc.getSections().getCount(); i++) {
 ```
 
 - `doc.getSections().getCount()`: दस्तावेज़ में अनुभागों की कुल संख्या पुनर्प्राप्त करता है.
-- `deepClone()`: मूल दस्तावेज़ को संशोधित करने से बचने के लिए वर्तमान अनुभाग की एक गहरी प्रतिलिपि बनाता है।
+- `deepClone()`मूल दस्तावेज़ को संशोधित करने से बचने के लिए वर्तमान अनुभाग की एक गहरी प्रतिलिपि बनाता है।
 - `importNode(section, true)`: अनुभाग को नए दस्तावेज़ में आयात करता है.
 - `save()`: प्रत्येक नए दस्तावेज़ को एक अद्वितीय नाम से सहेजता है।
 
@@ -78,22 +80,27 @@ for (int i = 0; i < doc.getSections().getCount(); i++) {
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं दस्तावेज़ों को अनुभागों के बजाय पैराग्राफ़ के आधार पर विभाजित कर सकता हूँ?
- हां, आप इसका उपयोग करके पैराग्राफों के माध्यम से पुनरावृत्ति कर सकते हैं`Paragraph` वर्ग के बजाय`Sections`.
+हां, आप इसका उपयोग करके पैराग्राफों के माध्यम से पुनरावृत्ति कर सकते हैं `Paragraph` वर्ग के बजाय `Sections`.
 
 ### क्या Aspose.Words for Java निःशुल्क है?
- नहीं, यह एक लाइसेंस प्राप्त उत्पाद है, लेकिन आप इसे मुफ्त में आज़मा सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+नहीं, यह एक लाइसेंस प्राप्त उत्पाद है, लेकिन आप इसे मुफ्त में आज़मा सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ### विभाजित फ़ाइलों को सहेजने के लिए कौन से प्रारूप समर्थित हैं?
- Aspose.Words विभिन्न प्रारूपों जैसे DOCX, PDF, HTML, और अधिक का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/words/java/) जानकारी के लिए।
+Aspose.Words विभिन्न प्रारूपों जैसे DOCX, PDF, HTML, और अधिक का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/java/) जानकारी के लिए।
 
 ### मैं अपने प्रोजेक्ट में Aspose.Words कैसे जोड़ूं?
- लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/java/) और इसे अपनी परियोजना निर्भरताओं में जोड़ें.
+लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/java/) और इसे अपनी परियोजना निर्भरताओं में जोड़ें.
 
 ### क्या मैं इस कोड का उपयोग वेब अनुप्रयोग में कर सकता हूँ?
 बिल्कुल! बस यह सुनिश्चित करें कि फ़ाइल I/O संचालन के लिए आवश्यक अनुमतियाँ कॉन्फ़िगर की गई हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

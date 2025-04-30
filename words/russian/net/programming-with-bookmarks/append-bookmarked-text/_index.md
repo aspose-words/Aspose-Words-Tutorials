@@ -1,14 +1,16 @@
 ---
-title: Добавить закладку текста в документ Word
-linktitle: Добавить закладку текста в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавить закладку текста в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Узнайте, как добавить закладку текста в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков."
+"linktitle": "Добавить закладку текста в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить закладку текста в документ Word"
+"url": "/ru/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить закладку текста в документ Word
@@ -21,9 +23,9 @@ url: /ru/net/programming-with-bookmarks/append-bookmarked-text/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words for .NET: Убедитесь, что он у вас установлен. Если нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что он у вас установлен. Если нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: любая среда разработки .NET, например Visual Studio.
-- Базовые знания C#: Понимание основных концепций программирования на C# будет полезно.
+- Базовые знания C#: понимание основных концепций программирования на C# будет полезно.
 - Документ Word с закладками: документ Word с настроенными закладками, которые мы будем использовать для добавления текста.
 
 ## Импорт пространств имен
@@ -121,16 +123,21 @@ dstDoc.Save("appended_document.docx");
 В текущем примере предполагается, что у них один и тот же родитель. Для разных родителей требуется более сложная обработка.
 
 ### Могу ли я сохранить исходное форматирование прилагаемого текста?
- Конечно!`ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение исходного форматирования.
+Конечно! `ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение исходного форматирования.
 
 ### Можно ли добавить текст в определенную позицию в целевом документе?
 Да, вы можете добавить текст в любую позицию, перейдя к нужному узлу в целевом документе.
 
 ### Что делать, если мне нужно добавить текст из закладки в новый раздел?
 Вы можете создать новый раздел в целевом документе и добавить туда текст.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

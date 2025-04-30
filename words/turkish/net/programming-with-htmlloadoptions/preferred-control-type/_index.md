@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Tercih Edilen Kontrol Türü
-linktitle: Word Belgesinde Tercih Edilen Kontrol Türü
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir Word belgesine birleşik kutu form alanı eklemeyi öğrenin. Sorunsuz HTML içerik entegrasyonu için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-htmlloadoptions/preferred-control-type/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesine birleşik kutu form alanı eklemeyi öğrenin. Sorunsuz HTML içerik entegrasyonu için bu adım adım kılavuzu izleyin."
+"linktitle": "Word Belgesinde Tercih Edilen Kontrol Türü"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Tercih Edilen Kontrol Türü"
+"url": "/tr/net/programming-with-htmlloadoptions/preferred-control-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Tercih Edilen Kontrol Türü
@@ -21,7 +23,7 @@ Aspose.Words for .NET'te HTML yükleme seçenekleriyle nasıl çalışılacağı
 
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 3. Temel C# Bilgisi: Eğitimi takip edebilmek için C# programlamanın temellerine dair bir anlayışa sahip olmak gerekir.
 4. HTML İçeriği: Bu örnekte HTML içeriğiyle çalışacağımız için temel HTML bilgisine sahip olmak faydalı olacaktır.
@@ -65,17 +67,17 @@ Sonra, Word belgenizin kaydedileceği dizini belirtin. Bu, dosyalarınızı düz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Word belgenizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Word belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 3: HTML Yükleme Seçeneklerini Yapılandırın
 
- Burada, özellikle HTML yükleme seçeneklerini yapılandırıyoruz.`PreferredControlType`özellik. Bu, birleşik kutunun Word belgesinde nasıl işleneceğini belirler.
+Burada, özellikle HTML yükleme seçeneklerini yapılandırıyoruz. `PreferredControlType` özellik. Bu, birleşik kutunun Word belgesinde nasıl işleneceğini belirler.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { PreferredControlType = HtmlControlType.StructuredDocumentTag };
 ```
 
- Ayarlayarak`PreferredControlType` ile`HtmlControlType.StructuredDocumentTag`, Word belgesinde birleşik kutunun yapılandırılmış belge etiketi (SDT) olarak görüntülenmesini sağlıyoruz.
+Ayarlayarak `PreferredControlType` ile `HtmlControlType.StructuredDocumentTag`, Word belgesinde birleşik kutunun yapılandırılmış belge etiketi (SDT) olarak görüntülenmesini sağlıyoruz.
 
 ## Adım 4: HTML İçeriğini Belgeye Yükleyin
 
@@ -110,17 +112,22 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 Evet, Aspose.Words for .NET çeşitli HTML denetim türlerini destekler. Word belgesinde farklı denetimlerin nasıl işleneceğini özelleştirebilirsiniz.
 
 ### Aspose.Words for .NET'te karmaşık HTML içeriğini nasıl işlerim?
- Aspose.Words for .NET, karmaşık öğeler de dahil olmak üzere HTML için kapsamlı destek sağlar.`HtmlLoadOptions`Belirli HTML içeriğinizi uygun şekilde işlemek için.
+Aspose.Words for .NET, karmaşık öğeler de dahil olmak üzere HTML için kapsamlı destek sağlar. `HtmlLoadOptions` Belirli HTML içeriğinizi uygun şekilde işlemek için.
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları ve örnekleri şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları ve örnekleri şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

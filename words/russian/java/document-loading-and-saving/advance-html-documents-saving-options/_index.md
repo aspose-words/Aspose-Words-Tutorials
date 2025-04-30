@@ -1,14 +1,16 @@
 ---
-title: Расширенные возможности сохранения HTML-документов с помощью Aspose.Words Java
-linktitle: Сохранение HTML-документов с помощью
-second_title: API обработки документов Java Aspose.Words
-description: В этом уроке мы рассмотрели различные расширенные возможности сохранения HTML-документов с помощью Aspose.Words for Java. Эти возможности позволяют вам создавать высококачественные HTML-документы
-weight: 16
-url: /ru/java/document-loading-and-saving/advance-html-documents-saving-options/
+"description": "В этом уроке мы рассмотрели различные расширенные возможности сохранения HTML-документов с помощью Aspose.Words for Java. Эти возможности позволяют вам создавать высококачественные HTML-документы"
+"linktitle": "Сохранение HTML-документов с помощью"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Расширенные возможности сохранения HTML-документов с помощью Aspose.Words Java"
+"url": "/ru/java/document-loading-and-saving/advance-html-documents-saving-options/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Расширенные возможности сохранения HTML-документов с помощью Aspose.Words Java
@@ -20,7 +22,7 @@ url: /ru/java/document-loading-and-saving/advance-html-documents-saving-options/
 Aspose.Words for Java позволяет вам работать с документами Word программно. В этом руководстве мы сосредоточимся на расширенных параметрах сохранения документов HTML, которые позволяют вам контролировать, как документы Word преобразуются в HTML.
 
 ## 2. Экспорт информации о круговом маршруте
- The`exportRoundtripInformation` Метод позволяет экспортировать документы Word в HTML, сохраняя информацию о передаче. Эта информация может быть полезна, когда вы хотите преобразовать HTML обратно в формат Word, не теряя никаких деталей, специфичных для документа.
+The `exportRoundtripInformation` Метод позволяет экспортировать документы Word в HTML, сохраняя информацию о передаче. Эта информация может быть полезна, когда вы хотите преобразовать HTML обратно в формат Word, не теряя никаких деталей, специфичных для документа.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -32,7 +34,7 @@ public void exportRoundtripInformation() throws Exception {
 ```
 
 ## 3. Экспорт шрифтов в формате Base64
- С`exportFontsAsBase64` Метод позволяет экспортировать шрифты, используемые в документе, в виде закодированных в Base64 данных в HTML. Это гарантирует, что представление HTML сохранит те же стили шрифтов, что и исходный документ Word.
+С `exportFontsAsBase64` Метод позволяет экспортировать шрифты, используемые в документе, в виде закодированных в Base64 данных в HTML. Это гарантирует, что представление HTML сохранит те же стили шрифтов, что и исходный документ Word.
 
 ```java
 
@@ -45,7 +47,7 @@ public void exportFontsAsBase64() throws Exception {
 ```
 
 ## 4. Экспорт ресурсов
- The`exportResources` Метод позволяет указать тип таблицы стилей CSS и экспортировать ресурсы шрифтов. Вы также можете задать папку ресурсов и псевдоним для ресурсов в HTML.
+The `exportResources` Метод позволяет указать тип таблицы стилей CSS и экспортировать ресурсы шрифтов. Вы также можете задать папку ресурсов и псевдоним для ресурсов в HTML.
 
 ```java
 
@@ -61,7 +63,7 @@ public void exportResources() throws Exception {
 ```
 
 ## 5. Конвертировать метафайлы в EMF или WMF
- The`convertMetafilesToEmfOrWmf`Метод позволяет преобразовывать метафайлы в документе в формат EMF или WMF, обеспечивая совместимость и плавную визуализацию в HTML.
+The `convertMetafilesToEmfOrWmf` Метод позволяет преобразовывать метафайлы в документе в формат EMF или WMF, обеспечивая совместимость и плавную визуализацию в HTML.
 
 ```java
 
@@ -82,7 +84,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 ```
 
 ## 6. Конвертировать метафайлы в SVG
- Используйте`convertMetafilesToSvg` метод преобразования метафайлов в формат SVG. Этот формат идеально подходит для отображения векторной графики в HTML-документах.
+Используйте `convertMetafilesToSvg` метод преобразования метафайлов в формат SVG. Этот формат идеально подходит для отображения векторной графики в HTML-документах.
 
 ```java
 
@@ -102,7 +104,7 @@ public void convertMetafilesToSvg() throws Exception {
 ```
 
 ## 7. Добавьте префикс имени класса CSS
- С`addCssClassNamePrefix` Метод позволяет добавлять префикс к именам классов CSS в экспортированном HTML. Это помогает предотвратить конфликты с существующими стилями.
+С `addCssClassNamePrefix` Метод позволяет добавлять префикс к именам классов CSS в экспортированном HTML. Это помогает предотвратить конфликты с существующими стилями.
 
 ```java
 
@@ -116,7 +118,7 @@ public void addCssClassNamePrefix() throws Exception {
 ```
 
 ## 8. Экспортируйте URL-адреса CID для ресурсов MHTML
- The`exportCidUrlsForMhtmlResources` Метод используется при сохранении документов в формате MHTML. Позволяет экспортировать URL Content-ID для ресурсов.
+The `exportCidUrlsForMhtmlResources` Метод используется при сохранении документов в формате MHTML. Позволяет экспортировать URL Content-ID для ресурсов.
 
 ```java
 
@@ -134,7 +136,7 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 ```
 
 ## 9. Разрешите названия шрифтов
- The`resolveFontNames` Метод помогает разрешать названия шрифтов при сохранении документов в формате HTML, обеспечивая единообразную визуализацию на разных платформах.
+The `resolveFontNames` Метод помогает разрешать названия шрифтов при сохранении документов в формате HTML, обеспечивая единообразную визуализацию на разных платформах.
 
 ```java
 
@@ -153,7 +155,7 @@ public void resolveFontNames() throws Exception {
 ```
 
 ## 10. Экспорт поля формы ввода текста как текста
- The`exportTextInputFormFieldAsText`метод экспортирует поля формы как обычный текст в HTML, что делает их легко читаемыми и редактируемыми.
+The `exportTextInputFormFieldAsText` метод экспортирует поля формы как обычный текст в HTML, что делает их легко читаемыми и редактируемыми.
 
 ```java
 
@@ -187,10 +189,10 @@ public void exportTextInputFormFieldAsText() throws Exception {
 Вот некоторые часто задаваемые вопросы о работе с Aspose.Words для Java и параметрах сохранения документов HTML:
 
 ### В1: Как преобразовать HTML обратно в формат Word с помощью Aspose.Words для Java?
- Чтобы преобразовать HTML обратно в формат Word, вы можете использовать API Aspose.Words`load` метод загрузки HTML-документа и последующего сохранения его в формате Word.
+Чтобы преобразовать HTML обратно в формат Word, вы можете использовать API Aspose.Words `load` метод загрузки HTML-документа и последующего сохранения его в формате Word.
 
 ### В2: Могу ли я настраивать стили CSS при экспорте в HTML?
-Да, вы можете настраивать стили CSS, изменяя таблицы стилей, используемые в HTML, или используя`addCssClassNamePrefix` метод добавления префикса к именам классов CSS.
+Да, вы можете настраивать стили CSS, изменяя таблицы стилей, используемые в HTML, или используя `addCssClassNamePrefix` метод добавления префикса к именам классов CSS.
 
 ### В3: Есть ли способ оптимизировать вывод HTML для отображения в Интернете?
 Да, вы можете оптимизировать вывод HTML для отображения на веб-сайтах, настроив такие параметры, как экспорт шрифтов в формате Base64 и преобразование метафайлов в SVG.
@@ -198,9 +200,14 @@ public void exportTextInputFormFieldAsText() throws Exception {
 ### В4: Существуют ли какие-либо ограничения при конвертации сложных документов Word в HTML?
 Хотя Aspose.Words для Java предоставляет мощные возможности конвертации, для получения желаемого результата в формате HTML сложным документам Word со сложной структурой может потребоваться дополнительная постобработка.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

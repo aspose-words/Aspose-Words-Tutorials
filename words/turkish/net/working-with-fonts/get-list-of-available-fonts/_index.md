@@ -1,27 +1,29 @@
 ---
-title: Mevcut Yazı Tiplerinin Listesini Alın
-linktitle: Mevcut Yazı Tiplerinin Listesini Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu detaylı adım adım eğitimde Aspose.Words for .NET kullanarak kullanılabilir yazı tiplerinin listesini nasıl alacağınızı keşfedin. Yazı tipi yönetimi becerilerinizi artırın.
-weight: 10
-url: /tr/net/working-with-fonts/get-list-of-available-fonts/
+"description": "Bu detaylı adım adım eğitimde Aspose.Words for .NET kullanarak kullanılabilir yazı tiplerinin listesini nasıl alacağınızı keşfedin. Yazı tipi yönetimi becerilerinizi artırın."
+"linktitle": "Mevcut Yazı Tiplerinin Listesini Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Mevcut Yazı Tiplerinin Listesini Alın"
+"url": "/tr/net/working-with-fonts/get-list-of-available-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mevcut Yazı Tiplerinin Listesini Alın
 
 ## giriiş
 
-Word belgelerinizdeki yazı tiplerini yönetmekte zorlanıyor musunuz? Eğer bir .NET geliştiricisiyseniz, Aspose.Words for .NET sizi kurtarmak için burada! Bu güçlü kütüphane, yalnızca Word belgelerini programatik olarak oluşturmanıza ve düzenlemenize yardımcı olmakla kalmaz, aynı zamanda kapsamlı yazı tipi yönetimi yetenekleri de sunar. Bu kılavuzda, Aspose.Words for .NET kullanarak kullanılabilir yazı tiplerinin bir listesini nasıl alacağınıza dair adım adım bir eğitimde size yol göstereceğiz. Kolayca takip edebilmeniz için bunu sindirilebilir adımlara böleceğiz. Hadi, başlayalım ve yazı tipi yönetimini çocuk oyuncağı haline getirelim!
+Word belgelerinizdeki yazı tiplerini yönetmekte zorlanıyor musunuz? Eğer bir .NET geliştiricisiyseniz, Aspose.Words for .NET sizi kurtarmak için burada! Bu güçlü kütüphane, yalnızca Word belgelerini programatik olarak oluşturmanıza ve düzenlemenize yardımcı olmakla kalmaz, aynı zamanda kapsamlı yazı tipi yönetimi yetenekleri de sunar. Bu kılavuzda, Aspose.Words for .NET kullanarak kullanılabilir yazı tiplerinin bir listesini nasıl alacağınıza dair adım adım bir eğitimde size yol göstereceğiz. Kolayca takip edebilmeniz için bunu sindirilebilir adımlara böleceğiz. Hadi, başlayalım ve yazı tipi yönetimini kolaylaştıralım!
 
 ## Ön koşullar
 
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 
--  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Visual Studio: Bu örnekte geliştirme ortamı olarak Visual Studio kullanılmıştır.
 - .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 - Belge Dizini: Belgelerinizin saklandığı dizin yolu.
@@ -57,7 +59,7 @@ Sonra, belge dizininize giden yolu belirtin. Aspose.Words'ün fontları arayaca�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Bu dize değişkeni, yazı tiplerinizin bulunduğu dizine giden yolu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
+- dataDir: Bu dize değişkeni, yazı tiplerinizin bulunduğu dizine giden yolu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
 
 ## Adım 3: Özel Yazı Tipi Klasörü Ekle
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FolderFontSource folderFontSource = new FolderFontSource(dataDir, true);
 ```
 
-- FolderFontSource: Bu sınıf bir klasör yazı tipi kaynağını temsil eder. İkinci parametre (`true`) alt klasörlerde yazı tiplerinin yinelemeli olarak aranıp aranmayacağını belirtir.
+- FolderFontSource: Bu sınıf bir klasör yazı tipi kaynağını temsil eder. İkinci parametre (`true`alt klasörlerde yazı tiplerinin yinelemeli olarak aranıp aranmayacağını belirtir.
 
 ## Adım 4: Yazı Tipi Kaynaklarını Güncelleyin
 
@@ -96,7 +98,7 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 ```
 
 - GetAvailableFonts(): Güncellenen listedeki ilk font kaynağından kullanılabilir fontların listesini alır.
--  fontInfo: Bir örneği`PhysicalFontInfo` Her yazı tipi hakkında ayrıntıları içeren.
+- fontInfo: Bir örneği `PhysicalFontInfo` Her yazı tipi hakkında ayrıntıları içeren.
 
 ## Çözüm
 
@@ -111,16 +113,21 @@ Evet, Aspose.Words for .NET, .NET Core ve .NET 5+ dahil olmak üzere çeşitli .
 Visual Studio'daki NuGet Paket Yöneticisi'ni kullanarak "Aspose.Words" ifadesini aratarak kurulumunu yapabilirsiniz.
 
 ### Birden fazla özel yazı tipi klasörü eklemek mümkün müdür?
- Evet, birden fazla özel yazı tipi klasörü oluşturarak birden fazla özel yazı tipi klasörü ekleyebilirsiniz.`FolderFontSource` örnekleri ve bunları yazı tipi kaynakları listesine ekleme.
+Evet, birden fazla özel yazı tipi klasörü oluşturarak birden fazla özel yazı tipi klasörü ekleyebilirsiniz. `FolderFontSource` örnekleri ve bunları yazı tipi kaynakları listesine ekleme.
 
 ### Belirli bir font kaynağından font ayrıntılarını alabilir miyim?
- Evet, font kaynağının dizinini belirterek herhangi bir font kaynağından font ayrıntılarını alabilirsiniz.`updatedFontSources` sıralamak.
+Evet, font kaynağının dizinini belirterek herhangi bir font kaynağından font ayrıntılarını alabilirsiniz. `updatedFontSources` sıralamak.
 
 ### Aspose.Words for .NET yazı tipi değiştirmeyi destekliyor mu?
 Evet, orijinal yazı tipi mevcut olmasa bile metnin doğru şekilde işlenmesini sağlamak için yazı tipi değiştirmeyi destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

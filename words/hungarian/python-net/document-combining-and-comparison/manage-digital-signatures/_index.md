@@ -1,33 +1,35 @@
 ---
-title: digitális aláírások és a hitelesség kezelése
-linktitle: digitális aláírások és a hitelesség kezelése
-second_title: Aspose.Words Python Document Management API
-description: Ismerje meg a digitális aláírások kezelését és a dokumentumok hitelességének biztosítását az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
-weight: 17
-url: /hu/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Tanulja meg, hogyan kezelheti a digitális aláírásokat és biztosíthatja a dokumentumok hitelességét az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal."
+"linktitle": "Digitális aláírások és hitelesség kezelése"
+"second_title": "Aspose.Words Python dokumentumkezelő API"
+"title": "Digitális aláírások és hitelesség kezelése"
+"url": "/hu/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# digitális aláírások és a hitelesség kezelése
+# Digitális aláírások és hitelesség kezelése
 
 ## Bevezetés a digitális aláírásokba
 
-A digitális aláírások a kézzel írott aláírások elektronikus megfelelőiként szolgálnak. Módot biztosítanak az elektronikus dokumentumok hitelességének, integritásának és eredetének ellenőrzésére. Amikor egy dokumentumot digitálisan aláírnak, a dokumentum tartalma alapján kriptográfiai hash jön létre. Ezt a hash-t ezután az aláíró privát kulcsával titkosítják, létrehozva a digitális aláírást. Bárki, aki rendelkezik a megfelelő nyilvános kulccsal, ellenőrizheti az aláírást és meggyőződhet a dokumentum hitelességéről.
+digitális aláírások a kézzel írott aláírások elektronikus megfelelőiként szolgálnak. Lehetőséget biztosítanak az elektronikus dokumentumok hitelességének, integritásának és eredetének ellenőrzésére. Amikor egy dokumentumot digitálisan aláírnak, a dokumentum tartalma alapján kriptográfiai hash generálódik. Ezt a hash-t ezután az aláíró privát kulcsával titkosítják, létrehozva a digitális aláírást. Bárki, aki rendelkezik a megfelelő nyilvános kulccsal, ellenőrizheti az aláírást és megállapíthatja a dokumentum hitelességét.
 
-## Az Aspose.Words beállítása a Python számára
+## Az Aspose.Words beállítása Pythonhoz
 
 A digitális aláírások Aspose.Words for Python használatával történő kezelésének megkezdéséhez kövesse az alábbi lépéseket:
 
-1. Az Aspose.Words telepítése: Az Aspose.Words for Python a pip használatával a következő paranccsal telepíthető:
+1. Aspose.Words telepítése: Az Aspose.Words Pythonhoz való telepítéséhez használhatja a pip parancsot a következő paranccsal:
    
    ```python
    pip install aspose-words
    ```
 
-2. Importálja a szükséges modulokat: Importálja a szükséges modulokat a Python-szkriptbe:
+2. Importálja a szükséges modulokat: Importálja a szükséges modulokat a Python szkriptbe:
    
    ```python
    import aspose.words as aw
@@ -35,21 +37,21 @@ A digitális aláírások Aspose.Words for Python használatával történő kez
 
 ## Dokumentumok betöltése és elérése
 
-A digitális aláírások hozzáadása vagy ellenőrzése előtt be kell töltenie a dokumentumot az Aspose.Words használatával:
+Digitális aláírások hozzáadása vagy ellenőrzése előtt be kell töltenie a dokumentumot az Aspose.Words használatával:
 
 ```python
 document = aw.Document("document.docx")
 ```
 
-## Digitális aláírás hozzáadása a dokumentumokhoz
+## Digitális aláírások hozzáadása dokumentumokhoz
 
-Ha digitális aláírást szeretne hozzáadni egy dokumentumhoz, digitális tanúsítványra lesz szüksége:
+Digitális aláírás hozzáadásához egy dokumentumhoz digitális tanúsítványra lesz szüksége:
 
 ```python
 certificate_holder = aw.digitalsignatures.CertificateHolder.create("certificate.pfx", "password")
 ```
 
-Most írja alá a dokumentumot:
+Most írd alá a dokumentumot:
 
 ```python
 aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + "Digitally signed.docx",
@@ -58,7 +60,7 @@ aw.digitalsignatures.DigitalSignatureUtil.sign(MY_DIR + "Digitally signed.docx",
 
 ## Digitális aláírások ellenőrzése
 
-Ellenőrizze az aláírt dokumentum hitelességét az Aspose.Words használatával:
+Az aláírt dokumentum hitelességének ellenőrzése az Aspose.Words használatával:
 
 ```python
 for signature in document.digital_signatures:
@@ -68,7 +70,7 @@ for signature in document.digital_signatures:
         print("Signature is invalid.")
 ```
 
-## A digitális aláírás megjelenésének testreszabása
+## Digitális aláírás megjelenésének testreszabása
 
 Testreszabhatja a digitális aláírások megjelenését:
 
@@ -80,32 +82,37 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Következtetés
 
-A digitális aláírások kezelése és a dokumentumok hitelességének biztosítása kritikus fontosságú a mai digitális környezetben. Az Aspose.Words for Python leegyszerűsíti a digitális aláírások hozzáadásának, ellenőrzésének és testreszabásának folyamatát, lehetővé téve a fejlesztők számára, hogy javítsák dokumentumaik biztonságát és megbízhatóságát.
+A digitális aláírások kezelése és a dokumentumok hitelességének biztosítása kritikus fontosságú a mai digitális környezetben. Az Aspose.Words for Python leegyszerűsíti a digitális aláírások hozzáadásának, ellenőrzésének és testreszabásának folyamatát, lehetővé téve a fejlesztők számára, hogy fokozzák dokumentumaik biztonságát és megbízhatóságát.
 
 ## GYIK
 
 ### Hogyan működnek a digitális aláírások?
 
-digitális aláírások kriptográfiát használnak a dokumentum tartalma alapján egyedi hash létrehozására, amelyet az aláíró privát kulcsával titkosítanak.
+A digitális aláírások kriptográfiát használnak, hogy a dokumentum tartalma alapján egyedi hash-t generáljanak, amelyet az aláíró privát kulcsával titkosítanak.
 
-### Meg lehet-e manipulálni a digitálisan aláírt dokumentumot?
+### Meg lehet manipulálni egy digitálisan aláírt dokumentumot?
 
-Nem, a digitálisan aláírt dokumentum megváltoztatása érvénytelenítené az aláírást, jelezve az esetleges jogosulatlan módosításokat.
+Nem, egy digitálisan aláírt dokumentum manipulálása érvénytelenítené az aláírást, ami potenciálisan jogosulatlan változtatásokra utal.
 
-### Több aláírás is hozzáadható egyetlen dokumentumhoz?
+### Lehet több aláírást hozzáadni egyetlen dokumentumhoz?
 
-Igen, több digitális aláírást is hozzáadhat egyetlen dokumentumhoz, mindegyiket más-más aláírótól.
+Igen, egyetlen dokumentumhoz több digitális aláírást is hozzáadhat, mindegyiket más-más aláírótól.
 
 ### Milyen típusú tanúsítványok kompatibilisek?
 
 Az Aspose.Words támogatja az X.509 tanúsítványokat, beleértve a PFX fájlokat is, amelyeket általában digitális aláírásokhoz használnak.
 
-### A digitális aláírások jogilag érvényesek?
+### Jogilag érvényesek-e a digitális aláírások?
 
-Igen, a digitális aláírások sok országban jogilag érvényesek, és gyakran egyenértékűek a kézzel írott aláírásokkal.
+Igen, a digitális aláírások jogilag sok országban érvényesek, és gyakran egyenértékűnek tekintik őket a kézzel írott aláírásokkal.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

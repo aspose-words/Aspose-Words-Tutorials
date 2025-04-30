@@ -1,14 +1,16 @@
 ---
-title: Opanowanie zaawansowanych ustawień zapisywania dokumentów
-linktitle: Opanowanie zaawansowanych ustawień zapisywania dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Opanuj zaawansowane ustawienia zapisywania dokumentów dzięki Aspose.Words dla Java. Naucz się formatować, chronić, optymalizować i automatyzować tworzenie dokumentów bez wysiłku.
-weight: 13
-url: /pl/java/word-processing/mastering-advanced-save-settings/
+"description": "Opanuj zaawansowane ustawienia zapisywania dokumentów dzięki Aspose.Words dla Java. Naucz się formatować, chronić, optymalizować i automatyzować tworzenie dokumentów bez wysiłku."
+"linktitle": "Opanowanie zaawansowanych ustawień zapisywania dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Opanowanie zaawansowanych ustawień zapisywania dokumentów"
+"url": "/pl/java/word-processing/mastering-advanced-save-settings/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opanowanie zaawansowanych ustawień zapisywania dokumentów
@@ -34,14 +36,14 @@ Dowiedz się, jak określić format i orientację dokumentów. Niezależnie od t
 Document doc = new Document();
 doc.save("output.docx");
 
-//Ustaw orientację strony na poziomą
+// Ustaw orientację strony na poziomą
 Document docLandscape = new Document();
 PageSetup pageSetup = docLandscape.getFirstSection().getPageSetup();
 pageSetup.setOrientation(Orientation.LANDSCAPE);
 docLandscape.save("landscape.docx");
 ```
 
-## Kontrola marginesów strony
+## Kontrolowanie marginesów strony
 
 Marginesy stron odgrywają istotną rolę w układzie dokumentu. Dowiedz się, jak dostosować i dostosować marginesy stron, aby spełnić określone wymagania dotyczące formatowania.
 
@@ -58,7 +60,7 @@ doc.save("custom_margins.docx");
 
 ## Zarządzanie nagłówkami i stopkami
 
-Nagłówki i stopki często zawierają krytyczne informacje. Dowiedz się, jak zarządzać nagłówkami i stopkami w dokumentach i jak je dostosowywać.
+Nagłówki i stopki często zawierają krytyczne informacje. Dowiedz się, jak zarządzać nagłówkami i stopkami w dokumentach i je dostosowywać.
 
 ```java
 // Dodaj nagłówek do pierwszej strony
@@ -191,7 +193,7 @@ Nawet najlepsi programiści napotykają problemy. W tej sekcji zajmiemy się typ
 
 ### Jak ustawić rozmiar strony na A4?
 
- Aby ustawić rozmiar strony na A4, możesz użyć`PageSetup` klasę i określ rozmiar papieru w następujący sposób:
+Aby ustawić rozmiar strony na A4, możesz użyć `PageSetup` klasę i określ rozmiar papieru w następujący sposób:
 
 ```java
 Document doc = new Document();
@@ -210,7 +212,7 @@ doc.protect(ProtectionType.READ_ONLY, "my_password");
 
 ### Jak mogę dodać znak wodny do mojego dokumentu?
 
- Aby dodać znak wodny, możesz użyć`Shape` klasę i dostosować jej wygląd i położenie w dokumencie.
+Aby dodać znak wodny, możesz użyć `Shape` klasę i dostosować jej wygląd i położenie w dokumencie.
 
 ```java
 Document doc = new Document();
@@ -253,12 +255,17 @@ doc1.compare(doc2, "comparison_result.docx");
 
 ## Wniosek
 
-Opanowanie zaawansowanych ustawień zapisywania dokumentów za pomocą Aspose.Words for Java otwiera świat możliwości przetwarzania dokumentów. Niezależnie od tego, czy optymalizujesz rozmiar dokumentu, chronisz poufne informacje, czy automatyzujesz generowanie dokumentów, Aspose.Words for Java pozwala Ci z łatwością osiągnąć swoje cele.
+Opanowanie zaawansowanych ustawień zapisywania dokumentów przy użyciu Aspose.Words for Java otwiera świat możliwości przetwarzania dokumentów. Niezależnie od tego, czy optymalizujesz rozmiar dokumentu, chronisz poufne informacje, czy automatyzujesz generowanie dokumentów, Aspose.Words for Java pozwala Ci z łatwością osiągnąć swoje cele.
 
 Teraz, uzbrojony w tę wiedzę, możesz przenieść swoje umiejętności przetwarzania dokumentów na nowy poziom. Odkryj moc Aspose.Words dla Java i twórz dokumenty, które spełniają Twoje dokładne wymagania.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

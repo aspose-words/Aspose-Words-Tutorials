@@ -1,14 +1,16 @@
 ---
-title: Вставить поле формы ввода текста в документ Word
-linktitle: Вставить поле формы ввода текста в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить поле формы ввода текста в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для создания интерактивных форм.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/insert-text-input-form-field/
+"description": "Узнайте, как вставить поле формы ввода текста в документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для создания интерактивных форм."
+"linktitle": "Вставить поле формы ввода текста в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле формы ввода текста в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/insert-text-input-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле формы ввода текста в документ Word
@@ -21,10 +23,10 @@ url: /ru/net/add-content-using-documentbuilder/insert-text-input-form-field/
 
 Прежде чем мы начнем, вам понадобится несколько вещей:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее с[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее с [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Среда разработки: интегрированная среда разработки (IDE), такая как Visual Studio.
 3. Базовое понимание C#: знакомство с языком программирования C# и платформой .NET.
-4.  Временная лицензия (необязательно): если вы оцениваете Aspose.Words, вам может потребоваться получить[временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы избежать каких-либо ограничений.
+4. Временная лицензия (необязательно): если вы оцениваете Aspose.Words, вам может потребоваться получить [временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы избежать каких-либо ограничений.
 
 ## Импорт пространств имен
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Создайте новый документ
 
- Далее нам нужно создать новый экземпляр`Document` класс. Это представляет собой документ Word, с которым мы будем работать.
+Далее нам нужно создать новый экземпляр `Document` класс. Это представляет собой документ Word, с которым мы будем работать.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +57,7 @@ Document doc = new Document();
 
 ## Шаг 3: Инициализация DocumentBuilder
 
- The`DocumentBuilder` class — наш основной инструмент для добавления контента в документ. Представьте его как ручку, которая пишет на холсте документа Word.
+The `DocumentBuilder` class — наш основной инструмент для добавления контента в документ. Представьте его как ручку, которая пишет на холсте документа Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,14 +65,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 4: Вставьте поле формы ввода текста
 
- Вот где происходит волшебство. Мы будем использовать`InsertTextInput` Метод`DocumentBuilder` класс для добавления поля формы ввода текста. Это поле формы позволит пользователям вводить текст в документ.
+Вот где происходит волшебство. Мы будем использовать `InsertTextInput` Метод `DocumentBuilder` класс для добавления поля формы ввода текста. Это поле формы позволит пользователям вводить текст в документ.
 
 ```csharp
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Hello", 0);
 ```
 
 - Имя: «TextInput» — это имя поля формы.
--  Тип:`TextFormFieldType.Regular` Это указывает на то, что поле формы представляет собой обычный текстовый ввод.
+- Тип: `TextFormFieldType.Regular` - Это указывает на то, что поле формы представляет собой обычный текстовый ввод.
 - Текст по умолчанию: "" — это текст по умолчанию, отображаемый в поле формы (в данном случае пустом).
 - Значение: «Hello» — начальное значение поля формы.
 - Максимальная длина: 0 — не устанавливает ограничений на длину входных данных.
@@ -99,14 +101,19 @@ Aspose.Words предлагает бесплатную пробную верси
 Поля формы ввода текста используются в документах Word, чтобы позволить пользователям вводить текст в предопределенные области, что делает их идеальными для форм и шаблонов.
 
 ### Как настроить внешний вид поля формы?
- Вы можете настроить внешний вид полей формы, используя различные свойства`DocumentBuilder` класс, такой как шрифт, размер и выравнивание.
+Вы можете настроить внешний вид полей формы, используя различные свойства `DocumentBuilder` класс, такой как шрифт, размер и выравнивание.
 
 ### Где я могу найти больше руководств по Aspose.Words для .NET?
- Дополнительные руководства и документацию можно найти на сайте[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Дополнительные руководства и документацию можно найти на сайте [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

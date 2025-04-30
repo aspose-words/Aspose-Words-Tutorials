@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-formatting/paragraph-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Paragraph Formatting In Word Document
@@ -115,9 +118,13 @@ Absolutely! Aspose.Words for .NET supports a wide range of formatting options, a
 ### Where can I find more detailed documentation and support?
 You can access the detailed documentation [here](https://reference.aspose.com/words/net/) and seek support [here](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

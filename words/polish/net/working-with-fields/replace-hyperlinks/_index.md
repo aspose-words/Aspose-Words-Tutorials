@@ -1,14 +1,16 @@
 ---
-title: Zamień hiperłącza
-linktitle: Zamień hiperłącza
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zastępować hiperłącza w dokumentach .NET za pomocą Aspose.Words, co pozwala na efektywne zarządzanie dokumentami i dynamiczną aktualizację treści.
-weight: 10
-url: /pl/net/working-with-fields/replace-hyperlinks/
+"description": "Dowiedz się, jak zastępować hiperłącza w dokumentach .NET za pomocą Aspose.Words, co pozwala na efektywne zarządzanie dokumentami i dynamiczną aktualizację treści."
+"linktitle": "Zamień hiperłącza"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zamień hiperłącza"
+"url": "/pl/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień hiperłącza
@@ -22,7 +24,7 @@ W świecie rozwoju .NET zarządzanie dokumentami i manipulowanie nimi jest klucz
 Zanim przejdziesz do zastępowania hiperłączy za pomocą Aspose.Words dla platformy .NET, upewnij się, że masz następujące elementy:
 
 - Visual Studio: zainstalowany i skonfigurowany na potrzeby tworzenia oprogramowania .NET.
--  Aspose.Words dla .NET: Pobrano i przywołano w projekcie. Można pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobrano i przywołano w projekcie. Można pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Znajomość języka C#: podstawowa umiejętność pisania i kompilowania kodu.
 
 ## Importuj przestrzenie nazw
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 Zacznij od załadowania dokumentu, w którym chcesz zastąpić hiperłącza:
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- Zastępować`"Hyperlinks.docx"` ze ścieżką do Twojego dokumentu.
+Zastępować `"Hyperlinks.docx"` ze ścieżką do Twojego dokumentu.
 
 ## Krok 2: Iteruj po polach
 
@@ -74,10 +76,10 @@ foreach (Field field in doc.Range.Fields)
 Na koniec zapisz zmodyfikowany dokument z zastąpionymi hiperlinkami:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.ZastępowaćHyperlinks.docx");
 ```
 
- Zastępować`"WorkingWithFields.ReplaceHyperlinks.docx"` z żądaną ścieżką do pliku wyjściowego.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` z żądaną ścieżką do pliku wyjściowego.
 
 ## Wniosek
 
@@ -89,19 +91,23 @@ Zastępowanie hiperłączy w dokumentach za pomocą Aspose.Words dla .NET jest p
 Tak, Aspose.Words bezproblemowo obsługuje złożone struktury, takie jak tabele, obrazy i hiperłącza.
 
 ### Czy jest dostępna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Words dla .NET?
- Można uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+Można uzyskać licencje tymczasowe [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie opcje wsparcia są dostępne dla Aspose.Words dla .NET?
- Możesz uzyskać wsparcie społeczności lub przesłać zapytania na[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie społeczności lub przesłać zapytania na [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

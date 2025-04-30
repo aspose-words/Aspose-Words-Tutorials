@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/append-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Append Document
@@ -107,9 +110,13 @@ You can get support by visiting the [Aspose support forum](https://forum.aspose.
 
 Yes, Aspose.Words supports various formats, and you can append documents of different formats, such as DOCX, DOC, RTF, etc.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

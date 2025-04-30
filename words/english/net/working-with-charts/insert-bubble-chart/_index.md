@@ -6,8 +6,11 @@ description: Learn how to insert a Bubble chart into a Word document using Aspos
 keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
 url: /net/working-with-charts/insert-bubble-chart/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert a Bubble Chart in Word Using Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-charts/insert-bubble-chart/
 Easily add a Bubble chart to your Word document using Aspose.Words for .NET! This guide walks you through creating a new document, inserting a Bubble chart, adding data series with X, Y, and size values, and saving the document. With Aspose.Words, handling Word documents programmatically has never been easier.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
@@ -42,8 +48,12 @@ Easily add a Bubble chart to your Word document using Aspose.Words for .NET! Thi
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

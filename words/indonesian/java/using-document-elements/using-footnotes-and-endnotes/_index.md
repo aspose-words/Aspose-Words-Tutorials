@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Catatan Kaki dan Catatan Akhir di Aspose.Words untuk Java
-linktitle: Menggunakan Catatan Kaki dan Catatan Akhir
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan catatan kaki dan catatan akhir secara efektif di Aspose.Words untuk Java. Tingkatkan keterampilan pemformatan dokumen Anda hari ini!
-weight: 13
-url: /id/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Pelajari cara menggunakan catatan kaki dan catatan akhir secara efektif di Aspose.Words untuk Java. Tingkatkan keterampilan pemformatan dokumen Anda hari ini!"
+"linktitle": "Menggunakan Catatan Kaki dan Catatan Akhir"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Catatan Kaki dan Catatan Akhir di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Catatan Kaki dan Catatan Akhir di Aspose.Words untuk Java
@@ -123,7 +125,7 @@ Sekarang setelah Anda mempelajari cara menggunakan catatan kaki dan catatan akhi
 Catatan kaki muncul di bagian bawah halaman, sedangkan catatan akhir dikumpulkan di akhir bagian atau dokumen.
 
 ### 2. Bagaimana cara mengubah posisi catatan kaki atau catatan akhir?
- Anda dapat menggunakan`setPosition` metode untuk mengubah posisi catatan kaki atau catatan akhir.
+Anda dapat menggunakan `setPosition` metode untuk mengubah posisi catatan kaki atau catatan akhir.
 
 ### 3. Dapatkah saya menyesuaikan format catatan kaki dan catatan akhir?
 Ya, Anda dapat menyesuaikan format catatan kaki dan catatan akhir menggunakan Aspose.Words untuk Java.
@@ -132,9 +134,14 @@ Ya, Anda dapat menyesuaikan format catatan kaki dan catatan akhir menggunakan As
 Ya, catatan kaki dan catatan akhir penting untuk menyediakan referensi dan informasi tambahan dalam dokumen.
 
 Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Words untuk Java dan meningkatkan kemampuan pembuatan dokumen Anda. Selamat membuat kode!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

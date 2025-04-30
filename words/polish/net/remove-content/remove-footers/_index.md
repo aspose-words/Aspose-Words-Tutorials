@@ -1,14 +1,16 @@
 ---
-title: Usuń stopki w dokumencie Word
-linktitle: Usuń stopki w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usuwać stopki z dokumentów Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/remove-content/remove-footers/
+"description": "Dowiedz się, jak usuwać stopki z dokumentów Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Usuń stopki w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń stopki w dokumencie Word"
+"url": "/pl/net/remove-content/remove-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń stopki w dokumencie Word
@@ -21,7 +23,7 @@ Czy kiedykolwiek miałeś problem z usunięciem stopek z dokumentu Word? Nie jes
 
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz je ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework.
 - Zintegrowane środowisko programistyczne (IDE): najlepiej Visual Studio, zapewniające bezproblemową integrację i środowisko kodowania.
 
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "Header and footer types.docx");
 ```
 
 - dataDir: Ta zmienna przechowuje ścieżkę do katalogu dokumentów.
--  Dokument doc: Ten wiersz ładuje dokument do`doc` obiekt.
+- Dokument doc: Ten wiersz ładuje dokument do `doc` obiekt.
 
 ## Krok 2: Iteruj po sekcjach
 
@@ -93,27 +95,32 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 
 ## Wniosek
 
-masz! Udało Ci się usunąć stopki z dokumentu Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami Word, oszczędzając Ci czasu i wysiłku. Niezależnie od tego, czy masz do czynienia z dokumentami jednostronicowymi, czy raportami wielosekcyjnymi, Aspose.Words dla .NET ma dla Ciebie rozwiązanie.
+I masz! Udało Ci się usunąć stopki z dokumentu Word za pomocą Aspose.Words dla .NET. Ta potężna biblioteka ułatwia programowe manipulowanie dokumentami Word, oszczędzając Ci czasu i wysiłku. Niezależnie od tego, czy masz do czynienia z dokumentami jednostronicowymi, czy raportami wielosekcyjnymi, Aspose.Words dla .NET ma dla Ciebie rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę usunąć nagłówki, stosując tę samą metodę?
- Tak, możesz użyć podobnego podejścia, aby usunąć nagłówki, uzyskując dostęp do`HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary` , I`HeaderFooterType.HeaderEven`.
+Tak, możesz użyć podobnego podejścia, aby usunąć nagłówki, uzyskując dostęp do `HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary`, I `HeaderFooterType.HeaderEven`.
 
 ### Czy korzystanie z Aspose.Words dla .NET jest bezpłatne?
- Aspose.Words dla .NET jest produktem komercyjnym, ale można uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować jego funkcje.
+Aspose.Words dla .NET jest produktem komercyjnym, ale można uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować jego funkcje.
 
 ### Czy mogę manipulować innymi elementami dokumentu Word za pomocą Aspose.Words?
 Oczywiście! Aspose.Words zapewnia rozbudowane funkcjonalności do manipulowania tekstem, obrazami, tabelami i innymi elementami w dokumentach Word.
 
 ### Jakie wersje platformy .NET obsługuje Aspose.Words?
-Aspose.Words obsługuje różne wersje środowiska .NET, w tym .NET Core.
+Aspose.Words obsługuje różne wersje platformy .NET, w tym .NET Core.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację i pomoc?
- Możesz uzyskać dostęp do szczegółowych informacji[dokumentacja](https://reference.aspose.com/words/net/) i uzyskaj wsparcie w zakresie[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać dostęp do szczegółowych informacji [dokumentacja](https://reference.aspose.com/words/net/) i uzyskaj wsparcie w zakresie [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

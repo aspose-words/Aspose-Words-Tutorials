@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Bölüme Taşı
-linktitle: Word Belgesinde Bölüme Taşı
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki farklı bölümlere nasıl taşınacağınızı öğrenin.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/move-to-section/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki farklı bölümlere nasıl taşınacağınızı öğrenin."
+"linktitle": "Word Belgesinde Bölüme Taşı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Bölüme Taşı"
+"url": "/tr/net/add-content-using-documentbuilder/move-to-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Bölüme Taşı
@@ -22,8 +24,8 @@ Günümüzün dijital dünyasında, otomasyon üretkenliği artırmanın anahtar
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olması gerekiyor.
-2.  Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin:[indirme bağlantısı](https://releases.aspose.com/words/net/).
-3. Temel C# Bilgisi: C# programlama diline aşinalık faydalı olacaktır.
+2. Aspose.Words for .NET: Aspose.Words for .NET'i şuradan indirin ve yükleyin: [indirme bağlantısı](https://releases.aspose.com/words/net/).
+3. Temel C# Bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -66,7 +68,7 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 ## Adım 4: Belgenin Başına Git
 
-Bir tane oluşturduğunuzda`DocumentBuilder` Bir belge için imleç varsayılan olarak en baştadır.
+Bir tane oluşturduğunuzda `DocumentBuilder` Bir belge için imleç varsayılan olarak en baştadır.
 
 ```csharp
 builder = new DocumentBuilder(doc);
@@ -88,23 +90,28 @@ Aspose.Words for .NET, Word belgelerini programatik olarak yönetmeyi inanılmaz
 ## SSS
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Aspose.Words for .NET'i şu adresten indirip yükleyebilirsiniz:[indirme bağlantısı](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i şu adresten indirip yükleyebilirsiniz: [indirme bağlantısı](https://releases.aspose.com/words/net/).
 
 ### Aspose.Words for .NET'i diğer .NET dilleriyle birlikte kullanabilir miyim?
 Evet, Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere tüm .NET dillerini destekler.
 
 ### Ücretsiz deneme imkanı var mı?
- Evet, ücretsiz denemeye şuradan erişebilirsiniz:[ücretsiz deneme bağlantısı](https://releases.aspose.com/).
+Evet, ücretsiz denemeye şuradan erişebilirsiniz: [ücretsiz deneme bağlantısı](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Destek alabilirsiniz[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'i ticari bir projede kullanabilir miyim?
- Evet, ancak bir lisans satın almanız gerekiyor[satın alma bağlantısı](https://purchase.aspose.com/buy).
+Evet, ancak bir lisans satın almanız gerekiyor [satın alma bağlantısı](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

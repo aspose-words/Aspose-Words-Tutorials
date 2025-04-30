@@ -1,14 +1,16 @@
 ---
-title: Łączenie i porównywanie dokumentów w programie Word
-linktitle: Łączenie i porównywanie dokumentów w programie Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Łącz i porównuj dokumenty Word bez wysiłku, korzystając z Aspose.Words dla Pythona. Dowiedz się, jak manipulować dokumentami, wyróżniać różnice i automatyzować zadania.
-weight: 10
-url: /pl/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "Łącz i porównuj dokumenty Word bez wysiłku, korzystając z Aspose.Words dla Pythona. Dowiedz się, jak manipulować dokumentami, wyróżniać różnice i automatyzować zadania."
+"linktitle": "Łączenie i porównywanie dokumentów w programie Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Łączenie i porównywanie dokumentów w programie Word"
+"url": "/pl/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie i porównywanie dokumentów w programie Word
@@ -109,14 +111,19 @@ Oczywiście! Aspose.Words umożliwia automatyczne generowanie i manipulację dok
 
 ### Czy mogę połączyć więcej niż dwa dokumenty za pomocą tej biblioteki?
 
-Tak, możesz połączyć dowolną liczbę dokumentów za pomocą`append_document` metodą, jak pokazano w samouczku.
+Tak, możesz połączyć dowolną liczbę dokumentów za pomocą `append_document` metodą, jak pokazano w samouczku.
 
 ### Gdzie mogę uzyskać dostęp do biblioteki i zasobów?
 
- Uzyskaj dostęp do biblioteki i dowiedz się więcej na stronie[Tutaj](https://releases.aspose.com/words/python/).
+Uzyskaj dostęp do biblioteki i dowiedz się więcej na stronie [Tutaj](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

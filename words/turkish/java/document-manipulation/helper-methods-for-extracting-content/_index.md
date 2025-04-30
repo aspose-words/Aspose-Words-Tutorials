@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de İçerik Çıkarmak İçin Yardımcı Yöntemler
-linktitle: İçerik Çıkarmak İçin Yardımcı Yöntemler
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak Word belgelerinden içerikleri etkili bir şekilde nasıl çıkaracağınızı öğrenin. Bu kapsamlı kılavuzda yardımcı yöntemleri, özel biçimlendirmeyi ve daha fazlasını keşfedin.
-weight: 14
-url: /tr/java/document-manipulation/helper-methods-for-extracting-content/
+"description": "Aspose.Words for Java kullanarak Word belgelerinden içerikleri etkili bir şekilde nasıl çıkaracağınızı öğrenin. Bu kapsamlı kılavuzda yardımcı yöntemleri, özel biçimlendirmeyi ve daha fazlasını keşfedin."
+"linktitle": "İçerik Çıkarmak İçin Yardımcı Yöntemler"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de İçerik Çıkarmak İçin Yardımcı Yöntemler"
+"url": "/tr/java/document-manipulation/helper-methods-for-extracting-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de İçerik Çıkarmak İçin Yardımcı Yöntemler
@@ -20,7 +22,7 @@ Aspose.Words for Java, geliştiricilerin Word belgeleriyle programatik olarak ç
 
 ## Ön koşullar
 
-Kod örneklerine dalmadan önce, Java projenizde Aspose.Words for Java'nın yüklü ve ayarlanmış olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Kod örneklerine dalmadan önce, Java projenizde Aspose.Words for Java'nın yüklü ve ayarlanmış olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Yardımcı Yöntem 1: Stile Göre Paragrafları Çıkarma
 
@@ -48,7 +50,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     // Öncelikle bu metoda geçirilen düğümlerin kullanıma uygun olup olmadığı kontrol edilmelidir.
     verifyParameterNodes(startNode, endNode);
     
-    // Çıkarılan düğümleri saklamak için bir liste oluşturun.
+    // Çıkarılan düğümleri depolamak için bir liste oluşturun.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
     // İşaretçilerden biri yorumun bir parçasıysa, yorumun kendisi de dahil olmak üzere, işaretçiyi hareket ettirmemiz gerekir
@@ -59,11 +61,11 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
             endNode = node;
     }
     
-    // Gerektiğinde işaretleyici düğümleri bölmek için bu yönteme geçirilen orijinal düğümlerin bir kaydını tutun.
+    // Gerektiğinde işaretçi düğümlerini bölmek için bu yönteme geçirilen orijinal düğümlerin bir kaydını tutun.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    //Blok düzeyindeki düğümlere (paragraflar ve tablolar) dayalı içerik çıkarın. Bunları bulmak için üst düğümler arasında gezinin.
+    // Blok düzeyindeki düğümlere (paragraflar ve tablolar) dayalı içerik çıkarın. Bunları bulmak için üst düğümler arasında gezinin.
     // İşaretleyici düğümlerin satır içi olup olmamasına bağlı olarak ilk ve son düğümlerin içeriğini böleceğiz.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
@@ -89,7 +91,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            //Blok düzeyindeki başlangıç ve bitiş belirteçleri aynı düğüm olabileceğinden, koşulun ayrı olması gerekir.
+            // Blok düzeyindeki başlangıç ve bitiş belirteçleri aynı düğüm olabileceğinden, koşulun ayrı olması gerekir.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
@@ -99,7 +101,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
             // Düğüm bir başlangıç veya bitiş belirteci değildir, sadece kopyayı listeye ekleyin.
             nodes.add(cloneNode);
 
-        // Sonraki düğüme geçin ve onu çıkarın. Sonraki düğüm boşsa,
+        // Sonraki düğüme geçin ve onu ayıklayın. Sonraki düğüm boşsa,
         // İçeriğin geri kalanı farklı bir bölümde bulunmaktadır.
         if (currNode.getNextSibling() == null && isExtracting) {
             // Bir sonraki bölüme geçin.
@@ -152,7 +154,7 @@ Word belgelerinden içerik çıkarmak birçok belge işleme görevinin önemli b
 
 ### Java için Aspose.Words'ü nasıl kurabilirim?
 
- Aspose.Words for Java'yı yüklemek için Aspose web sitesinden indirebilirsiniz. Ziyaret edin[Burada](https://releases.aspose.com/words/java/) En son sürümü edinmek için.
+Aspose.Words for Java'yı yüklemek için Aspose web sitesinden indirebilirsiniz. Ziyaret edin [Burada](https://releases.aspose.com/words/java/) En son sürümü edinmek için.
 
 ### Word belgesinin belirli bölümlerinden içerik çıkarabilir miyim?
 
@@ -168,10 +170,15 @@ Evet, oluşturulan belgedeki içe aktarılan düğümleri değiştirerek çıkar
 
 ### Aspose.Words for Java için daha fazla doküman ve örneği nerede bulabilirim?
 
- Aspose.Words for Java için kapsamlı dokümanları ve örnekleri Aspose web sitesinde bulabilirsiniz. Ziyaret edin[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) Ayrıntılı dokümantasyon ve kaynaklar için.
+Aspose.Words for Java için kapsamlı dokümanları ve örnekleri Aspose web sitesinde bulabilirsiniz. Ziyaret edin [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) Ayrıntılı dokümantasyon ve kaynaklar için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

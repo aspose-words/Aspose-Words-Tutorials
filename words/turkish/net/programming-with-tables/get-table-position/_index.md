@@ -1,14 +1,16 @@
 ---
-title: Tablo Pozisyonunu Al
-linktitle: Tablo Pozisyonunu Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinde bir tablonun konumunun nasıl belirleneceğini adım adım kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/get-table-position/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinde bir tablonun konumunun nasıl belirleneceğini adım adım kılavuzumuzla öğrenin."
+"linktitle": "Tablo Pozisyonunu Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tablo Pozisyonunu Al"
+"url": "/tr/net/programming-with-tables/get-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo Pozisyonunu Al
@@ -20,10 +22,10 @@ Word belgenizdeki bir tablonun tam konumunu bulmaya çalışırken kendinizi hi�
 ## Ön koşullar
 
 Ayrıntılara girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
--  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. Değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. Değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 - Visual Studio: Herhangi bir sürüm işinizi görecektir, ancak her zaman en son sürüm önerilir.
 - .NET Framework: .NET Framework 4.0 veya sonraki bir sürümüne sahip olduğunuzdan emin olun.
-- Bir Word Belgesi: Bu eğitim için, Word adlı bir belge kullanacağız.`Tables.docx`.
+- Bir Word Belgesi: Bu eğitim için, Word adlı bir belge kullanacağız. `Tables.docx`.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -95,7 +97,7 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
 
- Aspose.Words for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz veya[doğrudan indirin](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz veya [doğrudan indirin](https://releases.aspose.com/words/net/).
 
 ### Birden fazla tablonun pozisyonunu alabilir miyim?
 
@@ -107,10 +109,15 @@ Evet, benzer bir yaklaşım kullanarak belgedeki tüm tablolar arasında dolaşa
 
 ### Deneme sürümü mevcut mu?
 
- Evet, alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Words for .NET'i denemek için.
+Evet, alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Words for .NET'i denemek için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

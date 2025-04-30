@@ -1,34 +1,36 @@
 ---
-title: Rozdělit dokument Word podle nadpisů Html
-linktitle: Podle nadpisů Html
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak rozdělit dokument aplikace Word podle nadpisů do HTML pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/split-document/by-headings-html/
+"description": "Naučte se, jak rozdělit dokument Wordu podle nadpisů do HTML pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem."
+"linktitle": "Podle nadpisů HTML"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Rozdělit dokument Wordu podle nadpisů v HTML"
+"url": "/cs/net/split-document/by-headings-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozdělit dokument Word podle nadpisů Html
+# Rozdělit dokument Wordu podle nadpisů v HTML
 
 ## Zavedení
 
-Rozdělení dokumentu aplikace Word podle nadpisů může změnit hru pro správu velkých dokumentů nebo vytváření segmentovaných výstupů HTML. Aspose.Words for .NET poskytuje přímý způsob, jak toho dosáhnout. V tomto tutoriálu vás provedeme celým procesem a zajistíme, že na cestě pochopíte každý detail.
+Rozdělení dokumentu Word podle nadpisů může být zásadní pro správu velkých dokumentů nebo vytváření segmentovaných HTML výstupů. Aspose.Words pro .NET nabízí jednoduchý způsob, jak toho dosáhnout. V tomto tutoriálu vás provedeme celým procesem a zajistíme, abyste pochopili každý detail.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující:
+Než se pustíte do tutoriálu, ujistěte se, že máte následující:
 
-1. Aspose.Words for .NET: Pokud jste to ještě neudělali, stáhněte si ji z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: IDE jako Visual Studio.
-3. Základní znalost C#: Pochopení základů vám pomůže snadno pokračovat.
+1. Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si jej z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: IDE, podobné Visual Studiu.
+3. Základní znalost C#: Pochopení základů vám pomůže snadno se orientovat.
 4. Ukázkový dokument: Připravte si dokument aplikace Word, který chcete rozdělit podle nadpisů.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To je klíčové pro přístup k třídám a metodám Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory. To je klíčové pro přístup ke třídám a metodám Aspose.Words.
 
 ```csharp
 using System;
@@ -36,38 +38,38 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Chcete-li začít, nastavte svůj projekt ve vývojovém prostředí. Otevřete Visual Studio a vytvořte novou konzolovou aplikaci.
+Chcete-li začít, nastavte si projekt ve vývojovém prostředí. Otevřete Visual Studio a vytvořte novou konzolovou aplikaci.
 
-1. Vytvoření nového projektu: Otevřete Visual Studio, vyberte „Vytvořit nový projekt“, vyberte „Konzolová aplikace (.NET Core)“ a klikněte na „Další“.
-2. Nakonfigurujte svůj projekt: Pojmenujte svůj projekt, vyberte umístění pro jeho uložení a klikněte na „Vytvořit“.
-3.  Instalace Aspose.Words for .NET: K instalaci knihovny Aspose.Words použijte NuGet Package Manager. Ve Správci balíčků NuGet vyhledejte`Aspose.Words` a nainstalujte jej.
+1. Vytvoření nového projektu: Otevřete Visual Studio, vyberte možnost „Vytvořit nový projekt“, zvolte „Konzolová aplikace (.NET Core)“ a klikněte na tlačítko „Další“.
+2. Konfigurace projektu: Pojmenujte projekt, vyberte umístění pro jeho uložení a klikněte na tlačítko „Vytvořit“.
+3. Instalace Aspose.Words pro .NET: K instalaci knihovny Aspose.Words použijte Správce balíčků NuGet. Ve Správci balíčků NuGet vyhledejte `Aspose.Words` a nainstalujte ho.
 
-## Krok 2: Vložte svůj dokument
+## Krok 2: Vložte dokument
 
-Dále musíte načíst dokument aplikace Word, který chcete rozdělit. Ujistěte se, že je dokument umístěn v adresáři, ke kterému máte snadný přístup.
+Dále je třeba načíst dokument aplikace Word, který chcete rozdělit. Ujistěte se, že je dokument umístěn v adresáři, ke kterému máte snadný přístup.
 
-1. Definujte cestu k adresáři: Vytvořte proměnnou pro cestu k adresáři vašeho dokumentu.
-2.  Vložte dokument: Použijte`Document` třídy k načtení dokumentu aplikace Word.
+1. Definování cesty k adresáři: Vytvořte proměnnou pro cestu k adresáři dokumentu.
+2. Vložení dokumentu: Použijte `Document` třída pro načtení dokumentu Word.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 3: Nakonfigurujte možnosti uložení HTML
+## Krok 3: Konfigurace možností ukládání HTML
 
-Nyní nakonfigurujme možnosti uložení HTML, aby bylo možné určit, že dokument má být rozdělen podle nadpisů.
+Nyní nakonfigurujme možnosti ukládání HTML tak, aby dokument byl rozdělen podle nadpisů.
 
-1.  Create HtmlSaveOptions: Vytvořte instanci`HtmlSaveOptions` třída.
-2.  Nastavit kritéria rozdělení dokumentu: Použijte`DocumentSplitCriteria` vlastnost, která určuje, že dokument má být rozdělen podle odstavců nadpisů.
+1. Vytvořit HtmlSaveOptions: Vytvořit instanci `HtmlSaveOptions` třída.
+2. Nastavení kritérií rozdělení dokumentu: Použijte `DocumentSplitCriteria` vlastnost, která určuje, že dokument má být rozdělen podle nadpisů a odstavců.
 
 ```csharp
 HtmlSaveOptions options = new HtmlSaveOptions
 {
-    // Rozdělte dokument na menší části, v tomto případě rozdělené podle nadpisu.
+    // Rozdělte dokument na menší části, v tomto případě podle nadpisů.
     DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph
 };
 ```
@@ -76,7 +78,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 
 Nakonec uložte dokument se zadanými možnostmi uložení HTML. Tím se vygeneruje soubor HTML rozdělený podle nadpisů.
 
-1.  Uložit dokument: Použijte`Save` metoda`Document` třídy k uložení dokumentu se zadanými možnostmi.
+1. Uložení dokumentu: Použijte `Save` metoda `Document` třída pro uložení dokumentu se zadanými možnostmi.
 
 ```csharp
 doc.Save(dataDir + "SplitDocument.ByHeadingsHtml.html", options);
@@ -84,27 +86,32 @@ doc.Save(dataDir + "SplitDocument.ByHeadingsHtml.html", options);
 
 ## Závěr
 
-A tady to máte! Úspěšně jste rozdělili dokument aplikace Word podle nadpisů a uložili jej jako HTML pomocí Aspose.Words for .NET. Tato metoda je vysoce efektivní pro organizaci velkých dokumentů a vytváření segmentovaných výstupů HTML, díky čemuž je váš obsah lépe spravovatelný a přístupný.
+tady to máte! Úspěšně jste rozdělili dokument Wordu podle nadpisů a uložili jej jako HTML pomocí Aspose.Words pro .NET. Tato metoda je vysoce efektivní pro organizaci velkých dokumentů a vytváření segmentovaných HTML výstupů, díky čemuž je váš obsah lépe spravovatelný a přístupný.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro práci s dokumenty Wordu v aplikacích .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro práci s dokumenty Wordu v aplikacích .NET.
 
 ### Mohu rozdělit dokument podle jiných kritérií?
-Ano, Aspose.Words vám umožňuje rozdělit dokumenty podle různých kritérií, jako jsou sekce, stránky a další.
+Ano, Aspose.Words umožňuje rozdělit dokumenty podle různých kritérií, jako jsou sekce, stránky a další.
 
 ### Je Aspose.Words zdarma?
- Aspose.Words nabízí bezplatnou zkušební verzi, ale pro plné funkce si budete muset zakoupit licenci. Zkontrolujte jejich[koupit stránku](https://purchase.aspose.com/buy) pro více podrobností.
+Aspose.Words nabízí bezplatnou zkušební verzi, ale pro plné funkce si budete muset zakoupit licenci. Podívejte se na jejich [koupit stránku](https://purchase.aspose.com/buy) pro více informací.
 
 ### Kde najdu dokumentaci?
- K dispozici je obsáhlá dokumentace[zde](https://reference.aspose.com/words/net/).
+K dispozici je komplexní dokumentace [zde](https://reference.aspose.com/words/net/).
 
 ### Jak získám podporu?
- Pro podporu navštivte Aspose.Words[forum](https://forum.aspose.com/c/words/8).
+Pro podporu navštivte Aspose.Words [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

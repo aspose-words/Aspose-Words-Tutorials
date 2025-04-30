@@ -1,14 +1,16 @@
 ---
-title: Pobierz zmienne
-linktitle: Pobierz zmienne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Opanuj Aspose.Words dla .NET. Naucz się ładować i wyodrębniać zmienne z dokumentów Word dzięki temu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/programming-with-document-properties/get-variables/
+"description": "Opanuj Aspose.Words dla .NET. Naucz się ładować i wyodrębniać zmienne z dokumentów Word dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Pobierz zmienne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pobierz zmienne"
+"url": "/pl/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz zmienne
@@ -21,8 +23,8 @@ Hej, kolego programisto! Gotowy, aby zanurzyć się w świecie Aspose.Words dla 
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1. Podstawowa znajomość języka C# i .NET: Powinieneś znać podstawy języka C# i środowiska .NET.
-2.  Biblioteka Aspose.Words dla .NET: Pobierz bibliotekę Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+1. Podstawowa wiedza o języku C# i .NET: Powinieneś znać podstawy języka C# i środowiska .NET.
+2. Biblioteka Aspose.Words dla .NET: Pobierz bibliotekę Aspose.Words dla .NET ze strony [Tutaj](https://releases.aspose.com/words/net/).
 3. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio.
 
 ## Importuj przestrzenie nazw
@@ -54,19 +56,19 @@ Teraz dodajmy bibliotekę Aspose.Words do naszego projektu.
 
 ## Krok 2: Ładowanie dokumentu Word
 
- Załadujmy dokument Word do naszej aplikacji. Użyjemy prostego`Document` sprzeciwiam się temu.
+Załadujmy dokument Word do naszej aplikacji. Użyjemy prostego `Document` sprzeciwiam się temu.
 
 1. Utwórz nową zmienną typu string, która będzie zawierać ścieżkę do katalogu dokumentów:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Utwórz`Document` obiekt i załaduj dokument:
+2. Utwórz `Document` obiekt i załaduj dokument:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
 
-Ten krok jest jak otwieranie książki. Po prostu mówimy naszemu programowi, gdzie znaleźć dokument, a następnie otwieramy go, aby móc zacząć nad nim pracować.
+Ten krok jest jak otwieranie książki. Po prostu mówimy naszemu programowi, gdzie znaleźć dokument, a następnie otwieramy go, aby móc zacząć z nim pracować.
 
 ## Krok 3: Wyodrębnianie zmiennych dokumentu
 
@@ -104,7 +106,7 @@ Pomyśl o tym kroku jako o przewracaniu stron książki i notowaniu wszystkich w
 
 ## Wniosek
 
-I masz to! Udało Ci się użyć Aspose.Words dla .NET do załadowania dokumentu Word i wyodrębnienia jego zmiennych. Postępując zgodnie z tymi krokami, możesz łatwo manipulować dokumentami Word w swoich aplikacjach .NET. Eksperymentuj i eksploruj funkcje biblioteki, aby zobaczyć, co jeszcze możesz osiągnąć.
+masz to! Udało Ci się użyć Aspose.Words dla .NET do załadowania dokumentu Word i wyodrębnienia jego zmiennych. Postępując zgodnie z tymi krokami, możesz łatwo manipulować dokumentami Word w swoich aplikacjach .NET. Eksperymentuj i eksploruj funkcje biblioteki, aby zobaczyć, co jeszcze możesz osiągnąć.
 
 ## Najczęściej zadawane pytania
 
@@ -112,7 +114,7 @@ I masz to! Udało Ci się użyć Aspose.Words dla .NET do załadowania dokumentu
 Tak, Aspose.Words obsługuje wiele języków, ale w tym samouczku skupiliśmy się na języku C#.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words?
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy istnieje możliwość manipulowania innymi formatami dokumentów za pomocą Aspose.Words?
 Oczywiście! Aspose.Words obsługuje różne formaty, takie jak DOC, DOCX, ODT, RTF i inne.
@@ -121,11 +123,16 @@ Oczywiście! Aspose.Words obsługuje różne formaty, takie jak DOC, DOCX, ODT, 
 Tak, możesz zintegrować Aspose.Words z aplikacjami internetowymi, aplikacjami komputerowymi i innymi.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Sprawdź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych przewodników.
+Sprawdź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i szczegółowych przewodników.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

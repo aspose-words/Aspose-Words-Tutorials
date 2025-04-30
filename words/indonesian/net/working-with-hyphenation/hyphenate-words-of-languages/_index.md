@@ -1,14 +1,16 @@
 ---
-title: Kata-kata yang Dihubungkan dengan Bahasa
-linktitle: Kata-kata yang Dihubungkan dengan Bahasa
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memberi tanda hubung pada kata dalam berbagai bahasa menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci langkah demi langkah ini untuk meningkatkan keterbacaan dokumen Anda.
-weight: 10
-url: /id/net/working-with-hyphenation/hyphenate-words-of-languages/
+"description": "Pelajari cara memberi tanda hubung pada kata dalam berbagai bahasa menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci langkah demi langkah ini untuk meningkatkan keterbacaan dokumen Anda."
+"linktitle": "Kata-kata yang Dihubungkan dengan Bahasa"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kata-kata yang Dihubungkan dengan Bahasa"
+"url": "/id/net/working-with-hyphenation/hyphenate-words-of-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kata-kata yang Dihubungkan dengan Bahasa
@@ -21,8 +23,8 @@ Hai! Pernahkah Anda mencoba membaca dokumen dengan kata-kata yang panjang dan ti
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET sudah terinstal. Jika belum, unduh saja[Di Sini](https://releases.aspose.com/words/net/).
--  Lisensi yang valid untuk Aspose.Words. Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words untuk .NET sudah terinstal. Jika belum, unduh saja [Di Sini](https://releases.aspose.com/words/net/).
+- Lisensi yang valid untuk Aspose.Words. Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 - Pengetahuan dasar tentang C# dan kerangka kerja .NET.
 - Editor teks atau IDE seperti Visual Studio.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Hyphenation;
 
 ## Langkah 1: Muat Dokumen Anda
 
- Anda perlu menentukan direktori tempat dokumen Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Anda perlu menentukan direktori tempat dokumen Anda berada. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "German text.docx");
 
 ## Langkah 3: Daftarkan Kamus Pemenggalan Kata
 
- Aspose.Words memerlukan kamus pemenggalan kata untuk berbagai bahasa. Pastikan Anda memiliki`.dic`file untuk bahasa yang ingin Anda beri tanda hubung. Daftarkan kamus ini menggunakan`Hyphenation.RegisterDictionary` metode.
+Aspose.Words memerlukan kamus pemenggalan kata untuk berbagai bahasa. Pastikan Anda memiliki `.dic` file untuk bahasa yang ingin Anda beri tanda hubung. Daftarkan kamus ini menggunakan `Hyphenation.RegisterDictionary` metode.
 
 ```csharp
 Hyphenation.RegisterDictionary("en-US", dataDir + "hyph_en_US.dic");
@@ -74,16 +76,21 @@ Pemenggalan kata adalah proses pemisahan kata di akhir baris untuk meningkatkan 
 Anda dapat menemukan kamus pemenggalan kata secara daring, yang sering kali disediakan oleh lembaga bahasa atau proyek sumber terbuka.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET tanpa lisensi?
- Ya, tetapi versi yang tidak berlisensi akan memiliki keterbatasan. Sebaiknya dapatkan versi yang berlisensi.[lisensi sementara](https://purchase.aspose.com/temporary-license) untuk fitur lengkap.
+Ya, tetapi versi yang tidak berlisensi akan memiliki keterbatasan. Sebaiknya dapatkan versi yang berlisensi. [lisensi sementara](https://purchase.aspose.com/temporary-license) untuk fitur lengkap.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan .NET Core?
 Ya, Aspose.Words untuk .NET mendukung .NET Framework dan .NET Core.
 
 ### Bagaimana cara menangani beberapa bahasa dalam satu dokumen?
 Anda dapat mendaftarkan beberapa kamus pemenggalan kata seperti ditunjukkan dalam contoh, dan Aspose.Words akan menanganinya sebagaimana mestinya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

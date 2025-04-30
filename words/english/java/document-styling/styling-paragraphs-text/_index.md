@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-styling/styling-paragraphs-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Styling Paragraphs and Text in Documents
@@ -416,9 +419,13 @@ In this comprehensive guide, we've explored the powerful capabilities of Aspose.
 
 Now that you have a solid understanding of how to style paragraphs and text in documents using Aspose.Words for Java, you're ready to create beautifully formatted documents tailored to your specific needs. Happy coding!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

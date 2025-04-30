@@ -1,14 +1,16 @@
 ---
-title: Menandatangani Dokumen Word
-linktitle: Menandatangani Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menandatangani dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/programming-with-digital-signatures/sign-document/
+"description": "Pelajari cara menandatangani dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda dengan mudah."
+"linktitle": "Menandatangani Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menandatangani Dokumen Word"
+"url": "/id/net/programming-with-digital-signatures/sign-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menandatangani Dokumen Word
@@ -21,7 +23,7 @@ Di dunia digital saat ini, pengamanan dokumen Anda menjadi lebih penting dari se
 
 Sebelum menyelami kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words versi terbaru untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words versi terbaru untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET (misalnya, Visual Studio).
 3. Sertifikat Digital: Dapatkan sertifikat digital (misalnya, file .pfx) untuk menandatangani dokumen.
 4. Dokumen yang Akan Ditandatangani: Siapkan dokumen Word yang ingin Anda tandatangani.
@@ -53,7 +55,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ### Penjelasan
 
 - `dataDir`: Ini adalah direktori tempat sertifikat dan dokumen Anda disimpan.
-- `CertificateHolder.Create` : Metode ini memuat sertifikat dari jalur yang ditentukan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda, dan`"morzal.pfx"` dengan nama file sertifikat Anda.`"aw"` adalah kata sandi untuk sertifikat.
+- `CertificateHolder.Create`: Metode ini memuat sertifikat dari jalur yang ditentukan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda, dan `"morzal.pfx"` dengan nama file sertifikat Anda. `"aw"` adalah kata sandi untuk sertifikat.
 
 ## Langkah 2: Muat Dokumen Word
 
@@ -66,11 +68,11 @@ Document doc = new Document(dataDir + "Digitally signed.docx");
 
 ### Penjelasan
 
-- `Document` : Kelas ini mewakili dokumen Word. Ganti`"Digitally signed.docx"`dengan nama dokumen Anda.
+- `Document`Kelas ini mewakili dokumen Word. Ganti `"Digitally signed.docx"` dengan nama dokumen Anda.
 
 ## Langkah 3: Tandatangani Dokumen
 
- Sekarang, gunakan`DigitalSignatureUtil.Sign` metode untuk menandatangani dokumen.
+Sekarang, gunakan `DigitalSignatureUtil.Sign` metode untuk menandatangani dokumen.
 
 ```csharp
 // Tanda tangani dokumennya.
@@ -92,7 +94,7 @@ doc.Save(dataDir + "Document.Signed.docx");
 
 ### Penjelasan
 
-- `doc.Save` : Metode ini menyimpan dokumen yang telah ditandatangani. Ganti`"Document.Signed.docx"` dengan nama yang diinginkan dari dokumen yang telah Anda tandatangani.
+- `doc.Save`: Metode ini menyimpan dokumen yang telah ditandatangani. Ganti `"Document.Signed.docx"` dengan nama yang diinginkan untuk dokumen yang telah Anda tandatangani.
 
 ## Kesimpulan
 
@@ -110,13 +112,18 @@ Sertifikat digital diperlukan untuk membuat tanda tangan digital. Sertifikat ini
 Ya, selama file .pfx berisi sertifikat digital yang valid dan Anda memiliki kata sandi untuk mengaksesnya.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET adalah pustaka komersial. Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/) , tetapi Anda perlu membeli lisensi untuk fungsionalitas penuh. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET adalah pustaka komersial. Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/), tetapi Anda perlu membeli lisensi untuk fungsionalitas penuh. Anda dapat membelinya [Di Sini](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/) dan dukungan[Di Sini](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/) dan dukungan [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

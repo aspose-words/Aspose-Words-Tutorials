@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z zakresami
-linktitle: Przetwarzanie słów z zakresami
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się więcej o przetwarzaniu słów z zakresami w Aspose.Words dla .NET. Dowiedz się, jak manipulować i formatować określone zakresy tekstu w dokumentach Word, korzystając z samouczków krok po kroku i przykładowych kodów.
-weight: 1390
-url: /pl/net/programming-with-ranges/
+"description": "Dowiedz się więcej o przetwarzaniu słów z zakresami w Aspose.Words dla .NET. Dowiedz się, jak manipulować i formatować określone zakresy tekstu w dokumentach Word, korzystając z samouczków krok po kroku i przykładowych kodów."
+"linktitle": "Przetwarzanie słów z zakresami"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z zakresami"
+"url": "/pl/net/programming-with-ranges/"
+"weight": 1390
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z zakresami
@@ -23,10 +25,15 @@ Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programist
 | Tytuł | Opis |
 | --- | --- |
 | [Zakresy Usuń Tekst W Dokumencie Word](./ranges-delete-text/) | Dowiedz się, jak usunąć tekst z zakresu w dokumencie Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów C#. |
-| [Zakresy Pobierz tekst w dokumencie Word](./ranges-get-text/) | Wyodrębnij tekst z dokumentów Word bez wysiłku, używając Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby łatwo rozpocząć. |
+| [Zakresy Pobierz tekst w dokumencie Word](./ranges-get-text/) | Bezproblemowo wyodrębniaj tekst z dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby łatwo rozpocząć. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

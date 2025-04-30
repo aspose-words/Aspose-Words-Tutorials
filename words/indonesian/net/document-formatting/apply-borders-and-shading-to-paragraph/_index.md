@@ -1,14 +1,16 @@
 ---
-title: Terapkan Batas dan Bayangan ke Paragraf di Dokumen Word
-linktitle: Terapkan Batas dan Bayangan ke Paragraf di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Terapkan batas dan bayangan pada paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk menyempurnakan format dokumen Anda.
-weight: 10
-url: /id/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": "Terapkan batas dan bayangan pada paragraf dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk menyempurnakan format dokumen Anda."
+"linktitle": "Terapkan Batas dan Bayangan ke Paragraf di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terapkan Batas dan Bayangan ke Paragraf di Dokumen Word"
+"url": "/id/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Batas dan Bayangan ke Paragraf di Dokumen Word
@@ -21,10 +23,10 @@ Hai, pernahkah Anda bertanya-tanya bagaimana cara membuat dokumen Word Anda meno
 
 Sebelum kita mulai dan mulai membuat kode, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut daftar periksa singkatnya:
 
--  Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 - Pengetahuan Dasar C#: Cukup untuk memahami dan mengubah cuplikan kode.
-- Lisensi yang Sah: Baik[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau yang dibeli dari[Asumsikan](https://purchase.aspose.com/buy).
+- Lisensi yang Sah: Baik [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau yang dibeli dari [Asumsikan](https://purchase.aspose.com/buy).
 
 ## Mengimpor Ruang Nama
 
@@ -48,18 +50,18 @@ Pertama-tama, kita perlu tempat untuk menyimpan dokumen yang diformat dengan ind
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Direktori ini adalah tempat dokumen akhir Anda akan disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
+Direktori ini adalah tempat dokumen akhir Anda akan disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya di mesin Anda.
 
 ## Langkah 2: Buat Dokumen Baru dan DocumentBuilder
 
- Selanjutnya, kita perlu membuat dokumen baru dan`DocumentBuilder` objek. Itu`DocumentBuilder` adalah tongkat ajaib yang memungkinkan kita memanipulasi dokumen.
+Selanjutnya, kita perlu membuat dokumen baru dan `DocumentBuilder` objek. Itu `DocumentBuilder` adalah tongkat ajaib yang memungkinkan kita memanipulasi dokumen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Itu`Document` objek mewakili seluruh dokumen Word kita, dan`DocumentBuilder` membantu kami menambahkan dan memformat konten.
+Itu `Document` objek mewakili seluruh dokumen Word kita, dan `DocumentBuilder` membantu kami menambahkan dan memformat konten.
 
 ## Langkah 3: Tentukan Batas Paragraf
 
@@ -107,7 +109,7 @@ Akhirnya, saatnya menyimpan pekerjaan kita. Mari kita simpan dokumen ke direktor
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- Ini menyimpan dokumen kita dengan nama`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` di direktori yang kita tentukan sebelumnya.
+Ini menyimpan dokumen kita dengan nama `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` di direktori yang kita tentukan sebelumnya.
 
 ## Kesimpulan
 
@@ -116,23 +118,28 @@ Nah, itu dia! Hanya dengan beberapa baris kode, kami telah mengubah paragraf bia
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan gaya garis yang berbeda untuk setiap batas?  
- Tentu saja! Aspose.Words untuk .NET memungkinkan Anda untuk menyesuaikan setiap border secara individual. Cukup atur`LineStyle` untuk setiap jenis perbatasan seperti yang ditunjukkan dalam panduan.
+Tentu saja! Aspose.Words untuk .NET memungkinkan Anda untuk menyesuaikan setiap border secara individual. Cukup atur `LineStyle` untuk setiap jenis perbatasan seperti yang ditunjukkan dalam panduan.
 
 ### Tekstur bayangan apa lagi yang tersedia?  
- Ada beberapa tekstur yang dapat Anda gunakan, seperti solid, garis horizontal, garis vertikal, dan banyak lagi. Periksa[Dokumentasi Aspose](https://reference.aspose.com/words/net/) untuk daftar lengkap.
+Ada beberapa tekstur yang dapat Anda gunakan, seperti solid, garis horizontal, garis vertikal, dan banyak lagi. Periksa [Dokumentasi Aspose](https://reference.aspose.com/words/net/) untuk daftar lengkap.
 
 ### Bagaimana cara mengubah warna batas?  
- Anda dapat mengatur warna batas menggunakan`Color` properti untuk setiap perbatasan. Misalnya,`borders[BorderType.Left].Color = Color.Red;`.
+Anda dapat mengatur warna batas menggunakan `Color` properti untuk setiap perbatasan. Misalnya, `borders[BorderType.Left].Color = Color.Red;`.
 
 ### Apakah mungkin untuk menerapkan batas dan bayangan pada bagian teks tertentu?  
- Ya, Anda dapat menerapkan batas dan bayangan ke teks tertentu menggunakan`Run` objek dalam`DocumentBuilder`.
+Ya, Anda dapat menerapkan batas dan bayangan ke rangkaian teks tertentu menggunakan `Run` objek dalam `DocumentBuilder`.
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa paragraf?  
 Tentu saja! Anda dapat mengulang paragraf dan menerapkan pengaturan batas dan bayangan yang sama secara terprogram.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chèn Đối Tượng Ole Vào Tài Liệu Word
-linktitle: Chèn Đối Tượng Ole Vào Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn bằng nội dung nhúng.
-weight: 10
-url: /vi/net/working-with-oleobjects-and-activex/insert-ole-object/
+"description": "Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn bằng nội dung nhúng."
+"linktitle": "Chèn Đối Tượng Ole Vào Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Đối Tượng Ole Vào Tài Liệu Word"
+"url": "/vi/net/working-with-oleobjects-and-activex/insert-ole-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Đối Tượng Ole Vào Tài Liệu Word
@@ -21,7 +23,7 @@ Khi làm việc với các tài liệu Word trong .NET, việc tích hợp nhi�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho Thư viện .NET: Tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
 3. Kiến thức cơ bản về C#: Giả định là bạn đã quen thuộc với lập trình C#.
 
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn Đối tượng OLE
 
- Tiếp theo, bạn sẽ sử dụng`DocumentBuilder`lớp để chèn đối tượng OLE. Ở đây, chúng tôi sử dụng tệp HTML nằm tại "http://www.aspose.com" làm ví dụ.
+Tiếp theo, bạn sẽ sử dụng `DocumentBuilder` lớp để chèn đối tượng OLE. Ở đây, chúng tôi sử dụng tệp HTML nằm tại "http://www.aspose.com" làm ví dụ.
 
 ```csharp
 builder.InsertOleObject("http://www.aspose.com", "htmlfile", đúng, đúng, null);
@@ -71,19 +73,24 @@ Chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words for .NE
 Bạn có thể chèn nhiều loại đối tượng OLE khác nhau, bao gồm tệp HTML, bảng tính Excel, bản trình bày PowerPoint và nội dung tương thích với OLE khác.
 
 ### Tôi có thể hiển thị đối tượng OLE dưới dạng biểu tượng thay vì nội dung thực tế của nó không?
- Có, bạn có thể chọn hiển thị đối tượng OLE dưới dạng biểu tượng bằng cách thiết lập`asIcon` tham số để`true`.
+Có, bạn có thể chọn hiển thị đối tượng OLE dưới dạng biểu tượng bằng cách thiết lập `asIcon` tham số để `true`.
 
 ### Có thể liên kết đối tượng OLE với tệp nguồn của nó không?
- Có, bằng cách thiết lập`isLinked` tham số để`true`, bạn có thể liên kết đối tượng OLE với tệp nguồn của nó.
+Có, bằng cách thiết lập `isLinked` tham số để `true`, bạn có thể liên kết đối tượng OLE với tệp nguồn của nó.
 
 ### Làm thế nào để tùy chỉnh biểu tượng được sử dụng cho đối tượng OLE?
- Bạn có thể cung cấp một biểu tượng tùy chỉnh bằng cách cung cấp một`Image` đối tượng như`image` tham số trong`InsertOleObject` phương pháp.
+Bạn có thể cung cấp một biểu tượng tùy chỉnh bằng cách cung cấp một `Image` đối tượng như `image` tham số trong `InsertOleObject` phương pháp.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

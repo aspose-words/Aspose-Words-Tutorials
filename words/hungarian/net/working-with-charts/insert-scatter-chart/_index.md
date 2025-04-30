@@ -1,52 +1,60 @@
 ---
-title: Készítsen Word Scatter Chartot az Aspose.Words használatával .NET-hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy Word dokumentumot egy szétszóróró grafikonmal a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
-url: /hu/net/working-with-charts/insert-scatter-chart/
+"description": "Tanuld meg, hogyan hozhatsz létre Word-dokumentumot szóródási diagrammal az Aspose.Words for .NET segítségével. Lépésről lépésre útmutató kóddal és utasításokkal."
+"title": "Hozz létre szószórási diagramot az Aspose.Words for .NET használatával"
+"url": "/hu/net/working-with-charts/insert-scatter-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen szavak szétszórási térképét Aspose.Words segítségével
+# Szó szerinti szóródási diagram létrehozása az Aspose.Words használatával
 
-Az Aspose.Words a .NET-hez egyszerűsíti a Word dokumentumok programozási létrehozását és manipulálását. Ez a példa bemutatja, hogyan kell beilleszteni egy szétszóró grafikont a Word dokumentumba.`Dokumentumszervező`A tartalomtervezéshez és a grafikonadatok programozási behelyezéséhez hatékonyan hozzáadhatja a dokumentumaidhoz a professzionális szintű szétoszlatási grafikókat. Az intuitív API-val az Aspose.Words egyszerűsíti a dokumentum automatizálását a .NET fejlesztők számára, így időt és erőfeszítést takarít.  
+Az Aspose.Words for .NET leegyszerűsíti a Word-dokumentumok programozott létrehozását és kezelését. Ez a példa bemutatja, hogyan lehet pontdiagramot beszúrni egy Word-dokumentumba. A dokumentum inicializálásával a `DocumentBuilder` Tartalomkészítéshez és diagramadatok programozott beszúrásához hatékonyan adhat hozzá professzionális minőségű pontdiagramokat a dokumentumaihoz. Intuitív API-jával az Aspose.Words leegyszerűsíti a dokumentumautomatizálást a .NET-fejlesztők számára, időt és energiát takarítva meg.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A következő lépéseket kell követni:  
 
-1. Letöltsük és telepítsük az Aspose.Words .NET-re  
-   * Letöltsd le a könyvtárat az Aspose hivatalos honlapján: [Aspose.Words a .NET letöltésekhez](https://releases.aspose.com/words/net/)\- Nem.  
-   * A NuGet csomagkezelő segítségével telepítse:  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások  
+A példa futtatásához kövesse az alábbi lépéseket:  
+
+1. Aspose.Words .NET-hez való letöltése és telepítése  
+   - Töltsd le a könyvtárat az Aspose hivatalos weboldaláról: [Aspose.Words .NET letöltésekhez](https://releases.aspose.com/words/net/).  
+   - Telepítés a NuGet csomagkezelőn keresztül:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. Tervezd ki a fejlődési környezetedet  
-   * Nyissa ki a .NET IDE-t (pl. Visual Studio).  
-   * Új konzolt alkalmazás létrehozása vagy befogadása egy meglévő projektbe.  
-   * Adjon hozzá egy hivatkozást az Aspose.Words .NET könyvtárra.  
+2. Fejlesztői környezet beállítása  
+   - Nyisd meg a .NET IDE-det (pl. Visual Studio).  
+   - Hozzon létre egy új konzolalkalmazást, vagy integrálja egy meglévő projektbe.  
+   - Adjon hozzá egy hivatkozást az Aspose.Words for .NET könyvtárhoz.  
 
-3. A licenc kérelmezés  
-   * Ha rendelkezik engedélysel, alkalmazza a projektje során:  
+3. Licenc alkalmazása  
+   - Ha van licenced, alkalmazd azt a projektedben a következőképpen:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * Alternatív módon, szerezz egy [ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license/)hogy teszteljük a könyvtárat.
+   - Vagy szerezz be egy [ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy tesztelje a könyvtárat.
 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

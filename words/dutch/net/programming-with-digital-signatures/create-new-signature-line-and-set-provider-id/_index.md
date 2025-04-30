@@ -1,30 +1,32 @@
 ---
-title: Nieuwe handtekeningregel maken en provider-ID instellen
-linktitle: Nieuwe handtekeningregel maken en provider-ID instellen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u een nieuwe handtekeningregel maakt en de provider-ID instelt in Word-documenten met Aspose.Words voor .NET. Stapsgewijze handleiding.
-weight: 10
-url: /nl/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Leer hoe u een nieuwe handtekeningregel maakt en de provider-ID instelt in Word-documenten met Aspose.Words voor .NET. Stapsgewijze handleiding."
+"linktitle": "Nieuwe handtekeningregel maken en provider-ID instellen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Nieuwe handtekeningregel maken en provider-ID instellen"
+"url": "/nl/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nieuwe handtekeningregel maken en provider-ID instellen
 
 ## Invoering
 
-Hallo, tech-enthousiastelingen! Heb je je ooit afgevraagd hoe je een handtekeningregel programmatisch kunt toevoegen aan je Word-documenten? Nou, vandaag duiken we erin met Aspose.Words voor .NET. Deze gids leidt je door elke stap, waardoor het heel eenvoudig wordt om een nieuwe handtekeningregel te maken en de provider-ID in te stellen in je Word-documenten. Of je nu documentverwerking automatiseert of gewoon je workflow wilt stroomlijnen, deze tutorial helpt je verder.
+Hallo, technologiefanaten! Heb je je ooit afgevraagd hoe je programmatisch een handtekeningregel aan je Word-documenten kunt toevoegen? Vandaag duiken we erin met Aspose.Words voor .NET. Deze handleiding leidt je door elke stap, waardoor het een fluitje van een cent wordt om een nieuwe handtekeningregel te maken en de provider-ID in je Word-documenten in te stellen. Of je nu documentverwerking wilt automatiseren of gewoon je workflow wilt stroomlijnen, deze tutorial helpt je op weg.
 
 ## Vereisten
 
-Voordat we onze handen vuil maken, moeten we eerst controleren of we alles hebben wat we nodig hebben:
+Voordat we aan de slag gaan, moeten we eerst controleren of we alles hebben wat we nodig hebben:
 
-1.  Aspose.Words voor .NET: Als u het nog niet hebt gedaan, download het dan[hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET: Als je het nog niet hebt gedaan, download het dan [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Visual Studio of een andere C#-ontwikkelomgeving.
 3. .NET Framework: Zorg ervoor dat u .NET Framework hebt geïnstalleerd.
-4. PFX-certificaat: Voor het ondertekenen van documenten hebt u een PFX-certificaat nodig. U kunt er een krijgen van een vertrouwde certificeringsinstantie.
+4. PFX-certificaat: Voor het ondertekenen van documenten hebt u een PFX-certificaat nodig. U kunt dit verkrijgen bij een vertrouwde certificeringsinstantie.
 
 ## Naamruimten importeren
 
@@ -37,11 +39,11 @@ using Aspose.Words.Signing;
 using System;
 ```
 
-Oké, laten we tot de kern van de zaak komen. Hier is een gedetailleerde uiteenzetting van elke stap om een nieuwe handtekeningregel te maken en de provider-ID in te stellen.
+Oké, laten we tot de kern van de zaak komen. Hier is een gedetailleerde beschrijving van elke stap voor het aanmaken van een nieuwe handtekeningregel en het instellen van de provider-ID.
 
-## Stap 1: Maak een nieuw document
+## Stap 1: Een nieuw document maken
 
-Om te beginnen moeten we een nieuw Word-document maken. Dit wordt het canvas voor onze handtekeningregel.
+Om te beginnen moeten we een nieuw Word-document aanmaken. Dit wordt het canvas voor onze handtekening.
 
 ```csharp
 // Het pad naar de documentenmap.
@@ -50,11 +52,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- In dit fragment initialiseren we een nieuwe`Document` en een`DocumentBuilder` . De`DocumentBuilder` helpt ons elementen aan ons document toe te voegen.
+In dit fragment initialiseren we een nieuwe `Document` en een `DocumentBuilder`. De `DocumentBuilder` helpt ons elementen aan ons document toe te voegen.
 
 ## Stap 2: Definieer de opties voor de handtekeningregel
 
-Vervolgens definiëren we de opties voor onze handtekeningregel. Dit omvat de naam, titel, e-mail en andere details van de ondertekenaar.
+Vervolgens definiëren we de opties voor onze handtekeningregel. Dit omvat de naam, functie, e-mailadres en andere gegevens van de ondertekenaar.
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions
@@ -69,18 +71,18 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions
 };
 ```
 
-Met deze opties personaliseert u de handtekeningregel, waardoor deze duidelijk en professioneel overkomt.
+Met deze opties personaliseert u de handtekeningregel, waardoor deze duidelijk en professioneel oogt.
 
-## Stap 3: Voeg de handtekeningregel in
+## Stap 3: De handtekeningregel invoegen
 
-Nu we de opties hebben ingesteld, kunnen we de handtekeningregel in het document invoegen.
+Nu we onze opties hebben ingesteld, kunnen we de handtekeningregel in het document invoegen.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Hier, de`InsertSignatureLine` De methode voegt de handtekeningregel toe en wij wijzen er een unieke provider-ID aan toe.
+Hier, de `InsertSignatureLine` methode voegt de handtekeningregel toe en wij wijzen er een unieke provider-ID aan toe.
 
 ## Stap 4: Sla het document op
 
@@ -94,7 +96,7 @@ Hiermee wordt uw document opgeslagen met de nieuw toegevoegde handtekeningregel.
 
 ## Stap 5: Ondertekeningsopties instellen
 
-Nu moeten we de opties voor het ondertekenen van het document instellen. Dit omvat de handtekeningregel-ID, provider-ID, opmerkingen en de ondertekeningstijd.
+Nu moeten we de opties voor het ondertekenen van het document instellen. Dit omvat de handtekeningregel-ID, provider-ID, opmerkingen en het tijdstip van ondertekening.
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -110,13 +112,13 @@ Met deze opties weet u zeker dat het document met de juiste gegevens wordt onder
 
 ## Stap 6: Certificaathouder aanmaken
 
-Om het document te ondertekenen, gebruiken we een PFX-certificaat. Laten we er een certificaathouder voor maken.
+Om het document te ondertekenen, gebruiken we een PFX-certificaat. Laten we er een certificaathouder voor aanmaken.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Zorg ervoor dat u vervangt`"morzal.pfx"` met uw werkelijke certificaatbestand en`"aw"` met uw certificaatwachtwoord.
+Zorg ervoor dat u vervangt `"morzal.pfx"` met uw daadwerkelijke certificaatbestand en `"aw"` met uw certificaatwachtwoord.
 
 ## Stap 7: Onderteken het document
 
@@ -131,15 +133,15 @@ Hiermee wordt het document ondertekend en opgeslagen als een nieuw bestand.
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes een nieuwe handtekeningregel gemaakt en de provider-ID ingesteld in een Word-document met Aspose.Words voor .NET. Deze krachtige bibliotheek maakt het ongelooflijk eenvoudig om documentverwerkingstaken te beheren en automatiseren. Probeer het eens uit en zie hoe het je workflow kan stroomlijnen.
+En voilà! Je hebt met succes een nieuwe handtekeningregel aangemaakt en de provider-ID ingesteld in een Word-document met Aspose.Words voor .NET. Deze krachtige bibliotheek maakt het ongelooflijk eenvoudig om documentverwerkingstaken te beheren en te automatiseren. Probeer het eens uit en ontdek hoe het je workflow kan stroomlijnen.
 
 ## Veelgestelde vragen
 
 ### Kan ik het uiterlijk van de handtekeningregel aanpassen?
- Absoluut! Je kunt verschillende opties aanpassen in de`SignatureLineOptions`afgestemd op uw behoeften.
+Absoluut! Je kunt verschillende opties aanpassen in de `SignatureLineOptions` die bij uw behoeften passen.
 
 ### Wat als ik geen PFX-certificaat heb?
-U moet er een verkrijgen van een vertrouwde certificeringsinstantie. Het is essentieel voor het digitaal ondertekenen van documenten.
+Je hebt er een nodig van een vertrouwde certificeringsinstantie. Het is essentieel voor het digitaal ondertekenen van documenten.
 
 ### Kan ik meerdere handtekeningregels aan een document toevoegen?
 Ja, u kunt zoveel handtekeningregels toevoegen als nodig is door het invoegproces te herhalen met verschillende opties.
@@ -148,10 +150,15 @@ Ja, u kunt zoveel handtekeningregels toevoegen als nodig is door het invoegproce
 Ja, Aspose.Words voor .NET ondersteunt .NET Core, waardoor het veelzijdig is voor verschillende ontwikkelomgevingen.
 
 ### Hoe veilig zijn digitale handtekeningen?
-Digitale handtekeningen die met Aspose.Words zijn gemaakt, zijn uiterst veilig, mits u een geldig en vertrouwd certificaat gebruikt.
+Digitale handtekeningen die met Aspose.Words zijn gemaakt, zijn zeer veilig, mits u een geldig en vertrouwd certificaat gebruikt.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

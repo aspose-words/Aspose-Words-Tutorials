@@ -1,14 +1,16 @@
 ---
-title: Oluşturucu ile Belge Ekle
-linktitle: Oluşturucu ile Belge Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak iki Word belgesini birleştirmeyi öğrenin. DocumentBuilder ile bir belgeyi eklemek ve biçimlendirmeyi korumak için adım adım kılavuz.
-weight: 10
-url: /tr/net/join-and-append-documents/insert-document-with-builder/
+"description": "Aspose.Words for .NET kullanarak iki Word belgesini birleştirmeyi öğrenin. DocumentBuilder ile bir belgeyi eklemek ve biçimlendirmeyi korumak için adım adım kılavuz."
+"linktitle": "Oluşturucu ile Belge Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Oluşturucu ile Belge Ekle"
+"url": "/tr/net/join-and-append-documents/insert-document-with-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Oluşturucu ile Belge Ekle
@@ -21,7 +23,7 @@ Yani, iki Word belgeniz var ve bunları tek bir belgede birleştirmeyi düşün�
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Eğer henüz indirmediyseniz, şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Eğer henüz indirmediyseniz, şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya başka uygun bir IDE'nin yüklü olduğundan emin olun.
 3. Temel C# Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işinize yarayacaktır.
 
@@ -41,11 +43,11 @@ Artık ön koşullarımız hazır olduğuna göre, süreci adım adım inceleyel
 Kodlamaya başlamadan önce, belge dizininize giden yolu ayarlamanız gerekir. Kaynak ve hedef belgeleriniz burada saklanır.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu gerçek yol ile. Bu, programın dosyalarınızı kolayca bulmasına yardımcı olacaktır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinizin bulunduğu gerçek yol ile. Bu, programın dosyalarınızı kolayca bulmasına yardımcı olacaktır.
 
 ## Adım 2: Kaynak ve Hedef Belgeleri Yükleme
 
@@ -56,17 +58,17 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Burada şunu kullanıyoruz:`Document` Belgelerimizi yüklemek için Aspose.Words kütüphanesinden sınıf. Dosya adlarının dizininizdekilerle eşleştiğinden emin olun.
+Burada şunu kullanıyoruz: `Document` Belgelerimizi yüklemek için Aspose.Words kütüphanesinden sınıf. Dosya adlarının dizininizdekilerle eşleştiğinden emin olun.
 
 ## Adım 3: Bir DocumentBuilder Nesnesi Oluşturma
 
- The`DocumentBuilder` class, Aspose.Words kütüphanesinde güçlü bir araçtır. Belgede gezinmemizi ve değişiklik yapmamızı sağlar.
+The `DocumentBuilder` class, Aspose.Words kütüphanesinde güçlü bir araçtır. Belgede gezinmemizi ve değişiklik yapmamızı sağlar.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
- Bu adımda bir tane oluşturduk`DocumentBuilder` hedef belgemiz için nesne. Bu, belgeye içerik eklememize yardımcı olacaktır.
+Bu adımda bir tane oluşturduk `DocumentBuilder` hedef belgemiz için nesne. Bu, belgeye içerik eklememize yardımcı olacaktır.
 
 ## Adım 4: Belgenin Sonuna Geçme
 
@@ -96,7 +98,7 @@ Sayfa sonu, kaynak belge içeriğinin yeni bir sayfada başlamasını sağlayara
 builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Kullanımı`InsertDocument` yöntem, tüm kaynak belgeyi hedef belgeye ekleyebiliriz.`ImportFormatMode.KeepSourceFormatting` kaynak belgenin biçimlendirmesinin korunmasını sağlar.
+Kullanımı `InsertDocument` yöntem, tüm kaynak belgeyi hedef belgeye ekleyebiliriz. `ImportFormatMode.KeepSourceFormatting` kaynak belgenin biçimlendirmesinin korunmasını sağlar.
 
 ## Adım 7: Birleştirilen Belgeyi Kaydetme
 
@@ -110,7 +112,7 @@ Belgeyi kaydederek iki belgeyi birleştirme işlemini tamamlıyoruz. Yeni belgen
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Words for .NET kullanarak bir belgeyi diğerine başarıyla eklediniz. Bu yöntem yalnızca verimli olmakla kalmaz, aynı zamanda her iki belgenin biçimlendirmesini de koruyarak kusursuz bir birleştirme sağlar. Tek seferlik bir proje üzerinde çalışıyor olun veya belge işlemeyi otomatikleştirmeniz gereksin, Aspose.Words for .NET sizin için her şeyi yapar.
+İşte karşınızda! Aspose.Words for .NET kullanarak bir belgeyi diğerine başarıyla eklediniz. Bu yöntem yalnızca verimli olmakla kalmaz, aynı zamanda her iki belgenin biçimlendirmesini de koruyarak kusursuz bir birleştirme sağlar. Tek seferlik bir proje üzerinde çalışıyor olun veya belge işlemeyi otomatikleştirmeniz gereksin, Aspose.Words for .NET sizin için her şeyi yapar.
 
 ## SSS
 
@@ -118,19 +120,24 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir belgeyi diğerine başarıyl
 Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine, dönüştürmelerine ve değiştirmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Kaynak belgenin biçimlendirmesini koruyabilir miyim?  
- Evet, kullanarak`ImportFormatMode.KeepSourceFormatting`Kaynak belgenin biçimlendirmesi, hedef belgeye eklendiğinde korunur.
+Evet, kullanarak `ImportFormatMode.KeepSourceFormatting`Kaynak belgenin biçimlendirmesi, hedef belgeye eklendiğinde korunur.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ### Bu süreci otomatikleştirebilir miyim?  
 Kesinlikle! Açıklanan yöntem, belge işleme görevlerini otomatikleştirmek için daha büyük uygulamalara dahil edilebilir.
 
 ### Daha fazla kaynak ve desteği nerede bulabilirim?  
- Daha fazla bilgi için şuraya bakabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+Daha fazla bilgi için şuraya bakabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/)veya ziyaret edin [destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

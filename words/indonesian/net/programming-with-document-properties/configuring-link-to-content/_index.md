@@ -1,14 +1,16 @@
 ---
-title: Mengonfigurasi Tautan ke Konten
-linktitle: Mengonfigurasi Tautan ke Konten
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonfigurasi tautan ke konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/programming-with-document-properties/configuring-link-to-content/
+"description": "Pelajari cara mengonfigurasi tautan ke konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci kami."
+"linktitle": "Mengonfigurasi Tautan ke Konten"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengonfigurasi Tautan ke Konten"
+"url": "/id/net/programming-with-document-properties/configuring-link-to-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengonfigurasi Tautan ke Konten
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara menautkan konten dalam dokumen Word
 
 Sebelum kita menyelami panduan langkah demi langkah, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
--  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung pengembangan .NET.
 
@@ -84,7 +86,7 @@ string customPropertyValue = customProperty.Value.ToString();
 
 ## Kesimpulan
 
- Selamat! Anda telah berhasil mengonfigurasi tautan ke konten dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat menambahkan dan mengelola properti kustom yang ditautkan ke konten tertentu dalam dokumen Word Anda, sehingga pengelolaan dokumen Anda menjadi lebih dinamis dan efisien. Jika Anda memiliki pertanyaan atau mengalami masalah, silakan periksa[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau mencari bantuan di[Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+Selamat! Anda telah berhasil mengonfigurasi tautan ke konten dalam dokumen Word menggunakan Aspose.Words untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat menambahkan dan mengelola properti kustom yang ditautkan ke konten tertentu dalam dokumen Word Anda, sehingga pengelolaan dokumen Anda menjadi lebih dinamis dan efisien. Jika Anda memiliki pertanyaan atau mengalami masalah, silakan periksa [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau mencari bantuan di [Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -92,20 +94,25 @@ string customPropertyValue = customProperty.Value.ToString();
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram. Pustaka ini menawarkan fitur yang lengkap untuk membuat, memodifikasi, dan mengonversi dokumen Word.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat menginstal Aspose.Words untuk .NET dengan mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/) dan menambahkan DLL ke proyek Anda. Atau, Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio.
+Anda dapat menginstal Aspose.Words untuk .NET dengan mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/) dan menambahkan DLL ke proyek Anda. Atau, Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio.
 
 ### Dapatkah saya menambahkan beberapa tautan ke konten yang berbeda dalam dokumen yang sama?
 Ya, Anda dapat menambahkan beberapa tautan ke konten berbeda dalam dokumen yang sama dengan membuat beberapa penanda dan menautkan properti khusus ke setiap penanda.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan untuk Aspose.Words untuk .NET di[Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan untuk Aspose.Words untuk .NET di [Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

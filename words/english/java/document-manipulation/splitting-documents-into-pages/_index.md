@@ -7,8 +7,11 @@ weight: 23
 url: /java/document-manipulation/splitting-documents-into-pages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Splitting Documents into Pages in Aspose.Words for Java
@@ -701,9 +704,13 @@ Aspose.Words for Java does not impose specific limitations on the number of page
 
 Headers and footers can be handled when splitting documents by using the Aspose.Words for Java library. You can copy header and footer content from the original document to the split documents, ensuring that they are preserved correctly. You may need to customize this process based on your specific header and footer requirements.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

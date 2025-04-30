@@ -1,14 +1,16 @@
 ---
-title: Utwórz i dodaj węzeł akapitu
-linktitle: Utwórz i dodaj węzeł akapitu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak utworzyć i dodać węzeł akapitu w dokumencie za pomocą Aspose.Words dla .NET, korzystając z tego szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/working-with-node/create-and-add-paragraph-node/
+"description": "Dowiedz się, jak utworzyć i dodać węzeł akapitu w dokumencie za pomocą Aspose.Words dla .NET, korzystając z tego szczegółowego samouczka krok po kroku."
+"linktitle": "Utwórz i dodaj węzeł akapitu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Utwórz i dodaj węzeł akapitu"
+"url": "/pl/net/working-with-node/create-and-add-paragraph-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz i dodaj węzeł akapitu
@@ -21,8 +23,8 @@ Hej, koledzy programiści! Gotowi na zanurzenie się w cudownym świecie manipul
 
 Zanim przejdziemy do kodu, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto Twoja lista kontrolna:
 
-1.  Zainstalowany program Visual Studio: Upewnij się, że program Visual Studio jest zainstalowany na Twoim komputerze. Możesz go pobrać ze strony[strona](https://visualstudio.microsoft.com/).
-2.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/)Jeśli dopiero zaczynasz, możesz skorzystać z bezpłatnej wersji próbnej.
+1. Zainstalowany program Visual Studio: Upewnij się, że program Visual Studio jest zainstalowany na Twoim komputerze. Możesz go pobrać ze strony [strona](https://visualstudio.microsoft.com/).
+2. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/)Jeśli dopiero zaczynasz, możesz skorzystać z bezpłatnej wersji próbnej.
 3. Podstawowa wiedza w języku C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
 
 Masz wszystko? Świetnie! Przejdźmy do importowania niezbędnych przestrzeni nazw.
@@ -81,16 +83,21 @@ Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami
 Tak, Aspose.Words dla .NET można używać z dowolnym językiem .NET, w tym VB.NET i C#.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
-Możesz uzyskać wsparcie od społeczności Aspose i ich zespołu wsparcia za pośrednictwem ich[forum wsparcia](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose i ich zespołu wsparcia za pośrednictwem ich [forum wsparcia](https://forum.aspose.com/c/words/8).
 
 ### Czy Aspose.Words dla .NET obsługuje duże dokumenty?
-Oczywiście! Aspose.Words dla .NET jest zaprojektowany do wydajnej obsługi dużych dokumentów, co czyni go idealnym dla aplikacji klasy enterprise.
+Oczywiście! Aspose.Words dla .NET jest zaprojektowany do wydajnej obsługi dużych dokumentów, co czyni go idealnym dla aplikacji klasy korporacyjnej.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

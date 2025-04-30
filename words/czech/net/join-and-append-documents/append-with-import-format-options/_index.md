@@ -1,118 +1,125 @@
 ---
-title: Připojit pomocí možností formátu importu
-linktitle: Připojit pomocí možností formátu importu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Bez námahy připojujte dokumenty aplikace Word pomocí Aspose.Words pro .NET a udržujte formátování s podrobnými pokyny krok za krokem.
-weight: 10
-url: /cs/net/join-and-append-documents/append-with-import-format-options/
+"description": "Snadno připojujte dokumenty Wordu pomocí Aspose.Words pro .NET a zachovejte formátování s podrobnými pokyny krok za krokem."
+"linktitle": "Možnosti formátu importu s přidanými údaji"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Možnosti formátu importu s přidanými údaji"
+"url": "/cs/net/join-and-append-documents/append-with-import-format-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Připojit pomocí možností formátu importu
+# Možnosti formátu importu s přidanými údaji
 
 ## Zavedení
 
-Ahoj! Přistihli jste se někdy, že potřebujete sloučit více dokumentů Wordu do jednoho, ale uvízli jste v těch otravných problémech s formátováním? Neboj se! Dnes se ponoříme hluboko do toho, jak můžete připojit jeden dokument Wordu k druhému pomocí Aspose.Words for .NET a zároveň zachovat úhledné a uklizené formátování. Připoutejte se, protože na konci této příručky z vás bude maestro spojující dokumenty!
+Ahoj! Už jste někdy museli sloučit více dokumentů Wordu do jednoho, ale narazili jste na otravné problémy s formátováním? Nebojte se! Dnes se podrobně ponoříme do toho, jak můžete pomocí Aspose.Words pro .NET připojit jeden dokument Word k druhému a zároveň zachovat úhledné a přehledné formátování. Připoutejte se, protože na konci tohoto průvodce se stanete mistrem ve slučování dokumentů!
 
 ## Předpoklady
 
-Než se vrhneme na zábavnou část, ujistěte se, že máte vše, co potřebujete. Zde je rychlý kontrolní seznam:
+Než se pustíme do té zábavné části, ujistěte se, že máte vše, co potřebujete. Zde je stručný kontrolní seznam:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou tuto knihovnu. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Jakékoli prostředí kompatibilní s .NET, jako je Visual Studio.
-3. Základní znalost C#: Nemusíte být kouzelník, ale trocha znalosti C# vám pomůže.
+1. Aspose.Words pro .NET: Ujistěte se, že máte tuto knihovnu nainstalovanou. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Jakékoli prostředí kompatibilní s .NET, například Visual Studio.
+3. Základní znalost C#: Nemusíte být mág, ale trocha znalosti C# vám hodně pomůže.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Toto připravuje půdu pro naše dobrodružství s kódováním.
+Nejdříve si importujme potřebné jmenné prostory. Tím připravíme půdu pro naše programátorské dobrodružství.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na snadné, stravitelné kroky.
+Rozdělme si proces na jednoduché a stravitelné kroky.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Každá cesta začíná prvním krokem, a zde je to určení vašeho adresáře dokumentů. Berte to jako nastavení GPS před cestou.
+Každá cesta začíná prvním krokem, a zde je to určení adresáře s dokumenty. Představte si to jako nastavení GPS před cestou.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy. Odtud budeme čerpat naše zdrojové a cílové dokumenty.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy. Odtud budeme stahovat zdrojové a cílové dokumenty.
 
-## Krok 2: Načtěte zdrojové a cílové dokumenty
+## Krok 2: Načtení zdrojového a cílového dokumentu
 
-Dále musíme načíst naše dokumenty. Je to jako sebrat dva kousky skládačky.
+Dále musíme načíst naše dokumenty. Je to jako sbírat dva dílky puzzle.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source with list.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
-Zde načítáme naše zdrojové a cílové dokumenty do paměti. Ujistěte se, že názvy souborů odpovídají názvům ve vašem adresáři.
+Zde načítáme zdrojové a cílové dokumenty do paměti. Ujistěte se, že názvy souborů se shodují s názvy ve vašem adresáři.
 
-## Krok 3: Definujte možnosti formátu importu
+## Krok 3: Definování možností formátu importu
 
-Tady se děje kouzlo. Definujeme, jak se má formátování zpracovat během operace připojení.
+A teď se začne dít ta pravá magie. Definujeme, jak se má formátování zpracovávat během operace přidávání.
 
 ```csharp
-// Určete, že pokud se číslování ve zdrojových a cílových dokumentech střetává,
+// Určete, že pokud se číslování ve zdrojovém a cílovém dokumentu střetává,
 // pak se použije číslování ze zdrojového dokumentu.
 ImportFormatOptions options = new ImportFormatOptions { KeepSourceNumbering = true };
 ```
 
-Tento úryvek zajišťuje, že pokud mezi vašimi dokumenty dojde ke konfliktu číslování, bude mít přednost číslování zdrojového dokumentu. Šikovné, že?
+Tento úryvek kódu zajišťuje, že pokud dojde ke konfliktu číslování mezi vašimi dokumenty, bude mít přednost číslování zdrojového dokumentu. Šikovné, že?
 
-## Krok 4: Připojte dokumenty
+## Krok 4: Připojení dokumentů
 
-Čas dát to všechno dohromady! Zdrojový dokument připojíme k cílovému dokumentu pomocí definovaných možností formátu importu.
+Je čas to všechno dát dohromady! Zdrojový dokument připojíme k cílovému dokumentu pomocí definovaných možností formátu importu.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 ```
 
- Tady, připojujeme`srcDoc` na`dstDoc` pomocí cílových stylů. The`options` parametr zajišťuje použití našich pravidel formátování.
+Zde přidáváme `srcDoc` na `dstDoc` pomocí stylů cílových adres. `options` Parametr zajišťuje, že se použijí naše pravidla formátování.
 
-## Krok 5: Uložte sloučený dokument
+## Krok 5: Uložení sloučeného dokumentu
 
-V neposlední řadě uložme náš nově sloučený dokument. Je to jako dát si třešničku na vrch poháru.
+V neposlední řadě si uložme náš nově sloučený dokument. Je to jako dát si třešeň na zmrzlinový pohár.
 
 ```csharp
 dstDoc.Save(dataDir + "MergedDocument.docx");
 ```
 
-Výložník! Úspěšně jste sloučili dva dokumenty aplikace Word, přičemž formátování zůstalo zachováno. 
+Bum! Úspěšně jste sloučili dva dokumenty Wordu a zároveň zachovali formátování. 
 
 ## Závěr
 
-tady to máte! Podle těchto kroků můžete snadno přidávat dokumenty pomocí Aspose.Words for .NET, aniž byste ztratili své formátování. Ať už jste vývojář, který chce zefektivnit správu dokumentů, nebo jen někdo, kdo miluje organizované dokumenty, tato příručka vám pomůže. Šťastné kódování!
+A tady to máte! Dodržováním těchto kroků můžete snadno přidávat dokumenty pomocí Aspose.Words pro .NET bez ztráty formátování. Ať už jste vývojář, který chce zefektivnit správu dokumentů, nebo jen někdo, kdo miluje organizované dokumenty, tento průvodce vám pomůže. Hodně štěstí s programováním!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu ponechat číslování cílového dokumentu místo čísla zdroje?
- Ano, můžete upravit`ImportFormatOptions` abychom toho dosáhli.
+### Mohu zachovat číslování cílového dokumentu místo číslování zdrojového?
+Ano, můžete upravit `ImportFormatOptions` toho dosáhnout.
 
 ### Co když nemám Aspose.Words pro .NET?
- Bezplatnou zkušební verzi si můžete stáhnout z[zde](https://releases.aspose.com/).
+Zkušební verzi zdarma si můžete stáhnout z [zde](https://releases.aspose.com/).
 
-### Mohu tuto metodu použít pro jiné typy dokumentů, jako jsou PDF?
-Aspose.Words je speciálně pro dokumenty aplikace Word. Pro soubory PDF můžete potřebovat Aspose.PDF.
+### Mohu tuto metodu použít i pro jiné typy dokumentů, jako například PDF?
+Aspose.Words je určen speciálně pro dokumenty Word. Pro PDF soubory můžete potřebovat Aspose.PDF.
 
-### Jak zacházet s obrázky v dokumentech?
-S obrázky se obvykle pracuje bez problémů, ale ujistěte se, že zdrojové a cílové dokumenty jsou správně naformátovány.
+### Jak mám v dokumentech pracovat s obrázky?
+Obrázky se obvykle zpracovávají bez problémů, ale ujistěte se, že jsou zdrojové i cílové dokumenty správně naformátovány.
 
-###před uložením?
-Dokument můžete vykreslit do streamu nebo použít prohlížeč ve vaší aplikaci k náhledu.
+###ment před uložením?
+Dokument můžete vykreslit do streamu nebo k jeho náhledu použít prohlížeč v aplikaci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

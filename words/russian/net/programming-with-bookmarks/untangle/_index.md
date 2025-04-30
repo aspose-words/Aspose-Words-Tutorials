@@ -1,14 +1,16 @@
 ---
-title: Распутать в документе Word
-linktitle: Распутать в документе Word
-second_title: API обработки документов Aspose.Words
-description: Мастер распутывания закладок в документах Word с помощью Aspose.Words для .NET с нашим подробным пошаговым руководством. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/programming-with-bookmarks/untangle/
+"description": "Мастер распутывания закладок в документах Word с помощью Aspose.Words для .NET с нашим подробным пошаговым руководством. Идеально подходит для разработчиков .NET."
+"linktitle": "Распутать в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Распутать в документе Word"
+"url": "/ru/net/programming-with-bookmarks/untangle/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Распутать в документе Word
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-bookmarks/untangle/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Вам понадобится библиотека Aspose.Words for .NET. Если у вас ее нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
-2. Среда разработки: среда разработки .NET, например Visual Studio.
+1. Aspose.Words for .NET: Вам понадобится библиотека Aspose.Words for .NET. Если у вас ее нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
+2. Среда разработки: среда разработки .NET, такая как Visual Studio.
 3. Базовые знания C#: понимание основ C# поможет вам разобраться в фрагментах кода и объяснениях.
 
 ## Импорт пространств имен
@@ -55,7 +57,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 }
 ```
 
- Здесь мы используем`foreach` цикл для прохождения каждой закладки в диапазоне документа. Этот цикл позволит нам обрабатывать каждую закладку индивидуально.
+Здесь мы используем `foreach` цикл для прохождения каждой закладки в диапазоне документа. Этот цикл позволит нам обрабатывать каждую закладку индивидуально.
 
 ## Шаг 3: Определите начальную и конечную строки закладки
 
@@ -66,7 +68,7 @@ Row row1 = (Row)bookmark.BookmarkStart.GetAncestor(typeof(Row));
 Row row2 = (Row)bookmark.BookmarkEnd.GetAncestor(typeof(Row));
 ```
 
- На этом этапе мы используем`GetAncestor` метод для поиска родительской строки как начального, так и конечного узлов закладки. Это помогает нам точно определить вовлеченные строки.
+На этом этапе мы используем `GetAncestor` метод для поиска родительской строки как начального, так и конечного узлов закладки. Это помогает нам точно определить вовлеченные строки.
 
 ## Шаг 4: Проверка наличия смежных строк
 
@@ -79,7 +81,7 @@ if (row1 != null && row2 != null && row1.NextSibling == row2)
 }
 ```
 
- Здесь мы добавляем условие для проверки того, найдены ли обе строки и являются ли они смежными.`NextSibling` property помогает нам проверить смежность.
+Здесь мы добавляем условие для проверки того, найдены ли обе строки и являются ли они смежными. `NextSibling` property помогает нам проверить смежность.
 
 ## Шаг 5: Переместите конец закладки
 
@@ -89,7 +91,7 @@ if (row1 != null && row2 != null && row1.NextSibling == row2)
 row1.LastCell.LastParagraph.AppendChild(bookmark.BookmarkEnd);
 ```
 
- На этом этапе мы используем`AppendChild`метод перемещения конечного узла закладки. Добавляя его к последнему абзацу последней ячейки верхней строки, мы гарантируем, что закладка будет правильно распутана.
+На этом этапе мы используем `AppendChild` метод перемещения конечного узла закладки. Добавляя его к последнему абзацу последней ячейки верхней строки, мы гарантируем, что закладка будет правильно распутана.
 
 ## Заключение
 
@@ -107,18 +109,23 @@ row1.LastCell.LastParagraph.AppendChild(bookmark.BookmarkEnd);
 
 ### Доступна ли пробная версия Aspose.Words для .NET?
 
- Да, ты можешь.[загрузить бесплатную пробную версию](https://releases.aspose.com/) с веб-сайта Aspose, чтобы изучить возможности библиотеки.
+Да, ты можешь. [загрузить бесплатную пробную версию](https://releases.aspose.com/) с веб-сайта Aspose, чтобы изучить возможности библиотеки.
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?
 
- Вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас вопросам или проблемам.
+Вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/words/8) для получения помощи по любым возникшим у вас вопросам или проблемам.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете приобрести лицензию[здесь](https://purchase.aspose.com/buy) или запросить[временная лицензия](https://purchase.aspose.com/temporary-license) для целей оценки.
+Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете приобрести лицензию [здесь](https://purchase.aspose.com/buy) или запросить [временная лицензия](https://purchase.aspose.com/temporary-license) для целей оценки.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

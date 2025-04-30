@@ -1,14 +1,16 @@
 ---
-title: Zamień tekst w tabeli
-linktitle: Zamień tekst w tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Bez trudu zamienisz tekst w tabeli programu Word za pomocą Aspose.Words dla platformy .NET dzięki temu szczegółowemu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/find-and-replace-text/replace-text-in-table/
+"description": "Bez trudu zamienisz tekst w tabeli programu Word za pomocą Aspose.Words dla platformy .NET dzięki temu szczegółowemu przewodnikowi krok po kroku."
+"linktitle": "Zamień tekst w tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zamień tekst w tabeli"
+"url": "/pl/net/find-and-replace-text/replace-text-in-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień tekst w tabeli
@@ -21,7 +23,7 @@ Cześć! Jesteś gotowy, aby zanurzyć się w świecie automatyzacji dokumentów
 
 Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#, z którym czujesz się pewnie.
 3. Przykładowy dokument Word: Dokument Word (`Tables.docx`) zawierające tabele, w których chcesz zastąpić tekst.
 
@@ -39,7 +41,7 @@ Teraz przeanalizujemy krok po kroku proces zastępowania tekstu w tabeli.
 
 ## Krok 1: Załaduj dokument Word
 
- Najpierw musisz załadować dokument Word zawierający tabelę. Można to zrobić za pomocą`Document` klasa.
+Najpierw musisz załadować dokument Word zawierający tabelę. Można to zrobić za pomocą `Document` klasa.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Tutaj,`dataDir` jest ścieżką, którą podążasz`Tables.docx` plik jest zlokalizowany. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
+Tutaj, `dataDir` jest ścieżką, którą podążasz `Tables.docx` plik jest zlokalizowany. Upewnij się, że zastąpisz `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
 
 ## Krok 2: Uzyskaj dostęp do tabeli
 
- Następnie musisz uzyskać dostęp do tabeli w dokumencie.`GetChild` Metoda ta służy do pobrania pierwszej tabeli z dokumentu.
+Następnie musisz uzyskać dostęp do tabeli w dokumencie. `GetChild` Metoda ta służy do pobrania pierwszej tabeli z dokumentu.
 
 ```csharp
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
@@ -61,13 +63,13 @@ Ten kod pobiera pierwszą tabelę (indeks 0) z dokumentu. Jeśli dokument ma wie
 
 ## Krok 3: Zamień tekst w tabeli
 
- Teraz nadchodzi ekscytująca część – zastępowanie tekstu! Użyjemy`Range.Replace` metoda wyszukiwania i zamiany tekstu w tabeli.
+Teraz nadchodzi ekscytująca część – zastępowanie tekstu! Użyjemy `Range.Replace` metoda wyszukiwania i zamiany tekstu w tabeli.
 
 ```csharp
 table.Range.Replace("Carrots", "Eggs", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- Ta linia kodu zastępuje tekst „Marchewki” tekstem „Jajka” w całym zakresie tabeli.`FindReplaceOptions` Parametr określa kierunek wyszukiwania.
+Ta linia kodu zastępuje tekst „Marchewki” tekstem „Jajka” w całym zakresie tabeli. `FindReplaceOptions` Parametr określa kierunek wyszukiwania.
 
 ## Krok 4: Zamień tekst w określonej komórce
 
@@ -77,7 +79,7 @@ Możesz również chcieć zastąpić tekst w konkretnej komórce, na przykład w
 table.LastRow.LastCell.Range.Replace("50", "20", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
-Kod ten odnosi się do ostatniej komórki ostatniego wiersza i zastępuje tekst „50” tekstem „20”.
+Ten kod ma na celu zmianę ostatniej komórki ostatniego wiersza na tekst „50” i zastąpienie go tekstem „20”.
 
 ## Krok 5: Zapisz zmodyfikowany dokument
 
@@ -99,19 +101,24 @@ masz to! Właśnie nauczyłeś się, jak zamienić tekst w tabeli w dokumencie W
 Tak, możesz przejść przez wszystkie tabele w dokumencie i zastosować metodę replace do każdej tabeli osobno.
 
 ### Jak zastąpić tekst formatowaniem?
- Możesz użyć`FindReplaceOptions` aby określić opcje formatowania tekstu zastępczego.
+Możesz użyć `FindReplaceOptions` aby określić opcje formatowania tekstu zastępczego.
 
 ### Czy można zastąpić tekst tylko w określonych wierszach lub kolumnach?
- Tak, możesz wybrać konkretne wiersze lub kolumny, uzyskując do nich bezpośredni dostęp za pomocą`Rows` Lub`Cells` Właściwości.
+Tak, możesz wybrać konkretne wiersze lub kolumny, uzyskując do nich bezpośredni dostęp za pomocą `Rows` Lub `Cells` Właściwości.
 
 ### Czy mogę zastąpić tekst obrazami lub innymi obiektami?
 Aspose.Words for .NET umożliwia zastępowanie tekstu różnymi obiektami, w tym obrazami, przy użyciu zaawansowanych metod.
 
-### co jeśli tekst, który ma zostać zastąpiony, zawiera znaki specjalne?
+### A co jeśli tekst, który ma zostać zastąpiony, zawiera znaki specjalne?
 Znaki specjalne należy odpowiednio modyfikować lub obsługiwać za pomocą odpowiednich metod udostępnianych przez Aspose.Words dla .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

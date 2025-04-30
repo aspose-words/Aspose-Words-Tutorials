@@ -1,27 +1,29 @@
 ---
-title: Limites do eixo em um gráfico
-linktitle: Limites do eixo em um gráfico
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda a definir os limites de um eixo em um gráfico usando o Aspose.Words para .NET controlando o intervalo de valores exibidos no eixo.
-weight: 10
-url: /pt/net/programming-with-charts/bounds-of-axis/
+"description": "Aprenda a definir os limites de um eixo em um gráfico usando o Aspose.Words for .NET controlando o intervalo de valores exibidos no eixo."
+"linktitle": "Limites do eixo em um gráfico"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Limites do eixo em um gráfico"
+"url": "/pt/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Limites do eixo em um gráfico
 
 ## Introdução
 
-Você está procurando criar documentos profissionais com gráficos em .NET? Você está no lugar certo! Este guia o guiará pelo processo de uso do Aspose.Words para .NET para definir os limites do eixo em um gráfico. Vamos detalhar cada etapa para garantir que você possa acompanhar facilmente, mesmo se for novo na biblioteca. Então, vamos mergulhar e começar!
+Deseja criar documentos profissionais com gráficos em .NET? Você está no lugar certo! Este guia o guiará pelo processo de uso do Aspose.Words para .NET para definir os limites do eixo em um gráfico. Detalharemos cada etapa para garantir que você possa acompanhar facilmente, mesmo se for novo na biblioteca. Então, vamos começar!
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
--  Aspose.Words para .NET: Você pode[download](https://releases.aspose.com/words/net/) a versão mais recente ou use um[teste gratuito](https://releases.aspose.com/).
+- Aspose.Words para .NET: Você pode [download](https://releases.aspose.com/words/net/) versão mais recente ou use uma [teste gratuito](https://releases.aspose.com/).
 - .NET Framework: certifique-se de ter o .NET instalado no seu sistema.
 - IDE: Um ambiente de desenvolvimento como o Visual Studio.
 
@@ -39,30 +41,30 @@ using Aspose.Words.Drawing.Charts;
 
 ## Etapa 1: configure seu diretório de documentos
 
-Primeiro, você precisa configurar o diretório onde seu documento será salvo. Este é um passo simples, mas crucial para organizar seus arquivos.
+Antes de mais nada, você precisa configurar o diretório onde seu documento será salvo. Este é um passo simples, mas crucial para organizar seus arquivos.
 
 ```csharp
 // Caminho para o diretório do seu documento
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Etapa 2: Crie um novo documento
+## Etapa 2: Criar um novo documento
 
-Em seguida, crie um novo objeto de documento. Este documento servirá como o contêiner para seu gráfico.
+Em seguida, crie um novo objeto de documento. Este documento servirá como contêiner para o seu gráfico.
 
 ```csharp
 Document doc = new Document();
 ```
 
-## Etapa 3: Inicializar o Document Builder
+## Etapa 3: Inicializar o Construtor de Documentos
 
-A classe DocumentBuilder fornece uma maneira rápida e fácil de construir documentos. Inicialize-a com seu documento.
+A classe DocumentBuilder oferece uma maneira rápida e fácil de criar documentos. Inicialize-a com seu documento.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Etapa 4: Insira um gráfico
+## Etapa 4: inserir um gráfico
 
 Agora, é hora de inserir um gráfico no seu documento. Neste exemplo, usaremos um gráfico de colunas.
 
@@ -73,7 +75,7 @@ Chart chart = shape.Chart;
 
 ## Etapa 5: Limpar séries existentes
 
-Para garantir que você comece do zero, limpe qualquer série existente do gráfico.
+Para garantir que você comece do zero, limpe todas as séries existentes do gráfico.
 
 ```csharp
 chart.Series.Clear();
@@ -106,31 +108,36 @@ Por fim, salve seu documento no diretório especificado.
 doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 ```
 
-é isso! Você criou com sucesso um documento com um gráfico usando Aspose.Words para .NET. 
+E pronto! Você criou com sucesso um documento com um gráfico usando o Aspose.Words para .NET. 
 
 ## Conclusão
 
-Usando o Aspose.Words para .NET, você pode facilmente criar e manipular gráficos em seus documentos. Este guia passo a passo mostrou como definir os limites do eixo em um gráfico, tornando sua apresentação de dados mais precisa e profissional. Não importa se você está gerando relatórios, apresentações ou qualquer outro documento, o Aspose.Words fornece as ferramentas de que você precisa.
+Com o Aspose.Words para .NET, você pode criar e manipular gráficos facilmente em seus documentos. Este guia passo a passo mostrou como definir os limites dos eixos em um gráfico, tornando sua apresentação de dados mais precisa e profissional. Seja para gerar relatórios, apresentações ou qualquer outro documento, o Aspose.Words oferece as ferramentas necessárias.
 
 ## Perguntas frequentes
 
 ### O que é Aspose.Words para .NET?
-Aspose.Words para .NET é uma biblioteca que permite criar, modificar e converter documentos do Word programaticamente usando o .NET framework.
+Aspose.Words para .NET é uma biblioteca que permite criar, modificar e converter documentos do Word programaticamente usando o .NET Framework.
 
 ### Como configuro o Aspose.Words para .NET?
- Você pode baixá-lo em[aqui](https://releases.aspose.com/words/net/) siga as instruções de instalação fornecidas.
+Você pode baixá-lo de [aqui](https://releases.aspose.com/words/net/) e siga as instruções de instalação fornecidas.
 
 ### Posso usar o Aspose.Words gratuitamente?
- Sim, você pode usar um[teste gratuito](https://releases.aspose.com/) ou pegue um[licença temporária](https://purchase.aspose.com/temporary-license/).
+Sim, você pode usar um [teste gratuito](https://releases.aspose.com/) ou pegue um [licença temporária](https://purchase.aspose.com/temporary-license/).
 
 ### Onde posso encontrar documentação do Aspose.Words para .NET?
- Documentação detalhada está disponível[aqui](https://reference.aspose.com/words/net/).
+Documentação detalhada está disponível [aqui](https://reference.aspose.com/words/net/).
 
 ### Como posso obter suporte para o Aspose.Words?
- Você pode visitar o[fórum de suporte](https://forum.aspose.com/c/words/8) para obter assistência.
+Você pode visitar o [fórum de suporte](https://forum.aspose.com/c/words/8) para assistência.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

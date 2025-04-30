@@ -1,14 +1,16 @@
 ---
-title: Hướng dẫn tối ưu về sửa đổi tài liệu
-linktitle: Hướng dẫn tối ưu về sửa đổi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ việc sửa đổi tài liệu với Aspose.Words for Java! Quản lý hiệu quả các thay đổi, chấp nhận/từ chối sửa đổi và cộng tác liền mạch. Bắt đầu ngay!
-weight: 10
-url: /vi/java/document-revision/guide-document-revision/
+"description": "Làm chủ việc sửa đổi tài liệu với Aspose.Words for Java! Quản lý hiệu quả các thay đổi, chấp nhận/từ chối sửa đổi và cộng tác liền mạch. Bắt đầu ngay!"
+"linktitle": "Hướng dẫn tối ưu về sửa đổi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hướng dẫn tối ưu về sửa đổi tài liệu"
+"url": "/vi/java/document-revision/guide-document-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn tối ưu về sửa đổi tài liệu
@@ -41,7 +43,7 @@ Aspose.Words for Java là một thư viện giàu tính năng cho phép các nh�
 
 Trước khi bắt đầu sửa đổi tài liệu, bạn cần thiết lập Aspose.Words for Java trong môi trường phát triển của mình. Thực hiện theo các bước đơn giản sau để bắt đầu:
 
-1.  Tải xuống Aspose.Words cho Java: Truy cập[Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống thư viện Java.
+1. Tải xuống Aspose.Words cho Java: Truy cập [Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống thư viện Java.
 
 2. Thêm Aspose.Words vào dự án của bạn: Giải nén gói đã tải xuống và thêm tệp JAR Aspose.Words vào đường dẫn xây dựng dự án Java của bạn.
 
@@ -210,9 +212,14 @@ Sửa đổi tài liệu là một khía cạnh quan trọng của công việc 
 
 ### Aspose.Words có phù hợp để xử lý các tài liệu lớn với nhiều lần sửa đổi không?
    - Chắc chắn rồi! Aspose.Words được thiết kế để xử lý các tài liệu lớn một cách hiệu quả và quản lý nhiều bản sửa đổi mà không ảnh hưởng đến hiệu suất.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

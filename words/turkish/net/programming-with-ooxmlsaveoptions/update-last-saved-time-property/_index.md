@@ -1,14 +1,16 @@
 ---
-title: Son Kaydedilen Zaman Özelliğini Güncelle
-linktitle: Son Kaydedilen Zaman Özelliğini Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde son kaydedilen zaman özelliğini nasıl güncelleyeceğinizi öğrenin. Ayrıntılı, adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde son kaydedilen zaman özelliğini nasıl güncelleyeceğinizi öğrenin. Ayrıntılı, adım adım kılavuzumuzu izleyin."
+"linktitle": "Son Kaydedilen Zaman Özelliğini Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Son Kaydedilen Zaman Özelliğini Güncelle"
+"url": "/tr/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Son Kaydedilen Zaman Özelliğini Güncelle
@@ -21,7 +23,7 @@ Word belgelerinizdeki son kaydedilen zaman özelliğini programatik olarak nası
 
 Adım adım kılavuza geçmeden önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer yüklü değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer yüklü değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamanın temellerini anlamak faydalı olacaktır.
 
@@ -44,21 +46,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: Word Belgenizi Yükleyin
 
- Sonra, güncellemek istediğiniz Word belgesini yükleyin. Bunu, örneğini oluşturarak yapabilirsiniz.`Document` sınıf ve belgenizin yolunu geçiriyorsunuz.
+Sonra, güncellemek istediğiniz Word belgesini yükleyin. Bunu, bir örneğini oluşturarak yapabilirsiniz. `Document` sınıf ve belgenizin yolunu geçirme.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Adı geçen belgenin doğru olduğundan emin olun`Document.docx` belirtilen dizinde mevcuttur.
+Adı geçen belgenin doğru olduğundan emin olun `Document.docx` belirtilen dizinde mevcuttur.
 
 ## Adım 3: Kaydetme Seçeneklerini Yapılandırın
 
- Şimdi, bir örnek oluşturun`OoxmlSaveOptions` sınıf. Bu sınıf, belgenizi Office Açık XML (OOXML) biçiminde kaydetme seçeneklerini belirtmenize olanak tanır. Burada,`UpdateLastSavedTimeProperty` ile`true`.
+Şimdi, bir örnek oluşturun `OoxmlSaveOptions` sınıf. Bu sınıf, belgenizi Office Açık XML (OOXML) biçiminde kaydetme seçeneklerini belirtmenize olanak tanır. Burada, `UpdateLastSavedTimeProperty` ile `true`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -71,7 +73,7 @@ Bu, Aspose.Words'e belgenin son kaydedilen zaman özelliğini güncellemesini s�
 
 ## Adım 4: Güncellenen Belgeyi Kaydedin
 
- Son olarak, belgeyi kullanarak kaydedin`Save` yöntemi`Document` sınıf, güncellenen belgenin kaydedileceği yolu ve kaydetme seçeneklerini iletir.
+Son olarak, belgeyi kullanarak kaydedin `Save` yöntemi `Document` sınıf, güncellenen belgenin kaydedileceği yolu ve kaydetme seçeneklerini iletir.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.UpdateLastSavedTimeProperty.docx", saveOptions);
@@ -95,14 +97,19 @@ Son kaydedilen zaman özelliğinin güncellenmesi, belge takibi ve yönetimi iç
 Evet, Aspose.Words for .NET başlık, yazar ve konu gibi çeşitli belge özelliklerini güncellemenize olanak tanır.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ücretsiz deneme sunar, ancak tam işlevsellik için bir lisans gereklidir. Bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Words for .NET ücretsiz deneme sunar, ancak tam işlevsellik için bir lisans gereklidir. Bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
-Daha fazla öğretici ve doküman bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Daha fazla öğretici ve doküman bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

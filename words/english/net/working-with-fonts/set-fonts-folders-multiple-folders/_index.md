@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-fonts-folders-multiple-folders/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fonts Folders Multiple Folders
@@ -61,7 +64,7 @@ This `FontSettings` object will help us define which font folders to use.
 
 ## Step 3: Set Fonts Folders
 
-Now comes the crucial part—setting the fonts folders. This is where you specify the directories where your fonts are located. In this example, we have fonts in "C:\MyFonts\" and "D:\Misc\Fonts\".
+Now comes the crucial part—setting the fonts folders. This is where you specify the directories where your fonts are located. In this example, we have fonts in "C:\MyFonts" and "D:\Misc\Fonts".
 
 ```csharp
 fontSettings.SetFontsFolders(new[] { @"C:\MyFonts\", @"D:\Misc\Fonts\" }, true);
@@ -108,9 +111,13 @@ There’s no strict limit to the number of font folders. However, be mindful of 
 ### How can I check which fonts are being used in my document?
 You can use the `FontSettings.GetFontsSources` method to retrieve and inspect the font sources currently set for your document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

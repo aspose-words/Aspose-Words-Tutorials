@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Ole Nesnesi Ekle
-linktitle: Word Belgesine Ole Nesnesi Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine OLE nesnelerinin nasıl ekleneceğini öğrenin. Belgelerinizi gömülü içerikle geliştirin.
-weight: 10
-url: /tr/net/working-with-oleobjects-and-activex/insert-ole-object/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine OLE nesnelerinin nasıl ekleneceğini öğrenin. Belgelerinizi gömülü içerikle geliştirin."
+"linktitle": "Word Belgesine Ole Nesnesi Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Ole Nesnesi Ekle"
+"url": "/tr/net/working-with-oleobjects-and-activex/insert-ole-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Ole Nesnesi Ekle
@@ -21,7 +23,7 @@ url: /tr/net/working-with-oleobjects-and-activex/insert-ole-object/
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Aspose.Words for .NET Kütüphanesi: Buradan indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Buradan indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşinalık varsayılmaktadır.
 
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: OLE Nesnesini Ekle
 
- Daha sonra şunu kullanacaksınız:`DocumentBuilder`OLE nesnesini eklemek için sınıf. Burada, örneğimiz olarak "http://www.aspose.com" adresinde bulunan bir HTML dosyasını kullanıyoruz.
+Daha sonra şunu kullanacaksınız: `DocumentBuilder` OLE nesnesini eklemek için sınıf. Burada, örneğimiz olarak "http://www.aspose.com" adresinde bulunan bir HTML dosyasını kullanıyoruz.
 
 ```csharp
 builder.InsertOleObject("http://www.aspose.com", "htmldosyası", doğru, doğru, null);
@@ -71,19 +73,24 @@ Aspose.Words for .NET kullanarak Word belgelerine OLE nesneleri eklemek, çeşit
 HTML dosyaları, Excel elektronik tabloları, PowerPoint sunumları ve diğer OLE uyumlu içerikler dahil olmak üzere çeşitli türde OLE nesneleri ekleyebilirsiniz.
 
 ### OLE nesnesini gerçek içeriği yerine simge olarak görüntüleyebilir miyim?
- Evet, OLE nesnesini simge olarak görüntülemeyi seçebilirsiniz.`asIcon` parametreye`true`.
+Evet, OLE nesnesini simge olarak görüntülemeyi seçebilirsiniz. `asIcon` parametreye `true`.
 
 ### OLE nesnesini kaynak dosyasına bağlamak mümkün müdür?
- Evet, ayarlayarak`isLinked` parametreye`true`, OLE nesnesini kaynak dosyasına bağlayabilirsiniz.
+Evet, ayarlayarak `isLinked` parametreye `true`, OLE nesnesini kaynak dosyasına bağlayabilirsiniz.
 
 ### OLE nesnesi için kullanılan simgeyi nasıl özelleştirebilirim?
- Bir simge sağlayarak özel bir simge sağlayabilirsiniz.`Image` nesne olarak`image` parametre içinde`InsertOleObject` yöntem.
+Bir simge sağlayarak özel bir simge sağlayabilirsiniz. `Image` nesne olarak `image` parametre içinde `InsertOleObject` yöntem.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

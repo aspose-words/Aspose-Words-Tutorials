@@ -1,26 +1,28 @@
 ---
-title: Pokročilé možnosti ukládání dokumentů HTML pomocí Aspose.Words Java
-linktitle: Ukládání HTML dokumentů pomocí
-second_title: Aspose.Words Java Document Processing API
-description: V tomto tutoriálu jsme se zabývali různými pokročilými možnostmi ukládání dokumentů HTML pomocí Aspose.Words pro Java. Tyto možnosti vám umožňují vytvářet vysoce kvalitní HTML
-weight: 16
-url: /cs/java/document-loading-and-saving/advance-html-documents-saving-options/
+"description": "V tomto tutoriálu jsme se zabývali různými pokročilými možnostmi ukládání HTML dokumentů pomocí Aspose.Words pro Javu. Tyto možnosti vám umožní vytvářet vysoce kvalitní HTML."
+"linktitle": "Ukládání HTML dokumentů pomocí"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Pokročilé možnosti ukládání HTML dokumentů pomocí Aspose.Words v Javě"
+"url": "/cs/java/document-loading-and-saving/advance-html-documents-saving-options/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pokročilé možnosti ukládání dokumentů HTML pomocí Aspose.Words Java
+# Pokročilé možnosti ukládání HTML dokumentů pomocí Aspose.Words v Javě
 
 
-V tomto tutoriálu prozkoumáme pokročilé možnosti ukládání dokumentů HTML, které poskytuje Aspose.Words pro Java. Aspose.Words je výkonné Java API pro práci s dokumenty Wordu a nabízí širokou škálu funkcí pro manipulaci s dokumenty a jejich převod.
+V tomto tutoriálu se seznámíme s pokročilými možnostmi ukládání HTML dokumentů, které nabízí Aspose.Words pro Javu. Aspose.Words je výkonné Java API pro práci s dokumenty Wordu, které nabízí širokou škálu funkcí pro manipulaci s dokumenty a jejich převod.
 
 ## 1. Úvod
-Aspose.Words for Java vám umožňuje pracovat s dokumenty Wordu programově. V tomto tutoriálu se zaměříme na pokročilé možnosti ukládání dokumentů HTML, které vám umožňují řídit, jak se dokumenty aplikace Word převádějí do HTML.
+Aspose.Words pro Javu umožňuje programově pracovat s dokumenty Wordu. V tomto tutoriálu se zaměříme na pokročilé možnosti ukládání dokumentů HTML, které vám umožní ovládat, jak se dokumenty Wordu převádějí do HTML.
 
-## 2. Exportujte informace o zpáteční cestě
- The`exportRoundtripInformation` umožňuje exportovat dokumenty Wordu do HTML při zachování zpátečních informací. Tyto informace mohou být užitečné, když chcete převést HTML zpět do formátu Word bez ztráty jakýchkoli podrobností specifických pro dokument.
+## 2. Export informací o zpáteční cestě
+Ten/Ta/To `exportRoundtripInformation` Metoda umožňuje exportovat dokumenty Wordu do formátu HTML se zachováním informací o oboustranném přenosu. Tyto informace mohou být užitečné, pokud chcete převést HTML zpět do formátu Wordu bez ztráty podrobností specifických pro dokument.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -31,8 +33,8 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. Exportujte písma jako Base64
- s`exportFontsAsBase64` můžete exportovat fonty použité v dokumentu jako data kódovaná Base64 do HTML. Tím je zajištěno, že reprezentace HTML zachová stejné styly písem jako původní dokument aplikace Word.
+## 3. Export písem jako Base64
+S `exportFontsAsBase64` Metodou můžete exportovat písma použitá v dokumentu jako data kódovaná v Base64 v HTML. Tím je zajištěno, že HTML reprezentace zachová stejné styly písma jako původní dokument Word.
 
 ```java
 
@@ -45,7 +47,7 @@ public void exportFontsAsBase64() throws Exception {
 ```
 
 ## 4. Export zdrojů
- The`exportResources` umožňuje určit typ šablony stylů CSS a exportovat zdroje písem. Můžete také nastavit složku prostředků a alias pro prostředky v HTML.
+Ten/Ta/To `exportResources` Metoda umožňuje zadat typ stylu CSS a exportovat zdroje písem. Můžete také nastavit složku zdrojů a alias pro zdroje v HTML.
 
 ```java
 
@@ -60,8 +62,8 @@ public void exportResources() throws Exception {
 }
 ```
 
-## 5. Převeďte metasoubory na EMF nebo WMF
- The`convertMetafilesToEmfOrWmf`metoda umožňuje převést metasoubory v dokumentu buď do formátu EMF nebo WMF, což zajišťuje kompatibilitu a plynulé vykreslování v HTML.
+## 5. Převod metasouborů do formátu EMF nebo WMF
+Ten/Ta/To `convertMetafilesToEmfOrWmf` Metoda umožňuje převést metasoubory v dokumentu do formátu EMF nebo WMF, což zajišťuje kompatibilitu a plynulé vykreslování v HTML.
 
 ```java
 
@@ -81,8 +83,8 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. Převeďte metasoubory na SVG
- Použijte`convertMetafilesToSvg` metoda pro převod metasouborů do formátu SVG. Tento formát je ideální pro zobrazování vektorové grafiky v dokumentech HTML.
+## 6. Převod metasouborů do formátu SVG
+Použijte `convertMetafilesToSvg` metoda pro převod metasouborů do formátu SVG. Tento formát je ideální pro zobrazení vektorové grafiky v dokumentech HTML.
 
 ```java
 
@@ -102,7 +104,7 @@ public void convertMetafilesToSvg() throws Exception {
 ```
 
 ## 7. Přidejte předponu názvu třídy CSS
- s`addCssClassNamePrefix` můžete přidat předponu k názvům tříd CSS v exportovaném HTML. To pomáhá předcházet konfliktům s existujícími styly.
+S `addCssClassNamePrefix` metodu, můžete přidat předponu k názvům tříd CSS v exportovaném HTML. To pomáhá předcházet konfliktům se stávajícími styly.
 
 ```java
 
@@ -115,8 +117,8 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. Exportujte adresy URL CID pro zdroje MHTML
- The`exportCidUrlsForMhtmlResources` metoda se používá při ukládání dokumentů ve formátu MHTML. Umožňuje exportovat adresy URL Content-ID pro zdroje.
+## 8. Export URL adres CID pro zdroje MHTML
+Ten/Ta/To `exportCidUrlsForMhtmlResources` Metoda se používá při ukládání dokumentů ve formátu MHTML. Umožňuje exportovat adresy URL Content-ID pro zdroje.
 
 ```java
 
@@ -134,7 +136,7 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 ```
 
 ## 9. Vyřešte názvy písem
- The`resolveFontNames` Tato metoda pomáhá vyřešit názvy písem při ukládání dokumentů ve formátu HTML a zajišťuje konzistentní vykreslování na různých platformách.
+Ten/Ta/To `resolveFontNames` Metoda pomáhá s rozpoznáváním názvů písem při ukládání dokumentů ve formátu HTML a zajišťuje tak konzistentní vykreslování napříč různými platformami.
 
 ```java
 
@@ -152,8 +154,8 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. Export textového vstupního pole formuláře jako text
- The`exportTextInputFormFieldAsText`metoda exportuje pole formuláře jako prostý text v HTML, takže je snadno čitelná a upravitelná.
+## 10. Export pole formuláře pro zadávání textu jako text
+Ten/Ta/To `exportTextInputFormFieldAsText` Metoda exportuje pole formuláře jako prostý text v HTML, takže jsou snadno čitelná a upravitelná.
 
 ```java
 
@@ -170,7 +172,7 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	Directory.createDirectory(imagesDir);
 
-	// Nastavte možnost exportovat pole formuláře jako prostý text, nikoli jako vstupní prvky HTML.
+	// Nastavte možnost exportu polí formuláře jako prostého textu, nikoli jako vstupních prvků HTML.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -181,26 +183,31 @@ public void exportTextInputFormFieldAsText() throws Exception {
 ```
 
 ## Závěr
-V tomto tutoriálu jsme prozkoumali pokročilé možnosti ukládání dokumentů HTML, které poskytuje Aspose.Words pro Java. Tyto možnosti vám poskytují jemnou kontrolu nad procesem převodu a umožňují vám vytvářet dokumenty HTML, které se velmi podobají původním dokumentům aplikace Word.
+V tomto tutoriálu jsme prozkoumali pokročilé možnosti ukládání HTML dokumentů, které nabízí Aspose.Words pro Javu. Tyto možnosti vám poskytují přesnou kontrolu nad procesem převodu a umožňují vám vytvářet HTML dokumenty, které se velmi podobají původním dokumentům Wordu.
 
-## FAQ
-Zde jsou některé často kladené otázky o práci s Aspose.Words pro Java a možnosti uložení dokumentu HTML:
+## Často kladené otázky
+Zde jsou některé často kladené otázky týkající se práce s Aspose.Words pro Javu a možností ukládání dokumentů HTML:
 
-### Q1: Jak mohu převést HTML zpět do formátu Word pomocí Aspose.Words for Java?
- Chcete-li převést HTML zpět do formátu Word, můžete použít rozhraní API Aspose.Words`load` způsob načtení dokumentu HTML a jeho uložení ve formátu Word.
+### Q1: Jak mohu převést HTML zpět do formátu Word pomocí Aspose.Words pro Javu?
+Pro převod HTML zpět do formátu Word můžete použít API Aspose.Words. `load` metoda pro načtení HTML dokumentu a jeho následné uložení ve formátu Word.
 
-### Q2: Mohu přizpůsobit styly CSS při exportu do HTML?
-Ano, styly CSS můžete přizpůsobit úpravou šablon stylů používaných v HTML nebo pomocí`addCssClassNamePrefix` metoda pro přidání předpony k názvům tříd CSS.
+### Q2: Mohu si při exportu do HTML upravit styly CSS?
+Ano, styly CSS si můžete přizpůsobit úpravou stylů použitých v HTML nebo pomocí `addCssClassNamePrefix` metoda pro přidání prefixu k názvům tříd CSS.
 
-### Q3: Existuje způsob, jak optimalizovat výstup HTML pro zobrazení na webu?
-Ano, výstup HTML můžete optimalizovat pro webové zobrazení konfigurací možností, jako je export písem jako Base64 a převod metasouborů do SVG.
+### Q3: Existuje způsob, jak optimalizovat HTML výstup pro zobrazení na webu?
+Ano, výstup HTML pro webové zobrazení můžete optimalizovat konfigurací možností, jako je export písem ve formátu Base64 a převod metasouborů do formátu SVG.
 
-### Q4: Existují nějaká omezení při převodu složitých dokumentů aplikace Word do HTML?
-Zatímco Aspose.Words for Java poskytuje výkonné konverzní možnosti, složité dokumenty Wordu se složitým rozvržením mohou vyžadovat dodatečné následné zpracování k dosažení požadovaného výstupu HTML.
+### Q4: Existují nějaká omezení při převodu složitých dokumentů Word do HTML?
+Přestože Aspose.Words pro Javu nabízí výkonné konverzní funkce, složité dokumenty Wordu se složitým rozvržením mohou vyžadovat dodatečné následné zpracování k dosažení požadovaného výstupu HTML.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: Hasonlítsa össze az Equal In Word dokumentumot
-linktitle: Hasonlítsa össze az Equal In Word dokumentumot
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan hasonlíthat össze két Word-dokumentumot az egyenlőség érdekében az Aspose.Words for .NET használatával. Kövesse ezt a lépésenkénti útmutatót, hogy biztosítsa a dokumentumok azonosságát.
-weight: 10
-url: /hu/net/compare-documents/compare-for-equal/
+"description": "Tanuld meg, hogyan hasonlíthatsz össze két Word-dokumentumot az egyenlőség szempontjából az Aspose.Words for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót, hogy megbizonyosodj a dokumentumok azonosságáról."
+"linktitle": "Hasonlítsa össze az egyenlőséget Word-dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Hasonlítsa össze az egyenlőséget Word-dokumentumban"
+"url": "/hu/net/compare-documents/compare-for-equal/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hasonlítsa össze az Equal In Word dokumentumot
+# Hasonlítsa össze az egyenlőséget Word-dokumentumban
 
 ## Bevezetés
 
-A Word dokumentumokkal való munka során döntő feladat lehet annak biztosítása, hogy két dokumentum azonos legyen. Legyen szó a szerződés különböző verzióinak összehasonlításáról, a jogosulatlan módosítások ellenőrzéséről vagy a dokumentumok integritásának ellenőrzéséről, a dokumentumok összehasonlításának automatizált módja jelentős időt és erőfeszítést takaríthat meg. Az Aspose.Words for .NET robusztus megoldást kínál a Word dokumentumok összehasonlítására és a különbségek azonosítására. Ebben a cikkben végigvezetjük a két Word-dokumentum egyenjogúság szempontjából történő összehasonlításának folyamatán az Aspose.Words for .NET használatával. 
+Word-dokumentumokkal való munka során kulcsfontosságú feladat lehet biztosítani, hogy két dokumentum azonos legyen. Akár egy szerződés különböző verzióit hasonlítja össze, akár jogosulatlan módosításokat keres, akár a dokumentum integritását ellenőrzi, a dokumentumok automatikus összehasonlítása jelentős időt és energiát takaríthat meg. Az Aspose.Words for .NET robusztus megoldást kínál a Word-dokumentumok összehasonlítására és az esetleges különbségek azonosítására. Ebben a cikkben végigvezetjük Önt két Word-dokumentum egyenlőség-ellenőrzési folyamatán az Aspose.Words for .NET segítségével. 
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, győződjünk meg arról, hogy minden szükséges dolog a rendelkezésünkre áll:
 
-1.  Aspose.Words for .NET: Az Aspose.Words for .NET-re telepítve kell lennie. Ha még nincs meg, megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Győződjön meg arról, hogy be van állítva egy .NET fejlesztői környezet. A Visual Studio erősen ajánlott.
-3. Mintadokumentumok: Készítsen két Word-dokumentumot, amelyeket össze szeretne hasonlítani.
+1. Aspose.Words .NET-hez: Telepítenie kell az Aspose.Words .NET-hez készült verzióját. Ha még nincs telepítve, megteheti [töltsd le itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Győződjön meg róla, hogy rendelkezik beállított .NET fejlesztői környezettel. A Visual Studio használata erősen ajánlott.
+3. Mintadokumentumok: Készítsen elő két Word-dokumentumot, amelyeket össze szeretne hasonlítani.
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatának megkezdéséhez importálnia kell a szükséges névtereket. Ezek a névterek hozzáférést biztosítanak a dokumentumok kezeléséhez szükséges osztályokhoz és metódusokhoz.
+Az Aspose.Words for .NET használatának megkezdéséhez importálni kell a szükséges névtereket. Ezek a névterek hozzáférést biztosítanak a dokumentumkezeléshez szükséges osztályokhoz és metódusokhoz.
 
 ```csharp
 using System;
 using Aspose.Words;
 ```
 
-## 1. lépés: Állítsa be a projektet
+## 1. lépés: A projekt beállítása
 
-Kezdésként hozzon létre egy új .NET-projektet a kívánt fejlesztői környezetben. Adjon hozzá hivatkozást az Aspose.Words for .NET könyvtárra. Ha még nem telepítette, megteheti a Visual Studio NuGet Package Manager segítségével.
+Kezdésként hozz létre egy új .NET projektet a kívánt fejlesztői környezetben. Adj hozzá egy hivatkozást az Aspose.Words for .NET könyvtárhoz. Ha még nem telepítetted, megteheted a Visual Studio NuGet csomagkezelőjén keresztül.
 
 ```sh
 Install-Package Aspose.Words
@@ -44,7 +46,7 @@ Install-Package Aspose.Words
 
 ## 2. lépés: Töltse be a dokumentumokat
 
- Ezután be kell töltenie az összehasonlítani kívánt Word-dokumentumokat. Ebben a példában feltételezzük, hogy két megnevezett dokumentuma van`Document.docx` és`Document2.docx` dokumentumkönyvtárában található.
+Ezután be kell töltenie az összehasonlítani kívánt Word-dokumentumokat. Ebben a példában feltételezzük, hogy két, a következő nevű dokumentummal rendelkezik: `Document.docx` és `Document2.docx` a dokumentumok könyvtárában található.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -55,7 +57,7 @@ Document docB = new Document(dataDir + "Document2.docx");
 
 ## 3. lépés: Az egyik dokumentum klónozása
 
- A dokumentumok összehasonlításához klónozni kell az egyiket. Erre azért van szükség, mert a`Compare`módszer módosítja a dokumentumot, és érdemes lehet az eredeti dokumentumot változatlanul hagyni egyéb célokra.
+dokumentumok összehasonlításához klónoznia kell az egyiket. Erre azért van szükség, mert a `Compare` metódus módosítja a dokumentumot, és előfordulhat, hogy az eredeti dokumentumot más célokra változatlanul szeretné tartani.
 
 ```csharp
 Document docBClone = docB.Clone();
@@ -63,15 +65,15 @@ Document docBClone = docB.Clone();
 
 ## 4. lépés: Végezze el az összehasonlítást
 
- Most készen áll a dokumentumok összehasonlítására. A`Compare` módszer rávilágít a két dokumentum közötti különbségekre. Megadhatja az összehasonlítást végző felhasználót és az összehasonlítás dátumát.
+Most már készen áll a dokumentumok összehasonlítására. `Compare` A metódus kiemeli a két dokumentum közötti különbségeket. Megadhatja az összehasonlítást végző felhasználót és az összehasonlítás dátumát.
 
 ```csharp
 docA.Compare(docBClone, "user", DateTime.Now);
 ```
 
-## 5. lépés: Ellenőrizze a módosításokat
+## 5. lépés: Változások ellenőrzése
 
- A dokumentumok összehasonlítása után ellenőrizheti a`Revisions` gyűjtemény, hogy lássák, vannak-e eltérések. Ha a gyűjtemény üres, a dokumentumok azonosak.
+A dokumentumok összehasonlítása után ellenőrizheti a `Revisions` gyűjteményben, hogy lássuk, vannak-e eltérések. Ha a gyűjtemény üres, a dokumentumok azonosak.
 
 ```csharp
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
@@ -79,28 +81,33 @@ Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents
 
 ## Következtetés
 
-Word dokumentumok összehasonlítása az egyenlőség érdekében az Aspose.Words for .NET használatával egyszerű folyamat, amely jelentős időt és erőfeszítést takaríthat meg. Az ebben az útmutatóban ismertetett lépések követésével gyorsan azonosíthatja a dokumentumok közötti különbségeket, és biztosíthatja azok integritását. Akár jogi dokumentumokat, műszaki dokumentációt vagy bármilyen más típusú Word-fájlt kezel, az Aspose.Words for .NET biztosítja a hatékony és pontos dokumentumok összehasonlításához szükséges eszközöket.
+Word dokumentumok összehasonlítása az egyenlőség szempontjából az Aspose.Words for .NET segítségével egy egyszerű folyamat, amely jelentős időt és energiát takaríthat meg. Az útmutatóban ismertetett lépéseket követve gyorsan azonosíthatja a dokumentumok közötti különbségeket, és biztosíthatja azok integritását. Akár jogi dokumentumokat, műszaki dokumentációt vagy bármilyen más típusú Word fájlt kezel, az Aspose.Words for .NET biztosítja a hatékony és pontos dokumentum-összehasonlításhoz szükséges eszközöket.
 
 ## GYIK
 
 ### Összehasonlíthatom a különböző formátumú dokumentumokat (pl. .docx és .doc)?
 Igen, az Aspose.Words for .NET támogatja a különböző formátumú dokumentumok összehasonlítását.
 
-### Mi történik, ha a dokumentumok nyomon követik a változásokat?
-Az Aspose.Words for .NET tartalmazni fogja a nyomon követett változásokat az összehasonlítási folyamatban, lehetővé téve az összes különbség megtekintését.
+### Mi történik, ha a dokumentumokban nyomon követett változások vannak?
+Az Aspose.Words for .NET tartalmazza a követett változásokat az összehasonlítási folyamatban, lehetővé téve az összes különbség megtekintését.
 
-### Lehetséges-e figyelmen kívül hagyni bizonyos típusú változtatásokat, például a formázást?
-Igen, testreszabhatja az összehasonlítási beállításokat, hogy figyelmen kívül hagyjon bizonyos típusú változtatásokat.
+### Lehetséges bizonyos típusú változtatásokat, például a formázást, figyelmen kívül hagyni?
+Igen, testreszabhatja az összehasonlítási beállításokat, hogy bizonyos típusú változásokat figyelmen kívül hagyjon.
 
-### Hogyan menthetem el az összehasonlított dokumentumot a kiemelt változatokkal?
- A dokumentumot a`Save` módszert, és a változatok kiemelve lesznek a kimeneti fájlban.
+### Hogyan menthetem el az összehasonlított dokumentumot a kiemelt javításokkal?
+A dokumentumot a következővel mentheti el: `Save` metódust, és a módosítások kiemelve jelennek meg a kimeneti fájlban.
 
-### Az Aspose.Words for .NET támogatja az összehasonlítást az angoltól eltérő nyelveken?
+### Az Aspose.Words for .NET támogatja az angoltól eltérő nyelvek összehasonlítását?
 Igen, az Aspose.Words for .NET támogatja a dokumentumok összehasonlítását több nyelven.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dokument właściciela
-linktitle: Dokument właściciela
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pracować z „Dokumentem właściciela” w Aspose.Words dla .NET. Ten przewodnik krok po kroku obejmuje tworzenie i manipulowanie węzłami w dokumencie.
-weight: 10
-url: /pl/net/working-with-node/owner-document/
+"description": "Dowiedz się, jak pracować z „Dokumentem właściciela” w Aspose.Words dla .NET. Ten przewodnik krok po kroku obejmuje tworzenie i manipulowanie węzłami w dokumencie."
+"linktitle": "Dokument właściciela"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dokument właściciela"
+"url": "/pl/net/working-with-node/owner-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokument właściciela
@@ -21,7 +23,7 @@ Czy kiedykolwiek drapałeś się po głowie, próbując zrozumieć, jak pracowa�
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: IDE, takie jak Visual Studio, służące do pisania i wykonywania kodu.
 3. Podstawowa wiedza o języku C#: W tym przewodniku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
 
@@ -62,7 +64,7 @@ Na tym etapie węzeł akapitu nie został jeszcze dodany do dokumentu. Sprawdźm
 Console.WriteLine("Paragraph has no parent node: " + (para.ParentNode == null));
 ```
 
- To spowoduje wyjście`true` ponieważ akapitowi nie przypisano jeszcze elementu nadrzędnego.
+To spowoduje wyjście `true` ponieważ akapitowi nie przypisano jeszcze elementu nadrzędnego.
 
 ## Krok 4: Zweryfikuj własność dokumentu
 
@@ -98,7 +100,7 @@ Na koniec sprawdźmy, czy węzeł akapitu ma teraz węzeł nadrzędny.
 Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 ```
 
- To spowoduje wyjście`true`, potwierdzając, że akapit został pomyślnie dodany do dokumentu.
+To spowoduje wyjście `true`, potwierdzając, że akapit został pomyślnie dodany do dokumentu.
 
 ## Wniosek
 
@@ -113,16 +115,21 @@ masz to! Właśnie nauczyłeś się, jak pracować z „Dokumentem właściciela
 Nie, każdy węzeł w Aspose.Words dla .NET musi należeć do dokumentu. Zapewnia to, że węzły mogą uzyskać dostęp do właściwości i danych specyficznych dla dokumentu.
 
 ### Jak sprawdzić czy węzeł ma rodzica?  
-Można sprawdzić, czy węzeł ma rodzica, uzyskując dostęp do jego węzła`ParentNode` nieruchomość. Jeśli zwróci`null`, węzeł nie ma rodzica.
+Można sprawdzić, czy węzeł ma rodzica, uzyskując dostęp do jego węzła `ParentNode` nieruchomość. Jeśli zwróci `null`, węzeł nie ma rodzica.
 
 ### Czy mogę modyfikować właściwości węzła nie dodając go do dokumentu?  
 Tak, dopóki węzeł należy do dokumentu, możesz modyfikować jego właściwości, nawet jeśli nie został jeszcze dodany do dokumentu.
 
 ### Co się stanie, jeśli dodam węzeł do innego dokumentu?  
 Węzeł może należeć tylko do jednego dokumentu. Jeśli spróbujesz dodać go do innego dokumentu, będziesz musiał utworzyć nowy węzeł w nowym dokumencie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

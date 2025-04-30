@@ -1,14 +1,16 @@
 ---
-title: Định dạng bảng trong tài liệu
-linktitle: Định dạng bảng trong tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Nắm vững nghệ thuật định dạng bảng trong tài liệu bằng Aspose.Words for Java. Khám phá hướng dẫn từng bước và ví dụ mã nguồn để định dạng bảng chính xác.
-weight: 13
-url: /vi/java/table-processing/formatting-tables/
+"description": "Nắm vững nghệ thuật định dạng bảng trong tài liệu bằng Aspose.Words for Java. Khám phá hướng dẫn từng bước và ví dụ mã nguồn để định dạng bảng chính xác."
+"linktitle": "Định dạng bảng trong tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Định dạng bảng trong tài liệu"
+"url": "/vi/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng bảng trong tài liệu
@@ -22,10 +24,10 @@ Bạn đã sẵn sàng để bắt đầu tạo bảng trong tài liệu Word m�
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn có những điều sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.Words cho Java.[Tải xuống tại đây](https://releases.aspose.com/words/java/).
+- Thư viện Aspose.Words cho Java. [Tải xuống tại đây](https://releases.aspose.com/words/java/).
 - Hiểu biết cơ bản về lập trình Java.
 - Một IDE như IntelliJ IDEA, Eclipse hoặc bất kỳ IDE nào khác mà bạn cảm thấy thoải mái.
--  MỘT[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ khả năng của Aspose.Words.
+- MỘT [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để mở khóa toàn bộ khả năng của Aspose.Words.
 
 ## Nhập gói
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`Biểu thị một hàng trong bảng.
+- `Row`: Biểu thị một hàng trong bảng.
 - `Cell`: Biểu thị một ô trong hàng.
 - `appendChild`: Thêm hàng và ô vào bảng.
 
@@ -102,11 +104,11 @@ builder.endRow();
 
 - `DocumentBuilder`: Đơn giản hóa việc xây dựng tài liệu.
 - `setHorizontalMerge`: Gộp các ô theo chiều ngang.
-- `write`: Thêm nội dung vào các ô đã hợp nhất.
+- `write`Thêm nội dung vào các ô đã hợp nhất.
 
 ## Bước 5: Thêm các bảng lồng nhau
 
-Bạn đã sẵn sàng để nâng cấp chưa? Hãy thêm một bảng vào trong một bảng.
+Bạn đã sẵn sàng để nâng cấp chưa? Hãy thêm một bảng trong một bảng.
 
 ```java
 builder.moveTo(table.getRows().get(0).getCells().get(0).getFirstParagraph());
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", sai);
 ```
 
 ### Tôi có thể sử dụng Aspose.Words cho Java miễn phí không?  
- Bạn có thể sử dụng nó với những hạn chế hoặc nhận được một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá hết tiềm năng của nó.
+Bạn có thể sử dụng nó với những hạn chế hoặc nhận được một [dùng thử miễn phí](https://releases.aspose.com/) để khám phá hết tiềm năng của nó.
 
 ### Làm thế nào để nhập các ô theo chiều dọc trong bảng?  
- Sử dụng`setVerticalMerge` phương pháp của`CellFormat` lớp, tương tự như hợp nhất theo chiều ngang.
+Sử dụng `setVerticalMerge` phương pháp của `CellFormat` lớp, tương tự như hợp nhất theo chiều ngang.
 
 ### Tôi có thể thêm hình ảnh vào ô trong bảng không?  
- Có, bạn có thể sử dụng`DocumentBuilder` để chèn hình ảnh vào ô bảng.
+Có, bạn có thể sử dụng `DocumentBuilder` để chèn hình ảnh vào ô bảng.
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Words cho Java ở đâu?  
- Kiểm tra[tài liệu](https://reference.aspose.com/words/java/) hoặc[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8/) để có hướng dẫn chi tiết.
+Kiểm tra [tài liệu](https://reference.aspose.com/words/java/) hoặc [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8/) để có hướng dẫn chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu
-linktitle: Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak poprawić pozycjonowanie tekstu PDF za pomocą Aspose.Words dla .NET w kilku prostych krokach. Popraw wygląd swojego dokumentu.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "Dowiedz się, jak poprawić pozycjonowanie tekstu PDF za pomocą Aspose.Words dla .NET w kilku prostych krokach. Popraw wygląd swojego dokumentu."
+"linktitle": "Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu"
+"url": "/pl/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby zanurzyć się w świecie Aspose.Words dla .NET i odkry�
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystkie niezbędne narzędzia i zasoby:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Zintegrowane środowisko programistyczne (IDE) takie jak Visual Studio.
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework 4.0 lub nowszy.
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie korzystna.
@@ -53,20 +55,20 @@ Gdy projekt jest już skonfigurowany, następnym krokiem jest załadowanie dokum
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  Załaduj dokument: Użyj`Document` klasa, aby załadować dokument Word.
+2. Załaduj dokument: Użyj `Document` klasa, aby załadować dokument Word.
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## Krok 3: Skonfiguruj opcje zapisywania pliku PDF
 
- Magia dzieje się tutaj! Skonfigurujemy`PdfSaveOptions` aby umożliwić dodatkowe pozycjonowanie tekstu.
+Magia dzieje się tutaj! Skonfigurujemy `PdfSaveOptions` aby umożliwić dodatkowe pozycjonowanie tekstu.
 
-1.  Utwórz obiekt PdfSaveOptions: Utwórz instancję`PdfSaveOptions` klasa.
+1. Utwórz obiekt PdfSaveOptions: Utwórz instancję `PdfSaveOptions` klasa.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  Włącz dodatkowe pozycjonowanie tekstu: Ustaw`AdditionalTextPositioning`nieruchomość do`true`.
+2. Włącz dodatkowe pozycjonowanie tekstu: Ustaw `AdditionalTextPositioning` nieruchomość do `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
@@ -81,7 +83,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 
 ## Wniosek
 
-masz! Postępując zgodnie z tymi krokami, udało Ci się poprawić pozycjonowanie tekstu w pliku PDF za pomocą Aspose.Words dla .NET. Ta potężna funkcja zapewnia, że Twoje pliki PDF wyglądają ostro i profesjonalnie, a tekst jest umieszczony dokładnie tam, gdzie powinien być.
+I masz! Postępując zgodnie z tymi krokami, udało Ci się poprawić pozycjonowanie tekstu w pliku PDF za pomocą Aspose.Words dla .NET. Ta potężna funkcja zapewnia, że Twoje pliki PDF wyglądają ostro i profesjonalnie, a tekst jest umieszczony dokładnie tam, gdzie powinien być.
 
 ## Najczęściej zadawane pytania
 
@@ -92,17 +94,22 @@ Dodatkowe pozycjonowanie tekstu zwiększa precyzję rozmieszczenia tekstu w plik
 Nie, funkcja Dodatkowe pozycjonowanie tekstu jest specyficzna dla konwersji PDF.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję[Tutaj](https://purchase.aspose.com/buy).
+Tak, możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak, możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) Aspose.Words dla .NET.
+Tak, możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/) Aspose.Words dla .NET.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółowa dokumentacja jest dostępna na stronie[Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+Szczegółowa dokumentacja jest dostępna na stronie [Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

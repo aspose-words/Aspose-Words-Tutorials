@@ -7,8 +7,11 @@ weight: 32
 url: /java/document-manipulation/using-document-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Document Properties in Aspose.Words for Java
@@ -170,9 +173,13 @@ Linking to content within a document allows you to create dynamic references to 
 
 You can convert between different measurement units in Aspose.Words for Java by using the `ConvertUtil` class. It provides methods to convert units such as inches to points, points to centimeters, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

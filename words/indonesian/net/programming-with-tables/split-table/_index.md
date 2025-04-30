@@ -1,14 +1,16 @@
 ---
-title: Tabel Terpisah
-linktitle: Tabel Terpisah
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membagi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah kami membuat pengelolaan tabel menjadi mudah dan efisien.
-weight: 10
-url: /id/net/programming-with-tables/split-table/
+"description": "Pelajari cara membagi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah kami membuat pengelolaan tabel menjadi mudah dan efisien."
+"linktitle": "Tabel Terpisah"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tabel Terpisah"
+"url": "/id/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabel Terpisah
@@ -21,7 +23,7 @@ Pernahkah Anda bekerja dengan tabel besar dalam dokumen Word dan berharap dapat 
 
 Sebelum kita masuk ke tutorial, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan memasang pustaka Aspose.Words untuk .NET. Anda bisa mendapatkannya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan memasang pustaka Aspose.Words untuk .NET. Anda bisa mendapatkannya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan dengan dukungan kerangka .NET, seperti Visual Studio.
 3. Contoh Dokumen: Siapkan dokumen Word (`Tables.docx`) dengan setidaknya satu tabel untuk menerapkan operasi pemisahan.
 
@@ -126,9 +128,14 @@ Ya, Aspose.Words untuk .NET juga mendukung operasi pada tabel bersarang.
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa dokumen?
 Tentu saja! Anda dapat membuat skrip atau aplikasi untuk mengotomatiskan proses pemisahan tabel untuk beberapa dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में कस्टम बारकोड लेबल बनाना
-linktitle: कस्टम बारकोड लेबल बनाना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में कस्टम बारकोड लेबल जेनरेट करें। इस चरण-दर-चरण मार्गदर्शिका में Aspose.Words for Java का उपयोग करके वैयक्तिकृत बारकोड समाधान बनाना सीखें।
-weight: 10
-url: /hi/java/document-conversion-and-export/generating-custom-barcode-labels/
+"description": "Aspose.Words for Java में कस्टम बारकोड लेबल जेनरेट करें। इस चरण-दर-चरण मार्गदर्शिका में Aspose.Words for Java का उपयोग करके वैयक्तिकृत बारकोड समाधान बनाना सीखें।"
+"linktitle": "कस्टम बारकोड लेबल बनाना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में कस्टम बारकोड लेबल बनाना"
+"url": "/hi/java/document-conversion-and-export/generating-custom-barcode-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में कस्टम बारकोड लेबल बनाना
@@ -24,10 +26,10 @@ url: /hi/java/document-conversion-and-export/generating-custom-barcode-labels/
 कोडिंग शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - जावा डेवलपमेंट किट (JDK): संस्करण 8 या उससे ऊपर।
--  Aspose.Words जावा लाइब्रेरी के लिए:[यहां से डाउनलोड करें](https://releases.aspose.com/words/java/).
--  Aspose.BarCode for Java लाइब्रेरी:[यहां से डाउनलोड करें](https://releases.aspose.com/).
+- Aspose.Words जावा लाइब्रेरी के लिए: [यहां से डाउनलोड करें](https://releases.aspose.com/words/java/).
+- Aspose.BarCode for Java लाइब्रेरी: [यहां से डाउनलोड करें](https://releases.aspose.com/).
 - एकीकृत विकास वातावरण (IDE): IntelliJ IDEA, Eclipse, या कोई भी IDE जिसे आप पसंद करते हैं।
--  अस्थायी लाइसेंस: प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) अप्रतिबंधित पहुंच के लिए.
+- अस्थायी लाइसेंस: प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) अप्रतिबंधित पहुंच के लिए.
 
 ## पैकेज आयात करें
 
@@ -77,11 +79,11 @@ class CustomBarcodeGeneratorUtils {
 ### स्पष्टीकरण:
 
 - `twipsToPixels` विधि: ट्विप्स (वर्ड दस्तावेज़ों में प्रयुक्त) को पिक्सेल में परिवर्तित करता है।
-- `convertColor` विधि: हेक्साडेसिमल रंग कोड का अनुवाद करता है`Color` वस्तुएं.
+- `convertColor` विधि: हेक्साडेसिमल रंग कोड का अनुवाद करता है `Color` वस्तुएं.
 
 ## चरण 2: कस्टम बारकोड जनरेटर को लागू करें
 
- हम इसे लागू करेंगे`IBarcodeGenerator` बारकोड उत्पन्न करने और उन्हें Aspose.Words के साथ एकीकृत करने के लिए इंटरफ़ेस।
+हम इसे लागू करेंगे `IBarcodeGenerator` बारकोड उत्पन्न करने और उन्हें Aspose.Words के साथ एकीकृत करने के लिए इंटरफ़ेस।
 
 ### कोड:
 
@@ -116,7 +118,7 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ### स्पष्टीकरण:
 
 - `getBarcodeImage` तरीका:
-  -  बनाता है`BarcodeGenerator` उदाहरण।
+  - बनाता है `BarcodeGenerator` उदाहरण।
   - बारकोड का रंग, पृष्ठभूमि का रंग सेट करता है, और छवि उत्पन्न करता है।
 
 ## चरण 3: बारकोड बनाएं और उसे वर्ड डॉक्यूमेंट में जोड़ें
@@ -171,24 +173,29 @@ public class GenerateCustomBarcodeLabels {
 ## पूछे जाने वाले प्रश्न
 
 1. क्या मैं लाइसेंस के बिना Java के लिए Aspose.Words का उपयोग कर सकता हूँ?
- हां, लेकिन इसकी कुछ सीमाएं होंगी।[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण कार्यक्षमता के लिए.
+हां, लेकिन इसकी कुछ सीमाएं होंगी। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण कार्यक्षमता के लिए.
 
 2. मैं किस प्रकार के बारकोड उत्पन्न कर सकता हूँ?
-Aspose.BarCode QR, कोड 128, EAN-13, और कई अन्य प्रकारों का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/words/java/) पूरी सूची के लिए.
+Aspose.BarCode QR, कोड 128, EAN-13, और कई अन्य प्रकारों का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/java/) पूरी सूची के लिए.
 
 3. मैं बारकोड का आकार कैसे बदल सकता हूँ?
- समायोजित`XDimension` और`BarHeight` पैरामीटर्स`BarcodeGenerator` सेटिंग्स.
+समायोजित `XDimension` और `BarHeight` पैरामीटर्स `BarcodeGenerator` सेटिंग्स.
 
 4. क्या मैं बारकोड के लिए कस्टम फ़ॉन्ट का उपयोग कर सकता हूँ?
- हां, आप बारकोड टेक्स्ट फ़ॉन्ट को इसके माध्यम से अनुकूलित कर सकते हैं`CodeTextParameters` संपत्ति।
+हां, आप बारकोड टेक्स्ट फ़ॉन्ट को इसके माध्यम से अनुकूलित कर सकते हैं `CodeTextParameters` संपत्ति।
 
 5. मुझे Aspose.Words के संबंध में सहायता कहां से मिल सकती है?
- दौरा करना[सहयता मंच](https://forum.aspose.com/c/words/8/) सहायता के लिए.
+दौरा करना [सहयता मंच](https://forum.aspose.com/c/words/8/) सहायता के लिए.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

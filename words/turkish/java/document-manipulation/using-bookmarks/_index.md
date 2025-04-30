@@ -1,20 +1,22 @@
 ---
-title: Java için Aspose.Words'de Yer İşaretlerini Kullanma
-linktitle: Yer İşaretlerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge işlemenizi optimize edin. Bu adım adım kılavuzda, etkili içerik gezinme ve düzenleme için yer imlerini kullanmayı öğrenin.
-weight: 17
-url: /tr/java/document-manipulation/using-bookmarks/
+"description": "Aspose.Words for Java ile belge işlemenizi optimize edin. Bu adım adım kılavuzda, etkili içerik gezinme ve düzenleme için yer imlerini kullanmayı öğrenin."
+"linktitle": "Yer İşaretlerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Yer İşaretlerini Kullanma"
+"url": "/tr/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Yer İşaretlerini Kullanma
 
 
-## Java için Aspose.Words'de Yer İşaretlerini Kullanmaya Giriş
+## Aspose.Words for Java'da Yer İşaretlerini Kullanmaya Giriş
 
 Yer imleri, bir belgenin belirli bölümlerini işaretlemenize ve düzenlemenize olanak tanıyan Aspose.Words for Java'da güçlü bir özelliktir. Bu adım adım kılavuzda, belge işlemenizi geliştirmek için Aspose.Words for Java'da yer imlerinin nasıl kullanılacağını inceleyeceğiz. 
 
@@ -26,11 +28,11 @@ Yer imi oluşturmak için şu adımları izleyin:
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yer imini başlat
+// Yer işaretini başlat
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Yer işaretini sonlandır
+// Yer işaretini sonlandır
 builder.endBookmark("My Bookmark");
 ```
 
@@ -103,11 +105,11 @@ Aspose.Words for Java'da yer imlerini kullanmak, belge işleme görevlerini büy
 
 ### Bir tablo hücresinde yer imi nasıl oluştururum?
 
- Bir tablo hücresinde yer imi oluşturmak için şunu kullanın:`DocumentBuilder` sınıf ve hücre içindeki yer imini başlat ve bitir.
+Bir tablo hücresinde yer imi oluşturmak için şunu kullanın: `DocumentBuilder` sınıf ve hücre içindeki yer imini başlat ve bitir.
 
 ### Bir yer imini başka bir belgeye kopyalayabilir miyim?
 
- Evet, bir yer imini başka bir belgeye kopyalamak için şunu kullanabilirsiniz:`NodeImporter` Biçimlendirmenin korunduğundan emin olmak için sınıf.
+Evet, bir yer imini başka bir belgeye kopyalamak için şunu kullanabilirsiniz: `NodeImporter` Biçimlendirmenin korunduğundan emin olmak için sınıf.
 
 ### Bir satırı yer imine göre nasıl silebilirim?
 
@@ -119,10 +121,15 @@ Yer imleri genellikle içerik tablosu oluşturmak, belirli içerikleri çıkarma
 
 ### Aspose.Words for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Ayrıntılı dokümantasyon ve indirmeler için şu adresi ziyaret edin:[Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+Ayrıntılı dokümantasyon ve indirmeler için şu adresi ziyaret edin: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

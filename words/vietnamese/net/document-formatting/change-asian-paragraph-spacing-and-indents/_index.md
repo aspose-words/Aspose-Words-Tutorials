@@ -1,17 +1,19 @@
 ---
-title: Thay đổi khoảng cách đoạn văn và thụt lề theo chuẩn Châu Á trong tài liệu Word
-linktitle: Thay đổi khoảng cách đoạn văn và thụt lề theo chuẩn Châu Á trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay đổi khoảng cách đoạn văn và thụt lề theo kiểu Châu Á trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/document-formatting/change-asian-paragraph-spacing-and-indents/
+"description": "Tìm hiểu cách thay đổi khoảng cách đoạn văn và thụt lề theo kiểu Châu Á trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Thay đổi khoảng cách đoạn văn và thụt lề theo kiểu Châu Á trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay đổi khoảng cách đoạn văn và thụt lề theo kiểu Châu Á trong tài liệu Word"
+"url": "/vi/net/document-formatting/change-asian-paragraph-spacing-and-indents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thay đổi khoảng cách đoạn văn và thụt lề theo chuẩn Châu Á trong tài liệu Word
+# Thay đổi khoảng cách đoạn văn và thụt lề theo kiểu Châu Á trong tài liệu Word
 
 ## Giới thiệu
 
@@ -21,14 +23,14 @@ Xin chào! Bạn đã bao giờ tự hỏi làm thế nào để điều chỉnh
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết để theo dõi:
 
-1.  Aspose.Words cho thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn cần thiết lập môi trường phát triển. Visual Studio là lựa chọn phổ biến cho phát triển .NET.
 3. Một tài liệu Word: Chuẩn bị một tài liệu Word mà bạn có thể thử nghiệm. Chúng tôi sẽ sử dụng một tài liệu mẫu có tên là "Asian typography.docx".
-4. Kiến thức cơ bản về C#: Bạn nên quen thuộc với lập trình C# để làm theo các ví dụ mã.
+4. Kiến thức cơ bản về C#: Bạn nên quen thuộc với lập trình C# để làm theo các ví dụ về mã.
 
 ## Nhập không gian tên
 
-Trước khi chúng ta có thể bắt đầu viết mã, chúng ta cần import các namespace cần thiết. Điều này sẽ đảm bảo chúng ta có quyền truy cập vào tất cả các lớp và phương thức cần thiết từ Aspose.Words.
+Trước khi chúng ta có thể bắt đầu viết mã, chúng ta cần nhập các không gian tên cần thiết. Điều này sẽ đảm bảo chúng ta có quyền truy cập vào tất cả các lớp và phương thức cần thiết từ Aspose.Words.
 
 ```csharp
 using System;
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Asian typography.docx");
 ```
 
- Trong bước này, chúng tôi sẽ chỉ định đường dẫn đến thư mục tài liệu của chúng tôi và tải tài liệu vào một`Document` đối tượng. Đơn giản phải không?
+Trong bước này, chúng tôi sẽ chỉ định đường dẫn đến thư mục tài liệu của chúng tôi và tải tài liệu vào một `Document` đối tượng. Đơn giản phải không?
 
 ## Bước 2: Truy cập Định dạng đoạn văn
 
@@ -58,7 +60,7 @@ Tiếp theo, chúng ta cần truy cập định dạng đoạn văn của đoạ
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 ```
 
- Ở đây, chúng ta đang nắm bắt`ParagraphFormat` đối tượng từ đoạn văn đầu tiên trong tài liệu. Đối tượng này chứa tất cả các thuộc tính định dạng cho đoạn văn.
+Ở đây, chúng ta đang nắm bắt `ParagraphFormat` đối tượng từ đoạn văn đầu tiên trong tài liệu. Đối tượng này chứa tất cả các thuộc tính định dạng cho đoạn văn.
 
 ## Bước 3: Đặt thụt lề đơn vị ký tự
 
@@ -103,20 +105,25 @@ Và bạn đã có nó rồi! Bạn vừa học cách thay đổi khoảng cách
 Có, những thiết lập này có thể áp dụng cho bất kỳ văn bản nào, nhưng chúng đặc biệt hữu ích cho kiểu chữ châu Á do yêu cầu về khoảng cách và thụt lề đặc biệt.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử xem.
+Có, Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử xem.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể tự động hóa quy trình này cho nhiều tài liệu không?
 Chắc chắn rồi! Bạn có thể lặp qua một tập hợp các tài liệu và áp dụng các thiết lập này theo chương trình cho từng tài liệu.
 
 ### Tôi phải làm sao nếu gặp vấn đề hoặc có thắc mắc?
- Nếu bạn gặp phải bất kỳ vấn đề nào hoặc có thêm câu hỏi,[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để tìm kiếm sự giúp đỡ.
+Nếu bạn gặp phải bất kỳ vấn đề nào hoặc có thêm câu hỏi, [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) là nơi tuyệt vời để tìm kiếm sự giúp đỡ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

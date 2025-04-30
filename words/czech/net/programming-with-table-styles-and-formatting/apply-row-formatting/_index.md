@@ -1,28 +1,30 @@
 ---
-title: Použít formátování řádků
-linktitle: Použít formátování řádků
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak použít formátování řádků v dokumentu aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro podrobné pokyny.
-weight: 10
-url: /cs/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Naučte se, jak použít formátování řádků v dokumentu Word pomocí Aspose.Words pro .NET. Podrobné pokyny naleznete v našem podrobném návodu."
+"linktitle": "Použít formátování řádků"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Použít formátování řádků"
+"url": "/cs/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Použít formátování řádků
 
 ## Zavedení
 
-Pokud chcete své dokumenty Word okořenit nějakým efektním formátováním řádků, jste na správném místě! V tomto tutoriálu se ponoříme do toho, jak použít formátování řádků pomocí Aspose.Words for .NET. Každý krok rozebereme, abyste jej mohli snadno sledovat a aplikovat na své projekty.
+Pokud chcete okořenit své dokumenty Wordu nějakým efektním formátováním řádků, jste na správném místě! V tomto tutoriálu se ponoříme do toho, jak formátovat řádky pomocí Aspose.Words pro .NET. Rozebereme si jednotlivé kroky, abyste je mohli snadno sledovat a aplikovat ve svých projektech.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
+Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete k zahájení:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete si jej stáhnout z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Vývojové prostředí AC# jako Visual Studio.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ji nemáte, můžete si ji stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Vývojové prostředí AC#, jako je Visual Studio.
 3. Základní znalost C#: Znalost programování v C# je nezbytná.
 4. Adresář dokumentů: Adresář, kam uložíte dokument.
 
@@ -35,11 +37,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Nyní si projdeme proces krok za krokem.
+Nyní si celý proces projdeme krok za krokem.
 
 ## Krok 1: Vytvořte nový dokument
 
-Nejprve musíme vytvořit nový dokument. Toto bude naše plátno, kam přidáme naši tabulku a použijeme formátování.
+Nejprve musíme vytvořit nový dokument. To bude naše plátno, kam přidáme tabulku a použijeme formátování.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -47,18 +49,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Spusťte novou tabulku
+## Krok 2: Vytvořte novou tabulku
 
- Dále založíme novou tabulku pomocí`DocumentBuilder`objekt. Tady se děje kouzlo.
+Dále začneme novou tabulku pomocí `DocumentBuilder` předmět. Tady se děje magie.
 
 ```csharp
 Table table = builder.StartTable();
 builder.InsertCell();
 ```
 
-## Krok 3: Definujte formátování řádků
+## Krok 3: Definování formátování řádků
 
-Zde definujeme formátování řádků. To zahrnuje nastavení výšky řádku a odsazení.
+Zde definujeme formátování řádků. To zahrnuje nastavení výšky a odsazení řádku.
 
 ```csharp
 RowFormat rowFormat = builder.RowFormat;
@@ -70,15 +72,15 @@ table.TopPadding = 30;
 table.BottomPadding = 30;
 ```
 
-## Krok 4: Vložte obsah do buňky
+## Krok 4: Vložení obsahu do buňky
 
-Pojďme vložit nějaký obsah do našeho krásně formátovaného řádku. Tento obsah ukáže, jak vypadá formátování.
+Vložme do našeho krásně naformátovaného řádku nějaký obsah. Tento obsah ukáže, jak formátování vypadá.
 
 ```csharp
 builder.Writeln("I'm a wonderfully formatted row.");
 ```
 
-## Krok 5: Ukončete řádek a tabulku
+## Krok 5: Ukončení řádku a tabulky
 
 Nakonec musíme ukončit řádek a tabulku, abychom dokončili naši strukturu.
 
@@ -89,7 +91,7 @@ builder.EndTable();
 
 ## Krok 6: Uložte dokument
 
-Nyní, když je náš stůl připraven, je čas dokument uložit. Zadejte cestu k adresáři dokumentů a uložte soubor.
+Nyní, když je naše tabulka připravena, je čas uložit dokument. Zadejte cestu k adresáři s dokumentem a uložte soubor.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx");
@@ -97,27 +99,32 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.ApplyRowFormatting.docx"
 
 ## Závěr
 
-A tady to máte! Úspěšně jste použili formátování řádků na tabulku v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato jednoduchá, ale účinná technika může výrazně zlepšit čitelnost a estetiku vašich dokumentů.
+A tady to máte! Úspěšně jste použili formátování řádků v tabulce v dokumentu Word pomocí Aspose.Words pro .NET. Tato jednoduchá, ale účinná technika může výrazně zlepšit čitelnost a estetiku vašich dokumentů.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu na jednotlivé řádky použít různé formátování?  
- Ano, každý řádek můžete přizpůsobit individuálně nastavením různých vlastností`RowFormat`.
+Ano, každý řádek si můžete přizpůsobit jednotlivě nastavením různých vlastností pro `RowFormat`.
 
 ### Jak upravím šířku sloupců?  
- Šířku sloupců můžete nastavit pomocí`CellFormat.Width` vlastnictví.
+Šířku sloupců můžete nastavit pomocí `CellFormat.Width` vlastnictví.
 
 ### Je možné sloučit buňky v Aspose.Words pro .NET?  
- Ano, buňky můžete sloučit pomocí`CellMerge` vlastnictvím`CellFormat`.
+Ano, buňky můžete sloučit pomocí `CellMerge` majetek `CellFormat`.
 
-### Mohu přidat ohraničení do řádků?  
- Absolutně! Ohraničení řádků můžete přidat nastavením`Borders` vlastnictvím`RowFormat`.
+### Mohu k řádkům přidat ohraničení?  
+Rozhodně! Ohraničení řádků můžete přidat nastavením `Borders` majetek `RowFormat`.
 
-### Jak mohu použít podmíněné formátování na řádky?  
-V kódu můžete použít podmíněnou logiku k použití jiného formátování na základě konkrétních podmínek.
+### Jak aplikuji podmíněné formátování na řádky?  
+V kódu můžete použít podmíněnou logiku k použití různého formátování na základě specifických podmínek.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

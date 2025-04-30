@@ -1,37 +1,41 @@
 ---
-title: .NET के लिए Aspose.Words के साथ वर्ड दस्तावेज़ बनाएं
-weight: 7700
-limit: 
-description: .NET और DocumentBuilder वर्ग के लिए Aspose.Words का उपयोग करके स्टाइल वर्ड दस्तावेज़ कैसे बनाएं सीखें।
-keywords: [Aspose.Words, .NET, DocumentBuilder, Word document, styling, programming, example]
-url: /hi/net/add-content-using-document-builder/insert-paragraph/
+"description": ".NET और DocumentBuilder वर्ग के लिए Aspose.Words का उपयोग करके स्टाइलयुक्त Word दस्तावेज़ बनाना सीखें।"
+"title": ".NET के लिए Aspose.Words के साथ Word दस्तावेज़ बनाएँ"
+"url": "/hi/net/add-content-using-document-builder/insert-paragraph/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words के साथ वर्ड दस्तावेज़ बनाएं
-यह उदाहरण दिखाता है कि कैसे प्रोग्राम के रूप में एक वर्ड दस्तावेज़ बनाने के लिए .NET लाइब्रेरी के लिए Aspose.Words का उपयोग करें। दस्तावेज़निर्माता वर्ग का उपयोग करके, आप अपने दस्तावेज़ में अनुकूलित फ़ॉन्ट सेटिंग्स के साथ स्टाइल किए गए पैराग्राफ सम्मिलित कर सकते हैं। यह गाइड आपको प्रत्येक चरण के माध्यम से मार्गदर्शन करेगा, यह सुनिश्चित करने के लिए कि आप अपने अनुप्रयोगों के लिए प्रभावी ढंग से वर्ड दस्तावेज़ उत्पन्न कर सकें।
+# Aspose.Words के साथ Word दस्तावेज़ बनाएँ
+यह उदाहरण दर्शाता है कि प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने के लिए Aspose.Words for .NET लाइब्रेरी का उपयोग कैसे करें। DocumentBuilder क्लास का उपयोग करके, आप अपने दस्तावेज़ में अनुकूलित फ़ॉन्ट सेटिंग के साथ स्टाइल किए गए पैराग्राफ़ सम्मिलित कर सकते हैं। यह मार्गदर्शिका आपको प्रत्येक चरण के माध्यम से ले जाएगी, यह सुनिश्चित करते हुए कि आप अपने अनुप्रयोगों के लिए प्रभावी रूप से Word दस्तावेज़ बना सकते हैं।
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## स्थापना निर्देश
-1. Aspose.Words लाइब्रेरी स्थापित करेंः
-   * आप विज़ुअल स्टूडियो में NuGet पैकेज प्रबंधक के माध्यम से .NET के लिए Aspose.Words स्थापित कर सकते हैंः
+1. Aspose.Words लाइब्रेरी स्थापित करें:
+   - आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से .NET के लिए Aspose.Words स्थापित कर सकते हैं:
      ```
      Install-Package Aspose.Words
      ```
 
-2. अपनी परियोजना स्थापित करें
-   * विज़ुअल स्टूडियो में एक नई .NET परियोजना बनाएं।
-   * Aspose.Words पुस्तकालय का संदर्भ जोड़ें।
+2. अपना प्रोजेक्ट सेट करें:
+   - Visual Studio में एक नया .NET प्रोजेक्ट बनाएँ.
+   - Aspose.Words लाइब्रेरी में संदर्भ जोड़ें.
 
 3. उदाहरण कोड जोड़ें:
-   * प्रदान किए गए कोड उदाहरण को अपनी परियोजना में कॉपी करें।
-   * आवश्यक को शामिल करना सुनिश्चित करें `उपयोग`शीर्ष पर निर्देशः
+   - दिए गए कोड उदाहरण को अपने प्रोजेक्ट में कॉपी करें।
+   - आवश्यक जानकारी शामिल करना सुनिश्चित करें `using` शीर्ष पर निर्देश:
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -40,11 +44,15 @@ url: /hi/net/add-content-using-document-builder/insert-paragraph/
      ```
 
 ## यह भी देखें
-[.NET दस्तावेज़ीकरण के लिए शब्द](https://docs.aspose.com/words/net/)
+[.NET दस्तावेज़ीकरण के लिए Aspose.Word](https://docs.aspose.com/words/net/)
 [.NET संदर्भों के लिए Aspose.Word](https://reference.aspose.com/words/net/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

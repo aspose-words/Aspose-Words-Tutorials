@@ -1,14 +1,16 @@
 ---
-title: Получить сведения о группе ревизий
-linktitle: Получить сведения о группе ревизий
-second_title: API обработки документов Aspose.Words
-description: Легко получайте сведения о группе ревизий в документах Word с помощью Aspose.Words для .NET с этим пошаговым руководством. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/working-with-revisions/get-revision-group-details/
+"description": "Легко получайте сведения о группе ревизий в документах Word с помощью Aspose.Words для .NET с этим пошаговым руководством. Идеально подходит для разработчиков .NET."
+"linktitle": "Получить сведения о группе ревизий"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить сведения о группе ревизий"
+"url": "/ru/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить сведения о группе ревизий
@@ -20,7 +22,7 @@ url: /ru/net/working-with-revisions/get-revision-group-details/
 ## Предпосылки
 
 Прежде чем отправиться в путешествие по программированию, давайте убедимся, что у вас есть все необходимое:
--  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Если нет, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Если нет, вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 - Среда .NET: Убедитесь, что у вас настроена рабочая среда разработки .NET. Visual Studio — отличный вариант.
 - Документ Word с изменениями: в этом уроке мы будем использовать пример документа Word с изменениями (`Revisions.docx`).
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- В этом фрагменте замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу. Этот код загрузит`Revisions.docx` файл в`doc` объект.
+В этом фрагменте замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу. Этот код загрузит `Revisions.docx` файл в `doc` объект.
 
 ## Шаг 2: Получите доступ к коллекции редакций
 
- Теперь давайте перейдем к изменениям в документе. Aspose.Words предоставляет`Revisions` коллекция, которую мы можем перебирать.
+Теперь давайте перейдем к изменениям в документе. Aspose.Words предоставляет `Revisions` коллекция, которую мы можем перебирать.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -106,16 +108,21 @@ foreach (Revision revision in doc.Revisions)
 Конечно! Вы можете использовать его с любым языком .NET, включая C#, VB.NET и ASP.NET.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
- Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете приобрести ее[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете приобрести ее [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

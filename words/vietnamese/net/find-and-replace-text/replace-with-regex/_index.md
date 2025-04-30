@@ -1,14 +1,16 @@
 ---
-title: Thay thế bằng Regex
-linktitle: Thay thế bằng Regex
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng regex để tìm và thay thế trong tài liệu Word với Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để thành thạo thao tác văn bản.
-weight: 10
-url: /vi/net/find-and-replace-text/replace-with-regex/
+"description": "Tìm hiểu cách sử dụng regex để tìm và thay thế trong tài liệu Word với Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, từng bước của chúng tôi để thành thạo thao tác văn bản."
+"linktitle": "Thay thế bằng Regex"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay thế bằng Regex"
+"url": "/vi/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế bằng Regex
@@ -20,7 +22,7 @@ Xin chào! Bạn đã bao giờ thấy mình cần thay thế văn bản trong m
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
-1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio nơi bạn có thể viết và chạy mã C#.
 3. Kiến thức cơ bản về C# và Regex: Sự quen thuộc với C# và hiểu biết cơ bản về biểu thức chính quy sẽ rất hữu ích.
 
@@ -44,11 +46,11 @@ Hãy bắt đầu bằng cách xác định đường dẫn đến thư mục t�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Tạo một tài liệu mới
 
- Tiếp theo, chúng ta sẽ tạo một tài liệu mới và một`DocumentBuilder` để thêm một số văn bản ban đầu.
+Tiếp theo, chúng ta sẽ tạo một tài liệu mới và một `DocumentBuilder` để thêm một số văn bản ban đầu.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ builder.Writeln("sad mad bad");
 
 ## Bước 3: Xác định tùy chọn Tìm và Thay thế
 
- Để thực hiện thay thế regex, chúng ta cần thiết lập một số tùy chọn.`FindReplaceOptions`lớp cho phép chúng ta chỉ định cách thức hoạt động của thao tác tìm kiếm và thay thế.
+Để thực hiện thay thế regex, chúng ta cần thiết lập một số tùy chọn. `FindReplaceOptions` lớp cho phép chúng ta chỉ định cách hoạt động của thao tác tìm kiếm và thay thế.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ Hiện tại, chúng tôi đang sử dụng các tùy chọn mặc định, như
 
 ## Bước 4: Thực hiện thay thế Regex
 
- Bây giờ đến phần thú vị! Chúng ta sẽ sử dụng`Range.Replace` phương pháp thay thế tất cả các từ "buồn" hoặc "giận dữ" bằng "tệ" bằng cách sử dụng biểu thức chính quy.
+Bây giờ đến phần thú vị! Chúng ta sẽ sử dụng `Range.Replace` phương pháp thay thế tất cả các từ "buồn" hoặc "giận dữ" bằng "tệ" bằng cách sử dụng biểu thức chính quy.
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- Mẫu biểu thức chính quy`[s|m]ad` khớp với bất kỳ từ nào kết thúc bằng "ad" bắt đầu bằng "s" hoặc "m". Chuỗi thay thế "bad" sẽ thay thế bất kỳ kết quả khớp nào được tìm thấy.
+Mẫu biểu thức chính quy `[s|m]ad` khớp với bất kỳ từ nào kết thúc bằng "ad" bắt đầu bằng "s" hoặc "m". Chuỗi thay thế "bad" sẽ thay thế bất kỳ kết quả khớp nào được tìm thấy.
 
 ## Bước 5: Lưu tài liệu đã sửa đổi
 
@@ -87,7 +89,7 @@ Cuối cùng, chúng ta sẽ lưu tài liệu đã chỉnh sửa vào thư mục
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- Dòng này lưu tài liệu với tên tệp`FindAndReplace.ReplaceWithRegex.docx` trong thư mục được chỉ định bởi`dataDir`.
+Dòng này lưu tài liệu với tên tệp `FindAndReplace.ReplaceWithRegex.docx` trong thư mục được chỉ định bởi `dataDir`.
 
 ## Phần kết luận
 
@@ -109,9 +111,14 @@ Mặc dù Aspose.Words không cung cấp tính năng xem trước trực tiếp,
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET trong các ứng dụng web không?  
 Có, Aspose.Words for .NET rất linh hoạt và có thể được sử dụng trong nhiều loại ứng dụng khác nhau, bao gồm ứng dụng web, máy tính để bàn và ứng dụng đám mây.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

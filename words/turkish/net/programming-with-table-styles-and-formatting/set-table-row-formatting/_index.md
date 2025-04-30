@@ -1,14 +1,16 @@
 ---
-title: Tablo Satır Biçimlendirmesini Ayarla
-linktitle: Tablo Satır Biçimlendirmesini Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET rehberimizle Word belgelerinde tablo satır biçimlendirmesini nasıl ayarlayacağınızı öğrenin. İyi biçimlendirilmiş ve profesyonel belgeler oluşturmak için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Aspose.Words for .NET rehberimizle Word belgelerinde tablo satır biçimlendirmesini nasıl ayarlayacağınızı öğrenin. İyi biçimlendirilmiş ve profesyonel belgeler oluşturmak için mükemmeldir."
+"linktitle": "Tablo Satır Biçimlendirmesini Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tablo Satır Biçimlendirmesini Ayarla"
+"url": "/tr/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablo Satır Biçimlendirmesini Ayarla
@@ -21,13 +23,13 @@ Aspose.Words for .NET kullanarak Word belgelerindeki tabloları biçimlendirme s
 
 Eğitime başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET - Eğer henüz yapmadıysanız, buradan indirip kurun[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET - Eğer henüz yapmadıysanız, buradan indirip kurun [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı - .NET'i destekleyen Visual Studio gibi herhangi bir IDE.
 3. Temel C# Bilgisi - Temel C# kavramlarını anlamak, konuyu akıcı bir şekilde takip etmenize yardımcı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
-İlk önce, gerekli ad alanlarını içe aktarmanız gerekir. Bu, Aspose.Words for .NET tarafından sağlanan tüm işlevlere erişiminizi garantilediği için önemlidir.
+İlk önce, gerekli ad alanlarını içe aktarmanız gerekir. Bu, Aspose.Words for .NET tarafından sağlanan tüm işlevlere erişiminizi garanti altına aldığı için önemlidir.
 
 ```csharp
 using Aspose.Words;
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Bir Tablo Başlatın
 
- Sonra, tabloyu oluşturmaya başlayacaksınız.`DocumentBuilder` sınıfı, tabloları eklemek ve biçimlendirmek için basit bir yol sağlar.
+Sonra, tabloyu oluşturmaya başlayacaksınız. `DocumentBuilder` sınıfı, tabloları eklemek ve biçimlendirmek için basit bir yol sağlar.
 
 ```csharp
 Table table = builder.StartTable();
@@ -89,7 +91,7 @@ builder.EndRow();
 
 ## Adım 6: Tabloyu Sonlandırın
 
-Tablo oluşturma işlemini tamamlamak için tabloyu sonlandırıp belgeyi kaydetmeniz gerekir.
+Tablo oluşturma işlemini tamamlamak için tabloyu sonlandırıp belgeyi kaydetmeniz gerekmektedir.
 
 ```csharp
 builder.EndTable();
@@ -103,23 +105,28 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableR
 ## SSS
 
 ### Tablodaki her satır için farklı biçimlendirme ayarlayabilir miyim?
- Evet, farklı biçimlendirmeler uygulayarak her satır için ayrı biçimlendirme ayarlayabilirsiniz.`RowFormat` Oluşturduğunuz her satır için özellikler.
+Evet, farklı biçimlendirmeler uygulayarak her satır için ayrı biçimlendirme ayarlayabilirsiniz. `RowFormat` Oluşturduğunuz her satır için özellikler.
 
 ### Tablo hücrelerine resim gibi başka öğeler eklemek mümkün müdür?
- Kesinlikle! Tablo hücrelerine resim, şekil ve diğer öğeleri ekleyebilirsiniz.`DocumentBuilder` sınıf.
+Kesinlikle! Tablo hücrelerine resim, şekil ve diğer öğeleri ekleyebilirsiniz. `DocumentBuilder` sınıf.
 
-### Tablo hücreleri içindeki metin hizalamasını nasıl değiştiririm?
- Metin hizalamasını,`ParagraphFormat.Alignment` mülkiyeti`DocumentBuilder` nesne.
+### Tablo hücreleri içindeki metin hizalamasını nasıl değiştirebilirim?
+Metin hizalamasını, `ParagraphFormat.Alignment` mülkiyeti `DocumentBuilder` nesne.
 
 ### Aspose.Words for .NET kullanarak bir tablodaki hücreleri birleştirebilir miyim?
- Evet, hücreleri şu şekilde birleştirebilirsiniz:`CellFormat.HorizontalMerge` Ve`CellFormat.VerticalMerge` özellikler.
+Evet, hücreleri şu şekilde birleştirebilirsiniz: `CellFormat.HorizontalMerge` Ve `CellFormat.VerticalMerge` özellikler.
 
 ### Tabloyu önceden tanımlanmış stillerle biçimlendirmenin bir yolu var mı?
- Evet, Aspose.Words for .NET, önceden tanımlanmış tablo stillerini kullanarak uygulamanıza olanak tanır.`Table.Style` mülk.
+Evet, Aspose.Words for .NET, önceden tanımlanmış tablo stillerini kullanarak uygulamanıza olanak tanır. `Table.Style` mülk.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

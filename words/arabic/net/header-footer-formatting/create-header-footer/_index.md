@@ -1,43 +1,51 @@
 ---
-title: قم بإنشاء مستند كلمة باستخدام العنوان والرجل تحت الصفحة باستخدام Aspose.Words
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مستند Word مع عنوان رئيسي وقاعدة قدم باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة مع الشفرة والتفسيرات.
-keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
-url: /ar/net/header-footer-formatting/create-header-footer/
+"description": "تعلّم كيفية إنشاء مستند Word برأس وتذييل رئيسيين باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع الكود والشروحات."
+"title": "إنشاء مستند Word مع رأس وتذييل باستخدام Aspose.Words"
+"url": "/ar/net/header-footer-formatting/create-header-footer/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بإنشاء مستند كلمة باستخدام العنوان والرجل تحت الصفحة باستخدام Aspose.Words
+# إنشاء مستند Word مع رأس وتذييل باستخدام Aspose.Words
 
-يوضح هذا المثال كيفية استخدام Aspose.Words لـ .NET لإنشاء مستند Word مع عنوان وقدم أساسي. يمركزك الدليل من خلال إطلاق وثيقة جديدة ، والانتقال إلى أقسام الرأس وقدم ، وإضافة نص مخصص ، والإنقاذ من الوثيقة في شكل DOCX. مع فئة DocumentBuilder القوية ، Aspose.Words تجعل التلاعب بالوثيقة Word سهلاً وفعالاً. سواء كنتم تضيفون عناصر العلامة التجارية أو أرقام الصفحات ، يوفر هذا المثال الأساس لتخصيص وثائق Word برنامجياً.  
+يوضح هذا المثال كيفية استخدام Aspose.Words لـ .NET لإنشاء مستند Word برأس وتذييل رئيسيين. يرشدك الدليل خلال خطوات تهيئة مستند جديد، والانتقال إلى قسمي الرأس والتذييل، وإضافة نص مخصص، وحفظ المستند بتنسيق DOCX. بفضل فئة DocumentBuilder القوية، يجعل Aspose.Words معالجة مستندات Word سلسة وفعالة. سواءً كنت تضيف عناصر العلامة التجارية أو أرقام الصفحات، يوفر هذا المثال الأساس لتخصيص مستندات Word برمجيًا.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/create-header-footer" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-1. قم بتنزيل Aspose.Words لـ .NET: احصل على أحدث النسخة من [صفحة إصدارات Aspose](https://releases.aspose.com/words/net/). . .  
-2. قم بتثبيت Aspose.Words:  
-   * استخدم مدير الحزمات NuGet:  
+1. تنزيل Aspose.Words لـ .NET: احصل على أحدث إصدار من [صفحة إصدارات Aspose](https://releases.aspose.com/words/net/).  
+2. تثبيت Aspose.Words:  
+   - استخدم مدير الحزم NuGet:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * أو إشارة يدويًا إلى DLL من الحزمة المنزولة.  
-3. التقدم بطلب للحصول على رخصة (اختياري): الحصول على رخصة[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)أو رخصة كاملة من[إستهداف الشراء](https://purchase.aspose.com/buy)وتطبيقها في مشروعك:  
+   - أو قم بالإشارة يدويًا إلى ملف DLL من الحزمة التي تم تنزيلها.  
+3. التقدم بطلب الترخيص (اختياري): الحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) أو ترخيص كامل من [شراء Aspose](https://purchase.aspose.com/buy) وطبقها في مشروعك:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

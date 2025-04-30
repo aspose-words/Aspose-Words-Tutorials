@@ -1,14 +1,16 @@
 ---
-title: Kontrola wersji dokumentu i historia
-linktitle: Kontrola wersji dokumentu i historia
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Poznaj skuteczną kontrolę wersji dokumentów za pomocą Aspose.Words for Java. Zarządzaj zmianami, współpracuj bezproblemowo i śledź poprawki bez wysiłku.
-weight: 13
-url: /pl/java/document-revision/document-version-control-history/
+"description": "Poznaj skuteczną kontrolę wersji dokumentów za pomocą Aspose.Words for Java. Zarządzaj zmianami, współpracuj bezproblemowo i śledź poprawki bez wysiłku."
+"linktitle": "Kontrola wersji dokumentu i historia"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Kontrola wersji dokumentu i historia"
+"url": "/pl/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrola wersji dokumentu i historia
@@ -16,7 +18,7 @@ url: /pl/java/document-revision/document-version-control-history/
 
 ## Wstęp
 
-Skuteczna kontrola wersji dokumentów zapewnia, że wszyscy interesariusze pracują z najnowszymi i najdokładniejszymi informacjami. Aspose.Words for Java to wszechstronna biblioteka, która umożliwia programistom łatwe tworzenie, edytowanie i zarządzanie dokumentami. Zanurzmy się w proces krok po kroku wdrażania kontroli wersji i historii dokumentów.
+Skuteczna kontrola wersji dokumentów zapewnia, że wszyscy interesariusze pracują z najnowszymi i najdokładniejszymi informacjami. Aspose.Words for Java to wszechstronna biblioteka, która umożliwia programistom łatwe tworzenie, edytowanie i zarządzanie dokumentami. Zanurzmy się w proces wdrażania kontroli wersji i historii dokumentów krok po kroku.
 
 ## Wymagania wstępne
 
@@ -100,10 +102,15 @@ Oczywiście, Aspose.Words for Java można łatwo zintegrować z innymi bibliotek
 
 ### Gdzie mogę znaleźć więcej materiałów i dokumentacji?
 
- Pełną dokumentację i dodatkowe zasoby dotyczące Aspose.Words for Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/words/java/).
+Pełną dokumentację i dodatkowe zasoby dotyczące Aspose.Words for Java można uzyskać pod adresem [Tutaj](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

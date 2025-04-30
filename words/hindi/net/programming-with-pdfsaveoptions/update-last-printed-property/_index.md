@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें
-linktitle: पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में अंतिम मुद्रित संपत्ति को अपडेट करना सीखें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में अंतिम मुद्रित संपत्ति को अपडेट करना सीखें।"
+"linktitle": "पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/update-last-printed-property/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो जैसा विकास वातावरण.
 - C# की बुनियादी समझ: C# से कुछ परिचित होना उपयोगी होगा।
 - दस्तावेज़: एक वर्ड दस्तावेज़ जिसे आप पीडीएफ में बदलना चाहते हैं और अंतिम मुद्रित गुण को अपडेट करना चाहते हैं।
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 
 ## चरण 3: अपना दस्तावेज़ लोड करें
 
- अब, चलिए उस वर्ड डॉक्यूमेंट को लोड करते हैं जिसे आप पीडीएफ में बदलना चाहते हैं।`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के पथ के साथ.
+अब, चलिए उस वर्ड डॉक्यूमेंट को लोड करते हैं जिसे आप पीडीएफ में बदलना चाहते हैं। `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के पथ के साथ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## चरण 4: पीडीएफ सेव विकल्प कॉन्फ़िगर करें
 
- हमें अंतिम मुद्रित प्रॉपर्टी को अपडेट करने के लिए पीडीएफ सेव विकल्पों को कॉन्फ़िगर करने की आवश्यकता है।`PdfSaveOptions` और सेट करें`UpdateLastPrintedProperty`संपत्ति को`true`.
+हमें अंतिम मुद्रित प्रॉपर्टी को अपडेट करने के लिए पीडीएफ सेव विकल्पों को कॉन्फ़िगर करने की आवश्यकता है। `PdfSaveOptions` और सेट करें `UpdateLastPrintedProperty` संपत्ति को `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -86,13 +88,18 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.UpdateIfLastPrinted.pdf", saveOpti
 हां, .NET के लिए Aspose.Words आपको विभिन्न दस्तावेज़ गुणों को अपडेट करने की अनुमति देता है, जैसे लेखक, शीर्षक, विषय, और बहुत कुछ।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)विस्तारित उपयोग के लिए, आपको लाइसेंस खरीदना होगा।
+Aspose.Words for .NET एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)विस्तारित उपयोग के लिए, आपको लाइसेंस खरीदना होगा।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप .NET के लिए Aspose.Words पर विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words पर विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

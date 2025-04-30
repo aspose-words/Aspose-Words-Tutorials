@@ -1,38 +1,45 @@
 ---
-title: Szövegfeldolgozás a dokumentum tulajdonságaival
-linktitle: Szövegfeldolgozás a dokumentum tulajdonságaival
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan kezelheti a Word-dokumentum tulajdonságait az Aspose.Words for .NET segítségével. Az oktatóanyagok végigvezetik a különféle funkciókon, például az olvasási és írási tulajdonságokon, valamint az alapértelmezett tulajdonságok testreszabásán.
-weight: 1520
-url: /hu/net/programming-with-document-properties/
+"description": "Ismerje meg, hogyan kezelheti a Word-dokumentumok tulajdonságait az Aspose.Words for .NET segítségével. Az oktatóanyagok végigvezetik a különböző funkciókon, például az olvasási és írási tulajdonságokon, valamint az alapértelmezett tulajdonságok testreszabásán."
+"linktitle": "Szövegszerkesztés dokumentumtulajdonságokkal"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Szövegszerkesztés dokumentumtulajdonságokkal"
+"url": "/hu/net/programming-with-document-properties/"
+"weight": 1520
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szövegfeldolgozás a dokumentum tulajdonságaival
+# Szövegszerkesztés dokumentumtulajdonságokkal
 
-Az Aspose.Words for .NET dokumentumtulajdonságokkal rendelkező szövegfeldolgozásról szóló oktatóanyagai mélyreható áttekintést nyújtanak a dokumentumtulajdonságok kezeléséről a projektekben. Ezekből az oktatóanyagokból megtudhatja, hogyan érhet el, módosíthat és törölhet olyan tulajdonságokat, mint a cím, szerző, kulcsszavak stb., hogy személyre szabhassa Word-dokumentumait. Azt is megtudhatja, hogyan adhat hozzá egyedi tulajdonságokat, hogy megfeleljen egyedi igényeinek.
+Az Aspose.Words for .NET szövegszerkesztéssel és dokumentumtulajdonságokkal foglalkozó oktatóanyagai mélyreható betekintést nyújtanak a projektekben lévő dokumentumtulajdonságok kezelésébe. Ezekben az oktatóanyagokban megtanulhatja, hogyan férhet hozzá olyan tulajdonságokhoz, mint a cím, a szerző, a kulcsszavak stb., hogy személyre szabhassa Word-dokumentumait. Azt is megtanulja, hogyan adhat hozzá egyéni tulajdonságokat az Ön igényeinek megfelelően.
 
-Ezek az oktatóanyagok lépésről lépésre elvezetik Önt az Aspose.Words for .NET könyvtár használatához a dokumentum tulajdonságaival való interakcióhoz. Megtanulja, hogyan bonthat ki meglévő tulajdonságokat, hogyan állíthat be új értékeket és távolíthatja el a nem kívánt tulajdonságokat. A dokumentum tulajdonságainak kezelésének megértésével képes lesz professzionális Word-dokumentumok létrehozására és igényeinek megfelelő testreszabására.
+Ezek az oktatóanyagok lépésről lépésre bemutatják, hogyan használhatod az Aspose.Words for .NET könyvtárat a dokumentumok tulajdonságainak kezeléséhez. Megtanulod, hogyan kinyerheted a meglévő tulajdonságokat, hogyan állíthatsz be új értékeket, és hogyan távolíthatod el a nem kívánt tulajdonságokat. A dokumentumtulajdonságok kezelésének megértésével professzionális Word-dokumentumokat hozhatsz létre, és testreszabhatod azokat az igényeidnek megfelelően.
 
-Akár kezdő, akár tapasztalt fejlesztő, az Aspose.Words for .NET dokumentumtulajdonságokkal rendelkező szövegfeldolgozásról szóló oktatóanyagai a Word-dokumentum tulajdonságainak hatékony kezeléséhez és a fejlesztési munkafolyamat optimalizálásához szükséges ismereteket és készségeket biztosítják.
+Akár kezdő, akár tapasztalt fejlesztő vagy, az Aspose.Words for .NET szövegszerkesztéssel és dokumentumtulajdonságokkal kapcsolatos oktatóanyagai felvértezik azzal a tudással és készségekkel, amelyekkel hatékonyan kezelheted a Word-dokumentumok tulajdonságait és optimalizálhatod a fejlesztési munkafolyamatodat.
 
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Változók beszerzése](./get-variables/) | Master Aspose.Words for .NET. Ezzel a lépésenkénti útmutatóval megtudhatja, hogyan tölthet be és vonhat ki változókat Word dokumentumokból. |
-| [Tulajdonságok felsorolása](./enumerate-properties/) | Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan sorolhat fel tulajdonságokat egy Word-dokumentumban az Aspose.Words for .NET használatával. Tökéletes minden képzettségi szintű fejlesztő számára. |
-| [Egyéni dokumentumtulajdonságok hozzáadása](./add-custom-document-properties/) | Ismerje meg, hogyan adhat hozzá egyéni dokumentumtulajdonságokat Word-fájlokhoz az Aspose.Words for .NET használatával. Kövesse lépésenkénti útmutatónkat a dokumentumok további metaadatokkal való bővítéséhez. |
-| [Távolítsa el az egyéni dokumentum tulajdonságait](./remove-custom-document-properties/) | Távolítsa el az egyéni dokumentumtulajdonságokat a Word-fájlokból az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a gyors és egyszerű megoldás érdekében. Tökéletes fejlesztőknek. |
-| [Személyes adatok eltávolítása](./remove-personal-information/) | Ebből a lépésenkénti útmutatóból megtudhatja, hogyan távolíthat el személyes adatokat a dokumentumokból az Aspose.Words for .NET használatával. A dokumentumkezelés egyszerűsítése. |
-| [Tartalomra mutató hivatkozás konfigurálása](./configuring-link-to-content/) | Részletes, lépésenkénti oktatóanyagunkból megtudhatja, hogyan konfigurálhat hivatkozást egy Word-dokumentumban az Aspose.Words for .NET használatával. |
-| [Mértékegységek közötti konvertálás](./convert-between-measurement-units/) | Ismerje meg a mértékegységek konvertálását az Aspose.Words for .NET programban. Kövesse lépésenkénti útmutatónkat a dokumentummargók, fejlécek és láblécek hüvelykben és pontokban történő megadásához. |
-| [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumfeladatokat az Aspose.Words for .NET használatával. Ez az útmutató a beállítással, a szövegcserével és egyebekkel foglalkozik, amelyek hatékonyabbá teszik a munkafolyamatot. |
+| [Változók lekérése](./get-variables/) | Sajátítsd el az Aspose.Words for .NET használatát. Tanuld meg, hogyan tölthetsz be és kinyerhetsz változókat Word dokumentumokból ezzel a lépésről lépésre szóló útmutatóval. |
+| [Tulajdonságok felsorolása](./enumerate-properties/) Tanulja meg, hogyan sorolhatja fel a tulajdonságokat egy Word-dokumentumban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes minden képzettségi szintű fejlesztő számára. |
+| [Egyéni dokumentumtulajdonságok hozzáadása](./add-custom-document-properties/) | Ismerje meg, hogyan adhat hozzá egyéni dokumentumtulajdonságokat Word-fájlokhoz az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat, hogy további metaadatokkal bővíthesse dokumentumait. |
+| [Egyéni dokumentumtulajdonságok eltávolítása](./remove-custom-document-properties/) | Egyéni dokumentumtulajdonságok eltávolítása Word-fájlokból az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a gyors és egyszerű megoldásért. Tökéletes fejlesztők számára. |
+| [Személyes adatok eltávolítása](./remove-personal-information/) | Tanulja meg, hogyan távolíthat el személyes adatokat a dokumentumokból az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Egyszerűsítse a dokumentumkezelést. |
+| [Tartalomra mutató hivatkozás konfigurálása](./configuring-link-to-content/) | Tanulja meg, hogyan konfigurálhat egy Word-dokumentum tartalmára mutató hivatkozást az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutató oktatóanyagunkkal. |
+| [Mértékegységek közötti átváltás](./convert-between-measurement-units/) | Tanulja meg, hogyan válthat mértékegységeket az Aspose.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat a dokumentum margóinak, fejléceinek és lábléceinek hüvelykben és pontokban történő beállításához. |
+| [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumokkal kapcsolatos feladatokat az Aspose.Words for .NET segítségével. Ez az útmutató a beállítást, a szövegcserét és egyebeket ismerteti, így a munkafolyamat hatékonyabbá válik. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

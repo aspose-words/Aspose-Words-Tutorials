@@ -6,8 +6,11 @@ description: Learn how to create a Word document with charts, customize Y-axis b
 keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
 url: /net/working-with-charts/bounds-of-axis/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Document with Charts Using Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-charts/bounds-of-axis/
 This tutorial demonstrates how to create a Word document with a chart using Aspose.Words for .NET. You'll learn to insert a column chart, clear existing series, add new data, and customize the Y-axis bounds. With step-by-step instructions, including initialization, data manipulation, and saving the document as a DOCX file, this guide simplifies working with charts in Aspose.Words for .NET. Whether you're developing professional reports or dynamic data visualizations, this example helps you get started effortlessly.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
@@ -44,8 +50,12 @@ This tutorial demonstrates how to create a Word document with a chart using Aspo
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

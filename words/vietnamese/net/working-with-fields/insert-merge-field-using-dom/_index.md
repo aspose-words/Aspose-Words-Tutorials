@@ -1,21 +1,23 @@
 ---
-title: Chèn trường hợp nhập bằng DOM
-linktitle: Chèn trường hợp nhập bằng DOM
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn và cấu hình trường trộn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Tìm hiểu cách chèn và cấu hình trường trộn trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Chèn trường hợp nhập bằng DOM"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường hợp nhập bằng DOM"
+"url": "/vi/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường hợp nhập bằng DOM
 
 ## Giới thiệu
 
-Nếu bạn đang làm việc với xử lý tài liệu trong .NET, bạn có thể đã bắt gặp Aspose.Words. Thư viện mạnh mẽ này cung cấp một loạt các tính năng để thao tác các tài liệu Word theo chương trình. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tính năng cụ thể: chèn trường hợp hợp nhất bằng cách sử dụng Document Object Model (DOM) trong Aspose.Words cho .NET. Hướng dẫn này sẽ hướng dẫn bạn từng bước, từ thiết lập môi trường của bạn đến chèn và cập nhật trường hợp hợp nhất trong tài liệu Word.
+Nếu bạn đang làm việc với xử lý tài liệu trong .NET, có lẽ bạn đã từng gặp Aspose.Words. Thư viện mạnh mẽ này cung cấp nhiều tính năng để thao tác tài liệu Word theo chương trình. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tính năng cụ thể: chèn trường hợp hợp nhất bằng Document Object Model (DOM) trong Aspose.Words cho .NET. Hướng dẫn này sẽ hướng dẫn bạn từng bước, từ thiết lập môi trường của bạn đến chèn và cập nhật trường hợp hợp nhất trong tài liệu Word.
 
 ## Điều kiện tiên quyết
 
@@ -23,8 +25,8 @@ Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ c�
 
 1. Kiến thức cơ bản về C#: Bạn phải có kiến thức cơ bản về lập trình C#.
 2. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio hoặc bất kỳ IDE C# nào khác trên máy của mình.
-3.  Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ[Phát hành](https://releases.aspose.com/words/net/).
-4.  Giấy phép hợp lệ: Nếu bạn không có giấy phép, bạn có thể xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+3. Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất của Aspose.Words cho .NET từ [Phát hành](https://releases.aspose.com/words/net/).
+4. Giấy phép hợp lệ: Nếu bạn không có giấy phép, bạn có thể xin [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ## Bước 1: Thiết lập dự án của bạn
 
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## Bước 6: Chèn Trường Hợp Nhất
 
- Chèn một trường hợp nhập rất đơn giản. Chúng tôi sẽ sử dụng`InsertField` phương pháp của`DocumentBuilder` lớp học.
+Chèn một trường hợp nhập là đơn giản. Chúng tôi sẽ sử dụng `InsertField` phương pháp của `DocumentBuilder` lớp học.
 
 ```csharp
 // Chèn trường nhập trường.
@@ -117,19 +119,24 @@ Bằng cách làm theo các bước này, bạn có thể dễ dàng chèn và c
 Trường hợp nhập là một chỗ giữ chỗ trong tài liệu có thể được thay thế động bằng dữ liệu từ nguồn dữ liệu, chẳng hạn như cơ sở dữ liệu hoặc tệp CSV.
 
 ###  Tôi có thể sử dụng Aspose.Words miễn phí không?
- Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/). Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/). Để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
 
 ###  Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words?
- Bạn có thể lấy giấy phép tạm thời từ trang web Aspose[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời từ trang web Aspose [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words hỗ trợ những phiên bản .NET nào?
 Aspose.Words hỗ trợ nhiều phiên bản .NET, bao gồm .NET Framework, .NET Core và .NET Standard.
 
 ###  Tôi có thể tìm tài liệu API cho Aspose.Words ở đâu?
- Tài liệu API có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu API có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

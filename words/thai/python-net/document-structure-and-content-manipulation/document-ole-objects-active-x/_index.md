@@ -1,14 +1,16 @@
 ---
-title: การฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word
-linktitle: การฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python สร้างเอกสารเชิงโต้ตอบและไดนามิกได้อย่างราบรื่น
-weight: 21
-url: /th/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "เรียนรู้วิธีฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python สร้างเอกสารเชิงโต้ตอบและไดนามิกได้อย่างราบรื่น"
+"linktitle": "การฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การฝังวัตถุ OLE และตัวควบคุม ActiveX ในเอกสาร Word
@@ -59,15 +61,15 @@ doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx
 
 ## แนวทางปฏิบัติที่ดีที่สุดสำหรับการใช้ OLE Objects และ ActiveX Controls
 
-- ขนาดไฟล์: ระมัดระวังขนาดไฟล์เมื่อฝังวัตถุขนาดใหญ่ เนื่องจากอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของเอกสารได้
+- ขนาดไฟล์: ระมัดระวังขนาดไฟล์เมื่อฝังวัตถุขนาดใหญ่ เพราะอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของเอกสารได้
 - ความเข้ากันได้: ตรวจสอบให้แน่ใจว่าวัตถุ OLE และตัวควบคุม ActiveX ได้รับการรองรับโดยซอฟต์แวร์ที่ผู้อ่านของคุณจะใช้ในการเปิดเอกสาร
-- การทดสอบ: ทดสอบเอกสารในแพลตฟอร์มต่างๆ เสมอเพื่อให้แน่ใจว่ามีการทำงานที่สอดคล้องกัน
+- การทดสอบ: ทดสอบเอกสารบนแพลตฟอร์มต่างๆ เสมอเพื่อให้แน่ใจว่ามีพฤติกรรมที่สอดคล้องกัน
 
 ## การแก้ไขปัญหาทั่วไป
 
 ### ฉันจะปรับขนาดวัตถุที่ฝังอยู่ได้อย่างไร
 
-หากต้องการปรับขนาดวัตถุที่ฝังไว้ ให้คลิกเพื่อเลือกวัตถุนั้น คุณจะเห็นจุดจับปรับขนาดซึ่งคุณสามารถใช้เพื่อปรับขนาดของวัตถุได้
+หากต้องการปรับขนาดวัตถุที่ฝังไว้ ให้คลิกที่วัตถุนั้นเพื่อเลือกวัตถุนั้น คุณจะเห็นจุดจับปรับขนาดซึ่งคุณสามารถใช้เพื่อปรับขนาดของวัตถุได้
 
 ### เหตุใดการควบคุม ActiveX ของฉันจึงไม่ทำงาน
 
@@ -76,9 +78,14 @@ doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx
 ## บทสรุป
 
 การรวมวัตถุ OLE และตัวควบคุม ActiveX โดยใช้ Aspose.Words สำหรับ Python จะเปิดโลกแห่งความเป็นไปได้สำหรับการสร้างเอกสาร Word แบบไดนามิกและโต้ตอบได้ ไม่ว่าคุณต้องการฝังสเปรดชีต มัลติมีเดีย หรือแบบฟอร์มโต้ตอบ คุณลักษณะนี้ช่วยให้คุณสามารถสื่อสารแนวคิดของคุณได้อย่างมีประสิทธิภาพ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

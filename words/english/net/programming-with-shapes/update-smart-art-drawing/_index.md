@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/update-smart-art-drawing/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Smart Art Drawing
@@ -135,9 +138,13 @@ A valid Aspose.Words license is required for using its features beyond the evalu
 ### Where can I find more documentation on Aspose.Words?
 You can access the documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

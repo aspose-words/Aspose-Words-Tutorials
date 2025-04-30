@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में चार्ट अक्ष छिपाएँ
-linktitle: वर्ड दस्तावेज़ में चार्ट अक्ष छिपाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चार्ट अक्ष को छिपाने का तरीका जानें।
-weight: 10
-url: /hi/net/programming-with-charts/hide-chart-axis/
+"description": "हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में चार्ट अक्ष को छिपाने का तरीका जानें।"
+"linktitle": "वर्ड दस्तावेज़ में चार्ट अक्ष छिपाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में चार्ट अक्ष छिपाएँ"
+"url": "/hi/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में चार्ट अक्ष छिपाएँ
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-charts/hide-chart-axis/
 
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
--  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: कोई भी IDE जो .NET विकास का समर्थन करता है, जैसे कि विज़ुअल स्टूडियो।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना लाभदायक होगा।
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing.Charts;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
-पहले चरण में एक नया वर्ड दस्तावेज़ बनाना और DocumentBuilder ऑब्जेक्ट को आरंभीकृत करना शामिल है।
+पहले चरण में एक नया वर्ड दस्तावेज़ बनाना और डॉक्यूमेंटबिल्डर ऑब्जेक्ट को आरंभीकृत करना शामिल है।
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -50,18 +52,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- इस चरण में, हम वह पथ निर्धारित करते हैं जहाँ दस्तावेज़ सहेजा जाएगा। फिर हम एक नया पथ बनाते हैं`Document` वस्तु और एक`DocumentBuilder` हमारे दस्तावेज़ का निर्माण शुरू करने के लिए ऑब्जेक्ट करें।
+इस चरण में, हम वह पथ निर्धारित करते हैं जहाँ दस्तावेज़ सहेजा जाएगा। फिर हम एक नया पथ बनाते हैं `Document` वस्तु और एक `DocumentBuilder` हमारे दस्तावेज़ का निर्माण शुरू करने के लिए ऑब्जेक्ट करें।
 
 ## चरण 2: चार्ट डालें
 
- इसके बाद, हम दस्तावेज़ में एक चार्ट डालेंगे`DocumentBuilder` वस्तु।
+इसके बाद, हम दस्तावेज़ में एक चार्ट डालेंगे `DocumentBuilder` वस्तु।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- यहाँ, हम निर्दिष्ट आयामों के साथ एक कॉलम चार्ट सम्मिलित करते हैं।`InsertChart` विधि एक लौटाती है`Shape` ऑब्जेक्ट जिसमें चार्ट शामिल है.
+यहाँ, हम निर्दिष्ट आयामों के साथ एक कॉलम चार्ट सम्मिलित करते हैं। `InsertChart` विधि एक लौटाती है `Shape` ऑब्जेक्ट जिसमें चार्ट शामिल है.
 
 ## चरण 3: मौजूदा श्रृंखला साफ़ करें
 
@@ -87,7 +89,7 @@ chart.Series.Add("Aspose Series 1",
 
 ## चरण 5: Y-अक्ष को छिपाएँ
 
- चार्ट के Y-अक्ष को छिपाने के लिए, हम बस सेट करते हैं`Hidden` Y-अक्ष का गुण`true`.
+चार्ट के Y-अक्ष को छिपाने के लिए, हम बस सेट करते हैं `Hidden` Y-अक्ष का गुण `true`.
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -115,20 +117,25 @@ doc.Save(dataDir + "WorkingWithCharts.HideChartAxis.docx");
 .NET के लिए Aspose.Words .NET अनुप्रयोगों के भीतर Word दस्तावेज़ों को बनाने, संपादित करने, परिवर्तित करने और हेरफेर करने के लिए एक शक्तिशाली API है।
 
 ### क्या मैं चार्ट में X और Y दोनों अक्षों को छिपा सकता हूँ?
- हां, आप सेटिंग करके दोनों अक्षों को छिपा सकते हैं`Hidden` दोनों की संपत्ति`AxisX` और`AxisY` को`true`.
+हां, आप सेटिंग करके दोनों अक्षों को छिपा सकते हैं `Hidden` दोनों की संपत्ति `AxisX` और `AxisY` को `true`.
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं अधिक दस्तावेज कहां पा सकता हूं?
- आप .NET के लिए Aspose.Words पर विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words पर विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त कर सकता हूं?
- आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

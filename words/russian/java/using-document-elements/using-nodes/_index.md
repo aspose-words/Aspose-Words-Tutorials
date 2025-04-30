@@ -1,14 +1,16 @@
 ---
-title: Использование узлов в Aspose.Words для Java
-linktitle: Использование узлов
-second_title: API обработки документов Java Aspose.Words
-description: Изучите управление узлами в Aspose.Words для Java с помощью этого пошагового руководства. Раскройте возможности обработки документов.
-weight: 20
-url: /ru/java/using-document-elements/using-nodes/
+"description": "Изучите управление узлами в Aspose.Words для Java с помощью этого пошагового руководства. Раскройте возможности обработки документов."
+"linktitle": "Использование узлов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование узлов в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-nodes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование узлов в Aspose.Words для Java
@@ -115,22 +117,27 @@ public void createAndAddParagraphNode() throws Exception
 Aspose.Words для Java — это библиотека Java, которая позволяет разработчикам создавать, изменять и конвертировать документы Word программным способом.
 
 ### В2. Как установить Aspose.Words для Java?
- Вы можете загрузить и установить Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/).
+Вы можете загрузить и установить Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/).
 
 ### В3. Есть ли бесплатная пробная версия?
- Да, вы можете получить бесплатную пробную версию Aspose.Words для Java.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию Aspose.Words для Java. [здесь](https://releases.aspose.com/).
 
 ### В4. Где я могу получить временную лицензию?
- Вы можете получить временную лицензию на Aspose.Words для Java[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию на Aspose.Words для Java [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### В5. Где я могу найти поддержку Aspose.Words для Java?
- Для поддержки и обсуждений посетите[Форум Aspose.Words для Java](https://forum.aspose.com/).
+Для поддержки и обсуждений посетите [Форум Aspose.Words для Java](https://forum.aspose.com/).
 
 Начните работу с Aspose.Words для Java прямо сейчас и раскройте весь потенциал обработки документов!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Mengatur Kolom Catatan Kaki
-linktitle: Tetapkan Kolom Catatan Kaki
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur kolom catatan kaki dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sesuaikan tata letak catatan kaki Anda dengan mudah dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/working-with-footnote-and-endnote/set-foot-note-columns/
+"description": "Pelajari cara mengatur kolom catatan kaki dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sesuaikan tata letak catatan kaki Anda dengan mudah dengan panduan langkah demi langkah kami."
+"linktitle": "Tetapkan Kolom Catatan Kaki"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Kolom Catatan Kaki"
+"url": "/id/net/working-with-footnote-and-endnote/set-foot-note-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Kolom Catatan Kaki
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia manipulasi dokumen Word dengan Aspose.Wor
 
 Sebelum kita masuk ke kode, mari pastikan kita punya semua yang dibutuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.Words untuk .NET dari[Tautan unduhan](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal versi terbaru Aspose.Words untuk .NET dari [Tautan unduhan](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan .NET. Visual Studio merupakan pilihan yang populer.
 3. Pengetahuan Dasar C#: Pemahaman dasar tentang pemrograman C# akan membantu Anda mengikutinya dengan mudah.
 
@@ -38,14 +40,14 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana da
 
 ## Langkah 1: Muat Dokumen Anda
 
-Langkah pertama adalah memuat dokumen yang ingin Anda ubah. Untuk tutorial ini, kami akan menganggap Anda memiliki dokumen bernama`Document.docx` di direktori kerja Anda.
+Langkah pertama adalah memuat dokumen yang ingin Anda ubah. Untuk tutorial ini, kami akan menganggap Anda memiliki dokumen bernama `Document.docx` di direktori kerja Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Di Sini,`dataDir` adalah direktori tempat dokumen Anda disimpan. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Di Sini, `dataDir` adalah direktori tempat dokumen Anda disimpan. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Mengatur Jumlah Kolom Catatan Kaki
 
@@ -87,9 +89,14 @@ Tidak, pengaturan kolom catatan kaki hanya memengaruhi area catatan kaki. Tata l
 
 ### Bisakah saya melihat pratinjau perubahan sebelum menyimpan dokumen?  
 Ya, Anda dapat menggunakan opsi rendering Aspose.Words untuk melihat pratinjau dokumen. Namun, ini memerlukan langkah dan pengaturan tambahan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

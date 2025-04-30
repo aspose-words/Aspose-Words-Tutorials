@@ -1,14 +1,16 @@
 ---
-title: Memuat File Chm Dalam Dokumen Word
-linktitle: Memuat File Chm Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda.
-weight: 10
-url: /id/net/programming-with-loadoptions/load-chm/
+"description": "Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda."
+"linktitle": "Memuat File Chm Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Memuat File Chm Dalam Dokumen Word"
+"url": "/id/net/programming-with-loadoptions/load-chm/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memuat File Chm Dalam Dokumen Word
@@ -20,7 +22,7 @@ Jika ingin mengintegrasikan file CHM ke dalam dokumen Word, Aspose.Words for .NE
 ## Prasyarat
 
 Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
--  Aspose.Words untuk .NET: Anda dapat[unduh perpustakaan](https://releases.aspose.com/words/net/) dari situs.
+- Aspose.Words untuk .NET: Anda dapat [unduh perpustakaan](https://releases.aspose.com/words/net/) dari situs.
 - Lingkungan Pengembangan .NET: Visual Studio atau IDE lain pilihan Anda.
 - File CHM: File CHM yang ingin Anda muat ke dalam dokumen Word.
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# dan kerangka kerja .NET.
@@ -68,7 +70,7 @@ LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.GetEncoding("win
 
 Setelah opsi muat dikonfigurasi, langkah berikutnya adalah memuat berkas CHM ke dalam objek dokumen Aspose.Words.
 
-1.  Buat Objek Dokumen: Gunakan`Document` kelas untuk memuat berkas CHM Anda dengan opsi yang ditentukan.
+1. Buat Objek Dokumen: Gunakan `Document` kelas untuk memuat berkas CHM Anda dengan opsi yang ditentukan.
 
 ```csharp
 Document doc = new Document(dataDir + "HTML help.chm", loadOptions);
@@ -89,7 +91,7 @@ catch (Exception ex)
 
 ## Langkah 4: Simpan Dokumen
 
- Setelah file CHM Anda dimuat ke dalam`Document` objek, Anda dapat menyimpannya sebagai dokumen Word.
+Setelah file CHM Anda dimuat ke dalam `Document` objek, Anda dapat menyimpannya sebagai dokumen Word.
 
 1. Tentukan Jalur Keluaran: Tentukan jalur tempat Anda ingin menyimpan dokumen Word.
 
@@ -97,7 +99,7 @@ catch (Exception ex)
 string outputPath = dataDir + "LoadedCHM.docx";
 ```
 
-2.  Simpan Dokumen: Gunakan`Save` metode dari`Document` kelas untuk menyimpan konten CHM yang dimuat sebagai dokumen Word.
+2. Simpan Dokumen: Gunakan `Save` metode dari `Document` kelas untuk menyimpan konten CHM yang dimuat sebagai dokumen Word.
 
 ```csharp
 doc.Save(outputPath);
@@ -115,11 +117,11 @@ Ya, Aspose.Words untuk .NET mendukung berbagai format file termasuk DOC, DOCX, R
 
 ### Bagaimana saya dapat menangani penyandian yang berbeda untuk file CHM?
 
- Anda dapat menentukan pengkodean menggunakan`LoadOptions` kelas seperti yang ditunjukkan dalam tutorial. Pastikan Anda menyetel penyandian yang tepat yang sesuai dengan berkas CHM Anda.
+Anda dapat menentukan pengkodean menggunakan `LoadOptions` kelas seperti yang ditunjukkan dalam tutorial. Pastikan Anda menyetel penyandian yang tepat yang sesuai dengan berkas CHM Anda.
 
 ### Apakah mungkin untuk mengedit konten CHM yang dimuat sebelum menyimpannya sebagai dokumen Word?
 
- Tentu saja! Setelah file CHM dimuat ke dalam`Document` objek, Anda dapat memanipulasi konten menggunakan API Aspose.Words yang kaya.
+Tentu saja! Setelah file CHM dimuat ke dalam `Document` objek, Anda dapat memanipulasi konten menggunakan API Aspose.Words yang kaya.
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa file CHM?
 
@@ -127,11 +129,16 @@ Ya, Anda dapat membuat skrip atau fungsi untuk mengotomatiskan proses pemuatan d
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat mengunjungi[dokumentasi](https://reference.aspose.com/words/net/) untuk informasi dan contoh yang lebih rinci.
+Anda dapat mengunjungi [dokumentasi](https://reference.aspose.com/words/net/) untuk informasi dan contoh yang lebih rinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

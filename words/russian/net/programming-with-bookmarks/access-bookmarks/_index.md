@@ -1,14 +1,16 @@
 ---
-title: Доступ к закладкам в документе Word
-linktitle: Доступ к закладкам в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получать доступ к закладкам в документах Word и управлять ими с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-bookmarks/access-bookmarks/
+"description": "Узнайте, как получать доступ к закладкам в документах Word и управлять ими с помощью Aspose.Words для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Доступ к закладкам в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Доступ к закладкам в документе Word"
+"url": "/ru/net/programming-with-bookmarks/access-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Доступ к закладкам в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-bookmarks/access-bookmarks/
 
 Прежде чем перейти к пошаговому руководству, вам понадобится несколько вещей:
 
--  Aspose.Words для .NET: Загрузите и установите его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузите и установите его с [здесь](https://releases.aspose.com/words/net/).
 - .NET Framework: убедитесь, что он установлен на вашем компьютере для разработки.
 - Базовые знания C#: это руководство предполагает, что у вас есть базовые знания программирования на C#.
 - Документ Word: убедитесь, что у вас есть документ Word с закладками для проверки.
@@ -47,11 +49,11 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 Объяснение:
 - `dataDir`: Эта переменная должна содержать путь к каталогу ваших документов.
-- `Document doc = new Document(dataDir + "Bookmarks.docx");` : Эта строка загружает документ Word с именем «Bookmarks.docx» в`doc` объект.
+- `Document doc = new Document(dataDir + "Bookmarks.docx");`: Эта строка загружает документ Word с именем «Bookmarks.docx» в `doc` объект.
 
 ## Шаг 2: Доступ к закладкам по индексу
 
- Вы можете получить доступ к закладкам в документе Word по их индексу. Закладки хранятся в`Bookmarks` коллекция`Range` объект в пределах`Document`.
+Вы можете получить доступ к закладкам в документе Word по их индексу. Закладки хранятся в `Bookmarks` коллекция `Range` объект в пределах `Document`.
 
 ```csharp
 // Доступ к первой закладке по индексу.
@@ -60,7 +62,7 @@ Bookmark bookmark1 = doc.Range.Bookmarks[0];
 
 Объяснение:
 - `doc.Range.Bookmarks[0]`: Это открывает доступ к первой закладке в документе.
-- `Bookmark bookmark1 = doc.Range.Bookmarks[0];` : Сохраняет открытую закладку в`bookmark1` переменная.
+- `Bookmark bookmark1 = doc.Range.Bookmarks[0];`: Сохраняет открытую закладку в `bookmark1` переменная.
 
 ## Шаг 3: Доступ к закладке по имени
 
@@ -73,7 +75,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];
 
 Объяснение:
 - `doc.Range.Bookmarks["MyBookmark3"]`: Это открывает доступ к закладке с именем «MyBookmark3».
-- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];` : Сохраняет открытую закладку в`bookmark2` переменная.
+- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];`: Сохраняет открытую закладку в `bookmark2` переменная.
 
 ## Шаг 4: Манипулирование содержимым закладки
 
@@ -100,12 +102,12 @@ builder.EndBookmark("NewBookmark");
 ```
 
 Объяснение:
-- `DocumentBuilder builder = new DocumentBuilder(doc);` : Это инициализирует`DocumentBuilder` объект с загруженным документом.
+- `DocumentBuilder builder = new DocumentBuilder(doc);`: Это инициализирует `DocumentBuilder` объект с загруженным документом.
 - `builder.StartBookmark("NewBookmark");`: Это создаст новую закладку с именем «NewBookmark».
 - `builder.Write("This is a new bookmark.");`: Это записывает текст «Это новая закладка» внутри закладки.
-- `builder.EndBookmark("NewBookmark");`: Это закрывает закладку с именем «NewBookmark».
+- `builder.EndBookmark("NewBookmark");`Это закрывает закладку с именем «NewBookmark».
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 После внесения изменений в закладки вам необходимо сохранить документ, чтобы изменения вступили в силу.
 
@@ -130,17 +132,22 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 Да, но вам нужно будет указать пароль при загрузке документа с помощью Aspose.Words.
 
 ### Как составить список всех закладок в документе?
- Вы можете выполнить итерацию`Bookmarks` коллекция в`Range` объект`Document`.
+Вы можете выполнить итерацию `Bookmarks` коллекция в `Range` объект `Document`.
 
 ### Можно ли удалить закладку с помощью Aspose.Words для .NET?
- Да, вы можете удалить закладку, позвонив по номеру`Remove` метод для объекта закладки.
+Да, вы можете удалить закладку, позвонив по номеру `Remove` метод для объекта закладки.
 
 ### Совместим ли Aspose.Words для .NET с .NET Core?
 Да, Aspose.Words для .NET совместим с .NET Core.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

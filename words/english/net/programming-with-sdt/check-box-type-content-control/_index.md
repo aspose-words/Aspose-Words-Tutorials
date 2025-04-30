@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/check-box-type-content-control/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check Box Type Content Control
@@ -108,9 +111,13 @@ Yes, you can download a free trial from the [Aspose website](https://releases.as
 You can visit the [Aspose Support Forum](https://forum.aspose.com/c/words/8) for assistance.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

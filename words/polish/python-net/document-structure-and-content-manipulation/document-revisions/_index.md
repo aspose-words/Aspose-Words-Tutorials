@@ -1,14 +1,16 @@
 ---
-title: Śledzenie i przeglądanie wersji dokumentów
-linktitle: Śledzenie i przeglądanie wersji dokumentów
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak śledzić i przeglądać wersje dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla wydajnej współpracy. Ulepsz zarządzanie dokumentami już dziś!
-weight: 23
-url: /pl/python-net/document-structure-and-content-manipulation/document-revisions/
+"description": "Dowiedz się, jak śledzić i przeglądać wersje dokumentów za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla wydajnej współpracy. Ulepsz zarządzanie dokumentami już dziś!"
+"linktitle": "Śledzenie i przeglądanie wersji dokumentów"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Śledzenie i przeglądanie wersji dokumentów"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-revisions/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Śledzenie i przeglądanie wersji dokumentów
@@ -22,7 +24,7 @@ Rewizje dokumentów obejmują śledzenie zmian wprowadzanych do dokumentu w czas
 
 ## Konfigurowanie Aspose.Words dla Pythona
 
-Zanim zaczniemy, upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/python/). Po zainstalowaniu możesz zaimportować niezbędne moduły do skryptu Python, aby rozpocząć.
+Zanim zaczniemy, upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/python/)Po zainstalowaniu możesz zaimportować niezbędne moduły do skryptu Pythona, aby rozpocząć.
 
 ```python
 import aspose.words as aw
@@ -39,7 +41,7 @@ print(doc.get_text())
 
 ## Włączanie śledzenia zmian
 
- Aby włączyć śledzenie zmian w dokumencie, należy ustawić`TrackRevisions`nieruchomość do`True`:
+Aby włączyć śledzenie zmian w dokumencie, należy ustawić `TrackRevisions` nieruchomość do `True`:
 
 ```python
 doc.track_revisions = True
@@ -112,11 +114,11 @@ Aspose.Words for Python upraszcza rewizję i śledzenie dokumentów, usprawniaj�
 
 ### Jak zainstalować Aspose.Words dla języka Python?
 
- Możesz pobrać Aspose.Words dla Pythona z[Tutaj](https://releases.aspose.com/words/python/). Postępuj zgodnie z instrukcjami instalacji, aby skonfigurować ją w swoim środowisku.
+Możesz pobrać Aspose.Words dla Pythona z [Tutaj](https://releases.aspose.com/words/python/). Postępuj zgodnie z instrukcjami instalacji, aby skonfigurować ją w swoim środowisku.
 
 ### Czy mogę wyłączyć śledzenie rewizji konkretnych części dokumentu?
 
-Tak, możesz selektywnie wyłączyć śledzenie rewizji dla określonych sekcji dokumentu, dostosowując je programowo.`TrackRevisions` nieruchomość dla tych sekcji.
+Tak, możesz selektywnie wyłączyć śledzenie rewizji dla określonych sekcji dokumentu, dostosowując je programowo. `TrackRevisions` nieruchomość dla tych sekcji.
 
 ### Czy można scalić zmiany wprowadzone przez wielu autorów?
 
@@ -129,9 +131,14 @@ Tak, historia rewizji jest zachowywana podczas konwersji dokumentu do innych for
 ### Jak mogę programowo akceptować lub odrzucać poprawki?
 
 Można przeglądać kolekcję wersji i programowo akceptować lub odrzucać każdą wersję korzystając z funkcji API Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

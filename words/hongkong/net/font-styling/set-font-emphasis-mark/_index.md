@@ -1,54 +1,62 @@
 ---
-title: 在 Word 文档中设置重点标记,使用 .NET 的 Aspose.Words 
-weight: 7700
-limit: 
-description: 請了解如何在 Word 文檔中使用 .NET 的 Aspose.Words 設定重點標籤.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /zh-hant/net/font-styling/set-font-emphasis-mark/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中設定強調標記。本逐步指南包括安裝說明和範例程式碼。"
+"title": "使用 Aspose.Words for .NET 在 Word 文件中設定強調標記"
+"url": "/zh-hant/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文檔中使用Aspose.Words 強調標籤
+# 使用 Aspose.Words 在 Word 文件中設定強調標記
 
-透過使用 .NET 來使用Aspose.Words,您可以輕鬆地使用一些代碼行程,例如一個固體圈子.`文件製作者`請使用這個指南,以專業精度簡化文件格式化任務.
+在 Word 文件中設定強調標記是突出顯示特定文字的絕佳方法，可確保其在內容中脫穎而出。使用 Aspose.Words for .NET，您只需幾行程式碼即可輕鬆套用強調標記，例如實心圓圈。此範例示範如何使用 `DocumentBuilder` 類別來操作 Word 文檔，用強調標記格式化文本，並將結果儲存為 DOCX 格式。按照本指南，您可以以專業的精度簡化文件格式化任務。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令  
-執行提供的代碼示例,並使用 .NET 的Aspose.Words, 執行以下步骤:  
+## 安裝說明  
+若要執行提供的程式碼範例並使用 Aspose.Words for .NET，請依照下列步驟操作：  
 
-1. 請下載Aspose.Words為 .NET:  
-   * 請從圖書館中拿下[放的情況](https://releases.aspose.com/words/net/)該網站是  
+1. 下載 Aspose.Words for .NET：  
+   - 從 [Aspose 版本](https://releases.aspose.com/words/net/) 頁。  
 
-2. 設置圖書館:  
-   * 在 Visual Studio 中使用 NuGet 包管理器安裝:  
-     * 打開視覺工作室.  
-     * 移動到工具> NuGet 包管理器> 管理 NuGet 包解決方案.  
-     * 搜尋`"說話. 字"`點擊安裝.  
+2. 安裝庫：  
+   - 透過 Visual Studio 中的 NuGet 套件管理器安裝它：  
+     - 開啟 Visual Studio。  
+     - 導航到工具>NuGet 套件管理器>管理解決方案的 NuGet 套件。  
+     - 搜尋 `Aspose.Words` 並點選“安裝”。  
 
-   * 其他方式是使用 NuGet 包管理器控制台:  
+   - 或者，使用 NuGet 套件管理器控制台：  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. 設定暫時許可證 (可選):  
-   * 請使用 [免費的暫時許可證](https://purchase.aspose.com/temporary-license/)這就是我想要的.  
-   * 請在您的項目中申請許可證:  
+3. 設定臨時許可證（可選）：  
+   - 如需不受限制地使用，請取得 [免費臨時駕照](https://purchase。aspose.com/temporary-license/).  
+   - 在您的專案中套用許可證：  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

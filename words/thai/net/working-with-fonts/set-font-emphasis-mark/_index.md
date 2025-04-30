@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าเครื่องหมายเน้นตัวอักษร
-linktitle: ตั้งค่าเครื่องหมายเน้นตัวอักษร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าเครื่องหมายเน้นแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา .NET
-weight: 10
-url: /th/net/working-with-fonts/set-font-emphasis-mark/
+"description": "เรียนรู้วิธีตั้งค่าเครื่องหมายเน้นแบบอักษรในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา .NET"
+"linktitle": "ตั้งค่าเครื่องหมายเน้นตัวอักษร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าเครื่องหมายเน้นตัวอักษร"
+"url": "/th/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าเครื่องหมายเน้นตัวอักษร
@@ -21,7 +23,7 @@ url: /th/net/working-with-fonts/set-font-emphasis-mark/
 
 ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ โปรดตรวจสอบให้แน่ใจว่าคุณได้ตรวจสอบข้อกำหนดเบื้องต้นต่อไปนี้แล้ว:
 
--  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาการทำงาน เช่น Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 
@@ -41,7 +43,7 @@ using Aspose.Words.Fonts;
 สิ่งแรกที่ต้องทำคือสร้างเอกสารใหม่และ DocumentBuilder ก่อน คลาส DocumentBuilder จะให้วิธีการแทรกข้อความและองค์ประกอบอื่นๆ ลงในเอกสาร
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // เริ่มต้นเอกสารใหม่
@@ -97,22 +99,27 @@ document.Save(dataDir + "WorkingWithFonts.SetFontEmphasisMark.docx");
 
 ### ฉันสามารถใช้เครื่องหมายเน้นเสียงอื่นๆ กับ Aspose.Words สำหรับ .NET ได้หรือไม่
 
- ใช่ Aspose.Words สำหรับ .NET รองรับเครื่องหมายเน้นข้อความต่างๆ คุณสามารถสำรวจตัวเลือกต่างๆ ได้โดยอ้างอิง[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+ใช่ Aspose.Words สำหรับ .NET รองรับเครื่องหมายเน้นข้อความต่างๆ คุณสามารถสำรวจตัวเลือกต่างๆ ได้โดยอ้างอิง [เอกสารประกอบ](https://reference-aspose.com/words/net/).
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
 
- Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases.aspose.com/) หรือซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
 
- คุณสามารถรับการสนับสนุนจากชุมชนและทีมสนับสนุน Aspose ได้โดยไปที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชนและทีมสนับสนุน Aspose ได้โดยไปที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
 
 ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET ต่างๆ รวมถึง .NET Core และ .NET 5/6
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

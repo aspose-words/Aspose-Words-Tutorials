@@ -1,30 +1,32 @@
 ---
-title: Ellenőrizze a titkosított Word-dokumentumot
-linktitle: Ellenőrizze a titkosított Word-dokumentumot
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan ellenőrizheti egy Word-dokumentum titkosítási állapotát az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/programming-with-fileformat/verify-encrypted-document/
+"description": "Tanulja meg, hogyan ellenőrizheti egy Word-dokumentum titkosítási állapotát az Aspose.Words for .NET használatával ebből a lépésenkénti útmutatóból."
+"linktitle": "Titkosított Word-dokumentum ellenőrzése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Titkosított Word-dokumentum ellenőrzése"
+"url": "/hu/net/programming-with-fileformat/verify-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ellenőrizze a titkosított Word-dokumentumot
+# Titkosított Word-dokumentum ellenőrzése
 
-## Ellenőrizze a titkosított Word-dokumentumot az Aspose.Words for .NET használatával
+## Titkosított Word-dokumentum ellenőrzése az Aspose.Words for .NET használatával
 
- Találkozott már valaha egy titkosított Word dokumentummal, és azon töprengett, hogyan ellenőrizheti programozottan a titkosítási állapotát? Nos, szerencséd van! Ma egy remek kis oktatóanyagba búvárkodunk, amely bemutatja, hogyan lehet ezt megtenni az Aspose.Words for .NET használatával. Ez a lépésenkénti útmutató végigvezeti Önt mindenen, amit tudnia kell, a környezet beállításától a kód futtatásáig. Szóval kezdjük, jó?
+ Rábukkantál már egy titkosított Word-dokumentumra, és azon tűnődtél, hogyan lehet programozottan ellenőrizni a titkosítási állapotát? Nos, szerencséd van! Ma egy remek kis oktatóanyagba merülünk el arról, hogyan teheted ezt meg az Aspose.Words for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezet mindenen, amit tudnod kell, a környezet beállításától a kód futtatásáig. Akkor kezdjük is, jó?
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van. Íme egy gyors ellenőrző lista:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan. Íme egy gyors ellenőrzőlista:
 
--  Aspose.Words for .NET Library: Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-- .NET-keretrendszer: Győződjön meg arról, hogy a .NET telepítve van a gépen.
-- IDE: Integrált fejlesztői környezet, mint a Visual Studio.
-- Alapvető C# ismerete: A C# alapjainak megértése segít a könnyebb követésben.
+- Aspose.Words .NET könyvtárhoz: Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+- .NET-keretrendszer: Győződjön meg arról, hogy a .NET telepítve van a gépén.
+- IDE: Integrált fejlesztői környezet, mint például a Visual Studio.
+- C# alapismeretek: A C# alapjainak ismerete segít könnyebben követni a tanultakat.
 
 ## Névterek importálása
 
@@ -34,9 +36,9 @@ A kezdéshez importálnia kell a szükséges névtereket. Íme a szükséges kó
 using Aspose.Words;
 ```
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
- A kezdéshez meg kell határoznia annak a könyvtárnak az elérési útját, ahol a dokumentumok találhatók. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a dokumentumkönyvtár tényleges elérési útjával.
+Kezdéshez meg kell adnia a dokumentumok könyvtárának elérési útját. Csere `"YOUR DOCUMENT DIRECTORY"` a dokumentumok könyvtárának tényleges elérési útjával.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -44,7 +46,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: Fájlformátum észlelése
 
- Ezután használjuk a`DetectFileFormat` módszere a`FileFormatUtil` osztályt a fájlformátum információinak észleléséhez. Ebben a példában feltételezzük, hogy a titkosított dokumentum neve "Encrypted.docx", és a megadott dokumentumkönyvtárban található.
+Ezután a `DetectFileFormat` a módszer `FileFormatUtil` osztályt a fájlformátum-információk észleléséhez. Ebben a példában feltételezzük, hogy a titkosított dokumentum neve „Encrypted.docx”, és a megadott dokumentumok könyvtárában található.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx");
@@ -52,37 +54,42 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx"
 
 ## 3. lépés: Ellenőrizze, hogy a dokumentum titkosítva van-e
 
- Használjuk a`IsEncrypted` tulajdona a`FileFormatInfo` objektumot, hogy ellenőrizze, hogy a dokumentum titkosítva van-e. Ez a tulajdonság visszatér`true` ha a dokumentum titkosított, ellenkező esetben visszatér`false`. Az eredményt megjelenítjük a konzolon.
+Mi használjuk a `IsEncrypted` a tulajdona `FileFormatInfo` objektumot, amely ellenőrzi, hogy a dokumentum titkosítva van-e. Ez a tulajdonság visszaadja `true` ha a dokumentum titkosított, egyébként a következőt adja vissza: `false`Az eredményt a konzolon jelenítjük meg.
 
 ```csharp
 Console.WriteLine(info.IsEncrypted);
 ```
 
-Ez minden! Sikeresen ellenőrizte, hogy egy dokumentum titkosítva van-e az Aspose.Words for .NET használatával.
+Ennyi az egész! Sikeresen ellenőrizted, hogy egy dokumentum titkosítva van-e az Aspose.Words for .NET segítségével.
 
 ## Következtetés
 
- És megvan! Sikeresen ellenőrizte egy Word-dokumentum titkosítási állapotát az Aspose.Words for .NET használatával. Hát nem elképesztő, hogy néhány sornyi kód mennyire megkönnyítheti az életünket? Ha bármilyen kérdése van, vagy bármilyen problémába ütközik, ne habozzon kapcsolatba lépni a[Aspose támogatási fórum](https://forum.aspose.com/c/words/8).
+És íme! Sikeresen ellenőrizted egy Word-dokumentum titkosítási állapotát az Aspose.Words for .NET segítségével. Nem csodálatos, hogy néhány sornyi kód mennyivel könnyebbé teheti az életünket? Ha bármilyen kérdésed van, vagy bármilyen problémába ütközöl, ne habozz kapcsolatba lépni velünk a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/8).
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár, amely lehetővé teszi Word-dokumentumok létrehozását, szerkesztését, konvertálását és kezelését a .NET-alkalmazásokon belül.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénykönyvtár, amely lehetővé teszi Word-dokumentumok létrehozását, szerkesztését, konvertálását és kezelését a .NET-alkalmazásokban.
 
-### Használhatom az Aspose.Words for .NET-et .NET Core-al?
-Igen, az Aspose.Words for .NET kompatibilis a .NET-keretrendszerrel és a .NET Core-val is.
+### Használhatom az Aspose.Words for .NET-et .NET Core-ral?
+Igen, az Aspose.Words for .NET kompatibilis mind a .NET Framework, mind a .NET Core rendszerrel.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
- Ideiglenes jogosítványt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
+Ideiglenes jogosítványt igényelhetsz [itt](https://purchase.aspose.com/temporary-license/).
 
-### Létezik ingyenes próbaverzió az Aspose.Words for .NET számára?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Words for .NET-hez?
+Igen, letölthetsz egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 
 ### Hol találok további példákat és dokumentációt?
- Részletes dokumentációt és példákat találhat az oldalon[Aspose.Words for .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+Átfogó dokumentációt és példákat talál a következő címen: [Aspose.Words .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

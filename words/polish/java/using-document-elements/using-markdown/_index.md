@@ -1,20 +1,22 @@
 ---
-title: Używanie Markdown w Aspose.Words dla Java
-linktitle: Korzystanie z Markdown
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się używać Markdown w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
-weight: 19
-url: /pl/java/using-document-elements/using-markdown/
+"description": "Naucz się używać Markdown w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku."
+"linktitle": "Korzystanie z Markdown"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Używanie Markdown w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Używanie Markdown w Aspose.Words dla Java
 
 
-W świecie przetwarzania dokumentów Aspose.Words for Java to potężne narzędzie, które pozwala programistom bezproblemowo pracować z dokumentami Word. Jedną z jego funkcji jest możliwość generowania dokumentów Markdown, co czyni go wszechstronnym dla różnych aplikacji. W tym samouczku przeprowadzimy Cię przez proces korzystania z Markdown w Aspose.Words for Java.
+świecie przetwarzania dokumentów Aspose.Words for Java to potężne narzędzie, które pozwala programistom bezproblemowo pracować z dokumentami Word. Jedną z jego funkcji jest możliwość generowania dokumentów Markdown, co czyni go wszechstronnym dla różnych aplikacji. W tym samouczku przeprowadzimy Cię przez proces korzystania z Markdown w Aspose.Words for Java.
 
 ## Wymagania wstępne
 
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Stylizowanie dokumentu
 
-tej sekcji omówimy, jak stosować style w dokumencie Markdown. Omówimy nagłówki, nacisk, listy i wiele więcej.
+tej sekcji omówimy, jak stosować style do dokumentu Markdown. Omówimy nagłówki, nacisk, listy i wiele więcej.
 
 ### Nagłówki
 
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Określ styl „Nagłówek 1” dla akapitu.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Zresetuj style z poprzedniego akapitu, aby nie łączyć stylów pomiędzy akapitami.
+// Zresetuj style z poprzedniego akapitu, aby nie łączyć stylów pomiędzy akapitami.
 builder.getParagraphFormat().setStyleName("Normal");
 // Wstaw linijkę poziomą.
 builder.insertHorizontalRule();
@@ -135,7 +137,7 @@ builder.getListFormat().applyNumberDefault();
 builder.getFont().setItalic(true);
 builder.writeln("Italic Text");
 builder.getFont().setItalic(false);
-// Określ pogrubienie tekstu.
+// Określ sposób pogrubienia tekstu.
 builder.getFont().setBold(true);
 builder.writeln("Bold Text");
 builder.getFont().setBold(false);
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Zresetuj styl akapitu do Normalnego, aby zatrzymać bloki cytatów.
+// Zresetuj styl akapitu do Normalnego, aby zatrzymać bloki cytatów. 
 builder.getParagraphFormat().setStyleName("Normal");
 // Podaj hiperłącze dla żądanego tekstu.
 builder.getFont().setBold(true);
@@ -173,30 +175,35 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
 
 ## Wniosek
 
-W tym samouczku omówiliśmy podstawy korzystania z Markdown w Aspose.Words for Java. Nauczyłeś się, jak skonfigurować środowisko, stosować style, dodawać tabele i zapisywać dokument Markdown. Dzięki tej wiedzy możesz zacząć używać Aspose.Words for Java, aby wydajnie generować dokumenty Markdown.
+tym samouczku omówiliśmy podstawy korzystania z Markdown w Aspose.Words for Java. Nauczyłeś się, jak skonfigurować środowisko, stosować style, dodawać tabele i zapisywać dokument Markdown. Dzięki tej wiedzy możesz zacząć używać Aspose.Words for Java, aby wydajnie generować dokumenty Markdown.
 
 ### Często zadawane pytania
 
 ### Czym jest Aspose.Words dla języka Java? 
-   Aspose.Words for Java to biblioteka Java umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów Word w aplikacjach Java.
+   Aspose.Words for Java to biblioteka Java umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word w aplikacjach Java.
 
 ### Czy mogę użyć Aspose.Words for Java do konwersji dokumentów Markdown na dokumenty Word? 
-   Tak, możesz użyć Aspose.Words for Java do konwersji dokumentów Markdown na dokumenty Word i odwrotnie.
+   Tak, możesz używać Aspose.Words for Java do konwersji dokumentów Markdown na dokumenty Word i odwrotnie.
 
 ### Czy korzystanie z Aspose.Words for Java jest bezpłatne? 
-    Aspose.Words for Java jest produktem komercyjnym, a do jego użytkowania wymagana jest licencja. Licencję można uzyskać od[Tutaj](https://purchase.aspose.com/buy).
+   Aspose.Words for Java jest produktem komercyjnym, a do jego użytkowania wymagana jest licencja. Licencję można uzyskać od [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy są dostępne jakieś samouczki lub dokumentacja dla Aspose.Words dla Java? 
-    Tak, na stronie znajdziesz kompleksowe samouczki i dokumentację.[Dokumentacja API Aspose.Words dla Java](https://reference.aspose.com/words/java/).
+   Tak, na stronie znajdziesz kompleksowe samouczki i dokumentację. [Dokumentacja Aspose.Words dla Java API](https://reference.aspose.com/words/java/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla Java? 
-    Aby uzyskać wsparcie i pomoc, możesz odwiedzić stronę[Aspose.Words dla forum Java](https://forum.aspose.com/).
+   Aby uzyskać wsparcie i pomoc, możesz odwiedzić stronę [Aspose.Words dla forum Java](https://forum.aspose.com/).
 
 Teraz, gdy opanowałeś już podstawy, zacznij odkrywać nieograniczone możliwości wykorzystania Aspose.Words for Java w projektach przetwarzania dokumentów.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

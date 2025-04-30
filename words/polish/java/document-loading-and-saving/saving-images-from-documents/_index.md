@@ -1,14 +1,16 @@
 ---
-title: Zapisywanie obrazów z dokumentów w Aspose.Words dla Java
-linktitle: Zapisywanie obrazów z dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Dostosuj formaty, kompresję i nie tylko.
-weight: 17
-url: /pl/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Dowiedz się, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Dostosuj formaty, kompresję i nie tylko."
+"linktitle": "Zapisywanie obrazów z dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Zapisywanie obrazów z dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie obrazów z dokumentów w Aspose.Words dla Java
@@ -20,7 +22,7 @@ W tym samouczku pokażemy, jak zapisywać obrazy z dokumentów za pomocą Aspose
 
 ## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że biblioteka Aspose.Words for Java jest zintegrowana z Twoim projektem. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniesz, upewnij się, że biblioteka Aspose.Words for Java jest zintegrowana z Twoim projektem. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Krok 1: Zapisywanie obrazów jako TIFF z kontrolą progu
 
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 
 ## Krok 3: Zapisywanie obrazów jako 1 BPP indeksowanych plików PNG
 
-Aby zapisać obrazy jako pliki PNG z indeksem 1 BPP, wykonaj następujące czynności:
+Aby zapisać obrazy jako pliki PNG z indeksem 1 BPP, wykonaj następujące kroki:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -175,9 +177,9 @@ Nauczyłeś się, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words fo
 
 ## Najczęściej zadawane pytania
 
-### Jak zmienić format obrazu podczas zapisywania go za pomocą Aspose.Words dla Java?
+### Jak zmienić format obrazu podczas zapisywania go w programie Aspose.Words dla Java?
 
- Możesz zmienić format obrazu, określając żądany format w`ImageSaveOptions` Na przykład, aby zapisać jako PNG, użyj`SaveFormat.PNG` jak pokazano w kodzie:
+Możesz zmienić format obrazu, określając żądany format w `ImageSaveOptions`Na przykład, aby zapisać jako PNG, użyj `SaveFormat.PNG` jak pokazano w kodzie:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Jak mogę zapisać konkretną stronę dokumentu jako osobny obraz?
 
- Aby zapisać konkretną stronę jako obraz, użyj`setPageSet`metoda w`ImageSaveOptions` Na przykład, aby zapisać tylko pierwszą stronę, ustaw`PageSet` Do`new PageSet(0)`.
+Aby zapisać konkretną stronę jako obraz, użyj `setPageSet` metoda w `ImageSaveOptions`Na przykład, aby zapisać tylko pierwszą stronę, ustaw `PageSet` Do `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Zapisz pierwszą stronę jako obraz
@@ -201,7 +203,7 @@ saveOptions.setPageSet(new PageSet(0)); // Zapisz pierwszą stronę jako obraz
 
 ### Jak zastosować ustawienia niestandardowe do obrazów JPEG podczas ich zapisywania?
 
-Możesz zastosować ustawienia niestandardowe do obrazów JPEG za pomocą`ImageSaveOptions`. Dostosuj właściwości takie jak jasność, kontrast i rozdzielczość. Na przykład, aby zmienić jasność na 0,3 i kontrast na 0,7, użyj tego kodu:
+Możesz zastosować ustawienia niestandardowe do obrazów JPEG za pomocą `ImageSaveOptions`. Dostosuj właściwości takie jak jasność, kontrast i rozdzielczość. Na przykład, aby zmienić jasność na 0,3 i kontrast na 0,7, użyj tego kodu:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Jak mogę użyć funkcji wywołania zwrotnego w celu dostosowania zapisywania obrazu?
 
- Aby użyć funkcji wywołania zwrotnego w celu dostosowania zapisywania obrazu, ustaw`PageSavingCallback` W`ImageSaveOptions` . Utwórz klasę implementującą`IPageSavingCallback` interfejs i nadpisanie`pageSaving` metoda.
+Aby użyć funkcji wywołania zwrotnego w celu dostosowania zapisywania obrazu, ustaw `PageSavWgCallback` in `ImageSaveOptions`. Utwórz klasę implementującą `IPageSavingCallback` interfejs i nadpisz `pageSaving` metoda.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Następnie utwórz klasę implementującą`IPageSavingCallback` interfejs i dostosuj nazwę pliku i lokalizację w`pageSaving` metoda.
+Następnie utwórz klasę implementującą `IPageSavingCallback` interfejs i dostosuj nazwę pliku i lokalizację w `pageSaving` metoda.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

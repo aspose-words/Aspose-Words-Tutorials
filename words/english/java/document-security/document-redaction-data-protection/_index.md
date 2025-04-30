@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-security/document-redaction-data-protection/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Redaction and Data Protection
@@ -106,9 +109,13 @@ A: Visit the Aspose.Words for Java documentation at [https://reference.aspose.co
 
 Enhance your document security and data protection with Aspose.Words for Java. Start protecting your sensitive information today!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

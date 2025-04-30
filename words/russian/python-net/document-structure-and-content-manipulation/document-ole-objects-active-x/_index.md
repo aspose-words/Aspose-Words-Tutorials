@@ -1,14 +1,16 @@
 ---
-title: Внедрение объектов OLE и элементов управления ActiveX в документы Word
-linktitle: Внедрение объектов OLE и элементов управления ActiveX в документы Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как встраивать объекты OLE и элементы управления ActiveX в документы Word с помощью Aspose.Words для Python. Создавайте интерактивные и динамические документы без проблем.
-weight: 21
-url: /ru/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "Узнайте, как встраивать объекты OLE и элементы управления ActiveX в документы Word с помощью Aspose.Words для Python. Создавайте интерактивные и динамические документы без проблем."
+"linktitle": "Внедрение объектов OLE и элементов управления ActiveX в документы Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Внедрение объектов OLE и элементов управления ActiveX в документы Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Внедрение объектов OLE и элементов управления ActiveX в документы Word
@@ -76,9 +78,14 @@ doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx
 ## Заключение
 
 Внедрение объектов OLE и элементов управления ActiveX с помощью Aspose.Words для Python открывает целый мир возможностей для создания динамических и интерактивных документов Word. Независимо от того, хотите ли вы встроить электронные таблицы, мультимедиа или интерактивные формы, эта функция позволяет вам эффективно доносить свои идеи.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

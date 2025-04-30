@@ -1,46 +1,54 @@
 ---
-title: Vytvořte stylovou tabulku v dokumentu Word pomocí Aspose.Words pro .NET
-weight: 7700
-limit: 
-description: Naučte se vytvářet dokument Word s stylovou tabulkou pomocí Aspose.Words pro .NET.
-keywords: [Aspose.Words for .NET, styled table, Word document, table style, table formatting, document creation, borders, padding, .NET tutorial]
-url: /cs/net/working-with-table-styles-and-formatting/create-table-style/
+"description": "Naučte se, jak vytvořit dokument Wordu se stylizovanou tabulkou pomocí Aspose.Words pro .NET. Součástí je vlastní stylizace tabulek, ohraničení a odsazení."
+"title": "Vytvořte stylizovanou tabulku v dokumentu Word pomocí Aspose.Words pro .NET"
+"url": "/cs/net/working-with-table-styles-and-formatting/create-table-style/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte stylovou tabulku v dokumentu Word pomocí Aspose.Words
+# Vytvořte stylizovanou tabulku v dokumentu Word pomocí Aspose.Words
 
-V tomto tutoriálu vám ukážeme proces vytváření dokumentu Word s přizpůsobenou tabulkou pomocí Aspose.Words pro .NET. Naučíte se iniciovat nový dokument, vložit řádky a sloupce tabulky a aplikovat vlastní styl tabulky s specifickými hraničními nastavením a náplněmi. Na konci budete moci uložit plně formátovaný dokument Word s stylovou tabulkou, která odpovídá vašim potřebám.
+V tomto tutoriálu vás provedeme procesem vytvoření dokumentu Word s upravenou tabulkou pomocí Aspose.Words pro .NET. Naučíte se, jak inicializovat nový dokument, vkládat řádky a sloupce tabulky a používat vlastní styl tabulky se specifickým nastavením ohraničení a odsazení. Na konci budete schopni uložit plně naformátovaný dokument Word se stylizovanou tabulkou, která vyhovuje vašim potřebám.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:
-Chcete-li začít s Aspose.Words pro .NET, postupujte podle těchto kroků:
+## Pokyny k instalaci:
+Chcete-li začít s Aspose.Words pro .NET, postupujte takto:
 
-1. Instalujte Aspose.Words: Můžete si stáhnout nejnovější verzi Aspose.Words pro .NET z [zveřejní stránku](https://releases.aspose.com/words/net/)\- Ne , ne .
+1. Instalace Aspose.Words: Nejnovější verzi Aspose.Words pro .NET si můžete stáhnout z [stránka s vydáními](https://releases.aspose.com/words/net/).
 
-2. Instalace prostřednictvím NuGet: Můžete také instalit Aspose.Words pro .NET prostřednictvím NuGet. Využijte následující příkaz v NuGet Package Manager:
+2. Instalace přes NuGet: Aspose.Words pro .NET můžete také nainstalovat přes NuGet. Spusťte následující příkaz ve Správci balíčků NuGet:
    ```
    Install-Package Aspose.Words
    ```
 
-3. Nastavte svůj projekt: Jakmile je knihovna nainstalována, můžete ji začít používat ve svém projektu přidáním potřebných názevových prostor:
+3. Nastavení projektu: Jakmile je knihovna nainstalována, můžete ji začít používat ve svém projektu přidáním potřebných jmenných prostorů:
    ```csharp
    using Aspose.Words;
    ```
-4. Žádost o licenci (nezveřejněná):  
-   Chcete-li použít plnou verzi, [uplatnit licenci](https://purchase.aspose.com/temporary-license/)nebo použít [bezplatná zkouška](https://releases.aspose.com/words/net/)\- Ne , ne .
+4. Použít licenci (volitelné):  
+   Chcete-li používat plnou verzi, [požádat o licenci](https://purchase.aspose.com/temporary-license/) nebo použijte [bezplatná zkušební verze](https://releases.aspose.com/words/net/).
    
 ## Viz také
-[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
-[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
+[Dokumentace k Aspose.Word pro .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pro .NET reference](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

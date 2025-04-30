@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-merging/combining-cloning-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combining and Cloning Documents
@@ -156,9 +159,13 @@ Absolutely! Aspose.Words allows you to apply custom styling and formatting to cl
 
 You can find comprehensive documentation and additional resources for Aspose.Words for Java at [here](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

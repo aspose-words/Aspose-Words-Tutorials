@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ tài liệu bằng các kỹ thuật bảo vệ tiên tiến
-linktitle: Bảo vệ tài liệu bằng các kỹ thuật bảo vệ tiên tiến
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Bảo mật tài liệu của bạn bằng tính năng bảo vệ nâng cao bằng Aspose.Words for Python. Tìm hiểu cách thêm mật khẩu, mã hóa nội dung, áp dụng chữ ký số và nhiều tính năng khác.
-weight: 16
-url: /vi/python-net/document-combining-and-comparison/secure-documents-protection/
+"description": "Bảo mật tài liệu của bạn bằng tính năng bảo vệ nâng cao bằng Aspose.Words for Python. Tìm hiểu cách thêm mật khẩu, mã hóa nội dung, áp dụng chữ ký số và nhiều tính năng khác."
+"linktitle": "Bảo vệ tài liệu bằng các kỹ thuật bảo vệ tiên tiến"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Bảo vệ tài liệu bằng các kỹ thuật bảo vệ tiên tiến"
+"url": "/vi/python-net/document-combining-and-comparison/secure-documents-protection/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ tài liệu bằng các kỹ thuật bảo vệ tiên tiến
@@ -81,11 +83,11 @@ Aspose.Words for Python cho phép bạn bảo mật tài liệu của mình bằ
 
 ### Làm thế nào để cài đặt Aspose.Words cho Python?
 
- Bạn có thể cài đặt nó bằng pip bằng cách chạy:`pip install aspose-words`.
+Bạn có thể cài đặt nó bằng pip bằng cách chạy: `pip install aspose-words`.
 
 ### Tôi có thể hạn chế chỉnh sửa cho một số nhóm cụ thể không?
 
- Có, bạn có thể thiết lập quyền chỉnh sửa cho các nhóm cụ thể bằng cách sử dụng`protection.set_editing_groups(["Editors"])`.
+Có, bạn có thể thiết lập quyền chỉnh sửa cho các nhóm cụ thể bằng cách sử dụng `protection.set_editing_groups(["Editors"])`.
 
 ### Aspose.Words cung cấp những tùy chọn mã hóa nào?
 
@@ -98,9 +100,14 @@ Chữ ký số đảm bảo tính xác thực và toàn vẹn của tài liệu,
 ### Làm thế nào để tôi có thể xóa vĩnh viễn thông tin nhạy cảm khỏi tài liệu?
 
 Sử dụng tính năng biên tập để xóa vĩnh viễn thông tin nhạy cảm khỏi tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

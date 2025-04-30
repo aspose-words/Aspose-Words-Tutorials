@@ -1,14 +1,16 @@
 ---
-title: Ustaw formatowanie komórek tabeli
-linktitle: Ustaw formatowanie komórek tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Ulepsz swoje dokumenty Word za pomocą profesjonalnego formatowania komórek tabeli za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku uprości Ci ten proces.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/set-table-cell-formatting/
+"description": "Ulepsz swoje dokumenty Word za pomocą profesjonalnego formatowania komórek tabeli za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku uprości Ci ten proces."
+"linktitle": "Ustaw formatowanie komórek tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw formatowanie komórek tabeli"
+"url": "/pl/net/programming-with-table-styles-and-formatting/set-table-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw formatowanie komórek tabeli
@@ -21,10 +23,10 @@ Czy kiedykolwiek zastanawiałeś się, jak sprawić, by Twoje dokumenty Worda by
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Można go pobrać ze strony[Link do pobrania](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać ze strony [Link do pobrania](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące programowanie w środowisku .NET.
 3. Podstawowa wiedza z zakresu języka C#: zrozumienie podstawowych pojęć programowania i składni języka C#.
-4.  Twój katalog dokumentów: Upewnij się, że masz wyznaczony katalog do zapisywania dokumentów. Będziemy się do niego odwoływać jako`YOUR DOCUMENT DIRECTORY`.
+4. Twój katalog dokumentów: Upewnij się, że masz wyznaczony katalog, w którym możesz zapisywać swoje dokumenty. Będziemy się do niego odwoływać jako `YOUR DOCUMENT DIRECTORY`.
 
 ## Importuj przestrzenie nazw
 
@@ -39,7 +41,7 @@ Przyjrzyjmy się podanemu fragmentowi kodu i wyjaśnijmy każdy krok, aby ustawi
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Aby rozpocząć, musisz utworzyć nową instancję`Document` klasa i`DocumentBuilder`Klasa. Klasy te są punktami wejścia do tworzenia i manipulowania dokumentami Worda.
+Aby rozpocząć, musisz utworzyć nową instancję `Document` klasa i `DocumentBuilder` Klasa. Te klasy są punktami wejścia do tworzenia i manipulowania dokumentami Worda.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Uruchom tabelę
 
- Z`DocumentBuilder` na przykład możesz zacząć tworzyć tabelę. Można to zrobić, wywołując`StartTable` metoda.
+Z `DocumentBuilder` na przykład możesz zacząć tworzyć tabelę. Można to zrobić, wywołując `StartTable` metoda.
 
 ```csharp
 // Rozpocznij tabelę
@@ -70,7 +72,7 @@ builder.InsertCell();
 
 ## Krok 4: Dostęp i ustawianie właściwości formatu komórki
 
- Po wstawieniu komórki możesz uzyskać dostęp do jej właściwości formatu za pomocą`CellFormat` własność`DocumentBuilder`Tutaj możesz ustawić różne opcje formatowania, takie jak szerokość i wypełnienie.
+Po wstawieniu komórki możesz uzyskać dostęp do jej właściwości formatu za pomocą `CellFormat` własność `DocumentBuilder`Tutaj możesz ustawić różne opcje formatowania, takie jak szerokość i wypełnienie.
 
 ```csharp
 // Dostęp i ustawianie właściwości formatu komórki
@@ -117,22 +119,27 @@ Formatowanie komórek tabeli może znacznie poprawić czytelność i atrakcyjno�
 ## Często zadawane pytania
 
 ### Czy mogę ustawić różne wartości wypełnienia dla każdej komórki w tabeli?
- Tak, możesz ustawić różne wartości wypełnienia dla każdej komórki z osobna, uzyskując do nich dostęp`CellFormat` nieruchomości oddzielnie.
+Tak, możesz ustawić różne wartości wypełnienia dla każdej komórki z osobna, uzyskując do nich dostęp `CellFormat` nieruchomości oddzielnie.
 
 ### Czy można zastosować to samo formatowanie do wielu komórek jednocześnie?
 Tak, możesz przejść przez komórki i zastosować te same ustawienia formatowania do każdej z nich programowo.
 
 ### Jak mogę sformatować całą tabelę zamiast pojedynczych komórek?
- Możesz ustawić ogólny format tabeli za pomocą`Table` właściwości i metody klasy dostępne w Aspose.Words.
+Możesz ustawić ogólny format tabeli za pomocą `Table` właściwości i metody klasy dostępne w Aspose.Words.
 
 ### Czy mogę zmienić wyrównanie tekstu w komórce?
- Tak, możesz zmienić wyrównanie tekstu za pomocą`ParagraphFormat` własność`DocumentBuilder`.
+Tak, możesz zmienić wyrównanie tekstu za pomocą `ParagraphFormat` własność `DocumentBuilder`.
 
 ### Czy istnieje sposób na dodanie obramowań do komórek tabeli?
- Tak, możesz dodać obramowania do komórek tabeli, ustawiając`Borders` własność`CellFormat` klasa.
+Tak, możesz dodać obramowania do komórek tabeli, ustawiając `Borders` własność `CellFormat` klasa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

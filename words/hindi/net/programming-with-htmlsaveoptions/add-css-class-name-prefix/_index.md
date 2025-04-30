@@ -1,14 +1,16 @@
 ---
-title: सीएसएस क्लास नाम उपसर्ग जोड़ें
-linktitle: सीएसएस क्लास नाम उपसर्ग जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML के रूप में सहेजते समय CSS क्लास नाम उपसर्ग जोड़ना सीखें। चरण-दर-चरण मार्गदर्शिका, कोड स्निपेट और FAQ शामिल हैं।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML के रूप में सहेजते समय CSS क्लास नाम उपसर्ग जोड़ना सीखें। चरण-दर-चरण मार्गदर्शिका, कोड स्निपेट और FAQ शामिल हैं।"
+"linktitle": "सीएसएस क्लास नाम उपसर्ग जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सीएसएस क्लास नाम उपसर्ग जोड़ें"
+"url": "/hi/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सीएसएस क्लास नाम उपसर्ग जोड़ें
@@ -21,9 +23,9 @@ url: /hi/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  .NET के लिए Aspose.Words: यदि आपने इसे अभी तक स्थापित नहीं किया है,[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: यदि आपने इसे अभी तक स्थापित नहीं किया है, [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# IDE.
--  एक वर्ड दस्तावेज़: हम एक दस्तावेज़ का उपयोग करेंगे जिसका नाम है`Rendering.docx`इसे अपनी प्रोजेक्ट डायरेक्टरी में रखें.
+- एक वर्ड दस्तावेज़: हम एक दस्तावेज़ का उपयोग करेंगे जिसका नाम है `Rendering.docx`इसे अपनी प्रोजेक्ट डायरेक्टरी में रखें.
 
 ## नामस्थान आयात करें
 
@@ -43,7 +45,7 @@ using Aspose.Words.Saving;
 
 ### चरण 1.1: एक नया प्रोजेक्ट बनाएं
 
- अपना विज़ुअल स्टूडियो चालू करें और एक नया कंसोल ऐप प्रोजेक्ट बनाएँ। इसे कुछ आकर्षक नाम दें जैसे`AsposeCssPrefixExample`.
+अपना विज़ुअल स्टूडियो चालू करें और एक नया कंसोल ऐप प्रोजेक्ट बनाएँ। इसे कुछ आकर्षक नाम दें जैसे `AsposeCssPrefixExample`.
 
 ### चरण 1.2: .NET के लिए Aspose.Words जोड़ें
 
@@ -61,7 +63,7 @@ Install-Package Aspose.Words
 
 ### चरण 2.1: दस्तावेज़ पथ परिभाषित करें
 
- अपने दस्तावेज़ निर्देशिका का पथ सेट करें। इस ट्यूटोरियल के लिए, मान लें कि आपका दस्तावेज़ नाम के फ़ोल्डर में है`Documents` अपने प्रोजेक्ट निर्देशिका के भीतर.
+अपने दस्तावेज़ निर्देशिका का पथ सेट करें। इस ट्यूटोरियल के लिए, मान लें कि आपका दस्तावेज़ नाम के फ़ोल्डर में है `Documents` अपने प्रोजेक्ट निर्देशिका के भीतर.
 
 ```csharp
 string dataDir = @"C:\YourProject\Documents\";
@@ -81,7 +83,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ### चरण 3.1: HTML सेव विकल्प बनाएँ
 
- उदाहरण प्रस्तुत करें`HtmlSaveOptions` ऑब्जेक्ट और CSS स्टाइल शीट प्रकार को सेट करें`External`.
+उदाहरण प्रस्तुत करें `HtmlSaveOptions` ऑब्जेक्ट और CSS स्टाइल शीट प्रकार को सेट करें `External`.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -92,7 +94,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 
 ### चरण 3.2: CSS क्लास नाम उपसर्ग सेट करें
 
- अब, चलिए सेट करते हैं`CssClassNamePrefix` प्रॉपर्टी को अपने मनचाहे प्रीफ़िक्स में बदलें। इस उदाहरण के लिए, हम उपयोग करेंगे`"pfx_"`.
+अब, चलिए सेट करते हैं `CssClassNamePrefix` प्रॉपर्टी को अपने मनचाहे प्रीफ़िक्स में बदलें। इस उदाहरण के लिए, हम उपयोग करेंगे `"pfx_"`.
 
 ```csharp
 saveOptions.CssClassNamePrefix = "pfx_";
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 
 ## चरण 5: आउटपुट सत्यापित करें
 
- अपना प्रोजेक्ट चलाने के बाद, अपने पर जाएँ`Documents` फ़ोल्डर में जाएँ। आपको एक HTML फ़ाइल मिलनी चाहिए जिसका नाम है`WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html` . यह सत्यापित करने के लिए कि CSS क्लासों में उपसर्ग है, इस फ़ाइल को टेक्स्ट एडिटर या ब्राउज़र में खोलें`pfx_`.
+अपना प्रोजेक्ट चलाने के बाद, अपने पर जाएँ `Documents` फ़ोल्डर में जाएँ। आपको एक HTML फ़ाइल मिलनी चाहिए जिसका नाम है `WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html`. यह सत्यापित करने के लिए कि CSS क्लासों में उपसर्ग है, इस फ़ाइल को टेक्स्ट एडिटर या ब्राउज़र में खोलें `pfx_`.
 
 ## निष्कर्ष
 
@@ -120,22 +122,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं प्रत्येक सेव ऑपरेशन के लिए अलग उपसर्ग का उपयोग कर सकता हूँ?
- हां, आप हर बार दस्तावेज़ सहेजते समय उपसर्ग को बदलकर अनुकूलित कर सकते हैं`CssClassNamePrefix` संपत्ति।
+हां, आप हर बार दस्तावेज़ सहेजते समय उपसर्ग को बदलकर अनुकूलित कर सकते हैं `CssClassNamePrefix` संपत्ति।
 
 ### क्या यह विधि इनलाइन CSS का समर्थन करती है?
-`CssClassNamePrefix`प्रॉपर्टी बाहरी CSS के साथ काम करती है। इनलाइन CSS के लिए, आपको एक अलग दृष्टिकोण की आवश्यकता होगी।
+The `CssClassNamePrefix` प्रॉपर्टी बाहरी CSS के साथ काम करती है। इनलाइन CSS के लिए, आपको एक अलग दृष्टिकोण की आवश्यकता होगी।
 
 ### मैं अन्य HTML सेव विकल्प कैसे शामिल कर सकता हूं?
- आप इसके विभिन्न गुणों को कॉन्फ़िगर कर सकते हैं`HtmlSaveOptions` अपने HTML आउटपुट को कस्टमाइज़ करने के लिए।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+आप इसके विभिन्न गुणों को कॉन्फ़िगर कर सकते हैं `HtmlSaveOptions` अपने HTML आउटपुट को कस्टमाइज़ करने के लिए। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### क्या HTML को स्ट्रीम में सहेजना संभव है?
- बिलकुल! आप स्ट्रीम ऑब्जेक्ट को पास करके दस्तावेज़ को स्ट्रीम में सहेज सकते हैं`Save` तरीका।
+बिलकुल! आप स्ट्रीम ऑब्जेक्ट को पास करके दस्तावेज़ को स्ट्रीम में सहेज सकते हैं `Save` तरीका।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/words/8).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

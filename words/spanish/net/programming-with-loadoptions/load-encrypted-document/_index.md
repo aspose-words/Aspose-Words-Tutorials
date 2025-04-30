@@ -1,28 +1,30 @@
 ---
-title: Cargar documento cifrado en Word
-linktitle: Cargar documento cifrado en documento de Word
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a cargar y guardar documentos de Word cifrados con Aspose.Words para .NET. Proteja sus documentos con nuevas contraseñas fácilmente. Guía paso a paso incluida.
-weight: 10
-url: /es/net/programming-with-loadoptions/load-encrypted-document/
+"description": "Aprenda a cargar y guardar documentos de Word cifrados con Aspose.Words para .NET. Proteja sus documentos fácilmente con nuevas contraseñas. Incluye guía paso a paso."
+"linktitle": "Cargar documento cifrado en un documento de Word"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Cargar cifrado en documento de Word"
+"url": "/es/net/programming-with-loadoptions/load-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cargar documento cifrado en Word
+# Cargar cifrado en documento de Word
 
 ## Introducción
 
-En este tutorial, aprenderá a cargar un documento de Word cifrado y a guardarlo con una nueva contraseña mediante Aspose.Words para .NET. El manejo de documentos cifrados es esencial para mantener la seguridad de los documentos, especialmente cuando se trata de información confidencial.
+En este tutorial, aprenderá a cargar un documento de Word cifrado y guardarlo con una nueva contraseña usando Aspose.Words para .NET. Gestionar documentos cifrados es esencial para mantener la seguridad, especialmente cuando se trata de información confidencial.
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
-1.  Biblioteca Aspose.Words para .NET instalada. Puedes descargarla desde[aquí](https://downloads.aspose.com/words/net).
-2.  Una licencia válida de Aspose. Puede obtener una prueba gratuita o comprar una en[aquí](https://purchase.aspose.com/buy).
+1. Biblioteca Aspose.Words para .NET instalada. Puede descargarla desde [aquí](https://downloads.aspose.com/words/net).
+2. Una licencia válida de Aspose. Puedes obtener una prueba gratuita o comprarla en [aquí](https://purchase.aspose.com/buy).
 3. Visual Studio o cualquier otro entorno de desarrollo .NET.
 
 ## Importar espacios de nombres
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Paso 1: Cargue el documento cifrado
 
- Primero, cargará el documento cifrado usando el`LoadOptions` Clase. Esta clase le permite especificar la contraseña necesaria para abrir el documento.
+Primero, cargará el documento cifrado usando el `LoadOptions` clase. Esta clase le permite especificar la contraseña necesaria para abrir el documento.
 
 ```csharp
 // Ruta a su directorio de documentos
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "Encrypted.docx", new LoadOptions("passwor
 
 ## Paso 2: Guarde el documento con una nueva contraseña
 
- A continuación, guardará el documento cargado como un archivo ODT, esta vez configurando una nueva contraseña usando el`OdtSaveOptions` clase.
+A continuación, guardará el documento cargado como un archivo ODT, esta vez configurando una nueva contraseña usando el `OdtSaveOptions` clase.
 
 ```csharp
 // Guardar un documento cifrado con una nueva contraseña
@@ -58,7 +60,7 @@ doc.Save(dataDir + "WorkingWithLoadOptions.LoadAndSaveEncryptedOdt.odt", new Odt
 
 ## Conclusión
 
-Si sigue los pasos que se describen en este tutorial, podrá cargar y guardar fácilmente documentos de Word cifrados con Aspose.Words para .NET. Esto garantiza que sus documentos permanezcan seguros y solo personas autorizadas puedan acceder a ellos.
+Siguiendo los pasos de este tutorial, podrá cargar y guardar fácilmente documentos de Word cifrados con Aspose.Words para .NET. Esto garantiza que sus documentos permanezcan seguros y solo sean accesibles para personas autorizadas.
 
 ## Preguntas frecuentes
 
@@ -77,9 +79,14 @@ Sí, Aspose.Words ofrece varias opciones para cifrar documentos, incluida la esp
 ### ¿Existe un límite en el tamaño del documento que se puede cifrar?
 No, Aspose.Words puede manejar documentos de cualquier tamaño, sujeto a las limitaciones de la memoria de su sistema.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

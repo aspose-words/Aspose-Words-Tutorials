@@ -1,14 +1,16 @@
 ---
-title: การแยกและการจัดรูปแบบเอกสาร
-linktitle: การแยกและการจัดรูปแบบเอกสาร
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: สำรวจบทช่วยสอน Aspose.Words เกี่ยวกับการแยกและจัดรูปแบบเอกสารใน Python และ .NET เรียนรู้การแยกและจัดรูปแบบเอกสารอย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพงานประมวลผลเอกสารของคุณ
-weight: 13
-url: /th/python-net/document-splitting-and-formatting/
+"description": "สำรวจบทช่วยสอน Aspose.Words เกี่ยวกับการแยกและจัดรูปแบบเอกสารใน Python และ .NET เรียนรู้การแยกและจัดรูปแบบเอกสารอย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพงานประมวลผลเอกสารของคุณ"
+"linktitle": "การแยกและการจัดรูปแบบเอกสาร"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การแยกและการจัดรูปแบบเอกสาร"
+"url": "/th/python-net/document-splitting-and-formatting/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแยกและการจัดรูปแบบเอกสาร
@@ -48,9 +50,13 @@ url: /th/python-net/document-splitting-and-formatting/
 เรียนรู้วิธีการเปรียบเทียบเวอร์ชันเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการควบคุมการแก้ไข ปรับปรุงการทำงานร่วมกันและป้องกันข้อผิดพลาด
 ### [การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ](./document-formatting-techniques/)
 เรียนรู้วิธีการจัดรูปแบบเอกสารอย่างเชี่ยวชาญโดยใช้ Aspose.Words สำหรับ Python สร้างเอกสารที่ดึงดูดสายตาด้วยรูปแบบฟอนต์ ตาราง รูปภาพ และอื่นๆ อีกมากมาย คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

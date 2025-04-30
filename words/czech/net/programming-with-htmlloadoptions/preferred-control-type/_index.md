@@ -1,34 +1,36 @@
 ---
-title: Preferovaný typ ovládacího prvku v dokumentu aplikace Word
-linktitle: Preferovaný typ ovládacího prvku v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit pole formuláře se seznamem do dokumentu aplikace Word pomocí Aspose.Words for .NET. Postupujte podle tohoto podrobného průvodce pro bezproblémovou integraci obsahu HTML.
-weight: 10
-url: /cs/net/programming-with-htmlloadoptions/preferred-control-type/
+"description": "Naučte se, jak vložit pole formuláře se seznamem do dokumentu Word pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu pro bezproblémovou integraci obsahu HTML."
+"linktitle": "Preferovaný typ ovládacího prvku v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Preferovaný typ ovládacího prvku v dokumentu Word"
+"url": "/cs/net/programming-with-htmlloadoptions/preferred-control-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Preferovaný typ ovládacího prvku v dokumentu aplikace Word
+# Preferovaný typ ovládacího prvku v dokumentu Word
 
 ## Zavedení
 
-ponoříme se do vzrušujícího návodu, jak pracovat s možnostmi načítání HTML v Aspose.Words pro .NET, konkrétně se zaměřujeme na nastavení preferovaného typu ovládacího prvku při vkládání pole formuláře se seznamem do dokumentu aplikace Word. Tento podrobný průvodce vám pomůže pochopit, jak efektivně manipulovat a vykreslovat obsah HTML v dokumentech aplikace Word pomocí Aspose.Words for .NET.
+Ponořujeme se do zajímavého tutoriálu o tom, jak pracovat s možnostmi načítání HTML v Aspose.Words pro .NET, se zaměřením na nastavení preferovaného typu ovládacího prvku při vkládání pole formuláře se seznamem do dokumentu Word. Tento podrobný návod vám pomůže pochopit, jak efektivně manipulovat s obsahem HTML a vykreslovat ho v dokumentech Word pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než se pustíme do kódu, je třeba mít připraveno několik věcí:
+Než se pustíme do samotného kódu, je potřeba mít připraveno několik věcí:
 
-1.  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, jako je Visual Studio.
-3. Základní znalost C#: Spolu s výukovým programem je nutné dodržet základní znalost programování v C#.
-4. Obsah HTML: Základní znalost HTML je užitečná, protože v tomto příkladu budeme pracovat s obsahem HTML.
+1. Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [webové stránky](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, například Visual Studio.
+3. Základní znalost C#: Pro pokračování v tomto tutoriálu je nezbytná základní znalost programování v C#.
+4. HTML obsah: Základní znalost HTML je užitečná, protože v tomto příkladu budeme pracovat s HTML obsahem.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory, abychom mohli začít:
+Nejprve si importujme potřebné jmenné prostory, abychom mohli začít:
 
 ```csharp
 using System;
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-Nyní rozdělme příklad do několika kroků, abychom zajistili jasnost a porozumění.
+Nyní si příklad rozdělme do několika kroků, abychom zajistili jasnost a pochopení.
 
-## Krok 1: Nastavte obsah HTML
+## Krok 1: Nastavení HTML obsahu
 
-Nejprve musíme definovat obsah HTML, který chceme vložit do dokumentu aplikace Word. Zde je úryvek HTML, který budeme používat:
+Nejprve musíme definovat HTML obsah, který chceme vložit do dokumentu Word. Zde je úryvek HTML kódu, který použijeme:
 
 ```csharp
 const string html = @"
@@ -55,72 +57,77 @@ const string html = @"
 ";
 ```
 
-Toto HTML obsahuje jednoduché pole se dvěma možnostmi. Tento HTML načteme do dokumentu aplikace Word a určíme, jak se má vykreslit.
+Tento HTML kód obsahuje jednoduchý rozbalovací seznam se dvěma možnostmi. Načteme tento HTML kód do dokumentu Word a určíme, jak se má vykreslit.
 
-## Krok 2: Definujte adresář dokumentů
+## Krok 2: Definování adresáře dokumentů
 
-Dále určete adresář, kam se uloží váš dokument aplikace Word. To pomáhá při organizování souborů a udržování čistoty ve správě cest.
+Dále určete adresář, kam bude dokument Wordu uložen. To pomůže s organizací souborů a udržením přehledné správy cest.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete uložit dokument aplikace Word.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument Wordu uložit.
 
-## Krok 3: Nakonfigurujte možnosti načítání HTML
+## Krok 3: Konfigurace možností načítání HTML
 
- Zde nakonfigurujeme možnosti načítání HTML, zejména se zaměřením na`PreferredControlType`vlastnictví. To určuje, jak má být pole se seznamem vykresleno v dokumentu aplikace Word.
+Zde konfigurujeme možnosti načítání HTML, se zvláštním zaměřením na `PreferredControlType` vlastnost. Tato vlastnost určuje, jak se má pole se seznamem vykreslit v dokumentu Word.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { PreferredControlType = HtmlControlType.StructuredDocumentTag };
 ```
 
- Nastavením`PreferredControlType` na`HtmlControlType.StructuredDocumentTag`, zajistíme, aby se pole se seznamem vykreslilo jako značka strukturovaného dokumentu (SDT) v dokumentu aplikace Word.
+Nastavením `PreferredControlType` na `HtmlControlType.StructuredDocumentTag`, zajistíme, aby se pole se seznamem v dokumentu Word vykreslilo jako tag strukturovaného dokumentu (SDT).
 
-## Krok 4: Načtěte obsah HTML do dokumentu
+## Krok 4: Načtěte HTML obsah do dokumentu
 
-Pomocí nakonfigurovaných možností načtení načteme obsah HTML do nového dokumentu aplikace Word.
+Pomocí nakonfigurovaných možností načítání načteme HTML obsah do nového dokumentu Wordu.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
-Zde převedeme řetězec HTML na bajtové pole a načteme jej do dokumentu pomocí paměťového proudu. To zajišťuje, že obsah HTML je správně interpretován a vykreslen Aspose.Words.
+Zde převedeme HTML řetězec na bajtové pole a načteme ho do dokumentu pomocí paměťového proudu. Tím zajistíme, že Aspose.Words správně interpretuje a vykreslí HTML obsah.
 
 ## Krok 5: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře ve formátu DOCX.
+Nakonec uložte dokument do zadaného adresáře ve formátu DOCX.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlLoadOptions.PreferredControlType.docx", SaveFormat.Docx);
 ```
 
-Tím uložíte dokument aplikace Word s vykresleným ovládacím prvkem pole se seznamem do zadaného umístění.
+Tím se uloží dokument aplikace Word s vykresleným ovládacím prvkem pole se seznamem na zadané místo.
 
 ## Závěr
 
-tady to máte! Úspěšně jsme vložili pole formuláře se seznamem do dokumentu aplikace Word pomocí Aspose.Words for .NET využitím možností načítání HTML. Tento podrobný průvodce by vám měl pomoci pochopit proces a aplikovat jej na vaše projekty. Ať už automatizujete vytváření dokumentů nebo manipulujete s obsahem HTML, Aspose.Words for .NET poskytuje výkonné nástroje k dosažení vašich cílů.
+A tady to máte! Úspěšně jsme vložili pole formuláře se seznamem do dokumentu Word pomocí Aspose.Words pro .NET s využitím možností načítání HTML. Tato podrobná příručka by vám měla pomoci pochopit proces a aplikovat ho na vaše projekty. Ať už automatizujete vytváření dokumentů nebo manipulujete s obsahem HTML, Aspose.Words pro .NET poskytuje výkonné nástroje k dosažení vašich cílů.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům vytvářet, upravovat, převádět a vykreslovat dokumenty aplikace Word programově.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům programově vytvářet, upravovat, převádět a vykreslovat dokumenty Wordu.
 
-### Mohu s Aspose.Words pro .NET používat jiné typy ovládacích prvků HTML?
-Ano, Aspose.Words for .NET podporuje různé typy ovládacích prvků HTML. Způsob vykreslování různých ovládacích prvků v dokumentu aplikace Word můžete přizpůsobit.
+### Mohu s Aspose.Words pro .NET použít jiné typy HTML ovládacích prvků?
+Ano, Aspose.Words pro .NET podporuje různé typy ovládacích prvků HTML. Můžete si přizpůsobit, jak se různé ovládací prvky vykreslují v dokumentu Word.
 
-### Jak zvládnu složitý obsah HTML v Aspose.Words for .NET?
- Aspose.Words for .NET poskytuje komplexní podporu pro HTML, včetně složitých prvků. Ujistěte se, že jste nakonfigurovali`HtmlLoadOptions`vhodně zpracovat váš konkrétní obsah HTML.
+### Jak zpracuji složitý HTML obsah v Aspose.Words pro .NET?
+Aspose.Words pro .NET poskytuje komplexní podporu pro HTML, včetně složitých prvků. Ujistěte se, že jste nakonfigurovali `HtmlLoadOptions` vhodně zpracovat váš specifický HTML obsah.
 
 ### Kde najdu další příklady a dokumentaci?
- Podrobnou dokumentaci a příklady naleznete na[Stránka dokumentace Aspose.Words for .NET](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci a příklady naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[Aspose webové stránky](https://releases.aspose.com/).
+Ano, můžete si stáhnout bezplatnou zkušební verzi z [Webové stránky Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

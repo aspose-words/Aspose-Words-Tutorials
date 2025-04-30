@@ -1,14 +1,16 @@
 ---
-title: हेडर और फूटर के साथ शब्द प्रसंस्करण
-linktitle: हेडर और फूटर के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर के साथ काम करना सीखें। संपूर्ण ट्यूटोरियल और व्यावहारिक उदाहरण।
-weight: 730
-url: /hi/net/working-with-headers-and-footers/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर के साथ काम करना सीखें। संपूर्ण ट्यूटोरियल और व्यावहारिक उदाहरण।"
+"linktitle": "हेडर और फूटर के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "हेडर और फूटर के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हेडर और फूटर के साथ शब्द प्रसंस्करण
@@ -20,11 +22,16 @@ url: /hi/net/working-with-headers-and-footers/
  ## ट्यूटोरियल
 | शीर्षक | विवरण |
 | --- | --- |
-| [हेडर फ़ुटर बनाएँ](./create-header-footer/) | Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में हेडर और फ़ुटर बनाने का तरीका जानें। प्रत्येक पृष्ठ के लिए हेडर और फ़ुटर कस्टमाइज़ करें। |
-| [पिछले अनुभाग से हेडर फ़ुटर कॉपी करें](./copy-headers-footers-from-previous-section/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में पिछले अनुभाग से शीर्षलेख और पादलेख की प्रतिलिपि बनाना सीखें। |
+| [हेडर फ़ुटर बनाएँ](./create-header-footer/) | .NET के लिए Aspose.Words के साथ अपने Word दस्तावेज़ों में हेडर और फ़ुटर बनाने का तरीका जानें। प्रत्येक पृष्ठ के लिए हेडर और फ़ुटर कस्टमाइज़ करें। |
+| [पिछले अनुभाग से हेडर फ़ुटर कॉपी करें](./copy-headers-footers-from-previous-section/) .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में पिछले अनुभाग से शीर्षलेख और पादलेख की प्रतिलिपि बनाना सीखें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

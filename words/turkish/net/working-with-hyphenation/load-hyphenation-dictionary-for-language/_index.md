@@ -1,14 +1,16 @@
 ---
-title: Dil İçin Heceleme Sözlüğünü Yükle
-linktitle: Dil İçin Heceleme Sözlüğünü Yükle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimde Aspose.Words for .NET'i kullanarak herhangi bir dil için tireleme sözlüğünün nasıl yükleneceğini öğrenin.
-weight: 10
-url: /tr/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/
+"description": "Bu kapsamlı, adım adım eğitimde Aspose.Words for .NET kullanarak herhangi bir dil için tireleme sözlüğünün nasıl yükleneceğini öğrenin."
+"linktitle": "Dil İçin Heceleme Sözlüğünü Yükle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Dil İçin Heceleme Sözlüğünü Yükle"
+"url": "/tr/net/working-with-hyphenation/load-hyphenation-dictionary-for-language/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dil İçin Heceleme Sözlüğünü Yükle
@@ -23,9 +25,9 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Bilgisayarınızda Visual Studio yüklü olmalıdır.
 - .NET framework kurulu.
--  Aspose.Words for .NET kütüphanesi. Eğer henüz yüklemediyseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET kütüphanesi. Eğer henüz yüklemediyseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - Hedef diliniz için bir tireleme sözlüğü dosyası. Bu eğitimde, bir Almanca tireleme sözlüğü kullanacağız (`hyph_de_CH.dic`).
-- Hedef dilde bir örnek Word belgesi. Adlı bir belge kullanacağız.`German text.docx`.
+- Hedef dilde bir örnek Word belgesi. Adlı bir belge kullanacağız. `German text.docx`.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,37 +50,37 @@ Başlamadan önce, belgenizin ve tireleme sözlüğünüzün bulunduğu dizini b
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dosyalarınızın bulunduğu dizinin yolunu belirtin.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dosyalarınızın bulunduğu dizinin yolunu belirtin.
 
 ## Adım 2: Belgeyi Yükleyin
 
- Sonra, işlemek istediğiniz Word belgesini yükleyin. Bu, şu şekilde yapılır:`Document` Aspose.Words'den sınıf.
+Sonra, işlemek istediğiniz Word belgesini yükleyin. Bu, şu şekilde yapılır: `Document` Aspose.Words'den sınıf.
 
 ```csharp
 Document doc = new Document(dataDir + "German text.docx");
 ```
 
- Bu kod satırı yeni bir başlatır`Document` nesne ve dosyayı yükler`German text.docx` belirttiğiniz dizinden.
+Bu kod satırı yeni bir başlatır `Document` nesne ve dosyayı yükler `German text.docx` belirttiğiniz dizinden.
 
 ## Adım 3: Tireleme Sözlüğünü açın
 
- Şimdi tireleme sözlüğü dosyasını açmanız gerekiyor. Bunu kullanacağız`File.OpenRead` sözlük dosyasını bir akış olarak okuma yöntemi.
+Şimdi tireleme sözlüğü dosyasını açmanız gerekiyor. Bunu kullanacağız `File.OpenRead` sözlük dosyasını bir akış olarak okuma yöntemi.
 
 ```csharp
 Stream stream = File.OpenRead(dataDir + "hyph_de_CH.dic");
 ```
 
- Bu satır tireleme sözlüğü dosyasını açar`hyph_de_CH.dic` ve bunu bir akışa okur.
+Bu satır tireleme sözlüğü dosyasını açar `hyph_de_CH.dic` ve bunu bir akışa okur.
 
 ## Adım 4: Tireleme Sözlüğünü Kaydedin
 
- Sözlük dosyası açıldığında, bir sonraki adım onu Aspose.Words'de kullanılmak üzere kaydetmektir. Bu, şu şekilde yapılır:`Hyphenation.RegisterDictionary` yöntem.
+Sözlük dosyası açıldığında, bir sonraki adım onu Aspose.Words'de kullanılmak üzere kaydetmektir. Bu, şu şekilde yapılır: `Hyphenation.RegisterDictionary` yöntem.
 
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", stream);
 ```
 
-Burada, tireleme sözlüğünü kaydediyoruz`de-CH` (İsviçre Almancası) dili.
+Burada, tireleme sözlüğünü kaydediyoruz `de-CH` (İsviçre Almancası) dili.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -88,7 +90,7 @@ Son olarak işlenmiş belgeyi kaydedin. İstediğiniz formatı seçebilirsiniz, 
 doc.Save(dataDir + "ProcessingByBreakingWithDictionary.pdf");
 ```
 
- Bu satır belgeyi dosya adı ile belirttiğiniz dizine kaydeder`ProcessingByBreakingWithDictionary.pdf`.
+Bu satır belgeyi dosya adı ile belirttiğiniz dizine kaydeder `ProcessingByBreakingWithDictionary.pdf`.
 
 ## Çözüm
 
@@ -114,10 +116,15 @@ Aspose.Words, PDF, DOCX, DOC, HTML ve daha birçok format dahil olmak üzere bel
 
 ### Aspose.Words'ü kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words tam işlevsellik için bir lisans gerektirir. Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Words tam işlevsellik için bir lisans gerektirir. Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

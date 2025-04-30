@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,9 +218,13 @@ By setting a maximum image resolution, you can balance between visual fidelity a
 
 ## Conclusion
 This guide provided a comprehensive overview of converting Word documents to SVG using Aspose.Words for Java. By understanding and applying these advanced options, you can ensure high-quality SVG outputs tailored to your needs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

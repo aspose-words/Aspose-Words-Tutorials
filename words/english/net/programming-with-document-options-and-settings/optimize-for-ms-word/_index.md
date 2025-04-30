@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-options-and-settings/optimize-for-ms-word/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimize For Ms Word
@@ -91,9 +94,13 @@ You can find detailed documentation [here](https://reference.aspose.com/words/ne
 If you run into any issues, you can always seek help on the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

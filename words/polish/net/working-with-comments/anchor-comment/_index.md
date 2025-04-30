@@ -1,14 +1,16 @@
 ---
-title: Komentarz kotwicy
-linktitle: Komentarz kotwicy
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać komentarze kotwicowe w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wydajnie współpracować nad dokumentami.
-weight: 10
-url: /pl/net/working-with-comments/anchor-comment/
+"description": "Dowiedz się, jak dodawać komentarze kotwicowe w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wydajnie współpracować nad dokumentami."
+"linktitle": "Komentarz kotwicy"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Komentarz kotwicy"
+"url": "/pl/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentarz kotwicy
@@ -21,7 +23,7 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której musiałeś programowo do
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: dowolne środowisko programistyczne .NET, np. Visual Studio.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci z łatwością wykonywać poniższe kroki.
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- W tym kroku inicjujemy nowy`Document` obiekt, który będzie używany do dodawania naszych komentarzy.
+W tym kroku inicjujemy nowy `Document` obiekt, który będzie używany do dodawania naszych komentarzy.
 
 ## Krok 2: Dodaj tekst do dokumentu
 
@@ -76,7 +78,7 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- Tutaj tworzymy dwa akapity z tekstem. Każdy fragment tekstu jest zamknięty w`Run` obiekt, który następnie jest dodawany do akapitów.
+Tutaj tworzymy dwa akapity z tekstem. Każdy fragment tekstu jest zamknięty w `Run` obiekt, który następnie jest dodawany do akapitów.
 
 ## Krok 3: Utwórz komentarz
 
@@ -88,7 +90,7 @@ Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- W tym kroku tworzymy`Comment` obiekt i dodaj akapit oraz ciąg z tekstem komentarza.
+W tym kroku tworzymy `Comment` obiekt i dodaj akapit oraz ciąg z tekstem komentarza.
 
 ## Krok 4: Zdefiniuj zakres komentarzy
 
@@ -107,7 +109,7 @@ run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- Tutaj tworzymy`CommentRangeStart` I`CommentRangeEnd` obiektów, łącząc je z komentarzem poprzez jego ID. Następnie wstawiamy te zakresy do dokumentu, skutecznie zakotwiczając nasz komentarz do określonego tekstu.
+Tutaj tworzymy `CommentRangeStart` I `CommentRangeEnd` obiektów, łącząc je z komentarzem poprzez jego ID. Następnie wstawiamy te zakresy do dokumentu, skutecznie zakotwiczając nasz komentarz do określonego tekstu.
 
 ## Krok 5: Zapisz dokument
 
@@ -130,19 +132,24 @@ I masz to! Udało Ci się nauczyć, jak dodawać komentarze kotwiczące do okre�
 Komentarze kotwiczące służą do wyróżniania i komentowania określonych fragmentów tekstu, co ułatwia przekazywanie opinii i współpracę nad dokumentami.
 
 ### Czy mogę dodać wiele komentarzy do tej samej sekcji tekstowej?
-Tak, możesz dodać wiele komentarzy do tej samej sekcji tekstowej, definiując wiele zakresów komentarzy.
+Tak, możesz dodać wiele komentarzy do tej samej sekcji tekstu, definiując wiele zakresów komentarzy.
 
 ### Czy korzystanie z Aspose.Words dla .NET jest bezpłatne?
- Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać[Tutaj](https://releases.aspose.com/) Aby uzyskać pełną funkcjonalność, możesz zakupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać [Tutaj](https://releases.aspose.com/)Aby uzyskać pełną funkcjonalność, możesz zakupić licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę dostosować wygląd komentarzy?
 Podczas gdy Aspose.Words koncentruje się na funkcjonalności, wygląd komentarzy w dokumentach Worda jest generalnie kontrolowany przez sam Word.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

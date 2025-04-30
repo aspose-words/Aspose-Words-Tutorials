@@ -1,14 +1,16 @@
 ---
-title: Kopyalama Bölümü
-linktitle: Kopyalama Bölümü
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgeleri arasında bölümlerin nasıl kopyalanacağını öğrenin. Bu kılavuz, verimli belge yönetimi için adım adım talimatları kapsar.
-weight: 10
-url: /tr/net/working-with-section/copy-section/
+"description": "Aspose.Words for .NET kullanarak Word belgeleri arasında bölümlerin nasıl kopyalanacağını öğrenin. Bu kılavuz, verimli belge yönetimi için adım adım talimatları kapsar."
+"linktitle": "Kopyalama Bölümü"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Kopyalama Bölümü"
+"url": "/tr/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kopyalama Bölümü
@@ -22,7 +24,7 @@ Merhaba, Word tutkunları! 📄 Hiç bir Word belgesinden diğerine bir bölüm�
 
 Ayrıntılara girmeden önce, aşağıdaki ayarların yapıldığından emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: En son sürümü indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: En son sürümü indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi .NET uyumlu bir IDE.
 3. Temel C# Bilgisi: C#'a aşina olmak takip etmenize yardımcı olacaktır.
 4. Örnek Word Belgeleri: Bu eğitimde iki örnek belge kullanacağız.
@@ -43,7 +45,7 @@ Bu ad alanı, Aspose.Words kullanarak Word belgeleriyle çalışmak için gerekl
 
 Koda dalmadan önce Aspose.Words kütüphanesinin yüklü olduğundan ve iki adet örnek Word belgesinin hazır olduğundan emin olun.
 
-1.  Aspose.Words'ü indirin ve yükleyin: Edinin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words'ü indirin ve yükleyin: Edinin [Burada](https://releases.aspose.com/words/net/).
 2. Projenizi Kurun: Visual Studio'yu açın ve yeni bir .NET projesi oluşturun.
 3. Aspose.Words Referansını Ekle: Projenize Aspose.Words kütüphanesini ekleyin.
 
@@ -52,14 +54,14 @@ Koda dalmadan önce Aspose.Words kütüphanesinin yüklü olduğundan ve iki ade
 Hem kaynak hem de hedef belgeleri yüklememiz gerekiyor. Kaynak belge, bölümü kopyalayacağımız yerdir ve hedef belge, kopyalanan bölümü yapıştıracağımız yerdir.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
 Document dstDoc = new Document();
 ```
 
-- `string dataDir = "YOUR DOCUMENT DIRECTORY";` Belgelerinizin saklandığı dizin yolunu belirtir.
+- `string dataDir = "YOUR DOCUMENT DIRECTORY";` belgelerinizin saklandığı dizin yolunu belirtir.
 - `Document srcDoc = new Document(dataDir + "Document.docx");` kaynak Word belgesini yükler.
 - `Document dstDoc = new Document();` yeni, boş bir Word belgesi başlatır.
 
@@ -77,7 +79,7 @@ Section newSection = (Section) dstDoc.ImportNode(sourceSection, true);
 
 ## Adım 4: Kopyalanan Bölümü Hedef Belgeye Ekleyin
 
-Bölümü kopyaladıktan sonraki adım onu hedef belgeye eklemektir. Bu, kopyalanan bölümü hedef belgede yeni bir bölüm olarak ekleyecektir.
+Bölümü kopyaladıktan sonraki adım onu hedef belgeye eklemektir. Bu, kopyalanan bölümü hedef belgeye yeni bir bölüm olarak ekleyecektir.
 
 ```csharp
 dstDoc.Sections.Add(newSection);
@@ -93,7 +95,7 @@ Son olarak, tüm değişikliklerin kaydedildiğinden ve belgenin kullanıma haz�
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- Yer değiştirmek`dataDir + "WorkingWithSection.CopySection.docx"` Belgenizi kaydetmek istediğiniz gerçek yol ile. Bu kod satırı, kopyalanan bölümle hedef Word dosyanızı kaydedecektir.
+Yer değiştirmek `dataDir + "WorkingWithSection.CopySection.docx"` Belgenizi kaydetmek istediğiniz gerçek yol ile. Bu kod satırı, kopyalanan bölümle hedef Word dosyanızı kaydedecektir.
 
 ## Çözüm
 
@@ -115,14 +117,19 @@ Evet, Aspose.Words DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çeşitli 
 
 ### Aspose.Words hakkında daha fazla kaynağı nerede bulabilirim?
 
- Daha fazla bilgi için şu adresi ziyaret edebilirsiniz:[Aspose.Words API belgeleri](https://reference.aspose.com/words/net/) veya[destek forumu](https://forum.aspose.com/c/words/8) yardım ve tartışmalar için.
+Daha fazla bilgi için şu adresi ziyaret edebilirsiniz: [Aspose.Words API belgeleri](https://reference.aspose.com/words/net/) veya [destek forumu](https://forum.aspose.com/c/words/8) yardım ve tartışmalar için.
 
 ### Aspose.Words for .NET'i ücretsiz deneyebilir miyim?
 
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

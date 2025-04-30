@@ -1,14 +1,16 @@
 ---
-title: Datatable'dan Tablo Oluştur
-linktitle: Datatable'dan Tablo Oluştur
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words kullanarak bir DataTable'dan tablo oluşturmayı öğrenin. Biçimlendirilmiş tablolarla profesyonel Word belgeleri zahmetsizce oluşturun.
-weight: 11
-url: /tr/java/table-processing/generate-table-from-datatable/
+"description": "Java için Aspose.Words kullanarak bir DataTable'dan tablo oluşturmayı öğrenin. Biçimlendirilmiş tablolarla profesyonel Word belgeleri zahmetsizce oluşturun."
+"linktitle": "Datatable'dan Tablo Oluştur"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Datatable'dan Tablo Oluştur"
+"url": "/tr/java/table-processing/generate-table-from-datatable/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datatable'dan Tablo Oluştur
@@ -21,9 +23,9 @@ Veri kaynaklarından dinamik olarak tablolar oluşturmak birçok uygulamada yayg
 
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
    
-2.  Java için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. En son sürümü şu adresten indirebilirsiniz:[Aspose'un sürüm sayfası](https://releases.aspose.com/words/java/).
+2. Java için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. En son sürümü şu adresten indirebilirsiniz: [Aspose'un sürüm sayfası](https://releases.aspose.com/words/java/).
 
 3. IDE: IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) kodlamayı kolaylaştıracaktır.
 
@@ -39,17 +41,17 @@ Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğun
 Document doc = new Document();
 ```
 
- Burada yeni bir örnek oluşturuyoruz`Document` nesne. Bu, tablomuzu oluşturacağımız çalışma belgemiz olarak hizmet edecektir.
+Burada yeni bir örnek oluşturuyoruz `Document` nesne. Bu, tablomuzu oluşturacağımız çalışma belgemiz olarak hizmet edecektir.
 
 ## Adım 2: DocumentBuilder'ı Başlatın
 
- Daha sonra şunu kullanacağız:`DocumentBuilder` Belgeyi daha kolay bir şekilde düzenlememize olanak sağlayan sınıf.
+Daha sonra şunu kullanacağız: `DocumentBuilder` Belgeyi daha kolay bir şekilde düzenlememize olanak sağlayan sınıf.
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`DocumentBuilder` nesnesi, belgeye tablo, metin ve diğer öğeleri eklemek için yöntemler sağlar.
+The `DocumentBuilder` nesnesi, belgeye tablo, metin ve diğer öğeleri eklemek için yöntemler sağlar.
 
 ## Adım 3: Sayfa Yönünü Ayarla
 
@@ -63,7 +65,7 @@ Bu adım çok önemlidir çünkü tablomuzun sayfaya düzgün bir şekilde oturm
 
 ## Adım 4: XML'den Veri Yükle
 
- Şimdi, verilerimizi XML dosyasından bir`DataTable`Verilerimiz buradan geliyor.
+Şimdi, verilerimizi XML dosyasından bir `DataTable`Verilerimiz buradan geliyor.
 
 ```java
 DataSet ds = new DataSet();
@@ -71,7 +73,7 @@ ds.readXml(getMyDir() + "List of people.xml");
 DataTable dataTable = ds.getTables().get(0);
 ```
 
- Burada, XML dosyasını okuruz ve veri kümesinden ilk tabloyu alırız. Bu`DataTable` belgemizde görüntülemek istediğimiz verileri tutacaktır.
+Burada, XML dosyasını okuruz ve veri kümesinden ilk tabloyu alırız. Bu `DataTable` belgemizde görüntülemek istediğimiz verileri tutacaktır.
 
 ## Adım 5: Tabloyu DataTable'dan içe aktarın
 
@@ -81,7 +83,7 @@ DataTable dataTable = ds.getTables().get(0);
 Table table = importTableFromDataTable(builder, dataTable, true);
 ```
 
- Yöntemi çağırıyoruz`importTableFromDataTable` , geçerek`DocumentBuilder` , bizim`DataTable`ve sütun başlıklarının eklenip eklenmeyeceğini belirten bir Boole değeri.
+Yöntemi çağırıyoruz `importTableFromDataTable`, geçerek `DocumentBuilder`, bizim `DataTable`ve sütun başlıklarının eklenip eklenmeyeceğini belirtmek için bir Boole değeri.
 
 ## Adım 6: Tabloyu Şekillendirin
 
@@ -116,7 +118,7 @@ Bu satır, belgeyi belirtilen dizine kaydeder ve sonuçları incelemenize olanak
 
 ## importTableFromDataTable Yöntemi
 
- Daha yakından bakalım`importTableFromDataTable` method. Bu method, tablo yapısını oluşturmaktan ve onu verilerle doldurmaktan sorumludur.
+Daha yakından bakalım `importTableFromDataTable` method. Bu method, tablo yapısını oluşturmaktan ve onu verilerle doldurmaktan sorumludur.
 
 ### Adım 1: Tabloyu Başlatın
 
@@ -130,7 +132,7 @@ Bu, belgemizde yeni bir tablo başlatır.
 
 ### Adım 2: Sütun Başlıkları Ekleyin
 
- Sütun başlıklarını eklemek istiyorsak, şunu kontrol ederiz:`importColumnHeadings` bayrak.
+Sütun başlıklarını eklemek istiyorsak, şunu kontrol ederiz: `importColumnHeadings` bayrak.
 
 ```java
 if (importColumnHeadings) {
@@ -156,11 +158,11 @@ if (importColumnHeadings) {
 }
 ```
 
- Bu kod bloğu başlık satırını biçimlendirir ve sütun adlarını ekler.`DataTable`.
+Bu kod bloğu başlık satırını biçimlendirir ve sütun adlarını ekler. `DataTable`.
 
 ### Adım 3: Tabloyu Verilerle Doldurun
 
- Şimdi, her satırda döngüye giriyoruz`DataTable` tabloya veri eklemek için.
+Şimdi, her satırda döngüye giriyoruz `DataTable` tabloya veri eklemek için.
 
 ```java
 for (DataRow dataRow : (Iterable<DataRow>) dataTable.getRows()) {
@@ -191,7 +193,7 @@ Son olarak tüm veriler girildikten sonra tabloyu tamamlıyoruz.
 builder.endTable();
 ```
 
- Bu satır tablomuzun sonunu işaret ediyor ve`DocumentBuilder` Bu bölümün bittiğini bilmek.
+Bu satır tablomuzun sonunu işaret ediyor ve `DocumentBuilder` Bu bölümün bittiğini bilmek.
 
 ## Çözüm
 
@@ -203,7 +205,7 @@ Ve işte karşınızda! Java için Aspose.Words kullanarak bir DataTable'dan bir
 Aspose.Words for Java, Word belgelerini programlı olarak oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Evet, Aspose ücretsiz deneme sürümü sunuyor. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sürümü sunuyor. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words'de tabloları nasıl biçimlendirebilirim?
 Kütüphane tarafından sağlanan önceden tanımlanmış stil tanımlayıcılarını ve seçeneklerini kullanarak stiller uygulayabilirsiniz.
@@ -212,10 +214,15 @@ Kütüphane tarafından sağlanan önceden tanımlanmış stil tanımlayıcılar
 Metin, sayı ve tarih gibi çeşitli veri türlerini ekleyebilir ve bunları uygun şekilde biçimlendirebilirsiniz.
 
 ### Aspose.Words için desteği nereden alabilirim?
- Destek bulabilir ve soru sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/words/8/).
+Destek bulabilir ve soru sorabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/words/8/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

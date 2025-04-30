@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-rtfloadoptions/recognize-utf8-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Recognize Utf8 Text
@@ -105,9 +108,13 @@ Yes, Aspose.Words for .NET is compatible with .NET Core, making it versatile for
 
 For more documentation, visit the [Aspose.Words for .NET documentation](https://reference.aspose.com/words/net/). If you need support, check out the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

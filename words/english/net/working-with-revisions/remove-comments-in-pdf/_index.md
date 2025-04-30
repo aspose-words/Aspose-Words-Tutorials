@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/remove-comments-in-pdf/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Comments In Pdf File
@@ -97,9 +100,13 @@ You can visit the [support forum](https://forum.aspose.com/c/words/8) for help w
 ### How can I purchase a license for Aspose.Words?
 You can buy a license from [here](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

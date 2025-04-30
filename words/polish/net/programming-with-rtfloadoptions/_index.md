@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z Rtfloadoptions
-linktitle: Przetwarzanie słów z Rtfloadoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Poznaj przetwarzanie słów z opcjami ładowania RTF w Aspose.Words dla .NET. Dowiedz się, jak ładować i manipulować dokumentami RTF, korzystając z samouczków krok po kroku i przykładowego kodu C#.
-weight: 1630
-url: /pl/net/programming-with-rtfloadoptions/
+"description": "Poznaj przetwarzanie słów z opcjami ładowania RTF w Aspose.Words dla .NET. Dowiedz się, jak ładować i manipulować dokumentami RTF, korzystając z samouczków krok po kroku i przykładowego kodu C#."
+"linktitle": "Przetwarzanie słów z Rtfloadoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z Rtfloadoptions"
+"url": "/pl/net/programming-with-rtfloadoptions/"
+"weight": 1630
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z Rtfloadoptions
@@ -22,10 +24,15 @@ Dzięki samouczkom Aspose.Words for .NET będziesz w stanie dokładnie zrozumie�
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Rozpoznaj tekst UTF-8](./recognize-utf8-text/) | Dowiedz się, jak rozpoznawać tekst w formacie UTF-8 w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku. |
+| [Rozpoznaj tekst UTF-8](./recognize-utf8-text/) | Dowiedz się, jak rozpoznawać tekst w formacie UTF-8 w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

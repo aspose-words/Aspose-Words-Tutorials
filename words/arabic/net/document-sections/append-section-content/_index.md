@@ -1,58 +1,66 @@
 ---
-title: إضافة ومعرفة المحتوى في وثائق الكلمة باستخدام Aspose.Words
-weight: 7700
-limit: 
-description: تعلم كيفية إضافة المحتوى بين أقسام في مستندات Word باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة مع أمثلة رمز واضحة.
-keywords: [Aspose.Words for .NET, append content, prepend content, Word document sections, manipulate sections, .NET Word library]
-url: /ar/net/document-sections/append-section-content/
+"description": "تعلّم كيفية إضافة محتوى بين الأقسام في مستندات Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية واضحة."
+"title": "إضافة محتوى وإضافته في مستندات Word باستخدام Aspose.Words"
+"url": "/ar/net/document-sections/append-section-content/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة ومضافة المحتوى في وثائق الكلمة
+# إضافة محتوى وإضافته في مستندات Word
 
-Aspose.Words لـ .NET هي مكتبة قوية لإنشاء وتلاعب وثائق Word في تطبيقات .NET. يوضح هذا المثال كيفية إضافة ومساعدة المحتوى من قسم إلى آخر في مستند Word. باستخدام APIs بسيطة وبديهية، يمكنك التلاعب بالقسمات، دمج المحتوى، وإجراء مهام تحرير وثائق متقدمة بسهولة. سواء كنت تقوم ببناء تدفقات عمل التلقائي أو محرر وثائق مخصصة، Aspose.Words تبسط عملية تطويرك.  
+Aspose.Words لـ .NET هي مكتبة فعّالة لإنشاء مستندات Word ومعالجتها وتحويلها في تطبيقات .NET. يوضح هذا المثال كيفية إضافة محتوى من قسم إلى آخر في مستند Word وإضافة مقدمة له. باستخدام واجهات برمجة تطبيقات بسيطة وسهلة الاستخدام، يمكنك معالجة الأقسام ودمج المحتوى وإجراء مهام تحرير مستندات متقدمة بسلاسة. سواء كنت تُنشئ سير عمل أتمتة أو محررات مستندات مخصصة، فإن Aspose.Words يُبسّط عملية التطوير لديك.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/append-section-content" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-لاستخدام Aspose.Words ل .NET، اتبع هذه الخطوات:  
+لاستخدام Aspose.Words لـ .NET، اتبع الخطوات التالية:  
 
-1. قم بتنزيل Aspose.Words:  
-   * زيارة[Aspose.Words لصفحة تنزيل .NET](https://releases.aspose.com/words/net/)للحصول على أحدث النسخة.  
+1. تنزيل Aspose.Words:  
+   - قم بزيارة [صفحة تنزيل Aspose.Words لـ .NET](https://releases.aspose.com/words/net/) للحصول على الإصدار الأحدث.  
 
-2. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   * افتح مشروع .NET الخاص بك في Visual Studio.  
-   * الملاحة إلى أدوات > مدير حزمة NuGet > إدارة حزمة NuGet للحصول على حل.  
-   * البحث عن "Aspose.Words" في مدير الحزمة NuGet.  
-   * حدد الحزمة وانقر فوق " إرسال "  
+2. التثبيت عبر مدير حزمة NuGet:  
+   - افتح مشروع .NET الخاص بك في Visual Studio.  
+   - انتقل إلى قائمة الأدوات > مدير حزمة NuGet > إدارة حزم NuGet للحل.  
+   - ابحث عن "Aspose.Words" في مدير الحزم NuGet.  
+   - حدد الحزمة ثم انقر فوق تثبيت.  
 
-3. إدراج المساحات الاسمية المطلوبة:  
-   - Add the necessary `using` directives to your C# file:  
+3. تضمين مساحات الأسماء المطلوبة:  
+   - أضف ما يلزم `using` التوجيهات إلى ملف C# الخاص بك:  
      ```csharp  
      using Aspose.Words;  
      using Aspose.Words.Saving;  
      ```  
 
-4. إضافة الترخيص:  
-   * إذا اشتريت رخصة، قم بتطبيقها باستخدام المقطع التالي من الشفرة:  
+4. أضف الترخيص:  
+   - إذا قمت بشراء ترخيص، قم بتطبيقه باستخدام مقتطف التعليمات البرمجية التالي:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Aspose.Words.lic");  
      ```  
-   * لتحقيق التقييم أو الاختبار، يمكنك طلب[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/). . .  
+   - للتقييم أو الاختبار، يمكنك طلب [رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/).  
 
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

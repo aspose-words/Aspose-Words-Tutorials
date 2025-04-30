@@ -1,35 +1,37 @@
 ---
-title: Tabela aninhada
-linktitle: Tabela aninhada
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como criar tabelas aninhadas em documentos do Word usando Aspose.Words para .NET com nosso guia. Perfeito para gerar layouts de documentos complexos programaticamente.
-weight: 10
-url: /pt/net/programming-with-tables/nested-table/
+"description": "Aprenda a criar tabelas aninhadas em documentos do Word usando o Aspose.Words para .NET com nosso guia. Perfeito para gerar layouts de documentos complexos programaticamente."
+"linktitle": "Tabela aninhada"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Tabela aninhada"
+"url": "/pt/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabela aninhada
 
 ## Introdução
 
-Já se viu precisando criar uma tabela aninhada dentro de um documento do Word programaticamente? Não importa se você está gerando relatórios, faturas ou qualquer tipo de documento que exija uma estrutura tabular detalhada, o Aspose.Words para .NET pode ser seu melhor amigo. Neste tutorial, vamos mergulhar no processo de criação de tabelas aninhadas em documentos do Word usando o Aspose.Words para .NET. Abordaremos tudo, desde os pré-requisitos até a implementação do código final. Então, vamos começar!
+Já precisou criar uma tabela aninhada em um documento do Word programaticamente? Seja para gerar relatórios, faturas ou qualquer tipo de documento que exija uma estrutura tabular detalhada, o Aspose.Words para .NET pode ser seu melhor amigo. Neste tutorial, vamos nos aprofundar no processo de criação de tabelas aninhadas em documentos do Word usando o Aspose.Words para .NET. Abordaremos tudo, desde os pré-requisitos até a implementação final do código. Então, vamos começar!
 
 ## Pré-requisitos
 
-Antes de começarmos o código, há algumas coisas que você precisa:
+Antes de começarmos o código, você precisa de algumas coisas:
 
--  Aspose.Words para .NET: Você pode baixá-lo em[aqui](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Você pode baixá-lo em [aqui](https://releases.aspose.com/words/net/).
 - Ambiente de desenvolvimento: Visual Studio ou qualquer outro IDE C#.
 - Conhecimento básico de C#: compreensão da sintaxe e dos conceitos de C#.
 
-Certifique-se de ter tudo configurado antes de prosseguir.
+Certifique-se de configurá-los antes de prosseguir.
 
 ## Importar namespaces
 
-Primeiro, vamos importar os namespaces necessários. Esses namespaces nos permitirão acessar as classes e métodos necessários para trabalhar com documentos do Word.
+Primeiramente, vamos importar os namespaces necessários. Esses namespaces nos permitirão acessar as classes e métodos necessários para trabalhar com documentos do Word.
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Etapa 1: inicializar o documento e o DocumentBuilder
 
- Para começar, criaremos um novo documento do Word e inicializaremos o`DocumentBuilder` objeto, que nos ajudará a construir a tabela.
+Para começar, criaremos um novo documento do Word e inicializaremos o `DocumentBuilder` objeto, que nos ajudará a construir a tabela.
 
 ```csharp
 // Caminho para o diretório do seu documento
@@ -122,13 +124,13 @@ doc.Save(dataDir + "WorkingWithTables.NestedTable.docx");
 
 ## Conclusão
 
-E aí está! Você criou com sucesso uma tabela aninhada em um documento do Word usando o Aspose.Words para .NET. Esta biblioteca poderosa torna incrivelmente fácil manipular documentos do Word programaticamente. Não importa se você está gerando relatórios complexos ou tabelas simples, o Aspose.Words para .NET tem tudo o que você precisa.
+E pronto! Você criou com sucesso uma tabela aninhada em um documento do Word usando o Aspose.Words para .NET. Esta poderosa biblioteca facilita incrivelmente a manipulação programática de documentos do Word. Seja para gerar relatórios complexos ou tabelas simples, o Aspose.Words para .NET tem tudo o que você precisa.
 
 ## Perguntas frequentes
 
-### O que é uma tabela aninhada?
+### que é uma tabela aninhada?
 
-Uma tabela aninhada é uma tabela dentro de uma tabela. Ela é usada para criar layouts complexos dentro de documentos, como formulários ou apresentações de dados detalhadas.
+Uma tabela aninhada é uma tabela dentro de outra tabela. Ela é usada para criar layouts complexos em documentos, como formulários ou apresentações de dados detalhadas.
 
 ### Por que usar o Aspose.Words para .NET?
 
@@ -144,10 +146,15 @@ O Aspose.Words para .NET é compatível com uma ampla variedade de formatos de d
 
 ### Como posso obter suporte para o Aspose.Words para .NET?
 
- Você pode obter suporte do[Fórum de suporte Aspose.Words](https://forum.aspose.com/c/words/8).
+Você pode obter suporte do [Fórum de Suporte Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

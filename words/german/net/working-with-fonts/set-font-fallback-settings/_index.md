@@ -1,31 +1,33 @@
 ---
-title: Festlegen der Fallback-Einstellungen für Schriftarten
-linktitle: Festlegen der Fallback-Einstellungen für Schriftarten
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie Font-Fallback-Einstellungen in Aspose.Words für .NET einrichten. Diese umfassende Anleitung stellt sicher, dass alle Zeichen in Ihren Dokumenten korrekt angezeigt werden.
-weight: 10
-url: /de/net/working-with-fonts/set-font-fallback-settings/
+"description": "Erfahren Sie, wie Sie die Font-Fallback-Einstellungen in Aspose.Words für .NET einrichten. Diese umfassende Anleitung stellt sicher, dass alle Zeichen in Ihren Dokumenten korrekt angezeigt werden."
+"linktitle": "Festlegen der Fallback-Einstellungen für Schriftarten"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Festlegen der Fallback-Einstellungen für Schriftarten"
+"url": "/de/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Festlegen der Fallback-Einstellungen für Schriftarten
 
 ## Einführung
 
-Beim Arbeiten mit Dokumenten, die unterschiedliche Textelemente enthalten, wie z. B. verschiedene Sprachen oder Sonderzeichen, ist es wichtig, sicherzustellen, dass diese Elemente korrekt angezeigt werden. Aspose.Words für .NET bietet eine leistungsstarke Funktion namens „Font Fallback Settings“, die beim Definieren von Regeln zum Ersetzen von Schriftarten hilft, wenn die Originalschriftart bestimmte Zeichen nicht unterstützt. In diesem Handbuch erfahren Sie in einem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET „Font Fallback Settings“ einrichten.
+Bei der Arbeit mit Dokumenten, die unterschiedliche Textelemente enthalten, wie z. B. verschiedene Sprachen oder Sonderzeichen, ist die korrekte Darstellung dieser Elemente entscheidend. Aspose.Words für .NET bietet die leistungsstarke Funktion „Font Fallback Settings“, mit der Sie Regeln für den Ersatz von Schriftarten definieren können, wenn die Originalschrift bestimmte Zeichen nicht unterstützt. In dieser Anleitung erfahren Sie Schritt für Schritt, wie Sie „Font Fallback Settings“ mit Aspose.Words für .NET einrichten.
 
 ## Voraussetzungen
 
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Grundlegende Kenntnisse in C#: Vertrautheit mit der Programmiersprache C# und dem .NET-Framework.
--  Aspose.Words für .NET: Download und Installation von der[Downloadlink](https://releases.aspose.com/words/net/).
+- Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# und dem .NET-Framework.
+- Aspose.Words für .NET: Herunterladen und installieren von der [Download-Link](https://releases.aspose.com/words/net/).
 - Entwicklungsumgebung: Ein Setup wie Visual Studio zum Schreiben und Ausführen Ihres Codes.
--  Beispieldokument: Halten Sie ein Beispieldokument bereit (z. B.`Rendering.docx`) bereit zum Testen.
-- XML-Fallbackregeln für Schriftarten: Bereiten Sie eine XML-Datei vor, die die Fallbackregeln für Schriftarten definiert.
+- Beispieldokument: Halten Sie ein Beispieldokument bereit (z. B. `Rendering.docx`) bereit zum Testen.
+- XML-Fallback-Regeln für Schriftarten: Bereiten Sie eine XML-Datei vor, die die Fallback-Regeln für Schriftarten definiert.
 
 ## Namespaces importieren
 
@@ -39,7 +41,7 @@ using System;
 
 ## Schritt 1: Definieren Sie das Dokumentverzeichnis
 
-Definieren Sie zunächst das Verzeichnis, in dem Ihr Dokument gespeichert ist. Dies ist wichtig, damit Sie Ihr Dokument finden und verarbeiten können.
+Definieren Sie zunächst das Verzeichnis, in dem Ihr Dokument gespeichert ist. Dies ist wichtig, um Ihr Dokument finden und bearbeiten zu können.
 
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Schritt 2: Laden Sie das Dokument
 
- Laden Sie Ihr Dokument in ein Aspose.Words`Document` Objekt. Dieser Schritt ermöglicht Ihnen, programmgesteuert mit dem Dokument zu arbeiten.
+Laden Sie Ihr Dokument in ein Aspose.Words `Document` Objekt. Dieser Schritt ermöglicht Ihnen die programmgesteuerte Arbeit mit dem Dokument.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Schritt 3: Schriftarteinstellungen konfigurieren
 
- Erstellen Sie ein neues`FontSettings` Objekt und laden Sie die Schriftart-Fallback-Einstellungen aus einer XML-Datei. Diese XML-Datei enthält die Regeln für den Schriftart-Fallback.
+Erstellen Sie ein neues `FontSettings` Objekt und laden Sie die Schriftart-Fallback-Einstellungen aus einer XML-Datei. Diese XML-Datei enthält die Regeln für den Schriftart-Fallback.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## Schritt 4: Schrifteinstellungen auf das Dokument anwenden
 
- Weisen Sie die konfigurierten`FontSettings`zum Dokument. Dadurch wird sichergestellt, dass beim Rendern des Dokuments die Fallback-Regeln für Schriftarten angewendet werden.
+Weisen Sie die konfigurierten `FontSettings` zum Dokument. Dadurch wird sichergestellt, dass die Schriftart-Fallback-Regeln beim Rendern des Dokuments angewendet werden.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -73,15 +75,15 @@ doc.FontSettings = fontSettings;
 
 ## Schritt 5: Speichern Sie das Dokument
 
-Speichern Sie abschließend das Dokument. Die Fallback-Einstellungen für Schriftarten werden während des Speichervorgangs verwendet, um eine ordnungsgemäße Schriftartenersetzung sicherzustellen.
+Speichern Sie abschließend das Dokument. Die Schriftart-Fallback-Einstellungen werden beim Speichern verwendet, um eine korrekte Schriftartenersetzung zu gewährleisten.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetFontFallbackSettings.pdf");
 ```
 
-## XML-Datei: Fallback-Regeln für Schriftarten
+## XML-Datei: Font-Fallback-Regeln
 
-Hier ist ein Beispiel, wie Ihre XML-Datei mit den Fallback-Regeln für Schriftarten aussehen sollte:
+Hier ist ein Beispiel, wie Ihre XML-Datei, die die Schriftart-Fallback-Regeln definiert, aussehen sollte:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -99,32 +101,37 @@ Hier ist ein Beispiel, wie Ihre XML-Datei mit den Fallback-Regeln für Schriftar
 
 ## Abschluss
 
-Wenn Sie diese Schritte befolgen, können Sie die Font-Fallback-Einstellungen in Aspose.Words für .NET effektiv einrichten und verwenden. Dadurch wird sichergestellt, dass Ihre Dokumente alle Zeichen korrekt anzeigen, auch wenn die Originalschriftart bestimmte Zeichen nicht unterstützt. Durch die Implementierung dieser Einstellungen verbessern Sie die Qualität und Lesbarkeit Ihrer Dokumente erheblich.
+Mit diesen Schritten können Sie die Font-Fallback-Einstellungen in Aspose.Words für .NET effektiv einrichten und nutzen. Dadurch wird sichergestellt, dass Ihre Dokumente alle Zeichen korrekt darstellen, auch wenn die Originalschriftart bestimmte Zeichen nicht unterstützt. Die Implementierung dieser Einstellungen verbessert die Qualität und Lesbarkeit Ihrer Dokumente erheblich.
 
 ## Häufig gestellte Fragen
 
 ### F1: Was ist Font Fallback?
 
-Font Fallback ist eine Funktion, die den Ersatz von Schriftarten ermöglicht, wenn die Originalschriftart bestimmte Zeichen nicht unterstützt. So wird die korrekte Anzeige aller Textelemente sichergestellt.
+Font Fallback ist eine Funktion, die das Ersetzen von Schriftarten ermöglicht, wenn die Originalschriftart bestimmte Zeichen nicht unterstützt, und so die korrekte Anzeige aller Textelemente gewährleistet.
 
 ### F2: Kann ich mehrere Ersatzschriftarten angeben?
 
-Ja, Sie können in den XML-Regeln mehrere Ersatzschriftarten angeben. Aspose.Words überprüft jede Schriftart in der angegebenen Reihenfolge, bis es eine findet, die das Zeichen unterstützt.
+Ja, Sie können in den XML-Regeln mehrere Ersatzschriften angeben. Aspose.Words prüft jede Schrift in der angegebenen Reihenfolge, bis eine gefunden wird, die das Zeichen unterstützt.
 
 ### F3: Wo kann ich Aspose.Words für .NET herunterladen?
 
- Sie können es herunterladen von der[Aspose-Downloadseite](https://releases.aspose.com/words/net/).
+Sie können es herunterladen von der [Aspose-Downloadseite](https://releases.aspose.com/words/net/).
 
-### F4: Wie erstelle ich die XML-Datei für Schriftart-Fallbackregeln?
+### F4: Wie erstelle ich die XML-Datei für Schriftart-Fallback-Regeln?
 
-Die XML-Datei kann mit jedem Texteditor erstellt werden. Sie sollte der Struktur des Beispiels in diesem Tutorial entsprechen.
+Die XML-Datei kann mit einem beliebigen Texteditor erstellt werden. Sie sollte der im Beispiel dieses Tutorials gezeigten Struktur entsprechen.
 
 ### F5: Gibt es Support für Aspose.Words?
 
- Ja, Sie finden Unterstützung auf der[Aspose.Words Support-Forum](https://forum.aspose.com/c/words/8).
+Ja, Sie finden Unterstützung auf der [Aspose.Words Support-Forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

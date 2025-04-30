@@ -1,54 +1,62 @@
 ---
-title: Ustaw znak nacisku w dokumencie Word za pomocą Aspose.Words dla .NET 
-weight: 7700
-limit: 
-description: Dowiedz się, jak ustawić znak nacisku w dokumentach Word za pomocą Aspose.Words dla .NET.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /pl/net/font-styling/set-font-emphasis-mark/
+"description": "Dowiedz się, jak ustawić znak podkreślenia w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik krok po kroku zawiera instrukcje instalacji i przykładowy kod."
+"title": "Ustaw znak podkreślenia w dokumencie Word za pomocą Aspose.Words dla .NET"
+"url": "/pl/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw znak nacisku w dokumencie Word za pomocą Aspose.Words
+# Ustaw znak podkreślenia w dokumencie Word za pomocą Aspose.Words
 
-Ustawienie znaku akcentu w dokumentach Word jest doskonałym sposobem na podkreślenie konkretnego tekstu, zapewniając, że wyróżnia się w treści.`DokumentBuilder`klasę do manipulowania dokumentami Word, formatowania tekstu z znakami akcentu i zapisywania wyniku w formie DOCX.
+Ustawianie znaku podkreślenia w dokumentach Worda to doskonały sposób na wyróżnienie określonego tekstu, zapewniając, że wyróżnia się on w treści. Dzięki Aspose.Words dla .NET możesz bez wysiłku stosować znaki podkreślenia, takie jak kółko pod pełnym tekstem, używając kilku linijek kodu. Ten przykład pokazuje, jak używać `DocumentBuilder` klasa do manipulowania dokumentami Word, formatowania tekstu ze znakami podkreślenia i zapisywania wyników w formacie DOCX. Postępuj zgodnie z tym przewodnikiem, aby usprawnić zadania formatowania dokumentów z profesjonalną precyzją.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
-Aby uruchomić dostarczony przykład kodu i użyć Aspose.Words dla .NET, wykonaj następujące kroki:  
+Aby uruchomić podany przykład kodu i użyć Aspose.Words dla .NET, wykonaj następujące kroki:  
 
-1. Pobierz Aspose.Words na .NET:  
-   * Weź bibliotekę z [Wyrzucanie](https://releases.aspose.com/words/net/)Strona.  
+1. Pobierz Aspose.Words dla .NET:  
+   - Pobierz bibliotekę z [Wydania Aspose](https://releases.aspose.com/words/net/) strona.  
 
-2. Zainstalowanie biblioteki:  
-   * Zainstalować go za pośrednictwem Menedżera pakietu NuGet w Visual Studio:  
-     * Otwórz Visual Studio.  
-     * Przejdź do Narzędzi > Menedżer pakietu NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
-     * Szukaj `"Aspose.Word"`i kliknij zainstalowanie.  
+2. Zainstaluj bibliotekę:  
+   - Zainstaluj go za pomocą Menedżera pakietów NuGet w programie Visual Studio:  
+     - Otwórz program Visual Studio.  
+     - Przejdź do Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania.  
+     - Szukaj `Aspose.Words` i kliknij Zainstaluj.  
 
-   * W alternatywnej formie użyj konsoli do zarządzania pakietami NuGet:  
+   - Alternatywnie możesz użyć konsoli Menedżera pakietów NuGet:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Ustaw licencję tymczasową (opcjonalną):  
-   * Do nieograniczonego użytkowania, uzyskać [bezpłatna licencja tymczasowa](https://purchase.aspose.com/temporary-license/)\- Nie .  
-   * Wniosek o licencję w projekcie:  
+3. Skonfiguruj tymczasową licencję (opcjonalnie):  
+   - Aby uzyskać nieograniczone użytkowanie, należy uzyskać [bezpłatna licencja tymczasowa](https://purchase.aspose.com/temporary-license/).  
+   - Zastosuj licencję w swoim projekcie:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

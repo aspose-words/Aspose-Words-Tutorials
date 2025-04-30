@@ -1,14 +1,16 @@
 ---
-title: संसाधन निर्यात करें
-linktitle: संसाधन निर्यात करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML के रूप में सहेजते समय CSS और फ़ॉन्ट जैसे संसाधनों को निर्यात करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/export-resources/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML के रूप में सहेजते समय CSS और फ़ॉन्ट जैसे संसाधनों को निर्यात करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "संसाधन निर्यात करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "संसाधन निर्यात करें"
+"url": "/hi/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # संसाधन निर्यात करें
@@ -21,8 +23,8 @@ url: /hi/net/programming-with-htmlsaveoptions/export-resources/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीज़ें हैं। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
-1.  विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[विज़ुअल स्टूडियो वेबसाइट](https://visualstudio.microsoft.com/).
-2.  Aspose.Words for .NET: आपको Aspose.Words for .NET लाइब्रेरी की आवश्यकता होगी। यदि आपके पास अभी तक यह नहीं है, तो यहाँ से निःशुल्क परीक्षण प्राप्त करें[एस्पोज रिलीज](https://releases.aspose.com/words/net/) या इसे यहाँ से खरीदें[एस्पोज स्टोर](https://purchase.aspose.com/buy).
+1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [विज़ुअल स्टूडियो वेबसाइट](https://visualstudio.microsoft.com/).
+2. Aspose.Words for .NET: आपको Aspose.Words for .NET लाइब्रेरी की आवश्यकता होगी। यदि आपके पास अभी तक यह नहीं है, तो यहाँ से निःशुल्क परीक्षण प्राप्त करें [एस्पोज रिलीज](https://releases.aspose.com/words/net/) या इसे यहाँ से खरीदें [एस्पोज स्टोर](https://purchase.aspose.com/buy).
 3. C# का मूलभूत ज्ञान: C# की मूलभूत समझ आपको कोड उदाहरणों के साथ आगे बढ़ने में मदद करेगी।
 
 क्या आपको सब समझ आ गया? बढ़िया! चलिए अब आवश्यक नेमस्पेस को आयात करने की ओर बढ़ते हैं।
@@ -49,11 +51,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
- अब, चलिए उस Word दस्तावेज़ को लोड करते हैं जिसे आप HTML में बदलना चाहते हैं। इस ट्यूटोरियल के लिए, हम नाम के एक दस्तावेज़ का उपयोग करेंगे`Rendering.docx`.
+इसके बाद, चलिए उस Word दस्तावेज़ को लोड करते हैं जिसे आप HTML में बदलना चाहते हैं। इस ट्यूटोरियल के लिए, हम नाम के एक दस्तावेज़ का उपयोग करेंगे `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## चरण 3: HTML सहेजें विकल्प कॉन्फ़िगर करें
 
-CSS और फ़ॉन्ट जैसे संसाधनों को निर्यात करने के लिए, आपको कॉन्फ़िगर करने की आवश्यकता है`HtmlSaveOptions`यह कदम यह सुनिश्चित करने के लिए महत्वपूर्ण है कि आपका HTML आउटपुट अच्छी तरह से संरचित है और इसमें आवश्यक संसाधन शामिल हैं।
+CSS और फ़ॉन्ट जैसे संसाधनों को निर्यात करने के लिए, आपको कॉन्फ़िगर करने की आवश्यकता है `HtmlSaveOptions`यह कदम यह सुनिश्चित करने के लिए महत्वपूर्ण है कि आपका HTML आउटपुट अच्छी तरह से संरचित है और इसमें आवश्यक संसाधन शामिल हैं।
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -83,7 +85,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 
 ## चरण 4: दस्तावेज़ को HTML के रूप में सहेजें
 
-सेव ऑप्शन कॉन्फ़िगर करने के बाद, अंतिम चरण दस्तावेज़ को HTML फ़ाइल के रूप में सेव करना है। आप इसे इस प्रकार कर सकते हैं:
+सेव ऑप्शन कॉन्फ़िगर होने के बाद, अंतिम चरण दस्तावेज़ को HTML फ़ाइल के रूप में सेव करना है। आप इसे इस प्रकार कर सकते हैं:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOptions);
@@ -98,22 +100,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOption
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं फ़ॉन्ट और CSS के साथ छवियों को निर्यात कर सकता हूँ?
- हाँ, आप कर सकते हैं! Aspose.Words for .NET छवियों को निर्यात करने का भी समर्थन करता है। बस कॉन्फ़िगर करना सुनिश्चित करें`HtmlSaveOptions` इसलिए।
+हाँ, आप कर सकते हैं! Aspose.Words for .NET छवियों को निर्यात करने का भी समर्थन करता है। बस कॉन्फ़िगर करना सुनिश्चित करें `HtmlSaveOptions` इसलिए।
 
 ### क्या बाहरी स्टाइलशीट का उपयोग करने के बजाय CSS एम्बेड करने का कोई तरीका है?
- बिल्कुल। आप सेट कर सकते हैं`CssStyleSheetType` को`CssStyleSheetType.Embedded` यदि आप एम्बेडेड शैलियों को पसंद करते हैं।
+बिल्कुल। आप सेट कर सकते हैं `CssStyleSheetType` को `CssStyleSheetType.Embedded` यदि आप एम्बेडेड शैलियों को पसंद करते हैं।
 
 ### मैं आउटपुट HTML फ़ाइल का नाम कैसे अनुकूलित कर सकता हूँ?
- आप अपनी पसंद का कोई भी फ़ाइल नाम निर्दिष्ट कर सकते हैं`doc.Save` विधि। उदाहरण के लिए,`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+आप अपनी पसंद का कोई भी फ़ाइल नाम निर्दिष्ट कर सकते हैं `doc.Save` विधि। उदाहरण के लिए, `doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
 
 ### क्या Aspose.Words HTML के अलावा अन्य प्रारूपों का समर्थन करता है?
- हां, यह PDF, DOCX, TXT, और अन्य सहित विभिन्न प्रारूपों का समर्थन करता है।[प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए यहां क्लिक करें.
+हां, यह PDF, DOCX, TXT, और अन्य सहित विभिन्न प्रारूपों का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए यहां क्लिक करें.
 
 ### मुझे अधिक सहायता एवं संसाधन कहां मिल सकते हैं?
-अधिक सहायता के लिए, यहां जाएं[Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8) . आप विस्तृत दस्तावेज़ और उदाहरण भी यहाँ पा सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/words/net/).
+अधिक सहायता के लिए, यहां जाएं [Aspose.Words समर्थन फ़ोरम](https://forum.aspose.com/c/words/8). आप विस्तृत दस्तावेज़ और उदाहरण भी यहाँ पा सकते हैं [Aspose वेबसाइट](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

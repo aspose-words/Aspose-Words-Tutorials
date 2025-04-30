@@ -1,26 +1,28 @@
 ---
-title: Geavanceerde HTML-documenten opslaan opties met Aspose.Words Java
-linktitle: HTML-documenten opslaan met
-second_title: Aspose.Words Java Documentverwerkings-API
-description: In deze tutorial hebben we verschillende geavanceerde HTML-documentopslagopties behandeld met Aspose.Words voor Java. Deze opties stellen u in staat om HTML van hoge kwaliteit te maken
-weight: 16
-url: /nl/java/document-loading-and-saving/advance-html-documents-saving-options/
+"description": "In deze tutorial hebben we verschillende geavanceerde opties voor het opslaan van HTML-documenten met Aspose.Words voor Java behandeld. Deze opties stellen je in staat om hoogwaardige HTML te creëren."
+"linktitle": "HTML-documenten opslaan met"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Geavanceerde opties voor het opslaan van HTML-documenten met Aspose.Words Java"
+"url": "/nl/java/document-loading-and-saving/advance-html-documents-saving-options/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geavanceerde HTML-documenten opslaan opties met Aspose.Words Java
+# Geavanceerde opties voor het opslaan van HTML-documenten met Aspose.Words Java
 
 
-In deze tutorial verkennen we de geavanceerde HTML-documentopslagopties die Aspose.Words voor Java biedt. Aspose.Words is een krachtige Java API voor het werken met Word-documenten en biedt een breed scala aan functies voor documentmanipulatie en -conversie.
+In deze tutorial verkennen we de geavanceerde opties voor het opslaan van HTML-documenten die Aspose.Words voor Java biedt. Aspose.Words is een krachtige Java API voor het werken met Word-documenten en biedt een breed scala aan functies voor documentbewerking en -conversie.
 
 ## 1. Inleiding
-Met Aspose.Words voor Java kunt u programmatisch met Word-documenten werken. In deze tutorial richten we ons op geavanceerde opties voor het opslaan van HTML-documenten, waarmee u kunt bepalen hoe Word-documenten worden omgezet naar HTML.
+Met Aspose.Words voor Java kunt u programmatisch met Word-documenten werken. In deze tutorial richten we ons op geavanceerde opties voor het opslaan van HTML-documenten, waarmee u zelf kunt bepalen hoe Word-documenten naar HTML worden geconverteerd.
 
-## 2. Exporteer retourinformatie
- De`exportRoundtripInformation` methode kunt u Word-documenten exporteren naar HTML terwijl roundtrip-informatie behouden blijft. Deze informatie kan handig zijn wanneer u HTML terug wilt converteren naar Word-formaat zonder dat u documentspecifieke details verliest.
+## 2. Retourinformatie exporteren
+De `exportRoundtripInformation` Met deze methode kunt u Word-documenten exporteren naar HTML met behoud van retourinformatie. Deze informatie kan nuttig zijn wanneer u HTML-bestanden terug wilt converteren naar Word-formaat zonder documentspecifieke details te verliezen.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -32,7 +34,7 @@ public void exportRoundtripInformation() throws Exception {
 ```
 
 ## 3. Lettertypen exporteren als Base64
- Met de`exportFontsAsBase64` methode, kunt u lettertypen die in het document worden gebruikt exporteren als Base64-gecodeerde gegevens in de HTML. Dit zorgt ervoor dat de HTML-weergave dezelfde lettertypestijlen behoudt als het originele Word-document.
+Met de `exportFontsAsBase64` Met deze methode kunt u de in het document gebruikte lettertypen exporteren als Base64-gecodeerde gegevens in de HTML. Dit zorgt ervoor dat de HTML-weergave dezelfde lettertypen behoudt als het originele Word-document.
 
 ```java
 
@@ -44,8 +46,8 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
-## 4. Hulpbronnen exporteren
- De`exportResources` Met de methode kunt u het type CSS-stijlblad opgeven en lettertypebronnen exporteren. U kunt ook een bronmap en een alias voor bronnen in de HTML instellen.
+## 4. Bronnen exporteren
+De `exportResources` Met deze methode kunt u het type CSS-stijlblad specificeren en lettertypebronnen exporteren. U kunt ook een bronnenmap en een alias voor bronnen in de HTML instellen.
 
 ```java
 
@@ -61,7 +63,7 @@ public void exportResources() throws Exception {
 ```
 
 ## 5. Metafiles converteren naar EMF of WMF
- De`convertMetafilesToEmfOrWmf`Met deze methode kunt u metabestanden in het document converteren naar EMF- of WMF-indeling, waardoor compatibiliteit en soepele weergave in HTML worden gegarandeerd.
+De `convertMetafilesToEmfOrWmf` Met deze methode kunt u metabestanden in het document converteren naar EMF- of WMF-indeling. Hierdoor wordt compatibiliteit en soepele weergave in HTML gegarandeerd.
 
 ```java
 
@@ -81,8 +83,8 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. Metafiles naar SVG converteren
- Gebruik de`convertMetafilesToSvg` methode om metafiles naar SVG-formaat te converteren. Dit formaat is ideaal voor het weergeven van vectorafbeeldingen in HTML-documenten.
+## 6. Metabestanden naar SVG converteren
+Gebruik de `convertMetafilesToSvg` Methode om metabestanden naar SVG-formaat te converteren. Dit formaat is ideaal voor het weergeven van vectorafbeeldingen in HTML-documenten.
 
 ```java
 
@@ -101,8 +103,8 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
-## 7. Voeg CSS-klassenaamvoorvoegsel toe
- Met de`addCssClassNamePrefix` methode, kunt u een voorvoegsel toevoegen aan CSS-klassenamen in de geëxporteerde HTML. Dit helpt conflicten met bestaande stijlen te voorkomen.
+## 7. Voeg een CSS-klassenaamvoorvoegsel toe
+Met de `addCssClassNamePrefix` Met deze methode kunt u een voorvoegsel toevoegen aan CSS-klassenamen in de geëxporteerde HTML. Dit helpt conflicten met bestaande stijlen te voorkomen.
 
 ```java
 
@@ -115,8 +117,8 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. Exporteer CID-URL's voor MHTML-bronnen
- De`exportCidUrlsForMhtmlResources` methode wordt gebruikt bij het opslaan van documenten in MHTML-formaat. Hiermee kunnen Content-ID URL's voor bronnen worden geëxporteerd.
+## 8. CID-URL's exporteren voor MHTML-bronnen
+De `exportCidUrlsForMhtmlResources` Deze methode wordt gebruikt bij het opslaan van documenten in MHTML-formaat. Hiermee kunnen Content-ID URL's voor bronnen worden geëxporteerd.
 
 ```java
 
@@ -134,7 +136,7 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 ```
 
 ## 9. Lettertypenamen oplossen
- De`resolveFontNames` Met deze methode kunt u lettertypenamen omzetten bij het opslaan van documenten in HTML-formaat, waardoor een consistente weergave op verschillende platforms wordt gegarandeerd.
+De `resolveFontNames` Met deze methode kunt u lettertypenamen omzetten bij het opslaan van documenten in HTML-formaat. Zo wordt een consistente weergave op verschillende platforms gegarandeerd.
 
 ```java
 
@@ -152,8 +154,8 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. Exporteer tekstinvoerformulierveld als tekst
- De`exportTextInputFormFieldAsText`Met deze methode worden formuliervelden geëxporteerd als platte tekst in de HTML-code, waardoor ze gemakkelijk leesbaar en bewerkbaar zijn.
+## 10. Tekstinvoerformulierveld exporteren als tekst
+De `exportTextInputFormFieldAsText` Met deze methode worden formuliervelden geëxporteerd als platte tekst in de HTML-code, waardoor ze gemakkelijk leesbaar en bewerkbaar worden.
 
 ```java
 
@@ -181,26 +183,31 @@ public void exportTextInputFormFieldAsText() throws Exception {
 ```
 
 ## Conclusie
-In deze tutorial hebben we de geavanceerde HTML-documentopslagopties van Aspose.Words voor Java onderzocht. Deze opties geven u nauwkeurige controle over het conversieproces, zodat u HTML-documenten kunt maken die sterk lijken op de originele Word-documenten.
+In deze tutorial hebben we de geavanceerde opties voor het opslaan van HTML-documenten in Aspose.Words voor Java onderzocht. Deze opties geven je nauwkeurige controle over het conversieproces, waardoor je HTML-documenten kunt maken die sterk lijken op de originele Word-documenten.
 
 ## Veelgestelde vragen
-Hier volgen enkele veelgestelde vragen over het werken met Aspose.Words voor Java- en HTML-documentopslagopties:
+Hieronder vindt u enkele veelgestelde vragen over het werken met Aspose.Words voor opties voor het opslaan van Java- en HTML-documenten:
 
 ### V1: Hoe kan ik HTML terug converteren naar Word-formaat met Aspose.Words voor Java?
- Om HTML terug te converteren naar Word-formaat, kunt u de Aspose.Words API's gebruiken`load` Methode om het HTML-document te laden en vervolgens op te slaan in Word-formaat.
+Om HTML terug te converteren naar Word-formaat, kunt u de Aspose.Words API's gebruiken `load` Methode om het HTML-document te laden en vervolgens op te slaan in Word-formaat.
 
 ### V2: Kan ik de CSS-stijlen aanpassen bij het exporteren naar HTML?
-Ja, u kunt CSS-stijlen aanpassen door de stylesheets die in de HTML worden gebruikt te wijzigen of door de`addCssClassNamePrefix` Methode om een voorvoegsel toe te voegen aan CSS-klassenamen.
+Ja, u kunt CSS-stijlen aanpassen door de stijlbladen die in de HTML worden gebruikt te wijzigen of door de `addCssClassNamePrefix` Methode om een voorvoegsel toe te voegen aan CSS-klassenamen.
 
 ### V3: Is er een manier om de HTML-uitvoer te optimaliseren voor weergave op internet?
-Ja, u kunt de HTML-uitvoer optimaliseren voor weergave op het web door opties te configureren zoals het exporteren van lettertypen als Base64 en het converteren van metabestanden naar SVG.
+Ja, u kunt de HTML-uitvoer voor weergave op internet optimaliseren door opties te configureren zoals het exporteren van lettertypen als Base64 en het converteren van metabestanden naar SVG.
 
 ### V4: Zijn er beperkingen bij het converteren van complexe Word-documenten naar HTML?
-Hoewel Aspose.Words voor Java krachtige conversiemogelijkheden biedt, hebben complexe Word-documenten met een ingewikkelde lay-out mogelijk extra nabewerking nodig om de gewenste HTML-uitvoer te verkrijgen.
+Hoewel Aspose.Words voor Java krachtige conversiemogelijkheden biedt, hebben complexe Word-documenten met een ingewikkelde lay-out mogelijk extra nabewerking nodig om het gewenste HTML-resultaat te bereiken.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

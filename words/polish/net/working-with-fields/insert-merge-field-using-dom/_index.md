@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole scalania za pomocą DOM
-linktitle: Wstaw pole scalania za pomocą DOM
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać i konfigurować pola scalania w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Dowiedz się, jak wstawiać i konfigurować pola scalania w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Wstaw pole scalania za pomocą DOM"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole scalania za pomocą DOM"
+"url": "/pl/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole scalania za pomocą DOM
@@ -23,8 +25,8 @@ Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujes
 
 1. Podstawowa znajomość języka C#: Powinieneś swobodnie posługiwać się programowaniem w języku C#.
 2. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze zainstalowany jest program Visual Studio lub inne środowisko IDE języka C#.
-3.  Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Words dla .NET ze strony[Wydania](https://releases.aspose.com/words/net/).
-4.  Ważna licencja: Jeśli nie masz licencji, możesz ją uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+3. Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Words dla .NET ze strony [Wydania](https://releases.aspose.com/words/net/).
+4. Ważna licencja: Jeśli nie masz licencji, możesz ją uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ## Krok 1: Skonfiguruj swój projekt
 
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## Krok 6: Wstaw pole scalania
 
- Wstawianie pola scalania jest proste. Użyjemy`InsertField` metoda`DocumentBuilder` klasa.
+Wstawianie pola scalania jest proste. Użyjemy `InsertField` metoda `DocumentBuilder` klasa.
 
 ```csharp
 // Wstaw pole scalania.
@@ -117,19 +119,24 @@ Wykonując te kroki, możesz łatwo wstawiać i konfigurować pola scalania w do
 Pole scalania to symbol zastępczy w dokumencie, który można dynamicznie zastąpić danymi ze źródła danych, takiego jak baza danych lub plik CSV.
 
 ###  Czy mogę używać Aspose.Words za darmo?
- Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/). Do długoterminowego użytkowania należy zakupić licencję.
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/). Do długoterminowego użytkowania należy zakupić licencję.
 
 ###  Jak uzyskać tymczasową licencję na Aspose.Words?
- Licencję tymczasową można uzyskać na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
+Licencję tymczasową można uzyskać na stronie internetowej Aspose [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie wersje .NET są obsługiwane przez Aspose.Words?
 Aspose.Words obsługuje wiele wersji platformy .NET, w tym .NET Framework, .NET Core i .NET Standard.
 
 ###  Gdzie mogę znaleźć dokumentację API dla Aspose.Words?
- Dokumentacja API jest dostępna[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentacja API jest dostępna [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

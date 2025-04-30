@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Properti Dokumen di Aspose.Words untuk Java
-linktitle: Menggunakan Properti Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
-weight: 32
-url: /id/java/document-manipulation/using-document-properties/
+"description": "Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini."
+"linktitle": "Menggunakan Properti Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Properti Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Properti Dokumen di Aspose.Words untuk Java
@@ -101,7 +103,7 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-Potongan kode ini memperagakan cara membuat penanda dalam dokumen Anda dan menambahkan properti dokumen kustom yang tertaut ke penanda tersebut.
+Cuplikan kode ini memperagakan cara membuat penanda dalam dokumen Anda dan menambahkan properti dokumen kustom yang tertaut ke penanda tersebut.
 
 ## Konversi Antar Satuan Pengukuran
 
@@ -152,26 +154,31 @@ Properti dokumen memainkan peran penting dalam mengelola dan mengatur dokumen An
 
 ### Bagaimana cara mengakses properti dokumen bawaan?
 
- Untuk mengakses properti dokumen bawaan di Aspose.Words untuk Java, Anda dapat menggunakan`getBuiltInDocumentProperties` metode pada`Document` objek. Metode ini mengembalikan kumpulan properti bawaan yang dapat Anda gunakan berulang-ulang.
+Untuk mengakses properti dokumen bawaan di Aspose.Words untuk Java, Anda dapat menggunakan `getBuiltInDocumentProperties` metode pada `Document` objek. Metode ini mengembalikan kumpulan properti bawaan yang dapat Anda gunakan berulang-ulang.
 
 ### Bisakah saya menambahkan properti dokumen khusus ke suatu dokumen?
 
- Ya, Anda dapat menambahkan properti dokumen kustom ke dokumen menggunakan`CustomDocumentProperties` koleksi. Anda dapat menentukan properti kustom dengan berbagai tipe data, termasuk string, boolean, tanggal, dan nilai numerik.
+Ya, Anda dapat menambahkan properti dokumen kustom ke dokumen menggunakan `CustomDocumentProperties` koleksi. Anda dapat menentukan properti kustom dengan berbagai tipe data, termasuk string, boolean, tanggal, dan nilai numerik.
 
 ### Bagaimana cara menghapus properti dokumen kustom tertentu?
 
- Untuk menghapus properti dokumen kustom tertentu, Anda dapat menggunakan`remove` metode pada`CustomDocumentProperties`koleksi, meneruskan nama properti yang ingin Anda hapus sebagai parameter.
+Untuk menghapus properti dokumen kustom tertentu, Anda dapat menggunakan `remove` metode pada `CustomDocumentProperties` koleksi, meneruskan nama properti yang ingin Anda hapus sebagai parameter.
 
 ### Apa tujuan menautkan ke konten dalam dokumen?
 
-Dengan menautkan ke konten dalam dokumen, Anda dapat membuat referensi dinamis ke bagian tertentu dari dokumen. Ini dapat berguna untuk membuat dokumen interaktif atau referensi silang antarbagian.
+Dengan menautkan konten dalam dokumen, Anda dapat membuat referensi dinamis ke bagian tertentu dari dokumen. Ini dapat berguna untuk membuat dokumen interaktif atau referensi silang antarbagian.
 
 ### Bagaimana cara mengkonversi antar satuan pengukuran yang berbeda di Aspose.Words untuk Java?
 
- Anda dapat mengonversi antara unit pengukuran yang berbeda di Aspose.Words untuk Java dengan menggunakan`ConvertUtil` kelas. Menyediakan metode untuk mengonversi satuan seperti inci ke poin, poin ke sentimeter, dan banyak lagi.
+Anda dapat mengonversi antara unit pengukuran yang berbeda di Aspose.Words untuk Java dengan menggunakan `ConvertUtil` kelas. Menyediakan metode untuk mengonversi satuan seperti inci ke poin, poin ke sentimeter, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

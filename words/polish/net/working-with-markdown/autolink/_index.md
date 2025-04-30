@@ -1,14 +1,16 @@
 ---
-title: Automatyczne łączenie
-linktitle: Automatyczne łączenie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać i dostosowywać hiperłącza w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi. Ulepszaj swoje dokumenty bez wysiłku.
-weight: 10
-url: /pl/net/working-with-markdown/autolink/
+"description": "Dowiedz się, jak wstawiać i dostosowywać hiperłącza w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi. Ulepszaj swoje dokumenty bez wysiłku."
+"linktitle": "Automatyczne łączenie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Automatyczne łączenie"
+"url": "/pl/net/working-with-markdown/autolink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyczne łączenie
@@ -21,7 +23,7 @@ Tworzenie dopracowanego, profesjonalnego dokumentu często wymaga umiejętności
 
 Zanim przejdziemy do dalszych kroków, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj najnowszą wersję z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: IDE, np. Visual Studio.
 - .NET Framework: Upewnij się, że masz zainstalowaną odpowiednią wersję.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Krok 3: Wstaw hiperłącze do witryny internetowej
 
- Aby wstawić hiperłącze do witryny internetowej, użyj`InsertHyperlink` Metoda. Musisz podać tekst wyświetlany, adres URL i wartość logiczną wskazującą, czy link powinien być wyświetlany jako hiperłącze.
+Aby wstawić hiperłącze do witryny internetowej, użyj `InsertHyperlink` Metoda. Musisz podać tekst wyświetlany, adres URL i wartość logiczną wskazującą, czy link powinien być wyświetlany jako hiperłącze.
 
 ```csharp
 // Wstaw hiperłącze do strony internetowej.
@@ -60,18 +62,18 @@ Spowoduje to wstawienie klikalnego linku z tekstem „Strona internetowa Aspose�
 
 ## Krok 4: Wstaw hiperłącze do adresu e-mail
 
- Wstawienie linku do adresu e-mail jest równie proste. Użyj tego samego`InsertHyperlink` ale z prefiksem „mailto:” w adresie URL.
+Wstawienie linku do adresu e-mail jest równie proste. Użyj tego samego `InsertHyperlink` ale z prefiksem „mailto:” w adresie URL.
 
 ```csharp
 // Wstaw hiperłącze do adresu e-mail.
 builder.InsertHyperlink("Contact Support", "mailto:support@aspose.com", false);
 ```
 
- Teraz po kliknięciu „Skontaktuj się z pomocą techniczną” zostanie otwarty domyślny klient poczty e-mail z nowym adresem e-mail`support@aspose.com`.
+Teraz po kliknięciu „Skontaktuj się z pomocą techniczną” zostanie otwarty domyślny klient poczty e-mail z nowym adresem e-mail `support@aspose.com`.
 
 ## Krok 5: Dostosuj wygląd hiperłącza
 
-Hiperłącza można dostosować do stylu dokumentu. Możesz zmienić kolor czcionki, rozmiar i inne atrybuty za pomocą`Font` Własność DocumentBuilder.
+Hiperłącza można dostosować do stylu dokumentu. Możesz zmienić kolor czcionki, rozmiar i inne atrybuty za pomocą `Font` Własność DocumentBuilder.
 
 ```csharp
 builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
@@ -90,19 +92,24 @@ Wstawianie i dostosowywanie hiperłączy w dokumentach Word za pomocą Aspose.Wo
 Tak, możesz wstawiać hiperłącza do innych dokumentów, podając ścieżkę do pliku w postaci adresu URL.
 
 ### Jak usunąć hiperłącze?
- Możesz usunąć hiperłącze, używając`Remove` metoda na węźle hiperłącza.
+Możesz usunąć hiperłącze, używając `Remove` metoda na węźle hiperłącza.
 
 ### Czy mogę dodać podpowiedzi do hiperłączy?
- Tak, możesz dodać podpowiedzi, ustawiając`ScreenTip`Własność hiperłącza.
+Tak, możesz dodać podpowiedzi, ustawiając `ScreenTip` Własność hiperłącza.
 
 ### Czy istnieje możliwość zmiany stylu hiperłączy w całym dokumencie?
- Tak, możesz stylizować hiperłącza inaczej, ustawiając`Font` właściwości przed wstawieniem każdego hiperłącza.
+Tak, możesz stylizować hiperłącza inaczej, ustawiając `Font` właściwości przed wstawieniem każdego hiperłącza.
 
 ### Jak mogę zaktualizować lub zmienić istniejący hiperłącze?
 Istniejący hiperłącze można zaktualizować, uzyskując do niego dostęp za pośrednictwem węzłów dokumentu i modyfikując jego właściwości.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word
-linktitle: เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python แทนที่ข้อความ ใช้ regex การจัดรูปแบบ และอื่นๆ อีกมากมาย
-weight: 12
-url: /th/python-net/content-extraction-and-manipulation/find-replace-documents/
+"description": "เรียนรู้เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python แทนที่ข้อความ ใช้ regex การจัดรูปแบบ และอื่นๆ อีกมากมาย"
+"linktitle": "เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word"
+"url": "/th/python-net/content-extraction-and-manipulation/find-replace-documents/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word
@@ -22,9 +24,9 @@ url: /th/python-net/content-extraction-and-manipulation/find-replace-documents/
 
 ก่อนที่จะเจาะลึกเทคนิคขั้นสูง โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  การติดตั้ง Python: ตรวจสอบให้แน่ใจว่าได้ติดตั้ง Python ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://www.python.org/downloads/).
+1. การติดตั้ง Python: ตรวจสอบให้แน่ใจว่าได้ติดตั้ง Python ไว้ในระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www-python.org/downloads/).
 
-2.  Aspose.Words สำหรับ Python: คุณต้องติดตั้ง Aspose.Words สำหรับ Python คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/python/).
+2. Aspose.Words สำหรับ Python: คุณต้องติดตั้ง Aspose.Words สำหรับ Python คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/python/).
 
 3. การเตรียมเอกสาร: เตรียมเอกสาร Word ที่คุณต้องการดำเนินการค้นหาและแทนที่ไว้
 
@@ -108,11 +110,11 @@ doc.save("path/to/save/document.docx")
 
 ### ฉันจะค้นหาและแทนที่โดยไม่คำนึงถึงตัวพิมพ์ใหญ่-เล็กได้อย่างไร
 
- หากต้องการค้นหาและแทนที่โดยไม่คำนึงถึงตัวพิมพ์ใหญ่-เล็ก ให้ตั้งค่าพารามิเตอร์ที่สามของ`replace` วิธีการที่จะ`True`.
+หากต้องการค้นหาและแทนที่โดยไม่คำนึงถึงตัวพิมพ์ใหญ่-เล็ก ให้ตั้งค่าพารามิเตอร์ที่สามของ `replace` วิธีการที่จะ `True`-
 
 ### ฉันสามารถแทนที่ข้อความได้เฉพาะช่วงหน้าที่เจาะจงเท่านั้นหรือไม่
 
- ใช่ คุณสามารถทำได้ ก่อนดำเนินการแทนที่ ให้ระบุช่วงหน้าโดยใช้`doc.get_child_nodes()` วิธีการรับเนื้อหาของหน้าเฉพาะ
+ใช่ คุณสามารถทำได้ ก่อนดำเนินการแทนที่ ให้ระบุช่วงหน้าโดยใช้ `doc.get_child_nodes()` วิธีการรับเนื้อหาของหน้าเฉพาะ
 
 ### สามารถเลิกทำการค้นหาและแทนที่ได้หรือไม่
 
@@ -124,10 +126,15 @@ doc.save("path/to/save/document.docx")
 
 ### ฉันสามารถแทนที่ข้อความในขณะที่ติดตามการเปลี่ยนแปลงที่เกิดขึ้นได้หรือไม่
 
- ใช่ คุณสามารถติดตามการเปลี่ยนแปลงได้โดยใช้`revision`คุณสมบัติของ Aspose.Words ช่วยให้คุณสามารถติดตามการเปลี่ยนแปลงทั้งหมดที่เกิดขึ้นกับเอกสารได้
+ใช่ คุณสามารถติดตามการเปลี่ยนแปลงได้โดยใช้ `revision` คุณสมบัติของ Aspose.Words ช่วยให้คุณสามารถติดตามการเปลี่ยนแปลงทั้งหมดที่เกิดขึ้นกับเอกสารได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Control de contenido claro
-linktitle: Control de contenido claro
-second_title: API de procesamiento de documentos Aspose.Words
-description: Aprenda a borrar el control de contenido en un documento de Word usando Aspose.Words para .NET con nuestra guía paso a paso.
-weight: 10
-url: /es/net/programming-with-sdt/clear-contents-control/
+"description": "Aprenda a borrar el control de contenido en un documento de Word usando Aspose.Words para .NET con nuestra guía paso a paso."
+"linktitle": "Control de contenido claro"
+"second_title": "API de procesamiento de documentos de Aspose.Words"
+"title": "Control de contenido claro"
+"url": "/es/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Control de contenido claro
 
 ## Introducción
 
-¿Estás listo para sumergirte en el mundo de Aspose.Words para .NET? Hoy, exploraremos cómo borrar el control de contenido en un documento de Word usando esta poderosa biblioteca. ¡Comencemos con una guía paso a paso fácil de seguir!
+¿Listo para sumergirte en el mundo de Aspose.Words para .NET? Hoy exploraremos cómo borrar el control de contenido en un documento de Word con esta potente biblioteca. ¡Comencemos con una guía paso a paso fácil de seguir!
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
-1.  Aspose.Words para .NET: Descargue la biblioteca desde[aquí](https://releases.aspose.com/words/net/).
+1. Aspose.Words para .NET: Descargue la biblioteca desde [aquí](https://releases.aspose.com/words/net/).
 2. .NET Framework: asegúrese de tener .NET Framework instalado en su máquina.
 3. IDE: Un entorno de desarrollo integrado como Visual Studio.
 4. Documento: Un documento de Word con etiquetas de documento estructuradas.
@@ -30,7 +32,7 @@ Con estos requisitos previos establecidos, ya está todo listo para comenzar a c
 
 ## Importar espacios de nombres
 
-Para utilizar Aspose.Words para .NET, debe importar los espacios de nombres necesarios. A continuación, se incluye un breve fragmento para comenzar:
+Para usar Aspose.Words para .NET, debe importar los espacios de nombres necesarios. Aquí tiene un breve fragmento para empezar:
 
 ```csharp
 using Aspose.Words;
@@ -43,14 +45,14 @@ Dividamos el proceso de limpieza del control de contenidos en pasos detallados.
 
 Primero, configure el entorno de su proyecto.
 
-1. Abra Visual Studio: inicie Visual Studio o su IDE preferido.
-2.  Crear un nuevo proyecto: Vaya a`File` >`New` >`Project`y seleccione una aplicación de consola C#.
-3. Instalar Aspose.Words para .NET: utilice el Administrador de paquetes NuGet para instalar Aspose.Words. Ejecute el siguiente comando en la consola del Administrador de paquetes:
+1. Abrir Visual Studio: inicie Visual Studio o su IDE preferido.
+2. Crear un nuevo proyecto: Vaya a `File` > `New` > `Project`y seleccione una aplicación de consola C#.
+3. Instalar Aspose.Words para .NET: Use el Gestor de paquetes NuGet para instalar Aspose.Words. Ejecute el siguiente comando en la consola del Gestor de paquetes:
 ```sh
 Install-Package Aspose.Words
 ```
 
-## Paso 2: Cargue el documento
+## Paso 2: Cargar el documento
 
 A continuación, carguemos el documento de Word que contiene las etiquetas de documento estructurado.
 
@@ -58,7 +60,7 @@ A continuación, carguemos el documento de Word que contiene las etiquetas de do
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Cargar el documento: Utilice el`Document` clase para cargar su documento de Word.
+2. Cargar el documento: utilice el `Document` clase para cargar su documento de Word.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -74,9 +76,9 @@ Ahora, accedamos a la etiqueta de documento estructurado (SDT) dentro del docume
 
 ## Paso 4: Borrar el contenido del SDT
 
-Limpiar el contenido de la etiqueta del documento estructurado.
+Borrar el contenido de la etiqueta del documento estructurado.
 
-1.  Borrar contenido de SDT: Utilice el`Clear` Método para eliminar el contenido.
+1. Borrar contenido de SDT: utilice el `Clear` Método para eliminar el contenido.
    ```csharp
    sdt.Clear();
    ```
@@ -92,7 +94,7 @@ Por último, guarde el documento modificado.
 
 ## Conclusión
 
-¡Felicitaciones! Ha eliminado con éxito el control de contenido en un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita la manipulación de documentos de Word. Si sigue estos pasos, podrá administrar fácilmente las etiquetas de documentos estructurados en sus proyectos.
+¡Felicitaciones! Has eliminado correctamente el control de contenido de un documento de Word con Aspose.Words para .NET. Esta potente biblioteca facilita la manipulación de documentos de Word. Siguiendo estos pasos, podrás administrar fácilmente las etiquetas de documentos estructurados en tus proyectos.
 
 ## Preguntas frecuentes
 
@@ -102,11 +104,11 @@ Aspose.Words para .NET es una potente biblioteca para trabajar con documentos de
 
 ### ¿Puedo utilizar Aspose.Words gratis?
 
- Aspose.Words ofrece una prueba gratuita que puedes descargar[aquí](https://releases.aspose.com/).
+Aspose.Words ofrece una prueba gratuita que puedes descargar [aquí](https://releases.aspose.com/).
 
 ### ¿Cómo puedo obtener soporte para Aspose.Words?
 
- Puede obtener soporte de la comunidad Aspose[aquí](https://forum.aspose.com/c/words/8).
+Puede obtener soporte de la comunidad Aspose [aquí](https://forum.aspose.com/c/words/8).
 
 ### ¿Qué son las etiquetas de documentos estructurados?
 
@@ -114,11 +116,16 @@ Las etiquetas de documento estructurado (SDT) son controles de contenido en docu
 
 ### ¿Dónde puedo encontrar la documentación de Aspose.Words?
 
- La documentación está disponible[aquí](https://reference.aspose.com/words/net/).
+La documentación está disponible [aquí](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

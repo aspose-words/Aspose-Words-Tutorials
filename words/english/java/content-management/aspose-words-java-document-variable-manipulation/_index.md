@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,9 +190,13 @@ Experiment further by integrating variable manipulation into your own applicatio
 ## Resources
 - **Documentation**: [Aspose.Words Java Reference](https://reference.aspose.com/words/java/)
 - **Download**: [Aspose's Downloads](https://releases.aspose.com/words/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Opcje widoku
-linktitle: Opcje widoku
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyświetlać opcje w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje ustawianie typów widoku, dostosowywanie poziomów powiększenia i zapisywanie dokumentu.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/view-options/
+"description": "Dowiedz się, jak wyświetlać opcje w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje ustawianie typów widoku, dostosowywanie poziomów powiększenia i zapisywanie dokumentu."
+"linktitle": "Opcje widoku"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Opcje widoku"
+"url": "/pl/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opcje widoku
@@ -21,7 +23,7 @@ Cześć, kolego programisto! Czy zastanawiałeś się kiedyś, jak zmienić spos
 
 Zanim zanurzymy się w kodzie, upewnijmy się, że mamy wszystko, czego potrzebujemy, aby śledzić ten samouczek. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Na swoim komputerze powinieneś mieć zainstalowane środowisko IDE, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Choć postaramy się przedstawić sprawę prosto, podstawowa znajomość języka C# będzie korzystna.
 4. Przykładowy dokument Word: Przygotuj przykładowy dokument Word. W tym samouczku będziemy się do niego odwoływać jako „Dokument.docx”.
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- W tym fragmencie kodu definiujemy ścieżkę do naszego dokumentu i ładujemy go za pomocą`Document` klasa. Upewnij się, że zastąpisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
+W tym fragmencie kodu definiujemy ścieżkę do naszego dokumentu i ładujemy go za pomocą `Document` klasa. Upewnij się, że zastąpisz `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
 
 ## Krok 2: Ustaw typ widoku
 
@@ -58,7 +60,7 @@ Następnie zmienimy typ widoku dokumentu. Typ widoku określa sposób wyświetla
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- Tutaj ustawiamy typ widoku na`PageLayout`, który jest podobny do widoku układu wydruku w programie Microsoft Word. Daje to dokładniejszy obraz tego, jak będzie wyglądał dokument po wydrukowaniu.
+Tutaj ustawiamy typ widoku na `PageLayout`, który jest podobny do widoku układu wydruku w programie Microsoft Word. Daje to dokładniejszy obraz tego, jak będzie wyglądał dokument po wydrukowaniu.
 
 ## Krok 3: Dostosuj poziom powiększenia
 
@@ -68,7 +70,7 @@ Czasami musisz powiększyć lub pomniejszyć, aby uzyskać lepszy widok dokument
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- Ustawiając`ZoomPercent` Do`50`, oddalamy się do 50% rzeczywistego rozmiaru. Możesz dostosować tę wartość do swoich potrzeb.
+Ustawiając `ZoomPercent` Do `50`, oddalamy się do 50% rzeczywistego rozmiaru. Możesz dostosować tę wartość do swoich potrzeb.
 
 ## Krok 4: Zapisz swój dokument
 
@@ -88,7 +90,7 @@ masz to! Zmiana opcji widoku dokumentu Word za pomocą Aspose.Words dla .NET jes
 
 ### Jakie inne typy widoków mogę ustawić dla mojego dokumentu?
 
- Aspose.Words dla .NET obsługuje kilka typów widoków, w tym:`PrintLayout`, `WebLayout`, `Reading` , I`Outline`Możesz przeanalizować te opcje w zależności od swoich potrzeb.
+Aspose.Words dla .NET obsługuje kilka typów widoków, w tym: `PrintLayout`, `WebLayout`, `Reading`, I `Outline`Możesz przeanalizować te opcje w zależności od swoich potrzeb.
 
 ### Czy mogę ustawić różne poziomy powiększenia dla różnych sekcji dokumentu?
 
@@ -104,10 +106,15 @@ Aby zapewnić spójność, zapisz dokument z żądanymi opcjami widoku i rozpows
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą Aspose.Words dla .NET?
 
- Bardziej szczegółową dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Bardziej szczegółową dokumentację i przykłady można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

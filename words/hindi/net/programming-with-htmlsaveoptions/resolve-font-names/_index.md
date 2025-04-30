@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट नाम हल करें
-linktitle: फ़ॉन्ट नाम हल करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके HTML में कनवर्ट करते समय Word दस्तावेज़ों में फ़ॉन्ट नामों को हल करना सीखें। विस्तृत स्पष्टीकरण के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": ".NET के लिए Aspose.Words का उपयोग करके HTML में कनवर्ट करते समय Word दस्तावेज़ों में फ़ॉन्ट नामों को हल करना सीखें। विस्तृत स्पष्टीकरण के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "फ़ॉन्ट नाम हल करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट नाम हल करें"
+"url": "/hi/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट नाम हल करें
@@ -21,8 +23,8 @@ url: /hi/net/programming-with-htmlsaveoptions/resolve-font-names/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
-2.  वैध लाइसेंस: आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+2. वैध लाइसेंस: आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 3. C# और .NET का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आप C# में बुनियादी प्रोग्रामिंग अवधारणाओं से परिचित हैं।
 4. विज़ुअल स्टूडियो: कोई भी संस्करण जो .NET फ्रेमवर्क का समर्थन करता है।
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 स्पष्टीकरण:
- यहाँ,`dataDir` आपके दस्तावेज़ निर्देशिका का पथ रखता है।`"YOUR DOCUMENT DIRECTORY"` आपके सिस्टम पर वास्तविक पथ के साथ.
+यहाँ, `dataDir` आपके दस्तावेज़ निर्देशिका का पथ रखता है। `"YOUR DOCUMENT DIRECTORY"` आपके सिस्टम पर वास्तविक पथ के साथ.
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करना
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 स्पष्टीकरण:
- हम एक बनाते हैं`Document` ऑब्जेक्ट और हमारे से "Missing font.docx" नामक वर्ड दस्तावेज़ लोड करें`dataDir`.
+हम एक बनाते हैं `Document` ऑब्जेक्ट और हमारे से "Missing font.docx" नामक वर्ड दस्तावेज़ लोड करें `dataDir`.
 
 ## चरण 3: HTML सेव विकल्प कॉन्फ़िगर करना
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 स्पष्टीकरण:
- हम इसका एक उदाहरण बनाते हैं`HtmlSaveOptions` साथ`SaveFormat.Html` . द`PrettyFormat` विकल्प HTML आउटपुट को अधिक पठनीय बनाता है, और`ResolveFontNames` यह सुनिश्चित करता है कि फ़ॉन्ट नाम हल हो गए हैं.
+हम इसका एक उदाहरण बनाते हैं `HtmlSaveOptions` साथ `SaveFormat.Html`. द `PrettyFormat` विकल्प HTML आउटपुट को अधिक पठनीय बनाता है, और `ResolveFontNames` यह सुनिश्चित करता है कि फ़ॉन्ट नाम हल हो गए हैं.
 
 ## चरण 4: दस्तावेज़ को HTML के रूप में सहेजना
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 स्पष्टीकरण:
- हम कहते हैं`Save` विधि पर`Document` ऑब्जेक्ट, आउटपुट पथ और हमारे द्वारा कॉन्फ़िगर किए गए सेव ऑप्शन को निर्दिष्ट करना। यह फ़ॉन्ट नामों के साथ एक HTML फ़ाइल उत्पन्न करेगा।
+हम कहते हैं `Save` विधि पर `Document` ऑब्जेक्ट, आउटपुट पथ और हमारे द्वारा कॉन्फ़िगर किए गए सेव ऑप्शन को निर्दिष्ट करना। यह फ़ॉन्ट नामों के साथ एक HTML फ़ाइल उत्पन्न करेगा।
 
 ## निष्कर्ष
 
@@ -93,22 +95,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
-Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है।
+.NET के लिए Aspose.Words एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/)दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
+आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/)दस्तावेज़ में दिए गए स्थापना निर्देशों का पालन करें।
 
 ### क्या मैं बिना लाइसेंस के .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
- हां, लेकिन इसकी कुछ सीमाएं होंगी। पूर्ण कार्यक्षमता के लिए, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, लेकिन इसकी कुछ सीमाएं होंगी। पूर्ण कार्यक्षमता के लिए, आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मेरे फ़ॉन्ट HTML में सही ढंग से क्यों नहीं दिख रहे हैं?
- ऐसा तब हो सकता है जब रूपांतरण के दौरान फ़ॉन्ट को ठीक से हल नहीं किया जाता है।`ResolveFontNames = true` में`HtmlSaveOptions` इस समस्या को ठीक करने में मदद कर सकते हैं.
+ऐसा तब हो सकता है जब रूपांतरण के दौरान फ़ॉन्ट को ठीक से हल नहीं किया गया हो। `ResolveFontNames = true` में `HtmlSaveOptions` इस समस्या को ठीक करने में मदद कर सकते हैं.
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

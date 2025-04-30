@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-loading-and-saving/using-load-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Load Options in Aspose.Words for Java
@@ -218,9 +221,13 @@ Use `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` to specify the MS Word 
 
 The `setTempFolder` method allows you to specify the folder where temporary files are stored during document processing.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

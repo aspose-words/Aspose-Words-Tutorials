@@ -1,14 +1,16 @@
 ---
-title: Конвертировать Docx в Mhtml и отправлять электронную почту
-linktitle: Конвертировать Docx в Mhtml и отправлять электронную почту
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как преобразовать DOCX в MHTML и отправлять электронные письма с помощью Aspose.Words для .NET в этом пошаговом руководстве. Повысьте свою производительность с помощью простой автоматизации.
-weight: 10
-url: /ru/net/basic-conversions/docx-to-mhtml-and-sending-email/
+"description": "Узнайте, как преобразовать DOCX в MHTML и отправлять электронные письма с помощью Aspose.Words для .NET в этом пошаговом руководстве. Повысьте свою производительность с помощью простой автоматизации."
+"linktitle": "Конвертировать Docx в Mhtml и отправлять электронную почту"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Конвертировать Docx в Mhtml и отправлять электронную почту"
+"url": "/ru/net/basic-conversions/docx-to-mhtml-and-sending-email/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать Docx в Mhtml и отправлять электронную почту
@@ -21,8 +23,8 @@ url: /ru/net/basic-conversions/docx-to-mhtml-and-sending-email/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words для .NET: Загрузите и установите библиотеку Aspose.Words для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
-2.  Aspose.Email для .NET: Загрузите и установите библиотеку Aspose.Email для .NET с сайта[Страница релизов Aspose](https://releases.aspose.com/email/net/).
+1. Aspose.Words для .NET: Загрузите и установите библиотеку Aspose.Words для .NET с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
+2. Aspose.Email для .NET: Загрузите и установите библиотеку Aspose.Email для .NET с сайта [Страница релизов Aspose](https://releases.aspose.com/email/net/).
 3. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 4. SMTP-сервер: для отправки электронных писем вам необходим доступ к SMTP-серверу.
 
@@ -42,7 +44,7 @@ using Aspose.Email.Clients.Smtp;
 
 ## Шаг 1: Загрузите документ DOCX
 
- Сначала вам нужно загрузить документ DOCX, который вы хотите преобразовать. Используйте`Document` класс из Aspose.Words для загрузки вашего файла DOCX.
+Сначала вам нужно загрузить документ DOCX, который вы хотите преобразовать. Используйте `Document` класс из Aspose.Words для загрузки вашего файла DOCX.
 
 ```csharp
 // Путь к каталогу документов.
@@ -52,7 +54,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Шаг 2: Сохраните документ как MHTML
 
- Далее сохраните загруженный документ как файл MHTML. Это делается с помощью`Save` Метод`Document` сорт.
+Далее сохраните загруженный документ как файл MHTML. Это делается с помощью `Save` Метод `Document` сорт.
 
 ```csharp
 Stream stream = new MemoryStream();
@@ -64,7 +66,7 @@ stream.Position = 0;
 
 ## Шаг 3: Создайте электронное письмо
 
- Теперь создайте сообщение электронной почты из потока MHTML с помощью Aspose.Email. Вы будете использовать`MailMessage` класс для этой цели.
+Теперь создайте сообщение электронной почты из потока MHTML с помощью Aspose.Email. Вы будете использовать `MailMessage` класс для этой цели.
 
 ```csharp
 // Создайте из потока сообщение электронной почты Aspose.Email MIME.
@@ -76,7 +78,7 @@ message.Subject = "Aspose.Words + Aspose.Email MHTML Test Message";
 
 ## Шаг 4: Отправьте электронное письмо
 
- Наконец, отправьте письмо с помощью SMTP-клиента. Настройте SMTP-клиент с данными вашего SMTP-сервера и используйте`Send` способ отправки сообщения.
+Наконец, отправьте письмо с помощью SMTP-клиента. Настройте SMTP-клиент с данными вашего SMTP-сервера и используйте `Send` способ отправки сообщения.
 
 ```csharp
 // Отправьте сообщение с помощью Aspose.Email.
@@ -95,20 +97,25 @@ client.Send(message);
 Да, Aspose.Words поддерживает различные форматы, и вы можете конвертировать такие документы, как DOC, DOCX, RTF и другие, в MHTML.
 
 ### Как добавить вложения к письму?
- Вы можете использовать`Attachments` собственность`MailMessage` класс для добавления вложений в ваше электронное письмо.
+Вы можете использовать `Attachments` собственность `MailMessage` класс для добавления вложений в ваше электронное письмо.
 
 ### Совместим ли Aspose.Words с .NET Core?
 Да, Aspose.Words совместим с .NET Core. Вы также можете использовать его в приложениях .NET Core.
 
 ### Нужна ли мне лицензия для Aspose.Words и Aspose.Email?
- Да, обе библиотеки требуют лицензии. Вы можете получить временную лицензию у[Страница покупки Aspose](https://purchase.aspose.com/temporary-license/) для целей оценки.
+Да, обе библиотеки требуют лицензии. Вы можете получить временную лицензию у [Страница покупки Aspose](https://purchase.aspose.com/temporary-license/) для целей оценки.
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию по Aspose.Words вы можете найти[здесь](https://reference.aspose.com/words/net/) и для Aspose.Email[здесь](https://reference.aspose.com/email/net/).
+Подробную документацию по Aspose.Words вы можете найти [здесь](https://reference.aspose.com/words/net/) и для Aspose.Email [здесь](https://reference.aspose.com/email/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

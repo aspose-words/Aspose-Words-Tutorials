@@ -1,14 +1,16 @@
 ---
-title: Nguồn Phông chữ Steam Ví dụ
-linktitle: Nguồn Phông chữ Steam Ví dụ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng nguồn phông chữ luồng tài nguyên với Aspose.Words cho .NET trong hướng dẫn chi tiết này. Đảm bảo tài liệu của bạn hiển thị chính xác mọi lúc.
-weight: 10
-url: /vi/net/working-with-fonts/resource-steam-font-source-example/
+"description": "Tìm hiểu cách sử dụng nguồn phông chữ luồng tài nguyên với Aspose.Words cho .NET trong hướng dẫn chi tiết này. Đảm bảo tài liệu của bạn hiển thị chính xác mọi lúc."
+"linktitle": "Nguồn Phông chữ Steam Ví dụ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nguồn Phông chữ Steam Ví dụ"
+"url": "/vi/net/working-with-fonts/resource-steam-font-source-example/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nguồn Phông chữ Steam Ví dụ
@@ -21,10 +23,10 @@ Nếu bạn đang làm việc với các tài liệu trong .NET và sử dụng 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi.
--  Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
+- Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một thiết lập như Visual Studio để viết và thực thi mã của bạn.
--  Tài liệu mẫu: Có một tài liệu mẫu (ví dụ,`Rendering.docx`) sẵn sàng để kiểm tra cài đặt phông chữ.
+- Tài liệu mẫu: Có một tài liệu mẫu (ví dụ, `Rendering.docx`) sẵn sàng để kiểm tra cài đặt phông chữ.
 
 ## Nhập không gian tên
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu
 
- Tải tài liệu của bạn vào Aspose.Words`Document` đối tượng. Điều này cho phép bạn thao tác tài liệu theo chương trình.
+Tải tài liệu của bạn vào Aspose.Words `Document` đối tượng. Điều này cho phép bạn thao tác tài liệu theo chương trình.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -68,7 +70,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 ## Bước 4: Triển khai Nguồn phông chữ Resource Stream
 
- Tạo một lớp mở rộng`StreamFontSource` để xử lý phông chữ từ luồng tài nguyên nhúng. Lớp này sẽ lấy dữ liệu phông chữ từ các tài nguyên của assembly.
+Tạo một lớp mở rộng `StreamFontSource` để xử lý phông chữ từ luồng tài nguyên nhúng. Lớp này sẽ lấy dữ liệu phông chữ từ các tài nguyên của assembly.
 
 ```csharp
 internal class ResourceSteamFontSource : StreamFontSource
@@ -98,27 +100,32 @@ Bây giờ bạn đã thành thạo quy trình sử dụng luồng tài nguyên 
 
 ### Câu hỏi 1: Tôi có thể sử dụng nhiều luồng tài nguyên cho các phông chữ khác nhau không?
 
- Có, bạn có thể thực hiện nhiều`StreamFontSource` các lớp cho các luồng tài nguyên khác nhau và thêm chúng vào nguồn phông chữ.
+Có, bạn có thể thực hiện nhiều `StreamFontSource` các lớp cho các luồng tài nguyên khác nhau và thêm chúng vào nguồn phông chữ.
 
 ### Câu hỏi 2: Tôi có thể dùng thử miễn phí Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
 
-###  Câu hỏi 3: Tôi có thể xử lý các loại cảnh báo khác với`IWarningCallback`?
+### Câu hỏi 3: Tôi có thể xử lý các loại cảnh báo khác với `IWarningCallback`?
 
- Vâng,`IWarningCallback`Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ thay thế phông chữ.
+Vâng, `IWarningCallback` Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ thay thế phông chữ.
 
 ### Câu hỏi 4: Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words ở đâu?
 
- Ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
 
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.Words không?
 
- Có, bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể xin giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

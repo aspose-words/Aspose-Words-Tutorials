@@ -1,14 +1,16 @@
 ---
-title: Обновить последнее напечатанное свойство в документе PDF
-linktitle: Обновить последнее напечатанное свойство в документе PDF
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обновить последнее напечатанное свойство в документе PDF с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "Узнайте, как обновить последнее напечатанное свойство в документе PDF с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Обновить последнее напечатанное свойство в документе PDF"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обновить последнее напечатанное свойство в документе PDF"
+"url": "/ru/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновить последнее напечатанное свойство в документе PDF
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-pdfsaveoptions/update-last-printed-property/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
--  Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: среда разработки, подобная Visual Studio.
 - Базовые знания C#: некоторое знакомство с C# будет полезным.
 - Документ: документ Word, который вы хотите преобразовать в PDF и обновить последнее напечатанное свойство.
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 
 ## Шаг 3: Загрузите документ
 
- Теперь давайте загрузим документ Word, который вы хотите преобразовать в PDF. Заменить`"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
+Теперь давайте загрузим документ Word, который вы хотите преобразовать в PDF. Заменить `"YOUR DOCUMENT DIRECTORY"` с путем к вашему документу.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 4: Настройте параметры сохранения PDF-файла
 
- Нам нужно настроить параметры сохранения PDF для обновления последнего напечатанного свойства. Создайте новый экземпляр`PdfSaveOptions` и установите`UpdateLastPrintedProperty`собственность`true`.
+Нам нужно настроить параметры сохранения PDF для обновления последнего напечатанного свойства. Создайте новый экземпляр `PdfSaveOptions` и установите `UpdateLastPrintedProperty` собственность `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -86,13 +88,18 @@ Aspose.Words для .NET — мощная библиотека для задач
 Да, Aspose.Words для .NET позволяет обновлять различные свойства документа, такие как автор, заголовок, тема и т. д.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/). Для расширенного использования вам необходимо будет приобрести лицензию.
+Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для расширенного использования вам необходимо будет приобрести лицензию.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию можно найти на Aspose.Words for .NET[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию можно найти на Aspose.Words for .NET [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

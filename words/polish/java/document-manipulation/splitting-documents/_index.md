@@ -1,14 +1,16 @@
 ---
-title: Dzielenie dokumentów w Aspose.Words dla Java
-linktitle: Dzielenie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words for Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron.
-weight: 24
-url: /pl/java/document-manipulation/splitting-documents/
+"description": "Dowiedz się, jak efektywnie dzielić dokumenty w Aspose.Words for Java. Poznaj techniki dotyczące nagłówków, sekcji i zakresów stron."
+"linktitle": "Dzielenie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dzielenie dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/splitting-documents/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dzielenie dokumentów w Aspose.Words dla Java
@@ -16,14 +18,14 @@ url: /pl/java/document-manipulation/splitting-documents/
 
 ## Wprowadzenie do dzielenia dokumentów w Aspose.Words dla Java
 
-W tym kompleksowym przewodniku zagłębimy się w świat dzielenia dokumentów za pomocą Aspose.Words for Java. Dzielenie dokumentów jest kluczowym aspektem, jeśli chodzi o efektywne zarządzanie i manipulowanie dużymi dokumentami. Niezależnie od tego, czy musisz dzielić dokumenty według nagłówków, sekcji, stron czy określonych zakresów stron, Aspose.Words for Java zapewnia potrzebne narzędzia. Przyjrzymy się różnym technikom dzielenia, udostępnimy fragmenty kodu Java i zaproponujemy praktyczne przykłady, które pomogą Ci zacząć.
+tym kompleksowym przewodniku zagłębimy się w świat dzielenia dokumentów za pomocą Aspose.Words for Java. Dzielenie dokumentów jest kluczowym aspektem, jeśli chodzi o efektywne zarządzanie i manipulowanie dużymi dokumentami. Niezależnie od tego, czy musisz dzielić dokumenty według nagłówków, sekcji, stron czy określonych zakresów stron, Aspose.Words for Java zapewnia potrzebne narzędzia. Przyjrzymy się różnym technikom dzielenia, udostępnimy fragmenty kodu Java i zaproponujemy praktyczne przykłady, które pomogą Ci zacząć.
 
 ## Podział dokumentu według nagłówków
 
 Jednym z powszechnych wymagań przy pracy z dużymi dokumentami jest ich podział na podstawie nagłówków. Aspose.Words for Java ułatwia to zadanie. Przyjrzyjmy się fragmentowi kodu, aby podzielić dokument według nagłówków.
 
 ```java
-//Kod Java do dzielenia dokumentu według nagłówków przy użyciu Aspose.Words dla Java
+// Kod Java do dzielenia dokumentu według nagłówków przy użyciu Aspose.Words dla Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
@@ -102,7 +104,7 @@ W tym przewodniku zbadaliśmy różne techniki dzielenia dokumentów w Aspose.Wo
 
 ### Jak mogę rozpocząć pracę z Aspose.Words dla Java?
 
- Rozpoczęcie pracy z Aspose.Words for Java jest proste. Możesz pobrać bibliotekę ze strony internetowej Aspose i postępować zgodnie z dokumentacją dotyczącą instrukcji instalacji i użytkowania. Odwiedź[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) Aby uzyskać więcej szczegółów.
+Rozpoczęcie pracy z Aspose.Words for Java jest proste. Możesz pobrać bibliotekę ze strony internetowej Aspose i postępować zgodnie z dokumentacją dotyczącą instrukcji instalacji i użytkowania. Odwiedź [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) po więcej szczegółów.
 
 ### Jakie są główne cechy Aspose.Words dla Java?
 
@@ -118,10 +120,15 @@ Oczywiście. Aspose.Words for Java pozwala na bezproblemowe łączenie podzielon
 
 ### Gdzie mogę uzyskać dostęp do Aspose.Words dla Java i zacząć z niego korzystać?
 
- Możesz uzyskać dostęp i pobrać Aspose.Words for Java ze strony internetowej Aspose. Zacznij już dziś, odwiedzając[Aspose.Words dla Java Pobierz](https://releases.aspose.com/words/java/).
+Możesz uzyskać dostęp i pobrać Aspose.Words for Java ze strony internetowej Aspose. Zacznij już dziś, odwiedzając [Aspose.Words dla Java Pobierz](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gunakan Karakter Kontrol
-linktitle: Gunakan Karakter Kontrol
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Temukan cara mengotomatiskan tugas dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan, penggantian teks, dan banyak lagi, yang membuat alur kerja Anda efisien.
-weight: 10
-url: /id/net/programming-with-document-properties/use-control-characters/
+"description": "Temukan cara mengotomatiskan tugas dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan, penggantian teks, dan banyak lagi, yang membuat alur kerja Anda efisien."
+"linktitle": "Gunakan Karakter Kontrol"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gunakan Karakter Kontrol"
+"url": "/id/net/programming-with-document-properties/use-control-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gunakan Karakter Kontrol
@@ -22,8 +24,8 @@ Siap untuk terjun ke dunia otomatisasi dokumen? Jika Anda pernah menghabiskan te
 Sebelum kita beralih ke hal yang menyenangkan, mari pastikan Anda telah menyiapkan semua yang dibutuhkan:
 
 1. Pemahaman Dasar C#: Anda tidak perlu menjadi ahli C#, tetapi mengetahui dasar-dasarnya akan membantu.
-2. .NET Framework Terpasang: Pastikan Anda telah memasang .NET di komputer Anda. Anda dapat mengunduhnya dari[Situs web Microsoft .NET](https://dotnet.microsoft.com/download).
-3.  Aspose.Words untuk Pustaka .NET: Ambil versi terbaru dari[Halaman unduhan Aspose](https://releases.aspose.com/words/net/).
+2. .NET Framework Terpasang: Pastikan Anda telah memasang .NET di komputer Anda. Anda dapat mengunduhnya dari [Situs web Microsoft .NET](https://dotnet.microsoft.com/download).
+3. Aspose.Words untuk Pustaka .NET: Ambil versi terbaru dari [Halaman unduhan Aspose](https://releases.aspose.com/words/net/).
 
 ## Mengimpor Ruang Nama
 
@@ -55,7 +57,7 @@ Mari kita mulai dengan memuat dokumen Word yang sudah ada. Ini bisa berupa file 
 Document doc = new Document("path/to/your/document.docx");
 ```
 
- Baris kode ini memuat dokumen Anda ke dalam`doc`objek. Anggap saja seperti membuka file Word dengan program, bukan secara manual.
+Baris kode ini memuat dokumen Anda ke dalam `doc` objek. Anggap saja seperti membuka file Word dengan program, bukan secara manual.
 
 ## Langkah 3: Mengganti Teks dalam Dokumen
 
@@ -80,11 +82,11 @@ doc.Range.Replace(oldText, newText, new FindReplaceOptions());
 
 ### Memahami Karakter Kontrol
 
- Karakter kontrol adalah karakter khusus yang mungkin ingin Anda ganti. Misalnya, mari kita ganti`\r` karakter kontrol dengan`\r\n`.
+Karakter kontrol adalah karakter khusus yang mungkin ingin Anda ganti. Misalnya, mari kita ganti `\r` karakter kontrol dengan `\r\n`.
 
 ### Ganti Karakter Kontrol
 
- Berikut kode untuk mengganti`\r` dengan`\r\n`:
+Berikut kode untuk mengganti `\r` dengan `\r\n`:
 
 ```csharp
 const string text = "test\r";
@@ -112,8 +114,8 @@ Selamat! Anda baru saja melangkah pertama kali ke dunia otomatisasi dokumen deng
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Anda dapat mencobanya secara gratis dengan mengunduh[uji coba gratis](https://releases.aspose.com/)Untuk fitur lengkap, Anda perlu membeli lisensi.
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Anda dapat mencobanya secara gratis dengan mengunduh [uji coba gratis](https://releases.aspose.com/)Untuk fitur lengkap, Anda perlu membeli lisensi.
 
 ### Format apa yang dapat ditangani Aspose.Words?
 Mendukung berbagai format, termasuk .doc, .docx, .pdf, .html, dan banyak lagi.
@@ -122,11 +124,16 @@ Mendukung berbagai format, termasuk .doc, .docx, .pdf, .html, dan banyak lagi.
 Pengetahuan dasar tentang C# sangat membantu, tetapi pustaka ini dirancang agar mudah digunakan oleh pengembang di semua tingkatan.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut atau mendapatkan dukungan?
- Lihat di sini[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi[forum dukungan](https://forum.aspose.com/c/words/8).
+Lihat di sini [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi [forum dukungan](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

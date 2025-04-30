@@ -1,14 +1,16 @@
 ---
-title: สร้างตารางในเอกสาร Word
-linktitle: สร้างตารางในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีสร้างตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับทั้งผู้เริ่มต้นและมืออาชีพ
-weight: 10
-url: /th/net/add-content-using-documentbuilder/build-table/
+"description": "เรียนรู้วิธีสร้างตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับทั้งผู้เริ่มต้นและมืออาชีพ"
+"linktitle": "สร้างตารางในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สร้างตารางในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/build-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างตารางในเอกสาร Word
@@ -25,7 +27,7 @@ url: /th/net/add-content-using-documentbuilder/build-table/
 - .NET Framework (4.0 หรือสูงกว่า)
 - Aspose.Words สำหรับไลบรารี .NET
 
- หากคุณยังไม่มี Aspose.Words คุณสามารถทำได้ง่ายๆ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/) . คุณยังสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) หากคุณต้องการลองสัมผัส สำหรับผู้ที่พร้อมจะเสี่ยง คุณสามารถ[ซื้อใบอนุญาต](https://purchase.aspose.com/buy)หรือหากคุณต้องการเวลาเพิ่มเติมเพื่อประเมิน ให้คว้า[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+หากคุณยังไม่มี Aspose.Words คุณสามารถทำได้ง่ายๆ [ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/). คุณยังสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) หากคุณต้องการลองสัมผัส สำหรับผู้ที่พร้อมจะเสี่ยง คุณสามารถ [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)หรือหากคุณต้องการเวลาเพิ่มเติมเพื่อประเมิน ให้คว้า [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -41,18 +43,18 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรก เราต้องตั้งค่าเอกสารและเครื่องมือสร้างเอกสารของเรา`Document` คลาสแสดงถึงเอกสาร Word และ`DocumentBuilder` เป็นเครื่องมืออันมีประโยชน์สำหรับการเพิ่มเนื้อหาลงไป
+ขั้นแรก เราต้องตั้งค่าเอกสารและเครื่องมือสร้างเอกสารของเรา `Document` คลาสแสดงถึงเอกสาร Word และ `DocumentBuilder` เป็นเครื่องมืออันมีประโยชน์สำหรับการเพิ่มเนื้อหาลงไป
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ลองจินตนาการว่าคุณกำลังวางผ้าใบลงก่อนที่คุณจะเริ่มวาดภาพ`DocumentBuilder` คือแปรงของเราที่พร้อมสร้างสรรค์ผลงานชิ้นเอก
+ลองจินตนาการว่าคุณกำลังวางผ้าใบลงก่อนที่คุณจะเริ่มวาดภาพ `DocumentBuilder` คือแปรงของเราที่พร้อมสร้างสรรค์ผลงานชิ้นเอก
 
 ## ขั้นตอนที่ 2: เริ่มต้นตาราง
 
- ตอนนี้เรามาเริ่มโต๊ะกันเลย เราเรียกว่า`StartTable` วิธีการของ`DocumentBuilder` ที่จะเริ่มต้น
+ตอนนี้เรามาเริ่มโต๊ะกันเลย เราเรียกว่า `StartTable` วิธีการของ `DocumentBuilder` ที่จะเริ่มต้น
 
 ```csharp
 Table table = builder.StartTable();
@@ -60,11 +62,11 @@ builder.InsertCell();
 table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 ```
 
- โดยการใช้`StartTable` เรากำลังแจ้ง Aspose.Words ว่าเรากำลังจะสร้างตาราง`InsertCell` วิธีการเพิ่มเซลล์แรกและ`AutoFit` ทำให้แน่ใจว่าคอลัมน์ของเรามีความกว้างคงที่
+โดยการใช้ `StartTable`เรากำลังแจ้ง Aspose.Words ว่าเรากำลังจะสร้างตาราง `InsertCell` วิธีการเพิ่มเซลล์แรกและ `AutoFit` ทำให้แน่ใจว่าคอลัมน์ของเรามีความกว้างคงที่
 
 ## ขั้นตอนที่ 3: จัดรูปแบบแถวแรก
 
-มาเพิ่มความน่าสนใจให้กับแถวแรกด้วยการเพิ่มข้อความและจัดตำแหน่งแนวตั้งตรงกลาง
+เพิ่มความน่าสนใจให้กับแถวแรกด้วยการเพิ่มข้อความและจัดตำแหน่งแนวตั้งตรงกลาง
 
 ```csharp
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
@@ -97,7 +99,7 @@ builder.Writeln("This is row 2 cell 2");
 builder.EndRow();
 ```
 
- ที่นี่ เรากำลังตั้งค่าความสูงของแถวและตรวจสอบให้แน่ใจว่าคงที่ด้วย`HeightRule.Exactly`การเปลี่ยนแปลงการวางแนวข้อความทำให้ตารางของเราโดดเด่นขึ้นและเพิ่มสัมผัสแห่งความไม่ซ้ำใคร
+ที่นี่ เรากำลังตั้งค่าความสูงของแถวและตรวจสอบให้แน่ใจว่าคงที่ด้วย `HeightRule.Exactly`การเปลี่ยนแปลงการวางแนวข้อความทำให้ตารางของเราโดดเด่นขึ้นและเพิ่มสัมผัสแห่งความไม่ซ้ำใคร
 
 ## ขั้นตอนที่ 5: จบตาราง
 
@@ -111,7 +113,7 @@ builder.EndTable();
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
- สุดท้ายนี้เรามาบันทึกเอกสารของเรา เลือกตำแหน่งและชื่อไฟล์ของคุณ แล้วบันทึกด้วย`.docx` ส่วนขยาย.
+สุดท้ายนี้เรามาบันทึกเอกสารของเรา เลือกตำแหน่งและชื่อไฟล์ของคุณ แล้วบันทึกด้วย `.docx` ส่วนขยาย.
 
 ```csharp
 doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
@@ -131,19 +133,24 @@ doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข และจัดการเอกสารได้โดยไม่ต้องใช้ Microsoft Word
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถทำได้[ดาวน์โหลด Aspose.Words สำหรับ .NET ที่นี่](https://releases.aspose.com/words/net/)ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อตั้งค่าในสภาพแวดล้อมการพัฒนาของคุณ
+คุณสามารถทำได้ [ดาวน์โหลด Aspose.Words สำหรับ .NET ที่นี่](https://releases.aspose.com/words/net/)ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อตั้งค่าในสภาพแวดล้อมการพัฒนาของคุณ
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- Aspose.Words เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณสามารถทดสอบคุณสมบัติต่างๆ ได้ หากต้องการใช้งานแบบขยายเวลา คุณสามารถซื้อใบอนุญาตหรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+Aspose.Words เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อให้คุณสามารถทดสอบคุณสมบัติต่างๆ ได้ หากต้องการใช้งานแบบขยายเวลา คุณสามารถซื้อใบอนุญาตหรือรับ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### Aspose.Words สำหรับ .NET มีคุณสมบัติอื่นๆ อะไรบ้าง?
 นอกจากจะสร้างตารางแล้ว Aspose.Words ยังช่วยให้คุณทำงานกับข้อความ รูปภาพ สไตล์ และองค์ประกอบเอกสารอื่นๆ อีกมากมายได้ นอกจากนี้ยังรองรับรูปแบบเอกสารต่างๆ มากมาย เช่น DOCX, PDF และ HTML
 
-### ฉันจะได้รับความช่วยเหลือหากประสบปัญหาได้ที่ไหน?
- หากคุณต้องการความช่วยเหลือ โปรดดู[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) ซึ่งคุณสามารถถามคำถามและรับความช่วยเหลือจากชุมชนและนักพัฒนา Aspose ได้
+### ฉันจะได้รับความช่วยเหลือได้ที่ไหนหากประสบปัญหา?
+หากคุณต้องการความช่วยเหลือ โปรดดู [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8) ซึ่งคุณสามารถถามคำถามและรับความช่วยเหลือจากชุมชนและนักพัฒนา Aspose ได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

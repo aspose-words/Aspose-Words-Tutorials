@@ -1,14 +1,16 @@
 ---
-title: Thay thế bằng chuỗi
-linktitle: Thay thế bằng chuỗi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay thế chuỗi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc chỉnh sửa tài liệu.
-weight: 10
-url: /vi/net/find-and-replace-text/replace-with-string/
+"description": "Tìm hiểu cách thay thế chuỗi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc chỉnh sửa tài liệu."
+"linktitle": "Thay thế bằng chuỗi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay thế bằng chuỗi"
+"url": "/vi/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế bằng chuỗi
@@ -22,7 +24,7 @@ Xin chào! Bạn đã bao giờ thấy mình đang loay hoay trong một tài li
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào.
 3. Kiến thức cơ bản về C#: Có chút hiểu biết về C# sẽ rất hữu ích.
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Replacing;
 ```
 
-Hãy chia nhỏ ví dụ của chúng tôi thành nhiều bước dễ thực hiện hơn.
+Chúng ta hãy chia nhỏ ví dụ của mình thành nhiều bước dễ thực hiện hơn.
 
 ## Bước 1: Thiết lập thư mục dự án của bạn
 
@@ -46,7 +48,7 @@ Hãy chia nhỏ ví dụ của chúng tôi thành nhiều bước dễ thực hi
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục tài liệu của bạn. Đây là cơ sở cho các tập tin của chúng tôi.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục tài liệu của bạn. Đây là cơ sở cho các tập tin của chúng tôi.
 
 ## Bước 2: Khởi tạo Tài liệu và Trình xây dựng
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Đây,`Document` đại diện cho tài liệu Word mà chúng ta sẽ làm việc cùng và`DocumentBuilder` là công cụ giúp chúng ta sửa đổi nó.
+Đây, `Document` đại diện cho tài liệu Word mà chúng ta sẽ làm việc cùng và `DocumentBuilder` là công cụ giúp chúng ta sửa đổi nó.
 
 ## Bước 3: Thêm nội dung ban đầu
 
@@ -77,7 +79,7 @@ Chúng tôi đã thêm một dòng văn bản đơn giản mà chúng tôi sẽ 
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- Các`Replace`Phương pháp này rất đơn giản. Chúng tôi chỉ định từ cần tìm, từ thay thế và các tùy chọn cho thao tác tìm và thay thế.
+Các `Replace` Phương pháp này rất đơn giản. Chúng tôi chỉ định từ cần tìm, từ thay thế và các tùy chọn cho thao tác tìm và thay thế.
 
 ## Bước 5: Lưu tài liệu
 
@@ -87,7 +89,7 @@ Cuối cùng, chúng ta lưu tài liệu đã chỉnh sửa. Đây là lúc chú
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- Tài liệu được lưu trong thư mục được chỉ định với tên`FindAndReplace.ReplaceWithString.docx`. Và thế là xong! Chúng ta đã thực hiện thành công thao tác tìm và thay thế.
+Tài liệu được lưu trong thư mục được chỉ định với tên `FindAndReplace.ReplaceWithString.docx`. Và thế là xong! Chúng ta đã thực hiện thành công thao tác tìm và thay thế.
 
 ## Phần kết luận
 
@@ -99,7 +101,7 @@ Bạn đã có nó rồi! Với Aspose.Words cho .NET, việc thay thế chuỗi
 Có, bạn có thể nối nhiều thao tác thay thế hoặc sử dụng biểu thức chính quy để khớp và thay thế nhiều mẫu.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra tính năng của nó.
+Aspose.Words cho .NET là một thư viện trả phí, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra tính năng của nó.
 
 ### Tôi có thể thay thế văn bản bằng nội dung đã định dạng không?
 Hoàn toàn đúng! Aspose.Words cho phép bạn thay thế văn bản bằng nội dung được định dạng, bao gồm nhiều phông chữ, màu sắc và kiểu khác nhau.
@@ -108,10 +110,15 @@ Hoàn toàn đúng! Aspose.Words cho phép bạn thay thế văn bản bằng n�
 Nếu không tìm thấy từ đó, thao tác thay thế sẽ không thay đổi bất cứ điều gì. Không có lỗi, chỉ là không có thay đổi.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ[Cộng đồng Aspose](https://forum.aspose.com/c/words/8) hoặc mua hỗ trợ cao cấp nếu cần.
+Bạn có thể nhận được sự hỗ trợ từ [Cộng đồng Aspose](https://forum.aspose.com/c/words/8) hoặc mua hỗ trợ cao cấp nếu cần.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

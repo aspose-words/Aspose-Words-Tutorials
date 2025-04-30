@@ -1,26 +1,33 @@
 ---
-title: Werken met Forms in Aspose.Words voor .NET 
-weight: 10
-limit:
-description: Leer hoe je met vormen in Word documenten werkt met behulp van Aspose.Words voor .NET. Verken het toevoegen, aanpassen en manipuleren van vormen met gemak.
-keywords:
-url: /nl/net/working-with-shapes/
+"description": "Leer hoe u met vormen in Word-documenten kunt werken met Aspose.Words voor .NET. Ontdek hoe u eenvoudig vormen kunt toevoegen, aanpassen en manipuleren."
+"title": "Werken met vormen in Aspose.Words voor .NET"
+"url": "/nl/net/working-with-shapes/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Inleiding
+## Invoering
  
-Met Aspose.Words voor .NET kunt u naadloos vormen toevoegen, aanpassen en manipuleren, zoals lijnen, rechthoeken, ovaalvormen en meer. Of u nu eenvoudige diagrammen moet maken, specifieke inhoud moet benadrukken of professionele lay-outs moet bouwen, deze krachtige bibliotheek biedt u alle tools die nodig zijn om programma'smatig met vormen te werken.  
+Vormen zijn een essentiële functie bij het ontwerpen van visueel aantrekkelijke Word-documenten. Met Aspose.Words voor .NET kunt u naadloos vormen toevoegen, aanpassen en bewerken, zoals lijnen, rechthoeken, ovalen en meer. Of u nu eenvoudige diagrammen wilt maken, specifieke inhoud wilt markeren of professionele lay-outs wilt creëren, deze krachtige bibliotheek biedt u alle tools die u nodig hebt om programmatisch met vormen te werken.  
 
-Op deze pagina vindt u gedetailleerde gids voor verschillende vormgerelateerde taken. Van het invoeren van basisvormen en het toepassen van stijlen tot het beheren van vorm eigenschappen zoals grootte, kleur en rotatie, wordt alles stap voor stap gedekt. Aspose.Words voor .NET stelt ontwikkelaars in staat om dynamische en visueel rijke documenten te maken zonder dat complexe ontwerppulsen nodig zijn. Verken de onderstaande tutorials om vormmanipulatie te beheersen en uw documentencreatieproces te verhogen!  
+Op deze pagina vindt u gedetailleerde handleidingen voor diverse taken met betrekking tot vormen. Van het invoegen van basisvormen en het toepassen van stijlen tot het beheren van vormeigenschappen zoals grootte, kleur en rotatie, alles wordt stap voor stap behandeld. Met Aspose.Words voor .NET kunnen ontwikkelaars dynamische en visueel aantrekkelijke documenten maken zonder dat ze complexe ontwerptools nodig hebben. Bekijk de onderstaande tutorials om vormmanipulatie onder de knie te krijgen en uw documentcreatieproces te verbeteren!  
 
-{{< tutorial-card link="./add-group-shape/" title="Creëer groepsvorm in Word-document met behulp van Aspose.Words voor .NET" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-shape/" title="Invoeg vormen in Word-documenten met behulp van Aspose.Words voor .NET" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-group-shape/" title="Groepsvorm maken in een Word-document met Aspose.Words voor .NET" imgSrc="./add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-shape/" title="Vormen invoegen in Word-documenten met Aspose.Words voor .NET" imgSrc="./insert-shape/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

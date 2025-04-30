@@ -1,14 +1,16 @@
 ---
-title: Pengaturan Halaman Berbeda
-linktitle: Pengaturan Halaman Berbeda
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur konfigurasi halaman yang berbeda saat menggabungkan dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan.
-weight: 10
-url: /id/net/join-and-append-documents/different-page-setup/
+"description": "Pelajari cara mengatur konfigurasi halaman yang berbeda saat menggabungkan dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan."
+"linktitle": "Pengaturan Halaman Berbeda"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengaturan Halaman Berbeda"
+"url": "/id/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Halaman Berbeda
@@ -21,7 +23,7 @@ Hai! Siap menyelami dunia manipulasi dokumen yang menarik dengan Aspose.Words un
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Versi apa pun yang mendukung Aspose.Words untuk .NET.
 3. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 4. Pengetahuan Dasar C#: Hanya dasar-dasar untuk memahami sintaksis dan struktur.
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Langkah 2: Muat Dokumen
 
- Sekarang, mari kita muat dokumen yang ingin kita gabungkan. Untuk contoh ini, Anda memerlukan dua dokumen Word:`Document source.docx` Dan`Northwind traders.docx`Pastikan file-file ini ada di direktori proyek Anda.
+Sekarang, mari kita muat dokumen yang ingin kita gabungkan. Untuk contoh ini, Anda memerlukan dua dokumen Word: `Document source.docx` Dan `Northwind traders.docx`Pastikan file-file ini ada di direktori proyek Anda.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 Untuk memastikan kelancaran, kita perlu menyesuaikan format paragraf dalam dokumen sumber.
 
- Ulangi semua paragraf dalam dokumen sumber dan atur`KeepWithNext` milik.
+Ulangi semua paragraf dalam dokumen sumber dan atur `KeepWithNext` milik.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -125,7 +127,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda baru saja menggabungkan dua dokumen Word dengan pengaturan halaman yang berbeda menggunakan Aspose.Words untuk .NET. Pustaka canggih ini memudahkan Anda untuk memanipulasi dokumen secara terprogram. Baik Anda membuat laporan yang rumit, menyusun buku, atau mengelola dokumen multi-bagian, Aspose.Words siap membantu Anda.
+Nah, itu dia! Anda baru saja menggabungkan dua dokumen Word dengan pengaturan halaman yang berbeda menggunakan Aspose.Words untuk .NET. Pustaka canggih ini memudahkan Anda memanipulasi dokumen secara terprogram. Baik Anda membuat laporan yang rumit, menyusun buku, atau mengelola dokumen multi-bagian, Aspose.Words siap membantu Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -139,14 +141,19 @@ Anda juga dapat mencocokkan pengaturan margin dengan cara yang sama seperti kami
 Ya, Aspose.Words untuk .NET sepenuhnya kompatibel dengan .NET Core.
 
 ### Bisakah saya mempertahankan gaya dari kedua dokumen?
- Ya, itu`ImportFormatMode.KeepSourceFormatting` opsi memastikan bahwa gaya dari dokumen sumber dipertahankan.
+Ya, itu `ImportFormatMode.KeepSourceFormatting` opsi memastikan bahwa gaya dari dokumen sumber dipertahankan.
 
 ### Di mana saya bisa mendapatkan bantuan lebih lanjut dengan Aspose.Words?
- Lihat di sini[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi mereka[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan lebih lanjut.
+Lihat di sini [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi mereka [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan lebih lanjut.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

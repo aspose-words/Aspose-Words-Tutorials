@@ -1,14 +1,16 @@
 ---
-title: Giữ nguyên định dạng nguồn
-linktitle: Giữ nguyên định dạng nguồn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hợp nhất các tài liệu Word trong khi vẫn giữ nguyên định dạng bằng Aspose.Words cho .NET. Lý tưởng cho các nhà phát triển muốn tự động hóa các tác vụ lắp ráp tài liệu.
-weight: 10
-url: /vi/net/join-and-append-documents/keep-source-formatting/
+"description": "Tìm hiểu cách hợp nhất các tài liệu Word trong khi vẫn giữ nguyên định dạng bằng Aspose.Words cho .NET. Lý tưởng cho các nhà phát triển muốn tự động hóa các tác vụ lắp ráp tài liệu."
+"linktitle": "Giữ nguyên định dạng nguồn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giữ nguyên định dạng nguồn"
+"url": "/vi/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giữ nguyên định dạng nguồn
@@ -22,7 +24,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách hợp nhất và thê
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
 
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào hỗ trợ phát triển .NET.
--  Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt thư viện từ [đây](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về lập trình C#: Quen thuộc với cú pháp C# và các khái niệm lập trình hướng đối tượng.
 
 ## Nhập không gian tên
@@ -100,10 +102,15 @@ Có, Aspose.Words hỗ trợ .NET Core, cho phép bạn sử dụng trên nhiề
 Aspose.Words cung cấp các API hiệu quả để làm việc với các tài liệu lớn, bao gồm các tính năng phân trang và quản lý bộ nhớ.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words ở đâu?
- Ghé thăm[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về API, ví dụ và hướng dẫn.
+Ghé thăm [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về API, ví dụ và hướng dẫn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

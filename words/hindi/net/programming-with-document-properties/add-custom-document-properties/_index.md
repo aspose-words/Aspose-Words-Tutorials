@@ -1,14 +1,16 @@
 ---
-title: कस्टम दस्तावेज़ गुण जोड़ें
-linktitle: कस्टम दस्तावेज़ गुण जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों में कस्टम दस्तावेज़ गुण जोड़ने का तरीका जानें। अपने दस्तावेज़ों को अतिरिक्त मेटाडेटा के साथ बेहतर बनाने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-document-properties/add-custom-document-properties/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों में कस्टम दस्तावेज़ गुण जोड़ने का तरीका जानें। अपने दस्तावेज़ों को अतिरिक्त मेटाडेटा के साथ बेहतर बनाने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "कस्टम दस्तावेज़ गुण जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "कस्टम दस्तावेज़ गुण जोड़ें"
+"url": "/hi/net/programming-with-document-properties/add-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # कस्टम दस्तावेज़ गुण जोड़ें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-document-properties/add-custom-document-properties
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: विजुअल स्टूडियो जैसा एक IDE.
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# और .NET की बुनियादी समझ है।
-4.  नमूना दस्तावेज़: एक नमूना Word दस्तावेज़ तैयार रखें, जिसका नाम हो`Properties.docx`, जिसे आप संशोधित करेंगे.
+4. नमूना दस्तावेज़: एक नमूना Word दस्तावेज़ तैयार रखें, जिसका नाम हो `Properties.docx`, जिसे आप संशोधित करेंगे.
 
 ## नामस्थान आयात करें
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## चरण 1: दस्तावेज़ पथ सेट करना
 
- सबसे पहले, हमें अपने दस्तावेज़ का पथ सेट करना होगा। यहाँ हम अपने दस्तावेज़ का स्थान निर्दिष्ट करेंगे।`Properties.docx` फ़ाइल।
+सबसे पहले, हमें अपने दस्तावेज़ का पथ सेट करना होगा। यहाँ हम अपने दस्तावेज़ का स्थान निर्दिष्ट करेंगे। `Properties.docx` फ़ाइल।
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
- इस स्निपेट में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के वास्तविक पथ के साथ। यह चरण महत्वपूर्ण है क्योंकि यह प्रोग्राम को आपकी वर्ड फ़ाइल का पता लगाने और उसे खोलने की अनुमति देता है।
+इस स्निपेट में, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ के वास्तविक पथ के साथ। यह चरण महत्वपूर्ण है क्योंकि यह प्रोग्राम को आपकी वर्ड फ़ाइल का पता लगाने और उसे खोलने की अनुमति देता है।
 
 ## चरण 2: कस्टम दस्तावेज़ गुणों तक पहुँचना
 
@@ -75,7 +77,7 @@ if (customDocumentProperties["Authorized"] != null) return;
 customDocumentProperties.Add("Authorized", true);
 ```
 
- यह पंक्ति "अधिकृत" नामक एक कस्टम प्रॉपर्टी जोड़ती है जिसका मान है`true`. सरल एवं सीधा!
+यह पंक्ति "अधिकृत" नामक एक कस्टम प्रॉपर्टी जोड़ती है जिसका मान है `true`. सरल एवं सीधा!
 
 ## चरण 5: स्ट्रिंग प्रॉपर्टी जोड़ना
 
@@ -95,7 +97,7 @@ customDocumentProperties.Add("Authorized By", "John Smith");
 customDocumentProperties.Add("Authorized Date", DateTime.Today);
 ```
 
- यह स्निपेट वर्तमान दिनांक को इसके मान के रूप में रखते हुए "अधिकृत दिनांक" नामक एक प्रॉपर्टी जोड़ता है।`DateTime.Today`संपत्ति स्वचालित रूप से आज की तारीख प्राप्त करती है।
+यह स्निपेट वर्तमान दिनांक को इसके मान के रूप में रखते हुए "अधिकृत दिनांक" नामक एक प्रॉपर्टी जोड़ता है। `DateTime.Today` संपत्ति स्वचालित रूप से आज की तारीख प्राप्त करती है।
 
 ## चरण 7: संशोधन संख्या जोड़ना
 
@@ -105,7 +107,7 @@ customDocumentProperties.Add("Authorized Date", DateTime.Today);
 customDocumentProperties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 ```
 
-यहां, हम "अधिकृत संशोधन" नामक एक गुण जोड़ रहे हैं और इसे दस्तावेज़ की वर्तमान संशोधन संख्या निर्दिष्ट कर रहे हैं।
+यहां, हम "अधिकृत संशोधन" नामक एक गुण जोड़ रहे हैं और इसे दस्तावेज़ की वर्तमान संशोधन संख्या प्रदान कर रहे हैं।
 
 ## चरण 8: संख्यात्मक गुण जोड़ना
 
@@ -115,7 +117,7 @@ customDocumentProperties.Add("Authorized Revision", doc.BuiltInDocumentPropertie
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
- यह पंक्ति "अधिकृत राशि" नामक एक संपत्ति जोड़ती है जिसका मान है`123.45`पुनः, कृपया इसे अपनी आवश्यकताओं के अनुरूप किसी भी संख्या से बदलने के लिए स्वतंत्र महसूस करें।
+यह पंक्ति "अधिकृत राशि" नामक एक संपत्ति जोड़ती है जिसका मान है `123.45`पुनः, कृपया इसे अपनी आवश्यकताओं के अनुरूप किसी भी संख्या से बदलने के लिए स्वतंत्र महसूस करें।
 
 ## निष्कर्ष
 
@@ -140,9 +142,14 @@ customDocumentProperties.Add("Authorized Amount", 123.45);
 ### क्या दस्तावेज़ों को फ़िल्टर करने के लिए कस्टम गुणों का उपयोग किया जा सकता है?
 बिल्कुल! कस्टम गुण विशिष्ट मेटाडेटा के आधार पर दस्तावेजों को वर्गीकृत और फ़िल्टर करने के लिए उत्कृष्ट हैं।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ละเว้นข้อความภายในการลบการแก้ไข
-linktitle: ละเว้นข้อความภายในการลบการแก้ไข
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการจัดการการแก้ไขที่ติดตามในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เชี่ยวชาญการจัดการเอกสารอัตโนมัติด้วยบทช่วยสอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "เรียนรู้วิธีการจัดการการแก้ไขที่ติดตามในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET เชี่ยวชาญการจัดการเอกสารอัตโนมัติด้วยบทช่วยสอนที่ครอบคลุมนี้"
+"linktitle": "ละเว้นข้อความภายในการลบการแก้ไข"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ละเว้นข้อความภายในการลบการแก้ไข"
+"url": "/th/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ละเว้นข้อความภายในการลบการแก้ไข
@@ -22,8 +24,8 @@ url: /th/net/find-and-replace-text/ignore-text-inside-delete-revisions/
 ก่อนจะเข้าสู่บทช่วยสอนนี้ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
 - Visual Studio ติดตั้งอยู่บนระบบของคุณแล้ว
--  ไลบรารี Aspose.Words สำหรับ .NET ที่รวมอยู่ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
--  การเข้าถึง Aspose.Words สำหรับ .NET[เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อเป็นข้อมูลอ้างอิง
+- ไลบรารี Aspose.Words สำหรับ .NET ที่รวมอยู่ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
+- การเข้าถึง Aspose.Words สำหรับ .NET [เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อเป็นข้อมูลอ้างอิง
 
 ## นำเข้าเนมสเปซ
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## ขั้นตอนที่ 1: สร้างเอกสารใหม่และแทรกข้อความ
 
- ขั้นแรก ให้เริ่มต้นอินสแตนซ์ใหม่ของ`Document` และก`DocumentBuilder` ในการเริ่มสร้างเอกสารของคุณ:
+ขั้นแรก ให้เริ่มต้นอินสแตนซ์ใหม่ของ `Document` และก `DocumentBuilder` ในการเริ่มสร้างเอกสารของคุณ:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -90,11 +92,16 @@ Console.WriteLine(doc.GetText());
 Aspose.Words สำหรับ .NET ได้รับการปรับปรุงเพื่อจัดการเอกสารขนาดใหญ่ได้อย่างมีประสิทธิภาพ รวมถึงเอกสารที่มีการติดตามการแก้ไขอย่างละเอียด
 
 ### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถสำรวจเอกสารประกอบที่ครอบคลุมและรับการสนับสนุนจากชุมชน Aspose.Words สำหรับ .NET ได้ที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถสำรวจเอกสารประกอบที่ครอบคลุมและรับการสนับสนุนจากชุมชน Aspose.Words สำหรับ .NET ได้ที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

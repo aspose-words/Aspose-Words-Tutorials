@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-fonts-folders-default-instance/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fonts Folders Default Instance
@@ -99,9 +102,13 @@ By setting the `FontSettings` correctly and ensuring the fonts are available, As
 ### What happens if a font is not found in the specified folder?
 Aspose.Words will use a fallback font if the specified font is not found.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

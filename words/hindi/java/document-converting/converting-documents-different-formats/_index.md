@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना
-linktitle: दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/java/document-converting/converting-documents-different-formats/
+"description": "Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना"
+"url": "/hi/java/document-converting/converting-documents-different-formats/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना
@@ -24,11 +26,11 @@ url: /hi/java/document-converting/converting-documents-different-formats/
 
 ## चरण 1: स्थापना
 
- शुरू करने के लिए, आपको Aspose.Words for Java को डाउनलोड और इंस्टॉल करना होगा। आप इसे वेबसाइट से डाउनलोड कर सकते हैं:[Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/).
+शुरू करने के लिए, आपको Aspose.Words for Java डाउनलोड और इंस्टॉल करना होगा। आप इसे वेबसाइट से डाउनलोड कर सकते हैं: [Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/).
 
 ## चरण 2: अपना जावा प्रोजेक्ट सेट अप करना
 
-एक बार जब आप Java के लिए Aspose.Words डाउनलोड कर लें, तो अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएँ। अपने प्रोजेक्ट के क्लासपाथ में Aspose.Words JAR फ़ाइल जोड़ें।
+एक बार जब आप Aspose.Words for Java डाउनलोड कर लें, तो अपने पसंदीदा IDE में एक नया Java प्रोजेक्ट बनाएँ। Aspose.Words JAR फ़ाइल को अपने प्रोजेक्ट के क्लासपाथ में जोड़ें।
 
 ## दस्तावेज़ों को विभिन्न प्रारूपों में परिवर्तित करना
 
@@ -80,10 +82,15 @@ Aspose.Words for Java कई तरह के दस्तावेज़ फ़
 
 ### मैं Aspose.Words for Java दस्तावेज़न कहां से प्राप्त कर सकता हूं?
 
- आप Java के लिए Aspose.Words के लिए विस्तृत दस्तावेज़ यहाँ पा सकते हैं[जावा API संदर्भों के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+आप Java के लिए Aspose.Words के लिए व्यापक दस्तावेज़ यहाँ पा सकते हैं [जावा API संदर्भों के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

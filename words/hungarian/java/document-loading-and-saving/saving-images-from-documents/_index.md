@@ -1,30 +1,32 @@
 ---
-title: Képek mentése dokumentumokból az Aspose.Words for Java programban
-linktitle: Képek mentése a dokumentumokból
-second_title: Aspose.Words Java Document Processing API
-description: Átfogó, lépésenkénti útmutatónkkal megtudhatja, hogyan menthet képeket dokumentumokból az Aspose.Words for Java használatával. Testreszabhatja a formátumokat, a tömörítést és egyebeket.
-weight: 17
-url: /hu/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Tanuld meg, hogyan menthetsz képeket dokumentumokból az Aspose.Words for Java segítségével átfogó, lépésről lépésre szóló útmutatónkkal. Testreszabhatod a formátumokat, a tömörítést és egyebeket."
+"linktitle": "Képek mentése dokumentumokból"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Képek mentése dokumentumokból az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Képek mentése dokumentumokból az Aspose.Words for Java programban
 
 
-## Bevezetés a képek dokumentumokból történő mentésébe az Aspose.Words for Java programban
+## Bevezetés a képek mentésébe dokumentumokból az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet képeket menteni dokumentumokból az Aspose.Words for Java használatával. A képmentés különféle forgatókönyveivel és testreszabási lehetőségeivel foglalkozunk. Ez az útmutató lépésről lépésre tartalmazza a forráskód-példákat.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan menthetünk képeket dokumentumokból az Aspose.Words for Java használatával. Áttekintjük a képmentés különböző forgatókönyveit és testreszabási lehetőségeit. Ez az útmutató lépésről lépésre bemutatja a forráskód példáit.
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java könyvtár integrálva van a projektjébe. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy az Aspose.Words for Java könyvtár integrálva van a projektedbe. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 
-## 1. lépés: Képek mentése TIFF formátumban a Threshold Control segítségével
+## 1. lépés: Képek mentése TIFF formátumban küszöbérték-szabályozással
 
-Ha a képeket TIFF formátumban szeretné menteni küszöbérték-szabályozással, kövesse az alábbi lépéseket:
+A képek TIFF formátumban, küszöbérték-vezérléssel történő mentéséhez kövesse az alábbi lépéseket:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -36,9 +38,9 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## 2. lépés: Adott oldal mentése többoldalas TIFF formátumban
+## 2. lépés: Egy adott oldal mentése többoldalas TIFF formátumban
 
-Egy adott oldal többoldalas TIFF-fájlként történő mentéséhez használja a következő kódot:
+Egy adott oldal többoldalas TIFF fájlként való mentéséhez használja a következő kódot:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -49,9 +51,9 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## 3. lépés: Képek mentése 1 BPP-vel indexelt PNG-ként
+## 3. lépés: Képek mentése 1 BPP indexelt PNG formátumban
 
-Ha 1 BPP-vel indexelt PNG-ként szeretné menteni a képeket, kövesse az alábbi lépéseket:
+Képek 1 BPP indexelt PNG formátumban történő mentéséhez kövesse az alábbi lépéseket:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -64,7 +66,7 @@ doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 
 ## 4. lépés: Oldal mentése JPEG formátumban testreszabással
 
-Egy adott oldal testreszabási lehetőségekkel rendelkező JPEG formátumban történő mentéséhez használja ezt a kódot:
+Egy adott oldal JPEG formátumban, testreszabási beállításokkal történő mentéséhez használja ezt a kódot:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -76,9 +78,9 @@ options.setHorizontalResolution(72f);
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## 5. lépés: Az Oldalmentés Visszahívás használata
+## 5. lépés: Oldalmentő visszahívás használata
 
-Az oldalmentés személyre szabásához használhatja a visszahívást. Íme egy példa:
+Visszahívás segítségével testreszabhatja az oldal mentését. Íme egy példa:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -96,7 +98,7 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Teljes forráskód képek mentéséhez az Aspose.Words for Java dokumentumaiból
+## Teljes forráskód képek mentéséhez dokumentumokból az Aspose.Words for Java programban
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -139,14 +141,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Állítsa a "PageSet" értéket "0"-ra, ha csak a dokumentum első oldalát szeretné konvertálni.
+	// Állítsa a „PageSet” értékét „0”-ra, ha csak a dokumentum első oldalát szeretné konvertálni.
 	options.setPageSet(new PageSet(0));
 	// Módosítsa a kép fényerejét és kontrasztját.
-	// Mindkettő 0-1 skálán van, és alapértelmezés szerint 0,5.
+	// Mindkettő 0-1 skálán van, és alapértelmezés szerint 0,5-ön állnak.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	// Módosítsa a vízszintes felbontást.
-	// Ezeknek a tulajdonságoknak az alapértelmezett értéke 96,0, 96 dpi felbontás esetén.
+	// Változtasd meg a vízszintes felbontást.
+	// Ezen tulajdonságok alapértelmezett értéke 96,0, ami 96 dpi felbontást jelent.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,52 +173,52 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Következtetés
 
-Megtanulta, hogyan menthet képeket dokumentumokból az Aspose.Words for Java használatával. Ezek a példák a képmentés különféle testreszabási lehetőségeit mutatják be, beleértve a formátumot, a tömörítést és a visszahívási használatot. Fedezzen fel további lehetőségeket az Aspose.Words segítségével a Java erőteljes képességeiért.
+Megtanultad, hogyan menthetsz képeket dokumentumokból az Aspose.Words for Java segítségével. Ezek a példák a képmentés különböző testreszabási lehetőségeit mutatják be, beleértve a formátumot, a tömörítést és a visszahívási használatot. Fedezz fel további lehetőségeket az Aspose.Words for Java hatékony funkcióival.
 
 ## GYIK
 
-### Hogyan változtathatom meg a képformátumot az Aspose.Words for Java segítségével történő mentéskor?
+### Hogyan változtathatom meg a képformátumot az Aspose.Words for Java programmal történő mentéskor?
 
- Módosíthatja a képformátumot a kívánt formátum megadásával a`ImageSaveOptions` . Például a PNG formátumban történő mentéshez használja a`SaveFormat.PNG` a kódban látható módon:
+A képformátumot a kívánt formátum megadásával módosíthatja a `ImageSaveOptions`Például PNG formátumban történő mentéshez használja a következőt: `SaveFormat.PNG` ahogy a kódban látható:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### Testreszabhatom a TIFF-képek tömörítési beállításait?
+### Testreszabhatom a TIFF képek tömörítési beállításait?
 
-Igen, testreszabhatja a TIFF képtömörítési beállításokat. Például a tömörítési módszer CCITT_3 értékre állításához használja a következő kódot:
+Igen, testreszabhatja a TIFF képtömörítési beállításait. Például a CCITT_3 tömörítési módszer beállításához használja a következő kódot:
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 ```
 
-### Hogyan menthetek egy adott oldalt egy dokumentumból külön képként?
+### Hogyan menthetek el egy adott oldalt egy dokumentumból külön képként?
 
- Egy adott oldal képként való mentéséhez használja a`setPageSet`módszer be`ImageSaveOptions` . Például, ha csak az első oldalt szeretné menteni, állítsa be a`PageSet` hogy`new PageSet(0)`.
+Egy adott oldal képként való mentéséhez használja a `setPageSet` módszer `ImageSaveOptions`Például, ha csak az első oldalt szeretné menteni, állítsa be a `PageSet` hogy `new PageSet(0)`.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Mentse el az első oldalt képként
+saveOptions.setPageSet(new PageSet(0)); // Az első oldal mentése képként
 ```
 
-### Hogyan alkalmazhatok egyéni beállításokat a JPEG képekre mentéskor?
+### Hogyan alkalmazhatok egyéni beállításokat JPEG képekre mentéskor?
 
-Egyéni beállításokat alkalmazhat a JPEG képekre a használatával`ImageSaveOptions`. Az olyan tulajdonságok beállítása, mint a fényerő, kontraszt és felbontás. Ha például a fényerőt 0,3-ra és a kontrasztot 0,7-re szeretné módosítani, használja ezt a kódot:
+Egyéni beállításokat alkalmazhat JPEG képekre a következő használatával: `ImageSaveOptions`. Állítsa be az olyan tulajdonságokat, mint a fényerő, a kontraszt és a felbontás. Például a fényerő 0,3-ra, a kontraszt pedig 0,7-re állításához használja ezt a kódot:
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Hogyan használhatom a visszahívást a képmentés testreszabásához?
+### Hogyan használhatok visszahívást a képmentés testreszabásához?
 
- Ha visszahívást szeretne használni a képmentés testreszabásához, állítsa be a`PageSavingCallback` be`ImageSaveOptions` . Hozzon létre egy osztályt, amely megvalósítja a`IPageSavingCallback` felületet, és felülírja a`pageSaving` módszer.
+Ha visszahívást szeretne használni a képmentés testreszabásához, állítsa be a `PageSavbangCallback` in `ImageSaveOptions`Hozz létre egy osztályt, amely megvalósítja a következőt: `IPageSavingCallback` interfész és felülírja a `pageSaving` módszer.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Ezután hozzon létre egy osztályt, amely megvalósítja a`IPageSavingCallback` felületet, és testreszabhatja a fájl nevét és helyét a`pageSaving` módszer.
+Ezután hozz létre egy osztályt, amely megvalósítja a `IPageSavingCallback` felületet, és szabja testre a fájlnevet és a helyet a `pageSaving` módszer.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

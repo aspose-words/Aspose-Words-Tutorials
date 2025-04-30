@@ -1,14 +1,16 @@
 ---
-title: Bergabunglah dengan Continuous
-linktitle: Bergabunglah dengan Continuous
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dua dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk penggabungan dokumen yang lancar dan efisien.
-weight: 10
-url: /id/net/join-and-append-documents/join-continuous/
+"description": "Pelajari cara menggabungkan dua dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk penggabungan dokumen yang lancar dan efisien."
+"linktitle": "Bergabunglah dengan Continuous"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bergabunglah dengan Continuous"
+"url": "/id/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bergabunglah dengan Continuous
@@ -21,7 +23,7 @@ Apakah Anda ingin menggabungkan dua dokumen Word menjadi satu tanpa jeda? Aspose
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal[Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal [Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda dapat menggunakan Visual Studio atau lingkungan pengembangan .NET lainnya.
 - Contoh Dokumen: Siapkan dua dokumen Word yang ingin Anda gabungkan.
 
@@ -40,11 +42,11 @@ Sekarang, mari kita uraikan contoh tersebut menjadi beberapa langkah agar lebih 
 Pertama, kita perlu mengatur direktori tempat dokumen Anda disimpan. Ini akan memungkinkan kode kita untuk menemukan file yang ingin kita gabungkan.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 2: Muat Dokumen Sumber dan Tujuan
 
@@ -57,9 +59,9 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 Pastikan nama file dan jalurnya cocok dengan file sebenarnya yang ingin Anda gunakan.
 
-## Langkah 3: Atur Awal Bagian sebagai Berkelanjutan
+## Langkah 3: Atur Bagian Awal sebagai Berkelanjutan
 
- Untuk membuat konten dokumen sumber muncul segera setelah dokumen tujuan, kita perlu mengatur`SectionStart` properti bagian pertama dalam dokumen sumber untuk`Continuous`.
+Untuk membuat konten dokumen sumber muncul segera setelah dokumen tujuan, kita perlu mengatur `SectionStart` properti bagian pertama dalam dokumen sumber untuk `Continuous`.
 
 ```csharp
 // Jadikan dokumen muncul langsung setelah konten dokumen tujuan.
@@ -77,7 +79,7 @@ Sekarang, kita tambahkan dokumen sumber ke dokumen tujuan. Langkah ini memastika
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Menggunakan`ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dari dokumen sumber dipertahankan dalam dokumen gabungan akhir.
+Menggunakan `ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dari dokumen sumber dipertahankan dalam dokumen gabungan akhir.
 
 ## Langkah 5: Simpan Dokumen yang Digabungkan
 
@@ -99,7 +101,7 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah berhasil menggabungka
 Ya, Anda dapat mengulangi proses untuk menggabungkan beberapa dokumen dengan memuat dokumen tambahan dan menambahkannya secara berurutan.
 
 ### Apakah format asli akan dipertahankan?
- Ya, menggunakan`ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dari dokumen sumber dipertahankan.
+Ya, menggunakan `ImportFormatMode.KeepSourceFormatting` memastikan bahwa format dari dokumen sumber dipertahankan.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan .NET Core?
 Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
@@ -108,10 +110,15 @@ Ya, Aspose.Words untuk .NET kompatibel dengan .NET Framework dan .NET Core.
 Ya, tetapi Anda mungkin perlu menyesuaikan properti pengaturan halaman untuk memastikan penggabungan yang lancar.
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari forum komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

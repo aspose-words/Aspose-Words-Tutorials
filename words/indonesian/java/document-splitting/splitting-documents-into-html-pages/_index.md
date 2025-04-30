@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen menjadi Halaman HTML
-linktitle: Membagi Dokumen menjadi Halaman HTML
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membagi dokumen Word menjadi halaman HTML menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah kami dengan kode sumber membuat prosesnya mudah dan efisien. Mulailah mengonversi dokumen Anda hari ini!
-weight: 11
-url: /id/java/document-splitting/splitting-documents-into-html-pages/
+"description": "Pelajari cara membagi dokumen Word menjadi halaman HTML menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah kami dengan kode sumber membuat prosesnya mudah dan efisien. Mulailah mengonversi dokumen Anda hari ini!"
+"linktitle": "Membagi Dokumen menjadi Halaman HTML"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membagi Dokumen menjadi Halaman HTML"
+"url": "/id/java/document-splitting/splitting-documents-into-html-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen menjadi Halaman HTML
@@ -21,7 +23,7 @@ Dalam panduan lengkap ini, kita akan menjelajahi cara membagi dokumen menjadi ha
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 
 ## Perkenalan
@@ -40,7 +42,7 @@ Dalam kode Java Anda, pertama-tama Anda perlu memuat dokumen Word yang ingin And
 Document doc = new Document("your-document.docx");
 ```
 
- Mengganti`"your-document.docx"` dengan jalur ke dokumen Word Anda.
+Mengganti `"your-document.docx"` dengan jalur ke dokumen Word Anda.
 
 ## Memisahkan Dokumen
 
@@ -53,7 +55,7 @@ splitOptions.setDocumentSplitCriteria(DocumentSplitCriteria.PAGE_BREAK);
 List<Document> pages = DocumentSplitter.split(doc, splitOptions);
 ```
 
- Kode ini membagi dokumen berdasarkan jeda halaman dan menyimpan setiap halaman di`pages` daftar.
+Kode ini membagi dokumen berdasarkan jeda halaman dan menyimpan setiap halaman di `pages` daftar.
 
 ## Menyimpan sebagai HTML
 
@@ -77,7 +79,7 @@ Sekarang, Anda dapat mengubah dokumen Word Anda menjadi halaman HTML dengan muda
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Untuk menginstal Aspose.Words untuk Java, unduh pustaka dari[Di Sini](https://releases.aspose.com/words/java/) dan sertakan file JAR di classpath proyek Java Anda.
+Untuk menginstal Aspose.Words untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/) dan sertakan file JAR di classpath proyek Java Anda.
 
 ### Bisakah saya menyesuaikan kriteria pemisahan?
 
@@ -93,13 +95,17 @@ Ya, Anda dapat mengonversi kembali halaman HTML ke dokumen Word menggunakan Aspo
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Anda dapat menemukan dokumentasi terperinci dan contoh kode di halaman dokumentasi Aspose.Words untuk Java[Di Sini](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi terperinci dan contoh kode di halaman dokumentasi Aspose.Words untuk Java [Di Sini](https://reference.aspose.com/words/java/).
 
 
 Sekarang setelah Anda memiliki pemahaman yang mendalam tentang cara membagi dokumen Word menjadi halaman HTML menggunakan Aspose.Words untuk Java, Anda dapat mulai menerapkan fitur ini dalam proyek Anda. Selamat membuat kode!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

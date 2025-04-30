@@ -1,14 +1,16 @@
 ---
-title: Masukkan Hyperlink Dalam Dokumen Word
-linktitle: Masukkan Hyperlink Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan hyperlink ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan tugas pembuatan dokumen Anda.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/insert-hyperlink/
+"description": "Pelajari cara menyisipkan hyperlink ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan tugas pembuatan dokumen Anda."
+"linktitle": "Masukkan Hyperlink Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Hyperlink Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/insert-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Hyperlink Dalam Dokumen Word
@@ -21,7 +23,7 @@ Membuat dan mengelola dokumen Word merupakan tugas mendasar dalam banyak aplikas
 
 Sebelum kita memulai, mari pastikan kita memiliki semua yang kita butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Visual Studio: Versi mana pun bisa digunakan, tetapi versi terbaru sangat direkomendasikan.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework di sistem Anda.
 
@@ -45,11 +47,11 @@ Pertama, kita perlu menentukan jalur ke direktori dokumen kita. Di sinilah dokum
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ## Langkah 2: Buat Dokumen Baru
 
- Selanjutnya kita membuat dokumen baru dan menginisialisasi`DocumentBuilder` . Itu`DocumentBuilder` Kelas menyediakan metode untuk menyisipkan teks, gambar, tabel, dan konten lain ke dalam dokumen.
+Selanjutnya kita membuat dokumen baru dan menginisialisasi `DocumentBuilder`. Itu `DocumentBuilder` Kelas menyediakan metode untuk menyisipkan teks, gambar, tabel, dan konten lain ke dalam dokumen.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Tulis Teks Awal
 
- Menggunakan`DocumentBuilder`, kita akan menulis beberapa teks awal ke dokumen. Ini akan menyiapkan konteks tempat hyperlink kita akan disisipkan.
+Menggunakan `DocumentBuilder`kita akan menulis beberapa teks awal ke dokumen. Ini akan menyiapkan konteks tempat hyperlink kita akan disisipkan.
 
 ```csharp
 builder.Write("Please make sure to visit ");
@@ -74,7 +76,7 @@ builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
 
 ## Langkah 5: Masukkan Hyperlink
 
- Sekarang, kita masukkan hyperlink menggunakan`InsertHyperlink` metode. Metode ini mengambil tiga parameter: teks tampilan, URL, dan boolean yang menunjukkan apakah tautan harus diformat sebagai hyperlink.
+Sekarang, kita masukkan hyperlink menggunakan `InsertHyperlink` metode. Metode ini mengambil tiga parameter: teks tampilan, URL, dan boolean yang menunjukkan apakah tautan harus diformat sebagai hyperlink.
 
 ```csharp
 builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", salah);
@@ -112,26 +114,31 @@ Memasukkan hyperlink ke dalam dokumen Word menggunakan Aspose.Words untuk .NET m
 
 ### Bisakah saya menyisipkan beberapa hyperlink dalam satu dokumen?
 
- Ya, Anda dapat memasukkan beberapa hyperlink dengan mengulangi`InsertHyperlink` metode untuk setiap tautan.
+Ya, Anda dapat memasukkan beberapa hyperlink dengan mengulangi `InsertHyperlink` metode untuk setiap tautan.
 
 ### Bagaimana cara mengubah warna hyperlink?
 
- Anda dapat mengubah gaya hyperlink dengan mengubah`Font.Color` properti sebelum menelepon`InsertHyperlink`.
+Anda dapat mengubah gaya hyperlink dengan mengubah `Font.Color` properti sebelum menelepon `InsertHyperlink`.
 
 ### Bisakah saya menambahkan hyperlink ke gambar?
 
- Ya, Anda bisa menggunakan`InsertHyperlink` metode dalam kombinasi dengan`InsertImage` untuk menambahkan hyperlink ke gambar.
+Ya, Anda bisa menggunakan `InsertHyperlink` metode dalam kombinasi dengan `InsertImage` untuk menambahkan hyperlink ke gambar.
 
 ### Apa yang terjadi jika URL tidak valid?
 
- Itu`InsertHyperlink` metode tidak memvalidasi URL, jadi penting untuk memastikan URL sudah benar sebelum memasukkannya.
+Itu `InsertHyperlink` metode tidak memvalidasi URL, jadi penting untuk memastikan URL sudah benar sebelum memasukkannya.
 
 ### Apakah mungkin untuk menghapus hyperlink setelah disisipkan?
 
- Ya, Anda dapat menghapus hyperlink dengan mengakses`FieldHyperlink` dan memanggil`Remove` metode.
+Ya, Anda dapat menghapus hyperlink dengan mengakses `FieldHyperlink` dan memanggil `Remove` metode.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

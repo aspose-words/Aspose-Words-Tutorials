@@ -1,14 +1,16 @@
 ---
-title: Áp dụng đường viền và đổ bóng cho đoạn văn trong tài liệu Word
-linktitle: Áp dụng đường viền và đổ bóng cho đoạn văn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Áp dụng đường viền và đổ bóng cho các đoạn văn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện định dạng tài liệu của bạn.
-weight: 10
-url: /vi/net/document-formatting/apply-borders-and-shading-to-paragraph/
+"description": "Áp dụng đường viền và đổ bóng cho các đoạn văn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện định dạng tài liệu của bạn."
+"linktitle": "Áp dụng đường viền và đổ bóng cho đoạn văn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Áp dụng đường viền và đổ bóng cho đoạn văn trong tài liệu Word"
+"url": "/vi/net/document-formatting/apply-borders-and-shading-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng đường viền và đổ bóng cho đoạn văn trong tài liệu Word
@@ -21,10 +23,10 @@ Xin chào, bạn đã bao giờ tự hỏi làm thế nào để làm cho tài l
 
 Trước khi xắn tay áo và bắt tay vào viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh của bạn:
 
--  Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn cần cài đặt thư viện này. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 - Kiến thức cơ bản về C#: Chỉ đủ để hiểu và chỉnh sửa các đoạn mã.
-- Giấy phép hợp lệ: Hoặc là[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc một cái đã mua từ[Đặt ra](https://purchase.aspose.com/buy).
+- Giấy phép hợp lệ: Hoặc là [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc một cái đã mua từ [Đặt ra](https://purchase.aspose.com/buy).
 
 ## Nhập không gian tên
 
@@ -48,18 +50,18 @@ Trước tiên, chúng ta cần một nơi để lưu tài liệu được đị
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thư mục này là nơi tài liệu cuối cùng của bạn sẽ được lưu. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
+Thư mục này là nơi tài liệu cuối cùng của bạn sẽ được lưu. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Tạo một Tài liệu mới và DocumentBuilder
 
- Tiếp theo, chúng ta cần tạo một tài liệu mới và một`DocumentBuilder` đối tượng. Các`DocumentBuilder` là cây đũa thần cho phép chúng ta thao tác tài liệu.
+Tiếp theo, chúng ta cần tạo một tài liệu mới và một `DocumentBuilder` đối tượng. Các `DocumentBuilder` là cây đũa thần cho phép chúng ta thao tác tài liệu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`Document` đối tượng đại diện cho toàn bộ tài liệu Word của chúng tôi và`DocumentBuilder` giúp chúng tôi thêm và định dạng nội dung.
+Các `Document` đối tượng đại diện cho toàn bộ tài liệu Word của chúng tôi và `DocumentBuilder` giúp chúng tôi thêm và định dạng nội dung.
 
 ## Bước 3: Xác định đường viền đoạn văn
 
@@ -78,7 +80,7 @@ borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
 ## Bước 4: Áp dụng tô bóng cho đoạn văn
 
-Đường viền rất tuyệt, nhưng hãy nâng cấp bằng cách thêm một chút đổ bóng. Chúng ta sẽ sử dụng mẫu chữ thập chéo với sự pha trộn màu sắc để làm cho đoạn văn của chúng ta nổi bật.
+Đường viền rất tuyệt, nhưng hãy nâng cấp thêm một chút bằng cách tô bóng. Chúng ta sẽ sử dụng mẫu chữ thập chéo với sự pha trộn màu sắc để làm cho đoạn văn của chúng ta nổi bật.
 
 ```csharp
 Shading shading = builder.ParagraphFormat.Shading;
@@ -87,7 +89,7 @@ shading.BackgroundPatternColor = System.Drawing.Color.LightCoral;
 shading.ForegroundPatternColor = System.Drawing.Color.LightSalmon;
 ```
 
-Trong bước này, chúng tôi áp dụng họa tiết chéo chéo với màu san hô nhạt làm màu nền và màu hồng nhạt làm màu nền trước. Giống như việc bạn mặc quần áo thiết kế cho đoạn văn của mình vậy!
+Trong bước này, chúng tôi áp dụng họa tiết chữ thập chéo với màu san hô nhạt làm màu nền và màu hồng nhạt làm màu nền trước. Giống như việc bạn mặc quần áo của nhà thiết kế cho đoạn văn của mình vậy!
 
 ## Bước 5: Thêm văn bản vào đoạn văn
 
@@ -107,32 +109,37 @@ Cuối cùng, đã đến lúc lưu công việc của chúng ta. Hãy lưu tài
 doc.Save(dataDir + "DocumentFormatting.ApplyBordersAndShadingToParagraph.doc");
 ```
 
- Điều này lưu tài liệu của chúng tôi với tên`DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` trong thư mục chúng tôi đã chỉ định trước đó.
+Điều này lưu tài liệu của chúng tôi với tên `DocumentFormatting.ApplyBordersAndShadingToParagraph.doc` trong thư mục chúng tôi đã chỉ định trước đó.
 
 ## Phần kết luận
 
-Và bạn đã có nó! Chỉ với một vài dòng mã, chúng tôi đã chuyển đổi một đoạn văn đơn giản thành một nội dung hấp dẫn về mặt thị giác. Aspose.Words cho .NET giúp bạn dễ dàng thêm định dạng trông chuyên nghiệp vào tài liệu của mình. Cho dù bạn đang chuẩn bị báo cáo, thư hay bất kỳ tài liệu nào, những thủ thuật này sẽ giúp bạn tạo ấn tượng tuyệt vời. Vì vậy, hãy tiếp tục, thử nghiệm và xem tài liệu của bạn trở nên sống động!
+Và bạn đã có nó! Chỉ với một vài dòng mã, chúng tôi đã chuyển đổi một đoạn văn đơn giản thành một phần nội dung hấp dẫn về mặt thị giác. Aspose.Words cho .NET giúp bạn dễ dàng thêm định dạng trông chuyên nghiệp vào tài liệu của mình. Cho dù bạn đang chuẩn bị báo cáo, thư hay bất kỳ tài liệu nào, những thủ thuật này sẽ giúp bạn tạo ấn tượng tuyệt vời. Vì vậy, hãy tiếp tục, thử nghiệm và xem tài liệu của bạn trở nên sống động!
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng các kiểu đường kẻ khác nhau cho mỗi đường viền không?  
- Chắc chắn rồi! Aspose.Words cho .NET cho phép bạn tùy chỉnh từng đường viền riêng lẻ. Chỉ cần đặt`LineStyle` cho từng loại đường viền như được hiển thị trong hướng dẫn.
+Chắc chắn rồi! Aspose.Words cho .NET cho phép bạn tùy chỉnh từng đường viền riêng lẻ. Chỉ cần đặt `LineStyle` cho từng loại đường viền như được hiển thị trong hướng dẫn.
 
 ### Có những kết cấu đổ bóng nào khác?  
- Có một số kết cấu bạn có thể sử dụng, chẳng hạn như kết cấu rắn, sọc ngang, sọc dọc, v.v. Kiểm tra[Tài liệu Aspose](https://reference.aspose.com/words/net/) để biết danh sách đầy đủ.
+Có một số kết cấu bạn có thể sử dụng, chẳng hạn như kết cấu rắn, sọc ngang, sọc dọc, v.v. Kiểm tra [Tài liệu Aspose](https://reference.aspose.com/words/net/) để biết danh sách đầy đủ.
 
 ### Làm thế nào để tôi có thể thay đổi màu đường viền?  
- Bạn có thể thiết lập màu đường viền bằng cách sử dụng`Color` thuộc tính cho mỗi đường viền. Ví dụ,`borders[BorderType.Left].Color = Color.Red;`.
+Bạn có thể thiết lập màu đường viền bằng cách sử dụng `Color` thuộc tính cho mỗi đường viền. Ví dụ, `borders[BorderType.Left].Color = Color.Red;`.
 
 ### Có thể áp dụng đường viền và đổ bóng cho một phần cụ thể của văn bản không?  
- Có, bạn có thể áp dụng đường viền và đổ bóng cho các đoạn văn bản cụ thể bằng cách sử dụng`Run` đối tượng trong`DocumentBuilder`.
+Có, bạn có thể áp dụng đường viền và đổ bóng cho các đoạn văn bản cụ thể bằng cách sử dụng `Run` đối tượng trong `DocumentBuilder`.
 
 ### Tôi có thể tự động hóa quy trình này cho nhiều đoạn văn không?  
 Chắc chắn rồi! Bạn có thể lặp lại các đoạn văn của mình và áp dụng cùng các đường viền và thiết lập đổ bóng theo chương trình.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

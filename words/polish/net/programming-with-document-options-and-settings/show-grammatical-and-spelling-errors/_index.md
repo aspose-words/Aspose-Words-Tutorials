@@ -1,14 +1,16 @@
 ---
-title: Pokaż błędy gramatyczne i ortograficzne
-linktitle: Pokaż błędy gramatyczne i ortograficzne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyświetlać błędy gramatyczne i ortograficzne w dokumentach Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu samouczkowi.
-weight: 10
-url: /pl/net/programming-with-document-options-and-settings/show-grammatical-and-spelling-errors/
+"description": "Dowiedz się, jak wyświetlać błędy gramatyczne i ortograficzne w dokumentach Word za pomocą Aspose.Words for .NET dzięki temu kompleksowemu samouczkowi."
+"linktitle": "Pokaż błędy gramatyczne i ortograficzne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pokaż błędy gramatyczne i ortograficzne"
+"url": "/pl/net/programming-with-document-options-and-settings/show-grammatical-and-spelling-errors/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pokaż błędy gramatyczne i ortograficzne
@@ -21,7 +23,7 @@ Czy zdarza Ci się niestrudzenie przeglądać dokumenty, aby wyłapać każdy na
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz i zainstaluj bibliotekę z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 3. Podstawowa wiedza o języku C#: Powinieneś znać podstawowe koncepcje programowania w języku C#.
 
@@ -37,7 +39,7 @@ Omówmy krok po kroku proces pokazywania błędów gramatycznych i ortograficzny
 
 ## Krok 1: Skonfiguruj swój projekt
 
- Zanim zagłębimy się w kod, upewnij się, że projekt jest poprawnie skonfigurowany. Otwórz IDE i utwórz nowy projekt .NET. Dodaj odwołanie do biblioteki Aspose.Words. Jeśli jeszcze jej nie pobrałeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+Zanim zagłębimy się w kod, upewnij się, że projekt jest poprawnie skonfigurowany. Otwórz IDE i utwórz nowy projekt .NET. Dodaj odwołanie do biblioteki Aspose.Words. Jeśli jeszcze jej nie pobrałeś, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 
 ## Krok 2: Zdefiniuj katalog dokumentów
 
@@ -48,7 +50,7 @@ Po pierwsze, musisz zdefiniować ścieżkę do katalogu dokumentów. To tutaj zn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywane są Twoje dokumenty Word. Pomoże to Aspose.Words zlokalizować dokument, nad którym chcesz pracować.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której przechowywane są Twoje dokumenty Word. Pomoże to Aspose.Words zlokalizować dokument, nad którym chcesz pracować.
 
 ## Krok 3: Załaduj swój dokument
 
@@ -58,11 +60,11 @@ Następnie musisz załadować dokument, który chcesz przetworzyć. Aspose.Words
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Tutaj,`Document.docx` jest nazwą pliku, który chcesz sprawdzić pod kątem błędów gramatycznych i ortograficznych. Upewnij się, że ten plik istnieje w podanym przez Ciebie katalogu.
+Tutaj, `Document.docx` jest nazwą pliku, który chcesz sprawdzić pod kątem błędów gramatycznych i ortograficznych. Upewnij się, że ten plik istnieje w podanym przez Ciebie katalogu.
 
 ## Krok 4: Włącz wyświetlanie błędów gramatycznych i ortograficznych
 
-Teraz nadchodzi zabawna część! Możesz włączyć wyświetlanie błędów gramatycznych i ortograficznych za pomocą zaledwie kilku linijek kodu.
+Teraz zaczyna się zabawa! Możesz włączyć wyświetlanie błędów gramatycznych i ortograficznych za pomocą zaledwie kilku linijek kodu.
 
 ```csharp
 doc.ShowGrammaticalErrors = true;
@@ -79,13 +81,13 @@ Na koniec musisz zapisać dokument po włączeniu wyświetlania błędów. Spowo
 doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ShowGrammaticalAndSpellingErrors.docx");
 ```
 
-Spowoduje to zapisanie zmodyfikowanego dokumentu pod nową nazwą, dzięki czemu nie nadpiszesz oryginalnego pliku. Teraz możesz otworzyć ten nowy plik, aby zobaczyć wszystkie podświetlone błędy gramatyczne i ortograficzne.
+Spowoduje to zapisanie zmodyfikowanego dokumentu pod nową nazwą, dzięki czemu nie nadpiszesz oryginalnego pliku. Teraz możesz otworzyć ten nowy plik, aby zobaczyć wszystkie wyróżnione błędy gramatyczne i ortograficzne.
 
 ## Wniosek
 
-I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak zautomatyzować proces wyświetlania błędów gramatycznych i ortograficznych w dokumencie Word za pomocą Aspose.Words dla .NET. To nie tylko oszczędza Twój czas, ale także zapewnia, że Twoje dokumenty są wolne od błędów i profesjonalne.
+masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak zautomatyzować proces wyświetlania błędów gramatycznych i ortograficznych w dokumencie Word za pomocą Aspose.Words dla .NET. To nie tylko oszczędza Twój czas, ale także zapewnia, że Twoje dokumenty są wolne od błędów i profesjonalne.
 
- A tak przy okazji, jeśli jeszcze nie wypróbowałeś Aspose.Words dla .NET, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) . Jeśli potrzebujesz kupić licencję, możesz to zrobić[Tutaj](https://purchase.aspose.com/buy) A jeśli kiedykolwiek będziesz potrzebować wsparcia, nie wahaj się odwiedzić ich[forum](https://forum.aspose.com/c/words/8).
+A tak przy okazji, jeśli jeszcze nie wypróbowałeś Aspose.Words dla .NET, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/). Jeśli potrzebujesz kupić licencję, możesz to zrobić [Tutaj](https://purchase.aspose.com/buy). A jeśli kiedykolwiek będziesz potrzebować wsparcia, nie wahaj się odwiedzić ich [forum](https://forum.aspose.com/c/words/8).
 
 ## Najczęściej zadawane pytania
 
@@ -96,17 +98,22 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom pr
 Oczywiście! Aspose.Words bezproblemowo integruje się z projektami .NET.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Bibliotekę można pobrać ze strony[strona internetowa](https://releases.aspose.com/words/net/) i dodaj go do swojego projektu jako punkt odniesienia.
+Bibliotekę można pobrać ze strony [strona internetowa](https://releases.aspose.com/words/net/) dodaj go do swojego projektu jako punkt odniesienia.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

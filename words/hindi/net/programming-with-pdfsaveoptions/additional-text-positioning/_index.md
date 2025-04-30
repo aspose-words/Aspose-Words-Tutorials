@@ -1,14 +1,16 @@
 ---
-title: अतिरिक्त टेक्स्ट पोजिशनिंग के साथ पीडीएफ टेक्स्ट पोजिशनिंग में सुधार करें
-linktitle: अतिरिक्त टेक्स्ट पोजिशनिंग के साथ पीडीएफ टेक्स्ट पोजिशनिंग में सुधार करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि कुछ आसान चरणों में Aspose.Words for .NET के साथ PDF टेक्स्ट पोजिशनिंग को कैसे सुधारें। अपने दस्तावेज़ की दिखावट को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "जानें कि कुछ आसान चरणों में Aspose.Words for .NET के साथ PDF टेक्स्ट पोजिशनिंग को कैसे सुधारें। अपने दस्तावेज़ की दिखावट को बेहतर बनाएँ।"
+"linktitle": "अतिरिक्त टेक्स्ट पोजिशनिंग के साथ पीडीएफ टेक्स्ट पोजिशनिंग में सुधार करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "अतिरिक्त टेक्स्ट पोजिशनिंग के साथ पीडीएफ टेक्स्ट पोजिशनिंग में सुधार करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अतिरिक्त टेक्स्ट पोजिशनिंग के साथ पीडीएफ टेक्स्ट पोजिशनिंग में सुधार करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/additional-text-positioning/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि हमारे पास सभी आवश्यक उपकरण और संसाधन मौजूद हैं:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: विजुअल स्टूडियो जैसा एक एकीकृत विकास पर्यावरण (आईडीई)।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क 4.0 या उच्चतर संस्करण स्थापित है।
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना लाभदायक होगा।
@@ -53,20 +55,20 @@ using Aspose.Words.Saving;
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  दस्तावेज़ लोड करें: का उपयोग करें`Document` अपने वर्ड दस्तावेज़ को लोड करने के लिए क्लास का उपयोग करें।
+2. दस्तावेज़ लोड करें: का उपयोग करें `Document` अपने वर्ड दस्तावेज़ को लोड करने के लिए क्लास का उपयोग करें।
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
 ## चरण 3: पीडीएफ सेव विकल्प कॉन्फ़िगर करें
 
- जादू यहीं होता है! हम कॉन्फ़िगर करेंगे`PdfSaveOptions` अतिरिक्त पाठ स्थिति को सक्षम करने के लिए.
+जादू यहीं होता है! हम कॉन्फ़िगर करेंगे `PdfSaveOptions` अतिरिक्त पाठ स्थिति को सक्षम करने के लिए.
 
-1.  PdfSaveOptions ऑब्जेक्ट बनाएँ: इंस्टैंशिएट करें`PdfSaveOptions` कक्षा।
+1. PdfSaveOptions ऑब्जेक्ट बनाएँ: इंस्टैंशियेट करें `PdfSaveOptions` कक्षा।
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  अतिरिक्त टेक्स्ट स्थिति निर्धारण सक्षम करें: सेट करें`AdditionalTextPositioning`संपत्ति को`true`.
+2. अतिरिक्त टेक्स्ट स्थिति निर्धारण सक्षम करें: सेट करें `AdditionalTextPositioning` संपत्ति को `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
@@ -92,17 +94,22 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 नहीं, अतिरिक्त पाठ स्थिति सुविधा पीडीएफ रूपांतरण के लिए विशिष्ट है।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, आप प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy).
+हां, आप प्राप्त कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) या पूर्ण लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप डाउनलोड कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) .NET के लिए Aspose.Words का.
+हां, आप डाउनलोड कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) .NET के लिए Aspose.Words का.
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज यहां उपलब्ध है[Aspose वेबसाइट](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज यहां उपलब्ध है [Aspose वेबसाइट](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

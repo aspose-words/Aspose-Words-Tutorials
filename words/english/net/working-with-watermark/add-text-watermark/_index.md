@@ -6,17 +6,23 @@ description: Learn how to add a text watermark with specific options to a Word d
 keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
 url: /net/working-with-watermark/add-text-watermark/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text Watermark in Word Document Using Aspose.Words
 Adding a text watermark to a Word document is a straightforward process using Aspose.Words for .NET. This tutorial demonstrates how to apply a customizable text watermark to your document. With features like font family, size, color, layout, and transparency control, you can tailor the watermark to your exact needs. Whether it's branding, confidentiality, or aesthetics, Aspose.Words makes it simple to enhance your documents with professional watermarks.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 1. Download Aspose.Words for .NET:  
@@ -41,8 +47,12 @@ Adding a text watermark to a Word document is a straightforward process using As
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

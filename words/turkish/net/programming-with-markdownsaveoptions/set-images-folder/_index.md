@@ -1,14 +1,16 @@
 ---
-title: Görüntüler Klasörünü Ayarla
-linktitle: Görüntüler Klasörünü Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini uygun tablo hizalamasıyla Markdown'a dönüştürün. Mükemmel sonuçlar için ayrıntılı kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini uygun tablo hizalamasıyla Markdown'a dönüştürün. Mükemmel sonuçlar için ayrıntılı kılavuzumuzu izleyin."
+"linktitle": "Görüntüler Klasörünü Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Görüntüler Klasörünü Ayarla"
+"url": "/tr/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüler Klasörünü Ayarla
@@ -21,8 +23,8 @@ Word belgenizi tabloların ve içeriğin mükemmel şekilde hizalanmasını sağ
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
--  Geçerli bir lisans: Ücretsiz deneme edinin[Burada](https://releases.aspose.com/) veya geçici bir lisans[Burada](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+- Geçerli bir lisans: Ücretsiz deneme edinin [Burada](https://releases.aspose.com/) veya geçici bir lisans [Burada](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: Veya .NET geliştirmeyi destekleyen herhangi bir IDE.
 - C# temel bilgisi: C# programlama dilinin anlaşılması.
 
@@ -46,7 +48,7 @@ Visual Studio'yu açın ve yeni bir Konsol Uygulaması projesi oluşturun. "Mark
 
 ### 1.2 Aspose.Words Referansını Ekle
 
- Projenize Aspose.Words'ü eklemek için DLL'yi şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/) ve bunu manuel olarak ekleyin veya NuGet Paket Yöneticisini kullanın:
+Projenize Aspose.Words'ü eklemek için DLL'yi şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/) ve bunu manuel olarak ekleyin veya NuGet Paket Yöneticisini kullanın:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 Markdown Kaydetme Seçeneklerini Yapılandırma
 
- Yapılandırın`MarkdownSaveOptions` resimlerin nerede saklanacağını belirtmek için.
+Yapılandırın `MarkdownSaveOptions` resimlerin nerede saklanacağını belirtmek için.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 Belgeyi Markdown Olarak Kaydet
 
- Birini kullan`MemoryStream` Belgeyi Markdown formatında kaydetmek için.
+Birini kullan `MemoryStream` Belgeyi Markdown formatında kaydetmek için.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -106,7 +108,7 @@ Evet, Aspose.Words for .NET, VB.NET, F# ve daha fazlası gibi herhangi bir .NET 
 
 ### Aspose.Words için geçici lisansı nasıl alabilirim?
 
-Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Hangi tür belgeleri Markdown'a dönüştürebilirim?
 
@@ -114,15 +116,20 @@ Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-l
 
 ### Aspose.Words'ün deneme sürümünde herhangi bir sınırlama var mı?
 
-Deneme sürümünde çıktı dosyalarında filigran gibi bazı sınırlamalar vardır. Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Deneme sürümünde çıktı dosyalarında filigran gibi bazı sınırlamalar vardır. Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words için daha fazla örnek ve dokümanı nerede bulabilirim?
 
- Ayrıntılı dokümanları ve örnekleri şu adreste bulabilirsiniz:[Aspose web sitesi](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları ve örnekleri şu adreste bulabilirsiniz: [Aspose web sitesi](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

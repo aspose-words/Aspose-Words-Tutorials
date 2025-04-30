@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Rentang Halaman Tiff
-linktitle: Dapatkan Rentang Halaman Tiff
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonversi rentang halaman tertentu dari dokumen Word ke file TIFF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-imagesaveoptions/get-tiff-page-range/
+"description": "Pelajari cara mengonversi rentang halaman tertentu dari dokumen Word ke file TIFF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Dapatkan Rentang Halaman Tiff"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Rentang Halaman Tiff"
+"url": "/id/net/programming-with-imagesaveoptions/get-tiff-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Rentang Halaman Tiff
@@ -21,7 +23,7 @@ Hai, para pengembang! Apakah Anda lelah dengan kerepotan yang terlibat dalam men
 
 Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang perlu diikuti:
 
-1.  Aspose.Words untuk Pustaka .NET: Jika Anda belum melakukannya, unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Jika Anda belum melakukannya, unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio akan membantu.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda nyaman dengan pemrograman C#.
 4. Contoh Dokumen Word: Siapkan dokumen Word untuk bereksperimen.
@@ -66,7 +68,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.MultipageTiff.tiff");
 
 ## Langkah 4: Siapkan Opsi Penyimpanan Gambar
 
-Sekarang, keajaiban sesungguhnya terjadi! Kita perlu mengatur`ImageSaveOptions` untuk menentukan rentang halaman dan properti lainnya untuk konversi TIFF.
+Sekarang, keajaiban sesungguhnya terjadi! Kita perlu mengatur `ImageSaveOptions` untuk menentukan rentang halaman dan properti lainnya untuk konversi TIFF.
 
 ```csharp
 // Buat ImageSaveOptions dengan pengaturan tertentu
@@ -80,7 +82,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 
 ## Langkah 5: Simpan Rentang Halaman yang Ditentukan sebagai TIFF
 
- Terakhir, mari simpan rentang halaman dokumen yang ditentukan sebagai file TIFF menggunakan`saveOptions` kami konfigurasikan.
+Terakhir, mari simpan rentang halaman dokumen yang ditentukan sebagai file TIFF menggunakan `saveOptions` kami konfigurasikan.
 
 ```csharp
 // Simpan rentang halaman yang ditentukan sebagai TIFF
@@ -95,15 +97,15 @@ Nah, itu dia! Dengan mengikuti langkah-langkah sederhana ini, Anda telah berhasi
 
 ### Bisakah saya mengonversi beberapa rentang halaman menjadi file TIFF terpisah?
 
- Tentu saja! Anda dapat membuat beberapa`ImageSaveOptions`objek dengan berbeda`PageSet` konfigurasi untuk mengubah berbagai rentang halaman menjadi file TIFF terpisah.
+Tentu saja! Anda dapat membuat beberapa `ImageSaveOptions` objek dengan berbeda `PageSet` konfigurasi untuk mengubah berbagai rentang halaman menjadi file TIFF terpisah.
 
 ### Bagaimana cara mengubah resolusi berkas TIFF?
 
- Cukup sesuaikan`Resolution` properti di`ImageSaveOptions` objek sesuai nilai yang Anda inginkan.
+Cukup sesuaikan `Resolution` properti di `ImageSaveOptions` objek sesuai nilai yang Anda inginkan.
 
-### Apakah mungkin menggunakan metode kompresi yang berbeda untuk berkas TIFF?
+### Apakah mungkin untuk menggunakan metode kompresi yang berbeda untuk berkas TIFF?
 
- Ya, Aspose.Words untuk .NET mendukung berbagai metode kompresi TIFF. Anda dapat mengatur`TiffCompression` properti ke nilai lain seperti`Lzw` atau`Rle` berdasarkan kebutuhan Anda.
+Ya, Aspose.Words untuk .NET mendukung berbagai metode kompresi TIFF. Anda dapat mengatur `TiffCompression` properti ke nilai lain seperti `Lzw` atau `Rle` berdasarkan kebutuhan Anda.
 
 ### Dapatkah saya menyertakan anotasi atau tanda air dalam berkas TIFF?
 
@@ -111,10 +113,15 @@ Ya, Anda dapat menggunakan Aspose.Words untuk menambahkan anotasi atau tanda air
 
 ### Format gambar lain apa yang didukung oleh Aspose.Words untuk .NET?
 
- Aspose.Words untuk .NET mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF. Anda dapat menentukan format yang diinginkan di`ImageSaveOptions`.
+Aspose.Words untuk .NET mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF. Anda dapat menentukan format yang diinginkan di `ImageSaveOptions`.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,39 +1,41 @@
 ---
-title: Inhaltssteuerelemente ändern
-linktitle: Inhaltssteuerelemente ändern
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie strukturierte Dokument-Tags in Word mit Aspose.Words für .NET ändern. Aktualisieren Sie Text, Dropdowns und Bilder Schritt für Schritt.
-weight: 10
-url: /de/net/programming-with-sdt/modify-content-controls/
+"description": "Erfahren Sie, wie Sie strukturierte Dokument-Tags in Word mit Aspose.Words für .NET ändern. Aktualisieren Sie Text, Dropdown-Menüs und Bilder Schritt für Schritt."
+"linktitle": "Inhaltssteuerelemente ändern"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Inhaltssteuerelemente ändern"
+"url": "/de/net/programming-with-sdt/modify-content-controls/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inhaltssteuerelemente ändern
 
 ## Einführung
 
-Wenn Sie schon einmal mit Word-Dokumenten gearbeitet und strukturierte Inhaltssteuerelemente – wie einfachen Text, Dropdown-Listen oder Bilder – mit Aspose.Words für .NET ändern mussten, sind Sie hier richtig! Structured Document Tags (SDTs) sind leistungsstarke Tools, die die Dokumentautomatisierung einfacher und flexibler machen. In diesem Tutorial erfahren Sie, wie Sie diese SDTs an Ihre Bedürfnisse anpassen können. Egal, ob Sie Text aktualisieren, Dropdown-Auswahlen ändern oder Bilder austauschen, diese Anleitung führt Sie Schritt für Schritt durch den Vorgang.
+Wenn Sie schon einmal mit Word-Dokumenten gearbeitet und strukturierte Inhaltssteuerelemente – wie einfachen Text, Dropdown-Listen oder Bilder – mit Aspose.Words für .NET anpassen mussten, sind Sie hier genau richtig! Strukturierte Dokument-Tags (SDTs) sind leistungsstarke Tools, die die Dokumentenautomatisierung einfacher und flexibler machen. In diesem Tutorial erfahren Sie, wie Sie diese SDTs an Ihre Bedürfnisse anpassen können. Egal, ob Sie Text aktualisieren, Dropdown-Auswahlen ändern oder Bilder austauschen – diese Anleitung führt Sie Schritt für Schritt durch den Prozess.
 
 ## Voraussetzungen
 
 Bevor wir uns in die Einzelheiten der Änderung von Inhaltssteuerelementen stürzen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Aspose.Words für .NET installiert: Stellen Sie sicher, dass Sie die Aspose.Words-Bibliothek installiert haben. Wenn nicht, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET installiert: Stellen Sie sicher, dass die Aspose.Words-Bibliothek installiert ist. Falls nicht, können Sie [Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
 
 2. Grundkenntnisse in C#: Dieses Tutorial setzt voraus, dass Sie mit den grundlegenden Konzepten der C#-Programmierung vertraut sind.
 
 3. Eine .NET-Entwicklungsumgebung: Sie sollten eine IDE wie Visual Studio zum Ausführen von .NET-Anwendungen eingerichtet haben.
 
-4. Ein Beispieldokument: Wir verwenden ein Beispiel-Word-Dokument mit verschiedenen SDT-Typen. Sie können das aus dem Beispiel verwenden oder Ihr eigenes erstellen.
+4. Beispieldokument: Wir verwenden ein Word-Beispieldokument mit verschiedenen SDT-Typen. Sie können das Beispieldokument verwenden oder ein eigenes erstellen.
 
-5.  Zugriff auf die Aspose-Dokumentation: Ausführlichere Informationen finden Sie in der[Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/).
+5. Zugriff auf die Aspose-Dokumentation: Weitere Informationen finden Sie in der [Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/).
 
 ## Namespaces importieren
 
-Um mit Aspose.Words arbeiten zu können, müssen Sie die relevanten Namespaces in Ihr C#-Projekt importieren. So geht's:
+Um mit Aspose.Words arbeiten zu können, müssen Sie die entsprechenden Namespaces in Ihr C#-Projekt importieren. So geht's:
 
 ```csharp
 using Aspose.Words;
@@ -45,7 +47,7 @@ using Aspose.Words.Tables;
 
 ## Schritt 1: Richten Sie Ihren Dokumentpfad ein
 
- Bevor Sie Änderungen vornehmen, müssen Sie den Pfad zu Ihrem Dokument angeben. Ersetzen Sie`"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem Ihr Dokument gespeichert ist.
+Bevor Sie Änderungen vornehmen, müssen Sie den Pfad zu Ihrem Dokument angeben. Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad, in dem Ihr Dokument gespeichert ist.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,16 +56,16 @@ Document doc = new Document(dataDir + "Structured document tags.docx");
 
 ## Schritt 2: Durchlaufen strukturierter Dokument-Tags
 
- Um SDTs zu ändern, müssen Sie zunächst alle SDTs im Dokument durchlaufen. Dies geschieht mit dem`GetChildNodes` Methode zum Abrufen aller Knoten vom Typ`StructuredDocumentTag`.
+Um SDTs zu ändern, müssen Sie zunächst alle SDTs im Dokument durchlaufen. Dies geschieht mit dem `GetChildNodes` Methode zum Abrufen aller Knoten des Typs `StructuredDocumentTag`.
 
 ```csharp
 foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocumentTag, true))
 {
-    // SDTs basierend auf ihrem Typ ändern
+    // Ändern Sie SDTs basierend auf ihrem Typ
 }
 ```
 
-## Schritt 3: Ändern von SDTs im Klartext
+## Schritt 3: Ändern von Klartext-SDTs
 
 Wenn das SDT ein einfacher Texttyp ist, können Sie seinen Inhalt ersetzen. Löschen Sie zuerst den vorhandenen Inhalt und fügen Sie dann neuen Text hinzu.
 
@@ -77,11 +79,11 @@ if (sdt.SdtType == SdtType.PlainText)
 }
 ```
 
- Erläuterung: Hier`RemoveAllChildren()`löscht den vorhandenen Inhalt des SDT. Anschließend erstellen wir ein neues`Paragraph` Und`Run` Objekt, um den neuen Text einzufügen.
+Erklärung: Hier, `RemoveAllChildren()` löscht den vorhandenen Inhalt des SDT. Anschließend erstellen wir ein neues `Paragraph` Und `Run` Objekt, um den neuen Text einzufügen.
 
-## Schritt 4: Dropdown-Liste SDTs ändern
+## Schritt 4: Dropdown-Listen-SDTs ändern
 
- Bei Dropdown-Listen-SDTs können Sie das ausgewählte Element ändern, indem Sie auf das`ListItems` Sammlung. Hier wählen wir das dritte Element in der Liste aus.
+Bei Dropdown-Listen-SDTs können Sie das ausgewählte Element ändern, indem Sie auf das `ListItems` Sammlung. Hier wählen wir das dritte Element in der Liste aus.
 
 ```csharp
 if (sdt.SdtType == SdtType.DropDownList)
@@ -91,7 +93,7 @@ if (sdt.SdtType == SdtType.DropDownList)
 }
 ```
 
-Erklärung: Dieser Codeausschnitt wählt das Element am Index 2 (drittes Element) aus der Dropdown-Liste aus. Passen Sie den Index Ihren Anforderungen entsprechend an.
+Erklärung: Dieser Codeausschnitt wählt das Element an Index 2 (drittes Element) aus der Dropdown-Liste aus. Passen Sie den Index Ihren Anforderungen entsprechend an.
 
 ## Schritt 5: Bild-SDTs ändern
 
@@ -108,7 +110,7 @@ if (sdt.SdtType == SdtType.Picture)
 }
 ```
 
- Erklärung: Dieser Code prüft, ob die Form ein Bild enthält und ersetzt es dann durch ein neues Bild an der`ImagesDir`.
+Erklärung: Dieser Code prüft, ob die Form ein Bild enthält und ersetzt es dann durch ein neues Bild an der `ImagesDir`.
 
 ## Schritt 6: Speichern Sie Ihr geändertes Dokument
 
@@ -122,7 +124,7 @@ Erklärung: Dadurch wird das Dokument unter einem neuen Dateinamen gespeichert, 
 
 ## Abschluss
 
-Das Ändern von Inhaltssteuerelementen in einem Word-Dokument mit Aspose.Words für .NET ist unkompliziert, wenn Sie die erforderlichen Schritte erst einmal verstanden haben. Egal, ob Sie Text aktualisieren, Dropdown-Auswahlen ändern oder Bilder austauschen, Aspose.Words bietet eine robuste API für diese Aufgaben. Indem Sie diesem Tutorial folgen, können Sie die strukturierten Inhaltssteuerelemente Ihres Dokuments effektiv verwalten und anpassen und so Ihre Dokumente dynamischer und auf Ihre Bedürfnisse zugeschnitten gestalten.
+Das Ändern von Inhaltssteuerelementen in einem Word-Dokument mit Aspose.Words für .NET ist unkompliziert, sobald Sie die erforderlichen Schritte verstanden haben. Ob Sie Text aktualisieren, Dropdown-Auswahlen ändern oder Bilder austauschen – Aspose.Words bietet eine robuste API für diese Aufgaben. Mit diesem Tutorial können Sie die strukturierten Inhaltssteuerelemente Ihres Dokuments effektiv verwalten und anpassen und so Ihre Dokumente dynamischer und maßgeschneiderter gestalten.
 
 ## FAQs
 
@@ -132,7 +134,7 @@ SDTs sind Elemente in Word-Dokumenten, die bei der Verwaltung und Formatierung v
 
 2. Wie kann ich einem SDT ein neues Dropdown-Element hinzufügen?
 
- Um ein neues Element hinzuzufügen, verwenden Sie das`ListItems` Eigenschaft und fügen Sie eine neue`SdtListItem` zur Sammlung.
+Um ein neues Element hinzuzufügen, verwenden Sie das `ListItems` Eigenschaft und fügen Sie eine neue `SdtListItem` zur Sammlung.
 
 3. Kann ich Aspose.Words verwenden, um SDTs aus einem Dokument zu entfernen?
 
@@ -140,17 +142,17 @@ Ja, Sie können SDTs entfernen, indem Sie auf die Knoten des Dokuments zugreifen
 
 4. Wie gehe ich mit SDTs um, die in anderen Elementen verschachtelt sind?
 
- Verwenden Sie die`GetChildNodes` Methode mit entsprechenden Parametern für den Zugriff auf verschachtelte SDTs.
+Verwenden Sie die `GetChildNodes` Methode mit entsprechenden Parametern für den Zugriff auf verschachtelte SDTs.
 
 5. Was soll ich tun, wenn das SDT, das ich ändern muss, im Dokument nicht sichtbar ist?
 
-Stellen Sie sicher, dass das SDT nicht ausgeblendet oder geschützt ist. Überprüfen Sie die Dokumenteinstellungen und stellen Sie sicher, dass Ihr Code den richtigen SDT-Typ anspricht.
+Stellen Sie sicher, dass das SDT nicht ausgeblendet oder geschützt ist. Überprüfen Sie die Dokumenteinstellungen und stellen Sie sicher, dass Ihr Code den SDT-Typ korrekt anspricht.
 
 
 ### Beispielquellcode zum Ändern von Inhaltssteuerelementen mit Aspose.Words für .NET 
 
 ```csharp
-// Pfad zu Ihrem Dokumentverzeichnis
+// Pfad zu Ihrem Dokumentverzeichnis 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -187,10 +189,14 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 
 ```
 
-Das ist es! Sie haben erfolgreich verschiedene Arten von Inhaltssteuerelementen in Ihrem Word-Dokument mit Aspose.Words für .NET geändert.
+Das war's! Sie haben mit Aspose.Words für .NET erfolgreich verschiedene Arten von Inhaltssteuerelementen in Ihrem Word-Dokument geändert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การใช้ Office Math Objects ใน Aspose.Words สำหรับ Java
-linktitle: การใช้ Office Math Objects
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: ปลดล็อกพลังของสมการทางคณิตศาสตร์ในเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การจัดการและแสดงวัตถุ Office Math ได้อย่างง่ายดาย
-weight: 13
-url: /th/java/document-conversion-and-export/using-office-math-objects/
+"description": "ปลดล็อกพลังของสมการทางคณิตศาสตร์ในเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การจัดการและแสดงวัตถุ Office Math ได้อย่างง่ายดาย"
+"linktitle": "การใช้ Office Math Objects"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ Office Math Objects ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-conversion-and-export/using-office-math-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Office Math Objects ใน Aspose.Words สำหรับ Java
@@ -51,7 +53,7 @@ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true)
 
 ### ตั้งค่าประเภทการแสดงผล
 
- คุณสามารถควบคุมวิธีการแสดงสมการภายในเอกสารได้ ใช้`setDisplayType` วิธีการระบุว่าควรแสดงแบบอินไลน์กับข้อความหรือในบรรทัด:
+คุณสามารถควบคุมวิธีการแสดงสมการภายในเอกสารได้ ใช้ `setDisplayType` วิธีการระบุว่าควรแสดงแบบอินไลน์กับข้อความหรือในบรรทัด:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
@@ -96,7 +98,7 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 
 ### ฉันสามารถจัดตำแหน่งสมการ Office Math แตกต่างกันภายในเอกสารของฉันได้หรือไม่
 
- ใช่ คุณสามารถควบคุมการจัดตำแหน่งของสมการ Office Math ได้ ใช้`setJustification`วิธีการระบุตัวเลือกการจัดตำแหน่งเช่น ซ้าย ขวา หรือกึ่งกลาง
+ใช่ คุณสามารถควบคุมการจัดตำแหน่งของสมการ Office Math ได้ ใช้ `setJustification` วิธีการระบุตัวเลือกการจัดตำแหน่งเช่น ซ้าย ขวา หรือกึ่งกลาง
 
 ### Aspose.Words สำหรับ Java เหมาะกับการจัดการเอกสารทางคณิตศาสตร์ที่ซับซ้อนหรือไม่
 
@@ -104,14 +106,19 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Java ได้อย่างไร
 
- สำหรับเอกสารประกอบและดาวน์โหลดฉบับสมบูรณ์ โปรดไปที่[เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/).
+สำหรับเอกสารประกอบและดาวน์โหลดฉบับสมบูรณ์ โปรดไปที่ [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
 
 ### ฉันสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้ที่ไหน
 
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จากเว็บไซต์:[ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/).
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จากเว็บไซต์: [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

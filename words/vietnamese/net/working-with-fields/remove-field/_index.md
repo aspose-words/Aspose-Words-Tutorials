@@ -1,14 +1,16 @@
 ---
-title: Xóa trường
-linktitle: Xóa trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa trường khỏi tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển và quản lý tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/remove-field/
+"description": "Tìm hiểu cách xóa trường khỏi tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển và quản lý tài liệu."
+"linktitle": "Xóa trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa trường"
+"url": "/vi/net/working-with-fields/remove-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa trường
@@ -21,7 +23,7 @@ Bạn đã bao giờ gặp khó khăn khi cố gắng xóa các trường không
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Hãy đảm bảo bạn đã tải xuống và cài đặt nó. Nếu chưa, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Hãy đảm bảo bạn đã tải xuống và cài đặt nó. Nếu chưa, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bất kỳ môi trường phát triển .NET nào như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có hiểu biết cơ bản về C#.
 
@@ -94,9 +96,14 @@ Sau khi bạn xóa và lưu tài liệu, bạn không thể hoàn tác hành đ�
 
 ### Phương pháp này có áp dụng được với mọi định dạng tài liệu Word không?
 Có, nó hoạt động với DOCX, DOC và các định dạng Word khác được Aspose.Words hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

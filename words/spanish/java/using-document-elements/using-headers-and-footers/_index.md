@@ -1,34 +1,36 @@
 ---
-title: Uso de encabezados y pies de página en Aspose.Words para Java
-linktitle: Uso de encabezados y pies de página
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda paso a paso a utilizar encabezados y pies de página en Aspose.Words para Java. Cree documentos profesionales sin esfuerzo.
-weight: 16
-url: /es/java/using-document-elements/using-headers-and-footers/
+"description": "Aprenda paso a paso a usar encabezados y pies de página en Aspose.Words para Java. Cree documentos profesionales sin esfuerzo."
+"linktitle": "Uso de encabezados y pies de página"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Uso de encabezados y pies de página en Aspose.Words para Java"
+"url": "/es/java/using-document-elements/using-headers-and-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uso de encabezados y pies de página en Aspose.Words para Java
 
 
-En esta guía completa, le explicaremos el proceso de trabajo con encabezados y pies de página en Aspose.Words para Java. Los encabezados y pies de página son elementos esenciales en el formato de documentos y Aspose.Words ofrece herramientas potentes para crearlos y personalizarlos según sus necesidades.
+En esta guía completa, le guiaremos a través del proceso de trabajar con encabezados y pies de página en Aspose.Words para Java. Los encabezados y pies de página son elementos esenciales en el formato de documentos, y Aspose.Words ofrece potentes herramientas para crearlos y personalizarlos según sus necesidades.
 
-Ahora, profundicemos en cada uno de estos pasos en detalle.
+Ahora, analicemos cada uno de estos pasos en detalle.
 
 ## 1. Introducción a Aspose.Words
 
-Aspose.Words es una potente API de Java que permite crear, manipular y representar documentos de Word de forma programática. Ofrece amplias funciones para el formato de documentos, incluidos encabezados y pies de página.
+Aspose.Words es una potente API de Java que permite crear, manipular y renderizar documentos de Word mediante programación. Ofrece amplias funciones para el formato de documentos, incluyendo encabezados y pies de página.
 
-## 2. Configuración del entorno Java
+## 2. Configuración de su entorno Java
 
- Antes de comenzar a utilizar Aspose.Words, asegúrese de que su entorno de desarrollo Java esté configurado correctamente. Puede encontrar las instrucciones de configuración necesarias en la página de documentación de Aspose.Words:[Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/).
+Antes de empezar a usar Aspose.Words, asegúrese de tener configurado correctamente su entorno de desarrollo Java. Puede encontrar las instrucciones de configuración necesarias en la página de documentación de Aspose.Words: [Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/).
 
 ## 3. Creación de un nuevo documento
 
-Para trabajar con encabezados y pies de página, debe crear un nuevo documento mediante Aspose.Words. El siguiente código demuestra cómo hacerlo:
+Para trabajar con encabezados y pies de página, debe crear un nuevo documento con Aspose.Words. El siguiente código muestra cómo hacerlo:
 
 ```java
 // Código Java para crear un nuevo documento
@@ -39,25 +41,25 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## 4. Comprensión de la configuración de la página
 
- La configuración de la página es fundamental para controlar el diseño del documento. Puede especificar varias propiedades relacionadas con los encabezados y pies de página mediante el botón`PageSetup` clase. Por ejemplo:
+La configuración de página es crucial para controlar el diseño de su documento. Puede especificar varias propiedades relacionadas con los encabezados y pies de página mediante el `PageSetup` clase. Por ejemplo:
 
 ```java
-// Configurar las propiedades de la página
+// Configuración de las propiedades de la página
 Section currentSection = builder.getCurrentSection();
 PageSetup pageSetup = currentSection.getPageSetup();
 pageSetup.setDifferentFirstPageHeaderFooter(true);
 pageSetup.setHeaderDistance(20.0);
 ```
 
-## 5. Encabezado y pie de página de primera página diferentes
+## 5. Encabezado/pie de página diferente
 
-Aspose.Words le permite tener diferentes encabezados y pies de página para la primera página de su documento.`pageSetup.setDifferentFirstPageHeaderFooter(true);` para habilitar esta función.
+Aspose.Words te permite tener diferentes encabezados y pies de página para la primera página de tu documento. Usa `pageSetup.setDifferentFirstPageHeaderFooter(true);` para habilitar esta función.
 
 ## 6. Trabajar con encabezados
 
-### 6.1. Cómo añadir texto a los encabezados
+### 6.1. Agregar texto a los encabezados
 
- Puede agregar texto a los encabezados usando el`DocumentBuilder`He aquí un ejemplo:
+Puede agregar texto a los encabezados usando el `DocumentBuilder`He aquí un ejemplo:
 
 ```java
 // Agregar texto al encabezado de la primera página
@@ -69,9 +71,9 @@ builder.getFont().setSize(14.0);
 builder.write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 ```
 
-### 6.2. Inserción de imágenes en los encabezados
+### 6.2. Inserción de imágenes en encabezados
 
- Para insertar imágenes en los encabezados, puede utilizar el`insertImage` Método. He aquí un ejemplo:
+Para insertar imágenes en los encabezados, puede utilizar el `insertImage` Método. Aquí tienes un ejemplo:
 
 ```java
 // Insertar una imagen en el encabezado
@@ -85,9 +87,9 @@ Puede personalizar los estilos de encabezado configurando varias propiedades com
 
 ## 7. Trabajar con pies de página
 
-### 7.1. Cómo añadir texto a los pies de página
+### 7.1. Agregar texto a los pies de página
 
- De manera similar a los encabezados, puedes agregar texto a los pies de página usando el`DocumentBuilder`He aquí un ejemplo:
+De manera similar a los encabezados, puedes agregar texto a los pies de página usando el `DocumentBuilder`He aquí un ejemplo:
 
 ```java
 // Agregar texto al pie de página principal
@@ -97,23 +99,23 @@ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
 
 ### 7.2. Inserción de imágenes en pies de página
 
- Para insertar imágenes en los pies de página, utilice el`insertImage` método, al igual que en los encabezados.
+Para insertar imágenes en los pies de página, utilice el `insertImage` método, al igual que en los encabezados.
 
 ### 7.3. Personalización de estilos de pie de página
 
- Personalice los estilos de pie de página utilizando el`DocumentBuilder`similar a la personalización de encabezados.
+Personalice los estilos de pie de página utilizando el `DocumentBuilder`, similar a la personalización de encabezados.
 
 ## 8. Numeración de páginas
 
- Puede incluir números de página en sus encabezados y pies de página utilizando campos como`PAGE` y`NUMPAGES`Estos campos se actualizan automáticamente a medida que agrega o elimina páginas.
+Puede incluir números de página en sus encabezados y pies de página utilizando campos como `PAGE` y `NUMPAGES`Estos campos se actualizan automáticamente a medida que agrega o elimina páginas.
 
-## 9. Información sobre derechos de autor en los pies de página
+## 9. Información de derechos de autor en los pies de página
 
 Para agregar información de derechos de autor al pie de página de su documento, puede utilizar una tabla con dos celdas, alineando una a la izquierda y la otra a la derecha, como se muestra en el fragmento de código.
 
 ## 10. Trabajar con varias secciones
 
-Aspose.Words le permite trabajar con varias secciones dentro de un documento. Puede configurar distintas configuraciones de página y encabezados y pies de página para cada sección.
+Aspose.Words te permite trabajar con varias secciones dentro de un documento. Puedes configurar diferentes configuraciones de página y encabezados/pies de página para cada sección.
 
 ## 11. Orientación horizontal
 
@@ -123,9 +125,9 @@ Puede cambiar la orientación de secciones específicas al modo horizontal si es
 
 Copiar encabezados y pies de página de secciones anteriores puede ahorrar tiempo al crear documentos complejos.
 
-## 13. Cómo guardar el documento
+## 13. Guardar su documento
 
-Después de crear y personalizar su documento, no olvide guardarlo usando el`doc.save()` método.
+Después de crear y personalizar su documento, no olvide guardarlo usando el `doc.save()` método.
 
 ## Código fuente completo
 ```java
@@ -133,9 +135,9 @@ Después de crear y personalizar su documento, no olvide guardarlo usando el`doc
         DocumentBuilder builder = new DocumentBuilder(doc);
         Section currentSection = builder.getCurrentSection();
         PageSetup pageSetup = currentSection.getPageSetup();
-        // Especifica si queremos que los encabezados/pies de página de la primera página sean diferentes de los de las otras páginas.
+        // Especifica si queremos que los encabezados y pies de página de la primera página sean diferentes de los de las otras páginas.
         // También puede utilizar la propiedad PageSetup.OddAndEvenPagesHeaderFooter para especificar
-        // encabezados y pies de página diferentes para páginas pares e impares.
+        // diferentes encabezados y pies de página para páginas pares e impares.
         pageSetup.setDifferentFirstPageHeaderFooter(true);
         pageSetup.setHeaderDistance(20.0);
         builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
@@ -154,7 +156,7 @@ Después de crear y personalizar su documento, no olvide guardarlo usando el`doc
         builder.write("Aspose.Words Header/Footer Creation Primer.");
         builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
         // Utilizamos una tabla con dos celdas para hacer una parte del texto en la línea (con numeración de páginas).
-        // Debe alinearse a la izquierda y la otra parte del texto (con derechos de autor) debe alinearse a la derecha.
+        // Debe estar alineado a la izquierda y la otra parte del texto (con derechos de autor) debe estar alineada a la derecha.
         builder.startTable();
         builder.getCellFormat().clearFormatting();
         builder.insertCell();
@@ -179,13 +181,13 @@ Después de crear y personalizar su documento, no olvide guardarlo usando el`doc
         pageSetup = currentSection.getPageSetup();
         pageSetup.setOrientation(Orientation.LANDSCAPE);
         // Esta sección no necesita un encabezado/pie de página de primera página diferente, solo necesitamos una página de título en el documento.
-        // el encabezado/pie de página para esta página ya se ha definido en la sección anterior.
+        // y el encabezado/pie de página para esta página ya se ha definido en la sección anterior.
         pageSetup.setDifferentFirstPageHeaderFooter(false);
         // Esta sección muestra encabezados y pies de página de la sección anterior.
-        // De forma predeterminada, llame a currentSection.HeadersFooters.LinkToPrevious(false) para cancelar este ancho de página.
+        // De forma predeterminada, llame a currentSection.HeadersFooters.LinkToPrevious(false) para cancelar este ancho de página
         // es diferente para la nueva sección y, por lo tanto, necesitamos establecer diferentes anchos de celda para una tabla de pie de página.
         currentSection.getHeadersFooters().linkToPrevious(false);
-        // Si queremos utilizar el conjunto de encabezado/pie de página ya existente para esta sección.
+        // Si queremos utilizar el encabezado/pie de página ya existente para esta sección.
         // Pero con algunas modificaciones menores, puede ser conveniente copiar encabezados y pies de página.
         // del apartado anterior y aplicar las modificaciones necesarias donde queramos.
         copyHeadersFootersFromPreviousSection(currentSection);
@@ -198,7 +200,7 @@ Después de crear y personalizar su documento, no olvide guardarlo usando el`doc
 Código fuente del método copyHeadersFootersFromPreviousSection
 ```java
     /// <resumen>
-    /// Clona y copia encabezados/pies de página de la sección anterior a la sección especificada.
+    //Clona y copia encabezados/pies de página de la sección anterior a la sección especificada.
     /// </summary>
     private void copyHeadersFootersFromPreviousSection(Section section)
     {
@@ -213,29 +215,34 @@ Código fuente del método copyHeadersFootersFromPreviousSection
 
 ## Conclusión
 
-En este tutorial, hemos cubierto los conceptos básicos sobre cómo trabajar con encabezados y pies de página en Aspose.Words para Java. Aprendió a crear, personalizar y aplicar estilo a encabezados y pies de página, así como otras técnicas esenciales de formato de documentos.
+En este tutorial, hemos cubierto los conceptos básicos del trabajo con encabezados y pies de página en Aspose.Words para Java. Has aprendido a crear, personalizar y aplicar estilo a encabezados y pies de página, así como otras técnicas esenciales de formato de documentos.
 
- Para obtener más detalles y funciones avanzadas, consulte la[Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/).
+Para obtener más detalles y funciones avanzadas, consulte la [Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/).
 
 ## Preguntas frecuentes
 
 ### 1. ¿Cómo puedo agregar números de página al pie de página de mi documento?
- Puede agregar números de página insertando el`PAGE` campo en el pie de página utilizando Aspose.Words.
+Puede agregar números de página insertando el `PAGE` campo en el pie de página usando Aspose.Words.
 
 ### 2. ¿Aspose.Words es compatible con los entornos de desarrollo Java?
-Sí, Aspose.Words ofrece soporte para el desarrollo en Java. Asegúrese de tener la configuración necesaria.
+Sí, Aspose.Words ofrece soporte para el desarrollo en Java. Asegúrate de tener la configuración necesaria.
 
 ### 3. ¿Puedo personalizar la fuente y el estilo de los encabezados y pies de página?
 Por supuesto, puedes personalizar las fuentes, la alineación y otros estilos para que tus encabezados y pies de página sean visualmente atractivos.
 
 ### 4. ¿Es posible tener encabezados diferentes para páginas pares e impares?
- Sí, puedes utilizar`PageSetup.OddAndEvenPagesHeaderFooter` para especificar encabezados diferentes para páginas pares e impares.
+Sí, puedes utilizarlo `PageSetup.OddAndEvenPagesHeaderFooter` para especificar encabezados diferentes para páginas pares e impares.
 
 ### 5. ¿Cómo puedo empezar a utilizar Aspose.Words para Java?
- Para comenzar, visite el[Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/) para obtener orientación completa sobre el uso de la API.
+Para comenzar, visite el [Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/) para obtener orientación completa sobre el uso de la API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

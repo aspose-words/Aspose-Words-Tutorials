@@ -1,14 +1,16 @@
 ---
-title: Terapkan Pemformatan Baris
-linktitle: Terapkan Pemformatan Baris
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menerapkan format baris dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk petunjuk terperinci.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Pelajari cara menerapkan format baris dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk petunjuk terperinci."
+"linktitle": "Terapkan Pemformatan Baris"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terapkan Pemformatan Baris"
+"url": "/id/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Pemformatan Baris
@@ -21,7 +23,7 @@ Jika Anda ingin mempercantik dokumen Word Anda dengan beberapa format baris yang
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan AC# seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
 4. Direktori Dokumen: Direktori tempat Anda menyimpan dokumen Anda.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Mulai Tabel Baru
 
- Selanjutnya, kita akan memulai tabel baru menggunakan`DocumentBuilder`objek. Di sinilah keajaiban terjadi.
+Selanjutnya, kita akan memulai tabel baru menggunakan `DocumentBuilder` objek. Di sinilah keajaiban terjadi.
 
 ```csharp
 Table table = builder.StartTable();
@@ -102,22 +104,27 @@ Nah, itu dia! Anda telah berhasil menerapkan pemformatan baris ke tabel dalam do
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menerapkan format yang berbeda pada baris individual?  
- Ya, Anda dapat menyesuaikan setiap baris secara individual dengan mengatur properti yang berbeda untuk`RowFormat`.
+Ya, Anda dapat menyesuaikan setiap baris secara individual dengan mengatur properti yang berbeda untuk `RowFormat`.
 
 ### Bagaimana cara menyesuaikan lebar kolom?  
- Anda dapat mengatur lebar kolom menggunakan`CellFormat.Width` milik.
+Anda dapat mengatur lebar kolom menggunakan `CellFormat.Width` milik.
 
 ### Apakah mungkin untuk menggabungkan sel di Aspose.Words untuk .NET?  
- Ya, Anda dapat menggabungkan sel menggunakan`CellMerge` milik`CellFormat`.
+Ya, Anda dapat menggabungkan sel menggunakan `CellMerge` milik `CellFormat`.
 
 ### Bisakah saya menambahkan batas pada baris?  
- Tentu saja! Anda dapat menambahkan batas ke baris dengan mengatur`Borders` milik`RowFormat`.
+Tentu saja! Anda dapat menambahkan batas ke baris dengan mengatur `Borders` milik `RowFormat`.
 
 ### Bagaimana cara menerapkan pemformatan bersyarat ke baris?  
 Anda dapat menggunakan logika kondisional dalam kode Anda untuk menerapkan pemformatan yang berbeda berdasarkan kondisi tertentu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

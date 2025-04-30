@@ -1,33 +1,35 @@
 ---
-title: جدول منسق
-linktitle: جدول منسق
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية إنشاء الجداول وتنسيقها في مستندات Word باستخدام Aspose.Words for .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-weight: 10
-url: /ar/net/programming-with-tables/formatted-table/
+"description": "تعرف على كيفية إنشاء الجداول وتنسيقها في مستندات Word باستخدام Aspose.Words for .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة."
+"linktitle": "جدول منسق"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "جدول منسق"
+"url": "/ar/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # جدول منسق
 
 ## مقدمة
 
-قد يبدو إنشاء الجداول وتنسيقها في مستندات Word برمجيًا مهمة شاقة، ولكن مع Aspose.Words for .NET، تصبح هذه المهمة سهلة ومباشرة. في هذا البرنامج التعليمي، سنوضح لك كيفية إنشاء جدول منسق في مستند Word باستخدام Aspose.Words for .NET. سنغطي كل شيء من إعداد البيئة الخاصة بك إلى حفظ مستندك بجدول منسق بشكل جميل.
+قد يبدو إنشاء الجداول وتنسيقها برمجيًا في مستندات Word مهمة شاقة، ولكن مع Aspose.Words لـ .NET، يصبح الأمر سهلًا وبسيطًا. في هذا البرنامج التعليمي، سنشرح لك كيفية إنشاء جدول منسق في مستند Word باستخدام Aspose.Words لـ .NET. سنغطي كل شيء، من إعداد بيئة العمل إلى حفظ المستند بجدول منسق بشكل جميل.
 
 ## المتطلبات الأساسية
 
 قبل الغوص في الكود، دعنا نتأكد من أن لديك كل ما تحتاجه:
 
-1. مكتبة Aspose.Words لـ .NET: قم بتنزيلها من[هنا](https://releases.aspose.com/words/net/).
+1. مكتبة Aspose.Words لـ .NET: قم بتنزيلها من [هنا](https://releases.aspose.com/words/net/).
 2. بيئة التطوير: بيئة تطوير متكاملة مثل Visual Studio.
 3. .NET Framework: تأكد من تثبيت .NET Framework على جهازك.
 
 ## استيراد مساحات الأسماء
 
-قبل كتابة الكود الفعلي، يجب عليك استيراد المساحات الأساسية الضرورية:
+قبل كتابة الكود الفعلي، تحتاج إلى استيراد المساحات الأساسية الضرورية:
 
 ```csharp
 using System;
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- يستبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي تريد حفظ المستند فيه.
+يستبدل `"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي تريد حفظ المستند فيه.
 
 ## الخطوة 2: تهيئة المستند وDocumentBuilder
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ال`DocumentBuilder` هي فئة مساعدة تعمل على تبسيط عملية بناء المستندات.
+ال `DocumentBuilder` هي فئة مساعدة تعمل على تبسيط عملية بناء المستندات.
 
 ## الخطوة 3: ابدأ الجدول
 
- بعد ذلك، ابدأ في إنشاء الجدول باستخدام`StartTable` طريقة.
+بعد ذلك، ابدأ في إنشاء الجدول باستخدام `StartTable` طريقة.
 
 ```csharp
 Table table = builder.StartTable();
@@ -70,7 +72,7 @@ builder.InsertCell();
 
 ## الخطوة 4: تطبيق التنسيق على مستوى الجدول
 
-يمكنك تطبيق التنسيق الذي يؤثر على الجدول بأكمله. على سبيل المثال، ضبط المسافة البادئة اليسرى:
+يمكنك تطبيق تنسيق يؤثر على الجدول بأكمله. على سبيل المثال، ضبط المسافة البادئة اليسرى:
 
 ```csharp
 table.LeftIndent = 20.0;
@@ -153,7 +155,7 @@ builder.EndTable();
 
 ## الخطوة 9: حفظ المستند
 
-وأخيرًا، قم بحفظ المستند في الدليل المحدد:
+وأخيرًا، احفظ المستند في الدليل المحدد:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.FormattedTable.docx");
@@ -163,27 +165,32 @@ doc.Save(dataDir + "WorkingWithTables.FormattedTable.docx");
 
 ## خاتمة
 
-والآن، إليك ما تحتاج إليه! باتباع الخطوات التالية، يمكنك إنشاء جدول بتنسيق جيد في مستند Word باستخدام Aspose.Words for .NET. تسهل هذه المكتبة القوية التعامل مع مستندات Word برمجيًا، مما يوفر لك الوقت والجهد.
+وهذا كل ما في الأمر! باتباع هذه الخطوات، يمكنك إنشاء جدول بتنسيق جيد في مستند وورد باستخدام Aspose.Words لـ .NET. تُسهّل هذه المكتبة القوية التعامل مع مستندات وورد برمجيًا، مما يوفر عليك الوقت والجهد.
 
 ## الأسئلة الشائعة
 
 ### ما هو Aspose.Words لـ .NET؟
-Aspose.Words for .NET عبارة عن مكتبة قوية لإنشاء مستندات Word وتحريرها وتحويلها برمجيًا.
+Aspose.Words for .NET هي مكتبة قوية لإنشاء وتحرير وتحويل مستندات Word برمجيًا.
 
 ### هل يمكنني استخدام ألوان مختلفة لصفوف مختلفة؟
 نعم، يمكنك تطبيق تنسيقات مختلفة، بما في ذلك الألوان، على صفوف أو خلايا مختلفة.
 
 ### هل Aspose.Words لـ .NET مجاني؟
- Aspose.Words for .NET هي مكتبة مدفوعة، ولكن يمكنك الحصول عليها[نسخة تجريبية مجانية](https://releases.aspose.com/).
+Aspose.Words for .NET هي مكتبة مدفوعة، ولكن يمكنك الحصول عليها [نسخة تجريبية مجانية](https://releases.aspose.com/).
 
 ### كيف أحصل على الدعم لـ Aspose.Words لـ .NET؟
- يمكنك الحصول على الدعم من[منتديات مجتمع Aspose](https://forum.aspose.com/c/words/8).
+يمكنك الحصول على الدعم من [منتديات مجتمع Aspose](https://forum.aspose.com/c/words/8).
 
 ### هل يمكنني إنشاء أنواع أخرى من المستندات باستخدام Aspose.Words لـ .NET؟
 نعم، يدعم Aspose.Words for .NET تنسيقات المستندات المختلفة، بما في ذلك PDF، وHTML، وTXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

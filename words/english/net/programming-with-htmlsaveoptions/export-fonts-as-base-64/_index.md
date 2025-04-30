@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/export-fonts-as-base-64/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Fonts As Base 64
@@ -126,9 +129,13 @@ No problem! Aspose.Words for .NET will embed all fonts used in your document as 
 Aspose.Words for .NET is a commercial library. However, you can download a free trial from the [Aspose Releases](https://releases.aspose.com/) page.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

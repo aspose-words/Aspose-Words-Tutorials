@@ -1,14 +1,16 @@
 ---
-title: Очистить контроль содержимого
-linktitle: Очистить контроль содержимого
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как очистить элемент управления содержимым в документе Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству.
-weight: 10
-url: /ru/net/programming-with-sdt/clear-contents-control/
+"description": "Узнайте, как очистить элемент управления содержимым в документе Word с помощью Aspose.Words для .NET, следуя нашему пошаговому руководству."
+"linktitle": "Очистить контроль содержимого"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Очистить контроль содержимого"
+"url": "/ru/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Очистить контроль содержимого
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-sdt/clear-contents-control/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words для .NET: Загрузите библиотеку с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Загрузите библиотеку с [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 3. IDE: Интегрированная среда разработки, подобная Visual Studio.
 4. Документ: документ Word со структурированными тегами документа.
@@ -44,7 +46,7 @@ using Aspose.Words.Markup;
 Сначала настройте среду проекта.
 
 1. Откройте Visual Studio: запустите Visual Studio или предпочитаемую вами IDE.
-2.  Создать новый проект: Перейти к`File` >`New` >`Project`и выберите консольное приложение C#.
+2. Создать новый проект: Перейти к `File` > `New` > `Project`и выберите консольное приложение C#.
 3. Установка Aspose.Words для .NET: Используйте NuGet Package Manager для установки Aspose.Words. Выполните следующую команду в консоли диспетчера пакетов:
 ```sh
 Install-Package Aspose.Words
@@ -58,7 +60,7 @@ Install-Package Aspose.Words
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Загрузите документ: используйте`Document` класс для загрузки вашего документа Word.
+2. Загрузите документ: используйте `Document` класс для загрузки вашего документа Word.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -76,7 +78,7 @@ Install-Package Aspose.Words
 
 Очистите содержимое структурированного тега документа.
 
-1.  Очистить содержимое SDT: Используйте`Clear` метод удаления содержимого.
+1. Очистить содержимое SDT: Используйте `Clear` метод удаления содержимого.
    ```csharp
    sdt.Clear();
    ```
@@ -102,11 +104,11 @@ Aspose.Words для .NET — мощная библиотека для прогр
 
 ### Могу ли я использовать Aspose.Words бесплатно?
 
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/).
 
 ### Как получить поддержку по Aspose.Words?
 
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
 
 ### Что такое структурированные теги документов?
 
@@ -114,11 +116,16 @@ Aspose.Words для .NET — мощная библиотека для прогр
 
 ### Где я могу найти документацию по Aspose.Words?
 
- Документация доступна[здесь](https://reference.aspose.com/words/net/).
+Документация доступна. [здесь](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

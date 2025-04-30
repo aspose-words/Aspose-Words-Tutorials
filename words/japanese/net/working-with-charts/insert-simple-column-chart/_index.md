@@ -1,52 +1,60 @@
 ---
-title: .NET のAspose.Wordsを使用して Word に簡単な列表を挿入する
-weight: 7700
-limit: 
-description: .NET の Aspose.Words を使用して,Word ドキュメントに簡単な列表を挿入する方法について学びましょう.チャートを作成し,カスタマイズするにはステップバイ・ステップ指示に従ってください.
-keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
-url: /ja/net/working-with-charts/insert-simple-column-chart/
+"description": "Aspose.Words for .NET を使用して、Word 文書にシンプルな縦棒グラフを挿入する方法を学びます。ステップバイステップの手順に従って、グラフを作成およびカスタマイズします。"
+"title": "Aspose.Words for .NET を使用して Word にシンプルな縦棒グラフを挿入する"
+"url": "/ja/net/working-with-charts/insert-simple-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words を使って,単語の簡単な列表を挿入する
+# Aspose.Words を使用して Word にシンプルな縦棒グラフを挿入する
 
-.NET の Aspose.Words は,豊富なコンテンツを持つプロのWord文書を作成する努力を無難にします.このチュートリアルでは,簡単なコラムチャートをWord文書にプログラム的に挿入する方法について学びます.ドキュメントの初期化からチャートのシリーズをカスタマイズし,ファイルを保存するまでのすべてのステップをカバーします.レポートを作成するかどうか,データ視覚化するかどうか,このガイドは .NET の Aspose.Words を使用してチャートの挿入をマスターするために必要なすべての詳細を提供します.  
+Aspose.Words for .NET を使えば、リッチコンテンツを含むプロフェッショナルなWord文書を簡単に作成できます。このチュートリアルでは、Word文書にシンプルな縦棒グラフをプログラムで挿入する方法を学びます。文書の初期化からグラフ系列のカスタマイズ、ファイルの保存まで、すべての手順を網羅しています。レポートの作成やデータの視覚化など、Aspose.Words for .NET を使ったグラフ挿入をマスターするために必要な情報をすべて網羅しています。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
-この例を使用するには,NETのAspose.Wordsをインストールされていることを確認してください.  
+## インストール手順  
+この例を使用するには、Aspose.Words for .NET がインストールされていることを確認してください。以下の手順に従ってください。  
 
-1. .NET のためのAspose.Wordsをダウンロードする  
-   訪問[Aspose.Words を .NET でダウンロードする](https://releases.aspose.com/words/net/)ダウンロードする  
+1. Aspose.Words for .NET をダウンロード:  
+   訪問 [Aspose.Words for .NET のダウンロード](https://releases.aspose.com/words/net/) 最新バージョンをダウンロードしてください。  
 
-2. 図書館をインストールする:  
-   * プロジェクトにAspose.Words NuGet パッケージを追加する. NuGet パッケージ管理コンソールで次のコマンドを実行する:  
+2. ライブラリをインストールします。  
+   - Aspose.Words NuGetパッケージをプロジェクトに追加します。NuGetパッケージマネージャーコンソールで次のコマンドを実行します。  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * 代替的に, `ドル`プロジェクト参照のファイルを手動で  
+   - あるいは、 `.dll` プロジェクト参照にファイルを手動で追加します。  
 
-3. 免許を取得する  
-   * 免許を取得する[購入を目標に](https://purchase.aspose.com/buy)免費試行を依頼する[無料 な 試行 を 目指す](https://releases.aspose.com/)やってくれ  
+3. ライセンスを取得する:  
+   - ライセンスを取得する [Aspose 購入](https://purchase.aspose.com/buy) または無料トライアルをリクエストしてください [Aspose 無料トライアル](https://releases。aspose.com/).  
 
-4. ライセンス申請:  
-   ライセンスを有効にするには,次のコードをプロジェクトに追加します.  
+4. ライセンスを適用します:  
+   ライセンスをアクティブ化するには、次のコードをプロジェクトに追加します。  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

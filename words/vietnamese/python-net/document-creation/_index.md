@@ -1,14 +1,16 @@
 ---
-title: Tạo tài liệu
-linktitle: Tạo tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Làm chủ việc tạo tài liệu với Aspose.Words cho Python. Tạo tài liệu động, tùy chỉnh định dạng và hợp lý hóa quá trình xử lý tài liệu Word.
-weight: 10
-url: /vi/python-net/document-creation/
+"description": "Làm chủ việc tạo tài liệu với Aspose.Words for Python. Tạo tài liệu động, tùy chỉnh định dạng và hợp lý hóa quá trình xử lý tài liệu Word."
+"linktitle": "Tạo tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tạo tài liệu"
+"url": "/vi/python-net/document-creation/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo tài liệu
@@ -31,9 +33,13 @@ Bằng cách làm chủ việc tạo tài liệu với Aspose.Words for Python, 
 ## Hướng dẫn tạo tài liệu Aspose.Words cho Python
 ### [Hướng dẫn toàn diện: Tạo tài liệu Word bằng Python](./creating-word-documents-using-python/)
 Tạo tài liệu Word động bằng Python với Aspose.Words. Tự động hóa nội dung, định dạng và nhiều hơn nữa. Tối ưu hóa việc tạo tài liệu một cách hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

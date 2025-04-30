@@ -1,14 +1,16 @@
 ---
-title: Masukkan Tabel Secara Langsung
-linktitle: Masukkan Tabel Secara Langsung
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan tabel langsung ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk menyederhanakan pembuatan dokumen Anda.
-weight: 10
-url: /id/net/programming-with-tables/insert-table-directly/
+"description": "Pelajari cara menyisipkan tabel langsung ke dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk menyederhanakan pembuatan dokumen Anda."
+"linktitle": "Masukkan Tabel Secara Langsung"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Tabel Secara Langsung"
+"url": "/id/net/programming-with-tables/insert-table-directly/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Tabel Secara Langsung
@@ -20,7 +22,7 @@ Membuat tabel secara terprogram bisa menjadi tantangan tersendiri, terutama saat
 
 Sebelum menyelami kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut daftar periksa singkatnya:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal pustaka Aspose.Words untuk .NET. Anda bisa mendapatkannya dari[halaman unduhan](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal pustaka Aspose.Words untuk .NET. Anda bisa mendapatkannya dari [halaman unduhan](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar pemrograman C#.
 4. Direktori Dokumen: Jalur direktori tempat Anda menyimpan dokumen Anda.
@@ -45,20 +47,20 @@ Sekarang setelah kita memiliki namespace, mari beralih ke bagian yang menarik—
 Mari kita mulai dengan menyiapkan dokumen Word baru. Di sinilah tabel kita akan disisipkan.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Kode ini menginisialisasi dokumen Word baru. Anda perlu mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Kode ini menginisialisasi dokumen Word baru. Anda perlu mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ## Langkah 2: Membuat Objek Tabel
 
 Berikutnya, kita buat objek tabel. Di sinilah kita akan menentukan struktur tabel kita.
 
 ```csharp
-// Kita mulai dengan membuat objek tabel. Perhatikan bahwa kita harus melewati objek dokumen
+// Kita mulai dengan membuat objek tabel. Perhatikan bahwa kita harus meneruskan objek dokumen
 // ke konstruktor setiap node. Ini karena setiap node yang kita buat harus menjadi milik
 // ke beberapa dokumen.
 Table table = new Table(doc);
@@ -106,7 +108,7 @@ Untuk mempercepat proses penambahan sel, kita dapat mengkloning sel yang sudah a
 
 ```csharp
 // Kami kemudian akan mengulangi proses untuk sel dan baris lain dalam tabel.
-//Kita juga dapat mempercepat prosesnya dengan mengkloning sel dan baris yang ada.
+// Kita juga dapat mempercepat prosesnya dengan mengkloning sel dan baris yang ada.
 row.AppendChild(cell.Clone(false));
 row.LastCell.AppendChild(new Paragraph(doc));
 row.LastCell.FirstParagraph.AppendChild(new Run(doc, "Row 1, Cell 2 Text"));
@@ -125,7 +127,7 @@ table.AutoFit(AutoFitBehavior.FixedColumnWidths);
 
 ## Langkah 6: Menyimpan Dokumen
 
-Setelah tabel kita tertata rapi, waktunya untuk menyimpan dokumen.
+Setelah tabel kita tertata rapi, waktunya menyimpan dokumen.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.InsertTableDirectly.docx");
@@ -140,22 +142,27 @@ Selamat! Anda telah berhasil memasukkan tabel langsung ke dalam dokumen Word men
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara mengunduh Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[halaman unduhan](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh Aspose.Words untuk .NET dari [halaman unduhan](https://releases.aspose.com/words/net/).
 
 ### Dapatkah saya mencoba Aspose.Words untuk .NET sebelum membeli?
- Ya, Anda dapat meminta[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi perpustakaan sebelum membeli.
+Ya, Anda dapat meminta [uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi perpustakaan sebelum membeli.
 
 ### Bagaimana cara membeli Aspose.Words untuk .NET?
-Anda dapat membeli Aspose.Words untuk .NET dari[halaman pembelian](https://purchase.aspose.com/buy).
+Anda dapat membeli Aspose.Words untuk .NET dari [halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
- Dokumentasinya tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasinya tersedia [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana jika saya memerlukan dukungan saat menggunakan Aspose.Words untuk .NET?
- Untuk dukungan, Anda dapat mengunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Untuk dukungan, Anda dapat mengunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

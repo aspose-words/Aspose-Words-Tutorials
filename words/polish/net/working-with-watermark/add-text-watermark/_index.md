@@ -1,48 +1,56 @@
 ---
-title: Dodaj znak wodny tekstu do dokumentu Word za pomocą Aspose.Words dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak dodać znak wodny tekstu z konkretnymi opcjami do dokumentu Word za pomocą Aspose.Words dla .NET.
-keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
-url: /pl/net/working-with-watermark/add-text-watermark/
+"description": "Dowiedz się, jak dodać tekstowy znak wodny z określonymi opcjami do dokumentu Word za pomocą Aspose.Words dla .NET. Wykonaj proste kroki, aby dostosować i zapisać dokument."
+"title": "Dodaj znak wodny w dokumencie Word za pomocą Aspose.Words dla .NET"
+"url": "/pl/net/working-with-watermark/add-text-watermark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj znak wodny do dokumentu Word za pomocą Aspose.Words
-Dodawanie znaków wodnych tekstu do dokumentu Word to prosty proces używający Aspose.Words dla .NET. W tym tutoriale pokazano, jak zastosować dostosowalny znak wodny tekstu do dokumentu. Dzięki funkcjom takim jak rodzina czcionek, rozmiar, kolor, układ i kontrola przejrzystości, możesz dostosować znak wodny do swoich dokładnych potrzeb. Czy to jest markowanie, poufność czy estetyka, Aspose.Words ułatwia wzmocnienie dokumentów profesjonalnymi znakami wodnymi.  
+# Dodaj znak wodny w dokumencie Word za pomocą Aspose.Words
+Dodawanie tekstowego znaku wodnego do dokumentu Word to prosty proces przy użyciu Aspose.Words dla .NET. Ten samouczek pokazuje, jak zastosować dostosowywalny tekstowy znak wodny do dokumentu. Dzięki takim funkcjom, jak rodzina czcionek, rozmiar, kolor, układ i kontrola przezroczystości, możesz dostosować znak wodny do swoich dokładnych potrzeb. Niezależnie od tego, czy chodzi o branding, poufność czy estetykę, Aspose.Words ułatwia ulepszanie dokumentów za pomocą profesjonalnych znaków wodnych.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
-1. Pobierz Aspose.Words na .NET:  
-   / Zbierz najnowszą wersję z [Strona pobierania](https://releases.aspose.com/words/net/)\- Nie .  
+1. Pobierz Aspose.Words dla .NET:  
+   Pobierz najnowszą wersję z [Strona pobierania Aspose](https://releases.aspose.com/words/net/).  
 
-2. Instalacja za pośrednictwem NuGet:  
-   * Otwórz swój projekt Visual Studio.  
-   * Przejdź do Menedżera pakietów NuGet (Narzędzia > Menedżer pakietów NuGet > Zarządza pakietami NuGet dla rozwiązania).  
-   * Poszukaj Aspose.Words i kliknij Instalację.  
+2. Instalacja za pomocą NuGet:  
+   - Otwórz projekt programu Visual Studio.  
+   - Przejdź do Menedżera pakietów NuGet (Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania).  
+   - Wyszukaj „Aspose.Words” i kliknij Zainstaluj.  
 
-3. Dodaj odniesienia do przestrzeni nazw:  
-   Dodaj następujące przestrzenie nazw na górę pliku kodu:  
+3. Dodaj odwołania do przestrzeni nazw:  
+   Dodaj następującą przestrzeń nazw na górze pliku kodu:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Licencja na wniosek (opcjonalna):  
-   Aby użyć pełnej wersji,[stosować licencję](https://purchase.aspose.com/temporary-license/)lub użyć [bezpłatna próba](https://releases.aspose.com/)\- Nie .  
+4. Zastosuj licencję (opcjonalnie):  
+   Aby korzystać z pełnej wersji, [zastosować licencję](https://purchase.aspose.com/temporary-license/) lub użyj [bezpłatny okres próbny](https://releases.aspose.com/).  
 
-## Zobacz również
-[Aspose.Word dla dokumentacji .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word dla odniesienia .NET](https://reference.aspose.com/words/net/)
+## Zobacz także
+[Dokumentacja Aspose.Word dla .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word dla .NET Odwołania](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

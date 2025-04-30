@@ -1,14 +1,16 @@
 ---
-title: Áp dụng Giấy phép đo lường
-linktitle: Áp dụng Giấy phép đo lường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách áp dụng giấy phép theo định mức trong Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cấp phép linh hoạt, tiết kiệm chi phí được thực hiện đơn giản.
-weight: 10
-url: /vi/net/apply-license/apply-metered-license/
+"description": "Tìm hiểu cách áp dụng giấy phép theo định mức trong Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cấp phép linh hoạt, tiết kiệm chi phí được thực hiện đơn giản."
+"linktitle": "Áp dụng Giấy phép đo lường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Áp dụng Giấy phép đo lường"
+"url": "/vi/net/apply-license/apply-metered-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng Giấy phép đo lường
@@ -19,10 +21,10 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn làm vi�
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/words/net/).
-2.  Khóa cấp phép Metered hợp lệ: Bạn cần khóa để kích hoạt giấy phép metered. Bạn có thể lấy chúng từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/words/net/).
+2. Khóa cấp phép Metered hợp lệ: Bạn cần khóa để kích hoạt giấy phép Metered. Bạn có thể lấy chúng từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 3. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Visual Studio là lựa chọn phổ biến, nhưng bạn có thể sử dụng bất kỳ IDE nào hỗ trợ .NET.
 
 ## Nhập không gian tên
@@ -38,7 +40,7 @@ using Aspose.Words.Metered;
 
 ## Bước 1: Khởi tạo lớp Metered
 
- Trước tiên, chúng ta cần tạo một phiên bản của`Metered` Lớp này chịu trách nhiệm thiết lập giấy phép tính phí.
+Trước tiên, chúng ta cần tạo một phiên bản của `Metered` Lớp này chịu trách nhiệm thiết lập giấy phép tính phí.
 
 ```csharp
 Metered metered = new Metered();
@@ -46,17 +48,17 @@ Metered metered = new Metered();
 
 ## Bước 2: Thiết lập các phím đo
 
- Bây giờ chúng ta đã có`Metered` Ví dụ, chúng ta cần thiết lập các khóa được đo lường. Các khóa này được Aspose cung cấp và là duy nhất cho đăng ký của bạn.
+Bây giờ chúng ta đã có `Metered` Ví dụ, chúng ta cần thiết lập các khóa được đo lường. Các khóa này được cung cấp bởi Aspose và là duy nhất cho đăng ký của bạn.
 
 ```csharp
 metered.SetMeteredKey("your_public_key", "your_private_key");
 ```
 
- Thay thế`"your_public_key"` Và`"your_private_key"` với các khóa thực tế bạn nhận được từ Aspose. Bước này về cơ bản cho Aspose biết rằng bạn muốn sử dụng giấy phép tính phí.
+Thay thế `"your_public_key"` Và `"your_private_key"` với các khóa thực tế bạn nhận được từ Aspose. Bước này về cơ bản cho Aspose biết rằng bạn muốn sử dụng giấy phép tính phí.
 
 ## Bước 3: Tải tài liệu của bạn
 
- Tiếp theo, hãy tải một tài liệu Word bằng Aspose.Words. Đối với ví dụ này, chúng ta sẽ sử dụng một tài liệu có tên`Document.docx`. Đảm bảo rằng bạn có tài liệu này trong thư mục dự án của mình.
+Tiếp theo, hãy tải một tài liệu Word bằng Aspose.Words. Đối với ví dụ này, chúng ta sẽ sử dụng một tài liệu có tên `Document.docx`. Đảm bảo rằng bạn có tài liệu này trong thư mục dự án của mình.
 
 ```csharp
 Document doc = new Document("Document.docx");
@@ -104,7 +106,7 @@ Và bạn đã có nó! Áp dụng giấy phép có giới hạn trong Aspose.Wo
 Giấy phép tính theo lượt là mô hình trả tiền khi sử dụng, trong đó bạn chỉ trả tiền cho việc sử dụng thực tế thư viện Aspose.Words cho .NET, mang lại sự linh hoạt và hiệu quả về chi phí.
 
 ### Tôi có thể lấy mã bản quyền giới hạn ở đâu?
- Bạn có thể lấy được khóa cấp phép đã đo lường của mình từ[Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+Bạn có thể lấy được khóa cấp phép đã đo lường của mình từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ### Tôi có thể sử dụng giấy phép giới hạn với bất kỳ dự án .NET nào không?
 Có, bạn có thể sử dụng giấy phép tính phí với bất kỳ dự án .NET nào sử dụng thư viện Aspose.Words cho .NET.
@@ -113,10 +115,14 @@ Có, bạn có thể sử dụng giấy phép tính phí với bất kỳ dự �
 Nếu khóa không đúng, giấy phép sẽ không được áp dụng và ứng dụng của bạn sẽ đưa ra ngoại lệ. Hãy đảm bảo xử lý ngoại lệ để có thông báo lỗi rõ ràng.
 
 ### Làm sao để xác minh giấy phép tính phí được áp dụng đúng cách?
-Bạn có thể xác minh giấy phép tính phí bằng cách thực hiện bất kỳ thao tác nào trên tài liệu Word (như in số trang) và đảm bảo thao tác đó được thực hiện mà không có lỗi cấp phép.
+Bạn có thể xác minh giấy phép tính phí bằng cách thực hiện bất kỳ thao tác nào trên tài liệu Word (như in số trang) và đảm bảo nó thực hiện mà không có lỗi cấp phép.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

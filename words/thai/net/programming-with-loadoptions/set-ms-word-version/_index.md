@@ -1,15 +1,16 @@
 ---
-title: ตั้งค่าเวอร์ชัน Ms Word
-linktitle: ตั้งค่าเวอร์ชัน Ms Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าเวอร์ชัน MS Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือโดยละเอียดของเรา เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการจัดการเอกสารให้มีประสิทธิภาพ
-
-weight: 10
-url: /th/net/programming-with-loadoptions/set-ms-word-version/
+"description": "เรียนรู้วิธีตั้งค่าเวอร์ชัน MS Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือโดยละเอียดของเรา เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการจัดการเอกสารให้มีประสิทธิภาพ"
+"linktitle": "ตั้งค่าเวอร์ชัน Ms Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าเวอร์ชัน Ms Word"
+"url": "/th/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าเวอร์ชัน Ms Word
@@ -22,7 +23,7 @@ url: /th/net/programming-with-loadoptions/set-ms-word-version/
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณสามารถใช้ Visual Studio หรือ IDE ที่เข้ากันได้กับ .NET อื่น ๆ ได้
 - ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าเราจะทำให้มันเรียบง่าย แต่การทำความเข้าใจพื้นฐานเกี่ยวกับ C# เป็นสิ่งจำเป็น
 - เอกสารตัวอย่าง: เตรียมเอกสาร Word ไว้ในไดเร็กทอรีเอกสารของคุณเพื่อวัตถุประสงค์ในการทดสอบ
@@ -66,7 +67,7 @@ Document doc = new Document(dataDir + "Document.docx", loadOptions);
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
-ในที่สุด เมื่อโหลดเอกสารและแก้ไขตามต้องการแล้ว คุณสามารถบันทึกเอกสารได้ ซึ่งก็เหมือนกับการกดปุ่มบันทึกหลังจากแก้ไขใน Word
+เมื่อโหลดเอกสารเสร็จแล้วและแก้ไขตามต้องการแล้ว คุณสามารถบันทึกเอกสารได้ ซึ่งก็เหมือนกับการกดปุ่มบันทึกหลังจากแก้ไขใน Word
 
 ```csharp
 // บันทึกเอกสาร
@@ -80,23 +81,28 @@ doc.Save(dataDir + "WorkingWithLoadOptions.SetMsWordVersion.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถตั้งค่าเวอร์ชันอื่นนอกเหนือจาก Word 2010 ได้หรือไม่?
- ใช่ คุณสามารถตั้งค่าเวอร์ชันต่างๆ เช่น Word 2007, Word 2013 เป็นต้น โดยการเปลี่ยนแปลง`MsWordVersion` คุณสมบัติ.
+ใช่ คุณสามารถตั้งค่าเวอร์ชันต่างๆ เช่น Word 2007, Word 2013 เป็นต้น โดยการเปลี่ยนแปลง `MsWordVersion` คุณสมบัติ.
 
 ### Aspose.Words เข้ากันได้กับ .NET Core ได้หรือไม่
 แน่นอน! Aspose.Words รองรับ .NET Framework, .NET Core และ .NET 5+
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words หรือไม่?
- คุณสามารถใช้รุ่นทดลองใช้งานฟรีได้ แต่หากต้องการใช้คุณสมบัติเต็มรูปแบบ คุณจะต้องมีใบอนุญาต[รับใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถใช้รุ่นทดลองใช้งานฟรีได้ แต่หากต้องการใช้คุณสมบัติเต็มรูปแบบ คุณจะต้องมีใบอนุญาต [รับใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถจัดการคุณลักษณะอื่นๆ ของเอกสาร Word โดยใช้ Aspose.Words ได้หรือไม่
-ใช่ Aspose.Words เป็นไลบรารีที่ครอบคลุมซึ่งช่วยให้คุณสามารถจัดการกับเอกสาร Word ได้แทบทุกด้าน
+ใช่ Aspose.Words เป็นไลบรารีที่ครอบคลุมที่ช่วยให้คุณสามารถจัดการกับเอกสาร Word ได้แทบทุกด้าน
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและข้อมูลโดยละเอียด
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและข้อมูลโดยละเอียด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

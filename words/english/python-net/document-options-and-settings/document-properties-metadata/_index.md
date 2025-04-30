@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/document-options-and-settings/document-properties-metadata/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Properties and Metadata Management
@@ -147,9 +150,13 @@ To protect sensitive information in metadata, you can remove specific properties
 - Regularly review and update metadata.
 - Safeguard sensitive information contained in metadata.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

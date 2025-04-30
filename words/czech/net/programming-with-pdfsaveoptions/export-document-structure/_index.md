@@ -1,60 +1,62 @@
 ---
-title: Export struktury dokumentu Word do dokumentu PDF
-linktitle: Export struktury dokumentu Word do dokumentu PDF
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Exportujte strukturu dokumentu aplikace Word do PDF pomocí Aspose.Words for .NET. Chcete-li zachovat rozvržení dokumentu a zlepšit navigaci v PDF, postupujte podle našeho podrobného průvodce.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/export-document-structure/
+"description": "Exportujte strukturu dokumentu Word do PDF pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu, abyste zachovali rozvržení dokumentu a vylepšili navigaci v PDF."
+"linktitle": "Export struktury dokumentu Word do dokumentu PDF"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Export struktury dokumentu Word do dokumentu PDF"
+"url": "/cs/net/programming-with-pdfsaveoptions/export-document-structure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export struktury dokumentu Word do dokumentu PDF
 
 ## Zavedení
 
-Procházet se světem manipulace s dokumenty vám může někdy připadat jako bloudění hustým lesem bez mapy. Ale nebojte se, máme dokonalého průvodce, který vám pomůže najít cestu! Dnes se ponoříme do kouzelného světa exportu struktur dokumentů Wordu do PDF pomocí Aspose.Words for .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede každým krokem s jasností a přesností.
+Orientace ve světě manipulace s dokumenty se někdy může zdát jako putování hustým lesem bez mapy. Ale nebojte se, máme pro vás dokonalého průvodce, který vám pomůže najít cestu! Dnes se ponoříme do magického světa exportu struktur dokumentů Word do PDF pomocí Aspose.Words pro .NET. Ať už jste zkušený vývojář, nebo teprve začínáte, tento průvodce vás provede každým krokem srozumitelně a přesně.
 
 ## Předpoklady
 
-Než se vydáme na tuto cestu, shrňme si vše podstatné, co budete do začátku potřebovat.
+Než se na tuto cestu vydáme, pojďme si shromáždit všechny nezbytnosti, které budete k zahájení potřebovat.
 
-- Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Pokud ne, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 - Vývojové prostředí: Vývojové prostředí kompatibilní s .NET, jako je Visual Studio.
--  Ukázkový dokument: Dokument aplikace Word (např.`Paragraphs.docx`), který převedete do PDF.
+- Ukázkový dokument: Dokument aplikace Word (např. `Paragraphs.docx`), který převedete do PDF.
 
 ## Importovat jmenné prostory
 
-Chcete-li používat Aspose.Words, musíte importovat potřebné jmenné prostory. To zajistí, že budete mít přístup ke všem funkcím a funkcím požadovaným pro náš úkol.
+Abyste mohli používat Aspose.Words, musíte importovat potřebné jmenné prostory. Tím zajistíte přístup ke všem funkcím a vlastnostem potřebným pro náš úkol.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na zvládnutelné kroky. Každý krok vás provede určitou částí procesu a zajistí, že vám nic neunikne.
+Rozdělme si proces na zvládnutelné kroky. Každý krok vás provede určitou částí procesu, abyste na nic nezapomněli.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve si definujme cestu k adresáři s dokumenty. Zde se nachází váš zdrojový dokument aplikace Word a kam se uloží převedený soubor PDF.
+Nejprve si definujme cestu k adresáři s vašimi dokumenty. Zde se nachází váš zdrojový dokument Wordu a kam se uloží převedený PDF soubor.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
- Dále musíme načíst dokument Word, který chceme převést do PDF. V tomto příkladu použijeme soubor s názvem`Paragraphs.docx`.
+Dále musíme načíst dokument aplikace Word, který chceme převést do formátu PDF. V tomto příkladu použijeme soubor s názvem `Paragraphs.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Paragraphs.docx");
 ```
 
-## Krok 3: Nakonfigurujte možnosti uložení PDF
+## Krok 3: Konfigurace možností ukládání PDF
 
- Chcete-li exportovat strukturu dokumentu, musíme nakonfigurovat možnosti uložení PDF. To zahrnuje nastavení`ExportDocumentStructure`majetek do`true`Tím zajistíte, že struktura dokumentu bude viditelná v navigačním panelu "Obsah" aplikace Adobe Acrobat Pro.
+Pro export struktury dokumentu je třeba nakonfigurovat možnosti ukládání PDF. To zahrnuje nastavení `ExportDocumentStructure` majetek `true`Tím je zajištěno, že struktura dokumentu bude viditelná v navigačním panelu „Obsah“ v aplikaci Adobe Acrobat Pro.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -65,7 +67,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Krok 4: Uložte dokument jako PDF
 
-S nakonfigurovanými možnostmi uložení je posledním krokem uložení dokumentu jako PDF. Tady se děje kouzlo!
+Po nastavení možností ukládání je posledním krokem uložení dokumentu jako PDF. A tady se začne dít ta pravá magie!
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportDocumentStructure.pdf", saveOptions);
@@ -73,27 +75,32 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.ExportDocumentStructure.pdf", save
 
 ## Závěr
 
-Gratuluji! Úspěšně jste exportovali strukturu dokumentu aplikace Word do PDF pomocí Aspose.Words for .NET. Tato funkce je neuvěřitelně užitečná pro zachování rozvržení dokumentu a usnadňuje procházení složitých souborů PDF. Pomocí této příručky nyní můžete s jistotou převádět dokumenty a využívat výkonné možnosti Aspose.Words.
+Gratulujeme! Úspěšně jste exportovali strukturu dokumentu Word do PDF pomocí Aspose.Words pro .NET. Tato funkce je neuvěřitelně užitečná pro zachování rozvržení dokumentu a usnadnění procházení složitých PDF souborů. S touto příručkou nyní můžete s jistotou převádět dokumenty a využívat výkonné funkce Aspose.Words.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, upravovat, převádět a manipulovat s dokumenty Wordu programově.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat, převádět a manipulovat s dokumenty Wordu.
 
-### Mohu exportovat další funkce dokumentu aplikace Word do PDF?
-Ano, Aspose.Words for .NET nabízí různé možnosti exportu funkcí, jako jsou záložky, hypertextové odkazy a další, do PDF.
+### Mohu exportovat další funkce dokumentu Word do PDF?
+Ano, Aspose.Words pro .NET nabízí různé možnosti exportu funkcí, jako jsou záložky, hypertextové odkazy a další, do PDF.
 
 ### Je možné tento proces automatizovat?
-Absolutně! Tento proces můžete automatizovat pomocí skriptů a dávkového zpracování ve vašem vývojovém prostředí.
+Rozhodně! Tento proces můžete automatizovat pomocí skriptů a dávkového zpracování ve vašem vývojovém prostředí.
 
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?
- Můžete získat bezplatnou zkušební verzi od[Aspose webové stránky](https://releases.aspose.com/).
+Bezplatnou zkušební verzi můžete získat od [Webové stránky Aspose](https://releases.aspose.com/).
 
 ### Co mám dělat, když narazím na problémy?
- Pomoc můžete hledat u[Aspose fórum podpory](https://forum.aspose.com/c/words/8).
+Můžete požádat o pomoc od [Fórum podpory Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

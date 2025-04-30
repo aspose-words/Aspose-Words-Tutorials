@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में आकृतियाँ प्रस्तुत करना
-linktitle: आकृतियाँ प्रस्तुत करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में आकृतियों को रेंडर करना सीखें। प्रोग्रामेटिक रूप से EMF छवियाँ बनाएँ।
-weight: 10
-url: /hi/java/rendering-documents/rendering-shapes/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में आकृतियों को रेंडर करना सीखें। प्रोग्रामेटिक रूप से EMF छवियाँ बनाएँ।"
+"linktitle": "आकृतियाँ प्रस्तुत करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में आकृतियाँ प्रस्तुत करना"
+"url": "/hi/java/rendering-documents/rendering-shapes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में आकृतियाँ प्रस्तुत करना
@@ -45,7 +47,7 @@ ShapeRenderer render = shape.getShapeRenderer();
 
 ## 5. आकृति को EMF छवि के रूप में प्रस्तुत करना
 
- अब आता है रोमांचक हिस्सा - आकृति को EMF छवि के रूप में प्रस्तुत करना। हम इसका उपयोग करेंगे`ImageSaveOptions` आउटपुट प्रारूप निर्दिष्ट करने और रेंडरिंग को अनुकूलित करने के लिए क्लास का उपयोग करें।
+अब रोमांचक हिस्सा आता है - आकृति को EMF छवि के रूप में प्रस्तुत करना। हम इसका उपयोग करेंगे `ImageSaveOptions` आउटपुट प्रारूप निर्दिष्ट करने और रेंडरिंग को अनुकूलित करने के लिए क्लास का उपयोग करें।
 
 ```java
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.EMF);
@@ -95,21 +97,26 @@ render.save(outPath + "RenderShape.RenderShapeAsEmf.emf", imageOptions);
 
 ### प्रश्न 3: क्या Java के लिए Aspose.Words के लिए कोई लाइसेंसिंग विकल्प उपलब्ध हैं?
 
-हां, आप लाइसेंसिंग विकल्पों का पता लगा सकते हैं और जावा के लिए Aspose.Words खरीद सकते हैं[Aspose वेबसाइट](https://purchase.aspose.com/buy).
+हां, आप लाइसेंसिंग विकल्पों का पता लगा सकते हैं और जावा के लिए Aspose.Words खरीद सकते हैं [Aspose वेबसाइट](https://purchase.aspose.com/buy).
 
 ### प्रश्न 4: क्या मैं खरीदने से पहले Aspose.Words for Java आज़मा सकता हूँ?
 
- ज़रूर! आप जावा के लिए Aspose.Words के एक नि: शुल्क परीक्षण का उपयोग कर सकते हैं[Aspose.रिलीज़](https://releases.aspose.com/).
+ज़रूर! आप जावा के लिए Aspose.Words के एक नि: शुल्क परीक्षण का उपयोग कर सकते हैं [Aspose.रिलीज़](https://releases.aspose.com/).
 
 ### प्रश्न 5: मैं Aspose.Words for Java के बारे में सहायता कहां प्राप्त कर सकता हूं या प्रश्न कहां पूछ सकता हूं?
 
- किसी भी प्रश्न या सहायता के लिए, यहां जाएं[Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
+किसी भी प्रश्न या सहायता के लिए, यहां जाएं [Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
 
 अब जब आपने Aspose.Words for Java के साथ आकृतियों को रेंडर करने में महारत हासिल कर ली है, तो आप अपने दस्तावेज़ प्रसंस्करण प्रोजेक्ट में इस बहुमुखी API की पूरी क्षमता का उपयोग करने के लिए तैयार हैं। हैप्पी कोडिंग!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

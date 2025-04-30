@@ -1,14 +1,16 @@
 ---
-title: Ekspor Sumber Daya
-linktitle: Ekspor Sumber Daya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspor sumber daya seperti CSS dan font sambil menyimpan dokumen Word sebagai HTML menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-htmlsaveoptions/export-resources/
+"description": "Pelajari cara mengekspor sumber daya seperti CSS dan font sambil menyimpan dokumen Word sebagai HTML menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami."
+"linktitle": "Ekspor Sumber Daya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor Sumber Daya"
+"url": "/id/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Sumber Daya
@@ -21,8 +23,8 @@ Hai, sesama penggemar teknologi! Jika Anda pernah merasa perlu mengonversi dokum
 
 Sebelum kita mulai menggunakan kode, pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini daftar periksa singkatnya:
 
-1.  Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Anda dapat mengunduhnya dari[Situs web Visual Studio](https://visualstudio.microsoft.com/).
-2.  Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, dapatkan uji coba gratis dari[Rilis Aspose](https://releases.aspose.com/words/net/) atau membelinya dari[Toko Aspose](https://purchase.aspose.com/buy).
+1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Anda dapat mengunduhnya dari [Situs web Visual Studio](https://visualstudio.microsoft.com/).
+2. Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, dapatkan uji coba gratis dari [Rilis Aspose](https://releases.aspose.com/words/net/) atau membelinya dari [Toko Aspose](https://purchase.aspose.com/buy).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan membantu Anda mengikuti contoh kode.
 
 Sudah paham? Bagus! Mari kita lanjutkan dengan mengimpor namespace yang diperlukan.
@@ -49,11 +51,11 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori Anda.
 
 ## Langkah 2: Muat Dokumen Word
 
- Selanjutnya, mari kita muat dokumen Word yang ingin Anda ubah ke HTML. Untuk tutorial ini, kita akan menggunakan dokumen bernama`Rendering.docx`.
+Selanjutnya, mari kita muat dokumen Word yang ingin Anda ubah ke HTML. Untuk tutorial ini, kita akan menggunakan dokumen bernama `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -63,7 +65,7 @@ Baris kode ini memuat dokumen dari direktori yang ditentukan.
 
 ## Langkah 3: Konfigurasikan Opsi Penyimpanan HTML
 
-Untuk mengekspor sumber daya seperti CSS dan font, Anda perlu mengonfigurasi`HtmlSaveOptions`Langkah ini sangat penting untuk memastikan keluaran HTML Anda terstruktur dengan baik dan mencakup sumber daya yang diperlukan.
+Untuk mengekspor sumber daya seperti CSS dan font, Anda perlu mengonfigurasi `HtmlSaveOptions`Langkah ini sangat penting untuk memastikan keluaran HTML Anda terstruktur dengan baik dan mencakup sumber daya yang diperlukan.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -98,22 +100,27 @@ Nah, itu dia! Anda telah berhasil mengekspor sumber daya sambil menyimpan dokume
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengekspor gambar beserta font dan CSS?
- Ya, Anda bisa! Aspose.Words untuk .NET juga mendukung pengeksporan gambar. Pastikan untuk mengonfigurasi`HtmlSaveOptions` demikian.
+Ya, Anda bisa! Aspose.Words untuk .NET juga mendukung pengeksporan gambar. Pastikan untuk mengonfigurasi `HtmlSaveOptions` demikian.
 
 ### Apakah ada cara untuk menanamkan CSS tanpa menggunakan stylesheet eksternal?
- Tentu saja. Anda dapat mengaturnya`CssStyleSheetType` ke`CssStyleSheetType.Embedded` jika Anda lebih suka gaya tertanam.
+Tentu saja. Anda dapat mengaturnya `CssStyleSheetType` ke `CssStyleSheetType.Embedded` jika Anda lebih suka gaya tertanam.
 
 ### Bagaimana saya dapat menyesuaikan nama berkas HTML keluaran?
- Anda dapat menentukan nama file apa pun yang Anda suka di`doc.Save` metode. Misalnya,`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+Anda dapat menentukan nama file apa pun yang Anda suka di `doc.Save` metode. Misalnya, `doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
 
 ### Apakah Aspose.Words mendukung format lain selain HTML?
- Ya, ini mendukung berbagai format termasuk PDF, DOCX, TXT, dan banyak lagi. Lihat[dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap.
+Ya, ini mendukung berbagai format termasuk PDF, DOCX, TXT, dan banyak lagi. Lihat [dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap.
 
 ### Di mana saya bisa mendapatkan lebih banyak dukungan dan sumber daya?
-Untuk bantuan lebih lanjut, kunjungi[Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8) Anda juga dapat menemukan dokumentasi dan contoh terperinci di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Untuk bantuan lebih lanjut, kunjungi [Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8)Anda juga dapat menemukan dokumentasi dan contoh terperinci di [Situs web Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

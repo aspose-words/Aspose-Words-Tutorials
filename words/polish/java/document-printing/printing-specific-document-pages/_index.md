@@ -1,14 +1,16 @@
 ---
-title: Drukowanie określonych stron dokumentu
-linktitle: Drukowanie określonych stron dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak drukować określone strony z dokumentów Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku dla programistów Java.
-weight: 13
-url: /pl/java/document-printing/printing-specific-document-pages/
+"description": "Dowiedz się, jak drukować określone strony z dokumentów Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku dla programistów Java."
+"linktitle": "Drukowanie określonych stron dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Drukowanie określonych stron dokumentu"
+"url": "/pl/java/document-printing/printing-specific-document-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drukowanie określonych stron dokumentu
@@ -61,7 +63,7 @@ public class PrintSpecificPages {
 
 ## Określ strony do wydrukowania
 
- Teraz określmy, które strony chcesz wydrukować. Możesz użyć`PageRange` klasa do zdefiniowania zakresu potrzebnych stron. Na przykład, aby wydrukować strony od 3 do 5:
+Teraz określmy, które strony chcesz wydrukować. Możesz użyć `PageRange` klasa do zdefiniowania zakresu potrzebnych stron. Na przykład, aby wydrukować strony od 3 do 5:
 
 ```java
 PageRange pageRange = new PageRange(3, 5);
@@ -72,7 +74,7 @@ PageRange pageRange = new PageRange(3, 5);
 Po zdefiniowaniu zakresu stron możesz wydrukować dokument, korzystając z funkcji drukowania Aspose.Words. Oto, jak możesz wydrukować określone strony na drukarce:
 
 ```java
-//Utwórz obiekt PrintOptions
+// Utwórz obiekt PrintOptions
 PrintOptions printOptions = new PrintOptions();
 printOptions.setPageRanges(new PageRange[] { pageRange });
 
@@ -88,7 +90,7 @@ W tym samouczku nauczyliśmy się, jak drukować określone strony dokumentu Wor
 
 ### Jak mogę wydrukować wiele nie następujących po sobie stron z dokumentu Word?
 
- Aby wydrukować wiele stron, które nie występują kolejno po sobie, możesz utworzyć wiele`PageRange` obiekty i określ żądane zakresy stron. Następnie dodaj te`PageRange` obiekty do`PageRanges` tablica w`PrintOptions` obiekt.
+Aby wydrukować wiele stron, które nie występują kolejno po sobie, możesz utworzyć wiele `PageRange` obiekty i określ żądane zakresy stron. Następnie dodaj te `PageRange` obiekty do `PageRanges` tablica w `PrintOptions` obiekt.
 
 ### Czy Aspose.Words dla Java jest kompatybilny z różnymi formatami dokumentów?
 
@@ -96,18 +98,23 @@ Tak, Aspose.Words for Java obsługuje szeroki zakres formatów dokumentów, w ty
 
 ### Czy mogę wydrukować wybrane sekcje dokumentu Word?
 
- Tak, możesz wydrukować określone sekcje dokumentu Word, określając strony w tych sekcjach za pomocą`PageRange`Klasa. Daje Ci to szczegółową kontrolę nad tym, co zostanie wydrukowane.
+Tak, możesz wydrukować określone sekcje dokumentu Word, określając strony w tych sekcjach za pomocą `PageRange` Klasa. Daje Ci to szczegółową kontrolę nad tym, co zostanie wydrukowane.
 
 ### Jak mogę ustawić dodatkowe opcje drukowania, takie jak orientacja strony i rozmiar papieru?
 
- Możesz ustawić dodatkowe opcje drukowania, takie jak orientacja strony i rozmiar papieru, poprzez konfigurację`PrintOptions` obiekt przed wydrukowaniem dokumentu. Użyj metod takich jak`setOrientation` I`setPaperSize` aby dostosować ustawienia drukowania.
+Możesz ustawić dodatkowe opcje drukowania, takie jak orientacja strony i rozmiar papieru, poprzez konfigurację `PrintOptions` obiekt przed wydrukowaniem dokumentu. Użyj metod takich jak `setOrientation` I `setPaperSize` aby dostosować ustawienia drukowania.
 
 ### Czy jest dostępna wersja próbna Aspose.Words dla Java?
 
 Tak, możesz pobrać wersję próbną Aspose.Words for Java ze strony internetowej. Pozwala to na zapoznanie się z funkcjami biblioteki i sprawdzenie, czy spełnia ona Twoje wymagania przed zakupem licencji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

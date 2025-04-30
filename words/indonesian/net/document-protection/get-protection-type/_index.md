@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Jenis Perlindungan Dalam Dokumen Word
-linktitle: Dapatkan Jenis Perlindungan Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memeriksa jenis perlindungan dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah, contoh kode, dan FAQ disertakan.
-weight: 10
-url: /id/net/document-protection/get-protection-type/
+"description": "Pelajari cara memeriksa jenis perlindungan dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah, contoh kode, dan FAQ disertakan."
+"linktitle": "Dapatkan Jenis Perlindungan Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Jenis Perlindungan Dalam Dokumen Word"
+"url": "/id/net/document-protection/get-protection-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Jenis Perlindungan Dalam Dokumen Word
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda bertanya-tanya bagaimana cara memeriksa jenis perlindungan d
 
 Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1. Pustaka Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal[Aspose.Words untuk pustaka .NET](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal [Aspose.Words untuk pustaka .NET](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya.
 
@@ -47,7 +49,7 @@ Pertama-tama, siapkan proyek C# Anda di Visual Studio. Berikut caranya:
 
 ## Langkah 2: Muat Dokumen Anda
 
-Sekarang proyek Anda sudah disiapkan, mari muat dokumen Word yang ingin Anda periksa. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Sekarang proyek Anda sudah disiapkan, mari muat dokumen Word yang ingin Anda periksa. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -80,20 +82,25 @@ Nah, itu dia! Anda telah berhasil mendapatkan jenis perlindungan dokumen Word me
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan Anda membuat, mengedit, mengonversi, dan memanipulasi dokumen Word secara terprogram.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Anda bisa memulai dengan[uji coba gratis](https://releases.aspose.com/) tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat[opsi pembelian](https://purchase.aspose.com/buy).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/), tetapi untuk fungsionalitas penuh, Anda perlu membeli lisensi. Lihat [opsi pembelian](https://purchase.aspose.com/buy).
 
 ### Jenis perlindungan apa yang dapat dideteksi Aspose.Words?
 Aspose.Words dapat mendeteksi berbagai jenis perlindungan seperti NoProtection, ReadOnly, AllowOnlyRevisions, AllowOnlyComments, dan AllowOnlyFormFields.
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Untuk masalah apa pun, Anda dapat mengunjungi[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan.
+Untuk masalah apa pun, Anda dapat mengunjungi [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
 Ya, Aspose.Words kompatibel dengan .NET Framework dan .NET Core.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

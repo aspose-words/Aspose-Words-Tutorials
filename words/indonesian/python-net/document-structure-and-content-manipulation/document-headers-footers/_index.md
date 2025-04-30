@@ -1,14 +1,16 @@
 ---
-title: Memanipulasi Header dan Footer dalam Dokumen Word
-linktitle: Memanipulasi Header dan Footer dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara memanipulasi header dan footer dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk menyesuaikan, menambahkan, menghapus, dan banyak lagi. Sempurnakan format dokumen Anda sekarang!
-weight: 16
-url: /id/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Pelajari cara memanipulasi header dan footer dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk menyesuaikan, menambahkan, menghapus, dan banyak lagi. Sempurnakan format dokumen Anda sekarang!"
+"linktitle": "Memanipulasi Header dan Footer dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Memanipulasi Header dan Footer dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memanipulasi Header dan Footer dalam Dokumen Word
@@ -42,7 +44,7 @@ Untuk menambahkan header dan footer dasar ke dokumen Word Anda, ikuti langkah-la
 doc = aw.Document()
 ```
 
-2.  Menambahkan Header dan Footer: Gunakan`sections` properti dokumen untuk mengakses bagian. Kemudian, gunakan`headers_footers` properti untuk menambahkan header dan footer.
+2. Menambahkan Header dan Footer: Gunakan `sections` properti dokumen untuk mengakses bagian. Kemudian, gunakan `headers_footers` properti untuk menambahkan header dan footer.
 
 ```python
 section = doc.sections[0]
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Bagaimana cara mengakses konten header dan footer?
 
- Untuk mengakses konten header dan footer, gunakan`headers_footers` properti bagian dokumen.
+Untuk mengakses konten header dan footer, gunakan `headers_footers` properti bagian dokumen.
 
 ### Bisakah saya menambahkan gambar ke header dan footer?
 
- Ya, Anda dapat menambahkan gambar ke header dan footer menggunakan`add_picture` metode.
+Ya, Anda dapat menambahkan gambar ke header dan footer menggunakan `add_picture` metode.
 
 ### Apakah mungkin untuk memiliki tajuk yang berbeda untuk halaman ganjil dan genap?
 
@@ -134,11 +136,16 @@ Ya, Anda dapat menghapus konten header dan footer untuk menghapusnya secara efek
 
 ### Di mana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Python?
 
- Untuk dokumentasi dan contoh yang lebih rinci, kunjungi[Referensi API Aspose.Words untuk Python](https://reference.aspose.com/words/python-net/).
+Untuk dokumentasi dan contoh yang lebih rinci, kunjungi [Referensi API Aspose.Words untuk Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

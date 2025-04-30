@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z pól w Aspose.Words dla Java
-linktitle: Korzystanie z pól
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj automatyzację dokumentów dzięki Aspose.Words dla Java. Dowiedz się, jak scalać, formatować i wstawiać obrazy do dokumentów Java. Kompleksowy przewodnik i przykłady kodu do wydajnego przetwarzania dokumentów.
-weight: 11
-url: /pl/java/document-manipulation/using-fields/
+"description": "Odblokuj automatyzację dokumentów dzięki Aspose.Words dla Java. Dowiedz się, jak scalać, formatować i wstawiać obrazy do dokumentów Java. Kompleksowy przewodnik i przykłady kodu do wydajnego przetwarzania dokumentów."
+"linktitle": "Korzystanie z pól"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z pól w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z pól w Aspose.Words dla Java
@@ -16,11 +18,11 @@ url: /pl/java/document-manipulation/using-fields/
  
 ## Wprowadzenie do korzystania z pól w Aspose.Words dla języka Java
 
-tym przewodniku krok po kroku pokażemy, jak używać pól w Aspose.Words for Java. Pola to potężne symbole zastępcze, które mogą dynamicznie wstawiać dane do dokumentów. Omówimy różne scenariusze, w tym podstawowe scalanie pól, pola warunkowe, pracę z obrazami i naprzemienne formatowanie wierszy. Dostarczymy fragmenty kodu Java i wyjaśnienia dla każdego scenariusza.
+W tym przewodniku krok po kroku pokażemy, jak używać pól w Aspose.Words for Java. Pola to potężne symbole zastępcze, które mogą dynamicznie wstawiać dane do dokumentów. Omówimy różne scenariusze, w tym podstawowe scalanie pól, pola warunkowe, pracę z obrazami i naprzemienne formatowanie wierszy. Dostarczymy fragmenty kodu Java i wyjaśnienia dla każdego scenariusza.
 
 ## Wymagania wstępne
 
- Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Words for Java. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zaczniesz, upewnij się, że masz zainstalowany Aspose.Words for Java. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Podstawowe scalanie pól
 
@@ -41,7 +43,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
- W tym kodzie ładujemy szablon dokumentu, ustawiamy pola korespondencji seryjnej i wykonujemy scalanie.`HandleMergeField` Klasa obsługuje określone typy pól, takie jak pola wyboru i treść HTML.
+W tym kodzie ładujemy szablon dokumentu, ustawiamy pola korespondencji seryjnej i wykonujemy scalanie. `HandleMergeField` Klasa obsługuje określone typy pól, takie jak pola wyboru i treść HTML.
 
 ## Pola warunkowe
 
@@ -58,7 +60,7 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
- Ten kod wstawia pole IF i pole MERGEFIELD do środka. Mimo że polecenie IF jest fałszywe, ustawiamy`setUnconditionalMergeFieldsAndRegions(true)` aby zliczyć pola MERGEFIELD wewnątrz pól IF zawierających fałszywe informacje podczas korespondencji seryjnej.
+Ten kod wstawia pole IF i pole MERGEFIELD do środka. Mimo że polecenie IF jest fałszywe, ustawiamy `setUnconditionalMergeFieldsAndRegions(true)` aby zliczyć pola MERGEFIELD wewnątrz pól IF zawierających fałszywe informacje podczas korespondencji seryjnej.
 
 ## Praca z obrazami
 
@@ -91,7 +93,7 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
- Ten kod formatuje wiersze w tabeli za pomocą naprzemiennych kolorów na podstawie`CompanyName` pole.
+Ten kod formatuje wiersze w tabeli za pomocą naprzemiennych kolorów na podstawie `CompanyName` pole.
 
 ## Wniosek
 
@@ -113,22 +115,27 @@ Pola warunkowe w Aspose.Words for Java umożliwiają tworzenie dynamicznych doku
 
 ### Jak mogę sformatować naprzemienne wiersze w tabeli za pomocą Aspose.Words dla Java?
 
- Aby sformatować naprzemienne wiersze w tabeli, możesz użyć Aspose.Words for Java, aby zastosować określone formatowanie do wierszy na podstawie swoich kryteriów. W sekcji „Alternating Row Formatting” znajdziesz przykład, który pokazuje, jak formatować wiersze za pomocą naprzemiennych kolorów na podstawie`CompanyName` pole.
+Aby sformatować naprzemienne wiersze w tabeli, możesz użyć Aspose.Words for Java, aby zastosować określone formatowanie do wierszy na podstawie swoich kryteriów. W sekcji „Alternating Row Formatting” znajdziesz przykład, który pokazuje, jak formatować wiersze za pomocą naprzemiennych kolorów na podstawie `CompanyName` pole.
 
 ### Gdzie mogę znaleźć więcej dokumentacji i zasobów dla Aspose.Words dla Java?
 
- Pełną dokumentację, przykłady kodu i samouczki dotyczące Aspose.Words for Java można znaleźć na stronie internetowej Aspose:[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)Ten zasób pomoże Ci odkryć dodatkowe funkcje i funkcjonalności biblioteki.
+Pełną dokumentację, przykłady kodu i samouczki dotyczące Aspose.Words for Java można znaleźć na stronie internetowej Aspose: [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)Ten zasób pomoże Ci odkryć dodatkowe funkcje i funkcjonalności biblioteki.
 
 ### Gdzie mogę uzyskać wsparcie lub pomoc dotyczącą Aspose.Words dla Java?
 
- Jeśli potrzebujesz pomocy, masz pytania lub napotkasz problemy podczas korzystania z Aspose.Words dla Java, możesz odwiedzić forum Aspose.Words, aby uzyskać wsparcie społeczności i wziąć udział w dyskusji:[Forum Aspose.Words](https://forum.aspose.com/c/words).
+Jeśli potrzebujesz pomocy, masz pytania lub napotkasz problemy podczas korzystania z Aspose.Words dla Java, możesz odwiedzić forum Aspose.Words, aby uzyskać wsparcie społeczności i wziąć udział w dyskusji: [Forum Aspose.Words](https://forum.aspose.com/c/words).
 
 ### Czy Aspose.Words for Java jest kompatybilny z różnymi środowiskami IDE Java?
 
 Tak, Aspose.Words for Java jest kompatybilny z różnymi zintegrowanymi środowiskami programistycznymi Java (IDE), takimi jak Eclipse, IntelliJ IDEA i NetBeans. Możesz zintegrować go ze swoim preferowanym IDE, aby usprawnić zadania przetwarzania dokumentów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

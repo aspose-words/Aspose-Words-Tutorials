@@ -1,32 +1,34 @@
 ---
-title: Uso de campos en Aspose.Words para Java
-linktitle: Uso de campos
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Aprenda a utilizar Aspose.Words para campos Java de forma eficaz en este tutorial paso a paso. Cree documentos dinámicos de Word con facilidad.
-weight: 11
-url: /es/java/using-document-elements/using-fields/
+"description": "Aprenda a usar Aspose.Words para campos Java eficazmente con este tutorial paso a paso. Cree documentos dinámicos de Word fácilmente."
+"linktitle": "Uso de campos"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Uso de campos en Aspose.Words para Java"
+"url": "/es/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uso de campos en Aspose.Words para Java
 
 
-En este tutorial paso a paso, le mostraremos cómo usar campos en Aspose.Words para Java para manipular documentos con facilidad. Aspose.Words para Java es una API potente que le permite trabajar con documentos de Word de manera programática, lo que le brinda control total sobre su contenido y formato.
+En este tutorial paso a paso, te guiaremos sobre cómo usar campos en Aspose.Words para Java para manipular documentos fácilmente. Aspose.Words para Java es una potente API que te permite trabajar con documentos de Word mediante programación, brindándote control total sobre su contenido y formato.
 
 ## 1. Introducción
 
-Aspose.Words para Java es una herramienta esencial para cualquier persona que trabaje con documentos de Word en aplicaciones Java. Los campos son marcadores de posición que pueden almacenar datos dinámicos en su documento. Este tutorial le mostrará cómo trabajar con campos de manera eficaz.
+Aspose.Words para Java es una herramienta esencial para quienes trabajan con documentos de Word en aplicaciones Java. Los campos son marcadores que pueden almacenar datos dinámicos en el documento. Este tutorial le mostrará cómo trabajar con campos eficazmente.
 
-## 2. Configuración del entorno
+## 2. Configuración de su entorno
 
- Antes de comenzar, asegúrese de tener instalado Aspose.Words para Java. Puede descargarlo desde[aquí](https://releases.aspose.com/words/java/)Además, asegúrese de tener Java y un entorno de desarrollo integrado (IDE) como Eclipse o IntelliJ IDEA instalado en su sistema.
+Antes de empezar, asegúrese de tener instalado Aspose.Words para Java. Puede descargarlo desde [aquí](https://releases.aspose.com/words/java/)Además, asegúrese de tener Java y un entorno de desarrollo integrado (IDE) como Eclipse o IntelliJ IDEA instalado en su sistema.
 
 ## 3. Cargar un documento de Word
 
-En su aplicación Java, debe cargar el documento de Word con el que desea trabajar. A continuación, se incluye un fragmento de código para comenzar:
+En tu aplicación Java, necesitas cargar el documento de Word con el que quieres trabajar. Aquí tienes un fragmento de código para empezar:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Reemplazar`"Your Document Directory"` y`"Your Output Directory"` con los caminos adecuados.
+Reemplazar `"Your Document Directory"` y `"Your Output Directory"` con los caminos adecuados.
 
 ## 4. Personalización de la combinación de correspondencia
 
-Aspose.Words para Java ofrece un excelente soporte para operaciones de combinación de correspondencia. Puede personalizar el proceso de combinación de correspondencia configurando un controlador de eventos de combinación de correspondencia. A continuación, le indicamos cómo hacerlo:
+Aspose.Words para Java ofrece un excelente soporte para operaciones de combinación de correspondencia. Puede personalizar el proceso de combinación de correspondencia configurando un controlador de eventos de combinación de correspondencia. A continuación, le explicamos cómo hacerlo:
 
 ```java
-// Configure el controlador de eventos de combinación de correspondencia para realizar el trabajo personalizado.
+// Configurar el controlador de eventos de combinación de correspondencia para realizar el trabajo personalizado.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Recortar los espacios iniciales y finales de los valores de combinación de correspondencia.
+// Recorte los espacios iniciales y finales de los valores de combinación de correspondencia.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -68,16 +70,16 @@ Después de personalizar su documento, puede guardarlo usando el siguiente códi
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Reemplazar`"Your Output Directory"` con la ruta de salida deseada.
+Reemplazar `"Your Output Directory"` con la ruta de salida deseada.
 
 ## Código fuente completo
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-// Configure el controlador de eventos de combinación de correspondencia para realizar el trabajo personalizado.
+// Configurar el controlador de eventos de combinación de correspondencia para realizar el trabajo personalizado.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Recortar los espacios iniciales y finales de los valores de combinación de correspondencia.
+// Recorte los espacios iniciales y finales de los valores de combinación de correspondencia.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -99,12 +101,12 @@ Código fuente de la clase HandleMergeField
         /// Este controlador se llama para cada campo de combinación de correspondencia que se encuentre en el documento.
         /// para cada registro encontrado en la fuente de datos.
         /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Devolución de llamada de IFieldMerging.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Decidimos que queremos que todos los valores booleanos se exporten como campos de formulario de casilla de verificación.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Decidimos que queremos que todos los valores booleanos se emitan como campos de formulario de casilla de verificación.
+            if (e.getFieldValue() instanceof /*booleano*/Boolean)
             {
                 // Mueva el "cursor" al campo de combinación actual.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Código fuente de la clase HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Código fuente de la clase HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // No se requiere implementación.
+            //  No se requiere implementación.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,11 +216,11 @@ Código fuente de la clase HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Insertar un MERGEFIELD anidado dentro de un campo IF.
         // Dado que la declaración del campo IF es falsa, el resultado del MERGEFIELD interno no se mostrará.
-        // el MERGEFIELD no recibirá ningún dato durante una combinación de correspondencia.
+        // y el MERGEFIELD no recibirá ningún dato durante una combinación de correspondencia.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Todavía podemos contar MERGEFIELDs dentro de campos IF con declaraciones falsas si establecemos este indicador como verdadero.
+        // Aún podemos contar MERGEFIELDs dentro de campos IF con declaraciones falsas si establecemos este indicador como verdadero.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
@@ -243,7 +248,7 @@ Código fuente de la clase HandleMergeField
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*Devolución de llamada de IFieldMerging.*/fieldMerging(FieldMergingArgs args)
         {
             // No hacer nada
         }
@@ -251,11 +256,11 @@ Código fuente de la clase HandleMergeField
         ///Esto se llama cuando el motor de combinación de correspondencia encuentra el campo de combinación Image:XXX en el documento.
         //Tienes la posibilidad de devolver un objeto de imagen, un nombre de archivo o una secuencia que contenga la imagen.
         /// </summary>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        public void /*Devolución de llamada de IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // El valor del campo es una matriz de bytes, simplemente conviértalo y cree una secuencia en él.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Ahora el motor de combinación de correspondencia recuperará la imagen del flujo.
+            // Ahora el motor de combinación de correspondencia recuperará la imagen de la secuencia.
             e.setImageStream(imageStream);
         }
     }
@@ -270,7 +275,7 @@ Código fuente de la clase HandleMergeField
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Devolución de llamada de IFieldMerging.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ Código fuente de la clase HandleMergeField
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Devolución de llamada de IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -302,10 +307,10 @@ Código fuente de la clase HandleMergeField
     {
         /// <resumen>
         /// Se llama para cada campo de combinación encontrado en el documento.
-        //Podemos devolver algunos datos al motor de combinación de correspondencia o hacer otra cosa con el documento.
+        //Podemos devolver algunos datos al motor de combinación de correspondencia o hacer algo más con el documento.
         /// En este caso modificamos el formato de la celda.
         /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        public void /*Devolución de llamada de IFieldMerging.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
@@ -315,7 +320,7 @@ Código fuente de la clase HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //No hay forma de establecer propiedades de celda para toda la fila en este momento, por lo que tenemos que iterar sobre todas las celdas de la fila.
+                // No hay forma de establecer propiedades de celda para toda la fila en este momento, por lo que tenemos que iterar sobre todas las celdas de la fila.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,7 +329,7 @@ Código fuente de la clase HandleMergeField
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Devolución de llamada de IFieldMerging.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
             // No hacer nada
         }
@@ -361,31 +366,36 @@ Código fuente de la clase HandleMergeField
 
 ## 6. Conclusión
 
-¡Felicitaciones! Aprendió a usar campos en Aspose.Words para Java para manipular documentos de Word de manera dinámica. Esta poderosa API le brinda control total sobre sus documentos, lo que la convierte en un recurso valioso para los desarrolladores de Java.
+¡Felicitaciones! Has aprendido a usar campos en Aspose.Words para Java para manipular documentos de Word dinámicamente. Esta potente API te brinda control total sobre tus documentos, lo que la convierte en un recurso valioso para los desarrolladores de Java.
 
 ## 7. Preguntas frecuentes
 
 ### P1: ¿Dónde puedo descargar Aspose.Words para Java?
- Puede descargar Aspose.Words para Java desde[aquí](https://releases.aspose.com/words/java/).
+Puede descargar Aspose.Words para Java desde [aquí](https://releases.aspose.com/words/java/).
 
 ### P2: ¿Cómo puedo obtener una licencia temporal de Aspose.Words para Java?
- Puede obtener una licencia temporal en[aquí](https://purchase.aspose.com/temporary-license/).
+Puede obtener una licencia temporal en [aquí](https://purchase.aspose.com/temporary-license/).
 
 ### P3: ¿Dónde puedo obtener soporte para Aspose.Words para Java?
- Para obtener ayuda, puede visitar el foro de Aspose.Words[aquí](https://forum.aspose.com/).
+Para obtener ayuda, puede visitar el foro de Aspose.Words [aquí](https://forum.aspose.com/).
 
 ### P4: ¿Aspose.Words para Java es adecuado para gestionar contenido HTML en documentos de Word?
 Sí, Aspose.Words para Java proporciona un excelente soporte para manejar contenido HTML en documentos de Word.
 
 ### Q5: ¿Puedo usar Aspose.Words para Java de forma gratuita?
- Aspose.Words para Java es un producto comercial, pero puedes explorar sus características con una prueba gratuita disponible[aquí](https://releases.aspose.com/).
+Aspose.Words para Java es un producto comercial, pero puedes explorar sus características con una prueba gratuita disponible [aquí](https://releases.aspose.com/).
 
 ¡Empiece hoy mismo a utilizar Aspose.Words para Java y tome el control de sus documentos de Word como nunca antes!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

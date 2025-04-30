@@ -7,8 +7,11 @@ weight: 22
 url: /python-net/document-structure-and-content-manipulation/document-paragraphs/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Paragraphs and Text in Word Documents
@@ -199,9 +202,13 @@ Absolutely! Aspose.Words offers a wide range of features that make it an excelle
 ### Where can I access the library and documentation?
 Access the Aspose.Words for Python library and documentation at [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

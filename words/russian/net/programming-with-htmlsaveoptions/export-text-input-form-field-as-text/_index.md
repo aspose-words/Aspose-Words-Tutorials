@@ -1,14 +1,16 @@
 ---
-title: Экспортировать поле формы ввода текста как текст
-linktitle: Экспортировать поле формы ввода текста как текст
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как экспортировать поля формы ввода текста в виде обычного текста с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/export-text-input-form-field-as-text/
+"description": "Узнайте, как экспортировать поля формы ввода текста в виде обычного текста с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства."
+"linktitle": "Экспортировать поле формы ввода текста как текст"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Экспортировать поле формы ввода текста как текст"
+"url": "/ru/net/programming-with-htmlsaveoptions/export-text-input-form-field-as-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспортировать поле формы ввода текста как текст
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-htmlsaveoptions/export-text-input-form-field-as-te
 
 Прежде чем мы углубимся в детали, давайте убедимся, что у вас есть все необходимое для успешного продолжения:
 
--  Aspose.Words для .NET: Загрузите и установите последнюю версию с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузите и установите последнюю версию с [здесь](https://releases.aspose.com/words/net/).
 - IDE: Visual Studio или любая среда разработки C#.
 - Базовые знания C#: понимание базового синтаксиса C# и концепций объектно-ориентированного программирования.
 - Документ: Образец документа Word (`Rendering.docx`) с полями формы ввода текста.
@@ -46,21 +48,21 @@ using Aspose.Words.Saving;
 ## Создание проекта
 
 1. Откройте Visual Studio: начните с открытия Visual Studio или предпочитаемой вами среды разработки C#.
-2.  Создать новый проект: Перейдите к`File > New > Project` . Выбирать`Console App (.NET Core)` или любой другой соответствующий тип проекта.
-3.  Назовите свой проект: дайте своему проекту осмысленное имя, например:`AsposeWordsExportExample`.
+2. Создать новый проект: Перейдите к `File > New > Project`Выбирать `Console App (.NET Core)` или любой другой соответствующий тип проекта.
+3. Назовите свой проект: дайте своему проекту осмысленное имя, например: `AsposeWordsExportExample`.
 
 ## Добавление Aspose.Words
 
-1.  Управление пакетами NuGet: щелкните правой кнопкой мыши свой проект в обозревателе решений и выберите`Manage NuGet Packages`.
-2.  Поиск Aspose.Words: В диспетчере пакетов NuGet найдите`Aspose.Words`.
-3.  Установить Aspose.Words: Нажмите на`Install` для добавления библиотеки Aspose.Words в ваш проект.
+1. Управление пакетами NuGet: щелкните правой кнопкой мыши свой проект в обозревателе решений и выберите `Manage NuGet Packages`.
+2. Поиск Aspose.Words: В диспетчере пакетов NuGet найдите `Aspose.Words`.
+3. Установить Aspose.Words: Нажмите на `Install` для добавления библиотеки Aspose.Words в ваш проект.
 
 ## Шаг 2: Загрузите документ Word
 
 Теперь, когда наш проект настроен, давайте загрузим документ Word, содержащий поля формы ввода текста.
 
 1. Укажите каталог документа: определите путь к каталогу, в котором хранится ваш документ.
-2.  Загрузите документ: используйте`Document` класс для загрузки вашего документа Word.
+2. Загрузите документ: используйте `Document` класс для загрузки вашего документа Word.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,9 +89,9 @@ Directory.CreateDirectory(imagesDir);
 
 Вот тут-то и происходит волшебство. Нам нужно настроить параметры сохранения, чтобы экспортировать поле формы ввода текста как обычный текст.
 
-1.  Создать параметры сохранения: Инициализировать новый`HtmlSaveOptions` объект.
-2.  Установить параметр экспорта текста: настроить`ExportTextInputFormFieldAsText`собственность`true`.
-3. Задать папку изображений: определить папку, в которой будут сохраняться изображения.
+1. Создать параметры сохранения: Инициализировать новый `HtmlSaveOptions` объект.
+2. Установить параметр экспорта текста: настроить `ExportTextInputFormFieldAsText` собственность `true`.
+3. Задать папку изображений: определите папку, в которой будут сохраняться изображения.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
@@ -104,7 +106,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 Наконец, сохраним документ Word как HTML-файл, используя настроенные нами параметры сохранения.
 
 1. Определите выходной путь: укажите путь, по которому будет сохранен HTML-файл.
-2.  Сохраните документ: используйте`Save` Метод`Document`класс для экспорта документа.
+2. Сохраните документ: используйте `Save` Метод `Document` класс для экспорта документа.
 
 ```csharp
 doc.Save(dataDir + "ExportedDocument.html", saveOptions);
@@ -118,27 +120,32 @@ doc.Save(dataDir + "ExportedDocument.html", saveOptions);
 
 ### Можно ли экспортировать другие типы полей форм, используя тот же метод?
 
- Да, вы можете экспортировать другие типы полей формы, настроив различные свойства`HtmlSaveOptions` сорт.
+Да, вы можете экспортировать другие типы полей формы, настроив различные свойства `HtmlSaveOptions` сорт.
 
 ### Что делать, если в моем документе есть изображения?
 
- Изображения будут сохранены в указанной папке изображений. Обязательно установите`ImagesFolder` недвижимость в`HtmlSaveOptions`.
+Изображения будут сохранены в указанной папке изображений. Обязательно установите `ImagesFolder` недвижимость в `HtmlSaveOptions`.
 
 ### Нужна ли мне лицензия для Aspose.Words?
 
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/) или приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/) или приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я настроить экспортированный HTML?
 
- Конечно! Aspose.Words предоставляет различные возможности для настройки HTML-вывода. См.[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Конечно! Aspose.Words предоставляет различные возможности для настройки HTML-вывода. См. [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Совместим ли Aspose.Words с .NET Core?
 
 Да, Aspose.Words совместим с .NET Core, .NET Framework и другими платформами .NET.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

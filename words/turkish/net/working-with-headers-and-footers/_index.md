@@ -1,14 +1,16 @@
 ---
-title: Başlıklar ve Altbilgilerle Kelime İşleme
-linktitle: Başlıklar ve Altbilgilerle Kelime İşleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde başlıklar ve altbilgilerle nasıl çalışacağınızı öğrenin. Tam eğitimler ve pratik örnekler.
-weight: 730
-url: /tr/net/working-with-headers-and-footers/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde başlıklar ve altbilgilerle nasıl çalışacağınızı öğrenin. Tam eğitimler ve pratik örnekler."
+"linktitle": "Başlıklar ve Altbilgilerle Kelime İşleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Başlıklar ve Altbilgilerle Kelime İşleme"
+"url": "/tr/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Başlıklar ve Altbilgilerle Kelime İşleme
@@ -18,13 +20,18 @@ Words Processing with Headers and Footers, .NET için Aspose.Words kütüphanesi
 
 
  ## Eğitimler
-| Başlık | Tanım |
+| Başlık | Açıklama |
 | --- | --- |
-| [Üstbilgi Altbilgi Oluştur](./create-header-footer/) | Aspose.Words for .NET ile Word belgelerinizde üstbilgi ve altbilgi oluşturmayı öğrenin. Her sayfa için üstbilgi ve altbilgileri özelleştirin. |
-| [Önceki Bölümden Üstbilgileri Altbilgileri Kopyala](./copy-headers-footers-from-previous-section/) | Aspose.Words for .NET kullanarak Word belgelerindeki önceki bölümden üstbilgi ve altbilgilerin nasıl kopyalanacağını öğrenin. |
+| [Üstbilgi Altbilgi Oluştur](./create-header-footer/) | Aspose.Words for .NET ile Word belgelerinizde başlık ve altbilgilerin nasıl oluşturulacağını öğrenin. Her sayfa için başlıkları ve altbilgileri özelleştirin. |
+| [Önceki Bölümden Üstbilgileri Altbilgileri Kopyala](./copy-headers-footers-from-previous-section/) Aspose.Words for .NET kullanarak Word belgelerindeki önceki bölümden üst bilgileri ve alt bilgileri nasıl kopyalayacağınızı öğrenin. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

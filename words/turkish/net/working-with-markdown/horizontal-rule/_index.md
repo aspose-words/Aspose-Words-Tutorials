@@ -1,14 +1,16 @@
 ---
-title: Yatay Kural
-linktitle: Yatay Kural
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerine yatay çizgilerin nasıl ekleneceğini öğrenin. Belgenizin düzenini geliştirmek için bu ayrıntılı, adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/working-with-markdown/horizontal-rule/
+"description": "Aspose.Words for .NET kullanarak Word belgelerine yatay çizgilerin nasıl ekleneceğini öğrenin. Belgenizin düzenini geliştirmek için bu ayrıntılı, adım adım kılavuzu izleyin."
+"linktitle": "Yatay Kural"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yatay Kural"
+"url": "/tr/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yatay Kural
@@ -21,7 +23,7 @@ Word belgelerinize profesyonellik katmak istediniz mi? Yatay çizgiler olarak da
 
 Adım adım kılavuza geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklü değilse, şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklü değilse, şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamının kurulu olması gerekir. Visual Studio harika bir seçimdir.
 - Temel C# Bilgisi: Bu eğitimde C# ve .NET hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Şimdi yatay bir cetvel ekleme sürecini basit ve uygulanması kolay adımlara bölelim.
+Şimdi yatay bir cetvel ekleme sürecini basit ve takip edilmesi kolay adımlara bölelim.
 
 ## Adım 1: Belgeyi Başlatın
 
@@ -73,13 +75,18 @@ Evet, Aspose.Words yatay çizginin stilini, genişliğini, yüksekliğini ve hiz
 Visual Studio gibi bir .NET geliştirme ortamına ve .NET için Aspose.Words'ün bir kopyasına ihtiyacınız var.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ücretli bir üründür, ancak bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ücretli bir üründür, ancak bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Destek alabilirsiniz[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

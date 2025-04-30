@@ -1,14 +1,16 @@
 ---
-title: โหลดเอกสารที่เข้ารหัสใน Word
-linktitle: โหลดเอกสารเข้ารหัสในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีโหลดและบันทึกเอกสาร Word ที่เข้ารหัสโดยใช้ Aspose.Words สำหรับ .NET รักษาความปลอดภัยเอกสารของคุณด้วยรหัสผ่านใหม่ได้อย่างง่ายดาย มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
-weight: 10
-url: /th/net/programming-with-loadoptions/load-encrypted-document/
+"description": "เรียนรู้วิธีโหลดและบันทึกเอกสาร Word ที่เข้ารหัสโดยใช้ Aspose.Words สำหรับ .NET รักษาความปลอดภัยเอกสารของคุณด้วยรหัสผ่านใหม่ได้อย่างง่ายดาย มีคู่มือทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "โหลดเอกสารเข้ารหัสในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โหลดเอกสารที่เข้ารหัสใน Word"
+"url": "/th/net/programming-with-loadoptions/load-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โหลดเอกสารที่เข้ารหัสใน Word
@@ -21,8 +23,8 @@ url: /th/net/programming-with-loadoptions/load-encrypted-document/
 
 ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://downloads.aspose.com/words/net).
-2.  ใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถทดลองใช้งานฟรีหรือซื้อได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+1. ติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://downloads-aspose.com/words/net).
+2. ใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถทดลองใช้งานฟรีหรือซื้อได้จาก [ที่นี่](https://purchase-aspose.com/buy).
 3. Visual Studio หรือสภาพแวดล้อมการพัฒนา .NET อื่น ๆ
 
 ## นำเข้าเนมสเปซ
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารที่เข้ารหัส
 
- ขั้นแรกคุณจะโหลดเอกสารที่เข้ารหัสโดยใช้`LoadOptions` คลาส คลาสนี้ช่วยให้คุณสามารถกำหนดรหัสผ่านที่จำเป็นในการเปิดเอกสารได้
+ขั้นแรกคุณจะโหลดเอกสารที่เข้ารหัสโดยใช้ `LoadOptions` คลาส คลาสนี้ช่วยให้คุณสามารถกำหนดรหัสผ่านที่จำเป็นในการเปิดเอกสารได้
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "Encrypted.docx", new LoadOptions("passwor
 
 ## ขั้นตอนที่ 2: บันทึกเอกสารด้วยรหัสผ่านใหม่
 
- ขั้นต่อไป คุณจะบันทึกเอกสารที่โหลดเป็นไฟล์ ODT โดยคราวนี้ให้ตั้งรหัสผ่านใหม่โดยใช้`OdtSaveOptions` ระดับ.
+ขั้นต่อไป คุณจะบันทึกเอกสารที่โหลดเป็นไฟล์ ODT โดยคราวนี้ให้ตั้งรหัสผ่านใหม่โดยใช้ `OdtSaveOptions` ระดับ.
 
 ```csharp
 // บันทึกเอกสารที่เข้ารหัสด้วยรหัสผ่านใหม่
@@ -77,9 +79,14 @@ doc.Save(dataDir + "WorkingWithLoadOptions.LoadAndSaveEncryptedOdt.odt", new Odt
 ### มีข้อจำกัดเกี่ยวกับขนาดของเอกสารที่สามารถเข้ารหัสได้หรือไม่?
 ไม่ Aspose.Words สามารถจัดการเอกสารทุกขนาด ขึ้นอยู่กับข้อจำกัดของหน่วยความจำของระบบของคุณ
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

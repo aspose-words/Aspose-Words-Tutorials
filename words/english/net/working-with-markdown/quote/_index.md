@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/quote/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quote
@@ -104,9 +107,13 @@ For support, you can visit the Aspose.Words forum [here](https://forum.aspose.co
 
 You can download Aspose.Words for .NET from [here](https://releases.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

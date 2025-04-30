@@ -1,14 +1,16 @@
 ---
-title: Lisansı Dosyadan Uygula
-linktitle: Lisansı Dosyadan Uygula
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'te bir dosyadan lisans uygulamasını nasıl uygulayacağınızı öğrenin. Kütüphanenizin tüm potansiyelini zahmetsizce ortaya çıkarın.
-weight: 10
-url: /tr/net/apply-license/apply-license-from-file/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'te bir dosyadan lisans uygulamasını nasıl yapacağınızı öğrenin. Kütüphanenizin tüm potansiyelini zahmetsizce ortaya çıkarın."
+"linktitle": "Lisansı Dosyadan Uygula"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Lisansı Dosyadan Uygula"
+"url": "/tr/net/apply-license/apply-license-from-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lisansı Dosyadan Uygula
@@ -21,8 +23,8 @@ Merhaba! Aspose.Words for .NET dünyasına dalıyorsanız, bir şölene hazırs�
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
-2.  Geçerli Aspose Lisans Dosyası: Eğer henüz bir tane yoksa, şu adresten ücretsiz deneme alabilirsiniz:[Burada](https://releases.aspose.com/) veya bir tane satın alın[Burada](https://purchase.aspose.com/buy).
+1. Aspose.Words for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+2. Geçerli Aspose Lisans Dosyası: Eğer henüz bir tane yoksa, şu adresten ücretsiz deneme alabilirsiniz: [Burada](https://releases.aspose.com/) veya bir tane satın alın [Burada](https://purchase.aspose.com/buy).
 3. Geliştirme Ortamı: Visual Studio benzeri bir IDE.
 4. C# Temel Anlayışı: Bu, kod örneklerini takip etmenize yardımcı olacaktır.
 
@@ -55,7 +57,7 @@ License license = new License();
 
 ## Adım 3: Lisansı Ayarlayın
 
- Şimdi kritik kısım geliyor: Lisansı ayarlamak. Lisans dosyanızın yolunu belirtmeniz gerekecek. Bu, şu şekilde yapılabilir:`SetLicense` yöntemi`License` sınıf. Herhangi bir potansiyel hatayı ele almak için bunu bir try-catch bloğuna sarın.
+Şimdi kritik kısım geliyor: Lisansı ayarlamak. Lisans dosyanızın yolunu belirtmeniz gerekecek. Bu, şu şekilde yapılabilir: `SetLicense` yöntemi `License` sınıf. Herhangi bir potansiyel hatayı ele almak için bunu bir try-catch bloğuna sarın.
 
 ```csharp
 try
@@ -71,7 +73,7 @@ catch (Exception e)
 
 ## Adım 4: Lisansı Doğrulayın
 
-Lisansı ayarladıktan sonra, doğru bir şekilde uygulandığını doğrulamak iyi bir fikirdir. Bunu,`IsLicensed` mülkiyeti`License` sınıf.
+Lisansı ayarladıktan sonra, doğru bir şekilde uygulandığını doğrulamak iyi bir fikirdir. Bunu, `IsLicensed` mülkiyeti `License` sınıf.
 
 ```csharp
 if (license.IsLicensed)
@@ -86,7 +88,7 @@ else
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Words for .NET'te bir dosyadan lisansı başarıyla uyguladınız. Bu, Aspose.Words'ün sunduğu tüm özellikleri ve işlevleri açmak için önemli bir adımdır. Lisansınız ayarlandığında, artık hiçbir sınırlama olmadan Word belgeleri oluşturabilir ve düzenleyebilirsiniz.
+Ve işte oldu! Aspose.Words for .NET'te bir dosyadan lisansı başarıyla uyguladınız. Bu, Aspose.Words'ün sunduğu tüm özellikleri ve işlevleri açmak için olmazsa olmaz bir adımdır. Lisansınız ayarlandığında, artık hiçbir sınırlama olmadan Word belgeleri oluşturabilir ve düzenleyebilirsiniz.
 
 ## SSS
 
@@ -94,19 +96,24 @@ Ve işte oldu! Aspose.Words for .NET'te bir dosyadan lisansı başarıyla uygula
 Lisans ayarlamazsanız Aspose.Words, filigranlı belgeler ve kısıtlı işlevsellik gibi sınırlamalara sahip olan değerlendirme modunda çalışacaktır.
 
 ### Bir yayından aldığım lisansı kullanabilir miyim?  
- Evet, lisans dosyası bir kaynak olarak gömülüyse bir akıştan lisans yükleyebilirsiniz.`SetLicense` Bir akışı kabul eden yöntem.
+Evet, lisans dosyası bir kaynak olarak gömülüyse bir akıştan lisans yükleyebilirsiniz. `SetLicense` Bir akışı kabul eden yöntem.
 
 ### Lisans dosyamı nereye koymalıyım?  
-Lisans dosyanızı çalıştırılabilir dosyanızın bulunduğu dizine veya uygulamanızın erişebildiği herhangi bir yola yerleştirebilirsiniz.
+Lisans dosyanızı yürütülebilir dosyanızın bulunduğu dizine veya uygulamanızın erişebildiği herhangi bir yola yerleştirebilirsiniz.
 
 ### Geçici ehliyet nasıl alınır?  
- Geçici bir lisansı şuradan alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/temporary-license/) 30 gün geçerli.
+Geçici bir lisansı şuradan alabilirsiniz: [Aspose web sitesi](https://purchase.aspose.com/temporary-license/) 30 gün geçerli.
 
 ### Lisans dosyası makineye özel mi?  
 Hayır, lisans dosyası belirli bir makineye bağlı değildir. Lisans sözleşmesinin şartlarına uygun olduğu sürece herhangi bir makinede kullanabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

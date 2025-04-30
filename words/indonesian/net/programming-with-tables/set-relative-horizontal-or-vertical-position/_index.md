@@ -1,14 +1,16 @@
 ---
-title: Mengatur Posisi Horizontal atau Vertikal Relatif
-linktitle: Mengatur Posisi Horizontal atau Vertikal Relatif
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur posisi horizontal dan vertikal relatif untuk tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-tables/set-relative-horizontal-or-vertical-position/
+"description": "Pelajari cara mengatur posisi horizontal dan vertikal relatif untuk tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Mengatur Posisi Horizontal atau Vertikal Relatif"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Posisi Horizontal atau Vertikal Relatif"
+"url": "/id/net/programming-with-tables/set-relative-horizontal-or-vertical-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Posisi Horizontal atau Vertikal Relatif
@@ -21,7 +23,7 @@ Pernahkah Anda merasa kesulitan mengatur posisi tabel sesuai keinginan di dokume
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memahami dasar-dasar pemrograman C#.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 Untuk memulai, Anda perlu memuat dokumen Word ke dalam program. Berikut cara melakukannya:
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -65,7 +67,7 @@ Sekarang, mari kita atur posisi horizontal tabel relatif terhadap elemen tertent
 table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 ```
 
- Dengan mengatur`HorizontalAnchor` ke`RelativeHorizontalPosition.Column`, Anda memberi tahu tabel agar menyelaraskan dirinya secara horizontal terhadap kolom tempatnya berada.
+Dengan mengatur `HorizontalAnchor` ke `RelativeHorizontalPosition.Column`, Anda memerintahkan tabel untuk menyelaraskan dirinya secara horizontal terhadap kolom tempatnya berada.
 
 ## Langkah 4: Atur Posisi Vertikal
 
@@ -75,7 +77,7 @@ Mirip dengan posisi horizontal, Anda juga dapat mengatur posisi vertikal. Di sin
 table.VerticalAnchor = RelativeVerticalPosition.Page;
 ```
 
- Pengaturan`VerticalAnchor` ke`RelativeVerticalPosition.Page` memastikan tabel sejajar secara vertikal sesuai dengan halaman.
+Pengaturan `VerticalAnchor` ke `RelativeVerticalPosition.Page` memastikan tabel sejajar secara vertikal sesuai dengan halaman.
 
 ## Langkah 5: Simpan Dokumen Anda
 
@@ -97,19 +99,24 @@ Nah, itu dia! Anda telah berhasil mengatur posisi horizontal dan vertikal relati
 Ya, Aspose.Words memungkinkan Anda memposisikan tabel relatif terhadap berbagai elemen seperti margin, halaman, kolom, dan banyak lagi.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?  
- Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?  
- Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bisakah saya menggunakan Aspose.Words dengan bahasa pemrograman lain?  
 Aspose.Words dirancang terutama untuk .NET, tetapi ada versi yang tersedia untuk Java, Python, dan platform lainnya.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?  
-Untuk informasi lebih mendalam, lihat dokumentasi Aspose.Words[Di Sini](https://reference.aspose.com/words/net/).
+Untuk informasi lebih mendalam, lihat dokumentasi Aspose.Words [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,33 @@
 ---
-title: Srovnání zrnitosti V dokumentu Word
-linktitle: Srovnání zrnitosti V dokumentu Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se Porovnat granularitu ve funkci dokumentu Word aplikace Aspose.Words for .NET, která umožňuje porovnávat dokumenty znak po znaku a hlásit provedené změny.
-weight: 10
-url: /cs/net/compare-documents/comparison-granularity/
+"description": "Naučte se porovnávat granularitu v dokumentech Word v Aspose.Words pro .NET, která umožňuje porovnávat dokumenty znak po znaku a hlásit provedené změny."
+"linktitle": "Porovnání granularity v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Porovnání granularity v dokumentu Word"
+"url": "/cs/net/compare-documents/comparison-granularity/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Srovnání zrnitosti V dokumentu Word
+# Porovnání granularity v dokumentu Word
 
-Zde je podrobný průvodce vysvětlující zdrojový kód C# níže, který používá funkci Porovnat granularitu ve wordovém dokumentu Aspose.Words pro .NET.
+Zde je podrobný návod, který vysvětluje zdrojový kód C# níže, jenž využívá funkci porovnání granularity v dokumentu Word v Aspose.Words pro .NET.
 
 ## Krok 1: Úvod
 
-Funkce Porovnat zrnitost Aspose.Words pro .NET umožňuje porovnávat dokumenty na úrovni znaků. To znamená, že každý znak bude porovnán a změny budou podle toho hlášeny.
+Funkce Porovnání granularity v Aspose.Words pro .NET umožňuje porovnávat dokumenty na úrovni znaků. To znamená, že každý znak bude porovnán a změny budou odpovídajícím způsobem nahlášeny.
 
 ## Krok 2: Nastavení prostředí
 
-Než začnete, musíte své vývojové prostředí nastavit tak, aby fungovalo s Aspose.Words for .NET. Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words a že máte vhodný projekt C# pro vložení kódu.
+Než začnete, je třeba nastavit vývojové prostředí pro práci s Aspose.Words pro .NET. Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words a vhodný projekt v jazyce C# pro vložení kódu.
 
-## Krok 3: Přidejte požadovaná sestavení
+## Krok 3: Přidání požadovaných sestav
 
-Chcete-li použít funkci Porovnat granularitu Aspose.Words pro .NET, musíte do projektu přidat potřebná sestavení. Ujistěte se, že máte ve svém projektu správné odkazy na Aspose.Words.
+Chcete-li používat funkci Porovnání granularity v Aspose.Words pro .NET, musíte do projektu přidat potřebné sestavy. Ujistěte se, že máte v projektu správné odkazy na Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -34,7 +36,7 @@ using Aspose.Words.DocumentBuilder;
 
 ## Krok 4: Vytvoření dokumentů
 
-V tomto kroku vytvoříme dva dokumenty pomocí třídy DocumentBuilder. Tyto dokumenty budou použity pro srovnání.
+tomto kroku vytvoříme dva dokumenty pomocí třídy DocumentBuilder. Tyto dokumenty budou použity pro porovnání.
 
 ```csharp
 // Vytvořte dokument A.
@@ -48,7 +50,7 @@ builderB.Writeln("This is simple B words.");
 
 ## Krok 5: Konfigurace možností porovnání
 
-V tomto kroku nakonfigurujeme možnosti porovnání, abychom určili granularitu porovnání. Zde použijeme granularitu na úrovni znaků.
+V tomto kroku nakonfigurujeme možnosti porovnání a určíme granularitu porovnání. Zde použijeme granularitu na úrovni znaků.
 
 ```csharp
 CompareOptions compareOptions = new CompareOptions { Granularity = Granularity.CharLevel };
@@ -56,19 +58,19 @@ CompareOptions compareOptions = new CompareOptions { Granularity = Granularity.C
 
 ## Krok 6: Porovnání dokumentů
 
-Nyní porovnejme dokumenty pomocí metody Compare třídy Document. Změny budou uloženy v dokumentu A.
+Nyní porovnejme dokumenty pomocí metody Compare třídy Document. Změny se uloží do dokumentu A.
 
 ```csharp
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOptions);
 ```
 
- The`Compare`metoda porovná dokument A s dokumentem B a uloží změny do dokumentu A. Pro referenci můžete zadat jméno autora a datum porovnání.
+Ten/Ta/To `Compare` Metoda porovná dokument A s dokumentem B a uloží změny do dokumentu A. Pro referenci můžete zadat jméno autora a datum porovnání.
 
 ## Závěr
 
-V tomto článku jsme prozkoumali funkci Porovnat granularitu Aspose.Words pro .NET. Tato funkce umožňuje porovnávat dokumenty na úrovni znaků a hlásit změny. Tyto znalosti můžete využít k podrobnému porovnávání dokumentů ve svých projektech.
+V tomto článku jsme prozkoumali funkci Porovnání granularity v Aspose.Words pro .NET. Tato funkce umožňuje porovnávat dokumenty na úrovni znaků a hlásit změny. Tyto znalosti můžete využít k provádění podrobného porovnávání dokumentů ve vašich projektech.
 
-### Ukázka zdrojového kódu pro Comparison Granularity pomocí Aspose.Words for .NET
+### Ukázkový zdrojový kód pro porovnání granularity pomocí Aspose.Words pro .NET
 
 ```csharp
             
@@ -86,36 +88,41 @@ builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOpti
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali funkci Comparison Granularity Aspose.Words for .NET. Tato funkce umožňuje určit úroveň podrobností při porovnávání dokumentů. Výběrem různých úrovní podrobnosti můžete provádět podrobná srovnání na úrovni znaků, slov nebo bloků v závislosti na vašich konkrétních požadavcích. Aspose.Words for .NET poskytuje flexibilní a výkonnou možnost porovnávání dokumentů, což usnadňuje identifikaci rozdílů v dokumentech s různou úrovní granularity.
+V tomto tutoriálu jsme prozkoumali funkci granularity porovnání v Aspose.Words pro .NET. Tato funkce umožňuje určit úroveň detailů při porovnávání dokumentů. Výběrem různých úrovní granularity můžete provádět detailní porovnání na úrovni znaků, slov nebo bloků v závislosti na vašich specifických požadavcích. Aspose.Words pro .NET poskytuje flexibilní a výkonnou funkci porovnávání dokumentů, která usnadňuje identifikaci rozdílů v dokumentech s různou úrovní granularity.
 
-### FAQ
+### Často kladené otázky
 
-#### Otázka: Jaký je účel použití funkce Comparison Granularity v Aspose.Words for .NET?
+#### Otázka: Jaký je účel použití granularity porovnání v Aspose.Words pro .NET?
 
-Odpověď: Porovnání granularity v Aspose.Words pro .NET vám umožňuje určit úroveň podrobností při porovnávání dokumentů. Pomocí této funkce můžete porovnávat dokumenty na různých úrovních, například na úrovni znaků, na úrovni slov nebo dokonce na úrovni bloku. Každá úroveň podrobnosti poskytuje ve výsledcích srovnání jinou úroveň podrobností.
+A: Granularita porovnání v Aspose.Words pro .NET umožňuje určit úroveň detailů při porovnávání dokumentů. Díky této funkci můžete porovnávat dokumenty na různých úrovních, například na úrovni znaků, slov nebo dokonce bloků. Každá úroveň granularity poskytuje jinou úroveň detailů ve výsledcích porovnání.
 
-#### Otázka: Jak mohu použít srovnávací granularitu v Aspose.Words pro .NET?
+#### Otázka: Jak mohu v Aspose.Words pro .NET použít granularitu porovnání?
 
-Odpověď: Chcete-li použít srovnávací granularitu v Aspose.Words pro .NET, postupujte takto:
-1. Nastavte své vývojové prostředí pomocí knihovny Aspose.Words.
-2. Přidejte potřebné sestavy do svého projektu odkazem na Aspose.Words.
-3.  Vytvořte dokumenty, které chcete porovnat pomocí`DocumentBuilder` třída.
-4.  Nakonfigurujte možnosti porovnání vytvořením a`CompareOptions` objekt a nastavení`Granularity` vlastnost na požadovanou úroveň (např.`Granularity.CharLevel` pro srovnání na úrovni postav).
-5.  Použijte`Compare`metoda na jednom dokumentu, předání druhého dokumentu a`CompareOptions` objekt jako parametry. Tato metoda porovná dokumenty na základě zadané granularity a uloží změny v prvním dokumentu.
+A: Chcete-li v Aspose.Words pro .NET použít funkci Comparison Granularity, postupujte takto:
+1. Nastavte si vývojové prostředí pomocí knihovny Aspose.Words.
+2. Přidejte do projektu potřebné sestavy odkazem na Aspose.Words.
+3. Vytvořte dokumenty, které chcete porovnat, pomocí `DocumentBuilder` třída.
+4. Nakonfigurujte možnosti porovnání vytvořením `CompareOptions` objekt a nastavení `Granularity` vlastnost na požadovanou úroveň (např. `Granularity.CharLevel` pro porovnání na úrovni znaků).
+5. Použijte `Compare` metodu na jednom dokumentu, předání druhého dokumentu a `CompareOptions` objekt jako parametry. Tato metoda porovná dokumenty na základě zadané granularity a uloží změny do prvního dokumentu.
 
 #### Otázka: Jaké jsou dostupné úrovně granularity porovnání v Aspose.Words pro .NET?
 
-Odpověď: Aspose.Words for .NET poskytuje tři úrovně granularity srovnání:
-- `Granularity.CharLevel`: Porovnává dokumenty na úrovni znaků.
-- `Granularity.WordLevel`: Porovnává dokumenty na úrovni slov.
-- `Granularity.BlockLevel`: Porovnává dokumenty na úrovni bloku.
+A: Aspose.Words pro .NET nabízí tři úrovně granularity porovnání:
+- `Granularity.CharLevel`Porovnává dokumenty na úrovni znaků.
+- `Granularity.WordLevel`Porovnává dokumenty na úrovni slov.
+- `Granularity.BlockLevel`Porovnává dokumenty na úrovni bloků.
 
-#### Otázka: Jak mohu interpretovat výsledky srovnání s podrobností na úrovni znaků?
+#### Otázka: Jak mohu interpretovat výsledky porovnání s granularitou na úrovni znaků?
 
-Odpověď: Díky granularitě na úrovni znaků je každý znak v porovnávaných dokumentech analyzován na rozdíly. Výsledky porovnání ukáží změny na úrovni jednotlivých postav, včetně přidání, odstranění a úprav.
+A: Při granularitě na úrovni znaků se u každého znaku v porovnávaných dokumentech analyzuje rozdíl. Výsledky porovnání ukážou změny na úrovni jednotlivých znaků, včetně přidání, odstranění a úprav.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

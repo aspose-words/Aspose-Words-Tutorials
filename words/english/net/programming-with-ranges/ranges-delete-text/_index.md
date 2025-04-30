@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-ranges/ranges-delete-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ranges Delete Text In Word Document
@@ -109,9 +112,13 @@ If you haven't saved the document after deleting the text, you can reload the do
 
 Yes, you can loop through multiple sections and use the `Range.Delete` method to delete text from each section.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

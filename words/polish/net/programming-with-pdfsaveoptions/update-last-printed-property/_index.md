@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF
-linktitle: Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "Dowiedz się, jak zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF
@@ -21,7 +23,7 @@ Czy chcesz zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 - Podstawowa znajomość języka C#: Przydatna będzie pewna znajomość języka C#.
 - Dokument: Dokument programu Word, który chcesz przekonwertować do formatu PDF i zaktualizować ostatnią drukowaną właściwość.
@@ -47,7 +49,7 @@ Następnie musisz zainstalować pakiet Aspose.Words dla .NET. Możesz to zrobić
 
 ## Krok 3: Załaduj swój dokument
 
- Teraz załadujmy dokument Word, który chcesz przekonwertować do formatu PDF. Zastąp`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu.
+Teraz załadujmy dokument Word, który chcesz przekonwertować do formatu PDF. Zastąp `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Krok 4: Skonfiguruj opcje zapisywania pliku PDF
 
- Musimy skonfigurować opcje zapisywania PDF, aby zaktualizować ostatnią wydrukowaną właściwość. Utwórz nową instancję`PdfSaveOptions` i ustaw`UpdateLastPrintedProperty`nieruchomość do`true`.
+Musimy skonfigurować opcje zapisywania PDF, aby zaktualizować ostatnią wydrukowaną właściwość. Utwórz nową instancję `PdfSaveOptions` i ustaw `UpdateLastPrintedProperty` nieruchomość do `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -72,7 +74,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.UpdateIfLastPrinted.pdf", saveOpti
 
 ## Wniosek
 
-masz to! Wykonując te kroki, możesz łatwo zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla .NET. Ta metoda zapewnia, że proces zarządzania dokumentami pozostaje wydajny i aktualny. Wypróbuj ją i zobacz, jak upraszcza Twój przepływ pracy.
+I masz to! Wykonując te kroki, możesz łatwo zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla .NET. Ta metoda zapewnia, że proces zarządzania dokumentami pozostaje wydajny i aktualny. Wypróbuj ją i zobacz, jak upraszcza Twój przepływ pracy.
 
 ## Najczęściej zadawane pytania
 
@@ -86,13 +88,18 @@ Aktualizowanie ostatnio wydrukowanej właściwości pomaga śledzić wykorzystan
 Tak, Aspose.Words for .NET umożliwia aktualizowanie różnych właściwości dokumentu, takich jak autor, tytuł, temat i inne.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać[Tutaj](https://releases.aspose.com/). Do dłuższego użytkowania należy zakupić licencję.
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać [Tutaj](https://releases.aspose.com/). Do dłuższego użytkowania należy zakupić licencję.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację Aspose.Words dla .NET można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację Aspose.Words dla .NET można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

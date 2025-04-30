@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-bookmarks/append-bookmarked-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Append Bookmarked Text In Word Document
@@ -129,9 +132,13 @@ Yes, you can append the text to any position by navigating to the desired node i
 ### What if I need to append text from a bookmark to a new section?
 You can create a new section in the destination document and append the text there.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

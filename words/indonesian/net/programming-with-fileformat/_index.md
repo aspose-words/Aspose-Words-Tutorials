@@ -1,14 +1,16 @@
 ---
-title: Pengolahan Kata dengan Fileformat
-linktitle: Pengolahan Kata dengan Fileformat
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara bekerja dengan format file di Aspose.Words untuk .NET. Tutorial ini memandu Anda melalui berbagai fitur seperti mendeteksi format file, mengonversi antarformat.
-weight: 1610
-url: /id/net/programming-with-fileformat/
+"description": "Pelajari cara bekerja dengan format file di Aspose.Words untuk .NET. Tutorial ini memandu Anda melalui berbagai fitur seperti mendeteksi format file, mengonversi antarformat."
+"linktitle": "Pengolahan Kata dengan Fileformat"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengolahan Kata dengan Fileformat"
+"url": "/id/net/programming-with-fileformat/"
+"weight": 1610
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengolahan Kata dengan Fileformat
@@ -20,14 +22,19 @@ Dalam tutorial ini, Anda akan mempelajari cara menggunakan fitur-fitur canggih A
 Apakah Anda perlu membuat laporan, membuat dokumen khusus, mengotomatiskan tugas dokumen Word, atau mengonversi dokumen antarformat berbeda, tutorial Aspose.Words untuk .NET akan memberi Anda pengetahuan dan keterampilan untuk mencapai tujuan pengembangan Anda.
 
  ## Tutorial
-| Judul | Keterangan |
-| --- | --- |
-| [Deteksi Format File Dokumen](./detect-file-format/) | Pelajari cara mendeteksi format file dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. |
-| [Mendeteksi Tanda Tangan Digital pada Dokumen Word](./detect-document-signatures/) | Pelajari cara mendeteksi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. |
+| Judul | Deskripsi |
+Bahasa Indonesia: --- | --- Bahasa Indonesia:
+| [Deteksi Format File Dokumen](./detect-file-format/) | Pelajari cara mendeteksi format file dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
+| [Mendeteksi Tanda Tangan Digital pada Dokumen Word](./detect-document-signatures/) | Pelajari cara mendeteksi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Verifikasi Dokumen Word yang Terenkripsi](./verify-encrypted-document/) | Pelajari cara memverifikasi status enkripsi dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

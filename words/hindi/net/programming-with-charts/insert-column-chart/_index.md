@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में कॉलम चार्ट डालें
-linktitle: वर्ड दस्तावेज़ में कॉलम चार्ट डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कॉलम चार्ट सम्मिलित करना सीखें। अपनी रिपोर्ट और प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-charts/insert-column-chart/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कॉलम चार्ट सम्मिलित करना सीखें। अपनी रिपोर्ट और प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।"
+"linktitle": "वर्ड दस्तावेज़ में कॉलम चार्ट डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में कॉलम चार्ट डालें"
+"url": "/hi/net/programming-with-charts/insert-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में कॉलम चार्ट डालें
@@ -22,7 +24,7 @@ url: /hi/net/programming-with-charts/insert-column-chart/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - C# प्रोग्रामिंग और .NET वातावरण का बुनियादी ज्ञान।
--  Aspose.Words for .NET आपके विकास परिवेश में स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET आपके विकास परिवेश में स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - एक पाठ संपादक या एक एकीकृत विकास वातावरण (आईडीई) जैसे विजुअल स्टूडियो।
 
 ## नामस्थान आयात करना
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## चरण 1: नया दस्तावेज़ बनाएँ
 
- सबसे पहले, एक नया वर्ड दस्तावेज़ बनाएं और एक आरंभ करें`DocumentBuilder` वस्तु।
+सबसे पहले, एक नया वर्ड दस्तावेज़ बनाएं और एक आरंभ करें `DocumentBuilder` वस्तु।
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 2: कॉलम चार्ट डालें
 
- उपयोग`InsertChart` की विधि`DocumentBuilder`कॉलम चार्ट सम्मिलित करने के लिए क्लास का उपयोग करें।
+उपयोग `InsertChart` की विधि `DocumentBuilder` कॉलम चार्ट सम्मिलित करने के लिए क्लास का उपयोग करें।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -58,7 +60,7 @@ Chart chart = shape.Chart;
 
 ## चरण 3: चार्ट में डेटा जोड़ें
 
- चार्ट में डेटा श्रृंखला जोड़ें`Series` की संपत्ति`Chart` वस्तु।
+चार्ट में डेटा श्रृंखला जोड़ें `Series` की संपत्ति `Chart` वस्तु।
 
 ```csharp
 chart.Series.Add("Aspose Series 1", new string[] { "Category 1", "Category 2" }, new double[] { 1, 2 });
@@ -91,12 +93,17 @@ doc.Save(dataDir + "InsertColumnChart.docx");
 हां, .NET के लिए Aspose.Words आपको पीडीएफ, HTML और छवियों सहित विभिन्न प्रारूपों में चार्ट के साथ दस्तावेज़ों को सहेजने की अनुमति देता है।
 
 ### मुझे Aspose.Words for .NET के लिए और अधिक सहायता या सहयोग कहां मिल सकता है?
- अधिक सहायता के लिए कृपया यहां जाएं[.NET फ़ोरम के लिए Aspose.Words](https://forum.aspose.com/c/words/8) या Aspose समर्थन से संपर्क करें.
+अधिक सहायता के लिए कृपया यहां जाएं [.NET फ़ोरम के लिए Aspose.Words](https://forum.aspose.com/c/words/8) या Aspose समर्थन से संपर्क करें.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

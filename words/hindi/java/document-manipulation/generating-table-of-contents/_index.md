@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में विषय-सूची तैयार करना
-linktitle: विषय-सूची तैयार करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके विषय-सूची (TOC) बनाना और उसे अनुकूलित करना सीखें। आसानी से व्यवस्थित और पेशेवर दस्तावेज़ बनाएँ।
-weight: 21
-url: /hi/java/document-manipulation/generating-table-of-contents/
+"description": "Java के लिए Aspose.Words का उपयोग करके विषय-सूची (TOC) बनाना और उसे अनुकूलित करना सीखें। आसानी से व्यवस्थित और पेशेवर दस्तावेज़ बनाएँ।"
+"linktitle": "विषय-सूची तैयार करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में विषय-सूची तैयार करना"
+"url": "/hi/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में विषय-सूची तैयार करना
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // पुराना टैब हटाएँ.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //संशोधित स्थान पर एक नया टैब डालें (उदाहरण के लिए, बाईं ओर 50 इकाई)।
+        // संशोधित स्थिति पर एक नया टैब डालें (उदाहरण के लिए, बाईं ओर 50 इकाई)।
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,7 +99,7 @@ doc.save("output.docx");
 
 ### मैं TOC प्रविष्टियों का स्वरूपण कैसे बदल सकता हूँ?
 
- आप TOC स्तरों से जुड़ी शैलियों को संशोधित कर सकते हैं`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, जहाँ X TOC स्तर है.
+आप TOC स्तरों से जुड़ी शैलियों को संशोधित कर सकते हैं `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, जहाँ X TOC स्तर है.
 
 ### मैं अपने TOC में और अधिक स्तर कैसे जोड़ सकता हूँ?
 
@@ -106,9 +108,14 @@ doc.save("output.docx");
 ### क्या मैं विशिष्ट TOC प्रविष्टियों के लिए टैब स्टॉप की स्थिति बदल सकता हूँ?
 
 हां, जैसा कि ऊपर दिए गए कोड उदाहरण में दिखाया गया है, आप पैराग्राफों के माध्यम से पुनरावृत्ति करके और टैब स्टॉप को तदनुसार संशोधित करके विशिष्ट TOC प्रविष्टियों के लिए टैब स्टॉप की स्थिति बदल सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

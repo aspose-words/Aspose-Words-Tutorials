@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word
-linktitle: การเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python เพิ่มความสามารถในการอ่านและความน่าสนใจทางภาพด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ
-weight: 11
-url: /th/python-net/tables-and-formatting/document-tables/
+"description": "เรียนรู้วิธีเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python เพิ่มความสามารถในการอ่านและความน่าสนใจทางภาพด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word"
+"url": "/th/python-net/tables-and-formatting/document-tables/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มประสิทธิภาพตารางสำหรับการนำเสนอข้อมูลในเอกสาร Word
@@ -18,7 +20,7 @@ url: /th/python-net/tables-and-formatting/document-tables/
 
 ## การแนะนำ:
 
-ตารางเป็นเครื่องมือพื้นฐานสำหรับการนำเสนอข้อมูลที่มีโครงสร้างในเอกสาร Word ช่วยให้เราจัดระเบียบข้อมูลในแถวและคอลัมน์ ทำให้เข้าถึงและเข้าใจชุดข้อมูลที่ซับซ้อนได้ง่ายขึ้น อย่างไรก็ตาม การสร้างตารางที่สวยงามและใช้งานง่ายต้องพิจารณาปัจจัยต่างๆ อย่างรอบคอบ เช่น การจัดรูปแบบ เค้าโครง และการออกแบบ ในบทความนี้ เราจะสำรวจวิธีการเพิ่มประสิทธิภาพตารางโดยใช้ Aspose.Words สำหรับ Python เพื่อสร้างการนำเสนอข้อมูลที่น่าสนใจและใช้งานได้จริง
+ตารางเป็นเครื่องมือพื้นฐานในการนำเสนอข้อมูลที่มีโครงสร้างในเอกสาร Word ช่วยให้เราจัดระเบียบข้อมูลในแถวและคอลัมน์ ทำให้เข้าถึงและเข้าใจชุดข้อมูลที่ซับซ้อนได้ง่ายขึ้น อย่างไรก็ตาม การสร้างตารางที่สวยงามและใช้งานง่ายต้องพิจารณาปัจจัยต่างๆ อย่างรอบคอบ เช่น การจัดรูปแบบ เค้าโครง และการออกแบบ ในบทความนี้ เราจะสำรวจวิธีการเพิ่มประสิทธิภาพตารางโดยใช้ Aspose.Words สำหรับ Python เพื่อสร้างการนำเสนอข้อมูลที่น่าสนใจและใช้งานได้จริง
 
 ## ความสำคัญของการเพิ่มประสิทธิภาพตาราง:
 
@@ -55,19 +57,19 @@ url: /th/python-net/tables-and-formatting/document-tables/
 ตารางถูกสร้างขึ้นโดยใช้คลาส Table ใน Aspose.Words หากต้องการสร้างตาราง ให้ระบุจำนวนแถวและคอลัมน์ที่ควรมี นอกจากนี้คุณยังกำหนดความกว้างที่ต้องการของตารางและเซลล์ได้อีกด้วย
 
 ```python
-# Create a table with 3 rows and 4 columns
+# สร้างตารางที่มี 3 แถวและ 4 คอลัมน์
 table = doc.get_child(aw.NodeType.TABLE, 0, True).as_table()
 
-# Set preferred width for the table
+# กำหนดความกว้างที่ต้องการสำหรับตาราง
 table.preferred_width = doc.page_width
 ```
 
 ## การปรับความกว้างของคอลัมน์:
 
- การปรับความกว้างของคอลัมน์ให้เหมาะสมจะช่วยให้เนื้อหาในตารางพอดีและสม่ำเสมอ คุณสามารถตั้งค่าความกว้างของคอลัมน์แต่ละคอลัมน์ได้โดยใช้`set_preferred_width` วิธี.
+การปรับความกว้างของคอลัมน์ให้เหมาะสมจะช่วยให้เนื้อหาในตารางพอดีและสม่ำเสมอ คุณสามารถตั้งค่าความกว้างของคอลัมน์แต่ละคอลัมน์ได้โดยใช้ `set_preferred_width` วิธี.
 
 ```python
-# Set preferred width for the first column
+# กำหนดความกว้างที่ต้องการสำหรับคอลัมน์แรก
 table.columns[0].set_preferred_width(100)
 ```
 
@@ -76,35 +78,35 @@ table.columns[0].set_preferred_width(100)
 การผสานเซลล์อาจเป็นประโยชน์ในการสร้างเซลล์ส่วนหัวที่ครอบคลุมหลายคอลัมน์หรือหลายแถว ในทางกลับกัน การแยกเซลล์จะช่วยแบ่งเซลล์ที่ผสานกลับเป็นการกำหนดค่าเดิม
 
 ```python
-# Merge cells in the first row
+# รวมเซลล์ในแถวแรก
 cell = table.rows[0].cells[0]
 cell.cell_format.horizontal_merge = CellMerge.FIRST
 
-# Split a previously merged cell
+# แยกเซลล์ที่ผสานไว้ก่อนหน้านี้
 cell.cell_format.horizontal_merge = CellMerge.NONE
 ```
 
 ## การจัดแต่งทรงและการปรับแต่ง:
 
-Aspose.Words มีตัวเลือกการจัดรูปแบบต่างๆ เพื่อปรับปรุงรูปลักษณ์ของตาราง คุณสามารถตั้งค่าสีพื้นหลังของเซลล์ การจัดตำแหน่งข้อความ การจัดรูปแบบแบบอักษร และอื่นๆ อีกมากมาย
+Aspose.Words มีตัวเลือกการจัดรูปแบบต่างๆ เพื่อปรับปรุงรูปลักษณ์ของตาราง คุณสามารถตั้งค่าสีพื้นหลังของเซลล์ การจัดแนวข้อความ การจัดรูปแบบแบบอักษร และอื่นๆ อีกมากมาย
 
 ```python
-# Apply bold formatting to a cell's text
+# ใช้การจัดรูปแบบตัวหนากับข้อความในเซลล์
 cell.paragraphs[0].runs[0].font.bold = True
 
-# Set background color for a cell
+# ตั้งค่าสีพื้นหลังให้กับเซลล์
 cell.cell_format.shading.background_pattern_color = Color.light_gray
 ```
 
 ## การเพิ่มส่วนหัวและส่วนท้ายลงในตาราง:
 
- ตารางสามารถได้รับประโยชน์จากการมีส่วนหัวและส่วนท้ายที่ให้บริบทหรือข้อมูลเพิ่มเติม คุณสามารถเพิ่มส่วนหัวและส่วนท้ายลงในตารางได้โดยใช้`Table.title` และ`Table.description` คุณสมบัติ.
+ตารางสามารถได้รับประโยชน์จากการมีส่วนหัวและส่วนท้ายที่ให้บริบทหรือข้อมูลเพิ่มเติม คุณสามารถเพิ่มส่วนหัวและส่วนท้ายลงในตารางได้โดยใช้ `Table.title` และ `Table.description` คุณสมบัติ.
 
 ```python
-# Set table title (header)
+# ตั้งค่าหัวตาราง (ส่วนหัว)
 table.title = "Sales Data 2023"
 
-# Set table description (footer)
+# ตั้งค่าคำอธิบายตาราง (ส่วนท้าย)
 table.description = "Figures are in USD."
 ```
 
@@ -113,7 +115,7 @@ table.description = "Figures are in USD."
 ในเอกสารที่มีเค้าโครงแตกต่างกัน การออกแบบตารางที่ตอบสนองได้กลายมาเป็นสิ่งสำคัญ การปรับความกว้างของคอลัมน์และความสูงของเซลล์ตามพื้นที่ว่างจะช่วยให้ตารางยังคงอ่านได้และสวยงาม
 
 ```python
-# Check available space and adjust column widths accordingly
+# ตรวจสอบพื้นที่ว่างและปรับความกว้างของคอลัมน์ให้เหมาะสม
 available_width = doc.page_width - doc.left_margin - doc.right_margin
 for column in table.columns:
     column.preferred_width = available_width / len(table.columns)
@@ -124,7 +126,7 @@ for column in table.columns:
 เมื่อคุณปรับแต่งตารางของคุณเสร็จแล้ว ก็ถึงเวลาบันทึกเอกสาร Aspose.Words รองรับรูปแบบต่างๆ รวมถึง DOCX, PDF และอื่นๆ อีกมากมาย
 
 ```python
-# Save the document in DOCX format
+# บันทึกเอกสารในรูปแบบ DOCX
 output_path = "optimized_table.docx"
 doc.save(output_path)
 ```
@@ -153,9 +155,14 @@ pip install aspose-words
 ### ฉันสามารถใช้รูปแบบที่แตกต่างกันกับเซลล์แต่ละเซลล์ได้หรือไม่
 
 ใช่ คุณสามารถปรับแต่งรูปแบบเซลล์ได้โดยการปรับการจัดรูปแบบแบบอักษร สีพื้นหลัง และการจัดตำแหน่ง
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

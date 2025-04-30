@@ -1,21 +1,23 @@
 ---
-title: Digitale handtekeningen en authenticiteit beheren
-linktitle: Digitale handtekeningen en authenticiteit beheren
-second_title: Aspose.Words Python-API voor documentbeheer
-description: Leer hoe u digitale handtekeningen beheert en de authenticiteit van documenten waarborgt met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
-weight: 17
-url: /nl/python-net/document-combining-and-comparison/manage-digital-signatures/
+"description": "Leer hoe u digitale handtekeningen beheert en de authenticiteit van documenten waarborgt met Aspose.Words voor Python. Stapsgewijze handleiding met broncode."
+"linktitle": "Het beheren van digitale handtekeningen en authenticiteit"
+"second_title": "Aspose.Words Python Document Management API"
+"title": "Het beheren van digitale handtekeningen en authenticiteit"
+"url": "/nl/python-net/document-combining-and-comparison/manage-digital-signatures/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Digitale handtekeningen en authenticiteit beheren
+# Het beheren van digitale handtekeningen en authenticiteit
 
 ## Inleiding tot digitale handtekeningen
 
-Digitale handtekeningen dienen als elektronische equivalenten van handgeschreven handtekeningen. Ze bieden een manier om de authenticiteit, integriteit en oorsprong van elektronische documenten te verifiëren. Wanneer een document digitaal wordt ondertekend, wordt een cryptografische hash gegenereerd op basis van de inhoud van het document. Deze hash wordt vervolgens gecodeerd met de privésleutel van de ondertekenaar, waardoor de digitale handtekening wordt gemaakt. Iedereen met de bijbehorende openbare sleutel kan de handtekening verifiëren en de authenticiteit van het document vaststellen.
+Digitale handtekeningen dienen als elektronische equivalenten van handgeschreven handtekeningen. Ze bieden een manier om de authenticiteit, integriteit en herkomst van elektronische documenten te verifiëren. Wanneer een document digitaal wordt ondertekend, wordt een cryptografische hash gegenereerd op basis van de inhoud van het document. Deze hash wordt vervolgens versleuteld met de privésleutel van de ondertekenaar, waardoor de digitale handtekening ontstaat. Iedereen met de bijbehorende publieke sleutel kan de handtekening verifiëren en de authenticiteit van het document vaststellen.
 
 ## Aspose.Words instellen voor Python
 
@@ -80,32 +82,37 @@ sign_options.sign_time = datetime.datetime.now()
 
 ## Conclusie
 
-Het beheren van digitale handtekeningen en het verzekeren van de authenticiteit van documenten zijn cruciaal in het digitale landschap van vandaag. Aspose.Words voor Python vereenvoudigt het proces van het toevoegen, verifiëren en aanpassen van digitale handtekeningen, waardoor ontwikkelaars de beveiliging en betrouwbaarheid van hun documenten kunnen verbeteren.
+Het beheren van digitale handtekeningen en het waarborgen van de authenticiteit van documenten zijn cruciaal in het huidige digitale landschap. Aspose.Words voor Python vereenvoudigt het toevoegen, verifiëren en aanpassen van digitale handtekeningen, waardoor ontwikkelaars de beveiliging en betrouwbaarheid van hun documenten kunnen verbeteren.
 
 ## Veelgestelde vragen
 
 ### Hoe werken digitale handtekeningen?
 
-Digitale handtekeningen maken gebruik van cryptografie om een unieke hash te genereren op basis van de inhoud van het document, gecodeerd met de persoonlijke sleutel van de ondertekenaar.
+Digitale handtekeningen maken gebruik van cryptografie om op basis van de inhoud van het document een unieke hash te genereren, gecodeerd met de persoonlijke sleutel van de ondertekenaar.
 
 ### Kan er geknoeid worden met een digitaal ondertekend document?
 
-Nee, als u een digitaal ondertekend document wijzigt, wordt de handtekening ongeldig, wat kan duiden op mogelijke ongeautoriseerde wijzigingen.
+Nee, als u een digitaal ondertekend document wijzigt, wordt de handtekening ongeldig, wat kan leiden tot ongeautoriseerde wijzigingen.
 
 ### Kunnen er meerdere handtekeningen aan één document worden toegevoegd?
 
 Ja, u kunt meerdere digitale handtekeningen aan één document toevoegen, elke handtekening van een andere ondertekenaar.
 
-### Welke soorten certificaten zijn compatibel?
+### Welke certificaattypen zijn compatibel?
 
 Aspose.Words ondersteunt X.509-certificaten, inclusief PFX-bestanden, die veel worden gebruikt voor digitale handtekeningen.
 
 ### Zijn digitale handtekeningen juridisch geldig?
 
 Ja, digitale handtekeningen zijn in veel landen rechtsgeldig en worden vaak beschouwd als gelijkwaardig aan handgeschreven handtekeningen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Structured Document Tag Range Start Xml Mapping
@@ -127,9 +130,13 @@ Absolutely! You can map complex XML structures to SDTs by using detailed XPath e
 ### How can I remove an XML part from a document?
 You can remove an XML part by calling the `Remove` method on the `CustomXmlParts` collection, passing the `xmlPartId` of the XML part you want to remove.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

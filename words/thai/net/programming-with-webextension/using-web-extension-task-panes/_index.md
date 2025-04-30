@@ -1,14 +1,16 @@
 ---
-title: การใช้บานหน้าต่างงานส่วนขยายเว็บ
-linktitle: การใช้บานหน้าต่างงานส่วนขยายเว็บ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเพิ่มและกำหนดค่าบานหน้าต่างงานส่วนขยายเว็บในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "เรียนรู้วิธีการเพิ่มและกำหนดค่าบานหน้าต่างงานส่วนขยายเว็บในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "การใช้บานหน้าต่างงานส่วนขยายเว็บ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การใช้บานหน้าต่างงานส่วนขยายเว็บ"
+"url": "/th/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้บานหน้าต่างงานส่วนขยายเว็บ
@@ -21,10 +23,10 @@ url: /th/net/programming-with-webextension/using-web-extension-task-panes/
 
 ก่อนที่เราจะเจาะลึก เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา .NET: Visual Studio หรือ IDE อื่น ๆ ที่คุณต้องการ
 - ความรู้พื้นฐานเกี่ยวกับ C#: จะช่วยให้คุณติดตามตัวอย่างโค้ดได้
--  ใบอนุญาตสำหรับ Aspose.คำพูด: คุณสามารถซื้อได้หนึ่งอัน[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- ใบอนุญาตสำหรับ Aspose.คำพูด: คุณสามารถซื้อได้หนึ่งอัน [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราว [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -48,7 +50,7 @@ using Aspose.Words.WebExtensions;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
 
 ### ขั้นตอนที่ 2: การสร้างเอกสารใหม่
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- บรรทัดนี้จะเริ่มต้นอินสแตนซ์ใหม่ของ`Document` คลาสซึ่งแสดงถึงเอกสาร Word
+บรรทัดนี้จะเริ่มต้นอินสแตนซ์ใหม่ของ `Document` คลาสซึ่งแสดงถึงเอกสาร Word
 
 ### ขั้นตอนที่ 3: การเพิ่มบานหน้าต่างงาน
 
@@ -69,7 +71,7 @@ TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- ที่นี่เราสร้างใหม่`TaskPane` วัตถุและเพิ่มเข้าไปในเอกสาร`WebExtensionTaskPanes` ของสะสม.
+ที่นี่เราสร้างใหม่ `TaskPane` วัตถุและเพิ่มเข้าไปในเอกสาร `WebExtensionTaskPanes` ของสะสม.
 
 ### ขั้นตอนที่ 4: การกำหนดค่าบานหน้าต่างงาน
 
@@ -96,24 +98,24 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`เป็นตัวระบุเฉพาะสำหรับส่วนขยายเว็บ
+- `Id` เป็นตัวระบุเฉพาะสำหรับส่วนขยายเว็บ
 - `Version` ระบุเวอร์ชันของส่วนขยาย
 - `StoreType` ระบุประเภทของร้านค้า (ในกรณีนี้คือ OMEX)
 - `Store` ระบุรหัสภาษา/วัฒนธรรมของร้านค้า
 
 ### ขั้นตอนที่ 6: การเพิ่มคุณสมบัติให้กับส่วนขยายเว็บ
 
-คุณสามารถเพิ่มคุณสมบัติให้กับส่วนขยายเว็บของคุณเพื่อกำหนดลักษณะการทำงานหรือเนื้อหาของมันได้
+คุณสามารถเพิ่มคุณสมบัติให้กับส่วนขยายเว็บของคุณเพื่อกำหนดพฤติกรรมหรือเนื้อหาของมันได้
 
 ```csharp
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- ที่นี่เราเพิ่มคุณสมบัติชื่อ`mailchimpCampaign`.
+ที่นี่เราเพิ่มคุณสมบัติชื่อ `mailchimpCampaign`-
 
 ### ขั้นตอนที่ 7: การผูกส่วนขยายเว็บ
 
-ในที่สุด เราก็เพิ่มการผูกเข้ากับส่วนขยายเว็บของเรา การผูกช่วยให้คุณสามารถเชื่อมโยงส่วนขยายกับส่วนเฉพาะของเอกสารได้
+ในที่สุด เราก็เพิ่มการผูกมัดให้กับส่วนขยายเว็บของเรา การผูกมัดช่วยให้คุณสามารถเชื่อมโยงส่วนขยายกับส่วนเฉพาะของเอกสารได้
 
 ```csharp
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
@@ -161,19 +163,24 @@ foreach (TaskPane taskPaneInfo in doc.WebExtensionTaskPanes)
 บานหน้าต่างงานเป็นองค์ประกอบของอินเทอร์เฟซที่ให้เครื่องมือและฟังก์ชันเพิ่มเติมภายในเอกสาร Word เพื่อเพิ่มประสิทธิภาพการโต้ตอบและประสิทธิผลของผู้ใช้
 
 ### ฉันสามารถปรับแต่งลักษณะของบานหน้าต่างงานได้หรือไม่
- ใช่ คุณสามารถปรับแต่งลักษณะของบานหน้าต่างงานได้โดยตั้งค่าคุณสมบัติ เช่น`DockState`, `IsVisible` , และ`Width`.
+ใช่ คุณสามารถปรับแต่งลักษณะของบานหน้าต่างงานได้โดยตั้งค่าคุณสมบัติ เช่น `DockState`- `IsVisible`, และ `Width`-
 
 ### คุณสมบัติส่วนขยายเว็บคืออะไร
 คุณสมบัติส่วนขยายเว็บเป็นคุณสมบัติที่กำหนดเองซึ่งคุณสามารถเพิ่มลงในส่วนขยายเว็บเพื่อกำหนดลักษณะการทำงานหรือเนื้อหาได้
 
 ### ฉันจะผูกส่วนขยายเว็บกับส่วนหนึ่งของเอกสารได้อย่างไร
- คุณสามารถผูกส่วนขยายเว็บกับส่วนหนึ่งของเอกสารโดยใช้`WebExtensionBinding` คลาส โดยระบุชนิดการผูกและ ID เป้าหมาย
+คุณสามารถผูกส่วนขยายเว็บกับส่วนหนึ่งของเอกสารโดยใช้ `WebExtensionBinding` คลาส โดยระบุชนิดการผูกและ ID เป้าหมาย
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

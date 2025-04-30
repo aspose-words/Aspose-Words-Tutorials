@@ -1,14 +1,16 @@
 ---
-title: Pencetakan Dokumen
-linktitle: Pencetakan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java dengan panduan terperinci ini. Termasuk langkah-langkah untuk mengonfigurasi pengaturan cetak, menampilkan pratinjau cetak, dan banyak lagi.
-weight: 10
-url: /id/java/document-printing/automating-document-printing/
+"description": "Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java dengan panduan terperinci ini. Termasuk langkah-langkah untuk mengonfigurasi pengaturan cetak, menampilkan pratinjau cetak, dan banyak lagi."
+"linktitle": "Pencetakan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Pencetakan Dokumen"
+"url": "/id/java/document-printing/automating-document-printing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pencetakan Dokumen
@@ -26,8 +28,8 @@ Sebelum memulai proses pencetakan, pastikan Anda memiliki prasyarat berikut:
 
 1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK 8 atau yang lebih tinggi di sistem Anda. Aspose.Words untuk Java bergantung pada JDK yang kompatibel agar dapat berfungsi dengan baik.
 2. Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk mengelola proyek dan pustaka Java Anda.
-3.  Pustaka Aspose.Words untuk Java: Unduh dan integrasikan pustaka Aspose.Words untuk Java ke dalam proyek Anda. Anda bisa mendapatkan versi terbaru[Di Sini](https://releases.aspose.com/words/java/).
-4.  Pemahaman Dasar tentang Pencetakan Java: Biasakan diri Anda dengan API pencetakan Java dan konsep-konsep seperti`PrinterJob` Dan`PrintPreviewDialog`.
+3. Pustaka Aspose.Words untuk Java: Unduh dan integrasikan pustaka Aspose.Words untuk Java ke dalam proyek Anda. Anda bisa mendapatkan versi terbaru [Di Sini](https://releases.aspose.com/words/java/).
+4. Pemahaman Dasar tentang Pencetakan Java: Biasakan diri Anda dengan API pencetakan Java dan konsep-konsep seperti `PrinterJob` Dan `PrintPreviewDialog`.
 
 ## Paket Impor
 
@@ -53,7 +55,7 @@ Document doc = new Document("TestFile.doc");
 ```
 
 Penjelasan: 
-- `Document doc = new Document("TestFile.doc");` menginisialisasi yang baru`Document` objek dari berkas yang ditentukan. Pastikan jalur ke dokumen sudah benar dan berkas dapat diakses.
+- `Document doc = new Document("TestFile.doc");` menginisialisasi yang baru `Document` objek dari berkas yang ditentukan. Pastikan jalur ke dokumen sudah benar dan berkas dapat diakses.
 
 ## Langkah 2: Inisialisasi Pekerjaan Printer
 
@@ -64,7 +66,7 @@ PrinterJob pj = PrinterJob.getPrinterJob();
 ```
 
 Penjelasan: 
-- `PrinterJob.getPrinterJob();` memperoleh`PrinterJob` instance, yang digunakan untuk menangani pekerjaan cetak. Objek ini mengelola proses pencetakan, termasuk mengirim dokumen ke printer.
+- `PrinterJob.getPrinterJob();` memperoleh `PrinterJob` instance, yang digunakan untuk menangani pekerjaan cetak. Objek ini mengelola proses pencetakan, termasuk mengirim dokumen ke printer.
 
 ## Langkah 3: Konfigurasikan Atribut Cetak
 
@@ -86,7 +88,7 @@ Penjelasan:
 
 ## Langkah 4: Membuat dan Mengonfigurasi AsposeWordsPrintDocument
 
- Langkah ini melibatkan pembuatan`AsposeWordsPrintDocument` objek untuk membuat dokumen siap dicetak.
+Langkah ini melibatkan pembuatan `AsposeWordsPrintDocument` objek untuk membuat dokumen siap dicetak.
 
 ```java
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
@@ -94,8 +96,8 @@ pj.setPageable(awPrintDoc);
 ```
 
 Penjelasan:
-- `AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);` menginisialisasi`AsposeWordsPrintDocument` dengan dokumen yang akan dicetak.
-- `pj.setPageable(awPrintDoc);` mengatur`AsposeWordsPrintDocument` sebagai halaman untuk`PrinterJob`yang berarti dokumen akan dirender dan dikirim ke printer.
+- `AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);` menginisialisasi `AsposeWordsPrintDocument` dengan dokumen yang akan dicetak.
+- `pj.setPageable(awPrintDoc);` mengatur `AsposeWordsPrintDocument` sebagai halaman untuk `PrinterJob`, yang berarti dokumen akan dirender dan dikirim ke printer.
 
 ## Langkah 5: Tampilkan Pratinjau Cetak
 
@@ -111,7 +113,7 @@ if (previewDlg.display()) {
 ```
 
 Penjelasan:
-- `PrintPreviewDialog previewDlg = new PrintPreviewDialog(awPrintDoc);` membuat dialog pratinjau cetak dengan`AsposeWordsPrintDocument`.
+- `PrintPreviewDialog previewDlg = new PrintPreviewDialog(awPrintDoc);` membuat dialog pratinjau cetak dengan `AsposeWordsPrintDocument`.
 - `previewDlg.setPrinterAttributes(attributes);` mengatur atribut cetak untuk pratinjau.
 - `if (previewDlg.display()) { pj.print(attributes); }` menampilkan dialog pratinjau. Jika pengguna menerima pratinjau, dokumen akan dicetak dengan atribut yang ditentukan.
 
@@ -125,26 +127,31 @@ Dengan mengikuti panduan ini, Anda sekarang akan memiliki pemahaman yang kuat te
 
 ### 1. Dapatkah saya mencetak halaman tertentu dari suatu dokumen?
 
- Ya, Anda dapat menentukan rentang halaman menggunakan`PageRanges` kelas. Sesuaikan nomor halaman di`PrintRequestAttributeSet` untuk mencetak hanya halaman yang Anda perlukan.
+Ya, Anda dapat menentukan rentang halaman menggunakan `PageRanges` kelas. Sesuaikan nomor halaman di `PrintRequestAttributeSet` untuk mencetak hanya halaman yang Anda perlukan.
 
 ### 2. Bagaimana cara mengatur pencetakan untuk beberapa dokumen?
 
- Anda dapat mengatur pencetakan untuk beberapa dokumen dengan mengulangi langkah-langkah untuk setiap dokumen. Buat dokumen terpisah`Document` objek dan`AsposeWordsPrintDocument` contoh untuk masing-masingnya.
+Anda dapat mengatur pencetakan untuk beberapa dokumen dengan mengulangi langkah-langkah untuk setiap dokumen. Buat dokumen terpisah `Document` objek dan `AsposeWordsPrintDocument` contoh untuk masing-masingnya.
 
 ### 3. Apakah mungkin untuk menyesuaikan dialog pratinjau cetak?
 
- Sementara itu`PrintPreviewDialog` menyediakan fungsionalitas pratinjau dasar, Anda dapat menyesuaikannya dengan memperluas atau memodifikasi perilaku dialog melalui komponen atau pustaka Java Swing tambahan.
+Sementara itu `PrintPreviewDialog` menyediakan fungsionalitas pratinjau dasar, Anda dapat menyesuaikannya dengan memperluas atau memodifikasi perilaku dialog melalui komponen atau pustaka Java Swing tambahan.
 
 ### 4. Dapatkah saya menyimpan pengaturan cetak untuk penggunaan di masa mendatang?
 
- Anda dapat menyimpan pengaturan cetak dengan menyimpan`PrintRequestAttributeSet`atribut dalam file konfigurasi atau basis data. Muat pengaturan ini saat menyiapkan pekerjaan cetak baru.
+Anda dapat menyimpan pengaturan cetak dengan menyimpan `PrintRequestAttributeSet` atribut dalam file konfigurasi atau basis data. Muat pengaturan ini saat menyiapkan pekerjaan cetak baru.
 
 ### 5. Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk Java?
 
- Untuk rincian lengkap dan contoh tambahan, kunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/).
+Untuk rincian lengkap dan contoh tambahan, kunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

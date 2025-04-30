@@ -1,14 +1,16 @@
 ---
-title: พฤติกรรมสไตล์สมาร์ท
-linktitle: พฤติกรรมสไตล์สมาร์ท
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผสานเอกสาร Word อย่างราบรื่นด้วย Aspose.Words สำหรับ .NET โดยรักษารูปแบบและรับรองผลลัพธ์แบบมืออาชีพ
-weight: 10
-url: /th/net/join-and-append-documents/smart-style-behavior/
+"description": "เรียนรู้วิธีการผสานเอกสาร Word อย่างราบรื่นด้วย Aspose.Words สำหรับ .NET โดยรักษาสไตล์และรับรองผลลัพธ์แบบมืออาชีพ"
+"linktitle": "พฤติกรรมสไตล์สมาร์ท"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "พฤติกรรมสไตล์สมาร์ท"
+"url": "/th/net/join-and-append-documents/smart-style-behavior/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # พฤติกรรมสไตล์สมาร์ท
@@ -21,10 +23,10 @@ url: /th/net/join-and-append-documents/smart-style-behavior/
 
 ก่อนที่เราจะเริ่มการผจญภัยในการผสานรวมเอกสารนี้ เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด ถ้าไม่มี ให้ดาวน์โหลดจาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด ถ้าไม่มี ให้ดาวน์โหลดจาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมที่เข้ากันได้กับ .NET ใดๆ ก็ใช้ได้ เช่น Visual Studio
 - เอกสาร Word สองฉบับ: สำหรับบทช่วยสอนนี้ เราจะใช้ “Document source.docx” และ “Northwind traders.docx”
--  ใบอนุญาต Aspose: เพื่อหลีกเลี่ยงข้อจำกัดใด ๆ ให้รับของคุณ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)หากคุณยังไม่ได้ซื้อ
+- ใบอนุญาต Aspose: เพื่อหลีกเลี่ยงข้อจำกัดใด ๆ ให้รับของคุณ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณยังไม่ได้ซื้อ
 
 ### นำเข้าเนมสเปซ
 
@@ -40,7 +42,7 @@ using Aspose.Words.Saving;
 ในการเริ่มต้น เราต้องโหลดเอกสารต้นทางและปลายทางลงในแอปพลิเคชันของเรา
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // โหลดเอกสารต้นฉบับ
@@ -51,11 +53,11 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
 คำอธิบาย:
- ที่นี่ เรากำลังโหลด “Document source.docx” และ “Northwind traders.docx” จากไดเร็กทอรีที่ระบุ อย่าลืมแทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+ที่นี่ เรากำลังโหลด “Document source.docx” และ “Northwind traders.docx” จากไดเร็กทอรีที่ระบุ อย่าลืมแทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
-## ขั้นตอนที่ 2: เริ่มต้น DocumentBuilder
+## ขั้นตอนที่ 2: เริ่มต้นใช้งาน DocumentBuilder
 
- ต่อไปเราต้องสร้าง`DocumentBuilder` วัตถุสำหรับเอกสารปลายทาง ซึ่งจะช่วยให้เราจัดการเนื้อหาของเอกสารได้
+ต่อไปเราต้องสร้าง `DocumentBuilder` วัตถุสำหรับเอกสารปลายทาง ซึ่งจะช่วยให้เราจัดการเนื้อหาของเอกสารได้
 
 ```csharp
 // เริ่มต้น DocumentBuilder สำหรับเอกสารปลายทาง
@@ -63,7 +65,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 ```
 
 คำอธิบาย:
- การ`DocumentBuilder` เป็นเครื่องมือที่มีประโยชน์ซึ่งให้วิธีการนำทางและแก้ไขเอกสาร ในที่นี้ เราจะเชื่อมโยงเอกสารกับเอกสารปลายทางของเรา
+การ `DocumentBuilder` เป็นเครื่องมือที่มีประโยชน์ซึ่งให้วิธีการนำทางและแก้ไขเอกสาร ในที่นี้ เราจะเชื่อมโยงเอกสารกับเอกสารปลายทางของเรา
 
 ## ขั้นตอนที่ 3: ย้ายไปที่จุดสิ้นสุดเอกสารและแทรกตัวแบ่งหน้า
 
@@ -82,7 +84,7 @@ builder.InsertBreak(BreakType.PageBreak);
 
 ## ขั้นตอนที่ 4: กำหนดพฤติกรรมสไตล์สมาร์ท
 
- ก่อนที่เราจะรวมเอกสาร เราจะต้องตั้งค่า`SmartStyleBehavior` ถึง`true`ตัวเลือกนี้ช่วยในการรักษาสไตล์จากเอกสารต้นฉบับอย่างชาญฉลาด
+ก่อนที่เราจะรวมเอกสาร เราจะต้องตั้งค่า `SmartStyleBehavior` ถึง `true`ตัวเลือกนี้ช่วยในการรักษาสไตล์จากเอกสารต้นฉบับอย่างชาญฉลาด
 
 ```csharp
 // กำหนดพฤติกรรมสไตล์สมาร์ท
@@ -125,21 +127,26 @@ builder.Document.Save(dataDir + "JoinAndAppendDocuments.SmartStyleBehavior.docx"
 ### ฉันสามารถใช้วิธีนี้กับเอกสารมากกว่าสองฉบับได้ไหม?
 ใช่ คุณสามารถทำซ้ำขั้นตอนนี้สำหรับเอกสารเพิ่มเติมได้ เพียงโหลดเอกสารใหม่แต่ละฉบับและแทรกลงในเอกสารปลายทางดังที่แสดง
 
-### จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า`SmartStyleBehavior` to true?
+### จะเกิดอะไรขึ้นถ้าฉันไม่ตั้งค่า `SmartStyleBehavior` จริงหรอ?
 หากไม่มีตัวเลือกนี้ รูปแบบของเอกสารต้นฉบับอาจไม่บูรณาการกันได้ดี ส่งผลให้เกิดปัญหาด้านการจัดรูปแบบ
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์ที่ต้องชำระเงิน แต่คุณสามารถทดลองใช้งานฟรีได้โดยใช้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์ที่ต้องชำระเงิน แต่คุณสามารถทดลองใช้งานฟรีได้โดยใช้ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถใช้วิธีนี้กับรูปแบบไฟล์ที่แตกต่างกันได้หรือไม่
 บทช่วยสอนนี้มีไว้สำหรับเอกสาร Word โดยเฉพาะ (.docx) สำหรับรูปแบบอื่น คุณอาจต้องใช้ขั้นตอนเพิ่มเติมหรือวิธีการอื่น
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?
- หากมีปัญหาใด ๆ โปรดไปที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากมีปัญหาใด ๆ โปรดไปที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

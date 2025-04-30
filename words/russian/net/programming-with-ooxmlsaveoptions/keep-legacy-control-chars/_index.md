@@ -1,14 +1,16 @@
 ---
-title: Сохраните устаревшие символы управления
-linktitle: Сохраните устаревшие символы управления
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как сохранить устаревшие управляющие символы в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "Узнайте, как сохранить устаревшие управляющие символы в документах Word с помощью Aspose.Words для .NET, из этого пошагового руководства."
+"linktitle": "Сохраните устаревшие символы управления"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Сохраните устаревшие символы управления"
+"url": "/ru/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохраните устаревшие символы управления
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Загрузите и установите с[здесь](https://releases.aspose.com/words/net/).
-2.  Действующая лицензия Aspose: вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words для .NET: Загрузите и установите с [здесь](https://releases.aspose.com/words/net/).
+2. Действующая лицензия Aspose: вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 3. Среда разработки: Visual Studio или любая другая IDE, поддерживающая .NET.
 4. Базовые знания C#: знакомство с языком программирования C# будет полезным.
 
@@ -40,7 +42,7 @@ using Aspose.Words.Saving;
 Сначала вам необходимо настроить свой проект в Visual Studio (или другой предпочитаемой вами среде IDE). 
 
 1. Создайте новый проект C#: Откройте Visual Studio и создайте новый проект консольного приложения C#.
-2. Установите Aspose.Words для .NET: используйте NuGet Package Manager для установки Aspose.Words для .NET. Щелкните правой кнопкой мыши по вашему проекту в Solution Explorer, выберите «Manage NuGet Packages», найдите «Aspose.Words» и установите его.
+2. Установите Aspose.Words для .NET: используйте NuGet Package Manager для установки Aspose.Words для .NET. Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений, выберите «Управление пакетами NuGet», найдите «Aspose.Words» и установите его.
 
 ## Шаг 2: Загрузите документ
 
@@ -52,7 +54,7 @@ using Aspose.Words.Saving;
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  Загрузите документ: Используйте`Document` класс для загрузки вашего документа.
+2. Загрузите документ: Используйте `Document` класс для загрузки вашего документа.
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ using Aspose.Words.Saving;
 
 Теперь давайте настроим параметры сохранения, чтобы оставить нетронутыми устаревшие управляющие символы.
 
-1.  Создать параметры сохранения: Инициализировать экземпляр`OoxmlSaveOptions` и установите`KeepLegacyControlChars`собственность`true`.
+1. Создать параметры сохранения: Инициализировать экземпляр `OoxmlSaveOptions` и установите `KeepLegacyControlChars` собственность `true`.
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ using Aspose.Words.Saving;
 
 Наконец, сохраните документ, используя настроенные параметры сохранения.
 
-1.  Сохраните документ: Используйте`Save` Метод`Document` класс для сохранения документа с указанными параметрами сохранения.
+1. Сохраните документ: Используйте `Save` Метод `Document` класс для сохранения документа с указанными параметрами сохранения.
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -83,7 +85,7 @@ using Aspose.Words.Saving;
 
 ## Заключение
 
-И вот оно! Выполнив эти шаги, вы можете гарантировать, что ваши устаревшие управляющие символы будут сохранены при работе с документами Word в Aspose.Words for .NET. Эта функция может стать спасением, особенно при работе со сложными документами, где управляющие символы играют решающую роль. 
+И вот вам! Выполнив эти шаги, вы можете гарантировать, что ваши устаревшие управляющие символы будут сохранены при работе с документами Word в Aspose.Words for .NET. Эта функция может стать спасением, особенно при работе со сложными документами, где управляющие символы играют решающую роль. 
 
 ## Часто задаваемые вопросы
 
@@ -101,15 +103,20 @@ using Aspose.Words.Saving;
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 
- Да, вам нужна действующая лицензия. Вы можете получить временную лицензию для ознакомительных целей[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вам нужна действующая лицензия. Вы можете получить временную лицензию для ознакомительных целей [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

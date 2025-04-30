@@ -1,14 +1,16 @@
 ---
-title: Установить папку с изображениями
-linktitle: Установить папку с изображениями
-second_title: API обработки документов Aspose.Words
-description: Конвертируйте документы Word в Markdown с правильным выравниванием таблиц с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для идеальных результатов.
-weight: 10
-url: /ru/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "Конвертируйте документы Word в Markdown с правильным выравниванием таблиц с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для идеальных результатов."
+"linktitle": "Установить папку с изображениями"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить папку с изображениями"
+"url": "/ru/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить папку с изображениями
@@ -21,8 +23,8 @@ url: /ru/net/programming-with-markdownsaveoptions/set-images-folder/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
--  Действующая лицензия: получите бесплатную пробную версию[здесь](https://releases.aspose.com/) или временная лицензия[здесь](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
+- Действующая лицензия: получите бесплатную пробную версию [здесь](https://releases.aspose.com/) или временная лицензия [здесь](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: или любая другая IDE, поддерживающая разработку .NET.
 - Базовые знания C#: Понимание языка программирования C#.
 
@@ -46,7 +48,7 @@ using System.IO;
 
 ### 1.2 Добавить ссылку Aspose.Words
 
- Чтобы добавить Aspose.Words в свой проект, вы можете загрузить DLL с сайта[Сайт Aspose](https://releases.aspose.com/words/net/) и добавьте его вручную или используйте диспетчер пакетов NuGet:
+Чтобы добавить Aspose.Words в свой проект, вы можете загрузить DLL с сайта [Сайт Aspose](https://releases.aspose.com/words/net/) и добавьте его вручную или используйте диспетчер пакетов NuGet:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 Настройка параметров сохранения Markdown
 
- Настройте`MarkdownSaveOptions` чтобы указать, где следует хранить изображения.
+Настройте `MarkdownSaveOptions` чтобы указать, где следует хранить изображения.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 Сохраните документ как Markdown
 
- Используйте`MemoryStream` сохранить документ в формате Markdown.
+Используйте `MemoryStream` сохранить документ в формате Markdown.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -106,7 +108,7 @@ using (MemoryStream stream = new MemoryStream())
 
 ### Как получить временную лицензию для Aspose.Words?
 
-Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Какие типы документов можно конвертировать в Markdown?
 
@@ -114,15 +116,20 @@ using (MemoryStream stream = new MemoryStream())
 
 ### Есть ли какие-либо ограничения в пробной версии Aspose.Words?
 
-Пробная версия имеет некоторые ограничения, такие как водяные знаки в выходных файлах. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Пробная версия имеет некоторые ограничения, такие как водяные знаки в выходных файлах. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти больше примеров и документации по Aspose.Words?
 
- Подробную документацию и примеры вы можете найти на сайте[Сайт Aspose](https://reference.aspose.com/words/net/).
+Подробную документацию и примеры вы можете найти на сайте [Сайт Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

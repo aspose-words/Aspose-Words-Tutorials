@@ -1,74 +1,76 @@
 ---
-title: Dokumentum szövegének iránya
-linktitle: Dokumentum szövegének iránya
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan állíthatja be a dokumentum szövegének irányát a Wordben az Aspose.Words for .NET használatával. Tökéletes a jobbról balra írt nyelvek kezelésére.
-weight: 10
-url: /hu/net/programming-with-txtloadoptions/document-text-direction/
+"description": "Tanuld meg, hogyan állíthatod be a dokumentum szövegirányát Wordben az Aspose.Words for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Tökéletes a jobbról balra író nyelvek kezeléséhez."
+"linktitle": "Dokumentum szövegiránya"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Dokumentum szövegiránya"
+"url": "/hu/net/programming-with-txtloadoptions/document-text-direction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentum szövegének iránya
+# Dokumentum szövegiránya
 
 ## Bevezetés
 
-Amikor Word-dokumentumokkal dolgozik, különösen azokkal, amelyek több nyelvet vagy speciális formázási igényeket tartalmaznak, a szöveg irányának beállítása kulcsfontosságú lehet. Például, amikor jobbról balra haladó nyelveket használ, mint a héber vagy az arab, előfordulhat, hogy ennek megfelelően módosítania kell a szöveg irányát. Ebben az útmutatóban bemutatjuk, hogyan állíthatja be a dokumentum szövegének irányát az Aspose.Words for .NET használatával. 
+Word-dokumentumok, különösen a több nyelvet tartalmazó vagy speciális formázási igényeket igénylő dokumentumok kezelésekor a szöveg irányának beállítása kulcsfontosságú lehet. Például jobbról balra író nyelvek, például héber vagy arab esetén szükség lehet a szöveg irányának ennek megfelelő beállítására. Ebben az útmutatóban bemutatjuk, hogyan állíthatja be a dokumentum szövegirányát az Aspose.Words for .NET használatával. 
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
--  Aspose.Words for .NET Library: Győződjön meg arról, hogy az Aspose.Words for .NET telepítve van. Letöltheti a[Aspose honlapja](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET könyvtár: Győződjön meg róla, hogy telepítve van az Aspose.Words for .NET. Letöltheti innen: [Aspose weboldal](https://releases.aspose.com/words/net/).
 - Visual Studio: C# kód írására és végrehajtására szolgáló fejlesztői környezet.
-- Alapvető C# ismeretek: A C# programozás ismerete hasznos lesz, mivel írunk egy kis kódot.
+- C# alapismeretek: A C# programozásban való jártasság előnyös lesz, mivel kódot fogunk írni.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket az Aspose.Words használatához a projektben. A következőképpen teheti meg:
+Kezdésként importálnod kell a szükséges névtereket az Aspose.Words projektedben való használathoz. Így teheted meg:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-Ezek a névterek hozzáférést biztosítanak a Word dokumentumok kezeléséhez szükséges osztályokhoz és metódusokhoz.
+Ezek a névterek hozzáférést biztosítanak a Word-dokumentumok kezeléséhez szükséges osztályokhoz és metódusokhoz.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtár elérési útját
+## 1. lépés: Adja meg a dokumentumkönyvtár elérési útját
 
-Először állítsa be a dokumentum elérési útját. Ez kulcsfontosságú a fájlok megfelelő betöltéséhez és mentéséhez.
+Először is állítsd be a dokumentum elérési útját. Ez elengedhetetlen a fájlok megfelelő betöltéséhez és mentéséhez.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahol a dokumentumot tárolják.
+Csere `"YOUR DOCUMENT DIRECTORY"` dokumentum tényleges tárolási útvonalával.
 
-## 2. lépés: Hozzon létre TxtLoadOptions-t a dokumentum irányának beállításával
+## 2. lépés: TxtLoadOptions létrehozása dokumentumirány-beállítással
 
- Ezután létre kell hoznia egy példányt`TxtLoadOptions` és állítsa be`DocumentDirection` ingatlan. Ez megmondja az Aspose.Words számára, hogyan kezelje a szöveg irányát a dokumentumban.
+Ezután létre kell hoznia egy példányt a következőből: `TxtLoadOptions` és állítsa be `DocumentDirection` tulajdonság. Ez megmondja az Aspose.Words-nek, hogyan kezelje a szöveg irányát a dokumentumban.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DocumentDirection = DocumentDirection.Auto };
 ```
 
- Ebben a példában használjuk`DocumentDirection.Auto` hogy az Aspose.Words automatikusan meghatározza az irányt a tartalom alapján.
+Ebben a példában a következőt használjuk: `DocumentDirection.Auto` hogy az Aspose.Words automatikusan meghatározza az irányt a tartalom alapján.
 
-## 3. lépés: Töltse be a dokumentumot
+## 3. lépés: A dokumentum betöltése
 
- Most töltse be a dokumentumot a gombbal`Document` osztály és a korábban meghatározott`loadOptions`.
+Most töltse be a dokumentumot a `Document` osztály és a korábban definiált `loadOptions`.
 
 ```csharp
 Document doc = new Document(dataDir + "Hebrew text.txt", loadOptions);
 ```
 
- Itt,`"Hebrew text.txt"` a szövegfájl neve. Győződjön meg arról, hogy ez a fájl létezik a megadott könyvtárban.
+Itt, `"Hebrew text.txt"` a szövegfájl neve. Győződjön meg róla, hogy a fájl létezik a megadott könyvtárban.
 
-## 4. lépés: Nyissa meg és ellenőrizze a bekezdés kétirányú formázását
+## 4. lépés: A bekezdés kétirányú formázásának elérése és ellenőrzése
 
-szövegirány helyes beállításának ellenőrzéséhez nyissa meg a dokumentum első bekezdését, és ellenőrizze annak kétirányú formázását.
+szövegirány helyes beállításának ellenőrzéséhez nyissa meg a dokumentum első bekezdését, és ellenőrizze a kétirányú formázást.
 
 ```csharp
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
@@ -79,42 +81,47 @@ Ez a lépés hasznos a hibakereséshez és annak ellenőrzéséhez, hogy a dokum
 
 ## 5. lépés: Mentse el a dokumentumot az új beállításokkal
 
-Végül mentse a dokumentumot az alkalmazáshoz, és tartsa fenn a változtatásokat.
+Végül mentse el a dokumentumot a módosítások alkalmazásához és megőrzéséhez.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTxtLoadOptions.DocumentTextDirection.docx");
 ```
 
- Itt,`"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` a kimeneti fájl neve. Ügyeljen arra, hogy olyan nevet válasszon, amely tükrözi az elvégzett módosításokat.
+Itt, `"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` a kimeneti fájl neve. Ügyeljen arra, hogy olyan nevet válasszon, amely tükrözi az elvégzett módosításokat.
 
 ## Következtetés
 
-A szöveg irányának beállítása a Word dokumentumokban egyszerű folyamat az Aspose.Words for .NET segítségével. Az alábbi lépések követésével egyszerűen beállíthatja, hogy a dokumentum hogyan kezelje a jobbról balra vagy a balról jobbra haladó szöveget. Függetlenül attól, hogy többnyelvű dokumentumokkal dolgozik, vagy szövegirányt kell formáznia bizonyos nyelvekhez, az Aspose.Words robusztus megoldást kínál az Ön igényeinek kielégítésére.
+A szöveg irányának beállítása Word dokumentumokban egyszerű folyamat az Aspose.Words for .NET segítségével. A következő lépéseket követve könnyedén konfigurálhatja, hogy a dokumentum hogyan kezelje a jobbról balra vagy balról jobbra írt szöveget. Akár többnyelvű dokumentumokkal dolgozik, akár adott nyelvekhez kell formáznia a szöveg irányát, az Aspose.Words robusztus megoldást kínál az Ön igényeinek kielégítésére.
 
 ## GYIK
 
-###  Mi az a`DocumentDirection` property used for?
+### Mi a `DocumentDirection` mire használták az ingatlant?
 
- A`DocumentDirection` ingatlan be`TxtLoadOptions` meghatározza a dokumentum szövegének irányát. Be lehet állítani`DocumentDirection.Auto`, `DocumentDirection.LeftToRight` , vagy`DocumentDirection.RightToLeft`.
+A `DocumentDirection` ingatlan `TxtLoadOptions` meghatározza a dokumentum szövegirányát. Beállítható úgy, hogy `DocumentDirection.Auto`, `DocumentDirection.LeftToRight`, vagy `DocumentDirection.RightToLeft`.
 
-### Beállíthatom a szöveg irányát adott bekezdésekhez a teljes dokumentum helyett?
+### Beállíthatom a szöveg irányát csak bizonyos bekezdésekre vonatkozóan a teljes dokumentum helyett?
 
- Igen, beállíthatja a szöveg irányát adott bekezdésekhez a segítségével`ParagraphFormat.Bidi` ingatlan, hanem a`TxtLoadOptions.DocumentDirection` tulajdonság beállítja az alapértelmezett irányt a teljes dokumentumhoz.
+Igen, beállíthatja a szöveg irányát adott bekezdésekhez a `ParagraphFormat.Bidi` ingatlan, de a `TxtLoadOptions.DocumentDirection` tulajdonság beállítja a teljes dokumentum alapértelmezett irányát.
 
-###  Milyen fájlformátumok támogatottak a betöltéshez`TxtLoadOptions`?
+### Milyen fájlformátumok támogatottak a betöltéshez? `TxtLoadOptions`?
 
-`TxtLoadOptions` elsősorban szöveges fájlok (.txt) betöltésére szolgál. Más fájlformátumokhoz használjon különböző osztályokat, mint pl`DocLoadOptions` vagy`DocxLoadOptions`.
+`TxtLoadOptions` elsősorban szöveges fájlok (.txt) betöltésére használják. Más fájlformátumokhoz használjon más osztályokat, például `DocLoadOptions` vagy `DocxLoadOptions`.
 
-### Hogyan kezelhetem a vegyes szöveges utasításokat tartalmazó dokumentumokat?
+### Hogyan kezelhetem a vegyes szövegirányokat tartalmazó dokumentumokat?
 
- Vegyes szöveges útmutatást tartalmazó dokumentumok esetén előfordulhat, hogy a formázást bekezdésenként kell kezelnie. Használja a`ParagraphFormat.Bidi` tulajdonsággal az egyes bekezdések irányát szükség szerint módosíthatja.
+Vegyes szövegirányokat tartalmazó dokumentumok esetén előfordulhat, hogy bekezdésenként kell kezelnie a formázást. Használja a `ParagraphFormat.Bidi` tulajdonság az egyes bekezdések irányának szükség szerinti módosításához.
 
-### Hol találhatok további információt az Aspose.Words for .NET-ről?
+### Hol találok további információt az Aspose.Words for .NET-ről?
 
- További részletekért tekintse meg a[Aspose.Words a .NET-dokumentációhoz](https://reference.aspose.com/words/net/) . További forrásokat is felfedezhet, mint pl[Letöltési link](https://releases.aspose.com/words/net/), [Vétel](https://purchase.aspose.com/buy), [Ingyenes próbaverzió](https://releases.aspose.com/), [Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/) , és[Támogatás](https://forum.aspose.com/c/words/8).
+További részletekért tekintse meg a [Aspose.Words .NET dokumentációhoz](https://reference.aspose.com/words/net/)További forrásokat is felfedezhet, például [Letöltési link](https://releases.aspose.com/words/net/), [Vétel](https://purchase.aspose.com/buy), [Ingyenes próbaverzió](https://releases.aspose.com/), [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/), és [Támogatás](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

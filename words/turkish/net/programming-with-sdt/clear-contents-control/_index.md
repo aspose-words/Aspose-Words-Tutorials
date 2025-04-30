@@ -1,14 +1,16 @@
 ---
-title: İçerik Kontrolünü Temizle
-linktitle: İçerik Kontrolünü Temizle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgesinde içerik denetimini nasıl temizleyeceğinizi adım adım anlatan kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-sdt/clear-contents-control/
+"description": "Aspose.Words for .NET kullanarak Word belgesinde içerik denetiminin nasıl temizleneceğini adım adım kılavuzumuzla öğrenin."
+"linktitle": "İçerik Kontrolünü Temizle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İçerik Kontrolünü Temizle"
+"url": "/tr/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçerik Kontrolünü Temizle
@@ -21,7 +23,7 @@ Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, bu güçlü
 
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Kütüphaneyi şu adresten indirin:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 3. IDE: Visual Studio benzeri bütünleşik geliştirme ortamı.
 4. Belge: Yapılandırılmış belge etiketlerine sahip bir Word belgesi.
@@ -44,7 +46,7 @@ using Aspose.Words.Markup;
 Öncelikle proje ortamınızı kurun.
 
 1. Visual Studio'yu açın: Visual Studio'yu veya tercih ettiğiniz IDE'yi başlatın.
-2.  Yeni Bir Proje Oluşturun: Şuraya gidin:`File` >`New` >`Project`ve bir C# Konsol Uygulaması seçin.
+2. Yeni Bir Proje Oluşturun: Şuraya gidin: `File` > `New` > `Project`ve bir C# Konsol Uygulaması seçin.
 3. .NET için Aspose.Words'ü yükleyin: Aspose.Words'ü yüklemek için NuGet Paket Yöneticisi'ni kullanın. Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:
 ```sh
 Install-Package Aspose.Words
@@ -58,7 +60,7 @@ Daha sonra yapılandırılmış belge etiketlerini içeren Word belgesini yükle
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Belgeyi Yükle: Şunu kullanın:`Document` Word belgenizi yüklemek için sınıf.
+2. Belgeyi Yükle: Şunu kullanın: `Document` Word belgenizi yüklemek için sınıf.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -72,11 +74,11 @@ Daha sonra yapılandırılmış belge etiketlerini içeren Word belgesini yükle
    StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
    ```
 
-## Adım 4: SDT'nin İçeriğini Temizleyin
+## Adım 4: SDT İçeriğini Temizleyin
 
 Yapılandırılmış belge etiketinin içeriğini temizleyin.
 
-1.  SDT İçeriğini Temizle:`Clear` İçeriği kaldırma yöntemi.
+1. SDT İçeriğini Temizle: `Clear` İçeriği kaldırma yöntemi.
    ```csharp
    sdt.Clear();
    ```
@@ -102,11 +104,11 @@ Aspose.Words for .NET, .NET çerçevesi içerisinde Word belgeleriyle programlı
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
 
- Aspose.Words indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Aspose.Words indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words için nasıl destek alabilirim?
 
- Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Yapılandırılmış Belge Etiketleri Nelerdir?
 
@@ -114,11 +116,16 @@ Yapılandırılmış Belge Etiketleri (SDT'ler), Word belgelerindeki belirli iç
 
 ### Aspose.Words'ün dokümanlarını nerede bulabilirim?
 
- Belgeler mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Belgeler mevcuttur [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

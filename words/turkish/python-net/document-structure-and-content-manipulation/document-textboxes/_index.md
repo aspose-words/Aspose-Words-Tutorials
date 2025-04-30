@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Metin Kutularıyla Görsel İçeriği Geliştirme
-linktitle: Word Belgelerinde Metin Kutularıyla Görsel İçeriği Geliştirme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words Python kullanarak belge görsellerini geliştirin! Word belgelerinde metin kutularının nasıl oluşturulacağını ve özelleştirileceğini adım adım öğrenin. İlgi çekici belgeler için içerik düzenini, biçimlendirmeyi ve stilini yükseltin.
-weight: 25
-url: /tr/python-net/document-structure-and-content-manipulation/document-textboxes/
+"description": "Aspose.Words Python kullanarak belge görsellerini geliştirin! Word belgelerinde metin kutularının nasıl oluşturulacağını ve özelleştirileceğini adım adım öğrenin. İlgi çekici belgeler için içerik düzenini, biçimlendirmeyi ve stilini yükseltin."
+"linktitle": "Word Belgelerinde Metin Kutularıyla Görsel İçeriği Geliştirme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Metin Kutularıyla Görsel İçeriği Geliştirme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-textboxes/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Metin Kutularıyla Görsel İçeriği Geliştirme
@@ -55,7 +57,7 @@ builder.move_to(textbox.first_paragraph)
 builder.write('This text is flipped 90 degrees to the left.')
 ```
 
- Bu kodda yeni bir tane oluşturuyoruz`Document` ve bir`DocumentBuilder` .`insert_text_box` yöntemi, belgeye bir metin kutusu eklemek için kullanılır. Metin kutusunun içeriğini, konumunu ve boyutunu gereksinimlerinize göre özelleştirebilirsiniz.
+Bu kodda yeni bir tane oluşturuyoruz `Document` ve bir `DocumentBuilder`. `insert_text_box` yöntemi, belgeye bir metin kutusu eklemek için kullanılır. Metin kutusunun içeriğini, konumunu ve boyutunu gereksinimlerinize göre özelleştirebilirsiniz.
 
 ## Metin Kutularını Biçimlendirme
 
@@ -68,7 +70,7 @@ textbox.paragraphs[0].runs[0].font.color.rgb = aw.Color.blue
 
 ## Metin Kutularının Konumlandırılması
 
- İstenilen düzeni elde etmek için metin kutularının konumunu kontrol etmek çok önemlidir. Konumu,`left` Ve`top` özellikleri. Örneğin:
+İstenilen düzeni elde etmek için metin kutularının konumunu kontrol etmek çok önemlidir. Konumu, `left` Ve `top` özellikleri. Örneğin:
 
 ```python
 textbox.left = aw.ConvertUtil.inch_to_points(1.5)
@@ -110,15 +112,15 @@ Bu kılavuzda, Aspose.Words Python API'sini kullanarak Word belgelerindeki metin
 
 ### Bir metin kutusunun boyutunu nasıl değiştirebilirim?
 
- Bir metin kutusunu yeniden boyutlandırmak için, genişlik ve yükseklik özelliklerini şu şekilde ayarlayabilirsiniz:`width` Ve`height` Nitelikler.
+Bir metin kutusunun boyutunu değiştirmek için, genişlik ve yükseklik özelliklerini şu şekilde ayarlayabilirsiniz: `width` Ve `height` Nitelikler.
 
 ### Bir metin kutusunu döndürebilir miyim?
 
- Evet, bir metin kutusunu döndürebilirsiniz.`rotation` istenilen açıya göre özellik.
+Evet, bir metin kutusunu döndürebilirsiniz. `rotation` istenilen açıya göre özellik.
 
 ### Bir metin kutusuna nasıl kenarlık eklerim?
 
- Bir metin kutusuna kenarlık eklemek için şunu kullanabilirsiniz:`textbox.border`mülkiyet ve görünümünün özelleştirilmesi.
+Bir metin kutusuna kenarlık eklemek için şunu kullanabilirsiniz: `textbox.border` mülkiyet ve görünümünün özelleştirilmesi.
 
 ### Metin kutusuna köprü metni yerleştirebilir miyim?
 
@@ -126,12 +128,16 @@ Kesinlikle! Ek kaynaklar veya referanslar sağlamak için metin kutusu içeriği
 
 ### Belgeler arasında metin kutularını kopyalayıp yapıştırmak mümkün müdür?
 
- Evet, bir metin kutusunu bir belgeden kopyalayıp başka birine yapıştırabilirsiniz.`builder.insert_node` yöntem.
+Evet, bir metin kutusunu bir belgeden kopyalayıp başka birine yapıştırabilirsiniz. `builder.insert_node` yöntem.
 
 Python için Aspose.Words ile metin kutularını sorunsuz bir şekilde birleştiren görsel olarak çekici ve iyi yapılandırılmış belgeler oluşturmak için araçlara sahipsiniz. Word belgelerinizin etkisini artırmak için farklı stiller, düzenler ve içeriklerle denemeler yapın. Mutlu belge tasarımı!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

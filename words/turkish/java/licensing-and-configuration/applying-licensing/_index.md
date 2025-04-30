@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'e Lisans Başvurusu
-linktitle: Lisans Başvurusu
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'ya lisans başvurusunu adım adım nasıl yapacağınızı öğrenin. Hemen erişim sağlayın ve tüm potansiyelinin kilidini açın.
-weight: 10
-url: /tr/java/licensing-and-configuration/applying-licensing/
+"description": "Aspose.Words for Java'ya lisans başvurusunu adım adım nasıl yapacağınızı öğrenin. Hemen erişim sağlayın ve tüm potansiyelinin kilidini açın."
+"linktitle": "Lisans Başvurusu"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'e Lisans Başvurusu"
+"url": "/tr/java/licensing-and-configuration/applying-licensing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'e Lisans Başvurusu
@@ -22,11 +24,11 @@ Java için Aspose.Words, Word belgelerini programatik olarak oluşturmanıza, d�
 
 ## 2. Lisans Alınması
 
- Bir lisans başvurusunda bulunabilmeniz için önce bir tane edinmeniz gerekir. Aspose, geçici ve kalıcı lisanslar dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Lisans almak için şu adresi ziyaret edin:[Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).
+Bir lisans başvurusunda bulunabilmeniz için önce bir tane edinmeniz gerekir. Aspose, geçici ve kalıcı lisanslar dahil olmak üzere çeşitli lisanslama seçenekleri sunar. Lisans almak için şu adresi ziyaret edin: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).
 
 ## 3. Geliştirme Ortamınızı Kurma
 
- Başlamak için, geliştirme ortamınızda Aspose.Words for Java'nın yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose İndirme Sayfası](https://releases.aspose.com/words/java/). Kurulum tamamlandıktan sonra kodlamaya başlayabilirsiniz.
+Başlamak için, geliştirme ortamınızda Aspose.Words for Java'nın yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose İndirme Sayfası](https://releases.aspose.com/words/java/). Kurulum tamamlandıktan sonra kodlamaya başlayabilirsiniz.
 
 ## 4. Lisansın Uygulanması
 
@@ -42,7 +44,7 @@ try {
 }
 ```
 
- Bu kod lisansı başlatır ve ayarlamayı dener. Değiştirdiğinizden emin olun`"Aspose.Words.lic"` lisans dosyanızın yolunu içeren.
+Bu kod lisansı başlatır ve ayarlamayı dener. Değiştirdiğinizden emin olun `"Aspose.Words.lic"` lisans dosyanızın yolunu içeren.
 
 ## 5. Lisanslama İstisnalarının Ele Alınması
 
@@ -65,7 +67,7 @@ Lisansı uyguladıktan sonra, tüm özelliklerin beklendiği gibi çalıştığ�
         catch (Exception e)
         {
             // Bu örnekle herhangi bir lisans göndermiyoruz.
-            // Geçici veya kalıcı lisans almak için Aspose sitesini ziyaret edin.
+            // Geçici veya kalıcı lisans almak için Aspose sitesini ziyaret edin. 
             System.out.println("\nThere was an error setting the license: " + e.getMessage());
         }
 ```
@@ -83,7 +85,7 @@ Akıştan Lisans Uygula
         catch (Exception e)
         {
             // Bu örnekle herhangi bir lisans göndermiyoruz.
-            // Geçici veya kalıcı lisans almak için Aspose sitesini ziyaret edin.
+            // Geçici veya kalıcı lisans almak için Aspose sitesini ziyaret edin. 
             System.out.println("\nThere was an error setting the license: " + e.getMessage());
         }
     }
@@ -113,13 +115,13 @@ Bu eğitimde, Java için Aspose.Words'e lisanslama uygulamak için gerekli adım
 ## SSS
 
 ### Aspose.Words for Java için geçici lisansı nasıl alabilirim?
- Ziyaret edin[Aspose Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) geçici lisans talebinde bulunmak.
+Ziyaret edin [Aspose Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) geçici lisans talebinde bulunmak.
 
 ### Lisans olmadan Aspose.Words for Java'yı kullanabilir miyim?
 Evet, ancak deneme modunda kısıtlamalarla çalışacaktır. Tam işlevsellik için geçerli bir lisans edinmeniz önerilir.
 
 ### Aspose.Words for Java için ek desteği nerede bulabilirim?
- Ziyaret edebilirsiniz[Aspose.Words for Java Destek Forumu](https://forum.aspose.com/) yardım ve tartışmalar için.
+Ziyaret edebilirsiniz [Aspose.Words for Java Destek Forumu](https://forum.aspose.com/) yardım ve tartışmalar için.
 
 ### Aspose.Words for Java en son Java sürümleriyle uyumlu mu?
 Aspose.Words for Java, en son Java sürümleriyle uyumluluğun sağlanması için düzenli olarak güncellenmektedir.
@@ -129,9 +131,14 @@ Evet, Aspose.Words for Java belgelerinde örnek projeler ve kod örnekleri bulab
 
 Artık Aspose.Words for Java'ya lisanslama uygulama konusunda kapsamlı bir anlayışa sahip olduğunuza göre, Java uygulamalarınızda belge işleme için güçlü özelliklerini kullanmaya başlayabilirsiniz.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

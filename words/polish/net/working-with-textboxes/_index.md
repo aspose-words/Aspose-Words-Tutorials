@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie tekstu za pomocą pól tekstowych
-linktitle: Przetwarzanie tekstu za pomocą pól tekstowych
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pracować z polami tekstowymi w dokumentach Worda, używając Aspose.Words dla .NET. Samouczki krok po kroku z przykładowym kodem do wydajnego tworzenia, manipulowania i formatowania pól tekstowych.
-weight: 1320
-url: /pl/net/working-with-textboxes/
+"description": "Dowiedz się, jak pracować z polami tekstowymi w dokumentach Worda, używając Aspose.Words dla .NET. Samouczki krok po kroku z przykładowym kodem do wydajnego tworzenia, manipulowania i formatowania pól tekstowych."
+"linktitle": "Przetwarzanie tekstu za pomocą pól tekstowych"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie tekstu za pomocą pól tekstowych"
+"url": "/pl/net/working-with-textboxes/"
+"weight": 1320
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie tekstu za pomocą pól tekstowych
@@ -19,11 +21,16 @@ Words Processing with Textboxes to kompleksowe źródło, które przeprowadzi Ci
 | Tytuł | Opis |
 | --- | --- |
 | [Łączenie pól tekstowych w programie Word](./create-a-link/) | Dowiedz się, jak tworzyć i łączyć pola tekstowe w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem, aby bezproblemowo dostosowywać dokumenty! |
-| [Sprawdzanie sekwencji pól tekstowych w programie Word](./check-sequence/) | Dowiedz się, jak sprawdzić kolejność pól tekstowych w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby opanować przepływ dokumentów! |
+| [Sprawdzanie sekwencji pól tekstowych w programie Word](./check-sequence/) Dowiedz się, jak sprawdzić kolejność pól tekstowych w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby opanować przepływ dokumentów! |
 | [Przerwij łącze do przodu w dokumencie Word](./break-a-link/) | Dowiedz się, jak rozbić łącza do przodu w polach tekstowych dokumentu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby uzyskać płynniejsze zarządzanie dokumentami. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

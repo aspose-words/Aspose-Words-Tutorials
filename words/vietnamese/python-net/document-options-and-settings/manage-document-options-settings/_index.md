@@ -1,14 +1,16 @@
 ---
-title: Tinh chỉnh các tùy chọn và cài đặt tài liệu để đạt hiệu quả
-linktitle: Tinh chỉnh các tùy chọn và cài đặt tài liệu để đạt hiệu quả
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước có kèm mã nguồn.
-weight: 11
-url: /vi/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước có kèm mã nguồn."
+"linktitle": "Tinh chỉnh các tùy chọn và cài đặt tài liệu để đạt hiệu quả"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tinh chỉnh các tùy chọn và cài đặt tài liệu để đạt hiệu quả"
+"url": "/vi/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tinh chỉnh các tùy chọn và cài đặt tài liệu để đạt hiệu quả
@@ -129,7 +131,7 @@ Có, bạn có thể tạo tiêu đề và chân trang tùy chỉnh bằng Aspos
 
 ### Làm thế nào để điều chỉnh lề trang bằng API?
 
- Bạn có thể điều chỉnh lề trang bằng cách sử dụng`PageSetup` lớp. Ví dụ:
+Bạn có thể điều chỉnh lề trang bằng cách sử dụng `PageSetup` lớp. Ví dụ:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### Tôi có thể xuất tài liệu của mình sang PDF bằng Aspose.Words không?
 
- Hoàn toàn có thể xuất tài liệu của bạn sang nhiều định dạng khác nhau, bao gồm PDF, bằng cách sử dụng`save` phương pháp. Ví dụ:
+Hoàn toàn có thể xuất tài liệu của bạn sang nhiều định dạng khác nhau, bao gồm PDF, bằng cách sử dụng `save` phương pháp. Ví dụ:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho Python ở đâu?
 
- Bạn có thể tham khảo tài liệu tại[đây](https://reference.aspose.com/words/python-net/).
+Bạn có thể tham khảo tài liệu tại [đây](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

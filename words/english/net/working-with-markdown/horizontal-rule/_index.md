@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/horizontal-rule/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Horizontal Rule
@@ -78,9 +81,13 @@ Aspose.Words for .NET is a paid product, but you can get a [free trial](https://
 ### Where can I get support for Aspose.Words for .NET?
 You can get support from the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

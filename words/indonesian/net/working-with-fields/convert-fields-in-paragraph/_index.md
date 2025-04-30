@@ -1,14 +1,16 @@
 ---
-title: Konversi Bidang Dalam Paragraf
-linktitle: Konversi Bidang Dalam Paragraf
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah bidang IF menjadi teks biasa dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/working-with-fields/convert-fields-in-paragraph/
+"description": "Pelajari cara mengubah bidang IF menjadi teks biasa dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Konversi Bidang Dalam Paragraf"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Bidang Dalam Paragraf"
+"url": "/id/net/working-with-fields/convert-fields-in-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Bidang Dalam Paragraf
@@ -21,13 +23,13 @@ Pernahkah Anda merasa terjerat dalam jaringan bidang dalam dokumen Word Anda, te
 
 Sebelum kita mulai merapal mantra, eh, membuat kode, ada beberapa hal yang perlu Anda siapkan. Anggap saja ini sebagai perangkat penyihir Anda:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Anda bisa mendapatkannya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan .NET: Baik itu Visual Studio atau IDE lain, siapkan lingkungan Anda.
 - Pengetahuan Dasar C#: Sedikit pengetahuan tentang C# akan sangat membantu.
 
 ## Mengimpor Ruang Nama
 
-Sebelum kita mulai membuat kode, pastikan kita telah mengimpor semua namespace yang diperlukan. Ini seperti mengumpulkan semua buku mantra sebelum mengucapkan mantra.
+Sebelum kita menyelami kodenya, mari kita pastikan kita telah mengimpor semua namespace yang diperlukan. Ini seperti mengumpulkan semua buku mantra sebelum mengucapkan mantra.
 
 ```csharp
 using System;
@@ -87,7 +89,7 @@ Nah, itu dia! Anda telah berhasil mengubah kolom IF menjadi teks biasa menggunak
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram. Pustaka ini memungkinkan Anda membuat, memodifikasi, dan mengonversi dokumen tanpa perlu menginstal Microsoft Word.
 
 ### Bisakah saya menggunakan metode ini untuk mengonversi jenis bidang lainnya?
- Ya, Anda dapat mengadaptasi metode ini untuk mengonversi berbagai jenis bidang dengan mengubah`FieldType`.
+Ya, Anda dapat mengadaptasi metode ini untuk mengonversi berbagai jenis bidang dengan mengubah `FieldType`.
 
 ### Apakah mungkin untuk mengotomatiskan proses ini untuk beberapa dokumen?
 Tentu saja! Anda dapat menelusuri direktori dokumen dan menerapkan langkah yang sama pada masing-masing dokumen.
@@ -97,9 +99,14 @@ Metode ini tidak akan membuat perubahan apa pun, karena tidak ada bidang yang pe
 
 ### Bisakah saya mengembalikan perubahan setelah menghapus tautan bidang?
 Tidak, setelah bidang dilepaskan tautannya dan diubah menjadi teks biasa, Anda tidak dapat mengembalikannya ke bidang.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-manipulation/extracting-content-from-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extracting Content from Documents in Aspose.Words for Java
@@ -262,9 +265,13 @@ Yes, you can extract content from specific document elements, such as tables or 
 
 To automate the content extraction process in your Java application, you can create custom code based on the techniques described in this guide. You can also implement logic to iterate through multiple documents and extract content as needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

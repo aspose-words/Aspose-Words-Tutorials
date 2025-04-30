@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों के लिए व्यापक विषय-सूची तैयार करना
-linktitle: वर्ड दस्तावेज़ों के लिए व्यापक विषय-सूची तैयार करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words के साथ पाठक-अनुकूल सामग्री तालिका तैयार करें। अपने दस्तावेज़ की संरचना को सहजता से बनाना, अनुकूलित करना और अपडेट करना सीखें।
-weight: 15
-url: /hi/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "पायथन के लिए Aspose.Words के साथ पाठक-अनुकूल सामग्री तालिका तैयार करें। अपने दस्तावेज़ की संरचना को सहजता से बनाना, अनुकूलित करना और अपडेट करना सीखें।"
+"linktitle": "वर्ड दस्तावेज़ों के लिए व्यापक विषय-सूची तैयार करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों के लिए व्यापक विषय-सूची तैयार करना"
+"url": "/hi/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों के लिए व्यापक विषय-सूची तैयार करना
@@ -20,14 +22,14 @@ url: /hi/python-net/document-combining-and-comparison/generate-table-contents/
 
 ## वातावरण की स्थापना
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Python के लिए Aspose.Words इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/python/)इसके अतिरिक्त, सुनिश्चित करें कि आपके पास एक नमूना वर्ड दस्तावेज़ है जिसे आप विषय-सूची के साथ बढ़ाना चाहते हैं।
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Python के लिए Aspose.Words इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/python/)इसके अतिरिक्त, सुनिश्चित करें कि आपके पास एक नमूना वर्ड दस्तावेज़ है जिसे आप विषय-सूची के साथ बढ़ाना चाहते हैं।
 
 ## दस्तावेज़ लोड करना
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# दस्तावेज़ लोड करें
 doc = aw.Document("your_document.docx")
 ```
 
@@ -36,12 +38,12 @@ doc = aw.Document("your_document.docx")
 विषय-सूची बनाने के लिए, आपको अपने दस्तावेज़ में शीर्षक और उपशीर्षक परिभाषित करने होंगे। इन अनुभागों को चिह्नित करने के लिए उपयुक्त पैराग्राफ़ शैलियों का उपयोग करें। उदाहरण के लिए, मुख्य शीर्षकों के लिए "शीर्षक 1" और उपशीर्षकों के लिए "शीर्षक 2" का उपयोग करें।
 
 ```python
-# Define headings and subheadings
+# शीर्षक और उपशीर्षक परिभाषित करें
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # मुख्य शीर्षक जोड़ें
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # उपशीर्षक जोड़ें
 ```
 
 ## विषय-सूची को अनुकूलित करना
@@ -49,7 +51,7 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 आप फ़ॉन्ट, स्टाइल और फ़ॉर्मेटिंग को एडजस्ट करके अपनी विषय-सूची के स्वरूप को कस्टमाइज़ कर सकते हैं। एक शानदार लुक के लिए अपने पूरे दस्तावेज़ में एकसमान फ़ॉर्मेटिंग का उपयोग करना सुनिश्चित करें।
 
 ```python
-# Customize the appearance of the table of contents
+# विषय-सूची का स्वरूप अनुकूलित करें
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
 ```
@@ -60,7 +62,7 @@ for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
 विषय-सूची की शैली निर्धारण में शीर्षक, प्रविष्टियों और अन्य तत्वों के लिए उपयुक्त अनुच्छेद शैलियों को परिभाषित करना शामिल है।
 
 ```python
-# Define styles for the table of contents
+# विषय-सूची के लिए शैलियाँ परिभाषित करें
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 समय बचाने और एकरूपता सुनिश्चित करने के लिए, एक स्क्रिप्ट बनाने पर विचार करें जो आपके दस्तावेज़ों के लिए सामग्री तालिका को स्वचालित रूप से तैयार और अद्यतन करे।
 
 ```python
-# Automation script
+# स्वचालन स्क्रिप्ट
 def generate_table_of_contents(document_path):
-    # Load the document
+    # दस्तावेज़ लोड करें
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (शेष कोड)
 
-    # Update the table of contents
+    # विषय-सूची को अद्यतन करें
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -103,9 +105,14 @@ def generate_table_of_contents(document_path):
 ### मैं अपने दस्तावेज़ से विषय-सूची कैसे हटाऊं?
 
 यदि आप विषय-सूची को हटाने का निर्णय लेते हैं, तो बस विषय-सूची वाले अनुभाग को हटा दें। परिवर्तनों को दर्शाने के लिए शेष पृष्ठ संख्याओं को अपडेट करना न भूलें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Tự động phù hợp với cửa sổ
-linktitle: Tự động phù hợp với cửa sổ
-second_title: API xử lý tài liệu Aspose.Words
-description: Dễ dàng tự động điều chỉnh bảng vào cửa sổ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các tài liệu sạch hơn, chuyên nghiệp hơn.
-weight: 10
-url: /vi/net/programming-with-tables/auto-fit-to-page-width/
+"description": "Dễ dàng tự động điều chỉnh bảng vào cửa sổ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các tài liệu sạch hơn, chuyên nghiệp hơn."
+"linktitle": "Tự động phù hợp với cửa sổ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tự động phù hợp với cửa sổ"
+"url": "/vi/net/programming-with-tables/auto-fit-to-page-width/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động phù hợp với cửa sổ
 
 ## Giới thiệu
 
-Bạn đã bao giờ cảm thấy bực bội vì các bảng trong tài liệu Word không vừa khít trên trang chưa? Bạn chỉnh lề, thay đổi kích thước cột và trông vẫn kỳ cục. Nếu bạn đang sử dụng Aspose.Words cho .NET, có một giải pháp tuyệt vời cho vấn đề này—tự động điều chỉnh các bảng theo cửa sổ. Tính năng tiện lợi này điều chỉnh chiều rộng của bảng sao cho phù hợp hoàn hảo với chiều rộng của trang, giúp tài liệu của bạn trông bóng bẩy và chuyên nghiệp. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để đạt được điều này với Aspose.Words cho .NET, đảm bảo các bảng của bạn luôn vừa khít.
+Bạn đã bao giờ cảm thấy bực bội vì các bảng trong tài liệu Word không vừa khít trên trang chưa? Bạn chỉnh lề, thay đổi kích thước cột và trông vẫn kỳ cục. Nếu bạn đang sử dụng Aspose.Words cho .NET, có một giải pháp tuyệt vời cho vấn đề này—tự động điều chỉnh các bảng cho vừa với cửa sổ. Tính năng tiện lợi này điều chỉnh chiều rộng của bảng sao cho phù hợp hoàn hảo với chiều rộng của trang, giúp tài liệu của bạn trông bóng bẩy và chuyên nghiệp. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để đạt được điều này với Aspose.Words cho .NET, đảm bảo các bảng của bạn luôn vừa khít.
 
 ## Điều kiện tiên quyết
 
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ:
 
 1. Visual Studio: Bạn sẽ cần một IDE như Visual Studio để viết và chạy mã .NET.
-2.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn hiểu các đoạn mã dễ dàng hơn.
 
 Khi đã đáp ứng được các điều kiện tiên quyết này, chúng ta hãy đến với phần thú vị nhất—lập trình!
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Các`Aspose.Words` không gian tên chứa các lớp cốt lõi để thao tác các tài liệu Word, trong khi`Aspose.Words.Tables` chuyên dùng để xử lý bảng.
+Các `Aspose.Words` không gian tên chứa các lớp cốt lõi để thao tác các tài liệu Word, trong khi `Aspose.Words.Tables` chuyên dùng để xử lý bảng.
 
 ## Bước 1: Thiết lập tài liệu của bạn
 
- Đầu tiên, bạn cần tải tài liệu Word có chứa bảng bạn muốn tự động điều chỉnh. Đối với điều này, bạn sẽ sử dụng`Document` lớp được cung cấp bởi Aspose.Words.
+Đầu tiên, bạn cần tải tài liệu Word có chứa bảng bạn muốn tự động điều chỉnh. Đối với điều này, bạn sẽ sử dụng `Document` lớp được cung cấp bởi Aspose.Words.
 
 ```csharp
 // Xác định đường dẫn đến thư mục tài liệu của bạn
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Trong bước này, bạn xác định đường dẫn nơi tài liệu của bạn được lưu trữ và tải nó vào một`Document` đối tượng. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Trong bước này, bạn xác định đường dẫn nơi tài liệu của bạn được lưu trữ và tải nó vào một `Document` đối tượng. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ## Bước 2: Truy cập Bảng
 
@@ -74,7 +76,7 @@ Bây giờ bạn đã có bảng, bạn có thể áp dụng chức năng tự �
 table.AutoFit(AutoFitBehavior.AutoFitToWindow);
 ```
 
- Các`AutoFit` phương pháp với`AutoFitBehavior.AutoFitToWindow` đảm bảo chiều rộng của bảng được điều chỉnh để vừa với toàn bộ chiều rộng của trang.
+Các `AutoFit` phương pháp với `AutoFitBehavior.AutoFitToWindow` đảm bảo chiều rộng của bảng được điều chỉnh để vừa với toàn bộ chiều rộng của trang.
 
 ## Bước 4: Lưu tài liệu đã sửa đổi
 
@@ -106,10 +108,15 @@ Tự động điều chỉnh sẽ ghi đè chiều rộng cột cụ thể. Nế
 Aspose.Words chủ yếu hỗ trợ các tài liệu Word (.docx). Đối với các định dạng khác, trước tiên bạn có thể cần phải chuyển đổi chúng sang .docx.
 
 ### Làm thế nào tôi có thể nhận được phiên bản dùng thử của Aspose.Words?  
- Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

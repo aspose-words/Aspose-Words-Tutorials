@@ -1,14 +1,16 @@
 ---
-title: Преобразовать в горизонтально объединенные ячейки
-linktitle: Преобразовать в горизонтально объединенные ячейки
-second_title: API обработки документов Aspose.Words
-description: Преобразование вертикально объединенных ячеек в горизонтально объединенные ячейки в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство по бесшовной компоновке таблицы.
-weight: 10
-url: /ru/net/programming-with-tables/convert-to-horizontally-merged-cells/
+"description": "Преобразование вертикально объединенных ячеек в горизонтально объединенные ячейки в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство по бесшовной компоновке таблицы."
+"linktitle": "Преобразовать в горизонтально объединенные ячейки"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Преобразовать в горизонтально объединенные ячейки"
+"url": "/ru/net/programming-with-tables/convert-to-horizontally-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразовать в горизонтально объединенные ячейки
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/convert-to-horizontally-merged-cells/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее с[страница релиза](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее с [страница релиза](https://releases.aspose.com/words/net/).
 2. Среда разработки: среда разработки, подобная Visual Studio.
 3. Базовые знания C#: Знакомство с языком программирования C#.
 
@@ -60,7 +62,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 ## Шаг 3: Преобразование в горизонтально объединенные ячейки
 
- Теперь преобразуем вертикально объединенные ячейки в таблице в горизонтально объединенные ячейки. Это делается с помощью`ConvertToHorizontallyMergedCells` метод.
+Теперь преобразуем вертикально объединенные ячейки в таблице в горизонтально объединенные ячейки. Это делается с помощью `ConvertToHorizontallyMergedCells` метод.
 
 ```csharp
 // Преобразовать вертикально объединенные ячейки в горизонтально объединенные ячейки
@@ -74,22 +76,27 @@ table.ConvertToHorizontallyMergedCells();
 ## Часто задаваемые вопросы
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками программирования?  
-Aspose.Words for .NET в первую очередь разработан для языков .NET, таких как C#. Однако вы можете использовать его с другими языками, поддерживаемыми .NET, такими как VB.NET.
+Aspose.Words для .NET в первую очередь разработан для языков .NET, таких как C#. Однако вы можете использовать его с другими языками, поддерживаемыми .NET, такими как VB.NET.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?  
- Да, вы можете скачать[бесплатная пробная версия](https://releases.aspose.com/) с сайта Aspose.
+Да, вы можете скачать [бесплатная пробная версия](https://releases.aspose.com/) с сайта Aspose.
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?  
- Вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/words/8) за помощь.
+Вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/words/8) за помощь.
 
 ### Могу ли я применить лицензию из файла или потока?  
-Да, Aspose.Words for .NET позволяет применять лицензию как из файла, так и из потока. Более подробную информацию можно найти в[документация](https://reference.aspose.com/words/net/).
+Да, Aspose.Words for .NET позволяет применять лицензию как из файла, так и из потока. Более подробную информацию можно найти в [документация](https://reference.aspose.com/words/net/).
 
 ### Какие еще функции предлагает Aspose.Words для .NET?  
- Aspose.Words для .NET предлагает широкий спектр функций, включая генерацию документов, манипуляцию, преобразование и рендеринг. Ознакомьтесь с[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Aspose.Words для .NET предлагает широкий спектр функций, включая генерацию документов, манипуляцию, преобразование и рендеринг. Ознакомьтесь с [документация](https://reference.aspose.com/words/net/) для более подробной информации.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

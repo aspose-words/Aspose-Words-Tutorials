@@ -1,14 +1,16 @@
 ---
-title: Belge Listeleriyle Çalışma
-linktitle: Belge Listeleriyle Çalışma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java'da Aspose.Words for Java kullanarak belge listeleriyle nasıl çalışacağınızı öğrenin. Bu adım adım kılavuz, verimli belge düzenleme için kaynak kodu örnekleri içerir.
-weight: 11
-url: /tr/java/table-processing/working-with-document-lists/
+"description": "Java'da Aspose.Words for Java kullanarak belge listeleriyle nasıl çalışacağınızı öğrenin. Bu adım adım kılavuz, verimli belge düzenleme için kaynak kodu örnekleri içerir."
+"linktitle": "Belge Listeleriyle Çalışma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Listeleriyle Çalışma"
+"url": "/tr/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Listeleriyle Çalışma
@@ -26,7 +28,7 @@ Belge listeleriyle çalışmanın ayrıntılarına dalmadan önce, her şeyin do
 
 ### Ön koşullar
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Aspose.Words for Java kütüphanesi indirildi ve projenize eklendi.
 
 ## Belge Listesi Oluşturma
@@ -105,7 +107,7 @@ Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak belge listeleriyle ça
 ## SSS
 
 ### Bir belge listesine madde işaretleri nasıl eklerim?
- Bir belge listesine madde işaretleri eklemek için, listeyi oluştururken uygun ListTemplate'i kullanın. Örneğin, şunu kullanın:`ListTemplate.BULLET_DEFAULT` yerine`ListTemplate.NUMBER_DEFAULT`.
+Bir belge listesine madde işaretleri eklemek için, listeyi oluştururken uygun ListTemplate'i kullanın. Örneğin, şunu kullanın: `ListTemplate.BULLET_DEFAULT` yerine `ListTemplate.NUMBER_DEFAULT`.
 
 ### Liste öğelerinin biçimlendirmesini değiştirebilir miyim?
 Evet, Aspose.Words for Java'nın biçimlendirme özelliklerini kullanarak yazı tipi, boyut, renk ve daha fazlası dahil olmak üzere liste öğelerinin biçimlendirmesini özelleştirebilirsiniz.
@@ -118,9 +120,14 @@ Bir belge listesini PDF'ye dönüştürmek için, belgeyi Aspose.Words for Java 
 
 ### Aspose.Words for Java belgelerdeki tablolarla çalışmayı destekliyor mu?
 Evet, Aspose.Words for Java tablolarla çalışmak için kapsamlı destek sağlar ve tablo verilerini zahmetsizce oluşturmanıza, değiştirmenize ve çıkarmanıza olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

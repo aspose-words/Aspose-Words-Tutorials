@@ -1,14 +1,16 @@
 ---
-title: Chèn đoạn văn vào tài liệu Word
-linktitle: Chèn đoạn văn vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn đoạn văn vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác tài liệu liền mạch.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-paragraph/
+"description": "Tìm hiểu cách chèn đoạn văn vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để thao tác tài liệu liền mạch."
+"linktitle": "Chèn đoạn văn vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn đoạn văn vào tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn đoạn văn vào tài liệu Word
@@ -22,7 +24,7 @@ Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi v�
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 - Kiến thức cơ bản về lập trình C# và .NET framework.
 - Đã cài đặt Visual Studio trên máy của bạn.
--  Aspose.Words cho thư viện .NET đã được cài đặt. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET đã được cài đặt. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 
 ## Nhập không gian tên
 
@@ -35,7 +37,7 @@ using System.Drawing;
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Bắt đầu bằng cách thiết lập tài liệu của bạn và khởi tạo`DocumentBuilder` sự vật.
+Bắt đầu bằng cách thiết lập tài liệu của bạn và khởi tạo `DocumentBuilder` sự vật.
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -62,14 +64,14 @@ paragraphFormat.KeepTogether = true;
 
 ## Bước 3: Chèn đoạn văn
 
- Bây giờ, hãy thêm nội dung mong muốn của bạn bằng cách sử dụng`WriteLn` phương pháp của`DocumentBuilder`.
+Bây giờ, hãy thêm nội dung mong muốn của bạn bằng cách sử dụng `WriteLn` phương pháp của `DocumentBuilder`.
 ```csharp
 builder.Writeln("A whole paragraph.");
 ```
 
 ## Bước 4: Lưu tài liệu
 
-Cuối cùng, lưu tài liệu đã sửa đổi vào vị trí bạn mong muốn.
+Cuối cùng, lưu tài liệu đã chỉnh sửa vào vị trí bạn mong muốn.
 ```csharp
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertParagraph.docx");
 ```
@@ -84,7 +86,7 @@ Xin chúc mừng! Bạn đã chèn thành công một đoạn văn được đ�
 Có, Aspose.Words cho .NET hỗ trợ các ứng dụng .NET Core cùng với .NET Framework.
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words dành cho .NET?
- Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET có tương thích với các phiên bản Microsoft Word không?
 Có, Aspose.Words for .NET đảm bảo khả năng tương thích với nhiều phiên bản Microsoft Word khác nhau, bao gồm cả các bản phát hành gần đây.
@@ -93,11 +95,16 @@ Có, Aspose.Words for .NET đảm bảo khả năng tương thích với nhiều
 Có, bạn có thể mã hóa và bảo mật tài liệu của mình theo chương trình bằng Aspose.Words cho .NET.
 
 ### Tôi có thể tìm thêm trợ giúp và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Ghé thăm[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để cộng đồng hỗ trợ và thảo luận.
+Ghé thăm [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8) để cộng đồng hỗ trợ và thảo luận.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Seznam restartů v každé sekci
-linktitle: Seznam restartů v každé sekci
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Přečtěte si, jak restartovat seznamy v každé sekci v dokumentech aplikace Word pomocí Aspose.Words for .NET. Chcete-li seznamy efektivně spravovat, postupujte podle našeho podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/working-with-list/restart-list-at-each-section/
+"description": "Naučte se, jak restartovat seznamy v každé sekci v dokumentech Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem, abyste seznamy efektivně spravovali."
+"linktitle": "Seznam se znovu spustí v každé sekci"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Seznam se znovu spustí v každé sekci"
+"url": "/cs/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Seznam restartů v každé sekci
+# Seznam se znovu spustí v každé sekci
 
 ## Zavedení
 
-Vytváření strukturovaných a dobře organizovaných dokumentů může někdy vypadat jako řešení složité hádanky. Jedním kouskem této skládačky je efektivní správa seznamů, zvláště když chcete, aby se v každé sekci restartovaly. S Aspose.Words pro .NET toho můžete dosáhnout bez problémů. Pojďme se ponořit do toho, jak můžete restartovat seznamy v každé sekci vašich dokumentů Word pomocí Aspose.Words for .NET.
+Vytváření strukturovaných a dobře organizovaných dokumentů se někdy může jevit jako řešení složité skládačky. Jedním z jejích prvků je efektivní správa seznamů, zejména pokud chcete, aby se v každé sekci znovu spouštěly. S Aspose.Words pro .NET toho můžete bez problémů dosáhnout. Pojďme se ponořit do toho, jak můžete pomocí Aspose.Words pro .NET znovu spouštět seznamy v každé sekci ve vašich dokumentech Word.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET: Stáhněte a nainstalujte nejnovější verzi z[Aspose Releases](https://releases.aspose.com/words/net/) strana.
-2. Prostředí .NET: Nastavte své vývojové prostředí s nainstalovaným .NET.
+1. Aspose.Words pro .NET: Stáhněte a nainstalujte nejnovější verzi z [Aspose Releases](https://releases.aspose.com/words/net/) strana.
+2. Prostředí .NET: Nastavte si vývojové prostředí s nainstalovaným rozhraním .NET.
 3. Základní znalost C#: Doporučuje se znalost programovacího jazyka C#.
-4.  Aspose License: Můžete se rozhodnout pro a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud žádný nemáte.
+4. Licence Aspose: Můžete si zvolit [dočasná licence](https://purchase.aspose.com/temporary-license/) pokud ho nemáte.
 
 ## Importovat jmenné prostory
 
@@ -36,9 +38,9 @@ using Aspose.Words;
 using Aspose.Words.Lists;
 ```
 
-Nyní si tento proces rozdělíme do několika kroků, aby bylo snadné jej sledovat.
+Nyní si celý proces rozdělme do několika kroků, aby se vám lépe sledoval.
 
-## Krok 1: Inicializujte dokument
+## Krok 1: Inicializace dokumentu
 
 Nejprve budete muset vytvořit novou instanci dokumentu.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
-## Krok 2: Přidejte číslovaný seznam
+## Krok 2: Přidání číslovaného seznamu
 
 Dále do dokumentu přidejte číslovaný seznam. Tento seznam bude mít výchozí formát číslování.
 
@@ -55,27 +57,27 @@ Dále do dokumentu přidejte číslovaný seznam. Tento seznam bude mít výchoz
 doc.Lists.Add(ListTemplate.NumberDefault);
 ```
 
-## Krok 3: Otevřete seznam a nastavte vlastnost restartování
+## Krok 3: Přístup k seznamu a nastavení vlastnosti restartu
 
-Načtěte seznam, který jste právě vytvořili, a nastavte jej`IsRestartAtEachSection`majetek do`true`. Tím je zajištěno, že seznam znovu začne číslovat u každé nové sekce.
+Načtěte právě vytvořený seznam a nastavte jeho `IsRestartAtEachSection` majetek `true`Tím se zajistí, že číslování seznamu začne od začátku v každé nové části.
 
 ```csharp
 List list = doc.Lists[0];
 list.IsRestartAtEachSection = true;
 ```
 
-## Krok 4: Vytvořte Tvůrce dokumentů a přidružte seznam
+## Krok 4: Vytvořte nástroj pro tvorbu dokumentů a přiřaďte k němu seznam
 
- Vytvořte a`DocumentBuilder` vložit obsah do dokumentu a přiřadit jej k seznamu.
+Vytvořte `DocumentBuilder` vložit obsah do dokumentu a přiřadit ho k seznamu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ListFormat.List = list;
 ```
 
-## Krok 5: Přidejte položky seznamu a vložte konec oddílu
+## Krok 5: Přidání položek seznamu a vložení konce oddílu
 
-Nyní přidejte položky do seznamu. Pro ilustraci funkčnosti restartu vložíme za určitý počet položek konec oddílu.
+Nyní přidejte položky do seznamu. Pro ilustraci funkce restartu vložíme zalomení sekce za určitý počet položek.
 
 ```csharp
 for (int i = 1; i < 45; i++)
@@ -89,7 +91,7 @@ for (int i = 1; i < 45; i++)
 
 ## Krok 6: Uložte dokument
 
-Nakonec uložte dokument s příslušnými možnostmi, abyste zajistili shodu.
+Nakonec dokument uložte s příslušnými možnostmi, abyste zajistili soulad s předpisy.
 
 ```csharp
 OoxmlSaveOptions options = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Transitional };
@@ -98,27 +100,32 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 
 ## Závěr
 
-A tady to máte! Podle těchto kroků můžete bez námahy restartovat seznamy v každé sekci vašich dokumentů aplikace Word pomocí Aspose.Words for .NET. Tato funkce je neuvěřitelně užitečná pro vytváření dobře strukturovaných dokumentů, které vyžadují samostatné sekce s vlastním číslováním seznamu. S Aspose.Words se zvládání takových úkolů stává hračkou a umožňuje vám soustředit se na vytváření vysoce kvalitního obsahu.
+tady to máte! Dodržováním těchto kroků můžete snadno restartovat seznamy v každé sekci vašich dokumentů Word pomocí Aspose.Words pro .NET. Tato funkce je neuvěřitelně užitečná pro vytváření dobře strukturovaných dokumentů, které vyžadují samostatné sekce s vlastním číslováním seznamů. S Aspose.Words se zvládnutí takových úkolů stává hračkou a umožňuje vám soustředit se na tvorbu vysoce kvalitního obsahu.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu restartovat seznamy v každé sekci pro různé typy seznamů?
-Ano, Aspose.Words for .NET umožňuje restartovat různé typy seznamů, včetně seznamů s odrážkami a číslovaných seznamů.
+Ano, Aspose.Words pro .NET umožňuje restartovat různé typy seznamů, včetně seznamů s odrážkami a číslovaných seznamů.
 
 ### Co když chci upravit formát číslování?
- Formát číslování můžete upravit úpravou`ListTemplate` vlastnost při vytváření seznamu.
+Formát číslování můžete přizpůsobit úpravou `ListTemplate` vlastnost při vytváření seznamu.
 
-### Je počet položek v seznamu omezen?
-Ne, neexistuje žádný konkrétní limit na počet položek, které můžete mít v seznamu pomocí Aspose.Words for .NET.
+### Existuje omezení počtu položek v seznamu?
+Ne, neexistuje žádný konkrétní limit pro počet položek, které můžete mít v seznamu pomocí Aspose.Words pro .NET.
 
-### Mohu tuto funkci použít v jiných formátech dokumentů, jako je PDF?
-Ano, můžete použít Aspose.Words k převodu dokumentů aplikace Word do jiných formátů, jako je PDF, při zachování struktury seznamu.
+### Mohu tuto funkci použít i v jiných formátech dokumentů, jako je PDF?
+Ano, můžete použít Aspose.Words k převodu dokumentů Word do jiných formátů, jako je PDF, a to při zachování struktury seznamu.
 
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Words pro .NET?
- Můžete získat bezplatnou zkušební verzi od[Aspose Releases](https://releases.aspose.com/) strana.
+Bezplatnou zkušební verzi můžete získat od [Aspose Releases](https://releases.aspose.com/) strana.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

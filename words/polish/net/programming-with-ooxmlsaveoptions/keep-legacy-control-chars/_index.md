@@ -1,14 +1,16 @@
 ---
-title: Zachowaj starsze znaki kontrolne
-linktitle: Zachowaj starsze znaki kontrolne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zachować starsze znaki kontrolne w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "Dowiedz się, jak zachować starsze znaki kontrolne w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Zachowaj starsze znaki kontrolne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zachowaj starsze znaki kontrolne"
+"url": "/pl/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zachowaj starsze znaki kontrolne
@@ -21,8 +23,8 @@ Czy kiedykolwiek zastanawiałeś się nad tymi dziwnymi, niewidocznymi znakami k
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
-2.  Ważna licencja Aspose: Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
+2. Ważna licencja Aspose: Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 3. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 4. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie pomocna.
 
@@ -52,7 +54,7 @@ Następnie załadujesz dokument Word zawierający starsze znaki kontrolne.
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  Załaduj dokument: Użyj`Document` klasa, aby załadować swój dokument.
+2. Załaduj dokument: Użyj `Document` klasa, aby załadować swój dokument.
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ Następnie załadujesz dokument Word zawierający starsze znaki kontrolne.
 
 Teraz skonfigurujmy opcje zapisu tak, aby zachować nienaruszone starsze znaki sterujące.
 
-1.  Utwórz opcje zapisu: Zainicjuj wystąpienie`OoxmlSaveOptions` i ustaw`KeepLegacyControlChars`nieruchomość do`true`.
+1. Utwórz opcje zapisu: Zainicjuj wystąpienie `OoxmlSaveOptions` i ustaw `KeepLegacyControlChars` nieruchomość do `true`.
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ Teraz skonfigurujmy opcje zapisu tak, aby zachować nienaruszone starsze znaki s
 
 Na koniec zapisz dokument, korzystając z skonfigurowanych opcji zapisu.
 
-1.  Zapisz dokument: Użyj`Save` metoda`Document` Klasa umożliwiająca zapisanie dokumentu z zachowaniem określonych opcji zapisu.
+1. Zapisz dokument: Użyj `Save` metoda `Document` Klasa umożliwiająca zapisanie dokumentu z zachowaniem określonych opcji zapisu.
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -83,7 +85,7 @@ Na koniec zapisz dokument, korzystając z skonfigurowanych opcji zapisu.
 
 ## Wniosek
 
-masz to! Wykonując te kroki, możesz mieć pewność, że Twoje starsze znaki kontrolne zostaną zachowane podczas pracy z dokumentami Word w Aspose.Words dla .NET. Ta funkcja może być zbawienna, zwłaszcza w przypadku złożonych dokumentów, w których znaki kontrolne odgrywają kluczową rolę. 
+I masz to! Wykonując te kroki, możesz mieć pewność, że Twoje starsze znaki kontrolne zostaną zachowane podczas pracy z dokumentami Word w Aspose.Words dla .NET. Ta funkcja może być zbawienna, zwłaszcza w przypadku złożonych dokumentów, w których znaki kontrolne odgrywają kluczową rolę. 
 
 ## Najczęściej zadawane pytania
 
@@ -101,15 +103,20 @@ Ta funkcja jest dostępna w ostatnich wersjach. Upewnij się, że używasz najno
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
 
- Tak, potrzebujesz ważnej licencji. Możesz uzyskać tymczasową licencję do celów ewaluacyjnych[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, potrzebujesz ważnej licencji. Możesz uzyskać tymczasową licencję do celów ewaluacyjnych [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

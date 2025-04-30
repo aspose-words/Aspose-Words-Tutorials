@@ -1,14 +1,16 @@
 ---
-title: Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java
-linktitle: Trích xuất nội dung từ tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách trích xuất nội dung từ tài liệu dễ dàng bằng Aspose.Words for Java. Hướng dẫn từng bước và các mẫu mã của chúng tôi giúp đơn giản hóa quy trình.
-weight: 13
-url: /vi/java/document-manipulation/extracting-content-from-documents/
+"description": "Tìm hiểu cách trích xuất nội dung từ tài liệu dễ dàng bằng Aspose.Words for Java. Hướng dẫn từng bước và các mẫu mã của chúng tôi giúp đơn giản hóa quy trình."
+"linktitle": "Trích xuất nội dung từ tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/extracting-content-from-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất nội dung từ tài liệu trong Aspose.Words cho Java
@@ -22,9 +24,9 @@ Trong thế giới xử lý tài liệu, trích xuất nội dung từ tài li�
 
 Trước khi đi sâu vào quá trình trích xuất, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
-1.  Aspose.Words for Java: Bạn nên cài đặt và thiết lập Aspose.Words for Java trong môi trường phát triển Java của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java: Bạn nên cài đặt và thiết lập Aspose.Words for Java trong môi trường phát triển Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
-2. Tài liệu để trích xuất nội dung: Trong hướng dẫn này, chúng tôi sẽ sử dụng một tài liệu mẫu có tên "Extract content.docx". Hãy đảm bảo rằng bạn đã chuẩn bị một tài liệu tương tự để trích xuất.
+2. Tài liệu để trích xuất nội dung: Trong hướng dẫn này, chúng tôi sẽ sử dụng một tài liệu mẫu có tên "Extract content.docx". Hãy đảm bảo rằng bạn có một tài liệu tương tự sẵn sàng để trích xuất.
 
 ## Trích xuất nội dung giữa các nút cấp khối
 
@@ -45,7 +47,7 @@ doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevel
 ## Trích xuất nội dung giữa các dấu trang
 
 ```java
-//Mẫu mã Java để trích xuất nội dung giữa các dấu trang
+// Mẫu mã Java để trích xuất nội dung giữa các dấu trang
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -222,7 +224,7 @@ System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ## Trích xuất hình ảnh vào tập tin
 
 ```java
-// Mẫu mã Java để trích xuất hình ảnh thành tệp
+// Mẫu mã Java để trích xuất hình ảnh vào tập tin
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -248,11 +250,11 @@ Xin chúc mừng! Bạn đã học cách trích xuất nội dung từ tài li�
 
 ### Tôi có thể trích xuất nội dung từ các tài liệu được bảo vệ bằng mật khẩu không?
 
-Có, Aspose.Words for Java cung cấp chức năng trích xuất nội dung từ các tài liệu được bảo vệ bằng mật khẩu. Bạn có thể cung cấp mật khẩu khi mở tài liệu bằng cách sử dụng`Document` hàm tạo lớp.
+Có, Aspose.Words for Java cung cấp chức năng trích xuất nội dung từ các tài liệu được bảo vệ bằng mật khẩu. Bạn có thể cung cấp mật khẩu khi mở tài liệu bằng cách sử dụng `Document` hàm tạo lớp.
 
 ### Làm thế nào tôi có thể trích xuất nội dung và lưu ở nhiều định dạng khác nhau, chẳng hạn như văn bản thuần túy hoặc HTML?
 
- Bạn có thể trích xuất nội dung từ một tài liệu và lưu nó ở các định dạng khác nhau bằng cách sử dụng Aspose.Words cho Java. Sau khi trích xuất nội dung, bạn có thể sử dụng`Document` các phương thức lớp để lưu nó ở các định dạng như văn bản thuần túy, HTML hoặc các định dạng khác.
+Bạn có thể trích xuất nội dung từ một tài liệu và lưu nó ở các định dạng khác nhau bằng cách sử dụng Aspose.Words cho Java. Sau khi trích xuất nội dung, bạn có thể sử dụng `Document` các phương thức lớp để lưu nó ở các định dạng như văn bản thuần túy, HTML hoặc các định dạng khác.
 
 ### Có cách nào để trích xuất nội dung từ các thành phần cụ thể của tài liệu, chẳng hạn như bảng hoặc hình ảnh không?
 
@@ -261,9 +263,14 @@ Có, bạn có thể trích xuất nội dung từ các thành phần tài liệ
 ### Làm thế nào tôi có thể tự động hóa quá trình trích xuất nội dung trong ứng dụng Java của mình?
 
 Để tự động hóa quy trình trích xuất nội dung trong ứng dụng Java của bạn, bạn có thể tạo mã tùy chỉnh dựa trên các kỹ thuật được mô tả trong hướng dẫn này. Bạn cũng có thể triển khai logic để lặp qua nhiều tài liệu và trích xuất nội dung khi cần.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu dưới dạng PDF trong Aspose.Words cho Java
-linktitle: Lưu tài liệu dưới dạng PDF
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện về chuyển đổi PDF.
-weight: 22
-url: /vi/java/document-loading-and-saving/saving-documents-as-pdf/
+"description": "Tìm hiểu cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện về chuyển đổi PDF."
+"linktitle": "Lưu tài liệu dưới dạng PDF"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu dưới dạng PDF trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-documents-as-pdf/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu dưới dạng PDF trong Aspose.Words cho Java
@@ -20,10 +22,10 @@ Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách lưu t
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Chuyển đổi tài liệu sang PDF
 
@@ -35,11 +37,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
- Thay thế`"input.docx"` với đường dẫn đến tài liệu Word của bạn và`"output.pdf"` với đường dẫn tệp PDF đầu ra mong muốn.
+Thay thế `"input.docx"` với đường dẫn đến tài liệu Word của bạn và `"output.pdf"` với đường dẫn tệp PDF đầu ra mong muốn.
 
 ## Kiểm soát tùy chọn lưu PDF
 
- Bạn có thể kiểm soát nhiều tùy chọn lưu PDF khác nhau bằng cách sử dụng`PdfSaveOptions` lớp. Ví dụ, bạn có thể đặt tiêu đề hiển thị cho tài liệu PDF như sau:
+Bạn có thể kiểm soát nhiều tùy chọn lưu PDF khác nhau bằng cách sử dụng `PdfSaveOptions` lớp. Ví dụ, bạn có thể đặt tiêu đề hiển thị cho tài liệu PDF như sau:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -69,7 +71,7 @@ doc.save("output.pdf", saveOptions);
 
 ## Cấu trúc tài liệu xuất khẩu
 
- Để xuất cấu trúc tài liệu, hãy đặt`exportDocumentStructure` tùy chọn để`true`:
+Để xuất cấu trúc tài liệu, hãy đặt `exportDocumentStructure` tùy chọn để `true`:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -133,11 +135,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
- Thay thế`"input.docx"` với đường dẫn đến tài liệu Word của bạn và`"output.pdf"` với đường dẫn tệp PDF đầu ra mong muốn.
+Thay thế `"input.docx"` với đường dẫn đến tài liệu Word của bạn và `"output.pdf"` với đường dẫn tệp PDF đầu ra mong muốn.
 
 ### Tôi có thể nhúng phông chữ vào tệp PDF được tạo bởi Aspose.Words cho Java không?
 
- Có, bạn có thể nhúng phông chữ vào PDF bằng cách thiết lập`setEmbedFullFonts` tùy chọn để`true` TRONG`PdfSaveOptions`. Đây là một ví dụ:
+Có, bạn có thể nhúng phông chữ vào PDF bằng cách thiết lập `setEmbedFullFonts` tùy chọn để `true` TRONG `PdfSaveOptions`. Đây là một ví dụ:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -147,7 +149,7 @@ doc.save("output.pdf", saveOptions);
 
 ### Làm thế nào để tùy chỉnh thuộc tính tài liệu trong tệp PDF được tạo?
 
- Bạn có thể tùy chỉnh các thuộc tính tài liệu trong PDF bằng cách sử dụng`setCustomPropertiesExport` tùy chọn trong`PdfSaveOptions`. Ví dụ:
+Bạn có thể tùy chỉnh các thuộc tính tài liệu trong PDF bằng cách sử dụng `setCustomPropertiesExport` tùy chọn trong `PdfSaveOptions`. Ví dụ:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -157,18 +159,23 @@ doc.save("output.pdf", saveOptions);
 
 ### Mục đích của việc nén hình ảnh trong Aspose.Words cho Java là gì?
 
- Nén hình ảnh cho phép bạn kiểm soát chất lượng và kích thước của hình ảnh trong PDF được tạo. Bạn có thể thiết lập chế độ nén hình ảnh bằng cách sử dụng`setImageCompression` TRONG`PdfSaveOptions`.
+Nén hình ảnh cho phép bạn kiểm soát chất lượng và kích thước của hình ảnh trong PDF được tạo. Bạn có thể thiết lập chế độ nén hình ảnh bằng cách sử dụng `setImageCompression` TRONG `PdfSaveOptions`.
 
 ### Làm thế nào để cập nhật thuộc tính "Lần in cuối cùng" trong PDF?
 
- Bạn có thể cập nhật thuộc tính "Lần TRONGcuối cùng" trong PDF bằng cách thiết lập`setUpdateLastPrintedProperty` ĐẾN`true` in `PdfSaveOptions`. Điều này sẽ phản ánh ngày in cuối cùng trong siêu dữ liệu PDF.
+Bạn có thể cập nhật thuộc tính "Lần in cuối cùng" trong PDF bằng cách thiết lập `setUpdateLastPrintedProperty` ĐẾN `true` TRONG `PdfSaveOptions`. Điều này sẽ phản ánh ngày in cuối cùng trong siêu dữ liệu PDF.
 
 ### Làm thế nào để cải thiện chất lượng hình ảnh khi chuyển đổi sang PDF?
 
- Để cải thiện chất lượng hình ảnh, hãy bật nội suy hình ảnh bằng cách thiết lập`setInterpolateImages` ĐẾN`true` TRONG`PdfSaveOptions`. Điều này sẽ tạo ra hình ảnh mượt mà hơn và chất lượng cao hơn trong PDF.
+Để cải thiện chất lượng hình ảnh, hãy bật nội suy hình ảnh bằng cách thiết lập `setInterpolateImages` ĐẾN `true` TRONG `PdfSaveOptions`. Điều này sẽ tạo ra hình ảnh mượt mà hơn và chất lượng cao hơn trong PDF.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

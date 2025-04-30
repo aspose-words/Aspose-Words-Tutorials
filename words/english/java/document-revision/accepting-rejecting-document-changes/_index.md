@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-revision/accepting-rejecting-document-changes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accepting and Rejecting Document Changes
@@ -101,9 +104,13 @@ Unfortunately, changes that have been accepted or rejected cannot be easily undo
 
 For detailed documentation and examples, visit the [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi định dạng hàng
-linktitle: Sửa đổi định dạng hàng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sửa đổi định dạng hàng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/modify-row-formatting/
+"description": "Tìm hiểu cách sửa đổi định dạng hàng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Sửa đổi định dạng hàng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sửa đổi định dạng hàng"
+"url": "/vi/net/programming-with-table-styles-and-formatting/modify-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi định dạng hàng
@@ -21,7 +23,7 @@ Bạn đã bao giờ cần chỉnh sửa định dạng hàng trong tài liệu 
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-- Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 - Tài liệu mẫu: Chúng tôi sẽ sử dụng một tài liệu Word mẫu có tên "Tables.docx". Đảm bảo rằng bạn có tài liệu này trong thư mục dự án của mình.
@@ -41,13 +43,13 @@ using Aspose.Words.Tables;
 Trước tiên, chúng ta cần tải tài liệu Word mà chúng ta sẽ làm việc. Đây là nơi Aspose.Words tỏa sáng, cho phép bạn dễ dàng thao tác các tài liệu Word theo chương trình.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Trong bước này, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Đoạn mã này tải tệp "Tables.docx" vào`Document` đối tượng, giúp nó sẵn sàng cho thao tác tiếp theo.
+Trong bước này, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Đoạn mã này tải tệp "Tables.docx" vào `Document` đối tượng, giúp nó sẵn sàng cho thao tác tiếp theo.
 
 ## Bước 2: Truy cập Bảng
 
@@ -57,7 +59,7 @@ Tiếp theo, chúng ta cần truy cập vào bảng trong tài liệu. Aspose.Wo
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
-Ở đây, chúng tôi đang lấy bảng đầu tiên trong tài liệu.`GetChild` phương pháp được sử dụng để tìm nút bảng, với`NodeType.Table` chỉ định loại nút chúng ta đang tìm kiếm.`0` cho biết chúng ta muốn bảng đầu tiên và`true` đảm bảo chúng tôi tìm kiếm toàn bộ tài liệu.
+Ở đây, chúng tôi đang lấy bảng đầu tiên trong tài liệu. `GetChild` phương pháp được sử dụng để tìm nút bảng, với `NodeType.Table` chỉ định loại nút chúng ta đang tìm kiếm. `0` cho biết chúng ta muốn bảng đầu tiên và `true` đảm bảo chúng tôi tìm kiếm toàn bộ tài liệu.
 
 ## Bước 3: Lấy hàng đầu tiên
 
@@ -67,7 +69,7 @@ Bây giờ bảng đã có thể truy cập được, bước tiếp theo là l�
 Row firstRow = table.FirstRow;
 ```
 
- Các`FirstRow` thuộc tính cung cấp cho chúng ta hàng đầu tiên trong bảng. Bây giờ, chúng ta đã sẵn sàng để bắt đầu sửa đổi định dạng của nó.
+Các `FirstRow` thuộc tính cung cấp cho chúng ta hàng đầu tiên trong bảng. Bây giờ, chúng ta đã sẵn sàng để bắt đầu sửa đổi định dạng của nó.
 
 ## Bước 4: Sửa đổi Đường viền Hàng
 
@@ -77,7 +79,7 @@ Hãy bắt đầu bằng cách sửa đổi đường viền của hàng đầu 
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 ```
 
- Trong dòng mã này, chúng tôi đang thiết lập`LineStyle` của các biên giới để`None`, xóa hiệu quả mọi đường viền khỏi hàng đầu tiên. Điều này có thể hữu ích nếu bạn muốn hàng tiêu đề trông sạch sẽ, không có đường viền.
+Trong dòng mã này, chúng tôi đang thiết lập `LineStyle` của các biên giới để `None`xóa hiệu quả mọi đường viền khỏi hàng đầu tiên. Điều này có thể hữu ích nếu bạn muốn hàng tiêu đề trông sạch sẽ, không có đường viền.
 
 ## Bước 5: Điều chỉnh chiều cao hàng
 
@@ -87,7 +89,7 @@ Tiếp theo, chúng ta sẽ điều chỉnh chiều cao của hàng đầu tiên
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
- Ở đây, chúng tôi đang sử dụng`HeightRule` thuộc tính để thiết lập quy tắc chiều cao`Auto`. Điều này cho phép chiều cao của hàng tự động điều chỉnh theo nội dung bên trong các ô.
+Ở đây, chúng tôi đang sử dụng `HeightRule` thuộc tính để thiết lập quy tắc chiều cao `Auto`. Điều này cho phép chiều cao của hàng tự động điều chỉnh theo nội dung bên trong các ô.
 
 ## Bước 6: Cho phép hàng ngắt trang
 
@@ -97,7 +99,7 @@ Cuối cùng, chúng ta sẽ đảm bảo rằng hàng có thể ngắt qua các
 firstRow.RowFormat.AllowBreakAcrossPages = true;
 ```
 
- Cài đặt`AllowBreakAcrossPages` ĐẾN`true` cho phép chia hàng thành nhiều trang nếu cần. Điều này đảm bảo rằng bảng của bạn duy trì cấu trúc ngay cả khi nó trải dài trên nhiều trang.
+Cài đặt `AllowBreakAcrossPages` ĐẾN `true` cho phép chia hàng thành nhiều trang nếu cần. Điều này đảm bảo rằng bảng của bạn duy trì cấu trúc ngay cả khi nó trải dài trên nhiều trang.
 
 ## Phần kết luận
 
@@ -112,16 +114,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Có, bạn có thể lặp qua các hàng trong bảng và áp dụng các thay đổi định dạng cho từng hàng riêng lẻ.
 
 ### Làm thế nào để thêm đường viền vào hàng?
- Bạn có thể thêm đường viền bằng cách thiết lập`LineStyle` tài sản của`Borders` phản đối một phong cách mong muốn, chẳng hạn như`LineStyle.Single`.
+Bạn có thể thêm đường viền bằng cách thiết lập `LineStyle` tài sản của `Borders` phản đối một phong cách mong muốn, chẳng hạn như `LineStyle.Single`.
 
 ### Tôi có thể thiết lập chiều cao cố định cho một hàng không?
- Có, bạn có thể thiết lập chiều cao cố định bằng cách sử dụng`HeightRule` thuộc tính và chỉ định giá trị chiều cao.
+Có, bạn có thể thiết lập chiều cao cố định bằng cách sử dụng `HeightRule` thuộc tính và chỉ định giá trị chiều cao.
 
 ### Có thể áp dụng định dạng khác nhau cho các phần khác nhau của tài liệu không?
 Chắc chắn rồi! Aspose.Words for .NET cung cấp hỗ trợ toàn diện cho việc định dạng từng phần, đoạn văn và thành phần riêng lẻ trong một tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,33 @@
 ---
-title: Mantieni la formattazione originale
-linktitle: Mantieni la formattazione originale
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come unire documenti Word preservandone la formattazione usando Aspose.Words per .NET. Ideale per sviluppatori che desiderano automatizzare le attività di assemblaggio dei documenti.
-weight: 10
-url: /it/net/join-and-append-documents/keep-source-formatting/
+"description": "Scopri come unire documenti Word mantenendo la formattazione utilizzando Aspose.Words per .NET. Ideale per gli sviluppatori che desiderano automatizzare le attività di assemblaggio dei documenti."
+"linktitle": "Mantieni la formattazione originale"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Mantieni la formattazione originale"
+"url": "/it/net/join-and-append-documents/keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mantieni la formattazione originale
 
 ## Introduzione
 
-In questo tutorial, esploreremo come unire e aggiungere documenti Word usando Aspose.Words per .NET. Questa potente libreria fornisce agli sviluppatori ampie capacità per manipolare i documenti Word a livello di programmazione. Ci concentreremo sul metodo per mantenere intatta la formattazione di origine durante l'unione dei documenti, assicurando che gli stili e i layout originali vengano preservati senza problemi.
+In questo tutorial, esploreremo come unire e aggiungere documenti Word utilizzando Aspose.Words per .NET. Questa potente libreria offre agli sviluppatori ampie funzionalità per la manipolazione di documenti Word a livello di codice. Ci concentreremo sul metodo per mantenere intatta la formattazione originale durante l'unione dei documenti, garantendo che gli stili e i layout originali vengano preservati in modo impeccabile.
 
 ## Prerequisiti
 
 Prima di immergerti nel tutorial, assicurati di aver impostato i seguenti prerequisiti:
 
 - Ambiente di sviluppo: Visual Studio o qualsiasi IDE che supporti lo sviluppo .NET.
--  Aspose.Words per la libreria .NET: Scarica e installa la libreria da[Qui](https://releases.aspose.com/words/net/).
+- Aspose.Words per la libreria .NET: scarica e installa la libreria da [Qui](https://releases.aspose.com/words/net/).
 - Conoscenza di base della programmazione C#: familiarità con la sintassi C# e con i concetti di programmazione orientata agli oggetti.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
 Inizia importando gli spazi dei nomi necessari nel tuo progetto C#:
 
@@ -57,9 +59,9 @@ Inizializza una nuova istanza della classe Document per creare un documento di d
 Document dstDoc = new Document();
 ```
 
-## Passaggio 5: Carica il documento sorgente
+## Passaggio 5: caricare il documento sorgente
 
-Allo stesso modo, crea un altro oggetto Documento per caricare il documento di origine che desideri aggiungere al documento di destinazione.
+Allo stesso modo, crea un altro oggetto Documento per caricare il documento di origine che vuoi aggiungere al documento di destinazione.
 
 ```csharp
 Document srcDoc = new Document();
@@ -73,7 +75,7 @@ Per unire il documento di origine al documento di destinazione mantenendone la f
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## Passaggio 7: Salvare il documento unito
+## Passaggio 7: salvare il documento unito
 
 Infine, salvare il documento unito nella directory specificata utilizzando il metodo Save.
 
@@ -83,7 +85,7 @@ dstDoc.Save(dataDir + "MergedDocument.docx");
 
 ## Conclusione
 
-In questo tutorial, abbiamo spiegato come unire documenti Word mantenendo la formattazione originale usando Aspose.Words per .NET. Questo approccio assicura che stili, font e layout dei documenti di origine siano perfettamente integrati nel documento di destinazione, offrendo una soluzione solida per le attività di assemblaggio dei documenti.
+In questo tutorial, abbiamo spiegato come unire documenti Word mantenendo la formattazione originale utilizzando Aspose.Words per .NET. Questo approccio garantisce che stili, font e layout dei documenti di origine siano perfettamente integrati nel documento di destinazione, offrendo una soluzione affidabile per le attività di assemblaggio dei documenti.
 
 ## Domande frequenti
 
@@ -97,13 +99,18 @@ Aspose.Words supporta varie modalità di importazione; la modalità KeepSourceFo
 Sì, Aspose.Words supporta .NET Core, consentendo di utilizzarlo su diverse piattaforme.
 
 ### Come posso gestire in modo efficiente documenti di grandi dimensioni utilizzando Aspose.Words?
-Aspose.Words fornisce API efficienti per lavorare con documenti di grandi dimensioni, tra cui funzionalità per la paginazione e la gestione della memoria.
+Aspose.Words fornisce API efficienti per lavorare con documenti di grandi dimensioni, comprese funzionalità per la paginazione e la gestione della memoria.
 
 ### Dove posso trovare ulteriori risorse e supporto per Aspose.Words?
- Visita il[Documentazione di Aspose.Words per .NET](https://reference.aspose.com/words/net/) per riferimenti API dettagliati, esempi e guide.
+Visita il [Documentazione di Aspose.Words per .NET](https://reference.aspose.com/words/net/) per riferimenti API dettagliati, esempi e guide.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

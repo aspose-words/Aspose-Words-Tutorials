@@ -1,14 +1,16 @@
 ---
-title: Thay thế văn bản trong bảng
-linktitle: Thay thế văn bản trong bảng
-second_title: API xử lý tài liệu Aspose.Words
-description: Thay thế văn bản trong bảng Word một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/find-and-replace-text/replace-text-in-table/
+"description": "Thay thế văn bản trong bảng Word một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Thay thế văn bản trong bảng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay thế văn bản trong bảng"
+"url": "/vi/net/find-and-replace-text/replace-text-in-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế văn bản trong bảng
@@ -21,7 +23,7 @@ Xin chào! Bạn đã sẵn sàng để đắm mình vào thế giới tự đ�
 
 Trước khi đi vào phần thú vị, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào khác mà bạn cảm thấy thoải mái.
 3. Mẫu tài liệu Word: Một tài liệu Word (`Tables.docx`) chứa các bảng mà bạn muốn thay thế văn bản.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy cùng tìm hiểu từng bước trong quy trình tha
 
 ## Bước 1: Tải tài liệu Word
 
- Đầu tiên, bạn cần tải tài liệu Word có chứa bảng. Điều này được thực hiện bằng cách sử dụng`Document` lớp học.
+Đầu tiên, bạn cần tải tài liệu Word có chứa bảng. Điều này được thực hiện bằng cách sử dụng `Document` lớp học.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Đây,`dataDir` là con đường mà bạn`Tables.docx` tập tin được định vị. Hãy chắc chắn để thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
+Đây, `dataDir` là con đường mà bạn `Tables.docx` tập tin được định vị. Hãy chắc chắn để thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn.
 
 ## Bước 2: Truy cập Bảng
 
- Tiếp theo, bạn cần truy cập vào bảng trong tài liệu.`GetChild` phương pháp này được sử dụng để lấy bảng đầu tiên từ tài liệu.
+Tiếp theo, bạn cần truy cập vào bảng trong tài liệu. `GetChild` phương pháp này được sử dụng để lấy bảng đầu tiên từ tài liệu.
 
 ```csharp
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
@@ -61,13 +63,13 @@ Mã này lấy bảng đầu tiên (chỉ mục 0) từ tài liệu. Nếu tài 
 
 ## Bước 3: Thay thế văn bản trong bảng
 
- Bây giờ đến phần thú vị – thay thế văn bản! Chúng ta sẽ sử dụng`Range.Replace` phương pháp tìm và thay thế văn bản trong bảng.
+Bây giờ đến phần thú vị – thay thế văn bản! Chúng ta sẽ sử dụng `Range.Replace` phương pháp tìm và thay thế văn bản trong bảng.
 
 ```csharp
 table.Range.Replace("Carrots", "Eggs", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
- Dòng mã này thay thế văn bản "Cà rốt" bằng "Trứng" trong toàn bộ phạm vi của bảng.`FindReplaceOptions` tham số chỉ định hướng tìm kiếm.
+Dòng mã này thay thế văn bản "Cà rốt" bằng "Trứng" trong toàn bộ phạm vi của bảng. `FindReplaceOptions` tham số chỉ định hướng tìm kiếm.
 
 ## Bước 4: Thay thế văn bản trong một ô cụ thể
 
@@ -99,19 +101,24 @@ Và bạn đã có nó rồi! Bạn vừa học cách thay thế văn bản tron
 Có, bạn có thể lặp qua tất cả các bảng trong tài liệu và áp dụng phương pháp thay thế cho từng bảng riêng lẻ.
 
 ### Làm thế nào để thay thế văn bản bằng định dạng?
- Bạn có thể sử dụng`FindReplaceOptions` để chỉ định các tùy chọn định dạng cho văn bản thay thế.
+Bạn có thể sử dụng `FindReplaceOptions` để chỉ định các tùy chọn định dạng cho văn bản thay thế.
 
 ### Có thể thay thế văn bản chỉ trong các hàng hoặc cột cụ thể không?
- Có, bạn có thể nhắm mục tiêu vào các hàng hoặc cột cụ thể bằng cách truy cập chúng trực tiếp thông qua`Rows` hoặc`Cells` của cải.
+Có, bạn có thể nhắm mục tiêu vào các hàng hoặc cột cụ thể bằng cách truy cập chúng trực tiếp thông qua `Rows` hoặc `Cells` của cải.
 
 ### Tôi có thể thay thế văn bản bằng hình ảnh hoặc đối tượng khác không?
 Aspose.Words for .NET cho phép bạn thay thế văn bản bằng nhiều đối tượng khác nhau, bao gồm cả hình ảnh, bằng các phương pháp nâng cao.
 
 ### Nếu văn bản cần thay thế chứa các ký tự đặc biệt thì sao?
 Các ký tự đặc biệt cần được thoát hoặc xử lý chính xác bằng các phương pháp phù hợp do Aspose.Words cung cấp cho .NET.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

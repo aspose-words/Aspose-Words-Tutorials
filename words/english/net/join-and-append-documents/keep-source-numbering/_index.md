@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/keep-source-numbering/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Source Numbering
@@ -99,9 +102,13 @@ Use try-catch blocks to handle exceptions that may occur during the import proce
 Visit the [documentation](https://reference.aspose.com/words/net/) for comprehensive guides and API references.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

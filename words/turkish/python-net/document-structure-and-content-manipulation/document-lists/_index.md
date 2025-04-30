@@ -1,20 +1,22 @@
 ---
-title: Word Belgelerinde Liste Oluşturma ve Yönetme
-linktitle: Word Belgelerinde Liste Oluşturma ve Yönetme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words Python API'sini kullanarak Word belgelerinde listelerin nasıl oluşturulacağını ve yönetileceğini öğrenin. Liste biçimlendirme, özelleştirme, iç içe yerleştirme ve daha fazlası için kaynak kodlu adım adım kılavuz.
-weight: 18
-url: /tr/python-net/document-structure-and-content-manipulation/document-lists/
+"description": "Aspose.Words Python API'sini kullanarak Word belgelerinde listelerin nasıl oluşturulacağını ve yönetileceğini öğrenin. Liste biçimlendirme, özelleştirme, iç içe yerleştirme ve daha fazlası için kaynak kodlu adım adım kılavuz."
+"linktitle": "Word Belgelerinde Liste Oluşturma ve Yönetme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Liste Oluşturma ve Yönetme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Liste Oluşturma ve Yönetme
 
 
-Listeler birçok belgenin temel bileşenidir ve bilgileri sunmak için yapılandırılmış ve organize bir yol sağlar. Python için Aspose.Words ile Word belgelerinizde listeleri sorunsuz bir şekilde oluşturabilir ve yönetebilirsiniz. Bu eğitimde, Aspose.Words Python API'sini kullanarak listelerle çalışma sürecinde size rehberlik edeceğiz.
+Listeler birçok belgenin temel bir bileşenidir ve bilgileri sunmak için yapılandırılmış ve organize bir yol sağlar. Python için Aspose.Words ile Word belgelerinizde listeleri sorunsuz bir şekilde oluşturabilir ve yönetebilirsiniz. Bu eğitimde, Aspose.Words Python API'sini kullanarak listelerle çalışma sürecinde size rehberlik edeceğiz.
 
 ## Word Belgelerinde Listelere Giriş
 
@@ -22,31 +24,31 @@ Listeler iki temel türde gelir: madde işaretli ve numaralı. Bilgileri yapıla
 
 ## Ortamın Kurulması
 
- Listeleri oluşturma ve yönetmeye dalmadan önce, Aspose.Words for Python kütüphanesinin yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/python/) Ayrıca, API belgelerine bakın:[bu bağlantı](https://reference.aspose.com/words/python-net/) Detaylı bilgi için.
+Listeleri oluşturma ve yönetmeye dalmadan önce, Aspose.Words for Python kütüphanesinin yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/python/)Ayrıca, API belgelerine bakın: [bu bağlantı](https://reference.aspose.com/words/python-net/) Detaylı bilgi için.
 
 ## Madde İşaretli Listeler Oluşturma
 
 Madde işaretli listeler, öğelerin sırasının önemli olmadığı durumlarda kullanılır. Aspose.Words Python kullanarak madde işaretli bir liste oluşturmak için şu adımları izleyin:
 
 ```python
-# Import the necessary classes
+# Gerekli sınıfları içe aktarın
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Yeni bir belge oluştur
 doc = Document()
 
-# Create a list template and add it to the document
+# Bir liste şablonu oluşturun ve bunu belgeye ekleyin
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Şablona bir liste düzeyi ekleyin
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Customize the list formatting if needed
-list_level.number_format = "\u2022"  # Bullet character
+# Gerekirse liste biçimlendirmesini özelleştirin
+list_level.number_format = "\u2022"  # Mermi karakteri
 
-# Add list items
+# Liste öğelerini ekle
 list_item_texts = ["Item 1", "Item 2", "Item 3"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -61,21 +63,21 @@ for text in list_item_texts:
 Numaralandırılmış listeler, öğelerin sırası önemli olduğunda uygundur. İşte Aspose.Words Python kullanarak numaralandırılmış bir liste oluşturmanın yolu:
 
 ```python
-# Import the necessary classes
+# Gerekli sınıfları içe aktarın
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# Yeni bir belge oluştur
 doc = Document()
 
-# Create a list template and add it to the document
+# Bir liste şablonu oluşturun ve bunu belgeye ekleyin
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# Şablona bir liste düzeyi ekleyin
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Add list items
+# Liste öğelerini ekle
 list_item_texts = ["Item A", "Item B", "Item C"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -116,7 +118,7 @@ Bu eğitimde, Aspose.Words Python API'sini kullanarak Word belgelerinde listeler
 ## SSS
 
 ### Python için Aspose.Words'ü nasıl kurarım?
- Kütüphaneyi şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/words/python/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
+Kütüphaneyi şu adresten indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/words/python/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Listelerimin numaralandırma stilini özelleştirebilir miyim?
 Kesinlikle! Aspose.Words Python, listelerinizi özel ihtiyaçlarınıza göre uyarlamak için numaralandırma biçimlerini, madde işaretlerini ve hizalamayı özelleştirmenize olanak tanır.
@@ -128,10 +130,15 @@ Evet, ana listenize alt listeler ekleyerek iç içe listeler oluşturabilirsiniz
 Evet, Aspose.Words Python, düz metni listeler halinde ayrıştırmak ve biçimlendirmek için yöntemler sunarak içeriğinizi yapılandırmayı kolaylaştırır.
 
 ### Listeleri oluşturduktan sonra belgemi nasıl kaydedebilirim?
- Belgenizi kullanarak kaydedebilirsiniz.`doc.save()` Yöntemi seçin ve DOCX veya PDF gibi istenen çıktı formatını belirtin.
+Belgenizi kullanarak kaydedebilirsiniz. `doc.save()` Yöntemi seçin ve DOCX veya PDF gibi istenen çıktı formatını belirtin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

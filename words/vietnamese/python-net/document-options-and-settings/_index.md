@@ -1,14 +1,16 @@
 ---
-title: Tùy chọn và cài đặt tài liệu
-linktitle: Tùy chọn và cài đặt tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá hướng dẫn Aspose.Words về các tùy chọn và cài đặt tài liệu trong Python và .NET. Tìm hiểu cách tối ưu hóa việc tạo và định dạng tài liệu bằng hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 14
-url: /vi/python-net/document-options-and-settings/
+"description": "Khám phá hướng dẫn Aspose.Words về các tùy chọn và cài đặt tài liệu trong Python và .NET. Tìm hiểu cách tối ưu hóa việc tạo và định dạng tài liệu bằng hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Tùy chọn và cài đặt tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tùy chọn và cài đặt tài liệu"
+"url": "/vi/python-net/document-options-and-settings/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chọn và cài đặt tài liệu
@@ -47,9 +49,13 @@ Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Wor
 Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
 ### [Mở rộng chức năng tài liệu bằng tiện ích mở rộng web](./document-functionality-web-extensions/)
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

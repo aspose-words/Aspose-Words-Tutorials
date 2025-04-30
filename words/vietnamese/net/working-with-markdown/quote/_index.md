@@ -1,14 +1,16 @@
 ---
-title: Trích dẫn
-linktitle: Trích dẫn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm dấu ngoặc kép và khối trích dẫn lồng nhau vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước này để thành thạo việc tạo tài liệu.
-weight: 10
-url: /vi/net/working-with-markdown/quote/
+"description": "Tìm hiểu cách thêm dấu ngoặc kép và khối trích dẫn lồng nhau vào tài liệu Word của bạn bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước này để thành thạo việc tạo tài liệu."
+"linktitle": "Trích dẫn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Trích dẫn"
+"url": "/vi/net/working-with-markdown/quote/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích dẫn
@@ -17,14 +19,14 @@ url: /vi/net/working-with-markdown/quote/
 
 Bạn đã bao giờ thấy mình bị mắc kẹt khi cố gắng thêm dấu ngoặc kép vào tài liệu Word bằng .NET chưa? Có thể thực sự rắc rối, phải không? Nhưng đừng lo lắng, vì hôm nay, tôi sẽ chỉ cho bạn cách làm chủ nghệ thuật chèn dấu ngoặc kép vào tài liệu của bạn bằng Aspose.Words cho .NET. Đến cuối hướng dẫn này, bạn sẽ dễ dàng tạo tài liệu như một chuyên gia!
 
-Aspose.Words for .NET là một thư viện tuyệt vời giúp việc làm việc với các tài liệu Word trở nên dễ dàng. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết về cách thêm dấu ngoặc kép, bao gồm cả các khối trích dẫn lồng nhau, theo cách vừa hấp dẫn vừa dễ làm theo. Vậy, hãy cùng tìm hiểu nhé!
+Aspose.Words for .NET là một thư viện tuyệt vời giúp việc làm việc với các tài liệu Word trở nên dễ dàng. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết về cách thêm dấu ngoặc kép, bao gồm cả khối ngoặc kép lồng nhau, theo cách vừa hấp dẫn vừa dễ làm theo. Vậy, hãy cùng tìm hiểu nhé!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
-- Môi trường phát triển .NET: Đảm bảo bạn đã cài đặt Visual Studio hoặc bất kỳ IDE .NET nào khác.
+- Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
+- Môi trường phát triển .NET: Đảm bảo bạn đã cài đặt Visual Studio hoặc bất kỳ .NET IDE nào khác.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 
 Bạn đã chuẩn bị mọi thứ chưa? Tuyệt! Chúng ta hãy cùng đi sâu vào việc nhập không gian tên và thiết lập dự án của mình.
@@ -39,18 +41,18 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Tables;
 ```
 
-Các không gian tên này cung cấp cho bạn quyền truy cập vào các lớp và phương thức bạn cần để thao tác với các tài liệu Word. Bây giờ, hãy chia nhỏ ví dụ thành các bước dễ quản lý.
+Các không gian tên này cung cấp cho bạn quyền truy cập vào các lớp và phương thức bạn cần để thao tác với các tài liệu Word. Bây giờ, chúng ta hãy chia nhỏ ví dụ thành các bước dễ quản lý.
 
 ## Bước 1: Tạo một thể hiện DocumentBuilder
 
- Để bắt đầu, chúng ta cần tạo một phiên bản của`DocumentBuilder` lớp. Lớp này cho phép chúng ta thêm nội dung vào tài liệu của mình.
+Để bắt đầu, chúng ta cần tạo một phiên bản của `DocumentBuilder` lớp. Lớp này cho phép chúng ta thêm nội dung vào tài liệu của mình.
 
 ```csharp
 // Sử dụng trình tạo tài liệu để thêm nội dung vào tài liệu.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- Các`DocumentBuilder` class là cổng thông tin để bạn xây dựng và tùy chỉnh tài liệu của mình. Hãy coi nó như cây đũa thần để tạo tài liệu Word!
+Các `DocumentBuilder` class là cổng thông tin để bạn xây dựng và tùy chỉnh tài liệu của mình. Hãy coi nó như cây đũa thần để tạo tài liệu Word!
 
 ## Bước 2: Thêm Blockquote
 
@@ -90,22 +92,27 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET miễn phí không?
 
-Bạn có thể dùng thử Aspose.Words cho .NET miễn phí với giấy phép tạm thời. Bạn có thể nhận được nó[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể dùng thử Aspose.Words cho .NET miễn phí với giấy phép tạm thời. Bạn có thể nhận được nó [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Có tài liệu chi tiết nào về Aspose.Words cho .NET không?
 
- Có, bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Có, bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
 
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words[đây](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words [đây](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể tải Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

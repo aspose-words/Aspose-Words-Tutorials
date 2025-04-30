@@ -1,14 +1,16 @@
 ---
-title: ตัวเลือกการดู
-linktitle: ตัวเลือกการดู
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีดูตัวเลือกในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่าประเภทมุมมอง การปรับระดับการซูม และการบันทึกเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-document-options-and-settings/view-options/
+"description": "เรียนรู้วิธีดูตัวเลือกในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่าประเภทมุมมอง การปรับระดับการซูม และการบันทึกเอกสารของคุณ"
+"linktitle": "ตัวเลือกการดู"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตัวเลือกการดู"
+"url": "/th/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตัวเลือกการดู
@@ -21,7 +23,7 @@ url: /th/net/programming-with-document-options-and-settings/view-options/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกอย่างที่จำเป็นในการปฏิบัติตามบทช่วยสอนนี้แล้ว นี่คือรายการตรวจสอบโดยย่อ:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณควรมี IDE เช่น Visual Studio ติดตั้งอยู่บนเครื่องของคุณ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าเราจะทำทุกอย่างให้เรียบง่าย แต่การทำความเข้าใจพื้นฐานเกี่ยวกับ C# จะเป็นประโยชน์
 4. ตัวอย่างเอกสาร Word: เตรียมเอกสาร Word ตัวอย่างไว้ สำหรับบทช่วยสอนนี้ เราจะเรียกเอกสารนี้ว่า "Document.docx"
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- ในสไนปเป็ตนี้ เราจะกำหนดเส้นทางไปยังเอกสารของเราและโหลดโดยใช้`Document` ชั้นเรียน. ให้แน่ใจว่าได้เปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+ในสไนปเป็ตนี้ เราจะกำหนดเส้นทางไปยังเอกสารของเราและโหลดโดยใช้ `Document` ชั้นเรียน. ให้แน่ใจว่าได้เปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: ตั้งค่าประเภทมุมมอง
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- ที่นี่เราจะตั้งค่าประเภทมุมมองเป็น`PageLayout`ซึ่งคล้ายกับมุมมองเค้าโครงการพิมพ์ใน Microsoft Word ช่วยให้คุณเห็นภาพได้ชัดเจนยิ่งขึ้นว่าเอกสารของคุณจะมีลักษณะอย่างไรเมื่อพิมพ์ออกมา
+ที่นี่เราจะตั้งค่าประเภทมุมมองเป็น `PageLayout`ซึ่งคล้ายกับมุมมองเค้าโครงการพิมพ์ใน Microsoft Word ช่วยให้คุณเห็นภาพได้ชัดเจนยิ่งขึ้นว่าเอกสารของคุณจะมีลักษณะอย่างไรเมื่อพิมพ์ออกมา
 
 ## ขั้นตอนที่ 3: ปรับระดับการซูม
 
@@ -68,7 +70,7 @@ doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- โดยการตั้งค่า`ZoomPercent` ถึง`50`เรากำลังซูมออกเหลือ 50% ของขนาดจริง คุณสามารถปรับค่านี้ให้เหมาะกับความต้องการของคุณได้
+โดยการตั้งค่า `ZoomPercent` ถึง `50`เรากำลังซูมออกเหลือ 50% ของขนาดจริง คุณสามารถปรับค่านี้ให้เหมาะกับความต้องการของคุณได้
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารของคุณ
 
@@ -88,7 +90,7 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### ฉันสามารถตั้งค่าประเภทมุมมองอื่นใดให้กับเอกสารของฉันได้บ้าง
 
- Aspose.Words สำหรับ .NET รองรับมุมมองหลายประเภท รวมถึง`PrintLayout`, `WebLayout`, `Reading` , และ`Outline`คุณสามารถสำรวจตัวเลือกเหล่านี้ได้ตามความต้องการของคุณ
+Aspose.Words สำหรับ .NET รองรับมุมมองหลายประเภท รวมถึง `PrintLayout`- `WebLayout`- `Reading`, และ `Outline`คุณสามารถสำรวจตัวเลือกเหล่านี้ได้ตามความต้องการของคุณ
 
 ### ฉันสามารถตั้งค่าระดับการซูมที่แตกต่างกันสำหรับส่วนต่างๆ ของเอกสารได้หรือไม่
 
@@ -104,10 +106,15 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### ฉันสามารถหาเอกสารโดยละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถค้นหาเอกสารและตัวอย่างโดยละเอียดเพิ่มเติมได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารและตัวอย่างโดยละเอียดเพิ่มเติมได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

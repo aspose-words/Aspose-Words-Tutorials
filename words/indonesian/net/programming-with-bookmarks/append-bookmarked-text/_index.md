@@ -1,14 +1,16 @@
 ---
-title: Menambahkan Teks yang Ditandai di Dokumen Word
-linktitle: Menambahkan Teks yang Ditandai di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan teks yang diberi bookmark dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Pelajari cara menambahkan teks yang diberi bookmark dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Menambahkan Teks yang Ditandai di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menambahkan Teks yang Ditandai di Dokumen Word"
+"url": "/id/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Teks yang Ditandai di Dokumen Word
@@ -21,7 +23,7 @@ Hai! Pernah mencoba menambahkan teks dari bagian yang ditandai di dokumen Word d
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstalnya. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstalnya. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 - Pengetahuan Dasar C#: Memahami konsep dasar pemrograman C# akan membantu.
 - Dokumen Word dengan Penanda: Dokumen Word dengan penanda yang telah disiapkan, yang akan kita gunakan untuk menambahkan teks.
@@ -69,7 +71,7 @@ if (startPara == null || endPara == null)
     throw new InvalidOperationException("Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet.");
 ```
 
-## Langkah 3: Validasi Orang Tua Paragraf
+## Langkah 3: Validasi Induk Paragraf
 
 Kita perlu memastikan paragraf awal dan akhir memiliki induk yang sama. Ini adalah skenario sederhana untuk menjaga semuanya tetap sederhana.
 
@@ -121,16 +123,21 @@ Ya, Anda dapat mengulangi proses untuk setiap penanda buku dan menambahkan teks 
 Contoh saat ini mengasumsikan bahwa mereka memiliki induk yang sama. Untuk induk yang berbeda, diperlukan penanganan yang lebih rumit.
 
 ### Bisakah saya mempertahankan format asli teks yang ditambahkan?
- Tentu saja!`ImportFormatMode.KeepSourceFormatting` memastikan format asli dipertahankan.
+Tentu saja! `ImportFormatMode.KeepSourceFormatting` memastikan format asli dipertahankan.
 
 ### Apakah mungkin untuk menambahkan teks ke posisi tertentu dalam dokumen tujuan?
 Ya, Anda dapat menambahkan teks ke posisi mana pun dengan menavigasi ke simpul yang diinginkan dalam dokumen tujuan.
 
 ### Bagaimana jika saya perlu menambahkan teks dari penanda halaman ke bagian baru?
 Anda dapat membuat bagian baru di dokumen tujuan dan menambahkan teks di sana.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

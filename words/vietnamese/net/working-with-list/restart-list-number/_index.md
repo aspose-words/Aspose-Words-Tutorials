@@ -1,14 +1,16 @@
 ---
-title: Số danh sách khởi động lại
-linktitle: Số danh sách khởi động lại
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách khởi động lại danh sách số trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết dài 2000 từ này bao gồm mọi thứ bạn cần biết, từ thiết lập đến tùy chỉnh nâng cao.
-weight: 10
-url: /vi/net/working-with-list/restart-list-number/
+"description": "Tìm hiểu cách khởi động lại danh sách số trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết dài 2000 từ này bao gồm mọi thứ bạn cần biết, từ thiết lập đến tùy chỉnh nâng cao."
+"linktitle": "Số danh sách khởi động lại"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Số danh sách khởi động lại"
+"url": "/vi/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Số danh sách khởi động lại
@@ -19,9 +21,9 @@ Bạn có muốn thành thạo nghệ thuật thao tác danh sách trong tài li
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần cài đặt Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Đảm bảo bạn có môi trường phát triển phù hợp như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi hướng dẫn.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước dễ thực
 
 ## Bước 1: Thiết lập Tài liệu và Trình tạo của Bạn
 
-Trước khi bạn có thể bắt đầu thao tác danh sách, bạn cần một tài liệu và một DocumentBuilder. DocumentBuilder là công cụ bạn cần để thêm nội dung vào tài liệu của mình.
+Trước khi bạn có thể bắt đầu thao tác danh sách, bạn cần một tài liệu và DocumentBuilder. DocumentBuilder là công cụ bạn cần để thêm nội dung vào tài liệu của mình.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -61,7 +63,7 @@ list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
 ## Bước 3: Thêm mục vào danh sách đầu tiên của bạn
 
- Khi danh sách của bạn đã sẵn sàng, đã đến lúc thêm một số mục. DocumentBuilder`ListFormat.List` Thuộc tính này giúp áp dụng định dạng danh sách vào văn bản.
+Với danh sách đã sẵn sàng, đã đến lúc thêm một số mục. DocumentBuilder `ListFormat.List` Thuộc tính này giúp áp dụng định dạng danh sách vào văn bản.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -114,11 +116,11 @@ Chắc chắn rồi! Aspose.Words cung cấp nhiều mẫu danh sách như dấu
 
 ### Làm thế nào để thay đổi cấp độ danh sách?
 
- Bạn có thể thay đổi cấp độ danh sách bằng cách sửa đổi`ListLevels` tài sản. Ví dụ,`list1.ListLevels[1]` sẽ đề cập đến cấp độ thứ hai của danh sách.
+Bạn có thể thay đổi cấp độ danh sách bằng cách sửa đổi `ListLevels` tài sản. Ví dụ, `list1.ListLevels[1]` sẽ đề cập đến cấp độ thứ hai của danh sách.
 
 ### Tôi có thể bắt đầu lại việc đánh số ở bất kỳ số nào không?
 
- Có, bạn có thể đặt số bắt đầu thành bất kỳ giá trị số nguyên nào bằng cách sử dụng`StartAt` thuộc tính của cấp độ danh sách.
+Có, bạn có thể đặt số bắt đầu thành bất kỳ giá trị số nguyên nào bằng cách sử dụng `StartAt` thuộc tính của cấp độ danh sách.
 
 ### Có thể định dạng khác nhau cho các cấp danh sách khác nhau không?
 
@@ -130,9 +132,14 @@ Nếu bạn muốn tiếp tục đánh số, bạn không cần phải tạo b�
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

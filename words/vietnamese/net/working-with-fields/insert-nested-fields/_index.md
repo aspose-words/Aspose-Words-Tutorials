@@ -1,27 +1,29 @@
 ---
-title: Chèn các trường lồng nhau
-linktitle: Chèn các trường lồng nhau
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn các trường lồng nhau vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc tạo tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/insert-nested-fields/
+"description": "Tìm hiểu cách chèn các trường lồng nhau vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc tạo tài liệu."
+"linktitle": "Chèn các trường lồng nhau"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn các trường lồng nhau"
+"url": "/vi/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn các trường lồng nhau
 
 ## Giới thiệu
 
-Bạn đã bao giờ thấy mình cần chèn các trường lồng nhau vào tài liệu Word theo chương trình chưa? Có thể bạn muốn hiển thị có điều kiện các văn bản khác nhau dựa trên số trang? Vâng, bạn thật may mắn! Hướng dẫn này sẽ hướng dẫn bạn quy trình chèn các trường lồng nhau bằng Aspose.Words cho .NET. Hãy cùng bắt đầu!
+Bạn đã bao giờ thấy mình cần chèn các trường lồng nhau vào tài liệu Word theo chương trình chưa? Có thể bạn muốn hiển thị có điều kiện các văn bản khác nhau dựa trên số trang? Vâng, bạn thật may mắn! Hướng dẫn này sẽ hướng dẫn bạn quy trình chèn các trường lồng nhau bằng Aspose.Words cho .NET. Hãy cùng bắt đầu nhé!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu biết về ngôn ngữ lập trình C#.
 
@@ -104,7 +106,7 @@ doc.Save(dataDir + "InsertNestedFields.docx");
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã chèn thành công các trường lồng nhau vào tài liệu Word bằng Aspose.Words for .NET. Thư viện mạnh mẽ này giúp bạn dễ dàng thao tác các tài liệu Word theo chương trình. Cho dù bạn đang tạo báo cáo, tạo mẫu hay tự động hóa quy trình làm việc của tài liệu, Aspose.Words đều có thể giúp bạn.
+Và bạn đã có nó! Bạn đã chèn thành công các trường lồng nhau vào một tài liệu Word bằng Aspose.Words cho .NET. Thư viện mạnh mẽ này giúp bạn dễ dàng thao tác các tài liệu Word theo chương trình. Cho dù bạn đang tạo báo cáo, tạo mẫu hay tự động hóa quy trình làm việc của tài liệu, Aspose.Words đều có thể giúp bạn.
 
 ## Câu hỏi thường gặp
 
@@ -115,16 +117,21 @@ Trường lồng nhau là trường chứa các trường khác bên trong. Nó 
 Có, bạn có thể lồng nhiều trường khác nhau như NGÀY, GIỜ và TÁC GIẢ vào trường IF để tạo nội dung động.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET là một thư viện thương mại, nhưng bạn có thể nhận được một[dùng thử miễn phí](https://releases.aspose.com/) để thử xem.
+Aspose.Words cho .NET là một thư viện thương mại, nhưng bạn có thể nhận được một [dùng thử miễn phí](https://releases.aspose.com/) để thử xem.
 
 ### Tôi có thể sử dụng Aspose.Words với các ngôn ngữ .NET khác không?
 Có, Aspose.Words hỗ trợ tất cả các ngôn ngữ .NET, bao gồm VB.NET và F#.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

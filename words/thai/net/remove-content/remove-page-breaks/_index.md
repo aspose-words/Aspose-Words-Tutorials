@@ -1,27 +1,29 @@
 ---
-title: ลบตัวแบ่งหน้าในเอกสาร Word
-linktitle: ลบการแบ่งหน้า
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการลบตัวแบ่งหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
-weight: 10
-url: /th/net/remove-content/remove-page-breaks/
+"description": "เรียนรู้วิธีการลบตัวแบ่งหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ"
+"linktitle": "ลบการแบ่งหน้า"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลบตัวแบ่งหน้าในเอกสาร Word"
+"url": "/th/net/remove-content/remove-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบตัวแบ่งหน้าในเอกสาร Word
 
 ## การแนะนำ
 
-การลบตัวแบ่งหน้าออกจากเอกสาร Word อาจมีความสำคัญในการรักษาความต่อเนื่องของเนื้อหาในข้อความของคุณ ไม่ว่าคุณจะกำลังเตรียมร่างสุดท้ายเพื่อเผยแพร่หรือเพียงแค่จัดระเบียบเอกสาร การลบตัวแบ่งหน้าที่ไม่จำเป็นก็สามารถช่วยได้ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโดยใช้ Aspose.Words สำหรับ .NET ไลบรารีอันทรงพลังนี้มอบความสามารถในการจัดการเอกสารอย่างครอบคลุม ทำให้การทำงานเช่นนี้เป็นเรื่องง่าย
+การลบตัวแบ่งหน้าออกจากเอกสาร Word อาจมีความสำคัญในการรักษาความสม่ำเสมอของเนื้อหาในข้อความของคุณ ไม่ว่าคุณจะกำลังเตรียมร่างสุดท้ายเพื่อเผยแพร่หรือเพียงแค่จัดระเบียบเอกสาร การลบตัวแบ่งหน้าที่ไม่จำเป็นก็สามารถช่วยได้ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโดยใช้ Aspose.Words สำหรับ .NET ไลบรารีอันทรงพลังนี้มอบความสามารถในการจัดการเอกสารอย่างครอบคลุม ทำให้การทำงานเช่นนี้เป็นเรื่องง่าย
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่จะดูรายละเอียดคำแนะนำทีละขั้นตอน โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารีจาก[การเปิดตัว Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารีจาก [การเปิดตัว Aspose](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในเครื่องของคุณแล้ว
 - เอกสารตัวอย่าง: เอกสาร Word (.docx) ที่มีการแบ่งหน้า
@@ -58,7 +60,7 @@ using Aspose.Words.Nodes;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "your-document.docx");
 ```
- ในขั้นตอนนี้ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ
+ในขั้นตอนนี้ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: เข้าถึงโหนดย่อหน้า
 
@@ -89,7 +91,7 @@ foreach (Paragraph para in paragraphs)
     }
 }
 ```
-ในสคริปท์นี้:
+ในข้อความสั้นๆ นี้:
 - เราตรวจสอบว่ารูปแบบย่อหน้ามีตัวแบ่งหน้าอยู่ก่อนหรือไม่และลบตัวแบ่งหน้านั้นออก
 - จากนั้นเราจะตรวจสอบการทำงานแต่ละครั้งภายในย่อหน้าเพื่อดูการแบ่งหน้าและลบออก
 
@@ -101,7 +103,7 @@ foreach (Paragraph para in paragraphs)
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางที่คุณต้องการบันทึกเอกสารที่แก้ไข
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางที่คุณต้องการบันทึกเอกสารที่แก้ไข
 
 ## บทสรุป
 
@@ -113,19 +115,24 @@ doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ใช่ Aspose.Words รองรับภาษา .NET ทั้งหมด รวมถึง VB.NET, F# และอื่นๆ
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words เสนอให้ทดลองใช้งานฟรี หากต้องการใช้งานในระยะยาว คุณสามารถซื้อใบอนุญาตได้จาก[การซื้อ Aspose](https://purchase.aspose.com/buy).
+Aspose.Words เสนอให้ทดลองใช้งานฟรี หากต้องการใช้งานในระยะยาว คุณสามารถซื้อใบอนุญาตได้จาก [การซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถลบการแบ่งประเภทอื่นๆ (เช่น การแบ่งส่วน) โดยใช้ Aspose.Words ได้หรือไม่
 ใช่ คุณสามารถจัดการการแบ่งบรรทัดประเภทต่างๆ ในเอกสารได้โดยใช้ Aspose.Words
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถรับการสนับสนุนจากชุมชนและฟอรัม Aspose ได้ที่[การสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชนและฟอรัม Aspose ได้ที่ [การสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
 
 ### Aspose.Words รองรับรูปแบบไฟล์อะไรบ้าง?
-Aspose.Words รองรับรูปแบบไฟล์มากมาย รวมถึง DOCX, DOC, PDF, HTML และอื่นๆ คุณสามารถดูรายการทั้งหมดได้ใน[เอกสารประกอบ Aspose](https://reference.aspose.com/words/net/).
+Aspose.Words รองรับรูปแบบไฟล์มากมาย รวมถึง DOCX, DOC, PDF, HTML และอื่นๆ คุณสามารถดูรายการทั้งหมดได้ใน [เอกสารประกอบ Aspose](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dostosowywanie motywów dokumentów
-linktitle: Dostosowywanie motywów dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak dostosować motywy dokumentów za pomocą Aspose.Words for Java. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku i przykłady kodu źródłowego.
-weight: 12
-url: /pl/java/document-styling/customizing-document-themes/
+"description": "Dowiedz się, jak dostosować motywy dokumentów za pomocą Aspose.Words for Java. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku i przykłady kodu źródłowego."
+"linktitle": "Dostosowywanie motywów dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dostosowywanie motywów dokumentów"
+"url": "/pl/java/document-styling/customizing-document-themes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosowywanie motywów dokumentów
@@ -22,11 +24,11 @@ Dostosowywanie motywów dokumentów jest kluczowym aspektem przetwarzania dokume
 
 ### Konfigurowanie środowiska programistycznego
 
-Zanim przejdziemy do szczegółów, upewnijmy się, że masz odpowiednie środowisko skonfigurowane do programowania w Javie za pomocą Aspose.Words. Aby rozpocząć, wykonaj następujące kroki:
+Zanim zagłębimy się w szczegóły, upewnijmy się, że masz odpowiednie środowisko skonfigurowane do programowania w Javie za pomocą Aspose.Words. Aby rozpocząć, wykonaj następujące kroki:
 
-1.  Zainstaluj Javę: Jeśli nie masz zainstalowanej Javy, pobierz i zainstaluj najnowszą wersję ze strony[java.com](https://www.java.com/).
+1. Zainstaluj Javę: Jeśli nie masz zainstalowanej Javy, pobierz i zainstaluj najnowszą wersję z [java.com](https://www.java.com/).
 
-2.  Pobierz Aspose.Words dla Javy: Odwiedź[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) i pobierz najnowszą wersję.
+2. Pobierz Aspose.Words dla Javy: Odwiedź [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) i pobierz najnowszą wersję.
 
 3. Zintegruj Aspose.Words: Dodaj Aspose.Words do swojego projektu Java, dołączając plik JAR pobrany w poprzednim kroku.
 
@@ -129,9 +131,14 @@ Aspose.Words for Java udostępnia zestaw predefiniowanych motywów, których mo�
 Dostosowywanie motywów dokumentów za pomocą Aspose.Words for Java umożliwia tworzenie atrakcyjnych wizualnie i spójnych dokumentów w aplikacjach Java. W tym przewodniku omówiliśmy podstawy dostosowywania motywów, w tym zmianę kolorów i czcionek. Postępując zgodnie z podanymi przykładami i najlepszymi praktykami, możesz opanować sztukę dostosowywania motywów dokumentów.
 
 Teraz, gdy dysponujesz wiedzą i kodem, idź dalej i rozbuduj swoje możliwości przetwarzania dokumentów Java za pomocą Aspose.Words. Twórz oszałamiające dokumenty, które wyróżniają się i robią wrażenie na użytkownikach.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Xuất cấu trúc tài liệu Word sang tài liệu PDF
-linktitle: Xuất cấu trúc tài liệu Word sang tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Xuất cấu trúc của tài liệu Word sang PDF bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để bảo toàn bố cục tài liệu và cải thiện điều hướng PDF.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/export-document-structure/
+"description": "Xuất cấu trúc của tài liệu Word sang PDF bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để giữ nguyên bố cục tài liệu và cải thiện điều hướng PDF."
+"linktitle": "Xuất cấu trúc tài liệu Word sang tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất cấu trúc tài liệu Word sang tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/export-document-structure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất cấu trúc tài liệu Word sang tài liệu PDF
@@ -21,9 +23,9 @@ url: /vi/net/programming-with-pdfsaveoptions/export-document-structure/
 
 Trước khi bắt đầu cuộc hành trình này, chúng ta hãy cùng thu thập tất cả những điều cần thiết để bắt đầu.
 
-- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Môi trường phát triển tương thích với .NET như Visual Studio.
--  Tài liệu mẫu: Một tài liệu Word (ví dụ:`Paragraphs.docx`) mà bạn sẽ chuyển đổi thành PDF.
+- Tài liệu mẫu: Một tài liệu Word (ví dụ: `Paragraphs.docx`) mà bạn sẽ chuyển đổi thành PDF.
 
 ## Nhập không gian tên
 
@@ -38,7 +40,7 @@ Hãy chia nhỏ quy trình thành các bước dễ quản lý. Mỗi bước s�
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Trước tiên, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi chứa tài liệu Word nguồn của bạn và nơi lưu PDF đã chuyển đổi.
+Trước tiên, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi chứa tài liệu Word nguồn của bạn và là nơi lưu PDF đã chuyển đổi.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu Word
 
- Tiếp theo, chúng ta cần tải tài liệu Word mà chúng ta muốn chuyển đổi sang PDF. Trong ví dụ này, chúng ta sẽ sử dụng một tệp có tên`Paragraphs.docx`.
+Tiếp theo, chúng ta cần tải tài liệu Word mà chúng ta muốn chuyển đổi sang PDF. Trong ví dụ này, chúng ta sẽ sử dụng một tệp có tên `Paragraphs.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Paragraphs.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Paragraphs.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu PDF
 
- Để xuất cấu trúc tài liệu, chúng ta cần cấu hình các tùy chọn lưu PDF. Điều này bao gồm việc thiết lập`ExportDocumentStructure`tài sản để`true`Điều này đảm bảo rằng cấu trúc của tài liệu có thể nhìn thấy được trong ngăn điều hướng "Nội dung" của Adobe Acrobat Pro.
+Để xuất cấu trúc tài liệu, chúng ta cần cấu hình các tùy chọn lưu PDF. Điều này bao gồm việc thiết lập `ExportDocumentStructure` tài sản để `true`. Điều này đảm bảo rằng cấu trúc của tài liệu có thể nhìn thấy được trong ngăn điều hướng "Nội dung" của Adobe Acrobat Pro.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -87,13 +89,18 @@ Có, Aspose.Words for .NET cung cấp nhiều tùy chọn để xuất các tín
 Chắc chắn rồi! Bạn có thể tự động hóa quy trình này bằng cách sử dụng tập lệnh và xử lý hàng loạt trong môi trường phát triển của mình.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể nhận được bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Bạn có thể nhận được bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
 ### Tôi phải làm gì nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm kiếm sự giúp đỡ từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: อัตราส่วนภาพถูกล็อค
-linktitle: อัตราส่วนภาพถูกล็อค
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีล็อกอัตราส่วนภาพของรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อรักษาสัดส่วนของรูปภาพและรูปร่างของคุณ
-weight: 10
-url: /th/net/programming-with-shapes/aspect-ratio-locked/
+"description": "เรียนรู้วิธีล็อกอัตราส่วนภาพของรูปร่างในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อรักษาสัดส่วนของรูปภาพและรูปร่างของคุณ"
+"linktitle": "อัตราส่วนภาพถูกล็อค"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อัตราส่วนภาพถูกล็อค"
+"url": "/th/net/programming-with-shapes/aspect-ratio-locked/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อัตราส่วนภาพถูกล็อค
@@ -21,7 +23,7 @@ url: /th/net/programming-with-shapes/aspect-ratio-locked/
 
 ก่อนที่เราจะเจาะลึกโค้ด มาดูสิ่งที่คุณต้องทำเพื่อเริ่มต้นกันก่อน:
 
-- ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- ไลบรารี Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: ตรวจสอบว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET ไว้แล้ว Visual Studio เป็นตัวเลือกยอดนิยม
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เล็กน้อยจะเป็นประโยชน์
 
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
- ก่อนที่เราจะเริ่มจัดการรูปร่าง เราจะต้องตั้งค่าไดเร็กทอรีที่จะเก็บเอกสารของเรา เพื่อความเรียบง่าย เราจะใช้ตัวแทน`YOUR DOCUMENT DIRECTORY`. แทนที่สิ่งนี้ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+ก่อนที่เราจะเริ่มจัดการรูปร่าง เราจะต้องตั้งค่าไดเร็กทอรีที่จะเก็บเอกสารของเรา เพื่อความเรียบง่าย เราจะใช้ตัวแทน `YOUR DOCUMENT DIRECTORY`. แทนที่สิ่งนี้ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
@@ -52,17 +54,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ของ`Document` ชั้นเรียนและใช้`DocumentBuilder` เพื่อช่วยเราสร้างเนื้อหาเอกสาร
+ที่นี่เราสร้างอินสแตนซ์ของ `Document` ชั้นเรียนและใช้ `DocumentBuilder` เพื่อช่วยเราสร้างเนื้อหาเอกสาร
 
 ## ขั้นตอนที่ 3: แทรกภาพ
 
- ตอนนี้เรามาแทรกภาพลงในเอกสารของเรากัน เราจะใช้`InsertImage` วิธีการของ`DocumentBuilder`คลาส ให้แน่ใจว่าคุณมีรูปภาพอยู่ในไดเร็กทอรีที่คุณระบุ
+ตอนนี้เรามาแทรกภาพลงในเอกสารของเรากัน เราจะใช้ `InsertImage` วิธีการของ `DocumentBuilder` คลาส ให้แน่ใจว่าคุณมีรูปภาพอยู่ในไดเร็กทอรีที่คุณระบุ
 
 ```csharp
 Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 ```
 
- แทนที่`dataDir + "Transparent background logo.png"` พร้อมเส้นทางไปยังไฟล์รูปภาพของคุณ
+แทนที่ `dataDir + "Transparent background logo.png"` พร้อมเส้นทางไปยังไฟล์รูปภาพของคุณ
 
 ## ขั้นตอนที่ 4: ล็อคอัตราส่วนภาพ
 
@@ -72,7 +74,7 @@ Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 shape.AspectRatioLocked = true;
 ```
 
- การตั้งค่า`AspectRatioLocked` ถึง`true` ทำให้แน่ใจว่าภาพยังคงอัตราส่วนภาพเดิมไว้
+การตั้งค่า `AspectRatioLocked` ถึง `true` ทำให้แน่ใจว่าภาพยังคงอัตราส่วนภาพเดิมไว้
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
@@ -89,7 +91,7 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถปลดล็อคอัตราส่วนภาพหลังจากล็อคแล้วได้หรือไม่?
-ใช่ คุณสามารถปลดล็อคอัตราส่วนภาพได้โดยการตั้งค่า`shape.AspectRatioLocked = false`.
+ใช่ คุณสามารถปลดล็อคอัตราส่วนภาพได้โดยการตั้งค่า `shape-AspectRatioLocked = false`.
 
 ### จะเกิดอะไรขึ้นหากฉันปรับขนาดรูปภาพที่มีอัตราส่วนภาพที่ถูกล็อค?
 รูปภาพจะปรับขนาดตามสัดส่วนโดยคงอัตราส่วนความกว้างต่อความสูงเดิมไว้
@@ -101,10 +103,15 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับทั้ง .NET Framework และ .NET Core
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

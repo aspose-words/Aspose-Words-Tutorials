@@ -1,14 +1,16 @@
 ---
-title: Chỉ định vị trí ở cấp độ trường
-linktitle: Chỉ định vị trí ở cấp độ trường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chỉ định ngôn ngữ cho các trường trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để tùy chỉnh định dạng tài liệu của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/working-with-fields/specify-locale-at-field-level/
+"description": "Tìm hiểu cách chỉ định ngôn ngữ cho các trường trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để tùy chỉnh định dạng tài liệu của bạn một cách dễ dàng."
+"linktitle": "Chỉ định vị trí ở cấp độ trường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chỉ định vị trí ở cấp độ trường"
+"url": "/vi/net/working-with-fields/specify-locale-at-field-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định vị trí ở cấp độ trường
@@ -19,12 +21,12 @@ Bạn đã sẵn sàng để khám phá thế giới của Aspose.Words cho .NET
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi các ví dụ.
-4. Giấy phép Aspose: Nếu bạn không có giấy phép, bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử tất cả các tính năng.
+4. Giấy phép Aspose: Nếu bạn không có giấy phép, bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử tất cả các tính năng.
 
 ## Nhập không gian tên
 
@@ -47,11 +49,11 @@ using Aspose.Words.Fields;
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
- Thay thế`"YOUR_DOCUMENT_DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Thay thế `"YOUR_DOCUMENT_DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Khởi tạo DocumentBuilder
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản mới của`DocumentBuilder`. Nó giống như bút và giấy để chúng ta tạo và chỉnh sửa tài liệu Word.
+Tiếp theo, chúng ta sẽ tạo một phiên bản mới của `DocumentBuilder`. Nó giống như bút và giấy để chúng ta tạo và chỉnh sửa tài liệu Word.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -67,7 +69,7 @@ Field field = builder.InsertField(FieldType.FieldDate, true);
 
 ## Bước 4: Chỉ định vị trí
 
- Đây là phép thuật! Chúng ta sẽ thiết lập địa phương cho trường. ID địa phương`1049`tương ứng với tiếng Nga. Điều này có nghĩa là trường ngày của chúng ta sẽ tuân theo các quy tắc định dạng của tiếng Nga.
+Đây là phép thuật! Chúng ta sẽ thiết lập địa phương cho trường. ID địa phương `1049` tương ứng với tiếng Nga. Điều này có nghĩa là trường ngày của chúng ta sẽ tuân theo các quy tắc định dạng của tiếng Nga.
 
 ```csharp
 field.LocaleId = 1049;
@@ -101,14 +103,19 @@ Bạn có thể tìm danh sách ID ngôn ngữ trong tài liệu của Microsoft
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Mặc dù bạn có thể sử dụng Aspose.Words cho .NET mà không cần giấy phép ở chế độ đánh giá, nhưng bạn nên lấy[giấy phép](https://purchase.aspose.com/buy) để mở khóa toàn bộ chức năng.
+Mặc dù bạn có thể sử dụng Aspose.Words cho .NET mà không cần giấy phép ở chế độ đánh giá, nhưng bạn nên lấy [giấy phép](https://purchase.aspose.com/buy) để mở khóa toàn bộ chức năng.
 
 ### Làm thế nào để cập nhật thư viện Aspose.Words lên phiên bản mới nhất?
 
- Bạn có thể tải xuống phiên bản mới nhất của Aspose.Words cho .NET từ[trang tải xuống](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống phiên bản mới nhất của Aspose.Words cho .NET từ [trang tải xuống](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

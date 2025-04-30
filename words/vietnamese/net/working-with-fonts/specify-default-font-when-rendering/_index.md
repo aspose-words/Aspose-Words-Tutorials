@@ -1,14 +1,16 @@
 ---
-title: Chỉ định phông chữ mặc định khi hiển thị
-linktitle: Chỉ định phông chữ mặc định khi hiển thị
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chỉ định phông chữ mặc định khi hiển thị tài liệu Word bằng Aspose.Words cho .NET. Đảm bảo giao diện tài liệu nhất quán trên các nền tảng.
-weight: 10
-url: /vi/net/working-with-fonts/specify-default-font-when-rendering/
+"description": "Tìm hiểu cách chỉ định phông chữ mặc định khi hiển thị tài liệu Word bằng Aspose.Words cho .NET. Đảm bảo giao diện tài liệu nhất quán trên các nền tảng."
+"linktitle": "Chỉ định phông chữ mặc định khi hiển thị"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chỉ định phông chữ mặc định khi hiển thị"
+"url": "/vi/net/working-with-fonts/specify-default-font-when-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định phông chữ mặc định khi hiển thị
@@ -21,7 +23,7 @@ url: /vi/net/working-with-fonts/specify-default-font-when-rendering/
 
 Trước khi tìm hiểu mã, chúng ta hãy xem qua những gì bạn cần làm theo hướng dẫn này:
 
-- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã thành thạo lập trình C#.
 
@@ -55,7 +57,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình cài đặt phông chữ
 
- Tạo một trường hợp của`FontSettings` và chỉ định phông chữ mặc định. Nếu không tìm thấy phông chữ đã xác định trong quá trình kết xuất, Aspose.Words sẽ sử dụng phông chữ gần nhất có sẵn trên máy.
+Tạo một trường hợp của `FontSettings` và chỉ định phông chữ mặc định. Nếu không tìm thấy phông chữ đã xác định trong quá trình kết xuất, Aspose.Words sẽ sử dụng phông chữ gần nhất có sẵn trên máy.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -92,16 +94,21 @@ Việc chỉ định phông chữ mặc định sẽ đảm bảo tài liệu c�
 Aspose.Words sẽ sử dụng phông chữ gần nhất có sẵn trên máy để duy trì giao diện của tài liệu giống nhất có thể.
 
 ### Tôi có thể chỉ định nhiều phông chữ mặc định không?
- Không, bạn chỉ có thể chỉ định một phông chữ mặc định. Tuy nhiên, bạn có thể xử lý việc thay thế phông chữ cho các trường hợp cụ thể bằng cách sử dụng`FontSettings` lớp học.
+Không, bạn chỉ có thể chỉ định một phông chữ mặc định. Tuy nhiên, bạn có thể xử lý việc thay thế phông chữ cho các trường hợp cụ thể bằng cách sử dụng `FontSettings` lớp học.
 
-### Aspose.Words for .NET có tương thích với mọi phiên bản tài liệu Word không?
+### Aspose.Words for .NET có tương thích với tất cả các phiên bản tài liệu Word không?
 Có, Aspose.Words for .NET hỗ trợ nhiều định dạng tài liệu Word, bao gồm DOC, DOCX, RTF, v.v.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và các nhà phát triển trên[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và các nhà phát triển trên [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

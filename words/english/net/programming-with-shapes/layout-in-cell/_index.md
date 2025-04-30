@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/layout-in-cell/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Layout In Cell
@@ -152,9 +155,13 @@ Yes, you can set different heights for each row by changing the `RowFormat.Heigh
 ### How do I remove a watermark from the document?
 You can remove the watermark by locating it in the document's shapes collection and calling the `Remove` method.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Mengelola Pemenggalan Kata dan Aliran Teks dalam Dokumen Word
-linktitle: Mengelola Pemenggalan Kata dan Aliran Teks dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengelola pemenggalan kata dan alur teks dalam dokumen Word menggunakan Aspose.Words untuk Python. Buat dokumen yang bagus dan mudah dibaca dengan contoh langkah demi langkah dan kode sumber.
-weight: 17
-url: /id/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Pelajari cara mengelola pemenggalan kata dan alur teks dalam dokumen Word menggunakan Aspose.Words untuk Python. Buat dokumen yang bagus dan mudah dibaca dengan contoh langkah demi langkah dan kode sumber."
+"linktitle": "Mengelola Pemenggalan Kata dan Aliran Teks dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengelola Pemenggalan Kata dan Aliran Teks dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengelola Pemenggalan Kata dan Aliran Teks dalam Dokumen Word
@@ -19,7 +21,7 @@ Pemenggalan kata dan alur teks merupakan aspek penting dalam membuat dokumen Wor
 
 ### Apa itu Hyphenation?
 
-Pemenggalan kata adalah proses pemutusan kata di akhir baris untuk meningkatkan tampilan dan keterbacaan teks. Pemenggalan kata mencegah spasi yang tidak wajar dan jarak yang besar di antara kata-kata, sehingga aliran visual dokumen menjadi lebih lancar.
+Pemenggalan kata adalah proses pemisahan kata di akhir baris untuk meningkatkan tampilan dan keterbacaan teks. Pemenggalan kata mencegah spasi yang tidak wajar dan jarak yang besar di antara kata-kata, sehingga aliran visual dokumen menjadi lebih lancar.
 
 ### Pentingnya Pemenggalan Kata
 
@@ -110,13 +112,13 @@ Widows (satu baris di bagian atas halaman) dan orphans (satu baris di bagian baw
 
 Mengelola pemenggalan kata dan alur teks secara efisien sangat penting untuk membuat dokumen Word yang bagus dan mudah dibaca. Dengan Aspose.Words untuk Python, Anda memiliki alat untuk menerapkan strategi pemenggalan kata, mengendalikan alur teks, dan meningkatkan estetika dokumen secara keseluruhan.
 
- Untuk informasi dan contoh yang lebih rinci, silakan lihat[Dokumentasi API](https://reference.aspose.com/words/python-net/).
+Untuk informasi dan contoh yang lebih rinci, silakan lihat [Dokumentasi API](https://reference.aspose.com/words/python-net/).
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara mengaktifkan pemenggalan kata secara otomatis di dokumen saya?
 
- Untuk mengaktifkan pemenggalan kata secara otomatis, atur`auto_hyphenation` pilihan untuk`True` menggunakan Aspose.Words untuk Python.
+Untuk mengaktifkan pemenggalan kata secara otomatis, atur `auto_hyphenation` pilihan untuk `True` menggunakan Aspose.Words untuk Python.
 
 ### Bisakah saya mengontrol secara manual di mana sebuah kata dipisahkan?
 
@@ -126,17 +128,22 @@ Ya, Anda dapat menyisipkan tanda hubung secara manual di titik henti yang diingi
 
 Gunakan pengaturan spasi baris di Aspose.Words untuk Python untuk menyesuaikan spasi antarbaris.
 
-### Apa yang harus saya lakukan untuk mencegah munculnya janda dan anak yatim di dokumen saya?
+### Apa yang harus saya lakukan untuk mencegah munculnya janda dan anak yatim dalam dokumen saya?
 
 Untuk mencegah munculnya janda dan yatim piatu, manfaatkan opsi yang disediakan oleh Aspose.Words untuk Python untuk mengontrol jeda halaman dan spasi paragraf.
 
 ### Di mana saya dapat mengakses dokumentasi Aspose.Words untuk Python?
 
- Anda dapat mengakses dokumentasi API di[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+Anda dapat mengakses dokumentasi API di [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

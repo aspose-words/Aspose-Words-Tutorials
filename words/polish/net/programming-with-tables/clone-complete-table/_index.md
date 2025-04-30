@@ -1,14 +1,16 @@
 ---
-title: Klonuj całą tabelę
-linktitle: Klonuj całą tabelę
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak klonować kompletne tabele w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-tables/clone-complete-table/
+"description": "Dowiedz się, jak klonować kompletne tabele w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku."
+"linktitle": "Klonuj całą tabelę"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Klonuj całą tabelę"
+"url": "/pl/net/programming-with-tables/clone-complete-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klonuj całą tabelę
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby przenieść swoje umiejętności manipulacji dokumentami
 
 Zanim zagłębimy się w szczegóły klonowania tabel, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Aspose.Words for .NET zainstalowany: Upewnij się, że Aspose.Words for .NET jest zainstalowany na Twoim komputerze. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[strona](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET zainstalowany: Upewnij się, że Aspose.Words for .NET jest zainstalowany na Twoim komputerze. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony [strona](https://releases.aspose.com/words/net/).
 
 2. Visual Studio lub dowolne IDE .NET: Potrzebujesz środowiska programistycznego, aby pisać i testować swój kod. Visual Studio jest popularnym wyborem do tworzenia .NET.
 
@@ -45,25 +47,25 @@ Podzielmy proces klonowania tabeli na łatwe do opanowania kroki. Zaczniemy od s
 Najpierw określ ścieżkę do katalogu, w którym znajduje się dokument Word. Jest to kluczowe dla prawidłowego załadowania dokumentu.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
 
 ## Krok 2: Załaduj dokument
 
- Następnie załaduj dokument Word zawierający tabelę, którą chcesz sklonować. Można to zrobić za pomocą`Document` klasa z Aspose.Words.
+Następnie załaduj dokument Word zawierający tabelę, którą chcesz sklonować. Można to zrobić za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- W tym przykładzie,`"Tables.docx"` jest nazwą dokumentu Word. Upewnij się, że ten plik istnieje w określonym katalogu.
+W tym przykładzie, `"Tables.docx"` jest nazwą dokumentu Word. Upewnij się, że ten plik istnieje w określonym katalogu.
 
 ## Krok 3: Uzyskaj dostęp do tabeli, którą chcesz sklonować
 
- Teraz uzyskaj dostęp do tabeli, którą chcesz sklonować.`GetChild` Metoda ta służy do pobrania pierwszej tabeli w dokumencie.
+Teraz uzyskaj dostęp do tabeli, którą chcesz sklonować. `GetChild` Metoda ta służy do pobrania pierwszej tabeli w dokumencie.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -73,17 +75,17 @@ Ten fragment kodu zakłada, że chcesz sklonować pierwszą tabelę w dokumencie
 
 ## Krok 4: Klonowanie tabeli
 
- Sklonuj tabelę za pomocą`Clone`Metoda. Ta metoda tworzy głęboką kopię tabeli, zachowując jej zawartość i formatowanie.
+Sklonuj tabelę za pomocą `Clone` Metoda. Ta metoda tworzy głęboką kopię tabeli, zachowując jej zawartość i formatowanie.
 
 ```csharp
 Table tableClone = (Table) table.Clone(true);
 ```
 
- Ten`true` Parametr zapewnia, że klon zawiera całe formatowanie i zawartość oryginalnej tabeli.
+Ten `true` Parametr zapewnia, że klon zawiera całe formatowanie i zawartość oryginalnej tabeli.
 
 ## Krok 5: Wstaw sklonowaną tabelę do dokumentu
 
- Wstaw sklonowaną tabelę do dokumentu bezpośrednio po oryginalnej tabeli. Użyj`InsertAfter` metoda na to.
+Wstaw sklonowaną tabelę do dokumentu bezpośrednio po oryginalnej tabeli. Użyj `InsertAfter` metoda na to.
 
 ```csharp
 table.ParentNode.InsertAfter(tableClone, table);
@@ -109,7 +111,7 @@ Na koniec zapisz zmodyfikowany dokument pod nową nazwą, aby zachować oryginal
 doc.Save(dataDir + "WorkingWithTables.CloneCompleteTable.docx");
 ```
 
- Zastępować`"WorkingWithTables.CloneCompleteTable.docx"` z wybraną nazwą pliku wyjściowego.
+Zastępować `"WorkingWithTables.CloneCompleteTable.docx"` z wybraną nazwą pliku wyjściowego.
 
 ## Wniosek
 
@@ -121,7 +123,7 @@ Klonowanie tabel w dokumentach Word przy użyciu Aspose.Words for .NET to prosty
 Tak, możesz klonować wiele tabel, przechodząc przez każdą tabelę w dokumencie i stosując tę samą logikę klonowania.
 
 ### A co jeśli tabela ma połączone komórki?
- Ten`Clone` Metoda ta zachowuje całe formatowanie, włącznie ze scalonymi komórkami, zapewniając dokładny duplikat tabeli.
+Ten `Clone` Metoda ta zachowuje całe formatowanie, włącznie ze scalonymi komórkami, zapewniając dokładny duplikat tabeli.
 
 ### Jak sklonować konkretną tabelę według nazwy?
 Możesz identyfikować tabele według niestandardowych właściwości lub unikalnej zawartości, a następnie klonować żądaną tabelę, wykonując podobne czynności.
@@ -131,9 +133,14 @@ Tak, po klonowaniu możesz zmodyfikować formatowanie sklonowanej tabeli korzyst
 
 ### Czy można klonować tabele z innych formatów dokumentów?
 Aspose.Words obsługuje różne formaty, dzięki czemu możesz klonować tabele z formatów takich jak DOC, DOCX i RTF, pod warunkiem że są one obsługiwane przez Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

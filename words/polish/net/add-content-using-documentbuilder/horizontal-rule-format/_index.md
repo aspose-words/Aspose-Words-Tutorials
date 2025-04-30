@@ -1,14 +1,16 @@
 ---
-title: Format linii poziomej w dokumencie Word
-linktitle: Format linii poziomej w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać konfigurowalne poziome linie w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET. Ulepsz automatyzację dokumentów.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/horizontal-rule-format/
+"description": "Dowiedz się, jak wstawiać konfigurowalne poziome linie w dokumentach programu Word za pomocą narzędzia Aspose.Words for .NET. Ulepsz automatyzację dokumentów."
+"linktitle": "Format linii poziomej w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Format linii poziomej w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/horizontal-rule-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format linii poziomej w dokumencie Word
@@ -22,9 +24,9 @@ W dziedzinie rozwoju .NET manipulowanie i formatowanie dokumentów Word programo
 Zanim zaczniesz wdrażać reguły poziome za pomocą Aspose.Words dla platformy .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Visual Studio: Zainstaluj środowisko IDE Visual Studio do tworzenia oprogramowania .NET.
-- Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa wiedza o języku C#: Znajomość podstaw języka programowania C#.
--  Klasa DocumentBuilder: zrozumienie`DocumentBuilder` klasa w Aspose.Words do manipulacji dokumentami.
+- Klasa DocumentBuilder: zrozumienie `DocumentBuilder` klasa w Aspose.Words do manipulacji dokumentami.
 
 ## Importuj przestrzenie nazw
 
@@ -41,7 +43,7 @@ Podzielmy proces dodawania linii poziomej do dokumentu programu Word za pomocą 
 
 ## Krok 1: Zainicjuj DocumentBuilder i ustaw katalog
 
- Najpierw zainicjuj`DocumentBuilder` obiekt i ustaw ścieżkę katalogu, w którym zostanie zapisany dokument.
+Najpierw zainicjuj `DocumentBuilder` obiekt i ustaw ścieżkę katalogu, w którym zostanie zapisany dokument.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Krok 2: Wstaw poziomą linię
 
- Użyj`InsertHorizontalRule()` metoda`DocumentBuilder` klasa, aby dodać linię poziomą.
+Użyj `InsertHorizontalRule()` metoda `DocumentBuilder` Klasa umożliwiająca dodanie poziomej linii.
 
 ```csharp
 Shape shape = builder.InsertHorizontalRule();
@@ -58,7 +60,7 @@ Shape shape = builder.InsertHorizontalRule();
 
 ## Krok 3: Dostosuj format linii poziomej
 
- Uzyskaj dostęp do`HorizontalRuleFormat` właściwość wstawionego kształtu umożliwiająca dostosowanie wyglądu linii poziomej.
+Uzyskaj dostęp do `HorizontalRuleFormat` Właściwość wstawionego kształtu umożliwiająca dostosowanie wyglądu linii poziomej.
 
 ```csharp
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
@@ -77,7 +79,7 @@ horizontalRuleFormat.NoShade = true;
 
 ## Krok 4: Zapisz dokument
 
- Na koniec zapisz zmodyfikowany dokument za pomocą`Save` metoda`Document` obiekt.
+Na koniec zapisz zmodyfikowany dokument za pomocą `Save` metoda `Document` obiekt.
 
 ```csharp
 builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFormat.docx");
@@ -93,7 +95,7 @@ Opanowanie wstawiania poziomych linii w dokumentach Word przy użyciu Aspose.Wor
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programową pracę z dokumentami Word w aplikacjach .NET.
 
 ### Jak mogę pobrać Aspose.Words dla platformy .NET?
- Możesz pobrać Aspose.Words dla .NET z[Tutaj](https://releases.aspose.com/words/net/).
+Możesz pobrać Aspose.Words dla .NET z [Tutaj](https://releases.aspose.com/words/net/).
 
 ### Czy mogę dostosować wygląd linii poziomych w Aspose.Words?
 Tak, możesz dostosować różne aspekty, takie jak wyrównanie, szerokość, wysokość, kolor i cieniowanie linii poziomych, korzystając z Aspose.Words.
@@ -102,11 +104,16 @@ Tak, możesz dostosować różne aspekty, takie jak wyrównanie, szerokość, wy
 Tak, Aspose.Words jest powszechnie używany w środowiskach korporacyjnych ze względu na swoje rozbudowane możliwości manipulowania dokumentami.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Aby uzyskać wsparcie i zaangażować się w społeczność, odwiedź stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać wsparcie i zaangażować się w społeczność, odwiedź stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

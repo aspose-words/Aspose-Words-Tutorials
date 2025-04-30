@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/aspect-ratio-locked/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspect Ratio Locked
@@ -103,9 +106,13 @@ Yes, Aspose.Words for .NET supports both .NET Framework and .NET Core.
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

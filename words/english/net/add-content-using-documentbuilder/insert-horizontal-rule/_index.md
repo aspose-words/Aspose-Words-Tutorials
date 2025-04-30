@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-horizontal-rule/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Horizontal Rule In Word Document
@@ -133,9 +136,13 @@ The [Aspose.Words documentation](https://reference.aspose.com/words/net/) is a g
 
 You can get support by visiting the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

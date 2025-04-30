@@ -1,14 +1,16 @@
 ---
-title: Menguraikan Dalam Dokumen Word
-linktitle: Menguraikan Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai cara mengurai penanda buku dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/programming-with-bookmarks/untangle/
+"description": "Kuasai cara mengurai penanda buku dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pengembang .NET."
+"linktitle": "Menguraikan Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menguraikan Dalam Dokumen Word"
+"url": "/id/net/programming-with-bookmarks/untangle/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menguraikan Dalam Dokumen Word
@@ -21,7 +23,7 @@ Menavigasi dokumen Word secara terprogram bisa jadi seperti mencari jalan di lab
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Jika Anda tidak memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Jika Anda tidak memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikuti potongan kode dan penjelasannya.
 
@@ -55,7 +57,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 }
 ```
 
- Di sini, kami menggunakan`foreach` loop untuk menelusuri setiap penanda dalam rentang dokumen. Loop ini akan memungkinkan kita untuk menangani setiap penanda secara individual.
+Di sini, kami menggunakan `foreach` loop untuk menelusuri setiap penanda dalam rentang dokumen. Loop ini akan memungkinkan kita untuk menangani setiap penanda secara individual.
 
 ## Langkah 3: Identifikasi Baris Awal dan Akhir Bookmark
 
@@ -66,7 +68,7 @@ Row row1 = (Row)bookmark.BookmarkStart.GetAncestor(typeof(Row));
 Row row2 = (Row)bookmark.BookmarkEnd.GetAncestor(typeof(Row));
 ```
 
- Pada langkah ini, kami menggunakan`GetAncestor` metode untuk menemukan baris induk dari kedua simpul awal dan akhir penanda. Ini membantu kami menentukan baris-baris yang terlibat secara tepat.
+Pada langkah ini, kami menggunakan `GetAncestor` metode untuk menemukan baris induk dari kedua simpul awal dan akhir penanda. Ini membantu kami menentukan baris-baris yang terlibat secara tepat.
 
 ## Langkah 4: Periksa Baris yang Berdekatan
 
@@ -79,7 +81,7 @@ if (row1 != null && row2 != null && row1.NextSibling == row2)
 }
 ```
 
- Di sini, kami menambahkan kondisi untuk memeriksa apakah kedua baris ditemukan dan apakah keduanya berdekatan.`NextSibling` properti membantu kami memverifikasi kedekatan.
+Di sini, kami menambahkan kondisi untuk memeriksa apakah kedua baris ditemukan dan apakah keduanya berdekatan. `NextSibling` properti membantu kami memverifikasi kedekatan.
 
 ## Langkah 5: Pindahkan Akhir Bookmark
 
@@ -89,7 +91,7 @@ Akhirnya, jika kondisinya terpenuhi, kita pindahkan simpul akhir penanda ke akhi
 row1.LastCell.LastParagraph.AppendChild(bookmark.BookmarkEnd);
 ```
 
- Pada langkah ini, kami menggunakan`AppendChild`metode untuk memindahkan simpul akhir penanda. Dengan menambahkannya ke paragraf terakhir dari sel terakhir baris teratas, kami memastikan bahwa penanda tersebut terurai dengan benar.
+Pada langkah ini, kami menggunakan `AppendChild` metode untuk memindahkan simpul akhir penanda. Dengan menambahkannya ke paragraf terakhir dari sel terakhir baris teratas, kami memastikan bahwa penanda tersebut terurai dengan benar.
 
 ## Kesimpulan
 
@@ -107,18 +109,23 @@ Tutorial ini membahas bookmark yang membentang di dua baris yang berdekatan. Unt
 
 ### Apakah ada versi uji coba Aspose.Words untuk .NET yang tersedia?
 
- Ya kamu bisa[unduh uji coba gratis](https://releases.aspose.com/) dari situs web Aspose untuk menjelajahi fitur-fitur perpustakaan.
+Ya kamu bisa [unduh uji coba gratis](https://releases.aspose.com/) dari situs web Aspose untuk menjelajahi fitur-fitur perpustakaan.
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
- Anda dapat mengunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
+Anda dapat mengunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah atau pertanyaan yang mungkin Anda miliki.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau meminta[lisensi sementara](https://purchase.aspose.com/temporary-license) untuk tujuan evaluasi.
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau meminta [lisensi sementara](https://purchase.aspose.com/temporary-license) untuk tujuan evaluasi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

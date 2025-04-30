@@ -1,14 +1,16 @@
 ---
-title: Yüzen Tablo Pozisyonunu Alın
-linktitle: Yüzen Tablo Pozisyonunu Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde yüzen tablo konumlarının nasıl alınacağını öğrenin. Bu ayrıntılı, adım adım kılavuz, bilmeniz gereken her şeyde size yol gösterecektir.
-weight: 10
-url: /tr/net/programming-with-tables/get-floating-table-position/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde yüzen tablo konumlarının nasıl alınacağını öğrenin. Bu ayrıntılı, adım adım kılavuz, bilmeniz gereken her şeyde size yol gösterecektir."
+"linktitle": "Yüzen Tablo Pozisyonunu Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yüzen Tablo Pozisyonunu Alın"
+"url": "/tr/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yüzen Tablo Pozisyonunu Alın
@@ -21,7 +23,7 @@ Aspose.Words for .NET dünyasına dalmaya hazır mısınız? Bugün, Word belgel
 
 Eğlenceli kısma geçmeden önce, elinizde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET: Henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve yükleyin:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve yükleyin: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET geliştirme ortamınızın kurulu olduğundan emin olun. Visual Studio harika bir seçenektir.
 3. Örnek Belge: Yüzen tablo içeren bir Word belgesine ihtiyacınız olacak. Bir tane oluşturabilir veya mevcut bir belgeyi kullanabilirsiniz. 
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- Bu adımda, temel olarak Aspose.Words'e belgenizi nerede bulacağını söylüyorsunuz. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
+Bu adımda, temel olarak Aspose.Words'e belgenizi nerede bulacağını söylüyorsunuz. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
 
 ## Adım 2: Belgedeki Tablolara Erişim
 
@@ -106,19 +108,24 @@ Unutmayın, Aspose.Words for .NET ile çalışmak, belge düzenleme ve otomasyon
 Yüzen tablo, metne sabitlenmemiş ancak hareket edebilen, genellikle etrafına metin sarılmış bir tablodur.
 
 ### Aspose.Words for .NET kullanarak bir tablonun yüzer durumda olup olmadığını nasıl anlarım?
- Bir tablonun yüzen olup olmadığını, tablonun yüzen olup olmadığını incelemek suretiyle kontrol edebilirsiniz.`TextWrapping` özelliği. Eğer ayarlanmışsa`TextWrapping.Around`, masa yüzüyor.
+Bir tablonun yüzen olup olmadığını, tablonun yüzen olup olmadığını incelemek suretiyle kontrol edebilirsiniz. `TextWrapping` özelliği. Eğer ayarlanmışsa `TextWrapping.Around`, masa yüzüyor.
 
-### Yüzen bir tablonun konumlandırma özelliklerini değiştirebilir miyim?
+### Yüzen tablonun konumlandırma özelliklerini değiştirebilir miyim?
 Evet, Aspose.Words for .NET'i kullanarak yüzen bir tablonun konumlandırma özelliklerini değiştirerek düzenini özelleştirebilirsiniz.
 
 ### Aspose.Words for .NET büyük ölçekli belge otomasyonu için uygun mudur?
 Kesinlikle! Aspose.Words for .NET, yüksek performanslı belge otomasyonu için tasarlanmıştır ve büyük ölçekli işlemleri verimli bir şekilde gerçekleştirebilir.
 
 ### Aspose.Words for .NET hakkında daha fazla bilgi ve kaynağı nerede bulabilirim?
-Ayrıntılı dokümanları ve kaynakları şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları ve kaynakları şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

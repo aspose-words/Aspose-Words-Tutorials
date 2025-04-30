@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java'da DocumentBuilder Kullanarak İçerik Ekleme
-linktitle: DocumentBuilder'ı kullanarak İçerik Ekleme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words ile Ana Belge Oluşturma. Metin, Tablo, Resim ve Daha Fazlasını Eklemek İçin Adım Adım Kılavuz. Zahmetsizce Çarpıcı Word Belgeleri Oluşturun.
-weight: 26
-url: /tr/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Java için Aspose.Words ile Ana Belge Oluşturma. Metin, Tablo, Resim ve Daha Fazlasını Eklemek İçin Adım Adım Kılavuz. Zahmetsizce Çarpıcı Word Belgeleri Oluşturun."
+"linktitle": "DocumentBuilder'ı kullanarak İçerik Ekleme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Aspose.Words for Java'da DocumentBuilder Kullanarak İçerik Ekleme"
+"url": "/tr/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java'da DocumentBuilder Kullanarak İçerik Ekleme
@@ -20,7 +22,7 @@ Bu adım adım kılavuzda, Aspose.Words for Java'nın DocumentBuilder'ını kull
 
 ## Ön koşullar
 
- Başlamadan önce projenizde Aspose.Words for Java kütüphanesinin kurulu olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Başlamadan önce projenizde Aspose.Words for Java kütüphanesinin kurulu olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Metin Ekleme
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Bir tablo başlat
+// Bir tablo başlat
 Table table = builder.startTable();
 
 // Hücreleri ve içeriği ekle
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Adım 10: İmleci Taşıma
 
- Belgedeki imleç konumunu çeşitli yöntemler kullanarak kontrol edebilirsiniz:`moveToParagraph`, `moveToCell`ve daha fazlası. İşte bir örnek:
+Belgedeki imleç konumunu çeşitli yöntemler kullanarak kontrol edebilirsiniz: `moveToParagraph`, `moveToCell`ve daha fazlası. İşte bir örnek:
 
 ```java
 Document doc = new Document();
@@ -249,7 +251,7 @@ A: Aspose.Words for Java, geliştiricilerin Microsoft Word belgelerini programat
 
 ### S: Belgeme içindekiler tablosunu nasıl ekleyebilirim?
 
-A: İçindekiler tablosu eklemek için şunu kullanın:`DocumentBuilder` belgenize bir içerik tablosu alanı eklemek için. İçerik tablosunu doldurmak için içerik ekledikten sonra belgedeki alanları güncellediğinizden emin olun. İşte bir örnek:
+A: İçindekiler tablosu eklemek için şunu kullanın: `DocumentBuilder` belgenize bir içerik tablosu alanı eklemek için. İçerik tablosunu doldurmak için içerik ekledikten sonra belgedeki alanları güncellediğinizden emin olun. İşte bir örnek:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### S: Aspose.Words for Java kullanarak bir belgeye nasıl resim eklerim?
 
- A: Hem satır içi hem de kayan resimleri ekleyebilirsiniz.`DocumentBuilder`İşte her ikisine de örnekler:
+A: Hem satır içi hem de kayan resimleri ekleyebilirsiniz. `DocumentBuilder`İşte her ikisine de örnekler:
 
 #### Satır İçi Resim:
 
@@ -279,7 +281,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### Yüzen Görüntü:
+#### Yüzen Resim:
 
 ```java
 Document doc = new Document();
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### S: İçerik eklerken metin ve paragrafları biçimlendirebilir miyim?
 
- A: Evet, metni ve paragrafları kullanarak biçimlendirebilirsiniz.`DocumentBuilder`. Yazı tipi özelliklerini, paragraf hizalamasını, girintiyi ve daha fazlasını ayarlayabilirsiniz. İşte bir örnek:
+A: Evet, metni ve paragrafları kullanarak biçimlendirebilirsiniz. `DocumentBuilder`. Yazı tipi özelliklerini, paragraf hizalamasını, girintiyi ve daha fazlasını ayarlayabilirsiniz. İşte bir örnek:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### S: İmleci belge içerisinde belirli bir konuma nasıl taşıyabilirim?
 
- A: İmleç konumunu şu yöntemler kullanarak kontrol edebilirsiniz:`moveToParagraph`, `moveToCell`ve daha fazlası. İşte bir örnek:
+A: İmleç konumunu şu yöntemler kullanarak kontrol edebilirsiniz: `moveToParagraph`, `moveToCell`ve daha fazlası. İşte bir örnek:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Bunlar, Aspose.Words for Java'nın DocumentBuilder'ını kullanmaya başlamanıza yardımcı olacak bazı genel sorular ve yanıtlardır. Daha fazla sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya bakın:[kütüphanenin dokümantasyonu](https://reference.aspose.com/words/java/) veya Aspose.Words topluluğundan ve destek kaynaklarından yardım isteyin.
+Bunlar, Aspose.Words for Java'nın DocumentBuilder'ını kullanmaya başlamanıza yardımcı olacak bazı genel sorular ve yanıtlardır. Daha fazla sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, şuraya bakın: [kütüphanenin dokümantasyonu](https://reference.aspose.com/words/java/) veya Aspose.Words topluluğundan ve destek kaynaklarından yardım isteyin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

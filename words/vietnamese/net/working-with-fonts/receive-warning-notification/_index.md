@@ -1,14 +1,16 @@
 ---
-title: Nhận thông báo cảnh báo
-linktitle: Nhận thông báo cảnh báo
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách nhận thông báo thay thế phông chữ trong Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Đảm bảo tài liệu của bạn hiển thị chính xác mọi lúc.
-weight: 10
-url: /vi/net/working-with-fonts/receive-warning-notification/
+"description": "Tìm hiểu cách nhận thông báo thay thế phông chữ trong Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Đảm bảo tài liệu của bạn hiển thị chính xác mọi lúc."
+"linktitle": "Nhận thông báo cảnh báo"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận thông báo cảnh báo"
+"url": "/vi/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông báo cảnh báo
@@ -22,9 +24,9 @@ Bạn có mệt mỏi khi phải xử lý các vấn đề phông chữ bất ng
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 - Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn hiểu và thực hiện các bước.
--  Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Một thiết lập như Visual Studio để viết và chạy mã của bạn.
--  Tài liệu mẫu: Có một tài liệu mẫu (ví dụ,`Rendering.docx`) để làm việc với.
+- Tài liệu mẫu: Có một tài liệu mẫu (ví dụ, `Rendering.docx`) để làm việc với.
 
 ## Nhập không gian tên
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu
 
- Tải tài liệu của bạn vào Aspose.Words`Document` đối tượng. Điều này cho phép bạn thao tác tài liệu theo chương trình.
+Tải tài liệu của bạn vào Aspose.Words `Document` đối tượng. Điều này cho phép bạn thao tác tài liệu theo chương trình.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Thiết lập cảnh báo gọi lại
 
- Để nắm bắt và xử lý cảnh báo, hãy tạo một lớp thực hiện`IWarningCallback` giao diện. Lớp này sẽ ghi lại mọi cảnh báo xảy ra trong quá trình xử lý tài liệu.
+Để nắm bắt và xử lý cảnh báo, hãy tạo một lớp thực hiện `IWarningCallback` giao diện. Lớp này sẽ ghi lại bất kỳ cảnh báo nào xảy ra trong quá trình xử lý tài liệu.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -76,7 +78,7 @@ doc.WarningCallback = callback;
 ```
 ## Bước 5: Cập nhật Bố cục Trang
 
- Gọi cho`UpdatePageLayout` phương pháp. Phương pháp này sẽ hiển thị tài liệu trong bộ nhớ và ghi lại mọi cảnh báo xảy ra trong quá trình hiển thị.
+Gọi cho `UpdatePageLayout` phương pháp. Phương pháp này sẽ hiển thị tài liệu trong bộ nhớ và ghi lại mọi cảnh báo xảy ra trong quá trình hiển thị.
 
 ```csharp
 doc.UpdatePageLayout();
@@ -94,7 +96,7 @@ Bằng cách làm theo các bước này, bạn đã cấu hình ứng dụng c�
 
 ## Phần kết luận
 
-Bây giờ bạn đã thành thạo quy trình nhận thông báo thay thế phông chữ bằng Aspose.Words cho .NET. Kỹ năng này sẽ giúp bạn đảm bảo rằng tài liệu của bạn luôn trông đẹp nhất, ngay cả khi không có sẵn phông chữ cần thiết. Tiếp tục thử nghiệm với các cài đặt khác nhau để tận dụng tối đa sức mạnh của Aspose.Words.
+Bây giờ bạn đã thành thạo quy trình nhận thông báo về việc thay thế phông chữ bằng Aspose.Words cho .NET. Kỹ năng này sẽ giúp bạn đảm bảo rằng tài liệu của mình luôn trông đẹp nhất, ngay cả khi không có sẵn phông chữ cần thiết. Tiếp tục thử nghiệm với các cài đặt khác nhau để tận dụng tối đa sức mạnh của Aspose.Words.
 
 ## Câu hỏi thường gặp
 
@@ -104,22 +106,27 @@ Không, bạn chỉ có thể chỉ định một phông chữ mặc định đ�
 
 ### Câu hỏi 2: Tôi có thể dùng thử miễn phí Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
 
-###  Câu hỏi 3: Tôi có thể xử lý các loại cảnh báo khác với`IWarningCallback`?
+### Câu hỏi 3: Tôi có thể xử lý các loại cảnh báo khác với `IWarningCallback`?
 
- Vâng,`IWarningCallback`Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ thay thế phông chữ.
+Vâng, `IWarningCallback` Giao diện có thể xử lý nhiều loại cảnh báo khác nhau, không chỉ thay thế phông chữ.
 
 ### Câu hỏi 4: Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words ở đâu?
 
- Ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
 
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.Words không?
 
- Có, bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể xin giấy phép tạm thời từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

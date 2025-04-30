@@ -1,14 +1,16 @@
 ---
-title: Форматировать число меток данных на диаграмме
-linktitle: Форматировать число меток данных на диаграмме
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как форматировать метки данных в диаграммах с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшайте свои документы Word без усилий.
-weight: 10
-url: /ru/net/programming-with-charts/format-number-of-data-label/
+"description": "Узнайте, как форматировать метки данных в диаграммах с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Улучшайте свои документы Word без усилий."
+"linktitle": "Форматировать число меток данных на диаграмме"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Форматировать число меток данных на диаграмме"
+"url": "/ru/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Форматировать число меток данных на диаграмме
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-charts/format-number-of-data-label/
 
 Прежде чем погрузиться в код, необходимо выполнить несколько предварительных условий:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если вы еще не установили ее, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если вы еще не установили ее, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: у вас должна быть настроена среда разработки .NET. Настоятельно рекомендуется Visual Studio.
 - Базовые знания C#: знакомство с программированием на C# необходимо, поскольку это руководство подразумевает написание и понимание кода C#.
--  Временная лицензия: Чтобы использовать Aspose.Words без каких-либо ограничений, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/).
+- Временная лицензия: Чтобы использовать Aspose.Words без каких-либо ограничений, вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 Теперь давайте рассмотрим пошаговый процесс форматирования числовых меток в диаграмме.
 
@@ -46,11 +48,11 @@ using Aspose.Words.Drawing.Charts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 2: Инициализация документа и DocumentBuilder
 
- Следующий шаг — инициализация нового`Document` и а`DocumentBuilder` .`DocumentBuilder` — вспомогательный класс, позволяющий нам конструировать содержимое документа.
+Следующий шаг — инициализация нового `Document` и а `DocumentBuilder`. `DocumentBuilder` — вспомогательный класс, позволяющий нам конструировать содержимое документа.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 3: Вставьте диаграмму в документ
 
- Теперь давайте вставим диаграмму в документ с помощью`DocumentBuilder`В этом уроке мы будем использовать линейный график в качестве примера.
+Теперь давайте вставим диаграмму в документ с помощью `DocumentBuilder`В этом уроке мы будем использовать линейный график в качестве примера.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -94,7 +96,7 @@ series1.DataLabels.ShowValue = true;
 
 ## Шаг 6: Форматирование меток данных
 
-Суть этого руководства — форматирование меток данных. Мы можем применять различные числовые форматы к каждой метке данных по отдельности.
+Ядро этого руководства — форматирование меток данных. Мы можем применять различные числовые форматы к каждой метке данных по отдельности.
 
 ```csharp
 series1.DataLabels[0].NumberFormat.FormatCode = "\"$\"#,##0.00"; // Формат валюты
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Формат д
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Процентный формат
 ```
 
- Кроме того, вы можете связать формат метки данных с исходной ячейкой. При связывании`NumberFormat` будут сброшены до общих и унаследованы от исходной ячейки.
+Кроме того, вы можете связать формат метки данных с исходной ячейкой. При связывании `NumberFormat` будут сброшены до общих и унаследованы от исходной ячейки.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -131,17 +133,22 @@ Aspose.Words для .NET — мощная библиотека для прогр
 Да, Aspose.Words для .NET поддерживает различные типы диаграмм, включая линейчатые, столбчатые, круговые и другие.
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
-Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Можно ли связать метки данных с исходными ячейками в Excel?
 Да, вы можете связать метки данных с исходными ячейками, что позволит унаследовать числовой формат от исходной ячейки.
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

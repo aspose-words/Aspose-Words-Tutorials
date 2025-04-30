@@ -1,44 +1,52 @@
 ---
-title: إعداد شكل المجموعة في مستند Word باستخدام Aspose.Words ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء شكل مجموعة في مستند Word باستخدام Aspose.Words ل .NET. إضافة شكلات متعددة، وتخصيص الأبعاد، والإنقاذ من مستندك بسهولة.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /ar/net/working-with-shapes/add-group-shape/
+"description": "تعرّف على كيفية إنشاء شكل جماعي في مستند Word باستخدام Aspose.Words لـ .NET. أضف أشكالًا متعددة، وخصّص الأبعاد، واحفظ مستندك بسهولة."
+"title": "إنشاء شكل المجموعة في مستند Word باستخدام Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إعداد شكل المجموعة في مستند Word باستخدام Aspose.Words
+# إنشاء شكل المجموعة في مستند Word باستخدام Aspose.Words
 
-يوضح هذا التعليم كيفية إنشاء وشكلات المجموعات في مستندات Word باستخدام Aspose.Words ل .NET. مع هذه المكتبة القوية ، يمكنك دمج شكلات متعددة بسهولة ، مثل دعوة الحدود المجهزة وزر فعل ، في شكل مجموعة واحدة. يغطى الدليل كل خطوة ، من إطلاق الوثيقة إلى إضافة شكلات ، وتخصيص الأبعاد ، وإدخال شكل المجموعة في ملف Word. أخيرا ، يحفظ المثال الوثيقة ، يظهر كيفية دمج الشكات الديناميكية بسلاسة في مستندات Word للحصول على نتائج جذابة بصريا.  
+يوضح هذا البرنامج التعليمي كيفية إنشاء أشكال المجموعات وإدارتها في مستندات Word باستخدام Aspose.Words لـ .NET. باستخدام هذه المكتبة القوية، يمكنك بسهولة دمج أشكال متعددة، مثل تعليق حدودي مميز وزر إجراء، في شكل مجموعة واحد. يغطي الدليل كل خطوة، من تهيئة المستند إلى إضافة الأشكال، وتخصيص الأبعاد، وإدراج شكل المجموعة في ملف Word. وأخيرًا، يحفظ المثال المستند، موضحًا كيفية دمج الأشكال الديناميكية بسلاسة في مستندات Word للحصول على نتائج بصرية جذابة.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-1. قم بتنزيل Aspose.Words لـ .NET:  
-   زيارة[صفحة التنزيلات](https://releases.aspose.com/words/net/)وتنزيل أحدث إصدار من Aspose.Words ل .NET.
+1. تنزيل Aspose.Words لـ .NET:  
+   قم بزيارة [صفحة تنزيلات Aspose](https://releases.aspose.com/words/net/) وتنزيل الإصدار الأحدث من Aspose.Words لـ .NET.
 
-2. إثباط عبر NuGet:  
-   * افتح مشروعك في (بيزوال ستوديو)  
-   * الملاحة إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
-   * ابحث عن Aspose.Words في مدير الحزمة NuGet.  
-   * انقر فوق "تثبيت" لإضافة المكتبة إلى مشروعك.
+2. التثبيت عبر NuGet:  
+   - افتح مشروعك في Visual Studio.  
+   - انتقل إلى الأدوات > مدير حزمة NuGet > إدارة حزم NuGet للحل.  
+   - ابحث عن Aspose.Words في مدير الحزم NuGet.  
+   - انقر فوق "تثبيت" لإضافة المكتبة إلى مشروعك.
 
-3. تنشيط الترخيص:  
-   * الحصول على رخصة من[صفحة الشراء](https://purchase.aspose.com/buy)أو تطلب[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/). . .  
-   * تنشيط الترخيص في مشروعك باستخدام `"تحدث. الكلمات". رخصة`درجة.
+3. تفعيل الترخيص:  
+   - الحصول على ترخيص من [صفحة شراء Aspose](https://purchase.aspose.com/buy) أو التقدم بطلب للحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).  
+   - قم بتفعيل الترخيص في مشروعك باستخدام `Aspose.Words.License` فصل.
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

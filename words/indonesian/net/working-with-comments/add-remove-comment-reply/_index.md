@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Hapus Komentar Balas
-linktitle: Tambahkan Hapus Komentar Balas
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan dan menghapus balasan komentar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan kolaborasi dokumen Anda dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/working-with-comments/add-remove-comment-reply/
+"description": "Pelajari cara menambahkan dan menghapus balasan komentar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan kolaborasi dokumen Anda dengan panduan langkah demi langkah ini."
+"linktitle": "Tambahkan Hapus Komentar Balas"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Hapus Komentar Balas"
+"url": "/id/net/working-with-comments/add-remove-comment-reply/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Hapus Komentar Balas
@@ -21,7 +23,7 @@ Bekerja dengan komentar dan balasannya dalam dokumen Word dapat meningkatkan pro
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Unduh dan instal dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
 
@@ -83,26 +85,31 @@ Mengelola balasan komentar dalam dokumen Word secara terprogram dapat menghemat 
 
 ### Bagaimana cara menambahkan beberapa balasan ke satu komentar?
 
- Anda dapat menambahkan beberapa balasan ke satu komentar dengan memanggil`AddReply` metode beberapa kali pada objek komentar yang sama.
+Anda dapat menambahkan beberapa balasan ke satu komentar dengan memanggil `AddReply` metode beberapa kali pada objek komentar yang sama.
 
 ### Bisakah saya menyesuaikan detail penulis untuk setiap balasan?
 
- Ya, Anda dapat menentukan nama penulis, inisial, dan tanggal dan waktu untuk setiap balasan saat menggunakan`AddReply` metode.
+Ya, Anda dapat menentukan nama penulis, inisial, dan tanggal dan waktu untuk setiap balasan saat menggunakan `AddReply` metode.
 
 ### Apakah mungkin untuk menghapus semua balasan dari komentar sekaligus?
 
-Untuk menghapus semua balasan, Anda perlu mengulang`Replies` kumpulan komentar dan menghapus masing-masing komentar satu per satu.
+Untuk menghapus semua balasan, Anda perlu mengulang `Replies` kumpulan komentar dan menghapus masing-masing komentar satu per satu.
 
 ### Dapatkah saya mengakses komentar di bagian tertentu dari dokumen?
 
- Ya, Anda dapat menavigasi melalui bagian-bagian dokumen dan mengakses komentar di setiap bagian menggunakan`GetChild` metode.
+Ya, Anda dapat menavigasi melalui bagian-bagian dokumen dan mengakses komentar di setiap bagian menggunakan `GetChild` metode.
 
 ### Apakah Aspose.Words untuk .NET mendukung fitur terkait komentar lainnya?
 
 Ya, Aspose.Words untuk .NET menyediakan dukungan luas untuk berbagai fitur terkait komentar, termasuk menambahkan komentar baru, mengatur properti komentar, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/define-conditional-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Define Conditional Formatting
@@ -127,9 +130,13 @@ While this tutorial focuses on tables, Aspose.Words for .NET offers extensive fo
 ### Can I automate conditional formatting for large documents?
 Yes, you can automate the process using loops and conditions in your code, making it efficient for large documents.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

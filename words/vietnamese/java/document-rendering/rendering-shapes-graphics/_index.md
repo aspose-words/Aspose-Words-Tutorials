@@ -1,14 +1,16 @@
 ---
-title: Kết xuất hình dạng và đồ họa trong tài liệu
-linktitle: Kết xuất hình dạng và đồ họa trong tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách nâng cao tài liệu của bạn bằng hình dạng và đồ họa bằng Aspose.Words for Java. Tạo nội dung trực quan tuyệt đẹp một cách dễ dàng.
-weight: 12
-url: /vi/java/document-rendering/rendering-shapes-graphics/
+"description": "Tìm hiểu cách nâng cao tài liệu của bạn bằng hình dạng và đồ họa bằng Aspose.Words for Java. Tạo nội dung trực quan tuyệt đẹp một cách dễ dàng."
+"linktitle": "Kết xuất hình dạng và đồ họa trong tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết xuất hình dạng và đồ họa trong tài liệu"
+"url": "/vi/java/document-rendering/rendering-shapes-graphics/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất hình dạng và đồ họa trong tài liệu
@@ -65,7 +67,7 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(imageShape);
 
 ## Tùy chỉnh hình dạng
 
-Bạn có thể tùy chỉnh hình dạng nhiều hơn nữa bằng cách thay đổi màu sắc, đường viền và các thuộc tính khác của chúng. Sau đây là ví dụ về cách thực hiện:
+Bạn có thể tùy chỉnh hình dạng thêm bằng cách thay đổi màu sắc, đường viền và các thuộc tính khác của chúng. Sau đây là ví dụ về cách thực hiện:
 
 ```java
 shape.setStrokeColor(Color.BLUE);
@@ -87,7 +89,7 @@ shape.setHeight(75);
 
 ## Làm việc với Văn bản trong Hình dạng
 
-Hình dạng cũng có thể chứa văn bản. Bạn có thể thêm và định dạng văn bản trong hình dạng bằng Aspose.Words cho Java:
+Hình dạng cũng có thể chứa văn bản. Bạn có thể thêm và định dạng văn bản trong hình dạng bằng Aspose.Words for Java:
 
 ```java
 shape.getTextPath().setText("This is some text within the shape");
@@ -144,7 +146,7 @@ Việc tăng cường tài liệu của bạn bằng hình dạng và đồ họ
 
 ### Làm thế nào để thay đổi kích thước hình dạng trong tài liệu của tôi?
 
- Để thay đổi kích thước hình dạng, hãy sử dụng`setWidth` Và`setHeight` phương pháp trên đối tượng hình dạng. Ví dụ, để tạo một hình dạng rộng 150 pixel và cao 75 pixel:
+Để thay đổi kích thước hình dạng, hãy sử dụng `setWidth` Và `setHeight` phương pháp trên đối tượng hình dạng. Ví dụ, để tạo một hình dạng rộng 150 pixel và cao 75 pixel:
 
 ```java
 shape.setWidth(150);
@@ -166,14 +168,19 @@ shape.setFillColor(Color.GREEN);
 
 ### Tôi có thể thêm văn bản vào bên trong hình dạng không?
 
- Có, bạn có thể thêm văn bản vào bên trong một hình dạng. Sử dụng`getTextPath` thuộc tính của hình dạng để thiết lập văn bản và tùy chỉnh định dạng của nó.
+Có, bạn có thể thêm văn bản vào bên trong một hình dạng. Sử dụng `getTextPath` thuộc tính của hình dạng để thiết lập văn bản và tùy chỉnh định dạng của nó.
 
 ### Làm thế nào tôi có thể sắp xếp các hình dạng theo thứ tự cụ thể?
 
- Bạn có thể kiểm soát thứ tự của các hình dạng bằng cách sử dụng thuộc tính Z-order. Đặt`ZOrder` tính chất của một hình dạng để xác định vị trí của nó trong chồng hình dạng. Các giá trị thấp hơn được đưa ra phía sau, trong khi các giá trị cao hơn được đưa ra phía trước.
+Bạn có thể kiểm soát thứ tự của các hình dạng bằng cách sử dụng thuộc tính Z-order. Đặt `ZOrder` tính chất của một hình dạng để xác định vị trí của nó trong chồng hình dạng. Các giá trị thấp hơn được đưa ra phía sau, trong khi các giá trị cao hơn được đưa ra phía trước.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

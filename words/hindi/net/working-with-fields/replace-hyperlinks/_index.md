@@ -1,14 +1,16 @@
 ---
-title: हाइपरलिंक बदलें
-linktitle: हाइपरलिंक बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: कुशल दस्तावेज़ प्रबंधन और गतिशील सामग्री अद्यतन के लिए Aspose.Words का उपयोग करके .NET दस्तावेज़ों में हाइपरलिंक को बदलने का तरीका जानें।
-weight: 10
-url: /hi/net/working-with-fields/replace-hyperlinks/
+"description": "कुशल दस्तावेज़ प्रबंधन और गतिशील सामग्री अद्यतन के लिए Aspose.Words का उपयोग करके .NET दस्तावेज़ों में हाइपरलिंक को बदलने का तरीका जानें।"
+"linktitle": "हाइपरलिंक बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "हाइपरलिंक बदलें"
+"url": "/hi/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हाइपरलिंक बदलें
@@ -22,7 +24,7 @@ url: /hi/net/working-with-fields/replace-hyperlinks/
 .NET के लिए Aspose.Words के साथ हाइपरलिंक को बदलने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
 - विजुअल स्टूडियो: .NET विकास के लिए स्थापित और सेट अप किया गया।
--  Aspose.Words for .NET: डाउनलोड किया गया और आपके प्रोजेक्ट में संदर्भित किया गया। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: डाउनलोड किया गया और आपके प्रोजेक्ट में संदर्भित किया गया। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - C# से परिचित होना: कोड लिखने और संकलित करने की बुनियादी समझ।
 
 ## नामस्थान आयात करें
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 उस दस्तावेज़ को लोड करके शुरू करें जहां आप हाइपरलिंक्स को बदलना चाहते हैं:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- प्रतिस्थापित करें`"Hyperlinks.docx"` अपने वास्तविक दस्तावेज़ के पथ के साथ.
+प्रतिस्थापित करें `"Hyperlinks.docx"` अपने वास्तविक दस्तावेज़ के पथ के साथ.
 
 ## चरण 2: फ़ील्ड के माध्यम से पुनरावृति करें
 
@@ -74,10 +76,10 @@ foreach (Field field in doc.Range.Fields)
 अंत में, संशोधित दस्तावेज़ को प्रतिस्थापित हाइपरलिंक के साथ सहेजें:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.प्रतिस्थापित करेंHyperlinks.docx");
 ```
 
- प्रतिस्थापित करें`"WorkingWithFields.ReplaceHyperlinks.docx"` अपने इच्छित आउटपुट फ़ाइल पथ के साथ.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` अपने इच्छित आउटपुट फ़ाइल पथ के साथ.
 
 ## निष्कर्ष
 
@@ -89,19 +91,23 @@ doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
 हां, Aspose.Words जटिल संरचनाओं जैसे तालिकाओं, छवियों और हाइपरलिंक्स का सहजता से समर्थन करता है।
 
 ### क्या .NET के लिए Aspose.Words का कोई परीक्षण संस्करण उपलब्ध है?
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words हेतु दस्तावेज़ कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- अस्थायी लाइसेंस प्राप्त किये जा सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+अस्थायी लाइसेंस प्राप्त किये जा सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET के लिए कौन से समर्थन विकल्प उपलब्ध हैं?
- आप समुदाय का समर्थन प्राप्त कर सकते हैं या प्रश्न प्रस्तुत कर सकते हैं[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+आप समुदाय का समर्थन प्राप्त कर सकते हैं या प्रश्न प्रस्तुत कर सकते हैं [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

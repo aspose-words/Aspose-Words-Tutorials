@@ -1,44 +1,52 @@
 ---
-title: Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε μια λίστα πολλών επιπέδων σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για το .NET σε αυτό το απλό παράδειγμα.
-keywords: [Aspose.Words, .NET, multilevel list, Word document, document formatting, C#]
-url: /el/net/document-styling/multilevel-list-formatting/
+"description": "Μάθετε πώς να δημιουργείτε μια λίστα πολλαπλών επιπέδων σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET σε αυτό το απλό παράδειγμα."
+"title": "Δημιουργήστε λίστες πολλαπλών επιπέδων στο Word με το Aspose.Words"
+"url": "/el/net/document-styling/multilevel-list-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε κατάλογους πολλαπλών επιπέδων στο Word με το Aspose.Words
-Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε μια λίστα πολλών επιπέδων σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. Ξεκινά ένα νέο έγγραφο και μια ενδείξεις DocumentBuilder, εφαρμόζει μια μορφή αριθμητικής, δημιουργεί κύριους και υπο-νυκτάρια, και αποθηκεύει το έγγραφο ως αρχείο .docx. Ακολουθήστε το βήμα-με-βήμα οδηγό για να μορφοποιήσετε αποτελεσματικά το έγγραφο σας με αριθμημένες λίστες.
+# Δημιουργήστε λίστες πολλαπλών επιπέδων στο Word με το Aspose.Words
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε μια λίστα πολλαπλών επιπέδων σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Αρχικοποιεί ένα νέο έγγραφο και μια παρουσία DocumentBuilder, εφαρμόζει μια μορφή αρίθμησης, δημιουργεί κύρια και δευτερεύοντα στοιχεία και αποθηκεύει το έγγραφο ως αρχείο .docx. Ακολουθήστε τον οδηγό βήμα προς βήμα για να μορφοποιήσετε αποτελεσματικά το έγγραφό σας με αριθμημένες λίστες.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης
-Για να χρησιμοποιήσετε το Aspose.Words για το .NET, ακολουθήστε τα παρακάτω βήματα:
-1. Κατεβάστε τη βιβλιοθήκη: Επισκεφτείτε το ["Αποθέστε.Πράξεις" για τη σελίδα λήψης .NET](https://www.aspose.com/downloads/words/net)\- Δεν ξέρω .
+## Οδηγίες εγκατάστασης
+Για να χρησιμοποιήσετε το Aspose.Words για .NET, ακολουθήστε τα εξής βήματα:
+1. Κατεβάστε τη βιβλιοθήκη: Επισκεφθείτε το [Σελίδα λήψης Aspose.Words για .NET](https://www.aspose.com/downloads/words/net).
 2. Εγκατάσταση μέσω NuGet:
-   * Ανοίξτε το έργο Visual Studio σας.
-   * Επιστρέψτε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.
-   * Ψάξε για`"Αποκοινώνεστε.`και κάντε κλικ στην εγκατάσταση.
-3. Ανατρέξτε τη βιβλιοθήκη στον κωδικό σας:
+   - Ανοίξτε το έργο σας στο Visual Studio.
+   - Μεταβείτε στα Εργαλεία > Διαχειριστής πακέτων NuGet > Διαχείριση πακέτων NuGet για λύση.
+   - Αναζήτηση για `Aspose.Words` και κάντε κλικ στην επιλογή Εγκατάσταση.
+3. Αναφέρετε τη βιβλιοθήκη στον κώδικά σας:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
-4. Εφαρμογή άδειας (Επιαιρετική):  
-   Για να χρησιμοποιήσεις την πλήρη έκδοση,[να εφαρμόσει άδεια](https://purchase.aspose.com/temporary-license/)ή χρησιμοποιήστε [δωρεάν δοκιμή](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
+4. Εφαρμογή Άδειας Χρήσης (Προαιρετικό):  
+   Για να χρησιμοποιήσετε την πλήρη έκδοση, [αίτηση άδειας](https://purchase.aspose.com/temporary-license/) ή χρησιμοποιήστε ένα [δωρεάν δοκιμή](https://releases.aspose.com/words/net/).  
 
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

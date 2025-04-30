@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-loadoptions/load-with-encoding/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load With Encoding In Word Document
@@ -96,9 +99,13 @@ Absolutely! Aspose.Words supports loading documents from streams. You just need 
 You can visit the [Aspose.Words Support Forum](https://forum.aspose.com/c/words/8) for help from the community and the Aspose support team.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

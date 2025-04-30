@@ -1,42 +1,44 @@
 ---
-title: Použití vodoznaků k dokumentům v Aspose.Words pro Java
-linktitle: Použití vodoznaků na dokumenty
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se přidávat vodoznaky do dokumentů v Aspose.Words for Java. Přizpůsobte textové a obrazové vodoznaky pro profesionálně vypadající dokumenty.
-weight: 15
-url: /cs/java/document-conversion-and-export/using-watermarks-to-documents/
+"description": "Naučte se, jak přidávat vodoznaky do dokumentů v Aspose.Words pro Javu. Přizpůsobte si textové a obrazové vodoznaky pro profesionálně vypadající dokumenty."
+"linktitle": "Použití vodoznaků v dokumentech"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Použití vodoznaků v dokumentech v Aspose.Words pro Javu"
+"url": "/cs/java/document-conversion-and-export/using-watermarks-to-documents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití vodoznaků k dokumentům v Aspose.Words pro Java
+# Použití vodoznaků v dokumentech v Aspose.Words pro Javu
 
 
 ## Úvod do přidávání vodoznaků do dokumentů v Aspose.Words pro Javu
 
-tomto tutoriálu prozkoumáme, jak přidat vodoznaky do dokumentů pomocí Aspose.Words for Java API. Vodoznaky jsou užitečným způsobem, jak označit dokumenty textem nebo grafikou, která označí jejich stav, důvěrnost nebo jiné relevantní informace. V této příručce se budeme zabývat textovými i obrázkovými vodoznaky.
+V tomto tutoriálu se podíváme na to, jak přidávat vodoznaky do dokumentů pomocí rozhraní Aspose.Words pro Java API. Vodoznaky jsou užitečným způsobem, jak označit dokumenty textem nebo grafikou, a tím uvést jejich stav, důvěrnost nebo jiné relevantní informace. V této příručce se budeme zabývat textovými i obrazovými vodoznaky.
 
-## Nastavení Aspose.Words pro Java
+## Nastavení Aspose.Words pro Javu
 
-Než začneme přidávat vodoznaky do dokumentů, musíme nastavit Aspose.Words pro Javu. Chcete-li začít, postupujte takto:
+Než začneme s přidáváním vodoznaků do dokumentů, musíme si nastavit Aspose.Words pro Javu. Začněte takto:
 
-1.  Stáhněte si Aspose.Words pro Java z[zde](https://releases.aspose.com/words/java/).
-2. Přidejte knihovnu Aspose.Words for Java do svého projektu Java.
+1. Stáhněte si Aspose.Words pro Javu z [zde](https://releases.aspose.com/words/java/).
+2. Přidejte do svého projektu v Javě knihovnu Aspose.Words for Java.
 3. Importujte potřebné třídy do kódu Java.
 
-Nyní, když máme knihovnu nastavenou, přistoupíme k přidání vodoznaků.
+Nyní, když máme knihovnu nastavenou, pojďme přidat vodoznaky.
 
-## Přidání textových vodoznaků
+## Přidávání textových vodoznaků
 
-Textové vodoznaky jsou běžnou volbou, když chcete do dokumentů přidat textové informace. Zde je návod, jak můžete přidat textový vodoznak pomocí Aspose.Words pro Java:
+Textové vodoznaky jsou běžnou volbou, když chcete do dokumentů přidat textové informace. Zde je návod, jak přidat textový vodoznak pomocí Aspose.Words pro Javu:
 
 ```java
-// Vytvořte instanci dokumentu
+// Vytvoření instance dokumentu
 Document doc = new Document("Document.docx");
 
-// Definujte možnosti TextWatermark
+// Definovat možnosti textového vodoznaku
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -44,19 +46,19 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-//Nastavte text a možnosti vodoznaku
+// Nastavení textu a možností vodoznaku
 doc.getWatermark().setText("Test", options);
 
 // Uložte dokument s vodoznakem
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Přidání vodoznaků obrázku
+## Přidávání vodoznaků do obrázků
 
-Kromě textových vodoznaků můžete do dokumentů přidat také obrázkové vodoznaky. Zde je návod, jak přidat vodoznak obrázku:
+Kromě textových vodoznaků můžete do dokumentů přidat také obrazové vodoznaky. Zde je návod, jak přidat obrazový vodoznak:
 
 ```java
-// Vytvořte instanci dokumentu
+// Vytvoření instance dokumentu
 Document doc = new Document("Document.docx");
 
 // Načtěte obrázek pro vodoznak
@@ -64,13 +66,13 @@ byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// Nastavte velikost a polohu vodoznaku
+// Nastavení velikosti a umístění vodoznaku
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// Přidejte vodoznak do dokumentu
+// Přidání vodoznaku do dokumentu
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
 // Uložte dokument s vodoznakem
@@ -79,17 +81,17 @@ doc.save("DocumentWithImageWatermark.docx");
 
 ## Přizpůsobení vodoznaků
 
-Vodoznaky můžete přizpůsobit úpravou jejich vzhledu a polohy. U textových vodoznaků můžete změnit písmo, velikost, barvu a rozvržení. U obrazových vodoznaků můžete upravit jejich velikost a polohu, jak je ukázáno v předchozích příkladech.
+Vodoznaky si můžete přizpůsobit úpravou jejich vzhledu a umístění. U textových vodoznaků můžete změnit písmo, velikost, barvu a rozvržení. U obrazových vodoznaků můžete upravit jejich velikost a umístění, jak je znázorněno v předchozích příkladech.
 
 ## Odstranění vodoznaků
 
-Chcete-li odstranit vodoznak z dokumentu, můžete použít následující kód:
+Chcete-li z dokumentu odstranit vodoznaky, můžete použít následující kód:
 
 ```java
-// Vytvořte instanci dokumentu
+// Vytvoření instance dokumentu
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// Odstraňte vodoznak
+// Odstranění vodoznaku
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -98,43 +100,48 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// Uložte dokument bez vodoznaku
+// Uložit dokument bez vodoznaku
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili přidávat vodoznaky do dokumentů pomocí Aspose.Words for Java. Ať už potřebujete přidat textové nebo obrázkové vodoznaky, Aspose.Words poskytuje nástroje pro jejich efektivní přizpůsobení a správu. Vodoznaky můžete také odstranit, když už je nepotřebujete, čímž zajistíte, že vaše dokumenty budou čisté a profesionální.
+V tomto tutoriálu jsme se naučili, jak přidávat vodoznaky do dokumentů pomocí Aspose.Words pro Javu. Ať už potřebujete přidat textové nebo obrazové vodoznaky, Aspose.Words poskytuje nástroje pro jejich efektivní přizpůsobení a správu. Vodoznaky můžete také odstranit, když již nejsou potřeba, a zajistit tak, aby vaše dokumenty byly čisté a profesionální.
 
-## FAQ
+## Často kladené otázky
 
 ### Jak mohu změnit písmo textového vodoznaku?
 
- Chcete-li změnit písmo textového vodoznaku, upravte`setFontFamily` nemovitost v`TextWatermarkOptions`. Například:
+Chcete-li změnit písmo textového vodoznaku, upravte `setFontFamily` nemovitost v `TextWatermarkOptions`Například:
 
 ```java
 options.setFontFamily("Times New Roman");
 ```
 
-### Mohu přidat více vodoznaků do jednoho dokumentu?
+### Mohu do jednoho dokumentu přidat více vodoznaků?
 
- Ano, do dokumentu můžete přidat více vodoznaků vytvořením více`Shape` objekty s různým nastavením a jejich přidání do dokumentu.
+Ano, do dokumentu můžete přidat více vodoznaků vytvořením několika `Shape` objekty s různým nastavením a jejich přidání do dokumentu.
 
-### Je možné vodoznak otočit?
+### Je možné otočit vodoznak?
 
- Ano, vodoznak můžete otočit nastavením`setRotation` nemovitost v`Shape` objekt. Kladné hodnoty otáčejí vodoznak po směru hodinových ručiček a záporné hodnoty proti směru hodinových ručiček.
+Ano, vodoznak můžete otočit nastavením `setRotation` nemovitost v `Shape` objektu. Kladné hodnoty otáčejí vodoznak ve směru hodinových ručiček a záporné hodnoty proti směru hodinových ručiček.
 
-### Jak mohu udělat vodoznak poloprůhledný?
+### Jak mohu vodoznak udělat poloprůhledným?
 
- Chcete-li, aby byl vodoznak poloprůhledný, nastavte`setSemitransparent`majetek do`true` v`TextWatermarkOptions`.
+Chcete-li vodoznak nastavit jako poloprůhledný, nastavte `setSemitransparent` majetek `true` v `TextWatermarkOptions`.
 
-### Mohu přidat vodoznaky do určitých částí dokumentu?
+### Mohu přidat vodoznaky do konkrétních částí dokumentu?
 
-Ano, vodoznaky můžete přidat do určitých částí dokumentu procházením částí a přidáním vodoznaku do požadovaných částí.
+Ano, vodoznaky můžete přidat do konkrétních částí dokumentu tak, že je budete procházet a vodoznak přidáte do požadovaných částí.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แปลงเมตาไฟล์เป็น EMF หรือ WMF
-linktitle: แปลงเมตาไฟล์เป็น EMF หรือ WMF
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: คู่มือทีละขั้นตอนในการแปลงเมตาไฟล์เป็นรูปแบบ EMF หรือ WMF เมื่อแปลงเอกสารเป็น HTML ด้วย Aspose.Words สำหรับ .NET
-weight: 10
-url: /th/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
+"description": "คู่มือทีละขั้นตอนในการแปลงเมตาไฟล์เป็นรูปแบบ EMF หรือ WMF เมื่อแปลงเอกสารเป็น HTML ด้วย Aspose.Words สำหรับ .NET"
+"linktitle": "แปลงเมตาไฟล์เป็น EMF หรือ WMF"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงเมตาไฟล์เป็น EMF หรือ WMF"
+"url": "/th/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงเมตาไฟล์เป็น EMF หรือ WMF
@@ -21,7 +23,7 @@ url: /th/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเราได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว นี่คือสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด ถ้าไม่มี คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด ถ้าไม่มี คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 3. สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio จะทำให้ชีวิตของคุณง่ายขึ้น
 4. ความรู้พื้นฐานเกี่ยวกับ C#: คุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญ แต่ความเข้าใจพื้นฐานจะช่วยได้
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: สร้างสตริง HTML ด้วย SVG
 
@@ -66,18 +68,18 @@ string html =
 
 ## ขั้นตอนที่ 3: โหลด HTML ด้วยตัวเลือก ConvertSvgToEmf
 
- ตอนนี้เราใช้`HtmlLoadOptions` เพื่อระบุวิธีที่เราต้องการจัดการภาพ SVG ใน HTML การตั้งค่า`ConvertSvgToEmf` ถึง`true` รับประกันว่าภาพ SVG จะถูกแปลงเป็นรูปแบบ EMF
+ตอนนี้เราใช้ `HtmlLoadOptions` เพื่อระบุวิธีที่เราต้องการจัดการภาพ SVG ใน HTML การตั้งค่า `ConvertSvgToEmf` ถึง `true` รับประกันว่าภาพ SVG จะถูกแปลงเป็นรูปแบบ EMF
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
- โค้ดสั้นๆ นี้จะสร้างสิ่งใหม่`Document` วัตถุโดยโหลดสตริง HTML ลงไปพร้อมตัวเลือกการโหลดที่ระบุ
+โค้ดสั้นๆ นี้จะสร้างสิ่งใหม่ `Document` วัตถุโดยโหลดสตริง HTML ลงไปพร้อมตัวเลือกการโหลดที่ระบุ
 
 ## ขั้นตอนที่ 4: ตั้งค่า HtmlSaveOptions สำหรับรูปแบบ Metafile
 
- เพื่อบันทึกเอกสารด้วยรูปแบบเมตาไฟล์ที่ถูกต้อง เราใช้`HtmlSaveOptions` . ที่นี่เราตั้ง`MetafileFormat` ถึง`HtmlMetafileFormat.Png` แต่คุณสามารถเปลี่ยนสิ่งนี้ได้`Emf` หรือ`Wmf` ขึ้นอยู่กับความต้องการของคุณ
+เพื่อบันทึกเอกสารด้วยรูปแบบเมตาไฟล์ที่ถูกต้อง เราใช้ `HtmlSaveOptions`. ที่นี่เราตั้ง `MetafileFormat` ถึง `HtmlMetafileFormat.Png`แต่คุณสามารถเปลี่ยนสิ่งนี้ได้ `Emf` หรือ `Wmf` ขึ้นอยู่กับความต้องการของคุณ
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafileFormat.Png };
@@ -103,19 +105,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ConvertMetafilesToPng.html", save
 ใช่ คุณสามารถแปลงไฟล์ภาพรูปแบบต่างๆ ได้โดยการปรับตัวเลือกการโหลดและการบันทึกให้เหมาะสม
 
 ### จำเป็นต้องใช้เวอร์ชัน .NET Framework เฉพาะหรือไม่?
-Aspose.Words สำหรับ .NET รองรับ .NET Framework หลายเวอร์ชัน แต่การใช้เวอร์ชันล่าสุดก็ถือเป็นความคิดที่ดีเสมอ เพื่อให้มีความเข้ากันได้และมีคุณสมบัติดีที่สุด
+Aspose.Words สำหรับ .NET รองรับ .NET Framework หลายเวอร์ชัน แต่การใช้เวอร์ชันล่าสุดก็ยังเป็นความคิดที่ดี เพื่อให้มีความเข้ากันได้และมีคุณสมบัติดีที่สุด
 
 ### ข้อดีของการแปลง SVG เป็น EMF หรือ WMF คืออะไร
-การแปลง SVG เป็น EMF หรือ WMF ช่วยให้แน่ใจว่ากราฟิกเวกเตอร์ได้รับการรักษาและเรนเดอร์อย่างถูกต้องในสภาพแวดล้อมที่อาจไม่รองรับ SVG อย่างสมบูรณ์
+การแปลง SVG เป็น EMF หรือ WMF ช่วยให้แน่ใจว่ากราฟิกเวกเตอร์ได้รับการรักษาและแสดงผลอย่างถูกต้องในสภาพแวดล้อมที่อาจไม่รองรับ SVG อย่างสมบูรณ์
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับเอกสารหลายฉบับได้ไหม
 แน่นอน! คุณสามารถวนซ้ำไฟล์ HTML หลายไฟล์ได้ โดยใช้กระบวนการเดียวกันเพื่อดำเนินการแปลงแบบอัตโนมัติสำหรับการประมวลผลแบบแบตช์
 
 ### ฉันสามารถหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/) และรับการสนับสนุนจากชุมชน Aspose[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference.aspose.com/words/net/) และรับการสนับสนุนจากชุมชน Aspose [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

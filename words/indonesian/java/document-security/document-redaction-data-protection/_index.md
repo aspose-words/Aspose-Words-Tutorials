@@ -1,14 +1,16 @@
 ---
-title: Redaksi Dokumen dan Perlindungan Data
-linktitle: Redaksi Dokumen dan Perlindungan Data
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengamankan dokumen dan menyunting data sensitif menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber.
-weight: 14
-url: /id/java/document-security/document-redaction-data-protection/
+"description": "Pelajari cara mengamankan dokumen dan menyunting data sensitif menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Redaksi Dokumen dan Perlindungan Data"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Redaksi Dokumen dan Perlindungan Data"
+"url": "/id/java/document-security/document-redaction-data-protection/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Redaksi Dokumen dan Perlindungan Data
@@ -24,7 +26,7 @@ Dalam panduan ini, kita akan menjelajahi cara menyunting informasi sensitif dari
 
 Sebelum kita mulai bekerja dengan Aspose.Words untuk Java, kita perlu menyiapkan lingkungan pengembangan kita. Ikuti langkah-langkah berikut:
 
-1.  Unduh dan Instal Aspose.Words untuk Java: Kunjungi[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)untuk mengunduh versi terbaru Aspose.Words untuk Java.
+1. Unduh dan Instal Aspose.Words untuk Java: Kunjungi [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) untuk mengunduh versi terbaru Aspose.Words untuk Java.
 
 2. Integrasikan Aspose.Words ke dalam Proyek Anda: Tambahkan file JAR Aspose.Words ke proyek Java Anda.
 
@@ -98,16 +100,21 @@ A: Ya, Aspose.Words untuk Java dapat mengonversi dokumen Word ke berbagai format
 
 ### Apakah ada persyaratan lisensi untuk menggunakan Aspose.Words untuk Java?
 
- A: Ya, Aspose.Words untuk Java memerlukan lisensi yang valid untuk penggunaan komersial. Kunjungi[https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) untuk informasi perizinan.
+A: Ya, Aspose.Words untuk Java memerlukan lisensi yang valid untuk penggunaan komersial. Kunjungi [https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) untuk informasi perizinan.
 
 ### Bagaimana saya dapat mengakses lebih banyak sumber daya dan dokumentasi untuk Aspose.Words untuk Java?
 
-A: Kunjungi dokumentasi Aspose.Words untuk Java di[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) untuk sumber daya dan panduan yang lengkap.
+A: Kunjungi dokumentasi Aspose.Words untuk Java di [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) untuk sumber daya dan panduan yang lengkap.
 
 Tingkatkan keamanan dokumen dan perlindungan data Anda dengan Aspose.Words untuk Java. Mulailah melindungi informasi sensitif Anda hari ini!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

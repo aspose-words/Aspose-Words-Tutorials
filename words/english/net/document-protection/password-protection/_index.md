@@ -7,8 +7,11 @@ weight: 10
 url: /net/document-protection/password-protection/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Password Protection In Word Document
@@ -119,9 +122,13 @@ Absolutely! You can load an existing document using the `Document` class and the
 You can find more documentation on the [Aspose.Words documentation page](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

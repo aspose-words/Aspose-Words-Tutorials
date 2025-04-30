@@ -1,14 +1,16 @@
 ---
-title: Установить папки шрифтов с приоритетом
-linktitle: Установить папки шрифтов с приоритетом
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать папки шрифтов с приоритетом в документах Word с помощью Aspose.Words для .NET. Наше руководство гарантирует, что ваши документы будут отображаться идеально каждый раз.
-weight: 10
-url: /ru/net/working-with-fonts/set-fonts-folders-with-priority/
+"description": "Узнайте, как задать папки шрифтов с приоритетом в документах Word с помощью Aspose.Words для .NET. Наше руководство гарантирует, что ваши документы будут отображаться идеально каждый раз."
+"linktitle": "Установить папки шрифтов с приоритетом"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить папки шрифтов с приоритетом"
+"url": "/ru/net/working-with-fonts/set-fonts-folders-with-priority/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить папки шрифтов с приоритетом
@@ -21,9 +23,9 @@ url: /ru/net/working-with-fonts/set-fonts-folders-with-priority/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое. Вот краткий контрольный список:
 
--  Aspose.Words for .NET: Вам необходимо установить эту библиотеку. Если у вас ее еще нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Вам необходимо установить эту библиотеку. Если у вас ее еще нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: убедитесь, что у вас есть рабочая среда разработки .NET, например Visual Studio.
--  Каталог документов: Убедитесь, что у вас есть каталог для ваших документов. Для наших примеров мы будем использовать`"YOUR DOCUMENT DIRECTORY"` в качестве заполнителя для этого пути.
+- Каталог документов: Убедитесь, что у вас есть каталог для ваших документов. Для наших примеров мы будем использовать `"YOUR DOCUMENT DIRECTORY"` в качестве заполнителя для этого пути.
 
 ## Импорт пространств имен
 
@@ -54,7 +56,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 В этом примере мы задаем два источника шрифтов:
 - SystemFontSource: это источник шрифтов по умолчанию, включающий все шрифты, установленные в вашей системе.
--  FolderFontSource: Это папка с пользовательскими шрифтами, расположенная по адресу`C:\\MyFonts\\` .`true` параметр указывает, что эта папка должна быть просканирована рекурсивно, и`1` устанавливает свой приоритет.
+- FolderFontSource: Это папка пользовательских шрифтов, расположенная по адресу `C:\\MyFonts\\`. `true` параметр указывает, что эта папка должна быть просканирована рекурсивно, и `1` устанавливает свой приоритет.
 
 ## Шаг 2: Загрузите документ
 
@@ -64,7 +66,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Эта строка кода загружает документ с именем`Rendering.docx` из вашего каталога документов.
+Эта строка кода загружает документ с именем `Rendering.docx` из вашего каталога документов.
 
 ## Шаг 3: Сохраните документ с новыми настройками шрифта.
 
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 ```
 
- Это сохранит документ в формате PDF в вашем каталоге документов под именем`WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
+Это сохранит документ в формате PDF в вашем каталоге документов под именем `WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
 
 ## Заключение
 
@@ -96,9 +98,14 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 
 ### Можно ли использовать сетевые пути для пользовательских папок шрифтов?
 Да, вы можете указать сетевые пути как пользовательские папки шрифтов, что позволит вам централизовать ресурсы шрифтов в сетевом расположении.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

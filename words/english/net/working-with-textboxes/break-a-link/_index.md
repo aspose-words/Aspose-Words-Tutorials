@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-textboxes/break-a-link/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Break Forward Link In Word Document
@@ -136,9 +139,13 @@ Breaking links can potentially affect the layout, especially if the text boxes w
 
 For more information and resources, you can visit the [Aspose.Words documentation](https://reference.aspose.com/words/net/) and [support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

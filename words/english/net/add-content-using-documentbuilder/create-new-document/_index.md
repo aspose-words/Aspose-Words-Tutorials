@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/create-new-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create New Word Document
@@ -112,9 +115,13 @@ You can create and manipulate DOC, DOCX, PDF, HTML, and many other formats.
 Check out the [Aspose.Words for .NET Documentation](https://reference.aspose.com/words/net/) for more examples and detailed guides.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

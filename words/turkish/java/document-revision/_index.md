@@ -1,14 +1,16 @@
 ---
-title: Belge Revizyonu
-linktitle: Belge Revizyonu
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge revizyonlarını kolaylaştırın! Değişiklikleri takip edin, sürüm kontrolünü yönetin ve revizyon görevlerini zahmetsizce otomatikleştirin.
-weight: 19
-url: /tr/java/document-revision/
+"description": "Aspose.Words for Java ile belge revizyonlarını kolaylaştırın! Değişiklikleri takip edin, sürüm kontrolünü yönetin ve revizyon görevlerini zahmetsizce otomatikleştirin."
+"linktitle": "Belge Revizyonu"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Revizyonu"
+"url": "/tr/java/document-revision/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Revizyonu
@@ -43,9 +45,13 @@ Aspose.Words for Java ile belge değişikliklerini zahmetsizce nasıl yönetece�
 Java için Aspose.Words'ü kullanarak verimli belge sürüm denetimini öğrenin. Değişiklikleri yönetin, sorunsuz bir şekilde işbirliği yapın ve revizyonları zahmetsizce izleyin.
 ### [Belge İşbirliği ve İnceleme](./document-collaboration-review/)
 Aspose.Words for Java ile Verimli Belge İşbirliği ve İncelemenin Kilidini Açın. Değişiklikleri İzlemeyi, Belgeleri Paylaşmayı ve İş Akışını Düzenlemeyi Öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 1560
 url: /net/programming-with-shapes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Shapes
@@ -32,9 +35,13 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Detect Smart Art Shape](./detect-smart-art-shape/) | Learn how to detect SmartArt shapes in Word documents using Aspose.Words for .NET with this comprehensive, guide. Perfect for automating your document workflow. |
 | [Update Smart Art Drawing](./update-smart-art-drawing/) | Learn how to update Smart Art drawings in Word documents using Aspose.Words for .NET with this step-by-step guide. Ensure your visuals are always accurate. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

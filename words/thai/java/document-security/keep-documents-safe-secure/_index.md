@@ -1,14 +1,16 @@
 ---
-title: วิธีรักษาเอกสารของคุณให้ปลอดภัยและมั่นคง
-linktitle: วิธีรักษาเอกสารของคุณให้ปลอดภัยและมั่นคง
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: รักษาความปลอดภัยเอกสารของคุณด้วย Aspose.Words สำหรับ Java เข้ารหัส ปกป้อง และเพิ่มลายเซ็นดิจิทัลได้อย่างง่ายดาย รักษาความปลอดภัยข้อมูลของคุณ
-weight: 10
-url: /th/java/document-security/keep-documents-safe-secure/
+"description": "รักษาความปลอดภัยเอกสารของคุณด้วย Aspose.Words สำหรับ Java เข้ารหัส ปกป้อง และเพิ่มลายเซ็นดิจิทัลได้อย่างง่ายดาย รักษาความปลอดภัยข้อมูลของคุณ"
+"linktitle": "วิธีรักษาเอกสารของคุณให้ปลอดภัยและมั่นคง"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "วิธีรักษาเอกสารของคุณให้ปลอดภัยและมั่นคง"
+"url": "/th/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีรักษาเอกสารของคุณให้ปลอดภัยและมั่นคง
@@ -46,7 +48,7 @@ url: /th/java/document-security/keep-documents-safe-secure/
 ก่อนที่เราจะดำเนินการรักษาความปลอดภัยเอกสาร เรามาทำความคุ้นเคยกับ Aspose.Words สำหรับ Java กันก่อน Aspose.Words เป็นไลบรารีที่อัดแน่นไปด้วยคุณสมบัติที่ช่วยให้ผู้พัฒนา Java สามารถสร้าง แก้ไข และแปลงเอกสาร Word ได้ด้วยโปรแกรม เริ่มต้นดังนี้:
 
 1. ### ดาวน์โหลด Aspose.Words สำหรับ Java:
-  เยี่ยมชม[Aspose.ปล่อย](https://releases.aspose.com/words/java/) และดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
+ เยี่ยมชม [Aspose.ปล่อย](https://releases.aspose.com/words/java/) และดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
 
 2. ### ติดตั้งไลบรารี:
  เมื่อการดาวน์โหลดเสร็จสิ้น ให้ทำตามคำแนะนำการติดตั้งเพื่อตั้งค่า Aspose.Words ในโปรเจ็กต์ Java ของคุณ
@@ -56,7 +58,7 @@ url: /th/java/document-security/keep-documents-safe-secure/
 การติดตั้ง Aspose.Words สำหรับ Java เป็นกระบวนการที่ตรงไปตรงมา ปฏิบัติตามขั้นตอนง่ายๆ เหล่านี้เพื่อเพิ่มไลบรารีลงในโปรเจ็กต์ Java ของคุณ:
 
 1. ### ดาวน์โหลด:
-  ไปที่[Aspose.ปล่อย](https://releases.aspose.com/words/java/) และดาวน์โหลดแพ็คเกจ Aspose.Words สำหรับ Java
+ ไปที่ [Aspose.ปล่อย](https://releases.aspose.com/words/java/) และดาวน์โหลดแพ็คเกจ Aspose.Words สำหรับ Java
 
 2. ### สารสกัด:
  แตกแพ็กเกจที่ดาวน์โหลดไปยังตำแหน่งที่สะดวกบนคอมพิวเตอร์ของคุณ
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//ช่วงที่แก้ไขได้ช่วยให้เราสามารถปล่อยให้บางส่วนของเอกสารที่ได้รับการป้องกันเปิดอยู่เพื่อการแก้ไขได้
+// ช่วงที่แก้ไขได้ช่วยให้เราสามารถปล่อยให้บางส่วนของเอกสารที่ได้รับการป้องกันเปิดอยู่เพื่อการแก้ไขได้
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -168,7 +170,7 @@ doc.save("path/to/watermarked/document.docx");
 Aspose.Words สำหรับ Java ยังช่วยให้คุณแปลงเอกสารที่ปลอดภัยของคุณเป็นรูปแบบต่างๆ เช่น PDF หรือ HTML:
 
 ```java
-//โหลดเอกสารที่ได้รับการรักษาความปลอดภัย
+// โหลดเอกสารที่ได้รับการรักษาความปลอดภัย
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // แปลงเป็น PDF
@@ -180,7 +182,7 @@ doc.save("path/to/converted/document.html");
 
 ## บทสรุป
 
-ในคู่มือทีละขั้นตอนนี้ เราได้สำรวจความสำคัญของการรักษาความปลอดภัยเอกสารและวิธีที่ Aspose.Words สำหรับ Java สามารถช่วยปกป้องเอกสารของคุณจากการเข้าถึงโดยไม่ได้รับอนุญาตได้ ด้วยการใช้ประโยชน์จากคุณลักษณะต่างๆ ของไลบรารี เช่น การป้องกันด้วยรหัสผ่าน การเข้ารหัส ลายเซ็นดิจิทัล ลายน้ำ และการแก้ไข คุณสามารถมั่นใจได้ว่าเอกสารของคุณจะปลอดภัย
+ในคู่มือทีละขั้นตอนนี้ เราได้สำรวจความสำคัญของการรักษาความปลอดภัยเอกสารและวิธีที่ Aspose.Words สำหรับ Java สามารถช่วยปกป้องเอกสารของคุณจากการเข้าถึงโดยไม่ได้รับอนุญาตได้ ด้วยการใช้ประโยชน์จากคุณลักษณะต่างๆ ของไลบรารี เช่น การป้องกันด้วยรหัสผ่าน การเข้ารหัส ลายเซ็นดิจิทัล การใส่ลายน้ำ และการแก้ไข คุณสามารถมั่นใจได้ว่าเอกสารของคุณจะปลอดภัย
 
 ## คำถามที่พบบ่อย
 
@@ -198,9 +200,13 @@ doc.save("path/to/converted/document.html");
 
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของลายน้ำได้หรือไม่
 ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏของลายน้ำได้อย่างเต็มที่ รวมถึงข้อความ แบบอักษร สี ขนาด และการหมุน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

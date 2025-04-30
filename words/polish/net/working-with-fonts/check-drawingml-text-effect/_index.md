@@ -1,14 +1,16 @@
 ---
-title: Sprawdź efekt tekstowy DrawingML
-linktitle: Sprawdź efekt tekstowy DrawingML
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak sprawdzić efekty tekstowe DrawingML w dokumentach Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty z łatwością.
-weight: 10
-url: /pl/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Dowiedz się, jak sprawdzić efekty tekstowe DrawingML w dokumentach Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Ulepszaj swoje dokumenty z łatwością."
+"linktitle": "Sprawdź efekt tekstowy DrawingML"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Sprawdź efekt tekstowy DrawingML"
+"url": "/pl/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sprawdź efekt tekstowy DrawingML
@@ -21,9 +23,9 @@ Witamy w kolejnym szczegółowym samouczku dotyczącym pracy z Aspose.Words dla 
 
 Zanim przejdziemy do samouczka, musisz spełnić kilka warunków wstępnych:
 
--  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
-- Podstawowa wiedza z zakresu języka C#: Przydatna będzie pewna znajomość programowania w języku C#.
+- Podstawowa wiedza o języku C#: Przydatna będzie pewna znajomość programowania w języku C#.
 
 ## Importuj przestrzenie nazw
 
@@ -82,7 +84,7 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Te wiersze kodu zostaną wydrukowane`true` Lub`false` w zależności od tego, czy każdy konkretny efekt tekstowy DrawingML jest stosowany do czcionki przebiegu.
+Te wiersze kodu zostaną wydrukowane `true` Lub `false` w zależności od tego, czy każdy konkretny efekt tekstowy DrawingML jest stosowany do czcionki przebiegu.
 
 ## Wniosek
 
@@ -98,16 +100,21 @@ Efekty tekstowe DrawingML to zaawansowane opcje formatowania tekstu w dokumentac
 Tak, Aspose.Words dla .NET pozwala programowo sprawdzać i stosować efekty tekstowe DrawingML.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) aby wypróbować Aspose.Words dla .NET przed zakupem.
+Tak, możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/) aby wypróbować Aspose.Words dla .NET przed zakupem.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

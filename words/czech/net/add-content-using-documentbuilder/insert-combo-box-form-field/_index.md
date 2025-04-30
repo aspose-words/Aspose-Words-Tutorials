@@ -1,36 +1,38 @@
 ---
-title: Vložit pole formuláře pole se seznamem v dokumentu aplikace Word
-linktitle: Vložit pole formuláře pole se seznamem v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit pole formuláře se seznamem do dokumentu aplikace Word pomocí Aspose.Words for .NET s naším podrobným průvodcem krok za krokem.
-weight: 10
-url: /cs/net/add-content-using-documentbuilder/insert-combo-box-form-field/
+"description": "Naučte se, jak vložit pole formuláře se seznamem do dokumentu Word pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem."
+"linktitle": "Vložit pole formuláře se seznamem v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole formuláře se seznamem v dokumentu Word"
+"url": "/cs/net/add-content-using-documentbuilder/insert-combo-box-form-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit pole formuláře pole se seznamem v dokumentu aplikace Word
+# Vložit pole formuláře se seznamem v dokumentu Word
 
 ## Zavedení
 
-Ahoj! Jste připraveni ponořit se do světa automatizace dokumentů? Ať už jste zkušený vývojář nebo teprve začínáte, jste na správném místě. Dnes prozkoumáme, jak vložit pole formuláře se seznamem do dokumentu aplikace Word pomocí Aspose.Words for .NET. Věřte mi, že na konci tohoto tutoriálu budete profesionálem ve snadném vytváření interaktivních dokumentů. Takže, vezměte si šálek kávy, posaďte se a můžeme začít!
+Ahoj! Jste připraveni ponořit se do světa automatizace dokumentů? Ať už jste zkušený vývojář, nebo teprve začínáte, jste na správném místě. Dnes se podíváme na to, jak vložit pole formuláře se seznamem do dokumentu Word pomocí Aspose.Words pro .NET. Věřte mi, že po skončení tohoto tutoriálu budete profesionálem v oblasti snadné tvorby interaktivních dokumentů. Takže si vezměte šálek kávy, pohodlně se usaďte a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do podrobností, ujistěte se, že máte vše, co potřebujete. Zde je rychlý kontrolní seznam, abyste byli připraveni a připraveni:
+Než se pustíme do detailů, ujistěte se, že máte vše, co potřebujete. Zde je stručný kontrolní seznam, který vás připraví:
 
-1.  Aspose.Words for .NET: V první řadě potřebujete knihovnu Aspose.Words for .NET. Pokud jste si ji ještě nestáhli, můžete si ji stáhnout z[Stránka Aspose Downloads](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Ujistěte se, že máte vývojové prostředí nastavené pomocí sady Visual Studio nebo jiného IDE, které podporuje .NET.
-3. Základní porozumění C#: I když je tento tutoriál vhodný pro začátečníky, základní znalost C# vám usnadní práci.
-4.  Dočasná licence (volitelné): Pokud chcete prozkoumat všechny funkce bez omezení, možná budete chtít získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words pro .NET: V první řadě potřebujete knihovnu Aspose.Words pro .NET. Pokud jste si ji ještě nestáhli, můžete si ji stáhnout z [Stránka ke stažení Aspose](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí s Visual Studiem nebo jiným IDE, které podporuje .NET.
+3. Základní znalost C#: I když je tento tutoriál vhodný pro začátečníky, základní znalost C# vám vše usnadní.
+4. Dočasná licence (volitelné): Pokud chcete prozkoumat všechny funkce bez omezení, můžete si pořídit [dočasná licence](https://purchase.aspose.com/temporary-license/).
 
-S těmito předpoklady jste všichni připraveni vydat se na tuto vzrušující cestu!
+S těmito předpoklady jste připraveni vydat se na tuto vzrušující cestu!
 
 ## Importovat jmenné prostory
 
-Než se pustíme do kódu, je důležité importovat potřebné jmenné prostory. Tyto jmenné prostory obsahují třídy a metody potřebné pro práci s Aspose.Words. Můžete to udělat takto:
+Než se pustíme do kódu, je důležité importovat potřebné jmenné prostory. Tyto jmenné prostory obsahují třídy a metody potřebné pro práci s Aspose.Words. Zde je návod, jak to udělat:
 
 ```csharp
 using Aspose.Words;
@@ -38,53 +40,53 @@ using Aspose.Words.Fields;
 using Aspose.Words.Saving;
 ```
 
-Tyto řádky kódu přinesou všechny potřebné funkce pro manipulaci s dokumenty Word pomocí Aspose.Words.
+Tyto řádky kódu přinesou všechny potřebné funkce pro manipulaci s dokumenty Wordu pomocí Aspose.Words.
 
-Dobře, pojďme si tento proces rozdělit na zvládnutelné kroky. Každý krok bude podrobně vysvětlen, takže vám nic neuteče.
+Dobře, rozdělme si proces na zvládnutelné kroky. Každý krok bude podrobně vysvětlen, abyste o nic nepřišli.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve si nastavíme cestu k adresáři, kde budou uloženy vaše dokumenty. Zde se uloží vygenerovaný dokument aplikace Word.
+Nejprve si nastavme cestu k adresáři, kam budou uloženy vaše dokumenty. Sem bude uložen váš vygenerovaný dokument Wordu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit. Tento krok zajistí, že se dokument uloží na správné místo.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam chcete dokument uložit. Tímto krokem zajistíte, že je dokument uložen na správném místě.
 
-## Krok 2: Definujte položky Combo Box
+## Krok 2: Definování položek rozbalovacího seznamu
 
-Dále musíme definovat položky, které se objeví v rozbalovacím seznamu. Jedná se o jednoduché pole řetězců.
+Dále musíme definovat položky, které se zobrazí v rozbalovacím seznamu. Jedná se o jednoduché pole řetězců.
 
 ```csharp
 string[] items = { "One", "Two", "Three" };
 ```
 
-tomto příkladu jsme vytvořili pole se třemi položkami: „Jedna“, „Dva“ a „Tři“. Neváhejte a přizpůsobte toto pole svými vlastními položkami.
+V tomto příkladu jsme vytvořili pole se třemi položkami: „Jedna“, „Dvě“ a „Tři“. Toto pole si můžete klidně přizpůsobit vlastními položkami.
 
 ## Krok 3: Vytvořte nový dokument
 
- Nyní vytvoříme novou instanci`Document` třída. Toto představuje dokument aplikace Word, se kterým budeme pracovat.
+Nyní si vytvořme novou instanci `Document` třída. Toto představuje dokument aplikace Word, se kterým budeme pracovat.
 
 ```csharp
 Document doc = new Document();
 ```
 
-Tento řádek kódu inicializuje nový prázdný dokument aplikace Word.
+Tento řádek kódu inicializuje nový, prázdný dokument aplikace Word.
 
-## Krok 4: Inicializujte DocumentBuilder
+## Krok 4: Inicializace nástroje DocumentBuilder
 
- K přidání obsahu do našeho dokumentu použijeme`DocumentBuilder` třída. Tato třída poskytuje pohodlný způsob vkládání různých prvků do dokumentu aplikace Word.
+Pro přidání obsahu do našeho dokumentu použijeme `DocumentBuilder` třída. Tato třída poskytuje pohodlný způsob vkládání různých prvků do dokumentu Wordu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Vytvořením instance`DocumentBuilder` a předání našeho dokumentu do něj, jsme připraveni začít přidávat obsah.
+Vytvořením instance `DocumentBuilder` a předáním našeho dokumentu do něj můžeme začít přidávat obsah.
 
-## Krok 5: Vložte pole formuláře Combo Box
+## Krok 5: Vložení pole formuláře se seznamem
 
- Tady se děje kouzlo. Použijeme`InsertComboBox` způsob přidání pole formuláře se seznamem do našeho dokumentu.
+Tady se děje ta magie. Použijeme `InsertComboBox` metoda pro přidání pole formuláře se seznamem do našeho dokumentu.
 
 ```csharp
 builder.InsertComboBox("DropDown", items, 0);
@@ -93,41 +95,46 @@ builder.InsertComboBox("DropDown", items, 0);
 V tomto řádku:
 - `"DropDown"` je název pole se seznamem.
 - `items` je pole položek, které jsme definovali dříve.
-- `0`je index výchozí vybrané položky (v tomto případě "Jedna").
+- `0` je index výchozí vybrané položky (v tomto případě „Jedna“).
 
 ## Krok 6: Uložte dokument
 
-Nakonec náš dokument uložíme. Tento krok zapíše všechny změny do nového souboru aplikace Word.
+Nakonec si uložte náš dokument. Tento krok zapíše všechny změny do nového souboru aplikace Word.
 
 ```csharp
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
 ```
 
- Nahradit`dataDir` s cestou, kterou jste dříve nastavili. Tím se dokument se zadaným názvem uloží do vámi zvoleného adresáře.
+Nahradit `dataDir` s cestou, kterou jste dříve nastavili. Tím se dokument uloží pod zadaným názvem do vámi zvoleného adresáře.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vložili pole formuláře se seznamem do dokumentu aplikace Word pomocí Aspose.Words for .NET. Vidíš, nebylo to tak těžké, že? Pomocí těchto jednoduchých kroků můžete vytvářet interaktivní a dynamické dokumenty, které jistě zaujmou. Takže do toho a vyzkoušejte to. Kdo ví, možná cestou objevíte i nějaké nové triky. Šťastné kódování!
+je to! Úspěšně jste vložili pole formuláře se seznamem do dokumentu Wordu pomocí Aspose.Words pro .NET. Vidíte, nebylo to tak těžké, že? S těmito jednoduchými kroky můžete vytvářet interaktivní a dynamické dokumenty, které jistě udělají dojem. Tak se do toho pusťte a zkuste to. Kdo ví, třeba cestou objevíte i nějaké nové triky. Hodně štěstí s programováním!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?  
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word programově.
+### Co je Aspose.Words pro .NET?  
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat a převádět dokumenty Wordu.
 
-### Mohu upravit položky v poli se seznamem?  
-Absolutně! Pro přizpůsobení položek v poli se seznamem můžete definovat libovolné pole řetězců.
+### Mohu si přizpůsobit položky v rozbalovacím seznamu?  
+Rozhodně! Můžete definovat libovolné pole řetězců pro přizpůsobení položek v rozbalovacím seznamu.
 
 ### Je nutná dočasná licence?  
 Ne, ale dočasná licence vám umožní prozkoumat všechny funkce Aspose.Words bez omezení.
 
-### Mohu tuto metodu použít k vložení jiných polí formuláře?  
+### Mohu tuto metodu použít k vložení dalších polí formuláře?  
 Ano, Aspose.Words podporuje různá pole formuláře, jako jsou textová pole, zaškrtávací políčka a další.
 
 ### Kde najdu další dokumentaci?  
- Podrobnou dokumentaci najdete na[Dokumentační stránka Aspose.Words](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete na [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

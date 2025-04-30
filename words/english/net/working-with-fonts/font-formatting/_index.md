@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/font-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Formatting
@@ -97,9 +100,13 @@ Use multiple `DocumentBuilder` instances or switch font settings between `Write`
 ### Does Aspose.Words for .NET support other document formats besides DOCX?
 Yes, it supports a variety of formats including PDF, HTML, EPUB, and more. 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

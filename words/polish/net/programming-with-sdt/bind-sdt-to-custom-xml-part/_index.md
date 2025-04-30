@@ -1,14 +1,16 @@
 ---
-title: Powiąż SDT z niestandardową częścią XML
-linktitle: Powiąż SDT z niestandardową częścią XML
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak powiązać strukturalne znaczniki dokumentu (SDT) z niestandardowymi elementami XML w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego samouczka krok po kroku.
-weight: 10
-url: /pl/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Dowiedz się, jak powiązać strukturalne znaczniki dokumentu (SDT) z niestandardowymi elementami XML w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Powiąż SDT z niestandardową częścią XML"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Powiąż SDT z niestandardową częścią XML"
+"url": "/pl/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Powiąż SDT z niestandardową częścią XML
@@ -21,7 +23,7 @@ Tworzenie dynamicznych dokumentów Word, które wchodzą w interakcję z niestan
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Words dla .NET: Najnowszą wersję można pobrać ze strony[Aspose.Words dla wydań .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Najnowszą wersję można pobrać ze strony [Aspose.Words dla wersji .NET](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne zgodne środowisko IDE .NET.
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# i platformy .NET.
 
@@ -68,7 +70,7 @@ Tutaj tworzymy nową niestandardową część XML z unikalnym identyfikatorem i 
 Po dodaniu niestandardowej części XML tworzymy SDT w celu wyświetlenia danych XML.
 
 ```csharp
-//Utwórz znacznik dokumentu strukturalnego (SDT)
+// Utwórz znacznik dokumentu strukturalnego (SDT)
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ Teraz powiążemy SDT z częścią XML niestandardową za pomocą wyrażenia XPa
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Ten krok mapuje SDT na`<text>` element w`<root>` węzeł naszej niestandardowej części XML.
+Ten krok mapuje SDT na `<text>` element w `<root>` węzeł naszej niestandardowej części XML.
 
 ## Krok 5: Zapisz dokument
 
@@ -110,16 +112,21 @@ Strukturalny znacznik dokumentu (SDT) to element kontroli treści w dokumentach 
 Tak, można powiązać wiele SDT z różnymi częściami XML w tym samym dokumencie, co umożliwia tworzenie złożonych szablonów opartych na danych.
 
 ### Jak zaktualizować dane XML w części Custom XML?
- Dane XML można aktualizować, uzyskując dostęp do`CustomXmlPart` obiektu i bezpośrednio modyfikować jego zawartość XML.
+Dane XML można aktualizować, uzyskując dostęp do `CustomXmlPart` obiektu i bezpośrednio modyfikować jego zawartość XML.
 
 ### Czy możliwe jest powiązanie SDT z atrybutami XML zamiast z elementami?
 Tak, można powiązać SDT z atrybutami XML, określając odpowiednie wyrażenie XPath, które odnosi się do żądanego atrybutu.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Pełną dokumentację Aspose.Words dla .NET można znaleźć pod adresem[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
+Pełną dokumentację Aspose.Words dla .NET można znaleźć pod adresem [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hücre Dolgusunu Ayarla
-linktitle: Hücre Dolgusunu Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinde hücre dolgusunu nasıl ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Belgenizin tablo biçimlendirmesini kolayca iyileştirin.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/set-cell-padding/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinde hücre dolgusunu nasıl ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Belgenizin tablo biçimlendirmesini kolayca iyileştirin."
+"linktitle": "Hücre Dolgusunu Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Hücre Dolgusunu Ayarla"
+"url": "/tr/net/programming-with-table-styles-and-formatting/set-cell-padding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hücre Dolgusunu Ayarla
@@ -21,7 +23,7 @@ Word belgenizdeki bir tablo hücresindeki metnin etrafına biraz ekstra boşluk 
 
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Aspose.Words for .NET: Henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve yükleyin:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Henüz yapmadıysanız, Aspose.Words for .NET'i şu adresten indirin ve yükleyin: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Makinenizde Visual Studio benzeri bir IDE'nin kurulu olması gerekir.
 3. Temel C# Bilgisi: Her şeyi açıklayacağız ancak temel C# bilgisi takip etmenize yardımcı olacaktır.
 
@@ -51,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Tablonuzu Oluşturmaya Başlayın
 
- Artık belgemiz olduğuna göre, bir tablo oluşturmaya başlayalım.`DocumentBuilder` hücre ve satır eklemek için.
+Artık belgemiz olduğuna göre, bir tablo oluşturmaya başlayalım. `DocumentBuilder` hücre ve satır eklemek için.
 
 ```csharp
 // Tabloyu oluşturmaya başla
@@ -94,7 +96,7 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesinde hücre dolgu
 ## SSS
 
 ### Bir tablodaki her hücre için farklı dolgu değerleri belirleyebilir miyim?
- Evet, her hücre için farklı dolgu değerleri belirleyebilirsiniz.`SetPaddings` Her hücreye ayrı ayrı uygulanan bir yöntem.
+Evet, her hücre için farklı dolgu değerleri belirleyebilirsiniz. `SetPaddings` Her hücreye ayrı ayrı uygulanan bir yöntem.
 
 ### Aspose.Words'de dolgu değerleri için hangi birimler kullanılır?
 Dolgu değerleri noktalarla belirtilir. Bir inçte 72 nokta vardır.
@@ -107,9 +109,14 @@ Belirli bir sınır yoktur ancak aşırı dolgu tablonuzun ve dokümanınızın 
 
 ### Microsoft Word kullanarak hücre dolgusunu ayarlayabilir miyim?
 Evet, Microsoft Word'de hücre dolgusunu ayarlayabilirsiniz, ancak .NET için Aspose.Words'ü kullanmak otomatik ve programlanabilir belge düzenleme olanağı sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

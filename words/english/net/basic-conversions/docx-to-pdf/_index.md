@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/docx-to-pdf/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Word File to PDF
@@ -111,9 +114,13 @@ Yes, Aspose.Words for .NET is compatible with both .NET Framework and .NET Core.
 ### Can I apply a temporary license for Aspose.Words for .NET?
 Yes, you can request a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

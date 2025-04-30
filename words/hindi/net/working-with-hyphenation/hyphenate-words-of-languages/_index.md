@@ -1,14 +1,16 @@
 ---
-title: भाषाओं के शब्दों को हाइफ़न करें
-linktitle: भाषाओं के शब्दों को हाइफ़न करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके विभिन्न भाषाओं में शब्दों को हाइफ़नेट करना सीखें। अपने दस्तावेज़ की पठनीयता बढ़ाने के लिए इस विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-hyphenation/hyphenate-words-of-languages/
+"description": ".NET के लिए Aspose.Words का उपयोग करके विभिन्न भाषाओं में शब्दों को हाइफ़नेट करना सीखें। अपने दस्तावेज़ की पठनीयता बढ़ाने के लिए इस विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "भाषाओं के शब्दों को हाइफ़न करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "भाषाओं के शब्दों को हाइफ़न करें"
+"url": "/hi/net/working-with-hyphenation/hyphenate-words-of-languages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # भाषाओं के शब्दों को हाइफ़न करें
@@ -21,8 +23,8 @@ url: /hi/net/working-with-hyphenation/hyphenate-words-of-languages/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  Aspose.Words for .NET इंस्टॉल करें। अगर आपने ऐसा नहीं किया है, तो इसे ले लें[यहाँ](https://releases.aspose.com/words/net/).
--  Aspose.Words के लिए वैध लाइसेंस। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET इंस्टॉल करें। अगर आपने ऐसा नहीं किया है, तो इसे ले लें [यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words के लिए वैध लाइसेंस। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 - C# और .NET फ्रेमवर्क का बुनियादी ज्ञान।
 - एक टेक्स्ट एडिटर या विजुअल स्टूडियो जैसा एक IDE.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Hyphenation;
 
 ## चरण 1: अपना दस्तावेज़ लोड करें
 
- आपको वह निर्देशिका निर्दिष्ट करनी होगी जहां आपका दस्तावेज़ स्थित है।`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
+आपको वह निर्देशिका निर्दिष्ट करनी होगी जहां आपका दस्तावेज़ स्थित है। `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "German text.docx");
 
 ## चरण 3: हाइफ़नेशन शब्दकोश पंजीकृत करें
 
- Aspose.Words को विभिन्न भाषाओं के लिए हाइफ़नेशन शब्दकोशों की आवश्यकता होती है। सुनिश्चित करें कि आपके पास है`.dic`उन भाषाओं की फ़ाइलें जिन्हें आप हाइफ़नेट करना चाहते हैं। इन शब्दकोशों को रजिस्टर करने के लिए निम्न का उपयोग करें`Hyphenation.RegisterDictionary` तरीका।
+Aspose.Words को विभिन्न भाषाओं के लिए हाइफ़नेशन शब्दकोशों की आवश्यकता होती है। सुनिश्चित करें कि आपके पास है `.dic` उन भाषाओं की फ़ाइलें जिन्हें आप हाइफ़नेट करना चाहते हैं। इन शब्दकोशों को रजिस्टर करने के लिए निम्न का उपयोग करें: `Hyphenation.RegisterDictionary` तरीका।
 
 ```csharp
 Hyphenation.RegisterDictionary("en-US", dataDir + "hyph_en_US.dic");
@@ -74,16 +76,21 @@ doc.Save(dataDir + "TreatmentByCesure.pdf");
 आप ऑनलाइन हाइफ़नेशन शब्दकोश पा सकते हैं, जो अक्सर भाषा संस्थानों या ओपन-सोर्स परियोजनाओं द्वारा प्रदान किए जाते हैं।
 
 ### क्या मैं बिना लाइसेंस के .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
- हां, लेकिन बिना लाइसेंस वाले संस्करण में सीमाएं होंगी।[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license) पूर्ण सुविधाओं के लिए.
+हां, लेकिन बिना लाइसेंस वाले संस्करण में सीमाएं होंगी। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license) पूर्ण सुविधाओं के लिए.
 
 ### क्या Aspose.Words for .NET .NET कोर के साथ संगत है?
 हां, .NET के लिए Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### मैं एक ही दस्तावेज़ में एकाधिक भाषाओं को कैसे प्रबंधित करूँ?
 जैसा कि उदाहरण में दिखाया गया है, आप एकाधिक हाइफ़नेशन शब्दकोश पंजीकृत कर सकते हैं, और Aspose.Words उन्हें तदनुसार संभालेगा।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

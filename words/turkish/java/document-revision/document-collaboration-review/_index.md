@@ -1,14 +1,16 @@
 ---
-title: Belge İşbirliği ve İnceleme
-linktitle: Belge İşbirliği ve İnceleme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile Verimli Belge İşbirliği ve İncelemenin Kilidini Açın. Değişiklikleri İzlemeyi, Belgeleri Paylaşmayı ve İş Akışını Düzenlemeyi Öğrenin.
-weight: 14
-url: /tr/java/document-revision/document-collaboration-review/
+"description": "Aspose.Words for Java ile Verimli Belge İşbirliği ve İncelemenin Kilidini Açın. Değişiklikleri İzlemeyi, Belgeleri Paylaşmayı ve İş Akışını Düzenlemeyi Öğrenin."
+"linktitle": "Belge İşbirliği ve İnceleme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge İşbirliği ve İnceleme"
+"url": "/tr/java/document-revision/document-collaboration-review/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge İşbirliği ve İnceleme
@@ -22,7 +24,7 @@ Aspose.Words for Java, geliştiricilerin Word belgelerini zahmetsizce oluşturma
 
 Belge işbirliğine ve incelemeye dalmadan önce, projenizde Aspose.Words for Java'yı kuralım. Şu basit adımları izleyin:
 
-1.  Java için Aspose.Words'ü indirin: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+1. Java için Aspose.Words'ü indirin: Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 2. Aspose.Words'ü Projenize Ekleyin: İndirdiğiniz Aspose.Words JAR dosyasını Java projenize ekleyin.
 
@@ -72,11 +74,11 @@ Belge işbirliği ve incelemesi, modern belge yönetiminin kritik yönleridir. A
 
 ### Java için Aspose.Words'ü nasıl yüklerim?
 
- Aspose.Words for Java'yı kütüphaneyi indirerek yükleyebilirsiniz.[Burada](https://releases.aspose.com/words/java/) ve JAR dosyasını Java projenize ekleyin.
+Aspose.Words for Java'yı kütüphaneyi indirerek yükleyebilirsiniz. [Burada](https://releases.aspose.com/words/java/) ve JAR dosyasını Java projenize ekleyin.
 
 ### Aspose.Words for Java'yı kullanarak Word belgelerindeki değişiklikleri takip edebilir miyim?
 
- Evet, Java için Aspose.Words, Word belgelerindeki değişiklikleri izlemenize olanak tanır.`startTrackRevisions` değişiklik izlemeyi etkinleştirme yöntemi.
+Evet, Java için Aspose.Words, Word belgelerindeki değişiklikleri izlemenize olanak tanır. `startTrackRevisions` değişiklik izlemeyi etkinleştirme yöntemi.
 
 ### Bir belgede yapılan değişiklikleri nasıl inceleyebilirim?
 
@@ -88,10 +90,15 @@ Evet, Aspose.Words for Java, işbirlikçi belge yönetimi için mükemmel bir se
 
 ### Aspose.Words for Java hakkında daha fazla bilgi ve dokümanı nerede bulabilirim?
 
- Java için Aspose.Words'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/words/java/).
+Java için Aspose.Words'e ilişkin kapsamlı belgeleri şu adreste bulabilirsiniz: [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Bergabung dengan Halaman Baru
-linktitle: Bergabung dengan Halaman Baru
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan dan menambahkan dokumen di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk penggabungan dokumen yang efisien.
-weight: 10
-url: /id/net/join-and-append-documents/join-new-page/
+"description": "Pelajari cara menggabungkan dan menambahkan dokumen di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk penggabungan dokumen yang efisien."
+"linktitle": "Bergabung dengan Halaman Baru"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bergabung dengan Halaman Baru"
+"url": "/id/net/join-and-append-documents/join-new-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bergabung dengan Halaman Baru
@@ -21,7 +23,7 @@ Saat bekerja dengan dokumen besar atau menggabungkan beberapa dokumen menjadi sa
 
 Sebelum memulai tutorial ini, pastikan Anda memiliki hal berikut:
 - Visual Studio terinstal di komputer Anda.
--  Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pengetahuan dasar tentang pemrograman C# dan lingkungan .NET.
 
 ## Mengimpor Ruang Nama
@@ -42,7 +44,7 @@ Mulailah dengan membuat aplikasi konsol C# baru di Visual Studio. Instal paket A
 ## Langkah 2: Muat Dokumen Sumber dan Tujuan
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Muat dokumen sumber dan tujuan
@@ -50,7 +52,7 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke berkas dokumen Anda.
 
 ## Langkah 3: Atur Awal Bagian ke Halaman Baru
 
@@ -101,9 +103,14 @@ Aspose.Words mendukung penambahan dokumen dengan makro dan bidang formulir, memp
 
 ### Bisakah saya mengotomatiskan tugas penambahan dokumen dalam proses batch menggunakan Aspose.Words?
 Aspose.Words untuk .NET memungkinkan Anda mengotomatiskan tugas penambahan dokumen dalam proses batch, meningkatkan produktivitas dalam manajemen dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

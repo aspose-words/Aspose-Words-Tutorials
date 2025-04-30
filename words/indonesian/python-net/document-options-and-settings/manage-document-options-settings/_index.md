@@ -1,14 +1,16 @@
 ---
-title: Menyempurnakan Opsi dan Pengaturan Dokumen untuk Efisiensi
-linktitle: Menyempurnakan Opsi dan Pengaturan Dokumen untuk Efisiensi
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara memanipulasi dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
-weight: 11
-url: /id/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "Pelajari cara memanipulasi dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Menyempurnakan Opsi dan Pengaturan Dokumen untuk Efisiensi"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menyempurnakan Opsi dan Pengaturan Dokumen untuk Efisiensi"
+"url": "/id/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyempurnakan Opsi dan Pengaturan Dokumen untuk Efisiensi
@@ -129,7 +131,7 @@ Ya, Anda dapat membuat header dan footer khusus menggunakan Aspose.Words dan men
 
 ### Bagaimana cara menyesuaikan margin halaman menggunakan API?
 
- Anda dapat menyesuaikan margin halaman menggunakan`PageSetup` kelas. Misalnya:
+Anda dapat menyesuaikan margin halaman menggunakan `PageSetup` kelas. Misalnya:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### Bisakah saya mengekspor dokumen saya ke PDF menggunakan Aspose.Words?
 
- Tentu saja, Anda dapat mengekspor dokumen Anda ke berbagai format, termasuk PDF, menggunakan`save` metode. Misalnya:
+Tentu saja, Anda dapat mengekspor dokumen Anda ke berbagai format, termasuk PDF, menggunakan `save` metode. Misalnya:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk Python?
 
- Anda dapat merujuk ke dokumentasi di[Di Sini](https://reference.aspose.com/words/python-net/).
+Anda dapat merujuk ke dokumentasi di [Di Sini](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

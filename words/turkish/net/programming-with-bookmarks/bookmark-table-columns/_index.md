@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Tablo Sütunlarını Yer İşareti Olarak Ekle
-linktitle: Word Belgesinde Tablo Sütunlarını Yer İşareti Olarak Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimle, Aspose.Words for .NET'i kullanarak bir Word belgesindeki tablo sütunlarına yer işareti koymayı öğrenin.
-weight: 10
-url: /tr/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "Bu kapsamlı, adım adım eğitimle, Aspose.Words for .NET'i kullanarak bir Word belgesindeki tablo sütunlarına yer işareti koymayı öğrenin."
+"linktitle": "Word Belgesinde Tablo Sütunlarını Yer İşareti Olarak Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Tablo Sütunlarını Yer İşareti Olarak Ekle"
+"url": "/tr/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Tablo Sütunlarını Yer İşareti Olarak Ekle
@@ -21,7 +23,7 @@ Belge otomasyon becerilerinizi geliştirmek istiyorsanız, o zaman bir şölene 
 
 Koda geçmeden önce, yerinde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurun.
 3. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- İlk olarak yeni bir Word belgesi oluşturmamız ve başlatmamız gerekiyor`DocumentBuilder` onunla çalışmak.
+İlk olarak yeni bir Word belgesi oluşturmamız ve başlatmamız gerekiyor `DocumentBuilder` onunla çalışmak.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +66,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("This is row 1 cell 1");
 ```
 
-## Adım 4: Ek Hücreler Ekle ve Satırı Sonlandır
+## Adım 4: Ek Hücreler Ekleyin ve Satırı Sonlandırın
 
 İlk satıra bir hücre daha ekleyin ve ilk satırı tamamlayın.
 
@@ -121,20 +123,25 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesinde tablo sütun
 Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için güçlü bir kütüphanedir. Microsoft Word'ün yüklenmesine gerek kalmadan belgeler oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanır.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/words/net/). Verilen kurulum talimatlarını izleyin.
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/words/net/). Verilen kurulum talimatlarını izleyin.
 
 ### Aspose.Words for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
 Evet, Aspose.Words for .NET, C#, VB.NET ve F# dahil olmak üzere .NET tarafından desteklenen herhangi bir dille kullanılabilir.
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Aspose topluluğundan ve uzmanlardan destek almak için şu adresi ziyaret edebilirsiniz:[destek forumu](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan ve uzmanlardan destek almak için şu adresi ziyaret edebilirsiniz: [destek forumu](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'in deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten alabilirsiniz: [Burada](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

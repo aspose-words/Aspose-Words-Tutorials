@@ -1,14 +1,16 @@
 ---
-title: Znaki meta w wzorcu wyszukiwania
-linktitle: Znaki meta w wzorcu wyszukiwania
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak używać metaznaków we wzorcach wyszukiwania za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Zoptymalizuj przetwarzanie dokumentów.
-weight: 10
-url: /pl/net/find-and-replace-text/meta-characters-in-search-pattern/
+"description": "Dowiedz się, jak używać metaznaków we wzorcach wyszukiwania za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Zoptymalizuj przetwarzanie dokumentów."
+"linktitle": "Znaki meta w wzorcu wyszukiwania"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Znaki meta w wzorcu wyszukiwania"
+"url": "/pl/net/find-and-replace-text/meta-characters-in-search-pattern/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znaki meta w wzorcu wyszukiwania
@@ -21,9 +23,9 @@ Aspose.Words for .NET to potężna biblioteka do obsługi dokumentów Word progr
 
 Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest skonfigurowane:
 
-1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#.
-3. Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# będzie przydatna.
+3. Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# będzie korzystna.
 
 ## Importuj przestrzenie nazw
 
@@ -45,7 +47,7 @@ Zanim zaczniesz manipulować dokumentem, musisz zdefiniować ścieżkę do katal
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać swoje dokumenty.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać swoje dokumenty.
 
 ## Krok 2: Tworzenie nowego dokumentu
 
@@ -67,7 +69,7 @@ builder.Writeln("This is Line 2");
 
 ## Krok 4: Zastępowanie tekstu za pomocą znaku meta podziału akapitu
 
-Znaki meta mogą reprezentować różne elementy, takie jak akapity, tabulatory i podziały wierszy. Tutaj używamy`&p` aby reprezentować podział akapitu.
+Znaki meta mogą reprezentować różne elementy, takie jak akapity, tabulatory i podziały wierszy. Tutaj używamy `&p` aby reprezentować podział akapitu.
 
 ```csharp
 doc.Range.Replace("This is Line 1&pThis is Line 2", "This is replaced line");
@@ -84,9 +86,9 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is Line 2");
 ```
 
-## Krok 6: Zastępowanie tekstu za pomocą ręcznego znaku podziału wiersza
+## Krok 6: Zastępowanie tekstu za pomocą ręcznego znaku meta podziału wiersza
 
- Teraz użyjemy`&m` znak meta oznaczający ręczny podział wiersza i odpowiednią zamianę tekstu.
+Teraz użyjemy `&m` znak meta oznaczający ręczny podział wiersza i odpowiednią zamianę tekstu.
 
 ```csharp
 doc.Range.Replace("This is Line 1&mThis is Line 2", "Page break is replaced with new text.");
@@ -110,19 +112,24 @@ Gratulacje! Udało Ci się zmanipulować dokument Worda za pomocą meta znaków 
 Znaki meta to specjalne znaki używane do reprezentowania we wzorcach wyszukiwania elementów, takich jak podziały akapitów, ręczne podziały wierszy, tabulatory itp.
 
 ### Jak zainstalować Aspose.Words dla .NET?
- Można go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+Można go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/). Postępuj zgodnie z dostarczoną instrukcją instalacji.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami programowania?
 Aspose.Words for .NET jest specjalnie zaprojektowany dla języków .NET, takich jak C#. Jednak Aspose udostępnia biblioteki również dla innych platform.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words dla .NET?
- Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Words dla .NET?
- Pełną dokumentację można znaleźć na stronie[Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć na stronie [Strona dokumentacji Aspose](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

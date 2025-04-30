@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना
-linktitle: फ़ील्ड का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words के साथ दस्तावेज़ स्वचालन अनलॉक करें। Java दस्तावेज़ों में छवियों को मर्ज, फ़ॉर्मेट और सम्मिलित करना सीखें। कुशल दस्तावेज़ प्रसंस्करण के लिए व्यापक गाइड और कोड उदाहरण।
-weight: 11
-url: /hi/java/document-manipulation/using-fields/
+"description": "Java के लिए Aspose.Words के साथ दस्तावेज़ स्वचालन अनलॉक करें। Java दस्तावेज़ों में छवियों को मर्ज, फ़ॉर्मेट और सम्मिलित करना सीखें। कुशल दस्तावेज़ प्रसंस्करण के लिए व्यापक गाइड और कोड उदाहरण।"
+"linktitle": "फ़ील्ड का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना
@@ -20,7 +22,7 @@ url: /hi/java/document-manipulation/using-fields/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 ## बुनियादी फ़ील्ड विलय
 
@@ -41,7 +43,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
- इस कोड में, हम एक दस्तावेज़ टेम्पलेट लोड करते हैं, मेल मर्ज फ़ील्ड सेट करते हैं, और मर्ज को निष्पादित करते हैं।`HandleMergeField` क्लास विशिष्ट फ़ील्ड प्रकारों जैसे चेकबॉक्स और HTML बॉडी सामग्री को संभालता है।
+इस कोड में, हम एक दस्तावेज़ टेम्पलेट लोड करते हैं, मेल मर्ज फ़ील्ड सेट करते हैं, और मर्ज को निष्पादित करते हैं। `HandleMergeField` क्लास विशिष्ट फ़ील्ड प्रकारों जैसे चेकबॉक्स और HTML बॉडी सामग्री को संभालता है।
 
 ## सशर्त फ़ील्ड
 
@@ -58,7 +60,7 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
- यह कोड एक IF फ़ील्ड और उसके अंदर एक MERGEFIELD डालता है। भले ही IF कथन गलत है, हम सेट करते हैं`setUnconditionalMergeFieldsAndRegions(true)` मेल मर्ज के दौरान गलत-कथन IF फ़ील्ड के अंदर MERGEFIELDs की गणना करने के लिए।
+यह कोड एक IF फ़ील्ड और उसके अंदर एक MERGEFIELD डालता है। भले ही IF कथन गलत है, हम सेट करते हैं `setUnconditionalMergeFieldsAndRegions(true)` मेल मर्ज के दौरान गलत-कथन IF फ़ील्ड के अंदर MERGEFIELDs की गणना करने के लिए।
 
 ## छवियों के साथ कार्य करना
 
@@ -91,7 +93,7 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
- यह कोड तालिका में पंक्तियों को रंग के आधार पर वैकल्पिक रंगों के साथ प्रारूपित करता है`CompanyName` मैदान।
+यह कोड तालिका में पंक्तियों को वैकल्पिक रंगों के आधार पर प्रारूपित करता है `CompanyName` मैदान।
 
 ## निष्कर्ष
 
@@ -113,22 +115,27 @@ Aspose.Words for Java में सशर्त फ़ील्ड आपको 
 
 ### मैं Java के लिए Aspose.Words का उपयोग करके तालिका में वैकल्पिक पंक्तियों को कैसे प्रारूपित कर सकता हूं?
 
- तालिका में वैकल्पिक पंक्तियों को प्रारूपित करने के लिए, आप अपने मानदंडों के आधार पर पंक्तियों पर विशिष्ट स्वरूपण लागू करने के लिए जावा के लिए Aspose.Words का उपयोग कर सकते हैं। "वैकल्पिक पंक्ति स्वरूपण" अनुभाग में, आपको एक उदाहरण मिलेगा जो दर्शाता है कि पंक्तियों को वैकल्पिक रंगों के साथ कैसे प्रारूपित किया जाए।`CompanyName` मैदान।
+तालिका में वैकल्पिक पंक्तियों को प्रारूपित करने के लिए, आप अपने मानदंडों के आधार पर पंक्तियों पर विशिष्ट स्वरूपण लागू करने के लिए जावा के लिए Aspose.Words का उपयोग कर सकते हैं। "वैकल्पिक पंक्ति स्वरूपण" अनुभाग में, आपको एक उदाहरण मिलेगा जो दर्शाता है कि पंक्तियों को वैकल्पिक रंगों के साथ कैसे प्रारूपित किया जाए। `CompanyName` मैदान।
 
-### मैं Aspose.Words for Java के लिए अधिक दस्तावेज़ और संसाधन कहां पा सकता हूं?
+### मैं Java के लिए Aspose.Words के लिए अधिक दस्तावेज़ और संसाधन कहां पा सकता हूं?
 
- आप Aspose वेबसाइट पर Java के लिए Aspose.Words के लिए व्यापक दस्तावेज़, कोड नमूने और ट्यूटोरियल पा सकते हैं:[जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)यह संसाधन आपको लाइब्रेरी की अतिरिक्त सुविधाओं और कार्यात्मकताओं का पता लगाने में मदद करेगा।
+आप Aspose वेबसाइट पर Java के लिए Aspose.Words के लिए व्यापक दस्तावेज़, कोड नमूने और ट्यूटोरियल पा सकते हैं: [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)यह संसाधन आपको लाइब्रेरी की अतिरिक्त सुविधाओं और कार्यात्मकताओं का पता लगाने में मदद करेगा।
 
 ### मैं Aspose.Words for Java के लिए समर्थन कैसे प्राप्त कर सकता हूं या सहायता कैसे प्राप्त कर सकता हूं?
 
- यदि आपको सहायता की आवश्यकता है, आपके पास प्रश्न हैं, या Java के लिए Aspose.Words का उपयोग करते समय आपको समस्याएँ आती हैं, तो आप समुदाय समर्थन और चर्चाओं के लिए Aspose.Words फ़ोरम पर जा सकते हैं:[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words).
+यदि आपको सहायता की आवश्यकता है, आपके पास प्रश्न हैं, या Java के लिए Aspose.Words का उपयोग करते समय आपको समस्याएँ आती हैं, तो आप समुदाय समर्थन और चर्चाओं के लिए Aspose.Words फ़ोरम पर जा सकते हैं: [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words).
 
 ### क्या Aspose.Words for Java विभिन्न Java IDEs के साथ संगत है?
 
 हां, Aspose.Words for Java विभिन्न Java एकीकृत विकास वातावरण (IDE) जैसे कि Eclipse, IntelliJ IDEA और NetBeans के साथ संगत है। आप अपने दस्तावेज़ प्रसंस्करण कार्यों को सुव्यवस्थित करने के लिए इसे अपने पसंदीदा IDE में एकीकृत कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

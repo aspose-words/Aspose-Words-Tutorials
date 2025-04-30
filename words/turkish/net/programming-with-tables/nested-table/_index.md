@@ -1,27 +1,29 @@
 ---
-title: İç içe geçmiş tablo
-linktitle: İç içe geçmiş tablo
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinde iç içe tablolar oluşturmayı rehberimizle öğrenin. Karmaşık belge düzenlerini programatik olarak oluşturmak için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-tables/nested-table/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinde iç içe tablolar oluşturmayı rehberimizle öğrenin. Karmaşık belge düzenlerini programatik olarak oluşturmak için mükemmeldir."
+"linktitle": "İç içe geçmiş tablo"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İç içe geçmiş tablo"
+"url": "/tr/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İç içe geçmiş tablo
 
 ## giriiş
 
-Hiç Word belgesinde programatik olarak iç içe geçmiş bir tablo oluşturma ihtiyacı hissettiniz mi? İster raporlar, ister faturalar veya ayrıntılı bir tablo yapısı gerektiren herhangi bir belge üretiyor olun, Aspose.Words for .NET en iyi arkadaşınız olabilir. Bu eğitimde, Aspose.Words for .NET kullanarak Word belgelerinde iç içe geçmiş tablolar oluşturma sürecine dalacağız. Ön koşullardan son kod uygulamasına kadar her şeyi ele alacağız. Hadi başlayalım!
+Hiç Word belgesinde programatik olarak iç içe geçmiş bir tablo oluşturma ihtiyacı hissettiniz mi? İster raporlar, ister faturalar veya ayrıntılı bir tablo yapısı gerektiren herhangi bir belge oluşturuyor olun, Aspose.Words for .NET en iyi arkadaşınız olabilir. Bu eğitimde, Aspose.Words for .NET kullanarak Word belgelerinde iç içe geçmiş tablolar oluşturma sürecine dalacağız. Ön koşullardan son kod uygulamasına kadar her şeyi ele alacağız. Hadi başlayalım!
 
 ## Ön koşullar
 
 Koda geçmeden önce ihtiyacınız olacak birkaç şey var:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir C# IDE.
 - C# Temel Bilgileri: C# sözdizimi ve kavramlarının anlaşılması.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- Başlamak için yeni bir Word belgesi oluşturacağız ve başlatacağız`DocumentBuilder` Tabloyu oluşturmamıza yardımcı olacak nesne.
+Başlamak için yeni bir Word belgesi oluşturacağız ve başlatacağız `DocumentBuilder` Tabloyu oluşturmamıza yardımcı olacak nesne.
 
 ```csharp
 // Belge dizininize giden yol
@@ -144,10 +146,15 @@ Aspose.Words for .NET, DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çok �
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
 
- Destek alabilirsiniz[Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

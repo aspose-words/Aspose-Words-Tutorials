@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में TOC शैली बदलें
-linktitle: वर्ड दस्तावेज़ में TOC शैली बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में TOC शैली को बदलने का तरीका जानें। अपने TOC को आसानी से अनुकूलित करें।
-weight: 10
-url: /hi/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में TOC शैली को बदलने का तरीका जानें। अपने TOC को आसानी से अनुकूलित करें।"
+"linktitle": "वर्ड दस्तावेज़ में TOC शैली बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में TOC शैली बदलें"
+"url": "/hi/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में TOC शैली बदलें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-of-content/change-style-of-toc-level/
 
 इससे पहले कि हम कोड में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: विजुअल स्टूडियो जैसा विकास पर्यावरण.
 3. C# का मूलभूत ज्ञान: C# प्रोग्रामिंग भाषा की समझ।
 
@@ -80,16 +82,21 @@ doc.Save(dataDir + "WorkingWithChangeStyleOfTocLevel.ModifiedDocument.docx");
 हां, आप विभिन्न स्तरों और शैली गुणों तक पहुंच कर TOC के भीतर विभिन्न शैलियों को संशोधित कर सकते हैं।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या एक[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या एक [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए Microsoft Word स्थापित करने की आवश्यकता है?
 नहीं, Aspose.Words for .NET को आपके मशीन पर Microsoft Word स्थापित करने की आवश्यकता नहीं है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप अधिक विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप अधिक विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

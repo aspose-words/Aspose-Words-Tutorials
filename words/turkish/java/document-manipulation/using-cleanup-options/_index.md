@@ -1,26 +1,28 @@
 ---
-title: Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma
-linktitle: Temizleme Seçeneklerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java Temizleme Seçenekleriyle Belge Netliğini Geliştirin. Boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını nasıl kaldıracağınızı öğrenin.
-weight: 10
-url: /tr/java/document-manipulation/using-cleanup-options/
+"description": "Aspose.Words for Java Temizleme Seçenekleriyle Belge Netliğini Geliştirin. Boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını nasıl kaldıracağınızı öğrenin."
+"linktitle": "Temizleme Seçeneklerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma"
+"url": "/tr/java/document-manipulation/using-cleanup-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma
 
 
-## Java için Aspose.Words'de Temizleme Seçeneklerinin Kullanımına Giriş
+## Aspose.Words for Java'da Temizleme Seçeneklerinin Kullanımına Giriş
 
 Bu eğitimde, Aspose.Words for Java'da posta birleştirme işlemi sırasında belgeleri düzenlemek ve temizlemek için temizleme seçeneklerinin nasıl kullanılacağını inceleyeceğiz. Temizleme seçenekleri, boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını kaldırmak gibi belge temizlemenin çeşitli yönlerini kontrol etmenizi sağlar.
 
 ## Ön koşullar
 
- Başlamadan önce, projenize Aspose.Words for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Başlamadan önce, projenize Aspose.Words for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Adım 1: Boş Paragrafları Kaldırma
 
@@ -142,7 +144,7 @@ Bu örnekte, bir tablo ve birleştirme alanları içeren bir belge açıyoruz, t
 
 ## Çözüm
 
-Bu eğitimde, posta birleştirme işlemi sırasında belgeleri düzenlemek ve temizlemek için Aspose.Words for Java'daki temizleme seçeneklerini nasıl kullanacağınızı öğrendiniz. Bu seçenekler, belge temizliği üzerinde ayrıntılı denetim sağlayarak, cilalı ve özelleştirilmiş belgeleri kolaylıkla oluşturmanıza olanak tanır.
+Bu eğitimde, posta birleştirme işlemi sırasında belgeleri düzenlemek ve temizlemek için Aspose.Words for Java'daki temizleme seçeneklerini nasıl kullanacağınızı öğrendiniz. Bu seçenekler, belge temizliği üzerinde ayrıntılı denetim sağlayarak, kolayca cilalı ve özelleştirilmiş belgeler oluşturmanıza olanak tanır.
 
 ## SSS
 
@@ -152,38 +154,43 @@ Aspose.Words for Java'daki temizleme seçenekleri, posta birleştirme işlemi s�
 
 ### Belgemdeki boş paragrafları nasıl kaldırabilirim?
 
- Aspose.Words for Java kullanarak belgenizden boş paragrafları kaldırmak için,`MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` true seçeneğine tıklayın. Bu, içeriği olmayan paragrafları otomatik olarak ortadan kaldırarak daha temiz bir belge elde etmenizi sağlar.
+Aspose.Words for Java kullanarak belgenizden boş paragrafları kaldırmak için, `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` true seçeneğine tıklayın. Bu, içeriği olmayan paragrafları otomatik olarak ortadan kaldırarak daha temiz bir belge elde etmenizi sağlar.
 
-###  Amacı nedir?`REMOVE_UNUSED_REGIONS` cleanup option?
+### Amacı nedir? `REMOVE_UNUSED_REGIONS` temizleme seçeneği?
 
- The`MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` seçeneği, posta birleştirme işlemi sırasında karşılık gelen verisi olmayan bir belgedeki bölgeleri kaldırmak için kullanılır. Kullanılmayan yer tutuculardan kurtularak belgenizin düzenli kalmasına yardımcı olur.
+The `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` seçeneği, posta birleştirme işlemi sırasında karşılık gelen verisi olmayan bir belgedeki bölgeleri kaldırmak için kullanılır. Kullanılmayan yer tutuculardan kurtularak belgenizin düzenli kalmasına yardımcı olur.
 
 ### Aspose.Words for Java kullanarak bir belgeden boş tablo satırlarını kaldırabilir miyim?
 
- Evet, boş tablo satırlarını bir belgeden kaldırmak için şu ayarı yapabilirsiniz:`MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`temizleme seçeneğini true olarak ayarlayın. Bu, veri içermeyen tüm tablo satırlarını otomatik olarak silerek belgenizde iyi yapılandırılmış bir tablo olmasını sağlar.
+Evet, boş tablo satırlarını bir belgeden kaldırmak için şu ayarı yapabilirsiniz: `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` temizleme seçeneğini true olarak ayarlayın. Bu, veri içermeyen tüm tablo satırlarını otomatik olarak silerek belgenizde iyi yapılandırılmış bir tablo olmasını sağlar.
 
-###  Ayarladığımda ne olur?`REMOVE_CONTAINING_FIELDS` option?
+### Ayarladığımda ne olur? `REMOVE_CONTAINING_FIELDS` seçenek?
 
- Ayarlama`MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` seçeneği, birleştirme alanı ve onu içeren paragrafı da dahil olmak üzere birleştirme alanının tamamını, posta birleştirme işlemi sırasında belgeden kaldıracaktır. Bu, birleştirme alanlarını ve ilişkili metinlerini ortadan kaldırmak istediğinizde yararlıdır.
+Ayarlama `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` seçeneği, birleştirme alanı ve onu içeren paragrafı da dahil olmak üzere birleştirme alanının tamamını, posta birleştirme işlemi sırasında belgeden kaldıracaktır. Bu, birleştirme alanlarını ve ilişkili metinlerini ortadan kaldırmak istediğinizde yararlıdır.
 
 ### Kullanılmayan birleştirme alanlarını belgemden nasıl kaldırabilirim?
 
- Kullanılmayan birleştirme alanlarını bir belgeden kaldırmak için,`MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` seçeneğini true olarak ayarlayın. Bu, posta birleştirme sırasında doldurulmayan birleştirme alanlarını otomatik olarak ortadan kaldırarak daha temiz bir belge elde edilmesini sağlar.
+Kullanılmayan birleştirme alanlarını bir belgeden kaldırmak için, `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` seçeneğini true olarak ayarlayın. Bu, posta birleştirme sırasında doldurulmayan birleştirme alanlarını otomatik olarak ortadan kaldırarak daha temiz bir belge elde edilmesini sağlar.
 
-###  Aradaki fark nedir?`REMOVE_EMPTY_FIELDS` and `REMOVE_UNUSED_FIELDS` cleanup options?
+### Aradaki fark nedir? `REMOVE_EMPTY_FIELDS` Ve `REMOVE_UNUSED_FIELDS` temizleme seçenekleri?
 
- The`REMOVE_EMPTY_FIELDS` seçeneği, posta birleştirme işlemi sırasında veri içermeyen veya boş olan birleştirme alanlarını kaldırır. Öte yandan,`REMOVE_UNUSED_FIELDS`seçeneği birleştirme sırasında veriyle doldurulmayan birleştirme alanlarını kaldırır. Aralarındaki seçim, içeriği olmayan alanları mı yoksa belirli birleştirme işleminde kullanılmayan alanları mı kaldırmak istediğinize bağlıdır.
+The `REMOVE_EMPTY_FIELDS` seçeneği, posta birleştirme işlemi sırasında veri içermeyen veya boş olan birleştirme alanlarını kaldırır. Öte yandan, `REMOVE_UNUSED_FIELDS` seçeneği birleştirme sırasında veriyle doldurulmayan birleştirme alanlarını kaldırır. Aralarındaki seçim, içeriği olmayan alanları mı yoksa belirli birleştirme işleminde kullanılmayan alanları mı kaldırmak istediğinize bağlıdır.
 
 ### Noktalama işaretlerinin bulunduğu paragrafların kaldırılmasını nasıl sağlayabilirim?
 
- Noktalama işaretli paragrafların kaldırılmasını etkinleştirmek için,`cleanupParagraphsWithPunctuationMarks` true seçeneğini seçin ve temizlik için dikkate alınacak noktalama işaretlerini belirtin. Bu, gereksiz noktalama işaretlerinden oluşan paragrafları kaldırarak daha rafine bir belge oluşturmanıza olanak tanır.
+Noktalama işaretli paragrafların kaldırılmasını etkinleştirmek için, `cleanupParagraphsWithPunctuationMarks` true seçeneğini seçin ve temizlik için dikkate alınacak noktalama işaretlerini belirtin. Bu, gereksiz noktalama işaretlerinden oluşan paragrafları kaldırarak daha rafine bir belge oluşturmanıza olanak tanır.
 
 ### Aspose.Words for Java'da temizleme seçeneklerini özelleştirebilir miyim?
 
 Evet, temizleme seçeneklerini özel ihtiyaçlarınıza göre özelleştirebilirsiniz. Hangi temizleme seçeneklerinin uygulanacağını seçebilir ve bunları belge temizleme gereksinimlerinize göre yapılandırabilir, böylece nihai belgenizin istediğiniz standartları karşılamasını sağlayabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

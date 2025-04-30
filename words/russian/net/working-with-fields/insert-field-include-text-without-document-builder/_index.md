@@ -1,14 +1,16 @@
 ---
-title: Вставить поле Включить текст без конструктора документов
-linktitle: Вставить FieldIncludeText без конструктора документов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить FieldIncludeText без использования DocumentBuilder в Aspose.Words для .NET, воспользовавшись нашим подробным пошаговым руководством.
-weight: 10
-url: /ru/net/working-with-fields/insert-field-include-text-without-document-builder/
+"description": "Узнайте, как вставить FieldIncludeText без использования DocumentBuilder в Aspose.Words для .NET, воспользовавшись нашим подробным пошаговым руководством."
+"linktitle": "Вставить FieldIncludeText без конструктора документов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле Включить текст без конструктора документов"
+"url": "/ru/net/working-with-fields/insert-field-include-text-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле Включить текст без конструктора документов
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fields/insert-field-include-text-without-document-buil
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки .NET: любая совместимая с .NET среда разработки, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам в дальнейшем изучении.
 
@@ -107,7 +109,7 @@ doc.Save(dataDir + "InsertionFieldFieldIncludeTextWithoutDocumentBuilder.docx");
 Aspose.Words for .NET — мощная библиотека для работы с документами Word в приложениях .NET. Позволяет программно создавать, редактировать и конвертировать документы.
 
 ### Зачем использовать FieldIncludeText?  
-FieldIncludeText полезен для динамического включения содержимого из одного документа в другой, что позволяет создавать более модульные и удобные в обслуживании документы.
+FieldIncludeText полезен для динамического включения контента из одного документа в другой, что позволяет создавать более модульные и удобные в обслуживании документы.
 
 ### Можно ли использовать этот метод для включения текста из других форматов файлов?  
 FieldIncludeText работает специально с документами Word. Для других форматов вам могут понадобиться другие методы или классы, предоставляемые Aspose.Words.
@@ -116,10 +118,15 @@ FieldIncludeText работает специально с документами
 Да, Aspose.Words для .NET поддерживает .NET Framework, .NET Core и .NET 5/6.
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?  
- Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

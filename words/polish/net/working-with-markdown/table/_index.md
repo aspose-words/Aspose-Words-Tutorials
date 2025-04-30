@@ -1,14 +1,16 @@
 ---
-title: Tabela
-linktitle: Tabela
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć i dostosowywać tabele w Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do generowania ustrukturyzowanych i wizualnie atrakcyjnych dokumentów.
-weight: 10
-url: /pl/net/working-with-markdown/table/
+"description": "Dowiedz się, jak tworzyć i dostosowywać tabele w Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do generowania ustrukturyzowanych i wizualnie atrakcyjnych dokumentów."
+"linktitle": "Tabela"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Tabela"
+"url": "/pl/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabela
@@ -22,7 +24,7 @@ Praca z tabelami w dokumentach jest powszechnym wymogiem. Niezależnie od tego, 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Visual Studio: Potrzebujesz środowiska programistycznego, aby pisać i testować swój kod. Visual Studio jest dobrym wyborem.
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jej nie masz, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Jeśli jej nie masz, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość języka C#: Aby móc korzystać z kursu, konieczna jest pewna znajomość programowania w języku C#.
 
 ## Importuj przestrzenie nazw
@@ -85,22 +87,26 @@ Tworzenie i dostosowywanie tabel w Aspose.Words dla .NET jest proste, gdy już s
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać więcej niż dwie komórki z rzędu?
- Tak, możesz dodać tyle komórek, ile potrzebujesz w rzędzie, powtarzając`InsertCell()` I`Writeln()` metody.
+Tak, możesz dodać tyle komórek, ile potrzebujesz w rzędzie, powtarzając `InsertCell()` I `Writeln()` metody.
 
 ### Jak mogę połączyć komórki w tabeli?
- Możesz scalić komórki za pomocą`CellFormat.HorizontalMerge` I`CellFormat.VerticalMerge` Właściwości.
+Możesz scalić komórki za pomocą `CellFormat.HorizontalMerge` I `CellFormat.VerticalMerge` Właściwości.
 
 ### Czy można dodawać obrazy do komórek tabeli?
- Oczywiście! Możesz wstawiać obrazy do komórek za pomocą`DocumentBuilder.InsertImage` metoda.
+Oczywiście! Możesz wstawiać obrazy do komórek za pomocą `DocumentBuilder.InsertImage` metoda.
 
 ### Czy mogę nadać poszczególnym komórkom inny styl?
- Tak, możesz stosować różne style do poszczególnych komórek, uzyskując do nich dostęp za pomocą`Cells` kolekcja wiersza.
+Tak, możesz stosować różne style do poszczególnych komórek, uzyskując do nich dostęp za pomocą `Cells` kolekcja wiersza.
 
 ### Jak usunąć obramowania z tabeli?
- Możesz usunąć obramowania, ustawiając styl obramowania na`LineStyle.None` dla każdego rodzaju obramowania.
+Możesz usunąć obramowania, ustawiając styl obramowania na `LineStyle.None` dla każdego rodzaju obramowania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

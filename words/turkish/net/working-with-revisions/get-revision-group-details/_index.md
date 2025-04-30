@@ -1,14 +1,16 @@
 ---
-title: Revizyon Grubu Ayrıntılarını Alın
-linktitle: Revizyon Grubu Ayrıntılarını Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki revizyon grubu ayrıntılarını kolayca edinin. .NET geliştiricileri için mükemmel.
-weight: 10
-url: /tr/net/working-with-revisions/get-revision-group-details/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki revizyon grubu ayrıntılarını kolayca edinin. .NET geliştiricileri için mükemmel."
+"linktitle": "Revizyon Grubu Ayrıntılarını Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Revizyon Grubu Ayrıntılarını Alın"
+"url": "/tr/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Revizyon Grubu Ayrıntılarını Alın
@@ -20,7 +22,7 @@ Hiç Word belgesinde revizyonların ince ayrıntılarına dalmanız gerektiğini
 ## Ön koşullar
 
 Bu kodlama yolculuğuna başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
--  Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. Değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - .NET Ortamı: Çalışan bir .NET geliştirme ortamı kurduğunuzdan emin olun. Visual Studio harika bir seçenektir.
 - Revizyonları Olan Bir Word Belgesi: Bu eğitim için, revizyonları olan bir örnek Word belgesi kullanacağız (`Revisions.docx`).
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Bu kod parçacığında şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolu ile. Bu kod yükleyecek`Revisions.docx` dosyaya koy`doc` nesne.
+Bu kod parçacığında şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolu ile. Bu kod yükleyecek `Revisions.docx` dosyaya koy `doc` nesne.
 
 ## Adım 2: Revizyon Koleksiyonuna Erişim
 
- Şimdi belgedeki revizyonlara erişelim. Aspose.Words bir`Revisions` İçinde yineleme yapabileceğimiz bir koleksiyon.
+Şimdi belgedeki revizyonlara erişelim. Aspose.Words bir `Revisions` İçinde yineleme yapabileceğimiz bir koleksiyon.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -106,16 +108,21 @@ Word belgelerini programlı bir şekilde oluşturmak, düzenlemek, dönüştürm
 Kesinlikle! C#, VB.NET ve ASP.NET dahil olmak üzere herhangi bir .NET diliyle kullanabilirsiniz.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

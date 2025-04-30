@@ -1,14 +1,16 @@
 ---
-title: Osadź czcionki w dokumencie PDF
-linktitle: Osadź czcionki w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Osadzaj czcionki w dokumentach PDF bez wysiłku, korzystając z Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Zapewnij spójny wygląd na wszystkich urządzeniach.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/embedded-all-fonts/
+"description": "Osadzaj czcionki w dokumentach PDF bez wysiłku, korzystając z Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Zapewnij spójny wygląd na wszystkich urządzeniach."
+"linktitle": "Osadź czcionki w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Osadź czcionki w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/embedded-all-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Osadź czcionki w dokumencie PDF
@@ -21,12 +23,12 @@ Hej, entuzjaści technologii! Czy kiedykolwiek znalazłeś się w tarapatach, pr
 
 Zanim przejdziemy do przewodnika krok po kroku, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub dowolne zgodne środowisko programistyczne .NET.
 3. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# ułatwi Ci zrozumienie tekstu.
 4. Przykładowy dokument Word: Posiadam przykładowy dokument Word (`Rendering.docx`) gotowe w Twoim katalogu dokumentów.
 
- Jeśli jeszcze nie masz Aspose.Words dla .NET, skorzystaj z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/) lub kup[Tutaj](https://purchase.aspose.com/buy) . Potrzebujesz tymczasowej licencji? Możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+Jeśli jeszcze nie masz Aspose.Words dla .NET, skorzystaj z bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/) lub kup [Tutaj](https://purchase.aspose.com/buy). Potrzebujesz tymczasowej licencji? Możesz ją uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -48,27 +50,27 @@ Zanim zagłębisz się w kod, musisz skonfigurować katalog dokumentów. Tutaj z
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów. To tutaj będzie się dziać cała magia!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką do katalogu dokumentów. To tutaj będzie się dziać cała magia!
 
 ## Krok 2: Załaduj swój dokument Word
 
- Następnie załadujesz dokument Word do Aspose.Words`Document` obiekt. To jest dokument, z którym będziesz pracować.
+Następnie załadujesz dokument Word do Aspose.Words `Document` obiekt. To jest dokument, z którym będziesz pracować.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- W tym wierszu tworzymy nowy`Document` obiekt i załaduj`Rendering.docx` plik z naszego katalogu dokumentów.
+W tym wierszu tworzymy nowy `Document` obiekt i załaduj `Rendering.docx` plik z naszego katalogu dokumentów.
 
 ## Krok 3: Skonfiguruj opcje zapisywania pliku PDF
 
- Teraz czas skonfigurować opcje zapisywania PDF. Dokładniej, ustawimy`EmbedFullFonts`nieruchomość do`true` aby mieć pewność, że wszystkie czcionki użyte w dokumencie zostaną osadzone w pliku PDF.
+Teraz czas skonfigurować opcje zapisywania PDF. Dokładniej, ustawimy `EmbedFullFonts` nieruchomość do `true` aby mieć pewność, że wszystkie czcionki użyte w dokumencie zostaną osadzone w pliku PDF.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { EmbedFullFonts = true };
 ```
 
- Ta linia tworzy nowy`PdfSaveOptions` obiekt i ustawia`EmbedFullFonts`nieruchomość do`true`. Dzięki temu gwarantowane jest, że wygenerowany plik PDF będzie zawierał wszystkie czcionki użyte w dokumencie.
+Ta linia tworzy nowy `PdfSaveOptions` obiekt i ustawia `EmbedFullFonts` nieruchomość do `true`. Dzięki temu gwarantowane jest, że wygenerowany plik PDF będzie zawierał wszystkie czcionki użyte w dokumencie.
 
 ## Krok 4: Zapisz dokument jako PDF
 
@@ -87,10 +89,10 @@ I masz! Udało Ci się osadzić czcionki w dokumencie PDF za pomocą Aspose.Word
 ## Najczęściej zadawane pytania
 
 ### Dlaczego warto osadzać czcionki w plikach PDF?
-Osadzanie czcionek zapewnia, że dokument będzie wyglądał tak samo na wszystkich urządzeniach, niezależnie od czcionek zainstalowanych w systemie przeglądarki.
+Osadzanie czcionek gwarantuje, że dokument będzie wyglądał tak samo na wszystkich urządzeniach, niezależnie od czcionek zainstalowanych w systemie przeglądarki.
 
 ### Czy mogę wybrać konkretne czcionki do osadzenia?
- Tak, możesz dostosować, które czcionki mają być osadzone, korzystając z różnych`PdfSaveOptions` Właściwości.
+Tak, możesz dostosować, które czcionki mają być osadzone, korzystając z różnych `PdfSaveOptions` Właściwości.
 
 ### Czy osadzanie czcionek zwiększa rozmiar pliku?
 Tak, osadzanie czcionek może zwiększyć rozmiar pliku PDF, ale zapewnia spójny wygląd na różnych urządzeniach.
@@ -99,10 +101,15 @@ Tak, osadzanie czcionek może zwiększyć rozmiar pliku PDF, ale zapewnia spójn
 Aspose.Words for .NET oferuje bezpłatną wersję próbną, ale aby korzystać ze wszystkich funkcji, należy zakupić licencję.
 
 ### Czy mogę osadzać czcionki w innych formatach dokumentów za pomocą Aspose.Words dla .NET?
-Tak, Aspose.Words for .NET obsługuje różne formaty dokumentów, a w wielu z nich można osadzać czcionki.
+Tak, Aspose.Words dla platformy .NET obsługuje różne formaty dokumentów, a w wielu z nich można osadzać czcionki.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

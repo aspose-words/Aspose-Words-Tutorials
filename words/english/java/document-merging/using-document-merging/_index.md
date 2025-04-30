@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-merging/using-document-merging/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Document Merging
@@ -219,9 +222,13 @@ Yes, Aspose.Words for Java is compatible with Java 8 and newer versions. It's al
 
 Yes, Aspose.Words for Java can load documents from various sources, including URLs, streams, and file paths. You can merge documents fetched from remote locations seamlessly.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

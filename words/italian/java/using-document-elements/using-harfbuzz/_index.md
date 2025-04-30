@@ -1,58 +1,60 @@
 ---
-title: Utilizzo di HarfBuzz in Aspose.Words per Java
-linktitle: Utilizzo di HarfBuzz
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Impara a usare HarfBuzz per la modellazione avanzata del testo in Aspose.Words per Java. Migliora il rendering del testo in script complessi con questa guida passo-passo.
-weight: 15
-url: /it/java/using-document-elements/using-harfbuzz/
+"description": "Impara a usare HarfBuzz per la modellazione avanzata del testo in Aspose.Words per Java. Migliora il rendering del testo negli script complessi con questa guida passo passo."
+"linktitle": "Utilizzo di HarfBuzz"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Utilizzo di HarfBuzz in Aspose.Words per Java"
+"url": "/it/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilizzo di HarfBuzz in Aspose.Words per Java
 
 
-Aspose.Words for Java è una potente API che consente agli sviluppatori di lavorare con documenti Word in applicazioni Java. Fornisce varie funzionalità per manipolare e generare documenti Word, tra cui la modellazione del testo. In questo tutorial passo dopo passo, esploreremo come utilizzare HarfBuzz per la modellazione del testo in Aspose.Words for Java.
+Aspose.Words per Java è una potente API che consente agli sviluppatori di lavorare con documenti Word nelle applicazioni Java. Offre diverse funzionalità per manipolare e generare documenti Word, tra cui la modellazione del testo. In questo tutorial passo passo, esploreremo come utilizzare HarfBuzz per la modellazione del testo in Aspose.Words per Java.
 
 ## Introduzione a HarfBuzz
 
-HarfBuzz è un motore di text shaping open source che supporta script e lingue complesse. È ampiamente utilizzato per il rendering di testo in varie lingue, in particolare quelle che richiedono funzionalità di text shaping avanzate, come gli script arabo, persiano e indiano.
+HarfBuzz è un motore di text shaping open source che supporta alfabeti e lingue complesse. È ampiamente utilizzato per il rendering di testi in diverse lingue, in particolare quelle che richiedono funzionalità di text shaping avanzate, come l'arabo, il persiano e l'alfabeto indiano.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
 - Libreria Aspose.Words per Java installata.
-- Impostazione dell'ambiente di sviluppo Java.
+- Configurazione dell'ambiente di sviluppo Java.
 - Esempio di documento Word a scopo di test.
 
-## Fase 1: Impostazione del progetto
+## Passaggio 1: impostazione del progetto
 
 Per iniziare, crea un nuovo progetto Java e includi la libreria Aspose.Words per Java nelle dipendenze del progetto.
 
 ## Passaggio 2: caricamento di un documento Word
 
- In questo passaggio, caricheremo un documento Word di esempio con cui vogliamo lavorare. Sostituisci`"Your Document Directory"` con il percorso effettivo del tuo documento Word:
+In questo passaggio, caricheremo un documento Word di esempio con cui vogliamo lavorare. Sostituisci `"Your Document Directory"` con il percorso effettivo del tuo documento Word:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "SampleDocument.docx");
 ```
 
-## Passaggio 3: Configurazione della modellazione del testo con HarfBuzz
+## Passaggio 3: Configurazione del Text Shaping con HarfBuzz
 
-Per abilitare la modellazione del testo di HarfBuzz, dobbiamo impostare la fabbrica della modellazione del testo nelle opzioni di layout del documento:
+Per abilitare la modellazione del testo di HarfBuzz, dobbiamo impostare la fabbrica di modellazione del testo nelle opzioni di layout del documento:
 
 ```java
-// Abilita la modellazione del testo HarfBuzz
+// Abilita la modellazione del testo di HarfBuzz
 doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstance());
 ```
 
 ## Passaggio 4: salvataggio del documento
 
- Ora che abbiamo configurato la modellazione del testo di HarfBuzz, possiamo salvare il documento. Sostituisci`"Your Output Directory"` con la directory di output e il nome file desiderati:
+Ora che abbiamo configurato la modellazione del testo di HarfBuzz, possiamo salvare il documento. Sostituisci `"Your Output Directory"` con la directory di output e il nome del file desiderati:
 
 ```java
 String outPath = "Your Output Directory";
@@ -72,17 +74,17 @@ doc.save(outPath + "WorkingWithHarfBuzz.OpenTypeFeatures.pdf");
 
 ## Conclusione
 
-In questo tutorial, abbiamo imparato come usare HarfBuzz per la modellazione del testo in Aspose.Words per Java. Seguendo questi passaggi, puoi migliorare le capacità di elaborazione dei tuoi documenti Word e garantire il rendering corretto di script e linguaggi complessi.
+In questo tutorial, abbiamo imparato come utilizzare HarfBuzz per la modellazione del testo in Aspose.Words per Java. Seguendo questi passaggi, è possibile migliorare le capacità di elaborazione dei documenti Word e garantire il corretto rendering di script e linguaggi complessi.
 
 ## Domande frequenti
 
 ### 1. Che cos'è HarfBuzz?
 
-HarfBuzz è un motore di modellazione del testo open source che supporta linguaggi e script complessi, rendendolo essenziale per la corretta visualizzazione del testo.
+HarfBuzz è un motore di modellazione del testo open source che supporta linguaggi e script complessi, rendendolo essenziale per una corretta visualizzazione del testo.
 
 ### 2. Perché utilizzare HarfBuzz con Aspose.Words?
 
-HarfBuzz potenzia le capacità di modellazione del testo di Aspose.Words, garantendo una resa accurata di linguaggi e script complessi.
+HarfBuzz potenzia le capacità di modellazione del testo di Aspose.Words, garantendo un rendering accurato di linguaggi e script complessi.
 
 ### 3. Posso usare HarfBuzz con altri prodotti Aspose?
 
@@ -94,12 +96,17 @@ Sì, HarfBuzz è compatibile con le applicazioni Java e può essere facilmente i
 
 ### 5. Dove posso trovare maggiori informazioni su Aspose.Words per Java?
 
-Puoi trovare documentazione dettagliata e risorse per Aspose.Words per Java su[Documentazione API Aspose.Words](https://reference.aspose.com/words/java/).
+Puoi trovare documentazione dettagliata e risorse per Aspose.Words per Java su [Documentazione API di Aspose.Words](https://reference.aspose.com/words/java/).
 
-Ora che hai una conoscenza completa dell'uso di HarfBuzz in Aspose.Words per Java, puoi iniziare a incorporare funzionalità avanzate di text shaping nelle tue applicazioni Java. Buona codifica!
+Ora che hai una conoscenza approfondita dell'utilizzo di HarfBuzz in Aspose.Words per Java, puoi iniziare a integrare funzionalità avanzate di text shaping nelle tue applicazioni Java. Buon lavoro!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

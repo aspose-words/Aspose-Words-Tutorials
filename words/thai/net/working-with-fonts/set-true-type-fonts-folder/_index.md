@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าโฟลเดอร์แบบอักษร True Type
-linktitle: ตั้งค่าโฟลเดอร์แบบอักษร True Type
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าโฟลเดอร์แบบอักษร True Type ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อให้แน่ใจว่าการจัดการแบบอักษรมีความสอดคล้องกัน
-weight: 10
-url: /th/net/working-with-fonts/set-true-type-fonts-folder/
+"description": "เรียนรู้วิธีตั้งค่าโฟลเดอร์แบบอักษร True Type ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อให้แน่ใจว่าการจัดการแบบอักษรมีความสอดคล้องกัน"
+"linktitle": "ตั้งค่าโฟลเดอร์แบบอักษร True Type"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าโฟลเดอร์แบบอักษร True Type"
+"url": "/th/net/working-with-fonts/set-true-type-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าโฟลเดอร์แบบอักษร True Type
@@ -21,7 +23,7 @@ url: /th/net/working-with-fonts/set-true-type-fonts-folder/
 
 ก่อนที่เราจะลงรายละเอียด มาดูข้อกำหนดเบื้องต้นบางประการเพื่อให้แน่ใจว่าคุณพร้อมสำหรับความสำเร็จกันก่อน:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 4. เอกสารตัวอย่าง: เตรียมเอกสาร Word ที่คุณต้องการใช้งานไว้
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารของคุณ
 
- เริ่มต้นด้วยการโหลดเอกสารของคุณ เราจะใช้`Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสาร Word ที่มีอยู่
+เริ่มต้นด้วยการโหลดเอกสารของคุณ เราจะใช้ `Document` คลาสจาก Aspose.Words เพื่อโหลดเอกสาร Word ที่มีอยู่
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 2: เริ่มต้นการตั้งค่า FontSettings
 
- ต่อไปเราจะสร้างอินสแตนซ์ของ`FontSettings`คลาส คลาสนี้ช่วยให้เราปรับแต่งวิธีการจัดการแบบอักษรในเอกสารของเราได้
+ต่อไปเราจะสร้างอินสแตนซ์ของ `FontSettings` คลาส คลาสนี้ช่วยให้เราปรับแต่งวิธีการจัดการแบบอักษรในเอกสารของเราได้
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -69,7 +71,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts\", false);
 เมื่อกำหนดค่าแบบอักษรเรียบร้อยแล้ว เราจะนำการตั้งค่าเหล่านี้ไปใช้กับเอกสาร ขั้นตอนนี้มีความสำคัญเพื่อให้แน่ใจว่าเอกสารของเราใช้แบบอักษรที่ระบุ
 
 ```csharp
-// ตั้งค่าแบบอักษร
+// ตั้งค่าฟอนต์
 doc.FontSettings = fontSettings;
 ```
 
@@ -88,22 +90,27 @@ doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้โฟลเดอร์ฟอนต์หลายโฟลเดอร์ได้หรือไม่
- ใช่ คุณสามารถใช้โฟลเดอร์แบบอักษรหลายโฟลเดอร์ได้โดยการรวม`FontSettings.GetFontSources` และ`FontSettings.SetFontSources`.
+ใช่ คุณสามารถใช้โฟลเดอร์แบบอักษรหลายโฟลเดอร์ได้โดยการรวม `FontSettings.GetFontSources` และ `FontSettings-SetFontSources`.
 
 ### จะเกิดอะไรขึ้นถ้าโฟลเดอร์ฟอนต์ที่ระบุไม่มีอยู่?
 ถ้าไม่มีโฟลเดอร์ฟอนต์ที่ระบุ Aspose.Words จะไม่สามารถระบุตำแหน่งฟอนต์ได้ และจะใช้ฟอนต์ระบบเริ่มต้นแทน
 
 ### ฉันสามารถกลับไปใช้การตั้งค่าฟอนต์เริ่มต้นได้หรือไม่
- ใช่ คุณสามารถกลับไปใช้การตั้งค่าแบบอักษรเริ่มต้นได้โดยการรีเซ็ต`FontSettings` ตัวอย่าง.
+ใช่ คุณสามารถกลับไปใช้การตั้งค่าแบบอักษรเริ่มต้นได้โดยการรีเซ็ต `FontSettings` ตัวอย่าง.
 
 ### สามารถฝังฟอนต์ลงในเอกสารได้หรือไม่
 ใช่ Aspose.Words อนุญาตให้คุณฝังแบบอักษรในเอกสารเพื่อให้แน่ใจว่ามีความสอดคล้องกันในอุปกรณ์ต่างๆ
 
 ### ฉันสามารถบันทึกเอกสารของฉันในรูปแบบใดได้บ้าง?
 Aspose.Words รองรับรูปแบบต่างๆ เช่น PDF, DOCX, HTML และอื่นๆ อีกมากมาย
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

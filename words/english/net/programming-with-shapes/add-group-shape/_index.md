@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/add-group-shape/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Group Shape
@@ -142,9 +145,13 @@ Yes, you can add text to shapes using the `AppendChild` method to add a `Paragra
 ### Is it possible to group shapes dynamically based on user input?
 Yes, you can dynamically create and group shapes based on user input by adjusting the properties and methods accordingly.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

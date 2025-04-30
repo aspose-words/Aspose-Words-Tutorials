@@ -1,17 +1,19 @@
 ---
-title: Mit Lesezeichen versehenen Text im Word-Dokument anhängen
-linktitle: Mit Lesezeichen versehenen Text im Word-Dokument anhängen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET mit Lesezeichen versehenen Text in ein Word-Dokument einfügen. Perfekt für Entwickler.
-weight: 10
-url: /de/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET markierten Text in ein Word-Dokument einfügen. Perfekt für Entwickler."
+"linktitle": "Mit Lesezeichen versehenen Text in Word-Dokument anhängen"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Mit Lesezeichen versehenen Text in Word-Dokument anhängen"
+"url": "/de/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mit Lesezeichen versehenen Text im Word-Dokument anhängen
+# Mit Lesezeichen versehenen Text in Word-Dokument anhängen
 
 ## Einführung
 
@@ -21,14 +23,14 @@ Hallo! Haben Sie schon einmal versucht, Text aus einem mit Lesezeichen versehene
 
 Bevor wir beginnen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
--  Aspose.Words für .NET: Stellen Sie sicher, dass Sie es installiert haben. Wenn nicht, können Sie[Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
+- Aspose.Words für .NET: Stellen Sie sicher, dass es installiert ist. Falls nicht, können Sie [Laden Sie es hier herunter](https://releases.aspose.com/words/net/).
 - Entwicklungsumgebung: Jede .NET-Entwicklungsumgebung wie Visual Studio.
 - Grundkenntnisse in C#: Das Verständnis der grundlegenden C#-Programmierkonzepte ist hilfreich.
 - Word-Dokument mit Lesezeichen: Ein Word-Dokument mit eingerichteten Lesezeichen, aus denen wir Text anhängen.
 
 ## Namespaces importieren
 
-Als Erstes importieren wir die erforderlichen Namespaces. So stellen wir sicher, dass wir alle erforderlichen Tools zur Hand haben.
+Zuerst importieren wir die erforderlichen Namespaces. So haben wir alle benötigten Tools zur Hand.
 
 ```csharp
 using System;
@@ -54,9 +56,9 @@ NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSo
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["YourBookmarkName"];
 ```
 
-## Schritt 2: Identifizieren Sie die Anfangs- und Endabsätze
+## Schritt 2: Identifizieren Sie den Anfangs- und Endabsatz
 
-Suchen wir nun die Absätze, in denen das Lesezeichen beginnt und endet. Dies ist wichtig, da wir den Text innerhalb dieser Grenzen verarbeiten müssen.
+Suchen wir nun die Absätze, in denen das Lesezeichen beginnt und endet. Dies ist wichtig, da wir den Text innerhalb dieser Grenzen bearbeiten müssen.
 
 ```csharp
 // Dies ist der Absatz, der den Anfang des Lesezeichens enthält.
@@ -69,9 +71,9 @@ if (startPara == null || endPara == null)
     throw new InvalidOperationException("Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet.");
 ```
 
-## Schritt 3: Überprüfen Sie die übergeordneten Absätze
+## Schritt 3: Überprüfen der übergeordneten Absätze
 
-Wir müssen sicherstellen, dass Anfangs- und Endabsatz denselben übergeordneten Absatz haben. Dies ist ein einfaches Szenario, um die Dinge unkompliziert zu halten.
+Wir müssen sicherstellen, dass Anfangs- und Endabsatz denselben übergeordneten Absatz haben. Dies ist ein einfaches Szenario, um die Dinge übersichtlich zu halten.
 
 ```csharp
 // Beschränken wir uns auf ein einigermaßen einfaches Szenario.
@@ -79,25 +81,25 @@ if (startPara.ParentNode != endPara.ParentNode)
     throw new InvalidOperationException("Start and end paragraphs have different parents, cannot handle this scenario yet.");
 ```
 
-## Schritt 4: Identifizieren des zu stoppenden Knotens
+## Schritt 4: Identifizieren Sie den zu stoppenden Knoten
 
 Als Nächstes müssen wir den Knoten bestimmen, an dem wir mit dem Kopieren des Textes aufhören. Dies ist der Knoten unmittelbar nach dem letzten Absatz.
 
 ```csharp
-// Wir wollen alle Absätze vom Anfangsabsatz bis einschließlich zum Endabsatz kopieren,
-// Daher ist der Knoten, bei dem wir aufhören, einer nach dem Endabsatz.
+// Wir möchten alle Absätze vom Anfangsabsatz bis einschließlich zum Endabsatz kopieren.
+// Daher ist der Knoten, an dem wir aufhören, einer nach dem letzten Absatz.
 Node endNode = endPara.NextSibling;
 ```
 
-## Schritt 5: Mit Lesezeichen versehenen Text an Zieldokument anhängen
+## Schritt 5: Mit Lesezeichen versehenen Text an das Zieldokument anhängen
 
 Lassen Sie uns abschließend die Knoten vom Startabsatz bis zum Knoten nach dem Endabsatz durchlaufen und sie an das Zieldokument anhängen.
 
 ```csharp
 for (Node curNode = startPara; curNode != endNode; curNode = curNode.NextSibling)
 {
-    // Dadurch wird eine Kopie des aktuellen Knotens erstellt und in den Kontext importiert (gültig gemacht).
-    // des Zieldokuments. Beim Importieren werden Stile und Listenkennungen richtig angepasst.
+    // Dadurch wird eine Kopie des aktuellen Knotens erstellt und im Kontext importiert (gültig gemacht).
+    // des Zieldokuments. Beim Importieren werden Stile und Listenkennungen korrekt angepasst.
     Node newNode = importer.ImportNode(curNode, true);
 
     // Hängen Sie den importierten Knoten an das Zieldokument an.
@@ -110,7 +112,7 @@ dstDoc.Save("appended_document.docx");
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich Text aus einem mit Lesezeichen versehenen Abschnitt in einem Word-Dokument mithilfe von Aspose.Words für .NET angehängt. Dieses leistungsstarke Tool macht die Dokumentbearbeitung zum Kinderspiel, und jetzt haben Sie noch einen weiteren Trick im Ärmel. Viel Spaß beim Programmieren!
+Und da haben Sie es! Sie haben erfolgreich Text aus einem mit Lesezeichen versehenen Abschnitt in einem Word-Dokument mit Aspose.Words für .NET angehängt. Dieses leistungsstarke Tool macht die Dokumentbearbeitung zum Kinderspiel, und jetzt haben Sie noch einen weiteren Trick im Ärmel. Viel Spaß beim Programmieren!
 
 ## Häufig gestellte Fragen
 
@@ -121,16 +123,21 @@ Ja, Sie können den Vorgang für jedes Lesezeichen wiederholen und den Text ents
 Im vorliegenden Beispiel wird davon ausgegangen, dass sie denselben übergeordneten Knoten haben. Bei unterschiedlichen übergeordneten Knoten ist eine komplexere Handhabung erforderlich.
 
 ### Kann ich die ursprüngliche Formatierung des angehängten Textes beibehalten?
- Absolut! Die`ImportFormatMode.KeepSourceFormatting` stellt sicher, dass die ursprüngliche Formatierung erhalten bleibt.
+Absolut! Die `ImportFormatMode.KeepSourceFormatting` stellt sicher, dass die ursprüngliche Formatierung erhalten bleibt.
 
-### Ist es möglich, Text an einer bestimmten Stelle im Zieldokument anzuhängen?
+### Ist es möglich, Text an einer bestimmten Position im Zieldokument anzuhängen?
 Ja, Sie können den Text an jeder beliebigen Stelle anfügen, indem Sie zum gewünschten Knoten im Zieldokument navigieren.
 
 ### Was ist, wenn ich Text aus einem Lesezeichen an einen neuen Abschnitt anhängen muss?
 Sie können im Zieldokument einen neuen Abschnitt erstellen und den Text dort anhängen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Üstbilgi Altbilgi İçeriğini Sil
-linktitle: Üstbilgi Altbilgi İçeriğini Sil
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki başlıkları ve alt bilgileri nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, verimli belge yönetimini garanti eder.
-weight: 10
-url: /tr/net/working-with-section/delete-header-footer-content/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki başlıkları ve alt bilgileri nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, verimli belge yönetimini garanti eder."
+"linktitle": "Üstbilgi Altbilgi İçeriğini Sil"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Üstbilgi Altbilgi İçeriğini Sil"
+"url": "/tr/net/working-with-section/delete-header-footer-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Üstbilgi Altbilgi İçeriğini Sil
@@ -21,14 +23,14 @@ Merhaba, Word belge sorumluları! 📝 Hiç Word belgenizdeki başlıkları ve a
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: En son sürümü indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: En son sürümü indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi .NET uyumlu bir IDE.
 3. Temel C# Bilgisi: C#'a aşina olmak takip etmenize yardımcı olacaktır.
 4. Örnek Word Belgesi: Test etmek için bir Word belgeniz hazır olsun.
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle Aspose.Words sınıflarına ve metodlarına erişmek için gerekli namespace'leri import etmemiz gerekiyor.
+Öncelikle Aspose.Words sınıflarına ve metotlarına erişmek için gerekli namespace'leri import etmemiz gerekiyor.
 
 ```csharp
 using Aspose.Words;
@@ -40,7 +42,7 @@ Bu ad alanı, Aspose.Words kullanarak Word belgeleriyle çalışmak için gerekl
 
 Koda geçmeden önce Aspose.Words kütüphanesinin yüklü olduğundan ve örnek bir Word belgesinin hazır olduğundan emin olun.
 
-1.  Aspose.Words'ü indirin ve yükleyin: Edinin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words'ü indirin ve yükleyin: Edinin [Burada](https://releases.aspose.com/words/net/).
 2. Projenizi Kurun: Visual Studio'yu açın ve yeni bir .NET projesi oluşturun.
 3. Aspose.Words Referansını Ekle: Projenize Aspose.Words kütüphanesini ekleyin.
 
@@ -49,14 +51,14 @@ Koda geçmeden önce Aspose.Words kütüphanesinin yüklü olduğundan ve örnek
 İlk yapmamız gereken, header ve footer içeriğini silmek istediğimiz Word belgesini yüklemek.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 - `string dataDir = "YOUR DOCUMENT DIRECTORY";` Belgenizin saklandığı dizin yolunu belirtir.
-- `Document doc = new Document(dataDir + "Document.docx");` Word belgesini yükler`doc` nesne.
+- `Document doc = new Document(dataDir + "Document.docx");` Word belgesini yükler `doc` nesne.
 
 ## Adım 3: Bölüme Erişim
 
@@ -86,7 +88,7 @@ Son olarak, değişikliklerin uygulandığından emin olmak için değiştirdiğ
 doc.Save(dataDir + "Document_Without_Headers_Footers.docx");
 ```
 
- Yer değiştirmek`dataDir + "Document_Without_Headers_Footers.docx"` Değiştirilmiş belgenizi kaydetmek istediğiniz gerçek yol ile. Bu kod satırı güncellenmiş Word dosyasını başlıklar ve altbilgiler olmadan kaydeder.
+Yer değiştirmek `dataDir + "Document_Without_Headers_Footers.docx"` Değiştirilmiş belgenizi kaydetmek istediğiniz gerçek yol ile. Bu kod satırı güncellenmiş Word dosyasını başlıklar ve altbilgiler olmadan kaydeder.
 
 ## Çözüm
 
@@ -96,7 +98,7 @@ Ve işte oldu! 🎉 Aspose.Words for .NET kullanarak bir Word belgesinden başl�
 
 ### Bir belgedeki tüm bölümlerden üstbilgileri ve altbilgileri nasıl temizlerim?
 
- Belgedeki her bölümü yineleyebilir ve çağırabilirsiniz`ClearHeadersFooters()` Her bölüm için bir yöntem.
+Belgedeki her bölümü yineleyebilir ve çağırabilirsiniz `ClearHeadersFooters()` Her bölüm için bir yöntem.
 
 ```csharp
 foreach (Section section in doc.Sections)
@@ -107,11 +109,11 @@ foreach (Section section in doc.Sections)
 
 ### Sadece başlığı mı yoksa sadece alt bilgiyi mi temizleyebilirim?
 
- Evet, yalnızca üstbilgiyi veya altbilgiyi şuraya erişerek temizleyebilirsiniz:`HeadersFooters` bölümün toplanması ve belirli üstbilgi veya altbilginin kaldırılması.
+Evet, yalnızca üstbilgiyi veya altbilgiyi şuraya erişerek temizleyebilirsiniz: `HeadersFooters` bölümün toplanması ve belirli üstbilgi veya altbilginin kaldırılması.
 
 ### Bu yöntem her türlü başlık ve alt bilgiyi kaldırır mı?
 
- Evet,`ClearHeadersFooters()` ilk sayfa, tek ve çift sayfa üstbilgileri ve altbilgileri dahil olmak üzere tüm üstbilgileri ve altbilgileri kaldırır.
+Evet, `ClearHeadersFooters()` ilk sayfa, tek ve çift sayfa üstbilgileri ve altbilgileri dahil olmak üzere tüm üstbilgileri ve altbilgileri kaldırır.
 
 ### Aspose.Words for .NET Word belgelerinin tüm sürümleriyle uyumlu mudur?
 
@@ -119,11 +121,16 @@ Evet, Aspose.Words DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çeşitli 
 
 ### Aspose.Words for .NET'i ücretsiz deneyebilir miyim?
 
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

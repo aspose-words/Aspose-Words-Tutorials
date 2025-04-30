@@ -1,14 +1,16 @@
 ---
-title: Kiểm soát ngưỡng phơi bày cho Tiff nhị phân hóa
-linktitle: Kiểm soát ngưỡng phơi bày cho Tiff nhị phân hóa
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập ngưỡng kiểm soát cho việc nhị phân hóa TIFF trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/
+"description": "Tìm hiểu cách thiết lập ngưỡng kiểm soát cho việc nhị phân hóa TIFF trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Kiểm soát ngưỡng phơi bày cho Tiff nhị phân hóa"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kiểm soát ngưỡng phơi bày cho Tiff nhị phân hóa"
+"url": "/vi/net/programming-with-imagesaveoptions/expose-threshold-control-for-tiff-binarization/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm soát ngưỡng phơi bày cho Tiff nhị phân hóa
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để kiểm soát ngưỡng cho
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/) . Nếu bạn chưa có giấy phép, bạn có thể xin cấp[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/). Nếu bạn chưa có giấy phép, bạn có thể xin cấp [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với C# sẽ hữu ích, nhưng đừng lo lắng nếu bạn là người mới—chúng tôi sẽ phân tích mọi thứ.
 
@@ -43,21 +45,21 @@ Trước tiên, bạn cần thiết lập đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Tải tài liệu của bạn
 
- Tiếp theo, chúng ta cần tải tài liệu mà chúng ta muốn xử lý. Trong ví dụ này, chúng ta sẽ sử dụng một tài liệu có tên`Rendering.docx`.
+Tiếp theo, chúng ta cần tải tài liệu mà chúng ta muốn xử lý. Trong ví dụ này, chúng ta sẽ sử dụng một tài liệu có tên `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Dòng mã này tạo ra một cái mới`Document` đối tượng và tải tệp được chỉ định.
+Dòng mã này tạo ra một cái mới `Document` đối tượng và tải tệp được chỉ định.
 
 ## Bước 3: Cấu hình tùy chọn lưu hình ảnh
 
- Bây giờ đến phần thú vị! Chúng ta cần cấu hình các tùy chọn lưu hình ảnh để kiểm soát quá trình nhị phân hóa TIFF. Chúng ta sẽ sử dụng`ImageSaveOptions` lớp để thiết lập nhiều thuộc tính khác nhau.
+Bây giờ đến phần thú vị! Chúng ta cần cấu hình các tùy chọn lưu hình ảnh để kiểm soát quá trình nhị phân hóa TIFF. Chúng ta sẽ sử dụng `ImageSaveOptions` lớp để thiết lập nhiều thuộc tính khác nhau.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
@@ -70,9 +72,9 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 ```
 
 Chúng ta hãy phân tích điều này:
--  TiffCompression: Thiết lập kiểu nén cho hình ảnh TIFF. Ở đây, chúng tôi đang sử dụng`Ccitt3`.
--  ImageColorMode: Thiết lập chế độ màu. Chúng tôi thiết lập nó thành`Grayscale` để tạo ra hình ảnh thang độ xám.
--  TiffBinarizationMethod: Chỉ định phương pháp nhị phân hóa. Chúng tôi đang sử dụng`FloydSteinbergDithering`.
+- TiffCompression: Thiết lập kiểu nén cho hình ảnh TIFF. Ở đây, chúng tôi đang sử dụng `Ccitt3`.
+- ImageColorMode: Thiết lập chế độ màu. Chúng tôi thiết lập nó thành `Grayscale` để tạo ra hình ảnh thang độ xám.
+- TiffBinarizationMethod: Chỉ định phương pháp nhị phân hóa. Chúng tôi đang sử dụng `FloydSteinbergDithering`.
 - ThresholdForFloydSteinbergDithering: Đặt ngưỡng cho Floyd-Steinberg dithering. Giá trị cao hơn có nghĩa là ít pixel đen hơn.
 
 ## Bước 4: Lưu tài liệu dưới dạng TIFF
@@ -104,11 +106,16 @@ Có, Aspose.Words hỗ trợ nhiều phương pháp nén TIFF khác nhau, chẳn
 Aspose.Words for .NET là một thư viện thương mại, nhưng bạn có thể dùng thử miễn phí hoặc mua giấy phép tạm thời để đánh giá các tính năng của nó.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET trên[Trang web Aspose](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET trên [Trang web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

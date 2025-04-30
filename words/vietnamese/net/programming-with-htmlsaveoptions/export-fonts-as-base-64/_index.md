@@ -1,14 +1,16 @@
 ---
-title: Xuất Phông Chữ Dưới Dạng Base 64
-linktitle: Xuất Phông Chữ Dưới Dạng Base 64
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xuất phông chữ dưới dạng Base64 bằng Aspose.Words cho .NET trong hướng dẫn chi tiết này. Đảm bảo phông chữ được nhúng và hiển thị chính xác trong tệp HTML.
-weight: 10
-url: /vi/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/
+"description": "Tìm hiểu cách xuất phông chữ dưới dạng Base64 bằng Aspose.Words cho .NET trong hướng dẫn chi tiết này. Đảm bảo phông chữ được nhúng và hiển thị chính xác trong tệp HTML."
+"linktitle": "Xuất Phông Chữ Dưới Dạng Base 64"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất Phông Chữ Dưới Dạng Base 64"
+"url": "/vi/net/programming-with-htmlsaveoptions/export-fonts-as-base-64/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất Phông Chữ Dưới Dạng Base 64
@@ -21,7 +23,7 @@ Khi nói đến việc thao tác các tài liệu Word theo chương trình, Asp
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/words/net/) trang.
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [Aspose phát hành](https://releases.aspose.com/words/net/) trang.
 - Môi trường phát triển .NET: Bất kỳ IDE nào như Visual Studio đều hoạt động hoàn hảo.
 - Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng hiểu biết cơ bản sẽ hữu ích.
 
@@ -68,11 +70,11 @@ Bây giờ dự án của bạn đã được thiết lập, hãy tải tài li�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ### 2.2 Tải Tài liệu
 
- Tiếp theo, tải tài liệu của bạn bằng cách sử dụng`Document` lớp học:
+Tiếp theo, tải tài liệu của bạn bằng cách sử dụng `Document` lớp học:
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -82,10 +84,10 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu HTML
 
- Để xuất phông chữ dưới dạng Base64, chúng ta cần cấu hình`HtmlSaveOptions`.
+Để xuất phông chữ dưới dạng Base64, chúng ta cần cấu hình `HtmlSaveOptions`.
 
 
- Tạo một trường hợp của`HtmlSaveOptions` và thiết lập`ExportFontsAsBase64`tài sản để`true`:
+Tạo một trường hợp của `HtmlSaveOptions` và thiết lập `ExportFontsAsBase64` tài sản để `true`:
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true };
@@ -96,7 +98,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions { ExportFontsAsBase64 = true }
 Cuối cùng, hãy lưu tài liệu với các tùy chọn đã cấu hình.
 
 
- Sử dụng`Save` phương pháp của`Document` lớp để lưu tài liệu của bạn:
+Sử dụng `Save` phương pháp của `Document` lớp để lưu tài liệu của bạn:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportFontsAsBase64.html", saveOptions);
@@ -123,11 +125,16 @@ Hoàn toàn đúng! Aspose.Words for .NET cho phép bạn nhúng nhiều tài ng
 Không vấn đề gì! Aspose.Words cho .NET sẽ nhúng tất cả phông chữ được sử dụng trong tài liệu của bạn dưới dạng Base64 vào tệp HTML kết quả.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cho .NET là một thư viện thương mại. Tuy nhiên, bạn có thể tải xuống bản dùng thử miễn phí từ[Aspose phát hành](https://releases.aspose.com/) trang.
+Aspose.Words cho .NET là một thư viện thương mại. Tuy nhiên, bạn có thể tải xuống bản dùng thử miễn phí từ [Aspose phát hành](https://releases.aspose.com/) trang.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

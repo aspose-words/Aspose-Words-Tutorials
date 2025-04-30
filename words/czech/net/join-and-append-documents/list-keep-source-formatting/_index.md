@@ -1,56 +1,58 @@
 ---
-title: List Keep Source Formátování
-linktitle: List Keep Source Formátování
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se sloučit dokumenty aplikace Word při zachování formátování pomocí Aspose.Words for .NET. Tento výukový program poskytuje podrobné pokyny pro bezproblémové slučování dokumentů.
-weight: 10
-url: /cs/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Naučte se, jak sloučit dokumenty Wordu se zachováním formátování pomocí Aspose.Words pro .NET. Tento tutoriál poskytuje podrobné pokyny pro bezproblémové sloučení dokumentů."
+"linktitle": "Seznam Zachovat formátování zdroje"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Seznam Zachovat formátování zdroje"
+"url": "/cs/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# List Keep Source Formátování
+# Seznam Zachovat formátování zdroje
 
 ## Zavedení
 
-V tomto tutoriálu prozkoumáme, jak využít Aspose.Words pro .NET ke sloučení dokumentů při zachování zdrojového formátování. Tato schopnost je nezbytná pro scénáře, kde je zásadní zachování původního vzhledu dokumentů.
+V tomto tutoriálu se podíváme na to, jak využít Aspose.Words pro .NET ke sloučení dokumentů se zachováním formátování zdroje. Tato funkce je nezbytná pro scénáře, kde je zachování původního vzhledu dokumentů klíčové.
 
 ## Předpoklady
 
 Než budete pokračovat, ujistěte se, že máte následující předpoklady:
 
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.Words for .NET nainstalován. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
+- Nainstalován Aspose.Words pro .NET. Můžete si ho stáhnout z [zde](https://releases.aspose.com/words/net/).
 - Základní znalost programování v C# a prostředí .NET.
 
 ## Importovat jmenné prostory
 
-Nejprve importujte potřebné jmenné prostory do svého projektu C#:
+Nejprve importujte potřebné jmenné prostory do svého projektu v C#:
 
 ```csharp
 using Aspose.Words;
 ```
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Začněte vytvořením nového projektu C# v sadě Visual Studio. Ujistěte se, že je ve vašem projektu odkazováno na Aspose.Words for .NET. Pokud ne, můžete jej přidat prostřednictvím NuGet Package Manager.
+Začněte vytvořením nového projektu C# ve Visual Studiu. Ujistěte se, že je ve vašem projektu odkazováno na Aspose.Words pro .NET. Pokud ne, můžete ho přidat pomocí Správce balíčků NuGet.
 
-## Krok 2: Inicializujte proměnné dokumentu
+## Krok 2: Inicializace proměnných dokumentu
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Načtěte zdrojové a cílové dokumenty
+// Načíst zdrojové a cílové dokumenty
 Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
-## Krok 3: Nakonfigurujte nastavení sekce
+## Krok 3: Konfigurace nastavení sekce
 
-Chcete-li zachovat nepřetržitý tok ve sloučeném dokumentu, upravte začátek oddílu:
+Chcete-li zachovat plynulý tok ve sloučeném dokumentu, upravte začátek sekce:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
@@ -58,15 +60,15 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 
 ## Krok 4: Sloučení dokumentů
 
-Připojte obsah zdrojového dokumentu (`srcDoc`) do cílového dokumentu (`dstDoc`) při zachování původního formátování:
+Přidejte obsah zdrojového dokumentu (`srcDoc`) do cílového dokumentu (`dstDoc`) při zachování původního formátování:
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## Krok 5: Uložte sloučený dokument
+## Krok 5: Uložení sloučeného dokumentu
 
-Nakonec uložte sloučený dokument do určeného adresáře:
+Nakonec uložte sloučený dokument do vámi určeného adresáře:
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.ListKeepSourceFormatting.docx");
@@ -74,12 +76,12 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.ListKeepSourceFormatting.docx");
 
 ## Závěr
 
-Závěrem lze říci, že slučování dokumentů při zachování jejich původního formátování je s Aspose.Words pro .NET jednoduché. Tento výukový program vás provede celým procesem a zajistí, že si sloučený dokument zachová rozložení a styl zdrojového dokumentu.
+Závěrem lze říci, že slučování dokumentů se zachováním jejich původního formátování je s Aspose.Words pro .NET snadné. Tento tutoriál vás provedl celým procesem a zajistil, že váš sloučený dokument si zachová rozvržení a styl zdrojového dokumentu.
 
-## FAQ
+## Často kladené otázky
 
 ### Co když moje dokumenty mají různé styly?
-Aspose.Words zvládá různé styly elegantně a zachovává původní formátování co nejpřesněji.
+Aspose.Words elegantně zpracovává různé styly a co nejvěrněji zachovává původní formátování.
 
 ### Mohu sloučit dokumenty různých formátů?
 Ano, Aspose.Words podporuje slučování dokumentů různých formátů, včetně DOCX, DOC, RTF a dalších.
@@ -88,13 +90,18 @@ Ano, Aspose.Words podporuje slučování dokumentů různých formátů, včetn�
 Ano, Aspose.Words plně podporuje .NET Core, což umožňuje vývoj napříč platformami.
 
 ### Jak mohu efektivně zpracovávat velké dokumenty?
-Aspose.Words poskytuje efektivní API pro manipulaci s dokumenty, optimalizované pro výkon i u velkých dokumentů.
+Aspose.Words poskytuje efektivní API pro manipulaci s dokumenty, optimalizovaná pro výkon i u velkých dokumentů.
 
 ### Kde najdu další příklady a dokumentaci?
- Další příklady a podrobnou dokumentaci můžete prozkoumat na[Dokumentace Aspose.Words](https://reference.aspose.com/words/net/).
+Další příklady a podrobnou dokumentaci si můžete prohlédnout na [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

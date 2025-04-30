@@ -1,73 +1,75 @@
 ---
-title: Vložit pokročilé pole bez Tvůrce dokumentů
-linktitle: Vložit pokročilé pole bez Tvůrce dokumentů
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit pole zálohy bez použití DocumentBuilder v Aspose.Words for .NET. Postupujte podle této příručky a zdokonalte své dovednosti v oblasti zpracování dokumentů.
-weight: 10
-url: /cs/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Naučte se, jak vložit pole pro předběžné úpravy bez použití nástroje DocumentBuilder v Aspose.Words pro .NET. Postupujte podle tohoto návodu a zlepšete si své dovednosti v oblasti zpracování dokumentů."
+"linktitle": "Vložit pole pro zálohování bez nástroje pro tvorbu dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit pole pro zálohování bez nástroje pro tvorbu dokumentů"
+"url": "/cs/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit pokročilé pole bez Tvůrce dokumentů
+# Vložit pole pro zálohování bez nástroje pro tvorbu dokumentů
 
 ## Zavedení
 
-Chcete vylepšit své manipulace s dokumenty Word pomocí Aspose.Words pro .NET? Tak to jste na správném místě! V tomto tutoriálu vás provedeme procesem vložení pole zálohy do dokumentu aplikace Word bez použití třídy DocumentBuilder. Na konci této příručky budete dobře rozumět tomu, jak toho dosáhnout pomocí Aspose.Words for .NET. Pojďme se tedy ponořit a učinit vaše zpracování dokumentů ještě výkonnějším a všestrannějším!
+Hledáte způsoby, jak vylepšit práci s dokumenty Word pomocí Aspose.Words pro .NET? Jste na správném místě! V tomto tutoriálu vás provedeme procesem vložení pole pro předběžné úpravy do dokumentu Word bez použití třídy DocumentBuilder. Na konci tohoto průvodce budete mít solidní představu o tom, jak toho pomocí Aspose.Words pro .NET dosáhnout. Pojďme se tedy do toho pustit a zefektivnit a zefektivnit zpracování vašich dokumentů!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET Library: Můžete si ji stáhnout[zde](https://releases.aspose.com/words/net/).
-- Visual Studio: Bude stačit jakákoli nejnovější verze.
-- Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti o programování v C#.
--  Licence Aspose.Words: Získejte dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pokud žádný nemáte.
+- Knihovna Aspose.Words pro .NET: Můžete si ji stáhnout [zde](https://releases.aspose.com/words/net/).
+- Visual Studio: Postačí jakákoli novější verze.
+- Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programování v C#.
+- Licence Aspose.Words: Získejte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/) pokud ho nemáte.
 
 ## Importovat jmenné prostory
 
-Než se ponoříte do kódu, ujistěte se, že máte do projektu importovány potřebné jmenné prostory:
+Než se ponoříme do kódu, ujistěte se, že máte do projektu importovány potřebné jmenné prostory:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Za prvé, pojďme nastavit náš projekt Visual Studio.
+Nejdříve si nastavme náš projekt ve Visual Studiu.
 
 ### Vytvořit nový projekt
 
 1. Otevřete Visual Studio.
 2. Vyberte Vytvořit nový projekt.
-3. Vyberte Console App (.NET Core) a klikněte na Další.
+3. Vyberte Konzolová aplikace (.NET Core) a klikněte na Další.
 4. Pojmenujte svůj projekt a klikněte na Vytvořit.
 
-### Nainstalujte Aspose.Words for .NET
+### Instalace Aspose.Words pro .NET
 
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
 2. Vyberte Spravovat balíčky NuGet.
 3. Vyhledejte Aspose.Words a nainstalujte nejnovější verzi.
 
-## Krok 2: Inicializujte dokument a odstavec
+## Krok 2: Inicializace dokumentu a odstavce
 
-Nyní, když je náš projekt nastaven, musíme inicializovat nový dokument a odstavec, kam vložíme pole zálohy.
+Nyní, když je náš projekt nastavený, musíme inicializovat nový dokument a odstavec, kam vložíme pole pro předběžné nastavení.
 
-### Inicializujte dokument
+### Inicializovat dokument
 
-1.  Ve vašem`Program.cs` soubor, začněte vytvořením nového dokumentu:
+1. Ve vašem `Program.cs` soubor, začněte vytvořením nového dokumentu:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document();
 ```
 
-Tím se nastaví nový prázdný dokument.
+Tím se vytvoří nový, prázdný dokument.
 
-### Přidejte odstavec
+### Přidat odstavec
 
 2. Získejte první odstavec v dokumentu:
 
@@ -75,23 +77,23 @@ Tím se nastaví nový prázdný dokument.
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 ```
 
-To zajišťuje, že máme odstavec, se kterým můžeme pracovat.
+Díky tomu máme odstavec, se kterým můžeme pracovat.
 
-## Krok 3: Vložte pole Advance
+## Krok 3: Vložte pole Záloha
 
-Nyní vložíme pole zálohy do našeho odstavce.
+Nyní vložme pole pro předběžný text do našeho odstavce.
 
 ### Vytvořte pole
 
-1. Připojte k odstavci pole zálohy:
+1. Přidejte do odstavce pole pro předběžné texty:
 
 ```csharp
 FieldAdvance field = (FieldAdvance)para.AppendField(FieldType.FieldAdvance, false);
 ```
 
-Tím se v našem odstavci vytvoří nové pole zálohy.
+Tím se v našem odstavci vytvoří nové pole pro předběžné úpravy.
 
-### Nastavte vlastnosti pole
+### Nastavení vlastností pole
 
 2. Nakonfigurujte vlastnosti pole pro určení odsazení a pozic:
 
@@ -106,21 +108,21 @@ field.VerticalPosition = "100";
 
 Tato nastavení upravují polohu textu vzhledem k jeho normální poloze.
 
-## Krok 4: Aktualizujte a uložte dokument
+## Krok 4: Aktualizace a uložení dokumentu
 
-S vloženým a nakonfigurovaným polem je čas dokument aktualizovat a uložit.
+Po vložení a konfiguraci pole je čas dokument aktualizovat a uložit.
 
-### Aktualizujte pole
+### Aktualizovat pole
 
-1. Ujistěte se, že je pole aktualizováno, aby odráželo naše změny:
+1. Ujistěte se, že je pole aktualizováno tak, aby odráželo naše změny:
 
 ```csharp
 field.Update();
 ```
 
-Tím zajistíte, že všechny vlastnosti pole jsou použity správně.
+Tím se zajistí, že všechny vlastnosti polí budou správně použity.
 
-### Uložte dokument
+### Uložit dokument
 
 2. Uložte dokument do zadaného adresáře:
 
@@ -128,36 +130,41 @@ Tím zajistíte, že všechny vlastnosti pole jsou použity správně.
 doc.Save(dataDir + "InsertionFieldAdvanceWithoutDocumentBuilder.docx");
 ```
 
-Tím se dokument uloží se zahrnutým polem zálohy.
+Tím se dokument uloží i s polem pro předběžné nastavení.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vložili pole zálohy do dokumentu aplikace Word bez použití třídy DocumentBuilder. Pomocí těchto kroků jste využili sílu Aspose.Words for .NET k programové manipulaci s dokumenty Wordu. Ať už automatizujete generování sestav nebo vytváříte složité šablony dokumentů, tyto znalosti se vám nepochybně budou hodit. Pokračujte v experimentování a zkoumání možností Aspose.Words, abyste posunuli zpracování dokumentů na další úroveň!
+tady to máte! Úspěšně jste vložili pole pro předběžné nastavení do dokumentu Wordu bez použití třídy DocumentBuilder. Dodržením těchto kroků jste využili sílu Aspose.Words pro .NET k programovému zpracování dokumentů Wordu. Ať už automatizujete generování sestav nebo vytváříte složité šablony dokumentů, tyto znalosti se vám nepochybně budou hodit. Neustále experimentujte a objevujte možnosti Aspose.Words, abyste posunuli zpracování dokumentů na další úroveň!
 
-## FAQ
+## Často kladené otázky
 
-### Co je pole zálohy v Aspose.Words?
+### Co je to pole pro předběžné nastavení v Aspose.Words?
 
-Pole záloh v Aspose.Words vám umožňuje řídit umístění textu vzhledem k jeho normální poloze a poskytuje přesnou kontrolu nad rozložením textu ve vašich dokumentech.
+Pole pro předvolbu v Aspose.Words umožňuje ovládat umístění textu vzhledem k jeho normální poloze a poskytuje tak přesnou kontrolu nad rozvržením textu v dokumentech.
 
-### Mohu použít DocumentBuilder s předběžnými poli?
+### Mohu použít DocumentBuilder s pokročilými poli?
 
-Ano, můžete použít DocumentBuilder k vložení pokročilých polí, ale tento tutoriál ukazuje, jak to udělat bez použití DocumentBuilder pro větší flexibilitu a kontrolu.
+Ano, k vkládání polí pro předběžná nastavení můžete použít DocumentBuilder, ale tento tutoriál ukazuje, jak to provést bez použití DocumentBuilderu, což vám zajistí větší flexibilitu a kontrolu.
 
 ### Kde najdu další příklady použití Aspose.Words?
 
- Kompletní dokumentaci a příklady naleznete na[Aspose.Words pro dokumentaci .NET](https://reference.aspose.com/words/net/) strana.
+Komplexní dokumentaci a příklady naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/) strana.
 
-### Je Aspose.Words for .NET zdarma k použití?
+### Je Aspose.Words pro .NET zdarma k použití?
 
- Aspose.Words for .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[zde](https://releases.aspose.com/). Pro plnou funkčnost si budete muset zakoupit licenci.
+Aspose.Words pro .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout [zde](https://releases.aspose.com/)Pro plnou funkčnost si budete muset zakoupit licenci.
 
-### Jak získám podporu pro Aspose.Words for .NET?
+### Jak získám podporu pro Aspose.Words pro .NET?
 
- Pro podporu můžete navštívit[Fórum podpory Aspose.Words](https://forum.aspose.com/c/words/8).
+Pro podporu můžete navštívit [Fórum podpory Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

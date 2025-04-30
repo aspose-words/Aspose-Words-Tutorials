@@ -1,14 +1,16 @@
 ---
-title: Sử dụng các thành phần tài liệu
-linktitle: Sử dụng các thành phần tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách sử dụng hiệu quả các thành phần tài liệu trong Aspose.Words cho Java với hướng dẫn toàn diện của chúng tôi. Nâng cao kỹ năng xử lý tài liệu Java của bạn ngay hôm nay!
-weight: 24
-url: /vi/java/using-document-elements/
+"description": "Tìm hiểu cách sử dụng hiệu quả các thành phần tài liệu trong Aspose.Words cho Java với hướng dẫn toàn diện của chúng tôi. Nâng cao kỹ năng xử lý tài liệu Java của bạn ngay hôm nay!"
+"linktitle": "Sử dụng các thành phần tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng các thành phần tài liệu"
+"url": "/vi/java/using-document-elements/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng các thành phần tài liệu
@@ -34,7 +36,7 @@ Bằng cách làm theo các hướng dẫn này, bạn không chỉ học đư�
 
 ## Bắt đầu ngay hôm nay
 
- Sẵn sàng để bắt đầu? Hãy đến[Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để truy cập tài liệu toàn diện. Bạn sẽ tìm thấy các giải thích chi tiết, mẫu mã và tham chiếu API sẽ hướng dẫn bạn qua mọi khía cạnh của thao tác phần tử tài liệu.
+Sẵn sàng để bắt đầu? Hãy đến [Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để truy cập tài liệu toàn diện. Bạn sẽ tìm thấy các giải thích chi tiết, mẫu mã và tham chiếu API sẽ hướng dẫn bạn qua mọi khía cạnh của thao tác phần tử tài liệu.
 
 Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose.Words for Java là một kỹ năng có giá trị đối với bất kỳ nhà phát triển Java nào làm việc với tài liệu. Các hướng dẫn này cung cấp một lộ trình rõ ràng và có cấu trúc để giúp bạn trở nên thành thạo trong lĩnh vực này. Vì vậy, hãy xắn tay áo lên, tìm hiểu các hướng dẫn và mở khóa toàn bộ tiềm năng của Aspose.Words for Java trong các dự án xử lý tài liệu của bạn.
 
@@ -69,9 +71,13 @@ Học cách sử dụng các đối tượng OLE và điều khiển ActiveX tro
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
 Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

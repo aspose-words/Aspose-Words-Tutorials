@@ -7,8 +7,11 @@ weight: 24
 url: /java/document-loading-and-saving/saving-documents-as-text-files/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Documents as Text Files in Aspose.Words for Java
@@ -163,9 +166,13 @@ You can find comprehensive documentation and resources for Aspose.Words for Java
 
 You can download the Aspose.Words for Java library from the Aspose website: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

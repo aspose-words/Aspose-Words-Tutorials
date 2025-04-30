@@ -7,8 +7,11 @@ weight: 14
 url: /java/table-processing/table-contents-generation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Table of Contents Generation
@@ -148,9 +151,13 @@ Yes, the TOC will appear in the PDF if you save the document in `.pdf` format.
 ### Where can I find more documentation?
 Check out the [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) for more examples and details.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zapisz wszystkie reguły CSS w jednym pliku
-linktitle: Zapisz wszystkie reguły CSS w jednym pliku
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować dokumenty Word do formatu HTML za pomocą Aspose.Words dla platformy .NET. Wszystkie reguły CSS znajdziesz w jednym pliku, co pozwoli uzyskać bardziej przejrzysty kod i ułatwi konserwację.
-weight: 10
-url: /pl/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/
+"description": "Dowiedz się, jak konwertować dokumenty Word do formatu HTML za pomocą Aspose.Words dla platformy .NET. Wszystkie reguły CSS znajdziesz w jednym pliku, co pozwoli uzyskać bardziej przejrzysty kod i ułatwi konserwację."
+"linktitle": "Zapisz wszystkie reguły CSS w jednym pliku"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zapisz wszystkie reguły CSS w jednym pliku"
+"url": "/pl/net/programming-with-htmlfixedsaveoptions/write-all-css-rules-in-single-file/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisz wszystkie reguły CSS w jednym pliku
@@ -21,7 +23,7 @@ Czy kiedykolwiek znalazłeś się w pułapce rozrzuconych po całym miejscu regu
 
 Zanim przejdziemy do konkretów, uporządkujmy sprawy. Oto, czego potrzebujesz, aby zacząć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne .NET: Będziesz potrzebować środowiska programistycznego .NET skonfigurowanego na swojej maszynie. Visual Studio jest popularnym wyborem.
 3. Podstawowa znajomość języka C#: Przydatna będzie podstawowa znajomość programowania w języku C#.
 4. Dokument Word: Przygotuj dokument Word (.docx), który chcesz przekonwertować.
@@ -39,7 +41,7 @@ Dobrze, podzielmy proces na łatwe do naśladowania kroki. Każdy krok poprowadz
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-Najpierw musimy zdefiniować ścieżkę do katalogu dokumentów. To jest miejsce, w którym przechowywany jest dokument Word i gdzie zostanie zapisany przekonwertowany kod HTML.
+Najpierw musimy zdefiniować ścieżkę do katalogu dokumentów. To tutaj przechowywany jest dokument Word i gdzie zostanie zapisany przekonwertowany kod HTML.
 
 ```csharp
 // Ścieżka dostępu do katalogu dokumentów
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ## Krok 2: Załaduj dokument Word
 
- Następnie ładujemy dokument Word, który chcesz przekonwertować na HTML. Robi się to za pomocą`Document` klasa z biblioteki Aspose.Words.
+Następnie ładujemy dokument Word, który chcesz przekonwertować na HTML. Robi się to za pomocą `Document` klasa z biblioteki Aspose.Words.
 
 ```csharp
 // Załaduj dokument Word
@@ -57,7 +59,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Krok 3: Skonfiguruj opcje zapisywania HTML
 
- Teraz musimy skonfigurować opcje zapisywania HTML. Konkretnie, chcemy włączyć funkcję, która zapisuje wszystkie reguły CSS do jednego pliku. Osiąga się to poprzez ustawienie`SaveFontFaceCssSeparately`nieruchomość do`false`.
+Teraz musimy skonfigurować opcje zapisywania HTML. Konkretnie, chcemy włączyć funkcję, która zapisuje wszystkie reguły CSS do jednego pliku. Osiąga się to poprzez ustawienie `SaveFontFaceCssSeparately` nieruchomość do `false`.
 
 ```csharp
 // Skonfiguruj opcje tworzenia kopii zapasowych za pomocą funkcji „Zapisz wszystkie reguły CSS w jednym pliku”
@@ -86,20 +88,25 @@ I masz to! Za pomocą zaledwie kilku linijek kodu udało Ci się przekonwertowa�
 Używanie pojedynczego pliku CSS upraszcza zarządzanie i konserwację stylów. Sprawia, że HTML jest czystszy i wydajniejszy.
 
 ### Czy w razie potrzeby mogę oddzielić reguły CSS dotyczące kroju czcionki?
- Tak, poprzez ustawienie`SaveFontFaceCssSeparately` Do`true`, możesz oddzielić reguły CSS dotyczące kroju czcionki do osobnego pliku.
+Tak, poprzez ustawienie `SaveFontFaceCssSeparately` Do `true`, możesz oddzielić reguły CSS dotyczące kroju czcionki do osobnego pliku.
 
 ### Czy korzystanie z Aspose.Words dla .NET jest bezpłatne?
- Aspose.Words oferuje bezpłatny okres próbny, który możesz[pobierz tutaj](https://releases.aspose.com/) . Aby kontynuować użytkowanie, rozważ zakup licencji[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words oferuje bezpłatny okres próbny, który możesz [pobierz tutaj](https://releases.aspose.com/). Aby kontynuować użytkowanie, rozważ zakup licencji [Tutaj](https://purchase.aspose.com/buy).
 
 ### Do jakich innych formatów można konwertować za pomocą Aspose.Words for .NET?
 Aspose.Words dla platformy .NET obsługuje różne formaty, w tym PDF i TXT, oraz formaty obrazów JPEG i PNG.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words dla .NET?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

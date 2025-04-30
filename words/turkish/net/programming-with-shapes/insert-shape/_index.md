@@ -1,14 +1,16 @@
 ---
-title: Şekil Ekle
-linktitle: Şekil Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerine şekil eklemeyi ve düzenlemeyi adım adım anlatan kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-shapes/insert-shape/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerine şekillerin nasıl ekleneceğini ve düzenleneceğini adım adım kılavuzumuzla öğrenin."
+"linktitle": "Şekil Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Şekil Ekle"
+"url": "/tr/net/programming-with-shapes/insert-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şekil Ekle
@@ -21,7 +23,7 @@ Görsel olarak çekici ve iyi yapılandırılmış Word belgeleri oluşturmaya g
 
 Eğitime başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: En son sürümü indirin ve yükleyin[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümü indirin ve yükleyin [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir .NET geliştirme ortamı.
 3. C# Temel Bilgisi: C# programlama dili ve temel kavramlara aşinalık.
 
@@ -90,7 +92,7 @@ Bu kod parçacığı, ilkiyle aynı boyutlara ve dönüşe sahip ancak konumunu 
 
 ## Adım 5: Belgeyi Kaydedin
 
- Şekilleri ekledikten sonra son adım belgeyi kaydetmektir.`OoxmlSaveOptions` kaydetme biçimini belirtmek için.
+Şekilleri ekledikten sonra son adım belgeyi kaydetmektir. `OoxmlSaveOptions` kaydetme biçimini belirtmek için.
 
 ```csharp
 // Uygunlukla kaydetme seçeneklerini tanımlayın
@@ -105,29 +107,34 @@ doc.Save(dataDir + "WorkingWithShapes.InsertShape.docx", saveOptions);
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesine şekilleri başarıyla eklediniz ve düzenlediniz. Bu eğitim temelleri kapsıyordu, ancak Aspose.Words şekillerle çalışmak için özel stiller, bağlayıcılar ve grup şekilleri gibi çok daha gelişmiş özellikler sunuyor.
+Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesine şekilleri başarıyla eklediniz ve düzenlediniz. Bu eğitim temelleri kapsıyordu ancak Aspose.Words, özel stiller, bağlayıcılar ve grup şekilleri gibi şekillerle çalışmak için çok daha gelişmiş özellikler sunuyor.
 
- Daha detaylı bilgi için şu adresi ziyaret edin:[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/).
+Daha detaylı bilgi için şu adresi ziyaret edin: [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/).
 
 ## SSS
 
 ### Farklı şekil türlerini nasıl eklerim?
-Değiştirebilirsiniz`ShapeType` içinde`InsertShape` Daire, dikdörtgen ve ok gibi farklı şekil türlerini ekleme yöntemi.
+Değiştirebilirsiniz `ShapeType` içinde `InsertShape` Daire, dikdörtgen ve ok gibi farklı şekil türlerini ekleme yöntemi.
 
 ### Şekillerin içine metin ekleyebilir miyim?
- Evet, kullanabilirsiniz`builder.Write` Şekilleri ekledikten sonra içlerine metin ekleme yöntemi.
+Evet, kullanabilirsiniz `builder.Write` Şekilleri ekledikten sonra içlerine metin ekleme yöntemi.
 
 ### Şekilleri biçimlendirmek mümkün mü?
- Evet, şekilleri şu şekilde özellikler ayarlayarak biçimlendirebilirsiniz:`FillColor`, `StrokeColor` , Ve`StrokeWeight`.
+Evet, şekilleri şu şekilde özellikler ayarlayarak biçimlendirebilirsiniz: `FillColor`, `StrokeColor`, Ve `StrokeWeight`.
 
 ### Şekilleri diğer öğelere göre nasıl konumlandırabilirim?
- Kullanın`RelativeHorizontalPosition` Ve`RelativeVerticalPosition` Şekilleri belgedeki diğer öğelere göre konumlandırmak için özellikler.
+Kullanın `RelativeHorizontalPosition` Ve `RelativeVerticalPosition` Şekilleri belgedeki diğer öğelere göre konumlandırmak için özellikler.
 
 ### Birden fazla şekli bir arada gruplayabilir miyim?
- Evet, Aspose.Words for .NET, şekilleri gruplandırmanıza olanak tanır`GroupShape` sınıf.
+Evet, Aspose.Words for .NET, şekilleri gruplandırmanıza olanak tanır `GroupShape` sınıf.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

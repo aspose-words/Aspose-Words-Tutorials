@@ -1,21 +1,23 @@
 ---
-title: Praca z modelem Google AI
-linktitle: Praca z modelem Google AI
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania.
-weight: 10
-url: /pl/net/ai-powered-document-processing/working-with-google-ai-model/
+"description": "Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania."
+"linktitle": "Praca z modelem Google AI"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Praca z modelem Google AI"
+"url": "/pl/net/ai-powered-document-processing/working-with-google-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Praca z modelem Google AI
 
 ## Wstęp
 
-tym artykule krok po kroku omówimy, jak podsumowywać dokumenty za pomocą Aspose.Words i modeli AI Google. Niezależnie od tego, czy chcesz skrócić długi raport, czy wyodrębnić informacje z wielu źródeł, mamy dla Ciebie rozwiązanie.
+W tym artykule krok po kroku omówimy, jak podsumowywać dokumenty za pomocą Aspose.Words i modeli AI Google. Niezależnie od tego, czy chcesz skrócić długi raport, czy wyodrębnić informacje z wielu źródeł, mamy dla Ciebie rozwiązanie.
 
 ## Wymagania wstępne
 
@@ -23,7 +25,7 @@ Zanim przejdziemy do części praktycznej, upewnijmy się, że jesteś przygotow
 
 1. Podstawowa znajomość języka C# i .NET: Znajomość koncepcji programowania pomoże Ci lepiej zrozumieć przykłady.
    
-2.  Biblioteka Aspose.Words dla .NET: Ta potężna biblioteka umożliwia bezproblemowe tworzenie i manipulowanie dokumentami Word. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+2. Biblioteka Aspose.Words dla .NET: Ta potężna biblioteka umożliwia bezproblemowe tworzenie i manipulowanie dokumentami Word. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 
 3. Klucz API dla modelu Google AI: Aby wykorzystać modele AI, potrzebujesz klucza API do uwierzytelniania. Przechowuj go bezpiecznie w zmiennych środowiskowych.
 
@@ -57,7 +59,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
- Zastępować`"YOUR_DOCUMENT_DIRECTORY"` I`"YOUR_ARTIFACTS_DIRECTORY"` z rzeczywistymi ścieżkami w systemie, w których przechowywane są Twoje dokumenty. Będzie to stanowić podstawę do odczytywania i zapisywania dokumentów.
+Zastępować `"YOUR_DOCUMENT_DIRECTORY"` I `"YOUR_ARTIFACTS_DIRECTORY"` z rzeczywistymi ścieżkami w systemie, w których przechowywane są Twoje dokumenty. Będzie to stanowić podstawę do odczytywania i zapisywania dokumentów.
 
 ## Krok 2: Ładowanie dokumentów
 
@@ -68,7 +70,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
- Ten`Document` Klasa z Aspose.Words pozwala na załadowanie plików Word do pamięci. Upewnij się, że nazwy plików odpowiadają rzeczywistym dokumentom w Twoim katalogu, w przeciwnym razie wystąpią błędy file not found!
+Ten `Document` Klasa z Aspose.Words pozwala na załadowanie plików Word do pamięci. Upewnij się, że nazwy plików odpowiadają rzeczywistym dokumentom w Twoim katalogu, w przeciwnym razie wystąpią błędy file not found!
 
 ## Krok 3: Pobieranie klucza API
 
@@ -88,7 +90,7 @@ Teraz czas na utworzenie instancji modelu AI. Tutaj możesz wybrać, którego mo
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
- Ten wiersz ustawia model AI, którego będziesz używać do podsumowania dokumentów. Pamiętaj, aby skonsultować się[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje na temat różnych modeli i ich możliwości.
+Ten wiersz ustawia model AI, którego będziesz używać do podsumowania dokumentów. Pamiętaj, aby skonsultować się [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać szczegółowe informacje na temat różnych modeli i ich możliwości.
 
 ## Krok 5: Podsumowanie pojedynczego dokumentu
 
@@ -99,7 +101,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
- W tym kroku używamy`Summarize`metoda z instancji modelu AI, aby uzyskać kondensację pierwszego dokumentu. Długość podsumowania jest ustawiona na krótką, ale możesz ją dostosować w zależności od potrzeb. Na koniec podsumowany dokument jest zapisywany w katalogu artefaktów.
+W tym kroku używamy `Summarize` metoda z instancji modelu AI, aby uzyskać kondensację pierwszego dokumentu. Długość podsumowania jest ustawiona na krótką, ale możesz ją dostosować w zależności od potrzeb. Na koniec podsumowany dokument jest zapisywany w katalogu artefaktów.
 
 ## Krok 6: Podsumowanie wielu dokumentów
 
@@ -110,11 +112,11 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Tutaj nazywamy`Summarize` ponownie, ale tym razem z tablicą dokumentów. To da ci długie podsumowanie, które obejmuje istotę obu plików. Tak jak poprzednio, wynik jest zapisywany w określonym katalogu artefaktów.
+Tutaj nazywamy `Summarize` ponownie, ale tym razem z tablicą dokumentów. To da ci długie podsumowanie, które obejmuje istotę obu plików. Tak jak poprzednio, wynik jest zapisywany w określonym katalogu artefaktów.
 
 ## Wniosek
 
-I masz to! Udało Ci się skonfigurować środowisko do podsumowywania dokumentów przy użyciu Aspose.Words dla .NET i modeli AI Google. Od ładowania dokumentów po tworzenie zwięzłych podsumowań, te kroki zapewniają usprawnione podejście do efektywnego zarządzania dużymi wolumenami tekstu.
+masz to! Udało Ci się skonfigurować środowisko do podsumowywania dokumentów przy użyciu Aspose.Words dla .NET i modeli AI Google. Od ładowania dokumentów po tworzenie zwięzłych podsumowań, te kroki zapewniają usprawnione podejście do efektywnego zarządzania dużymi wolumenami tekstu.
 
 ## Najczęściej zadawane pytania
 
@@ -131,11 +133,16 @@ Tak! Jak pokazano, możesz przekazać tablicę dokumentów do metody podsumowani
 Możesz wybierać pomiędzy krótkimi, średnimi i długimi podsumowaniami, zależnie od swoich potrzeb.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i wskazówek.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać więcej przykładów i wskazówek.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

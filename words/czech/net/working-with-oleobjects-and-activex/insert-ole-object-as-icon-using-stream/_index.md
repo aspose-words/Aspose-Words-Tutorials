@@ -1,33 +1,35 @@
 ---
-title: Vložit OLE objekt jako ikonu pomocí proudu
-linktitle: Vložit OLE objekt jako ikonu pomocí proudu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit objekt OLE jako ikonu pomocí streamu s Aspose.Words for .NET v tomto podrobném, podrobném tutoriálu.
-weight: 10
-url: /cs/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "V tomto podrobném návodu se naučíte, jak vložit objekt OLE jako ikonu pomocí streamu s Aspose.Words pro .NET."
+"linktitle": "Vložit objekt Ole jako ikonu pomocí Streamu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit objekt Ole jako ikonu pomocí Streamu"
+"url": "/cs/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit OLE objekt jako ikonu pomocí proudu
+# Vložit objekt Ole jako ikonu pomocí Streamu
 
 ## Zavedení
 
-tomto tutoriálu se ponoříme do super skvělé funkce Aspose.Words pro .NET: vložení objektu OLE (Object Linking and Embedding) jako ikony pomocí streamu. Ať už vkládáte powerpointovou prezentaci, excelovou tabulku nebo jakýkoli jiný typ souboru, tato příručka vám přesně ukáže, jak na to. Jste připraveni začít? Jdeme na to!
+tomto tutoriálu se ponoříme do super funkce Aspose.Words pro .NET: vkládání objektu OLE (Object Linking and Embedding) jako ikony pomocí streamu. Ať už vkládáte prezentaci v PowerPointu, tabulku v Excelu nebo jakýkoli jiný typ souboru, tento průvodce vám přesně ukáže, jak na to. Jste připraveni začít? Pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódu, budete potřebovat několik věcí:
+Než se pustíme do kódu, je tu pár věcí, které budete potřebovat:
 
--  Aspose.Words for .NET: Pokud jste to ještě neudělali,[stáhnout](https://releases.aspose.com/words/net/) a nainstalujte Aspose.Words for .NET.
+- Aspose.Words pro .NET: Pokud jste tak ještě neučinili, [stáhnout](https://releases.aspose.com/words/net/) a nainstalujte Aspose.Words pro .NET.
 - Vývojové prostředí: Visual Studio nebo jakékoli jiné vývojové prostředí C#.
-- Vstupní soubory: Soubor, který chcete vložit (např. prezentace PowerPoint) a obrázek ikony.
+- Vstupní soubory: Soubor, který chcete vložit (např. prezentace v PowerPointu), a obrázek ikony.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, ujistěte se, že jste do projektu importovali potřebné jmenné prostory:
+Nejprve se ujistěte, že jste do projektu importovali potřebné jmenné prostory:
 
 ```csharp
 using System;
@@ -36,22 +38,22 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-Pojďme si proces rozebrat krok za krokem, aby bylo snadné jej sledovat.
+Pojďme si celý proces rozebrat krok za krokem, aby se vám snadno sledoval.
 
 ## Krok 1: Vytvořte nový dokument
 
-Nejprve vytvoříme nový dokument a tvůrce dokumentů pro práci s ním.
+Nejprve si vytvoříme nový dokument a nástroj pro tvorbu dokumentů, s nímž budeme pracovat.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Myslete na to`Document` jako vaše prázdné plátno a`DocumentBuilder` jako váš štětec. Nastavujeme naše nástroje, abychom mohli začít vytvářet naše mistrovské dílo.
+Myslete na `Document` jako tvé prázdné plátno a `DocumentBuilder` jako váš štětec. Připravujeme si nástroje, abychom mohli začít tvořit naše mistrovské dílo.
 
-## Krok 2: Připravte stream
+## Krok 2: Příprava streamu
 
 Dále musíme připravit paměťový stream, který obsahuje soubor, který chceme vložit. V tomto příkladu vložíme prezentaci v PowerPointu.
 
@@ -60,52 +62,57 @@ using (MemoryStream stream = new MemoryStream(File.ReadAllBytes("Path_to_your_di
 {
 ```
 
-Tento krok je jako nakládání barvy na štětec. Připravujeme náš soubor k vložení.
+Tento krok je jako nanášení barvy na štětec. Připravujeme náš soubor k vložení.
 
-## Krok 3: Vložte objekt OLE jako ikonu
+## Krok 3: Vložení objektu OLE jako ikony
 
-Nyní použijeme tvůrce dokumentů k vložení objektu OLE do dokumentu. Zadáme datový proud souboru, ProgID pro typ souboru (v tomto případě "Balík"), cestu k obrázku ikony a štítek pro vložený soubor.
+Nyní použijeme nástroj pro tvorbu dokumentů k vložení objektu OLE do dokumentu. Zadáme souborový proud, ProgID pro typ souboru (v tomto případě „Balíček“), cestu k obrázku ikony a popisek pro vložený soubor.
 
 ```csharp
 builder.InsertOleObjectAsIcon(stream, "Package", "Path_to_your_directory/Logo icon.ico", "My embedded file");
 }
 ```
 
-Tady se děje kouzlo! Vkládáme náš soubor a zobrazujeme jej jako ikonu v dokumentu.
+A tady se děje ta magie! Vložíme náš soubor a zobrazíme ho jako ikonu v dokumentu.
 
 ## Krok 4: Uložte dokument
 
-Nakonec dokument uložíme na zadanou cestu.
+Nakonec dokument uložíme do zadané cesty.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIconUsingStream.docx");
 ```
 
-Tento krok je jako vložení hotového obrazu do rámu a jeho zavěšení na zeď. Váš dokument je nyní připraven k použití!
+Tento krok je jako byste zarámovali hotový obraz a pověsili ho na zeď. Váš dokument je nyní připraven k použití!
 
 ## Závěr
 
-tady to máte! Úspěšně jste vložili objekt OLE jako ikonu do dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce vám může pomoci snadno vytvářet dynamické a interaktivní dokumenty. Ať už vkládáte prezentace, tabulky nebo jiné soubory, s Aspose.Words to bude hračka. Takže jděte do toho, vyzkoušejte to a uvidíte rozdíl, který to může udělat ve vašich dokumentech!
+A tady to máte! Úspěšně jste vložili objekt OLE jako ikonu do dokumentu Wordu pomocí Aspose.Words pro .NET. Tato výkonná funkce vám pomůže snadno vytvářet dynamické a interaktivní dokumenty. Ať už vkládáte prezentace, tabulky nebo jiné soubory, Aspose.Words to udělá hračkou. Tak do toho, vyzkoušejte to a uvidíte, jaký rozdíl to ve vašich dokumentech udělá!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu pomocí této metody vložit různé typy souborů?
-Ano, můžete vložit jakýkoli typ souboru podporovaný OLE, včetně Wordu, Excelu, PowerPointu a dalších.
+### Mohu touto metodou vkládat různé typy souborů?
+Ano, můžete vložit jakýkoli typ souboru podporovaný technologií OLE, včetně Wordu, Excelu, PowerPointu a dalších.
 
-### Potřebuji k používání Aspose.Words pro .NET speciální licenci?
- Ano, Aspose.Words for .NET vyžaduje licenci. Můžete získat a[zkušební verze zdarma](https://releases.aspose.com/) nebo koupit a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
+### Potřebuji speciální licenci k používání Aspose.Words pro .NET?
+Ano, Aspose.Words pro .NET vyžaduje licenci. Můžete si ji pořídit. [bezplatná zkušební verze](https://releases.aspose.com/) nebo si zakoupit [dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
 
-### Mohu upravit ikonu použitou pro objekt OLE?
- Absolutně! Pro ikonu můžete použít libovolný soubor obrázku zadáním její cesty v`InsertOleObjectAsIcon` metoda.
+### Mohu si přizpůsobit ikonu používanou pro objekt OLE?
+Rozhodně! Pro ikonu můžete použít libovolný soubor s obrázkem, stačí zadat jeho cestu v `InsertOleObjectAsIcon` metoda.
 
-### Co se stane, pokud jsou cesty k souboru nebo ikoně nesprávné?
-Metoda vyvolá výjimku. Ujistěte se, že cesty k souborům jsou správné, abyste předešli chybám.
+### Co se stane, když jsou cesty k souborům nebo ikonám nesprávné?
+Metoda vyvolá výjimku. Abyste předešli chybám, ujistěte se, že cesty k souborům jsou správné.
 
-### Je možné propojit vložený objekt místo jeho vložení?
-Ano, Aspose.Words umožňuje vkládat propojené objekty OLE, které odkazují na soubor, aniž by vkládaly jeho obsah.
+### Je možné vložený objekt propojit místo jeho vkládání?
+Ano, Aspose.Words umožňuje vkládat propojené objekty OLE, které odkazují na soubor bez vkládání jeho obsahu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

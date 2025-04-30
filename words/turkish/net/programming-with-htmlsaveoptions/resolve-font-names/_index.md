@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipi Adlarını Çöz
-linktitle: Yazı Tipi Adlarını Çöz
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini HTML'ye dönüştürürken font adlarının nasıl çözümleneceğini öğrenin. Ayrıntılı açıklamalarla adım adım kılavuz.
-weight: 10
-url: /tr/net/programming-with-htmlsaveoptions/resolve-font-names/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini HTML'ye dönüştürürken font adlarının nasıl çözümleneceğini öğrenin. Ayrıntılı açıklamalarla adım adım kılavuz."
+"linktitle": "Yazı Tipi Adlarını Çöz"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipi Adlarını Çöz"
+"url": "/tr/net/programming-with-htmlsaveoptions/resolve-font-names/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipi Adlarını Çöz
@@ -21,8 +23,8 @@ Merhaba, kodlayıcı arkadaşım! Word belgelerini HTML olarak kaydederken yazı
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Henüz indirmediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
-2.  Geçerli Bir Lisans: Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words for .NET: Henüz indirmediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+2. Geçerli Bir Lisans: Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 3. C# ve .NET'in Temel Bilgileri: Bu eğitim, C#'daki temel programlama kavramlarına aşina olduğunuzu varsayar.
 4. Visual Studio: .NET framework'ü destekleyen herhangi bir sürüm.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
 Açıklama:
- Burada,`dataDir` belge dizininize giden yolu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
+Burada, `dataDir` belge dizininize giden yolu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
 
 ## Adım 2: Word Belgesini Yükleme
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Missing font.docx");
 ```
 
 Açıklama:
- Biz bir tane yaratıyoruz`Document` nesneyi ve "Eksik font.docx" adlı Word belgesini yükleyin`dataDir`.
+Biz bir tane yaratıyoruz `Document` nesneyi ve "Eksik font.docx" adlı Word belgesini yükleyin `dataDir`.
 
 ## Adım 3: HTML Kaydetme Seçeneklerini Yapılandırma
 
@@ -73,7 +75,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 ```
 
 Açıklama:
- Bir örnek oluşturuyoruz`HtmlSaveOptions` ile`SaveFormat.Html` .`PrettyFormat` seçeneği HTML çıktısını daha okunabilir hale getirir ve`ResolveFontNames` yazı tipi adlarının çözümlenmesini sağlar.
+Bir örnek oluşturuyoruz `HtmlSaveOptions` ile `SaveFormat.Html`. `PrettyFormat` seçeneği HTML çıktısını daha okunabilir hale getirir ve `ResolveFontNames` yazı tipi adlarının çözümlenmesini sağlar.
 
 ## Adım 4: Belgeyi HTML Olarak Kaydetme
 
@@ -84,7 +86,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ResolveFontNames.html", saveOptio
 ```
 
 Açıklama:
- Biz buna diyoruz`Save` yöntem üzerinde`Document` nesne, çıktı yolunu ve yapılandırdığımız kaydetme seçeneklerini belirtir. Bu, font adlarının çözüldüğü bir HTML dosyası üretecektir.
+Biz buna diyoruz `Save` yöntem üzerinde `Document` nesne, çıktı yolunu ve yapılandırdığımız kaydetme seçeneklerini belirtir. Bu, font adlarının çözüldüğü bir HTML dosyası üretecektir.
 
 ## Çözüm
 
@@ -96,19 +98,24 @@ Ve işte oldu! Bu adımları izleyerek, Aspose.Words for .NET kullanarak bir Wor
 Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekilde oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/). Dokümanlarda verilen kurulum talimatlarını izleyin.
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/). Dokümanlarda verilen kurulum talimatlarını izleyin.
 
 ### Lisans olmadan Aspose.Words for .NET'i kullanabilir miyim?
- Evet, ancak bazı sınırlamaları olacak. Tam işlevsellik için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, ancak bazı sınırlamaları olacak. Tam işlevsellik için bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Fontlarım HTML'de neden düzgün görüntülenmiyor?
- Bu, yazı tipleri dönüştürme sırasında düzgün bir şekilde çözülmezse gerçekleşebilir.`ResolveFontNames = true` içinde`HtmlSaveOptions` Bu sorunun düzeltilmesine yardımcı olabilir.
+Bu, yazı tipleri dönüştürme sırasında düzgün bir şekilde çözülmezse gerçekleşebilir. `ResolveFontNames = true` içinde `HtmlSaveOptions` Bu sorunun düzeltilmesine yardımcı olabilir.
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Destek alabilirsiniz[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

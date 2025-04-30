@@ -1,14 +1,16 @@
 ---
-title: Tham gia liên tục
-linktitle: Tham gia liên tục
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách ghép nối liền mạch hai tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để ghép tài liệu trơn tru và hiệu quả.
-weight: 10
-url: /vi/net/join-and-append-documents/join-continuous/
+"description": "Tìm hiểu cách ghép nối liền mạch hai tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để ghép tài liệu trơn tru và hiệu quả."
+"linktitle": "Tham gia liên tục"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tham gia liên tục"
+"url": "/vi/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tham gia liên tục
@@ -21,7 +23,7 @@ Bạn đang muốn hợp nhất liền mạch hai tài liệu Word thành một 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt[Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt, hãy tải xuống và cài đặt [Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn có thể sử dụng Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
 - Tài liệu mẫu: Chuẩn bị hai tài liệu Word mà bạn muốn hợp nhất.
 
@@ -40,11 +42,11 @@ Bây giờ, chúng ta hãy chia ví dụ thành nhiều bước để hiểu rõ
 Đầu tiên, chúng ta cần thiết lập thư mục lưu trữ tài liệu của bạn. Điều này sẽ cho phép mã của chúng ta xác định vị trí các tệp chúng ta muốn hợp nhất.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tài liệu của bạn.
 
 ## Bước 2: Tải tài liệu nguồn và đích
 
@@ -59,7 +61,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 3: Đặt Phần Bắt đầu là Liên tục
 
- Để làm cho nội dung của tài liệu nguồn xuất hiện ngay sau tài liệu đích, chúng ta cần thiết lập`SectionStart` thuộc tính của phần đầu tiên trong tài liệu nguồn`Continuous`.
+Để làm cho nội dung của tài liệu nguồn xuất hiện ngay sau tài liệu đích, chúng ta cần thiết lập `SectionStart` thuộc tính của phần đầu tiên trong tài liệu nguồn `Continuous`.
 
 ```csharp
 // Làm cho tài liệu xuất hiện ngay sau nội dung của tài liệu đích.
@@ -77,7 +79,7 @@ Bây giờ, chúng ta thêm tài liệu nguồn vào tài liệu đích. Bước
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Sử dụng`ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng từ tài liệu nguồn được giữ nguyên trong tài liệu được hợp nhất cuối cùng.
+Sử dụng `ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng từ tài liệu nguồn được giữ nguyên trong tài liệu được hợp nhất cuối cùng.
 
 ## Bước 5: Lưu tài liệu đã hợp nhất
 
@@ -99,7 +101,7 @@ Và bạn đã có nó! Chỉ với một vài dòng mã, bạn đã hợp nhấ
 Có, bạn có thể lặp lại quy trình để hợp nhất nhiều tài liệu bằng cách tải thêm các tài liệu khác và thêm chúng theo trình tự.
 
 ### Định dạng ban đầu có được giữ nguyên không?
- Có, sử dụng`ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng từ tài liệu nguồn được giữ nguyên.
+Có, sử dụng `ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng từ tài liệu nguồn được giữ nguyên.
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?
 Có, Aspose.Words cho .NET tương thích với cả .NET Framework và .NET Core.
@@ -108,10 +110,15 @@ Có, Aspose.Words cho .NET tương thích với cả .NET Framework và .NET Cor
 Có, nhưng bạn có thể cần phải điều chỉnh các thuộc tính thiết lập trang để đảm bảo việc hợp nhất diễn ra liền mạch.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

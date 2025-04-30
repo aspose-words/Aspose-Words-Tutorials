@@ -1,46 +1,54 @@
 ---
-title: สร้างตารางแบบในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างเอกสาร Word ด้วยตารางแบบแบบแบบโดยใช้ Aspose.Words สําหรับ .NET. รวมถึงการสไตล์ตารางแบบแบบ Custom, ขอบเขต และการใส่
-keywords: [Aspose.Words for .NET, styled table, Word document, table style, table formatting, document creation, borders, padding, .NET tutorial]
-url: /th/net/working-with-table-styles-and-formatting/create-table-style/
+"description": "เรียนรู้วิธีการสร้างเอกสาร Word ที่มีตารางที่มีรูปแบบโดยใช้ Aspose.Words สำหรับ .NET รวมถึงรูปแบบตารางที่กำหนดเอง ขอบ และระยะห่างระหว่างตาราง"
+"title": "สร้างตารางสไตล์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET"
+"url": "/th/net/working-with-table-styles-and-formatting/create-table-style/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างตารางแบบในเอกสาร Word โดยใช้ Aspose.Words
+# สร้างตารางสไตล์ในเอกสาร Word โดยใช้ Aspose.Words
 
-ในบทเรียนนี้ เราจะพาคุณผ่านกระบวนการสร้างเอกสาร Word พร้อมตารางที่ปรับแต่งโดยใช้ Aspose.Words สําหรับ .NET คุณจะได้เรียนรู้วิธีการเริ่มต้นเอกสารใหม่, ใส่แถวและคอลัมน์ตาราง, และนําเสนอแบบตารางที่ปรับแต่งตามความต้องการของคุณ พร้อมกับการตั้งแดนและการใส่. ในที่สุด คุณสามารถบันทึกเอกสาร Word ที่มีรูปแบบครบครัน พร้อมตารางแบบที่เหมาะกับความต้องการของคุณ
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้างเอกสาร Word ที่มีตารางที่กำหนดเองโดยใช้ Aspose.Words สำหรับ .NET คุณจะได้เรียนรู้วิธีการเริ่มต้นเอกสารใหม่ การแทรกแถวและคอลัมน์ของตาราง และใช้รูปแบบตารางที่กำหนดเองด้วยการตั้งค่าขอบและการเติมช่องว่างที่เฉพาะเจาะจง เมื่อสิ้นสุด คุณจะสามารถบันทึกเอกสาร Word ที่จัดรูปแบบสมบูรณ์พร้อมตารางที่มีรูปแบบที่ตรงตามความต้องการของคุณได้
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/create-table-style" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง:
-เพื่อเริ่มต้นกับ Aspose.Words สําหรับ .NET ติดตามขั้นตอนนี้
+## คำแนะนำในการติดตั้ง:
+หากต้องการเริ่มต้นใช้งาน Aspose.Words สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:
 
-1. ติดตั้ง Aspose.Words: คุณสามารถดาวน์โหลดฉบับล่าสุดของ Aspose.Words สําหรับ .NET จาก [เปิดหน้า](https://releases.aspose.com/words/net/). .
+1. ติดตั้ง Aspose.Words: คุณสามารถดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ .NET ได้จาก [หน้าวางจำหน่าย](https://releases-aspose.com/words/net/).
 
-2. โครงการติดตั้งผ่าน NuGet: คุณยังสามารถติดตั้ง Aspose.Words สําหรับ .NET ผ่าน NuGet. วิ่งคําสั่งต่อไปนี้ใน NuGet Package Manager ของคุณ:
+2. ติดตั้งผ่าน NuGet: คุณยังสามารถติดตั้ง Aspose.Words สำหรับ .NET ผ่าน NuGet ได้ด้วย เรียกใช้คำสั่งต่อไปนี้ในตัวจัดการแพ็กเกจ NuGet ของคุณ:
    ```
    Install-Package Aspose.Words
    ```
 
-3. ก่อตั้งโครงการของคุณ: เมื่อห้องสมุดติดตั้งแล้ว คุณสามารถเริ่มใช้มันในโครงการของคุณโดยการเพิ่มพื้นที่ชื่อที่จําเป็น:
+3. ตั้งค่าโครงการของคุณ: เมื่อติดตั้งไลบรารีแล้ว คุณสามารถเริ่มใช้ในโครงการของคุณได้โดยการเพิ่มเนมสเปซที่จำเป็น:
    ```csharp
    using Aspose.Words;
    ```
-4. การสมัครใบอนุญาต (ทางเลือก):  
-   เพื่อใช้ฉบับเต็ม[ใช้ใบอนุญาต](https://purchase.aspose.com/temporary-license/)หรือใช้ [ทดลองใช้ฟรี](https://releases.aspose.com/words/net/). .
+4. สมัครใบอนุญาต (ทางเลือก):  
+   หากต้องการใช้เวอร์ชันเต็ม [ยื่นขอใบอนุญาต](https://purchase.aspose.com/temporary-license/) หรือใช้ [ทดลองใช้งานฟรี](https://releases-aspose.com/words/net/).
    
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

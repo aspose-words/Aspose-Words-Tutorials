@@ -1,14 +1,16 @@
 ---
-title: Вставить плавающее изображение в документ Word
-linktitle: Вставить плавающее изображение в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить плавающее изображение в документ Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для улучшения ваших документов.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/insert-floating-image/
+"description": "Узнайте, как вставить плавающее изображение в документ Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для улучшения ваших документов."
+"linktitle": "Вставить плавающее изображение в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить плавающее изображение в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/insert-floating-image/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить плавающее изображение в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/add-content-using-documentbuilder/insert-floating-image/
 
 Прежде чем приступить к работе, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Aspose.Words для .NET: Вы можете загрузить библиотеку с сайта[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете загрузить библиотеку с сайта [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 2. Visual Studio: любая версия, поддерживающая разработку .NET.
 3. Базовые знания C#: Понимание основ программирования на C# будет полезным.
 4. Файл изображения: файл изображения, который вы хотите вставить, например логотип или картинка.
@@ -52,7 +54,7 @@ using Aspose.Words.Drawing;
 
 Теперь, когда ваш проект настроен, давайте инициализируем объекты Document и DocumentBuilder.
 
-1.  Создайте новый экземпляр`Document` сорт:
+1. Создайте новый экземпляр `Document` сорт:
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +66,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`Document` объект представляет собой документ Word, а`DocumentBuilder` помогает в добавлении в него контента.
+The `Document` объект представляет собой документ Word, а `DocumentBuilder` помогает в добавлении в него контента.
 
 ## Шаг 3: Определите путь изображения
 
@@ -77,13 +79,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string imagePath = dataDir + "Transparent background logo.png";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваше изображение.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где хранится ваше изображение.
 
 ## Шаг 4: Вставьте плавающее изображение
 
 Когда все готово, давайте вставим плавающее изображение в документ.
 
- Используйте`InsertImage` Метод`DocumentBuilder` класс для вставки изображения:
+Используйте `InsertImage` Метод `DocumentBuilder` класс для вставки изображения:
 
 ```csharp
 builder.InsertImage(imagePath,
@@ -132,15 +134,15 @@ doc.Save(outputPath);
 
 ### Можно ли вставить несколько изображений с помощью Aspose.Words для .NET?
 
- Да, вы можете вставить несколько изображений, повторив`InsertImage` метод для каждого изображения с желаемыми параметрами.
+Да, вы можете вставить несколько изображений, повторив `InsertImage` метод для каждого изображения с желаемыми параметрами.
 
 ### Как изменить положение изображения?
 
- Вы можете настроить`RelativeHorizontalPosition`, `RelativeVerticalPosition`и параметры смещения для размещения изображения по мере необходимости.
+Вы можете настроить `RelativeHorizontalPosition`, `RelativeVerticalPosition`и параметры смещения для размещения изображения по мере необходимости.
 
 ### Какие еще типы обтекания доступны для изображений?
 
- Aspose.Words поддерживает различные типы переносов, такие как`Inline`, `TopBottom`, `Tight`, `Through`и многое другое. Вы можете выбрать тот, который лучше всего подходит для макета вашего документа.
+Aspose.Words поддерживает различные типы переносов, такие как `Inline`, `TopBottom`, `Tight`, `Through`и многое другое. Вы можете выбрать тот, который лучше всего подходит для макета вашего документа.
 
 ### Могу ли я использовать разные форматы изображений?
 
@@ -148,10 +150,15 @@ doc.Save(outputPath);
 
 ### Как получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете получить бесплатную пробную версию[Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
+Вы можете получить бесплатную пробную версию [Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

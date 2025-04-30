@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtloadoptions/document-text-direction/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Text Direction
@@ -113,9 +116,13 @@ For documents with mixed text directions, you may need to handle the formatting 
 
 For more details, check out the [Aspose.Words for .NET Documentation](https://reference.aspose.com/words/net/). You can also explore additional resources like [Download link](https://releases.aspose.com/words/net/), [Buy](https://purchase.aspose.com/buy), [Free trial](https://releases.aspose.com/), [Temporary license](https://purchase.aspose.com/temporary-license/), and [Support](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

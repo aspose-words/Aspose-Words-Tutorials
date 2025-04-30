@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen Word Berdasarkan Halaman
-linktitle: Membagi Dokumen Word Berdasarkan Halaman
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membagi dokumen Word berdasarkan halaman menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk mengelola dokumen besar secara efisien.
-weight: 10
-url: /id/net/split-document/page-by-page/
+"description": "Pelajari cara membagi dokumen Word berdasarkan halaman menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk mengelola dokumen besar secara efisien."
+"linktitle": "Membagi Dokumen Word Berdasarkan Halaman"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membagi Dokumen Word Berdasarkan Halaman"
+"url": "/id/net/split-document/page-by-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen Word Berdasarkan Halaman
@@ -21,7 +23,7 @@ Memisahkan dokumen Word berdasarkan halaman bisa sangat berguna, terutama saat m
 
 Sebelum kita masuk ke tutorialnya, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan yang disiapkan dengan .NET. Visual Studio adalah pilihan yang populer.
 3. Contoh Dokumen: Miliki contoh dokumen Word yang ingin Anda bagi. Simpan di direktori dokumen yang Anda tentukan.
 
@@ -74,7 +76,7 @@ Memisahkan dokumen Word berdasarkan halaman menggunakan Aspose.Words untuk .NET 
 Ya, Aspose.Words untuk .NET menangani dokumen dengan format kompleks dengan mulus.
 
 ### Mungkinkah mengekstrak sejumlah halaman, bukan satu per satu?
- Tentu saja. Anda dapat memodifikasi`ExtractPages` metode untuk menentukan rentang.
+Tentu saja. Anda dapat memodifikasi `ExtractPages` metode untuk menentukan rentang.
 
 ### Apakah metode ini berfungsi untuk format file lain seperti PDF?
 Metode yang ditunjukkan khusus untuk dokumen Word. Untuk PDF, Anda dapat menggunakan Aspose.PDF.
@@ -84,9 +86,14 @@ Aspose.Words mempertahankan format dan orientasi asli setiap halaman selama ekst
 
 ### Bisakah saya mengotomatiskan proses ini untuk beberapa dokumen?
 Ya, Anda dapat membuat skrip untuk mengotomatiskan proses pemisahan beberapa dokumen dalam satu direktori.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

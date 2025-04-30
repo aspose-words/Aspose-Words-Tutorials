@@ -7,8 +7,11 @@ weight: 10
 url: /net/apply-license/apply-license-from-file/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply License From File
@@ -105,9 +108,13 @@ You can obtain a temporary license from the [Aspose website](https://purchase.as
 ### Is the license file machine-specific?  
 No, the license file is not tied to a specific machine. You can use it on any machine as long as it’s within the terms of the license agreement.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

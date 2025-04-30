@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu với Content Builder để có độ chính xác
-linktitle: Chia tài liệu với Content Builder để có độ chính xác
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Phân chia và xử lý tài liệu của bạn một cách chính xác bằng Aspose.Words cho Python. Tìm hiểu cách tận dụng Content Builder để trích xuất và tổ chức nội dung hiệu quả.
-weight: 11
-url: /vi/python-net/document-splitting-and-formatting/divide-documents-content-builder/
+"description": "Phân chia và xử lý tài liệu của bạn một cách chính xác bằng Aspose.Words cho Python. Tìm hiểu cách tận dụng Content Builder để trích xuất và tổ chức nội dung hiệu quả."
+"linktitle": "Chia tài liệu với Content Builder để có độ chính xác"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Chia tài liệu với Content Builder để có độ chính xác"
+"url": "/vi/python-net/document-splitting-and-formatting/divide-documents-content-builder/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu với Content Builder để có độ chính xác
@@ -24,7 +26,7 @@ Khi xử lý các tài liệu lớn, điều quan trọng là phải duy trì c�
 
 Trước khi đi sâu vào triển khai, chúng ta hãy thiết lập Aspose.Words cho Python.
 
-1.  Cài đặt: Cài đặt thư viện Aspose.Words bằng cách sử dụng`pip`:
+1. Cài đặt: Cài đặt thư viện Aspose.Words bằng cách sử dụng `pip`:
    
    ```python
    pip install aspose-words
@@ -41,7 +43,7 @@ Trước khi đi sâu vào triển khai, chúng ta hãy thiết lập Aspose.Wor
 Hãy bắt đầu bằng cách tạo một tài liệu Word mới bằng Aspose.Words cho Python.
 
 ```python
-# Create a new document
+# Tạo một tài liệu mới
 doc = aw.Document()
 ```
 
@@ -52,12 +54,12 @@ Mô-đun Content Builder cho phép chúng ta thêm nội dung vào tài liệu m
 ```python
 builder = aw.DocumentBuilder(doc)
 
-# Add a title
+# Thêm tiêu đề
 builder.bold()
 builder.font.size = 16
 builder.write("Document Precision with Content Builder\n\n")
 
-# Add an introduction
+# Thêm phần giới thiệu
 builder.font.clear_formatting()
 builder.writeln("Dividing documents is essential for maintaining precision and organization in lengthy content.")
 builder.writeln("In this tutorial, we will explore how to use the Content Builder module to achieve this.")
@@ -68,18 +70,18 @@ builder.writeln("In this tutorial, we will explore how to use the Content Builde
 Bây giờ đến chức năng cốt lõi – chia tài liệu thành các phần. Chúng ta sẽ sử dụng Content Builder để chèn ngắt phần.
 
 ```python
-# Insert a section break
+# Chèn một ngắt phần
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 ```
 
- Bạn có thể chèn các loại ngắt phần khác nhau dựa trên yêu cầu của bạn, chẳng hạn như`SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS` , hoặc`SECTION_BREAK_EVEN_PAGE`.
+Bạn có thể chèn các loại ngắt phần khác nhau dựa trên yêu cầu của bạn, chẳng hạn như `SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS`, hoặc `SECTION_BREAK_EVEN_PAGE`.
 
 ## Ví dụ về trường hợp sử dụng: Tạo sơ yếu lý lịch
 
 Hãy cùng xem xét một trường hợp sử dụng thực tế: tạo sơ yếu lý lịch (CV) với các phần riêng biệt.
 
 ```python
-# Add CV sections
+# Thêm phần CV
 sections = ["Personal Information", "Education", "Work Experience", "Skills", "References"]
 
 for section in sections:
@@ -95,23 +97,28 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách sử dụng mô-đu
 ## Câu hỏi thường gặp
 
 ### Làm thế nào để cài đặt Aspose.Words cho Python?
- Bạn có thể cài đặt nó bằng lệnh:`pip install aspose-words`.
+Bạn có thể cài đặt nó bằng lệnh: `pip install aspose-words`.
 
 ### Có những loại ngắt phần nào?
 Aspose.Words for Python cung cấp nhiều kiểu ngắt phần khác nhau, chẳng hạn như ngắt trang mới, ngắt liên tục và thậm chí là ngắt trang.
 
 ### Tôi có thể tùy chỉnh định dạng của từng phần không?
-Có, bạn có thể áp dụng các định dạng, kiểu và phông chữ khác nhau cho từng phần bằng mô-đun Trình xây dựng nội dung.
+Có, bạn có thể áp dụng định dạng, kiểu và phông chữ khác nhau cho từng phần bằng mô-đun Trình xây dựng nội dung.
 
 ### Aspose.Words có phù hợp để tạo báo cáo không?
 Chắc chắn rồi! Aspose.Words for Python được sử dụng rộng rãi để tạo nhiều loại báo cáo và tài liệu với định dạng chính xác.
 
 ### Tôi có thể truy cập tài liệu và tải xuống ở đâu?
- Ghé thăm[Aspose.Words cho tài liệu Python](https://reference.aspose.com/words/python-net/) và tải xuống thư viện từ[Aspose.Words Python phát hành](https://releases.aspose.com/words/python/).
+Ghé thăm [Aspose.Words cho tài liệu Python](https://reference.aspose.com/words/python-net/) và tải xuống thư viện từ [Aspose.Words Python phát hành](https://releases.aspose.com/words/python/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

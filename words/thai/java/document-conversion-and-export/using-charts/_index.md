@@ -1,14 +1,16 @@
 ---
-title: การใช้แผนภูมิใน Aspose.Words สำหรับ Java
-linktitle: การใช้แผนภูมิ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการสร้างและปรับแต่งแผนภูมิใน Aspose.Words สำหรับ Java สำรวจประเภทแผนภูมิ การจัดรูปแบบ และคุณสมบัติของแกนสำหรับการแสดงภาพข้อมูล
-weight: 12
-url: /th/java/document-conversion-and-export/using-charts/
+"description": "เรียนรู้วิธีการสร้างและปรับแต่งแผนภูมิใน Aspose.Words สำหรับ Java สำรวจประเภทแผนภูมิ การจัดรูปแบบ และคุณสมบัติของแกนสำหรับการแสดงภาพข้อมูล"
+"linktitle": "การใช้แผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้แผนภูมิใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้แผนภูมิใน Aspose.Words สำหรับ Java
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // เปลี่ยนแกน X ให้เป็นหมวดหมู่แทนวันที่
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //วัดเป็นหน่วยแสดงผลของแกน Y (ร้อย)
+xAxis.setCrossesAt(3.0); // วัดเป็นหน่วยแสดงผลของแกน Y (ร้อย)
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 
 ### ฉันจะเพิ่มซีรีส์หลายชุดลงในแผนภูมิได้อย่างไร
 
- คุณสามารถเพิ่มซีรีส์หลายชุดลงในแผนภูมิได้โดยใช้`chart.getSeries().add()` วิธีการนี้ โปรดระบุชื่อซีรีส์ หมวดหมู่ และค่าข้อมูล
+คุณสามารถเพิ่มซีรีส์หลายชุดลงในแผนภูมิได้โดยใช้ `chart.getSeries().add()` วิธีการนี้ โปรดระบุชื่อซีรีส์ หมวดหมู่ และค่าข้อมูล
 
 ### ฉันจะจัดรูปแบบป้ายข้อมูลด้วยรูปแบบตัวเลขแบบกำหนดเองได้อย่างไร
 
-คุณสามารถจัดรูปแบบป้ายข้อมูลโดยการเข้าถึง`DataLabels` คุณสมบัติของซีรีส์และการตั้งค่ารหัสรูปแบบที่ต้องการโดยใช้`getNumberFormat().setFormatCode()`.
+คุณสามารถจัดรูปแบบป้ายข้อมูลโดยการเข้าถึง `DataLabels` คุณสมบัติของซีรีส์และการตั้งค่ารหัสรูปแบบที่ต้องการโดยใช้ `getNumberFormat()-setFormatCode()`.
 
 ### ฉันจะปรับแต่งคุณสมบัติแกนในแผนภูมิได้อย่างไร
 
- คุณสามารถปรับแต่งคุณสมบัติของแกน เช่น ประเภท เครื่องหมายถูก ป้ายกำกับ และอื่นๆ ได้โดยการเข้าถึง`ChartAxis` คุณสมบัติเช่น`setCategoryType()`, `setCrosses()` , และ`setMajorTickMark()`.
+คุณสามารถปรับแต่งคุณสมบัติของแกน เช่น ประเภท เครื่องหมายถูก ป้ายกำกับ และอื่นๆ ได้โดยการเข้าถึง `ChartAxis` คุณสมบัติเช่น `setCategoryType()`- `setCrosses()`, และ `setMajorTickMark()`-
 
 ### ฉันจะสร้างแผนภูมิประเภทอื่น เช่น แผนภูมิกระจาย หรือแผนภูมิพื้นที่ ได้อย่างไร
 
- คุณสามารถสร้างแผนภูมิประเภทต่างๆ ได้โดยระบุประเภทที่เหมาะสม`ChartType` เมื่อแทรกแผนภูมิโดยใช้`builder.insertChart(ChartType.TYPE, width, height)`.
+คุณสามารถสร้างแผนภูมิประเภทต่างๆ ได้โดยระบุประเภทที่เหมาะสม `ChartType` เมื่อแทรกแผนภูมิโดยใช้ `builder-insertChart(ChartType.TYPE, width, height)`.
 
 ### ฉันจะซ่อนแกนแผนภูมิได้อย่างไร
 
- คุณสามารถซ่อนแกนแผนภูมิได้โดยการตั้งค่า`setHidden(true)` คุณสมบัติของแกน
+คุณสามารถซ่อนแกนแผนภูมิได้โดยการตั้งค่า `setHidden(true)` คุณสมบัติของแกน
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

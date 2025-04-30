@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/rich-text-box-content-control/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rich Text Box Content Control
@@ -129,9 +132,13 @@ You can create multiple `StructuredDocumentTag` instances and add them sequentia
 Yes, Aspose.Words allows you to open, modify, and save existing Word documents, including adding or updating SDTs.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

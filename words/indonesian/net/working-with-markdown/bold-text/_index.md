@@ -1,14 +1,16 @@
 ---
-title: Teks Tebal
-linktitle: Teks Tebal
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menebalkan teks dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pemformatan dokumen Anda.
-weight: 10
-url: /id/net/working-with-markdown/bold-text/
+"description": "Pelajari cara menebalkan teks dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pemformatan dokumen Anda."
+"linktitle": "Teks Tebal"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Teks Tebal"
+"url": "/id/net/working-with-markdown/bold-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Teks Tebal
@@ -21,13 +23,13 @@ Hai, para penggemar dokumen! Jika Anda terjun ke dunia pemrosesan dokumen dengan
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio untuk menulis dan menjalankan kode Anda.
 3. Pemahaman Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
 
 ## Mengimpor Ruang Nama
 
-Pertama-tama, mari impor namespace yang diperlukan. Ini akan memungkinkan kita mengakses fungsi Aspose.Words tanpa harus terus-menerus merujuk ke jalur namespace lengkap.
+Pertama-tama, mari impor namespace yang diperlukan. Ini akan memungkinkan kita untuk mengakses fungsi Aspose.Words tanpa harus terus-menerus merujuk ke jalur namespace lengkap.
 
 ```csharp
 using System;
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan proses menebalkan teks dalam dokumen Word menggunaka
 
 ## Langkah 1: Inisialisasi DocumentBuilder
 
- Itu`DocumentBuilder` class menyediakan cara cepat dan mudah untuk menambahkan konten ke dokumen Anda. Mari kita inisialisasi.
+Itu `DocumentBuilder` class menyediakan cara cepat dan mudah untuk menambahkan konten ke dokumen Anda. Mari kita inisialisasi.
 
 ```csharp
 // Gunakan pembuat dokumen untuk menambahkan konten ke dokumen.
@@ -48,7 +50,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Langkah 2: Buat Teks Tebal
 
- Sekarang tibalah bagian yang menyenangkan - membuat teks menjadi tebal. Kita akan mengatur`Bold` milik`Font` keberatan terhadap`true` dan tulis teks tebal kita.
+Sekarang tibalah bagian yang menyenangkan - membuat teks menjadi tebal. Kita akan mengatur `Bold` milik `Font` keberatan terhadap `true` dan tulis teks tebal kita.
 
 ```csharp
 // Buat teks menjadi tebal.
@@ -63,22 +65,27 @@ Nah, itu dia! Anda telah berhasil menebalkan teks dalam dokumen Word menggunakan
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menebalkan hanya sebagian teks saja?
- Ya, Anda bisa. Gunakan`DocumentBuilder` untuk memformat bagian tertentu teks Anda.
+Ya, Anda bisa. Gunakan `DocumentBuilder` untuk memformat bagian tertentu teks Anda.
 
 ### Apakah mungkin untuk mengubah warna teks juga?
- Tentu saja! Anda dapat menggunakan`builder.Font.Color`properti untuk mengatur warna teks.
+Tentu saja! Anda dapat menggunakan `builder.Font.Color` properti untuk mengatur warna teks.
 
 ### Bisakah saya menerapkan beberapa gaya font sekaligus?
- Ya, Anda bisa. Misalnya, Anda dapat membuat teks tebal dan miring secara bersamaan dengan mengatur keduanya`builder.Font.Bold` Dan`builder.Font.Italic` ke`true`.
+Ya, Anda bisa. Misalnya, Anda dapat membuat teks tebal dan miring secara bersamaan dengan mengatur keduanya `builder.Font.Bold` Dan `builder.Font.Italic` ke `true`.
 
 ### Apa saja pilihan format teks lain yang tersedia?
 Aspose.Words menyediakan berbagai pilihan pemformatan teks seperti ukuran font, garis bawah, coretan, dan banyak lagi.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words?
- Anda dapat menggunakan Aspose.Words dengan uji coba gratis atau lisensi sementara, tetapi untuk fungsionalitas penuh, sebaiknya gunakan lisensi yang dibeli. Lihat[membeli](https://purchase.aspose.com/buy) halaman untuk rincian lebih lanjut.
+Anda dapat menggunakan Aspose.Words dengan uji coba gratis atau lisensi sementara, tetapi untuk fungsionalitas penuh, sebaiknya gunakan lisensi yang dibeli. Lihat [membeli](https://purchase.aspose.com/buy) halaman untuk rincian lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

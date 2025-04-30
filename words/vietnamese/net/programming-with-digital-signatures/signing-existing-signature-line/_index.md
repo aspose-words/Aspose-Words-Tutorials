@@ -1,14 +1,16 @@
 ---
-title: Ký dòng chữ ký hiện có trong tài liệu Word
-linktitle: Ký dòng chữ ký hiện có trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách ký dòng chữ ký hiện có trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "Tìm hiểu cách ký dòng chữ ký hiện có trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Ký dòng chữ ký hiện có trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Ký dòng chữ ký hiện có trong tài liệu Word"
+"url": "/vi/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ký dòng chữ ký hiện có trong tài liệu Word
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ cần ký một tài liệu kỹ thuật số nh
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Aspose.Words for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với C#.
 3. Tài liệu và Chứng chỉ: Một tài liệu Word có dòng chữ ký và chứng chỉ kỹ thuật số (tệp PFX).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi.
@@ -100,7 +102,7 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 
 ### Tôi có thể dùng thử miễn phí Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng bất kỳ định dạng hình ảnh nào cho chữ ký không?
 
@@ -112,10 +114,15 @@ Bạn có thể mua chứng chỉ số từ nhiều nhà cung cấp trực tuy�
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu mở rộng[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu mở rộng [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

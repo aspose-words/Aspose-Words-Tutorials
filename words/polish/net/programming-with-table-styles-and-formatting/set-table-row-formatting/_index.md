@@ -1,14 +1,16 @@
 ---
-title: Ustaw formatowanie wierszy tabeli
-linktitle: Ustaw formatowanie wierszy tabeli
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić formatowanie wierszy tabeli w dokumentach Word za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Idealne do tworzenia dobrze sformatowanych i profesjonalnych dokumentów.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "Dowiedz się, jak ustawić formatowanie wierszy tabeli w dokumentach Word za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Idealne do tworzenia dobrze sformatowanych i profesjonalnych dokumentów."
+"linktitle": "Ustaw formatowanie wierszy tabeli"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustaw formatowanie wierszy tabeli"
+"url": "/pl/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw formatowanie wierszy tabeli
@@ -21,7 +23,7 @@ Jeśli chcesz opanować sztukę formatowania tabel w dokumentach Worda przy uży
 
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1.  Aspose.Words dla .NET — jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj ze strony[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET — jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj ze strony [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne – dowolne środowisko IDE, np. Visual Studio, które obsługuje platformę .NET.
 3. Podstawowa znajomość języka C# — zrozumienie podstawowych koncepcji języka C# pomoże Ci płynnie uczyć się języka.
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Uruchom tabelę
 
- Następnie zaczniesz tworzyć tabelę.`DocumentBuilder` Klasa ta zapewnia prosty sposób wstawiania i formatowania tabel.
+Następnie zaczniesz tworzyć tabelę. `DocumentBuilder` Klasa ta zapewnia prosty sposób wstawiania i formatowania tabel.
 
 ```csharp
 Table table = builder.StartTable();
@@ -98,28 +100,33 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableR
 
 ## Wniosek
 
-I masz! Udało Ci się utworzyć sformatowaną tabelę w dokumencie Word przy użyciu Aspose.Words dla .NET. Ten proces można rozszerzyć i dostosować do bardziej złożonych wymagań, ale te podstawowe kroki zapewniają solidne podstawy. Eksperymentuj z różnymi opcjami formatowania i zobacz, jak ulepszą Twoje dokumenty.
+masz! Udało Ci się utworzyć sformatowaną tabelę w dokumencie Word przy użyciu Aspose.Words dla .NET. Ten proces można rozszerzyć i dostosować do bardziej złożonych wymagań, ale te podstawowe kroki zapewniają solidne podstawy. Eksperymentuj z różnymi opcjami formatowania i zobacz, jak ulepszą Twoje dokumenty.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ustawić inne formatowanie dla każdego wiersza w tabeli?
- Tak, możesz ustawić indywidualne formatowanie dla każdego wiersza, stosując różne`RowFormat` właściwości dla każdego tworzonego wiersza.
+Tak, możesz ustawić indywidualne formatowanie dla każdego wiersza, stosując różne `RowFormat` właściwości dla każdego tworzonego wiersza.
 
 ### Czy można dodać do komórek tabeli inne elementy, np. obrazy?
- Oczywiście! Możesz wstawiać obrazy, kształty i inne elementy do komórek tabeli za pomocą`DocumentBuilder` klasa.
+Oczywiście! Możesz wstawiać obrazy, kształty i inne elementy do komórek tabeli za pomocą `DocumentBuilder` klasa.
 
 ### Jak zmienić wyrównanie tekstu w komórkach tabeli?
- Możesz zmienić wyrównanie tekstu, ustawiając`ParagraphFormat.Alignment` własność`DocumentBuilder` obiekt.
+Możesz zmienić wyrównanie tekstu, ustawiając `ParagraphFormat.Alignment` własność `DocumentBuilder` obiekt.
 
 ### Czy mogę scalić komórki w tabeli za pomocą Aspose.Words dla .NET?
- Tak, możesz scalić komórki za pomocą`CellFormat.HorizontalMerge` I`CellFormat.VerticalMerge` Właściwości.
+Tak, możesz scalić komórki za pomocą `CellFormat.HorizontalMerge` I `CellFormat.VerticalMerge` Właściwości.
 
 ### Czy istnieje sposób na nadanie tabeli stylu przy użyciu predefiniowanych stylów?
- Tak, Aspose.Words dla .NET umożliwia stosowanie wstępnie zdefiniowanych stylów tabel za pomocą`Table.Style` nieruchomość.
+Tak, Aspose.Words dla .NET umożliwia stosowanie wstępnie zdefiniowanych stylów tabel za pomocą `Table.Style` nieruchomość.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

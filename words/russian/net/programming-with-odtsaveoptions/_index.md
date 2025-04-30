@@ -1,14 +1,16 @@
 ---
-title: Обработка слов с помощью Odtsaveoptions
-linktitle: Обработка слов с помощью Odtsaveoptions
-second_title: API обработки документов Aspose.Words
-description: Изучите обработку слов с параметрами сохранения ODT в Aspose.Words для .NET. Подробные руководства с примерами кода для сохранения документов Word в формате ODT.
-weight: 1650
-url: /ru/net/programming-with-odtsaveoptions/
+"description": "Изучите обработку слов с параметрами сохранения ODT в Aspose.Words для .NET. Подробные руководства с примерами кода для сохранения документов Word в формате ODT."
+"linktitle": "Обработка слов с помощью Odtsaveoptions"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обработка слов с помощью Odtsaveoptions"
+"url": "/ru/net/programming-with-odtsaveoptions/"
+"weight": 1650
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка слов с помощью Odtsaveoptions
@@ -20,12 +22,17 @@ url: /ru/net/programming-with-odtsaveoptions/
 Если вам нужно преобразовать документы, манипулировать содержимым, управлять форматированием или автоматизировать определенные задачи, учебники Aspose.Words для .NET здесь, чтобы помочь. С полной документацией и соответствующими примерами кода вы сможете эффективно использовать Aspose.Words в ваших проектах разработки .NET, тем самым повышая производительность и качество.
 
  ## Учебники
-| Заголовок | Описание |
+| Название | Описание |
 | --- | --- |
 | [Единица измерения](./measure-unit/) | Узнайте, как настроить функцию единиц измерения в Aspose.Words для .NET, чтобы сохранить форматирование документа во время преобразования ODT. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

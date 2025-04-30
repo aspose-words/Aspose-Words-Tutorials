@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z sekcji w Aspose.Words dla Java
-linktitle: Korzystanie z sekcji
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Poznaj Aspose.Words dla Javy; Kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
-weight: 23
-url: /pl/java/using-document-elements/using-sections/
+"description": "Poznaj Aspose.Words dla Javy; Kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu."
+"linktitle": "Korzystanie z sekcji"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z sekcji w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-sections/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z sekcji w Aspose.Words dla Java
@@ -23,7 +25,7 @@ Zanim zagłębimy się w kod, zrozumiemy, czym są sekcje w Aspose.Words. W doku
 
 ## Dodawanie sekcji
 
-Aby dodać sekcję za pomocą Aspose.Words for Java, wykonaj następujące kroki:
+Aby dodać sekcję za pomocą Aspose.Words dla Java, wykonaj następujące kroki:
 
 ```java
 public void addSection() throws Exception {
@@ -110,25 +112,30 @@ Tak, Aspose.Words for Java jest kompatybilny z innymi bibliotekami Java, co czyn
 
 ### P2: Czy jest dostępna wersja próbna Aspose.Words dla Java?
 
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words dla Java[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words dla Java [Tutaj](https://releases.aspose.com/).
 
 ### P3: Jak mogę uzyskać tymczasową licencję na Aspose.Words dla Java?
 
- Możesz uzyskać tymczasową licencję na Aspose.Words dla Java[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję na Aspose.Words dla Java [Tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Gdzie mogę znaleźć pomoc techniczną dotyczącą Aspose.Words dla Java?
+### P4: Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words dla Java?
 
- Aby uzyskać pomoc i wsparcie, możesz odwiedzić forum Aspose.Words for Java[Tutaj](https://forum.aspose.com/).
+Aby uzyskać pomoc i wsparcie, możesz odwiedzić forum Aspose.Words for Java [Tutaj](https://forum.aspose.com/).
 
 ### P5: Jak mogę kupić licencję na Aspose.Words dla Java?
 
- Możesz zakupić licencję na Aspose.Words dla Java[Tutaj](https://purchase.aspose.com/buy).
+Możesz zakupić licencję na Aspose.Words dla Java [Tutaj](https://purchase.aspose.com/buy).
 
 Zacznij korzystać z Aspose.Words for Java już dziś i zwiększ możliwości przetwarzania dokumentów!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

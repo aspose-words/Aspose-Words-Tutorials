@@ -7,8 +7,11 @@ weight: 10
 url: /net/split-document/by-page-range/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Word Document By Page Range
@@ -98,9 +101,13 @@ Yes, but you’ll need to perform multiple extraction operations for each page o
 Absolutely! Aspose.Words for .NET supports a wide range of formats including DOC, PDF, HTML, and more.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów za pomocą Htmlloadoptions
-linktitle: Przetwarzanie słów za pomocą Htmlloadoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak programować z opcjami ładowania HTML w Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne funkcje ładowania dokumentów HTML.
-weight: 1600
-url: /pl/net/programming-with-htmlloadoptions/
+"description": "Dowiedz się, jak programować z opcjami ładowania HTML w Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne funkcje ładowania dokumentów HTML."
+"linktitle": "Przetwarzanie słów za pomocą Htmlloadoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów za pomocą Htmlloadoptions"
+"url": "/pl/net/programming-with-htmlloadoptions/"
+"weight": 1600
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów za pomocą Htmlloadoptions
@@ -18,10 +20,15 @@ Samouczki Aspose.Words for .NET dotyczące przetwarzania słów za pomocą HTMLL
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Preferowany typ kontroli w dokumencie Word](./preferred-control-type/) | Dowiedz się, jak wstawić pole formularza combo box do dokumentu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację treści HTML. |
+| [Preferowany typ kontroli w dokumencie Word](./preferred-control-type/) | Dowiedz się, jak wstawić pole formularza pola kombi do dokumentu programu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację zawartości HTML. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Stosowanie stylów i motywów do przekształcania dokumentów
-linktitle: Stosowanie stylów i motywów do przekształcania dokumentów
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Ulepsz estetykę dokumentu dzięki Aspose.Words dla Pythona. Stosuj style, motywy i dostosowania bez wysiłku.
-weight: 14
-url: /pl/python-net/document-combining-and-comparison/apply-styles-themes-documents/
+"description": "Ulepsz estetykę dokumentu dzięki Aspose.Words dla Pythona. Stosuj style, motywy i dostosowania bez wysiłku."
+"linktitle": "Stosowanie stylów i motywów do przekształcania dokumentów"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Stosowanie stylów i motywów do przekształcania dokumentów"
+"url": "/pl/python-net/document-combining-and-comparison/apply-styles-themes-documents/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stosowanie stylów i motywów do przekształcania dokumentów
@@ -20,7 +22,7 @@ Style i motywy są kluczowe w zachowaniu spójności i estetyki dokumentów. Sty
 
 ## Konfigurowanie środowiska
 
-Zanim przejdziemy do stylizacji, skonfigurujmy nasze środowisko programistyczne. Upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/python/).
+Zanim przejdziemy do stylizacji, skonfigurujmy nasze środowisko programistyczne. Upewnij się, że masz zainstalowany Aspose.Words dla Pythona. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/python/).
 
 ## Ładowanie i zapisywanie dokumentów
 
@@ -29,10 +31,10 @@ Na początek nauczmy się, jak ładować i zapisywać dokumenty za pomocą Aspos
 ```python
 from asposewords import Document
 
-# Load the document
+# Załaduj dokument
 doc = Document("input.docx")
 
-# Save the document
+# Zapisz dokument
 doc.save("output.docx")
 ```
 
@@ -43,7 +45,7 @@ Style znaków, takie jak pogrubienie i kursywa, wzmacniają określone fragmenty
 ```python
 from asposewords import Font, StyleIdentifier
 
-# Apply bold style
+# Zastosuj pogrubiony styl
 font = doc.range.font
 font.bold = True
 font.style_identifier = StyleIdentifier.STRONG
@@ -51,12 +53,12 @@ font.style_identifier = StyleIdentifier.STRONG
 
 ## Formatowanie akapitów za pomocą stylów
 
-Style wpływają również na formatowanie akapitu. Dostosuj wyrównania, odstępy i inne za pomocą stylów.
+Style wpływają również na formatowanie akapitu. Dostosuj wyrównania, odstępy i inne elementy za pomocą stylów.
 
 ```python
 from asposewords import ParagraphAlignment
 
-# Apply centered alignment
+# Zastosuj wyrównanie środkowe
 paragraph = doc.first_section.body.first_paragraph.paragraph_format
 paragraph.alignment = ParagraphAlignment.CENTER
 ```
@@ -67,10 +69,10 @@ Dostosuj motywy do swoich potrzeb, zmieniając kolory i czcionki motywu.
 
 ```python
 
-# Modify theme colors
+# Zmień kolory motywu
 doc.theme.color = ThemeColor.ACCENT2
 
-# Change theme font
+# Zmień czcionkę motywu
 doc.theme.major_fonts.latin = "Arial"
 ```
 
@@ -82,7 +84,7 @@ Zastosuj różne style do nagłówków, stopek i treści, aby uzyskać dopracowa
 import aspose.words as aw
 from asposewords import HeaderFooterType
 
-# Apply style to header
+# Zastosuj styl do nagłówka
 header = doc.first_section.headers_footers.add(aw.HeaderFooter(doc, aw.HeaderFooterType.HEADER_PRIMARY))
 
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
@@ -99,7 +101,7 @@ Stosowanie stylów i motywów za pomocą Aspose.Words for Python umożliwia twor
 
 ### Jak mogę pobrać Aspose.Words dla języka Python?
 
- Możesz pobrać Aspose.Words dla języka Python ze strony internetowej:[Link do pobrania](https://releases.aspose.com/words/python/).
+Możesz pobrać Aspose.Words dla języka Python ze strony internetowej: [Link do pobrania](https://releases.aspose.com/words/python/).
 
 ### Czy mogę tworzyć własne, niestandardowe style?
 
@@ -115,10 +117,15 @@ Motywy zapewniają spójny wygląd i styl poprzez grupowanie stylów, co skutkuj
 
 ### Czy można usunąć formatowanie z dokumentu?
 
-Tak, możesz łatwo usunąć formatowanie i style za pomocą`clear_formatting()` metoda udostępniona przez Aspose.Words dla Pythona.
+Tak, możesz łatwo usunąć formatowanie i style za pomocą `clear_formatting()` metoda udostępniona przez Aspose.Words dla Pythona.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

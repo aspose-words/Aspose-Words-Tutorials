@@ -1,33 +1,35 @@
 ---
-title: Változók beszerzése
-linktitle: Változók beszerzése
-second_title: Aspose.Words Document Processing API
-description: Master Aspose.Words for .NET. Ezzel a lépésenkénti útmutatóval megtudhatja, hogyan tölthet be és vonhat ki változókat Word dokumentumokból.
-weight: 10
-url: /hu/net/programming-with-document-properties/get-variables/
+"description": "Sajátítsd el az Aspose.Words for .NET használatát. Tanuld meg, hogyan tölthetsz be és kinyerhetsz változókat Word dokumentumokból ezzel a lépésről lépésre haladó útmutatóval."
+"linktitle": "Változók lekérése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Változók lekérése"
+"url": "/hu/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Változók beszerzése
+# Változók lekérése
 
 ## Bevezetés
 
-Szia kódolótárs! Készen áll, hogy belemerüljön az Aspose.Words for .NET világába? Kapcsolja be, mert egy olyan utazásra indulunk, amely gyerekjáték lesz a Word-dokumentumok kezelése .NET-alkalmazásaiban. Ebben az útmutatóban lépésről lépésre lebontjuk mindazt, amit tudnia kell, világos magyarázatokkal és beszélgetési hangnemben. Szóval, igyál egy csésze kávét, helyezkedj el kényelmesen, és kezdjük is!
+Szia, programozótársam! Készen állsz belevetni magad az Aspose.Words for .NET világába? Kapaszkodj be, mert egy olyan utazásra indulunk, amely gyerekjátékká teszi a Word dokumentumok kezelését a .NET alkalmazásaidban. Ebben az útmutatóban lépésről lépésre lebontunk mindent, amit tudnod kell, világos magyarázatokkal és társalgási hangnemben. Szóval, fogj egy csésze kávét, helyezkedj el kényelmesen, és kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a finomságokba, győződjünk meg arról, hogy mindennel megvan, amire szüksége van:
+Mielőtt belemennénk a részletekbe, ellenőrizzük, hogy minden megvan-e, amire szükséged van:
 
-1. Alapvető C# és .NET ismeretek: Ismernie kell a C# és a .NET keretrendszer alapjait.
-2.  Aspose.Words for .NET Library: Töltse le az Aspose.Words for .NET könyvtárat innen[itt](https://releases.aspose.com/words/net/).
-3. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen.
+1. C# és .NET alapismeretek: Ismernie kell a C# és a .NET keretrendszer alapjait.
+2. Aspose.Words .NET könyvtárhoz: Töltse le az Aspose.Words .NET könyvtárat innen: [itt](https://releases.aspose.com/words/net/).
+3. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket. Ez olyan, mint a színpad beállítása a nagy előadás előtt.
+Először is importáljuk a szükséges névtereket. Ez olyan, mintha előkészítenénk a színpadot a nagy előadás előtt.
 
 ```csharp
 using System;
@@ -39,45 +41,45 @@ using Aspose.Words;
 
 ### Új projekt létrehozása
 
-Indítsuk el a dolgokat egy új projekt létrehozásával a Visual Studióban.
+Kezdjük egy új projekt létrehozásával a Visual Studio-ban.
 
-1. Nyissa meg a Visual Studio-t, és válassza az "Új projekt létrehozása" lehetőséget.
+1. Nyisd meg a Visual Studio-t, és válaszd az „Új projekt létrehozása” lehetőséget.
 2. Válassza a „Konzolalkalmazás (.NET Core)” lehetőséget, majd kattintson a „Tovább” gombra.
-3. Nevezze el a projektet, és kattintson a "Létrehozás" gombra.
+3. Nevezd el a projektedet, majd kattints a „Létrehozás” gombra.
 
 ### Az Aspose.Words telepítése
 
-Most pedig vegyük be az Aspose.Words könyvtárat a projektünkbe.
+Most pedig illesszük be az Aspose.Words könyvtárat a projektünkbe.
 
-1. Nyissa meg a NuGet Package Manager alkalmazást a Visual Studióban.
-2. Keresse meg az "Aspose.Words" kifejezést, és telepítse.
+1. Nyissa meg a NuGet csomagkezelőt a Visual Studióban.
+2. Keresd meg az „Aspose.Words” fájlt, és telepítsd.
 
 ## 2. lépés: Word-dokumentum betöltése
 
- Töltsünk be egy Word dokumentumot az alkalmazásunkba. Egy egyszerűt fogunk használni`Document` ellenzi ezt.
+Töltsünk be egy Word dokumentumot az alkalmazásunkba. Egy egyszerű `Document` tiltakozik ennek megtétele ellen.
 
-1. Hozzon létre egy új karakterlánc-változót a dokumentumkönyvtár elérési útjának tárolására:
+1. Hozz létre egy új karakterlánc-változót, amely a dokumentumkönyvtár elérési útját tartalmazza:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Hozzon létre a`Document` objektumot, és töltse be a dokumentumot:
+2. Hozz létre egy `Document` objektum és töltse be a dokumentumot:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
 
-Ez a lépés olyan, mint egy könyv kinyitása. Csak megmondjuk a programunknak, hogy hol találja meg a dokumentumot, majd megnyitjuk, hogy elkezdhessünk vele dolgozni.
+Ez a lépés olyan, mint egy könyv megnyitása. Csak megmondjuk a programunknak, hol keresse a dokumentumot, majd megnyitjuk, hogy elkezdhessünk vele dolgozni.
 
-## 3. lépés: Dokumentumváltozók kibontása
+## 3. lépés: Dokumentumváltozók kinyerése
 
-Most vegyük ki a változókat a dokumentumunkból.
+Most pedig vonjuk ki a változókat a dokumentumunkból.
 
-1. Hozzon létre egy karakterlánc-változót a változók tárolására:
+1. Hozz létre egy karakterlánc-változót a változók tárolására:
     ```csharp
     string variables = "";
     ```
 
-2. Lapozzon át a dokumentumváltozókon, és fűzze össze őket a karakterlánc változóba:
+2. Menj végig a dokumentumváltozókon, és fűzd össze őket egy karakterlánc-változóvá:
     ```csharp
     foreach (KeyValuePair<string, string> entry in doc.Variables)
     {
@@ -100,32 +102,37 @@ Most vegyük ki a változókat a dokumentumunkból.
     ```
 
 
-Tekintsd ezt a lépést úgy, mint a könyv lapozását és az összes fontos megjegyzés feljegyzését. Végigmegyünk a dokumentumon, kinyerjük a kulcs-érték párokat, és egy karakterláncban tároljuk őket, hogy később megjelenjenek.
+Gondolj erre a lépésre úgy, mintha lapozgatnád a könyvet, és lejegyeznéd az összes fontos megjegyzést. Átnézzük a dokumentumot, kinyerjük a kulcs-érték párokat, és egy karakterláncban tároljuk őket későbbi megjelenítéshez.
 
 ## Következtetés
 
-És megvan! Sikeresen használta az Aspose.Words for .NET programot Word-dokumentum betöltésére és a változók kibontására. Az alábbi lépések követésével könnyedén kezelheti a Word-dokumentumokat .NET-alkalmazásaiban. Folytassa a kísérletezést és a könyvtár funkcióinak felfedezését, hogy megtudja, mit érhet el még.
+És íme! Sikeresen használtad az Aspose.Words for .NET programot egy Word dokumentum betöltésére és a változóinak kinyerésére. A következő lépéseket követve könnyedén manipulálhatod a Word dokumentumokat a .NET alkalmazásaidban. Kísérletezz tovább, és fedezd fel a könyvtár funkcióit, hogy lásd, mit érhetsz még el.
 
 ## GYIK
 
 ### Használhatom az Aspose.Words for .NET-et más programozási nyelvekkel?
-Igen, az Aspose.Words több nyelvet is támogat, de ebben az oktatóanyagban a C#-ra összpontosítunk.
+Igen, az Aspose.Words több nyelvet is támogat, de ebben az oktatóanyagban a C#-ra koncentráltunk.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
- Ideiglenes jogosítványt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
+Ideiglenes jogosítványt igényelhetsz [itt](https://purchase.aspose.com/temporary-license/).
 
 ### Van mód más dokumentumformátumok manipulálására az Aspose.Words segítségével?
-Teljesen! Az Aspose.Words különféle formátumokat támogat, például DOC, DOCX, ODT, RTF és még sok más.
+Abszolút! Az Aspose.Words számos formátumot támogat, például a DOC, DOCX, ODT, RTF és egyebeket.
 
-### Használhatom az Aspose.Words-t webes alkalmazásokhoz?
-Igen, az Aspose.Words integrálható webalkalmazásokba, asztali alkalmazásokba stb.
+### Használhatom az Aspose.Words-öt webes alkalmazásokhoz?
+Igen, az Aspose.Words integrálható webes alkalmazásokba, asztali alkalmazásokba és egyebekbe.
 
 ### Hol találok további példákat és dokumentációt?
- Nézze meg a[Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) további példákért és részletes útmutatókért.
+Nézd meg a [Aspose.Words dokumentáció](https://reference.aspose.com/words/net/) további példákért és részletes útmutatókért.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

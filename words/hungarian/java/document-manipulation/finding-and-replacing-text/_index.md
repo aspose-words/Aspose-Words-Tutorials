@@ -1,32 +1,34 @@
 ---
-title: Szöveg keresése és cseréje az Aspose.Words for Java programban
-linktitle: Szöveg keresése és cseréje
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan kereshet és cserélhet szöveget Word dokumentumokban az Aspose.Words for Java segítségével. Útmutató lépésről lépésre kódpéldákkal. Javítsa Java dokumentumkezelési készségeit.
-weight: 15
-url: /hu/java/document-manipulation/finding-and-replacing-text/
+"description": "Tanuld meg, hogyan kereshetsz és cserélhetsz szöveget Word dokumentumokban az Aspose.Words for Java segítségével. Lépésről lépésre útmutató kódpéldákkal. Fejleszd Java dokumentumkezelési készségeidet."
+"linktitle": "Szöveg keresése és cseréje"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Szöveg keresése és cseréje az Aspose.Words programban Java-ban"
+"url": "/hu/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg keresése és cseréje az Aspose.Words for Java programban
+# Szöveg keresése és cseréje az Aspose.Words programban Java-ban
 
 
-## Bevezetés a szöveg keresésébe és cseréjébe az Aspose.Words for Java programban
+## Bevezetés a szöveg kereséséhez és cseréjéhez az Aspose.Words for Java programban
 
-Az Aspose.Words for Java egy hatékony Java API, amely lehetővé teszi a Word dokumentumok programozott kezelését. A Word dokumentumok kezelése során az egyik gyakori feladat a szöveg keresése és cseréje. Akár frissítenie kell a helyőrzőket a sablonokban, akár összetettebb szövegmanipulációkat kell végrehajtania, az Aspose.Words for Java segíthet céljai hatékony elérésében.
+Az Aspose.Words for Java egy hatékony Java API, amely lehetővé teszi a Word-dokumentumokkal való programozott munkát. A Word-dokumentumokkal való munka egyik gyakori feladata a szöveg keresése és cseréje. Akár a sablonok helyőrzőinek frissítésére, akár összetettebb szövegmanipulációk elvégzésére van szüksége, az Aspose.Words for Java segíthet céljai hatékony elérésében.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a szöveg keresésének és cseréjének részleteibe, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a szövegkeresés és -csere részleteibe, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztői környezet
-- Aspose.Words for Java könyvtár
-- Egy minta Word dokumentum, amellyel dolgozni
+- Aspose.Words Java könyvtárhoz
+- Egy minta Word-dokumentum, amellyel dolgozhatsz
 
- Az Aspose.Words for Java könyvtárat innen töltheti le[itt](https://releases.aspose.com/words/java/).
+Az Aspose.Words for Java könyvtárat letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 
 ## Egyszerű szöveg keresése és cseréje
 
@@ -34,7 +36,7 @@ Mielőtt belemerülnénk a szöveg keresésének és cseréjének részleteibe, 
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy DocumentBuilder programot
+// Dokumentumszerkesztő létrehozása
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Szöveg keresése és cseréje
@@ -44,20 +46,20 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- Ebben a példában betöltünk egy Word dokumentumot, létrehozunk a`DocumentBuilder` , és használja a`replace` módszer a "régi szöveg" megkeresésére és az "új szöveg" szövegre cseréjére a dokumentumban.
+Ebben a példában betöltünk egy Word dokumentumot, létrehozunk egy `DocumentBuilder`, és használd a `replace` metódus a dokumentumon belüli „régi szöveg” megkereséséhez és „új szöveg”-re cseréléséhez.
 
 ## Reguláris kifejezések használata
 
-A reguláris kifejezések hatékony mintaillesztési lehetőségeket biztosítanak a szövegkereséshez és -cseréhez. Az Aspose.Words for Java támogatja a reguláris kifejezéseket a fejlettebb keresési és csereműveletekhez.
+A reguláris kifejezések hatékony mintaillesztési képességeket biztosítanak szövegkereséshez és -cseréhez. Az Aspose.Words for Java támogatja a reguláris kifejezéseket a fejlettebb keresési és csereműveletekhez.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy DocumentBuilder programot
+// Dokumentumszerkesztő létrehozása
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Szöveg kereséséhez és cseréjéhez használjon reguláris kifejezéseket
+// Reguláris kifejezések használata szöveg kereséséhez és cseréjéhez
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
@@ -65,107 +67,107 @@ builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
-Ebben a példában reguláris kifejezésmintát használunk a dokumentumon belüli szöveg megkeresésére és cseréjére.
+Ebben a példában reguláris kifejezés mintát használunk a dokumentumon belüli szöveg megkereséséhez és cseréjéhez.
 
-## mezők belsejében lévő szöveg figyelmen kívül hagyása
+## Mezőkön belüli szöveg figyelmen kívül hagyása
 
-Beállíthatja, hogy az Aspose.Words figyelmen kívül hagyja a mezőkben lévő szöveget a keresési és csereműveletek végrehajtásakor.
+Az Aspose.Words beállítható úgy, hogy a keresés és csere műveletek végrehajtásakor figyelmen kívül hagyja a mezőkben lévő szöveget.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítsa az IgnoreFields értéket igazra
+// Hozz létre egy FindReplaceOptions példányt, és állítsd az IgnoreFields paramétert true értékre.
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace("text-to-replace", "new-text", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez akkor hasznos, ha ki akarja zárni a mezőkön belüli szöveget, például az egyesített mezőket, a lecserélésből.
+Ez akkor hasznos, ha ki szeretné zárni a mezőkben, például az egyesítő mezőkben található szövegek cseréjét.
 
-## Szöveg figyelmen kívül hagyása a változatok törlésében
+## szöveg figyelmen kívül hagyása a törlési változatokban
 
-Beállíthatja, hogy az Aspose.Words figyelmen kívül hagyja a revíziók törlésén belüli szöveget a keresési és csereműveletek során.
+Az Aspose.Words beállítható úgy, hogy a keresés és csere műveletek során figyelmen kívül hagyja a törlési revíziókban található szöveget.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítsa az IgnoreDeleted értéket true értékre
+// Hozz létre egy FindReplaceOptions példányt, és állítsd az IgnoreDeleted paramétert true értékre.
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace("text-to-replace", "new-text", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi, hogy kizárja a nyomon követett változtatásokban törlésre megjelölt szövegek cseréjét.
+Ez lehetővé teszi, hogy a követett változásokban törlésre megjelölt szövegrészeket kizárja a lecserélésből.
 
-## Szöveg figyelmen kívül hagyása a beillesztési változatokon belül
+## Szöveg figyelmen kívül hagyása a beszúrás módosításain belül
 
-Beállíthatja, hogy az Aspose.Words figyelmen kívül hagyja a szöveg beszúrását a revíziókon belül a keresési és csereműveletek során.
+Az Aspose.Words beállítható úgy, hogy a keresés és csere műveletek során figyelmen kívül hagyja a beszúrási javításokon belüli szöveget.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítsa az IgnoreInserted értéket igazra
+// Hozz létre egy FindReplaceOptions példányt, és állítsd az IgnoreInserted változót true értékre.
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace("text-to-replace", "new-text", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi, hogy kizárja a nyomon követett változtatásokba beszúrtként megjelölt szöveget a lecserélésből.
+Ez lehetővé teszi, hogy kizárja a követett változásokban beszúrtként megjelölt szöveg cseréjét.
 
-## Szöveg lecserélése HTML-re
+## Szöveg cseréje HTML-lel
 
-Az Aspose.Words for Java segítségével szöveget HTML-tartalommal helyettesíthet.
+Az Aspose.Words for Java segítségével szöveget HTML tartalommal helyettesíthetsz.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt egyéni helyettesítő visszahívással
+// FindReplaceOptions példány létrehozása egyéni csere-visszahívással
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
- Ebben a példában egyénit használunk`ReplaceWithHtmlEvaluator` szöveget HTML tartalomra cserélni.
+Ebben a példában egy egyéni `ReplaceWithHtmlEvaluator` szöveg HTML tartalommal való helyettesítéséhez.
 
-## Szöveg cseréje a fejlécekben és láblécekben
+## Szöveg cseréje fejlécekben és láblécekben
 
-A Word-dokumentum fejlécében és láblécében szöveget találhat és cserélhet.
+A Word-dokumentumok fejléceiben és lábléceiben található szöveget megkeresheti és lecserélheti.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Szerezze be a fejlécek és láblécek gyűjteményét
+// Fejlécek és láblécek gyűjteményének beszerzése
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Válassza ki a fejléc vagy lábléc típusát, amelyben le szeretné cserélni a szöveget (pl. HeaderFooterType.FOOTER_PRIMARY)
+// Válassza ki a fejléc vagy lábléc típusát, amelyben a szöveget le szeretné cserélni (pl. HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// Hozzon létre egy FindReplaceOptions példányt, és alkalmazza a lábléc tartományára
+// Hozz létre egy FindReplaceOptions példányt, és alkalmazd a lábléc tartományára.
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
@@ -173,11 +175,11 @@ footer.getRange().replace("text-to-replace", "new-text", options);
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi a szövegek cseréjét kifejezetten a fejlécekben és a láblécekben.
+Ez lehetővé teszi a szövegcserék végrehajtását kifejezetten a fejlécekben és láblécekben.
 
-## Változások megjelenítése a fejléc- és láblécsorrendeknél
+## Fejléc- és láblécsorrendek módosításainak megjelenítése
 
-Az Aspose.Words használatával megjelenítheti a fejléc- és lábléc-sorrend változásait a dokumentumban.
+Az Aspose.Words segítségével megjelenítheted a fejléc- és láblécsorrend változásait a dokumentumodban.
 
 ```java
 // Töltse be a dokumentumot
@@ -186,185 +188,190 @@ Document doc = new Document("your-document.docx");
 // Szerezd meg az első részt
 Section firstPageSection = doc.getFirstSection();
 
-//Hozzon létre egy FindReplaceOptions példányt, és alkalmazza a dokumentum tartományára
+// Hozzon létre egy FindReplaceOptions példányt, és alkalmazza azt a dokumentum tartományára
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// Cserélje le a fejléc- és láblécsorrendet befolyásoló szöveget
+// fejléc és lábléc sorrendjét befolyásoló szöveg cseréje
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi a fejléc- és láblécsorrendekkel kapcsolatos változások megjelenítését a dokumentumban.
+Ez lehetővé teszi a fejléc- és láblécsorrenddel kapcsolatos változások vizualizálását a dokumentumban.
 
 ## Szöveg cseréje mezőkkel
 
-A szöveget mezőkkel helyettesítheti az Aspose.Words for Java használatával.
+A szöveget mezőkkel helyettesítheted az Aspose.Words for Java használatával.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítson be egyéni helyettesítő visszahívást a mezőkhöz
+// FindReplaceOptions példány létrehozása és egyéni csere visszahívás beállítása mezőkhöz
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
- Ebben a példában a szöveget mezőkre cseréljük, és megadjuk a mező típusát (pl.`FieldType.FIELD_MERGE_FIELD`).
+Ebben a példában a szöveget mezőkkel helyettesítjük, és megadjuk a mező típusát (pl. `FieldType.FIELD_MERGE_FIELD`).
 
-## Csere értékelővel
+## Értékelővel való helyettesítés
 
-Egyéni kiértékelő segítségével dinamikusan meghatározhatja a helyettesítő szöveget.
+Egyéni kiértékelővel dinamikusan meghatározhatja a csereszöveget.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítson be egyéni helyettesítő visszahívást
+// FindReplaceOptions példány létrehozása és egyéni csere visszahívás beállítása
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ebben a példában egyéni kiértékelőt (`MyReplaceEvaluator`) szöveg cseréjéhez.
+Ebben a példában egyéni kiértékelőt használunk (`MyReplaceEvaluator`) a szöveg lecseréléséhez.
 
-## Csere Regexre
+## Regex-szel való helyettesítés
 
-Az Aspose.Words for Java lehetővé teszi a szöveg reguláris kifejezésekkel történő cseréjét.
+Az Aspose.Words for Java lehetővé teszi szövegek reguláris kifejezésekkel való helyettesítését.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Szöveg kereséséhez és cseréjéhez használjon reguláris kifejezéseket
+// Reguláris kifejezések használata szöveg kereséséhez és cseréjéhez
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ebben a példában reguláris kifejezésmintát használunk a dokumentumon belüli szöveg megkeresésére és cseréjére.
+Ebben a példában reguláris kifejezés mintát használunk a dokumentumon belüli szöveg megkereséséhez és cseréjéhez.
 
 ## Felismerés és helyettesítések a helyettesítési mintákon belül
 
-Az Aspose.Words for Java segítségével felismerheti és helyettesítheti a helyettesítési mintákat.
+Az Aspose.Words for Java segítségével felismerheti és elvégezheti a helyettesítési mintákon belüli helyettesítéseket.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions-példányt a UseSubstitutions igaz értékre állítva
+// Hozzon létre egy FindReplaceOptions példányt, amelynek UseSubstitutions paramétere igaz értékre van állítva.
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// Használjon opciókat, ha szöveget mintával cserél le
+// Opciók használata szöveg mintázattal való cseréjekor
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi a helyettesítések végrehajtását a helyettesítési mintákon belül a fejlettebb cserék érdekében.
+Ez lehetővé teszi a helyettesítési mintákon belüli helyettesítések végrehajtását a bonyolultabb cserék érdekében.
 
-## Csere karakterláncra
+## Csere karakterlánccal
 
-A szöveget lecserélheti egy egyszerű karakterláncra az Aspose.Words for Java használatával.
+A szöveget egyszerű karakterlánccal helyettesítheted az Aspose.Words for Java használatával.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Cserélje ki a szöveget egy karakterláncra
+// Szöveg cseréje karakterlánccal
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ebben a példában a „csereszöveg” szót „új karakterlánc”-ra cseréljük a dokumentumban.
+Ebben a példában a dokumentumon belül a „text-to-replace” szöveget „new-string”-re cseréljük.
 
-## Legacy Order használata
+## Régi megrendelés használata
 
-Használhatja az örökölt sorrendet a keresési és csereműveletek végrehajtásakor.
+A keresés és csere műveletek végrehajtásakor használhatja a korábbi sorrendet.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Hozzon létre egy FindReplaceOptions példányt, és állítsa a UseLegacyOrder értéket true értékre
+// Hozz létre egy FindReplaceOptions példányt, és állítsd a UseLegacyOrder paramétert true értékre.
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// Szöveg lecserélésekor használjon opciókat
+// Opciók használata szöveg cseréjekor
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi az örökölt sorrend használatát a keresési és csereműveletekhez.
+Ez lehetővé teszi a korábbi sorrend használatát a keresés és csere műveletekhez.
 
-## Szöveg cseréje a táblázatban
+## Szöveg cseréje egy táblázatban
 
-A Word-dokumentum táblázataiban szöveget kereshet és cserélhet.
+A Word-dokumentumokban táblázatokban található szövegeket kereshet és cserélhet.
 
 ```java
 // Töltse be a dokumentumot
 Document doc = new Document("your-document.docx");
 
-// Egy adott táblázat beszerzése (pl. az első táblázat)
+// Egy adott asztal lekérése (pl. az első asztal)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Használja a FindReplaceOptions funkciót a táblázat szövegének cseréjéhez
+// A FindReplaceOptions használata szöveg cseréjéhez a táblázatban
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Mentse el a módosított dokumentumot
 doc.save("modified-document.docx");
 ```
 
-Ez lehetővé teszi szövegcserék végrehajtását kifejezetten a táblázatokon belül.
+Ez lehetővé teszi a szövegcserék végrehajtását kifejezetten a táblázatokon belül.
 
 ## Következtetés
 
-Az Aspose.Words for Java átfogó lehetőségeket kínál a Word dokumentumok szövegének megkeresésére és cseréjére. Akár egyszerű szövegcseréket, akár fejlettebb műveleteket kell végrehajtania reguláris kifejezések, mezőmanipulációk vagy egyéni kiértékelők használatával, az Aspose.Words for Java mindent megtesz. Feltétlenül fedezze fel az Aspose által biztosított kiterjedt dokumentációt és példákat, hogy kiaknázhassa a nagy teljesítményű Java-könyvtárban rejlő lehetőségeket.
+Az Aspose.Words for Java átfogó képességeket biztosít a szöveg Word-dokumentumokban történő kereséséhez és cseréjéhez. Akár egyszerű szövegcseréket, akár reguláris kifejezéseket, mezőmanipulációkat vagy egyéni kiértékelőket használó összetettebb műveleteket kell végrehajtania, az Aspose.Words for Java megoldást kínál. Feltétlenül tekintse meg az Aspose által biztosított kiterjedt dokumentációt és példákat, hogy kihasználhassa ennek a hatékony Java-könyvtárnak a teljes potenciálját.
 
 ## GYIK
 
-### Hogyan tölthetem le az Aspose.Words for Java programot?
+### Hogyan tölthetem le az Aspose.Words programot Java-hoz?
 
- Az Aspose.Words for Java programot letöltheti a webhelyről, ha ellátogat a webhelyre[ezt a linket](https://releases.aspose.com/words/java/).
+Az Aspose.Words for Java programot letöltheti a weboldalról, a következő címen: [ezt a linket](https://releases.aspose.com/words/java/).
 
-### Használhatok reguláris kifejezéseket a szöveg helyettesítésére?
+### Használhatok reguláris kifejezéseket szövegcserére?
 
-Igen, használhat reguláris kifejezéseket a szöveg cseréjéhez az Aspose.Words for Java programban. Ez lehetővé teszi, hogy fejlettebb és rugalmasabb keresési és csereműveleteket hajtson végre.
+Igen, az Aspose.Words for Java-ban használhatsz reguláris kifejezéseket szövegcserére. Ez lehetővé teszi a fejlettebb és rugalmasabb keresési és csereműveletek végrehajtását.
 
-### Hogyan hagyhatom figyelmen kívül a mezőkben lévő szöveget a csere során?
+### Hogyan hagyhatom figyelmen kívül a mezőkben lévő szöveget csere közben?
 
- mezőkben lévő szöveg figyelmen kívül hagyásához a csere során beállíthatja a`IgnoreFields` tulajdona a`FindReplaceOptions` hogy`true`. Ez biztosítja, hogy a mezőkön belüli szöveg, például az összevont mezők ne kerüljön ki a helyettesítésből.
+Ha a csere során a mezőkben lévő szöveget figyelmen kívül szeretné hagyni, beállíthatja a `IgnoreFields` a tulajdona `FindReplaceOptions` hogy `true`Ez biztosítja, hogy a mezőkben, például az egyesítő mezőkben található szöveg kimaradjon a cseréből.
 
-### Cserélhetem a fejléceken és lábléceken belüli szöveget?
+### Lecserélhetem a fejlécekben és láblécekben lévő szöveget?
 
- Igen, lecserélheti a Word-dokumentum fejlécében és láblécében lévő szöveget. Egyszerűen nyissa meg a megfelelő fejlécet vagy láblécet, és használja a`replace` módszerrel a kívánt`FindReplaceOptions`.
+Igen, lecserélheti a Word-dokumentum fejlécében és láblécében található szöveget. Ehhez egyszerűen nyissa meg a megfelelő fejlécet vagy láblécet, és használja a `replace` módszer a kívánt `FindReplaceOptions`.
 
-### Mire jó a UseLegacyOrder opció?
+### Mire való a UseLegacyOrder opció?
 
- A`UseLegacyOrder` opció be`FindReplaceOptions` lehetővé teszi az örökölt sorrend használatát a keresési és csereműveletek végrehajtásakor. Ez hasznos lehet bizonyos forgatókönyvekben, amikor az örökölt rendelési viselkedés kívánatos.
+A `UseLegacyOrder` opció `FindReplaceOptions` lehetővé teszi a korábbi sorrend használatát a keresés és csere műveletek végrehajtásakor. Ez bizonyos esetekben lehet hasznos, amikor a korábbi sorrend érvényesülésére van szükség.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/bounds-of-axis/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bounds Of Axis In A Chart
@@ -129,9 +132,13 @@ Detailed documentation is available [here](https://reference.aspose.com/words/ne
 ### How can I get support for Aspose.Words?
 You can visit the [support forum](https://forum.aspose.com/c/words/8) for assistance.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

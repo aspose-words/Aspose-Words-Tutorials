@@ -1,14 +1,16 @@
 ---
-title: การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java
-linktitle: การลบเนื้อหาออกจากเอกสาร
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีลบเนื้อหาออกจากเอกสาร Word ใน Java โดยใช้ Aspose.Words สำหรับ Java ลบการแบ่งหน้า การแบ่งส่วน และอื่นๆ เพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณ
-weight: 16
-url: /th/java/document-manipulation/removing-content-from-documents/
+"description": "เรียนรู้วิธีลบเนื้อหาออกจากเอกสาร Word ใน Java โดยใช้ Aspose.Words สำหรับ Java ลบการแบ่งหน้า การแบ่งส่วน และอื่นๆ เพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณ"
+"linktitle": "การลบเนื้อหาออกจากเอกสาร"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การลบเนื้อหาออกจากเอกสารใน Aspose.Words สำหรับ Java
@@ -42,7 +44,7 @@ doc.save("Your Directory Path" + "RemoveContent.RemovePageBreaks.docx");
 
 ## การลบตัวแบ่งส่วน
 
-การแบ่งส่วนจะแบ่งเอกสารออกเป็นส่วนต่างๆ ที่มีการจัดรูปแบบที่แตกต่างกัน หากต้องการลบการแบ่งส่วน ให้ทำตามขั้นตอนเหล่านี้:
+การแบ่งส่วนจะแบ่งเอกสารออกเป็นส่วนต่างๆ โดยมีการจัดรูปแบบที่แตกต่างกัน หากต้องการลบการแบ่งส่วน ให้ทำตามขั้นตอนเหล่านี้:
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -82,12 +84,12 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- โค้ดนี้กำหนดวิธีการ`removeTableOfContents` ที่ลบ TOC ที่ระบุออกจากเอกสาร
+โค้ดนี้กำหนดวิธีการ `removeTableOfContents` ที่ลบ TOC ที่ระบุออกจากเอกสาร
 
 
 ## บทสรุป
 
-ในบทความนี้ เราได้ศึกษาวิธีการลบเนื้อหาประเภทต่างๆ ออกจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java ไม่ว่าจะเป็นการแบ่งหน้า การแบ่งส่วน ส่วนท้าย หรือสารบัญ Aspose.Words ก็มีเครื่องมือต่างๆ ที่ช่วยจัดการเอกสารของคุณได้อย่างมีประสิทธิภาพ
+ในบทความนี้ เราได้ศึกษาวิธีการลบเนื้อหาประเภทต่างๆ ออกจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java ไม่ว่าจะเป็นการแบ่งหน้า การแบ่งส่วน ส่วนท้าย หรือสารบัญ Aspose.Words ก็มีเครื่องมือที่ช่วยให้คุณจัดการเอกสารได้อย่างมีประสิทธิภาพ
 
 ## คำถามที่พบบ่อย
 
@@ -103,12 +105,17 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 ใช่ Aspose.Words สำหรับ Java รองรับรูปแบบเอกสาร Word ล่าสุด ช่วยให้มั่นใจได้ว่าจะเข้ากันได้กับเอกสารสมัยใหม่
 
-### Aspose.Words สำหรับ Java มีฟีเจอร์จัดการเอกสารอื่น ๆ อะไรอีกบ้าง?
+### Aspose.Words สำหรับ Java มีฟีเจอร์จัดการเอกสารอื่น ๆ อะไรอีกบ้าง
 
 Aspose.Words สำหรับ Java มีคุณสมบัติมากมาย เช่น การสร้างเอกสาร การแก้ไข การแปลง และอื่นๆ คุณสามารถสำรวจเอกสารประกอบเพื่อดูข้อมูลโดยละเอียด
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Định dạng bảng và kiểu bảng
-linktitle: Định dạng bảng và kiểu bảng
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách định dạng bảng và áp dụng kiểu bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm thiết lập đường viền, tô bóng ô và áp dụng kiểu bảng.
-weight: 17
-url: /vi/java/document-conversion-and-export/formatting-tables-and-table-styles/
+"description": "Tìm hiểu cách định dạng bảng và áp dụng kiểu bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm thiết lập đường viền, tô bóng ô và áp dụng kiểu bảng."
+"linktitle": "Định dạng bảng và kiểu bảng"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Định dạng bảng và kiểu bảng"
+"url": "/vi/java/document-conversion-and-export/formatting-tables-and-table-styles/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng bảng và kiểu bảng
@@ -18,7 +20,7 @@ url: /vi/java/document-conversion-and-export/formatting-tables-and-table-styles/
 
 Khi nói đến định dạng tài liệu, bảng đóng vai trò quan trọng trong việc sắp xếp và trình bày dữ liệu rõ ràng. Nếu bạn đang làm việc với Java và Aspose.Words, bạn có các công cụ mạnh mẽ để tạo và định dạng bảng trong tài liệu của mình. Cho dù bạn đang thiết kế một bảng đơn giản hay áp dụng các kiểu nâng cao, Aspose.Words for Java cung cấp một loạt các tính năng giúp bạn đạt được kết quả trông chuyên nghiệp.
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình định dạng bảng và áp dụng kiểu bảng bằng Aspose.Words for Java. Bạn sẽ học cách thiết lập đường viền bảng, áp dụng đổ bóng ô và sử dụng kiểu bảng để tăng cường giao diện cho tài liệu của mình. Cuối cùng, bạn sẽ có kỹ năng tạo các bảng được định dạng tốt giúp dữ liệu của bạn nổi bật.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình định dạng bảng và áp dụng kiểu bảng bằng Aspose.Words for Java. Bạn sẽ học cách thiết lập đường viền bảng, áp dụng đổ bóng ô và sử dụng kiểu bảng để tăng cường giao diện cho tài liệu của mình. Cuối cùng, bạn sẽ có kỹ năng tạo bảng được định dạng tốt giúp dữ liệu của bạn nổi bật.
 
 ## Điều kiện tiên quyết
 
@@ -26,7 +28,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Java Development Kit (JDK): Đảm bảo bạn đã cài đặt JDK 8 trở lên. Aspose.Words for Java yêu cầu JDK tương thích để chạy đúng cách.
 2. Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA hoặc Eclipse sẽ giúp bạn quản lý các dự án Java và hợp lý hóa quy trình phát triển.
-3.  Thư viện Aspose.Words cho Java: Tải xuống phiên bản mới nhất của Aspose.Words cho Java[đây](https://releases.aspose.com/words/java/) và đưa nó vào dự án của bạn.
+3. Thư viện Aspose.Words cho Java: Tải xuống phiên bản mới nhất của Aspose.Words cho Java [đây](https://releases.aspose.com/words/java/) và đưa nó vào dự án của bạn.
 4. Mã mẫu: Chúng tôi sẽ sử dụng một số đoạn mã mẫu, vì vậy hãy đảm bảo rằng bạn có hiểu biết cơ bản về lập trình Java và cách tích hợp thư viện vào dự án của mình.
 
 ## Nhập gói
@@ -98,7 +100,7 @@ doc.save("FormatTableAndCellWithDifferentBorders.docx");
 
 Trong ví dụ này:
 - Thiết lập đường viền: Chúng tôi thiết lập đường viền của toàn bộ bảng thành kiểu một dòng với độ dày 2,0 điểm.
-- Tô bóng ô: Ô đầu tiên được tô màu đỏ, và ô thứ hai được tô màu xanh lá cây. Điều này giúp phân biệt các ô một cách trực quan.
+- Tô bóng ô: Ô đầu tiên được tô màu đỏ, và ô thứ hai được tô màu xanh lá cây. Điều này giúp phân biệt các ô bằng mắt thường.
 - Đường viền ô: Đối với ô thứ ba, chúng ta tạo đường viền dày hơn để làm nổi bật ô này khác biệt so với các ô còn lại.
 
 ## Bước 2: Áp dụng Kiểu Bảng
@@ -163,7 +165,7 @@ doc.save("BuildTableWithStyle.docx");
 Trong ví dụ này:
 - Thiết lập kiểu bảng: Chúng tôi áp dụng một kiểu được xác định trước (`MEDIUM_SHADING_1_ACCENT_1`) vào bảng. Kiểu này bao gồm định dạng cho các phần khác nhau của bảng.
 - Tùy chọn kiểu: Chúng tôi chỉ định rằng cột đầu tiên, dải hàng và hàng đầu tiên phải được định dạng theo các tùy chọn kiểu.
--  Tự động điều chỉnh: Chúng tôi sử dụng`AUTO_FIT_TO_CONTENTS` để đảm bảo bảng điều chỉnh kích thước dựa trên nội dung.
+- Tự động điều chỉnh: Chúng tôi sử dụng `AUTO_FIT_TO_CONTENTS` để đảm bảo bảng điều chỉnh kích thước dựa trên nội dung.
 
 ## Phần kết luận
 
@@ -175,7 +177,7 @@ Aspose.Words for Java là một công cụ mạnh mẽ cung cấp nhiều tính 
 
 ### 1. Tôi có thể sử dụng các kiểu bảng tùy chỉnh không có trong các tùy chọn mặc định không?
 
- Có, bạn có thể xác định và áp dụng các kiểu tùy chỉnh cho bảng của mình bằng Aspose.Words cho Java. Kiểm tra[tài liệu](https://reference.aspose.com/words/java/) để biết thêm chi tiết về cách tạo kiểu tùy chỉnh.
+Có, bạn có thể xác định và áp dụng các kiểu tùy chỉnh cho bảng của mình bằng Aspose.Words cho Java. Kiểm tra [tài liệu](https://reference.aspose.com/words/java/) để biết thêm chi tiết về cách tạo kiểu tùy chỉnh.
 
 ### 2. Làm thế nào để áp dụng định dạng có điều kiện cho bảng?
 
@@ -191,10 +193,15 @@ Có, bạn có thể điều chỉnh bố cục bảng một cách linh hoạt b
 
 ### 5. Tôi có thể tìm thêm thông tin về định dạng bảng ở đâu?
 
- Để biết thêm các ví dụ và tùy chọn chi tiết hơn, hãy truy cập[Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/).
+Để biết thêm các ví dụ và tùy chọn chi tiết hơn, hãy truy cập [Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

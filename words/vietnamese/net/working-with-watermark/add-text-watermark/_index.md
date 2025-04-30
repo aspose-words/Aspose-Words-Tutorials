@@ -1,48 +1,56 @@
 ---
-title: Thêm dấu nước văn bản vào Word Document Sử dụng Aspose.Words cho .NET
-weight: 7700
-limit: 
-description: Tìm hiểu cách thêm dấu nước văn bản với các tùy chọn cụ thể vào tài liệu Word bằng cách sử dụng Aspose.Words cho .NET. Thực hiện các bước đơn giản để tùy chỉnh và lưu tài liệu của bạn.
-keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
-url: /vi/net/working-with-watermark/add-text-watermark/
+"description": "Tìm hiểu cách thêm hình mờ văn bản với các tùy chọn cụ thể vào tài liệu Word bằng Aspose.Words cho .NET. Thực hiện theo các bước đơn giản để tùy chỉnh và lưu tài liệu của bạn."
+"title": "Thêm hình mờ văn bản vào tài liệu Word bằng Aspose.Words cho .NET"
+"url": "/vi/net/working-with-watermark/add-text-watermark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm dấu nước văn bản vào Word Document bằng cách sử dụng Aspose.Words
-Thêm một dấu nước văn bản vào tài liệu Word là một quá trình đơn giản bằng cách sử dụng Aspose.Words cho .NET. Bài hướng dẫn này cho thấy làm thế nào để áp dụng một dấu nước văn bản tùy chỉnh cho tài liệu của bạn. Với các tính năng như gia đình phông chữ, kích thước, màu sắc, bố cục và kiểm soát minh bạch, bạn có thể tùy chỉnh dấu nước cho nhu cầu chính xác của bạn. Cho dù đó là thương hiệu, bảo mật hoặc thẩm mỹ, Aspose.Words giúp nó đơn giản để nâng cao tài liệu của bạn với dấu nước chuyên nghiệp.  
+# Thêm hình mờ văn bản vào tài liệu Word bằng Aspose.Words
+Thêm hình mờ văn bản vào tài liệu Word là một quá trình đơn giản khi sử dụng Aspose.Words cho .NET. Hướng dẫn này trình bày cách áp dụng hình mờ văn bản tùy chỉnh vào tài liệu của bạn. Với các tính năng như họ phông chữ, kích thước, màu sắc, bố cục và kiểm soát độ trong suốt, bạn có thể tùy chỉnh hình mờ theo đúng nhu cầu của mình. Cho dù đó là thương hiệu, tính bảo mật hay tính thẩm mỹ, Aspose.Words giúp bạn dễ dàng nâng cao tài liệu của mình bằng hình mờ chuyên nghiệp.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Các hướng dẫn cài đặt  
-1. Tải Aspose.Words cho .NET:  
-   Nhận phiên bản mới nhất từ [Aspose Downloads trang](https://releases.aspose.com/words/net/)\- Tôi không biết.  
+## Hướng dẫn cài đặt  
+1. Tải xuống Aspose.Words cho .NET:  
+   Nhận phiên bản mới nhất từ [Trang Tải xuống Aspose](https://releases.aspose.com/words/net/).  
 
-2. Thiết lập thông qua NuGet:  
-   * Mở dự án Visual Studio của bạn.  
-   * Di chuyển đến Quản lý gói NuGet (Các công cụ > Quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp).  
-   * Tìm kiếm "Aspose.Words" và nhấp vào cài đặt.  
+2. Cài đặt qua NuGet:  
+   - Mở dự án Visual Studio của bạn.  
+   - Điều hướng đến Trình quản lý gói NuGet (Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp).  
+   - Tìm kiếm "Aspose.Words" và nhấp vào Cài đặt.  
 
-3. Thêm các tham chiếu không gian tên:  
-   Thêm không gian tên sau ở đầu tập tin mã của bạn:  
+3. Thêm tham chiếu không gian tên:  
+   Thêm không gian tên sau vào đầu tệp mã của bạn:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. Giấy phép ứng dụng (Tự chọn):  
-   Để sử dụng phiên bản đầy đủ, [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/)hoặc sử dụng [thử nghiệm miễn phí](https://releases.aspose.com/)\- Tôi không biết.  
+4. Áp dụng Giấy phép (Tùy chọn):  
+   Để sử dụng phiên bản đầy đủ, [áp dụng giấy phép](https://purchase.aspose.com/temporary-license/) hoặc sử dụng một [dùng thử miễn phí](https://releases.aspose.com/).  
 
-## Xem thêm
-[Aspose.Word cho Tài liệu .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word cho .NET References](https://reference.aspose.com/words/net/)
+## Cũng xem
+[Tài liệu Aspose.Word cho .NET](https://docs.aspose.com/words/net/)
+[Tài liệu tham khảo Aspose.Word cho .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

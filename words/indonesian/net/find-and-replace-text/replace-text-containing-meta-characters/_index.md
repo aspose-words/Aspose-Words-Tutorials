@@ -1,14 +1,16 @@
 ---
-title: Ganti Kata Teks yang Mengandung Karakter Meta
-linktitle: Ganti Kata Teks yang Mengandung Karakter Meta
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengganti teks yang berisi karakter meta dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti tutorial terperinci dan menarik kami untuk manipulasi teks yang lancar.
-weight: 10
-url: /id/net/find-and-replace-text/replace-text-containing-meta-characters/
+"description": "Pelajari cara mengganti teks yang berisi karakter meta dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti tutorial terperinci dan menarik kami untuk manipulasi teks yang lancar."
+"linktitle": "Ganti Kata Teks yang Mengandung Karakter Meta"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ganti Kata Teks yang Mengandung Karakter Meta"
+"url": "/id/net/find-and-replace-text/replace-text-containing-meta-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Kata Teks yang Mengandung Karakter Meta
@@ -19,8 +21,8 @@ Pernahkah Anda merasa terjebak dalam labirin penggantian teks dalam dokumen Word
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti permasalahan, mari pastikan Anda telah memiliki semua yang dibutuhkan:
--  Aspose.Words untuk .NET:[Tautan unduhan](https://releases.aspose.com/words/net/)
+Sebelum kita masuk ke inti pembahasan, mari pastikan Anda telah menyiapkan semua yang dibutuhkan:
+- Aspose.Words untuk .NET: [Tautan unduhan](https://releases.aspose.com/words/net/)
 - .NET Framework: Pastikan sudah terinstal.
 - Pemahaman dasar tentang C#: Sedikit pengetahuan coding akan sangat bermanfaat.
 - Editor Teks atau IDE: Visual Studio sangat disarankan.
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Potongan kode ini menginisialisasi dokumen dan menyiapkan pembangun.`dataDir` adalah markas dokumen Anda.
+Potongan kode ini menginisialisasi dokumen dan menyiapkan pembangun. `dataDir` adalah markas dokumen Anda.
 
 ## Langkah 2: Sesuaikan Font Anda dan Tambahkan Konten
 
@@ -75,14 +77,14 @@ FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
 findReplaceOptions.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
 ```
 
- Kami sedang membuat sebuah`FindReplaceOptions` objek dan mengatur perataan paragraf ke tengah.
+Kami sedang membuat sebuah `FindReplaceOptions` objek dan mengatur perataan paragraf ke tengah.
 
 ## Langkah 4: Ganti Teks dengan Karakter Meta
 
 Langkah ini adalah tempat keajaiban terjadi! Kita akan mengganti kata "bagian" diikuti dengan pemisah paragraf, dan menambahkan garis bawah.
 
 ```csharp
-//Gandakan setiap jeda paragraf setelah kata "bagian", tambahkan semacam garis bawah dan buat agar berada di tengah.
+// Gandakan setiap jeda paragraf setelah kata "bagian", tambahkan semacam garis bawah dan buat agar berada di tengah.
 int count = doc.Range.Replace("section&p", "section&p----------------------&p", findReplaceOptions);
 ```
 
@@ -97,7 +99,7 @@ Selanjutnya, kita akan mengganti tag teks khusus dengan pemisah bagian. Ini sepe
 count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 ```
 
- Di Sini,`{insert-section}` diganti dengan pemisah bagian (`&b`).
+Di Sini, `{insert-section}` diganti dengan pemisah bagian (`&b`).
 
 ## Langkah 6: Simpan Dokumen
 
@@ -107,7 +109,7 @@ Terakhir, mari kita simpan kerja keras kita. Anggap saja ini seperti menekan tom
 doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ```
 
- Kode ini menyimpan dokumen ke direktori yang Anda tentukan dengan nama`FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
+Kode ini menyimpan dokumen ke direktori yang Anda tentukan dengan nama `FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
 
 ## Kesimpulan
 
@@ -116,22 +118,27 @@ Nah, itu dia! Anda kini telah menguasai seni mengganti teks yang berisi karakter
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu karakter meta dalam penggantian teks?
- Karakter meta adalah karakter khusus yang memiliki fungsi unik, seperti`&p` untuk pemisah paragraf dan`&b` untuk pemisah bagian.
+Karakter meta adalah karakter khusus yang memiliki fungsi unik, seperti `&p` untuk pemisah paragraf dan `&b` untuk pemisah bagian.
 
 ### Bisakah saya menyesuaikan teks pengganti lebih lanjut?
 Tentu saja! Anda dapat mengubah string pengganti untuk menyertakan teks, format, atau karakter meta lainnya sesuai kebutuhan.
 
 ### Bagaimana jika saya perlu mengganti beberapa tag yang berbeda?
- Anda dapat merangkai beberapa`Replace` panggilan untuk menangani berbagai tag atau pola dalam dokumen Anda.
+Anda dapat merangkai beberapa `Replace` panggilan untuk menangani berbagai tag atau pola dalam dokumen Anda.
 
 ### Apakah mungkin menggunakan font dan format lain?
-Ya, Anda dapat menyesuaikan font dan opsi pemformatan lainnya menggunakan`DocumentBuilder` Dan`FindReplaceOptions` objek.
+Ya, Anda dapat menyesuaikan font dan opsi pemformatan lainnya menggunakan `DocumentBuilder` Dan `FindReplaceOptions` objek.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat mengunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk rincian dan contoh lebih lanjut.
+Anda dapat mengunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk rincian dan contoh lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

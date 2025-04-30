@@ -7,8 +7,11 @@ weight: 11
 url: /python-net/document-splitting-and-formatting/divide-documents-content-builder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dividing Documents with Content Builder for Precision
@@ -110,9 +113,13 @@ Absolutely! Aspose.Words for Python is widely used for generating various types 
 Visit the [Aspose.Words for Python documentation](https://reference.aspose.com/words/python-net/) and download the library from [Aspose.Words Python Releases](https://releases.aspose.com/words/python/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

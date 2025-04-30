@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z zakładek w Aspose.Words dla Java
-linktitle: Korzystanie z zakładek
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
-weight: 17
-url: /pl/java/document-manipulation/using-bookmarks/
+"description": "Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku."
+"linktitle": "Korzystanie z zakładek"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z zakładek w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z zakładek w Aspose.Words dla Java
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Zakończ zakładkę
+// Zakończ zakładkę
 builder.endBookmark("My Bookmark");
 ```
 
@@ -103,11 +105,11 @@ Korzystanie z zakładek w Aspose.Words for Java może znacznie uprościć zadani
 
 ### Jak utworzyć zakładkę w komórce tabeli?
 
- Aby utworzyć zakładkę w komórce tabeli, użyj`DocumentBuilder` klasę i rozpocząć oraz zakończyć zakładkę w komórce.
+Aby utworzyć zakładkę w komórce tabeli, użyj `DocumentBuilder` klasę i rozpocząć oraz zakończyć zakładkę w komórce.
 
 ### Czy mogę skopiować zakładkę do innego dokumentu?
 
- Tak, możesz skopiować zakładkę do innego dokumentu za pomocą`NodeImporter` klasa, aby zapewnić zachowanie formatowania.
+Tak, możesz skopiować zakładkę do innego dokumentu za pomocą `NodeImporter` klasa, aby zapewnić zachowanie formatowania.
 
 ### Jak mogę usunąć wiersz za pomocą zakładki?
 
@@ -119,10 +121,15 @@ Zakładek powszechnie używa się do generowania spisu treści, wyodrębniania o
 
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Words dla Java?
 
- Aby uzyskać szczegółową dokumentację i pliki do pobrania, odwiedź stronę[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+Aby uzyskać szczegółową dokumentację i pliki do pobrania, odwiedź stronę [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

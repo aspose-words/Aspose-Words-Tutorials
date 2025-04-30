@@ -1,14 +1,16 @@
 ---
-title: Przekreślenie
-linktitle: Przekreślenie
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak stosować formatowanie przekreślone do tekstu za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności przetwarzania dokumentów.
-weight: 10
-url: /pl/net/working-with-markdown/strikethrough/
+"description": "Dowiedz się, jak stosować formatowanie przekreślone do tekstu za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności przetwarzania dokumentów."
+"linktitle": "Przekreślenie"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przekreślenie"
+"url": "/pl/net/working-with-markdown/strikethrough/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przekreślenie
@@ -21,7 +23,7 @@ Witamy w tym szczegółowym przewodniku dotyczącym stosowania formatowania prze
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Aspose.Words dla .NET: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
 - Środowisko programistyczne: IDE, np. Visual Studio.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest konieczna.
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 ## Krok 1: Zainicjuj DocumentBuilder
 
- Ten`DocumentBuilder` class to potężne narzędzie w Aspose.Words, które umożliwia łatwe dodawanie treści do dokumentu.
+Ten `DocumentBuilder` class to potężne narzędzie w Aspose.Words, które umożliwia łatwe dodawanie treści do dokumentu.
 
 ```csharp
 // Zainicjuj DocumentBuilder.
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Krok 2: Ustaw właściwość przekreślenia
 
-Teraz zastosujmy właściwość przekreślenia do naszego tekstu. Wiąże się to z ustawieniem`StrikeThrough` własność`Font` oponować`true`.
+Teraz zastosujmy właściwość przekreślenia do naszego tekstu. Wiąże się to z ustawieniem `StrikeThrough` własność `Font` oponować `true`.
 
 ```csharp
 // Przekreśl tekst.
@@ -56,7 +58,7 @@ builder.Font.StrikeThrough = true;
 
 ## Krok 3: Napisz tekst z przekreśleniem
 
- Po ustawieniu właściwości przekreślenia możemy teraz dodać nasz tekst.`Writeln` Metoda doda tekst do dokumentu.
+Po ustawieniu właściwości przekreślenia możemy teraz dodać nasz tekst. `Writeln` Metoda doda tekst do dokumentu.
 
 ```csharp
 // Napisz tekst przekreślając go.
@@ -73,19 +75,24 @@ I masz! Udało Ci się dodać formatowanie przekreślenia do tekstu za pomocą A
 Aspose.Words for .NET to zaawansowana biblioteka do przetwarzania dokumentów, która umożliwia programistom programistyczne tworzenie, modyfikowanie i konwertowanie dokumentów Word.
 
 ### Czy mogę używać Aspose.Words dla .NET w projekcie komercyjnym?
- Tak, możesz używać Aspose.Words dla .NET w projektach komercyjnych. Aby uzyskać opcje zakupu, odwiedź stronę[kup stronę](https://purchase.aspose.com/buy).
+Tak, możesz używać Aspose.Words dla .NET w projektach komercyjnych. Aby uzyskać opcje zakupu, odwiedź stronę [kup stronę](https://purchase.aspose.com/buy).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
-Możesz uzyskać wsparcie od społeczności Aspose i ekspertów na[forum wsparcia](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose i ekspertów na [forum wsparcia](https://forum.aspose.com/c/words/8).
 
 ### Czy mogę zastosować inne opcje formatowania tekstu, używając Aspose.Words dla .NET?
 Oczywiście! Aspose.Words dla .NET obsługuje szeroki zakres opcji formatowania tekstu, w tym pogrubienie, kursywę, podkreślenie i wiele innych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना
-linktitle: फ़ील्ड का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: इस चरण-दर-चरण ट्यूटोरियल में जावा फ़ील्ड के लिए Aspose.Words का प्रभावी ढंग से उपयोग करना सीखें। आसानी से गतिशील Word दस्तावेज़ बनाएँ।
-weight: 11
-url: /hi/java/using-document-elements/using-fields/
+"description": "इस चरण-दर-चरण ट्यूटोरियल में जावा फ़ील्ड के लिए Aspose.Words का प्रभावी ढंग से उपयोग करना सीखें। आसानी से गतिशील Word दस्तावेज़ बनाएँ।"
+"linktitle": "फ़ील्ड का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना"
+"url": "/hi/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में फ़ील्ड का उपयोग करना
@@ -22,7 +24,7 @@ url: /hi/java/using-document-elements/using-fields/
 
 ## 2. अपना वातावरण स्थापित करना
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/)इसके अलावा, सुनिश्चित करें कि आपके सिस्टम पर जावा और एक एकीकृत विकास वातावरण (आईडीई) जैसे कि एक्लिप्स या इंटेलीज आईडिया स्थापित है।
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words for Java इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/)इसके अलावा, सुनिश्चित करें कि आपके सिस्टम पर जावा और एक एकीकृत विकास वातावरण (आईडीई) जैसे कि एक्लिप्स या इंटेलीज आईडिया स्थापित है।
 
 ## 3. वर्ड डॉक्यूमेंट लोड करना
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` उचित पथों के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` और `"Your Output Directory"` उचित पथों के साथ.
 
 ## 4. मेल मर्ज को अनुकूलित करना
 
@@ -68,7 +70,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- प्रतिस्थापित करें`"Your Output Directory"` वांछित आउटपुट पथ के साथ.
+प्रतिस्थापित करें `"Your Output Directory"` वांछित आउटपुट पथ के साथ.
 
 ## संपूर्ण स्रोत कोड
 ```java
@@ -99,12 +101,12 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         /// यह हैंडलर दस्तावेज़ में पाए जाने वाले प्रत्येक मेल मर्ज फ़ील्ड के लिए बुलाया जाता है,
         /// डेटा स्रोत में पाए गए प्रत्येक रिकॉर्ड के लिए.
         /// </सारांश>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*IFieldMergingकॉलबैक.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // हमने निर्णय लिया कि हम चाहते हैं कि सभी बूलियन मानों को चेक बॉक्स फॉर्म फ़ील्ड के रूप में आउटपुट किया जाए।
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // हमने निर्णय लिया कि हम चाहते हैं कि सभी बूलियन मान चेक बॉक्स फॉर्म फ़ील्ड के रूप में आउटपुट हों।
+            if (e.getFieldValue() instanceof /*बूलियन*/Boolean)
             {
                 // "कर्सर" को वर्तमान मर्ज फ़ील्ड पर ले जाएँ।
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // कार्यान्वयन की आवश्यकता नहीं है.
+            //  कार्यान्वयन की आवश्यकता नहीं है.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,11 +216,11 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         DocumentBuilder builder = new DocumentBuilder(doc);
         // IF फ़ील्ड के अंदर एक MERGEFIELD डालें।
         // चूँकि IF फ़ील्ड कथन गलत है, इसलिए आंतरिक MERGEFIELD का परिणाम प्रदर्शित नहीं किया जाएगा,
-        //और MERGEFIELD को मेल मर्ज के दौरान कोई डेटा प्राप्त नहीं होगा।
+        // और MERGEFIELD को मेल मर्ज के दौरान कोई डेटा प्राप्त नहीं होगा।
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // यदि हम इस फ्लैग को सत्य पर सेट करते हैं, तो हम अभी भी गलत-कथन IF फ़ील्ड के अंदर MERGEFIELDs की गणना कर सकते हैं।
+        // यदि हम इस फ्लैग को true पर सेट करते हैं, तो हम अभी भी false-statement IF फ़ील्ड के अंदर MERGEFIELDs की गणना कर सकते हैं।
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
@@ -243,7 +248,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*IFieldMergingकॉलबैक.*/fieldMerging(FieldMergingArgs args)
         {
             // कुछ भी नहीं है।
         }
@@ -251,7 +256,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         /// इसे तब बुलाया जाता है जब मेल मर्ज इंजन को दस्तावेज़ में Image:XXX मर्ज फ़ील्ड मिलती है।
         /// आपके पास एक इमेज ऑब्जेक्ट, फ़ाइल नाम, या एक स्ट्रीम जिसमें इमेज शामिल है, को वापस करने का अवसर है।
         /// </सारांश>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        public void /*IFieldMergingकॉलबैक.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // फ़ील्ड मान एक बाइट सरणी है, बस इसे कास्ट करें और इस पर एक स्ट्रीम बनाएं।
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
@@ -270,7 +275,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*IFieldMergingकॉलबैक.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*IFieldMergingकॉलबैक.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -305,7 +310,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         /// हम या तो मेल मर्ज इंजन को कुछ डेटा लौटा सकते हैं या दस्तावेज़ के साथ कुछ और कर सकते हैं।
         /// इस मामले में हम सेल फ़ॉर्मेटिंग को संशोधित करते हैं।
         /// </सारांश>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        public void /*IFieldMergingकॉलबैक.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
@@ -315,7 +320,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //इस समय पूरी पंक्ति के लिए कक्ष गुणधर्म निर्धारित करने का कोई तरीका नहीं है, इसलिए हमें पंक्ति के सभी कक्षों पर पुनरावृति करनी होगी।
+                // इस समय पूरी पंक्ति के लिए कक्ष गुणधर्म निर्धारित करने का कोई तरीका नहीं है, इसलिए हमें पंक्ति के सभी कक्षों पर पुनरावृति करनी होगी।
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,7 +329,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*IFieldMergingकॉलबैक.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
             // कुछ भी नहीं है।
         }
@@ -366,26 +371,31 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ## 7. अक्सर पूछे जाने वाले प्रश्न
 
 ### प्रश्न 1: मैं Java के लिए Aspose.Words कहां से डाउनलोड कर सकता हूं?
- आप Java के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+आप Java के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 ### प्रश्न 2: मैं Java के लिए Aspose.Words हेतु अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### प्रश्न 3: मुझे Java के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- सहायता के लिए, आप Aspose.Words फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/).
+सहायता के लिए, आप Aspose.Words फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/).
 
 ### प्रश्न 4: क्या Java के लिए Aspose.Words Word दस्तावेज़ों में HTML सामग्री को संभालने के लिए उपयुक्त है?
 हां, Java के लिए Aspose.Words Word दस्तावेज़ों में HTML सामग्री को संभालने के लिए उत्कृष्ट समर्थन प्रदान करता है।
 
 ### प्रश्न 5: क्या मैं Java के लिए Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
- Aspose.Words for Java एक व्यावसायिक उत्पाद है, लेकिन आप इसके फीचर्स को निःशुल्क परीक्षण के माध्यम से देख सकते हैं।[यहाँ](https://releases.aspose.com/).
+Aspose.Words for Java एक व्यावसायिक उत्पाद है, लेकिन आप इसके फीचर्स को निःशुल्क परीक्षण के माध्यम से देख सकते हैं। [यहाँ](https://releases.aspose.com/).
 
 आज ही Aspose.Words for Java के साथ शुरुआत करें और अपने Word दस्तावेज़ों पर पहले जैसा नियंत्रण रखें!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

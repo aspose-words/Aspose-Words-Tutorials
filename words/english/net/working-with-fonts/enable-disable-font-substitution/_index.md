@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/enable-disable-font-substitution/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enable Disable Font Substitution
@@ -121,9 +124,13 @@ Yes, Aspose.Words provides methods to log and track font substitution, allowing 
 
 Definitely! Aspose.Words supports various formats, and you can apply these font settings to any supported format.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

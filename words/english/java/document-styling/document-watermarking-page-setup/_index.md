@@ -7,8 +7,11 @@ weight: 13
 url: /java/document-styling/document-watermarking-page-setup/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Watermarking and Page Setup
@@ -148,9 +151,13 @@ In this extensive guide, we've explored the art of document watermarking and pag
 
 Mastering document manipulation is a valuable skill for developers, and Aspose.Words for Java is your trusted companion in this journey. Start creating stunning documents today!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

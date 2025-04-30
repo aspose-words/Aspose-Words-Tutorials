@@ -1,14 +1,16 @@
 ---
-title: Форматирование таблиц в документах
-linktitle: Форматирование таблиц в документах
-second_title: API обработки документов Java Aspose.Words
-description: Освойте искусство форматирования таблиц в документах с помощью Aspose.Words для Java. Изучите пошаговые руководства и примеры исходного кода для точного форматирования таблиц.
-weight: 13
-url: /ru/java/table-processing/formatting-tables/
+"description": "Освойте искусство форматирования таблиц в документах с помощью Aspose.Words для Java. Изучите пошаговые руководства и примеры исходного кода для точного форматирования таблиц."
+"linktitle": "Форматирование таблиц в документах"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Форматирование таблиц в документах"
+"url": "/ru/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Форматирование таблиц в документах
@@ -22,10 +24,10 @@ url: /ru/java/table-processing/formatting-tables/
 Прежде чем приступить к кодированию, убедитесь, что у вас есть следующее:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Библиотека Aspose.Words для Java.[Загрузить здесь](https://releases.aspose.com/words/java/).
+- Библиотека Aspose.Words для Java. [Загрузить здесь](https://releases.aspose.com/words/java/).
 - Базовые знания программирования на Java.
 - IDE, например IntelliJ IDEA, Eclipse или любая другая, с которой вам удобно работать.
--  А[временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы раскрыть все возможности Aspose.Words.
+- А [временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы раскрыть все возможности Aspose.Words.
 
 ## Импортные пакеты
 
@@ -65,7 +67,7 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`Представляет строку в таблице.
+- `Row`: Представляет строку в таблице.
 - `Cell`: Представляет ячейку в строке.
 - `appendChild`: Добавляет строки и ячейки в таблицу.
 
@@ -102,7 +104,7 @@ builder.endRow();
 
 - `DocumentBuilder`: Упрощает создание документа.
 - `setHorizontalMerge`: Объединяет ячейки по горизонтали.
-- `write`: Добавляет содержимое в объединенные ячейки.
+- `write`Добавляет содержимое в объединенные ячейки.
 
 ## Шаг 5: Добавьте вложенные таблицы
 
@@ -142,19 +144,24 @@ builder.insertHyperlink("Google website", "https://www.google.com", ложь);
 ```
 
 ### Могу ли я использовать Aspose.Words для Java бесплатно?  
- Вы можете использовать его с ограничениями или получить[бесплатная пробная версия](https://releases.aspose.com/) чтобы раскрыть весь его потенциал.
+Вы можете использовать его с ограничениями или получить [бесплатная пробная версия](https://releases.aspose.com/) чтобы раскрыть весь его потенциал.
 
 ### Как объединить ячейки по вертикали в таблице?  
- Используйте`setVerticalMerge` Метод`CellFormat` класс, аналогичный горизонтальному слиянию.
+Используйте `setVerticalMerge` Метод `CellFormat` класс, аналогичный горизонтальному слиянию.
 
 ### Можно ли добавлять изображения в ячейку таблицы?  
- Да, вы можете использовать`DocumentBuilder` для вставки изображений в ячейки таблицы.
+Да, вы можете использовать `DocumentBuilder` для вставки изображений в ячейки таблицы.
 
 ### Где я могу найти больше ресурсов по Aspose.Words для Java?  
- Проверьте[документация](https://reference.aspose.com/words/java/) или[форум поддержки](https://forum.aspose.com/c/words/8/) для получения подробных руководств.
+Проверьте [документация](https://reference.aspose.com/words/java/) или [форум поддержки](https://forum.aspose.com/c/words/8/) для получения подробных руководств.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

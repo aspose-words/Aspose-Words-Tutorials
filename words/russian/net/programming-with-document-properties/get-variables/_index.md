@@ -1,14 +1,16 @@
 ---
-title: Получить переменные
-linktitle: Получить переменные
-second_title: API обработки документов Aspose.Words
-description: Освойте Aspose.Words для .NET. Научитесь загружать и извлекать переменные из документов Word с помощью этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-document-properties/get-variables/
+"description": "Освойте Aspose.Words для .NET. Научитесь загружать и извлекать переменные из документов Word с помощью этого пошагового руководства."
+"linktitle": "Получить переменные"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить переменные"
+"url": "/ru/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить переменные
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-document-properties/get-variables/
 Прежде чем перейти к деталям, давайте убедимся, что у вас есть все необходимое:
 
 1. Базовые знания C# и .NET: вы должны быть знакомы с основами C# и фреймворка .NET.
-2.  Библиотека Aspose.Words для .NET: Загрузите библиотеку Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/).
+2. Библиотека Aspose.Words для .NET: Загрузите библиотеку Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/).
 3. Visual Studio: убедитесь, что на вашем компьютере установлена Visual Studio.
 
 ## Импорт пространств имен
@@ -43,7 +45,7 @@ using Aspose.Words;
 
 1. Откройте Visual Studio и выберите «Создать новый проект».
 2. Выберите «Консольное приложение (.NET Core)» и нажмите «Далее».
-3. Дайте название своему проекту и нажмите «Создать».
+3. Назовите свой проект и нажмите «Создать».
 
 ### Установка Aspose.Words
 
@@ -54,14 +56,14 @@ using Aspose.Words;
 
 ## Шаг 2: Загрузка документа Word
 
- Давайте загрузим документ Word в наше приложение. Мы будем использовать простой`Document` возражают против этого.
+Давайте загрузим документ Word в наше приложение. Мы будем использовать простой `Document` возражают против этого.
 
 1. Создайте новую строковую переменную для хранения пути к каталогу ваших документов:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Создать`Document` объект и загрузите документ:
+2. Создать `Document` объект и загрузите документ:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
@@ -112,7 +114,7 @@ using Aspose.Words;
 Да, Aspose.Words поддерживает несколько языков, но в этом уроке мы сосредоточились на C#.
 
 ### Как получить временную лицензию для Aspose.Words?
- Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Есть ли способ манипулировать другими форматами документов с помощью Aspose.Words?
 Конечно! Aspose.Words поддерживает различные форматы, такие как DOC, DOCX, ODT, RTF и другие.
@@ -121,11 +123,16 @@ using Aspose.Words;
 Да, вы можете интегрировать Aspose.Words в веб-приложения, настольные приложения и многое другое.
 
 ### Где я могу найти больше примеров и документации?
- Проверьте[Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробных руководств.
+Проверьте [Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробных руководств.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

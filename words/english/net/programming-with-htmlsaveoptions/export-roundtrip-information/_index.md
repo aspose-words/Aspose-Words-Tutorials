@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/export-roundtrip-information/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Roundtrip Information
@@ -90,9 +93,13 @@ You can get support from the Aspose community [here](https://forum.aspose.com/c/
 ### Is it possible to preserve formatting when converting Word documents to HTML?
 Yes, by using the ExportRoundtripInformation property in HtmlSaveOptions, you can preserve all formatting during the conversion.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

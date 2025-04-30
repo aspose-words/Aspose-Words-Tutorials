@@ -1,14 +1,16 @@
 ---
-title: Yeni Word Belgesi Oluştur
-linktitle: Yeni Word Belgesi Oluştur
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, belge otomasyonunu kolaylaştırarak sizi süreçte yönlendirecektir.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/create-new-document/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, belge otomasyonunu kolaylaştırarak sizi süreçte yönlendirecektir."
+"linktitle": "Yeni Word Belgesi Oluştur"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yeni Word Belgesi Oluştur"
+"url": "/tr/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yeni Word Belgesi Oluştur
@@ -20,9 +22,9 @@ Tüm belge düzenleme ihtiyaçlarınız için bir mücevher niteliğindeki küt�
 
 Ayrıntılara girmeden önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Visual Studio: Kodlama oyun alanımız. Eğer henüz yoksa, devam edin ve şuradan indirin:[Visual Studio İndirmeleri](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words for .NET: Gösterinin yıldızı. Buradan alabilirsiniz[Burada](https://releases.aspose.com/words/net/).
-3.  .NET Framework: En azından .NET Framework 4.0'ın yüklü olduğundan emin olun. Bunu şu şekilde kontrol edebilir ve yükleyebilirsiniz:[Microsoft .NET indirme sayfası](https://dotnet.microsoft.com/download/dotnet-framework).
+1. Visual Studio: Kodlama oyun alanımız. Eğer henüz yoksa, devam edin ve şuradan indirin: [Visual Studio İndirmeleri](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Words for .NET: Gösterinin yıldızı. Buradan alabilirsiniz [Burada](https://releases.aspose.com/words/net/).
+3. .NET Framework: En azından .NET Framework 4.0'ın yüklü olduğundan emin olun. Bunu şu şekilde kontrol edebilir ve yükleyebilirsiniz: [Microsoft .NET indirme sayfası](https://dotnet.microsoft.com/download/dotnet-framework).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -45,7 +47,7 @@ Yemek pişirmeden önce malzemelerinizi hazırlayan bir şef olduğunuzu düşü
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgenizi kaydetmek istediğiniz gerçek yol ile. Bu belgenizin ana üssüdür.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgenizi kaydetmek istediğiniz gerçek yol ile. Bu belgenizin ana üssüdür.
 
 ## Adım 2: Belgenin Oluşturulması
 
@@ -61,7 +63,7 @@ Az önce boş bir Word belgesi oluşturduk. Oldukça havalı, değil mi?
 
 ### DocumentBuilder'ı Başlat
 
- Sırada, belgemize biraz içerik eklememiz gerekiyor. Bunun için şunu kullanacağız:`DocumentBuilder`. Tuvale yazan kalemimiz gibi.
+Sırada, belgemize biraz içerik eklememiz gerekiyor. Bunun için şunu kullanacağız: `DocumentBuilder`. Tuvale yazan kalemimiz gibi.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -101,19 +103,24 @@ Evet, Aspose.Words for .NET, .NET Core, .NET Standard ve .NET Framework ile uyum
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan alabilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET ile hangi tür belgeler oluşturabilirim?
 
-DOC, DOCX, PDF, HTML ve daha birçok formatı oluşturabilir ve işleyebilirsiniz.
+DOC, DOCX, PDF, HTML ve daha birçok formatı oluşturabilir ve düzenleyebilirsiniz.
 
 ### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Şuna bir göz atın:[Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı rehberler için.
+Şuna bir göz atın: [Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı rehberler için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

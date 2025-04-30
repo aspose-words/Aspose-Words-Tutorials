@@ -1,35 +1,37 @@
 ---
-title: Skriva ut dokument i Aspose.Words för Java
-linktitle: Skriva ut dokument
-second_title: Aspose.Words Java Document Processing API
-description: Lär dig hur du skriver ut dokument med Aspose.Words för Java. Steg-för-steg-guide för sömlös utskrift i dina Java-applikationer.
-weight: 10
-url: /sv/java/printing-documents/printing-documents/
+"description": "Lär dig hur du skriver ut dokument med Aspose.Words för Java. Steg-för-steg-guide för sömlös utskrift i dina Java-program."
+"linktitle": "Utskrift av dokument"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Skriva ut dokument i Aspose.Words för Java"
+"url": "/sv/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skriva ut dokument i Aspose.Words för Java
 
 
-Om du vill skriva ut dokument med Aspose.Words för Java, har du kommit rätt. I den här steg-för-steg-guiden går vi igenom processen att skriva ut dokument med Aspose.Words för Java med hjälp av den medföljande källkoden.
+Om du vill skriva ut dokument med Aspose.Words för Java har du kommit rätt. I den här steg-för-steg-guiden guidar vi dig genom processen att skriva ut dokument med Aspose.Words för Java med hjälp av den medföljande källkoden.
 
 ## Introduktion
 
 Att skriva ut dokument är en vanlig uppgift i många applikationer. Aspose.Words för Java tillhandahåller ett kraftfullt API för att arbeta med Word-dokument, inklusive möjligheten att skriva ut dem. I den här handledningen guidar vi dig genom processen att skriva ut ett Word-dokument steg för steg.
 
-## Ställa in din miljö
+## Konfigurera din miljö
 
-Innan vi dyker in i koden, se till att du har följande förutsättningar på plats:
+Innan vi går in i koden, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat
 - Aspose.Words för Java-biblioteket har laddats ner och lagts till i ditt projekt
 
-## Laddar dokumentet
+## Läser in dokumentet
 
- För att komma igång måste du ladda Word-dokumentet du vill skriva ut. Ersätta`"Your Document Directory"` med sökvägen till ditt dokument och`"Your Output Directory"` med önskad utdatakatalog.
+För att komma igång måste du ladda Word-dokumentet du vill skriva ut. Ersätt `"Your Document Directory"` med sökvägen till ditt dokument och `"Your Output Directory"` med önskad utdatakatalog.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -39,10 +41,10 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Skapa ett utskriftsjobb
 
-Därefter skapar vi ett utskriftsjobb för att skriva ut vårt laddade dokument. Kodavsnittet nedan initierar ett utskriftsjobb och ställer in önskade skrivarinställningar.
+Nästa steg är att skapa ett utskriftsjobb för att skriva ut det inlästa dokumentet. Kodavsnittet nedan initierar utskriften och ställer in önskade skrivarinställningar.
 
 ```java
-// Skapa ett utskriftsjobb att skriva ut vårt dokument med.
+// Skapa ett utskriftsjobb för att skriva ut vårt dokument.
 PrinterJob pj = PrinterJob.getPrinterJob();
 // Initiera en attributuppsättning med antalet sidor i dokumentet.
 PrintRequestAttributeSet attributes = new HashPrintRequestAttributeSet();
@@ -53,10 +55,10 @@ MultipagePrintDocument awPrintDoc = new MultipagePrintDocument(doc, 4, true, att
 
 ## Skriva ut dokumentet
 
-Nu när vi har ställt in vårt utskriftsjobb är det dags att skriva ut dokumentet. Följande kodavsnitt associerar dokumentet med utskriftsjobbet och initierar utskriftsprocessen.
+Nu när vi har konfigurerat vårt utskriftsjobb är det dags att skriva ut dokumentet. Följande kodavsnitt associerar dokumentet med utskriftsjobbet och initierar utskriftsprocessen.
 
 ```java
-// Skicka dokumentet som ska skrivas ut med utskriftsjobbet.
+// Skicka dokumentet som ska skrivas ut med hjälp av utskriftsjobbet.
 pj.setPrintable(awPrintDoc);
 pj.print();
 ```
@@ -64,14 +66,14 @@ pj.print();
 ```java
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Rendering.docx");
-// Skapa ett utskriftsjobb att skriva ut vårt dokument med.
+// Skapa ett utskriftsjobb för att skriva ut vårt dokument.
 PrinterJob pj = PrinterJob.getPrinterJob();
 // Initiera en attributuppsättning med antalet sidor i dokumentet.
 PrintRequestAttributeSet attributes = new HashPrintRequestAttributeSet();
 attributes.add(new PageRanges(1, doc.getPageCount()));
 // Skicka skrivarinställningarna tillsammans med de andra parametrarna till utskriftsdokumentet.
 MultipagePrintDocument awPrintDoc = new MultipagePrintDocument(doc, 4, true, attributes);
-// Skicka dokumentet som ska skrivas ut med utskriftsjobbet.
+// Skicka dokumentet som ska skrivas ut med hjälp av utskriftsjobbet.
 pj.setPrintable(awPrintDoc);
 pj.print();
 ```
@@ -84,8 +86,8 @@ class MultipagePrintDocument implements Printable
     private final boolean mPrintPageBorders;
     private final AttributeSet mAttributeSet;
     /// <sammanfattning>
-    /// Konstruktören av den anpassade PrintDocument-klassen.
-    // / </summary>
+    /// Konstruktorn för den anpassade PrintDocument-klassen.
+    /// </sammanfattning> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,18 +98,18 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Sidans start- och slutindex enligt definitionen i attributuppsättningen.
+        // Sidans start- och slutindex enligt definitionen i attributuppsättningen.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
         Dimension thumbCount = getThumbCount(mPagesPerSheet, pf);
         // Beräkna sidindexet som ska renderas härnäst.
         int pagesOnCurrentSheet = (int) (page * (thumbCount.getWidth() * thumbCount.getHeight()));
-        // Om sidindexet är mer än det totala sidintervallet finns det ingenting
-        // mer att återge.
+        // Om sidindexet är större än det totala sidintervallet finns det ingenting
+        // mer att rendera.
         if (pagesOnCurrentSheet > (toPage - fromPage))
             return Printable.NO_SUCH_PAGE;
-        // Beräkna storleken på varje platshållare för miniatyrer i punkter.
+        // Beräkna storleken på varje platshållare för miniatyrbilder i punkter.
         Point2D.Float thumbSize = new Point2D.Float((float) (pf.getImageableWidth() / thumbCount.getWidth()),
                 (float) (pf.getImageableHeight() / thumbCount.getHeight()));
         // Beräkna numret på den första sidan som ska skrivas ut på detta pappersark.
@@ -120,32 +122,32 @@ class MultipagePrintDocument implements Printable
             // Beräkna kolumn- och radindex.
             int rowIdx = (int) Math.floor((pageIndex - startPage) / thumbCount.getWidth());
             int columnIdx = (int) Math.floor((pageIndex - startPage) % thumbCount.getWidth());
-            // Definiera miniatyrbildsplatsen i världskoordinater (punkter i detta fall).
+            // Definiera miniatyrbildens plats i världskoordinater (punkter i det här fallet).
             float thumbLeft = columnIdx * thumbSize.x;
             float thumbTop = rowIdx * thumbSize.y;
             try {
-                // Beräkna vänster och övre startpositioner.
+                // Beräkna startpositionerna till vänster och övre.
                 int leftPos = (int) (thumbLeft + pf.getImageableX());
                 int topPos = (int) (thumbTop + pf.getImageableY());
                 // Rendera dokumentsidan till grafikobjektet med hjälp av beräknade koordinater
                 // och platshållarstorlek för miniatyrbilder.
-                // Det användbara returvärdet är skalan där sidan renderades.
+                // Det användbara returvärdet är den skala i vilken sidan renderades.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Rita sidkanterna (sidminiatyren kan vara mindre än miniatyren
+                // Rita sidkanterna (sidans miniatyrbild kan vara mindre än miniatyrbilden
                 // platshållarstorlek).
                 if (mPrintPageBorders) {
-                    // Få sidans verkliga 100 % storlek i poäng.
+                    // Få sidans verkliga 100 % storlek i punkter.
                     Point2D.Float pageSize = mDocument.getPageInfo(pageIndex).getSizeInPoints();
-                    // Rita gränsen runt den skalade sidan med den kända skalfaktorn.
+                    // Rita kanten runt den skalade sidan med hjälp av den kända skalfaktorn.
                     g.setColor(Color.black);
                     g.drawRect(leftPos, topPos, (int) (pageSize.x * scale), (int) (pageSize.y * scale));
-                    // Rita en ram runt miniatyrplatshållaren.
+                    // Rita ramen runt platshållaren för miniatyrbilden.
                     g.setColor(Color.red);
                     g.drawRect(leftPos, topPos, (int) thumbSize.x, (int) thumbSize.y);
                 }
             } catch (Exception e) {
-                // Om det finns några fel som uppstår under renderingen, gör ingenting.
+                // Om det uppstår några fel under renderingen, gör ingenting.
                 // Detta kommer att rita en tom sida om det finns några fel under renderingen.
             }
         }
@@ -154,7 +156,7 @@ class MultipagePrintDocument implements Printable
     private Dimension getThumbCount(int pagesPerSheet, PageFormat pf) {
         Dimension size;
         // Definiera antalet kolumner och rader på arket för
-        // Landskapsorienterat papper.
+        // Liggande orienterat papper.
         switch (pagesPerSheet) {
             case 16:
                 size = new Dimension(4, 4);
@@ -178,7 +180,7 @@ class MultipagePrintDocument implements Printable
                 size = new Dimension(1, 1);
                 break;
         }
-        // Byt bredd och höjd om papperet är i stående orientering.
+        // Byt bredd och höjd om pappret är i stående orientering.
         if ((pf.getWidth() - pf.getImageableX()) < (pf.getHeight() - pf.getImageableY()))
             return new Dimension((int) size.getHeight(), (int) size.getWidth());
         return size;
@@ -188,36 +190,41 @@ class MultipagePrintDocument implements Printable
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt skrivit ut ett Word-dokument med Aspose.Words för Java. Den här steg-för-steg-guiden bör hjälpa dig att sömlöst integrera dokumentutskrift i dina Java-applikationer.
+Grattis! Du har skrivit ut ett Word-dokument med Aspose.Words för Java. Den här steg-för-steg-guiden bör hjälpa dig att integrera dokumentutskrift i dina Java-program sömlöst.
 
 ## Vanliga frågor
 
 ### F1: Kan jag skriva ut specifika sidor i ett dokument med Aspose.Words för Java?
 
- Ja, du kan ange sidintervallet när du skriver ut ett dokument. I kodexemplet använde vi`attributes.add(new PageRanges(1, doc.getPageCount()))`för att skriva ut alla sidor. Du kan justera sidintervallet efter behov.
+Ja, du kan ange sidintervallet när du skriver ut ett dokument. I kodexemplet använde vi `attributes.add(new PageRanges(1, doc.getPageCount()))` för att skriva ut alla sidor. Du kan justera sidintervallet efter behov.
 
-### F2: Är Aspose.Words för Java lämplig för batchutskrift?
+### F2: Är Aspose.Words för Java lämpligt för batchutskrift?
 
-Absolut! Aspose.Words för Java är väl lämpad för batchutskriftsuppgifter. Du kan iterera genom en lista med dokument och skriva ut dem ett efter ett med liknande kod.
+Absolut! Aspose.Words för Java är väl lämpat för batchutskrift. Du kan iterera igenom en lista med dokument och skriva ut dem ett i taget med liknande kod.
 
-### F3: Hur kan jag hantera utskriftsfel eller undantag?
+### F3: Hur kan jag hantera tryckfel eller undantag?
 
-Du bör hantera eventuella undantag som kan uppstå under utskriftsprocessen. Se Aspose.Words for Java-dokumentationen för information om hantering av undantag.
+Du bör hantera eventuella undantag som kan uppstå under utskriftsprocessen. Se dokumentationen för Aspose.Words för Java för information om hur du hanterar undantag.
 
 ### F4: Kan jag anpassa utskriftsinställningarna ytterligare?
 
-Ja, du kan anpassa utskriftsinställningarna för att uppfylla dina specifika krav. Utforska Aspose.Words för Java-dokumentationen för att lära dig mer om tillgängliga utskriftsalternativ.
+Ja, du kan anpassa utskriftsinställningarna efter dina specifika behov. Utforska dokumentationen för Aspose.Words för Java för att lära dig mer om tillgängliga utskriftsalternativ.
 
 ### F5: Var kan jag få mer hjälp och support för Aspose.Words för Java?
 
- För ytterligare stöd och hjälp kan du besöka[Aspose.Words för Java-forum](https://forum.aspose.com/).
+För ytterligare stöd och hjälp kan du besöka [Aspose.Words för Java-forum](https://forum.aspose.com/).
 
 ---
 
-Nu när du framgångsrikt har lärt dig hur du skriver ut dokument med Aspose.Words för Java, kan du börja implementera denna funktion i dina Java-applikationer. Glad kodning!
+Nu när du har lärt dig hur man skriver ut dokument med Aspose.Words för Java kan du börja implementera den här funktionen i dina Java-applikationer. Lycka till med kodningen!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

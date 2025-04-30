@@ -1,69 +1,71 @@
 ---
-title: Sorformátum Az oldalak közötti törés letiltása
-linktitle: Sorformátum Az oldalak közötti törés letiltása
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan tilthatja le a sortöréseket a Word-dokumentumok oldalain az Aspose.Words for .NET használatával a táblázat olvashatóságának és formázásának megőrzése érdekében.
-weight: 10
-url: /hu/net/programming-with-tables/row-format-disable-break-across-pages/
+"description": "Ismerje meg, hogyan tilthatja le a sortöréseket a Word-dokumentumok oldalain az Aspose.Words for .NET használatával a táblázatok olvashatóságának és formázásának megőrzése érdekében."
+"linktitle": "Sorformátum Oldalak közötti sortörés letiltása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Sorformátum Oldalak közötti sortörés letiltása"
+"url": "/hu/net/programming-with-tables/row-format-disable-break-across-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sorformátum Az oldalak közötti törés letiltása
+# Sorformátum Oldalak közötti sortörés letiltása
 
 ## Bevezetés
 
-Amikor Word dokumentumokban táblázatokkal dolgozik, érdemes lehet biztosítani, hogy a sorok ne törjenek oldalakra, ami elengedhetetlen lehet a dokumentumok olvashatóságának és formázásának megőrzéséhez. Az Aspose.Words for .NET egyszerű módot kínál az oldalak közötti sortörések letiltására.
+Amikor Word-dokumentumokban táblázatokkal dolgozik, érdemes lehet biztosítani, hogy a sorok ne törjenek meg oldalak között, ami elengedhetetlen a dokumentumok olvashatóságának és formázásának megőrzéséhez. Az Aspose.Words for .NET egyszerű módszert kínál a sortörések letiltására az oldalak között.
 
-Ebben az oktatóanyagban végigvezetjük a sortörések letiltásának folyamatán egy Word-dokumentumban az Aspose.Words for .NET használatával.
+Ebben az oktatóanyagban végigvezetünk azon, hogyan tilthatod le a sortöréseket az oldalakon egy Word-dokumentumban az Aspose.Words for .NET használatával.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételekkel rendelkezünk:
 - Aspose.Words for .NET könyvtár telepítve.
-- Word dokumentum több oldalra kiterjedő táblázattal.
+- Egy Word dokumentum, amelyben egy több oldalas táblázat található.
 
 ## Névterek importálása
 
-Először is importálja a szükséges névtereket a projektbe:
+Először importáld a szükséges névtereket a projektedbe:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
 Töltse be a több oldalas táblázatot tartalmazó dokumentumot.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumkönyvtár elérési útja 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
 ```
 
-## 2. lépés: Nyissa meg a táblázatot
+## 2. lépés: Hozzáférés a táblázathoz
 
-Nyissa meg a dokumentum első táblázatát. Ez azt feltételezi, hogy a módosítani kívánt tábla a dokumentum első táblája.
+Nyissa meg a dokumentum első táblázatát. Ez feltételezi, hogy a módosítani kívánt táblázat a dokumentum első táblázata.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
-## 3. lépés: Tiltsa le az oldalak közötti törést minden sorban
+## 3. lépés: Oldalak közötti tördelés letiltása az összes sorban
 
- Lapozzon végig a táblázat minden során, és állítsa be a`AllowBreakAcrossPages`tulajdonát`false`. Ez biztosítja, hogy a sorok ne törjenek szét az oldalakon.
+Végigmegyünk a táblázat minden során, és beállítjuk a `AllowBreakAcrossPages` ingatlan `false`Ez biztosítja, hogy a sorok ne törjenek meg oldalak között.
 
 ```csharp
-// Az oldalak közötti törés letiltása a táblázat összes sorában.
+// Az oldalak közötti tördelés letiltása a táblázat összes sorában.
 foreach (Row row in table.Rows)
     row.RowFormat.AllowBreakAcrossPages = false;
 ```
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
 Mentse el a módosított dokumentumot a megadott könyvtárba.
 
@@ -73,27 +75,32 @@ doc.Save(dataDir + "WorkingWithTables.RowFormatDisableBreakAcrossPages.docx");
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan lehet letiltani a sortöréseket egy Word-dokumentum oldalain az Aspose.Words for .NET használatával. A fent vázolt lépések követésével biztosíthatja, hogy a táblázat sorai sértetlenek maradjanak, és ne oszlanak szét az oldalakon, megőrizve a dokumentum olvashatóságát és formázását.
+Ebben az oktatóanyagban bemutattuk, hogyan tiltható le a sortörések oldalak közötti váltása egy Word-dokumentumban az Aspose.Words for .NET használatával. A fent vázolt lépéseket követve biztosíthatja, hogy a táblázat sorai érintetlenek maradjanak, és ne oszoljanak szét az oldalak között, megőrizve a dokumentum olvashatóságát és formázását.
 
 ## GYIK
 
-### Letilthatom a sortörést az oldalak között egy adott sorban az összes sor helyett?  
- Igen, letilthatja a sortöréseket adott soroknál, ha eléri a kívánt sort, és beállítja azt`AllowBreakAcrossPages`tulajdonát`false`.
+### Letilthatom a sortöréseket az oldalakon egy adott sorban az összes sor helyett?  
+Igen, letilthatja a sortöréseket bizonyos sorokhoz a kívánt sor eléréséhez és a hozzá tartozó beállításához. `AllowBreakAcrossPages` ingatlan `false`.
 
-### Működik ez a módszer egyesített cellákat tartalmazó táblázatoknál?  
- Igen, ez a módszer összevont cellákat tartalmazó táblázatoknál működik. Az ingatlan`AllowBreakAcrossPages` a teljes sorra vonatkozik, függetlenül a cellaegyesítéstől.
+### Ez a módszer működik egyesített cellákat tartalmazó táblázatok esetén?  
+Igen, ez a metódus működik egyesített cellákat tartalmazó táblázatok esetén. A tulajdonság `AllowBreakAcrossPages` a teljes sorra vonatkozik, a cellaegyesítéstől függetlenül.
 
 ### Működni fog ez a módszer, ha a tábla egy másik táblába van beágyazva?  
-Igen, a beágyazott táblákat ugyanúgy elérheti és módosíthatja. Győződjön meg róla, hogy megfelelően hivatkozik a beágyazott táblára annak indexe vagy egyéb tulajdonságai alapján.
+Igen, a beágyazott táblázatokat ugyanúgy elérheti és módosíthatja. Győződjön meg arról, hogy helyesen hivatkozik a beágyazott táblázatra az indexe vagy más tulajdonságai alapján.
 
-### Hogyan ellenőrizhetem, hogy egy sor lehetővé teszi-e az oldalak közötti törést?  
- Ellenőrizheti, hogy egy sor lehetővé teszi-e az oldalak közötti törést, ha eléri a`AllowBreakAcrossPages` tulajdona a`RowFormat` és ellenőrzi az értékét.
+### Hogyan tudom ellenőrizni, hogy egy sor lehetővé teszi-e az oldalak közötti tördelést?  
+Ellenőrizheti, hogy egy sor lehetővé teszi-e az oldalak közötti tördelést, ha megnyitja a `AllowBreakAcrossPages` a tulajdona `RowFormat` és ellenőrzi az értékét.
 
-### Van rá mód, hogy ezt a beállítást a dokumentum összes táblájára alkalmazzuk?  
-Igen, végignézheti a dokumentum összes táblázatát, és mindegyikre alkalmazhatja ezt a beállítást.
+### Van mód arra, hogy ezt a beállítást egy dokumentum összes táblázatára alkalmazzam?  
+Igen, végigmehetsz a dokumentum összes táblázatán, és mindegyikre alkalmazhatod ezt a beállítást.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

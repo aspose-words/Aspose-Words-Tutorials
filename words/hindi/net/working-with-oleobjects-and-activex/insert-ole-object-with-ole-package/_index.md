@@ -1,14 +1,16 @@
 ---
-title: Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें
-linktitle: Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। फ़ाइलों को सहजता से एम्बेड करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में OLE ऑब्जेक्ट सम्मिलित करना सीखें। फ़ाइलों को सहजता से एम्बेड करने के लिए हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें"
+"url": "/hi/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ole पैकेज के साथ Word में Ole ऑब्जेक्ट डालें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-pack
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. .NET के लिए Aspose.Words: यदि आपने अभी तक ऐसा नहीं किया है, तो इसे यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो इसे यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET विकास वातावरण।
 3. C# की बुनियादी समझ: आपको कोई विशेषज्ञ होने की आवश्यकता नहीं है, लेकिन C# की जानकारी होना सहायक होगा।
 4. दस्तावेज़ निर्देशिका: एक फ़ोल्डर जहाँ आप दस्तावेज़ों को संग्रहीत और पुनर्प्राप्त कर सकते हैं।
@@ -76,7 +78,7 @@ using (Stream stream = new MemoryStream(bs))
 }
 ```
 
- यहाँ, हम बाइट सरणी से एक मेमोरी स्ट्रीम बनाते हैं और इसका उपयोग करते हैं`InsertOleObject` दस्तावेज़ में इसे एम्बेड करने के लिए विधि। हम एम्बेड किए गए ऑब्जेक्ट के लिए फ़ाइल नाम और प्रदर्शन नाम भी सेट करते हैं।
+यहाँ, हम बाइट सरणी से एक मेमोरी स्ट्रीम बनाते हैं और इसका उपयोग करते हैं `InsertOleObject` दस्तावेज़ में इसे एम्बेड करने के लिए विधि। हम एम्बेड किए गए ऑब्जेक्ट के लिए फ़ाइल नाम और प्रदर्शन नाम भी सेट करते हैं।
 
 ## चरण 4: अपना दस्तावेज़ सहेजें
 
@@ -98,19 +100,24 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectWithOlePackag
 हां, आप विभिन्न फ़ाइल प्रकारों जैसे एक्सेल शीट, पीडीएफ और छवियों को एम्बेड कर सकते हैं।
 
 ### क्या मुझे Aspose.Words के लिए लाइसेंस की आवश्यकता है?
- हां, आपको वैध लाइसेंस की आवश्यकता है। आप एक वैध लाइसेंस प्राप्त कर सकते हैं।[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+हां, आपको वैध लाइसेंस की आवश्यकता है। आप एक वैध लाइसेंस प्राप्त कर सकते हैं। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ### मैं OLE ऑब्जेक्ट का प्रदर्शन नाम कैसे अनुकूलित कर सकता हूं?
- आप सेट कर सकते हैं`DisplayName` की संपत्ति`OlePackage` इसे अनुकूलित करने के लिए.
+आप सेट कर सकते हैं `DisplayName` की संपत्ति `OlePackage` इसे अनुकूलित करने के लिए.
 
 ### क्या Aspose.Words .NET कोर के साथ संगत है?
 हां, Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### क्या मैं Word दस्तावेज़ में एम्बेडेड OLE ऑब्जेक्ट को संपादित कर सकता हूँ?
 नहीं, आप OLE ऑब्जेक्ट को सीधे Word में संपादित नहीं कर सकते। आपको इसे इसके मूल एप्लिकेशन में खोलना होगा।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

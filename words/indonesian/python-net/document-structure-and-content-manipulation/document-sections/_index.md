@@ -1,14 +1,16 @@
 ---
-title: Mengelola Bagian dan Tata Letak Dokumen
-linktitle: Mengelola Bagian dan Tata Letak Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengelola bagian dan tata letak dokumen dengan Aspose.Words untuk Python. Buat, ubah bagian, sesuaikan tata letak, dan banyak lagi. Mulailah sekarang!
-weight: 24
-url: /id/python-net/document-structure-and-content-manipulation/document-sections/
+"description": "Pelajari cara mengelola bagian dan tata letak dokumen dengan Aspose.Words untuk Python. Buat, ubah bagian, sesuaikan tata letak, dan banyak lagi. Mulailah sekarang!"
+"linktitle": "Mengelola Bagian dan Tata Letak Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengelola Bagian dan Tata Letak Dokumen"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-sections/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengelola Bagian dan Tata Letak Dokumen
@@ -26,10 +28,10 @@ Mari kita mulai dengan membuat dokumen Word baru menggunakan Aspose.Words untuk 
 ```python
 import aspose.words as aw
 
-# Create a new document
+# Buat dokumen baru
 doc = aw.Document()
 
-# Save the document
+# Simpan dokumen
 doc.save("new_document.docx")
 ```
 
@@ -38,10 +40,10 @@ doc.save("new_document.docx")
 Bagian memungkinkan Anda membagi dokumen menjadi beberapa bagian, masing-masing dengan properti tata letaknya sendiri. Berikut cara menambahkan bagian baru ke dokumen Anda:
 
 ```python
-# Add a new section
+# Tambahkan bagian baru
 section = doc.sections.add()
 
-# Modify section properties
+# Ubah properti bagian
 section.page_setup.orientation = aw.Orientation.LANDSCAPE
 section.page_setup.left_margin = aw.ConvertUtil.inch_to_point(1)
 ```
@@ -51,7 +53,7 @@ section.page_setup.left_margin = aw.ConvertUtil.inch_to_point(1)
 Aspose.Words untuk Python memungkinkan Anda untuk menyesuaikan tata letak halaman sesuai dengan kebutuhan Anda. Anda dapat menyesuaikan margin, ukuran halaman, orientasi, dan banyak lagi. Misalnya:
 
 ```python
-# Customize page layout
+# Sesuaikan tata letak halaman
 page_setup = doc.sections[0].page_setup
 page_setup.orientation = aw.Orientation.PORTRAIT
 page_setup.paper_size = aw.PaperSize.A4
@@ -64,7 +66,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 Header dan footer menawarkan cara untuk menyertakan konten yang konsisten di bagian atas dan bawah setiap halaman. Anda dapat menambahkan teks, gambar, dan kolom ke header dan footer:
 
 ```python
-# Add header and footer
+# Tambahkan header dan footer
 header = section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY]
 header.paragraphs.add_run("Header Text")
 
@@ -74,10 +76,10 @@ footer.paragraphs.add_run("Footer Text")
 
 ## Mengelola Hentian Halaman
 
-Hentian halaman memastikan bahwa konten mengalir lancar di antara bagian-bagian. Anda dapat menyisipkan hentakan halaman pada titik-titik tertentu dalam dokumen Anda:
+Hentian halaman memastikan konten mengalir lancar di antara bagian-bagian. Anda dapat menyisipkan hentakan halaman pada titik-titik tertentu dalam dokumen Anda:
 
 ```python
-# Insert page break
+# Sisipkan jeda halaman
 doc_builder = aw.DocumentBuilder(doc)
 doc_builder.move_to_section(0)
 doc_builder.insert_break(aw.BreakType.PAGE_BREAK)
@@ -88,27 +90,32 @@ doc_builder.write("Content after page break.")
 
 Sebagai kesimpulan, Aspose.Words untuk Python memberdayakan pengembang untuk mengelola bagian, tata letak, dan pemformatan dokumen dengan mudah. Tutorial ini memberikan wawasan tentang cara membuat, memodifikasi bagian, menyesuaikan tata letak halaman, bekerja dengan header dan footer, dan mengelola pemisah halaman.
 
-Untuk informasi lebih lanjut dan referensi API terperinci, kunjungi[Aspose.Words untuk dokumentasi Python](https://reference.aspose.com/words/python-net/).
+Untuk informasi lebih lanjut dan referensi API terperinci, kunjungi [Dokumentasi Aspose.Words untuk Python](https://reference.aspose.com/words/python-net/).
 
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
- Anda dapat menginstal Aspose.Words untuk Python menggunakan pip. Cukup jalankan`pip install aspose-words` di terminal Anda.
+Anda dapat menginstal Aspose.Words untuk Python menggunakan pip. Cukup jalankan `pip install aspose-words` di terminal Anda.
 
 ### Bisakah saya menerapkan tata letak yang berbeda dalam satu dokumen?
-Ya, Anda dapat memiliki beberapa bagian dalam satu dokumen, masing-masing dengan pengaturan tata letaknya sendiri. Ini memungkinkan Anda untuk menerapkan berbagai tata letak sesuai kebutuhan.
+Ya, Anda dapat memiliki beberapa bagian dalam dokumen, masing-masing dengan pengaturan tata letaknya sendiri. Ini memungkinkan Anda untuk menerapkan berbagai tata letak sesuai kebutuhan.
 
 ### Apakah Aspose.Words kompatibel dengan berbagai format Word?
 Ya, Aspose.Words mendukung berbagai format Word, termasuk DOC, DOCX, RTF, dan banyak lagi.
 
 ### Bagaimana cara menambahkan gambar ke header atau footer?
- Anda dapat menggunakan`Shape` kelas untuk menambahkan gambar ke header atau footer. Periksa dokumentasi API untuk panduan terperinci.
+Anda dapat menggunakan `Shape` kelas untuk menambahkan gambar ke header atau footer. Periksa dokumentasi API untuk panduan terperinci.
 
 ### Di mana saya dapat mengunduh versi terbaru Aspose.Words untuk Python?
- Anda dapat mengunduh versi terbaru Aspose.Words untuk Python dari[Aspose.Words merilis halaman](https://releases.aspose.com/words/python/).
+Anda dapat mengunduh versi terbaru Aspose.Words untuk Python dari [Aspose.Words merilis halaman](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm vào với tùy chọn định dạng nhập
-linktitle: Thêm vào với tùy chọn định dạng nhập
-second_title: API xử lý tài liệu Aspose.Words
-description: Dễ dàng thêm các tài liệu Word bằng Aspose.Words cho .NET, duy trì định dạng với hướng dẫn từng bước chi tiết.
-weight: 10
-url: /vi/net/join-and-append-documents/append-with-import-format-options/
+"description": "Dễ dàng thêm các tài liệu Word bằng Aspose.Words cho .NET, duy trì định dạng với hướng dẫn từng bước chi tiết."
+"linktitle": "Thêm vào với tùy chọn định dạng nhập"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm vào với tùy chọn định dạng nhập"
+"url": "/vi/net/join-and-append-documents/append-with-import-format-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm vào với tùy chọn định dạng nhập
@@ -21,13 +23,13 @@ Xin chào! Bạn đã bao giờ thấy mình cần phải hợp nhất nhiều t
 
 Trước khi đi vào phần thú vị, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bất kỳ môi trường nào tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Bạn không cần phải là một phù thủy, nhưng chỉ cần quen thuộc một chút với C# cũng sẽ có ích rất nhiều.
 
 ## Nhập không gian tên
 
-Trước tiên, hãy nhập các không gian tên cần thiết. Điều này sẽ thiết lập bối cảnh cho cuộc phiêu lưu mã hóa của chúng ta.
+Trước tiên, hãy nhập các không gian tên cần thiết. Điều này đặt nền tảng cho cuộc phiêu lưu mã hóa của chúng ta.
 
 ```csharp
 using Aspose.Words;
@@ -38,14 +40,14 @@ Chúng ta hãy chia nhỏ quy trình thành các bước dễ hiểu và dễ th
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
-Mỗi hành trình đều bắt đầu bằng bước đầu tiên, và ở đây, đó là chỉ định thư mục tài liệu của bạn. Hãy nghĩ về việc thiết lập GPS của bạn trước chuyến đi đường dài.
+Mỗi hành trình đều bắt đầu bằng bước đầu tiên, và ở đây, đó là chỉ định thư mục tài liệu của bạn. Hãy nghĩ về việc thiết lập GPS của bạn trước một chuyến đi đường dài.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Đây là nơi chúng tôi sẽ lấy tài liệu nguồn và đích.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Đây là nơi chúng tôi sẽ lấy tài liệu nguồn và đích.
 
 ## Bước 2: Tải tài liệu nguồn và đích
 
@@ -78,7 +80,7 @@ ImportFormatOptions options = new ImportFormatOptions { KeepSourceNumbering = tr
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 ```
 
- Ở đây, chúng tôi đang thêm vào`srcDoc` ĐẾN`dstDoc` sử dụng các kiểu đích.`options` tham số đảm bảo các quy tắc định dạng của chúng tôi được áp dụng.
+Ở đây, chúng tôi đang thêm vào `srcDoc` ĐẾN `dstDoc` sử dụng các kiểu đích. `options` tham số đảm bảo các quy tắc định dạng của chúng tôi được áp dụng.
 
 ## Bước 5: Lưu tài liệu đã hợp nhất
 
@@ -97,10 +99,10 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể giữ nguyên số của tài liệu đích thay vì số của tài liệu nguồn không?
- Có, bạn có thể sửa đổi`ImportFormatOptions` để đạt được điều này.
+Có, bạn có thể sửa đổi `ImportFormatOptions` để đạt được điều này.
 
 ### Nếu tôi không có Aspose.Words cho .NET thì sao?
- Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng phương pháp này cho các loại tài liệu khác như PDF không?
 Aspose.Words dành riêng cho tài liệu Word. Đối với PDF, bạn có thể cần Aspose.PDF.
@@ -110,9 +112,14 @@ Hình ảnh thường được xử lý liền mạch, nhưng hãy đảm bảo 
 
 ###ment trước khi lưu?
 Bạn có thể hiển thị tài liệu vào luồng hoặc sử dụng trình xem trong ứng dụng để xem trước.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

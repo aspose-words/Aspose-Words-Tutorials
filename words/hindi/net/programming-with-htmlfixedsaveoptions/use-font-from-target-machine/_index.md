@@ -1,14 +1,16 @@
 ---
-title: लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें
-linktitle: लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में लक्ष्य मशीन से फ़ॉन्ट का उपयोग करना सीखें। सहज फ़ॉन्ट एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
+"description": "Aspose.Words for .NET के साथ अपने Word दस्तावेज़ों में लक्ष्य मशीन से फ़ॉन्ट का उपयोग करना सीखें। सहज फ़ॉन्ट एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें"
+"url": "/hi/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
 
 इससे पहले कि हम विस्तृत विवरण में जाएं, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल है। यदि आपने पहले से ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: आपके पास .NET विकास परिवेश स्थापित होना चाहिए, जैसे कि Visual Studio.
 3. काम करने के लिए दस्तावेज़: परीक्षण के लिए एक वर्ड दस्तावेज़ तैयार रखें। हम "बुलेट पॉइंट्स विद अल्टरनेटिव फ़ॉन्ट.docx" नामक दस्तावेज़ का उपयोग करेंगे।
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## चरण 1: वर्ड दस्तावेज़ लोड करें
 
- हमारे ट्यूटोरियल में पहला कदम वर्ड डॉक्यूमेंट को लोड करना है। यहीं से सब कुछ शुरू होता है। हम इसका इस्तेमाल करेंगे`Document` इस लक्ष्य को प्राप्त करने के लिए Aspose.Words लाइब्रेरी से .
+हमारे ट्यूटोरियल में पहला कदम वर्ड डॉक्यूमेंट को लोड करना है। यहीं से सब कुछ शुरू होता है। हम इसका इस्तेमाल करेंगे `Document` इसे प्राप्त करने के लिए Aspose.Words लाइब्रेरी से .
 
 ### चरण 1.1: दस्तावेज़ पथ परिभाषित करें
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ### चरण 1.2: दस्तावेज़ लोड करें
 
- अब, हम दस्तावेज़ को लोड करते हैं`Document` कक्षा।
+अब, हम दस्तावेज़ को लोड करते हैं `Document` कक्षा।
 
 ```csharp
 // Word दस्तावेज़ लोड करें
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Bullet points with alternative font.docx"
 
 इसके बाद, हमें सेव ऑप्शन को कॉन्फ़िगर करना होगा। यह कदम महत्वपूर्ण है क्योंकि यह सुनिश्चित करता है कि आपके दस्तावेज़ में इस्तेमाल किए गए फ़ॉन्ट लक्ष्य मशीन से हैं।
 
- हम इसका एक उदाहरण बनाएंगे`HtmlFixedSaveOptions` और सेट करें`UseTargetMachineFonts`संपत्ति को`true`.
+हम इसका एक उदाहरण बनाएंगे `HtmlFixedSaveOptions` और सेट करें `UseTargetMachineFonts` संपत्ति को `true`.
 
 ```csharp
 // "लक्ष्य मशीन से फ़ॉन्ट का उपयोग करें" सुविधा के साथ बैकअप विकल्प कॉन्फ़िगर करें
@@ -77,7 +79,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 
 अंत में, हम दस्तावेज़ को एक निश्चित HTML फ़ाइल के रूप में सहेजते हैं। यहीं पर जादू होता है!
 
- हम इसका उपयोग करेंगे`Save` कॉन्फ़िगर किए गए सहेजें विकल्पों के साथ दस्तावेज़ को सहेजने की विधि।
+हम इसका उपयोग करेंगे `Save` कॉन्फ़िगर किए गए सहेजें विकल्पों के साथ दस्तावेज़ को सहेजने की विधि।
 
 ```csharp
 // दस्तावेज़ को निश्चित HTML में बदलें
@@ -95,7 +97,7 @@ doc.Save(dataDir + "WorkingWithHtmlFixedSaveOptions.UseFontFromTargetMachine.htm
 System.Diagnostics.Process.Start(dataDir + "WorkingWithHtmlFixedSaveOptions.UseFontFromTargetMachine.html");
 ```
 
-और बस, अब आपने Aspose.Words for .NET का उपयोग करके अपने Word दस्तावेज़ में लक्ष्य मशीन से फ़ॉन्ट का सफलतापूर्वक उपयोग कर लिया है।
+और बस, अब आपने यह कर लिया! आपने .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ में लक्ष्य मशीन से फ़ॉन्ट का सफलतापूर्वक उपयोग कर लिया है।
 
 ## निष्कर्ष
 
@@ -110,17 +112,22 @@ System.Diagnostics.Process.Start(dataDir + "WorkingWithHtmlFixedSaveOptions.UseF
 यदि लक्ष्य मशीन में आवश्यक फ़ॉन्ट नहीं हैं, तो दस्तावेज़ इच्छित रूप से रेंडर नहीं हो सकता है। जब आवश्यक हो तो फ़ॉन्ट एम्बेड करना हमेशा एक अच्छा विचार है।
 
 ### मैं किसी दस्तावेज़ में फ़ॉन्ट कैसे एम्बेड करूँ?
- फ़ॉन्ट एम्बेड करने का कार्य निम्न का उपयोग करके किया जा सकता है`FontSettings` .NET के लिए Aspose.Words में क्लास देखें।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+फ़ॉन्ट एम्बेड करने का कार्य निम्न का उपयोग करके किया जा सकता है `FontSettings` .NET के लिए Aspose.Words में क्लास देखें। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### क्या दस्तावेज़ को सहेजने से पहले उसका पूर्वावलोकन करने का कोई तरीका है?
- हां, आप इसका उपयोग कर सकते हैं`DocumentRenderer` क्लास का उपयोग करके दस्तावेज़ को सहेजने से पहले उसका पूर्वावलोकन करें। .NET के लिए Aspose.Words देखें[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+हां, आप इसका उपयोग कर सकते हैं `DocumentRenderer` क्लास का उपयोग करके दस्तावेज़ को सहेजने से पहले उसका पूर्वावलोकन करें। .NET के लिए Aspose.Words देखें [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### क्या मैं HTML आउटपुट को और अधिक अनुकूलित कर सकता हूँ?
- बिलकुल!`HtmlFixedSaveOptions` क्लास HTML आउटपुट को कस्टमाइज़ करने के लिए विभिन्न गुण प्रदान करता है।[प्रलेखन](https://reference.aspose.com/words/net/) सभी उपलब्ध विकल्पों के लिए.
+बिलकुल! `HtmlFixedSaveOptions` क्लास HTML आउटपुट को कस्टमाइज़ करने के लिए विभिन्न गुण प्रदान करता है। [प्रलेखन](https://reference.aspose.com/words/net/) सभी उपलब्ध विकल्पों के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

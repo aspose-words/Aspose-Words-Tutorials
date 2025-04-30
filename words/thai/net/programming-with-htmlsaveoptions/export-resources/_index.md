@@ -1,14 +1,16 @@
 ---
-title: การส่งออกทรัพยากร
-linktitle: การส่งออกทรัพยากร
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการส่งออกทรัพยากร เช่น CSS และแบบอักษร ในขณะที่บันทึกเอกสาร Word เป็น HTML โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา
-weight: 10
-url: /th/net/programming-with-htmlsaveoptions/export-resources/
+"description": "เรียนรู้วิธีการส่งออกทรัพยากร เช่น CSS และแบบอักษร ในขณะที่บันทึกเอกสาร Word เป็น HTML โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา"
+"linktitle": "การส่งออกทรัพยากร"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การส่งออกทรัพยากร"
+"url": "/th/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การส่งออกทรัพยากร
@@ -19,10 +21,10 @@ url: /th/net/programming-with-htmlsaveoptions/export-resources/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกอย่างที่จำเป็นเพื่อเริ่มต้นใช้งานแล้ว นี่คือรายการตรวจสอบด่วน:
+ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกอย่างที่จำเป็นเพื่อเริ่มต้นใช้งานแล้ว นี่คือรายการตรวจสอบโดยย่อ:
 
-1.  Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ Visual Studio](https://visualstudio.microsoft.com/).
-2.  Aspose.Words สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Words สำหรับ .NET หากคุณยังไม่มี ให้ดาวน์โหลดรุ่นทดลองใช้งานฟรีจาก[การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หรือซื้อได้จาก[ร้านอาโพส](https://purchase.aspose.com/buy).
+1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ Visual Studio](https://visualstudio-microsoft.com/).
+2. Aspose.Words สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Words สำหรับ .NET หากคุณยังไม่มี ให้ดาวน์โหลดรุ่นทดลองใช้งานฟรีจาก [การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หรือซื้อได้จาก [ร้านอาโพส](https://purchase-aspose.com/buy).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณติดตามตัวอย่างโค้ดได้
 
 เข้าใจแล้วใช่ไหม เยี่ยมเลย! มาทำการนำเข้าเนมสเปซที่จำเป็นกันเลย
@@ -49,11 +51,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
- ต่อไปเรามาโหลดเอกสาร Word ที่คุณต้องการแปลงเป็น HTML กัน สำหรับบทช่วยสอนนี้ เราจะใช้เอกสารชื่อ`Rendering.docx`.
+ต่อไปเรามาโหลดเอกสาร Word ที่คุณต้องการแปลงเป็น HTML กัน สำหรับบทช่วยสอนนี้ เราจะใช้เอกสารชื่อ `Rendering-docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -63,7 +65,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก HTML
 
-หากต้องการส่งออกทรัพยากรเช่น CSS และแบบอักษร คุณจำเป็นต้องกำหนดค่า`HtmlSaveOptions`ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการทำให้แน่ใจว่าผลลัพธ์ HTML ของคุณมีโครงสร้างที่ดีและมีทรัพยากรที่จำเป็น
+หากต้องการส่งออกทรัพยากรเช่น CSS และแบบอักษร คุณจำเป็นต้องกำหนดค่า `HtmlSaveOptions`ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการทำให้แน่ใจว่าผลลัพธ์ HTML ของคุณมีโครงสร้างที่ดีและมีทรัพยากรที่จำเป็น
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -98,22 +100,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOption
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถส่งออกรูปภาพพร้อมกับแบบอักษรและ CSS ได้หรือไม่
- ใช่ คุณทำได้! Aspose.Words สำหรับ .NET รองรับการส่งออกรูปภาพเช่นกัน เพียงตรวจสอบให้แน่ใจว่าได้กำหนดค่า`HtmlSaveOptions` ตามนั้นครับ
+ใช่ คุณทำได้! Aspose.Words สำหรับ .NET รองรับการส่งออกรูปภาพเช่นกัน เพียงตรวจสอบให้แน่ใจว่าได้กำหนดค่า `HtmlSaveOptions` ตามนั้นครับ
 
 ### มีวิธีฝัง CSS แทนการใช้สไตล์ชีตภายนอกหรือไม่
- แน่นอน คุณสามารถตั้งค่าได้`CssStyleSheetType` ถึง`CssStyleSheetType.Embedded` หากคุณชอบสไตล์แบบฝัง
+แน่นอน คุณสามารถตั้งค่าได้ `CssStyleSheetType` ถึง `CssStyleSheetType.Embedded` หากคุณชอบสไตล์แบบฝัง
 
 ### ฉันจะกำหนดชื่อไฟล์ HTML เอาท์พุตได้อย่างไร
- คุณสามารถระบุชื่อไฟล์ใด ๆ ที่คุณต้องการใน`doc.Save` วิธีการ เช่น`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+คุณสามารถระบุชื่อไฟล์ใด ๆ ที่คุณต้องการใน `doc.Save` วิธีการ เช่น `doc-Save(dataDir + "CustomFileName.html", saveOptions);`.
 
 ### Aspose.Words รองรับรูปแบบอื่นนอกเหนือจาก HTML หรือไม่?
- ใช่ รองรับรูปแบบต่างๆ เช่น PDF, DOCX, TXT และอื่นๆ ลองดู[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการทั้งหมด
+ใช่ รองรับรูปแบบต่างๆ เช่น PDF, DOCX, TXT และอื่นๆ ลองดู [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการทั้งหมด
 
 ### ฉันจะได้รับการสนับสนุนและทรัพยากรเพิ่มเติมได้ที่ไหน
-หากต้องการความช่วยเหลือเพิ่มเติม โปรดไปที่[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) คุณยังสามารถค้นหาเอกสารรายละเอียดและตัวอย่างได้ที่[เว็บไซต์อาโพส](https://reference.aspose.com/words/net/).
+หากต้องการความช่วยเหลือเพิ่มเติม โปรดไปที่ [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8)คุณยังสามารถค้นหาเอกสารรายละเอียดและตัวอย่างได้ที่ [เว็บไซต์อาโพส](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

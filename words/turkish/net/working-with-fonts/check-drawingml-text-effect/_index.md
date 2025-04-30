@@ -1,14 +1,16 @@
 ---
-title: DrawingML Metin Efektini Kontrol Et
-linktitle: DrawingML Metin Efektini Kontrol Et
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrenin. Belgelerinizi kolaylıkla geliştirin.
-weight: 10
-url: /tr/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrenin. Belgelerinizi kolaylıkla geliştirin."
+"linktitle": "DrawingML Metin Efektini Kontrol Et"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "DrawingML Metin Efektini Kontrol Et"
+"url": "/tr/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # DrawingML Metin Efektini Kontrol Et
@@ -21,7 +23,7 @@ Aspose.Words for .NET ile çalışma hakkında bir başka ayrıntılı eğitime 
 
 Eğitime başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
--  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 - Temel C# Bilgisi: C# programlama konusunda biraz bilgi sahibi olmak faydalı olacaktır.
 
@@ -82,11 +84,11 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Bu kod satırları şunu yazdıracaktır:`true` veya`false` Her bir DrawingML metin efektinin çalıştırılan yazı tipine uygulanıp uygulanmadığına bağlı olarak.
+Bu kod satırları şunu yazdıracaktır: `true` veya `false` Her bir özel DrawingML metin efektinin çalıştırılan yazı tipine uygulanıp uygulanmadığına bağlı olarak.
 
 ## Çözüm
 
-Tebrikler! Aspose.Words for .NET kullanarak Word belgelerinde DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrendiniz. Bu güçlü özellik, karmaşık metin biçimlendirmelerini programatik olarak algılamanıza ve düzenlemenize olanak tanır ve belge işleme görevleriniz üzerinde daha fazla kontrol sahibi olmanızı sağlar.
+Tebrikler! Aspose.Words for .NET kullanarak Word belgelerinde DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrendiniz. Bu güçlü özellik, karmaşık metin biçimlendirmelerini programatik olarak algılamanızı ve düzenlemenizi sağlayarak belge işleme görevleriniz üzerinde daha fazla kontrol sahibi olmanızı sağlar.
 
 
 ## SSS
@@ -98,16 +100,21 @@ DrawingML metin efektleri, Word belgelerinde gölgeler, 3B efektler, yansımalar
 Evet, Aspose.Words for .NET, DrawingML metin efektlerini hem programlı olarak kontrol etmenize hem de uygulamanıza olanak tanır.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir lisans edinebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Evet, Aspose.Words for .NET tam işlevsellik için bir lisans gerektirir. Bir lisans edinebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Satın almadan önce Aspose.Words for .NET'i deneyin.
+Evet, indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Satın almadan önce Aspose.Words for .NET'i deneyin.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Words for .NET Belgeleri sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri şu adreste bulabilirsiniz: [Aspose.Words for .NET Belgeleri sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

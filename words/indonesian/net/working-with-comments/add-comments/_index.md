@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Komentar
-linktitle: Tambahkan Komentar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan komentar ke dokumen Word Anda menggunakan Aspose.Words untuk .NET dengan panduan kami. Tingkatkan proses kolaborasi dokumen Anda dengan mudah.
-weight: 10
-url: /id/net/working-with-comments/add-comments/
+"description": "Pelajari cara menambahkan komentar ke dokumen Word Anda menggunakan Aspose.Words untuk .NET dengan panduan kami. Tingkatkan proses kolaborasi dokumen Anda dengan mudah."
+"linktitle": "Tambahkan Komentar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Komentar"
+"url": "/id/net/working-with-comments/add-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Komentar
@@ -21,7 +23,7 @@ Selamat datang di panduan terperinci kami tentang menambahkan komentar ke dokume
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. Lingkungan Pengembangan: IDE seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 4. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang mudah diikut
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Pertama, kita perlu menentukan direktori tempat dokumen Anda akan disimpan. Kita akan menggunakan placeholder`YOUR DOCUMENT DIRECTORY` yang harus Anda ganti dengan jalur direktori Anda yang sebenarnya.
+Pertama, kita perlu menentukan direktori tempat dokumen Anda akan disimpan. Kita akan menggunakan placeholder `YOUR DOCUMENT DIRECTORY` yang harus Anda ganti dengan jalur direktori Anda yang sebenarnya.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -88,7 +90,7 @@ builder.CurrentParagraph.AppendChild(comment);
 
 ## Langkah 7: Simpan Dokumen
 
-Langkah terakhir adalah menyimpan dokumen beserta komentarnya. Kita akan menentukan direktori dan nama filenya.
+Langkah terakhir adalah menyimpan dokumen beserta komentarnya. Kita akan menentukan direktori dan nama file.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithComments.AddComments.docx");
@@ -119,9 +121,14 @@ Ya, Anda dapat menghapus komentar secara terprogram dengan mengulangi komentar d
 ### Bisakah saya membalas komentar?
 
 Aspose.Words memungkinkan Anda bekerja dengan komentar berulir, memungkinkan Anda menambahkan balasan ke komentar yang ada untuk diskusi yang lebih terperinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

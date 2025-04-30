@@ -1,14 +1,16 @@
 ---
-title: Hướng dẫn in tài liệu
-linktitle: Hướng dẫn in tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách in tài liệu theo chương trình trong Java bằng Aspose.Words for Java. Hướng dẫn từng bước để xử lý tài liệu và xử lý văn bản. Tăng năng suất ngay!
-weight: 15
-url: /vi/java/document-printing/guide-to-document-printing/
+"description": "Học cách in tài liệu theo chương trình trong Java bằng Aspose.Words for Java. Hướng dẫn từng bước để xử lý tài liệu và xử lý văn bản. Tăng năng suất ngay!"
+"linktitle": "Hướng dẫn in tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hướng dẫn in tài liệu"
+"url": "/vi/java/document-printing/guide-to-document-printing/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn in tài liệu
@@ -38,15 +40,15 @@ Nếu bạn chưa cài đặt JDK, hãy truy cập trang web Oracle và tải xu
 
 ### Thêm Aspose.Words cho Java vào Dự án của bạn
 
- Bạn có thể thêm Aspose.Words for Java vào dự án của mình bằng cách sử dụng Maven hoặc cài đặt thủ công. Đối với Maven, hãy bao gồm sự phụ thuộc thích hợp trong dự án của bạn`pom.xml`tệp. Nếu bạn thích cài đặt thủ công, hãy tải xuống thư viện từ trang web Aspose và thêm vào classpath của dự án.
+Bạn có thể thêm Aspose.Words for Java vào dự án của mình bằng cách sử dụng Maven hoặc cài đặt thủ công. Đối với Maven, hãy bao gồm sự phụ thuộc thích hợp trong dự án của bạn `pom.xml` tệp. Nếu bạn thích cài đặt thủ công, hãy tải xuống thư viện từ trang web Aspose và thêm vào classpath của dự án.
 
 ## Tạo một tài liệu Word đơn giản
 
-Chúng ta hãy bắt đầu bằng cách tạo một tài liệu Word đơn giản bằng Aspose.Words cho Java.
+Hãy bắt đầu bằng cách tạo một tài liệu Word đơn giản bằng Aspose.Words cho Java.
 
 ### Khởi tạo đối tượng tài liệu
 
- Để tạo một tài liệu Word mới, bạn cần khởi tạo`Document` sự vật:
+Để tạo một tài liệu Word mới, bạn cần khởi tạo `Document` sự vật:
 
 ```java
 Document doc = new Document();
@@ -92,7 +94,7 @@ Cuối cùng, chúng ta hãy tiến hành in tài liệu.
 
 ### Gửi tài liệu đến máy in
 
- Để in tài liệu, bạn cần sử dụng`PrintDocument` lớp học:
+Để in tài liệu, bạn cần sử dụng `PrintDocument` lớp học:
 
 ```java
 PrintDocument printDocument = new PrintDocument(doc, printerSettings);
@@ -159,7 +161,7 @@ try {
 
 ### Xử lý sự cố thường gặp
 
-Nếu bạn gặp bất kỳ vấn đề nào khi in, hãy tham khảo[Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết các bước khắc phục sự cố và hỗ trợ cộng đồng.
+Nếu bạn gặp bất kỳ vấn đề nào khi in, hãy tham khảo [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết các bước khắc phục sự cố và hỗ trợ cộng đồng.
 
 ## Thực hành tốt nhất cho việc in tài liệu
 
@@ -199,7 +201,7 @@ Có, Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu, bao g�
 
 ### Aspose.Words for Java có tương thích với tất cả các máy in không?
 
-Aspose.Words for Java có thể hoạt động với hầu hết các máy in hỗ trợ in tài liệu thông qua ứng dụng Java.
+Aspose.Words for Java có thể hoạt động với hầu hết các máy in hỗ trợ in tài liệu thông qua các ứng dụng Java.
 
 ### Tôi có thể in tài liệu từ ứng dụng web không?
 
@@ -209,12 +211,16 @@ Có, bạn có thể sử dụng Aspose.Words for Java để in tài liệu theo
 
 Aspose.Words for Java cho phép bạn chỉ định các trang hoặc phạm vi trang bạn muốn in.
 
-### Aspose.Words cho Java có hỗ trợ in hai mặt không?
+### Aspose.Words for Java có hỗ trợ in hai mặt không?
 
 Có, Aspose.Words for Java cung cấp tùy chọn in hai mặt, cho phép bạn in trên cả hai mặt giấy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

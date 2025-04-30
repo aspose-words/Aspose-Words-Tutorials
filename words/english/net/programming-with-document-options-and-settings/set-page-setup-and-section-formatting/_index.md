@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-options-and-settings/set-page-setup-and-section-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Page Setup And Section Formatting
@@ -107,9 +110,13 @@ You can get a free trial from the [Aspose releases page](https://releases.aspose
 For support, you can visit the [Aspose.Words support forum](https://forum.aspose.com/c/words/8) where you can ask questions and get help from the community and Aspose developers.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

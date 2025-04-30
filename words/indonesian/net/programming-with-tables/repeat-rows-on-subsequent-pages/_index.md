@@ -1,14 +1,16 @@
 ---
-title: Ulangi Baris Pada Halaman Berikutnya
-linktitle: Ulangi Baris Pada Halaman Berikutnya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dokumen Word dengan baris tajuk tabel berulang menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk memastikan dokumen yang profesional dan bermutu.
-weight: 10
-url: /id/net/programming-with-tables/repeat-rows-on-subsequent-pages/
+"description": "Pelajari cara membuat dokumen Word dengan baris tajuk tabel berulang menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk memastikan dokumen yang profesional dan bermutu."
+"linktitle": "Ulangi Baris Pada Halaman Berikutnya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ulangi Baris Pada Halaman Berikutnya"
+"url": "/id/net/programming-with-tables/repeat-rows-on-subsequent-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ulangi Baris Pada Halaman Berikutnya
@@ -21,7 +23,7 @@ Membuat dokumen Word secara terprogram bisa menjadi tugas yang berat, terutama s
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework terinstal di komputer Anda.
 3. Visual Studio atau IDE lain yang mendukung pengembangan .NET.
 4. Pemahaman dasar tentang pemrograman C#.
@@ -41,21 +43,21 @@ Ruang nama ini menyertakan kelas dan metode yang diperlukan untuk memanipulasi d
 
 ## Langkah 1: Inisialisasi Dokumen
 
- Pertama, mari kita membuat dokumen Word baru dan`DocumentBuilder` untuk membuat tabel kita.
+Pertama, mari kita membuat dokumen Word baru dan `DocumentBuilder` untuk membuat tabel kita.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Kode ini menginisialisasi dokumen baru dan`DocumentBuilder` objek, yang membantu dalam membangun struktur dokumen.
+Kode ini menginisialisasi dokumen baru dan `DocumentBuilder` objek, yang membantu dalam membangun struktur dokumen.
 
 ## Langkah 2: Mulai Tabel dan Tentukan Baris Header
 
-Berikutnya, kita akan memulai tabel dan menentukan baris tajuk yang ingin kita ulangi di halaman berikutnya.
+Berikutnya, kita akan memulai tabel dan menentukan baris tajuk yang ingin kita ulangi pada halaman berikutnya.
 
 ```csharp
 builder.StartTable();
@@ -72,7 +74,7 @@ builder.Writeln("Heading row 2");
 builder.EndRow();
 ```
 
- Di sini, kita memulai tabel baru, mengatur`HeadingFormat`properti untuk`true` untuk menunjukkan bahwa baris adalah tajuk, dan menentukan perataan dan lebar sel.
+Di sini, kita memulai tabel baru, mengatur `HeadingFormat` properti untuk `true` untuk menunjukkan bahwa baris adalah tajuk, dan menentukan perataan dan lebar sel.
 
 ## Langkah 3: Tambahkan Baris Data ke Tabel
 
@@ -93,7 +95,7 @@ for (int i = 0; i < 50; i++)
 }
 ```
 
- Loop ini memasukkan 50 baris data ke dalam tabel, dengan dua kolom di setiap baris.`HeadingFormat` diatur untuk`false` untuk baris-baris ini, karena baris-baris tersebut bukan baris tajuk.
+Loop ini memasukkan 50 baris data ke dalam tabel, dengan dua kolom di setiap baris. `HeadingFormat` diatur untuk `false` untuk baris-baris ini, karena baris-baris tersebut bukan baris tajuk.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -112,22 +114,27 @@ Nah, itu dia! Hanya dengan beberapa baris kode, Anda dapat membuat dokumen Word 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan baris header lebih lanjut?
- Ya, Anda dapat menerapkan pemformatan tambahan ke baris header dengan mengubah properti`ParagraphFormat`, `RowFormat` , Dan`CellFormat`.
+Ya, Anda dapat menerapkan pemformatan tambahan ke baris header dengan mengubah properti `ParagraphFormat`Bahasa Indonesia: `RowFormat`, Dan `CellFormat`.
 
 ### Apakah mungkin untuk menambahkan lebih banyak kolom pada tabel?
- Tentu saja! Anda dapat menambahkan kolom sebanyak yang diperlukan dengan memasukkan lebih banyak sel di dalam`InsertCell` metode.
+Tentu saja! Anda dapat menambahkan kolom sebanyak yang diperlukan dengan memasukkan lebih banyak sel di dalam `InsertCell` metode.
 
 ### Bagaimana cara membuat baris lainnya berulang pada halaman berikutnya?
- Untuk membuat baris mana pun berulang, atur`RowFormat.HeadingFormat`properti untuk`true` untuk baris spesifik tersebut.
+Untuk membuat baris apa pun berulang, atur `RowFormat.HeadingFormat` properti untuk `true` untuk baris spesifik tersebut.
 
 ### Bisakah saya menggunakan metode ini untuk tabel yang ada dalam dokumen?
- Ya, Anda dapat mengubah tabel yang ada dengan mengaksesnya melalui`Document` objek dan menerapkan pemformatan yang serupa.
+Ya, Anda dapat mengubah tabel yang ada dengan mengaksesnya melalui `Document` objek dan menerapkan pemformatan yang serupa.
 
 ### Apa saja pilihan pemformatan tabel lain yang tersedia di Aspose.Words untuk .NET?
- Aspose.Words untuk .NET menawarkan berbagai pilihan pemformatan tabel, termasuk penggabungan sel, pengaturan batas, dan perataan tabel. Lihat[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Aspose.Words untuk .NET menawarkan berbagai pilihan pemformatan tabel, termasuk penggabungan sel, pengaturan batas, dan perataan tabel. Lihat [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Вставить диаграмму области в документ Word
-linktitle: Вставить диаграмму области в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить диаграмму с областями в документ с помощью Aspose.Words for .NET. Добавьте данные серий и сохраните документ с диаграммой.
-weight: 10
-url: /ru/net/programming-with-charts/insert-area-chart/
+"description": "Узнайте, как вставить диаграмму с областями в документ с помощью Aspose.Words for .NET. Добавьте данные серий и сохраните документ с диаграммой."
+"linktitle": "Вставить диаграмму области в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить диаграмму области в документ Word"
+"url": "/ru/net/programming-with-charts/insert-area-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить диаграмму области в документ Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-charts/insert-area-chart/
 
 Прежде чем приступить к работе, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 3. IDE: Интегрированная среда разработки (IDE), подобная Visual Studio, для написания и выполнения кода.
 4. Базовые знания C#: Базовые знания программирования на C# будут полезны.
@@ -45,34 +47,34 @@ using System;
 Начнем с создания нового документа Word. Это будет база, куда мы вставим нашу диаграмму областей.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- На этом этапе мы инициализируем новый`Document` объект, представляющий наш документ Word.
+На этом этапе мы инициализируем новый `Document` объект, представляющий наш документ Word.
 
 ## Шаг 2: использование DocumentBuilder для вставки диаграммы
 
- Далее мы будем использовать`DocumentBuilder` класс для вставки диаграммы с областями в наш документ.
+Далее мы будем использовать `DocumentBuilder` класс для вставки диаграммы с областями в наш документ.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Area, 432, 252);
 ```
 
- Здесь мы создаем`DocumentBuilder` объект и используем его для вставки в наш документ диаграммы областей определенных размеров (432x252).
+Здесь мы создаем `DocumentBuilder` объект и используем его для вставки в наш документ диаграммы областей определенных размеров (432x252).
 
 ## Шаг 3: Доступ к объекту диаграммы
 
- После вставки диаграммы нам необходимо получить доступ к`Chart` объект для настройки нашей диаграммы областей.
+После вставки диаграммы нам необходимо получить доступ к `Chart` объект для настройки нашей диаграммы областей.
 
 ```csharp
 Chart chart = shape.Chart;
 ```
 
- Эта строка кода извлекает`Chart` объект из формы, которую мы только что вставили.
+Эта строка кода извлекает `Chart` объект из формы, которую мы только что вставили.
 
 ## Шаг 4: Добавьте ряд данных в диаграмму
 
@@ -121,10 +123,15 @@ doc.Save(dataDir + "WorkingWithCharts.InsertAreaChart.docx");
 Да, Aspose.Words для .NET поддерживает различные типы диаграмм, включая столбчатые, линейные, круговые и другие.
 
 ### Где я могу получить временную лицензию для Aspose.Words для .NET?
- Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

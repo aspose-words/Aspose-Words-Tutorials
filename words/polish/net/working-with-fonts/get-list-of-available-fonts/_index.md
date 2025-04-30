@@ -1,14 +1,16 @@
 ---
-title: Pobierz listę dostępnych czcionek
-linktitle: Pobierz listę dostępnych czcionek
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać listę dostępnych czcionek za pomocą Aspose.Words dla .NET w tym szczegółowym samouczku krok po kroku. Zwiększ swoje umiejętności zarządzania czcionkami.
-weight: 10
-url: /pl/net/working-with-fonts/get-list-of-available-fonts/
+"description": "Dowiedz się, jak uzyskać listę dostępnych czcionek za pomocą Aspose.Words dla .NET w tym szczegółowym samouczku krok po kroku. Zwiększ swoje umiejętności zarządzania czcionkami."
+"linktitle": "Pobierz listę dostępnych czcionek"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pobierz listę dostępnych czcionek"
+"url": "/pl/net/working-with-fonts/get-list-of-available-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz listę dostępnych czcionek
@@ -21,7 +23,7 @@ Czy kiedykolwiek miałeś problem z zarządzaniem czcionkami w dokumentach Word?
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: W tym przykładzie jako środowisko programistyczne wykorzystano Visual Studio.
 - .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 - Katalog dokumentów: Ścieżka do katalogu, w którym przechowywane są Twoje dokumenty.
@@ -57,7 +59,7 @@ Następnie określ ścieżkę do katalogu dokumentu. To tutaj Aspose.Words będz
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: Ta zmienna typu string przechowuje ścieżkę do katalogu, w którym znajdują się Twoje czcionki. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
+- dataDir: Ta zmienna typu string przechowuje ścieżkę do katalogu, w którym znajdują się Twoje czcionki. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
 
 ## Krok 3: Dodaj niestandardowy folder czcionek
 
@@ -67,7 +69,7 @@ Teraz dodaj nowy folder źródłowy, aby poinstruować Aspose.Words, aby przeszu
 FolderFontSource folderFontSource = new FolderFontSource(dataDir, true);
 ```
 
-- FolderFontSource: Ta klasa reprezentuje źródło czcionki folderu. Drugi parametr (`true`) wskazuje, czy czcionki mają być wyszukiwane rekurencyjnie w podfolderach.
+- FolderFontSource: Ta klasa reprezentuje źródło czcionki folderu. Drugi parametr (`true`wskazuje, czy czcionki mają być wyszukiwane rekurencyjnie w podfolderach.
 
 ## Krok 4: Aktualizacja źródeł czcionek
 
@@ -96,7 +98,7 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 ```
 
 - GetAvailableFonts(): Pobiera listę dostępnych czcionek z pierwszego źródła czcionek na zaktualizowanej liście.
--  fontInfo: Instancja`PhysicalFontInfo` zawierające szczegółowe informacje o każdej czcionce.
+- fontInfo: Instancja `PhysicalFontInfo` zawierające szczegółowe informacje o każdej czcionce.
 
 ## Wniosek
 
@@ -111,16 +113,21 @@ Tak, Aspose.Words dla .NET jest kompatybilny z różnymi platformami .NET, w tym
 Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio, wyszukując „Aspose.Words”.
 
 ### Czy można dodać wiele niestandardowych folderów czcionek?
- Tak, możesz dodać wiele niestandardowych folderów czcionek, tworząc wiele`FolderFontSource` wystąpień i dodawanie ich do listy źródeł czcionek.
+Tak, możesz dodać wiele niestandardowych folderów czcionek, tworząc wiele `FolderFontSource` wystąpień i dodawanie ich do listy źródeł czcionek.
 
 ### Czy mogę pobrać szczegóły dotyczące czcionki z określonego źródła czcionek?
- Tak, możesz pobrać szczegóły dotyczące czcionki z dowolnego źródła czcionek, określając indeks źródła czcionek w`updatedFontSources` szyk.
+Tak, możesz pobrać szczegóły dotyczące czcionki z dowolnego źródła czcionek, określając indeks źródła czcionek w `updatedFontSources` szyk.
 
 ### Czy Aspose.Words dla .NET obsługuje podstawianie czcionek?
 Tak, obsługuje podstawianie czcionek, co zapewnia prawidłowe wyświetlanie tekstu, nawet jeśli oryginalna czcionka nie jest dostępna.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

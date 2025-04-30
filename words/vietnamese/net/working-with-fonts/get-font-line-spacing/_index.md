@@ -1,14 +1,16 @@
 ---
-title: Nhận khoảng cách dòng chữ
-linktitle: Nhận khoảng cách dòng chữ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo khoảng cách dòng phông chữ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/working-with-fonts/get-font-line-spacing/
+"description": "Tìm hiểu cách tạo khoảng cách dòng phông chữ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Nhận khoảng cách dòng chữ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận khoảng cách dòng chữ"
+"url": "/vi/net/working-with-fonts/get-font-line-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận khoảng cách dòng chữ
@@ -21,7 +23,7 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn tạo, t
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt phiên bản mới nhất từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Tải xuống và cài đặt phiên bản mới nhất từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Đảm bảo bạn đã thiết lập một IDE như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Bước 2: Khởi tạo DocumentBuilder
 
-Tiếp theo, chúng ta cần khởi tạo`DocumentBuilder` đối tượng. Đối tượng này sẽ giúp chúng ta xây dựng và thao tác nội dung tài liệu.
+Tiếp theo, chúng ta cần khởi tạo `DocumentBuilder` đối tượng. Đối tượng này sẽ giúp chúng ta xây dựng và thao tác nội dung tài liệu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,7 +65,7 @@ builder.Font.Name = "Calibri";
 
 ## Bước 4: Viết văn bản vào tài liệu
 
- Sử dụng`DocumentBuilder` đối tượng, viết một số văn bản vào tài liệu. Văn bản này sẽ sử dụng các thuộc tính phông chữ mà chúng ta đã thiết lập ở bước trước.
+Sử dụng `DocumentBuilder` đối tượng, viết một số văn bản vào tài liệu. Văn bản này sẽ sử dụng các thuộc tính phông chữ mà chúng ta đã thiết lập ở bước trước.
 
 ```csharp
 builder.Writeln("Sample Text");
@@ -98,16 +100,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Có, bạn có thể sử dụng Aspose.Words cho .NET với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho .NET?
- Bạn có thể tải xuống phiên bản mới nhất của Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống phiên bản mới nhất của Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu về Aspose.Words cho .NET hiện có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu về Aspose.Words cho .NET hiện có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

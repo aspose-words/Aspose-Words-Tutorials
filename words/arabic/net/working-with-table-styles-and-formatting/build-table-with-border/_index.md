@@ -1,45 +1,53 @@
 ---
-title: تعديل حدود الجدول في Word باستخدام Aspose.Words ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية التعامل مع حدود الجدول في مستندات Word باستخدام Aspose.Words ل .NET. مثال خطوة بخطوة لتطبيق أنماط الجدول المخصصة وتصميمها.
-keywords: [Aspose.Words for .NET, table borders Word, Word document table formatting, modify Word table, .NET Word processing, Aspose.Words tutorial]
-url: /ar/net/working-with-table-styles-and-formatting/build-table-with-border/
+"description": "تعلّم كيفية تعديل حدود الجداول في مستندات Word باستخدام Aspose.Words لـ .NET. مثال خطوة بخطوة لتطبيق أنماط وتنسيقات الجداول المخصصة."
+"title": "تعديل حدود الجدول في Word باستخدام Aspose.Words لـ .NET"
+"url": "/ar/net/working-with-table-styles-and-formatting/build-table-with-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعديل حدود الجدول في Word باستخدام Aspose.Words
  
-Aspose.Words لـ .NET هي مكتبة قوية لإنشاء وتحرير وتلاعب وثائق Word برنامجياً. في هذا المثال ، ستتعلم كيفية استرداد وثيقة Word الحالية وتعديل حدود الجدول الأول وتطبيق تنسيق مخصص باستخدام Aspose.Words. يمرككك هذا الدليل في إزالة الحدود الحالية وتطبيق الحدود الخضراء حول داخل الجدول وتحفظ الوثيقة المحدثة. مع هذه الوظيفة ، يمكنك تعزيز عرض الجدولات في وثائق Word بكفاءة.
+Aspose.Words لـ .NET هي مكتبة فعّالة لإنشاء مستندات Word وتحريرها ومعالجتها برمجيًا. في هذا المثال، ستتعلم كيفية استرداد مستند Word موجود، وتعديل حدود الجدول الأول، وتطبيق تنسيق مخصص باستخدام Aspose.Words. يرشدك هذا الدليل إلى خطوات مسح الحدود الحالية، وتطبيق حدود خضراء حول الجدول وداخله، وحفظ المستند المُحدّث. باستخدام هذه الوظيفة، يمكنك تحسين عرض الجداول في مستندات Word بكفاءة.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-لبدء Aspose.Words ل .NET، اتبع هذه الخطوات:  
+للبدء في استخدام Aspose.Words لـ .NET، اتبع الخطوات التالية:  
 
-1. تنزيل المكتبة: تنزيل أحدث إصدار من Aspose.Words لـ .NET من [الصفحة الرسمية للتنزيل](https://releases.aspose.com/words/net/). . .  
-2. إثباط عبر NuGet:  
-   * افتح مشروعك في (بيزوال ستوديو)  
-   * إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
-   * البحث عن`"تحدثوا. الكلمات"`ثم انقر فوق " إرسال "  
-3. التقدم بطلب للحصول على رخصة من الـ[صفحة شراء](https://purchase.aspose.com/buy)أو استخدام[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)لأغراض التقييم.  
-4. إضافة مساحة الأسماء: إضافة `"تحدثوا. الكلمات"`مساحة الأسماء في رمزك:  
+1. تنزيل المكتبة: قم بتنزيل أحدث إصدار من Aspose.Words لـ .NET من [صفحة التنزيل الرسمية](https://releases.aspose.com/words/net/).  
+2. التثبيت عبر NuGet:  
+   - افتح مشروعك في Visual Studio.  
+   - انتقل إلى الأدوات > مدير حزم NuGet > إدارة حزم NuGet للحل.  
+   - بحث عن `Aspose.Words` وانقر على تثبيت.  
+3. التقدم بطلب الترخيص: الحصول على ترخيص من [صفحة شراء Aspose](https://purchase.aspose.com/buy) أو استخدم [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.  
+4. إضافة مساحة الاسم: أضف `Aspose.Words` مساحة الاسم في الكود الخاص بك:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    using System.Drawing;
    ```  
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

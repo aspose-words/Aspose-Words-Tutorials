@@ -1,14 +1,16 @@
 ---
-title: Atur Warna Kontrol Konten
-linktitle: Atur Warna Kontrol Konten
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Atur warna Tag Dokumen Terstruktur di Word dengan mudah menggunakan Aspose.Words untuk .NET. Sesuaikan SDT Anda untuk meningkatkan tampilan dokumen dengan panduan sederhana ini.
-weight: 10
-url: /id/net/programming-with-sdt/set-content-control-color/
+"description": "Atur warna Tag Dokumen Terstruktur di Word dengan mudah menggunakan Aspose.Words untuk .NET. Sesuaikan SDT Anda untuk meningkatkan tampilan dokumen dengan panduan sederhana ini."
+"linktitle": "Atur Warna Kontrol Konten"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Warna Kontrol Konten"
+"url": "/id/net/programming-with-sdt/set-content-control-color/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Warna Kontrol Konten
@@ -20,7 +22,7 @@ Jika Anda bekerja dengan dokumen Word dan perlu menyesuaikan tampilan Structured
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
--  Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal pustaka ini. Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 - Pemahaman dasar tentang C#: Tutorial ini mengasumsikan Anda familier dengan konsep dasar pemrograman C#.
 - Dokumen Word: Anda harus memiliki dokumen Word yang berisi setidaknya satu Tag Dokumen Terstruktur.
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen
 
- Membuat sebuah`Document` objek dengan memuat file Word Anda:
+Membuat sebuah `Document` objek dengan memuat file Word Anda:
 
 ```csharp
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -83,7 +85,7 @@ Mengubah warna Tag Dokumen Terstruktur dalam dokumen Word menggunakan Aspose.Wor
 
 ### Bisakah saya menggunakan warna yang berbeda untuk SDT?
 
- Ya, Anda dapat menggunakan warna apa pun yang tersedia di`System.Drawing.Color` kelas. Misalnya, Anda dapat menggunakan`Color.Blue`, `Color.Green`, dll.
+Ya, Anda dapat menggunakan warna apa pun yang tersedia di `System.Drawing.Color` kelas. Misalnya, Anda dapat menggunakan `Color.Blue`Bahasa Indonesia: `Color.Green`, dll.
 
 ### Bagaimana cara mengubah warna beberapa SDT dalam satu dokumen?
 
@@ -91,7 +93,7 @@ Anda perlu mengulang semua SDT dalam dokumen dan menerapkan perubahan warna pada
 
 ### Apakah mungkin untuk mengatur properti SDT lainnya selain warna?
 
- Ya, itu`StructuredDocumentTag` class memiliki berbagai properti yang dapat Anda atur, termasuk ukuran font, gaya font, dan banyak lagi. Lihat dokumentasi Aspose.Words untuk detail lebih lanjut.
+Ya, itu `StructuredDocumentTag` class memiliki berbagai properti yang dapat Anda atur, termasuk ukuran font, gaya font, dan banyak lagi. Lihat dokumentasi Aspose.Words untuk detail lebih lanjut.
 
 ### Bisakah saya menambahkan acara ke SDT, seperti acara klik?
 
@@ -99,10 +101,15 @@ Aspose.Words tidak secara langsung mendukung penanganan peristiwa untuk SDT. Nam
 
 ### Apakah mungkin untuk menghapus SDT dari dokumen?
 
- Ya, Anda dapat menghapus SDT dengan menelepon`Remove()` metode pada node induk SDT.
+Ya, Anda dapat menghapus SDT dengan menelepon `Remove()` metode pada node induk SDT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

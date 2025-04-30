@@ -1,14 +1,16 @@
 ---
-title: Tentukan Pemformatan Bersyarat
-linktitle: Tentukan Pemformatan Bersyarat
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menentukan format bersyarat dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan daya tarik visual dan keterbacaan dokumen Anda dengan panduan kami.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/define-conditional-formatting/
+"description": "Pelajari cara menentukan format bersyarat dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan daya tarik visual dan keterbacaan dokumen Anda dengan panduan kami."
+"linktitle": "Tentukan Pemformatan Bersyarat"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tentukan Pemformatan Bersyarat"
+"url": "/id/net/programming-with-table-styles-and-formatting/define-conditional-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Pemformatan Bersyarat
@@ -21,7 +23,7 @@ Pemformatan bersyarat memungkinkan Anda menerapkan pemformatan tertentu ke sel d
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda memerlukan pustaka Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang cocok seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan sangat membantu.
 4. Dokumen Word: Dokumen Word tempat Anda ingin menerapkan pemformatan bersyarat.
@@ -44,7 +46,7 @@ Mari kita uraikan proses ini menjadi beberapa langkah agar lebih mudah diikuti.
 Pertama, tentukan jalur ke direktori dokumen Anda. Di sinilah dokumen Word Anda akan disimpan.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -72,7 +74,7 @@ builder.EndRow();
 
 ## Langkah 4: Tambahkan Lebih Banyak Baris
 
-Masukkan baris tambahan ke dalam tabel Anda. Untuk mempermudah, kita akan menambahkan satu baris lagi dengan sel kosong.
+Masukkan baris tambahan ke dalam tabel Anda. Untuk menyederhanakannya, kita akan menambahkan satu baris lagi dengan sel kosong.
 
 ```csharp
 builder.InsertCell();
@@ -126,9 +128,14 @@ Sementara tutorial ini berfokus pada tabel, Aspose.Words untuk .NET menawarkan o
 
 ### Bisakah saya mengotomatiskan pemformatan bersyarat untuk dokumen besar?
 Ya, Anda dapat mengotomatiskan proses menggunakan loop dan kondisi dalam kode Anda, membuatnya efisien untuk dokumen besar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

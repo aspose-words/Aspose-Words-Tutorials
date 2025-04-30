@@ -6,8 +6,11 @@ description: Learn to create a Word document with a table featuring various bord
 keywords: [Aspose.Words, .NET, Word document, table borders, cell shading, document manipulation, programming example]
 url: /net/working-with-table-styles-and-formatting/format-table-and-cell/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Document with Custom Table Borders and Shading
@@ -15,9 +18,12 @@ url: /net/working-with-table-styles-and-formatting/format-table-and-cell/
 This example demonstrates how to utilize Aspose.Words for .NET to create a Word document that includes a table with customized border and shading styles for its cells. You'll learn to initialize a document, set table borders, apply background colors to individual cells, and save the document in the DOCX format.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/format-table-and-cell" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Download Aspose.Words for .NET: Visit the [Aspose website](https://www.aspose.com) and download the latest version of Aspose.Words for .NET.
@@ -39,8 +45,12 @@ This example demonstrates how to utilize Aspose.Words for .NET to create a Word 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

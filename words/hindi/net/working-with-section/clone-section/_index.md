@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में अनुभाग क्लोन करें
-linktitle: वर्ड में क्लोन सेक्शन
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभागों को क्लोन करना सीखें। यह मार्गदर्शिका कुशल दस्तावेज़ हेरफेर के लिए चरण-दर-चरण निर्देशों को शामिल करती है।
-weight: 10
-url: /hi/net/working-with-section/clone-section/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अनुभागों को क्लोन करना सीखें। यह मार्गदर्शिका कुशल दस्तावेज़ हेरफेर के लिए चरण-दर-चरण निर्देशों को शामिल करती है।"
+"linktitle": "वर्ड में क्लोन सेक्शन"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में अनुभाग क्लोन करें"
+"url": "/hi/net/working-with-section/clone-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में अनुभाग क्लोन करें
@@ -22,7 +24,7 @@ url: /hi/net/working-with-section/clone-section/
 
 इससे पहले कि हम कोड के साथ अपना हाथ गंदा करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण प्राप्त करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण प्राप्त करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: एक .NET-संगत IDE जैसे कि Visual Studio.
 3. C# का बुनियादी ज्ञान: C# की बुनियादी बातों को जानने से आपको इसे आसानी से समझने में मदद मिलेगी।
 4. एक नमूना वर्ड दस्तावेज़: हम क्लोनिंग प्रक्रिया को प्रदर्शित करने के लिए एक नमूना दस्तावेज़ का उपयोग करेंगे।
@@ -46,7 +48,7 @@ using Aspose.Words;
 नया दस्तावेज़ आरंभ करने का तरीका इस प्रकार है:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ doc.Sections.Add(cloneSection);
 doc.Save(dataDir + "ClonedDocument.docx");
 ```
 
- प्रतिस्थापित करें`"dataDir + "ClonedDocument.docx"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। कोड की यह पंक्ति आपकी वर्ड फ़ाइल को क्लोन किए गए अनुभाग के साथ सहेज लेगी।
+प्रतिस्थापित करें `"dataDir + "ClonedDocument.docx"` वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं। कोड की यह पंक्ति आपकी वर्ड फ़ाइल को क्लोन किए गए अनुभाग के साथ सहेज लेगी।
 
 ## चरण-दर-चरण मार्गदर्शिका
 
@@ -103,7 +105,7 @@ doc.Save(dataDir + "ClonedDocument.docx");
 
 कोड में गोता लगाने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है और एक नमूना Word दस्तावेज़ तैयार है।
 
-1.  Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें [यहाँ](https://releases.aspose.com/words/net/).
 2. अपना प्रोजेक्ट सेट करें: Visual Studio खोलें और एक नया .NET प्रोजेक्ट बनाएं।
 3. Aspose.Words संदर्भ जोड़ें: अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी शामिल करें।
 
@@ -112,7 +114,7 @@ doc.Save(dataDir + "ClonedDocument.docx");
 वह दस्तावेज़ लोड करें जिसमें आप बदलाव करना चाहते हैं। यह दस्तावेज़ हमारे संचालन के लिए आधार का काम करेगा।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -158,7 +160,7 @@ doc.Save(dataDir + "ClonedDocument.docx");
 
 ### मैं क्लोन किए गए अनुभाग को कैसे अनुकूलित करूं?
 
- आप क्लोनिंग के बाद इसके गुणों और सामग्री को संशोधित करके क्लोन किए गए अनुभाग को अनुकूलित कर सकते हैं।`Section` क्लास के तरीकों और गुणों में परिवर्तन करें।
+आप क्लोनिंग के बाद इसके गुणों और सामग्री को संशोधित करके क्लोन किए गए अनुभाग को अनुकूलित कर सकते हैं। `Section` परिवर्तन करने के लिए क्लास विधियों और गुणों का उपयोग करें।
 
 ### क्या Aspose.Words Word के विभिन्न संस्करणों के साथ संगत है?
 
@@ -166,10 +168,15 @@ doc.Save(dataDir + "ClonedDocument.docx");
 
 ### मैं Aspose.Words पर और अधिक संसाधन कहां पा सकता हूं?
 
- अधिक जानकारी के लिए आप यहां जा सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या[सहयता मंच](https://forum.aspose.com/c/words/8) सहायता और चर्चा के लिए.
+अधिक जानकारी के लिए आप यहां जा सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या [सहयता मंच](https://forum.aspose.com/c/words/8) सहायता और चर्चा के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

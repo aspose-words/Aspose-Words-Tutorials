@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-manipulation/helper-methods-for-extracting-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Helper Methods for Extracting Content in Aspose.Words for Java
@@ -170,9 +173,13 @@ Yes, you can customize the formatting of the extracted content by modifying the 
 
 You can find comprehensive documentation and examples for Aspose.Words for Java on the Aspose website. Visit [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) for detailed documentation and resources.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

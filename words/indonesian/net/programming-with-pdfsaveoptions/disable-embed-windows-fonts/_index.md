@@ -1,14 +1,16 @@
 ---
-title: Kurangi Ukuran PDF dengan Menonaktifkan Font yang Disematkan
-linktitle: Kurangi Ukuran PDF dengan Menonaktifkan Font yang Disematkan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kurangi ukuran PDF dengan menonaktifkan font yang tertanam menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan dokumen Anda agar dapat disimpan dan dibagikan secara efisien.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Kurangi ukuran PDF dengan menonaktifkan font yang tertanam menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan dokumen Anda agar dapat disimpan dan dibagikan secara efisien."
+"linktitle": "Kurangi Ukuran PDF dengan Menonaktifkan Font yang Disematkan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kurangi Ukuran PDF dengan Menonaktifkan Font yang Disematkan"
+"url": "/id/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kurangi Ukuran PDF dengan Menonaktifkan Font yang Disematkan
@@ -21,7 +23,7 @@ Mengurangi ukuran file PDF dapat menjadi hal yang penting untuk penyimpanan yang
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal dari[Tautan unduhan](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal dari [Tautan unduhan](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan .NET: Visual Studio adalah pilihan yang populer.
 - Contoh Dokumen Word: Siapkan file DOCX yang ingin Anda ubah ke PDF.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Di Sini,`dataDir` adalah tempat penampung untuk direktori tempat dokumen Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
+Di Sini, `dataDir` adalah tempat penampung untuk direktori tempat dokumen Anda berada. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Dengan pengaturan`FontEmbeddingMode` ke`EmbedNone`, kami menginstruksikan Aspose.Words untuk tidak menyertakan font ini dalam PDF, sehingga mengurangi ukuran file.
+Dengan pengaturan `FontEmbeddingMode` ke `EmbedNone`, kami menginstruksikan Aspose.Words untuk tidak menyertakan font ini dalam PDF, sehingga mengurangi ukuran file.
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
@@ -70,7 +72,7 @@ Terakhir, kami menyimpan dokumen sebagai PDF menggunakan opsi penyimpanan yang d
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori Anda yang sebenarnya sekali lagi. PDF keluaran sekarang akan disimpan di direktori yang ditentukan tanpa font standar yang disematkan.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur direktori Anda yang sebenarnya sekali lagi. PDF keluaran sekarang akan disimpan di direktori yang ditentukan tanpa font standar yang disematkan.
 
 ## Kesimpulan
 
@@ -84,18 +86,23 @@ Menonaktifkan font yang tertanam dapat mengurangi ukuran file PDF secara signifi
 ### Apakah PDF akan tetap ditampilkan dengan benar tanpa font yang tertanam?
 Ya, selama fontnya standar dan tersedia pada sistem tempat PDF dilihat, PDF akan ditampilkan dengan benar.
 
-### Bisakah saya menanamkan font tertentu saja secara selektif dalam PDF?
+### Bisakah saya secara selektif menanamkan hanya font tertentu dalam PDF?
 Ya, Aspose.Words untuk .NET memungkinkan Anda menyesuaikan font mana yang disematkan, memberikan fleksibilitas dalam cara Anda mengurangi ukuran file.
 
 ### Apakah saya perlu Aspose.Words untuk .NET untuk menonaktifkan font yang tertanam dalam PDF?
 Ya, Aspose.Words untuk .NET menyediakan fungsionalitas yang dibutuhkan untuk mengonfigurasi opsi penyematan font dalam PDF.
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengunjungi[Forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah yang Anda hadapi.
+Anda dapat mengunjungi [Forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan terkait masalah yang Anda hadapi.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

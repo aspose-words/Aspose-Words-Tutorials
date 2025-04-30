@@ -1,14 +1,16 @@
 ---
-title: Kod wbudowany
-linktitle: Kod wbudowany
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak stosować style kodu inline w dokumentach Worda przy użyciu Aspose.Words dla .NET. Ten samouczek obejmuje pojedyncze i wielokrotne znaki odwrotnego apostrofu do formatowania kodu.
-weight: 10
-url: /pl/net/working-with-markdown/inline-code/
+"description": "Dowiedz się, jak stosować style kodu inline w dokumentach Worda przy użyciu Aspose.Words dla .NET. Ten samouczek obejmuje pojedyncze i wielokrotne znaki odwrotnego apostrofu do formatowania kodu."
+"linktitle": "Kod wbudowany"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Kod wbudowany"
+"url": "/pl/net/working-with-markdown/inline-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kod wbudowany
@@ -21,7 +23,7 @@ Jeśli pracujesz nad generowaniem lub manipulowaniem dokumentami Word programowo
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla biblioteki .NET: Upewnij się, że Aspose.Words jest zainstalowany w środowisku .NET. Możesz go pobrać ze strony[Strona wydań Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Upewnij się, że Aspose.Words jest zainstalowany w środowisku .NET. Możesz go pobrać ze strony [Strona wydań Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
 
 2. Podstawowa wiedza na temat programowania w środowisku .NET: W tym przewodniku założono, że posiadasz podstawową wiedzę na temat programowania w języku C# i środowisku .NET.
 
@@ -29,7 +31,7 @@ Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 ## Importuj przestrzenie nazw
 
-Aby rozpocząć używanie Aspose.Words w swoim projekcie, musisz zaimportować niezbędne przestrzenie nazw. Oto, jak to zrobić:
+Aby zacząć używać Aspose.Words w swoim projekcie, musisz zaimportować niezbędne przestrzenie nazw. Oto, jak to zrobić:
 
 ```csharp
 using Aspose.Words;
@@ -40,7 +42,7 @@ Podzielmy ten proces na jasne kroki:
 
 ## Krok 1: Zainicjuj dokument i DocumentBuilder
 
- Najpierw musisz utworzyć nowy dokument i`DocumentBuilder` instancja.`DocumentBuilder`Klasa ta pomaga dodawać treść i formatować ją w dokumencie Word.
+Najpierw musisz utworzyć nowy dokument i `DocumentBuilder` instancja. `DocumentBuilder` Klasa ta pomaga dodawać treść i formatować ją w dokumencie Word.
 
 ```csharp
 // Zainicjuj DocumentBuilder przy użyciu nowego dokumentu.
@@ -83,7 +85,7 @@ Następnie zdefiniujemy styl kodu inline z trzema znakami odwrotnego apostrofu, 
 Style inlineCode3BackTicks = builder.Document.Styles.Add(StyleType.Character, "InlineCode.3");
 inlineCode3BackTicks.Font.Name = "Courier New"; // Spójna czcionka dla kodu.
 inlineCode3BackTicks.Font.Size = 10.5; // Rozmiar czcionki dla bloku kodu.
-inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; //Różne kolory dla lepszej widoczności.
+inlineCode3BackTicks.Font.Color = System.Drawing.Color.Green; // Różne kolory dla lepszej widoczności.
 inlineCode3BackTicks.Font.Bold = true; // Użyj pogrubienia dla podkreślenia.
 ```
 
@@ -109,19 +111,24 @@ Możesz swobodnie eksperymentować z różnymi stylami i opcjami formatowania, a
 Tak, możesz użyć dowolnej czcionki, która odpowiada Twoim potrzebom. Czcionki takie jak „Courier New” są zazwyczaj używane do kodu ze względu na ich monospacedową naturę.
 
 ### Jak zmienić kolor tekstu kodu inline?
- Możesz zmienić kolor, ustawiając`Font.Color` właściwość stylu do dowolnego`System.Drawing.Color`.
+Możesz zmienić kolor, ustawiając `Font.Color` właściwość stylu do dowolnego `System.Drawing.Color`.
 
 ### Czy mogę zastosować wiele stylów do tego samego tekstu?
-W Aspose.Words możesz zastosować tylko jeden styl na raz. Jeśli musisz połączyć style, rozważ utworzenie nowego stylu, który zawiera wszystkie pożądane formatowania.
+Aspose.Words możesz zastosować tylko jeden styl na raz. Jeśli musisz połączyć style, rozważ utworzenie nowego stylu, który zawiera wszystkie pożądane formatowania.
 
 ### Jak zastosować style do istniejącego tekstu w dokumencie?
- Aby zastosować style do istniejącego tekstu, należy najpierw zaznaczyć tekst, a następnie zastosować żądany styl za pomocą`Font.Style` nieruchomość.
+Aby zastosować style do istniejącego tekstu, należy najpierw zaznaczyć tekst, a następnie zastosować żądany styl za pomocą `Font.Style` nieruchomość.
 
 ### Czy mogę używać Aspose.Words w innych formatach dokumentów?
 Aspose.Words jest zaprojektowany specjalnie dla dokumentów Word. W przypadku innych formatów może być konieczne użycie innych bibliotek lub przekonwertowanie dokumentów do zgodnego formatu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hợp nhất tài liệu với DocumentBuilder
-linktitle: Hợp nhất tài liệu với DocumentBuilder
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách thao tác các tài liệu Word với Aspose.Words for Java. Tạo, chỉnh sửa, hợp nhất và chuyển đổi tài liệu theo chương trình trong Java.
-weight: 13
-url: /vi/java/document-merging/merging-documents-documentbuilder/
+"description": "Tìm hiểu cách thao tác các tài liệu Word với Aspose.Words cho Java. Tạo, chỉnh sửa, hợp nhất và chuyển đổi tài liệu theo chương trình trong Java."
+"linktitle": "Hợp nhất tài liệu với DocumentBuilder"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Hợp nhất tài liệu với DocumentBuilder"
+"url": "/vi/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hợp nhất tài liệu với DocumentBuilder
@@ -16,7 +18,7 @@ url: /vi/java/document-merging/merging-documents-documentbuilder/
 
 ## Giới thiệu về việc hợp nhất tài liệu với DocumentBuilder
 
-Trong thế giới xử lý tài liệu, Aspose.Words for Java là một công cụ mạnh mẽ để thao tác và quản lý tài liệu. Một trong những tính năng chính của nó là khả năng hợp nhất tài liệu một cách liền mạch bằng DocumentBuilder. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện điều này bằng các ví dụ mã, đảm bảo rằng bạn có thể khai thác khả năng này để nâng cao quy trình quản lý tài liệu của mình.
+Trong thế giới xử lý tài liệu, Aspose.Words for Java là một công cụ mạnh mẽ để thao tác và quản lý tài liệu. Một trong những tính năng chính của nó là khả năng hợp nhất tài liệu liền mạch bằng DocumentBuilder. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện điều này bằng các ví dụ mã, đảm bảo rằng bạn có thể khai thác khả năng này để nâng cao quy trình quản lý tài liệu của mình.
 
 ## Điều kiện tiên quyết
 
@@ -28,7 +30,7 @@ Trước khi bắt đầu quá trình hợp nhất tài liệu, hãy đảm bả
 
 ## Bắt đầu
 
- Hãy bắt đầu bằng cách tạo một dự án Java mới và thêm thư viện Aspose.Words vào đó. Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/).
+Hãy bắt đầu bằng cách tạo một dự án Java mới và thêm thư viện Aspose.Words vào đó. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/).
 
 ## Tạo một tài liệu mới
 
@@ -99,10 +101,15 @@ Có, Aspose.Words hỗ trợ nhiều định dạng tài liệu khác nhau, bao 
 
 ### Tôi có thể tìm thêm tài liệu và nguồn tài nguyên ở đâu?
 
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web Aspose:[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web Aspose: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

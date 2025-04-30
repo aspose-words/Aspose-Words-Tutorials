@@ -1,14 +1,16 @@
 ---
-title: Kode Pagar
-linktitle: Kode Pagar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan kode berpagar dan string info ke dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan. Tingkatkan keterampilan pemformatan dokumen Anda.
-weight: 10
-url: /id/net/working-with-markdown/fenced-code/
+"description": "Pelajari cara menambahkan kode rahasia dan string info ke dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan. Tingkatkan keterampilan pemformatan dokumen Anda."
+"linktitle": "Kode Pagar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kode Pagar"
+"url": "/id/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kode Pagar
@@ -22,12 +24,12 @@ Hai, rekan pembuat kode! Hari ini, kita akan menyelami dunia Aspose.Words untuk 
 Sebelum kita masuk ke tutorial, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 - Pengetahuan dasar C#: Pemahaman umum tentang C# akan membantu Anda memahami konsep dengan cepat.
--  Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, unduhlah[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum memilikinya, unduhlah [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE C# lain yang Anda sukai.
 
 ## Mengimpor Ruang Nama
 
-Pertama-tama, Anda perlu mengimpor namespace yang diperlukan. Ini seperti mengumpulkan semua peralatan Anda sebelum memulai sebuah proyek.
+Pertama-tama, Anda perlu mengimpor namespace yang diperlukan. Ini seperti mengumpulkan semua peralatan sebelum memulai proyek.
 
 ```csharp
 using Aspose.Words;
@@ -97,7 +99,7 @@ builder.Writeln("This is a fenced code block with info string - C#");
 
 ## Kesimpulan
 
-Selamat! Anda baru saja menambahkan blok kode berpagar dan kode berpagar dengan string info ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Ini hanyalah puncak gunung es. Dengan Aspose.Words, Anda dapat mengotomatiskan dan meningkatkan pemrosesan dokumen Anda ke tingkat yang lebih tinggi. Teruslah menjelajah dan selamat membuat kode!
+Selamat! Anda baru saja menambahkan blok kode berpagar dan kode berpagar dengan string info ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Ini baru permulaan. Dengan Aspose.Words, Anda dapat mengotomatiskan dan menyempurnakan pemrosesan dokumen Anda ke tingkat yang lebih tinggi. Teruslah menjelajah dan selamat membuat kode!
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -108,16 +110,21 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 Aspose.Words terutama mendukung bahasa .NET, tetapi ada versi yang tersedia untuk Java, Python, dan bahasa lainnya.
 
 ### Apakah Aspose.Words gratis untuk digunakan?
- Aspose.Words adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/)untuk menjelajahi fitur-fiturnya.
+Aspose.Words adalah produk komersial, tetapi Anda dapat mengunduh uji coba gratis [Di Sini](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya.
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan dari komunitas dan pengembang Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas dan pengembang Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Fitur apa lagi yang ditawarkan Aspose.Words?
 Aspose.Words menawarkan berbagai fitur termasuk konversi dokumen, pembuatan dokumen berbasis templat, pelaporan, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

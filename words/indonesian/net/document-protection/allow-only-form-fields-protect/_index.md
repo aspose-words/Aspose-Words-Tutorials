@@ -1,14 +1,16 @@
 ---
-title: Izinkan Hanya Bidang Formulir yang Dilindungi di Dokumen Word
-linktitle: Izinkan Hanya Bidang Formulir yang Dilindungi di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara melindungi dokumen Word, dengan hanya mengizinkan kolom formulir untuk diedit menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk memastikan dokumen Anda aman dan mudah diedit.
-weight: 10
-url: /id/net/document-protection/allow-only-form-fields-protect/
+"description": "Pelajari cara melindungi dokumen Word, dengan hanya mengizinkan kolom formulir untuk diedit menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk memastikan dokumen Anda aman dan mudah diedit."
+"linktitle": "Izinkan Hanya Bidang Formulir yang Dilindungi di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Izinkan Hanya Bidang Formulir yang Dilindungi di Dokumen Word"
+"url": "/id/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Izinkan Hanya Bidang Formulir yang Dilindungi di Dokumen Word
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda perlu melindungi bagian tertentu dari dokumen Word sambil me
 
 Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Versi terbaru apa pun akan berfungsi dengan baik.
 3. Pengetahuan Dasar C#: Memahami dasar-dasar akan membantu Anda mengikuti tutorial.
 
@@ -41,8 +43,8 @@ Buka Visual Studio dan buat proyek Aplikasi Konsol (.NET Core) baru. Beri nama y
 
 ## Langkah 2: Instal Aspose.Words untuk .NET
 
-Instal melalui Manajer Paket NuGet  
-Klik kanan pada proyek Anda di Solution Explorer, pilih "Kelola Paket NuGet", dan cari`Aspose.Words`Instal itu.
+Instal melalui Pengelola Paket NuGet  
+Klik kanan pada proyek Anda di Solution Explorer, pilih "Kelola Paket NuGet", dan cari `Aspose.Words`Instal itu.
 
 ## Langkah 3: Inisialisasi Dokumen
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Di sini, kita membuat yang baru`Document` Dan`DocumentBuilder` contoh.`DocumentBuilder` memungkinkan kita menambahkan teks ke dokumen kita.
+Di sini, kita membuat yang baru `Document` Dan `DocumentBuilder` contoh. `DocumentBuilder` memungkinkan kita menambahkan teks ke dokumen kita.
 
 ## Langkah 4: Lindungi Dokumen
 
@@ -92,10 +94,10 @@ Nah, itu dia! Anda baru saja mempelajari cara melindungi dokumen Word sehingga h
 ## Pertanyaan yang Sering Diajukan
 
 ###	 Bagaimana cara menghapus proteksi dari sebuah dokumen?  
- Untuk menghapus perlindungan, gunakan`doc.Unprotect("password")` metode, di mana "password" adalah kata sandi yang digunakan untuk melindungi dokumen.
+Untuk menghapus perlindungan, gunakan `doc.Unprotect("password")` metode, di mana "password" adalah kata sandi yang digunakan untuk melindungi dokumen.
 
 ###	 Dapatkah saya menerapkan jenis perlindungan yang berbeda menggunakan Aspose.Words untuk .NET?  
- Ya, Aspose.Words mendukung berbagai jenis perlindungan seperti`ReadOnly`, `NoProtection` , Dan`AllowOnlyRevisions`.
+Ya, Aspose.Words mendukung berbagai jenis perlindungan seperti `ReadOnly`Bahasa Indonesia: `NoProtection`, Dan `AllowOnlyRevisions`.
 
 ###	 Apakah mungkin untuk menggunakan kata sandi yang berbeda untuk bagian yang berbeda?  
 Tidak, perlindungan tingkat dokumen di Aspose.Words berlaku untuk seluruh dokumen. Anda tidak dapat menetapkan kata sandi yang berbeda untuk bagian yang berbeda.
@@ -104,11 +106,16 @@ Tidak, perlindungan tingkat dokumen di Aspose.Words berlaku untuk seluruh dokume
 Jika kata sandi yang digunakan salah, dokumen akan tetap terlindungi, dan perubahan yang ditentukan tidak akan diterapkan.
 
 ###	 Dapatkah saya memeriksa secara terprogram apakah suatu dokumen dilindungi?  
- Ya, Anda bisa menggunakan`doc.ProtectionType` properti untuk memeriksa status perlindungan suatu dokumen.
+Ya, Anda bisa menggunakan `doc.ProtectionType` properti untuk memeriksa status perlindungan suatu dokumen.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

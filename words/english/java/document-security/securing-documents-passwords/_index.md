@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-security/securing-documents-passwords/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Securing Documents with Passwords
@@ -93,9 +96,13 @@ Securing your documents with passwords is a fundamental step in data protection.
 
 Keep your data safe with Aspose.Words for Java, and empower your document security today.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

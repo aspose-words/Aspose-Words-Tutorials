@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/use-warning-source/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Warning Source
@@ -113,9 +116,13 @@ Yes, you can customize warning handling by implementing the `IWarningCallback` i
 ### How do I save a document in different formats using Aspose.Words?
 You can save a document in various formats (like DOCX, PDF, Markdown) using the `Save` method of the `Document` class, specifying the desired format as a parameter.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

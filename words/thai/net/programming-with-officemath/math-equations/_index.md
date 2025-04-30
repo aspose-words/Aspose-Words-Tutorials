@@ -1,14 +1,16 @@
 ---
-title: สมการคณิตศาสตร์
-linktitle: สมการคณิตศาสตร์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการกำหนดค่าสมการทางคณิตศาสตร์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง คำถามที่พบบ่อย และอื่นๆ
-weight: 10
-url: /th/net/programming-with-officemath/math-equations/
+"description": "เรียนรู้วิธีการกำหนดค่าสมการทางคณิตศาสตร์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง คำถามที่พบบ่อย และอื่นๆ"
+"linktitle": "สมการคณิตศาสตร์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สมการคณิตศาสตร์"
+"url": "/th/net/programming-with-officemath/math-equations/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สมการคณิตศาสตร์
@@ -21,7 +23,7 @@ url: /th/net/programming-with-officemath/math-equations/
 
 ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการปฏิบัติตามบทช่วยสอนนี้แล้ว:
 
-1.  Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่มี คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่มี คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: Visual Studio ทุกเวอร์ชันสามารถใช้งานได้ แต่ต้องแน่ใจว่าติดตั้งแล้วและพร้อมใช้งาน
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คุณควรคุ้นเคยกับการเขียนโปรแกรม C# ขั้นพื้นฐาน ไม่ต้องกังวล เราจะทำให้ทุกอย่างเรียบง่าย!
 4. เอกสาร Word: มีเอกสาร Word ที่มีสมการทางคณิตศาสตร์ เราจะใช้สมการเหล่านี้ในตัวอย่างของเรา
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Office math.docx");
 ```
 
- ที่นี่แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ`Document` คลาสจาก Aspose.Words โหลดเอกสาร Word ทำให้พร้อมสำหรับการประมวลผลเพิ่มเติม
+ที่นี่แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ `Document` คลาสจาก Aspose.Words โหลดเอกสาร Word ทำให้พร้อมสำหรับการประมวลผลเพิ่มเติม
 
 ## ขั้นตอนที่ 2: รับองค์ประกอบ OfficeMath
 
@@ -60,11 +62,11 @@ Document doc = new Document(dataDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 ```
 
- ในขั้นตอนนี้เราจะใช้`GetChild`วิธีการดึงองค์ประกอบ OfficeMath แรกจากเอกสาร พารามิเตอร์`NodeType.OfficeMath, 0, true` ระบุว่าเรากำลังมองหาการเกิดขึ้นครั้งแรกของโหนด OfficeMath
+ในขั้นตอนนี้เราจะใช้ `GetChild` วิธีการดึงองค์ประกอบ OfficeMath แรกจากเอกสาร พารามิเตอร์ `NodeType.OfficeMath, 0, true` ระบุว่าเรากำลังมองหาการเกิดขึ้นครั้งแรกของโหนด OfficeMath
 
 ## ขั้นตอนที่ 3: กำหนดค่าคุณสมบัติของสมการทางคณิตศาสตร์
 
-ตอนนี้มาถึงส่วนที่สนุกแล้ว นั่นคือการกำหนดค่าคุณสมบัติของสมการทางคณิตศาสตร์ เราสามารถปรับแต่งวิธีการแสดงและจัดแนวสมการภายในเอกสารได้
+ตอนนี้มาถึงส่วนที่สนุกแล้ว นั่นคือการกำหนดค่าคุณสมบัติของสมการทางคณิตศาสตร์ เราสามารถปรับแต่งวิธีการแสดงและจัดตำแหน่งสมการภายในเอกสารได้
 
 ```csharp
 // กำหนดค่าคุณสมบัติของสมการคณิตศาสตร์
@@ -72,7 +74,7 @@ officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 ```
 
- ที่นี่เราจะตั้งค่า`DisplayType`ทรัพย์สินที่จะ`Display` ซึ่งช่วยให้มั่นใจว่าสมการจะแสดงบนบรรทัดของตัวเอง ทำให้อ่านได้ง่ายขึ้น`Justification` ทรัพย์สินถูกตั้งค่าเป็น`Left`, จัดตำแหน่งสมการไปทางด้านซ้ายของหน้า
+ที่นี่เราจะตั้งค่า `DisplayType` ทรัพย์สินที่จะ `Display`ซึ่งช่วยให้มั่นใจว่าสมการจะแสดงบนบรรทัดของตัวเอง ทำให้อ่านง่ายขึ้น `Justification` ทรัพย์สินถูกตั้งค่าเป็น `Left`, จัดตำแหน่งสมการไปทางด้านซ้ายของหน้า
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารด้วยสมการทางคณิตศาสตร์
 
@@ -83,7 +85,7 @@ officeMath.Justification = OfficeMathJustification.Left;
 doc.Save(dataDir + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
- แทนที่`"WorkingWithOfficeMath.MathEquations.docx"`ด้วยชื่อไฟล์ที่คุณต้องการ บรรทัดโค้ดนี้จะบันทึกเอกสาร และเสร็จเรียบร้อย!
+แทนที่ `"WorkingWithOfficeMath.MathEquations.docx"` ด้วยชื่อไฟล์ที่คุณต้องการ บรรทัดโค้ดนี้จะบันทึกเอกสาร และเสร็จเรียบร้อย!
 
 ## บทสรุป
 
@@ -95,19 +97,24 @@ doc.Save(dataDir + "WorkingWithOfficeMath.MathEquations.docx");
 ใช่ Aspose.Words สำหรับ .NET รองรับภาษา .NET เป็นหลัก เช่น C# แต่คุณสามารถใช้กับภาษาอื่นๆ ที่รองรับ .NET เช่น VB.NET ได้
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้โดยไปที่[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หน้าหนังสือ.
+คุณสามารถขอใบอนุญาตชั่วคราวได้โดยไปที่ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หน้าหนังสือ.
 
-### มีวิธีที่จะพิสูจน์สมการทางขวาหรือกึ่งกลางหรือไม่
- ใช่ คุณสามารถตั้งค่าได้`Justification`ทรัพย์สินที่จะ`Right` หรือ`Center` ขึ้นอยู่กับความต้องการของคุณ
+### มีวิธีที่จะพิสูจน์สมการทางขวาหรือตรงกลางหรือไม่
+ใช่ คุณสามารถตั้งค่าได้ `Justification` ทรัพย์สินที่จะ `Right` หรือ `Center` ขึ้นอยู่กับความต้องการของคุณ
 
 ### ฉันสามารถแปลงเอกสาร Word ที่มีสมการเป็นรูปแบบอื่น เช่น PDF ได้หรือไม่
-แน่นอน! Aspose.Words สำหรับ .NET รองรับการแปลงเอกสาร Word เป็นรูปแบบต่างๆ รวมถึง PDF คุณสามารถใช้`Save` วิธีการที่มีรูปแบบที่แตกต่างกัน
+แน่นอน! Aspose.Words สำหรับ .NET รองรับการแปลงเอกสาร Word เป็นรูปแบบต่างๆ รวมถึง PDF คุณสามารถใช้ `Save` วิธีการที่มีรูปแบบที่แตกต่างกัน
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หน้าหนังสือ.
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ที่ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หน้าหนังสือ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

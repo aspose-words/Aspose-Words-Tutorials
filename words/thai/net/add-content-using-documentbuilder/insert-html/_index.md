@@ -1,14 +1,16 @@
 ---
-title: การแทรก HTML ในเอกสาร Word
-linktitle: การแทรก HTML ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรก HTML ลงในเอกสาร Word ได้อย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/add-content-using-documentbuilder/insert-html/
+"description": "เรียนรู้วิธีการแทรก HTML ลงในเอกสาร Word ได้อย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา"
+"linktitle": "การแทรก HTML ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรก HTML ในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/insert-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรก HTML ในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/add-content-using-documentbuilder/insert-html/
 
 ก่อนที่เราจะเจาะลึกคู่มือทีละขั้นตอน เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น นี่คือรายการตรวจสอบอย่างรวดเร็ว:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ให้แน่ใจว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนา เช่น Visual Studio
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework บนเครื่องของคุณแล้ว
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เพียงเล็กน้อยก็จะช่วยได้มาก
@@ -48,11 +50,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: การสร้างเอกสารใหม่
 
- ต่อไปเราจะสร้างอินสแตนซ์ใหม่ของ`Document` คลาสนี้แสดงถึงเอกสาร Word ของเรา
+ต่อไปเราจะสร้างอินสแตนซ์ใหม่ของ `Document` คลาสนี้แสดงถึงเอกสาร Word ของเรา
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +62,7 @@ Document doc = new Document();
 
 ## ขั้นตอนที่ 3: การเริ่มต้น DocumentBuilder
 
- ในการแทรก HTML เราจะต้องได้รับความช่วยเหลือจาก`DocumentBuilder` คลาส คลาสที่มีประโยชน์นี้ทำให้การเพิ่มเนื้อหาลงในเอกสารของเราเป็นเรื่องง่าย
+ในการแทรก HTML เราจะต้องได้รับความช่วยเหลือจาก `DocumentBuilder` คลาส คลาสที่มีประโยชน์นี้ทำให้การเพิ่มเนื้อหาลงในเอกสารของเราเป็นเรื่องง่าย
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -68,7 +70,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 4: การแทรกเนื้อหา HTML
 
- ตอนนี้มาถึงส่วนที่สนุกแล้ว—การเพิ่มเนื้อหา HTML โดยใช้`InsertHtml` วิธีการของ`DocumentBuilder` คลาสนี้เราสามารถฝัง HTML ลงในเอกสาร Word ของเราได้โดยตรง
+ตอนนี้มาถึงส่วนที่สนุกแล้ว—การเพิ่มเนื้อหา HTML โดยใช้ `InsertHtml` วิธีการของ `DocumentBuilder` คลาสนี้เราสามารถฝัง HTML ลงในเอกสาร Word ของเราได้โดยตรง
 
 ```csharp
 builder.InsertHtml(
@@ -78,7 +80,7 @@ builder.InsertHtml(
     "<h1 align='left'>Heading 1 left.</h1>");
 ```
 
-สไนปเป็ตนี้จะแทรกย่อหน้าที่จัดชิดขวา ย่อหน้าตัวหนาที่จัดชิดซ้าย div ที่จัดชิดกลาง และหัวเรื่องที่จัดชิดซ้ายเข้าไปในเอกสาร
+สไนปเป็ตนี้จะแทรกย่อหน้าที่จัดชิดขวา ย่อหน้าตัวหนาที่จัดชิดซ้าย div ที่จัดชิดกลาง และหัวเรื่องที่จัดชิดซ้ายลงในเอกสาร
 
 ## ขั้นตอนที่ 5: การบันทึกเอกสาร
 
@@ -94,7 +96,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
 
 การแทรก HTML ลงในเอกสาร Word ไม่เคยง่ายอย่างนี้มาก่อนใช่ไหม ด้วย Aspose.Words สำหรับ .NET คุณสามารถผสมผสานพลังของ HTML เข้ากับความคล่องตัวของเอกสาร Word ได้อย่างราบรื่น ไม่ว่าคุณจะกำลังสร้างรายงานอัตโนมัติหรือร่างเอกสารที่มีรูปแบบสวยงาม เครื่องมือนี้จะเป็นโซลูชันที่ใช่สำหรับคุณ
 
- หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดอย่าลังเลที่จะตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/), [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) หรือรับตัวคุณเอง[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคศักยภาพทั้งหมดของ Aspose.Words สำหรับ .NET
+หากคุณมีคำถามหรือต้องการความช่วยเหลือเพิ่มเติม โปรดอย่าลังเลที่จะตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/)- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8)หรือรับตัวคุณเอง [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคศักยภาพทั้งหมดของ Aspose.Words สำหรับ .NET
 
 สนุกกับการเขียนโค้ด!
 
@@ -110,13 +112,18 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
 ใช่ เมื่อแทรก HTML แล้ว คุณสามารถจัดการเอกสารเพิ่มเติมได้โดยใช้หลากหลายวิธีที่ Aspose.Words สำหรับ .NET จัดทำไว้
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?  
- คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อคุณสมบัติที่ครบครัน
+คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อคุณสมบัติที่ครบครัน
 
 ### ฉันสามารถหาบทช่วยสอนและตัวอย่างเพิ่มเติมได้ที่ไหน  
- การ[เอกสารประกอบ](https://reference.aspose.com/words/net/) และ[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการเริ่มต้นสำหรับคำแนะนำโดยละเอียดเพิ่มเติมและการสนับสนุนจากชุมชน
+การ [เอกสารประกอบ](https://reference.aspose.com/words/net/) และ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการเริ่มต้นสำหรับคำแนะนำโดยละเอียดเพิ่มเติมและการสนับสนุนจากชุมชน
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

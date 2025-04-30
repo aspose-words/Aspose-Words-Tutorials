@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/smart-style-behavior/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Style Behavior
@@ -138,9 +141,13 @@ This tutorial is specific to Word documents (.docx). For other formats, you migh
 For any issues, visit the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

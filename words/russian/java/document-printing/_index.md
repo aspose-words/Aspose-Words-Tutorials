@@ -1,14 +1,16 @@
 ---
-title: Печать документов
-linktitle: Печать документов
-second_title: API обработки документов Java Aspose.Words
-description: Освойте печать документов с Aspose.Words for Java! Автоматизируйте настройки печати, оптимизируйте производительность и добивайтесь профессиональных результатов без усилий.
-weight: 16
-url: /ru/java/document-printing/
+"description": "Освойте печать документов с Aspose.Words for Java! Автоматизируйте настройки печати, оптимизируйте производительность и добивайтесь профессиональных результатов без усилий."
+"linktitle": "Печать документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Печать документов"
+"url": "/ru/java/document-printing/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Печать документов
@@ -40,9 +42,13 @@ url: /ru/java/document-printing/
 Узнайте, как печатать определенные страницы из документов Word с помощью Aspose.Words для Java. Пошаговое руководство для разработчиков Java.
 ### [Печать документа с помощью PrintDialog](./print-document-printdialog/)
 Узнайте, как печатать документы с помощью Aspose.Words для Java с PrintDialog. Настройте параметры, распечатайте определенные страницы и многое другое в этом пошаговом руководстве.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

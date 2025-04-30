@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Revisions trong Aspose.Words cho Java
-linktitle: Sử dụng bản sửa đổi
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng Aspose.Words cho bản sửa đổi Java hiệu quả. Hướng dẫn từng bước cho nhà phát triển. Tối ưu hóa quản lý tài liệu của bạn.
-weight: 22
-url: /vi/java/using-document-elements/using-revisions/
+"description": "Học cách sử dụng Aspose.Words cho bản sửa đổi Java hiệu quả. Hướng dẫn từng bước cho nhà phát triển. Tối ưu hóa quản lý tài liệu của bạn."
+"linktitle": "Sử dụng bản sửa đổi"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Revisions trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Revisions trong Aspose.Words cho Java
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //là Is.Empty
 // Việc dừng theo dõi bản sửa đổi sẽ khiến văn bản này xuất hiện như văn bản bình thường.
-//Các lần sửa đổi không được tính khi tài liệu có sự thay đổi.
+// Các lần sửa đổi không được tính khi tài liệu có sự thay đổi.
 doc.stopTrackRevisions();
 // Lưu tài liệu.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ Có, bạn có thể sử dụng Aspose.Words for Java để theo dõi các bả
 
 ### 4. Có yêu cầu cấp phép nào khi sử dụng Aspose.Words cho Java không?
 
- Có, bạn sẽ cần phải có giấy phép để sử dụng Aspose.Words cho Java trong các dự án của mình. Bạn có thể[nhận quyền truy cập vào giấy phép ở đây](https://purchase.aspose.com/buy).
+Có, bạn sẽ cần phải có giấy phép để sử dụng Aspose.Words cho Java trong các dự án của mình. Bạn có thể [nhận quyền truy cập vào giấy phép ở đây](https://purchase.aspose.com/buy).
 
 ### 5. Tôi có thể tìm thấy hỗ trợ cho Aspose.Words dành cho Java ở đâu?
 
- Đối với bất kỳ câu hỏi hoặc vấn đề nào, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose.Words cho Java](https://forum.aspose.com/).
+Đối với bất kỳ câu hỏi hoặc vấn đề nào, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose.Words cho Java](https://forum.aspose.com/).
 
 Bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và hợp lý hóa quy trình quản lý tài liệu của bạn.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

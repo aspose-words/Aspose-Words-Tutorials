@@ -1,14 +1,16 @@
 ---
-title: Formatowanie dokumentów w Aspose.Words dla Java
-linktitle: Formatowanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Poznaj sztukę formatowania dokumentów w Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi. Poznaj potężne funkcje i popraw swoje umiejętności przetwarzania dokumentów.
-weight: 29
-url: /pl/java/document-manipulation/formatting-documents/
+"description": "Poznaj sztukę formatowania dokumentów w Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi. Poznaj potężne funkcje i popraw swoje umiejętności przetwarzania dokumentów."
+"linktitle": "Formatowanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Formatowanie dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/formatting-documents/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatowanie dokumentów w Aspose.Words dla Java
@@ -20,7 +22,7 @@ url: /pl/java/document-manipulation/formatting-documents/
 
 ## Konfigurowanie środowiska
 
- Zanim zagłębimy się w zawiłości formatowania dokumentów, kluczowe jest skonfigurowanie środowiska. Upewnij się, że Aspose.Words for Java jest poprawnie zainstalowany i skonfigurowany w Twoim projekcie. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+Zanim zagłębimy się w zawiłości formatowania dokumentów, kluczowe jest skonfigurowanie środowiska. Upewnij się, że Aspose.Words for Java jest poprawnie zainstalowany i skonfigurowany w Twoim projekcie. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Tworzenie prostego dokumentu
 
@@ -165,13 +167,13 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 
 ## Wniosek
 
- W tym artykule zbadaliśmy różne aspekty formatowania dokumentów w Aspose.Words for Java. Uzbrojony w te spostrzeżenia możesz tworzyć pięknie sformatowane dokumenty dla swoich aplikacji Java. Pamiętaj, aby odwołać się do[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) w celu uzyskania bardziej szczegółowych wskazówek.
+W tym artykule zbadaliśmy różne aspekty formatowania dokumentów w Aspose.Words for Java. Uzbrojony w te spostrzeżenia możesz tworzyć pięknie sformatowane dokumenty dla swoich aplikacji Java. Pamiętaj, aby odwołać się do [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) w celu uzyskania bardziej szczegółowych wskazówek.
 
 ## Najczęściej zadawane pytania
 
 ### Jak mogę pobrać Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words dla Javy ze strony[ten link](https://releases.aspose.com/words/java/).
+Możesz pobrać Aspose.Words dla Javy ze strony [ten link](https://releases.aspose.com/words/java/).
 
 ### Czy Aspose.Words for Java nadaje się do tworzenia złożonych dokumentów?
 
@@ -185,12 +187,17 @@ Tak, możesz stosować niestandardowe style do akapitów, nadając swoim dokumen
 
 Tak, Aspose.Words for Java oferuje doskonałą obsługę tworzenia i formatowania list wielopoziomowych w dokumentach.
 
-### Jak mogę zoptymalizować odstępy między akapitami w przypadku tekstu azjatyckiego?
+### Jak mogę zoptymalizować odstępy między akapitami w tekście azjatyckim?
 
 Odstępy między akapitami w tekście azjatyckim można dostosować, zmieniając odpowiednie ustawienia w Aspose.Words for Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

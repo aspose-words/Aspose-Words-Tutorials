@@ -1,14 +1,16 @@
 ---
-title: Pobierz węzeł nadrzędny
-linktitle: Pobierz węzeł nadrzędny
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać węzeł nadrzędny sekcji dokumentu przy użyciu Aspose.Words dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku.
-weight: 10
-url: /pl/net/working-with-node/get-parent-node/
+"description": "Dowiedz się, jak uzyskać węzeł nadrzędny sekcji dokumentu przy użyciu Aspose.Words dla platformy .NET, korzystając z tego szczegółowego samouczka krok po kroku."
+"linktitle": "Pobierz węzeł nadrzędny"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pobierz węzeł nadrzędny"
+"url": "/pl/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz węzeł nadrzędny
@@ -21,10 +23,10 @@ Czy kiedykolwiek zastanawiałeś się, jak manipulować węzłami dokumentu za p
 
 Zanim przejdziemy dalej, upewnij się, że wszystko masz skonfigurowane:
 
--  Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
-- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie dodatkowym atutem.
--  Licencja tymczasowa: Aby uzyskać pełną funkcjonalność bez ograniczeń, należy uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie zaletą.
+- Licencja tymczasowa: Aby uzyskać pełną funkcjonalność bez ograniczeń, należy uzyskać licencję tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -43,7 +45,7 @@ Zacznijmy od utworzenia nowego dokumentu. To będzie nasz plac zabaw do eksplora
 Document doc = new Document();
 ```
 
- Tutaj zainicjowaliśmy nową instancję`Document` klasa. Pomyśl o tym jak o swoim pustym płótnie.
+Tutaj zainicjowaliśmy nową instancję `Document` klasa. Pomyśl o tym jak o swoim pustym płótnie.
 
 ## Krok 2: Uzyskaj dostęp do pierwszego węzła podrzędnego
 
@@ -53,7 +55,7 @@ Następnie musimy uzyskać dostęp do pierwszego węzła podrzędnego dokumentu.
 Node section = doc.FirstChild;
 ```
 
-Robiąc to, chwytamy pierwszą sekcję w naszym dokumencie. Wyobraź sobie, że pobieramy pierwszą stronę książki.
+Robiąc to, chwytamy pierwszą sekcję w naszym dokumencie. Wyobraź sobie to jako pobieranie pierwszej strony książki.
 
 ## Krok 3: Pobierz węzeł nadrzędny
 
@@ -67,7 +69,7 @@ Ta linia sprawdza, czy węzeł nadrzędny naszej sekcji jest rzeczywiście samym
 
 ## Wniosek
 
-masz to! Udało Ci się pomyślnie poruszać po hierarchii węzłów dokumentu za pomocą Aspose.Words dla .NET. Zrozumienie tej koncepcji jest kluczowe dla bardziej zaawansowanych zadań manipulacji dokumentami. Więc eksperymentuj dalej i zobacz, co jeszcze fajnego możesz zrobić z węzłami dokumentu!
+I masz to! Udało Ci się pomyślnie poruszać po hierarchii węzłów dokumentu za pomocą Aspose.Words dla .NET. Zrozumienie tej koncepcji jest kluczowe dla bardziej zaawansowanych zadań manipulacji dokumentami. Więc eksperymentuj dalej i zobacz, co jeszcze fajnego możesz zrobić z węzłami dokumentu!
 
 ## Najczęściej zadawane pytania
 
@@ -84,10 +86,15 @@ Mimo że Aspose.Words został zaprojektowany przede wszystkim dla platformy .NET
 Tak, do pełnej funkcjonalności potrzebujesz licencji. Możesz zacząć od bezpłatnej wersji próbnej lub tymczasowej licencji do celów ewaluacyjnych.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

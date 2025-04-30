@@ -1,14 +1,16 @@
 ---
-title: การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ
-linktitle: การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีการจัดรูปแบบเอกสารอย่างเชี่ยวชาญโดยใช้ Aspose.Words สำหรับ Python สร้างเอกสารที่ดึงดูดสายตาด้วยรูปแบบฟอนต์ ตาราง รูปภาพ และอื่นๆ อีกมากมาย คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-weight: 14
-url: /th/python-net/document-splitting-and-formatting/document-formatting-techniques/
+"description": "เรียนรู้วิธีการจัดรูปแบบเอกสารอย่างเชี่ยวชาญโดยใช้ Aspose.Words สำหรับ Python สร้างเอกสารที่ดึงดูดสายตาด้วยรูปแบบฟอนต์ ตาราง รูปภาพ และอื่นๆ อีกมากมาย คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด"
+"linktitle": "การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ"
+"url": "/th/python-net/document-splitting-and-formatting/document-formatting-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเรียนรู้เทคนิคการจัดรูปแบบเอกสารเพื่อสร้างผลกระทบทางภาพ
@@ -46,7 +48,7 @@ doc.save("basic_document.docx")
 การจัดรูปแบบย่อหน้าและหัวข้อเป็นสิ่งสำคัญในการจัดโครงสร้างเอกสารของคุณอย่างมีประสิทธิภาพ ทำได้โดยใช้โค้ดด้านล่าง:
 
 ```python
-# For paragraphs
+# สำหรับย่อหน้า
 paragraph.alignment = aw.ParagraphAlignment.CENTER
 builder.paragraph_format.line_spacing = 1.5
 ```
@@ -119,7 +121,7 @@ builder.writeln("Header Text")
 
 ```python
 doc.update_fields()
-builder.insert_hyperlink("Jump to Section 2", "#section2")
+builder.insert_hyperlink("Jump to Section 2", "#ส่วนที่ 2")
 ```
 
 ## การรักษาความปลอดภัยและการปกป้องเอกสาร
@@ -151,21 +153,26 @@ pip install aspose-words
 ```
 
 ### ฉันสามารถใช้รูปแบบที่แตกต่างกันกับย่อหน้าและหัวเรื่องได้หรือไม่
- ใช่ คุณสามารถใช้รูปแบบที่แตกต่างกันกับย่อหน้าและหัวเรื่องได้โดยใช้`paragraph_format.style` คุณสมบัติ.
+ใช่ คุณสามารถใช้รูปแบบที่แตกต่างกันกับย่อหน้าและหัวเรื่องได้โดยใช้ `paragraph_format.style` คุณสมบัติ.
 
 ### ฉันสามารถเพิ่มรูปภาพลงในเอกสารของฉันได้หรือไม่?
- แน่นอน! คุณสามารถแทรกภาพลงในเอกสารของคุณได้โดยใช้`insert_image` วิธี.
+แน่นอน! คุณสามารถแทรกภาพลงในเอกสารของคุณได้โดยใช้ `insert_image` วิธี.
 
 ### ฉันสามารถป้องกันเอกสารของฉันด้วยรหัสผ่านได้หรือไม่
- ใช่ คุณสามารถปกป้องเอกสารของคุณโดยตั้งค่าการป้องกันเอกสารโดยใช้`protect` วิธี.
+ใช่ คุณสามารถปกป้องเอกสารของคุณโดยตั้งค่าการป้องกันเอกสารโดยใช้ `protect` วิธี.
 
 ### ฉันสามารถส่งออกเอกสารของฉันเป็นรูปแบบใดได้บ้าง?
 Aspose.Words ช่วยให้คุณสามารถส่งออกเอกสารของคุณเป็นรูปแบบต่างๆ รวมถึง PDF, DOCX และอื่นๆ อีกมากมาย
 
- สำหรับรายละเอียดเพิ่มเติมและการเข้าถึงเอกสารและดาวน์โหลด Aspose.Words สำหรับ Python โปรดไปที่[ที่นี่](https://reference.aspose.com/words/python-net/).
+สำหรับรายละเอียดเพิ่มเติมและการเข้าถึงเอกสารและดาวน์โหลด Aspose.Words สำหรับ Python โปรดไปที่ [ที่นี่](https://reference-aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,62 +1,64 @@
 ---
-title: Aktualizujte naposledy vytištěnou vlastnost v dokumentu PDF
-linktitle: Aktualizujte naposledy vytištěnou vlastnost v dokumentu PDF
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words for .NET s naším podrobným průvodcem.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "Naučte se, jak aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words pro .NET s naším podrobným návodem."
+"linktitle": "Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF"
+"url": "/cs/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aktualizujte naposledy vytištěnou vlastnost v dokumentu PDF
+# Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF
 
 ## Zavedení
 
-Chcete aktualizovat poslední vytištěnou vlastnost v dokumentu PDF? Možná spravujete velké množství dokumentů a potřebujete mít přehled o tom, kdy byly naposledy vytištěny. Ať už je váš důvod jakýkoli, aktualizace této vlastnosti může být neuvěřitelně užitečná as Aspose.Words pro .NET je to hračka! Pojďme se ponořit do toho, jak toho můžete dosáhnout.
+Chcete aktualizovat vlastnost posledního tisku v dokumentu PDF? Možná spravujete velké množství dokumentů a potřebujete sledovat, kdy byly naposledy vytištěny. Ať už je váš důvod jakýkoli, aktualizace této vlastnosti může být neuvěřitelně užitečná a s Aspose.Words pro .NET je to hračka! Pojďme se ponořit do toho, jak toho můžete dosáhnout.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Words for .NET: Musíte mít nainstalovanou aplikaci Aspose.Words for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Vývojové prostředí jako Visual Studio.
-- Základní porozumění C#: Určitá znalost C# bude užitečná.
+- Aspose.Words pro .NET: Musíte mít nainstalovaný Aspose.Words pro .NET. Pokud ho ještě nemáte, můžete si ho stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Vývojové prostředí, jako je Visual Studio.
+- Základní znalost C#: Určitá znalost C# bude užitečná.
 - Dokument: Dokument aplikace Word, který chcete převést do formátu PDF a aktualizovat poslední vytištěnou vlastnost.
 
 ## Importovat jmenné prostory
 
-Chcete-li ve svém projektu použít Aspose.Words for .NET, musíte importovat potřebné jmenné prostory. Postup je následující:
+Chcete-li ve svém projektu použít Aspose.Words pro .NET, musíte importovat potřebné jmenné prostory. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na jednoduché, zvládnutelné kroky.
+Rozdělme si proces na jednoduché a zvládnutelné kroky.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Za prvé, pojďme nastavit váš projekt. Otevřete Visual Studio, vytvořte novou konzolovou aplikaci (.NET Framework nebo .NET Core) a pojmenujte ji smysluplným způsobem jako „UpdateLastPrintedPropertyPDF“.
+Nejdříve si nastavme váš projekt. Otevřete Visual Studio, vytvořte novou konzolovou aplikaci (.NET Framework nebo .NET Core) a pojmenujte ji smysluplně, například „UpdateLastPrintedPropertyPDF“.
 
-## Krok 2: Nainstalujte Aspose.Words for .NET
+## Krok 2: Instalace Aspose.Words pro .NET
 
-Dále je třeba nainstalovat balíček Aspose.Words for .NET. Můžete to udělat pomocí Správce balíčků NuGet. Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení, vyberte „Spravovat balíčky NuGet“, vyhledejte „Aspose.Words“ a nainstalujte jej.
+Dále je třeba nainstalovat balíček Aspose.Words pro .NET. Můžete to provést pomocí Správce balíčků NuGet. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení, vyberte možnost „Spravovat balíčky NuGet“, vyhledejte „Aspose.Words“ a nainstalujte jej.
 
-## Krok 3: Vložte svůj dokument
+## Krok 3: Vložte dokument
 
- Nyní načteme dokument Word, který chcete převést do PDF. Nahradit`"YOUR DOCUMENT DIRECTORY"` s cestou k vašemu dokumentu.
+Nyní načtěme dokument Wordu, který chcete převést do formátu PDF. Nahraďte `"YOUR DOCUMENT DIRECTORY"` cestou k vašemu dokumentu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 4: Nakonfigurujte možnosti uložení PDF
+## Krok 4: Konfigurace možností ukládání PDF
 
- Musíme nakonfigurovat možnosti uložení PDF, abychom aktualizovali poslední vytištěnou vlastnost. Vytvořte novou instanci`PdfSaveOptions` a nastavte`UpdateLastPrintedProperty`majetek do`true`.
+Potřebujeme nakonfigurovat možnosti ukládání PDF tak, aby aktualizovaly poslední vytištěnou vlastnost. Vytvořte novou instanci `PdfSaveOptions` a nastavte `UpdateLastPrintedProperty` majetek `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -72,27 +74,32 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.UpdateIfLastPrinted.pdf", saveOpti
 
 ## Závěr
 
-tady to máte! Pomocí těchto kroků můžete snadno aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words for .NET. Tato metoda zajišťuje, že váš proces správy dokumentů zůstane efektivní a aktuální. Vyzkoušejte to a uvidíte, jak vám to zjednoduší pracovní postup.
+A tady to máte! Dodržováním těchto kroků můžete snadno aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words pro .NET. Tato metoda zajišťuje, že váš proces správy dokumentů zůstane efektivní a aktuální. Vyzkoušejte to a uvidíte, jak to zjednoduší váš pracovní postup.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro úlohy zpracování dokumentů v aplikacích .NET, včetně vytváření, úprav, převodu a tisku dokumentů.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro zpracování dokumentů v aplikacích .NET, včetně vytváření, úprav, převodu a tisku dokumentů.
 
 ### Proč aktualizovat poslední vytištěnou vlastnost v PDF?
-Aktualizace poslední vlastnosti tisku pomáhá při sledování využití dokumentu, zejména v prostředích, kde je tisk dokumentů častou činností.
+Aktualizace vlastnosti posledního tisku pomáhá sledovat používání dokumentů, zejména v prostředích, kde je tisk dokumentů častou činností.
 
-### Mohu aktualizovat další vlastnosti pomocí Aspose.Words for .NET?
-Ano, Aspose.Words for .NET umožňuje aktualizovat různé vlastnosti dokumentu, jako je autor, název, předmět a další.
+### Mohu aktualizovat další vlastnosti pomocí Aspose.Words pro .NET?
+Ano, Aspose.Words pro .NET umožňuje aktualizovat různé vlastnosti dokumentu, jako je autor, název, předmět a další.
 
-### Je Aspose.Words for .NET zdarma?
- Aspose.Words for .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[zde](https://releases.aspose.com/). Pro rozšířené použití byste si museli zakoupit licenci.
+### Je Aspose.Words pro .NET zdarma?
+Aspose.Words pro .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout. [zde](https://releases.aspose.com/)Pro delší používání byste si museli zakoupit licenci.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Podrobnou dokumentaci najdete na Aspose.Words pro .NET[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete na Aspose.Words pro .NET. [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

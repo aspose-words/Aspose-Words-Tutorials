@@ -1,14 +1,16 @@
 ---
-title: Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın
-linktitle: Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde yeni bir imza satırı oluşturmayı ve sağlayıcı kimliğini ayarlamayı öğrenin. Adım adım kılavuz.
-weight: 10
-url: /tr/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde yeni bir imza satırı oluşturmayı ve sağlayıcı kimliğini ayarlamayı öğrenin. Adım adım kılavuz."
+"linktitle": "Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın"
+"url": "/tr/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın
@@ -21,7 +23,7 @@ Merhaba teknoloji meraklıları! Word belgelerinize programatik olarak nasıl im
 
 Ellerimizi kirletmeden önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Henüz yapmadıysanız indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Henüz yapmadıysanız indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# geliştirme ortamı.
 3. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun.
 4. PFX Sertifikası: Belgeleri imzalamak için bir PFX sertifikasına ihtiyacınız olacak. Güvenilir bir sertifika yetkilisinden alabilirsiniz.
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu kod parçacığında yeni bir tane başlatıyoruz`Document` ve bir`DocumentBuilder` .`DocumentBuilder` belgemize öğeler eklememize yardımcı olur.
+Bu kod parçacığında yeni bir tane başlatıyoruz `Document` ve bir `DocumentBuilder`. `DocumentBuilder` belgemize öğeler eklememize yardımcı olur.
 
 ## Adım 2: İmza Satırı Seçeneklerini Tanımlayın
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Burada,`InsertSignatureLine` metodu imza satırını ekler ve buna benzersiz bir sağlayıcı kimliği atarız.
+Burada, `InsertSignatureLine` metodu imza satırını ekler ve buna benzersiz bir sağlayıcı kimliği atarız.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -116,7 +118,7 @@ Belgeyi imzalamak için bir PFX sertifikası kullanacağız. Bunun için bir ser
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Değiştirdiğinizden emin olun`"morzal.pfx"` gerçek sertifika dosyanızla ve`"aw"` sertifika şifrenizle.
+Değiştirdiğinizden emin olun `"morzal.pfx"` gerçek sertifika dosyanızla ve `"aw"` sertifika şifrenizle.
 
 ## Adım 7: Belgeyi İmzalayın
 
@@ -136,7 +138,7 @@ Ve işte oldu! Aspose.Words for .NET kullanarak Word belgesinde yeni bir imza sa
 ## SSS
 
 ### İmza satırının görünümünü özelleştirebilir miyim?
- Kesinlikle! Çeşitli seçenekleri ayarlayabilirsiniz`SignatureLineOptions`İhtiyaçlarınıza uygun.
+Kesinlikle! Çeşitli seçenekleri ayarlayabilirsiniz `SignatureLineOptions` İhtiyaçlarınıza uygun.
 
 ### PFX sertifikam yoksa ne olur?
 Güvenilir bir sertifika yetkilisinden bir tane edinmeniz gerekecek. Belgeleri dijital olarak imzalamak için gereklidir.
@@ -149,9 +151,14 @@ Evet, Aspose.Words for .NET, .NET Core'u destekler ve bu da onu farklı gelişti
 
 ### Dijital imzalar ne kadar güvenli?
 Aspose.Words ile oluşturulan dijital imzalar, geçerli ve güvenilir bir sertifika kullanmanız koşuluyla son derece güvenlidir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

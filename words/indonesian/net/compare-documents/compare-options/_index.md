@@ -1,14 +1,16 @@
 ---
-title: Bandingkan Opsi Dalam Dokumen Word
-linktitle: Bandingkan Opsi Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membandingkan dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan konsistensi dokumen dengan mudah.
-weight: 10
-url: /id/net/compare-documents/compare-options/
+"description": "Pelajari cara membandingkan dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan konsistensi dokumen dengan mudah."
+"linktitle": "Bandingkan Opsi Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Bandingkan Opsi Dalam Dokumen Word"
+"url": "/id/net/compare-documents/compare-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bandingkan Opsi Dalam Dokumen Word
@@ -21,7 +23,7 @@ Halo, para penggemar teknologi! Pernahkah Anda perlu membandingkan dua dokumen W
 
 Sebelum kita mulai mengotori tangan kita dengan kode, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan C# apa pun seperti Visual Studio dapat digunakan.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan sangat membantu.
 4. Contoh Dokumen Word: Dua dokumen Word yang ingin Anda bandingkan.
@@ -64,7 +66,7 @@ Document docB = docA.Clone();
 Dalam cuplikan ini:
 - Kami menentukan direktori tempat dokumen kami disimpan.
 - Kami memuat dokumen pertama (`docA`).
--  Kami mengkloning`docA` untuk membuat`docB`Dengan cara ini, kita memiliki dua dokumen identik untuk dikerjakan.
+- Kami mengkloning `docA` untuk membuat `docB`Dengan cara ini, kita memiliki dua dokumen identik untuk dikerjakan.
 
 ## Langkah 3: Konfigurasikan Opsi Perbandingan
 
@@ -103,7 +105,7 @@ docA.Compare(docB, "user", DateTime.Now, options);
 ```
 
 Pada baris ini:
--  Kami membandingkan`docA` dengan`docB`.
+- Kami membandingkan `docA` dengan `docB`.
 - Kami menentukan nama pengguna ("pengguna") dan tanggal serta waktu saat ini.
 
 ## Langkah 5: Periksa dan Tampilkan Hasil
@@ -114,7 +116,7 @@ Terakhir, kami memeriksa hasil perbandingan dan menampilkan apakah dokumennya sa
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
- Jika`docA.Revisions.Count` adalah nol, artinya tidak ada perbedaan antara dokumen-dokumen tersebut. Jika tidak, artinya ada beberapa perbedaan.
+Jika `docA.Revisions.Count` adalah nol, artinya tidak ada perbedaan antara dokumen-dokumen tersebut. Jika tidak, artinya ada beberapa perbedaan.
 
 ## Kesimpulan
 
@@ -126,7 +128,7 @@ Nah, itu dia! Anda telah berhasil membandingkan dua dokumen Word menggunakan Asp
 Aspose.Words untuk .NET membandingkan dua dokumen sekaligus. Untuk membandingkan beberapa dokumen, Anda dapat melakukannya secara berpasangan.
 
 ### Bagaimana cara mengabaikan perubahan pada gambar?  
- Anda dapat mengonfigurasi`CompareOptions` untuk mengabaikan berbagai elemen, tetapi mengabaikan gambar secara khusus memerlukan penanganan khusus.
+Anda dapat mengonfigurasi `CompareOptions` untuk mengabaikan berbagai elemen, tetapi mengabaikan gambar secara khusus memerlukan penanganan khusus.
 
 ### Bisakah saya mendapatkan laporan terperinci mengenai perbedaannya?  
 Ya, Aspose.Words menyediakan informasi revisi terperinci yang dapat Anda akses secara terprogram.
@@ -135,10 +137,15 @@ Ya, Aspose.Words menyediakan informasi revisi terperinci yang dapat Anda akses s
 Ya, tetapi Anda perlu membuka kunci dokumen terlebih dahulu menggunakan kata sandi yang sesuai.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?  
- Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci di[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci di [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

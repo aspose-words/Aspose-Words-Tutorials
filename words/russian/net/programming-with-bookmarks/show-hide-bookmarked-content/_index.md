@@ -1,14 +1,16 @@
 ---
-title: Показать Скрыть закладки в документе Word
-linktitle: Показать Скрыть закладки в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как отображать и скрывать закладки в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "Узнайте, как отображать и скрывать закладки в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Показать Скрыть закладки в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Показать Скрыть закладки в документе Word"
+"url": "/ru/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Показать Скрыть закладки в документе Word
@@ -22,7 +24,7 @@ url: /ru/net/programming-with-bookmarks/show-hide-bookmarked-content/
 Прежде чем мы перейдем к деталям, вам понадобится несколько вещей:
 
 1. Visual Studio: любая версия, совместимая с .NET.
-2.  Aspose.Words для .NET: Загрузить[здесь](https://releases.aspose.com/words/net/).
+2. Aspose.Words для .NET: Загрузить [здесь](https://releases.aspose.com/words/net/).
 3. Базовые знания C#: Если вы можете написать простую программу «Hello World», то все в порядке.
 4. Документ Word с закладками: для этого урока мы будем использовать образец документа с закладками.
 
@@ -66,11 +68,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Этот фрагмент кода устанавливает путь к каталогу ваших документов и загружает документ в`doc` объект.
+Этот фрагмент кода устанавливает путь к каталогу ваших документов и загружает документ в `doc` объект.
 
 ## Шаг 3: Показать/скрыть закладки контента
 
-Теперь самое интересное – показывать или скрывать контент на основе закладок. Мы создадим метод под названием`ShowHideBookmarkedContent` чтобы справиться с этим.
+Теперь самое интересное – показ или скрытие контента на основе закладок. Мы создадим метод под названием `ShowHideBookmarkedContent` чтобы справиться с этим.
 
 Вот метод, который переключает видимость заложенного контента:
 
@@ -94,9 +96,9 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 ### Разбивка метода
 
--  Извлечение закладки:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` извлекает закладку.
+- Извлечение закладки: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` извлекает закладку.
 - Обход узлов: мы обходим узлы внутри закладки.
--  Переключение видимости: если узел является`Run` (непрерывный текст), мы устанавливаем его`Hidden` свойство.
+- Переключение видимости: если узел является `Run` (непрерывный текст), мы устанавливаем его `Hidden` свойство.
 
 ## Шаг 4: Применение метода
 
@@ -125,7 +127,7 @@ doc.Save(dataDir + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ## Часто задаваемые вопросы
 
 ### Могу ли я переключать несколько закладок одновременно?
- Да, вы можете позвонить`ShowHideBookmarkedContent` метод для каждой закладки, которую вы хотите переключить.
+Да, вы можете позвонить `ShowHideBookmarkedContent` метод для каждой закладки, которую вы хотите переключить.
 
 ### Влияет ли скрытие контента на структуру документа?
 Нет, скрытие контента влияет только на его видимость. Контент остается в документе.
@@ -134,13 +136,18 @@ doc.Save(dataDir + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 Этот метод специально переключает текстовые прогоны. Для других типов контента вам нужно будет изменить логику обхода узлов.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words предлагает бесплатную пробную версию[здесь](https://releases.aspose.com/) , но для использования в производстве требуется полная лицензия. Вы можете приобрести ее[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию [здесь](https://releases.aspose.com/), но для использования в производстве требуется полная лицензия. Вы можете приобрести ее [здесь](https://purchase.aspose.com/buy).
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

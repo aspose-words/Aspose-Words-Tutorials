@@ -1,17 +1,19 @@
 ---
-title: Управление содержимым документа с помощью очистки, полей и XML-данных
-linktitle: Управление содержимым документа с помощью очистки, полей и XML-данных
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как управлять содержимым документа с помощью Aspose.Words для Java. Это пошаговое руководство содержит примеры исходного кода для эффективного управления документами.
-weight: 14
-url: /ru/java/word-processing/manipulating-document-content/
+"description": "Узнайте, как управлять содержимым документа с помощью Aspose.Words для Java. Это пошаговое руководство содержит примеры исходного кода для эффективного управления документами."
+"linktitle": "Манипулирование содержимым документа с помощью очистки, полей и XML-данных"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Манипулирование содержимым документа с помощью очистки, полей и XML-данных"
+"url": "/ru/java/word-processing/manipulating-document-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Управление содержимым документа с помощью очистки, полей и XML-данных
+# Манипулирование содержимым документа с помощью очистки, полей и XML-данных
 
 ## Введение
 
@@ -23,11 +25,11 @@ url: /ru/java/word-processing/manipulating-document-content/
 
 1. Установка и настройка
    
-    Начните с загрузки Aspose.Words для Java по ссылке:[Aspose.Words для загрузки Java](https://releases.aspose.com/words/java/). Установите его в соответствии с предоставленной документацией.
+   Начните с загрузки Aspose.Words для Java по ссылке для скачивания: [Aspose.Words для загрузки Java](https://releases.aspose.com/words/java/). Установите его в соответствии с предоставленной документацией.
 
 2. Ссылка на API
    
-   Ознакомьтесь с API Aspose.Words для Java, изучив документацию:[Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/)Этот ресурс станет вашим проводником на протяжении всего путешествия.
+   Ознакомьтесь с API Aspose.Words для Java, изучив документацию: [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/). Этот ресурс станет вашим проводником на протяжении всего путешествия.
 
 3. Знание Java
    
@@ -142,12 +144,17 @@ doc.cleanup();
 doc.save("cleaned_document.docx");
 ```
 
-### Подходит ли Aspose.Words for Java для создания динамических документов с XML-данными?
+### Подходит ли Aspose.Words для Java для создания динамических документов с XML-данными?
 
 Да, Aspose.Words for Java хорошо подходит для создания динамических документов с XML-данными. Он предоставляет надежные функции для привязки XML-данных к шаблонам и создания персонализированных документов.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

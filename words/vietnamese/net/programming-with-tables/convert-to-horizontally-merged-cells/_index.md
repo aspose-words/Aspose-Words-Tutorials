@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi sang các ô được hợp nhất theo chiều ngang
-linktitle: Chuyển đổi sang các ô được hợp nhất theo chiều ngang
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi các ô được hợp nhất theo chiều dọc thành các ô được hợp nhất theo chiều ngang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để có bố cục bảng liền mạch.
-weight: 10
-url: /vi/net/programming-with-tables/convert-to-horizontally-merged-cells/
+"description": "Chuyển đổi các ô được hợp nhất theo chiều dọc thành các ô được hợp nhất theo chiều ngang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để có bố cục bảng liền mạch."
+"linktitle": "Chuyển đổi sang các ô được hợp nhất theo chiều ngang"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi sang các ô được hợp nhất theo chiều ngang"
+"url": "/vi/net/programming-with-tables/convert-to-horizontally-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi sang các ô được hợp nhất theo chiều ngang
@@ -21,7 +23,7 @@ Khi làm việc với các bảng trong tài liệu Word, bạn thường cần 
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Quen thuộc với ngôn ngữ lập trình C#.
 
@@ -60,7 +62,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 ## Bước 3: Chuyển đổi sang các ô được hợp nhất theo chiều ngang
 
- Bây giờ, chúng ta sẽ chuyển đổi các ô được hợp nhất theo chiều dọc trong bảng thành các ô được hợp nhất theo chiều ngang. Điều này được thực hiện bằng cách sử dụng`ConvertToHorizontallyMergedCells` phương pháp.
+Bây giờ, chúng ta sẽ chuyển đổi các ô được hợp nhất theo chiều dọc trong bảng thành các ô được hợp nhất theo chiều ngang. Điều này được thực hiện bằng cách sử dụng `ConvertToHorizontallyMergedCells` phương pháp.
 
 ```csharp
 // Chuyển đổi các ô được hợp nhất theo chiều dọc thành các ô được hợp nhất theo chiều ngang
@@ -77,19 +79,24 @@ Và thế là xong! Bạn đã chuyển đổi thành công các ô được h�
 Aspose.Words for .NET chủ yếu được thiết kế cho các ngôn ngữ .NET như C#. Tuy nhiên, bạn có thể sử dụng nó với các ngôn ngữ khác được .NET hỗ trợ như VB.NET.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?  
- Có, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose.
+Có, bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/8) để được hỗ trợ.
 
 ### Tôi có thể áp dụng giấy phép từ tệp hoặc luồng không?  
-Có, Aspose.Words cho .NET cho phép bạn áp dụng giấy phép từ cả tệp và luồng. Bạn có thể tìm thêm thông tin trong[tài liệu](https://reference.aspose.com/words/net/).
+Có, Aspose.Words cho .NET cho phép bạn áp dụng giấy phép từ cả tệp và luồng. Bạn có thể tìm thêm thông tin trong [tài liệu](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET còn cung cấp những tính năng nào khác?  
- Aspose.Words cho .NET cung cấp nhiều tính năng bao gồm tạo tài liệu, thao tác, chuyển đổi và kết xuất. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Aspose.Words cho .NET cung cấp nhiều tính năng bao gồm tạo tài liệu, thao tác, chuyển đổi và kết xuất. Hãy xem [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

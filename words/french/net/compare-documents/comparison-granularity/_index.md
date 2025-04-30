@@ -1,27 +1,29 @@
 ---
-title: Comparaison de la granularité dans un document Word
-linktitle: Comparaison de la granularité dans un document Word
-second_title: API de traitement de documents Aspose.Words
-description: Découvrez la fonctionnalité Comparer la granularité dans les documents Word d'Aspose.Words pour .NET qui permet de comparer les documents caractère par caractère, en signalant les modifications apportées.
-weight: 10
-url: /fr/net/compare-documents/comparison-granularity/
+"description": "Découvrez la fonctionnalité Comparer la granularité dans les documents Word d'Aspose.Words pour .NET qui permet de comparer les documents caractère par caractère, en signalant les modifications apportées."
+"linktitle": "Granularité de comparaison dans un document Word"
+"second_title": "API de traitement de documents Aspose.Words"
+"title": "Granularité de comparaison dans un document Word"
+"url": "/fr/net/compare-documents/comparison-granularity/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comparaison de la granularité dans un document Word
+# Granularité de comparaison dans un document Word
 
-Voici un guide étape par étape pour expliquer le code source C# ci-dessous, qui utilise la fonctionnalité Comparer la granularité dans le document Word d'Aspose.Words pour .NET.
+Voici un guide étape par étape pour expliquer le code source C# ci-dessous, qui utilise la fonctionnalité Comparer la granularité dans un document Word d'Aspose.Words pour .NET.
 
 ## Étape 1 : Introduction
 
-La fonctionnalité Comparer la granularité d'Aspose.Words pour .NET vous permet de comparer des documents au niveau des caractères. Cela signifie que chaque caractère sera comparé et que les modifications seront signalées en conséquence.
+La fonctionnalité de comparaison de granularité d'Aspose.Words pour .NET vous permet de comparer des documents au niveau des caractères. Cela signifie que chaque caractère est comparé et que les modifications sont signalées en conséquence.
 
-## Étape 2 : Configuration de l'environnement
+## Étape 2 : Configuration de l'environnement
 
-Avant de commencer, vous devez configurer votre environnement de développement pour qu'il fonctionne avec Aspose.Words pour .NET. Assurez-vous que la bibliothèque Aspose.Words est installée et que vous disposez d'un projet C# approprié pour intégrer le code.
+Avant de commencer, vous devez configurer votre environnement de développement pour qu'il fonctionne avec Aspose.Words pour .NET. Assurez-vous d'avoir installé la bibliothèque Aspose.Words et d'avoir un projet C# adapté pour y intégrer le code.
 
 ## Étape 3 : ajouter les assemblages requis
 
@@ -32,9 +34,9 @@ using Aspose.Words;
 using Aspose.Words.DocumentBuilder;
 ```
 
-## Étape 4 : Création de documents
+## Étape 4 : Création de documents
 
-Dans cette étape, nous allons créer deux documents à l'aide de la classe DocumentBuilder. Ces documents seront utilisés pour la comparaison.
+Dans cette étape, nous allons créer deux documents à l'aide de la classe DocumentBuilder. Ces documents serviront à la comparaison.
 
 ```csharp
 // Créer le document A.
@@ -48,13 +50,13 @@ builderB.Writeln("This is simple B words.");
 
 ## Étape 5 : Configuration des options de comparaison
 
-Dans cette étape, nous allons configurer les options de comparaison pour spécifier la granularité de la comparaison. Ici, nous utiliserons la granularité au niveau des caractères.
+Dans cette étape, nous allons configurer les options de comparaison afin de spécifier la granularité. Nous utiliserons ici une granularité au niveau des caractères.
 
 ```csharp
 CompareOptions compareOptions = new CompareOptions { Granularity = Granularity.CharLevel };
 ```
 
-## Étape 6 : Comparaison des documents
+## Étape 6 : Comparaison des documents
 
 Comparons maintenant les documents à l'aide de la méthode Compare de la classe Document. Les modifications seront enregistrées dans le document A.
 
@@ -62,13 +64,13 @@ Comparons maintenant les documents à l'aide de la méthode Compare de la classe
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOptions);
 ```
 
- Le`Compare`La méthode compare le document A avec le document B et enregistre les modifications apportées au document A. Vous pouvez spécifier le nom de l'auteur et la date de comparaison pour référence.
+Le `Compare` La méthode compare le document A avec le document B et enregistre les modifications apportées au document A. Vous pouvez spécifier le nom de l'auteur et la date de comparaison pour référence.
 
 ## Conclusion
 
-Dans cet article, nous avons exploré la fonctionnalité Comparer la granularité d'Aspose.Words pour .NET. Cette fonctionnalité vous permet de comparer des documents au niveau des caractères et de signaler les modifications. Vous pouvez utiliser ces connaissances pour effectuer des comparaisons de documents détaillées dans vos projets.
+Dans cet article, nous avons exploré la fonctionnalité de comparaison de granularité d'Aspose.Words pour .NET. Cette fonctionnalité vous permet de comparer des documents au niveau des caractères et de signaler les modifications. Vous pouvez utiliser ces informations pour effectuer des comparaisons détaillées de documents dans vos projets.
 
-### Exemple de code source pour la granularité de comparaison à l'aide d'Aspose.Words pour .NET
+### Exemple de code source pour la granularité de comparaison avec Aspose.Words pour .NET
 
 ```csharp
             
@@ -86,36 +88,41 @@ builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOpti
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons exploré la fonctionnalité de granularité de comparaison d'Aspose.Words pour .NET. Cette fonctionnalité vous permet de spécifier le niveau de détail lors de la comparaison de documents. En choisissant différents niveaux de granularité, vous pouvez effectuer des comparaisons détaillées au niveau du caractère, du mot ou du bloc, en fonction de vos besoins spécifiques. Aspose.Words pour .NET offre une fonction de comparaison de documents flexible et puissante, facilitant l'identification des différences dans les documents avec différents niveaux de granularité.
+Dans ce tutoriel, nous avons exploré la fonctionnalité de granularité de comparaison d'Aspose.Words pour .NET. Cette fonctionnalité vous permet de spécifier le niveau de détail lors de la comparaison de documents. En choisissant différents niveaux de granularité, vous pouvez effectuer des comparaisons détaillées au niveau du caractère, du mot ou du bloc, selon vos besoins. Aspose.Words pour .NET offre une fonction de comparaison de documents flexible et puissante, facilitant l'identification des différences entre documents de différents niveaux de granularité.
 
 ### FAQ
 
 #### Q : Quel est le but de l’utilisation de la granularité de comparaison dans Aspose.Words pour .NET ?
 
-A : La granularité de comparaison dans Aspose.Words pour .NET vous permet de spécifier le niveau de détail lors de la comparaison de documents. Grâce à cette fonctionnalité, vous pouvez comparer des documents à différents niveaux, tels que le niveau des caractères, des mots ou même des blocs. Chaque niveau de granularité fournit un niveau de détail différent dans les résultats de comparaison.
+R : La granularité de comparaison dans Aspose.Words pour .NET vous permet de spécifier le niveau de détail lors de la comparaison de documents. Cette fonctionnalité vous permet de comparer des documents à différents niveaux, tels que le caractère, le mot ou même le bloc. Chaque niveau de granularité offre un niveau de détail différent dans les résultats de comparaison.
 
 #### Q : Comment utiliser la granularité de comparaison dans Aspose.Words pour .NET ?
 
 R : Pour utiliser la granularité de comparaison dans Aspose.Words pour .NET, suivez ces étapes :
 1. Configurez votre environnement de développement avec la bibliothèque Aspose.Words.
 2. Ajoutez les assemblages nécessaires à votre projet en référençant Aspose.Words.
-3.  Créez les documents que vous souhaitez comparer à l'aide de la`DocumentBuilder` classe.
-4.  Configurez les options de comparaison en créant un`CompareOptions` objet et réglage de la`Granularity` propriété au niveau souhaité (par exemple,`Granularity.CharLevel` (pour une comparaison au niveau des caractères).
-5.  Utilisez le`Compare`méthode sur un document, en passant l'autre document et le`CompareOptions` objet comme paramètres. Cette méthode comparera les documents en fonction de la granularité spécifiée et enregistrera les modifications dans le premier document.
+3. Créez les documents que vous souhaitez comparer en utilisant le `DocumentBuilder` classe.
+4. Configurez les options de comparaison en créant un `CompareOptions` objet et réglage de la `Granularity` propriété au niveau souhaité (par exemple, `Granularity.CharLevel` pour une comparaison au niveau des caractères).
+5. Utilisez le `Compare` méthode sur un document, en passant l'autre document et le `CompareOptions` objet comme paramètres. Cette méthode compare les documents selon la granularité spécifiée et enregistre les modifications dans le premier document.
 
 #### Q : Quels sont les niveaux de granularité de comparaison disponibles dans Aspose.Words pour .NET ?
 
-R : Aspose.Words pour .NET fournit trois niveaux de granularité de comparaison :
+A : Aspose.Words pour .NET fournit trois niveaux de granularité de comparaison :
 - `Granularity.CharLevel`: Compare les documents au niveau des caractères.
 - `Granularity.WordLevel`: Compare les documents au niveau du mot.
 - `Granularity.BlockLevel`: Compare les documents au niveau du bloc.
 
 #### Q : Comment puis-je interpréter les résultats de comparaison avec une granularité au niveau des caractères ?
 
-R : Avec la granularité au niveau des caractères, chaque caractère des documents comparés est analysé pour détecter les différences. Les résultats de la comparaison montreront les changements au niveau de chaque caractère, y compris les ajouts, les suppressions et les modifications.
+R : Grâce à la granularité au niveau des caractères, chaque caractère des documents comparés est analysé pour détecter les différences. Les résultats de la comparaison montrent les changements au niveau de chaque caractère, y compris les ajouts, les suppressions et les modifications.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

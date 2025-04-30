@@ -1,14 +1,16 @@
 ---
-title: Biên tập tài liệu và bảo vệ dữ liệu
-linktitle: Biên tập tài liệu và bảo vệ dữ liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
-weight: 14
-url: /vi/java/document-security/document-redaction-data-protection/
+"description": "Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn."
+"linktitle": "Biên tập tài liệu và bảo vệ dữ liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Biên tập tài liệu và bảo vệ dữ liệu"
+"url": "/vi/java/document-security/document-redaction-data-protection/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biên tập tài liệu và bảo vệ dữ liệu
@@ -24,7 +26,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách biên tập thông ti
 
 Trước khi bắt đầu làm việc với Aspose.Words for Java, chúng ta cần thiết lập môi trường phát triển. Thực hiện theo các bước sau:
 
-1.  Tải xuống và cài đặt Aspose.Words cho Java: Truy cập[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)để tải xuống phiên bản mới nhất của Aspose.Words cho Java.
+1. Tải xuống và cài đặt Aspose.Words cho Java: Truy cập [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) để tải xuống phiên bản mới nhất của Aspose.Words cho Java.
 
 2. Tích hợp Aspose.Words vào dự án của bạn: Thêm các tệp JAR Aspose.Words vào dự án Java của bạn.
 
@@ -98,16 +100,21 @@ A: Có, Aspose.Words for Java có thể chuyển đổi tài liệu Word sang nh
 
 ### Có yêu cầu cấp phép nào khi sử dụng Aspose.Words cho Java không?
 
- A: Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng thương mại. Truy cập[https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) để biết thông tin cấp phép.
+A: Có, Aspose.Words for Java yêu cầu giấy phép hợp lệ để sử dụng thương mại. Truy cập [https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) để biết thông tin cấp phép.
 
-### Làm thế nào tôi có thể truy cập thêm tài nguyên và tài liệu về Aspose.Words cho Java?
+### Làm thế nào tôi có thể truy cập thêm tài nguyên và tài liệu cho Aspose.Words for Java?
 
-A: Truy cập tài liệu Aspose.Words cho Java tại[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để có tài nguyên và hướng dẫn toàn diện.
+A: Truy cập tài liệu Aspose.Words cho Java tại [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để có tài nguyên và hướng dẫn toàn diện.
 
 Tăng cường bảo mật tài liệu và bảo vệ dữ liệu của bạn với Aspose.Words for Java. Bắt đầu bảo vệ thông tin nhạy cảm của bạn ngay hôm nay!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

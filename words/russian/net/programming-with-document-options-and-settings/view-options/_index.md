@@ -1,14 +1,16 @@
 ---
-title: Посмотреть параметры
-linktitle: Посмотреть параметры
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как просматривать параметры в документах Word с помощью Aspose.Words for .NET. В этом руководстве рассматривается настройка типов просмотра, настройка уровней масштабирования и сохранение документа.
-weight: 10
-url: /ru/net/programming-with-document-options-and-settings/view-options/
+"description": "Узнайте, как просматривать параметры в документах Word с помощью Aspose.Words for .NET. В этом руководстве рассматривается настройка типов просмотра, настройка уровней масштабирования и сохранение документа."
+"linktitle": "Посмотреть параметры"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Посмотреть параметры"
+"url": "/ru/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Посмотреть параметры
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-document-options-and-settings/view-options/
 
 Прежде чем мы погрузимся с головой в код, давайте убедимся, что у нас есть все необходимое для выполнения этого руководства. Вот краткий контрольный список:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: на вашем компьютере должна быть установлена среда IDE, например Visual Studio.
 3. Базовые знания C#: хотя мы и постараемся упростить изложение, базовые знания C# будут полезны.
 4. Образец документа Word: Подготовьте образец документа Word. В этом руководстве мы будем называть его «Document.docx».
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- В этом фрагменте мы определяем путь к нашему документу и загружаем его с помощью`Document` класс. Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
+В этом фрагменте мы определяем путь к нашему документу и загружаем его с помощью `Document` класс. Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
 
 ## Шаг 2: Установите тип просмотра
 
@@ -58,7 +60,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- Здесь мы устанавливаем тип представления`PageLayout`, который похож на вид макета печати в Microsoft Word. Это дает вам более точное представление о том, как будет выглядеть ваш документ после печати.
+Здесь мы устанавливаем тип представления `PageLayout`, который похож на вид макета печати в Microsoft Word. Это дает вам более точное представление о том, как будет выглядеть ваш документ после печати.
 
 ## Шаг 3: Отрегулируйте уровень масштабирования
 
@@ -68,7 +70,7 @@ doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- Установив`ZoomPercent` к`50`, мы уменьшаем масштаб до 50% от фактического размера. Вы можете настроить это значение в соответствии со своими потребностями.
+Установив `ZoomPercent` к `50`, мы уменьшаем масштаб до 50% от фактического размера. Вы можете настроить это значение в соответствии со своими потребностями.
 
 ## Шаг 4: Сохраните документ
 
@@ -88,7 +90,7 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### Какие еще типы просмотра я могу установить для своего документа?
 
- Aspose.Words для .NET поддерживает несколько типов представлений, включая`PrintLayout`, `WebLayout`, `Reading` , и`Outline`. Вы можете изучить эти варианты в зависимости от ваших потребностей.
+Aspose.Words для .NET поддерживает несколько типов представлений, включая `PrintLayout`, `WebLayout`, `Reading`, и `Outline`. Вы можете изучить эти варианты в зависимости от ваших потребностей.
 
 ### Могу ли я установить разные уровни масштабирования для разных разделов документа?
 
@@ -104,10 +106,15 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 
 ### Где я могу найти более подробную документацию по Aspose.Words для .NET?
 
- Более подробную документацию и примеры вы можете найти на сайте[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Более подробную документацию и примеры вы можете найти на сайте [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में मार्कडाउन फ़ॉर्मेटिंग का उपयोग करना
-linktitle: वर्ड दस्तावेज़ों में मार्कडाउन फ़ॉर्मेटिंग का उपयोग करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: जानें कि Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में Markdown फ़ॉर्मेटिंग को कैसे एकीकृत किया जाए। गतिशील और आकर्षक सामग्री निर्माण के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 19
-url: /hi/python-net/document-structure-and-content-manipulation/document-markdown/
+"description": "जानें कि Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में Markdown फ़ॉर्मेटिंग को कैसे एकीकृत किया जाए। गतिशील और आकर्षक सामग्री निर्माण के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "वर्ड दस्तावेज़ों में मार्कडाउन फ़ॉर्मेटिंग का उपयोग करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में मार्कडाउन फ़ॉर्मेटिंग का उपयोग करना"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में मार्कडाउन फ़ॉर्मेटिंग का उपयोग करना
@@ -55,7 +57,7 @@ builder.writeln(markdown_text)
 मार्कडाउन आपके टेक्स्ट पर स्टाइलिंग लागू करने का एक सरल तरीका प्रदान करता है। आप हेडर, सूचियाँ और बहुत कुछ बनाने के लिए विभिन्न तत्वों को जोड़ सकते हैं। यहाँ एक उदाहरण दिया गया है:
 
 ```python
-markdown_styled_text = "# Heading 1\n\n**Bold Text**\n\n- Item 1\n- Item 2"
+markdown_styled_text = "# शीर्षक 1\n\n**बोल्ड टेक्स्ट**\n\n- आइटम 1\n- आइटम 2"
 builder.writeln(markdown_styled_text)
 ```
 
@@ -122,10 +124,15 @@ pip install aspose-words
 
 ### मैं पायथन दस्तावेज़ के लिए Aspose.Words का उपयोग कहां कर सकता हूं?
 
- आप यहां पर विस्तृत दस्तावेज और संदर्भ पा सकते हैं[पायथन API संदर्भ के लिए Aspose.Words](https://reference.aspose.com/words/python-net/).
+आप यहां पर विस्तृत दस्तावेज और संदर्भ पा सकते हैं [पायथन API संदर्भ के लिए Aspose.Words](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

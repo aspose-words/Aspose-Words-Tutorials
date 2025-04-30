@@ -1,14 +1,16 @@
 ---
-title: Menerima dan Menolak Perubahan Dokumen
-linktitle: Menerima dan Menolak Perubahan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengelola perubahan dokumen dengan mudah menggunakan Aspose.Words untuk Java. Terima dan tolak revisi dengan mudah.
-weight: 12
-url: /id/java/document-revision/accepting-rejecting-document-changes/
+"description": "Pelajari cara mengelola perubahan dokumen dengan mudah menggunakan Aspose.Words untuk Java. Terima dan tolak revisi dengan mudah."
+"linktitle": "Menerima dan Menolak Perubahan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menerima dan Menolak Perubahan Dokumen"
+"url": "/id/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menerima dan Menolak Perubahan Dokumen
@@ -83,7 +85,7 @@ Kesimpulannya, menguasai seni menerima dan menolak perubahan dokumen menggunakan
 
 ### Bagaimana saya dapat menentukan siapa yang membuat perubahan tertentu dalam dokumen?
 
- Anda dapat mengakses informasi penulis untuk setiap revisi menggunakan`getAuthor` metode pada`Revision` obyek.
+Anda dapat mengakses informasi penulis untuk setiap revisi menggunakan `getAuthor` metode pada `Revision` obyek.
 
 ### Dapatkah saya menyesuaikan tampilan perubahan yang dilacak dalam dokumen?
 
@@ -99,10 +101,15 @@ Sayangnya, perubahan yang telah diterima atau ditolak tidak dapat dengan mudah d
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.Words untuk Java?
 
- Untuk dokumentasi dan contoh terperinci, kunjungi[Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Untuk dokumentasi dan contoh terperinci, kunjungi [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

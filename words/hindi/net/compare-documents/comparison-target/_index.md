@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में तुलना लक्ष्य
-linktitle: वर्ड दस्तावेज़ में तुलना लक्ष्य
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों की आसानी से तुलना करें। दस्तावेज़ तुलना में समय बचाएँ और सटीकता बढ़ाएँ।
-weight: 10
-url: /hi/net/compare-documents/comparison-target/
+"description": "इस विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों की आसानी से तुलना करें। दस्तावेज़ तुलना में समय बचाएँ और सटीकता बढ़ाएँ।"
+"linktitle": "वर्ड दस्तावेज़ में तुलना लक्ष्य"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में तुलना लक्ष्य"
+"url": "/hi/net/compare-documents/comparison-target/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में तुलना लक्ष्य
@@ -21,8 +23,8 @@ url: /hi/net/compare-documents/comparison-target/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए सुनिश्चित करें कि आपके पास शुरुआत करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
-1.  .NET के लिए Aspose.Words: आपको इस लाइब्रेरी की ज़रूरत है। अगर आपके पास अभी तक यह नहीं है, तो इसे यहाँ से लें[यहाँ](https://releases.aspose.com/words/net/).
-2.  लाइसेंस: Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए आपको एक वैध लाइसेंस की आवश्यकता होगी। आप एक खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+1. .NET के लिए Aspose.Words: आपको इस लाइब्रेरी की ज़रूरत है। अगर आपके पास अभी तक यह नहीं है, तो इसे यहाँ से लें [यहाँ](https://releases.aspose.com/words/net/).
+2. लाइसेंस: Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए आपको एक वैध लाइसेंस की आवश्यकता होगी। आप एक खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 3. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET संगत IDE.
 4. C# का बुनियादी ज्ञान: चिंता न करें, आपको इसमें विशेषज्ञ होने की आवश्यकता नहीं है, केवल कुछ बुनियादी समझ ही पर्याप्त होगी।
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 ## चरण 3: अपने दस्तावेज़ लोड करें
 
-ठीक है, अब उन दस्तावेज़ों को लोड करने का समय है जिनकी आप तुलना करना चाहते हैं। आपको इन दस्तावेज़ों के पथों की आवश्यकता होगी। मान लें कि आपके पास दो दस्तावेज़ हैं:`DocumentA.docx` और`DocumentB.docx`.
+ठीक है, अब उन दस्तावेज़ों को लोड करने का समय है जिनकी आप तुलना करना चाहते हैं। आपको इन दस्तावेज़ों के पथों की आवश्यकता होगी। मान लें कि आपके पास दो दस्तावेज़ हैं: `DocumentA.docx` और `DocumentB.docx`.
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -117,7 +119,7 @@ docA.Save(dataDir + "ComparedDocument.docx");
 
 ### यदि मैं तुलना विकल्पों में स्वरूपण को अनदेखा कर दूं तो क्या होगा?
 
-यदि आप स्वरूपण को अनदेखा करते हैं, तो तुलना केवल विषय-वस्तु में हुए परिवर्तनों पर ही केन्द्रित होगी, तथा स्वरूपण संबंधी किसी भी अंतर को अनदेखा किया जाएगा।
+यदि आप स्वरूपण को अनदेखा करते हैं, तो तुलना केवल विषय-वस्तु में हुए परिवर्तनों पर ही केंद्रित होगी, तथा स्वरूपण संबंधी किसी भी अंतर को अनदेखा कर दिया जाएगा।
 
 ### क्या मैं तुलना विकल्पों को और अधिक अनुकूलित कर सकता हूँ?
 
@@ -125,11 +127,16 @@ docA.Save(dataDir + "ComparedDocument.docx");
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

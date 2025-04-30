@@ -1,14 +1,16 @@
 ---
-title: Оптимизировать для MS Word
-linktitle: Оптимизировать для MS Word
-second_title: API обработки документов Aspose.Words
-description: Легко оптимизируйте документы Word для разных версий MS Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-document-options-and-settings/optimize-for-ms-word/
+"description": "Легко оптимизируйте документы Word для разных версий MS Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства."
+"linktitle": "Оптимизировать для MS Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Оптимизировать для MS Word"
+"url": "/ru/net/programming-with-document-options-and-settings/optimize-for-ms-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Оптимизировать для MS Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-document-options-and-settings/optimize-for-ms-word
 
 Прежде чем мы приступим к работе, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words для .NET: Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая IDE, поддерживающая .NET.
 3. Базовые знания C#: Вам не нужно быть волшебником, но знание C# будет полезно.
 
@@ -79,20 +81,25 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам программно создавать, изменять и конвертировать документы Word.
 
 ### Могу ли я оптимизировать под другие версии MS Word?
- Конечно! Aspose.Words поддерживает несколько версий. Просто замените`MsWordVersion.Word2016` с нужной вам версией.
+Конечно! Aspose.Words поддерживает несколько версий. Просто замените `MsWordVersion.Word2016` с нужной вам версией.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Вы можете попробовать его бесплатно, используя[временная лицензия](https://purchase.aspose.com/temporary-license/), но для долгосрочного использования вам потребуется приобрести лицензию.
+Вы можете попробовать его бесплатно, используя [временная лицензия](https://purchase.aspose.com/temporary-license/), но для долгосрочного использования вам потребуется приобрести лицензию.
 
 ### Где я могу найти дополнительную документацию?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
 
 ### Что делать, если мне нужна помощь?
- Если у вас возникнут какие-либо проблемы, вы всегда можете обратиться за помощью по адресу[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Если у вас возникнут какие-либо проблемы, вы всегда можете обратиться за помощью по адресу [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Các trường biểu mẫu làm việc với các thuộc tính
-linktitle: Các trường biểu mẫu làm việc với các thuộc tính
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thao tác các trường biểu mẫu trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 10
-url: /vi/net/working-with-formfields/form-fields-work-with-properties/
+"description": "Tìm hiểu cách thao tác các trường biểu mẫu trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Các trường biểu mẫu làm việc với các thuộc tính"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Các trường biểu mẫu làm việc với các thuộc tính"
+"url": "/vi/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các trường biểu mẫu làm việc với các thuộc tính
@@ -20,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá thế giới hấp dẫn c�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
--  Aspose.Words cho .NET: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển .NET: Khuyến khích sử dụng Visual Studio.
 - Kiến thức cơ bản về C#: Hiểu những kiến thức cơ bản sẽ giúp bạn theo dõi dễ dàng hơn.
 
@@ -45,7 +47,7 @@ Mở Visual Studio và tạo một dự án Console App (.NET Core) mới. Đặ
 
 ### Bước 1.2: Cài đặt Aspose.Words cho .NET
 
- Bạn có thể cài đặt Aspose.Words thông qua NuGet Package Manager. Đi tới`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`và tìm kiếm "Aspose.Words". Cài đặt gói.
+Bạn có thể cài đặt Aspose.Words thông qua NuGet Package Manager. Đi tới `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`và tìm kiếm "Aspose.Words". Cài đặt gói.
 
 Ngoài ra, bạn có thể sử dụng NuGet Package Manager Console:
 
@@ -59,7 +61,7 @@ Bây giờ dự án của bạn đã được thiết lập, hãy tải tài li�
 
 ### Bước 2.1: Chỉ định thư mục tài liệu
 
- Đặt đường dẫn đến thư mục tài liệu của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Đặt đường dẫn đến thư mục tài liệu của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### Bước 3.2: Kiểm tra Kiểu Trường Biểu mẫu
 
- Đảm bảo rằng trường biểu mẫu có kiểu`FieldFormTextInput` trước khi sửa đổi nó.
+Đảm bảo rằng trường biểu mẫu có kiểu `FieldFormTextInput` trước khi sửa đổi nó.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ Cho dù bạn đang phát triển một giải pháp tự động hóa tài li�
 Có, Aspose.Words cho .NET tương thích với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
 
 ### Aspose.Words cho .NET có miễn phí không?
-Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Aspose.Words cho .NET cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần mua giấy phép. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể thao tác các thành phần khác trong tài liệu Word bằng Aspose.Words cho .NET không?
 Hoàn toàn đúng! Aspose.Words for .NET cho phép bạn thao tác với văn bản, hình ảnh, bảng và nhiều thành phần khác trong tài liệu Word.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words[đây](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words [đây](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu đầy đủ[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu đầy đủ [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

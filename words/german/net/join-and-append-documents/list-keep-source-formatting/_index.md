@@ -1,28 +1,30 @@
 ---
-title: Listen-Keep-Quellformatierung
-linktitle: Listen-Keep-Quellformatierung
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie Word-Dokumente unter Beibehaltung der Formatierung mit Aspose.Words für .NET zusammenführen. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung zum nahtlosen Zusammenführen von Dokumenten.
-weight: 10
-url: /de/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für .NET unter Beibehaltung der Formatierung zusammenführen. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung für das nahtlose Zusammenführen von Dokumenten."
+"linktitle": "Listen-Keep-Quellformatierung"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Listen-Keep-Quellformatierung"
+"url": "/de/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Listen-Keep-Quellformatierung
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente zusammenführen und dabei die Quellformatierung beibehalten. Diese Funktion ist für Szenarien unerlässlich, in denen es entscheidend ist, das ursprüngliche Erscheinungsbild der Dokumente beizubehalten.
+In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente zusammenführen und dabei die Quellformatierung beibehalten. Diese Funktion ist unerlässlich, wenn das ursprüngliche Erscheinungsbild der Dokumente erhalten bleiben soll.
 
 ## Voraussetzungen
 
-Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie fortfahren, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.Words für .NET installiert. Sie können es herunterladen von[Hier](https://releases.aspose.com/words/net/).
+- Aspose.Words für .NET installiert. Sie können es herunterladen von [Hier](https://releases.aspose.com/words/net/).
 - Grundlegende Kenntnisse der C#-Programmierung und der .NET-Umgebung.
 
 ## Namespaces importieren
@@ -35,12 +37,12 @@ using Aspose.Words;
 
 ## Schritt 1: Richten Sie Ihr Projekt ein
 
-Beginnen Sie mit der Erstellung eines neuen C#-Projekts in Visual Studio. Stellen Sie sicher, dass in Ihrem Projekt auf Aspose.Words für .NET verwiesen wird. Wenn nicht, können Sie es über den NuGet-Paket-Manager hinzufügen.
+Erstellen Sie zunächst ein neues C#-Projekt in Visual Studio. Stellen Sie sicher, dass Aspose.Words für .NET in Ihrem Projekt referenziert wird. Falls nicht, können Sie es über den NuGet-Paket-Manager hinzufügen.
 
 ## Schritt 2: Dokumentvariablen initialisieren
 
 ```csharp
-// Pfad zu Ihrem Dokumentverzeichnis
+// Pfad zu Ihrem Dokumentverzeichnis 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Quell- und Zieldokumente laden
@@ -64,9 +66,9 @@ Den Inhalt des Quelldokuments anhängen (`srcDoc`) zum Zieldokument (`dstDoc`) u
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## Schritt 5: Zusammengeführtes Dokument speichern
+## Schritt 5: Speichern Sie das zusammengeführte Dokument
 
-Speichern Sie abschließend das zusammengeführte Dokument im angegebenen Verzeichnis:
+Speichern Sie abschließend das zusammengeführte Dokument in Ihrem angegebenen Verzeichnis:
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.ListKeepSourceFormatting.docx");
@@ -74,7 +76,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.ListKeepSourceFormatting.docx");
 
 ## Abschluss
 
-Zusammenfassend lässt sich sagen, dass das Zusammenführen von Dokumenten unter Beibehaltung ihrer ursprünglichen Formatierung mit Aspose.Words für .NET ganz einfach ist. Dieses Tutorial hat Sie durch den Prozess geführt und sichergestellt, dass Ihr zusammengeführtes Dokument das Layout und den Stil des Quelldokuments beibehält.
+Zusammenfassend lässt sich sagen, dass das Zusammenführen von Dokumenten unter Beibehaltung der ursprünglichen Formatierung mit Aspose.Words für .NET unkompliziert ist. Dieses Tutorial hat Sie durch den Prozess geführt und sichergestellt, dass Ihr zusammengeführtes Dokument das Layout und den Stil des Quelldokuments beibehält.
 
 ## Häufig gestellte Fragen
 
@@ -91,10 +93,15 @@ Ja, Aspose.Words unterstützt .NET Core vollständig und ermöglicht plattformü
 Aspose.Words bietet effiziente APIs zur Dokumentbearbeitung, die auch bei großen Dokumenten auf Leistung optimiert sind.
 
 ### Wo finde ich weitere Beispiele und Dokumentation?
- Weitere Beispiele und eine ausführliche Dokumentation finden Sie unter[Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/).
+Weitere Beispiele und eine ausführliche Dokumentation finden Sie unter [Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

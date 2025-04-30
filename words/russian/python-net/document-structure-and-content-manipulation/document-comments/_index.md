@@ -1,14 +1,16 @@
 ---
-title: Использование функций комментариев в документах Word
-linktitle: Использование функций комментариев в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как использовать функции комментариев в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом. Улучшите совместную работу и оптимизируйте рецензии в документах.
-weight: 11
-url: /ru/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Узнайте, как использовать функции комментариев в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом. Улучшите совместную работу и оптимизируйте рецензии в документах."
+"linktitle": "Использование функций комментариев в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Использование функций комментариев в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование функций комментариев в документах Word
@@ -22,7 +24,7 @@ url: /ru/python-net/document-structure-and-content-manipulation/document-comment
 
 ## Настройка Aspose.Words для Python
 
- Для начала вам необходимо установить Aspose.Words для Python. Вы можете скачать библиотеку с сайта[Aspose.Words for Python](https://releases.aspose.com/words/python/) Ссылка для скачивания. После скачивания вы можете установить его с помощью pip:
+Для начала вам необходимо установить Aspose.Words for Python. Вы можете скачать библиотеку с сайта  [Aspose.Words для Python](https://releases.aspose.com/words/python/) Ссылка для скачивания. После скачивания вы можете установить его с помощью pip:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ pip install aspose-words
 ```python
 import aspose.words as aw
 
-# Load the document
+# Загрузить документ
 doc = aw.Document("example.docx")
 
-# Add a comment
+# Добавить комментарий
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# Вставьте комментарий
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -67,21 +69,21 @@ for comment in doc.comments:
 Комментарии часто могут изменяться. Aspose.Words для Python позволяет изменять существующие комментарии и отмечать их как решенные:
 
 ```python
-# Modify a comment's text
+# Изменить текст комментария
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# Разрешить комментарий
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# Получить родительский комментарий и статус.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# И обновите комментарий с отметкой «Готово».
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 Форматирование комментариев улучшает их видимость. Вы можете применить форматирование к комментариям с помощью Aspose.Words для Python:
 
 ```python
-# Apply formatting to a comment
+# Применить форматирование к комментарию
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,7 +103,7 @@ comment.runs[0].font.color = aw.Color.red
 Комментарии приписываются авторам. Aspose.Words для Python позволяет управлять авторами комментариев:
 
 ```python
-# Change the author's name
+# Изменить имя автора
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,10 +113,10 @@ comment.author = "Jane Doe"
 Комментарии можно экспортировать и импортировать для облегчения внешнего сотрудничества:
 
 ```python
-# Export comments to a file
+# Экспортировать комментарии в файл
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# Импортировать комментарии из файла
 doc.import_comments("comments.xml")
 ```
 
@@ -148,14 +150,18 @@ pip install aspose-words
 
 ### Можно ли скрыть или показать комментарии программно с помощью API?
 
- Да, вы можете контролировать видимость комментариев с помощью`comment.visible` свойство в Aspose.Words для Python.
+Да, вы можете контролировать видимость комментариев с помощью `comment.visible` свойство в Aspose.Words для Python.
 
 ### Поддерживает ли Aspose.Words для Python добавление комментариев к определенным диапазонам текста?
 
 Конечно, вы можете добавлять комментарии к определенным фрагментам текста в документе, используя богатый API Aspose.Words для Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

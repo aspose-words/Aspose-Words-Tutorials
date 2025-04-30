@@ -1,14 +1,16 @@
 ---
-title: Aspose.Words for Java でドキュメントからコンテンツを削除する
-linktitle: ドキュメントからコンテンツを削除する
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java を使用して Java で Word 文書からコンテンツを削除する方法を学びます。ページ区切り、セクション区切りなどを削除します。ドキュメント処理を最適化します。
-weight: 16
-url: /ja/java/document-manipulation/removing-content-from-documents/
+"description": "Aspose.Words for Java を使用して、Java で Word 文書からコンテンツを削除する方法を学びましょう。改ページやセクション区切りなどを削除し、ドキュメント処理を最適化します。"
+"linktitle": "ドキュメントからコンテンツを削除する"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でドキュメントからコンテンツを削除する"
+"url": "/ja/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java でドキュメントからコンテンツを削除する
@@ -16,11 +18,11 @@ url: /ja/java/document-manipulation/removing-content-from-documents/
 
 ## Aspose.Words for Java の紹介
 
-削除手法について詳しく説明する前に、Aspose.Words for Java について簡単に紹介します。これは、Word 文書を操作するための広範な機能を提供する Java API です。このライブラリを使用すると、Word 文書をシームレスに作成、編集、変換、操作できます。
+削除手法の詳細に入る前に、Aspose.Words for Javaについて簡単に紹介しましょう。これは、Word文書を操作するための幅広い機能を提供するJava APIです。このライブラリを使えば、Word文書をシームレスに作成、編集、変換、操作できます。
 
 ## 改ページを削除する
 
-ページ区切りは、ドキュメントのレイアウトを制御するためによく使用されます。ただし、ページ区切りを削除する必要がある場合もあります。Aspose.Words for Java を使用してページ区切りを削除する方法は次のとおりです。
+改ページはドキュメントのレイアウトを制御するためによく使用されます。しかし、改ページを削除する必要がある場合もあります。Aspose.Words for Javaを使用して改ページを削除する方法は次のとおりです。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -38,11 +40,11 @@ for (Paragraph para : (Iterable<Paragraph>) paragraphs) {
 doc.save("Your Directory Path" + "RemoveContent.RemovePageBreaks.docx");
 ```
 
-このコード スニペットは、ドキュメント内の段落を反復処理し、ページ区切りをチェックして削除します。
+このコード スニペットは、ドキュメント内の段落を反復処理し、改ページをチェックして削除します。
 
 ## セクション区切りの削除
 
-セクション区切りは、文書を異なる書式の個別のセクションに分割します。セクション区切りを削除するには、次の手順に従います。
+セクション区切りは、文書を異なる書式のセクションに分割します。セクション区切りを削除するには、次の手順に従います。
 
 ```java
 for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
@@ -51,11 +53,11 @@ for (int i = doc.getSections().getCount() - 2; i >= 0; i--) {
 }
 ```
 
-このコードは、セクションを逆の順序で反復処理し、現在のセクションの内容を最後のセクションと結合してから、コピーされたセクションを削除します。
+このコードは、セクションを逆順に反復処理し、現在のセクションの内容を最後のセクションと結合してから、コピーされたセクションを削除します。
 
 ## フッターの削除
 
-Word 文書のフッターには、ページ番号、日付、その他の情報が含まれることがよくあります。これらを削除する必要がある場合は、次のコードを使用できます。
+Word文書のフッターには、ページ番号、日付、その他の情報が含まれていることがよくあります。これらを削除する必要がある場合は、次のコードを使用できます。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Header and footer types.docx");
@@ -74,7 +76,7 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveFooters.docx");
 
 ## 目次を削除する
 
-目次 (TOC) フィールドは、見出しとそのページ番号をリストする動的なテーブルを生成します。TOC を削除するには、次のコードを使用します。
+目次（TOC）フィールドは、見出しとそのページ番号をリストする動的な表を生成します。TOCを削除するには、次のコードを使用します。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
@@ -82,12 +84,12 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
-このコードはメソッドを定義します`removeTableOfContents`指定された目次をドキュメントから削除します。
+このコードはメソッドを定義します `removeTableOfContents` 指定された目次をドキュメントから削除します。
 
 
 ## 結論
 
-この記事では、Aspose.Words for Java を使用して Word 文書からさまざまな種類のコンテンツを削除する方法について説明しました。ページ区切り、セクション区切り、フッター、目次など、Aspose.Words は文書を効果的に操作するためのツールを提供します。
+この記事では、Aspose.Words for Java を使用して Word 文書から様々な種類のコンテンツを削除する方法について説明しました。改ページ、セクション区切り、フッター、目次など、Aspose.Words は文書を効果的に操作するためのツールを提供します。
 
 ## よくある質問
 
@@ -105,10 +107,15 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 ### Aspose.Words for Java には他にどのようなドキュメント操作機能がありますか?
 
-Aspose.Words for Java は、ドキュメントの作成、編集、変換など、幅広い機能を提供します。詳細については、ドキュメントを参照してください。
+Aspose.Words for Javaは、ドキュメントの作成、編集、変換など、幅広い機能を提供します。詳細については、ドキュメントをご覧ください。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

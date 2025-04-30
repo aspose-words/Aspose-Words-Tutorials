@@ -1,43 +1,51 @@
 ---
-title: 在 .NET 中使用水平規則创建Word文档
-weight: 7700
-limit: 
-description: 透過Aspose.Words在 .NET中建立Word文檔,並插入一個平面規則,
-keywords: [Aspose.Words, .NET, Word document, horizontal rule, DocumentBuilder, example, code snippet]
-url: /zh-hant/net/add-content-using-document-builder/insert-horizontal-rule/
+"description": "了解如何使用 Aspose.Words 在 .NET 中建立 Word 文件並透過簡單的程式碼範例插入水平規則。"
+"title": "在 .NET 中建立帶有水平線的 Word 文檔"
+"url": "/zh-hant/net/add-content-using-document-builder/insert-horizontal-rule/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用水平規則建立Word文檔
-這個例子顯示 .NET 使用Aspose.Words來创建Word文檔,並使用DocumentBuilder添加水平規則.
+# 建立帶有水平線的 Word 文檔
+此範例示範如何使用 Aspose.Words for .NET 建立 Word 文件並使用 DocumentBuilder 新增水平規則。請按照以下步驟了解如何有效地格式化您的文件。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-horizontal-rule" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令
-1. 設置Aspose.Words: 在 Visual Studio 中使用 NuGet 包管理器.
-   * 請在視覺工作室開啟您的項目.
-   * 在解決方案探險器中右鍵點擊您的項目.
-   * 選擇 管理 NuGet 包.
-   * 搜尋`"說話. 字"`請您繼續閱讀更多內容
 
-2. 加入使用指令:在您的代碼檔案中, 加入以下指令,
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安裝說明
+1. 安裝 Aspose.Words：在 Visual Studio 中使用 NuGet 套件管理器。
+   - 在 Visual Studio 中開啟您的專案。
+   - 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
+   - 選擇管理 NuGet 套件。
+   - 搜尋 `Aspose.Words` 並安裝它。
+
+2. 新增使用指令：在您的程式碼檔案中，包含以下指令以使用 Aspose.Words 類別：
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menangani Bidang dan Data dalam Dokumen Word
-linktitle: Menangani Bidang dan Data dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara menangani kolom dan data dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk konten dinamis, otomatisasi, dan banyak lagi.
-weight: 12
-url: /id/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Pelajari cara menangani kolom dan data dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk konten dinamis, otomatisasi, dan banyak lagi."
+"linktitle": "Menangani Bidang dan Data dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menangani Bidang dan Data dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menangani Bidang dan Data dalam Dokumen Word
@@ -26,7 +28,7 @@ Kolom adalah tempat penampung dalam dokumen yang menampilkan data secara dinamis
 
 ## Memasukkan Bidang Sederhana
 
- Untuk memasukkan bidang, Anda dapat menggunakan`FieldBuilder` kelas. Misalnya, untuk memasukkan kolom tanggal saat ini:
+Untuk memasukkan bidang, Anda dapat menggunakan `FieldBuilder` kelas. Misalnya, untuk memasukkan kolom tanggal saat ini:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## Mengekstrak Data dari Bidang
 
- Anda dapat mengekstrak data lapangan menggunakan`Field` kelas:
+Anda dapat mengekstrak data lapangan menggunakan `Field` kelas:
 
 ```python
 field = doc.range.fields[0]
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Kolom dapat membuat hyperlink dan referensi silang:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Kunjungi situs web kami"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## Menyesuaikan Format Bidang
@@ -112,7 +114,7 @@ Penanganan kolom dan data secara efektif dalam dokumen Word memungkinkan Anda me
 
 ### Bagaimana cara memperbarui nilai bidang secara manual?
 
- Untuk memperbarui nilai bidang secara manual, pilih bidang dan tekan`F9`.
+Untuk memperbarui nilai bidang secara manual, pilih bidang dan tekan `F9`.
 
 ### Dapatkah saya menggunakan kolom di area header dan footer?
 
@@ -132,10 +134,15 @@ Ya, bidang dapat ditumpuk satu sama lain untuk membuat konten dinamis yang kompl
 
 ## Akses Lebih Banyak Sumber Daya
 
- Untuk informasi lebih rinci dan contoh kode, kunjungi[Aspose.Words untuk referensi API Python](https://reference.aspose.com/words/python-net/) Untuk mengunduh versi terbaru perpustakaan, kunjungi[Halaman unduhan Aspose.Words untuk Python](https://releases.aspose.com/words/python/).
+Untuk informasi lebih rinci dan contoh kode, kunjungi [Aspose.Words untuk referensi API Python](https://reference.aspose.com/words/python-net/)Untuk mengunduh versi terbaru perpustakaan, kunjungi [Halaman unduhan Aspose.Words untuk Python](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zarządzanie tabelami i układami w dokumentach
-linktitle: Zarządzanie tabelami i układami w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak skutecznie zarządzać tabelami i układami w dokumentach Java za pomocą Aspose.Words. Uzyskaj wskazówki krok po kroku i przykłady kodu źródłowego do bezproblemowego zarządzania układem dokumentu.
-weight: 10
-url: /pl/java/table-processing/managing-tables-layouts/
+"description": "Dowiedz się, jak skutecznie zarządzać tabelami i układami w dokumentach Java za pomocą Aspose.Words. Uzyskaj wskazówki krok po kroku i przykłady kodu źródłowego do bezproblemowego zarządzania układem dokumentu."
+"linktitle": "Zarządzanie tabelami i układami w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Zarządzanie tabelami i układami w dokumentach"
+"url": "/pl/java/table-processing/managing-tables-layouts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zarządzanie tabelami i układami w dokumentach
@@ -24,7 +26,7 @@ Zanim zagłębimy się w szczegóły techniczne, krótko omówmy, dlaczego zarz�
 
 ## Pierwsze kroki z Aspose.Words dla Java
 
- Aby rozpocząć naszą podróż, musisz mieć zainstalowany i skonfigurowany Aspose.Words for Java. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/words/java/)Po zainstalowaniu biblioteki możesz wykorzystać jej możliwości do efektywnego zarządzania tabelami i układami.
+Aby rozpocząć naszą podróż, musisz mieć zainstalowany i skonfigurowany Aspose.Words for Java. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/words/java/). Po zainstalowaniu biblioteki możesz wykorzystać jej możliwości do efektywnego zarządzania tabelami i układami.
 
 ## Podstawowe zarządzanie tabelami
 
@@ -88,7 +90,7 @@ table.getRows().get(0).getCells().get(1).getCellFormat().setHorizontalMerge(Cell
 
 ### Dzielenie komórek
 
-Jeśli połączyłeś komórki i musisz je rozdzielić, Aspose.Words oferuje prostą metodę, aby to zrobić:
+Jeśli połączyłeś komórki i musisz je rozdzielić, Aspose.Words oferuje prostą metodę:
 
 ```java
 table.getRows().get(0).getCells().get(0).getCellFormat().setHorizontalMerge(CellMerge.NONE);
@@ -107,29 +109,34 @@ table.getRows().get(0).getCells().get(0).getParagraphs().get(0).getRuns().get(0)
 ## Często zadawane pytania (FAQ)
 
 ### Jak ustawić konkretną szerokość tabeli?
- Aby ustawić określoną szerokość tabeli, użyj`setPreferredWidth` metodę, jak pokazano w naszym przykładzie.
+Aby ustawić określoną szerokość tabeli, użyj `setPreferredWidth` metodę, jak pokazano w naszym przykładzie.
 
 ### Czy mogę scalić komórki w tabeli?
 Tak, możesz scalać komórki w tabeli za pomocą Aspose.Words, jak pokazano w przewodniku.
 
 ### Co zrobić, jeśli muszę rozdzielić wcześniej scalone komórki?
- Nie martw się! Możesz łatwo podzielić wcześniej połączone komórki, ustawiając ich właściwość scalania poziomego na`NONE`.
+Nie martw się! Możesz łatwo podzielić wcześniej połączone komórki, ustawiając ich właściwość scalania poziomego na `NONE`.
 
 ### Jak dodać podział strony przed tabelą?
-Aby wstawić podział strony przed tabelą, zmodyfikuj czcionkę`PageBreakBefore` nieruchomość jak pokazano.
+Aby wstawić podział strony przed tabelą, zmodyfikuj czcionkę `PageBreakBefore` nieruchomość jak pokazano.
 
 ### Czy Aspose.Words jest kompatybilny z różnymi formatami dokumentów?
 Oczywiście! Aspose.Words for Java obsługuje różne formaty dokumentów, co czyni go wszechstronnym wyborem do zarządzania dokumentami.
 
 ### Gdzie mogę znaleźć więcej dokumentacji i materiałów?
- Aby uzyskać szczegółową dokumentację i dodatkowe zasoby, odwiedź dokumentację Aspose.Words for Java[Tutaj](https://reference.aspose.com/words/java/).
+Aby uzyskać szczegółową dokumentację i dodatkowe zasoby, odwiedź dokumentację Aspose.Words for Java [Tutaj](https://reference.aspose.com/words/java/).
 
 ## Wniosek
 
-W tym kompleksowym przewodniku zbadaliśmy tajniki zarządzania tabelami i układami w dokumentach przy użyciu Aspose.Words for Java. Od podstawowego tworzenia tabel po zaawansowaną manipulację układem, masz teraz wiedzę i przykłady kodu źródłowego, aby zwiększyć możliwości przetwarzania dokumentów. Pamiętaj, że skuteczny układ dokumentu jest niezbędny do tworzenia profesjonalnie wyglądających dokumentów, a Aspose.Words zapewnia narzędzia, aby to osiągnąć.
+tym kompleksowym przewodniku zbadaliśmy tajniki zarządzania tabelami i układami w dokumentach przy użyciu Aspose.Words for Java. Od podstawowego tworzenia tabel po zaawansowaną manipulację układem, masz teraz wiedzę i przykłady kodu źródłowego, aby zwiększyć możliwości przetwarzania dokumentów. Pamiętaj, że skuteczny układ dokumentu jest niezbędny do tworzenia profesjonalnie wyglądających dokumentów, a Aspose.Words zapewnia narzędzia, aby to osiągnąć.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

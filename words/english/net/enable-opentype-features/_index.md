@@ -7,8 +7,11 @@ weight: 40
 url: /net/enable-opentype-features/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enable OpenType features
@@ -20,9 +23,13 @@ Learn how to enable OpenType features in your Word documents with Aspose.Words f
 | --- | --- |
 | [Open Type Features](./open-type-features/) | Learn how to enable OpenType features in Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

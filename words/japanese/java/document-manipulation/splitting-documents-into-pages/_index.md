@@ -1,42 +1,44 @@
 ---
-title: Aspose.Words for Java でドキュメントをページに分割する
-linktitle: ドキュメントをページに分割する
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java を使用してドキュメントをページに分割する方法を学びます。効率的なドキュメント処理のためのソース コード付きのステップ バイ ステップ ガイド。
-weight: 23
-url: /ja/java/document-manipulation/splitting-documents-into-pages/
+"description": "Aspose.Words for Javaを使用してドキュメントをページに分割する方法を学びましょう。効率的なドキュメント処理のためのソースコード付きのステップバイステップガイドです。"
+"linktitle": "ドキュメントをページに分割する"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でドキュメントをページに分割する"
+"url": "/ja/java/document-manipulation/splitting-documents-into-pages/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Words for Java でドキュメントをページに分割する
 
 
-Java でドキュメント処理を行っている場合、Aspose.Words for Java は、ドキュメントを効率的に個別のページに分割するのに役立つ強力な API です。このステップバイステップのチュートリアルでは、提供されているソース コードを使用してドキュメントを分割するプロセスについて説明します。このチュートリアルを完了すると、ドキュメントを簡単に分割できるようになり、ドキュメント管理機能が向上します。
+Javaでドキュメント処理に取り組んでいる場合、Aspose.Words for Javaは、ドキュメントを効率的に複数のページに分割できる強力なAPIです。このステップバイステップのチュートリアルでは、提供されているソースコードを使用して、ドキュメントを分割するプロセスを順を追って説明します。このチュートリアルを完了すると、ドキュメントを簡単に分割できるようになり、ドキュメント管理能力が向上します。
 
 ## 1. はじめに
 
-Aspose.Words for Java は、Word 文書をプログラムで操作できる Java ライブラリです。一般的なタスクの 1 つは、文書を個別のページに分割することです。これは、アーカイブ、印刷、文書処理など、さまざまな目的に役立ちます。
+Aspose.Words for Javaは、Word文書をプログラムで操作できるJavaライブラリです。よくあるタスクの一つとして、文書を複数のページに分割することが挙げられます。これは、アーカイブ、印刷、文書処理など、様々な用途に役立ちます。
 
 ## 2. 前提条件
 
 コードに進む前に、次の前提条件が満たされていることを確認してください。
 
-- システムに Java 開発キット (JDK) がインストールされています。
-- Aspose.Words for Javaライブラリはダウンロードできます[ここ](https://releases.aspose.com/words/java/).
+- Java Development Kit (JDK) がシステムにインストールされています。
+- Aspose.Words for Javaライブラリはダウンロードできます [ここ](https://releases。aspose.com/words/java/).
 
 ## 3. 環境の設定
 
 まず、開発環境を次のように設定します。
 
 - 好みの統合開発環境 (IDE) で Java プロジェクトを作成します。
-- Aspose.Words for Javaライブラリをプロジェクトに追加します。[ドキュメント](https://reference.aspose.com/words/java/)詳細な手順については、こちらをご覧ください。
+- Aspose.Words for Javaライブラリをプロジェクトに追加します。 [ドキュメント](https://reference.aspose.com/words/java/) 詳細な手順については、こちらをご覧ください。
 
 ## 4. ソースコードの理解
 
-提供されたソース コードは、ドキュメントを個別のページに分割するように設計されています。主要なコンポーネントを分解してみましょう。
+ご提供いただいたソースコードは、ドキュメントを複数のページに分割するように設計されています。主要なコンポーネントを分解してみましょう。
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -56,15 +58,15 @@ Document doc = new Document(docName);
 Document doc = new Document(docName);
 ```
 
-このステップでは、入力文書を`Document`オブジェクトを使用すると、ドキュメントのコンテンツを操作できます。
+このステップでは、入力文書を `Document` オブジェクトを使用して、ドキュメントのコンテンツを操作できます。
 
-### 5.2. DocumentPageSplitter の初期化
+### 5.2. DocumentPageSplitterの初期化
 
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
 
-初期化する`DocumentPageSplitter`読み込まれたドキュメントのオブジェクト。このクラスは Aspose.Words for Java によって提供され、ドキュメントをページに分割するのに役立ちます。
+初期化する `DocumentPageSplitter` 読み込まれたドキュメントのオブジェクトです。このクラスはAspose.Words for Javaによって提供されており、ドキュメントをページに分割するのに役立ちます。
 
 ### 5.3. 各ページの保存
 
@@ -75,26 +77,26 @@ for (int page = 1; page <= doc.getPageCount(); page++) {
 }
 ```
 
-このステップでは、ドキュメントの各ページを反復処理し、個別のドキュメントとして保存します。分割されたページが保存されるディレクトリ パスを指定できます。
+このステップでは、ドキュメントの各ページを反復処理し、個別のドキュメントとして保存します。分割されたページを保存するディレクトリパスを指定できます。
 
 ## 6. コードの実行
 
-このコードを正常に実行するには、環境を設定し、Aspose.Words for Java ライブラリをプロジェクトに追加していることを確認してください。その後、コードを実行すると、ドキュメントが個別のページに分割されます。
+このコードを正常に実行するには、環境設定が完了し、Aspose.Words for Java ライブラリがプロジェクトに追加されていることを確認してください。その後、コードを実行すると、ドキュメントが複数のページに分割されます。
 
 ## DocumentPageSplitter ソースコード
 
 ```java
-//<要約>
+/// <要約>
 /// ドキュメントをページごとに複数のドキュメントに分割します。
-/// </要約>
+/// </サマリー>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-//<要約>
+/// <要約>
 /// <see cref="DocumentPageSplitter"/> クラスの新しいインスタンスを初期化します。
 /// この方法では、ドキュメントをセクションに分割し、各ページがセクション境界で始まり、セクション境界で終わるようにします。
-/// 後でドキュメントを変更しないことをお勧めします。
-/// </要約>
+/// 後からドキュメントを変更しないことをお勧めします。
+/// </サマリー>
 /// <param name="source">ソースドキュメント</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
@@ -103,29 +105,29 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-//<要約>
+/// <要約>
 /// ページのドキュメントを取得します。
-/// </要約>
+/// </サマリー>
 /// <param name="ページインデックス">
 /// ページの 1 から始まるインデックス。
-/// </パラメータ>
+/// </param>
 /// <戻る>
-/// <see cref="Document"/> を参照してください。
+/// <see cref="Document"/>。
 /// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-//<要約>
-//ページ範囲のドキュメントを取得します。
-/// </要約>
+/// <要約>
+/// ページ範囲のドキュメントを取得します。
+/// </サマリー>
 /// <param name="開始インデックス">
 /// スタートページの 1 から始まるインデックス。
-/// </パラメータ>
-/// <param name="endIndex">
+/// </param>
+//<パラメータ名="endIndex">
 /// 終了ページの 1 から始まるインデックス。
-/// </パラメータ>
+/// </param>
 /// <戻る>
-/// <see cref="Document"/> を参照してください。
+/// <see cref="Document"/>。
 /// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
@@ -136,21 +138,21 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-//<要約>
+/// <要約>
 /// 指定されたページにレンダリングされるドキュメントのノードを抽出するためのメソッドを提供します。
-/// </要約>
+/// </サマリー>
 class PageNumberFinder
 {
-//ノードを開始/終了ページ番号にマップします。
-//これは、ドキュメントが分割されるときにコレクターによって提供されるベースライン ページ番号をオーバーライドするために使用されます。
+// ノードを開始/終了ページ番号にマップします。
+// これは、ドキュメントが分割されるときにコレクターによって提供されるベースライン ページ番号をオーバーライドするために使用されます。
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-//ページ番号をそのページで見つかったノードのリストにマップします。
+// ページ番号をそのページにあるノードのリストにマッピングします。
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-//<要約>
+/// <要約>
 /// <see cref="PageNumberFinder"/> クラスの新しいインスタンスを初期化します。
-/// </要約>
+/// </サマリー>
 /// <param name="collector">ドキュメントのレイアウト モデル レコードを持つコレクター インスタンス。</param>
 public PageNumberFinder(LayoutCollector collector)
 {
@@ -160,12 +162,12 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-//<要約>
+/// <要約>
 /// ノードが始まるページの 1 から始まるインデックスを取得します。
-/// </要約>
+/// </サマリー>
 /// <パラメータ名="ノード">
 /// ノード。
-/// </パラメータ>
+/// </param>
 /// <戻る>
 /// ページインデックス。
 /// </returns>
@@ -174,12 +176,12 @@ public int getPage(Node node) throws Exception {
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-//<要約>
+/// <要約>
 /// ノードが終了するページの 1 から始まるインデックスを取得します。
-/// </要約>
+/// </サマリー>
 /// <パラメータ名="ノード">
 /// ノード。
-/// </パラメータ>
+/// </param>
 /// <戻る>
 /// ページインデックス。
 /// </returns>
@@ -188,34 +190,34 @@ public int getPageEnd(Node node) throws Exception {
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-//<要約>
-//指定されたノードが何ページにわたっているかを返します。ノードが 1 ページ内に含まれている場合は 1 を返します。
-/// </要約>
+/// <要約>
+/// 指定されたノードが何ページにまたがるかを返します。ノードが1ページに含まれる場合は1を返します。
+/// </サマリー>
 /// <パラメータ名="ノード">
 /// ノード。
-/// </パラメータ>
+/// </param>
 /// <戻る>
 /// ページインデックス。
 /// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-//<要約>
+/// <要約>
 /// 指定されたページまたは指定されたノード タイプに一致するページの任意の場所に含まれるノードのリストを返します。
-/// </要約>
+/// </サマリー>
 /// <param name="スタートページ">
 /// スタートページ。
-/// </パラメータ>
+/// </param>
 /// <パラメータ名="endPage">
 /// 終了ページ。
-/// </パラメータ>
+/// </param>
 /// <パラメータ名="ノードタイプ">
 /// ノード タイプ。
-/// </パラメータ>
+/// </param>
 /// <戻る>
 /// <see cref="IList{T}"/>。
 /// </returns>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*ノードタイプ*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -229,7 +231,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Nod
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		//一部のページは空になる場合があります。
+		// 一部のページは空になる場合があります。
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -246,10 +248,10 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Nod
 	}
 	return pageNodes;
 }
-//<要約>
-/// 2ページ以上に表示されるノードを別々のノードに分割して、同じように表示されるようにします。
-/// はページ全体に表示されなくなりました。
-/// </要約>
+/// <要約>
+/// 2ページ以上にまたがって表示されるノードを別々のノードに分割して、同じように表示されるようにします
+//ですが、ページ全体に表示されなくなりました。
+/// </サマリー>
 public void splitNodesAcrossPages() throws Exception
 {
 	for (Paragraph paragraph : (Iterable<Paragraph>) collector.getDocument().getChildNodes(NodeType.PARAGRAPH, true))
@@ -260,21 +262,21 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	//ページ間で分割されている可能性のある複合体にアクセスし、それらを個別のノードに分割します。
+	// ページ間で分割されている可能性のある複合体にアクセスし、それらを個別のノードに分割します。
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-//<要約>
+/// <要約>
 /// これは、分割ノードのページ番号を更新するために <see cref="SectionSplitter"/> によって呼び出されます。
-/// </要約>
+/// </サマリー>
 /// <パラメータ名="ノード">
 /// ノード。
-/// </パラメータ>
+/// </param>
 /// <param name="スタートページ">
 /// スタートページ。
-/// </パラメータ>
+/// </param>
 /// <パラメータ名="endPage">
 /// 終了ページ。
-/// </パラメータ>
+/// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
 	if (startPage > 0)
@@ -296,10 +298,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	//各ページで見つかったノードを表すリストに各ノードを追加します。
+	// 各ページで見つかったノードを表すリストに各ノードを追加します。
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		//ヘッダー/フッターはセクションに続き、それ自体では分割されません。
+		// ヘッダー/フッターはセクションに続き、それ自体で分割されることはありません。
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -348,10 +350,10 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-//<要約>
+/// <要約>
 /// 指定された実行のテキストを 2 つの実行に分割します。
 /// 指定された実行の直後に新しい実行を挿入します。
-/// </要約>
+/// </サマリー>
 private void splitRun(Run run, int position)
 {
 	Run afterRun = (Run) run.deepClone(true);
@@ -378,9 +380,9 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-//<要約>
-/// 各ページがセクション境界で始まり、セクション境界で終わるように、ドキュメントを複数のセクションに分割します。
-/// </要約>
+/// <要約>
+/// 各ページがセクションの境界で始まり、セクションの境界で終わるように、ドキュメントを複数のセクションに分割します。
+/// </サマリー>
 class SectionSplitter extends DocumentVisitor
 {
 private PageNumberFinder pageNumberFinder;
@@ -408,8 +410,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	//前のセクションがある場合は、リンクされたヘッダー フッターをコピーしてみます。
-	//そうしないと、前のセクションが欠落している場合、抽出されたドキュメントに表示されません。
+	// 前のセクションがある場合は、リンクされたヘッダー フッターをコピーしてみます。
+	// そうしないと、前のセクションが欠落している場合、抽出されたドキュメントに表示されません。
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -452,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	//段落にセクション区切りのみが含まれる場合は、偽の run into を追加します。
+	// 段落にセクション区切りのみが含まれる場合は、偽のセクション区切りを追加します。
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -464,15 +466,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		//複製された段落からリスト番号を削除しますが、インデントはそのままにします
-		//段落は前の項目の一部であるはずだからです。
+		// 複製された段落からリスト番号を削除しますが、インデントはそのままにします 
+		// この段落は前の項目の一部であるはずだからです。
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		//追加の間隔によって見た目が変わる可能性があるため、表内の分割された段落の間隔をリセットします。
+		// 間隔を追加すると見た目が変わる可能性があるため、表内の分割された段落の間隔をリセットします。
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -491,14 +493,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		//セクションの末尾のページ区切りを修正します。
+		// セクションの末尾のページ区切りを修正します。
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	//セクションの本文にも新しいページ番号を追加します。
+	// セクションの本文にも新しいページ番号を追加します。
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return VisitorAction.CONTINUE;
+	return 訪問者アクション.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -514,8 +516,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	//ノードは複数のページにまたがる場合があるため、分割された位置のリストが返されます。
-	//分割ノードは次のページの最初のノードになります。
+	// ノードは複数のページにまたがる場合があるため、分割された位置のリストが返されます。
+	// 分割ノードは次のページの最初のノードになります。
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -528,8 +530,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		//子ノードのページが変更された場合、これが分割位置になります。
-		//これをリストに追加します。
+		// 子ノードのページが変更された場合、これが分割位置になります。
+		// これをリストに追加します。
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -540,7 +542,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	//複合物を後方に分割して、複製されたノードが正しい順序で挿入されるようにします。
+	// 複合を後方に分割して、複製されたノードが正しい順序で挿入されるようにします。
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -548,7 +550,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	//次のページで見つかったすべてのノードをコピーしたノードに移動します。行ノードは個別に処理します。
+	// 次のページで見つかったすべてのノードをコピーしたノードに移動します。行ノードは個別に処理します。
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -568,7 +570,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		//行を扱う場合は、複製された行にダミー セルを追加する必要があります。
+		// 行を扱う場合は、複製された行にダミー セルを追加する必要があります。
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -594,10 +596,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	//元のノードの後に分割ノードを挿入します。
+	// 元のノードの後に分割ノードを挿入します。
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	//ベース ノードとクローン ノード (およびその子孫) の新しいページ番号を更新します。
-	//複製された複合ページは 1 ページに分割されるため、これは 1 ページのみになります。
+	// ベース ノードとクローン ノード (その子孫を含む) の新しいページ番号を更新します。
+	// クローンされた複合ページは 1 ページに分割されるため、これは 1 ページのみになります。
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,8 +670,8 @@ private static void removePageBreak(Run run)
 
 ## 結論
 
-Aspose.Words for Java を使用してドキュメントを個別のページに分割する方法を学習しました。このガイドでは、ソース コードの例を含む包括的なステップ バイ ステップのチュートリアルを提供します。ドキュメントを操作するときに、特定の要件を満たすようにこのコードをさらにカスタマイズおよび拡張できます。
-もちろんです! Aspose.Words for Java を使用してドキュメントをページに分割する方法に関するガイドに FAQ セクションを追加しましょう。
+Aspose.Words for Java を使用してドキュメントを複数のページに分割する方法を学習しました。このガイドでは、ソースコード例を交えた包括的なステップバイステップのチュートリアルを提供しています。ドキュメント操作の際には、このコードをさらにカスタマイズして拡張することで、特定の要件を満たすことができます。
+もちろんです！Aspose.Words for Java を使用してドキュメントをページに分割する方法に関するガイドに FAQ セクションを追加しましょう。
 
 ## よくある質問
 
@@ -677,32 +679,37 @@ Aspose.Words for Java を使用してドキュメントを個別のページに�
 
 Aspose.Words for Java をプロジェクトに追加するには、次の手順に従います。
 
-1.  Aspose.Words for Javaライブラリを以下からダウンロードしてください。[ここ](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Javaライブラリを以下からダウンロードしてください。 [ここ](https://releases。aspose.com/words/java/).
 2. ダウンロードした JAR ファイルをプロジェクトのクラスパスに追加します。
 3. これで、プロジェクトで Aspose.Words for Java の使用を開始できます。
 
 ### PDF や DOCX などの他の形式でドキュメントを分割できますか?
 
-いいえ、このガイドでは、Aspose.Words for Java を使用して DOC 形式のドキュメントを分割する方法について説明します。他の形式のドキュメントを分割する必要がある場合は、それらの形式をサポートする他のライブラリまたはツールを調べる必要がある場合があります。
+いいえ、このガイドではAspose.Words for Javaを使用したDOC形式のドキュメントの分割についてのみ説明しています。他の形式のドキュメントを分割する必要がある場合は、それらの形式をサポートする他のライブラリやツールを探す必要があるかもしれません。
 
 ### Aspose.Words for Java は無料のライブラリですか?
 
-いいえ、Aspose.Words for Javaは無料ライブラリではありません。ライセンス料がかかる商用製品です。[Aspose.Words for Java の価格ページ](https://purchase.aspose.com/words/java)ライセンスと価格の詳細については、こちらをご覧ください。
+いいえ、Aspose.Words for Javaは無料ライブラリではありません。ライセンス料がかかる商用製品です。 [Aspose.Words for Java の価格ページ](https://purchase.aspose.com/words/java) ライセンスと価格の詳細については、こちらをご覧ください。
 
-### ドキュメントをカスタムのページ サイズと形式に分割できますか?
+### ドキュメントをカスタムページサイズと形式に分割できますか?
 
-はい、Aspose.Words for Java のページ設定プロパティを変更することで、分割されたドキュメントのページ サイズと形式をカスタマイズできます。要件に応じてページ設定をカスタマイズする方法の詳細については、Aspose.Words のドキュメントを参照してください。
+はい、Aspose.Words for Javaのページ設定プロパティを変更することで、分割されたドキュメントのページサイズとフォーマットをカスタマイズできます。要件に応じてページ設定をカスタマイズする方法の詳細については、Aspose.Wordsのドキュメントをご覧ください。
 
 ### 分割できるページ数に制限はありますか?
 
-Aspose.Words for Java では、分割できるページ数に特別な制限はありません。ただし、非常に大きなドキュメントでは、より多くのメモリと処理時間が必要になる場合があることに注意してください。大きなドキュメントを扱うときは、システム リソースに注意してください。
+Aspose.Words for Java では、分割できるページ数に特に制限はありません。ただし、非常に大きなドキュメントでは、より多くのメモリと処理時間が必要になる場合があることにご注意ください。大きなドキュメントを扱う際は、システムリソースに十分ご注意ください。
 
 ### ドキュメントを分割するときにヘッダーとフッターをどのように処理すればよいですか?
 
-Aspose.Words for Java ライブラリを使用すると、ドキュメントを分割するときにヘッダーとフッターを処理できます。元のドキュメントから分割されたドキュメントにヘッダーとフッターの内容をコピーして、正しく保持されるようにすることができます。特定のヘッダーとフッターの要件に基づいて、このプロセスをカスタマイズする必要がある場合があります。
+Aspose.Words for Javaライブラリを使用すると、ドキュメントを分割する際にヘッダーとフッターを処理できます。元のドキュメントから分割後のドキュメントにヘッダーとフッターの内容をコピーすることで、正しく保持されます。この処理は、特定のヘッダーとフッターの要件に応じてカスタマイズする必要があるかもしれません。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

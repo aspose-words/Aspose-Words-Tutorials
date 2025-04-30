@@ -1,14 +1,16 @@
 ---
-title: Настройте отдельные серии диаграмм в диаграмме
-linktitle: Настройте отдельные серии диаграмм в диаграмме
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить отдельные серии диаграмм в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойного опыта.
-weight: 10
-url: /ru/net/programming-with-charts/single-chart-series/
+"description": "Узнайте, как настроить отдельные серии диаграмм в документе Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для бесперебойного опыта."
+"linktitle": "Настройте отдельные серии диаграмм в диаграмме"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Настройте отдельные серии диаграмм в диаграмме"
+"url": "/ru/net/programming-with-charts/single-chart-series/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройте отдельные серии диаграмм в диаграмме
@@ -21,9 +23,9 @@ url: /ru/net/programming-with-charts/single-chart-series/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое. Вот краткий контрольный список:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: подойдет любая последняя версия.
-3. Базовое понимание C#: Ничего сверхсложного, достаточно основ.
+3. Базовое понимание C#: ничего сверхсложного, достаточно основ.
 
 ## Импорт пространств имен
 
@@ -118,19 +120,24 @@ doc.Save(dataDir + "WorkingWithCharts.SingleChartSeries.docx");
 Aspose.Words для .NET — это мощная библиотека, позволяющая создавать, редактировать, конвертировать и обрабатывать документы Word программным способом.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
-Да, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/).
+Да, вы можете начать с [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Как получить поддержку по Aspose.Words?
- Вы можете получить поддержку от сообщества Aspose на их сайте[форум](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose на их сайте [форум](https://forum.aspose.com/c/words/8).
 
 ### Можно ли настроить другие типы диаграмм?
 Конечно! Aspose.Words поддерживает различные типы диаграмм, такие как столбчатые, круговые и точечные диаграммы.
 
 ### Где я могу найти дополнительную документацию?
- Проверьте[документация](https://reference.aspose.com/words/net/) для более подробных руководств и примеров.
+Проверьте [документация](https://reference.aspose.com/words/net/) для более подробных руководств и примеров.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

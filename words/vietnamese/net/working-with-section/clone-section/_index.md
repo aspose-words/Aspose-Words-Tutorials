@@ -1,14 +1,16 @@
 ---
-title: Sao chép phần trong tài liệu Word
-linktitle: Sao chép phần trong Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sao chép các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm hướng dẫn từng bước để thao tác tài liệu hiệu quả.
-weight: 10
-url: /vi/net/working-with-section/clone-section/
+"description": "Tìm hiểu cách sao chép các phần trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm hướng dẫn từng bước để thao tác tài liệu hiệu quả."
+"linktitle": "Sao chép phần trong Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sao chép phần trong tài liệu Word"
+"url": "/vi/net/working-with-section/clone-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép phần trong tài liệu Word
@@ -22,14 +24,14 @@ Xin chào, các bạn lập trình viên! 🚀 Bạn đã bao giờ thấy mình
 
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Tải phiên bản mới nhất từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Tải phiên bản mới nhất từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Biết những kiến thức cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn.
 4. Một tài liệu Word mẫu: Chúng tôi sẽ sử dụng một tài liệu mẫu để trình bày quy trình sao chép.
 
 ## Nhập không gian tên
 
-Để bắt đầu, chúng ta cần nhập các không gian tên cần thiết. Những không gian tên này sẽ cho phép chúng ta truy cập các lớp và phương thức do Aspose.Words cung cấp.
+Để bắt đầu, chúng ta cần nhập các không gian tên cần thiết. Chúng sẽ cho phép chúng ta truy cập các lớp và phương thức do Aspose.Words cung cấp.
 
 ```csharp
 using Aspose.Words;
@@ -46,7 +48,7 @@ Trước tiên, hãy thiết lập tài liệu Word của chúng ta. Tài liệu
 Sau đây là cách khởi tạo một tài liệu mới:
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ Sau khi sao chép và thêm phần, bước cuối cùng là lưu tài liệu c�
 doc.Save(dataDir + "ClonedDocument.docx");
 ```
 
- Thay thế`"dataDir + "ClonedDocument.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word của bạn, hoàn chỉnh với phần đã sao chép.
+Thay thế `"dataDir + "ClonedDocument.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word của bạn, hoàn chỉnh với phần đã sao chép.
 
 ## Hướng dẫn từng bước
 
@@ -103,7 +105,7 @@ Chúng ta hãy chia nhỏ ví dụ thành hướng dẫn chi tiết từng bư�
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt thư viện Aspose.Words và chuẩn bị sẵn một tài liệu Word mẫu.
 
-1.  Tải xuống và cài đặt Aspose.Words: Tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Tải xuống và cài đặt Aspose.Words: Tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Thiết lập dự án của bạn: Mở Visual Studio và tạo một dự án .NET mới.
 3. Thêm tham chiếu Aspose.Words: Bao gồm thư viện Aspose.Words vào dự án của bạn.
 
@@ -112,7 +114,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt t
 Tải tài liệu bạn muốn thao tác. Tài liệu này sẽ là cơ sở cho các hoạt động của chúng tôi.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
@@ -158,7 +160,7 @@ Có, bạn có thể sao chép nhiều phần bằng cách lặp qua bộ sưu t
 
 ### Làm thế nào để tùy chỉnh phần đã sao chép?
 
- Bạn có thể tùy chỉnh phần đã sao chép bằng cách sửa đổi các thuộc tính và nội dung của nó sau khi sao chép. Sử dụng`Section` phương thức và thuộc tính của lớp để thực hiện thay đổi.
+Bạn có thể tùy chỉnh phần đã sao chép bằng cách sửa đổi các thuộc tính và nội dung của nó sau khi sao chép. Sử dụng `Section` phương thức và thuộc tính của lớp để thực hiện thay đổi.
 
 ### Aspose.Words có tương thích với các phiên bản Word khác nhau không?
 
@@ -166,10 +168,15 @@ Có, Aspose.Words hỗ trợ nhiều định dạng Word, bao gồm DOC, DOCX, R
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Words ở đâu?
 
- Để biết thêm thông tin, bạn có thể truy cập[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
+Để biết thêm thông tin, bạn có thể truy cập [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: Bir Grafikteki Veri Etiketinin Biçim Numarası
-linktitle: Bir Grafikteki Veri Etiketinin Biçim Numarası
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafiklerdeki veri etiketlerini nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/programming-with-charts/format-number-of-data-label/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafiklerdeki veri etiketlerini nasıl biçimlendireceğinizi öğrenin. Word belgelerinizi zahmetsizce geliştirin."
+"linktitle": "Bir Grafikteki Veri Etiketinin Sayısını Biçimlendir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Bir Grafikteki Veri Etiketinin Sayısını Biçimlendir"
+"url": "/tr/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bir Grafikteki Veri Etiketinin Biçim Numarası
+# Bir Grafikteki Veri Etiketinin Sayısını Biçimlendir
 
 ## giriiş
 
@@ -21,12 +23,12 @@ url: /tr/net/programming-with-charts/format-number-of-data-label/
 
 Koda dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
--  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Henüz yüklemediyseniz,[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Henüz yüklemediyseniz, [buradan indirin](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: .NET geliştirme ortamını kurmuş olmanız gerekir. Visual Studio şiddetle tavsiye edilir.
 - Temel C# Bilgisi: Bu eğitim C# kodunu yazmayı ve anlamayı içerdiğinden, C# programlamaya aşinalık şarttır.
--  Geçici Lisans: Aspose.Words'ü herhangi bir sınırlama olmaksızın kullanmak için,[geçici lisans](https://purchase.aspose.com/temporary-license/).
+- Geçici Lisans: Aspose.Words'ü herhangi bir sınırlama olmaksızın kullanmak için, [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
-Şimdi, bir grafikteki sayı etiketlerinin biçimlendirilmesinin adım adım sürecine bakalım.
+Şimdi, bir grafikteki sayı etiketlerinin biçimlendirilmesinin adım adım sürecine bir göz atalım.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -46,11 +48,11 @@ Word belgenizi düzenlemeye başlamadan önce, belgenizin kaydedileceği dizini 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
 
 ## Adım 2: Belgeyi ve Belge Oluşturucuyu Başlatın
 
- Bir sonraki adım yeni bir tane başlatmaktır`Document` ve bir`DocumentBuilder` .`DocumentBuilder` Belgenin içeriğini oluşturmamızı sağlayan yardımcı bir sınıftır.
+Bir sonraki adım yeni bir tane başlatmaktır `Document` ve bir `DocumentBuilder`. `DocumentBuilder` Belgenin içeriğini oluşturmamızı sağlayan yardımcı bir sınıftır.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 3: Belgeye Bir Grafik Ekleyin
 
- Şimdi, belgeye bir grafik ekleyelim`DocumentBuilder`Bu eğitimde örnek olarak bir Çizgi grafiği kullanacağız.
+Şimdi, belgeye bir grafik ekleyelim `DocumentBuilder`Bu eğitimde örnek olarak bir Çizgi grafiği kullanacağız.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Tarih biçimi
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Yüzde formatı
 ```
 
- Ayrıca, bir veri etiketinin biçimini bir kaynak hücreye bağlayabilirsiniz. Bağlandığında,`NumberFormat` genel olarak sıfırlanacak ve kaynak hücreden devralınacaktır.
+Ayrıca, bir veri etiketinin biçimini bir kaynak hücreye bağlayabilirsiniz. Bağlandığında, `NumberFormat` genel olarak sıfırlanacak ve kaynak hücreden devralınacaktır.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -131,17 +133,22 @@ Aspose.Words for .NET, C# kullanarak Word belgelerini programlı olarak oluştur
 Evet, Aspose.Words for .NET çubuk, sütun, pasta ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
-Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Excel'de veri etiketlerini kaynak hücrelere bağlamak mümkün müdür?
 Evet, veri etiketlerini kaynak hücrelere bağlayabilir, böylece sayı biçiminin kaynak hücreden alınmasına olanak sağlayabilirsiniz.
 
 ### Aspose.Words for .NET için daha detaylı dokümanları nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

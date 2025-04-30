@@ -1,14 +1,16 @@
 ---
-title: Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki
-linktitle: Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zoptymalizować dokumenty pod kątem wydajnego przechowywania i udostępniania.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zoptymalizować dokumenty pod kątem wydajnego przechowywania i udostępniania."
+"linktitle": "Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki"
+"url": "/pl/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmniejsz rozmiar pliku PDF, wyłączając osadzone czcionki
@@ -21,7 +23,7 @@ Zmniejszenie rozmiaru plików PDF może mieć kluczowe znaczenie dla wydajnego p
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 
--  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj ze strony[Link do pobrania](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj ze strony [Link do pobrania](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne .NET: popularnym wyborem jest program Visual Studio.
 - Przykładowy dokument Word: Przygotuj plik DOCX, który chcesz przekonwertować na format PDF.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Tutaj,`dataDir` jest symbolem zastępczym dla katalogu, w którym znajduje się Twój dokument. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
+Tutaj, `dataDir` jest symbolem zastępczym dla katalogu, w którym znajduje się Twój dokument. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką.
 
 ## Krok 2: Skonfiguruj opcje zapisywania pliku PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Poprzez ustawienie`FontEmbeddingMode` Do`EmbedNone`, polecamy Aspose.Words, aby nie uwzględniał tych czcionek w pliku PDF, co zmniejszy rozmiar pliku.
+Poprzez ustawienie `FontEmbeddingMode` Do `EmbedNone`, polecamy Aspose.Words, aby nie uwzględniał tych czcionek w pliku PDF, co zmniejszy rozmiar pliku.
 
 ## Krok 3: Zapisz dokument jako PDF
 
@@ -70,7 +72,7 @@ Na koniec zapisujemy dokument jako PDF, korzystając z skonfigurowanych opcji za
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z Twoją rzeczywistą ścieżką katalogu jeszcze raz. Wyjściowy plik PDF zostanie teraz zapisany w określonym katalogu bez osadzonych standardowych czcionek.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z Twoją rzeczywistą ścieżką katalogu jeszcze raz. Wyjściowy plik PDF zostanie teraz zapisany w określonym katalogu bez osadzonych standardowych czcionek.
 
 ## Wniosek
 
@@ -91,11 +93,16 @@ Tak, Aspose.Words dla .NET pozwala na dostosowanie osadzonych czcionek, zapewnia
 Tak, Aspose.Words for .NET zapewnia funkcjonalność potrzebną do konfigurowania opcji osadzania czcionek w plikach PDF.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz odwiedzić[Forum wsparcia](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
+Możesz odwiedzić [Forum wsparcia](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

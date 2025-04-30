@@ -1,14 +1,16 @@
 ---
-title: फ़ील्ड बदलें संस्कृति स्रोत अपडेट करें
-linktitle: फ़ील्ड बदलें संस्कृति स्रोत अपडेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस गाइड के साथ Aspose.Words for .NET में फ़ील्ड अपडेट कल्चर स्रोत को बदलने का तरीका जानें। विभिन्न संस्कृतियों के आधार पर दिनांक स्वरूपण को आसानी से नियंत्रित करें।
-weight: 10
-url: /hi/net/working-with-fields/change-field-update-culture-source/
+"description": "इस गाइड के साथ Aspose.Words for .NET में फ़ील्ड अपडेट कल्चर स्रोत को बदलने का तरीका जानें। विभिन्न संस्कृतियों के आधार पर दिनांक स्वरूपण को आसानी से नियंत्रित करें।"
+"linktitle": "फ़ील्ड बदलें संस्कृति स्रोत अपडेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ील्ड बदलें संस्कृति स्रोत अपडेट करें"
+"url": "/hi/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ील्ड बदलें संस्कृति स्रोत अपडेट करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fields/change-field-update-culture-source/
 
 इससे पहले कि हम कोड में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: कोई भी .NET संगत IDE (जैसे, विज़ुअल स्टूडियो).
 - C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# प्रोग्रामिंग की बुनियादी समझ है।
 
@@ -39,7 +41,7 @@ using Aspose.Words.Fields;
 
 ## चरण 1: दस्तावेज़ को आरंभ करें
 
- पहला कदम एक नया उदाहरण बनाना है`Document` कक्षा और एक`DocumentBuilder`यह हमारे वर्ड दस्तावेज़ के निर्माण और उसमें हेरफेर करने की नींव रखता है।
+पहला कदम एक नया उदाहरण बनाना है `Document` कक्षा और एक `DocumentBuilder`यह हमारे वर्ड दस्तावेज़ के निर्माण और उसमें हेरफेर करने की नींव रखता है।
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## चरण 3: फ़ील्ड अपडेट कल्चर स्रोत सेट करें
 
- फ़ील्ड को अपडेट करते समय उपयोग की जाने वाली संस्कृति को नियंत्रित करने के लिए, हम सेट करते हैं`FieldUpdateCultureSource` की संपत्ति`FieldOptions`वर्ग। यह गुण यह निर्धारित करता है कि संस्कृति फ़ील्ड कोड या दस्तावेज़ से ली गई है या नहीं।
+फ़ील्ड को अपडेट करते समय उपयोग की जाने वाली संस्कृति को नियंत्रित करने के लिए, हम सेट करते हैं `FieldUpdateCultureSource` की संपत्ति `FieldOptions` वर्ग। यह गुण यह निर्धारित करता है कि संस्कृति फ़ील्ड कोड या दस्तावेज़ से ली गई है या नहीं।
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ doc.Save(dataDir + "WorkingWithFields.ChangeFieldUpdateCultureSource.docx");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-###  इसे स्थापित करने का उद्देश्य क्या है?`LocaleId`?
-`LocaleId` पाठ के लिए संस्कृति सेटिंग्स निर्दिष्ट करता है, जो तिथियों और अन्य स्थानीय-संवेदनशील डेटा को प्रारूपित करने के तरीके को प्रभावित करता है।
+### इसे स्थापित करने का उद्देश्य क्या है? `LocaleId`?
+The `LocaleId` पाठ के लिए संस्कृति सेटिंग्स निर्दिष्ट करता है, जो तिथियों और अन्य स्थानीय-संवेदनशील डेटा को प्रारूपित करने के तरीके को प्रभावित करता है।
 
-### क्या मैं जर्मन के अलावा किसी अन्य भाषा का उपयोग कर सकता हूँ?
- हाँ, आप सेट कर सकते हैं`LocaleId`किसी भी वैध स्थानीय पहचानकर्ता के लिए। उदाहरण के लिए, अंग्रेजी (संयुक्त राज्य अमेरिका) के लिए 1033।
+### क्या मैं जर्मन के अलावा किसी अन्य स्थानीय भाषा का उपयोग कर सकता हूँ?
+हाँ, आप सेट कर सकते हैं `LocaleId` किसी भी वैध स्थानीय पहचानकर्ता के लिए। उदाहरण के लिए, अंग्रेजी (संयुक्त राज्य अमेरिका) के लिए 1033।
 
-###  यदि मैं इसे सेट नहीं करता तो क्या होगा?`FieldUpdateCultureSource` property?
+### यदि मैं इसे सेट नहीं करता तो क्या होगा? `FieldUpdateCultureSource` संपत्ति?
 यदि यह गुण सेट नहीं किया गया है, तो फ़ील्ड अपडेट करते समय दस्तावेज़ की डिफ़ॉल्ट कल्चर सेटिंग्स का उपयोग किया जाएगा।
 
 ### क्या फ़ील्ड कोड के बजाय दस्तावेज़ की संस्कृति के आधार पर फ़ील्ड को अपडेट करना संभव है?
- हां, आप सेट कर सकते हैं`FieldUpdateCultureSource` को`FieldUpdateCultureSource.Document` दस्तावेज़ की संस्कृति सेटिंग्स का उपयोग करने के लिए.
+हां, आप सेट कर सकते हैं `FieldUpdateCultureSource` को `FieldUpdateCultureSource.Document` दस्तावेज़ की संस्कृति सेटिंग्स का उपयोग करने के लिए.
 
 ### मैं तिथियों को भिन्न पैटर्न में कैसे प्रारूपित करूं?
- आप दिनांक प्रारूप पैटर्न को बदल सकते हैं`InsertField` विधि को संशोधित करके`\\@` स्विच मूल्य.
+आप दिनांक प्रारूप पैटर्न को बदल सकते हैं `InsertField` विधि को संशोधित करके `\\@` स्विच मूल्य.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 18
 url: /java/document-splitting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Splitting
@@ -41,9 +44,13 @@ Learn how to perform Document Page Separation using Aspose.Words for Java. This 
 Learn how to extract document content by pages using Aspose.Words for Java. This step-by-step guide with source code will make you an expert in no time.
 ### [Document Splitting and Extraction Techniques](./document-splitting-extraction-techniques/)
 Learn document splitting and extraction using Aspose.Words for Java. Step-by-step guide with source code for efficient manipulation. Unlock the power of Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

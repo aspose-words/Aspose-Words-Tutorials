@@ -1,14 +1,16 @@
 ---
-title: Txtsaveoptions के साथ शब्द प्रसंस्करण
-linktitle: Txtsaveoptions के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words में टेक्स्ट फ़ाइल सेविंग विकल्पों के साथ प्रोग्राम करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल और सैंपल कोड के साथ एन्कोडिंग निर्दिष्ट करना, टेक्स्ट फ़ॉर्मेट करना, लाइन ब्रेक प्रबंधित करना और बहुत कुछ सीखें।
-weight: 1700
-url: /hi/net/programming-with-txtsaveoptions/
+"description": ".NET के लिए Aspose.Words में टेक्स्ट फ़ाइल सेविंग विकल्पों के साथ प्रोग्राम करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल और सैंपल कोड के साथ एन्कोडिंग निर्दिष्ट करना, टेक्स्ट फ़ॉर्मेट करना, लाइन ब्रेक प्रबंधित करना और बहुत कुछ सीखें।"
+"linktitle": "Txtsaveoptions के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Txtsaveoptions के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-txtsaveoptions/"
+"weight": 1700
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Txtsaveoptions के साथ शब्द प्रसंस्करण
@@ -22,12 +24,17 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
  ## ट्यूटोरियल
 | शीर्षक | विवरण |
 | --- | --- |
-| [वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें](./add-bidi-marks/) | इस गाइड के साथ Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में द्विदिशात्मक (बीडी) चिह्न जोड़ना सीखें। बहुभाषी सामग्री के लिए उचित पाठ दिशा सुनिश्चित करें। |
-| [सूची इंडेंटेशन के लिए प्रति स्तर टैब वर्ण का उपयोग करें](./use-tab-character-per-level-for-list-indentation/) | .NET के लिए Aspose.Words का उपयोग करके टैब्ड इंडेंटेशन के साथ बहु-स्तरीय सूचियाँ बनाने का तरीका जानें। अपने दस्तावेज़ों में सटीक सूची स्वरूपण के लिए इस गाइड का पालन करें। |
+| [वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें](./add-bidi-marks/) | इस गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में द्विदिशात्मक (बीड़ी) चिह्न जोड़ना सीखें। बहुभाषी सामग्री के लिए उचित पाठ दिशा सुनिश्चित करें। |
+| [सूची इंडेंटेशन के लिए प्रति स्तर टैब वर्ण का उपयोग करें](./use-tab-character-per-level-for-list-indentation/) | .NET के लिए Aspose.Words का उपयोग करके टैब्ड इंडेंटेशन के साथ बहु-स्तरीय सूचियाँ बनाना सीखें। अपने दस्तावेज़ों में सटीक सूची स्वरूपण के लिए इस गाइड का पालन करें। |
 | [सूची इंडेंटेशन के लिए प्रति स्तर स्पेस वर्ण का उपयोग करें](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET में स्पेस कैरेक्टर इंडेंटेशन के साथ मल्टी-लेवल सूचियाँ बनाने का तरीका जानें। सटीक दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शिका। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

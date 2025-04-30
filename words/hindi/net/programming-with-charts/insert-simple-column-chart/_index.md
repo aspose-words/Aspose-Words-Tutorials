@@ -1,14 +1,16 @@
 ---
-title: वर्ड डॉक्यूमेंट में सरल कॉलम चार्ट डालें
-linktitle: वर्ड डॉक्यूमेंट में सरल कॉलम चार्ट डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word में एक सरल कॉलम चार्ट सम्मिलित करना सीखें। गतिशील दृश्य डेटा प्रस्तुतियों के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-charts/insert-simple-column-chart/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word में एक सरल कॉलम चार्ट सम्मिलित करना सीखें। गतिशील दृश्य डेटा प्रस्तुतियों के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।"
+"linktitle": "वर्ड डॉक्यूमेंट में सरल कॉलम चार्ट डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड डॉक्यूमेंट में सरल कॉलम चार्ट डालें"
+"url": "/hi/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड डॉक्यूमेंट में सरल कॉलम चार्ट डालें
@@ -23,7 +25,7 @@ url: /hi/net/programming-with-charts/insert-simple-column-chart/
 
 - C# प्रोग्रामिंग और .NET फ्रेमवर्क का बुनियादी ज्ञान।
 - आपके विकास परिवेश में .NET के लिए Aspose.Words स्थापित है।
-- विजुअल स्टूडियो जैसा विकास परिवेश स्थापित और उपयोग के लिए तैयार।
+- विजुअल स्टूडियो जैसा विकास वातावरण स्थापित और उपयोग के लिए तैयार।
 - वर्ड दस्तावेज़ों को प्रोग्रामेटिक रूप से बनाने और उनमें परिवर्तन करने की जानकारी।
 
 ## नामस्थान आयात करना
@@ -91,7 +93,7 @@ doc.Save(dataDir + "InsertSimpleColumnChart.docx");
 हां, आप चार्ट के विभिन्न पहलुओं जैसे रंग, फ़ॉन्ट और शैलियों को प्रोग्रामेटिक रूप से अनुकूलित कर सकते हैं।
 
 ### क्या Aspose.Words for .NET जटिल चार्ट बनाने के लिए उपयुक्त है?
-बिल्कुल! .NET के लिए Aspose.Words जटिल चार्ट बनाने के लिए चार्ट प्रकारों और अनुकूलन विकल्पों की एक विस्तृत श्रृंखला का समर्थन करता है।
+बिल्कुल! Aspose.Words for .NET जटिल चार्ट बनाने के लिए चार्ट प्रकारों और अनुकूलन विकल्पों की एक विस्तृत श्रृंखला का समर्थन करता है।
 
 ### क्या Aspose.Words for .NET चार्ट को PDF जैसे अन्य प्रारूपों में निर्यात करने का समर्थन करता है?
 हां, आप चार्ट वाले दस्तावेजों को पीडीएफ सहित विभिन्न प्रारूपों में आसानी से निर्यात कर सकते हैं।
@@ -100,10 +102,15 @@ doc.Save(dataDir + "InsertSimpleColumnChart.docx");
 हां, .NET के लिए Aspose.Words आपको बाहरी स्रोतों जैसे डेटाबेस या API से डेटा के साथ चार्ट को गतिशील रूप से पॉप्युलेट करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Words हेतु अधिक संसाधन और समर्थन कहां पा सकता हूं?
- दौरा करना[.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) विस्तृत API संदर्भ और उदाहरणों के लिए। सहायता के लिए, आप यहाँ भी जा सकते हैं[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+दौरा करना [.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/) विस्तृत API संदर्भ और उदाहरणों के लिए। सहायता के लिए, आप यहाँ भी जा सकते हैं [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Web Extensions trong Aspose.Words cho Java
-linktitle: Sử dụng tiện ích mở rộng web
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch.
-weight: 33
-url: /vi/java/document-manipulation/using-web-extensions/
+"description": "Cải thiện Tài liệu bằng Tiện ích mở rộng Web trong Aspose.Words cho Java. Học cách tích hợp nội dung dựa trên web một cách liền mạch."
+"linktitle": "Sử dụng tiện ích mở rộng web"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Web Extensions trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-web-extensions/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Web Extensions trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng tiện í
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Thêm ngăn tác vụ mở rộng web
 
@@ -32,7 +34,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng tiện í
 Document doc = new Document();
 ```
 
-##  Tạo một`TaskPane` instance and add it to the document's web extension task panes:
+## Tạo một `TaskPane` và thêm nó vào ngăn tác vụ mở rộng web của tài liệu:
 
 ```java
 TaskPane taskPane = new TaskPane();
@@ -109,10 +111,15 @@ Mặc dù Aspose.Words for Java cung cấp hỗ trợ mạnh mẽ cho tiện íc
 
 ### Làm thế nào tôi có thể tìm thêm thông tin và tài nguyên về cách sử dụng tiện ích mở rộng web trong Aspose.Words cho Java?
 
- Để biết tài liệu chi tiết và các nguồn tài nguyên về cách sử dụng tiện ích mở rộng web trong Aspose.Words cho Java, bạn có thể tham khảo tài liệu Aspose tại[đây](https://reference.aspose.com/words/java/). Tài liệu này cung cấp thông tin chuyên sâu, ví dụ và hướng dẫn về cách làm việc với tiện ích mở rộng web để nâng cao chức năng của tài liệu.
+Để biết tài liệu chi tiết và các nguồn tài nguyên về cách sử dụng tiện ích mở rộng web trong Aspose.Words cho Java, bạn có thể tham khảo tài liệu Aspose tại [đây](https://reference.aspose.com/words/java/). Tài liệu này cung cấp thông tin chuyên sâu, ví dụ và hướng dẫn về cách làm việc với tiện ích mở rộng web để nâng cao chức năng của tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

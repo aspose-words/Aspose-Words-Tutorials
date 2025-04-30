@@ -1,14 +1,16 @@
 ---
-title: Игнорировать текстовые поля
-linktitle: Игнорировать текстовые поля
-second_title: API обработки документов Aspose.Words
-description: Объединяйте документы Word с Aspose.Words для .NET, гарантируя сохранение форматирования текстовых полей. Следуйте этому пошаговому руководству для бесперебойной обработки документов.
-weight: 10
-url: /ru/net/join-and-append-documents/ignore-text-boxes/
+"description": "Объединяйте документы Word с Aspose.Words для .NET, гарантируя сохранение форматирования текстовых полей. Следуйте этому пошаговому руководству для бесперебойной обработки документов."
+"linktitle": "Игнорировать текстовые поля"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Игнорировать текстовые поля"
+"url": "/ru/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Игнорировать текстовые поля
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/ignore-text-boxes/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Загрузить[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Загрузить [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки .NET: Visual Studio или любая другая предпочитаемая IDE.
 3. Базовые знания C#: понимание основных концепций программирования на C#.
 
@@ -52,7 +54,7 @@ using Aspose.Words.Importing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 3: Загрузите документы
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Шаг 4: Настройте параметры импорта
 
- Чтобы гарантировать сохранение форматирования текстовых полей, установите`IgnoreTextBoxes` возможность`false`.
+Чтобы сохранить форматирование текстовых полей, установите `IgnoreTextBoxes` возможность `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## Шаг 5: Инициализация импортера узлов
 
- Инициализируйте`NodeImporter` для импорта узлов из исходного документа в целевой документ.
+Инициализируйте `NodeImporter` для импорта узлов из исходного документа в целевой документ.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -114,23 +116,28 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.IgnoreTextBoxes.docx");
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Words для .NET?
- Aspose.Words для .NET — мощная библиотека для создания, обработки и преобразования документов Word в приложениях .NET.[Узнать больше](https://reference.aspose.com/words/net/).
+Aspose.Words для .NET — мощная библиотека для создания, обработки и преобразования документов Word в приложениях .NET. [Узнать больше](https://reference.aspose.com/words/net/).
 
 ### Могу ли я попробовать Aspose.Words для .NET перед покупкой?
- Да, вы можете загрузить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
-Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти более подробную документацию?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
 
 ### Как я могу получить поддержку по Aspose.Words для .NET?
- Для получения поддержки посетите форумы Aspose[здесь](https://forum.aspose.com/c/words/8).
+Для получения поддержки посетите форумы Aspose [здесь](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

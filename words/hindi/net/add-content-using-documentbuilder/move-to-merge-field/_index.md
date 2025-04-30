@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में मर्ज फ़ील्ड पर जाएँ
-linktitle: वर्ड दस्तावेज़ में मर्ज फ़ील्ड पर जाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में मर्ज फ़ील्ड में जाने का तरीका जानें। .NET डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में मर्ज फ़ील्ड में जाने का तरीका जानें। .NET डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "वर्ड दस्तावेज़ में मर्ज फ़ील्ड पर जाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में मर्ज फ़ील्ड पर जाएँ"
+"url": "/hi/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में मर्ज फ़ील्ड पर जाएँ
@@ -21,8 +23,8 @@ url: /hi/net/add-content-using-documentbuilder/move-to-merge-field/
 
 इससे पहले कि हम बारीकियों में जाएं, आइए हम अपनी सारी बातें एक साथ रख लें। शुरुआत करने के लिए आपको ये चीज़ें करनी होंगी:
 
--  विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://visualstudio.microsoft.com/).
--  .NET के लिए Aspose.Words: आपको Aspose.Words लाइब्रेरी की आवश्यकता है। आप इसे यहाँ से डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/words/net/).
+- विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यदि नहीं, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://visualstudio.microsoft.com/).
+- .NET के लिए Aspose.Words: आपको Aspose.Words लाइब्रेरी की आवश्यकता है। आप इसे यहाँ से डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/words/net/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास .NET फ्रेमवर्क स्थापित है।
 
 ## नामस्थान आयात करें
@@ -34,7 +36,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-आइए इस प्रक्रिया को समझने योग्य चरणों में विभाजित करें। प्रत्येक चरण को विस्तार से समझाया जाएगा ताकि आपको कोई परेशानी न हो।
+आइए इस प्रक्रिया को सरल चरणों में विभाजित करें। प्रत्येक चरण को विस्तार से समझाया जाएगा ताकि आपको कोई परेशानी न हो।
 
 ## चरण 1: नया दस्तावेज़ बनाएँ
 
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- इस चरण में, हम एक नया दस्तावेज़ और एक नया दस्तावेज़ आरंभ करते हैं।`DocumentBuilder` वस्तु.`DocumentBuilder` दस्तावेज़ बनाने के लिए आपका उपकरण है।
+इस चरण में, हम एक नया दस्तावेज़ और एक नया दस्तावेज़ आरंभ करते हैं। `DocumentBuilder` वस्तु. `DocumentBuilder` दस्तावेज़ बनाने के लिए आपका उपकरण है।
 
 ## चरण 2: मर्ज फ़ील्ड डालें
 
@@ -66,7 +68,7 @@ builder.Write(" Text after the field.");
 builder.MoveToDocumentEnd();
 ```
 
- यह आदेश`DocumentBuilder` कर्सर को दस्तावेज़ के अंत में ले जाना, हमें अगले चरणों के लिए तैयार करना।
+यह आदेश `DocumentBuilder` कर्सर को दस्तावेज़ के अंत में ले जाना, हमें अगले चरणों के लिए तैयार करना।
 
 ## चरण 4: मर्ज फ़ील्ड पर जाएँ
 
@@ -115,19 +117,24 @@ builder.Write(" Text immediately after the field.");
 Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को .NET फ्रेमवर्क का उपयोग करके प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप .NET के लिए Aspose.Words को यहां से डाउनलोड और इंस्टॉल कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/)वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप .NET के लिए Aspose.Words को यहां से डाउनलोड और इंस्टॉल कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/)वेबसाइट पर दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं .NET कोर के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूं?
- हां, Aspose.Words for .NET .NET Core के साथ संगत है। आप अधिक जानकारी यहाँ पा सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/).
+हां, Aspose.Words for .NET .NET Core के साथ संगत है। आप अधिक जानकारी यहाँ पा सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/).
 
 ### मैं Aspose.Words के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[इस लिंक](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [इस लिंक](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words के अधिक उदाहरण और समर्थन कहां पा सकता हूं?
- अधिक उदाहरणों और सहायता के लिए, यहां जाएं[.NET फ़ोरम के लिए Aspose.Words](https://forum.aspose.com/c/words/8).
+अधिक उदाहरणों और सहायता के लिए, यहां जाएं [.NET फ़ोरम के लिए Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

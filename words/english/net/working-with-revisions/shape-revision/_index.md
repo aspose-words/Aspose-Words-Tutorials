@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/shape-revision/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shape Revision
@@ -134,9 +137,13 @@ Yes, Aspose.Words for .NET provides methods to accept or reject revisions progra
 ### Can I use Aspose.Words for .NET with other .NET languages besides C#?
 Absolutely! Aspose.Words for .NET can be used with any .NET language, including VB.NET and F#.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

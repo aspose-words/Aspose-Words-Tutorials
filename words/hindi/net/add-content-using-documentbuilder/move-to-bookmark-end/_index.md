@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में बुकमार्क अंत पर ले जाएँ
-linktitle: वर्ड दस्तावेज़ में बुकमार्क अंत पर ले जाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में बुकमार्क अंत तक जाने का तरीका जानें। सटीक दस्तावेज़ हेरफेर के लिए हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में बुकमार्क अंत तक जाने का तरीका जानें। सटीक दस्तावेज़ हेरफेर के लिए हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड दस्तावेज़ में बुकमार्क अंत पर ले जाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में बुकमार्क अंत पर ले जाएँ"
+"url": "/hi/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में बुकमार्क अंत पर ले जाएँ
@@ -21,9 +23,9 @@ url: /hi/net/add-content-using-documentbuilder/move-to-bookmark-end/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
--  विजुअल स्टूडियो: आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://visualstudio.microsoft.com/).
--  .NET के लिए Aspose.Words: इसे यहाँ से प्राप्त करें[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
--  एक वैध Aspose.Words लाइसेंस: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) यदि आपके पास नहीं है.
+- विजुअल स्टूडियो: आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://visualstudio.microsoft.com/).
+- .NET के लिए Aspose.Words: इसे यहाँ से प्राप्त करें [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
+- एक वैध Aspose.Words लाइसेंस: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/) यदि आपके पास नहीं है.
 
 और हां, C# और .NET का कुछ बुनियादी ज्ञान भी काफी मददगार साबित होगा।
 
@@ -45,11 +47,11 @@ using Aspose.Words.Saving;
 
 ### एक नया प्रोजेक्ट बनाएं
 
- Visual Studio खोलें और एक नया C# कंसोल ऐप प्रोजेक्ट बनाएँ। इसे कुछ इस तरह नाम दें`BookmarkEndExample`यह इस ट्यूटोरियल के लिए हमारा खेल का मैदान होगा।
+Visual Studio खोलें और एक नया C# कंसोल ऐप प्रोजेक्ट बनाएँ। इसे कुछ इस तरह नाम दें `BookmarkEndExample`यह इस ट्यूटोरियल के लिए हमारा खेल का मैदान होगा।
 
 ### .NET के लिए Aspose.Words स्थापित करें
 
- इसके बाद, आपको .NET के लिए Aspose.Words इंस्टॉल करना होगा। आप इसे NuGet पैकेज मैनेजर के ज़रिए कर सकते हैं। बस सर्च करें`Aspose.Words` और इंस्टॉल पर क्लिक करें। वैकल्पिक रूप से, पैकेज मैनेजर कंसोल का उपयोग करें:
+इसके बाद, आपको .NET के लिए Aspose.Words इंस्टॉल करना होगा। आप इसे NuGet पैकेज मैनेजर के ज़रिए कर सकते हैं। बस सर्च करें `Aspose.Words` और इंस्टॉल पर क्लिक करें। वैकल्पिक रूप से, पैकेज मैनेजर कंसोल का उपयोग करें:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`YOUR DOCUMENT DIRECTORY` वास्तविक पथ के साथ जहाँ आपका दस्तावेज़ सहेजा गया है.
+प्रतिस्थापित करना सुनिश्चित करें `YOUR DOCUMENT DIRECTORY` वास्तविक पथ के साथ जहाँ आपका दस्तावेज़ सहेजा गया है.
 
 ## चरण 3: डॉक्यूमेंटबिल्डर को आरंभ करें
 
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### MoveToBookmark को समझना
 
-`MoveToBookmark`विधि आपको अपने दस्तावेज़ के भीतर किसी विशिष्ट बुकमार्क पर नेविगेट करने की अनुमति देती है। विधि हस्ताक्षर है:
+The `MoveToBookmark` विधि आपको अपने दस्तावेज़ के भीतर किसी विशिष्ट बुकमार्क पर नेविगेट करने की अनुमति देती है। विधि हस्ताक्षर है:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: उस बुकमार्क का नाम जिस पर आप नेविगेट करना चाहते हैं.
-- `isBookmarkStart` : यदि सेट किया गया हो`true`, बुकमार्क के आरंभ में चला जाता है।
-- `isBookmarkEnd` : यदि सेट किया गया हो`true`, बुकमार्क के अंत में चला जाता है.
+- `isBookmarkStart`: यदि सेट किया गया हो `true`, बुकमार्क के आरंभ में चला जाता है।
+- `isBookmarkEnd`: यदि सेट किया गया हो `true`, बुकमार्क के अंत में चला जाता है.
 
 ### MoveToBookmark विधि को क्रियान्वित करें
 
- अब, चलिए बुकमार्क के अंत में चलते हैं`MyBookmark1`:
+अब, चलिए बुकमार्क के अंत में चलते हैं `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -126,37 +128,42 @@ builder.Writeln("This is a bookmark.");
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- अब आप अपडेट किए गए दस्तावेज़ को खोल सकते हैं और उसके ठीक बाद "यह एक बुकमार्क है" टेक्स्ट देख सकते हैं।`MyBookmark1`.
+अब आप अपडेट किए गए दस्तावेज़ को खोल सकते हैं और उसके ठीक बाद "यह एक बुकमार्क है" टेक्स्ट देख सकते हैं। `MyBookmark1`.
 
 ## निष्कर्ष
 
-बस, अब आप समझ गए! आपने अभी-अभी सीखा है कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में बुकमार्क के अंत में कैसे जाना है। यह शक्तिशाली सुविधा आपको बहुत समय और प्रयास बचा सकती है, जिससे आपके दस्तावेज़ प्रसंस्करण कार्य बहुत अधिक कुशल हो जाते हैं। याद रखें, अभ्यास से सिद्धि मिलती है। इसलिए, इस कौशल में महारत हासिल करने के लिए अलग-अलग बुकमार्क और दस्तावेज़ संरचनाओं के साथ प्रयोग करते रहें।
+बस, अब आप समझ गए! आपने अभी-अभी सीखा है कि Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में बुकमार्क के अंत में कैसे जाना है। यह शक्तिशाली सुविधा आपको बहुत समय और प्रयास बचा सकती है, जिससे आपके दस्तावेज़ प्रसंस्करण कार्य बहुत अधिक कुशल बन सकते हैं। याद रखें, अभ्यास से सिद्धि मिलती है। इसलिए, इस कौशल में महारत हासिल करने के लिए अलग-अलग बुकमार्क और दस्तावेज़ संरचनाओं के साथ प्रयोग करते रहें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### 1. क्या मैं बुकमार्क के अंत के बजाय उसके आरंभ में जा सकता हूँ?
 
- बिलकुल! बस सेट करें`isBookmarkStart` पैरामीटर`true` और`isBookmarkEnd` को`false` में`MoveToBookmark` तरीका।
+बिलकुल! बस सेट करें `isBookmarkStart` पैरामीटर `true` और `isBookmarkEnd` को `false` में `MoveToBookmark` तरीका।
 
 ### 2. यदि मेरा बुकमार्क नाम गलत है तो क्या होगा?
 
- यदि बुकमार्क का नाम ग़लत है या मौजूद नहीं है, तो`MoveToBookmark` विधि वापस आ जाएगी`false`, और डॉक्यूमेंटबिल्डर किसी भी स्थान पर नहीं जाएगा.
+यदि बुकमार्क का नाम ग़लत है या मौजूद नहीं है, तो `MoveToBookmark` विधि वापस आ जाएगी `false`, और डॉक्यूमेंटबिल्डर किसी भी स्थान पर नहीं जाएगा.
 
 ### 3. क्या मैं बुकमार्क के अंत में अन्य प्रकार की सामग्री सम्मिलित कर सकता हूँ?
 
- हां, डॉक्यूमेंटबिल्डर आपको विभिन्न प्रकार की सामग्री जैसे टेबल, चित्र और बहुत कुछ सम्मिलित करने की अनुमति देता है।[प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
+हां, डॉक्यूमेंटबिल्डर आपको विभिन्न प्रकार की सामग्री जैसे टेबल, चित्र और बहुत कुछ सम्मिलित करने की अनुमति देता है। [प्रलेखन](https://reference.aspose.com/words/net/) अधिक जानकारी के लिए.
 
 ### 4. मैं Aspose.Words के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
- आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस प्राप्त कर सकते हैं [Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/).
 
 ### 5. क्या .NET के लिए Aspose.Words निःशुल्क है?
 
-Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/).
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

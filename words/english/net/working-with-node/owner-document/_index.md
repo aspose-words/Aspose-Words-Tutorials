@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-node/owner-document/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Owner Document
@@ -121,9 +124,13 @@ Yes, as long as the node belongs to a document, you can modify its properties ev
 ### What happens if I add a node to a different document?  
 A node can only belong to one document. If you try to add it to another document, you'll need to create a new node in the new document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

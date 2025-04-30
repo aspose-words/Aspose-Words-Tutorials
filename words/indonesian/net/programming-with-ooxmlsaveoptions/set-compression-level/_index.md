@@ -1,14 +1,16 @@
 ---
-title: Atur Tingkat Kompresi
-linktitle: Atur Tingkat Kompresi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur tingkat kompresi dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan penyimpanan dan kinerja dokumen Anda.
-weight: 10
-url: /id/net/programming-with-ooxmlsaveoptions/set-compression-level/
+"description": "Pelajari cara mengatur tingkat kompresi dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengoptimalkan penyimpanan dan kinerja dokumen Anda."
+"linktitle": "Atur Tingkat Kompresi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Tingkat Kompresi"
+"url": "/id/net/programming-with-ooxmlsaveoptions/set-compression-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Tingkat Kompresi
@@ -21,7 +23,7 @@ Siap menyelami dunia kompresi dokumen dengan Aspose.Words untuk .NET? Baik Anda 
 
 Sebelum kita masuk ke inti pembahasan, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial ini:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
 
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 
@@ -80,7 +82,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Di sinilah keajaiban terjadi. Kami akan mengatur tingkat kompresi untuk dokumen tersebut.
 
- Buat contoh dari`OoxmlSaveOptions` dan mengatur tingkat kompresi.`CompressionLevel` properti dapat diatur ke berbagai level seperti`Normal`, `Maximum`, `Fast` , Dan`SuperFast` Untuk contoh ini, kita akan menggunakan`SuperFast`.
+Buat contoh dari `OoxmlSaveOptions` dan mengatur tingkat kompresi. `CompressionLevel` properti dapat diatur ke berbagai level seperti `Normal`Bahasa Indonesia: `Maximum`Bahasa Indonesia: `Fast`, Dan `SuperFast`Untuk contoh ini, kita akan menggunakan `SuperFast`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -93,7 +95,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 Terakhir, simpan dokumen dengan pengaturan kompresi baru.
 
- Gunakan`Save` metode untuk menyimpan dokumen Anda dengan tingkat kompresi yang ditentukan.
+Gunakan `Save` metode untuk menyimpan dokumen Anda dengan tingkat kompresi yang ditentukan.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.SetCompressionLevel.docx", saveOptions);
@@ -107,7 +109,7 @@ Setelah menjalankan aplikasi Anda, navigasikan ke direktori yang ditentukan dan 
 
 Nah, itu dia! Anda telah berhasil mengatur tingkat kompresi untuk dokumen Word menggunakan Aspose.Words for .NET. Ini dapat mengurangi ukuran file secara signifikan dan meningkatkan kinerja saat bekerja dengan dokumen berukuran besar. Jangan lupa untuk menjelajahi tingkat kompresi lainnya untuk menemukan keseimbangan terbaik antara ukuran file dan kinerja sesuai kebutuhan Anda.
 
-Jika Anda memiliki pertanyaan atau mengalami masalah, lihat[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau hubungi mereka[Forum Dukungan](https://forum.aspose.com/c/words/8).
+Jika Anda memiliki pertanyaan atau mengalami masalah, lihat [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau hubungi mereka [Forum Dukungan](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -129,11 +131,16 @@ Ya, Aspose.Words untuk .NET mendukung kompresi untuk berbagai format dokumen ter
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
- Anda bisa mendapatkan dukungan dari komunitas Aspose dengan mengunjungi[Forum Dukungan](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose dengan mengunjungi [Forum Dukungan](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,15 +1,16 @@
 ---
-title: Atur Versi Ms Word
-linktitle: Atur Versi Ms Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur versi MS Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyederhanakan manipulasi dokumen.
-
-weight: 10
-url: /id/net/programming-with-loadoptions/set-ms-word-version/
+"description": "Pelajari cara mengatur versi MS Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyederhanakan manipulasi dokumen."
+"linktitle": "Atur Versi Ms Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Versi Ms Word"
+"url": "/id/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Versi Ms Word
@@ -22,7 +23,7 @@ Pernahkah Anda merasa perlu bekerja dengan versi dokumen MS Word tertentu tetapi
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru.[Unduh di sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. [Unduh di sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda dapat menggunakan Visual Studio atau IDE lain yang kompatibel dengan .NET.
 - Pengetahuan Dasar C#: Meskipun kami akan menjelaskannya secara sederhana, pemahaman dasar tentang C# tetap diperlukan.
 - Contoh Dokumen: Siapkan dokumen Word di direktori dokumen Anda untuk tujuan pengujian.
@@ -80,23 +81,28 @@ Mengatur versi MS Word di Aspose.Words untuk .NET mudah dilakukan setelah Anda m
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengatur versi selain Word 2010?
- Ya, Anda dapat mengatur versi yang berbeda seperti Word 2007, Word 2013, dll., dengan mengubah`MsWordVersion` milik.
+Ya, Anda dapat mengatur versi yang berbeda seperti Word 2007, Word 2013, dll., dengan mengubah `MsWordVersion` milik.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
 Tentu saja! Aspose.Words mendukung .NET Framework, .NET Core, dan .NET 5+.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words?
- Anda dapat menggunakan uji coba gratis, tetapi untuk fitur lengkap, Anda memerlukan lisensi.[Dapatkan lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat menggunakan uji coba gratis, tetapi untuk fitur lengkap, Anda memerlukan lisensi. [Dapatkan lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bisakah saya memanipulasi fitur lain dari dokumen Word menggunakan Aspose.Words?
 Ya, Aspose.Words adalah pustaka lengkap yang memungkinkan Anda memanipulasi hampir semua aspek dokumen Word.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan informasi lebih rinci.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan informasi lebih rinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

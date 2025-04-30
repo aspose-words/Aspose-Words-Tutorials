@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belge Özelliklerini Kullanma
-linktitle: Belge Özelliklerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin.
-weight: 32
-url: /tr/java/document-manipulation/using-document-properties/
+"description": "Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin."
+"linktitle": "Belge Özelliklerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belge Özelliklerini Kullanma"
+"url": "/tr/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belge Özelliklerini Kullanma
@@ -152,15 +154,15 @@ Belge özellikleri, Aspose.Words for Java'da belgelerinizi etkili bir şekilde y
 
 ### Yerleşik belge özelliklerine nasıl erişebilirim?
 
- Java için Aspose.Words'deki yerleşik belge özelliklerine erişmek için şunu kullanabilirsiniz:`getBuiltInDocumentProperties` yöntem üzerinde`Document` nesne. Bu yöntem, yineleme yapabileceğiniz yerleşik özelliklerin bir koleksiyonunu döndürür.
+Java için Aspose.Words'deki yerleşik belge özelliklerine erişmek için şunu kullanabilirsiniz: `getBuiltInDocumentProperties` yöntem üzerinde `Document` nesne. Bu yöntem, yineleme yapabileceğiniz yerleşik özelliklerin bir koleksiyonunu döndürür.
 
 ### Bir belgeye özel belge özellikleri ekleyebilir miyim?
 
- Evet, bir belgeye özel belge özellikleri ekleyebilirsiniz.`CustomDocumentProperties` koleksiyon. Dizeler, boole değerleri, tarihler ve sayısal değerler dahil olmak üzere çeşitli veri türleriyle özel özellikler tanımlayabilirsiniz.
+Evet, bir belgeye özel belge özellikleri ekleyebilirsiniz. `CustomDocumentProperties` koleksiyon. Dizeler, boole değerleri, tarihler ve sayısal değerler dahil olmak üzere çeşitli veri türleriyle özel özellikler tanımlayabilirsiniz.
 
 ### Belirli bir özel belge özelliğini nasıl kaldırabilirim?
 
- Belirli bir özel belge özelliğini kaldırmak için şunu kullanabilirsiniz:`remove` yöntem üzerinde`CustomDocumentProperties`koleksiyon, kaldırmak istediğiniz özelliğin adını parametre olarak geçirerek.
+Belirli bir özel belge özelliğini kaldırmak için şunu kullanabilirsiniz: `remove` yöntem üzerinde `CustomDocumentProperties` koleksiyon, kaldırmak istediğiniz özelliğin adını parametre olarak geçirerek.
 
 ### Bir belge içindeki içeriğe bağlantı vermenin amacı nedir?
 
@@ -168,10 +170,15 @@ Bir belge içindeki içeriğe bağlanmak, belgenin belirli bölümlerine dinamik
 
 ### Aspose.Words for Java'da farklı ölçü birimleri arasında nasıl dönüşüm yapabilirim?
 
- Java için Aspose.Words'de farklı ölçü birimleri arasında dönüşüm yapabilirsiniz.`ConvertUtil` sınıfı. İnçleri puanlara, puanları santimetrelere ve daha fazlasına dönüştürmek için yöntemler sağlar.
+Java için Aspose.Words'de farklı ölçü birimleri arasında dönüşüm yapabilirsiniz. `ConvertUtil` sınıfı. İnçleri noktalara, noktaları santimetrelere ve daha fazlasına dönüştürmek için yöntemler sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

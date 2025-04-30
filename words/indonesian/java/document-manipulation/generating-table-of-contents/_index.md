@@ -1,14 +1,16 @@
 ---
-title: Membuat Daftar Isi di Aspose.Words untuk Java
-linktitle: Membuat Daftar Isi
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat dan menyesuaikan Daftar Isi (TOC) menggunakan Aspose.Words untuk Java. Buat dokumen yang terorganisir dan profesional dengan mudah.
-weight: 21
-url: /id/java/document-manipulation/generating-table-of-contents/
+"description": "Pelajari cara membuat dan menyesuaikan Daftar Isi (TOC) menggunakan Aspose.Words untuk Java. Buat dokumen yang terorganisir dan profesional dengan mudah."
+"linktitle": "Membuat Daftar Isi"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membuat Daftar Isi di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Daftar Isi di Aspose.Words untuk Java
@@ -75,10 +77,10 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Dapatkan tab pertama yang digunakan dalam paragraf ini, yang menyelaraskan nomor halaman.
         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
         
-        // Lepaskan tab yang lama.
+        // Lepaskan tab lama.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Masukkan tab baru pada posisi yang dimodifikasi (misalnya, 50 unit ke kiri).
+        // Masukkan tab baru pada posisi yang dimodifikasi (misalnya, 50 unit ke kiri).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,7 +99,7 @@ Dalam tutorial ini, kami telah mempelajari cara membuat Daftar Isi (TOC) menggun
 
 ### Bagaimana cara mengubah format entri TOC?
 
- Anda dapat mengubah gaya yang terkait dengan level TOC menggunakan`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, di mana X adalah tingkat TOC.
+Anda dapat mengubah gaya yang terkait dengan level TOC menggunakan `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, di mana X adalah tingkat TOC.
 
 ### Bagaimana cara menambahkan lebih banyak level ke Daftar Isi saya?
 
@@ -106,9 +108,14 @@ Untuk menyertakan lebih banyak level dalam TOC Anda, Anda dapat mengubah kolom T
 ### Dapatkah saya mengubah posisi penghentian tab untuk entri TOC tertentu?
 
 Ya, seperti ditunjukkan dalam contoh kode di atas, Anda dapat mengubah posisi tab stop untuk entri TOC tertentu dengan mengulangi paragraf dan memodifikasi tab stop sebagaimana mestinya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

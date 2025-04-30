@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/insert-table-directly/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Table Directly
@@ -154,9 +157,13 @@ The documentation is available [here](https://reference.aspose.com/words/net/).
 ### What if I need support while using Aspose.Words for .NET?
 For support, you can visit the [Aspose.Words forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

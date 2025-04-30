@@ -1,14 +1,16 @@
 ---
-title: Hiển thị tiêu đề tài liệu trong thanh tiêu đề cửa sổ
-linktitle: Hiển thị tiêu đề tài liệu trong thanh tiêu đề cửa sổ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hiển thị tiêu đề tài liệu trên thanh tiêu đề cửa sổ của tệp PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "Tìm hiểu cách hiển thị tiêu đề tài liệu trên thanh tiêu đề cửa sổ của tệp PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Hiển thị tiêu đề tài liệu trong thanh tiêu đề cửa sổ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Hiển thị tiêu đề tài liệu trong thanh tiêu đề cửa sổ"
+"url": "/vi/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị tiêu đề tài liệu trong thanh tiêu đề cửa sổ
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để làm cho PDF của mình trông chuyên nghiệp h�
 
 Trước khi bắt đầu các bước, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE tương thích nào khác.
 - Kiến thức cơ bản về C#: Chúng ta sẽ viết mã bằng C#.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Saving;
 
 ## Bước 1: Tải tài liệu của bạn
 
-Hành trình bắt đầu bằng việc tải tài liệu Word hiện tại của bạn. Tài liệu này sẽ được chuyển đổi thành PDF với tiêu đề hiển thị trên thanh tiêu đề cửa sổ.
+Hành trình bắt đầu bằng việc tải tài liệu Word hiện có của bạn. Tài liệu này sẽ được chuyển đổi thành PDF với tiêu đề hiển thị trên thanh tiêu đề cửa sổ.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Trong bước này, bạn chỉ định đường dẫn đến tài liệu của mình. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Trong bước này, bạn chỉ định đường dẫn đến tài liệu của mình. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ## Bước 2: Cấu hình tùy chọn lưu PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Bằng cách thiết lập`DisplayDocTitle` ĐẾN`true`, chúng tôi hướng dẫn Aspose.Words sử dụng tiêu đề tài liệu trên thanh tiêu đề cửa sổ PDF.
+Bằng cách thiết lập `DisplayDocTitle` ĐẾN `true`, chúng tôi hướng dẫn Aspose.Words sử dụng tiêu đề tài liệu trên thanh tiêu đề cửa sổ PDF.
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
@@ -70,7 +72,7 @@ Cuối cùng, chúng ta lưu tài liệu dưới dạng PDF bằng cách áp d�
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-Dòng mã này sẽ lưu tài liệu của bạn ở định dạng PDF với tiêu đề được hiển thị trên thanh tiêu đề. Một lần nữa, hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế.
+Dòng mã này sẽ lưu tài liệu của bạn ở định dạng PDF với tiêu đề được hiển thị trên thanh tiêu đề. Một lần nữa, hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế.
 
 ## Phần kết luận
 
@@ -91,11 +93,16 @@ Có, Aspose.Words for .NET hỗ trợ nhiều nền tảng .NET khác nhau, giú
 Có, bạn có thể chuyển đổi nhiều định dạng tệp khác nhau như DOCX, RTF, HTML, v.v. sang PDF bằng Aspose.Words cho .NET.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

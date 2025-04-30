@@ -1,14 +1,16 @@
 ---
-title: Masukkan Kolom Blok Alamat Gabungan Surat Menggunakan DOM
-linktitle: Masukkan Kolom Blok Alamat Gabungan Surat Menggunakan DOM
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan bidang Blok Alamat Gabungan Surat dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/
+"description": "Pelajari cara menyisipkan bidang Blok Alamat Gabungan Surat dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Masukkan Kolom Blok Alamat Gabungan Surat Menggunakan DOM"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Kolom Blok Alamat Gabungan Surat Menggunakan DOM"
+"url": "/id/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Kolom Blok Alamat Gabungan Surat Menggunakan DOM
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara mengelola dan memanipulasi dokumen 
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda.
 3. Pemahaman Dasar C#: Panduan ini mengasumsikan Anda nyaman dengan pemrograman C#.
-4.  Lisensi Aspose: Anda dapat menggunakan uji coba gratis dari[Di Sini](https://releases.aspose.com/) atau dapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Aspose: Anda dapat menggunakan uji coba gratis dari [Di Sini](https://releases.aspose.com/) atau dapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -66,7 +68,7 @@ builder.MoveTo(para);
 
 ## Langkah 4: Masukkan Bidang Blok Alamat
 
-Di sinilah keajaiban terjadi. Kita akan memasukkan kolom Mail Merge Address Block menggunakan builder.`InsertField` metode digunakan untuk membuat bidang.
+Di sinilah keajaiban terjadi. Kita akan memasukkan kolom Mail Merge Address Block menggunakan builder. `InsertField` metode digunakan untuk membuat bidang.
 
 ```csharp
 FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.FieldAddressBlock, false);
@@ -80,7 +82,7 @@ Untuk membuat kolom Blok Alamat lebih bermakna, kita akan mengonfigurasi propert
 // { BLOKIR ALAMAT \\c 1 }
 field.IncludeCountryOrRegionName = "1";
 
-// { BLOKIR ALAMAT \\c 1 \\d }
+// { ALAMAT BLOKIR \\c 1 \\d }
 field.FormatAddressOnCountryOrRegion = true;
 
 // { ADDRESSBLOCK \\c 1 \\d \\e Uji2 }
@@ -118,20 +120,25 @@ Nah, itu dia! Anda telah berhasil memasukkan kolom Mail Merge Address Block ke d
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, mengedit, mengonversi, dan mencetak dokumen Word secara terprogram menggunakan aplikasi .NET.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/) Untuk penggunaan jangka panjang, Anda mungkin mempertimbangkan untuk membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk penggunaan jangka panjang, Anda mungkin mempertimbangkan untuk membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Apa itu Blok Alamat Gabungan Surat?
 Blok Alamat Gabungan Surat adalah bidang di Word yang memungkinkan Anda menyisipkan informasi alamat dari sumber data, diformat dengan cara tertentu, sehingga ideal untuk membuat surat atau label yang dipersonalisasi.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words?
- Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim teknis[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim teknis [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Bisakah saya mengotomatiskan aspek lain dari dokumen Word dengan Aspose.Words?
-Tentu saja! Aspose.Words untuk .NET menyediakan berbagai fitur untuk mengotomatiskan pembuatan dokumen, pengeditan, konversi, dan banyak lagi. Lihat[dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+Tentu saja! Aspose.Words untuk .NET menyediakan berbagai fitur untuk mengotomatiskan pembuatan dokumen, pengeditan, konversi, dan banyak lagi. Lihat [dokumentasi](https://reference.aspose.com/words/net/) untuk lebih jelasnya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

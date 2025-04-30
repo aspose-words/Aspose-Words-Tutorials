@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-section/delete-header-footer-content/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Header Footer Content
@@ -122,9 +125,13 @@ Yes, Aspose.Words supports various Word formats, including DOC, DOCX, RTF, and m
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

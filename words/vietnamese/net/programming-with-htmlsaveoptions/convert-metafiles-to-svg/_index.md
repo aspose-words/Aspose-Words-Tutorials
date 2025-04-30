@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Metafiles sang SVG
-linktitle: Chuyển đổi Metafiles sang SVG
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi metafile sang SVG trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ.
-weight: 10
-url: /vi/net/programming-with-htmlsaveoptions/convert-metafiles-to-svg/
+"description": "Chuyển đổi metafile sang SVG trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Chuyển đổi Metafiles sang SVG"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi Metafiles sang SVG"
+"url": "/vi/net/programming-with-htmlsaveoptions/convert-metafiles-to-svg/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Metafiles sang SVG
@@ -21,10 +23,10 @@ Xin chào, những người đam mê mã hóa! Bạn đã bao giờ tự hỏi l
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 3. Môi trường phát triển: Bất kỳ IDE nào như Visual Studio đều có thể thực hiện được.
-4. Kiến thức cơ bản về C#: Có một chút hiểu biết về C# sẽ hữu ích, nhưng đừng lo lắng nếu bạn là người mới bắt đầu—chúng tôi sẽ giải thích mọi thứ chi tiết.
+4. Kiến thức cơ bản về C#: Có một chút hiểu biết về C# sẽ hữu ích, nhưng đừng lo lắng nếu bạn là người mới bắt đầu—chúng tôi sẽ giải thích mọi thứ một cách chi tiết.
 
 ## Nhập không gian tên
 
@@ -39,7 +41,7 @@ Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết và
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Được rồi, chúng ta hãy bắt đầu bằng cách tạo một tài liệu Word mới và khởi tạo`DocumentBuilder` đối tượng. Trình xây dựng này sẽ giúp chúng ta thêm nội dung vào tài liệu.
+Được rồi, chúng ta hãy bắt đầu bằng cách tạo một tài liệu Word mới và khởi tạo `DocumentBuilder` đối tượng. Trình xây dựng này sẽ giúp chúng ta thêm nội dung vào tài liệu.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -48,11 +50,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ở đây, chúng tôi khởi tạo một tài liệu mới và một trình xây dựng tài liệu.`dataDir` biến giữ đường dẫn đến thư mục tài liệu nơi bạn sẽ lưu các tập tin của mình.
+Ở đây, chúng tôi khởi tạo một tài liệu mới và một trình xây dựng tài liệu. `dataDir` biến này giữ đường dẫn đến thư mục tài liệu nơi bạn sẽ lưu các tập tin của mình.
 
 ## Bước 2: Thêm văn bản vào tài liệu
 
- Tiếp theo, hãy thêm một số văn bản vào tài liệu của chúng ta. Chúng ta sẽ sử dụng`Write` phương pháp của`DocumentBuilder` để chèn văn bản.
+Tiếp theo, chúng ta hãy thêm một số văn bản vào tài liệu của chúng ta. Chúng ta sẽ sử dụng `Write` phương pháp của `DocumentBuilder` để chèn văn bản.
 
 ```csharp
 builder.Write("Here is an SVG image: ");
@@ -62,7 +64,7 @@ Dòng này thêm văn bản "Đây là hình ảnh SVG: " vào tài liệu của
 
 ## Bước 3: Chèn hình ảnh SVG
 
- Bây giờ, đến phần thú vị! Chúng ta sẽ chèn một hình ảnh SVG vào tài liệu của mình bằng cách sử dụng`InsertHtml` phương pháp.
+Bây giờ, đến phần thú vị! Chúng ta sẽ chèn một hình ảnh SVG vào tài liệu của mình bằng cách sử dụng `InsertHtml` phương pháp.
 
 ```csharp
 builder.InsertHtml(
@@ -76,7 +78,7 @@ builder.InsertHtml(
 
 ## Bước 4: Xác định HtmlSaveOptions
 
- Để đảm bảo các tệp siêu dữ liệu của chúng tôi được lưu dưới dạng SVG, chúng tôi sẽ xác định`HtmlSaveOptions` và thiết lập`MetafileFormat`tài sản để`HtmlMetafileFormat.Svg`.
+Để đảm bảo các tệp siêu dữ liệu của chúng tôi được lưu dưới dạng SVG, chúng tôi sẽ xác định `HtmlSaveOptions` và thiết lập `MetafileFormat` tài sản để `HtmlMetafileFormat.Svg`.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -89,13 +91,13 @@ Lệnh này yêu cầu Aspose.Words lưu bất kỳ tệp siêu dữ liệu nào
 
 ## Bước 5: Lưu tài liệu
 
- Cuối cùng, chúng ta hãy lưu tài liệu của mình. Chúng ta sẽ sử dụng`Save` phương pháp của`Document` lớp và truyền vào đường dẫn thư mục và tùy chọn lưu.
+Cuối cùng, chúng ta hãy lưu tài liệu của mình. Chúng ta sẽ sử dụng `Save` phương pháp của `Document` lớp và truyền vào đường dẫn thư mục và tùy chọn lưu.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html", saveOptions);
 ```
 
- Dòng này lưu tài liệu vào thư mục được chỉ định với tên tệp`WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html` . Các`saveOptions` đảm bảo rằng các tệp siêu dữ liệu được chuyển đổi thành SVG.
+Dòng này lưu tài liệu vào thư mục được chỉ định với tên tệp `WorkingWithHtmlSaveOptions.ConvertMetafilesToSvg.html`. Các `saveOptions` đảm bảo rằng các tệp siêu dữ liệu được chuyển đổi thành SVG.
 
 ## Phần kết luận
 
@@ -110,17 +112,22 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn tạo, c
 Có, Aspose.Words for .NET hỗ trợ .NET Core, khiến nó trở nên linh hoạt cho nhiều ứng dụng .NET khác nhau.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang phát hành Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang phát hành Aspose](https://releases.aspose.com/).
 
 ### Có thể chuyển đổi các định dạng hình ảnh khác sang SVG bằng Aspose.Words không?
 Có, Aspose.Words hỗ trợ chuyển đổi nhiều định dạng hình ảnh, bao gồm cả metafile, sang SVG.
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về [Trang tài liệu Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

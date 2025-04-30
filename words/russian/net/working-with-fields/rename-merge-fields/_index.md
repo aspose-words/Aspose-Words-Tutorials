@@ -1,14 +1,16 @@
 ---
-title: Переименовать поля слияния
-linktitle: Переименовать поля слияния
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как переименовать поля слияния в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы легко управлять своими документами.
-weight: 10
-url: /ru/net/working-with-fields/rename-merge-fields/
+"description": "Узнайте, как переименовать поля слияния в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы легко управлять своими документами."
+"linktitle": "Переименовать поля слияния"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Переименовать поля слияния"
+"url": "/ru/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Переименовать поля слияния
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fields/rename-merge-fields/
 
 Прежде чем углубиться в подробности, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words for .NET: Вам понадобится установленный Aspose.Words for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Вам понадобится установленный Aspose.Words for .NET. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 - Базовые знания C#: знакомство с программированием на C# будет полезным.
 
@@ -35,7 +37,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Хорошо, теперь, когда мы разобрались с основами, давайте перейдем к самой интересной части! Выполните следующие действия, чтобы переименовать поля слияния в документах Word.
+Хорошо, теперь, когда мы разобрались с основами, давайте перейдем к самой интересной части! Выполните следующие шаги, чтобы переименовать поля слияния в документах Word.
 
 ## Шаг 1: Создайте документ и вставьте поля слияния
 
@@ -53,7 +55,7 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- Здесь мы создаем новый документ и используем`DocumentBuilder` класс для вставки двух полей слияния:`MyMergeField1` и`MyMergeField2`.
+Здесь мы создаем новый документ и используем `DocumentBuilder` класс для вставки двух полей слияния: `MyMergeField1` и `MyMergeField2`.
 
 ## Шаг 2: Переберите поля и переименуйте их
 
@@ -72,9 +74,9 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- В этом фрагменте мы используем`foreach` цикл для итерации по всем полям в документе. Для каждого поля мы проверяем, является ли оно полем слияния, используя`f.Type == FieldType.FieldMergeField` . Если это так, мы приводим его к`FieldMergeField` и добавить`_Renamed` своему названию.
+В этом фрагменте мы используем `foreach` цикл для итерации по всем полям в документе. Для каждого поля мы проверяем, является ли оно полем слияния, используя `f.Type == FieldType.FieldMergeField`. Если это так, мы приводим его к `FieldMergeField` и добавить `_Renamed` своему названию.
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Наконец, сохраним наш документ с переименованными полями слияния.
 
@@ -83,7 +85,7 @@ foreach (Field f in doc.Range.Fields)
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- Эта строка кода сохраняет документ в указанном каталоге с именем`WorkingWithFields.RenameMergeFields.docx`.
+Эта строка кода сохраняет документ в указанном каталоге с именем `WorkingWithFields.RenameMergeFields.docx`.
 
 ## Заключение
 
@@ -101,18 +103,23 @@ doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 
 ### Могу ли я изменить префикс, а не добавлять его к имени?
 
- Да, вы можете изменить`mergeField.FieldName` присваивание ему любого желаемого значения.
+Да, вы можете изменить `mergeField.FieldName` присваивание ему любого желаемого значения.
 
 ### Является ли Aspose.Words для .NET бесплатным?
 
- Aspose.Words для .NET — это коммерческий продукт, но вы можете использовать[бесплатная пробная версия](https://releases.aspose.com/) чтобы оценить его.
+Aspose.Words для .NET — это коммерческий продукт, но вы можете использовать [бесплатная пробная версия](https://releases.aspose.com/) чтобы оценить его.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
 
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

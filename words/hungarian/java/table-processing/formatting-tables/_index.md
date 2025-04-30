@@ -1,47 +1,49 @@
 ---
-title: Táblázatok formázása a dokumentumokban
-linktitle: Táblázatok formázása a dokumentumokban
-second_title: Aspose.Words Java Document Processing API
-description: Sajátítsa el a táblázatok formázását a dokumentumokban az Aspose.Words for Java használatával. Fedezze fel a lépésenkénti útmutatást és a forráskód-példákat a táblázat pontos formázásához.
-weight: 13
-url: /hu/java/table-processing/formatting-tables/
+"description": "Sajátítsd el a táblázatok formázásának művészetét a dokumentumokban az Aspose.Words for Java segítségével. Fedezz fel lépésről lépésre útmutatást és forráskód példákat a precíz táblázatformázáshoz."
+"linktitle": "Táblázatok formázása dokumentumokban"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Táblázatok formázása dokumentumokban"
+"url": "/hu/java/table-processing/formatting-tables/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Táblázatok formázása a dokumentumokban
+# Táblázatok formázása dokumentumokban
 
 ## Bevezetés
 
-Készen áll a táblázatok egyszerű létrehozására Word dokumentumokban az Aspose.Words for Java használatával? A táblák nélkülözhetetlenek az adatok rendszerezéséhez, és ezzel a hatékony könyvtárral programozottan hozhat létre, tölthet fel és akár egymásba ágyazhat táblázatokat Word-dokumentumaiban. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan hozhat létre táblázatokat, hogyan egyesíthet cellákat, és hogyan adhat hozzá beágyazott táblázatokat.
+Készen állsz arra, hogy könnyedén belevágj a táblázatok létrehozásába Word dokumentumokban az Aspose.Words for Java segítségével? A táblázatok elengedhetetlenek az adatok rendszerezéséhez, és ezzel a hatékony könyvtárral programozottan hozhatsz létre, tölthetsz fel, sőt akár beágyazhatsz táblázatokat a Word dokumentumokban. Ebben a lépésről lépésre bemutató útmutatóban megvizsgáljuk, hogyan hozhatsz létre táblázatokat, hogyan egyesíthetsz cellákat és hogyan adhatsz hozzá beágyazott táblázatokat.
 
 ## Előfeltételek
 
-kódolás megkezdése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené a kódolást, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Words for Java könyvtár.[Töltse le itt](https://releases.aspose.com/words/java/).
-- Alapvető ismeretek a Java programozásról.
-- Egy olyan IDE, mint az IntelliJ IDEA, az Eclipse vagy bármely más, amivel jól érzi magát.
--  A[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy feloldja az Aspose.Words teljes képességét.
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Aspose.Words Java könyvtárhoz. [Töltsd le itt](https://releases.aspose.com/words/java/).
+- A Java programozás alapvető ismerete.
+- Egy IDE, mint például az IntelliJ IDEA, az Eclipse vagy bármilyen más, amivel jól érzed magad.
+- Egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) az Aspose.Words teljes képességeinek feloldásához.
 
 ## Csomagok importálása
 
-Az Aspose.Words for Java használatához importálnia kell a szükséges osztályokat és csomagokat. Adja hozzá ezeket az importálásokat a Java-fájl tetejéhez:
+Az Aspose.Words Java-beli használatához importálnia kell a szükséges osztályokat és csomagokat. Adja hozzá ezeket az importálásokat a Java-fájl elejéhez:
 
 ```java
 import com.aspose.words.*;
 ```
 
-Bontsuk fel a folyamatot falatnyi lépésekre, hogy rendkívül könnyen követhető legyen.
+Bontsuk a folyamatot apró lépésekre, hogy szuper könnyen követhető legyen.
 
-## 1. lépés: Hozzon létre egy dokumentumot és táblázatot
+## 1. lépés: Dokumentum és táblázat létrehozása
 
-Mi az első dolog, amire szüksége van? Egy dokumentum, amivel dolgozni kell!
+Mi az első dolog, amire szükséged van? Egy dokumentum, amivel dolgozhatsz!
 
-Kezdje egy új Word-dokumentum és egy táblázat létrehozásával. A táblázat hozzáfűzése a dokumentum törzséhez.
+Kezdésként hozz létre egy új Word-dokumentumot és egy táblázatot. Fűzd be a táblázatot a dokumentum törzsébe.
 
 ```java
 Document doc = new Document();
@@ -50,12 +52,12 @@ doc.getFirstSection().getBody().appendChild(table);
 ```
 
 - `Document`: A Word dokumentumot jelöli.
-- `Table`: Üres táblázatot hoz létre.
+- `Table`: Létrehoz egy üres táblázatot.
 - `appendChild`: Hozzáadja a táblázatot a dokumentum törzséhez.
 
-## 2. lépés: Adjon hozzá sorokat és cellákat a táblázathoz
+## 2. lépés: Sorok és cellák hozzáadása a táblázathoz
 
-Egy táblázat sorok és cellák nélkül? Olyan ez, mint egy kerekek nélküli autó! Javítsuk ki.
+Egy táblázat sorok és cellák nélkül? Ez olyan, mint egy autó kerekek nélkül! Javítsuk meg ezt.
 
 ```java
 Row firstRow = new Row(doc);
@@ -65,13 +67,13 @@ Cell firstCell = new Cell(doc);
 firstRow.appendChild(firstCell);
 ```
 
-- `Row`A táblázat egy sorát jelöli.
+- `Row`: A táblázat egy sorát jelöli.
 - `Cell`: Egy cellát jelöl a sorban.
-- `appendChild`: Sorokat és cellákat ad a táblázathoz.
+- `appendChild`: Sorokat és cellákat ad hozzá a táblázathoz.
 
 ## 3. lépés: Szöveg hozzáadása egy cellához
 
-Ideje egyénivé tenni asztalunkat!
+Ideje egy kis személyiséget csempészni az asztalunkba!
 
 ```java
 Paragraph paragraph = new Paragraph(doc);
@@ -81,12 +83,12 @@ Run run = new Run(doc, "Hello world!");
 paragraph.appendChild(run);
 ```
 
-- `Paragraph`: Bekezdés hozzáadása a cellához.
-- `Run`: Szöveg hozzáadása a bekezdéshez.
+- `Paragraph`: Bekezdést szúr a cellába.
+- `Run`: Szöveget ad hozzá a bekezdéshez.
 
-## 4. lépés: Egyesítse a cellákat egy táblázatban
+## 4. lépés: Cellák egyesítése egy táblázatban
 
-Szeretné egyesíteni a cellákat fejléc vagy span létrehozásához? Ez egy szellő!
+Cellák kombinálásával fejlécet vagy span-t szeretnél létrehozni? Ez gyerekjáték!
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -100,13 +102,13 @@ builder.getCellFormat().setHorizontalMerge(CellMerge.PREVIOUS);
 builder.endRow();
 ```
 
-- `DocumentBuilder`: Egyszerűsíti a dokumentumkészítést.
-- `setHorizontalMerge`: Vízszintesen egyesíti a cellákat.
-- `write`: Tartalom hozzáadása az egyesített cellákhoz.
+- `DocumentBuilder`: Leegyszerűsíti a dokumentum felépítését.
+- `setHorizontalMerge`: Cellákat egyesít vízszintesen.
+- `write`Tartalmat ad az egyesített cellákhoz.
 
-## 5. lépés: Beágyazott táblázatok hozzáadása
+## 5. lépés: Beágyazott táblák hozzáadása
 
-Készen áll a szintlépésre? Adjunk hozzá egy táblázatot a táblázatban.
+Készen állsz a szintlépésre? Adjunk hozzá egy táblázatot egy táblázaton belül.
 
 ```java
 builder.moveTo(table.getRows().get(0).getCells().get(0).getFirstParagraph());
@@ -117,44 +119,49 @@ builder.write("Hello world!");
 builder.endTable();
 ```
 
-- `moveTo`: A kurzort egy adott helyre mozgatja a dokumentumban.
-- `startTable`: Beágyazott tábla létrehozásának megkezdése.
-- `endTable`: Befejezi a beágyazott táblát.
+- `moveTo`: A kurzort a dokumentum egy adott helyére mozgatja.
+- `startTable`: Elindítja a beágyazott tábla létrehozását.
+- `endTable`: Befejezi a beágyazott táblázatot.
 
 ## Következtetés
 
-Gratulálok! Megtanulta, hogyan hozhat létre, tölthet fel és formázhat táblákat az Aspose.Words for Java használatával. A szöveg hozzáadásától a cellák egyesítéséig és a táblázatok egymásba ágyazásáig most már rendelkezésre állnak az adatok hatékony strukturálásához a Word dokumentumokban.
+Gratulálunk! Megtanultad, hogyan hozhatsz létre, tölthetsz ki és formázhatsz táblázatokat az Aspose.Words for Java segítségével. A szöveg hozzáadásától a cellák egyesítéséig és a táblázatok beágyazásáig most már rendelkezel azokkal az eszközökkel, amelyekkel hatékonyan strukturálhatod az adatokat a Word dokumentumokban.
 
 ## GYIK
 
-### Lehet-e hiperhivatkozást hozzáadni egy táblázatcellához?
+### Lehetséges hiperhivatkozást hozzáadni egy táblázatcellához?
 
-Igen, az Aspose.Words for Java alkalmazásban hiperhivatkozásokat adhat a táblázat celláihoz. A következőképpen teheti meg:
+Igen, hozzáadhatsz hiperhivatkozásokat táblázatcellákhoz az Aspose.Words for Java-ban. Így teheted meg:
 
 ```java
 builder.moveTo(table.getRows().get(0).getCells().get(0).getFirstParagraph());
 
-// Szúrjon be egy hiperhivatkozást, és emelje ki egyéni formázással.
-// A hiperhivatkozás egy kattintható szövegrész lesz, amely az URL-ben megadott helyre visz minket.
+// Szúrjon be egy hivatkozást, és emelje ki egyéni formázással.
+// A hiperhivatkozás egy kattintható szöveg lesz, amely az URL-ben megadott helyre visz minket.
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Google website", "https://www.google.com", false);
+builder.insertHyperlink("Google website", "https://www.google.com", hamis);
 ```
 
-### Használhatom ingyenesen az Aspose.Words for Java programot?  
- Korlátozásokkal használhatod, vagy beszerezheted a[ingyenes próbaverzió](https://releases.aspose.com/) hogy feltárja teljes potenciálját.
+### Ingyenesen használhatom az Aspose.Words-öt Java-ban?  
+Használhatod korlátozásokkal, vagy vehetsz egyet [ingyenes próba](https://releases.aspose.com/) hogy felfedezze a benne rejlő teljes potenciált.
 
-### Hogyan egyesíthetem függőlegesen a cellákat egy táblázatban?  
- Használja a`setVerticalMerge` módszere a`CellFormat` osztály, hasonlóan a vízszintes összevonáshoz.
+### Hogyan tudok cellákat függőlegesen egyesíteni egy táblázatban?  
+Használd a `setVerticalMerge` a módszer `CellFormat` osztály, hasonlóan a vízszintes egyesítéshez.
 
 ### Hozzáadhatok képeket egy táblázatcellához?  
- Igen, használhatod a`DocumentBuilder` képek beszúrásához táblázatcellákba.
+Igen, használhatod a `DocumentBuilder` képek beszúrásához a táblázat celláiba.
 
-### Hol találok további forrásokat az Aspose.Words for Java webhelyen?  
- Ellenőrizze a[dokumentáció](https://reference.aspose.com/words/java/) vagy a[támogatási fórum](https://forum.aspose.com/c/words/8/) részletes útmutatókért.
+### Hol találok további forrásokat az Aspose.Words for Java-hoz?  
+Ellenőrizze a [dokumentáció](https://reference.aspose.com/words/java/) vagy a [támogatási fórum](https://forum.aspose.com/c/words/8/) részletes útmutatókért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

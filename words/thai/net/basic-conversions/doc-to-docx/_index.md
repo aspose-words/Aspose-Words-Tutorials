@@ -1,14 +1,16 @@
 ---
-title: แปลงเอกสาร Doc เป็น Docx
-linktitle: แปลงเอกสาร Doc เป็น Docx
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแปลง DOC เป็น DOCX โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/basic-conversions/doc-to-docx/
+"description": "เรียนรู้วิธีแปลง DOC เป็น DOCX โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด เหมาะสำหรับนักพัฒนา"
+"linktitle": "แปลงเอกสาร Doc เป็น Docx"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงเอกสาร Doc เป็น Docx"
+"url": "/th/net/basic-conversions/doc-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงเอกสาร Doc เป็น Docx
@@ -21,7 +23,7 @@ url: /th/net/basic-conversions/doc-to-docx/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
 - Visual Studio ติดตั้งอยู่บนระบบของคุณแล้ว
--  ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
 
 ## นำเข้าเนมสเปซ
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Document.doc");
 
 ขั้นตอนต่อไป ให้บันทึกเอกสารที่โหลดเป็นรูปแบบ DOCX:
 ```csharp
-//บันทึกเอกสารเป็น DOCX
+// บันทึกเอกสารเป็น DOCX
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
@@ -58,7 +60,7 @@ doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 
 ## ขั้นตอนที่ 4: ตรวจสอบผลลัพธ์
 
-ตรวจสอบไดเรกทอรีเอาท์พุตสำหรับไฟล์ DOCX ที่แปลงแล้วชื่อ "ConvertedDocument.docx" คุณได้แปลงไฟล์ DOC เป็น DOCX โดยใช้ Aspose.Words สำหรับ .NET สำเร็จแล้ว!
+ตรวจสอบไดเรกทอรีเอาต์พุตสำหรับไฟล์ DOCX ที่แปลงแล้วชื่อ "ConvertedDocument.docx" คุณได้แปลงไฟล์ DOC เป็น DOCX โดยใช้ Aspose.Words สำหรับ .NET สำเร็จแล้ว!
 
 ## บทสรุป
 
@@ -70,20 +72,25 @@ doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ใช่ Aspose.Words รองรับการแปลงระหว่างรูปแบบต่างๆ รวมถึง DOC, DOCX, RTF, HTML, PDF และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถค้นหาเอกสาร Aspose.Words ได้ที่ไหน
- คุณสามารถเข้าถึงเอกสารได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถเข้าถึงเอกสารได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### มีรุ่นทดลองใช้งานฟรีสำหรับ Aspose.Words หรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถซื้อใบอนุญาตสำหรับ Aspose.Words ได้อย่างไร?
- คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้จากที่ไหน
- หากต้องการความช่วยเหลือ โปรดไปที่ Aspose.Words[ฟอรั่ม](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือ โปรดไปที่ Aspose.Words [ฟอรั่ม](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

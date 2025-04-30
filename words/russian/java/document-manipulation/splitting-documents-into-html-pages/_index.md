@@ -1,14 +1,16 @@
 ---
-title: Разделение документов на HTML-страницы в Aspose.Words для Java
-linktitle: Разделение документов на HTML-страницы
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов.
-weight: 25
-url: /ru/java/document-manipulation/splitting-documents-into-html-pages/
+"description": "Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов."
+"linktitle": "Разделение документов на HTML-страницы"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Разделение документов на HTML-страницы в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/splitting-documents-into-html-pages/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделение документов на HTML-страницы в Aspose.Words для Java
@@ -23,7 +25,7 @@ url: /ru/java/document-manipulation/splitting-documents-into-html-pages/
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Библиотека Aspose.Words for Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/words/java/).
+- Библиотека Aspose.Words for Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/words/java/).
 
 ## Шаг 1: Импорт необходимых пакетов
 
@@ -145,11 +147,11 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 
 ### Как установить Aspose.Words для Java?
 
- Чтобы установить Aspose.Words для Java, вы можете загрузить библиотеку с сайта[здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации.
+Чтобы установить Aspose.Words для Java, вы можете загрузить библиотеку с сайта [здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации.
 
 ### Могу ли я настроить вывод HTML?
 
- Да, вы можете настроить вывод HTML, изменив параметры сохранения в`HtmlSaveOptions` класс. Это позволяет вам контролировать форматирование и внешний вид сгенерированных HTML-файлов.
+Да, вы можете настроить вывод HTML, изменив параметры сохранения в `HtmlSaveOptions` класс. Это позволяет вам контролировать форматирование и внешний вид сгенерированных HTML-файлов.
 
 ### Какие версии Microsoft Word поддерживаются Aspose.Words для Java?
 
@@ -162,9 +164,14 @@ Aspose.Words for Java может обрабатывать изображения
 ### Доступна ли пробная версия Aspose.Words для Java?
 
 Да, вы можете запросить бесплатную пробную версию Aspose.Words для Java на веб-сайте Aspose, чтобы оценить ее функции и возможности перед покупкой лицензии.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

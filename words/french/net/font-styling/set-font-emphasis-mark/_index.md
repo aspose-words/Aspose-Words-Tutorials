@@ -1,54 +1,62 @@
 ---
-title: Définir le marqueur d'accent dans le document Word en utilisant Aspose.Words pour .NET 
-weight: 7700
-limit: 
-description: Apprenez à définir un signe d'accent dans les documents Word en utilisant Aspose.Words pour .NET. Ce guide étape par étape comprend des instructions d'installation et un code d'exemple.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /fr/net/font-styling/set-font-emphasis-mark/
+"description": "Apprenez à définir un signe d'emphase dans vos documents Word avec Aspose.Words pour .NET. Ce guide étape par étape comprend des instructions d'installation et un exemple de code."
+"title": "Définir une marque d'emphase dans un document Word à l'aide d'Aspose.Words pour .NET"
+"url": "/fr/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Définir le signe d'accent dans un document Word en utilisant Aspose.Words
+# Définir une marque d'emphase dans un document Word à l'aide d'Aspose.Words
 
-La mise en place d'un signe d'accent dans les documents Word est un excellent moyen de mettre en évidence un texte spécifique, en veillant à ce qu'il se démarque dans votre contenu.`Créateur de documents`classe pour manipuler les documents Word, formater le texte avec des marques d'accent et enregistrer le résultat au format DOCX. Suivez ce guide pour rationaliser vos tâches de formatage de documents avec une précision professionnelle.
+Utiliser un signe d'emphase dans les documents Word est un excellent moyen de mettre en valeur un texte spécifique et de le faire ressortir dans votre contenu. Avec Aspose.Words pour .NET, vous pouvez facilement appliquer des signes d'emphase, comme un cercle plein, en quelques lignes de code. Cet exemple illustre son utilisation. `DocumentBuilder` Cours pour manipuler des documents Word, mettre en forme du texte avec des marques d'emphase et enregistrer le résultat au format DOCX. Suivez ce guide pour simplifier vos tâches de mise en forme de documents avec une précision professionnelle.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation  
-Pour exécuter l'exemple de code fourni et utiliser Aspose.Words pour .NET, suivez ces étapes:  
+Pour exécuter l'exemple de code fourni et utiliser Aspose.Words pour .NET, suivez ces étapes :  
 
-1. Téléchargez Aspose.Words pour .NET:  
-   * Prenez la bibliothèque de la [Les décharges d'aspose](https://releases.aspose.com/words/net/)page.  
+1. Téléchargez Aspose.Words pour .NET :  
+   - Obtenez la bibliothèque à partir du [Sorties d'Aspose](https://releases.aspose.com/words/net/) page.  
 
-2. Installez la bibliothèque:  
-   * Installez-le via le gestionnaire de paquets NuGet dans Visual Studio:  
-     * Ouvrir le Studio visuel.  
-     * Naviguez vers outils > Gestionnaire de paquets NuGet > Gérer les paquets NuGet pour la solution.  
-     * Recherche de `"Aspose. Les mots"`et cliquez sur Installer.  
+2. Installer la bibliothèque :  
+   - Installez-le via le gestionnaire de packages NuGet dans Visual Studio :  
+     - Ouvrez Visual Studio.  
+     - Accédez à Outils > Gestionnaire de packages NuGet > Gérer les packages NuGet pour la solution.  
+     - Rechercher `Aspose.Words` et cliquez sur Installer.  
 
-   * En revanche, utilisez la console de gestion de paquets NuGet:  
+   - Vous pouvez également utiliser la console du gestionnaire de packages NuGet :  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Configurer une licence temporaire (optionnelle):  
-   * Pour une utilisation illimitée, obtenir un[licence temporaire gratuite](https://purchase.aspose.com/temporary-license/)\- Je suis désolé .  
-   * Appliquer la licence dans votre projet:  
+3. Configurer une licence temporaire (facultatif) :  
+   - Pour une utilisation sans restriction, procurez-vous un [permis temporaire gratuit](https://purchase.aspose.com/temporary-license/).  
+   - Appliquez la licence dans votre projet :  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
 ## Voir aussi
-[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
+[Documentation Aspose.Word pour .NET](https://docs.aspose.com/words/net/)
+[Références Aspose.Word pour .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

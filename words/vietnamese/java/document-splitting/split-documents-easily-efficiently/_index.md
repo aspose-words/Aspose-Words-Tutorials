@@ -1,14 +1,16 @@
 ---
-title: Chia nhỏ tài liệu dễ dàng và hiệu quả
-linktitle: Chia nhỏ tài liệu dễ dàng và hiệu quả
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách phân chia tài liệu hiệu quả bằng Aspose.Words cho Java. Hướng dẫn từng bước để xử lý tài liệu và thao tác với từ. Tăng năng suất ngay!
-weight: 10
-url: /vi/java/document-splitting/split-documents-easily-efficiently/
+"description": "Tìm hiểu cách phân chia tài liệu hiệu quả bằng Aspose.Words cho Java. Hướng dẫn từng bước để xử lý tài liệu và thao tác với từ. Tăng năng suất ngay!"
+"linktitle": "Chia nhỏ tài liệu dễ dàng và hiệu quả"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chia nhỏ tài liệu dễ dàng và hiệu quả"
+"url": "/vi/java/document-splitting/split-documents-easily-efficiently/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia nhỏ tài liệu dễ dàng và hiệu quả
@@ -24,7 +26,7 @@ Aspose.Words for Java là một API Java cho phép các nhà phát triển tạo
 
 Trước khi đi sâu vào việc phân chia tài liệu, chúng ta hãy cùng tìm hiểu sơ qua về cách thiết lập Aspose.Words for Java trong dự án Java của bạn:
 
-1. Tải xuống và cài đặt thư viện Aspose.Words cho Java: Bắt đầu bằng cách tải xuống thư viện Aspose.Words cho Java từ Aspose.Releases (https://releases.aspose.com/words/java). Sau khi tải xuống, hãy đưa thư viện vào dự án Java của bạn.
+1. Tải xuống và cài đặt thư viện Aspose.Words for Java: Bắt đầu bằng cách tải xuống thư viện Aspose.Words for Java từ Aspose.Releases (https://releases.aspose.com/words/java). Sau khi tải xuống, hãy đưa thư viện vào dự án Java của bạn.
 
 2. Khởi tạo Giấy phép Aspose.Words: Để sử dụng Aspose.Words for Java với đầy đủ khả năng, bạn sẽ cần phải thiết lập một giấy phép hợp lệ. Nếu không có giấy phép, thư viện sẽ hoạt động ở chế độ đánh giá hạn chế.
 
@@ -77,7 +79,7 @@ Chia tài liệu theo tiêu đề là một phương pháp nâng cao hơn cho ph
 Để chia tài liệu theo tiêu đề bằng Aspose.Words for Java, hãy làm theo các bước sau:
 
 ```java
-//Mã Java để chia tài liệu theo tiêu đề bằng Aspose.Words cho Java
+// Mã Java để chia tài liệu theo tiêu đề bằng Aspose.Words cho Java
 Document doc = new Document("input.docx");
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
@@ -133,15 +135,20 @@ Có, Aspose.Words for Java hỗ trợ việc chia tách các tài liệu đượ
 
 ### Tôi có thể bắt đầu sử dụng Aspose.Words for Java như thế nào nếu tôi mới làm quen với thư viện này?
 
- Bạn có thể bắt đầu bằng cách khám phá[Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/) và các ví dụ mã do Aspose.Words cung cấp cho Java. Tài liệu này chứa thông tin chi tiết về các tính năng của thư viện và cách sử dụng chúng hiệu quả.
+Bạn có thể bắt đầu bằng cách khám phá [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/) và các ví dụ mã do Aspose.Words cung cấp cho Java. Tài liệu này chứa thông tin chi tiết về các tính năng của thư viện và cách sử dụng chúng hiệu quả.
 
 ### Aspose.Words for Java có phù hợp để xử lý tài liệu cấp doanh nghiệp không?
 
 Chắc chắn rồi! Aspose.Words for Java được sử dụng rộng rãi trong các ứng dụng cấp doanh nghiệp cho nhiều tác vụ xử lý tài liệu khác nhau do tính mạnh mẽ và bộ tính năng mở rộng của nó.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

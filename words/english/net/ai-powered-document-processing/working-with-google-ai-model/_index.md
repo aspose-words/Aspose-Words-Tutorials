@@ -7,8 +7,11 @@ weight: 10
 url: /net/ai-powered-document-processing/working-with-google-ai-model/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Google AI Model
@@ -134,9 +137,13 @@ You can choose between short, medium, and long summaries based on your needs.
 Check out the [documentation](https://reference.aspose.com/words/net/) for more examples and guidance.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

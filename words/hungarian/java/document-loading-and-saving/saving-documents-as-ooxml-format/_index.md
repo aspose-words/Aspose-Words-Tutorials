@@ -1,30 +1,32 @@
 ---
-title: Dokumentumok mentése OOXML formátumban az Aspose.Words for Java programban
-linktitle: Dokumentumok mentése OOXML formátumban
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan menthet dokumentumokat OOXML formátumban az Aspose.Words for Java segítségével. Könnyedén biztonságossá teheti, optimalizálhatja és testreszabhatja fájljait.
-weight: 20
-url: /hu/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Tanuld meg, hogyan menthetsz dokumentumokat OOXML formátumban az Aspose.Words for Java segítségével. Biztosítsd, optimalizáld és szabd testre fájljaidat könnyedén."
+"linktitle": "Dokumentumok mentése OOXML formátumban"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok mentése OOXML formátumban az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentumok mentése OOXML formátumban az Aspose.Words for Java programban
 
 
-## Bevezetés a dokumentumok OOXML formátumban történő mentésébe az Aspose.Words for Java programban
+## Bevezetés a dokumentumok OOXML formátumban történő mentéséhez az Aspose.Words for Java programban
 
-Ebben az útmutatóban megvizsgáljuk, hogyan lehet dokumentumokat menteni OOXML formátumban az Aspose.Words for Java használatával. Az OOXML (Office Open XML) a Microsoft Word és más irodai alkalmazások által használt fájlformátum. Leírjuk a dokumentumok OOXML formátumban történő mentésének különféle lehetőségeit és beállításait.
+Ebben az útmutatóban azt vizsgáljuk meg, hogyan menthetünk dokumentumokat OOXML formátumban az Aspose.Words for Java segítségével. Az OOXML (Office Open XML) egy fájlformátum, amelyet a Microsoft Word és más irodai alkalmazások használnak. Áttekintjük a dokumentumok OOXML formátumban történő mentésének különböző lehetőségeit és beállításait.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a projektben be van állítva az Aspose.Words for Java könyvtár.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Words for Java könyvtár be van állítva a projektedben.
 
-## Dokumentum mentése jelszavas titkosítással
+## Dokumentum mentése jelszóval titkosítva
 
-dokumentumot jelszóval titkosíthatja, miközben OOXML formátumban menti. A következőképpen teheti meg:
+A dokumentumot jelszóval titkosíthatja, miközben OOXML formátumban menti. Így teheti meg:
 
 ```java
 import com.aspose.words.Document;
@@ -33,7 +35,7 @@ import com.aspose.words.OoxmlSaveOptions;
 // Töltse be a dokumentumot
 Document doc = new Document("Document.docx");
 
-// Hozzon létre OoxmlSaveOptions-t, és állítsa be a jelszót
+// Hozz létre OoxmlSaveOptions-t és állítsd be a jelszót
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
@@ -41,9 +43,9 @@ saveOptions.setPassword("password");
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## OOXML-kompatibilitás beállítása
+## OOXML-megfelelőség beállítása
 
-A dokumentum mentésekor megadhatja az OOXML megfelelőségi szintet. Például beállíthatja ISO 29500:2008 (szigorú) értékre. Íme, hogyan:
+A dokumentum mentésekor megadhatja az OOXML megfelelőségi szintet. Beállíthatja például az ISO 29500:2008 (Szigorú) szabványt. Így teheti meg:
 
 ```java
 import com.aspose.words.Document;
@@ -54,20 +56,20 @@ import com.aspose.words.OoxmlCompliance;
 // Töltse be a dokumentumot
 Document doc = new Document("Document.docx");
 
-// Optimalizálás Word 2016-ra
+// Optimalizálás a Word 2016-hoz
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Hozzon létre OoxmlSaveOptions-t, és állítsa be a megfelelőségi szintet
+// Hozz létre OoxmlSaveOptions beállításokat és állítsd be a megfelelőségi szintet
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Mentse el a dokumentumot megfelelőségi beállítással
+// Dokumentum mentése megfelelőségi beállításokkal
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Utolsó megtakarított idő tulajdonság frissítése
+## Utolsó mentés időpontja tulajdonság frissítése
 
-Mentéskor választhatja a dokumentum "Utolsó mentett idő" tulajdonságának frissítését. Íme, hogyan:
+A dokumentum mentésekor frissítheti a „Utolsó mentés időpontja” tulajdonságot. Így teheti meg:
 
 ```java
 import com.aspose.words.Document;
@@ -76,7 +78,7 @@ import com.aspose.words.OoxmlSaveOptions;
 // Töltse be a dokumentumot
 Document doc = new Document("Document.docx");
 
-// Hozzon létre OoxmlSaveOptions-t, és engedélyezze a Last Saved Time tulajdonság frissítését
+// Hozz létre OoxmlSaveOptions objektumokat, és engedélyezd a Legutóbbi mentés időpontja tulajdonság frissítését
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
@@ -84,29 +86,29 @@ saveOptions.setUpdateLastSavedTimeProperty(true);
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## Az örökölt vezérlőkarakterek megtartása
+## A Legacy vezérlőkarakterek megtartása
 
-Ha a dokumentum örökölt vezérlőkaraktereket tartalmaz, dönthet úgy, hogy megtartja őket a mentés során. Íme, hogyan:
+Ha a dokumentum régebbi vezérlőkaraktereket tartalmaz, akkor mentéskor megtarthatja azokat. Így teheti meg:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Töltsön be egy régi vezérlőkaraktereket tartalmazó dokumentumot
+// Dokumentum betöltése korábbi vezérlőkarakterekkel
 Document doc = new Document("LegacyControlChars.doc");
 
-// Hozzon létre OoxmlSaveOptions-t a FLAT_OPC formátummal, és engedélyezze a régi vezérlőkarakterek megtartását
+// Hozz létre OoxmlSaveOptions objektumokat FLAT_OPC formátumban, és engedélyezd a korábbi vezérlőkarakterek megtartását.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Mentse el a dokumentumot örökölt vezérlőkarakterekkel
+// Dokumentum mentése korábbi vezérlőkarakterekkel
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## A tömörítési szint beállítása
+## Tömörítési szint beállítása
 
-A tömörítési szintet a dokumentum mentésekor állíthatja be. Beállíthatja például SUPER_FAST értékre a minimális tömörítés érdekében. Íme, hogyan:
+A dokumentum mentése során módosíthatja a tömörítési szintet. Például beállíthatja SUPER_FAST értékre a minimális tömörítéshez. Így teheti meg:
 
 ```java
 import com.aspose.words.Document;
@@ -116,7 +118,7 @@ import com.aspose.words.CompressionLevel;
 // Töltse be a dokumentumot
 Document doc = new Document("Document.docx");
 
-// Hozzon létre OoxmlSaveOptions-t, és állítsa be a tömörítési szintet
+// Hozz létre OoxmlSaveOptions-t és állítsd be a tömörítési szintet
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
@@ -124,9 +126,9 @@ saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Íme néhány kulcsfontosságú opció és beállítás, amelyet akkor használhat, ha dokumentumokat ment el OOXML formátumban az Aspose.Words for Java használatával. Nyugodtan fedezhet fel további lehetőségeket, és szükség szerint testreszabhatja dokumentummentési folyamatát.
+Íme néhány kulcsfontosságú opció és beállítás, amelyet az Aspose.Words for Java használatával OOXML formátumban történő dokumentumok mentésekor használhat. Nyugodtan fedezzen fel további lehetőségeket, és szükség szerint szabja testre a dokumentummentési folyamatot.
 
-## Teljes forráskód a dokumentumok OOXML formátumban történő mentéséhez az Aspose.Words for Java programban
+## Teljes forráskód dokumentumok OOXML formátumban történő mentéséhez Aspose.Words for Java-ban
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,24 +170,29 @@ public void setCompressionLevel() throws Exception
 
 ## Következtetés
 
-Ebben az átfogó útmutatóban megvizsgáltuk, hogyan lehet dokumentumokat menteni OOXML formátumban az Aspose.Words for Java használatával. Függetlenül attól, hogy jelszavakkal kell titkosítania dokumentumait, biztosítania kell az egyes OOXML-szabványoknak való megfelelést, frissítenie kell a dokumentum tulajdonságait, meg kell őriznie az örökölt vezérlőkaraktereket, vagy módosítania kell a tömörítési szinteket, az Aspose.Words sokoldalú eszközkészletet kínál az Ön igényeinek kielégítésére.
+Ebben az átfogó útmutatóban azt vizsgáltuk meg, hogyan menthetünk dokumentumokat OOXML formátumban az Aspose.Words for Java segítségével. Akár jelszavakkal kell titkosítania dokumentumait, akár biztosítania kell a megfelelőséget bizonyos OOXML szabványoknak, frissítenie kell a dokumentum tulajdonságait, meg kell őriznie a régi vezérlőkaraktereket, vagy módosítania kell a tömörítési szinteket, az Aspose.Words sokoldalú eszközkészletet kínál az Ön igényeinek kielégítésére.
 
 ## GYIK
 
-### Hogyan távolíthatom el a jelszavas védelmet egy jelszóval védett dokumentumról?
+### Hogyan távolíthatom el a jelszóvédelmet egy jelszóval védett dokumentumról?
 
-A jelszóval védett dokumentum jelszavas védelmének eltávolításához megnyithatja a dokumentumot a megfelelő jelszóval, majd elmentheti anélkül, hogy jelszót adna meg a mentési beállításokban. Ezzel jelszavas védelem nélkül menti el a dokumentumot.
+Jelszóval védett dokumentum jelszavas védelmének eltávolításához nyissa meg a dokumentumot a megfelelő jelszóval, majd mentse el jelszó megadása nélkül a mentési beállításokban. Ez jelszóvédelem nélkül menti a dokumentumot.
 
-### Beállíthatok egyéni tulajdonságokat egy dokumentum OOXML formátumban való mentésekor?
+### Beállíthatok egyéni tulajdonságokat egy dokumentum OOXML formátumban történő mentésekor?
 
- Igen, beállíthat egyéni tulajdonságokat egy dokumentumhoz, mielőtt OOXML formátumba menti. Használja a`BuiltInDocumentProperties` és`CustomDocumentProperties` osztályok különböző tulajdonságok, például szerző, cím, kulcsszavak és egyéni tulajdonságok beállításához.
+Igen, beállíthat egyéni tulajdonságokat egy dokumentumhoz, mielőtt OOXML formátumban mentené. Használja a `BuiltInDocumentProperties` és `CustomDocumentProperties` osztályok különféle tulajdonságok, például szerző, cím, kulcsszavak és egyéni tulajdonságok beállításához.
 
-### Mi az alapértelmezett tömörítési szint egy dokumentum OOXML formátumban történő mentésekor?
+### Mi az alapértelmezett tömörítési szint OOXML formátumú dokumentum mentésekor?
 
- A dokumentum Aspose.Words for Java használatával OOXML formátumba mentésekor az alapértelmezett tömörítési szint`NORMAL` . A tömörítési szintet erre módosíthatja`SUPER_FAST` vagy`MAXIMUM` szükség szerint.
+Az alapértelmezett tömörítési szint OOXML formátumú dokumentum mentésekor az Aspose.Words for Java használatával: `NORMAL`A tömörítési szintet a következőre módosíthatja: `SUPER_FAST` vagy `MAXIMUM` szükség szerint.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

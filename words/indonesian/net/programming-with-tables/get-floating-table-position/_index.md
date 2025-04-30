@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Posisi Meja Mengambang
-linktitle: Dapatkan Posisi Meja Mengambang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendapatkan posisi tabel mengambang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini akan memandu Anda melalui semua hal yang perlu Anda ketahui.
-weight: 10
-url: /id/net/programming-with-tables/get-floating-table-position/
+"description": "Pelajari cara mendapatkan posisi tabel mengambang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini akan memandu Anda melalui semua hal yang perlu Anda ketahui."
+"linktitle": "Dapatkan Posisi Meja Mengambang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Posisi Meja Mengambang"
+"url": "/id/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Posisi Meja Mengambang
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia Aspose.Words untuk .NET? Hari ini, kami a
 
 Sebelum kita masuk ke bagian yang menyenangkan, ada beberapa hal yang perlu Anda persiapkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal Aspose.Words untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh dan instal Aspose.Words untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Visual Studio adalah pilihan yang bagus.
 3. Contoh Dokumen: Anda memerlukan dokumen Word dengan tabel mengambang. Anda dapat membuatnya sendiri atau menggunakan dokumen yang sudah ada. 
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- Pada langkah ini, pada dasarnya Anda memberi tahu Aspose.Words di mana menemukan dokumen Anda. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Pada langkah ini, pada dasarnya Anda memberi tahu Aspose.Words di mana menemukan dokumen Anda. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Akses Tabel dalam Dokumen
 
@@ -103,10 +105,10 @@ Ingat, bekerja dengan Aspose.Words untuk .NET membuka banyak kemungkinan untuk m
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu tabel mengambang dalam dokumen Word?
-Tabel mengambang merupakan tabel yang tidak melekat pada teks, tetapi dapat bergerak, biasanya dengan teks yang membungkus di sekelilingnya.
+Tabel mengambang merupakan tabel yang tidak terpaku pada teks, tetapi dapat bergerak, biasanya dengan teks yang membungkus di sekelilingnya.
 
 ### Bagaimana cara mengetahui apakah suatu tabel mengambang menggunakan Aspose.Words untuk .NET?
- Anda dapat memeriksa apakah sebuah tabel mengambang dengan memeriksa`TextWrapping` properti. Jika diatur ke`TextWrapping.Around`, tabelnya mengambang.
+Anda dapat memeriksa apakah sebuah tabel mengambang dengan memeriksa `TextWrapping` properti. Jika diatur ke `TextWrapping.Around`, tabelnya mengambang.
 
 ### Bisakah saya mengubah properti posisi tabel mengambang?
 Ya, dengan menggunakan Aspose.Words untuk .NET, Anda dapat mengubah properti posisi tabel mengambang untuk menyesuaikan tata letaknya.
@@ -115,10 +117,15 @@ Ya, dengan menggunakan Aspose.Words untuk .NET, Anda dapat mengubah properti pos
 Tentu saja! Aspose.Words untuk .NET dirancang untuk otomatisasi dokumen berkinerja tinggi dan dapat menangani operasi berskala besar secara efisien.
 
 ### Di mana saya dapat menemukan informasi dan sumber daya lebih lanjut tentang Aspose.Words untuk .NET?
-Anda dapat menemukan dokumentasi dan sumber daya terperinci di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan sumber daya terperinci di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

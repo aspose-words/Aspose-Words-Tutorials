@@ -1,14 +1,16 @@
 ---
-title: Изменение позиций табуляции оглавления в документе Word
-linktitle: Изменение позиций табуляции оглавления в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как изменить позиции табуляции TOC в документах Word с помощью Aspose.Words для .NET. Это пошаговое руководство поможет вам создать профессионально выглядящее оглавление.
-weight: 10
-url: /ru/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Узнайте, как изменить позиции табуляции TOC в документах Word с помощью Aspose.Words для .NET. Это пошаговое руководство поможет вам создать профессионально выглядящее оглавление."
+"linktitle": "Изменение позиций табуляции оглавления в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Изменение позиций табуляции оглавления в документе Word"
+"url": "/ru/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменение позиций табуляции оглавления в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-table-of-content/change-toc-tab-stops/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая совместимая с C# IDE.
 3. Документ Word: в частности, содержащий оглавление.
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Давайте разобьем этот процесс на простые, удобоваримые шаги. Мы загрузим документ, изменим позиции табуляции оглавления и сохраним обновленный документ.
+Давайте разобьем этот процесс на простые, удобоваримые шаги. Мы загрузим документ, изменим позиции табуляции TOC и сохраним обновленный документ.
 
 ## Шаг 1: Загрузите документ
 
@@ -92,7 +94,7 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Это как переставлять мебель в гостиной, пока она не станет идеальной. Мы доводим эти табуляторы до совершенства.
+Это как переставлять мебель в гостиной, пока она не покажется вам идеальной. Мы доводим эти табуляторы до совершенства.
 
 ## Шаг 4: Сохраните измененный документ.
 
@@ -120,16 +122,21 @@ doc.Save(dataDir + "WorkingWithTableOfContent.ChangeTocTabStops.docx");
 Код сканирует все абзацы, оформленные в стиле TOC, поэтому он изменит все TOC, присутствующие в документе.
 
 ### Можно ли добавить несколько позиций табуляции в запись оглавления?
- Конечно! Вы можете добавить столько позиций табуляции, сколько необходимо, отрегулировав`para.ParagraphFormat.TabStops` коллекция.
+Конечно! Вы можете добавить столько позиций табуляции, сколько необходимо, отрегулировав `para.ParagraphFormat.TabStops` коллекция.
 
 ### Можно ли изменить выравнивание позиции табуляции и стиль заполнителя?
 Да, при добавлении новой позиции табуляции можно указать различные выравнивания и стили отступов.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, вам нужна действующая лицензия для использования Aspose.Words for .NET после пробного периода. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) или[купить один](https://purchase.aspose.com/buy).
+Да, вам нужна действующая лицензия для использования Aspose.Words for .NET после окончания пробного периода. Вы можете получить [временная лицензия](https://purchase.aspose.com/tempилиary-license/) or [купить один](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

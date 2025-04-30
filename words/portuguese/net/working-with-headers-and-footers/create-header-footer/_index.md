@@ -1,30 +1,32 @@
 ---
-title: Criar Cabeçalho Rodapé
-linktitle: Criar Cabeçalho Rodapé
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como adicionar e personalizar cabeçalhos e rodapés em documentos do Word usando o Aspose.Words para .NET. Este guia passo a passo garante formatação profissional de documentos.
-weight: 10
-url: /pt/net/working-with-headers-and-footers/create-header-footer/
+"description": "Aprenda a adicionar e personalizar cabeçalhos e rodapés em documentos do Word usando o Aspose.Words para .NET. Este guia passo a passo garante uma formatação profissional de documentos."
+"linktitle": "Criar Cabeçalho Rodapé"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Criar Cabeçalho Rodapé"
+"url": "/pt/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Criar Cabeçalho Rodapé
 
 ## Introdução
 
-Adicionar cabeçalhos e rodapés aos seus documentos pode aumentar seu profissionalismo e legibilidade. Com o Aspose.Words para .NET, você pode facilmente criar e personalizar cabeçalhos e rodapés para seus documentos do Word. Neste tutorial, nós o guiaremos pelo processo passo a passo, garantindo que você possa implementar esses recursos perfeitamente.
+Adicionar cabeçalhos e rodapés aos seus documentos pode aumentar o profissionalismo e a legibilidade. Com o Aspose.Words para .NET, você pode criar e personalizar facilmente cabeçalhos e rodapés para seus documentos do Word. Neste tutorial, mostraremos o processo passo a passo, garantindo que você possa implementar esses recursos sem problemas.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
--  Aspose.Words para .NET: Baixe e instale a partir do[link para download](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Baixe e instale a partir do [link para download](https://releases.aspose.com/words/net/).
 - Ambiente de desenvolvimento: como o Visual Studio, para escrever e executar seu código.
-- Conhecimento básico de C#: compreensão do C# e do framework .NET.
-- Documento de exemplo: Um documento de exemplo para aplicar cabeçalhos e rodapés, ou criar um novo, conforme mostrado no tutorial.
+- Conhecimento básico de C#: Noções de C# e .NET framework.
+- Documento de exemplo: um documento de exemplo para aplicar cabeçalhos e rodapés, ou criar um novo, conforme mostrado no tutorial.
 
 ## Importar namespaces
 
@@ -36,18 +38,18 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-## Etapa 1: Defina o diretório do documento
+## Etapa 1: definir o diretório de documentos
 
-Defina o diretório onde seu documento será salvo. Isso ajuda a gerenciar o caminho de forma eficaz.
+Defina o diretório onde seu documento será salvo. Isso ajuda a gerenciar o caminho com eficiência.
 
 ```csharp
 // O caminho para o diretório de documentos
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
-## Etapa 2: Crie um novo documento
+## Etapa 2: Criar um novo documento
 
- Crie um novo documento e um`DocumentBuilder`para facilitar a adição de conteúdo.
+Crie um novo documento e um `DocumentBuilder` para facilitar a adição de conteúdo.
 
 ```csharp
 Document doc = new Document();
@@ -81,7 +83,7 @@ builder.Font.Size = 14;
 builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 ```
 
-## Etapa 5: Adicionar um cabeçalho primário
+## Etapa 5: adicionar um cabeçalho primário
 
 Vá para a seção de cabeçalho principal e insira uma imagem e um texto.
 
@@ -96,7 +98,7 @@ builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Aspose.Words Header/Footer Creation Primer.");
 ```
 
-## Etapa 6: Adicionar um rodapé primário
+## Etapa 6: adicione um rodapé principal
 
 Vá para a seção de rodapé principal e crie uma tabela para formatar o conteúdo do rodapé.
 
@@ -108,7 +110,7 @@ builder.CellFormat.ClearFormatting();
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 / 3);
 
-// Adicionar numeração de página
+// Adicionar numeração de páginas
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 builder.Write(" of ");
@@ -125,7 +127,7 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## Etapa 7: Adicionar conteúdo e quebras de página
+## Etapa 7: adicionar conteúdo e quebras de página
 
 Vá para o final do documento, adicione uma quebra de página e crie uma nova seção com configurações de página diferentes.
 
@@ -171,7 +173,7 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Conclusão
 
-Seguindo essas etapas, você pode efetivamente adicionar e personalizar cabeçalhos e rodapés em seus documentos do Word usando o Aspose.Words para .NET. Isso melhora a aparência e o profissionalismo do seu documento, tornando-o mais legível e envolvente.
+Seguindo estes passos, você pode adicionar e personalizar cabeçalhos e rodapés com eficiência em seus documentos do Word usando o Aspose.Words para .NET. Isso aprimora a aparência e o profissionalismo do seu documento, tornando-o mais legível e envolvente.
 
 ## Perguntas frequentes
 
@@ -181,23 +183,28 @@ Aspose.Words para .NET é uma biblioteca que permite aos desenvolvedores criar, 
 
 ### Posso adicionar imagens ao cabeçalho ou rodapé?
 
- Sim, você pode adicionar facilmente imagens ao cabeçalho ou rodapé usando o`DocumentBuilder.InsertImage` método.
+Sim, você pode adicionar imagens facilmente ao cabeçalho ou rodapé usando o `DocumentBuilder.InsertImage` método.
 
 ### Como defino cabeçalhos e rodapés diferentes para a primeira página?
 
- Você pode definir diferentes cabeçalhos e rodapés para a primeira página usando o`DifferentFirstPageHeaderFooter` propriedade do`PageSetup` aula.
+Você pode definir diferentes cabeçalhos e rodapés para a primeira página usando o `DifferentFirstPageHeaderFooter` propriedade do `PageSetup` aula.
 
 ### Onde posso encontrar mais documentação sobre o Aspose.Words?
 
- Você pode encontrar documentação abrangente sobre o[Página de documentação da API Aspose.Words](https://reference.aspose.com/words/net/).
+Você pode encontrar documentação completa sobre o [Página de documentação da API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Há suporte disponível para o Aspose.Words?
 
- Sim, a Aspose oferece suporte por meio de seu[fórum de suporte](https://forum.aspose.com/c/words/8).
+Sim, a Aspose oferece suporte por meio de seu [fórum de suporte](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

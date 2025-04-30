@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/insert-column-chart/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Column Chart In A Word Document
@@ -95,9 +98,13 @@ For further assistance, visit the [Aspose.Words for .NET forum](https://forum.as
 
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

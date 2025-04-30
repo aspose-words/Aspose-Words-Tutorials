@@ -1,14 +1,16 @@
 ---
-title: Định dạng số nhãn dữ liệu trong biểu đồ
-linktitle: Định dạng số nhãn dữ liệu trong biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-charts/format-number-of-data-label/
+"description": "Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng."
+"linktitle": "Định dạng số nhãn dữ liệu trong biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Định dạng số nhãn dữ liệu trong biểu đồ"
+"url": "/vi/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng số nhãn dữ liệu trong biểu đồ
@@ -21,10 +23,10 @@ Việc tạo các tài liệu hấp dẫn và nhiều thông tin thường liên
 
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập môi trường phát triển .NET. Visual Studio được khuyến khích sử dụng.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết vì hướng dẫn này liên quan đến việc viết và hiểu mã C#.
--  Giấy phép tạm thời: Để sử dụng Aspose.Words mà không có bất kỳ hạn chế nào, bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Giấy phép tạm thời: Để sử dụng Aspose.Words mà không có bất kỳ hạn chế nào, bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Bây giờ, chúng ta hãy cùng tìm hiểu từng bước trong quy trình định dạng nhãn số trong biểu đồ.
 
@@ -46,11 +48,11 @@ Trước khi bạn có thể bắt đầu thao tác với tài liệu Word, bạ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Khởi tạo Document và DocumentBuilder
 
- Bước tiếp theo là khởi tạo một cái mới`Document` và một`DocumentBuilder` . Các`DocumentBuilder` là lớp trợ giúp cho phép chúng ta xây dựng nội dung tài liệu.
+Bước tiếp theo là khởi tạo một cái mới `Document` và một `DocumentBuilder`. Các `DocumentBuilder` là lớp trợ giúp cho phép chúng ta xây dựng nội dung tài liệu.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Chèn biểu đồ vào tài liệu
 
- Bây giờ, hãy chèn biểu đồ vào tài liệu bằng cách sử dụng`DocumentBuilder`. Trong hướng dẫn này, chúng ta sẽ sử dụng biểu đồ đường làm ví dụ.
+Bây giờ, hãy chèn biểu đồ vào tài liệu bằng cách sử dụng `DocumentBuilder`. Trong hướng dẫn này, chúng ta sẽ sử dụng biểu đồ đường làm ví dụ.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Định dạng 
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Định dạng phần trăm
 ```
 
- Ngoài ra, bạn có thể liên kết định dạng của nhãn dữ liệu với ô nguồn. Khi được liên kết,`NumberFormat` sẽ được thiết lập lại thành chung và kế thừa từ ô nguồn.
+Ngoài ra, bạn có thể liên kết định dạng của nhãn dữ liệu với ô nguồn. Khi được liên kết, `NumberFormat` sẽ được thiết lập lại thành chung và kế thừa từ ô nguồn.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -131,17 +133,22 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để tạo, thao tác v
 Có, Aspose.Words for .NET hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ thanh, biểu đồ cột, biểu đồ tròn, v.v.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words dành cho .NET?
-Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Có thể liên kết nhãn dữ liệu với ô nguồn trong Excel không?
 Có, bạn có thể liên kết nhãn dữ liệu với các ô nguồn, cho phép định dạng số được kế thừa từ ô nguồn.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

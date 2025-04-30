@@ -1,14 +1,16 @@
 ---
-title: เข้าร่วมต่อเนื่อง
-linktitle: เข้าร่วมต่อเนื่อง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรวมเอกสาร Word สองฉบับเข้าด้วยกันอย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการรวมเอกสารอย่างราบรื่นและมีประสิทธิภาพ
-weight: 10
-url: /th/net/join-and-append-documents/join-continuous/
+"description": "เรียนรู้วิธีรวมเอกสาร Word สองฉบับเข้าด้วยกันอย่างราบรื่นโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการรวมเอกสารอย่างราบรื่นและมีประสิทธิภาพ"
+"linktitle": "เข้าร่วมต่อเนื่อง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เข้าร่วมต่อเนื่อง"
+"url": "/th/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เข้าร่วมต่อเนื่อง
@@ -21,7 +23,7 @@ url: /th/net/join-and-append-documents/join-continuous/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง[Aspose.คำศัพท์สำหรับ .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดและติดตั้ง [Aspose.คำศัพท์สำหรับ .NET](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: คุณสามารถใช้ Visual Studio หรือสภาพแวดล้อมการพัฒนา .NET อื่น ๆ ได้
 - เอกสารตัวอย่าง: เตรียมเอกสาร Word สองฉบับที่คุณต้องการจะผสานไว้
 
@@ -40,11 +42,11 @@ using Aspose.Words;
 ขั้นแรก เราต้องตั้งค่าไดเร็กทอรีที่เก็บเอกสารของคุณ ซึ่งจะทำให้โค้ดของเราค้นหาไฟล์ที่ต้องการรวมได้
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
 ## ขั้นตอนที่ 2: โหลดเอกสารต้นทางและปลายทาง
 
@@ -59,7 +61,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## ขั้นตอนที่ 3: ตั้งค่าการเริ่มต้นส่วนเป็นแบบต่อเนื่อง
 
- เพื่อให้เนื้อหาของเอกสารต้นฉบับปรากฏทันทีหลังเอกสารปลายทาง เราจำเป็นต้องตั้งค่า`SectionStart` คุณสมบัติของส่วนแรกในเอกสารต้นฉบับ`Continuous`.
+เพื่อให้เนื้อหาของเอกสารต้นฉบับปรากฏทันทีหลังเอกสารปลายทาง เราจำเป็นต้องตั้งค่า `SectionStart` คุณสมบัติของส่วนแรกในเอกสารต้นฉบับ `Continuous`-
 
 ```csharp
 // ทำให้เอกสารปรากฏขึ้นตรงหลังเนื้อหาของเอกสารปลายทาง
@@ -77,7 +79,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- โดยใช้`ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบจากเอกสารต้นฉบับจะถูกเก็บรักษาไว้ในเอกสารผสานขั้นสุดท้าย
+โดยใช้ `ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบจากเอกสารต้นฉบับจะถูกเก็บรักษาไว้ในเอกสารผสานขั้นสุดท้าย
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่ผสาน
 
@@ -99,7 +101,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
 ใช่ คุณสามารถทำซ้ำขั้นตอนเพื่อรวมเอกสารหลายฉบับได้โดยการโหลดเอกสารเพิ่มเติมและผนวกตามลำดับ
 
 ### รูปแบบดั้งเดิมจะยังคงอยู่หรือไม่?
- ใช่ครับ ใช้`ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบจากเอกสารต้นฉบับได้รับการรักษาไว้
+ใช่ครับ ใช้ `ImportFormatMode.KeepSourceFormatting` ทำให้แน่ใจว่าการจัดรูปแบบจากเอกสารต้นฉบับได้รับการรักษาไว้
 
 ### Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core หรือไม่
 ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับทั้ง .NET Framework และ .NET Core
@@ -108,10 +110,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
 ใช่ แต่คุณอาจต้องปรับคุณสมบัติการตั้งค่าหน้าเพื่อให้แน่ใจว่าการผสานจะราบรื่น
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?
- คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

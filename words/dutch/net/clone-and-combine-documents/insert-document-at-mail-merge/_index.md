@@ -1,33 +1,35 @@
 ---
-title: Document invoegen bij samenvoeging
-linktitle: Document invoegen bij samenvoeging
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u documenten in samenvoegvelden kunt invoegen met Aspose.Words voor .NET in deze uitgebreide, stapsgewijze zelfstudie.
-weight: 10
-url: /nl/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Leer hoe u documenten in samenvoegvelden kunt invoegen met behulp van Aspose.Words voor .NET in deze uitgebreide, stapsgewijze zelfstudie."
+"linktitle": "Document invoegen bij samenvoeging"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Document invoegen bij samenvoeging"
+"url": "/nl/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document invoegen bij samenvoeging
 
 ## Invoering
 
-Welkom in de wereld van documentautomatisering met Aspose.Words voor .NET! Heb je je ooit afgevraagd hoe je dynamisch documenten in specifieke velden in een hoofddocument kunt invoegen tijdens een samenvoegbewerking? Nou, dan ben je hier aan het juiste adres. Deze tutorial leidt je stap voor stap door het proces van het invoegen van documenten in samenvoegvelden met Aspose.Words voor .NET. Het is alsof je een puzzel in elkaar zet, waarbij elk stukje perfect op zijn plaats valt. Dus, laten we erin duiken!
+Welkom in de wereld van documentautomatisering met Aspose.Words voor .NET! Heb je je ooit afgevraagd hoe je dynamisch documenten kunt invoegen in specifieke velden binnen een hoofddocument tijdens een samenvoegbewerking? Dan ben je hier aan het juiste adres. Deze tutorial begeleidt je stap voor stap door het proces van het invoegen van documenten in samenvoegvelden met Aspose.Words voor .NET. Het is als het leggen van een puzzel, waarbij elk stukje perfect op zijn plaats valt. Laten we erin duiken!
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1.  Aspose.Words voor .NET: Je kunt[Download hier de nieuwste versie](https://releases.aspose.com/words/net/) . Als u een licentie moet aanschaffen, kunt u dat doen[hier](https://purchase.aspose.com/buy) . Als alternatief kunt u een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of probeer het eens met een[gratis proefperiode](https://releases.aspose.com/).
+1. Aspose.Words voor .NET: Je kunt [Download hier de nieuwste versie](https://releases.aspose.com/words/net/)Als u een licentie moet aanschaffen, kunt u dat doen [hier](https://purchase.aspose.com/buy)Als alternatief kunt u een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of probeer het uit met een [gratis proefperiode](https://releases.aspose.com/).
 2. Ontwikkelomgeving: Visual Studio of een andere C# IDE.
 3. Basiskennis van C#: Als u bekend bent met C#-programmering, is deze tutorial een fluitje van een cent.
 
 ## Naamruimten importeren
 
-Allereerst moet u de benodigde namespaces importeren. Deze zijn als het ware de bouwstenen van uw project.
+Allereerst moet je de benodigde naamruimten importeren. Deze vormen als het ware de bouwstenen van je project.
 
 ```csharp
 using System;
@@ -36,7 +38,7 @@ using Aspose.Words.MailMerging;
 using System.Linq;
 ```
 
-Laten we het proces opsplitsen in beheersbare stappen. Elke stap bouwt voort op de vorige, wat leidt tot een complete oplossing.
+Laten we het proces opsplitsen in beheersbare stappen. Elke stap bouwt voort op de vorige en leidt tot een complete oplossing.
 
 ## Stap 1: Uw directory instellen
 
@@ -54,7 +56,7 @@ Vervolgens laadt u het hoofddocument. Dit document bevat de samenvoegvelden waar
 Document mainDoc = new Document(dataDir + "Document insertion 1.docx");
 ```
 
-## Stap 3: De callback voor het samenvoegen van velden instellen
+## Stap 3: De callback voor veldsamenvoeging instellen
 
 Om het samenvoegingsproces te verwerken, moet u een callbackfunctie instellen. Deze functie is verantwoordelijk voor het invoegen van documenten in de opgegeven samenvoegvelden.
 
@@ -64,7 +66,7 @@ mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
 
 ## Stap 4: De samenvoegbewerking uitvoeren
 
-Nu is het tijd om de mail merge uit te voeren. Dit is waar de magie gebeurt. U specificeert het merge-veld en het document dat in dit veld moet worden ingevoegd.
+Nu is het tijd om de samenvoeging uit te voeren. Dit is waar de magie gebeurt. U specificeert het samenvoegveld en het document dat in dit veld moet worden ingevoegd.
 
 ```csharp
 mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Document insertion 2.docx" });
@@ -72,7 +74,7 @@ mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Docu
 
 ## Stap 5: Het document opslaan
 
-Nadat de samenvoeging is voltooid, slaat u het gewijzigde document op. Dit nieuwe document heeft de ingevoegde inhoud precies waar u het wilt hebben.
+Nadat de samenvoeging is voltooid, slaat u het gewijzigde document op. In dit nieuwe document staat de ingevoegde inhoud precies waar u die wilt hebben.
 
 ```csharp
 mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
@@ -80,7 +82,7 @@ mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc")
 
 ## Stap 6: De callback-handler maken
 
-De callback handler is een klasse die speciale verwerking uitvoert voor het samenvoegveld. Het laadt het document dat is opgegeven in de veldwaarde en voegt het in het huidige samenvoegveld in.
+De callback-handler is een klasse die speciale verwerking uitvoert voor het samenvoegveld. Deze laadt het document dat is opgegeven in de veldwaarde en voegt het in het huidige samenvoegveld in.
 
 ```csharp
 private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
@@ -140,27 +142,32 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 ## Conclusie
 
-En daar heb je het! Je hebt met succes documenten in specifieke velden ingevoegd tijdens een mail merge-bewerking met Aspose.Words voor .NET. Deze krachtige functie kan je een hoop tijd en moeite besparen, vooral als je met grote hoeveelheden documenten werkt. Zie het als een persoonlijke assistent die al het zware werk voor je doet. Dus ga je gang en probeer het eens. Veel plezier met coderen!
+En voilà! Je hebt met succes documenten in specifieke velden ingevoegd tijdens een samenvoegbewerking met Aspose.Words voor .NET. Deze krachtige functie bespaart je enorm veel tijd en moeite, vooral bij het verwerken van grote hoeveelheden documenten. Zie het als een persoonlijke assistent die al het zware werk voor je doet. Dus ga je gang en probeer het eens. Veel plezier met coderen!
 
 ## Veelgestelde vragen
 
 ### Kan ik meerdere documenten in verschillende samenvoegvelden invoegen?
-Ja, dat kan. Geef gewoon de juiste samenvoegvelden en bijbehorende documentpaden op in de`MailMerge.Execute` methode.
+Ja, dat kan. Geef eenvoudig de juiste samenvoegvelden en bijbehorende documentpaden op in de `MailMerge.Execute` methode.
 
 ### Is het mogelijk om het ingevoegde document anders op te maken dan het hoofddocument?
- Absoluut! Je kunt de`ImportFormatMode` parameter in de`NodeImporter` om de opmaak te beheren.
+Absoluut! Je kunt de `ImportFormatMode` parameter in de `NodeImporter` om de opmaak te bepalen.
 
 ### Wat als de samenvoegveldnaam dynamisch is?
-U kunt dynamische samenvoegveldnamen verwerken door ze als parameters door te geven aan de callbackhandler.
+U kunt dynamische samenvoegveldnamen verwerken door deze als parameters door te geven aan de callback-handler.
 
 ### Kan ik deze methode gebruiken met verschillende bestandsformaten?
 Ja, Aspose.Words ondersteunt verschillende bestandsformaten, waaronder DOCX, PDF en meer.
 
 ### Hoe ga ik om met fouten tijdens het invoegen van documenten?
 Implementeer foutverwerking in uw callback-handler om eventuele uitzonderingen te beheren.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

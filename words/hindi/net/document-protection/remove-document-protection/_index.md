@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ में दस्तावेज़ सुरक्षा हटाएँ
-linktitle: Word दस्तावेज़ में दस्तावेज़ सुरक्षा हटाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से सुरक्षा हटाने का तरीका जानें। अपने दस्तावेज़ों को आसानी से असुरक्षित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/document-protection/remove-document-protection/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से सुरक्षा हटाने का तरीका जानें। अपने दस्तावेज़ों को आसानी से असुरक्षित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "Word दस्तावेज़ में दस्तावेज़ सुरक्षा हटाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Word दस्तावेज़ में दस्तावेज़ सुरक्षा हटाएँ"
+"url": "/hi/net/document-protection/remove-document-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ में दस्तावेज़ सुरक्षा हटाएँ
@@ -22,7 +24,7 @@ url: /hi/net/document-protection/remove-document-protection/
 
 कोड में जाने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा .NET विकास वातावरण.
 3. C# का बुनियादी ज्ञान: C# की मूल बातें समझने से आपको आगे बढ़ने में मदद मिलेगी।
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ProtectedDocument.docx");
 ```
 
- यहाँ, हम अपने दस्तावेज़ वाली निर्देशिका का पथ निर्दिष्ट करते हैं।`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
+यहाँ, हम अपने दस्तावेज़ वाली निर्देशिका का पथ निर्दिष्ट करते हैं। `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: पासवर्ड के बिना सुरक्षा हटाएं
 
@@ -70,7 +72,7 @@ doc.Unprotect();
 doc.Unprotect("currentPassword");
 ```
 
- प्रतिस्थापित करें`"currentPassword"` दस्तावेज़ की सुरक्षा के लिए इस्तेमाल किए गए वास्तविक पासवर्ड के साथ। एक बार जब आप सही पासवर्ड प्रदान करते हैं, तो सुरक्षा हटा ली जाती है।
+प्रतिस्थापित करें `"currentPassword"` दस्तावेज़ की सुरक्षा के लिए इस्तेमाल किए गए वास्तविक पासवर्ड के साथ। एक बार जब आप सही पासवर्ड प्रदान करते हैं, तो सुरक्षा हटा ली जाती है।
 
 ## चरण 4: सुरक्षा जोड़ें और हटाएँ
 
@@ -84,7 +86,7 @@ doc.Protect(ProtectionType.ReadOnly, "newPassword");
 doc.Unprotect("newPassword");
 ```
 
- उपरोक्त कोड में, हम सबसे पहले पासवर्ड के साथ एक नया सुरक्षा कवच जोड़ते हैं`"newPassword"`, और फिर उसी पासवर्ड का उपयोग करके इसे तुरंत हटा दें।
+उपरोक्त कोड में, हम सबसे पहले पासवर्ड के साथ एक नया सुरक्षा कवच जोड़ते हैं `"newPassword"`, और फिर उसी पासवर्ड का उपयोग करके इसे तुरंत हटा दें।
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -113,7 +115,7 @@ doc.Save(dataDir + "DocumentProtection.RemoveDocumentProtection.docx");
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
 
- Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप इसे निःशुल्क आज़मा सकते हैं।[मुफ्त परीक्षण](https://releases.aspose.com/)!
+Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप इसे निःशुल्क आज़मा सकते हैं। [मुफ्त परीक्षण](https://releases.aspose.com/)!
 
 ### मैं Word दस्तावेज़ पर अन्य किस प्रकार की सुरक्षा लागू कर सकता हूँ?
 
@@ -121,11 +123,16 @@ Aspose.Words आपको विभिन्न प्रकार की सु
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज यहाँ पा सकते हैं[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज यहाँ पा सकते हैं [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

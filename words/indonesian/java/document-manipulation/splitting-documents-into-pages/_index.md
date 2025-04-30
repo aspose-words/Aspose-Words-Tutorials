@@ -1,14 +1,16 @@
 ---
-title: Membagi Dokumen ke dalam Halaman di Aspose.Words untuk Java
-linktitle: Membagi Dokumen menjadi Halaman
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membagi dokumen menjadi beberapa halaman menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pemrosesan dokumen yang efisien.
-weight: 23
-url: /id/java/document-manipulation/splitting-documents-into-pages/
+"description": "Pelajari cara membagi dokumen menjadi beberapa halaman menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pemrosesan dokumen yang efisien."
+"linktitle": "Membagi Dokumen menjadi Halaman"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membagi Dokumen ke dalam Halaman di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/splitting-documents-into-pages/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membagi Dokumen ke dalam Halaman di Aspose.Words untuk Java
@@ -25,14 +27,14 @@ Aspose.Words untuk Java adalah pustaka Java yang memungkinkan Anda memanipulasi 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java, yang dapat Anda unduh [Di Sini](https://releases.aspose.com/words/java/).
 
 ## 3. Menyiapkan Lingkungan Anda
 
 Untuk memulai, atur lingkungan pengembangan Anda sebagai berikut:
 
 - Buat proyek Java di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda.
-- Tambahkan pustaka Aspose.Words untuk Java ke proyek Anda. Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/words/java/) untuk petunjuk terperinci.
+- Tambahkan pustaka Aspose.Words untuk Java ke proyek Anda. Anda dapat merujuk ke [dokumentasi](https://reference.aspose.com/words/java/) untuk petunjuk terperinci.
 
 ## 4. Memahami Kode Sumber
 
@@ -56,7 +58,7 @@ Document doc = new Document(docName);
 Document doc = new Document(docName);
 ```
 
- Pada langkah ini, kami memuat dokumen input ke dalam`Document` objek, yang memungkinkan kita bekerja dengan konten dokumen.
+Pada langkah ini, kami memuat dokumen input ke dalam `Document` objek, yang memungkinkan kita bekerja dengan konten dokumen.
 
 ### 5.2. Menginisialisasi DocumentPageSplitter
 
@@ -64,7 +66,7 @@ Document doc = new Document(docName);
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
 
- Kami menginisialisasikan`DocumentPageSplitter` objek dengan dokumen yang kita muat. Kelas ini disediakan oleh Aspose.Words untuk Java dan membantu kita membagi dokumen menjadi beberapa halaman.
+Kami menginisialisasikan `DocumentPageSplitter` objek dengan dokumen yang kita muat. Kelas ini disediakan oleh Aspose.Words untuk Java dan membantu kita membagi dokumen menjadi beberapa halaman.
 
 ### 5.3. Menyimpan Setiap Halaman
 
@@ -79,7 +81,7 @@ Pada langkah ini, kita mengulang setiap halaman dokumen dan menyimpannya sebagai
 
 ## 6. Menjalankan Kode
 
-Untuk menjalankan kode ini dengan sukses, pastikan Anda telah menyiapkan lingkungan dan menambahkan pustaka Aspose.Words for Java ke proyek Anda. Kemudian, jalankan kode tersebut, dan dokumen Anda akan terbagi menjadi beberapa halaman terpisah.
+Untuk menjalankan kode ini dengan sukses, pastikan Anda telah menyiapkan lingkungan kerja dan menambahkan pustaka Aspose.Words for Java ke proyek Anda. Kemudian, jalankan kode tersebut, dan dokumen Anda akan terbagi menjadi beberapa halaman terpisah.
 
 ## Kode Sumber DocumentPageSplitter
 
@@ -116,12 +118,12 @@ public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
 /// <ringkasan>
-//Mendapatkan dokumen dalam rentang halaman.
+/// Mendapatkan dokumen dalam rentang halaman.
 /// </ringkasan>
 /// <param nama="indeksawal">
 /// 1-indeks berbasis halaman awal.
 /// </param>
-/// <param nama="indeksakhir">
+//<param nama="indeksakhir">
 /// 1-indeks berbasis halaman akhir.
 /// </param>
 /// <kembali>
@@ -141,7 +143,7 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 /// </ringkasan>
 class PageNumberFinder
 {
-// Node peta ke nomor halaman awal/akhir.
+// Memetakan simpul ke nomor halaman awal/akhir.
 // Ini digunakan untuk mengganti nomor halaman dasar yang diberikan oleh pengumpul saat dokumen dipisah.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
@@ -149,7 +151,7 @@ private LayoutCollector collector;
 // Memetakan nomor halaman ke daftar node yang ditemukan pada halaman tersebut.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
 /// <ringkasan>
-/// Menginisialisasi contoh baru kelas <see cref="PageNumberFinder"/>.
+/// Menginisialisasi instance baru kelas <see cref="PageNumberFinder"/>.
 /// </ringkasan>
 /// <param name="collector">Instans kolektor yang memiliki rekaman model tata letak untuk dokumen tersebut.</param>
 public PageNumberFinder(LayoutCollector collector)
@@ -189,7 +191,7 @@ public int getPageEnd(Node node) throws Exception {
 		: collector.getEndPageIndex(node);
 }
 /// <ringkasan>
-//Mengembalikan jumlah halaman yang dicakup oleh node yang ditentukan. Mengembalikan 1 jika node berada dalam satu halaman.
+/// Mengembalikan jumlah halaman yang dicakup oleh node yang ditentukan. Mengembalikan 1 jika node berada dalam satu halaman.
 /// </ringkasan>
 /// <param nama="simpul">
 /// Simpul.
@@ -215,7 +217,7 @@ public int pageSpan(Node node) throws Exception {
 /// <kembali>
 /// <lihat cref="IList{T}"/>.
 /// </kembali>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*TipeNode*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -299,7 +301,7 @@ private void checkPageListsPopulated() throws Exception {
 	// Tambahkan setiap node ke daftar yang mewakili node yang ditemukan pada setiap halaman.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		//Header/Footer mengikuti bagian dan tidak dipisahkan sendiri-sendiri.
+		// Header/Footer mengikuti bagian dan tidak dipisahkan sendiri-sendiri.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -452,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// Jika paragraf hanya berisi pemisah bagian, tambahkan pemisah bagian palsu.
+	// Jika paragraf hanya berisi pemisah bagian, tambahkan jeda palsu.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -464,7 +466,7 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// Hapus penomoran daftar dari paragraf kloning tetapi biarkan indentasi tetap sama
+		// Hapus penomoran daftar dari paragraf kloning tetapi biarkan indentasi tetap sama 
 		// karena paragraf tersebut seharusnya menjadi bagian dari item sebelumnya.
 		if (paragraph.isListItem())
 		{
@@ -498,7 +500,7 @@ public int visitSectionEnd(Section section) throws Exception {
 	// Tambahkan juga penomoran halaman baru untuk isi bagian tersebut.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return VisitorAction.CONTINUE;
+	return Aksi Pengunjung.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -515,7 +517,7 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
 	// Suatu node dapat membentang melintasi beberapa halaman, sehingga daftar posisi terbagi akan dikembalikan.
-	//Node terbagi adalah node pertama pada halaman berikutnya.
+	// Node terbagi adalah node pertama pada halaman berikutnya.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -677,7 +679,7 @@ Tentu saja! Mari tambahkan bagian Tanya Jawab ke panduan kami tentang membagi do
 
 Untuk menambahkan Aspose.Words untuk Java ke proyek Anda, ikuti langkah-langkah berikut:
 
-1.  Unduh pustaka Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+1. Unduh pustaka Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 2. Tambahkan file JAR yang diunduh ke classpath proyek Anda.
 3. Anda sekarang dapat mulai menggunakan Aspose.Words untuk Java di proyek Anda.
 
@@ -687,7 +689,7 @@ Tidak, panduan ini secara khusus membahas pemisahan dokumen dalam format DOC men
 
 ### Apakah Aspose.Words untuk Java merupakan pustaka gratis?
 
- Tidak, Aspose.Words untuk Java bukanlah pustaka gratis. Ini adalah produk komersial dengan biaya lisensi. Anda dapat mengunjungi[Halaman harga Aspose.Words untuk Java](https://purchase.aspose.com/words/java) untuk informasi lebih lanjut tentang lisensi dan rincian harga.
+Tidak, Aspose.Words untuk Java bukanlah pustaka gratis. Ini adalah produk komersial dengan biaya lisensi. Anda dapat mengunjungi [Halaman harga Aspose.Words untuk Java](https://purchase.aspose.com/words/java) untuk informasi lebih lanjut tentang lisensi dan rincian harga.
 
 ### Dapatkah saya membagi dokumen ke dalam ukuran dan format halaman khusus?
 
@@ -700,9 +702,14 @@ Aspose.Words untuk Java tidak memberlakukan batasan khusus pada jumlah halaman y
 ### Bagaimana cara menangani header dan footer saat membagi dokumen?
 
 Header dan footer dapat ditangani saat memisahkan dokumen dengan menggunakan pustaka Aspose.Words untuk Java. Anda dapat menyalin konten header dan footer dari dokumen asli ke dokumen yang dipisahkan, memastikan bahwa keduanya dipertahankan dengan benar. Anda mungkin perlu menyesuaikan proses ini berdasarkan persyaratan header dan footer spesifik Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

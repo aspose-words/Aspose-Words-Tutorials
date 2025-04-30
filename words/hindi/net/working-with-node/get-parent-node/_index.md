@@ -1,14 +1,16 @@
 ---
-title: पैरेंट नोड प्राप्त करें
-linktitle: पैरेंट नोड प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ अनुभाग का मूल नोड कैसे प्राप्त करें, जानें।
-weight: 10
-url: /hi/net/working-with-node/get-parent-node/
+"description": "इस विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ अनुभाग का मूल नोड प्राप्त करना सीखें।"
+"linktitle": "पैरेंट नोड प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पैरेंट नोड प्राप्त करें"
+"url": "/hi/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पैरेंट नोड प्राप्त करें
@@ -21,10 +23,10 @@ url: /hi/net/working-with-node/get-parent-node/
 
 इससे पहले कि हम आगे बढ़ें, सुनिश्चित करें कि आपने सब कुछ सेट कर लिया है:
 
--  .NET के लिए Aspose.Words: इसे यहाँ से डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: इसे यहाँ से डाउनलोड और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET संगत IDE.
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना लाभदायक होगा।
--  अस्थायी लाइसेंस: बिना किसी सीमा के पूर्ण कार्यक्षमता के लिए, अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+- अस्थायी लाइसेंस: बिना किसी सीमा के पूर्ण कार्यक्षमता के लिए, अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -43,7 +45,7 @@ using Aspose.Words;
 Document doc = new Document();
 ```
 
- यहाँ, हमने एक नया उदाहरण आरंभ किया है`Document` इसे अपने खाली कैनवास के रूप में सोचें।
+यहाँ, हमने एक नया उदाहरण आरंभ किया है `Document` इसे अपने खाली कैनवास के रूप में सोचें।
 
 ## चरण 2: पहले चाइल्ड नोड तक पहुंचें
 
@@ -84,10 +86,15 @@ Console.WriteLine("Section parent is the document: " + (doc == section.ParentNod
 हां, पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस की आवश्यकता है। आप मूल्यांकन उद्देश्यों के लिए निःशुल्क परीक्षण या अस्थायी लाइसेंस के साथ शुरुआत कर सकते हैं।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

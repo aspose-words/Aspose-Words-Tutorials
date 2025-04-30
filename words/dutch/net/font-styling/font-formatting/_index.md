@@ -1,41 +1,49 @@
 ---
-title: Schrijf lettertypen op in Word met behulp van Aspose.Words voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je een Word-document met een aangepaste lettertypenformatting in .NET kunt maken met behulp van Aspose.Words. Eenvoudig stap-voor-stap voorbeeld inbegrepen.
-keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
-url: /nl/net/font-styling/font-formatting/
+"description": "Leer hoe je een Word-document maakt met aangepaste lettertypeopmaak in .NET met Aspose.Words. Inclusief eenvoudig stapsgewijze voorbeeld."
+"title": "Lettertypeopmaak maken in Word met Aspose.Words voor .NET"
+"url": "/nl/net/font-styling/font-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Schrijf lettertypen in Word met behulp van Aspose.Words
+# Lettertypeopmaak maken in Word met Aspose.Words
 
-Deze handleiding biedt een eenvoudig voorbeeld van het maken en formateren van een Word-document met behulp van Aspose.Words voor .NET. U leert lettertype eigenschappen zoals grootte, stijl en kleur aan te passen en vervolgens tekst in het document te schrijven.
+Deze handleiding geeft een eenvoudig voorbeeld van het maken en opmaken van een Word-document met Aspose.Words voor .NET. U leert hoe u lettertype-eigenschappen zoals grootte, stijl en kleur aanpast en vervolgens tekst in het document schrijft. Stapsgewijze instructies maken het zowel voor beginners als ervaren ontwikkelaars gemakkelijk om Aspose.Words in hun applicaties te integreren.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/font-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies 
-1. Voorwaarden: Zorg ervoor dat u .NET op uw machine hebt geïnstalleerd.
-2. Installeer Aspose.Words: 
-   * Gebruik NuGet Package Manager in Visual Studio:
+1. Vereisten: Zorg ervoor dat .NET op uw computer is geïnstalleerd.
+2. Aspose.Words installeren: 
+   - Gebruik NuGet Package Manager in Visual Studio:
      ```
      Install-Package Aspose.Words
      ```
-   * Of download de DLL direct van de [Webpagina's opzetten](https://www.aspose.com)\- Ik heb het niet gedaan .
-3. Verzoek licentie (optioneel):  
-   Om de volledige versie te gebruiken, [een vergunning aanvragen](https://purchase.aspose.com/temporary-license/)of gebruik van een [gratis proefproef](https://releases.aspose.com/words/net/)\- Ik heb het niet gedaan .  
+   - Of download de DLL rechtstreeks van de [Aspose-website](https://www.aspose.com).
+3. Licentie toepassen (optioneel):  
+   Om de volledige versie te gebruiken, [een licentie aanvragen](https://purchase.aspose.com/temporary-license/) of gebruik een [gratis proefperiode](https://releases.aspose.com/words/net/).  
 
 ## Zie ook
 [Aspose.Word voor .NET-documentatie](https://docs.aspose.com/words/net/)
-[Aspose.Word voor .NET Referenties](https://reference.aspose.com/words/net/)
+[Aspose.Word voor .NET-referenties](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

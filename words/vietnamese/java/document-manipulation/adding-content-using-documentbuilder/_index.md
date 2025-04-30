@@ -1,14 +1,16 @@
 ---
-title: Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java
-linktitle: Thêm Nội dung bằng DocumentBuilder
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
-weight: 26
-url: /vi/java/document-manipulation/adding-content-using-documentbuilder/
+"description": "Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng."
+"linktitle": "Thêm Nội dung bằng DocumentBuilder"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/adding-content-using-documentbuilder/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử d
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập thư viện Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập thư viện Aspose.Words for Java trong dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Thêm văn bản
 
@@ -41,7 +43,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//Bắt đầu một bảng
+// Bắt đầu một bảng
 Table table = builder.startTable();
 
 // Chèn ô và nội dung
@@ -58,7 +60,7 @@ builder.endTable();
 doc.save("path/to/your/document.docx");
 ```
 
-## Thêm Quy tắc Ngang
+## Thêm Quy tắc ngang
 
 ```java
 Document doc = new Document();
@@ -221,7 +223,7 @@ doc.save("path/to/your/document.docx");
 
 ## Bước 10: Di chuyển con trỏ
 
- Bạn có thể kiểm soát vị trí con trỏ trong tài liệu bằng nhiều phương pháp khác nhau như`moveToParagraph`, `moveToCell`và nhiều hơn nữa. Sau đây là một ví dụ:
+Bạn có thể kiểm soát vị trí con trỏ trong tài liệu bằng nhiều phương pháp khác nhau như `moveToParagraph`, `moveToCell`và nhiều hơn nữa. Sau đây là một ví dụ:
 
 ```java
 Document doc = new Document();
@@ -249,7 +251,7 @@ A: Aspose.Words for Java là một thư viện Java cho phép các nhà phát tr
 
 ### H: Làm thế nào để thêm mục lục vào tài liệu của tôi?
 
-A: Để thêm mục lục, hãy sử dụng`DocumentBuilder` để chèn trường mục lục vào tài liệu của bạn. Đảm bảo cập nhật các trường trong tài liệu sau khi thêm nội dung để điền vào mục lục. Sau đây là một ví dụ:
+A: Để thêm mục lục, hãy sử dụng `DocumentBuilder` để chèn trường mục lục vào tài liệu của bạn. Đảm bảo cập nhật các trường trong tài liệu sau khi thêm nội dung để điền vào mục lục. Sau đây là một ví dụ:
 
 ```java
 Document doc = new Document();
@@ -267,7 +269,7 @@ doc.updateFields();
 
 ### H: Làm thế nào để chèn hình ảnh vào tài liệu bằng Aspose.Words cho Java?
 
- A: Bạn có thể chèn hình ảnh, cả nội tuyến và nổi, bằng cách sử dụng`DocumentBuilder`. Sau đây là ví dụ của cả hai:
+A: Bạn có thể chèn hình ảnh, cả nội tuyến và nổi, bằng cách sử dụng `DocumentBuilder`. Sau đây là ví dụ của cả hai:
 
 #### Hình ảnh nội tuyến:
 
@@ -291,7 +293,7 @@ builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN,
 
 ### H: Tôi có thể định dạng văn bản và đoạn văn khi thêm nội dung không?
 
- A: Có, bạn có thể định dạng văn bản và đoạn văn bằng cách sử dụng`DocumentBuilder`. Bạn có thể thiết lập thuộc tính phông chữ, căn chỉnh đoạn văn, thụt lề và nhiều hơn nữa. Sau đây là một ví dụ:
+A: Có, bạn có thể định dạng văn bản và đoạn văn bằng cách sử dụng `DocumentBuilder`. Bạn có thể thiết lập thuộc tính phông chữ, căn chỉnh đoạn văn, thụt lề và nhiều hơn nữa. Sau đây là một ví dụ:
 
 ```java
 Document doc = new Document();
@@ -316,7 +318,7 @@ builder.writeln("This is a formatted paragraph.");
 
 ### H: Làm thế nào để di chuyển con trỏ đến một vị trí cụ thể trong tài liệu?
 
- A: Bạn có thể kiểm soát vị trí con trỏ bằng các phương pháp như`moveToParagraph`, `moveToCell`và nhiều hơn nữa. Sau đây là một ví dụ:
+A: Bạn có thể kiểm soát vị trí con trỏ bằng các phương pháp như `moveToParagraph`, `moveToCell`và nhiều hơn nữa. Sau đây là một ví dụ:
 
 ```java
 Document doc = new Document();
@@ -329,10 +331,15 @@ builder.moveToParagraph(2, 0);
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Đây là một số câu hỏi và câu trả lời phổ biến để giúp bạn bắt đầu với DocumentBuilder của Aspose.Words for Java. Nếu bạn có thêm câu hỏi hoặc cần hỗ trợ thêm, hãy tham khảo[tài liệu của thư viện](https://reference.aspose.com/words/java/) hoặc tìm kiếm sự trợ giúp từ cộng đồng Aspose.Words và các nguồn hỗ trợ.
+Đây là một số câu hỏi và câu trả lời phổ biến để giúp bạn bắt đầu với DocumentBuilder của Aspose.Words for Java. Nếu bạn có thêm câu hỏi hoặc cần hỗ trợ thêm, hãy tham khảo [tài liệu của thư viện](https://reference.aspose.com/words/java/) hoặc tìm kiếm sự trợ giúp từ cộng đồng Aspose.Words và các nguồn hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

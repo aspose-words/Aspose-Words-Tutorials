@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-vba-macros/read-vba-macros/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read Vba Macros from A Word Document
@@ -144,9 +147,13 @@ Aspose.Words for .NET is compatible with a wide range of Word versions, ensuring
 ### Where can I purchase Aspose.Words for .NET?  
 You can purchase Aspose.Words for .NET from the [official purchase page](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

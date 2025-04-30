@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu thành các trang trong Aspose.Words cho Java
-linktitle: Chia tài liệu thành các trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách chia tài liệu thành các trang bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để xử lý tài liệu hiệu quả.
-weight: 23
-url: /vi/java/document-manipulation/splitting-documents-into-pages/
+"description": "Tìm hiểu cách chia tài liệu thành các trang bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để xử lý tài liệu hiệu quả."
+"linktitle": "Chia tài liệu thành các trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chia tài liệu thành các trang trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/splitting-documents-into-pages/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu thành các trang trong Aspose.Words cho Java
@@ -25,14 +27,14 @@ Aspose.Words for Java là một thư viện Java cho phép bạn thao tác các 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
--  Thư viện Aspose.Words cho Java, bạn có thể tải xuống[đây](https://releases.aspose.com/words/java/).
+- Thư viện Aspose.Words cho Java, bạn có thể tải xuống [đây](https://releases.aspose.com/words/java/).
 
 ## 3. Thiết lập môi trường của bạn
 
 Để bắt đầu, hãy thiết lập môi trường phát triển của bạn như sau:
 
 - Tạo một dự án Java trong Môi trường phát triển tích hợp (IDE) mà bạn thích.
-- Thêm thư viện Aspose.Words cho Java vào dự án của bạn. Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/words/java/) để biết hướng dẫn chi tiết.
+- Thêm thư viện Aspose.Words cho Java vào dự án của bạn. Bạn có thể tham khảo [tài liệu](https://reference.aspose.com/words/java/) để biết hướng dẫn chi tiết.
 
 ## 4. Hiểu mã nguồn
 
@@ -56,7 +58,7 @@ Document doc = new Document(docName);
 Document doc = new Document(docName);
 ```
 
- Trong bước này, chúng tôi tải tài liệu đầu vào vào một`Document` đối tượng cho phép chúng ta làm việc với nội dung của tài liệu.
+Trong bước này, chúng tôi tải tài liệu đầu vào vào một `Document` đối tượng cho phép chúng ta làm việc với nội dung của tài liệu.
 
 ### 5.2. Khởi tạo DocumentPageSplitter
 
@@ -64,7 +66,7 @@ Document doc = new Document(docName);
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
 
- Chúng tôi khởi tạo một`DocumentPageSplitter` đối tượng với tài liệu đã tải của chúng tôi. Lớp này được cung cấp bởi Aspose.Words cho Java và giúp chúng tôi chia tài liệu thành các trang.
+Chúng tôi khởi tạo một `DocumentPageSplitter` đối tượng với tài liệu đã tải của chúng tôi. Lớp này được cung cấp bởi Aspose.Words cho Java và giúp chúng tôi chia tài liệu thành các trang.
 
 ### 5.3. Lưu Mỗi Trang
 
@@ -116,12 +118,12 @@ public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
 /// <tóm tắt>
-//Lấy tài liệu của một phạm vi trang.
+/// Lấy tài liệu của một phạm vi trang.
 /// </tóm tắt>
 /// <param name="startIndex">
 /// Chỉ mục dựa trên trang bắt đầu.
 /// </tham số>
-/// <param name="endIndex">
+//<param name="endIndex">
 /// Chỉ mục dựa trên trang cuối.
 /// </tham số>
 /// <trở về>
@@ -137,7 +139,7 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 }
 }
 /// <tóm tắt>
-/// Cung cấp các phương pháp để trích xuất các nút của tài liệu được hiển thị trên các trang được chỉ định.
+/// Cung cấp các phương pháp trích xuất các nút của tài liệu được hiển thị trên các trang được chỉ định.
 /// </tóm tắt>
 class PageNumberFinder
 {
@@ -151,7 +153,7 @@ private Map<Integer, ArrayList<Node>> reversePageLookup;
 /// <tóm tắt>
 /// Khởi tạo một phiên bản mới của lớp <xem cref="PageNumberFinder"/>.
 /// </tóm tắt>
-/// <param name="collector">Một thể hiện của trình thu thập có các bản ghi mô hình bố trí cho tài liệu.</param>
+/// <param name="collector">Một thể hiện của trình thu thập có các bản ghi mô hình bố cục cho tài liệu.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -189,7 +191,7 @@ public int getPageEnd(Node node) throws Exception {
 		: collector.getEndPageIndex(node);
 }
 /// <tóm tắt>
-//Trả về số trang mà nút được chỉ định trải dài. Trả về 1 nếu nút nằm trong một trang.
+/// Trả về số trang mà nút được chỉ định trải dài. Trả về 1 nếu nút nằm trong một trang.
 /// </tóm tắt>
 /// <param name="node">
 /// Nút.
@@ -215,7 +217,7 @@ public int pageSpan(Node node) throws Exception {
 /// <trở về>
 /// <xem cref="IList{T}"/>.
 /// </trở về>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Kiểu nút*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -264,7 +266,7 @@ public void splitNodesAcrossPages() throws Exception
 	collector.getDocument().accept(new SectionSplitter(this));
 }
 /// <tóm tắt>
-/// Lệnh này được gọi bởi <xem cref="SectionSplitter"/> để cập nhật số trang của các nút chia tách.
+/// Lệnh này được <xem cref="SectionSplitter"/> gọi để cập nhật số trang của các nút chia tách.
 /// </tóm tắt>
 /// <param name="node">
 /// Nút.
@@ -299,7 +301,7 @@ private void checkPageListsPopulated() throws Exception {
 	// Thêm mỗi nút vào danh sách biểu diễn các nút có trên mỗi trang.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		//Tiêu đề/Chân trang nằm theo các phần và không tách biệt riêng lẻ.
+		// Tiêu đề/Chân trang nằm theo các phần và không tách biệt riêng lẻ.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -464,7 +466,7 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// Xóa số danh sách khỏi đoạn văn đã sao chép nhưng vẫn giữ nguyên thụt lề
+		// Xóa số danh sách khỏi đoạn văn đã sao chép nhưng vẫn giữ nguyên thụt lề 
 		// vì đoạn văn được cho là một phần của mục trước đó.
 		if (paragraph.isListItem())
 		{
@@ -498,7 +500,7 @@ public int visitSectionEnd(Section section) throws Exception {
 	// Thêm số trang mới cho phần nội dung của phần này.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return VisitorAction.CONTINUE;
+	return Hành động của khách truy cập.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -515,7 +517,7 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
 	// Một nút có thể trải dài trên nhiều trang, do đó danh sách các vị trí chia tách sẽ được trả về.
-	//Nút chia tách là nút đầu tiên trên trang tiếp theo.
+	// Nút chia tách là nút đầu tiên trên trang tiếp theo.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -677,7 +679,7 @@ Chắc chắn rồi! Chúng ta hãy thêm phần Câu hỏi thường gặp vào
 
 Để thêm Aspose.Words for Java vào dự án của bạn, hãy làm theo các bước sau:
 
-1.  Tải xuống thư viện Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/).
+1. Tải xuống thư viện Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
 2. Thêm tệp JAR đã tải xuống vào classpath của dự án.
 3. Bây giờ bạn có thể bắt đầu sử dụng Aspose.Words cho Java trong dự án của mình.
 
@@ -687,7 +689,7 @@ Không, hướng dẫn này đề cập cụ thể đến việc chia tách tài
 
 ### Aspose.Words cho Java có phải là thư viện miễn phí không?
 
- Không, Aspose.Words for Java không phải là thư viện miễn phí. Đây là sản phẩm thương mại có phí cấp phép. Bạn có thể truy cập[Trang giá của Aspose.Words cho Java](https://purchase.aspose.com/words/java) để biết thêm thông tin về chi tiết cấp phép và giá cả.
+Không, Aspose.Words for Java không phải là thư viện miễn phí. Đây là sản phẩm thương mại có phí cấp phép. Bạn có thể truy cập [Trang giá của Aspose.Words cho Java](https://purchase.aspose.com/words/java) để biết thêm thông tin về chi tiết cấp phép và giá cả.
 
 ### Tôi có thể chia tài liệu thành nhiều trang có kích thước và định dạng tùy chỉnh không?
 
@@ -697,12 +699,17 @@ Có, bạn có thể tùy chỉnh kích thước trang và định dạng của 
 
 Aspose.Words for Java không áp đặt giới hạn cụ thể về số trang bạn có thể chia. Tuy nhiên, hãy nhớ rằng các tài liệu rất lớn có thể yêu cầu nhiều bộ nhớ và thời gian xử lý hơn. Hãy lưu ý đến tài nguyên hệ thống khi làm việc với các tài liệu lớn.
 
-### Tôi có thể xử lý phần đầu trang và phần chân trang như thế nào khi chia nhỏ tài liệu?
+### Tôi có thể xử lý phần đầu trang và phần chân trang khi chia nhỏ tài liệu như thế nào?
 
 Có thể xử lý tiêu đề và chân trang khi chia tài liệu bằng cách sử dụng thư viện Aspose.Words for Java. Bạn có thể sao chép nội dung tiêu đề và chân trang từ tài liệu gốc sang tài liệu đã chia, đảm bảo chúng được bảo quản đúng cách. Bạn có thể cần tùy chỉnh quy trình này dựa trên các yêu cầu tiêu đề và chân trang cụ thể của mình.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

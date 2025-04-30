@@ -1,14 +1,16 @@
 ---
-title: Jednostka miary
-linktitle: Jednostka miary
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak skonfigurować funkcję jednostek miary w Aspose.Words dla platformy .NET, aby zachować formatowanie dokumentu podczas konwersji ODT.
-weight: 10
-url: /pl/net/programming-with-odtsaveoptions/measure-unit/
+"description": "Dowiedz się, jak skonfigurować funkcję jednostek miary w Aspose.Words dla platformy .NET, aby zachować formatowanie dokumentu podczas konwersji ODT."
+"linktitle": "Jednostka miary"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Jednostka miary"
+"url": "/pl/net/programming-with-odtsaveoptions/measure-unit/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jednostka miary
@@ -21,8 +23,8 @@ Czy kiedykolwiek musiałeś przekonwertować dokumenty Worda do różnych format
 
 Zanim zagłębisz się w kod, musisz wykonać kilka czynności:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: IDE, takie jak Visual Studio, umożliwiające pisanie i wykonywanie kodu C#.
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: środowisko IDE, takie jak Visual Studio, umożliwiające pisanie i wykonywanie kodu C#.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# pomoże Ci zrozumieć treść samouczka.
 4. Dokument Word: Przygotuj przykładowy dokument Word, którego możesz użyć do konwersji.
 
@@ -44,11 +46,11 @@ Najpierw musisz zdefiniować ścieżkę do katalogu dokumentów. To jest miejsce
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu. Dzięki temu Twój kod będzie wiedział, gdzie znaleźć Twój dokument Word.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do Twojego katalogu. Dzięki temu Twój kod będzie wiedział, gdzie znaleźć Twój dokument Word.
 
 ## Krok 2: Załaduj dokument Word
 
- Następnie musisz załadować dokument Word, który chcesz przekonwertować. Można to zrobić za pomocą`Document` klasa z Aspose.Words.
+Następnie musisz załadować dokument Word, który chcesz przekonwertować. Można to zrobić za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 // Załaduj dokument Word
@@ -59,18 +61,18 @@ Upewnij się, że dokument Word o nazwie „Dokument.docx” znajduje się w okr
 
 ## Krok 3: Skonfiguruj jednostkę miary
 
- Teraz skonfigurujmy jednostkę miary dla konwersji ODT. To tutaj dzieje się magia. Skonfigurujemy`OdtSaveOptions` używać cali jako jednostki miary.
+Teraz skonfigurujmy jednostkę miary dla konwersji ODT. To tutaj dzieje się magia. Skonfigurujemy `OdtSaveOptions` używać cali jako jednostki miary.
 
 ```csharp
 // Konfiguracja opcji tworzenia kopii zapasowej z funkcją „Jednostka miary”
 OdtSaveOptions saveOptions = new OdtSaveOptions { MeasureUnit = OdtSaveMeasureUnit.Inches };
 ```
 
- W tym przykładzie ustawiamy jednostkę miary na cale. Możesz również wybrać inne jednostki, takie jak`OdtSaveMeasureUnit.Centimeters` Lub`OdtSaveMeasureUnit.Points` w zależności od Twoich wymagań.
+W tym przykładzie ustawiamy jednostkę miary na cale. Możesz również wybrać inne jednostki, takie jak `OdtSaveMeasureUnit.Centimeters` Lub `OdtSaveMeasureUnit.Points` w zależności od Twoich wymagań.
 
 ## Krok 4: Konwertuj dokument do formatu ODT
 
- Na koniec przekonwertujemy dokument Word do formatu ODT, korzystając z skonfigurowanego`OdtSaveOptions`.
+Na koniec przekonwertujemy dokument Word do formatu ODT, korzystając z skonfigurowanego `OdtSaveOptions`.
 
 ```csharp
 // Konwertuj dokument do formatu ODT
@@ -89,20 +91,25 @@ masz to! Wykonując te kroki, możesz łatwo skonfigurować funkcję jednostki m
 Aspose.Words for .NET to potężna biblioteka do programowej pracy z dokumentami Word. Umożliwia ona programistom tworzenie, modyfikowanie, konwertowanie i przetwarzanie dokumentów Word bez konieczności korzystania z programu Microsoft Word.
 
 ### Czy mogę używać innych jednostek miary niż cale?
- Tak, Aspose.Words dla .NET obsługuje inne jednostki miary, takie jak centymetry i punkty. Możesz określić żądaną jednostkę za pomocą`OdtSaveMeasureUnit` wyliczenie.
+Tak, Aspose.Words dla .NET obsługuje inne jednostki miary, takie jak centymetry i punkty. Możesz określić żądaną jednostkę za pomocą `OdtSaveMeasureUnit` wyliczenie.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Words dla .NET ze strony[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Words dla .NET ze strony [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Pełną dokumentację Aspose.Words dla .NET można uzyskać pod adresem[ten link](https://reference.aspose.com/words/net/).
+Pełną dokumentację Aspose.Words dla .NET można uzyskać pod adresem [ten link](https://reference.aspose.com/words/net/).
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
- Aby uzyskać pomoc, możesz odwiedzić forum Aspose.Words pod adresem[ten link](https://forum.aspose.com/c/words/8).
+### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
+Aby uzyskać pomoc, możesz odwiedzić forum Aspose.Words pod adresem [ten link](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

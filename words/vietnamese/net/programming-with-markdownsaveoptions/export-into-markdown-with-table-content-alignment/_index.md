@@ -1,14 +1,16 @@
 ---
-title: Xuất sang Markdown với căn chỉnh nội dung bảng
-linktitle: Xuất sang Markdown với căn chỉnh nội dung bảng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xuất tài liệu Word sang Markdown với các bảng được căn chỉnh bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có các bảng Markdown hoàn hảo.
-weight: 10
-url: /vi/net/programming-with-markdownsaveoptions/export-into-markdown-with-table-content-alignment/
+"description": "Tìm hiểu cách xuất tài liệu Word sang Markdown với các bảng được căn chỉnh bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có các bảng Markdown hoàn hảo."
+"linktitle": "Xuất sang Markdown với căn chỉnh nội dung bảng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất sang Markdown với căn chỉnh nội dung bảng"
+"url": "/vi/net/programming-with-markdownsaveoptions/export-into-markdown-with-table-content-alignment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất sang Markdown với căn chỉnh nội dung bảng
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ tự hỏi làm thế nào để xuất tài li�
 
 Trước khi đi sâu vào mã, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển của bạn. Visual Studio là lựa chọn phổ biến cho phát triển .NET.
 3. Kiến thức cơ bản về C#: Hiểu biết về C# là điều cần thiết vì chúng ta sẽ viết mã bằng ngôn ngữ này.
 4. Mẫu tài liệu Word: Chuẩn bị một tài liệu Word mà bạn có thể sử dụng để thử nghiệm.
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
-Trước tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo một`DocumentBuilder` đối tượng để bắt đầu xây dựng tài liệu của chúng ta.
+Trước tiên, chúng ta cần tạo một tài liệu Word mới và khởi tạo một `DocumentBuilder` đối tượng để bắt đầu xây dựng tài liệu của chúng ta.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -68,7 +70,7 @@ builder.Write("Cell2");
 
 ## Bước 3: Thiết lập Căn chỉnh Nội dung Bảng cho Xuất Markdown
 
- Bây giờ, đã đến lúc cấu hình`MarkdownSaveOptions` để kiểm soát sự căn chỉnh của nội dung bảng trong tệp Markdown đã xuất. Chúng tôi sẽ lưu tài liệu với các thiết lập căn chỉnh khác nhau để xem nó hoạt động như thế nào.
+Bây giờ, đã đến lúc cấu hình `MarkdownSaveOptions` để kiểm soát sự căn chỉnh của nội dung bảng trong tệp Markdown đã xuất. Chúng tôi sẽ lưu tài liệu với các thiết lập căn chỉnh khác nhau để xem nó hoạt động như thế nào.
 
 ```csharp
 // Tạo đối tượng MarkdownSaveOptions.
@@ -91,7 +93,7 @@ doc.Save(dataDir + "CenterTableContentAlignment.md", saveOptions);
 
 ## Bước 4: Sử dụng Tự động căn chỉnh nội dung bảng
 
- Các`Auto`tùy chọn căn chỉnh lấy căn chỉnh từ đoạn văn đầu tiên trong cột bảng tương ứng. Điều này có thể hữu ích khi bạn có các căn chỉnh hỗn hợp trong một bảng duy nhất.
+Các `Auto` tùy chọn căn chỉnh lấy căn chỉnh từ đoạn văn đầu tiên trong cột bảng tương ứng. Điều này có thể hữu ích khi bạn có các căn chỉnh hỗn hợp trong một bảng duy nhất.
 
 ```csharp
 // Đặt căn chỉnh thành Tự động.
@@ -111,20 +113,25 @@ Và bạn đã có nó! Xuất tài liệu Word sang Markdown với các bảng 
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và xuất tài liệu Word theo chương trình.
 
 ### Tôi có thể thiết lập các căn chỉnh khác nhau cho các cột khác nhau trong cùng một bảng không?
- Có, bằng cách sử dụng`Auto` tùy chọn căn chỉnh, bạn có thể căn chỉnh khác nhau dựa trên đoạn văn đầu tiên trong mỗi cột.
+Có, bằng cách sử dụng `Auto` tùy chọn căn chỉnh, bạn có thể căn chỉnh khác nhau dựa trên đoạn văn đầu tiên trong mỗi cột.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Có thể xuất các thành phần tài liệu khác sang Markdown bằng Aspose.Words không?
 Có, Aspose.Words hỗ trợ xuất nhiều thành phần khác nhau như tiêu đề, danh sách và hình ảnh sang định dạng Markdown.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,56 +1,64 @@
 ---
-title: 在 Word 文档中使用 .NET 版本的 Aspose.Words 应用 Row 格式化
-weight: 7700
-limit: 
-description: 學習如何在Word文檔中使用 .NET的Aspose.Words應用行格式化.
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /zh-hant/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中套用行格式。包含程式碼範例和詳細說明的逐步指南。"
+"title": "使用 Aspose.Words for .NET 在 Word 文件中套用行格式"
+"url": "/zh-hant/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Words在 Word 文档中使用 Row 格式化
+# 使用 Aspose.Words 在 Word 文件中套用行格式
 
-網頁的Aspose.Words提供了可創建和編輯Word文檔的功能強大工具. 在這個例子中,我們展示如何使用Aspose.Words在Word文檔中應用行格式化.您將學習設定行高度,配置填充,並應用精確格式化,以建立結構化表格.
+Aspose.Words for .NET 提供了強大的工具，以程式設計方式建立和修改 Word 文件。在此範例中，我們示範如何使用 Aspose.Words 在 Word 文件中套用行格式。您將學習設定行高、配置填充以及應用精確格式來建立結構良好的表格。本逐步指南包含程式碼片段和說明，可協助您在 .NET 應用程式中快速實現這些功能。
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令  
-請按以下步使用 .NET:  
+## 安裝說明  
+若要在您的專案中使用 Aspose.Words for .NET，請依照下列步驟操作：  
 
-1. 請下載Aspose.Words為 .NET  
-   * 參觀[提供 .NET 下載頁面的Aspose.Words](https://releases.aspose.com/words/net/)請下載最新版本.
+1. 下載 Aspose.Words for .NET  
+   - 訪問 [Aspose.Words for .NET下載頁面](https://releases.aspose.com/words/net/) 並下載最新版本。
 
-2. 透過 NuGet 設置  
-   * 請在視覺工作室開啟您的項目.  
-   * 進入工具> NuGet 包管理器> 管理 NuGet 包解決方案.  
-   * 搜尋`"說話. 字"`點擊安裝.
+2. 透過 NuGet 安裝  
+   - 在 Visual Studio 中開啟您的專案。  
+   - 前往工具>NuGet 套件管理器>管理解決方案的 NuGet 套件。  
+   - 搜尋 `Aspose.Words` 並點選“安裝”。
 
-3. 包含名稱空間  
-   * 加入以下行在您的代碼中:  
+3. 包含命名空間  
+   - 將以下行加入您的程式碼：  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. 啟動授權 (可選)  
-   * 請申請一個 評估限制[暫時許可證](https://purchase.aspose.com/temporary-license/)或購買一家[完全授權](https://purchase.aspose.com/buy)這就是我想要的.  
-   * 請將許可證加在您的代碼中:  
+4. 啟動許可證（可選）  
+   - 為了避免評估限制，申請 [臨時執照](https://purchase.aspose.com/temporary-license/) 或購買 [完整許可證](https://purchase。aspose.com/buy).  
+   - 在您的程式碼中載入許可證：  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

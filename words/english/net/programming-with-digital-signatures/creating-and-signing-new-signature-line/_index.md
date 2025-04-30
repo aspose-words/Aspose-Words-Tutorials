@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating And Signing New Signature Line
@@ -122,9 +125,13 @@ You’ll need to obtain a digital certificate from a trusted certificate authori
 ### How do I verify the digital signature in the document?
 You can open the signed document in Word and go to the signature details to verify the authenticity and integrity of the signature.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Opsi dan Pengaturan Dokumen di Aspose.Words untuk Java
-linktitle: Menggunakan Opsi dan Pengaturan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen untuk Manajemen Dokumen yang Lancar. Optimalkan, Kustomisasi, dan Lainnya.
-weight: 31
-url: /id/java/document-manipulation/using-document-options-and-settings/
+"description": "Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen untuk Manajemen Dokumen yang Lancar. Optimalkan, Kustomisasi, dan Lainnya."
+"linktitle": "Menggunakan Opsi dan Pengaturan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Opsi dan Pengaturan Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Opsi dan Pengaturan Dokumen di Aspose.Words untuk Java
@@ -140,7 +142,7 @@ Dalam panduan ini, kami telah membahas berbagai opsi dan pengaturan dokumen yang
 
 ### Bagaimana cara mengoptimalkan dokumen untuk versi Word tertentu?
 
- Untuk mengoptimalkan dokumen untuk versi Word tertentu, gunakan`optimizeFor` metode dan tentukan versi yang diinginkan. Misalnya, untuk mengoptimalkan Word 2016:
+Untuk mengoptimalkan dokumen untuk versi Word tertentu, gunakan `optimizeFor` metode dan tentukan versi yang diinginkan. Misalnya, untuk mengoptimalkan Word 2016:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ Membersihkan gaya dan daftar yang tidak digunakan membantu menjaga struktur doku
 
 ### Bagaimana cara menghapus gaya duplikat dari suatu dokumen?
 
-Untuk menghapus gaya duplikat dari dokumen, gunakan`cleanup` metode dengan`duplicateStyle` opsi diatur ke`true`Berikut ini contohnya:
+Untuk menghapus gaya duplikat dari dokumen, gunakan `cleanup` metode dengan `duplicateStyle` opsi diatur ke `true`Berikut ini contohnya:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### Bagaimana cara menyesuaikan pilihan tampilan untuk suatu dokumen?
 
- Anda dapat menyesuaikan opsi tampilan dokumen menggunakan`ViewOptions` kelas. Misalnya, untuk mengatur jenis tampilan ke tata letak halaman dan memperbesar tampilan menjadi 50%:
+Anda dapat menyesuaikan opsi tampilan dokumen menggunakan `ViewOptions` kelas. Misalnya, untuk mengatur jenis tampilan ke tata letak halaman dan memperbesar tampilan menjadi 50%:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

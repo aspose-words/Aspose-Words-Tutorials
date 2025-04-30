@@ -1,33 +1,35 @@
 ---
-title: Infoga dokument vid brevkoppling
-linktitle: Infoga dokument vid brevkoppling
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du infogar dokument vid sammanslagningsfält med Aspose.Words för .NET i denna omfattande, steg-för-steg handledning.
-weight: 10
-url: /sv/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Lär dig hur du infogar dokument i fält för koppling av dokument med Aspose.Words för .NET i den här omfattande steg-för-steg-handledningen."
+"linktitle": "Infoga dokument vid dokumentkoppling"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Infoga dokument vid dokumentkoppling"
+"url": "/sv/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga dokument vid brevkoppling
+# Infoga dokument vid dokumentkoppling
 
 ## Introduktion
 
-Välkommen till en värld av dokumentautomatisering med Aspose.Words för .NET! Har du någonsin undrat hur man dynamiskt infogar dokument i specifika fält i ett huvuddokument under en sammankopplingsoperation? Tja, du är på rätt plats. Denna handledning guidar dig steg-för-steg genom processen att infoga dokument vid sammanslagningsfält med Aspose.Words för .NET. Det är som att lägga ihop ett pussel, där varje bit faller perfekt på plats. Så, låt oss dyka in!
+Välkommen till dokumentautomationens värld med Aspose.Words för .NET! Har du någonsin undrat hur du dynamiskt infogar dokument i specifika fält i ett huvuddokument under en dokumentkoppling? Då har du kommit rätt. Den här handledningen guidar dig steg för steg genom processen att infoga dokument i dokumentkopplingsfält med Aspose.Words för .NET. Det är som att lägga ett pussel, där varje bit faller perfekt på plats. Så, låt oss dyka in!
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande:
 
-1.  Aspose.Words för .NET: Du kan[ladda ner den senaste versionen här](https://releases.aspose.com/words/net/) . Om du behöver köpa en licens kan du göra det[här](https://purchase.aspose.com/buy) . Alternativt kan du få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) eller prova med en[gratis provperiod](https://releases.aspose.com/).
-2. Utvecklingsmiljö: Visual Studio eller någon annan C# IDE.
-3. Grundläggande kunskaper om C#: Bekantskap med C#-programmering kommer att göra denna handledning till en lek.
+1. Aspose.Words för .NET: Du kan [ladda ner den senaste versionen här](https://releases.aspose.com/words/net/)Om du behöver köpa en licens kan du göra det [här](https://purchase.aspose.com/buy)Alternativt kan du skaffa en [tillfällig licens](https://purchase.aspose.com/temporary-license/) eller prova det med en [gratis provperiod](https://releases.aspose.com/).
+2. Utvecklingsmiljö: Visual Studio eller annan C# IDE.
+3. Grundläggande kunskaper i C#: Bekantskap med C#-programmering gör den här handledningen till en barnlek.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först och främst måste du importera de nödvändiga namnrymden. Dessa är som byggstenarna i ditt projekt.
+Först och främst måste du importera de nödvändiga namnrymderna. Dessa är som byggstenarna i ditt projekt.
 
 ```csharp
 using System;
@@ -36,11 +38,11 @@ using Aspose.Words.MailMerging;
 using System.Linq;
 ```
 
-Låt oss dela upp processen i hanterbara steg. Varje steg kommer att bygga på det föregående, vilket leder dig till en komplett lösning.
+Låt oss dela upp processen i hanterbara steg. Varje steg bygger på det föregående och leder dig till en komplett lösning.
 
 ## Steg 1: Konfigurera din katalog
 
-Innan du kan börja infoga dokument måste du definiera sökvägen till din dokumentkatalog. Det är här dina dokument lagras.
+Innan du kan börja infoga dokument måste du ange sökvägen till din dokumentkatalog. Det är här dina dokument lagras.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -48,23 +50,23 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Steg 2: Ladda huvuddokumentet
 
-Därefter laddar du huvuddokumentet. Detta dokument innehåller sammanslagningsfälten där andra dokument kommer att infogas.
+Nästa steg är att läsa in huvuddokumentet. Det här dokumentet innehåller kopplingsfälten där andra dokument kommer att infogas.
 
 ```csharp
 Document mainDoc = new Document(dataDir + "Document insertion 1.docx");
 ```
 
-## Steg 3: Ställa in återuppringning för fältsammanslagning
+## Steg 3: Ställa in återanropet för fältsammanslagning
 
-För att hantera sammanslagningen måste du ställa in en återuppringningsfunktion. Denna funktion kommer att ansvara för att infoga dokument vid de angivna sammanslagningsfälten.
+För att hantera sammanslagningsprocessen måste du ställa in en callback-funktion. Denna funktion ansvarar för att infoga dokument i de angivna sammanslagningsfälten.
 
 ```csharp
 mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
 ```
 
-## Steg 4: Kör sammankopplingen av brev
+## Steg 4: Utföra dokumentkopplingen
 
-Nu är det dags att köra sammanslagningen. Det är här magin händer. Du anger kopplingsfältet och dokumentet som ska infogas i detta fält.
+Nu är det dags att köra dokumentkopplingen. Det är här magin händer. Du anger kopplingsfältet och dokumentet som ska infogas i det här fältet.
 
 ```csharp
 mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Document insertion 2.docx" });
@@ -72,7 +74,7 @@ mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Docu
 
 ## Steg 5: Spara dokumentet
 
-När sammanslagningen är klar sparar du det ändrade dokumentet. Det här nya dokumentet kommer att ha infogat innehåll precis där du vill ha det.
+När dokumentkopplingen är klar sparar du det ändrade dokumentet. Det nya dokumentet kommer att ha det infogade innehållet precis där du vill ha det.
 
 ```csharp
 mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
@@ -80,7 +82,7 @@ mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc")
 
 ## Steg 6: Skapa återuppringningshanteraren
 
-Callback-hanteraren är en klass som gör speciell bearbetning för sammanslagningsfältet. Den laddar dokumentet som anges i fältvärdet och infogar det i det aktuella sammanslagningsfältet.
+Återanropshanteraren är en klass som utför specialbearbetning för mergefältet. Den laddar dokumentet som anges i fältvärdet och infogar det i det aktuella mergefältet.
 
 ```csharp
 private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
@@ -140,27 +142,32 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 ## Slutsats
 
-Och där har du det! Du har framgångsrikt infogat dokument i specifika fält under en kopplingsoperation med Aspose.Words för .NET. Denna kraftfulla funktion kan spara massor av tid och ansträngning, särskilt när du hanterar stora volymer dokument. Se det som att ha en personlig assistent som tar hand om alla tunga lyft åt dig. Så fortsätt och prova. Glad kodning!
+Och där har du det! Du har lyckats infoga dokument i specifika fält under en dokumentkoppling med Aspose.Words för .NET. Den här kraftfulla funktionen kan spara dig massor av tid och ansträngning, särskilt när du hanterar stora mängder dokument. Tänk dig det som att ha en personlig assistent som tar hand om allt det tunga arbetet åt dig. Så fortsätt och testa. Lycka till med kodningen!
 
-## FAQ's
+## Vanliga frågor
 
-### Kan jag infoga flera dokument i olika sammanslagningsfält?
-Ja, det kan du. Ange helt enkelt lämpliga sammanslagningsfält och motsvarande dokumentsökvägar i`MailMerge.Execute` metod.
+### Kan jag infoga flera dokument i olika kopplingsfält?
+Ja, det kan du. Ange bara lämpliga kopplingsfält och motsvarande dokumentsökvägar i `MailMerge.Execute` metod.
 
 ### Är det möjligt att formatera det infogade dokumentet annorlunda än huvuddokumentet?
- Absolut! Du kan använda`ImportFormatMode` parametern i`NodeImporter` för att styra formateringen.
+Absolut! Du kan använda `ImportFormatMode` parametern i `NodeImporter` för att kontrollera formateringen.
 
-### Vad händer om sammanslagningsfältets namn är dynamiskt?
-Du kan hantera dynamiska sammanslagningsfältnamn genom att skicka dem som parametrar till återuppringningshanteraren.
+### Vad händer om namnet på kopplingsfältet är dynamiskt?
+Du kan hantera namn på dynamiska kopplingsfält genom att skicka dem som parametrar till återanropshanteraren.
 
 ### Kan jag använda den här metoden med olika filformat?
-Ja, Aspose.Words stöder olika filformat inklusive DOCX, PDF och mer.
+Ja, Aspose.Words stöder olika filformat, inklusive DOCX, PDF och mer.
 
 ### Hur hanterar jag fel under dokumentinsättningsprocessen?
 Implementera felhantering i din callback-hanterare för att hantera eventuella undantag som kan uppstå.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

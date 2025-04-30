@@ -1,14 +1,16 @@
 ---
-title: Mục lục Thế hệ
-linktitle: Mục lục Thế hệ
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tạo Mục lục động bằng Aspose.Words cho Java. Làm chủ việc tạo Mục lục với hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 14
-url: /vi/java/table-processing/table-contents-generation/
+"description": "Tìm hiểu cách tạo Mục lục động bằng Aspose.Words cho Java. Làm chủ việc tạo Mục lục với hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Mục lục Thế hệ"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Mục lục Thế hệ"
+"url": "/vi/java/table-processing/table-contents-generation/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mục lục Thế hệ
@@ -21,10 +23,10 @@ Bạn đã bao giờ gặp khó khăn khi tạo Mục lục (TOC) động và ch
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn có những điều sau:
 
-1.  Java Development Kit (JDK): Đã cài đặt trên hệ thống của bạn. Bạn có thể tải xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Words cho Thư viện Java: Tải xuống phiên bản mới nhất từ[trang phát hành](https://releases.aspose.com/words/java/).
+1. Java Development Kit (JDK): Đã cài đặt trên hệ thống của bạn. Bạn có thể tải xuống từ [Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Words cho Thư viện Java: Tải xuống phiên bản mới nhất từ [trang phát hành](https://releases.aspose.com/words/java/).
 3. Môi trường phát triển tích hợp (IDE): Chẳng hạn như IntelliJ IDEA, Eclipse hoặc NetBeans.
-4.  Giấy phép tạm thời Aspose: Để tránh những hạn chế về đánh giá, hãy lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép tạm thời Aspose: Để tránh những hạn chế về đánh giá, hãy lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -38,7 +40,7 @@ Thực hiện theo các bước sau để tạo mục lục động trong tài l
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Bước đầu tiên là tạo một tài liệu mới và sử dụng`DocumentBuilder` lớp để thao tác nó.
+Bước đầu tiên là tạo một tài liệu mới và sử dụng `DocumentBuilder` lớp để thao tác nó.
 
 
 ```java
@@ -84,8 +86,8 @@ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
 builder.writeln("Heading 2");
 ```
 
-- `setStyleIdentifier` : Đặt kiểu đoạn văn thành một mức tiêu đề cụ thể (ví dụ:`HEADING_1`, `HEADING_2`).
-- `writeln`: Thêm văn bản vào tài liệu theo kiểu đã chỉ định.
+- `setStyleIdentifier`: Đặt kiểu đoạn văn thành một mức tiêu đề cụ thể (ví dụ: `HEADING_1`, `HEADING_2`).
+- `writeln`Thêm văn bản vào tài liệu theo kiểu đã chỉ định.
 
 ## Bước 4: Thêm Tiêu đề lồng nhau
 
@@ -125,7 +127,7 @@ Cuối cùng, lưu tài liệu theo định dạng mong muốn.
 doc.save(dataDir + "DocumentBuilder.InsertToc.docx");
 ```
 
-- `save` : Xuất tài liệu sang`.docx` tập tin. Bạn có thể chỉ định các định dạng khác như`.pdf` hoặc`.txt` nếu cần.
+- `save`: Xuất tài liệu sang `.docx` tập tin. Bạn có thể chỉ định các định dạng khác như `.pdf` hoặc `.txt` nếu cần.
 
 ## Phần kết luận
 
@@ -137,19 +139,24 @@ Xin chúc mừng! Bạn đã tạo thành công Mục lục động trong tài l
 Chắc chắn rồi! Bạn có thể điều chỉnh các thông số mục lục như bao gồm số trang, căn chỉnh văn bản hoặc sử dụng kiểu tiêu đề tùy chỉnh.
 
 ### Có bắt buộc phải có giấy phép cho Aspose.Words dành cho Java không?
- Có, cần có giấy phép để có đầy đủ chức năng. Bạn có thể bắt đầu bằng[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Có, cần có giấy phép để có đầy đủ chức năng. Bạn có thể bắt đầu bằng [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tạo mục lục cho một tài liệu hiện có không?
- Vâng! Tải tài liệu vào một`Document` đối tượng và làm theo các bước tương tự để chèn và cập nhật Mục lục.
+Vâng! Tải tài liệu vào một `Document` đối tượng và làm theo các bước tương tự để chèn và cập nhật Mục lục.
 
 ### Cách này có áp dụng được với file xuất PDF không?
- Có, TOC sẽ xuất hiện trong PDF nếu bạn lưu tài liệu ở định dạng`.pdf` định dạng.
+Có, TOC sẽ xuất hiện trong PDF nếu bạn lưu tài liệu ở định dạng `.pdf` định dạng.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Kiểm tra các[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết thêm ví dụ và thông tin chi tiết.
+Kiểm tra các [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết thêm ví dụ và thông tin chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

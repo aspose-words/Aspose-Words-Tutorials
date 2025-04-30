@@ -1,14 +1,16 @@
 ---
-title: Áp dụng định dạng hàng
-linktitle: Áp dụng định dạng hàng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách áp dụng định dạng hàng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để biết hướng dẫn chi tiết.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Tìm hiểu cách áp dụng định dạng hàng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để biết hướng dẫn chi tiết."
+"linktitle": "Áp dụng định dạng hàng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Áp dụng định dạng hàng"
+"url": "/vi/net/programming-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng định dạng hàng
@@ -21,7 +23,7 @@ Nếu bạn đang muốn làm cho tài liệu Word của mình thêm hấp dẫn
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Nếu chưa, bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển AC# như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
 4. Thư mục tài liệu: Thư mục nơi bạn sẽ lưu tài liệu của mình.
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Bắt đầu một bảng mới
 
- Tiếp theo, chúng ta sẽ bắt đầu một bảng mới bằng cách sử dụng`DocumentBuilder`vật thể. Đây chính là nơi phép thuật xảy ra.
+Tiếp theo, chúng ta sẽ bắt đầu một bảng mới bằng cách sử dụng `DocumentBuilder` vật thể. Đây chính là nơi phép thuật xảy ra.
 
 ```csharp
 Table table = builder.StartTable();
@@ -102,22 +104,27 @@ Và bạn đã có nó! Bạn đã áp dụng thành công định dạng hàng 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể áp dụng định dạng khác nhau cho từng hàng không?  
- Có, bạn có thể tùy chỉnh từng hàng riêng lẻ bằng cách thiết lập các thuộc tính khác nhau cho`RowFormat`.
+Có, bạn có thể tùy chỉnh từng hàng riêng lẻ bằng cách thiết lập các thuộc tính khác nhau cho `RowFormat`.
 
 ### Làm thế nào để điều chỉnh chiều rộng của các cột?  
- Bạn có thể thiết lập chiều rộng của các cột bằng cách sử dụng`CellFormat.Width` tài sản.
+Bạn có thể thiết lập chiều rộng của các cột bằng cách sử dụng `CellFormat.Width` tài sản.
 
 ### Có thể gộp các ô trong Aspose.Words cho .NET không?  
- Có, bạn có thể hợp nhất các ô bằng cách sử dụng`CellMerge` tài sản của`CellFormat`.
+Có, bạn có thể hợp nhất các ô bằng cách sử dụng `CellMerge` tài sản của `CellFormat`.
 
 ### Tôi có thể thêm đường viền vào hàng không?  
- Chắc chắn rồi! Bạn có thể thêm đường viền vào các hàng bằng cách thiết lập`Borders` tài sản của`RowFormat`.
+Chắc chắn rồi! Bạn có thể thêm đường viền vào các hàng bằng cách thiết lập `Borders` tài sản của `RowFormat`.
 
 ### Làm thế nào để áp dụng định dạng có điều kiện cho các hàng?  
 Bạn có thể sử dụng logic có điều kiện trong mã của mình để áp dụng định dạng khác nhau dựa trên các điều kiện cụ thể.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

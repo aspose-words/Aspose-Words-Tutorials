@@ -1,14 +1,16 @@
 ---
-title: Dikey Birleştirme
-linktitle: Dikey Birleştirme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı kılavuzla Aspose.Words for .NET kullanarak Word tablolarında dikey birleştirmeyi öğrenin. Profesyonel belge biçimlendirme için adım adım talimatları öğrenin.
-weight: 10
-url: /tr/net/programming-with-tables/vertical-merge/
+"description": "Bu ayrıntılı kılavuzla Aspose.Words for .NET kullanarak Word tablolarında dikey birleştirmeyi öğrenin. Profesyonel belge biçimlendirme için adım adım talimatları öğrenin."
+"linktitle": "Dikey Birleştirme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Dikey Birleştirme"
+"url": "/tr/net/programming-with-tables/vertical-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dikey Birleştirme
@@ -21,9 +23,9 @@ Word belgelerindeki tabloları işlemenin karmaşıklıkları arasında kendiniz
 
 Dikey birleştirmenin inceliklerine dalmadan önce, sorunsuz bir deneyim için her şeyin ayarlandığından emin olalım. İhtiyacınız olanlar şunlardır:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer yüklü değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer yüklü değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri çalışan bir geliştirme ortamı.
-- Temel C# Bilgisi: C# programlama diline aşinalık faydalı olacaktır.
+- Temel C# Bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -60,7 +62,7 @@ builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- Bu adımda ilk hücreyi ekliyoruz ve dikey birleştirme özelliğini şu şekilde ayarlıyoruz:`CellMerge.First`, birleştirmenin başlangıç hücresi olduğunu belirtir. Daha sonra bu hücreye biraz metin ekleriz.
+Bu adımda ilk hücreyi ekliyoruz ve dikey birleştirme özelliğini şu şekilde ayarlıyoruz: `CellMerge.First`, bunun birleştirmenin başlangıç hücresi olduğunu gösterir. Daha sonra bu hücreye biraz metin ekleriz.
 
 ## Adım 3: Aynı Satıra İkinci Hücreyi Ekleme
 
@@ -73,7 +75,7 @@ builder.Write("Text in one cell");
 builder.EndRow();
 ```
 
- Burada bir hücre ekliyoruz, dikey birleştirme özelliğini şu şekilde ayarlıyoruz:`CellMerge.None`ve buna biraz metin ekliyoruz. Daha sonra geçerli satırı sonlandırıyoruz.
+Burada bir hücre ekliyoruz, dikey birleştirme özelliğini şu şekilde ayarlıyoruz: `CellMerge.None`ve buna biraz metin ekliyoruz. Daha sonra geçerli satırı sonlandırıyoruz.
 
 ## Adım 4: İkinci Satırı Ekleme ve Dikey Olarak Birleştirme
 
@@ -90,7 +92,7 @@ builder.EndRow();
 builder.EndTable();
 ```
 
- Bir hücre ekleyerek ve dikey birleştirme özelliğini ayarlayarak başlıyoruz`CellMerge.Previous`, bunun üstündeki hücreyle birleştirilmesi gerektiğini belirtir. Daha sonra aynı satıra başka bir hücre ekleriz, ona biraz metin ekleriz ve tabloyu sonlandırırız.
+Bir hücre ekleyerek ve dikey birleştirme özelliğini ayarlayarak başlıyoruz `CellMerge.Previous`, bunun üstündeki hücreyle birleştirilmesi gerektiğini belirtir. Daha sonra aynı satıra başka bir hücre ekleriz, ona biraz metin ekleriz ve tabloyu sonlandırırız.
 
 ## Adım 5: Belgeyi Kaydetme
 
@@ -111,7 +113,7 @@ Bu satır, belgeyi belirtilen dosya adıyla belirlediğiniz dizine kaydeder.
 ### Word tablolarında dikey birleştirme nedir?
 Dikey birleştirme, bir sütundaki birden fazla hücreyi tek bir hücrede birleştirmenize olanak tanır; böylece daha akıcı ve düzenli bir tablo düzeni oluşturulur.
 
-### Hücreleri hem dikey hem de yatay olarak birleştirebilir miyim?
+### Hücreleri hem dikey hem yatay olarak birleştirebilir miyim?
 Evet, Aspose.Words for .NET bir tablodaki hücrelerin hem dikey hem de yatay birleştirilmesini destekler.
 
 ### Aspose.Words for .NET, Word'ün farklı sürümleriyle uyumlu mudur?
@@ -122,9 +124,14 @@ Hayır, Aspose.Words for .NET, Microsoft Word'den bağımsız olarak çalışır
 
 ### Mevcut Word belgelerini düzenlemek için Aspose.Words for .NET'i kullanabilir miyim?
 Kesinlikle! Aspose.Words for .NET, mevcut Word belgelerini kolaylıkla oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

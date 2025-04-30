@@ -1,27 +1,29 @@
 ---
-title: Belge Oluşturucu Word Belgesine Yer İşareti Ekle
-linktitle: Belge Oluşturucu Word Belgesine Yer İşareti Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine yer imlerinin nasıl ekleneceğini öğrenin. Belge otomasyonu için mükemmel.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/document-builder-insert-bookmark/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine yer imlerinin nasıl ekleneceğini öğrenin. Belge otomasyonu için mükemmel."
+"linktitle": "Belge Oluşturucu Word Belgesine Yer İşareti Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Oluşturucu Word Belgesine Yer İşareti Ekle"
+"url": "/tr/net/add-content-using-documentbuilder/document-builder-insert-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Oluşturucu Word Belgesine Yer İşareti Ekle
 
 ## giriiş
 
-Word belgelerini programatik olarak oluşturmak ve yönetmek bazen bir labirentte gezinmek gibi hissettirebilir. Ancak Aspose.Words for .NET ile bu çok kolay! Bu kılavuz, Aspose.Words for .NET kitaplığını kullanarak bir Word belgesine yer imi ekleme sürecini adım adım anlatacak. O halde kemerlerinizi bağlayın ve belge otomasyonunun dünyasına dalalım.
+Word belgelerini programatik olarak oluşturmak ve yönetmek bazen bir labirentte gezinmek gibi hissettirebilir. Ancak Aspose.Words for .NET ile bu çok kolay! Bu kılavuz, Aspose.Words for .NET kitaplığını kullanarak bir Word belgesine yer imi ekleme sürecinde size yol gösterecektir. O halde kemerlerinizi bağlayın ve belge otomasyonunun dünyasına dalalım.
 
 ## Ön koşullar
 
 Ellerimizi biraz kodla kirletmeden önce, ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürümü buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürümü buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET geliştirmesi için Visual Studio gibi bir IDE'nizin kurulu olduğundan emin olun.
 3. Temel C# Bilgisi: C# konusunda biraz bilgi sahibi olmak faydalı olacaktır.
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada,`Document` yeni bir belge örneği oluşturur ve`DocumentBuilder` bize belgeye içerik eklemek için araçlar sağlar.
+Burada, `Document` yeni bir belge örneği oluşturur ve `DocumentBuilder` bize belgeye içerik eklemek için araçlar sağlar.
 
 ## Adım 3: Yer İşaretini Başlat
 
@@ -67,7 +69,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartBookmark("FineBookmark");
 ```
 
- Bu satırda,`StartBookmark` "FineBookmark" adlı bir yer imi başlatır. Bu ad belge içinde benzersizdir.
+Bu satırda, `StartBookmark` "FineBookmark" adlı bir yer imi başlatır. Bu ad belge içinde benzersizdir.
 
 ## Adım 4: Yer İşaretinin İçine İçerik Ekleyin
 
@@ -77,7 +79,7 @@ Yer imi başlatıldığında, içine istediğimiz herhangi bir içeriği ekleyeb
 builder.Writeln("This is just a fine bookmark.");
 ```
 
- The`Writeln` method belirtilen metinle belgeye yeni bir paragraf ekler.
+The `Writeln` method belirtilen metinle belgeye yeni bir paragraf ekler.
 
 ## Adım 5: Yer İşaretini Sonlandır
 
@@ -87,7 +89,7 @@ builder.Writeln("This is just a fine bookmark.");
 builder.EndBookmark("FineBookmark");
 ```
 
- The`EndBookmark` metodu daha önce başladığımız yer imini tamamlar.
+The `EndBookmark` metodu daha önce başladığımız yer imini tamamlar.
 
 ## Adım 6: Belgeyi Kaydedin
 
@@ -101,7 +103,7 @@ Bu satır, belirtilen adla belgeyi daha önce tanımladığımız dizine kaydede
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesine başarıyla yer imi eklediniz. Bu küçük bir adım gibi görünebilir, ancak belge otomasyonu alanında güçlü bir araçtır. Yer imleriyle, gezinmesi kolay dinamik ve etkileşimli belgeler oluşturabilirsiniz.
+Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesine başarıyla bir yer imi eklediniz. Bu küçük bir adım gibi görünebilir, ancak belge otomasyonu alanında güçlü bir araçtır. Yer imleriyle, gezinmesi kolay dinamik ve etkileşimli belgeler oluşturabilirsiniz.
 
 ## SSS
 
@@ -112,16 +114,21 @@ Word belgesinde yer imi, belge içinde belirli konumlara hızla gitmek için kul
 Evet, birden fazla yer imi ekleyebilirsiniz. Sadece her yer iminin benzersiz bir isme sahip olduğundan emin olun.
 
 ### Bir yer imine programatik olarak nasıl gidebilirim?
- Kullanabilirsiniz`Document.Range.Bookmarks` yer imlerine program aracılığıyla gitmek veya onları düzenlemek için kullanılan koleksiyon.
+Kullanabilirsiniz `Document.Range.Bookmarks` yer imlerine program aracılığıyla gitmek veya onları düzenlemek için kullanılan koleksiyon.
 
 ### Yer imlerine karmaşık içerikler ekleyebilir miyim?
 Kesinlikle! Bir yer imine metin, tablo, resim veya başka herhangi bir öğe ekleyebilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
-Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

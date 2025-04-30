@@ -1,14 +1,16 @@
 ---
-title: Ekstraksi dan Manipulasi Konten
-linktitle: Ekstraksi dan Manipulasi Konten
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Temukan dunia ekstraksi dan manipulasi konten dengan tutorial Aspose.Words. Pelajari cara mengekstrak dan memanipulasi konten secara efisien menggunakan Python dan .NET, yang akan meningkatkan kemampuan pemrosesan dokumen Anda.
-weight: 11
-url: /id/python-net/content-extraction-and-manipulation/
+"description": "Temukan dunia ekstraksi dan manipulasi konten dengan tutorial Aspose.Words. Pelajari cara mengekstrak dan memanipulasi konten secara efisien menggunakan Python dan .NET, yang akan meningkatkan kemampuan pemrosesan dokumen Anda."
+"linktitle": "Ekstraksi dan Manipulasi Konten"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Ekstraksi dan Manipulasi Konten"
+"url": "/id/python-net/content-extraction-and-manipulation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstraksi dan Manipulasi Konten
@@ -40,13 +42,17 @@ Di akhir tutorial ini, Anda akan dibekali dengan pengetahuan untuk menangani ber
 Pelajari cara mengekstrak dan mengubah konten dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
 ### [Ekstraksi Konten yang Efisien dalam Dokumen Word](./document-content-extraction/)
 Ekstrak konten dari dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Pelajari langkah demi langkah dengan contoh kode.
-### [Teknik Pencarian dan Penggantian Tingkat Lanjut dalam Dokumen Word](./find-replace-documents/)
+### [Teknik Pencarian dan Penggantian Lanjutan dalam Dokumen Word](./find-replace-documents/)
 Pelajari teknik pencarian dan penggantian tingkat lanjut dalam dokumen Word menggunakan Aspose.Words untuk Python. Ganti teks, gunakan regex, format, dan banyak lagi.
 ### [Menghapus dan Menyempurnakan Konten dalam Dokumen Word](./remove-content-documents/)
 Pelajari cara menghapus dan menyempurnakan konten dalam dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode sumber.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

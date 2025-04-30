@@ -1,14 +1,16 @@
 ---
-title: Di chuyển đến Header Footers trong tài liệu Word
-linktitle: Di chuyển đến Header Footers trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách di chuyển đến tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng tạo tài liệu của bạn.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/move-to-headers-footers/
+"description": "Tìm hiểu cách di chuyển đến tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng tạo tài liệu của bạn."
+"linktitle": "Di chuyển đến Header Footers trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Di chuyển đến Header Footers trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/move-to-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Di chuyển đến Header Footers trong tài liệu Word
@@ -21,9 +23,9 @@ Khi nói đến việc tạo và quản lý tài liệu Word theo chương trìn
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn đã thiết lập mọi thứ:
 
-1. **Aspose.Words for .NET** : Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
-2. **Development Environment**:Bạn cần một môi trường phát triển như Visual Studio.
-3. **Basic Knowledge of C#**:Hiểu được những kiến thức cơ bản về lập trình C# sẽ giúp bạn theo dõi dễ hơn.
+1. **Aspose.Words cho .NET**: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+2. **Môi trường phát triển**:Bạn cần một môi trường phát triển như Visual Studio.
+3. **Kiến thức cơ bản về C#**:Hiểu được những kiến thức cơ bản về lập trình C# sẽ giúp bạn theo dõi dễ hơn.
 
 ## Nhập không gian tên
 
@@ -49,14 +51,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, bạn tạo một phiên bản mới của`Document` lớp và`DocumentBuilder` lớp học. Các`dataDir` biến được sử dụng để chỉ định thư mục mà bạn muốn lưu tài liệu.
+Trong bước này, bạn tạo một phiên bản mới của `Document` lớp và `DocumentBuilder` lớp học. Các `dataDir` biến được sử dụng để chỉ định thư mục mà bạn muốn lưu tài liệu.
 
 ## Bước 2: Cấu hình Thiết lập Trang
 
 Tiếp theo, chúng ta cần chỉ định rằng phần đầu trang và chân trang phải khác nhau đối với trang đầu tiên, trang chẵn và trang lẻ.
 
 ```csharp
-//Chỉ rõ rằng chúng ta muốn phần đầu trang và chân trang khác nhau cho các trang đầu tiên, trang chẵn và trang lẻ.
+// Chỉ rõ rằng chúng ta muốn phần đầu trang và chân trang khác nhau cho các trang đầu tiên, trang chẵn và trang lẻ.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 ```
@@ -77,7 +79,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for all other pages");
 ```
 
- Trong bước này, chúng tôi sử dụng`MoveToHeaderFooter` phương pháp để điều hướng đến phần đầu trang hoặc chân trang mong muốn.`Write` sau đó sử dụng phương pháp này để thêm văn bản vào các phần này.
+Trong bước này, chúng tôi sử dụng `MoveToHeaderFooter` phương pháp để điều hướng đến phần đầu trang hoặc chân trang mong muốn. `Write` sau đó sử dụng phương pháp này để thêm văn bản vào các phần này.
 
 ## Bước 4: Thêm nội dung vào phần thân tài liệu
 
@@ -105,7 +107,7 @@ Dòng mã này lưu tài liệu với tên "AddContentUsingDocumentBuilder.MoveT
 
 ## Phần kết luận
 
- Bằng cách làm theo các bước này, bạn có thể dễ dàng thao tác tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này đề cập đến những điều cơ bản, nhưng Aspose.Words cung cấp nhiều chức năng cho các thao tác tài liệu phức tạp hơn. Đừng ngần ngại khám phá[tài liệu](https://reference.aspose.com/words/net/) để có nhiều tính năng nâng cao hơn.
+Bằng cách làm theo các bước này, bạn có thể dễ dàng thao tác tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này đề cập đến những điều cơ bản, nhưng Aspose.Words cung cấp nhiều chức năng cho các thao tác tài liệu phức tạp hơn. Đừng ngần ngại khám phá [tài liệu](https://reference.aspose.com/words/net/) để có nhiều tính năng nâng cao hơn.
 
 ## Câu hỏi thường gặp
 
@@ -113,20 +115,25 @@ Dòng mã này lưu tài liệu với tên "AddContentUsingDocumentBuilder.MoveT
 Aspose.Words for .NET là một thư viện cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi các tài liệu Word theo chương trình bằng C#.
 
 ### Tôi có thể thêm hình ảnh vào đầu trang và chân trang không?
- Có, bạn có thể thêm hình ảnh vào đầu trang và chân trang bằng cách sử dụng`DocumentBuilder.InsertImage` phương pháp.
+Có, bạn có thể thêm hình ảnh vào đầu trang và chân trang bằng cách sử dụng `DocumentBuilder.InsertImage` phương pháp.
 
 ### Có thể có các tiêu đề và chân trang khác nhau cho mỗi phần không?
- Chắc chắn rồi! Bạn có thể có các tiêu đề và chân trang riêng biệt cho mỗi phần bằng cách thiết lập các`HeaderFooterType` cho mỗi phần.
+Chắc chắn rồi! Bạn có thể có các tiêu đề và chân trang riêng biệt cho mỗi phần bằng cách thiết lập các `HeaderFooterType` cho mỗi phần.
 
 ### Làm thế nào để tạo bố cục phức tạp hơn ở phần đầu trang và chân trang?
 Bạn có thể sử dụng bảng, hình ảnh và nhiều tùy chọn định dạng khác nhau do Aspose.Words cung cấp để tạo bố cục phức tạp.
 
 ### Tôi có thể tìm thêm ví dụ và hướng dẫn ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) và[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để biết thêm ví dụ và nhận được sự hỗ trợ của cộng đồng.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) và [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để biết thêm ví dụ và nhận được sự hỗ trợ của cộng đồng.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

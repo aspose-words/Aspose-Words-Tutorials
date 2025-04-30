@@ -1,14 +1,16 @@
 ---
-title: Tireleme Geri Çağrısı
-linktitle: Tireleme Geri Çağrısı
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla, Aspose.Words for .NET'te tireleme geri aramasını nasıl uygulayacağınızı öğrenin ve belge biçimlendirmesini geliştirin.
-weight: 10
-url: /tr/net/working-with-hyphenation/hyphenation-callback/
+"description": "Bu kapsamlı adım adım kılavuzla, Aspose.Words for .NET'te tireleme geri aramasını nasıl uygulayacağınızı öğrenin ve belge biçimlendirmesini geliştirin."
+"linktitle": "Tireleme Geri Çağrısı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tireleme Geri Çağrısı"
+"url": "/tr/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tireleme Geri Çağrısı
@@ -22,11 +24,11 @@ Merhaba! Özellikle tireleme gerektiren dillerle uğraşırken, metin biçimlend
 
 Kodlarla uğraşmaya başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Aspose.Words for .NET: Kütüphaneye sahip olduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Kütüphaneye sahip olduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. IDE: Visual Studio benzeri bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# ve .NET framework'ünün anlaşılması.
 4. Tireleme Sözlükleri: Kullanmayı planladığınız diller için tireleme sözlükleri.
-5.  Aspose Lisansı: Geçerli bir Aspose lisansı. Bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer yoksa.
+5. Aspose Lisansı: Geçerli bir Aspose lisansı. Bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer yoksa.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -54,7 +56,7 @@ catch (Exception e)
 }
 ```
 
- Burada, özel geri aramamızın bir örneğini oluşturuyoruz ve bunu şuraya atıyoruz:`Hyphenation.Callback`.
+Burada, özel geri aramamızın bir örneğini oluşturuyoruz ve bunu şuraya atıyoruz: `Hyphenation.Callback`.
 
 ## Adım 2: Belge Yolunu Tanımlayın
 
@@ -64,7 +66,7 @@ Sonra, belgelerimizin saklandığı dizini tanımlamamız gerekiyor. Bu çok ön
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgelerinize giden gerçek yol ile.
 
 ## Adım 3: Belgeyi Yükleyin
 
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Burada, bir Almanca metin belgesi yüklüyoruz. Değiştirebilirsiniz`"German text.docx"` belgenizin dosya adıyla.
+Burada, bir Almanca metin belgesi yüklüyoruz. Değiştirebilirsiniz `"German text.docx"` belgenizin dosya adıyla.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -88,7 +90,7 @@ Bu satır, belgeyi tireleme uygulanmış bir PDF olarak kaydeder.
 
 ## Adım 5: Eksik Tireleme Sözlüğü İstisnasını Ele Alın
 
-Bazen tireleme sözlüğünün eksik olduğu bir sorunla karşılaşabilirsiniz. Hadi bunu ele alalım.
+Bazen tireleme sözlüğünün eksik olduğu bir sorunla karşılaşabilirsiniz. Bunu ele alalım.
 
 ```csharp
 catch (Exception e) when (e.Message.StartsWith("Missing hyphenation dictionary"))
@@ -105,7 +107,7 @@ Bu blokta eksik sözlüklerle ilgili belirli istisnayı yakalayıp mesajı yazd�
 
 ## Adım 6: Özel Tireleme Geri Çağırma Sınıfını Uygulayın
 
- Şimdi, şunu uygulayalım:`CustomHyphenationCallback` Heceleme sözlükleri için istekleri işleyen sınıf.
+Şimdi, şunu uygulayalım: `CustomHyphenationCallback` Heceleme sözlükleri için istekleri işleyen sınıf.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -131,7 +133,7 @@ public class CustomHyphenationCallback : IHyphenationCallback
 }
 ```
 
- Bu sınıfta,`RequestDictionary` bir tireleme sözlüğüne ihtiyaç duyulduğunda method çağrılır. Dili kontrol eder ve uygun sözlüğü kaydeder.
+Bu sınıfta, `RequestDictionary` bir tireleme sözlüğüne ihtiyaç duyulduğunda method çağrılır. Dili kontrol eder ve uygun sözlüğü kaydeder.
 
 ## Çözüm
 
@@ -140,22 +142,27 @@ Ve işte karşınızda! .NET için Aspose.Words'de tireleme geri aramasını nas
 ## SSS
 
 ### Aspose.Words for .NET nedir?
-Aspose.Words for .NET, geliştiricilerin belgeleri programlı bir şekilde oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan güçlü bir belge düzenleme kütüphanesidir.
+Aspose.Words for .NET, geliştiricilerin belgeleri programlı bir şekilde oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir belge düzenleme kütüphanesidir.
 
 ### Belge biçimlendirmede tireleme neden önemlidir?
 Tireleme, kelimeleri uygun yerlerde bölerek metin düzenini iyileştirir, daha okunabilir ve görsel olarak daha çekici bir belge sağlar.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words ücretsiz deneme sunuyor. Bunu alabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words ücretsiz deneme sunuyor. Bunu alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Tireleme sözlüğünü nasıl edinebilirim?
-Çeşitli çevrimiçi kaynaklardan tireleme sözlüklerini indirebilir veya ihtiyaç duyarsanız kendi sözlüklerinizi oluşturabilirsiniz.
+Çeşitli çevrimiçi kaynaklardan tireleme sözlüğü indirebilir veya ihtiyaç duyarsanız kendi sözlüklerinizi oluşturabilirsiniz.
 
 ### Tireleme sözlüğü eksik olursa ne olur?
- Bir sözlük eksikse,`RequestDictionary`metodu, kullanıcıyı bilgilendirmek veya bir geri dönüş sağlamak için kullanabileceğiniz bir istisna fırlatır.
+Bir sözlük eksikse, `RequestDictionary` metodu, kullanıcıyı bilgilendirmek veya bir geri dönüş sağlamak için kullanabileceğiniz bir istisna fırlatır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Использование переносов в Aspose.Words для Java
-linktitle: Использование переносов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как эффективно использовать переносы в Aspose.Words для Java с помощью этого всеобъемлющего руководства. Улучшите читаемость документа сегодня!
-weight: 17
-url: /ru/java/using-document-elements/using-hyphenation/
+"description": "Узнайте, как эффективно использовать переносы в Aspose.Words для Java с помощью этого всеобъемлющего руководства. Улучшите читаемость документа сегодня!"
+"linktitle": "Использование переносов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование переносов в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование переносов в Aspose.Words для Java
@@ -78,14 +80,19 @@ doc.save(outPath + "WorkingWithHyphenation.LoadHyphenationDictionaryForLanguage.
 
 ### 4. Где я могу найти дополнительные ресурсы и поддержку для Aspose.Words для Java?
 
- Вы можете посетить[Документация API Aspose.Words](https://reference.aspose.com/words/java/) для получения подробной информации. Для поддержки и обсуждений посетите[Форум Aspose.Words](https://forum.aspose.com/).
+Вы можете посетить [Документация API Aspose.Words](https://reference.aspose.com/words/java/) для получения подробной информации. Для поддержки и обсуждений посетите [Форум Aspose.Words](https://forum.aspose.com/).
 
 ### 5. Как получить доступ к Aspose.Words для Java?
 
- Чтобы получить доступ к Aspose.Words для Java,[кликните сюда](https://purchase.aspose.com/buy). Испытайте мощь обработки документов в ваших приложениях Java!
+Чтобы получить доступ к Aspose.Words для Java, [кликните сюда](https://purchase.aspose.com/buy). Испытайте мощь обработки документов в ваших приложениях Java!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Rozdělit dokument Word podle oddílů HTML
-linktitle: Podle sekcí Html
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak rozdělit dokument aplikace Word podle sekcí do HTML pomocí Aspose.Words for .NET, pomocí tohoto podrobného průvodce krok za krokem.
-weight: 10
-url: /cs/net/split-document/by-sections-html/
+"description": "Naučte se, jak rozdělit dokument Wordu po sekcích do HTML pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem."
+"linktitle": "Podle sekcí HTML"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Rozdělit dokument Word podle sekcí HTML"
+"url": "/cs/net/split-document/by-sections-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozdělit dokument Word podle oddílů HTML
+# Rozdělit dokument Word podle sekcí HTML
 
 ## Zavedení
 
-Ponoříte se do světa automatizace dokumentů a chcete se naučit, jak rozdělit dokument Word podle sekcí do HTML pomocí Aspose.Words for .NET? Jste na správném místě! Tato příručka je vytvořena právě pro vás, obsahuje podrobné kroky, poutavá vysvětlení a přátelský tón. Vyhrňme si rukávy a vydejme se na tuto vzrušující cestu!
+Ponořujete se do světa automatizace dokumentů a chcete se naučit, jak rozdělit dokument Wordu po sekcích do HTML pomocí Aspose.Words pro .NET? Jste na správném místě! Tato příručka je vytvořena právě pro vás, je plná podrobných kroků, poutavých vysvětlení a přátelského tónu. Vyhrňme si rukávy a vydejme se na tuto vzrušující cestu!
 
 ## Předpoklady
 
-Než se pustíme do akce, je potřeba mít připraveno několik věcí:
+Než se pustíme do akce, je třeba mít připraveno několik věcí:
 
-1.  Knihovna Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Vývojové prostředí jako Visual Studio.
+1. Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Vývojové prostředí, jako je Visual Studio.
 3. Základní znalost C#: Základní znalost programování v C# bude užitečná.
-4. Dokument aplikace Word: Dokument aplikace Word, který chcete rozdělit na části.
+4. Dokument aplikace Word: Dokument aplikace Word, který chcete rozdělit na oddíly.
 
-Jakmile je budete mít připravené, můžeme začít kódovat!
+Jakmile tohle budete mít připravené, můžeme začít s kódováním!
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To nám umožní používat třídy a metody poskytované knihovnou Aspose.Words for .NET.
+Nejdříve si importujme potřebné jmenné prostory. To nám umožní používat třídy a metody poskytované knihovnou Aspose.Words pro .NET.
 
 ```csharp
 using Aspose.Words;
@@ -39,30 +41,30 @@ using Aspose.Words.Saving;
 
 S těmito jmennými prostory na místě jste připraveni začít pracovat s Aspose.Words.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Než budeme moci s jakýmkoli dokumentem manipulovat, musíme určit, kde jsou naše dokumenty uloženy. Toto bude náš pracovní adresář.
+Než budeme moci manipulovat s jakýmkoli dokumentem, musíme určit, kde jsou naše dokumenty uloženy. To bude náš pracovní adresář.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Načtěte dokument aplikace Word
+## Krok 2: Načtěte dokument Wordu
 
- Nyní, když máme nastavený adresář, musíme načíst dokument aplikace Word, který chceme rozdělit. To se provádí pomocí`Document` třídy z Aspose.Words.
+Nyní, když máme nastavený adresář, musíme načíst dokument Wordu, který chceme rozdělit. To se provádí pomocí `Document` třída z Aspose.Words.
 
 ```csharp
-// Načtěte dokument aplikace Word.
+// Načtěte dokument Wordu.
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Krok 3: Nakonfigurujte možnosti uložení HTML
+## Krok 3: Konfigurace možností ukládání HTML
 
- Pro rozdělení dokumentu podle sekcí musíme nastavit příslušné možnosti uložení. The`HtmlSaveOptions`třída nám umožňuje určit, jak chceme dokument uložit do HTML.
+Abychom dokument rozdělili na sekce, musíme nastavit příslušné možnosti ukládání. `HtmlSaveOptions` Třída nám umožňuje určit, jak chceme dokument uložit do HTML.
 
 ```csharp
-// Nakonfigurujte možnosti uložení HTML.
+// Nakonfigurujte možnosti ukládání HTML.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak
@@ -71,43 +73,48 @@ HtmlSaveOptions options = new HtmlSaveOptions
 
 ## Krok 4: Uložte dokument jako HTML
 
-S našimi nakonfigurovanými možnostmi ukládání je posledním krokem uložení dokumentu jako souboru HTML. Tím se dokument rozdělí na části na základě kritérií, která jsme nastavili.
+Po nastavení možností ukládání je posledním krokem uložení dokumentu jako souboru HTML. Tím se dokument rozdělí do sekcí na základě nastavených kritérií.
 
 ```csharp
 // Uložte dokument jako HTML.
 doc.Save(dataDir + "SplitDocument.BySectionsHtml.html", options);
 ```
 
-A tady to máte! Úspěšně jste rozdělili dokument aplikace Word podle sekcí do HTML pomocí Aspose.Words for .NET.
+A tady to máte! Úspěšně jste rozdělili dokument Wordu po sekcích do HTML pomocí Aspose.Words pro .NET.
 
 ## Závěr
 
-Rozdělení dokumentu aplikace Word podle sekcí do HTML je s Aspose.Words pro .NET hračkou. Pomocí několika řádků kódu můžete automatizovat zpracování dokumentů a vylepšit své aplikace. Pamatujte, že cvičení dělá mistra, takže pokračujte v experimentování a zkoumání možností Aspose.Words. Šťastné kódování!
+Rozdělení dokumentu Wordu po sekcích do HTML je s Aspose.Words pro .NET hračka. S několika řádky kódu můžete automatizovat zpracování dokumentů a vylepšit své aplikace. Pamatujte, že cvičení dělá mistra, takže experimentujte a objevujte možnosti Aspose.Words. Přejeme vám příjemné programování!
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je výkonná knihovna pro práci s dokumenty Wordu v aplikacích .NET. Umožňuje vytvářet, upravovat a převádět dokumenty programově.
+Aspose.Words pro .NET je výkonná knihovna pro práci s dokumenty Wordu v aplikacích .NET. Umožňuje programově vytvářet, upravovat a převádět dokumenty.
 
-### Mohu rozdělit dokument aplikace Word podle jiných kritérií?
+### Mohu rozdělit dokument Wordu podle jiných kritérií?
 
-Ano, Aspose.Words for .NET vám umožňuje rozdělit dokumenty podle různých kritérií, jako jsou konce stránek, nadpisy a vlastní logické struktury.
+Ano, Aspose.Words pro .NET umožňuje rozdělovat dokumenty podle různých kritérií, jako jsou zalomení stránek, nadpisy a vlastní logické struktury.
 
-### Je Aspose.Words for .NET zdarma?
+### Je Aspose.Words pro .NET zdarma?
 
- Aspose.Words for .NET je komerční produkt, ale můžete si stáhnout bezplatnou zkušební verzi z webu[Aspose stránku vydání](https://releases.aspose.com/).
+Aspose.Words pro .NET je komerční produkt, ale bezplatnou zkušební verzi si můžete stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/).
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
 
- Komplexní dokumentaci naleznete na[Stránka dokumentace Aspose.Words for .NET](https://reference.aspose.com/words/net/).
+Komplexní dokumentaci naleznete na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/).
 
-### Do jakých dalších formátů mohu převést dokumenty aplikace Word?
+### Do jakých dalších formátů mohu převádět dokumenty Wordu?
 
-Aspose.Words for .NET podporuje různé formáty, včetně PDF, DOCX, TXT a mnoha dalších.
+Aspose.Words pro .NET podporuje různé formáty, včetně PDF, DOCX, TXT a mnoha dalších.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

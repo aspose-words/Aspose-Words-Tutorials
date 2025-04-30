@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना
-linktitle: दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना सीखें। Java कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 24
-url: /hi/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना सीखें। Java कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना"
+"url": "/hi/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजना
@@ -23,7 +25,7 @@ url: /hi/java/document-loading-and-saving/saving-documents-as-text-files/
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Words for Java लाइब्रेरी आपके प्रोजेक्ट में एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java लाइब्रेरी आपके प्रोजेक्ट में एकीकृत है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान.
 
 ## चरण 1: दस्तावेज़ बनाएँ
@@ -53,7 +55,7 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- इस उदाहरण में, हम एक बनाते हैं`TxtSaveOptions` ऑब्जेक्ट और सेट करें`AddBidiMarks`संपत्ति को`true` पाठ आउटपुट में बीड़ी चिह्नों को शामिल करने के लिए।
+इस उदाहरण में, हम एक बनाते हैं `TxtSaveOptions` ऑब्जेक्ट और सेट करें `AddBidiMarks` संपत्ति को `true` पाठ आउटपुट में बीड़ी चिह्नों को शामिल करने के लिए।
 
 ### उदाहरण 2: सूची इंडेंटेशन के लिए टैब कैरेक्टर का उपयोग करना
 
@@ -74,7 +76,7 @@ doc.save("output.txt", saveOptions);
 doc.save("output.txt", saveOptions);
 ```
 
- प्रतिस्थापित करें`"output.txt"` इच्छित फ़ाइल पथ के साथ जहाँ आप पाठ फ़ाइल को सहेजना चाहते हैं।
+प्रतिस्थापित करें `"output.txt"` इच्छित फ़ाइल पथ के साथ जहाँ आप पाठ फ़ाइल को सहेजना चाहते हैं।
 
 ## जावा के लिए Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सहेजने के लिए पूर्ण स्रोत कोड
 
@@ -134,7 +136,7 @@ doc.save("output.txt", saveOptions);
 
 ### मैं टेक्स्ट आउटपुट में बीड़ी मार्क कैसे जोड़ूं?
 
- टेक्स्ट आउटपुट में बीड़ी चिह्न जोड़ने के लिए, सेट करें`AddBidiMarks` की संपत्ति`TxtSaveOptions` को`true`। उदाहरण के लिए:
+टेक्स्ट आउटपुट में बीड़ी चिह्न जोड़ने के लिए, सेट करें `AddBidiMarks` की संपत्ति `TxtSaveOptions` को `true`। उदाहरण के लिए:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### क्या मैं सूची इंडेंटेशन वर्ण को अनुकूलित कर सकता हूँ?
 
- हां, आप सूची इंडेंटेशन वर्ण को कॉन्फ़िगर करके अनुकूलित कर सकते हैं`ListIndentation` की संपत्ति`TxtSaveOptions`उदाहरण के लिए, सूची इंडेंटेशन के लिए टैब वर्ण का उपयोग करने के लिए, आप निम्न कार्य कर सकते हैं:
+हां, आप सूची इंडेंटेशन वर्ण को कॉन्फ़िगर करके अनुकूलित कर सकते हैं `ListIndentation` की संपत्ति `TxtSaveOptions`उदाहरण के लिए, सूची इंडेंटेशन के लिए टैब वर्ण का उपयोग करने के लिए, आप निम्न कार्य कर सकते हैं:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -157,14 +159,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 
 ### मैं Aspose.Words for Java के लिए अधिक दस्तावेज़ और संसाधन कैसे प्राप्त कर सकता हूँ?
 
- आप Aspose प्रलेखन वेबसाइट पर Java के लिए Aspose.Words के लिए व्यापक प्रलेखन और संसाधन पा सकते हैं:[जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+आप Aspose प्रलेखन वेबसाइट पर Java के लिए Aspose.Words के लिए व्यापक प्रलेखन और संसाधन पा सकते हैं: [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
 
 ### मैं Java के लिए Aspose.Words कहां से डाउनलोड कर सकता हूं?
 
- आप Aspose.Words for Java लाइब्रेरी को Aspose वेबसाइट से डाउनलोड कर सकते हैं:[Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/).
+आप Aspose.Words for Java लाइब्रेरी को Aspose वेबसाइट से डाउनलोड कर सकते हैं: [Java के लिए Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

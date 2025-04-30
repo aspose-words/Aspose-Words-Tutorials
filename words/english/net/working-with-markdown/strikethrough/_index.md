@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/strikethrough/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strikethrough
@@ -84,9 +87,13 @@ You can get support from the Aspose community and experts on the [support forum]
 ### Can I apply other text formatting options using Aspose.Words for .NET?
 Absolutely! Aspose.Words for .NET supports a wide range of text formatting options including bold, italics, underline, and more.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

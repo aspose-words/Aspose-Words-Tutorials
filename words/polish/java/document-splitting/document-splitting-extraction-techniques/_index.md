@@ -1,20 +1,22 @@
 ---
-title: Techniki dzielenia i ekstrakcji dokumentów
-linktitle: Techniki dzielenia i ekstrakcji dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się dzielić i wyodrębniać dokumenty za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej manipulacji. Odblokuj moc Aspose
-weight: 14
-url: /pl/java/document-splitting/document-splitting-extraction-techniques/
+"description": "Naucz się dzielić i wyodrębniać dokumenty za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej manipulacji. Odblokuj moc Aspose"
+"linktitle": "Techniki podziału i ekstrakcji dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Techniki podziału i ekstrakcji dokumentów"
+"url": "/pl/java/document-splitting/document-splitting-extraction-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Techniki dzielenia i ekstrakcji dokumentów
+# Techniki podziału i ekstrakcji dokumentów
 
 
-W świecie manipulacji dokumentami i ich ekstrakcji Aspose.Words for Java wyróżnia się jako potężne narzędzie. Ten kompleksowy przewodnik przeprowadzi Cię przez podstawowe kroki dzielenia i ekstrakcji dokumentów za pomocą Aspose.Words for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z tą biblioteką, ten przewodnik krok po kroku z przykładami kodu źródłowego pomoże Ci opanować sztukę manipulacji dokumentami.
+świecie manipulacji dokumentami i ich ekstrakcji Aspose.Words for Java wyróżnia się jako potężne narzędzie. Ten kompleksowy przewodnik przeprowadzi Cię przez podstawowe kroki dzielenia i ekstrakcji dokumentów za pomocą Aspose.Words for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z tą biblioteką, ten przewodnik krok po kroku z przykładami kodu źródłowego pomoże Ci opanować sztukę manipulacji dokumentami.
 
 ## Wstęp
 
@@ -86,7 +88,7 @@ Document doc = new Document("input.docx");
 // Utwórz ekstraktor obrazu
 ImageExtractor extractor = new ImageExtractor(doc);
 
-//Wyodrębnij obrazy z dokumentu
+// Wyodrębnij obrazy z dokumentu
 while (extractor.hasNext()) {
     extractor.getNextImage("output_" + extractor.getCurrentImageIndex() + ".png");
 }
@@ -127,7 +129,7 @@ Zachęcamy do zapoznania się z dokumentacją Aspose.Words for Java, aby poznać
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words dla Java ze strony internetowej:[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
+Możesz pobrać Aspose.Words dla Java ze strony internetowej: [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
 
 ### Czy mogę używać Aspose.Words for Java w moich projektach komercyjnych?
 
@@ -135,10 +137,15 @@ Tak, Aspose.Words for Java jest dostępny zarówno do użytku osobistego, jak i 
 
 ### Gdzie mogę uzyskać dostęp do większej liczby samouczków i zasobów dotyczących Aspose.Words for Java?
 
- Aby uzyskać dodatkowe samouczki i zasoby, zapoznaj się z dokumentacją Aspose:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+Aby uzyskać dodatkowe samouczki i zasoby, zapoznaj się z dokumentacją Aspose: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

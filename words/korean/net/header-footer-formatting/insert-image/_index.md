@@ -1,54 +1,62 @@
 ---
-title: 워드 문서 헤더에 이미지를 삽입합니다.
-weight: 7700
-limit: 
-description: .NET에 대한 Aspose.Words를 사용하여 워드 문서의 헤더에 이미지를 삽입하는 방법을 배우십시오. 샘플 코드 및 설치 지침을 포함한 단계별 안내서.
-keywords: [Aspose.Words for .NET, insert image in header, Word document, .NET library, Word automation, header customization, document processing, C# example]
-url: /ko/net/header-footer-formatting/insert-image/
+"description": "Aspose.Words for .NET을 사용하여 Word 문서의 머리글에 이미지를 삽입하는 방법을 알아보세요. 샘플 코드와 설치 지침이 포함된 단계별 가이드입니다."
+"title": "Word 문서 머리글에 이미지 삽입 | Aspose.Words for .NET"
+"url": "/ko/net/header-footer-formatting/insert-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 워드 문서 헤더에 이미지를 삽입
+# Word 문서 머리글에 이미지 삽입
 
-.NET용 Aspose.Words는 개발자들이 헤더에 이미지를 삽입하는 등의 작업을 자동화할 수 있도록 함으로써 워드 문서 처리를 단순화합니다. 이 튜토리얼은 문서 및 문서 제작자 클래스를 사용하여 워드 문서의 주요 헤더에 정확한 조율, 크기와 포장 옵션을 가진 이미지를 추가하는 방법을 보여줍니다. 프로세스는 간단하여 문서 템플릿을 역동적으로 향상시키는 개발자에게 이상적입니다. 자세한 단계와 샘플 코드로, 당신은 당신의 .NET 응용 프로그램에 이러한 기능을 무려 통합 할 수 있습니다.  
+Aspose.Words for .NET은 개발자가 머리글에 이미지를 삽입하는 등의 작업을 자동화할 수 있도록 하여 Word 문서 처리를 간소화합니다. 이 튜토리얼에서는 Document 및 DocumentBuilder 클래스를 사용하여 Word 문서의 기본 머리글에 정확한 정렬, 크기 및 줄 바꿈 옵션을 적용한 이미지를 추가하는 방법을 보여줍니다. 이 과정은 간단하여 문서 템플릿을 동적으로 개선하려는 개발자에게 이상적입니다. 자세한 단계와 샘플 코드를 통해 이 기능을 .NET 애플리케이션에 손쉽게 통합할 수 있습니다.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/insert-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침  
 
-.NET에서 Aspose.Words를 시작하려면 다음과 같은 간단한 단계를 수행하십시오.  
+Aspose.Words for .NET을 시작하려면 다음 간단한 단계를 따르세요.  
 
-1. Aspose.Words를 다운로드 합니다  
-   * [최신 버전을 다운로드](https://releases.aspose.com/words/net/).NET에 대한 Aspose.Words의  
+1. Aspose.Words 다운로드  
+   - [최신 버전을 다운로드하세요](https://releases.aspose.com/words/net/) Aspose.Words for .NET의 경우.  
 
-2. NuGet를 통해 Aspose.Words를 설치합니다  
-   * 비주얼 스튜디오에서 프로젝트를 열세요.  
-   * 도구 메뉴로 이동하고 NuGet 패키지 관리자 > 솔루션에 대한 NuGet 패키지를 관리하십시오.  
-   * 검색`"말하라. 말하라".`NuGet 패키지 관리자에서 설치합니다.  
+2. NuGet을 통해 Aspose.Words 설치  
+   - Visual Studio에서 프로젝트를 엽니다.  
+   - 도구 메뉴로 가서 NuGet 패키지 관리자 > 솔루션용 NuGet 패키지 관리를 선택합니다.  
+   - 검색 `Aspose.Words` NuGet 패키지 관리자에서 설치하세요.  
 
-   또는 패키지 관리자 콘솔을 사용하세요:  
+   또는 패키지 관리자 콘솔을 사용하세요.  
    ```shell
    Install-Package Aspose.Words
    ```  
 
-3. 면허 를 신청 하십시오  
-   * [무료 시험 라이선스](https://releases.aspose.com/)또는[라이센스를 구입](https://purchase.aspose.com/buy)\- 그래  
-   * 이 라이선스를 프로젝트에서 적용하려면 다음 코드를 사용하세요:  
+3. 라이센스 적용  
+   - 을 얻으세요 [무료 체험판 라이센스](https://releases.aspose.com/) 또는 [라이센스를 구매하다](https://purchase.aspose.com/buy).  
+   - 다음 코드를 사용하여 프로젝트에 라이선스를 적용하세요.  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```  
 
-## 또한 참조
+## 또한 참조하세요
 [Aspose.Word for .NET 문서](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET 참조](https://reference.aspose.com/words/net/)
+[.NET용 Aspose.Word 참조](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Список Сохранить Исходное Форматирование
-linktitle: Список Сохранить Исходное Форматирование
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как объединить документы Word, сохраняя форматирование с помощью Aspose.Words для .NET. Это руководство содержит пошаговые инструкции для бесшовного объединения документов.
-weight: 10
-url: /ru/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Узнайте, как объединить документы Word, сохраняя форматирование с помощью Aspose.Words для .NET. Это руководство содержит пошаговые инструкции для бесшовного объединения документов."
+"linktitle": "Список Сохранить Исходное Форматирование"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Список Сохранить Исходное Форматирование"
+"url": "/ru/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Список Сохранить Исходное Форматирование
@@ -22,7 +24,7 @@ url: /ru/net/join-and-append-documents/list-keep-source-formatting/
 Прежде чем продолжить, убедитесь, что у вас выполнены следующие предварительные условия:
 
 - Visual Studio установлена на вашем компьютере.
--  Aspose.Words for .NET установлен. Вы можете скачать его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET установлен. Вы можете скачать его с [здесь](https://releases.aspose.com/words/net/).
 - Базовые знания программирования на C# и среды .NET.
 
 ## Импорт пространств имен
@@ -40,7 +42,7 @@ using Aspose.Words;
 ## Шаг 2: Инициализация переменных документа
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Загрузка исходных и конечных документов
@@ -91,10 +93,15 @@ Aspose.Words изящно обрабатывает различные стили
 Aspose.Words предоставляет эффективные API для работы с документами, оптимизированные для обеспечения производительности даже при работе с большими документами.
 
 ### Где я могу найти больше примеров и документации?
- Вы можете изучить больше примеров и подробную документацию по адресу[Документация Aspose.Words](https://reference.aspose.com/words/net/).
+Вы можете изучить больше примеров и подробную документацию по адресу [Документация Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

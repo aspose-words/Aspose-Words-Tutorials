@@ -1,14 +1,16 @@
 ---
-title: Использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java
-linktitle: Использование объектов OLE и элементов управления ActiveX
-second_title: API обработки документов Java Aspose.Words
-description: Изучите использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java. Создавайте интерактивные документы с легкостью. Начните прямо сейчас!
-weight: 21
-url: /ru/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Изучите использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java. Создавайте интерактивные документы с легкостью. Начните прямо сейчас!"
+"linktitle": "Использование объектов OLE и элементов управления ActiveX"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java
@@ -19,7 +21,7 @@ url: /ru/java/using-document-elements/using-ole-objects-and-activex/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Aspose.Words для Java: Убедитесь, что в вашем проекте Java установлена библиотека Aspose.Words. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/java/).
+1. Aspose.Words для Java: Убедитесь, что в вашем проекте Java установлена библиотека Aspose.Words. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/java/).
 
 2. Среда разработки Java: в вашей системе должна быть настроена рабочая среда разработки Java.
 
@@ -129,19 +131,24 @@ public void readActiveXControlProperties() throws Exception
    - Да, вы можете настраивать внешний вид объектов OLE, включая установку значков и имен файлов.
 
 ### Что такое элементы управления ActiveX и как они могут улучшить мои документы? 
-   - Элементы управления ActiveX — это интерактивные элементы, которые могут добавлять функциональность в документы Word, например элементы управления формами или мультимедийные проигрыватели.
+   - Элементы управления ActiveX — это интерактивные элементы, которые могут добавлять функциональность в документы Word, например, элементы управления формами или мультимедийные проигрыватели.
 
-### Подходит ли Aspose.Words for Java для автоматизации документооборота на корпоративном уровне? 
+### Подходит ли Aspose.Words для Java для автоматизации документооборота на корпоративном уровне? 
    - Да, Aspose.Words для Java — это мощная библиотека для автоматизации создания и обработки документов в приложениях Java.
 
 ### Где я могу получить доступ к Aspose.Words для Java? 
-   -  Вы можете загрузить Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/).
+   - Вы можете загрузить Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/).
 
 Начните работу с Aspose.Words для Java уже сегодня и раскройте весь потенциал автоматизации и настройки документов!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

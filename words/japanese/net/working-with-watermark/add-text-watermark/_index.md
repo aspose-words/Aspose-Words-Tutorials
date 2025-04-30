@@ -1,48 +1,56 @@
 ---
-title: Word ドキュメントにテキストウォーターマークを追加する.NETのAspose.Wordsを使用する
-weight: 7700
-limit: 
-description: Word ドキュメントに特定のオプションを持つテキストウォーターマークを .NET のAspose.Wordsを使用して追加する方法について学びましょう. ドキュメントをカスタマイズして保存するには簡単な手順に従ってください.
-keywords: [Aspose.Words for .NET, add watermark, text watermark, Word document, watermark customization, .NET example, document processing]
-url: /ja/net/working-with-watermark/add-text-watermark/
+"description": "Aspose.Words for .NET を使用して、Word 文書に特定のオプションでテキスト透かしを追加する方法を学びます。簡単な手順に従って、文書をカスタマイズして保存します。"
+"title": "Aspose.Words for .NET を使用して Word 文書にテキスト透かしを追加する"
+"url": "/ja/net/working-with-watermark/add-text-watermark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words を使ってWord ドキュメント に テキスト 水印 を 追加 する
-Word ドキュメントにテキストウォーターマークを追加することは,NETのAspose.Wordsを使用する簡単なプロセスです.このチュートリアルでは,ドキュメントにカスタマイズ可能なテキストウォーターマークを適用する方法を示します.フォントファミリー,サイズ,色,レイアウト,透明度制御などの機能により,ウォーターマークを正確なニーズに合わせて調整できます.ブランド,機密性,美学に関わらず, Aspose.Wordsは,プロのウォーターマークでドキュメントを強化することを簡単にする.  
+# Aspose.Words を使用して Word 文書にテキスト透かしを追加する
+Aspose.Words for .NETを使えば、Word文書にテキスト透かしを簡単に追加できます。このチュートリアルでは、カスタマイズ可能なテキスト透かしを文書に適用する方法を説明します。フォントファミリー、サイズ、色、レイアウト、透明度などの機能を使って、ニーズに合わせて透かしをカスタマイズできます。ブランディング、機密性、美観など、Aspose.Wordsを使えば、プロフェッショナルな透かしで文書を簡単に美しく仕上げることができます。  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-watermark/add-text-watermark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
-1. .NET のためのAspose.Wordsをダウンロードする  
-   最新バージョンを入手してください[アポス ダウンロードページ](https://releases.aspose.com/words/net/)やってくれ  
+## インストール手順  
+1. Aspose.Words for .NET をダウンロード:  
+   最新バージョンを入手するには、 [Aspose ダウンロードページ](https://releases。aspose.com/words/net/).  
 
-2. NuGet を介してインストールする  
-   * ビジュアルスタジオを 開け  
-   * NuGet パッケージ管理者へ (ツール> NuGet パッケージ管理者> ソリューションのための NuGet パッケージ管理) 移動します.  
-   * Aspose.Wordsを検索して,インストールをクリックします.  
+2. NuGet 経由でインストール:  
+   - Visual Studio プロジェクトを開きます。  
+   - NuGet パッケージ マネージャー ([ツール] > [NuGet パッケージ マネージャー] > [ソリューションの NuGet パッケージの管理]) に移動します。  
+   - 「Aspose.Words」を検索し、「インストール」をクリックします。  
 
-3. 名前空間参照を追加する  
-   コードファイルの上部には次の名前空間の追加:  
+3. 名前空間参照を追加します。  
+   コード ファイルの先頭に次の名前空間を追加します。  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using System.Drawing;
    ```  
 
-4. 申請許可 (オプション):  
-   完全なバージョンを使用するために[ライセンス申請](https://purchase.aspose.com/temporary-license/) [無料試験](https://releases.aspose.com/)やってくれ  
+4. ライセンスの適用（オプション）:  
+   フルバージョンを使用するには、 [ライセンスを適用する](https://purchase.aspose.com/temporary-license/) または [無料トライアル](https://releases。aspose.com/).  
 
-## また見てください
-[Aspose.Word を .NET ドキュメンテーションに](https://docs.aspose.com/words/net/)
-[Aspose.Word を .NET 参照に](https://reference.aspose.com/words/net/)
+## こちらもご覧ください
+[Aspose.Word for .NET ドキュメント](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET リファレンス](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

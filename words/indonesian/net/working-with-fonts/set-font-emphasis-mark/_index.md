@@ -1,14 +1,16 @@
 ---
-title: Atur Tanda Penekanan Font
-linktitle: Atur Tanda Penekanan Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur tanda penekanan font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/working-with-fonts/set-font-emphasis-mark/
+"description": "Pelajari cara mengatur tanda penekanan font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang .NET."
+"linktitle": "Atur Tanda Penekanan Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Tanda Penekanan Font"
+"url": "/id/net/working-with-fonts/set-font-emphasis-mark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Tanda Penekanan Font
@@ -21,7 +23,7 @@ Dalam tutorial hari ini, kita akan membahas cara mengatur tanda penekanan font d
 
 Sebelum kita menyelami detailnya, pastikan Anda telah memenuhi prasyarat berikut:
 
--  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan yang berfungsi seperti Visual Studio.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework.
 
@@ -41,7 +43,7 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah sederhana. Ikuti 
 Pertama-tama, Anda perlu menginisialisasi dokumen baru dan DocumentBuilder. Kelas DocumentBuilder menyediakan metode untuk memasukkan teks dan elemen lain ke dalam dokumen.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Inisialisasi Dokumen baru
@@ -97,22 +99,27 @@ Tanda penekanan huruf adalah simbol khusus yang ditambahkan ke teks untuk membua
 
 ### Bisakah saya menggunakan tanda penekanan lain dengan Aspose.Words untuk .NET?
 
- Ya, Aspose.Words untuk .NET mendukung berbagai tanda penekanan. Anda dapat menjelajahi berbagai pilihan dengan merujuk ke[dokumentasi](https://reference.aspose.com/words/net/).
+Ya, Aspose.Words untuk .NET mendukung berbagai tanda penekanan. Anda dapat menjelajahi berbagai pilihan dengan merujuk ke [dokumentasi](https://reference.aspose.com/words/net/).
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
 
- Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim dukungan dengan mengunjungi[forum dukungan](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim dukungan dengan mengunjungi [forum dukungan](https://forum.aspose.com/c/words/8).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan framework .NET lainnya?
 
 Ya, Aspose.Words untuk .NET kompatibel dengan berbagai kerangka kerja .NET, termasuk .NET Core dan .NET 5/6.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Belge Bölme ve Çıkarma Teknikleri
-linktitle: Belge Bölme ve Çıkarma Teknikleri
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words kullanarak belge bölme ve çıkarmayı öğrenin. Verimli manipülasyon için kaynak kodlu adım adım kılavuz. Aspose'un gücünü açığa çıkarın
-weight: 14
-url: /tr/java/document-splitting/document-splitting-extraction-techniques/
+"description": "Java için Aspose.Words kullanarak belge bölme ve çıkarmayı öğrenin. Verimli manipülasyon için kaynak kodlu adım adım kılavuz. Aspose'un gücünü açığa çıkarın"
+"linktitle": "Belge Bölme ve Çıkarma Teknikleri"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Bölme ve Çıkarma Teknikleri"
+"url": "/tr/java/document-splitting/document-splitting-extraction-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Bölme ve Çıkarma Teknikleri
@@ -18,7 +20,7 @@ Belge düzenleme ve çıkarma dünyasında, Aspose.Words for Java güçlü bir a
 
 ## giriiş
 
-Aspose.Words for Java, Microsoft Word belgeleriyle verimli bir şekilde çalışmanıza olanak tanıyan Java tabanlı bir API'dir. Bu kılavuzda, iki temel işleme odaklanacağız: belgeleri daha küçük parçalara bölme ve bunlardan belirli içerikleri çıkarma.
+Aspose.Words for Java, Microsoft Word belgeleriyle verimli bir şekilde çalışmanıza olanak tanıyan Java tabanlı bir API'dir. Bu kılavuzda, iki temel işleme odaklanacağız: belgeleri daha küçük parçalara bölme ve onlardan belirli içerikleri çıkarma.
 
 ## Ön koşullar
 
@@ -86,7 +88,7 @@ Document doc = new Document("input.docx");
 // Bir görüntü çıkarıcı oluşturun
 ImageExtractor extractor = new ImageExtractor(doc);
 
-//Belgeden görüntüleri çıkarın
+// Belgeden görüntüleri çıkarın
 while (extractor.hasNext()) {
     extractor.getNextImage("output_" + extractor.getCurrentImageIndex() + ".png");
 }
@@ -127,18 +129,23 @@ Daha gelişmiş özellikler ve olanaklar için Aspose.Words for Java belgelerini
 
 ### Java için Aspose.Words'ü nasıl yüklerim?
 
- Aspose.Words for Java'yı şu web sitesinden indirebilirsiniz:[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
+Aspose.Words for Java'yı şu web sitesinden indirebilirsiniz: [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
 
 ### Aspose.Words for Java'yı ticari projelerimde kullanabilir miyim?
 
 Evet, Aspose.Words for Java hem kişisel hem de ticari kullanıma uygundur.
 
-### Aspose.Words for Java ile ilgili daha fazla eğitim ve kaynağa nereden ulaşabilirim?
+### Daha fazla Aspose.Words for Java eğitimine ve kaynağına nereden ulaşabilirim?
 
- Ek eğitimler ve kaynaklar için Aspose belgelerini ziyaret edin:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+Ek eğitimler ve kaynaklar için Aspose belgelerini ziyaret edin: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

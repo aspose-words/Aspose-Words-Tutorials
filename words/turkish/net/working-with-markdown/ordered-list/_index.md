@@ -1,14 +1,16 @@
 ---
-title: Sıralı Liste
-linktitle: Sıralı Liste
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinde sıralı listelerin nasıl oluşturulacağını adım adım kılavuzumuzla öğrenin. Belge oluşturmayı otomatikleştirmek için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-markdown/ordered-list/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinde sıralı listeler oluşturmayı adım adım kılavuzumuzla öğrenin. Belge oluşturmayı otomatikleştirmek için mükemmeldir."
+"linktitle": "Sıralı Liste"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sıralı Liste"
+"url": "/tr/net/working-with-markdown/ordered-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sıralı Liste
@@ -21,7 +23,7 @@ Yani, programatik olarak muhteşem Word belgeleri oluşturmak için Aspose.Words
 
 Koda dalmadan önce ihtiyacınız olacak birkaç şey var:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Yüklü değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Yüklü değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 3. Temel C# Bilgisi: Kolayca takip edebilmek için C# temellerine hakim olmalısınız.
 
@@ -79,7 +81,7 @@ builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
 ```
 
- The`ListIndent` yöntem listeyi girintiler ve bir alt liste oluşturur. Şimdi, iç içe geçmiş yapılacaklar listesi gibi, hiyerarşik bir liste oluşturuyorsunuz.
+The `ListIndent` yöntem listeyi girintiler ve bir alt liste oluşturur. Şimdi, iç içe geçmiş bir yapılacaklar listesi gibi, hiyerarşik bir liste oluşturuyorsunuz.
 
 ## Çözüm
 
@@ -88,22 +90,27 @@ Word belgesinde programatik olarak sıralı bir liste oluşturmak ilk başta gö
 ## SSS
 
 ### Listenin numaralandırma stilini özelleştirebilir miyim?  
- Evet, numaralandırma stilini kullanarak özelleştirebilirsiniz.`ListFormat`özellikleri. Roma rakamları, harfler vb. gibi farklı numaralandırma stilleri ayarlayabilirsiniz.
+Evet, numaralandırma stilini kullanarak özelleştirebilirsiniz. `ListFormat` özellikleri. Roma rakamları, harfler vb. gibi farklı numaralandırma stilleri ayarlayabilirsiniz.
 
 ### Daha fazla girinti düzeyi nasıl eklerim?  
- Kullanabilirsiniz`ListIndent` alt listelerin daha derin seviyelerini oluşturmak için yöntemi birden çok kez kullanın. Her çağrı`ListIndent` bir düzey girinti ekler.
+Kullanabilirsiniz `ListIndent` alt listelerin daha derin seviyelerini oluşturmak için yöntemi birden çok kez kullanın. Her çağrı `ListIndent` bir düzey girinti ekler.
 
 ### Madde işaretli ve numaralı listeleri bir arada kullanabilir miyim?  
- Kesinlikle! Aynı belge içinde farklı liste biçimlerini kullanarak uygulayabilirsiniz.`ListFormat` mülk.
+Kesinlikle! Aynı belge içinde farklı liste biçimlerini kullanarak uygulayabilirsiniz. `ListFormat` mülk.
 
 ### Önceki bir listeden numaralandırmaya devam etmek mümkün müdür?  
-Evet, aynı liste biçimini kullanarak numaralandırmaya devam edebilirsiniz. Aspose.Words, farklı paragraflar arasında liste numaralandırmasını kontrol etmenizi sağlar.
+Evet, aynı liste biçimini kullanarak numaralandırmaya devam edebilirsiniz. Aspose.Words, farklı paragraflarda liste numaralandırmasını kontrol etmenizi sağlar.
 
 ### Liste formatını nasıl kaldırabilirim?  
- Liste biçimini şu şekilde çağırarak kaldırabilirsiniz:`ListFormat.RemoveNumbers()`Bu, liste öğelerini tekrar normal paragraflara dönüştürecektir.
+Liste biçimini şu şekilde çağırarak kaldırabilirsiniz: `ListFormat.RemoveNumbers()`Bu, liste öğelerini tekrar normal paragraflara dönüştürecektir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

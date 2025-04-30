@@ -7,8 +7,11 @@ weight: 14
 url: /python-net/document-options-and-settings/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Options and Settings
@@ -47,9 +50,13 @@ Learn how to efficiently manipulate Word documents using Aspose.Words for Python
 Learn how to manage document properties and metadata using Aspose.Words for Python. Step-by-step guide with source code.
 ### [Extending Document Functionality with Web Extensions](./document-functionality-web-extensions/)
 Learn how to extend document functionality with web extensions using Aspose.Words for Python. Step-by-step guide with source code for seamless integration.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

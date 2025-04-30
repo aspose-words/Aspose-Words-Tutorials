@@ -1,14 +1,16 @@
 ---
-title: Yatay Olarak Birleştirilmiş Hücrelere Dönüştür
-linktitle: Yatay Olarak Birleştirilmiş Hücrelere Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde dikey olarak birleştirilmiş hücreleri yatay olarak birleştirilmiş hücrelere dönüştürün. Sorunsuz bir tablo düzeni için adım adım kılavuz.
-weight: 10
-url: /tr/net/programming-with-tables/convert-to-horizontally-merged-cells/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde dikey olarak birleştirilmiş hücreleri yatay olarak birleştirilmiş hücrelere dönüştürün. Sorunsuz bir tablo düzeni için adım adım kılavuz."
+"linktitle": "Yatay Olarak Birleştirilmiş Hücrelere Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yatay Olarak Birleştirilmiş Hücrelere Dönüştür"
+"url": "/tr/net/programming-with-tables/convert-to-horizontally-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yatay Olarak Birleştirilmiş Hücrelere Dönüştür
@@ -21,7 +23,7 @@ Word belgelerinde tablolarla çalışırken, daha temiz ve daha düzenli bir dü
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz: [yayın sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir geliştirme ortamı.
 3. C# Temel Bilgisi: C# programlama diline aşinalık.
 
@@ -60,7 +62,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 ## Adım 3: Yatay Olarak Birleştirilmiş Hücrelere Dönüştür
 
- Şimdi, tabloda dikey olarak birleştirilmiş hücreleri yatay olarak birleştirilmiş hücrelere dönüştüreceğiz. Bu, şunu kullanarak yapılır:`ConvertToHorizontallyMergedCells` yöntem.
+Şimdi, tabloda dikey olarak birleştirilmiş hücreleri yatay olarak birleştirilmiş hücrelere dönüştüreceğiz. Bu, şunu kullanarak yapılır: `ConvertToHorizontallyMergedCells` yöntem.
 
 ```csharp
 // Dikey olarak birleştirilmiş hücreleri yatay olarak birleştirilmiş hücrelere dönüştür
@@ -77,19 +79,24 @@ Ve işte bu kadar! Aspose.Words for .NET kullanarak Word belgesinde dikey olarak
 Aspose.Words for .NET, öncelikle C# gibi .NET dilleri için tasarlanmıştır. Ancak, VB.NET gibi diğer .NET destekli dillerle de kullanabilirsiniz.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?  
- Evet, indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose web sitesinden.
+Evet, indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Aspose web sitesinden.
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+Ziyaret edebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/words/8) yardım için.
 
 ### Bir dosyadan veya akıştan lisans uygulayabilir miyim?  
-Evet, Aspose.Words for .NET, hem bir dosyadan hem de bir akıştan lisans uygulamanıza olanak tanır. Daha fazla bilgiyi şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/).
+Evet, Aspose.Words for .NET, hem bir dosyadan hem de bir akıştan lisans uygulamanıza olanak tanır. Daha fazla bilgiyi şurada bulabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET başka hangi özellikleri sunuyor?  
- Aspose.Words for .NET, belge oluşturma, düzenleme, dönüştürme ve işleme dahil olmak üzere geniş bir özellik yelpazesi sunar. Şuraya göz atın[belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
+Aspose.Words for .NET, belge oluşturma, düzenleme, dönüştürme ve işleme dahil olmak üzere geniş bir özellik yelpazesi sunar. Şuraya göz atın [belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

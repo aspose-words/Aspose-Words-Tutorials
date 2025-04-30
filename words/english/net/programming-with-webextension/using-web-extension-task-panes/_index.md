@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-webextension/using-web-extension-task-panes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Web Extension Task Panes
@@ -172,9 +175,13 @@ You can bind a Web Extension to a part of the document using the `WebExtensionBi
 ### Where can I find more information about Aspose.Words for .NET?
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

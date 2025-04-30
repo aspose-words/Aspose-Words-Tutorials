@@ -7,8 +7,11 @@ weight: 16
 url: /java/document-manipulation/removing-content-from-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Removing Content from Documents in Aspose.Words for Java
@@ -107,9 +110,13 @@ Yes, Aspose.Words for Java supports the latest Word document formats, ensuring c
 
 Aspose.Words for Java offers a wide range of features, including document creation, editing, conversion, and more. You can explore its documentation for detailed information.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

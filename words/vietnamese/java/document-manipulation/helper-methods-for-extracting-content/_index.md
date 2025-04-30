@@ -1,14 +1,16 @@
 ---
-title: Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java
-linktitle: Phương pháp trợ giúp để trích xuất nội dung
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách trích xuất nội dung hiệu quả từ tài liệu Word bằng Aspose.Words for Java. Khám phá các phương pháp trợ giúp, định dạng tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này.
-weight: 14
-url: /vi/java/document-manipulation/helper-methods-for-extracting-content/
+"description": "Tìm hiểu cách trích xuất nội dung hiệu quả từ tài liệu Word bằng Aspose.Words for Java. Khám phá các phương pháp trợ giúp, định dạng tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này."
+"linktitle": "Phương pháp trợ giúp để trích xuất nội dung"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/helper-methods-for-extracting-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Aspose.Words for Java là một thư viện mạnh mẽ cho phép các nhà phá
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta đi sâu vào các ví dụ mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words for Java trong dự án Java của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi chúng ta đi sâu vào các ví dụ mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words for Java trong dự án Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Phương pháp trợ giúp 1: Trích xuất đoạn văn theo phong cách
 
@@ -51,7 +53,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     // Tạo danh sách để lưu trữ các nút đã trích xuất.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // Nếu bất kỳ dấu hiệu nào là một phần của bình luận, bao gồm cả bình luận đó, chúng ta cần di chuyển con trỏ
+    // Nếu bất kỳ dấu hiệu nào là một phần của bình luận, bao gồm cả chính bình luận đó, chúng ta cần di chuyển con trỏ
     // chuyển tiếp đến Nút Bình luận được tìm thấy sau nút CommentRangeEnd.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
@@ -63,7 +65,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    //Trích xuất nội dung dựa trên các nút cấp khối (đoạn văn và bảng). Duyệt qua các nút cha để tìm chúng.
+    // Trích xuất nội dung dựa trên các nút cấp khối (đoạn văn và bảng). Duyệt qua các nút cha để tìm chúng.
     // Chúng tôi sẽ tách nội dung của nút đầu tiên và nút cuối cùng, tùy thuộc vào việc các nút đánh dấu có nằm trong dòng hay không.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
@@ -89,7 +91,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            //Điều kiện cần phải tách biệt vì điểm bắt đầu và kết thúc ở cấp độ khối có thể là cùng một nút.
+            // Điều kiện cần phải tách biệt vì điểm bắt đầu và kết thúc ở cấp độ khối có thể là cùng một nút.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
@@ -150,9 +152,9 @@ Trích xuất nội dung từ tài liệu Word có thể là một phần quan t
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để tôi có thể cài đặt Aspose.Words cho Java?
+### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống từ trang web Aspose. Truy cập[đây](https://releases.aspose.com/words/java/) để có phiên bản mới nhất.
+Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống từ trang web Aspose. Truy cập [đây](https://releases.aspose.com/words/java/) để có phiên bản mới nhất.
 
 ### Tôi có thể trích xuất nội dung từ các phần cụ thể của tài liệu Word không?
 
@@ -168,10 +170,15 @@ Có, bạn có thể tùy chỉnh định dạng của nội dung được tríc
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Words cho Java ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Words for Java trên trang web Aspose. Truy cập[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để biết thêm tài liệu và nguồn thông tin chi tiết.
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Words for Java trên trang web Aspose. Truy cập [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để biết thêm tài liệu và nguồn thông tin chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

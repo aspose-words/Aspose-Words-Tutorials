@@ -1,14 +1,16 @@
 ---
-title: वर्टिकल एंकर
-linktitle: वर्टिकल एंकर
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/programming-with-shapes/vertical-anchor/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टेक्स्टबॉक्स के लिए वर्टिकल एंकर पोजिशन सेट करना सीखें। आसान चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "वर्टिकल एंकर"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्टिकल एंकर"
+"url": "/hi/net/programming-with-shapes/vertical-anchor/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्टिकल एंकर
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-shapes/vertical-anchor/
 
 इससे पहले कि हम ऊर्ध्वाधर एंकरिंग के मूल तत्वों पर चर्चा करें, आपको कुछ चीजों को व्यवस्थित करने की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि आपके पास अभी तक यह नहीं है, तो आप[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। यदि आपके पास अभी तक यह नहीं है, तो आप [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विज़ुअल स्टूडियो: यह ट्यूटोरियल मानता है कि आप कोडिंग के लिए विज़ुअल स्टूडियो या किसी अन्य .NET IDE का उपयोग कर रहे हैं।
 3. C# का बुनियादी ज्ञान: C# और .NET से परिचित होने से आपको आसानी से आगे बढ़ने में मदद मिलेगी।
 
@@ -41,14 +43,14 @@ using Aspose.Words.Drawing;
 सबसे पहले, आपको एक नया वर्ड डॉक्यूमेंट बनाना होगा। इसे पेंटिंग शुरू करने से पहले अपने कैनवास को सेट करने के रूप में सोचें।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ,`Document` आपका खाली कैनवास है, और`DocumentBuilder` यह आपका पेंटब्रश है, जो आपको आकृतियां और पाठ जोड़ने की अनुमति देता है।
+यहाँ, `Document` आपका खाली कैनवास है, और `DocumentBuilder` यह आपका पेंटब्रश है, जो आपको आकृतियां और पाठ जोड़ने की अनुमति देता है।
 
 ## चरण 2: टेक्स्टबॉक्स आकार डालें
 
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 ```
 
- इस उदाहरण में,`ShapeType.TextBox` आपके इच्छित आकार को निर्दिष्ट करता है, और`200, 200` टेक्स्टबॉक्स की चौड़ाई और ऊंचाई बिंदुओं में हैं।
+इस उदाहरण में, `ShapeType.TextBox` आपके इच्छित आकार को निर्दिष्ट करता है, और `200, 200` टेक्स्टबॉक्स की चौड़ाई और ऊंचाई बिंदुओं में हैं।
 
 ## चरण 3: वर्टिकल एंकर सेट करें
 
@@ -68,7 +70,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 textBox.TextBox.VerticalAnchor = TextBoxAnchor.Bottom;
 ```
 
- इस मामले में,`TextBoxAnchor.Bottom`यह सुनिश्चित करता है कि टेक्स्ट टेक्स्टबॉक्स के निचले भाग में लंगर डाला जाएगा। यदि आप इसे केंद्र में रखना चाहते हैं या शीर्ष पर संरेखित करना चाहते हैं, तो आप इसका उपयोग करेंगे`TextBoxAnchor.Center` या`TextBoxAnchor.Top`, क्रमश।
+इस मामले में, `TextBoxAnchor.Bottom` यह सुनिश्चित करता है कि टेक्स्ट टेक्स्टबॉक्स के निचले भाग में लंगर डाला जाएगा। यदि आप इसे केंद्र में रखना चाहते हैं या शीर्ष पर संरेखित करना चाहते हैं, तो आप इसका उपयोग करेंगे `TextBoxAnchया.Center` or `TextBoxAnchor.Top`, क्रमश।
 
 ## चरण 4: टेक्स्टबॉक्स में टेक्स्ट जोड़ें
 
@@ -79,7 +81,7 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Textbox contents");
 ```
 
- यहाँ,`MoveTo` यह सुनिश्चित करता है कि पाठ को टेक्स्टबॉक्स में डाला गया है, और`Write` वास्तविक पाठ जोड़ता है.
+यहाँ, `MoveTo` यह सुनिश्चित करता है कि पाठ को टेक्स्टबॉक्स में डाला गया है, और `Write` वास्तविक पाठ जोड़ता है.
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -102,16 +104,21 @@ doc.Save(dataDir + "WorkingWithShapes.VerticalAnchor.docx");
 हां, आप अन्य आकृतियों के साथ वर्टिकल एंकरिंग का उपयोग कर सकते हैं, हालांकि टेक्स्टबॉक्स सबसे आम उपयोग मामला है।
 
 ### टेक्स्टबॉक्स बनाने के बाद मैं एंकर पॉइंट कैसे बदलूं?
- आप एंकर पॉइंट को सेट करके बदल सकते हैं`VerticalAnchor` टेक्स्टबॉक्स आकार ऑब्जेक्ट पर संपत्ति।
+आप एंकर पॉइंट को सेट करके बदल सकते हैं `VerticalAnchor` टेक्स्टबॉक्स आकार ऑब्जेक्ट पर संपत्ति।
 
 ### क्या टेक्स्ट को टेक्स्ट बॉक्स के मध्य में रखना संभव है?
- बिलकुल! बस उपयोग करें`TextBoxAnchor.Center` टेक्स्ट को टेक्स्ट बॉक्स के भीतर लंबवत केन्द्रित करने के लिए।
+बिलकुल! बस उपयोग करें `TextBoxAnchor.Center` टेक्स्ट को टेक्स्ट बॉक्स के भीतर लंबवत केन्द्रित करने के लिए।
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक जानकारी और मार्गदर्शन के लिए.
+इसकी जाँच पड़ताल करो [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) अधिक जानकारी और मार्गदर्शन के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

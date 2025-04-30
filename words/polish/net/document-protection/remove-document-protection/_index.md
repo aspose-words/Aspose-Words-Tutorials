@@ -1,14 +1,16 @@
 ---
-title: Usuń ochronę dokumentu w dokumencie Word
-linktitle: Usuń ochronę dokumentu w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usunąć ochronę z dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo usunąć ochronę swoich dokumentów.
-weight: 10
-url: /pl/net/document-protection/remove-document-protection/
+"description": "Dowiedz się, jak usunąć ochronę z dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo usunąć ochronę swoich dokumentów."
+"linktitle": "Usuń ochronę dokumentu w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń ochronę dokumentu w dokumencie Word"
+"url": "/pl/net/document-protection/remove-document-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń ochronę dokumentu w dokumencie Word
@@ -22,7 +24,7 @@ Cześć! Czy zdarzyło Ci się kiedyś zablokować własny dokument Word z powod
 
 Zanim przejdziemy do kodu, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko programistyczne .NET, takie jak Visual Studio.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# ułatwi Ci zrozumienie tekstu.
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ProtectedDocument.docx");
 ```
 
- Tutaj określamy ścieżkę do katalogu zawierającego nasz dokument. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Tutaj określamy ścieżkę do katalogu zawierającego nasz dokument. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Usuń ochronę bez hasła
 
@@ -70,7 +72,7 @@ Jeśli Twój dokument jest chroniony hasłem, musisz podać to hasło, aby usun�
 doc.Unprotect("currentPassword");
 ```
 
- Zastępować`"currentPassword"` z rzeczywistym hasłem używanym do ochrony dokumentu. Po podaniu prawidłowego hasła ochrona zostaje zdjęta.
+Zastępować `"currentPassword"` z rzeczywistym hasłem używanym do ochrony dokumentu. Po podaniu prawidłowego hasła ochrona zostaje zdjęta.
 
 ## Krok 4: Dodaj i usuń ochronę
 
@@ -84,7 +86,7 @@ doc.Protect(ProtectionType.ReadOnly, "newPassword");
 doc.Unprotect("newPassword");
 ```
 
- W powyższym kodzie najpierw dodajemy nowe zabezpieczenie za pomocą hasła`"newPassword"`, a następnie natychmiast je usuń używając tego samego hasła.
+W powyższym kodzie najpierw dodajemy nowe zabezpieczenie za pomocą hasła `"newPassword"`, a następnie natychmiast je usuń używając tego samego hasła.
 
 ## Krok 5: Zapisz dokument
 
@@ -113,7 +115,7 @@ Tak, możesz przejrzeć listę dokumentów i zastosować tę samą logikę usuwa
 
 ### Czy Aspose.Words dla .NET jest darmowy?
 
- Aspose.Words dla .NET to płatna biblioteka, ale możesz wypróbować ją za darmo. Sprawdź[bezpłatny okres próbny](https://releases.aspose.com/)!
+Aspose.Words dla .NET to płatna biblioteka, ale możesz wypróbować ją za darmo. Sprawdź [bezpłatny okres próbny](https://releases.aspose.com/)!
 
 ### Jakie inne rodzaje ochrony mogę zastosować w dokumencie Word?
 
@@ -121,11 +123,16 @@ Aspose.Words umożliwia stosowanie różnych typów ochrony, takich jak ReadOnly
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

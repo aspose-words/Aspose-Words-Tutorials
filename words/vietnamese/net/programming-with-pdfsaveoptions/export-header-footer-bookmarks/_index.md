@@ -1,14 +1,16 @@
 ---
-title: Xuất Tiêu đề, Chân trang, Dấu trang của Tài liệu Word sang Tài liệu PDF
-linktitle: Xuất Tiêu đề, Chân trang, Dấu trang của Tài liệu Word sang Tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xuất dấu trang đầu trang và chân trang từ tài liệu Word sang PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
+"description": "Tìm hiểu cách xuất dấu trang đầu trang và chân trang từ tài liệu Word sang PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Xuất Tiêu đề, Chân trang, Dấu trang của Tài liệu Word sang Tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất Tiêu đề, Chân trang, Dấu trang của Tài liệu Word sang Tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất Tiêu đề, Chân trang, Dấu trang của Tài liệu Word sang Tài liệu PDF
@@ -21,7 +23,7 @@ Chuyển đổi tài liệu Word sang PDF là một tác vụ phổ biến, đ�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển của bạn. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE tương thích .NET nào khác.
 - Kiến thức cơ bản về C#: Cần phải quen thuộc với lập trình C# để theo dõi các ví dụ về mã.
 
@@ -58,7 +60,7 @@ saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 saveOptions.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
 ```
 
- Ở đây, chúng tôi đang thiết lập`PdfSaveOptions` . Các`DefaultBookmarksOutlineLevel` thuộc tính thiết lập mức phác thảo cho dấu trang và`HeaderFooterBookmarksExportMode` Thuộc tính này đảm bảo rằng chỉ xuất hiện lần đầu tiên của dấu trang trong phần đầu trang và phần chân trang.
+Ở đây, chúng tôi đang thiết lập `PdfSaveOptions`. Các `DefaultBookmarksOutlineLevel` thuộc tính thiết lập mức phác thảo cho dấu trang và `HeaderFooterBookmarksExportMode` Thuộc tính này đảm bảo rằng chỉ xuất hiện lần đầu tiên của dấu trang trong phần đầu trang và chân trang.
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
@@ -78,15 +80,15 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 
 ### Tôi có thể xuất tất cả dấu trang từ tài liệu Word sang PDF không?
 
- Vâng, bạn có thể. Trong`PdfSaveOptions`, bạn có thể điều chỉnh cài đặt để bao gồm tất cả các dấu trang nếu cần.
+Vâng, bạn có thể. Trong `PdfSaveOptions`, bạn có thể điều chỉnh cài đặt để bao gồm tất cả các dấu trang nếu cần.
 
 ### Tôi phải làm sao nếu muốn xuất cả dấu trang từ nội dung tài liệu?
 
- Bạn có thể cấu hình`OutlineOptions` TRONG`PdfSaveOptions` để bao gồm các dấu trang từ nội dung tài liệu.
+Bạn có thể cấu hình `OutlTRONGeOptions` in `PdfSaveOptions` để bao gồm các dấu trang từ nội dung tài liệu.
 
 ### Có thể tùy chỉnh mức độ đánh dấu trong PDF không?
 
- Chắc chắn rồi! Bạn có thể tùy chỉnh`DefaultBookmarksOutlineLevel` thuộc tính để thiết lập các mức phác thảo khác nhau cho dấu trang của bạn.
+Chắc chắn rồi! Bạn có thể tùy chỉnh `DefaultBookmarksOutlineLevel` thuộc tính để thiết lập các mức phác thảo khác nhau cho dấu trang của bạn.
 
 ### Tôi phải xử lý tài liệu không có dấu trang như thế nào?
 
@@ -95,9 +97,14 @@ Nếu tài liệu của bạn không có dấu trang, PDF sẽ được tạo m�
 ### Tôi có thể sử dụng phương pháp này cho các loại tài liệu khác như DOCX hoặc RTF không?
 
 Có, Aspose.Words for .NET hỗ trợ nhiều loại tài liệu khác nhau, bao gồm DOCX, RTF và nhiều loại khác.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

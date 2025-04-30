@@ -1,36 +1,38 @@
 ---
-title: Formato Número de rótulo de dados em um gráfico
-linktitle: Formato Número de rótulo de dados em um gráfico
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como formatar rótulos de dados em gráficos usando o Aspose.Words para .NET com este guia passo a passo. Melhore seus documentos do Word sem esforço.
-weight: 10
-url: /pt/net/programming-with-charts/format-number-of-data-label/
+"description": "Aprenda a formatar rótulos de dados em gráficos usando o Aspose.Words para .NET com este guia passo a passo. Aprimore seus documentos do Word sem esforço."
+"linktitle": "Formato Número de Rótulo de Dados em um Gráfico"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Formato Número de Rótulo de Dados em um Gráfico"
+"url": "/pt/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formato Número de rótulo de dados em um gráfico
+# Formato Número de Rótulo de Dados em um Gráfico
 
 ## Introdução
 
-Criar documentos envolventes e informativos geralmente envolve incluir gráficos com rótulos de dados bem formatados. Se você é um desenvolvedor .NET procurando aprimorar seus documentos do Word com gráficos sofisticados, o Aspose.Words for .NET é uma biblioteca fantástica para ajudar você a conseguir isso. Este tutorial o guiará pelo processo de formatação de rótulos numéricos em um gráfico usando o Aspose.Words for .NET, passo a passo.
+A criação de documentos envolventes e informativos geralmente envolve a inclusão de gráficos com rótulos de dados bem formatados. Se você é um desenvolvedor .NET e busca aprimorar seus documentos do Word com gráficos sofisticados, o Aspose.Words para .NET é uma biblioteca fantástica para ajudar você a conseguir isso. Este tutorial guiará você pelo processo de formatação de rótulos numéricos em um gráfico usando o Aspose.Words para .NET, passo a passo.
 
 ## Pré-requisitos
 
 Antes de mergulhar no código, há alguns pré-requisitos que você precisa ter em mente:
 
--  Aspose.Words para .NET: Certifique-se de ter a biblioteca Aspose.Words para .NET instalada. Se você ainda não a instalou, você pode[baixe aqui](https://releases.aspose.com/words/net/).
+- Aspose.Words para .NET: Certifique-se de ter a biblioteca Aspose.Words para .NET instalada. Se ainda não a instalou, você pode [baixe aqui](https://releases.aspose.com/words/net/).
 - Ambiente de desenvolvimento: Você deve ter um ambiente de desenvolvimento .NET configurado. O Visual Studio é altamente recomendado.
-- Conhecimento básico de C#: Familiaridade com programação em C# é essencial, pois este tutorial envolve escrever e entender código C#.
--  Licença temporária: para usar o Aspose.Words sem quaisquer limitações, você pode obter uma[licença temporária](https://purchase.aspose.com/temporary-license/).
+- Conhecimento básico de C#: familiaridade com programação em C# é essencial, pois este tutorial envolve escrever e entender código C#.
+- Licença temporária: Para usar o Aspose.Words sem quaisquer limitações, você pode obter uma [licença temporária](https://purchase.aspose.com/temporary-license/).
 
 Agora, vamos mergulhar no processo passo a passo de formatação de rótulos numéricos em um gráfico.
 
 ## Importar namespaces
 
-Primeiro, precisamos importar os namespaces necessários para trabalhar com Aspose.Words para .NET. Adicione as seguintes linhas no topo do seu arquivo C#:
+Antes de mais nada, precisamos importar os namespaces necessários para trabalhar com o Aspose.Words para .NET. Adicione as seguintes linhas no início do seu arquivo C#:
 
 ```csharp
 using Aspose.Words;
@@ -40,17 +42,17 @@ using Aspose.Words.Drawing.Charts;
 
 ## Etapa 1: configure seu diretório de documentos
 
-Antes de começar a manipular seu documento do Word, você precisa especificar o diretório onde seu documento será salvo. Isso é essencial para a operação de salvar mais tarde.
+Antes de começar a manipular seu documento do Word, você precisa especificar o diretório onde o documento será salvo. Isso é essencial para a operação de salvamento posterior.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Substituir`"YOUR DOCUMENT DIRECTORY"` com o caminho real para o diretório do seu documento.
+Substituir `"YOUR DOCUMENT DIRECTORY"` com o caminho real para o diretório do seu documento.
 
-## Etapa 2: inicializar o documento e o DocumentBuilder
+## Etapa 2: Inicializar o documento e o DocumentBuilder
 
- O próximo passo é inicializar um novo`Document` e um`DocumentBuilder` . O`DocumentBuilder` é uma classe auxiliar que nos permite construir o conteúdo do documento.
+O próximo passo é inicializar um novo `Document` e um `DocumentBuilder`. O `DocumentBuilder` é uma classe auxiliar que nos permite construir o conteúdo do documento.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Etapa 3: Insira um gráfico no documento
 
- Agora, vamos inserir um gráfico no documento usando o`DocumentBuilder`. Neste tutorial, usaremos um gráfico de linhas como exemplo.
+Agora, vamos inserir um gráfico no documento usando o `DocumentBuilder`. Neste tutorial, usaremos um gráfico de linhas como exemplo.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -69,7 +71,7 @@ chart.Title.Text = "Data Labels With Different Number Format";
 
 Aqui, inserimos um gráfico de linhas com largura e altura específicas e definimos o título do gráfico.
 
-## Etapa 4: Limpar séries padrão e adicionar novas séries
+## Etapa 4: limpar séries padrão e adicionar novas séries
 
 Por padrão, o gráfico terá algumas séries pré-geradas. Precisamos limpá-las e adicionar nossas próprias séries com pontos de dados específicos.
 
@@ -94,7 +96,7 @@ series1.DataLabels.ShowValue = true;
 
 ## Etapa 6: Formatar rótulos de dados
 
-O cerne deste tutorial é a formatação dos rótulos de dados. Podemos aplicar diferentes formatos de números a cada rótulo de dados individualmente.
+O foco deste tutorial é a formatação dos rótulos de dados. Podemos aplicar diferentes formatos numéricos a cada rótulo de dados individualmente.
 
 ```csharp
 series1.DataLabels[0].NumberFormat.FormatCode = "\"$\"#,##0.00"; // Formato de moeda
@@ -102,7 +104,7 @@ series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // Formato de data
 series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // Formato percentual
 ```
 
- Além disso, você pode vincular o formato de um rótulo de dados a uma célula de origem. Quando vinculado, o`NumberFormat` será redefinido para geral e herdado da célula de origem.
+Além disso, você pode vincular o formato de um rótulo de dados a uma célula de origem. Quando vinculado, o `NumberFormat` será redefinido para geral e herdado da célula de origem.
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -120,7 +122,7 @@ Isso salva seu documento com o nome especificado e garante que seu gráfico com 
 
 ## Conclusão
 
-Formatar rótulos de dados em um gráfico usando o Aspose.Words para .NET pode melhorar muito a legibilidade e o profissionalismo dos seus documentos do Word. Seguindo este guia passo a passo, agora você deve ser capaz de criar um gráfico, adicionar séries de dados e formatar os rótulos de dados para atender às suas necessidades. O Aspose.Words para .NET é uma ferramenta poderosa que permite ampla personalização e automação de documentos do Word, tornando-se um recurso inestimável para desenvolvedores .NET.
+Formatar rótulos de dados em um gráfico usando o Aspose.Words para .NET pode melhorar significativamente a legibilidade e o profissionalismo dos seus documentos do Word. Seguindo este guia passo a passo, você agora poderá criar um gráfico, adicionar séries de dados e formatar os rótulos de dados de acordo com suas necessidades. O Aspose.Words para .NET é uma ferramenta poderosa que permite ampla personalização e automação de documentos do Word, tornando-se um recurso inestimável para desenvolvedores .NET.
 
 ## Perguntas frequentes
 
@@ -131,17 +133,22 @@ Aspose.Words para .NET é uma biblioteca poderosa para criar, manipular e conver
 Sim, o Aspose.Words para .NET suporta uma variedade de tipos de gráficos, incluindo barras, colunas, pizza e muito mais.
 
 ### Como obtenho uma licença temporária para o Aspose.Words para .NET?
-Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
 ### É possível vincular rótulos de dados a células de origem no Excel?
 Sim, você pode vincular rótulos de dados às células de origem, permitindo que o formato numérico seja herdado da célula de origem.
 
 ### Onde posso encontrar documentação mais detalhada do Aspose.Words para .NET?
- Você pode encontrar documentação abrangente[aqui](https://reference.aspose.com/words/net/).
+Você pode encontrar documentação abrangente [aqui](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

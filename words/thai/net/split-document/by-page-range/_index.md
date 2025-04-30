@@ -1,14 +1,16 @@
 ---
-title: แบ่งเอกสาร Word ตามช่วงหน้า
-linktitle: แบ่งเอกสาร Word ตามช่วงหน้า
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแบ่งเอกสาร Word ตามช่วงหน้าโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/split-document/by-page-range/
+"description": "เรียนรู้วิธีแบ่งเอกสาร Word ตามช่วงหน้าโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา"
+"linktitle": "แบ่งเอกสาร Word ตามช่วงหน้า"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แบ่งเอกสาร Word ตามช่วงหน้า"
+"url": "/th/net/split-document/by-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แบ่งเอกสาร Word ตามช่วงหน้า
@@ -21,7 +23,7 @@ url: /th/net/split-document/by-page-range/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาที่เหมาะสม เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าเราจะพาคุณผ่านแต่ละขั้นตอน แต่ความเข้าใจพื้นฐานเกี่ยวกับ C# จะเป็นประโยชน์
 
@@ -48,7 +50,7 @@ using Aspose.Words;
 
 ## ขั้นตอนที่ 3: โหลดเอกสารของคุณ
 
- ตอนนี้เรามาโหลดเอกสารที่คุณต้องการแยกกัน แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ:
+ตอนนี้เรามาโหลดเอกสารที่คุณต้องการแยกกัน แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังเอกสารของคุณ:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -85,11 +87,11 @@ extractedPages.Save(dataDir + "SplitDocument.ByPageRange.docx");
 
 Aspose.Words มีวิธีการต่างๆ มากมายในการจัดการส่วนต่างๆ ของเอกสาร คุณสามารถแยกส่วนต่างๆ ออกมาในลักษณะเดียวกันได้โดยการระบุจุดเริ่มต้นและจุดสิ้นสุดของส่วนต่างๆ
 
-### มีขีดจำกัดจำนวนหน้าที่ฉันสามารถแยกออกมาได้หรือไม่?
+### จำนวนหน้าที่ฉันสามารถแยกออกมาได้มีจำกัดหรือไม่?
 
 ไม่ มีจำนวนหน้าที่สามารถแยกออกมาได้โดยใช้ Aspose.Words สำหรับ .NET ไม่จำกัด
 
-### ฉันสามารถแยกหน้าที่ไม่ติดต่อกันออกมาได้หรือไม่
+### ฉันสามารถแยกหน้าที่ไม่ต่อเนื่องกันออกมาได้หรือไม่
 
 ใช่ แต่คุณจะต้องดำเนินการแยกหลายๆ ครั้งสำหรับแต่ละหน้าหรือช่วงและรวมเข้าด้วยกันหากจำเป็น
 
@@ -97,9 +99,14 @@ Aspose.Words มีวิธีการต่างๆ มากมายใน
 
 แน่นอน! Aspose.Words สำหรับ .NET รองรับรูปแบบต่างๆ มากมาย รวมถึง DOC, PDF, HTML และอื่นๆ อีกมากมาย
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

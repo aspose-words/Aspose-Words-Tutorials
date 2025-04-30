@@ -1,14 +1,16 @@
 ---
-title: ฟิลด์ฟอร์มทำงานร่วมกับคุณสมบัติ
-linktitle: ฟิลด์ฟอร์มทำงานร่วมกับคุณสมบัติ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีจัดการเขตข้อมูลฟอร์มในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดของเรา
-weight: 10
-url: /th/net/working-with-formfields/form-fields-work-with-properties/
+"description": "เรียนรู้วิธีจัดการเขตข้อมูลฟอร์มในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "ฟิลด์ฟอร์มทำงานร่วมกับคุณสมบัติ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ฟิลด์ฟอร์มทำงานร่วมกับคุณสมบัติ"
+"url": "/th/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟิลด์ฟอร์มทำงานร่วมกับคุณสมบัติ
@@ -20,7 +22,7 @@ url: /th/net/working-with-formfields/form-fields-work-with-properties/
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการ:
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดเวอร์ชันล่าสุด [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา .NET: แนะนำให้ใช้ Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานจะช่วยให้คุณทำตามได้อย่างราบรื่น
 
@@ -45,7 +47,7 @@ using Aspose.Words.Fields;
 
 ### ขั้นตอนที่ 1.2: ติดตั้ง Aspose.Words สำหรับ .NET
 
- คุณสามารถติดตั้ง Aspose.Words ผ่านตัวจัดการแพ็กเกจ NuGet ไปที่`Tools` -`NuGet Package Manager` -`Manage NuGet Packages for Solution`และค้นหา "Aspose.Words" ติดตั้งแพ็กเกจ
+คุณสามารถติดตั้ง Aspose.Words ผ่านตัวจัดการแพ็กเกจ NuGet ไปที่ `Tools` - `NuGet Package Manager` - `Manage NuGet Packages for Solution`และค้นหา "Aspose.Words" ติดตั้งแพ็กเกจ
 
 นอกจากนี้คุณยังสามารถใช้คอนโซลตัวจัดการแพ็กเกจ NuGet ได้:
 
@@ -59,7 +61,7 @@ Install-Package Aspose.Words
 
 ### ขั้นตอนที่ 2.1: ระบุไดเรกทอรีเอกสาร
 
- ตั้งค่าเส้นทางไปยังไดเรกทอรีเอกสารของคุณ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
+ตั้งค่าเส้นทางไปยังไดเรกทอรีเอกสารของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### ขั้นตอนที่ 3.2: ตรวจสอบประเภทฟิลด์แบบฟอร์ม
 
- ตรวจสอบให้แน่ใจว่าช่องฟอร์มเป็นประเภท`FieldFormTextInput` ก่อนที่จะแก้ไขมัน
+ตรวจสอบให้แน่ใจว่าช่องฟอร์มเป็นประเภท `FieldFormTextInput` ก่อนที่จะแก้ไขมัน
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้งานได้กับภาษา .NET ทุกภาษา รวมถึง VB.NET และ F#
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
-Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถจัดการองค์ประกอบอื่นๆ ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ได้หรือไม่
 แน่นอน! Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถจัดการข้อความ รูปภาพ ตาราง และองค์ประกอบอื่นๆ มากมายภายในเอกสาร Word ได้
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose.Words ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชมฟอรัม Aspose.Words [ที่นี่](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้ที่ไหน
- คุณสามารถค้นหาเอกสารฉบับสมบูรณ์ได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารฉบับสมบูรณ์ได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

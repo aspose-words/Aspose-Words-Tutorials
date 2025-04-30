@@ -1,14 +1,16 @@
 ---
-title: Mengatur ID Penyedia Tanda Tangan di Dokumen Word
-linktitle: Mengatur ID Penyedia Tanda Tangan di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Tetapkan ID Penyedia Tanda Tangan dengan aman di dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami yang terdiri dari 2000 kata untuk menandatangani dokumen Anda secara digital.
-weight: 10
-url: /id/net/programming-with-digital-signatures/set-signature-provider-id/
+"description": "Tetapkan ID Penyedia Tanda Tangan dengan aman di dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami yang terdiri dari 2000 kata untuk menandatangani dokumen Anda secara digital."
+"linktitle": "Mengatur ID Penyedia Tanda Tangan di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur ID Penyedia Tanda Tangan di Dokumen Word"
+"url": "/id/net/programming-with-digital-signatures/set-signature-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur ID Penyedia Tanda Tangan di Dokumen Word
@@ -21,10 +23,10 @@ Hai! Jadi, Anda memiliki dokumen Word yang luar biasa ini yang memerlukan tanda 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Words untuk Pustaka .NET: Jika Anda belum melakukannya,[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Jika Anda belum melakukannya, [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE apa pun yang kompatibel dengan C#.
 3. Dokumen Word: Dokumen dengan baris tanda tangan (`Signature line.docx`).
-4.  Sertifikat Digital: A`.pfx` file sertifikat (misalnya,`morzal.pfx`).
+4. Sertifikat Digital: A `.pfx` file sertifikat (misalnya, `morzal.pfx`).
 5. Pengetahuan Dasar C#: Hanya dasar-dasarnya—jangan khawatir, kami di sini untuk membantu!
 
 Sekarang, mari kita mulai aksinya!
@@ -43,14 +45,14 @@ Baiklah, mari kita uraikan ini menjadi langkah-langkah yang sederhana dan mudah 
 
 ## Langkah 1: Muat Dokumen Word Anda
 
-Langkah pertama adalah memuat dokumen Word yang berisi baris tanda tangan. Dokumen ini akan dimodifikasi untuk menyertakan tanda tangan digital dengan ID Penyedia Tanda Tangan yang ditentukan.
+Langkah pertama adalah memuat dokumen Word Anda yang berisi baris tanda tangan. Dokumen ini akan dimodifikasi untuk menyertakan tanda tangan digital dengan ID Penyedia Tanda Tangan yang ditentukan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
- Di sini, kami menentukan direktori tempat dokumen Anda berada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Di sini, kami menentukan direktori tempat dokumen Anda berada. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Akses Baris Tanda Tangan
 
@@ -60,7 +62,7 @@ Selanjutnya, kita perlu mengakses baris tanda tangan di dalam dokumen. Baris tan
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
- Baris kode ini mendapatkan bentuk pertama di badan bagian pertama dokumen dan melemparkannya ke`SignatureLine` obyek.
+Baris kode ini mendapatkan bentuk pertama di badan bagian pertama dokumen dan melemparkannya ke `SignatureLine` obyek.
 
 ## Langkah 3: Siapkan Opsi Tanda
 
@@ -78,28 +80,28 @@ Pilihan ini akan digunakan saat menandatangani dokumen untuk memastikan ID Penye
 
 ## Langkah 4: Muat Sertifikat
 
- Untuk menandatangani dokumen secara digital, Anda memerlukan sertifikat. Berikut cara memuatnya`.pfx` mengajukan:
+Untuk menandatangani dokumen secara digital, Anda memerlukan sertifikat. Berikut cara memuatnya `.pfx` mengajukan:
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Mengganti`"aw"` dengan kata sandi untuk berkas sertifikat Anda jika ada.
+Mengganti `"aw"` dengan kata sandi untuk berkas sertifikat Anda jika ada.
 
 ## Langkah 5: Tandatangani Dokumen
 
- Akhirnya, saatnya untuk menandatangani dokumen menggunakan`DigitalSignatureUtil.Sign` metode.
+Akhirnya, saatnya untuk menandatangani dokumen menggunakan `DigitalSignatureUtil.Sign` metode.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
     dataDir + "SignDocuments.SetSignatureProviderId.docx", certHolder, signOptions);
 ```
 
- Ini menandatangani dokumen Anda dan menyimpannya sebagai file baru,`Digitally signed.docx`.
+Ini menandatangani dokumen Anda dan menyimpannya sebagai file baru, `Digitally signed.docx`.
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil menetapkan ID Penyedia Tanda Tangan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Proses ini tidak hanya mengamankan dokumen Anda, tetapi juga memastikan dokumen tersebut mematuhi standar tanda tangan digital. Sekarang, lanjutkan dan cobalah dengan dokumen Anda. Ada pertanyaan? Lihat FAQ di bawah ini atau kunjungi[Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
+Nah, itu dia! Anda telah berhasil menetapkan ID Penyedia Tanda Tangan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Proses ini tidak hanya mengamankan dokumen Anda, tetapi juga memastikan dokumen tersebut mematuhi standar tanda tangan digital. Sekarang, lanjutkan dan cobalah dengan dokumen Anda. Ada pertanyaan? Lihat FAQ di bawah ini atau kunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -123,9 +125,14 @@ Ya, Anda dapat mengulang beberapa dokumen dan menerapkan proses penandatanganan 
 
 Anda harus memasukkan baris tanda tangan terlebih dahulu. Aspose.Words menyediakan metode untuk menambahkan baris tanda tangan secara terprogram.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

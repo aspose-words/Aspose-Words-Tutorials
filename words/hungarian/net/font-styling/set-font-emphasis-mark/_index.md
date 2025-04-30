@@ -1,54 +1,62 @@
 ---
-title: A Word dokumentumban hangsúlyjelzés jelét állítsa be .NET-hez Aspose.Words használatával 
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell hangsúlyozni a Word dokumentumokban a .NET-hez használt Aspose.Words használatával. Ez az lépésről lépésre szóló útmutató tartalmazza a telepítési utasításokat és a példakódot.
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /hu/net/font-styling/set-font-emphasis-mark/
+"description": "Tanuld meg, hogyan állíthatsz be hangsúlyjelet a Word dokumentumokban az Aspose.Words for .NET segítségével. Ez a lépésenkénti útmutató telepítési utasításokat és példakódot tartalmaz."
+"title": "Kiemelésjel beállítása Word dokumentumban az Aspose.Words for .NET használatával"
+"url": "/hu/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Aspose.Words használatával hangsúlyozza a szöveget
+# Kiemelésjel beállítása Word dokumentumban az Aspose.Words használatával
 
-A Word dokumentumokban a hangsúlyjelzés kiállításának kiváló módja a konkrét szöveg kiemelésének, és annak biztosítása, hogy a tartalmakban kiemelkedjen. A .NET-hez használt Aspose.Words segítségével könnyedén hangsúlyjelzéseket alkalmazhat, például egy szilárd kör alatt, néhány kódvonal segítségével. Ez a példa bemutatja, hogyan lehet használni a `Dokumentumszervező`A dokumentumok formátumának egyszerűsítése érdekében kövesse ezt a útmutatót.
+kiemelésjelek Word-dokumentumokban történő beállítása kiváló módja annak, hogy kiemeljünk bizonyos szövegrészeket, biztosítva, hogy azok kitűnjenek a tartalomból. Az Aspose.Words for .NET segítségével könnyedén alkalmazhatunk kiemelésjeleket, például egy folytonos kört, néhány sornyi kóddal. Ez a példa bemutatja, hogyan kell használni a `DocumentBuilder` osztály Word dokumentumok kezeléséhez, szöveg formázásához kiemelésjelekkel és az eredmény DOCX formátumban történő mentéséhez. Kövesse ezt az útmutatót a dokumentumformázási feladatok professzionális pontossággal történő egyszerűsítéséhez.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A megadott kód példáját futtatni és a .NET-hez Aspose.Words használatát követően kövesse ezeket a lépéseket:  
+## Telepítési utasítások  
+A megadott kódpélda futtatásához és az Aspose.Words for .NET használatához kövesse az alábbi lépéseket:  
 
-1. Letöltsd le az Aspose.Words .NET-hez:  
-   * Vedd a könyvtárat a [A felszabadulások](https://releases.aspose.com/words/net/)A lap.  
+1. Aspose.Words letöltése .NET-hez:  
+   - Szerezd meg a könyvtárat a [Aspose kiadások](https://releases.aspose.com/words/net/) oldal.  
 
-2. Beállítsa a Könyvtárat:  
-   * A NuGet csomagkezelő segítségével telepítse a Visual Studio-ban:  
-     * Nyissa ki a Visual Studio-t.  
-     * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
-     * Keresd a`Aspose.Words`és kattintsa a telepítésre.  
+2. A könyvtár telepítése:  
+   - Telepítse a NuGet csomagkezelőn keresztül a Visual Studio-ban:  
+     - Nyisd meg a Visual Studio-t.  
+     - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+     - Keresés `Aspose.Words` és kattintson a Telepítés gombra.  
 
-   * Alternatív módon használja a NuGet csomagkezelő konzolt:  
+   - Alternatív megoldásként használhatja a NuGet csomagkezelő konzolját:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. Beállítson egy ideiglenes licencet (Felhetőséges):  
-   * Korlátozatlan használatra [ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
-   * A projekthez a licenc alkalmazása:  
+3. Ideiglenes licenc beállítása (opcionális):  
+   - Korlátlan használatért szerezz be egy [ingyenes ideiglenes engedély](https://purchase.aspose.com/temporary-license/).  
+   - Alkalmazd a licencet a projektedben:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

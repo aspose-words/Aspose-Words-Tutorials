@@ -1,14 +1,16 @@
 ---
-title: Якорь Комментарий
-linktitle: Якорь Комментарий
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять комментарии-якоря в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для эффективного взаимодействия с документами.
-weight: 10
-url: /ru/net/working-with-comments/anchor-comment/
+"description": "Узнайте, как добавлять комментарии-якоря в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для эффективного взаимодействия с документами."
+"linktitle": "Якорь Комментарий"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Якорь Комментарий"
+"url": "/ru/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Якорь Комментарий
@@ -21,7 +23,7 @@ url: /ru/net/working-with-comments/anchor-comment/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: любая среда разработки .NET, например Visual Studio.
 - Базовые знания C#: знакомство с программированием на C# поможет вам легко следовать инструкциям.
 
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- На этом этапе мы инициализируем новый`Document` объект, который будет использоваться для добавления наших комментариев.
+На этом этапе мы инициализируем новый `Document` объект, который будет использоваться для добавления наших комментариев.
 
 ## Шаг 2: Добавьте текст в документ
 
@@ -76,7 +78,7 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- Здесь мы создаем два абзаца с текстом. Каждый фрагмент текста заключен в`Run` объект, который затем добавляется к абзацам.
+Здесь мы создаем два абзаца с текстом. Каждый фрагмент текста заключен в `Run` объект, который затем добавляется к абзацам.
 
 ## Шаг 3: Создайте комментарий
 
@@ -88,7 +90,7 @@ Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- На этом этапе мы создаем`Comment` объект и добавьте абзац и строку с текстом комментария.
+На этом этапе мы создаем `Comment` объект и добавьте абзац и строку с текстом комментария.
 
 ## Шаг 4: Определите диапазон комментариев
 
@@ -107,7 +109,7 @@ run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- Здесь мы создаем`CommentRangeStart` и`CommentRangeEnd` объекты, связывая их с комментарием по его идентификатору. Затем мы вставляем эти диапазоны в документ, фактически привязывая наш комментарий к указанному тексту.
+Здесь мы создаем `CommentRangeStart` и `CommentRangeEnd` объекты, связывая их с комментарием по его идентификатору. Затем мы вставляем эти диапазоны в документ, фактически привязывая наш комментарий к указанному тексту.
 
 ## Шаг 5: Сохраните документ.
 
@@ -133,16 +135,21 @@ doc.Save(dataDir + "WorkingWithComments.AnchorComment.doc");
 Да, вы можете добавить несколько комментариев в один и тот же текстовый раздел, указав несколько диапазонов комментариев.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) . Для полного функционала вы можете приобрести лицензию.[здесь](https://purchase.aspose.com/buy).
+Aspose.Words for .NET предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для полного функционала вы можете приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я настроить внешний вид комментариев?
 В то время как Aspose.Words фокусируется на функциональности, внешний вид комментариев в документах Word, как правило, контролируется самим Word.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

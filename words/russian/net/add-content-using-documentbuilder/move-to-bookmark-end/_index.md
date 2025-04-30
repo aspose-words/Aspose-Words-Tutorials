@@ -1,14 +1,16 @@
 ---
-title: Переместить в конец закладки в документе Word
-linktitle: Переместить в конец закладки в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как перейти к концу закладки в документе Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству для точной манипуляции документами.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Узнайте, как перейти к концу закладки в документе Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству для точной манипуляции документами."
+"linktitle": "Переместить в конец закладки в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Переместить в конец закладки в документе Word"
+"url": "/ru/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Переместить в конец закладки в документе Word
@@ -21,9 +23,9 @@ url: /ru/net/add-content-using-documentbuilder/move-to-bookmark-end/
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое:
 
--  Visual Studio: Вы можете загрузить его здесь[здесь](https://visualstudio.microsoft.com/).
--  Aspose.Words для .NET: возьмите его с сайта[ссылка для скачивания](https://releases.aspose.com/words/net/).
--  Действующая лицензия Aspose.Words: вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) если у вас его нет.
+- Visual Studio: Вы можете загрузить его здесь [здесь](https://visualstudio.microsoft.com/).
+- Aspose.Words для .NET: возьмите его с сайта [ссылка для скачивания](https://releases.aspose.com/words/net/).
+- Действующая лицензия Aspose.Words: вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/) если у вас его нет.
 
 И, конечно же, базовые знания C# и .NET будут весьма кстати.
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Все просто, правда? Теперь перейдем к сути.
+Просто, правда? Теперь перейдем к сути.
 
 Хорошо, давайте разобьем это на удобоваримы шаги. Каждый шаг будет иметь свой заголовок и подробное объяснение.
 
@@ -45,11 +47,11 @@ using Aspose.Words.Saving;
 
 ### Создать новый проект
 
- Откройте Visual Studio и создайте новый проект C# Console App. Назовите его как-то так:`BookmarkEndExample`Это будет наша игровая площадка для этого урока.
+Откройте Visual Studio и создайте новый проект C# Console App. Назовите его как-то так: `BookmarkEndExample`Это будет наша игровая площадка для этого урока.
 
 ### Установить Aspose.Words для .NET
 
- Далее вам нужно установить Aspose.Words for .NET. Вы можете сделать это через NuGet Package Manager. Просто найдите`Aspose.Words` и нажмите «установить». В качестве альтернативы используйте консоль диспетчера пакетов:
+Далее вам нужно установить Aspose.Words for .NET. Вы можете сделать это через NuGet Package Manager. Просто найдите `Aspose.Words` и нажмите «установить». В качестве альтернативы используйте консоль диспетчера пакетов:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Обязательно замените`YOUR DOCUMENT DIRECTORY` с фактическим путем сохранения вашего документа.
+Обязательно замените `YOUR DOCUMENT DIRECTORY` с фактическим путем сохранения вашего документа.
 
 ## Шаг 3: Инициализация DocumentBuilder
 
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Понимание MoveToBookmark
 
- The`MoveToBookmark`Метод позволяет вам перейти к определенной закладке в вашем документе. Сигнатура метода:
+The `MoveToBookmark` Метод позволяет вам перейти к определенной закладке в вашем документе. Сигнатура метода:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: Имя закладки, к которой вы хотите перейти.
-- `isBookmarkStart` : Если установлено значение`true`, перемещает в начало закладки.
-- `isBookmarkEnd` : Если установлено значение`true`, перемещает в конец закладки.
+- `isBookmarkStart`: Если установлено значение `true`, перемещает в начало закладки.
+- `isBookmarkEnd`: Если установлено значение `true`, перемещает в конец закладки.
 
 ### Реализовать метод MoveToBookmark
 
- Теперь перейдем к концу закладки.`MyBookmark1`:
+Теперь перейдем к концу закладки. `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -117,7 +119,7 @@ builder.Writeln("This is a bookmark.");
 
 Вот и всё! Вы успешно переместились в конец закладки и вставили туда текст.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 
 Наконец, не забудьте сохранить изменения:
@@ -126,7 +128,7 @@ builder.Writeln("This is a bookmark.");
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- Теперь вы можете открыть обновленный документ и увидеть текст «Это закладка» сразу после`MyBookmark1`.
+Теперь вы можете открыть обновленный документ и увидеть текст «Это закладка» сразу после `MyBookmark1`.
 
 ## Заключение
 
@@ -136,27 +138,32 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 
 ### 1. Можно ли перейти в начало закладки, а не в конец?
 
- Конечно! Просто установите`isBookmarkStart` параметр для`true` и`isBookmarkEnd` к`false` в`MoveToBookmark` метод.
+Конечно! Просто установите `isBookmarkStart` параметр для `true` и `isBookmarkEnd` к `false` в `MoveToBookmark` метод.
 
 ### 2. Что делать, если название моей закладки неверно?
 
- Если имя закладки неверное или не существует,`MoveToBookmark` метод вернет`false`, и DocumentBuilder не переместится ни в какое место.
+Если имя закладки неверно или не существует, `MoveToBookmark` метод вернет `false`, и DocumentBuilder не переместится ни в какое место.
 
 ### 3. Могу ли я вставлять другие типы контента в конец закладки?
 
- Да, DocumentBuilder позволяет вставлять различные типы контента, такие как таблицы, изображения и т. д. Проверьте[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Да, DocumentBuilder позволяет вставлять различные типы контента, такие как таблицы, изображения и т. д. Проверьте [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### 4. Как получить временную лицензию для Aspose.Words?
 
- Вы можете получить временную лицензию в[Сайт Aspose](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию в [Сайт Aspose](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Является ли Aspose.Words для .NET бесплатным?
 
-Aspose.Words для .NET — это коммерческий продукт, но вы можете получить бесплатную пробную версию на сайте[Сайт Aspose](https://releases.aspose.com/).
+Aspose.Words для .NET — это коммерческий продукт, но вы можете получить бесплатную пробную версию на сайте [Сайт Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

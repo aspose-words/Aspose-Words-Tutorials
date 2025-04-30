@@ -1,14 +1,16 @@
 ---
-title: การระบุคุณสมบัติ
-linktitle: การระบุคุณสมบัติ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการระบุคุณสมบัติในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่มีทักษะทุกระดับ
-weight: 10
-url: /th/net/programming-with-document-properties/enumerate-properties/
+"description": "เรียนรู้วิธีการระบุคุณสมบัติในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่มีทักษะทุกระดับ"
+"linktitle": "การระบุคุณสมบัติ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การระบุคุณสมบัติ"
+"url": "/th/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การระบุคุณสมบัติ
@@ -19,9 +21,9 @@ url: /th/net/programming-with-document-properties/enumerate-properties/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน มีบางสิ่งที่คุณจะต้องเริ่มต้น:
+ก่อนที่เราจะเจาะลึกในบทช่วยสอน มีบางสิ่งที่คุณจะต้องเริ่มต้น:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: แนะนำให้ใช้ Visual Studio แต่คุณสามารถใช้ C# IDE ใดก็ได้
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณทำตามได้
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 ต่อไปเรามาโหลดเอกสาร Word ที่คุณต้องการใช้งานกัน สำหรับตัวอย่างนี้ เราจะใช้เอกสารชื่อ "Properties.docx" ซึ่งอยู่ในไดเร็กทอรีโครงการของคุณ
 
 1. กำหนดเส้นทางเอกสาร: ระบุเส้นทางไปยังเอกสารของคุณ
-2.  โหลดเอกสาร: ใช้ Aspose.Words`Document` ชั้นเรียนเพื่อโหลดเอกสาร
+2. โหลดเอกสาร: ใช้ Aspose.Words `Document` ชั้นเรียนเพื่อโหลดเอกสาร
 
 นี่คือโค้ด:
 
@@ -71,7 +73,7 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 คุณสมบัติในตัวคือคุณสมบัติเมตาข้อมูลที่กำหนดไว้ล่วงหน้าโดย Microsoft Word ซึ่งรวมถึงชื่อเรื่อง ผู้แต่ง และอื่นๆ
 
-1.  เข้าถึงคุณสมบัติในตัว: ใช้`BuiltInDocumentProperties` ของสะสม.
+1. เข้าถึงคุณสมบัติในตัว: ใช้ `BuiltInDocumentProperties` ของสะสม.
 2. วนซ้ำผ่านคุณสมบัติ: วนซ้ำผ่านคุณสมบัติและแสดงชื่อและค่าของมัน
 
 นี่คือโค้ด:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 คุณสมบัติที่กำหนดเองคือคุณสมบัติเมตาข้อมูลที่กำหนดโดยผู้ใช้ ซึ่งอาจเป็นอะไรก็ได้ที่คุณต้องการเพิ่มลงในเอกสารของคุณ
 
-1.  เข้าถึงคุณสมบัติที่กำหนดเอง: ใช้`CustomDocumentProperties` ของสะสม.
+1. เข้าถึงคุณสมบัติที่กำหนดเอง: ใช้ `CustomDocumentProperties` ของสะสม.
 2. วนซ้ำผ่านคุณสมบัติ: วนซ้ำผ่านคุณสมบัติและแสดงชื่อและค่าของมัน
 
 นี่คือโค้ด:
@@ -106,23 +108,28 @@ foreach (DocumentProperty prop in doc.CustomDocumentProperties)
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถเพิ่มคุณสมบัติใหม่ให้กับเอกสารได้หรือไม่
- ใช่ คุณสามารถเพิ่มคุณสมบัติที่กำหนดเองใหม่ได้โดยใช้`CustomDocumentProperties` ของสะสม.
+ใช่ คุณสามารถเพิ่มคุณสมบัติที่กำหนดเองใหม่ได้โดยใช้ `CustomDocumentProperties` ของสะสม.
 
 ### Aspose.Words ใช้ได้ฟรีไหม?
- Aspose.Words เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) และแตกต่างกัน[ตัวเลือกการซื้อ](https://purchase.aspose.com/buy).
+Aspose.Words เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) และแตกต่างกัน [ตัวเลือกการซื้อ](https://purchase-aspose.com/buy).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถใช้ Aspose.Words กับภาษา .NET อื่นๆ ได้หรือไม่
 ใช่ Aspose.Words รองรับภาษา .NET หลายภาษา รวมถึง VB.NET
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและข้อมูลโดยละเอียด
+ตรวจสอบออก [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและข้อมูลโดยละเอียด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

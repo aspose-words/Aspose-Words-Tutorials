@@ -1,14 +1,16 @@
 ---
-title: ลดขนาด PDF ด้วยแบบอักษร Wmf Scale ให้เป็นขนาด Metafile
-linktitle: ลดขนาด PDF ด้วยแบบอักษร Wmf Scale ให้เป็นขนาด Metafile
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: คู่มือทีละขั้นตอนในการลดขนาดไฟล์ PDF โดยใช้ฟอนต์ wmf มาตราส่วนเป็นขนาดเมตาไฟล์เมื่อแปลงเป็น PDF ด้วย Aspose.Words สำหรับ .NET
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
+"description": "คู่มือทีละขั้นตอนในการลดขนาดไฟล์ PDF โดยใช้ฟอนต์ wmf มาตราส่วนเป็นขนาดเมตาไฟล์เมื่อแปลงเป็น PDF ด้วย Aspose.Words สำหรับ .NET"
+"linktitle": "ลดขนาด PDF ด้วยแบบอักษร Wmf Scale ให้เป็นขนาด Metafile"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลดขนาด PDF ด้วยแบบอักษร Wmf Scale ให้เป็นขนาด Metafile"
+"url": "/th/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลดขนาด PDF ด้วยแบบอักษร Wmf Scale ให้เป็นขนาด Metafile
@@ -21,7 +23,7 @@ url: /th/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
 
 ก่อนที่จะดำเนินการตามขั้นตอนต่างๆ โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: บทช่วยสอนนี้ถือว่าคุณมีการตั้งค่าสภาพแวดล้อมการพัฒนา .NET (เช่น Visual Studio) ซึ่งคุณสามารถเขียนและดำเนินการโค้ด C# ได้
 3. ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม .NET: ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม .NET ขั้นพื้นฐานและรูปแบบ C# จะเป็นประโยชน์
 4. เอกสาร Word ที่มีกราฟิก WMF: คุณจะต้องมีเอกสาร Word ที่มีกราฟิก WMF คุณสามารถใช้เอกสารของคุณเองหรือสร้างเอกสารขึ้นมาเพื่อการทดสอบก็ได้
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร Word
 
- ในการเริ่มต้น ให้โหลดเอกสาร Word ที่มีกราฟิก WMF ซึ่งทำได้โดยใช้`Document` คลาสจาก Aspose.Words
+ในการเริ่มต้น ให้โหลดเอกสาร Word ที่มีกราฟิก WMF ซึ่งทำได้โดยใช้ `Document` คลาสจาก Aspose.Words
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "WMF with text.docx");
 ```
 
- ที่นี่,`dataDir` เป็นตัวแทนสำหรับเส้นทางไดเรกทอรีเอกสารของคุณ เราสร้างอินสแตนซ์ของ`Document` คลาสนี้จะส่งเส้นทางไปยังไฟล์ Word ซึ่งจะโหลดเอกสารเข้าสู่หน่วยความจำเพื่อเตรียมพร้อมสำหรับการประมวลผลเพิ่มเติม
+ที่นี่, `dataDir` เป็นตัวแทนสำหรับเส้นทางไดเรกทอรีเอกสารของคุณ เราสร้างอินสแตนซ์ของ `Document` คลาสนี้จะส่งเส้นทางไปยังไฟล์ Word ซึ่งจะโหลดเอกสารเข้าสู่หน่วยความจำเพื่อเตรียมพร้อมสำหรับการประมวลผลเพิ่มเติม
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการเรนเดอร์ Metafile
 
- ขั้นต่อไป คุณต้องกำหนดค่าตัวเลือกการเรนเดอร์เมตาไฟล์ โดยเฉพาะอย่างยิ่ง ให้ตั้งค่า`ScaleWmfFontsToMetafileSize`ทรัพย์สินที่จะ`false`การดำเนินการนี้จะควบคุมว่าฟอนต์ WMF จะถูกปรับขนาดให้ตรงกับขนาดเมตาไฟล์หรือไม่
+ขั้นต่อไป คุณต้องกำหนดค่าตัวเลือกการเรนเดอร์เมตาไฟล์ โดยเฉพาะอย่างยิ่ง ให้ตั้งค่า `ScaleWmfFontsToMetafileSize` ทรัพย์สินที่จะ `false`การดำเนินการนี้จะควบคุมว่าฟอนต์ WMF จะถูกปรับขนาดให้ตรงกับขนาดเมตาไฟล์หรือไม่
 
 ```csharp
 // สร้างอินสแตนซ์ใหม่ของ MetafileRenderingOptions
@@ -61,7 +63,7 @@ MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions
 };
 ```
 
- การ`MetafileRenderingOptions` คลาสนี้มีตัวเลือกสำหรับวิธีการเรนเดอร์เมตาไฟล์ (เช่น WMF) โดยการตั้งค่า`ScaleWmfFontsToMetafileSize` ถึง`false`คุณกำลังสั่ง Aspose.Words ไม่ให้ปรับขนาดฟอนต์ตามขนาดเมตาไฟล์ ซึ่งจะช่วยลดขนาด PDF โดยรวมได้
+การ `MetafileRenderingOptions` คลาสนี้มีตัวเลือกสำหรับวิธีการเรนเดอร์เมตาไฟล์ (เช่น WMF) โดยการตั้งค่า `ScaleWmfFontsToMetafileSize` ถึง `false`คุณกำลังสั่ง Aspose.Words ไม่ให้ปรับขนาดฟอนต์ตามขนาดเมตาไฟล์ ซึ่งจะช่วยลดขนาด PDF โดยรวมได้
 
 ## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการบันทึก PDF
 
@@ -75,7 +77,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- การ`PdfSaveOptions` คลาสนี้ช่วยให้คุณระบุการตั้งค่าต่างๆ สำหรับการบันทึกเอกสารเป็น PDF โดยกำหนดค่าที่กำหนดค่าไว้ก่อนหน้านี้`MetafileRenderingOptions` ไปที่`MetafileRenderingOptions` ทรัพย์สินของ`PdfSaveOptions`คุณแน่ใจว่าเอกสารได้รับการบันทึกตามการตั้งค่าการเรนเดอร์เมตาไฟล์ที่คุณต้องการ
+การ `PdfSaveOptions` คลาสนี้ช่วยให้คุณระบุการตั้งค่าต่างๆ สำหรับการบันทึกเอกสารเป็น PDF โดยกำหนดค่าที่กำหนดค่าไว้ก่อนหน้านี้ `MetafileRenderingOptions` ไปที่ `MetafileRenderingOptions` ทรัพย์สินของ `PdfSaveOptions`คุณแน่ใจว่าเอกสารได้รับการบันทึกตามการตั้งค่าการเรนเดอร์เมตาไฟล์ที่คุณต้องการ
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็น PDF
 
@@ -87,7 +89,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ScaleWmfFontsToMetafileSize.pdf", saveOptions);
 ```
 
- ในขั้นตอนนี้`Save` วิธีการของ`Document` คลาสนี้ใช้เพื่อส่งออกเอกสารไปยังไฟล์ PDF โดยจะระบุเส้นทางที่จะบันทึกไฟล์ PDF ไว้ด้วย`PdfSaveOptions` ซึ่งรวมถึงการตั้งค่าการเรนเดอร์เมตาไฟล์
+ในขั้นตอนนี้ `Save` วิธีการของ `Document` คลาสนี้ใช้เพื่อส่งออกเอกสารไปยังไฟล์ PDF โดยจะระบุเส้นทางที่จะบันทึกไฟล์ PDF ไว้ด้วย `PdfSaveOptions` ซึ่งรวมถึงการตั้งค่าการเรนเดอร์เมตาไฟล์ด้วย
 
 ## บทสรุป
 
@@ -113,10 +115,15 @@ WMF (Windows Metafile) เป็นรูปแบบกราฟิกที่
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words ได้จากที่ไหน
 
- คุณสามารถสำรวจเพิ่มเติมเกี่ยวกับ Aspose.Words ได้ใน[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) สำหรับการดาวน์โหลด ทดลองใช้งาน และการสนับสนุน โปรดไปที่[หน้าดาวน์โหลด Aspose.Words](https://releases.aspose.com/words/net/), [ซื้อ Aspose.Words](https://purchase.aspose.com/buy), [ทดลองใช้งานฟรี](https://releases.aspose.com/), [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) , และ[สนับสนุน](https://forum.aspose.com/c/words/8).
+คุณสามารถสำรวจเพิ่มเติมเกี่ยวกับ Aspose.Words ได้ใน [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/)สำหรับการดาวน์โหลด ทดลองใช้งาน และการสนับสนุน โปรดไปที่ [หน้าดาวน์โหลด Aspose.Words](https://releases.aspose.com/words/net/)- [ซื้อ Aspose.Words](https://purchase.aspose.com/buy)- [ทดลองใช้งานฟรี](https://releases.aspose.com/)- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/), และ [สนับสนุน](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

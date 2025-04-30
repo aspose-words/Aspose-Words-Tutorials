@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/access-revised-version/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Revised Version
@@ -143,9 +146,13 @@ Aspose.Words for .NET is compatible with a wide range of .NET versions. You can 
 ### Where can I get support for Aspose.Words for .NET?
 You can get support from the Aspose community on their [forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

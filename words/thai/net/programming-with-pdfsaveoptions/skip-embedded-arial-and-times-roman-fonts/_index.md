@@ -1,14 +1,16 @@
 ---
-title: ปรับขนาด PDF ให้เหมาะสมด้วยการข้ามแบบอักษร Arial และ Times Roman ที่ฝังไว้
-linktitle: ปรับขนาด PDF ให้เหมาะสมด้วยการข้ามแบบอักษร Arial และ Times Roman ที่ฝังไว้
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ปรับขนาดไฟล์ PDF ให้เหมาะสมโดยข้ามฟอนต์ Arial และ Times Roman ที่ฝังไว้โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับไฟล์ PDF ของคุณให้เหมาะสม
-weight: 10
-url: /th/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "ปรับขนาดไฟล์ PDF ให้เหมาะสมโดยข้ามฟอนต์ Arial และ Times Roman ที่ฝังไว้โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับไฟล์ PDF ของคุณให้เหมาะสม"
+"linktitle": "ปรับขนาด PDF ให้เหมาะสมด้วยการข้ามแบบอักษร Arial และ Times Roman ที่ฝังไว้"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ปรับขนาด PDF ให้เหมาะสมด้วยการข้ามแบบอักษร Arial และ Times Roman ที่ฝังไว้"
+"url": "/th/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับขนาด PDF ให้เหมาะสมด้วยการข้ามแบบอักษร Arial และ Times Roman ที่ฝังไว้
@@ -20,7 +22,7 @@ url: /th/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเข้าสู่รายละเอียด มีบางสิ่งที่คุณต้องมี:
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: จะช่วยให้คุณติดตามชิ้นส่วนโค้ดได้
 - เอกสาร Word: เราจะใช้เอกสารตัวอย่างเพื่อสาธิตกระบวนการ 
 
@@ -33,7 +35,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-เอาล่ะ มาแยกกระบวนการเป็นขั้นตอนกัน
+เอาล่ะ มาแยกขั้นตอนกันทีละขั้นตอนดีกว่า
 
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อมของคุณ
 
@@ -48,11 +50,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- ในสคริปท์นี้ ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
+ในสคริปท์นี้ ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก PDF
 
-ตอนนี้ เราต้องกำหนดค่าตัวเลือกการบันทึก PDF เพื่อควบคุมวิธีการฝังฟอนต์ ตามค่าเริ่มต้น ฟอนต์ทั้งหมดจะถูกฝังไว้ ซึ่งอาจเพิ่มขนาดไฟล์ได้ เราจะเปลี่ยนการตั้งค่านี้
+ตอนนี้เราต้องกำหนดค่าตัวเลือกการบันทึก PDF เพื่อควบคุมวิธีการฝังฟอนต์ ตามค่าเริ่มต้น ฟอนต์ทั้งหมดจะถูกฝังไว้ ซึ่งอาจเพิ่มขนาดไฟล์ได้ เราจะเปลี่ยนการตั้งค่านี้
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -87,13 +89,18 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.SkipEmbeddedArialAndTimesRomanFont
 ใช่ คุณสามารถกำหนดค่าตัวเลือกการบันทึกเพื่อข้ามการฝังแบบอักษรอื่น ๆ หากจำเป็น
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words สำหรับ .NET เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/) แต่หากต้องการเข้าถึงแบบเต็มรูปแบบ คุณต้องซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words สำหรับ .NET เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)แต่หากต้องการเข้าถึงแบบเต็มรูปแบบ คุณจำเป็นต้องซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถหาบทช่วยสอนเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
-คุณสามารถค้นหาเอกสารและบทช่วยสอนที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารและบทช่วยสอนที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

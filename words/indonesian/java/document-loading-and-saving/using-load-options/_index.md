@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Opsi Muat di Aspose.Words untuk Java
-linktitle: Menggunakan Opsi Muat
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Menguasai Opsi Pemuatan di Aspose.Words untuk Java. Menyesuaikan pemuatan dokumen, menangani enkripsi, mengonversi bentuk, mengatur versi Word, dan banyak lagi untuk pemrosesan dokumen Java yang efisien.
-weight: 11
-url: /id/java/document-loading-and-saving/using-load-options/
+"description": "Menguasai Opsi Pemuatan di Aspose.Words untuk Java. Menyesuaikan pemuatan dokumen, menangani enkripsi, mengonversi bentuk, mengatur versi Word, dan banyak lagi untuk pemrosesan dokumen Java yang efisien."
+"linktitle": "Menggunakan Opsi Muat"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Opsi Muat di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Opsi Muat di Aspose.Words untuk Java
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- Potongan kode ini menunjukkan cara memperbarui kolom kosong dalam dokumen.`setUpdateDirtyFields(true)` metode ini digunakan untuk memastikan bahwa bidang kotor diperbarui selama pemuatan dokumen.
+Potongan kode ini menunjukkan cara memperbarui kolom kosong dalam dokumen. `setUpdateDirtyFields(true)` metode ini digunakan untuk memastikan bahwa bidang kotor diperbarui selama pemuatan dokumen.
 
 ## Muat Dokumen Terenkripsi
 
@@ -40,7 +42,7 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- Di sini, kami memuat dokumen terenkripsi menggunakan kata sandi.`LoadOptions` konstruktor menerima kata sandi dokumen, dan Anda juga dapat menentukan kata sandi baru saat menyimpan dokumen menggunakan`OdtSaveOptions`.
+Di sini, kami memuat dokumen terenkripsi menggunakan kata sandi. `LoadOptions` konstruktor menerima kata sandi dokumen, dan Anda juga dapat menentukan kata sandi baru saat menyimpan dokumen menggunakan `OdtSaveOptions`.
 
 ## Ubah Bentuk ke Matematika Kantor
 
@@ -52,7 +54,7 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- Kode ini menunjukkan cara mengonversi bentuk ke objek Office Math selama pemuatan dokumen.`setConvertShapeToOfficeMath(true)`metode ini memungkinkan konversi ini.
+Kode ini menunjukkan cara mengonversi bentuk ke objek Office Math selama pemuatan dokumen. `setConvertShapeToOfficeMath(true)` metode ini memungkinkan konversi ini.
 
 ## Atur Versi MS Word
 
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- Anda dapat menentukan versi MS Word untuk memuat dokumen. Dalam contoh ini, kami menetapkan versi ke Microsoft Word 2010 menggunakan`setMswVersion`.
+Anda dapat menentukan versi MS Word untuk memuat dokumen. Dalam contoh ini, kami menetapkan versi ke Microsoft Word 2010 menggunakan `setMswVersion`.
 
 ## Gunakan Folder Sementara
 
@@ -81,7 +83,7 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- Dengan mengatur folder sementara menggunakan`setTempFolder`, Anda dapat mengontrol tempat penyimpanan file sementara selama pemrosesan dokumen.
+Dengan mengatur folder sementara menggunakan `setTempFolder`, Anda dapat mengontrol tempat penyimpanan file sementara selama pemrosesan dokumen.
 
 ## Peringatan Panggilan Balik
 
@@ -117,7 +119,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- Untuk mengonversi metafile (misalnya, WMF) ke gambar PNG selama pemuatan dokumen, Anda dapat menggunakan`setConvertMetafilesToPng(true)` metode.
+Untuk mengonversi metafile (misalnya, WMF) ke gambar PNG selama pemuatan dokumen, Anda dapat menggunakan `setConvertMetafilesToPng(true)` metode.
 
 ## Kode Sumber Lengkap Untuk Bekerja dengan Opsi Muat di Aspose.Words untuk Java
 
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//Mencetak peringatan dan rinciannya saat muncul selama pemuatan dokumen.
+		// Mencetak peringatan dan rinciannya saat muncul selama pemuatan dokumen.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,28 +200,33 @@ public void loadChm() throws Exception {
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah mempelajari berbagai aspek tentang cara kerja Opsi Pemuatan di Aspose.Words untuk Java. Opsi Pemuatan memainkan peran penting dalam menyesuaikan cara dokumen dimuat dan diproses, yang memungkinkan Anda menyesuaikan pemrosesan dokumen dengan kebutuhan spesifik Anda. Mari kita rangkum poin-poin utama yang dibahas dalam panduan ini:
+Dalam tutorial ini, kami telah mempelajari berbagai aspek tentang cara kerja Opsi Pemuatan di Aspose.Words untuk Java. Opsi Pemuatan memainkan peran penting dalam menyesuaikan cara dokumen dimuat dan diproses, sehingga Anda dapat menyesuaikan pemrosesan dokumen dengan kebutuhan spesifik Anda. Mari kita rangkum poin-poin utama yang dibahas dalam panduan ini:
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana saya dapat menangani peringatan selama pemuatan dokumen?
 
- Anda dapat mengatur panggilan balik peringatan seperti yang ditunjukkan di`warningCallback()` metode di atas. Sesuaikan`DocumentLoadingWarningCallback` kelas untuk menangani peringatan sesuai dengan persyaratan aplikasi Anda.
+Anda dapat mengatur panggilan balik peringatan seperti yang ditunjukkan di `warningCallback()` metode di atas. Sesuaikan `DocumentLoadingWarningCallback` kelas untuk menangani peringatan sesuai dengan persyaratan aplikasi Anda.
 
 ### Bisakah saya mengubah bentuk menjadi objek Office Math saat memuat dokumen?
 
- Ya, Anda dapat mengubah bentuk menjadi objek Office Math dengan menggunakan`loadOptions.setConvertShapeToOfficeMath(true)`.
+Ya, Anda dapat mengubah bentuk menjadi objek Office Math dengan menggunakan `loadOptions.setConvertShapeToOfficeMath(true)`.
 
 ### Bagaimana cara menentukan versi MS Word untuk memuat dokumen?
 
- Menggunakan`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` untuk menentukan versi MS Word untuk pemuatan dokumen.
+Menggunakan `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` untuk menentukan versi MS Word untuk pemuatan dokumen.
 
-###  Apa tujuan dari`setTempFolder` method in Load Options?
+### Apa tujuan dari `setTempFolder` metode di Opsi Muat?
 
- Itu`setTempFolder`Metode ini memungkinkan Anda menentukan folder tempat file sementara disimpan selama pemrosesan dokumen.
+Itu `setTempFolder` Metode ini memungkinkan Anda menentukan folder tempat file sementara disimpan selama pemrosesan dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: ย้ายไปที่คั่นหน้าสิ้นสุดในเอกสาร Word
-linktitle: ย้ายไปที่คั่นหน้าสิ้นสุดในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการย้ายไปยังตำแหน่งบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อการจัดการเอกสารอย่างแม่นยำ
-weight: 10
-url: /th/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "เรียนรู้วิธีการย้ายไปยังตำแหน่งบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อการจัดการเอกสารอย่างแม่นยำ"
+"linktitle": "ย้ายไปที่คั่นหน้าสิ้นสุดในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ย้ายไปที่คั่นหน้าสิ้นสุดในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย้ายไปที่คั่นหน้าสิ้นสุดในเอกสาร Word
@@ -21,9 +23,9 @@ url: /th/net/add-content-using-documentbuilder/move-to-bookmark-end/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
 
--  Visual Studio: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/).
--  Aspose.Words สำหรับ .NET: รับมันจาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/words/net/).
--  ใบอนุญาต Aspose.Words ที่ถูกต้อง: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
+- Visual Studio: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://visualstudio-microsoft.com/).
+- Aspose.Words สำหรับ .NET: รับมันจาก [ลิงค์ดาวน์โหลด](https://releases-aspose.com/words/net/).
+- ใบอนุญาต Aspose.Words ที่ถูกต้อง: คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
 
 และแน่นอนว่าความรู้พื้นฐานเกี่ยวกับ C# และ .NET จะเป็นประโยชน์มาก
 
@@ -45,11 +47,11 @@ using Aspose.Words.Saving;
 
 ### สร้างโครงการใหม่
 
- เปิด Visual Studio และสร้างโปรเจ็กต์ C# Console App ใหม่ ตั้งชื่อเป็นดังนี้`BookmarkEndExample`นี่จะเป็นสนามเด็กเล่นของเราสำหรับบทช่วยสอนนี้
+เปิด Visual Studio และสร้างโปรเจ็กต์ C# Console App ใหม่ ตั้งชื่อเป็นดังนี้ `BookmarkEndExample`นี่จะเป็นสนามเด็กเล่นของเราสำหรับบทช่วยสอนนี้
 
 ### ติดตั้ง Aspose.Words สำหรับ .NET
 
- ขั้นต่อไป คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet เพียงค้นหา`Aspose.Words` และกดติดตั้ง หรือใช้คอนโซลตัวจัดการแพ็กเกจ:
+ขั้นต่อไป คุณต้องติดตั้ง Aspose.Words สำหรับ .NET คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet เพียงค้นหา `Aspose.Words` และกดติดตั้ง หรือใช้คอนโซลตัวจัดการแพ็กเกจ:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,11 +76,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- อย่าลืมเปลี่ยน`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่เอกสารของคุณถูกบันทึก
+อย่าลืมเปลี่ยน `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่เอกสารของคุณถูกบันทึก
 
 ## ขั้นตอนที่ 3: เริ่มต้น DocumentBuilder
 
-DocumentBuilder คือไม้กายสิทธิ์สำหรับจัดการเอกสาร Word มาสร้างอินสแตนซ์กัน:
+DocumentBuilder คือไม้กายสิทธิ์ในการจัดการเอกสาร Word มาสร้างอินสแตนซ์กัน:
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### ทำความเข้าใจ MoveToBookmark
 
- การ`MoveToBookmark`วิธีการนี้ช่วยให้คุณสามารถนำทางไปยังบุ๊กมาร์กที่ต้องการภายในเอกสารของคุณได้ ลายเซ็นของวิธีการคือ:
+การ `MoveToBookmark` วิธีการนี้ช่วยให้คุณสามารถนำทางไปยังบุ๊กมาร์กที่ต้องการภายในเอกสารของคุณได้ ลายเซ็นของวิธีการคือ:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: ชื่อของบุ๊กมาร์กที่คุณต้องการนำทางไป
-- `isBookmarkStart` : หากตั้งค่าเป็น`true`, ย้ายไปที่จุดเริ่มต้นของบุ๊กมาร์ก
-- `isBookmarkEnd` : หากตั้งค่าเป็น`true`, ย้ายไปที่จุดสิ้นสุดของบุ๊กมาร์ก
+- `isBookmarkStart`: หากตั้งค่าเป็น `true`, ย้ายไปที่จุดเริ่มต้นของบุ๊กมาร์ก
+- `isBookmarkEnd`: หากตั้งค่าเป็น `true`, ย้ายไปที่จุดสิ้นสุดของบุ๊กมาร์ก
 
 ### การใช้งาน MoveToBookmark
 
- ต่อไปมาดูตอนจบของบุ๊กมาร์กกันบ้าง`MyBookmark1`-
+ต่อไปมาดูตอนจบของบุ๊กมาร์กกันบ้าง `MyBookmark1`-
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -126,7 +128,7 @@ builder.Writeln("This is a bookmark.");
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- ตอนนี้คุณสามารถเปิดเอกสารที่อัปเดตและดูข้อความ "นี่คือบุ๊กมาร์ก" ได้ทันทีหลังจากนั้น`MyBookmark1`.
+ตอนนี้คุณสามารถเปิดเอกสารที่อัปเดตและดูข้อความ "นี่คือบุ๊กมาร์ก" ได้ทันทีหลังจากนั้น `MyBookmark1`-
 
 ## บทสรุป
 
@@ -136,27 +138,32 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 
 ### 1. ฉันสามารถย้ายไปยังจุดเริ่มต้นของบุ๊กมาร์กแทนที่จะเป็นจุดสิ้นสุดได้หรือไม่
 
- แน่นอน! เพียงตั้งค่า`isBookmarkStart` พารามิเตอร์ถึง`true` และ`isBookmarkEnd` ถึง`false` ใน`MoveToBookmark` วิธี.
+แน่นอน! เพียงตั้งค่า `isBookmarkStart` พารามิเตอร์ถึง `true` และ `isBookmarkEnd` ถึง `false` ใน `MoveToBookmark` วิธี.
 
 ### 2. จะเกิดอะไรขึ้นหากชื่อบุ๊กมาร์กของฉันไม่ถูกต้อง?
 
- หากชื่อบุ๊กมาร์กไม่ถูกต้องหรือไม่มีอยู่`MoveToBookmark` วิธีการจะกลับคืน`false`และ DocumentBuilder จะไม่ย้ายไปยังตำแหน่งใดๆ
+หากชื่อบุ๊กมาร์กไม่ถูกต้องหรือไม่มีอยู่ `MoveToBookmark` วิธีการจะกลับคืน `false`และ DocumentBuilder จะไม่ย้ายไปยังตำแหน่งใดๆ
 
 ### 3. ฉันสามารถแทรกเนื้อหาประเภทอื่น ๆ ไว้ที่ส่วนท้ายของบุ๊กมาร์กได้หรือไม่
 
- ใช่ DocumentBuilder ช่วยให้คุณแทรกเนื้อหาประเภทต่างๆ เช่น ตาราง รูปภาพ และอื่นๆ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+ใช่ DocumentBuilder ช่วยให้คุณแทรกเนื้อหาประเภทต่างๆ เช่น ตาราง รูปภาพ และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
 
 ### 4. ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words ได้อย่างไร
 
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[เว็บไซต์อาโพส](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [เว็บไซต์อาโพส](https://purchase-aspose.com/temporary-license/).
 
 ### 5. Aspose.Words สำหรับ .NET ฟรีหรือไม่?
 
-Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถทดลองใช้งานฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถทดลองใช้งานฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

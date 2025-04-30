@@ -1,14 +1,16 @@
 ---
-title: Kontrol Konten Kotak Teks Kaya
-linktitle: Kontrol Konten Kotak Teks Kaya
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan dan menyesuaikan Kontrol Konten Kotak Teks Kaya dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-sdt/rich-text-box-content-control/
+"description": "Pelajari cara menambahkan dan menyesuaikan Kontrol Konten Kotak Teks Kaya dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Kontrol Konten Kotak Teks Kaya"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kontrol Konten Kotak Teks Kaya"
+"url": "/id/net/programming-with-sdt/rich-text-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Konten Kotak Teks Kaya
@@ -21,7 +23,7 @@ Dalam dunia pemrosesan dokumen, kemampuan untuk menambahkan elemen interaktif ke
 
 Sebelum memulai tutorial, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Lingkungan pengembangan seperti Visual Studio akan membantu Anda menulis dan mengeksekusi kode.
 
@@ -50,11 +52,11 @@ Pertama, tentukan jalur penyimpanan dokumen Anda. Di sinilah berkas yang dihasil
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen Anda.
 
 ## Langkah 2: Buat Dokumen Baru
 
- Buat yang baru`Document` objek, yang akan berfungsi sebagai fondasi untuk dokumen Word Anda.
+Buat yang baru `Document` objek, yang akan berfungsi sebagai fondasi untuk dokumen Word Anda.
 
 ```csharp
 Document doc = new Document();
@@ -64,17 +66,17 @@ Ini menginisialisasi dokumen Word kosong tempat Anda akan menambahkan konten.
 
 ## Langkah 3: Buat Tag Dokumen Terstruktur untuk Rich Text
 
- Untuk menambahkan Kotak Teks Kaya, Anda perlu membuat`StructuredDocumentTag` (SDT) bertipe`RichText`.
+Untuk menambahkan Kotak Teks Kaya, Anda perlu membuat `StructuredDocumentTag` (SDT) bertipe `RichText`.
 
 ```csharp
 StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 ```
 
- Di Sini,`SdtType.RichText` menentukan bahwa SDT akan menjadi Kotak Teks Kaya, dan`MarkupLevel.Block` mendefinisikan perilakunya dalam dokumen.
+Di Sini, `SdtType.RichText` menentukan bahwa SDT akan menjadi Kotak Teks Kaya, dan `MarkupLevel.Block` mendefinisikan perilakunya dalam dokumen.
 
 ## Langkah 4: Tambahkan Konten ke Kotak Teks Kaya
 
- Membuat sebuah`Paragraph` dan sebuah`Run` objek untuk menampung konten yang ingin Anda tampilkan di Rich Text Box. Sesuaikan teks dan format sesuai kebutuhan.
+Membuat sebuah `Paragraph` dan sebuah `Run` objek untuk menampung konten yang ingin Anda tampilkan di Rich Text Box. Sesuaikan teks dan format sesuai kebutuhan.
 
 ```csharp
 Paragraph para = new Paragraph(doc);
@@ -89,7 +91,7 @@ Dalam contoh ini, kami menambahkan paragraf yang berisi teks "Halo Dunia" dengan
 
 ## Langkah 5: Tambahkan Kotak Teks Kaya ke Dokumen
 
- Tambahkan`StructuredDocumentTag` ke badan dokumen.
+Tambahkan `StructuredDocumentTag` ke badan dokumen.
 
 ```csharp
 doc.FirstSection.Body.AppendChild(sdtRichText);
@@ -117,20 +119,25 @@ Menambahkan Kontrol Konten Rich Text Box menggunakan Aspose.Words untuk .NET ada
 Tag Dokumen Terstruktur (SDT) adalah jenis kontrol konten dalam dokumen Word yang digunakan untuk menambahkan elemen interaktif seperti kotak teks dan daftar drop-down.
 
 ### Bisakah saya menyesuaikan tampilan Kotak Teks Kaya?
- Ya, Anda dapat menyesuaikan tampilan dengan memodifikasi properti`Run`objek, seperti warna, ukuran, dan gaya font.
+Ya, Anda dapat menyesuaikan tampilan dengan memodifikasi properti `Run` objek, seperti warna, ukuran, dan gaya font.
 
 ### Jenis SDT apa lagi yang dapat saya gunakan dengan Aspose.Words?
 Selain Rich Text, Aspose.Words mendukung jenis SDT lainnya seperti Teks Biasa, Pemilih Tanggal, dan Daftar Drop-Down.
 
 ### Bagaimana cara menambahkan beberapa Kotak Teks Kaya ke sebuah dokumen?
- Anda dapat membuat beberapa`StructuredDocumentTag` contoh dan menambahkannya secara berurutan ke badan dokumen.
+Anda dapat membuat beberapa `StructuredDocumentTag` contoh dan menambahkannya secara berurutan ke badan dokumen.
 
 ### Dapatkah saya menggunakan Aspose.Words untuk memodifikasi dokumen yang ada?
 Ya, Aspose.Words memungkinkan Anda untuk membuka, memodifikasi, dan menyimpan dokumen Word yang ada, termasuk menambahkan atau memperbarui SDT.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

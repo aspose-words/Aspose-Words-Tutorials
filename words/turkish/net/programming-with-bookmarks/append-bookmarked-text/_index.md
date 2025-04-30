@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde İşaretli Metni Ekle
-linktitle: Word Belgesinde İşaretli Metni Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine yer imli metin eklemeyi öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine yer imli metin eklemeyi öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Word Belgesinde İşaretli Metni Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde İşaretli Metni Ekle"
+"url": "/tr/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde İşaretli Metni Ekle
@@ -21,7 +23,7 @@ Merhaba! Hiç Word belgesinde yer imlerine eklenmiş bir bölümden metin ekleme
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: Yüklü olduğundan emin olun. Değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Yüklü olduğundan emin olun. Değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET geliştirme ortamı.
 - Temel C# Bilgisi: Temel C# programlama kavramlarını anlamak faydalı olacaktır.
 - Yer İşaretleri Olan Word Belgesi: Metin eklemek için kullanacağımız, yer işaretleri olan bir Word belgesi.
@@ -121,16 +123,21 @@ Evet, her bir yer imi için işlemi tekrarlayabilir ve metni buna göre ekleyebi
 Mevcut örnek, aynı ebeveyne sahip olduklarını varsayar. Farklı ebeveynler için daha karmaşık bir işleme ihtiyaç vardır.
 
 ### Eklenen metnin orijinal biçimini koruyabilir miyim?
- Kesinlikle!`ImportFormatMode.KeepSourceFormatting` orijinal biçimlendirmenin korunmasını sağlar.
+Kesinlikle! `ImportFormatMode.KeepSourceFormatting` orijinal biçimlendirmenin korunmasını sağlar.
 
 ### Hedef belgede belirli bir konuma metin eklemek mümkün müdür?
 Evet, hedef belgedeki istediğiniz düğüme giderek metni herhangi bir konuma ekleyebilirsiniz.
 
 ### Yer imlerinden yeni bir bölüme metin eklemem gerekirse ne olur?
 Hedef belgede yeni bir bölüm oluşturabilir ve metni oraya ekleyebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

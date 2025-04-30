@@ -1,14 +1,16 @@
 ---
-title: Aturan Horisontal
-linktitle: Aturan Horisontal
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan garis horizontal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci ini, langkah demi langkah untuk menyempurnakan tata letak dokumen Anda.
-weight: 10
-url: /id/net/working-with-markdown/horizontal-rule/
+"description": "Pelajari cara menambahkan garis horizontal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci langkah demi langkah ini untuk menyempurnakan tata letak dokumen Anda."
+"linktitle": "Aturan Horisontal"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Aturan Horisontal"
+"url": "/id/net/working-with-markdown/horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aturan Horisontal
@@ -21,7 +23,7 @@ Pernahkah Anda ingin menambahkan sentuhan profesionalisme ke dokumen Word Anda? 
 
 Sebelum kita masuk ke panduan langkah demi langkah, mari pastikan Anda memiliki semua yang Anda butuhkan.
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan .NET yang sudah disiapkan di komputer Anda. Visual Studio adalah pilihan yang tepat.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C# dan .NET.
 
@@ -73,13 +75,18 @@ Ya, Aspose.Words memungkinkan Anda menyesuaikan gaya, lebar, tinggi, dan perataa
 Anda memerlukan lingkungan pengembangan .NET seperti Visual Studio dan salinan Aspose.Words untuk .NET.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words untuk .NET adalah produk berbayar, tetapi Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.Words untuk .NET adalah produk berbayar, tetapi Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

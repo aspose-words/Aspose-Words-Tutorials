@@ -1,14 +1,16 @@
 ---
-title: SDT'yi Özel Xml Parçasına Bağla
-linktitle: SDT'yi Özel Xml Parçasına Bağla
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki Özel XML Parçalarına Yapılandırılmış Belge Etiketlerini (SDT'ler) nasıl bağlayacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki Özel XML Parçalarına Yapılandırılmış Belge Etiketlerini (SDT'ler) nasıl bağlayacağınızı öğrenin."
+"linktitle": "SDT'yi Özel Xml Parçasına Bağla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "SDT'yi Özel Xml Parçasına Bağla"
+"url": "/tr/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SDT'yi Özel Xml Parçasına Bağla
@@ -21,7 +23,7 @@ url: /tr/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET: En son sürümü şu adresten indirebilirsiniz:[Aspose.Words for .NET sürümleri](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümü şu adresten indirebilirsiniz: [Aspose.Words for .NET sürümleri](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu .NET IDE.
 - C# Temel Anlayışı: C# programlama dili ve .NET framework'üne aşinalık.
 
@@ -68,7 +70,7 @@ Burada, benzersiz bir tanımlayıcıya sahip yeni bir Özel XML Parçası oluşt
 Özel XML Parçasını ekledikten sonra XML verilerini görüntülemek için bir SDT oluşturuyoruz.
 
 ```csharp
-//Yapılandırılmış Belge Etiketi (SDT) Oluşturun
+// Yapılandırılmış Belge Etiketi (SDT) Oluşturun
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ PlainText türünde bir SDT oluşturuyoruz ve bunu belge gövdesinin ilk bölüm
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- Bu adım SDT'yi şu şekilde eşler:`<text>` içindeki öğe`<root>` Özel XML Parçamızın düğümü.
+Bu adım SDT'yi şu şekilde eşler: `<text>` içindeki öğe `<root>` Özel XML Parçamızın düğümü.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -95,7 +97,7 @@ Son olarak belgeyi belirtilen dizine kaydediyoruz.
 doc.Save(dataDir + "WorkingWithSdt.BindSDTtoCustomXmlPart.doc");
 ```
 
-Bu komut, bağlı SDT ile belgeyi belirlediğiniz dizine kaydeder.
+Bu komut, bağlı SDT'yi içeren belgeyi belirlediğiniz dizine kaydeder.
 
 ## Çözüm
 
@@ -110,16 +112,21 @@ Yapılandırılmış Belge Etiketi (SDT), Word belgelerinde dinamik verileri ba�
 Evet, aynı belgedeki farklı XML parçalarına birden fazla SDT bağlayabilir, böylece karmaşık veri odaklı şablonlara olanak sağlayabilirsiniz.
 
 ### Özel XML Bölümündeki XML verilerini nasıl güncellerim?
- XML verilerini şuraya erişerek güncelleyebilirsiniz:`CustomXmlPart` nesneyi ve XML içeriğini doğrudan değiştirme.
+XML verilerini şuraya erişerek güncelleyebilirsiniz: `CustomXmlPart` nesneyi ve XML içeriğini doğrudan değiştirme.
 
 ### SDT'leri öğeler yerine XML niteliklerine bağlamak mümkün müdür?
 Evet, istenilen niteliği hedefleyen uygun XPath ifadesini belirterek SDT'leri XML niteliklerine bağlayabilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Aspose.Words for .NET hakkında kapsamlı belgeleri şu adreste bulabilirsiniz:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET hakkında kapsamlı belgeleri şu adreste bulabilirsiniz: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

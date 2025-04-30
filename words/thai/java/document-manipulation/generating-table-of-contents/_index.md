@@ -1,14 +1,16 @@
 ---
-title: การสร้างสารบัญใน Aspose.Words สำหรับ Java
-linktitle: การสร้างสารบัญ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการสร้างและปรับแต่งสารบัญ (TOC) โดยใช้ Aspose.Words สำหรับ Java สร้างเอกสารที่เป็นระเบียบและเป็นมืออาชีพได้อย่างง่ายดาย
-weight: 21
-url: /th/java/document-manipulation/generating-table-of-contents/
+"description": "เรียนรู้วิธีการสร้างและปรับแต่งสารบัญ (TOC) โดยใช้ Aspose.Words สำหรับ Java สร้างเอกสารที่เป็นระเบียบและเป็นมืออาชีพได้อย่างง่ายดาย"
+"linktitle": "การสร้างสารบัญ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การสร้างสารบัญใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างสารบัญใน Aspose.Words สำหรับ Java
@@ -16,7 +18,7 @@ url: /th/java/document-manipulation/generating-table-of-contents/
 
 ## บทนำสู่การสร้างสารบัญใน Aspose.Words สำหรับ Java
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้างสารบัญ (TOC) โดยใช้ Aspose.Words สำหรับ Java สารบัญเป็นฟีเจอร์สำคัญในการสร้างเอกสารที่เป็นระเบียบ เราจะครอบคลุมถึงวิธีปรับแต่งรูปลักษณ์และเค้าโครงของสารบัญ
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการสร้างสารบัญ (TOC) โดยใช้ Aspose.Words สำหรับ Java สารบัญเป็นฟีเจอร์สำคัญในการสร้างเอกสารที่เป็นระเบียบ เราจะครอบคลุมถึงวิธีการปรับแต่งรูปลักษณ์และเค้าโครงของสารบัญ
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // ถอดแถบเก่าออก
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //แทรกแท็บใหม่ในตำแหน่งที่แก้ไข (เช่น 50 หน่วยทางด้านซ้าย)
+        // แทรกแท็บใหม่ในตำแหน่งที่แก้ไข (เช่น 50 หน่วยทางด้านซ้าย)
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,18 +99,23 @@ doc.save("output.docx");
 
 ### ฉันจะเปลี่ยนการจัดรูปแบบของรายการ TOC ได้อย่างไร?
 
- คุณสามารถปรับเปลี่ยนรูปแบบที่เกี่ยวข้องกับระดับ TOC ได้โดยใช้`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`โดยที่ X คือระดับ TOC
+คุณสามารถปรับเปลี่ยนรูปแบบที่เกี่ยวข้องกับระดับ TOC ได้โดยใช้ `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`โดยที่ X คือระดับ TOC
 
 ### ฉันจะเพิ่มระดับเพิ่มเติมให้กับ TOC ของฉันได้อย่างไร
 
-หากต้องการรวมระดับเพิ่มเติมใน TOC คุณสามารถแก้ไขช่อง TOC และระบุจำนวนระดับที่ต้องการได้
+หากต้องการรวมระดับเพิ่มเติมใน TOC คุณสามารถปรับเปลี่ยนช่อง TOC และระบุจำนวนระดับที่ต้องการได้
 
 ### ฉันสามารถเปลี่ยนตำแหน่งแท็บสต็อปสำหรับรายการ TOC เฉพาะได้หรือไม่
 
 ใช่ ตามที่แสดงในตัวอย่างโค้ดด้านบน คุณสามารถเปลี่ยนตำแหน่งแท็บสต็อปสำหรับรายการ TOC เฉพาะได้ โดยการวนซ้ำผ่านย่อหน้าและแก้ไขแท็บสต็อปตามนั้น
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

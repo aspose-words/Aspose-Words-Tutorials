@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Şifrelenmiş Olarak Yükle
-linktitle: Şifrelenmiş Belgeyi Word Belgesine Yükle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl yükleyeceğinizi ve kaydedeceğinizi öğrenin. Belgelerinizi yeni parolalarla kolayca güvence altına alın. Adım adım kılavuz dahildir.
-weight: 10
-url: /tr/net/programming-with-loadoptions/load-encrypted-document/
+"description": "Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl yükleyeceğinizi ve kaydedeceğinizi öğrenin. Belgelerinizi yeni parolalarla kolayca güvenceye alın. Adım adım kılavuz dahildir."
+"linktitle": "Şifrelenmiş Belgeyi Word Belgesine Yükle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Şifrelenmiş Olarak Yükle"
+"url": "/tr/net/programming-with-loadoptions/load-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Şifrelenmiş Olarak Yükle
@@ -21,8 +23,8 @@ Bu eğitimde, Aspose.Words for .NET kullanarak şifrelenmiş bir Word belgesini 
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET kütüphanesi yüklendi. Buradan indirebilirsiniz[Burada](https://downloads.aspose.com/words/net).
-2.  Geçerli bir Aspose lisansı. Ücretsiz deneme alabilir veya buradan satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+1. Aspose.Words for .NET kütüphanesi yüklendi. Buradan indirebilirsiniz [Burada](https://downloads.aspose.com/words/net).
+2. Geçerli bir Aspose lisansı. Ücretsiz deneme alabilir veya buradan satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 3. Visual Studio veya herhangi bir .NET geliştirme ortamı.
 
 ## Ad Alanlarını İçe Aktar
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Adım 1: Şifrelenmiş Belgeyi Yükle
 
- İlk olarak, şifrelenmiş belgeyi kullanarak yükleyeceksiniz`LoadOptions` sınıf. Bu sınıf, belgeyi açmak için gereken parolayı belirtmenize olanak tanır.
+İlk olarak, şifrelenmiş belgeyi kullanarak yükleyeceksiniz `LoadOptions` class. Bu sınıf, belgeyi açmak için gereken parolayı belirtmenize olanak tanır.
 
 ```csharp
 // Belgelerinizin dizinine giden yol
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "Encrypted.docx", new LoadOptions("passwor
 
 ## Adım 2: Belgeyi Yeni Bir Parola ile Kaydedin
 
- Daha sonra, yüklenen belgeyi bir ODT dosyası olarak kaydedeceksiniz, bu sefer yeni bir parola belirleyerek`OdtSaveOptions` sınıf.
+Daha sonra, yüklenen belgeyi bir ODT dosyası olarak kaydedeceksiniz, bu sefer yeni bir parola belirleyerek `OdtSaveOptions` sınıf.
 
 ```csharp
 // Şifrelenmiş bir belgeyi yeni bir parola ile kaydedin
@@ -77,9 +79,14 @@ Evet, Aspose.Words, farklı şifreleme algoritmaları türlerini belirtmek de da
 ### Şifrelenebilecek belgenin boyutu için bir sınır var mı?
 Hayır, Aspose.Words sisteminizin belleğinin sınırlamalarına tabi olarak her boyuttaki belgeyi işleyebilir.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

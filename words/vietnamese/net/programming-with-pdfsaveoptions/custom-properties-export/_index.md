@@ -1,14 +1,16 @@
 ---
-title: Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF
-linktitle: Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xuất các thuộc tính tùy chỉnh trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/custom-properties-export/
+"description": "Tìm hiểu cách xuất các thuộc tính tùy chỉnh trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/custom-properties-export/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF
@@ -21,13 +23,13 @@ Xuất các thuộc tính tùy chỉnh trong tài liệu PDF có thể cực k�
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET đã được cài đặt. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET đã được cài đặt. Nếu bạn chưa cài đặt, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Một môi trường phát triển như Visual Studio.
 - Kiến thức cơ bản về lập trình C#.
 
 ## Nhập không gian tên
 
-Trước tiên, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Các không gian tên này chứa các lớp và phương thức cần thiết để thao tác các tài liệu Word và xuất chúng dưới dạng PDF.
+Đầu tiên, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Các không gian tên này chứa các lớp và phương thức cần thiết để thao tác với tài liệu Word và xuất chúng dưới dạng PDF.
 
 ```csharp
 using Aspose.Words;
@@ -56,7 +58,7 @@ doc.CustomDocumentProperties.Add("Company", "Aspose");
 
 ## Bước 3: Cấu hình tùy chọn lưu PDF
 
- Bây giờ, hãy cấu hình các tùy chọn lưu PDF để đảm bảo rằng các thuộc tính tùy chỉnh được bao gồm khi xuất tài liệu.`PdfSaveOptions` Lớp này cung cấp nhiều thiết lập khác nhau để kiểm soát cách lưu tài liệu dưới dạng PDF.
+Bây giờ, hãy cấu hình các tùy chọn lưu PDF để đảm bảo rằng các thuộc tính tùy chỉnh được bao gồm khi xuất tài liệu. `PdfSaveOptions` Lớp này cung cấp nhiều thiết lập khác nhau để kiểm soát cách lưu tài liệu dưới dạng PDF.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -67,7 +69,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Bước 4: Lưu tài liệu dưới dạng PDF
 
- Cuối cùng, lưu tài liệu dưới dạng PDF trong thư mục đã chỉ định.`Save` Phương pháp này kết hợp tất cả các bước trước đó và tạo ra tệp PDF có chứa các thuộc tính tùy chỉnh.
+Cuối cùng, lưu tài liệu dưới dạng PDF trong thư mục đã chỉ định. `Save` Phương pháp này kết hợp tất cả các bước trước đó và tạo ra tệp PDF có chứa các thuộc tính tùy chỉnh.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveOptions);
@@ -75,7 +77,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveO
 
 ## Phần kết luận
 
-Xuất các thuộc tính tùy chỉnh trong tài liệu PDF bằng Aspose.Words cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng quản lý tài liệu của bạn. Bằng cách làm theo các bước này, bạn có thể đảm bảo siêu dữ liệu quan trọng được bảo toàn và có thể truy cập được, cải thiện hiệu quả và tổ chức các tài liệu kỹ thuật số của bạn.
+Xuất các thuộc tính tùy chỉnh trong tài liệu PDF bằng Aspose.Words cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng quản lý tài liệu của bạn. Bằng cách làm theo các bước này, bạn có thể đảm bảo siêu dữ liệu quan trọng được bảo toàn và có thể truy cập, cải thiện hiệu quả và tổ chức các tài liệu kỹ thuật số của bạn.
 
 ## Câu hỏi thường gặp
 
@@ -86,17 +88,22 @@ Thuộc tính tùy chỉnh là siêu dữ liệu được thêm vào tài liệu
 Aspose.Words for .NET cung cấp API mạnh mẽ và dễ sử dụng để thao tác với các tài liệu Word và xuất chúng dưới dạng PDF, đảm bảo các thuộc tính tùy chỉnh được bảo toàn và có thể truy cập được.
 
 ### Tôi có thể thêm nhiều thuộc tính tùy chỉnh vào một tài liệu không?
- Có, bạn có thể thêm nhiều thuộc tính tùy chỉnh vào một tài liệu bằng cách gọi`Add`phương pháp cho mỗi thuộc tính bạn muốn đưa vào.
+Có, bạn có thể thêm nhiều thuộc tính tùy chỉnh vào một tài liệu bằng cách gọi `Add` phương pháp cho mỗi thuộc tính bạn muốn đưa vào.
 
 ### Tôi có thể xuất sang những định dạng nào khác khi sử dụng Aspose.Words cho .NET?
 Aspose.Words for .NET hỗ trợ xuất sang nhiều định dạng khác nhau, bao gồm DOCX, HTML, EPUB và nhiều định dạng khác nữa.
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8) để được hỗ trợ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

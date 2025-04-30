@@ -1,14 +1,16 @@
 ---
-title: कोर फ़ॉन्ट्स को एम्बेड न करके PDF फ़ाइल का आकार कम करें
-linktitle: कोर फ़ॉन्ट्स को एम्बेड न करके PDF फ़ाइल का आकार कम करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके कोर फ़ॉन्ट एम्बेड न करके PDF फ़ाइल का आकार कैसे कम करें। अपने PDF को ऑप्टिमाइज़ करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके कोर फ़ॉन्ट एम्बेड न करके PDF फ़ाइल का आकार कैसे कम करें। अपने PDF को ऑप्टिमाइज़ करने के लिए हमारे चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "कोर फ़ॉन्ट्स को एम्बेड न करके PDF फ़ाइल का आकार कम करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "कोर फ़ॉन्ट्स को एम्बेड न करके PDF फ़ाइल का आकार कम करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # कोर फ़ॉन्ट्स को एम्बेड न करके PDF फ़ाइल का आकार कम करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
 
 इससे पहले कि हम इस रोमांचक यात्रा पर निकलें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि आपके पास अभी तक यह नहीं है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि आपके पास अभी तक यह नहीं है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास परिवेश: आपको विजुअल स्टूडियो जैसे विकास परिवेश की आवश्यकता होगी।
 - एक वर्ड दस्तावेज़: हम इस ट्यूटोरियल के लिए एक वर्ड दस्तावेज़ (जैसे, "Rendering.docx") का उपयोग करेंगे।
 - बुनियादी C# ज्ञान: C# की बुनियादी समझ आपको आगे बढ़ने में मदद करेगी।
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपका वर्ड दस्तावेज़ स्थित है।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपका वर्ड दस्तावेज़ स्थित है।
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
@@ -70,11 +72,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- सेटिंग`UseCoreFonts` को`true` यह सुनिश्चित करता है कि एरियल और टाइम्स न्यू रोमन जैसे मुख्य फ़ॉन्ट पीडीएफ में एम्बेडेड नहीं हैं, जिससे फ़ाइल का आकार काफी कम हो जाता है।
+सेटिंग `UseCoreFonts` को `true` यह सुनिश्चित करता है कि एरियल और टाइम्स न्यू रोमन जैसे मुख्य फ़ॉन्ट पीडीएफ में एम्बेडेड नहीं हैं, जिससे फ़ाइल का आकार काफी कम हो जाता है।
 
 ## चरण 4: दस्तावेज़ को PDF के रूप में सहेजें
 
-अंत में, हम कॉन्फ़िगर किए गए सेव विकल्पों का उपयोग करके वर्ड दस्तावेज़ को पीडीएफ के रूप में सेव करते हैं। यह चरण कोर फ़ॉन्ट को एम्बेड किए बिना पीडीएफ फ़ाइल तैयार करता है।
+अंत में, हम कॉन्फ़िगर किए गए सेव विकल्पों का उपयोग करके वर्ड दस्तावेज़ को पीडीएफ के रूप में सेव करते हैं। यह चरण कोर फ़ॉन्ट को एम्बेड किए बिना पीडीएफ फ़ाइल बनाता है।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.AvoidEmbeddingCoreFonts.pdf", saveOptions);
@@ -95,16 +97,21 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AvoidEmbeddingCoreFonts.pdf", save
 हां, एरियल और टाइम्स न्यू रोमन जैसे मुख्य फॉन्ट आमतौर पर अधिकांश प्रणालियों पर उपलब्ध हैं।
 
 ### यदि मुझे कस्टम फ़ॉन्ट एम्बेड करने की आवश्यकता हो तो क्या होगा?
- आप अनुकूलित कर सकते हैं`PdfSaveOptions`आवश्यकतानुसार विशिष्ट फ़ॉन्ट एम्बेड करने के लिए।
+आप अनुकूलित कर सकते हैं `PdfSaveOptions` आवश्यकतानुसार विशिष्ट फ़ॉन्ट एम्बेड करने के लिए।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- .NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+.NET के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

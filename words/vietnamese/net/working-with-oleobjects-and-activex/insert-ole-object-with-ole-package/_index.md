@@ -1,14 +1,16 @@
 ---
-title: Chèn Đối Tượng Ole Vào Word Với Gói Ole
-linktitle: Chèn Đối Tượng Ole Vào Word Với Gói Ole
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nhúng tệp một cách liền mạch.
-weight: 10
-url: /vi/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/
+"description": "Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nhúng tệp một cách liền mạch."
+"linktitle": "Chèn Đối Tượng Ole Vào Word Với Gói Ole"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Đối Tượng Ole Vào Word Với Gói Ole"
+"url": "/vi/net/working-with-oleobjects-and-activex/insert-ole-object-with-ole-package/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Đối Tượng Ole Vào Word Với Gói Ole
@@ -21,7 +23,7 @@ Nếu bạn từng muốn nhúng một tệp vào tài liệu Word, bạn đã �
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
 3. Hiểu biết cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng việc hiểu biết về C# sẽ giúp ích cho bạn.
 4. Thư mục tài liệu: Một thư mục nơi bạn có thể lưu trữ và lấy tài liệu.
@@ -37,7 +39,7 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-Chúng ta hãy chia nhỏ thành các bước nhỏ để bạn có thể dễ dàng thực hiện theo.
+Chúng ta hãy chia nhỏ thành các bước nhỏ để bạn có thể dễ dàng thực hiện.
 
 ## Bước 1: Thiết lập tài liệu của bạn
 
@@ -76,7 +78,7 @@ using (Stream stream = new MemoryStream(bs))
 }
 ```
 
- Ở đây, chúng ta tạo một luồng bộ nhớ từ mảng byte và sử dụng`InsertOleObject` phương pháp nhúng nó vào tài liệu. Chúng tôi cũng đặt tên tệp và tên hiển thị cho đối tượng nhúng.
+Ở đây, chúng ta tạo một luồng bộ nhớ từ mảng byte và sử dụng `InsertOleObject` phương pháp nhúng nó vào tài liệu. Chúng tôi cũng đặt tên tệp và tên hiển thị cho đối tượng nhúng.
 
 ## Bước 4: Lưu tài liệu của bạn
 
@@ -98,19 +100,24 @@ Và bạn đã có nó! Bạn đã nhúng thành công một đối tượng OLE
 Có, bạn có thể nhúng nhiều loại tệp khác nhau như bảng tính Excel, PDF và hình ảnh.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Words không?
- Vâng, bạn cần một giấy phép hợp lệ. Bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Vâng, bạn cần một giấy phép hợp lệ. Bạn có thể nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Làm thế nào để tùy chỉnh tên hiển thị của đối tượng OLE?
- Bạn có thể thiết lập`DisplayName` tài sản của`OlePackage` để tùy chỉnh nó.
+Bạn có thể thiết lập `DisplayName` tài sản của `OlePackage` để tùy chỉnh nó.
 
 ### Aspose.Words có tương thích với .NET Core không?
 Có, Aspose.Words hỗ trợ cả .NET Framework và .NET Core.
 
 ### Tôi có thể chỉnh sửa đối tượng OLE nhúng trong tài liệu Word không?
 Không, bạn không thể chỉnh sửa đối tượng OLE trực tiếp trong Word. Bạn cần mở nó trong ứng dụng gốc của nó.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Łączenie pól tekstowych w programie Word za pomocą Aspose.Words
-linktitle: Łączenie pól tekstowych w programie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć i łączyć pola tekstowe w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem, aby bezproblemowo dostosowywać dokumenty!
-weight: 10
-url: /pl/net/working-with-textboxes/create-a-link/
+"description": "Dowiedz się, jak tworzyć i łączyć pola tekstowe w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym kompleksowym przewodnikiem, aby bezproblemowo dostosowywać dokumenty!"
+"linktitle": "Łączenie pól tekstowych w programie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Łączenie pól tekstowych w programie Word za pomocą Aspose.Words"
+"url": "/pl/net/working-with-textboxes/create-a-link/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie pól tekstowych w programie Word za pomocą Aspose.Words
@@ -19,12 +21,12 @@ Hej, entuzjaści technologii i kreatorzy dokumentów! 🌟 Czy kiedykolwiek stan
 
 ## Wymagania wstępne
 
-Zanim zagłębimy się w magię łączenia pól tekstowych, upewnijmy się, że masz wszystko, czego potrzebujesz:
+Zanim zagłębimy się w magię łączenia pól tekstowych, upewnijmy się, że masz przygotowane wszystkie niezbędne rzeczy:
 
-1. Biblioteka Aspose.Words dla .NET: Będziesz potrzebować najnowszej wersji Aspose.Words dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Będziesz potrzebować najnowszej wersji Aspose.Words dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Środowisko programistyczne .NET, takie jak Visual Studio, jest niezbędne do pisania i testowania kodu.
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# ułatwi Ci zrozumienie przykładów kodu.
-4. Przykładowy dokument Word: Choć nie jest to konieczne w tym samouczku, posiadanie przykładowego dokumentu Word do przetestowania połączonych pól tekstowych może być pomocne.
+4. Przykładowy dokument Word: Choć nie jest to konieczne w tym samouczku, posiadanie przykładowego dokumentu Word umożliwiającego przetestowanie połączonych pól tekstowych może okazać się pomocne.
 
 ## Importuj przestrzenie nazw
 
@@ -68,11 +70,11 @@ Shape shape2 = new Shape(doc, ShapeType.TextBox);
 
 W tym fragmencie:
 - `ShapeType.TextBox` określa, że kształty, które tworzymy, są polami tekstowymi.
-- `shape1` I`shape2` to nasze dwa pola tekstowe.
+- `shape1` I `shape2` to nasze dwa pola tekstowe.
 
 ## Krok 3: Dostęp do obiektów TextBox
 
- Każdy`Shape` obiekt ma`TextBox` właściwość, która daje dostęp do właściwości i metod pola tekstowego. Tutaj ustawiamy zawartość pola tekstowego i łączenie.
+Każdy `Shape` obiekt ma `TextBox` właściwość, która daje dostęp do właściwości i metod pola tekstowego. Tutaj ustawiamy zawartość pola tekstowego i łączenie.
 
 ### Pobieranie obiektów TextBox
 
@@ -83,11 +85,11 @@ TextBox textBox1 = shape1.TextBox;
 TextBox textBox2 = shape2.TextBox;
 ```
 
- Te linie przechowują`TextBox` obiekty z kształtów do`textBox1` I`textBox2`.
+Te linie przechowują `TextBox` obiekty z kształtów do `textBox1` I `textBox2`.
 
 ## Krok 4: Łączenie pól tekstowych
 
- Magiczny moment! Teraz linkujemy`textBox1` Do`textBox2` Oznacza to, że gdy tekst wychodzi poza`textBox1` , będzie kontynuowane w`textBox2`.
+Magiczny moment! Teraz linkujemy `textBox1` Do `textBox2`Oznacza to, że gdy tekst wychodzi poza `textBox1`, będzie kontynuowane w `textBox2`.
 
 ### Sprawdzanie poprawności łącza
 
@@ -101,8 +103,8 @@ if (textBox1.IsValidLinkTarget(textBox2))
 ```
 
 W tym kodzie:
-- `IsValidLinkTarget` sprawdza czy`textBox2` jest prawidłowym celem łącza dla`textBox1`.
--  Jeśli Doprawda, ustawiamy`textBox1.Next` to `textBox2`, nawiązując połączenie.
+- `IsValidLinkTarget` sprawdza czy `textBox2` jest prawidłowym celem łącza dla `textBox1`.
+- Jeśli to prawda, ustawiamy `textBox1.Next` Do `textBox2`, nawiązując połączenie.
 
 ## Krok 5: Finalizowanie i zapisywanie dokumentu
 
@@ -120,9 +122,9 @@ Zapisuje to dokument pod nazwą pliku „LinkedTextBoxes.docx”. Teraz możesz 
 
 ## Wniosek
 
-I masz to! 🎉 Udało Ci się utworzyć i połączyć pola tekstowe w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek poprowadził Cię przez konfigurację środowiska, tworzenie i łączenie pól tekstowych oraz zapisywanie dokumentu. Dzięki tym umiejętnościom możesz ulepszyć swoje dokumenty Word za pomocą dynamicznych przepływów treści i sprawić, że będą bardziej interaktywne i przyjazne dla użytkownika.
+masz to! 🎉 Udało Ci się utworzyć i połączyć pola tekstowe w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek poprowadził Cię przez konfigurację środowiska, tworzenie i łączenie pól tekstowych oraz zapisywanie dokumentu. Dzięki tym umiejętnościom możesz ulepszyć swoje dokumenty Word za pomocą dynamicznych przepływów treści i sprawić, że będą bardziej interaktywne i przyjazne dla użytkownika.
 
- Aby uzyskać bardziej szczegółowe informacje i zapoznać się z zaawansowanymi funkcjami, koniecznie sprawdź[Dokumentacja API Aspose.Words](https://reference.aspose.com/words/net/) Jeśli masz jakieś pytania lub napotkasz problemy,[forum wsparcia](https://forum.aspose.com/c/words/8) jest świetnym źródłem informacji.
+Aby uzyskać bardziej szczegółowe informacje i zapoznać się z zaawansowanymi funkcjami, koniecznie sprawdź [Dokumentacja API Aspose.Words](https://reference.aspose.com/words/net/). Jeśli masz jakieś pytania lub napotkasz problemy, [forum wsparcia](https://forum.aspose.com/c/words/8) jest świetnym źródłem informacji.
 
 Miłego kodowania i oby Twoje pola tekstowe zawsze łączyły się idealnie! 🚀
 
@@ -138,13 +140,18 @@ Tak, możesz połączyć wiele pól tekstowych w sekwencji. Upewnij się tylko, 
 Tekst wewnątrz każdego pola tekstowego można stylizować tak jak każdy inny tekst w dokumencie Word, korzystając z zaawansowanych opcji formatowania Aspose.Words lub interfejsu użytkownika Word.
 
 ### Czy można rozłączyć pola tekstowe po ich połączeniu?
- Tak, możesz odłączyć pola tekstowe, ustawiając`Next` własność`TextBox` oponować`null`.
+Tak, możesz odłączyć pola tekstowe, ustawiając `Next` własność `TextBox` oponować `null`.
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?
- Więcej samouczków i zasobów znajdziesz na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Więcej samouczków i zasobów znajdziesz na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

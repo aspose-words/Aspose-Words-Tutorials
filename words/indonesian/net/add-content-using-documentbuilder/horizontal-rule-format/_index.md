@@ -1,14 +1,16 @@
 ---
-title: Format Garis Horizontal Dalam Dokumen Word
-linktitle: Format Garis Horizontal Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan garis horizontal yang dapat disesuaikan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan otomatisasi dokumen Anda.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/horizontal-rule-format/
+"description": "Pelajari cara menyisipkan garis horizontal yang dapat disesuaikan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tingkatkan otomatisasi dokumen Anda."
+"linktitle": "Format Garis Horizontal Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Format Garis Horizontal Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/horizontal-rule-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Garis Horizontal Dalam Dokumen Word
@@ -22,9 +24,9 @@ Dalam bidang pengembangan .NET, memanipulasi dan memformat dokumen Word secara t
 Sebelum mulai menerapkan aturan horizontal menggunakan Aspose.Words untuk .NET, pastikan Anda memiliki prasyarat berikut:
 
 - Visual Studio: Instal Visual Studio IDE untuk pengembangan .NET.
-- Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pengetahuan Dasar C#: Keakraban dengan dasar-dasar bahasa pemrograman C#.
--  Kelas DocumentBuilder: Pemahaman tentang`DocumentBuilder` kelas di Aspose.Words untuk manipulasi dokumen.
+- Kelas DocumentBuilder: Pemahaman tentang `DocumentBuilder` kelas di Aspose.Words untuk manipulasi dokumen.
 
 ## Mengimpor Ruang Nama
 
@@ -41,7 +43,7 @@ Mari kita uraikan proses penambahan garis horizontal dalam dokumen Word mengguna
 
 ## Langkah 1: Inisialisasi DocumentBuilder dan Atur Direktori
 
- Pertama, inisialisasikan`DocumentBuilder` objek dan mengatur jalur direktori tempat dokumen akan disimpan.
+Pertama, inisialisasikan `DocumentBuilder` objek dan mengatur jalur direktori tempat dokumen akan disimpan.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 ## Langkah 2: Masukkan Penggaris Horizontal
 
- Gunakan`InsertHorizontalRule()` metode dari`DocumentBuilder` kelas untuk menambahkan aturan horizontal.
+Gunakan `InsertHorizontalRule()` metode dari `DocumentBuilder` kelas untuk menambahkan aturan horizontal.
 
 ```csharp
 Shape shape = builder.InsertHorizontalRule();
@@ -58,7 +60,7 @@ Shape shape = builder.InsertHorizontalRule();
 
 ## Langkah 3: Sesuaikan Format Aturan Horizontal
 
- Akses`HorizontalRuleFormat` properti bentuk yang disisipkan untuk menyesuaikan tampilan aturan horizontal.
+Akses `HorizontalRuleFormat` properti bentuk yang disisipkan untuk menyesuaikan tampilan aturan horizontal.
 
 ```csharp
 HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
@@ -77,7 +79,7 @@ horizontalRuleFormat.NoShade = true;
 
 ## Langkah 4: Simpan Dokumen
 
- Terakhir, simpan dokumen yang dimodifikasi menggunakan`Save` metode dari`Document` obyek.
+Terakhir, simpan dokumen yang dimodifikasi menggunakan `Save` metode dari `Document` obyek.
 
 ```csharp
 builder.Document.Save(dataDir + "AddContentUsingDocumentBuilder.HorizontalRuleFormat.docx");
@@ -93,7 +95,7 @@ Menguasai penyisipan aturan horizontal dalam dokumen Word menggunakan Aspose.Wor
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram dalam aplikasi .NET.
 
 ### Bagaimana cara mengunduh Aspose.Words untuk .NET?
- Anda dapat mengunduh Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/).
 
 ### Bisakah saya menyesuaikan tampilan aturan horizontal di Aspose.Words?
 Ya, Anda dapat menyesuaikan berbagai aspek seperti perataan, lebar, tinggi, warna, dan bayangan aturan horizontal menggunakan Aspose.Words.
@@ -102,11 +104,16 @@ Ya, Anda dapat menyesuaikan berbagai aspek seperti perataan, lebar, tinggi, warn
 Ya, Aspose.Words digunakan secara luas di lingkungan perusahaan karena kemampuan manipulasi dokumennya yang kuat.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Untuk dukungan dan keterlibatan komunitas, kunjungi[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Untuk dukungan dan keterlibatan komunitas, kunjungi [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

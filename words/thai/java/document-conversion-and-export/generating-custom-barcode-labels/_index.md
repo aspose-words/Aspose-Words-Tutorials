@@ -1,14 +1,16 @@
 ---
-title: การสร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java
-linktitle: การสร้างฉลากบาร์โค้ดแบบกำหนดเอง
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: สร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java เรียนรู้วิธีสร้างโซลูชันบาร์โค้ดส่วนบุคคลโดยใช้ Aspose.Words สำหรับ Java ในคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/java/document-conversion-and-export/generating-custom-barcode-labels/
+"description": "สร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java เรียนรู้วิธีสร้างโซลูชันบาร์โค้ดส่วนบุคคลโดยใช้ Aspose.Words สำหรับ Java ในคู่มือทีละขั้นตอนนี้"
+"linktitle": "การสร้างฉลากบาร์โค้ดแบบกำหนดเอง"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การสร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-conversion-and-export/generating-custom-barcode-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java
@@ -16,7 +18,7 @@ url: /th/java/document-conversion-and-export/generating-custom-barcode-labels/
 
 ## บทนำสู่การสร้างฉลากบาร์โค้ดแบบกำหนดเองใน Aspose.Words สำหรับ Java
 
-บาร์โค้ดมีความจำเป็นในแอปพลิเคชันสมัยใหม่ ไม่ว่าคุณจะจัดการสินค้าคงคลัง สร้างตั๋ว หรือสร้างบัตรประจำตัว ด้วย Aspose.Words สำหรับ Java การสร้างฉลากบาร์โค้ดแบบกำหนดเองจะกลายเป็นเรื่องง่ายดาย บทช่วยสอนทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการสร้างฉลากบาร์โค้ดแบบกำหนดเองโดยใช้อินเทอร์เฟซ IBarcodeGenerator พร้อมแล้วหรือยัง? มาเริ่มกันเลย!
+บาร์โค้ดมีความจำเป็นในแอปพลิเคชันสมัยใหม่ ไม่ว่าคุณจะจัดการสินค้าคงคลัง สร้างตั๋ว หรือสร้างบัตรประจำตัว ด้วย Aspose.Words สำหรับ Java การสร้างฉลากบาร์โค้ดแบบกำหนดเองจะกลายเป็นเรื่องง่ายดาย บทช่วยสอนทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการสร้างฉลากบาร์โค้ดแบบกำหนดเองโดยใช้อินเทอร์เฟซ IBarcodeGenerator พร้อมแล้วหรือยัง มาเริ่มกันเลย!
 
 
 ## ข้อกำหนดเบื้องต้น
@@ -24,10 +26,10 @@ url: /th/java/document-conversion-and-export/generating-custom-barcode-labels/
 ก่อนที่เราจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 - Java Development Kit (JDK): เวอร์ชัน 8 ขึ้นไป
--  Aspose.Words สำหรับไลบรารี Java:[ดาวน์โหลดที่นี่](https://releases.aspose.com/words/java/).
--  Aspose.BarCode สำหรับไลบรารี Java:[ดาวน์โหลดที่นี่](https://releases.aspose.com/).
+- Aspose.Words สำหรับไลบรารี Java: [ดาวน์โหลดที่นี่](https://releases-aspose.com/words/java/).
+- Aspose.BarCode สำหรับไลบรารี Java: [ดาวน์โหลดที่นี่](https://releases-aspose.com/).
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): IntelliJ IDEA, Eclipse หรือ IDE ใด ๆ ที่คุณต้องการ
--  ใบอนุญาตชั่วคราว: การขอรับใบอนุญาต[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการเข้าถึงแบบไม่มีข้อจำกัด
+- ใบอนุญาตชั่วคราว: การขอรับใบอนุญาต [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการเข้าถึงแบบไม่มีข้อจำกัด
 
 ## แพ็คเกจนำเข้า
 
@@ -77,11 +79,11 @@ class CustomBarcodeGeneratorUtils {
 ### คำอธิบาย:
 
 - `twipsToPixels` วิธีการ: แปลง twips (ใช้ในเอกสาร Word) ให้เป็นพิกเซล
-- `convertColor` วิธีการ: แปลรหัสสีเลขฐานสิบหกเป็น`Color` วัตถุ
+- `convertColor` วิธีการ: แปลรหัสสีเลขฐานสิบหกเป็น `Color` วัตถุ
 
 ## ขั้นตอนที่ 2: นำเครื่องสร้างบาร์โค้ดแบบกำหนดเองมาใช้
 
- เราจะดำเนินการตาม`IBarcodeGenerator` อินเทอร์เฟซสำหรับสร้างบาร์โค้ดและรวมเข้ากับ Aspose.Words
+เราจะดำเนินการตาม `IBarcodeGenerator` อินเทอร์เฟซสำหรับสร้างบาร์โค้ดและรวมเข้ากับ Aspose.Words
 
 ### รหัส:
 
@@ -116,7 +118,7 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ### คำอธิบาย:
 
 - `getBarcodeImage` วิธี:
-  -  สร้าง`BarcodeGenerator` ตัวอย่าง.
+  - สร้าง `BarcodeGenerator` ตัวอย่าง.
   - กำหนดสีบาร์โค้ด, สีพื้นหลัง และสร้างภาพ
 
 ## ขั้นตอนที่ 3: สร้างบาร์โค้ดและเพิ่มลงในเอกสาร Word
@@ -171,24 +173,29 @@ public class GenerateCustomBarcodeLabels {
 ## คำถามที่พบบ่อย
 
 1. ฉันสามารถใช้ Aspose.Words สำหรับ Java โดยไม่ต้องมีใบอนุญาตได้หรือไม่?
- ใช่ แต่จะมีข้อจำกัดบางประการ รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการใช้งานที่ครบครัน
+ใช่ แต่จะมีข้อจำกัดบางประการ รับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการใช้งานที่ครบครัน
 
 2. ฉันสามารถสร้างบาร์โค้ดประเภทใดได้บ้าง
-Aspose.BarCode รองรับ QR, Code 128, EAN-13 และประเภทอื่นๆ อีกมากมาย ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับรายการที่สมบูรณ์
+Aspose.BarCode รองรับ QR, Code 128, EAN-13 และประเภทอื่นๆ อีกมากมาย ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับรายการที่สมบูรณ์
 
 3. ฉันจะเปลี่ยนขนาดบาร์โค้ดได้อย่างไร?
- ปรับแต่ง`XDimension` และ`BarHeight` พารามิเตอร์ใน`BarcodeGenerator` การตั้งค่า.
+ปรับแต่ง `XDimension` และ `BarHeight` พารามิเตอร์ใน `BarcodeGenerator` การตั้งค่า.
 
 4. ฉันสามารถใช้แบบอักษรที่กำหนดเองสำหรับบาร์โค้ดได้หรือไม่
- ใช่ คุณสามารถปรับแต่งแบบอักษรข้อความบาร์โค้ดได้ผ่านทาง`CodeTextParameters` คุณสมบัติ.
+ใช่ คุณสามารถปรับแต่งแบบอักษรข้อความบาร์โค้ดได้ผ่านทาง `CodeTextParameters` คุณสมบัติ.
 
 5. ฉันจะได้รับความช่วยเหลือเกี่ยวกับ Aspose.Words ได้ที่ไหน
- เยี่ยมชม[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8/) เพื่อขอความช่วยเหลือ
+เยี่ยมชม [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8/) เพื่อขอความช่วยเหลือ
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

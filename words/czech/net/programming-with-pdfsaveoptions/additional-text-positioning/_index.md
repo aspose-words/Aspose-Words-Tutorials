@@ -1,34 +1,36 @@
 ---
-title: Vylepšete umístění textu PDF pomocí dodatečného umístění textu
-linktitle: Vylepšete umístění textu PDF pomocí dodatečného umístění textu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak zlepšit umístění textu PDF pomocí Aspose.Words pro .NET v několika jednoduchých krocích. Vylepšete vzhled dokumentu.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/additional-text-positioning/
+"description": "Naučte se, jak v několika snadných krocích vylepšit pozicování textu v PDF pomocí Aspose.Words pro .NET. Vylepšete vzhled svého dokumentu."
+"linktitle": "Vylepšení umístění textu v PDF pomocí dodatečného umístění textu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vylepšení umístění textu v PDF pomocí dodatečného umístění textu"
+"url": "/cs/net/programming-with-pdfsaveoptions/additional-text-positioning/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vylepšete umístění textu PDF pomocí dodatečného umístění textu
+# Vylepšení umístění textu v PDF pomocí dodatečného umístění textu
 
 ## Zavedení
 
-Jste připraveni ponořit se do světa Aspose.Words pro .NET a odemknout kouzlo přesného umístění textu ve vašich PDF? Připoutejte se, protože tento průvodce vás vezme na vzrušující cestu kroky ke zlepšení umístění textu PDF pomocí funkce Další umístění textu. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám poskytne vše, co potřebujete vědět.
+Jste připraveni ponořit se do světa Aspose.Words pro .NET a odemknout kouzlo přesného umístění textu ve vašich PDF souborech? Připoutejte se, protože tento průvodce vás provede vzrušující cestou krok za krokem, jak vylepšit umístění textu ve vašich PDF souborech pomocí funkce Další umístění textu. Ať už jste zkušený vývojář, nebo teprve začínáte, tento tutoriál vám poskytne vše, co potřebujete vědět.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máme k dispozici všechny potřebné nástroje a zdroje:
 
--  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Words pro .NET. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Words pro .NET. Můžete si ji stáhnout z [Webové stránky Aspose](https://releases.aspose.com/words/net/).
 - Vývojové prostředí: Integrované vývojové prostředí (IDE), jako je Visual Studio.
-- .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework 4.0 nebo vyšší.
-- Základní znalost C#: Výhodou bude znalost programovacího jazyka C#.
+- .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework 4.0 nebo vyšší.
+- Základní znalost C#: Znalost programovacího jazyka C# bude výhodou.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. Tento krok je zásadní, protože nám umožňuje přístup k funkcím Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory. Tento krok je klíčový, protože nám umožňuje přístup k funkcím Aspose.Words.
 
 ```csharp
 using System;
@@ -36,44 +38,44 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Nyní si tento proces rozdělíme do snadno pochopitelných kroků.
+Nyní si celý proces rozdělme na snadno sledovatelné kroky.
 
-## Krok 1: Nastavení vašeho projektu
+## Krok 1: Nastavení projektu
 
-Chcete-li to nastartovat, musíte svůj projekt nastavit ve vámi zvoleném vývojovém prostředí.
+Abyste mohli začít, musíte si projekt nastavit ve vámi zvoleném vývojovém prostředí.
 
 1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt C#.
-2. Instalace Aspose.Words for .NET: Můžete ji nainstalovat přes NuGet Package Manager vyhledáním „Apose.Words“ a přidáním do svého projektu.
+2. Instalace Aspose.Words pro .NET: Můžete jej nainstalovat pomocí Správce balíčků NuGet vyhledáním „Aspose.Words“ a jeho přidáním do projektu.
 
-## Krok 2: Vložte svůj dokument
+## Krok 2: Vložte dokument
 
-Jakmile je váš projekt nastaven, dalším krokem je načtení dokumentu aplikace Word, který chcete převést do formátu PDF s vylepšeným umístěním textu.
+Jakmile je váš projekt nastaven, dalším krokem je načtení dokumentu Word, který chcete převést do formátu PDF s vylepšeným umístěním textu.
 
-1. Definujte cestu dokumentu: Zadejte cestu k adresáři vašeho dokumentu.
+1. Definujte cestu k dokumentu: Zadejte cestu k adresáři s dokumenty.
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
-2.  Vložte dokument: Použijte`Document` třídy k načtení dokumentu aplikace Word.
+2. Vložení dokumentu: Použijte `Document` třída pro načtení dokumentu Word.
     ```csharp
     Document doc = new Document(dataDir + "Rendering.docx");
     ```
 
-## Krok 3: Nakonfigurujte možnosti uložení PDF
+## Krok 3: Konfigurace možností ukládání PDF
 
- Tady se děje kouzlo! Nakonfigurujeme`PdfSaveOptions` pro umožnění dalšího umístění textu.
+Tady se děje kouzlo! Nakonfigurujeme `PdfSaveOptions` pro povolení dalšího umístění textu.
 
-1.  Vytvořit objekt PdfSaveOptions: Vytvořit instanci`PdfSaveOptions` třída.
+1. Vytvoření objektu PdfSaveOptions: Vytvoření instance `PdfSaveOptions` třída.
     ```csharp
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     ```
-2.  Povolit další umístění textu: Nastavte`AdditionalTextPositioning`majetek do`true`.
+2. Povolit další umístění textu: Nastavte `AdditionalTextPositioning` majetek `true`.
     ```csharp
     saveOptions.AdditionalTextPositioning = true;
     ```
 
 ## Krok 4: Uložte dokument jako PDF
 
-Nyní je čas uložit dokument aplikace Word jako PDF s nakonfigurovanými možnostmi.
+Nyní je čas uložit dokument Word jako PDF s nakonfigurovanými možnostmi.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", saveOptions);
@@ -81,28 +83,33 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.AdditionalTextPositioning.pdf", sa
 
 ## Závěr
 
-tady to máte! Pomocí těchto kroků jste úspěšně vylepšili umístění textu ve vašem PDF pomocí Aspose.Words for .NET. Tato výkonná funkce zajišťuje, že vaše soubory PDF vypadají jasně a profesionálně s textem umístěným přesně tam, kde má být.
+A máte to! Dodržováním těchto kroků jste úspěšně vylepšili umístění textu ve vašem PDF pomocí Aspose.Words pro .NET. Tato výkonná funkce zajišťuje, že vaše PDF soubory budou vypadat ostře a profesionálně a text bude umístěn přesně tam, kde má být.
 
-## FAQ
+## Často kladené otázky
 
-### Jaký je účel dodatečného umístění textu v Aspose.Words?
-Dodatečné umísťování textu zvyšuje přesnost umístění textu v PDF a zajišťuje lepší zarovnání a vzhled.
+### Jaký je účel dodatečného umisťování textu v Aspose.Words?
+Další polohování textu zvyšuje přesnost umístění textu v PDF a zajišťuje lepší zarovnání a vzhled.
 
 ### Mohu tuto funkci použít s jinými formáty dokumentů?
-Ne, funkce Další umístění textu je specifická pro převody PDF.
+Ne, funkce Další umístění textu je určena pouze pro převody PDF.
 
 ### Potřebuji licenci k používání Aspose.Words pro .NET?
- Ano, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo zakoupit plnou licenci[zde](https://purchase.aspose.com/buy).
+Ano, můžete získat [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si zakoupit plnou licenci [zde](https://purchase.aspose.com/buy).
 
 ### Je k dispozici bezplatná zkušební verze?
- Ano, můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) Aspose.Words pro .NET.
+Ano, můžete si stáhnout [bezplatná zkušební verze](https://releases.aspose.com/) z Aspose.Words pro .NET.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Podrobná dokumentace je k dispozici na[Aspose webové stránky](https://reference.aspose.com/words/net/).
+Podrobná dokumentace je k dispozici na [Webové stránky Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

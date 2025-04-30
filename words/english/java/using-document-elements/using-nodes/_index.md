@@ -7,8 +7,11 @@ weight: 20
 url: /java/using-document-elements/using-nodes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Nodes in Aspose.Words for Java
@@ -129,9 +132,13 @@ For support and discussions, visit the [Aspose.Words for Java forum](https://for
 Get started with Aspose.Words for Java now and unlock the full potential of document processing!
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

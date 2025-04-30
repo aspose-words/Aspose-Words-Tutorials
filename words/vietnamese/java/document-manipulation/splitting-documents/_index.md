@@ -1,14 +1,16 @@
 ---
-title: Chia nhỏ tài liệu trong Aspose.Words cho Java
-linktitle: Chia tách tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Khám phá các kỹ thuật cho tiêu đề, phần và phạm vi trang.
-weight: 24
-url: /vi/java/document-manipulation/splitting-documents/
+"description": "Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Khám phá các kỹ thuật cho tiêu đề, phần và phạm vi trang."
+"linktitle": "Chia tách tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Chia nhỏ tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/splitting-documents/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia nhỏ tài liệu trong Aspose.Words cho Java
@@ -23,7 +25,7 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giớ
 Một trong những yêu cầu chung khi xử lý các tài liệu lớn là phân chia chúng dựa trên tiêu đề. Aspose.Words for Java giúp bạn thực hiện nhiệm vụ này một cách đơn giản. Chúng ta hãy cùng xem một đoạn mã để phân chia tài liệu theo tiêu đề.
 
 ```java
-//Mã Java để chia tài liệu theo tiêu đề bằng Aspose.Words cho Java
+// Mã Java để chia tài liệu theo tiêu đề bằng Aspose.Words cho Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
@@ -44,7 +46,7 @@ doc.save("Your Directory Path" + "SplitDocument.BySectionsHtml.html", options);
 
 ## Chia tài liệu theo từng trang
 
-Chia tài liệu theo từng trang là một kỹ thuật hữu ích khi bạn cần trích xuất các trang riêng lẻ từ một tài liệu. Hãy cùng xem cách thực hiện điều này bằng Aspose.Words cho Java.
+Chia tài liệu theo từng trang là một kỹ thuật hữu ích khi bạn cần trích xuất từng trang riêng lẻ từ một tài liệu. Hãy cùng xem cách thực hiện điều này bằng Aspose.Words cho Java.
 
 ```java
 // Mã Java để chia trang tài liệu theo từng trang bằng Aspose.Words cho Java
@@ -102,7 +104,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá nhiều kỹ thuật khá
 
 ### Tôi có thể bắt đầu sử dụng Aspose.Words cho Java như thế nào?
 
- Bắt đầu với Aspose.Words for Java rất dễ dàng. Bạn có thể tải xuống thư viện từ trang web Aspose và làm theo tài liệu hướng dẫn cài đặt và sử dụng. Truy cập[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết thêm chi tiết.
+Bắt đầu với Aspose.Words for Java rất dễ dàng. Bạn có thể tải xuống thư viện từ trang web Aspose và làm theo tài liệu hướng dẫn cài đặt và sử dụng. Truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết thêm chi tiết.
 
 ### Các tính năng chính của Aspose.Words cho Java là gì?
 
@@ -118,10 +120,15 @@ Hoàn toàn đúng. Aspose.Words for Java cho phép bạn hợp nhất các tài
 
 ### Tôi có thể truy cập Aspose.Words for Java và bắt đầu sử dụng ở đâu?
 
- Bạn có thể truy cập và tải xuống Aspose.Words for Java từ trang web Aspose. Bắt đầu ngay hôm nay bằng cách truy cập[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể truy cập và tải xuống Aspose.Words cho Java từ trang web Aspose. Bắt đầu ngay hôm nay bằng cách truy cập [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

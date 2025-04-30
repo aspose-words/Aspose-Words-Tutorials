@@ -1,24 +1,26 @@
 ---
-title: Betöltési opciók használata az Aspose.Words for Java programban
-linktitle: Betöltési beállítások használata
-second_title: Aspose.Words Java Document Processing API
-description: Betöltési opciók elsajátítása az Aspose.Words for Java programban. Testreszabhatja a dokumentumbetöltést, kezelheti a titkosítást, átalakíthatja az alakzatokat, beállíthatja a Word-verziókat és sok mást a hatékony Java-dokumentumfeldolgozás érdekében.
-weight: 11
-url: /hu/java/document-loading-and-saving/using-load-options/
+"description": "Aspose.Words betöltési beállításainak elsajátítása Java-hoz. Dokumentumbetöltés testreszabása, titkosítás kezelése, alakzatok konvertálása, Word-verziók beállítása és sok más a hatékony Java-dokumentumfeldolgozáshoz."
+"linktitle": "Betöltési beállítások használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Betöltési opciók használata az Aspose.Words Java-ban"
+"url": "/hu/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Betöltési opciók használata az Aspose.Words for Java programban
+# Betöltési opciók használata az Aspose.Words Java-ban
 
 
-## Bevezetés az Aspose.Words for Java betöltési beállításainak használatába
+## Bevezetés a betöltési opciók használatába az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk az Aspose.Words for Java betöltési beállításaival. A Betöltési beállítások lehetővé teszik a dokumentumok betöltésének és feldolgozásának testreszabását. Különféle forgatókönyvekkel foglalkozunk, beleértve a piszkos mezők frissítését, a titkosított dokumentumok betöltését, az alakzatok Office Math formátumba konvertálását, az MS Word verzió beállítását, az ideiglenes mappa megadását, a figyelmeztetések kezelését és a metafájlok PNG formátumba konvertálását. Lépésről lépésre merüljünk bele.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan használhatók a Betöltési beállítások az Aspose.Words for Java programban. A Betöltési beállítások lehetővé teszik a dokumentumok betöltésének és feldolgozásának testreszabását. Különböző forgatókönyveket fogunk áttekinteni, beleértve a piszkos mezők frissítését, a titkosított dokumentumok betöltését, az alakzatok Office Math formátumba konvertálását, az MS Word verziójának beállítását, egy ideiglenes mappa megadását, a figyelmeztetések kezelését és a metafájlok PNG formátumba konvertálását. Nézzük meg lépésről lépésre.
 
-## Frissítse a Dirty Fields-t
+## Piszkos mezők frissítése
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -28,9 +30,9 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- Ez a kódrészlet bemutatja, hogyan kell frissíteni a szennyezett mezőket a dokumentumban. A`setUpdateDirtyFields(true)` módszerrel biztosítják, hogy a szennyezett mezők frissítésre kerüljenek a dokumentum betöltése során.
+Ez a kódrészlet bemutatja, hogyan frissíthetők a „piszkos mezők” egy dokumentumban. `setUpdateDirtyFields(true)` A metódus biztosítja, hogy a piszkos mezők frissüljenek a dokumentum betöltése során.
 
-## Töltsön be titkosított dokumentumot
+## Titkosított dokumentum betöltése
 
 ```java
 @Test
@@ -40,9 +42,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- Itt egy jelszóval titkosított dokumentumot töltünk be. A`LoadOptions` A konstruktor elfogadja a dokumentum jelszavát, és a dokumentum mentésekor új jelszót is megadhat`OdtSaveOptions`.
+Itt egy jelszóval titkosított dokumentumot töltünk be. `LoadOptions` A konstruktor elfogadja a dokumentum jelszavát, és a dokumentum mentésekor új jelszót is megadhat a használatával. `OdtSaveOptions`.
 
-## Alakzat konvertálása Office Math-re
+## Alakzat konvertálása Office Math formátumba
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -52,9 +54,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- Ez a kód bemutatja, hogyan lehet alakzatokat Office Math objektummá konvertálni a dokumentumbetöltés során. A`setConvertShapeToOfficeMath(true)`módszer lehetővé teszi ezt az átalakítást.
+Ez a kód bemutatja, hogyan lehet alakzatokat Office Math objektumokká konvertálni a dokumentum betöltése során. `setConvertShapeToOfficeMath(true)` metódus teszi lehetővé ezt az átalakítást.
 
-## Állítsa be az MS Word verziót
+## MS Word verzió beállítása
 
 ```java
 @Test
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- Megadhatja az MS Word verzióját a dokumentum betöltéséhez. Ebben a példában a verziót a Microsoft Word 2010-re állítottuk be`setMswVersion`.
+Megadhatja az MS Word verzióját a dokumentum betöltéséhez. Ebben a példában a verziót Microsoft Word 2010-re állítottuk be a következő használatával: `setMswVersion`.
 
 ## Ideiglenes mappa használata
 
@@ -81,9 +83,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- Az ideiglenes mappa beállításával`setTempFolder`, szabályozhatja, hogy a dokumentumfeldolgozás során hol tárolják az ideiglenes fájlokat.
+Az ideiglenes mappa beállításával a következő használatával: `setTempFolder`, szabályozhatja, hogy a dokumentumfeldolgozás során hol tárolódnak az ideiglenes fájlok.
 
-## Figyelmeztetés visszahívás
+## Figyelmeztetés visszahívása
 
 ```java
 @Test
@@ -96,16 +98,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // Kezelje a figyelmeztetéseket, amint azok a dokumentum betöltése közben jelentkeznek.
+        // A dokumentum betöltése során felmerülő figyelmeztetéseket azonnal kezelni kell.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-Ez a kód bemutatja, hogyan állíthat be egy figyelmeztető visszahívást a figyelmeztetések kezelésére a dokumentum betöltése közben. Testreszabhatja az alkalmazás viselkedését figyelmeztetések esetén.
+Ez a kód bemutatja, hogyan állíthat be egy figyelmeztető visszahívást a dokumentum betöltése közbeni figyelmeztetések kezelésére. Testreszabhatja az alkalmazás viselkedését figyelmeztetések esetén.
 
-## Konvertálja a metafájlokat PNG-re
+## Metafájlok konvertálása PNG-vé
 
 ```java
 @Test
@@ -117,9 +119,9 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- A metafájlok (pl. WMF) PNG-képekké konvertálásához a dokumentum betöltése során használhatja a`setConvertMetafilesToPng(true)` módszer.
+A metafájlok (pl. WMF) PNG képekké konvertálásához a dokumentum betöltése során használhatja a `setConvertMetafilesToPng(true)` módszer.
 
-## Teljes forráskód az Aspose.Words for Java betöltési opcióinak használatához
+## Teljes forráskód a betöltési opciók használatához az Aspose.Words Java-ban
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -146,7 +148,7 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// Hozzon létre egy új LoadOptions objektumot, amely alapértelmezés szerint betölti a dokumentumokat az MS Word 2019 specifikációi szerint
+	// Hozz létre egy új LoadOptions objektumot, amely alapértelmezés szerint az MS Word 2019 specifikációjának megfelelően tölti be a dokumentumokat.
 	// és módosítsa a betöltési verziót Microsoft Word 2010-re.
 	LoadOptions loadOptions = new LoadOptions();
 	{
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//Kinyomtatja a figyelmeztetéseket és azok részleteit, amint azok a dokumentum betöltése során felmerülnek.
+		// Kinyomtatja a figyelmeztetéseket és azok részleteit, amint azok a dokumentum betöltése során felmerülnek.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,28 +200,33 @@ public void loadChm() throws Exception {
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.Words for Java betöltési beállításaival való munka különféle szempontjaiba ástunk bele. A Betöltési beállítások kulcsfontosságú szerepet játszanak a dokumentumok betöltésének és feldolgozásának testreszabásában, lehetővé téve, hogy a dokumentumfeldolgozást az Ön egyedi igényeihez igazítsa. Foglaljuk össze az útmutatóban tárgyalt legfontosabb pontokat:
+Ebben az oktatóanyagban az Aspose.Words for Java programban a betöltési beállításokkal való munka különböző aspektusait vizsgáltuk. A betöltési beállítások kulcsszerepet játszanak a dokumentumok betöltésének és feldolgozásának testreszabásában, lehetővé téve a dokumentumfeldolgozás testreszabását az Ön igényeihez. Foglaljuk össze az útmutatóban tárgyalt főbb pontokat:
 
 ## GYIK
 
-### Hogyan kezelhetem a figyelmeztetéseket a dokumentum betöltése közben?
+### Hogyan kezelhetem a figyelmeztetéseket a dokumentum betöltése során?
 
- Figyelmeztető visszahívást állíthat be az alábbi módon`warningCallback()` fenti módszerrel. Testreszabhatja a`DocumentLoadingWarningCallback` osztályt, hogy az alkalmazás követelményei szerint kezelje a figyelmeztetéseket.
+Beállíthat egy figyelmeztető visszahívást, ahogy az a képen látható. `warningCallback()` a fenti módszerrel. Szabja testre a `DocumentLoadingWarningCallback` osztály a figyelmeztetések kezelésére az alkalmazás követelményeinek megfelelően.
 
-### Átalakíthatom az alakzatokat Office Math objektumokká a dokumentum betöltésekor?
+### Konvertálhatok alakzatokat Office Math objektumokká egy dokumentum betöltésekor?
 
- Igen, az alakzatokat Office Math objektumokká konvertálhatja a használatával`loadOptions.setConvertShapeToOfficeMath(true)`.
+Igen, az alakzatokat Office Math objektumokká alakíthatja a következővel: `loadOptions.setConvertShapeToOfficeMath(true)`.
 
 ### Hogyan adhatom meg az MS Word verzióját a dokumentum betöltéséhez?
 
- Használat`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` az MS Word verziójának megadásához a dokumentum betöltéséhez.
+Használat `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` a dokumentum betöltéséhez használt MS Word verzió megadásához.
 
-###  Mi a célja a`setTempFolder` method in Load Options?
+### Mi a célja a `setTempFolder` metódus a Betöltési beállításokban?
 
- A`setTempFolder`metódus lehetővé teszi annak a mappának a megadását, ahol a dokumentumfeldolgozás során ideiglenes fájlokat tárolnak.
+A `setTempFolder` A metódus lehetővé teszi annak a mappának a megadását, ahol az ideiglenes fájlok tárolódnak a dokumentumfeldolgozás során.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

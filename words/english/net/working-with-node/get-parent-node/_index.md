@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-node/get-parent-node/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Parent Node
@@ -86,9 +89,13 @@ Yes, for full functionality, you need a license. You can start with a free trial
 ### Where can I find more detailed documentation?
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

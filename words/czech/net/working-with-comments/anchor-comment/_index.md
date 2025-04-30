@@ -1,31 +1,33 @@
 ---
-title: Komentář kotvy
-linktitle: Komentář kotvy
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat kotvící komentáře do dokumentů aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro efektivní spolupráci na dokumentech.
-weight: 10
-url: /cs/net/working-with-comments/anchor-comment/
+"description": "Naučte se, jak přidávat kotevní komentáře do dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro efektivní spolupráci na dokumentech."
+"linktitle": "Komentář k ukotvení"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Komentář k ukotvení"
+"url": "/cs/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Komentář kotvy
+# Komentář k ukotvení
 
 ## Zavedení
 
-Ocitli jste se někdy v situaci, kdy jste potřebovali programově přidávat komentáře ke konkrétním textovým oddílům v dokumentu aplikace Word? Představte si, že spolupracujete na dokumentu se svým týmem a potřebujete zvýraznit určité části komentáři, aby je ostatní mohli zkontrolovat. V tomto tutoriálu se ponoříme hluboko do toho, jak vkládat kotvící komentáře do dokumentů aplikace Word pomocí Aspose.Words for .NET. Tento proces rozdělíme do jednoduchých kroků, abyste jej mohli snadno sledovat a implementovat do svých projektů.
+Už jste se někdy ocitli v situaci, kdy jste potřebovali programově přidat komentáře k určitým částem textu v dokumentu Word? Představte si, že spolupracujete na dokumentu se svým týmem a potřebujete zvýraznit určité části komentáři, aby si je ostatní mohli prohlédnout. V tomto tutoriálu se podrobně ponoříme do toho, jak vkládat kotevní komentáře do dokumentů Word pomocí Aspose.Words pro .NET. Rozdělíme proces do jednoduchých kroků, abyste je mohli snadno sledovat a implementovat do svých projektů.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 
--  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Jakékoli vývojové prostředí .NET, jako je Visual Studio.
-- Základní porozumění C#: Znalost programování C# vám pomůže snadno postupovat podle kroků.
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Jakékoli vývojové prostředí pro .NET, například Visual Studio.
+- Základní znalost C#: Znalost programování v C# vám pomůže snadno sledovat jednotlivé kroky.
 
-Nyní se pojďme ponořit do jmenných prostorů, které budete muset pro tento úkol importovat.
+Nyní se ponořme do jmenných prostorů, které budete pro tento úkol potřebovat importovat.
 
 ## Importovat jmenné prostory
 
@@ -38,25 +40,25 @@ using Aspose.Words.CommentRangeStart;
 using Aspose.Words.CommentRangeEnd;
 ```
 
-předpoklady a jmennými prostory z cesty, pojďme k zábavnější části: rozebrání procesu krok za krokem.
+Když máme za sebou předpoklady a jmenné prostory, pojďme k té zábavné části: rozebrání procesu krok za krokem.
 
 ## Krok 1: Vytvořte nový dokument
 
-Nejprve vytvořte nový dokument aplikace Word. To bude sloužit jako plátno pro naše komentáře.
+Nejprve si vytvořme nový dokument Wordu. Ten bude sloužit jako plátno pro naše komentáře.
 
 ```csharp
-// Definujte adresář, do kterého bude dokument uložen
+// Definujte adresář, kam bude dokument uložen
 string dataDir = "YOUR DOCUMENT DIRECTORY";        
 
 // Vytvořte instanci třídy Document
 Document doc = new Document();
 ```
 
- V tomto kroku inicializujeme nový`Document` objekt, který bude použit k přidání našich komentářů.
+V tomto kroku inicializujeme nový `Document` objekt, který bude použit k přidávání našich komentářů.
 
-## Krok 2: Přidejte text do dokumentu
+## Krok 2: Přidání textu do dokumentu
 
-Dále do dokumentu přidáme nějaký text. Tento text bude cílem našich komentářů.
+Dále do dokumentu přidáme text. Tento text bude cílem našich komentářů.
 
 ```csharp
 // Vytvořte první odstavec a spustí se
@@ -67,7 +69,7 @@ para1.AppendChild(run1);
 para1.AppendChild(run2);
 doc.FirstSection.Body.AppendChild(para1);
 
-// Vytvořte druhý odstavec a spustí se
+// Vytvořte druhý odstavec a spusťte ho
 Paragraph para2 = new Paragraph(doc);
 Run run3 = new Run(doc, "is ");
 Run run4 = new Run(doc, "added ");
@@ -76,45 +78,45 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- Zde vytvoříme dva odstavce s nějakým textem. Každý text je zapouzdřen v a`Run` objekt, který se pak přidá do odstavců.
+Zde vytvoříme dva odstavce s nějakým textem. Každý kus textu je zapouzdřen v `Run` objekt, který je poté přidán do odstavců.
 
 ## Krok 3: Vytvořte komentář
 
-Nyní vytvoříme komentář, který připojíme k našemu textu.
+Nyní si vytvořme komentář, který připojíme k našemu textu.
 
 ```csharp
-// Vytvořte nový komentář
+// Vytvořit nový komentář
 Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- V tomto kroku vytvoříme a`Comment` objekt a přidejte odstavec a běh s textem komentáře.
+V tomto kroku vytvoříme `Comment` objekt a přidejte odstavec a úsek s textem komentáře.
 
 ## Krok 4: Definujte rozsah komentářů
 
-Pro ukotvení komentáře ke konkrétnímu textu musíme definovat začátek a konec rozsahu komentáře.
+Abychom komentář ukotvili ke konkrétnímu textu, musíme definovat začátek a konec rozsahu komentářů.
 
 ```csharp
 // Definujte CommentRangeStart a CommentRangeEnd
 CommentRangeStart commentRangeStart = new CommentRangeStart(doc, comment.Id);
 CommentRangeEnd commentRangeEnd = new CommentRangeEnd(doc, comment.Id);
 
-// Vložte CommentRangeStart a CommentRangeEnd do dokumentu
+// Vložte do dokumentu CommentRangeStart a CommentRangeEnd.
 run1.ParentNode.InsertAfter(commentRangeStart, run1);
 run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 
-// Přidejte komentář k dokumentu
+// Přidat komentář do dokumentu
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- Tady tvoříme`CommentRangeStart` a`CommentRangeEnd` objekty a spojí je s komentářem pomocí jeho ID. Tyto rozsahy pak vložíme do dokumentu, čímž efektivně ukotvíme náš komentář k zadanému textu.
+Zde tvoříme `CommentRangeStart` a `CommentRangeEnd` objekty a propojíme je s komentářem pomocí jeho ID. Tyto rozsahy pak vložíme do dokumentu, čímž efektivně ukotvíme náš komentář k zadanému textu.
 
 ## Krok 5: Uložte dokument
 
-Nakonec uložme náš dokument do zadaného adresáře.
+Nakonec uložíme náš dokument do zadaného adresáře.
 
 ```csharp
-// Uložte dokument
+// Uložit dokument
 doc.Save(dataDir + "WorkingWithComments.AnchorComment.doc");
 ```
 
@@ -122,27 +124,32 @@ Tento krok uloží dokument s ukotveným komentářem do vámi zadaného adresá
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili, jak přidávat kotvící komentáře ke konkrétním textovým oddílům v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato technika je neuvěřitelně užitečná pro spolupráci na dokumentech, umožňuje vám snadno zvýrazňovat a komentovat konkrétní části textu. Ať už pracujete na projektu se svým týmem nebo kontrolujete dokumenty, tato metoda zvýší vaši produktivitu a zefektivní váš pracovní postup.
+A tady to máte! Úspěšně jste se naučili, jak přidávat kotevní komentáře k určitým částem textu v dokumentu Word pomocí Aspose.Words pro .NET. Tato technika je neuvěřitelně užitečná pro spolupráci na dokumentech, protože vám umožňuje snadno zvýrazňovat a komentovat konkrétní části textu. Ať už pracujete na projektu se svým týmem nebo kontrolujete dokumenty, tato metoda zvýší vaši produktivitu a zefektivní váš pracovní postup.
 
-## FAQ
+## Často kladené otázky
 
-### Jaký je účel použití kotevních komentářů v dokumentech aplikace Word?
-Kotevní komentáře se používají ke zvýraznění a komentování konkrétních částí textu, což usnadňuje poskytování zpětné vazby a spolupráci na dokumentech.
+### Jaký je účel používání kotevních komentářů v dokumentech Wordu?
+Kotvící komentáře se používají k zvýraznění a komentování konkrétních částí textu, což usnadňuje poskytování zpětné vazby a spolupráci na dokumentech.
 
-### Mohu přidat více komentářů do stejné textové části?
-Ano, do stejné textové části můžete přidat více komentářů definováním více rozsahů komentářů.
+### Mohu do stejné textové sekce přidat více komentářů?
+Ano, do stejné textové sekce můžete přidat více komentářů definováním více rozsahů komentářů.
 
-### Je Aspose.Words for .NET zdarma k použití?
- Aspose.Words for .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[zde](https://releases.aspose.com/) . Pro plné funkce si můžete zakoupit licenci[zde](https://purchase.aspose.com/buy).
+### Je Aspose.Words pro .NET zdarma k použití?
+Aspose.Words pro .NET nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout. [zde](https://releases.aspose.com/)Pro plné funkce si můžete zakoupit licenci. [zde](https://purchase.aspose.com/buy).
 
-### Mohu upravit vzhled komentářů?
+### Mohu si přizpůsobit vzhled komentářů?
 Zatímco Aspose.Words se zaměřuje na funkčnost, vzhled komentářů v dokumentech Wordu je obecně řízen samotným Wordem.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

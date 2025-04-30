@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Styles và Themes trong Aspose.Words cho Java
-linktitle: Sử dụng Kiểu và Chủ đề
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn.
-weight: 20
-url: /vi/java/document-manipulation/using-styles-and-themes/
+"description": "Tìm hiểu cách cải thiện định dạng tài liệu bằng Aspose.Words for Java. Khám phá các kiểu, chủ đề và nhiều hơn nữa trong hướng dẫn toàn diện này với các ví dụ về mã nguồn."
+"linktitle": "Sử dụng Kiểu và Chủ đề"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Styles và Themes trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Styles và Themes trong Aspose.Words cho Java
@@ -25,7 +27,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với cá
 ```java
 Document doc = new Document();
 String styleName = "";
-//Nhận bộ sưu tập kiểu từ tài liệu.
+// Nhận bộ sưu tập kiểu từ tài liệu.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ Mã này sẽ lấy các kiểu được xác định trong tài liệu và in t
 
 ## Sao chép kiểu
 
- Để sao chép kiểu từ tài liệu này sang tài liệu khác, bạn có thể sử dụng`copyStylesFromTemplate` phương pháp như được hiển thị dưới đây:
+Để sao chép kiểu từ tài liệu này sang tài liệu khác, bạn có thể sử dụng `copyStylesFromTemplate` phương pháp như được hiển thị dưới đây:
 
 ```java
 @Test
@@ -122,7 +124,7 @@ Hướng dẫn này đã đề cập đến những điều cơ bản về cách
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào tôi có thể lấy lại thuộc tính chủ đề trong Aspose.Words cho Java?
+### Làm thế nào tôi có thể lấy lại các thuộc tính chủ đề trong Aspose.Words cho Java?
 
 Bạn có thể lấy các thuộc tính chủ đề bằng cách truy cập vào đối tượng chủ đề và các thuộc tính của nó.
 
@@ -132,10 +134,15 @@ Bạn có thể thiết lập thuộc tính chủ đề bằng cách sửa đổ
 
 ### Làm thế nào tôi có thể sử dụng bộ phân cách kiểu để chuyển đổi kiểu trong cùng một đoạn văn?
 
- Bạn có thể chèn các bộ phân cách kiểu bằng cách sử dụng`insertStyleSeparator` phương pháp của`DocumentBuilder` lớp học.
+Bạn có thể chèn các bộ phân cách kiểu bằng cách sử dụng `insertStyleSeparator` phương pháp của `DocumentBuilder` lớp học.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

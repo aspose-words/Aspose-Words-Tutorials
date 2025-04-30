@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read Active XControl Properties From Word File
@@ -128,9 +131,13 @@ Yes, Aspose.Words for .NET can be used with any .NET language, including VB.NET 
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

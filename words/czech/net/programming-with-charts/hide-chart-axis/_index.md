@@ -1,34 +1,36 @@
 ---
-title: Skrýt osu grafu v dokumentu aplikace Word
-linktitle: Skrýt osu grafu v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak skrýt osu grafu v dokumentu aplikace Word pomocí Aspose.Words for .NET, pomocí našeho podrobného výukového programu krok za krokem.
-weight: 10
-url: /cs/net/programming-with-charts/hide-chart-axis/
+"description": "Naučte se, jak skrýt osu grafu v dokumentu Word pomocí Aspose.Words pro .NET v našem podrobném návodu krok za krokem."
+"linktitle": "Skrýt osu grafu v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Skrýt osu grafu v dokumentu Word"
+"url": "/cs/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skrýt osu grafu v dokumentu aplikace Word
+# Skrýt osu grafu v dokumentu Word
 
 ## Zavedení
 
-Vytváření dynamických a vizuálně přitažlivých dokumentů aplikace Word často zahrnuje začlenění tabulek a grafů. Jeden takový scénář může vyžadovat skrytí osy grafu pro čistší prezentaci. Aspose.Words for .NET poskytuje komplexní a snadno použitelné API pro takové úkoly. Tento výukový program vás provede kroky ke skrytí osy grafu v dokumentu aplikace Word pomocí Aspose.Words for .NET.
+Vytváření dynamických a vizuálně atraktivních dokumentů Word často zahrnuje začlenění grafů a tabulek. Jeden takový scénář může vyžadovat skrytí osy grafu pro přehlednější prezentaci. Aspose.Words pro .NET poskytuje komplexní a snadno použitelné API pro takové úkoly. Tento tutoriál vás provede kroky, jak skrýt osu grafu v dokumentu Word pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
+Než se pustíme do tutoriálu, ujistěte se, že máte následující předpoklady:
 
--  Aspose.Words for .NET: Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Jakékoli IDE, které podporuje vývoj .NET, jako je Visual Studio.
-- .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework.
-- Základní znalost C#: Výhodou bude znalost programovacího jazyka C#.
+- Aspose.Words pro .NET: Můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Jakékoli IDE, které podporuje vývoj v .NET, například Visual Studio.
+- .NET Framework: Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework.
+- Základní znalost C#: Znalost programovacího jazyka C# bude výhodou.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít pracovat s Aspose.Words for .NET, musíte do projektu importovat požadované jmenné prostory. Můžete to udělat takto:
+Abyste mohli začít pracovat s Aspose.Words pro .NET, musíte do projektu importovat požadované jmenné prostory. Zde je návod, jak to udělat:
 
 ```csharp
 using Aspose.Words;
@@ -36,46 +38,46 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 ```
 
-Pojďme si tento proces rozdělit do jednoduchých, snadno pochopitelných kroků.
+Rozdělme si proces na jednoduché a snadno sledovatelné kroky.
 
-## Krok 1: Inicializujte Document a DocumentBuilder
+## Krok 1: Inicializace dokumentu a nástroje DocumentBuilder
 
-První krok zahrnuje vytvoření nového dokumentu aplikace Word a inicializaci objektu DocumentBuilder.
+Prvním krokem je vytvoření nového dokumentu Word a inicializace objektu DocumentBuilder.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- V tomto kroku definujeme cestu, kam bude dokument uložen. Poté vytvoříme nový`Document` objekt a a`DocumentBuilder` začněte budovat náš dokument.
+V tomto kroku definujeme cestu, kam bude dokument uložen. Poté vytvoříme novou `Document` objekt a `DocumentBuilder` objekt pro zahájení tvorby našeho dokumentu.
 
-## Krok 2: Vložte graf
+## Krok 2: Vložení grafu
 
- Dále vložíme do dokumentu graf pomocí`DocumentBuilder` objekt.
+Dále vložíme do dokumentu graf pomocí `DocumentBuilder` objekt.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Zde vložíme sloupcový graf se zadanými rozměry. The`InsertChart` metoda vrací a`Shape` objekt, který obsahuje graf.
+Zde vložíme sloupcový graf se zadanými rozměry. `InsertChart` metoda vrací `Shape` objekt, který obsahuje graf.
 
-## Krok 3: Vymažte existující sérii
+## Krok 3: Vymazat existující sérii
 
-Před přidáním nových dat do grafu musíme vymazat všechny existující řady.
+Než do grafu přidáme nová data, musíme vymazat všechny existující řady.
 
 ```csharp
 chart.Series.Clear();
 ```
 
-Tento krok zajistí, že všechna výchozí data z grafu budou odstraněna, čímž se uvolní místo pro nová data, která přidáme jako další.
+Tento krok zajistí, že veškerá výchozí data v grafu budou odstraněna a uvolní místo pro nová data, která přidáme dále.
 
-## Krok 4: Přidejte data série
+## Krok 4: Přidání dat série
 
-Nyní do grafu přidáme vlastní datovou řadu.
+Nyní si do grafu přidejme vlastní datovou řadu.
 
 ```csharp
 chart.Series.Add("Aspose Series 1",
@@ -83,21 +85,21 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 ```
 
-V tomto kroku přidáme řadu s názvem „Aspose Series 1“ s odpovídajícími kategoriemi a hodnotami.
+tomto kroku přidáme sérii s názvem „Aspose Series 1“ s odpovídajícími kategoriemi a hodnotami.
 
-## Krok 5: Skryjte osu Y
+## Krok 5: Skrytí osy Y
 
- Chcete-li skrýt osu Y grafu, jednoduše nastavíme`Hidden` vlastnost osy Y k`true`.
+Chcete-li skrýt osu Y grafu, jednoduše nastavíme `Hidden` vlastnost osy Y k `true`.
 
 ```csharp
 chart.AxisY.Hidden = true;
 ```
 
-Tento řádek kódu skrývá osu Y, takže je v grafu neviditelná.
+Tento řádek kódu skryje osu Y, takže je v grafu neviditelná.
 
 ## Krok 6: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře.
+Nakonec uložte dokument do zadaného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.HideChartAxis.docx");
@@ -107,28 +109,33 @@ Tento příkaz uloží dokument aplikace Word s grafem do zadané cesty.
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili, jak skrýt osu grafu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná knihovna usnadňuje programovou manipulaci s dokumenty Wordu. Podle těchto kroků můžete s minimálním úsilím vytvářet přizpůsobené a profesionálně vypadající dokumenty.
+Gratulujeme! Úspěšně jste se naučili, jak skrýt osu grafu v dokumentu Word pomocí knihovny Aspose.Words pro .NET. Tato výkonná knihovna usnadňuje programovou manipulaci s dokumenty Word. Dodržováním těchto kroků můžete s minimálním úsilím vytvářet přizpůsobené a profesionálně vypadající dokumenty.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonné API pro vytváření, úpravy, konverzi a manipulaci s dokumenty Wordu v aplikacích .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonné API pro vytváření, úpravy, převod a manipulaci s dokumenty Word v aplikacích .NET.
 
-### Mohu skrýt obě osy X a Y v grafu?
- Ano, můžete skrýt obě osy nastavením`Hidden` majetek obou`AxisX` a`AxisY` na`true`.
+### Mohu v grafu skrýt osy X i Y?
+Ano, obě osy můžete skrýt nastavením `Hidden` majetek obou `AxisX` a `AxisY` na `true`.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 ### Kde najdu další dokumentaci?
- Podrobnou dokumentaci najdete na Aspose.Words pro .NET[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci k Aspose.Words pro .NET naleznete na stránce [zde](https://reference.aspose.com/words/net/).
 
 ### Jak mohu získat podporu pro Aspose.Words pro .NET?
- Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od komunity Aspose [zde](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

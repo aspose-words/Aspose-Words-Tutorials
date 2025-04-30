@@ -1,14 +1,16 @@
 ---
-title: Przenieś do końca zakładki w dokumencie Word
-linktitle: Przenieś do końca zakładki w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak przejść do końca zakładki w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby precyzyjnie manipulować dokumentem.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Dowiedz się, jak przejść do końca zakładki w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby precyzyjnie manipulować dokumentem."
+"linktitle": "Przenieś do końca zakładki w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przenieś do końca zakładki w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś do końca zakładki w dokumencie Word
@@ -21,9 +23,9 @@ Hej, kolego programisto! Czy kiedykolwiek znalazłeś się w sieci manipulacji d
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
--  Visual Studio: Możesz pobrać je ze strony[Tutaj](https://visualstudio.microsoft.com/).
--  Aspose.Words dla .NET: Pobierz z[link do pobrania](https://releases.aspose.com/words/net/).
--  Ważna licencja Aspose.Words: Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
+- Visual Studio: Możesz pobrać je ze strony [Tutaj](https://visualstudio.microsoft.com/).
+- Aspose.Words dla .NET: Pobierz z [link do pobrania](https://releases.aspose.com/words/net/).
+- Ważna licencja Aspose.Words: Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/) jeśli nie masz.
 
 Oczywiście, podstawowa znajomość języka C# i .NET bardzo się przyda.
 
@@ -45,11 +47,11 @@ Dobrze, podzielmy to na przyswajalne kroki. Każdy krok będzie miał swój wła
 
 ### Utwórz nowy projekt
 
- Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli C#. Nazwij go w następujący sposób`BookmarkEndExample`. To będzie nasz plac zabaw w tym samouczku.
+Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli C#. Nazwij go w następujący sposób `BookmarkEndExample`. To będzie nasz plac zabaw w tym samouczku.
 
 ### Zainstaluj Aspose.Words dla .NET
 
- Następnie musisz zainstalować Aspose.Words dla .NET. Możesz to zrobić za pomocą NuGet Package Manager. Wystarczy wyszukać`Aspose.Words` i kliknij instaluj. Alternatywnie, użyj Konsoli Menedżera Pakietów:
+Następnie musisz zainstalować Aspose.Words dla .NET. Możesz to zrobić za pomocą NuGet Package Manager. Wystarczy wyszukać `Aspose.Words` i kliknij instaluj. Alternatywnie, użyj Konsoli Menedżera Pakietów:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Pamiętaj o wymianie`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, pod którą zapisany jest Twój dokument.
+Pamiętaj o wymianie `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, pod którą zapisany jest Twój dokument.
 
 ## Krok 3: Zainicjuj DocumentBuilder
 
@@ -88,19 +90,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Zrozumienie MoveToBookmark
 
- Ten`MoveToBookmark`Metoda pozwala na przejście do konkretnej zakładki w dokumencie. Podpis metody to:
+Ten `MoveToBookmark` Metoda pozwala na przejście do konkretnej zakładki w dokumencie. Podpis metody to:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
 - `bookmarkName`: Nazwa zakładki, do której chcesz przejść.
-- `isBookmarkStart` :Jeśli ustawione na`true`, przenosi na początek zakładki.
-- `isBookmarkEnd` :Jeśli ustawione na`true`, przechodzi na koniec zakładki.
+- `isBookmarkStart`:Jeśli ustawione na `true`, przenosi na początek zakładki.
+- `isBookmarkEnd`:Jeśli ustawione na `true`, przechodzi na koniec zakładki.
 
 ### Implementacja metody MoveToBookmark
 
- Przejdźmy teraz na koniec zakładki`MyBookmark1`:
+Przejdźmy teraz na koniec zakładki `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
@@ -126,7 +128,7 @@ Na koniec nie zapomnij zapisać zmian:
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- Teraz możesz otworzyć zaktualizowany dokument i zobaczyć tekst „To jest zakładka”. zaraz po`MyBookmark1`.
+Teraz możesz otworzyć zaktualizowany dokument i zobaczyć tekst „To jest zakładka”. zaraz po `MyBookmark1`.
 
 ## Wniosek
 
@@ -136,27 +138,32 @@ Oto masz! Właśnie nauczyłeś się, jak przejść na koniec zakładki w dokume
 
 ### 1. Czy mogę przejść na początek zakładki zamiast na jej koniec?
 
- Absolutnie! Po prostu ustaw`isBookmarkStart` parametr do`true` I`isBookmarkEnd` Do`false` w`MoveToBookmark` metoda.
+Absolutnie! Po prostu ustaw `isBookmarkStart` parametr do `true` I `isBookmarkEnd` Do `false` w `MoveToBookmark` metoda.
 
 ### 2. Co zrobić, jeśli nazwa mojej zakładki jest nieprawidłowa?
 
- Jeżeli nazwa zakładki jest nieprawidłowa lub nie istnieje,`MoveToBookmark` metoda zwróci`false`, a DocumentBuilder nie zostanie przeniesiony w żadne miejsce.
+Jeśli nazwa zakładki jest nieprawidłowa lub nie istnieje, `MoveToBookmark` metoda zwróci `false`, a DocumentBuilder nie zostanie przeniesiony w żadne miejsce.
 
 ### 3. Czy mogę wstawić inne typy treści na końcu zakładki?
 
- Tak, DocumentBuilder pozwala na wstawianie różnych typów treści, takich jak tabele, obrazy i inne. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Tak, DocumentBuilder pozwala na wstawianie różnych typów treści, takich jak tabele, obrazy i inne. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### 4. Jak uzyskać tymczasową licencję na Aspose.Words?
 
- Możesz uzyskać tymczasową licencję od[Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję od [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/).
 
 ### 5. Czy Aspose.Words dla .NET jest darmowy?
 
-Aspose.Words dla platformy .NET to produkt komercyjny, ale możesz uzyskać bezpłatną wersję próbną na stronie[Strona internetowa Aspose](https://releases.aspose.com/).
+Aspose.Words dla platformy .NET to produkt komercyjny, ale możesz uzyskać bezpłatną wersję próbną na stronie [Strona internetowa Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: अलग पेज सेटअप
-linktitle: अलग पेज सेटअप
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों को मर्ज करते समय विभिन्न पृष्ठ कॉन्फ़िगरेशन सेट अप करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/join-and-append-documents/different-page-setup/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों को मर्ज करते समय विभिन्न पृष्ठ कॉन्फ़िगरेशन सेट अप करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "अलग पेज सेटअप"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "अलग पेज सेटअप"
+"url": "/hi/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अलग पेज सेटअप
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/different-page-setup/
 
 इससे पहले कि हम अपने हाथ गंदे करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: कोई भी संस्करण जो .NET के लिए Aspose.Words का समर्थन करता है।
 3. विकास वातावरण: विज़ुअल स्टूडियो या कोई अन्य .NET-संगत IDE.
 4. बुनियादी C# ज्ञान: वाक्यविन्यास और संरचना को समझने के लिए बस मूल बातें।
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## चरण 2: दस्तावेज़ लोड करें
 
- अब, आइए उन दस्तावेज़ों को लोड करें जिन्हें हम मर्ज करना चाहते हैं। इस उदाहरण के लिए, आपको दो Word दस्तावेज़ों की आवश्यकता होगी:`Document source.docx` और`Northwind traders.docx`सुनिश्चित करें कि ये फ़ाइलें आपकी प्रोजेक्ट निर्देशिका में हैं।
+अब, आइए उन दस्तावेज़ों को लोड करें जिन्हें हम मर्ज करना चाहते हैं। इस उदाहरण के लिए, आपको दो Word दस्तावेज़ों की आवश्यकता होगी: `Document source.docx` और `Northwind traders.docx`सुनिश्चित करें कि ये फ़ाइलें आपकी प्रोजेक्ट निर्देशिका में हैं।
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 सुचारू प्रवाह सुनिश्चित करने के लिए, हमें स्रोत दस्तावेज़ में पैराग्राफ़ फ़ॉर्मेटिंग को समायोजित करने की आवश्यकता है।
 
- स्रोत दस्तावेज़ में सभी पैराग्राफ़ों को पुनरावृत्त करें और सेट करें`KeepWithNext` संपत्ति।
+स्रोत दस्तावेज़ में सभी पैराग्राफ़ों को पुनरावृत्त करें और सेट करें `KeepWithNext` संपत्ति।
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -136,17 +138,22 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
 आप मार्जिन सेटिंग का मिलान भी उसी प्रकार कर सकते हैं जिस प्रकार हमने पृष्ठ की चौड़ाई, ऊंचाई और ओरिएंटेशन का मिलान किया है।
 
 ### क्या Aspose.Words .NET कोर के साथ संगत है?
-हां, Aspose.Words for .NET .NET कोर के साथ पूरी तरह से संगत है।
+हां, .NET के लिए Aspose.Words .NET कोर के साथ पूरी तरह से संगत है।
 
 ### क्या मैं दोनों दस्तावेज़ों की शैलियों को संरक्षित कर सकता हूँ?
- हां`ImportFormatMode.KeepSourceFormatting` विकल्प यह सुनिश्चित करता है कि स्रोत दस्तावेज़ की शैलियाँ संरक्षित रहें।
+हां `ImportFormatMode.KeepSourceFormatting` विकल्प यह सुनिश्चित करता है कि स्रोत दस्तावेज़ की शैलियाँ संरक्षित रहें।
 
 ### मुझे Aspose.Words के बारे में अधिक सहायता कहां मिल सकती है?
- इसकी जाँच पड़ताल करो[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या उनके पास जाएँ[सहयता मंच](https://forum.aspose.com/c/words/8) अधिक सहायता के लिए.
+इसकी जाँच पड़ताल करो [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या उनके पास जाएँ [सहयता मंच](https://forum.aspose.com/c/words/8) अधिक सहायता के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: คั่นหน้าคอลัมน์ตารางในเอกสาร Word
-linktitle: คั่นหน้าคอลัมน์ตารางในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีสร้างบุ๊กมาร์กคอลัมน์ตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/programming-with-bookmarks/bookmark-table-columns/
+"description": "เรียนรู้วิธีสร้างบุ๊กมาร์กคอลัมน์ตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "คั่นหน้าคอลัมน์ตารางในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "คั่นหน้าคอลัมน์ตารางในเอกสาร Word"
+"url": "/th/net/programming-with-bookmarks/bookmark-table-columns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คั่นหน้าคอลัมน์ตารางในเอกสาร Word
 
 ## การแนะนำ
 
-หากคุณกำลังมองหาวิธีเพิ่มพูนทักษะการจัดการเอกสารอัตโนมัติ คุณมาถูกที่แล้ว บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับกระบวนการสร้างบุ๊กมาร์กคอลัมน์ในตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมหรือยัง เริ่มกันเลย!
+หากคุณกำลังมองหาวิธีเพิ่มพูนทักษะการจัดการเอกสารอัตโนมัติ คุณมาถูกที่แล้ว บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับกระบวนการสร้างบุ๊กมาร์กคอลัมน์ในตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมเริ่มใช้งานหรือยัง มาเริ่มกันเลย!
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด มีบางสิ่งที่คุณต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -39,7 +41,7 @@ using Aspose.Words.Tables;
 
 ## ขั้นตอนที่ 1: เริ่มต้นใช้งาน Document และ DocumentBuilder
 
- ขั้นแรกเราต้องสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน`DocumentBuilder` ที่จะทำงานกับมัน
+ขั้นแรกเราต้องสร้างเอกสาร Word ใหม่และเริ่มต้นใช้งาน `DocumentBuilder` ที่จะทำงานกับมัน
 
 ```csharp
 Document doc = new Document();
@@ -121,20 +123,25 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Word ด้วยโปรแกรม ช่วยให้คุณสามารถสร้าง แก้ไข และแปลงเอกสารได้โดยไม่ต้องติดตั้ง Microsoft Word
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก[เว็บไซต์](https://releases.aspose.com/words/net/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้มา
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก [เว็บไซต์](https://releases.aspose.com/words/net/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้มา
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับภาษาการเขียนโปรแกรมอื่น ๆ ได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้ร่วมกับภาษาใดๆ ที่รองรับ .NET ได้ รวมถึง C#, VB.NET และ F#
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญ Aspose ได้โดยเยี่ยมชม[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญ Aspose ได้โดยเยี่ยมชม [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/words/8).
 
 ### มี Aspose.Words เวอร์ชันทดลองใช้งานสำหรับ .NET หรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

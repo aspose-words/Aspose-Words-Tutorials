@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Encrypt Docx With Password
@@ -100,9 +103,13 @@ If you forget the password, there's no way to recover the encrypted document usi
 Yes, you can write a script to loop through multiple documents and apply encryption to each one using the same steps outlined in this tutorial.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

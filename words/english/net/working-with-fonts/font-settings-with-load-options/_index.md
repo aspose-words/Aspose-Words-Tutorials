@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/font-settings-with-load-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Settings With Load Options
@@ -100,9 +103,13 @@ Yes, Aspose.Words for .NET supports a wide range of Word document formats, inclu
 ### Can I apply these font settings to multiple documents at once?
 Absolutely! You can loop through multiple documents and apply the same font settings to each one.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

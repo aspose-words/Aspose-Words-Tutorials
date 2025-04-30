@@ -1,31 +1,33 @@
 ---
-title: Használja a célgépről származó betűtípust
-linktitle: Használja a célgépről származó betűtípust
-second_title: Aspose.Words Document Processing API
-description: Az Aspose.Words for .NET segítségével megtudhatja, hogyan használhatja a célgép betűtípusait Word-dokumentumaiban. Kövesse lépésenkénti útmutatónkat a zökkenőmentes betűtípus-integráció érdekében.
-weight: 10
-url: /hu/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/
+"description": "Tanuld meg, hogyan használhatod a célgépről származó betűtípusokat a Word-dokumentumaidban az Aspose.Words for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat a betűtípusok zökkenőmentes integrációjához."
+"linktitle": "Használja a célgép betűtípusát"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Használja a célgép betűtípusát"
+"url": "/hu/net/programming-with-htmlfixedsaveoptions/use-font-from-target-machine/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Használja a célgépről származó betűtípust
+# Használja a célgép betűtípusát
 
 ## Bevezetés
 
-Készen állsz, hogy belemerülj az Aspose.Words for .NET lenyűgöző világába? Kapcsold be, mert mindjárt elvezetünk egy utazásra a betűtípusok varázslatos birodalmában. Ma arra összpontosítunk, hogyan használjunk betűtípusokat a célgépről a Word dokumentumokkal való munka során. Ez a remek funkció biztosítja, hogy a dokumentum pontosan úgy nézzen ki, ahogyan szeretné, függetlenül attól, hogy hol tekintik meg. Kezdjük is!
+Készen állsz, hogy belemerülj az Aspose.Words for .NET lenyűgöző világába? Csatold be a csatodat, mert egy utazásra viszünk a betűtípusok varázslatos birodalmába. Ma arra összpontosítunk, hogyan használhatod a célgép betűtípusait Word dokumentumokkal való munka közben. Ez az ügyes funkció biztosítja, hogy a dokumentumod pontosan úgy nézzen ki, ahogyan szeretnéd, függetlenül attól, hogy hol tekinted meg. Kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a finom részletekbe, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belemennénk a részletekbe, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Words for .NET könyvtár. Ha még nem tette meg, letöltheti[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Be kell állítania egy .NET fejlesztői környezetet, például a Visual Studio-t.
-3. Dolgozandó dokumentum: Készítsen Word-dokumentumot tesztelésre. Egy "Lonópontok alternatív fonttal.docx" nevű dokumentumot fogunk használni.
+1. Aspose.Words for .NET: Győződjön meg róla, hogy telepítve van az Aspose.Words for .NET könyvtár. Ha még nem tette meg, letöltheti. [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Rendelkeznie kell egy beállított .NET fejlesztői környezettel, például a Visual Studio-val.
+3. Dolgozandó dokumentum: Készíts elő egy Word-dokumentumot a teszteléshez. Egy „Felsorolásjelek alternatív betűtípussal.docx” nevű dokumentumot fogunk használni.
 
-Most, hogy áttekintettük az alapokat, merüljünk el a kódban!
+Most, hogy áttekintettük az alapokat, lássuk a kódot!
 
 ## Névterek importálása
 
@@ -37,36 +39,36 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## 1. lépés: Töltse be a Word-dokumentumot
+## 1. lépés: Töltse be a Word dokumentumot
 
- Oktatóanyagunk első lépése a Word dokumentum betöltése. Itt kezdődik minden. Használjuk a`Document` osztályt az Aspose.Words könyvtárból ennek eléréséhez.
+Az oktatóanyagunk első lépése a Word dokumentum betöltése. Itt kezdődik minden. A következőt fogjuk használni: `Document` osztályt az Aspose.Words könyvtárból ennek eléréséhez.
 
-### 1.1. lépés: Határozza meg a dokumentum elérési útját
+### 1.1. lépés: A dokumentum elérési útjának meghatározása
 
-Kezdjük a dokumentumkönyvtár elérési útjának meghatározásával. Itt található a Word-dokumentum.
+Kezdjük a dokumentumok könyvtárának elérési útjának meghatározásával. Itt található a Word-dokumentum.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-### 1.2. lépés: Töltse be a dokumentumot
+### 1.2. lépés: A dokumentum betöltése
 
- Most betöltjük a dokumentumot a`Document` osztály.
+Most betöltjük a dokumentumot a következővel: `Document` osztály.
 
 ```csharp
-// Töltse be a Word dokumentumot
+// Töltsd be a Word dokumentumot
 Document doc = new Document(dataDir + "Bullet points with alternative font.docx");
 ```
 
-## 2. lépés: Konfigurálja a mentési beállításokat
+## 2. lépés: Mentési beállítások konfigurálása
 
-Ezután konfigurálnunk kell a mentési beállításokat. Ez a lépés kulcsfontosságú, mivel biztosítja, hogy a dokumentumban használt betűtípusok a célgéptől származzanak.
+Ezután konfigurálnunk kell a mentési beállításokat. Ez a lépés kulcsfontosságú, mivel biztosítja, hogy a dokumentumban használt betűtípusok a célgépről származzanak.
 
- Létrehozunk egy példányt`HtmlFixedSaveOptions` és állítsa be a`UseTargetMachineFonts`tulajdonát`true`.
+Létrehozunk egy példányt a következőből: `HtmlFixedSaveOptions` és állítsa be a `UseTargetMachineFonts` ingatlan `true`.
 
 ```csharp
-// Konfigurálja a biztonsági mentési beállításokat a „Betűtípusok használata a célgépről” funkcióval
+// Biztonsági mentési beállítások konfigurálása a „Célgépről származó betűtípusok használata” funkcióval
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 {
     UseTargetMachineFonts = true
@@ -75,52 +77,57 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 
 ## 3. lépés: Mentse el a dokumentumot
 
-Végül a dokumentumot rögzített HTML fájlként mentjük el. Itt történik a varázslat!
+Végül rögzített HTML fájlként mentjük el a dokumentumot. Itt történik a varázslat!
 
- Használjuk a`Save` módszerrel mentheti a dokumentumot a konfigurált mentési beállításokkal.
+Használni fogjuk a `Save` módszer a dokumentum mentésére a konfigurált mentési beállításokkal.
 
 ```csharp
-// Konvertálja a dokumentumot rögzített HTML formátumba
+// Dokumentum konvertálása fix HTML-re
 doc.Save(dataDir + "WorkingWithHtmlFixedSaveOptions.UseFontFromTargetMachine.html", saveOptions);
 ```
 
 ## 4. lépés: Ellenőrizze a kimenetet
 
-Végül, de nem utolsósorban, mindig jó ötlet ellenőrizni a kimenetet. Nyissa meg a mentett HTML-fájlt, és ellenőrizze, hogy a betűtípusok megfelelően vannak-e alkalmazva a célgépről.
+Végül, de nem utolsósorban, mindig jó ötlet ellenőrizni a kimenetet. Nyisd meg a mentett HTML fájlt, és ellenőrizd, hogy a betűtípusok helyesen vannak-e alkalmazva a célgépen.
 
-Keresse meg azt a könyvtárat, ahová a HTML-fájlt mentette, és nyissa meg egy webböngészőben.
+Navigálj abba a könyvtárba, ahová a HTML fájlt mentetted, és nyisd meg egy webböngészőben.
 
 ```csharp
-// Ellenőrizze a kimenetet a HTML-fájl megnyitásával
+// A kimenet ellenőrzéséhez nyissa meg a HTML fájlt.
 System.Diagnostics.Process.Start(dataDir + "WorkingWithHtmlFixedSaveOptions.UseFontFromTargetMachine.html");
 ```
 
-És megvan! Sikeresen használta a célgép betűtípusait a Word-dokumentumban az Aspose.Words for .NET használatával.
+És íme! Sikeresen használtad a célgép betűtípusait a Word-dokumentumodban az Aspose.Words for .NET használatával.
 
 ## Következtetés
 
-A célgépről származó betűtípusok használatával a Word-dokumentumok konzisztensnek és professzionálisnak tűnnek, függetlenül attól, hogy hol tekintik meg őket. Az Aspose.Words for .NET ezt a folyamatot egyszerűvé és hatékonysá teszi. Az oktatóanyag követésével megtanulta, hogyan tölthet be egy dokumentumot, konfigurálhatja a mentési beállításokat, és hogyan mentheti a dokumentumot a kívánt betűtípus-beállításokkal. Boldog kódolást!
+célgépről származó betűtípusok használata biztosítja, hogy a Word-dokumentumok egységes és professzionális megjelenésűek legyenek, függetlenül attól, hogy hol tekintik meg őket. Az Aspose.Words for .NET egyszerűvé és hatékonnyá teszi ezt a folyamatot. Az oktatóanyag követésével megtanultad, hogyan tölthetsz be egy dokumentumot, hogyan konfigurálhatod a mentési beállításokat, és hogyan mentheted el a dokumentumot a kívánt betűtípus-beállításokkal. Jó kódolást!
 
 ## GYIK
 
 ### Használhatom ezt a módszert más dokumentumformátumokkal?
-Igen, az Aspose.Words for .NET különféle dokumentumformátumokat támogat, és a különböző formátumokhoz hasonló mentési beállításokat konfigurálhat.
+Igen, az Aspose.Words for .NET különféle dokumentumformátumokat támogat, és hasonló mentési beállításokat konfigurálhat a különböző formátumokhoz.
 
-### Mi van, ha a célgép nem rendelkezik a szükséges betűtípusokkal?
-Ha a célgép nem rendelkezik a szükséges betűtípusokkal, előfordulhat, hogy a dokumentum nem a kívánt módon jelenik meg. Mindig célszerű betűtípusokat beágyazni, ha szükséges.
+### Mi van, ha a célgépen nincsenek meg a szükséges betűtípusok?
+Ha a célgépen nincsenek meg a szükséges betűtípusok, előfordulhat, hogy a dokumentum nem a kívánt módon jelenik meg. Mindig érdemes betűtípusokat beágyazni, ha szükséges.
 
 ### Hogyan ágyazhatok be betűtípusokat egy dokumentumba?
- A betűtípusok beágyazása a`FontSettings` osztály az Aspose.Words for .NET-ben. Lásd a[dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
+A betűtípusok beágyazása a következővel végezhető el: `FontSettings` osztály az Aspose.Words .NET-hez. Lásd a [dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
 
-### Van mód a dokumentum előnézetére mentés előtt?
- Igen, használhatod a`DocumentRenderer` osztályt a dokumentum előnézetének megtekintéséhez a mentés előtt. Nézze meg az Aspose.Words for .NET-et[dokumentáció](https://reference.aspose.com/words/net/) további információkért.
+### Van mód a dokumentum előnézetének megtekintésére mentés előtt?
+Igen, használhatod a `DocumentRenderer` osztályt a dokumentum mentés előtti előnézetéhez. Nézd meg az Aspose.Words .NET-hez készült verzióját. [dokumentáció](https://reference.aspose.com/words/net/) további információkért.
 
-### Testreszabhatom a HTML kimenetet?
- Teljesen! A`HtmlFixedSaveOptions` osztály különféle tulajdonságokat biztosít a HTML-kimenet testreszabásához. Fedezze fel a[dokumentáció](https://reference.aspose.com/words/net/) az összes elérhető opcióhoz.
+### Testreszabhatom tovább a HTML kimenetet?
+Abszolút! A `HtmlFixedSaveOptions` osztály különféle tulajdonságokat biztosít a HTML-kimenet testreszabásához. Fedezze fel a [dokumentáció](https://reference.aspose.com/words/net/) az összes elérhető opcióhoz.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

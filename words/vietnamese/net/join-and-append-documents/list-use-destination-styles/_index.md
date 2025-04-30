@@ -1,14 +1,16 @@
 ---
-title: Danh sách sử dụng các kiểu đích
-linktitle: Danh sách sử dụng các kiểu đích
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hợp nhất các tài liệu Word bằng Aspose.Words cho .NET mà không làm mất định dạng danh sách. Hướng dẫn từng bước để giữ nguyên kiểu tài liệu của bạn.
-weight: 10
-url: /vi/net/join-and-append-documents/list-use-destination-styles/
+"description": "Tìm hiểu cách hợp nhất các tài liệu Word bằng Aspose.Words cho .NET mà không làm mất định dạng danh sách. Hướng dẫn từng bước để giữ nguyên kiểu tài liệu của bạn."
+"linktitle": "Danh sách sử dụng các kiểu đích"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Danh sách sử dụng các kiểu đích"
+"url": "/vi/net/join-and-append-documents/list-use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Danh sách sử dụng các kiểu đích
@@ -21,11 +23,11 @@ Bạn đã bao giờ thử hợp nhất các tài liệu Word và bị rối v�
 
 Trước khi tìm hiểu sâu hơn, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Bất kỳ phiên bản nào gần đây đều được.
 3. Hiểu biết cơ bản về C#: Bạn không cần phải là một phù thủy, nhưng một chút hiểu biết sẽ giúp ích.
 
- Hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words trong dự án của mình. Nếu bạn không chắc chắn về cách thực hiện việc này, hãy[tài liệu](https://reference.aspose.com/words/net/) là nơi tuyệt vời để bắt đầu.
+Hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words trong dự án của mình. Nếu bạn không chắc chắn về cách thực hiện việc này, hãy [tài liệu](https://reference.aspose.com/words/net/) là nơi tuyệt vời để bắt đầu.
 
 ## Nhập không gian tên
 
@@ -47,7 +49,7 @@ Mỗi dự án đều bắt đầu bằng việc sắp xếp các tệp của b�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Dễ phải không?
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ. Dễ phải không?
 
 ## Bước 2: Tải tài liệu nguồn và đích của bạn
 
@@ -58,7 +60,7 @@ Document srcDoc = new Document(dataDir + "Document source with list.docx");
 Document dstDoc = new Document(dataDir + "Document destination with list.docx");
 ```
 
- Đây,`srcDoc` là tài liệu nguồn của bạn (tài liệu có danh sách bạn muốn sao chép) và`dstDoc` là tài liệu đích của bạn (là tài liệu mà bạn muốn dán các danh sách đó).
+Đây, `srcDoc` là tài liệu nguồn của bạn (tài liệu có danh sách bạn muốn sao chép) và `dstDoc` là tài liệu đích của bạn (là tài liệu mà bạn muốn dán các danh sách đó).
 
 ## Bước 3: Cấu hình Tùy chọn nhập
 
@@ -88,20 +90,25 @@ Vậy là xong! Việc hợp nhất các tài liệu mà không phải bận tâ
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó cho phép bạn tạo, sửa đổi và chuyển đổi tài liệu ở nhiều định dạng khác nhau.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải nó xuống từ[trang web](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt trong[tài liệu](https://reference.aspose.com/words/net/).
+Bạn có thể tải nó xuống từ [trang web](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt trong [tài liệu](https://reference.aspose.com/words/net/).
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
- Aspose.Words cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) với các tính năng hạn chế. Để có quyền truy cập đầy đủ, bạn sẽ cần phải mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) với các tính năng hạn chế. Để có quyền truy cập đầy đủ, bạn sẽ cần phải mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### ImportFormatOptions là gì?
- ImportFormatOptions cho phép bạn chỉ định cách xử lý định dạng khi nhập nội dung từ tài liệu này sang tài liệu khác. Ví dụ:`KeepSourceNumbering` đảm bảo rằng danh sách đánh số từ tài liệu nguồn được giữ nguyên.
+ImportFormatOptions cho phép bạn chỉ định cách xử lý định dạng khi nhập nội dung từ tài liệu này sang tài liệu khác. Ví dụ: `KeepSourceNumbering` đảm bảo rằng danh sách đánh số từ tài liệu nguồn được giữ nguyên.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng và các nhà phát triển Aspose.
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8), nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng và các nhà phát triển Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

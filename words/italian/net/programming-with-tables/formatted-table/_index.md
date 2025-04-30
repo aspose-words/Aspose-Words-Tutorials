@@ -1,33 +1,35 @@
 ---
-title: Tabella formattata
-linktitle: Tabella formattata
-second_title: API di elaborazione dei documenti Aspose.Words
-description: Scopri come creare e formattare tabelle nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata passo dopo passo.
-weight: 10
-url: /it/net/programming-with-tables/formatted-table/
+"description": "Scopri come creare e formattare tabelle nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata passo dopo passo."
+"linktitle": "Tabella formattata"
+"second_title": "API di elaborazione dei documenti Aspose.Words"
+"title": "Tabella formattata"
+"url": "/it/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabella formattata
 
 ## Introduzione
 
-Creare e formattare tabelle nei documenti Word a livello di programmazione può sembrare un compito arduo, ma con Aspose.Words per .NET diventa semplice e gestibile. In questo tutorial, ti guideremo attraverso la creazione di una tabella formattata in un documento Word utilizzando Aspose.Words per .NET. Tratteremo tutto, dall'impostazione dell'ambiente al salvataggio del documento con una tabella splendidamente formattata.
+Creare e formattare tabelle nei documenti Word a livello di codice può sembrare un compito arduo, ma con Aspose.Words per .NET diventa semplice e gestibile. In questo tutorial, ti guideremo nella creazione di una tabella formattata in un documento Word utilizzando Aspose.Words per .NET. Parleremo di tutto, dalla configurazione dell'ambiente al salvataggio del documento con una tabella splendidamente formattata.
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
+Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario:
 
-1. Aspose.Words per la libreria .NET: scaricala da[Qui](https://releases.aspose.com/words/net/).
+1. Aspose.Words per la libreria .NET: scaricala da [Qui](https://releases.aspose.com/words/net/).
 2. Ambiente di sviluppo: un IDE come Visual Studio.
 3. .NET Framework: assicurati che .NET Framework sia installato sul tuo computer.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
-Prima di scrivere il codice effettivo, è necessario importare gli spazi dei nomi necessari:
+Prima di scrivere il codice vero e proprio, è necessario importare gli spazi dei nomi necessari:
 
 ```csharp
 using System;
@@ -44,7 +46,7 @@ Per prima cosa devi definire il percorso in cui verrà salvato il documento.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sostituire`"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si desidera salvare il documento.
+Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo in cui si desidera salvare il documento.
 
 ## Passaggio 2: inizializzare il documento e DocumentBuilder
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- IL`DocumentBuilder` è una classe helper che semplifica il processo di creazione dei documenti.
+IL `DocumentBuilder` è una classe helper che semplifica il processo di creazione dei documenti.
 
 ## Passaggio 3: avviare la tabella
 
- Quindi, inizia a creare la tabella utilizzando`StartTable` metodo.
+Quindi, inizia a creare la tabella utilizzando `StartTable` metodo.
 
 ```csharp
 Table table = builder.StartTable();
@@ -70,13 +72,13 @@ Per iniziare la tabella è necessario inserire una cella.
 
 ## Passaggio 4: applicare la formattazione a livello di tabella
 
-Puoi applicare una formattazione che influenzi l'intera tabella. Ad esempio, impostando il rientro a sinistra:
+È possibile applicare una formattazione che influisca sull'intera tabella. Ad esempio, impostando il rientro a sinistra:
 
 ```csharp
 table.LeftIndent = 20.0;
 ```
 
-## Passaggio 5: formattare la riga dell'intestazione
+## Passaggio 5: formattare la riga di intestazione
 
 Imposta l'altezza, l'allineamento e altre proprietà per la riga dell'intestazione.
 
@@ -96,7 +98,7 @@ In questa fase, rendiamo visibile la riga dell'intestazione impostando un colore
 
 ## Passaggio 6: inserire celle di intestazione aggiuntive
 
-Inserisci più celle per la riga di intestazione:
+Inserisci altre celle per la riga di intestazione:
 
 ```csharp
 builder.InsertCell();
@@ -119,7 +121,7 @@ builder.RowFormat.Height = 30.0;
 builder.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
-## Passaggio 8: Inserisci le righe del corpo
+## Passaggio 8: inserire le righe del corpo
 
 Inserire le righe del corpo con il contenuto:
 
@@ -163,7 +165,7 @@ Verrà creato e salvato un documento Word con la tabella formattata.
 
 ## Conclusione
 
-Ed ecco fatto! Seguendo questi passaggi, puoi creare una tabella ben formattata in un documento Word usando Aspose.Words per .NET. Questa potente libreria semplifica la manipolazione programmatica dei documenti Word, risparmiando tempo e fatica.
+Ed ecco fatto! Seguendo questi passaggi, puoi creare una tabella ben formattata in un documento Word utilizzando Aspose.Words per .NET. Questa potente libreria semplifica la manipolazione programmatica dei documenti Word, risparmiando tempo e fatica.
 
 ## Domande frequenti
 
@@ -174,16 +176,21 @@ Aspose.Words per .NET è una potente libreria per creare, modificare e convertir
 Sì, puoi applicare formattazioni diverse, compresi i colori, a righe o celle diverse.
 
 ### Aspose.Words per .NET è gratuito?
- Aspose.Words per .NET è una libreria a pagamento, ma è possibile ottenerne una[prova gratuita](https://releases.aspose.com/).
+Aspose.Words per .NET è una libreria a pagamento, ma è possibile ottenerne una [prova gratuita](https://releases.aspose.com/).
 
 ### Come posso ottenere supporto per Aspose.Words per .NET?
- Puoi ottenere supporto da[Forum della comunità Aspose](https://forum.aspose.com/c/words/8).
+Puoi ottenere supporto da [Forum della comunità Aspose](https://forum.aspose.com/c/words/8).
 
 ### Posso creare altri tipi di documenti con Aspose.Words per .NET?
 Sì, Aspose.Words per .NET supporta vari formati di documento, tra cui PDF, HTML e TXT.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

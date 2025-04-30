@@ -1,14 +1,16 @@
 ---
-title: Настройка ссылки на контент
-linktitle: Настройка ссылки на контент
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить ссылку на содержимое в документе Word с помощью Aspose.Words для .NET, из нашего подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-document-properties/configuring-link-to-content/
+"description": "Узнайте, как настроить ссылку на содержимое в документе Word с помощью Aspose.Words для .NET, из нашего подробного пошагового руководства."
+"linktitle": "Настройка ссылки на контент"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Настройка ссылки на контент"
+"url": "/ru/net/programming-with-document-properties/configuring-link-to-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка ссылки на контент
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-document-properties/configuring-link-to-content/
 
 Прежде чем мы углубимся в пошаговое руководство, давайте убедимся, что у вас есть все необходимое для начала работы:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если вы еще этого не сделали, вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 - Среда разработки: Visual Studio или любая другая IDE, поддерживающая разработку .NET.
 
@@ -84,7 +86,7 @@ string customPropertyValue = customProperty.Value.ToString();
 
 ## Заключение
 
- Поздравляем! Вы успешно настроили ссылку на содержимое в документе Word с помощью Aspose.Words for .NET. Выполнив эти шаги, вы сможете добавлять и управлять пользовательскими свойствами, связанными с определенным содержимым в ваших документах Word, делая управление документами более динамичным и эффективным. Если у вас есть какие-либо вопросы или вы столкнулись с какими-либо проблемами, не стесняйтесь ознакомиться с[Документация Aspose.Words](https://reference.aspose.com/words/net/) или обратитесь за помощью по[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Поздравляем! Вы успешно настроили ссылку на содержимое в документе Word с помощью Aspose.Words for .NET. Выполнив эти шаги, вы сможете добавлять и управлять пользовательскими свойствами, связанными с определенным содержимым в ваших документах Word, делая управление документами более динамичным и эффективным. Если у вас есть какие-либо вопросы или вы столкнулись с какими-либо проблемами, не стесняйтесь ознакомиться с [Документация Aspose.Words](https://reference.aspose.com/words/net/) или обратитесь за помощью по [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
 
 ## Часто задаваемые вопросы
 
@@ -92,20 +94,25 @@ string customPropertyValue = customProperty.Value.ToString();
 Aspose.Words for .NET — мощная библиотека для программной работы с документами Word. Она предлагает обширные возможности для создания, изменения и преобразования документов Word.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете установить Aspose.Words для .NET, загрузив его с сайта[здесь](https://releases.aspose.com/words/net/) и добавление DLL в ваш проект. В качестве альтернативы вы можете установить его через NuGet Package Manager в Visual Studio.
+Вы можете установить Aspose.Words для .NET, загрузив его с сайта [здесь](https://releases.aspose.com/words/net/) и добавление DLL в ваш проект. В качестве альтернативы вы можете установить его через NuGet Package Manager в Visual Studio.
 
 ### Могу ли я добавить несколько ссылок на разный контент в одном документе?
 Да, вы можете добавить несколько ссылок на разный контент в одном документе, создав несколько закладок и связав пользовательские свойства с каждой закладкой.
 
 ### Является ли Aspose.Words для .NET бесплатным?
- Aspose.Words for .NET — это коммерческий продукт, но вы можете начать с бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+Aspose.Words for .NET — это коммерческий продукт, но вы можете начать с бесплатной пробной версии, доступной [здесь](https://releases.aspose.com/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку Aspose.Words for .NET на[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку Aspose.Words for .NET на [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pindah Ke Bagian Dalam Dokumen Word
-linktitle: Pindah Ke Bagian Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai pemindahan ke bagian berbeda dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/move-to-section/
+"description": "Kuasai pemindahan ke bagian berbeda dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci."
+"linktitle": "Pindah Ke Bagian Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pindah Ke Bagian Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/move-to-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pindah Ke Bagian Dalam Dokumen Word
@@ -22,7 +24,7 @@ Di dunia digital saat ini, otomatisasi adalah kunci untuk meningkatkan produktiv
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 1. Visual Studio: Anda perlu menginstal Visual Studio di komputer Anda.
-2.  Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari[tautan unduhan](https://releases.aspose.com/words/net/).
+2. Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari [tautan unduhan](https://releases.aspose.com/words/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan bermanfaat.
 
 ## Mengimpor Ruang Nama
@@ -66,7 +68,7 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 ## Langkah 4: Pindah ke Awal Dokumen
 
-Ketika Anda membuat`DocumentBuilder` untuk suatu dokumen, kursor berada di awal secara default.
+Ketika Anda membuat `DocumentBuilder` untuk suatu dokumen, kursor berada di awal secara default.
 
 ```csharp
 builder = new DocumentBuilder(doc);
@@ -88,23 +90,28 @@ Aspose.Words untuk .NET memudahkan Anda memanipulasi dokumen Word secara terprog
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari[tautan unduhan](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari [tautan unduhan](https://releases.aspose.com/words/net/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dengan bahasa .NET lainnya?
 Ya, Aspose.Words untuk .NET mendukung semua bahasa .NET, termasuk VB.NET dan F#.
 
 ### Apakah ada uji coba gratis yang tersedia?
- Ya, Anda dapat mengakses uji coba gratis dari[tautan uji coba gratis](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis dari [tautan uji coba gratis](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dalam proyek komersial?
- Ya, tetapi Anda perlu membeli lisensi dari[tautan pembelian](https://purchase.aspose.com/buy).
+Ya, tetapi Anda perlu membeli lisensi dari [tautan pembelian](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/keep-source-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Source Formatting
@@ -102,9 +105,13 @@ Aspose.Words provides efficient APIs for working with large documents, including
 ### Where can I find more resources and support for Aspose.Words?
 Visit the [Aspose.Words for .NET documentation](https://reference.aspose.com/words/net/) for detailed API references, examples, and guides.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

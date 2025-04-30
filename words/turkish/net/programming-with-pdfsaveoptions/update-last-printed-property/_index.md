@@ -1,14 +1,16 @@
 ---
-title: PDF Belgesinde Son Yazdırılan Özelliği Güncelle
-linktitle: PDF Belgesinde Son Yazdırılan Özelliği Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini adım adım kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "Aspose.Words for .NET'i kullanarak PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini adım adım kılavuzumuzla öğrenin."
+"linktitle": "PDF Belgesinde Son Yazdırılan Özelliği Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "PDF Belgesinde Son Yazdırılan Özelliği Güncelle"
+"url": "/tr/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Belgesinde Son Yazdırılan Özelliği Güncelle
@@ -21,7 +23,7 @@ Bir PDF belgesinde son yazdırılan özelliği güncellemek mi istiyorsunuz? Bel
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklü değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklü değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri bir geliştirme ortamı.
 - C# Temel Anlayışı: C# konusunda biraz bilgi sahibi olmak faydalı olacaktır.
 - Belge: PDF'e dönüştürmek ve son yazdırılan özelliğini güncellemek istediğiniz bir Word belgesi.
@@ -47,7 +49,7 @@ Sonra, Aspose.Words for .NET paketini yüklemeniz gerekir. Bunu NuGet Paket Yön
 
 ## Adım 3: Belgenizi Yükleyin
 
- Şimdi PDF'ye dönüştürmek istediğiniz Word belgesini yükleyelim. Değiştir`"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin.
+Şimdi PDF'ye dönüştürmek istediğiniz Word belgesini yükleyelim. Değiştir `"YOUR DOCUMENT DIRECTORY"` belgenizin yolunu belirtin.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Adım 4: PDF Kaydetme Seçeneklerini Yapılandırın
 
- Son yazdırılan özelliği güncellemek için PDF kaydetme seçeneklerini yapılandırmamız gerekiyor. Yeni bir örnek oluşturun`PdfSaveOptions` ve ayarla`UpdateLastPrintedProperty`mülk`true`.
+Son yazdırılan özelliği güncellemek için PDF kaydetme seçeneklerini yapılandırmamız gerekiyor. Yeni bir örnek oluşturun `PdfSaveOptions` ve ayarla `UpdateLastPrintedProperty` mülk `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -86,13 +88,18 @@ Son yazdırılan özelliğin güncellenmesi, özellikle belge yazdırma işlemin
 Evet, Aspose.Words for .NET yazar, başlık, konu ve daha fazlası gibi çeşitli belge özelliklerini güncellemenize olanak tanır.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/)Uzun süreli kullanım için lisans satın almanız gerekecektir.
+Aspose.Words for .NET, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/)Uzun süreli kullanım için lisans satın almanız gerekecektir.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı belgeleri Aspose.Words for .NET'te bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri Aspose.Words for .NET'te bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

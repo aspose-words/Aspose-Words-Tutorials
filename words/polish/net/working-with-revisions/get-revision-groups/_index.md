@@ -1,14 +1,16 @@
 ---
-title: Pobierz grupy rewizyjne
-linktitle: Pobierz grupy rewizyjne
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pobierać grupy rewizji z dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Idealne do zarządzania dokumentami.
-weight: 10
-url: /pl/net/working-with-revisions/get-revision-groups/
+"description": "Dowiedz się, jak pobierać grupy rewizji z dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Idealne do zarządzania dokumentami."
+"linktitle": "Pobierz grupy rewizyjne"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pobierz grupy rewizyjne"
+"url": "/pl/net/working-with-revisions/get-revision-groups/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz grupy rewizyjne
@@ -21,9 +23,9 @@ W dynamicznym świecie przetwarzania dokumentów śledzenie zmian i rewizji w do
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Aspose.Words for .NET Library: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję Aspose.Words for .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Library: Upewnij się, że pobrałeś i zainstalowałeś najnowszą wersję Aspose.Words for .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Przygotuj środowisko programistyczne .NET (np. Visual Studio).
-3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie dodatkowym atutem.
+3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie zaletą.
 
 ## Importuj przestrzenie nazw
 
@@ -39,7 +41,7 @@ Teraz omówimy proces tworzenia grup rewizji z dokumentu Word na łatwe do wykon
 
 ## Krok 1: Zainicjuj dokument
 
- Pierwszym krokiem jest zainicjowanie`Document` obiekt ze ścieżką do dokumentu Word. Ten obiekt umożliwi Ci dostęp i manipulację zawartością dokumentu.
+Pierwszym krokiem jest zainicjowanie `Document` obiekt ze ścieżką do dokumentu Word. Ten obiekt umożliwi Ci dostęp i manipulację zawartością dokumentu.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -73,7 +75,7 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 ## Krok 4: Wyświetl informacje o rewizji
 
-Na koniec wyświetl zebrane informacje o rewizji. Pomoże ci to zrozumieć, kto wprowadził jakie zmiany i jaki charakter miały te zmiany.
+Na koniec wyświetl zebrane informacje o rewizji. Pomoże Ci to zrozumieć, kto wprowadził jakie zmiany i jaki charakter miały te zmiany.
 
 ```csharp
 foreach (RevisionGroup group in doc.Revisions.Groups)
@@ -91,26 +93,31 @@ Pobieranie grup rewizji z dokumentu Word przy użyciu Aspose.Words dla .NET to p
 
 ### Czy mogę filtrować wersje według konkretnego autora?
 
- Tak, możesz filtrować wersje według konkretnego autora, zaznaczając`Author` własność każdego`RevisionGroup` w trakcie iteracji.
+Tak, możesz filtrować wersje według konkretnego autora, zaznaczając `Author` własność każdego `RevisionGroup` w trakcie iteracji.
 
 ### Jak mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
 
- Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla .NET[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla .NET [Tutaj](https://releases.aspose.com/).
 
 ### Jakie inne funkcje zarządzania wersjami oferuje Aspose.Words for .NET?
 
- Aspose.Words dla .NET oferuje funkcje takie jak akceptowanie lub odrzucanie wersji, porównywanie dokumentów i wiele innych. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe informacje.
+Aspose.Words dla .NET oferuje funkcje takie jak akceptowanie lub odrzucanie wersji, porównywanie dokumentów i wiele innych. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać szczegółowe informacje.
 
 ### Czy możliwe jest uzyskanie wsparcia dla Aspose.Words dla .NET?
 
-Tak, możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Tak, możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Jak mogę kupić Aspose.Words dla .NET?
 
- Możesz zakupić Aspose.Words dla .NET[Tutaj](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.Words dla .NET [Tutaj](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

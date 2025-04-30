@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/insert-toafield-without-document-builder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert TOA Field Without Document Builder
@@ -131,9 +134,13 @@ Yes, you can add TA fields at specific locations by inserting them into the desi
 ### How do I handle multiple TOA fields in a single document?
 You can manage multiple TOA fields by assigning different `EntryCategory` values and ensuring each TOA field filters entries based on its category.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

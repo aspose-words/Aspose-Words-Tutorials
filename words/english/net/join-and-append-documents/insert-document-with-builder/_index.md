@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/insert-document-with-builder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Document With Builder
@@ -129,9 +132,13 @@ Absolutely! The method described can be incorporated into larger applications to
 ### Where can I find more resources and support?  
 For more information, you can check the [documentation](https://reference.aspose.com/words/net/), or visit the [support forum](https://forum.aspose.com/c/words/8) for assistance.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

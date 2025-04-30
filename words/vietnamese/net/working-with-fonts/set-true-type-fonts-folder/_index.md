@@ -1,14 +1,16 @@
 ---
-title: Thiết lập thư mục phông chữ True Type
-linktitle: Thiết lập thư mục phông chữ True Type
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập thư mục Phông chữ True Type trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để đảm bảo quản lý phông chữ nhất quán.
-weight: 10
-url: /vi/net/working-with-fonts/set-true-type-fonts-folder/
+"description": "Tìm hiểu cách thiết lập thư mục Phông chữ True Type trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để đảm bảo quản lý phông chữ nhất quán."
+"linktitle": "Thiết lập thư mục phông chữ True Type"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập thư mục phông chữ True Type"
+"url": "/vi/net/working-with-fonts/set-true-type-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập thư mục phông chữ True Type
@@ -19,9 +21,9 @@ chúng tôi đang khám phá thế giới hấp dẫn của quản lý phông ch
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết, chúng ta hãy cùng xem xét một số điều kiện tiên quyết để đảm bảo bạn đã sẵn sàng để thành công:
+Trước khi đi sâu vào chi tiết, chúng ta hãy cùng xem xét một số điều kiện tiên quyết để đảm bảo bạn đã sẵn sàng thành công:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển .NET đang hoạt động, chẳng hạn như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ rất hữu ích.
 4. Một tài liệu mẫu: Chuẩn bị một tài liệu Word mà bạn muốn làm việc.
@@ -37,7 +39,7 @@ using Aspose.Words.Fonts;
 
 ## Bước 1: Tải tài liệu của bạn
 
- Hãy bắt đầu bằng cách tải tài liệu của bạn. Chúng tôi sẽ sử dụng`Document` lớp từ Aspose.Words để tải tài liệu Word hiện có.
+Hãy bắt đầu bằng cách tải tài liệu của bạn. Chúng tôi sẽ sử dụng `Document` lớp từ Aspose.Words để tải tài liệu Word hiện có.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -48,7 +50,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 2: Khởi tạo FontSettings
 
- Tiếp theo, chúng ta sẽ tạo một phiên bản của`FontSettings`lớp. Lớp này cho phép chúng ta tùy chỉnh cách xử lý phông chữ trong tài liệu của mình.
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `FontSettings` lớp. Lớp này cho phép chúng ta tùy chỉnh cách xử lý phông chữ trong tài liệu của mình.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -75,7 +77,7 @@ doc.FontSettings = fontSettings;
 
 ## Bước 5: Lưu tài liệu
 
-Cuối cùng, chúng ta sẽ lưu tài liệu. Bạn có thể lưu ở nhiều định dạng khác nhau, nhưng trong hướng dẫn này, chúng ta sẽ lưu dưới dạng PDF.
+Cuối cùng, chúng ta sẽ lưu tài liệu. Bạn có thể lưu ở nhiều định dạng khác nhau, nhưng đối với hướng dẫn này, chúng ta sẽ lưu dưới dạng PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetTrueTypeFontsFolder.pdf");
@@ -88,22 +90,27 @@ Và thế là xong! Bạn đã thiết lập thành công thư mục Phông ch�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng nhiều thư mục phông chữ không?
- Có, bạn có thể sử dụng nhiều thư mục phông chữ bằng cách kết hợp`FontSettings.GetFontSources` Và`FontSettings.SetFontSources`.
+Có, bạn có thể sử dụng nhiều thư mục phông chữ bằng cách kết hợp `FontSettings.GetFontSources` Và `FontSettings.SetFontSources`.
 
 ### Nếu thư mục phông chữ được chỉ định không tồn tại thì sao?
 Nếu thư mục phông chữ được chỉ định không tồn tại, Aspose.Words sẽ không thể định vị được phông chữ và phông chữ hệ thống mặc định sẽ được sử dụng thay thế.
 
 ### Tôi có thể quay lại cài đặt phông chữ mặc định không?
- Có, bạn có thể quay lại cài đặt phông chữ mặc định bằng cách đặt lại`FontSettings` ví dụ.
+Có, bạn có thể quay lại cài đặt phông chữ mặc định bằng cách đặt lại `FontSettings` ví dụ.
 
 ### Có thể nhúng phông chữ vào tài liệu không?
 Có, Aspose.Words cho phép bạn nhúng phông chữ vào tài liệu để đảm bảo tính nhất quán trên nhiều thiết bị khác nhau.
 
 ### Tôi có thể lưu tài liệu của mình ở định dạng nào?
 Aspose.Words hỗ trợ nhiều định dạng khác nhau bao gồm PDF, DOCX, HTML, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

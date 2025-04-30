@@ -1,27 +1,35 @@
 ---
-title: العمل مع الخطوط في Aspose.Words ل .NET  
-weight: 10
-limit:
-description: تعلم كيفية العمل مع الخطوط في Aspose.Words ل .NET، بما في ذلك تغيير أنماط الخطوط، الأحجام، الألوان، التأثيرات، وغيرها. تحسين مستندات الكلمة الخاصة بك بسهولة.
-keywords:
-url: /ar/net/font-styling/
+"description": "تعلم كيفية التعامل مع الخطوط في Aspose.Words لـ .NET، بما في ذلك تغيير أنماط الخطوط وأحجامها وألوانها وتأثيراتها، والمزيد. حسّن مستندات Word الخاصة بك بسهولة."
+"title": "العمل مع الخطوط في Aspose.Words لـ .NET"
+"url": "/ar/net/font-styling/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## مقدمة
   
-الخطوط هي جانب حاسم من أي مستند كلمات، إضافة شخصية، وقراءة، والجاذبية المرئية. مع Aspose.Words ل .NET، يمكنك الحصول على السيطرة الكاملة على تخصيص الخطوط لتتناسب مع احتياجات الوثيقة. سواء كنت بحاجة إلى تعديل أساليب الخطوط، وتعديل الأحجام، وتغيير الألوان، أو تطبيق تأثيرات مثل الجريئة، والكتابة، أو التأكيد، Aspose.Words يوفر طريقة سلسة لتعزيز النصوص الوثيقة الخاصة بك.  
+الخطوط عنصرٌ أساسي في أي مستند وورد، فهي تُضفي عليه طابعًا مميزًا، وسهولة قراءة، وجاذبية بصرية. مع Aspose.Words لـ .NET، يمكنك التحكم الكامل في تخصيص الخطوط بما يتناسب مع احتياجات مستندك. سواءً كنت ترغب في تعديل أنماط الخطوط، أو أحجامها، أو ألوانها، أو تطبيق تأثيرات مثل الغامق، أو المائل، أو التسطير، فإن Aspose.Words يُقدم لك طريقةً سلسةً لتحسين جودة طباعة مستندك.  
 
-يغطى هذا القسم مجموعة من الدروس لمساعدتك على إتقان التلاعب بالخطوط باستخدام Aspose.Words ل .NET. غوص في ميزات محددة مثل تغيير عائلة الخطوط ، وتطبيق تأثيرات النص ، وتحديد خيارات النص المقدمة مثل النظرية والفاصل. هذه الدوائر تجعل من السهل إنشاء مستندات Word المهنية والملونة تتناسب مع متطلباتك الدقيقة.
+يغطي هذا القسم مجموعة من الدروس التعليمية لمساعدتك على إتقان التعامل مع الخطوط باستخدام Aspose.Words لـ .NET. تعمق في ميزات محددة، مثل تغيير عائلة الخطوط، وتطبيق تأثيرات النص، وضبط خيارات الطباعة المتقدمة مثل التباعد بين الأحرف. تُسهّل هذه الأدلة إنشاء مستندات Word احترافية ومُتقنة، مُصممة خصيصًا لتلبية احتياجاتك.
 
-{{< tutorial-card link="./font-formatting/" title="إعداد تنسيق الخط في Word باستخدام Aspose.Words ل .NET" imgSrc="/words/net/font-styling/font-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./get-font-line-spacing/" title="الحصول على مساحة خط الخط في مستند Word" imgSrc="/words/net/font-styling/get-font-line-spacing/images/thumb.png" >}}
-{{< tutorial-card link="./set-font-emphasis-mark/" title="حدد علامة التركيز في مستند الكلمة باستخدام Aspose.Words ل .NET" imgSrc="/words/net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+
+{{< tutorial-card link="./font-formatting/" title="إنشاء تنسيق الخط في Word باستخدام Aspose.Words لـ .NET" imgSrc="./font-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./get-font-line-spacing/" title="الحصول على تباعد أسطر الخط في مستند Word" imgSrc="./get-font-line-spacing/images/thumb.png" >}}
+
+{{< tutorial-card link="./set-font-emphasis-mark/" title="تعيين علامة التأكيد في مستند Word باستخدام Aspose.Words لـ .NET" imgSrc="./set-font-emphasis-mark/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

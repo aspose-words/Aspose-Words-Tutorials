@@ -1,14 +1,16 @@
 ---
-title: การใช้โหนดใน Aspose.Words สำหรับ Java
-linktitle: การใช้โหนด
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การจัดการโหนดใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ ปลดล็อกพลังการประมวลผลเอกสาร
-weight: 20
-url: /th/java/using-document-elements/using-nodes/
+"description": "เรียนรู้การจัดการโหนดใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ ปลดล็อกพลังการประมวลผลเอกสาร"
+"linktitle": "การใช้โหนด"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้โหนดใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-nodes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้โหนดใน Aspose.Words สำหรับ Java
@@ -115,22 +117,27 @@ public void createAndAddParagraphNode() throws Exception
 Aspose.Words สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word โดยใช้โปรแกรมได้
 
 ### คำถามที่ 2 ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร
- คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java ได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+คุณสามารถดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java ได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 ### คำถามที่ 3. มีรุ่นทดลองใช้งานฟรีหรือไม่?
- ใช่ คุณสามารถทดลองใช้ Aspose.Words สำหรับ Java ได้ฟรี[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถทดลองใช้ Aspose.Words สำหรับ Java ได้ฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### คำถามที่ 4. ฉันสามารถขอใบอนุญาตชั่วคราวได้ที่ไหน?
- คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ Java ได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### Q5. ฉันสามารถหาการสนับสนุนสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
- สำหรับการสนับสนุนและการหารือ โปรดไปที่[ฟอรั่ม Aspose.Words สำหรับ Java](https://forum.aspose.com/).
+สำหรับการสนับสนุนและการหารือ โปรดไปที่ [ฟอรั่ม Aspose.Words สำหรับ Java](https://forum-aspose.com/).
 
 เริ่มต้นใช้งาน Aspose.Words สำหรับ Java เลยตอนนี้และปลดล็อกศักยภาพเต็มรูปแบบของการประมวลผลเอกสาร!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

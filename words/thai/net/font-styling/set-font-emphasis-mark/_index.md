@@ -1,54 +1,62 @@
 ---
-title: กําหนดตราเน้นในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET 
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการตั้งตราการเน้นในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET
-keywords: [Aspose.Words for .NET, set emphasis mark, Word document, .NET library, document formatting, Word automation, C# examples]
-url: /th/net/font-styling/set-font-emphasis-mark/
+"description": "เรียนรู้วิธีตั้งค่าเครื่องหมายเน้นในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ประกอบด้วยคำแนะนำในการติดตั้งและตัวอย่างโค้ด"
+"title": "ตั้งค่าเครื่องหมายเน้นข้อความในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET"
+"url": "/th/net/font-styling/set-font-emphasis-mark/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การ ตก แรก แรก ใน วอร์ด ดอกเม้นต์ โดย ใช้ Aspose.Words
+# ตั้งค่าเครื่องหมายเน้นข้อความในเอกสาร Word โดยใช้ Aspose.Words
 
-การตั้งเครื่องหมายการเน้นในเอกสาร Word เป็นวิธีที่ดีที่สุดในการเน้นข้อความเฉพาะเจาะจง เพื่อให้มันโดดเด่นในเนื้อหาของคุณ. ด้วย Aspose.Words สําหรับ .NET คุณสามารถนําเครื่องหมายการเน้นอย่างง่ายดาย เช่น วงกลมแบบแข็งแรง โดยใช้เส้นโค้ดไม่กี่เส้น`DocumentBuilder`คลาส เพื่อการควบคุมเอกสาร Word, การฟอร์เมทข้อความที่มีเครื่องหมายการเน้น และการบันทึกผลในรูปแบบ DOCX. ติดตามแนวทางนี้เพื่อกระบวนการฟอร์เมทเอกสารของคุณอย่างแม่นยําอย่างมืออาชีพ.
+การกำหนดเครื่องหมายเน้นข้อความในเอกสาร Word เป็นวิธีที่ดีเยี่ยมในการเน้นข้อความเฉพาะเจาะจง เพื่อให้แน่ใจว่าข้อความนั้นจะโดดเด่นในเนื้อหาของคุณ ด้วย Aspose.Words สำหรับ .NET คุณสามารถใช้เครื่องหมายเน้นข้อความได้อย่างง่ายดาย เช่น วงกลมทึบด้านล่าง โดยใช้โค้ดเพียงไม่กี่บรรทัด ตัวอย่างนี้สาธิตวิธีใช้ `DocumentBuilder` คลาสสำหรับจัดการเอกสาร Word จัดรูปแบบข้อความด้วยเครื่องหมายเน้น และบันทึกผลลัพธ์เป็นรูปแบบ DOCX ปฏิบัติตามคำแนะนำนี้เพื่อปรับกระบวนการจัดรูปแบบเอกสารของคุณให้มีประสิทธิภาพด้วยความแม่นยำระดับมืออาชีพ
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/set-font-emphasis-mark" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ตัวอย่างรหัสที่ให้มาและใช้ Aspose.Words สําหรับ .NET ติดตามขั้นตอนนี้  
+## คำแนะนำในการติดตั้ง  
+หากต้องการรันตัวอย่างโค้ดที่ให้มาและใช้ Aspose.Words สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET:  
-   * เอาห้องสมุดจากห้อง[การปล่อยตัว](https://releases.aspose.com/words/net/)หน้า  
+1. ดาวน์โหลด Aspose.Words สำหรับ .NET:  
+   - เข้าถึงห้องสมุดได้จาก [การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.  
 
-2. โกตั้งห้องสมุด:  
-   * โกตั้งมันผ่าน NuGet Package Manager ใน Visual Studio:  
-     * เปิด Visual Studio  
-     * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-     * ค้นหา`"พูดคําพูด"`แล้วคลิกติดตั้ง  
+2. ติดตั้งไลบรารี:  
+   - ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio:  
+     - เปิด Visual Studio  
+     - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+     - ค้นหา `Aspose.Words` และคลิกติดตั้ง  
 
-   * แทนอื่น ใช้ คอนโซลผู้จัดการแพ็คเกจ NuGet:  
+   - อีกวิธีหนึ่งคือใช้คอนโซลตัวจัดการแพ็กเกจ NuGet:  
      ```shell
      Install-Package Aspose.Words
      ```  
 
-3. ก่อใบอนุญาตชั่วคราว (เป็นทางเลือก):  
-   * สําหรับการใช้งานที่ไม่จํากัด[เอกสารอัตราการ](https://purchase.aspose.com/temporary-license/). .  
-   * ใช้ใบอนุญาตในโครงการของคุณ  
+3. ตั้งค่าใบอนุญาตชั่วคราว (ทางเลือก):  
+   - สำหรับการใช้งานแบบไม่มีข้อจำกัด รับ [ใบอนุญาตชั่วคราวฟรี](https://purchase-aspose.com/temporary-license/).  
+   - ใช้ใบอนุญาตในโครงการของคุณ:  
      ```csharp
      var license = new Aspose.Words.License();
      license.SetLicense("Aspose.Words.lic");
      ```  
    
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

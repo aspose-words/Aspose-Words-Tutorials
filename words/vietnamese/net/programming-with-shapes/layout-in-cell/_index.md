@@ -1,14 +1,16 @@
 ---
-title: Bố trí trong ô
-linktitle: Bố trí trong ô
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập bố cục trong ô bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn tùy chỉnh tài liệu Word.
-weight: 10
-url: /vi/net/programming-with-shapes/layout-in-cell/
+"description": "Tìm hiểu cách thiết lập bố cục trong ô bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn tùy chỉnh tài liệu Word."
+"linktitle": "Bố trí trong ô"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bố trí trong ô"
+"url": "/vi/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bố trí trong ô
@@ -21,10 +23,10 @@ Nếu bạn từng muốn tinh chỉnh bố cục của các ô trong bảng tro
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn sẽ cần một môi trường phát triển được thiết lập bằng .NET. Visual Studio là lựa chọn tuyệt vời nếu bạn đang tìm kiếm các đề xuất.
 3. Kiến thức cơ bản về C#: Mặc dù tôi sẽ giải thích từng bước, nhưng hiểu biết cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn.
-4.  Thư mục tài liệu: Chuẩn bị đường dẫn thư mục nơi bạn sẽ lưu tài liệu của mình. Chúng tôi sẽ gọi đây là`YOUR DOCUMENT DIRECTORY`.
+4. Thư mục tài liệu: Chuẩn bị đường dẫn thư mục nơi bạn sẽ lưu tài liệu của mình. Chúng tôi sẽ gọi đây là `YOUR DOCUMENT DIRECTORY`.
 
 ## Nhập không gian tên
 
@@ -42,7 +44,7 @@ Hãy chia nhỏ quy trình thành các bước dễ quản lý hơn.
 
 ## Bước 1: Tạo một tài liệu mới
 
- Đầu tiên, chúng ta sẽ tạo một tài liệu Word mới và khởi tạo một`DocumentBuilder` đối tượng giúp chúng ta xây dựng nội dung.
+Đầu tiên, chúng ta sẽ tạo một tài liệu Word mới và khởi tạo một `DocumentBuilder` đối tượng giúp chúng ta xây dựng nội dung.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Bước 4: Thêm Hình mờ
 
- Bây giờ, chúng ta hãy thêm hình mờ vào tài liệu của mình. Chúng ta sẽ tạo một`Shape` đối tượng và thiết lập thuộc tính của nó.
+Bây giờ, hãy thêm hình mờ vào tài liệu của chúng ta. Chúng ta sẽ tạo một `Shape` đối tượng và thiết lập thuộc tính của nó.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -138,22 +140,27 @@ Và bạn đã có nó! Bạn đã tạo thành công một tài liệu Word v�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng phông chữ khác cho văn bản hình mờ không?
- Có, bạn có thể thay đổi phông chữ bằng cách thiết lập`watermark.TextPath.FontFamily` thuộc tính cho phông chữ bạn mong muốn.
+Có, bạn có thể thay đổi phông chữ bằng cách thiết lập `watermark.TextPath.FontFamily` thuộc tính cho phông chữ bạn mong muốn.
 
 ### Làm thế nào để điều chỉnh vị trí của hình mờ?
- Bạn có thể sửa đổi`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , Và`VerticalAlignment` thuộc tính để điều chỉnh vị trí của hình mờ.
+Bạn có thể sửa đổi `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`, Và `VerticalAlignment` thuộc tính để điều chỉnh vị trí của hình mờ.
 
 ### Có thể sử dụng hình ảnh thay vì văn bản để làm hình mờ không?
- Chắc chắn rồi! Bạn có thể tạo ra một`Shape` với loại`ShapeType.Image` và thiết lập hình ảnh của nó bằng cách sử dụng`ImageData.SetImage` phương pháp.
+Chắc chắn rồi! Bạn có thể tạo ra một `Shape` với loại `ShapeType.Image` và thiết lập hình ảnh của nó bằng cách sử dụng `ImageData.SetImage` phương pháp.
 
 ### Tôi có thể tạo bảng với chiều cao hàng khác nhau không?
-Có, bạn có thể thiết lập chiều cao khác nhau cho mỗi hàng bằng cách thay đổi`RowFormat.Height` thuộc tính trước khi chèn ô vào hàng đó.
+Có, bạn có thể thiết lập chiều cao khác nhau cho mỗi hàng bằng cách thay đổi `RowFormat.Height` thuộc tính trước khi chèn ô vào hàng đó.
 
 ### Làm thế nào để xóa hình mờ khỏi tài liệu?
- Bạn có thể xóa hình mờ bằng cách định vị nó trong bộ sưu tập hình dạng của tài liệu và gọi`Remove` phương pháp.
+Bạn có thể xóa hình mờ bằng cách định vị nó trong bộ sưu tập hình dạng của tài liệu và gọi `Remove` phương pháp.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

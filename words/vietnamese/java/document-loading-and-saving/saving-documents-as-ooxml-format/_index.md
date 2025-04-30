@@ -1,14 +1,16 @@
 ---
-title: Lưu tài liệu dưới dạng định dạng OOXML trong Aspose.Words cho Java
-linktitle: Lưu tài liệu theo định dạng OOXML
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu tài liệu ở định dạng OOXML với Aspose.Words for Java. Bảo mật, tối ưu hóa và tùy chỉnh tệp của bạn một cách dễ dàng.
-weight: 20
-url: /vi/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+"description": "Tìm hiểu cách lưu tài liệu ở định dạng OOXML với Aspose.Words for Java. Bảo mật, tối ưu hóa và tùy chỉnh tệp của bạn một cách dễ dàng."
+"linktitle": "Lưu tài liệu theo định dạng OOXML"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu tài liệu dưới dạng định dạng OOXML trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tài liệu dưới dạng định dạng OOXML trong Aspose.Words cho Java
@@ -93,7 +95,7 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-//Tải một tài liệu với các ký tự điều khiển cũ
+// Tải một tài liệu với các ký tự điều khiển cũ
 Document doc = new Document("LegacyControlChars.doc");
 
 // Tạo OoxmlSaveOptions với định dạng FLAT_OPC và cho phép giữ lại các ký tự điều khiển cũ
@@ -178,14 +180,19 @@ Trong hướng dẫn toàn diện này, chúng tôi đã khám phá cách lưu t
 
 ### Tôi có thể thiết lập thuộc tính tùy chỉnh khi lưu tài liệu ở định dạng OOXML không?
 
- Có, bạn có thể thiết lập các thuộc tính tùy chỉnh cho một tài liệu trước khi lưu nó ở định dạng OOXML. Sử dụng`BuiltInDocumentProperties` Và`CustomDocumentProperties` các lớp để thiết lập nhiều thuộc tính khác nhau như tác giả, tiêu đề, từ khóa và thuộc tính tùy chỉnh.
+Có, bạn có thể thiết lập các thuộc tính tùy chỉnh cho một tài liệu trước khi lưu nó ở định dạng OOXML. Sử dụng `BuiltInDocumentProperties` Và `CustomDocumentProperties` các lớp để thiết lập nhiều thuộc tính khác nhau như tác giả, tiêu đề, từ khóa và thuộc tính tùy chỉnh.
 
 ### Mức nén mặc định khi lưu tài liệu ở định dạng OOXML là gì?
 
- Mức nén mặc định khi lưu tài liệu ở định dạng OOXML bằng Aspose.Words cho Java là`NORMAL` . Bạn có thể thay đổi mức độ nén thành`SUPER_FAST` hoặc`MAXIMUM` khi cần thiết.
+Mức nén mặc định khi lưu tài liệu ở định dạng OOXML bằng Aspose.Words cho Java là `NORMAL`. Bạn có thể thay đổi mức độ nén thành `SUPER_FAST` hoặc `MAXIMUM` khi cần thiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

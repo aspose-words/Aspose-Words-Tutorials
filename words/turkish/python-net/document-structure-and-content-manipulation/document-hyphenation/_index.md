@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Heceleme ve Metin Akışını Yönetme
-linktitle: Word Belgelerinde Heceleme ve Metin Akışını Yönetme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Aspose.Words for Python kullanarak Word belgelerinde tireleme ve metin akışını nasıl yöneteceğinizi öğrenin. Adım adım örnekler ve kaynak koduyla cilalı, okuyucu dostu belgeler oluşturun.
-weight: 17
-url: /tr/python-net/document-structure-and-content-manipulation/document-hyphenation/
+"description": "Aspose.Words for Python kullanarak Word belgelerinde tireleme ve metin akışını nasıl yöneteceğinizi öğrenin. Adım adım örnekler ve kaynak koduyla cilalı, okuyucu dostu belgeler oluşturun."
+"linktitle": "Word Belgelerinde Heceleme ve Metin Akışını Yönetme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Heceleme ve Metin Akışını Yönetme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Heceleme ve Metin Akışını Yönetme
@@ -102,7 +104,7 @@ Uygun satır aralığı okunabilirliği artırır. Belgenizde genel görsel gör
 
 Aspose.Words, metninizi tasarım ihtiyaçlarınıza göre hizalamanıza veya hizalamanıza olanak tanır. Bu, temiz ve düzenli bir görünüm sağlar.
 
-## Dul ve Yetimlerle Başa Çıkma
+## Dul ve Yetimlerle İlgilenme
 
 Dul satırlar (bir sayfanın en üstündeki tek satırlar) ve yetim satırlar (en alttaki tek satırlar) belgenizin akışını bozabilir. Dul satırları ve yetim satırları önlemek veya kontrol etmek için seçenekleri kullanın.
 
@@ -110,13 +112,13 @@ Dul satırlar (bir sayfanın en üstündeki tek satırlar) ve yetim satırlar (e
 
 Tireleme ve metin akışını etkin bir şekilde yönetmek, cilalı ve okuyucu dostu Word belgeleri oluşturmak için önemlidir. Python için Aspose.Words ile tireleme stratejilerini uygulamak, metin akışını kontrol etmek ve genel belge estetiğini geliştirmek için araçlara sahipsiniz.
 
- Daha detaylı bilgi ve örnekler için şuraya bakın:[API dokümantasyonu](https://reference.aspose.com/words/python-net/).
+Daha detaylı bilgi ve örnekler için şuraya bakın: [API dokümantasyonu](https://reference.aspose.com/words/python-net/).
 
 ## SSS
 
 ### Belgemde otomatik tirelemeyi nasıl etkinleştirebilirim?
 
- Otomatik tirelemeyi etkinleştirmek için,`auto_hyphenation` seçeneği`True` Python için Aspose.Words'ü kullanıyorum.
+Otomatik tirelemeyi etkinleştirmek için, `auto_hyphenation` seçeneği `True` Python için Aspose.Words'ü kullanıyorum.
 
 ### Bir kelimenin nerede bölüneceğini manuel olarak kontrol edebilir miyim?
 
@@ -130,13 +132,18 @@ Satırlar arasındaki aralığı ayarlamak için Python için Aspose.Words'deki 
 
 Dul ve yetimleri önlemek için, sayfa sonlarını ve paragraf aralıklarını kontrol etmek amacıyla Aspose.Words for Python'ın sunduğu seçenekleri kullanın.
 
-### Aspose.Words for Python belgelerine nereden ulaşabilirim?
+### Aspose.Words for Python dokümanlarına nereden ulaşabilirim?
 
- API dokümantasyonuna şu adresten ulaşabilirsiniz:[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+API dokümantasyonuna şu adresten ulaşabilirsiniz: [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

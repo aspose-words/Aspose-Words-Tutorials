@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Çok Düzeyli Liste Biçimlendirme
-linktitle: Word Belgesinde Çok Düzeyli Liste Biçimlendirme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak Word belgelerinde çok düzeyli liste biçimlendirme konusunda nasıl ustalaşacağınızı adım adım kılavuzumuzla öğrenin. Belge yapısını zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/document-formatting/multilevel-list-formatting/
+"description": "Aspose.Words for .NET'i kullanarak Word belgelerinde çok düzeyli liste biçimlendirme konusunda nasıl ustalaşacağınızı adım adım kılavuzumuzla öğrenin. Belge yapısını zahmetsizce geliştirin."
+"linktitle": "Word Belgesinde Çok Düzeyli Liste Biçimlendirme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Çok Düzeyli Liste Biçimlendirme"
+"url": "/tr/net/document-formatting/multilevel-list-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Çok Düzeyli Liste Biçimlendirme
@@ -22,8 +24,8 @@ Word belgelerinin oluşturulmasını ve biçimlendirilmesini otomatikleştirmek 
 Ayrıntılara girmeden önce, bu eğitimi takip etmek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
 1. Geliştirme Ortamı: Bir geliştirme ortamı kurduğunuzdan emin olun. Visual Studio harika bir seçimdir.
-2.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesini indirin ve kurun. Bunu edinebilirsiniz[Burada](https://releases.aspose.com/words/net/).
-3.  Lisans: Tam lisansınız yoksa geçici bir lisans edinin. Alın[Burada](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesini indirin ve kurun. Bunu edinebilirsiniz [Burada](https://releases.aspose.com/words/net/).
+3. Lisans: Tam lisansınız yoksa geçici bir lisans edinin. Alın [Burada](https://purchase.aspose.com/temporary-license/).
 4. Temel C# Bilgisi: C# ve .NET framework'üne aşinalık faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
@@ -48,7 +50,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Varsayılan Numaralandırmayı Uygula
 
- Numaralandırılmış bir listeyle başlamak için şunu kullanırsınız:`ApplyNumberDefault` yöntem. Bu, varsayılan numaralı liste biçimlendirmesini ayarlar.
+Numaralandırılmış bir listeyle başlamak için şunu kullanırsınız: `ApplyNumberDefault` yöntem. Bu, varsayılan numaralı liste biçimlendirmesini ayarlar.
 
 ```csharp
 builder.ListFormat.ApplyNumberDefault();
@@ -56,11 +58,11 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 ```
 
- Bu satırlarda,`ApplyNumberDefault` numaralı listeyi başlatır ve`Writeln` listeye öğeler ekler.
+Bu satırlarda, `ApplyNumberDefault` numaralı listeyi başlatır ve `Writeln` listeye öğeler ekler.
 
 ## Adım 3: Alt Seviyeler İçin Girinti
 
- Daha sonra, listeniz içinde alt seviyeler oluşturmak için şunu kullanın:`ListIndent` yöntem. Bu yöntem liste öğesini girintileyerek onu önceki öğenin alt düzeyi yapar.
+Daha sonra, listeniz içinde alt seviyeler oluşturmak için şunu kullanın: `ListIndent` yöntem. Bu yöntem liste öğesini girintileyerek onu önceki öğenin alt düzeyi yapar.
 
 ```csharp
 builder.ListFormat.ListIndent();
@@ -84,7 +86,7 @@ Artık "Madde 2.2" altında üçüncü seviye bir listeniz var.
 
 ## Adım 5: Daha Yüksek Seviyelere Dönmek İçin Çıkış Yapın
 
- Daha yüksek bir seviyeye geri dönmek için şunu kullanın:`ListOutdent` yöntem. Bu öğeyi önceki liste düzeyine geri taşır.
+Daha yüksek bir seviyeye geri dönmek için şunu kullanın: `ListOutdent` yöntem. Bu öğeyi önceki liste düzeyine geri taşır.
 
 ```csharp
 builder.ListFormat.ListOutdent();
@@ -122,23 +124,28 @@ Ve işte oldu! Aspose.Words for .NET kullanarak bir Word belgesinde çok düzeyl
 ## SSS
 
 ### Liste numaralandırma stilini özelleştirebilir miyim?
- Evet, Aspose.Words for .NET, liste numaralandırma stilini özelleştirmenize olanak tanır.`ListTemplate` sınıf.
+Evet, Aspose.Words for .NET, liste numaralandırma stilini özelleştirmenize olanak tanır. `ListTemplate` sınıf.
 
 ### Numaralar yerine madde işaretleri nasıl eklerim?
- Madde işaretlerini kullanarak madde işaretleri uygulayabilirsiniz.`ApplyBulletDefault` yöntem yerine`ApplyNumberDefault`.
+Madde işaretlerini kullanarak madde işaretleri uygulayabilirsiniz. `ApplyBulletDefault` yöntem yerine `ApplyNumberDefault`.
 
 ### Önceki bir listeden numaralandırmaya devam etmek mümkün müdür?
- Evet, numaralandırmaya şu şekilde devam edebilirsiniz:`ListFormat.List` Mevcut bir listeye bağlanma özelliği.
+Evet, numaralandırmaya şu şekilde devam edebilirsiniz: `ListFormat.List` Mevcut bir listeye bağlanma özelliği.
 
 ### Girinti seviyesini dinamik olarak nasıl değiştirebilirim?
- Girinti düzeyini dinamik olarak değiştirmek için şunu kullanabilirsiniz:`ListIndent` Ve`ListOutdent` Gerektiğinde yöntemler.
+Girinti düzeyini dinamik olarak değiştirmek için şunu kullanabilirsiniz: `ListIndent` Ve `ListOutdent` Gerektiğinde yöntemler.
 
 ### PDF gibi diğer belge formatlarında çok düzeyli listeler oluşturabilir miyim?
 Evet, Aspose.Words PDF de dahil olmak üzere çeşitli formatlardaki belgeleri biçimlendirmeyi koruyarak kaydetmeyi destekler.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

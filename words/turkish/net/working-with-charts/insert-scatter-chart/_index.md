@@ -1,52 +1,60 @@
 ---
-title: .NET için Aspose.Words kullanarak Word Scatter Çarşı oluşturun
-weight: 7700
-limit: 
-description: .NET için Aspose.Words kullanarak bir dağılım tablosu ile Word belgesini nasıl oluşturulacağını öğrenin. Kod ve talimatlar dahil olan adım adım rehber.
-keywords: [Aspose.Words for .NET, scatter chart, Word scatter chart, create scatter chart, insert chart in Word, .NET Word document, document builder]
-url: /tr/net/working-with-charts/insert-scatter-chart/
+"description": "Aspose.Words for .NET kullanarak dağılım grafiği içeren bir Word belgesinin nasıl oluşturulacağını öğrenin. Kod ve talimatlarla adım adım kılavuz dahildir."
+"title": "Aspose.Words for .NET Kullanarak Kelime Dağılım Grafiği Oluşturun"
+"url": "/tr/net/working-with-charts/insert-scatter-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak Sözcük Yayımlama Çarşı oluşturun
+# Aspose.Words Kullanarak Kelime Dağılım Grafiği Oluşturun
 
-.NET için Aspose.Words programsal olarak Word belgeleri oluşturmayı ve manipüle etmeyi basitleştirir. Bu örnek bir Word belgesine bir dağılım tablosunu nasıl ekleyeceğinizi gösterir.`DocumentBuilder`İçerik oluşturmak ve grafik verilerini programsal olarak eklemek için, belgelere profesyonel derecede dağılım çizelgeleri ekleyebilirsiniz.  
+Aspose.Words for .NET, Word belgelerini programatik olarak oluşturmayı ve düzenlemeyi basitleştirir. Bu örnek, bir Word belgesine dağılım grafiğinin nasıl ekleneceğini gösterir. Bir belgeyi başlatarak, `DocumentBuilder` içerik oluşturma ve grafik verilerini programatik olarak ekleme için, belgelerinize profesyonel düzeyde dağılım grafiklerini verimli bir şekilde ekleyebilirsiniz. Sezgisel API'siyle Aspose.Words, .NET geliştiricileri için belge otomasyonunu kolaylaştırır, zamandan ve emekten tasarruf sağlar.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-scatter-chart" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-Bu örneği çalıştırmak için, aşağıdaki adımları izleyin:  
 
-1. .NET için Aspose.Words indirin ve yükleyin  
-   * Kütüphaneni Aspose resmi web sitesinden indir: [.NET indirmeler için Aspose.Words](https://releases.aspose.com/words/net/)\- Evet .  
-   * NuGet Paket Yöneticisi üzerinden yükle:  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Kurulum Talimatları  
+Bu örneği çalıştırmak için şu adımları izleyin:  
+
+1. Aspose.Words for .NET'i indirin ve yükleyin  
+   - Kütüphaneyi resmi Aspose web sitesinden indirin: [Aspose.Words .NET İndirmeleri](https://releases.aspose.com/words/net/).  
+   - NuGet Paket Yöneticisi aracılığıyla kurulum:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-2. Gelişme Çevresinizi Yapın  
-   * .NET IDE'nizi açın (örneğin Visual Studio).  
-   * Yeni bir konsol uygulaması oluşturun veya mevcut bir projeye entegre olun.  
-   * .NET kütüphanesi için Aspose.Words referansını ekleyin.  
+2. Geliştirme Ortamınızı Kurun  
+   - .NET IDE'nizi (örneğin Visual Studio) açın.  
+   - Yeni bir Konsol Uygulaması oluşturun veya mevcut bir projeye entegre edin.  
+   - Aspose.Words for .NET kütüphanesine bir referans ekleyin.  
 
-3. Lisans için başvurun  
-   * Eğer lisansınız varsa, projenize uygulamak için:  
+3. Lisans Uygula  
+   - Eğer lisansınız varsa, bunu projenizde şu şekilde kullanabilirsiniz:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("Your_License_File.lic");  
      ```  
-   * Alternatif olarak, bir tane alın.[ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/)Kütüphaneyi test etmek için.
+   - Alternatif olarak, bir tane edinin [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphaneyi test etmek için.
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

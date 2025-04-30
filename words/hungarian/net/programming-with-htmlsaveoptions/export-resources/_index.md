@@ -1,59 +1,61 @@
 ---
-title: Erőforrások exportálása
-linktitle: Erőforrások exportálása
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan exportálhat erőforrásokat, például CSS-t és betűtípusokat, miközben Word-dokumentumokat menthet HTML-ként az Aspose.Words for .NET használatával. Kövesse lépésenkénti útmutatónkat.
-weight: 10
-url: /hu/net/programming-with-htmlsaveoptions/export-resources/
+"description": "Tanuld meg, hogyan exportálhatsz erőforrásokat, például CSS-t és betűtípusokat, miközben Word-dokumentumokat mentesz HTML-ként az Aspose.Words for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat."
+"linktitle": "Export erőforrások"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Export erőforrások"
+"url": "/hu/net/programming-with-htmlsaveoptions/export-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erőforrások exportálása
+# Export erőforrások
 
 ## Bevezetés
 
-Üdvözlet, technológiai rajongó kollégám! Ha valaha is azon kapta magát, hogy Word-dokumentumokat kell konvertálnia HTML-be, akkor jó helyen jár. Ma az Aspose.Words for .NET csodálatos világába merülünk. Ezzel a hatékony könyvtárral gyerekjáték a Word-dokumentumokkal programozottan dolgozni. Ebben az oktatóanyagban végigvezetjük az erőforrások, például a betűtípusok és a CSS exportálásának lépéseit, amikor egy Word-dokumentumot HTML-ként mentünk az Aspose.Words for .NET használatával. Csatlakozzon egy szórakoztató, informatív utazáshoz!
+Szia, tech-rajongó társam! Ha valaha is szükséged volt Word-dokumentumok HTML-be konvertálására, jó helyen jársz. Ma az Aspose.Words for .NET csodálatos világába kalauzolunk el. Ez a hatékony könyvtár megkönnyíti a Word-dokumentumok programozott kezelését. Ebben az oktatóanyagban végigvezetünk az erőforrások, például a betűtípusok és a CSS exportálásának lépésein, amikor egy Word-dokumentumot HTML-ként mentesz az Aspose.Words for .NET segítségével. Csatold be az öved egy szórakoztató, informatív utazáshoz!
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel megvan, ami az induláshoz szükséges. Íme egy gyors ellenőrző lista:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden megvan, amire szükséged van az induláshoz. Íme egy gyors ellenőrzőlista:
 
-1.  Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Letöltheti a[Visual Studio webhely](https://visualstudio.microsoft.com/).
-2.  Aspose.Words for .NET: Szüksége lesz az Aspose.Words for .NET könyvtárra. Ha még nem szerezted meg, szerezd be az ingyenes próbaverziót[Aspose Releases](https://releases.aspose.com/words/net/) vagy vásárolja meg a[Aspose Store](https://purchase.aspose.com/buy).
-3. Alapvető C# ismerete: A C# alapvető ismerete segít a kódpéldák követésében.
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Letöltheti innen: [Visual Studio weboldal](https://visualstudio.microsoft.com/).
+2. Aspose.Words for .NET: Szükséged lesz az Aspose.Words for .NET könyvtárra. Ha még nem szerezted meg, töltsd le az ingyenes próbaverziót innen: [Aspose kiadások](https://releases.aspose.com/words/net/) vagy vásárolja meg a [Aspose Áruház](https://purchase.aspose.com/buy).
+3. C# alapismeretek: A C# alapvető ismerete segít a kódpéldák követésében.
 
-Megvan az egész? Nagy! Térjünk át a szükséges névterek importálására.
+Mindez megvan? Remek! Térjünk át a szükséges névterek importálására.
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatához fel kell vennie a megfelelő névtereket a projektbe. Íme, hogyan kell csinálni:
+Az Aspose.Words .NET-hez való használatához a projektben szerepeltetni kell a releváns névtereket. Így teheti ezt meg:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Ezek a névterek kulcsfontosságúak az Aspose.Words osztályok és metódusok eléréséhez, amelyeket oktatóanyagunkban fogunk használni.
+Ezek a névterek kulcsfontosságúak az Aspose.Words osztályok és metódusok eléréséhez, amelyeket a bemutatónkban használni fogunk.
 
-Bontsuk le az erőforrások exportálásának folyamatát, amikor egy Word-dokumentumot HTML-ként mentünk. Lépésről lépésre tesszük, így könnyen követhető.
+Nézzük meg részletesebben, hogyan exportáljuk az erőforrásokat egy Word-dokumentum HTML-ként történő mentésekor. Lépésről lépésre bemutatjuk, hogy könnyen követhető legyen.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Először is meg kell adnia a dokumentumkönyvtár elérési útját. Ez az a hely, ahol a Word-dokumentum található, és ahol a HTML-fájl mentésre kerül.
+Először is meg kell adnia a dokumentumok könyvtárának elérési útját. Itt található a Word-dokumentum, és itt lesz mentve a HTML-fájl.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a címtár tényleges elérési útjával.
+Csere `"YOUR DOCUMENT DIRECTORY"` a könyvtár tényleges elérési útjával.
 
-## 2. lépés: Töltse be a Word-dokumentumot
+## 2. lépés: Töltse be a Word dokumentumot
 
- Ezután töltsük be a HTML-be konvertálni kívánt Word-dokumentumot. Ebben az oktatóanyagban egy dokumentumot fogunk használni`Rendering.docx`.
+Ezután töltsük be a HTML-lé konvertálni kívánt Word-dokumentumot. Ebben az oktatóanyagban egy nevű dokumentumot fogunk használni. `Rendering.docx`.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -61,9 +63,9 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 Ez a kódsor betölti a dokumentumot a megadott könyvtárból.
 
-## 3. lépés: Konfigurálja a HTML mentési beállításokat
+## 3. lépés: HTML mentési beállítások konfigurálása
 
-Az erőforrások, például a CSS és a betűtípusok exportálásához konfigurálnia kell a`HtmlSaveOptions`. Ez a lépés kulcsfontosságú annak biztosításához, hogy a HTML-kimenet jól strukturált legyen, és tartalmazza a szükséges erőforrásokat.
+Erőforrások, például CSS és betűtípusok exportálásához konfigurálnia kell a `HtmlSaveOptions`Ez a lépés kulcsfontosságú annak biztosításához, hogy a HTML-kimenet jól strukturált legyen, és tartalmazza a szükséges erőforrásokat.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -71,19 +73,19 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
     CssStyleSheetType = CssStyleSheetType.External,
     ExportFontResources = true,
     ResourceFolder = dataDir + "Resources",
-    ResourceFolderAlias = "http://example.com/resources"
+    ResourceFolderAlias = "http://példa.com/erőforrások"
 };
 ```
 
-Nézzük meg, mit csinálnak az egyes lehetőségek:
-- `CssStyleSheetType = CssStyleSheetType.External`: Ez a beállítás azt határozza meg, hogy a CSS-stílusokat külső stíluslapon kell menteni.
-- `ExportFontResources = true`: Ez lehetővé teszi a font erőforrások exportálását.
-- `ResourceFolder = dataDir + "Resources"`: Megadja azt a helyi mappát, ahová az erőforrások (például a betűtípusok és CSS-fájlok) mentésre kerülnek.
-- `ResourceFolderAlias = "http://example.com/resources"`: Beállít egy álnevet a HTML-fájlban használt erőforrásmappához.
+Nézzük meg, hogy mit csinálnak az egyes opciók:
+- `CssStyleSheetType = CssStyleSheetType.External`: Ez a beállítás meghatározza, hogy a CSS stílusokat egy külső stíluslapban kell menteni.
+- `ExportFontResources = true`: Ez lehetővé teszi a betűtípus-erőforrások exportálását.
+- `ResourceFolder = dataDir + "Resources"`: Megadja a helyi mappát, ahová az erőforrások (például betűtípusok és CSS-fájlok) mentésre kerülnek.
+- `ResourceFolderAlias = "http://example.com/resources"`: Beállít egy aliast az erőforrásmappához, amelyet a HTML fájlban fog használni.
 
-## 4. lépés: Mentse el a dokumentumot HTML-ként
+## 4. lépés: Mentse el a dokumentumot HTML formátumban
 
-A konfigurált mentési beállításokkal az utolsó lépés a dokumentum HTML-fájlként történő mentése. Íme, hogyan kell csinálni:
+A mentési beállítások konfigurálása után az utolsó lépés a dokumentum HTML-fájlként történő mentése. Így teheti meg:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOptions);
@@ -93,27 +95,32 @@ Ez a kódsor HTML formátumban menti a dokumentumot az exportált erőforrásokk
 
 ## Következtetés
 
-És megvan! Sikeresen exportálta az erőforrásokat, miközben egy Word-dokumentumot mentett HTML-ként az Aspose.Words for .NET használatával. Ezzel a hatékony könyvtárral a Word-dokumentumok programozott kezelése egy szelet tortát jelent. Akár egy webalkalmazáson dolgozik, akár csak dokumentumokat kell konvertálnia offline használatra, az Aspose.Words mindent megtesz.
+És íme! Sikeresen exportáltál erőforrásokat, miközben egy Word-dokumentumot HTML-ként mentettél az Aspose.Words for .NET segítségével. Ezzel a hatékony könyvtárral a Word-dokumentumok programozott kezelése gyerekjáték. Akár egy webes alkalmazáson dolgozol, akár csak offline használatra kell konvertálnod a dokumentumokat, az Aspose.Words segít neked.
 
 ## GYIK
 
 ### Exportálhatok képeket betűtípusokkal és CSS-sel együtt?
- Igen, lehet! Az Aspose.Words for .NET támogatja a képek exportálását is. Csak ügyeljen arra, hogy konfigurálja a`HtmlSaveOptions` ennek megfelelően.
+Igen, lehetséges! Az Aspose.Words for .NET képexportálást is támogat. Csak győződjön meg róla, hogy konfigurálja a `HtmlSaveOptions` ennek megfelelően.
 
 ### Van mód CSS beágyazására külső stíluslap használata helyett?
- Teljesen. Beállíthatod`CssStyleSheetType` hogy`CssStyleSheetType.Embedded` ha jobban szereti a beágyazott stílusokat.
+Teljesen. Beállíthatod. `CssStyleSheetType` hogy `CssStyleSheetType.Embedded` ha a beágyazott stílusokat részesíted előnyben.
 
-### Hogyan szabhatom testre a kimeneti HTML-fájl nevét?
- Tetszőleges fájlnevet megadhat a`doc.Save` módszer. Például,`doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
+### Hogyan tudom testreszabni a kimeneti HTML fájl nevét?
+Bármilyen fájlnevet megadhatsz a `doc.Save` módszer. Például, `doc.Save(dataDir + "CustomFileName.html", saveOptions);`.
 
-### Az Aspose.Words a HTML-en kívül más formátumokat is támogat?
- Igen, különféle formátumokat támogat, beleértve a PDF, DOCX, TXT és még sok más formátumot. Nézze meg a[dokumentáció](https://reference.aspose.com/words/net/) a teljes listáért.
+### Az Aspose.Words támogat más formátumokat is a HTML-en kívül?
+Igen, számos formátumot támogat, beleértve a PDF, DOCX, TXT és egyebeket. Nézd meg a [dokumentáció](https://reference.aspose.com/words/net/) a teljes listáért.
 
-### Hol kaphatok több támogatást és forrást?
-További segítségért keresse fel a[Aspose.Words támogatási fórum](https://forum.aspose.com/c/words/8) . Részletes dokumentációt és példákat is találhat a[Aspose honlapja](https://reference.aspose.com/words/net/).
+### Hol kaphatok további támogatást és forrásokat?
+További segítségért látogassa meg a [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8)Részletes dokumentációt és példákat is találhat a következő címen: [Aspose weboldal](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में सामग्री हटाना और परिष्कृत करना
-linktitle: वर्ड दस्तावेज़ों में सामग्री हटाना और परिष्कृत करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सामग्री को कुशलतापूर्वक हटाने और परिष्कृत करने का तरीका जानें। स्रोत कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/python-net/content-extraction-and-manipulation/remove-content-documents/
+"description": "Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सामग्री को कुशलतापूर्वक हटाने और परिष्कृत करने का तरीका जानें। स्रोत कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "वर्ड दस्तावेज़ों में सामग्री हटाना और परिष्कृत करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में सामग्री हटाना और परिष्कृत करना"
+"url": "/hi/python-net/content-extraction-and-manipulation/remove-content-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में सामग्री हटाना और परिष्कृत करना
@@ -28,7 +30,7 @@ url: /hi/python-net/content-extraction-and-manipulation/remove-content-documents
 
 ## पायथन के लिए Aspose.Words स्थापित करना
 
- आरंभ करने के लिए, आपको Aspose.Words for Python लाइब्रेरी स्थापित करनी होगी। आप इसका उपयोग करके ऐसा कर सकते हैं`pip`, पायथन पैकेज मैनेजर को निम्न आदेश चलाकर:
+आरंभ करने के लिए, आपको Aspose.Words for Python लाइब्रेरी स्थापित करनी होगी। आप इसका उपयोग करके ऐसा कर सकते हैं `pip`पायथन पैकेज मैनेजर को निम्न आदेश चलाकर:
 
 ```bash
 pip install aspose-words
@@ -46,7 +48,7 @@ doc = aw.Document("path/to/your/document.docx")
 
 ## पाठ हटाना
 
- Aspose.Words के साथ Word दस्तावेज़ से विशिष्ट टेक्स्ट हटाना सरल है। आप इसका उपयोग कर सकते हैं`Range.replace` इसे प्राप्त करने की विधि:
+Aspose.Words के साथ Word दस्तावेज़ से विशिष्ट टेक्स्ट हटाना सरल है। आप इसका उपयोग कर सकते हैं `Range.replace` इसे प्राप्त करने की विधि:
 
 ```python
 text_to_remove = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -67,7 +69,7 @@ for shape in doc.get_child_nodes(aw.NodeType.SHAPE, True):
         shape.remove()
 ```
 
-## शैलियों का पुनः प्रारूपण
+## शैलियाँ पुनः प्रारूपित करना
 
 सामग्री को परिष्कृत करने में शैलियों को पुनः स्वरूपित करना भी शामिल हो सकता है। मान लीजिए कि आप विशिष्ट पैराग्राफ़ का फ़ॉन्ट बदलना चाहते हैं:
 
@@ -143,14 +145,19 @@ pip install aspose-words
 
 ### मैं संशोधित दस्तावेज़ को कैसे सहेज सकता हूँ?
 
- उपयोग`save` संशोधित दस्तावेज़ को सहेजने के लिए, आउटपुट फ़ाइल पथ निर्दिष्ट करते हुए, दस्तावेज़ ऑब्जेक्ट पर विधि का उपयोग करें।
+उपयोग `save` संशोधित दस्तावेज़ को सहेजने के लिए, आउटपुट फ़ाइल पथ निर्दिष्ट करते हुए, दस्तावेज़ ऑब्जेक्ट पर विधि का उपयोग करें।
 
 ### मैं पायथन के लिए Aspose.Words दस्तावेज़ कहां से प्राप्त कर सकता हूं?
 
- आप विस्तृत दस्तावेज और API संदर्भ यहां पा सकते हैं[पायथन दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/python-net/).
+आप विस्तृत दस्तावेज और API संदर्भ यहां पा सकते हैं [पायथन दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

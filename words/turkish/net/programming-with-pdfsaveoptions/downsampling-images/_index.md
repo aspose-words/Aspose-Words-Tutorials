@@ -1,30 +1,32 @@
 ---
-title: Görüntüleri Aşağı Örnekleme ile PDF Belge Boyutunu Azaltın
-linktitle: Görüntüleri Aşağı Örnekleme ile PDF Belge Boyutunu Azaltın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak görüntüleri alt örnekleme yoluyla PDF belge boyutunu azaltın. PDF'lerinizi daha hızlı yükleme ve indirme süreleri için optimize edin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/downsampling-images/
+"description": "Aspose.Words for .NET kullanarak görüntüleri alt örnekleme yoluyla PDF belge boyutunu azaltın. PDF'lerinizi daha hızlı yükleme ve indirme süreleri için optimize edin."
+"linktitle": "Görüntüleri Aşağı Örnekleme ile PDF Belge Boyutunu Azaltın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Görüntüleri Aşağı Örnekleme ile PDF Belge Boyutunu Azaltın"
+"url": "/tr/net/programming-with-pdfsaveoptions/downsampling-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüleri Aşağı Örnekleme ile PDF Belge Boyutunu Azaltın
 
 ## giriiş
 
-PDF'ler dijital dünyanın olmazsa olmazıdır ve belge paylaşımından e-kitap oluşturmaya kadar her şey için kullanılır. Ancak, boyutları bazen bir engel olabilir, özellikle de görsel zengin içeriklerle uğraşırken. Görüntüleri alt örneklemenin devreye girdiği yer burasıdır. PDF içindeki görüntülerin çözünürlüğünü azaltarak, kaliteyi çok fazla düşürmeden dosya boyutunu önemli ölçüde azaltabilirsiniz. Bu eğitimde, .NET için Aspose.Words kullanarak bunu başarmak için gereken adımları ele alacağız.
+PDF'ler dijital dünyanın olmazsa olmazıdır ve belge paylaşımından e-kitap oluşturmaya kadar her şey için kullanılır. Ancak, boyutları bazen bir engel olabilir, özellikle de görsel zengin içeriklerle uğraşırken. Görüntüleri örneklemlemenin devreye girdiği yer burasıdır. PDF içindeki görüntülerin çözünürlüğünü düşürerek, kaliteyi çok fazla düşürmeden dosya boyutunu önemli ölçüde azaltabilirsiniz. Bu eğitimde, bunu .NET için Aspose.Words kullanarak başarmak için gereken adımları ele alacağız.
 
 ## Ön koşullar
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamanın temellerini anlamak faydalı olacaktır.
-4.  Örnek Belge: Bir Word belgesi (örneğin,`Rendering.docx`) PDF'ye dönüştürülecek görsellerle.
+4. Örnek Belge: Bir Word belgesi (örneğin, `Rendering.docx`) PDF'ye dönüştürülecek görsellerle.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-Bu adımda, Word belgesini belirtilen dizinden yüklüyoruz. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
+Bu adımda, Word belgesini belirtilen dizinden yüklüyoruz. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` Belgenizin bulunduğu gerçek yol ile.
 
 ## Adım 2: Alt Örnekleme Seçeneklerini Yapılandırın
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Burada, yeni bir örnek oluşturuyoruz`PdfSaveOptions` ve ayarlama`Resolution` 36 DPI'a ve`ResolutionThreshold` 128 DPI'a kadar. Bu, çözünürlüğü 128 DPI'dan yüksek olan herhangi bir görüntünün 36 DPI'a düşürüleceği anlamına gelir.
+Burada, yeni bir örnek oluşturuyoruz `PdfSaveOptions` ve ayarlama `Resolution` 36 DPI'a ve `ResolutionThreshold` 128 DPI'a kadar. Bu, çözünürlüğü 128 DPI'dan yüksek olan herhangi bir görüntünün 36 DPI'a düşürüleceği anlamına gelir.
 
 ## Adım 3: Belgeyi PDF olarak kaydedin
 
@@ -84,19 +86,24 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak görüntüleri alt örn
 Örneklemeyi azaltma, görüntülerin çözünürlüğünü azaltma işlemidir ve bu da söz konusu görüntüleri içeren belgelerin dosya boyutunun küçültülmesine yardımcı olur.
 
 ### Örneklemeyi azaltma işlemi görüntülerin kalitesini etkiler mi?
-Evet, alt örnekleme görüntü kalitesini düşürecektir. Ancak, etkisi çözünürlük azaltma derecesine bağlıdır. Bu, dosya boyutu ve görüntü kalitesi arasındaki bir takastır.
+Evet, alt örnekleme görüntü kalitesini düşürecektir. Ancak, etkisi çözünürlük azaltma derecesine bağlıdır. Bu, dosya boyutu ve görüntü kalitesi arasındaki bir dengedir.
 
 ### Hangi görüntülerin küçültüleceğini seçebilir miyim?
- Evet, ayarlayarak`ResolutionThreshold`, orijinal çözünürlüklerine göre hangi görüntülerin küçültüleceğini kontrol edebilirsiniz.
+Evet, ayarlayarak `ResolutionThreshold`, orijinal çözünürlüklerine göre hangi görüntülerin küçültüleceğini kontrol edebilirsiniz.
 
-### Aşağı örnekleme için ideal çözünürlük nedir?
+### Alt örnekleme için ideal çözünürlük nedir?
 İdeal çözünürlük, özel ihtiyaçlarınıza bağlıdır. Genellikle, web görüntüleri için 72 DPI kullanılırken, daha yüksek çözünürlükler baskı kalitesi için kullanılır.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/) veya başvuruda bulunun[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ticari bir üründür, ancak ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/) veya başvuruda bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

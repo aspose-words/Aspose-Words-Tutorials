@@ -1,14 +1,16 @@
 ---
-title: Hücre Aralığına İzin Ver
-linktitle: Hücre Aralığına İzin Ver
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir tabloda hücre aralığına nasıl izin verileceğini öğrenin. Word belge biçimlendirmelerini geliştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-table-styles-and-formatting/allow-cell-spacing/
+"description": "Ayrıntılı kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir tabloda hücre aralığına nasıl izin verileceğini öğrenin. Word belge biçimlendirmelerini geliştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Hücre Aralığına İzin Ver"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Hücre Aralığına İzin Ver"
+"url": "/tr/net/programming-with-table-styles-and-formatting/allow-cell-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hücre Aralığına İzin Ver
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak bir tabloda hücre aralığına nasıl izin ver
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio benzeri bir geliştirme ortamı.
 - C# Temel Anlayışı: C# programlamaya aşinalık şarttır.
 
@@ -65,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Adım 2.2: Belgeyi Yükleyin
 
- Şimdi, belgeyi kullanarak yükleyin`Document` Aspose.Words'den sınıf.
+Şimdi, belgeyi kullanarak yükleyin `Document` Aspose.Words'den sınıf.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
@@ -87,7 +89,7 @@ Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 
 ### Adım 4.1: Hücre Aralığına İzin Ver
 
- Ayarla`AllowCellSpacing` tablonun özelliği`true`.
+Ayarla `AllowCellSpacing` tablonun özelliği `true`.
 
 ```csharp
 table.AllowCellSpacing = true;
@@ -105,7 +107,7 @@ table.CellSpacing = 2;
 
 Son olarak değiştirilen belgeyi belirttiğiniz dizine kaydedin.
 
- Kullanın`Save` Belgenizi kaydetme yöntemi.
+Kullanın `Save` Belgenizi kaydetme yöntemi.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.AllowCellSpacing.docx");
@@ -131,14 +133,19 @@ Visual Studio'daki NuGet Paket Yöneticisini kullanarak .NET için Aspose.Words'
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

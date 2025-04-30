@@ -1,14 +1,16 @@
 ---
-title: สร้างเอกสาร Word ใหม่
-linktitle: สร้างเอกสาร Word ใหม่
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีสร้างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การสร้างเอกสารอัตโนมัติเป็นเรื่องง่าย
-weight: 10
-url: /th/net/add-content-using-documentbuilder/create-new-document/
+"description": "เรียนรู้วิธีสร้างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การสร้างเอกสารอัตโนมัติเป็นเรื่องง่าย"
+"linktitle": "สร้างเอกสาร Word ใหม่"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "สร้างเอกสาร Word ใหม่"
+"url": "/th/net/add-content-using-documentbuilder/create-new-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างเอกสาร Word ใหม่
@@ -20,9 +22,9 @@ url: /th/net/add-content-using-documentbuilder/create-new-document/
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
-1.  Visual Studio: สนามเด็กเล่นการเขียนโค้ดของเรา หากคุณยังไม่มี โปรดดาวน์โหลดจาก[ดาวน์โหลด Visual Studio](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Words for .NET: ดาวเด่นของการแสดง คุณสามารถคว้ามันได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
-3.  .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework 4.0 ขึ้นไป คุณสามารถตรวจสอบและติดตั้งได้ผ่าน[หน้าดาวน์โหลด Microsoft .NET](https://dotnet.microsoft.com/download/dotnet-framework).
+1. Visual Studio: สนามเด็กเล่นการเขียนโค้ดของเรา หากคุณยังไม่มี โปรดดาวน์โหลดจาก [ดาวน์โหลด Visual Studio](https://visualstudio-microsoft.com/downloads/).
+2. Aspose.Words for .NET: ดาวเด่นของการแสดง คุณสามารถคว้ามันได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
+3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework 4.0 ขึ้นไป คุณสามารถตรวจสอบและติดตั้งได้ผ่าน [หน้าดาวน์โหลด Microsoft .NET](https://dotnet-microsoft.com/download/dotnet-framework).
 
 ## นำเข้าเนมสเปซ
 
@@ -45,7 +47,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ นี่คือโฮมเบสของเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ นี่คือโฮมเบสของเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: การสร้างเอกสาร
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 
 ### เริ่มต้นใช้งาน DocumentBuilder
 
- ต่อไปเราต้องเพิ่มเนื้อหาบางอย่างลงในเอกสารของเรา สำหรับสิ่งนี้ เราจะใช้`DocumentBuilder`. มันก็เหมือนกับปากกาของเราที่เขียนบนผืนผ้าใบ
+ต่อไปเราต้องเพิ่มเนื้อหาบางอย่างลงในเอกสารของเรา สำหรับสิ่งนี้ เราจะใช้ `DocumentBuilder`. มันก็เหมือนกับปากกาของเราที่เขียนบนผืนผ้าใบ
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -87,7 +89,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณได้ก้าวแรกสู่โลกแห่งการทำงานอัตโนมัติของเอกสารด้วย Aspose.Words สำหรับ .NET แล้ว เราเริ่มต้นจากศูนย์ ตั้งค่าสภาพแวดล้อม สร้างเอกสารใหม่ เพิ่มเนื้อหา และบันทึกเอกสาร นี่เป็นเพียงส่วนเล็กๆ ของเนื้อหาทั้งหมด ด้วย Aspose.Words คุณสามารถจัดการเอกสารในรูปแบบที่คุณไม่เคยคิดว่าเป็นไปได้ เช่น การผสานเอกสาร การเพิ่มรูปภาพ การสร้างตาราง และอื่นๆ อีกมากมาย
+ขอแสดงความยินดี! คุณได้ก้าวแรกสู่โลกแห่งการทำงานอัตโนมัติของเอกสารด้วย Aspose.Words สำหรับ .NET แล้ว เราเริ่มต้นจากศูนย์ ตั้งค่าสภาพแวดล้อม สร้างเอกสารใหม่ เพิ่มเนื้อหา และบันทึกเอกสาร นี่เป็นเพียงส่วนเล็กๆ น้อยๆ เท่านั้น ด้วย Aspose.Words คุณสามารถจัดการเอกสารในรูปแบบที่คุณไม่เคยคิดว่าเป็นไปได้ เช่น การผสานเอกสาร การเพิ่มรูปภาพ การสร้างตาราง และอื่นๆ อีกมากมาย
 
 ## คำถามที่พบบ่อย
 
@@ -101,7 +103,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
 
- คุณสามารถรับการทดลองใช้ฟรีได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/).
+คุณสามารถรับการทดลองใช้ฟรีได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/).
 
 ### ฉันสามารถสร้างเอกสารประเภทใดได้บ้างโดยใช้ Aspose.Words สำหรับ .NET
 
@@ -109,11 +111,16 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.CreateNewDocument.docx");
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
 
- ตรวจสอบออก[Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและคำแนะนำโดยละเอียด
+ตรวจสอบออก [Aspose.Words สำหรับเอกสาร .NET](https://reference.aspose.com/words/net/) สำหรับตัวอย่างเพิ่มเติมและคำแนะนำโดยละเอียด
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

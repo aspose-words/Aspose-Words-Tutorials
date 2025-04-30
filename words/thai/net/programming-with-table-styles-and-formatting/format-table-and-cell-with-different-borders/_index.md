@@ -1,14 +1,16 @@
 ---
-title: จัดรูปแบบตารางและเซลล์ด้วยเส้นขอบที่แตกต่างกัน
-linktitle: จัดรูปแบบตารางและเซลล์ด้วยเส้นขอบที่แตกต่างกัน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการจัดรูปแบบตารางและเซลล์ที่มีเส้นขอบต่างกันโดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสาร Word ของคุณด้วยรูปแบบตารางและการแรเงาเซลล์ที่กำหนดเอง
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "เรียนรู้วิธีการจัดรูปแบบตารางและเซลล์ที่มีเส้นขอบต่างกันโดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงเอกสาร Word ของคุณด้วยรูปแบบตารางและการแรเงาเซลล์ที่กำหนดเอง"
+"linktitle": "จัดรูปแบบตารางและเซลล์ด้วยเส้นขอบที่แตกต่างกัน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "จัดรูปแบบตารางและเซลล์ด้วยเส้นขอบที่แตกต่างกัน"
+"url": "/th/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # จัดรูปแบบตารางและเซลล์ด้วยเส้นขอบที่แตกต่างกัน
@@ -22,8 +24,8 @@ url: /th/net/programming-with-table-styles-and-formatting/format-table-and-cell-
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 - ติดตั้ง Visual Studio บนคอมพิวเตอร์ของคุณแล้ว
--  Aspose.Words สำหรับไลบรารี .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
--  ใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถรับใบอนุญาตทดลองใช้งานฟรีหรือใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words สำหรับไลบรารี .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
+- ใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถรับใบอนุญาตทดลองใช้งานฟรีหรือใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -40,7 +42,7 @@ using System.Drawing;
 ขั้นแรก คุณต้องสร้างเอกสารใหม่และเริ่มต้นโปรแกรม DocumentBuilder ซึ่งจะช่วยในการสร้างเนื้อหาของเอกสาร 
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: เริ่มสร้างตาราง
 
-ขั้นตอนต่อไปคือใช้ DocumentBuilder เพื่อเริ่มสร้างตารางและแทรกเซลล์แรก
+ขั้นตอนต่อไปคือการใช้ DocumentBuilder เพื่อเริ่มสร้างตารางและแทรกเซลล์แรก
 
 ```csharp
 Table table = builder.StartTable();
@@ -138,22 +140,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDi
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถใช้รูปแบบเส้นขอบที่แตกต่างกันสำหรับแต่ละเซลล์ได้หรือไม่
- ใช่ คุณสามารถตั้งค่ารูปแบบเส้นขอบที่แตกต่างกันสำหรับแต่ละเซลล์ได้โดยใช้`CellFormat.Borders` คุณสมบัติ.
+ใช่ คุณสามารถตั้งค่ารูปแบบเส้นขอบที่แตกต่างกันสำหรับแต่ละเซลล์ได้โดยใช้ `CellFormat.Borders` คุณสมบัติ.
 
 ### ฉันจะลบเส้นขอบทั้งหมดออกจากตารางได้อย่างไร
- คุณสามารถลบขอบทั้งหมดได้โดยตั้งค่ารูปแบบขอบเป็น`LineStyle.None`.
+คุณสามารถลบขอบทั้งหมดได้โดยตั้งค่ารูปแบบขอบเป็น `LineStyle-None`.
 
 ### สามารถตั้งค่าสีเส้นขอบที่แตกต่างกันสำหรับแต่ละเซลล์ได้หรือไม่
- แน่นอน! คุณสามารถปรับแต่งสีเส้นขอบสำหรับแต่ละเซลล์ได้โดยใช้`CellFormat.Borders.Color` คุณสมบัติ.
+แน่นอน! คุณสามารถปรับแต่งสีเส้นขอบสำหรับแต่ละเซลล์ได้โดยใช้ `CellFormat.Borders.Color` คุณสมบัติ.
 
 ### ฉันสามารถใช้รูปภาพเป็นพื้นหลังเซลล์ได้หรือไม่
 แม้ว่า Aspose.Words จะไม่รองรับรูปภาพโดยตรงเป็นพื้นหลังเซลล์ แต่คุณสามารถแทรกภาพเข้าไปในเซลล์และปรับขนาดเพื่อครอบคลุมพื้นที่เซลล์ได้
 
 ### ฉันจะรวมเซลล์ในตารางได้อย่างไร?
- คุณสามารถรวมเซลล์ได้โดยใช้`CellFormat.HorizontalMerge` และ`CellFormat.VerticalMerge` คุณสมบัติ.
+คุณสามารถรวมเซลล์ได้โดยใช้ `CellFormat.HorizontalMerge` และ `CellFormat.VerticalMerge` คุณสมบัติ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

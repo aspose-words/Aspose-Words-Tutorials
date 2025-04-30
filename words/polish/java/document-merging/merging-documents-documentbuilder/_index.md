@@ -1,14 +1,16 @@
 ---
-title: Łączenie dokumentów za pomocą DocumentBuilder
-linktitle: Łączenie dokumentów za pomocą DocumentBuilder
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak manipulować dokumentami Word za pomocą Aspose.Words dla Java. Twórz, edytuj, scalaj i konwertuj dokumenty programowo w Javie.
-weight: 13
-url: /pl/java/document-merging/merging-documents-documentbuilder/
+"description": "Dowiedz się, jak manipulować dokumentami Word za pomocą Aspose.Words dla Java. Twórz, edytuj, scalaj i konwertuj dokumenty programowo w Javie."
+"linktitle": "Łączenie dokumentów za pomocą DocumentBuilder"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Łączenie dokumentów za pomocą DocumentBuilder"
+"url": "/pl/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Łączenie dokumentów za pomocą DocumentBuilder
@@ -28,7 +30,7 @@ Zanim rozpoczniesz proces scalania dokumentów, upewnij się, że spełnione są
 
 ## Pierwsze kroki
 
- Zacznijmy od utworzenia nowego projektu Java i dodania do niego biblioteki Aspose.Words. Możesz pobrać bibliotekę z[Tutaj](https://releases.aspose.com/words/java/).
+Zacznijmy od utworzenia nowego projektu Java i dodania do niego biblioteki Aspose.Words. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Tworzenie nowego dokumentu
 
@@ -99,10 +101,15 @@ Tak, Aspose.Words obsługuje różne formaty dokumentów, w tym DOC, RTF, HTML, 
 
 ### Gdzie mogę znaleźć więcej dokumentacji i materiałów?
 
- Pełną dokumentację i zasoby dotyczące Aspose.Words for Java można znaleźć na stronie internetowej Aspose:[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+Pełną dokumentację i zasoby dotyczące Aspose.Words for Java można znaleźć na stronie internetowej Aspose: [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

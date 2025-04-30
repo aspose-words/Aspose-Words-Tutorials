@@ -1,14 +1,16 @@
 ---
-title: Pokaż wersje w dymkach
-linktitle: Pokaż wersje w dymkach
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyświetlać zmiany w dymkach za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez każdy krok, zapewniając, że zmiany w dokumencie będą jasne i uporządkowane.
-weight: 10
-url: /pl/net/working-with-revisions/show-revisions-in-balloons/
+"description": "Dowiedz się, jak wyświetlać zmiany w dymkach za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez każdy krok, zapewniając, że zmiany w dokumencie będą jasne i uporządkowane."
+"linktitle": "Pokaż wersje w dymkach"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pokaż wersje w dymkach"
+"url": "/pl/net/working-with-revisions/show-revisions-in-balloons/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pokaż wersje w dymkach
@@ -21,8 +23,8 @@ url: /pl/net/working-with-revisions/show-revisions-in-balloons/
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
--  Biblioteka Aspose.Words dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
--  Ważna licencja Aspose. Jeśli jej nie masz, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Biblioteka Aspose.Words dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
+- Ważna licencja Aspose. Jeśli jej nie masz, możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 - Visual Studio lub inne środowisko IDE obsługujące programowanie w środowisku .NET.
 - Podstawowa znajomość języka C# i środowiska .NET.
 
@@ -88,16 +90,21 @@ Tak, Aspose.Words pozwala na dostosowanie koloru pasków powtórek do własnych 
 Oczywiście. Możesz skonfigurować Aspose.Words tak, aby wyświetlał tylko niektóre typy rewizji, takie jak usunięcia lub zmiany formatowania, w dymkach.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Words?
-Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami programowania?
-Aspose.Words jest przeznaczony głównie dla .NET, ale można go używać z dowolnym językiem obsługiwanym przez .NET, w tym VB.NET i C++/CLI.
+Aspose.Words został zaprojektowany przede wszystkim dla platformy .NET, ale można go używać z dowolnym językiem obsługiwanym przez tę platformę, w tym VB.NET i C++/CLI.
 
 ### Czy Aspose.Words obsługuje inne formaty dokumentów oprócz Worda?
 Tak, Aspose.Words obsługuje różne formaty dokumentów, w tym PDF, HTML, EPUB i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

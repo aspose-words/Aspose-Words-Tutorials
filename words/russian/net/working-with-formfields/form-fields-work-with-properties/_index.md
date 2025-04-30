@@ -1,14 +1,16 @@
 ---
-title: Поля формы работают со свойствами
-linktitle: Поля формы работают со свойствами
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как управлять полями форм в документах Word с помощью Aspose.Words для .NET, воспользовавшись нашим подробным пошаговым руководством.
-weight: 10
-url: /ru/net/working-with-formfields/form-fields-work-with-properties/
+"description": "Узнайте, как управлять полями форм в документах Word с помощью Aspose.Words для .NET, воспользовавшись нашим подробным пошаговым руководством."
+"linktitle": "Поля формы работают со свойствами"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Поля формы работают со свойствами"
+"url": "/ru/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поля формы работают со свойствами
@@ -20,7 +22,7 @@ url: /ru/net/working-with-formfields/form-fields-work-with-properties/
 ## Предпосылки
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
--  Aspose.Words для .NET: загрузить последнюю версию[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: загрузить последнюю версию [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки .NET: рекомендуется Visual Studio.
 - Базовые знания C#: понимание основ поможет вам легко освоить материал.
 
@@ -45,7 +47,7 @@ using Aspose.Words.Fields;
 
 ### Шаг 1.2: Установка Aspose.Words для .NET
 
- Вы можете установить Aspose.Words через NuGet Package Manager. Перейти к`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`, и найдите "Aspose.Words". Установите пакет.
+Вы можете установить Aspose.Words через NuGet Package Manager. Перейти к `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`, и найдите "Aspose.Words". Установите пакет.
 
 В качестве альтернативы вы можете использовать консоль диспетчера пакетов NuGet:
 
@@ -59,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Шаг 2.1: Укажите каталог документов
 
- Укажите путь к каталогу ваших документов. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
+Укажите путь к каталогу ваших документов. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### Шаг 3.2: Проверьте тип поля формы
 
- Убедитесь, что поле формы имеет тип`FieldFormTextInput` перед его изменением.
+Убедитесь, что поле формы имеет тип `FieldFormTextInput` перед его изменением.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 Да, Aspose.Words для .NET совместим с любым языком .NET, включая VB.NET и F#.
 
 ### Является ли Aspose.Words для .NET бесплатным?
-Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Могу ли я манипулировать другими элементами в документе Word с помощью Aspose.Words для .NET?
 Конечно! Aspose.Words для .NET позволяет вам манипулировать текстом, изображениями, таблицами и многими другими элементами в документе Word.
 
 ### Как получить поддержку по Aspose.Words для .NET?
- Для получения поддержки вы можете посетить форум Aspose.Words.[здесь](https://forum.aspose.com/c/words/8).
+Для получения поддержки вы можете посетить форум Aspose.Words. [здесь](https://forum.aspose.com/c/words/8).
 
 ### Где я могу найти документацию по Aspose.Words для .NET?
- Полную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Полную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

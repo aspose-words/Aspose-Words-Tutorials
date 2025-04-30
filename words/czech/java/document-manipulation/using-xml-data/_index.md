@@ -1,14 +1,16 @@
 ---
-title: Použití XML dat v Aspose.Words pro Javu
-linktitle: Použití dat XML
-second_title: Aspose.Words Java Document Processing API
-description: Odemkněte sílu Aspose.Words pro Java. Naučte se práci s daty XML, hromadnou korespondenci a knírkovou syntaxi pomocí výukových programů krok za krokem.
-weight: 12
-url: /cs/java/document-manipulation/using-xml-data/
+"description": "Odemkněte sílu Aspose.Words pro Javu. Naučte se pracovat s daty XML, hromadnou korespondenci a syntaxi Mustache s podrobnými tutoriály."
+"linktitle": "Použití XML dat"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Použití XML dat v Aspose.Words pro Javu"
+"url": "/cs/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Použití XML dat v Aspose.Words pro Javu
@@ -16,14 +18,14 @@ url: /cs/java/document-manipulation/using-xml-data/
 
 ## Úvod do používání XML dat v Aspose.Words pro Javu
 
-V této příručce prozkoumáme, jak pracovat s daty XML pomocí Aspose.Words for Java. Dozvíte se, jak provádět operace hromadné korespondence, včetně vnořených hromadných korespondencí, a jak používat syntaxi Mustache s DataSet. Poskytneme vám podrobné pokyny a příklady zdrojového kódu, které vám pomohou začít.
+V této příručce se podíváme na práci s daty XML pomocí Aspose.Words pro Javu. Naučíte se, jak provádět operace hromadné korespondence, včetně vnořených hromadných korespondencí, a jak používat syntaxi Mustache s datovou sadou (DataSet). Poskytneme podrobné pokyny a příklady zdrojového kódu, které vám pomohou začít.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
-- [Aspose.Words for Java](https://products.aspose.com/words/java/) nainstalováno.
+- [Aspose.Words pro Javu](https://products.aspose.com/words/java/) nainstalováno.
 - Ukázkové datové soubory XML pro zákazníky, objednávky a dodavatele.
-- Ukázkové dokumenty aplikace Word pro cíle hromadné korespondence.
+- Ukázkové dokumenty Wordu pro cíle hromadné korespondence.
 
 ## Hromadná korespondence s daty XML
 
@@ -41,7 +43,7 @@ doc.save("Your Directory Path" + "BasicMailMerge.docx");
 
 ### 2. Vnořená hromadná korespondence
 
-Pro vnořené hromadné korespondence použijte následující kód:
+Pro vnořené hromadné zprávy použijte následující kód:
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -52,9 +54,9 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Moustache Syntaxe pomocí DataSet
+## Syntaxe Mustache s využitím datové sady
 
-Chcete-li využít syntaxi Moustache s DataSet, postupujte takto:
+Chcete-li využít syntaxi Mustache s datovou sadou (DataSet), postupujte takto:
 
 ```java
 DataSet ds = new DataSet();
@@ -67,24 +69,29 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Závěr
 
-tomto obsáhlém průvodci jsme prozkoumali, jak efektivně využívat data XML s Aspose.Words for Java. Naučili jste se, jak provádět různé operace hromadné korespondence, včetně základní hromadné korespondence, vnořené hromadné korespondence a jak používat syntaxi Mustache s DataSet. Tyto techniky vám umožňují snadno automatizovat generování a přizpůsobení dokumentů.
+V této komplexní příručce jsme prozkoumali, jak efektivně využívat XML data s Aspose.Words pro Javu. Naučili jste se provádět různé operace hromadné korespondence, včetně základní hromadné korespondence, vnořené hromadné korespondence a jak používat syntaxi Mustache s datovou sadou (DataSet). Tyto techniky vám umožní snadno automatizovat generování a přizpůsobení dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu připravit svá data XML pro hromadnou korespondenci?
+### Jak mohu připravit XML data pro hromadnou korespondenci?
 
-Ujistěte se, že vaše data XML dodržují požadovanou strukturu s definovanými tabulkami a vztahy, jak je znázorněno v poskytnutých příkladech.
+Ujistěte se, že vaše XML data splňují požadovanou strukturu s definovanými tabulkami a vztahy, jak je znázorněno v uvedených příkladech.
 
-### Mohu přizpůsobit chování oříznutí pro hodnoty hromadné korespondence?
+### Mohu si přizpůsobit chování ořezávání hodnot hromadné korespondence?
 
- Ano, můžete řídit, zda se budou během hromadné korespondence ořezávat mezery na začátku a na konci pomocí`doc.getMailMerge().setTrimWhitespaces(false)`.
+Ano, můžete ovládat, zda se během hromadné korespondence ořezávají úvodní a koncové mezery, a to pomocí `doc.getMailMerge().setTrimWhitespaces(false)`.
 
-### Co je to syntaxe Moustache a kdy ji mám použít?
+### Co je syntaxe Mustache a kdy ji mám použít?
 
- Syntaxe Moustache umožňuje flexibilnější formátování polí hromadné korespondence. Použití`doc.getMailMerge().setUseNonMergeFields(true)` pro povolení syntaxe Mustache.
+Syntaxe Mustache umožňuje flexibilnější formátování polí hromadné korespondence. Použití `doc.getMailMerge().setUseNonMergeFields(true)` pro povolení syntaxe Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

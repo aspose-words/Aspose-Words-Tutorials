@@ -1,14 +1,16 @@
 ---
-title: Mengatur Pemformatan Font
-linktitle: Mengatur Pemformatan Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur format font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk meningkatkan otomatisasi dokumen Anda.
-weight: 10
-url: /id/net/working-with-fonts/set-font-formatting/
+"description": "Pelajari cara mengatur format font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk meningkatkan otomatisasi dokumen Anda."
+"linktitle": "Mengatur Pemformatan Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Pemformatan Font"
+"url": "/id/net/working-with-fonts/set-font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Pemformatan Font
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia manipulasi dokumen menggunakan Aspose.Wor
 
 Sebelum kita menyelami detailnya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat.
 
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang sederhana da
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
- Pertama, Anda perlu membuat dokumen baru dan menginisialisasi`DocumentBuilder` kelas, yang akan membantu Anda menyusun dan memformat dokumen Anda.
+Pertama, Anda perlu membuat dokumen baru dan menginisialisasi `DocumentBuilder` kelas, yang akan membantu Anda menyusun dan memformat dokumen Anda.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -90,7 +92,7 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontFormatting.docx");
 
 ## Kesimpulan
 
-Nah, itu dia! Anda telah berhasil mengatur format font dalam dokumen Word menggunakan Aspose.Words for .NET. Pustaka canggih ini memudahkan manipulasi dokumen, memungkinkan Anda membuat dokumen dengan format yang kaya secara terprogram. Baik Anda membuat laporan, membuat templat, atau sekadar mengotomatiskan pembuatan dokumen, Aspose.Words for .NET siap membantu Anda.
+Nah, itu dia! Anda telah berhasil mengatur format font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pustaka canggih ini memudahkan manipulasi dokumen, memungkinkan Anda membuat dokumen dengan format yang kaya secara terprogram. Baik Anda membuat laporan, membuat templat, atau sekadar mengotomatiskan pembuatan dokumen, Aspose.Words untuk .NET siap membantu Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -101,16 +103,21 @@ Aspose.Words untuk .NET adalah pustaka yang hebat untuk membuat, mengedit, dan m
 Ya, Anda dapat menggunakan Aspose.Words untuk .NET dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk penggunaan produksi. Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy) atau mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license) untuk tujuan evaluasi.
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk penggunaan produksi. Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy) atau mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license) untuk tujuan evaluasi.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
-Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim dukungan[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim dukungan [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Bisakah saya memformat bagian tertentu dari teks secara berbeda?
- Ya, Anda dapat menerapkan format berbeda ke bagian teks tertentu dengan menyesuaikan`Font` properti dari`DocumentBuilder` sesuai kebutuhan.
+Ya, Anda dapat menerapkan format berbeda ke bagian teks tertentu dengan menyesuaikan `Font` properti dari `DocumentBuilder` sesuai kebutuhan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การสร้างและการจัดการรายการในเอกสาร Word
-linktitle: การสร้างและการจัดการรายการในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีการสร้างและจัดการรายการในเอกสาร Word โดยใช้ Aspose.Words Python API คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดรูปแบบรายการ การปรับแต่ง การจัดเรียงแบบซ้อน และอื่นๆ อีกมากมาย
-weight: 18
-url: /th/python-net/document-structure-and-content-manipulation/document-lists/
+"description": "เรียนรู้วิธีการสร้างและจัดการรายการในเอกสาร Word โดยใช้ Aspose.Words Python API คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดรูปแบบรายการ การปรับแต่ง การจัดเรียงแบบซ้อน และอื่นๆ อีกมากมาย"
+"linktitle": "การสร้างและการจัดการรายการในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การสร้างและการจัดการรายการในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-lists/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างและการจัดการรายการในเอกสาร Word
@@ -22,31 +24,31 @@ url: /th/python-net/document-structure-and-content-manipulation/document-lists/
 
 ## การจัดเตรียมสภาพแวดล้อม
 
- ก่อนที่เราจะลงลึกในการสร้างและจัดการรายการ โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/python/) นอกจากนี้ โปรดดูเอกสาร API ได้ที่[ลิงค์นี้](https://reference.aspose.com/words/python-net/) เพื่อดูข้อมูลโดยละเอียด
+ก่อนที่เราจะลงลึกในการสร้างและจัดการรายการ โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/words/python/)นอกจากนี้ โปรดดูเอกสาร API ได้ที่ [ลิงค์นี้](https://reference.aspose.com/words/python-net/) เพื่อดูข้อมูลโดยละเอียด
 
 ## การสร้างรายการแบบมีหัวข้อย่อย
 
 รายการแบบมีหัวข้อย่อยจะใช้เมื่อลำดับของรายการไม่สำคัญ หากต้องการสร้างรายการแบบมีหัวข้อย่อยโดยใช้ Aspose.Words ใน Python ให้ทำตามขั้นตอนเหล่านี้:
 
 ```python
-# Import the necessary classes
+# นำเข้าคลาสที่จำเป็น
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# สร้างเอกสารใหม่
 doc = Document()
 
-# Create a list template and add it to the document
+# สร้างเทมเพลตรายการและเพิ่มลงในเอกสาร
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# เพิ่มระดับรายการลงในเทมเพลต
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Customize the list formatting if needed
-list_level.number_format = "\u2022"  # Bullet character
+# ปรับแต่งการจัดรูปแบบรายการหากจำเป็น
+list_level.number_format = "\u2022"  # อักขระกระสุน
 
-# Add list items
+# เพิ่มรายการ
 list_item_texts = ["Item 1", "Item 2", "Item 3"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -61,21 +63,21 @@ for text in list_item_texts:
 รายการแบบมีหมายเลขเหมาะสำหรับเมื่อลำดับของรายการมีความสำคัญ ต่อไปนี้เป็นวิธีการสร้างรายการแบบมีหมายเลขโดยใช้ Aspose.Words ใน Python:
 
 ```python
-# Import the necessary classes
+# นำเข้าคลาสที่จำเป็น
 from aspose.words import Document, ListTemplate, ListLevel
 
-# Create a new document
+# สร้างเอกสารใหม่
 doc = Document()
 
-# Create a list template and add it to the document
+# สร้างเทมเพลตรายการและเพิ่มลงในเอกสาร
 list_template = ListTemplate(doc)
 doc.list_templates.add(list_template)
 
-# Add a list level to the template
+# เพิ่มระดับรายการลงในเทมเพลต
 list_level = ListLevel(list_template)
 list_template.list_levels.append(list_level)
 
-# Add list items
+# เพิ่มรายการ
 list_item_texts = ["Item A", "Item B", "Item C"]
 for text in list_item_texts:
     paragraph = doc.builder.insert_paragraph()
@@ -116,22 +118,27 @@ for text in list_item_texts:
 ## คำถามที่พบบ่อย
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ Python ได้อย่างไร?
- คุณสามารถดาวน์โหลดห้องสมุดได้จาก[ลิงค์นี้](https://releases.aspose.com/words/python/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
+คุณสามารถดาวน์โหลดห้องสมุดได้จาก [ลิงค์นี้](https://releases.aspose.com/words/python/) และปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสาร
 
 ### ฉันสามารถกำหนดรูปแบบการนับหมายเลขให้กับรายการของฉันได้ไหม
 แน่นอน! Aspose.Words Python ช่วยให้คุณปรับแต่งรูปแบบการนับเลข สไตล์หัวข้อย่อย และการจัดตำแหน่งเพื่อปรับแต่งรายการให้ตรงตามความต้องการเฉพาะของคุณได้
 
 ### เป็นไปได้ไหมที่จะสร้างรายการซ้อนกันโดยใช้ Aspose.Words?
-ใช่ คุณสามารถสร้างรายการซ้อนได้โดยการเพิ่มรายการย่อยลงในรายการหลักของคุณ ซึ่งมีประโยชน์สำหรับการนำเสนอข้อมูลแบบลำดับชั้น
+ใช่ คุณสามารถสร้างรายการแบบซ้อนได้โดยการเพิ่มรายการย่อยลงในรายการหลักของคุณ ซึ่งมีประโยชน์สำหรับการนำเสนอข้อมูลแบบลำดับชั้น
 
 ### ฉันสามารถแปลงข้อความธรรมดาที่มีอยู่เป็นรายการได้หรือไม่
 ใช่ Aspose.Words ใน Python มีวิธีการวิเคราะห์และจัดรูปแบบข้อความธรรมดาเป็นรายการ ทำให้โครงสร้างเนื้อหาของคุณเป็นเรื่องง่าย
 
 ### ฉันสามารถบันทึกเอกสารหลังจากสร้างรายการได้อย่างไร
- คุณสามารถบันทึกเอกสารของคุณโดยใช้`doc.save()` วิธีการและระบุรูปแบบเอาต์พุตที่ต้องการ เช่น DOCX หรือ PDF
+คุณสามารถบันทึกเอกสารของคุณโดยใช้ `doc.save()` วิธีการและระบุรูปแบบเอาต์พุตที่ต้องการ เช่น DOCX หรือ PDF
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

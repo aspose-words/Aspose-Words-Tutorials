@@ -1,14 +1,16 @@
 ---
-title: บันทึก PDF เป็นรูปแบบ Word (Docx)
-linktitle: บันทึก PDF เป็นรูปแบบ Word (Docx)
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/basic-conversions/pdf-to-docx/
+"description": "เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา"
+"linktitle": "บันทึก PDF เป็นรูปแบบ Word (Docx)"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "บันทึก PDF เป็นรูปแบบ Word (Docx)"
+"url": "/th/net/basic-conversions/pdf-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # บันทึก PDF เป็นรูปแบบ Word (Docx)
@@ -21,14 +23,14 @@ url: /th/net/basic-conversions/pdf-to-docx/
 
 ก่อนที่เราจะก้าวเข้าสู่โลกแห่งการแปลงไฟล์อันมหัศจรรย์ เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่ต้องการ:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด หากไม่มี ให้ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีเวอร์ชันล่าสุด หากไม่มี ให้ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 - เอกสาร PDF: ไฟล์ PDF ที่คุณต้องการแปลง
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่ต้องการ
 
 ### การตั้งค่าสภาพแวดล้อมของคุณ
 
-1.  ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET: ไปที่[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) และดาวน์โหลดเวอร์ชั่นล่าสุด
+1. ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET: ไปที่ [เว็บไซต์อาโพส](https://releases.aspose.com/words/net/) และดาวน์โหลดเวอร์ชั่นล่าสุด
 2. สร้างโครงการใหม่: เปิด IDE ของคุณ สร้างโครงการ .NET ใหม่ และเพิ่มการอ้างอิงไปที่ Aspose.Words
 3. เตรียมเอกสาร PDF ของคุณ: เตรียมเอกสาร PDF ที่คุณต้องการแปลงไว้ในไดเร็กทอรีโครงการของคุณ
 
@@ -36,7 +38,7 @@ url: /th/net/basic-conversions/pdf-to-docx/
 
 ## นำเข้าเนมสเปซ
 
-ก่อนจะเริ่มเขียนโค้ด เราต้องแน่ใจว่าเราได้นำเนมสเปซที่จำเป็นเข้าไปในโปรเจ็กต์แล้ว ซึ่งจะทำให้เราสามารถเข้าถึงฟังก์ชัน Aspose.Words ได้อย่างราบรื่น
+ก่อนจะเริ่มเขียนโค้ด เราต้องแน่ใจว่าเราได้นำเนมสเปซที่จำเป็นเข้าไปในโปรเจ็กต์แล้ว ซึ่งจะทำให้เราเข้าถึงฟังก์ชัน Aspose.Words ได้อย่างราบรื่น
 
 ```csharp
 using System;
@@ -62,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Pdf Document.pdf");
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ของ`Document` และส่งเส้นทางของไฟล์ PDF ของเราไปที่ไฟล์นั้น การดำเนินการนี้จะโหลด PDF ลงในหน่วยความจำเพื่อเตรียมแปลง
+ที่นี่เราสร้างอินสแตนซ์ของ `Document` และส่งเส้นทางของไฟล์ PDF ของเราไปที่ไฟล์นั้น การดำเนินการนี้จะโหลด PDF ลงในหน่วยความจำเพื่อเตรียมแปลง
 
 ## ขั้นตอนที่ 3: บันทึก PDF เป็นเอกสาร Word
 
@@ -72,7 +74,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf");
 doc.Save(dataDir + "BaseConversions.PdfToDocx.docx");
 ```
 
- โดยการโทรหา`Save` วิธีการของเรา`Document` ตัวอย่างเช่น เราระบุเส้นทางและรูปแบบของไฟล์เอาท์พุต ในกรณีนี้ เราจะบันทึกเป็นไฟล์ Docx
+โดยการโทรหา `Save` วิธีการของเรา `Document` ตัวอย่างเช่น เราระบุเส้นทางและรูปแบบของไฟล์เอาท์พุต ในกรณีนี้ เราจะบันทึกเป็นไฟล์ Docx
 
 ## ขั้นตอนที่ 4: การเรียกใช้การแปลง
 
@@ -85,22 +87,27 @@ doc.Save(dataDir + "BaseConversions.PdfToDocx.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแปลงไฟล์ PDF หลายไฟล์เป็นเอกสาร Word ในครั้งเดียวได้ไหม
-ใช่ คุณสามารถวนซ้ำไฟล์ PDF หลายไฟล์และแปลงแต่ละไฟล์โดยใช้วิธีเดียวกันได้
+ใช่ คุณสามารถวนซ้ำผ่าน PDF หลายฉบับและแปลงแต่ละฉบับโดยใช้วิธีเดียวกันได้
 
 ### Aspose.Words สำหรับ .NET รักษาการจัดรูปแบบ PDF ในเอกสาร Word หรือไม่
 ใช่ Aspose.Words ทำหน้าที่รักษาการจัดรูปแบบดั้งเดิมได้เป็นอย่างดี
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- แม้ว่าคุณจะใช้ใบอนุญาตชั่วคราวเพื่อประเมินผลได้ แต่คุณจะต้องซื้อใบอนุญาตเต็มรูปแบบสำหรับการใช้งานเชิงพาณิชย์ ตรวจสอบ[หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
+แม้ว่าคุณจะใช้ใบอนุญาตชั่วคราวเพื่อประเมินผลได้ แต่คุณจะต้องซื้อใบอนุญาตเต็มรูปแบบสำหรับการใช้งานเชิงพาณิชย์ ตรวจสอบ [หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET บนระบบปฏิบัติการอื่นได้หรือไม่
 ใช่ Aspose.Words สำหรับ .NET รองรับหลายแพลตฟอร์มและสามารถใช้บน Windows, Linux และ macOS ได้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

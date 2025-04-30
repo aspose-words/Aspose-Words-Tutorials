@@ -1,14 +1,16 @@
 ---
-title: การลบและปรับแต่งเนื้อหาในเอกสาร Word
-linktitle: การลบและปรับแต่งเนื้อหาในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีการลบและปรับแต่งเนื้อหาในเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
-weight: 13
-url: /th/python-net/content-extraction-and-manipulation/remove-content-documents/
+"description": "เรียนรู้วิธีการลบและปรับแต่งเนื้อหาในเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ"
+"linktitle": "การลบและปรับแต่งเนื้อหาในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การลบและปรับแต่งเนื้อหาในเอกสาร Word"
+"url": "/th/python-net/content-extraction-and-manipulation/remove-content-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การลบและปรับแต่งเนื้อหาในเอกสาร Word
@@ -28,7 +30,7 @@ url: /th/python-net/content-extraction-and-manipulation/remove-content-documents
 
 ## การติดตั้ง Aspose.Words สำหรับ Python
 
- ในการเริ่มต้น คุณต้องติดตั้งไลบรารี Aspose.Words สำหรับ Python คุณสามารถทำได้โดยใช้`pip`ตัวจัดการแพ็กเกจ Python โดยรันคำสั่งต่อไปนี้:
+ในการเริ่มต้น คุณต้องติดตั้งไลบรารี Aspose.Words สำหรับ Python คุณสามารถทำได้โดยใช้ `pip`ตัวจัดการแพ็กเกจ Python โดยรันคำสั่งต่อไปนี้:
 
 ```bash
 pip install aspose-words
@@ -46,7 +48,7 @@ doc = aw.Document("path/to/your/document.docx")
 
 ## การลบข้อความ
 
- การลบข้อความเฉพาะออกจากเอกสาร Word เป็นเรื่องง่ายด้วย Aspose.Words คุณสามารถใช้`Range.replace` วิธีการที่จะบรรลุสิ่งนี้:
+การลบข้อความเฉพาะออกจากเอกสาร Word เป็นเรื่องง่ายด้วย Aspose.Words คุณสามารถใช้ `Range.replace` วิธีการที่จะบรรลุสิ่งนี้:
 
 ```python
 text_to_remove = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -143,14 +145,19 @@ pip install aspose-words
 
 ### ฉันจะบันทึกเอกสารที่แก้ไขแล้วได้อย่างไร?
 
- ใช้`save` วิธีการบนวัตถุเอกสาร โดยระบุเส้นทางไฟล์เอาท์พุต เพื่อบันทึกเอกสารที่แก้ไข
+ใช้ `save` วิธีการบนวัตถุเอกสาร โดยระบุเส้นทางไฟล์เอาต์พุต เพื่อบันทึกเอกสารที่แก้ไข
 
 ### ฉันสามารถเข้าถึงเอกสาร Aspose.Words สำหรับ Python ได้ที่ไหน
 
- คุณสามารถค้นหาเอกสารรายละเอียดและการอ้างอิง API ได้ที่[เอกสารประกอบ Aspose.Words สำหรับ Python](https://reference.aspose.com/words/python-net/).
+คุณสามารถค้นหาเอกสารรายละเอียดและการอ้างอิง API ได้ที่ [เอกสารประกอบ Aspose.Words สำหรับ Python](https://reference-aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

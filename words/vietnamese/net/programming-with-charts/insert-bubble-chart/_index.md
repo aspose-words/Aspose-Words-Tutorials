@@ -1,14 +1,16 @@
 ---
-title: Chèn biểu đồ bong bóng vào tài liệu Word
-linktitle: Chèn biểu đồ bong bóng vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-charts/insert-bubble-chart/
+"description": "Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn."
+"linktitle": "Chèn biểu đồ bong bóng vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn biểu đồ bong bóng vào tài liệu Word"
+"url": "/vi/net/programming-with-charts/insert-bubble-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn biểu đồ bong bóng vào tài liệu Word
@@ -21,13 +23,13 @@ Bạn đã bao giờ tự hỏi làm thế nào để làm cho tài liệu Word 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-- Aspose.Words cho .NET: Nếu bạn chưa có, bạn sẽ cần tải xuống và cài đặt Aspose.Words cho .NET. Bạn có thể lấy nó từ[trang tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa có, bạn sẽ cần tải xuống và cài đặt Aspose.Words cho .NET. Bạn có thể lấy nó từ [trang tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển nơi bạn có thể viết và thực thi mã .NET. Visual Studio là một lựa chọn phổ biến.
 - Kiến thức cơ bản về C#: Mặc dù hướng dẫn này dành cho người mới bắt đầu, nhưng hiểu biết cơ bản về C# sẽ giúp bạn dễ dàng theo dõi hơn.
 
 ## Nhập không gian tên
 
-Trước tiên, chúng ta cần import các namespace cần thiết. Điều này rất cần thiết để truy cập các lớp và phương thức mà chúng ta sẽ sử dụng từ thư viện Aspose.Words.
+Trước tiên, chúng ta cần nhập các không gian tên cần thiết. Điều này rất cần thiết để truy cập các lớp và phương thức mà chúng ta sẽ sử dụng từ thư viện Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -42,7 +44,7 @@ Hãy chia nhỏ quy trình thành các bước dễ quản lý. Thực hiện th
 Trước khi bắt đầu tạo biểu đồ, chúng ta cần xác định đường dẫn đến thư mục nơi tài liệu của chúng ta sẽ được lưu. Điều này đảm bảo tài liệu của chúng ta được lưu trữ ở đúng nơi.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -64,7 +66,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 4: Chèn biểu đồ bong bóng
 
- Bây giờ đến phần thú vị - chèn biểu đồ bong bóng. Chúng tôi sử dụng`InsertChart` phương pháp để thêm một biểu đồ loại`Bubble` vào tài liệu của chúng tôi.
+Bây giờ đến phần thú vị - chèn biểu đồ bong bóng. Chúng tôi sử dụng `InsertChart` phương pháp để thêm một biểu đồ loại `Bubble` vào tài liệu của chúng tôi.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
@@ -95,7 +97,7 @@ Xin chúc mừng! Bạn đã chèn thành công biểu đồ bong bóng vào tà
 
 ### Tôi có thể tùy chỉnh giao diện của biểu đồ bong bóng không?
 
- Chắc chắn rồi! Aspose.Words cho .NET cung cấp nhiều tùy chọn tùy chỉnh, từ màu sắc và nhãn đến định dạng chuỗi dữ liệu. Hãy xem[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Chắc chắn rồi! Aspose.Words cho .NET cung cấp nhiều tùy chọn tùy chỉnh, từ màu sắc và nhãn đến định dạng chuỗi dữ liệu. Hãy xem [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Có thể thêm nhiều biểu đồ vào một tài liệu không?
 
@@ -103,18 +105,23 @@ Có, bạn có thể thêm bao nhiêu biểu đồ tùy thích. Chỉ cần lặ
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác không?
 
-Chắc chắn rồi. Mặc dù hướng dẫn này sử dụng C#, Aspose.Words cho .NET lại tương thích với các ngôn ngữ .NET khác như VB.NET.
+Chắc chắn rồi. Mặc dù hướng dẫn này sử dụng C#, Aspose.Words cho .NET tương thích với các ngôn ngữ .NET khác như VB.NET.
 
 ### Làm thế nào để tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
 
- Bạn có thể nhận được bản dùng thử miễn phí từ[trang web](https://releases.aspose.com/). Điều này cho phép bạn kiểm tra các tính năng trước khi mua hàng.
+Bạn có thể nhận được bản dùng thử miễn phí từ [trang web](https://releases.aspose.com/). Điều này cho phép bạn kiểm tra các tính năng trước khi mua hàng.
 
 ### Tôi có thể tìm thêm hướng dẫn và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
 
- Để biết thêm hướng dẫn và hỗ trợ, hãy truy cập[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Để biết thêm hướng dẫn và hỗ trợ, hãy truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

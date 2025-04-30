@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-vba-macros/clone-vba-project/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Vba Project from a Word Document
@@ -121,9 +124,13 @@ VBA in Word documents is often used for automating tasks, creating custom macros
 ### Where can I buy Aspose.Words for .NET?  
 You can purchase Aspose.Words for .NET from the [Aspose.Purchase](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

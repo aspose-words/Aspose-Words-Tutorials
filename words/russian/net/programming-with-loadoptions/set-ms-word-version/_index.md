@@ -1,15 +1,16 @@
 ---
-title: Установить версию MS Word
-linktitle: Установить версию MS Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как устанавливать версии MS Word с помощью Aspose.Words для .NET с помощью нашего подробного руководства. Идеально подходит для разработчиков, желающих оптимизировать работу с документами.
-
-weight: 10
-url: /ru/net/programming-with-loadoptions/set-ms-word-version/
+"description": "Узнайте, как устанавливать версии MS Word с помощью Aspose.Words для .NET с помощью нашего подробного руководства. Идеально подходит для разработчиков, желающих оптимизировать работу с документами."
+"linktitle": "Установить версию MS Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить версию MS Word"
+"url": "/ru/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить версию MS Word
@@ -22,7 +23,7 @@ url: /ru/net/programming-with-loadoptions/set-ms-word-version/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: убедитесь, что у вас установлена последняя версия.[Загрузить здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: убедитесь, что у вас установлена последняя версия. [Загрузить здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: вы можете использовать Visual Studio или любую другую совместимую с .NET IDE.
 - Базовые знания C#: хотя мы и постараемся упростить этот вопрос, базовые знания C# необходимы.
 - Образец документа: подготовьте документ Word в своем каталоге документов для целей тестирования.
@@ -57,7 +58,7 @@ LoadOptions loadOptions = new LoadOptions { MswVersion = MsWordVersion.Word2010 
 
 ## Шаг 3: Загрузите документ
 
-Теперь, когда у вас установлены параметры загрузки, пришло время загрузить ваш документ. Этот шаг похож на открытие документа в определенной версии Word.
+Теперь, когда у вас установлены параметры загрузки, пришло время загрузить документ. Этот шаг похож на открытие документа в определенной версии Word.
 
 ```csharp
 // Загрузите документ с указанной версией MS Word
@@ -80,23 +81,28 @@ doc.Save(dataDir + "WorkingWithLoadOptions.SetMsWordVersion.docx");
 ## Часто задаваемые вопросы
 
 ### Могу ли я установить версии, отличные от Word 2010?
- Да, вы можете установить разные версии, например Word 2007, Word 2013 и т. д., изменив`MsWordVersion` свойство.
+Да, вы можете установить разные версии, например Word 2007, Word 2013 и т. д., изменив `MsWordVersion` свойство.
 
 ### Совместим ли Aspose.Words с .NET Core?
 Конечно! Aspose.Words поддерживает .NET Framework, .NET Core и .NET 5+.
 
 ### Нужна ли мне лицензия для использования Aspose.Words?
- Вы можете воспользоваться бесплатной пробной версией, но для использования всех функций вам понадобится лицензия.[Получите временную лицензию здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете воспользоваться бесплатной пробной версией, но для использования всех функций вам понадобится лицензия. [Получите временную лицензию здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Могу ли я управлять другими функциями документов Word с помощью Aspose.Words?
 Да, Aspose.Words — это комплексная библиотека, позволяющая манипулировать практически всеми аспектами документов Word.
 
 ### Где я могу найти больше примеров и документации?
- Проверьте[документация](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробной информации.
+Проверьте [документация](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробной информации.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-styles-and-themes/get-theme-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Document Theme Properties In Word
@@ -120,9 +123,13 @@ To apply a new theme, you would need to set the theme properties on your `Docume
 
 For support, you can visit the [Aspose Support Forum](https://forum.aspose.com/c/words/8) where you can ask questions and find solutions to common issues.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

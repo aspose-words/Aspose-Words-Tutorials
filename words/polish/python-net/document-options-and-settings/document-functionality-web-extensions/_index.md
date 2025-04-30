@@ -1,14 +1,16 @@
 ---
-title: Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych
-linktitle: Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak rozszerzyć funkcjonalność dokumentu za pomocą rozszerzeń internetowych przy użyciu Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej integracji.
-weight: 13
-url: /pl/python-net/document-options-and-settings/document-functionality-web-extensions/
+"description": "Dowiedz się, jak rozszerzyć funkcjonalność dokumentu za pomocą rozszerzeń internetowych przy użyciu Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej integracji."
+"linktitle": "Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych"
+"url": "/pl/python-net/document-options-and-settings/document-functionality-web-extensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych
@@ -23,15 +25,15 @@ Rozszerzenia internetowe stały się integralną częścią nowoczesnych system�
 Zanim zagłębimy się w szczegóły techniczne, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Python.
--  Dokumentacja API Aspose.Words dla języka Python (dostępna pod adresem[Tutaj](https://reference.aspose.com/words/python-net/).
--  Dostęp do biblioteki Aspose.Words dla języka Python (do pobrania z[Tutaj](https://releases.aspose.com/words/python/).
+- Dokumentacja API Aspose.Words dla języka Python (dostępna pod adresem [Tutaj](https://reference.aspose.com/words/python-net/).
+- Dostęp do biblioteki Aspose.Words dla języka Python (do pobrania z [Tutaj](https://releases.aspose.com/words/python/).
 
 ## Konfigurowanie Aspose.Words dla Pythona
 
 Aby rozpocząć, wykonaj poniższe kroki, aby skonfigurować Aspose.Words dla języka Python:
 
-1. Pobierz bibliotekę Aspose.Words for Python, korzystając z podanego łącza.
-2.  Zainstaluj bibliotekę przy użyciu odpowiedniego menedżera pakietów (np.`pip`).
+1. Pobierz bibliotekę Aspose.Words for Python z podanego łącza.
+2. Zainstaluj bibliotekę przy użyciu odpowiedniego menedżera pakietów (np. `pip`).
 
 ```python
 pip install aspose-words
@@ -101,7 +103,7 @@ Masz problemy z rozszerzeniami internetowymi? Sprawdź dokumentację Aspose.Word
 
 ## Wniosek
 
-W tym przewodniku zbadaliśmy moc Aspose.Words dla Pythona w rozszerzaniu funkcjonalności dokumentów za pomocą rozszerzeń internetowych. Postępując zgodnie z instrukcjami krok po kroku, nauczyłeś się, jak tworzyć, integrować i optymalizować rozszerzenia internetowe w swoich dokumentach. Zacznij ulepszać swój system zarządzania dokumentami dzięki możliwościom Aspose.Words już dziś!
+tym przewodniku zbadaliśmy moc Aspose.Words dla Pythona w rozszerzaniu funkcjonalności dokumentów za pomocą rozszerzeń internetowych. Postępując zgodnie z instrukcjami krok po kroku, nauczyłeś się, jak tworzyć, integrować i optymalizować rozszerzenia internetowe w swoich dokumentach. Zacznij ulepszać swój system zarządzania dokumentami dzięki możliwościom Aspose.Words już dziś!
 
 ## Najczęściej zadawane pytania
 
@@ -120,9 +122,14 @@ Aspose.Words obsługuje różne formaty zapisywania dokumentów, w tym DOCX, PDF
 ### Czy istnieje sposób na optymalizację działania rozszerzeń internetowych?
 
 Aby zoptymalizować działanie rozszerzeń internetowych, należy zminimalizować liczbę żądań zewnętrznych, korzystać z asynchronicznego ładowania i przeprowadzać dokładne testy w różnych przeglądarkach i na różnych urządzeniach.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

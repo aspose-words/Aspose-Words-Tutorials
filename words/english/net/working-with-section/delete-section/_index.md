@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-section/delete-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Section
@@ -75,9 +78,13 @@ Absolutely! Aspose.Words supports a variety of formats including DOCX, PDF, HTML
 ### Where can I get help if I run into issues?
 You can get support from the Aspose community [here](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

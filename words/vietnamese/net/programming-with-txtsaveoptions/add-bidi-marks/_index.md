@@ -1,14 +1,16 @@
 ---
-title: Thêm Dấu Bidi vào Tài liệu Word
-linktitle: Thêm Dấu Bidi vào Tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm dấu hai chiều (Bidi) vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Đảm bảo hướng văn bản phù hợp cho nội dung đa ngôn ngữ.
-weight: 10
-url: /vi/net/programming-with-txtsaveoptions/add-bidi-marks/
+"description": "Tìm hiểu cách thêm dấu hai chiều (Bidi) vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Đảm bảo hướng văn bản phù hợp cho nội dung đa ngôn ngữ."
+"linktitle": "Thêm Dấu Bidi vào Tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm Dấu Bidi vào Tài liệu Word"
+"url": "/vi/net/programming-with-txtsaveoptions/add-bidi-marks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Dấu Bidi vào Tài liệu Word
@@ -21,7 +23,7 @@ Trong thế giới xử lý tài liệu, văn bản hai chiều (Bidi) thường
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang Tải xuống Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang Tải xuống Aspose](https://releases.aspose.com/words/net/).
 2. .NET Framework hoặc .NET Core: Đảm bảo rằng bạn đã thiết lập môi trường .NET tương thích để chạy các ví dụ.
 3. Kiến thức cơ bản về C#: Có hiểu biết về ngôn ngữ lập trình C# và các thao tác cơ bản trong .NET.
 
@@ -38,7 +40,7 @@ Chúng ta hãy chia nhỏ quy trình thêm dấu Bidi vào tài liệu Word thà
 
 ## Bước 1: Thiết lập tài liệu của bạn
 
- Bắt đầu bằng cách tạo một phiên bản mới của`Document` lớp và một`DocumentBuilder` để thêm nội dung vào tài liệu.
+Bắt đầu bằng cách tạo một phiên bản mới của `Document` lớp và một `DocumentBuilder` để thêm nội dung vào tài liệu.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, bạn khởi tạo một tài liệu Word mới và thiết lập một`DocumentBuilder` để tạo điều kiện chèn nội dung.
+Trong bước này, bạn khởi tạo một tài liệu Word mới và thiết lập một `DocumentBuilder` để tạo điều kiện chèn nội dung.
 
 ## Bước 2: Thêm nội dung vào tài liệu của bạn
 
@@ -66,7 +68,7 @@ builder.Writeln("مرحبا بالعالم!");
 
 ## Bước 3: Cấu hình tùy chọn lưu cho Bidi Marks
 
- Để đảm bảo rằng các dấu Bidi được lưu chính xác trong tài liệu, bạn cần cấu hình`TxtSaveOptions` và kích hoạt`AddBidiMarks` lựa chọn.
+Để đảm bảo rằng các dấu Bidi được lưu chính xác trong tài liệu, bạn cần cấu hình `TxtSaveOptions` và kích hoạt `AddBidiMarks` lựa chọn.
 
 ```csharp
 // Thêm dấu Bidi
@@ -74,7 +76,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions { AddBidiMarks = true };
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 ```
 
- Trong bước này, chúng ta tạo một thể hiện của`TxtSaveOptions` và thiết lập`AddBidiMarks`tài sản để`true`. Điều này đảm bảo rằng các dấu Bidi sẽ được bao gồm khi lưu tài liệu dưới dạng tệp văn bản.
+Trong bước này, chúng ta tạo một thể hiện của `TxtSaveOptions` và thiết lập `AddBidiMarks` tài sản để `true`. Điều này đảm bảo rằng các dấu Bidi sẽ được bao gồm khi lưu tài liệu dưới dạng tệp văn bản.
 
 ## Phần kết luận
 
@@ -95,10 +97,15 @@ Có, bạn có thể áp dụng định dạng Bidi cho các đoạn văn hoặc
 Trong ví dụ được cung cấp, tài liệu được lưu dưới dạng tệp văn bản. Tuy nhiên, Aspose.Words cũng hỗ trợ lưu tài liệu ở nhiều định dạng khác nhau trong khi vẫn giữ nguyên dấu Bidi.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Bạn có thể khám phá thêm về Aspose.Words cho .NET thông qua[Tài liệu Aspose](https://reference.aspose.com/words/net/) và truy cập[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp thêm.
+Bạn có thể khám phá thêm về Aspose.Words cho .NET thông qua [Tài liệu Aspose](https://reference.aspose.com/words/net/) và truy cập [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp thêm.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

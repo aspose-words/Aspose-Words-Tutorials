@@ -1,30 +1,32 @@
 ---
-title: Σύνδεση και προσάρτηση εγγράφων στο Aspose.Words για Java
-linktitle: Ένταξη και προσάρτηση εγγράφων
-second_title: Aspose.Words Java Document Processing API
-description: Μάθετε πώς να ενώνετε και να προσαρτάτε έγγραφα χωρίς κόπο χρησιμοποιώντας το Aspose.Words για Java. Διατηρήστε τη μορφοποίηση, διαχειριστείτε τα υποσέλιδα κεφαλίδων και πολλά άλλα.
-weight: 30
-url: /el/java/document-manipulation/joining-and-appending-documents/
+"description": "Μάθετε πώς να ενώνετε και να προσθέτετε έγγραφα χωρίς κόπο χρησιμοποιώντας το Aspose.Words για Java. Διατηρήστε τη μορφοποίηση, διαχειριστείτε κεφαλίδες, υποσέλιδα και πολλά άλλα."
+"linktitle": "Σύνδεση και Προσάρτηση Εγγράφων"
+"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
+"title": "Ένωση και προσάρτηση εγγράφων στο Aspose.Words για Java"
+"url": "/el/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Σύνδεση και προσάρτηση εγγράφων στο Aspose.Words για Java
+# Ένωση και προσάρτηση εγγράφων στο Aspose.Words για Java
 
 
 ## Εισαγωγή στην ένωση και προσάρτηση εγγράφων στο Aspose.Words για Java
 
-Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο σύνδεσης και προσθήκης εγγράφων χρησιμοποιώντας τη βιβλιοθήκη Aspose.Words for Java. Θα μάθετε πώς να συγχωνεύετε απρόσκοπτα πολλά έγγραφα διατηρώντας παράλληλα τη μορφοποίηση και τη δομή.
+Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να ενώνουμε και να προσαρτάμε έγγραφα χρησιμοποιώντας τη βιβλιοθήκη Aspose.Words για Java. Θα μάθετε πώς να συγχωνεύετε απρόσκοπτα πολλά έγγραφα διατηρώντας παράλληλα τη μορφοποίηση και τη δομή.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει το Aspose.Words for Java API στο έργο σας Java.
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει το Aspose.Words για το Java API στο έργο Java σας.
 
-## Επιλογές σύνδεσης εγγράφων
+## Επιλογές ένωσης εγγράφων
 
-### Απλό προσάρτημα
+### Απλή Προσθήκη
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -32,7 +34,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Προσθήκη με Επιλογές μορφής εισαγωγής
+### Προσθήκη με επιλογές μορφοποίησης εισαγωγής
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -40,7 +42,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Προσθήκη στο κενό έγγραφο
+### Προσθήκη σε κενό έγγραφο
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -49,33 +51,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Προσθήκη με Μετατροπή αριθμού σελίδας
+### Προσθήκη με μετατροπή αριθμού σελίδας
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 convertNumPageFieldsToPageRef(dstDoc); // Μετατροπή NUMPAGES πεδίων
-dstDoc.updatePageLayout(); // Ενημερώστε τη διάταξη σελίδας για σωστή αρίθμηση
+dstDoc.updatePageLayout(); // Ενημέρωση διάταξης σελίδας για σωστή αρίθμηση
 ```
 
 ## Χειρισμός διαφορετικών ρυθμίσεων σελίδας
 
-Κατά την προσάρτηση εγγράφων με διαφορετικές ρυθμίσεις σελίδας:
+Κατά την προσθήκη εγγράφων με διαφορετικές ρυθμίσεις σελίδας:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Βεβαιωθείτε ότι οι ρυθμίσεις ρύθμισης σελίδας ταιριάζουν με το έγγραφο προορισμού
+// Βεβαιωθείτε ότι οι ρυθμίσεις διαμόρφωσης σελίδας ταιριάζουν με το έγγραφο προορισμού
 ```
 
-## Συνένωση εγγράφων με διαφορετικά στυλ
+## Ένωση εγγράφων με διαφορετικά στυλ
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Smart Style Συμπεριφορά
+## Έξυπνη Συμπεριφορά Στυλ
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## Σύναψη
 
-Το Aspose.Words για Java παρέχει ευέλικτα και ισχυρά εργαλεία για τη σύνδεση και την προσάρτηση εγγράφων, είτε χρειάζεται να διατηρήσετε τη μορφοποίηση, να χειριστείτε διαφορετικές ρυθμίσεις σελίδας ή να διαχειριστείτε κεφαλίδες και υποσέλιδα. Πειραματιστείτε με αυτές τις τεχνικές για να καλύψετε τις συγκεκριμένες ανάγκες επεξεργασίας εγγράφων σας.
+Το Aspose.Words για Java παρέχει ευέλικτα και ισχυρά εργαλεία για την ένωση και την προσάρτηση εγγράφων, είτε χρειάζεται να διατηρήσετε τη μορφοποίηση, να χειριστείτε διαφορετικές ρυθμίσεις σελίδας είτε να διαχειριστείτε κεφαλίδες και υποσέλιδα. Πειραματιστείτε με αυτές τις τεχνικές για να καλύψετε τις συγκεκριμένες ανάγκες επεξεργασίας εγγράφων σας.
 
 ## Συχνές ερωτήσεις
 
 ### Πώς μπορώ να ενώσω έγγραφα με διαφορετικά στυλ απρόσκοπτα;
 
- Για να συνδέσετε έγγραφα με διαφορετικά στυλ, χρησιμοποιήστε`ImportFormatMode.USE_DESTINATION_STYLES` κατά την προσάρτηση.
+Για να ενώσετε έγγραφα με διαφορετικά στυλ, χρησιμοποιήστε `ImportFormatMode.USE_DESTINATION_STYLES` κατά την προσθήκη.
 
 ### Μπορώ να διατηρήσω την αρίθμηση σελίδων κατά την προσάρτηση εγγράφων;
 
- Ναι, μπορείτε να διατηρήσετε την αρίθμηση σελίδων χρησιμοποιώντας το`convertNumPageFieldsToPageRef` μέθοδο και ενημέρωση της διάταξης σελίδας.
+Ναι, μπορείτε να διατηρήσετε την αρίθμηση σελίδων χρησιμοποιώντας το `convertNumPageFieldsToPageRef` μέθοδος και ενημέρωση της διάταξης σελίδας.
 
-### Τι είναι το Smart Style Behavior;
+### Τι είναι η Έξυπνη Συμπεριφορά Στυλ;
 
- Το Smart Style Behavior βοηθά στη διατήρηση συνεπών στυλ κατά την προσάρτηση εγγράφων. Χρησιμοποιήστε το με`ImportFormatOptions` για καλύτερα αποτελέσματα.
+Η Έξυπνη Συμπεριφορά Στυλ βοηθά στη διατήρηση σταθερών στυλ κατά την προσάρτηση εγγράφων. Χρησιμοποιήστε την με `ImportFormatOptions` για καλύτερα αποτελέσματα.
 
-### Πώς μπορώ να χειρίζομαι πλαίσια κειμένου κατά την προσάρτηση εγγράφων;
+### Πώς μπορώ να χειριστώ πλαίσια κειμένου κατά την προσθήκη εγγράφων;
 
-Σειρά`importFormatOptions.setIgnoreTextBoxes(false)` για να συμπεριλάβετε πλαίσια κειμένου κατά την προσάρτηση.
+Σειρά `importFormatOptions.setIgnoreTextBoxes(false)` για να συμπεριλάβετε πλαίσια κειμένου κατά την προσθήκη.
 
 ### Τι γίνεται αν θέλω να συνδέσω/αποσυνδέσω κεφαλίδες και υποσέλιδα μεταξύ εγγράφων;
 
- Μπορείτε να συνδέσετε κεφαλίδες και υποσέλιδα με`linkToPrevious(true)` ή αποσυνδέστε τα με`linkToPrevious(false)` όπως χρειάζεται.
+Μπορείτε να συνδέσετε κεφαλίδες και υποσέλιδα με `linkToPrevious(true)` ή να τα αποσυνδέσετε με `linkToPrevious(false)` όπως απαιτείται.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

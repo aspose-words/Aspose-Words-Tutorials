@@ -1,28 +1,30 @@
 ---
-title: Dokumentumok összekapcsolása és hozzáfűzése az Aspose.Words for Java programban
-linktitle: Dokumentumok összekapcsolása és csatolása
-second_title: Aspose.Words Java Document Processing API
-description: Tanulja meg, hogyan lehet könnyedén összekapcsolni és csatolni dokumentumokat az Aspose.Words for Java használatával. A formázás megőrzése, a fejléc-láblécek kezelése és sok más.
-weight: 30
-url: /hu/java/document-manipulation/joining-and-appending-documents/
+"description": "Tanulja meg, hogyan illeszthet össze és fűzhet hozzá dokumentumokat könnyedén az Aspose.Words for Java segítségével. Őrizze meg a formázást, kezelje a fejléceket és lábléceket, és sok mást."
+"linktitle": "Dokumentumok összekapcsolása és hozzáfűzése"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok összekapcsolása és hozzáfűzése az Aspose.Words for Java programban"
+"url": "/hu/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentumok összekapcsolása és hozzáfűzése az Aspose.Words for Java programban
 
 
-## Bevezetés az Aspose.Words for Java dokumentumok összekapcsolásához és hozzáfűzéséhez
+## Bevezetés a dokumentumok összekapcsolásába és hozzáfűzésébe az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet dokumentumokat egyesíteni és hozzáfűzni az Aspose.Words for Java könyvtár használatával. Megtanulja, hogyan lehet több dokumentumot zökkenőmentesen egyesíteni a formázás és a szerkezet megőrzése mellett.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet dokumentumokat egyesíteni és hozzáfűzni az Aspose.Words for Java könyvtár használatával. Megtanulod, hogyan lehet zökkenőmentesen egyesíteni több dokumentumot a formázás és a szerkezet megőrzése mellett.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Java API be van állítva a Java projektben.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy az Aspose.Words for Java API be van állítva a Java projektedben.
 
-## Dokumentum csatlakozási lehetőségek
+## Dokumentum-összeillesztési lehetőségek
 
 ### Egyszerű hozzáfűzés
 
@@ -32,7 +34,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Hozzáfűzi az importálási formátumbeállításokat
+### Hozzáfűzés importálási formátumbeállításokkal
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -40,7 +42,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Hozzáfűzés az üres dokumentumhoz
+### Hozzáfűzés üres dokumentumhoz
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -49,24 +51,24 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Hozzáfűzés oldalszám-konverzióval
+### Oldalszám-átalakítással hozzáfűzés
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 convertNumPageFieldsToPageRef(dstDoc); // NUMPAGES mező konvertálása
-dstDoc.updatePageLayout(); // Frissítse az oldalelrendezést a helyes számozás érdekében
+dstDoc.updatePageLayout(); // Oldalelrendezés frissítése a helyes számozás érdekében
 ```
 
 ## Különböző oldalbeállítások kezelése
 
-Különböző oldalbeállításokkal rendelkező dokumentumok csatolásakor:
+Eltérő oldalbeállításokkal rendelkező dokumentumok hozzáfűzésekor:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Győződjön meg arról, hogy az oldalbeállítások megfelelnek a céldokumentumnak
+// Győződjön meg arról, hogy az oldalbeállítások megegyeznek a céldokumentummal
 ```
 
 ## Különböző stílusú dokumentumok összekapcsolása
@@ -75,7 +77,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Intelligens stílusú viselkedés
+## Okos stílusviselkedés
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## Következtetés
 
-Az Aspose.Words for Java rugalmas és hatékony eszközöket biztosít a dokumentumok egyesítéséhez és hozzáfűzéséhez, legyen szó formázásról, különböző oldalbeállítások kezeléséről vagy fejlécek és láblécek kezeléséről. Kísérletezzen ezekkel a technikákkal, hogy megfeleljen egyedi dokumentumfeldolgozási igényeinek.
+Az Aspose.Words for Java rugalmas és hatékony eszközöket kínál dokumentumok egyesítéséhez és hozzáfűzéséhez, legyen szó akár formázás karbantartásáról, különböző oldalbeállítások kezeléséről, vagy fejlécek és láblécek kezeléséről. Kísérletezzen ezekkel a technikákkal, hogy megfeleljen az Ön konkrét dokumentumfeldolgozási igényeinek.
 
 ## GYIK
 
-### Hogyan lehet zökkenőmentesen összekapcsolni a különböző stílusú dokumentumokat?
+### Hogyan tudok zökkenőmentesen összekapcsolni különböző stílusú dokumentumokat?
 
- A különböző stílusú dokumentumok összekapcsolásához használja a`ImportFormatMode.USE_DESTINATION_STYLES` hozzáfűzéskor.
+Különböző stílusú dokumentumok összekapcsolásához használja a `ImportFormatMode.USE_DESTINATION_STYLES` hozzáfűzéskor.
 
-### Megőrizhetem az oldalszámozást dokumentumok csatolásakor?
+### Megőrizhetem az oldalszámozást dokumentumok hozzáfűzésekor?
 
- Igen, megőrizheti az oldalszámozást a`convertNumPageFieldsToPageRef` módszerrel és az oldalelrendezés frissítésével.
+Igen, megőrizheti az oldalszámozást a használatával. `convertNumPageFieldsToPageRef` metódus és az oldal elrendezésének frissítése.
 
-### Mi az a Smart Style viselkedés?
+### Mi az intelligens stílusviselkedés?
 
- A Smart Style Behavior segít megőrizni a konzisztens stílusokat a dokumentumok csatolásakor. Használd vele`ImportFormatOptions` jobb eredmények érdekében.
+Az Intelligens stílusviselkedés segít az egységes stílusok megőrzésében a dokumentumok hozzáfűzésekor. Használja a következővel: `ImportFormatOptions` jobb eredmények érdekében.
 
-### Hogyan kezelhetem a szövegdobozokat dokumentumok csatolásakor?
+### Hogyan kezelhetem a szövegdobozokat dokumentumok hozzáfűzésekor?
 
-Készlet`importFormatOptions.setIgnoreTextBoxes(false)` szövegdobozok beillesztésére a hozzáfűzés során.
+Készlet `importFormatOptions.setIgnoreTextBoxes(false)` szövegdobozok hozzáadása a hozzáfűzés során.
 
-### Mi a teendő, ha szeretném a fejléceket és a lábléceket összekapcsolni/leválasztani a dokumentumok között?
+### Mi van, ha fejléceket és lábléceket szeretnék összekapcsolni/leválasztani a dokumentumok között?
 
- A fejléceket és lábléceket összekapcsolhatja a következővel`linkToPrevious(true)` vagy megszünteti a kapcsolatukat`linkToPrevious(false)` szükség szerint.
+Fejléceket és lábléceket összekapcsolhatsz a következőkkel: `linkToPrevious(true)` vagy válassza le őket a `linkToPrevious(false)` szükség szerint.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

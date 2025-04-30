@@ -1,14 +1,16 @@
 ---
-title: Uyarı Bildirimi Alın
-linktitle: Uyarı Bildirimi Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı kılavuzumuzla Aspose.Words for .NET'te font değiştirme bildirimlerini nasıl alacağınızı öğrenin. Belgelerinizin her seferinde doğru şekilde işlenmesini sağlayın.
-weight: 10
-url: /tr/net/working-with-fonts/receive-warning-notification/
+"description": "Ayrıntılı kılavuzumuzla Aspose.Words for .NET'te font değiştirme bildirimlerini nasıl alacağınızı öğrenin. Belgelerinizin her seferinde doğru şekilde işlenmesini sağlayın."
+"linktitle": "Uyarı Bildirimi Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Uyarı Bildirimi Alın"
+"url": "/tr/net/working-with-fonts/receive-warning-notification/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uyarı Bildirimi Alın
@@ -22,9 +24,9 @@ Belgelerinizdeki beklenmedik yazı tipi sorunlarıyla uğraşmaktan yoruldunuz m
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Temel C# Bilgisi: C#'a aşina olmak adımları anlamanıza ve uygulamanıza yardımcı olacaktır.
--  Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun[indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Buradan indirin ve kurun [indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir kurulum.
--  Örnek Belge: Örnek bir belgeniz olsun (örneğin,`Rendering.docx`) ile çalışmak.
+- Örnek Belge: Örnek bir belgeniz olsun (örneğin, `Rendering.docx`) ile çalışmak.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belgeyi Yükleyin
 
- Belgenizi bir Aspose.Words'e yükleyin`Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
+Belgenizi bir Aspose.Words'e yükleyin `Document` nesne. Bu, belgeyi programlı olarak düzenlemenize olanak tanır.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Adım 3: Uyarı Geri Aramasını Ayarlayın
 
- Uyarıları yakalamak ve işlemek için, aşağıdakileri uygulayan bir sınıf oluşturun:`IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında oluşan tüm uyarıları günlüğe kaydeder.
+Uyarıları yakalamak ve işlemek için, aşağıdakileri uygulayan bir sınıf oluşturun: `IWarningCallback` arayüz. Bu sınıf, belge işleme sırasında oluşan tüm uyarıları günlüğe kaydeder.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -76,7 +78,7 @@ doc.WarningCallback = callback;
 ```
 ## Adım 5: Sayfa Düzenini Güncelle
 
- Ara`UpdatePageLayout` yöntem. Bu, belgeyi bellekte işler ve işleme sırasında oluşan tüm uyarıları yakalar.
+Ara `UpdatePageLayout` yöntem. Bu, belgeyi bellekte işler ve işleme sırasında oluşan tüm uyarıları yakalar.
 
 ```csharp
 doc.UpdatePageLayout();
@@ -104,22 +106,27 @@ Hayır, ikame için yalnızca bir varsayılan yazı tipi belirtebilirsiniz. Anca
 
 ### S2: Aspose.Words for .NET'in ücretsiz deneme sürümünü nereden edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
 
-###  S3: Diğer uyarı türlerini de işleyebilir miyim?`IWarningCallback`?
+### S3: Diğer uyarı türlerini de işleyebilir miyim? `IWarningCallback`?
 
- Evet,`IWarningCallback`arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
+Evet, `IWarningCallback` arayüz sadece yazı tipi değiştirmeyi değil, çeşitli uyarı tiplerini de işleyebilir.
 
 ### S4: Aspose.Words için desteği nereden bulabilirim?
 
- Ziyaret edin[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
+Ziyaret edin [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8) yardım için.
 
 ### S5: Aspose.Words için geçici lisans almak mümkün mü?
 
- Evet, geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

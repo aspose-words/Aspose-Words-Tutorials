@@ -1,28 +1,30 @@
 ---
-title: Word Belgesinde Karşılaştırma Hedefi
-linktitle: Word Belgesinde Karşılaştırma Hedefi
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerini zahmetsizce karşılaştırın. Zamandan tasarruf edin ve belge karşılaştırmasında doğruluğu artırın.
-weight: 10
-url: /tr/net/compare-documents/comparison-target/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerini zahmetsizce karşılaştırın. Zamandan tasarruf edin ve belge karşılaştırmasında doğruluğu artırın."
+"linktitle": "Word Belgesinde Karşılaştırma Hedefi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Karşılaştırma Hedefi"
+"url": "/tr/net/compare-documents/comparison-target/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Karşılaştırma Hedefi
 
 ## giriiş
 
-Merhaba! Hiç kendinizi bir Word belgesinin iki versiyonunu karşılaştırırken ve her küçük değişikliği manuel olarak takip ederken buldunuz mu? Samanlıkta iğne aramak gibi, değil mi? Peki ya size bunu Aspose.Words for .NET kullanarak yapmanın çok kolay bir yolu olduğunu söylesem? Evet, doğru duydunuz! Bu güçlü kütüphane Word belgelerini anında karşılaştırmanızı sağlar. Bugün, sizi adım adım bu süreçte yönlendireceğim. Belge karşılaştırma sihirbazı olmaya hazır mısınız? Hadi başlayalım!
+Merhaba! Hiç kendinizi bir Word belgesinin iki versiyonunu karşılaştırırken ve her küçük değişikliği manuel olarak takip ederken buldunuz mu? Samanlıkta iğne aramak gibi, değil mi? Peki ya size Aspose.Words for .NET kullanarak bunu yapmanın çok kolay bir yolu olduğunu söylesem? Evet, doğru duydunuz! Bu güçlü kütüphane Word belgelerini anında karşılaştırmanızı sağlar. Bugün, sizi adım adım bu süreçte yönlendireceğim. Belge karşılaştırma sihirbazı olmaya hazır mısınız? Hadi başlayalım!
 
 ## Ön koşullar
 
 Ayrıntılara girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Bu kütüphaneye ihtiyacınız var. Eğer henüz sahip değilseniz, şuradan edinin:[Burada](https://releases.aspose.com/words/net/).
-2.  Lisans: Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için geçerli bir lisansa ihtiyacınız olacak. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words for .NET: Bu kütüphaneye ihtiyacınız var. Eğer henüz sahip değilseniz, şuradan edinin: [Burada](https://releases.aspose.com/words/net/).
+2. Lisans: Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için geçerli bir lisansa ihtiyacınız olacak. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 3. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 4. Temel C# Bilgisi: Endişelenmeyin, profesyonel olmanıza gerek yok, sadece temel bir anlayış yeterli olacaktır.
 
@@ -48,7 +50,7 @@ Projemizi hazırlayalım. Geliştirme ortamınızı başlatın ve yeni bir C# pr
 
 ## Adım 2: Aspose.Words for .NET'i yükleyin
 
-Sonra, projenize Aspose.Words eklemeniz gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Sadece Aspose.Words'ü arayın ve kurun. Çok kolay!
+Sonra, projenize Aspose.Words eklemeniz gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Sadece Aspose.Words'ü arayın ve yükleyin. Çok kolay!
 
 ```bash
 Install-Package Aspose.Words
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 ## Adım 3: Belgelerinizi Yükleyin
 
-Tamam, karşılaştırmak istediğiniz belgeleri yükleme zamanı. Bu belgelerin yollarına ihtiyacınız olacak. İki belgeniz olduğunu varsayalım:`DocumentA.docx` Ve`DocumentB.docx`.
+Tamam, karşılaştırmak istediğiniz belgeleri yükleme zamanı. Bu belgelerin yollarına ihtiyacınız olacak. İki belgeniz olduğunu varsayalım: `DocumentA.docx` Ve `DocumentB.docx`.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -75,7 +77,7 @@ Document docB = docA.Clone();
 
 ## Adım 5: Karşılaştırma Seçeneklerini Ayarlayın
 
-Şimdi, karşılaştırma seçeneklerini yapılandıralım. Biçimlendirmeyi yoksaymak mı istiyorsunuz? Belki de yalnızca içerik değişiklikleriyle ilgileniyorsunuzdur. Bunu nasıl ayarlayabileceğiniz aşağıda açıklanmıştır:
+Şimdi, karşılaştırma seçeneklerini yapılandıralım. Biçimlendirmeyi yoksaymak mı istiyorsunuz? Belki de yalnızca içerik değişiklikleriyle ilgileniyorsunuz. İşte bunu nasıl ayarlayabileceğiniz:
 
 ```csharp
 CompareOptions options = new CompareOptions
@@ -125,11 +127,16 @@ Kesinlikle! Aspose.Words, karşılaştırmayı ihtiyaçlarınıza göre uyarlama
 
 ### Daha detaylı dokümanları nerede bulabilirim?
 
- Kapsamlı dokümantasyonu inceleyebilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümantasyonu inceleyebilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

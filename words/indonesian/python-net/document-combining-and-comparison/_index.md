@@ -1,14 +1,16 @@
 ---
-title: Penggabungan dan Perbandingan Dokumen
-linktitle: Penggabungan dan Perbandingan Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Temukan tutorial lengkap tentang penggabungan dan perbandingan dokumen menggunakan Aspose.Words untuk Python dan .NET. Pelajari cara menggabungkan dan membandingkan dokumen dengan mudah, yang akan menyempurnakan alur kerja pemrosesan dokumen Anda.
-weight: 12
-url: /id/python-net/document-combining-and-comparison/
+"description": "Temukan tutorial lengkap tentang penggabungan dan perbandingan dokumen menggunakan Aspose.Words untuk Python dan .NET. Pelajari cara menggabungkan dan membandingkan dokumen dengan mudah, yang akan menyempurnakan alur kerja pemrosesan dokumen Anda."
+"linktitle": "Penggabungan dan Perbandingan Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Penggabungan dan Perbandingan Dokumen"
+"url": "/id/python-net/document-combining-and-comparison/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penggabungan dan Perbandingan Dokumen
@@ -46,9 +48,13 @@ Buat daftar isi yang mudah dibaca dengan Aspose.Words untuk Python. Pelajari car
 Amankan dokumen Anda dengan perlindungan tingkat lanjut menggunakan Aspose.Words untuk Python. Pelajari cara menambahkan kata sandi, mengenkripsi konten, menerapkan tanda tangan digital, dan banyak lagi.
 ### [Mengelola Tanda Tangan Digital dan Keaslian](./manage-digital-signatures/)
 Pelajari cara mengelola tanda tangan digital dan memastikan keaslian dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,32 +1,34 @@
 ---
-title: Použití polí v Aspose.Words pro Java
-linktitle: Použití polí
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se efektivně používat pole Aspose.Words pro Java v tomto podrobném tutoriálu. Snadno vytvářejte dynamické dokumenty aplikace Word.
-weight: 11
-url: /cs/java/using-document-elements/using-fields/
+"description": "Naučte se v tomto podrobném tutoriálu efektivně používat Aspose.Words pro pole v Javě. Snadno vytvářejte dynamické dokumenty Word."
+"linktitle": "Používání polí"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Používání polí v Aspose.Words pro Javu"
+"url": "/cs/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití polí v Aspose.Words pro Java
+# Používání polí v Aspose.Words pro Javu
 
 
-tomto tutoriálu krok za krokem vás provedeme tím, jak používat pole v Aspose.Words pro Java k snadné manipulaci s dokumenty. Aspose.Words for Java je výkonné rozhraní API, které vám umožňuje pracovat s dokumenty Wordu programově a poskytuje vám plnou kontrolu nad jejich obsahem a formátováním.
+V tomto podrobném tutoriálu vás provedeme tím, jak snadno používat pole v Aspose.Words pro Javu k manipulaci s dokumenty. Aspose.Words pro Javu je výkonné API, které vám umožňuje programově pracovat s dokumenty Wordu a dává vám plnou kontrolu nad jejich obsahem a formátováním.
 
 ## 1. Úvod
 
-Aspose.Words for Java je základním nástrojem pro každého, kdo pracuje s dokumenty Wordu v aplikacích Java. Pole jsou zástupné symboly, které mohou ve vašem dokumentu ukládat dynamická data. Tento tutoriál vám ukáže, jak efektivně pracovat s poli.
+Aspose.Words pro Javu je nezbytný nástroj pro každého, kdo pracuje s dokumenty Word v aplikacích Java. Pole jsou zástupné symboly, které mohou v dokumentu ukládat dynamická data. Tento tutoriál vám ukáže, jak s poli efektivně pracovat.
 
-## 2. Nastavení vašeho prostředí
+## 2. Nastavení prostředí
 
- Než začnete, ujistěte se, že máte nainstalovaný Aspose.Words for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/java/). Také se ujistěte, že máte v systému nainstalovanou Javu a integrované vývojové prostředí (IDE), jako je Eclipse nebo IntelliJ IDEA.
+Než začnete, ujistěte se, že máte nainstalovaný Aspose.Words pro Javu. Můžete si ho stáhnout z [zde](https://releases.aspose.com/words/java/)Také se ujistěte, že máte v systému nainstalovanou Javu a integrované vývojové prostředí (IDE), jako je Eclipse nebo IntelliJ IDEA.
 
-## 3. Načtení dokumentu aplikace Word
+## 3. Načtení dokumentu Word
 
-Do vaší Java aplikace musíte načíst dokument Word, se kterým chcete pracovat. Zde je úryvek kódu, který vám pomůže začít:
+Ve vaší aplikaci Java je třeba načíst dokument Wordu, se kterým chcete pracovat. Zde je úryvek kódu, který vám pomůže začít:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Nahradit`"Your Document Directory"` a`"Your Output Directory"` s příslušnými cestami.
+Nahradit `"Your Document Directory"` a `"Your Output Directory"` s příslušnými cestami.
 
 ## 4. Přizpůsobení hromadné korespondence
 
-Aspose.Words for Java poskytuje vynikající podporu pro operace hromadné korespondence. Proces hromadné korespondence můžete přizpůsobit nastavením obslužné rutiny události hromadné korespondence. Jak na to:
+Aspose.Words pro Javu poskytuje vynikající podporu pro operace hromadné korespondence. Proces hromadné korespondence si můžete přizpůsobit nastavením obslužné rutiny události hromadné korespondence. Zde je návod, jak to udělat:
 
 ```java
-// Nastavit obslužnou rutinu události hromadné korespondence k provedení vlastní práce.
+// Nastavte obslužnou rutinu události hromadné korespondence pro provádění vlastní práce.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Ořízněte koncové a úvodní prázdné hodnoty hromadné korespondence.
+// Oříznout koncové a úvodní mezery v hodnotách hromadné korespondence.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -62,22 +64,22 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 
 ## 5. Uložení dokumentu
 
-Po přizpůsobení dokumentu jej můžete uložit pomocí následujícího kódu:
+Po úpravě dokumentu jej můžete uložit pomocí následujícího kódu:
 
 ```java
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Nahradit`"Your Output Directory"` s požadovanou výstupní cestou.
+Nahradit `"Your Output Directory"` s požadovanou výstupní cestou.
 
 ## Kompletní zdrojový kód
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-// Nastavit obslužnou rutinu události hromadné korespondence k provedení vlastní práce.
+// Nastavte obslužnou rutinu události hromadné korespondence pro provádění vlastní práce.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Ořízněte koncové a úvodní prázdné hodnoty hromadné korespondence.
+// Oříznout koncové a úvodní mezery v hodnotách hromadné korespondence.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -96,17 +98,17 @@ Zdrojový kód třídy HandleMergeField
     private static class HandleMergeField implements IFieldMergingCallback
     {
         /// <souhrn>
-        /// Tento obslužný program je volán pro každé pole hromadné korespondence nalezené v dokumentu,
+        /// Tato obslužná rutina je volána pro každé pole hromadné korespondence nalezené v dokumentu,
         /// pro každý záznam nalezený ve zdroji dat.
         /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Zpětné volání sloučení iField.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Rozhodli jsme se, že chceme, aby všechny booleovské hodnoty byly na výstupu jako zaškrtávací pole formuláře.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Rozhodli jsme se, že chceme, aby všechny booleovské hodnoty byly vypsány jako zaškrtávací políčka formuláře.
+            if (e.getFieldValue() instanceof /*booleovská*/Boolean)
             {
-                // Přesuňte "kurzor" na aktuální slučovací pole.
+                // Přesunout „kurzor“ na aktuální slučovací pole.
                 mBuilder.moveToMergeField(e.getFieldName());
                 String checkBoxName = MessageFormat.format("{0}{1}", e.getFieldName(), e.getRecordIndex());
                 mBuilder.insertCheckBox(checkBoxName, (Boolean) e.getFieldValue(), 0);
@@ -140,9 +142,12 @@ Zdrojový kód třídy HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Zdrojový kód třídy HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Implementace není nutná.
+            //  Implementace není vyžadována.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -209,20 +214,20 @@ Zdrojový kód třídy HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Vložte MERGEFIELD vnořené do pole IF.
-        // Protože příkaz pole IF je nepravdivý, výsledek vnitřního MERGEFIELD se nezobrazí,
-        // MERGEFIELD neobdrží žádná data během hromadné korespondence.
+        // Vloží pole MERGEFIELD vnořené do pole IF.
+        // Protože příkaz IF pole je nepravdivý, výsledek vnitřního MERGEFIELD se nezobrazí.
+        // a pole MERGEFIELD během hromadné korespondence nepřijme žádná data.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Pokud nastavíme tento příznak na hodnotu true, můžeme stále počítat MERGEFIELD v polích IF s nepravdivým příkazem.
+        // Pokud tento příznak nastavíme na hodnotu true, můžeme stále počítat MERGEFIELDS uvnitř polí IF s nepravdivým příkazem.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
-        // Výsledek nebude v dokumentu viditelný, protože pole IF je nepravdivé,
-        // ale vnitřní MERGEFIELD skutečně přijímalo data.
+        // Výsledek nebude v dokumentu viditelný, protože pole IF je false,
+        // ale vnitřní MERGEFIELD skutečně přijímal data.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -243,19 +248,19 @@ Zdrojový kód třídy HandleMergeField
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*Zpětné volání sloučení iField.*/fieldMerging(FieldMergingArgs args)
         {
-            // Nedělejte nic.
+            // Nedělej nic.
         }
         /// <souhrn>
-        /// Volá se, když stroj hromadné korespondence narazí v dokumentu na slučovací pole Obrázek:XXX.
-        /// Máte možnost vrátit objekt Image, název souboru nebo proud, který obrázek obsahuje.
+        /// Toto se volá, když modul hromadné korespondence narazí v dokumentu na slučovací pole Image:XXX.
+        /// Máte možnost vrátit objekt Image, název souboru nebo stream, který obrázek obsahuje.
         /// </summary>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        public void /*Zpětné volání sloučení iField.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
-            // Hodnota pole je bajtové pole, stačí jej přetypovat a vytvořit na něm stream.
+            // Hodnota pole je bajtové pole, stačí ho přetypovat a vytvořit na něm stream.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Nyní modul hromadné korespondence načte obrázek ze streamu.
+            // Modul hromadné korespondence nyní načte obrázek ze streamu.
             e.setImageStream(imageStream);
         }
     }
@@ -270,7 +275,7 @@ Zdrojový kód třídy HandleMergeField
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*Zpětné volání sloučení iField.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ Zdrojový kód třídy HandleMergeField
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Zpětné volání sloučení iField.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -301,21 +306,21 @@ Zdrojový kód třídy HandleMergeField
     private static class HandleMergeFieldAlternatingRows implements IFieldMergingCallback
     {
         /// <souhrn>
-        /// Volá se pro každé slučovací pole nalezené v dokumentu.
-        /// Můžeme buď vrátit některá data do modulu hromadné korespondence, nebo s dokumentem udělat něco jiného.
+        /// Voláno pro každé slučovací pole nalezené v dokumentu.
+        /// Můžeme buď vrátit nějaká data do modulu hromadné korespondence, nebo s dokumentem udělat něco jiného.
         /// V tomto případě upravíme formátování buněk.
         /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        public void /*Zpětné volání sloučení iField.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             if ("CompanyName".equals(e.getFieldName()))
             {
-                // Vyberte barvu podle toho, zda je číslo řádku sudé nebo liché.
+                // Vyberte barvu v závislosti na tom, zda je číslo řádku sudé nebo liché.
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                // tuto chvíli neexistuje způsob, jak nastavit vlastnosti buňky pro celý řádek, takže musíme iterovat přes všechny buňky v řádku.
+                // Momentálně není možné nastavit vlastnosti buněk pro celý řádek, takže musíme iterovat přes všechny buňky v řádku.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,15 +329,15 @@ Zdrojový kód třídy HandleMergeField
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*Zpětné volání sloučení iField.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
-            // Nedělejte nic.
+            // Nedělej nic.
         }
         private DocumentBuilder mBuilder;
         private int mRowIdx;
     }
     /// <souhrn>
-    /// Vrátí true, pokud je hodnota lichá; false, pokud je hodnota sudá.
+    /// Vrací hodnotu true, pokud je hodnota lichá; false, pokud je hodnota sudá.
     /// </summary>
     private static boolean isOdd(int value)
     {
@@ -340,7 +345,7 @@ Zdrojový kód třídy HandleMergeField
     }
     /// <souhrn>
     /// Vytvořte DataTable a naplňte ji daty.
-    /// V reálném životě by tato DataTable měla být vyplněna z databáze.
+    /// V reálném životě by tato DataTable měla být naplněna z databáze.
     /// </summary>
     private DataTable getSuppliersDataTable()
     {
@@ -361,31 +366,36 @@ Zdrojový kód třídy HandleMergeField
 
 ## 6. Závěr
 
-Gratuluji! Naučili jste se používat pole v Aspose.Words pro Java k dynamické manipulaci s dokumenty Wordu. Toto výkonné rozhraní API vám poskytuje úplnou kontrolu nad vašimi dokumenty, což z něj činí cenný přínos pro vývojáře v jazyce Java.
+Gratulujeme! Naučili jste se, jak používat pole v Aspose.Words pro Javu k dynamické manipulaci s dokumenty Wordu. Toto výkonné API vám dává úplnou kontrolu nad vašimi dokumenty, což z něj činí cenný přínos pro vývojáře v Javě.
 
-## 7. Nejčastější dotazy
+## 7. Často kladené otázky
 
-### Q1: Kde si mohu stáhnout Aspose.Words for Java?
- Aspose.Words for Java si můžete stáhnout z[zde](https://releases.aspose.com/words/java/).
+### Q1: Kde si mohu stáhnout Aspose.Words pro Javu?
+Aspose.Words pro Javu si můžete stáhnout z [zde](https://releases.aspose.com/words/java/).
 
-### Q2: Jak mohu získat dočasnou licenci pro Aspose.Words for Java?
- Dočasnou licenci můžete získat od[zde](https://purchase.aspose.com/temporary-license/).
+### Q2: Jak mohu získat dočasnou licenci pro Aspose.Words pro Javu?
+Dočasné povolení můžete získat od [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Kde mohu získat podporu pro Aspose.Words pro Java?
- Pro podporu můžete navštívit fórum Aspose.Words[zde](https://forum.aspose.com/).
+### Q3: Kde mohu získat podporu pro Aspose.Words pro Javu?
+Pro podporu můžete navštívit fórum Aspose.Words [zde](https://forum.aspose.com/).
 
-### Q4: Je Aspose.Words for Java vhodný pro zpracování obsahu HTML v dokumentech aplikace Word?
-Ano, Aspose.Words for Java poskytuje vynikající podporu pro práci s obsahem HTML v dokumentech aplikace Word.
+### Q4: Je Aspose.Words pro Javu vhodný pro zpracování HTML obsahu v dokumentech Wordu?
+Ano, Aspose.Words pro Javu poskytuje vynikající podporu pro práci s HTML obsahem v dokumentech Wordu.
 
-### Q5: Mohu používat Aspose.Words for Java zdarma?
- Aspose.Words for Java je komerční produkt, ale jeho funkce můžete prozkoumat pomocí bezplatné zkušební verze[zde](https://releases.aspose.com/).
+### Q5: Mohu používat Aspose.Words pro Javu zdarma?
+Aspose.Words pro Javu je komerční produkt, ale jeho funkce si můžete prozkoumat s bezplatnou zkušební verzí. [zde](https://releases.aspose.com/).
 
-Začněte s Aspose.Words pro Java ještě dnes a převezměte kontrolu nad svými dokumenty Wordu jako nikdy předtím!
+Začněte s Aspose.Words pro Javu ještě dnes a ovládněte své dokumenty Word jako nikdy předtím!
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde İçindekiler Stilini Değiştir
-linktitle: Word Belgesinde İçindekiler Stilini Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki TOC stilini nasıl değiştireceğinizi öğrenin. TOC'nizi zahmetsizce özelleştirin.
-weight: 10
-url: /tr/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki TOC stilini nasıl değiştireceğinizi öğrenin. TOC'nizi zahmetsizce özelleştirin."
+"linktitle": "Word Belgesinde İçindekiler Stilini Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde İçindekiler Stilini Değiştir"
+"url": "/tr/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde İçindekiler Stilini Değiştir
@@ -21,7 +23,7 @@ Eğer daha önce profesyonel bir Word belgesi oluşturmanız gerektiyse, İçind
 
 Koda geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı.
 3. C# Temel Bilgisi: C# programlama dilinin anlaşılması.
 
@@ -80,16 +82,21 @@ Aspose.Words for .NET, .NET uygulamaları içerisinde Word belgeleri oluşturmak
 Evet, İçindekiler tablosundaki çeşitli stilleri, farklı seviyelere ve stil özelliklerine erişerek değiştirebilirsiniz.
 
 ### Aspose.Words for .NET ücretsiz mi?
- Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ücretli bir kütüphanedir, ancak bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'i kullanmak için Microsoft Word'ü yüklemem gerekir mi?
 Hayır, Aspose.Words for .NET bilgisayarınızda Microsoft Word'ün yüklü olmasını gerektirmez.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Daha detaylı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Daha detaylı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

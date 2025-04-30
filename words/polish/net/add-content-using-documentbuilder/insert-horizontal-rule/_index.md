@@ -1,14 +1,16 @@
 ---
-title: Wstaw linię poziomą do dokumentu Word
-linktitle: Wstaw linię poziomą do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać poziomą linię w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów C#.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/insert-horizontal-rule/
+"description": "Dowiedz się, jak wstawiać poziomą linię w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów C#."
+"linktitle": "Wstaw linię poziomą do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw linię poziomą do dokumentu Word"
+"url": "/pl/net/add-content-using-documentbuilder/insert-horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw linię poziomą do dokumentu Word
@@ -19,9 +21,9 @@ Hej, koledzy programiści! Czy kiedykolwiek byliście po kolana w projekcie doku
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do konkretów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna:
+Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: dowolne środowisko IDE obsługujące platformę .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi naukę tego kursu.
 4. Katalog dokumentów: Będziesz potrzebować katalogu, w którym będziesz zapisywać dokumenty Word.
@@ -47,13 +49,13 @@ Otwórz środowisko programistyczne (takie jak Visual Studio) i utwórz nowy pro
 
 ### Dodaj Aspose.Words do swojego projektu
 
- Pamiętaj, aby dodać odniesienie do Aspose.Words. Jeśli jeszcze tego nie pobrałeś, pobierz to z[Tutaj](https://releases.aspose.com/words/net/)Możesz dodać go do swojego projektu za pomocą Menedżera pakietów NuGet.
+Pamiętaj, aby dodać odniesienie do Aspose.Words. Jeśli jeszcze tego nie pobrałeś, pobierz to z [Tutaj](https://releases.aspose.com/words/net/)Możesz dodać go do swojego projektu za pomocą Menedżera pakietów NuGet.
 
 ## Krok 2: Zainicjuj dokument i DocumentBuilder
 
 ### Utwórz nowy dokument
 
- W głównym pliku programu zacznij od utworzenia nowej instancji`Document` klasa. To będzie nasze puste płótno.
+W głównym pliku programu zacznij od utworzenia nowej instancji `Document` klasa. To będzie nasze puste płótno.
 
 ```csharp
 Document doc = new Document();
@@ -61,13 +63,13 @@ Document doc = new Document();
 
 ### Zainicjuj DocumentBuilder
 
- Następnie utwórz instancję`DocumentBuilder` class. Ten builder pomoże nam wstawiać elementy do naszego dokumentu.
+Następnie utwórz instancję `DocumentBuilder` class. Ten builder pomoże nam wstawiać elementy do naszego dokumentu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Wstaw linijkę poziomą
+## Krok 3: Wstaw linię poziomą
 
 ### Napisz tekst wprowadzający
 
@@ -97,19 +99,19 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Zapisz dokument
 
- Na koniec zapisz dokument za pomocą`Save` metoda`Document` klasa.
+Na koniec zapisz dokument za pomocą `Save` metoda `Document` klasa.
 
 ```csharp
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
 ```
 
-I masz! Udało Ci się wstawić linię poziomą do dokumentu Word za pomocą Aspose.Words dla .NET.
+masz! Udało Ci się wstawić linię poziomą do dokumentu Word za pomocą Aspose.Words dla .NET.
 
 ## Wniosek
 
 Gratulacje, dotarłeś do końca! 🎉 Dzięki temu samouczkowi nauczyłeś się, jak wstawiać poziomą linię do dokumentu Word za pomocą Aspose.Words dla .NET. Ta umiejętność może być niezwykle przydatna do tworzenia profesjonalnych i dobrze ustrukturyzowanych dokumentów. Pamiętaj, że kluczem do opanowania każdego nowego narzędzia jest praktyka, więc nie wahaj się eksperymentować z różnymi elementami i ustawieniami w Aspose.Words.
 
- Aby uzyskać więcej informacji, zawsze możesz sprawdzić[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/). Miłego kodowania!
+Aby uzyskać więcej informacji, zawsze możesz sprawdzić [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/). Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -119,22 +121,27 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 
 ### Jak rozpocząć korzystanie z Aspose.Words dla .NET?
 
-Możesz zacząć od pobrania biblioteki ze strony[strona internetowa](https://releases.aspose.com/words/net/) i dodając go do projektu .NET.
+Możesz zacząć od pobrania biblioteki ze strony [strona internetowa](https://releases.aspose.com/words/net/) dodając go do projektu .NET.
 
 ### Czy mogę używać Aspose.Words za darmo?
 
- Aspose.Words oferuje[bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz wypróbować jego funkcje przed zakupem licencji.
+Aspose.Words oferuje [bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz wypróbować jego funkcje przed zakupem licencji.
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?
 
- Ten[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) to świetne miejsce, w którym znajdziesz szczegółowe samouczki i przykłady.
+Ten [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) to świetne miejsce, w którym znajdziesz szczegółowe samouczki i przykłady.
 
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
 
- Możesz uzyskać pomoc odwiedzając stronę[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać pomoc odwiedzając stronę [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

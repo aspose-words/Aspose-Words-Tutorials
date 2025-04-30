@@ -1,14 +1,16 @@
 ---
-title: หน่วยช่วงระหว่างป้ายกำกับบนแกนของแผนภูมิ
-linktitle: หน่วยช่วงระหว่างป้ายกำกับบนแกนของแผนภูมิ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการตั้งค่าหน่วยช่วงระหว่างป้ายบนแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET
-weight: 10
-url: /th/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "เรียนรู้วิธีการตั้งค่าหน่วยช่วงระหว่างป้ายบนแกนของแผนภูมิโดยใช้ Aspose.Words สำหรับ .NET"
+"linktitle": "หน่วยช่วงระหว่างป้ายกำกับบนแกนของแผนภูมิ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "หน่วยช่วงระหว่างป้ายกำกับบนแกนของแผนภูมิ"
+"url": "/th/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # หน่วยช่วงระหว่างป้ายกำกับบนแกนของแผนภูมิ
@@ -22,7 +24,7 @@ url: /th/net/programming-with-charts/interval-unit-between-labels-on-axis/
 ก่อนที่จะดำเนินการ Aspose.Words โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้:
 - ติดตั้ง Visual Studio บนเครื่องของคุณ
 - ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
--  การเข้าถึงไลบรารี Aspose.Words สำหรับ .NET (ลิงก์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/-)
+- การเข้าถึงไลบรารี Aspose.Words สำหรับ .NET (ลิงก์ดาวน์โหลด [ที่นี่](https://releases.aspose.com/words/net/-)
 
 ## การนำเข้าเนมสเปซและการเริ่มต้นใช้งาน
 
@@ -32,7 +34,7 @@ url: /th/net/programming-with-charts/interval-unit-between-labels-on-axis/
 เริ่มต้นด้วยการเปิด Visual Studio และสร้างโปรเจ็กต์ C# ใหม่
 
 ### การติดตั้ง Aspose.Words สำหรับ .NET
- คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ผ่านตัวจัดการแพ็กเกจ NuGet หรือดาวน์โหลดโดยตรงจาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/).
+คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ผ่านตัวจัดการแพ็กเกจ NuGet หรือดาวน์โหลดโดยตรงจาก [เว็บไซต์อาโพส](https://releases-aspose.com/words/net/).
 
 ### การนำเข้าเนมสเปซ Aspose.Words
 ในไฟล์โค้ด C# ของคุณ ให้ทำการนำเข้าเนมสเปซ Aspose.Words เพื่อเข้าถึงคลาสและวิธีการของมัน:
@@ -47,7 +49,7 @@ using Aspose.Words;
 
 ### ขั้นตอนที่ 1.1: เริ่มต้น DocumentBuilder และแทรกแผนภูมิ
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -89,20 +91,25 @@ doc.Save(dataDir + "WorkingWithCharts.IntervalUnitBetweenLabelsOnAxis.docx");
 Aspose.Words สำหรับ .NET เป็นไลบรารีการประมวลผลเอกสารที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ภายในแอปพลิเคชัน .NET ได้
 
 ### ฉันสามารถหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- สำหรับการสนับสนุนและการหารือของชุมชน โปรดไปที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+สำหรับการสนับสนุนและการหารือของชุมชน โปรดไปที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase-aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

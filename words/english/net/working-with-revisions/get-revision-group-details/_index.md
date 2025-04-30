@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-revisions/get-revision-group-details/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Revision Group Details
@@ -114,9 +117,13 @@ Yes, Aspose.Words for .NET requires a license for full functionality. You can pu
 ### Where can I find more documentation on Aspose.Words for .NET?
 Detailed documentation is available [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

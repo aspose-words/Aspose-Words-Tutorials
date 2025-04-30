@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de İçindekiler Tablosu Oluşturma
-linktitle: İçindekiler Tablosu Oluşturuluyor
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak İçindekiler Tablosu'nu (TOC) nasıl oluşturacağınızı ve özelleştireceğinizi öğrenin. Zahmetsizce düzenli ve profesyonel belgeler oluşturun.
-weight: 21
-url: /tr/java/document-manipulation/generating-table-of-contents/
+"description": "Aspose.Words for Java kullanarak İçindekiler Tablosu'nu (TOC) nasıl oluşturacağınızı ve özelleştireceğinizi öğrenin. Zahmetsizce düzenli ve profesyonel belgeler oluşturun."
+"linktitle": "İçindekiler Tablosu Oluşturuluyor"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de İçindekiler Tablosu Oluşturma"
+"url": "/tr/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de İçindekiler Tablosu Oluşturma
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Eski sekmeyi çıkarın.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Değiştirilen konuma (örneğin, 50 birim sola) yeni bir sekme ekleyin.
+        // Değiştirilen konuma (örneğin, 50 birim sola) yeni bir sekme ekleyin.
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,7 +99,7 @@ Bu eğitimde, Word belgeleriyle çalışmak için güçlü bir kütüphane olan 
 
 ### İçindekiler girişlerinin biçimlendirmesini nasıl değiştirebilirim?
 
- İçindekiler düzeyleriyle ilişkili stilleri şu şekilde değiştirebilirsiniz:`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`Burada X, TOC seviyesini ifade eder.
+İçindekiler düzeyleriyle ilişkili stilleri şu şekilde değiştirebilirsiniz: `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`Burada X, TOC seviyesini ifade eder.
 
 ### İçindekiler tabloma nasıl daha fazla seviye ekleyebilirim?
 
@@ -106,9 +108,14 @@ Bu eğitimde, Word belgeleriyle çalışmak için güçlü bir kütüphane olan 
 ### Belirli İçindekiler girişleri için sekme durağı konumlarını değiştirebilir miyim?
 
 Evet, yukarıdaki kod örneğinde gösterildiği gibi, paragraflar arasında gezinerek ve sekme duraklarını buna göre düzenleyerek belirli İçindekiler girişleri için sekme durağı konumlarını değiştirebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

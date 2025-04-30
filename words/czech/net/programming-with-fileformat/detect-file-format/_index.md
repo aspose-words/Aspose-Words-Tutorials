@@ -1,28 +1,30 @@
 ---
-title: Rozpoznat formát souboru dokumentu
-linktitle: Rozpoznat formát souboru dokumentu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak detekovat formáty souborů dokumentů pomocí Aspose.Words for .NET, pomocí tohoto komplexního průvodce krok za krokem.
-weight: 10
-url: /cs/net/programming-with-fileformat/detect-file-format/
+"description": "Naučte se, jak detekovat formáty souborů dokumentů pomocí Aspose.Words pro .NET s tímto komplexním návodem krok za krokem."
+"linktitle": "Rozpoznat formát souboru dokumentu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Rozpoznat formát souboru dokumentu"
+"url": "/cs/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznat formát souboru dokumentu
 
 ## Zavedení
 
-V dnešním digitálním světě je efektivní správa různých formátů dokumentů zásadní. Ať už pracujete s formáty Word, PDF, HTML nebo jinými formáty, schopnost správně detekovat a zpracovat tyto soubory vám může ušetřit spoustu času a úsilí. V tomto tutoriálu prozkoumáme, jak zjistit formáty souborů dokumentů pomocí Aspose.Words for .NET. Tento průvodce vás provede vším, co potřebujete vědět, od předpokladů až po podrobného průvodce krok za krokem.
+V dnešním digitálním světě je efektivní správa různých formátů dokumentů klíčová. Ať už pracujete s Wordem, PDF, HTML nebo jinými formáty, schopnost správně detekovat a zpracovávat tyto soubory vám může ušetřit spoustu času a úsilí. V tomto tutoriálu se podíváme na to, jak detekovat formáty souborů dokumentů pomocí Aspose.Words pro .NET. Tato příručka vás provede vším, co potřebujete vědět, od předpokladů až po podrobný návod krok za krokem.
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódu, ujistěme se, že máte vše potřebné:
 
--  Aspose.Words for .NET: Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/) . Ujistěte se, že máte platnou licenci. Pokud ne, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
-- Visual Studio: Jakákoli nejnovější verze bude fungovat dobře.
+- Aspose.Words pro .NET: Můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/)Ujistěte se, že máte platný řidičský průkaz. Pokud ne, můžete si ho nechat [dočasná licence](https://purchase.aspose.com/temporary-license/).
+- Visual Studio: Jakákoli novější verze bude fungovat dobře.
 - .NET Framework: Ujistěte se, že máte nainstalovanou správnou verzi.
 
 ## Importovat jmenné prostory
@@ -39,14 +41,14 @@ using System.IO;
 using System.Linq;
 ```
 
-Rozdělme si příklad do několika kroků, aby bylo snazší ho následovat.
+Rozdělme si příklad do několika kroků, aby se dal lépe pochopit.
 
 ## Krok 1: Nastavení adresářů
 
 Nejprve musíme nastavit adresáře, kde budou soubory seřazeny podle jejich formátu.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 string supportedDir = dataDir + "Supported";
 string unknownDir = dataDir + "Unknown";
@@ -66,15 +68,15 @@ if (!Directory.Exists(pre97Dir))
 
 ## Krok 2: Získejte seznam souborů
 
-Dále získáme seznam souborů z adresáře, kromě poškozených dokumentů.
+Dále získáme seznam souborů z adresáře, s výjimkou poškozených dokumentů.
 
 ```csharp
 IEnumerable<string> fileList = Directory.GetFiles(dataDir).Where(name => !name.EndsWith("Corrupted document.docx"));
 ```
 
-## Krok 3: Zjistěte formáty souborů
+## Krok 3: Detekce formátů souborů
 
-Nyní iterujeme každý soubor a zjistíme jeho formát pomocí Aspose.Words.
+Nyní projdeme každý soubor a pomocí Aspose.Words zjistíme jeho formát.
 
 ```csharp
 foreach (string fileName in fileList)
@@ -85,7 +87,7 @@ foreach (string fileName in fileList)
 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(fileName);
 
-    // Zobrazte typ dokumentu
+    // Zobrazit typ dokumentu
     switch (info.LoadFormat)
     {
         case LoadFormat.Doc:
@@ -160,28 +162,33 @@ foreach (string fileName in fileList)
 
 ## Závěr
 
-Detekce formátů souborů dokumentů pomocí Aspose.Words for .NET je jednoduchý proces. Nastavením adresářů, získáním seznamu souborů a využitím Aspose.Words k detekci formátů souborů můžete efektivně organizovat a spravovat své dokumenty. Tento přístup nejen šetří čas, ale také zajišťuje správné zacházení s různými formáty dokumentů.
+Detekce formátů souborů dokumentů pomocí Aspose.Words pro .NET je jednoduchý proces. Nastavením adresářů, získáním seznamu souborů a využitím Aspose.Words k detekci formátů souborů můžete efektivně organizovat a spravovat své dokumenty. Tento přístup nejen šetří čas, ale také zajišťuje správnou práci s různými formáty dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro programovou práci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat a převádět dokumenty v různých formátech.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro programovou práci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat a převádět dokumenty v různých formátech.
 
 ### Dokáže Aspose.Words detekovat šifrované dokumenty?
-Ano, Aspose.Words dokáže zjistit, zda je dokument zašifrován, a podle toho s takovými dokumenty můžete zacházet.
+Ano, Aspose.Words dokáže zjistit, zda je dokument zašifrovaný, a vy s takovými dokumenty můžete odpovídajícím způsobem zacházet.
 
-### Jaké formáty může Aspose.Words detekovat?
+### Jaké formáty dokáže Aspose.Words detekovat?
 Aspose.Words dokáže detekovat širokou škálu formátů včetně DOC, DOCX, RTF, HTML, MHTML, ODT a mnoha dalších.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Words?
- Dočasnou licenci můžete získat od[Aspose Nákup](https://purchase.aspose.com/temporary-license/) strana.
+Dočasné povolení můžete získat od [Nákup Aspose](https://purchase.aspose.com/temporary-license/) strana.
 
 ### Kde najdu dokumentaci k Aspose.Words?
- Dokumentaci pro Aspose.Words lze nalézt[zde](https://reference.aspose.com/words/net/).
+Dokumentaci k Aspose.Words naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

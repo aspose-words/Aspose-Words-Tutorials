@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Metin Bulma ve Değiştirme
-linktitle: Metin Bulma ve Değiştirme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile Word belgelerinde metin bulmayı ve değiştirmeyi öğrenin. Kod örnekleriyle adım adım kılavuz. Java belge düzenleme becerilerinizi geliştirin.
-weight: 15
-url: /tr/java/document-manipulation/finding-and-replacing-text/
+"description": "Aspose.Words for Java ile Word belgelerinde metin bulmayı ve değiştirmeyi öğrenin. Kod örnekleriyle adım adım kılavuz. Java belge düzenleme becerilerinizi geliştirin."
+"linktitle": "Metin Bulma ve Değiştirme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Metin Bulma ve Değiştirme"
+"url": "/tr/java/document-manipulation/finding-and-replacing-text/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Metin Bulma ve Değiştirme
@@ -26,7 +28,7 @@ Metin bulma ve değiştirme ayrıntılarına dalmadan önce, aşağıdaki ön ko
 - Java için Aspose.Words kütüphanesi
 - Üzerinde çalışılacak bir örnek Word belgesi
 
- Aspose.Words for Java kütüphanesini şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/java/).
+Aspose.Words for Java kütüphanesini şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
 
 ## Basit Metni Bulma ve Değiştirme
 
@@ -44,7 +46,7 @@ builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 doc.save("modified-document.docx");
 ```
 
- Bu örnekte bir Word belgesi yüklüyoruz, bir`DocumentBuilder` ve şunu kullanın`replace` Belge içerisinde "eski-metin"i "yeni-metin" ile bulup değiştirme yöntemi.
+Bu örnekte bir Word belgesi yüklüyoruz, bir `DocumentBuilder`ve şunu kullanın `replace` Belge içerisinde "eski-metin"i "yeni-metin" ile bulup değiştirme yöntemi.
 
 ## Düzenli İfadeleri Kullanma
 
@@ -149,7 +151,7 @@ doc.getRange().replace("text-to-replace", "new-html-content", options);
 doc.save("modified-document.docx");
 ```
 
- Bu örnekte özel bir`ReplaceWithHtmlEvaluator` metni HTML içeriğiyle değiştirmek.
+Bu örnekte özel bir `ReplaceWithHtmlEvaluator` metni HTML içeriğiyle değiştirmek.
 
 ## Başlıklar ve Altbilgilerdeki Metni Değiştirme
 
@@ -162,7 +164,7 @@ Document doc = new Document("your-document.docx");
 // Başlık ve altbilgi koleksiyonunu edinin
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Metnini değiştirmek istediğiniz üstbilgi veya altbilgi türünü seçin (örneğin, HeaderFooterType.FOOTER_PRIMARY)
+// Metni değiştirmek istediğiniz üstbilgi veya altbilgi türünü seçin (örneğin, HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
 // Bir FindReplaceOptions örneği oluşturun ve bunu altbilgi aralığına uygulayın
@@ -186,7 +188,7 @@ Document doc = new Document("your-document.docx");
 // İlk bölümü al
 Section firstPageSection = doc.getFirstSection();
 
-//Bir FindReplaceOptions örneği oluşturun ve bunu belgenin aralığına uygulayın
+// Bir FindReplaceOptions örneği oluşturun ve bunu belgenin aralığına uygulayın
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
@@ -218,7 +220,7 @@ doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 doc.save("modified-document.docx");
 ```
 
- Bu örnekte metni alanlarla değiştiriyoruz ve alan türünü belirtiyoruz (örneğin,`FieldType.FIELD_MERGE_FIELD`).
+Bu örnekte metni alanlarla değiştiriyoruz ve alan türünü belirtiyoruz (örneğin, `FieldType.FIELD_MERGE_FIELD`).
 
 ## Değerlendirici ile Değiştirme
 
@@ -266,7 +268,7 @@ Aspose.Words for Java'yı kullanarak değiştirme desenleri içinde değiştirme
 // Belgeyi yükle
 Document doc = new Document("your-document.docx");
 
-// UseSubstitutions'ı true olarak ayarlayan bir FindReplaceOptions örneği oluşturun
+// UseSubstitutions'ı true olarak ayarlayarak FindReplaceOptions örneği oluşturun
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
@@ -304,7 +306,7 @@ Bul ve değiştir işlemlerini gerçekleştirirken eski sırayı kullanabilirsin
 // Belgeyi yükle
 Document doc = new Document("your-document.docx");
 
-// Bir FindReplaceOptions örneği oluşturun ve UseLegacyOrder'ı true olarak ayarlayın
+// FindReplaceOptions örneği oluşturun ve UseLegacyOrder'ı true olarak ayarlayın
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
@@ -328,7 +330,7 @@ Document doc = new Document("your-document.docx");
 // Belirli bir tabloyu al (örneğin, ilk tablo)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-//Tablodaki metni değiştirmek için FindReplaceOptions'ı kullanın
+// Tablodaki metni değiştirmek için FindReplaceOptions'ı kullanın
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
 // Değiştirilen belgeyi kaydet
@@ -345,7 +347,7 @@ Aspose.Words for Java, Word belgelerinde metin bulma ve değiştirme için kapsa
 
 ### Aspose.Words for Java'yı nasıl indirebilirim?
 
- Aspose.Words for Java'yı web sitesini ziyaret ederek indirebilirsiniz.[bu bağlantı](https://releases.aspose.com/words/java/).
+Aspose.Words for Java'yı web sitesini ziyaret ederek indirebilirsiniz. [bu bağlantı](https://releases.aspose.com/words/java/).
 
 ### Metin değiştirme için düzenli ifadeleri kullanabilir miyim?
 
@@ -353,18 +355,23 @@ Evet, Aspose.Words for Java'da metin değiştirme için düzenli ifadeler kullan
 
 ### Değiştirme sırasında alanların içindeki metni nasıl yok sayabilirim?
 
-Değiştirme sırasında alanların içindeki metni yoksaymak için,`IgnoreFields` mülkiyeti`FindReplaceOptions` ile`true`Bu, birleştirme alanları gibi alanlardaki metinlerin değiştirmeden hariç tutulmasını sağlar.
+Değiştirme sırasında alanların içindeki metni yoksaymak için, `IgnoreFields` mülkiyeti `FindReplaceOptions` ile `true`Bu, birleştirme alanları gibi alanlardaki metinlerin değiştirmeden hariç tutulmasını sağlar.
 
 ### Başlık ve altbilgilerdeki metinleri değiştirebilir miyim?
 
- Evet, Word belgenizin üstbilgileri ve altbilgilerindeki metni değiştirebilirsiniz. Sadece uygun üstbilgiye veya altbilgiye erişin ve`replace` istenilen yöntemle`FindReplaceOptions`.
+Evet, Word belgenizin üstbilgileri ve altbilgilerindeki metni değiştirebilirsiniz. Sadece uygun üstbilgiye veya altbilgiye erişin ve `replace` istenilen yöntemle `FindReplaceOptions`.
 
 ### UseLegacyOrder seçeneği ne işe yarar?
 
- The`UseLegacyOrder` seçenek`FindReplaceOptions` bul ve değiştir işlemlerini gerçekleştirirken eski sırayı kullanmanıza olanak tanır. Bu, eski sıra davranışının istendiği belirli senaryolarda yararlı olabilir.
+The `UseLegacyOrder` seçenek `FindReplaceOptions` bul ve değiştir işlemlerini gerçekleştirirken eski sırayı kullanmanıza olanak tanır. Bu, eski sıra davranışının istendiği belirli senaryolarda yararlı olabilir.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

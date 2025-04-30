@@ -1,14 +1,16 @@
 ---
-title: Tạo Header Footer
-linktitle: Tạo Header Footer
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm và tùy chỉnh tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo định dạng tài liệu chuyên nghiệp.
-weight: 10
-url: /vi/net/working-with-headers-and-footers/create-header-footer/
+"description": "Tìm hiểu cách thêm và tùy chỉnh tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước này đảm bảo định dạng tài liệu chuyên nghiệp."
+"linktitle": "Tạo Header Footer"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo Header Footer"
+"url": "/vi/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Header Footer
@@ -21,7 +23,7 @@ Thêm tiêu đề và chân trang vào tài liệu của bạn có thể nâng c
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Tải xuống và cài đặt từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Tải xuống và cài đặt từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Chẳng hạn như Visual Studio, để viết và chạy mã của bạn.
 - Kiến thức cơ bản về C#: Hiểu biết về C# và .NET framework.
 - Tài liệu mẫu: Một tài liệu mẫu để áp dụng tiêu đề và chân trang hoặc tạo một tiêu đề và chân trang mới như trong hướng dẫn.
@@ -47,7 +49,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## Bước 2: Tạo một tài liệu mới
 
- Tạo một tài liệu mới và một`DocumentBuilder`để tạo điều kiện thuận lợi cho việc bổ sung nội dung.
+Tạo một tài liệu mới và một `DocumentBuilder` để tạo điều kiện thuận lợi cho việc bổ sung nội dung.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Cấu hình Thiết lập Trang
 
-Thiết lập cài đặt trang, bao gồm cả việc trang đầu tiên có phần đầu trang/chân trang khác hay không.
+Thiết lập cài đặt trang, bao gồm cả việc trang đầu tiên có phần đầu trang/chân trang khác nhau hay không.
 
 ```csharp
 Section currentSection = builder.CurrentSection;
@@ -177,27 +179,32 @@ Bằng cách làm theo các bước này, bạn có thể thêm và tùy chỉnh
 
 ### Aspose.Words dành cho .NET là gì?
 
-Aspose.Words for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tài liệu Word theo cách lập trình trong các ứng dụng .NET.
+Aspose.Words for .NET là thư viện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tài liệu Word theo chương trình trong các ứng dụng .NET.
 
 ### Tôi có thể thêm hình ảnh vào đầu trang hoặc chân trang không?
 
- Có, bạn có thể dễ dàng thêm hình ảnh vào đầu trang hoặc chân trang bằng cách sử dụng`DocumentBuilder.InsertImage` phương pháp.
+Có, bạn có thể dễ dàng thêm hình ảnh vào đầu trang hoặc chân trang bằng cách sử dụng `DocumentBuilder.InsertImage` phương pháp.
 
 ### Làm thế nào để thiết lập các tiêu đề và chân trang khác nhau cho trang đầu tiên?
 
- Bạn có thể thiết lập các tiêu đề và chân trang khác nhau cho trang đầu tiên bằng cách sử dụng`DifferentFirstPageHeaderFooter` tài sản của`PageSetup` lớp học.
+Bạn có thể thiết lập các tiêu đề và chân trang khác nhau cho trang đầu tiên bằng cách sử dụng `DifferentFirstPageHeaderFooter` tài sản của `PageSetup` lớp học.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu API Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tài liệu API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Có hỗ trợ cho Aspose.Words không?
 
- Có, Aspose cung cấp hỗ trợ thông qua[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Có, Aspose cung cấp hỗ trợ thông qua [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

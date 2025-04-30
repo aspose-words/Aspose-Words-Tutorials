@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों को HTML पृष्ठों में विभाजित करना
-linktitle: दस्तावेज़ों को HTML पृष्ठों में विभाजित करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जावा के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML पृष्ठों में विभाजित करना सीखें। स्रोत कोड के साथ हमारा चरण-दर-चरण मार्गदर्शिका प्रक्रिया को आसान और कुशल बनाता है। आज ही अपने दस्तावेज़ों को परिवर्तित करना शुरू करें!
-weight: 11
-url: /hi/java/document-splitting/splitting-documents-into-html-pages/
+"description": "जावा के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को HTML पृष्ठों में विभाजित करना सीखें। स्रोत कोड के साथ हमारा चरण-दर-चरण मार्गदर्शिका प्रक्रिया को आसान और कुशल बनाता है। आज ही अपने दस्तावेज़ों को परिवर्तित करना शुरू करें!"
+"linktitle": "दस्तावेज़ों को HTML पृष्ठों में विभाजित करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ों को HTML पृष्ठों में विभाजित करना"
+"url": "/hi/java/document-splitting/splitting-documents-into-html-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों को HTML पृष्ठों में विभाजित करना
@@ -21,7 +23,7 @@ url: /hi/java/document-splitting/splitting-documents-into-html-pages/
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
--  Aspose.Words for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 
 ## परिचय
@@ -40,7 +42,7 @@ url: /hi/java/document-splitting/splitting-documents-into-html-pages/
 Document doc = new Document("your-document.docx");
 ```
 
- प्रतिस्थापित करें`"your-document.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ.
+प्रतिस्थापित करें `"your-document.docx"` अपने वर्ड दस्तावेज़ के पथ के साथ.
 
 ## दस्तावेज़ को विभाजित करना
 
@@ -53,7 +55,7 @@ splitOptions.setDocumentSplitCriteria(DocumentSplitCriteria.PAGE_BREAK);
 List<Document> pages = DocumentSplitter.split(doc, splitOptions);
 ```
 
- यह कोड पृष्ठ विराम के आधार पर दस्तावेज़ को विभाजित करता है और प्रत्येक पृष्ठ को संग्रहीत करता है`pages` सूची।
+यह कोड पृष्ठ विराम के आधार पर दस्तावेज़ को विभाजित करता है और प्रत्येक पृष्ठ को संग्रहीत करता है `pages` सूची।
 
 ## HTML के रूप में सहेजना
 
@@ -65,7 +67,7 @@ for (int i = 0; i < pages.size(); i++) {
 }
 ```
 
-यह कोड पृष्ठों को पुनरावृत्त करता है और उन्हें HTML फ़ाइलों के रूप में सहेजता है।
+यह कोड पृष्ठों की पुनरावृत्ति करता है और उन्हें HTML फ़ाइलों के रूप में सहेजता है।
 
 ## निष्कर्ष
 
@@ -77,7 +79,7 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### मैं Java के लिए Aspose.Words कैसे स्थापित करूं?
 
- Java के लिए Aspose.Words स्थापित करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/java/) और अपने जावा प्रोजेक्ट के क्लासपाथ में JAR फ़ाइलें शामिल करें।
+Java के लिए Aspose.Words स्थापित करने के लिए, लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/java/) और अपने जावा प्रोजेक्ट के क्लासपाथ में JAR फ़ाइलें शामिल करें।
 
 ### क्या मैं विभाजन मानदंड को अनुकूलित कर सकता हूँ?
 
@@ -93,13 +95,17 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
- आप Aspose.Words for Java प्रलेखन पृष्ठ पर विस्तृत प्रलेखन और कोड उदाहरण पा सकते हैं[यहाँ](https://reference.aspose.com/words/java/).
+आप Aspose.Words for Java प्रलेखन पृष्ठ पर विस्तृत प्रलेखन और कोड उदाहरण पा सकते हैं [यहाँ](https://reference.aspose.com/words/java/).
 
 
 अब जब आपको Aspose.Words for Java का उपयोग करके Word दस्तावेज़ों को HTML पृष्ठों में विभाजित करने के बारे में ठोस समझ हो गई है, तो आप अपनी परियोजनाओं में इस सुविधा को लागू करना शुरू कर सकते हैं। हैप्पी कोडिंग!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

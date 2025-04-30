@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/list-keep-source-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # List Keep Source Formatting
@@ -93,9 +96,13 @@ Aspose.Words provides efficient APIs for document manipulation, optimized for pe
 ### Where can I find more examples and documentation?
 You can explore more examples and detailed documentation at [Aspose.Words Documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

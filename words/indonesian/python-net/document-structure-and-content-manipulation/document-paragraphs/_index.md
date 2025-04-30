@@ -1,14 +1,16 @@
 ---
-title: Memformat Paragraf dan Teks dalam Dokumen Word
-linktitle: Memformat Paragraf dan Teks dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara memformat paragraf dan teks dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk pemformatan dokumen yang efektif.
-weight: 22
-url: /id/python-net/document-structure-and-content-manipulation/document-paragraphs/
+"description": "Pelajari cara memformat paragraf dan teks dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk pemformatan dokumen yang efektif."
+"linktitle": "Memformat Paragraf dan Teks dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Memformat Paragraf dan Teks dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-paragraphs/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memformat Paragraf dan Teks dalam Dokumen Word
@@ -22,7 +24,7 @@ Aspose.Words untuk Python adalah pustaka canggih yang memungkinkan pengembang be
 
 ## Memulai: Menginstal Aspose.Words
 
- Untuk mulai menggunakan Aspose.Words untuk Python, Anda perlu menginstal pustaka tersebut. Anda dapat melakukannya dengan menggunakan`pip`manajer paket Python, dengan perintah berikut:
+Untuk mulai menggunakan Aspose.Words untuk Python, Anda perlu menginstal pustaka tersebut. Anda dapat melakukannya dengan menggunakan `pip`manajer paket Python, dengan perintah berikut:
 
 ```python
 pip install aspose-words
@@ -35,10 +37,10 @@ Mari kita mulai dengan memuat dokumen Word yang ada atau membuat yang baru dari 
 ```python
 import aspose.words as aw
 
-# Load an existing document
+# Memuat dokumen yang ada
 doc = aw.Document("existing_document.docx")
 
-# Create a new document
+# Buat dokumen baru
 new_doc = aw.Document()
 ```
 
@@ -47,7 +49,7 @@ new_doc = aw.Document()
 Memformat teks dalam dokumen Word sangat penting untuk menekankan poin-poin penting dan meningkatkan keterbacaan. Aspose.Words memungkinkan Anda menerapkan berbagai opsi pemformatan, seperti tebal, miring, garis bawah, dan ukuran font:
 
 ```python
-# Apply basic text formatting
+# Terapkan format teks dasar
 builder = aw.DocumentBuilder(doc)
 builder.write("This text is ")
 builder.bold("bold").write(" and ")
@@ -59,7 +61,7 @@ builder.italic("italic").write(".")
 Pemformatan paragraf sangat penting untuk mengendalikan perataan, indentasi, spasi, dan perataan teks dalam paragraf:
 
 ```python
-# Format paragraphs
+# Format paragraf
 par_format = builder.paragraph_format
 par_format.alignment = aw.ParagraphAlignment.CENTER
 par_format.left_indent = aw.ConvertUtil.inch_to_point(1)
@@ -71,7 +73,7 @@ par_format.line_spacing = 1.5
 Aspose.Words memungkinkan Anda menerapkan gaya dan tema yang telah ditentukan sebelumnya ke dokumen Anda untuk tampilan yang konsisten dan profesional:
 
 ```python
-# Apply styles and themes
+# Terapkan gaya dan tema
 style = doc.styles.get_by_name(aw.StyleIdentifier.TITLE)
 builder.paragraph_format.style = style
 ```
@@ -81,7 +83,7 @@ builder.paragraph_format.style = style
 Membuat daftar berpoin dan bernomor merupakan persyaratan umum dalam dokumen. Aspose.Words menyederhanakan proses ini:
 
 ```python
-# Create bulleted and numbered lists
+# Membuat daftar berpoin dan bernomor
 builder.write("Bulleted List:")
 builder.list_format.apply_bullet_default()
 builder.writeln("Item 1")
@@ -98,8 +100,8 @@ builder.writeln("Item B")
 Hyperlink meningkatkan interaktivitas dokumen. Berikut cara menambahkan hyperlink ke dokumen Word Anda:
 
 ```python
-# Add hyperlinks
-builder.insert_hyperlink("Visit Aspose", "https://(www.aspose.com")
+# Tambahkan hyperlink
+builder.insert_hyperlink("Visit Aspose", "https://www.aspose.com")
 ```
 
 ## Memasukkan Gambar dan Bentuk
@@ -107,7 +109,7 @@ builder.insert_hyperlink("Visit Aspose", "https://(www.aspose.com")
 Elemen visual seperti gambar dan bentuk dapat membuat dokumen Anda lebih menarik:
 
 ```python
-# Insert images and shapes
+# Sisipkan gambar dan bentuk
 builder.insert_image("image.png")
 builder.insert_shape(aw.Drawing.ShapeType.RECTANGLE, 100, 100)
 ```
@@ -117,7 +119,7 @@ builder.insert_shape(aw.Drawing.ShapeType.RECTANGLE, 100, 100)
 Tata letak halaman dan margin penting untuk mengoptimalkan daya tarik visual dan keterbacaan dokumen:
 
 ```python
-# Set page layout and margins
+# Mengatur tata letak halaman dan margin
 page_setup = doc.sections[0].page_setup
 page_setup.orientation = aw.Orientation.LANDSCAPE
 page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)
@@ -128,7 +130,7 @@ page_setup.top_margin = aw.ConvertUtil.inch_to_point(1)
 Tabel merupakan cara yang ampuh untuk mengatur dan menyajikan data. Aspose.Words memungkinkan Anda untuk memformat dan menata tabel:
 
 ```python
-# Format and style tables
+# Format dan gaya tabel
 table = builder.start_table()
 for _ in range(3):
     builder.insert_cell()
@@ -142,7 +144,7 @@ builder.end_table()
 Header dan footer menyediakan informasi yang konsisten di seluruh halaman dokumen:
 
 ```python
-# Add headers and footers
+# Tambahkan header dan footer
 header = doc.first_section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.HEADER_PRIMARY)
 builder.move_to_header_footer(header)
 builder.write("Header Text")
@@ -153,7 +155,7 @@ builder.write("Header Text")
 Membagi dokumen Anda menjadi beberapa bagian memungkinkan pemformatan yang berbeda dalam dokumen yang sama:
 
 ```python
-# Add sections and page breaks
+# Tambahkan bagian dan jeda halaman
 builder.insert_break(aw.BreakType.PAGE_BREAK)
 ```
 
@@ -162,7 +164,7 @@ builder.insert_break(aw.BreakType.PAGE_BREAK)
 Aspose.Words menawarkan fitur untuk melindungi dokumen Anda dan memastikan keamanannya:
 
 ```python
-# Protect and secure the document
+# Lindungi dan amankan dokumen
 doc.protect(aw.ProtectionType.READ_ONLY)
 ```
 
@@ -171,7 +173,7 @@ doc.protect(aw.ProtectionType.READ_ONLY)
 Setelah memformat dokumen Word Anda, Anda dapat mengekspornya ke berbagai format:
 
 ```python
-# Export to different formats
+# Ekspor ke format berbeda
 doc.save("output.pdf", aw.SaveFormat.PDF)
 ```
 
@@ -191,16 +193,21 @@ pip install aspose-words
 Ya, Anda dapat membuat dan menerapkan gaya khusus ke dokumen Word Anda menggunakan API Aspose.Words.
 
 ### Bagaimana cara menambahkan gambar ke dokumen saya?
- Anda dapat memasukkan gambar ke dalam dokumen Anda menggunakan`insert_image()` metode yang disediakan oleh Aspose.Words.
+Anda dapat memasukkan gambar ke dalam dokumen Anda menggunakan `insert_image()` metode yang disediakan oleh Aspose.Words.
 
 ### Apakah Aspose.Words cocok untuk membuat laporan?
-Tentu saja! Aspose.Words menawarkan berbagai fitur yang menjadikannya pilihan yang sangat baik untuk menghasilkan laporan yang dinamis dan berformat.
+Tentu saja! Aspose.Words menawarkan berbagai fitur yang menjadikannya pilihan yang sangat baik untuk membuat laporan yang dinamis dan berformat.
 
 ### Di mana saya dapat mengakses perpustakaan dan dokumentasinya?
- Akses pustaka dan dokumentasi Aspose.Words untuk Python di[https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+Akses pustaka dan dokumentasi Aspose.Words untuk Python di [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

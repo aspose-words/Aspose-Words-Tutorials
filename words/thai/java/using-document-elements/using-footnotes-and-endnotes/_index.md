@@ -1,14 +1,16 @@
 ---
-title: การใช้เชิงอรรถและเชิงอรรถใน Aspose.Words สำหรับ Java
-linktitle: การใช้เชิงอรรถและเชิงอรรถท้ายเรื่อง
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การใช้เชิงอรรถและเชิงท้ายอย่างมีประสิทธิภาพใน Aspose.Words สำหรับ Java พัฒนาทักษะการจัดรูปแบบเอกสารของคุณวันนี้!
-weight: 13
-url: /th/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "เรียนรู้การใช้เชิงอรรถและเชิงท้ายอย่างมีประสิทธิภาพใน Aspose.Words สำหรับ Java พัฒนาทักษะการจัดรูปแบบเอกสารของคุณวันนี้!"
+"linktitle": "การใช้เชิงอรรถและเชิงอรรถท้ายเรื่อง"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้เชิงอรรถและเชิงอรรถใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้เชิงอรรถและเชิงอรรถใน Aspose.Words สำหรับ Java
@@ -123,7 +125,7 @@ public void setEndnoteOptions() throws Exception {
 เชิงอรรถจะปรากฏที่ด้านล่างของหน้า ในขณะที่เชิงอรรถตอนท้ายจะถูกเก็บรวบรวมไว้ที่ตอนท้ายของส่วนหรือเอกสาร
 
 ### 2. ฉันจะเปลี่ยนตำแหน่งของเชิงอรรถหรือเชิงอรรถตอนท้ายได้อย่างไร
- คุณสามารถใช้`setPosition` วิธีการเปลี่ยนตำแหน่งของเชิงอรรถหรือเชิงอรรถตอนท้าย
+คุณสามารถใช้ `setPosition` วิธีการเปลี่ยนตำแหน่งของเชิงอรรถหรือเชิงท้าย
 
 ### 3. ฉันสามารถปรับแต่งการจัดรูปแบบของเชิงอรรถและเชิงอรรถตอนท้ายได้หรือไม่
 ใช่ คุณสามารถปรับแต่งการจัดรูปแบบของเชิงอรรถและเชิงอรรถตอนท้ายโดยใช้ Aspose.Words สำหรับ Java ได้
@@ -132,9 +134,14 @@ public void setEndnoteOptions() throws Exception {
 ใช่ เชิงอรรถและเชิงอรรถตอนท้ายมีความจำเป็นสำหรับการให้ข้อมูลอ้างอิงและข้อมูลเพิ่มเติมในเอกสาร
 
 อย่าลังเลที่จะสำรวจฟีเจอร์เพิ่มเติมของ Aspose.Words สำหรับ Java และปรับปรุงความสามารถในการสร้างเอกสารของคุณ ขอให้สนุกกับการเขียนโค้ด!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/use-destination-styles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Destination Styles
@@ -96,9 +99,13 @@ Aspose.Words allows you to append documents of different formats, but the final 
 ### How can I get a free trial of Aspose.Words for .NET?
 You can get a free trial [here](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

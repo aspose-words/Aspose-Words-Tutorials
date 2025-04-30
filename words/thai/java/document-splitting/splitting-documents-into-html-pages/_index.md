@@ -1,14 +1,16 @@
 ---
-title: การแยกเอกสารออกเป็นหน้า HTML
-linktitle: การแยกเอกสารออกเป็นหน้า HTML
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีแบ่งเอกสาร Word ออกเป็นหน้า HTML โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับจะทำให้กระบวนการนี้ง่ายดายและมีประสิทธิภาพ เริ่มแปลงเอกสารของคุณวันนี้!
-weight: 11
-url: /th/java/document-splitting/splitting-documents-into-html-pages/
+"description": "เรียนรู้วิธีแบ่งเอกสาร Word ออกเป็นหน้า HTML โดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับจะทำให้กระบวนการนี้ง่ายดายและมีประสิทธิภาพ เริ่มแปลงเอกสารของคุณวันนี้!"
+"linktitle": "การแยกเอกสารออกเป็นหน้า HTML"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การแยกเอกสารออกเป็นหน้า HTML"
+"url": "/th/java/document-splitting/splitting-documents-into-html-pages/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแยกเอกสารออกเป็นหน้า HTML
@@ -21,7 +23,7 @@ url: /th/java/document-splitting/splitting-documents-into-html-pages/
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
--  ไลบรารี Aspose.Words สำหรับ Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+- ไลบรารี Aspose.Words สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 
 
 ## การแนะนำ
@@ -40,7 +42,7 @@ url: /th/java/document-splitting/splitting-documents-into-html-pages/
 Document doc = new Document("your-document.docx");
 ```
 
- แทนที่`"your-document.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
+แทนที่ `"your-document.docx"` พร้อมเส้นทางไปยังเอกสาร Word ของคุณ
 
 ## การแยกเอกสาร
 
@@ -53,7 +55,7 @@ splitOptions.setDocumentSplitCriteria(DocumentSplitCriteria.PAGE_BREAK);
 List<Document> pages = DocumentSplitter.split(doc, splitOptions);
 ```
 
- โค้ดนี้จะแบ่งเอกสารตามการแบ่งหน้าและจัดเก็บแต่ละหน้าใน`pages` รายการ.
+โค้ดนี้จะแบ่งเอกสารตามการแบ่งหน้าและจัดเก็บแต่ละหน้าใน `pages` รายการ.
 
 ## บันทึกเป็น HTML
 
@@ -77,11 +79,11 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร?
 
- หากต้องการติดตั้ง Aspose.Words สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/words/java/) และรวมไฟล์ JAR ไว้ใน classpath ของโปรเจ็กต์ Java ของคุณ
+หากต้องการติดตั้ง Aspose.Words สำหรับ Java ให้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/words/java/) และรวมไฟล์ JAR ไว้ใน classpath ของโปรเจ็กต์ Java ของคุณ
 
 ### ฉันสามารถปรับแต่งเกณฑ์การแยกได้หรือไม่
 
-ใช่ คุณสามารถกำหนดเกณฑ์การแยกตามความต้องการของคุณได้ Aspose.Words มีตัวเลือกต่างๆ มากมาย รวมถึงการแบ่งหน้า หัวเรื่อง และอื่นๆ
+ใช่ คุณสามารถกำหนดเกณฑ์การแยกตามความต้องการของคุณได้ Aspose.Words มีตัวเลือกต่างๆ มากมาย รวมถึงการแบ่งหน้า หัวข้อ และอื่นๆ
 
 ### Aspose.Words เหมาะกับเอกสารขนาดใหญ่หรือไม่?
 
@@ -93,13 +95,17 @@ for (int i = 0; i < pages.size(); i++) {
 
 ### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
 
- คุณสามารถดูเอกสารโดยละเอียดและตัวอย่างโค้ดได้ที่หน้าเอกสาร Aspose.Words สำหรับ Java[ที่นี่](https://reference.aspose.com/words/java/).
+คุณสามารถดูเอกสารโดยละเอียดและตัวอย่างโค้ดได้ที่หน้าเอกสาร Aspose.Words สำหรับ Java [ที่นี่](https://reference-aspose.com/words/java/).
 
 
 ตอนนี้คุณเข้าใจดีแล้วว่าจะใช้ Aspose.Words สำหรับ Java เพื่อแยกเอกสาร Word ออกเป็นหน้า HTML ได้อย่างไร คุณจึงสามารถเริ่มนำฟีเจอร์นี้ไปใช้ในโครงการของคุณได้ ขอให้สนุกกับการเขียนโค้ด!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

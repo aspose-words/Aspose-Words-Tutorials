@@ -1,14 +1,16 @@
 ---
-title: เก็บอักขระควบคุมแบบเดิมไว้
-linktitle: เก็บอักขระควบคุมแบบเดิมไว้
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการรักษาอักขระควบคุมดั้งเดิมในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "เรียนรู้วิธีการรักษาอักขระควบคุมดั้งเดิมในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "เก็บอักขระควบคุมแบบเดิมไว้"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เก็บอักขระควบคุมแบบเดิมไว้"
+"url": "/th/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เก็บอักขระควบคุมแบบเดิมไว้
@@ -21,8 +23,8 @@ url: /th/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
-2.  ใบอนุญาต Aspose ที่ถูกต้อง: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
+2. ใบอนุญาต Aspose ที่ถูกต้อง: คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 3. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่สนับสนุน .NET
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์
 
@@ -52,7 +54,7 @@ using Aspose.Words.Saving;
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  โหลดเอกสาร: ใช้`Document` ชั้นเรียนเพื่อโหลดเอกสารของคุณ
+2. โหลดเอกสาร: ใช้ `Document` ชั้นเรียนเพื่อโหลดเอกสารของคุณ
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ using Aspose.Words.Saving;
 
 ตอนนี้ มากำหนดค่าตัวเลือกการบันทึกเพื่อรักษาอักขระควบคุมเดิมไว้
 
-1.  สร้างตัวเลือกการบันทึก: เริ่มต้นอินสแตนซ์ของ`OoxmlSaveOptions` และตั้งค่า`KeepLegacyControlChars`ทรัพย์สินที่จะ`true`.
+1. สร้างตัวเลือกการบันทึก: เริ่มต้นอินสแตนซ์ของ `OoxmlSaveOptions` และตั้งค่า `KeepLegacyControlChars` ทรัพย์สินที่จะ `true`-
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ using Aspose.Words.Saving;
 
 สุดท้ายให้บันทึกเอกสารด้วยตัวเลือกการบันทึกที่กำหนดค่าไว้
 
-1.  บันทึกเอกสาร: ใช้`Save` วิธีการของ`Document` คลาสที่จะบันทึกเอกสารด้วยตัวเลือกบันทึกที่ระบุ
+1. บันทึกเอกสาร: ใช้ `Save` วิธีการของ `Document` คลาสที่จะบันทึกเอกสารด้วยตัวเลือกบันทึกที่ระบุ
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -101,15 +103,20 @@ using Aspose.Words.Saving;
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
 
- ใช่ คุณต้องมีใบอนุญาตที่ถูกต้อง คุณสามารถขอใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผลได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณต้องมีใบอนุญาตที่ถูกต้อง คุณสามารถขอใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผลได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
 
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

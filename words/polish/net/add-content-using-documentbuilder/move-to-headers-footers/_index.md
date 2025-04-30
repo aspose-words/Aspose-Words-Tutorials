@@ -1,14 +1,16 @@
 ---
-title: Przenieś do nagłówków i stopek w dokumencie Word
-linktitle: Przenieś do nagłówków i stopek w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak przejść do nagłówków i stopek w dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności tworzenia dokumentów.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/move-to-headers-footers/
+"description": "Dowiedz się, jak przejść do nagłówków i stopek w dokumencie Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności tworzenia dokumentów."
+"linktitle": "Przenieś do nagłówków i stopek w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przenieś do nagłówków i stopek w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/move-to-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś do nagłówków i stopek w dokumencie Word
@@ -21,9 +23,9 @@ Jeśli chodzi o programowe tworzenie i zarządzanie dokumentami Word, Aspose.Wor
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest skonfigurowane:
 
-1. **Aspose.Words for .NET** : Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
-2. **Development Environment**:Potrzebne jest środowisko programistyczne, takie jak Visual Studio.
-3. **Basic Knowledge of C#**:Zrozumienie podstaw programowania w języku C# pomoże Ci zrozumieć istotę tematu.
+1. **Aspose.Words dla .NET**: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
+2. **Środowisko programistyczne**:Potrzebne jest środowisko programistyczne, takie jak Visual Studio.
+3. **Podstawowa wiedza z języka C#**:Zrozumienie podstaw programowania w języku C# pomoże Ci zrozumieć istotę tematu.
 
 ## Importuj przestrzenie nazw
 
@@ -49,14 +51,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- W tym kroku utworzysz nową instancję`Document` klasa i`DocumentBuilder` Klasa.`dataDir` Zmienna służy do określenia katalogu, w którym chcesz zapisać dokument.
+W tym kroku utworzysz nową instancję `Document` klasa i `DocumentBuilder` Klasa. `dataDir` Zmienna służy do określenia katalogu, w którym chcesz zapisać dokument.
 
 ## Krok 2: Skonfiguruj ustawienia strony
 
 Następnie musimy określić, że nagłówki i stopki mają być różne dla pierwszej, parzystej i nieparzystej strony.
 
 ```csharp
-//Określ, że chcemy, aby nagłówki i stopki były różne dla pierwszej, parzystej i nieparzystej strony.
+// Określ, że chcemy, aby nagłówki i stopki były różne dla pierwszej, parzystej i nieparzystej strony.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 ```
@@ -77,7 +79,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for all other pages");
 ```
 
- W tym kroku używamy`MoveToHeaderFooter` metoda nawigacji do pożądanej sekcji nagłówka lub stopki.`Write` Następnie metoda ta służy do dodawania tekstu do tych sekcji.
+W tym kroku używamy `MoveToHeaderFooter` metoda nawigacji do pożądanej sekcji nagłówka lub stopki. `Write` Następnie metoda ta służy do dodawania tekstu do tych sekcji.
 
 ## Krok 4: Dodaj treść do treści dokumentu
 
@@ -105,7 +107,7 @@ Ta linia kodu zapisuje dokument pod nazwą „AddContentUsingDocumentBuilder.Mov
 
 ## Wniosek
 
- Wykonując te kroki, możesz łatwo manipulować nagłówkami i stopkami w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek obejmuje podstawy, ale Aspose.Words oferuje szeroki zakres funkcjonalności do bardziej złożonych manipulacji dokumentami. Nie wahaj się zapoznać z[dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
+Wykonując te kroki, możesz łatwo manipulować nagłówkami i stopkami w dokumencie Word za pomocą Aspose.Words dla .NET. Ten samouczek obejmuje podstawy, ale Aspose.Words oferuje szeroki zakres funkcjonalności do bardziej złożonych manipulacji dokumentami. Nie wahaj się zapoznać z [dokumentacja](https://reference.aspose.com/words/net/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
 
 ## Najczęściej zadawane pytania
 
@@ -113,20 +115,25 @@ Ta linia kodu zapisuje dokument pod nazwą „AddContentUsingDocumentBuilder.Mov
 Aspose.Words for .NET to biblioteka umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word programowo przy użyciu języka C#.
 
 ### Czy mogę dodawać obrazy do nagłówków i stopek?
- Tak, możesz dodawać obrazy do nagłówków i stopek za pomocą`DocumentBuilder.InsertImage` metoda.
+Tak, możesz dodawać obrazy do nagłówków i stopek za pomocą `DocumentBuilder.InsertImage` metoda.
 
-### Czy możliwe jest, aby dla każdej sekcji były różne nagłówki i stopki?
- Oczywiście! Możesz mieć unikalne nagłówki i stopki dla każdej sekcji, ustawiając różne`HeaderFooterType` dla każdej sekcji.
+### Czy możliwe jest posiadanie różnych nagłówków i stopek dla każdej sekcji?
+Oczywiście! Możesz mieć unikalne nagłówki i stopki dla każdej sekcji, ustawiając różne `HeaderFooterType` dla każdej sekcji.
 
 ### Jak utworzyć bardziej złożone układy nagłówków i stopek?
 Za pomocą tabel, obrazów i różnych opcji formatowania udostępnianych przez Aspose.Words można tworzyć złożone układy.
 
 ### Gdzie mogę znaleźć więcej przykładów i poradników?
- Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) i[forum wsparcia](https://forum.aspose.com/c/words/8) aby zobaczyć więcej przykładów i uzyskać wsparcie społeczności.
+Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) i [forum wsparcia](https://forum.aspose.com/c/words/8) aby zobaczyć więcej przykładów i uzyskać wsparcie społeczności.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-vba-macros/modify-vba-macros/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Vba Macros Of A Word Document
@@ -137,9 +140,13 @@ If you save a Word document with VBA macros without enabling them, the macros wo
 ### Where can I buy Aspose.Words for .NET?  
 You can purchase Aspose.Words for .NET from the [purchase page](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

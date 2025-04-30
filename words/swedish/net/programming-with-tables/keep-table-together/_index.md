@@ -1,44 +1,46 @@
 ---
-title: Håll ihop bordet
-linktitle: Håll ihop bordet
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du förhindrar att tabeller delas över sidor i Word-dokument med Aspose.Words för .NET. Följ vår guide för att underhålla professionella, läsbara dokument.
-weight: 10
-url: /sv/net/programming-with-tables/keep-table-together/
+"description": "Lär dig hur du förhindrar att tabeller bryts över sidor i Word-dokument med hjälp av Aspose.Words för .NET. Följ vår guide för att underhålla professionella, läsbara dokument."
+"linktitle": "Håll ihop bordet"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Håll ihop bordet"
+"url": "/sv/net/programming-with-tables/keep-table-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Håll ihop bordet
 
 ## Introduktion
 
-Har du någonsin varit frustrerad när en tabell i ditt Word-dokument är uppdelad på två sidor? Det är som att din noggrant upplagda information plötsligt bestämde sig för att ta en paus halvvägs! Att hålla ihop tabeller på en sida är avgörande för läsbarhet och presentation. Oavsett om det är för en rapport, ett projektförslag eller bara ett personligt dokument, kan det vara ganska jobbigt att ha uppdelade tabeller. Tur för oss, Aspose.Words för .NET har ett smart sätt att lösa detta problem. I den här handledningen går vi igenom stegen för att hålla dina bord intakta och ser skarpa ut. Låt oss dyka in!
+Har du någonsin känt dig frustrerad när en tabell i ditt Word-dokument delas upp över två sidor? Det är som om din noggrant upplagda information plötsligt bestämmer sig för att ta en paus halvvägs! Att hålla tabeller samlade på en sida är avgörande för läsbarhet och presentation. Oavsett om det är för en rapport, ett projektförslag eller bara ett personligt dokument kan det vara ganska irriterande att ha tabeller delade. Som tur är för oss har Aspose.Words för .NET ett smidigt sätt att lösa problemet. I den här handledningen går vi igenom stegen för att hålla dina tabeller intakta och snygga. Nu kör vi!
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande:
 
-1.  Aspose.Words för .NET - Om du inte har installerat det ännu kan du ladda ner det från[här](https://releases.aspose.com/words/net/).
-2. Ett Word-dokument med en tabell - Vi kommer att arbeta med ett exempeldokument som har en tabell som spänner över flera sidor.
-3. Grundläggande kunskaper om C# - Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
+1. Aspose.Words för .NET - Om du inte har installerat det än kan du ladda ner det från [här](https://releases.aspose.com/words/net/).
+2. Ett Word-dokument med en tabell – Vi kommer att arbeta med ett exempeldokument som har en tabell som sträcker sig över flera sidor.
+3. Grundläggande kunskaper i C# – Den här handledningen förutsätter att du har grundläggande förståelse för C#-programmering.
 
-## Importera namnområden
+## Importera namnrymder
 
-Till att börja med, låt oss importera de nödvändiga namnrymden. Detta ger oss tillgång till de klasser och metoder vi behöver från Aspose.Words för .NET.
+Först och främst, låt oss importera de nödvändiga namnrymderna. Detta ger oss tillgång till de klasser och metoder vi behöver från Aspose.Words för .NET.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Låt oss dela upp processen i lättsmälta steg. Vi börjar med att ladda vårt dokument och avslutar med att spara det uppdaterade dokumentet där tabellen stannar ihop.
+Låt oss dela upp processen i enkla, lättsmälta steg. Vi börjar med att ladda vårt dokument och avslutar med att spara det uppdaterade dokumentet där tabellen förblir sammanhållen.
 
 ## Steg 1: Ladda dokumentet
 
- För att arbeta med ett Word-dokument måste vi först ladda det. Vi kommer att använda`Document` klass för detta.
+För att arbeta med ett Word-dokument måste vi först ladda det. Vi använder `Document` klass för detta.
 
 ```csharp
 // Sökväg till din dokumentkatalog
@@ -47,9 +49,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
 ```
 
-## Steg 2: Gå till tabellen
+## Steg 2: Åtkomst till tabellen
 
-Därefter måste vi få det bord vi vill hålla ihop. Vi antar att det är den första tabellen i dokumentet.
+Sedan behöver vi hitta den tabell vi vill hålla ihop. Vi antar att det är den första tabellen i dokumentet.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -57,7 +59,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Steg 3: Ställ in KeepWithNext för stycken
 
- För att förhindra att tabellen delas över sidor måste vi ställa in`KeepWithNext` egenskap för varje stycke i tabellen, förutom de sista styckena i den sista raden.
+För att förhindra att tabellen bryts över sidor måste vi ställa in `KeepWithNext` egenskap för varje stycke i tabellen, förutom de sista styckena på den sista raden.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -73,7 +75,7 @@ foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
 
 ## Steg 4: Spara dokumentet
 
-Slutligen sparar vi det uppdaterade dokumentet. Detta kommer att tillämpa våra ändringar och säkerställa att tabellen förblir tillsammans på en sida.
+Slutligen sparar vi det uppdaterade dokumentet. Detta kommer att tillämpa våra ändringar och säkerställa att tabellen förblir samlad på en sida.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
@@ -81,27 +83,32 @@ doc.Save(dataDir + "WorkingWithTables.KeepTableTogether.docx");
 
 ## Slutsats
 
-Och där har du det! Med bara några rader kod kan du förhindra att dina tabeller delas över sidor i dina Word-dokument. Denna enkla men effektiva lösning säkerställer att dina bord förblir snygga och professionella, vilket förbättrar läsbarheten för dina dokument. Aspose.Words för .NET gör det enkelt att hantera sådana formateringsproblem, vilket gör att du kan fokusera på att skapa bra innehåll.
+Och där har du det! Med bara några få rader kod kan du förhindra att dina tabeller delas upp över sidor i dina Word-dokument. Denna enkla men effektiva lösning säkerställer att dina tabeller förblir snygga och professionella, vilket förbättrar läsbarheten i dina dokument. Aspose.Words för .NET gör det enkelt att hantera sådana formateringsproblem, så att du kan fokusera på att skapa bra innehåll.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag hålla flera tabeller tillsammans med den här metoden?  
-Ja, du kan tillämpa samma logik på flera tabeller genom att iterera genom varje tabell i ditt dokument.
+Ja, du kan tillämpa samma logik på flera tabeller genom att iterera igenom varje tabell i ditt dokument.
 
-### Vad händer om mitt bord är för stort för att få plats på en sida?  
-Om en tabell är för stor för att få plats på en enda sida spänner den fortfarande över sidorna. Denna metod säkerställer att mindre bord förblir intakta utan att delas.
+### Vad händer om min tabell är för stor för att få plats på en sida?  
+Om en tabell är för stor för att få plats på en enda sida, kommer den fortfarande att sträcka sig över sidor. Den här metoden säkerställer att mindre tabeller förblir intakta utan att delas.
 
 ### Finns det något sätt att automatisera detta för alla tabeller i ett dokument?  
- Ja, du kan gå igenom alla tabeller i ditt dokument och använda`KeepWithNext` egendom till varje stycke.
+Ja, du kan loopa igenom alla tabeller i ditt dokument och tillämpa `KeepWithNext` egenskap till varje stycke.
 
 ### Behöver jag en betald licens för Aspose.Words för .NET?  
-Du kan börja med en gratis provperiod från[här](https://releases.aspose.com/), men för full funktionalitet rekommenderas en betald licens.
+Du kan börja med en gratis provperiod från [här](https://releases.aspose.com/), men för full funktionalitet rekommenderas en betald licens.
 
 ### Kan jag använda annan formatering på tabellen samtidigt som jag håller ihop den?  
-Absolut! Du kan formatera din tabell efter behov samtidigt som du ser till att den förblir ihop på en sida.
+Absolut! Du kan formatera din tabell efter behov samtidigt som du ser till att den hålls samlad på en sida.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

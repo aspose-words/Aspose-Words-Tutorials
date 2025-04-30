@@ -1,14 +1,16 @@
 ---
-title: शीर्षक
-linktitle: शीर्षक
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ स्वरूपण में महारत हासिल करना सीखें। यह मार्गदर्शिका शीर्षक जोड़ने और अपने Word दस्तावेज़ों को अनुकूलित करने पर एक ट्यूटोरियल प्रदान करती है।
-weight: 10
-url: /hi/net/working-with-markdown/heading/
+"description": ".NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ स्वरूपण में महारत हासिल करना सीखें। यह मार्गदर्शिका शीर्षक जोड़ने और अपने Word दस्तावेज़ों को अनुकूलित करने पर एक ट्यूटोरियल प्रदान करती है।"
+"linktitle": "शीर्षक"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "शीर्षक"
+"url": "/hi/net/working-with-markdown/heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # शीर्षक
@@ -21,7 +23,7 @@ url: /hi/net/working-with-markdown/heading/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य संगत IDE.
 3. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास उपयुक्त .NET फ्रेमवर्क स्थापित है।
 4. C# का बुनियादी ज्ञान: बुनियादी C# प्रोग्रामिंग को समझने से आपको उदाहरणों के साथ आगे बढ़ने में मदद मिलेगी।
@@ -84,7 +86,7 @@ builder.Writeln("Details");
 
 ### मैं .NET के लिए Aspose.Words का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
 
- आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या .NET के लिए Aspose.Words में कस्टम शैलियाँ जोड़ना संभव है?
 
@@ -96,10 +98,15 @@ builder.Writeln("Details");
 
 ### मुझे अधिक दस्तावेज और सहायता कहां मिल सकती है?
 
- विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं[यहाँ](https://reference.aspose.com/words/net/) सहायता के लिए, उनकी वेबसाइट देखें[मंच](https://forum.aspose.com/c/words/8).
+विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं [यहाँ](https://reference.aspose.com/words/net/)सहायता के लिए, उनकी वेबसाइट देखें [मंच](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kiểm tra hiệu ứng văn bản DrawingML
-linktitle: Kiểm tra hiệu ứng văn bản DrawingML
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách kiểm tra hiệu ứng văn bản DrawingML trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Cải thiện tài liệu của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Tìm hiểu cách kiểm tra hiệu ứng văn bản DrawingML trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. Cải thiện tài liệu của bạn một cách dễ dàng."
+"linktitle": "Kiểm tra hiệu ứng văn bản DrawingML"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Kiểm tra hiệu ứng văn bản DrawingML"
+"url": "/vi/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm tra hiệu ứng văn bản DrawingML
@@ -21,7 +23,7 @@ Chào mừng bạn đến với hướng dẫn chi tiết khác về cách làm 
 
 Trước khi bắt đầu hướng dẫn, bạn cần phải có một số điều kiện tiên quyết sau:
 
--  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bạn nên thiết lập một môi trường phát triển, chẳng hạn như Visual Studio.
 - Kiến thức cơ bản về C#: Có một chút hiểu biết về lập trình C# sẽ rất hữu ích.
 
@@ -82,7 +84,7 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Những dòng mã này sẽ in ra`true` hoặc`false` tùy thuộc vào việc mỗi hiệu ứng văn bản DrawingML cụ thể có được áp dụng cho phông chữ của bản chạy hay không.
+Những dòng mã này sẽ in ra `true` hoặc `false` tùy thuộc vào việc mỗi hiệu ứng văn bản DrawingML cụ thể có được áp dụng cho phông chữ của bản chạy hay không.
 
 ## Phần kết luận
 
@@ -98,16 +100,21 @@ Hiệu ứng văn bản DrawingML là các tùy chọn định dạng văn bản
 Có, Aspose.Words for .NET cho phép bạn kiểm tra và áp dụng hiệu ứng văn bản DrawingML theo chương trình.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể lấy[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể lấy [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) để dùng thử Aspose.Words cho .NET trước khi mua.
+Có, bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) để dùng thử Aspose.Words cho .NET trước khi mua.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

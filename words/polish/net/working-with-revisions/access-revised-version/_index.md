@@ -1,14 +1,16 @@
 ---
-title: Dostęp do wersji poprawionej
-linktitle: Dostęp do wersji poprawionej
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać dostęp i wyświetlić poprawioną wersję dokumentu za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie zarządzać dokumentami.
-weight: 10
-url: /pl/net/working-with-revisions/access-revised-version/
+"description": "Dowiedz się, jak uzyskać dostęp i wyświetlić poprawioną wersję dokumentu za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie zarządzać dokumentami."
+"linktitle": "Dostęp do wersji poprawionej"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dostęp do wersji poprawionej"
+"url": "/pl/net/working-with-revisions/access-revised-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do wersji poprawionej
@@ -21,7 +23,7 @@ Czy kiedykolwiek potrzebowałeś programowo uzyskać dostęp do poprawionej wers
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 3. Podstawowa znajomość języka C#: pomoże Ci to zrozumieć część kodowania.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Ładowanie dokumentu
 
- Następnie załadujesz dokument do swojej aplikacji. Ten krok obejmuje utworzenie nowego`Document` obiekt i zainicjuj go ścieżką do swojego dokumentu.
+Następnie załadujesz dokument do swojej aplikacji. Ten krok obejmuje utworzenie nowego `Document` obiekt i zainicjuj go ścieżką do swojego dokumentu.
 
 ```csharp
 Document doc = new Document(dataDir + "Revisions.docx");
@@ -58,13 +60,13 @@ Document doc = new Document(dataDir + "Revisions.docx");
 
 ## Krok 3: Aktualizowanie etykiet listy
 
-Jeśli Twój dokument zawiera listy, ważne jest, aby zaktualizować etykiety listy. Dzięki temu wszystkie elementy listy będą poprawnie ponumerowane i sformatowane.
+Jeśli Twój dokument zawiera listy, ważne jest, aby zaktualizować etykiety listy. Zapewnia to, że wszystkie elementy listy są poprawnie ponumerowane i sformatowane.
 
 ```csharp
 doc.UpdateListLabels();
 ```
 
-## Krok 4: Przełączanie na wersję poprawioną
+## Krok 4: Przejście na wersję poprawioną
 
 Teraz przejdźmy do poprawionej wersji dokumentu. Ten krok jest kluczowy, jeśli chcesz uzyskać dostęp do wersji i je wyświetlić.
 
@@ -72,9 +74,9 @@ Teraz przejdźmy do poprawionej wersji dokumentu. Ten krok jest kluczowy, jeśli
 doc.RevisionsView = RevisionsView.Final;
 ```
 
-## Krok 5: Iterowanie przez rewizje
+## Krok 5: Iterowanie poprzez rewizje
 
- Aby uzyskać dostęp do wersji, należy przejść przez kolejne etapy`Revisions` zbiór dokumentu. Ten krok obejmuje użycie`foreach` pętla umożliwiająca przejście przez każdą rewizję.
+Aby uzyskać dostęp do wersji, należy przejść przez kolejne etapy `Revisions` zbiór dokumentu. Ten krok obejmuje użycie `foreach` pętla umożliwiająca przejście przez każdą rewizję.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -85,7 +87,7 @@ foreach (Revision revision in doc.Revisions)
 
 ## Krok 6: Sprawdzanie typu węzła nadrzędnego
 
- Dla każdej rewizji sprawdź, czy węzeł nadrzędny jest typu`Paragraph`. Jest to ważne, ponieważ chcemy uzyskać dostęp do akapitu zawierającego rewizję.
+Dla każdej rewizji sprawdź, czy węzeł nadrzędny jest typu `Paragraph`. Jest to ważne, ponieważ chcemy uzyskać dostęp do akapitu zawierającego rewizję.
 
 ```csharp
 if (revision.ParentNode.NodeType == NodeType.Paragraph)
@@ -96,7 +98,7 @@ if (revision.ParentNode.NodeType == NodeType.Paragraph)
 
 ## Krok 7: Dostęp do akapitu
 
- Po potwierdzeniu, że węzeł nadrzędny jest akapitem, należy go rzutować na`Paragraph` obiekt. Ten krok pozwala na pracę z akapitem i jego właściwościami.
+Po potwierdzeniu, że węzeł nadrzędny jest akapitem, należy go rzutować na `Paragraph` obiekt. Ten krok pozwala na pracę z akapitem i jego właściwościami.
 
 ```csharp
 Paragraph paragraph = (Paragraph)revision.ParentNode;
@@ -135,16 +137,21 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe twor
 Tak, o ile dokument zawiera poprawki, można uzyskać do nich dostęp za pomocą Aspose.Words dla .NET.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, możesz uzyskać licencję od[Tutaj](https://purchase.aspose.com/buy) . Oferują również[bezpłatny okres próbny](https://releases.aspose.com/) i[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać licencję od [Tutaj](https://purchase.aspose.com/buy). Oferują również [bezpłatny okres próbny](https://releases.aspose.com/) i [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Czy Aspose.Words dla .NET jest kompatybilny ze wszystkimi wersjami .NET?
-Aspose.Words dla .NET jest kompatybilny z szeroką gamą wersji .NET. Więcej szczegółów znajdziesz w[dokumentacja](https://reference.aspose.com/words/net/).
+Aspose.Words dla .NET jest kompatybilny z szeroką gamą wersji .NET. Więcej szczegółów znajdziesz w [dokumentacja](https://reference.aspose.com/words/net/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words dla .NET?
- Możesz uzyskać wsparcie od społeczności Aspose na ich stronie[forum](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose na ich stronie [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

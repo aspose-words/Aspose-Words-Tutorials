@@ -1,14 +1,16 @@
 ---
-title: แทรกฟิลด์บล็อกที่อยู่จดหมายเวียนโดยใช้ DOM
-linktitle: แทรกฟิลด์บล็อกที่อยู่จดหมายเวียนโดยใช้ DOM
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีแทรกฟิลด์บล็อกที่อยู่จดหมายเวียนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/
+"description": "เรียนรู้วิธีแทรกฟิลด์บล็อกที่อยู่จดหมายเวียนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "แทรกฟิลด์บล็อกที่อยู่จดหมายเวียนโดยใช้ DOM"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกฟิลด์บล็อกที่อยู่จดหมายเวียนโดยใช้ DOM"
+"url": "/th/net/working-with-fields/insert-mail-merge-address-block-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกฟิลด์บล็อกที่อยู่จดหมายเวียนโดยใช้ DOM
@@ -21,10 +23,10 @@ url: /th/net/working-with-fields/insert-mail-merge-address-block-field-using-dom
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/words/net/).
-2. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนเครื่องของคุณแล้ว
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดเวอร์ชันล่าสุดจาก [ที่นี่](https://releases-aspose.com/words/net/).
+2. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: คู่มือนี้ถือว่าคุณคุ้นเคยกับการเขียนโปรแกรม C# แล้ว
-4.  ใบอนุญาต Aspose: คุณสามารถทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/) หรือรับใบอนุญาตชั่วคราวจาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาต Aspose: คุณสามารถทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases.aspose.com/) หรือรับใบอนุญาตชั่วคราวจาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## นำเข้าเนมสเปซ
 
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: ค้นหาโหนดย่อหน้า
 
-ขั้นต่อไป เราต้องค้นหาย่อหน้าที่เราต้องการแทรกฟิลด์ Mail Merge Address Block สำหรับตัวอย่างนี้ เราจะใช้ย่อหน้าแรกของเอกสาร
+ต่อไปเราต้องค้นหาย่อหน้าที่เราต้องการแทรกฟิลด์ Mail Merge Address Block สำหรับตัวอย่างนี้ เราจะใช้ย่อหน้าแรกของเอกสาร
 
 ```csharp
 Paragraph para = (Paragraph) doc.GetChildNodes(NodeType.Paragraph, true)[0];
@@ -66,7 +68,7 @@ builder.MoveTo(para);
 
 ## ขั้นตอนที่ 4: แทรกช่องที่อยู่บล็อก
 
-นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะแทรกฟิลด์ Mail Merge Address Block โดยใช้ตัวสร้าง`InsertField` ใช้วิธีการสร้างฟิลด์
+นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะแทรกฟิลด์ Mail Merge Address Block โดยใช้ตัวสร้าง `InsertField` ใช้วิธีการสร้างฟิลด์
 
 ```csharp
 FieldAddressBlock field = (FieldAddressBlock) builder.InsertField(FieldType.FieldAddressBlock, false);
@@ -119,19 +121,24 @@ doc.Save(dataDir + "WorkingWithFields.InsertMailMergeAddressBlockFieldUsingDOM.d
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข แปลง และพิมพ์เอกสาร Word โดยใช้โปรแกรมแอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้ Aspose.Words ได้ฟรีหรือไม่?
- Aspose.Words เสนอรุ่นทดลองใช้งานฟรีที่คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/) หากต้องการใช้เป็นเวลานาน คุณอาจพิจารณาซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words เสนอรุ่นทดลองใช้งานฟรีที่คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)หากต้องการใช้เป็นเวลานาน คุณอาจพิจารณาซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### Mail Merge Address Block คืออะไร?
 บล็อกที่อยู่จดหมายเวียนเป็นเขตข้อมูลใน Word ที่ช่วยให้คุณสามารถแทรกข้อมูลที่อยู่จากแหล่งข้อมูล โดยจัดรูปแบบในลักษณะเฉพาะ ทำให้เหมาะอย่างยิ่งสำหรับการสร้างจดหมายหรือป้ายชื่อส่วนบุคคล
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้อย่างไร
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose และทีมงานด้านเทคนิคได้[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose และทีมงานด้านเทคนิคได้ [ที่นี่](https://forum-aspose.com/c/words/8).
 
 ### ฉันสามารถใช้ Aspose.Words เพื่อให้ส่วนอื่น ๆ ของเอกสาร Word เป็นอัตโนมัติได้หรือไม่
-แน่นอน! Aspose.Words สำหรับ .NET มีคุณสมบัติมากมายสำหรับการสร้าง แก้ไข แปลง และอื่นๆ ของเอกสารโดยอัตโนมัติ ลองดู[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+แน่นอน! Aspose.Words สำหรับ .NET มีคุณสมบัติมากมายสำหรับการสร้าง แก้ไข แปลง และอื่นๆ ของเอกสารโดยอัตโนมัติ ลองดู [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

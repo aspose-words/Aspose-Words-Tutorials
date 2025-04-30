@@ -1,14 +1,16 @@
 ---
-title: Mengamankan Dokumen dengan Teknik Perlindungan Canggih
-linktitle: Mengamankan Dokumen dengan Teknik Perlindungan Canggih
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Amankan dokumen Anda dengan perlindungan tingkat lanjut menggunakan Aspose.Words untuk Python. Pelajari cara menambahkan kata sandi, mengenkripsi konten, menerapkan tanda tangan digital, dan banyak lagi.
-weight: 16
-url: /id/python-net/document-combining-and-comparison/secure-documents-protection/
+"description": "Amankan dokumen Anda dengan perlindungan tingkat lanjut menggunakan Aspose.Words untuk Python. Pelajari cara menambahkan kata sandi, mengenkripsi konten, menerapkan tanda tangan digital, dan banyak lagi."
+"linktitle": "Mengamankan Dokumen dengan Teknik Perlindungan Canggih"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Mengamankan Dokumen dengan Teknik Perlindungan Canggih"
+"url": "/id/python-net/document-combining-and-comparison/secure-documents-protection/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengamankan Dokumen dengan Teknik Perlindungan Canggih
@@ -81,11 +83,11 @@ Aspose.Words untuk Python memungkinkan Anda mengamankan dokumen menggunakan tekn
 
 ### Bagaimana cara menginstal Aspose.Words untuk Python?
 
- Anda dapat menginstalnya menggunakan pip dengan menjalankan:`pip install aspose-words`.
+Anda dapat menginstalnya menggunakan pip dengan menjalankan: `pip install aspose-words`.
 
 ### Bisakah saya membatasi penyuntingan untuk kelompok tertentu?
 
- Ya, Anda dapat mengatur izin pengeditan untuk grup tertentu menggunakan`protection.set_editing_groups(["Editors"])`.
+Ya, Anda dapat mengatur izin pengeditan untuk grup tertentu menggunakan `protection.set_editing_groups(["Editors"])`.
 
 ### Pilihan enkripsi apa yang ditawarkan Aspose.Words?
 
@@ -98,9 +100,14 @@ Tanda tangan digital memastikan keaslian dan integritas dokumen, sehingga memper
 ### Bagaimana cara menghapus informasi sensitif secara permanen dari sebuah dokumen?
 
 Manfaatkan fitur redaksi untuk menghapus informasi sensitif secara permanen dari suatu dokumen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

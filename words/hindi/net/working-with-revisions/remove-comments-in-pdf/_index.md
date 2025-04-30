@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ फाइल में टिप्पणियाँ हटाएँ
-linktitle: पीडीएफ फाइल में टिप्पणियाँ हटाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF फ़ाइल से टिप्पणियां हटाने का तरीका जानें।
-weight: 10
-url: /hi/net/working-with-revisions/remove-comments-in-pdf/
+"description": "हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF फ़ाइल से टिप्पणियां हटाने का तरीका जानें।"
+"linktitle": "पीडीएफ फाइल में टिप्पणियाँ हटाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ फाइल में टिप्पणियाँ हटाएँ"
+"url": "/hi/net/working-with-revisions/remove-comments-in-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ फाइल में टिप्पणियाँ हटाएँ
@@ -21,7 +23,7 @@ url: /hi/net/working-with-revisions/remove-comments-in-pdf/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: कोई भी .NET-संगत IDE, जैसे कि Visual Studio.
 3. C# का बुनियादी ज्ञान: यदि आप C# प्रोग्रामिंग की मूल बातों से परिचित हैं तो यह मददगार होगा।
 4. टिप्पणियों वाला दस्तावेज़: हमें परीक्षण के लिए टिप्पणियों वाले एक वर्ड दस्तावेज़ (.docx) की आवश्यकता होगी।
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- इस स्निपेट में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ। हम नाम का एक दस्तावेज़ लोड कर रहे हैं`Revisions.docx`.
+इस स्निपेट में, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ। हम नाम का एक दस्तावेज़ लोड कर रहे हैं `Revisions.docx`.
 
 ## चरण 2: पीडीएफ में टिप्पणियाँ छिपाएँ
 
@@ -82,23 +84,28 @@ doc.Save(dataDir + "WorkingWithRevisions.RemoveCommentsInPdf.pdf");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### यदि मैं कुछ टिप्पणियाँ रखना चाहूँ, लेकिन अन्य को हटाना चाहूँ तो क्या होगा?
- आप सेट करने से पहले दस्तावेज़ में सीधे टिप्पणी नोड्स में हेरफेर करके चुनिंदा टिप्पणियों को छिपा सकते हैं`CommentDisplayMode`.
+### यदि मैं कुछ टिप्पणियाँ रखना चाहूँ, लेकिन अन्य हटाना चाहूँ तो क्या होगा?
+आप सेट करने से पहले दस्तावेज़ में सीधे टिप्पणी नोड्स में हेरफेर करके चुनिंदा टिप्पणियों को छिपा सकते हैं `CommentDisplayMode`.
 
 ### क्या मैं PDF के अलावा अन्य फ़ाइल स्वरूपों के लिए Aspose.Words का उपयोग कर सकता हूँ?
 बिल्कुल! Aspose.Words DOCX, TXT, HTML, और अधिक सहित फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
 
 ### क्या Aspose.Words के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### यदि मुझे Aspose.Words का उपयोग करते समय कोई समस्या आती है तो क्या होगा?
- आप यहां जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या के लिए सहायता हेतु हमसे संपर्क करें।
+आप यहां जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या के समाधान हेतु सहायता हेतु हमसे संपर्क करें।
 
 ### मैं Aspose.Words के लिए लाइसेंस कैसे खरीद सकता हूं?
- आप यहां से लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप यहां से लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Nhận biến
-linktitle: Nhận biến
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ Aspose.Words cho .NET. Học cách tải và trích xuất biến từ tài liệu Word với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-document-properties/get-variables/
+"description": "Làm chủ Aspose.Words cho .NET. Học cách tải và trích xuất biến từ tài liệu Word với hướng dẫn từng bước này."
+"linktitle": "Nhận biến"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận biến"
+"url": "/vi/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận biến
@@ -22,7 +24,7 @@ Xin chào, các bạn lập trình viên! Bạn đã sẵn sàng để khám ph�
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
 
 1. Kiến thức cơ bản về C# và .NET: Bạn nên nắm rõ những kiến thức cơ bản về C# và .NET framework.
-2.  Aspose.Words cho thư viện .NET: Tải xuống thư viện Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+2. Aspose.Words cho Thư viện .NET: Tải xuống thư viện Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 3. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình.
 
 ## Nhập không gian tên
@@ -54,14 +56,14 @@ Bây giờ, hãy đưa thư viện Aspose.Words vào dự án của chúng ta.
 
 ## Bước 2: Tải tài liệu Word
 
- Hãy tải một tài liệu Word vào ứng dụng của chúng tôi. Chúng tôi sẽ sử dụng một`Document` phản đối việc làm này.
+Hãy tải một tài liệu Word vào ứng dụng của chúng tôi. Chúng tôi sẽ sử dụng một `Document` phản đối việc làm này.
 
 1. Tạo một biến chuỗi mới để chứa đường dẫn đến thư mục tài liệu của bạn:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Tạo một`Document` đối tượng và tải tài liệu:
+2. Tạo một `Document` đối tượng và tải tài liệu:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
@@ -112,7 +114,7 @@ Và bạn đã có nó! Bạn đã sử dụng thành công Aspose.Words cho .NE
 Có, Aspose.Words hỗ trợ nhiều ngôn ngữ, nhưng trong hướng dẫn này, chúng tôi tập trung vào C#.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Words?
- Bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nhận được giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Có cách nào để thao tác với các định dạng tài liệu khác bằng Aspose.Words không?
 Chắc chắn rồi! Aspose.Words hỗ trợ nhiều định dạng khác nhau như DOC, DOCX, ODT, RTF, v.v.
@@ -121,11 +123,16 @@ Chắc chắn rồi! Aspose.Words hỗ trợ nhiều định dạng khác nhau n
 Có, bạn có thể tích hợp Aspose.Words vào các ứng dụng web, ứng dụng máy tính để bàn, v.v.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Kiểm tra các[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn chi tiết.
+Kiểm tra các [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm ví dụ và hướng dẫn chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

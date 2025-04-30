@@ -7,8 +7,11 @@ weight: 18
 url: /java/document-manipulation/using-document-ranges/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Document Ranges in Aspose.Words for Java
@@ -81,9 +84,13 @@ Absolutely! Document ranges are handy for extracting text from specific parts of
 
 You can download the Aspose.Words for Java library from the Aspose website [here](https://releases.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

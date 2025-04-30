@@ -1,78 +1,80 @@
 ---
-title: Frissítse a piszkos mezőket a Word-dokumentumban
-linktitle: Frissítse a piszkos mezőket a Word-dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Könnyedén frissítheti a szennyezett mezőket Word-dokumentumaiban az Aspose.Words for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval.
-weight: 10
-url: /hu/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Könnyedén frissítheted a Word-dokumentumaidban található módosítatlan mezőket az Aspose.Words for .NET segítségével ezzel az átfogó, lépésről lépésre haladó útmutatóval."
+"linktitle": "Piszkos mezők frissítése Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Piszkos mezők frissítése Word dokumentumban"
+"url": "/hu/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Frissítse a piszkos mezőket a Word-dokumentumban
+# Piszkos mezők frissítése Word dokumentumban
 
 
 ## Bevezetés
 
-Volt már olyan helyzetben, amikor egy Word-dokumentum tele van frissítésre szoruló mezőkkel, de a manuális elvégzése olyan érzés, mintha mezítláb futna le egy maratont? Nos, szerencséd van! Az Aspose.Words for .NET segítségével automatikusan frissítheti ezeket a mezőket, így rengeteg időt és erőfeszítést takaríthat meg. Ez az útmutató lépésről lépésre végigvezeti Önt a folyamaton, így biztosítva, hogy pillanatok alatt beletanuljon.
+Voltál már olyan helyzetben, hogy egy Word-dokumentumod tele van frissítendő mezőkkel, de manuálisan futtatni olyan, mintha mezítláb futnád le a maratont? Nos, szerencséd van! Az Aspose.Words for .NET segítségével automatikusan frissítheted ezeket a mezőket, ami rengeteg időt és energiát takarít meg. Ez az útmutató lépésről lépésre végigvezet a folyamaton, biztosítva, hogy pillanatok alatt elsajátítsd a használatát.
 
 ## Előfeltételek
 
-Mielőtt belevetnénk magunkat a finomságokba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belevágnánk a részletekbe, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1.  Aspose.Words for .NET: Győződjön meg arról, hogy a legújabb verzióval rendelkezik. Ha nem, akkor megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. .NET-keretrendszer: Az Aspose.Words-szel kompatibilis bármely verzió.
-3. C# alapismeretek: A C# programozás ismerete előnyt jelent.
-4. Word-dokumentum minta: Koszos mezőket tartalmazó dokumentum, amely frissítésre szorul.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy a legújabb verzióval rendelkezik. Ha nem, akkor... [töltsd le itt](https://releases.aspose.com/words/net/).
+2. .NET-keretrendszer: Bármely, az Aspose.Words-szel kompatibilis verzió.
+3. C# alapismeretek: A C# programozásban való jártasság előnyt jelent.
+4. Minta Word-dokumentum: Egy dokumentum, amely frissítésre szoruló, piszkos mezőket tartalmaz.
 
 ## Névterek importálása
 
-A kezdéshez feltétlenül importálja a szükséges névtereket a C# projektbe:
+Kezdésként importáld a szükséges névtereket a C# projektedbe:
 
 ```csharp
 using Aspose.Words;
 ```
 
-Bontsuk fel a folyamatot kezelhető lépésekre. Kövesd szorosan!
+Bontsuk le a folyamatot kezelhető lépésekre. Kövesd szorosan!
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először is állítsa be .NET-projektjét, és telepítse az Aspose.Words for .NET-et. Ha még nem telepítette, megteheti a NuGet Package Manager segítségével:
+Először is állítsd be a .NET projektedet, és telepítsd az Aspose.Words for .NET csomagot. Ha még nem telepítetted, megteheted a NuGet csomagkezelőn keresztül:
 
 ```bash
 Install-Package Aspose.Words
 ```
 
-## 2. lépés: Konfigurálja a betöltési beállításokat
+## 2. lépés: Betöltési beállítások konfigurálása
 
-Most állítsuk be a betöltési beállításokat a piszkos mezők automatikus frissítéséhez. Ez olyan, mintha beállítaná a GPS-t egy utazás előtt – ez elengedhetetlen az úticél zökkenőmentes eléréséhez.
+Most pedig állítsuk be a betöltési beállításokat úgy, hogy a piszkos mezők automatikusan frissüljenek. Ez olyan, mintha a GPS-t állítanánk be egy autós utazás előtt – elengedhetetlen a zökkenőmentes úti cél eléréséhez.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Konfigurálja a betöltési beállításokat a „Piszkos mezők frissítése” funkcióval
+// Betöltési beállítások konfigurálása a „Piszkos mezők frissítése” funkcióval
 LoadOptions loadOptions = new LoadOptions { UpdateDirtyFields = true };
 ```
 
-Itt megadjuk, hogy a dokumentumnak frissítenie kell a szennyezett mezőket a betöltéskor.
+Itt azt adjuk meg, hogy a dokumentumnak betöltéskor frissítenie kell a piszkos mezőket.
 
-## 3. lépés: Töltse be a dokumentumot
+## 3. lépés: A dokumentum betöltése
 
-Ezután töltse be a dokumentumot a beállított betöltési beállításokkal. Tekintsd ezt úgy, mint a csomagok összepakolását és az autóba való beszállást.
+Ezután töltse be a dokumentumot a beállított betöltési beállításokkal. Képzelje el ezt úgy, mintha bepakolna és beszállna az autójába.
 
 ```csharp
-// Töltse be a dokumentumot a szennyezett mezők frissítésével
+// A dokumentum betöltése a piszkos mezők frissítésével
 Document doc = new Document(dataDir + "Dirty field.docx", loadOptions);
 ```
 
-Ez a kódrészlet biztosítja, hogy a dokumentum betöltve legyen az összes piszkos mező frissítve.
+Ez a kódrészlet biztosítja, hogy a dokumentum minden frissített, érvénytelen mezővel betöltődjön.
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
-Végül mentse el a dokumentumot, hogy megbizonyosodjon arról, hogy az összes módosítást alkalmazza. Ez olyan, mintha elérnéd az úticélod és kipakolnád a csomagjaidat.
+Végül mentse el a dokumentumot, hogy minden módosítás érvénybe lépjen. Ez olyan, mintha elérné úti célját és kicsomagolná a bőröndjeit.
 
 ```csharp
 // Mentse el a dokumentumot
@@ -81,28 +83,33 @@ doc.Save(dataDir + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 
 ## Következtetés
 
-És megvan! Ön éppen most automatizálta a Word-dokumentum szennyezett mezőinek frissítését az Aspose.Words for .NET használatával. Nincs több kézi frissítés, nincs több fejfájás. Ezekkel az egyszerű lépésekkel időt takaríthat meg, és biztosíthatja a dokumentumok pontosságát. Készen állsz, hogy kipróbáld?
+És íme! Automatizáltad a Word-dokumentumban a piszkos mezők frissítésének folyamatát az Aspose.Words for .NET segítségével. Nincs több manuális frissítés, nincs több fejfájás. Ezekkel az egyszerű lépésekkel időt takaríthatsz meg, és biztosíthatod a dokumentumok pontosságát. Készen állsz, hogy kipróbáld?
 
 ## GYIK
 
-### Mik azok a piszkos mezők egy Word-dokumentumban?
+### Mik azok a piszkos mezők egy Word dokumentumban?
 A piszkos mezők olyan mezők, amelyeket frissítésre jelöltek meg, mert a megjelenített eredményeik elavultak.
 
 ### Miért fontos a piszkos mezők frissítése?
-A szennyezett mezők frissítése biztosítja, hogy a dokumentumban megjelenített információk naprakészek és pontosak legyenek, ami a szakmai dokumentumok szempontjából kulcsfontosságú.
+A piszkos mezők frissítése biztosítja, hogy a dokumentumban megjelenített információk naprakészek és pontosak legyenek, ami kulcsfontosságú a professzionális dokumentumok esetében.
 
 ### Frissíthetek bizonyos mezőket az összes piszkos mező helyett?
-Igen, az Aspose.Words rugalmasságot biztosít bizonyos mezők frissítéséhez, de az összes szennyezett mező frissítése gyakran egyszerűbb és kevésbé hibás.
+Igen, az Aspose.Words rugalmasságot biztosít bizonyos mezők frissítéséhez, de az összes „piszkos” mező frissítése gyakran egyszerűbb és kevésbé hibalehetőségű.
 
-### Kell Aspose.Words ehhez a feladathoz?
-Igen, az Aspose.Words egy hatékony könyvtár, amely leegyszerűsíti a Word-dokumentumok programozott kezelésének folyamatát.
+### Szükségem van az Aspose.Words-re ehhez a feladathoz?
+Igen, az Aspose.Words egy hatékony függvénykönyvtár, amely leegyszerűsíti a Word-dokumentumok programozott kezelésének folyamatát.
 
-### Hol találhatok további információt az Aspose.Words-ről?
- Nézze meg a[dokumentáció](https://reference.aspose.com/words/net/) részletes útmutatókért és példákért.
+### Hol találok további információt az Aspose.Words-ről?
+Nézd meg a [dokumentáció](https://reference.aspose.com/words/net/) részletes útmutatókért és példákért.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

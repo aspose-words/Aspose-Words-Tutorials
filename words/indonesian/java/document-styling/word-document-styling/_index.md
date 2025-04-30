@@ -1,20 +1,22 @@
 ---
-title: Penataan Dokumen Word
-linktitle: Penataan Dokumen Word
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menata dan memproses dokumen dengan Aspose.Words untuk Java! Ciptakan output yang memukau secara visual dengan contoh kode sumber.
-weight: 10
-url: /id/java/document-styling/word-document-styling/
+"description": "Pelajari cara menata dan memproses dokumen dengan Aspose.Words untuk Java! Ciptakan output yang memukau secara visual dengan contoh kode sumber."
+"linktitle": "Penataan Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Penataan Dokumen Word"
+"url": "/id/java/document-styling/word-document-styling/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Penataan Dokumen Word
 
 
-Jika Anda ingin meningkatkan tampilan visual dokumen Anda dan membuat hasil yang bergaya dan tampak profesional menggunakan Aspose.Words untuk Java, Anda telah datang ke tempat yang tepat. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses penataan dan pemrosesan dokumen menggunakan Aspose.Words untuk Java. Apakah Anda seorang pengembang Java yang berpengalaman atau baru memulai, Anda akan menemukan panduan ini bermanfaat dalam mengubah dokumen Anda menjadi karya seni yang diformat dengan baik dan menarik secara estetika.
+Jika Anda ingin meningkatkan tampilan visual dokumen Anda dan membuat hasil yang bergaya dan tampak profesional menggunakan Aspose.Words untuk Java, Anda telah datang ke tempat yang tepat. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses penataan dan pemrosesan dokumen menggunakan Aspose.Words untuk Java. Apakah Anda seorang pengembang Java berpengalaman atau baru memulai, Anda akan menemukan panduan ini bermanfaat dalam mengubah dokumen Anda menjadi karya seni yang diformat dengan baik dan menarik secara estetika.
 
 ## Perkenalan
 
@@ -24,7 +26,7 @@ Aspose.Words untuk Java adalah pustaka canggih yang memungkinkan pengembang Java
 
 ### 1. Menginstal Aspose.Words untuk Java
 
-Untuk memulai, kunjungi Rilis Aspose (https://releases.aspose.com/words/java/) dan unduh pustaka Aspose.Words untuk Java. Setelah mengunduh, ikuti petunjuk penginstalan untuk menyiapkan pustaka di lingkungan pengembangan Anda.
+Untuk memulai, kunjungi Aspose Releases (https://releases.aspose.com/words/java/) dan unduh pustaka Aspose.Words untuk Java. Setelah mengunduh, ikuti petunjuk penginstalan untuk menyiapkan pustaka di lingkungan pengembangan Anda.
 
 ### 2. Menyiapkan Lingkungan Pengembangan
 
@@ -382,9 +384,14 @@ Aspose.Words untuk Java adalah alat hebat yang memberdayakan pengembang Java unt
 
 ---
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

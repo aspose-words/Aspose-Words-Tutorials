@@ -1,14 +1,16 @@
 ---
-title: Xóa nội dung khỏi tài liệu trong Aspose.Words cho Java
-linktitle: Xóa nội dung khỏi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách xóa nội dung khỏi tài liệu Word trong Java bằng Aspose.Words for Java. Xóa ngắt trang, ngắt phần và nhiều hơn nữa. Tối ưu hóa quá trình xử lý tài liệu của bạn.
-weight: 16
-url: /vi/java/document-manipulation/removing-content-from-documents/
+"description": "Tìm hiểu cách xóa nội dung khỏi tài liệu Word trong Java bằng Aspose.Words for Java. Xóa ngắt trang, ngắt phần và nhiều hơn nữa. Tối ưu hóa quá trình xử lý tài liệu của bạn."
+"linktitle": "Xóa nội dung khỏi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Xóa nội dung khỏi tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/removing-content-from-documents/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa nội dung khỏi tài liệu trong Aspose.Words cho Java
@@ -70,7 +72,7 @@ for (Section section : doc.getSections()) {
 doc.save("Your Directory Path" + "RemoveContent.RemoveFooters.docx");
 ```
 
-Mã này xóa mọi loại chân trang (đầu tiên, chính và thậm chí) khỏi mỗi phần trong tài liệu.
+Mã này xóa mọi loại chân trang (đầu tiên, chính và chẵn) khỏi mỗi phần trong tài liệu.
 
 ## Xóa mục lục
 
@@ -82,7 +84,7 @@ removeTableOfContents(doc, 0);
 doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 ```
 
- Mã này định nghĩa một phương pháp`removeTableOfContents` xóa mục lục đã chỉ định khỏi tài liệu.
+Mã này định nghĩa một phương pháp `removeTableOfContents` xóa mục lục đã chỉ định khỏi tài liệu.
 
 
 ## Phần kết luận
@@ -95,7 +97,7 @@ Trong bài viết này, chúng tôi đã khám phá cách xóa nhiều loại n�
 
 Để xóa các ngắt trang cụ thể, hãy lặp lại các đoạn văn trong tài liệu của bạn và xóa thuộc tính ngắt trang cho các đoạn văn mong muốn.
 
-### Tôi có thể xóa cả tiêu đề và chân trang không?
+### Tôi có thể xóa cả phần đầu trang và phần chân trang không?
 
 Có, bạn có thể xóa cả phần đầu trang và phần chân trang khỏi tài liệu bằng cách làm theo cách tương tự như trong bài viết về phần chân trang.
 
@@ -106,9 +108,14 @@ Có, Aspose.Words for Java hỗ trợ các định dạng tài liệu Word mới
 ### Aspose.Words for Java còn cung cấp những tính năng xử lý tài liệu nào khác?
 
 Aspose.Words for Java cung cấp nhiều tính năng, bao gồm tạo tài liệu, chỉnh sửa, chuyển đổi và nhiều tính năng khác. Bạn có thể khám phá tài liệu của nó để biết thông tin chi tiết.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

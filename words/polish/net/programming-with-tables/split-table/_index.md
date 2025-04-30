@@ -1,14 +1,16 @@
 ---
-title: Podziel tabelę
-linktitle: Podziel tabelę
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dzielić tabele w dokumentach Word za pomocą Aspose.Words dla .NET. Nasz przewodnik krok po kroku sprawia, że zarządzanie tabelami jest łatwe i wydajne.
-weight: 10
-url: /pl/net/programming-with-tables/split-table/
+"description": "Dowiedz się, jak dzielić tabele w dokumentach Word za pomocą Aspose.Words dla .NET. Nasz przewodnik krok po kroku sprawia, że zarządzanie tabelami jest łatwe i wydajne."
+"linktitle": "Podziel tabelę"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Podziel tabelę"
+"url": "/pl/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podziel tabelę
@@ -21,7 +23,7 @@ Czy zdarzyło Ci się pracować z dużą tabelą w dokumencie Word i marzyć o p
 
 Zanim przejdziemy do samouczka, upewnij się, że masz następujące rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: skonfiguruj środowisko programistyczne obsługujące platformę .NET, np. Visual Studio.
 3. Przykładowy dokument: Przygotuj dokument Word (`Tables.docx`) z co najmniej jedną tabelą, aby zastosować operację podziału.
 
@@ -126,9 +128,14 @@ Tak, Aspose.Words dla .NET obsługuje również operacje na tabelach zagnieżdż
 
 ### Czy mogę zautomatyzować ten proces dla wielu dokumentów?
 Oczywiście! Możesz utworzyć skrypt lub aplikację, aby zautomatyzować proces dzielenia tabeli dla wielu dokumentów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

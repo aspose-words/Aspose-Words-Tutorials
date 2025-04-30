@@ -1,14 +1,16 @@
 ---
-title: การใช้ตัวเลือกโหลดใน Aspose.Words สำหรับ Java
-linktitle: การใช้ตัวเลือกโหลด
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: การเรียนรู้ตัวเลือกการโหลดใน Aspose.Words สำหรับ Java ปรับแต่งการโหลดเอกสาร จัดการการเข้ารหัส แปลงรูปร่าง ตั้งค่าเวอร์ชันของ Word และอื่นๆ เพื่อการประมวลผลเอกสาร Java ที่มีประสิทธิภาพ
-weight: 11
-url: /th/java/document-loading-and-saving/using-load-options/
+"description": "การเรียนรู้ตัวเลือกการโหลดใน Aspose.Words สำหรับ Java ปรับแต่งการโหลดเอกสาร จัดการการเข้ารหัส แปลงรูปร่าง ตั้งค่าเวอร์ชันของ Word และอื่นๆ เพื่อการประมวลผลเอกสาร Java ที่มีประสิทธิภาพ"
+"linktitle": "การใช้ตัวเลือกโหลด"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ตัวเลือกโหลดใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ตัวเลือกโหลดใน Aspose.Words สำหรับ Java
@@ -18,7 +20,7 @@ url: /th/java/document-loading-and-saving/using-load-options/
 
 ในบทช่วยสอนนี้ เราจะมาสำรวจวิธีการทำงานกับตัวเลือกการโหลดใน Aspose.Words สำหรับ Java ตัวเลือกการโหลดช่วยให้คุณปรับแต่งวิธีการโหลดและประมวลผลเอกสารได้ เราจะครอบคลุมสถานการณ์ต่างๆ เช่น การอัปเดตฟิลด์ที่ไม่ปลอดภัย การโหลดเอกสารที่เข้ารหัส การแปลงรูปร่างเป็น Office Math การตั้งค่าเวอร์ชัน MS Word การระบุโฟลเดอร์ชั่วคราว การจัดการคำเตือน และการแปลงเมตาไฟล์เป็น PNG มาเจาะลึกทีละขั้นตอนกันเลย
 
-## อัพเดทสนามสกปรก
+## อัพเดตสนามสกปรก
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- ตัวอย่างโค้ดนี้แสดงวิธีการอัปเดตฟิลด์ที่ไม่ปลอดภัยในเอกสาร`setUpdateDirtyFields(true)` วิธีนี้ใช้เพื่อให้แน่ใจว่าฟิลด์ที่สกปรกได้รับการอัปเดตในระหว่างการโหลดเอกสาร
+ตัวอย่างโค้ดนี้สาธิตวิธีการอัปเดตฟิลด์ที่ไม่ปลอดภัยในเอกสาร `setUpdateDirtyFields(true)` วิธีนี้ใช้เพื่อให้แน่ใจว่าฟิลด์ที่สกปรกได้รับการอัปเดตในระหว่างการโหลดเอกสาร
 
 ## โหลดเอกสารที่เข้ารหัส
 
@@ -40,7 +42,7 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- ที่นี่เราโหลดเอกสารที่เข้ารหัสโดยใช้รหัสผ่าน`LoadOptions` ผู้สร้างยอมรับรหัสผ่านเอกสาร และคุณยังสามารถระบุรหัสผ่านใหม่ได้เมื่อบันทึกเอกสารโดยใช้`OdtSaveOptions`.
+ที่นี่เราโหลดเอกสารที่เข้ารหัสโดยใช้รหัสผ่าน `LoadOptions` ผู้สร้างยอมรับรหัสผ่านเอกสาร และคุณยังสามารถระบุรหัสผ่านใหม่ได้เมื่อบันทึกเอกสารโดยใช้ `OdtSaveOptions`-
 
 ## แปลงรูปร่างเป็น Office Math
 
@@ -52,7 +54,7 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- โค้ดนี้สาธิตวิธีการแปลงรูปร่างเป็นวัตถุ Office Math ในระหว่างการโหลดเอกสาร`setConvertShapeToOfficeMath(true)`วิธีการนี้เปิดใช้การแปลงนี้
+โค้ดนี้สาธิตวิธีการแปลงรูปร่างเป็นวัตถุ Office Math ในระหว่างการโหลดเอกสาร `setConvertShapeToOfficeMath(true)` วิธีการนี้เปิดใช้การแปลงนี้
 
 ## ตั้งค่าเวอร์ชัน MS Word
 
@@ -67,7 +69,7 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- คุณสามารถระบุเวอร์ชัน MS Word สำหรับการโหลดเอกสารได้ ในตัวอย่างนี้ เราตั้งค่าเวอร์ชันเป็น Microsoft Word 2010 โดยใช้`setMswVersion`.
+คุณสามารถระบุเวอร์ชัน MS Word สำหรับการโหลดเอกสารได้ ในตัวอย่างนี้ เราตั้งค่าเวอร์ชันเป็น Microsoft Word 2010 โดยใช้ `setMswVersion`-
 
 ## ใช้โฟลเดอร์ชั่วคราว
 
@@ -81,7 +83,7 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- โดยการตั้งค่าโฟลเดอร์ชั่วคราวโดยใช้`setTempFolder`คุณสามารถควบคุมได้ว่าจะจัดเก็บไฟล์ชั่วคราวไว้ที่ไหนในระหว่างการประมวลผลเอกสาร
+โดยการตั้งค่าโฟลเดอร์ชั่วคราวโดยใช้ `setTempFolder`คุณสามารถควบคุมได้ว่าจะจัดเก็บไฟล์ชั่วคราวไว้ที่ไหนในระหว่างการประมวลผลเอกสาร
 
 ## คำเตือนการโทรกลับ
 
@@ -117,7 +119,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- หากต้องการแปลงไฟล์เมตา (เช่น WMF) เป็นภาพ PNG ในระหว่างการโหลดเอกสาร คุณสามารถใช้`setConvertMetafilesToPng(true)` วิธี.
+หากต้องการแปลงไฟล์เมตา (เช่น WMF) เป็นภาพ PNG ในระหว่างการโหลดเอกสาร คุณสามารถใช้ `setConvertMetafilesToPng(true)` วิธี.
 
 ## โค้ดต้นฉบับที่สมบูรณ์สำหรับการทำงานกับตัวเลือกโหลดใน Aspose.Words สำหรับ Java
 
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//พิมพ์คำเตือนและรายละเอียดที่เกิดขึ้นในระหว่างการโหลดเอกสาร
+		// พิมพ์คำเตือนและรายละเอียดที่เกิดขึ้นในระหว่างการโหลดเอกสาร
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -204,22 +206,27 @@ public void loadChm() throws Exception {
 
 ### ฉันจะจัดการคำเตือนในระหว่างการโหลดเอกสารได้อย่างไร
 
- คุณสามารถตั้งค่าการโทรกลับคำเตือนดังที่แสดงใน`warningCallback()` วิธีการข้างต้น ปรับแต่ง`DocumentLoadingWarningCallback` คลาสที่จะจัดการคำเตือนตามความต้องการของแอปพลิเคชันของคุณ
+คุณสามารถตั้งค่าการโทรกลับคำเตือนดังที่แสดงใน `warningCallback()` วิธีการข้างต้น ปรับแต่ง `DocumentLoadingWarningCallback` คลาสที่จะจัดการคำเตือนตามความต้องการของแอปพลิเคชันของคุณ
 
 ### ฉันสามารถแปลงรูปร่างเป็นวัตถุ Office Math เมื่อโหลดเอกสารได้หรือไม่
 
- ใช่ คุณสามารถแปลงรูปร่างเป็นวัตถุ Office Math ได้โดยใช้`loadOptions.setConvertShapeToOfficeMath(true)`.
+ใช่ คุณสามารถแปลงรูปร่างเป็นวัตถุ Office Math ได้โดยใช้ `loadOptions-setConvertShapeToOfficeMath(true)`.
 
 ### ฉันจะระบุเวอร์ชัน MS Word สำหรับการโหลดเอกสารได้อย่างไร
 
- ใช้`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` เพื่อระบุเวอร์ชัน MS Word สำหรับการโหลดเอกสาร
+ใช้ `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` เพื่อระบุเวอร์ชัน MS Word สำหรับการโหลดเอกสาร
 
-###  จุดประสงค์ของการ`setTempFolder` method in Load Options?
+### จุดประสงค์ของการ `setTempFolder` วิธีการในโหลดตัวเลือก?
 
- การ`setTempFolder`วิธีการนี้ช่วยให้คุณระบุโฟลเดอร์ที่เก็บไฟล์ชั่วคราวในระหว่างการประมวลผลเอกสาร
+การ `setTempFolder` วิธีการนี้ช่วยให้คุณระบุโฟลเดอร์ที่เก็บไฟล์ชั่วคราวในระหว่างการประมวลผลเอกสาร
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

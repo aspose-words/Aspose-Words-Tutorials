@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Yer İşaretlerine Erişim
-linktitle: Word Belgesinde Yer İşaretlerine Erişim
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki yer imlerine nasıl erişeceğinizi ve bunları nasıl düzenleyeceğinizi öğrenin.
-weight: 10
-url: /tr/net/programming-with-bookmarks/access-bookmarks/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki yer imlerine nasıl erişeceğinizi ve bunları nasıl düzenleyeceğinizi öğrenin."
+"linktitle": "Word Belgesinde Yer İşaretlerine Erişim"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Yer İşaretlerine Erişim"
+"url": "/tr/net/programming-with-bookmarks/access-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Yer İşaretlerine Erişim
@@ -21,7 +23,7 @@ Günümüzün dijital çağında, belge işleme görevlerini otomatikleştirmek 
 
 Adım adım kılavuza geçmeden önce ihtiyacınız olacak birkaç şey var:
 
--  Aspose.Words for .NET: Buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 - .NET Framework: Geliştirme makinenizde kurulu olduğundan emin olun.
 - Temel C# bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 - Word belgesi: Test etmek için yer imleri içeren bir Word belgeniz olduğundan emin olun.
@@ -47,11 +49,11 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 Açıklama:
 - `dataDir`: Bu değişken belge dizininize giden yolu içermelidir.
-- `Document doc = new Document(dataDir + "Bookmarks.docx");` : Bu satır, "Bookmarks.docx" adlı Word belgesini Bookmarks.docx'e yükler.`doc` nesne.
+- `Document doc = new Document(dataDir + "Bookmarks.docx");`: Bu satır "Bookmarks.docx" adlı Word belgesini yükler `doc` nesne.
 
 ## Adım 2: Dizin ile Yer İmi Erişimi
 
- Word belgesindeki yer imlerine dizinlerinden erişebilirsiniz. Yer imleri şurada saklanır:`Bookmarks` koleksiyonu`Range` içindeki nesne`Document`.
+Bir Word belgesindeki yer imlerine dizinlerine göre erişebilirsiniz. Yer imleri şurada saklanır: `Bookmarks` koleksiyonu `Range` içindeki nesne `Document`.
 
 ```csharp
 // Dizin bazında ilk yer imine erişim.
@@ -60,7 +62,7 @@ Bookmark bookmark1 = doc.Range.Bookmarks[0];
 
 Açıklama:
 - `doc.Range.Bookmarks[0]`: Bu, belgedeki ilk yer imine erişir.
-- `Bookmark bookmark1 = doc.Range.Bookmarks[0];` : Bu, erişilen yer imini şuraya depolar:`bookmark1` değişken.
+- `Bookmark bookmark1 = doc.Range.Bookmarks[0];`: Bu, erişilen yer imini şuraya depolar: `bookmark1` değişken.
 
 ## Adım 3: Yer İşaretine İsme Göre Erişim
 
@@ -73,7 +75,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];
 
 Açıklama:
 - `doc.Range.Bookmarks["MyBookmark3"]`: Bu, "MyBookmark3" adlı yer imine erişir.
-- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];` : Bu, erişilen yer imini şuraya depolar:`bookmark2` değişken.
+- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];`: Bu, erişilen yer imini şuraya depolar: `bookmark2` değişken.
 
 ## Adım 4: Yer İmi İçeriğini Düzenleyin
 
@@ -100,14 +102,14 @@ builder.EndBookmark("NewBookmark");
 ```
 
 Açıklama:
-- `DocumentBuilder builder = new DocumentBuilder(doc);` : Bu bir`DocumentBuilder` yüklenen belgeye sahip nesne.
+- `DocumentBuilder builder = new DocumentBuilder(doc);`: Bu bir `DocumentBuilder` yüklenen belgeye sahip nesne.
 - `builder.StartBookmark("NewBookmark");`: Bu, "NewBookmark" adında yeni bir yer imi başlatır.
 - `builder.Write("This is a new bookmark.");`: Bu, yer iminin içine "Bu yeni bir yer imi." metnini yazar.
-- `builder.EndBookmark("NewBookmark");`: "YeniYerİmi" adlı yer imi bu şekilde sonlandırılır.
+- `builder.EndBookmark("NewBookmark");`"YeniYerİmi" adlı yer imi bu şekilde sonlandırılır.
 
 ## Adım 6: Belgeyi Kaydedin
 
-Yer imlerinde değişiklik yaptıktan sonra, bu değişikliklerin kalıcı olması için belgeyi kaydetmeniz gerekir.
+Yer imlerinde değişiklik yaptıktan sonra, bu değişiklikleri kalıcı hale getirmek için belgeyi kaydetmeniz gerekir.
 
 ```csharp
 // Belgeyi kaydediyorum.
@@ -130,17 +132,22 @@ Word belgesinde yer imi, hızlı erişim veya referans için belgenin belirli bi
 Evet, ancak Aspose.Words kullanarak belgeyi yüklerken parolayı sağlamanız gerekecektir.
 
 ### Bir belgedeki tüm yer imlerini nasıl listeleyebilirim?
- Üzerinde yineleme yapabilirsiniz`Bookmarks` koleksiyonda`Range` nesnesi`Document`.
+Üzerinde yineleme yapabilirsiniz `Bookmarks` koleksiyonda `Range` nesnesi `Document`.
 
 ### Aspose.Words for .NET kullanarak bir yer imini silebilir miyim?
- Evet, bir yer imini kaldırmak için şu numarayı çağırabilirsiniz:`Remove` yer imi nesnesindeki yöntem.
+Evet, bir yer imini kaldırmak için şu numarayı çağırabilirsiniz: `Remove` yer imi nesnesindeki yöntem.
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?
 Evet, Aspose.Words for .NET, .NET Core ile uyumludur.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

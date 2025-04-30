@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/repeat-rows-on-subsequent-pages/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Repeat Rows On Subsequent Pages
@@ -126,9 +129,13 @@ Yes, you can modify existing tables by accessing them through the `Document` obj
 ### What other table formatting options are available in Aspose.Words for .NET?
 Aspose.Words for .NET offers a wide range of table formatting options, including cell merging, border settings, and table alignment. Check out the [documentation](https://reference.aspose.com/words/net/) for more details.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

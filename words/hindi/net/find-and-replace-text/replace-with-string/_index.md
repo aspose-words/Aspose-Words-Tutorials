@@ -1,14 +1,16 @@
 ---
-title: स्ट्रिंग से बदलें
-linktitle: स्ट्रिंग से बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्ट्रिंग्स को बदलना सीखें। दस्तावेज़ संपादन को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/find-and-replace-text/replace-with-string/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्ट्रिंग्स को बदलना सीखें। दस्तावेज़ संपादन को स्वचालित करने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "स्ट्रिंग से बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "स्ट्रिंग से बदलें"
+"url": "/hi/net/find-and-replace-text/replace-with-string/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्ट्रिंग से बदलें
@@ -22,7 +24,7 @@ url: /hi/net/find-and-replace-text/replace-with-string/
 
 इससे पहले कि हम कोड के साथ अपना हाथ गंदा करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई भी C# IDE.
 3. C# का बुनियादी ज्ञान: C# से कुछ परिचित होना उपयोगी होगा।
 
@@ -46,7 +48,7 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ निर्देशिका के पथ के साथ। यह हमारी फ़ाइलों के लिए होम बेस है।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ निर्देशिका के पथ के साथ। यह हमारी फ़ाइलों के लिए होम बेस है।
 
 ## चरण 2: दस्तावेज़ और बिल्डर को आरंभ करें
 
@@ -57,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ,`Document` उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ हम काम करने जा रहे हैं, और`DocumentBuilder` इसे संशोधित करने के लिए यह हमारा उपकरण है।
+यहाँ, `Document` उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ हम काम करने जा रहे हैं, और `DocumentBuilder` इसे संशोधित करने के लिए यह हमारा उपकरण है।
 
 ## चरण 3: प्रारंभिक सामग्री जोड़ें
 
@@ -77,7 +79,7 @@ builder.Writeln("sad mad bad");
 doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forward));
 ```
 
-`Replace`विधि सीधी है। हम खोजने के लिए शब्द, प्रतिस्थापन शब्द और खोज-और-प्रतिस्थापन ऑपरेशन के लिए विकल्प निर्दिष्ट करते हैं।
+The `Replace` विधि सीधी है। हम खोजने के लिए शब्द, प्रतिस्थापन शब्द और खोजने और बदलने के ऑपरेशन के लिए विकल्प निर्दिष्ट करते हैं।
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -87,7 +89,7 @@ doc.Range.Replace("sad", "bad", new FindReplaceOptions(FindReplaceDirection.Forw
 doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ```
 
- दस्तावेज़ को निर्दिष्ट निर्देशिका में नाम के साथ सहेजा गया है`FindAndReplace.ReplaceWithString.docx`. और देखिए! हमने सफलतापूर्वक खोज-और-प्रतिस्थापन ऑपरेशन पूरा कर लिया है।
+दस्तावेज़ को निर्दिष्ट निर्देशिका में नाम के साथ सहेजा गया है `FindAndReplace.ReplaceWithString.docx`. और देखिए! हमने सफलतापूर्वक खोज-और-प्रतिस्थापन ऑपरेशन पूरा कर लिया है।
 
 ## निष्कर्ष
 
@@ -96,10 +98,10 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं एक ही ऑपरेशन में कई शब्दों को प्रतिस्थापित कर सकता हूँ?
-हां, आप कई प्रतिस्थापन कार्यों को श्रृंखलाबद्ध कर सकते हैं या कई पैटर्नों को मिलाने और बदलने के लिए नियमित अभिव्यक्तियों का उपयोग कर सकते हैं।
+हां, आप एकाधिक प्रतिस्थापन संक्रियाओं को श्रृंखलाबद्ध कर सकते हैं या एकाधिक पैटर्नों को मिलाने और प्रतिस्थापित करने के लिए नियमित अभिव्यक्तियों का उपयोग कर सकते हैं।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसकी विशेषताओं का परीक्षण करने के लिए।
+Aspose.Words for .NET एक सशुल्क लाइब्रेरी है, लेकिन आप एक प्राप्त कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) इसकी विशेषताओं का परीक्षण करने के लिए।
 
 ### क्या मैं पाठ को स्वरूपित सामग्री से बदल सकता हूँ?
 बिल्कुल! Aspose.Words आपको टेक्स्ट को अलग-अलग फ़ॉन्ट, रंग और शैलियों सहित स्वरूपित सामग्री से बदलने की अनुमति देता है।
@@ -108,10 +110,15 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithString.docx");
 यदि शब्द नहीं मिलता है, तो प्रतिस्थापन ऑपरेशन से कुछ भी नहीं बदलेगा। कोई त्रुटि नहीं, बस कोई बदलाव नहीं।
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त करूं?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[असपोज़ समुदाय](https://forum.aspose.com/c/words/8) या यदि आवश्यक हो तो प्रीमियम सहायता खरीदें।
+आप यहाँ से सहायता प्राप्त कर सकते हैं [असपोज़ समुदाय](https://forum.aspose.com/c/words/8) या यदि आवश्यक हो तो प्रीमियम सहायता खरीदें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

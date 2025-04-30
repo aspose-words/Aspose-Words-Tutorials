@@ -1,14 +1,16 @@
 ---
-title: การแทรกวัตถุ Ole ในเอกสาร Word
-linktitle: การแทรกวัตถุ Ole ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกวัตถุ OLE ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณด้วยเนื้อหาที่ฝังไว้
-weight: 10
-url: /th/net/working-with-oleobjects-and-activex/insert-ole-object/
+"description": "เรียนรู้วิธีการแทรกวัตถุ OLE ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณด้วยเนื้อหาที่ฝังไว้"
+"linktitle": "การแทรกวัตถุ Ole ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกวัตถุ Ole ในเอกสาร Word"
+"url": "/th/net/working-with-oleobjects-and-activex/insert-ole-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกวัตถุ Ole ในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/working-with-oleobjects-and-activex/insert-ole-object/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือสภาพแวดล้อมการพัฒนา .NET อื่น ๆ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ถือว่ามีความคุ้นเคยกับการเขียนโปรแกรม C#
 
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: แทรกวัตถุ OLE
 
- ต่อไปคุณจะใช้`DocumentBuilder`คลาสที่จะแทรกอ็อบเจ็กต์ OLE ในที่นี้ เราใช้ไฟล์ HTML ที่อยู่ที่ "http://www.aspose.com" เป็นตัวอย่าง
+ต่อไปคุณจะใช้ `DocumentBuilder` คลาสที่จะแทรกอ็อบเจ็กต์ OLE ในที่นี้ เราใช้ไฟล์ HTML ที่ตั้งอยู่ที่ "http://www.aspose.com" เป็นตัวอย่าง
 
 ```csharp
 builder.InsertOleObject("http://www.aspose.com", "htmlfile", true, true, null);
@@ -71,19 +73,24 @@ doc.Save("Path_to_your_directory/WorkingWithOleObjectsAndActiveX.InsertOleObject
 คุณสามารถแทรกวัตถุ OLE ประเภทต่างๆ ได้ รวมถึงไฟล์ HTML สเปรดชีต Excel งานนำเสนอ PowerPoint และเนื้อหาที่เข้ากันได้กับ OLE อื่นๆ
 
 ### ฉันสามารถแสดงวัตถุ OLE เป็นไอคอนแทนเนื้อหาจริงได้หรือไม่
- ใช่ คุณสามารถเลือกแสดงวัตถุ OLE เป็นไอคอนได้โดยการตั้งค่า`asIcon` พารามิเตอร์ถึง`true`.
+ใช่ คุณสามารถเลือกแสดงวัตถุ OLE เป็นไอคอนได้โดยการตั้งค่า `asIcon` พารามิเตอร์ถึง `true`-
 
 ### สามารถเชื่อมโยงวัตถุ OLE เข้ากับไฟล์ต้นฉบับได้หรือไม่
- ใช่ โดยการตั้งค่า`isLinked` พารามิเตอร์ถึง`true`คุณสามารถเชื่อมโยงวัตถุ OLE เข้ากับไฟล์ต้นฉบับได้
+ใช่ โดยการตั้งค่า `isLinked` พารามิเตอร์ถึง `true`คุณสามารถเชื่อมโยงวัตถุ OLE เข้ากับไฟล์ต้นฉบับได้
 
 ### ฉันจะปรับแต่งไอคอนที่ใช้สำหรับวัตถุ OLE ได้อย่างไร
- คุณสามารถจัดทำไอคอนที่กำหนดเองได้โดยระบุ`Image` วัตถุเป็น`image` พารามิเตอร์ใน`InsertOleObject` วิธี.
+คุณสามารถจัดทำไอคอนที่กำหนดเองได้โดยระบุ `Image` วัตถุเป็น `image` พารามิเตอร์ใน `InsertOleObject` วิธี.
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

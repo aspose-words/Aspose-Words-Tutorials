@@ -7,8 +7,11 @@ weight: 24
 url: /java/document-manipulation/splitting-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Splitting Documents in Aspose.Words for Java
@@ -120,9 +123,13 @@ Absolutely. Aspose.Words for Java allows you to merge split documents seamlessly
 
 You can access and download Aspose.Words for Java from the Aspose website. Get started today by visiting [Aspose.Words for Java Download](https://releases.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

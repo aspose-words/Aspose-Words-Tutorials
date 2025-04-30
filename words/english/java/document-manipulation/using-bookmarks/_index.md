@@ -7,8 +7,11 @@ weight: 17
 url: /java/document-manipulation/using-bookmarks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Bookmarks in Aspose.Words for Java
@@ -121,9 +124,13 @@ Bookmarks are commonly used for generating table of contents, extracting specifi
 
 For detailed documentation and downloads, visit [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

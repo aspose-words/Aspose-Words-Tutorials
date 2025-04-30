@@ -1,27 +1,29 @@
 ---
-title: Přidat Odebrat komentář Odpovědět
-linktitle: Přidat Odebrat komentář Odpovědět
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat a odebírat odpovědi na komentáře v dokumentech aplikace Word pomocí Aspose.Words for .NET. Vylepšete spolupráci na dokumentech pomocí tohoto podrobného průvodce.
-weight: 10
-url: /cs/net/working-with-comments/add-remove-comment-reply/
+"description": "Naučte se, jak přidávat a odebírat odpovědi na komentáře v dokumentech Word pomocí Aspose.Words pro .NET. Vylepšete si spolupráci na dokumentech s tímto podrobným návodem."
+"linktitle": "Přidat Odebrat komentář Odpovědět"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přidat Odebrat komentář Odpovědět"
+"url": "/cs/net/working-with-comments/add-remove-comment-reply/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přidat Odebrat komentář Odpovědět
 
 ## Zavedení
 
-Práce s komentáři a jejich odpověďmi v dokumentech aplikace Word může výrazně zlepšit proces kontroly dokumentu. S Aspose.Words for .NET můžete tyto úkoly automatizovat, čímž se vaše pracovní postupy zefektivní a zefektivní. Tento tutoriál vás provede přidáváním a odebíráním odpovědí na komentáře a poskytne vám podrobného průvodce, jak tuto funkci zvládnout.
+Práce s komentáři a jejich odpověďmi v dokumentech Word může výrazně vylepšit proces recenzování dokumentů. S Aspose.Words pro .NET můžete tyto úkoly automatizovat, čímž zefektivníte a zjednodušíte svůj pracovní postup. Tento tutoriál vás provede přidáváním a odebíráním odpovědí na komentáře a poskytne vám podrobný návod, jak tuto funkci zvládnout.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET: Stáhněte a nainstalujte jej z[zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Stáhněte si a nainstalujte z [zde](https://releases.aspose.com/words/net/).
 - Vývojové prostředí: Visual Studio nebo jakékoli jiné IDE, které podporuje .NET.
 - Základní znalost C#: Znalost programování v C# je nezbytná.
 
@@ -36,32 +38,32 @@ using Aspose.Words;
 
 ## Krok 1: Načtěte dokument aplikace Word
 
-Nejprve musíte načíst dokument aplikace Word, který obsahuje komentáře, které chcete spravovat. V tomto příkladu předpokládáme, že máte ve svém adresáři dokument s názvem "Comments.docx".
+Nejprve je třeba načíst dokument aplikace Word, který obsahuje komentáře, které chcete spravovat. V tomto příkladu předpokládáme, že máte ve svém adresáři dokument s názvem „Comments.docx“.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
-## Krok 2: Přístup k prvnímu komentáři
+## Krok 2: Přejděte k prvnímu komentáři
 
-Dále otevřete první komentář v dokumentu. Tento komentář bude cílem pro přidávání a odstraňování odpovědí.
+Dále otevřete první komentář v dokumentu. Tento komentář bude cílem pro přidávání a odebírání odpovědí.
 
 ```csharp
 Comment comment = (Comment)doc.GetChild(NodeType.Comment, 0, true);
 ```
 
-## Krok 3: Odstraňte existující odpověď
+## Krok 3: Odstranění existující odpovědi
 
-Pokud již komentář obsahuje odpovědi, možná budete chtít jednu odstranit. Zde je návod, jak odstranit první odpověď na komentář:
+Pokud na komentář již existují odpovědi, můžete jednu z nich odstranit. Zde je návod, jak odstranit první odpověď na komentář:
 
 ```csharp
 comment.RemoveReply(comment.Replies[0]);
 ```
 
-## Krok 4: Přidejte novou odpověď
+## Krok 4: Přidat novou odpověď
 
-Nyní přidáme ke komentáři novou odpověď. Můžete zadat jméno autora, iniciály, datum a čas odpovědi a text odpovědi.
+Nyní přidejme novou odpověď ke komentáři. Můžete zadat jméno autora, iniciály, datum a čas odpovědi a text odpovědi.
 
 ```csharp
 comment.AddReply("John Doe", "JD", new DateTime(2017, 9, 25, 12, 15, 0), "New reply");
@@ -69,7 +71,7 @@ comment.AddReply("John Doe", "JD", new DateTime(2017, 9, 25, 12, 15, 0), "New re
 
 ## Krok 5: Uložte aktualizovaný dokument
 
-Nakonec upravený dokument uložte do svého adresáře.
+Nakonec uložte upravený dokument do svého adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithComments.AddRemoveCommentReply.docx");
@@ -77,32 +79,37 @@ doc.Save(dataDir + "WorkingWithComments.AddRemoveCommentReply.docx");
 
 ## Závěr
 
-Programová správa odpovědí na komentáře v dokumentech Word vám může ušetřit spoustu času a úsilí, zejména při práci s rozsáhlými recenzemi. Aspose.Words for .NET činí tento proces přímočarým a efektivním. Podle kroků popsaných v této příručce můžete snadno přidávat a odebírat odpovědi na komentáře a vylepšovat tak spolupráci na dokumentech.
+Programová správa odpovědí na komentáře v dokumentech Word vám může ušetřit spoustu času a úsilí, zejména při práci s rozsáhlými recenzemi. Aspose.Words pro .NET tento proces zjednodušuje a zefektivňuje. Dodržováním kroků uvedených v této příručce můžete snadno přidávat a odebírat odpovědi na komentáře, což vylepší vaše zkušenosti se spoluprací na dokumentech.
 
-## FAQ
+## Často kladené otázky
 
-### Jak přidám více odpovědí do jednoho komentáře?
+### Jak přidám více odpovědí k jednomu komentáři?
 
- K jednomu komentáři můžete přidat více odpovědí zavoláním na`AddReply` vícekrát na stejném objektu komentáře.
+K jednomu komentáři můžete přidat více odpovědí voláním funkce `AddReply` metodu vícekrát na stejném objektu komentáře.
 
-### Mohu upravit podrobnosti o autorovi pro každou odpověď?
+### Mohu si u každé odpovědi přizpůsobit údaje o autorovi?
 
- Ano, můžete zadat jméno autora, iniciály a datum a čas pro každou odpověď při použití`AddReply` metoda.
+Ano, při použití funkce můžete u každé odpovědi zadat jméno autora, iniciály a datum a čas `AddReply` metoda.
 
 ### Je možné odstranit všechny odpovědi z komentáře najednou?
 
-Chcete-li odstranit všechny odpovědi, musíte procházet`Replies` sbírejte komentáře a odstraňte každý jednotlivě.
+Chcete-li odstranit všechny odpovědi, musíte projít celý proces. `Replies` shromažďování komentářů a jejich odstraňování jednotlivě.
 
-### Mohu získat přístup ke komentářům v konkrétní části dokumentu?
+### Mohu mít přístup ke komentářům v určité části dokumentu?
 
- Ano, můžete procházet sekcemi dokumentu a přistupovat ke komentářům v každé sekci pomocí`GetChild` metoda.
+Ano, sekcemi dokumentu se můžete pohybovat a komentářům v každé sekci se můžete přistupovat pomocí `GetChild` metoda.
 
-### Podporuje Aspose.Words for .NET další funkce související s komentáři?
+### Podporuje Aspose.Words pro .NET i další funkce související s komentáři?
 
-Ano, Aspose.Words for .NET poskytuje rozsáhlou podporu pro různé funkce související s komentáři, včetně přidávání nových komentářů, nastavení vlastností komentářů a dalších.
+Ano, Aspose.Words pro .NET poskytuje rozsáhlou podporu pro různé funkce související s komentáři, včetně přidávání nových komentářů, nastavení vlastností komentářů a dalších.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

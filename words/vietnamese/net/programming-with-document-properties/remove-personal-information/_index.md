@@ -1,14 +1,16 @@
 ---
-title: Xóa thông tin cá nhân
-linktitle: Xóa thông tin cá nhân
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa thông tin cá nhân khỏi tài liệu bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý tài liệu.
-weight: 10
-url: /vi/net/programming-with-document-properties/remove-personal-information/
+"description": "Tìm hiểu cách xóa thông tin cá nhân khỏi tài liệu bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý tài liệu."
+"linktitle": "Xóa thông tin cá nhân"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa thông tin cá nhân"
+"url": "/vi/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa thông tin cá nhân
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ thấy mình chìm đắm trong các nhiệm v�
 
 Trước khi bắt tay vào thực hiện, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/words/net/) . Bạn cũng có thể lấy một[dùng thử miễn phí](https://releases.aspose.com/) nếu bạn mới bắt đầu.
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/words/net/). Bạn cũng có thể lấy một [dùng thử miễn phí](https://releases.aspose.com/) nếu bạn mới bắt đầu.
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác mà bạn thích.
 3. Kiến thức cơ bản về C#: Bạn không cần phải là một phù thủy, nhưng một chút quen thuộc sẽ giúp ích rất nhiều.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### 1.2 Tải Tài liệu
 
-Tiếp theo, chúng ta tải tài liệu vào chương trình của mình. Việc này đơn giản như việc trỏ đến tệp mà chúng ta muốn thao tác.
+Tiếp theo, chúng ta tải tài liệu vào chương trình của mình. Việc này đơn giản như việc trỏ đến tệp chúng ta muốn thao tác.
 
 ```csharp
 Document doc = new Document(dataDir + "Properties.docx");
@@ -82,7 +84,7 @@ Thông tin cá nhân bao gồm tên tác giả, thuộc tính tài liệu và c�
 
 ### Aspose.Words cho .NET có miễn phí không?
 
- Aspose.Words cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể dùng thử, nhưng bạn sẽ cần mua giấy phép để có đầy đủ chức năng. Kiểm tra[giá cả](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Words cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể dùng thử, nhưng bạn sẽ cần mua giấy phép để có đầy đủ chức năng. Kiểm tra [giá cả](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể sử dụng Aspose.Words cho các định dạng tài liệu khác không?
 
@@ -90,14 +92,19 @@ Chắc chắn rồi! Aspose.Words hỗ trợ nhiều định dạng khác nhau b
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
 
- Bạn có thể ghé thăm Aspose.Words[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
+Bạn có thể ghé thăm Aspose.Words [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp giải quyết mọi vấn đề hoặc thắc mắc mà bạn có thể gặp phải.
 
 ### Aspose.Words còn cung cấp những tính năng nào khác?
 
-Aspose.Words được tích hợp nhiều tính năng. Bạn có thể tạo, chỉnh sửa, chuyển đổi và thao tác tài liệu theo nhiều cách. Để biết danh sách đầy đủ, hãy xem[tài liệu](https://reference.aspose.com/words/net/).
+Aspose.Words được tích hợp nhiều tính năng. Bạn có thể tạo, chỉnh sửa, chuyển đổi và thao tác tài liệu theo nhiều cách. Để biết danh sách đầy đủ, hãy xem [tài liệu](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

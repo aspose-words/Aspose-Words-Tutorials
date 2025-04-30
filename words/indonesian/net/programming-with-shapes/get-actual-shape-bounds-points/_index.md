@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Titik Batas Bentuk Aktual
-linktitle: Dapatkan Titik Batas Bentuk Aktual
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Temukan cara mendapatkan titik batas bentuk yang sebenarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pelajari manipulasi bentuk yang tepat dengan panduan terperinci ini.
-weight: 10
-url: /id/net/programming-with-shapes/get-actual-shape-bounds-points/
+"description": "Temukan cara mendapatkan titik batas bentuk yang sebenarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pelajari manipulasi bentuk yang tepat dengan panduan terperinci ini."
+"linktitle": "Dapatkan Titik Batas Bentuk Aktual"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Titik Batas Bentuk Aktual"
+"url": "/id/net/programming-with-shapes/get-actual-shape-bounds-points/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Titik Batas Bentuk Aktual
@@ -21,7 +23,7 @@ Pernahkah Anda mencoba memanipulasi bentuk dalam dokumen Word dan bertanya-tanya
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -44,7 +46,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di sini, kita membuat sebuah instance dari`Document` kelas dan a`DocumentBuilder` untuk membantu kami memasukkan konten ke dalam dokumen.
+Di sini, kita membuat sebuah instance dari `Document` kelas dan a `DocumentBuilder` untuk membantu kami memasukkan konten ke dalam dokumen.
 
 ## Langkah 2: Masukkan Bentuk Gambar
 
@@ -54,7 +56,7 @@ Selanjutnya, mari masukkan gambar ke dalam dokumen. Gambar ini akan berfungsi se
 Shape shape = builder.InsertImage("YOUR DOCUMENT DIRECTORY/Transparent background logo.png");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` dengan jalur ke berkas gambar Anda. Baris ini menyisipkan gambar ke dalam dokumen sebagai bentuk.
+Mengganti `"YOUR DOCUMENT DIRECTORY/Transparent background logo.png"` dengan jalur ke berkas gambar Anda. Baris ini menyisipkan gambar ke dalam dokumen sebagai bentuk.
 
 ## Langkah 3: Buka Kunci Rasio Aspek
 
@@ -75,7 +77,7 @@ Console.Write("\nGets the actual bounds of the shape in points: ");
 Console.WriteLine(shape.GetShapeRenderer().BoundsInPoints);
 ```
 
- Itu`GetShapeRenderer` metode menyediakan perender untuk bentuk, dan`BoundsInPoints` memberi kita dimensi yang tepat.
+Itu `GetShapeRenderer` metode menyediakan perender untuk bentuk, dan `BoundsInPoints` memberi kita dimensi yang tepat.
 
 ## Kesimpulan
 
@@ -93,13 +95,18 @@ Tentu saja! Anda dapat menggunakan bentuk apa pun, seperti persegi panjang, ling
 Pastikan jalur berkas sudah benar dan gambar ada di lokasi tersebut. Periksa kembali kesalahan ketik atau referensi direktori yang salah.
 
 ### Bagaimana saya dapat mempertahankan rasio aspek bentuk saya?
-Mengatur`shape.AspectRatioLocked = true;`untuk mempertahankan proporsi asli saat mengubah ukuran.
+Mengatur `shape.AspectRatioLocked = true;` untuk mempertahankan proporsi asli saat mengubah ukuran.
 
 ### Mungkinkah untuk mendapatkan batasan dalam satuan selain poin?
 Ya, Anda dapat mengonversi poin ke satuan lain, seperti inci atau sentimeter, menggunakan faktor konversi yang tepat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

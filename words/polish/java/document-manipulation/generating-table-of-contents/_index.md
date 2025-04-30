@@ -1,14 +1,16 @@
 ---
-title: Generowanie spisu treści w Aspose.Words dla Java
-linktitle: Generowanie spisu treści
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words dla Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku.
-weight: 21
-url: /pl/java/document-manipulation/generating-table-of-contents/
+"description": "Dowiedz się, jak generować i dostosowywać spis treści (TOC) za pomocą Aspose.Words dla Java. Twórz uporządkowane i profesjonalne dokumenty bez wysiłku."
+"linktitle": "Generowanie spisu treści"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Generowanie spisu treści w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/generating-table-of-contents/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generowanie spisu treści w Aspose.Words dla Java
@@ -16,7 +18,7 @@ url: /pl/java/document-manipulation/generating-table-of-contents/
 
 ## Wprowadzenie do generowania spisu treści w Aspose.Words dla Java
 
-W tym samouczku przeprowadzimy Cię przez proces generowania spisu treści (TOC) przy użyciu Aspose.Words dla Java. TOC jest kluczową funkcją tworzenia uporządkowanych dokumentów. Omówimy, jak dostosować wygląd i układ spisu treści.
+tym samouczku przeprowadzimy Cię przez proces generowania spisu treści (TOC) przy użyciu Aspose.Words dla Java. TOC jest kluczową funkcją tworzenia uporządkowanych dokumentów. Omówimy, jak dostosować wygląd i układ spisu treści.
 
 ## Wymagania wstępne
 
@@ -78,7 +80,7 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
         // Usuń starą zakładkę.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        //Wstaw nową zakładkę w zmienionej pozycji (np. 50 jednostek na lewo).
+        // Wstaw nową zakładkę w zmienionej pozycji (np. 50 jednostek na lewo).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -97,7 +99,7 @@ W tym samouczku sprawdziliśmy, jak wygenerować spis treści (TOC) za pomocą A
 
 ### Jak zmienić formatowanie wpisów w spisie treści?
 
- Możesz modyfikować style powiązane z poziomami spisu treści za pomocą`doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, gdzie X jest poziomem spisu treści.
+Możesz modyfikować style powiązane z poziomami spisu treści za pomocą `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, gdzie X jest poziomem spisu treści.
 
 ### Jak mogę dodać więcej poziomów do spisu treści?
 
@@ -106,9 +108,14 @@ Aby dodać więcej poziomów do spisu treści, możesz zmodyfikować pole spisu 
 ### Czy mogę zmienić położenie tabulatorów dla konkretnych wpisów spisu treści?
 
 Tak, jak pokazano w przykładzie kodu powyżej, można zmienić położenie tabulatorów dla konkretnych wpisów spisu treści, przechodząc przez akapity i odpowiednio modyfikując położenia tabulatorów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

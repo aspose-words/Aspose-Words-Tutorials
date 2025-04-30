@@ -1,32 +1,34 @@
 ---
-title: حقول النموذج تعمل مع الخصائص
-linktitle: حقول النموذج تعمل مع الخصائص
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية التعامل مع حقول النماذج في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا المفصل خطوة بخطوة.
-weight: 10
-url: /ar/net/working-with-formfields/form-fields-work-with-properties/
+"description": "تعرف على كيفية التعامل مع حقول النماذج في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا المفصل خطوة بخطوة."
+"linktitle": "حقول النموذج تعمل مع الخصائص"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "حقول النموذج تعمل مع الخصائص"
+"url": "/ar/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # حقول النموذج تعمل مع الخصائص
 
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنغوص في عالم حقول النماذج الرائع في مستندات Word باستخدام Aspose.Words for .NET. إذا تساءلت يومًا عن كيفية التعامل مع حقول النماذج برمجيًا، فأنت على موعد مع متعة لا تُنسى. سنرشدك خلال كل شيء من إعداد مشروعك إلى تعديل حقول النماذج في مستند Word. بحلول نهاية هذه المقالة، ستصبح محترفًا في التعامل مع حقول النماذج!
+في هذا البرنامج التعليمي، نتعمق في عالم حقول النماذج في مستندات Word باستخدام Aspose.Words لـ .NET. إذا تساءلت يومًا عن كيفية التعامل مع حقول النماذج برمجيًا، فأنت على موعد مع متعة حقيقية. سنشرح لك كل شيء، من إعداد مشروعك إلى تعديل حقول النماذج في مستند Word. بنهاية هذه المقالة، ستصبح خبيرًا في حقول النماذج!
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، دعونا نتأكد من أن لديك كل ما تحتاجه:
--  Aspose.Words for .NET: تنزيل أحدث إصدار[هنا](https://releases.aspose.com/words/net/).
+- Aspose.Words لـ .NET: تنزيل أحدث إصدار [هنا](https://releases.aspose.com/words/net/).
 - بيئة تطوير .NET: يوصى باستخدام Visual Studio.
-- المعرفة الأساسية بلغة C#: إن فهم الأساسيات سيساعدك على المتابعة بسلاسة.
+- المعرفة الأساسية بلغة C#: فهم الأساسيات سوف يساعدك على المتابعة بسلاسة.
 
 ## استيراد مساحات الأسماء
 
-لاستخدام Aspose.Words في مشروعك، ستحتاج إلى استيراد المساحات الأساسية اللازمة. وإليك الطريقة:
+لاستخدام Aspose.Words في مشروعك، ستحتاج إلى استيراد مساحات الأسماء اللازمة. إليك الطريقة:
 
 ```csharp
 using Aspose.Words;
@@ -41,11 +43,11 @@ using Aspose.Words.Fields;
 
 ### الخطوة 1.1: إنشاء مشروع جديد
 
-افتح Visual Studio وأنشئ مشروع تطبيق وحدة تحكم جديد (.NET Core). أطلق عليه اسمًا ذا معنى مثل "FormFieldsExample".
+افتح Visual Studio وأنشئ مشروع تطبيق وحدة تحكم جديد (.NET Core). سمِّه اسمًا مميزًا، مثل "FormFieldsExample".
 
 ### الخطوة 1.2: تثبيت Aspose.Words لـ .NET
 
- يمكنك تثبيت Aspose.Words عبر NuGet Package Manager. انتقل إلى`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`، ثم ابحث عن "Aspose.Words". قم بتثبيت الحزمة.
+يمكنك تثبيت Aspose.Words عبر مدير حزم NuGet. انتقل إلى `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`ثم ابحث عن "Aspose.Words". ثبّت الحزمة.
 
 بدلاً من ذلك، يمكنك استخدام وحدة تحكم إدارة الحزم NuGet:
 
@@ -59,7 +61,7 @@ Install-Package Aspose.Words
 
 ### الخطوة 2.1: تحديد دليل المستندات
 
- قم بتعيين المسار إلى دليل المستند الخاص بك. استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي يتم تخزين مستندك فيه.
+عيّن المسار إلى دليل المستند. استبدل `"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي يتم تخزين مستندك فيه.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -79,7 +81,7 @@ Document doc = new Document(dataDir + "Form fields.docx");
 
 ### الخطوة 3.1: الوصول إلى حقل النموذج
 
-قم بالوصول إلى حقل النموذج الذي تريد تعديله. في هذا المثال، نقوم بالوصول إلى حقل النموذج الرابع في نطاق المستند.
+انتقل إلى حقل النموذج الذي تريد تعديله. في هذا المثال، سنصل إلى حقل النموذج الرابع ضمن نطاق المستند.
 
 ```csharp
 FormField formField = doc.Range.FormFields[3];
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### الخطوة 3.2: التحقق من نوع حقل النموذج
 
- تأكد من أن حقل النموذج من النوع`FieldFormTextInput` قبل تعديله.
+تأكد من أن حقل النموذج من النوع `FieldFormTextInput` قبل تعديله.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -96,9 +98,9 @@ if (formField.Type == FieldType.FieldFormTextInput)
 }
 ```
 
-## الخطوة 4: حفظ المستند المعدل
+## الخطوة 4: حفظ المستند المعدّل
 
-بعد إجراء التعديلات اللازمة، قم بحفظ المستند.
+بعد إجراء التعديلات اللازمة، احفظ المستند.
 
 احفظ المستند المعدل في الدليل المحدد.
 
@@ -108,9 +110,9 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ## خاتمة
 
-والآن، لقد نجحت في التعامل مع حقول النماذج في مستند Word باستخدام Aspose.Words for .NET. تسهل هذه المكتبة القوية أتمتة مستندات Word ومعالجتها برمجيًا، مما يوفر عليك ساعات لا حصر لها من العمل اليدوي.
+وها أنت ذا! لقد نجحت في معالجة حقول النماذج في مستند Word باستخدام Aspose.Words for .NET. تُسهّل هذه المكتبة القوية أتمتة مستندات Word ومعالجتها برمجيًا، مما يوفر عليك ساعات لا تُحصى من العمل اليدوي.
 
-سواء كنت تقوم بتطوير حل معقد لأتمتة المستندات أو كنت بحاجة فقط إلى إجراء تعديلات بسيطة، فإن Aspose.Words for .NET يوفر لك ما تحتاجه. استمر في تجربة خصائص حقول النماذج المختلفة وميزات المستندات للاستفادة الكاملة من قدرات هذه الأداة.
+سواءً كنت تُطوّر حلاً مُعقّداً لأتمتة المستندات أو تحتاج فقط إلى إجراء تعديلات بسيطة، فإن Aspose.Words for .NET يُلبّي احتياجاتك. استمر في تجربة خصائص حقول النماذج وميزات المستندات المختلفة للاستفادة الكاملة من إمكانيات هذه الأداة.
 
 ## الأسئلة الشائعة
 
@@ -118,19 +120,24 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 نعم، Aspose.Words for .NET متوافق مع أي لغة .NET، بما في ذلك VB.NET وF#.
 
 ### هل Aspose.Words لـ .NET مجاني؟
-يقدم Aspose.Words for .NET إصدارًا تجريبيًا مجانيًا، ولكن للحصول على الوظائف الكاملة، ستحتاج إلى شراء ترخيص. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+يقدم Aspose.Words لـ .NET نسخة تجريبية مجانية، ولكن للاستفادة الكاملة من الميزات، ستحتاج إلى شراء ترخيص. يمكنك الحصول على ترخيص مؤقت. [هنا](https://purchase.aspose.com/temporary-license/).
 
-### هل يمكنني معالجة عناصر أخرى في مستند Word باستخدام Aspose.Words لـ .NET؟
-بالتأكيد! يتيح لك Aspose.Words for .NET التعامل مع النصوص والصور والجداول والعديد من العناصر الأخرى داخل مستند Word.
+### هل يمكنني التعامل مع عناصر أخرى في مستند Word باستخدام Aspose.Words لـ .NET؟
+بالتأكيد! يتيح لك Aspose.Words for .NET التعامل مع النصوص والصور والجداول والعديد من العناصر الأخرى في مستند Word.
 
 ### كيف أحصل على الدعم لـ Aspose.Words لـ .NET؟
- للحصول على الدعم، يمكنك زيارة منتدى Aspose.Words[هنا](https://forum.aspose.com/c/words/8).
+للحصول على الدعم، يمكنك زيارة منتدى Aspose.Words [هنا](https://forum.aspose.com/c/words/8).
 
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Words لـ .NET؟
- يمكنك العثور على الوثائق الكاملة[هنا](https://reference.aspose.com/words/net/).
+يمكنك العثور على الوثائق الكاملة [هنا](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

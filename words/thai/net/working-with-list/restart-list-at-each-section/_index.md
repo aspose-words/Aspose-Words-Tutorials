@@ -1,14 +1,16 @@
 ---
-title: เริ่มรายการใหม่ในแต่ละส่วน
-linktitle: เริ่มรายการใหม่ในแต่ละส่วน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเริ่มรายการใหม่ในแต่ละส่วนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อจัดการรายการอย่างมีประสิทธิภาพ
-weight: 10
-url: /th/net/working-with-list/restart-list-at-each-section/
+"description": "เรียนรู้วิธีการเริ่มรายการใหม่ในแต่ละส่วนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อจัดการรายการอย่างมีประสิทธิภาพ"
+"linktitle": "เริ่มรายการใหม่ในแต่ละส่วน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เริ่มรายการใหม่ในแต่ละส่วน"
+"url": "/th/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เริ่มรายการใหม่ในแต่ละส่วน
@@ -21,10 +23,10 @@ url: /th/net/working-with-list/restart-list-at-each-section/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก[การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
+1. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก [การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
 2. สภาพแวดล้อม .NET: ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณด้วยการติดตั้ง .NET
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: แนะนำให้มีความคุ้นเคยกับภาษาการเขียนโปรแกรม C#
-4.  ใบอนุญาต Aspose: คุณสามารถเลือกได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
+4. ใบอนุญาต Aspose: คุณสามารถเลือกได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณไม่มี
 
 ## นำเข้าเนมสเปซ
 
@@ -57,7 +59,7 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 
 ## ขั้นตอนที่ 3: เข้าถึงรายการและตั้งค่าคุณสมบัติการรีสตาร์ท
 
-ดึงรายการที่คุณเพิ่งสร้างและตั้งค่า`IsRestartAtEachSection`ทรัพย์สินที่จะ`true`วิธีนี้จะทำให้แน่ใจว่ารายการจะเริ่มการนับหมายเลขใหม่ที่แต่ละส่วนใหม่
+ดึงรายการที่คุณเพิ่งสร้างและตั้งค่า `IsRestartAtEachSection` ทรัพย์สินที่จะ `true`วิธีนี้จะทำให้แน่ใจว่ารายการจะเริ่มการนับหมายเลขใหม่ที่แต่ละส่วนใหม่
 
 ```csharp
 List list = doc.Lists[0];
@@ -66,7 +68,7 @@ list.IsRestartAtEachSection = true;
 
 ## ขั้นตอนที่ 4: สร้างเครื่องมือสร้างเอกสารและเชื่อมโยงรายการ
 
- สร้าง`DocumentBuilder` เพื่อแทรกเนื้อหาลงในเอกสารและเชื่อมโยงกับรายการ
+สร้าง `DocumentBuilder` เพื่อแทรกเนื้อหาลงในเอกสารและเชื่อมโยงกับรายการ
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,19 +108,24 @@ doc.Save(dataDir + "WorkingWithList.RestartListAtEachSection.docx", options);
 ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณเริ่มรายการประเภทต่างๆ ใหม่ได้ รวมถึงรายการหัวข้อย่อยและรายการตัวเลข
 
 ### หากฉันต้องการกำหนดรูปแบบการนับเลขเองจะทำอย่างไร
- คุณสามารถปรับแต่งรูปแบบการนับเลขได้โดยการแก้ไข`ListTemplate` คุณสมบัติเมื่อสร้างรายการ
+คุณสามารถปรับแต่งรูปแบบการนับเลขได้โดยการแก้ไข `ListTemplate` คุณสมบัติเมื่อสร้างรายการ
 
 ### จำนวนรายการในรายการมีการจำกัดหรือไม่?
 ไม่ มีการจำกัดจำนวนรายการที่คุณสามารถมีในรายการโดยใช้ Aspose.Words สำหรับ .NET
 
-### ฉันสามารถใช้คุณสมบัตินี้ในรูปแบบเอกสารอื่นๆ เช่น PDF ได้หรือไม่
+### ฉันสามารถใช้ฟีเจอร์นี้ในรูปแบบเอกสารอื่นๆ เช่น PDF ได้หรือไม่
 ใช่ คุณสามารถใช้ Aspose.Words เพื่อแปลงเอกสาร Word เป็นรูปแบบอื่น เช่น PDF โดยยังคงโครงสร้างรายการไว้
 
 ### ฉันจะได้รับรุ่นทดลองใช้งาน Aspose.Words สำหรับ .NET ฟรีได้อย่างไร
- คุณสามารถรับการทดลองใช้ฟรีได้จาก[การเปิดตัว Aspose](https://releases.aspose.com/) หน้าหนังสือ.
+คุณสามารถรับการทดลองใช้ฟรีได้จาก [การเปิดตัว Aspose](https://releases.aspose.com/) หน้าหนังสือ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma
-linktitle: Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir Word belgesinde CustomXmlPart'a eşlenen tekrarlayan bir bölüm içeren bir tablonun nasıl oluşturulacağını öğrenin.
-weight: 10
-url: /tr/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesinde CustomXmlPart'a eşlenen tekrarlayan bir bölüm içeren bir tablonun nasıl oluşturulacağını öğrenin."
+"linktitle": "Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma"
+"url": "/tr/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma
@@ -20,7 +22,7 @@ Bu eğitimde, Aspose.Words for .NET kullanarak özel bir XML parçasına eşlene
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1.  Aspose.Words for .NET kütüphanesi yüklendi. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET kütüphanesi yüklendi. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/).
 2. C# ve XML hakkında temel bilgi.
 
 ## Ad Alanlarını İçe Aktar
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## Adım 1: Belgeyi ve DocumentBuilder'ı Başlatın
 
- İlk olarak yeni bir belge oluşturun ve başlatın`DocumentBuilder`:
+İlk olarak yeni bir belge oluşturun ve başlatın `DocumentBuilder`:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -57,7 +59,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
 
 ## Adım 3: Tablo Yapısını Oluşturun
 
- Sonra şunu kullanın:`DocumentBuilder` tablo başlığını oluşturmak için:
+Sonra şunu kullanın: `DocumentBuilder` tablo başlığını oluşturmak için:
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## Adım 4: Tekrarlayan Bölüm Oluşturun
 
- Bir tane oluştur`StructuredDocumentTag` (SDT) tekrar eden bölüm için ve bunu XML verilerine eşleyin:
+Bir tane oluştur `StructuredDocumentTag` (SDT) tekrar eden bölüm için ve bunu XML verilerine eşleyin:
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -126,9 +128,14 @@ Evet, özel XML parçanızı herhangi bir veri türüyle yapılandırabilir ve b
 
 ### Tekrarlanan bölüme nasıl daha fazla satır eklerim?
 Tekrarlanan bölüm, eşlenen XML yolundaki her öğe için satır yapısını otomatik olarak çoğaltır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

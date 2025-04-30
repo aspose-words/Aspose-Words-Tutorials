@@ -1,27 +1,29 @@
 ---
-title: 利用可能なフォントのリストを取得する
-linktitle: 利用可能なフォントのリストを取得する
-second_title: Aspose.Words ドキュメント処理 API
-description: この詳細なステップバイステップのチュートリアルでは、Aspose.Words for .NET を使用して使用可能なフォントのリストを取得する方法を説明します。フォント管理スキルを高めましょう。
-weight: 10
-url: /ja/net/working-with-fonts/get-list-of-available-fonts/
+"description": "この詳細なステップバイステップのチュートリアルでは、Aspose.Words for .NET を使用して利用可能なフォントのリストを取得する方法を学びます。フォント管理スキルを向上させましょう。"
+"linktitle": "利用可能なフォントのリストを取得する"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "利用可能なフォントのリストを取得する"
+"url": "/ja/net/working-with-fonts/get-list-of-available-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 利用可能なフォントのリストを取得する
 
 ## 導入
 
-Word 文書のフォント管理に苦労したことはありませんか? .NET 開発者なら、Aspose.Words for .NET が役に立ちます! この強力なライブラリは、Word 文書をプログラムで作成および操作するのに役立つだけでなく、広範なフォント管理機能も提供します。 このガイドでは、Aspose.Words for .NET を使用して使用可能なフォントのリストを取得する方法について、ステップ バイ ステップのチュートリアルで説明します。 理解しやすい手順に分解して、簡単に理解できるようにします。 では、早速始め、フォント管理を楽にしましょう!
+Word文書のフォント管理に苦労したことはありませんか？.NET開発者の方なら、Aspose.Words for .NETがあなたを救ってくれます！この強力なライブラリは、Word文書をプログラムで作成・操作するだけでなく、幅広いフォント管理機能も提供します。このガイドでは、Aspose.Words for .NETを使って利用可能なフォント一覧を取得する方法を、ステップバイステップで解説します。分かりやすい手順に分解しているので、スムーズに理解できます。さあ、早速使ってみて、フォント管理を楽にしましょう！
 
 ## 前提条件
 
 始める前に、いくつか必要なものがあります:
 
--  Aspose.Words for .NET: Aspose.Words for .NETライブラリがインストールされていることを確認してください。ここからダウンロードできます。[ここ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NETライブラリがインストールされていることを確認してください。こちらからダウンロードできます。 [ここ](https://releases。aspose.com/words/net/).
 - Visual Studio: この例では、開発環境として Visual Studio を使用します。
 - .NET Framework: マシンに .NET Framework がインストールされていることを確認します。
 - ドキュメント ディレクトリ: ドキュメントが保存されるディレクトリ パス。
@@ -37,9 +39,9 @@ using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-## ステップ1: フォント設定を初期化する
+## ステップ1：フォント設定を初期化する
 
-最初のステップは、フォント設定を初期化することです。これにより、ドキュメントのフォント ソースを管理できるようになります。
+最初のステップはフォント設定を初期化することです。これにより、ドキュメントのフォントソースを管理できるようになります。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -51,13 +53,13 @@ List<FontSourceBase> fontSources = new List<FontSourceBase>(fontSettings.GetFont
 
 ## ステップ2: ドキュメントディレクトリを定義する
 
-次に、ドキュメント ディレクトリへのパスを指定します。ここで Aspose.Words はフォントを検索します。
+次に、ドキュメントディレクトリへのパスを指定します。Aspose.Words はここでフォントを検索します。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: この文字列変数はフォントが保存されているディレクトリへのパスを保持します。`"YOUR DOCUMENT DIRECTORY"`実際のパスを使用します。
+- dataDir: この文字列変数はフォントが保存されているディレクトリへのパスを保持します。 `"YOUR DOCUMENT DIRECTORY"` 実際のパスを使用します。
 
 ## ステップ3: カスタムフォントフォルダを追加する
 
@@ -67,11 +69,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FolderFontSource folderFontSource = new FolderFontSource(dataDir, true);
 ```
 
-- FolderFontSource: このクラスはフォルダのフォントソースを表します。2番目のパラメータ(`true`) は、サブフォルダー内でフォントを再帰的に検索するかどうかを示します。
+- FolderFontSource: このクラスはフォルダのフォントソースを表します。2番目のパラメータ（`true`は、サブフォルダー内でフォントを再帰的に検索するかどうかを示します。
 
 ## ステップ4: フォントソースを更新する
 
-既存のフォント ソースのリストにカスタム フォント フォルダーを追加し、フォント設定を更新します。
+カスタム フォント フォルダーを既存のフォント ソースのリストに追加し、フォント設定を更新します。
 
 ```csharp
 fontSources.Add(folderFontSource);
@@ -96,11 +98,11 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 ```
 
 - GetAvailableFonts(): 更新されたリストの最初のフォント ソースから使用可能なフォントのリストを取得します。
--  fontInfo: のインスタンス`PhysicalFontInfo`各フォントの詳細が記載されています。
+- fontInfo: のインスタンス `PhysicalFontInfo` 各フォントの詳細が記載されています。
 
 ## 結論
 
-おめでとうございます! Aspose.Words for .NET を使用して、使用可能なフォントのリストを取得できました。このチュートリアルでは、フォント設定の初期化からフォントの詳細の表示まで、各手順を順を追って説明しました。この知識があれば、Word 文書内のフォントを簡単に管理できます。Aspose.Words for .NET は、文書処理機能を大幅に強化できる強力なツールです。ぜひ、開発プロセスをさらに効率化するためのその他の機能もご覧ください。
+おめでとうございます！Aspose.Words for .NET を使用して、利用可能なフォントの一覧を取得できました。このチュートリアルでは、フォント設定の初期化からフォントの詳細表示まで、各ステップを詳しく説明しました。これで、Word 文書内のフォント管理が簡単になります。Aspose.Words for .NET は、ドキュメント処理能力を大幅に向上させる強力なツールです。ぜひ、開発プロセスをさらに効率化するためのその他の機能もお試しください。
 
 ## よくある質問
 
@@ -111,16 +113,21 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 Visual Studio の NuGet パッケージ マネージャーで「Aspose.Words」を検索してインストールできます。
 
 ### 複数のカスタムフォントフォルダを追加することは可能ですか?
-はい、複数のカスタムフォントフォルダを作成して追加できます。`FolderFontSource`インスタンスを作成してフォント ソース リストに追加します。
+はい、複数のカスタムフォントフォルダを作成して追加できます。 `FolderFontSource` インスタンスを生成し、フォント ソース リストに追加します。
 
 ### 特定のフォント ソースからフォントの詳細を取得できますか?
-はい、フォントソースのインデックスを指定することで、任意のフォントソースからフォントの詳細を取得できます。`updatedFontSources`配列。
+はい、フォントソースのインデックスを指定することで、任意のフォントソースからフォントの詳細を取得できます。 `updatedFontSources` 配列。
 
 ### Aspose.Words for .NET はフォントの置換をサポートしていますか?
 はい、元のフォントが利用できない場合でもテキストが正しくレンダリングされるように、フォントの置換をサポートしています。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dọn dẹp các kiểu và danh sách không sử dụng
-linktitle: Dọn dẹp các kiểu và danh sách không sử dụng
-second_title: API xử lý tài liệu Aspose.Words
-description: Dọn dẹp tài liệu Word của bạn bằng Aspose.Words cho .NET bằng cách xóa các kiểu và danh sách không sử dụng. Thực hiện theo hướng dẫn từng bước này để sắp xếp hợp lý tài liệu của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/
+"description": "Dọn dẹp tài liệu Word của bạn bằng Aspose.Words cho .NET bằng cách xóa các kiểu và danh sách không sử dụng. Làm theo hướng dẫn từng bước này để sắp xếp hợp lý tài liệu của bạn một cách dễ dàng."
+"linktitle": "Dọn dẹp các kiểu và danh sách không sử dụng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Dọn dẹp các kiểu và danh sách không sử dụng"
+"url": "/vi/net/programming-with-document-options-and-settings/cleanup-unused-styles-and-lists/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dọn dẹp các kiểu và danh sách không sử dụng
@@ -22,7 +24,7 @@ Xin chào! Bạn đã bao giờ cảm thấy tài liệu Word của mình hơi l
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh:
 
 - Kiến thức cơ bản về C#: Bạn phải có kiến thức cơ bản về lập trình C#.
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Nếu chưa, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Nếu chưa, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ IDE nào tương thích với C# như Visual Studio.
 - Tài liệu mẫu: Một tài liệu Word có một số kiểu và danh sách chưa sử dụng cần dọn dẹp.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Cleaning;
 
 ## Bước 1: Tải tài liệu của bạn
 
-Bước đầu tiên là tải tài liệu bạn muốn dọn dẹp. Bạn sẽ cần chỉ định đường dẫn đến thư mục tài liệu của mình. Đây là nơi lưu trữ tệp Word của bạn.
+Bước đầu tiên là tải tài liệu bạn muốn dọn dẹp. Bạn sẽ cần chỉ định đường dẫn đến thư mục tài liệu của mình. Đây là nơi chứa tệp Word của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -96,20 +98,25 @@ Và thế là xong! Bạn đã dọn dẹp thành công tài liệu Word của m
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép bạn tạo, chỉnh sửa và chuyển đổi các tài liệu Word theo chương trình bằng C#.
 
 ### Tôi có thể xóa cả kiểu và danh sách không sử dụng cùng lúc không?
-Có, bạn có thể thiết lập cả hai`UnusedLists` Và`UnusedStyles` ĐẾN`true` trong`CleanupOptions` để loại bỏ cả hai.
+Có, bạn có thể thiết lập cả hai `UnusedLists` Và `UnusedStyles` ĐẾN `true` trong `CleanupOptions` để loại bỏ cả hai.
 
-### Có thể hoàn tác quá trình dọn dẹp không?
+### Có thể hoàn tác việc dọn dẹp được không?
 Không, sau khi quá trình dọn dẹp hoàn tất và tài liệu được lưu, bạn không thể hoàn tác các thay đổi. Luôn giữ bản sao lưu tài liệu gốc của bạn.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license) hoặc[mua một cái](https://purchase.aspose.com/buy).
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temphoặcary-license) or [mua một cái](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm thông tin và hỗ trợ ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ từ[Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ từ [Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

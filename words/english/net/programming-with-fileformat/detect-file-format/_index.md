@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-fileformat/detect-file-format/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect Document File Format
@@ -180,9 +183,13 @@ You can get a temporary license from the [Aspose Purchase](https://purchase.aspo
 The documentation for Aspose.Words can be found [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

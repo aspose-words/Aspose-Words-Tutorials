@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-styling/document-header-footer-styling/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Header and Footer Styling
@@ -130,9 +133,13 @@ In this extensive guide, we've explored the art of styling document headers and 
 Remember to practice these skills and experiment with different styles to find the best fit for your documents. Aspose.Words for Java empowers you to take full control of your document formatting, opening up endless possibilities for creating stunning content.
 
 So, go ahead and start crafting documents that leave a lasting impression. Your newfound expertise in document header and footer styling will undoubtedly set you on the path to document perfection.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

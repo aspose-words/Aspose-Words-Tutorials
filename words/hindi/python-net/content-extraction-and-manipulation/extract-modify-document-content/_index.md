@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में सामग्री निकालना और संशोधित करना
-linktitle: वर्ड दस्तावेज़ों में सामग्री निकालना और संशोधित करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सामग्री को निकालने और संशोधित करने का तरीका जानें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में सामग्री को निकालने और संशोधित करने का तरीका जानें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "वर्ड दस्तावेज़ों में सामग्री निकालना और संशोधित करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में सामग्री निकालना और संशोधित करना"
+"url": "/hi/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में सामग्री निकालना और संशोधित करना
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## पाठ बदलना
 
- पाठ को प्रतिस्थापित करने के लिए निम्न का उपयोग किया जा सकता है`replace` तरीका:
+पाठ को प्रतिस्थापित करने के लिए निम्न का उपयोग किया जा सकता है `replace` तरीका:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## छवियाँ जोड़ना और संशोधित करना
 
- छवियों को जोड़ा या प्रतिस्थापित किया जा सकता है`insert_image` तरीका:
+छवियों को जोड़ा या प्रतिस्थापित किया जा सकता है `insert_image` तरीका:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,7 +105,7 @@ header.get_paragraphs().add("Header content")
 
 ## हाइपरलिंक जोड़ना
 
- हाइपरलिंक को जोड़ा जा सकता है`insert_hyperlink` तरीका:
+हाइपरलिंक को का उपयोग करके जोड़ा जा सकता है `insert_hyperlink` तरीका:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
@@ -131,7 +133,7 @@ Aspose.Words for Python एक बहुमुखी लाइब्रेरी
 
 ### मैं Python के लिए Aspose.Words कैसे स्थापित कर सकता हूँ?
 
- Python के लिए Aspose.Words को स्थापित करने के लिए, कमांड का उपयोग करें`pip install aspose-words`.
+Python के लिए Aspose.Words को स्थापित करने के लिए, कमांड का उपयोग करें `pip install aspose-words`.
 
 ### क्या मैं इस लाइब्रेरी का उपयोग करके टेक्स्ट फ़ॉर्मेटिंग को संशोधित कर सकता हूँ?
 
@@ -139,18 +141,23 @@ Aspose.Words for Python एक बहुमुखी लाइब्रेरी
 
 ### क्या दस्तावेज़ के भीतर विशिष्ट पाठ को प्रतिस्थापित करना संभव है?
 
- निश्चित रूप से, आप इसका उपयोग कर सकते हैं`replace` दस्तावेज़ के भीतर विशिष्ट पाठ को प्रतिस्थापित करने की विधि।
+निश्चित रूप से, आप इसका उपयोग कर सकते हैं `replace` दस्तावेज़ के भीतर विशिष्ट पाठ को प्रतिस्थापित करने की विधि।
 
 ### क्या मैं अपने वर्ड दस्तावेज़ में हाइपरलिंक जोड़ सकता हूँ?
 
- बिल्कुल, आप अपने दस्तावेज़ में हाइपरलिंक जोड़ सकते हैं`insert_hyperlink` Aspose.Words द्वारा प्रदान की गई विधि.
+बिल्कुल, आप अपने दस्तावेज़ में हाइपरलिंक जोड़ सकते हैं `insert_hyperlink` Aspose.Words द्वारा प्रदान की गई विधि.
 
 ### मैं अपने वर्ड दस्तावेज़ों को अन्य किन प्रारूपों में परिवर्तित कर सकता हूँ?
 
 Aspose.Words विभिन्न प्रारूपों जैसे PDF, HTML, EPUB, आदि में रूपांतरण का समर्थन करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

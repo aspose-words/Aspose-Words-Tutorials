@@ -7,8 +7,11 @@ weight: 10
 url: /java/word-processing/handling-different-document-formats/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handling Different Document Formats
@@ -137,9 +140,13 @@ Absolutely! Aspose.Words for Java caters to a wide range of document processing 
 
 You can explore detailed documentation and API references for Aspose.Words for Java at [Aspose.Words for Java API References](https://reference.aspose.com/words/java/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

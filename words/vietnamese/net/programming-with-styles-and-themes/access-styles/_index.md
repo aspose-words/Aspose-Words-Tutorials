@@ -1,14 +1,16 @@
 ---
-title: Nhận Kiểu Tài Liệu Trong Word
-linktitle: Nhận Kiểu Tài Liệu Trong Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy kiểu tài liệu trong Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. Truy cập và quản lý kiểu theo chương trình trong các ứng dụng .NET của bạn.
-weight: 10
-url: /vi/net/programming-with-styles-and-themes/access-styles/
+"description": "Tìm hiểu cách lấy kiểu tài liệu trong Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. Truy cập và quản lý kiểu theo chương trình trong các ứng dụng .NET của bạn."
+"linktitle": "Nhận Kiểu Tài Liệu Trong Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận Kiểu Tài Liệu Trong Word"
+"url": "/vi/net/programming-with-styles-and-themes/access-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Kiểu Tài Liệu Trong Word
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để khám phá thế giới định dạng tài liệu 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Bạn cần cài đặt thư viện này trong môi trường .NET của mình. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần cài đặt thư viện này trong môi trường .NET của mình. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Kiến thức cơ bản về .NET: Sự quen thuộc với C# hoặc ngôn ngữ .NET khác sẽ giúp bạn hiểu các đoạn mã được cung cấp.
 3. Môi trường phát triển: Đảm bảo bạn có một IDE như Visual Studio được thiết lập để viết và thực thi mã .NET.
 
@@ -36,13 +38,13 @@ using System;
 
 ## Bước 1: Tạo một tài liệu mới
 
-Đầu tiên, bạn sẽ cần tạo một phiên bản của`Document` lớp. Lớp này đại diện cho tài liệu Word của bạn và cung cấp quyền truy cập vào nhiều thuộc tính tài liệu khác nhau, bao gồm cả kiểu.
+Đầu tiên, bạn sẽ cần tạo một phiên bản của `Document` lớp. Lớp này đại diện cho tài liệu Word của bạn và cung cấp quyền truy cập vào nhiều thuộc tính tài liệu, bao gồm cả kiểu.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Đây,`Document` là một lớp do Aspose.Words cung cấp cho phép bạn làm việc với các tài liệu Word theo cách lập trình.
+Đây, `Document` là một lớp do Aspose.Words cung cấp cho phép bạn làm việc với các tài liệu Word theo cách lập trình.
 
 ## Bước 2: Truy cập Bộ sưu tập Kiểu
 
@@ -52,7 +54,7 @@ Khi bạn có đối tượng tài liệu, bạn có thể truy cập bộ sưu 
 StyleCollection styles = doc.Styles;
 ```
 
-`StyleCollection` là một bộ sưu tập của`Style` các đối tượng. Mỗi`Style` đối tượng đại diện cho một kiểu duy nhất trong tài liệu.
+`StyleCollection` là một bộ sưu tập của `Style` các đối tượng. Mỗi `Style` đối tượng đại diện cho một phong cách duy nhất trong tài liệu.
 
 ## Bước 3: Lặp lại qua các kiểu
 
@@ -78,9 +80,9 @@ foreach (Style style in styles)
 
 Sau đây là phân tích về chức năng của đoạn mã này:
 
--  Khởi tạo`styleName`:Chúng ta bắt đầu với một chuỗi rỗng để xây dựng danh sách tên kiểu.
--  Lặp qua các kiểu:`foreach` vòng lặp lặp lại qua từng`Style` trong`styles` bộ sưu tập.
-- Cập nhật và Hiển thị`styleName` : Đối với mỗi phong cách, chúng tôi thêm tên của nó vào`styleName` và in ra.
+- Khởi tạo `styleName`:Chúng ta bắt đầu với một chuỗi rỗng để xây dựng danh sách tên kiểu.
+- Lặp lại các kiểu: `foreach` vòng lặp lặp lại qua từng `Style` trong `styles` bộ sưu tập.
+- Cập nhật và Hiển thị `styleName`: Đối với mỗi phong cách, chúng tôi thêm tên của nó vào `styleName` và in ra.
 
 ## Bước 4: Tùy chỉnh đầu ra
 
@@ -100,7 +102,7 @@ foreach (Style style in styles)
 }
 ```
 
- Trong ví dụ này, chúng tôi phân biệt giữa kiểu tích hợp và kiểu tùy chỉnh bằng cách kiểm tra`IsBuiltin` tài sản.
+Trong ví dụ này, chúng tôi phân biệt giữa kiểu tích hợp và kiểu tùy chỉnh bằng cách kiểm tra `IsBuiltin` tài sản.
 
 ## Phần kết luận
 
@@ -111,20 +113,25 @@ Truy cập và thao tác các kiểu trong tài liệu Word bằng Aspose.Words 
 ### Aspose.Words dành cho .NET là gì?
 Aspose.Words for .NET là thư viện cho phép bạn tạo, chỉnh sửa và thao tác các tài liệu Word theo chương trình trong các ứng dụng .NET.
 
-### Tôi có cần cài đặt bất kỳ thư viện nào khác để làm việc với Aspose.Words không?
+### Tôi có cần cài đặt bất kỳ thư viện nào khác để sử dụng Aspose.Words không?
 Không, Aspose.Words là một thư viện độc lập và không yêu cầu thêm thư viện nào để có chức năng cơ bản.
 
 ### Tôi có thể truy cập các kiểu từ một tài liệu Word đã có nội dung không?
 Có, bạn có thể truy cập và thao tác các kiểu trong tài liệu hiện có cũng như tài liệu mới tạo.
 
 ### Làm thế nào tôi có thể lọc các kiểu để chỉ hiển thị các loại cụ thể?
- Bạn có thể lọc các kiểu bằng cách kiểm tra các thuộc tính như`IsBuiltin` hoặc sử dụng logic tùy chỉnh dựa trên thuộc tính kiểu.
+Bạn có thể lọc các kiểu bằng cách kiểm tra các thuộc tính như `IsBuiltin` hoặc sử dụng logic tùy chỉnh dựa trên thuộc tính kiểu.
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Words cho .NET ở đâu?
- Bạn có thể khám phá thêm[đây](https://reference.aspose.com/words/net/).
+Bạn có thể khám phá thêm [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z rewizji w Aspose.Words dla Java
-linktitle: Korzystanie z wersji
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się efektywnie używać Aspose.Words for Java's revision. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
-weight: 22
-url: /pl/java/using-document-elements/using-revisions/
+"description": "Naucz się efektywnie używać Aspose.Words for Java's revision. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami."
+"linktitle": "Korzystanie z wersji"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z rewizji w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z rewizji w Aspose.Words dla Java
@@ -18,7 +20,7 @@ Jeśli jesteś programistą Java, który chce pracować z dokumentami i musi wdr
 
 ## 1. Wprowadzenie do Aspose.Words dla Javy
 
-Aspose.Words for Java to solidny interfejs API Java, który umożliwia tworzenie, modyfikowanie i manipulowanie dokumentami Word bez potrzeby korzystania z programu Microsoft Word. Jest on szczególnie przydatny, gdy trzeba wprowadzić poprawki w dokumentach.
+Aspose.Words for Java to solidny interfejs API Java, który umożliwia tworzenie, modyfikowanie i manipulowanie dokumentami Word bez potrzeby korzystania z programu Microsoft Word. Jest on szczególnie przydatny, gdy trzeba wdrożyć poprawki w dokumentach.
 
 ## 2. Konfigurowanie środowiska programistycznego
 
@@ -117,8 +119,8 @@ Assert.assertTrue(para.isDeleteRevision());
 doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //było Is.Empty
-// Zatrzymanie śledzenia rewizji spowoduje, że tekst ten będzie wyświetlany jako normalny tekst.
-// przypadku zmiany dokumentu, poprawki nie są uwzględniane.
+// Zatrzymanie śledzenia rewizji powoduje, że tekst ten pojawia się jako normalny tekst.
+// Zmiany w dokumencie nie są uwzględniane w obliczeniach.
 doc.stopTrackRevisions();
 // Zapisz dokument.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -129,7 +131,7 @@ doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
 
 ### 1. Czy mogę używać Aspose.Words for Java z innymi językami programowania?
 
-Nie, Aspose.Words for Java jest przeznaczony specjalnie do programowania w języku Java.
+Nie, Aspose.Words for Java jest narzędziem zaprojektowanym specjalnie do programowania w języku Java.
 
 ### 2. Czy Aspose.Words for Java jest kompatybilny ze wszystkimi wersjami programu Microsoft Word?
 
@@ -141,17 +143,22 @@ Tak, możesz użyć Aspose.Words for Java do śledzenia zmian w istniejących do
 
 ### 4. Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Words dla Java?
 
- Tak, musisz nabyć licencję, aby używać Aspose.Words for Java w swoich projektach. Możesz[uzyskaj dostęp do licencji tutaj](https://purchase.aspose.com/buy).
+Tak, musisz nabyć licencję, aby używać Aspose.Words for Java w swoich projektach. Możesz [uzyskaj dostęp do licencji tutaj](https://purchase.aspose.com/buy).
 
 ### 5. Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words dla Java?
 
- W przypadku pytań lub problemów możesz odwiedzić stronę[Aspose.Words dla forum wsparcia Java](https://forum.aspose.com/).
+W przypadku pytań lub problemów możesz odwiedzić stronę [Aspose.Words dla forum wsparcia Java](https://forum.aspose.com/).
 
 Zacznij korzystać z Aspose.Words for Java już dziś i usprawnij procesy zarządzania dokumentami.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

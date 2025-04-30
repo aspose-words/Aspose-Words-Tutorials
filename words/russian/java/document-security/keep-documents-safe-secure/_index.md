@@ -1,14 +1,16 @@
 ---
-title: Как сохранить ваши документы в безопасности
-linktitle: Как сохранить ваши документы в безопасности
-second_title: API обработки документов Java Aspose.Words
-description: Защитите свои документы с помощью Aspose.Words для Java. Шифруйте, защищайте и добавляйте цифровые подписи без усилий. Сохраните свои данные в безопасности.
-weight: 10
-url: /ru/java/document-security/keep-documents-safe-secure/
+"description": "Защитите свои документы с помощью Aspose.Words для Java. Шифруйте, защищайте и добавляйте цифровые подписи без усилий. Сохраните свои данные в безопасности."
+"linktitle": "Как сохранить ваши документы в безопасности"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Как сохранить ваши документы в безопасности"
+"url": "/ru/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Как сохранить ваши документы в безопасности
@@ -46,17 +48,17 @@ url: /ru/java/document-security/keep-documents-safe-secure/
 Прежде чем перейти к безопасности документов, давайте сначала познакомимся с Aspose.Words for Java. Это многофункциональная библиотека, которая позволяет разработчикам Java создавать, изменять и преобразовывать документы Word программным способом. Для начала:
 
 1. ### Загрузите Aspose.Words для Java:
-  Посетите[Aspose.Выпуски](https://releases.aspose.com/words/java/) и загрузите последнюю версию Aspose.Words для Java.
+ Посетите [Aspose.Выпуски](https://releases.aspose.com/words/java/) и загрузите последнюю версию Aspose.Words для Java.
 
 2. ### Установить библиотеку:
  После завершения загрузки следуйте инструкциям по установке, чтобы настроить Aspose.Words в вашем проекте Java.
 
 ## 4. Установка Aspose.Words для Java
 
-Установка Aspose.Words для Java — простой процесс. Выполните следующие простые шаги, чтобы добавить библиотеку в ваш проект Java:
+Установка Aspose.Words для Java — это простой процесс. Выполните следующие простые шаги, чтобы добавить библиотеку в ваш проект Java:
 
 1. ### Скачать:
-  Перейти к[Aspose.Выпуски](https://releases.aspose.com/words/java/) и загрузите пакет Aspose.Words для Java.
+ Перейти к [Aspose.Выпуски](https://releases.aspose.com/words/java/) и загрузите пакет Aspose.Words для Java.
 
 2. ### Извлекать:
  Извлеките загруженный пакет в удобное место на вашем компьютере.
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//Редактируемые диапазоны позволяют нам оставлять части защищенных документов открытыми для редактирования.
+// Редактируемые диапазоны позволяют нам оставлять части защищенных документов открытыми для редактирования.
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -168,7 +170,7 @@ doc.save("path/to/watermarked/document.docx");
 Aspose.Words для Java также позволяет конвертировать защищенные документы в различные форматы, такие как PDF или HTML:
 
 ```java
-//Загрузите защищенный документ
+// Загрузите защищенный документ
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // Конвертировать в PDF
@@ -198,9 +200,13 @@ doc.save("path/to/converted/document.html");
 
 ### Могу ли я настроить внешний вид водяных знаков?
 Да, вы можете полностью настроить внешний вид водяных знаков, включая текст, шрифт, цвет, размер и поворот.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

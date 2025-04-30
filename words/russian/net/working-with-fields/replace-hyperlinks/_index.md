@@ -1,14 +1,16 @@
 ---
-title: Заменить гиперссылки
-linktitle: Заменить гиперссылки
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как заменить гиперссылки в документах .NET с помощью Aspose.Words для эффективного управления документами и динамического обновления контента.
-weight: 10
-url: /ru/net/working-with-fields/replace-hyperlinks/
+"description": "Узнайте, как заменить гиперссылки в документах .NET с помощью Aspose.Words для эффективного управления документами и динамического обновления контента."
+"linktitle": "Заменить гиперссылки"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Заменить гиперссылки"
+"url": "/ru/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заменить гиперссылки
@@ -22,7 +24,7 @@ url: /ru/net/working-with-fields/replace-hyperlinks/
 Прежде чем приступить к замене гиперссылок с помощью Aspose.Words для .NET, убедитесь, что у вас есть следующее:
 
 - Visual Studio: установлена и настроена для разработки .NET.
--  Aspose.Words для .NET: Скачивается и упоминается в вашем проекте. Вы можете скачать его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Скачивается и упоминается в вашем проекте. Вы можете скачать его с [здесь](https://releases.aspose.com/words/net/).
 - Знакомство с C#: базовые знания для написания и компиляции кода.
 
 ## Импорт пространств имен
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 Начните с загрузки документа, в котором вы хотите заменить гиперссылки:
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- Заменять`"Hyperlinks.docx"` с путем к вашему фактическому документу.
+Заменять `"Hyperlinks.docx"` с путем к вашему фактическому документу.
 
 ## Шаг 2: Перебор полей
 
@@ -69,15 +71,15 @@ foreach (Field field in doc.Range.Fields)
 }
 ```
 
-## Шаг 3: Сохраните документ
+## Шаг 3: Сохраните документ.
 
 Наконец, сохраните измененный документ с замененными гиперссылками:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.ЗаменятьHyperlinks.docx");
 ```
 
- Заменять`"WorkingWithFields.ReplaceHyperlinks.docx"` с желаемым путем к выходному файлу.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` с желаемым путем к выходному файлу.
 
 ## Заключение
 
@@ -89,19 +91,23 @@ doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
 Да, Aspose.Words без проблем поддерживает сложные структуры, такие как таблицы, изображения и гиперссылки.
 
 ### Существует ли пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти документацию по Aspose.Words для .NET?
- Подробная документация доступна[здесь](https://reference.aspose.com/words/net/).
+Подробная документация доступна [здесь](https://reference.aspose.com/words/net/).
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
- Временные лицензии можно получить[здесь](https://purchase.aspose.com/temporary-license/).
+Временные лицензии можно получить [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Какие варианты поддержки доступны для Aspose.Words for .NET?
- Вы можете получить поддержку сообщества или отправить вопросы на[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку сообщества или отправить вопросы на [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

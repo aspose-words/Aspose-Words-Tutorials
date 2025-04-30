@@ -1,34 +1,36 @@
 ---
-title: Lägg till bokmärkt text i Word-dokument
-linktitle: Lägg till bokmärkt text i Word-dokument
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du lägger till bokmärkt text i ett Word-dokument med Aspose.Words för .NET med denna steg-för-steg-guide. Perfekt för utvecklare.
-weight: 10
-url: /sv/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Lär dig hur du lägger till bokmärkt text i ett Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare."
+"linktitle": "Lägg till bokmärkt text i Word-dokument"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Lägg till bokmärkt text i Word-dokument"
+"url": "/sv/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lägg till bokmärkt text i Word-dokument
 
 ## Introduktion
 
-Hej där! Har du någonsin försökt lägga till text från ett bokmärkt avsnitt i ett Word-dokument och tyckt att det var svårt? Du har tur! Denna handledning kommer att leda dig genom processen med Aspose.Words för .NET. Vi delar upp det i enkla steg så att du enkelt kan följa med. Låt oss dyka in och lägga till den bokmärkta texten som ett proffs!
+Hej! Har du någonsin försökt lägga till text från ett bokmärkt avsnitt i ett Word-dokument och tyckt att det var knepigt? Då har du tur! Den här handledningen guidar dig genom processen med Aspose.Words för .NET. Vi delar upp det i enkla steg så att du enkelt kan följa med. Nu kör vi och lägger till den bokmärkta texten som ett proffs!
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, låt oss se till att du har allt du behöver:
 
--  Aspose.Words för .NET: Se till att du har det installerat. Om inte, kan du[ladda ner den här](https://releases.aspose.com/words/net/).
-- Utvecklingsmiljö: Vilken .NET-utvecklingsmiljö som helst som Visual Studio.
-- Grundläggande kunskaper om C#: Att förstå grundläggande C#-programmeringskoncept kommer att hjälpa.
+- Aspose.Words för .NET: Se till att du har det installerat. Om inte, kan du [ladda ner den här](https://releases.aspose.com/words/net/).
+- Utvecklingsmiljö: Valfri .NET-utvecklingsmiljö som Visual Studio.
+- Grundläggande kunskaper i C#: Att förstå grundläggande C#-programmeringskoncept är till hjälp.
 - Word-dokument med bokmärken: Ett Word-dokument med bokmärken som vi använder för att lägga till text från.
 
-## Importera namnområden
+## Importera namnrymder
 
-Till att börja med, låt oss importera de nödvändiga namnrymden. Detta kommer att säkerställa att vi har alla verktyg vi behöver till hands.
+Först och främst, låt oss importera de nödvändiga namnrymderna. Detta säkerställer att vi har alla verktyg vi behöver nära till hands.
 
 ```csharp
 using System;
@@ -43,7 +45,7 @@ Låt oss dela upp exemplet i detaljerade steg.
 Okej, låt oss börja med att ladda vårt Word-dokument och initiera de variabler vi behöver.
 
 ```csharp
-// Ladda käll- och måldokumenten.
+// Ladda käll- och destinationsdokumenten.
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 
@@ -54,9 +56,9 @@ NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSo
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["YourBookmarkName"];
 ```
 
-## Steg 2: Identifiera start- och slutstyckena
+## Steg 2: Identifiera start- och slutstycken
 
-Låt oss nu hitta styckena där bokmärket börjar och slutar. Detta är avgörande eftersom vi måste hantera texten inom dessa ramar.
+Nu ska vi lokalisera styckena där bokmärket börjar och slutar. Detta är avgörande eftersom vi måste hantera texten inom dessa gränser.
 
 ```csharp
 // Detta är stycket som innehåller början av bokmärket.
@@ -69,38 +71,38 @@ if (startPara == null || endPara == null)
     throw new InvalidOperationException("Parent of the bookmark start or end is not a paragraph, cannot handle this scenario yet.");
 ```
 
-## Steg 3: Validera paragrafföräldrar
+## Steg 3: Validera styckeöverordnade
 
-Vi måste se till att start- och slutstyckena har samma förälder. Detta är ett enkelt scenario för att hålla saker rakt på sak.
+Vi måste se till att början och slutet av styckena har samma förälder. Detta är ett enkelt scenario för att hålla det enkelt.
 
 ```csharp
-// Begränsa oss till ett ganska enkelt scenario.
+// Begränsar oss till ett relativt enkelt scenario.
 if (startPara.ParentNode != endPara.ParentNode)
     throw new InvalidOperationException("Start and end paragraphs have different parents, cannot handle this scenario yet.");
 ```
 
 ## Steg 4: Identifiera noden som ska stoppas
 
-Därefter måste vi bestämma noden där vi ska sluta kopiera text. Detta kommer att vara noden omedelbart efter slutstycket.
+Sedan måste vi bestämma noden där vi ska sluta kopiera text. Detta blir noden omedelbart efter det avslutande stycket.
 
 ```csharp
-// Vi vill kopiera alla stycken från startstycket till (och inklusive) slutstycket,
-// därför är noden där vi stannar en efter slutstycket.
+// Vi vill kopiera alla stycken från början till (och inklusive) slutet.
+// därför är noden där vi stannar ett efter slutstycket.
 Node endNode = endPara.NextSibling;
 ```
 
-## Steg 5: Lägg till bokmärkt text till destinationsdokument
+## Steg 5: Lägg till bokmärkt text i måldokument
 
-Låt oss slutligen gå igenom noderna från startstycket till noden efter slutstycket och lägga till dem i måldokumentet.
+Slutligen, låt oss loopa igenom noderna från startstycket till noden efter slutstycket och lägga till dem i destinationsdokumentet.
 
 ```csharp
 for (Node curNode = startPara; curNode != endNode; curNode = curNode.NextSibling)
 {
-    // Detta skapar en kopia av den aktuella noden och importerar den (gör den giltig) i sammanhanget
-    // av destinationsdokumentet. Importering innebär att anpassa stilar och listidentifierare korrekt.
+    // Detta skapar en kopia av den aktuella noden och importerar den (gör den giltig) i kontexten.
+    // av destinationsdokumentet. Import innebär att justera format och listidentifierare korrekt.
     Node newNode = importer.ImportNode(curNode, true);
 
-    // Lägg till den importerade noden till måldokumentet.
+    // Lägg till den importerade noden i destinationsdokumentet.
     dstDoc.FirstSection.Body.AppendChild(newNode);
 }
 
@@ -110,27 +112,32 @@ dstDoc.Save("appended_document.docx");
 
 ## Slutsats
 
-Och där har du det! Du har framgångsrikt lagt till text från ett bokmärkt avsnitt i ett Word-dokument med Aspose.Words för .NET. Det här kraftfulla verktyget gör dokumentmanipulering till en lek, och nu har du ytterligare ett trick i rockärmen. Glad kodning!
+Och där har du det! Du har framgångsrikt lagt till text från ett bokmärkt avsnitt i ett Word-dokument med hjälp av Aspose.Words för .NET. Det här kraftfulla verktyget gör dokumenthantering till en barnlek, och nu har du ytterligare ett knep i rockärmen. Lycka till med kodningen!
 
-## FAQ's
+## Vanliga frågor
 
-### Kan jag lägga till text från flera bokmärken på en gång?
+### Kan jag lägga till text från flera bokmärken samtidigt?
 Ja, du kan upprepa processen för varje bokmärke och lägga till texten därefter.
 
-### Vad händer om start- och slutstyckena har olika föräldrar?
+### Vad händer om början och slutet av styckena har olika överordnade stycken?
 Det aktuella exemplet förutsätter att de har samma förälder. För olika föräldrar krävs en mer komplex hantering.
 
 ### Kan jag behålla den ursprungliga formateringen av den bifogade texten?
- Absolut! De`ImportFormatMode.KeepSourceFormatting` säkerställer att den ursprungliga formateringen bevaras.
+Absolut! Den `ImportFormatMode.KeepSourceFormatting` säkerställer att den ursprungliga formateringen bevaras.
 
-### Är det möjligt att lägga till text till en specifik position i måldokumentet?
+### Är det möjligt att lägga till text på en specifik position i destinationsdokumentet?
 Ja, du kan lägga till texten på valfri position genom att navigera till önskad nod i måldokumentet.
 
-### Vad händer om jag behöver lägga till text från ett bokmärke till ett nytt avsnitt?
+### Vad händer om jag behöver lägga till text från ett bokmärke i ett nytt avsnitt?
 Du kan skapa ett nytt avsnitt i måldokumentet och lägga till texten där.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

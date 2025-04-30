@@ -1,14 +1,16 @@
 ---
-title: Kỹ thuật nâng cao để nối và thêm tài liệu
-linktitle: Kỹ thuật nâng cao để nối và thêm tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu các kỹ thuật nâng cao để hợp nhất và thêm tài liệu bằng Aspose.Words trong Python. Hướng dẫn từng bước với các ví dụ về mã.
-weight: 10
-url: /vi/python-net/document-options-and-settings/join-append-documents/
+"description": "Tìm hiểu các kỹ thuật nâng cao để hợp nhất và thêm tài liệu bằng Aspose.Words trong Python. Hướng dẫn từng bước với các ví dụ về mã."
+"linktitle": "Kỹ thuật nâng cao để nối và thêm tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Kỹ thuật nâng cao để nối và thêm tài liệu"
+"url": "/vi/python-net/document-options-and-settings/join-append-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kỹ thuật nâng cao để nối và thêm tài liệu
@@ -24,7 +26,7 @@ Trước khi đi sâu vào các ví dụ về mã, hãy đảm bảo rằng bạ
 
 ## Cài đặt Aspose.Words cho Python
 
- Để bắt đầu, bạn cần cài đặt thư viện Aspose.Words cho Python. Bạn có thể cài đặt nó bằng cách sử dụng`pip` bằng cách chạy lệnh sau:
+Để bắt đầu, bạn cần cài đặt thư viện Aspose.Words cho Python. Bạn có thể cài đặt nó bằng cách sử dụng `pip` bằng cách chạy lệnh sau:
 
 ```bash
 pip install aspose-words
@@ -37,14 +39,14 @@ Việc hợp nhất nhiều tài liệu thành một là yêu cầu phổ biến
 ```python
 import aspose.words as aw
 
-# Load the source documents
+# Tải các tài liệu nguồn
 doc1 = aw.Document("document1.docx")
 doc2 = aw.Document("document2.docx")
 
-# Append the content of doc2 to doc1
+# Thêm nội dung của doc2 vào doc1
 doc1.append_document(doc2)
 
-# Save the merged document
+# Lưu tài liệu đã hợp nhất
 doc1.save("merged_document.docx")
 ```
 
@@ -55,14 +57,14 @@ Việc thêm nội dung vào một tài liệu hiện có cũng đơn giản nh�
 ```python
 import aspose.words as aw
 
-# Load the source document
+# Tải tài liệu nguồn
 existing_doc = aw.Document("existing_document.docx")
 new_content = aw.Document("new_content.docx")
 
-# Append new content to the existing document
+# Thêm nội dung mới vào tài liệu hiện có
 existing_doc.append_document(new_content)
 
-# Save the updated document
+# Lưu tài liệu đã cập nhật
 existing_doc.save("updated_document.docx")
 ```
 
@@ -122,10 +124,15 @@ Hoàn toàn có thể, bạn có thể đóng gói logic hợp nhất vào các 
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho Python ở đâu?
 
- Để biết thêm thông tin chi tiết, tài liệu và ví dụ, hãy truy cập[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/) trang.
+Để biết thêm thông tin chi tiết, tài liệu và ví dụ, hãy truy cập [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/) trang.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

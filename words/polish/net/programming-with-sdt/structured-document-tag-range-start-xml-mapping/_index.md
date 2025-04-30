@@ -1,14 +1,16 @@
 ---
-title: Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML
-linktitle: Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dynamicznie wiązać dane XML ze strukturalnymi znacznikami dokumentu w programie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
-weight: 10
-url: /pl/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/
+"description": "Dowiedz się, jak dynamicznie wiązać dane XML ze strukturalnymi znacznikami dokumentu w programie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku."
+"linktitle": "Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML"
+"url": "/pl/net/programming-with-sdt/structured-document-tag-range-start-xml-mapping/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML
@@ -21,7 +23,7 @@ Czy kiedykolwiek chciałeś dynamicznie wstawiać dane XML do dokumentu Word? C�
 
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące język C#.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest koniecznością.
 4. Dokument Word: przykładowy dokument Word do pracy.
@@ -42,7 +44,7 @@ using System.Text;
 Każdy projekt potrzebuje fundamentu, prawda? Tutaj ustawiamy ścieżkę do katalogu dokumentów.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -91,7 +93,7 @@ StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart
 
 Teraz czas powiązać naszą część XML z SDT. Ustawiając mapowanie XML, określamy, która część danych XML powinna być wyświetlana w SDT.
 
- XPath wskazuje na konkretny element w części XML, który chcemy wyświetlić. Tutaj wskazujemy na drugi`<text>` element w`<root>` element.
+XPath wskazuje na konkretny element w części XML, który chcemy wyświetlić. Tutaj wskazujemy na drugi `<text>` element w `<root>` element.
 
 ```csharp
 // Ustaw mapowanie dla naszego StructuredDocumentTag
@@ -116,7 +118,7 @@ masz to! Udało Ci się zmapować część XML do ustrukturyzowanego znacznika d
 Ustrukturyzowane znaczniki dokumentu, znane również jako kontrolki zawartości, to kontenery dla określonych typów zawartości w dokumentach Word. Mogą być używane do wiązania danych, ograniczania edycji lub prowadzenia użytkowników podczas tworzenia dokumentów.
 
 ### W jaki sposób mogę dynamicznie aktualizować zawartość części XML?
- Zawartość części XML można zaktualizować, modyfikując`xmlPartContent` string przed dodaniem go do dokumentu. Po prostu zaktualizuj string nowymi danymi i dodaj go do`CustomXmlParts` kolekcja.
+Zawartość części XML można zaktualizować, modyfikując `xmlPartContent` string przed dodaniem go do dokumentu. Po prostu zaktualizuj string nowymi danymi i dodaj go do `CustomXmlParts` kolekcja.
 
 ### Czy mogę powiązać wiele części XML z różnymi SDT w tym samym dokumencie?
 Tak, możesz powiązać wiele części XML z różnymi SDT w tym samym dokumencie. Każdy SDT może mieć swoją własną unikalną część XML i mapowanie XPath.
@@ -125,10 +127,15 @@ Tak, możesz powiązać wiele części XML z różnymi SDT w tym samym dokumenci
 Oczywiście! Możesz mapować złożone struktury XML na SDT, używając szczegółowych wyrażeń XPath, które dokładnie wskazują na pożądane elementy w części XML.
 
 ### Jak mogę usunąć część XML z dokumentu?
- Możesz usunąć część XML, wywołując`Remove` metoda na`CustomXmlParts` kolekcja, przekazywanie`xmlPartId` części XML, którą chcesz usunąć.
+Możesz usunąć część XML, wywołując `Remove` metoda na `CustomXmlParts` kolekcja, przekazywanie `xmlPartId` części XML, którą chcesz usunąć.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

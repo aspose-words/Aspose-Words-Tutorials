@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-footnote-and-endnote/set-endnote-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Endnote Options
@@ -99,9 +102,13 @@ You can customize endnote options such as numbering, position, and restart rules
 ### Where can I find more documentation on Aspose.Words for .NET?
 Detailed documentation is available on the [Aspose.Words for .NET Documentation](https://reference.aspose.com/words/net/) page.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

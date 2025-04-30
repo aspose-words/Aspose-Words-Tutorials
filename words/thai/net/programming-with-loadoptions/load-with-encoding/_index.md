@@ -1,14 +1,16 @@
 ---
-title: โหลดด้วยการเข้ารหัสในเอกสาร Word
-linktitle: โหลดด้วยการเข้ารหัสในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีโหลดเอกสาร Word ด้วยการเข้ารหัสเฉพาะโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมคำอธิบายโดยละเอียด
-weight: 10
-url: /th/net/programming-with-loadoptions/load-with-encoding/
+"description": "เรียนรู้วิธีโหลดเอกสาร Word ด้วยการเข้ารหัสเฉพาะโดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมคำอธิบายโดยละเอียด"
+"linktitle": "โหลดด้วยการเข้ารหัสในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โหลดด้วยการเข้ารหัสในเอกสาร Word"
+"url": "/th/net/programming-with-loadoptions/load-with-encoding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โหลดด้วยการเข้ารหัสในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-loadoptions/load-with-encoding/
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลด](https://releases.aspose.com/words/net/) เวอร์ชันล่าสุด.
+1. Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลด](https://releases.aspose.com/words/net/) เวอร์ชันล่าสุด.
 2. สภาพแวดล้อมการพัฒนา .NET: Visual Studio ทำงานได้สมบูรณ์แบบ
 3. เอกสาร Word: ตรวจสอบให้แน่ใจว่ามีการเข้ารหัสในรูปแบบที่คุณกำลังใช้งาน เช่น UTF-7
 
@@ -35,7 +37,7 @@ using System.Text;
 using Aspose.Words;
 ```
 
-มาแบ่งเนื้อหาออกเป็นชิ้นเล็กๆ กัน เมื่ออ่านคู่มือนี้จบ คุณจะมีเอกสาร Word ที่มีการเข้ารหัสตามที่คุณเลือก
+มาแบ่งเนื้อหาออกเป็นชิ้นเล็กๆ กัน เมื่ออ่านคู่มือนี้จบ คุณจะมีเอกสาร Word ที่มีการเข้ารหัสตามต้องการ
 
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.UTF7 };
 ```
 
- ที่นี่เราจะสร้าง`LoadOptions` วัตถุและการตั้งค่าของมัน`Encoding`ทรัพย์สินที่จะ`Encoding.UTF7`ซึ่งจะแจ้งให้ Aspose.Words ใช้การเข้ารหัส UTF-7 เมื่อโหลดเอกสาร
+ที่นี่เราจะสร้าง `LoadOptions` วัตถุและการตั้งค่าของมัน `Encoding` ทรัพย์สินที่จะ `Encoding.UTF7`ซึ่งจะแจ้งให้ Aspose.Words ใช้การเข้ารหัส UTF-7 เมื่อโหลดเอกสาร
 
 ## ขั้นตอนที่ 4: โหลดเอกสาร
 
@@ -84,20 +86,25 @@ Document doc = new Document(dataDir + "Encoded in UTF-7.txt", loadOptions);
 UTF-7 (7-bit Unicode Transformation Format) เป็นการเข้ารหัสที่ออกแบบมาเพื่อแสดงข้อความ Unicode โดยใช้ลำดับอักขระ ASCII
 
 ### ฉันสามารถใช้การเข้ารหัสอื่นกับ Aspose.Words ได้หรือไม่
- ใช่ Aspose.Words รองรับการเข้ารหัสต่างๆ เช่น UTF-8, UTF-16 และอื่นๆ เพียงตั้งค่า`Encoding` ทรัพย์สินใน`LoadOptions` ตามนั้นครับ
+ใช่ Aspose.Words รองรับการเข้ารหัสต่างๆ เช่น UTF-8, UTF-16 และอื่นๆ เพียงตั้งค่า `Encoding` ทรัพย์สินใน `LoadOptions` ตามนั้นครับ
 
 ### Aspose.Words ใช้ได้ฟรีไหม?
- อาโปเซ่.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/)หากต้องการคุณสมบัติครบถ้วน คุณจะต้องซื้อใบอนุญาตจาก[Aspose](https://purchase.aspose.com/buy).
+Aspose.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)หากต้องการคุณสมบัติครบถ้วน คุณจะต้องซื้อใบอนุญาตจาก [อาโปเซ่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถโหลดเอกสารจากสตรีมแทนเส้นทางไฟล์ได้หรือไม่
- แน่นอน! Aspose.Words รองรับการโหลดเอกสารจากสตรีม คุณเพียงแค่ต้องส่งสตรีมและโหลดตัวเลือกไปยัง`Document` ผู้สร้าง
+แน่นอน! Aspose.Words รองรับการโหลดเอกสารจากสตรีม คุณเพียงแค่ต้องส่งสตรีมและโหลดตัวเลือกไปยัง `Document` ผู้สร้าง
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือจากชุมชนและทีมสนับสนุน Aspose
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือจากชุมชนและทีมสนับสนุน Aspose
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,24 +1,26 @@
 ---
-title: Použití možností načtení v Aspose.Words pro Java
-linktitle: Pomocí možností načíst
-second_title: Aspose.Words Java Document Processing API
-description: Zvládnutí možností zatížení v Aspose.Words pro Java. Přizpůsobte si načítání dokumentů, zpracujte šifrování, převádějte tvary, nastavte verze aplikace Word a další pro efektivní zpracování dokumentů Java.
-weight: 11
-url: /cs/java/document-loading-and-saving/using-load-options/
+"description": "Zvládnutí možností načítání v Aspose.Words pro Javu. Přizpůsobení načítání dokumentů, zpracování šifrování, převod tvarů, nastavení verzí Wordu a další pro efektivní zpracování dokumentů v Javě."
+"linktitle": "Použití možností načítání"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Použití možností načítání v Aspose.Words pro Javu"
+"url": "/cs/java/document-loading-and-saving/using-load-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití možností načtení v Aspose.Words pro Java
+# Použití možností načítání v Aspose.Words pro Javu
 
 
-## Úvod do práce s možnostmi načtení v Aspose.Words pro Javu
+## Úvod do práce s možnostmi načítání v Aspose.Words pro Javu
 
-tomto tutoriálu prozkoumáme, jak pracovat s možnostmi načtení v Aspose.Words pro Java. Možnosti načtení umožňují upravit způsob načítání a zpracování dokumentů. Pokryjeme různé scénáře, včetně aktualizace špinavých polí, načítání šifrovaných dokumentů, převod tvarů do Office Math, nastavení verze MS Word, určení dočasné složky, zpracování varování a převod metasouborů do PNG. Pojďme se ponořit krok za krokem.
+V tomto tutoriálu se podíváme na práci s možnostmi načítání v Aspose.Words pro Javu. Možnosti načítání vám umožňují přizpůsobit způsob načítání a zpracování dokumentů. Probereme různé scénáře, včetně aktualizace neplatných polí, načítání šifrovaných dokumentů, převodu tvarů do formátu Office Math, nastavení verze MS Word, určení dočasné složky, zpracování varování a převodu metasouborů do formátu PNG. Pojďme se do toho ponořit krok za krokem.
 
-## Aktualizujte špinavá pole
+## Aktualizace nečistých polí
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -28,7 +30,7 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
- Tento fragment kódu ukazuje, jak aktualizovat špinavá pole v dokumentu. The`setUpdateDirtyFields(true)` Tato metoda se používá k zajištění aktualizace nečistých polí během načítání dokumentu.
+Tento úryvek kódu ukazuje, jak aktualizovat neplatná pole v dokumentu. `setUpdateDirtyFields(true)` Metoda se používá k zajištění aktualizace nečistých polí během načítání dokumentu.
 
 ## Načíst šifrovaný dokument
 
@@ -40,9 +42,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
- Zde načteme zašifrovaný dokument pomocí hesla. The`LoadOptions` konstruktor přijímá heslo dokumentu a můžete také zadat nové heslo při ukládání dokumentu pomocí`OdtSaveOptions`.
+Zde načteme zašifrovaný dokument pomocí hesla. `LoadOptions` konstruktor přijímá heslo dokumentu a při ukládání dokumentu můžete také zadat nové heslo pomocí `OdtSaveOptions`.
 
-## Převést tvar na Office Math
+## Převod tvaru do matematických formátů Office
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -52,9 +54,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
- Tento kód ukazuje, jak převést obrazce na objekty Office Math během načítání dokumentu. The`setConvertShapeToOfficeMath(true)`metoda tuto konverzi umožňuje.
+Tento kód ukazuje, jak převést tvary na objekty Office Math během načítání dokumentu. `setConvertShapeToOfficeMath(true)` metoda umožňuje tuto konverzi.
 
-## Nastavte verzi MS Word
+## Nastavení verze MS Wordu
 
 ```java
 @Test
@@ -67,9 +69,9 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
- Můžete určit verzi MS Word pro načítání dokumentu. V tomto příkladu jsme nastavili verzi na Microsoft Word 2010 pomocí`setMswVersion`.
+Pro načítání dokumentů můžete zadat verzi MS Word. V tomto příkladu jsme nastavili verzi na Microsoft Word 2010 pomocí `setMswVersion`.
 
-## Použijte dočasnou složku
+## Použít dočasnou složku
 
 ```java
 @Test
@@ -81,9 +83,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
- Nastavením dočasné složky pomocí`setTempFolder`, můžete řídit, kam se ukládají dočasné soubory během zpracování dokumentu.
+Nastavením dočasné složky pomocí `setTempFolder`, můžete ovládat, kam se během zpracování dokumentů ukládají dočasné soubory.
 
-## Varování zpětné volání
+## Zpětné volání varování
 
 ```java
 @Test
@@ -96,16 +98,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // S varováními zacházejte tak, jak se objeví během zavádění dokumentu.
+        // Zpracovávejte varování, jakmile se objeví během načítání dokumentu.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-Tento kód ukazuje, jak nastavit zpětné volání upozornění pro zpracování upozornění během načítání dokumentu. Můžete přizpůsobit chování vaší aplikace, když se objeví varování.
+Tento kód ukazuje, jak nastavit zpětné volání varování pro zpracování varování během načítání dokumentu. Chování aplikace můžete přizpůsobit, když dojde k varování.
 
-## Převést metasoubory do PNG
+## Převod metasouborů do PNG
 
 ```java
 @Test
@@ -117,9 +119,9 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
- Chcete-li během načítání dokumentu převést metasoubory (např. WMF) na obrázky PNG, můžete použít`setConvertMetafilesToPng(true)` metoda.
+Pro převod metasouborů (např. WMF) na obrázky PNG během načítání dokumentu můžete použít `setConvertMetafilesToPng(true)` metoda.
 
-## Kompletní zdrojový kód pro práci s možnostmi načtení v Aspose.Words pro Javu
+## Kompletní zdrojový kód pro práci s možnostmi načítání v Aspose.Words pro Javu
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -146,8 +148,8 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// Vytvořte nový objekt LoadOptions, který bude standardně načítat dokumenty podle specifikace MS Word 2019
-	// a změňte verzi načítání na Microsoft Word 2010.
+	// Vytvořte nový objekt LoadOptions, který bude standardně načítat dokumenty dle specifikace MS Word 2019.
+	// a změňte načítací verzi na Microsoft Word 2010.
 	LoadOptions loadOptions = new LoadOptions();
 	{
 		loadOptions.setMswVersion(MsWordVersion.WORD_2010);
@@ -173,7 +175,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		//Vytiskne varování a jejich podrobnosti tak, jak se objeví během zavádění dokumentu.
+		// Vytiskne varování a jejich podrobnosti, jakmile se objeví během načítání dokumentu.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,28 +200,33 @@ public void loadChm() throws Exception {
 
 ## Závěr
 
-V tomto tutoriálu jsme se ponořili do různých aspektů práce s možnostmi načtení v Aspose.Words pro Java. Možnosti načítání hrají klíčovou roli při přizpůsobení způsobu načítání a zpracování dokumentů, což vám umožňuje přizpůsobit zpracování dokumentů vašim konkrétním potřebám. Shrňme si klíčové body obsažené v této příručce:
+V tomto tutoriálu jsme se ponořili do různých aspektů práce s možnostmi načítání v Aspose.Words pro Javu. Možnosti načítání hrají klíčovou roli při přizpůsobení způsobu načítání a zpracování dokumentů, což vám umožňuje přizpůsobit zpracování dokumentů vašim specifickým potřebám. Shrňme si klíčové body, které tento průvodce zahrnuje:
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu zvládnout varování během načítání dokumentu?
+### Jak mohu řešit varování během načítání dokumentu?
 
- Můžete nastavit varovné zpětné volání, jak je znázorněno na`warningCallback()` metoda výše. Přizpůsobte si`DocumentLoadingWarningCallback` třídy pro zpracování varování podle požadavků vaší aplikace.
+Zpětné volání varování můžete nastavit, jak je znázorněno na `warningCallback()` výše uvedenou metodu. Přizpůsobte `DocumentLoadingWarningCallback` třída pro zpracování varování podle požadavků vaší aplikace.
 
 ### Mohu při načítání dokumentu převést tvary na objekty Office Math?
 
- Ano, tvary můžete převést na objekty Office Math pomocí`loadOptions.setConvertShapeToOfficeMath(true)`.
+Ano, tvary můžete převést na objekty Office Math pomocí `loadOptions.setConvertShapeToOfficeMath(true)`.
 
-### Jak určím verzi MS Word pro načítání dokumentů?
+### Jak určím verzi MS Wordu pro načítání dokumentů?
 
- Použití`loadOptions.setMswVersion(MsWordVersion.WORD_2010)` specifikovat verzi MS Word pro načítání dokumentu.
+Použití `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` pro určení verze MS Word pro načítání dokumentů.
 
-###  Jaký je účel`setTempFolder` method in Load Options?
+### Jaký je účel `setTempFolder` metoda v Možnostech načtení?
 
- The`setTempFolder`umožňuje určit složku, do které se ukládají dočasné soubory během zpracování dokumentu.
+Ten/Ta/To `setTempFolder` Metoda umožňuje zadat složku, kam se ukládají dočasné soubory během zpracování dokumentu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

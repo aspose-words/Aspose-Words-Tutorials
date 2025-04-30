@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ में दस्तावेज़ आरंभ अंत पर ले जाएँ
-linktitle: Word दस्तावेज़ में दस्तावेज़ आरंभ अंत पर ले जाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ के आरंभ और अंत में कर्सर ले जाना सीखें। चरण-दर-चरण निर्देशों और उदाहरणों के साथ एक व्यापक मार्गदर्शिका।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/move-to-document-start-end/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ के आरंभ और अंत में कर्सर ले जाना सीखें। चरण-दर-चरण निर्देशों और उदाहरणों के साथ एक व्यापक मार्गदर्शिका।"
+"linktitle": "Word दस्तावेज़ में दस्तावेज़ आरंभ अंत पर ले जाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Word दस्तावेज़ में दस्तावेज़ आरंभ अंत पर ले जाएँ"
+"url": "/hi/net/add-content-using-documentbuilder/move-to-document-start-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ में दस्तावेज़ आरंभ अंत पर ले जाएँ
@@ -21,22 +23,22 @@ url: /hi/net/add-content-using-documentbuilder/move-to-document-start-end/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: यह जादुई उपकरण है जिसका हम उपयोग करेंगे। आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/) या पकड़ो[मुफ्त परीक्षण](https://releases.aspose.com/).
+1. .NET के लिए Aspose.Words: यह जादुई उपकरण है जिसका हम उपयोग करेंगे। आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/) या पकड़ो [मुफ्त परीक्षण](https://releases.aspose.com/).
 2. .NET विकास वातावरण: विजुअल स्टूडियो एक ठोस विकल्प है।
-3. C# का बुनियादी ज्ञान: चिंता न करें, आपको इसमें माहिर होने की आवश्यकता नहीं है, लेकिन थोड़ी-बहुत जानकारी काफी मददगार साबित होगी।
+3. C# का बुनियादी ज्ञान: चिंता न करें, आपको इसमें माहिर होने की आवश्यकता नहीं है, लेकिन थोड़ी-सी जानकारी काफी मददगार साबित होगी।
 
 सब समझ गए? बढ़िया, चलो आगे बढ़ते हैं!
 
 ## नामस्थान आयात करें
 
-सबसे पहले, हमें आवश्यक नेमस्पेस आयात करने की आवश्यकता है। यह किसी प्रोजेक्ट को शुरू करने से पहले अपने उपकरणों को पैक करने जैसा है। आपको निम्नलिखित चीज़ों की आवश्यकता होगी:
+सबसे पहले, हमें आवश्यक नेमस्पेस आयात करने की आवश्यकता है। यह किसी प्रोजेक्ट को शुरू करने से पहले अपने उपकरणों को पैक करने जैसा है। यहाँ आपको क्या चाहिए:
 
 ```csharp
 using System;
 using Aspose.Words;
 ```
 
-ये नामस्थान हमें वर्ड दस्तावेजों में हेरफेर करने के लिए आवश्यक कक्षाओं और विधियों तक पहुंचने की अनुमति देंगे।
+ये नामस्थान हमें वर्ड दस्तावेजों में परिवर्तन करने के लिए आवश्यक कक्षाओं और विधियों तक पहुंचने की अनुमति देंगे।
 
 ## चरण 1: नया दस्तावेज़ बनाएँ
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- यहाँ, हम इसका एक उदाहरण बना रहे हैं`Document` और`DocumentBuilder` । के बारे में सोचें`Document` अपने खाली वर्ड दस्तावेज़ के रूप में और`DocumentBuilder` अपनी कलम के रूप में.
+यहाँ, हम इसका एक उदाहरण बना रहे हैं `Document` और `DocumentBuilder`। के बारे में सोचें `Document` अपने खाली वर्ड दस्तावेज़ के रूप में और `DocumentBuilder` अपनी कलम के रूप में.
 
 ## चरण 2: दस्तावेज़ प्रारंभ पर जाएँ
 
@@ -58,7 +60,7 @@ builder.MoveToDocumentStart();
 Console.WriteLine("\nThis is the beginning of the document.");
 ```
 
- साथ`MoveToDocumentStart()`, आप अपने डिजिटल पेन को दस्तावेज़ के सबसे ऊपर रखने के लिए कह रहे हैं। आसान है, है न?
+साथ `MoveToDocumentStart()`, आप अपने डिजिटल पेन को दस्तावेज़ के सबसे ऊपर रखने के लिए कह रहे हैं। आसान है, है न?
 
 ## चरण 3: दस्तावेज़ के अंत पर जाएँ
 
@@ -84,17 +86,22 @@ Console.WriteLine("\nThis is the end of the document.");
 बिल्कुल! जबकि यह गाइड C# का उपयोग करता है, आप VB.NET जैसी किसी भी .NET भाषा के साथ .NET के लिए Aspose.Words का उपयोग कर सकते हैं।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?  
- हाँ, लेकिन आप एक से शुरू कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+हाँ, लेकिन आप एक से शुरू कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
 
 ### क्या Aspose.Words for .NET .NET कोर के साथ संगत है?  
 हां, .NET के लिए Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों का समर्थन करता है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक ट्यूटोरियल कहां पा सकता हूं?  
-आप इसकी जांच कर सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/) या उनके पास जाएँ[सहयता मंच](https://forum.aspose.com/c/words/8) अधिक सहायता के लिए.
+आप इसकी जांच कर सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/) या उनके पास जाएँ [सहयता मंच](https://forum.aspose.com/c/words/8) अधिक सहायता के लिए.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

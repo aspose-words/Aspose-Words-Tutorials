@@ -7,8 +7,11 @@ weight: 10
 url: /net/split-document/merge-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merge Word Documents
@@ -119,9 +122,13 @@ You can get support by visiting the [Aspose support forum](https://forum.aspose.
 
 Yes, Aspose.Words supports merging various file formats, including DOCX, PDF, and HTML.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

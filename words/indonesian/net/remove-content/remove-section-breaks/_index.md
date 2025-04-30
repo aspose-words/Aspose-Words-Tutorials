@@ -1,14 +1,16 @@
 ---
-title: Hapus Hentian Bagian Dalam Dokumen Word
-linktitle: Hapus Hentian Bagian Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus pemisah bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini memastikan pengelolaan dan penyuntingan dokumen berjalan lancar.
-weight: 10
-url: /id/net/remove-content/remove-section-breaks/
+"description": "Pelajari cara menghapus pemisah bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini memastikan pengelolaan dan penyuntingan dokumen berjalan lancar."
+"linktitle": "Hapus Hentian Bagian Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Hentian Bagian Dalam Dokumen Word"
+"url": "/id/net/remove-content/remove-section-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Hentian Bagian Dalam Dokumen Word
@@ -21,7 +23,7 @@ Menghapus pemisah bagian dalam dokumen Word bisa jadi agak sulit, tetapi dengan 
 
 Sebelum menyelami tutorialnya, mari kita bahas hal-hal penting yang perlu Anda ikuti:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda memerlukan lingkungan pengembangan seperti Visual Studio.
 3. Pengetahuan Dasar C#: Diperlukan keakraban dengan pemrograman C#.
 4. Dokumen Word: Miliki dokumen Word (.docx) dengan pemisah bagian yang siap dimodifikasi.
@@ -52,7 +54,7 @@ Setelah pengaturan selesai, langkah berikutnya adalah memuat dokumen Word yang b
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
-2.  Muat Dokumen: Gunakan`Document` kelas untuk memuat dokumen Word Anda.
+2. Muat Dokumen: Gunakan `Document` kelas untuk memuat dokumen Word Anda.
 ```csharp
 Document doc = new Document(dataDir + "your-document.docx");
 ```
@@ -73,11 +75,11 @@ for (int i = doc.Sections.Count - 2; i >= 0; i--)
 
 Di dalam loop, Anda akan menyalin konten bagian saat ini ke awal bagian terakhir, lalu menghapus bagian saat ini.
 
-1.  Salin Konten: Gunakan`PrependContent` metode untuk menyalin konten.
+1. Salin Konten: Gunakan `PrependContent` metode untuk menyalin konten.
 ```csharp
 doc.LastSection.PrependContent(doc.Sections[i]);
 ```
-2.  Hapus Bagian: Hapus bagian menggunakan`Remove` metode.
+2. Hapus Bagian: Hapus bagian menggunakan `Remove` metode.
 ```csharp
 doc.Sections[i].Remove();
 ```
@@ -86,7 +88,7 @@ doc.Sections[i].Remove();
 
 Terakhir, simpan dokumen yang dimodifikasi ke direktori yang ditentukan.
 
-1.  Simpan Dokumen: Gunakan`Save` metode untuk menyimpan dokumen Anda.
+1. Simpan Dokumen: Gunakan `Save` metode untuk menyimpan dokumen Anda.
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
@@ -114,9 +116,13 @@ Umumnya, tidak demikian. Namun, selalu periksa dokumen Anda setelah modifikasi u
 
 ### Contoh kode sumber untuk Hapus Hentian Bagian menggunakan Aspose.Words untuk .NET
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

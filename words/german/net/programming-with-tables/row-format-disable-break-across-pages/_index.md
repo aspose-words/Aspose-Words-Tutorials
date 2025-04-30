@@ -1,23 +1,25 @@
 ---
-title: Zeilenformat Umbruch über mehrere Seiten deaktivieren
-linktitle: Zeilenformat Umbruch über mehrere Seiten deaktivieren
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET seitenübergreifende Zeilenumbrüche in Word-Dokumenten deaktivieren, um die Lesbarkeit und Formatierung der Tabelle beizubehalten.
-weight: 10
-url: /de/net/programming-with-tables/row-format-disable-break-across-pages/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für .NET seitenübergreifende Zeilenumbrüche in Word-Dokumenten deaktivieren, um die Lesbarkeit und Formatierung der Tabelle beizubehalten."
+"linktitle": "Zeilenformat&#58; Seitenumbruch deaktivieren"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Zeilenformat&#58; Seitenumbruch deaktivieren"
+"url": "/de/net/programming-with-tables/row-format-disable-break-across-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zeilenformat Umbruch über mehrere Seiten deaktivieren
+# Zeilenformat: Seitenumbruch deaktivieren
 
 ## Einführung
 
-Wenn Sie mit Tabellen in Word-Dokumenten arbeiten, möchten Sie möglicherweise sicherstellen, dass Zeilen nicht über mehrere Seiten hinweg umgebrochen werden. Dies kann für die Lesbarkeit und Formatierung Ihrer Dokumente von entscheidender Bedeutung sein. Aspose.Words für .NET bietet eine einfache Möglichkeit, Zeilenumbrüche über mehrere Seiten hinweg zu deaktivieren.
+Beim Arbeiten mit Tabellen in Word-Dokumenten möchten Sie möglicherweise sicherstellen, dass Zeilen nicht über mehrere Seiten hinweg umgebrochen werden. Dies kann für die Lesbarkeit und Formatierung Ihrer Dokumente von entscheidender Bedeutung sein. Aspose.Words für .NET bietet eine einfache Möglichkeit, seitenübergreifende Zeilenumbrüche zu deaktivieren.
 
-In diesem Tutorial führen wir Sie durch den Prozess zum Deaktivieren von Zeilenumbrüchen über Seiten hinweg in einem Word-Dokument mit Aspose.Words für .NET.
+In diesem Tutorial führen wir Sie durch den Vorgang zum Deaktivieren von Zeilenumbrüchen über Seiten hinweg in einem Word-Dokument mit Aspose.Words für .NET.
 
 ## Voraussetzungen
 
@@ -34,12 +36,12 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## Schritt 1: Dokument laden
+## Schritt 1: Laden Sie das Dokument
 
 Laden Sie das Dokument mit der mehrseitigen Tabelle.
 
 ```csharp
-// Pfad zu Ihrem Dokumentverzeichnis
+// Pfad zu Ihrem Dokumentverzeichnis 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table spanning two pages.docx");
@@ -53,9 +55,9 @@ Greifen Sie auf die erste Tabelle im Dokument zu. Dabei wird davon ausgegangen, 
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 ```
 
-## Schritt 3: Seitenumbrüche für alle Zeilen deaktivieren
+## Schritt 3: Deaktivieren Sie den Seitenumbruch für alle Zeilen
 
- Durchlaufen Sie jede Zeile in der Tabelle und legen Sie den`AllowBreakAcrossPages`Eigentum an`false`. Dadurch wird sichergestellt, dass die Zeilen nicht über mehrere Seiten hinweg umbrochen werden.
+Durchlaufen Sie jede Zeile in der Tabelle und legen Sie die `AllowBreakAcrossPages` Eigentum zu `false`Dadurch wird sichergestellt, dass die Zeilen nicht über mehrere Seiten hinweg umbrochen werden.
 
 ```csharp
 // Deaktivieren Sie den Seitenumbruch für alle Zeilen in der Tabelle.
@@ -65,7 +67,7 @@ foreach (Row row in table.Rows)
 
 ## Schritt 4: Speichern Sie das Dokument
 
-Speichern Sie das geänderte Dokument im angegebenen Verzeichnis.
+Speichern Sie das geänderte Dokument in Ihrem angegebenen Verzeichnis.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.RowFormatDisableBreakAcrossPages.docx");
@@ -73,27 +75,32 @@ doc.Save(dataDir + "WorkingWithTables.RowFormatDisableBreakAcrossPages.docx");
 
 ## Abschluss
 
-In diesem Tutorial haben wir gezeigt, wie Sie Zeilenumbrüche über Seiten in einem Word-Dokument mit Aspose.Words für .NET deaktivieren. Indem Sie die oben beschriebenen Schritte befolgen, können Sie sicherstellen, dass Ihre Tabellenzeilen intakt bleiben und nicht über mehrere Seiten verteilt werden, sodass die Lesbarkeit und Formatierung des Dokuments erhalten bleibt.
+In diesem Tutorial haben wir gezeigt, wie Sie Zeilenumbrüche über Seiten hinweg in einem Word-Dokument mit Aspose.Words für .NET deaktivieren. Indem Sie die oben beschriebenen Schritte befolgen, stellen Sie sicher, dass Ihre Tabellenzeilen erhalten bleiben und nicht über mehrere Seiten verteilt werden. So bleiben Lesbarkeit und Formatierung des Dokuments erhalten.
 
 ## Häufig gestellte Fragen
 
 ### Kann ich Zeilenumbrüche seitenübergreifend für eine bestimmte Zeile statt für alle Zeilen deaktivieren?  
- Ja, Sie können Zeilenumbrüche für bestimmte Zeilen deaktivieren, indem Sie auf die gewünschte Zeile zugreifen und deren`AllowBreakAcrossPages`Eigentum an`false`.
+Ja, Sie können Zeilenumbrüche für bestimmte Zeilen deaktivieren, indem Sie auf die gewünschte Zeile zugreifen und deren `AllowBreakAcrossPages` Eigentum zu `false`.
 
 ### Funktioniert diese Methode für Tabellen mit verbundenen Zellen?  
- Ja, diese Methode funktioniert für Tabellen mit verbundenen Zellen. Die Eigenschaft`AllowBreakAcrossPages` gilt für die gesamte Zeile, unabhängig von der Zellenzusammenführung.
+Ja, diese Methode funktioniert für Tabellen mit verbundenen Zellen. Die Eigenschaft `AllowBreakAcrossPages` gilt für die gesamte Zeile, unabhängig von der Zellenzusammenführung.
 
 ### Funktioniert diese Methode, wenn die Tabelle in einer anderen Tabelle verschachtelt ist?  
-Ja, Sie können auf dieselbe Weise auf verschachtelte Tabellen zugreifen und diese ändern. Stellen Sie sicher, dass Sie die verschachtelte Tabelle über ihren Index oder andere Eigenschaften korrekt referenzieren.
+Ja, Sie können auf verschachtelte Tabellen auf die gleiche Weise zugreifen und diese ändern. Stellen Sie sicher, dass Sie die verschachtelte Tabelle über ihren Index oder andere Eigenschaften korrekt referenzieren.
 
-### Wie kann ich prüfen, ob eine Zeile einen Seitenumbruch zulässt?  
- Sie können überprüfen, ob eine Zeile einen Seitenumbruch zulässt, indem Sie auf die`AllowBreakAcrossPages` Eigentum der`RowFormat` und seinen Wert überprüfen.
+### Wie kann ich überprüfen, ob eine Zeile einen Seitenumbruch zulässt?  
+Sie können überprüfen, ob eine Zeile einen Seitenumbruch zulässt, indem Sie auf die `AllowBreakAcrossPages` Eigentum der `RowFormat` und seinen Wert überprüfen.
 
 ### Gibt es eine Möglichkeit, diese Einstellung auf alle Tabellen in einem Dokument anzuwenden?  
 Ja, Sie können alle Tabellen im Dokument durchlaufen und diese Einstellung auf jede einzelne anwenden.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm bình luận
-linktitle: Thêm bình luận
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm chú thích vào tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Nâng cao quy trình cộng tác tài liệu của bạn một cách dễ dàng.
-weight: 10
-url: /vi/net/working-with-comments/add-comments/
+"description": "Tìm hiểu cách thêm chú thích vào tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Nâng cao quy trình cộng tác tài liệu của bạn một cách dễ dàng."
+"linktitle": "Thêm bình luận"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm bình luận"
+"url": "/vi/net/working-with-comments/add-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm bình luận
@@ -21,7 +23,7 @@ Chào mừng bạn đến với hướng dẫn chi tiết của chúng tôi về
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
 3. Môi trường phát triển: Một IDE như Visual Studio để viết và thực thi mã của bạn.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn theo dõi các ví dụ.
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước dễ thực
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Đầu tiên, chúng ta cần xác định thư mục nơi tài liệu của bạn sẽ được lưu. Chúng ta sẽ sử dụng một trình giữ chỗ`YOUR DOCUMENT DIRECTORY` mà bạn nên thay thế bằng đường dẫn thư mục thực tế của bạn.
+Đầu tiên, chúng ta cần xác định thư mục nơi tài liệu của bạn sẽ được lưu. Chúng ta sẽ sử dụng một trình giữ chỗ `YOUR DOCUMENT DIRECTORY` mà bạn nên thay thế bằng đường dẫn thư mục thực tế của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 3: Thêm văn bản vào tài liệu
 
-Chúng ta sẽ thêm một số văn bản vào tài liệu bằng DocumentBuilder. Văn bản này sẽ là nơi chúng ta đính kèm bình luận.
+Chúng ta sẽ thêm một số văn bản vào tài liệu bằng DocumentBuilder. Văn bản này sẽ là nơi chúng ta đính kèm bình luận của mình.
 
 ```csharp
 builder.Write("Some text is added.");
@@ -110,7 +112,7 @@ Có, bạn có thể thêm nhiều chú thích vào một tài liệu bằng cá
 
 ### Làm thế nào để tùy chỉnh giao diện của bình luận?
 
-Trong khi Aspose.Words tập trung vào nội dung và cấu trúc của bình luận, giao diện có thể được tùy chỉnh bằng các tính năng định dạng tích hợp sẵn của Word.
+Trong khi Aspose.Words tập trung vào nội dung và cấu trúc của bình luận, giao diện có thể được tùy chỉnh bằng các tính năng định dạng tích hợp của Word.
 
 ### Có thể xóa bình luận theo chương trình được không?
 
@@ -119,9 +121,14 @@ Có, bạn có thể xóa bình luận theo chương trình bằng cách lặp l
 ### Tôi có thể thêm phản hồi vào bình luận không?
 
 Aspose.Words cho phép bạn làm việc với các bình luận theo chủ đề, cho phép bạn thêm phản hồi vào các bình luận hiện có để thảo luận chi tiết hơn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

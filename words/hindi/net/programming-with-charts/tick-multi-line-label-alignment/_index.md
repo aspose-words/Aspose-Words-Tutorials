@@ -1,14 +1,16 @@
 ---
-title: चार्ट में मल्टी लाइन लेबल संरेखण पर टिक करें
-linktitle: चार्ट में मल्टी लाइन लेबल संरेखण पर टिक करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में मल्टी-लाइन लेबल संरेखण को टिक करना सीखें। सभी स्तरों के डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-charts/tick-multi-line-label-alignment/
+"description": "हमारे विस्तृत चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके चार्ट में मल्टी-लाइन लेबल संरेखण को टिक करना सीखें। सभी स्तरों के डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "चार्ट में मल्टी लाइन लेबल संरेखण पर टिक करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट में मल्टी लाइन लेबल संरेखण पर टिक करें"
+"url": "/hi/net/programming-with-charts/tick-multi-line-label-alignment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में मल्टी लाइन लेबल संरेखण पर टिक करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-charts/tick-multi-line-label-alignment/
 
 इससे पहले कि हम मल्टी-लाइन लेबल अलाइनमेंट की दुनिया में उतरें, आइए सुनिश्चित करें कि आपके पास सभी चीजें व्यवस्थित हैं। आपको ये चीजें चाहिए होंगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। यदि नहीं, तो आप[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। यदि नहीं, तो आप [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. .NET वातावरण: सुनिश्चित करें कि आपका विकास वातावरण .NET के साथ स्थापित है।
 3. C# का बुनियादी ज्ञान: C# की बुनियादी समझ इस यात्रा को आसान बना देगी।
 
@@ -40,7 +42,7 @@ using Aspose.Words.Drawing;
 सबसे पहले, हमें आपके डॉक्यूमेंट डायरेक्टरी का पथ निर्दिष्ट करना होगा। यहीं पर आपका वर्ड डॉक्यूमेंट सेव होगा।
 
 
- आइए अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करें।`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
+आइए अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करें। `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 अब, चलिए एक नया वर्ड डॉक्यूमेंट बनाते हैं। यह डॉक्यूमेंट हमारे चार्ट के लिए कैनवास का काम करेगा।
 
- हम एक नए उदाहरण को आरंभ करके शुरुआत करेंगे`Document` कक्षा।
+हम एक नए उदाहरण को आरंभ करके शुरुआत करेंगे `Document` कक्षा।
 
 ```csharp
 Document doc = new Document();
@@ -58,9 +60,9 @@ Document doc = new Document();
 
 ## चरण 3: डॉक्यूमेंटबिल्डर का उपयोग करें
 
-`DocumentBuilder` Aspose.Words में क्लास एक शक्तिशाली उपकरण है जो दस्तावेज़ बनाने में मदद करता है। हम इसका उपयोग अपने दस्तावेज़ में चार्ट डालने के लिए करेंगे।
+The `DocumentBuilder` Aspose.Words में क्लास एक शक्तिशाली उपकरण है जो दस्तावेज़ बनाने में मदद करता है। हम इसका उपयोग अपने दस्तावेज़ में चार्ट डालने के लिए करेंगे।
 
- का एक उदाहरण आरंभ करें`DocumentBuilder` क्लास में, हमारे डॉक्यूमेंट ऑब्जेक्ट को उसके कन्स्ट्रक्टर को पास करना।
+का एक उदाहरण आरंभ करें `DocumentBuilder` क्लास में, हमारे डॉक्यूमेंट ऑब्जेक्ट को उसके कन्स्ट्रक्टर को पास करना।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 आइए अपने दस्तावेज़ में एक चार्ट डालें। इस उदाहरण के लिए हम स्कैटर चार्ट का उपयोग करेंगे।
 
- का उपयोग`InsertChart` की विधि`DocumentBuilder` क्लास में, हम अपने दस्तावेज़ में एक स्कैटर चार्ट सम्मिलित कर सकते हैं।
+का उपयोग `InsertChart` की विधि `DocumentBuilder` क्लास में, हम अपने दस्तावेज़ में एक स्कैटर चार्ट सम्मिलित कर सकते हैं।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 450, 250);
@@ -90,7 +92,7 @@ ChartAxis axis = shape.Chart.AxisX;
 
 अब जादू शुरू हो गया है! हम मल्टी-लाइन लेबल के लिए टिक लेबल संरेखण सेट करेंगे।
 
- सेट करें`TickLabelAlignment` अक्ष की संपत्ति`ParagraphAlignment.Right`.
+सेट करें `TickLabelAlignment` अक्ष की संपत्ति `ParagraphAlignment.Right`.
 
 ```csharp
 axis.TickLabelAlignment = ParagraphAlignment.Right;
@@ -100,7 +102,7 @@ axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 अंतिम लेकिन महत्वपूर्ण बात, आइए अपने दस्तावेज़ को वांछित परिवर्तनों के साथ सेव करें।
 
- उपयोग`Save` की विधि`Document` दस्तावेज़ को निर्दिष्ट निर्देशिका में सहेजने के लिए क्लास का उपयोग करें।
+उपयोग `Save` की विधि `Document` दस्तावेज़ को निर्दिष्ट निर्देशिका में सहेजने के लिए क्लास का उपयोग करें।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
@@ -114,26 +116,31 @@ doc.Save(dataDir + "WorkingWithCharts.TickMultiLineLabelAlignment.docx");
 
 ### .NET के लिए Aspose.Words क्या है?
 
- Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है। आप इसके बारे में अधिक जान सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देती है। आप इसके बारे में अधिक जान सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
 
- आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/words/net/)वहां दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+आप .NET के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं [वेबसाइट](https://releases.aspose.com/words/net/)वहां दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 
 ### क्या मैं .NET के लिए Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
 
- Aspose एक प्रदान करता है[मुफ्त परीक्षण](https://releases.aspose.com/) जिसका उपयोग आप उत्पाद का मूल्यांकन करने के लिए कर सकते हैं। पूर्ण पहुँच के लिए, आपको लाइसेंस खरीदना होगा।
+Aspose एक प्रदान करता है [मुफ्त परीक्षण](https://releases.aspose.com/) जिसका उपयोग आप उत्पाद का मूल्यांकन करने के लिए कर सकते हैं। पूर्ण पहुँच के लिए, आपको लाइसेंस खरीदना होगा।
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
 
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose समुदाय मंच](https://forum.aspose.com/c/words/8).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose समुदाय मंच](https://forum.aspose.com/c/words/8).
 
 ### .NET के लिए Aspose.Words हेतु सिस्टम आवश्यकताएँ क्या हैं?
 
- .NET के लिए Aspose.Words को .NET वातावरण की आवश्यकता होती है। विशिष्ट सिस्टम आवश्यकताएँ यहाँ पाई जा सकती हैं[प्रलेखन](https://reference.aspose.com/words/net/).
+.NET के लिए Aspose.Words को .NET वातावरण की आवश्यकता होती है। विशिष्ट सिस्टम आवश्यकताएँ यहाँ पाई जा सकती हैं [प्रलेखन](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

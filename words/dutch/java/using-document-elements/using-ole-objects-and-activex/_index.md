@@ -1,31 +1,33 @@
 ---
-title: OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java
-linktitle: OLE-objecten en ActiveX-besturingselementen gebruiken
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
-weight: 21
-url: /nl/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!"
+"linktitle": "OLE-objecten en ActiveX-besturingselementen gebruiken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java"
+"url": "/nl/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java
 
-In deze tutorial gaan we onderzoeken hoe je met OLE (Object Linking and Embedding) objecten en ActiveX controls in Aspose.Words voor Java kunt werken. OLE-objecten en ActiveX controls zijn krachtige tools waarmee je je documenten kunt verbeteren door externe content, zoals spreadsheets, multimediabestanden of interactieve controls, in te sluiten of te koppelen. Volg ons terwijl we dieper ingaan op de codevoorbeelden en leer hoe je deze functies effectief kunt gebruiken.
+In deze tutorial verkennen we hoe je met OLE-objecten (Object Linking and Embedding) en ActiveX-besturingselementen in Aspose.Words voor Java kunt werken. OLE-objecten en ActiveX-besturingselementen zijn krachtige tools waarmee je je documenten kunt verbeteren door externe content, zoals spreadsheets, multimediabestanden of interactieve besturingselementen, in te sluiten of te koppelen. Volg de codevoorbeelden en leer hoe je deze functies effectief kunt gebruiken.
 
 ### Vereisten
 
 Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Words voor Java: Zorg ervoor dat u de Aspose.Words-bibliotheek in uw Java-project hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/words/java/).
+1. Aspose.Words voor Java: Zorg ervoor dat de Aspose.Words-bibliotheek in uw Java-project is geïnstalleerd. U kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).
 
-2. Java-ontwikkelomgeving: Er moet een werkende Java-ontwikkelomgeving op uw systeem zijn ingesteld.
+2. Java-ontwikkelomgeving: er moet een werkende Java-ontwikkelomgeving op uw systeem zijn ingesteld.
 
 ### Een OLE-object invoegen
 
-Laten we beginnen met het invoegen van een OLE-object in een Word-document. We maken een eenvoudig Word-document en voegen vervolgens een OLE-object in dat een webpagina vertegenwoordigt.
+Laten we beginnen met het invoegen van een OLE-object in een Word-document. We maken een eenvoudig Word-document en voegen vervolgens een OLE-object in dat een webpagina voorstelt.
 
 ```java
 string outPath = "Your Output Directory";
@@ -33,12 +35,12 @@ public void insertOleObject() throws Exception
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.insertOleObject("http://www.aspose.com", "htmlfile", waar, waar, null);
+    builder.insertOleObject("http://www.aspose.com", "htmlfile", true, true, null);
     doc.save("Your Directory Path" + "WorkingWithOleObjectsAndActiveX.InsertOleObject.docx");
 }
 ```
 
-In deze code maken we een nieuw document en voegen een OLE-object in dat de Aspose-website weergeeft. U kunt de URL vervangen door de gewenste inhoud.
+In deze code maken we een nieuw document aan en voegen we een OLE-object toe dat de Aspose-website weergeeft. U kunt de URL vervangen door de gewenste inhoud.
 
 ### Een OLE-object invoegen met OlePackage
 
@@ -64,9 +66,9 @@ public void insertOleObjectWithOlePackage() throws Exception
 
 In dit voorbeeld voegen we een OLE-object in met behulp van een OlePackage, zodat u externe bestanden als ingesloten objecten kunt opnemen.
 
-### Een OLE-object invoegen als een pictogram
+### Een OLE-object invoegen als pictogram
 
-Laten we nu eens kijken hoe we een OLE-object als een pictogram kunnen invoegen. Dit is handig als u een pictogram wilt weergeven dat een ingebed bestand vertegenwoordigt.
+Laten we nu eens kijken hoe je een OLE-object als pictogram invoegt. Dit is handig wanneer je een pictogram wilt weergeven dat een ingesloten bestand vertegenwoordigt.
 
 ```java
 @Test
@@ -79,11 +81,11 @@ public void insertOleObjectAsIcon() throws Exception
 }
 ```
 
-In deze code voegen we een OLE-object in als pictogram, waardoor de ingesloten inhoud visueel aantrekkelijker wordt weergegeven.
+In deze code voegen we een OLE-object in als een pictogram. Dit zorgt voor een visueel aantrekkelijkere weergave van de ingesloten inhoud.
 
 ### Eigenschappen van ActiveX-besturingselementen lezen
 
-Laten we nu onze focus verleggen naar ActiveX-besturingselementen. We leren hoe we eigenschappen van ActiveX-besturingselementen in een Word-document kunnen lezen.
+Laten we ons nu richten op ActiveX-besturingselementen. We leren hoe we de eigenschappen van ActiveX-besturingselementen in een Word-document kunnen lezen.
 
 ```java
 @Test
@@ -118,7 +120,7 @@ In deze code doorlopen we de vormen in een Word-document, identificeren we Activ
 
 ### Conclusie
 
-Gefeliciteerd! U hebt geleerd hoe u met OLE-objecten en ActiveX-besturingselementen in Aspose.Words voor Java kunt werken. Deze functies openen een wereld aan mogelijkheden voor het maken van dynamische en interactieve documenten.
+Gefeliciteerd! Je hebt geleerd hoe je met OLE-objecten en ActiveX-besturingselementen in Aspose.Words voor Java kunt werken. Deze functies openen een wereld aan mogelijkheden voor het maken van dynamische en interactieve documenten.
 
 ### Veelgestelde vragen
 
@@ -135,13 +137,18 @@ Gefeliciteerd! U hebt geleerd hoe u met OLE-objecten en ActiveX-besturingselemen
    - Ja, Aspose.Words voor Java is een krachtige bibliotheek voor het automatiseren van documentgeneratie en -manipulatie in Java-toepassingen.
 
 ### Waar kan ik toegang krijgen tot Aspose.Words voor Java? 
-   -  U kunt Aspose.Words voor Java downloaden van[hier](https://releases.aspose.com/words/java/).
+   - U kunt Aspose.Words voor Java downloaden van [hier](https://releases.aspose.com/words/java/).
 
-Ga vandaag nog aan de slag met Aspose.Words voor Java en ontgrendel het volledige potentieel van documentautomatisering en -aanpassing!
+Ga vandaag nog aan de slag met Aspose.Words voor Java en ontgrendel het volledige potentieel van document automatisering en aanpassing!
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

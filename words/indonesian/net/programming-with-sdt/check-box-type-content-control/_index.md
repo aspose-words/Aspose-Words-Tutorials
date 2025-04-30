@@ -1,14 +1,16 @@
 ---
-title: Kontrol Konten Jenis Kotak Centang
-linktitle: Kontrol Konten Jenis Kotak Centang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan Kontrol Konten Jenis Kotak Centang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-sdt/check-box-type-content-control/
+"description": "Pelajari cara menambahkan Kontrol Konten Jenis Kotak Centang dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci ini."
+"linktitle": "Kontrol Konten Jenis Kotak Centang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kontrol Konten Jenis Kotak Centang"
+"url": "/id/net/programming-with-sdt/check-box-type-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Konten Jenis Kotak Centang
@@ -21,9 +23,9 @@ Selamat datang di panduan utama tentang cara menyisipkan Kontrol Konten Jenis Ko
 
 Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya terinstal di komputer Anda.
-3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# diperlukan untuk mengikuti tutorial ini.
+3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# diperlukan untuk mengikuti tutorial.
 4. Direktori Dokumen: Direktori tempat Anda menyimpan dokumen Word Anda.
 
 ## Mengimpor Ruang Nama
@@ -61,18 +63,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Dalam cuplikan ini, kita membuat yang baru`Document` objek dan sebuah`DocumentBuilder` objek untuk membantu kita memanipulasi dokumen.
+Dalam cuplikan ini, kita membuat yang baru `Document` objek dan sebuah `DocumentBuilder` objek untuk membantu kita memanipulasi dokumen.
 
 ## Langkah 4: Buat Kontrol Konten Jenis Kotak Centang
 
-Inti dari tutorial kami terletak pada pembuatan Kontrol Konten Jenis Kotak Centang. Kami akan menggunakan`StructuredDocumentTag` kelas untuk tujuan ini.
+Inti dari tutorial kami terletak pada pembuatan Kontrol Konten Jenis Kotak Centang. Kami akan menggunakan `StructuredDocumentTag` kelas untuk tujuan ini.
 
 ```csharp
 StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 builder.InsertNode(sdtCheckBox);
 ```
 
- Di sini, kita membuat yang baru`StructuredDocumentTag` objek dengan tipe`Checkbox` dan masukkan ke dalam dokumen menggunakan`DocumentBuilder`.
+Di sini, kita membuat yang baru `StructuredDocumentTag` objek dengan tipe `Checkbox` dan masukkan ke dalam dokumen menggunakan `DocumentBuilder`.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -88,7 +90,7 @@ Baris ini menyimpan dokumen dengan kotak centang yang baru ditambahkan ke direkt
 
 Nah, itu dia! Anda telah berhasil menambahkan Kontrol Konten Jenis Kotak Centang ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Fitur ini dapat sangat berguna untuk membuat dokumen yang interaktif dan mudah digunakan. Baik Anda membuat formulir, survei, atau dokumen apa pun yang memerlukan masukan pengguna, kotak centang adalah cara yang bagus untuk meningkatkan kegunaan.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk memeriksa[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/words/8).
+Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk memeriksa [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -96,20 +98,25 @@ Nah, itu dia! Anda telah berhasil menambahkan Kontrol Konten Jenis Kotak Centang
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen Word secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari[Situs web Aspose](https://releases.aspose.com/words/net/).
+Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio atau mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/words/net/).
 
 ### Bisakah saya menambahkan jenis kontrol konten lain menggunakan Aspose.Words?
 Ya, Aspose.Words mendukung berbagai jenis kontrol konten, termasuk kontrol teks, tanggal, dan kotak kombo.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan.
+Anda dapat mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

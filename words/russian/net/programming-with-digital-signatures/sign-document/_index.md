@@ -1,14 +1,16 @@
 ---
-title: Подписать документ Word
-linktitle: Подписать документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как подписать документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Защитите свои документы с легкостью.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/sign-document/
+"description": "Узнайте, как подписать документ Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Защитите свои документы с легкостью."
+"linktitle": "Подписать документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Подписать документ Word"
+"url": "/ru/net/programming-with-digital-signatures/sign-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Подписать документ Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-digital-signatures/sign-document/
 
 Прежде чем погрузиться в код, вам необходимо выполнить несколько действий:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда .NET: убедитесь, что у вас настроена среда разработки .NET (например, Visual Studio).
 3. Цифровой сертификат: получите цифровой сертификат (например, файл .pfx) для подписи документов.
 4. Документ для подписания: подготовьте документ Word, который вы хотите подписать.
@@ -53,7 +55,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ### Объяснение
 
 - `dataDir`: Это каталог, где хранятся ваш сертификат и документы.
-- `CertificateHolder.Create` : Этот метод загружает сертификат из указанного пути. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу, и`"morzal.pfx"` с именем вашего файла сертификата.`"aw"` пароль для сертификата.
+- `CertificateHolder.Create`: Этот метод загружает сертификат из указанного пути. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу, и `"morzal.pfx"` с именем вашего файла сертификата. `"aw"` пароль для сертификата.
 
 ## Шаг 2: Загрузите документ Word
 
@@ -66,11 +68,11 @@ Document doc = new Document(dataDir + "Digitally signed.docx");
 
 ### Объяснение
 
-- `Document` : Этот класс представляет документ Word. Заменить`"Digitally signed.docx"`с названием вашего документа.
+- `Document`Этот класс представляет документ Word. Заменить `"Digitally signed.docx"` с названием вашего документа.
 
 ## Шаг 3: Подпишите документ
 
- Теперь используйте`DigitalSignatureUtil.Sign` способ подписания документа.
+Теперь используйте `DigitalSignatureUtil.Sign` способ подписания документа.
 
 ```csharp
 // Подпишите документ.
@@ -92,7 +94,7 @@ doc.Save(dataDir + "Document.Signed.docx");
 
 ### Объяснение
 
-- `doc.Save` : Этот метод сохраняет подписанный документ. Заменить`"Document.Signed.docx"` с желаемым названием подписанного вами документа.
+- `doc.Save`: Этот метод сохраняет подписанный документ. Заменить `"Document.Signed.docx"` с желаемым названием подписанного вами документа.
 
 ## Заключение
 
@@ -110,13 +112,18 @@ doc.Save(dataDir + "Document.Signed.docx");
 Да, если файл .pfx содержит действительный цифровой сертификат и у вас есть пароль для доступа к нему.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words for .NET — это коммерческая библиотека. Вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/) , но для полной функциональности вам нужно будет приобрести лицензию. Вы можете купить ее[здесь](https://purchase.aspose.com/buy).
+Aspose.Words for .NET — это коммерческая библиотека. Вы можете скачать бесплатную пробную версию [здесь](https://releases.aspose.com/), но для полной функциональности вам нужно будет приобрести лицензию. Вы можете купить ее [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/) и поддержка[здесь](https://forum.aspose.com/c/words/8).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/) и поддержка [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

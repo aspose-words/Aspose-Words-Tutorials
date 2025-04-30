@@ -1,14 +1,16 @@
 ---
-title: Menandatangani Dokumen Word Terenkripsi
-linktitle: Menandatangani Dokumen Word Terenkripsi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menandatangani dokumen Word yang dienkripsi menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Pelajari cara menandatangani dokumen Word yang dienkripsi menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Menandatangani Dokumen Word Terenkripsi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Menandatangani Dokumen Word Terenkripsi"
+"url": "/id/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menandatangani Dokumen Word Terenkripsi
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara menandatangani dokumen Word yang di
 
 Sebelum menyelami kodenya, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh dan instal dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Pastikan Anda telah menginstalnya.
 3. Sertifikat yang Sah: Anda memerlukan file sertifikat .pfx.
 4. Pengetahuan Dasar C#: Memahami dasar-dasar akan membuat tutorial ini lebih lancar.
@@ -56,14 +58,14 @@ Install-Package Aspose.Words
 
 ## Langkah 3: Mempersiapkan Direktori Dokumen
 
-Anda memerlukan direktori untuk menyimpan dokumen dan sertifikat Word Anda. Mari kita buat satu.
+Anda memerlukan direktori untuk menyimpan dokumen dan sertifikat Word. Mari kita buat satu.
 
 1. Buat direktori di komputer Anda. Untuk memudahkan, sebut saja "DocumentDirectory".
 2. Tempatkan dokumen Word Anda (misalnya, "Document.docx") dan sertifikat .pfx Anda (misalnya, "morzal.pfx") di direktori ini.
 
 ## Langkah 4: Menulis Kode
 
- Sekarang, mari selami kodenya. Buka`Program.cs` file dan mulai dengan mengatur jalur ke direktori dokumen Anda dan menginisialisasi`SignOptions` dengan kata sandi dekripsi.
+Sekarang, mari selami kodenya. Buka `Program.cs` file dan mulai dengan mengatur jalur ke direktori dokumen Anda dan menginisialisasi `SignOptions` dengan kata sandi dekripsi.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## Langkah 5: Memuat Sertifikat
 
- Selanjutnya, muat sertifikat Anda menggunakan`CertificateHolder`kelas. Ini akan memerlukan jalur ke file .pfx dan kata sandi sertifikat.
+Selanjutnya, muat sertifikat Anda menggunakan `CertificateHolder` kelas. Ini akan memerlukan jalur ke file .pfx dan kata sandi sertifikat.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Langkah 6: Menandatangani Dokumen
 
- Terakhir, gunakan`DigitalSignatureUtil.Sign` metode untuk menandatangani dokumen Word terenkripsi Anda. Metode ini memerlukan berkas masukan, berkas keluaran, pemegang sertifikat, dan opsi tanda tangan.
+Terakhir, gunakan `DigitalSignatureUtil.Sign` metode untuk menandatangani dokumen Word terenkripsi Anda. Metode ini memerlukan berkas masukan, berkas keluaran, pemegang sertifikat, dan opsi tanda tangan.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -114,10 +116,15 @@ Sayangnya, tanpa kata sandi dekripsi, Anda tidak akan dapat menandatangani dokum
 Ya, Aspose.Words memungkinkan Anda menambahkan tanda tangan digital yang terlihat juga.
 
 ### Apakah ada cara untuk memverifikasi tanda tangan?
- Ya, Anda bisa menggunakan`DigitalSignatureUtil.Verify` metode untuk memverifikasi tanda tangan.
+Ya, Anda bisa menggunakan `DigitalSignatureUtil.Verify` metode untuk memverifikasi tanda tangan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: सरल संलग्न दस्तावेज़
-linktitle: सरल संलग्न दस्तावेज़
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस व्यापक, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके एक Word दस्तावेज़ को दूसरे में कैसे जोड़ा जाए।
-weight: 10
-url: /hi/net/join-and-append-documents/simple-append-document/
+"description": "इस व्यापक, चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके एक Word दस्तावेज़ को दूसरे में जोड़ना सीखें।"
+"linktitle": "सरल संलग्न दस्तावेज़"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सरल संलग्न दस्तावेज़"
+"url": "/hi/net/join-and-append-documents/simple-append-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सरल संलग्न दस्तावेज़
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/simple-append-document/
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है, तो यहां से लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक ऐसा नहीं किया है, तो लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: आप विजुअल स्टूडियो या किसी अन्य .NET संगत IDE का उपयोग कर सकते हैं।
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# प्रोग्रामिंग की बुनियादी समझ है।
 4. दो वर्ड दस्तावेज़: सुनिश्चित करें कि आपके पास विलय के लिए दो वर्ड दस्तावेज़ तैयार हैं।
@@ -42,7 +44,7 @@ using Aspose.Words.Saving;
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपका प्रोजेक्ट सही तरीके से सेट अप किया गया है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
 1. नया प्रोजेक्ट बनाएँ: Visual Studio खोलें और एक नया कंसोल ऐप प्रोजेक्ट बनाएँ।
-2.  Aspose.Words संदर्भ जोड़ें: Aspose.Words लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में जोड़ें। आप NuGet पैकेज मैनेजर के ज़रिए खोज करके ऐसा कर सकते हैं`Aspose.Words`.
+2. Aspose.Words संदर्भ जोड़ें: Aspose.Words लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में जोड़ें। आप NuGet पैकेज मैनेजर के ज़रिए खोज करके ऐसा कर सकते हैं `Aspose.Words`.
 
 ```csharp
 Install-Package Aspose.Words
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ों के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ों के वास्तविक पथ के साथ.
 
 ## चरण 3: स्रोत दस्तावेज़ लोड करें
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
- यहाँ, हम एक नया निर्माण कर रहे हैं`Document` ऑब्जेक्ट और अपनी निर्देशिका से "दस्तावेज़ स्रोत.docx" नामक फ़ाइल लोड करना।
+यहाँ, हम एक नया निर्माण कर रहे हैं `Document` ऑब्जेक्ट और अपनी निर्देशिका से "दस्तावेज़ स्रोत.docx" नामक फ़ाइल लोड करना।
 
 ## चरण 4: गंतव्य दस्तावेज़ लोड करें
 
@@ -76,19 +78,19 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- फिर से, हम एक नया निर्माण करते हैं`Document` ऑब्जेक्ट पर जाएँ और अपनी निर्देशिका से "Northwind trader.docx" नामक फ़ाइल लोड करें।
+फिर से, हम एक नया निर्माण करते हैं `Document` ऑब्जेक्ट पर जाएँ और अपनी निर्देशिका से "Northwind trader.docx" नामक फ़ाइल लोड करें।
 
 ## चरण 5: स्रोत दस्तावेज़ जोड़ें
 
- यहीं पर जादू होता है! हम स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में जोड़ देंगे`AppendDocument` तरीका।
+यहीं पर जादू होता है! हम स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में जोड़ देंगे `AppendDocument` तरीका।
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-`AppendDocument` विधि दो पैरामीटर लेती है:
+The `AppendDocument` विधि दो पैरामीटर लेती है:
 1. स्रोत दस्तावेज़: वह दस्तावेज़ जिसे आप जोड़ना चाहते हैं.
-2.  आयात प्रारूप मोड: यह पैरामीटर बताता है कि स्वरूपण को कैसे संभाला जाना चाहिए। यहाँ, हम उपयोग कर रहे हैं`KeepSourceFormatting` स्रोत दस्तावेज़ के स्वरूपण को बनाए रखने के लिए.
+2. आयात प्रारूप मोड: यह पैरामीटर बताता है कि स्वरूपण को कैसे संभाला जाना चाहिए। यहाँ, हम उपयोग कर रहे हैं `KeepSourceFormatting` स्रोत दस्तावेज़ के स्वरूपण को बनाए रखने के लिए.
 
 ## चरण 6: संयुक्त दस्तावेज़ को सहेजें
 
@@ -108,15 +110,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.SimpleAppendDocument.docx");
 
 ### क्या मैं इस विधि का उपयोग करके एकाधिक दस्तावेज़ जोड़ सकता हूँ?
 
- बिल्कुल! आप बार-बार कॉल करके जितने चाहें उतने दस्तावेज़ जोड़ सकते हैं`AppendDocument` विभिन्न स्रोत दस्तावेजों के साथ विधि।
+बिल्कुल! आप बार-बार कॉल करके जितने चाहें उतने दस्तावेज़ जोड़ सकते हैं `AppendDocument` विभिन्न स्रोत दस्तावेजों के साथ विधि।
 
 ### यदि मेरे दस्तावेज़ों का स्वरूपण भिन्न है तो क्या होगा?
 
- आप इसका उपयोग करके यह नियंत्रित कर सकते हैं कि स्वरूपण कैसे संभाला जाए`ImportFormatMode` पैरामीटर. विकल्पों में शामिल हैं`KeepSourceFormatting`, `UseDestinationStyles`, और अधिक।
+आप इसका उपयोग करके यह नियंत्रित कर सकते हैं कि स्वरूपण कैसे संभाला जाए `ImportFormatMode` पैरामीटर. विकल्पों में शामिल हैं `KeepSourceFormatting`, `UseDestinationStyles`, और अधिक।
 
 ### क्या Aspose.Words का उपयोग निःशुल्क है?
 
- Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Words एक निःशुल्क परीक्षण प्रदान करता है जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/)पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या मैं विभिन्न प्रारूपों के दस्तावेज़ जोड़ सकता हूँ?
 
@@ -136,9 +138,14 @@ catch (Exception ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

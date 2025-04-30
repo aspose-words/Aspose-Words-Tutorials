@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/document-splitting-and-formatting/combine-clone-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combining and Cloning Documents for Complex Workflows
@@ -119,9 +122,13 @@ Absolutely, you can modify formatting using methods like `run.font.size` and `ru
 ### Where can I access Aspose.Words documentation?
 You can find comprehensive documentation at [Aspose.Words for Python API Reference](https://reference.aspose.com/words/python-net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

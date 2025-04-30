@@ -1,14 +1,16 @@
 ---
-title: फॉर्मफील्ड्स के साथ शब्द प्रसंस्करण
-linktitle: फॉर्मफील्ड्स के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड के साथ काम करना सीखें। कोड उदाहरणों के साथ विस्तृत ट्यूटोरियल।
-weight: 690
-url: /hi/net/working-with-formfields/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड के साथ काम करना सीखें। कोड उदाहरणों के साथ विस्तृत ट्यूटोरियल।"
+"linktitle": "फॉर्मफील्ड्स के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फॉर्मफील्ड्स के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/working-with-formfields/"
+"weight": 690
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फॉर्मफील्ड्स के साथ शब्द प्रसंस्करण
@@ -19,12 +21,17 @@ url: /hi/net/working-with-formfields/
 | शीर्षक | विवरण |
 | --- | --- |
 | [फॉर्म फ़ील्ड डालें](./insert-form-fields/) | हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में कॉम्बो बॉक्स फ़ॉर्म फ़ील्ड सम्मिलित करना सीखें। |
-| [फॉर्म फ़ील्ड्स गुणों के साथ कार्य करें](./form-fields-work-with-properties/) | हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड में हेरफेर करना सीखें। |
+| [फॉर्म फ़ील्ड्स गुणों के साथ काम करें](./form-fields-work-with-properties/) हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड में हेरफेर करना सीखें। |
 | [फ़ॉर्म फ़ील्ड फ़ॉर्म फ़ील्ड संग्रह प्राप्त करें](./form-fields-get-form-fields-collection/) | हमारे व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड प्राप्त करने और उनमें हेरफेर करने का तरीका जानें। |
 | [फॉर्म फ़ील्ड नाम से प्राप्त करें](./form-fields-get-by-name/) | इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नाम से फ़ॉर्म फ़ील्ड प्राप्त करना और संशोधित करना सीखें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

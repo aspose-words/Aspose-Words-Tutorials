@@ -1,14 +1,16 @@
 ---
-title: 在 Aspose.Words for Java 中使用文件屬性
-linktitle: 使用文件屬性
-second_title: Aspose.Words Java 文件處理 API
-description: 使用 Aspose.Words for Java 最佳化文件管理。在這個綜合教學中學習如何使用文件屬性、新增自訂元資料等。
-weight: 32
-url: /zh-hant/java/document-manipulation/using-document-properties/
+"description": "使用 Aspose.Words for Java 最佳化文件管理。在本綜合教學中學習如何使用文件屬性、新增自訂元資料等。"
+"linktitle": "使用文件屬性"
+"second_title": "Aspose.Words Java文件處理API"
+"title": "在 Aspose.Words for Java 中使用文件屬性"
+"url": "/zh-hant/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Aspose.Words for Java 中使用文件屬性
@@ -63,7 +65,7 @@ public void addCustomDocumentProperties() throws Exception
 
 ## 刪除文檔屬性
 
-若要刪除特定文檔屬性，可以使用下列程式碼：
+若要刪除特定的文檔屬性，可以使用下列程式碼：
 
 ```java
 @Test
@@ -78,7 +80,7 @@ public void removeCustomDocumentProperties() throws Exception
 
 ## 配置內容連結
 
-在某些情況下，您可能希望在文件中建立連結。您可以這樣做：
+在某些情況下，您可能希望在文件中建立連結。您可以按照以下步驟操作：
 
 ```java
 @Test
@@ -92,7 +94,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    //新增連結到內容屬性。
+    // 新增連結到內容屬性。
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -105,7 +107,7 @@ public void configuringLinkToContent() throws Exception
 
 ## 測量單位之間的轉換
 
-在Aspose.Words for Java中，您可以輕鬆轉換測量單位。以下是如何執行此操作的範例：
+在 Aspose.Words for Java 中，您可以輕鬆轉換測量單位。以下是操作方法的範例：
 
 ```java
 @Test
@@ -115,7 +117,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    //設定頁邊距（以英吋為單位）。
+    // 以英吋為單位設定邊距。
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -125,11 +127,11 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-此程式碼片段透過將各種邊距和距離（以英吋為單位）轉換為點來設定它們。
+此程式碼片段透過將各種邊距和距離轉換為點來設定以英吋為單位的各種邊距和距離。
 
 ## 使用控製字符
 
-處理文字時控製字元很有用。以下是替換文字中控製字元的方法：
+處理文字時控製字元很有用。以下是替換文字中的控製字元的方法：
 
 ```java
 @Test
@@ -137,41 +139,46 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    //將“\r”控製字元替換為“\r\n”。
+    // 將“\r”控製字元替換為“\r\n”。
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-在此範例中，我們替換回車符 (`\r`），回車後跟換行符（`\r\n`）。
+在此範例中，我們將回車符 (`\r`) 以回車符結尾，然後換行 (`\r\n`）。
 
 ## 結論
 
-文件屬性在 Aspose.Words for Java 中有效管理和組織文件方面發揮著重要作用。無論是使用內建屬性、自訂屬性或使用控製字符，您都可以使用一系列工具來增強文件管理功能。
+文件屬性在 Aspose.Words for Java 中有效管理和組織文件方面發揮著重要作用。無論是使用內建屬性、自訂屬性或使用控製字符，您都可以使用一系列工具來增強文件管理能力。
 
 ## 常見問題解答
 
 ### 如何存取內建文件屬性？
 
-要存取 Aspose.Words for Java 中的內建文件屬性，您可以使用`getBuiltInDocumentProperties`方法上的`Document`目的。此方法傳回您可以迭代的內建屬性的集合。
+要存取 Aspose.Words for Java 中的內建文件屬性，您可以使用 `getBuiltInDocumentProperties` 方法 `Document` 目的。此方法傳回您可以迭代的內建屬性集合。
 
 ### 我可以為文件新增自訂文件屬性嗎？
 
-是的，您可以使用以下命令將自訂文件屬性新增至文件：`CustomDocumentProperties`收藏。您可以使用各種資料類型定義自訂屬性，包括字串、布林值、日期和數值。
+是的，您可以使用 `CustomDocumentProperties` 收藏。您可以使用各種資料類型定義自訂屬性，包括字串、布林值、日期和數值。
 
 ### 如何刪除特定的自訂文件屬性？
 
-若要刪除特定的自訂文件屬性，您可以使用`remove`方法上的`CustomDocumentProperties`集合，將要刪除的屬性的名稱作為參數傳遞。
+若要刪除特定的自訂文件屬性，您可以使用 `remove` 方法 `CustomDocumentProperties` 集合，將要刪除的屬性的名稱作為參數傳遞。
 
-### 連結到文件內容的目的是什麼？
+### 連結到文件中的內容的目的是什麼？
 
-連結到文件中的內容可讓您建立對文件特定部分的動態引用。這對於建立互動式文件或各部分之間的交叉引用非常有用。
+透過連結到文件中的內容，您可以建立對文件特定部分的動態引用。這對於建立互動式文件或各部分之間的交叉引用很有用。
 
-### 如何在 Aspose.Words for Java 中的不同測量單位之間進行轉換？
+### 如何在 Aspose.Words for Java 中轉換不同的測量單位？
 
-您可以使用 Aspose.Words for Java 在不同的測量單位之間進行轉換`ConvertUtil`班級。它提供了將英吋轉換為點、點轉換為公分等單位的方法。
+您可以使用 Aspose.Words for Java 中的不同測量單位進行轉換 `ConvertUtil` 班級。它提供了將英吋轉換為點、將點轉換為公分等單位的方法。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

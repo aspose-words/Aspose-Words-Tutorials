@@ -1,26 +1,28 @@
 ---
-title: Aspose.Words for Java でのドキュメント形式の決定
-linktitle: 文書形式の決定
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words を使用して Java でドキュメント形式を検出する方法を学びます。DOC、DOCX などを識別します。ファイルを効率的に整理します。
-weight: 25
-url: /ja/java/document-loading-and-saving/determining-document-format/
+"description": "Aspose.Wordsを使ってJavaでドキュメント形式を検出する方法を学びましょう。DOC、DOCXなどを識別し、ファイルを効率的に整理します。"
+"linktitle": "ドキュメント形式の決定"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でのドキュメント形式の判別"
+"url": "/ja/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でのドキュメント形式の決定
+# Aspose.Words for Java でのドキュメント形式の判別
 
 
 ## Aspose.Words for Java でのドキュメント形式の判別の概要
 
-Java でドキュメント処理を行う場合、処理するファイルの形式を決定することが重要です。Aspose.Words for Java には、ドキュメント形式を識別するための強力な機能が用意されており、そのプロセスについて説明します。
+Javaでドキュメント処理を行う場合、扱うファイルの形式を判別することが重要です。Aspose.Words for Javaは、ドキュメント形式を識別するための強力な機能を備えており、その手順を詳しく説明します。
 
 ## 前提条件
 
-始める前に、次の前提条件を満たしていることを確認してください。
+始める前に、次の前提条件が満たされていることを確認してください。
 
 - [Java 用 Aspose.Words](https://releases.aspose.com/words/java/)
 - システムにJava開発キット（JDK）がインストールされている
@@ -28,7 +30,7 @@ Java でドキュメント処理を行う場合、処理するファイルの形
 
 ## ステップ1: ディレクトリの設定
 
-まず、ファイルを効率的に整理するために必要なディレクトリを設定する必要があります。さまざまなドキュメント タイプごとにディレクトリを作成します。
+まず、ファイルを効率的に整理するために必要なディレクトリを設定する必要があります。ドキュメントの種類ごとにディレクトリを作成します。
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -36,7 +38,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-//ディレクトリがまだ存在しない場合は作成します。
+// ディレクトリがまだ存在しない場合は作成します。
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -47,11 +49,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-サポートされている、不明な、暗号化された、および 97 より前のドキュメント タイプ用のディレクトリを作成しました。
+サポートされている、不明な、暗号化されている、および 97 より前のドキュメント タイプ用のディレクトリを作成しました。
 
 ## ステップ2: ドキュメント形式の検出
 
-次に、ディレクトリ内のドキュメントの形式を検出してみましょう。これを実現するには、Aspose.Words for Java を使用します。
+それでは、ディレクトリ内のドキュメントのフォーマットを検出してみましょう。これにはAspose.Words for Javaを使用します。
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -64,20 +66,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    //ドキュメントの種類を表示する
+    // ドキュメントの種類を表示する
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        //必要に応じて他のドキュメント形式のケースを追加します
+        // 必要に応じて他のドキュメント形式のケースを追加します
     }
 
-    //暗号化された文書を処理する
+    // 暗号化された文書を扱う
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        //その他のドキュメントタイプを処理する
+        // 他のドキュメントタイプを処理する
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,14 +97,14 @@ for (String fileName : listFiles) {
 
 このコード スニペットでは、ファイルを反復処理し、その形式を検出して、それぞれのディレクトリに整理します。
 
-## Aspose.Words for Java でドキュメント形式を決定するための完全なソース コード
+## Aspose.Words for Java でドキュメント形式を決定するための完全なソースコード
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        //ディレクトリがまだ存在しない場合は作成します。
+        // ディレクトリがまだ存在しない場合は作成します。
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -119,7 +121,7 @@ for (String fileName : listFiles) {
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            //ドキュメントの種類を表示する
+            // ドキュメントの種類を表示する
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,32 +191,37 @@ for (String fileName : listFiles) {
 
 ## 結論
 
-Aspose.Words for Java でドキュメント形式を決定することは、効率的なドキュメント処理に不可欠です。このガイドで説明する手順に従うと、ドキュメントの種類を識別し、Java アプリケーションでそれに応じて処理できます。
+Aspose.Words for Java でドキュメント形式を判別することは、効率的なドキュメント処理に不可欠です。このガイドで概説されている手順に従うことで、ドキュメントの種類を識別し、Java アプリケーションで適切に処理できるようになります。
 
 ## よくある質問
 
 ### Aspose.Words for Java をインストールするにはどうすればよいですか?
 
- Aspose.Words for Javaは以下からダウンロードできます。[ここ](https://releases.aspose.com/words/java/)提供されているインストール手順に従ってください。
+Aspose.Words for Javaは以下からダウンロードできます。 [ここ](https://releases.aspose.com/words/java/) 提供されているインストール手順に従ってください。
 
 ### サポートされているドキュメント形式は何ですか?
 
-Aspose.Words for Java は、DOC、DOCX、RTF、HTML など、さまざまなドキュメント形式をサポートしています。完全なリストについては、ドキュメントを参照してください。
+Aspose.Words for Javaは、DOC、DOCX、RTF、HTMLなど、様々なドキュメント形式をサポートしています。完全なリストについては、ドキュメントをご覧ください。
 
-### Aspose.Words for Java を使用して暗号化されたドキュメントを検出するにはどうすればよいですか?
+### Aspose.Words for Java を使用して暗号化されたドキュメントを検出するにはどうすればよいでしょうか?
 
-あなたは`FileFormatUtil.detectFileFormat()`このガイドで説明されているように、暗号化されたドキュメントを検出する方法。
+使用することができます `FileFormatUtil.detectFileFormat()` このガイドで説明されているように、暗号化されたドキュメントを検出する方法。
 
 ### 古いドキュメント形式で作業する場合、何か制限はありますか?
 
-MS Word 6 や Word 95 などの古いドキュメント形式では、機能や最新のアプリケーションとの互換性の点で制限がある場合があります。必要に応じて、これらのドキュメントをアップグレードまたは変換することを検討してください。
+MS Word 6やWord 95などの古いドキュメント形式は、機能や最新のアプリケーションとの互換性に関して制限がある場合があります。必要に応じて、これらのドキュメントのアップグレードまたは変換をご検討ください。
 
 ### Java アプリケーションでドキュメント形式の検出を自動化できますか?
 
-はい、提供されているコードを Java アプリケーションに統合することで、ドキュメント形式の検出を自動化できます。これにより、検出された形式に基づいてドキュメントを処理できるようになります。
+はい、提供されているコードをJavaアプリケーションに統合することで、ドキュメント形式の検出を自動化できます。これにより、検出された形式に基づいてドキュメントを処理できるようになります。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

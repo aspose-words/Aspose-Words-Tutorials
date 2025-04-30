@@ -7,8 +7,11 @@ weight: 16
 url: /python-net/tables-and-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tables and Formatting
@@ -46,9 +49,13 @@ Learn how to create and format watermarks in documents using Aspose.Words for Py
 Learn how to optimize tables for data presentation in Word documents using Aspose.Words for Python. Enhance readability and visual appeal with step-by-step guidance and source code examples.
 ### [Document Table Styles and Formatting](./document-table-styles-formatting/)
 Learn how to style and format document tables using Aspose.Words for Python. Create, customize, and export tables with step-by-step guides and code examples. Enhance your document presentations today! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

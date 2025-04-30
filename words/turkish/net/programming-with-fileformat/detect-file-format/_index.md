@@ -1,14 +1,16 @@
 ---
-title: Belge Dosya Biçimini Algıla
-linktitle: Belge Dosya Biçimini Algıla
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak belge dosya biçimlerini nasıl algılayacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-fileformat/detect-file-format/
+"description": "Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak belge dosya biçimlerini nasıl algılayacağınızı öğrenin."
+"linktitle": "Belge Dosya Biçimini Algıla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Dosya Biçimini Algıla"
+"url": "/tr/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Dosya Biçimini Algıla
@@ -21,7 +23,7 @@ Günümüzün dijital dünyasında, farklı belge biçimlerini verimli bir şeki
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/) . Geçerli bir lisansınız olduğundan emin olun. Değilse, bir tane alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/). Geçerli bir lisansınız olduğundan emin olun. Değilse, bir tane alabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: Güncel herhangi bir sürüm sorunsuz çalışacaktır.
 - .NET Framework: Doğru sürümün yüklü olduğundan emin olun.
 
@@ -174,14 +176,19 @@ Evet, Aspose.Words bir belgenin şifrelenip şifrelenmediğini tespit edebilir v
 Aspose.Words DOC, DOCX, RTF, HTML, MHTML, ODT ve daha birçok formatı algılayabilir.
 
 ### Aspose.Words için geçici lisansı nasıl alabilirim?
- Geçici bir lisansı şuradan alabilirsiniz:[Aspose Satın Alma](https://purchase.aspose.com/temporary-license/) sayfa.
+Geçici bir lisansı şuradan alabilirsiniz: [Aspose Satın Alma](https://purchase.aspose.com/temporary-license/) sayfa.
 
 ### Aspose.Words'ün dokümanlarını nerede bulabilirim?
- Aspose.Words'ün belgeleri şurada bulunabilir:[Burada](https://reference.aspose.com/words/net/).
+Aspose.Words için belgeler şurada bulunabilir: [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belge Şekillerini Kullanma
-linktitle: Belge Şekillerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da Belge Şekillerinin Gücünü Açın. Adım Adım Örneklerle Görsel Olarak İlgi Çekici Belgeler Oluşturmayı Öğrenin.
-weight: 14
-url: /tr/java/document-conversion-and-export/using-document-shapes/
+"description": "Aspose.Words for Java'da Belge Şekillerinin Gücünü Açın. Adım Adım Örneklerle Görsel Olarak İlgi Çekici Belgeler Oluşturmayı Öğrenin."
+"linktitle": "Belge Şekillerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belge Şekillerini Kullanma"
+"url": "/tr/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belge Şekillerini Kullanma
@@ -20,13 +22,13 @@ Bu kapsamlı kılavuzda, Java için Aspose.Words'deki belge şekillerinin dünya
 
 ## Belge Şekillerine Başlarken
 
- Koda geçmeden önce ortamımızı ayarlayalım. Projenize Aspose.Words for Java'nın entegre olduğundan emin olun. Eğer henüz entegre etmediyseniz, Aspose web sitesinden indirebilirsiniz[Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
+Koda geçmeden önce ortamımızı ayarlayalım. Projenize Aspose.Words for Java'nın entegre olduğundan emin olun. Eğer henüz entegre etmediyseniz, Aspose web sitesinden indirebilirsiniz [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
 
 ## Belgelere Şekil Ekleme
 
 ### Bir GroupShape Ekleme
 
- A`GroupShape` birden fazla şekli bir arada gruplamanıza olanak tanır. İşte bir şekli nasıl oluşturabileceğiniz ve ekleyebileceğiniz`GroupShape`:
+A `GroupShape` birden fazla şekli bir arada gruplamanıza olanak tanır. İşte bir şekli nasıl oluşturabileceğiniz ve ekleyebileceğiniz `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### Bir Metin Kutusu Şekli Ekleme
 
- Bir metin kutusu şekli eklemek için şunu kullanabilirsiniz:`insertShape` Aşağıdaki örnekte gösterildiği gibi bir yöntem:
+Bir metin kutusu şekli eklemek için şunu kullanabilirsiniz: `insertShape` Aşağıdaki örnekte gösterildiği gibi bir yöntem:
 
 ```java
 Document doc = new Document();
@@ -178,7 +180,7 @@ Aspose.Words for Java, geliştiricilerin Word belgelerini programatik olarak olu
 
 ### Aspose.Words for Java'yı nasıl indirebilirim?
 
- Aspose.Words for Java'yı Aspose web sitesinden şu bağlantıyı takip ederek indirebilirsiniz:[Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
+Aspose.Words for Java'yı Aspose web sitesinden şu bağlantıyı takip ederek indirebilirsiniz: [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
 
 ### Belge şekillerini kullanmanın faydaları nelerdir?
 
@@ -191,9 +193,14 @@ Evet, şekillerin boyut, konum, dönüş ve dolgu rengi gibi özelliklerini ayar
 ### Aspose.Words for Java SmartArt ile uyumlu mudur?
 
 Evet, Aspose.Words for Java SmartArt şekillerini destekler ve belgelerinizde karmaşık diyagramlar ve grafiklerle çalışmanıza olanak tanır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

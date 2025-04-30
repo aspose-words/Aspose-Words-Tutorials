@@ -1,14 +1,16 @@
 ---
-title: Ẩn trục biểu đồ trong tài liệu Word
-linktitle: Ẩn trục biểu đồ trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách ẩn trục biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-charts/hide-chart-axis/
+"description": "Tìm hiểu cách ẩn trục biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi."
+"linktitle": "Ẩn trục biểu đồ trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Ẩn trục biểu đồ trong tài liệu Word"
+"url": "/vi/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ẩn trục biểu đồ trong tài liệu Word
@@ -21,7 +23,7 @@ Việc tạo các tài liệu Word động và hấp dẫn về mặt hình ản
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ IDE nào hỗ trợ phát triển .NET, chẳng hạn như Visual Studio.
 - .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình.
 - Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ có lợi.
@@ -50,18 +52,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong bước này, chúng tôi xác định đường dẫn nơi tài liệu sẽ được lưu. Sau đó, chúng tôi tạo một`Document` đối tượng và một`DocumentBuilder` đối tượng để bắt đầu xây dựng tài liệu của chúng ta.
+Trong bước này, chúng tôi xác định đường dẫn nơi tài liệu sẽ được lưu. Sau đó, chúng tôi tạo một `Document` đối tượng và một `DocumentBuilder` đối tượng để bắt đầu xây dựng tài liệu của chúng ta.
 
 ## Bước 2: Chèn biểu đồ
 
- Tiếp theo, chúng ta sẽ chèn một biểu đồ vào tài liệu bằng cách sử dụng`DocumentBuilder` sự vật.
+Tiếp theo, chúng ta sẽ chèn một biểu đồ vào tài liệu bằng cách sử dụng `DocumentBuilder` sự vật.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Ở đây, chúng tôi chèn một biểu đồ cột có kích thước được chỉ định.`InsertChart` phương pháp trả về một`Shape` đối tượng chứa biểu đồ.
+Ở đây, chúng tôi chèn một biểu đồ cột có kích thước được chỉ định. `InsertChart` phương pháp trả về một `Shape` đối tượng chứa biểu đồ.
 
 ## Bước 3: Xóa chuỗi hiện có
 
@@ -87,7 +89,7 @@ chart.Series.Add("Aspose Series 1",
 
 ## Bước 5: Ẩn Trục Y
 
- Để ẩn trục Y của biểu đồ, chúng ta chỉ cần đặt`Hidden` tính chất của trục Y`true`.
+Để ẩn trục Y của biểu đồ, chúng ta chỉ cần đặt `Hidden` tính chất của trục Y `true`.
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -115,20 +117,25 @@ Xin chúc mừng! Bạn đã học thành công cách ẩn trục biểu đồ t
 Aspose.Words for .NET là một API mạnh mẽ để tạo, chỉnh sửa, chuyển đổi và thao tác các tài liệu Word trong các ứng dụng .NET.
 
 ### Tôi có thể ẩn cả trục X và Y trong biểu đồ không?
- Có, bạn có thể ẩn cả hai trục bằng cách thiết lập`Hidden` tài sản của cả hai`AxisX` Và`AxisY` ĐẾN`true`.
+Có, bạn có thể ẩn cả hai trục bằng cách thiết lập `Hidden` tài sản của cả hai `AxisX` Và `AxisY` ĐẾN `true`.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về Aspose.Words cho .NET[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về Aspose.Words cho .NET [đây](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

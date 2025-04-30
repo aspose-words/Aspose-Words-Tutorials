@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ में पासवर्ड सुरक्षा
-linktitle: वर्ड दस्तावेज़ में पासवर्ड सुरक्षा
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों को पासवर्ड सुरक्षा के साथ कैसे सुरक्षित किया जाए।
-weight: 10
-url: /hi/net/document-protection/password-protection/
+"description": "इस विस्तृत चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों को पासवर्ड सुरक्षा के साथ कैसे सुरक्षित किया जाए।"
+"linktitle": "वर्ड दस्तावेज़ में पासवर्ड सुरक्षा"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ में पासवर्ड सुरक्षा"
+"url": "/hi/net/document-protection/password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ में पासवर्ड सुरक्षा
@@ -21,14 +23,14 @@ url: /hi/net/document-protection/password-protection/
 
 इससे पहले कि हम आपके वर्ड दस्तावेजों को पासवर्ड से सुरक्षित करने की बारीकियों में उतरें, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य C# विकास वातावरण।
 3. बुनियादी C# ज्ञान: C# प्रोग्रामिंग की मूलभूत समझ।
-4.  Aspose लाइसेंस: यहाँ से लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/buy) या का उपयोग करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+4. Aspose लाइसेंस: यहाँ से लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/buy) या का उपयोग करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ## नामस्थान आयात करें
 
-शुरू करने के लिए, आपको अपने प्रोजेक्ट में आवश्यक नेमस्पेस आयात करने की आवश्यकता है। यह चरण सुनिश्चित करता है कि आपके पास Aspose.Words द्वारा प्रदान की जाने वाली सभी कार्यक्षमताओं तक पहुँच है।
+शुरू करने के लिए, आपको अपने प्रोजेक्ट में आवश्यक नामस्थान आयात करने की आवश्यकता है। यह चरण सुनिश्चित करता है कि आपके पास Aspose.Words द्वारा प्रदान की जाने वाली सभी कार्यक्षमताओं तक पहुँच है।
 
 ```csharp
 using Aspose.Words;
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 अब जबकि हमारा प्रोजेक्ट तैयार हो गया है, आइए एक वर्ड दस्तावेज़ बनाएं जिसे हम सुरक्षित रख सकें।
 
- आपके`Program.cs` फ़ाइल, का एक नया उदाहरण आरंभ करें`Document` क्लास. यह क्लास उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे.
+आपके `Program.cs` फ़ाइल, का एक नया उदाहरण आरंभ करें `Document` क्लास. यह क्लास उस वर्ड दस्तावेज़ का प्रतिनिधित्व करता है जिसके साथ आप काम करेंगे.
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -70,11 +72,11 @@ Document doc = new Document();
 
 ### सुरक्षा प्रकार चुनें
 
- Aspose.Words विभिन्न प्रकार की सुरक्षा प्रदान करता है, जैसे`NoProtection`, `ReadOnly`, `AllowOnlyComments` , और`AllowOnlyFormFields`इस उदाहरण के लिए, हम उपयोग करेंगे`NoProtection` लेकिन पासवर्ड के साथ, जिसका अनिवार्य रूप से अर्थ यह है कि दस्तावेज़ संपादन योग्य है लेकिन सुरक्षा हटाने के लिए पासवर्ड की आवश्यकता है।
+Aspose.Words विभिन्न प्रकार की सुरक्षा प्रदान करता है, जैसे `NoProtection`, `ReadOnly`, `AllowOnlyComments`, और `AllowOnlyFormFields`इस उदाहरण के लिए, हम उपयोग करेंगे `NoProtection` लेकिन पासवर्ड के साथ, जिसका अनिवार्य रूप से अर्थ यह है कि दस्तावेज़ संपादन योग्य है लेकिन सुरक्षा हटाने के लिए पासवर्ड की आवश्यकता है।
 
 ### सुरक्षा लागू करें
 
- उपयोग`Protect` की विधि`Document` पासवर्ड सुरक्षा लागू करने के लिए क्लास. 
+उपयोग `Protect` की विधि `Document` पासवर्ड सुरक्षा लागू करने के लिए क्लास. 
 
 ```csharp
 // दस्तावेज़ सुरक्षा लागू करें.
@@ -86,7 +88,7 @@ doc.Protect(ProtectionType.NoProtection, "password");
 अंत में, आइए अपने संरक्षित दस्तावेज़ को निर्दिष्ट निर्देशिका में सेव करें।
 
 
- उपयोग`Save` अपने दस्तावेज़ को सहेजने की विधि। फ़ाइल नाम के साथ वह पथ प्रदान करें जहाँ आप दस्तावेज़ को सहेजना चाहते हैं।
+उपयोग `Save` अपने दस्तावेज़ को सहेजने की विधि। फ़ाइल नाम के साथ वह पथ प्रदान करें जहाँ आप दस्तावेज़ को सहेजना चाहते हैं।
 
 ```csharp
 doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
@@ -100,11 +102,11 @@ doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
 
 ### क्या मैं Aspose.Words के साथ विभिन्न प्रकार की सुरक्षा का उपयोग कर सकता हूँ?
 
-हाँ, Aspose.Words विभिन्न प्रकार की सुरक्षा का समर्थन करता है, जिसमें शामिल हैं`ReadOnly`, `AllowOnlyComments` , और`AllowOnlyFormFields`.
+हाँ, Aspose.Words विभिन्न प्रकार की सुरक्षा का समर्थन करता है, जिसमें शामिल हैं `ReadOnly`, `AllowOnlyComments`, और `AllowOnlyFormFields`.
 
 ### मैं किसी दस्तावेज़ से पासवर्ड सुरक्षा कैसे हटा सकता हूँ?
 
- सुरक्षा हटाने के लिए, का उपयोग करें`Unprotect` विधि का चयन करें और सही पासवर्ड प्रदान करें।
+सुरक्षा हटाने के लिए, का उपयोग करें `Unprotect` विधि का चयन करें और सही पासवर्ड प्रदान करें।
 
 ### क्या Aspose.Words .NET कोर के साथ संगत है?
 
@@ -112,15 +114,20 @@ doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
 
 ### क्या मैं पहले से मौजूद दस्तावेज़ को पासवर्ड से सुरक्षित कर सकता हूँ?
 
- बिल्कुल! आप किसी मौजूदा दस्तावेज़ को लोड कर सकते हैं`Document` क्लास और फिर सुरक्षा लागू करें।
+बिल्कुल! आप किसी मौजूदा दस्तावेज़ को लोड कर सकते हैं `Document` क्लास और फिर सुरक्षा लागू करें।
 
 ### मैं Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप अधिक दस्तावेज़ यहां पा सकते हैं[Aspose.Words दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/words/net/).
+आप अधिक दस्तावेज़ यहां पा सकते हैं [Aspose.Words दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

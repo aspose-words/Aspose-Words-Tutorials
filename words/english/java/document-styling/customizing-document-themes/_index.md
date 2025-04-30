@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-styling/customizing-document-themes/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Document Themes
@@ -130,9 +133,13 @@ Customizing document themes using Aspose.Words for Java empowers you to create v
 
 Now that you have the knowledge and code at your disposal, go ahead and enhance your Java document processing capabilities with Aspose.Words. Create stunning documents that stand out and impress your users.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

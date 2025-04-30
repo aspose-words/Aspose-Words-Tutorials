@@ -7,8 +7,11 @@ weight: 16
 url: /python-net/document-combining-and-comparison/secure-documents-protection/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Securing Documents with Advanced Protection Techniques
@@ -99,9 +102,13 @@ Digital signatures ensure document authenticity and integrity, making it harder 
 
 Utilize the redaction feature to permanently remove sensitive information from a document.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

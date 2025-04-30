@@ -1,14 +1,16 @@
 ---
-title: การร่างสารบัญที่ครอบคลุมสำหรับเอกสาร Word
-linktitle: การร่างสารบัญที่ครอบคลุมสำหรับเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: สร้างสารบัญที่อ่านง่ายด้วย Aspose.Words สำหรับ Python เรียนรู้วิธีสร้าง ปรับแต่ง และอัปเดตโครงสร้างเอกสารของคุณได้อย่างราบรื่น
-weight: 15
-url: /th/python-net/document-combining-and-comparison/generate-table-contents/
+"description": "สร้างสารบัญที่อ่านง่ายด้วย Aspose.Words สำหรับ Python เรียนรู้วิธีสร้าง ปรับแต่ง และอัปเดตโครงสร้างเอกสารของคุณได้อย่างราบรื่น"
+"linktitle": "การร่างสารบัญที่ครอบคลุมสำหรับเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การร่างสารบัญที่ครอบคลุมสำหรับเอกสาร Word"
+"url": "/th/python-net/document-combining-and-comparison/generate-table-contents/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การร่างสารบัญที่ครอบคลุมสำหรับเอกสาร Word
@@ -20,14 +22,14 @@ url: /th/python-net/document-combining-and-comparison/generate-table-contents/
 
 ## การจัดเตรียมสภาพแวดล้อม
 
- ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/python/)นอกจากนี้ ตรวจสอบให้แน่ใจว่าคุณมีเอกสาร Word ตัวอย่างที่คุณต้องการปรับปรุงด้วยสารบัญ
+ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ Python แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/words/python/)นอกจากนี้ โปรดแน่ใจว่าคุณมีเอกสาร Word ตัวอย่างที่คุณต้องการปรับปรุงด้วยสารบัญ
 
 ## การโหลดเอกสาร
 
 ```python
 import aspose.words as aw
 
-# Load the document
+# โหลดเอกสาร
 doc = aw.Document("your_document.docx")
 ```
 
@@ -36,12 +38,12 @@ doc = aw.Document("your_document.docx")
 หากต้องการสร้างสารบัญ คุณต้องกำหนดหัวเรื่องและหัวเรื่องย่อยในเอกสารของคุณ ใช้รูปแบบย่อหน้าที่เหมาะสมเพื่อทำเครื่องหมายส่วนต่างๆ เหล่านี้ ตัวอย่างเช่น ใช้ "หัวเรื่อง 1" สำหรับหัวเรื่องหลักและ "หัวเรื่อง 2" สำหรับหัวเรื่องย่อย
 
 ```python
-# Define headings and subheadings
+# กำหนดหัวข้อและหัวข้อย่อย
 for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     if para.paragraph_format.style_name == "Heading 1":
-        # Add main heading
+        # เพิ่มหัวข้อหลัก
     elif para.paragraph_format.style_name == "Heading 2":
-        # Add subheading
+        # เพิ่มหัวข้อย่อย
 ```
 
 ## การปรับแต่งสารบัญ
@@ -49,18 +51,18 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
 คุณสามารถปรับแต่งลักษณะของสารบัญได้โดยการปรับเปลี่ยนแบบอักษร สไตล์ และการจัดรูปแบบ อย่าลืมใช้การจัดรูปแบบที่สม่ำเสมอตลอดทั้งเอกสารเพื่อให้ดูสวยงาม
 
 ```python
-# Customize the appearance of the table of contents
+# ปรับแต่งรูปลักษณ์ของสารบัญ
 for para in toc_body.get_child_nodes(aw.NodeType.PARAGRAPH, False):
     para.paragraph_format.style_name = "TOC Entries"
-```
--
+-`
+``
 
 ## การจัดรูปแบบสารบัญ
 
 การจัดรูปแบบสารบัญเกี่ยวข้องกับการกำหนดรูปแบบย่อหน้าที่เหมาะสมสำหรับชื่อเรื่อง รายการ และองค์ประกอบอื่นๆ
 
 ```python
-# Define styles for the table of contents
+# กำหนดรูปแบบสำหรับสารบัญ
 toc_title.style.name = "Table of Contents Title"
 doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 ```
@@ -70,14 +72,14 @@ doc.styles.add_style("Table of Contents Title", aw.StyleType.PARAGRAPH)
 เพื่อประหยัดเวลาและมั่นใจถึงความสม่ำเสมอ โปรดพิจารณาสร้างสคริปต์ที่สร้างและอัปเดตสารบัญสำหรับเอกสารของคุณโดยอัตโนมัติ
 
 ```python
-# Automation script
+# สคริปต์อัตโนมัติ
 def generate_table_of_contents(document_path):
-    # Load the document
+    # โหลดเอกสาร
     doc = aw.Document(document_path)
 
-    # ... (Rest of the code)
+    # ... (ส่วนที่เหลือของโค้ด)
 
-    # Update the table of contents
+    # อัปเดตสารบัญ
     doc.update_fields()
     doc.save(document_path)
 ```
@@ -94,7 +96,7 @@ def generate_table_of_contents(document_path):
 
 ### ฉันสามารถเปลี่ยนขนาดตัวอักษรของรายการสารบัญได้หรือไม่
 
-แน่นอน! ปรับแต่งรูปแบบ "รายการ TOC" โดยการปรับขนาดตัวอักษรและคุณลักษณะการจัดรูปแบบอื่น ๆ ให้ตรงกับสุนทรียภาพของเอกสารของคุณ
+แน่นอน! ปรับแต่งรูปแบบ "รายการ TOC" โดยการปรับขนาดตัวอักษรและคุณลักษณะการจัดรูปแบบอื่น ๆ ให้ตรงกับสุนทรียศาสตร์ของเอกสารของคุณ
 
 ### เป็นไปได้ไหมที่จะสร้างสารบัญสำหรับเอกสารที่มีอยู่?
 
@@ -103,9 +105,14 @@ def generate_table_of_contents(document_path):
 ### ฉันจะลบสารบัญออกจากเอกสารของฉันได้อย่างไร
 
 หากคุณตัดสินใจที่จะลบสารบัญ เพียงลบส่วนที่มีสารบัญ อย่าลืมอัปเดตหมายเลขหน้าที่เหลือเพื่อสะท้อนถึงการเปลี่ยนแปลง
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

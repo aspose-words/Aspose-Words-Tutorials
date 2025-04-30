@@ -1,14 +1,16 @@
 ---
-title: ลบส่วน
-linktitle: ลบส่วน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: จัดการเอกสารอย่างเชี่ยวชาญด้วย Aspose.Words สำหรับ .NET เรียนรู้วิธีการลบส่วนต่างๆ ออกจากเอกสาร Word ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน
-weight: 10
-url: /th/net/working-with-section/delete-section/
+"description": "จัดการเอกสารอย่างเชี่ยวชาญด้วย Aspose.Words สำหรับ .NET เรียนรู้วิธีการลบส่วนต่างๆ ออกจากเอกสาร Word ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน"
+"linktitle": "ลบส่วน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลบส่วน"
+"url": "/th/net/working-with-section/delete-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบส่วน
@@ -23,7 +25,7 @@ url: /th/net/working-with-section/delete-section/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว คุณสามารถใช้เวอร์ชันใดก็ได้ แต่ขอแนะนำให้ใช้เวอร์ชันล่าสุดเสมอ
 2. .NET Framework: Aspose.Words รองรับ .NET Framework 2.0 ขึ้นไป โปรดตรวจสอบว่าได้ติดตั้งแล้ว
-3. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/words/net/).
+3. Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ .NET จาก [ที่นี่](https://releases-aspose.com/words/net/).
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 
 ## นำเข้าเนมสเปซ
@@ -43,7 +45,7 @@ using Aspose.Words;
 Document doc = new Document("input.docx");
 ```
 
-ในขั้นตอนนี้ เราจะแจ้งให้ Aspose.Words ดึงเอกสาร Word ของเราที่มีชื่อว่า "input.docx" ตรวจสอบให้แน่ใจว่ามีไฟล์นี้อยู่ในไดเร็กทอรีโครงการของคุณ
+ในขั้นตอนนี้ เราจะแจ้งให้ Aspose.Words ดึงเอกสาร Word ของเราที่ชื่อ "input.docx" ตรวจสอบให้แน่ใจว่ามีไฟล์นี้อยู่ในไดเร็กทอรีโครงการของคุณ
 
 ## ขั้นตอนที่ 2: ถอดส่วนออก
 
@@ -56,7 +58,7 @@ doc.FirstSection.Remove();
 
 ## บทสรุป
 
- การจัดการเอกสาร Word ด้วยโปรแกรมสามารถช่วยคุณประหยัดเวลาและความพยายามได้มาก ด้วย Aspose.Words สำหรับ .NET งานต่างๆ เช่น การลบส่วนต่างๆ จะกลายเป็นเรื่องง่ายดาย อย่าลืมสำรวจข้อมูลโดยละเอียด[เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อปลดล็อกฟีเจอร์ที่ทรงพลังยิ่งขึ้น ขอให้สนุกกับการเขียนโค้ด!
+การจัดการเอกสาร Word ด้วยโปรแกรมสามารถช่วยคุณประหยัดเวลาและความพยายามได้มาก ด้วย Aspose.Words สำหรับ .NET งานต่างๆ เช่น การลบส่วนต่างๆ จะกลายเป็นเรื่องง่ายดาย อย่าลืมสำรวจข้อมูลโดยละเอียด [เอกสารประกอบ](https://reference.aspose.com/words/net/) เพื่อปลดล็อกฟีเจอร์ที่ทรงพลังยิ่งขึ้น ขอให้สนุกกับการเขียนโค้ด!
 
 ## คำถามที่พบบ่อย
 
@@ -64,7 +66,7 @@ doc.FirstSection.Remove();
 ใช่ คุณสามารถทำได้ เพียงวนซ้ำส่วนต่างๆ ที่คุณต้องการลบและลบออกทีละส่วน
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- Aspose.Words เสนอการทดลองใช้ฟรีซึ่งคุณสามารถรับได้[ที่นี่](https://releases.aspose.com/)หากต้องการคุณสมบัติครบถ้วน คุณต้องซื้อใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words เสนอการทดลองใช้ฟรีซึ่งคุณสามารถรับได้ [ที่นี่](https://releases.aspose.com/)หากต้องการคุณสมบัติครบถ้วน คุณต้องซื้อใบอนุญาต [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถเลิกทำการลบส่วนนั้นได้ไหม
 เมื่อคุณลบส่วนใดส่วนหนึ่งและบันทึกเอกสารแล้ว คุณจะไม่สามารถย้อนกลับได้ โปรดอย่าลืมสำรองข้อมูลเอกสารต้นฉบับของคุณ
@@ -72,11 +74,16 @@ doc.FirstSection.Remove();
 ### Aspose.Words รองรับรูปแบบไฟล์อื่นหรือไม่?
 แน่นอน! Aspose.Words รองรับรูปแบบต่างๆ รวมถึง DOCX, PDF, HTML และอื่นๆ อีกมากมาย
 
-### ฉันจะได้รับความช่วยเหลือหากประสบปัญหาได้ที่ไหน?
- คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/words/8).
+### ฉันจะได้รับความช่วยเหลือได้ที่ไหนหากประสบปัญหา?
+คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

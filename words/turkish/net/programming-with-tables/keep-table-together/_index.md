@@ -1,14 +1,16 @@
 ---
-title: Masayı Bir Arada Tutun
-linktitle: Masayı Bir Arada Tutun
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde tabloların sayfalar arasında dağılmasını nasıl önleyeceğinizi öğrenin. Profesyonel, okunabilir belgeler elde etmek için kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-tables/keep-table-together/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde tabloların sayfalar arasında dağılmasını nasıl önleyeceğinizi öğrenin. Profesyonel, okunabilir belgeler elde etmek için kılavuzumuzu izleyin."
+"linktitle": "Masayı Bir Arada Tutun"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Masayı Bir Arada Tutun"
+"url": "/tr/net/programming-with-tables/keep-table-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masayı Bir Arada Tutun
@@ -21,13 +23,13 @@ Word belgenizdeki bir tablonun iki sayfaya bölündüğünü gördüğünüzde h
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET - Eğer henüz yüklemediyseniz, şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET - Eğer henüz yüklemediyseniz, şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Tablo İçeren Bir Word Belgesi - Birden fazla sayfaya yayılan bir tablo içeren örnek bir belge üzerinde çalışacağız.
 3. Temel C# Bilgisi - Bu eğitim, C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayar.
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle gerekli ad alanlarını içe aktaralım. Bu bize .NET için Aspose.Words'den ihtiyaç duyduğumuz sınıflara ve yöntemlere erişim sağlayacak.
+Öncelikle gerekli ad alanlarını içe aktaralım. Bu bize .NET için Aspose.Words'den ihtiyacımız olan sınıflara ve yöntemlere erişim sağlayacak.
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Adım 1: Belgeyi Yükleyin
 
- Bir Word belgesiyle çalışmak için öncelikle onu yüklememiz gerekir.`Document` Bunun için bir sınıf.
+Bir Word belgesiyle çalışmak için öncelikle onu yüklememiz gerekir. `Document` Bunun için bir sınıf.
 
 ```csharp
 // Belge dizininize giden yol
@@ -57,7 +59,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Adım 3: Paragraflar için KeepWithNext'i ayarlayın
 
- Tablonun sayfalar arasında dağılmasını önlemek için,`KeepWithNext` Tablodaki her paragraf için özellik, son satırdaki son paragraflar hariç.
+Tablonun sayfalar arasında dağılmasını önlemek için, `KeepWithNext` Tablodaki her paragraf için özellik, son satırdaki son paragraflar hariç.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -92,16 +94,21 @@ Evet, belgenizdeki her tabloda yineleme yaparak aynı mantığı birden fazla ta
 Bir tablo tek bir sayfaya sığmayacak kadar büyükse, yine de sayfalara yayılacaktır. Bu yöntem, daha küçük tabloların bölünmeden sağlam kalmasını sağlar.
 
 ### Bunu bir belgedeki tüm tablolar için otomatikleştirmenin bir yolu var mı?  
- Evet, belgenizdeki tüm tablolarda dolaşabilir ve`KeepWithNext` her paragrafa bir özellik.
+Evet, belgenizdeki tüm tablolarda dolaşabilir ve `KeepWithNext` her paragrafa bir özellik.
 
 ### Aspose.Words for .NET için ücretli bir lisansa ihtiyacım var mı?  
-Ücretsiz denemeye şuradan başlayabilirsiniz:[Burada](https://releases.aspose.com/), ancak tam işlevsellik için ücretli bir lisans önerilir.
+Ücretsiz denemeye şuradan başlayabilirsiniz: [Burada](https://releases.aspose.com/), ancak tam işlevsellik için ücretli bir lisans önerilir.
 
 ### Tabloyu bir arada tutarken başka biçimlendirmeler uygulayabilir miyim?  
 Kesinlikle! Tablonuzu tek bir sayfada bir arada kalmasını sağlayarak ihtiyacınıza göre biçimlendirebilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

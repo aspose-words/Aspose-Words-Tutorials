@@ -1,14 +1,16 @@
 ---
-title: Wilayah yang Dapat Diedit Tanpa Batas di Dokumen Word
-linktitle: Wilayah yang Dapat Diedit Tanpa Batas di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat wilayah yang dapat diedit tanpa batas dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/document-protection/unrestricted-editable-regions/
+"description": "Pelajari cara membuat wilayah yang dapat diedit tanpa batas dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Wilayah yang Dapat Diedit Tanpa Batas di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Wilayah yang Dapat Diedit Tanpa Batas di Dokumen Word"
+"url": "/id/net/document-protection/unrestricted-editable-regions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wilayah yang Dapat Diedit Tanpa Batas di Dokumen Word
@@ -21,8 +23,8 @@ Jika Anda pernah ingin melindungi dokumen Word tetapi masih mengizinkan bagian t
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh[Di Sini](https://releases.aspose.com/words/net/).
-2. Lisensi Aspose yang valid: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduhlah [Di Sini](https://releases.aspose.com/words/net/).
+2. Lisensi Aspose yang valid: Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Visual Studio: Versi terbaru apa pun seharusnya berfungsi dengan baik.
 4. Pengetahuan dasar tentang C# dan .NET: Ini akan membantu Anda mengikuti kode.
 
@@ -55,7 +57,7 @@ Sekarang, mari muat dokumen yang ingin Anda lindungi. Pastikan Anda memiliki dok
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Muat Dokumen: Gunakan`Document` kelas untuk memuat dokumen Word Anda.
+2. Muat Dokumen: Gunakan `Document` kelas untuk memuat dokumen Word Anda.
    ```csharp
    Document doc = new Document(dataDir + "Document.docx");
    ```
@@ -64,7 +66,7 @@ Sekarang, mari muat dokumen yang ingin Anda lindungi. Pastikan Anda memiliki dok
 
 Selanjutnya, kita akan mengatur dokumen menjadi hanya-baca. Ini akan memastikan bahwa tidak ada perubahan yang dapat dilakukan tanpa kata sandi.
 
-1.  Inisialisasi DocumentBuilder: Buat contoh`DocumentBuilder` untuk membuat perubahan pada dokumen.
+1. Inisialisasi DocumentBuilder: Buat contoh `DocumentBuilder` untuk membuat perubahan pada dokumen.
    ```csharp
    DocumentBuilder builder = new DocumentBuilder(doc);
    ```
@@ -85,7 +87,7 @@ Di sinilah keajaiban terjadi. Kita akan membuat bagian-bagian dalam dokumen yang
    ```csharp
    EditableRangeStart edRangeStart = builder.StartEditableRange();
    ```
-2.  Membuat Objek Rentang yang Dapat Diedit: Sebuah`EditableRange` Objek akan dibuat secara otomatis.
+2. Membuat Objek Rentang yang Dapat Diedit: Sebuah `EditableRange` Objek akan dibuat secara otomatis.
    ```csharp
    EditableRange editableRange = edRangeStart.EditableRange;
    ```
@@ -111,7 +113,7 @@ Rentang yang dapat diedit tidak akan lengkap tanpa akhir. Mari kita tambahkan it
 
 Terakhir, mari simpan dokumen dengan perlindungan yang diterapkan dan wilayah yang dapat diedit.
 
-1.  Simpan Dokumen: Gunakan`Save` metode untuk menyimpan dokumen Anda yang dimodifikasi.
+1. Simpan Dokumen: Gunakan `Save` metode untuk menyimpan dokumen Anda yang dimodifikasi.
    ```csharp
    doc.Save(dataDir + "DocumentProtection.UnrestrictedEditableRegions.docx");
    ```
@@ -120,7 +122,7 @@ Terakhir, mari simpan dokumen dengan perlindungan yang diterapkan dan wilayah ya
 
 Nah, itu dia! Anda telah berhasil membuat wilayah yang dapat diedit tanpa batas dalam dokumen Word menggunakan Aspose.Words for .NET. Fitur ini sangat berguna untuk lingkungan kolaboratif di mana bagian tertentu dari dokumen perlu tetap tidak diubah sementara bagian lainnya dapat diedit. 
 
- Bereksperimenlah dengan skenario yang lebih kompleks dan tingkat perlindungan yang berbeda untuk mendapatkan hasil maksimal dari Aspose.Words. Jika Anda memiliki pertanyaan atau mengalami masalah, jangan ragu untuk memeriksa[dokumentasi](https://reference.aspose.com/words/net/) atau hubungi[mendukung](https://forum.aspose.com/c/words/8).
+Bereksperimenlah dengan skenario yang lebih kompleks dan tingkat perlindungan yang berbeda untuk mendapatkan hasil maksimal dari Aspose.Words. Jika Anda memiliki pertanyaan atau mengalami masalah, jangan ragu untuk memeriksa [dokumentasi](https://reference.aspose.com/words/net/) atau hubungi [mendukung](https://forum.aspose.com/c/words/8).
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -131,7 +133,7 @@ Ya, Anda dapat membuat beberapa wilayah yang dapat diedit dengan memulai dan men
 Aspose.Words mendukung berbagai jenis perlindungan seperti AllowOnlyComments, AllowOnlyFormFields, dan NoProtection.
 
 ### Apakah mungkin untuk menghapus perlindungan dari suatu dokumen?
- Ya, Anda dapat menghapus perlindungan menggunakan`Unprotect` metode dan memberikan kata sandi yang benar.
+Ya, Anda dapat menghapus perlindungan menggunakan `Unprotect` metode dan memberikan kata sandi yang benar.
 
 ### Dapatkah saya menentukan kata sandi yang berbeda untuk bagian yang berbeda?
 Tidak, perlindungan tingkat dokumen menerapkan satu kata sandi untuk keseluruhan dokumen.
@@ -139,9 +141,14 @@ Tidak, perlindungan tingkat dokumen menerapkan satu kata sandi untuk keseluruhan
 ### Bagaimana cara mengajukan lisensi untuk Aspose.Words?
 Anda dapat menerapkan lisensi dengan memuatnya dari file atau aliran. Periksa dokumentasi untuk langkah-langkah terperinci.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

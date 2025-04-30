@@ -1,14 +1,16 @@
 ---
-title: Сохранение HTML-документов с фиксированной компоновкой в Aspose.Words для Java
-linktitle: Сохранение HTML-документов с фиксированной компоновкой
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сохранять HTML-документы с фиксированной разметкой в Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного форматирования документов.
-weight: 15
-url: /ru/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "Узнайте, как сохранять HTML-документы с фиксированной разметкой в Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного форматирования документов."
+"linktitle": "Сохранение HTML-документов с фиксированной компоновкой"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сохранение HTML-документов с фиксированной компоновкой в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение HTML-документов с фиксированной компоновкой в Aspose.Words для Java
@@ -33,11 +35,11 @@ url: /ru/java/document-loading-and-saving/saving-html-documents-with-fixed-layou
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Заменять`"YourDocument.docx"` с путем к вашему документу Word.
+Заменять `"YourDocument.docx"` с путем к вашему документу Word.
 
 ## Шаг 2: Настройте параметры сохранения HTML Fixed
 
- Чтобы сохранить документ с фиксированным макетом, нам необходимо настроить`HtmlFixedSaveOptions` класс. Мы установим`useTargetMachineFonts`собственность`true` чтобы гарантировать, что в выходных данных HTML используются шрифты целевой машины:
+Чтобы сохранить документ с фиксированным макетом, нам необходимо настроить `HtmlFixedSaveOptions` класс. Мы установим `useTargetMachineFonts` собственность `true` чтобы гарантировать, что в выходных данных HTML используются шрифты целевой машины:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
@@ -52,7 +54,7 @@ saveOptions.setUseTargetMachineFonts(true);
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- Заменять`"FixedLayoutDocument.html"` с желаемым именем для вашего HTML-файла.
+Заменять `"FixedLayoutDocument.html"` с желаемым именем для вашего HTML-файла.
 
 ## Полный исходный код для сохранения HTML-документов с фиксированной компоновкой в Aspose.Words для Java
 
@@ -74,7 +76,7 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 
 ### Как настроить Aspose.Words для Java в моем проекте?
 
- Настройка Aspose.Words для Java проста. Вы можете загрузить библиотеку с[здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации.[здесь](https://reference.aspose.com/words/java/).
+Настройка Aspose.Words для Java проста. Вы можете загрузить библиотеку с [здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации. [здесь](https://reference.aspose.com/words/java/).
 
 ### Существуют ли какие-либо лицензионные требования для использования Aspose.Words для Java?
 
@@ -87,9 +89,14 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ### Совместим ли Aspose.Words для Java с различными версиями Java?
 
 Да, Aspose.Words for Java совместим с различными версиями Java. Убедитесь, что вы используете совместимую версию Aspose.Words for Java, которая соответствует вашей среде разработки Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

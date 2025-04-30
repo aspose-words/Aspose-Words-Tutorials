@@ -1,14 +1,16 @@
 ---
-title: Hợp nhất và so sánh các tài liệu trong Word
-linktitle: Hợp nhất và so sánh các tài liệu trong Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Hợp nhất và so sánh các tài liệu Word một cách dễ dàng bằng Aspose.Words for Python. Tìm hiểu cách thao tác tài liệu, làm nổi bật sự khác biệt và tự động hóa các tác vụ.
-weight: 10
-url: /vi/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "Hợp nhất và so sánh các tài liệu Word một cách dễ dàng bằng Aspose.Words for Python. Tìm hiểu cách thao tác tài liệu, làm nổi bật sự khác biệt và tự động hóa các tác vụ."
+"linktitle": "Hợp nhất và so sánh các tài liệu trong Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Hợp nhất và so sánh các tài liệu trong Word"
+"url": "/vi/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hợp nhất và so sánh các tài liệu trong Word
@@ -109,14 +111,19 @@ Chắc chắn rồi! Aspose.Words cho phép tạo và xử lý tài liệu tự 
 
 ### Tôi có thể hợp nhất nhiều hơn hai tài liệu bằng thư viện này không?
 
-Có, bạn có thể hợp nhất bất kỳ số lượng tài liệu nào bằng cách sử dụng`append_document` phương pháp như được trình bày trong hướng dẫn.
+Có, bạn có thể hợp nhất bất kỳ số lượng tài liệu nào bằng cách sử dụng `append_document` phương pháp như được trình bày trong hướng dẫn.
 
 ### Tôi có thể truy cập thư viện và tài nguyên ở đâu?
 
- Truy cập thư viện và tìm hiểu thêm tại[đây](https://releases.aspose.com/words/python/).
+Truy cập thư viện và tìm hiểu thêm tại [đây](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

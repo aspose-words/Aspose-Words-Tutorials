@@ -1,14 +1,16 @@
 ---
-title: Zaawansowane opcje oszczędzania z Aspose.Words dla Java
-linktitle: Zapisywanie dokumentów w różnych formatach za pomocą
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Poznaj zaawansowaną manipulację dokumentami dzięki Aspose.Words for Java. Szyfruj, obsługuj metapliki i nie tylko. Twoje dokumenty Word, na swój sposób.
-weight: 14
-url: /pl/java/document-loading-and-saving/advance-saving-options/
+"description": "Poznaj zaawansowaną manipulację dokumentami dzięki Aspose.Words dla Java. Szyfruj, obsługuj metapliki i nie tylko. Twoje dokumenty Word, na swój sposób."
+"linktitle": "Zapisywanie dokumentów w różnych formatach za pomocą"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Zaawansowane opcje oszczędzania z Aspose.Words dla Java"
+"url": "/pl/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaawansowane opcje oszczędzania z Aspose.Words dla Java
@@ -119,15 +121,15 @@ Gratulacje! Nauczyłeś się, jak używać Aspose.Words for Java do wykonywania 
 
 ### 1. Czy Aspose.Words dla Java jest darmową biblioteką?
 
- Nie, Aspose.Words for Java jest komercyjną biblioteką. Szczegóły dotyczące licencjonowania można znaleźć[Tutaj](https://purchase.aspose.com/buy).
+Nie, Aspose.Words for Java jest komercyjną biblioteką. Szczegóły dotyczące licencjonowania można znaleźć [Tutaj](https://purchase.aspose.com/buy).
 
 ### 2. Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla Java?
 
-Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla Javy[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla Javy [Tutaj](https://releases.aspose.com/).
 
 ### 3. Gdzie mogę znaleźć pomoc dotyczącą Aspose.Words dla Java?
 
- Aby uzyskać wsparcie i wziąć udział w dyskusjach społecznościowych, odwiedź stronę[Aspose.Words dla forum Java](https://forum.aspose.com/).
+Aby uzyskać wsparcie i wziąć udział w dyskusjach społecznościowych, odwiedź stronę [Aspose.Words dla forum Java](https://forum.aspose.com/).
 
 ### 4. Czy mogę używać Aspose.Words for Java z innymi bibliotekami Java?
 
@@ -135,13 +137,18 @@ Tak, Aspose.Words for Java jest kompatybilny z różnymi bibliotekami i framewor
 
 ### 5. Czy jest dostępna opcja licencji tymczasowej?
 
- Tak, możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 Zacznij korzystać z Aspose.Words for Java już dziś i odkryj pełen potencjał manipulowania dokumentami w aplikacjach Java.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

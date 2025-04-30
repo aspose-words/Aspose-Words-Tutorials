@@ -1,14 +1,16 @@
 ---
-title: Menggabungkan dan Membandingkan Dokumen di Word
-linktitle: Menggabungkan dan Membandingkan Dokumen di Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Gabungkan dan bandingkan dokumen Word dengan mudah menggunakan Aspose.Words untuk Python. Pelajari cara memanipulasi dokumen, menyorot perbedaan, dan mengotomatiskan tugas.
-weight: 10
-url: /id/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "Gabungkan dan bandingkan dokumen Word dengan mudah menggunakan Aspose.Words untuk Python. Pelajari cara memanipulasi dokumen, menyorot perbedaan, dan mengotomatiskan tugas."
+"linktitle": "Menggabungkan dan Membandingkan Dokumen di Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menggabungkan dan Membandingkan Dokumen di Word"
+"url": "/id/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggabungkan dan Membandingkan Dokumen di Word
@@ -109,14 +111,19 @@ Tentu saja! Aspose.Words memungkinkan pembuatan dan manipulasi dokumen secara ot
 
 ### Bisakah saya menggabungkan lebih dari dua dokumen menggunakan pustaka ini?
 
-Ya, Anda dapat menggabungkan sejumlah dokumen menggunakan`append_document` metode, seperti yang ditunjukkan dalam tutorial.
+Ya, Anda dapat menggabungkan sejumlah dokumen menggunakan `append_document` metode, seperti yang ditunjukkan dalam tutorial.
 
 ### Di mana saya dapat mengakses perpustakaan dan sumber daya?
 
- Akses perpustakaan dan pelajari lebih lanjut di[Di Sini](https://releases.aspose.com/words/python/).
+Akses perpustakaan dan pelajari lebih lanjut di [Di Sini](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

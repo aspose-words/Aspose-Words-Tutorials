@@ -1,14 +1,16 @@
 ---
-title: Drukowanie dokumentów dostosowanych do potrzeb klienta
-linktitle: Drukowanie dokumentów dostosowanych do potrzeb klienta
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak bez wysiłku uzyskać spersonalizowane drukowanie dokumentów dzięki Aspose.Words for Java. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po zaawansowaną personalizację.
-weight: 12
-url: /pl/java/document-printing/customized-document-printing/
+"description": "Dowiedz się, jak bez wysiłku uzyskać spersonalizowane drukowanie dokumentów dzięki Aspose.Words for Java. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po zaawansowaną personalizację."
+"linktitle": "Drukowanie dokumentów dostosowanych do potrzeb klienta"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Drukowanie dokumentów dostosowanych do potrzeb klienta"
+"url": "/pl/java/document-printing/customized-document-printing/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drukowanie dokumentów dostosowanych do potrzeb klienta
@@ -28,7 +30,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 ## Konfigurowanie Aspose.Words dla Java
 
- Aby rozpocząć, pobierz bibliotekę Aspose.Words for Java ze strony[Tutaj](https://releases.aspose.com/words/java/). Postępuj zgodnie z instrukcjami instalacji, aby zintegrować go ze swoim projektem Java.
+Aby rozpocząć, pobierz bibliotekę Aspose.Words dla Java ze strony [Tutaj](https://releases.aspose.com/words/java/). Postępuj zgodnie z instrukcjami instalacji, aby zintegrować go ze swoim projektem Java.
 
 ## Tworzenie pustego dokumentu
 
@@ -74,7 +76,7 @@ Dostosowane drukowanie dokumentów przy użyciu Aspose.Words for Java umożliwia
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Aby zainstalować Aspose.Words dla Java, pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/words/java/) postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Aby zainstalować Aspose.Words dla Java, pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
 
 ### Czy mogę dostosować układ dokumentu?
 
@@ -91,9 +93,14 @@ Jeśli wystąpią problemy z drukowaniem dokumentu, zapoznaj się z dokumentacj�
 ### Czy jest dostępna wersja próbna Aspose.Words dla Java?
 
 Tak, możesz uzyskać dostęp do wersji próbnej Aspose.Words for Java na ich stronie internetowej.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

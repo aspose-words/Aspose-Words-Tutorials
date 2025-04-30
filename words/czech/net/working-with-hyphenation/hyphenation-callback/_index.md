@@ -1,14 +1,16 @@
 ---
-title: Zpětné volání dělení slov
-linktitle: Zpětné volání dělení slov
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se implementovat zpětné volání dělení slov v Aspose.Words pro .NET a vylepšit formátování dokumentu pomocí tohoto komplexního podrobného průvodce.
-weight: 10
-url: /cs/net/working-with-hyphenation/hyphenation-callback/
+"description": "Naučte se implementovat zpětné volání dělení slov v Aspose.Words pro .NET pro vylepšení formátování dokumentů s tímto komplexním podrobným návodem."
+"linktitle": "Zpětné volání dělení slov"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zpětné volání dělení slov"
+"url": "/cs/net/working-with-hyphenation/hyphenation-callback/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zpětné volání dělení slov
@@ -16,21 +18,21 @@ url: /cs/net/working-with-hyphenation/hyphenation-callback/
 
 ## Zavedení
 
-Ahoj! Zapletli jste se někdy do složitosti formátování textu, zejména při práci s jazyky, které vyžadují dělení slov? Nejsi sám. Dělení slov, i když je klíčové pro správné rozvržení textu, může být trochu bolehlav. Ale hádejte co? Aspose.Words for .NET vám drží záda. Tato výkonná knihovna umožňuje bezproblémovou správu formátování textu, včetně zpracování dělení slov pomocí mechanismu zpětného volání. Zaujalo? Pojďme se ponořit do toho, jak můžete implementovat zpětné volání dělení slov pomocí Aspose.Words pro .NET.
+Ahoj! Už jste se někdy ocitli v složitosti formátování textu, zejména při práci s jazyky, které vyžadují dělení slov? Nejste sami. Dělení slov, ačkoli je klíčové pro správné rozvržení textu, může být trochu otravné. Ale víte co? Aspose.Words pro .NET vám pomůže. Tato výkonná knihovna vám umožňuje bezproblémově spravovat formátování textu, včetně práce s dělením slov pomocí mechanismu zpětného volání. Zaujalo vás to? Pojďme se ponořit do detailů, jak implementovat zpětné volání dělení slov pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než si ušpiníme ruce kódem, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódování, ujistěme se, že máte vše potřebné:
 
-1. Aspose.Words for .NET: Ujistěte se, že máte knihovnu. Můžete[stáhněte si to zde](https://releases.aspose.com/words/net/).
-2. IDE: Vývojové prostředí jako Visual Studio.
-3. Základní znalost C#: Pochopení C# a .NET frameworku.
-4. Slovníky dělení slov: Slovníky dělení slov pro jazyky, které plánujete používat.
-5.  Licence Aspose: Platná licence Aspose. Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud žádný nemáte.
+1. Aspose.Words pro .NET: Ujistěte se, že máte knihovnu. Můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
+2. IDE: Vývojové prostředí, jako je Visual Studio.
+3. Základní znalost C#: Znalost C# a .NET frameworku.
+4. Slovníky pro dělení slov: Slovníky pro dělení slov pro jazyky, které plánujete používat.
+5. Licence Aspose: Platná licence Aspose. Můžete získat [dočasná licence](https://purchase.aspose.com/temporary-license/) pokud ho nemáte.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory. To zajišťuje, že náš kód má přístup ke všem třídám a metodám, které potřebujeme z Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory. Tím zajistíme, že náš kód bude mít přístup ke všem třídám a metodám z Aspose.Words, které potřebujeme.
 
 ```csharp
 using Aspose.Words;
@@ -38,14 +40,14 @@ using System;
 using System.IO;
 ```
 
-## Krok 1: Zaregistrujte zpětné volání dělení slov
+## Krok 1: Registrace zpětného volání dělení slov
 
-Chcete-li začít, musíme zaregistrovat naše zpětné volání dělení slov. Zde říkáme Aspose.Words, aby použil naši vlastní logiku dělení slov.
+Pro začátek musíme zaregistrovat naši zpětnou funkci pro dělení slov. Zde sdělíme Aspose.Words, aby použila naši vlastní logiku pro dělení slov.
 
 ```csharp
 try
 {
-    // Zaregistrujte zpětné volání dělení slov.
+    // Registrace zpětného volání pro dělení slov.
     Hyphenation.Callback = new CustomHyphenationCallback();
 }
 catch (Exception e)
@@ -54,31 +56,31 @@ catch (Exception e)
 }
 ```
 
- Zde vytváříme instanci našeho vlastního zpětného volání a přiřazujeme ji`Hyphenation.Callback`.
+Zde vytváříme instanci našeho vlastního zpětného volání a přiřazujeme ji k `Hyphenation.Callback`.
 
-## Krok 2: Definujte cestu dokumentu
+## Krok 2: Definování cesty k dokumentu
 
-Dále musíme definovat adresář, kde jsou uloženy naše dokumenty. To je zásadní, protože budeme načítat a ukládat dokumenty z této cesty.
+Dále musíme definovat adresář, kde jsou uloženy naše dokumenty. To je klíčové, protože budeme načítat a ukládat dokumenty z této cesty.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašim dokumentům.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašim dokumentům.
 
-## Krok 3: Vložte dokument
+## Krok 3: Vložení dokumentu
 
-Nyní načteme dokument, který vyžaduje dělení slov.
+Nyní načtěme dokument, který vyžaduje rozdělení slov.
 
 ```csharp
 Document document = new Document(dataDir + "German text.docx");
 ```
 
-Zde načítáme německý textový dokument. Můžete vyměnit`"German text.docx"` s názvem souboru vašeho dokumentu.
+Zde načítáme německý textový dokument. Můžete nahradit `"German text.docx"` názvem souboru vašeho dokumentu.
 
 ## Krok 4: Uložte dokument
 
-Po načtení dokumentu jej uložíme do nového souboru, přičemž v procesu použijeme zpětné volání dělení slov.
+Po načtení dokumentu jej uložíme do nového souboru a v tomto procesu použijeme zpětné volání pro dělení slov.
 
 ```csharp
 document.Save(dataDir + "TreatmentByCesureWithRecall.pdf");
@@ -86,9 +88,9 @@ document.Save(dataDir + "TreatmentByCesureWithRecall.pdf");
 
 Tento řádek uloží dokument jako PDF s použitým dělením slov.
 
-## Krok 5: Ošetřete chybějící výjimku slovníku dělení slov
+## Krok 5: Ošetření výjimky chybějícího slovníku dělení slov
 
-Někdy můžete narazit na problém, kdy chybí slovník dělení slov. Pojďme to zvládnout.
+Někdy se můžete setkat s problémem, kdy chybí slovník pro pomlčky. Pojďme se s tím vypořádat.
 
 ```csharp
 catch (Exception e) when (e.Message.StartsWith("Missing hyphenation dictionary"))
@@ -101,11 +103,11 @@ finally
 }
 ```
 
-V tomto bloku zachytíme konkrétní výjimku související s chybějícími slovníky a zprávu vytiskneme.
+V tomto bloku zachytíme specifickou výjimku týkající se chybějících slovníků a vypíšeme zprávu.
 
-## Krok 6: Implementujte vlastní třídu zpětného volání dělení slov
+## Krok 6: Implementace vlastní třídy zpětného volání pro dělení slov
 
- Nyní implementujme`CustomHyphenationCallback` třída, která zpracovává požadavek na slovníky dělení slov.
+Nyní implementujme `CustomHyphenationCallback` třída, která zpracovává požadavky na slovníky pro dělení slov.
 
 ```csharp
 public class CustomHyphenationCallback : IHyphenationCallback
@@ -125,37 +127,42 @@ public class CustomHyphenationCallback : IHyphenationCallback
             default:
                 throw new Exception($"Missing hyphenation dictionary for {language}.");
         }
-        // Zaregistrujte slovník pro požadovaný jazyk.
+        // Zaregistrovat slovník pro požadovaný jazyk.
         Hyphenation.RegisterDictionary(language, dictionaryFullFileName);
     }
 }
 ```
 
- V této třídě je`RequestDictionary` metoda se volá vždy, když je potřeba slovník dělení slov. Zkontroluje jazyk a zaregistruje příslušný slovník.
+V této třídě, `RequestDictionary` Metoda se volá vždy, když je potřeba slovník pro pomlčky. Zkontroluje jazyk a zaregistruje příslušný slovník.
 
 ## Závěr
 
-tady to máte! Právě jste se naučili, jak implementovat zpětné volání dělení slov v Aspose.Words pro .NET. Pomocí těchto kroků můžete zajistit, že vaše dokumenty budou krásně naformátované bez ohledu na jazyk. Ať už máte co do činění s angličtinou, němčinou nebo jakýmkoli jiným jazykem, tato metoda vám umožní zvládnout dělení slov bez námahy.
+tady to máte! Právě jste se naučili, jak implementovat zpětné volání pro dělení slov v Aspose.Words pro .NET. Dodržováním těchto kroků zajistíte, že vaše dokumenty budou krásně formátovány bez ohledu na jazyk. Ať už pracujete s angličtinou, němčinou nebo jakýmkoli jiným jazykem, tato metoda vám umožní snadno zvládnout dělení slov.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty programově.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro manipulaci s dokumenty, která umožňuje vývojářům programově vytvářet, upravovat a převádět dokumenty.
 
 ### Proč je dělení slov důležité při formátování dokumentu?
-Dělení slov zlepšuje rozvržení textu rozdělením slov na vhodná místa, což zajišťuje čitelnější a vizuálně přitažlivější dokument.
+Dělení slov zlepšuje rozvržení textu tím, že rozděluje slova na správná místa, čímž zajišťuje čitelnější a vizuálně atraktivnější dokument.
 
 ### Mohu používat Aspose.Words zdarma?
- Aspose.Words nabízí bezplatnou zkušební verzi. Můžete to získat[zde](https://releases.aspose.com/).
+Aspose.Words nabízí bezplatnou zkušební verzi. Můžete si ji stáhnout [zde](https://releases.aspose.com/).
 
-### Jak získám slovník dělení slov?
-Slovníky dělení slov si můžete stáhnout z různých online zdrojů nebo si v případě potřeby vytvořit vlastní.
+### Jak získám slovník pro pomlčky?
+Slovníky pro pomlčky si můžete stáhnout z různých online zdrojů nebo si v případě potřeby vytvořit vlastní.
 
-### Co se stane, když chybí slovník dělení slov?
- Pokud slovník chybí,`RequestDictionary`metoda vyvolá výjimku, kterou můžete zpracovat za účelem informování uživatele nebo poskytnutí nouzového řešení.
+### Co se stane, když chybí slovník pro dělení slov?
+Pokud slovník chybí, `RequestDictionary` Metoda vyvolá výjimku, kterou můžete zpracovat, abyste informovali uživatele nebo poskytli záložní řešení.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

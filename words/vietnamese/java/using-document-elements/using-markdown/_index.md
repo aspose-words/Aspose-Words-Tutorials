@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Markdown trong Aspose.Words cho Java
-linktitle: Sử dụng Markdown
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng Markdown trong Aspose.Words cho Java với hướng dẫn từng bước này. Tạo, định dạng và lưu tài liệu Markdown dễ dàng.
-weight: 19
-url: /vi/java/using-document-elements/using-markdown/
+"description": "Học cách sử dụng Markdown trong Aspose.Words cho Java với hướng dẫn từng bước này. Tạo, định dạng và lưu tài liệu Markdown dễ dàng."
+"linktitle": "Sử dụng Markdown"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Markdown trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Markdown trong Aspose.Words cho Java
@@ -39,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Tạo kiểu cho tài liệu của bạn
 
-Trong phần này, chúng ta sẽ thảo luận về cách áp dụng các kiểu cho tài liệu Markdown của bạn. Chúng ta sẽ đề cập đến tiêu đề, nhấn mạnh, danh sách và nhiều hơn nữa.
+Trong phần này, chúng ta sẽ thảo luận về cách áp dụng kiểu cho tài liệu Markdown của bạn. Chúng ta sẽ đề cập đến tiêu đề, nhấn mạnh, danh sách và nhiều hơn nữa.
 
 ### Tiêu đề
 
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Chỉ định kiểu "Tiêu đề 1" cho đoạn văn.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Đặt lại kiểu từ đoạn văn trước để không kết hợp kiểu giữa các đoạn văn.
+// Đặt lại kiểu từ đoạn văn trước để không kết hợp các kiểu giữa các đoạn văn.
 builder.getParagraphFormat().setStyleName("Normal");
 // Chèn thước ngang.
 builder.insertHorizontalRule();
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Đặt lại kiểu đoạn văn thành Bình thường để dừng khối Trích dẫn.
+// Đặt lại kiểu đoạn văn thành Bình thường để dừng khối Trích dẫn. 
 builder.getParagraphFormat().setStyleName("Normal");
 // Chỉ định Siêu liên kết cho văn bản mong muốn.
 builder.getFont().setBold(true);
@@ -184,19 +186,24 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến những điều c
    Có, bạn có thể sử dụng Aspose.Words for Java để chuyển đổi tài liệu Markdown sang tài liệu Word và ngược lại.
 
 ### Aspose.Words cho Java có miễn phí không? 
-    Aspose.Words for Java là một sản phẩm thương mại và cần có giấy phép để sử dụng. Bạn có thể xin giấy phép từ[đây](https://purchase.aspose.com/buy).
+   Aspose.Words for Java là một sản phẩm thương mại và cần có giấy phép để sử dụng. Bạn có thể xin giấy phép từ [đây](https://purchase.aspose.com/buy).
 
 ### Có hướng dẫn hoặc tài liệu nào dành cho Aspose.Words dành cho Java không? 
-    Có, bạn có thể tìm thấy hướng dẫn và tài liệu toàn diện trên[Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+   Có, bạn có thể tìm thấy hướng dẫn và tài liệu toàn diện trên [Tài liệu API Aspose.Words cho Java](https://reference.aspose.com/words/java/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words for Java ở đâu? 
-    Để được hỗ trợ và trợ giúp, bạn có thể truy cập[Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
+   Để được hỗ trợ và trợ giúp, bạn có thể truy cập [Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
 
 Bây giờ bạn đã nắm vững những kiến thức cơ bản, hãy bắt đầu khám phá những khả năng vô tận khi sử dụng Aspose.Words for Java trong các dự án xử lý tài liệu của bạn.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

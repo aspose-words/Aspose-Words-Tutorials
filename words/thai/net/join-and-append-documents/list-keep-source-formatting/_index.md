@@ -1,14 +1,16 @@
 ---
-title: รายการรักษาการจัดรูปแบบแหล่งที่มา
-linktitle: รายการรักษาการจัดรูปแบบแหล่งที่มา
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีผสานเอกสาร Word โดยยังคงรูปแบบเดิมไว้โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนสำหรับการผสานเอกสารอย่างราบรื่น
-weight: 10
-url: /th/net/join-and-append-documents/list-keep-source-formatting/
+"description": "เรียนรู้วิธีผสานเอกสาร Word โดยยังคงรูปแบบเดิมไว้โดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนสำหรับการผสานเอกสารอย่างราบรื่น"
+"linktitle": "รายการรักษาการจัดรูปแบบแหล่งที่มา"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รายการรักษาการจัดรูปแบบแหล่งที่มา"
+"url": "/th/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รายการรักษาการจัดรูปแบบแหล่งที่มา
@@ -22,7 +24,7 @@ url: /th/net/join-and-append-documents/list-keep-source-formatting/
 ก่อนที่จะดำเนินการต่อ ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - ติดตั้ง Visual Studio ลงบนเครื่องของคุณแล้ว
--  ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรม C# และสภาพแวดล้อม .NET
 
 ## นำเข้าเนมสเปซ
@@ -40,7 +42,7 @@ using Aspose.Words;
 ## ขั้นตอนที่ 2: เริ่มต้นตัวแปรเอกสาร
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // โหลดเอกสารต้นทางและปลายทาง
@@ -91,10 +93,15 @@ Aspose.Words จัดการรูปแบบต่างๆ ได้อย
 Aspose.Words นำเสนอ API ที่มีประสิทธิภาพสำหรับการจัดการเอกสาร โดยได้รับการปรับให้เหมาะสมเพื่อประสิทธิภาพการทำงานแม้กับเอกสารขนาดใหญ่
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารรายละเอียดได้ที่[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/).
+คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารรายละเอียดได้ที่ [เอกสารประกอบ Aspose.Words](https://reference-aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

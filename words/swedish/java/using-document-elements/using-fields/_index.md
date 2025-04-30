@@ -1,32 +1,34 @@
 ---
-title: Använda fält i Aspose.Words för Java
-linktitle: Använda fält
-second_title: Aspose.Words Java Document Processing API
-description: Lär dig att använda Aspose.Words för Java-fält effektivt i denna steg-för-steg handledning. Skapa dynamiska Word-dokument med lätthet.
-weight: 11
-url: /sv/java/using-document-elements/using-fields/
+"description": "Lär dig att använda Aspose.Words för Java-fält effektivt i den här steg-för-steg-handledningen. Skapa dynamiska Word-dokument med lätthet."
+"linktitle": "Använda fält"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Använda fält i Aspose.Words för Java"
+"url": "/sv/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Använda fält i Aspose.Words för Java
 
 
-denna steg-för-steg handledning kommer vi att guida dig om hur du använder fält i Aspose.Words för Java för att enkelt manipulera dokument. Aspose.Words för Java är ett kraftfullt API som låter dig arbeta med Word-dokument programmatiskt, vilket ger dig full kontroll över deras innehåll och formatering.
+I den här steg-för-steg-handledningen vägleder vi dig i hur du använder fält i Aspose.Words för Java för att enkelt manipulera dokument. Aspose.Words för Java är ett kraftfullt API som låter dig arbeta med Word-dokument programmatiskt, vilket ger dig full kontroll över deras innehåll och formatering.
 
 ## 1. Introduktion
 
-Aspose.Words för Java är ett viktigt verktyg för alla som arbetar med Word-dokument i Java-applikationer. Fält är platshållare som kan lagra dynamisk data i ditt dokument. Denna handledning visar dig hur du arbetar med fält effektivt.
+Aspose.Words för Java är ett viktigt verktyg för alla som arbetar med Word-dokument i Java-applikationer. Fält är platshållare som kan lagra dynamisk data i ditt dokument. Den här handledningen visar dig hur du arbetar med fält effektivt.
 
-## 2. Ställa in din miljö
+## 2. Konfigurera din miljö
 
- Innan du börjar, se till att du har Aspose.Words för Java installerat. Du kan ladda ner den från[här](https://releases.aspose.com/words/java/). Se också till att du har Java och en integrerad utvecklingsmiljö (IDE) som Eclipse eller IntelliJ IDEA installerad på ditt system.
+Innan du börjar, se till att du har Aspose.Words för Java installerat. Du kan ladda ner det från [här](https://releases.aspose.com/words/java/)Se också till att du har Java och en integrerad utvecklingsmiljö (IDE) som Eclipse eller IntelliJ IDEA installerade på ditt system.
 
 ## 3. Ladda ett Word-dokument
 
-I din Java-applikation måste du ladda Word-dokumentet du vill arbeta med. Här är ett kodavsnitt för att komma igång:
+I ditt Java-program behöver du ladda Word-dokumentet du vill arbeta med. Här är ett kodavsnitt för att komma igång:
 
 ```java
 string dataDir = "Your Document Directory";
@@ -34,17 +36,17 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Ersätta`"Your Document Directory"` och`"Your Output Directory"` med lämpliga vägar.
+Ersätta `"Your Document Directory"` och `"Your Output Directory"` med lämpliga vägar.
 
-## 4. Anpassa Mail Merge
+## 4. Anpassa dokumentkoppling
 
-Aspose.Words för Java ger utmärkt stöd för kopplingsoperationer. Du kan anpassa kopplingsprocessen genom att konfigurera en kopplingshändelsehanterare. Så här gör du:
+Aspose.Words för Java ger utmärkt stöd för dokumentkopplingsåtgärder. Du kan anpassa dokumentkopplingsprocessen genom att konfigurera en händelsehanterare för dokumentkoppling. Så här gör du:
 
 ```java
-// Konfigurera kopplingshändelsehanteraren för att göra det anpassade arbetet.
+// Konfigurera händelsehanteraren för dokumentkoppling för att utföra det anpassade arbetet.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
 
-// Trimma efterföljande och ledande blankstegs kopplingsvärden.
+// Trimma efterföljande och inledande blanksteg i dokumentkopplingar.
 doc.getMailMerge().setTrimWhitespaces(false);
 
 String[] fieldNames = {
@@ -68,16 +70,16 @@ När du har anpassat ditt dokument kan du spara det med följande kod:
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Ersätta`"Your Output Directory"` med önskad utmatningsväg.
+Ersätta `"Your Output Directory"` med önskad utmatningsväg.
 
 ## Komplett källkod
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
-// Konfigurera kopplingshändelsehanteraren för att göra det anpassade arbetet.
+// Konfigurera händelsehanteraren för dokumentkoppling för att utföra det anpassade arbetet.
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeField());
-// Trimma efterföljande och ledande blankstegs kopplingsvärden.
+// Trimma efterföljande och inledande blanksteg i dokumentkopplingar.
 doc.getMailMerge().setTrimWhitespaces(false);
 String[] fieldNames = {
 	"RecipientName", "SenderName", "FaxNumber", "PhoneNumber",
@@ -90,23 +92,23 @@ Object[] fieldValues = {
 doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
-Källkod för Class HandleMergeField
+Källkod för klassen HandleMergeField
 
 ```java
     private static class HandleMergeField implements IFieldMergingCallback
     {
         /// <sammanfattning>
-        /// Den här hanteraren anropas för varje kopplingsfält som finns i dokumentet,
-        /// för varje post som finns i datakällan.
-        /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        /// Denna hanterare anropas för varje fält för koppling av dokument som finns i dokumentet,
+        /// för varje post som hittas i datakällan.
+        /// </sammanfattning>
+        public void /*iFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
-            // Vi beslutade att vi vill att alla booleska värden ska matas ut som kryssrutaformulär.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            // Vi bestämde oss för att alla booleska värden ska visas som kryssrutefält i formuläret.
+            if (e.getFieldValue() instanceof /*boolesk*/Boolean)
             {
-                // Flytta "markören" till det aktuella sammanslagningsfältet.
+                // Flytta "markören" till det aktuella kopplingsfältet.
                 mBuilder.moveToMergeField(e.getFieldName());
                 String checkBoxName = MessageFormat.format("{0}{1}", e.getFieldName(), e.getRecordIndex());
                 mBuilder.insertCheckBox(checkBoxName, (Boolean) e.getFieldValue(), 0);
@@ -140,9 +142,12 @@ Källkod för Class HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Källkod för Class HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Implementering krävs inte.
+            //  Implementering krävs inte.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -209,20 +214,20 @@ Källkod för Class HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Infoga ett MERGEFIELD kapslat i ett IF-fält.
+        // Infoga ett MERGEFIELD kapslat inuti ett OM-fält.
         // Eftersom IF-fältsatsen är falsk kommer resultatet av det inre MERGEFIELD inte att visas,
-        //och MERGEFIELD kommer inte att ta emot några data under en e-postsammanfogning.
+        // och MERGEFIELD kommer inte att ta emot några data under en dokumentkoppling.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
-        // Vi kan fortfarande räkna MERGEFIELDs i falska IF-fält om vi ställer in denna flagga på sant.
+        // Vi kan fortfarande räkna MERGEFIELDs inuti OM-fält med falskt påstående om vi ställer in den här flaggan till sann.
         doc.getMailMerge().setUnconditionalMergeFieldsAndRegions(true);
         DataTable dataTable = new DataTable();
         dataTable.getColumns().add("FullName");
         dataTable.getRows().add("James Bond");
         doc.getMailMerge().execute(dataTable);
-        // Resultatet kommer inte att synas i dokumentet eftersom IF-fältet är falskt,
-        // men det inre MERGEFIELD fick verkligen data.
+        // Resultatet kommer inte att synas i dokumentet eftersom OM-fältet är falskt,
+        // men det inre MERGEFIELD tog faktiskt emot data.
         doc.save("Your Directory Path" + "WorkingWithFields.MailMergeAndConditionalField.docx");
     }
     @Test
@@ -243,19 +248,19 @@ Källkod för Class HandleMergeField
     }
     public static class HandleMergeImageFieldFromBlob implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
+        public void /*iFieldMergingCallback.*/fieldMerging(FieldMergingArgs args)
         {
             // Gör ingenting.
         }
         /// <sammanfattning>
-        /// Detta kallas när kopplingsmotorn stöter på Image:XXX kopplingsfält i dokumentet.
-        /// Du har en chans att returnera ett bildobjekt, filnamn eller en ström som innehåller bilden.
-        /// </summary>
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
+        //Detta anropas när kopplingsfunktionen stöter på kopplingsfältet Image:XXX i dokumentet.
+        /// Du har möjlighet att returnera ett bildobjekt, filnamn eller en ström som innehåller bilden.
+        /// </sammanfattning>
+        public void /*iFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs e) throws Exception
         {
             // Fältvärdet är en byte-array, bara casta den och skapa en ström på den.
             ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-            // Nu kommer kopplingsmotorn att hämta bilden från strömmen.
+            // Nu kommer koppladningsmotorn att hämta bilden från strömmen.
             e.setImageStream(imageStream);
         }
     }
@@ -270,7 +275,7 @@ Källkod för Class HandleMergeField
     }
     public static class MailMergeSwitches implements IFieldMergingCallback
     {
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
+        public void /*iFieldMergingCallback.*/fieldMerging(FieldMergingArgs e) throws Exception
         {
             if (e.getFieldName().startsWith("HTML"))
             {
@@ -285,7 +290,7 @@ Källkod för Class HandleMergeField
                 }
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*iFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
         }
     }
@@ -301,11 +306,11 @@ Källkod för Class HandleMergeField
     private static class HandleMergeFieldAlternatingRows implements IFieldMergingCallback
     {
         /// <sammanfattning>
-        /// Anropas för varje sammanslagningsfält som påträffas i dokumentet.
-        /// Vi kan antingen returnera vissa data till kopplingsmotorn eller göra något annat med dokumentet.
+        /// Anropades för varje kopplingsfält som påträffas i dokumentet.
+        /// Vi kan antingen returnera data till kopplingssystemet eller göra något annat med dokumentet.
         /// I det här fallet ändrar vi cellformateringen.
-        /// </summary>
-        public void /*IFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
+        /// </sammanfattning>
+        public void /*iFieldMergingCallback.*/fieldMerging(FieldMergingArgs e)
         {
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
@@ -315,7 +320,7 @@ Källkod för Class HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Det finns inget sätt att ställa in cellegenskaper för hela raden för tillfället, så vi måste iterera över alla celler i raden.
+                // Det finns inget sätt att ange cellegenskaper för hela raden för närvarande, så vi måste iterera över alla celler i raden.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -324,7 +329,7 @@ Källkod för Class HandleMergeField
                 mRowIdx++;
             }
         }
-        public void /*IFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
+        public void /*iFieldMergingCallback.*/imageFieldMerging(ImageFieldMergingArgs args)
         {
             // Gör ingenting.
         }
@@ -333,15 +338,15 @@ Källkod för Class HandleMergeField
     }
     /// <sammanfattning>
     /// Returnerar sant om värdet är udda; falskt om värdet är jämnt.
-    /// </summary>
+    /// </sammanfattning>
     private static boolean isOdd(int value)
     {
         return (value / 2 * 2) == value;
     }
     /// <sammanfattning>
-    /// Skapa DataTable och fyll den med data.
-    /// I verkligheten bör denna datatabell fyllas i från en databas.
-    /// </summary>
+    /// Skapa en datatabell och fyll den med data.
+    /// I verkligheten borde denna datatabell fyllas i från en databas.
+    /// </sammanfattning>
     private DataTable getSuppliersDataTable()
     {
         DataTable dataTable = new DataTable("Suppliers");
@@ -361,31 +366,36 @@ Källkod för Class HandleMergeField
 
 ## 6. Slutsats
 
-Grattis! Du har lärt dig hur du använder fält i Aspose.Words för Java för att manipulera Word-dokument dynamiskt. Detta kraftfulla API ger dig fullständig kontroll över dina dokument, vilket gör det till en värdefull tillgång för Java-utvecklare.
+Grattis! Du har lärt dig hur du använder fält i Aspose.Words för Java för att dynamiskt manipulera Word-dokument. Detta kraftfulla API ger dig fullständig kontroll över dina dokument, vilket gör det till en värdefull tillgång för Java-utvecklare.
 
 ## 7. Vanliga frågor
 
 ### F1: Var kan jag ladda ner Aspose.Words för Java?
- Du kan ladda ner Aspose.Words för Java från[här](https://releases.aspose.com/words/java/).
+Du kan ladda ner Aspose.Words för Java från [här](https://releases.aspose.com/words/java/).
 
 ### F2: Hur kan jag få en tillfällig licens för Aspose.Words för Java?
- Du kan få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+Du kan få en tillfällig licens från [här](https://purchase.aspose.com/temporary-license/).
 
 ### F3: Var kan jag få support för Aspose.Words för Java?
- För support kan du besöka Aspose.Words-forumet[här](https://forum.aspose.com/).
+För support kan du besöka Aspose.Words-forumet. [här](https://forum.aspose.com/).
 
 ### F4: Är Aspose.Words för Java lämpligt för att hantera HTML-innehåll i Word-dokument?
-Ja, Aspose.Words för Java ger utmärkt stöd för hantering av HTML-innehåll i Word-dokument.
+Ja, Aspose.Words för Java erbjuder utmärkt stöd för hantering av HTML-innehåll i Word-dokument.
 
 ### F5: Kan jag använda Aspose.Words för Java gratis?
- Aspose.Words för Java är en kommersiell produkt, men du kan utforska dess funktioner med en gratis testversion tillgänglig[här](https://releases.aspose.com/).
+Aspose.Words för Java är en kommersiell produkt, men du kan utforska dess funktioner med en gratis provperiod. [här](https://releases.aspose.com/).
 
 Kom igång med Aspose.Words för Java idag och ta kontroll över dina Word-dokument som aldrig förr!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Podziel dokument Word według strony
-linktitle: Podziel dokument Word według strony
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak podzielić dokument Word według strony za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do wydajnego zarządzania dużymi dokumentami.
-weight: 10
-url: /pl/net/split-document/page-by-page/
+"description": "Dowiedz się, jak podzielić dokument Word według strony za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do wydajnego zarządzania dużymi dokumentami."
+"linktitle": "Podziel dokument Word według strony"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Podziel dokument Word według strony"
+"url": "/pl/net/split-document/page-by-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podziel dokument Word według strony
@@ -21,8 +23,8 @@ Podział dokumentu Word według strony może być niezwykle przydatny, zwłaszcz
 
 Zanim przejdziemy do samouczka, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego skonfigurowanego z użyciem .NET. Popularnym wyborem jest program Visual Studio.
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: Będziesz potrzebować środowiska programistycznego skonfigurowanego z użyciem .NET. Popularnym wyborem jest Visual Studio.
 3. Przykładowy dokument: Posiadasz przykładowy dokument Word, który chcesz podzielić. Zapisz go w wyznaczonym katalogu dokumentów.
 
 ## Importuj przestrzenie nazw
@@ -74,7 +76,7 @@ Dzielenie dokumentu Word według stron za pomocą Aspose.Words dla .NET jest pro
 Tak, Aspose.Words dla .NET bezproblemowo obsługuje dokumenty ze złożonym formatowaniem.
 
 ### Czy można wyodrębnić zakres stron zamiast wyodrębniać je pojedynczo?
- Oczywiście. Możesz zmodyfikować`ExtractPages` metoda określająca zakres.
+Oczywiście. Możesz zmodyfikować `ExtractPages` metoda określająca zakres.
 
 ### Czy ta metoda działa w przypadku innych formatów plików, np. PDF?
 Pokazana metoda jest specyficzna dla dokumentów Word. W przypadku plików PDF należy użyć Aspose.PDF.
@@ -84,9 +86,14 @@ Aspose.Words zachowuje oryginalne formatowanie i orientację każdej strony podc
 
 ### Czy mogę zautomatyzować ten proces dla wielu dokumentów?
 Tak, możesz utworzyć skrypt automatyzujący proces dzielenia wielu dokumentów w katalogu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

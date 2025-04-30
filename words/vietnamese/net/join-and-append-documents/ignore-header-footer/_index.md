@@ -1,14 +1,16 @@
 ---
-title: Bỏ qua Header Footer
-linktitle: Bỏ qua Header Footer
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hợp nhất các tài liệu Word mà không cần quan tâm đến phần đầu trang và phần chân trang bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/join-and-append-documents/ignore-header-footer/
+"description": "Tìm hiểu cách hợp nhất các tài liệu Word mà không cần quan tâm đến phần đầu trang và phần chân trang bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Bỏ qua Header Footer"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bỏ qua Header Footer"
+"url": "/vi/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ qua Header Footer
@@ -21,7 +23,7 @@ Việc hợp nhất các tài liệu Word đôi khi có thể hơi khó khăn, �
 
 Trước khi bắt đầu, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản nào gần đây đều có thể hoạt động.
 - Hiểu biết cơ bản về C#: Đừng lo, tôi sẽ hướng dẫn bạn viết mã.
 - Hai tài liệu Word: Một tài liệu sẽ được thêm vào tài liệu kia.
@@ -71,7 +73,7 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 3: Cấu hình Tùy chọn nhập
 
-Trước khi hợp nhất các tài liệu, chúng ta cần thiết lập tùy chọn nhập của mình. Bước này rất cần thiết vì nó cho phép chúng ta chỉ định rằng chúng ta muốn bỏ qua phần đầu trang và phần chân trang.
+Trước khi hợp nhất các tài liệu, chúng ta cần thiết lập các tùy chọn nhập của mình. Bước này rất cần thiết vì nó cho phép chúng ta chỉ định rằng chúng ta muốn bỏ qua phần đầu trang và phần chân trang.
 
 Sau đây là mã để cấu hình các tùy chọn nhập:
 
@@ -79,7 +81,7 @@ Sau đây là mã để cấu hình các tùy chọn nhập:
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Bằng cách thiết lập`IgnoreHeaderFooter` ĐẾN`true`, chúng tôi đang yêu cầu Aspose.Words bỏ qua phần đầu trang và chân trang trong quá trình hợp nhất.
+Bằng cách thiết lập `IgnoreHeaderFooter` ĐẾN `true`, chúng tôi đang yêu cầu Aspose.Words bỏ qua phần đầu trang và chân trang trong quá trình hợp nhất.
 
 ## Bước 4: Hợp nhất các tài liệu
 
@@ -109,7 +111,7 @@ Thao tác này sẽ lưu tài liệu đã hợp nhất trong thư mục đã ch�
 
 Và bạn đã có nó! Bạn đã hợp nhất thành công hai tài liệu Word trong khi bỏ qua phần đầu trang và chân trang của chúng bằng Aspose.Words cho .NET. Phương pháp này rất tiện lợi cho nhiều tác vụ quản lý tài liệu khác nhau, trong đó việc duy trì các phần tài liệu cụ thể là rất quan trọng.
 
-Làm việc với Aspose.Words cho .NET có thể hợp lý hóa đáng kể quy trình xử lý tài liệu của bạn. Hãy nhớ rằng, nếu bạn gặp sự cố hoặc cần thêm thông tin, bạn luôn có thể kiểm tra[tài liệu](https://reference.aspose.com/words/net/).
+Làm việc với Aspose.Words cho .NET có thể hợp lý hóa đáng kể quy trình xử lý tài liệu của bạn. Hãy nhớ rằng, nếu bạn gặp sự cố hoặc cần thêm thông tin, bạn luôn có thể kiểm tra [tài liệu](https://reference.aspose.com/words/net/).
 
 ## Câu hỏi thường gặp
 
@@ -119,23 +121,28 @@ Có, Aspose.Words cung cấp nhiều tùy chọn để tùy chỉnh quy trình n
 
 ### Có thể giữ lại phần đầu trang và chân trang thay vì bỏ qua chúng không?
 
- Hoàn toàn. Đơn giản chỉ cần thiết lập`IgnoreHeaderFooter` ĐẾN`false` trong`ImportFormatOptions`.
+Hoàn toàn. Đơn giản chỉ cần thiết lập `IgnoreHeaderFooter` ĐẾN `false` trong `ImportFormatOptions`.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Vâng, Aspose.Words cho .NET là một sản phẩm thương mại. Bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép[đây](https://purchase.aspose.com/buy).
+Vâng, Aspose.Words cho .NET là một sản phẩm thương mại. Bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể ghép nhiều hơn hai tài liệu bằng phương pháp này không?
 
- Có, bạn có thể thêm nhiều tài liệu vào một vòng lặp bằng cách lặp lại`AppendDocument` phương pháp cho mỗi tài liệu bổ sung.
+Có, bạn có thể thêm nhiều tài liệu vào một vòng lặp bằng cách lặp lại `AppendDocument` phương pháp cho mỗi tài liệu bổ sung.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên[Trang web Aspose](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện trên [Trang web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

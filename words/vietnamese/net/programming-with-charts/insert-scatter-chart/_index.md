@@ -1,14 +1,16 @@
 ---
-title: Chèn biểu đồ phân tán vào tài liệu Word
-linktitle: Chèn biểu đồ phân tán vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn biểu đồ phân tán trong Word bằng Aspose.Words cho .NET. Các bước dễ dàng để tích hợp biểu diễn dữ liệu trực quan vào tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-charts/insert-scatter-chart/
+"description": "Tìm hiểu cách chèn biểu đồ phân tán trong Word bằng Aspose.Words cho .NET. Các bước dễ dàng để tích hợp biểu diễn dữ liệu trực quan vào tài liệu của bạn."
+"linktitle": "Chèn biểu đồ phân tán vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn biểu đồ phân tán vào tài liệu Word"
+"url": "/vi/net/programming-with-charts/insert-scatter-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn biểu đồ phân tán vào tài liệu Word
@@ -21,9 +23,9 @@ Trong hướng dẫn này, bạn sẽ học cách tận dụng Aspose.Words cho 
 
 Trước khi bắt đầu tạo biểu đồ phân tán bằng Aspose.Words cho .NET, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
-1.  Cài đặt Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+1. Cài đặt Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
    
-2. Kiến thức cơ bản về C#: Có kiến thức về ngôn ngữ lập trình C# và .NET framework sẽ rất có lợi.
+2. Kiến thức cơ bản về C#: Có kiến thức về ngôn ngữ lập trình C# và nền tảng .NET sẽ rất có lợi.
 
 ## Nhập không gian tên
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy phân tích quy trình chèn biểu đồ phân tán 
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, khởi tạo một phiên bản mới của`Document` lớp và`DocumentBuilder` lớp để bắt đầu xây dựng tài liệu của bạn.
+Đầu tiên, khởi tạo một phiên bản mới của `Document` lớp và `DocumentBuilder` lớp để bắt đầu xây dựng tài liệu của bạn.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn Biểu đồ phân tán
 
- Sử dụng`InsertChart` phương pháp của`DocumentBuilder` lớp để chèn biểu đồ phân tán vào tài liệu.
+Sử dụng `InsertChart` phương pháp của `DocumentBuilder` lớp để chèn biểu đồ phân tán vào tài liệu.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1", new double[] { 0.7, 1.8, 2.6 }, new double[]
 
 ## Bước 4: Lưu tài liệu
 
- Cuối cùng, lưu tài liệu đã sửa đổi vào vị trí mong muốn của bạn bằng cách sử dụng`Save` phương pháp của`Document` lớp học.
+Cuối cùng, lưu tài liệu đã sửa đổi vào vị trí mong muốn của bạn bằng cách sử dụng `Save` phương pháp của `Document` lớp học.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.InsertScatterChart.docx");
@@ -91,10 +93,15 @@ Có, Aspose.Words hỗ trợ nhiều loại biểu đồ bao gồm biểu đồ 
 Hoàn toàn có thể cập nhật dữ liệu biểu đồ một cách linh hoạt bằng cách sử dụng lệnh gọi API Aspose.Words.
 
 ### Tôi có thể nhận thêm sự hỗ trợ hoặc trợ giúp cho Aspose.Words ở đâu?
- Để được hỗ trợ thêm, hãy truy cập[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ thêm, hãy truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

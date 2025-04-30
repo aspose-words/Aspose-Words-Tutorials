@@ -1,14 +1,16 @@
 ---
-title: Word'de Tablo Ekle
-linktitle: Word'de Tablo Ekle
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak Word'de tablo eklemeyi öğrenin. Word belgelerinde kolayca iyi biçimlendirilmiş tablolar oluşturun.
-weight: 10
-url: /tr/java/table-processing/add-table-in-word/
+"description": "Aspose.Words for Java kullanarak Word'de tablo eklemeyi öğrenin. Word belgelerinde kolayca iyi biçimlendirilmiş tablolar oluşturun."
+"linktitle": "Word'de Tablo Ekle"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Word'de Tablo Ekle"
+"url": "/tr/java/table-processing/add-table-in-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word'de Tablo Ekle
@@ -27,11 +29,11 @@ Tercih ettiğiniz Entegre Geliştirme Ortamını (IDE) veya bir metin düzenleyi
 
 ## Adım 3: Aspose.Words Bağımlılığını Ekleyin
 
- Aspose.Words for Java ile çalışmak için, Aspose.Words JAR dosyasını projenizin sınıf yoluna eklemeniz gerekir. Aspose.Words for Java'nın en son sürümünü şuradan indirin:[Aspose.Sürümler](https://releases.aspose.com/words/java) ve JAR dosyasını projenize ekleyin.
+Aspose.Words for Java ile çalışmak için projenizin sınıf yoluna Aspose.Words JAR dosyasını eklemeniz gerekir. Aspose.Words for Java'nın en son sürümünü şuradan indirin: [Aspose.Sürümler](https://releases.aspose.com/words/java) ve JAR dosyasını projenize ekleyin.
 
 ## Adım 4: Gerekli Sınıfları İçe Aktarın
 
-Java kodunuzda, Word belgeleriyle etkileşime girebilmek için Aspose.Words paketinden gerekli sınıfları içe aktarın.
+Java kodunuzda, Word belgeleriyle etkileşim kurmak için Aspose.Words paketinden gerekli sınıfları içe aktarın.
 
 ```java
 import com.aspose.words.*;
@@ -39,7 +41,7 @@ import com.aspose.words.*;
 
 ## Adım 5: Yeni bir Word Belgesi Oluşturun
 
- Yeni bir örnek oluştur`Document` Yeni bir Word belgesi oluşturmak için nesne.
+Yeni bir örnek oluştur `Document` Yeni bir Word belgesi oluşturmak için nesne.
 
 ```java
 Document doc = new Document();
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Adım 6: Bir Tablo Oluşturun ve Satır Ekleyin
 
- Yeni bir tane oluştur`Table` nesneyi seçin ve satır ve sütun sayısını belirtin.
+Yeni bir tane oluştur `Table` nesneyi seçin ve satır ve sütun sayısını belirtin.
 
 ```java
 Table table = new Table(doc);
@@ -71,7 +73,7 @@ for (int row = 0; row < rowCount; row++) {
 
 ## Adım 7: Tabloyu Belgeye Ekleyin
 
- Tabloyu belgeye eklemek için şunu kullanın:`appendChild()` yöntemi`Document` nesne.
+Tabloyu belgeye eklemek için şunu kullanın: `appendChild()` yöntemi `Document` nesne.
 
 ```java
 doc.getFirstSection().getBody().appendChild(table);
@@ -79,7 +81,7 @@ doc.getFirstSection().getBody().appendChild(table);
 
 ## Adım 8: Belgeyi Kaydedin
 
-Word belgesini istediğiniz konuma kaydetmek için:`save()` yöntem.
+Word belgesini istediğiniz konuma kaydetmek için: `save()` yöntem.
 
 ```java
 doc.save("output.docx");
@@ -112,9 +114,13 @@ Evet, Aspose.Words tablo hücrelerine yazı tipi stilleri, renkler, hizalama ve 
 ### S5: Aspose.Words ne sıklıkla güncellenir?
 
 Aspose.Words, Microsoft Word ve Java'nın en son sürümleriyle uyumluluğun sağlanması için düzenli olarak güncellemeler ve iyileştirmeler almaktadır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

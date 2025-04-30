@@ -1,34 +1,49 @@
 ---
-title: A .NET-hez használt Aspose.Words formátumban dolgozunk a táblázat stílusokkal és formázással
-weight: 10
-limit:
-description: Tanuljon meg, hogyan kell stílusolni és formátálni a Word dokumentumokban a .NET-hez használt Aspose.Words használatával. A táblázat stílusát, határát, árnyékolását és összehangolását kényelmesen módosítsa.
-keywords:
-url: /hu/net/working-with-table-styles-and-formatting/
+"description": "Tanuld meg, hogyan formázhatod és formázhatod a táblázatokat Word dokumentumokban az Aspose.Words for .NET segítségével. Könnyedén testreszabhatod a táblázatstílusokat, szegélyeket, árnyékolást és igazítást."
+"title": "Táblázatstílusok és formázás használata az Aspose.Words for .NET programban"
+"url": "/hu/net/working-with-table-styles-and-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Bevezető
+## Bevezetés
  
-A stílusú és formátáló táblázatok elengedhetetlenek a professzionális megjelenésű Word dokumentumok létrehozásához. Az Aspose.Words alkalmazásával a .NET-hez könnyen alkalmazhatja az előzetes definiált táblázat stílusokat vagy egyedi stílusokat hozhat létre a dokumentum kialakításához. A könyvtár lehetővé teszi a határstílusok, a sejt árnyalata, a szöveges összehangolás meghatározását, sőt a táblázat szélességének és magasságának programszerű kezelését is. Akár jelentéseket, számlákat vagy összetett beállítások létrehozását végzi, az Aspose.Words a táblázatformátálását sima és hatékony.  
+táblázatok formázása és formázása elengedhetetlen a professzionális megjelenésű Word-dokumentumok létrehozásához. Az Aspose.Words for .NET segítségével könnyedén alkalmazhat előre definiált táblázatstílusokat, vagy létrehozhat egyéni stílusokat, amelyek illeszkednek a dokumentum designjához. A könyvtár lehetővé teszi szegélystílusok, cellaárnyékolás, szövegigazítás definiálását, sőt a táblázat szélességének és magasságának tulajdonságainak programozott kezelését is. Akár jelentéseket, számlákat generál, akár összetett elrendezéseket hoz létre, az Aspose.Words zökkenőmentessé és hatékonnyá teszi a táblázatok formázását.  
 
-Kísérje az előrelépett funkciókat, mint például a sejtmarginek beállítása, a sejtek egyesítése vagy a jobb olvashatóság érdekében váltakozó sor színek alkalmazása. A .NET Aspose.Words lehetővé teszi a fejlesztők számára, hogy teljes mértékben irányítsák a táblázat megjelenését, miközben fenntartják a dokumentum következetességét. Néhány kódvonal segítségével biztosíthatja, hogy a táblázatok finomnak és professzionálisnak tűnjenek, így mind az idő, mind a fáradság megtakarítása.  
+Fedezze fel a fejlett funkciókat, mint például a cellamargók beállítása, a cellák egyesítése vagy a váltakozó sorszínek alkalmazása a jobb olvashatóság érdekében. Az Aspose.Words for .NET lehetővé teszi a fejlesztők számára, hogy teljes mértékben kézben tartsák a táblázatok megjelenését, miközben megőrzik a dokumentum egységességét. Néhány sornyi kóddal biztosíthatja, hogy táblázatai letisztultak és professzionálisak legyenek, így időt és energiát takaríthat meg.  
 
-{{< tutorial-card link="./apply-outline-border/" title="A Aspose.Words segítségével alkalmazza a körvonalas határot a Wordben található táblázatra" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
-{{< tutorial-card link="./apply-row-formatting/" title="A szavak dokumentumokban a sor formázását alkalmazza" imgSrc="/words/net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./build-table-with-border/" title="A Word-ben a .NET-hez használt Aspose.Words segítségével módosítsa a táblázathatárokat" imgSrc="/words/net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
-{{< tutorial-card link="./buildtable-with-style/" title="Tépj stílusos asztalokat a Word-ben Aspose.Words segítségével" imgSrc="/words/net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
-{{< tutorial-card link="./cell-padding/" title="Készítsen Word Table cellát a Aspose.Words behelyezéssel" imgSrc="/words/net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
-{{< tutorial-card link="./create-table-style/" title="Töltsön stílusú táblázatot a Word dokumentumban az Aspose.Words segítségével .NET-ben" imgSrc="/words/net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
-{{< tutorial-card link="./format-table-and-cell/" title="Word dokumentum létrehozása a táblázat határokkal és árnyalatokkal" imgSrc="/words/net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
-{{< tutorial-card link="./set-table-cell-formatting/" title="Tölderek létrehozása és formázása a Word dokumentumban" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./set-table-row-formatting/" title="Készítsen egy formázott táblázatot a Word-ban Aspose.Words segítségével" imgSrc="/words/net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./table-tittle-and-description/" title="Tűz és leírás a Wordben található táblázathoz Aspose.Words segítségével" imgSrc="/words/net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+
+{{< tutorial-card link="./apply-outline-border/" title="Vázlatszegély alkalmazása egy táblázatra Wordben az Aspose.Words használatával" imgSrc="./apply-outline-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./apply-row-formatting/" title="Sorformázás alkalmazása Word dokumentumokban" imgSrc="./apply-row-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./build-table-with-border/" title="Táblázatszegélyek módosítása Wordben az Aspose.Words for .NET használatával" imgSrc="./build-table-with-border/images/thumb.png" >}}
+
+{{< tutorial-card link="./buildtable-with-style/" title="Stílusos táblázatok létrehozása Wordben az Aspose.Words segítségével" imgSrc="./buildtable-with-style/images/thumb.png" >}}
+
+{{< tutorial-card link="./cell-padding/" title="Hozz létre Word táblázatcellát kitöltésekkel az Aspose.Words-ben" imgSrc="./cell-padding/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-table-style/" title="Stílusos táblázat létrehozása Word dokumentumban az Aspose.Words for .NET használatával" imgSrc="./create-table-style/images/thumb.png" >}}
+
+{{< tutorial-card link="./format-table-and-cell/" title="Word dokumentum létrehozása táblázatszegélyekkel és árnyékolással" imgSrc="./format-table-and-cell/images/thumb.png" >}}
+
+{{< tutorial-card link="./set-table-cell-formatting/" title="Táblázat létrehozása és formázása Word dokumentumban" imgSrc="./set-table-cell-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./set-table-row-formatting/" title="Formázott táblázat létrehozása Wordben az Aspose.Words segítségével" imgSrc="./set-table-row-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./table-tittle-and-description/" title="Cím és leírás hozzáadása a táblázathoz Wordben az Aspose.Words használatával" imgSrc="./table-tittle-and-description/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

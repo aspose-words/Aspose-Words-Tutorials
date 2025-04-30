@@ -1,14 +1,16 @@
 ---
-title: Üst Düğümü Al
-linktitle: Üst Düğümü Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak bir belge bölümünün üst düğümüne nasıl ulaşılacağını öğrenin.
-weight: 10
-url: /tr/net/working-with-node/get-parent-node/
+"description": "Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak bir belge bölümünün üst düğümüne nasıl ulaşılacağını öğrenin."
+"linktitle": "Üst Düğümü Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Üst Düğümü Al"
+"url": "/tr/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Üst Düğümü Al
@@ -21,10 +23,10 @@ Aspose.Words for .NET kullanarak belge düğümlerini nasıl düzenleyebileceği
 
 Başlamadan önce her şeyin ayarlandığından emin olun:
 
--  Aspose.Words for .NET: Buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 - Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
--  Geçici Lisans: Sınırlamalar olmaksızın tam işlevsellik için geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+- Geçici Lisans: Sınırlamalar olmaksızın tam işlevsellik için geçici bir lisans edinin [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -43,7 +45,7 @@ Yeni bir belge oluşturarak başlayalım. Bu, düğümleri keşfetmek için oyun
 Document doc = new Document();
 ```
 
- Burada, yeni bir örneğini başlattık`Document` sınıf. Bunu boş bir tuval olarak düşünün.
+Burada, yeni bir örneğini başlattık `Document` sınıf. Bunu boş bir tuval olarak düşünün.
 
 ## Adım 2: İlk Çocuk Düğümüne Erişim
 
@@ -63,7 +65,7 @@ Bunu yaparak, belgemizdeki ilk bölümü ele geçiriyoruz. Bunu bir kitabın ilk
 Console.WriteLine("Section parent is the document: " + (doc == section.ParentNode));
 ```
 
-Bu satır bölümümüzün ebeveyn düğümünün gerçekten de belgenin kendisi olup olmadığını kontrol eder. Bu, aile ağacınızı ebeveynlerinize kadar takip etmek gibidir!
+Bu satır bölümümüzün ebeveyn düğümünün gerçekten belgenin kendisi olup olmadığını kontrol eder. Aile ağacınızı ebeveynlerinize kadar takip etmek gibi!
 
 ## Çözüm
 
@@ -81,13 +83,18 @@ Belgenin yapısını anlamak ve değiştirmek, örneğin bölümleri taşımak v
 Aspose.Words öncelikli olarak .NET için tasarlanmış olsa da, VB.NET gibi .NET framework tarafından desteklenen diğer dillerle de kullanabilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
-Evet, tam işlevsellik için bir lisansa ihtiyacınız var. Ücretsiz deneme veya değerlendirme amaçlı geçici bir lisansla başlayabilirsiniz.
+Evet, tam işlevsellik için bir lisansa ihtiyacınız var. Değerlendirme amaçlı ücretsiz deneme veya geçici lisansla başlayabilirsiniz.
 
 ### Daha detaylı dokümanları nerede bulabilirim?
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

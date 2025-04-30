@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bidang Penulis
-linktitle: Masukkan Bidang Penulis
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memasukkan kolom penulis dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pembuatan dokumen.
-weight: 10
-url: /id/net/working-with-fields/insert-author-field/
+"description": "Pelajari cara memasukkan kolom penulis dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pembuatan dokumen."
+"linktitle": "Masukkan Bidang Penulis"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bidang Penulis"
+"url": "/id/net/working-with-fields/insert-author-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bidang Penulis
@@ -21,7 +23,7 @@ Dalam tutorial ini, kita akan menyelami seluk-beluk cara memasukkan kolom penuli
 
 Sebelum kita masuk ke tutorial, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk Pustaka .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk Pustaka .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Visual Studio: Di sinilah kita akan menulis dan menjalankan kode kita.
 - .NET Framework: Pastikan Anda telah menginstalnya di komputer Anda.
 - Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya.
@@ -66,7 +68,7 @@ Pada langkah ini, kita akan membuat dokumen Word baru dan menambahkan paragraf k
 
 ### Membuat dan Menginisialisasi Dokumen
 
-1.  Buat Dokumen Baru: Kita akan mulai dengan membuat contoh baru dari`Document` kelas.
+1. Buat Dokumen Baru: Kita akan mulai dengan membuat contoh baru dari `Document` kelas.
 
 ```csharp
 Document doc = new Document();
@@ -86,7 +88,7 @@ Sekarang, waktunya memasukkan kolom penulis ke dalam dokumen kita.
 
 ### Tambahkan Bidang Penulis
 
-1.  Masukkan Bidang: Gunakan`AppendField` metode untuk memasukkan bidang penulis ke dalam paragraf.
+1. Masukkan Bidang: Gunakan `AppendField` metode untuk memasukkan bidang penulis ke dalam paragraf.
 
 ```csharp
 FieldAuthor field = (FieldAuthor)para.AppendField(FieldType.FieldAuthor, false);
@@ -116,7 +118,7 @@ Langkah terakhir adalah menyimpan dokumen ke direktori yang Anda tentukan.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-2.  Simpan Dokumen: Gunakan`Save` metode untuk menyimpan dokumen Anda.
+2. Simpan Dokumen: Gunakan `Save` metode untuk menyimpan dokumen Anda.
 
 ```csharp
 doc.Save(dataDir + "InsertionAuthorField.docx");
@@ -136,22 +138,27 @@ Aspose.Words untuk .NET terutama mendukung bahasa .NET, termasuk C# dan VB.NET. 
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
 
-Aspose.Words menawarkan uji coba gratis, tetapi untuk fitur lengkap dan penggunaan komersial, Anda perlu membeli lisensi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Aspose.Words menawarkan uji coba gratis, tetapi untuk fitur lengkap dan penggunaan komersial, Anda perlu membeli lisensi. Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana cara memperbarui nama penulis secara dinamis?
 
- Anda dapat mengatur`AuthorName` properti secara dinamis dengan menetapkan variabel atau nilai dari database atau masukan pengguna.
+Anda dapat mengatur `AuthorName` properti secara dinamis dengan menetapkan variabel atau nilai dari database atau masukan pengguna.
 
 ### Bisakah saya menambahkan jenis bidang lain menggunakan Aspose.Words?
 
- Ya, Aspose.Words mendukung berbagai jenis bidang, termasuk tanggal, waktu, nomor halaman, dan lainnya. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk rinciannya.
+Ya, Aspose.Words mendukung berbagai jenis bidang, termasuk tanggal, waktu, nomor halaman, dan lainnya. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk rinciannya.
 
 ### Di mana saya dapat menemukan dukungan jika saya mengalami masalah?
 
- Anda dapat menemukan dukungan di forum Aspose.Words[Di Sini](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dukungan di forum Aspose.Words [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

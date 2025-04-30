@@ -1,14 +1,16 @@
 ---
-title: Belgeleri PDF'ye Aktarma
-linktitle: Belgeleri PDF'ye Aktarma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgeleri PDF'ye nasıl aktaracağınızı öğrenin. Bu adım adım kılavuz, sorunsuz belge dönüştürme sürecini basitleştirir.
-weight: 10
-url: /tr/java/document-converting/exporting-documents-to-pdf/
+"description": "Aspose.Words for Java kullanarak belgeleri PDF'ye nasıl aktaracağınızı öğrenin. Bu adım adım kılavuz, sorunsuz belge dönüştürme sürecini basitleştirir."
+"linktitle": "Belgeleri PDF'ye Aktarma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri PDF'ye Aktarma"
+"url": "/tr/java/document-converting/exporting-documents-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri PDF'ye Aktarma
@@ -24,7 +26,7 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Ortamı: Sisteminizde Java'nın yüklü olduğundan emin olun.
 
--  Aspose.Words for Java: Aspose.Words for Java'yı indirin ve yükleyin[Burada](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java: Aspose.Words for Java'yı indirin ve yükleyin [Burada](https://releases.aspose.com/words/java/).
 
 ## Projenin Kurulumu
 
@@ -47,7 +49,7 @@ Sonra, yüklenen Word belgesini PDF'ye dönüştüreceksiniz. Aspose.Words bu i�
 // PDF kaydetme seçenekleri nesnesi oluşturun
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Belgeyi PDF olarak kaydedin
+// Belgeyi PDF olarak kaydet
 doc.save("output.pdf", saveOptions);
 ```
 
@@ -79,10 +81,15 @@ Evet, Aspose.Words parola korumalı Word belgelerini işleyebilir. Gerektiğinde
 
 ### Daha fazla doküman ve örneği nerede bulabilirim?
 
- Kapsamlı dokümantasyon ve kod örnekleri için Aspose.Words for Java dokümantasyonunu ziyaret edin[Burada](https://reference.aspose.com/words/java/).
+Kapsamlı dokümantasyon ve kod örnekleri için Aspose.Words for Java dokümantasyonunu ziyaret edin [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Использование полей в Aspose.Words для Java
-linktitle: Использование полей
-second_title: API обработки документов Java Aspose.Words
-description: Научитесь эффективно использовать Aspose.Words для полей Java в этом пошаговом руководстве. Создавайте динамические документы Word с легкостью.
-weight: 11
-url: /ru/java/using-document-elements/using-fields/
+"description": "Научитесь эффективно использовать Aspose.Words для полей Java в этом пошаговом руководстве. Создавайте динамические документы Word с легкостью."
+"linktitle": "Использование полей"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование полей в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование полей в Aspose.Words для Java
@@ -22,7 +24,7 @@ Aspose.Words for Java — это необходимый инструмент д�
 
 ## 2. Настройка вашей среды
 
- Прежде чем начать, убедитесь, что у вас установлен Aspose.Words for Java. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/java/). Также убедитесь, что в вашей системе установлены Java и интегрированная среда разработки (IDE), например Eclipse или IntelliJ IDEA.
+Прежде чем начать, убедитесь, что у вас установлен Aspose.Words for Java. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/java/). Также убедитесь, что в вашей системе установлены Java и интегрированная среда разработки (IDE), например Eclipse или IntelliJ IDEA.
 
 ## 3. Загрузка документа Word
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Заменять`"Your Document Directory"` и`"Your Output Directory"` с соответствующими путями.
+Заменять `"Your Document Directory"` и `"Your Output Directory"` с соответствующими путями.
 
 ## 4. Настройка слияния писем
 
@@ -68,7 +70,7 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Заменять`"Your Output Directory"` с желаемым выходным путем.
+Заменять `"Your Output Directory"` с желаемым выходным путем.
 
 ## Полный исходный код
 ```java
@@ -104,7 +106,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             // Мы решили, что хотим, чтобы все логические значения выводились в виде полей формы с флажками.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            if (e.getFieldValue() instanceof /*булев*/Boolean)
             {
                 // Переместите «курсор» в текущее поле слияния.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Реализация не требуется.
+            //  Реализация не требуется.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,7 +216,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Вставьте MERGEFIELD, вложенный в поле IF.
         // Поскольку оператор поля IF является ложным, результат внутреннего MERGEFIELD не будет отображен,
-        //и MERGEFIELD не будет получать никаких данных во время слияния почты.
+        // и MERGEFIELD не будет получать никаких данных во время слияния почты.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
@@ -315,7 +320,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //На данный момент нет возможности задать свойства ячеек для всей строки, поэтому нам придется перебрать все ячейки в строке.
+                // На данный момент нет возможности задать свойства ячеек для всей строки, поэтому нам придется перебрать все ячейки в строке.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -339,7 +344,7 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
         return (value / 2 * 2) == value;
     }
     /// <резюме>
-    /// Создайте DataTable и заполните его данными.
+    /// Создайте DataTable и заполните ее данными.
     /// В реальной жизни этот DataTable должен заполняться из базы данных.
     /// </резюме>
     private DataTable getSuppliersDataTable()
@@ -366,26 +371,31 @@ doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ## 7. Часто задаваемые вопросы
 
 ### В1: Где я могу скачать Aspose.Words для Java?
- Вы можете загрузить Aspose.Words для Java с сайта[здесь](https://releases.aspose.com/words/java/).
+Вы можете загрузить Aspose.Words для Java с сайта [здесь](https://releases.aspose.com/words/java/).
 
 ### В2: Как получить временную лицензию на Aspose.Words для Java?
- Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### В3: Где я могу получить поддержку по Aspose.Words для Java?
- Для получения поддержки вы можете посетить форум Aspose.Words.[здесь](https://forum.aspose.com/).
+Для получения поддержки вы можете посетить форум Aspose.Words. [здесь](https://forum.aspose.com/).
 
 ### В4: Подходит ли Aspose.Words for Java для обработки HTML-контента в документах Word?
 Да, Aspose.Words для Java обеспечивает превосходную поддержку обработки HTML-контента в документах Word.
 
 ### В5: Могу ли я использовать Aspose.Words для Java бесплатно?
- Aspose.Words для Java — коммерческий продукт, но вы можете изучить его возможности с помощью бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+Aspose.Words для Java — коммерческий продукт, но вы можете изучить его возможности с помощью бесплатной пробной версии. [здесь](https://releases.aspose.com/).
 
 Начните работу с Aspose.Words для Java уже сегодня и получите невиданный ранее контроль над своими документами Word!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

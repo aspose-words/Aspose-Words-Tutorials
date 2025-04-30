@@ -1,14 +1,16 @@
 ---
-title: Belge Sürüm Kontrolü ve Geçmişi
-linktitle: Belge Sürüm Kontrolü ve Geçmişi
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ü kullanarak verimli belge sürüm denetimini öğrenin. Değişiklikleri yönetin, sorunsuz bir şekilde işbirliği yapın ve revizyonları zahmetsizce izleyin.
-weight: 13
-url: /tr/java/document-revision/document-version-control-history/
+"description": "Java için Aspose.Words'ü kullanarak verimli belge sürüm denetimini öğrenin. Değişiklikleri yönetin, sorunsuz bir şekilde işbirliği yapın ve revizyonları zahmetsizce izleyin."
+"linktitle": "Belge Sürüm Kontrolü ve Geçmişi"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Sürüm Kontrolü ve Geçmişi"
+"url": "/tr/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Sürüm Kontrolü ve Geçmişi
@@ -16,7 +18,7 @@ url: /tr/java/document-revision/document-version-control-history/
 
 ## giriiş
 
-Etkili belge sürüm kontrolü, tüm paydaşların en son ve en doğru bilgilerle çalışmasını sağlar. Aspose.Words for Java, geliştiricilerin belgeleri kolaylıkla oluşturmasını, düzenlemesini ve yönetmesini sağlayan çok yönlü bir kütüphanedir. Sürüm kontrolünü ve belge geçmişini uygulama sürecinin adım adım inceleyelim.
+Etkili belge sürüm kontrolü, tüm paydaşların en son ve en doğru bilgilerle çalışmasını sağlar. Aspose.Words for Java, geliştiricilerin belgeleri kolaylıkla oluşturmasını, düzenlemesini ve yönetmesini sağlayan çok yönlü bir kütüphanedir. Sürüm kontrolünü ve belge geçmişini uygulama adım adım sürecine dalalım.
 
 ## Ön koşullar
 
@@ -26,13 +28,13 @@ Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 - Java Kütüphanesi için Aspose.Words
 - Çalışmak için örnek bir belge
 
-## Adım 1: Aspose.Words Kütüphanesini İçe Aktarın
+## Adım 1: Aspose.Words Kütüphanesini İçe Aktar
 
 Aspose.Words for Java kütüphanesini projenize içe aktararak başlayın. Bunu projenizin derleme dosyasına bir bağımlılık olarak ekleyebilir veya JAR dosyasını Aspose web sitesinden indirebilirsiniz.
 
 ## Adım 2: Belgeyi Yükleyin
 
-Sürüm denetimini uygulamak için, Aspose.Words kullanarak çalışmak istediğiniz belgeyi yükleyin. Başlamanız için işte bir kod parçası:
+Sürüm denetimini uygulamak için, Aspose.Words kullanarak çalışmak istediğiniz belgeyi yükleyin. Başlamanız için bir kod parçacığı:
 
 ```java
 // Belgeyi yükle
@@ -88,7 +90,7 @@ Aspose.Words for Java'yı web sitesinden indirebilir ve dokümanlarda verilen ku
 
 ### Belge değişikliklerinin takibini özelleştirebilir miyim?
 
-Evet, Java için Aspose.Words, yazar adları, yorumlar ve daha fazlası dahil olmak üzere değişiklikleri izlemek için kapsamlı özelleştirme seçenekleri sunar.
+Evet, Aspose.Words for Java, yazar adları, yorumlar ve daha fazlası dahil olmak üzere değişiklikleri izlemek için kapsamlı özelleştirme seçenekleri sunar.
 
 ### Aspose.Words büyük ölçekli belge yönetimi için uygun mudur?
 
@@ -100,10 +102,15 @@ Kesinlikle, Aspose.Words for Java, belge işleme yeteneklerini geliştirmek içi
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
- Aspose.Words for Java için kapsamlı belgelere ve ek kaynaklara şu adresten erişebilirsiniz:[Burada](https://reference.aspose.com/words/java/).
+Aspose.Words for Java için kapsamlı belgelere ve ek kaynaklara şu adresten erişebilirsiniz: [Burada](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/build-table-with-borders/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Build Table With Borders
@@ -116,9 +119,13 @@ Yes, you can use any color for the borders by specifying the `Color` property. C
 ### Is it necessary to clear existing borders before setting new ones?
 While not mandatory, clearing existing borders before setting new ones ensures that your new border settings are applied without any interference from previous styles.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

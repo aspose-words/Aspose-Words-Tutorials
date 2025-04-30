@@ -1,14 +1,16 @@
 ---
-title: Fitur Tipe Terbuka
-linktitle: Fitur Tipe Terbuka
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengaktifkan fitur OpenType dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/enable-opentype-features/open-type-features/
+"description": "Pelajari cara mengaktifkan fitur OpenType dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Fitur Tipe Terbuka"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Fitur Tipe Terbuka"
+"url": "/id/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fitur Tipe Terbuka
@@ -21,7 +23,7 @@ Apakah Anda siap menyelami dunia fitur OpenType menggunakan Aspose.Words untuk .
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal versi .NET Framework yang kompatibel.
 3. Visual Studio: Lingkungan pengembangan terpadu (IDE) untuk pengkodean.
 4. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
@@ -62,7 +64,7 @@ Buat variabel string untuk menyimpan jalur ke direktori dokumen Anda. Di sinilah
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
 
 ### Memuat Dokumen
 
@@ -76,7 +78,7 @@ Baris kode ini membuka dokumen yang ditentukan sehingga kita dapat memanipulasin
 
 ## Langkah 3: Aktifkan Fitur OpenType
 
- HarfBuzz adalah mesin pembentuk teks sumber terbuka yang bekerja dengan lancar dengan Aspose.Words. Untuk mengaktifkan fitur OpenType, kita perlu mengatur`TextShaperFactory` milik`LayoutOptions` obyek.
+HarfBuzz adalah mesin pembentuk teks sumber terbuka yang bekerja dengan lancar dengan Aspose.Words. Untuk mengaktifkan fitur OpenType, kita perlu mengatur `TextShaperFactory` milik `LayoutOptions` obyek.
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -103,7 +105,7 @@ Namun jangan berhenti di sini! Jelajahi lebih banyak fitur Aspose.Words dan liha
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa saja fitur OpenType?
-Fitur-fitur OpenType mencakup kemampuan tipografi tingkat lanjut seperti ligatur, kerning, dan set gaya yang meningkatkan tampilan teks dalam dokumen.
+Fitur OpenType mencakup kemampuan tipografi tingkat lanjut seperti ligatur, kerning, dan set gaya yang meningkatkan tampilan teks dalam dokumen.
 
 ### Mengapa menggunakan HarfBuzz dengan Aspose.Words?
 HarfBuzz adalah mesin pembentuk teks sumber terbuka yang menyediakan dukungan kuat untuk fitur-fitur OpenType, meningkatkan kualitas tipografi dokumen Anda.
@@ -112,13 +114,18 @@ HarfBuzz adalah mesin pembentuk teks sumber terbuka yang menyediakan dukungan ku
 Ya, Aspose.Words mendukung berbagai mesin pembentuk teks. Namun, HarfBuzz sangat direkomendasikan karena dukungan fitur OpenType-nya yang komprehensif.
 
 ### Apakah Aspose.Words kompatibel dengan semua versi .NET?
- Aspose.Words mendukung berbagai versi .NET, termasuk .NET Framework, .NET Core, dan .NET Standard. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk informasi kompatibilitas terperinci.
+Aspose.Words mendukung berbagai versi .NET, termasuk .NET Framework, .NET Core, dan .NET Standard. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk informasi kompatibilitas terperinci.
 
 ### Bagaimana saya bisa mencoba Aspose.Words sebelum membeli?
- Anda dapat mengunduh uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/) dan meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat mengunduh uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/) dan meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

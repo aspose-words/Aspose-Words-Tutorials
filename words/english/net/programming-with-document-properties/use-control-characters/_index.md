@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-properties/use-control-characters/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Control Characters
@@ -125,9 +128,13 @@ Basic knowledge of C# is helpful, but the library is designed to be user-friendl
 Check out the [Aspose.Words documentation](https://reference.aspose.com/words/net/) or visit the [support forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

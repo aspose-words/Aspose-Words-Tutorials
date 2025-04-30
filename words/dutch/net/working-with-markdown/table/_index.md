@@ -1,29 +1,31 @@
 ---
-title: Tafel
-linktitle: Tafel
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u tabellen in Aspose.Words voor .NET kunt maken en aanpassen met deze stapsgewijze handleiding. Perfect voor het genereren van gestructureerde en visueel aantrekkelijke documenten.
-weight: 10
-url: /nl/net/working-with-markdown/table/
+"description": "Leer hoe u tabellen kunt maken en aanpassen in Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor het genereren van gestructureerde en visueel aantrekkelijke documenten."
+"linktitle": "Tafel"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Tafel"
+"url": "/nl/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tafel
 
 ## Invoering
 
-Werken met tabellen in documenten is een veelvoorkomende vereiste. Of u nu rapporten, facturen of gestructureerde gegevens genereert, tabellen zijn onmisbaar. In deze tutorial zal ik u door het maken en aanpassen van tabellen leiden met Aspose.Words voor .NET. Laten we erin duiken!
+Werken met tabellen in documenten is een veelvoorkomende vereiste. Of u nu rapporten, facturen of gestructureerde gegevens genereert, tabellen zijn onmisbaar. In deze tutorial laat ik u zien hoe u tabellen kunt maken en aanpassen met Aspose.Words voor .NET. Laten we beginnen!
 
 ## Vereisten
 
 Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-- Visual Studio: U hebt een ontwikkelomgeving nodig om uw code te schrijven en testen. Visual Studio is een goede keuze.
--  Aspose.Words voor .NET: Zorg ervoor dat u de Aspose.Words-bibliotheek hebt geïnstalleerd. Als u deze niet hebt, kunt u deze downloaden[hier](https://releases.aspose.com/words/net/).
-- Basiskennis van C#: Om de cursus te kunnen volgen, is enige kennis van C#-programmering noodzakelijk.
+- Visual Studio: Je hebt een ontwikkelomgeving nodig om je code te schrijven en te testen. Visual Studio is een goede keuze.
+- Aspose.Words voor .NET: Zorg ervoor dat de Aspose.Words-bibliotheek geïnstalleerd is. Als u deze niet hebt, kunt u deze downloaden. [hier](https://releases.aspose.com/words/net/).
+- Basiskennis van C#: enige kennis van C#-programmering is noodzakelijk om de cursus te kunnen volgen.
 
 ## Naamruimten importeren
 
@@ -36,14 +38,14 @@ using Aspose.Words.Tables;
 
 ## Stap 1: Initialiseer Document en DocumentBuilder
 
-Allereerst moeten we een nieuw document maken en de klasse DocumentBuilder initialiseren. Deze klasse helpt ons bij het samenstellen van de tabel.
+Allereerst moeten we een nieuw document maken en de DocumentBuilder-klasse initialiseren. Deze klasse helpt ons bij het samenstellen van de tabel.
 
 ```csharp
 // Initialiseer DocumentBuilder.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-Deze stap is als het opzetten van je werkruimte. Je hebt je lege document en je pen klaar.
+Deze stap is vergelijkbaar met het inrichten van je werkplek. Je hebt je lege document en je pen bij de hand.
 
 ## Stap 2: Begin met het bouwen van uw tafel
 
@@ -62,7 +64,7 @@ builder.Writeln("b");
 builder.EndRow();
 ```
 
-Beschouw deze stap als het tekenen van de eerste rij van uw tabel op een vel papier en het invullen van de eerste twee cellen met "a" en "b".
+Stel je deze stap voor alsof je de eerste rij van je tabel op een vel papier tekent en de eerste twee cellen invult met "a" en "b".
 
 ## Stap 3: Meer rijen toevoegen
 
@@ -84,23 +86,27 @@ Het maken en aanpassen van tabellen in Aspose.Words voor .NET is eenvoudig als j
 
 ## Veelgestelde vragen
 
-### Kan ik meer dan twee cellen achter elkaar toevoegen?
- Ja, u kunt zoveel cellen toevoegen als u nodig hebt in een rij door de`InsertCell()` En`Writeln()` methoden.
+### Kan ik meer dan twee cellen op een rij toevoegen?
+Ja, u kunt zoveel cellen toevoegen als u nodig hebt in een rij door de stappen te herhalen. `InsertCell()` En `Writeln()` methoden.
 
 ### Hoe kan ik cellen in een tabel samenvoegen?
- U kunt cellen samenvoegen met behulp van de`CellFormat.HorizontalMerge` En`CellFormat.VerticalMerge` eigenschappen.
+U kunt cellen samenvoegen met behulp van de `CellFormat.HorizontalMerge` En `CellFormat.VerticalMerge` eigenschappen.
 
 ### Is het mogelijk om afbeeldingen toe te voegen aan tabelcellen?
- Absoluut! U kunt afbeeldingen in cellen invoegen met behulp van de`DocumentBuilder.InsertImage` methode.
+Absoluut! Je kunt afbeeldingen in cellen invoegen met behulp van de `DocumentBuilder.InsertImage` methode.
 
 ### Kan ik individuele cellen verschillend stylen?
- Ja, u kunt verschillende stijlen op afzonderlijke cellen toepassen door ze te openen via de`Cells` verzameling van een rij.
+Ja, u kunt verschillende stijlen toepassen op individuele cellen door ze te openen via de `Cells` verzameling van een rij.
 
 ### Hoe verwijder ik randen van de tabel?
- U kunt randen verwijderen door de randstijl in te stellen op`LineStyle.None` voor elk randtype.
+U kunt randen verwijderen door de randstijl in te stellen op `LineStyle.None` voor elk randtype.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

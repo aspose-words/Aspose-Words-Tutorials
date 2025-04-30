@@ -1,14 +1,16 @@
 ---
-title: Xóa Thuộc tính Tài liệu Tùy chỉnh
-linktitle: Xóa Thuộc tính Tài liệu Tùy chỉnh
-second_title: API xử lý tài liệu Aspose.Words
-description: Xóa thuộc tính tài liệu tùy chỉnh trong tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có giải pháp nhanh chóng và dễ dàng. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/programming-with-document-properties/remove-custom-document-properties/
+"description": "Xóa thuộc tính tài liệu tùy chỉnh trong tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có giải pháp nhanh chóng và dễ dàng. Hoàn hảo cho nhà phát triển."
+"linktitle": "Xóa Thuộc tính Tài liệu Tùy chỉnh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa Thuộc tính Tài liệu Tùy chỉnh"
+"url": "/vi/net/programming-with-document-properties/remove-custom-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Thuộc tính Tài liệu Tùy chỉnh
@@ -19,9 +21,9 @@ Bạn đã bao giờ thấy mình bị vướng vào mạng lưới các thuộc
 
 ## Điều kiện tiên quyết
 
-Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình.
 3. Kiến thức cơ bản về C#: Có kiến thức về lập trình C# sẽ rất hữu ích.
 
@@ -60,7 +62,7 @@ Sau khi tải xong tài liệu, đã đến lúc xóa các thuộc tính tùy ch
 
 ### Bước 2.1: Truy cập Thuộc tính Tài liệu Tùy chỉnh
 
-Đầu tiên, hãy truy cập vào thuộc tính tùy chỉnh của tài liệu đã tải.
+Đầu tiên, hãy truy cập vào thuộc tính tài liệu tùy chỉnh của tài liệu đã tải.
 
 ```csharp
 var customProperties = doc.CustomDocumentProperties;
@@ -68,7 +70,7 @@ var customProperties = doc.CustomDocumentProperties;
 
 ### Bước 2.2: Xóa Thuộc tính Cụ thể
 
-Tiếp theo, xóa thuộc tính tùy chỉnh cụ thể theo tên của nó. Trong ví dụ này, chúng tôi đang xóa "Authorized Date".
+Tiếp theo, xóa thuộc tính tùy chỉnh cụ thể theo tên của nó. Trong ví dụ này, chúng tôi đang xóa "Ngày được ủy quyền".
 
 ```csharp
 customProperties.Remove("Authorized Date");
@@ -107,16 +109,21 @@ Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với 
 Aspose.Words for .NET được thiết kế riêng cho các ứng dụng .NET. Tuy nhiên, Aspose cung cấp các thư viện tương tự cho Java và các nền tảng khác.
 
 ### 3. Làm thế nào để tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể[tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose.
+Bạn có thể [tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) từ trang web Aspose.
 
 ### 4. Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?
- Kiểm tra các[tài liệu](https://reference.aspose.com/words/net/) để biết thêm hướng dẫn và ví dụ.
+Kiểm tra các [tài liệu](https://reference.aspose.com/words/net/) để biết thêm hướng dẫn và ví dụ.
 
 ### 5. Làm thế nào tôi có thể mua giấy phép Aspose.Words cho .NET?
- Bạn có thể[mua giấy phép](https://purchase.aspose.com/buy) trực tiếp từ trang web Aspose.
+Bạn có thể [mua giấy phép](https://purchase.aspose.com/buy) trực tiếp từ trang web Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

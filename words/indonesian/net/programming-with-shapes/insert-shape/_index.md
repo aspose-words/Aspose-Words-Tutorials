@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bentuk
-linktitle: Sisipkan Bentuk
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-shapes/insert-shape/
+"description": "Pelajari cara menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Sisipkan Bentuk"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bentuk"
+"url": "/id/net/programming-with-shapes/insert-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bentuk
@@ -21,7 +23,7 @@ Dalam hal membuat dokumen Word yang menarik secara visual dan terstruktur dengan
 
 Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh dan instal versi terbaru dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan .NET yang cocok seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# dan konsep dasar.
 
@@ -90,7 +92,7 @@ Potongan kode ini menyisipkan kotak teks lain dengan dimensi dan rotasi yang sam
 
 ## Langkah 5: Simpan Dokumen
 
- Setelah menambahkan bentuk, langkah terakhir adalah menyimpan dokumen. Kita akan menggunakan`OoxmlSaveOptions` untuk menentukan format penyimpanan.
+Setelah menambahkan bentuk, langkah terakhir adalah menyimpan dokumen. Kita akan menggunakan `OoxmlSaveOptions` untuk menentukan format penyimpanan.
 
 ```csharp
 // Tentukan opsi penyimpanan dengan kepatuhan
@@ -107,27 +109,32 @@ doc.Save(dataDir + "WorkingWithShapes.InsertShape.docx", saveOptions);
 
 Nah, itu dia! Anda telah berhasil menyisipkan dan memanipulasi bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini membahas dasar-dasarnya, tetapi Aspose.Words menawarkan banyak fitur lanjutan untuk bekerja dengan bentuk, seperti gaya kustom, konektor, dan bentuk grup.
 
- Untuk informasi lebih rinci, kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Untuk informasi lebih rinci, kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menyisipkan berbagai jenis bentuk?
-Anda dapat mengubah`ShapeType` di dalam`InsertShape` metode untuk menyisipkan berbagai jenis bentuk seperti lingkaran, persegi panjang, dan panah.
+Anda dapat mengubah `ShapeType` di dalam `InsertShape` metode untuk menyisipkan berbagai jenis bentuk seperti lingkaran, persegi panjang, dan panah.
 
 ### Bisakah saya menambahkan teks di dalam bentuk?
- Ya, Anda bisa menggunakan`builder.Write` metode untuk menambahkan teks di dalam bentuk setelah memasukkannya.
+Ya, Anda bisa menggunakan `builder.Write` metode untuk menambahkan teks di dalam bentuk setelah memasukkannya.
 
 ### Bisakah bentuk-bentuk tersebut diberi gaya?
- Ya, Anda dapat menata bentuk dengan mengatur properti seperti`FillColor`, `StrokeColor` , Dan`StrokeWeight`.
+Ya, Anda dapat menata bentuk dengan mengatur properti seperti `FillColor`Bahasa Indonesia: `StrokeColor`, Dan `StrokeWeight`.
 
 ### Bagaimana cara memposisikan bentuk relatif terhadap elemen lainnya?
- Gunakan`RelativeHorizontalPosition` Dan`RelativeVerticalPosition` properti untuk memposisikan bentuk relatif terhadap elemen lain dalam dokumen.
+Gunakan `RelativeHorizontalPosition` Dan `RelativeVerticalPosition` properti untuk memposisikan bentuk relatif terhadap elemen lain dalam dokumen.
 
 ### Bisakah saya mengelompokkan beberapa bentuk menjadi satu?
- Ya, Aspose.Words untuk .NET memungkinkan Anda mengelompokkan bentuk menggunakan`GroupShape` kelas.
+Ya, Aspose.Words untuk .NET memungkinkan Anda mengelompokkan bentuk menggunakan `GroupShape` kelas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

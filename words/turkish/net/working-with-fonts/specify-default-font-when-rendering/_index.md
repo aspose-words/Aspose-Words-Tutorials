@@ -1,14 +1,16 @@
 ---
-title: İşleme Sırasında Varsayılan Yazı Tipini Belirle
-linktitle: İşleme Sırasında Varsayılan Yazı Tipini Belirle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini işlerken varsayılan yazı tipini nasıl belirleyeceğinizi öğrenin. Platformlar arasında tutarlı belge görünümünü sağlayın.
-weight: 10
-url: /tr/net/working-with-fonts/specify-default-font-when-rendering/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini işlerken varsayılan yazı tipini nasıl belirleyeceğinizi öğrenin. Platformlar arasında tutarlı belge görünümünü sağlayın."
+"linktitle": "İşleme Sırasında Varsayılan Yazı Tipini Belirle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İşleme Sırasında Varsayılan Yazı Tipini Belirle"
+"url": "/tr/net/working-with-fonts/specify-default-font-when-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İşleme Sırasında Varsayılan Yazı Tipini Belirle
@@ -21,7 +23,7 @@ Word belgelerinizin farklı platformlarda doğru şekilde işlenmesini sağlamak
 
 Koda dalmadan önce, bu eğitimde takip etmeniz gerekenlere bir bakalım:
 
-- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürümün yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET geliştirme ortamı.
 - C# Temel Bilgisi: Bu eğitim, C# programlama konusunda rahat olduğunuzu varsayar.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Fonts;
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
-İlk olarak, belge dizininize giden yolu tanımlayın. Giriş ve çıkış dosyalarınızın saklanacağı yer burasıdır.
+Öncelikle belge dizininize giden yolu tanımlayın. Giriş ve çıkış dosyalarınızın saklanacağı yer burasıdır.
 
 ```csharp
 // Belge dizininize giden yol
@@ -55,7 +57,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Adım 3: Yazı Tipi Ayarlarını Yapılandırın
 
- Bir örnek oluşturun`FontSettings` ve varsayılan yazı tipini belirtin. Tanımlanan yazı tipi oluşturma sırasında bulunamazsa, Aspose.Words makinede bulunan en yakın yazı tipini kullanacaktır.
+Bir örnek oluşturun `FontSettings` ve varsayılan yazı tipini belirtin. Tanımlanan yazı tipi oluşturma sırasında bulunamazsa, Aspose.Words makinede bulunan en yakın yazı tipini kullanacaktır.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -92,16 +94,21 @@ Varsayılan bir yazı tipi belirlemek, orijinal yazı tipleri kullanılamıyor o
 Aspose.Words, belgenin görünümünü mümkün olduğunca yakın tutmak için makinede bulunan en yakın yazı tipini kullanacaktır.
 
 ### Birden fazla varsayılan yazı tipi belirleyebilir miyim?
- Hayır, yalnızca bir varsayılan yazı tipi belirtebilirsiniz. Ancak, belirli durumlar için yazı tipi değiştirmeyi kullanarak işleyebilirsiniz.`FontSettings` sınıf.
+Hayır, yalnızca bir varsayılan yazı tipi belirtebilirsiniz. Ancak, belirli durumlar için yazı tipi değiştirmeyi kullanarak işleyebilirsiniz. `FontSettings` sınıf.
 
 ### Aspose.Words for .NET Word belgelerinin tüm sürümleriyle uyumlu mudur?
 Evet, Aspose.Words for .NET, DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çok çeşitli Word belge biçimlerini destekler.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Aspose topluluğundan ve geliştiricilerden destek alabilirsiniz.[Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan ve geliştiricilerden destek alabilirsiniz. [Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

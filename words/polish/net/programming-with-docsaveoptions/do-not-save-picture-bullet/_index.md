@@ -1,14 +1,16 @@
 ---
-title: Nie zapisuj obrazu Bullet
-linktitle: Nie zapisuj obrazu Bullet
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak obsługiwać punkty obrazkowe w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami i twórz profesjonalne dokumenty Word bez wysiłku.
-weight: 10
-url: /pl/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
+"description": "Dowiedz się, jak obsługiwać punkty obrazkowe w Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami i twórz profesjonalne dokumenty Word bez wysiłku."
+"linktitle": "Nie zapisuj obrazu Bullet"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Nie zapisuj obrazu Bullet"
+"url": "/pl/net/programming-with-docsaveoptions/do-not-save-picture-bullet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nie zapisuj obrazu Bullet
@@ -21,9 +23,9 @@ Hej, koledzy programiści! Czy kiedykolwiek pracowałeś z dokumentami Worda i z
 
 Zanim zaczniemy majstrować przy kodzie, musisz zadbać o kilka rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Jeśli jeszcze jej nie masz, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Jeśli jeszcze jej nie masz, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: działające środowisko programistyczne .NET, np. Visual Studio.
-3. Podstawowa wiedza z zakresu języka C#: Przydatna będzie pewna znajomość programowania w języku C#.
+3. Podstawowa wiedza o języku C#: Przydatna będzie pewna znajomość programowania w języku C#.
 4. Przykładowy dokument: Dokument Word z punktami graficznymi przeznaczony do celów testowych.
 
 ## Importuj przestrzenie nazw
@@ -39,25 +41,25 @@ Podzielmy proces na łatwe do opanowania kroki. W ten sposób możesz łatwo śl
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To jest miejsce, w którym przechowywane są dokumenty Word i gdzie będziesz zapisywać zmodyfikowane pliki.
+Po pierwsze, musisz określić ścieżkę do katalogu dokumentów. To tutaj przechowywane są dokumenty Word i gdzie zapiszesz zmodyfikowane pliki.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką w systemie, gdzie znajdują się Twoje dokumenty.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką w systemie, gdzie znajdują się Twoje dokumenty.
 
 ## Krok 2: Załaduj dokument z punktami graficznymi
 
 Następnie załadujesz dokument Word zawierający punkty graficzne. Ten dokument zostanie zmodyfikowany, aby usunąć punkty graficzne po zapisaniu.
 
 ```csharp
-// Załaduj dokument z punktami graficznymi
+// Załaduj dokument z punktami obrazkowymi
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
- Upewnij się, że plik`"Image bullet points.docx"` istnieje w określonym katalogu.
+Upewnij się, że plik `"Image bullet points.docx"` istnieje w określonym katalogu.
 
 ## Krok 3: Skonfiguruj opcje zapisywania
 
@@ -68,7 +70,7 @@ Teraz skonfigurujmy opcje zapisu, aby określić, że punkty obrazkowe nie powin
 DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 ```
 
- Poprzez ustawienie`SavePictureBullet` Do`false`, instruujesz Aspose.Words, aby nie zapisywał punktorów obrazkowych w dokumencie wyjściowym.
+Poprzez ustawienie `SavePictureBullet` Do `false`, instruujesz Aspose.Words, aby nie zapisywał punktorów obrazkowych w dokumencie wyjściowym.
 
 ## Krok 4: Zapisz dokument
 
@@ -79,11 +81,11 @@ Na koniec zapisz dokument z określonymi opcjami. Spowoduje to wygenerowanie now
 doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
- Nowy plik,`"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, zostanie zapisany w katalogu dokumentów.
+Nowy plik, `"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, zostanie zapisany w katalogu dokumentów.
 
 ## Wniosek
 
-I masz to! Za pomocą zaledwie kilku linijek kodu udało Ci się skonfigurować Aspose.Words dla .NET tak, aby pomijał punkty graficzne podczas zapisywania dokumentu. Może to być niezwykle przydatne, gdy potrzebujesz czystego, spójnego wyglądu bez rozpraszających punktów graficznych.
+masz to! Za pomocą zaledwie kilku linijek kodu udało Ci się skonfigurować Aspose.Words dla .NET tak, aby pomijał punkty graficzne podczas zapisywania dokumentu. Może to być niezwykle przydatne, gdy potrzebujesz czystego, spójnego wyglądu bez rozpraszających punktów graficznych.
 
 ## Najczęściej zadawane pytania
 
@@ -94,17 +96,22 @@ Aspose.Words for .NET to zaawansowana biblioteka do tworzenia, edytowania i konw
 Nie, ta konkretna funkcja jest przeznaczona dla punktorów obrazkowych. Jednak Aspose.Words oferuje rozbudowane opcje obsługi innych typów punktorów.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?
- Możesz uzyskać wsparcie od[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Words dla .NET?
- Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jak kupić licencję na Aspose.Words dla .NET?
- Możesz zakupić licencję od[Sklep Aspose](https://purchase.aspose.com/buy).
+Możesz zakupić licencję od [Sklep Aspose](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

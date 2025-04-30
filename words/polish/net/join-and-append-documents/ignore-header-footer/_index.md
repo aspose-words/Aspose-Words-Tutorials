@@ -1,14 +1,16 @@
 ---
-title: Ignoruj nagłówek i stopkę
-linktitle: Ignoruj nagłówek i stopkę
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak scalać dokumenty programu Word, ignorując nagłówki i stopki, korzystając z narzędzia Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/join-and-append-documents/ignore-header-footer/
+"description": "Dowiedz się, jak scalać dokumenty programu Word, ignorując nagłówki i stopki, korzystając z narzędzia Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Ignoruj nagłówek i stopkę"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ignoruj nagłówek i stopkę"
+"url": "/pl/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignoruj nagłówek i stopkę
@@ -21,7 +23,7 @@ url: /pl/net/join-and-append-documents/ignore-header-footer/
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
--  Aspose.Words dla .NET: Można go pobrać ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Można go pobrać ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: powinna działać każda nowsza wersja.
 - Podstawowa znajomość języka C#: Nie martw się, poprowadzę Cię przez kod.
 - Dwa dokumenty Word: Jeden należy dołączyć do drugiego.
@@ -79,7 +81,7 @@ Oto kod umożliwiający konfigurację opcji importu:
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Poprzez ustawienie`IgnoreHeaderFooter` Do`true`, informujemy Aspose.Words, aby ignorował nagłówki i stopki podczas procesu scalania.
+Poprzez ustawienie `IgnoreHeaderFooter` Do `true`, informujemy Aspose.Words, aby ignorował nagłówki i stopki podczas procesu scalania.
 
 ## Krok 4: Połącz dokumenty
 
@@ -109,33 +111,38 @@ Scalony dokument zostanie zapisany w określonym katalogu pod nazwą pliku „Jo
 
 I masz! Udało Ci się połączyć dwa dokumenty Word, ignorując ich nagłówki i stopki, używając Aspose.Words dla .NET. Ta metoda jest przydatna w przypadku różnych zadań zarządzania dokumentami, w których kluczowe jest utrzymanie określonych sekcji dokumentu.
 
-Praca z Aspose.Words dla .NET może znacznie usprawnić przepływy pracy przetwarzania dokumentów. Pamiętaj, jeśli kiedykolwiek utkniesz lub będziesz potrzebować więcej informacji, zawsze możesz sprawdzić[dokumentacja](https://reference.aspose.com/words/net/).
+Praca z Aspose.Words dla .NET może znacznie usprawnić przepływy pracy przetwarzania dokumentów. Pamiętaj, jeśli kiedykolwiek utkniesz lub będziesz potrzebować więcej informacji, zawsze możesz sprawdzić [dokumentacja](https://reference.aspose.com/words/net/).
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zignorować inne części dokumentu oprócz nagłówków i stopek?
 
-Tak, Aspose.Words oferuje różne opcje dostosowywania procesu importowania, w tym ignorowanie różnych sekcji i formatowania.
+Tak, Aspose.Words oferuje różne opcje umożliwiające dostosowanie procesu importowania, w tym ignorowanie różnych sekcji i formatowania.
 
 ### Czy można zachować nagłówki i stopki zamiast je ignorować?
 
- Absolutnie. Po prostu ustaw`IgnoreHeaderFooter` Do`false` w`ImportFormatOptions`.
+Absolutnie. Po prostu ustaw `IgnoreHeaderFooter` Do `false` w `ImportFormatOptions`.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
 
- Tak, Aspose.Words dla .NET jest produktem komercyjnym. Możesz uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+Tak, Aspose.Words dla .NET jest produktem komercyjnym. Możesz uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub kup licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę połączyć więcej niż dwa dokumenty za pomocą tej metody?
 
- Tak, możesz dołączać wiele dokumentów w pętli, powtarzając`AppendDocument` metodę dla każdego dodatkowego dokumentu.
+Tak, możesz dołączać wiele dokumentów w pętli, powtarzając `AppendDocument` metodę dla każdego dodatkowego dokumentu.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Words dla .NET?
 
- Pełną dokumentację i przykłady można znaleźć na stronie[Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+Pełną dokumentację i przykłady można znaleźć na stronie [Strona internetowa Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

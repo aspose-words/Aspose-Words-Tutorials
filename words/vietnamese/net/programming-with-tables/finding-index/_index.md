@@ -1,14 +1,16 @@
 ---
-title: Tìm kiếm chỉ mục
-linktitle: Tìm kiếm chỉ mục
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tìm chỉ mục của bảng, hàng và ô trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/programming-with-tables/finding-index/
+"description": "Tìm hiểu cách tìm chỉ mục của bảng, hàng và ô trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Tìm kiếm chỉ mục"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tìm kiếm chỉ mục"
+"url": "/vi/net/programming-with-tables/finding-index/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm kiếm chỉ mục
@@ -21,7 +23,7 @@ Làm việc với các bảng trong tài liệu Word đôi khi có thể giống
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có hiểu biết cơ bản về C#.
 
@@ -41,7 +43,7 @@ Hãy chia nhỏ quy trình thành các bước dễ quản lý. Chúng tôi sẽ
 Đầu tiên, bạn cần tải tài liệu Word có chứa các bảng bạn đang làm việc. Đây là nơi bạn chỉ định đường dẫn đến thư mục tài liệu của mình.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -66,7 +68,7 @@ Console.WriteLine("\nTable index is " + tableIndex);
 
 ## Bước 4: Tìm chỉ số của hàng cuối cùng
 
- Để xác định vị trí hàng cuối cùng của bảng, chúng ta sử dụng`LastRow` thuộc tính. Điều này có thể hữu ích khi bạn cần thao tác hoặc lấy dữ liệu từ hàng cuối cùng.
+Để xác định vị trí hàng cuối cùng của bảng, chúng ta sử dụng `LastRow` thuộc tính. Điều này có thể hữu ích khi bạn cần thao tác hoặc lấy dữ liệu từ hàng cuối cùng.
 
 ```csharp
 int rowIndex = table.IndexOf(table.LastRow);
@@ -103,9 +105,14 @@ Aspose.Words có thể xử lý số lượng lớn bảng, nhưng hiệu suất
 
 ### Tôi có thể sửa đổi thuộc tính của một ô cụ thể bằng cách sử dụng chỉ mục của ô đó không?
 Có, sau khi đã có chỉ mục ô, bạn có thể dễ dàng sửa đổi các thuộc tính của ô như văn bản, định dạng, v.v.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 23
 url: /python-net/document-structure-and-content-manipulation/document-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tracking and Reviewing Document Revisions
@@ -130,9 +133,13 @@ Yes, revision histories are preserved when you convert your document to differen
 
 You can iterate through the revisions collection and programmatically accept or reject each revision using Aspose.Words' API functions.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

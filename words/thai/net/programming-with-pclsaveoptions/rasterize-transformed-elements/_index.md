@@ -1,14 +1,16 @@
 ---
-title: แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง
-linktitle: แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแรสเตอร์องค์ประกอบที่แปลงแล้วเมื่อแปลงเอกสาร Word เป็นรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
-weight: 10
-url: /th/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
+"description": "เรียนรู้วิธีการแรสเตอร์ไรซ์องค์ประกอบที่แปลงแล้วเมื่อแปลงเอกสาร Word เป็นรูปแบบ PCL โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง"
+"url": "/th/net/programming-with-pclsaveoptions/rasterize-transformed-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แรสเตอร์ไรซ์องค์ประกอบที่ถูกแปลง
@@ -21,8 +23,8 @@ url: /th/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
-2.  ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราวเพื่อการประเมินผล[ที่นี่](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
+2. ใบอนุญาตที่ถูกต้อง: คุณสามารถซื้อใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือรับใบอนุญาตชั่วคราวเพื่อการประเมินผล [ที่นี่](https://purchase-aspose.com/temporary-license/).
 3. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ (เช่น Visual Studio) ด้วยการรองรับ .NET framework
 
 ## นำเข้าเนมสเปซ
@@ -41,7 +43,7 @@ using Aspose.Words.Saving;
 ขั้นแรก คุณต้องสร้างโปรเจ็กต์ใหม่หรือใช้โปรเจ็กต์ที่มีอยู่แล้ว เปิดสภาพแวดล้อมการพัฒนาของคุณและตั้งค่าโปรเจ็กต์
 
 1. สร้างโครงการใหม่: เปิด Visual Studio และสร้างแอปพลิเคชันคอนโซล C# ใหม่
-2.  ติดตั้ง Aspose.Words: ใช้ตัวจัดการแพ็คเกจ NuGet เพื่อติดตั้ง Aspose.Words คลิกขวาที่โปรเจ็กต์ของคุณ เลือก "จัดการแพ็คเกจ NuGet" และค้นหา`Aspose.Words`. ติดตั้งเวอร์ชันล่าสุด.
+2. ติดตั้ง Aspose.Words: ใช้ตัวจัดการแพ็คเกจ NuGet เพื่อติดตั้ง Aspose.Words คลิกขวาที่โปรเจ็กต์ของคุณ เลือก "จัดการแพ็คเกจ NuGet" และค้นหา `Aspose.Words`. ติดตั้งเวอร์ชันล่าสุด.
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
@@ -55,14 +57,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- ในโค้ดตัวอย่างนี้ ให้แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณที่มีเอกสาร Word ตรวจสอบชื่อเอกสาร (`Rendering.docx`) ตรงกับไฟล์ของคุณ
+ในโค้ดตัวอย่างนี้ ให้แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณที่มีเอกสาร Word ตรวจสอบชื่อเอกสาร (`Rendering.docx`) ตรงกับไฟล์ของคุณ
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก
 
- หากต้องการแปลงเอกสารเป็นรูปแบบ PCL คุณจำเป็นต้องกำหนดค่าตัวเลือกการบันทึก ซึ่งรวมถึงการตั้งค่า`SaveFormat` ถึง`Pcl` และระบุว่าจะแรสเตอร์องค์ประกอบที่ถูกแปลงหรือไม่
+หากต้องการแปลงเอกสารเป็นรูปแบบ PCL คุณจำเป็นต้องกำหนดค่าตัวเลือกการบันทึก ซึ่งรวมถึงการตั้งค่า `SaveFormat` ถึง `Pcl` และระบุว่าจะแรสเตอร์องค์ประกอบที่ถูกแปลงหรือไม่
 
 ```csharp
-//กำหนดค่าตัวเลือกการสำรองข้อมูลสำหรับการแปลงเป็นรูปแบบ PCL
+// กำหนดค่าตัวเลือกการสำรองข้อมูลสำหรับการแปลงเป็นรูปแบบ PCL
 PclSaveOptions saveOptions = new PclSaveOptions
 {
     SaveFormat = SaveFormat.Pcl,
@@ -70,7 +72,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 };
 ```
 
- ที่นี่,`RasterizeTransformedElements` ถูกตั้งเป็น`false` ซึ่งหมายความว่าองค์ประกอบที่ถูกแปลงแล้วจะไม่ถูกแรสเตอร์ไรซ์ คุณสามารถตั้งค่าได้`true` หากคุณต้องการให้มันแรสเตอร์ไรซ์
+ที่นี่, `RasterizeTransformedElements` ถูกตั้งเป็น `false`ซึ่งหมายความว่าองค์ประกอบที่ถูกแปลงแล้วจะไม่ถูกแรสเตอร์ไรซ์ คุณสามารถตั้งค่าได้ `true` หากคุณต้องการให้มันแรสเตอร์ไรซ์
 
 ## ขั้นตอนที่ 4: แปลงเอกสาร
 
@@ -81,7 +83,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl", saveOptions);
 ```
 
- ในบรรทัดนี้ เอกสารจะถูกบันทึกในรูปแบบ PCL พร้อมตัวเลือกที่ระบุ ไฟล์เอาท์พุตมีชื่อว่า`WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl`.
+ในบรรทัดนี้ เอกสารจะถูกบันทึกในรูปแบบ PCL พร้อมตัวเลือกที่ระบุ ไฟล์เอาท์พุตมีชื่อว่า `WorkingWithPclSaveOptions-RasterizeTransformedElements.pcl`.
 
 ## บทสรุป
 
@@ -93,20 +95,25 @@ doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl",
 ใช่ Aspose.Words สำหรับ .NET สามารถใช้ได้ในแอปพลิเคชันประเภทต่างๆ รวมถึงแอปพลิเคชันเว็บด้วย ตรวจสอบให้แน่ใจว่ามีการอนุญาตสิทธิ์และการกำหนดค่าที่เหมาะสม
 
 ### Aspose.Words สำหรับ .NET สามารถแปลงเป็นรูปแบบอื่นใดได้อีกบ้าง  
-Aspose.Words รองรับรูปแบบต่างๆ มากมาย รวมถึง PDF, HTML, EPUB และอื่นๆ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการที่สมบูรณ์
+Aspose.Words รองรับรูปแบบต่างๆ มากมาย รวมถึง PDF, HTML, EPUB และอื่นๆ ตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายการที่สมบูรณ์
 
 ### สามารถแรสเตอร์เฉพาะองค์ประกอบบางอย่างในเอกสารได้หรือไม่  
- ในปัจจุบันนี้`RasterizeTransformedElements` ตัวเลือกนี้ใช้ได้กับองค์ประกอบที่แปลงแล้วทั้งหมดในเอกสาร หากต้องการควบคุมได้ละเอียดยิ่งขึ้น โปรดพิจารณาประมวลผลองค์ประกอบแยกกันก่อนการแปลง
+ในปัจจุบันนี้ `RasterizeTransformedElements` ตัวเลือกนี้ใช้ได้กับองค์ประกอบที่แปลงแล้วทั้งหมดในเอกสาร หากต้องการควบคุมได้ละเอียดยิ่งขึ้น โปรดพิจารณาประมวลผลองค์ประกอบแยกกันก่อนการแปลง
 
 ### ฉันจะแก้ไขปัญหาเกี่ยวกับการแปลงเอกสารได้อย่างไร  
- ตรวจสอบว่าคุณมี Aspose.Words เวอร์ชันล่าสุด และตรวจสอบเอกสารสำหรับปัญหาการแปลงเฉพาะใดๆ นอกจากนี้[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการขอความช่วยเหลือ
+ตรวจสอบว่าคุณมี Aspose.Words เวอร์ชันล่าสุด และตรวจสอบเอกสารสำหรับปัญหาการแปลงเฉพาะใดๆ นอกจากนี้ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เป็นสถานที่ที่ดีในการขอความช่วยเหลือ
 
 ### มีข้อจำกัดใด ๆ กับเวอร์ชันทดลองใช้ของ Aspose.Words สำหรับ .NET หรือไม่  
- เวอร์ชันทดลองใช้มีข้อจำกัดบางประการ เช่น ลายน้ำการประเมิน หากต้องการประสบการณ์การใช้งานที่ครบถ้วน ควรพิจารณาซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+เวอร์ชันทดลองใช้มีข้อจำกัดบางประการ เช่น ลายน้ำการประเมิน หากต้องการประสบการณ์การใช้งานที่ครบถ้วน ควรพิจารณาซื้อ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

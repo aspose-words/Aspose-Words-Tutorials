@@ -1,14 +1,16 @@
 ---
-title: Uso de datos XML en Aspose.Words para Java
-linktitle: Uso de datos XML
-second_title: API de procesamiento de documentos Java Aspose.Words
-description: Descubra el poder de Aspose.Words para Java. Aprenda a manejar datos XML, combinar correspondencia y utilizar la sintaxis Mustache con tutoriales paso a paso.
-weight: 12
-url: /es/java/document-manipulation/using-xml-data/
+"description": "Descubra el poder de Aspose.Words para Java. Aprenda el manejo de datos XML, la combinación de correspondencia y la sintaxis Mustache con tutoriales paso a paso."
+"linktitle": "Uso de datos XML"
+"second_title": "API de procesamiento de documentos Java de Aspose.Words"
+"title": "Uso de datos XML en Aspose.Words para Java"
+"url": "/es/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uso de datos XML en Aspose.Words para Java
@@ -16,7 +18,7 @@ url: /es/java/document-manipulation/using-xml-data/
 
 ## Introducción al uso de datos XML en Aspose.Words para Java
 
-En esta guía, exploraremos cómo trabajar con datos XML utilizando Aspose.Words para Java. Aprenderá a realizar operaciones de combinación de correspondencia, incluidas las combinaciones de correspondencia anidadas, y a utilizar la sintaxis Mustache con un conjunto de datos. Le proporcionaremos instrucciones paso a paso y ejemplos de código fuente para ayudarlo a comenzar.
+En esta guía, exploraremos cómo trabajar con datos XML con Aspose.Words para Java. Aprenderá a realizar operaciones de combinación de correspondencia, incluidas las anidadas, y a utilizar la sintaxis Mustache con un conjunto de datos. Le proporcionaremos instrucciones paso a paso y ejemplos de código fuente para ayudarle a comenzar.
 
 ## Prerrequisitos
 
@@ -27,7 +29,7 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
 ## Combinar correspondencia con datos XML
 
-### 1. Combinación básica de correspondencia
+### 1. Combinación de correspondencia básica
 
 Para realizar una combinación de correspondencia básica con datos XML, siga estos pasos:
 
@@ -67,7 +69,7 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ## Conclusión
 
-En esta guía completa, hemos explorado cómo utilizar eficazmente los datos XML con Aspose.Words para Java. Ha aprendido a realizar varias operaciones de combinación de correspondencia, incluidas la combinación de correspondencia básica, la combinación de correspondencia anidada y cómo utilizar la sintaxis Mustache con un conjunto de datos. Estas técnicas le permiten automatizar la generación y personalización de documentos con facilidad.
+En esta guía completa, hemos explorado cómo usar eficazmente datos XML con Aspose.Words para Java. Ha aprendido a realizar diversas operaciones de combinación de correspondencia, incluyendo la combinación básica de correspondencia, la combinación anidada de correspondencia y cómo utilizar la sintaxis Mustache con un conjunto de datos. Estas técnicas le permiten automatizar la generación y personalización de documentos con facilidad.
 
 ## Preguntas frecuentes
 
@@ -77,14 +79,19 @@ Asegúrese de que sus datos XML sigan la estructura requerida, con tablas y rela
 
 ### ¿Puedo personalizar el comportamiento de recorte para los valores de combinación de correspondencia?
 
- Sí, puede controlar si se recortan los espacios iniciales y finales durante la combinación de correspondencia mediante`doc.getMailMerge().setTrimWhitespaces(false)`.
+Sí, puede controlar si se recortan los espacios iniciales y finales durante la combinación de correspondencia mediante `doc.getMailMerge().setTrimWhitespaces(false)`.
 
 ### ¿Qué es la sintaxis Mustache y cuándo debo utilizarla?
 
- La sintaxis Mustache le permite formatear campos de combinación de correspondencia de una manera más flexible.`doc.getMailMerge().setUseNonMergeFields(true)` para habilitar la sintaxis Mustache.
+La sintaxis Mustache le permite formatear los campos de combinación de correspondencia de una manera más flexible. Utilice `doc.getMailMerge().setUseNonMergeFields(true)` para habilitar la sintaxis Mustache.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

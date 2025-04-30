@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/unlink-headers-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unlink Headers Footers
@@ -109,9 +112,13 @@ Absolutely! Aspose.Words for .NET can be used with any .NET language, including 
 You can find comprehensive documentation on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/), and support is available on the [Aspose forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wstaw obiekt Ole do dokumentu Word
-linktitle: Wstaw obiekt Ole do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać obiekty OLE do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty za pomocą osadzonej zawartości.
-weight: 10
-url: /pl/net/working-with-oleobjects-and-activex/insert-ole-object/
+"description": "Dowiedz się, jak wstawiać obiekty OLE do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty za pomocą osadzonej zawartości."
+"linktitle": "Wstaw obiekt Ole do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw obiekt Ole do dokumentu Word"
+"url": "/pl/net/working-with-oleobjects-and-activex/insert-ole-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw obiekt Ole do dokumentu Word
@@ -21,7 +23,7 @@ Podczas pracy z dokumentami Word w .NET, integracja różnych typów danych moż
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1. Biblioteka Aspose.Words dla .NET: Pobierz ją z[Tutaj](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Pobierz ją z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne .NET.
 3. Podstawowa znajomość języka C#: Zakłada się znajomość programowania w języku C#.
 
@@ -47,7 +49,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw obiekt OLE
 
- Następnie użyjesz`DocumentBuilder`klasa do wstawiania obiektu OLE. Tutaj używamy pliku HTML znajdującego się pod adresem "http://www.aspose.com" jako naszego przykładu.
+Następnie użyjesz `DocumentBuilder` klasa do wstawiania obiektu OLE. Tutaj używamy pliku HTML znajdującego się pod adresem "http://www.aspose.com" jako naszego przykładu.
 
 ```csharp
 builder.InsertOleObject("http://www.aspose.com", "htmlfile", prawda, prawda, null);
@@ -71,19 +73,24 @@ Wstawianie obiektów OLE do dokumentów Word za pomocą Aspose.Words for .NET to
 Można wstawiać różne typy obiektów OLE, w tym pliki HTML, arkusze kalkulacyjne Excel, prezentacje PowerPoint i inną zawartość zgodną ze standardem OLE.
 
 ### Czy mogę wyświetlić obiekt OLE jako ikonę, a nie jego rzeczywistą zawartość?
- Tak, możesz wybrać wyświetlanie obiektu OLE jako ikony, ustawiając`asIcon` parametr do`true`.
+Tak, możesz wybrać wyświetlanie obiektu OLE jako ikony, ustawiając `asIcon` parametr do `true`.
 
 ### Czy można połączyć obiekt OLE z jego plikiem źródłowym?
- Tak, ustawiając`isLinked` parametr do`true`, możesz połączyć obiekt OLE z jego plikiem źródłowym.
+Tak, ustawiając `isLinked` parametr do `true`, możesz połączyć obiekt OLE z jego plikiem źródłowym.
 
 ### Jak mogę dostosować ikonę używaną dla obiektu OLE?
- Możesz zapewnić niestandardową ikonę, podając`Image` obiekt jako`image` parametr w`InsertOleObject` metoda.
+Możesz zapewnić niestandardową ikonę, podając `Image` obiekt jako `image` parametr w `InsertOleObject` metoda.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

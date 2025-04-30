@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi tài liệu Word sang PDF 1.7
-linktitle: Chuyển đổi tài liệu Word sang PDF 1.7
-second_title: API xử lý tài liệu Aspose.Words
-description: Chuyển đổi tài liệu Word sang PDF 1.7 dễ dàng bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để đảm bảo tài liệu của bạn có thể truy cập phổ biến và được định dạng chuyên nghiệp.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/
+"description": "Chuyển đổi tài liệu Word sang PDF 1.7 dễ dàng bằng Aspose.Words for .NET. Thực hiện theo hướng dẫn này để đảm bảo tài liệu của bạn có thể truy cập phổ biến và được định dạng chuyên nghiệp."
+"linktitle": "Chuyển đổi tài liệu Word sang PDF 1.7"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi tài liệu Word sang PDF 1.7"
+"url": "/vi/net/programming-with-pdfsaveoptions/conversion-to-pdf-17/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi tài liệu Word sang PDF 1.7
@@ -21,7 +23,7 @@ Chuyển đổi tài liệu Word sang PDF là yêu cầu phổ biến trong nhi�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có phiên bản mới nhất. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ phát triển .NET.
 3. Kiến thức cơ bản về C#: Hiểu những kiến thức cơ bản sẽ giúp bạn theo dõi các đoạn mã.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Trong bước này, chúng tôi xác định đường dẫn đến thư mục tài liệu của mình và tải tài liệu Word có tên "Rendering.docx" vào`Document` sự vật.
+Trong bước này, chúng tôi xác định đường dẫn đến thư mục tài liệu của mình và tải tài liệu Word có tên "Rendering.docx" vào `Document` sự vật.
 
 ## Bước 2: Cấu hình tùy chọn lưu PDF
 
@@ -59,7 +61,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Ở đây, chúng tôi tạo ra một`PdfSaveOptions` đối tượng và thiết lập của nó`Compliance`tài sản để`PdfCompliance.Pdf17`, đảm bảo PDF của chúng tôi đáp ứng tiêu chuẩn 1.7.
+Ở đây, chúng tôi tạo ra một `PdfSaveOptions` đối tượng và thiết lập của nó `Compliance` tài sản để `PdfCompliance.Pdf17`, đảm bảo PDF của chúng tôi đáp ứng tiêu chuẩn 1.7.
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
@@ -69,7 +71,7 @@ Cuối cùng, chúng ta lưu tài liệu Word dưới dạng tệp PDF bằng c�
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ConversionToPdf17.pdf", saveOptions);
 ```
 
- Trong bước này, chúng ta gọi`Save` phương pháp của chúng tôi`Document` đối tượng, truyền vào đường dẫn mà chúng ta muốn lưu tệp PDF và các tùy chọn lưu.
+Trong bước này, chúng ta gọi `Save` phương pháp của chúng tôi `Document` đối tượng, truyền vào đường dẫn mà chúng ta muốn lưu tệp PDF và các tùy chọn lưu.
 
 ## Phần kết luận
 
@@ -87,19 +89,24 @@ PDF 1.7 bao gồm các tính năng như cải thiện bảo mật và nâng cao 
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tùy chỉnh thêm các tùy chọn lưu PDF không?
 
-Chắc chắn rồi! Aspose.Words cho .NET cung cấp nhiều tùy chọn tùy chỉnh để chuyển đổi PDF, bao gồm cài đặt mã hóa và tối ưu hóa.
+Chắc chắn rồi! Aspose.Words for .NET cung cấp nhiều tùy chọn tùy chỉnh để chuyển đổi PDF, bao gồm cài đặt mã hóa và tối ưu hóa.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

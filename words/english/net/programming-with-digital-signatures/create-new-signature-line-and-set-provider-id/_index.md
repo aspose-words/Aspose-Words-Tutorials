@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create New Signature Line And Set Provider Id
@@ -150,9 +153,13 @@ Yes, Aspose.Words for .NET supports .NET Core, making it versatile for different
 ### How secure are the digital signatures?
 Digital signatures created with Aspose.Words are highly secure, provided you use a valid and trusted certificate.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

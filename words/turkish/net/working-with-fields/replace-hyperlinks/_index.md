@@ -1,14 +1,16 @@
 ---
-title: Köprü metinlerini değiştir
-linktitle: Köprü metinlerini değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Verimli belge yönetimi ve dinamik içerik güncellemeleri için Aspose.Words'ü kullanarak .NET belgelerindeki köprü metinlerini nasıl değiştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/working-with-fields/replace-hyperlinks/
+"description": "Verimli belge yönetimi ve dinamik içerik güncellemeleri için Aspose.Words'ü kullanarak .NET belgelerindeki köprü metinlerini nasıl değiştireceğinizi öğrenin."
+"linktitle": "Köprü metinlerini değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Köprü metinlerini değiştir"
+"url": "/tr/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Köprü metinlerini değiştir
@@ -22,7 +24,7 @@ url: /tr/net/working-with-fields/replace-hyperlinks/
 Aspose.Words for .NET ile köprü metinlerini değiştirmeye başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Visual Studio: .NET geliştirme için kuruldu ve ayarlandı.
--  Aspose.Words for .NET: Projenizde indirilip referans olarak kullanılabilir. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Projenizde indirilip referans olarak kullanılabilir. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - C# ile aşinalık: Kod yazma ve derleme konusunda temel anlayış.
 
 ## Ad Alanlarını İçe Aktar
@@ -39,17 +41,17 @@ using Aspose.Words.Fields;
 Öncelikle köprü metinlerini değiştirmek istediğiniz belgeyi yükleyerek başlayın:
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- Yer değiştirmek`"Hyperlinks.docx"` gerçek belgenize giden yol ile.
+Yer değiştirmek `"Hyperlinks.docx"` gerçek belgenize giden yol ile.
 
 ## Adım 2: Alanlar Arasında Yineleme Yapın
 
-Köprü metinlerini bulup değiştirmek için belgedeki her alanı yineleyin:
+Köprü metinlerini bulmak ve değiştirmek için belgedeki her alanı yineleyin:
 
 ```csharp
 foreach (Field field in doc.Range.Fields)
@@ -74,10 +76,10 @@ foreach (Field field in doc.Range.Fields)
 Son olarak, değiştirilen belgeyi değiştirilmiş köprü metinleriyle birlikte kaydedin:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.Yer değiştirmekHyperlinks.docx");
 ```
 
- Yer değiştirmek`"WorkingWithFields.ReplaceHyperlinks.docx"` İstediğiniz çıktı dosyası yolu ile.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` İstediğiniz çıktı dosyası yolu ile.
 
 ## Çözüm
 
@@ -89,19 +91,23 @@ Aspose.Words for .NET kullanarak belgelerdeki köprü metinlerini değiştirmek 
 Evet, Aspose.Words tablolar, resimler ve köprü metinleri gibi karmaşık yapıları sorunsuz bir şekilde destekler.
 
 ### Aspose.Words for .NET için deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET için dokümanları nerede bulabilirim?
- Ayrıntılı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için geçici lisanslamayı nasıl alabilirim?
- Geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisanslar alınabilir [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için hangi destek seçenekleri mevcuttur?
- Topluluk desteği alabilir veya sorularınızı şu adrese gönderebilirsiniz:[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Topluluk desteği alabilir veya sorularınızı şu adrese gönderebilirsiniz: [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

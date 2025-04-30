@@ -1,14 +1,16 @@
 ---
-title: Mengubah Pemberhentian Tab Daftar Isi di Dokumen Word
-linktitle: Mengubah Pemberhentian Tab Daftar Isi di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah tab stop TOC dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan membantu Anda membuat Daftar Isi yang tampak profesional.
-weight: 10
-url: /id/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Pelajari cara mengubah tab stop TOC dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan membantu Anda membuat Daftar Isi yang tampak profesional."
+"linktitle": "Mengubah Pemberhentian Tab Daftar Isi di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengubah Pemberhentian Tab Daftar Isi di Dokumen Word"
+"url": "/id/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengubah Pemberhentian Tab Daftar Isi di Dokumen Word
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara mempercantik Daftar Isi (TOC) di do
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE apa pun yang kompatibel dengan C#.
 3. Dokumen Word: Khususnya, yang berisi Daftar Isi.
 
@@ -71,7 +73,7 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Bayangkan seperti memindai kerumunan untuk menemukan teman-teman Anda. Di sini, kita mencari paragraf yang diberi gaya entri TOC.
+Anggap saja seperti memindai kerumunan untuk menemukan teman-teman Anda. Di sini, kita mencari paragraf yang diberi gaya entri Daftar Isi.
 
 ## Langkah 3: Ubah Tab Stop
 
@@ -114,22 +116,27 @@ Mengubah tab stop TOC dalam dokumen Word menggunakan Aspose.Words untuk .NET mud
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya mengubah penghentian tab untuk tingkat TOC yang berbeda secara terpisah?
-Ya, Anda bisa! Cukup periksa setiap level TOC tertentu (Toc1, Toc2, dst.) dan sesuaikan dengan tepat.
+Ya, Anda bisa! Cukup periksa setiap level TOC tertentu (Toc1, Toc2, dst.) dan sesuaikan dengan kebutuhan.
 
 ### Bagaimana jika dokumen saya memiliki beberapa TOC?
 Kode ini memindai semua paragraf bergaya TOC, sehingga akan mengubah semua TOC yang ada dalam dokumen.
 
 ### Apakah mungkin untuk menambahkan beberapa tab stop pada entri TOC?
- Tentu saja! Anda dapat menambahkan tab stop sebanyak yang diperlukan dengan menyesuaikan`para.ParagraphFormat.TabStops` koleksi.
+Tentu saja! Anda dapat menambahkan tab stop sebanyak yang diperlukan dengan menyesuaikan `para.ParagraphFormat.TabStops` koleksi.
 
 ### Bisakah saya mengubah penyelarasan pemberhentian tab dan gaya penunjuk?
 Ya, Anda dapat menentukan perataan dan gaya pemimpin yang berbeda saat menambahkan perhentian tab baru.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Words untuk .NET setelah masa uji coba. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau[beli satu](https://purchase.aspose.com/buy).
+Ya, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Words untuk .NET setelah masa uji coba. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/tempatauary-license/) or [beli satu](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

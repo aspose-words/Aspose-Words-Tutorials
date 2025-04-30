@@ -1,14 +1,16 @@
 ---
-title: Style i formatowanie tabeli dokumentu przy użyciu Aspose.Words Python
-linktitle: Style i formatowanie tabeli dokumentu
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak stylizować i formatować tabele dokumentów za pomocą Aspose.Words dla Pythona. Twórz, dostosowuj i eksportuj tabele za pomocą przewodników krok po kroku i przykładów kodu. Ulepsz swoje prezentacje dokumentów już dziś!
-weight: 12
-url: /pl/python-net/tables-and-formatting/document-table-styles-formatting/
+"description": "Dowiedz się, jak stylizować i formatować tabele dokumentów za pomocą Aspose.Words dla Pythona. Twórz, dostosowuj i eksportuj tabele za pomocą przewodników krok po kroku i przykładów kodu. Ulepsz swoje prezentacje dokumentów już dziś!"
+"linktitle": "Style i formatowanie tabeli dokumentu"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Style i formatowanie tabeli dokumentu przy użyciu Aspose.Words Python"
+"url": "/pl/python-net/tables-and-formatting/document-table-styles-formatting/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Style i formatowanie tabeli dokumentu przy użyciu Aspose.Words Python
@@ -38,14 +40,14 @@ Zanim zagłębimy się w szczegóły dotyczące stylów i formatowania tabel dok
 
 Aby utworzyć i wstawić tabele do dokumentów za pomocą Aspose.Words dla języka Python, wykonaj następujące kroki:
 
-1.  Utwórz tabelę: Użyj`DocumentBuilder` Klasa umożliwiająca utworzenie nowej tabeli i określenie liczby wierszy i kolumn.
+1. Utwórz tabelę: Użyj `DocumentBuilder` Klasa umożliwiająca utworzenie nowej tabeli i określenie liczby wierszy i kolumn.
 
     ```python
     builder = aw.DocumentBuilder(doc)
     table = builder.start_table()
     ```
 
-2.  Wstaw dane: Dodaj dane do tabeli za pomocą kreatora`insert_cell` I`write` metody.
+2. Wstaw dane: Dodaj dane do tabeli za pomocą kreatora `insert_cell` I `write` metody.
 
     ```python
     builder.insert_cell()
@@ -57,7 +59,7 @@ Aby utworzyć i wstawić tabele do dokumentów za pomocą Aspose.Words dla języ
 
 3. Powtarzaj wiersze: Dodawaj wiersze i komórki według potrzeb, postępując według podobnego schematu.
 
-4.  Wstaw tabelę do dokumentu: Na koniec wstaw tabelę do dokumentu za pomocą`end_table` metoda.
+4. Wstaw tabelę do dokumentu: Na koniec wstaw tabelę do dokumentu za pomocą `end_table` metoda.
 
     ```python
     builder.end_table()
@@ -65,7 +67,7 @@ Aby utworzyć i wstawić tabele do dokumentów za pomocą Aspose.Words dla języ
 
 ## Stosowanie podstawowego formatowania tabeli
 
- Podstawowe formatowanie tabeli można uzyskać, korzystając z metod udostępnianych przez`Table` I`Cell` klasy. Oto jak możesz poprawić wygląd swojej tabeli:
+Podstawowe formatowanie tabeli można uzyskać, korzystając z metod udostępnianych przez `Table` I `Cell` klasy. Oto jak możesz poprawić wygląd swojej tabeli:
 
 1. Ustaw szerokość kolumn: Dostosuj szerokość kolumn, aby zapewnić odpowiednie wyrównanie i atrakcyjność wizualną.
 
@@ -194,19 +196,24 @@ Tak, możesz stosować niestandardowe style w tabelach, modyfikując różne wł
 
 ### Czy można scalić komórki w tabeli?
 
- Tak, możesz scalić komórki w tabeli za pomocą`CellMerge` właściwość dostarczona przez Aspose.Words.
+Tak, możesz scalić komórki w tabeli za pomocą `CellMerge` właściwość dostarczona przez Aspose.Words.
 
 ### Jak eksportować tabele do różnych formatów?
 
- Możesz eksportować swoje tabele do różnych formatów, takich jak PDF lub DOCX, korzystając z`save` metodę i określenie żądanego formatu.
+Możesz eksportować swoje tabele do różnych formatów, takich jak PDF lub DOCX, korzystając z `save` metodę i określenie żądanego formatu.
 
 ### Gdzie mogę dowiedzieć się więcej o Aspose.Words dla języka Python?
 
- Aby uzyskać pełną dokumentację i odniesienia, odwiedź stronę[Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/).
+Aby uzyskać pełną dokumentację i odniesienia, odwiedź stronę [Aspose.Words dla API Pythona Odwołania](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

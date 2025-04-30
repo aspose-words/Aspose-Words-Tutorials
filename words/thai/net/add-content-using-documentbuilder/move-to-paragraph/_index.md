@@ -1,14 +1,16 @@
 ---
-title: ย้ายไปที่ย่อหน้าในเอกสาร Word
-linktitle: ย้ายไปที่ย่อหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ย้ายไปยังย่อหน้าที่ต้องการในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงเวิร์กโฟลว์เอกสารของตน
-weight: 10
-url: /th/net/add-content-using-documentbuilder/move-to-paragraph/
+"description": "ย้ายไปยังย่อหน้าที่ต้องการในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงเวิร์กโฟลว์เอกสารของตน"
+"linktitle": "ย้ายไปที่ย่อหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ย้ายไปที่ย่อหน้าในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/move-to-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ย้ายไปที่ย่อหน้าในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/add-content-using-documentbuilder/move-to-paragraph/
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. Visual Studio: เวอร์ชันล่าสุดใดก็ได้
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework แล้ว
 4. เอกสาร Word: คุณจะต้องมีเอกสาร Word ตัวอย่างเพื่อใช้งาน
@@ -42,17 +44,17 @@ using Aspose.Words.Saving;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารของคุณ
 
-ขั้นตอนแรกคือโหลดเอกสาร Word ของคุณลงในโปรแกรม ซึ่งก็เหมือนกับการเปิดเอกสารใน Word แต่ใช้โค้ดที่เข้าใจง่าย
+ขั้นตอนแรกคือโหลดเอกสาร Word ของคุณลงในโปรแกรม ซึ่งก็เหมือนกับการเปิดเอกสารใน Word แต่ใช้โค้ดที่เขียนได้สะดวก
 
 ```csharp
 Document doc = new Document("C:\\path\\to\\your\\Paragraphs.docx");
 ```
 
- อย่าลืมเปลี่ยน`"C:\\path\\to\\your\\Paragraphs.docx"` พร้อมเส้นทางจริงไปยังเอกสาร Word ของคุณ
+อย่าลืมเปลี่ยน `"C:\\path\\to\\your\\Paragraphs.docx"` พร้อมเส้นทางจริงไปยังเอกสาร Word ของคุณ
 
-## ขั้นตอนที่ 2: เริ่มต้น DocumentBuilder
+## ขั้นตอนที่ 2: เริ่มต้นใช้งาน DocumentBuilder
 
- ต่อไปเราจะเริ่มต้น`DocumentBuilder` วัตถุ คิดว่าสิ่งนี้เป็นปากกาแบบดิจิทัลที่จะช่วยคุณในการนำทางและแก้ไขเอกสาร
+ต่อไปเราจะเริ่มต้น `DocumentBuilder` วัตถุ คิดว่าสิ่งนี้เป็นปากกาแบบดิจิทัลที่จะช่วยคุณในการนำทางและแก้ไขเอกสาร
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -60,7 +62,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 3: ย้ายไปยังย่อหน้าที่ต้องการ
 
- นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะย้ายไปยังย่อหน้าที่ต้องการโดยใช้`MoveToParagraph` วิธีการนี้ใช้พารามิเตอร์สองตัวคือดัชนีของย่อหน้าและตำแหน่งอักขระภายในย่อหน้านั้น
+นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะย้ายไปยังย่อหน้าที่ต้องการโดยใช้ `MoveToParagraph` วิธีการนี้ใช้พารามิเตอร์สองตัวคือดัชนีของย่อหน้าและตำแหน่งอักขระภายในย่อหน้านั้น
 
 ```csharp
 builder.MoveToParagraph(2, 0);
@@ -91,17 +93,22 @@ builder.Writeln("This is the 3rd paragraph.");
 หากดัชนีอยู่นอกช่วง วิธีการจะส่งข้อยกเว้น โปรดตรวจสอบให้แน่ใจว่าดัชนีอยู่ภายในขอบเขตของย่อหน้าของเอกสารเสมอ
 
 ### ฉันสามารถแทรกเนื้อหาประเภทอื่น ๆ หลังจากย้ายไปยังย่อหน้าได้หรือไม่
- แน่นอน! คุณสามารถแทรกข้อความ รูปภาพ ตาราง และอื่นๆ ได้โดยใช้`DocumentBuilder` ระดับ.
+แน่นอน! คุณสามารถแทรกข้อความ รูปภาพ ตาราง และอื่นๆ ได้โดยใช้ `DocumentBuilder` ระดับ.
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pertahankan Karakter Kontrol Legacy
-linktitle: Pertahankan Karakter Kontrol Legacy
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mempertahankan karakter kontrol lama dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/
+"description": "Pelajari cara mempertahankan karakter kontrol lama dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Pertahankan Karakter Kontrol Legacy"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pertahankan Karakter Kontrol Legacy"
+"url": "/id/net/programming-with-ooxmlsaveoptions/keep-legacy-control-chars/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pertahankan Karakter Kontrol Legacy
@@ -21,8 +23,8 @@ Pernahkah Anda bingung dengan karakter kontrol yang aneh dan tidak terlihat dala
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Unduh dan instal dari[Di Sini](https://releases.aspose.com/words/net/).
-2.  Lisensi Aspose yang valid: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words untuk .NET: Unduh dan instal dari [Di Sini](https://releases.aspose.com/words/net/).
+2. Lisensi Aspose yang valid: Anda dapat memperoleh lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 3. Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 4. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan sangat membantu.
 
@@ -52,7 +54,7 @@ Berikutnya, Anda akan memuat dokumen Word yang berisi karakter kontrol lama.
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
 
-2.  Memuat dokumen: Gunakan`Document` kelas untuk memuat dokumen Anda.
+2. Memuat dokumen: Gunakan `Document` kelas untuk memuat dokumen Anda.
 
    ```csharp
    Document doc = new Document(dataDir + "Legacy control character.doc");
@@ -62,7 +64,7 @@ Berikutnya, Anda akan memuat dokumen Word yang berisi karakter kontrol lama.
 
 Sekarang, mari konfigurasikan opsi penyimpanan untuk menjaga karakter kontrol lama tetap utuh.
 
-1.  Buat Opsi Simpan: Inisialisasi contoh`OoxmlSaveOptions` dan mengatur`KeepLegacyControlChars`properti untuk`true`.
+1. Buat Opsi Simpan: Inisialisasi contoh `OoxmlSaveOptions` dan mengatur `KeepLegacyControlChars` properti untuk `true`.
 
    ```csharp
    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.FlatOpc)
@@ -75,7 +77,7 @@ Sekarang, mari konfigurasikan opsi penyimpanan untuk menjaga karakter kontrol la
 
 Terakhir, simpan dokumen dengan opsi penyimpanan yang dikonfigurasi.
 
-1.  Simpan dokumen: Gunakan`Save` metode dari`Document` kelas untuk menyimpan dokumen dengan opsi penyimpanan yang ditentukan.
+1. Simpan dokumen: Gunakan `Save` metode dari `Document` kelas untuk menyimpan dokumen dengan opsi penyimpanan yang ditentukan.
 
    ```csharp
    doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.KeepLegacyControlChars.docx", saveOptions);
@@ -101,15 +103,20 @@ Fitur ini tersedia dalam versi terbaru. Pastikan untuk menggunakan versi terbaru
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Ya, Anda memerlukan lisensi yang valid. Anda bisa mendapatkan lisensi sementara untuk keperluan evaluasi[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda memerlukan lisensi yang valid. Anda bisa mendapatkan lisensi sementara untuk keperluan evaluasi [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

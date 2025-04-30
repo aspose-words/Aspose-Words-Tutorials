@@ -1,14 +1,16 @@
 ---
-title: Word'de Belge Tema Özelliklerini Alın
-linktitle: Tema Özelliklerini Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word'de belge tema özelliklerine nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi keşfedin. Rehberimizle yazı tiplerini ve renkleri nasıl alacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-styles-and-themes/get-theme-properties/
+"description": "Aspose.Words for .NET kullanarak Word'de belge tema özelliklerine nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi keşfedin. Rehberimizle yazı tiplerini ve renkleri nasıl alacağınızı öğrenin."
+"linktitle": "Tema Özelliklerini Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word'de Belge Tema Özelliklerini Alın"
+"url": "/tr/net/programming-with-styles-and-themes/get-theme-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word'de Belge Tema Özelliklerini Alın
@@ -21,15 +23,15 @@ Word belgeleriyle çalışmaya gelince, tema özelliklerini düzenleme ve alma y
 
 Başlamadan önce, her şeyin sorunsuz bir şekilde yürümesini sağlamak için birkaç şeye ihtiyacınız olacak:
 
-1.  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan alabilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan alabilirsiniz: [İndirme bağlantısı](https://releases.aspose.com/words/net/).
 
 2. Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir .NET geliştirme ortamı.
 
 3. Temel C# Bilgisi: C# ve .NET programlama kavramlarına aşinalık faydalı olacaktır.
 
-4.  Aspose.Words Dokümantasyonu: Ayrıntılı bilgi ve daha fazla referans için her zaman şuraya başvurabilirsiniz:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
+4. Aspose.Words Dokümantasyonu: Ayrıntılı bilgi ve daha fazla referans için her zaman şuraya başvurabilirsiniz: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/).
 
-5. Aspose.Words Lisansı: Kütüphaneyi bir üretim ortamında kullanıyorsanız geçerli bir lisansınız olduğundan emin olun. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisansa ihtiyacınız varsa, bunu alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+5. Aspose.Words Lisansı: Kütüphaneyi bir üretim ortamında kullanıyorsanız geçerli bir lisansınız olduğundan emin olun. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy)veya geçici bir lisansa ihtiyacınız varsa, bunu alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -44,23 +46,23 @@ Bu kılavuzda, .NET için Aspose.Words kullanarak bir Word belgesinden tema öze
 
 ## Adım 1: Yeni Bir Belge Oluşturun
 
- İlk adım, yeni bir örnek oluşturmaktır`Document`Bu belge tema özelliklerine erişim için temel teşkil edecektir.
+İlk adım, yeni bir örnek oluşturmaktır `Document`Bu belge tema özelliklerine erişim için temel teşkil edecektir.
 
 ```csharp
 Document doc = new Document();
 ```
 
- Yeni bir tane yaratmak`Document` nesnesi, tema özelliklerini almak için gerekli olan boş bir Word belgesini başlatır.
+Yeni bir tane yaratmak `Document` nesnesi, tema özelliklerini almak için gerekli olan boş bir Word belgesini başlatır.
 
 ## Adım 2: Tema Nesnesine Erişim
 
- Belge nesneniz olduğunda, bir sonraki adım onun temasına erişmektir.`Theme` mülkiyeti`Document`sınıf çeşitli tema ayarlarına erişim sağlar.
+Belge nesneniz olduğunda, bir sonraki adım onun temasına erişmektir. `Theme` mülkiyeti `Document` sınıf çeşitli tema ayarlarına erişim sağlar.
 
 ```csharp
 Aspose.Words.Themes.Theme theme = doc.Theme;
 ```
 
- Burada, şunu getiriyoruz:`Theme` belgeyle ilişkili nesne. Bu nesne, bir sonraki adımlarda inceleyeceğimiz yazı tipleri ve renkler için özellikler içerir.
+Burada, şunu getiriyoruz: `Theme` belgeyle ilişkili nesne. Bu nesne, bir sonraki adımlarda inceleyeceğimiz yazı tipleri ve renkler için özellikler içerir.
 
 ## Adım 3: Önemli Yazı Tiplerini Alın
 
@@ -70,7 +72,7 @@ Word belgelerindeki temalar genellikle farklı yazı tipleri için ayarlar içer
 Console.WriteLine(theme.MajorFonts.Latin);
 ```
 
- The`MajorFonts` özellik, ana yazı tipi ayarlarına erişim sağlar. Bu örnekte, temada kullanılan Latin yazı tipini özel olarak alıyoruz. Doğu Asya veya Karmaşık Yazı tipi gibi diğer ana yazı tiplerini almak için benzer kodu kullanabilirsiniz.
+The `MajorFonts` özellik, ana yazı tipi ayarlarına erişim sağlar. Bu örnekte, temada kullanılan Latin yazı tipini özel olarak alıyoruz. Doğu Asya veya Karmaşık Yazı tipi gibi diğer ana yazı tiplerini almak için benzer kodu kullanabilirsiniz.
 
 ## Adım 4: Küçük Yazı Tiplerini Alın
 
@@ -80,17 +82,17 @@ Ana yazı tiplerine ek olarak, temalar farklı yazı tipleri için küçük yaz�
 Console.WriteLine(theme.MinorFonts.EastAsian);
 ```
 
- Erişerek`MinorFonts`, farklı dillerdeki yazı tipleri için kullanılan yazı tipleri hakkında ayrıntılı bilgi alabilir, farklı dillerde tutarlı bir stil sağlamanıza yardımcı olabilirsiniz.
+Erişerek `MinorFonts`, farklı dillerdeki yazı tipleri için kullanılan yazı tipleri hakkında ayrıntılı bilgi alabilir, farklı dillerde tutarlı bir stil sağlamanıza yardımcı olabilirsiniz.
 
 ## Adım 5: Vurgu Renklerini Alın
 
-Temalar ayrıca belgedeki vurgular için kullanılan çeşitli renkleri tanımlar. Temada Accent1 için kullanılan rengi almak için şunu kullanabilirsiniz:
+Temalar ayrıca belgedeki vurgular için kullanılan çeşitli renkleri tanımlar. Temadaki Accent1 için kullanılan rengi almak için şunu kullanabilirsiniz:
 
 ```csharp
 Console.WriteLine(theme.Colors.Accent1);
 ```
 
- The`Colors` mülkiyeti`Theme` sınıf, temada tanımlanan farklı renk vurgularını almanızı sağlar ve belgelerinizde tutarlı renk şemalarını yönetmenize ve uygulamanıza olanak tanır.
+The `Colors` mülkiyeti `Theme` sınıf, temada tanımlanan farklı renk vurgularını almanızı sağlar ve belgelerinizde tutarlı renk şemalarını yönetmenize ve uygulamanıza olanak tanır.
 
 ## Çözüm
 
@@ -106,7 +108,7 @@ Aspose.Words for .NET, .NET uygulamaları içinde Word belgelerini yönetmek ve 
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
 
- Aspose.Words for .NET'i şuradan yükleyebilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/words/net/)Daha kolay kurulum için NuGet Paket Yöneticisini de kullanabilirsiniz.
+Aspose.Words for .NET'i şuradan yükleyebilirsiniz: [İndirme bağlantısı](https://releases.aspose.com/words/net/)Daha kolay kurulum için NuGet Paket Yöneticisini de kullanabilirsiniz.
 
 ### Mevcut bir Word belgesinden tema özelliklerini alabilir miyim?
 
@@ -114,14 +116,19 @@ Evet, Aspose.Words for .NET'i kullanarak hem yeni hem de mevcut Word belgelerind
 
 ### Word belgesine yeni bir tema nasıl uygularım?
 
- Yeni bir tema uygulamak için tema özelliklerini ayarlamanız gerekir.`Document` nesne. Kontrol edin[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Temaların uygulanması hakkında ayrıntılı bilgi için.
+Yeni bir tema uygulamak için tema özelliklerini ayarlamanız gerekir. `Document` nesne. Kontrol edin [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Temaların uygulanması hakkında ayrıntılı bilgi için.
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
 
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose Destek Forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve sık karşılaşılan sorunlara çözüm bulabileceğiniz.
+Destek için şu adresi ziyaret edebilirsiniz: [Aspose Destek Forumu](https://forum.aspose.com/c/words/8) Sorularınızı sorabileceğiniz ve sık karşılaşılan sorunlara çözüm bulabileceğiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

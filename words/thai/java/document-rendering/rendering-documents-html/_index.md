@@ -1,14 +1,16 @@
 ---
-title: การเรนเดอร์เอกสารเป็น HTML
-linktitle: การเรนเดอร์เอกสารเป็น HTML
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีการแปลงเอกสารเป็น HTML ได้อย่างง่ายดายด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการแปลงเอกสารอย่างมีประสิทธิภาพ
-weight: 14
-url: /th/java/document-rendering/rendering-documents-html/
+"description": "เรียนรู้วิธีการแปลงเอกสารเป็น HTML ได้อย่างง่ายดายด้วย Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการแปลงเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "การเรนเดอร์เอกสารเป็น HTML"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การเรนเดอร์เอกสารเป็น HTML"
+"url": "/th/java/document-rendering/rendering-documents-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเรนเดอร์เอกสารเป็น HTML
@@ -22,7 +24,7 @@ url: /th/java/document-rendering/rendering-documents-html/
 
 ก่อนที่เราจะเจาะลึกรายละเอียด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
--  Aspose.Words สำหรับ Java API: คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/java/).
+- Aspose.Words สำหรับ Java API: คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
 - สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java ไว้ในระบบของคุณแล้ว
 
 ตอนนี้เรามาเริ่มดำเนินการทีละขั้นตอนกันเลย
@@ -46,11 +48,11 @@ public class DocumentRenderer {
 }
 ```
 
- แทนที่`"path/to/your/document.docx"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
+แทนที่ `"path/to/your/document.docx"` ด้วยเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: การเรนเดอร์เป็น HTML
 
-ตอนนี้คุณได้โหลดเอกสารแล้ว ถึงเวลาที่จะแสดงผลเป็น HTML Aspose.Words จะทำให้กระบวนการนี้ง่ายขึ้น:
+ตอนนี้คุณได้โหลดเอกสารแล้ว ถึงเวลาที่จะแสดงผลเป็น HTML แล้ว Aspose.Words จะทำให้กระบวนการนี้ง่ายขึ้น:
 
 ```java
 import com.aspose.words.HtmlSaveOptions;
@@ -70,7 +72,7 @@ public class DocumentRenderer {
 }
 ```
 
-รหัสนี้จะบันทึกเอกสารของคุณในรูปแบบ HTML คุณสามารถปรับแต่งผลลัพธ์ HTML เพิ่มเติมได้โดยปรับ`HtmlSaveOptions` ตามความจำเป็น.
+รหัสนี้จะบันทึกเอกสารของคุณในรูปแบบ HTML คุณสามารถปรับแต่งผลลัพธ์ HTML เพิ่มเติมได้โดยปรับ `HtmlSaveOptions` ตามความจำเป็น.
 
 ## ขั้นตอนที่ 4: การรันโค้ด
 
@@ -84,7 +86,7 @@ public class DocumentRenderer {
 
 ### ฉันจะดาวน์โหลด Aspose.Words สำหรับ Java ได้อย่างไร?
 
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จากเว็บไซต์:[ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/).
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จากเว็บไซต์: [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases-aspose.com/words/java/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ Java สำหรับโปรเจ็กต์เชิงพาณิชย์ได้หรือไม่
 
@@ -92,7 +94,7 @@ public class DocumentRenderer {
 
 ### สามารถรวม Aspose.Words สำหรับ Java เข้ากับโปรเจ็กต์ Java ที่มีอยู่ได้อย่างง่ายดายหรือไม่
 
-แน่นอน! Aspose.Words สำหรับ Java ได้รับการออกแบบมาให้บูรณาการกับโปรเจ็กต์ Java ได้อย่างง่ายดาย API ได้รับการจัดทำเอกสารไว้อย่างดี ทำให้เริ่มต้นใช้งานได้ง่าย
+แน่นอน! Aspose.Words สำหรับ Java ได้รับการออกแบบมาให้บูรณาการเข้ากับโปรเจ็กต์ Java ได้อย่างง่ายดาย API ได้รับการจัดทำเอกสารไว้อย่างดี ทำให้เริ่มต้นใช้งานได้ง่าย
 
 ### มีข้อจำกัดใด ๆ เมื่อเรนเดอร์เอกสารที่ซับซ้อนเป็น HTML หรือไม่?
 
@@ -101,9 +103,14 @@ public class DocumentRenderer {
 ### ฉันสามารถแสดงเอกสารเป็นรูปแบบอื่นนอกเหนือจาก HTML ได้หรือไม่
 
 ใช่ Aspose.Words สำหรับ Java รองรับรูปแบบเอาต์พุตต่างๆ รวมถึง PDF, DOCX และอื่นๆ คุณสามารถเลือกรูปแบบที่เหมาะกับความต้องการของคุณได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

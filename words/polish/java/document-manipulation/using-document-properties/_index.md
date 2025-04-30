@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z właściwości dokumentu w Aspose.Words dla Java
-linktitle: Korzystanie z właściwości dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
-weight: 32
-url: /pl/java/document-manipulation/using-document-properties/
+"description": "Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku."
+"linktitle": "Korzystanie z właściwości dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z właściwości dokumentu w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/using-document-properties/"
+"weight": 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z właściwości dokumentu w Aspose.Words dla Java
@@ -59,7 +61,7 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-Ten fragment kodu pokazuje, jak dodać niestandardowe właściwości dokumentu, w tym wartość logiczną, ciąg, datę, numer wersji i wartość liczbową.
+Ten fragment kodu pokazuje, jak dodać niestandardowe właściwości dokumentu, takie jak wartość logiczna, ciąg, data, numer wersji i wartość liczbowa.
 
 ## Usuwanie właściwości dokumentu
 
@@ -74,7 +76,7 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Ten kod usuwa z dokumentu właściwość niestandardową „Data autoryzacji”.
+Ten kod usuwa z dokumentu niestandardową właściwość „Data autoryzacji”.
 
 ## Konfigurowanie łącza do treści
 
@@ -152,15 +154,15 @@ Właściwości dokumentu odgrywają znaczącą rolę w efektywnym zarządzaniu i
 
 ### Jak uzyskać dostęp do wbudowanych właściwości dokumentu?
 
- Aby uzyskać dostęp do wbudowanych właściwości dokumentu w Aspose.Words dla Java, możesz użyć`getBuiltInDocumentProperties` metoda na`Document` obiekt. Ta metoda zwraca kolekcję wbudowanych właściwości, po których można iterować.
+Aby uzyskać dostęp do wbudowanych właściwości dokumentu w Aspose.Words dla Java, możesz użyć `getBuiltInDocumentProperties` metoda na `Document` obiekt. Ta metoda zwraca kolekcję wbudowanych właściwości, po których można iterować.
 
 ### Czy mogę dodać do dokumentu niestandardowe właściwości?
 
- Tak, możesz dodać niestandardowe właściwości dokumentu do dokumentu za pomocą`CustomDocumentProperties` kolekcja. Możesz zdefiniować niestandardowe właściwości z różnymi typami danych, w tym ciągami, wartościami logicznymi, datami i wartościami liczbowymi.
+Tak, możesz dodać niestandardowe właściwości dokumentu do dokumentu za pomocą `CustomDocumentProperties` kolekcja. Możesz zdefiniować niestandardowe właściwości z różnymi typami danych, w tym ciągami, wartościami logicznymi, datami i wartościami liczbowymi.
 
 ### Jak mogę usunąć określoną niestandardową właściwość dokumentu?
 
- Aby usunąć określoną niestandardową właściwość dokumentu, możesz użyć`remove` metoda na`CustomDocumentProperties`kolekcji, przekazując jako parametr nazwę właściwości, którą chcesz usunąć.
+Aby usunąć określoną niestandardową właściwość dokumentu, możesz użyć `remove` metoda na `CustomDocumentProperties` kolekcji, przekazując jako parametr nazwę właściwości, którą chcesz usunąć.
 
 ### Jaki jest cel linkowania do treści w dokumencie?
 
@@ -168,10 +170,15 @@ Właściwości dokumentu odgrywają znaczącą rolę w efektywnym zarządzaniu i
 
 ### W jaki sposób mogę konwertować różne jednostki miary w Aspose.Words dla Java?
 
- W Aspose.Words for Java możesz konwertować różne jednostki miary za pomocą`ConvertUtil` Klasa. Dostarcza metod konwersji jednostek, takich jak cale na punkty, punkty na centymetry i inne.
+W Aspose.Words for Java możesz konwertować różne jednostki miary za pomocą `ConvertUtil` Klasa. Dostarcza metod konwersji jednostek, takich jak cale na punkty, punkty na centymetry i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

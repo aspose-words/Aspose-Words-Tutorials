@@ -1,14 +1,16 @@
 ---
-title: Визуализация 3D DML 3DEffects в PDF-документе
-linktitle: Визуализация 3D DML 3DEffects в PDF-документе
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как визуализировать потрясающие 3D-эффекты DML в документах PDF с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
+"description": "Узнайте, как визуализировать потрясающие 3D-эффекты DML в документах PDF с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Визуализация 3D DML 3DEffects в PDF-документе"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Визуализация 3D DML 3DEffects в PDF-документе"
+"url": "/ru/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Визуализация 3D DML 3DEffects в PDF-документе
@@ -21,11 +23,11 @@ url: /ru/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое. Вот список предварительных условий, с которых можно начать:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас есть библиотека Aspose.Words for .NET. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. .NET Framework: на вашем компьютере должен быть установлен .NET Framework.
 3. Среда разработки: среда разработки, такая как Visual Studio.
 4. Документ Word: документ Word с 3D-эффектами, который вы хотите преобразовать в PDF.
-5.  Временная лицензия: для использования всех возможностей вам может потребоваться временная лицензия от Aspose, которую вы можете получить[здесь](https://purchase.aspose.com/temporary-license/).
+5. Временная лицензия: для использования всех возможностей вам может потребоваться временная лицензия от Aspose, которую вы можете получить [здесь](https://purchase.aspose.com/temporary-license/).
 
 При выполнении этих предварительных условий вы полностью готовы к отображению 3D-эффектов в своих PDF-документах.
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Здесь мы определяем путь к каталогу ваших документов и загружаем документ Word с помощью`Document` класс. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Здесь мы определяем путь к каталогу ваших документов и загружаем документ Word с помощью `Document` класс. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Настройте параметры сохранения PDF-файла
 
@@ -62,9 +64,9 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Мы создаем экземпляр`PdfSaveOptions` и установите`Dml3DEffectsRenderingMode` к`Advanced`. Это сообщает Aspose.Words о необходимости визуализации 3D-эффектов с использованием расширенных настроек, гарантируя, что они будут выглядеть максимально впечатляюще в PDF-файле.
+Мы создаем экземпляр `PdfSaveOptions` и установите `Dml3DEffectsRenderingMode` к `Advanced`. Это сообщает Aspose.Words о необходимости визуализации 3D-эффектов с использованием расширенных настроек, гарантируя, что они будут выглядеть максимально впечатляюще в PDF-файле.
 
-## Шаг 3: Сохраните документ как PDF.
+## Шаг 3: Сохраните документ как PDF
 
 Наконец, мы сохраняем документ в формате PDF, используя указанные параметры сохранения.
 
@@ -72,7 +74,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOptions);
 ```
 
- Мы используем`Save` Метод`Document` класс для сохранения документа Word в формате PDF. Параметры сохранения, которые мы настроили ранее, передаются как параметр, чтобы гарантировать правильную визуализацию 3D-эффектов.
+Мы используем `Save` Метод `Document` класс для сохранения документа Word в формате PDF. Параметры сохранения, которые мы настроили ранее, передаются как параметр, чтобы гарантировать правильную визуализацию 3D-эффектов.
 
 ## Заключение
 
@@ -98,10 +100,15 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOp
 
 ### Где я могу найти более подробную документацию?
 
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

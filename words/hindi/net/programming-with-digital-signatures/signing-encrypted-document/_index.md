@@ -1,14 +1,16 @@
 ---
-title: एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करना
-linktitle: एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करना
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके एन्क्रिप्टेड Word दस्तावेज़ों पर हस्ताक्षर करना सीखें। डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके एन्क्रिप्टेड Word दस्तावेज़ों पर हस्ताक्षर करना सीखें। डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करना"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करना"
+"url": "/hi/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करना
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-digital-signatures/signing-encrypted-document/
 
 कोड में गोता लगाने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET: यहां से डाउनलोड करें और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: यहां से डाउनलोड करें और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विजुअल स्टूडियो: सुनिश्चित करें कि यह आपके पास स्थापित है।
 3. वैध प्रमाणपत्र: आपको .pfx प्रमाणपत्र फ़ाइल की आवश्यकता होगी।
 4. बुनियादी C# ज्ञान: मूल बातें समझने से यह ट्यूटोरियल आसान हो जाएगा।
@@ -45,7 +47,7 @@ using Aspose.Words.DigitalSignatures;
 
 ## चरण 2: अपने प्रोजेक्ट में Aspose.Words जोड़ना
 
-इसके बाद, हमें आपके प्रोजेक्ट में Aspose.Words जोड़ना होगा। ऐसा करने के कई तरीके हैं, लेकिन NuGet का इस्तेमाल करना सबसे आसान है। 
+इसके बाद, हमें आपके प्रोजेक्ट में Aspose.Words जोड़ना होगा। ऐसा करने के कुछ तरीके हैं, लेकिन NuGet का उपयोग करना सबसे आसान है। 
 
 1. टूल्स > NuGet पैकेज मैनेजर > पैकेज मैनेजर कंसोल से NuGet पैकेज मैनेजर कंसोल खोलें।
 2. निम्नलिखित आदेश चलाएँ:
@@ -63,7 +65,7 @@ Install-Package Aspose.Words
 
 ## चरण 4: कोड लिखना
 
- अब, चलिए कोड पर नज़र डालते हैं। अपना कोड खोलें`Program.cs` फ़ाइल खोलें और अपने दस्तावेज़ निर्देशिका का पथ सेट करके और प्रारंभ करके प्रारंभ करें`SignOptions` डिक्रिप्शन पासवर्ड के साथ.
+अब, चलिए कोड पर नज़र डालते हैं। अपना कोड खोलें `Program.cs` फ़ाइल खोलें और अपने दस्तावेज़ निर्देशिका का पथ सेट करके और प्रारंभ करके प्रारंभ करें `SignOptions` डिक्रिप्शन पासवर्ड के साथ.
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## चरण 5: प्रमाणपत्र लोड करना
 
- इसके बाद, अपना प्रमाणपत्र लोड करें`CertificateHolder`क्लास। इसके लिए आपकी .pfx फ़ाइल का पथ और प्रमाणपत्र का पासवर्ड आवश्यक होगा।
+इसके बाद, अपना प्रमाणपत्र लोड करें `CertificateHolder` क्लास। इसके लिए आपकी .pfx फ़ाइल का पथ और प्रमाणपत्र का पासवर्ड आवश्यक होगा।
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## चरण 6: दस्तावेज़ पर हस्ताक्षर करना
 
- अंत में, का उपयोग करें`DigitalSignatureUtil.Sign` अपने एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करने की विधि। इस विधि के लिए इनपुट फ़ाइल, आउटपुट फ़ाइल, प्रमाणपत्र धारक और हस्ताक्षर विकल्पों की आवश्यकता होती है।
+अंत में, का उपयोग करें `DigitalSignatureUtil.Sign` अपने एन्क्रिप्टेड वर्ड दस्तावेज़ पर हस्ताक्षर करने की विधि। इस विधि के लिए इनपुट फ़ाइल, आउटपुट फ़ाइल, प्रमाणपत्र धारक और हस्ताक्षर विकल्पों की आवश्यकता होती है।
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -114,10 +116,15 @@ DigitalSignatureUtil.Sign(
 हां, Aspose.Words आपको दृश्यमान डिजिटल हस्ताक्षर भी जोड़ने की अनुमति देता है।
 
 ### क्या हस्ताक्षर को सत्यापित करने का कोई तरीका है?
- हां, आप इसका उपयोग कर सकते हैं`DigitalSignatureUtil.Verify` हस्ताक्षर सत्यापित करने की विधि.
+हां, आप इसका उपयोग कर सकते हैं `DigitalSignatureUtil.Verify` हस्ताक्षर सत्यापित करने की विधि.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

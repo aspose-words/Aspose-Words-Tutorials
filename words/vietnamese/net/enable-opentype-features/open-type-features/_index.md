@@ -1,14 +1,16 @@
 ---
-title: Tính năng loại mở
-linktitle: Tính năng loại mở
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bật tính năng OpenType trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/enable-opentype-features/open-type-features/
+"description": "Tìm hiểu cách bật tính năng OpenType trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Tính năng loại mở"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tính năng loại mở"
+"url": "/vi/net/enable-opentype-features/open-type-features/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tính năng loại mở
@@ -21,7 +23,7 @@ Bạn đã sẵn sàng để khám phá thế giới các tính năng OpenType b
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích.
 3. Visual Studio: Môi trường phát triển tích hợp (IDE) để mã hóa.
 4. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
@@ -62,7 +64,7 @@ Tạo một biến chuỗi để giữ đường dẫn đến thư mục tài li
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ### Đang tải tài liệu
 
@@ -76,7 +78,7 @@ Dòng mã này mở tài liệu được chỉ định để chúng ta có thể
 
 ## Bước 3: Kích hoạt tính năng OpenType
 
- HarfBuzz là một công cụ định hình văn bản nguồn mở hoạt động liền mạch với Aspose.Words. Để bật các tính năng OpenType, chúng ta cần thiết lập`TextShaperFactory` tài sản của`LayoutOptions` sự vật.
+HarfBuzz là một công cụ định hình văn bản nguồn mở hoạt động liền mạch với Aspose.Words. Để bật các tính năng OpenType, chúng ta cần thiết lập `TextShaperFactory` tài sản của `LayoutOptions` sự vật.
 
 ```csharp
 doc.LayoutOptions.TextShaperFactory = HarfBuzzTextShaperFactory.Instance;
@@ -112,13 +114,18 @@ HarfBuzz là một công cụ định hình văn bản nguồn mở cung cấp h
 Có, Aspose.Words hỗ trợ nhiều công cụ định hình văn bản khác nhau. Tuy nhiên, HarfBuzz được khuyến nghị nhiều vì hỗ trợ tính năng OpenType toàn diện.
 
 ### Aspose.Words có tương thích với tất cả các phiên bản .NET không?
- Aspose.Words hỗ trợ nhiều phiên bản .NET khác nhau, bao gồm .NET Framework, .NET Core và .NET Standard. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về khả năng tương thích.
+Aspose.Words hỗ trợ nhiều phiên bản .NET khác nhau, bao gồm .NET Framework, .NET Core và .NET Standard. Kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết về khả năng tương thích.
 
 ### Tôi có thể dùng thử Aspose.Words như thế nào trước khi mua?
- Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/) và yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/) và yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

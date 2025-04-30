@@ -1,14 +1,16 @@
 ---
-title: टेबल के आस-पास के टेक्स्ट के बीच की दूरी प्राप्त करें
-linktitle: टेबल के आस-पास के टेक्स्ट के बीच की दूरी प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिका और आस-पास के टेक्स्ट के बीच की दूरी को पुनः प्राप्त करना सीखें। इस गाइड के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिका और आस-पास के टेक्स्ट के बीच की दूरी को पुनः प्राप्त करना सीखें। इस गाइड के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएँ।"
+"linktitle": "टेबल के आस-पास के टेक्स्ट के बीच की दूरी प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "टेबल के आस-पास के टेक्स्ट के बीच की दूरी प्राप्त करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टेबल के आस-पास के टेक्स्ट के बीच की दूरी प्राप्त करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-table-styles-and-formatting/get-distance-between-t
 
 इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET लाइब्रेरी: आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं।[एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
+1. Aspose.Words for .NET लाइब्रेरी: आपके पास Aspose.Words for .NET लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने पहले से ऐसा नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं। [एस्पोज रिलीज](https://releases.aspose.com/words/net/) पृष्ठ.
 2. विकास वातावरण: .NET फ्रेमवर्क स्थापित के साथ एक कार्यशील विकास वातावरण। विजुअल स्टूडियो एक अच्छा विकल्प है।
 3. नमूना दस्तावेज़: एक वर्ड दस्तावेज़ (.docx) जिसमें कोड का परीक्षण करने के लिए कम से कम एक तालिका हो।
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## चरण 1: अपना दस्तावेज़ लोड करें
 
- पहला कदम अपने Word दस्तावेज़ को Aspose.Words में लोड करना है`Document` ऑब्जेक्ट. यह ऑब्जेक्ट संपूर्ण दस्तावेज़ का प्रतिनिधित्व करता है.
+पहला कदम अपने Word दस्तावेज़ को Aspose.Words में लोड करना है `Document` ऑब्जेक्ट. यह ऑब्जेक्ट संपूर्ण दस्तावेज़ का प्रतिनिधित्व करता है.
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 
 ## चरण 2: टेबल तक पहुंचें
 
- इसके बाद, आपको अपने दस्तावेज़ के भीतर तालिका तक पहुंचने की आवश्यकता है।`GetChild` विधि आपको दस्तावेज़ में पाई गई पहली तालिका को पुनः प्राप्त करने की अनुमति देती है।
+इसके बाद, आपको अपने दस्तावेज़ के भीतर तालिका तक पहुंचने की आवश्यकता है। `GetChild` विधि आपको दस्तावेज़ में पाई गई पहली तालिका को पुनः प्राप्त करने की अनुमति देती है।
 
 ```csharp
 // दस्तावेज़ में पहली तालिका प्राप्त करें
@@ -89,10 +91,10 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं दूरियों को प्रोग्रामेटिक रूप से समायोजित कर सकता हूँ?
- हां, आप Aspose.Words का उपयोग करके प्रोग्रामेटिक रूप से दूरी समायोजित कर सकते हैं`DistanceTop`, `DistanceBottom`, `DistanceRight` , और`DistanceLeft` के गुण`Table` वस्तु।
+हां, आप Aspose.Words का उपयोग करके प्रोग्रामेटिक रूप से दूरी समायोजित कर सकते हैं `DistanceTop`, `DistanceBottom`, `DistanceRight`, और `DistanceLeft` के गुण `Table` वस्तु।
 
 ### यदि मेरे दस्तावेज़ में एकाधिक तालिकाएँ हों तो क्या होगा?
- आप दस्तावेज़ के चाइल्ड नोड्स के माध्यम से लूप कर सकते हैं और प्रत्येक तालिका पर समान विधि लागू कर सकते हैं।`GetChildNodes(NodeType.Table, true)` सभी तालिकाएँ प्राप्त करने के लिए.
+आप दस्तावेज़ के चाइल्ड नोड्स के माध्यम से लूप कर सकते हैं और प्रत्येक तालिका पर समान विधि लागू कर सकते हैं। `GetChildNodes(NodeType.Table, true)` सभी तालिकाएँ प्राप्त करने के लिए.
 
 ### क्या मैं .NET कोर के साथ Aspose.Words का उपयोग कर सकता हूँ?
 बिल्कुल! Aspose.Words .NET Core का समर्थन करता है, और आप .NET Core प्रोजेक्ट्स के लिए मामूली समायोजन के साथ समान कोड का उपयोग कर सकते हैं।
@@ -101,10 +103,15 @@ Console.WriteLine("Distance from Left: " + table.DistanceLeft);
 आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से .NET के लिए Aspose.Words इंस्टॉल कर सकते हैं। बस "Aspose.Words" खोजें और पैकेज इंस्टॉल करें।
 
 ### क्या Aspose.Words द्वारा समर्थित दस्तावेज़ प्रकारों पर कोई सीमाएँ हैं?
- Aspose.Words कई तरह के दस्तावेज़ प्रारूपों का समर्थन करता है, जिसमें DOCX, DOC, PDF, HTML, और बहुत कुछ शामिल है।[प्रलेखन](https://reference.aspose.com/words/net/) समर्थित प्रारूपों की पूरी सूची के लिए.
+Aspose.Words कई तरह के दस्तावेज़ प्रारूपों का समर्थन करता है, जिसमें DOCX, DOC, PDF, HTML, और बहुत कुछ शामिल है। [प्रलेखन](https://reference.aspose.com/words/net/) समर्थित प्रारूपों की पूरी सूची के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

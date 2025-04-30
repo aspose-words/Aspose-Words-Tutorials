@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-ooxmlsaveoptions/set-compression-level/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Compression Level
@@ -132,9 +135,13 @@ Yes, Aspose.Words for .NET supports compression for various document formats inc
 You can get support from the Aspose community by visiting their [Support Forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

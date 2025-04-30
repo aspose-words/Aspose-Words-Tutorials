@@ -11,8 +11,11 @@ keywords:
 
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -253,9 +256,13 @@ document.save("YOUR_OUTPUT_DIRECTORY/UtilityClasses.PointsAndPixels.docx");
 This guide provided a comprehensive overview of converting page margins using Aspose.Words for Java. By following the structured approach and examples, you can efficiently manage document layouts in your applications.
 
 **Next Steps:** Explore additional features of Aspose.Words to enhance your document processing capabilities further.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

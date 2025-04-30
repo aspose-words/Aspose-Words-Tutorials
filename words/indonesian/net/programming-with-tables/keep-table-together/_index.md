@@ -1,14 +1,16 @@
 ---
-title: Jaga Meja Tetap Bersama
-linktitle: Jaga Meja Tetap Bersama
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara agar tabel tidak terputus di beberapa halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk menjaga dokumen tetap profesional dan mudah dibaca.
-weight: 10
-url: /id/net/programming-with-tables/keep-table-together/
+"description": "Pelajari cara agar tabel tidak terputus di beberapa halaman dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk menjaga dokumen tetap profesional dan mudah dibaca."
+"linktitle": "Jaga Meja Tetap Bersama"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Jaga Meja Tetap Bersama"
+"url": "/id/net/programming-with-tables/keep-table-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jaga Meja Tetap Bersama
@@ -21,7 +23,7 @@ Pernahkah Anda merasa frustrasi ketika tabel dalam dokumen Word Anda terbagi men
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET - Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET - Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Dokumen Word dengan Tabel - Kita akan bekerja dengan dokumen contoh yang memiliki tabel yang mencakup beberapa halaman.
 3. Pengetahuan Dasar C# - Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -34,11 +36,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Mari kita uraikan prosesnya menjadi beberapa langkah yang mudah dipahami. Kita akan mulai dengan memuat dokumen kita dan mengakhirinya dengan menyimpan dokumen yang telah diperbarui di mana tabel tetap utuh.
+Mari kita uraikan prosesnya menjadi beberapa langkah yang mudah dipahami. Kita akan mulai dengan memuat dokumen kita dan mengakhirinya dengan menyimpan dokumen yang telah diperbarui di mana tabel tetap menyatu.
 
 ## Langkah 1: Muat Dokumen
 
- Untuk bekerja dengan dokumen Word, pertama-tama kita perlu memuatnya. Kita akan menggunakan`Document` kelas untuk ini.
+Untuk bekerja dengan dokumen Word, pertama-tama kita perlu memuatnya. Kita akan menggunakan `Document` kelas untuk ini.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -49,7 +51,7 @@ Document doc = new Document(dataDir + "Table spanning two pages.docx");
 
 ## Langkah 2: Akses Tabel
 
-Berikutnya, kita perlu mendapatkan tabel yang ingin kita simpan bersama. Kita akan menganggap ini sebagai tabel pertama dalam dokumen.
+Berikutnya, kita perlu mendapatkan tabel yang ingin kita simpan bersama. Kita akan berasumsi bahwa itu adalah tabel pertama dalam dokumen.
 
 ```csharp
 Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -57,7 +59,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Langkah 3: Atur KeepWithNext untuk Paragraf
 
- Untuk mencegah tabel terpecah di beberapa halaman, kita perlu mengatur`KeepWithNext` properti untuk setiap paragraf dalam tabel, kecuali paragraf terakhir di baris terakhir.
+Untuk mencegah tabel terpecah di beberapa halaman, kita perlu mengatur `KeepWithNext` properti untuk setiap paragraf dalam tabel, kecuali paragraf terakhir di baris terakhir.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -92,16 +94,21 @@ Ya, Anda dapat menerapkan logika yang sama ke beberapa tabel dengan mengulangi s
 Jika tabel terlalu besar untuk dimuat dalam satu halaman, tabel tersebut akan tetap tersebar di beberapa halaman. Metode ini memastikan tabel yang lebih kecil tetap utuh tanpa terbagi.
 
 ### Apakah ada cara untuk mengotomatiskan ini untuk semua tabel dalam dokumen?  
- Ya, Anda dapat mengulang semua tabel di dokumen Anda dan menerapkannya`KeepWithNext` properti untuk setiap paragraf.
+Ya, Anda dapat mengulang semua tabel di dokumen Anda dan menerapkannya `KeepWithNext` properti untuk setiap paragraf.
 
 ### Apakah saya memerlukan lisensi berbayar untuk Aspose.Words untuk .NET?  
-Anda dapat memulai dengan uji coba gratis dari[Di Sini](https://releases.aspose.com/), tetapi untuk fungsionalitas penuh, lisensi berbayar direkomendasikan.
+Anda dapat memulai dengan uji coba gratis dari [Di Sini](https://releases.aspose.com/), tetapi untuk fungsionalitas penuh, lisensi berbayar direkomendasikan.
 
 ### Bisakah saya menerapkan format lain ke tabel sembari tetap menyatukannya?  
 Tentu saja! Anda dapat memformat tabel sesuai kebutuhan sambil memastikannya tetap menyatu dalam satu halaman.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

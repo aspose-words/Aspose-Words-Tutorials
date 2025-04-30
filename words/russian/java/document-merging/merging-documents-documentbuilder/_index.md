@@ -1,14 +1,16 @@
 ---
-title: Объединение документов с помощью DocumentBuilder
-linktitle: Объединение документов с помощью DocumentBuilder
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как манипулировать документами Word с помощью Aspose.Words для Java. Создавайте, редактируйте, объединяйте и конвертируйте документы программно на Java.
-weight: 13
-url: /ru/java/document-merging/merging-documents-documentbuilder/
+"description": "Узнайте, как манипулировать документами Word с помощью Aspose.Words для Java. Создавайте, редактируйте, объединяйте и конвертируйте документы программно на Java."
+"linktitle": "Объединение документов с помощью DocumentBuilder"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Объединение документов с помощью DocumentBuilder"
+"url": "/ru/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объединение документов с помощью DocumentBuilder
@@ -28,7 +30,7 @@ url: /ru/java/document-merging/merging-documents-documentbuilder/
 
 ## Начиная
 
- Давайте начнем с создания нового проекта Java и добавления в него библиотеки Aspose.Words. Вы можете скачать библиотеку с[здесь](https://releases.aspose.com/words/java/).
+Давайте начнем с создания нового проекта Java и добавления в него библиотеки Aspose.Words. Вы можете скачать библиотеку с [здесь](https://releases.aspose.com/words/java/).
 
 ## Создание нового документа
 
@@ -99,10 +101,15 @@ doc.save("merged_document.docx");
 
 ### Где я могу найти дополнительную документацию и ресурсы?
 
- Подробную документацию и ресурсы по Aspose.Words для Java можно найти на веб-сайте Aspose:[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Подробную документацию и ресурсы по Aspose.Words для Java можно найти на веб-сайте Aspose: [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

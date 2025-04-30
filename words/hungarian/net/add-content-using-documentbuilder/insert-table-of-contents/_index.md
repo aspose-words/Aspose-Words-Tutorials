@@ -1,32 +1,34 @@
 ---
-title: Helyezze be a tartalomjegyzéket a Word dokumentumba
-linktitle: Helyezze be a tartalomjegyzéket a Word dokumentumba
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan illeszthet be tartalomjegyzéket a Wordbe az Aspose.Words for .NET használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes dokumentumnavigáció érdekében.
-weight: 10
-url: /hu/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Tanuld meg, hogyan szúrhatsz be tartalomjegyzéket Wordben az Aspose.Words for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes dokumentumnavigációhoz."
+"linktitle": "Tartalomjegyzék beszúrása Word dokumentumba"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Tartalomjegyzék beszúrása Word dokumentumba"
+"url": "/hu/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Helyezze be a tartalomjegyzéket a Word dokumentumba
+# Tartalomjegyzék beszúrása Word dokumentumba
 
 ## Bevezetés
-Ebből az oktatóanyagból megtudhatja, hogyan lehet hatékonyan hozzáadni egy tartalomjegyzéket (TOC) a Word-dokumentumokhoz az Aspose.Words for .NET használatával. Ez a funkció elengedhetetlen a hosszadalmas dokumentumok rendszerezéséhez és navigálásához, az olvashatóság javításához és a dokumentumrészek gyors áttekintéséhez.
+Ebben az oktatóanyagban megtanulod, hogyan adhatsz hatékonyan tartalomjegyzéket (TOC) Word-dokumentumaidhoz az Aspose.Words for .NET segítségével. Ez a funkció elengedhetetlen a hosszú dokumentumok rendszerezéséhez és navigálásához, az olvashatóság javításához és a dokumentum szakaszainak gyors áttekintéséhez.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-- A C# és .NET keretrendszer alapvető ismerete.
-- A Visual Studio telepítve van a gépedre.
--  Aspose.Words a .NET könyvtárhoz. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/words/net/).
+- C# és .NET keretrendszer alapismeretek.
+- Visual Studio telepítve a gépedre.
+- Aspose.Words .NET könyvtárhoz. Ha még nem telepítetted, letöltheted innen: [itt](https://releases.aspose.com/words/net/).
 
 ## Névterek importálása
 
-A kezdéshez importálja a szükséges névtereket a C# projektbe:
+Kezdéshez importáld a szükséges névtereket a C# projektedbe:
 
 ```csharp
 using Aspose.Words;
@@ -35,42 +37,42 @@ using Aspose.Words.Fields;
 using Aspose.Words.Tables;
 ```
 
-Bontsuk le a folyamatot egyértelmű lépésekre:
+Bontsuk le a folyamatot világos lépésekre:
 
 ## 1. lépés: Az Aspose.Words dokumentum és a DocumentBuilder inicializálása
 
- Először inicializáljon egy új Aspose.Words-t`Document` tárgy és a`DocumentBuilder` dolgozni:
+Először inicializálj egy új Aspose.Words függvényt `Document` tárgy és egy `DocumentBuilder` együtt dolgozni:
 
 ```csharp
-// Inicializálja a dokumentumot és a DocumentBuildert
+// Dokumentum és DocumentBuilder inicializálása
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## 2. lépés: Helyezze be a tartalomjegyzéket
+## 2. lépés: Tartalomjegyzék beillesztése
 
- Most helyezze be a tartalomjegyzéket a gombbal`InsertTableOfContents` módszer:
+Most illessze be a tartalomjegyzéket a `InsertTableOfContents` módszer:
 
 ```csharp
 // Tartalomjegyzék beszúrása
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 ```
 
-## 3. lépés: Indítsa el a dokumentumtartalmat egy új oldalon
+## 3. lépés: Dokumentumtartalom indítása új oldalon
 
-megfelelő formázás érdekében kezdje el a tényleges dokumentumtartalmat egy új oldalon:
+A megfelelő formázás biztosítása érdekében a dokumentum tartalmát új oldalon kezdje:
 
 ```csharp
 // Oldaltörés beszúrása
 builder.InsertBreak(BreakType.PageBreak);
 ```
 
-## 4. lépés: Strukturálja a dokumentumot címsorokkal
+## 4. lépés: A dokumentum strukturálása címsorokkal
 
-Rendszerezze dokumentum tartalmát megfelelő címsorstílusok használatával:
+Rendszerezze a dokumentum tartalmát megfelelő címsorstílusok használatával:
 
 ```csharp
-// Állítsa be a címsor stílusait
+// Címsorstílusok beállítása
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -95,18 +97,18 @@ builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 ```
 
-## 5. lépés: Frissítse és töltse fel a tartalomjegyzéket
+## 5. lépés: A tartalomjegyzék frissítése és feltöltése
 
-Frissítse a tartalomjegyzéket, hogy tükrözze a dokumentum szerkezetét:
+Frissítse a tartalomjegyzéket a dokumentum szerkezetének megfelelően:
 
 ```csharp
-// Frissítse a Tartalomjegyzék mezőket
+// A tartalomjegyzék mezőinek frissítése
 doc.UpdateFields();
 ```
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot egy megadott könyvtárba:
+Végül mentse el a dokumentumot egy megadott könyvtárba:
 
 ```csharp
 // Mentse el a dokumentumot
@@ -116,27 +118,32 @@ doc.Save(dataDir + "InsertTableOfContentsUsingAsposeWords.docx");
 
 ## Következtetés
 
-Tartalomjegyzék hozzáadása az Aspose.Words for .NET használatával egyszerű, és jelentősen javítja a dokumentumok használhatóságát. Ezen lépések követésével hatékonyan rendszerezheti és navigálhat az összetett dokumentumok között.
+Tartalomjegyzék hozzáadása az Aspose.Words for .NET segítségével egyszerűen elvégezhető, és jelentősen javítja a dokumentumok használhatóságát. A következő lépéseket követve hatékonyan rendszerezheti és navigálhat összetett dokumentumokban.
 
 ## GYIK
 
 ### Testreszabhatom a tartalomjegyzék megjelenését?
-Igen, testreszabhatja a tartalomjegyzék megjelenését és viselkedését az Aspose.Words for .NET API-kkal.
+Igen, testreszabhatja a tartalomjegyzék megjelenését és viselkedését az Aspose.Words for .NET API-k használatával.
 
 ### Az Aspose.Words támogatja a mezők automatikus frissítését?
-Igen, az Aspose.Words lehetővé teszi a mezők, például a tartalomjegyzék dinamikus frissítését a dokumentum módosításai alapján.
+Igen, az Aspose.Words lehetővé teszi a mezők, például a tartalomjegyzék dinamikus frissítését a dokumentum változásai alapján.
 
 ### Létrehozhatok több tartalomjegyzéket egyetlen dokumentumban?
 Az Aspose.Words támogatja több tartalomjegyzék létrehozását különböző beállításokkal egyetlen dokumentumon belül.
 
-### Az Aspose.Words kompatibilis a Microsoft Word különböző verzióival?
+### Kompatibilis az Aspose.Words a Microsoft Word különböző verzióival?
 Igen, az Aspose.Words biztosítja a kompatibilitást a Microsoft Word formátumok különböző verzióival.
 
-### Hol találok további segítséget és támogatást az Aspose.Words számára?
- További segítségért keresse fel a[Aspose.Words Forum](https://forum.aspose.com/c/words/8) vagy nézd meg a[hivatalos dokumentáció](https://reference.aspose.com/words/net/).
+### Hol találok további segítséget és támogatást az Aspose.Words-höz?
+További segítségért látogassa meg a [Aspose.Words Fórum](https://forum.aspose.com/c/words/8) vagy nézd meg a [hivatalos dokumentáció](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

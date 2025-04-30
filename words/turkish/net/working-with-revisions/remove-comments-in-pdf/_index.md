@@ -1,14 +1,16 @@
 ---
-title: Pdf Dosyasındaki Yorumları Kaldır
-linktitle: Pdf Dosyasındaki Yorumları Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'i kullanarak PDF dosyasından yorumların nasıl kaldırılacağını adım adım anlatan kılavuzumuzla öğrenin.
-weight: 10
-url: /tr/net/working-with-revisions/remove-comments-in-pdf/
+"description": "Aspose.Words for .NET'i kullanarak PDF dosyasından yorumların nasıl kaldırılacağını adım adım anlatan kılavuzumuzla öğrenin."
+"linktitle": "Pdf Dosyasındaki Yorumları Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Pdf Dosyasındaki Yorumları Kaldır"
+"url": "/tr/net/working-with-revisions/remove-comments-in-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pdf Dosyasındaki Yorumları Kaldır
@@ -21,10 +23,10 @@ Merhaba, geliştirici arkadaşlar! PDF dosyalarıyla uğraşırken kendinizi bir
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Kütüphanenin kurulu olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET uyumlu IDE.
 3. Temel C# Bilgisi: C# programlamanın temellerine aşina olmanız işinize yarayacaktır.
-4. Yorumlu Bir Belge: Üzerinde test yapmak için yorumlu bir Word belgesine (.docx) ihtiyacımız olacak.
+4. Yorumlu Bir Belge: Test yapmak için yorumlu bir Word belgesine (.docx) ihtiyacımız olacak.
 
 Eğer bunları tamamladıysanız, şimdi heyecan verici kısma geçelim!
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Bu kod parçacığında şunu değiştirin:`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Adlı bir belge yüklüyoruz`Revisions.docx`.
+Bu kod parçacığında şunu değiştirin: `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Adlı bir belge yüklüyoruz `Revisions.docx`.
 
 ## Adım 2: PDF'deki Yorumları Gizle
 
@@ -83,22 +85,27 @@ Unutmayın, pratik mükemmelleştirir. O halde devam edin ve bunu belgelerinizde
 ## SSS
 
 ### Ya bazı yorumları tutmak ama bazılarını kaldırmak istersem?
- Yorum düğümlerini doğrudan belgede düzenleyerek yorumları seçici olarak gizleyebilirsiniz.`CommentDisplayMode`.
+Yorum düğümlerini doğrudan belgede düzenleyerek yorumları seçici olarak gizleyebilirsiniz. `CommentDisplayMode`.
 
 ### Aspose.Words'ü PDF dışında başka dosya formatlarında da kullanabilir miyim?
 Kesinlikle! Aspose.Words DOCX, TXT, HTML ve daha fazlası dahil olmak üzere çok çeşitli dosya biçimlerini destekler.
 
 ### Aspose.Words için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words kullanırken sorunlarla karşılaşırsam ne olur?
- Ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/words/8) Karşılaşabileceğiniz herhangi bir sorunda yardım için.
+Ziyaret edebilirsiniz [destek forumu](https://forum.aspose.com/c/words/8) Karşılaşabileceğiniz herhangi bir sorunda yardım için.
 
 ### Aspose.Words için lisansı nasıl satın alabilirim?
- Lisansı şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+Lisansı şu adresten satın alabilirsiniz: [Burada](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

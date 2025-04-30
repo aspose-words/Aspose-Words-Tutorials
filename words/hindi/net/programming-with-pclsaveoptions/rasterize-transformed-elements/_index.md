@@ -1,14 +1,16 @@
 ---
-title: रूपांतरित तत्वों को रास्टराइज़ करें
-linktitle: रूपांतरित तत्वों को रास्टराइज़ करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों को PCL प्रारूप में परिवर्तित करते समय परिवर्तित तत्वों को रास्टराइज़ करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों को PCL प्रारूप में परिवर्तित करते समय परिवर्तित तत्वों को रास्टराइज़ करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "रूपांतरित तत्वों को रास्टराइज़ करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "रूपांतरित तत्वों को रास्टराइज़ करें"
+"url": "/hi/net/programming-with-pclsaveoptions/rasterize-transformed-elements/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # रूपांतरित तत्वों को रास्टराइज़ करें
@@ -21,8 +23,8 @@ url: /hi/net/programming-with-pclsaveoptions/rasterize-transformed-elements/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
-2.  वैध लाइसेंस: आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या मूल्यांकन के लिए अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास नवीनतम संस्करण स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+2. वैध लाइसेंस: आप लाइसेंस खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या मूल्यांकन के लिए अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 3. विकास परिवेश: अपने विकास परिवेश (जैसे, विज़ुअल स्टूडियो) को .NET फ्रेमवर्क समर्थन के साथ सेट करें।
 
 ## नामस्थान आयात करें
@@ -41,7 +43,7 @@ using Aspose.Words.Saving;
 सबसे पहले, आपको एक नया प्रोजेक्ट बनाना होगा या किसी मौजूदा प्रोजेक्ट का उपयोग करना होगा। अपना डेवलपमेंट एनवायरनमेंट खोलें और प्रोजेक्ट सेट अप करें।
 
 1. नया प्रोजेक्ट बनाएं: Visual Studio खोलें और एक नया C# कंसोल अनुप्रयोग बनाएं।
-2.  Aspose.Words स्थापित करें: Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। अपने प्रोजेक्ट पर राइट-क्लिक करें, "NuGet पैकेज प्रबंधित करें" चुनें, और खोजें`Aspose.Words`. नवीनतम संस्करण स्थापित करें.
+2. Aspose.Words स्थापित करें: Aspose.Words स्थापित करने के लिए NuGet पैकेज मैनेजर का उपयोग करें। अपने प्रोजेक्ट पर राइट-क्लिक करें, "NuGet पैकेज प्रबंधित करें" चुनें, और खोजें `Aspose.Words`. नवीनतम संस्करण स्थापित करें.
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
@@ -55,14 +57,14 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- इस कोड स्निपेट में, प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` Word दस्तावेज़ वाली आपकी निर्देशिका के वास्तविक पथ के साथ। सुनिश्चित करें कि दस्तावेज़ का नाम (`Rendering.docx`) आपकी फ़ाइल से मेल खाता है.
+इस कोड स्निपेट में, प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` Word दस्तावेज़ वाली आपकी निर्देशिका के वास्तविक पथ के साथ। सुनिश्चित करें कि दस्तावेज़ का नाम (`Rendering.docx`) आपकी फ़ाइल से मेल खाता है.
 
 ## चरण 3: सहेजें विकल्प कॉन्फ़िगर करें
 
- दस्तावेज़ को PCL फ़ॉर्मेट में बदलने के लिए, आपको सेव ऑप्शन को कॉन्फ़िगर करना होगा। इसमें सेटिंग करना शामिल है`SaveFormat` को`Pcl` और यह निर्दिष्ट करना कि रूपांतरित तत्वों को रेखापुंजित करना है या नहीं।
+दस्तावेज़ को PCL फ़ॉर्मेट में बदलने के लिए, आपको सेव विकल्पों को कॉन्फ़िगर करना होगा। इसमें सेटिंग करना शामिल है `SaveFormat` को `Pcl` और यह निर्दिष्ट करना कि रूपांतरित तत्वों को रेखापुंजित करना है या नहीं।
 
 ```csharp
-//PCL प्रारूप में रूपांतरण के लिए बैकअप विकल्प कॉन्फ़िगर करें
+// PCL प्रारूप में रूपांतरण के लिए बैकअप विकल्प कॉन्फ़िगर करें
 PclSaveOptions saveOptions = new PclSaveOptions
 {
     SaveFormat = SaveFormat.Pcl,
@@ -70,7 +72,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 };
 ```
 
- यहाँ,`RasterizeTransformedElements` इसके लिए सेट है`false` , जिसका अर्थ है कि रूपांतरित तत्वों को रास्टराइज़ नहीं किया जाएगा। आप इसे इस प्रकार सेट कर सकते हैं`true` यदि आप चाहते हैं कि उन्हें रेखापुंजित किया जाए।
+यहाँ, `RasterizeTransformedElements` इसके लिए सेट है `false`, जिसका अर्थ है कि रूपांतरित तत्वों को रास्टराइज़ नहीं किया जाएगा। आप इसे इस प्रकार सेट कर सकते हैं `true` यदि आप चाहते हैं कि उन्हें रेखापुंजित किया जाए।
 
 ## चरण 4: दस्तावेज़ को परिवर्तित करें
 
@@ -81,7 +83,7 @@ PclSaveOptions saveOptions = new PclSaveOptions
 doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl", saveOptions);
 ```
 
- इस पंक्ति में, दस्तावेज़ को निर्दिष्ट विकल्पों के साथ PCL प्रारूप में सहेजा जाता है। आउटपुट फ़ाइल का नाम है`WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl`.
+इस पंक्ति में, दस्तावेज़ को निर्दिष्ट विकल्पों के साथ PCL प्रारूप में सहेजा जाता है। आउटपुट फ़ाइल का नाम है `WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl`.
 
 ## निष्कर्ष
 
@@ -93,20 +95,25 @@ doc.Save(dataDir + "WorkingWithPclSaveOptions.RasterizeTransformedElements.pcl",
 हां, Aspose.Words for .NET का उपयोग विभिन्न प्रकार के अनुप्रयोगों में किया जा सकता है, जिसमें वेब अनुप्रयोग भी शामिल हैं। उचित लाइसेंसिंग और कॉन्फ़िगरेशन सुनिश्चित करें।
 
 ### Aspose.Words for .NET को अन्य किन प्रारूपों में रूपांतरित किया जा सकता है?  
-Aspose.Words कई तरह के फॉर्मेट को सपोर्ट करता है, जिसमें PDF, HTML, EPUB और बहुत कुछ शामिल है।[प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए.
+Aspose.Words कई तरह के फॉर्मेट को सपोर्ट करता है, जिसमें PDF, HTML, EPUB और बहुत कुछ शामिल है। [प्रलेखन](https://reference.aspose.com/words/net/) पूरी सूची के लिए.
 
 ### क्या दस्तावेज़ में केवल विशिष्ट तत्वों को ही रास्टराइज़ करना संभव है?  
- वर्तमान में,`RasterizeTransformedElements` विकल्प दस्तावेज़ में सभी रूपांतरित तत्वों पर लागू होता है। अधिक विस्तृत नियंत्रण के लिए, रूपांतरण से पहले तत्वों को अलग से संसाधित करने पर विचार करें।
+वर्तमान में, `RasterizeTransformedElements` विकल्प दस्तावेज़ में सभी रूपांतरित तत्वों पर लागू होता है। अधिक विस्तृत नियंत्रण के लिए, रूपांतरण से पहले तत्वों को अलग से संसाधित करने पर विचार करें।
 
 ### मैं दस्तावेज़ रूपांतरण से संबंधित समस्याओं का निवारण कैसे कर सकता हूँ?  
- सुनिश्चित करें कि आपके पास Aspose.Words का नवीनतम संस्करण है और किसी भी विशिष्ट रूपांतरण समस्या के लिए दस्तावेज़ की जाँच करें। इसके अतिरिक्त,[सहयता मंच](https://forum.aspose.com/c/words/8) मदद मांगने के लिए एक बेहतरीन जगह है।
+सुनिश्चित करें कि आपके पास Aspose.Words का नवीनतम संस्करण है और किसी भी विशिष्ट रूपांतरण समस्या के लिए दस्तावेज़ की जाँच करें। इसके अतिरिक्त, [सहयता मंच](https://forum.aspose.com/c/words/8) मदद मांगने के लिए एक बेहतरीन जगह है।
 
 ### क्या .NET के लिए Aspose.Words के परीक्षण संस्करण की कोई सीमाएँ हैं?  
- परीक्षण संस्करण में कुछ सीमाएँ हैं, जैसे मूल्यांकन वॉटरमार्क। पूरी तरह कार्यात्मक अनुभव के लिए, एक प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+परीक्षण संस्करण में कुछ सीमाएँ हैं, जैसे मूल्यांकन वॉटरमार्क। पूरी तरह कार्यात्मक अनुभव के लिए, एक प्राप्त करने पर विचार करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

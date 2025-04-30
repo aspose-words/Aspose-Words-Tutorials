@@ -1,14 +1,16 @@
 ---
-title: Komentar Jangkar
-linktitle: Komentar Jangkar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan komentar jangkar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk kolaborasi dokumen yang efisien.
-weight: 10
-url: /id/net/working-with-comments/anchor-comment/
+"description": "Pelajari cara menambahkan komentar jangkar dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk kolaborasi dokumen yang efisien."
+"linktitle": "Komentar Jangkar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Komentar Jangkar"
+"url": "/id/net/working-with-comments/anchor-comment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentar Jangkar
@@ -21,7 +23,7 @@ Pernahkah Anda berada dalam situasi di mana Anda perlu menambahkan komentar ke b
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Lingkungan pengembangan .NET seperti Visual Studio.
 - Pemahaman Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikuti langkah-langkahnya dengan mudah.
 
@@ -52,11 +54,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Pada langkah ini, kami menginisialisasi yang baru`Document` objek yang akan digunakan untuk menambahkan komentar kita.
+Pada langkah ini, kita menginisialisasi yang baru `Document` objek yang akan digunakan untuk menambahkan komentar kita.
 
 ## Langkah 2: Tambahkan Teks ke Dokumen
 
-Selanjutnya, kita akan menambahkan beberapa teks ke dalam dokumen. Teks ini akan menjadi target komentar kita.
+Selanjutnya, kita akan menambahkan beberapa teks ke dalam dokumen. Teks ini akan menjadi sasaran komentar kita.
 
 ```csharp
 // Buat paragraf pertama dan jalankan
@@ -76,7 +78,7 @@ para2.AppendChild(run4);
 doc.FirstSection.Body.AppendChild(para2);
 ```
 
- Di sini, kita membuat dua paragraf dengan beberapa teks. Setiap bagian teks dienkapsulasi dalam`Run` objek, yang kemudian ditambahkan ke paragraf.
+Di sini, kita membuat dua paragraf dengan beberapa teks. Setiap bagian teks dienkapsulasi dalam `Run` objek, yang kemudian ditambahkan ke paragraf.
 
 ## Langkah 3: Buat Komentar
 
@@ -88,7 +90,7 @@ Comment comment = new Comment(doc, "Awais Hafeez", "AH", DateTime.Today);
 comment.SetText("Comment text.");
 ```
 
- Pada langkah ini, kita membuat`Comment` objek dan tambahkan paragraf dan jalankan dengan teks komentar.
+Pada langkah ini, kita membuat `Comment` objek dan tambahkan paragraf dan jalankan dengan teks komentar.
 
 ## Langkah 4: Tentukan Rentang Komentar
 
@@ -107,7 +109,7 @@ run3.ParentNode.InsertAfter(commentRangeEnd, run3);
 commentRangeEnd.ParentNode.InsertAfter(comment, commentRangeEnd);
 ```
 
- Di sini, kita membuat`CommentRangeStart` Dan`CommentRangeEnd` objek, menautkannya ke komentar berdasarkan ID-nya. Kami kemudian memasukkan rentang ini ke dalam dokumen, yang secara efektif mengikat komentar kami ke teks yang ditentukan.
+Di sini, kita membuat `CommentRangeStart` Dan `CommentRangeEnd` objek, menautkannya ke komentar berdasarkan ID-nya. Kami kemudian memasukkan rentang ini ke dalam dokumen, yang secara efektif mengikat komentar kami ke teks yang ditentukan.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -133,16 +135,21 @@ Komentar jangkar digunakan untuk menyorot dan mengomentari bagian teks tertentu,
 Ya, Anda dapat menambahkan beberapa komentar ke bagian teks yang sama dengan menentukan beberapa rentang komentar.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
- Aspose.Words untuk .NET menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/) Untuk fitur lengkap, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words untuk .NET menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk fitur lengkap, Anda dapat membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya menyesuaikan tampilan komentar?
 Sementara Aspose.Words berfokus pada fungsionalitas, kemunculan komentar dalam dokumen Word secara umum dikontrol oleh Word itu sendiri.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

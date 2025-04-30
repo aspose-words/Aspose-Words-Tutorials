@@ -1,14 +1,16 @@
 ---
-title: Stylizacja dokumentu Word
-linktitle: Stylizacja dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak stylizować i przetwarzać dokumenty za pomocą Aspose.Words dla Javy! Twórz wizualnie oszałamiające wyniki z przykładami kodu źródłowego.
-weight: 10
-url: /pl/java/document-styling/word-document-styling/
+"description": "Dowiedz się, jak stylizować i przetwarzać dokumenty za pomocą Aspose.Words dla Javy! Twórz wizualnie oszałamiające wyniki z przykładami kodu źródłowego."
+"linktitle": "Stylizacja dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Stylizacja dokumentu Word"
+"url": "/pl/java/document-styling/word-document-styling/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stylizacja dokumentu Word
@@ -24,7 +26,7 @@ Aspose.Words for Java to potężna biblioteka, która umożliwia programistom Ja
 
 ### 1. Instalowanie Aspose.Words dla Java
 
-Aby rozpocząć, odwiedź stronę Aspose Releases (https://releases.aspose.com/words/java/) i pobierz bibliotekę Aspose.Words for Java. Po pobraniu postępuj zgodnie z instrukcjami instalacji, aby skonfigurować bibliotekę w swoim środowisku programistycznym.
+Aby rozpocząć, odwiedź Aspose Releases (https://releases.aspose.com/words/java/) i pobierz bibliotekę Aspose.Words for Java. Po pobraniu postępuj zgodnie z instrukcjami instalacji, aby skonfigurować bibliotekę w swoim środowisku programistycznym.
 
 ### 2. Konfigurowanie środowiska programistycznego
 
@@ -307,7 +309,7 @@ pageSetup.setTopMargin(50);
 
 ### 2. Praca z nagłówkami i stopkami
 
-Nagłówki i stopki umożliwiają dodanie do stron dokumentu dodatkowych informacji.
+Nagłówki i stopki umożliwiają dodanie dodatkowych informacji do stron dokumentu.
 
 ```java
 builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
@@ -346,7 +348,7 @@ Unikaj zbędnego formatowania w dokumencie i zachowaj spójny projekt w całym d
 
 ### 2. Efektywne wykorzystanie białej przestrzeni
 
-Puste przestrzenie mogą poprawić czytelność, dlatego należy je wykorzystywać rozważnie do podziału treści.
+Puste przestrzenie mogą poprawić czytelność, dlatego należy je stosować rozważnie, aby podzielić treść.
 
 ### 3. Podgląd i testowanie wyników
 
@@ -354,7 +356,7 @@ Zawsze przeglądaj i testuj swoje dokumenty na różnych urządzeniach i platfor
 
 ## Wniosek
 
-Aspose.Words for Java to potężne narzędzie, które umożliwia programistom Javy stylizowanie dokumentów i uwalnianie kreatywności. Niezależnie od tego, czy potrzebujesz tworzyć profesjonalne raporty, atrakcyjne wizualnie listy, czy jakikolwiek inny rodzaj dokumentu, Aspose.Words for Java ma dla Ciebie rozwiązanie. Eksperymentuj z różnymi stylami, czcionkami i opcjami formatowania, aby tworzyć oszałamiające dokumenty, które pozostawią trwałe wrażenie na odbiorcach.
+Aspose.Words for Java to potężne narzędzie, które umożliwia programistom Javy stylizowanie dokumentów i uwalnianie ich kreatywności. Niezależnie od tego, czy potrzebujesz tworzyć profesjonalne raporty, atrakcyjne wizualnie listy, czy jakikolwiek inny rodzaj dokumentu, Aspose.Words for Java ma dla Ciebie rozwiązanie. Eksperymentuj z różnymi stylami, czcionkami i opcjami formatowania, aby tworzyć oszałamiające dokumenty, które pozostawią trwałe wrażenie na odbiorcach.
 
 ---
 
@@ -382,9 +384,14 @@ Aspose.Words for Java to potężne narzędzie, które umożliwia programistom Ja
 
 ---
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

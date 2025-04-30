@@ -1,14 +1,16 @@
 ---
-title: Получить родительский узел
-linktitle: Получить родительский узел
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как получить родительский узел раздела документа с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/working-with-node/get-parent-node/
+"description": "Узнайте, как получить родительский узел раздела документа с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Получить родительский узел"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Получить родительский узел"
+"url": "/ru/net/working-with-node/get-parent-node/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить родительский узел
@@ -21,10 +23,10 @@ url: /ru/net/working-with-node/get-parent-node/
 
 Прежде чем приступить к работе, убедитесь, что у вас все готово:
 
--  Aspose.Words для .NET: Загрузите и установите его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Загрузите и установите его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая совместимая с .NET IDE.
 - Базовые знания C#: знакомство с программированием на C# будет преимуществом.
--  Временная лицензия: для полной функциональности без ограничений приобретите временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+- Временная лицензия: для полной функциональности без ограничений приобретите временную лицензию. [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -43,7 +45,7 @@ using Aspose.Words;
 Document doc = new Document();
 ```
 
- Здесь мы инициализировали новый экземпляр`Document` класс. Думайте об этом как о чистом холсте.
+Здесь мы инициализировали новый экземпляр `Document` класс. Думайте об этом как о чистом холсте.
 
 ## Шаг 2: Доступ к первому дочернему узлу
 
@@ -78,16 +80,21 @@ Console.WriteLine("Section parent is the document: " + (doc == section.ParentNod
 Доступ к родительским узлам необходим для понимания и управления структурой документа, например, для перемещения разделов или извлечения определенных частей.
 
 ### Могу ли я использовать Aspose.Words для .NET с другими языками программирования?
-Хотя Aspose.Words изначально разработан для .NET, вы можете использовать его и с другими языками, поддерживаемыми платформой .NET, например, VB.NET.
+Хотя Aspose.Words изначально разработан для .NET, вы можете использовать его и с другими языками, поддерживаемыми платформой .NET, например VB.NET.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
 Да, для полной функциональности вам нужна лицензия. Вы можете начать с бесплатной пробной версии или временной лицензии для ознакомительных целей.
 
 ### Где я могу найти более подробную документацию?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

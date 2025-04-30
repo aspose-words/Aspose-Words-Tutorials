@@ -1,14 +1,16 @@
 ---
-title: Укажите уровень списка
-linktitle: Укажите уровень списка
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать многоуровневые нумерованные и маркированные списки в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство включено. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/working-with-list/specify-list-level/
+"description": "Узнайте, как создавать многоуровневые нумерованные и маркированные списки в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство включено. Идеально подходит для разработчиков .NET."
+"linktitle": "Укажите уровень списка"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Укажите уровень списка"
+"url": "/ru/net/working-with-list/specify-list-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Укажите уровень списка
@@ -21,8 +23,8 @@ url: /ru/net/working-with-list/specify-list-level/
 
 Прежде чем погрузиться в подробности, давайте убедимся, что у нас есть все необходимое. Вот краткий контрольный список:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
-2. Среда разработки: такая среда разработки, как Visual Studio, облегчит вам жизнь.
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
+2. Среда разработки: IDE, такая как Visual Studio, облегчит вам жизнь.
 3. .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework.
 4. Базовые знания C#: в этом руководстве предполагается, что вы знакомы с основами программирования на C#.
 
@@ -42,7 +44,7 @@ using Aspose.Words.Lists;
 
 ## Шаг 1: Настройка документа и DocumentBuilder
 
- Давайте начнем с создания нового документа и`DocumentBuilder` возражают против работы с ним.
+Давайте начнем с создания нового документа и `DocumentBuilder` возражают против работы с ним.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Создание нумерованного списка
 
- Теперь мы создадим нумерованный список на основе одного из шаблонов списков Microsoft Word и применим его к`DocumentBuilder`'текущий абзац.
+Теперь мы создадим нумерованный список на основе одного из шаблонов списков Microsoft Word и применим его к `DocumentBuilder`текущий абзац.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberArabicDot);
@@ -117,10 +119,10 @@ builder.Document.Save(dataDir + "WorkingWithList.SpecifyListLevel.docx");
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Words для .NET?
-Aspose.Words для .NET — это мощная библиотека, которая позволяет создавать, редактировать, конвертировать и печатать документы Word программным способом на языке C#.
+Aspose.Words для .NET — это мощная библиотека, позволяющая программно создавать, редактировать, конвертировать и печатать документы Word на языке C#.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
-Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) . Для полной версии вы можете ознакомиться с вариантами покупки[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для полной версии вы можете ознакомиться с вариантами покупки [здесь](https://purchase.aspose.com/buy).
 
 ### Сколько уровней можно указать в списке с помощью Aspose.Words?
 С помощью Aspose.Words можно указать до девяти уровней в списке.
@@ -129,10 +131,15 @@ Aspose.Words предлагает бесплатную пробную верси
 Да, вы можете смешивать различные типы списков в одном документе, переключая шаблон списка по мере необходимости.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

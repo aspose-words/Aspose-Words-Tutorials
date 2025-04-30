@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Doc sang Docx
-linktitle: Chuyển đổi Doc sang Docx
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi DOC sang DOCX bằng Aspose.Words cho .NET. Hướng dẫn từng bước với ví dụ về mã. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/basic-conversions/doc-to-docx/
+"description": "Tìm hiểu cách chuyển đổi DOC sang DOCX bằng Aspose.Words cho .NET. Hướng dẫn từng bước với ví dụ về mã. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Chuyển đổi Doc sang Docx"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi Doc sang Docx"
+"url": "/vi/net/basic-conversions/doc-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Doc sang Docx
@@ -19,9 +21,9 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi tệp
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập những điều sau:
+Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong những điều sau:
 - Visual Studio được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho .NET đã được cài đặt. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET đã được cài đặt. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Kiến thức cơ bản về ngôn ngữ lập trình C#.
 
 ## Nhập không gian tên
@@ -46,9 +48,9 @@ Document doc = new Document(dataDir + "Document.doc");
 
 ## Bước 2: Lưu dưới dạng DOCX
 
-Tiếp theo, lưu tài liệu đã tải ở định dạng DOCX:
+Tiếp theo, lưu tài liệu đã tải dưới định dạng DOCX:
 ```csharp
-//Lưu tài liệu dưới dạng DOCX
+// Lưu tài liệu dưới dạng DOCX
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
@@ -70,20 +72,25 @@ Chuyển đổi DOC sang DOCX theo chương trình bằng Aspose.Words cho .NET 
 Có, Aspose.Words hỗ trợ chuyển đổi giữa nhiều định dạng khác nhau, bao gồm DOC, DOCX, RTF, HTML, PDF, v.v.
 
 ### Tôi có thể tìm tài liệu về Aspose.Words ở đâu?
- Bạn có thể truy cập tài liệu[đây](https://reference.aspose.com/words/net/).
+Bạn có thể truy cập tài liệu [đây](https://reference.aspose.com/words/net/).
 
 ### Có bản dùng thử miễn phí Aspose.Words không?
- Có, bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể mua giấy phép cho Aspose.Words?
- Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Để được hỗ trợ, hãy truy cập Aspose.Words[diễn đàn](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, hãy truy cập Aspose.Words [diễn đàn](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

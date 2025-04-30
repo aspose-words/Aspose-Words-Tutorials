@@ -1,14 +1,16 @@
 ---
-title: การประมวลผลคำด้วย Odtsaveoptions
-linktitle: การประมวลผลคำด้วย Odtsaveoptions
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้การประมวลผลคำด้วยตัวเลือกการบันทึก ODT ใน Aspose.Words สำหรับ .NET บทช่วยสอนโดยละเอียดพร้อมตัวอย่างโค้ดสำหรับการบันทึกเอกสาร Word ในรูปแบบ ODT
-weight: 1650
-url: /th/net/programming-with-odtsaveoptions/
+"description": "เรียนรู้การประมวลผลคำด้วยตัวเลือกการบันทึก ODT ใน Aspose.Words สำหรับ .NET บทช่วยสอนโดยละเอียดพร้อมตัวอย่างโค้ดสำหรับการบันทึกเอกสาร Word ในรูปแบบ ODT"
+"linktitle": "การประมวลผลคำด้วย Odtsaveoptions"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การประมวลผลคำด้วย Odtsaveoptions"
+"url": "/th/net/programming-with-odtsaveoptions/"
+"weight": 1650
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การประมวลผลคำด้วย Odtsaveoptions
@@ -20,12 +22,17 @@ url: /th/net/programming-with-odtsaveoptions/
 ไม่ว่าคุณจะต้องแปลงเอกสาร จัดการเนื้อหา จัดการการจัดรูปแบบ หรือทำงานเฉพาะอย่างอัตโนมัติ บทช่วยสอน Aspose.Words สำหรับ .NET อยู่ที่นี่เพื่อช่วยเหลือคุณ ด้วยเอกสารประกอบที่ครอบคลุมและตัวอย่างโค้ดที่เกี่ยวข้อง คุณจะสามารถใช้ Aspose.Words ในโครงการพัฒนา .NET ของคุณได้อย่างมีประสิทธิภาพ จึงเพิ่มประสิทธิผลและคุณภาพ
 
  ## บทช่วยสอน
-| ชื่อ | คำอธิบาย |
-| --- | --- |
-| [หน่วยวัด](./measure-unit/) | เรียนรู้วิธีการกำหนดค่าฟีเจอร์หน่วยการวัดใน Aspose.Words สำหรับ .NET เพื่อรักษาการจัดรูปแบบเอกสารในระหว่างการแปลง ODT |
+| ชื่อเรื่อง | คำอธิบาย |
+-
+- [หน่วยวัด](./measure-unit/) | เรียนรู้วิธีการกำหนดค่าฟีเจอร์หน่วยการวัดใน Aspose.Words สำหรับ .NET เพื่อรักษาการจัดรูปแบบเอกสารในระหว่างการแปลง ODT
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ooxml Uyumluluğu Iso 29500_2008_Strict
-linktitle: Ooxml Uyumluluğu Iso 29500_2008_Strict
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak OOXML ISO 29500_2008_Strict uyumluluğunu nasıl sağlayacağınızı öğrenin.
-weight: 10
-url: /tr/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak OOXML ISO 29500_2008_Strict uyumluluğunu nasıl sağlayacağınızı öğrenin."
+"linktitle": "Ooxml Uyumluluğu Iso 29500_2008_Strict"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ooxml Uyumluluğu Iso 29500_2008_Strict"
+"url": "/tr/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ooxml Uyumluluğu Iso 29500_2008_Strict
@@ -21,7 +23,7 @@ OOXML ISO 29500_2008_Strict ile belge uyumluluğu dünyasına dalmaya hazır mı
 
 Ayrıntılara girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Değilse, indirin[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Değilse, indirin [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Geliştirme ortamınızı (örneğin Visual Studio) ayarlayın.
 3. Belge Dizini: Word belgelerinizin saklandığı bir dizin hazırlayın.
 
@@ -35,18 +37,18 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Uygulamanın anlaşılırlığını ve kolaylığını sağlamak için süreci anlaşılır adımlara bölelim.
+Netlik ve uygulama kolaylığı sağlamak için süreci anlaşılır adımlara bölelim.
 
 ## Adım 1: Belge Dizinini Ayarlayın
 
-Belgeyle çalışmaya başlamadan önce belge dizininize giden yolu ayarlamamız gerekiyor.
+Belgeyle çalışmaya başlamadan önce, belge dizininize giden yolu ayarlamamız gerekiyor.
 
 ```csharp
 // Belge dizininize giden yol
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Açıklama: Bu kod satırı bir dize değişkeni ayarlar`dataDir` belgelerinizin saklandığı dizine giden yolu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
+Açıklama: Bu kod satırı bir dize değişkeni ayarlar `dataDir` belgelerinizin saklandığı dizine giden yolu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
 
 ## Adım 2: Word Belgenizi Yükleyin
 
@@ -56,7 +58,7 @@ Daha sonra çalışmak istediğiniz Word belgesini yükleyeceğiz.
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Açıklama:`Document` Aspose.Words sınıfı Word belgesini yüklemek için kullanılır. Belge yolu, birleştirme yoluyla oluşturulur`dataDir` belge adı ile`"Document.docx"`Belgenin belirtilen dizinde bulunduğundan emin olun.
+Açıklama: `Document` Aspose.Words sınıfı Word belgesini yüklemek için kullanılır. Belge yolu, birleştirme yoluyla oluşturulur `dataDir` belge adı ile `"Document.docx"`Belgenin belirtilen dizinde bulunduğundan emin olun.
 
 ## Adım 3: Word 2016 için Belgeyi Optimize Edin
 
@@ -66,7 +68,7 @@ Uyumluluğu ve en iyi performansı sağlamak için, belgeyi belirli bir Word sü
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 ```
 
- Açıklama: Bu satır şunu çağırır:`OptimizeFor` yöntem üzerinde`CompatibilityOptions` mülkiyeti`doc` nesne, belirten`MsWordVersion.Word2016` Microsoft Word 2016 için belgeyi optimize etmek.
+Açıklama: Bu satır şunu çağırır: `OptimizeFor` yöntem üzerinde `CompatibilityOptions` mülkiyeti `doc` nesne, belirten `MsWordVersion.Word2016` Microsoft Word 2016 için belgeyi optimize etmek.
 
 ## Adım 4: OOXML Uyumluluğunu ISO 29500_2008_Strict Olarak Ayarlayın
 
@@ -76,7 +78,7 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 ```
 
- Açıklama: Bir örnek oluşturuyoruz`OoxmlSaveOptions` ve ayarla`Compliance`mülk`OoxmlCompliance.Iso29500_2008_Strict`Bu, belgenin ISO 29500_2008_Strict standartlarına uygun olarak kaydedilmesini sağlar.
+Açıklama: Bir örnek oluşturuyoruz `OoxmlSaveOptions` ve ayarla `Compliance` mülk `OoxmlCompliance.Iso29500_2008_Strict`Bu, belgenin ISO 29500_2008_Strict standartlarına uygun olarak kaydedilmesini sağlar.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -86,7 +88,7 @@ Son olarak belgeyi yeni uyumluluk ayarlarıyla kaydedelim.
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx", saveOptions);
 ```
 
- Açıklama:`Save` yöntem çağrılır`doc` belgeyi kaydetmek için nesne. Yol dizini ve yeni dosya adını içerir`"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"` ve şunu kullanır`saveOptions` daha önce yapılandırdık.
+Açıklama: `Save` yöntem çağrılır `doc` belgeyi kaydetmek için nesne. Yol dizini ve yeni dosya adını içerir `"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"`ve şunu kullanır `saveOptions` daha önce yapılandırdık.
 
 ## Çözüm
 
@@ -98,20 +100,25 @@ doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Str
 OOXML uyumluluğu, belgelerinizin Microsoft Word'ün çeşitli sürümleriyle uyumlu olmasını sağlayarak erişilebilirliği ve tutarlılığı artırır.
 
 ### Bu yöntemi diğer uyumluluk seviyeleri için de kullanabilir miyim?
-Evet, uyumluluk seviyelerini değiştirerek farklı uyumluluk seviyeleri belirleyebilirsiniz.`OoxmlCompliance` mülk`OoxmlSaveOptions`.
+Evet, değiştirerek farklı uyumluluk düzeyleri belirleyebilirsiniz. `OoxmlCompliance` mülk `OoxmlSaveOptions`.
 
 ### Belge yolu yanlışsa ne olur?
- Belge yolu yanlışsa,`Document` yapıcı bir şey fırlatacak`FileNotFoundException`. Yolun doğru olduğundan emin olun.
+Belge yolu yanlışsa, `Document` yapıcı bir şey fırlatacak `FileNotFoundException`. Yolun doğru olduğundan emin olun.
 
 ### Word 2016 için optimizasyon yapmam gerekiyor mu?
 Zorunlu olmamakla birlikte, belirli bir Word sürümü için optimizasyon yapmak uyumluluğu ve performansı artırabilir.
 
 ### Aspose.Words for .NET hakkında daha fazla kaynağı nerede bulabilirim?
- Daha fazla kaynak ve belge bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Daha fazla kaynak ve belge bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

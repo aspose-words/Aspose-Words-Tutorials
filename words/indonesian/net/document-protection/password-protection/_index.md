@@ -1,14 +1,16 @@
 ---
-title: Perlindungan Kata Sandi Dalam Dokumen Word
-linktitle: Perlindungan Kata Sandi Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengamankan dokumen Word Anda dengan perlindungan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/document-protection/password-protection/
+"description": "Pelajari cara mengamankan dokumen Word Anda dengan perlindungan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah terperinci ini."
+"linktitle": "Perlindungan Kata Sandi Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Perlindungan Kata Sandi Dalam Dokumen Word"
+"url": "/id/net/document-protection/password-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perlindungan Kata Sandi Dalam Dokumen Word
@@ -21,10 +23,10 @@ Hai! Pernahkah Anda bertanya-tanya bagaimana cara mengamankan dokumen Word dari 
 
 Sebelum kita menyelami seluk-beluk perlindungan kata sandi pada dokumen Word Anda, ada beberapa hal yang Anda perlukan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C#.
-4.  Lisensi Aspose: Dapatkan lisensi dari[Di Sini](https://purchase.aspose.com/buy) atau menggunakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+4. Lisensi Aspose: Dapatkan lisensi dari [Di Sini](https://purchase.aspose.com/buy) atau menggunakan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ## Mengimpor Ruang Nama
 
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 
 Sekarang proyek kita sudah disiapkan, mari buat dokumen Word yang dapat kita lindungi.
 
- Di dalam kamu`Program.cs` file, inisialisasi instance baru dari`Document` Kelas ini mewakili dokumen Word yang akan Anda gunakan.
+Di dalam kamu `Program.cs` file, inisialisasi instance baru dari `Document` Kelas ini mewakili dokumen Word yang akan Anda gunakan.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -70,11 +72,11 @@ Di sinilah keajaiban terjadi. Kami akan menerapkan perlindungan kata sandi pada 
 
 ### Pilih Jenis Perlindungan
 
- Aspose.Words menawarkan berbagai jenis perlindungan, seperti`NoProtection`, `ReadOnly`, `AllowOnlyComments` , Dan`AllowOnlyFormFields`Untuk contoh ini, kita akan menggunakan`NoProtection` tetapi dengan kata sandi, yang pada dasarnya berarti dokumen tersebut dapat diedit tetapi memerlukan kata sandi untuk menghilangkan perlindungan.
+Aspose.Words menawarkan berbagai jenis perlindungan, seperti `NoProtection`Bahasa Indonesia: `ReadOnly`Bahasa Indonesia: `AllowOnlyComments`, Dan `AllowOnlyFormFields`Untuk contoh ini, kita akan menggunakan `NoProtection` tetapi dengan kata sandi, yang pada dasarnya berarti dokumen tersebut dapat diedit tetapi memerlukan kata sandi untuk menghilangkan perlindungan.
 
 ### Terapkan Perlindungan
 
- Gunakan`Protect` metode dari`Document` kelas untuk menerapkan perlindungan kata sandi. 
+Gunakan `Protect` metode dari `Document` kelas untuk menerapkan perlindungan kata sandi. 
 
 ```csharp
 // Terapkan perlindungan dokumen.
@@ -86,7 +88,7 @@ doc.Protect(ProtectionType.NoProtection, "password");
 Terakhir, mari simpan dokumen yang dilindungi ke direktori yang ditentukan.
 
 
- Gunakan`Save` metode untuk menyimpan dokumen Anda. Berikan jalur tempat Anda ingin menyimpan dokumen beserta nama berkasnya.
+Gunakan `Save` metode untuk menyimpan dokumen Anda. Berikan jalur tempat Anda ingin menyimpan dokumen beserta nama berkasnya.
 
 ```csharp
 doc.Save(dataDir + "DocumentProtection.PasswordProtection.docx");
@@ -100,11 +102,11 @@ Nah, itu dia! Anda telah berhasil menambahkan proteksi kata sandi ke dokumen Wor
 
 ### Dapatkah saya menggunakan jenis perlindungan yang berbeda dengan Aspose.Words?
 
-Ya, Aspose.Words mendukung berbagai jenis perlindungan, termasuk`ReadOnly`, `AllowOnlyComments` , Dan`AllowOnlyFormFields`.
+Ya, Aspose.Words mendukung berbagai jenis perlindungan, termasuk `ReadOnly`Bahasa Indonesia: `AllowOnlyComments`, Dan `AllowOnlyFormFields`.
 
 ### Bagaimana cara menghapus proteksi kata sandi dari sebuah dokumen?
 
- Untuk menghapus perlindungan, gunakan`Unprotect` metode dan memberikan kata sandi yang benar.
+Untuk menghapus perlindungan, gunakan `Unprotect` metode dan memberikan kata sandi yang benar.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
 
@@ -112,15 +114,20 @@ Ya, Aspose.Words kompatibel dengan .NET Core, .NET Framework, dan platform .NET 
 
 ### Bisakah saya melindungi dokumen yang sudah ada dengan kata sandi?
 
- Tentu saja! Anda dapat memuat dokumen yang sudah ada menggunakan`Document` kelas dan kemudian menerapkan perlindungan.
+Tentu saja! Anda dapat memuat dokumen yang sudah ada menggunakan `Document` kelas dan kemudian menerapkan perlindungan.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words?
 
- Anda dapat menemukan dokumentasi lebih lanjut di[Halaman dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lebih lanjut di [Halaman dokumentasi Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

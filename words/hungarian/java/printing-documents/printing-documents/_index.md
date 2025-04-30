@@ -1,35 +1,37 @@
 ---
-title: Dokumentumok nyomtatása Aspose.Words for Java nyelven
-linktitle: Dokumentumok nyomtatása
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan nyomtathat dokumentumokat az Aspose.Words for Java használatával. Lépésről lépésre útmutató a zökkenőmentes nyomtatáshoz Java-alkalmazásaiban.
-weight: 10
-url: /hu/java/printing-documents/printing-documents/
+"description": "Tanulja meg, hogyan nyomtathat dokumentumokat az Aspose.Words for Java segítségével. Lépésről lépésre útmutató a zökkenőmentes nyomtatáshoz Java-alkalmazásokban."
+"linktitle": "Dokumentumok nyomtatása"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok nyomtatása Aspose.Words programban Java-ban"
+"url": "/hu/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumok nyomtatása Aspose.Words for Java nyelven
+# Dokumentumok nyomtatása Aspose.Words programban Java-ban
 
 
-Ha az Aspose.Words for Java használatával szeretne dokumentumokat nyomtatni, akkor jó helyen jár. Ebben a lépésenkénti útmutatóban végigvezetjük a dokumentumok Aspose.Words for Java segítségével, a mellékelt forráskód használatával történő nyomtatásának folyamatán.
+Ha az Aspose.Words for Java segítségével szeretne dokumentumokat nyomtatni, jó helyen jár. Ebben a lépésről lépésre bemutatjuk, hogyan nyomtathat dokumentumokat az Aspose.Words for Java segítségével a mellékelt forráskód felhasználásával.
 
 ## Bevezetés
 
-A dokumentumok nyomtatása sok alkalmazásban gyakori feladat. Az Aspose.Words for Java hatékony API-t biztosít a Word-dokumentumokkal való munkavégzéshez, beleértve a nyomtatás lehetőségét is. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a Word-dokumentum nyomtatásának folyamatán.
+dokumentumok nyomtatása gyakori feladat számos alkalmazásban. Az Aspose.Words for Java egy hatékony API-t biztosít a Word-dokumentumokkal való munkához, beleértve a nyomtatási lehetőségüket is. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a Word-dokumentum nyomtatásának folyamatán.
 
-## Környezetének beállítása
+## A környezet beállítása
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve
+- Telepített Java fejlesztőkészlet (JDK)
 - Aspose.Words for Java könyvtár letöltve és hozzáadva a projekthez
 
 ## A dokumentum betöltése
 
- A kezdéshez be kell töltenie a nyomtatni kívánt Word-dokumentumot. Cserélje ki`"Your Document Directory"` a dokumentum elérési útjával és`"Your Output Directory"` a kívánt kimeneti könyvtárral.
+A kezdéshez be kell töltenie a nyomtatni kívánt Word-dokumentumot. Csere `"Your Document Directory"` a dokumentum elérési útjával és `"Your Output Directory"` a kívánt kimeneti könyvtárral.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -39,21 +41,21 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Nyomtatási feladat létrehozása
 
-Ezután létrehozunk egy nyomtatási feladatot a betöltött dokumentumunk kinyomtatásához. Az alábbi kódrészlet inicializálja a nyomtatási feladatot, és beállítja a kívánt nyomtatóbeállításokat.
+Ezután létrehozunk egy nyomtatási feladatot a betöltött dokumentum kinyomtatásához. Az alábbi kódrészlet inicializálja a nyomtatási feladatot, és beállítja a kívánt nyomtatóbeállításokat.
 
 ```java
-// Hozzon létre egy nyomtatási feladatot a dokumentumunk nyomtatásához.
+// Hozz létre egy nyomtatási feladatot a dokumentumunk kinyomtatásához.
 PrinterJob pj = PrinterJob.getPrinterJob();
-// Inicializáljon egy attribútumkészletet a dokumentum oldalainak számával.
+// Inicializáljon egy attribútumkészletet a dokumentumban található oldalak számával.
 PrintRequestAttributeSet attributes = new HashPrintRequestAttributeSet();
 attributes.add(new PageRanges(1, doc.getPageCount()));
-// Adja át a nyomtató beállításait a többi paraméterrel együtt a nyomtatási dokumentumnak.
+// Adja át a nyomtatóbeállításokat a többi paraméterrel együtt a nyomtatandó dokumentumnak.
 MultipagePrintDocument awPrintDoc = new MultipagePrintDocument(doc, 4, true, attributes);
 ```
 
-## A dokumentum kinyomtatása
+## A dokumentum nyomtatása
 
-Most, hogy beállítottuk a nyomtatási feladatunkat, ideje kinyomtatni a dokumentumot. A következő kódrészlet társítja a dokumentumot a nyomtatási feladathoz, és elindítja a nyomtatási folyamatot.
+Most, hogy beállítottuk a nyomtatási feladatot, itt az ideje kinyomtatni a dokumentumot. A következő kódrészlet társítja a dokumentumot a nyomtatási feladathoz, és elindítja a nyomtatási folyamatot.
 
 ```java
 // Adja át a nyomtatandó dokumentumot a nyomtatási feladat segítségével.
@@ -64,12 +66,12 @@ pj.print();
 ```java
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Rendering.docx");
-// Hozzon létre egy nyomtatási feladatot a dokumentumunk nyomtatásához.
+// Hozz létre egy nyomtatási feladatot a dokumentumunk kinyomtatásához.
 PrinterJob pj = PrinterJob.getPrinterJob();
-// Inicializáljon egy attribútumkészletet a dokumentum oldalainak számával.
+// Inicializáljon egy attribútumkészletet a dokumentumban található oldalak számával.
 PrintRequestAttributeSet attributes = new HashPrintRequestAttributeSet();
 attributes.add(new PageRanges(1, doc.getPageCount()));
-// Adja át a nyomtató beállításait a többi paraméterrel együtt a nyomtatási dokumentumnak.
+// Adja át a nyomtatóbeállításokat a többi paraméterrel együtt a nyomtatandó dokumentumnak.
 MultipagePrintDocument awPrintDoc = new MultipagePrintDocument(doc, 4, true, attributes);
 // Adja át a nyomtatandó dokumentumot a nyomtatási feladat segítségével.
 pj.setPrintable(awPrintDoc);
@@ -84,8 +86,8 @@ class MultipagePrintDocument implements Printable
     private final boolean mPrintPageBorders;
     private final AttributeSet mAttributeSet;
     /// <összefoglaló>
-    /// Az egyedi PrintDocument osztály konstruktora.
-    // / </summary>
+    /// Az egyéni PrintDocument osztály konstruktora.
+    /// </összefoglaló> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,64 +98,64 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Az oldal kezdő és záró indexei az attribútumkészletben meghatározottak szerint.
+        // Az oldal kezdő és záró indexei az attribútumkészletben meghatározottak szerint.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
         Dimension thumbCount = getThumbCount(mPagesPerSheet, pf);
-        // Számítsa ki a következő oldalindexet.
+        // Számítsa ki a következőként megjelenítendő oldal indexét.
         int pagesOnCurrentSheet = (int) (page * (thumbCount.getWidth() * thumbCount.getHeight()));
-        // Ha az oldalindex nagyobb, mint a teljes oldaltartomány, akkor nincs semmi
+        // Ha az oldalindex nagyobb, mint a teljes oldaltartomány, akkor nincs semmi.
         // többet kell megjeleníteni.
         if (pagesOnCurrentSheet > (toPage - fromPage))
             return Printable.NO_SUCH_PAGE;
-        // Számítsa ki az egyes miniatűr-helyőrzők méretét pontokban.
+        // Számítsa ki az egyes bélyegkép-helyőrzők méretét pontokban.
         Point2D.Float thumbSize = new Point2D.Float((float) (pf.getImageableWidth() / thumbCount.getWidth()),
                 (float) (pf.getImageableHeight() / thumbCount.getHeight()));
-        // Számítsa ki az erre a papírlapra nyomtatandó első oldal számát.
+        // Számítsd ki az első oldal számát, amelyet erre a papírlapra kell nyomtatni.
         int startPage = pagesOnCurrentSheet + fromPage;
         // Válassza ki az erre a papírlapra nyomtatandó utolsó oldal számát.
         int pageTo = Math.max(startPage + mPagesPerSheet - 1, toPage);
-        // Lapozás a kiválasztott oldalakon a tárolt aktuális oldaltól a számítottig
+        // Végigmegy a kiválasztott oldalakon a tárolt aktuális oldaltól a számított oldalig
         // utolsó oldal.
         for (int pageIndex = startPage; pageIndex <= pageTo; pageIndex++) {
-            // Számítsa ki az oszlop- és sorindexeket!
+            // Számítsd ki az oszlop- és sorindexeket.
             int rowIdx = (int) Math.floor((pageIndex - startPage) / thumbCount.getWidth());
             int columnIdx = (int) Math.floor((pageIndex - startPage) % thumbCount.getWidth());
-            // Határozza meg a miniatűrök helyét a világ koordinátáiban (ebben az esetben pontokban).
+            // Adja meg a miniatűr helyét világkoordinátákban (jelen esetben pontokban).
             float thumbLeft = columnIdx * thumbSize.x;
             float thumbTop = rowIdx * thumbSize.y;
             try {
-                // Számítsa ki a bal és a felső kiindulási helyzetet.
+                // Számítsd ki a bal és a felső kiindulási pozíciókat.
                 int leftPos = (int) (thumbLeft + pf.getImageableX());
                 int topPos = (int) (thumbTop + pf.getImageableY());
-                // Számított koordináták segítségével jelenítse meg a dokumentum oldalát a Graphics objektumnak
-                // és a miniatűr helyőrző mérete.
-                // A hasznos visszatérési érték az a lépték, amelyen az oldal renderelésre került.
+                // A dokumentumoldal renderelése a Grafikus objektumhoz számított koordináták használatával
+                // és a bélyegkép helyőrzőjének mérete.
+                // A hasznos visszatérési érték az a méretarány, amelyben az oldal megjelenítésre került.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Rajzolja meg az oldalszegélyeket (az oldal bélyegképe kisebb lehet, mint a miniatűr
-                // helyőrző mérete).
+                // Rajzolja meg az oldal szegélyeit (az oldal bélyegképe lehet kisebb, mint a bélyegkép)
+                // helyőrző méret).
                 if (mPrintPageBorders) {
-                    // Szerezze meg az oldal valódi 100%-os méretét pontokban.
+                    // A lap valós 100%-os méretét kapod meg pontokban.
                     Point2D.Float pageSize = mDocument.getPageInfo(pageIndex).getSizeInPoints();
-                    // Rajzolja meg a szegélyt a méretezett oldal köré az ismert léptéktényezővel.
+                    // Rajzolja meg a szegélyt a méretezett oldal köré az ismert méretarányt használva.
                     g.setColor(Color.black);
                     g.drawRect(leftPos, topPos, (int) (pageSize.x * scale), (int) (pageSize.y * scale));
-                    // Rajzolja meg a szegélyt az indexkép helyőrzője köré.
+                    // Rajzolj keretet a bélyegkép helyőrzője köré.
                     g.setColor(Color.red);
                     g.drawRect(leftPos, topPos, (int) thumbSize.x, (int) thumbSize.y);
                 }
             } catch (Exception e) {
                 // Ha bármilyen hiba történik a renderelés során, akkor ne tegyen semmit.
-                // Ez üres oldalt rajzol, ha a renderelés során hiba történik.
+                // Ez üres lapot rajzol, ha bármilyen hiba történik a renderelés során.
             }
         }
         return Printable.PAGE_EXISTS;
     }
     private Dimension getThumbCount(int pagesPerSheet, PageFormat pf) {
         Dimension size;
-        // Határozza meg az oszlopok és sorok számát a lapon a
+        // Határozza meg az oszlopok és sorok számát a munkalapon a
         // Fekvő tájolású papír.
         switch (pagesPerSheet) {
             case 16:
@@ -188,36 +190,41 @@ class MultipagePrintDocument implements Printable
 
 ## Következtetés
 
-Gratulálok! Sikeresen kinyomtatott egy Word-dokumentumot az Aspose.Words for Java használatával. Ez a lépésenkénti útmutató segít abban, hogy a dokumentumnyomtatást zökkenőmentesen integrálja Java-alkalmazásaiba.
+Gratulálunk! Sikeresen kinyomtatott egy Word dokumentumot az Aspose.Words for Java segítségével. Ez a lépésről lépésre szóló útmutató segít zökkenőmentesen integrálni a dokumentumnyomtatást a Java alkalmazásokba.
 
 ## GYIK
 
 ### 1. kérdés: Kinyomtathatok egy dokumentum bizonyos oldalait az Aspose.Words for Java használatával?
 
- Igen, dokumentum nyomtatásakor megadhatja az oldaltartományt. A kódpéldában használtuk`attributes.add(new PageRanges(1, doc.getPageCount()))`az összes oldal kinyomtatásához. Igény szerint módosíthatja az oldaltartományt.
+Igen, megadhatja az oldaltartományt egy dokumentum nyomtatásakor. A kódpéldában ezt használtuk `attributes.add(new PageRanges(1, doc.getPageCount()))` az összes oldal kinyomtatásához. Az oldaltartományt szükség szerint módosíthatja.
 
-### 2. kérdés: Az Aspose.Words for Java alkalmas kötegelt nyomtatásra?
+### 2. kérdés: Alkalmas-e az Aspose.Words Java-ban kötegelt nyomtatásra?
 
-Teljesen! Az Aspose.Words for Java kiválóan alkalmas kötegelt nyomtatási feladatokra. Ismételheti a dokumentumok listáját, és egyenként nyomtathatja ki őket hasonló kóddal.
+Abszolút! Az Aspose.Words for Java kiválóan alkalmas kötegelt nyomtatási feladatokra. Végignézhetsz egy dokumentumlistán, és egyenként kinyomtathatod őket hasonló kóddal.
 
 ### 3. kérdés: Hogyan kezelhetem a nyomtatási hibákat vagy kivételeket?
 
-A nyomtatási folyamat során esetlegesen előforduló kivételeket kezelnie kell. A kivételek kezelésével kapcsolatos információkért tekintse meg az Aspose.Words for Java dokumentációját.
+A nyomtatási folyamat során felmerülő esetleges kivételeket kezelnie kell. A kivételek kezelésével kapcsolatos információkért tekintse meg az Aspose.Words for Java dokumentációját.
 
 ### 4. kérdés: Testreszabhatom a nyomtatási beállításokat?
 
-Igen, testreszabhatja a nyomtatási beállításokat, hogy megfeleljenek az egyedi követelményeknek. Fedezze fel az Aspose.Words for Java dokumentációját, hogy többet megtudjon az elérhető nyomtatási lehetőségekről.
+Igen, testreszabhatja a nyomtatási beállításokat az Ön igényei szerint. Az elérhető nyomtatási beállításokról bővebben az Aspose.Words for Java dokumentációjában olvashat.
 
 ### 5. kérdés: Hol kaphatok további segítséget és támogatást az Aspose.Words for Java-hoz?
 
- További támogatásért és segítségért látogassa meg a[Aspose.Words for Java fórum](https://forum.aspose.com/).
+További támogatásért és segítségért látogassa meg a következőt: [Aspose.Words Java fórumhoz](https://forum.aspose.com/).
 
 ---
 
-Most, hogy sikeresen megtanulta, hogyan nyomtathat dokumentumokat az Aspose.Words for Java használatával, megkezdheti ennek a funkciónak a megvalósítását Java-alkalmazásaiban. Boldog kódolást!
+Most, hogy sikeresen megtanultad, hogyan kell dokumentumokat nyomtatni az Aspose.Words for Java használatával, elkezdheted implementálni ezt a funkciót a Java alkalmazásaidban. Jó kódolást!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

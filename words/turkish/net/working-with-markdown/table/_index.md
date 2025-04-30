@@ -1,14 +1,16 @@
 ---
-title: Masa
-linktitle: Masa
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'te tabloların nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Yapılandırılmış ve görsel olarak çekici belgeler oluşturmak için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-markdown/table/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'te tabloların nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Yapılandırılmış ve görsel olarak çekici belgeler oluşturmak için mükemmeldir."
+"linktitle": "Masa"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Masa"
+"url": "/tr/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masa
@@ -22,7 +24,7 @@ Belgelerdeki tablolarla çalışmak yaygın bir gerekliliktir. Raporlar, fatural
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Visual Studio: Kodunuzu yazmak ve test etmek için bir geliştirme ortamına ihtiyacınız var. Visual Studio iyi bir seçimdir.
--  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Eğer yoksa, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Eğer yoksa, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - C# Temel Anlayışı: Takip edebilmek için C# programlamaya dair bir miktar aşinalık gereklidir.
 
 ## Ad Alanlarını İçe Aktar
@@ -76,7 +78,7 @@ builder.InsertCell();
 builder.Writeln("d");
 ```
 
-Burada, tablomuzu basitçe "c" ve "d" ile dolu iki hücreli bir satır daha ekleyerek genişletiyoruz.
+Burada, "c" ve "d" ile dolu iki hücreli bir satır daha ekleyerek tablomuzu genişletiyoruz.
 
 ## Çözüm
 
@@ -85,22 +87,26 @@ Aspose.Words for .NET'te tablolar oluşturmak ve özelleştirmek, bir kez alış
 ## SSS
 
 ### Bir satıra ikiden fazla hücre ekleyebilir miyim?
- Evet, işlemi tekrarlayarak bir satıra ihtiyacınız kadar hücre ekleyebilirsiniz.`InsertCell()` Ve`Writeln()` Yöntemler.
+Evet, işlemi tekrarlayarak bir satıra ihtiyacınız kadar hücre ekleyebilirsiniz. `InsertCell()` Ve `Writeln()` Yöntemler.
 
 ### Bir tablodaki hücreleri nasıl birleştirebilirim?
- Hücreleri birleştirmek için şunu kullanabilirsiniz:`CellFormat.HorizontalMerge` Ve`CellFormat.VerticalMerge` özellikler.
+Hücreleri birleştirmek için şunu kullanabilirsiniz: `CellFormat.HorizontalMerge` Ve `CellFormat.VerticalMerge` özellikler.
 
 ### Tablo hücrelerine resim eklemek mümkün mü?
- Kesinlikle! Hücrelere resim ekleyebilirsiniz.`DocumentBuilder.InsertImage` yöntem.
+Kesinlikle! Hücrelere resim ekleyebilirsiniz. `DocumentBuilder.InsertImage` yöntem.
 
 ### Tek tek hücreleri farklı şekilde biçimlendirebilir miyim?
- Evet, farklı stilleri, bunlara erişmek için tek tek hücrelere uygulayabilirsiniz.`Cells` bir satırın koleksiyonu.
+Evet, farklı stilleri, bunlara erişmek için tek tek hücrelere uygulayabilirsiniz. `Cells` bir satırın koleksiyonu.
 
 ### Tablodan sınırları nasıl kaldırabilirim?
- Kenarlık stilini şu şekilde ayarlayarak kenarlıkları kaldırabilirsiniz:`LineStyle.None` her sınır türü için.
+Kenarlık stilini şu şekilde ayarlayarak kenarlıkları kaldırabilirsiniz: `LineStyle.None` her sınır türü için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

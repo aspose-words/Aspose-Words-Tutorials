@@ -1,14 +1,16 @@
 ---
-title: Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman
-linktitle: Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman, używając Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby usprawnić pliki PDF.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman, używając Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby usprawnić pliki PDF."
+"linktitle": "Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman"
+"url": "/pl/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zoptymalizuj rozmiar pliku PDF, pomijając osadzone czcionki Arial i Times Roman
@@ -20,7 +22,7 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której rozmiar pliku PDF jest p
 ## Wymagania wstępne
 
 Zanim przejdziemy do konkretów, jest kilka rzeczy, których będziesz potrzebować:
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Jeśli nie, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną tę potężną bibliotekę. Jeśli nie, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość języka C#. Ułatwi Ci to śledzenie fragmentów kodu.
 - Dokument Word: Aby zademonstrować proces, skorzystamy z przykładowego dokumentu. 
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- W tym fragmencie kodu zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu dokumentów.
+W tym fragmencie kodu zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do katalogu dokumentów.
 
 ## Krok 3: Skonfiguruj opcje zapisywania pliku PDF
 
@@ -73,7 +75,7 @@ To polecenie zapisuje dokument jako plik PDF o nazwie „OptimizedPDF.pdf” w o
 
 ## Wniosek
 
-masz to! Właśnie nauczyłeś się, jak zoptymalizować rozmiar pliku PDF, pomijając osadzanie czcionek Arial i Times Roman za pomocą Aspose.Words dla .NET. Ta prosta poprawka może znacznie zmniejszyć rozmiary plików, ułatwiając ich udostępnianie i przechowywanie. To jak chodzenie na siłownię po pliki PDF, zrzucanie zbędnej wagi przy jednoczesnym zachowaniu wszystkich niezbędnych elementów.
+I masz to! Właśnie nauczyłeś się, jak zoptymalizować rozmiar pliku PDF, pomijając osadzanie czcionek Arial i Times Roman za pomocą Aspose.Words dla .NET. Ta prosta poprawka może znacznie zmniejszyć rozmiary plików, ułatwiając ich udostępnianie i przechowywanie. To jak chodzenie na siłownię po pliki PDF, zrzucanie zbędnej wagi przy jednoczesnym zachowaniu wszystkich niezbędnych elementów.
 
 ## Najczęściej zadawane pytania
 
@@ -87,13 +89,18 @@ Nie, nie będzie. Ponieważ Arial i Times Roman są standardowymi czcionkami, wy
 Tak, możesz skonfigurować opcje zapisu tak, aby pominąć osadzanie innych czcionek, jeżeli zajdzie taka potrzeba.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać[Tutaj](https://releases.aspose.com/) ale aby uzyskać pełny dostęp, musisz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, którą można pobrać [Tutaj](https://releases.aspose.com/)ale aby uzyskać pełny dostęp, musisz kupić licencję [Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?
-Można znaleźć obszerną dokumentację i samouczki[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć obszerną dokumentację i samouczki [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

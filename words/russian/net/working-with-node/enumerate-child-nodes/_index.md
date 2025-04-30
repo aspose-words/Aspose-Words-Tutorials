@@ -1,14 +1,16 @@
 ---
-title: Перечислить дочерние узлы
-linktitle: Перечислить дочерние узлы
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как перечислить дочерние узлы в документе Word с помощью Aspose.Words для .NET, следуя этому пошаговому руководству.
-weight: 10
-url: /ru/net/working-with-node/enumerate-child-nodes/
+"description": "Узнайте, как перечислить дочерние узлы в документе Word с помощью Aspose.Words для .NET, следуя этому пошаговому руководству."
+"linktitle": "Перечислить дочерние узлы"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Перечислить дочерние узлы"
+"url": "/ru/net/working-with-node/enumerate-child-nodes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Перечислить дочерние узлы
@@ -22,8 +24,8 @@ url: /ru/net/working-with-node/enumerate-child-nodes/
 Прежде чем углубляться в код, давайте рассмотрим основные предварительные условия, обеспечивающие бесперебойную работу:
 
 1. Среда разработки: убедитесь, что у вас установлена Visual Studio или другая совместимая с .NET среда разработки.
-2.  Aspose.Words для .NET: Загрузите библиотеку Aspose.Words для .NET с сайта[страница релиза](https://releases.aspose.com/words/net/).
-3.  Лицензия: получите бесплатную пробную версию или временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words для .NET: Загрузите библиотеку Aspose.Words для .NET с сайта [страница релиза](https://releases.aspose.com/words/net/).
+3. Лицензия: получите бесплатную пробную версию или временную лицензию от [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -91,7 +93,7 @@ foreach (Node child in children)
 
 Перечисление дочерних узлов в документе Word с помощью Aspose.Words для .NET становится простым, как только вы понимаете основные шаги. Инициализируя документ, получая доступ к определенным абзацам, извлекая дочерние узлы и проходя по ним, вы можете легко программно манипулировать документами Word. Aspose.Words предлагает надежный API для обработки различных элементов документа, что делает его незаменимым инструментом для разработчиков .NET.
 
- Для получения более подробной документации и расширенного использования посетите[Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/) . Если вам нужна дополнительная поддержка, ознакомьтесь с[форумы поддержки](https://forum.aspose.com/c/words/8).
+Для получения более подробной документации и расширенного использования посетите [Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/). Если вам нужна дополнительная поддержка, ознакомьтесь с [форумы поддержки](https://forum.aspose.com/c/words/8).
 
 ## Часто задаваемые вопросы
 
@@ -99,20 +101,25 @@ foreach (Node child in children)
 Абзац может содержать такие узлы, как строки, фигуры, комментарии и другие встроенные элементы.
 
 ### Как загрузить существующий документ Word?
- Вы можете загрузить существующий документ, используя`Document doc = new Document("path/to/your/document.docx");`.
+Вы можете загрузить существующий документ, используя `Document doc = new Document("path/to/your/document.docx");`.
 
 ### Могу ли я манипулировать другими типами узлов, помимо Run?
- Да, вы можете управлять различными типами узлов, такими как фигуры, комментарии и т. д., проверяя их`NodeType`.
+Да, вы можете управлять различными типами узлов, такими как фигуры, комментарии и т. д., проверяя их `NodeType`.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Вы можете начать с бесплатной пробной версии или получить временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете начать с бесплатной пробной версии или получить временную лицензию от [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти больше примеров и документации?
- Посетите[Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/)для получения дополнительных примеров и подробной документации.
+Посетите [Документация API Aspose.Words для .NET](https://reference.aspose.com/words/net/) для получения дополнительных примеров и подробной документации.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

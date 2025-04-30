@@ -1,15 +1,16 @@
 ---
-title: Ms Word Sürümünü Ayarla
-linktitle: Ms Word Sürümünü Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı kılavuzumuzla Aspose.Words for .NET kullanarak MS Word sürümlerini nasıl ayarlayacağınızı öğrenin. Belge düzenlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir.
-
-weight: 10
-url: /tr/net/programming-with-loadoptions/set-ms-word-version/
+"description": "Ayrıntılı kılavuzumuzla Aspose.Words for .NET kullanarak MS Word sürümlerini nasıl ayarlayacağınızı öğrenin. Belge düzenlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Ms Word Sürümünü Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ms Word Sürümünü Ayarla"
+"url": "/tr/net/programming-with-loadoptions/set-ms-word-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ms Word Sürümünü Ayarla
@@ -22,10 +23,10 @@ MS Word belgelerinin belirli sürümleriyle çalışmanız gerektiği halde bunu
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun.[Buradan indirin](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. [Buradan indirin](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE'yi kullanabilirsiniz.
-- Temel C# Bilgisi: Bunu basit tutacağız ancak temel C# bilgisine sahip olmak gereklidir.
-- Örnek Belge: Test amaçlı olarak belge dizininizde bir Word belgesi bulundurun.
+- Temel C# Bilgisi: Bunu basit tutacağız ancak temel bir C# anlayışına sahip olmak gereklidir.
+- Örnek Belge: Test amaçlı olarak belge dizininizde bir Word belgesi hazır bulundurun.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -66,7 +67,7 @@ Document doc = new Document(dataDir + "Document.docx", loadOptions);
 
 ## Adım 4: Belgeyi Kaydedin
 
-Son olarak, belgeniz yüklendikten ve istediğiniz düzenlemeler yapıldıktan sonra, onu kaydedersiniz. Bu, Word'de değişiklik yaptıktan sonra kaydet düğmesine basmak gibidir.
+Son olarak, belgeniz yüklendikten ve istediğiniz düzenlemeler yapıldıktan sonra onu kaydedersiniz. Bu, Word'de değişiklik yaptıktan sonra kaydet düğmesine basmak gibidir.
 
 ```csharp
 // Belgeyi kaydet
@@ -80,23 +81,28 @@ Aspose.Words for .NET'te MS Word sürümünü ayarlamak, yönetilebilir adımlar
 ## SSS
 
 ### Word 2010 dışında sürümler ayarlayabilir miyim?
- Evet, Word 2007, Word 2013 vb. gibi farklı sürümleri ayarlayabilirsiniz.`MsWordVersion` mülk.
+Evet, Word 2007, Word 2013 vb. gibi farklı sürümleri ayarlayabilirsiniz. `MsWordVersion` mülk.
 
 ### Aspose.Words .NET Core ile uyumlu mu?
 Kesinlikle! Aspose.Words .NET Framework, .NET Core ve .NET 5+'ı destekler.
 
 ### Aspose.Words'ü kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz deneme sürümünü kullanabilirsiniz, ancak tüm özelliklerden yararlanmak için lisansa ihtiyacınız olacak.[Burada geçici lisans alın](https://purchase.aspose.com/temporary-license/).
+Ücretsiz deneme sürümünü kullanabilirsiniz, ancak tüm özelliklerden yararlanmak için lisansa ihtiyacınız olacak. [Burada geçici lisans alın](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words'ü kullanarak Word belgelerinin diğer özelliklerini değiştirebilir miyim?
 Evet, Aspose.Words Word belgelerinin hemen hemen her yönünü düzenlemenize olanak tanıyan kapsamlı bir kütüphanedir.
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı bilgi için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Daha fazla örnek ve detaylı bilgi için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

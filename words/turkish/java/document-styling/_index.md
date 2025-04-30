@@ -1,14 +1,16 @@
 ---
-title: Belge Stili
-linktitle: Belge Stili
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java eğitimleriyle belge stilini öğrenin. Görsel olarak çekici ve etkili belgeler için gelişmiş biçimlendirme tekniklerini öğrenin.
-weight: 12
-url: /tr/java/document-styling/
+"description": "Aspose.Words for Java eğitimleriyle belge stilini öğrenin. Görsel olarak çekici ve etkili belgeler için gelişmiş biçimlendirme tekniklerini öğrenin."
+"linktitle": "Belge Stili"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Stili"
+"url": "/tr/java/document-styling/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Stili
@@ -39,11 +41,15 @@ Aspose.Words for Java kullanarak belgelerdeki paragrafları ve metinleri nasıl 
 Java için Aspose.Words kullanarak belge temalarını nasıl özelleştireceğinizi öğrenin. Bu kapsamlı kılavuz adım adım talimatlar ve kaynak kodu örnekleri sağlar.
 ### [Belge Filigranlama ve Sayfa Düzeni](./document-watermarking-page-setup/)
 Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
-### [Belge Başlığı ve Alt Bilgisi Biçimlendirmesi](./document-header-footer-styling/)
+### [Belge Başlığı ve Alt Bilgi Biçimlendirmesi](./document-header-footer-styling/)
 Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

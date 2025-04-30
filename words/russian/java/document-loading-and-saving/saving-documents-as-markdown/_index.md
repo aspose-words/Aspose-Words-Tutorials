@@ -1,14 +1,16 @@
 ---
-title: Сохранение документов в формате Markdown в Aspose.Words для Java
-linktitle: Сохранение документов в формате Markdown
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как преобразовать документы Word в Markdown с помощью Aspose.Words для Java. Это пошаговое руководство охватывает выравнивание таблиц, обработку изображений и многое другое.
-weight: 18
-url: /ru/java/document-loading-and-saving/saving-documents-as-markdown/
+"description": "Узнайте, как преобразовать документы Word в Markdown с помощью Aspose.Words для Java. Это пошаговое руководство охватывает выравнивание таблиц, обработку изображений и многое другое."
+"linktitle": "Сохранение документов в формате Markdown"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сохранение документов в формате Markdown в Aspose.Words для Java"
+"url": "/ru/java/document-loading-and-saving/saving-documents-as-markdown/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение документов в формате Markdown в Aspose.Words для Java
@@ -23,7 +25,7 @@ url: /ru/java/document-loading-and-saving/saving-documents-as-markdown/
 Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
--  Библиотека Aspose.Words for Java. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/words/java/).
+- Библиотека Aspose.Words for Java. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/words/java/).
 
 ## Шаг 1: Создание документа Word
 
@@ -47,11 +49,11 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
- В этом примере мы создаем простую таблицу с двумя ячейками и задаем выравнивание абзацев внутри этих ячеек. Затем мы сохраняем документ как Markdown с помощью`MarkdownSaveOptions`.
+В этом примере мы создаем простую таблицу с двумя ячейками и задаем выравнивание абзацев внутри этих ячеек. Затем мы сохраняем документ как Markdown с помощью `MarkdownSaveOptions`.
 
 ## Шаг 2: Настройте выравнивание содержимого таблицы
 
-Aspose.Words for Java позволяет настраивать выравнивание содержимого таблицы при сохранении в формате Markdown. Вы можете выровнять содержимое таблицы по левому краю, правому краю, центру или позволить ему определяться автоматически на основе первого абзаца в каждом столбце таблицы.
+Aspose.Words for Java позволяет вам настраивать выравнивание содержимого таблицы при сохранении в Markdown. Вы можете выровнять содержимое таблицы по левому краю, правому краю, центру или позволить ему определяться автоматически на основе первого абзаца в каждом столбце таблицы.
 
 Вот как настроить выравнивание содержимого таблицы:
 
@@ -68,18 +70,18 @@ doc.save("right_alignment.md", saveOptions);
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-//Установите выравнивание содержимого таблицы на автоматическое (определяется первым абзацем)
+// Установите выравнивание содержимого таблицы на автоматическое (определяется первым абзацем)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
- Изменяя`TableContentAlignment` Свойство позволяет контролировать выравнивание содержимого таблиц при конвертации в Markdown.
+Изменяя `TableContentAlignment` Свойство позволяет контролировать выравнивание содержимого таблиц при конвертации в Markdown.
 
 ## Шаг 3: Обработка изображений
 
- Чтобы включить изображения в документ Markdown, вам необходимо указать папку, в которой находятся изображения. Aspose.Words for Java позволяет вам задать папку с изображениями в`MarkdownSaveOptions`.
+Чтобы включить изображения в документ Markdown, вам необходимо указать папку, в которой находятся изображения. Aspose.Words for Java позволяет вам задать папку с изображениями в `MarkdownSaveOptions`.
 
-Вот как задать папку для изображений и сохранить документ с изображениями:
+Вот как задать папку с изображениями и сохранить документ с изображениями:
 
 ```java
 // Загрузить документ, содержащий изображения
@@ -93,7 +95,7 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
- Обязательно замените`"document_with_images.docx"` с путем к вашему документу Word, содержащему изображения и`"images_folder/"` с фактическим путем к папке, где хранятся ваши изображения.
+Обязательно замените `"document_with_images.docx"` с путем к вашему документу Word, содержащему изображения и `"images_folder/"` с фактическим путем к папке, где хранятся ваши изображения.
 
 ## Полный исходный код для сохранения документов в формате Markdown в Aspose.Words для Java
 
@@ -142,7 +144,7 @@ public void setImagesFolder() throws Exception
 
 ### Как установить Aspose.Words для Java?
 
- Aspose.Words для Java можно установить, включив библиотеку в свой проект Java. Вы можете загрузить библиотеку с[здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации.
+Aspose.Words для Java можно установить, включив библиотеку в свой проект Java. Вы можете загрузить библиотеку с [здесь](https://releases.aspose.com/words/java/) и следуйте инструкциям по установке, приведенным в документации.
 
 ### Можно ли конвертировать сложные документы Word с таблицами и изображениями в Markdown?
 
@@ -150,7 +152,7 @@ public void setImagesFolder() throws Exception
 
 ### Как обрабатывать изображения в файлах Markdown?
 
- Чтобы включить изображения в файлы Markdown, укажите путь к папке с изображениями с помощью`setImagesFolder`метод в`MarkdownSaveOptions`. Убедитесь, что файлы изображений хранятся в указанной папке, и Aspose.Words для Java обработает ссылки на изображения соответствующим образом.
+Чтобы включить изображения в файлы Markdown, укажите путь к папке с изображениями с помощью `setImagesFolder` метод в `MarkdownSaveOptions`. Убедитесь, что файлы изображений хранятся в указанной папке, и Aspose.Words для Java обработает ссылки на изображения соответствующим образом.
 
 ### Доступна ли пробная версия Aspose.Words для Java?
 
@@ -158,10 +160,15 @@ public void setImagesFolder() throws Exception
 
 ### Где я могу найти больше примеров и документации?
 
- Дополнительные примеры, документацию и подробную информацию об Aspose.Words для Java можно найти на сайте[документация](https://reference.aspose.com/words/java/).
+Дополнительные примеры, документацию и подробную информацию об Aspose.Words для Java можно найти на сайте [документация](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

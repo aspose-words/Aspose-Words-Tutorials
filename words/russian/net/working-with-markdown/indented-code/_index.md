@@ -1,14 +1,16 @@
 ---
-title: Отступ кода
-linktitle: Отступ кода
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять и оформлять отступы в блоках кода в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/working-with-markdown/indented-code/
+"description": "Узнайте, как добавлять и оформлять отступы в блоках кода в документах Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Отступ кода"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Отступ кода"
+"url": "/ru/net/working-with-markdown/indented-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Отступ кода
@@ -21,7 +23,7 @@ url: /ru/net/working-with-markdown/indented-code/
 
 Прежде чем мы перейдем к деталям, вам необходимо иметь под рукой несколько вещей:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Вы можете загрузить ее с[сайт](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words. Вы можете загрузить ее с [сайт](https://releases.aspose.com/words/net/).
    
 2. Visual Studio или любая .NET IDE: вам понадобится IDE для написания и выполнения кода. Visual Studio — популярный выбор, но подойдет любая совместимая с .NET IDE.
    
@@ -29,7 +31,7 @@ url: /ru/net/working-with-markdown/indented-code/
 
 4. .NET Framework: убедитесь, что ваш проект настроен на использование .NET Framework, совместимого с Aspose.Words.
 
-5.  Документация Aspose.Words: ознакомьтесь с[Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения дополнительной информации и справочной информации.
+5. Документация Aspose.Words: ознакомьтесь с [Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения дополнительной информации и справочной информации.
 
 Все готово? Отлично! Перейдем к самому интересному.
 
@@ -48,13 +50,13 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Настройте свой документ
 
- Сначала вам нужно создать новый документ или загрузить существующий. Этот шаг включает в себя инициализацию`Document` объект, который послужит основой для вашей работы.
+Сначала вам нужно создать новый документ или загрузить существующий. Этот шаг включает в себя инициализацию `Document` объект, который послужит основой для вашей работы.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-Здесь мы создаем новый документ и используем`DocumentBuilder` чтобы начать добавлять контент.
+Здесь мы создаем новый документ и используем `DocumentBuilder` чтобы начать добавлять контент.
 
 ## Шаг 2: Определите пользовательский стиль
 
@@ -89,10 +91,10 @@ builder.Writeln("This is an indented code block.");
 ## Часто задаваемые вопросы
 
 ### Можно ли изменить отступ блока кода?  
- Да, вы можете изменить`LeftIndent` свойство стиля увеличивать или уменьшать отступ.
+Да, вы можете изменить `LeftIndent` свойство стиля увеличивать или уменьшать отступ.
 
 ### Как изменить шрифт, используемый для блока кода?  
- Вы можете установить`Font.Name` свойство любому моноширинному шрифту по вашему выбору, например «Courier New» или «Consolas».
+Вы можете установить `Font.Name` свойство любому моноширинному шрифту по вашему выбору, например «Courier New» или «Consolas».
 
 ### Можно ли добавить несколько блоков кода с разными стилями?  
 Конечно! Вы можете определить несколько стилей с разными именами и применять их к различным блокам кода по мере необходимости.
@@ -102,9 +104,14 @@ builder.Writeln("This is an indented code block.");
 
 ### Как открыть сохраненный документ после его создания?  
 Вы можете открыть документ с помощью любого текстового процессора, например Microsoft Word или совместимого программного обеспечения, чтобы просмотреть оформленное содержимое.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

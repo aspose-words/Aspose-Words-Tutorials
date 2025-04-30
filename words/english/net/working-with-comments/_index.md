@@ -7,8 +7,11 @@ weight: 50
 url: /net/working-with-comments/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Comments
@@ -24,9 +27,13 @@ In these tutorials, you will learn various aspects of Words Processing with comm
 | [Add Remove Comment Reply](./add-remove-comment-reply/) | Learn how to add and remove comment replies in Word documents using Aspose.Words for .NET. Enhance your document collaboration with this step-by-step guide. |
 | [Comment Resolved And Replies](./comment-resolved-and-replies/) | Automate resolving and replying to comments in Word documents with Aspose.Words for .NET. Step-by-step guide included. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

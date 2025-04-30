@@ -1,14 +1,16 @@
 ---
-title: Обработка слов с верхними и нижними колонтитулами
-linktitle: Обработка слов с верхними и нижними колонтитулами
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как работать с верхними и нижними колонтитулами в документах Word с помощью Aspose.Words для .NET. Полные руководства и практические примеры.
-weight: 730
-url: /ru/net/working-with-headers-and-footers/
+"description": "Узнайте, как работать с верхними и нижними колонтитулами в документах Word с помощью Aspose.Words для .NET. Полные руководства и практические примеры."
+"linktitle": "Обработка слов с верхними и нижними колонтитулами"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Обработка слов с верхними и нижними колонтитулами"
+"url": "/ru/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка слов с верхними и нижними колонтитулами
@@ -18,13 +20,18 @@ url: /ru/net/working-with-headers-and-footers/
 
 
  ## Учебники
-| Заголовок | Описание |
+| Название | Описание |
 | --- | --- |
 | [Создать верхний колонтитул](./create-header-footer/) | Узнайте, как создавать верхние и нижние колонтитулы в документах Word с помощью Aspose.Words для .NET. Настройте верхние и нижние колонтитулы для каждой страницы. |
-| [Копировать верхние и нижние колонтитулы из предыдущего раздела](./copy-headers-footers-from-previous-section/) | Узнайте, как копировать верхние и нижние колонтитулы из предыдущего раздела в документы Word с помощью Aspose.Words для .NET. |
+| [Копировать верхние и нижние колонтитулы из предыдущего раздела](./copy-headers-footers-from-previous-section/) Узнайте, как копировать верхние и нижние колонтитулы из предыдущего раздела в документы Word с помощью Aspose.Words для .NET. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-properties/get-variables/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Variables
@@ -124,9 +127,13 @@ Yes, you can integrate Aspose.Words into web applications, desktop applications,
 Check out the [Aspose.Words documentation](https://reference.aspose.com/words/net/) for more examples and detailed guides.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

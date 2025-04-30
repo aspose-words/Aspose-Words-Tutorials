@@ -1,14 +1,16 @@
 ---
-title: Kierunek tekstu dokumentu
-linktitle: Kierunek tekstu dokumentu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić kierunek tekstu dokumentu w programie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do obsługi języków pisanych od prawej do lewej.
-weight: 10
-url: /pl/net/programming-with-txtloadoptions/document-text-direction/
+"description": "Dowiedz się, jak ustawić kierunek tekstu dokumentu w programie Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do obsługi języków pisanych od prawej do lewej."
+"linktitle": "Kierunek tekstu dokumentu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Kierunek tekstu dokumentu"
+"url": "/pl/net/programming-with-txtloadoptions/document-text-direction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kierunek tekstu dokumentu
@@ -21,9 +23,9 @@ Podczas pracy z dokumentami Word, zwłaszcza tymi zawierającymi wiele języków
 
 Zanim zagłębimy się w kod, upewnij się, że masz następujące elementy:
 
--  Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/words/net/).
 - Visual Studio: środowisko programistyczne do pisania i wykonywania kodu C#.
-- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, ponieważ będziemy pisać kod.
+- Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie przydatna, ponieważ będziemy pisać kod.
 
 ## Importuj przestrzenie nazw
 
@@ -44,27 +46,27 @@ Najpierw ustaw ścieżkę do miejsca, w którym znajduje się Twój dokument. Je
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
 
 ## Krok 2: Utwórz TxtLoadOptions z ustawieniem kierunku dokumentu
 
- Następnie musisz utworzyć instancję`TxtLoadOptions` i ustawiłem`DocumentDirection` Właściwość. Informuje Aspose.Words, jak obsługiwać kierunek tekstu w dokumencie.
+Następnie musisz utworzyć instancję `TxtLoadOptions` i ustawiłem `DocumentDirection` Właściwość. Informuje Aspose.Words, jak obsługiwać kierunek tekstu w dokumencie.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DocumentDirection = DocumentDirection.Auto };
 ```
 
- W tym przykładzie używamy`DocumentDirection.Auto` aby Aspose.Words automatycznie określiło kierunek na podstawie zawartości.
+W tym przykładzie używamy `DocumentDirection.Auto` aby Aspose.Words automatycznie określiło kierunek na podstawie zawartości.
 
 ## Krok 3: Załaduj dokument
 
- Teraz załaduj dokument za pomocą`Document` klasa i wcześniej zdefiniowane`loadOptions`.
+Teraz załaduj dokument za pomocą `Document` klasa i wcześniej zdefiniowane `loadOptions`.
 
 ```csharp
 Document doc = new Document(dataDir + "Hebrew text.txt", loadOptions);
 ```
 
- Tutaj,`"Hebrew text.txt"` jest nazwą twojego pliku tekstowego. Upewnij się, że ten plik istnieje w twoim określonym katalogu.
+Tutaj, `"Hebrew text.txt"` jest nazwą twojego pliku tekstowego. Upewnij się, że ten plik istnieje w twoim określonym katalogu.
 
 ## Krok 4: Dostęp i sprawdzenie dwukierunkowego formatowania akapitu
 
@@ -85,7 +87,7 @@ Na koniec zapisz dokument, aby zastosować i zapisać zmiany.
 doc.Save(dataDir + "WorkingWithTxtLoadOptions.DocumentTextDirection.docx");
 ```
 
- Tutaj,`"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` jest nazwą pliku wyjściowego. Upewnij się, że wybierzesz nazwę odzwierciedlającą zmiany, które wprowadziłeś.
+Tutaj, `"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` jest nazwą pliku wyjściowego. Upewnij się, że wybierzesz nazwę odzwierciedlającą zmiany, które wprowadziłeś.
 
 ## Wniosek
 
@@ -93,28 +95,33 @@ Ustawianie kierunku tekstu w dokumentach Word to prosty proces dzięki Aspose.Wo
 
 ## Najczęściej zadawane pytania
 
-###  Co to jest`DocumentDirection` property used for?
+### Co to jest `DocumentDirection` nieruchomość wykorzystana do?
 
- Ten`DocumentDirection` nieruchomość w`TxtLoadOptions` określa kierunek tekstu w dokumencie. Można go ustawić na`DocumentDirection.Auto`, `DocumentDirection.LeftToRight` , Lub`DocumentDirection.RightToLeft`.
+Ten `DocumentDirection` nieruchomość w `TxtLoadOptions` określa kierunek tekstu w dokumencie. Można go ustawić na `DocumentDirection.Auto`, `DocumentDirection.LeftToRight`, Lub `DocumentDirection.RightToLeft`.
 
 ### Czy mogę ustawić kierunek tekstu dla konkretnych akapitów, a nie dla całego dokumentu?
 
- Tak, możesz ustawić kierunek tekstu dla konkretnych akapitów za pomocą`ParagraphFormat.Bidi` nieruchomość, ale`TxtLoadOptions.DocumentDirection` Właściwość ustawia domyślny kierunek dla całego dokumentu.
+Tak, możesz ustawić kierunek tekstu dla konkretnych akapitów za pomocą `ParagraphFormat.Bidi` nieruchomość, ale `TxtLoadOptions.DocumentDirection` Właściwość ustawia domyślny kierunek dla całego dokumentu.
 
-###  Jakie formaty plików są obsługiwane do ładowania za pomocą`TxtLoadOptions`?
+### Jakie formaty plików są obsługiwane do ładowania za pomocą `TxtLoadOptions`?
 
-`TxtLoadOptions` jest używany głównie do ładowania plików tekstowych (.txt). W przypadku innych formatów plików należy używać innych klas, takich jak`DocLoadOptions` Lub`DocxLoadOptions`.
+`TxtLoadOptions` jest używany głównie do ładowania plików tekstowych (.txt). W przypadku innych formatów plików należy używać innych klas, takich jak `DocLoadOptions` Lub `DocxLoadOptions`.
 
 ### Jak radzić sobie z dokumentami zawierającymi mieszane kierunki tekstu?
 
- W przypadku dokumentów z mieszanymi kierunkami tekstu może być konieczne formatowanie na podstawie akapitu. Użyj`ParagraphFormat.Bidi` właściwość umożliwiająca dostosowanie kierunku każdego akapitu według potrzeb.
+W przypadku dokumentów z mieszanymi kierunkami tekstu może być konieczne formatowanie na podstawie akapitu. Użyj `ParagraphFormat.Bidi` właściwość umożliwiająca dostosowanie kierunku każdego akapitu według potrzeb.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
 
- Więcej szczegółów znajdziesz tutaj[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) . Możesz również zapoznać się z dodatkowymi zasobami, takimi jak[Link do pobrania](https://releases.aspose.com/words/net/), [Kupić](https://purchase.aspose.com/buy), [Bezpłatna wersja próbna](https://releases.aspose.com/), [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) , I[Wsparcie](https://forum.aspose.com/c/words/8).
+Więcej szczegółów znajdziesz tutaj [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/). Możesz również zapoznać się z dodatkowymi zasobami, takimi jak [Link do pobrania](https://releases.aspose.com/words/net/), [Kupić](https://purchase.aspose.com/buy), [Bezpłatna wersja próbna](https://releases.aspose.com/), [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/), I [Wsparcie](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Bảng tác vụ của Tiện ích mở rộng Web
-linktitle: Sử dụng Bảng tác vụ của Tiện ích mở rộng Web
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm và cấu hình Bảng tác vụ mở rộng web trong tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "Tìm hiểu cách thêm và cấu hình Bảng tác vụ mở rộng web trong tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Sử dụng Bảng tác vụ của Tiện ích mở rộng Web"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sử dụng Bảng tác vụ của Tiện ích mở rộng Web"
+"url": "/vi/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Bảng tác vụ của Tiện ích mở rộng Web
@@ -21,10 +23,10 @@ Chào mừng bạn đến với hướng dẫn chuyên sâu này về cách sử
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển .NET: Visual Studio hoặc bất kỳ IDE nào khác mà bạn thích.
 - Kiến thức cơ bản về C#: Điều này sẽ giúp bạn theo dõi các ví dụ về mã.
--  Giấy phép cho Aspose.Words: Bạn có thể mua một[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+- Giấy phép cho Aspose.Words: Bạn có thể mua một [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -48,7 +50,7 @@ Trước tiên, chúng ta cần thiết lập đường dẫn đến thư mục 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ### Bước 2: Tạo một tài liệu mới
 
@@ -58,7 +60,7 @@ Tiếp theo, chúng ta sẽ tạo một tài liệu Word mới bằng Aspose.Wor
 Document doc = new Document();
 ```
 
- Dòng này khởi tạo một phiên bản mới của`Document` lớp biểu diễn một tài liệu Word.
+Dòng này khởi tạo một phiên bản mới của `Document` lớp đại diện cho một tài liệu Word.
 
 ### Bước 3: Thêm ngăn tác vụ
 
@@ -69,7 +71,7 @@ TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- Ở đây, chúng ta tạo ra một cái mới`TaskPane` đối tượng và thêm nó vào tài liệu`WebExtensionTaskPanes` bộ sưu tập.
+Ở đây, chúng ta tạo ra một cái mới `TaskPane` đối tượng và thêm nó vào tài liệu `WebExtensionTaskPanes` bộ sưu tập.
 
 ### Bước 4: Cấu hình ngăn tác vụ
 
@@ -96,7 +98,7 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`là mã định danh duy nhất cho tiện ích mở rộng web.
+- `Id` là mã định danh duy nhất cho tiện ích mở rộng web.
 - `Version` chỉ rõ phiên bản của phần mở rộng.
 - `StoreType` biểu thị loại cửa hàng (trong trường hợp này là OMEX).
 - `Store` chỉ định mã ngôn ngữ/văn hóa của cửa hàng.
@@ -109,7 +111,7 @@ Bạn có thể thêm thuộc tính vào tiện ích mở rộng web của mình
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- Ở đây, chúng ta thêm một thuộc tính có tên`mailchimpCampaign`.
+Ở đây, chúng ta thêm một thuộc tính có tên `mailchimpCampaign`.
 
 ### Bước 7: Liên kết tiện ích mở rộng web
 
@@ -161,19 +163,24 @@ Và thế là xong! Bạn đã thêm và cấu hình thành công Web Extension 
 Ngăn tác vụ là một thành phần giao diện cung cấp các công cụ và chức năng bổ sung trong tài liệu Word, nâng cao khả năng tương tác và năng suất của người dùng.
 
 ### Tôi có thể tùy chỉnh giao diện của Ngăn tác vụ không?
- Có, bạn có thể tùy chỉnh giao diện của Ngăn tác vụ bằng cách thiết lập các thuộc tính như`DockState`, `IsVisible` , Và`Width`.
+Có, bạn có thể tùy chỉnh giao diện của Ngăn tác vụ bằng cách thiết lập các thuộc tính như `DockState`, `IsVisible`, Và `Width`.
 
 ### Thuộc tính mở rộng web là gì?
 Thuộc tính tiện ích mở rộng web là thuộc tính tùy chỉnh mà bạn có thể thêm vào tiện ích mở rộng web để xác định hành vi hoặc nội dung của tiện ích mở rộng đó.
 
 ### Làm thế nào để liên kết Tiện ích mở rộng Web với một phần của tài liệu?
- Bạn có thể liên kết một Tiện ích mở rộng Web với một phần của tài liệu bằng cách sử dụng`WebExtensionBinding` lớp, chỉ định loại liên kết và ID mục tiêu.
+Bạn có thể liên kết một Tiện ích mở rộng Web với một phần của tài liệu bằng cách sử dụng `WebExtensionBinding` lớp, chỉ định loại liên kết và ID mục tiêu.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

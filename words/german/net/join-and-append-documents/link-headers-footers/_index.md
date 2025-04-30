@@ -1,28 +1,30 @@
 ---
-title: Link-Kopfzeilen-Fußzeilen
-linktitle: Link-Kopfzeilen-Fußzeilen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie Kopf- und Fußzeilen zwischen Dokumenten in Aspose.Words für .NET verknüpfen. Sorgen Sie mühelos für Konsistenz und Formatierungsintegrität.
-weight: 10
-url: /de/net/join-and-append-documents/link-headers-footers/
+"description": "Erfahren Sie, wie Sie Kopf- und Fußzeilen zwischen Dokumenten in Aspose.Words für .NET verknüpfen. Sorgen Sie mühelos für Konsistenz und Formatierungsintegrität."
+"linktitle": "Link-Kopfzeilen-Fußzeilen"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Link-Kopfzeilen-Fußzeilen"
+"url": "/de/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Link-Kopfzeilen-Fußzeilen
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie Kopf- und Fußzeilen zwischen Dokumenten mithilfe von Aspose.Words für .NET verknüpfen. Mit dieser Funktion können Sie Konsistenz und Kontinuität über mehrere Dokumente hinweg aufrechterhalten, indem Sie Kopf- und Fußzeilen effektiv synchronisieren.
+In diesem Tutorial erfahren Sie, wie Sie Kopf- und Fußzeilen zwischen Dokumenten mit Aspose.Words für .NET verknüpfen. Diese Funktion ermöglicht Ihnen, Konsistenz und Kontinuität über mehrere Dokumente hinweg sicherzustellen, indem Sie Kopf- und Fußzeilen effektiv synchronisieren.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 - Visual Studio mit Aspose.Words für .NET installiert.
-- Grundkenntnisse der C#-Programmierung und des .NET-Frameworks.
+- Grundkenntnisse in C#-Programmierung und .NET-Framework.
 - Zugriff auf Ihr Dokumentverzeichnis, in dem Ihre Quell- und Zieldokumente gespeichert sind.
 
 ## Namespaces importieren
@@ -37,7 +39,7 @@ Lassen Sie uns den Prozess in klare Schritte unterteilen:
 
 ## Schritt 1: Dokumente laden
 
- Laden Sie zunächst die Quell- und Zieldokumente in`Document` Objekte:
+Laden Sie zunächst die Quell- und Zieldokumente in `Document` Objekte:
 
 ```csharp
 // Pfad zu Ihrem Dokumentverzeichnis
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Schritt 2: Abschnittsanfang festlegen
 
- Um sicherzustellen, dass das angehängte Dokument auf einer neuen Seite beginnt, konfigurieren Sie die`SectionStart` Eigenschaft des ersten Abschnitts des Quelldokuments:
+Um sicherzustellen, dass das angehängte Dokument auf einer neuen Seite beginnt, konfigurieren Sie die `SectionStart` Eigenschaft des ersten Abschnitts des Quelldokuments:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -57,7 +59,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 
 ## Schritt 3: Kopf- und Fußzeilen verknüpfen
 
-Verknüpfen Sie die Kopf- und Fußzeilen im Quelldokument mit dem vorherigen Abschnitt im Zieldokument. Dieser Schritt stellt sicher, dass die Kopf- und Fußzeilen aus dem Quelldokument angewendet werden, ohne vorhandene im Zieldokument zu überschreiben:
+Verknüpfen Sie die Kopf- und Fußzeilen des Quelldokuments mit dem vorherigen Abschnitt im Zieldokument. Dieser Schritt stellt sicher, dass die Kopf- und Fußzeilen des Quelldokuments übernommen werden, ohne vorhandene im Zieldokument zu überschreiben:
 
 ```csharp
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(true);
@@ -89,19 +91,24 @@ Das Verknüpfen von Kopf- und Fußzeilen zwischen Dokumenten mit Aspose.Words f�
 Ja, Aspose.Words verarbeitet verschiedene Layouts nahtlos und behält die Integrität von Kopf- und Fußzeilen bei.
 
 ### Hat das Verknüpfen von Kopf- und Fußzeilen Auswirkungen auf andere Formatierungen in den Dokumenten?
-Nein, das Verknüpfen von Kopf- und Fußzeilen wirkt sich nur auf die angegebenen Abschnitte aus, andere Inhalte und Formatierungen bleiben unverändert.
+Nein, das Verknüpfen von Kopf- und Fußzeilen wirkt sich nur auf die angegebenen Abschnitte aus, andere Inhalte und Formatierungen bleiben erhalten.
 
 ### Ist Aspose.Words mit allen Versionen von .NET kompatibel?
 Aspose.Words unterstützt verschiedene Versionen von .NET Framework und .NET Core und gewährleistet so plattformübergreifende Kompatibilität.
 
-### Kann ich die Verknüpfung von Kopf- und Fußzeilen nach der Verlinkung wieder aufheben?
+### Kann ich die Verknüpfung von Kopf- und Fußzeilen nach dem Verknüpfen wieder aufheben?
 Ja, Sie können die Verknüpfung von Kopf- und Fußzeilen mithilfe der API-Methoden von Aspose.Words aufheben, um die Formatierung einzelner Dokumente wiederherzustellen.
 
 ### Wo finde ich ausführlichere Dokumentation zu Aspose.Words für .NET?
- Besuchen[Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) für umfassende Anleitungen und API-Referenzen.
+Besuchen [Aspose.Words für .NET-Dokumentation](https://reference.aspose.com/words/net/) für umfassende Anleitungen und API-Referenzen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

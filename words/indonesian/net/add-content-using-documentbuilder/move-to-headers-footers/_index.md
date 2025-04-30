@@ -1,14 +1,16 @@
 ---
-title: Pindah Ke Header dan Footer Di Dokumen Word
-linktitle: Pindah Ke Header dan Footer Di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memindahkan header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan pembuatan dokumen Anda.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/move-to-headers-footers/
+"description": "Pelajari cara memindahkan header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan pembuatan dokumen Anda."
+"linktitle": "Pindah Ke Header dan Footer Di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pindah Ke Header dan Footer Di Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/move-to-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pindah Ke Header dan Footer Di Dokumen Word
@@ -21,9 +23,9 @@ Jika berbicara tentang membuat dan mengelola dokumen Word secara terprogram, Asp
 
 Sebelum kita masuk ke kode, mari pastikan Anda sudah menyiapkan semuanya:
 
-1. **Aspose.Words for .NET** : Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
-2. **Development Environment**Anda memerlukan lingkungan pengembangan seperti Visual Studio.
-3. **Basic Knowledge of C#**Memahami dasar-dasar pemrograman C# akan membantu Anda mengikutinya.
+1. **Aspose.Words untuk .NET**: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
+2. **Lingkungan Pengembangan**Anda memerlukan lingkungan pengembangan seperti Visual Studio.
+3. **Pengetahuan Dasar C#**Memahami dasar-dasar pemrograman C# akan membantu Anda mengikutinya.
 
 ## Mengimpor Ruang Nama
 
@@ -49,14 +51,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pada langkah ini, Anda membuat instance baru dari`Document` kelas dan`DocumentBuilder` kelas. Itu`dataDir` Variabel digunakan untuk menentukan direktori tempat Anda ingin menyimpan dokumen.
+Pada langkah ini, Anda membuat instance baru dari `Document` kelas dan `DocumentBuilder` kelas. Itu `dataDir` Variabel digunakan untuk menentukan direktori tempat Anda ingin menyimpan dokumen.
 
 ## Langkah 2: Konfigurasikan Pengaturan Halaman
 
 Berikutnya, kita perlu menentukan bahwa header dan footer harus berbeda untuk halaman pertama, genap, dan ganjil.
 
 ```csharp
-//Tentukan bahwa kita menginginkan header dan footer yang berbeda untuk halaman pertama, genap, dan ganjil.
+// Tentukan bahwa kita menginginkan header dan footer yang berbeda untuk halaman pertama, genap, dan ganjil.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 ```
@@ -77,7 +79,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Header for all other pages");
 ```
 
- Pada langkah ini, kami menggunakan`MoveToHeaderFooter` metode untuk menavigasi ke bagian header atau footer yang diinginkan.`Write` Metode ini kemudian digunakan untuk menambahkan teks ke bagian ini.
+Pada langkah ini, kami menggunakan `MoveToHeaderFooter` metode untuk menavigasi ke bagian header atau footer yang diinginkan. `Write` Metode ini kemudian digunakan untuk menambahkan teks ke bagian ini.
 
 ## Langkah 4: Tambahkan Konten ke Isi Dokumen
 
@@ -105,7 +107,7 @@ Baris kode ini menyimpan dokumen dengan nama "AddContentUsingDocumentBuilder.Mov
 
 ## Kesimpulan
 
- Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memanipulasi header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini membahas dasar-dasarnya, tetapi Aspose.Words menawarkan berbagai fungsi untuk manipulasi dokumen yang lebih kompleks. Jangan ragu untuk menjelajahi[dokumentasi](https://reference.aspose.com/words/net/) untuk fitur yang lebih canggih.
+Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memanipulasi header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial ini membahas dasar-dasarnya, tetapi Aspose.Words menawarkan berbagai fungsi untuk manipulasi dokumen yang lebih kompleks. Jangan ragu untuk menjelajahi [dokumentasi](https://reference.aspose.com/words/net/) untuk fitur yang lebih canggih.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -113,20 +115,25 @@ Baris kode ini menyimpan dokumen dengan nama "AddContentUsingDocumentBuilder.Mov
 Aspose.Words untuk .NET adalah pustaka yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram menggunakan C#.
 
 ### Bisakah saya menambahkan gambar ke header dan footer?
- Ya, Anda dapat menambahkan gambar ke header dan footer menggunakan`DocumentBuilder.InsertImage` metode.
+Ya, Anda dapat menambahkan gambar ke header dan footer menggunakan `DocumentBuilder.InsertImage` metode.
 
 ### Apakah mungkin untuk memiliki header dan footer yang berbeda untuk setiap bagian?
- Tentu saja! Anda dapat memiliki header dan footer unik untuk setiap bagian dengan menyiapkan header dan footer yang berbeda.`HeaderFooterType` untuk setiap bagian.
+Tentu saja! Anda dapat memiliki header dan footer unik untuk setiap bagian dengan menyiapkan header dan footer yang berbeda. `HeaderFooterType` untuk setiap bagian.
 
 ### Bagaimana cara membuat tata letak yang lebih kompleks di header dan footer?
 Anda dapat menggunakan tabel, gambar, dan berbagai opsi pemformatan yang disediakan oleh Aspose.Words untuk membuat tata letak yang rumit.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan tutorial?
- Lihat di sini[dokumentasi](https://reference.aspose.com/words/net/) dan[forum dukungan](https://forum.aspose.com/c/words/8) untuk lebih banyak contoh dan dukungan komunitas.
+Lihat di sini [dokumentasi](https://reference.aspose.com/words/net/) dan [forum dukungan](https://forum.aspose.com/c/words/8) untuk lebih banyak contoh dan dukungan komunitas.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

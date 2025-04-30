@@ -1,14 +1,16 @@
 ---
-title: Liệt kê các thuộc tính
-linktitle: Liệt kê các thuộc tính
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách liệt kê các thuộc tính trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng.
-weight: 10
-url: /vi/net/programming-with-document-properties/enumerate-properties/
+"description": "Tìm hiểu cách liệt kê các thuộc tính trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng."
+"linktitle": "Liệt kê các thuộc tính"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Liệt kê các thuộc tính"
+"url": "/vi/net/programming-with-document-properties/enumerate-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liệt kê các thuộc tính
@@ -21,7 +23,7 @@ Bạn đang muốn làm việc với các tài liệu Word theo chương trình?
 
 Trước khi đi sâu vào hướng dẫn, bạn cần chuẩn bị một số thứ sau để bắt đầu:
 
--  Aspose.Words cho .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Khuyến khích sử dụng Visual Studio, nhưng bạn có thể sử dụng bất kỳ IDE C# nào.
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn theo dõi.
 
@@ -49,7 +51,7 @@ using Aspose.Words.Properties;
 Tiếp theo, hãy tải tài liệu Word mà bạn muốn làm việc. Đối với ví dụ này, chúng tôi sẽ sử dụng một tài liệu có tên "Properties.docx" nằm trong thư mục dự án của bạn.
 
 1. Xác định đường dẫn tài liệu: Xác định đường dẫn đến tài liệu của bạn.
-2.  Tải Tài liệu: Sử dụng Aspose.Words`Document` lớp để tải tài liệu.
+2. Tải Tài liệu: Sử dụng Aspose.Words `Document` lớp để tải tài liệu.
 
 Đây là mã:
 
@@ -71,7 +73,7 @@ Console.WriteLine("1. Document name: {0}", doc.OriginalFileName);
 
 Thuộc tính tích hợp là thuộc tính siêu dữ liệu được Microsoft Word xác định trước. Bao gồm tiêu đề, tác giả và nhiều thông tin khác.
 
-1.  Truy cập Thuộc tính tích hợp: Sử dụng`BuiltInDocumentProperties` bộ sưu tập.
+1. Truy cập Thuộc tính tích hợp: Sử dụng `BuiltInDocumentProperties` bộ sưu tập.
 2. Lặp qua các thuộc tính: Lặp qua các thuộc tính và hiển thị tên và giá trị của chúng.
 
 Đây là mã:
@@ -87,7 +89,7 @@ foreach (DocumentProperty prop in doc.BuiltInDocumentProperties)
 
 Thuộc tính tùy chỉnh là thuộc tính siêu dữ liệu do người dùng xác định. Đây có thể là bất kỳ thứ gì bạn muốn thêm vào tài liệu của mình.
 
-1.  Truy cập Thuộc tính Tùy chỉnh: Sử dụng`CustomDocumentProperties` bộ sưu tập.
+1. Truy cập Thuộc tính Tùy chỉnh: Sử dụng `CustomDocumentProperties` bộ sưu tập.
 2. Lặp qua các thuộc tính: Lặp qua các thuộc tính và hiển thị tên và giá trị của chúng.
 
 Đây là mã:
@@ -106,23 +108,28 @@ Và bạn đã có nó! Bạn đã liệt kê thành công cả thuộc tính t�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm thuộc tính mới vào tài liệu không?
- Có, bạn có thể thêm các thuộc tính tùy chỉnh mới bằng cách sử dụng`CustomDocumentProperties` bộ sưu tập.
+Có, bạn có thể thêm các thuộc tính tùy chỉnh mới bằng cách sử dụng `CustomDocumentProperties` bộ sưu tập.
 
 ### Aspose.Words có miễn phí sử dụng không?
- Aspose.Words cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) và khác nhau[tùy chọn mua hàng](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) và khác nhau [tùy chọn mua hàng](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
 
 ### Tôi có thể sử dụng Aspose.Words với các ngôn ngữ .NET khác không?
 Có, Aspose.Words hỗ trợ nhiều ngôn ngữ .NET bao gồm VB.NET.
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Kiểm tra các[Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm ví dụ và thông tin chi tiết.
+Kiểm tra các [Aspose.Words cho tài liệu .NET](https://reference.aspose.com/words/net/) để biết thêm ví dụ và thông tin chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Lấy lại loại chiều rộng ưa thích
-linktitle: Lấy lại loại chiều rộng ưa thích
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lấy kiểu chiều rộng ưa thích của ô bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-tables/retrieve-preferred-width-type/
+"description": "Tìm hiểu cách lấy kiểu chiều rộng ưa thích của ô trong bảng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Lấy lại loại chiều rộng ưa thích"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Lấy lại loại chiều rộng ưa thích"
+"url": "/vi/net/programming-with-tables/retrieve-preferred-width-type/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy lại loại chiều rộng ưa thích
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để lấy loại chiều rộn
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn sẽ cần một IDE như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn.
-4.  Tài liệu mẫu: Chuẩn bị sẵn một tài liệu Word có bảng biểu mà bạn có thể làm việc. Bạn có thể sử dụng bất kỳ tài liệu nào, nhưng chúng tôi sẽ gọi là`Tables.docx` trong hướng dẫn này.
+4. Tài liệu mẫu: Chuẩn bị sẵn một tài liệu Word có bảng biểu mà bạn có thể làm việc. Bạn có thể sử dụng bất kỳ tài liệu nào, nhưng chúng tôi sẽ gọi là `Tables.docx` trong hướng dẫn này.
 
 ## Nhập không gian tên
 
@@ -41,11 +43,11 @@ using Aspose.Words.Tables;
 Trước khi thao tác với tài liệu, chúng ta cần chỉ định thư mục chứa tài liệu. Đây là bước đơn giản nhưng cần thiết.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Điều này cho chương trình biết nơi tìm tệp chúng ta muốn làm việc.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn. Điều này cho chương trình biết nơi tìm tệp chúng ta muốn làm việc.
 
 ## Bước 2: Tải tài liệu
 
@@ -55,7 +57,7 @@ Tiếp theo, chúng ta tải tài liệu Word vào ứng dụng của mình. Đi
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Dòng mã này mở`Tables.docx` tài liệu từ thư mục đã chỉ định. Bây giờ, tài liệu của chúng ta đã sẵn sàng cho các hoạt động tiếp theo.
+Dòng mã này mở `Tables.docx` tài liệu từ thư mục đã chỉ định. Bây giờ, tài liệu của chúng ta đã sẵn sàng cho các hoạt động tiếp theo.
 
 ## Bước 3: Truy cập Bảng
 
@@ -75,7 +77,7 @@ Dòng này lấy bảng đầu tiên từ tài liệu. Nếu tài liệu của b
 table.AllowAutoFit = true;
 ```
 
- Cài đặt`AllowAutoFit` ĐẾN`true` đảm bảo các cột trong bảng thay đổi kích thước dựa trên nội dung của chúng, mang lại cảm giác năng động cho bảng của chúng ta.
+Cài đặt `AllowAuĐẾNFit` to `true` đảm bảo các cột trong bảng thay đổi kích thước dựa trên nội dung của chúng, mang lại cảm giác năng động cho bảng của chúng ta.
 
 ## Bước 5: Lấy Kiểu Chiều Rộng Ưa Thích của Ô Đầu Tiên
 
@@ -87,7 +89,7 @@ PreferredWidthType type = firstCell.CellFormat.PreferredWidth.Type;
 double value = firstCell.CellFormat.PreferredWidth.Value;
 ```
 
- Những dòng mã này truy cập vào ô đầu tiên trong hàng đầu tiên của bảng và lấy loại chiều rộng và giá trị ưa thích của ô đó.`PreferredWidthType` có thể là`Auto`, `Percent` , hoặc`Point`, cho biết cách xác định chiều rộng.
+Những dòng mã này truy cập vào ô đầu tiên trong hàng đầu tiên của bảng và lấy loại chiều rộng và giá trị ưa thích của ô đó. `PreferredWidthType` có thể là `Auto`, `Percent`, hoặc `Point`, cho biết cách xác định chiều rộng.
 
 ## Bước 6: Hiển thị kết quả
 
@@ -110,13 +112,13 @@ Và bạn đã có nó! Việc lấy loại chiều rộng ưa thích của các
 
 Có, bạn có thể lặp qua từng ô trong bảng và lấy riêng từng kiểu chiều rộng ưa thích của ô đó.
 
-###  Những giá trị có thể có cho là gì?`PreferredWidthType`?
+### Những giá trị có thể có cho là gì? `PreferredWidthType`?
 
-`PreferredWidthType` có thể là`Auto`, `Percent` , hoặc`Point`.
+`PreferredWidthType` có thể là `Auto`, `Percent`, hoặc `Point`.
 
 ### Có thể thiết lập kiểu chiều rộng ưa thích theo chương trình không?
 
- Chắc chắn rồi! Bạn có thể thiết lập loại chiều rộng và giá trị ưa thích bằng cách sử dụng`PreferredWidth` tài sản của`CellFormat` lớp học.
+Chắc chắn rồi! Bạn có thể thiết lập loại chiều rộng và giá trị ưa thích bằng cách sử dụng `PreferredWidth` tài sản của `CellFormat` lớp học.
 
 ### Tôi có thể sử dụng phương pháp này cho các bảng trong các tài liệu khác ngoài Word không?
 
@@ -124,10 +126,15 @@ Hướng dẫn này đặc biệt đề cập đến các tài liệu Word. Đ�
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
 
- Có, Aspose.Words for .NET là sản phẩm được cấp phép. Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/) hoặc giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose.Words for .NET là sản phẩm được cấp phép. Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/) hoặc giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

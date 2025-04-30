@@ -1,14 +1,16 @@
 ---
-title: Konwertuj metapliki do PNG
-linktitle: Konwertuj metapliki do PNG
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Łatwo konwertuj metapliki do PNG w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Uprość zarządzanie dokumentami.
-weight: 10
-url: /pl/net/programming-with-loadoptions/convert-metafiles-to-png/
+"description": "Łatwo konwertuj metapliki do PNG w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Uprość zarządzanie dokumentami."
+"linktitle": "Konwertuj metapliki do PNG"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj metapliki do PNG"
+"url": "/pl/net/programming-with-loadoptions/convert-metafiles-to-png/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj metapliki do PNG
@@ -21,7 +23,7 @@ Konwersja metaplików do PNG w dokumentach Word może być dziecinnie prosta dzi
 
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET — pobierz najnowszą wersję z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET — pobierz najnowszą wersję z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne - Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 3. Podstawowa znajomość języka C# - Przydatna będzie znajomość podstaw programowania w języku C#.
 4. Dokument Word — upewnij się, że masz dokument Word zawierający pliki meta, które chcesz przekonwertować.
@@ -88,23 +90,28 @@ Gratulacje! Udało Ci się przekonwertować metapliki do PNG w dokumencie Word p
 ## Często zadawane pytania
 
 ### Czy oprócz metaplików mogę konwertować inne typy plików do formatu PNG?
- Aspose.Words dla .NET zapewnia szerokie wsparcie dla różnych formatów plików. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej szczegółów.
+Aspose.Words dla .NET zapewnia szerokie wsparcie dla różnych formatów plików. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) po więcej szczegółów.
 
 ### Czy istnieje sposób na przetwarzanie wsadowe wielu dokumentów?
 Tak, można przeglądać katalog dokumentów i stosować te same opcje ładowania do każdego pliku.
 
-###  Co się stanie, jeśli nie ustawię`ConvertMetafilesToPng` to true?
+### Co się stanie, jeśli nie ustawię `ConvertMetafilesToPng` do prawdy?
 Metapliki pozostaną w swoim oryginalnym formacie, który może nie być zgodny ze wszystkimi aplikacjami lub urządzeniami.
 
 ### Czy potrzebuję licencji na Aspose.Words dla .NET?
- Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach próbnych.
+Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach próbnych.
 
 ### Czy mogę użyć tej metody do innych formatów graficznych, np. JPEG lub GIF?
- Ta konkretna metoda jest przeznaczona dla metaplików, ale Aspose.Words dla .NET obsługuje różne formaty obrazów. Zapoznaj się z[dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej informacji.
+Ta konkretna metoda jest przeznaczona dla metaplików, ale Aspose.Words dla .NET obsługuje różne formaty obrazów. Zapoznaj się z [dokumentacja](https://reference.aspose.com/words/net/) Aby uzyskać więcej informacji.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

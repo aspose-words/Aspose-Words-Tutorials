@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-security/document-encryption-decryption/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Encryption and Decryption
@@ -108,9 +111,13 @@ It's important to remember that document encryption is a valuable security measu
 By following the steps outlined in this tutorial, you can enhance the security of your Java applications and protect sensitive information within your documents effectively.
 
 Aspose.Words for Java simplifies the process of document manipulation and security, empowering developers to create robust applications that meet their document processing needs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

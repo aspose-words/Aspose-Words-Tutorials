@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh nhãn dữ liệu biểu đồ
-linktitle: Tùy chỉnh nhãn dữ liệu biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tùy chỉnh nhãn dữ liệu biểu đồ bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/programming-with-charts/chart-data-label/
+"description": "Tìm hiểu cách tùy chỉnh nhãn dữ liệu biểu đồ bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Tùy chỉnh nhãn dữ liệu biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tùy chỉnh nhãn dữ liệu biểu đồ"
+"url": "/vi/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh nhãn dữ liệu biểu đồ
@@ -23,9 +25,9 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 1. Visual Studio: Cài đặt Visual Studio 2019 trở lên.
 2. .NET Framework: Đảm bảo bạn có .NET Framework 4.0 trở lên.
-3.  Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ[liên kết tải xuống](https://releases.aspose.com/words/net/).
+3. Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ [liên kết tải xuống](https://releases.aspose.com/words/net/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
-5.  Giấy phép hợp lệ: Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua một cái từ[mua liên kết](https://purchase.aspose.com/buy).
+5. Giấy phép hợp lệ: Có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc mua một cái từ [mua liên kết](https://purchase.aspose.com/buy).
 
 ## Nhập không gian tên
 
@@ -40,7 +42,7 @@ using Aspose.Words.Charts;
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
-Để tạo và thao tác các tài liệu Word, trước tiên chúng ta cần khởi tạo một phiên bản của`Document` lớp và một`DocumentBuilder` sự vật.
+Để tạo và thao tác các tài liệu Word, trước tiên chúng ta cần khởi tạo một phiên bản của `Document` lớp và một `DocumentBuilder` sự vật.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -57,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Chèn biểu đồ
 
- Tiếp theo, chúng ta sẽ chèn biểu đồ thanh vào tài liệu bằng cách sử dụng`DocumentBuilder` sự vật.
+Tiếp theo, chúng ta sẽ chèn biểu đồ thanh vào tài liệu bằng cách sử dụng `DocumentBuilder` sự vật.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -121,7 +123,7 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ## Phần kết luận
 
- Xin chúc mừng! Bạn đã tùy chỉnh thành công nhãn dữ liệu biểu đồ bằng Aspose.Words cho .NET. Thư viện này cung cấp giải pháp mạnh mẽ để xử lý tài liệu Word theo chương trình, giúp các nhà phát triển dễ dàng tạo các ứng dụng xử lý tài liệu tinh vi và năng động. Khám phá[tài liệu](https://reference.aspose.com/words/net/) để khám phá thêm nhiều tính năng và khả năng hơn.
+Xin chúc mừng! Bạn đã tùy chỉnh thành công nhãn dữ liệu biểu đồ bằng Aspose.Words cho .NET. Thư viện này cung cấp giải pháp mạnh mẽ để xử lý tài liệu Word theo chương trình, giúp các nhà phát triển dễ dàng tạo các ứng dụng xử lý tài liệu tinh vi và năng động. Khám phá [tài liệu](https://reference.aspose.com/words/net/) để khám phá thêm nhiều tính năng và khả năng hơn.
 
 ## Câu hỏi thường gặp
 
@@ -129,20 +131,25 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 Aspose.Words for .NET là một thư viện xử lý tài liệu mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi tài liệu Word theo cách lập trình.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống và cài đặt nó từ[liên kết tải xuống](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống và cài đặt nó từ [liên kết tải xuống](https://releases.aspose.com/words/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET miễn phí không?
- Vâng, bạn có thể nhận được một[dùng thử miễn phí](https://releases.aspose.com/) hoặc một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)để đánh giá sản phẩm.
+Vâng, bạn có thể nhận được một [dùng thử miễn phí](https://releases.aspose.com/) hoặc một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.
 
 ### Aspose.Words cho .NET có tương thích với .NET Core không?
 Có, Aspose.Words cho .NET tương thích với .NET Core, .NET Standard và .NET Framework.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được cộng đồng và các chuyên gia Aspose giúp đỡ và hỗ trợ.
+Bạn có thể ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được cộng đồng và các chuyên gia Aspose giúp đỡ và hỗ trợ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

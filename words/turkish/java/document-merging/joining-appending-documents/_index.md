@@ -1,14 +1,16 @@
 ---
-title: Belgeleri Birleştirme ve Ekleme
-linktitle: Belgeleri Birleştirme ve Ekleme
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ü kullanarak belgeleri nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Verimli belge düzenleme için kod örnekleriyle adım adım kılavuz.
-weight: 11
-url: /tr/java/document-merging/joining-appending-documents/
+"description": "Java için Aspose.Words'ü kullanarak belgeleri nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Verimli belge düzenleme için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Belgeleri Birleştirme ve Ekleme"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri Birleştirme ve Ekleme"
+"url": "/tr/java/document-merging/joining-appending-documents/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri Birleştirme ve Ekleme
@@ -22,8 +24,8 @@ Aspose.Words for Java, DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çeşi
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.Words for Java kütüphanesi. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/java/).
+- Sisteminizde Java Development Kit (JDK) yüklü.
+- Aspose.Words for Java kütüphanesi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/java/).
 
 ## Adım 1: Java Projenizi Kurma
 
@@ -45,7 +47,7 @@ public class DocumentJoiner {
 }
 ```
 
- Değiştirdiğinizden emin olun`"Aspose.Words.Java.lic"` lisans dosyanızın yolunu içeren.
+Değiştirdiğinizden emin olun `"Aspose.Words.Java.lic"` lisans dosyanızın yolunu içeren.
 
 ## Adım 3: Belgeleri Yükleme
 
@@ -59,14 +61,14 @@ Document doc2 = new Document("document2.docx");
 
 ## Adım 4: Belgeleri Birleştirme
 
- Artık belgelerimiz yüklendiğine göre, bunları nasıl birleştireceğimize bakalım. Bu örnekte, birleştireceğiz`doc2` sonuna kadar`doc1`:
+Artık belgelerimiz yüklendiğine göre, bunları nasıl birleştireceğimize bakalım. Bu örnekte, birleştireceğiz `doc2` sonuna kadar `doc1`:
 
 ```java
 // Belgeleri birleştir
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
- The`ImportFormatMode.KEEP_SOURCE_FORMATTING` seçeneği kaynak belgelerin biçimlendirmesinin korunmasını sağlar.
+The `ImportFormatMode.KEEP_SOURCE_FORMATTING` seçeneği kaynak belgelerin biçimlendirmesinin korunmasını sağlar.
 
 ## Adım 5: Sonucun Kaydedilmesi
 
@@ -85,11 +87,11 @@ Tebrikler! Aspose.Words for Java kullanarak belgeleri birleştirmeyi ve eklemeyi
 
 ### Java için Aspose.Words'ü nasıl yüklerim?
 
- Aspose.Words for Java'yı yüklemek basittir. Bunu Aspose web sitesinden indirebilirsiniz[Burada](https://releases.aspose.com/words/java/)Ticari kullanım için gerekli lisansa sahip olduğunuzdan emin olun.
+Aspose.Words for Java'yı yüklemek basittir. Bunu Aspose web sitesinden indirebilirsiniz [Burada](https://releases.aspose.com/words/java/)Ticari kullanım için gerekli lisansa sahip olduğunuzdan emin olun.
 
-### Aspose.Words for Java'yı kullanarak ikiden fazla belgeyi birleştirebilir miyim?
+### Aspose.Words for Java kullanarak ikiden fazla belgeyi birleştirebilir miyim?
 
- Evet, birden fazla belgeyi, bunları kullanarak sırayla ekleyerek birleştirebilirsiniz.`appendDocument` Örnekte gösterildiği gibi bir yöntem.
+Evet, birden fazla belgeyi, bunları kullanarak sırayla ekleyerek birleştirebilirsiniz. `appendDocument` Örnekte gösterildiği gibi bir yöntem.
 
 ### Aspose.Words büyük ölçekli belge işleme için uygun mudur?
 
@@ -101,10 +103,15 @@ Aspose.Words güçlü belge düzenleme yetenekleri sunsa da, optimum performans�
 
 ### Aspose.Words for Java'yı kullanmak için lisans ücreti ödemem gerekir mi?
 
- Evet, Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektirir. Lisansı Aspose web sitesinden alabilirsiniz[Java için Aspose.Words belgeleri](https://reference.aspose.com/words/java/)
+Evet, Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektirir. Lisansı Aspose web sitesinden alabilirsiniz [Java için Aspose.Words belgeleri](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

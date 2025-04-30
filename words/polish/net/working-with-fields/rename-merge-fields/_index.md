@@ -1,14 +1,16 @@
 ---
-title: Zmień nazwę pól scalania
-linktitle: Zmień nazwę pól scalania
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zmienić nazwy pól scalania w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby łatwo manipulować dokumentami.
-weight: 10
-url: /pl/net/working-with-fields/rename-merge-fields/
+"description": "Dowiedz się, jak zmienić nazwy pól scalania w dokumentach Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby łatwo manipulować dokumentami."
+"linktitle": "Zmień nazwę pól scalania"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmień nazwę pól scalania"
+"url": "/pl/net/working-with-fields/rename-merge-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień nazwę pól scalania
@@ -21,7 +23,7 @@ Zmiana nazw pól scalania w dokumentach Word może być trudnym zadaniem, jeśli
 
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z platformą .NET.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna.
 
@@ -53,9 +55,9 @@ builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 ```
 
- Tutaj tworzymy nowy dokument i używamy`DocumentBuilder` klasa służąca do wstawiania dwóch pól scalania:`MyMergeField1` I`MyMergeField2`.
+Tutaj tworzymy nowy dokument i używamy `DocumentBuilder` klasa służąca do wstawiania dwóch pól scalania: `MyMergeField1` I `MyMergeField2`.
 
-## Krok 2: Przejrzyj pola i zmień ich nazwy
+## Krok 2: Przejdź przez pola i zmień ich nazwy
 
 Teraz napiszmy kod, aby znaleźć i zmienić nazwy pól scalania. Przejdziemy przez wszystkie pola w dokumencie, sprawdzimy, czy są to pola scalania i zmienimy ich nazwy.
 
@@ -72,7 +74,7 @@ foreach (Field f in doc.Range.Fields)
 }
 ```
 
- W tym fragmencie kodu używamy`foreach` pętla do iterowania przez wszystkie pola w dokumencie. Dla każdego pola sprawdzamy, czy jest to pole scalone, używając`f.Type == FieldType.FieldMergeField` . Jeśli tak, to rzutujemy to na`FieldMergeField` i dodaj`_Renamed` do swojej nazwy.
+W tym fragmencie kodu używamy `foreach` pętla do iterowania przez wszystkie pola w dokumencie. Dla każdego pola sprawdzamy, czy jest to pole scalone, używając `f.Type == FieldType.FieldMergeField`. Jeśli tak, to rzutujemy to na `FieldMergeField` i dodaj `_Renamed` do swojej nazwy.
 
 ## Krok 3: Zapisz dokument
 
@@ -83,7 +85,7 @@ Na koniec zapiszmy nasz dokument ze zmienionymi nazwami pól scalania.
 doc.Save(dataDir + "WorkingWithFields.RenameMergeFields.docx");
 ```
 
- Ta linia kodu zapisuje dokument w określonym katalogu pod nazwą`WorkingWithFields.RenameMergeFields.docx`.
+Ta linia kodu zapisuje dokument w określonym katalogu pod nazwą `WorkingWithFields.RenameMergeFields.docx`.
 
 ## Wniosek
 
@@ -101,18 +103,23 @@ Jeśli pole scalania nie istnieje, kod po prostu je pomija. Nie zostaną zgłosz
 
 ### Czy mogę zmienić prefiks zamiast dodawać go do nazwy?
 
- Tak, możesz zmodyfikować`mergeField.FieldName` przypisanie, aby ustawić dowolną wartość.
+Tak, możesz zmodyfikować `mergeField.FieldName` przypisanie, aby ustawić dowolną wartość.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
 
- Aspose.Words dla .NET jest produktem komercyjnym, ale można użyć[bezpłatny okres próbny](https://releases.aspose.com/) aby to ocenić.
+Aspose.Words dla .NET jest produktem komercyjnym, ale można użyć [bezpłatny okres próbny](https://releases.aspose.com/) aby to ocenić.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

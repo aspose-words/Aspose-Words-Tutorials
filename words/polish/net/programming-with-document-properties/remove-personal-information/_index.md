@@ -1,14 +1,16 @@
 ---
-title: Usuń informacje osobiste
-linktitle: Usuń informacje osobiste
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak usuwać informacje osobiste z dokumentów za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami.
-weight: 10
-url: /pl/net/programming-with-document-properties/remove-personal-information/
+"description": "Dowiedz się, jak usuwać informacje osobiste z dokumentów za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Uprość zarządzanie dokumentami."
+"linktitle": "Usuń informacje osobiste"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń informacje osobiste"
+"url": "/pl/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń informacje osobiste
@@ -21,7 +23,7 @@ Cześć! Czy zdarzyło Ci się kiedyś tonąć w zadaniach związanych z zarząd
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz[Tutaj](https://releases.aspose.com/words/net/) . Możesz również złapać[bezpłatny okres próbny](https://releases.aspose.com/) jeśli dopiero zaczynasz.
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz [Tutaj](https://releases.aspose.com/words/net/). Możesz również złapać [bezpłatny okres próbny](https://releases.aspose.com/) jeśli dopiero zaczynasz.
 2. Środowisko programistyczne: Visual Studio lub inne preferowane środowisko programistyczne .NET.
 3. Podstawowa znajomość języka C#: Nie musisz być czarodziejem, ale odrobina znajomości języka może okazać się pomocna.
 
@@ -78,11 +80,11 @@ masz to! W zaledwie kilku prostych krokach usunęliśmy dane osobowe z dokumentu
 
 ### Jakie dane osobowe można usunąć?
 
-Dane osobowe obejmują nazwiska autorów, właściwości dokumentu i inne metadane, które mogą identyfikować twórcę dokumentu.
+Informacje osobiste obejmują nazwiska autorów, właściwości dokumentu i inne metadane, które mogą identyfikować twórcę dokumentu.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
 
- Aspose.Words oferuje[bezpłatny okres próbny](https://releases.aspose.com/) więc możesz to przetestować, ale będziesz musiał kupić licencję, aby uzyskać pełną funkcjonalność. Sprawdź[wycena](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.
+Aspose.Words oferuje [bezpłatny okres próbny](https://releases.aspose.com/) więc możesz to przetestować, ale będziesz musiał kupić licencję, aby uzyskać pełną funkcjonalność. Sprawdź [wycena](https://purchase.aspose.com/buy) po więcej szczegółów.
 
 ### Czy mogę używać Aspose.Words w innych formatach dokumentów?
 
@@ -90,14 +92,19 @@ Oczywiście! Aspose.Words obsługuje wiele formatów, w tym DOCX, PDF, HTML i in
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
 
- Możesz odwiedzić Aspose.Words[forum wsparcia](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub pytań.
+Możesz odwiedzić Aspose.Words [forum wsparcia](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub pytań.
 
 ### Jakie inne funkcje oferuje Aspose.Words?
 
-Aspose.Words jest pełen funkcji. Możesz tworzyć, edytować, konwertować i manipulować dokumentami na wiele sposobów. Aby uzyskać pełną listę, sprawdź[dokumentacja](https://reference.aspose.com/words/net/).
+Aspose.Words jest pełen funkcji. Możesz tworzyć, edytować, konwertować i manipulować dokumentami na wiele sposobów. Aby uzyskać pełną listę, sprawdź [dokumentacja](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 12
 url: /java/document-merging/comparing-documents-for-differences/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comparing Documents for Differences
@@ -162,9 +165,13 @@ Yes, Aspose.Words allows you to customize how revisions are displayed, such as h
 ### Is this feature available in other programming languages?  
 Yes, Aspose.Words supports multiple languages, including .NET and Python.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

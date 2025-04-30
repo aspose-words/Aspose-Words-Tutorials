@@ -1,14 +1,16 @@
 ---
-title: โต๊ะ
-linktitle: โต๊ะ
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีสร้างและปรับแต่งตารางใน Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างเอกสารที่มีโครงสร้างและน่าสนใจ
-weight: 10
-url: /th/net/working-with-markdown/table/
+"description": "เรียนรู้วิธีสร้างและปรับแต่งตารางใน Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างเอกสารที่มีโครงสร้างและน่าสนใจ"
+"linktitle": "โต๊ะ"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โต๊ะ"
+"url": "/th/net/working-with-markdown/table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โต๊ะ
@@ -22,7 +24,7 @@ url: /th/net/working-with-markdown/table/
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
 - Visual Studio: คุณต้องมีสภาพแวดล้อมการพัฒนาเพื่อเขียนและทดสอบโค้ดของคุณ Visual Studio เป็นตัวเลือกที่ดี
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words แล้ว หากยังไม่มี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ต้องมีความคุ้นเคยกับการเขียนโปรแกรม C# ในระดับหนึ่งจึงจะทำตามได้
 
 ## นำเข้าเนมสเปซ
@@ -85,22 +87,26 @@ builder.Writeln("d");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถเพิ่มเซลล์มากกว่าสองเซลล์ในแถวเดียวกันได้ไหม
- ใช่ คุณสามารถเพิ่มเซลล์ได้มากเท่าที่คุณต้องการในแถวโดยทำซ้ำ`InsertCell()` และ`Writeln()` วิธีการ
+ใช่ คุณสามารถเพิ่มเซลล์ได้มากเท่าที่คุณต้องการในแถวโดยทำซ้ำ `InsertCell()` และ `Writeln()` วิธีการ
 
 ### ฉันจะรวมเซลล์ในตารางได้อย่างไร?
- คุณสามารถรวมเซลล์ได้โดยใช้`CellFormat.HorizontalMerge` และ`CellFormat.VerticalMerge` คุณสมบัติ.
+คุณสามารถรวมเซลล์ได้โดยใช้ `CellFormat.HorizontalMerge` และ `CellFormat.VerticalMerge` คุณสมบัติ.
 
 ### สามารถเพิ่มรูปภาพลงในเซลล์ตารางได้หรือไม่?
- แน่นอน! คุณสามารถแทรกภาพลงในเซลล์ได้โดยใช้`DocumentBuilder.InsertImage` วิธี.
+แน่นอน! คุณสามารถแทรกภาพลงในเซลล์ได้โดยใช้ `DocumentBuilder.InsertImage` วิธี.
 
 ### ฉันสามารถกำหนดรูปแบบเซลล์แต่ละเซลล์แตกต่างกันได้หรือไม่
- ใช่ คุณสามารถใช้รูปแบบต่างๆ กับเซลล์แต่ละเซลล์ได้โดยเข้าถึงเซลล์เหล่านั้นผ่านทาง`Cells` การรวบรวมของแถว
+ใช่ คุณสามารถใช้รูปแบบต่างๆ กับเซลล์แต่ละเซลล์ได้โดยเข้าถึงเซลล์เหล่านั้นผ่านทาง `Cells` การรวบรวมของแถว
 
 ### ฉันจะลบขอบออกจากตารางได้อย่างไร
- คุณสามารถลบขอบได้โดยการตั้งค่ารูปแบบขอบเป็น`LineStyle.None` สำหรับประเภทเส้นขอบแต่ละประเภท
+คุณสามารถลบขอบได้โดยการตั้งค่ารูปแบบขอบเป็น `LineStyle.None` สำหรับประเภทเส้นขอบแต่ละประเภท
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

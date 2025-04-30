@@ -1,14 +1,16 @@
 ---
-title: Xóa phần
-linktitle: Xóa phần
-second_title: API xử lý tài liệu Aspose.Words
-description: Làm chủ thao tác tài liệu với Aspose.Words cho .NET. Tìm hiểu cách xóa các phần khỏi tài liệu Word chỉ trong vài bước đơn giản.
-weight: 10
-url: /vi/net/working-with-section/delete-section/
+"description": "Làm chủ thao tác tài liệu với Aspose.Words cho .NET. Tìm hiểu cách xóa các phần khỏi tài liệu Word chỉ trong vài bước đơn giản."
+"linktitle": "Xóa phần"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa phần"
+"url": "/vi/net/working-with-section/delete-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa phần
@@ -23,7 +25,7 @@ Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ m
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Bạn có thể sử dụng bất kỳ phiên bản nào, nhưng phiên bản mới nhất luôn được khuyến nghị.
 2. .NET Framework: Aspose.Words hỗ trợ .NET Framework 2.0 trở lên. Đảm bảo bạn đã cài đặt.
-3. Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/).
+3. Aspose.Words cho .NET: Tải xuống và cài đặt Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/).
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ rất có lợi.
 
 ## Nhập không gian tên
@@ -56,7 +58,7 @@ doc.FirstSection.Remove();
 
 ## Phần kết luận
 
- Thao tác các tài liệu Word theo chương trình có thể giúp bạn tiết kiệm rất nhiều thời gian và công sức. Với Aspose.Words cho .NET, các tác vụ như xóa các phần trở nên dễ dàng. Hãy nhớ khám phá các[tài liệu](https://reference.aspose.com/words/net/) để mở khóa nhiều tính năng mạnh mẽ hơn nữa. Chúc bạn viết mã vui vẻ!
+Thao tác các tài liệu Word theo chương trình có thể giúp bạn tiết kiệm rất nhiều thời gian và công sức. Với Aspose.Words cho .NET, các tác vụ như xóa các phần trở nên dễ dàng. Hãy nhớ khám phá các [tài liệu](https://reference.aspose.com/words/net/) để mở khóa nhiều tính năng mạnh mẽ hơn nữa. Chúc bạn viết mã vui vẻ!
 
 ## Câu hỏi thường gặp
 
@@ -64,7 +66,7 @@ doc.FirstSection.Remove();
 Có, bạn có thể. Chỉ cần lặp qua các phần bạn muốn xóa và xóa từng phần một.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể nhận được[đây](https://releases.aspose.com/) Để có đầy đủ tính năng, bạn cần phải mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cung cấp bản dùng thử miễn phí mà bạn có thể nhận được [đây](https://releases.aspose.com/). Để có đầy đủ tính năng, bạn cần phải mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể hoàn tác việc xóa một phần không?
 Sau khi bạn đã xóa một phần và lưu tài liệu, bạn không thể hoàn tác. Hãy đảm bảo giữ bản sao lưu của tài liệu gốc.
@@ -73,10 +75,15 @@ Sau khi bạn đã xóa một phần và lưu tài liệu, bạn không thể ho
 Chắc chắn rồi! Aspose.Words hỗ trợ nhiều định dạng khác nhau bao gồm DOCX, PDF, HTML, v.v.
 
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

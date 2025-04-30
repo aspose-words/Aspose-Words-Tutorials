@@ -1,14 +1,16 @@
 ---
-title: Обработка таблиц стала проще
-linktitle: Обработка таблиц
-second_title: API обработки документов Java Aspose.Words
-description: Изучите мощный API обработки таблиц для разработчиков Java с помощью Aspose.Word для Java. Создавайте, изменяйте и форматируйте таблицы в документах Word. Улучшите свои приложения обработки документов сегодня.
-weight: 11
-url: /ru/java/table-processing/
+"description": "Изучите мощный API обработки таблиц для разработчиков Java с помощью Aspose.Word для Java. Создавайте, изменяйте и форматируйте таблицы в документах Word. Улучшите свои приложения обработки документов сегодня."
+"linktitle": "Обработка таблиц"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Обработка таблиц стала проще"
+"url": "/ru/java/table-processing/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка таблиц стала проще
@@ -45,9 +47,13 @@ Aspose.Words для Java предоставляет полный набор API 
 Освойте искусство форматирования таблиц в документах с помощью Aspose.Words для Java. Изучите пошаговые руководства и примеры исходного кода для точного форматирования таблиц.
 ### [Генерация содержания](./table-contents-generation/)
 Узнайте, как создать динамическое оглавление с помощью Aspose.Words для Java. Освойте генерацию TOC с пошаговыми инструкциями и примерами исходного кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

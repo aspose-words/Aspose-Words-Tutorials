@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-splitting/splitting-documents-into-multiple-files/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Splitting Documents into Multiple Files
@@ -92,9 +95,13 @@ Download the library from [here](https://releases.aspose.com/words/java/) and ad
 ### Can I use this code in a web application?
 Absolutely! Just ensure the necessary permissions for file I/O operations are configured.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

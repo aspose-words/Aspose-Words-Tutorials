@@ -1,14 +1,16 @@
 ---
-title: सटीकता के लिए कंटेंट बिल्डर के साथ दस्तावेजों को विभाजित करना
-linktitle: सटीकता के लिए कंटेंट बिल्डर के साथ दस्तावेजों को विभाजित करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों को सटीकता से विभाजित और जीतें। कुशल सामग्री निष्कर्षण और संगठन के लिए Content Builder का लाभ उठाने का तरीका जानें।
-weight: 11
-url: /hi/python-net/document-splitting-and-formatting/divide-documents-content-builder/
+"description": "Python के लिए Aspose.Words का उपयोग करके अपने दस्तावेज़ों को सटीकता से विभाजित और जीतें। कुशल सामग्री निष्कर्षण और संगठन के लिए कंटेंट बिल्डर का लाभ उठाने का तरीका जानें।"
+"linktitle": "सटीकता के लिए कंटेंट बिल्डर के साथ दस्तावेजों को विभाजित करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "सटीकता के लिए कंटेंट बिल्डर के साथ दस्तावेजों को विभाजित करना"
+"url": "/hi/python-net/document-splitting-and-formatting/divide-documents-content-builder/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सटीकता के लिए कंटेंट बिल्डर के साथ दस्तावेजों को विभाजित करना
@@ -24,7 +26,7 @@ Aspose.Words for Python Word दस्तावेज़ों के साथ 
 
 कार्यान्वयन में उतरने से पहले, आइए Python के लिए Aspose.Words को सेट अप करें।
 
-1.  स्थापना: Aspose.Words लाइब्रेरी को स्थापित करें`pip`:
+1. स्थापना: Aspose.Words लाइब्रेरी को स्थापित करें `pip`:
    
    ```python
    pip install aspose-words
@@ -41,7 +43,7 @@ Aspose.Words for Python Word दस्तावेज़ों के साथ 
 आइए पायथन के लिए Aspose.Words का उपयोग करके एक नया वर्ड दस्तावेज़ बनाकर शुरू करें।
 
 ```python
-# Create a new document
+# नया दस्तावेज़ बनाएँ
 doc = aw.Document()
 ```
 
@@ -52,12 +54,12 @@ doc = aw.Document()
 ```python
 builder = aw.DocumentBuilder(doc)
 
-# Add a title
+# शीर्षक जोड़ें
 builder.bold()
 builder.font.size = 16
 builder.write("Document Precision with Content Builder\n\n")
 
-# Add an introduction
+# परिचय जोड़ें
 builder.font.clear_formatting()
 builder.writeln("Dividing documents is essential for maintaining precision and organization in lengthy content.")
 builder.writeln("In this tutorial, we will explore how to use the Content Builder module to achieve this.")
@@ -68,18 +70,18 @@ builder.writeln("In this tutorial, we will explore how to use the Content Builde
 अब मुख्य कार्यक्षमता आती है - दस्तावेज़ को अनुभागों में विभाजित करना। हम अनुभाग विराम सम्मिलित करने के लिए कंटेंट बिल्डर का उपयोग करेंगे।
 
 ```python
-# Insert a section break
+# अनुभाग विराम डालें
 builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
 ```
 
- आप अपनी आवश्यकताओं के आधार पर विभिन्न प्रकार के अनुभाग विराम सम्मिलित कर सकते हैं, जैसे`SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS` , या`SECTION_BREAK_EVEN_PAGE`.
+आप अपनी आवश्यकताओं के आधार पर विभिन्न प्रकार के अनुभाग विराम सम्मिलित कर सकते हैं, जैसे `SECTION_BREAK_NEW_PAGE`, `SECTION_BREAK_CONTINUOUS`, या `SECTION_BREAK_EVEN_PAGE`.
 
 ## उदाहरण उपयोग मामला: बायोडेटा बनाना
 
 आइए एक व्यावहारिक उपयोग के मामले पर विचार करें: अलग-अलग अनुभागों के साथ एक बायोडाटा (सी.वी.) बनाना।
 
 ```python
-# Add CV sections
+# CV अनुभाग जोड़ें
 sections = ["Personal Information", "Education", "Work Experience", "Skills", "References"]
 
 for section in sections:
@@ -95,7 +97,7 @@ for section in sections:
 ## पूछे जाने वाले प्रश्न
 
 ### मैं Python के लिए Aspose.Words कैसे स्थापित कर सकता हूँ?
- आप इसे निम्न कमांड का उपयोग करके स्थापित कर सकते हैं:`pip install aspose-words`.
+आप इसे निम्न कमांड का उपयोग करके स्थापित कर सकते हैं: `pip install aspose-words`.
 
 ### किस प्रकार के अनुभाग विराम उपलब्ध हैं?
 पायथन के लिए Aspose.Words विभिन्न अनुभाग विराम प्रकार प्रदान करता है, जैसे कि नया पृष्ठ, निरंतर, और यहां तक कि पृष्ठ विराम भी।
@@ -106,12 +108,17 @@ for section in sections:
 ### क्या Aspose.Words रिपोर्ट तैयार करने के लिए उपयुक्त है?
 बिल्कुल! पायथन के लिए Aspose.Words का उपयोग सटीक स्वरूपण के साथ विभिन्न प्रकार की रिपोर्ट और दस्तावेज़ बनाने के लिए व्यापक रूप से किया जाता है।
 
-### मैं दस्तावेज़ और डाउनलोड कहां से प्राप्त कर सकता हूं?
- दौरा करना[पायथन दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/python-net/) और लाइब्रेरी को यहाँ से डाउनलोड करें[Aspose.Words पायथन रिलीज़](https://releases.aspose.com/words/python/).
+### मैं दस्तावेज और डाउनलोड कहां से प्राप्त कर सकता हूं?
+दौरा करना [पायथन दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/python-net/) और लाइब्रेरी को यहाँ से डाउनलोड करें [Aspose.Words पायथन रिलीज़](https://releases.aspose.com/words/python/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

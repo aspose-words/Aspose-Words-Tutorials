@@ -1,14 +1,16 @@
 ---
-title: Шифрование и дешифрование документов
-linktitle: Шифрование и дешифрование документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как шифровать и расшифровывать документы с помощью Aspose.Words для Java. Эффективно защитите свои данные с помощью пошаговых инструкций и примеров исходного кода.
-weight: 12
-url: /ru/java/document-security/document-encryption-decryption/
+"description": "Узнайте, как шифровать и расшифровывать документы с помощью Aspose.Words для Java. Эффективно защитите свои данные с помощью пошаговых инструкций и примеров исходного кода."
+"linktitle": "Шифрование и дешифрование документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Шифрование и дешифрование документов"
+"url": "/ru/java/document-security/document-encryption-decryption/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Шифрование и дешифрование документов
@@ -24,7 +26,7 @@ url: /ru/java/document-security/document-encryption-decryption/
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
 - [Комплект разработчика Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) установлен.
-- [Aspose.Words для Java](https://products.aspose.com/words/java) Библиотека. Вы можете скачать ее с[здесь](https://downloads.aspose.com/words/java).
+- [Aspose.Words для Java](https://products.aspose.com/words/java) Библиотека. Вы можете скачать ее с [здесь](https://downloads.aspose.com/words/java).
 
 ## Шаг 1: Создайте проект Java
 
@@ -70,7 +72,7 @@ import com.aspose.words.SaveFormat;
 
 public class DocumentDecryptionExample {
     public static void main(String[] args) throws Exception {
-        //Загрузите зашифрованный документ
+        // Загрузите зашифрованный документ
         Document doc = new Document("encrypted_document.docx");
         
         // Укажите пароль для расшифровки
@@ -107,10 +109,14 @@ Aspose.Words for Java использует алгоритм шифрования
 
 Выполняя шаги, описанные в этом руководстве, вы сможете повысить безопасность своих приложений Java и эффективно защитить конфиденциальную информацию в своих документах.
 
-Aspose.Words для Java упрощает процесс обработки документов и обеспечения их безопасности, позволяя разработчикам создавать надежные приложения, отвечающие их потребностям в обработке документов.
+Aspose.Words для Java упрощает процесс обработки документов и обеспечивает их безопасность, позволяя разработчикам создавать надежные приложения, отвечающие их потребностям в обработке документов.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

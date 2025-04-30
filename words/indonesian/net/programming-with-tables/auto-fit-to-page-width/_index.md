@@ -1,14 +1,16 @@
 ---
-title: Sesuaikan Otomatis ke Jendela
-linktitle: Sesuaikan Otomatis ke Jendela
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Sesuaikan tabel secara otomatis ke jendela dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk dokumen yang lebih bersih dan profesional.
-weight: 10
-url: /id/net/programming-with-tables/auto-fit-to-page-width/
+"description": "Sesuaikan tabel secara otomatis ke jendela dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk dokumen yang lebih bersih dan profesional."
+"linktitle": "Sesuaikan Otomatis ke Jendela"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sesuaikan Otomatis ke Jendela"
+"url": "/id/net/programming-with-tables/auto-fit-to-page-width/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Otomatis ke Jendela
@@ -22,7 +24,7 @@ Pernahkah Anda merasa frustrasi karena tabel dalam dokumen Word tidak pas di hal
 Sebelum menyelami kodenya, mari pastikan Anda telah menyiapkan semuanya:
 
 1. Visual Studio: Anda memerlukan IDE seperti Visual Studio untuk menulis dan menjalankan kode .NET Anda.
-2.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+2. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda memahami potongan kode dengan lebih mudah.
 
 Jika semua prasyarat ini sudah terpenuhi, mari kita masuk ke bagian yang menarik—pengodean!
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Itu`Aspose.Words` namespace berisi kelas inti untuk memanipulasi dokumen Word, sementara`Aspose.Words.Tables` khusus untuk menangani tabel.
+Itu `Aspose.Words` namespace berisi kelas inti untuk memanipulasi dokumen Word, sementara `Aspose.Words.Tables` khusus untuk menangani tabel.
 
 ## Langkah 1: Siapkan Dokumen Anda
 
- Pertama, Anda perlu memuat dokumen Word yang berisi tabel yang ingin Anda sesuaikan secara otomatis. Untuk ini, Anda akan menggunakan`Document` kelas yang disediakan oleh Aspose.Words.
+Pertama, Anda perlu memuat dokumen Word yang berisi tabel yang ingin Anda sesuaikan secara otomatis. Untuk ini, Anda akan menggunakan `Document` kelas yang disediakan oleh Aspose.Words.
 
 ```csharp
 // Tentukan jalur ke direktori dokumen Anda
@@ -52,7 +54,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Pada langkah ini, Anda menentukan jalur tempat dokumen Anda disimpan dan memuatnya ke dalam`Document` objek. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
+Pada langkah ini, Anda menentukan jalur tempat dokumen Anda disimpan dan memuatnya ke dalam `Document` objek. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda berada.
 
 ## Langkah 2: Akses Tabel
 
@@ -74,7 +76,7 @@ Sekarang setelah Anda memiliki tabel, Anda dapat menerapkan fungsi penyesuaian o
 table.AutoFit(AutoFitBehavior.AutoFitToWindow);
 ```
 
- Itu`AutoFit` metode dengan`AutoFitBehavior.AutoFitToWindow` memastikan lebar tabel disesuaikan agar sesuai dengan seluruh lebar halaman.
+Itu `AutoFit` metode dengan `AutoFitBehavior.AutoFitToWindow` memastikan lebar tabel disesuaikan agar sesuai dengan seluruh lebar halaman.
 
 ## Langkah 4: Simpan Dokumen yang Dimodifikasi
 
@@ -96,7 +98,7 @@ Nah, itu dia—menyesuaikan tabel secara otomatis ke jendela dengan Aspose.Words
 ### Bisakah saya memasukkan otomatis beberapa tabel dalam satu dokumen?  
 Ya, Anda dapat melakukan pengulangan pada semua tabel dalam dokumen dan menerapkan metode penyesuaian otomatis pada masing-masing tabel.
 
-### Apakah penyesuaian otomatis mempengaruhi isi tabel?  
+### Apakah penyesuaian otomatis memengaruhi isi tabel?  
 Tidak, penyesuaian otomatis akan menyesuaikan lebar tabel namun tidak mengubah konten di dalam sel.
 
 ### Bagaimana jika tabel saya memiliki lebar kolom tertentu yang ingin saya pertahankan?  
@@ -106,10 +108,15 @@ Penyesuaian otomatis akan mengganti lebar kolom tertentu. Jika Anda perlu memper
 Aspose.Words terutama mendukung dokumen Word (.docx). Untuk format lain, Anda mungkin perlu mengonversinya ke .docx terlebih dahulu.
 
 ### Bagaimana saya bisa mendapatkan versi uji coba Aspose.Words?  
- Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh versi uji coba gratis [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

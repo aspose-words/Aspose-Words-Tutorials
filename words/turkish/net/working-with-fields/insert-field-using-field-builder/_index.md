@@ -1,14 +1,16 @@
 ---
-title: Alan Oluşturucuyu Kullanarak Alan Ekleme
-linktitle: Alan Oluşturucuyu Kullanarak Alan Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine dinamik alanların nasıl ekleneceğini öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/working-with-fields/insert-field-using-field-builder/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerine dinamik alanların nasıl ekleneceğini öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Alan Oluşturucuyu Kullanarak Alan Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Oluşturucuyu Kullanarak Alan Ekleme"
+"url": "/tr/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Oluşturucuyu Kullanarak Alan Ekleme
@@ -21,7 +23,7 @@ Merhaba! Hiç kafanızı kaşırken buldunuz mu, Word belgelerinize programatik 
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu henüz yapmadıysanız, edinebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Bunu henüz yapmadıysanız, edinebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir geliştirme ortamı.
 3. Temel C# Bilgisi: C# ve .NET temellerine aşina olmanız faydalı olacaktır.
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 FieldBuilder burada kilit oyuncudur. Alanları dinamik olarak oluşturmamızı sağlar.
 
 ```csharp
-//FieldBuilder kullanılarak IF alanının oluşturulması.
+// FieldBuilder kullanılarak IF alanının oluşturulması.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -113,19 +115,24 @@ Tebrikler! Aspose.Words for .NET kullanarak bir Word belgesine alanları dinamik
 Aspose.Words for .NET, geliştiricilerin C# kullanarak Word belgelerini programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/) Uzun süreli kullanım için bir lisans satın almanız gerekecektir[Burada](https://purchase.aspose.com/buy).
+Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/)Uzun süreli kullanım için bir lisans satın almanız gerekecektir [Burada](https://purchase.aspose.com/buy).
 
 ### FieldBuilder kullanarak hangi tür alanları ekleyebilirim?
- FieldBuilder, IF, MERGEFIELD ve daha fazlası dahil olmak üzere çok çeşitli alanları destekler. Ayrıntılı belgeler bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+FieldBuilder, IF, MERGEFIELD ve daha fazlası dahil olmak üzere çok çeşitli alanları destekler. Ayrıntılı belgeler bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Bir alanı ekledikten sonra nasıl güncellerim?
- Bir alanı kullanarak güncelleyebilirsiniz`Update` Yöntem, eğitimde gösterildiği gibidir.
+Bir alanı kullanarak güncelleyebilirsiniz `Update` Yöntem, eğitimde gösterildiği gibidir.
 
 ### Aspose.Words için desteği nereden alabilirim?
- Herhangi bir soru veya destek için Aspose.Words destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/words/8).
+Herhangi bir soru veya destek için Aspose.Words destek forumunu ziyaret edin [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

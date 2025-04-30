@@ -1,14 +1,16 @@
 ---
-title: Özetleme Seçenekleriyle Çalışma
-linktitle: Özetleme Seçenekleriyle Çalışma
-second_title: Aspose.Words Belge İşleme API'si
-description: Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin.
-weight: 10
-url: /tr/net/ai-powered-document-processing/working-with-summarize-options/
+"description": "Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin."
+"linktitle": "Özetleme Seçenekleriyle Çalışma"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Özetleme Seçenekleriyle Çalışma"
+"url": "/tr/net/ai-powered-document-processing/working-with-summarize-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özetleme Seçenekleriyle Çalışma
@@ -21,7 +23,7 @@ Belgeleri, özellikle de büyük olanları ele alırken, önemli noktaları öze
 
 Belge özetleme yolculuğuna çıkmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesini indirdiğinizden emin olun. Buradan alabilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesini indirdiğinizden emin olun. Buradan alabilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. .NET Ortamı: Sisteminizde bir .NET ortamı kurulu olmalı (Visual Studio gibi). .NET'e yeniyseniz endişelenmeyin; oldukça kullanıcı dostudur!
 3. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır. Kodda birkaç adımı takip edeceğiz ve temelleri anlamak bunu daha akıcı hale getirecek.
 4. Yapay Zeka Modeli için API Anahtarı: Özetleme için üretken dil modellerinden yararlandığımız için, ortamınızda ayarlayabileceğiniz bir API anahtarına ihtiyacınız var.
@@ -54,7 +56,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY"; 
 ```
 
- Değiştirdiğinizden emin olun`"YOUR_DOCUMENT_DIRECTORY"` Ve`"YOUR_ARTIFACTS_DIRECTORY"` Sisteminizde belgelerinizin saklandığı ve özetlenen dosyaları kaydetmek istediğiniz gerçek yollar.
+Değiştirdiğinizden emin olun `"YOUR_DOCUMENT_DIRECTORY"` Ve `"YOUR_ARTIFACTS_DIRECTORY"` Sisteminizde belgelerinizin saklandığı ve özetlenen dosyaları kaydetmek istediğiniz gerçek yollar.
 
 ## Adım 2: Belgelerinizi Yükleme 
 
@@ -65,7 +67,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
-Burada iki belge yüklüyoruz—`Big document.docx` Ve`Document.docx`Bu dosyaların belirttiğiniz dizinde mevcut olduğundan emin olun.
+Burada iki belge yüklüyoruz—`Big document.docx` Ve `Document.docx`Bu dosyaların belirttiğiniz dizinde mevcut olduğundan emin olun.
 
 ## Adım 3: AI Modelini Kurma 
 
@@ -87,7 +89,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
-Burada AI modelinden özet yapmasını istiyoruz`firstDoc` kısa bir özet uzunluğu ile. Özetlenen belge belirtilen yapıtlar dizinine kaydedilecektir.
+Burada AI modelinden özet yapmasını istiyoruz `firstDoc` kısa bir özet uzunluğu ile. Özetlenen belge belirtilen yapıtlar dizinine kaydedilecektir.
 
 ## Adım 5: Birden Fazla Belgeyi Özetleme
 
@@ -98,13 +100,13 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Bu durumda her ikisini de özetliyoruz`firstDoc` Ve`secondDoc` ve daha uzun bir özet uzunluğu belirledik. Özetlenen çıktınız, her ayrıntıyı okumadan ana fikirleri kavramanıza yardımcı olacaktır.
+Bu durumda her ikisini de özetliyoruz `firstDoc` Ve `secondDoc` ve daha uzun bir özet uzunluğu belirledik. Özetlenen çıktınız, her ayrıntıyı okumadan ana fikirleri kavramanıza yardımcı olacaktır.
 
 ## Çözüm
 
 Ve işte oldu! Aspose.Words for .NET kullanarak bir veya iki belgeyi başarıyla özetlediniz. Geçtiğimiz adımlar daha büyük projelere uyarlanabilir veya çeşitli belge işleme görevleri için otomatikleştirilebilir. Unutmayın, özetleme belgelerinizin özünü korurken size önemli ölçüde zaman ve emek kazandırabilir. 
 
-Kodla oynamak mı istiyorsunuz? Hadi! Bu teknolojinin güzelliği, ihtiyaçlarınıza uyacak şekilde ayarlayabilmenizdir. Unutmayın, daha fazla kaynak ve belgeyi şu adreste bulabilirsiniz:[Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) ve herhangi bir sorunla karşılaşırsanız,[Aspose destek forumu](https://forum.aspose.com/c/words/8/) sadece bir tık uzağınızda.
+Kodla oynamak mı istiyorsunuz? Hadi! Bu teknolojinin güzelliği, ihtiyaçlarınıza uyacak şekilde ayarlayabilmenizdir. Unutmayın, daha fazla kaynak ve belgeyi şu adreste bulabilirsiniz: [Aspose.Words for .NET belgeleri](https://reference.aspose.com/words/net/) ve herhangi bir sorunla karşılaşırsanız, [Aspose destek forumu](https://forum.aspose.com/c/words/8/) sadece bir tık uzağınızda.
 
 ## SSS
 
@@ -118,13 +120,18 @@ Aspose.Words öncelikli olarak Word belgeleriyle ilgilenir. PDF'leri özetlemek 
 Evet, AI modeli aktif internet bağlantısına bağlı bir API çağrısı gerektiriyor.
 
 ### Aspose.Words'ün deneme sürümü var mı?
- Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Sorunla karşılaşırsam ne yapmalıyım?
- Herhangi bir sorunla karşı karşıyaysanız veya sorularınız varsa, şu adresi ziyaret edin:[destek forumu](https://forum.aspose.com/c/words/8/) rehberlik için.
+Herhangi bir sorunla karşı karşıyaysanız veya sorularınız varsa, şu adresi ziyaret edin: [destek forumu](https://forum.aspose.com/c/words/8/) rehberlik için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

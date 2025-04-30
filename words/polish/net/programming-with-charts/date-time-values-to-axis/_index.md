@@ -1,14 +1,16 @@
 ---
-title: Dodaj wartości daty i godziny do osi wykresu
-linktitle: Dodaj wartości daty i godziny do osi wykresu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodać wartości daty i godziny do osi wykresu za pomocą Aspose.Words dla .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-charts/date-time-values-to-axis/
+"description": "Dowiedz się, jak dodać wartości daty i godziny do osi wykresu za pomocą Aspose.Words dla .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Dodaj wartości daty i godziny do osi wykresu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj wartości daty i godziny do osi wykresu"
+"url": "/pl/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj wartości daty i godziny do osi wykresu
@@ -22,9 +24,9 @@ Tworzenie wykresów w dokumentach może być skutecznym sposobem wizualizacji da
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
 1. Visual Studio lub dowolne środowisko IDE .NET: potrzebujesz środowiska programistycznego, aby pisać i uruchamiać kod .NET.
-2.  Aspose.Words dla .NET: Powinieneś mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+2. Aspose.Words dla .NET: Powinieneś mieć zainstalowaną bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 3. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że posiadasz podstawową wiedzę na temat programowania w języku C#.
-4.  Ważna licencja Aspose: Licencję tymczasową można uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Ważna licencja Aspose: Licencję tymczasową można uzyskać od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Utwórz nowy dokument i DocumentBuilder
 
- Następnie utwórz nową instancję`Document` klasa i`DocumentBuilder` obiekt. Te obiekty pomogą Ci budować i manipulować Twoim dokumentem.
+Następnie utwórz nową instancję `Document` klasa i `DocumentBuilder` obiekt. Te obiekty pomogą Ci budować i manipulować Twoim dokumentem.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 3: Wstaw wykres do dokumentu
 
- Teraz wstaw wykres do dokumentu za pomocą`DocumentBuilder` obiekt. W tym przykładzie używamy wykresu kolumnowego, ale możesz wybrać również inne typy.
+Teraz wstaw wykres do dokumentu za pomocą `DocumentBuilder` obiekt. W tym przykładzie używamy wykresu kolumnowego, ale możesz wybrać również inne typy.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -101,7 +103,7 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 
 ## Krok 7: Zapisz dokument
 
-Na koniec zapisz dokument w określonym katalogu. Ten krok kończy proces, a Twój dokument powinien teraz zawierać wykres z wartościami daty i godziny na osi X.
+Na koniec zapisz dokument w określonym katalogu. Ten krok kończy proces, a dokument powinien teraz zawierać wykres z wartościami daty i godziny na osi X.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
@@ -123,7 +125,7 @@ Możesz dostosować wygląd wykresu, uzyskując dostęp do jego właściwości i
 
 ### Czy można dodać wiele serii do wykresu?
 
- Oczywiście! Możesz dodać wiele serii do swojego wykresu, wywołując`Series.Add` metodę wielokrotnie z różnymi danymi.
+Oczywiście! Możesz dodać wiele serii do swojego wykresu, wywołując `Series.Add` metodę wielokrotnie z różnymi danymi.
 
 ### Co zrobić, jeśli muszę dynamicznie aktualizować dane na wykresie?
 
@@ -131,10 +133,15 @@ Dane na wykresie można aktualizować dynamicznie, manipulując właściwościam
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Words dla .NET?
 
- Bardziej szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Bardziej szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

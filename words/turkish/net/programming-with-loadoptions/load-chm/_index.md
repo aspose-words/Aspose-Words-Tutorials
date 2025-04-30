@@ -1,17 +1,19 @@
 ---
-title: Word Belgesine Chm Dosyalarını Yükle
-linktitle: Word Belgesine Chm Dosyalarını Yükle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım eğitimle CHM dosyalarını Aspose.Words for .NET kullanarak Word belgelerine kolayca yükleyin. Teknik belgelerinizi birleştirmek için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-loadoptions/load-chm/
+"description": "Bu adım adım eğitimle CHM dosyalarını Aspose.Words for .NET kullanarak Word belgelerine kolayca yükleyin. Teknik belgelerinizi birleştirmek için mükemmeldir."
+"linktitle": "Chm Dosyalarını Word Belgesine Yükle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Chm Dosyalarını Word Belgesine Yükle"
+"url": "/tr/net/programming-with-loadoptions/load-chm/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesine Chm Dosyalarını Yükle
+# Chm Dosyalarını Word Belgesine Yükle
 
 ## giriiş
 
@@ -20,7 +22,7 @@ CHM dosyalarını bir Word belgesine entegre etmeye gelince, Aspose.Words for .N
 ## Ön koşullar
 
 Adımlara geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
--  Aspose.Words for .NET: Şunları yapabilirsiniz:[kütüphaneyi indir](https://releases.aspose.com/words/net/) siteden.
+- Aspose.Words for .NET: Şunları yapabilirsiniz: [kütüphaneyi indir](https://releases.aspose.com/words/net/) siteden.
 - .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE.
 - CHM Dosyası: Word belgesine yüklemek istediğiniz CHM dosyası.
 - Temel C# Bilgisi: C# programlama dili ve .NET framework'üne aşinalık.
@@ -68,7 +70,7 @@ LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.GetEncoding("win
 
 Yükleme seçenekleriniz yapılandırıldıktan sonraki adım CHM dosyasını bir Aspose.Words belge nesnesine yüklemektir.
 
-1.  Belge Nesnesi Oluştur: Şunu kullanın:`Document` CHM dosyanızı belirtilen seçeneklerle yüklemek için sınıf.
+1. Belge Nesnesi Oluştur: Şunu kullanın: `Document` CHM dosyanızı belirtilen seçeneklerle yüklemek için sınıf.
 
 ```csharp
 Document doc = new Document(dataDir + "HTML help.chm", loadOptions);
@@ -89,7 +91,7 @@ catch (Exception ex)
 
 ## Adım 4: Belgeyi Kaydedin
 
- CHM dosyanız yüklendikten sonra`Document` nesneyi Word belgesi olarak kaydedebilirsiniz.
+CHM dosyanız yüklendikten sonra `Document` nesneyi Word belgesi olarak kaydedebilirsiniz.
 
 1. Çıktı Yolunu Belirleyin: Word belgesini kaydetmek istediğiniz yolu tanımlayın.
 
@@ -97,7 +99,7 @@ catch (Exception ex)
 string outputPath = dataDir + "LoadedCHM.docx";
 ```
 
-2.  Belgeyi Kaydet: Şunu kullanın:`Save` yöntemi`Document` Yüklenen CHM içeriğini Word belgesi olarak kaydetmek için kullanılan sınıf.
+2. Belgeyi Kaydet: Şunu kullanın: `Save` yöntemi `Document` Yüklenen CHM içeriğini Word belgesi olarak kaydetmek için kullanılan sınıf.
 
 ```csharp
 doc.Save(outputPath);
@@ -115,11 +117,11 @@ Evet, Aspose.Words for .NET DOC, DOCX, RTF, HTML ve daha fazlası dahil olmak ü
 
 ### CHM dosyaları için farklı kodlamaları nasıl işleyebilirim?
 
- Kodlamayı kullanarak belirtebilirsiniz.`LoadOptions` eğitimde gösterildiği gibi sınıf. CHM dosyanızla eşleşen doğru kodlamayı ayarladığınızdan emin olun.
+Kodlamayı kullanarak belirtebilirsiniz. `LoadOptions` eğitimde gösterildiği gibi sınıf. CHM dosyanızla eşleşen doğru kodlamayı ayarladığınızdan emin olun.
 
 ### Yüklenen CHM içeriğini Word belgesi olarak kaydetmeden önce düzenlemek mümkün müdür?
 
- Kesinlikle! CHM dosyası yüklendikten sonra`Document` nesnenin içeriğini Aspose.Words'ün zengin API'sini kullanarak düzenleyebilirsiniz.
+Kesinlikle! CHM dosyası yüklendikten sonra `Document` nesnenin içeriğini Aspose.Words'ün zengin API'sini kullanarak düzenleyebilirsiniz.
 
 ### Bu işlemi birden fazla CHM dosyası için otomatikleştirebilir miyim?
 
@@ -127,11 +129,16 @@ Evet, birden fazla CHM dosyası için yükleme ve kaydetme sürecini otomatikle�
 
 ### Aspose.Words for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
- Ziyaret edebilirsiniz[belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi ve örnekler için.
+Ziyaret edebilirsiniz [belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi ve örnekler için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

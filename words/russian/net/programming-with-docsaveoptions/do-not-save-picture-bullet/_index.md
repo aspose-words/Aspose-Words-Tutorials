@@ -1,14 +1,16 @@
 ---
-title: Не сохранять изображение маркера
-linktitle: Не сохранять изображение маркера
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как обрабатывать маркеры изображений в Aspose.Words для .NET с помощью нашего пошагового руководства. Упростите управление документами и создавайте профессиональные документы Word без усилий.
-weight: 10
-url: /ru/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
+"description": "Узнайте, как обрабатывать маркеры изображений в Aspose.Words для .NET с помощью нашего пошагового руководства. Упростите управление документами и создавайте профессиональные документы Word без усилий."
+"linktitle": "Не сохранять изображение маркера"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Не сохранять изображение маркера"
+"url": "/ru/net/programming-with-docsaveoptions/do-not-save-picture-bullet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Не сохранять изображение маркера
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
 
 Прежде чем начать работать с кодом, вам необходимо выполнить несколько действий:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если у вас ее еще нет, вы можете ее скачать[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена эта мощная библиотека. Если у вас ее еще нет, вы можете ее скачать [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: рабочая среда разработки .NET, например Visual Studio.
 3. Базовые знания C#: некоторое знакомство с программированием на C# будет полезным.
 4. Образец документа: документ Word с изображениями-маркерами для целей тестирования.
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` с фактическим путем в вашей системе, где находятся ваши документы.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` с фактическим путем в вашей системе, где находятся ваши документы.
 
 ## Шаг 2: Загрузите документ с маркерами изображений
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
- Убедитесь, что файл`"Image bullet points.docx"` существует в указанном каталоге.
+Убедитесь, что файл `"Image bullet points.docx"` существует в указанном каталоге.
 
 ## Шаг 3: Настройте параметры сохранения
 
@@ -68,18 +70,18 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 ```
 
- Установив`SavePictureBullet` к`false`, вы указываете Aspose.Words не сохранять маркеры изображений в выходном документе.
+Установив `SavePictureBullet` к `false`, вы указываете Aspose.Words не сохранять маркеры изображений в выходном документе.
 
 ## Шаг 4: Сохраните документ.
 
-Наконец, сохраните документ с указанными параметрами. Это сгенерирует новый файл, в котором маркеры изображений не будут включены.
+Наконец, сохраните документ с указанными параметрами. Это создаст новый файл, в котором маркеры изображений не будут включены.
 
 ```csharp
 // Сохраните документ с указанными параметрами
 doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
- Новый файл,`"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, будут сохранены в каталоге ваших документов.
+Новый файл, `"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, будут сохранены в каталоге ваших документов.
 
 ## Заключение
 
@@ -94,17 +96,22 @@ Aspose.Words для .NET — мощная библиотека для созда
 Нет, эта конкретная функция предназначена для маркеров-картинок. Однако Aspose.Words предлагает обширные возможности для обработки других типов маркеров.
 
 ### Где я могу получить поддержку по Aspose.Words?
- Вы можете получить поддержку от[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Как приобрести лицензию на Aspose.Words для .NET?
- Вы можете приобрести лицензию у[Магазин Aspose](https://purchase.aspose.com/buy).
+Вы можете приобрести лицензию у [Магазин Aspose](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

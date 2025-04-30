@@ -1,14 +1,16 @@
 ---
-title: Gabungkan Baris
-linktitle: Gabungkan Baris
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggabungkan baris dari beberapa tabel menjadi satu menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-tables/combine-rows/
+"description": "Pelajari cara menggabungkan baris dari beberapa tabel menjadi satu menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Gabungkan Baris"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Gabungkan Baris"
+"url": "/id/net/programming-with-tables/combine-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gabungkan Baris
@@ -21,11 +23,11 @@ Menggabungkan baris dari beberapa tabel menjadi satu tabel yang kohesif bisa men
 
 Sebelum kita masuk ke bagian pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Pemahaman tentang C# akan bermanfaat.
 
- Jika Anda belum memiliki Aspose.Words untuk .NET, Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau membelinya[Di Sini](https://purchase.aspose.com/buy) Untuk pertanyaan apa pun,[forum dukungan](https://forum.aspose.com/c/words/8) adalah tempat yang bagus untuk memulai.
+Jika Anda belum memiliki Aspose.Words untuk .NET, Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau membelinya [Di Sini](https://purchase.aspose.com/buy)Untuk pertanyaan apa pun, [forum dukungan](https://forum.aspose.com/c/words/8) adalah tempat yang bagus untuk memulai.
 
 ## Mengimpor Ruang Nama
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Sekarang setelah semuanya disiapkan, mari kita uraikan prosesnya menjadi langkah-langkah yang mudah diikuti.
+Sekarang setelah semuanya siap, mari kita uraikan prosesnya menjadi langkah-langkah yang mudah diikuti.
 
 ## Langkah 1: Muat Dokumen Anda
 
@@ -49,11 +51,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Dalam contoh ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda.
+Dalam contoh ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda.
 
 ## Langkah 2: Identifikasi Tabel
 
- Selanjutnya, Anda perlu mengidentifikasi tabel yang ingin Anda gabungkan. Aspose.Words memungkinkan Anda untuk mendapatkan tabel dari dokumen menggunakan`GetChild` metode. Berikut caranya:
+Selanjutnya, Anda perlu mengidentifikasi tabel yang ingin Anda gabungkan. Aspose.Words memungkinkan Anda untuk mendapatkan tabel dari dokumen menggunakan `GetChild` metode. Berikut caranya:
 
 ```csharp
 Table firstTable = (Table) doc.GetChild(NodeType.Table, 0, true);
@@ -76,7 +78,7 @@ Perulangan ini berlanjut hingga semua baris dari tabel kedua ditambahkan ke tabe
 
 ## Langkah 4: Hapus Tabel Kedua
 
- Setelah menambahkan baris, tabel kedua tidak lagi diperlukan. Anda dapat menghapusnya menggunakan`Remove` metode:
+Setelah menambahkan baris, tabel kedua tidak lagi diperlukan. Anda dapat menghapusnya menggunakan `Remove` metode:
 
 ```csharp
 secondTable.Remove();
@@ -96,7 +98,7 @@ Selesai! Anda telah berhasil menggabungkan baris dari dua tabel menjadi satu men
 
 Menggabungkan baris dari beberapa tabel menjadi satu dapat menyederhanakan tugas pemrosesan dokumen Anda secara signifikan. Dengan Aspose.Words untuk .NET, tugas ini menjadi mudah dan efisien. Dengan mengikuti panduan langkah demi langkah ini, Anda dapat dengan mudah menggabungkan tabel dan menyederhanakan alur kerja Anda.
 
-Jika Anda memerlukan informasi lebih lanjut atau memiliki pertanyaan,[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) adalah sumber yang sangat bagus. Anda juga dapat menjelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian.
+Jika Anda memerlukan informasi lebih lanjut atau memiliki pertanyaan, [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) adalah sumber yang sangat bagus. Anda juga dapat menjelajahi opsi pembelian [Di Sini](https://purchase.aspose.com/buy) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -118,10 +120,15 @@ Tentu saja! Anda dapat membuat skrip untuk mengotomatiskan proses ini untuk bebe
 
 ### Di mana saya bisa mendapatkan bantuan jika saya menghadapi masalah?
 
- Itu[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) adalah tempat yang bagus untuk mendapatkan bantuan dan menemukan solusi untuk masalah umum.
+Itu [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) adalah tempat yang bagus untuk mendapatkan bantuan dan menemukan solusi untuk masalah umum.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

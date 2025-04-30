@@ -1,31 +1,33 @@
 ---
-title: Praca z otwartym modelem AI
-linktitle: Praca z otwartym modelem AI
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz.
-weight: 10
-url: /pl/net/ai-powered-document-processing/working-with-open-ai-model/
+"description": "Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz."
+"linktitle": "Praca z otwartym modelem AI"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Praca z otwartym modelem AI"
+"url": "/pl/net/ai-powered-document-processing/working-with-open-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Praca z otwartym modelem AI
 
 ## Wstęp
 
-dzisiejszym cyfrowym świecie treść jest królem. Niezależnie od tego, czy jesteś studentem, profesjonalistą biznesowym czy zapalonym pisarzem, umiejętność wydajnego manipulowania, podsumowywania i generowania dokumentów jest nieoceniona. To właśnie tutaj wkracza biblioteka Aspose.Words for .NET, umożliwiająca zarządzanie dokumentami jak profesjonalista. W tym kompleksowym samouczku zagłębimy się w to, jak wykorzystać Aspose.Words w połączeniu z modelami OpenAI, aby skutecznie podsumowywać dokumenty. Gotowy, aby odblokować swój potencjał zarządzania dokumentami? Zaczynajmy!
+W dzisiejszym cyfrowym świecie treść jest królem. Niezależnie od tego, czy jesteś studentem, profesjonalistą biznesowym czy zapalonym pisarzem, umiejętność wydajnego manipulowania, podsumowywania i generowania dokumentów jest nieoceniona. To właśnie tutaj wkracza biblioteka Aspose.Words for .NET, umożliwiająca zarządzanie dokumentami jak profesjonalista. W tym kompleksowym samouczku zagłębimy się w to, jak wykorzystać Aspose.Words w połączeniu z modelami OpenAI, aby skutecznie podsumowywać dokumenty. Gotowy, aby odblokować swój potencjał zarządzania dokumentami? Zaczynajmy!
 
 ## Wymagania wstępne
 
-Zanim zakasamy rękawy i zagłębimy się w kod, jest kilka niezbędnych rzeczy, które musisz mieć na miejscu:
+Zanim zakasamy rękawy i zagłębimy się w kod, musisz zadbać o kilka niezbędnych rzeczy:
 
 ### .NET Framework
 Upewnij się, że korzystasz z wersji .NET Framework, która jest zgodna z Aspose.Words. Generalnie .NET 5.0 i nowsze powinny działać idealnie.
 
 ### Aspose.Words dla biblioteki .NET
- Musisz pobrać i zainstalować bibliotekę Aspose.Words. Możesz ją pobrać z[ten link](https://releases.aspose.com/words/net/).
+Musisz pobrać i zainstalować bibliotekę Aspose.Words. Możesz ją pobrać z [ten link](https://releases.aspose.com/words/net/).
 
 ### Klucz API OpenAI
 Aby zintegrować modele językowe OpenAI do podsumowania dokumentów, potrzebujesz klucza API. Możesz go uzyskać, rejestrując się na platformie OpenAI i pobierając klucz z ustawień konta.
@@ -48,7 +50,7 @@ Możesz dodać pakiet Aspose.Words za pomocą NuGet Package Manager. Oto jak to 
 
 ### Dodaj środowisko systemowe
 
- Pamiętaj o uwzględnieniu`System`przestrzeń nazw do obsługi zmiennych środowiskowych:
+Pamiętaj o uwzględnieniu `System` przestrzeń nazw do obsługi zmiennych środowiskowych:
 ```csharp
 using System.Text;
 using Aspose.Words;
@@ -67,7 +69,7 @@ using Aspose.Words;
 
 Jeśli używasz biblioteki do interfejsu z OpenAI (np. klienta REST), upewnij się, że ją również uwzględniasz. Być może będziesz musiał dodać ją przez NuGet w taki sam sposób, w jaki dodaliśmy Aspose.Words.
 
-Teraz, gdy przygotowaliśmy nasze środowisko i zaimportowaliśmy niezbędne pakiety, przeanalizujmy krok po kroku proces podsumowania dokumentów.
+Teraz, gdy przygotowaliśmy nasze środowisko i zaimportowaliśmy niezbędne pakiety, przeanalizujmy krok po kroku proces podsumowania dokumentu.
 
 ## Krok 1: Zdefiniuj katalogi dokumentów
 
@@ -79,7 +81,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 // Twój katalog artefaktów
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
- Dzięki temu kod staje się bardziej łatwy w zarządzaniu, ponieważ w razie potrzeby można łatwo zmienić ścieżki.`MyDir` to miejsce, w którym przechowywane są Twoje dokumenty wejściowe, podczas gdy`ArtifactsDir` tutaj będziesz zapisywać wygenerowane podsumowania.
+Dzięki temu kod staje się bardziej łatwy w zarządzaniu, ponieważ w razie potrzeby można łatwo zmienić ścieżki. `MyDir` to miejsce, w którym przechowywane są Twoje dokumenty wejściowe, podczas gdy `ArtifactsDir` tutaj będziesz zapisywać wygenerowane podsumowania.
 
 ## Krok 2: Załaduj swoje dokumenty
 
@@ -116,11 +118,11 @@ Podsumujmy najpierw pierwszy dokument. To tutaj dzieje się magia:
 Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
- Tutaj używamy`Summarize` metoda modelu.`SummaryLength.Short`Parametr określa, że chcemy uzyskać krótkie podsumowanie — idealne do szybkiego przeglądu!
+Tutaj używamy `Summarize` metoda modelu. `SummaryLength.Short` Parametr określa, że chcemy uzyskać krótkie podsumowanie — idealne do szybkiego przeglądu!
 
 ## Krok 6: Podsumowanie wielu dokumentów
 
-Czujesz się ambitny? Możesz podsumować wiele dokumentów na raz. Spójrz tylko, jak to jest proste:
+Czujesz się ambitny? Możesz podsumować wiele dokumentów na raz. Spójrz, jak to jest proste:
 
 ```csharp
 Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
@@ -149,10 +151,15 @@ Oczywiście! Możesz podsumować wiele dokumentów w jednym połączeniu, co jes
 Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio, wyszukując „Aspose.Words”.
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Words?  
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words za pośrednictwem ich[strona internetowa](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Words za pośrednictwem ich [strona internetowa](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 20
 url: /java/document-loading-and-saving/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Loading and Saving
@@ -80,9 +83,13 @@ Learn how to save documents as RTF format using Aspose.Words for Java. Step-by-s
 Learn how to save documents as text files in Aspose.Words for Java. Follow our step-by-step guide with Java code examples.
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

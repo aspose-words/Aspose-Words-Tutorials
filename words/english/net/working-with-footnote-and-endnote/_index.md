@@ -7,8 +7,11 @@ weight: 660
 url: /net/working-with-footnote-and-endnote/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Words Processing with Footnote and Endnote
@@ -22,9 +25,13 @@ Words Processing with Footnotes and Endnotes is a comprehensive resource that wa
 | [Set Footnote And Endnote Position](./set-footnote-and-end-note-position/) | Learn how to set footnote and endnote positions in Word documents using Aspose.Words for .NET with this detailed step-by-step guide. |
 | [Set Endnote Options](./set-endnote-options/) | Learn how to set endnote options in Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

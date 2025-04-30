@@ -1,14 +1,16 @@
 ---
-title: Ubah Bidang Perbarui Budaya Sumber
-linktitle: Ubah Bidang Perbarui Budaya Sumber
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah sumber budaya pembaruan bidang di Aspose.Words untuk .NET dengan panduan ini. Kontrol format tanggal berdasarkan budaya yang berbeda dengan mudah.
-weight: 10
-url: /id/net/working-with-fields/change-field-update-culture-source/
+"description": "Pelajari cara mengubah sumber budaya pembaruan bidang di Aspose.Words untuk .NET dengan panduan ini. Kontrol pemformatan tanggal berdasarkan budaya yang berbeda dengan mudah."
+"linktitle": "Ubah Bidang Perbarui Budaya Sumber"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Bidang Perbarui Budaya Sumber"
+"url": "/id/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Bidang Perbarui Budaya Sumber
@@ -21,7 +23,7 @@ Dalam tutorial ini, kita akan menyelami dunia Aspose.Words untuk .NET dan menjel
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki yang berikut ini:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Setiap IDE yang kompatibel dengan .NET (misalnya, Visual Studio).
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -39,7 +41,7 @@ Sekarang, mari kita uraikan contoh tersebut menjadi beberapa langkah untuk memba
 
 ## Langkah 1: Inisialisasi Dokumen
 
- Langkah pertama adalah membuat instance baru dari`Document` kelas dan a`DocumentBuilder`Ini menjadi dasar untuk membangun dan memanipulasi dokumen Word kita.
+Langkah pertama adalah membuat instance baru dari `Document` kelas dan a `DocumentBuilder`Ini menjadi dasar untuk membangun dan memanipulasi dokumen Word kita.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## Langkah 3: Tetapkan Sumber Budaya Pembaruan Lapangan
 
- Untuk mengontrol budaya yang digunakan saat memperbarui bidang, kami mengatur`FieldUpdateCultureSource` milik`FieldOptions`class. Properti ini menentukan apakah kultur diambil dari kode bidang atau dokumen.
+Untuk mengontrol budaya yang digunakan saat memperbarui bidang, kami mengatur `FieldUpdateCultureSource` milik `FieldOptions` class. Properti ini menentukan apakah kultur diambil dari kode bidang atau dokumen.
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ Nah, itu dia! Anda telah berhasil mengubah sumber budaya pembaruan bidang di Asp
 
 ## Pertanyaan yang Sering Diajukan
 
-###  Apa tujuan pengaturan`LocaleId`?
- Itu`LocaleId` menentukan pengaturan budaya untuk teks, yang memengaruhi bagaimana tanggal dan data sensitif lokal lainnya diformat.
+### Apa tujuan pengaturan `LocaleId`....
+Itu `LocaleId` menentukan pengaturan budaya untuk teks, yang memengaruhi bagaimana tanggal dan data sensitif lokal lainnya diformat.
 
 ### Bisakah saya menggunakan bahasa lain selain bahasa Jerman?
- Ya, Anda dapat mengaturnya`LocaleId`ke pengenal lokal yang valid. Misalnya, 1033 untuk Bahasa Inggris (Amerika Serikat).
+Ya, Anda dapat mengaturnya `LocaleId` ke pengenal lokal yang valid. Misalnya, 1033 untuk Bahasa Inggris (Amerika Serikat).
 
-###  Apa yang terjadi jika saya tidak mengatur`FieldUpdateCultureSource` property?
+### Apa yang terjadi jika saya tidak mengatur `FieldUpdateCultureSource` milik?
 Jika properti ini tidak disetel, pengaturan budaya default dokumen akan digunakan saat memperbarui bidang.
 
 ### Apakah mungkin untuk memperbarui bidang berdasarkan budaya dokumen, bukan kode bidang?
- Ya, Anda dapat mengaturnya`FieldUpdateCultureSource` ke`FieldUpdateCultureSource.Document` untuk menggunakan pengaturan budaya dokumen.
+Ya, Anda dapat mengaturnya `FieldUpdateCultureSource` ke `FieldUpdateCultureSource.Document` untuk menggunakan pengaturan budaya dokumen.
 
 ### Bagaimana cara memformat tanggal dalam pola yang berbeda?
- Anda dapat mengubah pola format tanggal di`InsertField` metode dengan memodifikasi`\\@` nilai saklar.
+Anda dapat mengubah pola format tanggal di `InsertField` metode dengan memodifikasi `\\@` nilai saklar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Phát hiện định dạng tệp tài liệu
-linktitle: Phát hiện định dạng tệp tài liệu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách phát hiện định dạng tệp tài liệu bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 10
-url: /vi/net/programming-with-fileformat/detect-file-format/
+"description": "Tìm hiểu cách phát hiện định dạng tệp tài liệu bằng Aspose.Words cho .NET với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Phát hiện định dạng tệp tài liệu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Phát hiện định dạng tệp tài liệu"
+"url": "/vi/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phát hiện định dạng tệp tài liệu
@@ -21,7 +23,7 @@ Trong thế giới kỹ thuật số ngày nay, việc quản lý các định d
 
 Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/) . Hãy đảm bảo bạn có giấy phép hợp lệ. Nếu không, bạn có thể xin cấp[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/). Hãy đảm bảo bạn có giấy phép hợp lệ. Nếu không, bạn có thể xin cấp [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: Bất kỳ phiên bản nào gần đây đều hoạt động tốt.
 - .NET Framework: Đảm bảo bạn đã cài đặt đúng phiên bản.
 
@@ -174,14 +176,19 @@ Có, Aspose.Words có thể phát hiện xem tài liệu có được mã hóa h
 Aspose.Words có thể phát hiện nhiều định dạng khác nhau bao gồm DOC, DOCX, RTF, HTML, MHTML, ODT và nhiều định dạng khác nữa.
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Words?
- Bạn có thể nhận được giấy phép tạm thời từ[Mua Aspose](https://purchase.aspose.com/temporary-license/) trang.
+Bạn có thể nhận được giấy phép tạm thời từ [Mua Aspose](https://purchase.aspose.com/temporary-license/) trang.
 
 ### Tôi có thể tìm tài liệu về Aspose.Words ở đâu?
- Tài liệu về Aspose.Words có thể được tìm thấy[đây](https://reference.aspose.com/words/net/).
+Tài liệu về Aspose.Words có thể được tìm thấy [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

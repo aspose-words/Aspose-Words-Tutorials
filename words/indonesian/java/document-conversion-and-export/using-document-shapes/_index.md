@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Bentuk Dokumen di Aspose.Words untuk Java
-linktitle: Menggunakan Bentuk Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buka Kekuatan Bentuk Dokumen di Aspose.Words untuk Java. Pelajari Cara Membuat Dokumen yang Menarik Secara Visual dengan Contoh Langkah demi Langkah.
-weight: 14
-url: /id/java/document-conversion-and-export/using-document-shapes/
+"description": "Buka Kekuatan Bentuk Dokumen di Aspose.Words untuk Java. Pelajari Cara Membuat Dokumen yang Menarik Secara Visual dengan Contoh Langkah demi Langkah."
+"linktitle": "Menggunakan Bentuk Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Bentuk Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Bentuk Dokumen di Aspose.Words untuk Java
@@ -20,13 +22,13 @@ Dalam panduan lengkap ini, kita akan menyelami dunia bentuk dokumen di Aspose.Wo
 
 ## Memulai dengan Bentuk Dokumen
 
- Sebelum kita mulai membuat kode, mari kita siapkan lingkungan kita. Pastikan Anda telah mengintegrasikan Aspose.Words untuk Java ke dalam proyek Anda. Jika belum, Anda dapat mengunduhnya dari situs web Aspose[Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)
+Sebelum kita mulai membuat kode, mari kita siapkan lingkungan kita. Pastikan Anda telah mengintegrasikan Aspose.Words untuk Java ke dalam proyek Anda. Jika belum, Anda dapat mengunduhnya dari situs web Aspose [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)
 
 ## Menambahkan Bentuk ke Dokumen
 
 ### Memasukkan GroupShape
 
- A`GroupShape` memungkinkan Anda mengelompokkan beberapa bentuk bersama-sama. Berikut cara membuat dan menyisipkan`GroupShape`:
+A `GroupShape` memungkinkan Anda mengelompokkan beberapa bentuk bersama-sama. Berikut cara membuat dan menyisipkan `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### Memasukkan Bentuk Kotak Teks
 
- Untuk menyisipkan bentuk kotak teks, Anda dapat menggunakan`insertShape` metode seperti yang ditunjukkan pada contoh di bawah ini:
+Untuk menyisipkan bentuk kotak teks, Anda dapat menggunakan `insertShape` metode seperti yang ditunjukkan pada contoh di bawah ini:
 
 ```java
 Document doc = new Document();
@@ -178,7 +180,7 @@ Aspose.Words untuk Java adalah pustaka Java yang memungkinkan pengembang membuat
 
 ### Bagaimana cara mengunduh Aspose.Words untuk Java?
 
- Anda dapat mengunduh Aspose.Words untuk Java dari situs web Aspose dengan mengikuti tautan ini:[Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)
+Anda dapat mengunduh Aspose.Words untuk Java dari situs web Aspose dengan mengikuti tautan ini: [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)
 
 ### Apa keuntungan menggunakan bentuk dokumen?
 
@@ -191,9 +193,14 @@ Ya, Anda dapat menyesuaikan tampilan bentuk dengan menyesuaikan propertinya sepe
 ### Apakah Aspose.Words untuk Java kompatibel dengan SmartArt?
 
 Ya, Aspose.Words untuk Java mendukung bentuk SmartArt, yang memungkinkan Anda bekerja dengan diagram dan grafik kompleks dalam dokumen Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

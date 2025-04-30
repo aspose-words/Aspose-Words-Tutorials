@@ -1,14 +1,16 @@
 ---
-title: Làm việc với mô hình AI
-linktitle: Làm việc với mô hình AI
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI. Các bước dễ dàng để nâng cao quản lý tài liệu.
-weight: 10
-url: /vi/net/ai-powered-document-processing/working-with-ai-model/
+"description": "Tìm hiểu cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI. Các bước dễ dàng để nâng cao quản lý tài liệu."
+"linktitle": "Làm việc với mô hình AI"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Làm việc với mô hình AI"
+"url": "/vi/net/ai-powered-document-processing/working-with-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với mô hình AI
@@ -25,7 +27,7 @@ Trước khi bắt tay vào viết mã, bạn cần chuẩn bị một số đi�
   
 2. .NET Framework: Đảm bảo rằng bạn đang sử dụng phiên bản .NET Framework tương thích cho Aspose.Words. Nó hỗ trợ cả .NET Framework và .NET Core.
 
-3.  Aspose.Words cho .NET: Bạn sẽ cần tải xuống và cài đặt Aspose.Words. Bạn có thể lấy phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+3. Aspose.Words cho .NET: Bạn sẽ cần tải xuống và cài đặt Aspose.Words. Bạn có thể lấy phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 
 4. Khóa API cho mô hình AI: Để sử dụng tóm tắt AI, bạn sẽ cần quyền truy cập vào mô hình AI. Nhận khóa API từ các nền tảng như OpenAI hoặc Google.
 
@@ -72,7 +74,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
--  Ở đây, thay thế`YOUR_DOCUMENT_DIRECTORY` với vị trí lưu trữ tài liệu của bạn và`YOUR_ARTIFACTS_DIRECTORY` nơi bạn muốn lưu các tập tin tóm tắt.
+- Ở đây, thay thế `YOUR_DOCUMENT_DIRECTORY` với vị trí lưu trữ tài liệu của bạn và `YOUR_ARTIFACTS_DIRECTORY` nơi bạn muốn lưu các tập tin tóm tắt.
 
 ## Bước 2: Tải tài liệu
 
@@ -83,7 +85,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
-- Điều chỉnh tên tệp thành bất kỳ tên nào bạn đã lưu. Ví dụ giả sử bạn có hai tài liệu có tên là “Big document.docx” và “Document.docx”.
+- Điều chỉnh tên tệp thành bất kỳ tên nào bạn đã lưu. Ví dụ giả định bạn có hai tài liệu có tên là “Big document.docx” và “Document.docx”.
 
 ## Bước 3: Khởi tạo mô hình AI
 
@@ -96,7 +98,7 @@ IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApi
 
 - Hãy đảm bảo lưu khóa API của bạn dưới dạng biến môi trường. Giống như giữ bí mật của bạn an toàn vậy!
 
-## Bước 4: Tạo tóm tắt cho tài liệu đầu tiên
+## Bước 4: Tạo Tóm tắt cho Tài liệu Đầu tiên
 
 Bây giờ, hãy tạo bản tóm tắt cho tài liệu đầu tiên của chúng ta. Chúng ta cũng sẽ thiết lập các tham số để xác định độ dài của bản tóm tắt.
 
@@ -127,7 +129,7 @@ Và bạn đã có nó! Bằng cách làm theo hướng dẫn này, bạn đã t
 ### Aspose.Words dành cho .NET là gì?
 Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và hiển thị các tài liệu Word theo cách lập trình.
 
-### Làm thế nào để lấy được khóa API cho các mô hình AI?
+### Làm thế nào để tôi có được khóa API cho các mô hình AI?
 Bạn có thể lấy khóa API từ các nhà cung cấp AI như OpenAI hoặc Google. Đảm bảo tạo tài khoản và làm theo hướng dẫn của họ để tạo khóa.
 
 ### Tôi có thể sử dụng Aspose.Words cho các định dạng tệp khác không?
@@ -137,10 +139,15 @@ Có! Aspose.Words hỗ trợ nhiều định dạng tệp khác nhau, bao gồm 
 Aspose cung cấp bản dùng thử miễn phí, cho phép bạn kiểm tra các tính năng của nó. Bạn có thể tải xuống từ trang web của họ.
 
 ### Tôi có thể tìm thêm tài nguyên cho Aspose.Words ở đâu?
- Bạn có thể kiểm tra tài liệu[đây](https://reference.aspose.com/words/net/) để có hướng dẫn và thông tin chi tiết toàn diện.
+Bạn có thể kiểm tra tài liệu [đây](https://reference.aspose.com/words/net/) để có hướng dẫn và thông tin chi tiết toàn diện.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

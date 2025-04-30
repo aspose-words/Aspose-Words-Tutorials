@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi tệp văn bản sang tài liệu Word
-linktitle: Chuyển đổi tệp văn bản sang tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi tệp văn bản sang tài liệu Word bằng Aspose.Words cho .NET. Quản lý hiệu quả việc chuyển đổi tài liệu với hướng dẫn toàn diện của chúng tôi.
-weight: 10
-url: /vi/net/basic-conversions/txt-to-docx/
+"description": "Tìm hiểu cách chuyển đổi tệp văn bản sang tài liệu Word bằng Aspose.Words cho .NET. Quản lý hiệu quả việc chuyển đổi tài liệu với hướng dẫn toàn diện của chúng tôi."
+"linktitle": "Chuyển đổi tệp văn bản sang tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chuyển đổi tệp văn bản sang tài liệu Word"
+"url": "/vi/net/basic-conversions/txt-to-docx/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi tệp văn bản sang tài liệu Word
@@ -21,7 +23,7 @@ Chuyển đổi tệp văn bản sang tài liệu Word là yêu cầu phổ bi�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 - Microsoft Visual Studio được cài đặt trên máy của bạn.
--  Aspose.Words cho thư viện .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho thư viện .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Hiểu biết cơ bản về ngôn ngữ lập trình C#.
 
 ## Nhập không gian tên
@@ -35,7 +37,7 @@ Hãy cùng tìm hiểu các bước để chuyển đổi tệp văn bản thàn
 
 ### Bước 1: Tải tệp văn bản
 
- Đầu tiên, tải tệp văn bản vào Aspose.Words`Document` sự vật:
+Đầu tiên, tải tệp văn bản vào Aspose.Words `Document` sự vật:
 ```csharp
 // Chỉ định đường dẫn thư mục nơi tệp văn bản của bạn được đặt
 string dataDir = "YOUR_DOCUMENT_DIRECTORY/";
@@ -71,10 +73,15 @@ Có, Aspose.Words hỗ trợ nhiều nền tảng .NET khác nhau, đảm bảo 
 Có, bạn có thể xử lý hàng loạt nhiều tệp văn bản bằng API Aspose.Words để hợp lý hóa tác vụ chuyển đổi tài liệu của mình.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words ở đâu?
- Ghé thăm[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để biết thêm thông tin và hỗ trợ.
+Ghé thăm [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) Và [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để biết thêm thông tin và hỗ trợ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

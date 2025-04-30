@@ -1,14 +1,16 @@
 ---
-title: Metode Pembantu untuk Mengekstrak Konten di Aspose.Words untuk Java
-linktitle: Metode Pembantu untuk Mengekstrak Konten
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mengekstrak konten secara efisien dari dokumen Word menggunakan Aspose.Words untuk Java. Jelajahi metode bantuan, pemformatan khusus, dan banyak lagi dalam panduan lengkap ini.
-weight: 14
-url: /id/java/document-manipulation/helper-methods-for-extracting-content/
+"description": "Pelajari cara mengekstrak konten secara efisien dari dokumen Word menggunakan Aspose.Words untuk Java. Jelajahi metode bantuan, pemformatan khusus, dan banyak lagi dalam panduan lengkap ini."
+"linktitle": "Metode Pembantu untuk Mengekstrak Konten"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Metode Pembantu untuk Mengekstrak Konten di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/helper-methods-for-extracting-content/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metode Pembantu untuk Mengekstrak Konten di Aspose.Words untuk Java
@@ -20,7 +22,7 @@ Aspose.Words untuk Java adalah pustaka canggih yang memungkinkan pengembang beke
 
 ## Prasyarat
 
-Sebelum kita menyelami contoh kode, pastikan Anda telah menginstal dan mengatur Aspose.Words untuk Java di proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+Sebelum kita menyelami contoh kode, pastikan Anda telah menginstal dan mengatur Aspose.Words untuk Java di proyek Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Metode Pembantu 1: Mengekstrak Paragraf Berdasarkan Gaya
 
@@ -63,7 +65,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    //Ekstrak konten berdasarkan node tingkat blok (paragraf dan tabel). Telusuri node induk untuk menemukannya.
+    // Ekstrak konten berdasarkan node tingkat blok (paragraf dan tabel). Telusuri node induk untuk menemukannya.
     // Kami akan membagi konten node pertama dan terakhir, tergantung pada apakah node penandanya sebaris.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
@@ -89,7 +91,7 @@ public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node en
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            //Kondisi perlu dipisahkan karena penanda awal dan akhir tingkat blok mungkin merupakan simpul yang sama.
+            // Kondisi perlu dipisahkan karena penanda awal dan akhir tingkat blok mungkin merupakan simpul yang sama.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
@@ -152,7 +154,7 @@ Mengekstrak konten dari dokumen Word dapat menjadi bagian penting dari banyak tu
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Untuk menginstal Aspose.Words untuk Java, Anda dapat mengunduhnya dari situs web Aspose. Kunjungi[Di Sini](https://releases.aspose.com/words/java/) untuk mendapatkan versi terbaru.
+Untuk menginstal Aspose.Words untuk Java, Anda dapat mengunduhnya dari situs web Aspose. Kunjungi [Di Sini](https://releases.aspose.com/words/java/) untuk mendapatkan versi terbaru.
 
 ### Bisakah saya mengekstrak konten dari bagian tertentu dokumen Word?
 
@@ -168,10 +170,15 @@ Ya, Anda dapat menyesuaikan format konten yang diekstrak dengan memodifikasi nod
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Words untuk Java?
 
- Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.Words untuk Java di situs web Aspose. Kunjungi[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) untuk dokumentasi dan sumber daya terperinci.
+Anda dapat menemukan dokumentasi dan contoh lengkap untuk Aspose.Words untuk Java di situs web Aspose. Kunjungi [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) untuk dokumentasi dan sumber daya terperinci.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

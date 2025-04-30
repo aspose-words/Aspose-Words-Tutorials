@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-table-styles-and-formatting/set-table-cell-formatting/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Table Cell Formatting
@@ -131,9 +134,13 @@ Yes, you can change the text alignment using the `ParagraphFormat` property of t
 ### Is there a way to add borders to the table cells?
 Yes, you can add borders to the table cells by setting the `Borders` property of the `CellFormat` class.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

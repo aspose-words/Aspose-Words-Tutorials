@@ -7,8 +7,11 @@ weight: 17
 url: /python-net/document-combining-and-comparison/manage-digital-signatures/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Digital Signatures and Authenticity
@@ -104,9 +107,13 @@ Aspose.Words supports X.509 certificates, including PFX files, which are commonl
 
 Yes, digital signatures are legally valid in many countries and are often considered equivalent to handwritten signatures.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

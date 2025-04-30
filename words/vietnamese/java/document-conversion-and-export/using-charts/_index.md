@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Biểu đồ trong Aspose.Words cho Java
-linktitle: Sử dụng biểu đồ
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words cho Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục để trực quan hóa dữ liệu.
-weight: 12
-url: /vi/java/document-conversion-and-export/using-charts/
+"description": "Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words cho Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục để trực quan hóa dữ liệu."
+"linktitle": "Sử dụng biểu đồ"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Biểu đồ trong Aspose.Words cho Java"
+"url": "/vi/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Biểu đồ trong Aspose.Words cho Java
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // Thay đổi trục X thành danh mục thay vì ngày tháng.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Được đo theo đơn vị hiển thị của trục Y (hàng trăm).
+xAxis.setCrossesAt(3.0); // Được đo theo đơn vị hiển thị của trục Y (hàng trăm).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ Trong hướng dẫn này, chúng ta đã khám phá cách làm việc với bi�
 
 ### Làm thế nào để tôi có thể thêm nhiều chuỗi vào biểu đồ?
 
- Bạn có thể thêm nhiều chuỗi vào biểu đồ bằng cách sử dụng`chart.getSeries().add()` phương pháp. Đảm bảo chỉ định tên sê-ri, danh mục và giá trị dữ liệu.
+Bạn có thể thêm nhiều chuỗi vào biểu đồ bằng cách sử dụng `chart.getSeries().add()` phương pháp. Đảm bảo chỉ định tên sê-ri, danh mục và giá trị dữ liệu.
 
 ### Làm thế nào để định dạng nhãn dữ liệu theo định dạng số tùy chỉnh?
 
-Bạn có thể định dạng nhãn dữ liệu bằng cách truy cập`DataLabels` thuộc tính của một chuỗi và thiết lập mã định dạng mong muốn bằng cách sử dụng`getNumberFormat().setFormatCode()`.
+Bạn có thể định dạng nhãn dữ liệu bằng cách truy cập `DataLabels` thuộc tính của một chuỗi và thiết lập mã định dạng mong muốn bằng cách sử dụng `getNumberFormat().setFormatCode()`.
 
 ### Làm thế nào để tùy chỉnh thuộc tính trục trong biểu đồ?
 
- Bạn có thể tùy chỉnh các thuộc tính trục như loại, dấu tích, nhãn và nhiều hơn nữa bằng cách truy cập`ChartAxis` các thuộc tính như`setCategoryType()`, `setCrosses()` , Và`setMajorTickMark()`.
+Bạn có thể tùy chỉnh các thuộc tính trục như loại, dấu tích, nhãn và nhiều hơn nữa bằng cách truy cập `ChartAxis` các thuộc tính như `setCategoryType()`, `setCrosses()`, Và `setMajorTickMark()`.
 
 ### Làm thế nào tôi có thể tạo các loại biểu đồ khác như biểu đồ phân tán hoặc biểu đồ diện tích?
 
- Bạn có thể tạo nhiều loại biểu đồ khác nhau bằng cách chỉ định các loại biểu đồ thích hợp.`ChartType` khi chèn biểu đồ bằng cách sử dụng`builder.insertChart(ChartType.TYPE, width, height)`.
+Bạn có thể tạo nhiều loại biểu đồ khác nhau bằng cách chỉ định các loại biểu đồ thích hợp. `ChartType` khi chèn biểu đồ bằng cách sử dụng `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Làm thế nào để ẩn trục biểu đồ?
 
- Bạn có thể ẩn trục biểu đồ bằng cách thiết lập`setHidden(true)` tính chất của trục.
+Bạn có thể ẩn trục biểu đồ bằng cách thiết lập `setHidden(true)` tính chất của trục.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

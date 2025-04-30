@@ -1,14 +1,16 @@
 ---
-title: Kontrol Konten yang Jelas
-linktitle: Kontrol Konten yang Jelas
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus kontrol konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/programming-with-sdt/clear-contents-control/
+"description": "Pelajari cara menghapus kontrol konten dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami."
+"linktitle": "Kontrol Konten yang Jelas"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kontrol Konten yang Jelas"
+"url": "/id/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kontrol Konten yang Jelas
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia Aspose.Words untuk .NET? Hari ini, kita a
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk .NET: Unduh pustaka dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Unduh pustaka dari [Di Sini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 3. IDE: Lingkungan Pengembangan Terpadu seperti Visual Studio.
 4. Dokumen: Dokumen Word dengan tag dokumen terstruktur.
@@ -44,7 +46,7 @@ Mari kita uraikan proses penghapusan kontrol konten ke dalam beberapa langkah te
 Pertama, atur lingkungan proyek Anda.
 
 1. Buka Visual Studio: Jalankan Visual Studio atau IDE pilihan Anda.
-2.  Buat Proyek Baru: Buka`File` >`New` >`Project`, dan pilih Aplikasi Konsol C#.
+2. Buat Proyek Baru: Buka `File` > `New` > `Project`, dan pilih Aplikasi Konsol C#.
 3. Instal Aspose.Words untuk .NET: Gunakan NuGet Package Manager untuk menginstal Aspose.Words. Jalankan perintah berikut di Package Manager Console:
 ```sh
 Install-Package Aspose.Words
@@ -58,7 +60,7 @@ Berikutnya, mari muat dokumen Word yang berisi tag dokumen terstruktur.
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Muat Dokumen: Gunakan`Document` kelas untuk memuat dokumen Word Anda.
+2. Muat Dokumen: Gunakan `Document` kelas untuk memuat dokumen Word Anda.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -76,7 +78,7 @@ Sekarang, mari mengakses tag dokumen terstruktur (SDT) dalam dokumen tersebut.
 
 Hapus konten tag dokumen terstruktur.
 
-1.  Hapus Isi SDT: Gunakan`Clear` metode untuk menghapus konten.
+1. Hapus Isi SDT: Gunakan `Clear` metode untuk menghapus konten.
    ```csharp
    sdt.Clear();
    ```
@@ -100,13 +102,13 @@ Selamat! Anda telah berhasil menghapus kontrol konten dalam dokumen Word menggun
 
 Aspose.Words untuk .NET adalah pustaka yang hebat untuk bekerja dengan dokumen Word secara terprogram dalam kerangka kerja .NET.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
+### Bisakah saya menggunakan Aspose.Words secara gratis?
 
- Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/).
+Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words?
 
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
 
 ### Apa itu Tag Dokumen Terstruktur?
 
@@ -114,11 +116,16 @@ Tag Dokumen Terstruktur (SDT) adalah kontrol konten dalam dokumen Word yang berf
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words?
 
- Dokumentasinya tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasinya tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

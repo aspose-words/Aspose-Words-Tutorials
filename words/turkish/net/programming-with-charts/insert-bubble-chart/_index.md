@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Baloncuk Grafiği Ekle
-linktitle: Word Belgesine Baloncuk Grafiği Ekle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin.
-weight: 10
-url: /tr/net/programming-with-charts/insert-bubble-chart/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin."
+"linktitle": "Word Belgesine Baloncuk Grafiği Ekle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Baloncuk Grafiği Ekle"
+"url": "/tr/net/programming-with-charts/insert-bubble-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Baloncuk Grafiği Ekle
@@ -21,7 +23,7 @@ Word belgelerinizi daha dinamik ve görsel olarak çekici hale getirmenin bir yo
 
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-- Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme sayfası](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz yapmadıysanız, Aspose.Words for .NET'i indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [indirme sayfası](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: .NET kodu yazıp çalıştırabileceğiniz bir geliştirme ortamı kurmalısınız. Visual Studio popüler bir seçimdir.
 - Temel C# Bilgisi: Bu rehber başlangıç seviyesindekilere uygun olsa da, C# hakkında temel bir anlayışa sahip olmak, konuyu daha kolay takip etmenize yardımcı olacaktır.
 
@@ -42,7 +44,7 @@ Süreci yönetilebilir adımlara bölelim. Dikkatlice takip edin ve kısa süred
 Tabloyu oluşturmaya başlamadan önce, belgemizin kaydedileceği dizine giden yolu tanımlamamız gerekir. Bu, belgemizin doğru yerde saklandığından emin olmamızı sağlar.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -64,7 +66,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 4: Balon Grafiğini Ekleyin
 
- Şimdi heyecan verici kısım geliyor - balon grafiğini eklemek.`InsertChart` türünde bir grafik ekleme yöntemi`Bubble` belgemize.
+Şimdi heyecan verici kısım geliyor - balon grafiğini eklemek. `InsertChart` türünde bir grafik ekleme yöntemi `Bubble` belgemize.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
@@ -95,7 +97,7 @@ Tebrikler! Aspose.Words for .NET kullanarak bir Word belgesine başarıyla bir b
 
 ### Balon grafiğinin görünümünü özelleştirebilir miyim?
 
- Kesinlikle! Aspose.Words for .NET, renklerden ve etiketlerden veri serisi biçimlendirmesine kadar geniş bir özelleştirme seçeneği yelpazesi sunar. Şuraya göz atın:[belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
+Kesinlikle! Aspose.Words for .NET, renklerden ve etiketlerden veri serisi biçimlendirmesine kadar geniş bir özelleştirme seçeneği yelpazesi sunar. Şuraya göz atın: [belgeleme](https://reference.aspose.com/words/net/) Daha detaylı bilgi için.
 
 ### Tek bir belgeye birden fazla grafik eklemek mümkün müdür?
 
@@ -107,14 +109,19 @@ Kesinlikle. Bu kılavuz C# kullanırken, Aspose.Words for .NET, VB.NET gibi diğ
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan alabilirsiniz:[web sitesi](https://releases.aspose.com/)Bu, satın alma işlemi yapmadan önce özellikleri test etmenizi sağlar.
+Ücretsiz deneme sürümünü şuradan alabilirsiniz: [web sitesi](https://releases.aspose.com/)Bu, satın alma işlemi yapmadan önce özellikleri test etmenizi sağlar.
 
 ### Aspose.Words for .NET için daha fazla öğretici ve desteği nerede bulabilirim?
 
- Daha fazla eğitim ve destek için şurayı ziyaret edin:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Daha fazla eğitim ve destek için şurayı ziyaret edin: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

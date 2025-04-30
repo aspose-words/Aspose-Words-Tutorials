@@ -1,14 +1,16 @@
 ---
-title: Użyj stylów docelowych
-linktitle: Użyj stylów docelowych
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak używać stylów docelowych w Aspose.Words for .NET, aby płynnie dołączać dokumenty, zachowując przy tym spójne formatowanie.
-weight: 10
-url: /pl/net/join-and-append-documents/use-destination-styles/
+"description": "Dowiedz się, jak używać stylów docelowych w Aspose.Words for .NET, aby płynnie dołączać dokumenty, zachowując przy tym spójne formatowanie."
+"linktitle": "Użyj stylów docelowych"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Użyj stylów docelowych"
+"url": "/pl/net/join-and-append-documents/use-destination-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Użyj stylów docelowych
@@ -21,13 +23,13 @@ Aspose.Words for .NET to potężna biblioteka do programowego manipulowania doku
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Jeśli jeszcze go nie masz, pobierz go ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Jeśli jeszcze go nie masz, pobierz go ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#.
 - Podstawowa wiedza o języku C#: Przydatna będzie znajomość podstaw programowania w języku C#.
 
 ## Importuj przestrzenie nazw
 
-Zanim zagłębisz się w kod, musisz zaimportować niezbędne przestrzenie nazw. Jest to kluczowe dla dostępu do klas i metod udostępnianych przez Aspose.Words.
+Przed zagłębieniem się w kod, musisz zaimportować niezbędne przestrzenie nazw. Jest to kluczowe dla dostępu do klas i metod dostarczanych przez Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -37,7 +39,7 @@ Podzielmy proces korzystania ze stylów docelowych podczas dołączania dokument
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
- Najpierw zdefiniuj ścieżkę do katalogu dokumentów. To tutaj znajdują się dokumenty źródłowe i docelowe. Będziesz musiał zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
+Najpierw zdefiniuj ścieżkę do katalogu dokumentów. To tutaj znajdują się dokumenty źródłowe i docelowe. Będziesz musiał zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twoich dokumentów.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 2: Załaduj dokument źródłowy
 
-Następnie załaduj dokument źródłowy, który chcesz dołączyć do dokumentu docelowego. Aspose.Words zapewnia prosty sposób wykonania tego za pomocą`Document` klasa.
+Następnie załaduj dokument źródłowy, który chcesz dołączyć do dokumentu docelowego. Aspose.Words zapewnia prosty sposób wykonania tego za pomocą `Document` klasa.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -61,7 +63,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Krok 4: Dołącz dokument źródłowy, używając stylów docelowych
 
- Teraz nadchodzi kluczowa część: dołączenie dokumentu źródłowego do dokumentu docelowego przy użyciu stylów dokumentu docelowego.`AppendDocument` metoda`Document` Klasa pozwala ci to zrobić.`ImportFormatMode.UseDestinationStyles` Parametr zapewnia użycie stylów dokumentu docelowego.
+Teraz nadchodzi kluczowa część: dołączenie dokumentu źródłowego do dokumentu docelowego przy użyciu stylów dokumentu docelowego. `AppendDocument` metoda `Document` Klasa pozwala ci to zrobić. `ImportFormatMode.UseDestinationStyles` Parametr zapewnia użycie stylów dokumentu docelowego.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles);
@@ -88,16 +90,21 @@ Tak, możesz stosować różne style w różnych sekcjach, zarządzając stylami
 Nie ma sztywnego limitu; zależy to od pamięci i możliwości przetwarzania Twojego systemu.
 
 ### Jak wydajnie obsługiwać duże dokumenty?
-W przypadku obszernych dokumentów warto rozważyć wykorzystanie przetwarzania strumieniowego w celu ich wydajnej obsługi.
+W przypadku obszernych dokumentów warto rozważyć zastosowanie przetwarzania strumieniowego w celu ich wydajnej obsługi.
 
 ### Czy mogę dołączać dokumenty w różnych formatach?
 Aspose.Words umożliwia dołączanie dokumentów w różnych formatach, ale końcowy dokument musi zostać zapisany w jednym formacie.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
- Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

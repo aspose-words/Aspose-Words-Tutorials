@@ -1,14 +1,16 @@
 ---
-title: Membandingkan Dokumen untuk Menemukan Perbedaan
-linktitle: Membandingkan Dokumen untuk Menemukan Perbedaan
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membandingkan dokumen untuk mengetahui perbedaannya menggunakan Aspose.Words di Java. Panduan langkah demi langkah kami memastikan manajemen dokumen yang akurat.
-weight: 12
-url: /id/java/document-merging/comparing-documents-for-differences/
+"description": "Pelajari cara membandingkan dokumen untuk mengetahui perbedaannya menggunakan Aspose.Words di Java. Panduan langkah demi langkah kami memastikan manajemen dokumen yang akurat."
+"linktitle": "Membandingkan Dokumen untuk Menemukan Perbedaan"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membandingkan Dokumen untuk Menemukan Perbedaan"
+"url": "/id/java/document-merging/comparing-documents-for-differences/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membandingkan Dokumen untuk Menemukan Perbedaan
@@ -21,10 +23,10 @@ Pernahkah Anda bertanya-tanya bagaimana cara menemukan setiap perbedaan antara d
 
 Sebelum masuk ke kode, pastikan Anda telah menyiapkan hal berikut:  
 1. Java Development Kit (JDK) terinstal di sistem Anda.  
-2.  Aspose.Words untuk pustaka Java. Anda dapat[unduh disini](https://releases.aspose.com/words/java/).  
+2. Aspose.Words untuk pustaka Java. Anda dapat [unduh disini](https://releases.aspose.com/words/java/).  
 3. Lingkungan pengembangan seperti IntelliJ IDEA atau Eclipse.  
 4. Kemampuan dasar dalam pemrograman Java.  
-5.  Lisensi Aspose yang valid. Jika Anda belum memilikinya, dapatkan lisensi[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+5. Lisensi Aspose yang valid. Jika Anda belum memilikinya, dapatkan lisensi [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
 
 ## Paket Impor
 
@@ -55,7 +57,7 @@ builder = new DocumentBuilder(doc2);
 builder.writeln("This is the edited document.");
 ```
 
- Ini menciptakan dua dokumen dalam memori dengan konten dasar. Anda juga dapat memuat dokumen Word yang ada menggunakan`new Document("path/to/document.docx")`.
+Ini menciptakan dua dokumen dalam memori dengan konten dasar. Anda juga dapat memuat dokumen Word yang ada menggunakan `new Document("path/to/document.docx")`.
 
 
 ## Langkah 2: Periksa Revisi yang Ada
@@ -73,7 +75,7 @@ Jika ada revisi, Anda mungkin ingin menerima atau menolaknya sebelum melanjutkan
 
 ## Langkah 3: Bandingkan Dokumen
 
- Gunakan`compare` metode untuk menemukan perbedaan. Metode ini membandingkan dokumen target (`doc2`) dengan dokumen sumber (`doc1`):
+Gunakan `compare` metode untuk menemukan perbedaan. Metode ini membandingkan dokumen target (`doc2`) dengan dokumen sumber (`doc1`):
 
 ```java
 doc1.compare(doc2, "AuthorName", new Date());
@@ -107,7 +109,7 @@ Jika Anda menginginkan dokumen sumber (`doc1`) untuk mencocokkan dokumen target 
 doc1.getRevisions().acceptAll();
 ```
 
- Pembaruan ini`doc1` untuk mencerminkan semua perubahan yang dibuat di`doc2`.
+Pembaruan ini `doc1` untuk mencerminkan semua perubahan yang dibuat di `doc2`.
 
 
 ## Langkah 6: Simpan Dokumen yang Diperbarui
@@ -151,9 +153,9 @@ Membandingkan dokumen bukan lagi pekerjaan yang membosankan, berkat Aspose.Words
 Ya, Aspose.Words mendukung perbandingan dokumen yang kompleks, termasuk dokumen yang berisi gambar, tabel, dan pemformatan.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan fitur ini?  
- Ya, lisensi diperlukan untuk fungsionalitas penuh. Dapatkan lisensi[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+Ya, lisensi diperlukan untuk fungsionalitas penuh. Dapatkan lisensi [lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
 
-### Apa yang terjadi jika ada revisi yang sudah ada sebelumnya?  
+### Apa yang terjadi jika terdapat revisi yang sudah ada sebelumnya?  
 Anda harus menerima atau menolaknya sebelum membandingkan dokumen untuk menghindari konflik.
 
 ### Bisakah saya menyorot revisi dalam dokumen?  
@@ -161,9 +163,14 @@ Ya, Aspose.Words memungkinkan Anda menyesuaikan bagaimana revisi ditampilkan, se
 
 ### Apakah fitur ini tersedia dalam bahasa pemrograman lain?  
 Ya, Aspose.Words mendukung banyak bahasa, termasuk .NET dan Python.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

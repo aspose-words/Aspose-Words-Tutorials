@@ -1,14 +1,16 @@
 ---
-title: Memperluas Fungsionalitas Dokumen dengan Ekstensi Web
-linktitle: Memperluas Fungsionalitas Dokumen dengan Ekstensi Web
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara memperluas fungsionalitas dokumen dengan ekstensi web menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk integrasi yang lancar.
-weight: 13
-url: /id/python-net/document-options-and-settings/document-functionality-web-extensions/
+"description": "Pelajari cara memperluas fungsionalitas dokumen dengan ekstensi web menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk integrasi yang lancar."
+"linktitle": "Memperluas Fungsionalitas Dokumen dengan Ekstensi Web"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Memperluas Fungsionalitas Dokumen dengan Ekstensi Web"
+"url": "/id/python-net/document-options-and-settings/document-functionality-web-extensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memperluas Fungsionalitas Dokumen dengan Ekstensi Web
@@ -23,15 +25,15 @@ Ekstensi web telah menjadi bagian integral dari sistem manajemen dokumen modern.
 Sebelum kita menyelami detail teknisnya, pastikan Anda memiliki prasyarat berikut:
 
 - Pemahaman dasar tentang pemrograman Python.
--  Aspose.Words untuk referensi API Python (tersedia di[Di Sini](https://reference.aspose.com/words/python-net/).
--  Akses ke Aspose.Words untuk pustaka Python (unduh dari[Di Sini](https://releases.aspose.com/words/python/).
+- Aspose.Words untuk referensi API Python (tersedia di [Di Sini](https://reference.aspose.com/words/python-net/).
+- Akses ke Aspose.Words untuk pustaka Python (unduh dari [Di Sini](https://releases.aspose.com/words/python/).
 
 ## Menyiapkan Aspose.Words untuk Python
 
 Untuk memulai, ikuti langkah-langkah berikut untuk menyiapkan Aspose.Words untuk Python:
 
 1. Unduh pustaka Aspose.Words untuk Python dari tautan yang disediakan.
-2.  Instal perpustakaan menggunakan manajer paket yang sesuai (misalnya,`pip`).
+2. Instal perpustakaan menggunakan manajer paket yang sesuai (misalnya, `pip`).
 
 ```python
 pip install aspose-words
@@ -62,7 +64,7 @@ builder.writeln("Hello, world!")
 
 ## Menerapkan Gaya dan Pemformatan
 
-Penataan gaya dan pemformatan memainkan peran penting dalam penyajian dokumen. Aspose.Words menyediakan berbagai opsi untuk penataan gaya dan pemformatan:
+Penataan dan pemformatan memainkan peran penting dalam penyajian dokumen. Aspose.Words menyediakan berbagai opsi untuk penataan dan pemformatan:
 
 ```python
 font = builder.font
@@ -115,14 +117,19 @@ Ya, ekstensi web dapat digunakan untuk mengubah konten dokumen secara dinamis. M
 
 ### Dalam format apa saya dapat menyimpan dokumen tersebut?
 
-Aspose.Words mendukung berbagai format penyimpanan dokumen, termasuk DOCX, PDF, HTML, dan lainnya. Anda dapat memilih format yang paling sesuai dengan kebutuhan Anda.
+Aspose.Words mendukung berbagai format untuk menyimpan dokumen, termasuk DOCX, PDF, HTML, dan banyak lagi. Anda dapat memilih format yang paling sesuai dengan kebutuhan Anda.
 
 ### Apakah ada cara untuk mengoptimalkan kinerja ekstensi web?
 
 Untuk mengoptimalkan kinerja ekstensi web, minimalkan permintaan eksternal, gunakan pemuatan asinkron, dan lakukan pengujian menyeluruh pada berbagai browser dan perangkat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: ضبط خيارات وإعدادات المستندات لتحقيق الكفاءة
-linktitle: ضبط خيارات وإعدادات المستندات لتحقيق الكفاءة
-second_title: Aspose.Words - واجهة برمجة تطبيقات إدارة المستندات باستخدام Python
-description: تعرف على كيفية التعامل بكفاءة مع مستندات Word باستخدام Aspose.Words for Python. دليل خطوة بخطوة مع الكود المصدر.
-weight: 11
-url: /ar/python-net/document-options-and-settings/manage-document-options-settings/
+"description": "تعلّم كيفية التعامل بكفاءة مع مستندات Word باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع الكود المصدري."
+"linktitle": "ضبط خيارات وإعدادات المستند لتحقيق الكفاءة"
+"second_title": "Aspose.Words Python Document Management API"
+"title": "ضبط خيارات وإعدادات المستند لتحقيق الكفاءة"
+"url": "/ar/python-net/document-options-and-settings/manage-document-options-settings/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ضبط خيارات وإعدادات المستندات لتحقيق الكفاءة
+# ضبط خيارات وإعدادات المستند لتحقيق الكفاءة
 
 
 ## مقدمة إلى Aspose.Words لـ Python:
 
-Aspose.Words for Python عبارة عن واجهة برمجة تطبيقات غنية بالميزات تتيح للمطورين إنشاء مستندات Word ومعالجتها ومعالجتها برمجيًا. وهي توفر مجموعة واسعة من الفئات والطرق للتعامل مع عناصر المستندات المختلفة مثل النصوص والفقرات والجداول والصور والمزيد.
+Aspose.Words for Python هي واجهة برمجة تطبيقات غنية بالميزات تُمكّن المطورين من إنشاء مستندات Word وتعديلها ومعالجتها برمجيًا. توفر مجموعة شاملة من الفئات والأساليب للتعامل مع عناصر المستندات المختلفة، مثل النصوص والفقرات والجداول والصور وغيرها.
 
 ## إعداد البيئة:
 
-للبدء، تأكد من تثبيت Python على نظامك. يمكنك تثبيت مكتبة Aspose.Words باستخدام pip:
+للبدء، تأكد من تثبيت بايثون على نظامك. يمكنك تثبيت مكتبة Aspose.Words باستخدام pip:
 
 ```python
 pip install aspose-words
@@ -48,7 +50,7 @@ doc.built_in_document_properties["Keywords"].value = "Python, Aspose.Words, Docu
 
 ## إدارة إعداد الصفحة:
 
-يضمن التحكم في أبعاد الصفحة والهوامش والاتجاه ظهور مستندك بالشكل المقصود:
+إن التحكم في أبعاد الصفحة والهوامش والاتجاه يضمن ظهور مستندك كما هو مقصود:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -69,9 +71,9 @@ for para in doc.get_child_nodes(aw.NodeType.PARAGRAPH, True):
     para.paragraph_format.alignment = aw.ParagraphAlignment.CENTER
 ```
 
-## العمل مع الأقسام والرؤوس والتذييلات:
+## العمل مع الأقسام والرؤوس/التذييلات:
 
-قم بتقسيم مستندك إلى أقسام وتخصيص الرؤوس والتذييلات:
+قم بتقسيم مستندك إلى أقسام وقم بتخصيص الرؤوس والتذييلات:
 
 ```python
 section = doc.sections[0]
@@ -81,7 +83,7 @@ header.append_paragraph("My Custom Header")
 
 ## إضافة الجداول وتنسيقها:
 
-تُعد الجداول جزءًا لا يتجزأ من العديد من المستندات. وفيما يلي كيفية إنشائها وتنسيقها:
+الجداول جزء لا يتجزأ من العديد من المستندات. إليك كيفية إنشائها وتنسيقها:
 
 ```python
 table = doc.tables.add(section.body)
@@ -92,7 +94,7 @@ for row in table.rows:
 
 ## دمج الصور والروابط التشعبية:
 
-إثراء مستندك بالصور والارتباطات التشعبية:
+قم بإثراء مستندك بالصور والروابط التشعبية:
 
 ```python
 shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
@@ -111,13 +113,13 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ## خاتمة:
 
-يتيح Aspose.Words for Python للمطورين إدارة خيارات وإعدادات المستندات بكفاءة، مما يوفر تحكمًا دقيقًا في كل جانب من جوانب إنشاء المستندات ومعالجتها. تجعله واجهة برمجة التطبيقات البديهية والتوثيق الشامل أداة لا تقدر بثمن للمهام المتعلقة بالمستندات.
+يُمكّن Aspose.Words for Python المطورين من إدارة خيارات وإعدادات المستندات بكفاءة، مُوفرًا تحكمًا دقيقًا في جميع جوانب إنشاء المستندات ومعالجتها. واجهة برمجة التطبيقات سهلة الاستخدام ووثائقها الشاملة تجعلها أداةً قيّمةً للمهام المتعلقة بالمستندات.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تثبيت Aspose.Words لـ Python؟
 
-يمكنك تثبيت Aspose.Words لـ Python باستخدام الأمر pip التالي:
+يمكنك تثبيت Aspose.Words لـ Python باستخدام أمر pip التالي:
 
 ```python
 pip install aspose-words
@@ -129,7 +131,7 @@ pip install aspose-words
 
 ### كيف أقوم بتعديل هوامش الصفحة باستخدام واجهة برمجة التطبيقات (API)؟
 
- يمكنك تعديل هوامش الصفحة باستخدام`PageSetup` الصف. على سبيل المثال:
+يمكنك تعديل هوامش الصفحة باستخدام `PageSetup` الصف. على سبيل المثال:
 
 ```python
 page_setup = doc.sections[0].page_setup
@@ -139,7 +141,7 @@ page_setup.right_margin = aw.ConvertUtil.inch_to_point(1)
 
 ### هل يمكنني تصدير مستندي إلى PDF باستخدام Aspose.Words؟
 
- بالتأكيد، يمكنك تصدير مستندك إلى تنسيقات مختلفة، بما في ذلك PDF، باستخدام`save` الطريقة. على سبيل المثال:
+بالتأكيد، يمكنك تصدير مستندك إلى تنسيقات مختلفة، بما في ذلك PDF، باستخدام `save` الطريقة. على سبيل المثال:
 
 ```python
 doc.save("output.pdf", aw.SaveFormat.PDF)
@@ -147,10 +149,15 @@ doc.save("output.pdf", aw.SaveFormat.PDF)
 
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Words for Python؟
 
- يمكنك الرجوع إلى الوثائق على[هنا](https://reference.aspose.com/words/python-net/).
+يمكنك الرجوع إلى الوثائق في [هنا](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

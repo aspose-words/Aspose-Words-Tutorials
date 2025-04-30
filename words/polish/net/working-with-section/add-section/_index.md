@@ -1,14 +1,16 @@
 ---
-title: Dodawanie sekcji w programie Word
-linktitle: Dodawanie sekcji w programie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać sekcje w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje wszystko, od tworzenia dokumentu po dodawanie i zarządzanie sekcjami.
-weight: 10
-url: /pl/net/working-with-section/add-section/
+"description": "Dowiedz się, jak dodawać sekcje w dokumentach Word za pomocą Aspose.Words dla .NET. Ten przewodnik obejmuje wszystko, od tworzenia dokumentu po dodawanie i zarządzanie sekcjami."
+"linktitle": "Dodawanie sekcji w programie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodawanie sekcji w programie Word"
+"url": "/pl/net/working-with-section/add-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie sekcji w programie Word
@@ -22,9 +24,9 @@ Cześć, koledzy programiści! 👋 Czy kiedykolwiek otrzymaliście zadanie utwo
 
 Zanim przejdziemy do kodu, omówmy, czego będziesz potrzebować:
 
-1.  Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Upewnij się, że masz najnowszą wersję. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Wystarczy środowisko IDE zgodne z platformą .NET, np. Visual Studio.
-3. Podstawowa wiedza języka C#: Zrozumienie składni języka C# pomoże Ci płynnie śledzić postępy.
+3. Podstawowa wiedza języka C#: Zrozumienie składni języka C# pomoże Ci płynnie śledzić tekst.
 4. Przykładowy dokument Word: Choć utworzymy go od podstaw, przykład może być przydatny do celów testowych.
 
 ## Importuj przestrzenie nazw
@@ -65,7 +67,7 @@ builder.Writeln("Hello1");
 builder.Writeln("Hello2");
 ```
 
-Te wiersze dodają dwa akapity, „Hello1” i „Hello2”, do dokumentu. Ta treść będzie domyślnie umieszczona w pierwszej sekcji.
+Te wiersze dodają do dokumentu dwa akapity, „Hello1” i „Hello2”. Ta treść domyślnie będzie znajdować się w pierwszej sekcji.
 
 ## Krok 3: Dodawanie nowej sekcji
 
@@ -89,7 +91,7 @@ Po dodaniu nowej sekcji możemy wypełnić ją treścią, tak jak pierwszą sekc
 
 ### Korzystanie z DocumentBuilder dla nowej sekcji
 
- Aby dodać treść do nowej sekcji, musisz ustawić`DocumentBuilder` kursor do nowej sekcji:
+Aby dodać treść do nowej sekcji, musisz ustawić `DocumentBuilder` kursor do nowej sekcji:
 
 ```csharp
 builder.MoveToSection(doc.Sections.IndexOf(sectionToAdd));
@@ -109,15 +111,15 @@ Po dodaniu sekcji i treści ostatnim krokiem jest zapisanie dokumentu. Dzięki t
 doc.Save("YourPath/YourDocument.docx");
 ```
 
- Zastępować`"YourPath/YourDocument.docx"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument. Ta linia kodu zapisze Twój plik Word, kompletny z nowymi sekcjami i zawartością.
+Zastępować `"YourPath/YourDocument.docx"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument. Ta linia kodu zapisze Twój plik Word, kompletny z nowymi sekcjami i zawartością.
 
 ## Wniosek
 
- Gratulacje! 🎉 Udało Ci się nauczyć, jak dodawać sekcje do dokumentu Word za pomocą Aspose.Words dla .NET. Sekcje to potężne narzędzie do organizowania treści, dzięki któremu dokumenty są łatwiejsze do czytania i nawigacji. Niezależnie od tego, czy pracujesz nad prostym dokumentem, czy złożonym raportem, opanowanie sekcji podniesie Twoje umiejętności formatowania dokumentów. Nie zapomnij sprawdzić[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) dla bardziej zaawansowanych funkcji i możliwości. Miłego kodowania!
+Gratulacje! 🎉 Udało Ci się nauczyć, jak dodawać sekcje do dokumentu Word za pomocą Aspose.Words dla .NET. Sekcje to potężne narzędzie do organizowania treści, dzięki któremu dokumenty są łatwiejsze do czytania i nawigacji. Niezależnie od tego, czy pracujesz nad prostym dokumentem, czy złożonym raportem, opanowanie sekcji podniesie Twoje umiejętności formatowania dokumentów. Nie zapomnij sprawdzić [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) dla bardziej zaawansowanych funkcji i możliwości. Miłego kodowania!
 
 ## Często zadawane pytania
 
-### Czym jest sekcja w dokumencie programu Word?
+### Czym jest sekcja w dokumencie Word?
 
 Sekcja w dokumencie Word to segment, który może mieć własny układ i formatowanie, takie jak nagłówki, stopki i kolumny. Pomaga w organizowaniu treści w odrębne części.
 
@@ -135,10 +137,15 @@ Nie, sekcje nie mogą być zagnieżdżone jedna w drugiej. Możesz jednak mieć 
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words?
 
- Więcej informacji można znaleźć na stronie[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub[forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc i dyskusję.
+Więcej informacji można znaleźć na stronie [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) lub [forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc i dyskusję.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

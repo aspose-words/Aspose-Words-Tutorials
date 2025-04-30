@@ -1,14 +1,16 @@
 ---
-title: Wstaw zagnieżdżone pola
-linktitle: Wstaw zagnieżdżone pola
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać zagnieżdżone pola do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować tworzenie dokumentów.
-weight: 10
-url: /pl/net/working-with-fields/insert-nested-fields/
+"description": "Dowiedz się, jak wstawiać zagnieżdżone pola do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować tworzenie dokumentów."
+"linktitle": "Wstaw zagnieżdżone pola"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw zagnieżdżone pola"
+"url": "/pl/net/working-with-fields/insert-nested-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw zagnieżdżone pola
@@ -21,7 +23,7 @@ Czy kiedykolwiek zdarzyło Ci się programowo wstawiać zagnieżdżone pola do d
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz bibliotekę Aspose.Words dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: IDE, np. Visual Studio.
 3. Podstawowa wiedza o języku C#: Zrozumienie języka programowania C#.
 
@@ -115,16 +117,21 @@ Pole zagnieżdżone to pole, które zawiera inne pola w sobie. Umożliwia bardzi
 Tak, możesz zagnieżdżać różne pola, takie jak DATA, CZAS i AUTOR, w polu JEŻELI, aby tworzyć dynamiczną zawartość.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
- Aspose.Words dla .NET to biblioteka komercyjna, ale można ją pobrać[bezpłatny okres próbny](https://releases.aspose.com/) aby wypróbować.
+Aspose.Words dla .NET to biblioteka komercyjna, ale można ją pobrać [bezpłatny okres próbny](https://releases.aspose.com/) aby wypróbować.
 
 ### Czy mogę używać Aspose.Words z innymi językami .NET?
 Tak, Aspose.Words obsługuje wszystkie języki .NET, w tym VB.NET i F#.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

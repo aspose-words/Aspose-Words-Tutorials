@@ -1,14 +1,16 @@
 ---
-title: İçerik Denetimlerini Değiştir
-linktitle: İçerik Denetimlerini Değiştir
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word'de yapılandırılmış belge etiketlerini nasıl değiştireceğinizi öğrenin. Metni, açılır menüleri ve görselleri adım adım güncelleyin.
-weight: 10
-url: /tr/net/programming-with-sdt/modify-content-controls/
+"description": "Aspose.Words for .NET kullanarak Word'de yapılandırılmış belge etiketlerini nasıl değiştireceğinizi öğrenin. Metni, açılır menüleri ve görselleri adım adım güncelleyin."
+"linktitle": "İçerik Denetimlerini Değiştir"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İçerik Denetimlerini Değiştir"
+"url": "/tr/net/programming-with-sdt/modify-content-controls/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçerik Denetimlerini Değiştir
@@ -21,7 +23,7 @@ Word belgeleriyle çalıştıysanız ve .NET için Aspose.Words kullanarak düz 
 
 İçerik kontrollerini değiştirmenin inceliklerine girmeden önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  .NET için Aspose.Words Yüklendi: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Değilse, şunları yapabilirsiniz:[buradan indirin](https://releases.aspose.com/words/net/).
+1. .NET için Aspose.Words Yüklendi: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Değilse, şunları yapabilirsiniz: [buradan indirin](https://releases.aspose.com/words/net/).
 
 2. Temel C# Bilgisi: Bu eğitimde temel C# programlama kavramlarına aşina olduğunuzu varsayıyoruz.
 
@@ -29,7 +31,7 @@ Word belgeleriyle çalıştıysanız ve .NET için Aspose.Words kullanarak düz 
 
 4. Örnek Belge: Çeşitli SDT türlerini içeren bir örnek Word belgesi kullanacağız. Örnektekini kullanabilir veya kendinizinkini oluşturabilirsiniz.
 
-5.  Aspose Belgelerine Erişim: Daha ayrıntılı bilgi için şuraya bakın:[Aspose.Words belgeleri](https://reference.aspose.com/words/net/).
+5. Aspose Belgelerine Erişim: Daha ayrıntılı bilgi için şuraya bakın: [Aspose.Words belgeleri](https://reference.aspose.com/words/net/).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -45,7 +47,7 @@ Bu ad alanları, Word belgelerinizdeki yapılandırılmış belge etiketlerini d
 
 ## Adım 1: Belge Yolunuzu Ayarlayın
 
- Herhangi bir değişiklik yapmadan önce, belgenizin yolunu belirtmeniz gerekir. Değiştir`"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
+Herhangi bir değişiklik yapmadan önce, belgenizin yolunu belirtmeniz gerekir. Değiştir `"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Structured document tags.docx");
 
 ## Adım 2: Yapılandırılmış Belge Etiketleri Arasında Döngü
 
- SDT'leri değiştirmek için öncelikle belgedeki tüm SDT'leri dolaşmanız gerekir. Bu, şu şekilde yapılır:`GetChildNodes` türündeki tüm düğümleri alma yöntemi`StructuredDocumentTag`.
+SDT'leri değiştirmek için öncelikle belgedeki tüm SDT'leri dolaşmanız gerekir. Bu, şu şekilde yapılır: `GetChildNodes` türündeki tüm düğümleri alma yöntemi `StructuredDocumentTag`.
 
 ```csharp
 foreach (StructuredDocumentTag sdt in doc.GetChildNodes(NodeType.StructuredDocumentTag, true))
@@ -77,11 +79,11 @@ if (sdt.SdtType == SdtType.PlainText)
 }
 ```
 
- Açıklama: Burada,`RemoveAllChildren()`SDT'nin mevcut içeriğini temizler. Daha sonra yeni bir içerik oluştururuz`Paragraph` Ve`Run` yeni metni eklemek için nesne.
+Açıklama: Burada, `RemoveAllChildren()` SDT'nin mevcut içeriğini temizler. Daha sonra yeni bir içerik oluştururuz `Paragraph` Ve `Run` yeni metni eklemek için nesne.
 
 ## Adım 4: Açılır Liste SDT'lerini Değiştirin
 
- Açılır liste SDT'leri için, seçili öğeyi şuraya erişerek değiştirebilirsiniz:`ListItems` koleksiyon. Burada, listedeki üçüncü öğeyi seçiyoruz.
+Açılır liste SDT'leri için, seçili öğeyi şuraya erişerek değiştirebilirsiniz: `ListItems` koleksiyon. Burada, listedeki üçüncü öğeyi seçiyoruz.
 
 ```csharp
 if (sdt.SdtType == SdtType.DropDownList)
@@ -108,7 +110,7 @@ if (sdt.SdtType == SdtType.Picture)
 }
 ```
 
- Açıklama: Bu kod, şeklin bir resim içerip içermediğini kontrol eder ve ardından onu şu konumda bulunan yeni bir resimle değiştirir:`ImagesDir`.
+Açıklama: Bu kod, şeklin bir resim içerip içermediğini kontrol eder ve ardından onu şu konumda bulunan yeni bir resimle değiştirir: `ImagesDir`.
 
 ## Adım 6: Değiştirilmiş Belgenizi Kaydedin
 
@@ -132,7 +134,7 @@ SDT'ler, metin kutuları, açılır listeler veya resimler gibi belge içeriğin
 
 2. SDT'ye yeni bir açılır liste öğesi nasıl ekleyebilirim?
 
- Yeni bir öğe eklemek için şunu kullanın:`ListItems` özellik ve yeni bir tane ekle`SdtListItem` koleksiyona.
+Yeni bir öğe eklemek için şunu kullanın: `ListItems` özellik ve yeni bir tane ekle `SdtListItem` koleksiyona.
 
 3. Bir belgeden SDT'leri kaldırmak için Aspose.Words'ü kullanabilir miyim?
 
@@ -140,7 +142,7 @@ Evet, belgenin düğümlerine erişip istediğiniz SDT'yi silerek SDT'leri kald�
 
 4. Diğer öğelerin içine yerleştirilmiş SDT'leri nasıl işlerim?
 
- Kullanın`GetChildNodes` İç içe geçmiş SDT'lere erişmek için uygun parametrelere sahip yöntem.
+Kullanın `GetChildNodes` İç içe geçmiş SDT'lere erişmek için uygun parametrelere sahip yöntem.
 
 5. Değiştirmem gereken SDT belgede görünmüyorsa ne yapmalıyım?
 
@@ -150,7 +152,7 @@ SDT'nin gizli veya korumalı olmadığından emin olun. Belge ayarlarını kontr
 ### Aspose.Words for .NET kullanarak İçerik Denetimlerini Değiştirmek için örnek kaynak kodu 
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Structured document tags.docx");
@@ -188,9 +190,13 @@ doc.Save(dataDir + "WorkingWithSdt.ModifyContentControls.docx");
 ```
 
 İşte bu kadar! Aspose.Words for .NET kullanarak Word belgenizdeki farklı içerik denetimlerini başarıyla değiştirdiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

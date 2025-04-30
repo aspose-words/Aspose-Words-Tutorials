@@ -1,14 +1,16 @@
 ---
-title: कुशल दस्तावेज़ विभाजन और स्वरूपण रणनीतियाँ
-linktitle: कुशल दस्तावेज़ विभाजन और स्वरूपण रणनीतियाँ
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को कुशलतापूर्वक विभाजित और प्रारूपित करना सीखें। यह ट्यूटोरियल चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरण प्रदान करता है।
-weight: 10
-url: /hi/python-net/document-splitting-and-formatting/split-format-documents/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को कुशलतापूर्वक विभाजित और प्रारूपित करना सीखें। यह ट्यूटोरियल चरण-दर-चरण मार्गदर्शन और स्रोत कोड उदाहरण प्रदान करता है।"
+"linktitle": "कुशल दस्तावेज़ विभाजन और स्वरूपण रणनीतियाँ"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "कुशल दस्तावेज़ विभाजन और स्वरूपण रणनीतियाँ"
+"url": "/hi/python-net/document-splitting-and-formatting/split-format-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # कुशल दस्तावेज़ विभाजन और स्वरूपण रणनीतियाँ
@@ -18,7 +20,7 @@ url: /hi/python-net/document-splitting-and-formatting/split-format-documents/
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - पायथन प्रोग्रामिंग भाषा की बुनियादी समझ।
--  Python के लिए Aspose.Words इंस्टॉल किया गया। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/python/).
+- Python के लिए Aspose.Words इंस्टॉल किया गया। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/python/).
 - परीक्षण के लिए नमूना दस्तावेज़.
 
 ## चरण 1: दस्तावेज़ लोड करें
@@ -27,7 +29,7 @@ url: /hi/python-net/document-splitting-and-formatting/split-format-documents/
 ```python
 import aspose.words as aw
 
-# Load the document
+# दस्तावेज़ लोड करें
 document = aw.Document("path/to/your/document.docx")
 ```
 
@@ -35,7 +37,7 @@ document = aw.Document("path/to/your/document.docx")
 दस्तावेज़ को अनुभागों में विभाजित करने से आप दस्तावेज़ के विभिन्न भागों पर अलग-अलग फ़ॉर्मेटिंग लागू कर सकते हैं। यहाँ बताया गया है कि आप दस्तावेज़ को अनुभागों में कैसे विभाजित कर सकते हैं:
 
 ```python
-# Split the document into sections
+# दस्तावेज़ को अनुभागों में विभाजित करें
 sections = document.sections
 ```
 
@@ -43,10 +45,10 @@ sections = document.sections
 अब, मान लीजिए कि आप किसी अनुभाग पर विशिष्ट स्वरूपण लागू करना चाहते हैं। उदाहरण के लिए, आइए किसी विशिष्ट अनुभाग के लिए पृष्ठ मार्जिन बदलें:
 
 ```python
-# Get a specific section (e.g., the first section)
+# कोई विशिष्ट अनुभाग प्राप्त करें (उदाहरणार्थ, पहला अनुभाग)
 section = sections[0]
 
-# Update page margins
+# पेज मार्जिन अपडेट करें
 section.page_setup.left_margin = aw.pt_to_px(1)
 section.page_setup.right_margin = aw.pt_to_px(1)
 section.page_setup.top_margin = aw.pt_to_px(1)
@@ -57,7 +59,7 @@ section.page_setup.bottom_margin = aw.pt_to_px(1)
 दस्तावेज़ को विभाजित करने और फ़ॉर्मेट करने के बाद, परिवर्तनों को सहेजने का समय आ गया है। दस्तावेज़ को सहेजने के लिए आप निम्न कोड स्निपेट का उपयोग कर सकते हैं:
 
 ```python
-# Save the document with changes
+# परिवर्तनों के साथ दस्तावेज़ सहेजें
 document.save("path/to/save/updated_document.docx")
 ```
 
@@ -80,7 +82,7 @@ for i, section in enumerate(sections):
 ```
 
 ### क्या मैं एक अनुभाग के विभिन्न पैराग्राफों पर भिन्न स्वरूपण लागू कर सकता हूँ?
-हां, आप किसी अनुभाग के पैराग्राफ़ पर अलग-अलग फ़ॉर्मेटिंग लागू कर सकते हैं। अनुभाग में पैराग्राफ़ के माध्यम से पुनरावृत्ति करें और वांछित फ़ॉर्मेटिंग लागू करें`paragraph.runs` संपत्ति।
+हां, आप किसी अनुभाग के पैराग्राफ़ पर अलग-अलग फ़ॉर्मेटिंग लागू कर सकते हैं। अनुभाग में पैराग्राफ़ के माध्यम से पुनरावृत्ति करें और वांछित फ़ॉर्मेटिंग लागू करें `paragraph.runs` संपत्ति।
 
 ```python
 for paragraph in section.paragraphs:
@@ -90,7 +92,7 @@ for paragraph in section.paragraphs:
 ```
 
 ### मैं किसी विशिष्ट अनुभाग के लिए फ़ॉन्ट शैली कैसे बदलूं?
- आप किसी विशिष्ट अनुभाग के लिए फ़ॉन्ट शैली को उस अनुभाग में पैराग्राफ़ों के माध्यम से पुनरावृत्त करके और सेट करके बदल सकते हैं`paragraph.runs.font` संपत्ति।
+आप किसी विशिष्ट अनुभाग के लिए फ़ॉन्ट शैली को उस अनुभाग में पैराग्राफ़ों के माध्यम से पुनरावृत्त करके और सेट करके बदल सकते हैं `paragraph.runs.font` संपत्ति।
 
 ```python
 for paragraph in section.paragraphs:
@@ -100,14 +102,19 @@ for paragraph in section.paragraphs:
 ```
 
 ### क्या दस्तावेज़ से किसी विशिष्ट अनुभाग को हटाना संभव है?
- हां, आप इसका उपयोग करके दस्तावेज़ से एक विशिष्ट अनुभाग हटा सकते हैं`sections.remove(section)` तरीका।
+हां, आप इसका उपयोग करके दस्तावेज़ से एक विशिष्ट अनुभाग हटा सकते हैं `sections.remove(section)` तरीका।
 
 ```python
 document.sections.remove(section_to_remove)
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

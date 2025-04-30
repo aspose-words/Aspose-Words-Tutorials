@@ -1,14 +1,16 @@
 ---
-title: Renderowanie kształtów i grafik w dokumentach
-linktitle: Renderowanie kształtów i grafik w dokumentach
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak wzbogacić swoje dokumenty o kształty i grafikę, korzystając z Aspose.Words for Java. Twórz wizualnie oszałamiające treści bez wysiłku.
-weight: 12
-url: /pl/java/document-rendering/rendering-shapes-graphics/
+"description": "Dowiedz się, jak wzbogacić swoje dokumenty o kształty i grafikę, korzystając z Aspose.Words dla Java. Twórz wizualnie oszałamiające treści bez wysiłku."
+"linktitle": "Renderowanie kształtów i grafik w dokumentach"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Renderowanie kształtów i grafik w dokumentach"
+"url": "/pl/java/document-rendering/rendering-shapes-graphics/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderowanie kształtów i grafik w dokumentach
@@ -51,7 +53,7 @@ shape.setFillColor(Color.YELLOW);
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
 ```
 
-## Wstawianie obrazków
+## Wstawianie obrazów
 
 Obrazy mogą znacznie ulepszyć Twoje dokumenty. Aspose.Words dla Java pozwala na łatwe wstawianie obrazów:
 
@@ -144,7 +146,7 @@ Ulepszanie dokumentów za pomocą kształtów i grafik może znacznie poprawić 
 
 ### Jak mogę zmienić rozmiar kształtu w dokumencie?
 
- Aby zmienić rozmiar kształtu, użyj`setWidth` I`setHeight` metody na obiekcie kształtu. Na przykład, aby nadać kształtowi szerokość 150 pikseli i wysokość 75 pikseli:
+Aby zmienić rozmiar kształtu, użyj `setWidth` I `setHeight` metody na obiekcie kształtu. Na przykład, aby nadać kształtowi szerokość 150 pikseli i wysokość 75 pikseli:
 
 ```java
 shape.setWidth(150);
@@ -166,14 +168,19 @@ shape.setFillColor(Color.GREEN);
 
 ### Czy mogę dodać tekst wewnątrz kształtu?
 
- Tak, możesz dodać tekst wewnątrz kształtu. Użyj`getTextPath` właściwość kształtu umożliwiająca ustawienie tekstu i dostosowanie jego formatowania.
+Tak, możesz dodać tekst wewnątrz kształtu. Użyj `getTextPath` właściwość kształtu umożliwiająca ustawienie tekstu i dostosowanie jego formatowania.
 
 ### Jak mogę ułożyć kształty w określonej kolejności?
 
- Możesz kontrolować kolejność kształtów za pomocą właściwości Z-order. Ustaw`ZOrder` właściwość kształtu, aby określić jego pozycję w stosie kształtów. Niższe wartości są wysyłane na spód, podczas gdy wyższe wartości są przenoszone na przód.
+Możesz kontrolować kolejność kształtów za pomocą właściwości Z-order. Ustaw `ZOrder` właściwość kształtu, aby określić jego pozycję w stosie kształtów. Niższe wartości są wysyłane na spód, podczas gdy wyższe wartości są przenoszone na przód.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

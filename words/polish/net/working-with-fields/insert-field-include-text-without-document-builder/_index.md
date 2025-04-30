@@ -1,27 +1,29 @@
 ---
-title: Wstaw pole Dołącz tekst Bez tworzenia dokumentu
-linktitle: Wstaw FieldIncludeText bez Document Builder
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić FieldIncludeText bez korzystania z DocumentBuilder w Aspose.Words dla .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-fields/insert-field-include-text-without-document-builder/
+"description": "Dowiedz się, jak wstawić FieldIncludeText bez korzystania z DocumentBuilder w Aspose.Words dla .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Wstaw FieldIncludeText bez Document Builder"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole Dołącz tekst bez tworzenia dokumentu"
+"url": "/pl/net/working-with-fields/insert-field-include-text-without-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wstaw pole Dołącz tekst Bez tworzenia dokumentu
+# Wstaw pole Dołącz tekst bez tworzenia dokumentu
 
 ## Wstęp
 
-W świecie automatyzacji i manipulacji dokumentami Aspose.Words dla .NET jest potężnym narzędziem. Dzisiaj zagłębimy się w szczegółowy przewodnik, jak wstawić FieldIncludeText bez użycia DocumentBuilder. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając, że rozumiesz każdą część kodu i jego cel.
+W świecie automatyzacji i manipulacji dokumentami Aspose.Words for .NET jest potężnym narzędziem. Dzisiaj zagłębimy się w szczegółowy przewodnik, jak wstawić FieldIncludeText bez użycia DocumentBuilder. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając zrozumienie każdej części kodu i jego celu.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne .NET: dowolne środowisko IDE zgodne z platformą .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
 
@@ -116,10 +118,15 @@ FieldIncludeText działa specjalnie z dokumentami Word. W przypadku innych forma
 Tak, Aspose.Words dla .NET obsługuje .NET Framework, .NET Core i .NET 5/6.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?  
- Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

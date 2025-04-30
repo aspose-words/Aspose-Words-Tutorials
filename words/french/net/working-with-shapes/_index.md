@@ -1,26 +1,33 @@
 ---
-title: Travailler avec des formes dans Aspose.Words pour .NET 
-weight: 10
-limit:
-description: Apprenez à travailler avec des formes dans les documents Word en utilisant Aspose.Words pour .NET. Explorez l'ajout, la personnalisation et la manipulation de formes avec facilité.
-keywords:
-url: /fr/net/working-with-shapes/
+"description": "Apprenez à utiliser des formes dans des documents Word avec Aspose.Words pour .NET. Découvrez comment ajouter, personnaliser et manipuler des formes en toute simplicité."
+"title": "Travailler avec des formes dans Aspose.Words pour .NET"
+"url": "/fr/net/working-with-shapes/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Introduction
  
-Les formes sont une fonctionnalité essentielle pour concevoir des documents Word visuellement attrayants. Avec Aspose.Words pour .NET, vous pouvez ajouter, personnaliser et manipuler sans problème des formes, telles que des lignes, des rectangles, des ovales, etc. Que vous ayez besoin de créer des diagrammes simples, mettre en évidence des contenus spécifiques ou de construire des layouts professionnels, cette bibliothèque puissante vous équipe de tous les outils nécessaires pour travailler avec les formes de manière programmatique.  
+Les formes sont essentielles pour créer des documents Word attrayants. Avec Aspose.Words pour .NET, ajoutez, personnalisez et manipulez facilement des formes, telles que des lignes, des rectangles, des ovales, etc. Que vous souhaitiez créer des diagrammes simples, mettre en valeur du contenu spécifique ou créer des mises en page professionnelles, cette puissante bibliothèque vous offre tous les outils nécessaires pour manipuler les formes par programmation.  
 
-Sur cette page, vous trouverez des guides détaillés pour diverses tâches liées à la forme. De l'insertion de formes de base et l'application de styles à la gestion des propriétés de forme comme la taille, la couleur et la rotation, tout est couvert étape par étape. Aspose.Words pour .NET permet aux développeurs de créer des documents dynamiques et visuellement riches sans avoir besoin d'outils de conception complexes. Explorez les tutoriels ci- dessous pour maîtriser la manipulation de forme et améliorer votre processus de création de documents!  
+Sur cette page, vous trouverez des guides détaillés pour diverses tâches liées aux formes. De l'insertion de formes de base à l'application de styles, en passant par la gestion de leurs propriétés comme la taille, la couleur et la rotation, tout est abordé étape par étape. Aspose.Words pour .NET permet aux développeurs de créer des documents dynamiques et visuellement riches sans avoir recours à des outils de conception complexes. Explorez les tutoriels ci-dessous pour maîtriser la manipulation des formes et optimiser votre processus de création de documents !  
 
-{{< tutorial-card link="./add-group-shape/" title="Créer une forme de groupe dans un document Word à l'aide de Aspose.Words pour .NET" imgSrc="/words/net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-shape/" title="Insérer des formes dans les documents Word en utilisant Aspose.Words pour .NET" imgSrc="/words/net/working-with-shapes/insert-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-group-shape/" title="Créer une forme de groupe dans un document Word à l'aide d'Aspose.Words pour .NET" imgSrc="./add-group-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-shape/" title="Insérer des formes dans des documents Word avec Aspose.Words pour .NET" imgSrc="./insert-shape/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

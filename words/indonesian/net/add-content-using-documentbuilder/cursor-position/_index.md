@@ -1,14 +1,16 @@
 ---
-title: Posisi Kursor Dalam Dokumen Word
-linktitle: Posisi Kursor Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengelola posisi kursor dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/add-content-using-documentbuilder/cursor-position/
+"description": "Pelajari cara mengelola posisi kursor dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang .NET."
+"linktitle": "Posisi Kursor Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Posisi Kursor Dalam Dokumen Word"
+"url": "/id/net/add-content-using-documentbuilder/cursor-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Posisi Kursor Dalam Dokumen Word
@@ -22,8 +24,8 @@ Hai, rekan-rekan pembuat kode! Pernahkah Anda mendapati diri Anda sedang asyik m
 Sebelum kita masuk ke kode, mari pastikan Anda sudah memiliki semua yang dibutuhkan:
 
 1. Pemahaman Dasar C#: Tutorial ini mengasumsikan Anda nyaman dengan konsep C# dan .NET.
-2.  Visual Studio Terpasang: Versi terbaru apa pun bisa digunakan. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[lokasi](https://visualstudio.microsoft.com/).
-3.  Pustaka Aspose.Words untuk .NET: Anda perlu mengunduh dan memasang pustaka ini. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/words/net/).
+2. Visual Studio Terpasang: Versi terbaru apa pun bisa digunakan. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [lokasi](https://visualstudio.microsoft.com/).
+3. Pustaka Aspose.Words untuk .NET: Anda perlu mengunduh dan memasang pustaka ini. Anda bisa mendapatkannya dari [Di Sini](https://releases.aspose.com/words/net/).
 
 Baiklah, jika semuanya sudah siap, mari kita lanjut ke pengaturan!
 
@@ -33,7 +35,7 @@ Pertama-tama, jalankan Visual Studio dan buat Aplikasi Konsol C# baru. Ini akan 
 
 ### Instal Aspose.Words untuk .NET
 
- Setelah proyek Anda aktif, Anda perlu menginstal Aspose.Words. Anda dapat melakukannya melalui NuGet Package Manager. Cukup cari`Aspose.Words` dan menginstalnya. Atau, Anda dapat menggunakan Package Manager Console dengan perintah ini:
+Setelah proyek Anda aktif, Anda perlu menginstal Aspose.Words. Anda dapat melakukannya melalui NuGet Package Manager. Cukup cari `Aspose.Words` dan menginstalnya. Atau, Anda dapat menggunakan Package Manager Console dengan perintah ini:
 
 ```bash
 Install-Package Aspose.Words
@@ -41,7 +43,7 @@ Install-Package Aspose.Words
 
 ## Mengimpor Ruang Nama
 
- Setelah menginstal perpustakaan, pastikan untuk mengimpor namespace yang diperlukan di bagian atas`Program.cs` mengajukan:
+Setelah menginstal perpustakaan, pastikan untuk mengimpor namespace yang diperlukan di bagian atas `Program.cs` mengajukan:
 
 ```csharp
 using Aspose.Words;
@@ -52,7 +54,7 @@ using Aspose.Words.Tables;
 
 ### Inisialisasi Dokumen
 
- Mari kita mulai dengan membuat dokumen Word baru. Kita akan menggunakan`Document` Dan`DocumentBuilder` kelas dari Aspose.Words.
+Mari kita mulai dengan membuat dokumen Word baru. Kita akan menggunakan `Document` Dan `DocumentBuilder` kelas dari Aspose.Words.
 
 ```csharp
 Document doc = new Document();
@@ -128,13 +130,13 @@ Selesai! Kami telah mempelajari cara mengelola posisi kursor dalam dokumen Word 
 
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen Word secara terprogram menggunakan C# atau bahasa .NET lainnya.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
+### Bisakah saya menggunakan Aspose.Words secara gratis?
 
- Aspose.Words menawarkan uji coba gratis, tetapi untuk fitur lengkap dan penggunaan komersial, Anda perlu membeli lisensi. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Aspose.Words menawarkan uji coba gratis, tetapi untuk fitur lengkap dan penggunaan komersial, Anda perlu membeli lisensi. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara memindahkan kursor ke sel tabel tertentu?
 
- Anda dapat memindahkan kursor ke sel tabel menggunakan`builder.MoveToCell` metode, menentukan indeks tabel, indeks baris, dan indeks sel.
+Anda dapat memindahkan kursor ke sel tabel menggunakan `builder.MoveToCell` metode, menentukan indeks tabel, indeks baris, dan indeks sel.
 
 ### Apakah Aspose.Words kompatibel dengan .NET Core?
 
@@ -142,11 +144,16 @@ Ya, Aspose.Words sepenuhnya kompatibel dengan .NET Core, memungkinkan Anda memba
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words?
 
- Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk .NET[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk .NET [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Basit Sütun Grafiği Ekleme
-linktitle: Word Belgesine Basit Sütun Grafiği Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word'e basit bir sütun grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi dinamik görsel veri sunumlarıyla geliştirin.
-weight: 10
-url: /tr/net/programming-with-charts/insert-simple-column-chart/
+"description": "Aspose.Words for .NET kullanarak Word'e basit bir sütun grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi dinamik görsel veri sunumlarıyla geliştirin."
+"linktitle": "Word Belgesine Basit Sütun Grafiği Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Basit Sütun Grafiği Ekleme"
+"url": "/tr/net/programming-with-charts/insert-simple-column-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Basit Sütun Grafiği Ekleme
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 using System;
 ```
 
-Şimdi, Aspose.Words for .NET kullanarak Word belgesine basit bir sütun grafiği ekleme sürecini parçalara ayıralım. İstediğiniz sonucu elde etmek için şu adımları dikkatlice izleyin:
+Şimdi, Aspose.Words for .NET kullanarak bir Word belgesine basit bir sütun grafiği ekleme sürecini parçalara ayıralım. İstediğiniz sonucu elde etmek için şu adımları dikkatlice izleyin:
 
 ## Adım 1: Belgeyi ve Belge Oluşturucuyu Başlatın
 
@@ -100,10 +102,15 @@ Evet, grafik içeren dokümanları PDF dahil çeşitli formatlara sorunsuz bir �
 Evet, Aspose.Words for .NET, veritabanları veya API'ler gibi harici kaynaklardan gelen verilerle grafikleri dinamik olarak doldurmanıza olanak tanır.
 
 ### Aspose.Words for .NET için daha fazla kaynak ve desteği nerede bulabilirim?
- Ziyaret edin[Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) Ayrıntılı API referansları ve örnekleri için. Destek için ayrıca şu adresi ziyaret edebilirsiniz:[Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+Ziyaret edin [Aspose.Words .NET Belgeleri için](https://reference.aspose.com/words/net/) Ayrıntılı API referansları ve örnekleri için. Destek için ayrıca şu adresi ziyaret edebilirsiniz: [Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

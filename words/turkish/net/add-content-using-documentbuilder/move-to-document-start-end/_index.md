@@ -1,14 +1,16 @@
 ---
-title: Belgeye Taşı Word Belgesinde Başla Bitiş
-linktitle: Belgeye Taşı Word Belgesinde Başla Bitiş
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak imleci bir Word belgesinin başına ve sonuna nasıl taşıyacağınızı öğrenin. Adım adım talimatlar ve örnekler içeren kapsamlı bir kılavuz.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/move-to-document-start-end/
+"description": "Aspose.Words for .NET kullanarak imleci bir Word belgesinin başına ve sonuna nasıl taşıyacağınızı öğrenin. Adım adım talimatlar ve örnekler içeren kapsamlı bir kılavuz."
+"linktitle": "Belgeye Taşı Word Belgesinde Başla Bitiş"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belgeye Taşı Word Belgesinde Başla Bitiş"
+"url": "/tr/net/add-content-using-documentbuilder/move-to-document-start-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeye Taşı Word Belgesinde Başla Bitiş
@@ -21,7 +23,7 @@ Merhaba! Word belgeleriyle çalışıyorsunuz ve belgenizin başına veya sonuna
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Bu, kullanacağımız sihirli araçtır.[buradan indirin](https://releases.aspose.com/words/net/) veya bir tane al[ücretsiz deneme](https://releases.aspose.com/).
+1. Aspose.Words for .NET: Bu, kullanacağımız sihirli araçtır. [buradan indirin](https://releases.aspose.com/words/net/) veya bir tane al [ücretsiz deneme](https://releases.aspose.com/).
 2. .NET Geliştirme Ortamı: Visual Studio sağlam bir seçimdir.
 3. Temel C# Bilgisi: Merak etmeyin, sihirbaz olmanıza gerek yok, ancak biraz aşinalık çok işinize yarayacaktır.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Burada, bir örnek oluşturuyoruz`Document` Ve`DocumentBuilder` . Düşünün`Document` boş Word belgeniz ve`DocumentBuilder` kaleminiz gibi.
+Burada, bir örnek oluşturuyoruz `Document` Ve `DocumentBuilder`. Düşünün `Document` boş Word belgeniz ve `DocumentBuilder` kaleminiz gibi.
 
 ## Adım 2: Belge Başlangıcına Geçin
 
@@ -58,7 +60,7 @@ builder.MoveToDocumentStart();
 Console.WriteLine("\nThis is the beginning of the document.");
 ```
 
- İle`MoveToDocumentStart()`, dijital kaleminize belgenin en üstüne yerleşmesini söylüyorsunuz. Basit, değil mi?
+İle `MoveToDocumentStart()`, dijital kaleminize belgenin en üstüne yerleşmesini söylüyorsunuz. Basit, değil mi?
 
 ## Adım 3: Belge Sonuna Geçin
 
@@ -84,17 +86,22 @@ Aspose.Words for .NET, Word belgelerini C# dilinde programlı olarak oluşturmak
 Kesinlikle! Bu kılavuz C# kullanırken, Aspose.Words for .NET'i VB.NET gibi herhangi bir .NET diliyle kullanabilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, ama bir başlangıçla başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, ama bir tane ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?  
 Evet, Aspose.Words for .NET hem .NET Framework'ü hem de .NET Core'u destekler.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?  
-Şunu kontrol edebilirsiniz:[belgeleme](https://reference.aspose.com/words/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
+Şunu kontrol edebilirsiniz: [belgeleme](https://reference.aspose.com/words/net/) veya ziyaret edin [destek forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

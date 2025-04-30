@@ -1,26 +1,33 @@
 ---
-title: Praca z nadpisami i stopnikami w Aspose.Words dla .NET 
-weight: 10
-limit:
-description: Dowiedz się, jak tworzyć, modyfikować i formatować nagłówki i podnóże w dokumentach Word za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku dla bezproblemowej personalizacji.
-keywords:
-url: /pl/net/header-footer-formatting/
+"description": "Dowiedz się, jak tworzyć, modyfikować i formatować nagłówki i stopki w dokumentach programu Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący bezproblemowej personalizacji."
+"title": "Praca z nagłówkami i stopkami w Aspose.Words dla .NET"
+"url": "/pl/net/header-footer-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Wprowadzenie
+## Wstęp
   
-Nazwa i podłoga są niezbędne do dodawania profesjonalnego dotyku do dokumentów Word, niezależnie od tego, czy chodzi o liczby stron, logo lub tekst na zamówienie. Dzięki Aspose.Words dla .NET możesz bezproblemowo tworzyć, modyfikować i dostosowywać nagłówki i podłoga, aby pasowały do potrzeb dokumentu. Biblioteka oferuje potężne API, które pozwalają ustawić różne nagłówki i podłoga dla dziwnych i równych stron, zdefiniować unikalne sekcje i włączyć elementy dynamiczne, takie jak pola lub obrazy.  
+Nagłówki i stopki są niezbędne, aby nadać dokumentom Worda profesjonalny charakter, niezależnie od tego, czy chodzi o numery stron, logo czy niestandardowy tekst. Dzięki Aspose.Words for .NET możesz bezproblemowo tworzyć, modyfikować i dostosowywać nagłówki i stopki, aby dopasować je do potrzeb dokumentu. Biblioteka oferuje potężne interfejsy API, które umożliwiają ustawianie różnych nagłówków i stopek dla stron nieparzystych i parzystych, definiowanie unikalnych sekcji i uwzględnianie dynamicznych elementów, takich jak pola lub obrazy.  
 
-Aspose.Words dla .NET ułatwia proces pracy z nagłówkami i podnóżkami, zapewniając pełną kontrolę nad ich formatowaniem i umieszczeniem. Niezależnie od tego, czy projektujesz raport korporacyjny lub tworzysz spersonalizowany dokument, biblioteka zapewnia skuteczny sposób zarządzania tymi kluczowymi elementami. Przejdź do naszych przewodników krok po kroku i odblokować pełny potencjał nagłówków i podnóżek w plikach Word!  
+Aspose.Words for .NET upraszcza proces pracy z nagłówkami i stopkami, zapewniając pełną kontrolę nad ich formatowaniem i rozmieszczeniem. Niezależnie od tego, czy projektujesz raport korporacyjny, czy tworzysz spersonalizowany dokument, biblioteka zapewnia wydajny sposób zarządzania tymi kluczowymi elementami. Zanurz się w naszych przewodnikach krok po kroku i odkryj pełny potencjał nagłówków i stopek w plikach Word!  
 
-{{< tutorial-card link="./create-header-footer/" title="Tworzenie dokumentu Word z tytułem i podnóżkiem używając Aspose.Words" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Wkładać obraz w nagłówek dokumentu Word." imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-header-footer/" title="Utwórz dokument Word z nagłówkiem i stopką za pomocą Aspose.Words" imgSrc="./create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-image/" title="Wstaw obraz do nagłówka dokumentu Word | Aspose.Words dla .NET" imgSrc="./insert-image/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

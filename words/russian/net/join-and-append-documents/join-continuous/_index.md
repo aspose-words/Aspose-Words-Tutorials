@@ -1,14 +1,16 @@
 ---
-title: Присоединяйтесь к непрерывному
-linktitle: Присоединяйтесь к непрерывному
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как легко объединить два документа Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для плавного и эффективного объединения документов.
-weight: 10
-url: /ru/net/join-and-append-documents/join-continuous/
+"description": "Узнайте, как легко объединить два документа Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для плавного и эффективного объединения документов."
+"linktitle": "Присоединяйтесь к непрерывному"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Присоединяйтесь к непрерывному"
+"url": "/ru/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Присоединяйтесь к непрерывному
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/join-continuous/
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите[Aspose.Words для .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: если вы еще этого не сделали, загрузите и установите [Aspose.Words для .NET](https://releases.aspose.com/words/net/).
 - Среда разработки: вы можете использовать Visual Studio или любую другую среду разработки .NET.
 - Образцы документов: подготовьте два документа Word, которые вы хотите объединить.
 
@@ -40,11 +42,11 @@ using Aspose.Words;
 Во-первых, нам нужно настроить каталог, в котором хранятся ваши документы. Это позволит нашему коду находить файлы, которые мы хотим объединить.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения ваших документов.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения ваших документов.
 
 ## Шаг 2: Загрузите исходные и конечные документы
 
@@ -59,7 +61,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Шаг 3: Установите начало раздела как непрерывное
 
- Чтобы содержимое исходного документа отображалось сразу после целевого документа, нам нужно задать`SectionStart` свойство первого раздела в исходном документе`Continuous`.
+Чтобы содержимое исходного документа отображалось сразу после целевого документа, нам нужно задать `SectionStart` свойство первого раздела в исходном документе `Continuous`.
 
 ```csharp
 // Разместите документ сразу после содержимого целевого документа.
@@ -77,7 +79,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- С использованием`ImportFormatMode.KeepSourceFormatting` гарантирует сохранение форматирования исходного документа в окончательном объединенном документе.
+С использованием `ImportFormatMode.KeepSourceFormatting` гарантирует сохранение форматирования исходного документа в окончательном объединенном документе.
 
 ## Шаг 5: Сохраните объединенный документ.
 
@@ -99,7 +101,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
 Да, вы можете повторить процесс для объединения нескольких документов, загрузив дополнительные документы и последовательно добавив их.
 
 ### Будет ли сохранено исходное форматирование?
- Да, используя`ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа.
+Да, используя `ImportFormatMode.KeepSourceFormatting` обеспечивает сохранение форматирования исходного документа.
 
 ### Совместим ли Aspose.Words для .NET с .NET Core?
 Да, Aspose.Words для .NET совместим как с .NET Framework, так и с .NET Core.
@@ -108,10 +110,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
 Да, но вам может потребоваться настроить свойства страницы, чтобы обеспечить бесшовное слияние.
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку на форуме сообщества Aspose.[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку на форуме сообщества Aspose. [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

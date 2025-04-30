@@ -1,14 +1,16 @@
 ---
-title: Соотношение сторон заблокировано
-linktitle: Соотношение сторон заблокировано
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как заблокировать соотношение сторон фигур в документах Word с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству, чтобы сохранить пропорции изображений и фигур.
-weight: 10
-url: /ru/net/programming-with-shapes/aspect-ratio-locked/
+"description": "Узнайте, как заблокировать соотношение сторон фигур в документах Word с помощью Aspose.Words для .NET. Следуйте этому пошаговому руководству, чтобы сохранить пропорции изображений и фигур."
+"linktitle": "Соотношение сторон заблокировано"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Соотношение сторон заблокировано"
+"url": "/ru/net/programming-with-shapes/aspect-ratio-locked/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Соотношение сторон заблокировано
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-shapes/aspect-ratio-locked/
 
 Прежде чем погрузиться в код, давайте рассмотрим, что вам нужно для начала:
 
-- Библиотека Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще этого не сделали, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Если вы еще этого не сделали, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Убедитесь, что у вас настроена среда разработки .NET. Visual Studio — популярный выбор.
 - Базовые знания C#: некоторое знакомство с программированием на C# будет полезным.
 
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 
 ## Шаг 1: Настройте каталог документов
 
- Прежде чем начать манипулировать фигурами, нам нужно настроить каталог, в котором будут храниться наши документы. Для простоты мы будем использовать заполнитель`YOUR DOCUMENT DIRECTORY`. Замените это фактическим путем к каталогу ваших документов.
+Прежде чем начать манипулировать фигурами, нам нужно настроить каталог, в котором будут храниться наши документы. Для простоты мы будем использовать заполнитель `YOUR DOCUMENT DIRECTORY`. Замените это фактическим путем к каталогу ваших документов.
 
 ```csharp
 // Путь к каталогу ваших документов
@@ -52,17 +54,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Здесь мы создаем экземпляр`Document` класс и использовать`DocumentBuilder` чтобы помочь нам создать содержание документа.
+Здесь мы создаем экземпляр `Document` класс и использовать `DocumentBuilder` чтобы помочь нам сформировать содержание документа.
 
 ## Шаг 3: Вставьте изображение
 
- Теперь давайте вставим изображение в наш документ. Мы будем использовать`InsertImage` Метод`DocumentBuilder`класс. Убедитесь, что в указанном вами каталоге есть изображение.
+Теперь давайте вставим изображение в наш документ. Мы будем использовать `InsertImage` Метод `DocumentBuilder` класс. Убедитесь, что в указанном вами каталоге есть изображение.
 
 ```csharp
 Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 ```
 
- Заменять`dataDir + "Transparent background logo.png"` с путем к файлу вашего изображения.
+Заменять `dataDir + "Transparent background logo.png"` с путем к файлу вашего изображения.
 
 ## Шаг 4: Зафиксируйте соотношение сторон
 
@@ -72,11 +74,11 @@ Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 shape.AspectRatioLocked = true;
 ```
 
- Параметр`AspectRatioLocked` к`true` обеспечивает сохранение исходного соотношения сторон изображения.
+Параметр `AspectRatioLocked` к `true` обеспечивает сохранение исходного соотношения сторон изображения.
 
 ## Шаг 5: Сохраните документ.
 
-Наконец, мы сохраним документ в указанном каталоге. Этот шаг записывает все изменения, которые мы внесли в файл документа.
+Наконец, мы сохраним документ в указанном каталоге. Этот шаг записывает все изменения, которые мы сделали в файле документа.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
@@ -89,7 +91,7 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 ## Часто задаваемые вопросы
 
 ### Можно ли разблокировать соотношение сторон после его блокировки?
-Да, вы можете разблокировать соотношение сторон, установив`shape.AspectRatioLocked = false`.
+Да, вы можете разблокировать соотношение сторон, установив `shape.AspectRatioLocked = false`.
 
 ### Что произойдет, если я изменю размер изображения с фиксированным соотношением сторон?
 Изображение изменит размер пропорционально, сохранив исходное соотношение ширины и высоты.
@@ -101,10 +103,15 @@ doc.Save(dataDir + "WorkingWithShapes.AspectRatioLocked.docx");
 Да, Aspose.Words для .NET поддерживает как .NET Framework, так и .NET Core.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Вы можете найти полную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

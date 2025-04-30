@@ -1,14 +1,16 @@
 ---
-title: Konversi Bidang Dalam Tubuh
-linktitle: Konversi Bidang Dalam Tubuh
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah bidang dokumen menjadi teks statis menggunakan Aspose.Words untuk .NET untuk meningkatkan efisiensi pemrosesan dokumen.
-weight: 10
-url: /id/net/working-with-fields/convert-fields-in-body/
+"description": "Pelajari cara mengubah bidang dokumen menjadi teks statis menggunakan Aspose.Words untuk .NET untuk meningkatkan efisiensi pemrosesan dokumen."
+"linktitle": "Konversi Bidang Dalam Tubuh"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Bidang Dalam Tubuh"
+"url": "/id/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Bidang Dalam Tubuh
@@ -22,7 +24,7 @@ Dalam bidang pengembangan .NET, mengelola konten dokumen secara dinamis sangatla
 Sebelum mempelajari tutorial tentang mengonversi bidang dalam badan dokumen menggunakan Aspose.Words untuk .NET, pastikan Anda memiliki prasyarat berikut:
 
 - Visual Studio: Terinstal dan dikonfigurasi untuk pengembangan .NET.
--  Aspose.Words untuk .NET: Diunduh dan dirujuk dalam proyek Visual Studio Anda. Anda dapat memperolehnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Diunduh dan dirujuk dalam proyek Visual Studio Anda. Anda dapat memperolehnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# untuk memahami dan memodifikasi potongan kode yang disediakan.
 
 ## Mengimpor Ruang Nama
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda sebenarnya.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur ke dokumen Anda sebenarnya.
 
 ## Langkah 2: Identifikasi dan Konversi Bidang
 
@@ -68,7 +70,7 @@ Simpan dokumen yang dimodifikasi setelah mengonversi bidang:
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Menyesuaikan`"WorkingWithFields.ConvertFieldsInBody.docx"` untuk menentukan jalur berkas keluaran yang diinginkan.
+Menyesuaikan `"WorkingWithFields.ConvertFieldsInBody.docx"` untuk menentukan jalur berkas keluaran yang diinginkan.
 
 ## Kesimpulan
 
@@ -80,19 +82,24 @@ Menguasai seni memanipulasi bidang dokumen menggunakan Aspose.Words untuk .NET m
 Bidang dokumen di Aspose.Words adalah tempat penampung yang dapat menyimpan dan menampilkan data dinamis, seperti tanggal, nomor halaman, dan perhitungan.
 
 ### Bagaimana saya dapat menangani berbagai jenis bidang di Aspose.Words untuk .NET?
-Aspose.Words mendukung berbagai jenis bidang seperti DATE, PAGE, MERGEFIELD, dan banyak lagi, yang memungkinkan pengembang untuk memanipulasinya secara terprogram.
+Aspose.Words mendukung berbagai jenis bidang seperti DATE, PAGE, MERGEFIELD, dan lainnya, yang memungkinkan pengembang untuk memanipulasinya secara terprogram.
 
 ### Bisakah Aspose.Words untuk .NET mengonversi bidang di berbagai format dokumen?
 Ya, Aspose.Words untuk .NET dapat mengonversi dan memanipulasi bidang di berbagai format seperti DOCX, DOC, RTF, dan lainnya dengan mudah.
 
 ### Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.Words untuk .NET?
- Dokumentasi terperinci dan referensi API tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci dan referensi API tersedia [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Di Sini](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

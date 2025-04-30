@@ -1,14 +1,16 @@
 ---
-title: Noto Yedek Ayarlarını Yükle
-linktitle: Noto Yedek Ayarlarını Yükle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir Word belgesine Noto yedek ayarlarının nasıl yükleneceğini öğrenin. Tüm karakterlerin doğru şekilde görüntülendiğinden emin olmak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesine Noto yedek ayarlarının nasıl yükleneceğini öğrenin. Tüm karakterlerin doğru şekilde görüntülendiğinden emin olmak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Noto Yedek Ayarlarını Yükle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Noto Yedek Ayarlarını Yükle"
+"url": "/tr/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Noto Yedek Ayarlarını Yükle
@@ -21,7 +23,7 @@ Bu eğitimde, Aspose.Words for .NET kullanarak bir Word belgesine Noto yedek aya
 
 Adım adım kılavuza dalmadan önce, ihtiyacınız olacak ön koşullara bir göz atalım:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümüne sahip olduğunuzdan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'in en son sürümüne sahip olduğunuzdan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu .NET geliştirme ortamı.
 3. Temel C# Bilgisi: C# programlamaya aşinalık şarttır.
 4. Word Belgesi: Noto yedek ayarlarının uygulanacağı örnek bir Word belgesi.
@@ -52,11 +54,11 @@ Sonra, belge dizininize giden yolu tanımlayın. Word belgelerinizin saklandığ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belge klasörünüzün gerçek yolunu belirtin.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belge klasörünüzün gerçek yolunu belirtin.
 
 ## Adım 3: Belgenizi Yükleyin
 
-Noto yedek ayarlarını uygulamak istediğiniz Word belgesini yükleyin.`Document` Aspose.Words ad alanından sınıf.
+Noto yedek ayarlarını uygulamak istediğiniz Word belgesini yükleyin. `Document` Aspose.Words ad alanından sınıf.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Belgenizin adının "Rendering.docx" olduğundan emin olun veya dosya adını bu
 
 ## Adım 4: Yazı Tipi Ayarlarını Yapılandırın
 
- Bir örneğini oluşturun`FontSettings` sınıf ve Noto yedek ayarlarını yükleyin. Bu adım, Noto yazı tiplerini yedek olarak kullanmak için yazı tipi ayarlarını yapılandırır.
+Bir örneğini oluşturun `FontSettings` sınıf ve Noto yedek ayarlarını yükleyin. Bu adım, Noto yazı tiplerini yedek olarak kullanmak için yazı tipi ayarlarını yapılandırır.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -108,10 +110,15 @@ Evet, Aspose.Words ihtiyaçlarınıza göre diğer yedek ayarları yapılandırm
 Aspose.Words for .NET'i Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz.
 
 ### Aspose.Words for .NET için ücretsiz deneme sürümü var mı?
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

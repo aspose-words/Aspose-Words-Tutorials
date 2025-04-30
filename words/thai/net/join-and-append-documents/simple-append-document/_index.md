@@ -1,14 +1,16 @@
 ---
-title: การผนวกเอกสารแบบง่าย
-linktitle: การผนวกเอกสารแบบง่าย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผนวกเอกสาร Word หนึ่งเข้ากับอีกเอกสารหนึ่งโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/join-and-append-documents/simple-append-document/
+"description": "เรียนรู้วิธีการผนวกเอกสาร Word หนึ่งเข้ากับอีกเอกสารหนึ่งโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "การผนวกเอกสารแบบง่าย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การผนวกเอกสารแบบง่าย"
+"url": "/th/net/join-and-append-documents/simple-append-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การผนวกเอกสารแบบง่าย
@@ -19,9 +21,9 @@ url: /th/net/join-and-append-documents/simple-append-document/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
+ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารีจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณสามารถใช้ Visual Studio หรือ IDE ที่เข้ากันได้กับ .NET อื่น ๆ ได้
 3. ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 4. เอกสาร Word สองฉบับ: ตรวจสอบให้แน่ใจว่าคุณมีเอกสาร Word สองฉบับพร้อมสำหรับการผสานกัน
@@ -42,7 +44,7 @@ using Aspose.Words.Saving;
 ก่อนที่เราจะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าโครงการของคุณได้รับการตั้งค่าอย่างถูกต้อง นี่คือรายการตรวจสอบด่วน:
 
 1. สร้างโปรเจ็กต์ใหม่: เปิด Visual Studio และสร้างโปรเจ็กต์แอปคอนโซลใหม่
-2.  เพิ่มการอ้างอิง Aspose.Words: ดาวน์โหลดและเพิ่มไลบรารี Aspose.Words ลงในโปรเจ็กต์ของคุณ คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet โดยค้นหา`Aspose.Words`.
+2. เพิ่มการอ้างอิง Aspose.Words: ดาวน์โหลดและเพิ่มไลบรารี Aspose.Words ลงในโปรเจ็กต์ของคุณ คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet โดยค้นหา `Aspose-Words`.
 
 ```csharp
 Install-Package Aspose.Words
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังเอกสารของคุณ
 
 ## ขั้นตอนที่ 3: โหลดเอกสารต้นฉบับ
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
- ที่นี่เราจะสร้างใหม่`Document` วัตถุและโหลดไฟล์ชื่อ "Document source.docx" จากไดเร็กทอรีของคุณ
+ที่นี่เราจะสร้างใหม่ `Document` วัตถุและโหลดไฟล์ชื่อ "Document source.docx" จากไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 4: โหลดเอกสารปลายทาง
 
@@ -76,19 +78,19 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- เราสร้างใหม่อีกครั้ง`Document` สร้างวัตถุและโหลดไฟล์ชื่อ "Northwind traders.docx" จากไดเร็กทอรีของคุณ
+เราสร้างใหม่อีกครั้ง `Document` สร้างวัตถุและโหลดไฟล์ชื่อ "Northwind traders.docx" จากไดเร็กทอรีของคุณ
 
 ## ขั้นตอนที่ 5: ผนวกเอกสารต้นฉบับ
 
- นี่คือจุดที่เวทมนตร์เกิดขึ้น! เราจะผนวกเอกสารต้นฉบับเข้ากับเอกสารปลายทางโดยใช้`AppendDocument` วิธี.
+นี่คือจุดที่เวทมนตร์เกิดขึ้น! เราจะผนวกเอกสารต้นฉบับเข้ากับเอกสารปลายทางโดยใช้ `AppendDocument` วิธี.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- การ`AppendDocument` วิธีนี้ใช้พารามิเตอร์สองตัว:
+การ `AppendDocument` วิธีนี้ใช้พารามิเตอร์สองตัว:
 1. เอกสารต้นฉบับ: เอกสารที่คุณต้องการผนวก
-2.  โหมดรูปแบบการนำเข้า: พารามิเตอร์นี้กำหนดว่าควรจัดการการจัดรูปแบบอย่างไร ที่นี่เราจะใช้`KeepSourceFormatting` เพื่อรักษาการจัดรูปแบบของเอกสารต้นฉบับ
+2. โหมดรูปแบบการนำเข้า: พารามิเตอร์นี้กำหนดว่าควรจัดการการจัดรูปแบบอย่างไร ที่นี่เราจะใช้ `KeepSourceFormatting` เพื่อรักษาการจัดรูปแบบของเอกสารต้นฉบับ
 
 ## ขั้นตอนที่ 6: บันทึกเอกสารรวม
 
@@ -108,15 +110,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.SimpleAppendDocument.docx");
 
 ### ฉันสามารถผนวกเอกสารหลายฉบับด้วยวิธีนี้ได้ไหม?
 
- แน่นอน! คุณสามารถเพิ่มเอกสารได้มากเท่าที่คุณต้องการโดยเรียกซ้ำๆ`AppendDocument` วิธีการที่มีเอกสารแหล่งที่มาที่แตกต่างกัน
+แน่นอน! คุณสามารถเพิ่มเอกสารได้มากเท่าที่คุณต้องการโดยเรียกซ้ำๆ `AppendDocument` วิธีการที่มีเอกสารแหล่งที่มาที่แตกต่างกัน
 
 ### จะเกิดอะไรขึ้นหากเอกสารของฉันมีการจัดรูปแบบที่แตกต่างกัน?
 
- คุณสามารถควบคุมวิธีการจัดรูปแบบได้โดยใช้`ImportFormatMode` พารามิเตอร์ ตัวเลือก ได้แก่`KeepSourceFormatting`, `UseDestinationStyles`และอื่นๆอีกมากมาย
+คุณสามารถควบคุมวิธีการจัดรูปแบบได้โดยใช้ `ImportFormatMode` พารามิเตอร์ ตัวเลือก ได้แก่ `KeepSourceFormatting`- `UseDestinationStyles`และอื่นๆอีกมากมาย
 
 ### Aspose.Words ใช้ได้ฟรีไหม?
 
- Aspose.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/) หากต้องการฟังก์ชันการทำงานครบถ้วน คุณจะต้องซื้อใบอนุญาตจาก[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Words เสนอรุ่นทดลองใช้งานฟรีซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/)หากต้องการฟังก์ชันการทำงานครบถ้วน คุณจะต้องซื้อใบอนุญาตจาก [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถผนวกเอกสารที่มีรูปแบบที่แตกต่างกันได้หรือไม่
 
@@ -136,9 +138,14 @@ catch (Exception ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

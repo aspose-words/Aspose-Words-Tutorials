@@ -1,14 +1,16 @@
 ---
-title: Установить папку шрифтов
-linktitle: Установить папку шрифтов
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить пользовательскую папку шрифтов в Aspose.Words для .NET, чтобы гарантировать корректное отображение документов Word без потери шрифтов.
-weight: 10
-url: /ru/net/working-with-fonts/set-fonts-folder/
+"description": "Узнайте, как настроить пользовательскую папку шрифтов в Aspose.Words для .NET, чтобы гарантировать корректное отображение документов Word без потери шрифтов."
+"linktitle": "Установить папку шрифтов"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить папку шрифтов"
+"url": "/ru/net/working-with-fonts/set-fonts-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить папку шрифтов
@@ -23,7 +25,7 @@ url: /ru/net/working-with-fonts/set-fonts-folder/
 
 - Visual Studio установлена на вашем компьютере
 - Настройка .NET Framework
--  Библиотека Aspose.Words for .NET. Если вы еще этого не сделали, вы можете скачать ее с[здесь](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET. Если вы еще этого не сделали, вы можете скачать ее с [здесь](https://releases.aspose.com/words/net/).
 
 ## Импорт пространств имен
 
@@ -45,11 +47,11 @@ using Aspose.Words.Fonts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Инициализация FontSettings
 
- Теперь вам нужно инициализировать`FontSettings` объект. Этот объект позволяет вам указывать пользовательские папки шрифтов.
+Теперь вам нужно инициализировать `FontSettings` объект. Этот объект позволяет вам указывать пользовательские папки шрифтов.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -57,17 +59,17 @@ FontSettings fontSettings = new FontSettings();
 
 ## Шаг 3: Укажите папку со шрифтами
 
- Используя`SetFontsFolder` Метод`FontSettings` object укажите папку, в которой хранятся ваши пользовательские шрифты.
+Используя `SetFontsFolder` Метод `FontSettings` object укажите папку, в которой хранятся ваши пользовательские шрифты.
 
 ```csharp
 fontSettings.SetFontsFolder(dataDir + "Fonts", false);
 ```
 
- Здесь,`dataDir + "Fonts"` указывает на папку с именем "Fonts" в вашем каталоге документов. Второй параметр,`false`, указывает на то, что папка не является рекурсивной.
+Здесь, `dataDir + "Fonts"` указывает на папку с именем "Fonts" в вашем каталоге документов. Второй параметр, `false`, указывает на то, что папка не является рекурсивной.
 
 ## Шаг 4: Создание LoadOptions
 
- Далее создайте экземпляр`LoadOptions` класс. Этот класс поможет вам загрузить документ с указанными настройками шрифта.
+Далее создайте экземпляр `LoadOptions` класс. Этот класс поможет вам загрузить документ с указанными настройками шрифта.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
@@ -76,13 +78,13 @@ loadOptions.FontSettings = fontSettings;
 
 ## Шаг 5: Загрузите документ
 
- Наконец, загрузите документ Word с помощью`Document` класс и`LoadOptions` объект.
+Наконец, загрузите документ Word с помощью `Document` класс и `LoadOptions` объект.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx", loadOptions);
 ```
 
- Убедитесь, что`"Rendering.docx"` — это имя вашего документа Word. Вы можете заменить его на имя вашего файла.
+Убедитесь, что `"Rendering.docx"` — это имя вашего документа Word. Вы можете заменить его на имя вашего файла.
 
 ## Заключение
 
@@ -94,7 +96,7 @@ Document doc = new Document(dataDir + "Rendering.docx", loadOptions);
 Настройка пользовательской папки шрифтов гарантирует, что все шрифты, используемые в документах Word, будут отображаться правильно, что позволит избежать проблем с отсутствием шрифтов.
 
 ### Можно ли задать несколько папок шрифтов?
- Да, вы можете использовать`SetFontsFolders` метод указания нескольких папок.
+Да, вы можете использовать `SetFontsFolders` метод указания нескольких папок.
 
 ### Что произойдет, если шрифт не найден?
 Aspose.Words попытается заменить отсутствующий шрифт похожим из системных шрифтов.
@@ -103,10 +105,15 @@ Aspose.Words попытается заменить отсутствующий ш
 Да, Aspose.Words поддерживает .NET Core вместе с .NET Framework.
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ छवियाँ छोड़ें
-linktitle: पीडीएफ छवियाँ छोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ लोड करते समय छवियों को छोड़ना सीखें। सहज टेक्स्ट निष्कर्षण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-loadoptions/skip-pdf-images/
+"description": ".NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ लोड करते समय छवियों को छोड़ना सीखें। सहज टेक्स्ट निष्कर्षण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "पीडीएफ छवियाँ छोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ छवियाँ छोड़ें"
+"url": "/hi/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ छवियाँ छोड़ें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-loadoptions/skip-pdf-images/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 - विजुअल स्टूडियो: कोई भी नवीनतम संस्करण ठीक काम करेगा।
 - C# की बुनियादी समझ: आपको इसमें विशेषज्ञ होने की आवश्यकता नहीं है, लेकिन बुनियादी समझ से मदद मिलेगी।
 - पीडीएफ दस्तावेज़: परीक्षण के लिए एक नमूना पीडीएफ दस्तावेज़ तैयार रखें।
@@ -55,13 +57,13 @@ using Aspose.Words.Loading;
 
 ### डेटा निर्देशिका परिभाषित करें
 
- आपके प्रोजेक्ट में`Program.cs` फ़ाइल के लिए, अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करके शुरू करें। यह वह जगह है जहाँ आपकी PDF फ़ाइल स्थित है।
+आपके प्रोजेक्ट में `Program.cs` फ़ाइल के लिए, अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करके शुरू करें। यह वह जगह है जहाँ आपकी PDF फ़ाइल स्थित है।
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
 
 ### पीडीएफ छवियों को छोड़ने के लिए लोड विकल्प सेट करें
 
@@ -79,7 +81,7 @@ PdfLoadOptions loadOptions = new PdfLoadOptions { SkipPdfImages = true };
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- यह सुनिश्चित करें कि`"Pdf Document.pdf"` निर्दिष्ट निर्देशिका में आपकी PDF फ़ाइल का नाम है.
+यह सुनिश्चित करें कि `"Pdf Document.pdf"` निर्दिष्ट निर्देशिका में आपकी PDF फ़ाइल का नाम है.
 
 ## निष्कर्ष
 
@@ -89,7 +91,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### क्या मैं पीडीएफ में चुनिंदा छवियों को छोड़ सकता हूं?
 
- नहीं,`SkipPdfImages` विकल्प पीडीएफ में सभी छवियों को छोड़ देता है। यदि आपको चयनात्मक नियंत्रण की आवश्यकता है, तो पीडीएफ को प्री-प्रोसेस करने पर विचार करें।
+नहीं, `SkipPdfImages` विकल्प पीडीएफ में सभी छवियों को छोड़ देता है। यदि आपको चयनात्मक नियंत्रण की आवश्यकता है, तो पीडीएफ को प्री-प्रोसेस करने पर विचार करें।
 
 ### क्या यह सुविधा पीडीएफ में पाठ को प्रभावित करती है?
 
@@ -97,7 +99,7 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### क्या मैं इस सुविधा का उपयोग अन्य दस्तावेज़ प्रारूपों के साथ कर सकता हूँ?
 
-`SkipPdfImages` विकल्प विशेष रूप से पीडीएफ दस्तावेजों के लिए है। अन्य प्रारूपों के लिए, विभिन्न विकल्प और विधियाँ उपलब्ध हैं।
+The `SkipPdfImages` विकल्प विशेष रूप से पीडीएफ दस्तावेजों के लिए है। अन्य प्रारूपों के लिए, विभिन्न विकल्प और विधियाँ उपलब्ध हैं।
 
 ### मैं कैसे सत्यापित कर सकता हूं कि छवियां छोड़ दी गई थीं?
 
@@ -105,11 +107,16 @@ Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 
 ### यदि पीडीएफ में कोई छवि न हो तो क्या होगा?
 
- दस्तावेज़ हमेशा की तरह लोड होता है, प्रक्रिया पर कोई प्रभाव नहीं पड़ता।`SkipPdfImages` इस मामले में विकल्प का कोई प्रभाव नहीं है।
+दस्तावेज़ हमेशा की तरह लोड होता है, प्रक्रिया पर कोई प्रभाव नहीं पड़ता। `SkipPdfImages` इस मामले में विकल्प का कोई प्रभाव नहीं है।
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

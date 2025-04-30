@@ -1,27 +1,29 @@
 ---
-title: Thiết lập trang khác nhau
-linktitle: Thiết lập trang khác nhau
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập các cấu hình trang khác nhau khi hợp nhất các tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước.
-weight: 10
-url: /vi/net/join-and-append-documents/different-page-setup/
+"description": "Tìm hiểu cách thiết lập các cấu hình trang khác nhau khi hợp nhất các tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước."
+"linktitle": "Thiết lập trang khác nhau"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thiết lập trang khác nhau"
+"url": "/vi/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập trang khác nhau
 
 ## Giới thiệu
 
-Xin chào! Sẵn sàng khám phá thế giới hấp dẫn của việc thao tác tài liệu với Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ giải quyết một vấn đề khá hay: thiết lập các thiết lập trang khác nhau khi kết hợp các tài liệu Word. Cho dù bạn đang hợp nhất các báo cáo, tạo tiểu thuyết hay chỉ nghịch tài liệu cho vui, hướng dẫn này sẽ hướng dẫn bạn từng bước. Hãy bắt đầu nào!
+Xin chào! Sẵn sàng khám phá thế giới hấp dẫn của việc xử lý tài liệu với Aspose.Words cho .NET chưa? Hôm nay, chúng ta sẽ giải quyết một vấn đề khá hay: thiết lập các thiết lập trang khác nhau khi kết hợp các tài liệu Word. Cho dù bạn đang hợp nhất các báo cáo, tạo tiểu thuyết hay chỉ nghịch tài liệu cho vui, hướng dẫn này sẽ hướng dẫn bạn từng bước. Hãy bắt đầu nào!
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt tay vào thực hiện, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. .NET Framework: Bất kỳ phiên bản nào hỗ trợ Aspose.Words cho .NET.
 3. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 4. Kiến thức cơ bản về C#: Chỉ cần những kiến thức cơ bản để hiểu cú pháp và cấu trúc.
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Bước 2: Tải tài liệu
 
- Bây giờ, hãy tải các tài liệu chúng ta muốn hợp nhất. Đối với ví dụ này, bạn sẽ cần hai tài liệu Word:`Document source.docx` Và`Northwind traders.docx`. Đảm bảo các tập tin này nằm trong thư mục dự án của bạn.
+Bây giờ, hãy tải các tài liệu chúng ta muốn hợp nhất. Đối với ví dụ này, bạn sẽ cần hai tài liệu Word: `Document source.docx` Và `Northwind traders.docx`. Đảm bảo các tập tin này nằm trong thư mục dự án của bạn.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 Để đảm bảo nội dung trôi chảy, chúng ta cần điều chỉnh định dạng đoạn văn trong tài liệu nguồn.
 
- Lặp lại tất cả các đoạn văn trong tài liệu nguồn và thiết lập`KeepWithNext` tài sản.
+Lặp lại tất cả các đoạn văn trong tài liệu nguồn và thiết lập `KeepWithNext` tài sản.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -117,7 +119,7 @@ dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 
 ## Bước 7: Lưu tài liệu đã kết hợp
 
-Bây giờ, hãy lưu lại tài liệu đã được hợp nhất đẹp mắt của bạn.
+Bây giờ, hãy lưu tài liệu đã được hợp nhất đẹp mắt của bạn.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
@@ -139,14 +141,19 @@ Bạn cũng có thể điều chỉnh cài đặt lề tương tự như cách c
 Có, Aspose.Words cho .NET hoàn toàn tương thích với .NET Core.
 
 ### Tôi có thể giữ nguyên kiểu của cả hai tài liệu không?
- Vâng,`ImportFormatMode.KeepSourceFormatting` Tùy chọn này đảm bảo rằng các kiểu từ tài liệu nguồn được giữ nguyên.
+Vâng, `ImportFormatMode.KeepSourceFormatting` Tùy chọn này đảm bảo rằng các kiểu từ tài liệu nguồn được giữ nguyên.
 
 ### Tôi có thể nhận thêm trợ giúp về Aspose.Words ở đâu?
- Kiểm tra các[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc ghé thăm họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ thêm.
+Kiểm tra các [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) hoặc ghé thăm họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ thêm.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

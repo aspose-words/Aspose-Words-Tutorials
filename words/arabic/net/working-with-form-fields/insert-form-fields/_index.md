@@ -1,52 +1,60 @@
 ---
-title: إدراج مربع شكل مشترك في ورقة الوثيقة
-weight: 7700
-limit: 
-description: تعلم كيفية إدراج حقل نموذج مربع مزيج في مستند Word باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة مع أمثلة رمز ومواد محددة مسبقا.
-keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
-url: /ar/net/working-with-form-fields/insert-form-fields/
+"description": "تعرّف على كيفية إدراج حقل نموذج مربع التحرير والسرد في مستند Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية وعناصر محددة مسبقًا."
+"title": "إدراج حقل نموذج المربع المنسدل في مستند Word"
+"url": "/ar/net/working-with-form-fields/insert-form-fields/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إدراج مربع شكل مشترك في ورقة الوثيقة
+# إدراج حقل نموذج المربع المنسدل في مستند Word
 
-Aspose.Words لـ .NET يسهل إنشاء وتلاعب وثائق Word برنامجيًا. في هذا المثال ، سوف تتعلم كيفية إدخال حقل شكل مربع مزيج في مستند Word. يحتوي مربع مزيج على عناصر محددة مسبقا مثل "واحد" "إثنان" و "ثلاثة" مع مجموعة اختيار افتراضية. يظهر هذا الدروس خطوة بخطوة استخدام `المستخدم`لإنشاء مستندات Word ديناميكية و تفاعلية دون جهد. مثالية للمطورين الذين يسعون إلى تعزيز تطبيقات .NET الخاصة بهم مع نماذج Word قابلة للتخصيص.  
+يُسهّل Aspose.Words لـ .NET إنشاء مستندات Word ومعالجتها برمجيًا. في هذا المثال، ستتعلم كيفية إدراج حقل نموذج مربع منسدل في مستند Word. يتضمن المربع المنسدلة عناصر مُعرّفة مسبقًا مثل "واحد" و"اثنان" و"ثلاثة"، مع مجموعة اختيارات افتراضية. يوضح هذا البرنامج التعليمي خطوة بخطوة استخدام `DocumentBuilder` لإنشاء مستندات Word ديناميكية وتفاعلية بسهولة. مثالي للمطورين الذين يسعون إلى تحسين تطبيقات .NET الخاصة بهم باستخدام نماذج Word قابلة للتخصيص.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-لاستخدام المثال، تحتاج إلى Aspose.Words ل .NET مثبت في بيئة التطوير الخاصة بك. اتبع هذه الخطوات:  
+لاستخدام هذا المثال، يجب تثبيت Aspose.Words for .NET في بيئة التطوير لديك. اتبع الخطوات التالية:  
 
-1. قم بتنزيل Aspose.Words لـ .NET  
-   احصل على أحدث نسخة من [إرسال التنزيلات](https://releases.aspose.com/words/net/)الصفحة  
+1. تنزيل Aspose.Words لـ .NET  
+   احصل على أحدث إصدار من [تنزيلات Aspose](https://releases.aspose.com/words/net/) صفحة.  
 
-2. إثباط عبر NuGet  
-   افتح مشروعك في Visual Studio ووضع المكتبة باستخدام NuGet Package Manager:  
-   * في جهاز إدارة الحزمات، اكتب:  
+2. التثبيت عبر NuGet  
+   افتح مشروعك في Visual Studio وقم بتثبيت المكتبة باستخدام NuGet Package Manager:  
+   - في وحدة التحكم في إدارة الحزم، اكتب:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. التقدم بطلب للحصول على الترخيص (اختياري)  
-   للحصول على وظائف كاملة، اطلب رخصة:  
-   * شراء رخصة من [ارجوا لشراء](https://purchase.aspose.com/buy)الصفحة أو طلب [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/). . .  
-   * قم بتحميل الترخيص في رمزك:  
+3. تطبيق الترخيص (اختياري)  
+   للحصول على الوظائف الكاملة، قم بتطبيق الترخيص:  
+   - شراء ترخيص من [شراء Aspose](https://purchase.aspose.com/buy) الصفحة أو طلب [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).  
+   - قم بتحميل الترخيص في الكود الخاص بك:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

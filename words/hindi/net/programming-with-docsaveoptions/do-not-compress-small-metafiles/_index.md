@@ -1,14 +1,16 @@
 ---
-title: छोटी मेटाफाइल्स को संपीड़ित न करें
-linktitle: छोटी मेटाफाइल्स को संपीड़ित न करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग कैसे करें ताकि यह सुनिश्चित हो सके कि Word दस्तावेज़ों में छोटी मेटाफ़ाइलें संपीड़ित न हों, जिससे उनकी गुणवत्ता और अखंडता बनी रहे। चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 10
-url: /hi/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग कैसे करें ताकि यह सुनिश्चित हो सके कि Word दस्तावेज़ों में छोटी मेटाफ़ाइलें संपीड़ित न हों, जिससे उनकी गुणवत्ता और अखंडता बनी रहे। चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "छोटी मेटाफाइल्स को संपीड़ित न करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "छोटी मेटाफाइल्स को संपीड़ित न करें"
+"url": "/hi/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # छोटी मेटाफाइल्स को संपीड़ित न करें
@@ -21,14 +23,14 @@ url: /hi/net/programming-with-docsaveoptions/do-not-compress-small-metafiles/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  Aspose.Words for .NET: यहां से नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: यहां से नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विजुअल स्टूडियो या कोई अन्य संगत IDE.
 - C# की बुनियादी समझ: C# प्रोग्रामिंग भाषा और .NET फ्रेमवर्क से परिचित होना।
--  Aspose लाइसेंस: Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए, प्राप्त करने पर विचार करें[लाइसेंस](https://purchase.aspose.com/buy) . आप इसका उपयोग भी कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+- Aspose लाइसेंस: Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए, प्राप्त करने पर विचार करें [लाइसेंस](https://purchase.aspose.com/buy). आप इसका उपयोग भी कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ## नामस्थान आयात करें
 
-अपने प्रोजेक्ट में Aspose.Words का उपयोग करने के लिए, आपको आवश्यक नामस्थान आयात करने होंगे। अपनी कोड फ़ाइल की शुरुआत में निम्न पंक्तियाँ जोड़ें:
+अपने प्रोजेक्ट में Aspose.Words का उपयोग करने के लिए, आपको आवश्यक नेमस्पेस आयात करने की आवश्यकता है। अपनी कोड फ़ाइल की शुरुआत में निम्न पंक्तियाँ जोड़ें:
 
 ```csharp
 using Aspose.Words;
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
+प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
 
 ## चरण 2: नया दस्तावेज़ बनाएँ
 
@@ -59,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- यहाँ, हम एक आरंभीकरण करते हैं`Document` वस्तु और उपयोग`DocumentBuilder` इसमें कुछ पाठ जोड़ने के लिए।`Writeln` विधि दस्तावेज़ में पाठ की एक पंक्ति जोड़ती है।
+यहाँ, हम एक आरंभीकरण करते हैं `Document` वस्तु और उपयोग `DocumentBuilder` इसमें कुछ पाठ जोड़ने के लिए। `Writeln` विधि दस्तावेज़ में पाठ की एक पंक्ति जोड़ती है।
 
 ## चरण 3: सहेजें विकल्प कॉन्फ़िगर करें
 
- अब, हम "छोटी मेटाफाइल्स को संपीड़ित न करें" सुविधा का उपयोग करने के लिए सेव विकल्पों को कॉन्फ़िगर करते हैं। यह का उपयोग करके किया जाता है`DocSaveOptions` कक्षा।
+अब, हम "छोटी मेटाफाइल्स को संपीड़ित न करें" सुविधा का उपयोग करने के लिए सेव विकल्पों को कॉन्फ़िगर करते हैं। यह का उपयोग करके किया जाता है `DocSaveOptions` कक्षा।
 
 ```csharp
 // "छोटी मेटाफाइल्स को संपीड़ित न करें" सुविधा के साथ सेव विकल्पों को कॉन्फ़िगर करें
@@ -71,18 +73,18 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.Compliance = PdfCompliance.PdfA1a;
 ```
 
- इस चरण में, हम एक उदाहरण बनाते हैं`DocSaveOptions` और सेट करें`Compliance`संपत्ति को`PdfCompliance.PdfA1a`यह सुनिश्चित करता है कि दस्तावेज़ PDF/A-1a मानक का पालन करता है।
+इस चरण में, हम एक उदाहरण बनाते हैं `DocSaveOptions` और सेट करें `Compliance` संपत्ति को `PdfCompliance.PdfA1a`यह सुनिश्चित करता है कि दस्तावेज़ PDF/A-1a मानक का पालन करता है।
 
 ## चरण 4: दस्तावेज़ सहेजें
 
-अंत में, हम दस्तावेज़ को निर्दिष्ट विकल्पों के साथ सहेजते हैं ताकि यह सुनिश्चित किया जा सके कि छोटी मेटाफ़ाइलें संपीड़ित न हों।
+अंत में, हम दस्तावेज़ को निर्दिष्ट विकल्पों के साथ सहेजते हैं ताकि यह सुनिश्चित हो सके कि छोटी मेटाफ़ाइलें संपीड़ित न हों।
 
 ```csharp
 // निर्दिष्ट विकल्पों के साथ दस्तावेज़ को सहेजें
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
- यहाँ, हम उपयोग करते हैं`Save` की विधि`Document` दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें। पथ में निर्देशिका और फ़ाइल नाम "DocumentWithDoNotCompressMetafiles.pdf" शामिल है।
+यहाँ, हम उपयोग करते हैं `Save` की विधि `Document` दस्तावेज़ को सहेजने के लिए क्लास का उपयोग करें। पथ में निर्देशिका और फ़ाइल नाम "DocumentWithDoNotCompressMetafiles.pdf" शामिल है।
 
 ## निष्कर्ष
 
@@ -100,19 +102,24 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
 
- जबकि आप मूल्यांकन के लिए लाइसेंस के बिना .NET के लिए Aspose.Words का उपयोग कर सकते हैं, पूर्ण कार्यक्षमता को अनलॉक करने के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy) या का उपयोग करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+जबकि आप मूल्यांकन के लिए लाइसेंस के बिना .NET के लिए Aspose.Words का उपयोग कर सकते हैं, पूर्ण कार्यक्षमता को अनलॉक करने के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/buy) या का उपयोग करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 
 ### मैं कैसे सुनिश्चित कर सकता हूं कि मेरे दस्तावेज़ PDF/A मानकों के अनुरूप हैं?
 
- .NET के लिए Aspose.Words आपको अनुपालन विकल्प सेट करने की अनुमति देता है जैसे कि`PdfCompliance.PdfA1a` यह सुनिश्चित करने के लिए कि आपके दस्तावेज़ विशिष्ट मानकों को पूरा करते हैं।
+.NET के लिए Aspose.Words आपको अनुपालन विकल्प सेट करने की अनुमति देता है जैसे कि `PdfCompliance.PdfA1a` यह सुनिश्चित करने के लिए कि आपके दस्तावेज़ विशिष्ट मानकों को पूरा करते हैं।
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/) , और आप नवीनतम संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/), और आप नवीनतम संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

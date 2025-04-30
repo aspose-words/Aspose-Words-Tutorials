@@ -1,14 +1,16 @@
 ---
-title: โหลดการตั้งค่า Noto Fallback
-linktitle: โหลดการตั้งค่า Noto Fallback
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีโหลดการตั้งค่า Noto fallback ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าอักขระทั้งหมดแสดงอย่างถูกต้อง
-weight: 10
-url: /th/net/working-with-fonts/load-noto-fallback-settings/
+"description": "เรียนรู้วิธีโหลดการตั้งค่า Noto fallback ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าอักขระทั้งหมดแสดงอย่างถูกต้อง"
+"linktitle": "โหลดการตั้งค่า Noto Fallback"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โหลดการตั้งค่า Noto Fallback"
+"url": "/th/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โหลดการตั้งค่า Noto Fallback
@@ -21,7 +23,7 @@ url: /th/net/working-with-fonts/load-noto-fallback-settings/
 
 ก่อนที่เราจะเจาะลึกคำแนะนำทีละขั้นตอน มาดูข้อกำหนดเบื้องต้นที่คุณจำเป็นต้องมีกันก่อน:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมี Aspose.Words สำหรับ .NET เวอร์ชันล่าสุด คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบว่าคุณมี Aspose.Words สำหรับ .NET เวอร์ชันล่าสุด คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือสภาพแวดล้อมการพัฒนา .NET ที่เข้ากันได้อื่น ๆ
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เป็นสิ่งจำเป็น
 4. เอกสาร Word: เอกสาร Word ตัวอย่างที่จะใช้การตั้งค่าสำรองของ Noto
@@ -52,11 +54,11 @@ using Aspose.Words.Fonts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังโฟลเดอร์เอกสารของคุณ
 
 ## ขั้นตอนที่ 3: โหลดเอกสารของคุณ
 
-โหลดเอกสาร Word ที่คุณต้องการใช้การตั้งค่า Noto fallback ใช้`Document` คลาสจากเนมสเปซ Aspose.Words
+โหลดเอกสาร Word ที่คุณต้องการใช้การตั้งค่า Noto fallback ใช้ `Document` คลาสจากเนมสเปซ Aspose.Words
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 4: กำหนดค่าการตั้งค่าแบบอักษร
 
- สร้างอินสแตนซ์ของ`FontSettings` คลาสและโหลดการตั้งค่า Noto fallback ขั้นตอนนี้จะกำหนดค่าการตั้งค่าฟอนต์เพื่อใช้ฟอนต์ Noto เป็นตัวสำรอง
+สร้างอินสแตนซ์ของ `FontSettings` คลาสและโหลดการตั้งค่า Noto fallback ขั้นตอนนี้จะกำหนดค่าการตั้งค่าฟอนต์เพื่อใช้ฟอนต์ Noto เป็นตัวสำรอง
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -91,7 +93,7 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 
 ## บทสรุป
 
-ขอแสดงความยินดี! คุณโหลดการตั้งค่าสำรองของ Noto ในเอกสาร Word สำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าโครงการไปจนถึงการบันทึกเอกสารขั้นสุดท้าย หากทำตามขั้นตอนเหล่านี้ คุณจะมั่นใจได้ว่าเอกสารของคุณแสดงอักขระทั้งหมดอย่างถูกต้อง แม้ว่าแบบอักษรดั้งเดิมจะขาดสัญลักษณ์บางตัวก็ตาม
+ขอแสดงความยินดี! คุณโหลดการตั้งค่า Noto สำรองลงในเอกสาร Word ของคุณสำเร็จแล้วโดยใช้ Aspose.Words สำหรับ .NET บทช่วยสอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าโครงการไปจนถึงการบันทึกเอกสารขั้นสุดท้าย หากทำตามขั้นตอนเหล่านี้ คุณจะมั่นใจได้ว่าเอกสารของคุณแสดงอักขระทั้งหมดอย่างถูกต้อง แม้ว่าแบบอักษรดั้งเดิมจะขาดสัญลักษณ์บางตัวก็ตาม
 
 ## คำถามที่พบบ่อย
 
@@ -99,7 +101,7 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 การตั้งค่า Noto fallback มอบชุดแบบอักษรสำรองที่ครอบคลุมเพื่อให้แน่ใจว่าอักขระทั้งหมดในเอกสารจะแสดงอย่างถูกต้อง
 
 ### เหตุใดฉันจึงควรใช้การตั้งค่าสำรองของ Noto
-การใช้การตั้งค่าสำรองของ Noto ช่วยให้แน่ใจว่าเอกสารของคุณสามารถแสดงอักขระได้หลากหลาย โดยเฉพาะในเอกสารหลายภาษา
+การใช้การตั้งค่าสำรองของ Noto ช่วยให้แน่ใจว่าเอกสารของคุณสามารถแสดงอักขระได้หลากหลาย โดยเฉพาะอย่างยิ่งในเอกสารหลายภาษา
 
 ### ฉันสามารถใช้การตั้งค่าสำรองอื่นนอกจาก Noto ได้หรือไม่
 ใช่ Aspose.Words อนุญาตให้คุณกำหนดค่าการตั้งค่าสำรองอื่น ๆ ตามความต้องการของคุณได้
@@ -108,10 +110,15 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 คุณสามารถติดตั้ง Aspose.Words สำหรับ .NET ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio ได้
 
 ### มีการทดลองใช้ Aspose.Words สำหรับ .NET ฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

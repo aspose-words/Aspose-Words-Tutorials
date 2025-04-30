@@ -1,14 +1,16 @@
 ---
-title: डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना
-linktitle: डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words के साथ Word दस्तावेज़ों में हेरफेर करना सीखें। Java में प्रोग्रामेटिक रूप से दस्तावेज़ बनाएँ, संपादित करें, मर्ज करें और परिवर्तित करें।
-weight: 13
-url: /hi/java/document-merging/merging-documents-documentbuilder/
+"description": "Java के लिए Aspose.Words के साथ Word दस्तावेज़ों में हेरफेर करना सीखें। Java में प्रोग्रामेटिक रूप से दस्तावेज़ बनाएँ, संपादित करें, मर्ज करें और परिवर्तित करें।"
+"linktitle": "डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना"
+"url": "/hi/java/document-merging/merging-documents-documentbuilder/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना
@@ -28,7 +30,7 @@ url: /hi/java/document-merging/merging-documents-documentbuilder/
 
 ## शुरू करना
 
- आइए एक नया जावा प्रोजेक्ट बनाकर और उसमें Aspose.Words लाइब्रेरी जोड़कर शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+आइए एक नया जावा प्रोजेक्ट बनाकर और उसमें Aspose.Words लाइब्रेरी जोड़कर शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 ## नया दस्तावेज़ बनाना
 
@@ -99,10 +101,15 @@ doc.save("merged_document.docx");
 
 ### मैं अधिक दस्तावेज और संसाधन कहां पा सकता हूं?
 
- आप Aspose वेबसाइट पर Java के लिए Aspose.Words के लिए व्यापक दस्तावेज़ और संसाधन पा सकते हैं:[जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+आप Aspose.Words for Java के लिए व्यापक दस्तावेज और संसाधन Aspose वेबसाइट पर पा सकते हैं: [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pomiń obrazy PDF
-linktitle: Pomiń obrazy PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak pominąć obrazy podczas ładowania dokumentów PDF za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo wyodrębnić tekst.
-weight: 10
-url: /pl/net/programming-with-loadoptions/skip-pdf-images/
+"description": "Dowiedz się, jak pominąć obrazy podczas ładowania dokumentów PDF za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo wyodrębnić tekst."
+"linktitle": "Pomiń obrazy PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pomiń obrazy PDF"
+"url": "/pl/net/programming-with-loadoptions/skip-pdf-images/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pomiń obrazy PDF
@@ -21,7 +23,7 @@ Cześć, entuzjaści Aspose.Words! Dzisiaj zagłębimy się w fantastyczną funk
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 - Visual Studio: Każda nowsza wersja powinna działać prawidłowo.
 - Podstawowa znajomość języka C#: Nie musisz być profesjonalistą, ale podstawowa znajomość języka będzie pomocna.
 - Dokument PDF: Przygotuj przykładowy dokument PDF w celu przetestowania.
@@ -55,13 +57,13 @@ Następnie musisz dodać odwołanie do Aspose.Words dla .NET. Możesz to zrobić
 
 ### Zdefiniuj katalog danych
 
- W Twoim projekcie`Program.cs` plik, zacznij od zdefiniowania ścieżki do katalogu dokumentów. To tutaj znajduje się plik PDF.
+W Twoim projekcie `Program.cs` plik, zacznij od zdefiniowania ścieżki do katalogu dokumentów. To tutaj znajduje się plik PDF.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do folderu z dokumentami.
+Zastępować `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką do folderu z dokumentami.
 
 ### Ustaw opcje ładowania, aby pominąć obrazy PDF
 
@@ -79,7 +81,7 @@ Po ustawieniu opcji ładowania możesz załadować dokument PDF. Ten krok jest k
 Document doc = new Document(dataDir + "Pdf Document.pdf", loadOptions);
 ```
 
- Upewnij się, że`"Pdf Document.pdf"` jest nazwą Twojego pliku PDF w określonym katalogu.
+Upewnij się, że `"Pdf Document.pdf"` jest nazwą Twojego pliku PDF w określonym katalogu.
 
 ## Wniosek
 
@@ -89,7 +91,7 @@ I masz to! Właśnie nauczyłeś się, jak pomijać obrazy w dokumencie PDF za p
 
 ### Czy mogę selektywnie pominąć określone obrazy w pliku PDF?
 
- Nie,`SkipPdfImages` opcja pomija wszystkie obrazy w pliku PDF. Jeśli potrzebujesz selektywnej kontroli, rozważ wstępne przetwarzanie pliku PDF.
+Nie, `SkipPdfImages` opcja pomija wszystkie obrazy w pliku PDF. Jeśli potrzebujesz selektywnej kontroli, rozważ wstępne przetwarzanie pliku PDF.
 
 ### Czy ta funkcja ma wpływ na tekst w pliku PDF?
 
@@ -97,7 +99,7 @@ Nie, pomijanie obrazów dotyczy tylko obrazów. Tekst pozostaje nienaruszony i w
 
 ### Czy mogę używać tej funkcji w przypadku innych formatów dokumentów?
 
- Ten`SkipPdfImages` opcja jest przeznaczona specjalnie dla dokumentów PDF. Dla innych formatów dostępne są różne opcje i metody.
+Ten `SkipPdfImages` opcja jest przeznaczona specjalnie dla dokumentów PDF. Dla innych formatów dostępne są różne opcje i metody.
 
 ### Jak mogę sprawdzić, czy obrazy zostały pominięte?
 
@@ -105,11 +107,16 @@ Aby wizualnie potwierdzić brak obrazów, możesz otworzyć dokument wyjściowy 
 
 ### Co się stanie, jeśli plik PDF nie będzie zawierał żadnych obrazów?
 
- Dokument ładuje się normalnie, bez wpływu na proces.`SkipPdfImages` opcja ta po prostu nie ma w tym przypadku żadnego znaczenia.
+Dokument ładuje się normalnie, bez wpływu na proces. `SkipPdfImages` opcja ta po prostu nie ma w tym przypadku żadnego znaczenia.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

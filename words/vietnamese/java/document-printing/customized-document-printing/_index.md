@@ -1,14 +1,16 @@
 ---
-title: In tài liệu theo yêu cầu
-linktitle: In tài liệu theo yêu cầu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách in tài liệu tùy chỉnh dễ dàng với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến tùy chỉnh nâng cao.
-weight: 12
-url: /vi/java/document-printing/customized-document-printing/
+"description": "Tìm hiểu cách in tài liệu tùy chỉnh dễ dàng với Aspose.Words for Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến tùy chỉnh nâng cao."
+"linktitle": "In tài liệu theo yêu cầu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In tài liệu theo yêu cầu"
+"url": "/vi/java/document-printing/customized-document-printing/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tài liệu theo yêu cầu
@@ -28,7 +30,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 ## Thiết lập Aspose.Words cho Java
 
- Để bắt đầu, hãy tải xuống thư viện Aspose.Words cho Java từ[đây](https://releases.aspose.com/words/java/). Làm theo hướng dẫn cài đặt để tích hợp vào dự án Java của bạn.
+Để bắt đầu, hãy tải xuống thư viện Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/). Làm theo hướng dẫn cài đặt để tích hợp vào dự án Java của bạn.
 
 ## Tạo một tài liệu trống
 
@@ -72,9 +74,9 @@ In tài liệu tùy chỉnh bằng Aspose.Words for Java giúp doanh nghiệp t�
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để tôi có thể cài đặt Aspose.Words cho Java?
+### Làm thế nào để cài đặt Aspose.Words cho Java?
 
- Để cài đặt Aspose.Words cho Java, hãy tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/)và làm theo hướng dẫn cài đặt được cung cấp.
+Để cài đặt Aspose.Words cho Java, hãy tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể tùy chỉnh bố cục tài liệu không?
 
@@ -91,9 +93,14 @@ Nếu bạn gặp sự cố khi in tài liệu, hãy tham khảo tài liệu Asp
 ### Có phiên bản dùng thử của Aspose.Words cho Java không?
 
 Có, bạn có thể truy cập phiên bản dùng thử của Aspose.Words cho Java từ trang web của họ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

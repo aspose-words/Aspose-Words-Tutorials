@@ -1,31 +1,33 @@
 ---
-title: Použití stylů a motivů v Aspose.Words pro Java
-linktitle: Používání stylů a motivů
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se, jak vylepšit formátování dokumentů pomocí Aspose.Words for Java. Prozkoumejte styly, motivy a další v této komplexní příručce s příklady zdrojového kódu.
-weight: 20
-url: /cs/java/document-manipulation/using-styles-and-themes/
+"description": "Naučte se, jak vylepšit formátování dokumentů pomocí Aspose.Words pro Javu. Prozkoumejte styly, motivy a další v tomto komplexním průvodci s příklady zdrojového kódu."
+"linktitle": "Používání stylů a motivů"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Používání stylů a motivů v Aspose.Words pro Javu"
+"url": "/cs/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití stylů a motivů v Aspose.Words pro Java
+# Používání stylů a motivů v Aspose.Words pro Javu
 
 
 ## Úvod do používání stylů a motivů v Aspose.Words pro Javu
 
-V této příručce prozkoumáme, jak pracovat se styly a motivy v Aspose.Words pro Java, abychom zlepšili formátování a vzhled vašich dokumentů. Budeme se zabývat tématy, jako je načítání stylů, kopírování stylů, správa motivů a vkládání oddělovačů stylů. Začněme!
+V této příručce se podíváme na to, jak pracovat se styly a tématy v Aspose.Words pro Javu a vylepšit formátování a vzhled vašich dokumentů. Probereme témata, jako je načítání stylů, kopírování stylů, správa témat a vkládání oddělovačů stylů. Začněme!
 
 ## Načítání stylů
 
-Chcete-li načíst styly z dokumentu, můžete použít následující fragment kódu Java:
+Pro načtení stylů z dokumentu můžete použít následující úryvek kódu Java:
 
 ```java
 Document doc = new Document();
 String styleName = "";
-//Získejte kolekci stylů z dokumentu.
+// Získejte kolekci stylů z dokumentu.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -42,11 +44,11 @@ for (Style style : styles)
 }
 ```
 
-Tento kód načte styly definované v dokumentu a vytiskne jejich názvy.
+Tento kód načte styly definované v dokumentu a vypíše jejich názvy.
 
 ## Kopírování stylů
 
- Chcete-li kopírovat styly z jednoho dokumentu do druhého, můžete použít`copyStylesFromTemplate` způsob, jak je uvedeno níže:
+Chcete-li kopírovat styly z jednoho dokumentu do druhého, můžete použít `copyStylesFromTemplate` metoda, jak je uvedeno níže:
 
 ```java
 @Test
@@ -61,9 +63,9 @@ public void copyStyles() throws Exception
 
 Tento kód zkopíruje styly z dokumentu šablony do aktuálního dokumentu.
 
-## Správa motivů
+## Správa témat
 
-Motivy jsou zásadní pro definování celkového vzhledu vašeho dokumentu. Vlastnosti motivu můžete načíst a nastavit, jak je ukázáno v následujícím kódu:
+Šablony jsou nezbytné pro definování celkového vzhledu dokumentu. Vlastnosti šablony můžete načíst a nastavit, jak je znázorněno v následujícím kódu:
 
 ```java
 @Test
@@ -86,7 +88,7 @@ public void setThemeProperties() throws Exception
 }
 ```
 
-Tyto úryvky ukazují, jak načíst a upravit vlastnosti motivu, jako jsou písma a barvy.
+Tyto úryvky kódu ukazují, jak načíst a upravit vlastnosti motivu, jako jsou písma a barvy.
 
 ## Vkládání oddělovačů stylů
 
@@ -102,40 +104,45 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    // Přidejte text stylem „Nadpis 1“.
+    // Přidat text ve stylu „Nadpis 1“.
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
-    // Připojit text jiným stylem.
+    // Přidat text s jiným stylem.
     builder.getParagraphFormat().setStyleName(paraStyle.getName());
     builder.write("This is text with some other formatting ");
     doc.save("Your Directory Path" + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 }
 ```
 
-V tomto kódu vytvoříme vlastní styl odstavce a vložíme oddělovač stylu pro přepínání stylů v rámci stejného odstavce.
+tomto kódu vytvoříme vlastní styl odstavce a vložíme oddělovač stylů pro přepínání stylů v rámci stejného odstavce.
 
 ## Závěr
 
-Tato příručka pokrývá základy práce se styly a motivy v Aspose.Words for Java. Naučili jste se, jak získávat a kopírovat styly, spravovat motivy a vkládat oddělovače stylů, abyste vytvořili vizuálně přitažlivé a dobře formátované dokumenty. Experimentujte s těmito technikami a upravte své dokumenty podle svých požadavků.
+Tato příručka se zabývá základy práce se styly a motivy v Aspose.Words pro Javu. Naučili jste se, jak načítat a kopírovat styly, spravovat motivy a vkládat oddělovače stylů pro vytváření vizuálně přitažlivých a dobře formátovaných dokumentů. Experimentujte s těmito technikami a přizpůsobte si dokumenty podle svých požadavků.
 
 
-## FAQ
+## Často kladené otázky
 
-### Jak mohu získat vlastnosti motivu v Aspose.Words pro Java?
+### Jak mohu načíst vlastnosti motivu v Aspose.Words pro Javu?
 
-Vlastnosti motivu můžete získat přístupem k objektu motivu a jeho vlastnostem.
+Vlastnosti motivu můžete načíst přístupem k objektu motivu a jeho vlastnostem.
 
 ### Jak mohu nastavit vlastnosti motivu, jako jsou písma a barvy?
 
 Vlastnosti motivu můžete nastavit úpravou vlastností objektu motivu.
 
-### Jak mohu použít oddělovače stylů k přepínání stylů ve stejném odstavci?
+### Jak mohu použít oddělovače stylů k přepínání stylů v rámci stejného odstavce?
 
- Oddělovače stylů můžete vložit pomocí`insertStyleSeparator` metoda`DocumentBuilder` třída.
+Oddělovače stylů můžete vkládat pomocí `insertStyleSeparator` metoda `DocumentBuilder` třída.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

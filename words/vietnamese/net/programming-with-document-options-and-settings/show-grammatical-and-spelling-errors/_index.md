@@ -1,14 +1,16 @@
 ---
-title: Hiển thị lỗi ngữ pháp và chính tả
-linktitle: Hiển thị lỗi ngữ pháp và chính tả
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hiển thị lỗi ngữ pháp và chính tả trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này.
-weight: 10
-url: /vi/net/programming-with-document-options-and-settings/show-grammatical-and-spelling-errors/
+"description": "Tìm hiểu cách hiển thị lỗi ngữ pháp và chính tả trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này."
+"linktitle": "Hiển thị lỗi ngữ pháp và chính tả"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Hiển thị lỗi ngữ pháp và chính tả"
+"url": "/vi/net/programming-with-document-options-and-settings/show-grammatical-and-spelling-errors/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị lỗi ngữ pháp và chính tả
@@ -21,7 +23,7 @@ Bạn có bao giờ thấy mình không biết mệt mỏi khi phải lục tung
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Tải xuống và cài đặt thư viện từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Tải xuống và cài đặt thư viện từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 3. Kiến thức cơ bản về C#: Bạn nên quen thuộc với các khái niệm lập trình C# cơ bản.
 
@@ -37,7 +39,7 @@ Chúng ta hãy cùng phân tích từng bước quá trình hiển thị lỗi n
 
 ## Bước 1: Thiết lập dự án của bạn
 
- Trước khi đi sâu vào mã, hãy đảm bảo dự án của bạn được thiết lập đúng. Mở IDE của bạn và tạo một dự án .NET mới. Thêm tham chiếu đến thư viện Aspose.Words. Nếu bạn chưa tải xuống, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+Trước khi đi sâu vào mã, hãy đảm bảo dự án của bạn được thiết lập đúng. Mở IDE của bạn và tạo một dự án .NET mới. Thêm tham chiếu đến thư viện Aspose.Words. Nếu bạn chưa tải xuống, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 
 ## Bước 2: Xác định thư mục tài liệu
 
@@ -48,7 +50,7 @@ Trước tiên, bạn cần xác định đường dẫn đến thư mục tài 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tài liệu Word của bạn. Điều này sẽ giúp Aspose.Words xác định vị trí tài liệu bạn muốn làm việc.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi lưu trữ tài liệu Word của bạn. Điều này sẽ giúp Aspose.Words xác định vị trí tài liệu bạn muốn làm việc.
 
 ## Bước 3: Tải tài liệu của bạn
 
@@ -58,7 +60,7 @@ Tiếp theo, bạn cần tải tài liệu bạn muốn xử lý. Aspose.Words g
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Đây,`Document.docx` là tên của tệp bạn muốn kiểm tra lỗi ngữ pháp và lỗi chính tả. Đảm bảo tệp này tồn tại trong thư mục bạn chỉ định.
+Đây, `Document.docx` là tên của tệp bạn muốn kiểm tra lỗi ngữ pháp và lỗi chính tả. Đảm bảo tệp này tồn tại trong thư mục bạn chỉ định.
 
 ## Bước 4: Bật Hiển thị lỗi ngữ pháp và chính tả
 
@@ -85,28 +87,33 @@ Thao tác này sẽ lưu tài liệu đã sửa đổi với tên mới, đảm 
 
 Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã học được cách tự động hóa quy trình hiển thị lỗi ngữ pháp và lỗi chính tả trong tài liệu Word bằng Aspose.Words for .NET. Điều này không chỉ giúp bạn tiết kiệm thời gian mà còn đảm bảo tài liệu của bạn không có lỗi và chuyên nghiệp.
 
- Nhân tiện, nếu bạn chưa dùng thử Aspose.Words cho .NET, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/) . Nếu bạn cần mua giấy phép, bạn có thể làm như vậy[đây](https://purchase.aspose.com/buy) Và nếu bạn cần hỗ trợ, đừng ngần ngại ghé thăm họ[diễn đàn](https://forum.aspose.com/c/words/8).
+Nhân tiện, nếu bạn chưa dùng thử Aspose.Words cho .NET, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/). Nếu bạn cần mua giấy phép, bạn có thể làm như vậy [đây](https://purchase.aspose.com/buy). Và nếu bạn cần hỗ trợ, đừng ngần ngại ghé thăm họ [diễn đàn](https://forum.aspose.com/c/words/8).
 
 ## Câu hỏi thường gặp
 
 ### Aspose.Words dành cho .NET là gì?
-Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các tài liệu Word theo cách lập trình.
+Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi các tài liệu Word theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET trong các dự án hiện tại của mình không?
 Hoàn toàn có thể! Aspose.Words tích hợp liền mạch với các dự án .NET của bạn.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống thư viện từ[trang web](https://releases.aspose.com/words/net/) và thêm nó vào dự án của bạn để tham khảo.
+Bạn có thể tải xuống thư viện từ [trang web](https://releases.aspose.com/words/net/) và thêm nó vào dự án của bạn để tham khảo.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể nhận được bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể nhận được bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

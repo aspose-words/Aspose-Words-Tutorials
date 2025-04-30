@@ -1,14 +1,16 @@
 ---
-title: Çitli Kod
-linktitle: Çitli Kod
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerine çitli kod ve bilgi dizeleri eklemeyi öğrenin. Adım adım kılavuz dahildir. Belge biçimlendirme becerilerinizi geliştirin.
-weight: 10
-url: /tr/net/working-with-markdown/fenced-code/
+"description": "Aspose.Words for .NET kullanarak Word belgelerine çitli kod ve bilgi dizeleri eklemeyi öğrenin. Adım adım kılavuz dahildir. Belge biçimlendirme becerilerinizi geliştirin."
+"linktitle": "Çitli Kod"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Çitli Kod"
+"url": "/tr/net/working-with-markdown/fenced-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çitli Kod
@@ -22,7 +24,7 @@ Merhaba, kodlayıcı arkadaşım! Bugün, Word belgelerinize çitli kod ve bilgi
 Eğitime başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 - Temel C# bilgisi: C# hakkında genel bir anlayışa sahip olmak, kavramları hızlı bir şekilde kavramanıza yardımcı olacaktır.
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yoksa, hemen edinin[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Eğer henüz yoksa, hemen edinin [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya kendinizi rahat hissettiğiniz herhangi bir C# IDE.
 
 ## Ad Alanlarını İçe Aktar
@@ -108,16 +110,21 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 Aspose.Words öncelikli olarak .NET dillerini destekler, ancak Java, Python ve diğer diller için de sürümleri mevcuttur.
 
 ### Aspose.Words'ü kullanmak ücretsiz mi?
- Aspose.Words ticari bir üründür, ancak ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/)Özelliklerini keşfetmek için.
+Aspose.Words ticari bir üründür, ancak ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/) Özelliklerini keşfetmek için.
 
 ### Aspose.Words için nasıl destek alabilirim?
- Aspose topluluğundan ve geliştiricilerden destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan ve geliştiricilerden destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words başka hangi özellikleri sunuyor?
 Aspose.Words, belge dönüştürme, şablon tabanlı belge oluşturma, raporlama ve daha birçok özelliği içeren geniş bir yelpazede özellikler sunar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Stijlen van alinea's en tekst in documenten
-linktitle: Stijlen van alinea's en tekst in documenten
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u alinea's en tekst in documenten kunt stylen met Aspose.Words voor Java. Stapsgewijze handleiding met broncode voor effectieve documentopmaak.
-weight: 11
-url: /nl/java/document-styling/styling-paragraphs-text/
+"description": "Leer hoe u alinea's en tekst in documenten kunt stylen met Aspose.Words voor Java. Stapsgewijze handleiding met broncode voor effectieve documentopmaak."
+"linktitle": "Alinea's en tekst in documenten opmaken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Alinea's en tekst in documenten opmaken"
+"url": "/nl/java/document-styling/styling-paragraphs-text/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stijlen van alinea's en tekst in documenten
+# Alinea's en tekst in documenten opmaken
 
 ## Invoering
 
-Als het aankomt op het programmatisch manipuleren en formatteren van documenten in Java, is Aspose.Words voor Java een topkeuze onder ontwikkelaars. Met deze krachtige API kunt u eenvoudig alinea's en tekst in uw documenten maken, bewerken en stylen. In deze uitgebreide gids leiden we u door het proces van het stylen van alinea's en tekst met Aspose.Words voor Java. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze stapsgewijze gids met broncode zal u voorzien van de kennis en vaardigheden die nodig zijn om documentformattering onder de knie te krijgen. Laten we erin duiken!
+Als het gaat om het programmatisch bewerken en opmaken van documenten in Java, is Aspose.Words voor Java een uitstekende keuze onder ontwikkelaars. Met deze krachtige API kunt u eenvoudig alinea's en tekst in uw documenten maken, bewerken en opmaken. In deze uitgebreide handleiding leiden we u door het proces van het opmaken van alinea's en tekst met Aspose.Words voor Java. Of u nu een ervaren ontwikkelaar bent of net begint, deze stapsgewijze handleiding met broncode geeft u de kennis en vaardigheden die nodig zijn om documentopmaak onder de knie te krijgen. Laten we beginnen!
 
-## Begrijpen van Aspose.Words voor Java
+## Aspose.Words voor Java begrijpen
 
-Aspose.Words voor Java is een Java-bibliotheek waarmee ontwikkelaars met Word-documenten kunnen werken zonder Microsoft Word nodig te hebben. Het biedt een breed scala aan functies voor het maken, bewerken en opmaken van documenten. Met Aspose.Words voor Java kunt u de generatie van rapporten, facturen, contracten en meer automatiseren, waardoor het een onschatbare tool is voor bedrijven en ontwikkelaars.
+Aspose.Words voor Java is een Java-bibliotheek waarmee ontwikkelaars met Word-documenten kunnen werken zonder Microsoft Word nodig te hebben. Het biedt een breed scala aan functies voor het maken, bewerken en opmaken van documenten. Met Aspose.Words voor Java kunt u het genereren van rapporten, facturen, contracten en meer automatiseren, waardoor het een onmisbare tool is voor bedrijven en ontwikkelaars.
 
 ## Uw ontwikkelomgeving instellen
 
-Voordat we ingaan op de coderingsaspecten, is het cruciaal om uw ontwikkelomgeving in te stellen. Zorg ervoor dat u Java hebt geïnstalleerd en download en configureer vervolgens de Aspose.Words voor Java-bibliotheek. U kunt gedetailleerde installatie-instructies vinden in de[documentatie](https://reference.aspose.com/words/java/).
+Voordat we ingaan op de coderingsaspecten, is het cruciaal om je ontwikkelomgeving in te stellen. Zorg ervoor dat je Java hebt geïnstalleerd en download en configureer vervolgens de Aspose.Words voor Java-bibliotheek. Gedetailleerde installatie-instructies vind je in de [documentatie](https://reference.aspose.com/words/java/).
 
 ## Een nieuw document maken
 
-Laten we beginnen met het maken van een nieuw document met Aspose.Words voor Java. Hieronder staat een eenvoudig codefragment om u op weg te helpen:
+Laten we beginnen met het maken van een nieuw document met Aspose.Words voor Java. Hieronder vindt u een eenvoudig codefragment om u op weg te helpen:
 
 ```java
 // Een nieuw document maken
@@ -37,11 +39,11 @@ Document doc = new Document();
 doc.save("NewDocument.docx");
 ```
 
-Met deze code wordt een leeg Word-document gemaakt en opgeslagen als 'NewDocument.docx'. U kunt het document verder aanpassen door inhoud en opmaak toe te voegen.
+Deze code maakt een leeg Word-document en slaat het op als 'NewDocument.docx'. U kunt het document verder aanpassen door inhoud en opmaak toe te voegen.
 
 ## Alinea's toevoegen en opmaken
 
-Alinea's zijn de bouwstenen van elk document. U kunt alinea's toevoegen en ze naar wens opmaken. Hier is een voorbeeld van het toevoegen van alinea's en het instellen van hun uitlijning:
+Alinea's vormen de bouwstenen van elk document. U kunt alinea's toevoegen en naar wens opmaken. Hier is een voorbeeld van het toevoegen van alinea's en het instellen van hun uitlijning:
 
 ```java
 // Een nieuw document maken
@@ -66,9 +68,9 @@ doc.save("FormattedDocument.docx");
 
 Met dit codefragment wordt een gecentreerde alinea gemaakt met de tekst 'Dit is een gecentreerde alinea'. U kunt lettertypen, kleuren en meer aanpassen om de gewenste opmaak te bereiken.
 
-## Tekst in alinea's opmaken
+## Tekst in alinea's stylen
 
-Het formatteren van afzonderlijke tekst binnen alinea's is een veelvoorkomende vereiste. Met Aspose.Words voor Java kunt u tekst eenvoudig stylen. Hier is een voorbeeld van het wijzigen van het lettertype en de kleur van tekst:
+Het opmaken van afzonderlijke tekst binnen alinea's is een veelvoorkomende vereiste. Met Aspose.Words voor Java kunt u tekst eenvoudig opmaken. Hier is een voorbeeld van het wijzigen van het lettertype en de kleur van tekst:
 
 ```java
 // Een nieuw document maken
@@ -94,11 +96,11 @@ doc.getFirstSection().getBody().appendChild(para);
 doc.save("StyledTextDocument.docx");
 ```
 
-In dit voorbeeld maken we een alinea met tekst en vervolgens passen we een deel van de tekst aan door het lettertype en de kleur te wijzigen.
+In dit voorbeeld maken we een alinea met tekst, waarna we een gedeelte van de tekst anders opmaken door het lettertype en de kleur te wijzigen.
 
 ## Stijlen en opmaak toepassen
 
-Aspose.Words voor Java biedt vooraf gedefinieerde stijlen die u kunt toepassen op alinea's en tekst. Dit vereenvoudigt het opmaakproces. Hier ziet u hoe u een stijl op een alinea kunt toepassen:
+Aspose.Words voor Java biedt vooraf gedefinieerde stijlen die u kunt toepassen op alinea's en tekst. Dit vereenvoudigt het opmaakproces. Zo past u een stijl toe op een alinea:
 
 ```java
 // Een nieuw document maken
@@ -125,7 +127,7 @@ In deze code passen we de stijl 'Kop 1' toe op een alinea, waardoor deze automat
 
 ## Werken met lettertypen en kleuren
 
-Het finetunen van het uiterlijk van tekst vereist vaak het aanpassen van lettertypen en kleuren. Aspose.Words voor Java biedt uitgebreide opties voor lettertype- en kleurbeheer. Hier is een voorbeeld van het wijzigen van de lettergrootte en kleur:
+Het finetunen van de weergave van tekst vereist vaak het aanpassen van lettertypen en kleuren. Aspose.Words voor Java biedt uitgebreide opties voor lettertype- en kleurbeheer. Hier is een voorbeeld van het wijzigen van de lettergrootte en kleur:
 
 ```java
 // Een nieuw document maken
@@ -134,9 +136,9 @@ Document doc = new Document();
 // Een alinea maken
 Paragraph para = new Paragraph(doc);
 
-// Voeg tekst toe met een aangepast lettertype en kleur
+// Voeg tekst toe met aangepaste lettergrootte en kleur
 Run run = new Run(doc, "Customized Text");
-run.getFont().setSize(18); // Stel lettergrootte in op 18 punten
+run.getFont().setSize(18); // Stel de lettergrootte in op 18 punten
 run.getFont().setColor(Color.BLUE); // Stel de tekstkleur in op blauw
 
 para.appendChild(run);
@@ -152,7 +154,7 @@ In deze code passen we de lettergrootte en de kleur van de tekst in de alinea aa
 
 ## Uitlijning en afstand beheren
 
-Het regelen van de uitlijning en spatie van alinea's en tekst is essentieel voor de lay-out van een document. Zo kunt u de uitlijning en spatie aanpassen:
+Het bepalen van de uitlijning en regelafstand van alinea's en tekst is essentieel voor de lay-out van een document. Zo kunt u de uitlijning en regelafstand aanpassen:
 
 ```java
 // Een nieuw document maken
@@ -185,7 +187,7 @@ In dit voorbeeld stellen we de uitlijning van de alinea in op
 
 ## Omgaan met lijsten en opsommingstekens
 
-Lijsten maken met opsommingstekens of nummering is een veelvoorkomende taak in documentopmaak. Aspose.Words voor Java maakt het eenvoudig. Zo maakt u een lijst met opsommingstekens:
+Het maken van lijsten met opsommingstekens of nummering is een veelvoorkomende taak bij het opmaken van documenten. Aspose.Words voor Java maakt het eenvoudig. Zo maakt u een lijst met opsommingstekens:
 
 ```java
 List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
@@ -199,7 +201,7 @@ In deze code maken we een opsommingslijst met drie items.
 
 ## Hyperlinks invoegen
 
-Hyperlinks zijn essentieel om interactiviteit toe te voegen aan uw documenten. Aspose.Words voor Java stelt u in staat om eenvoudig hyperlinks in te voegen. Hier is een voorbeeld:
+Hyperlinks zijn essentieel om uw documenten interactief te maken. Met Aspose.Words voor Java kunt u eenvoudig hyperlinks invoegen. Hier is een voorbeeld:
 
 ```java
 Document doc = new Document();
@@ -208,14 +210,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("For more information, please visit the ");
 
 // Voeg een hyperlink in en benadruk deze met aangepaste opmaak.
-// De hyperlink is een aanklikbaar stukje tekst dat ons naar de in de URL aangegeven locatie brengt.
+// De hyperlink is een klikbaar stukje tekst dat ons naar de in de URL vermelde locatie brengt.
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Google website", "https://www.google.com", onwaar);
+builder.insertHyperlink("Google website", "https://www.google.com", false);
 builder.getFont().clearFormatting();
 builder.writeln(".");
 
-// Als u in Microsoft Word met Ctrl + linkermuisknop op de link in de tekst klikt, worden we via een nieuw webbrowservenster naar de URL geleid.
+// Wanneer u Ctrl + linkermuisknop gebruikt om op de link in de tekst in Microsoft Word te klikken, gaat u via een nieuw webbrowservenster naar de URL.
 doc.save("InsertHyperlink.docx");
 ```
 
@@ -223,7 +225,7 @@ Deze code voegt een hyperlink in naar "https://www.example.com" met de tekst "Be
 
 ## Afbeeldingen en vormen toevoegen
 
-Documenten vereisen vaak visuele elementen zoals afbeeldingen en vormen. Met Aspose.Words voor Java kunt u afbeeldingen en vormen naadloos invoegen. Zo voegt u een afbeelding toe:
+Documenten vereisen vaak visuele elementen zoals afbeeldingen en vormen. Met Aspose.Words voor Java kunt u naadloos afbeeldingen en vormen invoegen. Zo voegt u een afbeelding toe:
 
 ```java
 builder.insertImage("path/to/your/image.png");
@@ -233,7 +235,7 @@ In deze code laden we een afbeelding uit een bestand en voegen deze toe aan het 
 
 ## Pagina-indeling en marges
 
-Het beheren van de pagina-indeling en marges van uw document is cruciaal voor het bereiken van de gewenste uitstraling. Hier leest u hoe u paginamarges instelt:
+Het bepalen van de pagina-indeling en marges van uw document is cruciaal voor het gewenste uiterlijk. Zo stelt u paginamarges in:
 
 ```java
 // Een nieuw document maken
@@ -257,7 +259,7 @@ In dit voorbeeld stellen we gelijke marges van 1 inch in aan alle zijden van de 
 
 ## Koptekst en voettekst
 
-Kop- en voetteksten zijn essentieel voor het toevoegen van consistente informatie aan elke pagina van uw document. Zo werkt u met kop- en voetteksten:
+Kop- en voetteksten zijn essentieel om consistente informatie aan elke pagina van uw document toe te voegen. Zo werkt u met kop- en voetteksten:
 
 ```java
 Document doc = new Document();
@@ -277,11 +279,11 @@ builder.insertField(FieldType.FIELD_PAGE, true);
 doc.save("HeaderFooterDocument.docx");
 ```
 
-In deze code voegen we inhoud toe aan zowel de kop- als de voettekst van het document.
+In deze code voegen we inhoud toe aan de kop- en voettekst van het document.
 
 ## Werken met tabellen
 
-Tabellen zijn een krachtige manier om gegevens in uw documenten te organiseren en presenteren. Aspose.Words voor Java biedt uitgebreide ondersteuning voor het werken met tabellen. Hier is een voorbeeld van het maken van een tabel:
+Tabellen zijn een krachtige manier om gegevens in uw documenten te ordenen en te presenteren. Aspose.Words voor Java biedt uitgebreide ondersteuning voor het werken met tabellen. Hier is een voorbeeld van het maken van een tabel:
 
 ```java
 Document doc = new Document();
@@ -298,7 +300,7 @@ builder.insertCell();
 builder.write("Row 1, Col 2");
 builder.endRow();
 
-// Als u de opmaak wijzigt, wordt deze toegepast op de huidige cel.
+// Als u de opmaak wijzigt, wordt deze toegepast op de huidige cel,
 // en alle nieuwe cellen die we daarna met de builder aanmaken.
 // Dit heeft geen invloed op de cellen die we eerder hebben toegevoegd.
 builder.getCellFormat().getShading().clearFormatting();
@@ -327,9 +329,9 @@ builder.endTable();
 
 In deze code maken we een eenvoudige tabel met drie rijen en drie kolommen.
 
-## Document opslaan en exporteren
+## Documenten opslaan en exporteren
 
-Nadat u uw document hebt gemaakt en opgemaakt, is het essentieel om het op te slaan of te exporteren in het gewenste formaat. Aspose.Words voor Java ondersteunt verschillende documentformaten, waaronder DOCX, PDF en meer. Hier leest u hoe u een document als PDF kunt opslaan:
+Nadat u uw document hebt gemaakt en opgemaakt, is het essentieel om het op te slaan of te exporteren in de gewenste indeling. Aspose.Words voor Java ondersteunt verschillende documentindelingen, waaronder DOCX, PDF en meer. Zo slaat u een document op als PDF:
 
 ```java
 // Een nieuw document maken
@@ -346,7 +348,7 @@ Met dit codefragment wordt het document opgeslagen als een PDF-bestand.
 
 ## Geavanceerde functies
 
-Aspose.Words voor Java biedt geavanceerde functies voor complexe documentmanipulatie. Deze omvatten mail merge, documentvergelijking en meer. Bekijk de documentatie voor diepgaande begeleiding bij deze geavanceerde onderwerpen.
+Aspose.Words voor Java biedt geavanceerde functies voor complexe documentbewerking. Denk hierbij aan samenvoeging, documentvergelijking en meer. Raadpleeg de documentatie voor uitgebreide begeleiding bij deze geavanceerde onderwerpen.
 
 ## Tips en beste praktijken
 
@@ -356,7 +358,7 @@ Aspose.Words voor Java biedt geavanceerde functies voor complexe documentmanipul
 
 ## Problemen met veelvoorkomende problemen oplossen
 
-Hebt u een probleem tijdens het werken met Aspose.Words voor Java? Bekijk het supportforum en de documentatie voor oplossingen voor veelvoorkomende problemen.
+Heb je een probleem met Aspose.Words voor Java? Raadpleeg het supportforum en de documentatie voor oplossingen voor veelvoorkomende problemen.
 
 ## Veelgestelde vragen (FAQ's)
 
@@ -374,7 +376,7 @@ builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
 ### Kan ik een document naar PDF converteren met Aspose.Words voor Java?
-Ja, u kunt een document eenvoudig converteren naar PDF met Aspose.Words voor Java. Hier is een voorbeeld:
+Ja, je kunt een document eenvoudig naar PDF converteren met Aspose.Words voor Java. Hier is een voorbeeld:
 
 ```java
 Document doc = new Document("input.docx");
@@ -399,7 +401,7 @@ U kunt de Aspose-website of de Maven-repository raadplegen voor de nieuwste vers
 Ja, Aspose.Words voor Java is compatibel met Java 11 en latere versies.
 
 ### Hoe kan ik paginamarges instellen voor specifieke secties van mijn document?
- U kunt paginamarges voor specifieke secties van uw document instellen met behulp van de`PageSetup` klasse. Hier is een voorbeeld:
+U kunt paginamarges voor specifieke secties van uw document instellen met behulp van de `PageSetup` klas. Hier is een voorbeeld:
 
 ```java
 Section section = doc.getSections().get(0); // Ontvang het eerste gedeelte
@@ -412,12 +414,17 @@ pageSetup.setBottomMargin(72); // Ondermarge in punten
 
 ## Conclusie
 
-In deze uitgebreide gids hebben we de krachtige mogelijkheden van Aspose.Words voor Java voor het stylen van alinea's en tekst in documenten verkend. U hebt geleerd hoe u uw documenten programmatisch kunt maken, formatteren en verbeteren, van basistekstmanipulatie tot geavanceerde functies. Aspose.Words voor Java stelt ontwikkelaars in staat om documentopmaaktaken efficiënt te automatiseren. Blijf oefenen en experimenteren met verschillende functies om bedreven te worden in documentstyling met Aspose.Words voor Java.
+In deze uitgebreide handleiding hebben we de krachtige mogelijkheden van Aspose.Words voor Java voor het stylen van alinea's en tekst in documenten onderzocht. Je hebt geleerd hoe je je documenten programmatisch kunt maken, opmaken en verbeteren, van eenvoudige tekstbewerking tot geavanceerde functies. Aspose.Words voor Java stelt ontwikkelaars in staat om documentopmaaktaken efficiënt te automatiseren. Blijf oefenen en experimenteren met verschillende functies om bedreven te worden in het stylen van documenten met Aspose.Words voor Java.
 
-Nu u een goed begrip hebt van hoe u alinea's en tekst in documenten kunt stylen met Aspose.Words voor Java, bent u klaar om prachtig opgemaakte documenten te maken die zijn afgestemd op uw specifieke behoeften. Veel plezier met coderen!
+Nu je een goed begrip hebt van hoe je alinea's en tekst in documenten kunt stylen met Aspose.Words voor Java, ben je klaar om prachtig opgemaakte documenten te maken, afgestemd op jouw specifieke behoeften. Veel plezier met coderen!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

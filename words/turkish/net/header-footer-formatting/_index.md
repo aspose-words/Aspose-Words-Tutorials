@@ -1,26 +1,33 @@
 ---
-title: .NET için Aspose.Words için Başlık ve Ayağa Tıkayıcılar ile çalışmak 
-weight: 10
-limit:
-description: Word belgeleri için Aspose.Words kullanarak başlıkları ve ayakkabıları nasıl oluşturulacağını, değiştirileceğini ve biçimlendirileceğini öğrenin.
-keywords:
-url: /tr/net/header-footer-formatting/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde üstbilgi ve altbilgilerin nasıl oluşturulacağını, değiştirileceğini ve biçimlendirileceğini öğrenin. Sorunsuz özelleştirme için adım adım kılavuz."
+"title": "Aspose.Words for .NET'te Başlıklar ve Altbilgilerle Çalışma"
+"url": "/tr/net/header-footer-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Giriş
+## giriiş
   
-Başlık ve ayakkabı, Word belgelere sayfa numaraları, logoları veya özel metin için profesyonel bir dokunuş eklemek için gereklidir. .NET için Aspose.Words ile, belge ihtiyaçlarına uygun başlık ve ayakkabıları sorunsuzca oluşturabilir, değiştirebilir ve özelleştirebilirsiniz. Kütüphane, eşsiz ve eşit sayfalar için farklı başlık ve ayakkabıları ayarlamanıza, benzersiz bölümleri tanımlamanıza ve alanlar veya görüntüler gibi dinamik unsurları eklemenize olanak tanıyan güçlü API'ler sunar.  
+Başlıklar ve altbilgiler, sayfa numaraları, logolar veya özel metin olsun, Word belgelerinize profesyonel bir dokunuş katmak için olmazsa olmazdır. Aspose.Words for .NET ile, belgenizin ihtiyaçlarına uyacak şekilde başlıkları ve altbilgileri sorunsuz bir şekilde oluşturabilir, değiştirebilir ve özelleştirebilirsiniz. Kitaplık, tek ve çift sayfalar için farklı başlıklar ve altbilgiler ayarlamanıza, benzersiz bölümler tanımlamanıza ve alanlar veya resimler gibi dinamik öğeler eklemenize olanak tanıyan güçlü API'ler sunar.  
 
-.NET için Aspose.Words başlık ve ayakkabı ile çalışma sürecini basitleştirir, biçimlendirme ve yerleştirme üzerinde tam kontrolü sağlar. Şirket raporunu tasarladığınızda veya kişiselleştirilmiş bir belge oluşturduğunuzda, kütüphanede bu önemli öğeleri yönetmenin verimli bir yolu bulunur. Adım adım rehberlerimize dalın ve Word dosyalarınızdaki başlık ve ayakkabıların potansiyelini açıklayın!  
+Aspose.Words for .NET, başlıklar ve altbilgilerle çalışma sürecini basitleştirir ve bunların biçimlendirmesi ve yerleşimi üzerinde tam kontrol sağlar. İster kurumsal bir rapor tasarlıyor olun, ister kişiselleştirilmiş bir belge hazırlıyor olun, kitaplık bu önemli öğeleri yönetmek için etkili bir yol sunar. Adım adım kılavuzlarımıza dalın ve Word dosyalarınızdaki başlıklar ve altbilgilerin tüm potansiyelini ortaya çıkarın!  
 
-{{< tutorial-card link="./create-header-footer/" title="Aspose.Words kullanarak Başlık ve Altyazısı ile Word Belgesi Oluşturun" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Word Doküman Başlığı'na Bir Resim Ekle. .NET için Aspose.Words" imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-header-footer/" title="Aspose.Words Kullanarak Üstbilgi ve Altbilgili Word Belgesi Oluşturun" imgSrc="./create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-image/" title="Word Belgesi Başlığına Bir Resim Ekleme | Aspose.Words for .NET" imgSrc="./insert-image/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java
-linktitle: การใช้แท็กเอกสารที่มีโครงสร้าง (SDT)
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้ สร้าง แก้ไข และเชื่อมโยง SDT กับข้อมูล XML ที่กำหนดเอง
-weight: 19
-url: /th/java/document-manipulation/using-structured-document-tags/
+"description": "เรียนรู้วิธีใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้ สร้าง แก้ไข และเชื่อมโยง SDT กับข้อมูล XML ที่กำหนดเอง"
+"linktitle": "การใช้แท็กเอกสารที่มีโครงสร้าง (SDT)"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java
@@ -109,7 +111,7 @@ doc.save("ModifiedDocument.docx");
 
 ## การสร้างตัวควบคุมเนื้อหา ComboBox
 
-ComboBox Content Control ช่วยให้ผู้ใช้เลือกจากรายการตัวเลือกที่กำหนดไว้ล่วงหน้า มาสร้างรายการตัวเลือกในเอกสารของเรากัน
+ตัวควบคุมเนื้อหา ComboBox ช่วยให้ผู้ใช้เลือกจากรายการตัวเลือกที่กำหนดไว้ล่วงหน้า มาสร้างรายการหนึ่งในเอกสารของเรา
 
 ```java
 Document doc = new Document();
@@ -233,7 +235,7 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ### ฉันจะตรวจสอบสถานะปัจจุบันของ Checkbox SDT ได้อย่างไร
 
- คุณสามารถตรวจสอบสถานะปัจจุบันของ Checkbox SDT ได้โดยใช้`setChecked` วิธีการดังที่แสดงไว้ในบทความ
+คุณสามารถตรวจสอบสถานะปัจจุบันของ Checkbox SDT ได้โดยใช้ `setChecked` วิธีการดังที่แสดงไว้ในบทความ
 
 ### ฉันสามารถนำสไตล์ไปใช้กับการควบคุมเนื้อหาได้หรือไม่
 
@@ -246,9 +248,14 @@ doc.save("ModifiedMultiSectionDocument.docx");
 ### การทำซ้ำส่วนต่างๆ ใน SDT คืออะไร
 
 การทำซ้ำส่วนต่างๆ ใน SDT ช่วยให้คุณสามารถสร้างตารางที่มีข้อมูลแบบไดนามิก ซึ่งสามารถทำซ้ำแถวต่างๆ ได้โดยอิงตามข้อมูล XML ที่แมปไว้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

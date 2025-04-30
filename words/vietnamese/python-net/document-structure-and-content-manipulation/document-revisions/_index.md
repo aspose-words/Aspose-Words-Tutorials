@@ -1,14 +1,16 @@
 ---
-title: Theo dõi và xem xét các bản sửa đổi tài liệu
-linktitle: Theo dõi và xem xét các bản sửa đổi tài liệu
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách theo dõi và xem xét các bản sửa đổi tài liệu bằng Aspose.Words for Python. Hướng dẫn từng bước với mã nguồn để cộng tác hiệu quả. Nâng cao khả năng quản lý tài liệu của bạn ngay hôm nay!
-weight: 23
-url: /vi/python-net/document-structure-and-content-manipulation/document-revisions/
+"description": "Tìm hiểu cách theo dõi và xem xét các bản sửa đổi tài liệu bằng Aspose.Words for Python. Hướng dẫn từng bước với mã nguồn để cộng tác hiệu quả. Nâng cao khả năng quản lý tài liệu của bạn ngay hôm nay!"
+"linktitle": "Theo dõi và xem xét các bản sửa đổi tài liệu"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Theo dõi và xem xét các bản sửa đổi tài liệu"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-revisions/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Theo dõi và xem xét các bản sửa đổi tài liệu
@@ -22,7 +24,7 @@ Sửa đổi tài liệu liên quan đến việc theo dõi các thay đổi đ�
 
 ## Thiết lập Aspose.Words cho Python
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Python. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/python/). Sau khi cài đặt, bạn có thể nhập các mô-đun cần thiết vào tập lệnh Python của mình để bắt đầu.
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt Aspose.Words for Python. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/python/)Sau khi cài đặt, bạn có thể nhập các mô-đun cần thiết vào tập lệnh Python của mình để bắt đầu.
 
 ```python
 import aspose.words as aw
@@ -39,7 +41,7 @@ print(doc.get_text())
 
 ## Bật Theo dõi Thay đổi
 
- Để bật theo dõi các thay đổi cho một tài liệu, bạn cần thiết lập`TrackRevisions`tài sản để`True`:
+Để bật theo dõi thay đổi cho một tài liệu, bạn cần thiết lập `TrackRevisions` tài sản để `True`:
 
 ```python
 doc.track_revisions = True
@@ -112,11 +114,11 @@ Aspose.Words for Python đơn giản hóa việc sửa đổi và theo dõi tài
 
 ### Làm thế nào để cài đặt Aspose.Words cho Python?
 
- Bạn có thể tải xuống Aspose.Words cho Python từ[đây](https://releases.aspose.com/words/python/). Làm theo hướng dẫn cài đặt để thiết lập nó trong môi trường của bạn.
+Bạn có thể tải xuống Aspose.Words cho Python từ [đây](https://releases.aspose.com/words/python/). Làm theo hướng dẫn cài đặt để thiết lập nó trong môi trường của bạn.
 
 ### Tôi có thể tắt tính năng theo dõi sửa đổi cho các phần cụ thể của tài liệu không?
 
-Có, bạn có thể vô hiệu hóa theo dõi sửa đổi một cách có chọn lọc đối với các phần cụ thể của tài liệu bằng cách điều chỉnh theo chương trình`TrackRevisions` tài sản cho những phần đó.
+Có, bạn có thể vô hiệu hóa việc theo dõi sửa đổi một cách có chọn lọc đối với các phần cụ thể của tài liệu bằng cách điều chỉnh theo chương trình `TrackRevisions` tài sản cho những phần đó.
 
 ### Có thể hợp nhất những thay đổi từ nhiều người đóng góp không?
 
@@ -129,9 +131,14 @@ Có, lịch sử sửa đổi sẽ được lưu lại khi bạn chuyển đổi
 ### Làm thế nào tôi có thể chấp nhận hoặc từ chối bản sửa đổi theo chương trình?
 
 Bạn có thể lặp lại bộ sưu tập bản sửa đổi và chấp nhận hoặc từ chối từng bản sửa đổi theo chương trình bằng cách sử dụng các hàm API của Aspose.Words.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

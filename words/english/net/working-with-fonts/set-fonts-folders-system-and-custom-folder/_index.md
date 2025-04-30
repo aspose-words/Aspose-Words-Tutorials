@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-fonts-folders-system-and-custom-folder/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fonts Folders System And Custom Folder
@@ -59,7 +62,7 @@ FontSettings fontSettings = new FontSettings();
 
 ## Step 3: Retrieve System Font Sources
 
-Retrieve the default system font sources. On a Windows machine, this typically includes the "Windows\Fonts\" directory.
+Retrieve the default system font sources. On a Windows machine, this typically includes the "Windows\Fonts" directory.
 
 ```csharp
 List<FontSourceBase> fontSources = new List<FontSourceBase>(fontSettings.GetFontsSources());
@@ -118,9 +121,13 @@ Aspose.Words supports various formats, including DOCX, PDF, HTML, and more.
 
 You can handle font substitution notifications by using the `FontSettings` class’s `FontSubstitutionWarning` event.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Пример исходного кода шрифта Steam
-linktitle: Пример исходного кода шрифта Steam
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать источник шрифта потока ресурсов с Aspose.Words для .NET в этом подробном руководстве. Убедитесь, что ваши документы отображаются правильно каждый раз.
-weight: 10
-url: /ru/net/working-with-fonts/resource-steam-font-source-example/
+"description": "Узнайте, как использовать источник шрифта потока ресурсов с Aspose.Words для .NET в этом подробном руководстве. Убедитесь, что ваши документы отображаются правильно каждый раз."
+"linktitle": "Пример исходного кода шрифта Steam"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Пример исходного кода шрифта Steam"
+"url": "/ru/net/working-with-fonts/resource-steam-font-source-example/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пример исходного кода шрифта Steam
@@ -22,13 +24,13 @@ url: /ru/net/working-with-fonts/resource-steam-font-source-example/
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
 - Базовые знания C#: знакомство с программированием на C# поможет вам в дальнейшем изучении.
--  Библиотека Aspose.Words for .NET: загрузите и установите ее с сайта[ссылка для скачивания](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: загрузите и установите ее с сайта [ссылка для скачивания](https://releases.aspose.com/words/net/).
 - Среда разработки: среда, подобная Visual Studio, для написания и выполнения кода.
--  Образец документа: Имейте образец документа (например,`Rendering.docx`) готов проверить настройки шрифта.
+- Образец документа: Имейте образец документа (например, `Rendering.docx`) готов протестировать настройки шрифта.
 
 ## Импорт пространств имен
 
-Чтобы начать работать с Aspose.Words, вам нужно импортировать необходимые пространства имен в ваш проект. Это обеспечивает доступ к классам и методам, которые вам понадобятся.
+Чтобы начать работать с Aspose.Words, вам нужно импортировать необходимые пространства имен в ваш проект. Это обеспечивает доступ к нужным вам классам и методам.
 
 ```csharp
 using Aspose.Words;
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Шаг 2: Загрузите документ
 
- Загрузите ваш документ в Aspose.Words`Document` объект. Это позволяет вам программно манипулировать документом.
+Загрузите ваш документ в Aspose.Words `Document` объект. Это позволяет вам программно манипулировать документом.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -68,7 +70,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 ## Шаг 4: Реализуйте источник шрифта потока ресурсов
 
- Создайте класс, который расширяет`StreamFontSource` для обработки шрифтов из встроенного потока ресурсов. Этот класс будет извлекать данные шрифтов из ресурсов сборки.
+Создайте класс, который расширяет `StreamFontSource` для обработки шрифтов из встроенного потока ресурсов. Этот класс будет извлекать данные шрифтов из ресурсов сборки.
 
 ```csharp
 internal class ResourceSteamFontSource : StreamFontSource
@@ -98,27 +100,32 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontsFolders.pdf");
 
 ### В1: Могу ли я использовать несколько потоков ресурсов для разных шрифтов?
 
- Да, вы можете реализовать несколько`StreamFontSource` классы для различных потоков ресурсов и добавить их в источники шрифтов.
+Да, вы можете реализовать несколько `StreamFontSource` классы для различных потоков ресурсов и добавить их в источники шрифтов.
 
 ### В2: Где я могу получить бесплатную пробную версию Aspose.Words для .NET?
 
- Вы можете загрузить бесплатную пробную версию с сайта[Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
+Вы можете загрузить бесплатную пробную версию с сайта [Страница бесплатной пробной версии Aspose](https://releases.aspose.com/).
 
-###  В3: Могу ли я обрабатывать другие типы предупреждений с помощью`IWarningCallback`?
+### В3: Могу ли я обрабатывать другие типы предупреждений с помощью `IWarningCallback`?
 
- Да,`IWarningCallback`Интерфейс может обрабатывать различные типы предупреждений, а не только замену шрифтов.
+Да, `IWarningCallback` Интерфейс может обрабатывать различные типы предупреждений, а не только замену шрифтов.
 
 ### В4: Где я могу найти поддержку по Aspose.Words?
 
- Посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
+Посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) за помощь.
 
 ### В5: Можно ли получить временную лицензию для Aspose.Words?
 
- Да, вы можете получить временную лицензию в[временная страница лицензии](https://purchase.aspose.com/temporary-license/).
+Да, вы можете получить временную лицензию в [временная страница лицензии](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

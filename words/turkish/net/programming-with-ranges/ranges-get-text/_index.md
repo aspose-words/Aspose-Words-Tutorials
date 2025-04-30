@@ -1,14 +1,16 @@
 ---
-title: Aralıklar Word Belgesinde Metin Al
-linktitle: Aralıklar Word Belgesinde Metin Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinden metni zahmetsizce çıkarın. Kolayca başlamak için ayrıntılı kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-ranges/ranges-get-text/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinden metni zahmetsizce çıkarın. Kolayca başlamak için ayrıntılı kılavuzumuzu izleyin."
+"linktitle": "Aralıklar Word Belgesinde Metin Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Aralıklar Word Belgesinde Metin Al"
+"url": "/tr/net/programming-with-ranges/ranges-get-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aralıklar Word Belgesinde Metin Al
@@ -21,9 +23,9 @@ Hiç Word belgesinden programatik olarak metin çıkarmanız gerekti mi? Belge i
 
 Koda dalmadan önce, yerinde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Geliştirme ortamınızı kurun. Visual Studio, .NET geliştirme için popüler bir seçimdir.
-3. Bir Word Belgesi: Metni çıkarmak istediğiniz bir Word belgesini hazır bulundurun. Bunu sisteminizde bilinen bir dizine kaydedin.
+3. Bir Word Belgesi: Metni çıkarmak istediğiniz bir Word belgesini hazır bulundurun. Bunu sisteminizdeki bilinen bir dizine kaydedin.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -47,11 +49,11 @@ Belgeleriniz için bir Dizin Oluşturun
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Bu dizin Word belgenizi tutacaktır. Değiştirdiğinizden emin olun`"YOUR DOCUMENTS DIRECTORY"` dizininize giden gerçek yol ile.
+Bu dizin Word belgenizi tutacaktır. Değiştirdiğinizden emin olun `"YOUR DOCUMENTS DIRECTORY"` dizininize giden gerçek yol ile.
 
 ## Adım 2: Word Belgesini Yükleyin
 
-Artık dizininiz ayarlandığına göre, bir sonraki adım Word belgesini Aspose.Words kullanarak yüklemektir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Dizininiz artık ayarlandığına göre, bir sonraki adım Word belgesini Aspose.Words kullanarak yüklemektir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 Belgeyi Yükle
 
@@ -60,7 +62,7 @@ Belgeyi Yükle
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Bu adımda, yeni bir örnek oluşturursunuz`Document` sınıfına gidin ve Word belgenizi içine yükleyin. Dosya adının ve yolunun doğru olduğundan emin olun.
+Bu adımda, yeni bir örnek oluşturursunuz `Document` sınıfına gidin ve Word belgenizi içine yükleyin. Dosya adının ve yolunun doğru olduğundan emin olun.
 
 ## Adım 3: Belgeden Metni Çıkarın
 
@@ -73,7 +75,7 @@ Metni Çıkar
 string text = doc.Range.Text;
 ```
 
- The`Range.Text` property size belgenin aralığında bulunan tüm metni verir. Bu, tüm bölümlerden, üstbilgilerden, altbilgilerden ve ana gövdeden gelen metni içerir.
+The `Range.Text` property size belgenin aralığında bulunan tüm metni verir. Bu, tüm bölümlerden, üstbilgilerden, altbilgilerden ve ana gövdeden gelen metni içerir.
 
 ## Adım 4: Çıkarılan Metni Görüntüle
 
@@ -100,7 +102,7 @@ Aspose.Words for .NET, geliştiricilerin Word belgelerini programlı bir şekild
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
 
- Evet, Aspose.Words for .NET lisanslı bir üründür. Geçici bir lisansı şuradan edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/) veya buradan satın alın[Burada](https://purchase.aspose.com/buy).
+Evet, Aspose.Words for .NET lisanslı bir üründür. Geçici bir lisansı şuradan edinebilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/) veya buradan satın alın [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words for .NET'i C# dışındaki diğer .NET dilleriyle birlikte kullanabilir miyim?
 
@@ -108,14 +110,19 @@ Kesinlikle! Aspose.Words for .NET, VB.NET dahil tüm .NET dillerini destekler.
 
 ### Aspose.Words for .NET'in belgelerini nerede bulabilirim?
 
- Kapsamlı dokümantasyonu bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümantasyonu bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
 
- Destek için Aspose.Words forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Destek için Aspose.Words forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

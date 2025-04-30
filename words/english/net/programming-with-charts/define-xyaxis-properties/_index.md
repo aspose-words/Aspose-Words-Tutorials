@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/define-xyaxis-properties/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Define XY Axis Properties In A Chart
@@ -135,9 +138,13 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 You can find more tutorials and detailed documentation on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

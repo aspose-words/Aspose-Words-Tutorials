@@ -1,34 +1,36 @@
 ---
-title: Vytvořit záhlaví zápatí
-linktitle: Vytvořit záhlaví zápatí
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se přidávat a upravovat záhlaví a zápatí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tento podrobný průvodce zajišťuje profesionální formátování dokumentů.
-weight: 10
-url: /cs/net/working-with-headers-and-footers/create-header-footer/
+"description": "Naučte se, jak přidávat a upravovat záhlaví a zápatí v dokumentech Wordu pomocí Aspose.Words pro .NET. Tento podrobný návod zajišťuje profesionální formátování dokumentů."
+"linktitle": "Vytvořit záhlaví a zápatí"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vytvořit záhlaví a zápatí"
+"url": "/cs/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořit záhlaví zápatí
+# Vytvořit záhlaví a zápatí
 
 ## Zavedení
 
-Přidáním záhlaví a zápatí do dokumentů můžete zvýšit jejich profesionalitu a čitelnost. S Aspose.Words for .NET můžete snadno vytvářet a upravovat záhlaví a zápatí pro vaše dokumenty Word. V tomto tutoriálu vás provedeme procesem krok za krokem a zajistíme, že tyto funkce můžete bezproblémově implementovat.
+Přidání záhlaví a zápatí do dokumentů může zvýšit jejich profesionalitu a čitelnost. S Aspose.Words pro .NET můžete snadno vytvářet a upravovat záhlaví a zápatí pro dokumenty Word. V tomto tutoriálu vás krok za krokem provedeme celým procesem a zajistíme, že tyto funkce budete moci bez problémů implementovat.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET: Stáhněte a nainstalujte z[odkaz ke stažení](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Například Visual Studio pro psaní a spouštění kódu.
-- Základní znalost C#: Pochopení C# a .NET frameworku.
-- Ukázkový dokument: Ukázkový dokument pro použití záhlaví a zápatí nebo vytvoření nového, jak je znázorněno ve výukovém programu.
+- Aspose.Words pro .NET: Stáhněte a nainstalujte z [odkaz ke stažení](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Například Visual Studio, pro psaní a spouštění kódu.
+- Základní znalost C#: Znalost C# a .NET frameworku.
+- Ukázkový dokument: Ukázkový dokument pro použití záhlaví a zápatí nebo vytvoření nového dokumentu, jak je znázorněno v tutoriálu.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory pro přístup ke třídám a metodám Aspose.Words.
+Nejprve je třeba importovat potřebné jmenné prostory pro přístup ke třídám a metodám Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -36,27 +38,27 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
-Definujte adresář, kam bude dokument uložen. To pomáhá při efektivním řízení cesty.
+Definujte adresář, kam bude dokument uložen. To pomůže efektivně spravovat cestu.
 
 ```csharp
-// Cesta k adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
 ## Krok 2: Vytvořte nový dokument
 
- Vytvořte nový dokument a a`DocumentBuilder`pro usnadnění přidávání obsahu.
+Vytvořte nový dokument a `DocumentBuilder` pro usnadnění přidávání obsahu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Nakonfigurujte nastavení stránky
+## Krok 3: Konfigurace nastavení stránky
 
-Nastavte nastavení stránky, včetně toho, zda bude mít první stránka jiné záhlaví/zápatí.
+Nastavte nastavení stránky, včetně toho, zda bude mít první stránka jinou záhlaví/zápatí.
 
 ```csharp
 Section currentSection = builder.CurrentSection;
@@ -66,9 +68,9 @@ pageSetup.DifferentFirstPageHeaderFooter = true;
 pageSetup.HeaderDistance = 20;
 ```
 
-## Krok 4: Přidejte záhlaví na první stránku
+## Krok 4: Přidání záhlaví na první stránku
 
-Přejděte do sekce záhlaví pro první stránku a nakonfigurujte text záhlaví.
+Přejděte do sekce záhlaví první stránky a nakonfigurujte text záhlaví.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
@@ -81,9 +83,9 @@ builder.Font.Size = 14;
 builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 ```
 
-## Krok 5: Přidejte primární záhlaví
+## Krok 5: Přidání primární hlavičky
 
-Přejděte do primární sekce záhlaví a vložte obrázek a text.
+Přejděte do hlavní sekce záhlaví a vložte obrázek a text.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -96,7 +98,7 @@ builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Aspose.Words Header/Footer Creation Primer.");
 ```
 
-## Krok 6: Přidejte primární zápatí
+## Krok 6: Přidání primární patičky
 
 Přejděte do primární sekce zápatí a vytvořte tabulku pro formátování obsahu zápatí.
 
@@ -108,7 +110,7 @@ builder.CellFormat.ClearFormatting();
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 / 3);
 
-// Přidejte číslování stránek
+// Přidat číslování stránek
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 builder.Write(" of ");
@@ -125,9 +127,9 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## Krok 7: Přidejte obsah a konce stránek
+## Krok 7: Přidání obsahu a zalomení stránek
 
-Přejděte na konec dokumentu, přidejte konec stránky a vytvořte nový oddíl s jiným nastavením stránky.
+Přejděte na konec dokumentu, přidejte zalomení stránky a vytvořte novou sekci s jiným nastavením stránky.
 
 ```csharp
 builder.MoveToDocumentEnd();
@@ -150,9 +152,9 @@ row.LastCell.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 * 2 / 3)
 doc.Save(dataDir + "WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 ```
 
-## Krok 8: Zkopírujte záhlaví a zápatí z předchozí části
+## Krok 8: Zkopírujte záhlaví a zápatí z předchozí sekce
 
-Pokud chcete znovu použít záhlaví a zápatí z předchozí sekce, zkopírujte je a použijte potřebné úpravy.
+Pokud chcete znovu použít záhlaví a zápatí z předchozí sekce, zkopírujte je a proveďte potřebné úpravy.
 
 ```csharp
 private static void CopyHeadersFootersFromPreviousSection(Section section)
@@ -171,33 +173,38 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Závěr
 
-Pomocí následujících kroků můžete efektivně přidávat a upravovat záhlaví a zápatí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Tím se zlepší vzhled a profesionalita vašeho dokumentu, takže bude čitelnější a poutavější.
+Pomocí těchto kroků můžete efektivně přidávat a upravovat záhlaví a zápatí v dokumentech Word pomocí Aspose.Words pro .NET. Tím se vylepší vzhled a profesionalita vašeho dokumentu, díky čemuž bude čitelnější a poutavější.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
+### Co je Aspose.Words pro .NET?
 
-Aspose.Words for .NET je knihovna, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word programově v rámci aplikací .NET.
+Aspose.Words pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, upravovat a převádět dokumenty Wordu v aplikacích .NET.
 
 ### Mohu přidat obrázky do záhlaví nebo zápatí?
 
- Ano, obrázky můžete snadno přidat do záhlaví nebo zápatí pomocí`DocumentBuilder.InsertImage` metoda.
+Ano, obrázky můžete snadno přidat do záhlaví nebo zápatí pomocí `DocumentBuilder.InsertImage` metoda.
 
-### Jak nastavím různá záhlaví a zápatí pro první stránku?
+### Jak nastavím různé záhlaví a zápatí pro první stránku?
 
- Můžete nastavit různá záhlaví a zápatí pro první stránku pomocí`DifferentFirstPageHeaderFooter` vlastnictvím`PageSetup` třída.
+Pro první stránku můžete nastavit různá záhlaví a zápatí pomocí `DifferentFirstPageHeaderFooter` majetek `PageSetup` třída.
 
 ### Kde najdu další dokumentaci k Aspose.Words?
 
- Komplexní dokumentaci naleznete na[Stránka dokumentace API Aspose.Words](https://reference.aspose.com/words/net/).
+Komplexní dokumentaci naleznete na [Stránka s dokumentací k API Aspose.Words](https://reference.aspose.com/words/net/).
 
 ### Je k dispozici podpora pro Aspose.Words?
 
- Ano, Aspose nabízí podporu prostřednictvím jejich[fórum podpory](https://forum.aspose.com/c/words/8).
+Ano, Aspose nabízí podporu prostřednictvím svých [fórum podpory](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

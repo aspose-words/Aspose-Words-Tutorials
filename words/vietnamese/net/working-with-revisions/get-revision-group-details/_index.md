@@ -1,14 +1,16 @@
 ---
-title: Nhận thông tin chi tiết về nhóm sửa đổi
-linktitle: Nhận thông tin chi tiết về nhóm sửa đổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Dễ dàng lấy thông tin chi tiết về nhóm sửa đổi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/working-with-revisions/get-revision-group-details/
+"description": "Dễ dàng lấy thông tin chi tiết về nhóm sửa đổi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Nhận thông tin chi tiết về nhóm sửa đổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận thông tin chi tiết về nhóm sửa đổi"
+"url": "/vi/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông tin chi tiết về nhóm sửa đổi
@@ -20,7 +22,7 @@ Bạn đã bao giờ thấy mình cần phải đi sâu vào các chi tiết c�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu hành trình viết mã này, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu chưa, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu chưa, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET đang hoạt động. Visual Studio là một lựa chọn tuyệt vời.
 - Một tài liệu Word có bản sửa đổi: Đối với hướng dẫn này, chúng tôi sẽ sử dụng một tài liệu Word mẫu có bản sửa đổi (`Revisions.docx`).
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Trong đoạn trích này, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Mã này sẽ tải`Revisions.docx` tập tin vào`doc` sự vật.
+Trong đoạn trích này, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến tài liệu của bạn. Mã này sẽ tải `Revisions.docx` tập tin vào `doc` sự vật.
 
 ## Bước 2: Truy cập Bộ sưu tập bản sửa đổi
 
- Bây giờ, hãy truy cập vào các bản sửa đổi trong tài liệu. Aspose.Words cung cấp một`Revisions` bộ sưu tập mà chúng ta có thể lặp lại.
+Bây giờ, hãy truy cập vào các bản sửa đổi trong tài liệu. Aspose.Words cung cấp một `Revisions` bộ sưu tập mà chúng ta có thể lặp lại.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -100,22 +102,27 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 ## Câu hỏi thường gặp
 
 ### Aspose.Words dành cho .NET là gì?
-Đây là thư viện .NET mạnh mẽ để tạo, chỉnh sửa, chuyển đổi và in tài liệu Word theo chương trình.
+Đây là thư viện .NET mạnh mẽ để tạo, chỉnh sửa, chuyển đổi và in tài liệu Word theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác không?
-Hoàn toàn được! Bạn có thể sử dụng nó với bất kỳ ngôn ngữ .NET nào, bao gồm C#, VB.NET và ASP.NET.
+Chắc chắn rồi! Bạn có thể sử dụng nó với bất kỳ ngôn ngữ .NET nào, bao gồm C#, VB.NET và ASP.NET.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua một[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua một [đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

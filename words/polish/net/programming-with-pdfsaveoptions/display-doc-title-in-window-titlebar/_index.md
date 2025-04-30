@@ -1,14 +1,16 @@
 ---
-title: Wyświetl tytuł dokumentu na pasku tytułowym okna
-linktitle: Wyświetl tytuł dokumentu na pasku tytułowym okna
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyświetlić tytuł dokumentu na pasku tytułu okna plików PDF za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "Dowiedz się, jak wyświetlić tytuł dokumentu na pasku tytułu okna plików PDF za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Wyświetl tytuł dokumentu na pasku tytułowym okna"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wyświetl tytuł dokumentu na pasku tytułowym okna"
+"url": "/pl/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyświetl tytuł dokumentu na pasku tytułowym okna
@@ -21,7 +23,7 @@ Czy jesteś gotowy, aby Twoje pliki PDF wyglądały jeszcze bardziej profesjonal
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne zgodne środowisko IDE.
 - Podstawowa wiedza o języku C#: Będziemy pisać kod w języku C#.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- W tym kroku określisz ścieżkę do swojego dokumentu. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
+W tym kroku określisz ścieżkę do swojego dokumentu. Zastąp `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
 
 ## Krok 2: Skonfiguruj opcje zapisywania pliku PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Poprzez ustawienie`DisplayDocTitle` Do`true`, polecamy Aspose.Words użycie tytułu dokumentu na pasku tytułu okna PDF.
+Poprzez ustawienie `DisplayDocTitle` Do `true`, polecamy Aspose.Words użycie tytułu dokumentu na pasku tytułu okna PDF.
 
 ## Krok 3: Zapisz dokument jako plik PDF
 
@@ -70,7 +72,7 @@ Na koniec zapisujemy dokument w formacie PDF, stosując skonfigurowane przez nas
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-Ta linia kodu dba o zapisanie dokumentu w formacie PDF z tytułem wyświetlanym na pasku tytułu. Ponownie, upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką katalogu.
+Ta linia kodu dba o zapisanie dokumentu w formacie PDF z tytułem wyświetlanym na pasku tytułu. Ponownie, upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką katalogu.
 
 ## Wniosek
 
@@ -91,11 +93,16 @@ Tak, Aspose.Words for .NET obsługuje wiele różnych struktur .NET, co czyni je
 Tak, możesz konwertować różne formaty plików, takie jak DOCX, RTF, HTML i inne, do formatu PDF przy użyciu Aspose.Words dla .NET.
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz odwiedzić[Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub pytań.
+Możesz odwiedzić [Forum wsparcia Aspose.Words](https://forum.aspose.com/c/words/8) aby uzyskać pomoc w rozwiązaniu jakichkolwiek problemów lub zapytań.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

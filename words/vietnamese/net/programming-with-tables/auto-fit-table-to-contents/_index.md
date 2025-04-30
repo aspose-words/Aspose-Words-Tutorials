@@ -1,14 +1,16 @@
 ---
-title: Tự động điều chỉnh bảng theo mục lục
-linktitle: Tự động điều chỉnh bảng theo mục lục
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tự động điều chỉnh bảng theo nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Hoàn hảo cho việc định dạng tài liệu động và gọn gàng.
-weight: 10
-url: /vi/net/programming-with-tables/auto-fit-table-to-contents/
+"description": "Tìm hiểu cách tự động điều chỉnh bảng theo nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Hoàn hảo cho việc định dạng tài liệu động và gọn gàng."
+"linktitle": "Tự động điều chỉnh bảng theo mục lục"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tự động điều chỉnh bảng theo mục lục"
+"url": "/vi/net/programming-with-tables/auto-fit-table-to-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động điều chỉnh bảng theo mục lục
@@ -21,31 +23,31 @@ Bạn đã bao giờ gặp khó khăn với các bảng trông như thể chúng
 
 Trước khi tìm hiểu mã, đây là những gì bạn cần chuẩn bị:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Words. Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Visual Studio: Môi trường phát triển như Visual Studio để viết và kiểm tra mã của bạn.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ hữu ích vì chúng ta sẽ sử dụng nó để thao tác với các tài liệu Word.
 
 ## Nhập không gian tên
 
-Để bắt đầu làm việc với Aspose.Words, bạn cần phải bao gồm các không gian tên cần thiết trong dự án C# của mình. Sau đây là cách thực hiện:
+Để bắt đầu làm việc với Aspose.Words, bạn cần đưa các không gian tên cần thiết vào dự án C# của mình. Sau đây là cách thực hiện:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Các`Aspose.Words` không gian tên cung cấp chức năng cốt lõi để xử lý các tài liệu Word, trong khi`Aspose.Words.Tables` bao gồm các lớp dành riêng cho việc làm việc với bảng.
+Các `Aspose.Words` không gian tên cung cấp chức năng cốt lõi để xử lý các tài liệu Word, trong khi `Aspose.Words.Tables` bao gồm các lớp dành riêng cho việc làm việc với bảng.
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
 Đầu tiên, hãy xác định đường dẫn lưu trữ tài liệu của bạn. Đây sẽ là điểm bắt đầu để tải và lưu tệp.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn nằm. Điều này giống như thiết lập không gian làm việc của bạn trước khi bạn bắt đầu một dự án.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn nằm. Điều này giống như thiết lập không gian làm việc của bạn trước khi bạn bắt đầu một dự án.
 
 ## Bước 2: Tải tài liệu của bạn
 
@@ -55,7 +57,7 @@ Bây giờ, hãy tải tài liệu Word có chứa bảng bạn muốn định d
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Trong bước này, chúng ta sẽ mở một tài liệu có tên`Tables.docx`Đảm bảo tệp tồn tại trong thư mục được chỉ định, nếu không bạn sẽ gặp lỗi. Hãy nghĩ đến việc mở tệp trong trình soạn thảo văn bản yêu thích của bạn trước khi thực hiện thay đổi.
+Trong bước này, chúng ta sẽ mở một tài liệu có tên `Tables.docx`Đảm bảo tệp tồn tại trong thư mục được chỉ định, nếu không bạn sẽ gặp lỗi. Hãy nghĩ đến việc mở tệp trong trình soạn thảo văn bản yêu thích của bạn trước khi thực hiện thay đổi.
 
 ## Bước 3: Truy cập Bảng
 
@@ -94,10 +96,10 @@ Tự động điều chỉnh bảng theo nội dung bằng Aspose.Words cho .NET
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tự động điều chỉnh chỉ một số cột cụ thể trong bảng không?
- Các`AutoFit` phương pháp áp dụng cho toàn bộ bảng. Nếu bạn cần điều chỉnh các cột cụ thể, bạn có thể cần phải đặt chiều rộng cột theo cách thủ công.
+Các `AutoFit` phương pháp áp dụng cho toàn bộ bảng. Nếu bạn cần điều chỉnh các cột cụ thể, bạn có thể cần phải thiết lập thủ công độ rộng của các cột.
 
 ### Nếu tài liệu của tôi chứa nhiều bảng thì sao?
- Bạn có thể lặp qua tất cả các bảng trong tài liệu bằng cách sử dụng`doc.GetChildNodes(NodeType.Table, true)` và áp dụng chế độ tự động điều chỉnh khi cần thiết.
+Bạn có thể lặp qua tất cả các bảng trong tài liệu bằng cách sử dụng `doc.GetChildNodes(NodeType.Table, true)` và áp dụng chế độ tự động điều chỉnh khi cần thiết.
 
 ### Tôi có thể hoàn nguyên những thay đổi như thế nào nếu cần?
 Hãy sao lưu tài liệu gốc trước khi áp dụng thay đổi hoặc lưu các phiên bản khác nhau của tài liệu trong khi bạn làm việc.
@@ -107,9 +109,14 @@ Có, nhưng hãy đảm bảo bạn có đủ quyền cần thiết để sửa 
 
 ### Làm sao tôi biết được quá trình tự động lắp đặt có thành công không?
 Mở tài liệu đã lưu và kiểm tra bố cục bảng. Nó sẽ điều chỉnh theo nội dung.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

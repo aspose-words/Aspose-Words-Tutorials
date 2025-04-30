@@ -1,14 +1,16 @@
 ---
-title: Xóa chân trang trong tài liệu Word
-linktitle: Xóa chân trang trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa chân trang khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/remove-content/remove-footers/
+"description": "Tìm hiểu cách xóa chân trang khỏi tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Xóa chân trang trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa chân trang trong tài liệu Word"
+"url": "/vi/net/remove-content/remove-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa chân trang trong tài liệu Word
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình vật lộn để xóa chân trang khỏi tài
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ mình cần:
 
-- Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
 - Môi trường phát triển tích hợp (IDE): Tốt nhất là Visual Studio để tích hợp và trải nghiệm mã hóa liền mạch.
 
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "Header and footer types.docx");
 ```
 
 - dataDir: Biến này lưu trữ đường dẫn đến thư mục tài liệu của bạn.
--  Tài liệu doc: Dòng này tải tài liệu vào`doc` sự vật.
+- Tài liệu doc: Dòng này tải tài liệu vào `doc` sự vật.
 
 ## Bước 2: Lặp lại qua các phần
 
@@ -55,7 +57,7 @@ Tài liệu Word có thể có nhiều phần, mỗi phần có một bộ tiêu
 ```csharp
 foreach (Section section in doc)
 {
-    // Mã để xóa chân trang sẽ được đưa vào đây
+    // Mã để xóa chân trang sẽ được đặt ở đây
 }
 ```
 
@@ -98,10 +100,10 @@ Và thế là xong! Bạn đã xóa thành công phần chân trang khỏi tài 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể xóa tiêu đề bằng phương pháp tương tự không?
- Có, bạn có thể sử dụng cách tiếp cận tương tự để xóa tiêu đề bằng cách truy cập`HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary` , Và`HeaderFooterType.HeaderEven`.
+Có, bạn có thể sử dụng cách tiếp cận tương tự để xóa tiêu đề bằng cách truy cập `HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary`, Và `HeaderFooterType.HeaderEven`.
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
- Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể nhận được[dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra tính năng của nó.
+Aspose.Words cho .NET là một sản phẩm thương mại, nhưng bạn có thể nhận được [dùng thử miễn phí](https://releases.aspose.com/) để kiểm tra tính năng của nó.
 
 ### Tôi có thể thao tác các thành phần khác của tài liệu Word bằng Aspose.Words không?
 Chắc chắn rồi! Aspose.Words cung cấp các chức năng mở rộng để thao tác văn bản, hình ảnh, bảng biểu và nhiều nội dung khác trong tài liệu Word.
@@ -110,10 +112,15 @@ Chắc chắn rồi! Aspose.Words cung cấp các chức năng mở rộng để
 Aspose.Words hỗ trợ nhiều phiên bản khác nhau của .NET framework, bao gồm .NET Core.
 
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ chi tiết ở đâu?
- Bạn có thể truy cập chi tiết[tài liệu](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ về[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể truy cập chi tiết [tài liệu](https://reference.aspose.com/words/net/) và nhận được sự hỗ trợ về [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

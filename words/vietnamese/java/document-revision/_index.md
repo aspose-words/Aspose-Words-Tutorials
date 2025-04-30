@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi tài liệu
-linktitle: Sửa đổi tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tối ưu hóa việc sửa đổi tài liệu với Aspose.Words for Java! Theo dõi các thay đổi, quản lý kiểm soát phiên bản và tự động hóa các tác vụ sửa đổi một cách dễ dàng.
-weight: 19
-url: /vi/java/document-revision/
+"description": "Tối ưu hóa việc sửa đổi tài liệu với Aspose.Words for Java! Theo dõi các thay đổi, quản lý kiểm soát phiên bản và tự động hóa các tác vụ sửa đổi một cách dễ dàng."
+"linktitle": "Sửa đổi tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sửa đổi tài liệu"
+"url": "/vi/java/document-revision/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi tài liệu
@@ -18,7 +20,7 @@ Sửa đổi tài liệu là một khía cạnh quan trọng của xử lý văn
 
 ## Theo dõi bản sửa đổi với Aspose.Words
 
-Trong các hướng dẫn này, các nhà phát triển sẽ học cách theo dõi các bản sửa đổi bằng Aspose.Words for Java. Thư viện cung cấp khả năng theo dõi bản sửa đổi mạnh mẽ, cho phép người dùng đánh dấu các thay đổi, chèn bình luận và quản lý các bản sửa đổi một cách hợp tác. Bằng cách làm chủ theo dõi bản sửa đổi, các nhà phát triển có thể hợp lý hóa quy trình xem xét và đảm bảo tính chính xác và chất lượng của tài liệu.
+Trong các hướng dẫn này, các nhà phát triển sẽ học cách theo dõi các bản sửa đổi bằng Aspose.Words for Java. Thư viện cung cấp khả năng theo dõi bản sửa đổi mạnh mẽ, cho phép người dùng đánh dấu các thay đổi, chèn bình luận và quản lý các bản sửa đổi một cách cộng tác. Bằng cách làm chủ theo dõi bản sửa đổi, các nhà phát triển có thể hợp lý hóa quy trình xem xét và đảm bảo tính chính xác và chất lượng của tài liệu.
 
 ## Kiểm soát phiên bản và lịch sử tài liệu
 
@@ -43,9 +45,13 @@ Tìm hiểu cách quản lý các thay đổi tài liệu dễ dàng với Aspos
 Tìm hiểu cách kiểm soát phiên bản tài liệu hiệu quả bằng Aspose.Words for Java. Quản lý các thay đổi, cộng tác liền mạch và theo dõi các bản sửa đổi dễ dàng.
 ### [Hợp tác và Đánh giá Tài liệu](./document-collaboration-review/)
 Mở khóa cộng tác và xem xét tài liệu hiệu quả với Aspose.Words cho Java. Tìm hiểu cách theo dõi thay đổi, chia sẻ tài liệu và hợp lý hóa quy trình làm việc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

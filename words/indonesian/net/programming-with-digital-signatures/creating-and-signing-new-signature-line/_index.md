@@ -1,14 +1,16 @@
 ---
-title: Membuat dan Menandatangani Baris Tanda Tangan Baru
-linktitle: Membuat dan Menandatangani Baris Tanda Tangan Baru
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat dan menandatangani baris tanda tangan secara digital dalam dokumen Word menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk otomatisasi dokumen.
-weight: 10
-url: /id/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/
+"description": "Pelajari cara membuat dan menandatangani baris tanda tangan secara digital dalam dokumen Word menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk otomatisasi dokumen."
+"linktitle": "Membuat dan Menandatangani Baris Tanda Tangan Baru"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Membuat dan Menandatangani Baris Tanda Tangan Baru"
+"url": "/id/net/programming-with-digital-signatures/creating-and-signing-new-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat dan Menandatangani Baris Tanda Tangan Baru
@@ -20,10 +22,10 @@ Hai! Jadi, Anda punya dokumen Word dan perlu menambahkan baris tanda tangan lalu
 ## Prasyarat
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
-1.  Aspose.Words untuk .NET - Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET - Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan .NET - Visual Studio sangat direkomendasikan.
 3. Dokumen untuk Ditandatangani - Buat dokumen Word sederhana atau gunakan dokumen Word yang sudah ada.
-4.  File Sertifikat - Ini diperlukan untuk tanda tangan digital. Anda dapat menggunakan`.pfx` mengajukan.
+4. File Sertifikat - Ini diperlukan untuk tanda tangan digital. Anda dapat menggunakan `.pfx` mengajukan.
 5. Gambar untuk Baris Tanda Tangan - Opsional, file gambar untuk tanda tangan.
 
 ## Mengimpor Ruang Nama
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Memasukkan Baris Tanda Tangan
 
- Di sinilah keajaiban terjadi. Kami memasukkan baris tanda tangan ke dalam dokumen kami menggunakan`DocumentBuilder` kelas.
+Di sinilah keajaiban terjadi. Kami memasukkan baris tanda tangan ke dalam dokumen kami menggunakan `DocumentBuilder` kelas.
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
@@ -94,7 +96,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Langkah 7: Menandatangani Dokumen
 
- Ini adalah langkah terakhir. Kami menggunakan`DigitalSignatureUtil`kelas untuk menandatangani dokumen. Dokumen yang ditandatangani disimpan dengan nama baru.
+Ini adalah langkah terakhir. Kami menggunakan `DigitalSignatureUtil` kelas untuk menandatangani dokumen. Dokumen yang ditandatangani disimpan dengan nama baru.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -110,8 +112,8 @@ Nah, itu dia! Dengan langkah-langkah ini, Anda telah berhasil membuat dokumen Wo
 ### Bisakah saya menggunakan format gambar lain untuk baris tanda tangan?
 Ya, Anda dapat menggunakan berbagai format gambar seperti PNG, JPG, BMP, dll.
 
-###  Apakah perlu menggunakan`.pfx` file for the certificate?
- Ya, sebuah`.pfx` file adalah format umum untuk menyimpan informasi kriptografi termasuk sertifikat dan kunci pribadi.
+### Apakah perlu menggunakan `.pfx` mengajukan sertifikat?
+Ya, sebuah `.pfx` file adalah format umum untuk menyimpan informasi kriptografi termasuk sertifikat dan kunci pribadi.
 
 ### Bisakah saya menambahkan beberapa baris tanda tangan dalam satu dokumen?
 Tentu saja! Anda dapat menyisipkan beberapa baris tanda tangan dengan mengulangi langkah penyisipan untuk setiap tanda tangan.
@@ -121,9 +123,14 @@ Anda perlu memperoleh sertifikat digital dari otoritas sertifikat tepercaya atau
 
 ### Bagaimana cara memverifikasi tanda tangan digital dalam dokumen?
 Anda dapat membuka dokumen yang ditandatangani di Word dan masuk ke detail tanda tangan untuk memverifikasi keaslian dan integritas tanda tangan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: एमएस वर्ड के लिए अनुकूलित करें
-linktitle: एमएस वर्ड के लिए अनुकूलित करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके MS Word के विभिन्न संस्करणों के लिए Word दस्तावेज़ों को आसानी से अनुकूलित करें।
-weight: 10
-url: /hi/net/programming-with-document-options-and-settings/optimize-for-ms-word/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके MS Word के विभिन्न संस्करणों के लिए Word दस्तावेज़ों को आसानी से अनुकूलित करें।"
+"linktitle": "एमएस वर्ड के लिए अनुकूलित करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "एमएस वर्ड के लिए अनुकूलित करें"
+"url": "/hi/net/programming-with-document-options-and-settings/optimize-for-ms-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एमएस वर्ड के लिए अनुकूलित करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document-options-and-settings/optimize-for-ms-word
 
 इससे पहले कि हम अपने हाथ गंदे करें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1.  .NET के लिए Aspose.Words: आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य IDE जो .NET का समर्थन करता है।
 3. C# का बुनियादी ज्ञान: आपको इसमें माहिर होने की आवश्यकता नहीं है, लेकिन C# का ज्ञान होना सहायक होगा।
 
@@ -79,20 +81,25 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx
 .NET के लिए Aspose.Words एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 
 ### क्या मैं एमएस वर्ड के अन्य संस्करणों के लिए अनुकूलन कर सकता हूँ?
- बिलकुल! Aspose.Words कई संस्करणों का समर्थन करता है। बस बदलें`MsWordVersion.Word2016` जिस संस्करण की आपको आवश्यकता है, उसके साथ।
+बिल्कुल! Aspose.Words कई संस्करणों का समर्थन करता है। बस बदलें `MsWordVersion.Word2016` जिस संस्करण की आपको आवश्यकता है, उसके साथ।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- आप इसे निःशुल्क आज़मा सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/), लेकिन आपको दीर्घकालिक उपयोग के लिए लाइसेंस खरीदना होगा।
+आप इसे निःशुल्क आज़मा सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/), लेकिन आपको दीर्घकालिक उपयोग के लिए लाइसेंस खरीदना होगा।
 
 ### मैं अधिक दस्तावेज कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### अगर मुझे मदद की ज़रूरत पड़े तो क्या होगा?
- यदि आपको कोई समस्या आती है, तो आप हमेशा सहायता ले सकते हैं[Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
+यदि आपको कोई समस्या आती है, तो आप हमेशा सहायता ले सकते हैं [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

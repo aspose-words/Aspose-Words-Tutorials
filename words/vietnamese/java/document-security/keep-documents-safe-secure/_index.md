@@ -1,14 +1,16 @@
 ---
-title: Làm thế nào để giữ tài liệu của bạn an toàn và bảo mật
-linktitle: Làm thế nào để giữ tài liệu của bạn an toàn và bảo mật
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Bảo mật tài liệu của bạn bằng Aspose.Words for Java. Mã hóa, bảo vệ và thêm chữ ký số dễ dàng. Giữ dữ liệu của bạn an toàn.
-weight: 10
-url: /vi/java/document-security/keep-documents-safe-secure/
+"description": "Bảo mật tài liệu của bạn bằng Aspose.Words for Java. Mã hóa, bảo vệ và thêm chữ ký số dễ dàng. Giữ dữ liệu của bạn an toàn."
+"linktitle": "Làm thế nào để giữ tài liệu của bạn an toàn và bảo mật"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Làm thế nào để giữ tài liệu của bạn an toàn và bảo mật"
+"url": "/vi/java/document-security/keep-documents-safe-secure/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm thế nào để giữ tài liệu của bạn an toàn và bảo mật
@@ -46,7 +48,7 @@ Mã hóa tài liệu cung cấp thêm một lớp bảo mật, khiến nội dun
 Trước khi tiến hành bảo mật tài liệu, trước tiên chúng ta hãy làm quen với Aspose.Words for Java. Đây là một thư viện giàu tính năng cho phép các nhà phát triển Java tạo, sửa đổi và chuyển đổi tài liệu Word theo chương trình. Để bắt đầu:
 
 1. ### Tải xuống Aspose.Words cho Java:
-  Ghé thăm[Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống phiên bản mới nhất của Aspose.Words cho Java.
+ Ghé thăm [Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống phiên bản mới nhất của Aspose.Words cho Java.
 
 2. ### Cài đặt Thư viện:
  Sau khi tải xuống hoàn tất, hãy làm theo hướng dẫn cài đặt để thiết lập Aspose.Words trong dự án Java của bạn.
@@ -56,7 +58,7 @@ Trước khi tiến hành bảo mật tài liệu, trước tiên chúng ta hãy
 Cài đặt Aspose.Words for Java là một quá trình đơn giản. Thực hiện theo các bước đơn giản sau để thêm thư viện vào dự án Java của bạn:
 
 1. ### Tải xuống:
-  Đi đến[Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống gói Aspose.Words cho Java.
+ Đi đến [Aspose.Phát hành](https://releases.aspose.com/words/java/) và tải xuống gói Aspose.Words cho Java.
 
 2. ### Trích đoạn:
  Giải nén gói đã tải xuống vào vị trí thuận tiện trên máy tính của bạn.
@@ -110,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world! Since we have set the document's protection level to read-only," +
         " we cannot edit this paragraph without the password.");
 
-//Phạm vi có thể chỉnh sửa cho phép chúng ta để lại một số phần của tài liệu được bảo vệ để chỉnh sửa.
+// Phạm vi có thể chỉnh sửa cho phép chúng ta để lại một số phần của tài liệu được bảo vệ để chỉnh sửa.
 EditableRangeStart editableRangeStart = builder.startEditableRange();
 builder.writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.endEditableRange();
@@ -140,7 +142,7 @@ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, sign
 
 ## 9. Đóng dấu bản quyền tài liệu của bạn
 
-Đánh dấu bản quyền có thể giúp bảo vệ tính bảo mật của tài liệu và cho biết trạng thái của tài liệu. Aspose.Words for Java cung cấp các tính năng đánh dấu bản quyền dễ sử dụng:
+Đánh dấu bản quyền có thể giúp bảo vệ tính bảo mật của tài liệu và chỉ ra trạng thái của tài liệu. Aspose.Words for Java cung cấp các tính năng đánh dấu bản quyền dễ sử dụng:
 
 ```java
 // Thêm hình mờ có thể nhìn thấy
@@ -168,7 +170,7 @@ doc.save("path/to/watermarked/document.docx");
 Aspose.Words for Java cũng cho phép bạn chuyển đổi các tài liệu được bảo mật sang nhiều định dạng khác nhau, chẳng hạn như PDF hoặc HTML:
 
 ```java
-//Tải tài liệu được bảo mật
+// Tải tài liệu được bảo mật
 Document doc = new Document("path/to/your/secured/document.docx");
 
 // Chuyển đổi sang PDF
@@ -198,9 +200,13 @@ Không, Aspose.Words không cung cấp tính năng khôi phục mật khẩu. H�
 
 ### Tôi có thể tùy chỉnh giao diện của hình mờ không?
 Có, bạn có thể tùy chỉnh hoàn toàn giao diện của hình mờ, bao gồm văn bản, phông chữ, màu sắc, kích thước và chế độ xoay.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

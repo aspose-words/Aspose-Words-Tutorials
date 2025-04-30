@@ -1,14 +1,16 @@
 ---
-title: ฟอร์มฟิลด์รับคอลเลกชันฟอร์มฟิลด์
-linktitle: ฟอร์มฟิลด์รับคอลเลกชันฟอร์มฟิลด์
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีรับและจัดการเขตข้อมูลฟอร์มในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมของเรา
-weight: 10
-url: /th/net/working-with-formfields/form-fields-get-form-fields-collection/
+"description": "เรียนรู้วิธีรับและจัดการเขตข้อมูลฟอร์มในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมของเรา"
+"linktitle": "ฟอร์มฟิลด์รับคอลเลกชันฟอร์มฟิลด์"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ฟอร์มฟิลด์รับคอลเลกชันฟอร์มฟิลด์"
+"url": "/th/net/working-with-formfields/form-fields-get-form-fields-collection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟอร์มฟิลด์รับคอลเลกชันฟอร์มฟิลด์
@@ -21,13 +23,13 @@ url: /th/net/working-with-formfields/form-fields-get-form-fields-collection/
 
 ก่อนที่จะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE เช่น Visual Studio เพื่อเขียนและรันโค้ด .NET ของคุณ
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าโครงการของคุณกำหนดเป้าหมายไปที่เวอร์ชัน .NET framework ที่เข้ากันได้
 
 ## นำเข้าเนมสเปซ
 
-ก่อนที่คุณจะเริ่มเขียนโค้ด คุณต้องนำเข้าเนมสเปซที่จำเป็นเสียก่อน ซึ่งจะช่วยให้คุณหลีกเลี่ยงการเขียนชื่อคลาสซ้ำๆ ทำให้โค้ดของคุณสะอาดขึ้นและอ่านง่ายขึ้น
+ก่อนที่คุณจะเริ่มเขียนโค้ด คุณต้องนำเข้าเนมสเปซที่จำเป็นเสียก่อน ซึ่งจะช่วยให้คุณหลีกเลี่ยงการเขียนชื่อคลาสซ้ำๆ กัน ทำให้โค้ดของคุณสะอาดขึ้นและอ่านง่ายขึ้น
 
 ```csharp
 using Aspose.Words;
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Form fields.docx");
 ```
 
- คำอธิบาย: ที่นี่`dataDir` คือเส้นทางไปยังไดเร็กทอรีของคุณซึ่งมีเอกสาร Word เราสร้างเอกสารใหม่`Document` วัตถุและโหลดไฟล์`Form fields.docx`.
+คำอธิบาย: ที่นี่ `dataDir` คือเส้นทางไปยังไดเร็กทอรีของคุณซึ่งมีเอกสาร Word เราสร้างเอกสารใหม่ `Document` วัตถุและโหลดไฟล์ `Form fields-docx`.
 
 ## ขั้นตอนที่ 2: รับคอลเลกชันช่องฟอร์ม
 
@@ -55,7 +57,7 @@ Document doc = new Document(dataDir + "Form fields.docx");
 FormFieldCollection formFields = doc.Range.FormFields;
 ```
 
- คำอธิบาย :`FormFields` ทรัพย์สินของ`Range` วัตถุช่วยให้คุณเข้าถึงฟิลด์ฟอร์มในเอกสาร เราจัดเก็บคอลเลกชันนี้ใน`formFields` ตัวแปรสำหรับการจัดการเพิ่มเติม
+คำอธิบาย : `FormFields` ทรัพย์สินของ `Range` วัตถุช่วยให้คุณเข้าถึงฟิลด์ฟอร์มในเอกสารได้ เราจัดเก็บคอลเลกชันนี้ไว้ใน `formFields` ตัวแปรสำหรับการจัดการเพิ่มเติม
 
 ## ขั้นตอนที่ 3: จัดการฟิลด์แบบฟอร์ม
 
@@ -81,7 +83,7 @@ foreach (FormField formField in formFields)
 doc.Save(dataDir + "ModifiedFormFields.docx");
 ```
 
- คำอธิบาย: เราบันทึกเอกสารที่แก้ไขแล้วเป็น`ModifiedFormFields.docx` ในไดเร็กทอรีเดียวกัน
+คำอธิบาย: เราบันทึกเอกสารที่แก้ไขแล้วเป็น `ModifiedFormFields.docx` ในไดเร็กทอรีเดียวกัน
 
 ## บทสรุป
 
@@ -90,22 +92,27 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 ## คำถามที่พบบ่อย
 
 ### Aspose.Words สำหรับ .NET คืออะไร?
-Aspose.Words สำหรับ .NET เป็นไลบรารีที่ครอบคลุมสำหรับการทำงานกับเอกสาร Word ในแอปพลิเคชัน .NET ช่วยให้คุณสามารถสร้าง แก้ไข แปลง และจัดการเอกสาร Word ได้ด้วยโปรแกรม
+Aspose.Words for .NET เป็นไลบรารีที่ครอบคลุมสำหรับการทำงานกับเอกสาร Word ในแอปพลิเคชัน .NET ช่วยให้คุณสามารถสร้าง แก้ไข แปลง และจัดการเอกสาร Word ได้ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ในแอพพลิเคชันเว็บได้หรือไม่
-ใช่ Aspose.Words สำหรับ .NET สามารถใช้ได้ในแอปพลิเคชันหลายประเภท เช่น แอปพลิเคชันเว็บ แอปพลิเคชันเดสก์ท็อป และบริการต่างๆ
+ใช่ Aspose.Words สำหรับ .NET สามารถใช้ได้ในแอปพลิเคชันประเภทต่างๆ เช่น แอปพลิเคชันเว็บ แอปพลิเคชันเดสก์ท็อป และบริการต่างๆ
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
-Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการใช้งานเต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Words สำหรับ .NET นำเสนอรุ่นทดลองใช้งานฟรี แต่หากต้องการใช้งานเต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้ที่ไหน
- เอกสารประกอบสำหรับ Aspose.Words สำหรับ .NET สามารถพบได้[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารประกอบสำหรับ Aspose.Words สำหรับ .NET สามารถพบได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถรับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ผ่านทางฟอรัมสนับสนุนของพวกเขา[ที่นี่](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ผ่านทางฟอรัมสนับสนุนของพวกเขา [ที่นี่](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,41 +1,43 @@
 ---
-title: Pagina-einden in Word-document verwijderen
-linktitle: Pagina-einden verwijderen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u pagina-einden verwijdert in een Word-document met Aspose.Words voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in het manipuleren van documenten.
-weight: 10
-url: /nl/net/remove-content/remove-page-breaks/
+"description": "Leer hoe je pagina-einden in een Word-document verwijdert met Aspose.Words voor .NET met onze stapsgewijze handleiding. Verbeter je vaardigheden in het werken met documenten."
+"linktitle": "Pagina-einden verwijderen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Pagina-einden in een Word-document verwijderen"
+"url": "/nl/net/remove-content/remove-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pagina-einden in Word-document verwijderen
+# Pagina-einden in een Word-document verwijderen
 
 ## Invoering
 
-Het verwijderen van pagina-einden uit een Word-document kan cruciaal zijn voor het behouden van een consistente tekststroom. Of u nu een definitieve versie voorbereidt voor publicatie of gewoon een document opruimt, het verwijderen van onnodige pagina-einden kan helpen. In deze tutorial leiden we u door het proces met behulp van Aspose.Words voor .NET. Deze krachtige bibliotheek biedt uitgebreide mogelijkheden voor documentmanipulatie, waardoor taken als deze een fluitje van een cent worden.
+Het verwijderen van pagina-einden uit een Word-document kan cruciaal zijn voor een consistente tekststroom. Of u nu een definitieve versie voorbereidt voor publicatie of gewoon een document opruimt, het verwijderen van onnodige pagina-einden kan helpen. In deze tutorial begeleiden we u door het proces met Aspose.Words voor .NET. Deze krachtige bibliotheek biedt uitgebreide mogelijkheden voor documentbewerking, waardoor taken zoals deze een fluitje van een cent worden.
 
 ## Vereisten
 
 Voordat we de stapsgewijze handleiding ingaan, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.Words voor .NET: Download en installeer de bibliotheek van[Aspose-releases](https://releases.aspose.com/words/net/).
+- Aspose.Words voor .NET: Download en installeer de bibliotheek van [Aspose-releases](https://releases.aspose.com/words/net/).
 - Ontwikkelomgeving: Een IDE zoals Visual Studio.
 - .NET Framework: Zorg ervoor dat .NET Framework op uw computer is geïnstalleerd.
-- Voorbeelddocument: Een Word-document (.docx) met pagina-einden.
+- Voorbeeld document: Een Word-document (.docx) met pagina-einden.
 
 ## Naamruimten importeren
 
-Eerst moet u de benodigde namespaces importeren in uw project. Dit geeft u toegang tot de klassen en methoden die nodig zijn om Word-documenten te manipuleren.
+Eerst moet u de benodigde naamruimten in uw project importeren. Dit geeft u toegang tot de klassen en methoden die nodig zijn om Word-documenten te bewerken.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Nodes;
 ```
 
-Laten we het proces opsplitsen in eenvoudige, beheersbare stappen.
+Laten we het proces opdelen in eenvoudige, beheersbare stappen.
 
 ## Stap 1: Het project instellen
 
@@ -46,7 +48,7 @@ Een nieuw project maken in Visual Studio
 2. Geef uw project een naam en klik op 'Maken'.
 
 Voeg Aspose.Words toe aan uw project
-1. Klik in Solution Explorer met de rechtermuisknop op 'References' en selecteer 'Manage NuGet Packages'.
+1. Klik in Solution Explorer met de rechtermuisknop op 'Referenties' en selecteer 'NuGet-pakketten beheren'.
 2. Zoek naar "Aspose.Words" en installeer het pakket.
 
 ## Stap 2: Laad uw document
@@ -58,20 +60,20 @@ Laad het document
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 Document doc = new Document(dataDir + "your-document.docx");
 ```
- Vervang in deze stap`"YOUR DOCUMENT DIRECTORY"` met het pad naar uw document.
+Vervang in deze stap `"YOUR DOCUMENT DIRECTORY"` met het pad naar uw document.
 
 ## Stap 3: Toegang tot alineaknooppunten
 
-Nu moeten we toegang krijgen tot alle alineaknooppunten in het document. Dit zal ons in staat stellen om hun eigenschappen te controleren en te wijzigen.
+Nu moeten we toegang krijgen tot alle alineaknooppunten in het document. Zo kunnen we hun eigenschappen controleren en wijzigen.
 
 Toegang tot alineaknooppunten
 ```csharp
 NodeCollection paragraphs = doc.GetChildNodes(NodeType.Paragraph, true);
 ```
 
-## Stap 4: Verwijder pagina-einden uit alinea's
+## Stap 4: Pagina-einden uit alinea's verwijderen
 
-We doorlopen elke alinea en verwijderen alle pagina-einden.
+We lopen elke alinea door en verwijderen alle pagina-einden.
 
 Pagina-einden verwijderen
 ```csharp
@@ -81,7 +83,7 @@ foreach (Paragraph para in paragraphs)
     if (para.ParagraphFormat.PageBreakBefore)
         para.ParagraphFormat.PageBreakBefore = false;
 
-    // Controleer alle runs in de alinea op pagina-einden en verwijder deze.
+    // Controleer alle alinea's op pagina-einden en verwijder deze.
     foreach (Run run in para.Runs)
     {
         if (run.Text.Contains(ControlChar.PageBreak))
@@ -97,15 +99,15 @@ In dit fragment:
 
 Ten slotte slaan we het gewijzigde document op.
 
-Document opslaan
+Sla het document op
 ```csharp
 doc.Save(dataDir + "modified-document.docx", SaveFormat.Docx);
 ```
- Vervangen`"YOUR DOCUMENT DIRECTORY"` met het pad waar u het gewijzigde document wilt opslaan.
+Vervangen `"YOUR DOCUMENT DIRECTORY"` met het pad waar u het gewijzigde document wilt opslaan.
 
 ## Conclusie
 
-En daar heb je het! Met slechts een paar regels code hebben we succesvol pagina-einden uit een Word-document verwijderd met Aspose.Words voor .NET. Deze bibliotheek maakt documentmanipulatie eenvoudig en efficiënt. Of je nu aan grote of kleine documenten werkt, Aspose.Words biedt de tools die je nodig hebt om de klus te klaren.
+En voilà! Met slechts een paar regels code hebben we met succes pagina-einden uit een Word-document verwijderd met Aspose.Words voor .NET. Deze bibliotheek maakt documentbewerking eenvoudig en efficiënt. Of u nu aan grote of kleine documenten werkt, Aspose.Words biedt de tools die u nodig hebt om de klus te klaren.
 
 ## Veelgestelde vragen
 
@@ -113,19 +115,24 @@ En daar heb je het! Met slechts een paar regels code hebben we succesvol pagina-
 Ja, Aspose.Words ondersteunt alle .NET-talen, waaronder VB.NET, F# en andere.
 
 ### Is Aspose.Words voor .NET gratis te gebruiken?
- Aspose.Words biedt een gratis proefperiode. Voor langdurig gebruik kunt u een licentie kopen bij[Aspose Aankoop](https://purchase.aspose.com/buy).
+Aspose.Words biedt een gratis proefperiode aan. Voor langdurig gebruik kunt u een licentie aanschaffen bij [Aspose Aankoop](https://purchase.aspose.com/buy).
 
-### Kan ik andere typen eindes (zoals sectie-einden) verwijderen met Aspose.Words?
-Ja, u kunt verschillende typen tekstonderbrekingen in een document bewerken met Aspose.Words.
+### Kan ik andere soorten eindes (zoals sectie-einden) verwijderen met Aspose.Words?
+Ja, u kunt verschillende typen tekstonderbrekingen in een document bewerken met behulp van Aspose.Words.
 
 ### Hoe kan ik ondersteuning krijgen als ik problemen ondervind?
- U kunt ondersteuning krijgen van de Aspose-community en forums op[Aspose-ondersteuning](https://forum.aspose.com/c/words/8).
+U kunt ondersteuning krijgen van de Aspose-community en forums op [Aspose-ondersteuning](https://forum.aspose.com/c/words/8).
 
 ### Welke bestandsformaten ondersteunt Aspose.Words?
-Aspose.Words ondersteunt talloze bestandsformaten, waaronder DOCX, DOC, PDF, HTML en meer. U kunt de volledige lijst vinden in de[Aspose-documentatie](https://reference.aspose.com/words/net/).
+Aspose.Words ondersteunt talloze bestandsformaten, waaronder DOCX, DOC, PDF, HTML en meer. De volledige lijst vindt u in de [Aspose-documentatie](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

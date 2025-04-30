@@ -1,14 +1,16 @@
 ---
-title: Chèn vào lưới trong tài liệu Word
-linktitle: Chèn vào lưới trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách bật Snap to Grid trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp.
-weight: 10
-url: /vi/net/document-formatting/snap-to-grid/
+"description": "Tìm hiểu cách bật Snap to Grid trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn chi tiết này bao gồm các điều kiện tiên quyết, hướng dẫn từng bước và Câu hỏi thường gặp."
+"linktitle": "Chèn vào lưới trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn vào lưới trong tài liệu Word"
+"url": "/vi/net/document-formatting/snap-to-grid/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn vào lưới trong tài liệu Word
@@ -21,10 +23,10 @@ Khi làm việc với các tài liệu Word, việc duy trì bố cục nhất q
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 - Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về lập trình C# sẽ giúp bạn theo dõi các ví dụ.
--  Giấy phép Aspose: Trong khi giấy phép tạm thời có thể được mua[đây](https://purchase.aspose.com/temporary-license/), sử dụng giấy phép đầy đủ sẽ đảm bảo quyền truy cập vào tất cả các tính năng mà không bị giới hạn.
+- Giấy phép Aspose: Trong khi giấy phép tạm thời có thể được mua [đây](https://purchase.aspose.com/temporary-license/), sử dụng giấy phép đầy đủ sẽ đảm bảo quyền truy cập vào tất cả các tính năng mà không bị giới hạn.
 
 ## Nhập không gian tên
 
@@ -57,11 +59,11 @@ Thiết lập dự án
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dòng này thiết lập thư mục nơi tài liệu của bạn sẽ được lưu. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
+Dòng này thiết lập thư mục nơi tài liệu của bạn sẽ được lưu. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn.
 
 ## Bước 2: Khởi tạo Document và DocumentBuilder
 
- Tiếp theo, bạn cần tạo một tài liệu Word mới và khởi tạo`DocumentBuilder` lớp giúp xây dựng tài liệu.
+Tiếp theo, bạn cần tạo một tài liệu Word mới và khởi tạo `DocumentBuilder` lớp giúp xây dựng tài liệu.
 
 Tạo một tài liệu mới
 
@@ -70,7 +72,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-- `Document doc = new Document();`tạo một tài liệu Word mới.
+- `Document doc = new Document();` tạo một tài liệu Word mới.
 - `DocumentBuilder builder = new DocumentBuilder(doc);` khởi tạo DocumentBuilder với tài liệu đã tạo.
 
 ## Bước 3: Bật Snap to Grid cho Đoạn văn
@@ -80,7 +82,7 @@ Bây giờ, hãy bật tính năng Snap to Grid cho một đoạn văn trong tà
 Tối ưu hóa bố cục đoạn văn
 
 ```csharp
-// Tối ưu hóa bố cục khi nhập ký tự châu Á.
+// Tối ưu hóa bố cục khi nhập ký tự Châu Á.
 Paragraph par = doc.FirstSection.Body.FirstParagraph;
 par.ParagraphFormat.SnapToGrid = true;
 ```
@@ -110,7 +112,7 @@ Thiết lập Font Snap thành Grid
 par.Runs[0].Font.SnapToGrid = true;
 ```
 
-- `par.Runs[0].Font.SnapToGrid = true;` đảm bảo phông chữ được sử dụng trong đoạn văn phù hợp với lưới.
+- `par.Runs[0].Font.SnapToGrid = true;` đảm bảo rằng phông chữ được sử dụng trong đoạn văn phù hợp với lưới.
 
 ## Bước 6: Lưu tài liệu
 
@@ -143,10 +145,15 @@ Có, mặc dù bạn có thể sử dụng giấy phép tạm thời để đán
 Không, việc bật Snap to Grid không ảnh hưởng đáng kể đến hiệu suất của tài liệu.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Ghé thăm[tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết và ví dụ.
+Ghé thăm [tài liệu](https://reference.aspose.com/words/net/) để biết thông tin chi tiết và ví dụ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

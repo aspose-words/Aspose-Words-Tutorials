@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ विलय
-linktitle: दस्तावेज़ विलय
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words का उपयोग करके Java में दस्तावेज़ विलय की क्षमता को अनलॉक करें! विस्तृत ट्यूटोरियल के साथ कुशल वर्ड प्रोसेसिंग और दस्तावेज़ प्रोसेसिंग सीखें।
-weight: 13
-url: /hi/java/document-merging/
+"description": "Aspose.Words का उपयोग करके Java में दस्तावेज़ विलय की क्षमता को अनलॉक करें! विस्तृत ट्यूटोरियल के साथ कुशल वर्ड प्रोसेसिंग और दस्तावेज़ प्रोसेसिंग सीखें।"
+"linktitle": "दस्तावेज़ विलय"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ विलय"
+"url": "/hi/java/document-merging/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ विलय
@@ -40,9 +42,13 @@ Java के लिए Aspose.Words का उपयोग करके दस्
 जावा में Aspose.Words का उपयोग करके अंतर के लिए दस्तावेज़ों की तुलना करना सीखें। हमारा चरण-दर-चरण गाइड सटीक दस्तावेज़ प्रबंधन सुनिश्चित करता है।
 ### [डॉक्यूमेंटबिल्डर के साथ दस्तावेज़ों को मर्ज करना](./merging-documents-documentbuilder/)
 Java के लिए Aspose.Words के साथ Word दस्तावेज़ों में हेरफेर करना सीखें। Java में प्रोग्रामेटिक रूप से दस्तावेज़ बनाएँ, संपादित करें, मर्ज करें और परिवर्तित करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

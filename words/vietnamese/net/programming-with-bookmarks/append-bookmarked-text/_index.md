@@ -1,14 +1,16 @@
 ---
-title: Thêm văn bản được đánh dấu vào tài liệu Word
-linktitle: Thêm văn bản được đánh dấu vào tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thêm văn bản được đánh dấu vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển.
-weight: 10
-url: /vi/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "Tìm hiểu cách thêm văn bản được đánh dấu vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Thêm văn bản được đánh dấu vào tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thêm văn bản được đánh dấu vào tài liệu Word"
+"url": "/vi/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm văn bản được đánh dấu vào tài liệu Word
@@ -21,7 +23,7 @@ Xin chào! Bạn đã bao giờ thử thêm văn bản từ một phần đượ
 
 Trước khi bắt đầu, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt nó. Nếu chưa, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt nó. Nếu chưa, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ môi trường phát triển .NET nào như Visual Studio.
 - Kiến thức cơ bản về C#: Hiểu các khái niệm lập trình C# cơ bản sẽ giúp ích.
 - Tài liệu Word có dấu trang: Tài liệu Word có dấu trang được thiết lập, chúng ta sẽ sử dụng dấu trang này để thêm văn bản.
@@ -43,7 +45,7 @@ Chúng ta hãy chia nhỏ ví dụ thành các bước chi tiết.
 Được rồi, chúng ta hãy bắt đầu bằng cách tải tài liệu Word và khởi tạo các biến mà chúng ta cần.
 
 ```csharp
-// Tải tài liệu nguồn và tài liệu đích.
+// Tải tài liệu nguồn và đích.
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 
@@ -117,20 +119,25 @@ Và thế là xong! Bạn đã thêm thành công văn bản từ một phần �
 ### Tôi có thể thêm văn bản từ nhiều dấu trang cùng một lúc không?
 Có, bạn có thể lặp lại quy trình này cho từng dấu trang và thêm văn bản cho phù hợp.
 
-### Nếu đoạn mở đầu và đoạn kết thúc có phần cha khác nhau thì sao?
+### Nếu đoạn mở đầu và đoạn kết có phần cha khác nhau thì sao?
 Ví dụ hiện tại giả định chúng có cùng cha mẹ. Đối với các cha mẹ khác nhau, cần phải xử lý phức tạp hơn.
 
 ### Tôi có thể giữ nguyên định dạng gốc của văn bản được thêm vào không?
- Chắc chắn rồi!`ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng ban đầu được giữ nguyên.
+Chắc chắn rồi! `ImportFormatMode.KeepSourceFormatting` đảm bảo định dạng ban đầu được giữ nguyên.
 
 ### Có thể thêm văn bản vào vị trí cụ thể trong tài liệu đích không?
 Có, bạn có thể thêm văn bản vào bất kỳ vị trí nào bằng cách điều hướng đến nút mong muốn trong tài liệu đích.
 
 ### Tôi phải làm sao nếu cần thêm văn bản từ dấu trang vào phần mới?
 Bạn có thể tạo một phần mới trong tài liệu đích và thêm văn bản vào đó.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

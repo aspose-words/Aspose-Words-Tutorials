@@ -1,14 +1,16 @@
 ---
-title: Escape URI dalam Dokumen PDF
-linktitle: Escape URI dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara meloloskan URI dalam PDF menggunakan Aspose.Words untuk .NET. Panduan terperinci ini memandu Anda melalui proses tersebut langkah demi langkah.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/escape-uri/
+"description": "Pelajari cara meloloskan URI dalam PDF menggunakan Aspose.Words untuk .NET. Panduan terperinci ini memandu Anda melalui proses tersebut langkah demi langkah."
+"linktitle": "Escape URI dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Escape URI dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/escape-uri/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Escape URI dalam Dokumen PDF
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda bertanya-tanya bagaimana cara menangani URI saat menyimpan d
 
 Sebelum kita mulai, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan .NET lainnya.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -45,7 +47,7 @@ Sebelum mulai menulis kode, tentukan jalur ke direktori dokumen Anda. Di sinilah
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen PDF Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen PDF Anda.
 
 ## Langkah 2: Buat Dokumen Baru
 
@@ -56,7 +58,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di Sini,`Document` adalah dokumen Word baru Anda, dan`DocumentBuilder` adalah kelas pembantu yang menyederhanakan proses pembuatan dokumen.
+Di Sini, `Document` adalah dokumen Word baru Anda, dan `DocumentBuilder` adalah kelas pembantu yang menyederhanakan proses pembuatan dokumen.
 
 ## Langkah 3: Masukkan Hyperlink
 
@@ -66,7 +68,7 @@ Sekarang, mari masukkan hyperlink ke dalam dokumen. Hyperlink ini akan menjadi f
 builder.InsertHyperlink("Testlink", "https://www.google.com/search?q= aspose", salah);
 ```
 
- Pada baris ini,`"Testlink"` adalah teks tampilan untuk hyperlink, dan`"https://www.google.com/search?q= aspose"` adalah URL.`false` parameter menunjukkan bahwa tautan tidak boleh diformat sebagai hyperlink (yakni, tidak akan digarisbawahi dan berwarna biru).
+Pada baris ini, `"Testlink"` adalah teks tampilan untuk hyperlink, dan `"https://www.google.com/search?q= aspose"` adalah URL. `false` parameter menunjukkan bahwa tautan tidak boleh diformat sebagai hyperlink (yakni, tidak akan digarisbawahi dan berwarna biru).
 
 ## Langkah 4: Simpan Dokumen sebagai PDF
 
@@ -76,7 +78,7 @@ Terakhir, simpan dokumen sebagai PDF. Di sinilah Aspose.Words menangani proses e
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.EscapeUri.pdf");
 ```
 
- Baris ini menyimpan dokumen ke direktori yang ditentukan dengan nama file`WorkingWithPdfSaveOptions.EscapeUri.pdf`.
+Baris ini menyimpan dokumen ke direktori yang ditentukan dengan nama file `WorkingWithPdfSaveOptions.EscapeUri.pdf`.
 
 ## Kesimpulan
 
@@ -100,15 +102,20 @@ Tentu saja! Aspose.Words mendukung berbagai jenis tautan, termasuk tautan dokume
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
 
- Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Разделение документа
-linktitle: Разделение документа
-second_title: API обработки документов Java Aspose.Words
-description: 
-weight: 18
-url: /ru/java/document-splitting/
+"description": null
+"linktitle": "Разделение документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Разделение документа"
+"url": "/ru/java/document-splitting/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разделение документа
@@ -40,10 +42,14 @@ url: /ru/java/document-splitting/
 ### [Извлечение содержимого документа по страницам](./extracting-document-content-pages/)
 Узнайте, как извлекать содержимое документа по страницам с помощью Aspose.Words для Java. Это пошаговое руководство с исходным кодом сделает вас экспертом в кратчайшие сроки.
 ### [Методы разделения и извлечения документов](./document-splitting-extraction-techniques/)
-Изучите разделение и извлечение документов с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом для эффективной обработки. Раскройте силу Aspose
+Изучите разделение и извлечение документов с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом для эффективной обработки. Раскройте мощь Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

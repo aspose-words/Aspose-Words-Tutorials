@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ पृष्ठ सेटअप
-linktitle: दस्तावेज़ पृष्ठ सेटअप
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ आसान चरणों में मास्टर दस्तावेज़ पृष्ठ सेटअप करें। लोड करना, लेआउट सेट करना, प्रति पंक्ति वर्ण, प्रति पृष्ठ पंक्तियाँ परिभाषित करना और अपने दस्तावेज़ को सहेजना सीखें।
-weight: 10
-url: /hi/net/programming-with-document-options-and-settings/document-page-setup/
+"description": "Aspose.Words for .NET के साथ आसान चरणों में मास्टर दस्तावेज़ पृष्ठ सेटअप करें। लोड करना, लेआउट सेट करना, प्रति पंक्ति वर्ण, प्रति पृष्ठ पंक्तियाँ परिभाषित करना और अपने दस्तावेज़ को सहेजना सीखें।"
+"linktitle": "दस्तावेज़ पृष्ठ सेटअप"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "दस्तावेज़ पृष्ठ सेटअप"
+"url": "/hi/net/programming-with-document-options-and-settings/document-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ पृष्ठ सेटअप
@@ -21,8 +23,8 @@ url: /hi/net/programming-with-document-options-and-settings/document-page-setup/
 
 बारीकियों में जाने से पहले, आइए यह सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
--  वैध लाइसेंस: आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+- .NET के लिए Aspose.Words: आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+- वैध लाइसेंस: आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy) या अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/).
 - C# प्रोग्रामिंग की बुनियादी समझ: चिंता न करें, मैं इसे सरल और सीधा रखूंगा।
 - एकीकृत विकास वातावरण (आईडीई): विजुअल स्टूडियो एक अच्छा विकल्प है।
 
@@ -40,7 +42,7 @@ using Aspose.Words.PageSetup;
 
 सबसे पहले, आपको अपना दस्तावेज़ लोड करना होगा। यह वह आधार है जिस पर आप अपना पेज सेटअप बनाएंगे।
 
- एक नया उदाहरण बनाएँ`Document` class पर जाएँ और अपने दस्तावेज़ को निर्दिष्ट निर्देशिका से लोड करें।
+एक नया उदाहरण बनाएँ `Document` class पर जाएँ और अपने दस्तावेज़ को निर्दिष्ट निर्देशिका से लोड करें।
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -88,22 +90,27 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.DocumentPageSetup.docx
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### .NET के लिए Aspose.Words क्या है?
-यह .NET अनुप्रयोगों का उपयोग करके विभिन्न प्रारूपों में दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।
+यह .NET अनुप्रयोगों का उपयोग करके विभिन्न प्रारूपों में दस्तावेज़ों को बनाने, संशोधित करने और परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### क्या मैं Aspose.Words का निःशुल्क उपयोग कर सकता हूँ?
-हां, आप इसे अस्थायी लाइसेंस के साथ उपयोग कर सकते हैं जिसे आप प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप इसे अस्थायी लाइसेंस के साथ उपयोग कर सकते हैं जिसे आप प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/) और स्थापना निर्देशों का पालन करें.
+आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/) और स्थापना निर्देशों का पालन करें.
 
 ### Aspose.Words किन भाषाओं का समर्थन करता है?
 यह चीनी और जापानी जैसी एशियाई भाषाओं सहित कई भाषाओं का समर्थन करता है।
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

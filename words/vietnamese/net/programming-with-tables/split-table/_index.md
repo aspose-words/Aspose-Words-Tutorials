@@ -1,14 +1,16 @@
 ---
-title: Bảng chia đôi
-linktitle: Bảng chia đôi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chia bảng trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước của chúng tôi giúp quản lý bảng dễ dàng và hiệu quả.
-weight: 10
-url: /vi/net/programming-with-tables/split-table/
+"description": "Tìm hiểu cách chia bảng trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước của chúng tôi giúp quản lý bảng dễ dàng và hiệu quả."
+"linktitle": "Bảng chia đôi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bảng chia đôi"
+"url": "/vi/net/programming-with-tables/split-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng chia đôi
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình đang làm việc với một bảng lớn tro
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Words cho .NET. Bạn có thể lấy nó từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Words cho .NET. Bạn có thể lấy nó từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển có hỗ trợ .NET framework, chẳng hạn như Visual Studio.
 3. Tài liệu mẫu: Chuẩn bị một tài liệu Word (`Tables.docx`) với ít nhất một bảng để áp dụng thao tác chia tách.
 
@@ -126,9 +128,14 @@ Có, Aspose.Words cho .NET cũng hỗ trợ các thao tác trên các bảng l�
 
 ### Tôi có thể tự động hóa quy trình này cho nhiều tài liệu không?
 Hoàn toàn có thể! Bạn có thể tạo một tập lệnh hoặc ứng dụng để tự động hóa quá trình tách bảng cho nhiều tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

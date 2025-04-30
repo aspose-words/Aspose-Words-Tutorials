@@ -1,14 +1,16 @@
 ---
-title: Belgelerde Dijital İmzalar
-linktitle: Belgelerde Dijital İmzalar
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın
-weight: 13
-url: /tr/java/document-security/digital-signatures-in-documents/
+"description": "Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın"
+"linktitle": "Belgelerde Dijital İmzalar"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerde Dijital İmzalar"
+"url": "/tr/java/document-security/digital-signatures-in-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerde Dijital İmzalar
@@ -21,13 +23,13 @@ Giderek dijitalleşen dünyamızda, güvenli ve doğrulanabilir belge imzalama i
 
 Dijital imza eklemenin inceliklerine girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Geliştirme Kiti (JDK): Makinenizde JDK'nın yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-2.  Java için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/words/java/).
+2. Java için Aspose.Words: Aspose.Words kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [yayın sayfası](https://releases.aspose.com/words/java/).
 
 3. Kod Düzenleyici: Java kodunuzu yazmak için istediğiniz herhangi bir kod düzenleyiciyi veya IDE'yi (örneğin IntelliJ IDEA, Eclipse veya NetBeans) kullanın.
 
-4.  Dijital Sertifika: Belgeleri imzalamak için PFX formatında bir dijital sertifikaya ihtiyacınız olacak. Eğer yoksa, geçici bir lisans oluşturabilirsiniz[Aspose'nin geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+4. Dijital Sertifika: Belgeleri imzalamak için PFX formatında bir dijital sertifikaya ihtiyacınız olacak. Eğer yoksa, geçici bir lisans oluşturabilirsiniz [Aspose'nin geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
 5. Temel Java Bilgisi: Java programlamaya aşina olmanız, üzerinde çalışacağımız kod parçacıklarını anlamanıza yardımcı olacaktır.
 
@@ -54,12 +56,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
--  Yeni bir örnek oluşturuyoruz`Document` Word belgemizi temsil eden nesne.
--  The`DocumentBuilder` belgelerimizi kolayca oluşturmamıza ve düzenlememize yardımcı olan güçlü bir araçtır.
+- Yeni bir örnek oluşturuyoruz `Document` Word belgemizi temsil eden nesne.
+- The `DocumentBuilder` belgelerimizi kolayca oluşturmamıza ve düzenlememize yardımcı olan güçlü bir araçtır.
 
 ## Adım 2: İmza Satırı Seçeneklerini Yapılandırın
 
-Sonra, imza satırımız için seçenekleri ayarlayacağız. Burada kimin imzalayacağını, ünvanını ve diğer ilgili ayrıntıları tanımlayacaksınız.
+Ardından, imza satırımız için seçenekleri ayarlayacağız. Burada kimin imzalayacağını, ünvanını ve diğer ilgili ayrıntıları tanımlayacaksınız.
 
 ```java
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
@@ -74,7 +76,7 @@ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
 }
 ```
  
--  Burada, bir örnek oluşturuyoruz`SignatureLineOptions` ve imzalayanın adı, ünvanı, e-postası ve talimatları gibi çeşitli parametreleri ayarlayın. Bu özelleştirme imza satırının açık ve bilgilendirici olmasını sağlar.
+- Burada, bir örnek oluşturuyoruz `SignatureLineOptions` ve imzalayanın adı, ünvanı, e-postası ve talimatları gibi çeşitli parametreleri ayarlayın. Bu özelleştirme imza satırının açık ve bilgilendirici olmasını sağlar.
 
 ## Adım 3: İmza Satırını Ekle
 
@@ -85,8 +87,8 @@ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).
 signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
 ```
  
--  Biz kullanıyoruz`insertSignatureLine` yöntemi`DocumentBuilder` belgemize imza satırını eklemek için.`getSignatureLine()` metodu, daha sonra üzerinde değişiklik yapabileceğimiz oluşturulan imza satırını geri getirir.
-- Ayrıca imza satırı için imza sağlayıcısını tanımlamaya yardımcı olan benzersiz bir sağlayıcı kimliği belirledik.
+- Biz kullanıyoruz `insertSignatureLine` yöntemi `DocumentBuilder` belgemize imza satırını eklemek için. `getSignatureLine()` metodu, daha sonra üzerinde değişiklik yapabileceğimiz oluşturulan imza satırını geri getirir.
+- Ayrıca imza satırı için benzersiz bir sağlayıcı kimliği belirledik; bu, imza sağlayıcısını tanımlamaya yardımcı oluyor.
 
 ## Adım 4: Belgeyi Kaydedin
 
@@ -96,7 +98,7 @@ Belgeyi imzalamadan önce istediğimiz yere kaydedelim.
 doc.save(getArtifactsDir() + "SignDocuments.SignatureLineProviderId.docx");
 ```
  
--  The`save` yöntem, eklenen imza satırıyla belgeyi kaydetmek için kullanılır. Değiştirdiğinizden emin olun`getArtifactsDir()` Belgenizi kaydetmek istediğiniz gerçek yol ile.
+- The `save` yöntem, eklenen imza satırıyla belgeyi kaydetmek için kullanılır. Değiştirdiğinizden emin olun `getArtifactsDir()` Belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 5: İmza Seçeneklerini Yapılandırın
 
@@ -112,7 +114,7 @@ SignOptions signOptions = new SignOptions();
 }
 ```
  
--  Bir örnek oluşturuyoruz`SignOptions` ve imza satırı kimliği, sağlayıcı kimliği, yorumlar ve geçerli imzalama zamanıyla yapılandırın. Bu adım, imzanın daha önce oluşturduğumuz imza satırıyla doğru şekilde ilişkilendirildiğinden emin olmak için çok önemlidir.
+- Bir örnek oluşturuyoruz `SignOptions` ve imza satırı kimliği, sağlayıcı kimliği, yorumlar ve geçerli imzalama zamanıyla yapılandırın. Bu adım, imzanın daha önce oluşturduğumuz imza satırıyla doğru şekilde ilişkilendirildiğinden emin olmak için çok önemlidir.
 
 ## Adım 6: Bir Sertifika Sahibi Oluşturun
 
@@ -122,7 +124,7 @@ Belgeyi imzalamak için PFX dosyamızı kullanarak bir sertifika sahibi oluştur
 CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
 ```
  
--  The`CertificateHolder.create`method PFX dosyanızın yolunu ve şifresini alır. Bu nesne imzalama sürecini doğrulamak için kullanılacaktır.
+- The `CertificateHolder.create` method PFX dosyanızın yolunu ve şifresini alır. Bu nesne imzalama sürecini doğrulamak için kullanılacaktır.
 
 ## Adım 7: Belgeyi İmzalayın
 
@@ -133,7 +135,7 @@ DigitalSignatureUtil.sign(getArtifactsDir() + "SignDocuments.SignatureLineProvid
     getArtifactsDir() + "SignDocuments.CreateNewSignatureLineAndSetProviderId.docx", certHolder, signOptions);
 ```
  
--  The`DigitalSignatureUtil.sign` yöntem orijinal belge yolunu, imzalanmış belgenin yolunu, sertifika sahibini ve imzalama seçeneklerini alır. Bu yöntem dijital imzayı belgenize uygular.
+- The `DigitalSignatureUtil.sign` yöntem orijinal belge yolunu, imzalanmış belgenin yolunu, sertifika sahibini ve imzalama seçeneklerini alır. Bu yöntem dijital imzayı belgenize uygular.
 
 ## Çözüm
 
@@ -153,11 +155,16 @@ Evet, kendinden imzalı bir sertifika kullanabilirsiniz, ancak bu sertifika tüm
 ### İmzaladıktan sonra belgem güvende mi?
 Evet, dijital imzalar bir güvenlik katmanı sağlayarak belgenin imzalandıktan sonra değiştirilmediğini garanti altına alır.
 
-### Aspose.Words hakkında daha fazla bilgiyi nereden edinebilirim?
- Keşfedebilirsiniz[Aspose.Words belgeleri](https://reference.aspose.com/words/java/) Daha fazla ayrıntı ve gelişmiş özellikler için.
+### Aspose.Words hakkında daha fazla bilgiyi nereden öğrenebilirim?
+Keşfedebilirsiniz [Aspose.Words belgeleri](https://reference.aspose.com/words/java/) Daha fazla ayrıntı ve gelişmiş özellikler için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Layout na célula
-linktitle: Layout na célula
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como definir o layout na célula usando Aspose.Words para .NET com este guia abrangente. Perfeito para desenvolvedores que buscam personalizar documentos do Word.
-weight: 10
-url: /pt/net/programming-with-shapes/layout-in-cell/
+"description": "Aprenda a definir o layout em uma célula usando o Aspose.Words para .NET com este guia completo. Perfeito para desenvolvedores que desejam personalizar documentos do Word."
+"linktitle": "Layout na célula"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Layout na célula"
+"url": "/pt/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Layout na célula
 
 ## Introdução
 
-Se você sempre quis ajustar o layout das células da sua tabela em documentos do Word programaticamente, você está no lugar certo. Hoje, vamos mergulhar em como definir o layout na célula usando o Aspose.Words para .NET. Vamos percorrer um exemplo prático, dividindo-o passo a passo para que você possa acompanhar com facilidade.
+Se você sempre quis ajustar o layout das células da sua tabela em documentos do Word programaticamente, você está no lugar certo. Hoje, vamos nos aprofundar em como definir o layout em uma célula usando o Aspose.Words para .NET. Apresentaremos um exemplo prático, explicando passo a passo para que você possa acompanhar com facilidade.
 
 ## Pré-requisitos
 
 Antes de começarmos o código, vamos garantir que você tenha tudo o que precisa:
 
-1.  Aspose.Words para .NET: Certifique-se de ter a biblioteca Aspose.Words para .NET instalada. Se não tiver, você pode[baixe aqui](https://releases.aspose.com/words/net/).
-2. Ambiente de desenvolvimento: você precisará de um ambiente de desenvolvimento configurado com .NET. O Visual Studio é uma ótima escolha se você estiver procurando recomendações.
+1. Aspose.Words para .NET: Certifique-se de ter a biblioteca Aspose.Words para .NET instalada. Caso não tenha, você pode [baixe aqui](https://releases.aspose.com/words/net/).
+2. Ambiente de desenvolvimento: você precisará de um ambiente de desenvolvimento configurado com .NET. O Visual Studio é uma ótima opção se você estiver procurando por recomendações.
 3. Conhecimento básico de C#: embora eu explique cada etapa, um conhecimento básico de C# ajudará você a acompanhar mais facilmente.
-4.  Diretório de documentos: prepare um caminho de diretório onde você salvará seus documentos. Vamos nos referir a isso como`YOUR DOCUMENT DIRECTORY`.
+4. Diretório de Documentos: Prepare um caminho de diretório onde você salvará seus documentos. Chamaremos isso de `YOUR DOCUMENT DIRECTORY`.
 
 ## Importar namespaces
 
@@ -40,9 +42,9 @@ using Aspose.Words.Tables;
 
 Vamos dividir o processo em etapas gerenciáveis.
 
-## Etapa 1: Crie um novo documento
+## Etapa 1: Criar um novo documento
 
- Primeiro, criaremos um novo documento do Word e inicializaremos um`DocumentBuilder` objeto para nos ajudar a construir nosso conteúdo.
+Primeiro, criaremos um novo documento do Word e inicializaremos um `DocumentBuilder` objeto para nos ajudar a construir nosso conteúdo.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,9 +62,9 @@ builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
 ```
 
-## Etapa 3: Insira células e preencha com conteúdo
+## Etapa 3: inserir células e preencher com conteúdo
 
-Em seguida, fazemos um loop para inserir células na tabela. Para cada 7 células, encerraremos a linha para criar uma nova.
+Em seguida, fazemos um loop para inserir células na tabela. A cada 7 células, encerramos a linha para criar uma nova.
 
 ```csharp
 for (int i = 0; i < 31; i++)
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Etapa 4: adicione uma forma de marca d'água
 
- Agora, vamos adicionar uma marca d'água ao nosso documento. Vamos criar uma`Shape` objeto e definir suas propriedades.
+Agora, vamos adicionar uma marca d'água ao nosso documento. Vamos criar uma `Shape` objeto e definir suas propriedades.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -105,7 +107,7 @@ watermark.Name = $"WaterMark_{Guid.NewGuid()}";
 watermark.WrapType = WrapType.None;
 ```
 
-## Etapa 6: Insira a marca d'água no documento
+## Etapa 6: inserir marca d'água no documento
 
 Encontraremos a última execução no documento e inseriremos a marca d'água nessa posição.
 
@@ -133,27 +135,32 @@ doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
 
 ## Conclusão
 
-E aí está! Você criou com sucesso um documento do Word com um layout de tabela personalizado e adicionou uma marca d'água usando o Aspose.Words para .NET. Este tutorial teve como objetivo fornecer um guia claro e passo a passo para ajudar você a entender cada parte do processo. Com essas habilidades, agora você pode criar documentos do Word mais sofisticados e personalizados programaticamente.
+pronto! Você criou com sucesso um documento do Word com um layout de tabela personalizado e adicionou uma marca d'água usando o Aspose.Words para .NET. Este tutorial teve como objetivo fornecer um guia passo a passo claro para ajudar você a entender cada etapa do processo. Com essas habilidades, agora você pode criar documentos do Word mais sofisticados e personalizados programaticamente.
 
 ## Perguntas frequentes
 
 ### Posso usar uma fonte diferente para o texto da marca d'água?
- Sim, você pode alterar a fonte definindo o`watermark.TextPath.FontFamily` propriedade para a fonte desejada.
+Sim, você pode alterar a fonte definindo o `watermark.TextPath.FontFamily` propriedade para a fonte desejada.
 
 ### Como ajusto a posição da marca d'água?
- Você pode modificar o`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , e`VerticalAlignment` propriedades para ajustar a posição da marca d'água.
+Você pode modificar o `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`, e `VerticalAlignment` propriedades para ajustar a posição da marca d'água.
 
 ### É possível usar uma imagem em vez de texto para a marca d'água?
- Absolutamente! Você pode criar um`Shape` com o tipo`ShapeType.Image` e definir sua imagem usando o`ImageData.SetImage` método.
+Com certeza! Você pode criar um `Shape` com o tipo `ShapeType.Image` e definir sua imagem usando o `ImageData.SetImage` método.
 
 ### Posso criar tabelas com alturas de linha variadas?
-Sim, você pode definir alturas diferentes para cada linha alterando o`RowFormat.Height` propriedade antes de inserir células nessa linha.
+Sim, você pode definir alturas diferentes para cada linha alterando o `RowFormat.Height` propriedade antes de inserir células nessa linha.
 
 ### Como faço para remover uma marca d'água do documento?
- Você pode remover a marca d'água localizando-a na coleção de formas do documento e chamando o método`Remove` método.
+Você pode remover a marca d'água localizando-a na coleção de formas do documento e chamando o `Remove` método.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

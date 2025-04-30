@@ -1,33 +1,35 @@
 ---
-title: PDF ドキュメントのカスタム プロパティをエクスポートする
-linktitle: PDF ドキュメントのカスタム プロパティをエクスポートする
-second_title: Aspose.Words ドキュメント処理 API
-description: 詳細なステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して PDF ドキュメントのカスタム プロパティをエクスポートする方法を学習します。
-weight: 10
-url: /ja/net/programming-with-pdfsaveoptions/custom-properties-export/
+"description": "詳細なステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して PDF ドキュメントのカスタム プロパティをエクスポートする方法を学びます。"
+"linktitle": "PDFドキュメントのカスタムプロパティをエクスポートする"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "PDFドキュメントのカスタムプロパティをエクスポートする"
+"url": "/ja/net/programming-with-pdfsaveoptions/custom-properties-export/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF ドキュメントのカスタム プロパティをエクスポートする
+# PDFドキュメントのカスタムプロパティをエクスポートする
 
 ## 導入
 
-PDF ドキュメントにカスタム プロパティをエクスポートすると、さまざまなビジネス ニーズに非常に役立ちます。検索性を高めるためにメタデータを管理する場合でも、ドキュメント内に重要な情報を直接埋め込む場合でも、Aspose.Words for .NET を使用するとプロセスがシームレスになります。このチュートリアルでは、Word ドキュメントを作成し、カスタム プロパティを追加し、これらのプロパティをそのままにして PDF にエクスポートする方法について説明します。
+PDFドキュメントのカスタムプロパティのエクスポートは、様々なビジネスニーズに非常に役立ちます。検索性を高めるためにメタデータを管理する場合でも、重要な情報をドキュメント内に直接埋め込む場合でも、Aspose.Words for .NET を使えばシームレスに処理できます。このチュートリアルでは、Wordドキュメントを作成し、カスタムプロパティを追加し、プロパティを保持したままPDFにエクスポートする手順を説明します。
 
 ## 前提条件
 
 コードに進む前に、次のものを用意してください。
 
--  Aspose.Words for .NETがインストールされています。まだインストールしていない場合はダウンロードできます。[ここ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET がインストールされていること。まだインストールしていない場合はダウンロードできます。 [ここ](https://releases。aspose.com/words/net/).
 - Visual Studio のような開発環境。
 - C# プログラミングの基礎知識。
 
 ## 名前空間のインポート
 
-まず、プロジェクトに必要な名前空間をインポートする必要があります。これらの名前空間には、Word 文書を操作して PDF としてエクスポートするために必要なクラスとメソッドが含まれています。
+まず、プロジェクトに必要な名前空間をインポートする必要があります。これらの名前空間には、Word文書を操作したりPDFとしてエクスポートしたりするために必要なクラスとメソッドが含まれています。
 
 ```csharp
 using Aspose.Words;
@@ -38,17 +40,17 @@ using Aspose.Words.Saving;
 
 ## ステップ1: ドキュメントを初期化する
 
-まず、新しいドキュメント オブジェクトを作成する必要があります。このオブジェクトは、カスタム プロパティを追加して PDF にエクスポートするための基盤として機能します。
+まず、新しいドキュメントオブジェクトを作成する必要があります。このオブジェクトは、カスタムプロパティの追加やPDFへのエクスポートの基盤として機能します。
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// ドキュメント ディレクトリへのパス。
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
 ## ステップ2: カスタムプロパティを追加する
 
-次に、ドキュメントにカスタム プロパティを追加します。これらのプロパティには、会社名、作成者、その他の関連情報などのメタデータを含めることができます。
+次に、ドキュメントにカスタムプロパティを追加します。これらのプロパティには、会社名、著者、その他の関連情報などのメタデータを含めることができます。
 
 ```csharp
 doc.CustomDocumentProperties.Add("Company", "Aspose");
@@ -56,7 +58,7 @@ doc.CustomDocumentProperties.Add("Company", "Aspose");
 
 ## ステップ3: PDF保存オプションを設定する
 
-次に、PDF保存オプションを設定して、ドキュメントをエクスポートするときにカスタムプロパティが含まれるようにします。`PdfSaveOptions`クラスは、ドキュメントを PDF として保存する方法を制御するためのさまざまな設定を提供します。
+次に、PDF保存オプションを設定して、ドキュメントをエクスポートするときにカスタムプロパティが含まれるようにします。 `PdfSaveOptions` クラスは、ドキュメントを PDF として保存する方法を制御するためのさまざまな設定を提供します。
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -67,7 +69,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## ステップ4: ドキュメントをPDFとして保存する
 
-最後に、指定されたディレクトリに文書をPDFとして保存します。`Save`この方法は、前のすべての手順を組み合わせて、カスタム プロパティが含まれた PDF を生成します。
+最後に、文書をPDFとして指定したディレクトリに保存します。 `Save` この方法は、前のすべての手順を組み合わせて、カスタム プロパティが含まれた PDF を生成します。
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveOptions);
@@ -75,28 +77,33 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.CustomPropertiesExport.pdf", saveO
 
 ## 結論
 
-Aspose.Words for .NET を使用して PDF ドキュメントのカスタム プロパティをエクスポートするのは簡単なプロセスであり、ドキュメント管理機能を大幅に強化できます。これらの手順に従うことで、重要なメタデータが保持され、アクセス可能になり、デジタル ドキュメントの効率と整理が向上します。
+Aspose.Words for .NET を使用してPDFドキュメントのカスタムプロパティをエクスポートするのは非常に簡単なプロセスで、ドキュメント管理機能を大幅に強化できます。これらの手順に従うことで、重要なメタデータが確実に保持され、アクセス可能になり、デジタルドキュメントの効率と整理性が向上します。
 
 ## よくある質問
 
 ### PDF ドキュメントのカスタム プロパティとは何ですか?
 カスタム プロパティはドキュメントに追加されるメタデータであり、作成者、会社名、またはドキュメント内に埋め込む必要があるその他の関連データなどの情報を含めることができます。
 
-### カスタム プロパティをエクスポートするために Aspose.Words for .NET を使用する必要があるのはなぜですか?
-Aspose.Words for .NET は、Word 文書を操作して PDF としてエクスポートするための強力で使いやすい API を提供し、カスタム プロパティが保持され、アクセス可能であることを保証します。
+### カスタム プロパティをエクスポートするのに Aspose.Words for .NET を使用する必要があるのはなぜですか?
+Aspose.Words for .NET は、Word 文書を操作して PDF としてエクスポートするための強力で使いやすい API を提供し、カスタム プロパティが保持され、アクセス可能になります。
 
 ### ドキュメントに複数のカスタム プロパティを追加できますか?
-はい、ドキュメントに複数のカスタムプロパティを追加するには、`Add`含めるプロパティごとにメソッドを使用します。
+はい、ドキュメントに複数のカスタムプロパティを追加するには、 `Add` 含めるプロパティごとにメソッドを使用します。
 
-### Aspose.Words for .NET を使用してエクスポートできる他の形式は何ですか?
+### Aspose.Words for .NET を使用して他にどのような形式にエクスポートできますか?
 Aspose.Words for .NET は、DOCX、HTML、EPUB など、さまざまな形式へのエクスポートをサポートしています。
 
 ### 問題が発生した場合、どこでサポートを受けることができますか?
-サポートについては、[Aspose.Words サポート フォーラム](https://forum.aspose.com/c/words/8)援助をお願いします。
+サポートについては、 [Aspose.Words サポートフォーラム](https://forum.aspose.com/c/words/8) 援助をお願いします。
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-styles-and-themes/insert-style-separator/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Document Style Separator in Word
@@ -146,9 +149,13 @@ Ensure the file path is correct and you have write permissions to the specified 
 ### Where can I get support for Aspose.Words?
 You can find support and ask questions on the [Aspose forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

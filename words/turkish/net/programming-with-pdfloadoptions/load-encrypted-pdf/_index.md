@@ -1,14 +1,16 @@
 ---
-title: Şifrelenmiş PDF'yi Yükle
-linktitle: Şifrelenmiş PDF'yi Yükle
-second_title: Aspose.Words Belge İşleme API'si
-description: Adım adım eğitimimiz ile Aspose.Words for .NET kullanarak şifrelenmiş PDF'leri nasıl yükleyeceğinizi öğrenin. PDF şifreleme ve şifre çözmede kısa sürede ustalaşın.
-weight: 10
-url: /tr/net/programming-with-pdfloadoptions/load-encrypted-pdf/
+"description": "Adım adım eğitimimiz ile Aspose.Words for .NET kullanarak şifrelenmiş PDF'leri nasıl yükleyeceğinizi öğrenin. PDF şifreleme ve şifre çözmede kısa sürede ustalaşın."
+"linktitle": "Şifrelenmiş PDF'yi Yükle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Şifrelenmiş PDF'yi Yükle"
+"url": "/tr/net/programming-with-pdfloadoptions/load-encrypted-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şifrelenmiş PDF'yi Yükle
@@ -21,8 +23,8 @@ Merhaba teknoloji meraklıları! Hiç şifreli PDF'lerle çalışmanın ağında
 
 Ayrıntılara dalmadan önce ihtiyacınız olacak birkaç şey var:
 
-1.  Aspose.Words for .NET: Eğer henüz indirmediyseniz, indirin[Burada](https://releases.aspose.com/words/net/).
-2.  Geçerli Bir Lisans: Tüm özelliklere sınırlama olmaksızın erişmek için bir lisans satın almayı düşünün[Burada](https://purchase.aspose.com/buy) Alternatif olarak, bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words for .NET: Eğer henüz indirmediyseniz, indirin [Burada](https://releases.aspose.com/words/net/).
+2. Geçerli Bir Lisans: Tüm özelliklere sınırlama olmaksızın erişmek için bir lisans satın almayı düşünün [Burada](https://purchase.aspose.com/buy)Alternatif olarak, bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 3. Geliştirme Ortamı: Visual Studio gibi herhangi bir .NET uyumlu IDE işinizi görecektir.
 4. Temel C# Bilgisi: C# ve .NET framework'üne aşinalık bir avantajdır.
 
@@ -47,7 +49,7 @@ Her iyi proje sağlam bir temelle başlar. Burada, belgeler dizininize giden yol
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın saklandığı gerçek yol ile. Bu, PDF dosyalarınız için çalışma alanı olacaktır.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` PDF dosyalarınızın saklandığı gerçek yol ile. Bu, PDF dosyalarınız için çalışma alanı olacaktır.
 
 ## Adım 2: PDF Belgesini Yükleme
 
@@ -57,11 +59,11 @@ Sırada şifrelemek istediğiniz PDF belgesini yüklememiz gerekiyor.
 Document doc = new Document(dataDir + "Pdf Document.pdf");
 ```
 
- Bu kod parçacığı yeni bir`Document` Belirlediğiniz PDF ile nesne. Kolay, değil mi?
+Bu kod parçacığı yeni bir `Document` Belirlediğiniz PDF ile nesne. Kolay, değil mi?
 
 ## Adım 3: Şifreleme ile PDF Kaydetme Seçeneklerini Ayarlama
 
- Şimdi PDF'imize biraz güvenlik ekleyelim. Şunu ayarlayacağız:`PdfSaveOptions` şifreleme ayrıntılarını eklemek için.
+Şimdi PDF'imize biraz güvenlik ekleyelim. Şunu ayarlayacağız: `PdfSaveOptions` şifreleme ayrıntılarını eklemek için.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Burada yeni bir tane yaratıyoruz`PdfSaveOptions` nesne ve onu ayarla`EncryptionDetails` Şifre`"Aspose"` PDF'yi şifrelemek için kullanılır.
+Burada yeni bir tane yaratıyoruz `PdfSaveOptions` nesne ve onu ayarla `EncryptionDetails`Şifre `"Aspose"` PDF'yi şifrelemek için kullanılır.
 
 ## Adım 4: Şifrelenmiş PDF'yi Kaydetme
 
@@ -84,28 +86,28 @@ Bu kod PDF'nizi belirtilen yola şifrelenerek kaydeder. PDF'niz artık güvenli 
 
 ## Adım 5: Şifrelenmiş PDF'yi Yükleme
 
- Son olarak şifrelenmiş PDF'yi yükleyelim. Şifreyi kullanarak belirtmemiz gerekecek`PdfLoadOptions`.
+Son olarak şifrelenmiş PDF'yi yükleyelim. Şifreyi kullanarak belirtmemiz gerekecek `PdfLoadOptions`.
 
 ```csharp
 PdfLoadOptions loadOptions = new PdfLoadOptions { Password = "Aspose", LoadFormat = LoadFormat.Pdf };
 doc = new Document(dataDir + "WorkingWithPdfLoadOptions.LoadEncryptedPdf.pdf", loadOptions);
 ```
 
- Burada yeni bir tane yaratıyoruz`PdfLoadOptions` şifreli nesneyi seçin ve şifreli PDF belgesini yükleyin. İşte! Şifreli PDF'niz artık yüklendi ve daha fazla işleme hazır.
+Burada yeni bir tane yaratıyoruz `PdfLoadOptions` şifreyle nesneyi seçin ve şifreli PDF belgesini yükleyin. İşte! Şifreli PDF'niz artık yüklendi ve daha fazla işleme hazır.
 
 ## Çözüm
 
 Ve işte karşınızda! Aspose.Words for .NET ile şifrelenmiş bir PDF yüklemek sadece kolay değil, aynı zamanda çok eğlenceli. Bu adımları izleyerek, PDF şifrelemesini bir profesyonel gibi yönetme yeteneğinin kilidini açtınız. Unutmayın, herhangi bir araçta ustalaşmanın anahtarı pratiktir, bu yüzden denemekten ve keşfetmekten çekinmeyin.
 
- Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa,[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Ve[destek forumu](https://forum.aspose.com/c/words/8) başlamak için harika yerlerdir.
+Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Ve [destek forumu](https://forum.aspose.com/c/words/8) başlamak için harika yerlerdir.
 
 ## SSS
 
 ### Şifreleme için farklı bir şifre kullanabilir miyim?
- Evet, basitçe değiştirin`"Aspose"` İstediğiniz şifreyle`PdfEncryptionDetails` nesne.
+Evet, basitçe değiştirin `"Aspose"` İstediğiniz şifreyle `PdfEncryptionDetails` nesne.
 
 ### PDF'den şifrelemeyi kaldırmak mümkün müdür?
-Evet, PDF'yi herhangi bir ayar yapmadan kaydederek`EncryptionDetails`, şifrelenmemiş bir kopya oluşturabilirsiniz.
+Evet, PDF'yi herhangi bir ayar yapmadan kaydederek `EncryptionDetails`, şifrelenmemiş bir kopya oluşturabilirsiniz.
 
 ### Aspose.Words for .NET'i diğer .NET dilleriyle birlikte kullanabilir miyim?
 Kesinlikle! Aspose.Words for .NET, VB.NET dahil olmak üzere tüm .NET dilleriyle uyumludur.
@@ -114,11 +116,16 @@ Kesinlikle! Aspose.Words for .NET, VB.NET dahil olmak üzere tüm .NET dilleriyl
 Ne yazık ki, doğru şifre olmadan PDF şifresi çözülemez. Şifrelerinizin her zaman güvenli bir kaydını tutun.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Membuat dan Memformat Tanda Air untuk Estetika Dokumen
-linktitle: Membuat dan Memformat Tanda Air untuk Estetika Dokumen
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara membuat dan memformat tanda air dalam dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk menambahkan tanda air teks dan gambar. Tingkatkan estetika dokumen Anda dengan tutorial ini.
-weight: 10
-url: /id/python-net/tables-and-formatting/manage-document-watermarks/
+"description": "Pelajari cara membuat dan memformat tanda air dalam dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk menambahkan tanda air teks dan gambar. Tingkatkan estetika dokumen Anda dengan tutorial ini."
+"linktitle": "Membuat dan Memformat Tanda Air untuk Estetika Dokumen"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Membuat dan Memformat Tanda Air untuk Estetika Dokumen"
+"url": "/id/python-net/tables-and-formatting/manage-document-watermarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat dan Memformat Tanda Air untuk Estetika Dokumen
@@ -22,17 +24,17 @@ Tanda air adalah elemen desain yang ditempatkan di latar belakang dokumen untuk 
 
 ## Memulai dengan Aspose.Words untuk Python
 
- Untuk memulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari Rilis Aspose:[Unduh Aspose.Words untuk Python](https://releases.aspose.com/words/python/).
+Untuk memulai, pastikan Anda telah menginstal Aspose.Words untuk Python. Anda dapat mengunduhnya dari Rilis Aspose: [Unduh Aspose.Words untuk Python](https://releases.aspose.com/words/python/).
 
 Setelah instalasi, Anda dapat mengimpor modul yang diperlukan dan menyiapkan objek dokumen.
 
 ```python
 import aspose.words as aw
 
-# Load or create a document
+# Memuat atau membuat dokumen
 doc = aw.Document()
 
-# Your code continues here
+# Kode Anda berlanjut di sini
 ```
 
 ## Menambahkan Tanda Air Teks
@@ -44,13 +46,13 @@ Untuk menambahkan tanda air teks, ikuti langkah-langkah berikut:
 3. Tambahkan tanda air ke dokumen.
 
 ```python
-# Create a watermark object
+# Membuat objek tanda air
 watermark = aw.drawing.Watermark()
 
-# Set text for the watermark
+# Mengatur teks untuk tanda air
 watermark.text = "Confidential"
 
-# Add the watermark to the document
+# Tambahkan tanda air ke dokumen
 doc.watermark = watermark
 ```
 
@@ -59,7 +61,7 @@ doc.watermark = watermark
 Anda dapat menyesuaikan tampilan tanda air teks dengan menyesuaikan berbagai properti:
 
 ```python
-# Customize text watermark appearance
+# Sesuaikan tampilan tanda air teks
 watermark.font.size = 36
 watermark.font.bold = True
 watermark.color = aw.drawing.Color.GRAY
@@ -74,14 +76,14 @@ Menambahkan tanda air gambar melibatkan proses yang serupa:
 3. Tambahkan tanda air gambar ke dokumen.
 
 ```python
-# Load the image for the watermark
+# Muat gambar untuk tanda air
 image_path = "path/to/watermark.png"
 watermark_image = aw.drawing.Image(image_path)
 
-# Create an image watermark object
+# Buat objek tanda air gambar
 image_watermark = aw.drawing.ImageWatermark(watermark_image)
 
-# Add the image watermark to the document
+# Tambahkan tanda air gambar ke dokumen
 doc.watermark = image_watermark
 ```
 
@@ -90,7 +92,7 @@ doc.watermark = image_watermark
 Anda dapat mengontrol ukuran dan posisi tanda air gambar:
 
 ```python
-# Adjust image watermark properties
+# Sesuaikan properti tanda air gambar
 image_watermark.size = aw.drawing.SizeF(200, 100)
 image_watermark.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.CENTER
 image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition.MIDDLE
@@ -101,7 +103,7 @@ image_watermark.relative_vertical_position = aw.drawing.RelativeVerticalPosition
 Jika Anda ingin menerapkan tanda air ke bagian tertentu dokumen, Anda dapat menggunakan pendekatan berikut:
 
 ```python
-# Apply watermark to a specific section
+# Terapkan tanda air ke bagian tertentu
 section = doc.sections[0]
 section.watermark = watermark
 ```
@@ -111,8 +113,8 @@ section.watermark = watermark
 Untuk membuat tanda air transparan, sesuaikan tingkat transparansi:
 
 ```python
-# Create a transparent watermark
-watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
+# Buat tanda air transparan
+watermark.transparency = 0.5  # Rentang: 0 (buram) hingga 1 (sepenuhnya transparan)
 ```
 
 ## Menyimpan Dokumen dengan Tanda Air
@@ -120,7 +122,7 @@ watermark.transparency = 0.5  # Range: 0 (opaque) to 1 (fully transparent)
 Setelah Anda menambahkan tanda air, simpan dokumen dengan tanda air yang diterapkan:
 
 ```python
-# Save the document with watermarks
+# Simpan dokumen dengan tanda air
 output_path = "path/to/output/document_with_watermark.docx"
 doc.save(output_path)
 ```
@@ -133,7 +135,7 @@ Menambahkan tanda air ke dokumen Anda menggunakan Aspose.Words untuk Python adal
 
 ### Bagaimana cara menghapus tanda air dari dokumen?
 
- Untuk menghapus tanda air, atur properti tanda air dokumen ke`None`.
+Untuk menghapus tanda air, atur properti tanda air dokumen ke `None`.
 
 ### Dapatkah saya menerapkan tanda air yang berbeda pada halaman yang berbeda?
 
@@ -151,10 +153,15 @@ Meskipun tanda air tidak dapat sepenuhnya dilindungi, Anda dapat membuatnya lebi
 
 Ya, Aspose.Words untuk Python kompatibel dengan lingkungan Windows dan Linux.
 
- Untuk detail lebih lanjut dan referensi API yang komprehensif, kunjungi dokumentasi Aspose.Words:[Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/)
+Untuk detail lebih lanjut dan referensi API yang komprehensif, kunjungi dokumentasi Aspose.Words: [Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

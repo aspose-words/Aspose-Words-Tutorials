@@ -1,22 +1,24 @@
 ---
-title: 在 Word 中合并和比较文档
-linktitle: 在 Word 中合并和比较文档
-second_title: Aspose.Words Python 文档管理 API
-description: 使用 Aspose.Words for Python 轻松合并和比较 Word 文档。了解如何操作文档、突出显示差异以及自动执行任务。
-weight: 10
-url: /zh/python-net/document-combining-and-comparison/merge-compare-documents/
+"description": "使用 Aspose.Words for Python 轻松合并和比较 Word 文档。学习如何操作文档、突出显示差异以及自动执行任务。"
+"linktitle": "在 Word 中合并和比较文档"
+"second_title": "Aspose.Words Python文档管理API"
+"title": "在 Word 中合并和比较文档"
+"url": "/zh/python-net/document-combining-and-comparison/merge-compare-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Word 中合并和比较文档
 
 
-## Aspose.Words for Python 简介
+## Aspose.Words for Python简介
 
-Aspose.Words 是一个多功能库，允许您以编程方式创建、编辑和操作 Word 文档。它提供各种功能，包括文档合并和比较，可显著简化文档管理任务。
+Aspose.Words 是一个多功能库，允许您以编程方式创建、编辑和操作 Word 文档。它提供了丰富的功能，包括文档合并和比较，可以显著简化文档管理任务。
 
 ## 安装和设置 Aspose.Words
 
@@ -61,7 +63,7 @@ doc1.append_document(doc2, DocumentImportFormatMode.KEEP_SOURCE_FORMATTING)
 doc1.save("merged_document.docx")
 ```
 
-## 载入源文件
+## 加载源文档
 
 加载您想要比较的文档：
 
@@ -88,7 +90,7 @@ comparison.save("comparison_result.docx")
 
 ## 结论
 
-在本教程中，我们探索了如何利用 Aspose.Words for Python 无缝合并和比较 Word 文档。这个强大的库为高效的文档管理、协作和自动化提供了机会。
+在本教程中，我们探索了如何利用 Aspose.Words for Python 无缝合并和比较 Word 文档。这个强大的库为高效的文档管理、协作和自动化开辟了新的可能性。
 
 ## 常见问题解答
 
@@ -105,18 +107,23 @@ pip install aspose-words
 
 ### Aspose.Words 适合自动文档生成吗？
 
-当然！Aspose.Words 可以实现自动文档生成和操作，是各种应用程序的绝佳选择。
+当然！Aspose.Words 支持自动文档生成和操作，是各种应用程序的绝佳选择。
 
-### 我可以使用该库合并两个以上的文档吗？
+### 我可以使用此库合并两个以上的文档吗？
 
-是的，您可以使用`append_document`方法，如教程所示。
+是的，您可以使用 `append_document` 方法，如教程所示。
 
 ### 我可以在哪里访问图书馆和资源？
 
-访问图书馆并了解更多信息[这里](https://releases.aspose.com/words/python/).
+访问图书馆并了解更多信息 [这里](https://releases。aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

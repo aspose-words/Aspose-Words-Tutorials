@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/split-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Table
@@ -127,9 +130,13 @@ Yes, Aspose.Words for .NET supports operations on nested tables as well.
 ### Can I automate this process for multiple documents?
 Absolutely! You can create a script or application to automate the table splitting process for multiple documents.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Farklı Sayfa Düzeni
-linktitle: Farklı Sayfa Düzeni
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerini birleştirirken farklı sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Adım adım kılavuz dahildir.
-weight: 10
-url: /tr/net/join-and-append-documents/different-page-setup/
+"description": "Aspose.Words for .NET kullanarak Word belgelerini birleştirirken farklı sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Adım adım kılavuz dahildir."
+"linktitle": "Farklı Sayfa Düzeni"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Farklı Sayfa Düzeni"
+"url": "/tr/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Farklı Sayfa Düzeni
@@ -21,8 +23,8 @@ Merhaba! Aspose.Words for .NET ile belge düzenlemenin büyüleyici dünyasına 
 
 İşin içine girmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
-2. .NET Framework: .NET için Aspose.Words'ü destekleyen herhangi bir sürüm.
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
+2. .NET Framework: Aspose.Words for .NET'i destekleyen herhangi bir sürüm.
 3. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE.
 4. Temel C# Bilgisi: Sadece söz dizimi ve yapıyı anlamak için gereken temel bilgiler.
 
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## Adım 2: Belgeleri Yükleyin
 
- Şimdi, birleştirmek istediğimiz belgeleri yükleyelim. Bu örnek için iki Word belgesine ihtiyacınız olacak:`Document source.docx` Ve`Northwind traders.docx`Bu dosyaların proje dizininizde olduğundan emin olun.
+Şimdi, birleştirmek istediğimiz belgeleri yükleyelim. Bu örnek için iki Word belgesine ihtiyacınız olacak: `Document source.docx` Ve `Northwind traders.docx`Bu dosyaların proje dizininizde olduğundan emin olun.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -96,9 +98,9 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 ## Adım 5: Paragraf Biçimlendirmesini Ayarlayın
 
-Akıcı bir akış sağlamak için kaynak belgedeki paragraf biçimlendirmesini ayarlamamız gerekiyor.
+Akışın düzgün olmasını sağlamak için kaynak belgedeki paragraf biçimlendirmesini ayarlamamız gerekiyor.
 
- Kaynak belgedeki tüm paragrafları yineleyin ve ayarlayın`KeepWithNext` mülk.
+Kaynak belgedeki tüm paragrafları yineleyin ve ayarlayın `KeepWithNext` mülk.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -125,7 +127,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
 
 ## Çözüm
 
-İşte karşınızda! Aspose.Words for .NET kullanarak farklı sayfa düzenlerine sahip iki Word belgesini birleştirdiniz. Bu güçlü kütüphane, belgeleri programatik olarak yönetmeyi oldukça kolaylaştırır. Karmaşık raporlar oluşturuyor, kitaplar bir araya getiriyor veya çok bölümlü belgeleri yönetiyor olun, Aspose.Words sizin yanınızda.
+Ve işte karşınızda! Aspose.Words for .NET kullanarak farklı sayfa düzenlerine sahip iki Word belgesini birleştirdiniz. Bu güçlü kütüphane, belgeleri programatik olarak yönetmeyi oldukça kolaylaştırır. Karmaşık raporlar oluşturuyor, kitaplar bir araya getiriyor veya çok bölümlü belgeleri yönetiyor olun, Aspose.Words sizin yanınızda.
 
 ## SSS
 
@@ -139,14 +141,19 @@ Sayfa genişliğini, yüksekliğini ve yönünü eşleştirdiğimiz gibi kenar b
 Evet, Aspose.Words for .NET, .NET Core ile tam uyumludur.
 
 ### Her iki belgenin stillerini koruyabilir miyim?
- Evet,`ImportFormatMode.KeepSourceFormatting` seçeneği kaynak belgedeki stillerin korunmasını sağlar.
+Evet, `ImportFormatMode.KeepSourceFormatting` seçeneği kaynak belgedeki stillerin korunmasını sağlar.
 
 ### Aspose.Words ile ilgili daha fazla yardımı nereden alabilirim?
- Şuna bir göz atın:[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
+Şuna bir göz atın: [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) veya ziyaret edin [destek forumu](https://forum.aspose.com/c/words/8) Daha fazla yardım için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

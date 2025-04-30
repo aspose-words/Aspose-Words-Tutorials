@@ -1,14 +1,16 @@
 ---
-title: Ignoruj pola tekstowe
-linktitle: Ignoruj pola tekstowe
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Scalaj dokumenty Word za pomocą Aspose.Words dla .NET, zapewniając zachowanie formatowania pola tekstowego. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie przetwarzać dokumenty.
-weight: 10
-url: /pl/net/join-and-append-documents/ignore-text-boxes/
+"description": "Scalaj dokumenty Word za pomocą Aspose.Words dla .NET, zapewniając zachowanie formatowania pola tekstowego. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie przetwarzać dokumenty."
+"linktitle": "Ignoruj pola tekstowe"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ignoruj pola tekstowe"
+"url": "/pl/net/join-and-append-documents/ignore-text-boxes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignoruj pola tekstowe
@@ -21,7 +23,7 @@ Witamy w tym szczegółowym samouczku dotyczącym korzystania z Aspose.Words dla
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne .NET: Visual Studio lub inne preferowane środowisko IDE.
 3. Podstawowa wiedza z zakresu języka C#: Zrozumienie podstawowych koncepcji programowania w języku C#.
 
@@ -52,7 +54,7 @@ Następnie określ katalog, w którym znajdują się dokumenty źródłowe i doc
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 3: Załaduj dokumenty
 
@@ -65,7 +67,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Krok 4: Skonfiguruj opcje importu
 
- Aby zapewnić zachowanie formatowania pól tekstowych, ustaw`IgnoreTextBoxes` opcja do`false`.
+Aby zapewnić zachowanie formatowania pól tekstowych, ustaw `IgnoreTextBoxes` opcja do `false`.
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBoxes = false };
@@ -73,7 +75,7 @@ ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreTextBo
 
 ## Krok 5: Zainicjuj importer węzłów
 
- Zainicjuj`NodeImporter` aby zaimportować węzły z dokumentu źródłowego do dokumentu docelowego.
+Zainicjuj `NodeImporter` aby zaimportować węzły z dokumentu źródłowego do dokumentu docelowego.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
@@ -114,23 +116,28 @@ Udało Ci się połączyć dwa dokumenty Word za pomocą Aspose.Words dla .NET, 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Words dla .NET?
- Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca tworzenie, edytowanie i konwertowanie dokumentów Word w aplikacjach .NET.[Dowiedz się więcej](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca tworzenie, edytowanie i konwertowanie dokumentów Word w aplikacjach .NET. [Dowiedz się więcej](https://reference.aspose.com/words/net/).
 
 ### Czy mogę wypróbować Aspose.Words dla .NET przed zakupem?
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Words dla .NET?
-Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
- Pełną dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
 
-### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
- Aby uzyskać pomoc, odwiedź fora Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Words dla .NET?
+Aby uzyskać pomoc, odwiedź fora Aspose [Tutaj](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

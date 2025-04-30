@@ -1,14 +1,16 @@
 ---
-title: การตั้งค่าหน้าที่แตกต่างกัน
-linktitle: การตั้งค่าหน้าที่แตกต่างกัน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการกำหนดค่าหน้าต่างๆ เมื่อรวมเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
-weight: 10
-url: /th/net/join-and-append-documents/different-page-setup/
+"description": "เรียนรู้วิธีการตั้งค่าคอนฟิกูเรชันหน้าต่างๆ เมื่อรวมเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย"
+"linktitle": "การตั้งค่าหน้าที่แตกต่างกัน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การตั้งค่าหน้าที่แตกต่างกัน"
+"url": "/th/net/join-and-append-documents/different-page-setup/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตั้งค่าหน้าที่แตกต่างกัน
@@ -21,7 +23,7 @@ url: /th/net/join-and-append-documents/different-page-setup/
 
 ก่อนที่เราจะลงมือทำ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. .NET Framework: เวอร์ชันใดก็ตามที่รองรับ Aspose.Words สำหรับ .NET
 3. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ .NET
 4. ความรู้พื้นฐานเกี่ยวกับ C#: เพียงพื้นฐานในการทำความเข้าใจไวยากรณ์และโครงสร้าง
@@ -54,7 +56,7 @@ Install-Package Aspose.Words
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร
 
- ตอนนี้เรามาโหลดเอกสารที่ต้องการรวมเข้าด้วยกัน สำหรับตัวอย่างนี้ คุณจะต้องมีเอกสาร Word สองฉบับ:`Document source.docx` และ`Northwind traders.docx`ตรวจสอบให้แน่ใจว่าไฟล์เหล่านี้อยู่ในไดเร็กทอรีโครงการของคุณ
+ตอนนี้เรามาโหลดเอกสารที่ต้องการรวมเข้าด้วยกัน สำหรับตัวอย่างนี้ คุณจะต้องมีเอกสาร Word สองฉบับ: `Document source.docx` และ `Northwind traders.docx`ตรวจสอบให้แน่ใจว่าไฟล์เหล่านี้อยู่ในไดเร็กทอรีโครงการของคุณ
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -98,7 +100,7 @@ srcDoc.FirstSection.PageSetup.Orientation = dstDoc.LastSection.PageSetup.Orienta
 
 เพื่อให้แน่ใจว่าการไหลจะราบรื่น เราจำเป็นต้องปรับการจัดรูปแบบย่อหน้าในเอกสารต้นฉบับ
 
- ทำซ้ำผ่านย่อหน้าทั้งหมดในเอกสารต้นฉบับและตั้งค่า`KeepWithNext` คุณสมบัติ.
+ทำซ้ำผ่านย่อหน้าทั้งหมดในเอกสารต้นฉบับและตั้งค่า `KeepWithNext` คุณสมบัติ.
 
 ```csharp
 foreach (Paragraph para in srcDoc.GetChildNodes(NodeType.Paragraph, true))
@@ -139,14 +141,19 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.DifferentPageSetup.docx");
 ใช่ Aspose.Words สำหรับ .NET สามารถเข้ากันได้อย่างสมบูรณ์กับ .NET Core
 
 ### ฉันสามารถรักษาสไตล์จากทั้งสองเอกสารได้ไหม
- ใช่ครับ`ImportFormatMode.KeepSourceFormatting` ตัวเลือกนี้จะช่วยให้แน่ใจว่าสไตล์จากเอกสารต้นฉบับได้รับการรักษาไว้
+ใช่ครับ `ImportFormatMode.KeepSourceFormatting` ตัวเลือกนี้จะช่วยให้แน่ใจว่าสไตล์จากเอกสารต้นฉบับได้รับการรักษาไว้
 
 ### ฉันจะได้รับความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.Words ได้จากที่ไหน
- ตรวจสอบออก[เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือเยี่ยมชมพวกเขา[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อความช่วยเหลือเพิ่มเติม
+ตรวจสอบออก [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/net/) หรือเยี่ยมชมพวกเขา [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อความช่วยเหลือเพิ่มเติม
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

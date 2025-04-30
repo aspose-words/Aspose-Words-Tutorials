@@ -1,45 +1,53 @@
 ---
-title: Δημιουργήστε ένα διάγραμμα γραμμών στο Word χρησιμοποιώντας Aspose.Words για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να δημιουργήσετε ένα διάγραμμα γραμμών σε ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. Σχετικό οδηγό βήμα-βήμα με παραδείγματα κώδικα και εικόνες για εύκολη εφαρμογή.
-keywords: [Aspose.Words for .NET, create line chart, Word document chart, .NET chart example, Word line chart, chart creation in Word, Aspose tutorial, C# Word chart example]
-url: /el/net/working-with-charts/create-chart-using-shape/
+"description": "Μάθετε πώς να δημιουργείτε ένα γράφημα γραμμών σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα και εικόνες για εύκολη εφαρμογή."
+"title": "Δημιουργήστε ένα γράφημα γραμμών στο Word χρησιμοποιώντας το Aspose.Words για .NET"
+"url": "/el/net/working-with-charts/create-chart-using-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε ένα διάγραμμα γραμμών στο Word χρησιμοποιώντας το Aspose.Words  
+# Δημιουργήστε ένα γράφημα γραμμών στο Word χρησιμοποιώντας το Aspose.Words  
 
-Το Aspose.Words για το .NET δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν εικαστικά ελκυστικά και επαγγελματικά έγγραφα με ευκολία. Αυτό το εγχειρίδιο σας οδηγεί στη δημιουργία ενός γραμμικού χάρτη σε ένα έγγραφο Word βήμα προς βήμα χρησιμοποιώντας το Aspose.Words για το .NET. Είτε κατασκευάζετε εκθέσεις, τα dashboard ή τις παρουσιάσεις, η δυνατότητα ενσωμάτωσης δυναμικών χάρτων ενισχύει την επίδραση των εγγράφων σας. Ακολουθήστε το απλό παράδειγμα κώδικα που παρέχεται για να ξεκινήσετε, ολοκληρωμένο με λεπτομερείς εξηγήσεις, εικόνες και συμβουλές για να διασφαλιστεί η ομαλή ενσωμάτωση στο έργο σας.
+Το Aspose.Words για .NET δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν οπτικά ελκυστικά και επαγγελματικά έγγραφα με ευκολία. Αυτό το σεμινάριο σας καθοδηγεί βήμα προς βήμα στη δημιουργία ενός γραφήματος γραμμών σε ένα έγγραφο του Word χρησιμοποιώντας το Aspose.Words για .NET. Είτε δημιουργείτε αναφορές, πίνακες ελέγχου είτε παρουσιάσεις, η δυνατότητα ενσωμάτωσης δυναμικών γραφημάτων ενισχύει την επίδραση των εγγράφων σας. Ακολουθήστε το απλό παράδειγμα κώδικα που παρέχεται για να ξεκινήσετε, μαζί με λεπτομερείς εξηγήσεις, εικόνες και συμβουλές για να διασφαλίσετε την απρόσκοπτη ενσωμάτωση στο έργο σας.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/create-chart-using-shape" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
 
-1. Κατεβάστε Aspose.Words για .NET:  
-   Πάρτε την τελευταία έκδοση από τον επίσημο .["Αποθέστε.Πράξεις" για τη σελίδα λήψης .NET](https://releases.aspose.com/words/net/)\- Δεν ξέρω .  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Οδηγίες εγκατάστασης  
+
+1. Λήψη Aspose.Words για .NET:  
+   Αποκτήστε την τελευταία έκδοση από την επίσημη [Σελίδα λήψης Aspose.Words για .NET](https://releases.aspose.com/words/net/).  
 
 2. Εγκατάσταση μέσω NuGet:  
-   Προσθέστε τη βιβλιοθήκη στο έργο σας χρησιμοποιώντας το NuGet Package Manager. Εκτελέστε την ακόλουθη εντολή στην κονσόλα Διαχειριστής Package:  
+   Προσθέστε τη βιβλιοθήκη στο έργο σας χρησιμοποιώντας το NuGet Package Manager. Εκτελέστε την ακόλουθη εντολή στην Κονσόλα Package Manager:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Να αποκτήσετε άδεια:  
-   * Για αξιολόγηση, ζητήστε [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)\- Δεν ξέρω .  
-   * Αγοράστε πλήρη άδεια από το [Αποθήκη Aspose](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
+3. Αποκτήστε Άδεια:  
+   - Για αξιολόγηση, ζητήστε ένα [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/).  
+   - Αγοράστε μια πλήρη άδεια χρήσης από το [Κατάστημα Aspose](https://purchase.aspose.com/buy).  
 
 
 ## Δείτε επίσης
-[Aspose.Word για έγγραφο .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word για .NET References](https://reference.aspose.com/words/net/)
+[Aspose.Word για τεκμηρίωση .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word για αναφορές .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

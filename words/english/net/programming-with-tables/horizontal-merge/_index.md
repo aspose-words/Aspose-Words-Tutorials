@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/horizontal-merge/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Horizontal Merge
@@ -123,9 +126,13 @@ You can explore the detailed documentation [here](https://reference.aspose.com/w
 ### Where can I get support for Aspose.Words for .NET?
 For any queries or issues, you can visit the Aspose support forum [here](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

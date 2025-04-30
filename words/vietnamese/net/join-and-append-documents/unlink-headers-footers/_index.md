@@ -1,27 +1,29 @@
 ---
-title: Hủy liên kết Header Footer
-linktitle: Hủy liên kết Header Footer
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hủy liên kết header và footer trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để thành thạo thao tác tài liệu.
-weight: 10
-url: /vi/net/join-and-append-documents/unlink-headers-footers/
+"description": "Tìm hiểu cách hủy liên kết header và footer trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để thành thạo thao tác tài liệu."
+"linktitle": "Hủy liên kết Header Footer"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Hủy liên kết Header Footer"
+"url": "/vi/net/join-and-append-documents/unlink-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hủy liên kết Header Footer
 
 ## Giới thiệu
 
-Trong thế giới xử lý tài liệu, việc giữ cho tiêu đề và chân trang nhất quán đôi khi có thể là một thách thức. Cho dù bạn đang hợp nhất tài liệu hay chỉ muốn có các tiêu đề và chân trang khác nhau cho các phần khác nhau, thì việc biết cách hủy liên kết chúng là điều cần thiết. Hôm nay, chúng ta sẽ tìm hiểu cách bạn có thể thực hiện điều này bằng cách sử dụng Aspose.Words cho .NET. Chúng tôi sẽ chia nhỏ từng bước để bạn có thể dễ dàng theo dõi. Sẵn sàng để thành thạo thao tác tài liệu? Hãy bắt đầu thôi!
+Trong thế giới xử lý tài liệu, việc giữ cho phần đầu trang và phần chân trang nhất quán đôi khi có thể là một thách thức. Cho dù bạn đang hợp nhất tài liệu hay chỉ muốn có các phần đầu trang và phần chân trang khác nhau cho các phần khác nhau, thì việc biết cách hủy liên kết chúng là điều cần thiết. Hôm nay, chúng ta sẽ tìm hiểu cách bạn có thể thực hiện điều này bằng cách sử dụng Aspose.Words cho .NET. Chúng tôi sẽ chia nhỏ từng bước để bạn có thể dễ dàng theo dõi. Sẵn sàng để thành thạo thao tác tài liệu? Hãy bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào chi tiết, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework tương thích.
 - IDE: Visual Studio hoặc bất kỳ Môi trường phát triển tích hợp nào khác tương thích với .NET.
 - Hiểu biết cơ bản về C#: Bạn cần có hiểu biết cơ bản về ngôn ngữ lập trình C#.
@@ -41,7 +43,7 @@ Chúng ta hãy chia nhỏ quy trình thành các bước dễ quản lý để g
 Trước tiên, bạn cần thiết lập môi trường dự án của mình. Mở IDE và tạo một dự án .NET mới. Thêm tham chiếu đến thư viện Aspose.Words mà bạn đã tải xuống trước đó.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -63,17 +65,17 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Bước 4: Hủy liên kết Header và Footer
 
- Bước này rất quan trọng. Để hủy liên kết phần đầu trang và phần chân trang của tài liệu nguồn khỏi phần đầu trang và phần chân trang của tài liệu đích, bạn sẽ sử dụng`LinkToPrevious` Phương pháp này đảm bảo rằng phần đầu trang và phần chân trang không được chuyển sang tài liệu được thêm vào.
+Bước này rất quan trọng. Để hủy liên kết phần đầu trang và phần chân trang của tài liệu nguồn khỏi phần đầu trang và phần chân trang của tài liệu đích, bạn sẽ sử dụng `LinkToPrevious` Phương pháp này đảm bảo rằng phần đầu trang và phần chân trang không được chuyển sang tài liệu được thêm vào.
 
 ```csharp
 // Hủy liên kết phần đầu trang và phần chân trang trong tài liệu nguồn để dừng việc này
-//từ việc tiếp tục phần đầu trang và phần chân trang của tài liệu đích.
+// từ việc tiếp tục phần đầu trang và phần chân trang của tài liệu đích.
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
 ```
 
 ## Bước 5: Thêm Tài liệu Nguồn
 
- Sau khi hủy liên kết phần đầu trang và phần chân trang, bạn có thể thêm tài liệu nguồn vào tài liệu đích. Sử dụng`AppendDocument` phương pháp và thiết lập chế độ định dạng nhập khẩu thành`KeepSourceFormatting` để duy trì định dạng gốc của tài liệu nguồn.
+Sau khi hủy liên kết phần đầu trang và phần chân trang, bạn có thể thêm tài liệu nguồn vào tài liệu đích. Sử dụng `AppendDocument` phương pháp và thiết lập chế độ định dạng nhập khẩu thành `KeepSourceFormatting` để duy trì định dạng gốc của tài liệu nguồn.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
@@ -97,20 +99,25 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn đã h�
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word trong các ứng dụng .NET. Nó cho phép các nhà phát triển tạo, sửa đổi, chuyển đổi và in tài liệu theo chương trình.
 
 ### Tôi có thể hủy liên kết phần đầu trang và phần chân trang chỉ cho các phần cụ thể không?  
- Có, bạn có thể hủy liên kết tiêu đề và chân trang cho các phần cụ thể bằng cách truy cập`HeadersFooters` thuộc tính của phần mong muốn và sử dụng`LinkToPrevious` phương pháp.
+Có, bạn có thể hủy liên kết phần đầu trang và phần chân trang cho các phần cụ thể bằng cách truy cập `HeadersFooters` thuộc tính của phần mong muốn và sử dụng `LinkToPrevious` phương pháp.
 
 ### Có thể giữ nguyên định dạng gốc của tài liệu nguồn không?  
- Có, khi thêm tài liệu nguồn, hãy sử dụng`ImportFormatMode.KeepSourceFormatting` tùy chọn giữ nguyên định dạng gốc.
+Có, khi thêm tài liệu nguồn, hãy sử dụng `ImportFormatMode.KeepSourceFormatting` tùy chọn giữ nguyên định dạng gốc.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET với các ngôn ngữ .NET khác ngoài C# không?  
 Hoàn toàn có thể! Aspose.Words cho .NET có thể được sử dụng với bất kỳ ngôn ngữ .NET nào, bao gồm VB.NET và F#.
 
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?  
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/) và hỗ trợ có sẵn trên[Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/)và hỗ trợ có sẵn trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

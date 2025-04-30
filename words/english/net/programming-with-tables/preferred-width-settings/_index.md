@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/preferred-width-settings/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Preferred Width Settings
@@ -136,9 +139,13 @@ Yes, you can apply various styles and formatting to cells regardless of their wi
 ### What happens if the table's total width is less than the sum of all cell widths?
 The table will automatically adjust the widths of cells to fit within the available space, which may cause some cells to shrink.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

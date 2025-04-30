@@ -1,14 +1,16 @@
 ---
-title: Belge Güvenliği
-linktitle: Belge Güvenliği
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java ile belge güvenliğini artırın! Güçlü veri güvenliği için koruma, şifreleme ve dijital imzaları uygulayın.
-weight: 17
-url: /tr/java/document-security/
+"description": "Aspose.Words for Java ile belge güvenliğini artırın! Güçlü veri güvenliği için koruma, şifreleme ve dijital imzaları uygulayın."
+"linktitle": "Belge Güvenliği"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belge Güvenliği"
+"url": "/tr/java/document-security/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Güvenliği
@@ -38,10 +40,14 @@ Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nas
 ### [Belgelerde Dijital İmzalar](./digital-signatures-in-documents/)
 Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın
 ### [Belge Düzenleme ve Veri Koruma](./document-redaction-data-protection/)
-Aspose.Words for Java'yı kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
+Aspose.Words for Java kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

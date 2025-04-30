@@ -1,29 +1,31 @@
 ---
-title: मेटाफ़ाइल्स को Emf या Wmf में बदलें
-linktitle: मेटाफ़ाइल्स को Emf या Wmf में बदलें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words के साथ दस्तावेज़ को HTML में परिवर्तित करते समय मेटाफ़ाइलों को EMF या WMF प्रारूपों में परिवर्तित करने के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/
+"description": ".NET के लिए Aspose.Words के साथ दस्तावेज़ को HTML में परिवर्तित करते समय मेटाफ़ाइलों को EMF या WMF प्रारूपों में परिवर्तित करने के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "मेटाफ़ाइल्स को Emf या Wmf में बदलें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मेटाफ़ाइल्स को Emf या Wmf में बदलें"
+"url": "/hi/net/programming-with-htmlsaveoptions/convert-metafiles-to-emf-or-wmf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मेटाफ़ाइल्स को Emf या Wmf में बदलें
 
 ## परिचय
 
-Aspose.Words for .NET की दुनिया में एक और गहरी जानकारी के लिए आपका स्वागत है। आज, हम एक बढ़िया ट्रिक पर काम कर रहे हैं: अपने Word दस्तावेज़ों में SVG इमेज को EMF या WMF फ़ॉर्मेट में बदलना। यह थोड़ा तकनीकी लग सकता है, लेकिन चिंता न करें। इस ट्यूटोरियल के अंत तक, आप इसमें माहिर हो जाएँगे। चाहे आप एक अनुभवी डेवलपर हों या अभी Aspose.Words for .NET के साथ शुरुआत कर रहे हों, यह गाइड आपको वह सब कुछ बताएगी जो आपको जानना ज़रूरी है, चरण दर चरण।
+Aspose.Words for .NET की दुनिया में एक और गहरी जानकारी के लिए आपका स्वागत है। आज, हम एक बढ़िया ट्रिक पर काम कर रहे हैं: अपने Word दस्तावेज़ों में SVG इमेज को EMF या WMF फ़ॉर्मेट में बदलना। यह थोड़ा तकनीकी लग सकता है, लेकिन चिंता न करें। इस ट्यूटोरियल के अंत तक, आप इसमें माहिर हो जाएँगे। चाहे आप एक अनुभवी डेवलपर हों या Aspose.Words for .NET के साथ अभी-अभी शुरुआत कर रहे हों, यह गाइड आपको वह सब कुछ बताएगी जो आपको जानना ज़रूरी है, चरण दर चरण।
 
 ## आवश्यक शर्तें
 
-कोड में आगे बढ़ने से पहले, आइए सुनिश्चित करें कि हमने सब कुछ सेट कर लिया है। आपको ये चीज़ें चाहिए:
+कोड में आगे बढ़ने से पहले, आइए सुनिश्चित करें कि हमने सब कुछ सेट कर लिया है। आपको ये चाहिए:
 
-1.  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है। यदि आपके पास यह नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है। यदि आपके पास यह नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
-3. विकास वातावरण: विजुअल स्टूडियो जैसा IDE आपके जीवन को आसान बना देगा।
+3. विकास पर्यावरण: विजुअल स्टूडियो जैसा आईडीई आपके जीवन को आसान बना देगा।
 4. C# का बुनियादी ज्ञान: आपको विशेषज्ञ होने की आवश्यकता नहीं है, लेकिन बुनियादी समझ से मदद मिलेगी।
 
 सब कुछ समझ में आ गया? बढ़िया! चलिए शुरू करते हैं।
@@ -47,7 +49,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
 
 ## चरण 2: SVG के साथ HTML स्ट्रिंग बनाएं
 
@@ -66,18 +68,18 @@ string html =
 
 ## चरण 3: ConvertSvgToEmf विकल्प के साथ HTML लोड करें
 
- अब, हम उपयोग करते हैं`HtmlLoadOptions` यह निर्दिष्ट करने के लिए कि हम HTML में SVG छवियों को कैसे संभालना चाहते हैं।`ConvertSvgToEmf` को`true` यह सुनिश्चित करता है कि SVG छवियों को EMF प्रारूप में परिवर्तित किया जाए।
+अब, हम उपयोग करते हैं `HtmlLoadOptions` यह निर्दिष्ट करने के लिए कि हम HTML में SVG छवियों को कैसे संभालना चाहते हैं। `ConvertSvgToEmf` को `true` यह सुनिश्चित करता है कि SVG छवियों को EMF प्रारूप में परिवर्तित किया जाए।
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 ```
 
- यह कोड स्निपेट एक नया बनाता है`Document` निर्दिष्ट लोड विकल्पों के साथ HTML स्ट्रिंग को लोड करके ऑब्जेक्ट को खोलें।
+यह कोड स्निपेट एक नया बनाता है `Document` निर्दिष्ट लोड विकल्पों के साथ HTML स्ट्रिंग को लोड करके ऑब्जेक्ट को खोलें।
 
 ## चरण 4: मेटाफ़ाइल प्रारूप के लिए HtmlSaveOptions सेट करें
 
- दस्तावेज़ को सही मेटाफ़ाइल प्रारूप में सहेजने के लिए, हम उपयोग करते हैं`HtmlSaveOptions` . यहाँ, हम सेट करते हैं`MetafileFormat` को`HtmlMetafileFormat.Png` , लेकिन आप इसे बदल सकते हैं`Emf` या`Wmf` आपकी आवश्यकताओं के आधार पर.
+दस्तावेज़ को सही मेटाफ़ाइल प्रारूप में सहेजने के लिए, हम उपयोग करते हैं `HtmlSaveOptions`. यहाँ, हम सेट करते हैं `MetafileFormat` को `HtmlMetafileFormat.Png`, लेकिन आप इसे बदल सकते हैं `Emf` या `Wmf` आपकी आवश्यकताओं के आधार पर.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafileFormat.Png };
@@ -91,7 +93,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions { MetafileFormat = HtmlMetafil
 doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ConvertMetafilesToPng.html", saveOptions);
 ```
 
-यह दस्तावेज़ को निर्दिष्ट निर्देशिका में मेटाफ़ाइल प्रारूप में परिवर्तित करके सहेजता है।
+यह दस्तावेज़ को निर्दिष्ट निर्देशिका में मेटाफ़ाइल प्रारूप में रूपांतरित रूप में सहेजता है।
 
 ## निष्कर्ष
 
@@ -112,10 +114,15 @@ SVG को EMF या WMF में परिवर्तित करने स
 बिल्कुल! आप एकाधिक HTML फ़ाइलों के माध्यम से लूप कर सकते हैं, बैच प्रोसेसिंग के लिए रूपांतरण को स्वचालित करने के लिए समान प्रक्रिया को लागू कर सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words हेतु अधिक संसाधन और समर्थन कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/) और Aspose समुदाय से समर्थन प्राप्त करें[यहाँ](https://forum.aspose.com/c/words/8).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/) और Aspose समुदाय से समर्थन प्राप्त करें [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

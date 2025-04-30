@@ -1,52 +1,60 @@
 ---
-title: Word Belgesine Combo Box Form Alanı Ekle
-weight: 7700
-limit: 
-description: Word belgesine bir kombinasyon kutu formu alanını .NET için Aspose.Words kullanarak nasıl ekleyeceğini öğrenin.
-keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
-url: /tr/net/working-with-form-fields/insert-form-fields/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesine birleşik kutu form alanı eklemeyi öğrenin. Kod örnekleri ve önceden tanımlanmış öğeler içeren adım adım kılavuz."
+"title": "Word Belgesine Combo Box Form Alanı Ekleme"
+"url": "/tr/net/working-with-form-fields/insert-form-fields/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesine Combo Box Form Alanı Ekle
+# Word Belgesine Combo Box Form Alanı Ekleme
 
-.NET için Aspose.Words programsal olarak Word belgeleri oluşturmayı ve manipüle etmeyi kolaylaştırır. Bu örnekte, Word belgesine bir kombinasyon kutu formu alanını nasıl ekleyeceğinizi öğreneceksiniz.`DocumentBuilder`Dinamik, etkileşimli Word belgeleri çalışmadan oluşturmak için.  
+Aspose.Words for .NET, Word belgelerini programatik olarak oluşturmayı ve düzenlemeyi kolaylaştırır. Bu örnekte, bir Word belgesine birleşik kutu form alanı eklemeyi öğreneceksiniz. Birleşik kutu, varsayılan bir seçim kümesiyle "Bir", "İki" ve "Üç" gibi önceden tanımlanmış öğeleri içerir. Bu adım adım eğitim, `DocumentBuilder` dinamik, etkileşimli Word belgelerini zahmetsizce oluşturmak için. .NET uygulamalarını özelleştirilebilir Word formlarıyla geliştirmek isteyen geliştiriciler için mükemmel.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-Örnek kullanmak için, geliştirme ortamınızda .NET için Aspose.Words kurulması gerekir. Bu adımları izleyin:  
+Örneği kullanmak için, geliştirme ortamınızda .NET için Aspose.Words'ün yüklü olması gerekir. Şu adımları izleyin:  
 
-1. .NET için Aspose.Words indir  
-   [İndirmelerini Göster](https://releases.aspose.com/words/net/)Sayfa.  
+1. .NET için Aspose.Words'ü indirin  
+   En son sürümü şu adresten edinin: [Aspose İndirmeleri](https://releases.aspose.com/words/net/) sayfa.  
 
-2. NuGet üzerinden yükle  
-   Projeyi Visual Studio'da açın ve NuGet Paket Yöneticisi kullanarak kütüphaneni yükleyin:  
-   * Paket Yöneticisi Konsolu'nda:  
+2. NuGet aracılığıyla yükleyin  
+   Projenizi Visual Studio'da açın ve NuGet Paket Yöneticisi'ni kullanarak kütüphaneyi yükleyin:  
+   - Paket Yöneticisi Konsolunda şunu yazın:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. Lisans başvurusu (Önlü)  
-   Tam fonksiyonellik için lisans uygulayın:  
-   * Lisansı satın alın .[Almayı Arzu Et](https://purchase.aspose.com/buy)sayfa veya bir [Geçici İzin](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Lisansı koduna yükle:  
+3. Lisans Uygula (İsteğe bağlı)  
+   Tam işlevsellik için lisans uygulayın:  
+   - Lisans satın alın [Aspose Satın Al](https://purchase.aspose.com/buy) sayfa veya istek [Geçici Lisans](https://purchase.aspose.com/temporary-license/).  
+   - Lisansı kodunuza yükleyin:  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

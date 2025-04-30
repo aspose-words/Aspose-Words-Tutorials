@@ -1,14 +1,16 @@
 ---
-title: Sayfalara Göre Belge İçeriğini Çıkarma
-linktitle: Sayfalara Göre Belge İçeriğini Çıkarma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words kullanarak sayfalara göre belge içeriğini nasıl çıkaracağınızı öğrenin. Kaynak kodlu bu adım adım kılavuz sizi kısa sürede uzman yapacaktır.
-weight: 13
-url: /tr/java/document-splitting/extracting-document-content-pages/
+"description": "Java için Aspose.Words kullanarak sayfalara göre belge içeriğini nasıl çıkaracağınızı öğrenin. Kaynak kodlu bu adım adım kılavuz sizi kısa sürede uzman yapacaktır."
+"linktitle": "Sayfalara Göre Belge İçeriğini Çıkarma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Sayfalara Göre Belge İçeriğini Çıkarma"
+"url": "/tr/java/document-splitting/extracting-document-content-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfalara Göre Belge İçeriğini Çıkarma
@@ -28,7 +30,7 @@ Aspose.Words for Java ile çalışmaya başlamadan önce geliştirme ortamımız
 
 1. Java'yı yükleyin: Eğer Java yüklü değilse, web sitesinden en son sürümü indirip yükleyin.
 
-2.  Java için Aspose.Words'ü indirin: Şuraya gidin:[Java için Aspose.Words](https://releases.aspose.com/words/java/) ve kütüphanenin en son sürümünü indirin.
+2. Java için Aspose.Words'ü indirin: Şuraya gidin: [Java için Aspose.Words](https://releases.aspose.com/words/java/) ve kütüphanenin en son sürümünü indirin.
 
 3. Aspose.Words'ü Projenize Entegre Edin: Aspose.Words JAR dosyalarını Java projenizin sınıf yoluna ekleyin.
 
@@ -46,7 +48,7 @@ public class DocumentExtractor {
 
 ### Aspose.Words'ü Projenize Ekleme
 
-Aspose.Words'ü projenize eklemek için, indirilen JAR dosyalarını projenizin klasörüne kopyalayın.`lib` klasöre ekleyin ve bunları sınıf yolunuza ekleyin. Artık belge çıkarma dünyasına dalmaya hazırsınız!
+Aspose.Words'ü projenize eklemek için, indirilen JAR dosyalarını projenizin klasörüne kopyalayın. `lib` klasöre ekleyin ve bunları sınıf yolunuza ekleyin. Artık belge çıkarma dünyasına dalmaya hazırsınız!
 
 ## Belgeleri Yükleme ve Ayrıştırma
 
@@ -96,7 +98,7 @@ String pageText = doc.extractText(pageInfo);
 Tüm sayfalardan içerik çıkarmak için basit bir döngü kullanabilirsiniz:
 
 ```java
-//Belgedeki toplam sayfa sayısını alın
+// Belgedeki toplam sayfa sayısını alın
 int pageCount = doc.getPageCount();
 
 for (int i = 0; i < pageCount; i++) {
@@ -163,9 +165,14 @@ Aspose.Words for Java ticari kullanım için geçerli bir lisans gerektirir. Kul
 ## Çözüm
 
 Tebrikler! Aspose.Words for Java kullanarak sayfalara göre belge içeriğini çıkarma konusunda adım adım kılavuzu tamamladınız. Artık Word belgeleriyle programatik olarak çalışmak için değerli bir beceri setine sahipsiniz. Aspose.Words'ün daha fazla özelliğini keşfetmekten ve belge düzenlemede yaratıcılığınızı serbest bırakmaktan çekinmeyin.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

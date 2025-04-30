@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ शैलियाँ कॉपी करें
-linktitle: वर्ड दस्तावेज़ शैलियाँ कॉपी करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ शैलियों की प्रतिलिपि बनाना सीखें। सहजता से सुसंगत दस्तावेज़ स्वरूपण सुनिश्चित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-styles-and-themes/copy-styles/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ शैलियों की प्रतिलिपि बनाना सीखें। सहजता से सुसंगत दस्तावेज़ स्वरूपण सुनिश्चित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "वर्ड दस्तावेज़ शैलियाँ कॉपी करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ शैलियाँ कॉपी करें"
+"url": "/hi/net/programming-with-styles-and-themes/copy-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ शैलियाँ कॉपी करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-styles-and-themes/copy-styles/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1.  Aspose.Words for .NET लाइब्रेरी: .NET में Word दस्तावेज़ों के साथ काम करने के लिए आपको इसकी ज़रूरत होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं[.NET डाउनलोड के लिए Aspose.Words](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: .NET में Word दस्तावेज़ों के साथ काम करने के लिए आपको इसकी ज़रूरत होगी। आप इसे यहाँ से डाउनलोड कर सकते हैं [.NET डाउनलोड के लिए Aspose.Words](https://releases.aspose.com/words/net/).
 2. .NET विकास वातावरण: आपके पास एक कार्यशील .NET विकास वातावरण स्थापित होना चाहिए, जैसे कि Visual Studio.
 3. C# का बुनियादी ज्ञान: C# से परिचित होने से आपको कोड स्निपेट को प्रभावी ढंग से समझने और कार्यान्वित करने में मदद मिलेगी।
 
@@ -37,7 +39,7 @@ using Aspose.Words;
 
 ## चरण 1: अपनी दस्तावेज़ निर्देशिका सेट करें
 
- सबसे पहले, आपको अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करना होगा। यह वह जगह है जहाँ Aspose.Words आपकी फ़ाइलों को ढूँढ़ेगा।`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपके दस्तावेज़ संग्रहीत हैं.
+सबसे पहले, आपको अपने दस्तावेज़ निर्देशिका का पथ निर्धारित करना होगा। यह वह जगह है जहाँ Aspose.Words आपकी फ़ाइलों को ढूँढ़ेगा। `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपके दस्तावेज़ संग्रहीत हैं।
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,11 +54,11 @@ Document doc = new Document();
 Document target = new Document(dataDir + "Rendering.docx");
 ```
 
- यहाँ,`Rendering.docx` वह आपका स्रोत दस्तावेज़ है जिसमें वे शैलियाँ हैं जिन्हें आप कॉपी करना चाहते हैं।`doc` ऑब्जेक्ट लक्ष्य दस्तावेज़ का प्रतिनिधित्व करता है जहां शैलियों की प्रतिलिपि बनाई जाएगी।
+यहाँ, `Rendering.docx` वह आपका स्रोत दस्तावेज़ है जिसमें वे शैलियाँ हैं जिन्हें आप कॉपी करना चाहते हैं। `doc` ऑब्जेक्ट लक्ष्य दस्तावेज़ का प्रतिनिधित्व करता है जहां शैलियों की प्रतिलिपि बनाई जाएगी।
 
 ## चरण 3: स्रोत से लक्ष्य तक शैलियाँ कॉपी करें
 
- दोनों दस्तावेज़ों को लोड करने के बाद, अब आप शैलियों की प्रतिलिपि बना सकते हैं।`CopyStylesFromTemplate` इस काम के लिए आपका टूल यही तरीका है। यह स्टाइल को कॉपी करता है`doc`टेम्पलेट को`target` दस्तावेज़।
+दोनों दस्तावेज़ों को लोड करने के बाद, अब आप शैलियों की प्रतिलिपि बना सकते हैं। `CopyStylesFromTemplate` इस काम के लिए आपका टूल यही तरीका है। यह स्टाइल को कॉपी करता है `doc` टेम्पलेट को `target` दस्तावेज़।
 
 ```csharp
 target.CopyStylesFromTemplate(doc);
@@ -78,23 +80,28 @@ doc.Save(dataDir + "WorkingWithStylesAndThemes.CopyStyles.docx");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-###  इसका उद्देश्य क्या है?`CopyStylesFromTemplate` method?  
-`CopyStylesFromTemplate` विधि एक दस्तावेज़ से दूसरे दस्तावेज़ में शैलियों की प्रतिलिपि बनाती है, यह सुनिश्चित करते हुए कि लक्ष्य दस्तावेज़ को स्रोत दस्तावेज़ का स्वरूपण विरासत में मिले।
+### इसका उद्देश्य क्या है? `CopyStylesFromTemplate` तरीका?  
+The `CopyStylesFromTemplate` विधि एक दस्तावेज़ से दूसरे दस्तावेज़ में शैलियों की प्रतिलिपि बनाती है, यह सुनिश्चित करते हुए कि लक्ष्य दस्तावेज़ को स्रोत दस्तावेज़ का स्वरूपण विरासत में मिले।
 
-###  क्या मैं उपयोग कर सकता हूँ`CopyStylesFromTemplate` with documents in different formats?  
- नहीं,`CopyStylesFromTemplate` यह विधि केवल समान प्रारूप वाले दस्तावेजों के साथ काम करती है, आमतौर पर DOCX।
+### क्या मैं उपयोग कर सकता हूँ `CopyStylesFromTemplate` विभिन्न प्रारूपों में दस्तावेजों के साथ?  
+नहीं, `CopyStylesFromTemplate` यह विधि केवल समान प्रारूप वाले दस्तावेजों के साथ काम करती है, आमतौर पर DOCX।
 
 ### मैं कैसे जांच सकता हूं कि शैलियाँ सफलतापूर्वक कॉपी की गई हैं या नहीं?  
 लक्ष्य दस्तावेज़ खोलें और स्टाइल सेटिंग जांचें। आपको स्रोत दस्तावेज़ से लागू की गई शैलियाँ दिखनी चाहिए।
 
 ### यदि लक्ष्य दस्तावेज़ में पहले से ही शैलियाँ मौजूद हों तो क्या होगा?  
-`CopyStylesFromTemplate` विधि लक्ष्य दस्तावेज़ में विद्यमान शैलियों को स्रोत दस्तावेज़ से अधिलेखित कर देगी।
+The `CopyStylesFromTemplate` विधि लक्ष्य दस्तावेज़ में विद्यमान शैलियों को स्रोत दस्तावेज़ से अधिलेखित कर देगी।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?  
- Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं[Aspose.Words .NET के लिए निःशुल्क परीक्षण](https://releases.aspose.com/).
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप यहां से निःशुल्क परीक्षण प्राप्त कर सकते हैं [Aspose.Words for .NET निःशुल्क परीक्षण](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

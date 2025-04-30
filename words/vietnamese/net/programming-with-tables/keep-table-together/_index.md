@@ -1,14 +1,16 @@
 ---
-title: Giữ bàn lại với nhau
-linktitle: Giữ bàn lại với nhau
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách giữ cho các bảng không bị ngắt trang trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để duy trì các tài liệu chuyên nghiệp, dễ đọc.
-weight: 10
-url: /vi/net/programming-with-tables/keep-table-together/
+"description": "Tìm hiểu cách giữ cho các bảng không bị ngắt trang trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn của chúng tôi để duy trì các tài liệu chuyên nghiệp, dễ đọc."
+"linktitle": "Giữ bàn lại với nhau"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giữ bàn lại với nhau"
+"url": "/vi/net/programming-with-tables/keep-table-together/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giữ bàn lại với nhau
@@ -21,7 +23,7 @@ Bạn đã bao giờ cảm thấy bực bội khi một bảng trong tài liệu
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET - Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET - Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Tài liệu Word có bảng - Chúng ta sẽ làm việc với một tài liệu mẫu có bảng trải dài trên nhiều trang.
 3. Kiến thức cơ bản về C# - Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 
@@ -38,7 +40,7 @@ Hãy chia nhỏ quy trình thành các bước dễ hiểu. Chúng ta sẽ bắt
 
 ## Bước 1: Tải tài liệu
 
- Để làm việc với một tài liệu Word, trước tiên chúng ta cần tải nó. Chúng ta sẽ sử dụng`Document` lớp học này.
+Để làm việc với một tài liệu Word, trước tiên chúng ta cần tải nó. Chúng ta sẽ sử dụng `Document` lớp học này.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -57,7 +59,7 @@ Table table = (Table) doc.GetChild(NodeType.Table, 0, true);
 
 ## Bước 3: Thiết lập KeepWithNext cho Đoạn văn
 
- Để ngăn không cho bảng bị ngắt giữa các trang, chúng ta cần thiết lập`KeepWithNext` thuộc tính cho mỗi đoạn văn trong bảng, ngoại trừ các đoạn văn cuối cùng ở hàng cuối cùng.
+Để ngăn không cho bảng bị ngắt giữa các trang, chúng ta cần thiết lập `KeepWithNext` thuộc tính cho mỗi đoạn văn trong bảng, ngoại trừ các đoạn văn cuối cùng ở hàng cuối cùng.
 
 ```csharp
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
@@ -92,16 +94,21 @@ Có, bạn có thể áp dụng cùng một logic cho nhiều bảng bằng các
 Nếu một bảng quá lớn không vừa với một trang, nó vẫn sẽ trải dài trên nhiều trang. Phương pháp này đảm bảo các bảng nhỏ hơn vẫn nguyên vẹn mà không bị tách.
 
 ### Có cách nào để tự động hóa việc này cho tất cả các bảng trong một tài liệu không?  
- Có, bạn có thể lặp qua tất cả các bảng trong tài liệu của mình và áp dụng`KeepWithNext` thuộc tính cho từng đoạn văn.
+Có, bạn có thể lặp qua tất cả các bảng trong tài liệu của mình và áp dụng `KeepWithNext` thuộc tính cho từng đoạn văn.
 
 ### Tôi có cần phải trả phí để sử dụng Aspose.Words cho .NET không?  
-Bạn có thể bắt đầu với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/), nhưng để có đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
+Bạn có thể bắt đầu với bản dùng thử miễn phí từ [đây](https://releases.aspose.com/), nhưng để có đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
 
 ### Tôi có thể áp dụng định dạng khác cho bảng trong khi vẫn giữ nguyên bảng không?  
-Chắc chắn rồi! Bạn có thể định dạng bảng theo nhu cầu trong khi vẫn đảm bảo bảng nằm trọn trên một trang.
+Hoàn toàn có thể! Bạn có thể định dạng bảng theo nhu cầu trong khi vẫn đảm bảo bảng nằm trọn trên một trang.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

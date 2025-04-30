@@ -1,14 +1,16 @@
 ---
-title: Работа с моделью Google AI
-linktitle: Работа с моделью Google AI
-second_title: API обработки документов Aspose.Words
-description: Повысьте эффективность обработки документов с помощью Aspose.Words для .NET и Google AI, чтобы легко создавать краткие резюме.
-weight: 10
-url: /ru/net/ai-powered-document-processing/working-with-google-ai-model/
+"description": "Повысьте эффективность обработки документов с помощью Aspose.Words для .NET и Google AI, чтобы легко создавать краткие резюме."
+"linktitle": "Работа с моделью Google AI"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Работа с моделью Google AI"
+"url": "/ru/net/ai-powered-document-processing/working-with-google-ai-model/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Работа с моделью Google AI
@@ -23,7 +25,7 @@ url: /ru/net/ai-powered-document-processing/working-with-google-ai-model/
 
 1. Базовые знания C# и .NET: знакомство с концепциями программирования поможет вам лучше понять примеры.
    
-2.  Библиотека Aspose.Words for .NET: Эта мощная библиотека позволяет вам легко создавать и обрабатывать документы Word. Вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+2. Библиотека Aspose.Words for .NET: Эта мощная библиотека позволяет вам легко создавать и обрабатывать документы Word. Вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 
 3. API-ключ для Google AI Model: Чтобы использовать AI-модели, вам нужен API-ключ для аутентификации. Сохраните его в безопасности в переменных среды.
 
@@ -57,7 +59,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
- Заменять`"YOUR_DOCUMENT_DIRECTORY"` и`"YOUR_ARTIFACTS_DIRECTORY"` с реальными путями в вашей системе, где хранятся ваши документы. Это будет служить основой для чтения и сохранения документов.
+Заменять `"YOUR_DOCUMENT_DIRECTORY"` и `"YOUR_ARTIFACTS_DIRECTORY"` с реальными путями в вашей системе, где хранятся ваши документы. Это будет служить основой для чтения и сохранения документов.
 
 ## Шаг 2: Загрузка документов
 
@@ -68,7 +70,7 @@ Document firstDoc = new Document(MyDir + "Big document.docx");
 Document secondDoc = new Document(MyDir + "Document.docx");
 ```
 
- The`Document` класс из Aspose.Words позволяет загружать файлы Word в память. Убедитесь, что имена файлов соответствуют реальным документам в вашем каталоге, иначе вы столкнетесь с ошибками «файл не найден»!
+The `Document` класс из Aspose.Words позволяет загружать файлы Word в память. Убедитесь, что имена файлов соответствуют реальным документам в вашем каталоге, иначе вы столкнетесь с ошибками «файл не найден»!
 
 ## Шаг 3: Получение ключа API
 
@@ -88,7 +90,7 @@ string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 ```
 
- Эта строка устанавливает модель ИИ, которую вы будете использовать для резюмирования документов. Обязательно проконсультируйтесь[документация](https://reference.aspose.com/words/net/) для получения подробной информации о различных моделях и их возможностях.
+Эта строка устанавливает модель ИИ, которую вы будете использовать для резюмирования документов. Обязательно проконсультируйтесь [документация](https://reference.aspose.com/words/net/) для получения подробной информации о различных моделях и их возможностях.
 
 ## Шаг 5: Подведение итогов по отдельному документу
 
@@ -99,7 +101,7 @@ Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() {
 oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 ```
 
- На этом этапе мы используем`Summarize`метод из экземпляра модели AI для получения сгущения первого документа. Длина резюме установлена на короткую, но вы можете настроить ее в зависимости от ваших потребностей. Наконец, сжатый документ сохраняется в вашем каталоге артефактов.
+На этом этапе мы используем `Summarize` метод из экземпляра модели AI для получения сгущения первого документа. Длина резюме установлена на короткую, но вы можете настроить ее в зависимости от ваших потребностей. Наконец, сжатый документ сохраняется в вашем каталоге артефактов.
 
 ## Шаг 6: Обобщение нескольких документов
 
@@ -110,7 +112,7 @@ Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secon
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
- Здесь мы звоним`Summarize` метод снова, но на этот раз с массивом документов. Это даст вам длинное резюме, которое инкапсулирует суть обоих файлов. Как и прежде, результат сохраняется в указанном каталоге артефактов.
+Здесь мы звоним `Summarize` метод снова, но на этот раз с массивом документов. Это даст вам длинное резюме, которое инкапсулирует суть обоих файлов. Как и прежде, результат сохраняется в указанном каталоге артефактов.
 
 ## Заключение
 
@@ -131,11 +133,16 @@ Aspose.Words — мощная библиотека для создания, из
 В зависимости от ваших потребностей вы можете выбрать краткий, средний или длинный вариант резюме.
 
 ### Где я могу найти больше ресурсов Aspose.Words?
- Проверьте[документация](https://reference.aspose.com/words/net/) для получения дополнительных примеров и рекомендаций.
+Проверьте [документация](https://reference.aspose.com/words/net/) для получения дополнительных примеров и рекомендаций.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

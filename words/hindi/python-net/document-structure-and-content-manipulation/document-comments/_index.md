@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना
-linktitle: वर्ड दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। दस्तावेज़ों में सहयोग बढ़ाएँ और समीक्षाओं को सरल बनाएँ।
-weight: 11
-url: /hi/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "Python के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। दस्तावेज़ों में सहयोग बढ़ाएँ और समीक्षाओं को सरल बनाएँ।"
+"linktitle": "वर्ड दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वर्ड दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना"
+"url": "/hi/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ों में टिप्पणी सुविधाओं का उपयोग करना
@@ -22,7 +24,7 @@ url: /hi/python-net/document-structure-and-content-manipulation/document-comment
 
 ## पायथन के लिए Aspose.Words सेट अप करना
 
- आरंभ करने के लिए, आपको Python के लिए Aspose.Words इंस्टॉल करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[पायथन के लिए Aspose.Words](https://releases.aspose.com/words/python/) डाउनलोड लिंक। डाउनलोड हो जाने के बाद, आप इसे pip का उपयोग करके इंस्टॉल कर सकते हैं:
+आरंभ करने के लिए, आपको Python के लिए Aspose.Words इंस्टॉल करना होगा। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं  [पायथन के लिए Aspose.Words](https://releases.aspose.com/words/python/) डाउनलोड लिंक। डाउनलोड हो जाने के बाद, आप इसे pip का उपयोग करके इंस्टॉल कर सकते हैं:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ Aspose.Words for Python का उपयोग करके Word दस्ता
 ```python
 import aspose.words as aw
 
-# Load the document
+# दस्तावेज़ लोड करें
 doc = aw.Document("example.docx")
 
-# Add a comment
+# एक टिप्पणी जोड़ने
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# टिप्पणी डालें
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -64,24 +66,24 @@ for comment in doc.comments:
 
 ## टिप्पणियों को संशोधित करना और उनका समाधान करना
 
-टिप्पणियाँ अक्सर परिवर्तन के अधीन होती हैं। Aspose.Words for Python आपको मौजूदा टिप्पणियों को संशोधित करने और उन्हें हल किए गए के रूप में चिह्नित करने की अनुमति देता है:
+टिप्पणियाँ अक्सर परिवर्तन के अधीन होती हैं। पायथन के लिए Aspose.Words आपको मौजूदा टिप्पणियों को संशोधित करने और उन्हें हल किए गए के रूप में चिह्नित करने की अनुमति देता है:
 
 ```python
-# Modify a comment's text
+# टिप्पणी का पाठ संशोधित करें
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# टिप्पणी का समाधान करें
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# टिप्पणी मूल और स्थिति प्राप्त करें.
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# और टिप्पणी को अद्यतन करें संपन्न चिह्नित करें।
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 टिप्पणियों को प्रारूपित करने से उनकी दृश्यता बढ़ जाती है। आप Python के लिए Aspose.Words का उपयोग करके टिप्पणियों पर प्रारूपण लागू कर सकते हैं:
 
 ```python
-# Apply formatting to a comment
+# टिप्पणी पर स्वरूपण लागू करें
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,7 +103,7 @@ comment.runs[0].font.color = aw.Color.red
 टिप्पणियाँ लेखकों को दी जाती हैं। Aspose.Words for Python आपको टिप्पणी लेखकों को प्रबंधित करने देता है:
 
 ```python
-# Change the author's name
+# लेखक का नाम बदलें
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
@@ -111,10 +113,10 @@ comment.author = "Jane Doe"
 बाह्य सहयोग को सुगम बनाने के लिए टिप्पणियों को निर्यात और आयात किया जा सकता है:
 
 ```python
-# Export comments to a file
+# टिप्पणियाँ फ़ाइल में निर्यात करें
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# किसी फ़ाइल से टिप्पणियाँ आयात करें
 doc.import_comments("comments.xml")
 ```
 
@@ -148,14 +150,18 @@ pip install aspose-words
 
 ### क्या एपीआई का उपयोग करके प्रोग्रामेटिक रूप से टिप्पणियों को छिपाना या दिखाना संभव है?
 
- हां, आप इसका उपयोग करके टिप्पणियों की दृश्यता को नियंत्रित कर सकते हैं`comment.visible` पायथन के लिए Aspose.Words में संपत्ति।
+हां, आप इसका उपयोग करके टिप्पणियों की दृश्यता को नियंत्रित कर सकते हैं `comment.visible` पायथन के लिए Aspose.Words में संपत्ति।
 
 ### क्या पायथन के लिए Aspose.Words पाठ की विशिष्ट श्रेणियों में टिप्पणियाँ जोड़ने का समर्थन करता है?
 
 बिल्कुल, आप पायथन के समृद्ध एपीआई के लिए Aspose.Words का उपयोग करके दस्तावेज़ के भीतर पाठ की विशिष्ट श्रेणियों में टिप्पणियां जोड़ सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

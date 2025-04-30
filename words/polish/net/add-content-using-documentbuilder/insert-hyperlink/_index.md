@@ -1,14 +1,16 @@
 ---
-title: Wstaw hiperłącze w dokumencie Word
-linktitle: Wstaw hiperłącze w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać hiperłącza do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do automatyzacji zadań związanych z tworzeniem dokumentów.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/insert-hyperlink/
+"description": "Dowiedz się, jak wstawiać hiperłącza do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do automatyzacji zadań związanych z tworzeniem dokumentów."
+"linktitle": "Wstaw hiperłącze w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw hiperłącze w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/insert-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw hiperłącze w dokumencie Word
@@ -21,7 +23,7 @@ Tworzenie i zarządzanie dokumentami Word jest podstawowym zadaniem w wielu apli
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Można go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Visual Studio: powinna działać każda wersja, ale zalecamy korzystanie z najnowszej wersji.
 3. .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
 
@@ -45,11 +47,11 @@ Najpierw musimy zdefiniować ścieżkę do naszego katalogu dokumentów. To tuta
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
 ## Krok 2: Utwórz nowy dokument
 
- Następnie tworzymy nowy dokument i inicjujemy`DocumentBuilder` . Ten`DocumentBuilder` Klasa udostępnia metody umożliwiające wstawianie tekstu, obrazów, tabel i innej zawartości do dokumentu.
+Następnie tworzymy nowy dokument i inicjujemy `DocumentBuilder`. Ten `DocumentBuilder` Klasa udostępnia metody umożliwiające wstawianie tekstu, obrazów, tabel i innej zawartości do dokumentu.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 3: Napisz tekst początkowy
 
- Korzystanie z`DocumentBuilder`, napiszemy jakiś początkowy tekst do dokumentu. To ustawi kontekst, w którym zostanie wstawiony nasz hiperłącze.
+Korzystanie z `DocumentBuilder`napiszemy jakiś początkowy tekst do dokumentu. To ustawi kontekst, w którym zostanie wstawiony nasz hiperłącze.
 
 ```csharp
 builder.Write("Please make sure to visit ");
@@ -74,7 +76,7 @@ builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
 
 ## Krok 5: Wstaw hiperłącze
 
- Teraz wstawiamy hiperłącze za pomocą`InsertHyperlink` Metoda. Ta metoda przyjmuje trzy parametry: tekst wyświetlany, adres URL i wartość logiczną wskazującą, czy link powinien być sformatowany jako hiperłącze.
+Teraz wstawiamy hiperłącze za pomocą `InsertHyperlink` Metoda. Ta metoda przyjmuje trzy parametry: tekst wyświetlany, adres URL i wartość logiczną wskazującą, czy łącze powinno być sformatowane jako hiperłącze.
 
 ```csharp
 builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", fałsz);
@@ -112,26 +114,31 @@ Wstawianie hiperłączy do dokumentu Word przy użyciu Aspose.Words dla .NET jes
 
 ### Czy mogę wstawić wiele hiperłączy w jednym dokumencie?
 
- Tak, możesz wstawiać wiele hiperłączy, powtarzając`InsertHyperlink` metoda dla każdego łącza.
+Tak, możesz wstawiać wiele hiperłączy, powtarzając `InsertHyperlink` metoda dla każdego łącza.
 
 ### Jak zmienić kolor hiperłącza?
 
- Możesz zmienić styl hiperłącza, zmieniając`Font.Color` nieruchomość przed zadzwonieniem`InsertHyperlink`.
+Możesz zmienić styl hiperłącza, zmieniając `Font.Color` nieruchomość przed zadzwonieniem `InsertHyperlink`.
 
 ### Czy mogę dodać hiperłącze do obrazu?
 
- Tak, możesz użyć`InsertHyperlink` metoda w połączeniu z`InsertImage` aby dodać hiperłącza do obrazów.
+Tak, możesz użyć `InsertHyperlink` metoda w połączeniu z `InsertImage` aby dodać hiperłącza do obrazów.
 
 ### Co się stanie, jeśli adres URL będzie nieprawidłowy?
 
- Ten`InsertHyperlink` Metoda ta nie weryfikuje adresów URL, dlatego ważne jest, aby upewnić się, że adresy URL są poprawne przed ich wstawieniem.
+Ten `InsertHyperlink` Metoda ta nie weryfikuje adresów URL, dlatego ważne jest, aby upewnić się, że adresy URL są poprawne przed ich wstawieniem.
 
 ### Czy można usunąć hiperłącze po jego wstawieniu?
 
- Tak, możesz usunąć hiperłącze, uzyskując dostęp do`FieldHyperlink` i dzwoniąc`Remove` metoda.
+Tak, możesz usunąć hiperłącze, uzyskując dostęp do `FieldHyperlink` i dzwoniąc `Remove` metoda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

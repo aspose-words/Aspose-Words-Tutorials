@@ -1,14 +1,16 @@
 ---
-title: Alan Güncelleme Kültürü
-linktitle: Alan Güncelleme Kültürü
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde alan güncelleme kültürünün nasıl yapılandırılacağını öğrenin. Doğru güncellemeler için kod örnekleri ve ipuçları içeren adım adım kılavuz.
-weight: 10
-url: /tr/net/working-with-fields/field-update-culture/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde alan güncelleme kültürünün nasıl yapılandırılacağını öğrenin. Doğru güncellemeler için kod örnekleri ve ipuçları içeren adım adım kılavuz."
+"linktitle": "Alan Güncelleme Kültürü"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alan Güncelleme Kültürü"
+"url": "/tr/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alan Güncelleme Kültürü
@@ -21,15 +23,15 @@ Tarihler, saatler veya dinamik olarak güncellenmesi gereken özel bilgiler gibi
 
 Saha güncelleme kültürünün inceliklerine dalmadan önce, başlamak için ihtiyacınız olacak birkaç şey var:
 
-1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Bu eğitimde, Visual Studio veya .NET geliştirmeyi destekleyen benzer bir IDE kullandığınız varsayılmaktadır.
 
 3. Temel C# Bilgisi: C# programlama ve temel Word dokümanı düzenleme konusunda rahat olmalısınız.
 
-4.  Aspose Lisansı: Tam işlevsellik için bir lisansa ihtiyacınız olabilir. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+4. Aspose Lisansı: Tam işlevsellik için bir lisansa ihtiyacınız olabilir. Bir tane satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya geçici bir lisans alın [Burada](https://purchase.aspose.com/temporary-license/).
 
-5.  Belgelere ve Desteğe Erişim: Herhangi bir ek yardım için,[Aspose Belgeleri](https://reference.aspose.com/words/net/) Ve[Destek Forumu](https://forum.aspose.com/c/words/8) harika kaynaklardır.
+5. Belgelere ve Desteğe Erişim: Herhangi bir ek yardım için, [Aspose Belgeleri](https://reference.aspose.com/words/net/) Ve [Destek Forumu](https://forum.aspose.com/c/words/8) harika kaynaklardır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -44,7 +46,7 @@ Artık kurulumunuz tamamlandığına göre, alan güncelleme kültürünü yapı
 
 ## Adım 1: Belgenizi ve DocumentBuilder'ınızı Ayarlayın
 
- İlk olarak yeni bir belge ve bir`DocumentBuilder` nesne.`DocumentBuilder` Word belgelerini kolayca oluşturmanıza ve değiştirmenize olanak tanıyan kullanışlı bir sınıftır.
+İlk olarak yeni bir belge ve bir `DocumentBuilder` nesne. `DocumentBuilder` Word belgelerini kolayca oluşturmanıza ve değiştirmenize olanak tanıyan kullanışlı bir sınıftır.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Bu adımda, belgenizi kaydetmek istediğiniz dizini belirtirsiniz.`Document` sınıf yeni bir Word belgesi başlatır ve`DocumentBuilder` sınıfı, içerik eklemenize ve biçimlendirmenize yardımcı olur.
+Bu adımda, belgenizi kaydetmek istediğiniz dizini belirtirsiniz. `Document` sınıf yeni bir Word belgesi başlatır ve `DocumentBuilder` sınıfı, içerik eklemenize ve biçimlendirmenize yardımcı olur.
 
 ## Adım 2: Bir Zaman Alanı Ekle
 
@@ -66,7 +68,7 @@ Sonra, belgeye bir zaman alanı ekleyeceksiniz. Bu, geçerli zamana güncellenen
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- Burada,`FieldType.FieldTime` bir zaman alanı eklemek istediğinizi belirtir. İkinci parametre,`true`, alanın otomatik olarak güncellenmesi gerektiğini belirtir.
+Burada, `FieldType.FieldTime` bir zaman alanı eklemek istediğinizi belirtir. İkinci parametre, `true`, alanın otomatik olarak güncellenmesi gerektiğini belirtir.
 
 ## Adım 3: Alan Güncelleme Kültürünü Yapılandırın
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 Artık alan güncellendiğinde tarih biçimleri gibi kültür ayarlarının nasıl uygulanacağını kontrol edecek özel kültür sağlayıcısını uygulamamız gerekiyor.
 
-Adında bir sınıf oluşturacağız`FieldUpdateCultureProvider` uygulayan`IFieldUpdateCultureProvider` arayüz. Bu sınıf bölgeye göre farklı kültür formatları döndürecektir. Bu örnek için, Rus ve ABD kültür ayarlarını yapılandıracağız.
+Adında bir sınıf oluşturacağız `FieldUpdateCultureProvider` uygulayan `IFieldUpdateCultureProvider` arayüz. Bu sınıf bölgeye göre farklı kültür formatları döndürecektir. Bu örnek için, Rus ve ABD kültür ayarlarını yapılandıracağız.
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -135,7 +137,7 @@ Son olarak belgenizi belirtilen dizine kaydedin. Bu, tüm değişikliklerinizin 
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` dosyayı kaydetmek istediğiniz yol ile. Belge, PDF olarak şu adla kaydedilecektir`UpdateCultureChamps.pdf`.
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` dosyayı kaydetmek istediğiniz yol ile. Belge, PDF olarak şu adla kaydedilecektir `UpdateCultureChamps.pdf`.
 
 ## Çözüm
 
@@ -153,18 +155,23 @@ Evet, Aspose.Words tarihler ve özel alanlar da dahil olmak üzere çeşitli ala
 
 ### Aspose.Words'de alan güncelleme kültürü özelliklerini kullanmak için özel bir lisansa ihtiyacım var mı?
 
- Tam işlevsellik için geçerli bir Aspose lisansına ihtiyacınız olabilir. Bir tane şu şekilde edinebilirsiniz:[Aspose'un satın alma sayfası](https://purchase.aspose.com/buy) veya geçici bir lisans kullanın[Burada](https://purchase.aspose.com/temporary-license/).
+Tam işlevsellik için geçerli bir Aspose lisansına ihtiyacınız olabilir. Bir tane şu şekilde edinebilirsiniz: [Aspose'un satın alma sayfası](https://purchase.aspose.com/buy) veya geçici bir lisans kullanın [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Saha güncelleme kültürünü nasıl daha fazla özelleştirebilirim?
 
- Uzatabilirsiniz`FieldUpdateCultureProvider` Özel ihtiyaçlarınıza göre uyarlanmış özel bir kültür sağlayıcısı oluşturmak için sınıf.
+Uzatabilirsiniz `FieldUpdateCultureProvider` Özel ihtiyaçlarınıza göre uyarlanmış özel bir kültür sağlayıcısı oluşturmak için sınıf.
 
 ### Sorunlarla karşılaşırsam daha fazla bilgiye nereden ulaşabilirim veya yardım alabilirim?
 
- Ayrıntılı dokümantasyon ve destek için şu adresi ziyaret edin:[Aspose Belgeleri](https://reference.aspose.com/words/net/) ve[Aspose Destek Forumu](https://forum.aspose.com/c/words/8).
+Ayrıntılı dokümantasyon ve destek için şu adresi ziyaret edin: [Aspose Belgeleri](https://reference.aspose.com/words/net/) ve [Aspose Destek Forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

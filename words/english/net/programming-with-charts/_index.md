@@ -7,8 +7,11 @@ weight: 1540
 url: /net/programming-with-charts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Word Chart API
@@ -41,9 +44,13 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: वर्ड दस्तावेज़ पर हस्ताक्षर करें
-linktitle: वर्ड दस्तावेज़ पर हस्ताक्षर करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ पर हस्ताक्षर करना सीखें। अपने दस्तावेज़ों को आसानी से सुरक्षित करें।
-weight: 10
-url: /hi/net/programming-with-digital-signatures/sign-document/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ पर हस्ताक्षर करना सीखें। अपने दस्तावेज़ों को आसानी से सुरक्षित करें।"
+"linktitle": "वर्ड दस्तावेज़ पर हस्ताक्षर करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड दस्तावेज़ पर हस्ताक्षर करें"
+"url": "/hi/net/programming-with-digital-signatures/sign-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड दस्तावेज़ पर हस्ताक्षर करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-digital-signatures/sign-document/
 
 कोड में गोता लगाने से पहले, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण स्थापित है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET वातावरण: सुनिश्चित करें कि आपके पास .NET विकास वातावरण स्थापित है (उदाहरण के लिए, विज़ुअल स्टूडियो)।
 3. डिजिटल प्रमाणपत्र: दस्तावेज़ों पर हस्ताक्षर करने के लिए एक डिजिटल प्रमाणपत्र (जैसे, एक .pfx फ़ाइल) प्राप्त करें।
 4. हस्ताक्षर करने हेतु दस्तावेज़: एक वर्ड दस्तावेज़ तैयार रखें जिस पर आप हस्ताक्षर करना चाहते हैं।
@@ -53,7 +55,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ### स्पष्टीकरण
 
 - `dataDir`: यह वह निर्देशिका है जहां आपके प्रमाणपत्र और दस्तावेज़ संग्रहीत हैं।
-- `CertificateHolder.Create` : यह विधि निर्दिष्ट पथ से प्रमाणपत्र लोड करती है।`"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ, और`"morzal.pfx"` अपने प्रमाणपत्र फ़ाइल के नाम के साथ।`"aw"` प्रमाणपत्र के लिए पासवर्ड है.
+- `CertificateHolder.Create`: यह विधि निर्दिष्ट पथ से प्रमाणपत्र लोड करती है। `"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ, और `"morzal.pfx"` अपने प्रमाणपत्र फ़ाइल के नाम के साथ। `"aw"` प्रमाणपत्र के लिए पासवर्ड है.
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
@@ -66,11 +68,11 @@ Document doc = new Document(dataDir + "Digitally signed.docx");
 
 ### स्पष्टीकरण
 
-- `Document` : यह क्लास Word दस्तावेज़ का प्रतिनिधित्व करता है।`"Digitally signed.docx"`अपने दस्तावेज़ के नाम के साथ.
+- `Document`यह क्लास Word दस्तावेज़ का प्रतिनिधित्व करता है। `"Digitally signed.docx"` अपने दस्तावेज़ के नाम के साथ.
 
 ## चरण 3: दस्तावेज़ पर हस्ताक्षर करें
 
- अब, का उपयोग करें`DigitalSignatureUtil.Sign` दस्तावेज़ पर हस्ताक्षर करने की विधि.
+अब, का उपयोग करें `DigitalSignatureUtil.Sign` दस्तावेज़ पर हस्ताक्षर करने की विधि.
 
 ```csharp
 // दस्तावेज़ पर हस्ताक्षर करें.
@@ -92,7 +94,7 @@ doc.Save(dataDir + "Document.Signed.docx");
 
 ### स्पष्टीकरण
 
-- `doc.Save` : यह विधि हस्ताक्षरित दस्तावेज़ को सहेजती है।`"Document.Signed.docx"` अपने हस्ताक्षरित दस्तावेज़ के वांछित नाम के साथ।
+- `doc.Save`: यह विधि हस्ताक्षरित दस्तावेज़ को सहेजती है। `"Document.Signed.docx"` अपने हस्ताक्षरित दस्तावेज़ के वांछित नाम के साथ।
 
 ## निष्कर्ष
 
@@ -110,13 +112,18 @@ doc.Save(dataDir + "Document.Signed.docx");
 हां, बशर्ते .pfx फ़ाइल में वैध डिजिटल प्रमाणपत्र हो और आपके पास उस तक पहुंचने के लिए पासवर्ड हो।
 
 ### क्या .NET के लिए Aspose.Words का उपयोग निःशुल्क है?
- Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है। आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) , लेकिन आपको पूर्ण कार्यक्षमता के लिए लाइसेंस खरीदना होगा। आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Words for .NET एक व्यावसायिक लाइब्रेरी है। आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/), लेकिन आपको पूर्ण कार्यक्षमता के लिए लाइसेंस खरीदना होगा। आप इसे खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/) और समर्थन[यहाँ](https://forum.aspose.com/c/words/8).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/) और समर्थन [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

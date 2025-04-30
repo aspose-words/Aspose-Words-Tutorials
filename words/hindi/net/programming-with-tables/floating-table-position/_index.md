@@ -1,14 +1,16 @@
 ---
-title: फ़्लोटिंग टेबल स्थिति
-linktitle: फ़्लोटिंग टेबल स्थिति
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिकाओं की फ़्लोटिंग स्थिति को नियंत्रित करना सीखें।
-weight: 10
-url: /hi/net/programming-with-tables/floating-table-position/
+"description": "हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में तालिकाओं की फ़्लोटिंग स्थिति को नियंत्रित करना सीखें।"
+"linktitle": "फ़्लोटिंग टेबल स्थिति"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़्लोटिंग टेबल स्थिति"
+"url": "/hi/net/programming-with-tables/floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़्लोटिंग टेबल स्थिति
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-tables/floating-table-position/
 
 इससे पहले कि हम इस रोमांचक यात्रा पर निकलें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जो हमें चाहिए:
 
-1. Aspose.Words for .NET Library: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है। यदि आपके पास नहीं है,[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Library: सुनिश्चित करें कि आपके पास नवीनतम संस्करण है। यदि आपके पास नहीं है, [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपका विकास वातावरण .NET के साथ सेटअप किया गया है।
 3. विकास वातावरण: विजुअल स्टूडियो या कोई भी पसंदीदा IDE.
 4. एक वर्ड दस्तावेज़: एक वर्ड दस्तावेज़ तैयार रखें जिसमें एक तालिका हो।
@@ -45,7 +47,7 @@ using Aspose.Words.Tables;
 सबसे पहले, आपको अपना वर्ड डॉक्यूमेंट लोड करना होगा। यहीं पर आपकी टेबल स्थित है।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -71,7 +73,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 table.AbsoluteHorizontalDistance = 10;
 ```
 
- इसे अपने दस्तावेज़ में तालिका को क्षैतिज रूप से स्थानांतरित करने के रूप में कल्पना करें।`AbsoluteHorizontalDistance` बाएं किनारे से सटीक दूरी है।
+इसे अपने दस्तावेज़ में तालिका को क्षैतिज रूप से स्थानांतरित करने के रूप में कल्पना करें। `AbsoluteHorizontalDistance` बाएं किनारे से सटीक दूरी है।
 
 ## चरण 4: ऊर्ध्वाधर संरेखण सेट करें
 
@@ -101,26 +103,31 @@ doc.Save(dataDir + "WorkingWithTables.FloatingTablePosition.docx");
 
 ### क्या मैं पृष्ठ के शीर्ष से तालिका की ऊर्ध्वाधर दूरी निर्धारित कर सकता हूँ?
 
- हां, आप इसका उपयोग कर सकते हैं`AbsoluteVerticalDistance` पृष्ठ के शीर्ष किनारे से तालिका की ऊर्ध्वाधर दूरी निर्धारित करने के लिए गुण।
+हां, आप इसका उपयोग कर सकते हैं `AbsoluteVerticalDistance` पृष्ठ के शीर्ष किनारे से तालिका की ऊर्ध्वाधर दूरी निर्धारित करने के लिए गुण।
 
 ### मैं तालिका को दस्तावेज़ के दाईं ओर कैसे संरेखित करूँ?
 
- तालिका को दाईं ओर संरेखित करने के लिए, आप सेट कर सकते हैं`HorizontalAlignment` तालिका की संपत्ति`HorizontalAlignment.Right`.
+तालिका को दाईं ओर संरेखित करने के लिए, आप सेट कर सकते हैं `HorizontalAlignment` तालिका की संपत्ति `HorizontalAlignment.Right`.
 
 ### क्या एक ही दस्तावेज़ में अनेक तालिकाओं को अलग-अलग स्थान पर रखना संभव है?
 
- बिल्कुल! आप कई तालिकाओं के लिए अलग-अलग स्थानों तक पहुँच सकते हैं और उन्हें सेट कर सकते हैं।`Tables` दस्तावेज़ में संग्रह.
+बिल्कुल! आप कई तालिकाओं के लिए अलग-अलग स्थानों तक पहुँच सकते हैं और उन्हें सेट कर सकते हैं। `Tables` दस्तावेज़ में संग्रह.
 
 ### क्या मैं क्षैतिज संरेखण के लिए सापेक्ष स्थिति का उपयोग कर सकता हूँ?
 
-हां, Aspose.Words निम्नलिखित गुणों का उपयोग करके क्षैतिज और ऊर्ध्वाधर संरेखण दोनों के लिए सापेक्ष स्थिति का समर्थन करता है`RelativeHorizontalAlignment`.
+हां, Aspose.Words निम्नलिखित गुणों का उपयोग करके क्षैतिज और ऊर्ध्वाधर संरेखण दोनों के लिए सापेक्ष स्थिति का समर्थन करता है `RelativeHorizontalAlignment`.
 
 ### क्या Aspose.Words दस्तावेज़ के विभिन्न अनुभागों में फ़्लोटिंग तालिकाओं का समर्थन करता है?
 
 हां, आप अपने दस्तावेज़ के भीतर विशिष्ट अनुभाग और उसकी तालिकाओं तक पहुंचकर फ्लोटिंग तालिकाओं को विभिन्न अनुभागों में रख सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

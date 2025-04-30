@@ -1,14 +1,16 @@
 ---
-title: हेडर फ़ुटर अनलिंक करें
-linktitle: हेडर फ़ुटर अनलिंक करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर को अनलिंक करना सीखें। दस्तावेज़ हेरफेर में महारत हासिल करने के लिए हमारे विस्तृत, चरण-दर-चरण गाइड का पालन करें।
-weight: 10
-url: /hi/net/join-and-append-documents/unlink-headers-footers/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर को अनलिंक करना सीखें। दस्तावेज़ हेरफेर में महारत हासिल करने के लिए हमारे विस्तृत, चरण-दर-चरण गाइड का पालन करें।"
+"linktitle": "हेडर फ़ुटर अनलिंक करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "हेडर फ़ुटर अनलिंक करें"
+"url": "/hi/net/join-and-append-documents/unlink-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हेडर फ़ुटर अनलिंक करें
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/unlink-headers-footers/
 
 इससे पहले कि हम इसकी बारीकियों में उतरें, आपको कुछ चीजों की आवश्यकता होगी:
 
--  Aspose.Words for .NET लाइब्रेरी: आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+- .NET लाइब्रेरी के लिए Aspose.Words: आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास संगत .NET फ्रेमवर्क स्थापित है।
 - IDE: विजुअल स्टूडियो या कोई अन्य .NET-संगत एकीकृत विकास वातावरण।
 - C# की बुनियादी समझ: आपको C# प्रोग्रामिंग भाषा की बुनियादी समझ की आवश्यकता होगी।
@@ -41,7 +43,7 @@ using Aspose.Words;
 सबसे पहले, आपको अपना प्रोजेक्ट एनवायरनमेंट सेट अप करना होगा। अपना IDE खोलें और एक नया .NET प्रोजेक्ट बनाएँ। Aspose.Words लाइब्रेरी का संदर्भ जोड़ें जिसे आपने पहले डाउनलोड किया था।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -63,17 +65,17 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## चरण 4: हेडर और फ़ुटर को अनलिंक करें
 
- यह कदम महत्वपूर्ण है। स्रोत दस्तावेज़ के शीर्षलेखों और पादलेखों को गंतव्य दस्तावेज़ से अलग करने के लिए, आप इसका उपयोग करेंगे`LinkToPrevious` विधि। यह विधि सुनिश्चित करती है कि हेडर और फ़ुटर संलग्न दस्तावेज़ में स्थानांतरित न हों।
+यह कदम महत्वपूर्ण है। स्रोत दस्तावेज़ के शीर्षलेखों और पादलेखों को गंतव्य दस्तावेज़ से अलग करने के लिए, आप इसका उपयोग करेंगे `LinkToPrevious` विधि। यह विधि सुनिश्चित करती है कि हेडर और फ़ुटर संलग्न दस्तावेज़ में स्थानांतरित न हों।
 
 ```csharp
 // इसे रोकने के लिए स्रोत दस्तावेज़ में शीर्षलेख और पादलेख को अनलिंक करें
-//गंतव्य दस्तावेज़ के शीर्षलेखों और पादलेखों को जारी रखने से रोकें।
+// गंतव्य दस्तावेज़ के शीर्षलेखों और पादलेखों को जारी रखने से रोकें।
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
 ```
 
 ## चरण 5: स्रोत दस्तावेज़ जोड़ें
 
- हेडर और फ़ुटर को अनलिंक करने के बाद, आप स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में जोड़ सकते हैं।`AppendDocument` विधि और आयात प्रारूप मोड को सेट करें`KeepSourceFormatting` स्रोत दस्तावेज़ के मूल स्वरूपण को बनाए रखने के लिए।
+हेडर और फ़ुटर को अनलिंक करने के बाद, आप स्रोत दस्तावेज़ को गंतव्य दस्तावेज़ में जोड़ सकते हैं। `AppendDocument` विधि और आयात प्रारूप मोड को सेट करें `KeepSourceFormatting` स्रोत दस्तावेज़ के मूल स्वरूपण को बनाए रखने के लिए।
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
@@ -96,21 +98,26 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
 ### .NET के लिए Aspose.Words क्या है?  
 Aspose.Words for .NET .NET अनुप्रयोगों में Word दस्तावेज़ों के साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह डेवलपर्स को प्रोग्रामेटिक रूप से दस्तावेज़ बनाने, संशोधित करने, परिवर्तित करने और प्रिंट करने की अनुमति देता है।
 
-### क्या मैं केवल विशिष्ट अनुभागों के लिए शीर्षलेखों और पादलेखों को अनलिंक कर सकता हूँ?  
- हां, आप विशिष्ट अनुभागों के लिए हेडर और फ़ुटर को अनलिंक कर सकते हैं`HeadersFooters` वांछित अनुभाग की संपत्ति और का उपयोग कर`LinkToPrevious` तरीका।
+### क्या मैं केवल विशिष्ट अनुभागों के लिए शीर्षलेख और पादलेख को अनलिंक कर सकता हूँ?  
+हां, आप विशिष्ट अनुभागों के लिए हेडर और फ़ुटर को अनलिंक कर सकते हैं `HeadersFooters` वांछित अनुभाग की संपत्ति और का उपयोग कर `LinkToPrevious` तरीका।
 
 ### क्या स्रोत दस्तावेज़ के मूल स्वरूप को बनाए रखना संभव है?  
- हां, स्रोत दस्तावेज़ जोड़ते समय, का उपयोग करें`ImportFormatMode.KeepSourceFormatting` मूल स्वरूपण को बनाए रखने का विकल्प।
+हां, स्रोत दस्तावेज़ जोड़ते समय, का उपयोग करें `ImportFormatMode.KeepSourceFormatting` मूल स्वरूपण को बनाए रखने का विकल्प।
 
 ### क्या मैं C# के अलावा अन्य .NET भाषाओं के साथ .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?  
-बिल्कुल! Aspose.Words for .NET का उपयोग किसी भी .NET भाषा के साथ किया जा सकता है, जिसमें VB.NET और F# भी शामिल हैं।
+बिल्कुल! .NET के लिए Aspose.Words का उपयोग किसी भी .NET भाषा के साथ किया जा सकता है, जिसमें VB.NET और F# शामिल हैं।
 
 ### मैं .NET के लिए Aspose.Words हेतु अधिक दस्तावेज़ और समर्थन कहां पा सकता हूं?  
- आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/) , और समर्थन उपलब्ध है[एस्पोज फोरम](https://forum.aspose.com/c/words/8).
+आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/), और समर्थन उपलब्ध है [एस्पोज फोरम](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

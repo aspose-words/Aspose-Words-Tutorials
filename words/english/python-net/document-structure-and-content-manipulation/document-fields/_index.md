@@ -7,8 +7,11 @@ weight: 12
 url: /python-net/document-structure-and-content-manipulation/document-fields/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handling Fields and Data in Word Documents
@@ -134,9 +137,13 @@ Yes, fields can be nested within each other to create complex dynamic content.
 
 For more detailed information and code examples, visit the [Aspose.Words for Python API reference](https://reference.aspose.com/words/python-net/). To download the latest version of the library, visit the [Aspose.Words for Python download page](https://releases.aspose.com/words/python/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

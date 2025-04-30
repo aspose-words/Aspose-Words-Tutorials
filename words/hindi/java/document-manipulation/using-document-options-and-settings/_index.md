@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना
-linktitle: दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words की शक्ति अनलॉक करें। सहज दस्तावेज़ प्रबंधन के लिए दस्तावेज़ विकल्प और सेटिंग्स में महारत हासिल करें। ऑप्टिमाइज़ करें, कस्टमाइज़ करें और बहुत कुछ।
-weight: 31
-url: /hi/java/document-manipulation/using-document-options-and-settings/
+"description": "Java के लिए Aspose.Words की शक्ति अनलॉक करें। सहज दस्तावेज़ प्रबंधन के लिए दस्तावेज़ विकल्प और सेटिंग्स में महारत हासिल करें। ऑप्टिमाइज़ करें, कस्टमाइज़ करें और बहुत कुछ करें।"
+"linktitle": "दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना
@@ -140,7 +142,7 @@ public void addJapaneseAsEditingLanguages() throws Exception
 
 ### मैं किसी दस्तावेज़ को किसी विशिष्ट Word संस्करण के लिए कैसे अनुकूलित करूँ?
 
- किसी दस्तावेज़ को किसी विशिष्ट Word संस्करण के लिए अनुकूलित करने के लिए, का उपयोग करें`optimizeFor` विधि और वांछित संस्करण निर्दिष्ट करें। उदाहरण के लिए, Word 2016 के लिए अनुकूलन करने के लिए:
+किसी दस्तावेज़ को किसी विशिष्ट Word संस्करण के लिए अनुकूलित करने के लिए, का उपयोग करें `optimizeFor` विधि और वांछित संस्करण निर्दिष्ट करें। उदाहरण के लिए, Word 2016 के लिए अनुकूलन करने के लिए:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ doc.save("Your Directory Path" + "ShowErrors.docx");
 
 ### मैं किसी दस्तावेज़ से डुप्लिकेट शैलियाँ कैसे हटा सकता हूँ?
 
-किसी दस्तावेज़ से डुप्लिकेट शैलियाँ हटाने के लिए, का उपयोग करें`cleanup` विधि के साथ`duplicateStyle` विकल्प सेट करें`true`यहाँ एक उदाहरण है:
+किसी दस्तावेज़ से डुप्लिकेट शैलियाँ हटाने के लिए, का उपयोग करें `cleanup` विधि के साथ `duplicateStyle` विकल्प सेट करें `true`यहाँ एक उदाहरण है:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### मैं किसी दस्तावेज़ के लिए देखने के विकल्प को कैसे अनुकूलित करूँ?
 
- आप दस्तावेज़ देखने के विकल्पों को अनुकूलित कर सकते हैं`ViewOptions` क्लास. उदाहरण के लिए, दृश्य प्रकार को पेज लेआउट और ज़ूम को 50% पर सेट करने के लिए:
+आप दस्तावेज़ देखने के विकल्पों को अनुकूलित कर सकते हैं `ViewOptions` क्लास. उदाहरण के लिए, दृश्य प्रकार को पेज लेआउट और ज़ूम को 50% पर सेट करने के लिए:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

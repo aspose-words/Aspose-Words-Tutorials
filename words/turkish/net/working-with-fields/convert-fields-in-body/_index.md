@@ -1,14 +1,16 @@
 ---
-title: Gövdedeki Alanları Dönüştür
-linktitle: Gövdedeki Alanları Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Belge işleme verimliliğini artırmak için Aspose.Words for .NET'i kullanarak belge alanlarını statik metne nasıl dönüştüreceğinizi öğrenin.
-weight: 10
-url: /tr/net/working-with-fields/convert-fields-in-body/
+"description": "Belge işleme verimliliğini artırmak için Aspose.Words for .NET'i kullanarak belge alanlarını statik metne nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "Gövdedeki Alanları Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Gövdedeki Alanları Dönüştür"
+"url": "/tr/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gövdedeki Alanları Dönüştür
@@ -22,7 +24,7 @@ url: /tr/net/working-with-fields/convert-fields-in-body/
 Aspose.Words for .NET kullanarak bir belgenin gövdesindeki alanları dönüştürmeye ilişkin eğitime başlamadan önce, aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
 - Visual Studio: .NET geliştirme için kuruldu ve yapılandırıldı.
--  Aspose.Words for .NET: Visual Studio projenizde indirilip referans olarak kullanılabilir. Buradan edinebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Visual Studio projenizde indirilip referans olarak kullanılabilir. Buradan edinebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Temel C# Bilgisi: Sağlanan kod parçacıklarını anlayıp değiştirebilmek için C# programlama diline aşinalık.
 
 ## Ad Alanlarını İçe Aktar
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` gerçek belgenize giden yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` gerçek belgenize giden yol ile.
 
 ## Adım 2: Alanları Tanımlayın ve Dönüştürün
 
@@ -68,7 +70,7 @@ Alanları dönüştürdükten sonra değiştirilen belgeyi kaydedin:
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Ayarlamak`"WorkingWithFields.ConvertFieldsInBody.docx"` İstenilen çıktı dosyası yolunu belirtmek için.
+Ayarlamak `"WorkingWithFields.ConvertFieldsInBody.docx"` İstenilen çıktı dosyası yolunu belirtmek için.
 
 ## Çözüm
 
@@ -86,13 +88,18 @@ Aspose.Words, DATE, PAGE, MERGEFIELD gibi çeşitli alan türlerini destekler ve
 Evet, Aspose.Words for .NET, DOCX, DOC, RTF ve daha birçok formattaki alanları sorunsuz bir şekilde dönüştürebilir ve düzenleyebilir.
 
 ### Aspose.Words for .NET için kapsamlı dokümanları nerede bulabilirim?
- Ayrıntılı dokümantasyon ve API referansları mevcuttur[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümantasyon ve API referansları mevcuttur [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

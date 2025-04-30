@@ -1,14 +1,16 @@
 ---
-title: Zdefiniuj formatowanie warunkowe
-linktitle: Zdefiniuj formatowanie warunkowe
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak definiować formatowanie warunkowe w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET. Popraw atrakcyjność wizualną i czytelność swojego dokumentu dzięki naszemu przewodnikowi.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/define-conditional-formatting/
+"description": "Dowiedz się, jak definiować formatowanie warunkowe w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET. Popraw atrakcyjność wizualną i czytelność swojego dokumentu dzięki naszemu przewodnikowi."
+"linktitle": "Zdefiniuj formatowanie warunkowe"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zdefiniuj formatowanie warunkowe"
+"url": "/pl/net/programming-with-table-styles-and-formatting/define-conditional-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zdefiniuj formatowanie warunkowe
@@ -21,10 +23,10 @@ Formatowanie warunkowe pozwala na zastosowanie określonego formatowania do kom�
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1. Aspose.Words dla .NET: Potrzebujesz biblioteki Aspose.Words dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Potrzebujesz biblioteki Aspose.Words dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: odpowiednie środowisko programistyczne, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna.
-4. Dokument Word: Dokument Word, do którego chcesz zastosować formatowanie warunkowe.
+4. Dokument Word: Dokument Word, w którym chcesz zastosować formatowanie warunkowe.
 
 ## Importuj przestrzenie nazw
 
@@ -44,7 +46,7 @@ Podzielmy ten proces na kilka kroków, aby łatwiej było go śledzić.
 Najpierw zdefiniuj ścieżkę do katalogu dokumentów. To tutaj zostanie zapisany dokument Word.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -122,13 +124,18 @@ Oczywiście! Możesz dostosować różne aspekty formatowania, w tym kolor tekst
 Tak, możesz zastosować formatowanie warunkowe do dowolnej tabeli, niezależnie od tego, czy jest ona nowo utworzona, czy już istnieje w dokumencie.
 
 ### Czy Aspose.Words dla platformy .NET obsługuje formatowanie warunkowe innych elementów dokumentu?
-Chociaż w tym samouczku skupiono się na tabelach, Aspose.Words for .NET oferuje rozbudowane opcje formatowania różnych elementów dokumentu.
+Chociaż ten samouczek skupia się na tabelach, Aspose.Words for .NET oferuje rozbudowane opcje formatowania różnych elementów dokumentu.
 
-### Czy mogę zautomatyzować formatowanie warunkowe w przypadku obszernych dokumentów?
-Tak, możesz zautomatyzować ten proces, stosując w kodzie pętle i warunki, co usprawni pracę w przypadku obszernych dokumentów.
+### Czy mogę zautomatyzować formatowanie warunkowe dużych dokumentów?
+Tak, możesz zautomatyzować ten proces, stosując w kodzie pętle i warunki, co usprawni pracę z dużymi dokumentami.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

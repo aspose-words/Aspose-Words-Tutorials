@@ -1,14 +1,16 @@
 ---
-title: Phần không giới hạn trong tài liệu Word
-linktitle: Phần không giới hạn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Mở khóa các phần cụ thể trong tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để bảo vệ nội dung nhạy cảm.
-weight: 10
-url: /vi/net/document-protection/unrestricted-section/
+"description": "Mở khóa các phần cụ thể trong tài liệu Word của bạn bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để bảo vệ nội dung nhạy cảm."
+"linktitle": "Phần không giới hạn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Phần không giới hạn trong tài liệu Word"
+"url": "/vi/net/document-protection/unrestricted-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phần không giới hạn trong tài liệu Word
@@ -19,12 +21,12 @@ Xin chào! Sẵn sàng khám phá thế giới Aspose.Words cho .NET chưa? Hôm
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào vấn đề, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
+Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho .NET: Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Hoặc bất kỳ IDE nào khác tương thích với .NET.
 - Hiểu biết cơ bản về C#: Một chút quen thuộc với C# sẽ giúp bạn dễ dàng hoàn thành hướng dẫn này.
--  Giấy phép Aspose: Lấy một[dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn cần nó để thử nghiệm.
+- Giấy phép Aspose: Lấy một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn cần nó để thử nghiệm.
 
 ## Nhập không gian tên
 
@@ -48,7 +50,7 @@ Trước tiên, bạn cần thiết lập đường dẫn đến thư mục tài
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Điều này rất quan trọng vì nó đảm bảo các tệp của bạn được lưu trữ ở đúng vị trí.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Điều này rất quan trọng vì nó đảm bảo các tệp của bạn được lưu trữ ở đúng vị trí.
 
 ### Tạo một tài liệu mới
 
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Các`Document` lớp khởi tạo một tài liệu mới và`DocumentBuilder` giúp chúng ta dễ dàng thêm nội dung vào tài liệu.
+Các `Document` lớp khởi tạo một tài liệu mới và `DocumentBuilder` giúp chúng ta dễ dàng thêm nội dung vào tài liệu.
 
 ## Bước 2: Chèn Phần
 
@@ -75,26 +77,26 @@ Dòng mã này thêm văn bản "Mục 1. Không được bảo vệ" vào tài 
 
 ### Thêm phần được bảo vệ
 
-Bây giờ, hãy thêm phần thứ hai và chèn ngắt phần để tách phần này khỏi phần đầu tiên.
+Bây giờ, chúng ta hãy thêm phần thứ hai và chèn ngắt phần để tách phần này khỏi phần đầu tiên.
 
 ```csharp
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2. Protected.");
 ```
 
- Các`InsertBreak` phương pháp này chèn một ngắt phần liên tục, cho phép chúng ta có các thiết lập khác nhau cho mỗi phần.
+Các `InsertBreak` phương pháp này chèn một ngắt phần liên tục, cho phép chúng ta có các thiết lập khác nhau cho mỗi phần.
 
 ## Bước 3: Bảo vệ tài liệu
 
 ### Bật bảo vệ tài liệu
 
- Để bảo vệ tài liệu, chúng tôi sẽ sử dụng`Protect` Phương pháp này đảm bảo rằng chỉ có các trường biểu mẫu mới có thể được chỉnh sửa trừ khi có chỉ định khác.
+Để bảo vệ tài liệu, chúng tôi sẽ sử dụng `Protect` Phương pháp này đảm bảo rằng chỉ có các trường biểu mẫu mới có thể được chỉnh sửa trừ khi có chỉ định khác.
 
 ```csharp
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 ```
 
- Ở đây, tài liệu được bảo vệ bằng mật khẩu và chỉ có thể chỉnh sửa các trường biểu mẫu. Hãy nhớ thay thế`"password"` bằng mật khẩu bạn muốn.
+Ở đây, tài liệu được bảo vệ bằng mật khẩu và chỉ có thể chỉnh sửa các trường biểu mẫu. Hãy nhớ thay thế `"password"` bằng mật khẩu bạn muốn.
 
 ### Bỏ bảo vệ phần cụ thể
 
@@ -116,7 +118,7 @@ Bây giờ là lúc lưu tài liệu của bạn với các thiết lập bảo 
 doc.Save(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 ```
 
- Thao tác này sẽ lưu tài liệu vào thư mục được chỉ định với tên`DocumentProtection.UnrestrictedSection.docx`.
+Thao tác này sẽ lưu tài liệu vào thư mục được chỉ định với tên `DocumentProtection.UnrestrictedSection.docx`.
 
 ### Tải Tài liệu
 
@@ -141,16 +143,21 @@ Có, bạn có thể bảo vệ và bỏ bảo vệ nhiều phần một cách c
 Có, bạn có thể mở lại tài liệu và sửa đổi cài đặt bảo vệ nếu cần.
 
 ### Có những loại bảo vệ nào khác có sẵn trong Aspose.Words?
- Aspose.Words hỗ trợ một số loại bảo vệ bao gồm`ReadOnly`, `Comments` , Và`TrackedChanges`.
+Aspose.Words hỗ trợ một số loại bảo vệ bao gồm `ReadOnly`, `Comments`, Và `TrackedChanges`.
 
 ### Tôi có thể bảo vệ tài liệu mà không cần mật khẩu không?
 Có, bạn có thể bảo vệ tài liệu mà không cần chỉ định mật khẩu.
 
 ### Làm sao tôi có thể kiểm tra xem một phần có được bảo vệ hay không?
- Bạn có thể kiểm tra`ProtectedForForms` thuộc tính của một phần để xác định xem nó có được bảo vệ hay không.
+Bạn có thể kiểm tra `ProtectedForForms` thuộc tính của một phần để xác định xem nó có được bảo vệ hay không.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

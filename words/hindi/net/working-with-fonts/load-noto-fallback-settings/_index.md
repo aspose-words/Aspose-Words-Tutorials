@@ -1,14 +1,16 @@
 ---
-title: नोटो फ़ॉलबैक सेटिंग्स लोड करें
-linktitle: नोटो फ़ॉलबैक सेटिंग्स लोड करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में Noto फ़ॉलबैक सेटिंग लोड करना सीखें। सभी वर्णों को सही ढंग से प्रदर्शित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/working-with-fonts/load-noto-fallback-settings/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में Noto फ़ॉलबैक सेटिंग लोड करना सीखें। सभी वर्णों को सही ढंग से प्रदर्शित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "नोटो फ़ॉलबैक सेटिंग्स लोड करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "नोटो फ़ॉलबैक सेटिंग्स लोड करें"
+"url": "/hi/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # नोटो फ़ॉलबैक सेटिंग्स लोड करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fonts/load-noto-fallback-settings/
 
 इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में उतरें, आइए उन पूर्व-आवश्यकताओं पर नजर डालें जिनकी आपको आवश्यकता होगी:
 
-1.  Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य संगत .NET विकास वातावरण।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना आवश्यक है।
 4. एक वर्ड दस्तावेज़: नोटो फ़ॉलबैक सेटिंग्स को लागू करने के लिए एक नमूना वर्ड दस्तावेज़।
@@ -52,11 +54,11 @@ using Aspose.Words.Fonts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने दस्तावेज़ फ़ोल्डर के वास्तविक पथ के साथ.
 
 ## चरण 3: अपना दस्तावेज़ लोड करें
 
-उस Word दस्तावेज़ को लोड करें जिस पर आप नोटो फ़ॉलबैक सेटिंग लागू करना चाहते हैं।`Document` Aspose.Words नामस्थान से क्लास.
+उस Word दस्तावेज़ को लोड करें जिस पर आप नोटो फ़ॉलबैक सेटिंग लागू करना चाहते हैं। `Document` Aspose.Words नामस्थान से क्लास.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## चरण 4: फ़ॉन्ट सेटिंग कॉन्फ़िगर करें
 
- इसका एक उदाहरण बनाएं`FontSettings` क्लास में जाकर नोटो फ़ॉलबैक सेटिंग्स लोड करें। यह चरण फ़ॉलबैक के रूप में नोटो फ़ॉन्ट का उपयोग करने के लिए फ़ॉन्ट सेटिंग्स को कॉन्फ़िगर करता है।
+इसका एक उदाहरण बनाएं `FontSettings` क्लास में जाकर नोटो फ़ॉलबैक सेटिंग्स लोड करें। यह चरण फ़ॉलबैक के रूप में नोटो फ़ॉन्ट का उपयोग करने के लिए फ़ॉन्ट सेटिंग्स को कॉन्फ़िगर करता है।
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -108,10 +110,15 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से .NET के लिए Aspose.Words स्थापित कर सकते हैं।
 
 ### क्या .NET के लिए Aspose.Words का कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การเข้าถึงบุ๊กมาร์กในเอกสาร Word
-linktitle: การเข้าถึงบุ๊กมาร์กในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเข้าถึงและจัดการบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 10
-url: /th/net/programming-with-bookmarks/access-bookmarks/
+"description": "เรียนรู้วิธีการเข้าถึงและจัดการบุ๊กมาร์กในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "การเข้าถึงบุ๊กมาร์กในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การเข้าถึงบุ๊กมาร์กในเอกสาร Word"
+"url": "/th/net/programming-with-bookmarks/access-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเข้าถึงบุ๊กมาร์กในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-bookmarks/access-bookmarks/
 
 ก่อนที่เราจะเข้าสู่คำแนะนำทีละขั้นตอน มีบางสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไว้ในเครื่องพัฒนาของคุณแล้ว
 - ความรู้พื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C#
 - เอกสาร Word: ตรวจสอบให้แน่ใจว่าคุณมีเอกสาร Word ที่มีบุ๊กมาร์กเพื่อใช้ทดสอบ
@@ -47,11 +49,11 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 คำอธิบาย:
 - `dataDir`:ตัวแปรนี้ควรมีเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
-- `Document doc = new Document(dataDir + "Bookmarks.docx");` :บรรทัดนี้จะโหลดเอกสาร Word ชื่อ "Bookmarks.docx" ลงใน`doc` วัตถุ.
+- `Document doc = new Document(dataDir + "Bookmarks.docx");`:บรรทัดนี้จะโหลดเอกสาร Word ชื่อ "Bookmarks.docx" ลงใน `doc` วัตถุ.
 
 ## ขั้นตอนที่ 2: เข้าถึงบุ๊กมาร์กโดยดัชนี
 
- คุณสามารถเข้าถึงบุ๊กมาร์กในเอกสาร Word ได้จากดัชนีของบุ๊กมาร์ก บุ๊กมาร์กจะถูกเก็บไว้ใน`Bookmarks` การรวบรวมของ`Range` วัตถุภายใน`Document`.
+คุณสามารถเข้าถึงบุ๊กมาร์กในเอกสาร Word ได้จากดัชนีของบุ๊กมาร์ก บุ๊กมาร์กจะถูกเก็บไว้ใน `Bookmarks` การรวบรวมของ `Range` วัตถุภายใน `Document`-
 
 ```csharp
 // การเข้าถึงบุ๊กมาร์กแรกโดยดัชนี
@@ -60,7 +62,7 @@ Bookmark bookmark1 = doc.Range.Bookmarks[0];
 
 คำอธิบาย:
 - `doc.Range.Bookmarks[0]`:นี่เป็นการเข้าถึงบุ๊กมาร์กแรกในเอกสาร
-- `Bookmark bookmark1 = doc.Range.Bookmarks[0];` : นี่จะเก็บบุ๊กมาร์กที่เข้าถึงไว้ใน`bookmark1` ตัวแปร.
+- `Bookmark bookmark1 = doc.Range.Bookmarks[0];`: นี่จะเก็บบุ๊กมาร์กที่เข้าถึงไว้ใน `bookmark1` ตัวแปร.
 
 ## ขั้นตอนที่ 3: เข้าถึงบุ๊กมาร์กตามชื่อ
 
@@ -73,7 +75,7 @@ Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];
 
 คำอธิบาย:
 - `doc.Range.Bookmarks["MyBookmark3"]`:นี่จะเข้าถึงบุ๊กมาร์กชื่อ "MyBookmark3"
-- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];` : นี่จะเก็บบุ๊กมาร์กที่เข้าถึงไว้ใน`bookmark2` ตัวแปร.
+- `Bookmark bookmark2 = doc.Range.Bookmarks["MyBookmark3"];`: นี่จะเก็บบุ๊กมาร์กที่เข้าถึงไว้ใน `bookmark2` ตัวแปร.
 
 ## ขั้นตอนที่ 4: จัดการเนื้อหาบุ๊กมาร์ก
 
@@ -100,14 +102,14 @@ builder.EndBookmark("NewBookmark");
 ```
 
 คำอธิบาย:
-- `DocumentBuilder builder = new DocumentBuilder(doc);` :นี่คือการเริ่มต้น`DocumentBuilder` วัตถุที่มีเอกสารที่โหลดไว้
+- `DocumentBuilder builder = new DocumentBuilder(doc);`:นี่คือการเริ่มต้น `DocumentBuilder` วัตถุที่มีเอกสารที่โหลดไว้
 - `builder.StartBookmark("NewBookmark");`:นี่คือการเริ่มบุ๊กมาร์กใหม่ที่ชื่อ "NewBookmark"
 - `builder.Write("This is a new bookmark.");`:นี่จะเขียนข้อความ "นี่คือบุ๊กมาร์กใหม่" ไว้ภายในบุ๊กมาร์ก
 - `builder.EndBookmark("NewBookmark");`:นี่คือการสิ้นสุดการบุ๊กมาร์กที่ชื่อ "NewBookmark"
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
-หลังจากทำการเปลี่ยนแปลงบุ๊กมาร์กแล้ว คุณจะต้องบันทึกเอกสารเพื่อคงการเปลี่ยนแปลงเหล่านั้นไว้
+หลังจากทำการเปลี่ยนแปลงบุ๊กมาร์กแล้ว คุณจะต้องบันทึกเอกสารเพื่อยืนยันการเปลี่ยนแปลงเหล่านั้น
 
 ```csharp
 // การบันทึกเอกสาร
@@ -115,7 +117,7 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
 คำอธิบาย:
-- `doc.Save(dataDir + "UpdatedBookmarks.docx");`:การดำเนินการนี้จะบันทึกเอกสารที่มีบุ๊กมาร์กที่อัปเดตเป็น "UpdatedBookmarks.docx" ในไดเร็กทอรีที่ระบุ
+- `doc.Save(dataDir + "UpdatedBookmarks.docx");`การดำเนินการนี้จะบันทึกเอกสารที่มีบุ๊กมาร์กที่อัปเดตเป็น "UpdatedBookmarks.docx" ในไดเร็กทอรีที่ระบุ
 
 ## บทสรุป
 
@@ -130,17 +132,22 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 ใช่ แต่คุณจะต้องระบุรหัสผ่านเมื่อโหลดเอกสารโดยใช้ Aspose.Words
 
 ### ฉันจะแสดงรายการบุ๊กมาร์กทั้งหมดในเอกสารได้อย่างไร
- คุณสามารถทำซ้ำผ่าน`Bookmarks` คอลเลกชันใน`Range` วัตถุของ`Document`.
+คุณสามารถทำซ้ำผ่าน `Bookmarks` คอลเลกชันใน `Range` วัตถุของ `Document`-
 
 ### ฉันสามารถลบบุ๊กมาร์กโดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่
- ใช่ คุณสามารถลบบุ๊กมาร์กได้โดยเรียก`Remove` วิธีการบนวัตถุที่คั่นหน้า
+ใช่ คุณสามารถลบบุ๊กมาร์กได้โดยเรียก `Remove` วิธีการบนวัตถุที่คั่นหน้า
 
 ### Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core หรือไม่
 ใช่ Aspose.Words สำหรับ .NET เข้ากันได้กับ .NET Core
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

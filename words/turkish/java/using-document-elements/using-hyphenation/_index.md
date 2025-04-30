@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Tireleme Kullanımı
-linktitle: Tireleme Kullanımı
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Bu kapsamlı eğitimle Aspose.Words for Java'da tirelemeyi etkili bir şekilde nasıl kullanacağınızı öğrenin. Belgenin okunabilirliğini bugün artırın!
-weight: 17
-url: /tr/java/using-document-elements/using-hyphenation/
+"description": "Bu kapsamlı eğitimle Aspose.Words for Java'da tirelemeyi etkili bir şekilde nasıl kullanacağınızı öğrenin. Belgenin okunabilirliğini bugün artırın!"
+"linktitle": "Tireleme Kullanımı"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Tireleme Kullanımı"
+"url": "/tr/java/using-document-elements/using-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Tireleme Kullanımı
@@ -22,7 +24,7 @@ Tireleme, kelimeleri hecelere ayırma ve belgelerdeki metin hizalamasını iyile
 
 ## 2. Ortamınızı Ayarlama
 
-Aspose.Words for Java'da tirelemeyi kullanmaya başlamadan önce, geliştirme ortamınızı ayarlamanız gerekir. Aşağıdakilere sahip olduğunuzdan emin olun:
+Java için Aspose.Words'de tirelemeyi kullanmaya başlamadan önce, geliştirme ortamınızı ayarlamanız gerekir. Aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Java Geliştirme Kiti (JDK) yüklendi
 - Java için Aspose.Words kütüphanesi
@@ -74,18 +76,23 @@ Evet yapabilirsiniz. Aspose.Words for Java, farklı diller için tireleme sözl�
 
 ### 3. Aspose.Words for Java'yı Java projeme entegre etmek kolay mı?
 
-Evet, Aspose.Words for Java, Java uygulamalarınıza entegre edilmesini kolaylaştıran kullanıcı dostu bir API sağlar.
+Evet, Aspose.Words for Java, Java uygulamalarınızla entegrasyonu kolaylaştıran kullanıcı dostu bir API sağlar.
 
 ### 4. Aspose.Words for Java için daha fazla kaynak ve desteği nerede bulabilirim?
 
- Ziyaret edebilirsiniz[Aspose.Words API Belgeleri](https://reference.aspose.com/words/java/) Ayrıntılı bilgi için. Destek ve tartışmalar için, şuraya göz atın:[Aspose.Words Forum](https://forum.aspose.com/).
+Ziyaret edebilirsiniz [Aspose.Words API Belgeleri](https://reference.aspose.com/words/java/) Ayrıntılı bilgi için. Destek ve tartışmalar için, şuraya göz atın: [Aspose.Words Forum](https://forum.aspose.com/).
 
 ### 5. Java için Aspose.Words'e nasıl erişebilirim?
 
- Java için Aspose.Words'e erişmek için,[buraya tıklayın](https://purchase.aspose.com/buy)Java uygulamalarınızda belge işlemenin gücünü deneyimleyin!
+Java için Aspose.Words'e erişmek için, [buraya tıklayın](https://purchase.aspose.com/buy)Java uygulamalarınızda belge işlemenin gücünü deneyimleyin!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

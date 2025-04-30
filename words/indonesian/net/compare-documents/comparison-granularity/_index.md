@@ -1,14 +1,16 @@
 ---
-title: Perbandingan Granularitas Dalam Dokumen Word
-linktitle: Perbandingan Granularitas Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari fitur Bandingkan Granularitas dalam dokumen Word Aspose.Words untuk .NET yang memungkinkan dokumen dibandingkan karakter demi karakter, melaporkan perubahan yang dibuat.
-weight: 10
-url: /id/net/compare-documents/comparison-granularity/
+"description": "Pelajari fitur Bandingkan Granularitas dalam dokumen Word Aspose.Words untuk .NET yang memungkinkan dokumen dibandingkan karakter demi karakter, melaporkan perubahan yang dibuat."
+"linktitle": "Perbandingan Granularitas Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Perbandingan Granularitas Dalam Dokumen Word"
+"url": "/id/net/compare-documents/comparison-granularity/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perbandingan Granularitas Dalam Dokumen Word
@@ -56,13 +58,13 @@ CompareOptions compareOptions = new CompareOptions { Granularity = Granularity.C
 
 ## Langkah 6: Perbandingan Dokumen
 
-Sekarang mari kita bandingkan dokumen menggunakan metode Compare dari kelas Document. Perubahan akan disimpan dalam dokumen A.
+Sekarang mari kita bandingkan dokumen-dokumen tersebut menggunakan metode Compare dari kelas Document. Perubahan akan disimpan dalam dokumen A.
 
 ```csharp
 builderA.Document.Compare(builderB.Document, "author", DateTime.Now, compareOptions);
 ```
 
- Itu`Compare`metode membandingkan dokumen A dengan dokumen B dan menyimpan perubahan pada dokumen A. Anda dapat menentukan nama penulis dan tanggal perbandingan untuk referensi.
+Itu `Compare` metode membandingkan dokumen A dengan dokumen B dan menyimpan perubahan pada dokumen A. Anda dapat menentukan nama penulis dan tanggal perbandingan untuk referensi.
 
 ## Kesimpulan
 
@@ -99,9 +101,9 @@ A: Granularitas Perbandingan di Aspose.Words untuk .NET memungkinkan Anda menent
 A: Untuk menggunakan Granularitas Perbandingan di Aspose.Words untuk .NET, ikuti langkah-langkah berikut:
 1. Siapkan lingkungan pengembangan Anda dengan pustaka Aspose.Words.
 2. Tambahkan rakitan yang diperlukan ke proyek Anda dengan merujuk Aspose.Words.
-3.  Buat dokumen yang ingin Anda bandingkan menggunakan`DocumentBuilder` kelas.
-4.  Konfigurasikan opsi perbandingan dengan membuat`CompareOptions` objek dan pengaturan`Granularity` properti ke tingkat yang diinginkan (misalnya,`Granularity.CharLevel` untuk perbandingan tingkat karakter).
-5.  Gunakan`Compare`metode pada satu dokumen, meneruskan dokumen lain dan`CompareOptions` objek sebagai parameter. Metode ini akan membandingkan dokumen berdasarkan tingkat ketelitian yang ditentukan dan menyimpan perubahan pada dokumen pertama.
+3. Buat dokumen yang ingin Anda bandingkan menggunakan `DocumentBuilder` kelas.
+4. Konfigurasikan opsi perbandingan dengan membuat `CompareOptions` objek dan pengaturan `Granularity` properti ke tingkat yang diinginkan (misalnya, `Granularity.CharLevel` untuk perbandingan tingkat karakter).
+5. Gunakan `Compare` metode pada satu dokumen, meneruskan dokumen lain dan `CompareOptions` objek sebagai parameter. Metode ini akan membandingkan dokumen berdasarkan tingkat ketelitian yang ditentukan dan menyimpan perubahan pada dokumen pertama.
 
 #### T: Apa saja tingkat Granularitas Perbandingan yang tersedia di Aspose.Words untuk .NET?
 
@@ -113,9 +115,14 @@ A: Aspose.Words untuk .NET menyediakan tiga tingkat Granularitas Perbandingan:
 #### T: Bagaimana saya dapat menafsirkan hasil perbandingan dengan tingkat ketelitian tingkat karakter?
 
 A: Dengan ketelitian tingkat karakter, setiap karakter dalam dokumen yang dibandingkan dianalisis untuk mengetahui perbedaannya. Hasil perbandingan akan menunjukkan perubahan pada tingkat karakter individual, termasuk penambahan, penghapusan, dan modifikasi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

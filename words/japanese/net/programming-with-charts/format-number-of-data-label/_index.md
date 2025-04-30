@@ -1,36 +1,38 @@
 ---
-title: グラフのデータラベルの数値をフォーマットする
-linktitle: グラフのデータラベルの数値をフォーマットする
-second_title: Aspose.Words ドキュメント処理 API
-description: このステップバイステップ ガイドでは、Aspose.Words for .NET を使用してグラフのデータ ラベルをフォーマットする方法を学習します。Word 文書を簡単に強化できます。
-weight: 10
-url: /ja/net/programming-with-charts/format-number-of-data-label/
+"description": "このステップバイステップガイドでは、Aspose.Words for .NET を使用してグラフのデータラベルを書式設定する方法を学習します。Word文書を簡単に強化できます。"
+"linktitle": "グラフのデータラベルの数値の書式設定"
+"second_title": "Aspose.Words ドキュメント処理 API"
+"title": "グラフのデータラベルの数値の書式設定"
+"url": "/ja/net/programming-with-charts/format-number-of-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# グラフのデータラベルの数値をフォーマットする
+# グラフのデータラベルの数値の書式設定
 
 ## 導入
 
-魅力的で情報豊富なドキュメントを作成するには、適切にフォーマットされたデータ ラベル付きのグラフを含めることがよく必要になります。Word ドキュメントを洗練されたグラフで強化したいと考えている .NET 開発者にとって、Aspose.Words for .NET はそれを実現するのに役立つ素晴らしいライブラリです。このチュートリアルでは、Aspose.Words for .NET を使用してグラフの数値ラベルをフォーマットするプロセスを段階的に説明します。
+魅力的で情報豊富なドキュメントを作成するには、多くの場合、適切にフォーマットされたデータラベル付きのグラフを含める必要があります。.NET開発者で、Word文書に洗練されたグラフを追加したいとお考えなら、Aspose.Words for .NETはまさにうってつけのライブラリです。このチュートリアルでは、Aspose.Words for .NETを使用してグラフ内の数値ラベルの書式を設定する手順を、ステップごとに解説します。
 
 ## 前提条件
 
 コードに進む前に、いくつかの前提条件を満たす必要があります。
 
--  Aspose.Words for .NET: Aspose.Words for .NETライブラリがインストールされていることを確認してください。まだインストールしていない場合は、[ここからダウンロード](https://releases.aspose.com/words/net/).
-- 開発環境: .NET 開発環境をセットアップする必要があります。Visual Studio を強くお勧めします。
-- C# の基礎知識: このチュートリアルでは C# コードの作成と理解が含まれるため、C# プログラミングの知識が必須です。
-- 一時ライセンス: Aspose.Wordsを制限なく使用するには、[一時ライセンス](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: Aspose.Words for .NETライブラリがインストールされていることを確認してください。まだインストールしていない場合は、 [ここからダウンロード](https://releases。aspose.com/words/net/).
+- 開発環境：.NET開発環境をセットアップする必要があります。Visual Studioを強く推奨します。
+- C# の基礎知識: このチュートリアルでは C# コードの記述と理解を行うため、C# プログラミングの知識が必須です。
+- 一時ライセンス: Aspose.Wordsを制限なく使用するには、 [一時ライセンス](https://purchase。aspose.com/temporary-license/).
 
 それでは、グラフ内の数値ラベルをフォーマットする手順を詳しく説明します。
 
 ## 名前空間のインポート
 
-まず最初に、Aspose.Words for .NET を操作するために必要な名前空間をインポートする必要があります。C# ファイルの先頭に次の行を追加します。
+まず最初に、Aspose.Words for .NET を使用するために必要な名前空間をインポートする必要があります。C# ファイルの先頭に次の行を追加してください。
 
 ```csharp
 using Aspose.Words;
@@ -40,17 +42,17 @@ using Aspose.Words.Drawing.Charts;
 
 ## ステップ1: ドキュメントディレクトリを設定する
 
-Word 文書の操作を開始する前に、文書を保存するディレクトリを指定する必要があります。これは、後で保存操作を行うために不可欠です。
+Word文書の操作を始める前に、文書を保存するディレクトリを指定する必要があります。これは、後の保存操作に不可欠です。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-交換する`"YOUR DOCUMENT DIRECTORY"`ドキュメント ディレクトリへの実際のパスを入力します。
+交換する `"YOUR DOCUMENT DIRECTORY"` ドキュメント ディレクトリへの実際のパスを入力します。
 
-## ステップ 2: ドキュメントと DocumentBuilder を初期化する
+## ステップ2: DocumentとDocumentBuilderを初期化する
 
-次のステップは、新しい`Document`そして`DocumentBuilder` 。`DocumentBuilder`ドキュメントのコンテンツを構築できるようにするヘルパー クラスです。
+次のステップは、新しい `Document` そして `DocumentBuilder`。その `DocumentBuilder` ドキュメントのコンテンツを構築できるようにするヘルパー クラスです。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ステップ3: ドキュメントにグラフを挿入する
 
-さて、ドキュメントにグラフを挿入してみましょう。`DocumentBuilder`このチュートリアルでは、折れ線グラフを例として使用します。
+それでは、 `DocumentBuilder`このチュートリアルでは、折れ線グラフを例として使用します。
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
@@ -71,13 +73,13 @@ chart.Title.Text = "Data Labels With Different Number Format";
 
 ## ステップ4: デフォルトのシリーズをクリアして新しいシリーズを追加する
 
-デフォルトでは、チャートには事前に生成されたシリーズがいくつか含まれます。これらをクリアし、特定のデータ ポイントを含む独自のシリーズを追加する必要があります。
+デフォルトでは、チャートにはいくつかの事前生成された系列が含まれています。これらをクリアし、特定のデータポイントを含む独自の系列を追加する必要があります。
 
 ```csharp
-//デフォルトで生成されたシリーズを削除します。
+// デフォルトで生成されたシリーズを削除します。
 chart.Series.Clear();
 
-//カスタム データ ポイントを使用して新しいシリーズを追加します。
+// カスタム データ ポイントを使用して新しいシリーズを追加します。
 ChartSeries series1 = chart.Series.Add("Aspose Series 1", 
 	new string[] { "Category 1", "Category 2", "Category 3" }, 
 	new double[] { 2.5, 1.5, 3.5 });
@@ -94,15 +96,15 @@ series1.DataLabels.ShowValue = true;
 
 ## ステップ6: データラベルの書式設定
 
-このチュートリアルの核となるのは、データ ラベルの書式設定です。各データ ラベルに個別に異なる数値書式を適用できます。
+このチュートリアルの核となるのは、データラベルの書式設定です。各データラベルに個別に異なる数値書式を適用できます。
 
 ```csharp
-series1.DataLabels[0].NumberFormat.FormatCode = "\"$\"#,##0.00"; //通貨形式
-series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; //日付形式
-series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; //パーセンテージ形式
+series1.DataLabels[0].NumberFormat.FormatCode = "\"$\"#,##0.00"; // 通貨形式
+series1.DataLabels[1].NumberFormat.FormatCode = "dd/mm/yyyy"; // 日付形式
+series1.DataLabels[2].NumberFormat.FormatCode = "0.00%"; // パーセンテージ形式
 ```
 
-さらに、データラベルの書式をソースセルにリンクすることもできます。リンクすると、`NumberFormat`一般にリセットされ、ソース セルから継承されます。
+さらに、データラベルの書式を元のセルにリンクすることもできます。リンクすると、 `NumberFormat` 一般にリセットされ、ソース セルから継承されます。
 
 ```csharp
 series1.DataLabels[2].NumberFormat.IsLinkedToSource = true;
@@ -120,7 +122,7 @@ doc.Save(dataDir + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 
 ## 結論
 
-Aspose.Words for .NET を使用してグラフのデータ ラベルを書式設定すると、Word 文書の読みやすさと専門性が大幅に向上します。このステップ バイ ステップ ガイドに従うことで、グラフを作成し、データ シリーズを追加し、ニーズに合わせてデータ ラベルを書式設定できるようになります。Aspose.Words for .NET は、Word 文書の広範なカスタマイズと自動化を可能にする強力なツールであり、.NET 開発者にとって非常に貴重な資産となります。
+Aspose.Words for .NET を使用してグラフのデータラベルを書式設定すると、Word 文書の読みやすさとプロフェッショナリズムが大幅に向上します。このステップバイステップガイドに従うことで、グラフを作成し、データ系列を追加し、ニーズに合わせてデータラベルを書式設定できるようになります。Aspose.Words for .NET は、Word 文書の広範なカスタマイズと自動化を可能にする強力なツールであり、.NET 開発者にとって非常に貴重な資産となります。
 
 ## よくある質問
 
@@ -131,17 +133,22 @@ Aspose.Words for .NET は、C# を使用してプログラム的に Word 文書�
 はい、Aspose.Words for .NET は、棒グラフ、縦棒グラフ、円グラフなど、さまざまな種類のグラフをサポートしています。
 
 ### Aspose.Words for .NET の一時ライセンスを取得するにはどうすればよいですか?
-臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+臨時免許証を取得できます [ここ](https://purchase。aspose.com/temporary-license/).
 
 ### Excel でデータ ラベルをソース セルにリンクすることは可能ですか?
 はい、データ ラベルをソース セルにリンクして、数値形式をソース セルから継承することができます。
 
 ### Aspose.Words for .NET の詳細なドキュメントはどこで入手できますか?
-包括的なドキュメントが見つかります[ここ](https://reference.aspose.com/words/net/).
+包括的なドキュメントが見つかります [ここ](https://reference。aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

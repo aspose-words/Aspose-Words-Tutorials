@@ -1,14 +1,16 @@
 ---
-title: Speichern von Bildern aus Dokumenten in Aspose.Words für Java
-linktitle: Bilder aus Dokumenten speichern
-second_title: Aspose.Words Java-API zur Dokumentverarbeitung
-description: Erfahren Sie in unserer umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Passen Sie Formate, Komprimierung und mehr an.
-weight: 17
-url: /de/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Erfahren Sie in unserer umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Passen Sie Formate, Komprimierung und mehr an."
+"linktitle": "Bilder aus Dokumenten speichern"
+"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
+"title": "Speichern von Bildern aus Dokumenten in Aspose.Words für Java"
+"url": "/de/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Speichern von Bildern aus Dokumenten in Aspose.Words für Java
@@ -16,15 +18,15 @@ url: /de/java/document-loading-and-saving/saving-images-from-documents/
 
 ## Einführung in das Speichern von Bildern aus Dokumenten in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Wir behandeln verschiedene Szenarien und Anpassungsoptionen zum Speichern von Bildern. Diese Anleitung enthält schrittweise Anweisungen mit Quellcodebeispielen.
+In diesem Tutorial erfahren Sie, wie Sie Bilder aus Dokumenten mit Aspose.Words für Java speichern. Wir behandeln verschiedene Szenarien und Anpassungsmöglichkeiten für die Bildspeicherung. Diese Anleitung enthält eine Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
 
 ## Voraussetzungen
 
- Bevor Sie beginnen, stellen Sie sicher, dass Sie die Aspose.Words für Java-Bibliothek in Ihr Projekt integriert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/words/java/).
+Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Words für Java-Bibliothek in Ihr Projekt integriert ist. Sie können sie hier herunterladen: [Hier](https://releases.aspose.com/words/java/).
 
 ## Schritt 1: Bilder als TIFF mit Schwellenwertkontrolle speichern
 
-Um Bilder im TIFF-Format mit Schwellenwertsteuerung zu speichern, führen Sie diese Schritte aus:
+Um Bilder im TIFF-Format mit Schwellenwertsteuerung zu speichern, führen Sie die folgenden Schritte aus:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -49,9 +51,9 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Schritt 3: Bilder als 1 BPP indiziertes PNG speichern
+## Schritt 3: Bilder als 1 BPP-indiziertes PNG speichern
 
-Um Bilder als 1 BPP-indiziertes PNG zu speichern, folgen Sie diesen Schritten:
+Um Bilder als 1 BPP-indiziertes PNG zu speichern, führen Sie diese Schritte aus:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -76,7 +78,7 @@ options.setHorizontalResolution(72f);
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Schritt 5: Verwenden des Rückrufs zum Speichern von Seiten
+## Schritt 5: Verwenden des Seitenspeicher-Rückrufs
 
 Sie können einen Rückruf verwenden, um das Speichern von Seiten anzupassen. Hier ist ein Beispiel:
 
@@ -141,12 +143,12 @@ public void getJpegPageRange() throws Exception
 	ImageSaveOptions options = new ImageSaveOptions();
 	// Setzen Sie „PageSet“ auf „0“, um nur die erste Seite eines Dokuments zu konvertieren.
 	options.setPageSet(new PageSet(0));
-	// Ändern Sie Helligkeit und Kontrast des Bildes.
+	// Ändern Sie die Helligkeit und den Kontrast des Bildes.
 	// Beide liegen auf einer Skala von 0 bis 1 und sind standardmäßig auf 0,5 eingestellt.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// Ändern Sie die horizontale Auflösung.
-	// Der Standardwert für diese Eigenschaften ist 96,0 bei einer Auflösung von 96 dpi.
+	// Der Standardwert für diese Eigenschaften ist 96,0, für eine Auflösung von 96 dpi.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Abschluss
 
-Sie haben gelernt, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Diese Beispiele zeigen verschiedene Anpassungsoptionen zum Speichern von Bildern, einschließlich Format, Komprimierung und Rückrufnutzung. Entdecken Sie weitere Möglichkeiten mit den leistungsstarken Funktionen von Aspose.Words für Java.
+Sie haben gelernt, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Diese Beispiele zeigen verschiedene Anpassungsmöglichkeiten für die Bildspeicherung, einschließlich Format, Komprimierung und Callback-Nutzung. Entdecken Sie weitere Möglichkeiten mit den leistungsstarken Funktionen von Aspose.Words für Java.
 
 ## Häufig gestellte Fragen
 
 ### Wie ändere ich das Bildformat beim Speichern mit Aspose.Words für Java?
 
- Sie können das Bildformat ändern, indem Sie das gewünschte Format im Feld`ImageSaveOptions` . Um beispielsweise als PNG zu speichern, verwenden Sie`SaveFormat.PNG` wie im Code gezeigt:
+Sie können das Bildformat ändern, indem Sie das gewünschte Format im Feld `ImageSaveOptions`. Um beispielsweise als PNG zu speichern, verwenden Sie `SaveFormat.PNG` wie im Code gezeigt:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,15 +195,15 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Wie kann ich eine bestimmte Seite aus einem Dokument als separates Bild speichern?
 
- Um eine bestimmte Seite als Bild zu speichern, verwenden Sie die`setPageSet`Methode in`ImageSaveOptions` . Um beispielsweise nur die erste Seite zu speichern, setzen Sie den`PageSet` Zu`new PageSet(0)`.
+Um eine bestimmte Seite als Bild zu speichern, verwenden Sie die `setPageSet` Methode in `ImageSaveOptions`. Um beispielsweise nur die erste Seite zu speichern, legen Sie die `PageSet` Zu `new PageSet(0)`.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Erste Seite als Bild speichern
+saveOptions.setPageSet(new PageSet(0)); // Speichern Sie die erste Seite als Bild
 ```
 
 ### Wie wende ich beim Speichern benutzerdefinierte Einstellungen auf JPEG-Bilder an?
 
-Sie können benutzerdefinierte Einstellungen auf JPEG-Bilder anwenden mit`ImageSaveOptions`. Passen Sie Eigenschaften wie Helligkeit, Kontrast und Auflösung an. Um beispielsweise die Helligkeit auf 0,3 und den Kontrast auf 0,7 zu ändern, verwenden Sie diesen Code:
+Sie können benutzerdefinierte Einstellungen auf JPEG-Bilder anwenden, indem Sie `ImageSaveOptions`Passen Sie Eigenschaften wie Helligkeit, Kontrast und Auflösung an. Um beispielsweise die Helligkeit auf 0,3 und den Kontrast auf 0,7 zu ändern, verwenden Sie diesen Code:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Wie kann ich einen Rückruf zum Anpassen der Bildspeicherung verwenden?
 
- Um einen Callback für die Anpassung der Bildspeicherung zu verwenden, setzen Sie die`PageSavingCallback` In`ImageSaveOptions` . Erstellen Sie eine Klasse, die das implementiert`IPageSavingCallback` Schnittstelle und überschreiben Sie die`pageSaving` Verfahren.
+Um einen Rückruf für die Anpassung der Bildspeicherung zu verwenden, setzen Sie die `PageSavIngCallback` in `ImageSaveOptions`. Erstellen Sie eine Klasse, die das implementiert `IPageSavingCallback` Schnittstelle und überschreiben Sie die `pageSaving` Verfahren.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Erstellen Sie dann eine Klasse, die das implementiert`IPageSavingCallback` Schnittstelle und passen Sie den Dateinamen und den Speicherort im`pageSaving` Verfahren.
+Erstellen Sie dann eine Klasse, die Folgendes implementiert: `IPageSavingCallback` Schnittstelle und passen Sie den Dateinamen und Speicherort in der `pageSaving` Verfahren.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

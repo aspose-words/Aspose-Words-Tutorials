@@ -1,14 +1,16 @@
 ---
-title: การใช้การแก้ไขใน Aspose.Words สำหรับ Java
-linktitle: การใช้การแก้ไข
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การใช้ Aspose.Words เพื่อแก้ไข Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
-weight: 22
-url: /th/java/using-document-elements/using-revisions/
+"description": "เรียนรู้การใช้ Aspose.Words เพื่อแก้ไข Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ"
+"linktitle": "การใช้การแก้ไข"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้การแก้ไขใน Aspose.Words สำหรับ Java"
+"url": "/th/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้การแก้ไขใน Aspose.Words สำหรับ Java
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //คือว่างเปล่า
 // การหยุดการติดตามการแก้ไขจะทำให้ข้อความนี้ปรากฏเป็นข้อความปกติ
-//การแก้ไขจะไม่นับเมื่อเอกสารมีการเปลี่ยนแปลง
+// การแก้ไขจะไม่นับเมื่อเอกสารมีการเปลี่ยนแปลง
 doc.stopTrackRevisions();
 // บันทึกเอกสาร
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
 
 ### 4. มีข้อกำหนดการออกใบอนุญาตสำหรับการใช้ Aspose.Words สำหรับ Java หรือไม่
 
- ใช่ คุณจะต้องได้รับใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถ[รับสิทธิ์เข้าถึงใบอนุญาตได้ที่นี่](https://purchase.aspose.com/buy).
+ใช่ คุณจะต้องได้รับใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถ [รับสิทธิ์เข้าถึงใบอนุญาตได้ที่นี่](https://purchase-aspose.com/buy).
 
 ### 5. ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
 
- หากมีคำถามหรือปัญหาใดๆ คุณสามารถเยี่ยมชมได้ที่[ฟอรัมสนับสนุน Aspose.Words สำหรับ Java](https://forum.aspose.com/).
+หากมีคำถามหรือปัญหาใดๆ คุณสามารถเยี่ยมชมได้ที่ [ฟอรัมสนับสนุน Aspose.Words สำหรับ Java](https://forum-aspose.com/).
 
 เริ่มต้นใช้งาน Aspose.Words สำหรับ Java วันนี้ และปรับปรุงกระบวนการจัดการเอกสารของคุณให้มีประสิทธิภาพ
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

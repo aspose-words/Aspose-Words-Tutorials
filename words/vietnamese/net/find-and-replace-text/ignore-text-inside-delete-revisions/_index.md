@@ -1,14 +1,16 @@
 ---
-title: Bỏ qua văn bản bên trong Xóa bản sửa đổi
-linktitle: Bỏ qua văn bản bên trong Xóa bản sửa đổi
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xử lý các bản sửa đổi được theo dõi trong tài liệu Word bằng Aspose.Words cho .NET. Làm chủ tự động hóa tài liệu với hướng dẫn toàn diện này.
-weight: 10
-url: /vi/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "Tìm hiểu cách xử lý các bản sửa đổi được theo dõi trong tài liệu Word bằng Aspose.Words cho .NET. Làm chủ tự động hóa tài liệu với hướng dẫn toàn diện này."
+"linktitle": "Bỏ qua văn bản bên trong Xóa bản sửa đổi"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bỏ qua văn bản bên trong Xóa bản sửa đổi"
+"url": "/vi/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ qua văn bản bên trong Xóa bản sửa đổi
@@ -22,8 +24,8 @@ Trong lĩnh vực phát triển .NET, Aspose.Words nổi bật như một thư v
 Trước khi bắt đầu hướng dẫn này, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 - Kiến thức cơ bản về ngôn ngữ lập trình C#.
 - Visual Studio được cài đặt trên hệ thống của bạn.
--  Aspose.Words cho thư viện .NET được tích hợp vào dự án của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
--  Truy cập vào Aspose.Words cho .NET[tài liệu](https://reference.aspose.com/words/net/) để tham khảo.
+- Aspose.Words cho thư viện .NET được tích hợp vào dự án của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
+- Truy cập vào Aspose.Words cho .NET [tài liệu](https://reference.aspose.com/words/net/) để tham khảo.
 
 ## Nhập không gian tên
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## Bước 1: Tạo một tài liệu mới và chèn văn bản
 
- Đầu tiên, khởi tạo một phiên bản mới của`Document` và một`DocumentBuilder` để bắt đầu xây dựng tài liệu của bạn:
+Đầu tiên, khởi tạo một phiên bản mới của `Document` và một `DocumentBuilder` để bắt đầu xây dựng tài liệu của bạn:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -90,11 +92,16 @@ Có, bạn có thể quản lý và khôi phục các bản sửa đổi đã th
 Aspose.Words cho .NET được tối ưu hóa để xử lý hiệu quả các tài liệu lớn, bao gồm cả những tài liệu có nhiều bản sửa đổi được theo dõi.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể khám phá tài liệu toàn diện và nhận hỗ trợ từ cộng đồng Aspose.Words cho .NET tại[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể khám phá tài liệu toàn diện và nhận hỗ trợ từ cộng đồng Aspose.Words cho .NET tại [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

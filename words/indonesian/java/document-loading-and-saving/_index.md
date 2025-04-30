@@ -1,14 +1,16 @@
 ---
-title: Memuat dan Menyimpan Dokumen
-linktitle: Memuat dan Menyimpan Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara memuat dan menyimpan dokumen secara efisien menggunakan Aspose.Words untuk Java dalam daftar tutorial lengkap kami. Kuasai manipulasi dokumen dengan mudah.
-weight: 20
-url: /id/java/document-loading-and-saving/
+"description": "Pelajari cara memuat dan menyimpan dokumen secara efisien menggunakan Aspose.Words untuk Java dalam daftar tutorial lengkap kami. Kuasai manipulasi dokumen dengan mudah."
+"linktitle": "Memuat dan Menyimpan Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Memuat dan Menyimpan Dokumen"
+"url": "/id/java/document-loading-and-saving/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memuat dan Menyimpan Dokumen
@@ -35,7 +37,7 @@ Bagi mereka yang ingin melampaui batas, teknik pemuatan canggih kami memberikan 
 
 ## Seni Menyimpan Dokumen
 
-Efisiensi tidak berhenti pada pemuatan; tetapi juga pada penyimpanan dokumen. Aspose.Words untuk Java membekali Anda dengan berbagai opsi untuk menyimpan dokumen yang telah dimanipulasi dengan presisi.
+Efisiensi tidak berhenti pada pemuatan; tetapi juga mencakup penyimpanan dokumen. Aspose.Words untuk Java membekali Anda dengan berbagai opsi untuk menyimpan dokumen yang telah dimanipulasi dengan presisi.
 
 ### Menyimpan dalam Format Berbeda
 
@@ -80,9 +82,13 @@ Pelajari cara menyimpan dokumen dalam format RTF menggunakan Aspose.Words untuk 
 Pelajari cara menyimpan dokumen sebagai berkas teks di Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode Java.
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
 Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Spasi Baris Font
-linktitle: Dapatkan Spasi Baris Font
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendapatkan spasi baris font menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/working-with-fonts/get-font-line-spacing/
+"description": "Pelajari cara mendapatkan spasi baris font menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Dapatkan Spasi Baris Font"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Spasi Baris Font"
+"url": "/id/net/working-with-fonts/get-font-line-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Spasi Baris Font
@@ -21,7 +23,7 @@ Aspose.Words untuk .NET adalah pustaka canggih yang memungkinkan Anda membuat, m
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Words untuk Pustaka .NET: Unduh dan instal versi terbaru dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Unduh dan instal versi terbaru dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan IDE seperti Visual Studio.
 3. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 
 ## Langkah 2: Inisialisasi DocumentBuilder
 
-Selanjutnya, kita perlu menginisialisasi`DocumentBuilder` objek. Objek ini akan membantu kita membuat dan memanipulasi konten dokumen.
+Selanjutnya, kita perlu menginisialisasi `DocumentBuilder` objek. Objek ini akan membantu kita membuat dan memanipulasi konten dokumen.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,7 +65,7 @@ builder.Font.Name = "Calibri";
 
 ## Langkah 4: Tulis Teks ke Dokumen
 
- Menggunakan`DocumentBuilder` objek, tulis beberapa teks ke dalam dokumen. Teks ini akan menggunakan properti font yang telah kita atur pada langkah sebelumnya.
+Menggunakan `DocumentBuilder` objek, tulis beberapa teks ke dalam dokumen. Teks ini akan menggunakan properti font yang kita atur pada langkah sebelumnya.
 
 ```csharp
 builder.Writeln("Sample Text");
@@ -98,16 +100,21 @@ Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk 
 Ya, Anda dapat menggunakan Aspose.Words untuk .NET dengan bahasa .NET apa pun, termasuk VB.NET dan F#.
 
 ### Bagaimana cara mengunduh Aspose.Words untuk .NET?
- Anda dapat mengunduh versi terbaru Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh versi terbaru Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
- Dokumentasi untuk Aspose.Words untuk .NET tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi untuk Aspose.Words untuk .NET tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

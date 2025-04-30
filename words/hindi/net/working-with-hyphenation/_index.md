@@ -1,14 +1,16 @@
 ---
-title: हाइफ़नेशन के साथ शब्द प्रसंस्करण
-linktitle: हाइफ़नेशन के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET के साथ Word दस्तावेज़ों में शब्द हाइफ़नेशन को प्रबंधित करना सीखें। संपूर्ण ट्यूटोरियल और व्यावहारिक उदाहरण शामिल हैं।
-weight: 750
-url: /hi/net/working-with-hyphenation/
+"description": "Aspose.Words for .NET के साथ Word दस्तावेज़ों में शब्द हाइफ़नेशन को प्रबंधित करना सीखें। संपूर्ण ट्यूटोरियल और व्यावहारिक उदाहरण शामिल हैं।"
+"linktitle": "हाइफ़नेशन के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "हाइफ़नेशन के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/working-with-hyphenation/"
+"weight": 750
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हाइफ़नेशन के साथ शब्द प्रसंस्करण
@@ -19,11 +21,16 @@ url: /hi/net/working-with-hyphenation/
 | शीर्षक | विवरण |
 | --- | --- |
 | [भाषाओं के शब्दों को हाइफ़न करें](./hyphenate-words-of-languages/) | .NET के लिए Aspose.Words का उपयोग करके विभिन्न भाषाओं में शब्दों को हाइफ़नेट करना सीखें। अपने दस्तावेज़ की पठनीयता बढ़ाने के लिए इस विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-| [भाषा के लिए हाइफ़नेशन शब्दकोश लोड करें](./load-hyphenation-dictionary-for-language/) | इस व्यापक, चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Words का उपयोग करके किसी भी भाषा के लिए हाइफ़नेशन शब्दकोश लोड करना सीखें। |
+| [भाषा के लिए हाइफ़नेशन शब्दकोश लोड करें](./load-hyphenation-dictionary-for-language/) इस व्यापक, चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Words का उपयोग करके किसी भी भाषा के लिए हाइफ़नेशन शब्दकोश लोड करना सीखें। |
 | [हाइफ़नेशन कॉलबैक](./hyphenation-callback/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ दस्तावेज़ स्वरूपण को बढ़ाने के लिए .NET के लिए Aspose.Words में हाइफ़नेशन कॉलबैक को लागू करना सीखें। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

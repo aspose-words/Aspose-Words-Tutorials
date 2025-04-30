@@ -1,28 +1,30 @@
 ---
-title: A dokumentumok átdolgozásának nyomon követése és áttekintése
-linktitle: A dokumentumok átdolgozásának nyomon követése és áttekintése
-second_title: Aspose.Words Python Document Management API
-description: Ismerje meg, hogyan lehet nyomon követni és áttekinteni a dokumentumok változatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a hatékony együttműködés érdekében. Tökéletesítse dokumentumkezelését még ma!
-weight: 23
-url: /hu/python-net/document-structure-and-content-manipulation/document-revisions/
+"description": "Tanuld meg, hogyan követheted nyomon és tekintheted át a dokumentumok módosításait az Aspose.Words for Python segítségével. Lépésről lépésre útmutató forráskóddal a hatékony együttműködéshez. Fejleszd a dokumentumkezelésedet még ma!"
+"linktitle": "Dokumentummódosítások nyomon követése és felülvizsgálata"
+"second_title": "Aspose.Words Python dokumentumkezelő API"
+"title": "Dokumentummódosítások nyomon követése és felülvizsgálata"
+"url": "/hu/python-net/document-structure-and-content-manipulation/document-revisions/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A dokumentumok átdolgozásának nyomon követése és áttekintése
+# Dokumentummódosítások nyomon követése és felülvizsgálata
 
 
-A dokumentumok felülvizsgálata és nyomon követése az együttműködésen alapuló munkakörnyezetek kulcsfontosságú szempontjai. Az Aspose.Words for Python hatékony eszközöket kínál a dokumentum-változatok hatékony nyomon követésére és áttekintésére. Ebben az átfogó útmutatóban lépésről lépésre megvizsgáljuk, hogyan érhetjük el ezt az Aspose.Words for Python használatával. Ennek az oktatóanyagnak a végére alapos ismerete lesz arról, hogyan integrálhatja a verziókövetési képességeket Python-alkalmazásaiba.
+dokumentumok felülvizsgálata és nyomon követése kulcsfontosságú szempontok az együttműködésen alapuló munkakörnyezetekben. Az Aspose.Words for Python hatékony eszközöket biztosít a dokumentumok felülvizsgálatának hatékony nyomon követéséhez és felülvizsgálatához. Ebben az átfogó útmutatóban lépésről lépésre megvizsgáljuk, hogyan érhető el ez az Aspose.Words for Python használatával. A bemutató végére szilárd ismeretekkel fog rendelkezni arról, hogyan integrálhatja a felülvizsgálatkövetési funkciókat a Python alkalmazásaiba.
 
 ## Bevezetés a dokumentum-revíziókba
 
-A dokumentum-revíziók során nyomon követik a dokumentumban idővel végrehajtott változásokat. Ez elengedhetetlen a közös íráshoz, a jogi dokumentumokhoz és a szabályozási megfeleléshez. Az Aspose.Words for Python leegyszerűsíti ezt a folyamatot azáltal, hogy átfogó eszközkészletet biztosít a dokumentumok revízióinak programozott kezelésére.
+A dokumentumjavítások magukban foglalják a dokumentumon végrehajtott módosítások időbeli nyomon követését. Ez elengedhetetlen a közös íráshoz, a jogi dokumentumokhoz és a szabályozási megfeleléshez. Az Aspose.Words for Python leegyszerűsíti ezt a folyamatot azáltal, hogy átfogó eszközkészletet biztosít a dokumentumjavítások programozott kezeléséhez.
 
-## Az Aspose.Words beállítása a Python számára
+## Az Aspose.Words beállítása Pythonhoz
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Words for Python telepítve van. Letöltheti innen[itt](https://releases.aspose.com/words/python/). A telepítés után a kezdéshez importálhatja a szükséges modulokat a Python-szkriptbe.
+Mielőtt elkezdenénk, győződjön meg róla, hogy telepítve van az Aspose.Words for Python. Letöltheti innen: [itt](https://releases.aspose.com/words/python/)telepítés után importálhatja a szükséges modulokat a Python szkriptbe az induláshoz.
 
 ```python
 import aspose.words as aw
@@ -30,7 +32,7 @@ import aspose.words as aw
 
 ## Dokumentum betöltése és megjelenítése
 
-Ha dolgozni szeretne egy dokumentummal, először be kell töltenie azt a Python alkalmazásba. A dokumentum betöltéséhez és tartalmának megjelenítéséhez használja a következő kódrészletet:
+Egy dokumentummal való munkához először be kell töltenie azt a Python alkalmazásába. Használja a következő kódrészletet a dokumentum betöltéséhez és tartalmának megjelenítéséhez:
 
 ```python
 doc = aw.Document("document.docx")
@@ -39,7 +41,7 @@ print(doc.get_text())
 
 ## Változások követésének engedélyezése
 
- A módosítások nyomon követésének engedélyezéséhez egy dokumentumhoz be kell állítania a`TrackRevisions`tulajdonát`True`:
+A dokumentum változásainak követésének engedélyezéséhez be kell állítania a `TrackRevisions` ingatlan `True`:
 
 ```python
 doc.track_revisions = True
@@ -47,16 +49,16 @@ doc.track_revisions = True
 
 ## Változatok hozzáadása a dokumentumhoz
 
-Ha bármilyen módosítás történik a dokumentumon, az Aspose.Words automatikusan nyomon tudja követni azokat revízióként. Például, ha egy adott szót le akarunk cserélni, ezt úgy tehetjük meg, hogy közben nyomon követjük a változást:
+Amikor bármilyen változtatást végzünk a dokumentumban, az Aspose.Words automatikusan nyomon tudja követni azokat módosításként. Például, ha egy adott szót le szeretnénk cserélni, ezt megtehetjük, miközben nyomon követjük a változást:
 
 ```python
 run = doc.get_child_nodes(aw.NodeType.RUN, True)[0]
 run.text = "modified content"
 ```
 
-## Változások áttekintése és elfogadása
+## Módosítások áttekintése és elfogadása
 
-A dokumentumban lévő változatok áttekintéséhez ismételje meg a változatgyűjteményt, és jelenítse meg őket:
+A dokumentumban található módosítások áttekintéséhez lépkedjen végig a módosításgyűjteményen, és jelenítse meg azokat:
 
 ```python
 revisions = doc.revisions
@@ -66,7 +68,7 @@ for revision in revisions:
 
 ## Különböző verziók összehasonlítása
 
-Az Aspose.Words lehetővé teszi két dokumentum összehasonlítását, hogy szemléltesse a köztük lévő különbségeket:
+Az Aspose.Words lehetővé teszi két dokumentum összehasonlítását, hogy láthatóvá váljanak a köztük lévő különbségek:
 
 ```python
 doc1 = aw.Document("document_v1.docx")
@@ -75,9 +77,9 @@ comparison = doc1.compare(doc2, "John Doe", datetime.now())
 comparison.save("comparison_result.docx")
 ```
 
-## Megjegyzések és megjegyzések kezelése
+## Megjegyzések és jegyzetek kezelése
 
-Az együttműködők megjegyzéseket és megjegyzéseket fűzhetnek a dokumentumhoz. Ezeket az elemeket programozottan kezelheti:
+Az együttműködők megjegyzéseket és jegyzeteket fűzhetnek a dokumentumokhoz. Ezeket az elemeket programozottan kezelheti:
 
 ```python
 comment = aw.Comment(doc, "John Doe", datetime.now(), "This is a comment.")
@@ -85,9 +87,9 @@ paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0)
 paragraph.insert_before(comment, paragraph.runs[0])
 ```
 
-## A változat megjelenésének testreszabása
+## A verzió megjelenésének testreszabása
 
-Testreszabhatja, hogy a változatok hogyan jelenjenek meg a dokumentumban, például módosíthatja a beszúrt és törölt szöveg színét:
+Testreszabhatja a javítások megjelenését a dokumentumban, például módosíthatja a beszúrt és törölt szöveg színét:
 
 ```python
 doc.revision_options.inserted_text_color = aw.layout.RevisionColor.GREEN
@@ -96,42 +98,47 @@ doc.revision_options.deleted_text_color = aw.layout.RevisionColor.RED
 
 ## Dokumentumok mentése és megosztása
 
-A revíziók áttekintése és elfogadása után mentse el a dokumentumot:
+A javítások áttekintése és elfogadása után mentse el a dokumentumot:
 
 ```python
 doc.save("final_document.docx")
 ```
 
-További visszajelzésért ossza meg a végleges dokumentumot az együttműködőkkel.
+Oszd meg a végleges dokumentumot a munkatársakkal további visszajelzésért.
 
 ## Következtetés
 
-Az Aspose.Words for Python leegyszerűsíti a dokumentumok felülvizsgálatát és nyomon követését, javítja az együttműködést és biztosítja a dokumentumok integritását. Hatékony funkcióival leegyszerűsítheti a dokumentumok áttekintésének, elfogadásának és kezelésének folyamatát.
+Az Aspose.Words for Python leegyszerűsíti a dokumentumok felülvizsgálatát és nyomon követését, javítja az együttműködést és biztosítja a dokumentumok integritását. Hatékony funkcióival gördülékenyebbé teheti a dokumentumokban végrehajtott módosítások áttekintésének, elfogadásának és kezelésének folyamatát.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Words for Python programot?
+### Hogyan telepíthetem az Aspose.Words Pythonhoz készült verzióját?
 
- Az Aspose.Words for Python innen letölthető[itt](https://releases.aspose.com/words/python/). Kövesse a telepítési utasításokat a környezetében történő beállításához.
+Az Aspose.Words Pythonhoz programot innen töltheted le: [itt](https://releases.aspose.com/words/python/)Kövesse a telepítési utasításokat a környezetében történő beállításhoz.
 
-### Letilthatom a revíziókövetést a dokumentum egyes részeinél?
+### Letilthatom a verziókövetést a dokumentum bizonyos részeire vonatkozóan?
 
-Igen, szelektíven letilthatja a revíziókövetést a dokumentum egyes részeinél, ha programozottan módosítja a`TrackRevisions` tulajdon azoknak a szakaszoknak.
+Igen, a dokumentum egyes szakaszaira vonatkozóan szelektíven letilthatja a verziókövetést programozott módon a `TrackRevisions` tulajdonság azokhoz a szakaszokhoz.
 
-### Lehetséges-e több közreműködő módosításainak egyesítése?
+### Lehetséges több közreműködőtől származó módosításokat egyesíteni?
 
-Teljesen. Az Aspose.Words lehetővé teszi a dokumentumok különböző verzióinak összehasonlítását és a változtatások zökkenőmentes összevonását.
+Abszolút. Az Aspose.Words lehetővé teszi egy dokumentum különböző verzióinak összehasonlítását és a változtatások zökkenőmentes összevonását.
 
-### Megőrzik a felülvizsgálati előzményeket a különböző formátumokba konvertáláskor?
+### Megőrződnek a verzióelőzmények különböző formátumokba konvertáláskor?
 
-Igen, a felülvizsgálati előzmények megőrződnek, amikor a dokumentumot az Aspose.Words használatával különböző formátumokba konvertálja.
+Igen, a módosítási előzmények megőrződnek, amikor az Aspose.Words segítségével különböző formátumokba konvertálod a dokumentumodat.
 
-### Hogyan fogadhatom el vagy utasíthatom el programozottan a módosításokat?
+### Hogyan tudom programozottan elfogadni vagy elutasítani a módosításokat?
 
-Az Aspose.Words API-függvényei segítségével ismételgetheti a változatgyűjteményt, és programozottan elfogadhatja vagy elutasíthatja az egyes változatokat.
+Az Aspose.Words API-függvényeivel programozottan elfogadhatja vagy elutasíthatja az egyes verziókat a verziógyűjteményben.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

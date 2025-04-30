@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/export-resources/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Resources
@@ -112,9 +115,13 @@ Yes, it supports various formats including PDF, DOCX, TXT, and more. Check out t
 ### Where can I get more support and resources?
 For more help, visit the [Aspose.Words Support Forum](https://forum.aspose.com/c/words/8). You can also find detailed documentation and examples on the [Aspose website](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

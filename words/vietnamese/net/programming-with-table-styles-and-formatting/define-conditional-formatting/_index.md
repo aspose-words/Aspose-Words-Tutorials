@@ -1,14 +1,16 @@
 ---
-title: Định nghĩa định dạng có điều kiện
-linktitle: Định nghĩa định dạng có điều kiện
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xác định định dạng có điều kiện trong tài liệu Word bằng Aspose.Words cho .NET. Tăng cường tính hấp dẫn trực quan và khả năng đọc của tài liệu của bạn bằng hướng dẫn của chúng tôi.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/define-conditional-formatting/
+"description": "Tìm hiểu cách xác định định dạng có điều kiện trong tài liệu Word bằng Aspose.Words cho .NET. Tăng cường tính hấp dẫn trực quan và khả năng đọc của tài liệu của bạn bằng hướng dẫn của chúng tôi."
+"linktitle": "Định nghĩa định dạng có điều kiện"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Định nghĩa định dạng có điều kiện"
+"url": "/vi/net/programming-with-table-styles-and-formatting/define-conditional-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định nghĩa định dạng có điều kiện
@@ -21,7 +23,7 @@ url: /vi/net/programming-with-table-styles-and-formatting/define-conditional-for
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho .NET: Bạn cần thư viện Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần thư viện Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một môi trường phát triển phù hợp như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ rất hữu ích.
 4. Tài liệu Word: Tài liệu Word mà bạn muốn áp dụng định dạng có điều kiện.
@@ -44,7 +46,7 @@ Hãy chia nhỏ quy trình thành nhiều bước để bạn dễ theo dõi hơ
 Đầu tiên, hãy xác định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi tài liệu Word của bạn sẽ được lưu.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -126,9 +128,14 @@ Trong khi hướng dẫn này tập trung vào bảng, Aspose.Words cho .NET cun
 
 ### Tôi có thể tự động định dạng có điều kiện cho các tài liệu lớn không?
 Có, bạn có thể tự động hóa quy trình bằng cách sử dụng vòng lặp và điều kiện trong mã của mình, giúp xử lý hiệu quả các tài liệu lớn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

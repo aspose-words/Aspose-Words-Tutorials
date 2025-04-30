@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Fields di Aspose.Words untuk Java
-linktitle: Menggunakan Fields
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan Aspose.Words untuk bidang Java secara efektif dalam tutorial langkah demi langkah ini. Buat dokumen Word yang dinamis dengan mudah.
-weight: 11
-url: /id/java/using-document-elements/using-fields/
+"description": "Pelajari cara menggunakan Aspose.Words untuk bidang Java secara efektif dalam tutorial langkah demi langkah ini. Buat dokumen Word yang dinamis dengan mudah."
+"linktitle": "Menggunakan Fields"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Fields di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Fields di Aspose.Words untuk Java
@@ -22,7 +24,7 @@ Aspose.Words untuk Java adalah alat penting bagi siapa saja yang menangani dokum
 
 ## 2. Menyiapkan Lingkungan Anda
 
- Sebelum memulai, pastikan Anda telah menginstal Aspose.Words untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/)Pastikan juga Anda telah menginstal Java dan lingkungan pengembangan terintegrasi (IDE) seperti Eclipse atau IntelliJ IDEA di sistem Anda.
+Sebelum memulai, pastikan Anda telah menginstal Aspose.Words untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/)Pastikan juga Anda telah menginstal Java dan lingkungan pengembangan terintegrasi (IDE) seperti Eclipse atau IntelliJ IDEA di sistem Anda.
 
 ## 3. Memuat Dokumen Word
 
@@ -34,7 +36,7 @@ string outPath = "Your Output Directory";
 Document doc = new Document(dataDir + "Mail merge destinations - Fax.docx");
 ```
 
- Mengganti`"Your Document Directory"` Dan`"Your Output Directory"` dengan jalur yang sesuai.
+Mengganti `"Your Document Directory"` Dan `"Your Output Directory"` dengan jalur yang sesuai.
 
 ## 4. Menyesuaikan Gabungan Surat
 
@@ -68,7 +70,7 @@ Setelah menyesuaikan dokumen Anda, Anda dapat menyimpannya menggunakan kode beri
 doc.save(outPath + "WorkingWithFields.MailMergeFormFields.docx");
 ```
 
- Mengganti`"Your Output Directory"` dengan jalur keluaran yang diinginkan.
+Mengganti `"Your Output Directory"` dengan jalur keluaran yang diinginkan.
 
 ## Kode Sumber Lengkap
 ```java
@@ -104,7 +106,7 @@ Kode sumber Kelas HandleMergeField
             if (mBuilder == null)
                 mBuilder = new DocumentBuilder(e.getDocument());
             // Kami memutuskan bahwa kami ingin semua nilai boolean dikeluarkan sebagai bidang formulir kotak centang.
-            if (e.getFieldValue() instanceof /*boolean*/Boolean)
+            if (e.getFieldValue() instanceof /*Bahasa Inggris Boolean*/Boolean)
             {
                 // Pindahkan "kursor" ke bidang gabungan saat ini.
                 mBuilder.moveToMergeField(e.getFieldName());
@@ -140,9 +142,12 @@ Kode sumber Kelas HandleMergeField
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        builder.writeln("{{#foreach example}}");
-        builder.writeln("{{Image(126pt;126pt):stempel}}");
-        builder.writeln("{{/foreach example}}");
+        builder.writeln("
+{{#foreach example}}");
+        builder.writeln("
+{{Image(126pt;126pt):stempel}}");
+        builder.writeln("
+{{/foreach example}}");
         doc.getMailMerge().setUseNonMergeFields(true);
         doc.getMailMerge().setTrimWhitespaces(true);
         doc.getMailMerge().setUseWholeParagraphAsRegion(false);
@@ -158,7 +163,7 @@ Kode sumber Kelas HandleMergeField
     {
         public void fieldMerging(FieldMergingArgs args)
         {
-            // Implementasi tidak diperlukan.
+            //  Implementasi tidak diperlukan.
         }
         public void imageFieldMerging(ImageFieldMergingArgs args) throws Exception
         {
@@ -211,7 +216,7 @@ Kode sumber Kelas HandleMergeField
         DocumentBuilder builder = new DocumentBuilder(doc);
         // Sisipkan MERGEFIELD yang bersarang di dalam kolom IF.
         // Karena pernyataan bidang IF salah, hasil MERGEFIELD bagian dalam tidak akan ditampilkan,
-        //dan MERGEFIELD tidak akan menerima data apa pun selama penggabungan surat.
+        // dan MERGEFIELD tidak akan menerima data apa pun selama penggabungan surat.
         FieldIf fieldIf = (FieldIf)builder.insertField(" IF 1 = 2 ");
         builder.moveTo(fieldIf.getSeparator());
         builder.insertField(" MERGEFIELD  FullName ");
@@ -315,7 +320,7 @@ Kode sumber Kelas HandleMergeField
                 Color rowColor = isOdd(mRowIdx) 
                     ? new Color((213), (227), (235)) 
                     : new Color((242), (242), (242));
-                //Saat ini tidak ada cara untuk menetapkan properti sel untuk seluruh baris, jadi kami harus mengulangi semua sel di baris tersebut.
+                // Saat ini tidak ada cara untuk menetapkan properti sel untuk seluruh baris, jadi kami harus mengulangi semua sel di baris tersebut.
                 for (int colIdx = 0; colIdx < 4; colIdx++)
                 {
                     mBuilder.moveToCell(0, mRowIdx, colIdx, 0);
@@ -366,26 +371,31 @@ Selamat! Anda telah mempelajari cara menggunakan kolom di Aspose.Words untuk Jav
 ## 7. Tanya Jawab Umum
 
 ### Q1: Di mana saya dapat mengunduh Aspose.Words untuk Java?
- Anda dapat mengunduh Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/).
+Anda dapat mengunduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ### Q2: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk Java?
- Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk Java?
- Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words[Di Sini](https://forum.aspose.com/).
+Untuk dukungan, Anda dapat mengunjungi forum Aspose.Words [Di Sini](https://forum.aspose.com/).
 
 ### Q4: Apakah Aspose.Words untuk Java cocok untuk menangani konten HTML dalam dokumen Word?
 Ya, Aspose.Words untuk Java menyediakan dukungan luar biasa untuk menangani konten HTML dalam dokumen Word.
 
 ### Q5: Dapatkah saya menggunakan Aspose.Words untuk Java secara gratis?
- Aspose.Words untuk Java adalah produk komersial, tetapi Anda dapat menjelajahi fiturnya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+Aspose.Words untuk Java adalah produk komersial, tetapi Anda dapat menjelajahi fiturnya dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/).
 
 Mulailah dengan Aspose.Words untuk Java hari ini dan kendalikan dokumen Word Anda seperti belum pernah sebelumnya!
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

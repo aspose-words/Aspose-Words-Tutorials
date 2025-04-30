@@ -1,14 +1,16 @@
 ---
-title: शीर्षलेखपादलेखसामग्रीहटाएँ
-linktitle: शीर्षलेखपादलेखसामग्रीहटाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर को हटाने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।
-weight: 10
-url: /hi/net/working-with-section/delete-header-footer-content/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर को हटाने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका कुशल दस्तावेज़ प्रबंधन सुनिश्चित करती है।"
+"linktitle": "शीर्षलेखपादलेखसामग्रीहटाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "शीर्षलेखपादलेखसामग्रीहटाएँ"
+"url": "/hi/net/working-with-section/delete-header-footer-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # शीर्षलेखपादलेखसामग्रीहटाएँ
@@ -21,7 +23,7 @@ url: /hi/net/working-with-section/delete-header-footer-content/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा .NET-संगत IDE.
 3. C# का बुनियादी ज्ञान: C# से परिचित होने से आपको आगे बढ़ने में मदद मिलेगी।
 4. नमूना वर्ड दस्तावेज़: परीक्षण के लिए एक वर्ड दस्तावेज़ तैयार रखें।
@@ -40,23 +42,23 @@ using Aspose.Words;
 
 कोड में कूदने से पहले, सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है और एक नमूना वर्ड दस्तावेज़ तैयार है।
 
-1.  Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words डाउनलोड और इंस्टॉल करें: इसे प्राप्त करें [यहाँ](https://releases.aspose.com/words/net/).
 2. अपना प्रोजेक्ट सेट करें: Visual Studio खोलें और एक नया .NET प्रोजेक्ट बनाएं।
 3. Aspose.Words संदर्भ जोड़ें: अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी शामिल करें।
 
 ## चरण 2: अपना दस्तावेज़ लोड करें
 
-पहली चीज जो हमें करने की ज़रूरत है वह है उस वर्ड दस्तावेज़ को लोड करना जिससे हम हेडर और फ़ुटर सामग्री को हटाना चाहते हैं।
+पहली चीज जो हमें करने की ज़रूरत है वह है उस वर्ड दस्तावेज़ को लोड करना जिससे हम हेडर और फ़ूटर सामग्री को हटाना चाहते हैं।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
 - `string dataDir = "YOUR DOCUMENT DIRECTORY";` वह निर्देशिका पथ निर्दिष्ट करता है जहाँ आपका दस्तावेज़ संग्रहीत है.
-- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है`doc` वस्तु।
+- `Document doc = new Document(dataDir + "Document.docx");` Word दस्तावेज़ को लोड करता है `doc` वस्तु।
 
 ## चरण 3: अनुभाग तक पहुंचें
 
@@ -76,7 +78,7 @@ Section section = doc.Sections[0];
 section.ClearHeadersFooters();
 ```
 
-- `section.ClearHeadersFooters();` निर्दिष्ट अनुभाग से सभी शीर्षलेख और पादलेख हटाता है.
+- `section.ClearHeadersFooters();` निर्दिष्ट अनुभाग से सभी शीर्षलेख और पादलेख हटाता है।
 
 ## चरण 5: संशोधित दस्तावेज़ सहेजें
 
@@ -86,7 +88,7 @@ section.ClearHeadersFooters();
 doc.Save(dataDir + "Document_Without_Headers_Footers.docx");
 ```
 
- प्रतिस्थापित करें`dataDir + "Document_Without_Headers_Footers.docx"` वास्तविक पथ के साथ जहाँ आप अपने संशोधित दस्तावेज़ को सहेजना चाहते हैं। कोड की यह पंक्ति हेडर और फ़ुटर के बिना अपडेट की गई वर्ड फ़ाइल को सहेजती है।
+प्रतिस्थापित करें `dataDir + "Document_Without_Headers_Footers.docx"` वास्तविक पथ के साथ जहाँ आप अपने संशोधित दस्तावेज़ को सहेजना चाहते हैं। कोड की यह पंक्ति हेडर और फ़ुटर के बिना अपडेट की गई वर्ड फ़ाइल को सहेजती है।
 
 ## निष्कर्ष
 
@@ -96,7 +98,7 @@ doc.Save(dataDir + "Document_Without_Headers_Footers.docx");
 
 ### मैं किसी दस्तावेज़ के सभी अनुभागों से शीर्षलेख और पादलेख कैसे साफ़ करूँ?
 
- आप दस्तावेज़ में प्रत्येक अनुभाग के माध्यम से पुनरावृति कर सकते हैं और कॉल कर सकते हैं`ClearHeadersFooters()` प्रत्येक अनुभाग के लिए विधि.
+आप दस्तावेज़ में प्रत्येक अनुभाग के माध्यम से पुनरावृति कर सकते हैं और कॉल कर सकते हैं `ClearHeadersFooters()` प्रत्येक अनुभाग के लिए विधि.
 
 ```csharp
 foreach (Section section in doc.Sections)
@@ -105,13 +107,13 @@ foreach (Section section in doc.Sections)
 }
 ```
 
-### क्या मैं केवल शीर्षलेख या केवल पादलेख साफ़ कर सकता हूँ?
+### क्या मैं केवल हेडर या केवल फ़ुटर साफ़ कर सकता हूँ?
 
- हां, आप केवल हेडर या फ़ुटर को एक्सेस करके साफ़ कर सकते हैं`HeadersFooters` अनुभाग का संग्रह और विशिष्ट शीर्षलेख या पादलेख को हटाना।
+हां, आप केवल हेडर या फ़ुटर को एक्सेस करके साफ़ कर सकते हैं `HeadersFooters` अनुभाग का संग्रह और विशिष्ट शीर्षलेख या पादलेख को हटाना।
 
 ### क्या यह विधि सभी प्रकार के शीर्षलेखों और पादलेखों को हटा देती है?
 
- हाँ,`ClearHeadersFooters()` प्रथम पृष्ठ, विषम, तथा सम शीर्षलेखों और पादलेखों सहित सभी शीर्षलेखों और पादलेखों को हटा देता है।
+हाँ, `ClearHeadersFooters()` प्रथम पृष्ठ, विषम, तथा सम शीर्षलेखों और पादलेखों सहित सभी शीर्षलेखों और पादलेखों को हटा देता है।
 
 ### क्या Aspose.Words for .NET Word दस्तावेज़ों के सभी संस्करणों के साथ संगत है?
 
@@ -119,11 +121,16 @@ foreach (Section section in doc.Sections)
 
 ### क्या मैं .NET के लिए Aspose.Words को निःशुल्क आज़मा सकता हूँ?
 
- हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप एक निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

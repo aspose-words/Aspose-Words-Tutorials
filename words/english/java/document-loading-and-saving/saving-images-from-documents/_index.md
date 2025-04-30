@@ -7,8 +7,11 @@ weight: 17
 url: /java/document-loading-and-saving/saving-images-from-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Images from Documents in Aspose.Words for Java
@@ -226,9 +229,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

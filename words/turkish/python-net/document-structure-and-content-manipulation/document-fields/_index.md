@@ -1,14 +1,16 @@
 ---
-title: Word Belgelerinde Alanları ve Verileri İşleme
-linktitle: Word Belgelerinde Alanları ve Verileri İşleme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak Word belgelerindeki alanları ve verileri nasıl işleyeceğinizi öğrenin. Dinamik içerik, otomasyon ve daha fazlası için kod örnekleriyle adım adım kılavuz.
-weight: 12
-url: /tr/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Python için Aspose.Words'ü kullanarak Word belgelerindeki alanları ve verileri nasıl işleyeceğinizi öğrenin. Dinamik içerik, otomasyon ve daha fazlası için kod örnekleriyle adım adım kılavuz."
+"linktitle": "Word Belgelerinde Alanları ve Verileri İşleme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerinde Alanları ve Verileri İşleme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgelerinde Alanları ve Verileri İşleme
@@ -26,7 +28,7 @@ Alanlar, verileri dinamik olarak görüntüleyen bir belgedeki yer tutuculardır
 
 ## Basit Alanların Eklenmesi
 
- Bir alan eklemek için şunu kullanabilirsiniz:`FieldBuilder` sınıf. Örneğin, geçerli bir tarih alanı eklemek için:
+Bir alan eklemek için şunu kullanabilirsiniz: `FieldBuilder` sınıf. Örneğin, geçerli bir tarih alanı eklemek için:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## Alanlardan Veri Çıkarma
 
- Alan verilerini kullanarak çıkarabilirsiniz`Field` sınıf:
+Alan verilerini kullanarak çıkarabilirsiniz `Field` sınıf:
 
 ```python
 field = doc.range.fields[0]
@@ -85,7 +87,7 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Alanlar köprü metinleri ve çapraz referanslar oluşturabilir:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Web sitemizi ziyaret edin"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
 ## Alan Biçimlerini Özelleştirme
@@ -112,7 +114,7 @@ Word belgelerindeki alanları ve verileri etkili bir şekilde işlemek, dinamik 
 
 ### Alan değerlerini manuel olarak nasıl güncellerim?
 
- Alan değerlerini manuel olarak güncellemek için alanı seçin ve tuşuna basın`F9`.
+Alan değerlerini manuel olarak güncellemek için alanı seçin ve tuşuna basın `F9`.
 
 ### Başlık ve altbilgi alanlarında alan kullanabilir miyim?
 
@@ -124,7 +126,7 @@ Alan türlerinin çoğu çeşitli Word biçimlerinde desteklenir, ancak bazılar
 
 ### Alanları yanlışlıkla yapılan düzenlemelerden nasıl koruyabilirim?
 
-Alanları yanlışlıkla yapılan düzenlemelerden kilitleyerek koruyabilirsiniz. Alana sağ tıklayın, "Alanı Düzenle"yi seçin ve "Kilitli" seçeneğini etkinleştirin.
+Alanları yanlışlıkla düzenlemeye karşı kilitleyerek koruyabilirsiniz. Alana sağ tıklayın, "Alanı Düzenle"yi seçin ve "Kilitli" seçeneğini etkinleştirin.
 
 ### Alanları birbirinin içine yerleştirmek mümkün müdür?
 
@@ -132,10 +134,15 @@ Evet, alanlar birbirinin içine yerleştirilerek karmaşık dinamik içerikler o
 
 ## Daha Fazla Kaynağa Erişim
 
- Daha ayrıntılı bilgi ve kod örnekleri için şu adresi ziyaret edin:[Aspose.Words for Python API referansı](https://reference.aspose.com/words/python-net/) Kütüphanenin en son sürümünü indirmek için şu adresi ziyaret edin:[Aspose.Words for Python indirme sayfası](https://releases.aspose.com/words/python/).
+Daha ayrıntılı bilgi ve kod örnekleri için şu adresi ziyaret edin: [Aspose.Words for Python API referansı](https://reference.aspose.com/words/python-net/)Kütüphanenin en son sürümünü indirmek için şu adresi ziyaret edin: [Aspose.Words for Python indirme sayfası](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

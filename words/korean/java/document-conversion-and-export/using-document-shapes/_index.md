@@ -1,32 +1,34 @@
 ---
-title: Java용 Aspose.Words에서 문서 모양 사용
-linktitle: 문서 모양 사용
-second_title: Aspose.Words Java 문서 처리 API
-description: Aspose.Words for Java에서 문서 모양의 힘을 잠금 해제하세요. 단계별 예제를 통해 시각적으로 매력적인 문서를 만드는 방법을 배우세요.
-weight: 14
-url: /ko/java/document-conversion-and-export/using-document-shapes/
+"description": "Aspose.Words for Java에서 문서 모양의 강력한 기능을 활용하세요. 단계별 예제를 통해 시각적으로 매력적인 문서를 만드는 방법을 알아보세요."
+"linktitle": "문서 모양 사용"
+"second_title": "Aspose.Words Java 문서 처리 API"
+"title": "Java용 Aspose.Words에서 문서 모양 사용"
+"url": "/ko/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java용 Aspose.Words에서 문서 모양 사용
 
 
-## Aspose.Words for Java에서 문서 모양 사용 소개
+## Java용 Aspose.Words에서 문서 모양 사용 소개
 
-이 포괄적인 가이드에서는 Aspose.Words for Java에서 문서 모양의 세계를 탐구해 보겠습니다. 모양은 시각적으로 매력적이고 대화형 문서를 만드는 데 필수적인 요소입니다. 콜아웃, 버튼, 이미지 또는 워터마크를 추가해야 하는지 여부에 관계없이 Aspose.Words for Java는 이를 효율적으로 수행할 수 있는 도구를 제공합니다. 소스 코드 예제를 통해 이러한 모양을 단계별로 사용하는 방법을 살펴보겠습니다.
+이 종합 가이드에서는 Aspose.Words for Java에서 문서 모양을 사용하는 방법을 자세히 알아보겠습니다. 모양은 시각적으로 매력적이고 인터랙티브한 문서를 만드는 데 필수적인 요소입니다. Aspose.Words for Java는 콜아웃, 버튼, 이미지 또는 워터마크를 추가해야 하는 경우 이를 효율적으로 수행할 수 있는 도구를 제공합니다. 소스 코드 예제를 통해 이러한 모양을 단계별로 사용하는 방법을 살펴보겠습니다.
 
 ## 문서 모양 시작하기
 
- 코드로 넘어가기 전에 환경을 설정해 보겠습니다. Aspose.Words for Java가 프로젝트에 통합되어 있는지 확인하세요. 아직 통합되어 있지 않다면 Aspose 웹사이트에서 다운로드할 수 있습니다.[Aspose.Words for Java 다운로드](https://releases.aspose.com/words/java/)
+코드 작성에 앞서 환경을 설정해 보겠습니다. 프로젝트에 Aspose.Words for Java가 통합되어 있는지 확인하세요. 아직 통합되어 있지 않다면 Aspose 웹사이트에서 다운로드할 수 있습니다. [Java용 Aspose.Words 다운로드](https://releases.aspose.com/words/java/)
 
-## 문서에 모양 추가
+## 문서에 도형 추가
 
 ### 그룹 모양 삽입
 
- 에이`GroupShape` 여러 모양을 함께 그룹화할 수 있습니다. 다음은 모양을 만들고 삽입하는 방법입니다.`GroupShape`:
+에이 `GroupShape` 여러 도형을 그룹화할 수 있습니다. 도형을 만들고 삽입하는 방법은 다음과 같습니다. `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### 텍스트 상자 모양 삽입
 
- 텍스트 상자 모양을 삽입하려면 다음을 사용할 수 있습니다.`insertShape` 아래 예시와 같은 방법:
+텍스트 상자 모양을 삽입하려면 다음을 사용할 수 있습니다. `insertShape` 아래 예에서 보여지는 것과 같은 방법:
 
 ```java
 Document doc = new Document();
@@ -83,7 +85,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptio
 
 ### 종횡비 관리
 
-도형의 종횡비를 잠글지 여부를 제어할 수 있습니다. 도형의 종횡비를 잠금 해제하는 방법은 다음과 같습니다.
+도형의 가로 세로 비율을 잠글지 여부를 제어할 수 있습니다. 도형의 가로 세로 비율을 잠금 해제하는 방법은 다음과 같습니다.
 
 ```java
 Document doc = new Document();
@@ -95,7 +97,7 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-### 테이블 셀에 모양 배치
+### 표 셀에 도형 배치
 
 테이블 셀 내부에 모양을 배치해야 하는 경우 다음 코드를 사용하여 이를 구현할 수 있습니다.
 
@@ -120,7 +122,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // 셀에 배치될 경우 표 셀 외부에 모양을 표시합니다.
+watermark.isLayoutInCell(true); // 셀에 배치될 경우, 표 셀 외부에 모양을 표시합니다.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -168,32 +170,37 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## 결론
 
-이 가이드에서는 Aspose.Words for Java에서 문서 모양의 세계를 살펴보았습니다. 문서에 다양한 모양을 추가하고, 속성을 조작하고, SmartArt 모양으로 작업하는 방법을 배웠습니다. 이러한 지식을 바탕으로 시각적으로 매력적이고 대화형 문서를 쉽게 만들 수 있습니다.
+이 가이드에서는 Aspose.Words for Java에서 문서 도형을 사용하는 방법을 살펴보았습니다. 문서에 다양한 도형을 추가하고, 속성을 조작하고, SmartArt 도형을 사용하는 방법을 배웠습니다. 이러한 지식을 바탕으로 시각적으로 매력적이고 인터랙티브한 문서를 쉽게 만들 수 있습니다.
 
 ## 자주 묻는 질문
 
 ### Java용 Aspose.Words란 무엇인가요?
 
-Aspose.Words for Java는 개발자가 Word 문서를 프로그래밍 방식으로 만들고, 수정하고, 변환할 수 있는 Java 라이브러리입니다. 다양한 형식의 문서 작업을 위한 광범위한 기능과 도구를 제공합니다.
+Aspose.Words for Java는 개발자가 Word 문서를 프로그래밍 방식으로 생성, 수정 및 변환할 수 있는 Java 라이브러리입니다. 다양한 형식의 문서 작업을 위한 광범위한 기능과 도구를 제공합니다.
 
-### Aspose.Words for Java를 어떻게 다운로드할 수 있나요?
+### Java용 Aspose.Words를 어떻게 다운로드할 수 있나요?
 
- 다음 링크를 따라 Aspose 웹사이트에서 Aspose.Words for Java를 다운로드할 수 있습니다.[Aspose.Words for Java 다운로드](https://releases.aspose.com/words/java/)
+다음 링크를 따라 Aspose 웹사이트에서 Aspose.Words for Java를 다운로드할 수 있습니다. [Java용 Aspose.Words 다운로드](https://releases.aspose.com/words/java/)
 
 ### 문서 모양을 사용하면 어떤 이점이 있나요?
 
-문서 모양은 문서에 시각적 요소와 상호 작용을 추가하여 더욱 매력적이고 유익한 정보를 제공합니다. 모양을 사용하면 콜아웃, 버튼, 이미지, 워터마크 등을 만들어 전반적인 사용자 경험을 향상시킬 수 있습니다.
+문서 도형은 문서에 시각적 요소와 상호 작용성을 추가하여 더욱 매력적이고 유익한 정보를 제공합니다. 도형을 사용하면 콜아웃, 버튼, 이미지, 워터마크 등을 제작하여 전반적인 사용자 경험을 향상시킬 수 있습니다.
 
 ### 모양의 모양을 사용자 정의할 수 있나요?
 
-네, 크기, 위치, 회전, 채우기 색상과 같은 속성을 조정하여 모양의 모양을 사용자 정의할 수 있습니다. Aspose.Words for Java는 모양 사용자 정의를 위한 광범위한 옵션을 제공합니다.
+네, 크기, 위치, 회전, 채우기 색상 등의 속성을 조정하여 도형의 모양을 사용자 지정할 수 있습니다. Aspose.Words for Java는 도형 사용자 지정을 위한 다양한 옵션을 제공합니다.
 
 ### Aspose.Words for Java는 SmartArt와 호환됩니까?
 
 네, Aspose.Words for Java는 SmartArt 도형을 지원하므로 문서에서 복잡한 다이어그램과 그래픽을 작업할 수 있습니다.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

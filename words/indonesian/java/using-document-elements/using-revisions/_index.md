@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Revisi di Aspose.Words untuk Java
-linktitle: Menggunakan Revisi
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan Aspose.Words untuk revisi Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
-weight: 22
-url: /id/java/using-document-elements/using-revisions/
+"description": "Pelajari cara menggunakan Aspose.Words untuk revisi Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda."
+"linktitle": "Menggunakan Revisi"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Revisi di Aspose.Words untuk Java"
+"url": "/id/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Revisi di Aspose.Words untuk Java
@@ -37,7 +39,7 @@ Paragraph para = body.getFirstParagraph();
 
 ## 4. Menambahkan Konten ke Dokumen
 
-Sekarang setelah Anda memiliki dokumen kosong, Anda dapat menambahkan konten ke dalamnya. Dalam contoh ini, kita akan menambahkan tiga paragraf:
+Sekarang Anda memiliki dokumen kosong, Anda dapat menambahkan konten ke dalamnya. Dalam contoh ini, kita akan menambahkan tiga paragraf:
 
 ```java
 para.appendChild(new Run(doc, "Paragraph 1. "));
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //adalah Is.Kosong
 // Menghentikan pelacakan revisi membuat teks ini muncul sebagai teks normal.
-//Revisi tidak dihitung saat dokumen diubah.
+// Revisi tidak dihitung saat dokumen diubah.
 doc.stopTrackRevisions();
 // Simpan dokumen.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ Ya, Anda dapat menggunakan Aspose.Words untuk Java untuk melacak revisi dalam do
 
 ### 4. Apakah ada persyaratan lisensi untuk menggunakan Aspose.Words untuk Java?
 
- Ya, Anda perlu memperoleh lisensi untuk menggunakan Aspose.Words untuk Java dalam proyek Anda. Anda dapat[dapatkan akses ke lisensi di sini](https://purchase.aspose.com/buy).
+Ya, Anda perlu memperoleh lisensi untuk menggunakan Aspose.Words untuk Java dalam proyek Anda. Anda dapat [dapatkan akses ke lisensi di sini](https://purchase.aspose.com/buy).
 
 ### 5. Di mana saya dapat menemukan dukungan untuk Aspose.Words untuk Java?
 
- Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi[Forum dukungan Aspose.Words untuk Java](https://forum.aspose.com/).
+Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi [Forum dukungan Aspose.Words untuk Java](https://forum.aspose.com/).
 
 Mulailah dengan Aspose.Words untuk Java hari ini dan sederhanakan proses manajemen dokumen Anda.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

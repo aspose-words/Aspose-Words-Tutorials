@@ -1,14 +1,16 @@
 ---
-title: Форматировать таблицу и ячейку с разными границами
-linktitle: Форматировать таблицу и ячейку с разными границами
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как форматировать таблицы и ячейки с разными границами, используя Aspose.Words для .NET. Улучшите свои документы Word с помощью настраиваемых стилей таблиц и затенения ячеек.
-weight: 10
-url: /ru/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": "Узнайте, как форматировать таблицы и ячейки с разными границами, используя Aspose.Words для .NET. Улучшите свои документы Word с помощью настраиваемых стилей таблиц и затенения ячеек."
+"linktitle": "Форматировать таблицу и ячейку с разными границами"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Форматировать таблицу и ячейку с разными границами"
+"url": "/ru/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Форматировать таблицу и ячейку с разными границами
@@ -22,8 +24,8 @@ url: /ru/net/programming-with-table-styles-and-formatting/format-table-and-cell-
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 - Базовые знания программирования на C#.
 - Visual Studio установлена на вашем компьютере.
--  Библиотека Aspose.Words for .NET. Если вы ее еще не установили, вы можете ее скачать[здесь](https://releases.aspose.com/words/net/).
--  Действующая лицензия Aspose. Вы можете получить бесплатную пробную версию или временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+- Библиотека Aspose.Words for .NET. Если вы ее еще не установили, вы можете ее скачать [здесь](https://releases.aspose.com/words/net/).
+- Действующая лицензия Aspose. Вы можете получить бесплатную пробную версию или временную лицензию от [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -40,7 +42,7 @@ using System.Drawing;
 Сначала вам необходимо создать новый документ и инициализировать DocumentBuilder, который помогает в создании содержимого документа. 
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -138,22 +140,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDi
 ## Часто задаваемые вопросы
 
 ### Можно ли использовать разные стили границ для каждой ячейки?
- Да, вы можете задать разные стили границ для каждой ячейки, используя`CellFormat.Borders` свойство.
+Да, вы можете задать разные стили границ для каждой ячейки, используя `CellFormat.Borders` свойство.
 
 ### Как удалить все границы таблицы?
- Вы можете удалить все границы, установив стиль границ на`LineStyle.None`.
+Вы можете удалить все границы, установив стиль границ на `LineStyle.None`.
 
 ### Можно ли установить разные цвета границ для каждой ячейки?
- Конечно! Вы можете настроить цвет границы для каждой ячейки с помощью`CellFormat.Borders.Color` свойство.
+Конечно! Вы можете настроить цвет границы для каждой ячейки с помощью `CellFormat.Borders.Color` свойство.
 
 ### Могу ли я использовать изображения в качестве фона ячеек?
 Хотя Aspose.Words напрямую не поддерживает изображения в качестве фона ячеек, вы можете вставить изображение в ячейку и настроить его размер так, чтобы оно покрывало всю область ячейки.
 
 ### Как объединить ячейки в таблице?
- Вы можете объединить ячейки, используя`CellFormat.HorizontalMerge` и`CellFormat.VerticalMerge` характеристики.
+Вы можете объединить ячейки, используя `CellFormat.HorizontalMerge` и `CellFormat.VerticalMerge` характеристики.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

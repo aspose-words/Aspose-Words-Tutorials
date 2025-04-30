@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/retrieve-preferred-width-type/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve Preferred Width Type
@@ -126,9 +129,13 @@ This tutorial specifically covers Word documents. For other document types, you 
 
 Yes, Aspose.Words for .NET is a licensed product. You can get a free trial [here](https://releases.aspose.com/) or a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

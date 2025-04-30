@@ -1,33 +1,35 @@
 ---
-title: Formázott táblázat
-linktitle: Formázott táblázat
-second_title: Aspose.Words Document Processing API
-description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre és formázhat táblázatokat Word dokumentumokban az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/programming-with-tables/formatted-table/
+"description": "Tanuld meg, hogyan hozhatsz létre és formázhatsz táblázatokat Word-dokumentumokban az Aspose.Words for .NET segítségével ebből a részletes, lépésről lépésre haladó útmutatóból."
+"linktitle": "Formázott táblázat"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Formázott táblázat"
+"url": "/hu/net/programming-with-tables/formatted-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formázott táblázat
 
 ## Bevezetés
 
-A Word-dokumentumok táblázatainak programozott létrehozása és formázása ijesztő feladatnak tűnhet, de az Aspose.Words for .NET segítségével egyszerűvé és kezelhetővé válik. Ebben az oktatóanyagban végigvezetjük, hogyan hozhat létre formázott táblázatot Word-dokumentumban az Aspose.Words for .NET használatával. A környezet beállításától a dokumentum gyönyörűen formázott táblázattal történő mentéséig mindenre kiterjedünk.
+A Word-dokumentumokban lévő táblázatok programozott létrehozása és formázása ijesztő feladatnak tűnhet, de az Aspose.Words for .NET segítségével ez egyszerűvé és kezelhetővé válik. Ebben az oktatóanyagban végigvezetjük Önt azon, hogyan hozhat létre formázott táblázatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Mindent lefedünk a környezet beállításától kezdve a dokumentum gyönyörűen formázott táblázattal történő mentéséig.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
-1. Aspose.Words for .NET Library: Töltse le innen[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Egy IDE, mint a Visual Studio.
-3. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépen.
+1. Aspose.Words .NET könyvtárhoz: Töltse le innen [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Egy IDE, mint például a Visual Studio.
+3. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a gépén.
 
 ## Névterek importálása
 
-A tényleges kód megírása előtt importálnia kell a szükséges névtereket:
+A tényleges kód megírása előtt importálni kell a szükséges névtereket:
 
 ```csharp
 using System;
@@ -36,17 +38,17 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Először is meg kell határoznia a dokumentum mentési útvonalát.
+Először is meg kell adnia azt az elérési utat, ahová a dokumentumot menteni fogja.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahová a dokumentumot menteni szeretné.
+Csere `"YOUR DOCUMENT DIRECTORY"` a dokumentum tényleges mentési útvonalával.
 
-## 2. lépés: Inicializálja a Dokumentumot és a DocumentBuildert
+## 2. lépés: A dokumentum és a DocumentBuilder inicializálása
 
 Most inicializáljon egy új dokumentumot és egy DocumentBuilder objektumot.
 
@@ -55,11 +57,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- A`DocumentBuilder` egy segítő osztály, amely leegyszerűsíti az építési dokumentumok elkészítésének folyamatát.
+A `DocumentBuilder` egy segítő osztály, amely leegyszerűsíti a dokumentumok építésének folyamatát.
 
 ## 3. lépés: Indítsa el a táblázatot
 
- Ezután kezdje el a táblázat létrehozását a`StartTable` módszer.
+Ezután kezdje el létrehozni a táblázatot a `StartTable` módszer.
 
 ```csharp
 Table table = builder.StartTable();
@@ -68,15 +70,15 @@ builder.InsertCell();
 
 A táblázat elindításához cella beszúrása szükséges.
 
-## 4. lépés: Alkalmazza a táblázatos formázást
+## 4. lépés: Táblázatszintű formázás alkalmazása
 
-Alkalmazhat olyan formázást, amely a teljes táblázatot érinti. Például a bal oldali behúzás beállítása:
+Lehetőség van olyan formázást alkalmazni, amely az egész táblázatra hatással van. Például beállíthatja a bal oldali behúzást:
 
 ```csharp
 table.LeftIndent = 20.0;
 ```
 
-## 5. lépés: Formázza meg a fejlécesort
+## 5. lépés: A fejlécsor formázása
 
 Állítsa be a fejlécsor magasságát, igazítását és egyéb tulajdonságait.
 
@@ -92,9 +94,9 @@ builder.CellFormat.Width = 100.0;
 builder.Write("Header Row,\n Cell 1");
 ```
 
-Ebben a lépésben a fejlécsort kiemeljük a háttérszín, a betűméret és az igazítás beállításával.
+Ebben a lépésben a fejlécsor kiemelését a háttérszín, a betűméret és az igazítás beállításával végezzük.
 
-## 6. lépés: Szúrjon be további fejléccellákat
+## 6. lépés: További fejléccellák beszúrása
 
 További cellák beszúrása a fejlécsorba:
 
@@ -107,9 +109,9 @@ builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 ```
 
-## 7. lépés: Formázza meg a törzssorokat
+## 7. lépés: A törzs sorainak formázása
 
-A fejléc beállítása után formázza meg a táblázat törzsét:
+A fejléc beállítása után formázd meg a táblázat törzsét:
 
 ```csharp
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
@@ -119,9 +121,9 @@ builder.RowFormat.Height = 30.0;
 builder.RowFormat.HeightRule = HeightRule.Auto;
 ```
 
-## 8. lépés: Szúrjon be törzssorokat
+## 8. lépés: Törzs sorok beszúrása
 
-Szúrja be a törzssorokat a tartalommal:
+Szúrja be a törzs sorait tartalommal:
 
 ```csharp
 builder.InsertCell();
@@ -136,7 +138,7 @@ builder.Write("Row 1, Cell 3 Content");
 builder.EndRow();
 ```
 
-Ismételje meg a további soroknál:
+Ismételje meg a további sorok esetében:
 
 ```csharp
 builder.InsertCell();
@@ -151,39 +153,44 @@ builder.EndRow();
 builder.EndTable();
 ```
 
-## 9. lépés: Mentse el a dokumentumot
+## 9. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot a megadott könyvtárba:
+Végül mentse el a dokumentumot a megadott könyvtárba:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.FormattedTable.docx");
 ```
 
-Ezzel létrehoz és ment egy Word-dokumentumot a formázott táblázattal.
+Ez létrehoz és ment egy Word-dokumentumot a formázott táblázattal.
 
 ## Következtetés
 
-És megvan! Az alábbi lépések követésével jól formázott táblázatot hozhat létre Word-dokumentumban az Aspose.Words for .NET használatával. Ez a nagy teljesítményű könyvtár megkönnyíti a Word-dokumentumok programozott kezelését, így időt és erőfeszítést takarít meg.
+És íme! A következő lépéseket követve jól formázott táblázatot hozhat létre egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez a hatékony függvénykönyvtár megkönnyíti a Word-dokumentumok programozott kezelését, így időt és energiát takarít meg.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár Word-dokumentumok programozott létrehozásához, szerkesztéséhez és konvertálásához.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár Word-dokumentumok programozott létrehozásához, szerkesztéséhez és konvertálásához.
 
 ### Használhatok különböző színeket a különböző sorokhoz?
-Igen, különböző sorokra vagy cellákra eltérő formázást alkalmazhat, beleértve a színeket is.
+Igen, alkalmazhat különböző formázásokat, beleértve a színeket is, a különböző sorokra vagy cellákra.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET egy fizetős könyvtár, de beszerezheti a[ingyenes próbaverzió](https://releases.aspose.com/).
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy fizetős könyvtár, de letöltheti [ingyenes próba](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
- Támogatást kaphat a[Aspose közösségi fórumok](https://forum.aspose.com/c/words/8).
+Támogatást kaphatsz a [Aspose közösségi fórumok](https://forum.aspose.com/c/words/8).
 
 ### Létrehozhatok más típusú dokumentumokat az Aspose.Words for .NET segítségével?
-Igen, az Aspose.Words for .NET különféle dokumentumformátumokat támogat, beleértve a PDF, HTML és TXT fájlokat.
+Igen, az Aspose.Words for .NET számos dokumentumformátumot támogat, beleértve a PDF, HTML és TXT fájlokat.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

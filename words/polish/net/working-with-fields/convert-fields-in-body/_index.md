@@ -1,14 +1,16 @@
 ---
-title: Konwertuj pola w treści
-linktitle: Konwertuj pola w treści
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak konwertować pola dokumentu na tekst statyczny za pomocą Aspose.Words for .NET w celu zwiększenia wydajności przetwarzania dokumentów.
-weight: 10
-url: /pl/net/working-with-fields/convert-fields-in-body/
+"description": "Dowiedz się, jak konwertować pola dokumentu na tekst statyczny za pomocą Aspose.Words for .NET w celu zwiększenia wydajności przetwarzania dokumentów."
+"linktitle": "Konwertuj pola w treści"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Konwertuj pola w treści"
+"url": "/pl/net/working-with-fields/convert-fields-in-body/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj pola w treści
@@ -22,8 +24,8 @@ W obszarze rozwoju .NET dynamiczne zarządzanie zawartością dokumentu jest nie
 Zanim przejdziesz do samouczka dotyczącego konwersji pól w treści dokumentu za pomocą Aspose.Words dla platformy .NET, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Visual Studio: zainstalowany i skonfigurowany na potrzeby tworzenia oprogramowania .NET.
--  Aspose.Words dla .NET: Pobrane i przywoływane w projekcie Visual Studio. Można je uzyskać z[Tutaj](https://releases.aspose.com/words/net/).
-- Podstawowa znajomość języka C#: Znajomość języka programowania C# umożliwiająca zrozumienie i modyfikację udostępnionych fragmentów kodu.
+- Aspose.Words dla .NET: Pobrane i przywoływane w projekcie Visual Studio. Można je uzyskać z [Tutaj](https://releases.aspose.com/words/net/).
+- Podstawowa znajomość języka C#: Znajomość języka programowania C# umożliwiająca zrozumienie i modyfikację dostarczonych fragmentów kodu.
 
 ## Importuj przestrzenie nazw
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Linked fields.docx");
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką do Twojego dokumentu.
 
 ## Krok 2: Identyfikacja i konwersja pól
 
@@ -68,7 +70,7 @@ Zapisz zmodyfikowany dokument po konwersji pól:
 doc.Save(dataDir + "WorkingWithFields.ConvertFieldsInBody.docx");
 ```
 
- Regulować`"WorkingWithFields.ConvertFieldsInBody.docx"` aby określić ścieżkę do żądanego pliku wyjściowego.
+Regulować `"WorkingWithFields.ConvertFieldsInBody.docx"` aby określić ścieżkę do żądanego pliku wyjściowego.
 
 ## Wniosek
 
@@ -86,13 +88,18 @@ Aspose.Words obsługuje różne typy pól, takie jak DATE, PAGE, MERGEFIELD i in
 Tak, Aspose.Words dla .NET umożliwia płynną konwersję i manipulację polami w formatach DOCX, DOC, RTF i innych.
 
 ### Gdzie mogę znaleźć kompleksową dokumentację Aspose.Words dla .NET?
- Dostępna jest szczegółowa dokumentacja i odniesienia do interfejsu API[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja i odniesienia do interfejsu API [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Czy jest dostępna wersja próbna Aspose.Words dla .NET?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

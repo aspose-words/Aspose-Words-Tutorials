@@ -1,30 +1,32 @@
 ---
-title: Active XControl-Eigenschaften aus Word-Datei lesen
-linktitle: Active XControl-Eigenschaften aus Word-Datei lesen
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ActiveX-Steuerelementeigenschaften aus Word-Dateien lesen. Verbessern Sie Ihre Fähigkeiten zur Dokumentautomatisierung.
-weight: 10
-url: /de/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ActiveX-Steuerelementeigenschaften aus Word-Dateien lesen. Verbessern Sie Ihre Fähigkeiten zur Dokumentautomatisierung."
+"linktitle": "Active XControl-Eigenschaften aus Word-Datei lesen"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Active XControl-Eigenschaften aus Word-Datei lesen"
+"url": "/de/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Active XControl-Eigenschaften aus Word-Datei lesen
 
 ## Einführung
 
-Im heutigen digitalen Zeitalter ist Automatisierung der Schlüssel zur Produktivitätssteigerung. Wenn Sie mit Word-Dokumenten arbeiten, die ActiveX-Steuerelemente enthalten, müssen Sie möglicherweise deren Eigenschaften für verschiedene Zwecke lesen. ActiveX-Steuerelemente wie Kontrollkästchen und Schaltflächen können wichtige Daten enthalten. Mit Aspose.Words für .NET können Sie diese Daten effizient programmgesteuert extrahieren und bearbeiten.
+Im digitalen Zeitalter ist Automatisierung der Schlüssel zur Produktivitätssteigerung. Wenn Sie mit Word-Dokumenten arbeiten, die ActiveX-Steuerelemente enthalten, müssen Sie deren Eigenschaften möglicherweise für verschiedene Zwecke lesen. ActiveX-Steuerelemente wie Kontrollkästchen und Schaltflächen können wichtige Daten enthalten. Mit Aspose.Words für .NET können Sie diese Daten effizient programmgesteuert extrahieren und bearbeiten.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Aspose.Words für .NET-Bibliothek: Sie können es herunterladen von[Hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET-Bibliothek: Sie können es herunterladen von [Hier](https://releases.aspose.com/words/net/).
 2. Visual Studio oder eine beliebige C#-IDE: Zum Schreiben und Ausführen Ihres Codes.
 3. Ein Word-Dokument mit ActiveX-Steuerelementen: Zum Beispiel „ActiveX-Steuerelemente.docx“.
-4. Grundkenntnisse in C#: Um den Kurs befolgen zu können, sind Kenntnisse in der C#-Programmierung erforderlich.
+4. Grundkenntnisse in C#: Um den Kurs erfolgreich absolvieren zu können, sind Kenntnisse in der C#-Programmierung erforderlich.
 
 ## Namespaces importieren
 
@@ -39,7 +41,7 @@ using System;
 
 ## Schritt 1: Laden Sie das Word-Dokument
 
-Um zu beginnen, müssen Sie das Word-Dokument laden, das die ActiveX-Steuerelemente enthält.
+Zu Beginn müssen Sie das Word-Dokument laden, das die ActiveX-Steuerelemente enthält.
 
 ```csharp
 // Pfad zu Ihrem Dokumentverzeichnis
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ActiveX controls.docx");
 ```
 
-## Schritt 2: Initialisieren Sie eine Zeichenfolge zum Speichern von Eigenschaften
+## Schritt 2: Initialisieren einer Zeichenfolge zum Speichern von Eigenschaften
 
 Initialisieren Sie als Nächstes eine leere Zeichenfolge, um die Eigenschaften der ActiveX-Steuerelemente zu speichern.
 
@@ -74,7 +76,7 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 
 ## Schritt 4: Eigenschaften aus ActiveX-Steuerelementen extrahieren
 
-Überprüfen Sie innerhalb der Schleife, ob das Steuerelement ein Forms2OleControl ist. Wenn dies der Fall ist, konvertieren Sie es und extrahieren Sie die Eigenschaften.
+Überprüfen Sie innerhalb der Schleife, ob das Steuerelement ein Forms2OleControl ist. Wenn ja, konvertieren Sie es und extrahieren Sie die Eigenschaften.
 
 ```csharp
 Forms2OleControl checkBox = (Forms2OleControl) oleControl;
@@ -99,7 +101,7 @@ Zählen Sie nach dem Durchlaufen aller Formen die Gesamtzahl der gefundenen Acti
 properties += "\nTotal ActiveX Controls found: " + doc.GetChildNodes(NodeType.Shape, true).Count;
 ```
 
-## Schritt 6: Eigenschaften anzeigen
+## Schritt 6: Anzeigen der Eigenschaften
 
 Drucken Sie abschließend die extrahierten Eigenschaften auf der Konsole aus.
 
@@ -109,27 +111,32 @@ Console.WriteLine("\n" + properties);
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Words für .NET ActiveX-Steuerelementeigenschaften aus einem Word-Dokument lesen. In diesem Tutorial wurde das Laden eines Dokuments, das Durchlaufen von Formen und das Extrahieren von Eigenschaften aus ActiveX-Steuerelementen behandelt. Indem Sie diese Schritte befolgen, können Sie die Extraktion wichtiger Daten aus Ihren Word-Dokumenten automatisieren und so die Effizienz Ihres Workflows steigern.
+Und da haben Sie es! Sie haben erfolgreich gelernt, wie Sie ActiveX-Steuerelementeigenschaften aus einem Word-Dokument mit Aspose.Words für .NET lesen. Dieses Tutorial behandelte das Laden eines Dokuments, das Durchlaufen von Formen und das Extrahieren von Eigenschaften aus ActiveX-Steuerelementen. Mit diesen Schritten können Sie die Extraktion wichtiger Daten aus Ihren Word-Dokumenten automatisieren und so Ihre Workflow-Effizienz steigern.
 
 ## Häufig gestellte Fragen
 
 ### Was sind ActiveX-Steuerelemente in Word-Dokumenten?
-ActiveX-Steuerelemente sind in Word-Dokumente eingebettete interaktive Objekte wie Kontrollkästchen, Schaltflächen und Textfelder, die zum Erstellen von Formularen und Automatisieren von Aufgaben verwendet werden.
+ActiveX-Steuerelemente sind interaktive Objekte, die in Word-Dokumente eingebettet sind, wie etwa Kontrollkästchen, Schaltflächen und Textfelder, die zum Erstellen von Formularen und Automatisieren von Aufgaben verwendet werden.
 
 ### Kann ich die Eigenschaften von ActiveX-Steuerelementen mit Aspose.Words für .NET ändern?
 Ja, mit Aspose.Words für .NET können Sie die Eigenschaften von ActiveX-Steuerelementen programmgesteuert ändern.
 
 ### Ist die Nutzung von Aspose.Words für .NET kostenlos?
- Aspose.Words für .NET bietet eine kostenlose Testversion an, aber Sie müssen eine Lizenz erwerben, um es weiterhin nutzen zu können. Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+Aspose.Words für .NET bietet eine kostenlose Testversion an, für die weitere Nutzung ist jedoch eine Lizenz erforderlich. Sie können eine kostenlose Testversion erhalten [Hier](https://releases.aspose.com/).
 
 ### Kann ich Aspose.Words für .NET mit anderen .NET-Sprachen außer C# verwenden?
 Ja, Aspose.Words für .NET kann mit jeder .NET-Sprache verwendet werden, einschließlich VB.NET und F#.
 
 ### Wo finde ich weitere Dokumentation zu Aspose.Words für .NET?
- Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/words/net/).
+Eine ausführliche Dokumentation finden Sie [Hier](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

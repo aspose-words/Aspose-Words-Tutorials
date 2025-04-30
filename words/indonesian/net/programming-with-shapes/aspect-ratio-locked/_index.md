@@ -1,14 +1,16 @@
 ---
-title: Rasio Aspek Terkunci
-linktitle: Rasio Aspek Terkunci
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengunci rasio aspek bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menjaga gambar dan bentuk Anda tetap proporsional.
-weight: 10
-url: /id/net/programming-with-shapes/aspect-ratio-locked/
+"description": "Pelajari cara mengunci rasio aspek bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk menjaga gambar dan bentuk Anda tetap proporsional."
+"linktitle": "Rasio Aspek Terkunci"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Rasio Aspek Terkunci"
+"url": "/id/net/programming-with-shapes/aspect-ratio-locked/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rasio Aspek Terkunci
@@ -21,7 +23,7 @@ Pernahkah Anda bertanya-tanya bagaimana cara mempertahankan proporsi gambar dan 
 
 Sebelum kita menyelami kodenya, mari kita bahas apa saja yang Anda perlukan untuk memulai:
 
-- Pustaka Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Visual Studio merupakan pilihan yang populer.
 - Pengetahuan Dasar C#: Sedikit pengetahuan tentang pemrograman C# akan sangat membantu.
 
@@ -36,7 +38,7 @@ using Aspose.Words.Drawing;
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Sebelum kita mulai memanipulasi bentuk, kita perlu menyiapkan direktori tempat dokumen kita akan disimpan. Demi kesederhanaan, kita akan menggunakan placeholder`YOUR DOCUMENT DIRECTORY`Ganti ini dengan jalur sebenarnya ke direktori dokumen Anda.
+Sebelum kita mulai memanipulasi bentuk, kita perlu menyiapkan direktori tempat dokumen kita akan disimpan. Demi kesederhanaan, kita akan menggunakan placeholder `YOUR DOCUMENT DIRECTORY`Ganti ini dengan jalur sebenarnya ke direktori dokumen Anda.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -52,17 +54,17 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di sini, kita membuat sebuah instance dari`Document` kelas dan menggunakan`DocumentBuilder` untuk membantu kami membangun konten dokumen.
+Di sini, kita membuat sebuah instance dari `Document` kelas dan menggunakan `DocumentBuilder` untuk membantu kami membangun konten dokumen.
 
 ## Langkah 3: Masukkan Gambar
 
- Sekarang, mari masukkan gambar ke dalam dokumen kita. Kita akan menggunakan`InsertImage` metode dari`DocumentBuilder`kelas. Pastikan Anda memiliki gambar di direktori yang ditentukan.
+Sekarang, mari masukkan gambar ke dalam dokumen kita. Kita akan menggunakan `InsertImage` metode dari `DocumentBuilder` kelas. Pastikan Anda memiliki gambar di direktori yang ditentukan.
 
 ```csharp
 Shape shape = builder.InsertImage(dataDir + "Transparent background logo.png");
 ```
 
- Mengganti`dataDir + "Transparent background logo.png"` dengan jalur ke berkas gambar Anda.
+Mengganti `dataDir + "Transparent background logo.png"` dengan jalur ke berkas gambar Anda.
 
 ## Langkah 4: Kunci Rasio Aspek
 
@@ -72,7 +74,7 @@ Setelah gambar dimasukkan, kita dapat mengunci rasio aspeknya. Mengunci rasio as
 shape.AspectRatioLocked = true;
 ```
 
- Pengaturan`AspectRatioLocked` ke`true` memastikan gambar mempertahankan rasio aspek aslinya.
+Pengaturan `AspectRatioLocked` ke `true` memastikan gambar mempertahankan rasio aspek aslinya.
 
 ## Langkah 5: Simpan Dokumen
 
@@ -89,7 +91,7 @@ Selamat! Anda telah berhasil mempelajari cara mengatur rasio aspek untuk bentuk 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya membuka kunci rasio aspek setelah menguncinya?
-Ya, Anda dapat membuka kunci rasio aspek dengan mengatur`shape.AspectRatioLocked = false`.
+Ya, Anda dapat membuka kunci rasio aspek dengan mengatur `shape.AspectRatioLocked = false`.
 
 ### Apa yang terjadi jika saya mengubah ukuran gambar dengan rasio aspek terkunci?
 Gambar akan diubah ukurannya secara proporsional, mempertahankan rasio lebar dan tinggi aslinya.
@@ -101,10 +103,15 @@ Tentu saja! Fitur penguncian rasio aspek dapat diterapkan pada bentuk apa pun, t
 Ya, Aspose.Words untuk .NET mendukung .NET Framework dan .NET Core.
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lengkap [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

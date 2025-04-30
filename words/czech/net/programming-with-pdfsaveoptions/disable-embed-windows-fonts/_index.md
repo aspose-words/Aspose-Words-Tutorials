@@ -1,101 +1,108 @@
 ---
-title: Zmenšete velikost PDF deaktivací vložených písem
-linktitle: Zmenšete velikost PDF deaktivací vložených písem
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zmenšete velikost PDF deaktivací vložených písem pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce a optimalizujte své dokumenty pro efektivní ukládání a sdílení.
-weight: 10
-url: /cs/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Zmenšete velikost PDF zakázáním vložených písem pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a optimalizujte své dokumenty pro efektivní ukládání a sdílení."
+"linktitle": "Zmenšení velikosti PDF zakázáním vložených písem"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zmenšení velikosti PDF zakázáním vložených písem"
+"url": "/cs/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmenšete velikost PDF deaktivací vložených písem
+# Zmenšení velikosti PDF zakázáním vložených písem
 
 ## Zavedení
 
-Zmenšení velikosti souborů PDF může být zásadní pro efektivní ukládání a rychlé sdílení. Jedním z účinných způsobů, jak toho dosáhnout, je zakázat vložená písma, zvláště když jsou standardní písma již k dispozici na většině systémů. V tomto tutoriálu prozkoumáme, jak zmenšit velikost PDF deaktivací vložených písem pomocí Aspose.Words for .NET. Projdeme si každý krok, abychom se ujistili, že to můžete snadno implementovat do svých vlastních projektů.
+Zmenšení velikosti souborů PDF může být klíčové pro efektivní ukládání a rychlé sdílení. Jedním z účinných způsobů, jak toho dosáhnout, je zakázat vložená písma, zejména pokud jsou standardní písma již k dispozici na většině systémů. V tomto tutoriálu se podíváme na to, jak zmenšit velikost PDF zakázáním vložených písem pomocí Aspose.Words pro .NET. Projdeme si každý krok, abyste se ujistili, že to můžete snadno implementovat ve svých vlastních projektech.
 
 ## Předpoklady
 
 Než se ponoříte do kódu, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte jej z[Odkaz ke stažení](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte si jej z [Odkaz ke stažení](https://releases.aspose.com/words/net/).
 - Vývojové prostředí .NET: Visual Studio je oblíbenou volbou.
-- Ukázkový dokument Word: Připravte si soubor DOCX, který chcete převést do PDF.
+- Ukázkový dokument aplikace Word: Mějte připravený soubor DOCX, který chcete převést do formátu PDF.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, ujistěte se, že máte do projektu importovány potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám požadovaným pro náš úkol.
+Pro začátek se ujistěte, že máte do projektu importovány potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám potřebným pro náš úkol.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Pojďme si tento proces rozdělit na jednoduché, zvládnutelné kroky. Každý krok vás provede úkolem a zajistí, že porozumíte tomu, co se v každém bodě děje.
+Rozdělme si proces na jednoduché a snadno zvládnutelné kroky. Každý krok vás provede úkolem a zajistí, že budete rozumět tomu, co se v každém okamžiku děje.
 
-## Krok 1: Inicializujte svůj dokument
+## Krok 1: Inicializace dokumentu
 
-Nejprve musíme načíst dokument aplikace Word, který chcete převést do formátu PDF. Tady začíná vaše cesta.
+Nejprve musíme načíst dokument Wordu, který chcete převést do formátu PDF. Zde začíná vaše cesta.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Zde,`dataDir` je zástupný symbol pro adresář, kde je umístěn váš dokument. Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou.
+Zde, `dataDir` je zástupný symbol pro adresář, kde se nachází váš dokument. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou.
 
-## Krok 2: Nakonfigurujte možnosti uložení PDF
+## Krok 2: Konfigurace možností ukládání PDF
 
-Dále nastavíme možnosti uložení PDF. Zde určíme, že nechceme vkládat standardní písma Windows.
+Dále nastavíme možnosti ukládání PDF. Zde určíme, že nechceme vkládat standardní písma Windows.
 
 ```csharp
-// Výstupní PDF bude uloženo bez vkládání standardních písem systému Windows.
+// Výstupní PDF bude uložen bez vložení standardních fontů systému Windows.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     FontEmbeddingMode = PdfFontEmbeddingMode.EmbedNone
 };
 ```
 
- Nastavením`FontEmbeddingMode` na`EmbedNone`, instruujeme Aspose.Words, aby tato písma do PDF nezahrnovala, čímž se sníží velikost souboru.
+Nastavením `FontEmbeddingMode` na `EmbedNone`, dáváme pokyn Aspose.Words, aby tyto fonty do PDF souboru nezahrnoval, čímž se zmenší velikost souboru.
 
 ## Krok 3: Uložte dokument jako PDF
 
-Nakonec dokument uložíme jako PDF pomocí nakonfigurovaných možností uložení. Toto je okamžik pravdy, kdy se váš DOCX přemění na kompaktní PDF.
+Nakonec dokument uložíme jako PDF pomocí nakonfigurovaných možností ukládání. Toto je okamžik pravdy, kdy se váš DOCX transformuje do kompaktního PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` s vaší skutečnou cestou k adresáři ještě jednou. Výstupní PDF se nyní uloží do určeného adresáře bez vložených standardních písem.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` s vaší skutečnou cestou k adresáři. Výstupní PDF bude nyní uložen do zadaného adresáře bez vložených standardních písem.
 
 ## Závěr
 
-Pomocí těchto kroků můžete výrazně zmenšit velikost souborů PDF. Zakázání vložených písem je přímý, ale účinný způsob, jak zesvětlit vaše dokumenty a snáze je sdílet. Aspose.Words for .NET činí tento proces bezproblémovým a zajišťuje, že můžete optimalizovat své soubory s minimálním úsilím.
+Dodržováním těchto kroků můžete výrazně zmenšit velikost souborů PDF. Zakázání vložených písem je jednoduchý, ale efektivní způsob, jak zesvětlit a snáze sdílet dokumenty. Aspose.Words pro .NET tento proces usnadňuje a zajišťuje, že můžete optimalizovat své soubory s minimálním úsilím.
 
-## FAQ
+## Často kladené otázky
 
 ### Proč bych měl zakázat vložená písma v PDF?
-Zakázání vložených písem může výrazně snížit velikost souboru PDF, což zefektivní ukládání a zrychlí sdílení.
+Zakázání vložených písem může výrazně zmenšit velikost souboru PDF, což zefektivní jeho ukládání a urychlí jeho sdílení.
 
-### Bude se PDF stále zobrazovat správně bez vložených písem?
-Ano, pokud jsou písma standardní a dostupná v systému, kde je PDF zobrazeno, zobrazí se správně.
+### Bude se PDF soubor zobrazovat správně i bez vložených písem?
+Ano, pokud jsou fonty standardní a dostupné v systému, kde se PDF prohlíží, zobrazí se správně.
 
 ### Mohu do PDF selektivně vložit pouze určitá písma?
-Ano, Aspose.Words for .NET vám umožňuje přizpůsobit, která písma jsou vložena, a poskytuje flexibilitu ve způsobu zmenšování velikosti souboru.
+Ano, Aspose.Words pro .NET umožňuje přizpůsobit, která písma jsou vložena, což poskytuje flexibilitu při zmenšování velikosti souboru.
 
-### Potřebuji Aspose.Words for .NET k deaktivaci vložených písem v PDF?
-Ano, Aspose.Words for .NET poskytuje funkce potřebné ke konfiguraci možností vkládání písem do souborů PDF.
+### Potřebuji Aspose.Words pro .NET k zakázání vložených písem v PDF?
+Ano, Aspose.Words pro .NET poskytuje funkce potřebné ke konfiguraci možností vkládání písem do PDF.
 
 ### Jak získám podporu, pokud narazím na problémy?
- Můžete navštívit[Fórum podpory](https://forum.aspose.com/c/words/8) o pomoc s jakýmikoli problémy, se kterými se setkáte.
+Můžete navštívit [Fórum podpory](https://forum.aspose.com/c/words/8) pro pomoc s jakýmikoli problémy, se kterými se setkáte.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Variabel
-linktitle: Dapatkan Variabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Kuasai Aspose.Words untuk .NET. Pelajari cara memuat dan mengekstrak variabel dari dokumen Word dengan panduan langkah demi langkah ini.
-weight: 10
-url: /id/net/programming-with-document-properties/get-variables/
+"description": "Kuasai Aspose.Words untuk .NET. Pelajari cara memuat dan mengekstrak variabel dari dokumen Word dengan panduan langkah demi langkah ini."
+"linktitle": "Dapatkan Variabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Variabel"
+"url": "/id/net/programming-with-document-properties/get-variables/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Variabel
@@ -22,7 +24,7 @@ Hai, rekan pembuat kode! Siap menyelami dunia Aspose.Words untuk .NET? Bersiapla
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang dibutuhkan:
 
 1. Pengetahuan Dasar C# dan .NET: Anda harus memahami dasar-dasar C# dan kerangka kerja .NET.
-2.  Pustaka Aspose.Words untuk .NET: Unduh pustaka Aspose.Words untuk .NET dari[Di Sini](https://releases.aspose.com/words/net/).
+2. Pustaka Aspose.Words untuk .NET: Unduh pustaka Aspose.Words untuk .NET dari [Di Sini](https://releases.aspose.com/words/net/).
 3. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda.
 
 ## Mengimpor Ruang Nama
@@ -54,14 +56,14 @@ Sekarang, mari masukkan pustaka Aspose.Words ke dalam proyek kita.
 
 ## Langkah 2: Memuat Dokumen Word
 
- Mari kita memuat dokumen Word ke dalam aplikasi kita. Kita akan menggunakan yang sederhana`Document` keberatan untuk melakukan hal ini.
+Mari kita memuat dokumen Word ke dalam aplikasi kita. Kita akan menggunakan yang sederhana `Document` keberatan untuk melakukan hal ini.
 
-1. Buat variabel string baru untuk menyimpan jalur ke direktori dokumen Anda:
+1. Buat variabel string baru untuk menampung jalur ke direktori dokumen Anda:
     ```csharp
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Membuat sebuah`Document` objek dan memuat dokumen:
+2. Membuat sebuah `Document` objek dan memuat dokumen:
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
     ```
@@ -112,7 +114,7 @@ Nah, itu dia! Anda telah berhasil menggunakan Aspose.Words for .NET untuk memuat
 Ya, Aspose.Words mendukung banyak bahasa, tetapi dalam tutorial ini, kami berfokus pada C#.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
- Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Apakah ada cara untuk memanipulasi format dokumen lain dengan Aspose.Words?
 Tentu saja! Aspose.Words mendukung berbagai format seperti DOC, DOCX, ODT, RTF, dan banyak lagi.
@@ -121,11 +123,16 @@ Tentu saja! Aspose.Words mendukung berbagai format seperti DOC, DOCX, ODT, RTF, 
 Ya, Anda dapat mengintegrasikan Aspose.Words ke dalam aplikasi web, aplikasi desktop, dan banyak lagi.
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Lihat di sini[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan panduan terperinci.
+Lihat di sini [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk contoh lebih lanjut dan panduan terperinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

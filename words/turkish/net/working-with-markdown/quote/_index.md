@@ -1,14 +1,16 @@
 ---
-title: Alıntı
-linktitle: Alıntı
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinize alıntı ve iç içe blok alıntıları eklemeyi öğrenin. Belge oluşturmada ustalaşmak için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/working-with-markdown/quote/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinize alıntı ve iç içe blok alıntıları eklemeyi öğrenin. Belge oluşturmada ustalaşmak için bu adım adım kılavuzu izleyin."
+"linktitle": "Alıntı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Alıntı"
+"url": "/tr/net/working-with-markdown/quote/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alıntı
@@ -23,7 +25,7 @@ Aspose.Words for .NET, Word belgeleriyle çalışmayı çocuk oyuncağı haline 
 
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
--  Aspose.Words for .NET: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - .NET Geliştirme Ortamı: Visual Studio veya başka bir .NET IDE'nin yüklü olduğundan emin olun.
 - Temel C# Bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 
@@ -43,14 +45,14 @@ Bu ad alanları, Word belgelerini yönetmek için ihtiyaç duyacağınız sını
 
 ## Adım 1: Bir DocumentBuilder Örneği Oluşturun
 
- Başlamak için, bir örnek oluşturmamız gerekiyor`DocumentBuilder` class. Bu sınıf, belgemize içerik eklememizi sağlar.
+Başlamak için, bir örnek oluşturmamız gerekiyor `DocumentBuilder` class. Bu sınıf, belgemize içerik eklememizi sağlar.
 
 ```csharp
 // Belgeye içerik eklemek için bir belge oluşturucu kullanın.
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
- The`DocumentBuilder` class, belgenizi oluşturmanız ve özelleştirmeniz için bir geçittir. Bunu Word belgeleri oluşturmak için sihirli değneğiniz olarak düşünün!
+The `DocumentBuilder` class, belgenizi oluşturmanız ve özelleştirmeniz için bir geçittir. Bunu Word belgeleri oluşturmak için sihirli değneğiniz olarak düşünün!
 
 ## Adım 2: Bir Alıntı Ekle
 
@@ -90,22 +92,27 @@ Aspose.Words for .NET, .NET uygulamalarında Word belgeleriyle çalışmak için
 
 ### Aspose.Words for .NET'i ücretsiz kullanabilir miyim?
 
-Aspose.Words for .NET'i geçici bir lisansla ücretsiz deneyebilirsiniz. Bunu alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET'i geçici bir lisansla ücretsiz deneyebilirsiniz. Bunu alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET için detaylı bir dokümantasyon var mı?
 
- Evet, ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Evet, ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
 
- Destek için Aspose.Words forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Destek için Aspose.Words forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words for .NET'i nereden indirebilirim?
 
- Aspose.Words for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+Aspose.Words for .NET'i şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zmiana kształtu
-linktitle: Zmiana kształtu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak obsługiwać zmiany kształtów w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Opanuj śledzenie zmian, wstawianie kształtów i wiele więcej.
-weight: 10
-url: /pl/net/working-with-revisions/shape-revision/
+"description": "Dowiedz się, jak obsługiwać zmiany kształtów w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Opanuj śledzenie zmian, wstawianie kształtów i wiele więcej."
+"linktitle": "Zmiana kształtu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zmiana kształtu"
+"url": "/pl/net/working-with-revisions/shape-revision/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmiana kształtu
@@ -21,7 +23,7 @@ Edytowanie dokumentów Word programowo może być zniechęcającym zadaniem, szc
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Należy skonfigurować środowisko programistyczne, np. Visual Studio.
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# i podstawowych koncepcji programowania obiektowego.
 - Dokument Word: Dokument Word, z którym możesz pracować, lub możesz go utworzyć podczas kursu.
@@ -115,7 +117,7 @@ shapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().ToList();
 
 ## Wniosek
 
-I masz to! Udało Ci się nauczyć, jak obsługiwać zmiany kształtu w dokumentach Worda przy użyciu Aspose.Words dla .NET. Niezależnie od tego, czy zarządzasz szablonami dokumentów, automatyzujesz raporty, czy po prostu śledzisz zmiany, te umiejętności są bezcenne. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko opanowałeś podstawy, ale także uzyskałeś wgląd w bardziej zaawansowane techniki obsługi dokumentów.
+masz to! Udało Ci się nauczyć, jak obsługiwać zmiany kształtu w dokumentach Worda przy użyciu Aspose.Words dla .NET. Niezależnie od tego, czy zarządzasz szablonami dokumentów, automatyzujesz raporty, czy po prostu śledzisz zmiany, te umiejętności są bezcenne. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko opanowałeś podstawy, ale także uzyskałeś wgląd w bardziej zaawansowane techniki obsługi dokumentów.
 
 ## Najczęściej zadawane pytania
 
@@ -123,19 +125,24 @@ I masz to! Udało Ci się nauczyć, jak obsługiwać zmiany kształtu w dokument
 Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word programowo przy użyciu języka C#.
 
 ### Czy mogę śledzić zmiany wprowadzane w innych elementach dokumentu Word?
-Tak, Aspose.Words dla platformy .NET obsługuje śledzenie zmian w różnych elementach, w tym tekście, tabelach i innych.
+Tak, Aspose.Words for .NET obsługuje śledzenie zmian w różnych elementach, w tym tekście, tabelach i innych.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
- Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla .NET[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną Aspose.Words dla .NET [Tutaj](https://releases.aspose.com/).
 
-### Czy możliwe jest akceptowanie lub odrzucanie poprawek programowo?
+### Czy można akceptować lub odrzucać poprawki programowo?
 Tak, Aspose.Words dla .NET udostępnia metody umożliwiające programowe akceptowanie lub odrzucanie poprawek.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami .NET poza C#?
 Oczywiście! Aspose.Words dla .NET można używać z dowolnym językiem .NET, w tym VB.NET i F#.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

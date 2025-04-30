@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/ignore-text-inside-insert-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Text Inside Insert Revisions
@@ -100,9 +103,13 @@ Visit the [Aspose.Words for .NET documentation](https://reference.aspose.com/wor
 ### Is there a community forum for discussing Aspose.Words for .NET related queries?
 Yes, you can visit the [Aspose.Words forum](https://forum.aspose.com/c/words/8) for community support and discussions.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

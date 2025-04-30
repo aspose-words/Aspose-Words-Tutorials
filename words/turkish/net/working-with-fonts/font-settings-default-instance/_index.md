@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipi Ayarları Varsayılan Örnek
-linktitle: Yazı Tipi Ayarları Varsayılan Örnek
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET'te yazı tipi ayarlarının nasıl yönetileceğini ve özelleştirileceğini adım adım kılavuzumuzla öğrenin. Belge oluşturmayı geliştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-fonts/font-settings-default-instance/
+"description": "Aspose.Words for .NET'te yazı tipi ayarlarının nasıl yönetileceğini ve özelleştirileceğini adım adım kılavuzumuzla öğrenin. Belge oluşturmayı geliştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Yazı Tipi Ayarları Varsayılan Örnek"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipi Ayarları Varsayılan Örnek"
+"url": "/tr/net/working-with-fonts/font-settings-default-instance/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipi Ayarları Varsayılan Örnek
@@ -22,9 +24,9 @@ Aspose.Words for .NET kullanarak font ayarlarını yönetmeye yönelik bu derinl
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - Temel C# Bilgisi: C# programlamaya aşina olmak, adımları sorunsuz bir şekilde anlamanıza ve uygulamanıza yardımcı olacaktır.
--  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'i şuradan indirin ve yükleyin:[indirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET'i şuradan indirin ve yükleyin: [indirme bağlantısı](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz Visual Studio gibi uygun bir ortam.
--  Örnek Belge: Örnek bir belge (örneğin,`Rendering.docx`) yazı tipi ayarlarını uygulamak için.
+- Örnek Belge: Örnek bir belge (örneğin, `Rendering.docx`) yazı tipi ayarlarını uygulamak için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -58,11 +60,11 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 Bu örnekte:
 - `SystemFontSource` sistemin varsayılan yazı tiplerini temsil eder.
-- `FolderFontSource` özel bir klasöre işaret eder (`C:\\MyFonts\\` ) ek yazı tiplerinin depolandığı yer.`true` parametresi bu klasörün tekrarlı olarak taranması gerektiğini belirtir.
+- `FolderFontSource` özel bir klasöre işaret eder (`C:\\MyFonts\\`) ek yazı tiplerinin depolandığı yer. `true` parametresi bu klasörün tekrarlı olarak taranması gerektiğini belirtir.
 
 ## Adım 3: Belgeyi Yükleyin
 
- Yazı tipi kaynaklarınız yapılandırıldıktan sonraki adım, belgenizi Aspose.Words'e yüklemektir.`Document` nesne. Bu, belgeyi düzenlemenize ve sonunda kaydetmenize olanak tanır.
+Yazı tipi kaynaklarınız yapılandırıldıktan sonraki adım, belgenizi Aspose.Words'e yüklemektir. `Document` nesne. Bu, belgeyi düzenlemenize ve sonunda kaydetmenize olanak tanır.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -86,11 +88,11 @@ Tebrikler! Aspose.Words for .NET kullanarak font ayarlarını yönetmenin temell
 
 ### Birden fazla özel klasördeki yazı tiplerini kullanabilir miyim?
 
- Evet, birden fazla belirtebilirsiniz`FolderFontSource` içindeki örnekler`SetFontsSources` farklı klasörlerden yazı tiplerini dahil etme yöntemi.
+Evet, birden fazla belirtebilirsiniz `FolderFontSource` içindeki örnekler `SetFontsSources` farklı klasörlerden yazı tiplerini dahil etme yöntemi.
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nasıl edinebilirim?
 
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Aspose ücretsiz deneme sayfası](https://releases.aspose.com/).
 
 ### Fontları doğrudan belgeye gömmek mümkün müdür?
 
@@ -98,15 +100,20 @@ Aspose.Words, PDF gibi bazı formatlarda fontların gömülmesine izin verir. Fo
 
 ### Aspose.Words için desteği nereden alabilirim?
 
- Destek için şu adresi ziyaret edin:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek için şu adresi ziyaret edin: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
 
 ### Geçici lisans satın alabilir miyim?
 
- Evet, geçici bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

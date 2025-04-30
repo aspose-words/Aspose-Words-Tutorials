@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-comments/add-comments/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Comments
@@ -120,9 +123,13 @@ Yes, you can remove comments programmatically by iterating through the comments 
 
 Aspose.Words allows you to work with threaded comments, enabling you to add replies to existing comments for more detailed discussions.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

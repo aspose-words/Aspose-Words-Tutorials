@@ -1,25 +1,27 @@
 ---
-title: استخدام الأقسام في Aspose.Words للغة Java
-linktitle: استخدام الأقسام
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: استكشف Aspose.Words للغة Java؛ دليل شامل حول استخدام الأقسام. أضف أقسامًا واحذفها وألحقها واستنسخها باستخدام أمثلة التعليمات البرمجية.
-weight: 23
-url: /ar/java/using-document-elements/using-sections/
+"description": "استكشف Aspose.Words في جافا؛ دليل شامل لاستخدام الأقسام. أضف، احذف، أضف، انسخ الأقسام مع أمثلة برمجية."
+"linktitle": "استخدام الأقسام"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "استخدام الأقسام في Aspose.Words للغة Java"
+"url": "/ar/java/using-document-elements/using-sections/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخدام الأقسام في Aspose.Words للغة Java
 
 
-إذا كنت تبحث عن التعامل مع الأقسام وإدارتها في تطبيقات Java باستخدام Aspose.Words، فقد وصلت إلى المكان الصحيح. في هذا الدليل الشامل، سنرشدك خلال العملية خطوة بخطوة، باستخدام الكود المصدر المقدم.
+إذا كنت ترغب في إدارة أقسام تطبيقات جافا باستخدام Aspose.Words، فأنت في المكان المناسب. في هذا الدليل الشامل، سنشرح لك العملية خطوة بخطوة، باستخدام الكود المصدري المُرفق.
 
 
 ## مقدمة
 
-قبل أن نتعمق في الكود، دعنا نفهم الأقسام الموجودة في Aspose.Words. في مستند Word، الأقسام هي مناطق بها إعدادات تخطيط صفحة معينة. يمكن أن تتضمن رؤوس الصفحات وتذييلاتها وحوافها وإعدادات اتجاه الصفحة. باستخدام Aspose.Words for Java، يمكنك العمل بسهولة مع الأقسام لإنشاء مستندات احترافية.
+قبل التعمق في الكود، دعونا نفهم الأقسام في Aspose.Words. في مستندات Word، الأقسام هي مساحات تحتوي على إعدادات محددة لتخطيط الصفحة. يمكن أن تشمل هذه الإعدادات الرؤوس والتذييلات والهوامش واتجاه الصفحة. مع Aspose.Words لجافا، يمكنك العمل بسهولة مع الأقسام لإنشاء مستندات احترافية.
 
 ## إضافة قسم
 
@@ -55,11 +57,11 @@ public void deleteSection() throws Exception {
 }
 ```
 
-هنا نقوم بإنشاء مستند وإضافة أقسام إليه، ثم نقوم بإزالة القسم الأول من المستند.
+هنا نقوم بإنشاء مستند، وإضافة أقسام إليه، ثم إزالة القسم الأول من المستند.
 
 ## إضافة محتوى القسم
 
-يمكنك أيضًا إضافة محتوى إلى قسم وإضافة مقدمة له. إليك مثال على ذلك:
+يمكنك أيضًا إضافة محتوى إلى قسم وإضافة محتوى قبله. إليك مثال:
 
 ```java
 @Test
@@ -100,7 +102,7 @@ public void cloneSection() throws Exception {
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، قمنا بتغطية أساسيات العمل بالأقسام في Aspose.Words for Java. لقد تعلمت كيفية إضافة أقسام وحذفها وإلحاقها واستنساخها في مستنداتك. الأقسام هي ميزة قوية تتيح لك تخصيص تخطيط وبنية مستنداتك بكفاءة.
+في هذا البرنامج التعليمي، تناولنا أساسيات التعامل مع الأقسام في Aspose.Words لجافا. تعلمت كيفية إضافة أقسام وحذفها وإضافتها واستنساخها في مستنداتك. تُعد الأقسام ميزة فعّالة تتيح لك تخصيص تخطيط وهيكل مستنداتك بكفاءة.
 
 ## الأسئلة الشائعة
 
@@ -108,27 +110,32 @@ public void cloneSection() throws Exception {
 
 نعم، Aspose.Words for Java متوافق مع مكتبات Java الأخرى، مما يجعله متعدد الاستخدامات لمهام معالجة المستندات المختلفة.
 
-### س2: هل هناك نسخة تجريبية من Aspose.Words متاحة لـ Java؟
+### س2: هل هناك نسخة تجريبية من Aspose.Words لـ Java متاحة؟
 
- نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Words for Java[هنا](https://releases.aspose.com/).
+نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Words for Java [هنا](https://releases.aspose.com/).
 
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Words لـ Java؟
 
- يمكنك الحصول على ترخيص مؤقت لـ Aspose.Words for Java[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت لـ Aspose.Words لـ Java [هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.Words لـ Java؟
 
- للحصول على الدعم والمساعدة، يمكنك زيارة منتدى Aspose.Words for Java[هنا](https://forum.aspose.com/).
+للحصول على الدعم والمساعدة، يمكنك زيارة منتدى Aspose.Words for Java [هنا](https://forum.aspose.com/).
 
 ### س5: كيف يمكنني شراء ترخيص لـ Aspose.Words لـ Java؟
 
- يمكنك شراء ترخيص لـ Aspose.Words لـ Java[هنا](https://purchase.aspose.com/buy).
+يمكنك شراء ترخيص لـ Aspose.Words لـ Java [هنا](https://purchase.aspose.com/buy).
 
 ابدأ باستخدام Aspose.Words for Java اليوم وقم بتحسين قدرات معالجة المستندات لديك!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

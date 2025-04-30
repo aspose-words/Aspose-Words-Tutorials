@@ -1,27 +1,29 @@
 ---
-title: चित्र बुलेट न सहेजें
-linktitle: चित्र बुलेट न सहेजें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में पिक्चर बुलेट को संभालना सीखें। दस्तावेज़ प्रबंधन को सरल बनाएँ और आसानी से पेशेवर Word दस्तावेज़ बनाएँ।
-weight: 10
-url: /hi/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
+"description": "हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में पिक्चर बुलेट को संभालना सीखें। दस्तावेज़ प्रबंधन को सरल बनाएँ और आसानी से पेशेवर Word दस्तावेज़ बनाएँ।"
+"linktitle": "चित्र बुलेट न सहेजें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चित्र बुलेट न सहेजें"
+"url": "/hi/net/programming-with-docsaveoptions/do-not-save-picture-bullet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चित्र बुलेट न सहेजें
 
 ## परिचय
 
-नमस्ते, साथी डेवलपर्स! क्या आपने कभी वर्ड डॉक्यूमेंट के साथ काम किया है और खुद को पिक्चर बुलेट को सहेजने की पेचीदगियों में उलझा हुआ पाया है? यह उन छोटी-छोटी बातों में से एक है जो आपके डॉक्यूमेंट के अंतिम रूप में बड़ा अंतर ला सकती है। खैर, आज, मैं आपको Aspose.Words for .NET में पिक्चर बुलेट को संभालने की प्रक्रिया के बारे में बताने के लिए यहाँ हूँ, खास तौर पर "पिक्चर बुलेट को न सहेजें" सुविधा पर ध्यान केंद्रित करते हुए। क्या आप इसमें गोता लगाने के लिए तैयार हैं? चलिए शुरू करते हैं!
+हेलो, साथी डेवलपर्स! क्या आपने कभी वर्ड डॉक्यूमेंट के साथ काम किया है और खुद को पिक्चर बुलेट को सेव करने की पेचीदगियों में उलझा हुआ पाया है? यह उन छोटी-छोटी बातों में से एक है जो आपके डॉक्यूमेंट के अंतिम रूप में बड़ा अंतर ला सकती है। खैर, आज, मैं आपको Aspose.Words for .NET में पिक्चर बुलेट को संभालने की प्रक्रिया के बारे में बताने के लिए यहाँ हूँ, खास तौर पर "पिक्चर बुलेट को सेव न करें" सुविधा पर ध्यान केंद्रित करते हुए। क्या आप इसमें गोता लगाने के लिए तैयार हैं? चलिए शुरू करते हैं!
 
 ## आवश्यक शर्तें
 
 इससे पहले कि हम कोड के साथ छेड़छाड़ शुरू करें, कुछ चीजें हैं जिन्हें आपको ध्यान में रखना होगा:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास यह शक्तिशाली लाइब्रेरी स्थापित है। यदि आपके पास यह अभी तक नहीं है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास यह शक्तिशाली लाइब्रेरी स्थापित है। यदि आपके पास यह अभी तक नहीं है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: एक कार्यशील .NET विकास वातावरण, जैसे कि विजुअल स्टूडियो।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से कुछ परिचित होना उपयोगी होगा।
 4. नमूना दस्तावेज़: परीक्षण प्रयोजनों के लिए छवि बुलेट के साथ एक वर्ड दस्तावेज़।
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENTS DIRECTORY"` आपके सिस्टम पर उस वास्तविक पथ के साथ जहां आपके दस्तावेज़ स्थित हैं।
+प्रतिस्थापित करें `"YOUR DOCUMENTS DIRECTORY"` आपके सिस्टम पर उस वास्तविक पथ के साथ जहां आपके दस्तावेज़ स्थित हैं।
 
 ## चरण 2: दस्तावेज़ को छवि बुलेट के साथ लोड करें
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
- सुनिश्चित करें कि फ़ाइल`"Image bullet points.docx"` निर्दिष्ट निर्देशिका में मौजूद है.
+सुनिश्चित करें कि फ़ाइल `"Image bullet points.docx"` निर्दिष्ट निर्देशिका में मौजूद है.
 
 ## चरण 3: सहेजें विकल्प कॉन्फ़िगर करें
 
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 ```
 
- सेटिंग करके`SavePictureBullet` को`false`, आप Aspose.Words को आउटपुट दस्तावेज़ में चित्र बुलेट्स को न सहेजने का निर्देश देते हैं।
+सेटिंग करके `SavePictureBullet` को `false`, आप Aspose.Words को आउटपुट दस्तावेज़ में चित्र बुलेट्स को न सहेजने का निर्देश देते हैं।
 
 ## चरण 4: दस्तावेज़ सहेजें
 
@@ -79,7 +81,7 @@ DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
- नई फ़ाइल,`"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, आपके दस्तावेज़ निर्देशिका में सहेजा जाएगा.
+नई फ़ाइल, `"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`, आपके दस्तावेज़ निर्देशिका में सहेजा जाएगा.
 
 ## निष्कर्ष
 
@@ -94,17 +96,22 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", save
 नहीं, यह विशेष सुविधा चित्र बुलेट के लिए है। हालाँकि, Aspose.Words अन्य बुलेट प्रकारों को संभालने के लिए व्यापक विकल्प प्रदान करता है।
 
 ### मुझे Aspose.Words के लिए समर्थन कहां मिल सकता है?
- आप यहाँ से सहायता प्राप्त कर सकते हैं[Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
+आप यहाँ से सहायता प्राप्त कर सकते हैं [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8).
 
 ### क्या .NET के लिए Aspose.Words का कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं .NET के लिए Aspose.Words का लाइसेंस कैसे खरीदूं?
- आप यहां से लाइसेंस खरीद सकते हैं[एस्पोज स्टोर](https://purchase.aspose.com/buy).
+आप यहां से लाइसेंस खरीद सकते हैं [एस्पोज स्टोर](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เพิ่มประสิทธิภาพสำหรับ Ms Word
-linktitle: เพิ่มประสิทธิภาพสำหรับ Ms Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เพิ่มประสิทธิภาพเอกสาร Word สำหรับ MS Word เวอร์ชันต่างๆ ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-document-options-and-settings/optimize-for-ms-word/
+"description": "เพิ่มประสิทธิภาพเอกสาร Word สำหรับ MS Word เวอร์ชันต่างๆ ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้"
+"linktitle": "เพิ่มประสิทธิภาพสำหรับ Ms Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เพิ่มประสิทธิภาพสำหรับ Ms Word"
+"url": "/th/net/programming-with-document-options-and-settings/optimize-for-ms-word/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มประสิทธิภาพสำหรับ Ms Word
@@ -21,20 +23,20 @@ url: /th/net/programming-with-document-options-and-settings/optimize-for-ms-word
 
 ก่อนที่เราจะลงมือทำ เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่สนับสนุน .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญด้าน C# แต่การรู้จักใช้งาน C# จะเป็นประโยชน์
 
 ## นำเข้าเนมสเปซ
 
-ขั้นแรก เราต้องนำเข้าเนมสเปซที่จำเป็น ซึ่งก็เหมือนกับการเตรียมกล่องเครื่องมือก่อนเริ่มโปรเจ็กต์ สิ่งที่คุณต้องมีมีดังนี้:
+สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งก็เหมือนกับการแพ็คกล่องเครื่องมือของคุณก่อนเริ่มโปรเจ็กต์ นี่คือสิ่งที่คุณต้องการ:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-เอาล่ะ ตอนนี้เรามีเครื่องมือพร้อมแล้ว มาดูกระบวนการทีละขั้นตอนในการปรับแต่งเอกสารของคุณสำหรับ MS Word กันเลย
+เอาล่ะ ตอนนี้เราได้เครื่องมือพร้อมแล้ว มาดูกระบวนการทีละขั้นตอนในการปรับแต่งเอกสารของคุณสำหรับ MS Word กันเลย
 
 ## ขั้นตอนที่ 1: การตั้งค่าไดเรกทอรีเอกสารของคุณ
 
@@ -76,23 +78,28 @@ doc.Save(dataDir + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx
 ## คำถามที่พบบ่อย
 
 ### Aspose.Words สำหรับ .NET คืออะไร?
-Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร Word ได้ด้วยโปรแกรม
+Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง แก้ไข และแปลงเอกสาร Word ได้ด้วยโปรแกรม
 
 ### ฉันสามารถปรับแต่งให้เหมาะกับ MS Word เวอร์ชันอื่นได้หรือไม่
- แน่นอน! Aspose.Words รองรับหลายเวอร์ชัน เพียงแทนที่`MsWordVersion.Word2016` ด้วยเวอร์ชันที่คุณต้องการ
+แน่นอน! Aspose.Words รองรับหลายเวอร์ชัน เพียงแทนที่ `MsWordVersion.Word2016` ด้วยเวอร์ชันที่คุณต้องการ
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- คุณสามารถลองใช้ฟรีได้โดยใช้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)แต่คุณจะต้องซื้อใบอนุญาตสำหรับการใช้งานในระยะยาว
+คุณสามารถลองใช้ฟรีได้โดยใช้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)แต่คุณจะต้องซื้อใบอนุญาตสำหรับการใช้งานในระยะยาว
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถค้นหาเอกสารรายละเอียดได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### หากฉันต้องการความช่วยเหลือจะทำอย่างไร?
- หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้เสมอ[ฟอรั่มสนับสนุน Aspose.Words](https://forum.aspose.com/c/words/8).
+หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้เสมอ [ฟอรั่มสนับสนุน Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

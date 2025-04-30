@@ -1,14 +1,16 @@
 ---
-title: Lista Zachowaj formatowanie źródłowe
-linktitle: Lista Zachowaj formatowanie źródłowe
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak scalać dokumenty Word, zachowując formatowanie, korzystając z Aspose.Words dla .NET. Ten samouczek zawiera wskazówki krok po kroku dotyczące bezproblemowego scalania dokumentów.
-weight: 10
-url: /pl/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Dowiedz się, jak scalać dokumenty Word, zachowując formatowanie, korzystając z Aspose.Words dla .NET. Ten samouczek zawiera wskazówki krok po kroku dotyczące bezproblemowego scalania dokumentów."
+"linktitle": "Lista Zachowaj formatowanie źródłowe"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Lista Zachowaj formatowanie źródłowe"
+"url": "/pl/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lista Zachowaj formatowanie źródłowe
@@ -22,7 +24,7 @@ W tym samouczku pokażemy, jak wykorzystać Aspose.Words dla .NET do scalania do
 Zanim przejdziesz dalej, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Na Twoim komputerze zainstalowano program Visual Studio.
--  Aspose.Words dla .NET zainstalowany. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET zainstalowany. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Podstawowa znajomość programowania w języku C# i środowiska .NET.
 
 ## Importuj przestrzenie nazw
@@ -40,7 +42,7 @@ Zacznij od utworzenia nowego projektu C# w Visual Studio. Upewnij się, że Aspo
 ## Krok 2: Zainicjuj zmienne dokumentu
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Załaduj dokumenty źródłowe i docelowe
@@ -91,10 +93,15 @@ Tak, Aspose.Words w pełni obsługuje platformę .NET Core, co umożliwia tworze
 Aspose.Words udostępnia wydajne interfejsy API do manipulowania dokumentami, zoptymalizowane pod kątem wydajności nawet w przypadku obszernych dokumentów.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Więcej przykładów i szczegółową dokumentację można znaleźć na stronie[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
+Więcej przykładów i szczegółową dokumentację można znaleźć na stronie [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

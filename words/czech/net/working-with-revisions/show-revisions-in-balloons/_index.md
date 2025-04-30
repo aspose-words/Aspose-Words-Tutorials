@@ -1,34 +1,36 @@
 ---
-title: Zobrazit revize v bublinách
-linktitle: Zobrazit revize v bublinách
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se zobrazovat revize v bublinách pomocí Aspose.Words for .NET. Tento podrobný průvodce vás provede každým krokem a zajistí, že změny dokumentu budou jasné a uspořádané.
-weight: 10
-url: /cs/net/working-with-revisions/show-revisions-in-balloons/
+"description": "Naučte se, jak zobrazit revize v bublinách pomocí Aspose.Words pro .NET. Tato podrobná příručka vás provede jednotlivými kroky a zajistí, že změny ve vašem dokumentu budou přehledné a uspořádané."
+"linktitle": "Zobrazit revize v bublinách"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zobrazit revize v bublinách"
+"url": "/cs/net/working-with-revisions/show-revisions-in-balloons/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zobrazit revize v bublinách
 
 ## Zavedení
 
-Sledování změn v dokumentu aplikace Word je zásadní pro spolupráci a úpravy. Aspose.Words for .NET nabízí robustní nástroje pro správu těchto revizí, které zajišťují srozumitelnost a snadnou kontrolu. Tato příručka vám pomůže zobrazit revize v bublinách, takže snáze uvidíte, jaké změny byly provedeny a kým.
+Sledování změn v dokumentu Word je klíčové pro spolupráci a úpravy. Aspose.Words pro .NET nabízí robustní nástroje pro správu těchto revizí, které zajišťují přehlednost a snadnou kontrolu. Tato příručka vám pomůže zobrazit revize v bublinách, což usnadní zobrazení toho, jaké změny byly provedeny a kým.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
--  Aspose.Words pro knihovnu .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/words/net/).
--  Platná licence Aspose. Pokud žádný nemáte, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/).
-- Visual Studio nebo jakékoli jiné IDE, které podporuje vývoj .NET.
+- Knihovna Aspose.Words pro .NET. Můžete si ji stáhnout. [zde](https://releases.aspose.com/words/net/).
+- Platná licence Aspose. Pokud ji nemáte, můžete si ji pořídit [dočasná licence](https://purchase.aspose.com/temporary-license/).
+- Visual Studio nebo jakékoli jiné IDE, které podporuje vývoj v .NET.
 - Základní znalost C# a .NET frameworku.
 
 ## Importovat jmenné prostory
 
-Nejprve importujme potřebné jmenné prostory do vašeho projektu C#. Tyto jmenné prostory jsou nezbytné pro přístup k funkcím Aspose.Words.
+Nejdříve si do vašeho projektu v C# importujme potřebné jmenné prostory. Tyto jmenné prostory jsou nezbytné pro přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -36,34 +38,34 @@ using Aspose.Words.Layout;
 using Aspose.Words.RevisionOptions;
 ```
 
-Pojďme si tento proces rozdělit do jednoduchých, snadno pochopitelných kroků.
+Rozdělme si proces na jednoduché a snadno sledovatelné kroky.
 
-## Krok 1: Vložte svůj dokument
+## Krok 1: Vložte dokument
 
-Nejprve musíme načíst dokument, který obsahuje revize. Ujistěte se, že cesta k dokumentu je správná.
+Nejprve musíme načíst dokument, který obsahuje revize. Ujistěte se, že je cesta k dokumentu správná.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
 ## Krok 2: Konfigurace možností revize
 
-Dále nakonfigurujeme možnosti revize tak, aby zobrazovaly vložené revize a odstraňovaly a formátovaly revize v pozicích. To usnadňuje rozlišování mezi různými typy revizí.
+Dále nakonfigurujeme možnosti revizí tak, aby se vkládané revize zobrazovaly přímo v textu a revize mazání a formátování v bublinách. To usnadní rozlišení mezi různými typy revizí.
 
 ```csharp
-// Vykresluje vložené revize, odstraňuje a formátuje revize v pozicích.
+// Rendery vkládají revize přímo do textu, mažou a formátují revize v bublinách.
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
 doc.LayoutOptions.RevisionOptions.MeasurementUnit = MeasurementUnits.Inches;
 ```
 
-## Krok 3: Nastavte polohu revizních pruhů
+## Krok 3: Nastavení polohy revizních pruhů
 
 Aby byl dokument ještě čitelnější, můžeme nastavit polohu revizních pruhů. V tomto příkladu je umístíme na pravou stranu stránky.
 
 ```csharp
-// Vykreslí revizní pruhy na pravé straně stránky.
+// Zobrazí revizní panely na pravé straně stránky.
 doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 ```
 
@@ -77,27 +79,32 @@ doc.Save(dataDir + "WorkingWithRevisions.ShowRevisionsInBalloons.pdf");
 
 ## Závěr
 
-A tady to máte! Pomocí těchto jednoduchých kroků můžete snadno zobrazit revize v bublinách pomocí Aspose.Words for .NET. Díky tomu je kontrola a spolupráce na dokumentech hračkou a zajišťuje, že všechny změny jsou jasně viditelné a organizované. Šťastné kódování!
+A tady to máte! Dodržováním těchto jednoduchých kroků můžete snadno zobrazit revize v bublinách pomocí Aspose.Words pro .NET. Díky tomu je kontrola a spolupráce na dokumentech hračka a zajistí se, že všechny změny budou jasně viditelné a uspořádané. Hodně štěstí s programováním!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit barvu revizních pruhů?
-Ano, Aspose.Words vám umožňuje přizpůsobit barvu revizních pruhů tak, aby vyhovovaly vašim preferencím.
+### Mohu si přizpůsobit barvu revizních pruhů?
+Ano, Aspose.Words vám umožňuje přizpůsobit barvu revizních pruhů podle vašich preferencí.
 
 ### Je možné v bublinách zobrazit pouze určité typy revizí?
-Absolutně. Aspose.Words můžete nakonfigurovat tak, aby v bublinách zobrazoval pouze určité typy revizí, jako jsou odstranění nebo změny formátování.
+Rozhodně. Aspose.Words můžete nakonfigurovat tak, aby v bublinách zobrazoval pouze určité typy revizí, jako jsou odstranění nebo změny formátování.
 
 ### Jak získám dočasnou licenci pro Aspose.Words?
-Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Mohu používat Aspose.Words pro .NET s jinými programovacími jazyky?
-Aspose.Words je primárně navržen pro .NET, ale můžete jej použít s jakýmkoli jazykem podporovaným .NET, včetně VB.NET a C++/CLI.
+Aspose.Words je primárně navržen pro .NET, ale můžete ho použít s jakýmkoli jazykem podporovaným .NET, včetně VB.NET a C++/CLI.
 
-### Podporuje Aspose.Words jiné formáty dokumentů kromě Wordu?
+### Podporuje Aspose.Words i jiné formáty dokumentů než Word?
 Ano, Aspose.Words podporuje různé formáty dokumentů, včetně PDF, HTML, EPUB a dalších.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

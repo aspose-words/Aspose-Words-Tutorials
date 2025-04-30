@@ -1,14 +1,16 @@
 ---
-title: Vị trí con trỏ trong tài liệu Word
-linktitle: Vị trí con trỏ trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách quản lý vị trí con trỏ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/cursor-position/
+"description": "Tìm hiểu cách quản lý vị trí con trỏ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Vị trí con trỏ trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Vị trí con trỏ trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/cursor-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vị trí con trỏ trong tài liệu Word
@@ -22,10 +24,10 @@ Xin chào, các lập trình viên! Bạn đã bao giờ thấy mình đang chì
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 
 1. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen với các khái niệm về C# và .NET.
-2.  Visual Studio đã cài đặt: Bất kỳ phiên bản nào gần đây đều được. Nếu bạn chưa có, bạn có thể tải xuống từ[địa điểm](https://visualstudio.microsoft.com/).
-3.  Aspose.Words cho Thư viện .NET: Bạn cần tải xuống và cài đặt thư viện này. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/words/net/).
+2. Visual Studio đã cài đặt: Bất kỳ phiên bản nào gần đây đều được. Nếu bạn chưa có, bạn có thể tải xuống từ [địa điểm](https://visualstudio.microsoft.com/).
+3. Aspose.Words cho Thư viện .NET: Bạn cần tải xuống và cài đặt thư viện này. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/words/net/).
 
-Được rồi, nếu bạn đã chuẩn bị xong mọi thứ, chúng ta hãy bắt đầu thiết lập thôi!
+Được rồi, nếu bạn đã chuẩn bị xong mọi thứ, chúng ta hãy bắt đầu thiết lập nhé!
 
 ### Tạo một dự án mới
 
@@ -33,7 +35,7 @@ Trước tiên, hãy khởi động Visual Studio và tạo một ứng dụng C
 
 ### Cài đặt Aspose.Words cho .NET
 
- Sau khi dự án của bạn hoàn tất, bạn cần cài đặt Aspose.Words. Bạn có thể thực hiện việc này thông qua NuGet Package Manager. Chỉ cần tìm kiếm`Aspose.Words` và cài đặt nó. Ngoài ra, bạn có thể sử dụng Package Manager Console với lệnh này:
+Sau khi dự án của bạn hoàn tất, bạn cần cài đặt Aspose.Words. Bạn có thể thực hiện việc này thông qua NuGet Package Manager. Chỉ cần tìm kiếm `Aspose.Words` và cài đặt nó. Ngoài ra, bạn có thể sử dụng Package Manager Console với lệnh này:
 
 ```bash
 Install-Package Aspose.Words
@@ -41,7 +43,7 @@ Install-Package Aspose.Words
 
 ## Nhập không gian tên
 
- Sau khi cài đặt thư viện, hãy đảm bảo nhập các không gian tên cần thiết ở đầu thư viện của bạn`Program.cs` tài liệu:
+Sau khi cài đặt thư viện, hãy đảm bảo nhập các không gian tên cần thiết ở đầu thư viện của bạn `Program.cs` tài liệu:
 
 ```csharp
 using Aspose.Words;
@@ -50,9 +52,9 @@ using Aspose.Words.Tables;
 
 ## Bước 1: Tạo một tài liệu Word
 
-### Khởi tạo Tài liệu
+### Khởi tạo tài liệu
 
- Chúng ta hãy bắt đầu bằng cách tạo một tài liệu Word mới. Chúng ta sẽ sử dụng`Document` Và`DocumentBuilder` các lớp từ Aspose.Words.
+Chúng ta hãy bắt đầu bằng cách tạo một tài liệu Word mới. Chúng ta sẽ sử dụng `Document` Và `DocumentBuilder` các lớp từ Aspose.Words.
 
 ```csharp
 Document doc = new Document();
@@ -116,7 +118,7 @@ Cuối cùng, hãy lưu tài liệu để xem sự thay đổi.
 doc.Save("ManipulatedDocument.docx");
 ```
 
-Và bạn đã có nó! Một cách đơn giản nhưng mạnh mẽ để điều chỉnh vị trí con trỏ trong tài liệu Word bằng Aspose.Words cho .NET.
+Và bạn đã có nó! Một cách đơn giản nhưng mạnh mẽ để thao tác vị trí con trỏ trong tài liệu Word bằng Aspose.Words cho .NET.
 
 ## Phần kết luận
 
@@ -130,11 +132,11 @@ Aspose.Words for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
 
- Aspose.Words cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng và sử dụng thương mại, bạn sẽ cần mua giấy phép. Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.Words cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng và sử dụng thương mại, bạn sẽ cần mua giấy phép. Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để di chuyển con trỏ đến một ô cụ thể trong bảng?
 
- Bạn có thể di chuyển con trỏ đến một ô bảng bằng cách sử dụng`builder.MoveToCell` phương pháp, chỉ định chỉ mục bảng, chỉ mục hàng và chỉ mục ô.
+Bạn có thể di chuyển con trỏ đến một ô của bảng bằng cách sử dụng `builder.MoveToCell` phương pháp, chỉ định chỉ mục bảng, chỉ mục hàng và chỉ mục ô.
 
 ### Aspose.Words có tương thích với .NET Core không?
 
@@ -142,11 +144,16 @@ Có, Aspose.Words hoàn toàn tương thích với .NET Core, cho phép bạn x�
 
 ### Tôi có thể tìm tài liệu về Aspose.Words ở đâu?
 
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Words cho .NET [đây](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

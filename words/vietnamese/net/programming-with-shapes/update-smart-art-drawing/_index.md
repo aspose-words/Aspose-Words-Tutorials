@@ -1,14 +1,16 @@
 ---
-title: Cập nhật Bản vẽ nghệ thuật thông minh
-linktitle: Cập nhật Bản vẽ nghệ thuật thông minh
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách cập nhật bản vẽ Smart Art trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đảm bảo hình ảnh của bạn luôn chính xác.
-weight: 10
-url: /vi/net/programming-with-shapes/update-smart-art-drawing/
+"description": "Tìm hiểu cách cập nhật bản vẽ Smart Art trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đảm bảo hình ảnh của bạn luôn chính xác."
+"linktitle": "Cập nhật Bản vẽ nghệ thuật thông minh"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Cập nhật Bản vẽ nghệ thuật thông minh"
+"url": "/vi/net/programming-with-shapes/update-smart-art-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật Bản vẽ nghệ thuật thông minh
@@ -21,7 +23,7 @@ url: /vi/net/programming-with-shapes/update-smart-art-drawing/
 
 Trước khi thực hiện các bước, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 
 2. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
 
@@ -45,10 +47,10 @@ Các không gian tên này cung cấp các lớp và phương thức cần thi�
 Tiêu đề: Tải tài liệu
 
 Giải thích:
- Đầu tiên, bạn cần tải tài liệu Word có chứa đồ họa Smart Art. Điều này được thực hiện bằng cách tạo một phiên bản của`Document` lớp và cung cấp đường dẫn đến tài liệu của bạn.
+Đầu tiên, bạn cần tải tài liệu Word có chứa đồ họa Smart Art. Điều này được thực hiện bằng cách tạo một phiên bản của `Document` lớp và cung cấp đường dẫn đến tài liệu của bạn.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Tải tài liệu
@@ -86,7 +88,7 @@ Việc xác định hình dạng Smart Art đảm bảo rằng bạn chỉ cố 
 Tiêu đề: Làm mới đồ họa nghệ thuật thông minh
 
 Giải thích:
- Các`UpdateSmartArtDrawing` phương pháp làm mới đồ họa Smart Art, đảm bảo rằng nó phản ánh mọi thay đổi trong dữ liệu hoặc bố cục của tài liệu. Phương pháp này phải được gọi trên mỗi hình dạng Smart Art được xác định ở bước trước.
+Các `UpdateSmartArtDrawing` phương pháp làm mới đồ họa Smart Art, đảm bảo rằng nó phản ánh mọi thay đổi trong dữ liệu hoặc bố cục của tài liệu. Phương pháp này phải được gọi trên mỗi hình dạng Smart Art được xác định ở bước trước.
 
 ```csharp
 // Cập nhật bản vẽ Smart Art cho từng hình dạng Smart Art
@@ -130,13 +132,18 @@ Việc cập nhật Smart Art đảm bảo đồ họa phản ánh những thay 
 Có, bạn có thể tự động hóa quy trình cập nhật Smart Art trong nhiều tài liệu bằng cách lặp lại một tập hợp các tệp và áp dụng các bước tương tự.
 
 ### Tôi có cần giấy phép đặc biệt cho Aspose.Words để sử dụng các tính năng này không?
- Cần có giấy phép Aspose.Words hợp lệ để sử dụng các tính năng của nó sau thời gian đánh giá. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Cần có giấy phép Aspose.Words hợp lệ để sử dụng các tính năng của nó sau thời gian đánh giá. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words ở đâu?
- Bạn có thể truy cập tài liệu[đây](https://reference.aspose.com/words/net/).
+Bạn có thể truy cập tài liệu [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

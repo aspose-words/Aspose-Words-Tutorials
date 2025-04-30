@@ -1,14 +1,16 @@
 ---
-title: Odłącz nagłówki i stopki
-linktitle: Odłącz nagłówki i stopki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak odłączyć nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby opanować manipulację dokumentami.
-weight: 10
-url: /pl/net/join-and-append-documents/unlink-headers-footers/
+"description": "Dowiedz się, jak odłączyć nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby opanować manipulację dokumentami."
+"linktitle": "Odłącz nagłówki i stopki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Odłącz nagłówki i stopki"
+"url": "/pl/net/join-and-append-documents/unlink-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odłącz nagłówki i stopki
@@ -21,7 +23,7 @@ url: /pl/net/join-and-append-documents/unlink-headers-footers/
 
 Zanim przejdziemy do szczegółów, jest kilka rzeczy, których będziesz potrzebować:
 
--  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że masz zainstalowaną zgodną wersję .NET Framework.
 - IDE: Visual Studio lub inne zintegrowane środowisko programistyczne zgodne z platformą .NET.
 - Podstawowa znajomość języka C#: Wymagana jest podstawowa znajomość języka programowania C#.
@@ -41,7 +43,7 @@ Podzielmy ten proces na mniejsze, łatwiejsze do wykonania kroki, które ułatwi
 Najpierw musisz skonfigurować środowisko projektu. Otwórz IDE i utwórz nowy projekt .NET. Dodaj odwołanie do biblioteki Aspose.Words, którą pobrałeś wcześniej.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -63,17 +65,17 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Krok 4: Odłącz nagłówki i stopki
 
- Ten krok jest kluczowy. Aby odłączyć nagłówki i stopki dokumentu źródłowego od nagłówków i stopek dokumentu docelowego, należy użyć`LinkToPrevious` Metoda. Ta metoda zapewnia, że nagłówki i stopki nie zostaną przeniesione do dołączonego dokumentu.
+Ten krok jest kluczowy. Aby odłączyć nagłówki i stopki dokumentu źródłowego od nagłówków i stopek dokumentu docelowego, należy użyć `LinkToPrevious` metoda. Ta metoda zapewnia, że nagłówki i stopki nie zostaną przeniesione do dołączonego dokumentu.
 
 ```csharp
 // Aby temu zapobiec, odłącz nagłówki i stopki w dokumencie źródłowym
-// kontynuowania nagłówków i stopek dokumentu docelowego.
+// z kontynuowania nagłówków i stopek dokumentu docelowego.
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
 ```
 
 ## Krok 5: Dołącz dokument źródłowy
 
- Po odłączeniu nagłówków i stopek możesz dołączyć dokument źródłowy do dokumentu docelowego. Użyj`AppendDocument` metodę i ustaw tryb formatu importu na`KeepSourceFormatting` aby zachować oryginalne formatowanie dokumentu źródłowego.
+Po odłączeniu nagłówków i stopek możesz dołączyć dokument źródłowy do dokumentu docelowego. Użyj `AppendDocument` metodę i ustaw tryb formatu importu na `KeepSourceFormatting` aby zachować oryginalne formatowanie dokumentu źródłowego.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
@@ -89,7 +91,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.UnlinkHeadersFooters.docx");
 
 ## Wniosek
 
-I masz to! Postępując zgodnie z tymi krokami, udało Ci się pomyślnie odłączyć nagłówki i stopki w dokumencie źródłowym i dołączyć je do dokumentu docelowego za pomocą Aspose.Words dla .NET. Ta technika może być szczególnie przydatna, gdy pracujesz ze złożonymi dokumentami, które wymagają różnych nagłówków i stopek dla różnych sekcji. Miłego kodowania!
+masz to! Postępując zgodnie z tymi krokami, udało Ci się pomyślnie odłączyć nagłówki i stopki w dokumencie źródłowym i dołączyć je do dokumentu docelowego za pomocą Aspose.Words dla .NET. Ta technika może być szczególnie przydatna, gdy pracujesz ze złożonymi dokumentami, które wymagają różnych nagłówków i stopek dla różnych sekcji. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
@@ -97,20 +99,25 @@ I masz to! Postępując zgodnie z tymi krokami, udało Ci się pomyślnie odłą
 Aspose.Words for .NET to potężna biblioteka do pracy z dokumentami Word w aplikacjach .NET. Umożliwia programistom programowe tworzenie, modyfikowanie, konwertowanie i drukowanie dokumentów.
 
 ### Czy mogę rozłączyć nagłówki i stopki tylko w określonych sekcjach?  
- Tak, możesz odłączyć nagłówki i stopki dla określonych sekcji, uzyskując dostęp do`HeadersFooters` właściwość żądanej sekcji i używając`LinkToPrevious` metoda.
+Tak, możesz odłączyć nagłówki i stopki dla określonych sekcji, uzyskując dostęp do `HeadersFooters` właściwość żądanej sekcji i używając `LinkToPrevious` metoda.
 
 ### Czy możliwe jest zachowanie oryginalnego formatowania dokumentu źródłowego?  
- Tak, dołączając dokument źródłowy, użyj`ImportFormatMode.KeepSourceFormatting` opcja zachowania oryginalnego formatowania.
+Tak, dołączając dokument źródłowy, użyj `ImportFormatMode.KeepSourceFormatting` opcja zachowania oryginalnego formatowania.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami .NET poza C#?  
 Oczywiście! Aspose.Words dla .NET można używać z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Gdzie mogę znaleźć więcej dokumentacji i pomocy dla Aspose.Words dla .NET?  
- Pełną dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/) i pomoc jest dostępna na[Forum Aspose](https://forum.aspose.com/c/words/8).
+Pełną dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/)i pomoc jest dostępna na [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Deteksi Format File Dokumen
-linktitle: Deteksi Format File Dokumen
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendeteksi format file dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-fileformat/detect-file-format/
+"description": "Pelajari cara mendeteksi format file dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Deteksi Format File Dokumen"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Deteksi Format File Dokumen"
+"url": "/id/net/programming-with-fileformat/detect-file-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Deteksi Format File Dokumen
@@ -21,7 +23,7 @@ Di dunia digital saat ini, mengelola berbagai format dokumen secara efisien sang
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/) Pastikan Anda memiliki lisensi yang valid. Jika tidak, Anda bisa mendapatkan lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/)Pastikan Anda memiliki lisensi yang valid. Jika tidak, Anda bisa mendapatkan lisensi [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: Versi terbaru apa pun akan berfungsi dengan baik.
 - .NET Framework: Pastikan Anda menginstal versi yang benar.
 
@@ -174,14 +176,19 @@ Ya, Aspose.Words dapat mendeteksi jika suatu dokumen dienkripsi dan Anda dapat m
 Aspose.Words dapat mendeteksi berbagai format termasuk DOC, DOCX, RTF, HTML, MHTML, ODT, dan masih banyak lagi.
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
- Anda bisa mendapatkan lisensi sementara dari[Aspose Pembelian](https://purchase.aspose.com/temporary-license/) halaman.
+Anda bisa mendapatkan lisensi sementara dari [Aspose Pembelian](https://purchase.aspose.com/temporary-license/) halaman.
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words?
- Dokumentasi untuk Aspose.Words dapat ditemukan[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi untuk Aspose.Words dapat ditemukan [Di Sini](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

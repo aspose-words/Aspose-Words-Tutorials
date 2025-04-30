@@ -1,73 +1,75 @@
 ---
-title: Povolit ochranu pouze polí formuláře v dokumentu aplikace Word
-linktitle: Povolit ochranu pouze polí formuláře v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zjistěte, jak chránit dokumenty aplikace Word a umožnit úpravu pouze polí formuláře pomocí Aspose.Words for .NET. Postupujte podle našeho průvodce, abyste zajistili, že vaše dokumenty budou bezpečné a snadno upravitelné.
-weight: 10
-url: /cs/net/document-protection/allow-only-form-fields-protect/
+"description": "Naučte se, jak chránit dokumenty Wordu a povolit úpravu pouze polí formuláře pomocí Aspose.Words pro .NET. Postupujte podle našeho průvodce a zajistěte, aby vaše dokumenty byly zabezpečené a snadno upravitelné."
+"linktitle": "Povolit pouze ochranu polí formuláře v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Povolit pouze ochranu polí formuláře v dokumentu Word"
+"url": "/cs/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Povolit ochranu pouze polí formuláře v dokumentu aplikace Word
+# Povolit pouze ochranu polí formuláře v dokumentu Word
 
 ## Zavedení
 
-Ahoj! Potřebovali jste někdy chránit konkrétní části dokumentu aplikace Word a ponechat jiné části upravitelné? Aspose.Words pro .NET to velmi usnadňuje. V tomto tutoriálu se ponoříme do toho, jak povolit ochranu pouze polí formuláře v dokumentu aplikace Word. Na konci této příručky budete mít skálopevné znalosti o ochraně dokumentů pomocí Aspose.Words pro .NET. Připraveni? Pojďme do toho!
+Ahoj! Potřebovali jste někdy chránit určité části dokumentu Word a zároveň ponechat ostatní části upravitelné? Aspose.Words pro .NET to velmi usnadňuje. V tomto tutoriálu se ponoříme do toho, jak v dokumentu Word povolit ochranu pouze polí formuláře. Na konci tohoto průvodce budete mít důkladné znalosti o ochraně dokumentů pomocí Aspose.Words pro .NET. Připraveni? Pojďme na to!
 
 ## Předpoklady
 
-Než se ponoříme do kódovací části, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do kódování, ujistěme se, že máte vše potřebné:
 
-1.  Aspose.Words for .NET Library: Můžete si ji stáhnout z[zde](https://releases.aspose.com/words/net/).
-2. Visual Studio: Jakákoli nejnovější verze bude fungovat dobře.
-3. Základní znalost C#: Pochopení základů vám pomůže postupovat společně s výukovým programem.
+1. Knihovna Aspose.Words pro .NET: Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+2. Visual Studio: Jakákoli novější verze bude fungovat bez problémů.
+3. Základní znalost C#: Pochopení základů vám pomůže s plněním úkolů v tutoriálu.
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory. Toto nastaví naše prostředí tak, aby používalo Aspose.Words.
+Nejdříve musíme importovat potřebné jmenné prostory. Tím se naše prostředí nastaví pro použití Aspose.Words.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Vytvořte nový projekt v sadě Visual Studio  
-Otevřete Visual Studio a vytvořte nový projekt Console App (.NET Core). Pojmenujte to nějak smysluplně, například „AsposeWordsProtection“.
+Vytvoření nového projektu ve Visual Studiu  
+Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace (.NET Core). Pojmenujte ho nějak smysluplně, například „AsposeWordsProtection“.
 
-## Krok 2: Nainstalujte Aspose.Words for .NET
+## Krok 2: Instalace Aspose.Words pro .NET
 
-Nainstalujte přes NuGet Package Manager  
-Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení, vyberte „Spravovat balíčky NuGet“ a vyhledejte`Aspose.Words`. Nainstalujte jej.
+Instalace pomocí Správce balíčků NuGet  
+V Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt, vyberte možnost „Spravovat balíčky NuGet“ a vyhledejte `Aspose.Words`Nainstalujte to.
 
-## Krok 3: Inicializujte dokument
+## Krok 3: Inicializace dokumentu
 
-Vytvořte nový objekt dokumentu  
-Začněme vytvořením nového dokumentu a tvůrcem dokumentů pro přidání textu.
+Vytvořte nový objekt Dokument  
+Začněme vytvořením nového dokumentu a nástroje pro tvorbu dokumentů, do kterého přidáme nějaký text.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Inicializujte nový dokument a DocumentBuilder
+// Inicializace nového dokumentu a DocumentBuilderu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Zde vytvoříme nový`Document` a`DocumentBuilder` instance. The`DocumentBuilder` nám umožňuje přidat text do našeho dokumentu.
+Zde vytváříme nový `Document` a `DocumentBuilder` instance. Ten `DocumentBuilder` umožňuje nám přidat text do našeho dokumentu.
 
-## Krok 4: Chraňte dokument
+## Krok 4: Ochrana dokumentu
 
-Použít ochranu umožňující pouze úpravy polí formuláře  
-Nyní přidejte ochranu do našeho dokumentu.
+Použít ochranu povolující pouze úpravy polí formuláře  
+Nyní přidáme ochranu do našeho dokumentu.
 
 ```csharp
-// Chraňte dokument a povolte upravovat pouze pole formuláře
+// Zabezpečit dokument a umožnit úpravy pouze polí formuláře
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 ```
 
@@ -75,40 +77,45 @@ Tento řádek kódu chrání dokument a umožňuje pouze úpravy polí formulá�
 
 ## Krok 5: Uložte dokument
 
-Uložte chráněný dokument  
-Nakonec uložme náš dokument do zadaného adresáře.
+Uložit chráněný dokument  
+Nakonec uložíme náš dokument do zadaného adresáře.
 
 ```csharp
-// Uložte chráněný dokument
+// Uložit chráněný dokument
 doc.Save(dataDir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
 ```
 
-Tím se dokument uloží s aplikovanou ochranou.
+Tím se dokument uloží s použitou ochranou.
 
 ## Závěr
 
-A tady to máte! Právě jste se naučili, jak chránit dokument aplikace Word tak, aby bylo možné pomocí Aspose.Words for .NET upravovat pouze pole formuláře. To je užitečná funkce, když potřebujete zajistit, aby určité části dokumentu zůstaly nezměněny, a zároveň umožnit vyplnění konkrétních polí.
+tady to máte! Právě jste se naučili, jak chránit dokument Wordu tak, aby bylo možné upravovat pouze pole formuláře pomocí Aspose.Words pro .NET. To je užitečná funkce, když potřebujete zajistit, aby určité části dokumentu zůstaly nezměněny, ale zároveň umožnily vyplnění konkrétních polí.
 
-## FAQ
+## Často kladené otázky
 
 ###	 Jak mohu odstranit ochranu z dokumentu?  
- Pro odstranění ochrany použijte`doc.Unprotect("password")` metoda, kde "heslo" je heslo používané k ochraně dokumentu.
+Chcete-li ochranu odstranit, použijte `doc.Unprotect("password")` metoda, kde „password“ je heslo použité k ochraně dokumentu.
 
 ###	 Mohu použít různé typy ochrany pomocí Aspose.Words pro .NET?  
- Ano, Aspose.Words podporuje různé typy ochrany jako např`ReadOnly`, `NoProtection` a`AllowOnlyRevisions`.
+Ano, Aspose.Words podporuje různé typy ochrany, jako například `ReadOnly`, `NoProtection`a `AllowOnlyRevisions`.
 
-###	 Je možné použít jiné heslo pro různé sekce?  
+###	 Je možné použít pro různé sekce různé heslo?  
 Ne, ochrana na úrovni dokumentu v Aspose.Words se vztahuje na celý dokument. Různým sekcím nelze přiřadit různá hesla.
 
-###	 Co se stane, když použijete nesprávné heslo?  
-Pokud použijete nesprávné heslo, dokument zůstane chráněný a zadané změny se nepoužijí.
+###	 Co se stane, když se použije nesprávné heslo?  
+Pokud je použito nesprávné heslo, dokument zůstane chráněný a zadané změny nebudou použity.
 
 ###	 Mohu programově zkontrolovat, zda je dokument chráněn?  
- Ano, můžete použít`doc.ProtectionType` vlastnost ke kontrole stavu ochrany dokumentu.
+Ano, můžete použít `doc.ProtectionType` vlastnost pro kontrolu stavu ochrany dokumentu.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

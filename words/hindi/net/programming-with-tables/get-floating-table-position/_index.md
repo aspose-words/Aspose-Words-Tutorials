@@ -1,14 +1,16 @@
 ---
-title: फ़्लोटिंग टेबल स्थिति प्राप्त करें
-linktitle: फ़्लोटिंग टेबल स्थिति प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़्लोटिंग टेबल पोज़िशन कैसे प्राप्त करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शिका आपको वह सब कुछ बताएगी जो आपको जानना आवश्यक है।
-weight: 10
-url: /hi/net/programming-with-tables/get-floating-table-position/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़्लोटिंग टेबल पोज़िशन कैसे प्राप्त करें। यह विस्तृत, चरण-दर-चरण मार्गदर्शिका आपको वह सब कुछ बताएगी जो आपको जानना आवश्यक है।"
+"linktitle": "फ़्लोटिंग टेबल स्थिति प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़्लोटिंग टेबल स्थिति प्राप्त करें"
+"url": "/hi/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़्लोटिंग टेबल स्थिति प्राप्त करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-tables/get-floating-table-position/
 
 इससे पहले कि हम मज़ेदार भाग में जाएं, कुछ चीजें हैं जो आपको तैयार रखनी होंगी:
 
-1.  Aspose.Words for .NET: यदि आपने पहले से ऐसा नहीं किया है, तो .NET के लिए Aspose.Words को डाउनलोड और इंस्टॉल करें।[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: यदि आपने पहले से ऐसा नहीं किया है, तो .NET के लिए Aspose.Words को डाउनलोड और इंस्टॉल करें। [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास पर्यावरण: सुनिश्चित करें कि आपके पास .NET विकास पर्यावरण स्थापित है। विज़ुअल स्टूडियो एक बढ़िया विकल्प है।
 3. नमूना दस्तावेज़: आपको फ़्लोटिंग टेबल वाले वर्ड दस्तावेज़ की आवश्यकता होगी। आप एक बना सकते हैं या किसी मौजूदा दस्तावेज़ का उपयोग कर सकते हैं। 
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- इस चरण में, आप अनिवार्य रूप से Aspose.Words को बता रहे हैं कि आपका दस्तावेज़ कहाँ मिलेगा।`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
+इस चरण में, आप अनिवार्य रूप से Aspose.Words को बता रहे हैं कि आपका दस्तावेज़ कहाँ मिलेगा। `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ के वास्तविक पथ के साथ.
 
 ## चरण 2: दस्तावेज़ में तालिकाओं तक पहुँचें
 
@@ -106,7 +108,7 @@ if (table.TextWrapping == TextWrapping.Around)
 फ्लोटिंग टेबल वह टेबल होती है जो पाठ से जुड़ी नहीं होती, बल्कि इधर-उधर घूम सकती है, आमतौर पर पाठ उसके चारों ओर लिपटा होता है।
 
 ### मैं .NET के लिए Aspose.Words का उपयोग करके कैसे बता सकता हूं कि कोई तालिका फ्लोटिंग है या नहीं?
- आप यह जांच कर सकते हैं कि कोई टेबल फ्लोटिंग है या नहीं, इसके लिए आपको इसकी जांच करनी होगी।`TextWrapping` संपत्ति। यदि इसे सेट किया गया है`TextWrapping.Around`, मेज तैर रही है.
+आप यह जांच कर सकते हैं कि कोई टेबल फ्लोटिंग है या नहीं। `TextWrapping` संपत्ति। यदि इसे सेट किया गया है `TextWrapping.Around`, मेज तैर रही है.
 
 ### क्या मैं फ़्लोटिंग टेबल के पोजिशनिंग गुणों को बदल सकता हूँ?
 हां, .NET के लिए Aspose.Words का उपयोग करके, आप किसी फ्लोटिंग तालिका के लेआउट को अनुकूलित करने के लिए उसके पोजिशनिंग गुणों को संशोधित कर सकते हैं।
@@ -115,10 +117,15 @@ if (table.TextWrapping == TextWrapping.Around)
 बिल्कुल! Aspose.Words for .NET को उच्च-प्रदर्शन दस्तावेज़ स्वचालन के लिए डिज़ाइन किया गया है और यह बड़े पैमाने पर संचालन को कुशलतापूर्वक संभाल सकता है।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक जानकारी और संसाधन कहां पा सकता हूं?
-आप विस्तृत दस्तावेज और संसाधन यहां पा सकते हैं[.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज और संसाधन यहां पा सकते हैं [.NET के लिए Aspose.Words दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

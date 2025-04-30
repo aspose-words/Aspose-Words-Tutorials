@@ -1,14 +1,16 @@
 ---
-title: Простой документ добавления
-linktitle: Простой документ добавления
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавить один документ Word к другому с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/join-and-append-documents/simple-append-document/
+"description": "Узнайте, как добавить один документ Word к другому с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Простой документ добавления"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Простой документ добавления"
+"url": "/ru/net/join-and-append-documents/simple-append-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Простой документ добавления
@@ -21,7 +23,7 @@ url: /ru/net/join-and-append-documents/simple-append-document/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words для .NET: если вы еще этого не сделали, загрузите библиотеку с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: если вы еще этого не сделали, загрузите библиотеку с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: вы можете использовать Visual Studio или любую другую совместимую с .NET IDE.
 3. Базовые знания C#: в этом руководстве предполагается, что у вас есть базовые знания программирования на C#.
 4. Два документа Word: убедитесь, что у вас есть два документа Word, готовых к объединению.
@@ -42,7 +44,7 @@ using Aspose.Words.Saving;
 Прежде чем погрузиться в код, убедитесь, что ваш проект настроен правильно. Вот краткий контрольный список:
 
 1. Создайте новый проект: откройте Visual Studio и создайте новый проект консольного приложения.
-2.  Добавить ссылку Aspose.Words: Загрузите и добавьте библиотеку Aspose.Words в свой проект. Вы можете сделать это через NuGet Package Manager, выполнив поиск`Aspose.Words`.
+2. Добавить ссылку Aspose.Words: Загрузите и добавьте библиотеку Aspose.Words в свой проект. Вы можете сделать это через диспетчер пакетов NuGet, выполнив поиск `Aspose.Words`.
 
 ```csharp
 Install-Package Aspose.Words
@@ -56,7 +58,7 @@ Install-Package Aspose.Words
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашим документам.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашим документам.
 
 ## Шаг 3: Загрузите исходный документ
 
@@ -66,7 +68,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Document source.docx");
 ```
 
- Здесь мы создаем новый`Document` объект и загрузка файла с именем «Источник документа.docx» из вашего каталога.
+Здесь мы создаем новый `Document` объект и загрузка файла с именем «Источник документа.docx» из вашего каталога.
 
 ## Шаг 4: Загрузите целевой документ
 
@@ -76,19 +78,19 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- Опять же, мы создаем новый`Document` объект и загрузите файл с именем «Northwind traders.docx» из вашего каталога.
+Опять же, мы создаем новый `Document` объект и загрузите файл с именем «Northwind traders.docx» из вашего каталога.
 
 ## Шаг 5: Добавьте исходный документ
 
- Вот тут-то и происходит волшебство! Мы добавим исходный документ к целевому документу с помощью`AppendDocument` метод.
+Вот тут-то и происходит волшебство! Мы добавим исходный документ к целевому документу с помощью `AppendDocument` метод.
 
 ```csharp
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- The`AppendDocument` Метод принимает два параметра:
+The `AppendDocument` Метод принимает два параметра:
 1. Исходный документ: документ, который вы хотите добавить.
-2.  Import Format Mode: Этот параметр определяет, как форматирование должно обрабатываться. Здесь мы используем`KeepSourceFormatting` для сохранения форматирования исходного документа.
+2. Import Format Mode: Этот параметр определяет, как форматирование должно обрабатываться. Здесь мы используем `KeepSourceFormatting` для сохранения форматирования исходного документа.
 
 ## Шаг 6: Сохраните объединенный документ.
 
@@ -108,15 +110,15 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.SimpleAppendDocument.docx");
 
 ### Могу ли я прикрепить несколько документов, используя этот метод?
 
- Конечно! Вы можете добавить столько документов, сколько вам нужно, повторно вызывая`AppendDocument` метод с различными исходными документами.
+Конечно! Вы можете добавить столько документов, сколько вам нужно, повторно вызывая `AppendDocument` метод с различными исходными документами.
 
 ### Что делать, если мои документы имеют разное форматирование?
 
- Вы можете контролировать форматирование с помощью`ImportFormatMode` параметр. Параметры включают`KeepSourceFormatting`, `UseDestinationStyles`и многое другое.
+Вы можете контролировать форматирование с помощью `ImportFormatMode` параметр. Параметры включают `KeepSourceFormatting`, `UseDestinationStyles`и многое другое.
 
 ### Можно ли использовать Aspose.Words бесплатно?
 
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) . Для полной функциональности вам необходимо приобрести лицензию у[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для полной функциональности вам необходимо приобрести лицензию у [здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я прикреплять документы разных форматов?
 
@@ -136,9 +138,14 @@ catch (Exception ex)
     Console.WriteLine("An error occurred: " + ex.Message);
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

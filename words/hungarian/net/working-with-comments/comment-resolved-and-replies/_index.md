@@ -1,75 +1,77 @@
 ---
-title: Megjegyzés megoldva és válaszok
-linktitle: Megjegyzés megoldva és válaszok
-second_title: Aspose.Words Document Processing API
-description: Automatizálja a Word-dokumentumok megjegyzéseinek feloldását és megválaszolását az Aspose.Words for .NET segítségével. Lépésről lépésre útmutató mellékelve.
-weight: 10
-url: /hu/net/working-with-comments/comment-resolved-and-replies/
+"description": "Automatizálja a Word-dokumentumokban található megjegyzések feloldását és megválaszolását az Aspose.Words for .NET segítségével. Lépésről lépésre útmutató mellékelve."
+"linktitle": "Hozzászólás megoldva és megválaszolva"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Hozzászólás megoldva és megválaszolva"
+"url": "/hu/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzés megoldva és válaszok
+# Hozzászólás megoldva és megválaszolva
 
 ## Bevezetés
 
-Ha Word-dokumentumokkal dolgozik, valószínűleg foglalkozott a megjegyzésekkel. Együttműködésre kiválóan alkalmasak, de a kezelésük gondot okozhat. Az Aspose.Words for .NET segítségével automatizálhatja a megjegyzések feloldásának és megválaszolásának folyamatát. Ez az útmutató végigvezeti Önt az ehhez szükséges lépéseken.
+Ha Word dokumentumokkal dolgozol, valószínűleg már találkoztál megjegyzésekkel. Nagyszerűek az együttműködéshez, de a kezelésük macerás lehet. Az Aspose.Words for .NET segítségével automatizálhatod a megjegyzések feloldásának és megválaszolásának folyamatát. Ez az útmutató végigvezet a lépéseken, hogy pontosan ezt tedd.
 
 ## Előfeltételek
 
-Búvárkodás előtt győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnál, győződj meg róla, hogy a következőkkel rendelkezel:
 
-1.  Aspose.Words for .NET: Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-2. Fejlesztési környezet: Beállítás .NET-keretrendszerrel.
-3. C# alapismeretek: a szintaxis és a fogalmak ismerete.
+1. Aspose.Words .NET-hez: Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: .NET keretrendszerrel beállítva.
+3. C# alapismeretek: A szintaxis és a fogalmak ismerete.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket. Ez biztosítja, hogy az összes szükséges osztály és metódus könnyen elérhető legyen.
+Először is importáljuk a szükséges névtereket. Ez biztosítja, hogy minden szükséges osztály és metódus könnyen elérhető legyen.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Comments;
 ```
 
-Bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre. Minden lépés segít megérteni a kódot és annak funkcióit.
+Bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre. Minden egyes lépés segít megérteni a kódot és annak működését.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
- Kezdésként töltse be a megjegyzéseket tartalmazó Word dokumentumot. Használja a`Document` osztály erre.
+Kezdésként töltse be a megjegyzéseket tartalmazó Word-dokumentumot. Használja a `Document` osztály erre.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Ez a kódsor inicializál egy újat`Document` objektumot a Word-dokumentum elérési útjával.
+Ez a kódsor inicializál egy új `Document` objektum a Word-dokumentum elérési útjával.
 
-## 2. lépés: A megjegyzések lekérése
+## 2. lépés: Hozzászólások lekérése
 
- Ezután be kell szereznünk a dokumentumban szereplő összes megjegyzést. Használjuk a`GetChildNodes` gyűjtemény lekérésének módszere`Comment` csomópontok.
+Ezután meg kell kapnunk az összes megjegyzést a dokumentumban. Ehhez a következőt fogjuk használni: `GetChildNodes` módszer egy gyűjtemény lekérésére `Comment` csomópontok.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Ez a kód lekéri a dokumentumban található összes megjegyzést, és eltárolja azokat a`NodeCollection`.
+Ez a kód lekéri a dokumentumban található összes megjegyzést, és egy ... fájlban tárolja azokat. `NodeCollection`.
 
-## 3. lépés: Nyissa meg a szülői megjegyzést
+## 3. lépés: Hozzáférés a szülői megjegyzéshez
 
-Példánkban a gyűjtemény első megjegyzésére fogunk összpontosítani. Ez lesz a szülői megjegyzésünk.
+Példánkban a gyűjtemény első megjegyzésére fogunk összpontosítani. Ez lesz a szülő megjegyzésünk.
 
 ```csharp
 Comment parentComment = (Comment)comments[0];
 ```
 
- Itt átküldjük a gyűjtemény első csomópontját a`Comment` objektum.
+Itt a gyűjtemény első csomópontját egy `Comment` objektum.
 
-## 4. lépés: Ismételje meg a válaszokat
+## 4. lépés: Válaszok ismétlése
 
- Most nézzük át a szülő megjegyzésére adott válaszokat. Használjuk a`foreach` ciklus az egyes válaszok ismétléséhez.
+Most pedig nézzük végig a szülő hozzászólásra adott válaszokat. Használni fogunk egy `foreach` ciklus az egyes válaszok végigjátszásához.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -81,9 +83,9 @@ foreach (Comment childComment in parentComment.Replies)
 }
 ```
 
-Ebben a ciklusban kinyomtatjuk az ős megjegyzés azonosítóját és állapotát (akár kész, akár nem). Ezután minden választ késznek jelölünk.
+Ebben a ciklusban kinyomtatjuk az ős-megjegyzés azonosítóját és állapotát (kész vagy sem). Ezután minden választ készként jelölünk meg.
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
 Végül mentse el a módosított dokumentumot a könyvtárába.
 
@@ -91,31 +93,36 @@ Végül mentse el a módosított dokumentumot a könyvtárába.
 doc.Save(dataDir + "WorkingWithComments.CommentResolvedAndReplies.docx");
 ```
 
-Ez a kód egy új dokumentumba menti a módosításokat, így biztosítva, hogy az eredeti fájl érintetlen maradjon.
+Ez a kód egy új dokumentumba menti a módosításokat, biztosítva, hogy az eredeti fájl érintetlen maradjon.
 
 ## Következtetés
 
-A Word-dokumentumokban lévő megjegyzések kezelésének nem kell manuális munkának lennie. Az Aspose.Words for .NET segítségével automatizálhatja a folyamatot, így időt takaríthat meg és csökkentheti a hibákat. Kövesse ezt az útmutatót a dokumentumaiban lévő megjegyzések hatékony megoldásához és megválaszolásához.
+A Word dokumentumokban a megjegyzések kezelése nem kell, hogy manuális feladat legyen. Az Aspose.Words for .NET segítségével automatizálhatja a folyamatot, így időt takaríthat meg és csökkentheti a hibákat. Kövesse ezt az útmutatót a dokumentumokban található megjegyzések hatékony megoldásához és megválaszolásához.
 
 ## GYIK
 
-### Automatizálhatok más megjegyzésekkel kapcsolatos feladatokat az Aspose.Words for .NET segítségével?  
-Igen, automatizálhat különféle feladatokat, például megjegyzések hozzáadását, törlését és módosítását.
+### Automatizálhatok más, megjegyzésekkel kapcsolatos feladatokat az Aspose.Words for .NET segítségével?  
+Igen, automatizálhat különféle feladatokat, például a megjegyzések hozzáadását, törlését és módosítását.
 
-### Az Aspose.Words for .NET kompatibilis a .NET Core-al?  
-Igen, az Aspose.Words for .NET támogatja a .NET-keretrendszert és a .NET Core-t is.
+### Kompatibilis az Aspose.Words for .NET a .NET Core-ral?  
+Igen, az Aspose.Words for .NET támogatja mind a .NET Framework, mind a .NET Core verziókat.
 
-### Hogyan szerezhetem be az Aspose.Words for .NET ingyenes próbaverzióját?  
- Ingyenes próbaverziót letölthet a webhelyről[itt](https://releases.aspose.com/).
+### Hogyan szerezhetek ingyenes próbaverziót az Aspose.Words for .NET-hez?  
+Ingyenes próbaverziót tölthet le innen [itt](https://releases.aspose.com/).
 
-### Használhatom az Aspose.Words for .NET-et más dokumentumtípusokkal való együttműködéshez?  
-Igen, az Aspose.Words különféle formátumokat támogat, beleértve a DOCX, PDF, HTML és egyebeket.
+### Használhatom az Aspose.Words for .NET-et más dokumentumtípusokkal való munkához?  
+Igen, az Aspose.Words számos formátumot támogat, beleértve a DOCX-et, PDF-et, HTML-t és egyebeket.
 
-### Hol találom az Aspose.Words for .NET részletes dokumentációját?  
- Hozzáférhet a dokumentációhoz[itt](https://reference.aspose.com/words/net/).
+### Hol találok részletes dokumentációt az Aspose.Words for .NET-hez?  
+Hozzáférhet a dokumentációhoz [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

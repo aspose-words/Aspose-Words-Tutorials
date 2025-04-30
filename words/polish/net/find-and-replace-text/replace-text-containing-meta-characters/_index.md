@@ -1,14 +1,16 @@
 ---
-title: Zamień tekst Word zawierający znaki meta
-linktitle: Zamień tekst Word zawierający znaki meta
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zastąpić tekst zawierający znaki meta w dokumentach Word za pomocą Aspose.Words dla .NET. Skorzystaj z naszego szczegółowego, angażującego samouczka, aby płynnie manipulować tekstem.
-weight: 10
-url: /pl/net/find-and-replace-text/replace-text-containing-meta-characters/
+"description": "Dowiedz się, jak zastąpić tekst zawierający znaki meta w dokumentach Word za pomocą Aspose.Words dla .NET. Skorzystaj z naszego szczegółowego, angażującego samouczka, aby płynnie manipulować tekstem."
+"linktitle": "Zamień tekst Word zawierający znaki meta"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zamień tekst Word zawierający znaki meta"
+"url": "/pl/net/find-and-replace-text/replace-text-containing-meta-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień tekst Word zawierający znaki meta
@@ -20,7 +22,7 @@ Czy kiedykolwiek utknąłeś w labiryncie zamian tekstu w dokumentach Word? Jeś
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
--  Aspose.Words dla .NET:[Link do pobrania](https://releases.aspose.com/words/net/)
+- Aspose.Words dla .NET: [Link do pobrania](https://releases.aspose.com/words/net/)
 - .NET Framework: Sprawdź, czy jest zainstalowany.
 - Podstawowa znajomość języka C#: Odrobina wiedzy z zakresu kodowania może wiele zdziałać.
 - Edytor tekstu lub środowisko IDE: zdecydowanie zalecamy Visual Studio.
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ten fragment kodu inicjuje dokument i konfiguruje konstruktora.`dataDir` jest bazą macierzystą Twojego dokumentu.
+Ten fragment kodu inicjuje dokument i konfiguruje konstruktora. `dataDir` jest bazą macierzystą Twojego dokumentu.
 
 ## Krok 2: Dostosuj czcionkę i dodaj zawartość
 
@@ -75,14 +77,14 @@ FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
 findReplaceOptions.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
 ```
 
- Tworzymy`FindReplaceOptions` obiekt i ustawienie wyrównania akapitu do środka.
+Tworzymy `FindReplaceOptions` obiekt i ustawienie wyrównania akapitu do środka.
 
 ## Krok 4: Zastąp tekst znakami meta
 
 W tym kroku dzieje się magia! Zastąpimy słowo „sekcja”, a następnie podział akapitu i dodamy podkreślenie.
 
 ```csharp
-//Podwój każdy podział akapitu po słowie „sekcja”, dodaj rodzaj podkreślenia i wyśrodkuj.
+// Podwój każdy podział akapitu po słowie „sekcja”, dodaj rodzaj podkreślenia i wyśrodkuj.
 int count = doc.Range.Replace("section&p", "section&p----------------------&p", findReplaceOptions);
 ```
 
@@ -97,7 +99,7 @@ Następnie zastąpimy niestandardowy znacznik tekstowy podziałem sekcji. To jak
 count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 ```
 
- Tutaj,`{insert-section}` zostaje zastąpiony podziałem sekcji (`&b`).
+Tutaj, `{insert-section}` zostaje zastąpiony podziałem sekcji (`&b`).
 
 ## Krok 6: Zapisz dokument
 
@@ -107,7 +109,7 @@ Na koniec zapiszmy naszą ciężką pracę. Pomyśl o tym jak o naciśnięciu �
 doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ```
 
- Ten kod zapisuje dokument w podanym przez Ciebie katalogu pod nazwą`FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
+Ten kod zapisuje dokument w podanym przez Ciebie katalogu pod nazwą `FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
 
 ## Wniosek
 
@@ -116,22 +118,27 @@ masz to! Opanowałeś sztukę zastępowania tekstu zawierającego meta znaki w d
 ## Najczęściej zadawane pytania
 
 ### Czym są znaki meta w zastępowaniu tekstu?
- Znaki meta to znaki specjalne, które mają unikalną funkcję, np.`&p` do podziału akapitów i`&b` dla podziałów sekcji.
+Znaki meta to znaki specjalne, które mają unikalną funkcję, np. `&p` do podziału akapitów i `&b` dla podziałów sekcji.
 
 ### Czy mogę dodatkowo dostosować tekst zastępczy?
 Oczywiście! Możesz zmodyfikować ciąg zastępczy, aby zawierał inny tekst, formatowanie lub inne znaki meta, jeśli to konieczne.
 
 ### Co zrobić, jeśli muszę zastąpić wiele różnych tagów?
- Można łączyć wiele łańcuchów`Replace` wywołuje obsługę różnych tagów i wzorców w dokumencie.
+Można łączyć wiele łańcuchów `Replace` wywołuje obsługę różnych tagów i wzorców w dokumencie.
 
 ### Czy można używać innych czcionek i formatowania?
-Tak, możesz dostosować czcionki i inne opcje formatowania za pomocą`DocumentBuilder` I`FindReplaceOptions` obiekty.
+Tak, możesz dostosować czcionki i inne opcje formatowania za pomocą `DocumentBuilder` I `FindReplaceOptions` obiekty.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
- Możesz odwiedzić[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) po więcej szczegółów i przykładów.
+Możesz odwiedzić [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) po więcej szczegółów i przykładów.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

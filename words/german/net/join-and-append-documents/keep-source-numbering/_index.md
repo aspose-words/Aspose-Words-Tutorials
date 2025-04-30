@@ -1,32 +1,34 @@
 ---
-title: Quellennummerierung beibehalten
-linktitle: Quellennummerierung beibehalten
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente unter Beibehaltung der Formatierung importieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-weight: 10
-url: /de/net/join-and-append-documents/keep-source-numbering/
+"description": "Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente unter Beibehaltung der Formatierung importieren. Schritt-für-Schritt-Anleitung mit Codebeispielen."
+"linktitle": "Quellennummerierung beibehalten"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Quellennummerierung beibehalten"
+"url": "/de/net/join-and-append-documents/keep-source-numbering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quellennummerierung beibehalten
 
 ## Einführung
 
- Bei der Arbeit mit Aspose.Words für .NET kann das Importieren von Dokumenten von einer Quelle in eine andere unter Beibehaltung der Formatierung effizient mithilfe des`NodeImporter` Klasse. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
+Bei der Arbeit mit Aspose.Words für .NET kann der Import von Dokumenten von einer Quelle in eine andere unter Beibehaltung der Formatierung effizient mithilfe der `NodeImporter` Klasse. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
 
 ## Voraussetzungen
 
 Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
 - Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.Words für .NET installiert. Wenn nicht, laden Sie es herunter von[Hier](https://releases.aspose.com/words/net/).
-- Grundkenntnisse der C#- und .NET-Programmierung.
+- Aspose.Words für .NET installiert. Falls nicht, laden Sie es herunter von [Hier](https://releases.aspose.com/words/net/).
+- Grundkenntnisse in C#- und .NET-Programmierung.
 
 ## Namespaces importieren
 
-Nehmen Sie zunächst die erforderlichen Namespaces in Ihr Projekt auf:
+Fügen Sie zunächst die erforderlichen Namespaces in Ihr Projekt ein:
 
 ```csharp
 using Aspose.Words;
@@ -42,7 +44,7 @@ Beginnen Sie, indem Sie in Visual Studio ein neues C#-Projekt erstellen und Aspo
 Erstellen Sie Instanzen der Quelle (`srcDoc`) und Ziel (`dstDoc`) Dokumente.
 
 ```csharp
-// Pfad zu Ihrem Dokumentverzeichnis
+// Pfad zu Ihrem Dokumentverzeichnis 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -59,7 +61,7 @@ NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSo
 ```
 
 ## Schritt 4: Absätze importieren
-Durchlaufen Sie die Absätze im Quelldokument und importieren Sie sie in das Zieldokument.
+Durchlaufen Sie Absätze im Quelldokument und importieren Sie sie in das Zieldokument.
 
 ```csharp
 ParagraphCollection srcParas = srcDoc.FirstSection.Body.Paragraphs;
@@ -79,28 +81,33 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.KeepSourceNumbering.docx");
 
 ## Abschluss
 
- Zusammenfassend lässt sich sagen, dass die Verwendung von Aspose.Words für .NET zum Importieren von Dokumenten unter Beibehaltung der Formatierung unkompliziert ist mit dem`NodeImporter` Klasse. Diese Methode stellt sicher, dass Ihre Dokumente ihr ursprüngliches Erscheinungsbild und ihre Struktur nahtlos beibehalten.
+Zusammenfassend lässt sich sagen, dass die Verwendung von Aspose.Words für .NET zum Importieren von Dokumenten unter Beibehaltung der Formatierung unkompliziert ist mit dem `NodeImporter` Klasse. Diese Methode stellt sicher, dass Ihre Dokumente ihr ursprüngliches Aussehen und ihre Struktur nahtlos beibehalten.
 
 ## Häufig gestellte Fragen
 
 ### Kann ich Dokumente mit unterschiedlichen Formatierungsstilen importieren?
- Ja, die`NodeImporter` Klasse unterstützt den Import von Dokumenten mit unterschiedlichen Formatierungsstilen.
+Ja, die `NodeImporter` Klasse unterstützt den Import von Dokumenten mit unterschiedlichen Formatierungsstilen.
 
 ### Was ist, wenn meine Dokumente komplexe Tabellen und Bilder enthalten?
-Aspose.Words für .NET verarbeitet während Importvorgängen komplexe Strukturen wie Tabellen und Bilder.
+Aspose.Words für .NET verarbeitet komplexe Strukturen wie Tabellen und Bilder während Importvorgängen.
 
 ### Ist Aspose.Words mit allen Versionen von .NET kompatibel?
 Aspose.Words unterstützt .NET Framework- und .NET Core-Versionen für eine nahtlose Integration.
 
-### Wie kann ich mit Fehlern beim Dokumentimport umgehen?
+### Wie gehe ich mit Fehlern beim Dokumentenimport um?
 Verwenden Sie Try-Catch-Blöcke, um Ausnahmen zu behandeln, die während des Importvorgangs auftreten können.
 
 ### Wo finde ich ausführlichere Dokumentation zu Aspose.Words für .NET?
- Besuchen Sie die[Dokumentation](https://reference.aspose.com/words/net/) für umfassende Anleitungen und API-Referenzen.
+Besuchen Sie die [Dokumentation](https://reference.aspose.com/words/net/) für umfassende Anleitungen und API-Referenzen.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

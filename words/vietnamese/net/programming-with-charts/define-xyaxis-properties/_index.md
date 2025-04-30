@@ -1,14 +1,16 @@
 ---
-title: Xác định Thuộc tính Trục XY Trong Biểu đồ
-linktitle: Xác định Thuộc tính Trục XY Trong Biểu đồ
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET.
-weight: 10
-url: /vi/net/programming-with-charts/define-xyaxis-properties/
+"description": "Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Xác định Thuộc tính Trục XY Trong Biểu đồ"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xác định Thuộc tính Trục XY Trong Biểu đồ"
+"url": "/vi/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định Thuộc tính Trục XY Trong Biểu đồ
@@ -21,7 +23,7 @@ Biểu đồ là công cụ mạnh mẽ để trực quan hóa dữ liệu. Khi 
 
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
-1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn cần một môi trường phát triển tích hợp (IDE) như Visual Studio.
 3. .NET Framework: Đảm bảo môi trường phát triển của bạn được thiết lập cho phát triển .NET.
 4. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
@@ -41,10 +43,10 @@ Chúng tôi sẽ chia nhỏ quy trình thành các bước đơn giản, mỗi b
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Đầu tiên, bạn cần khởi tạo một tài liệu mới và một`DocumentBuilder` đối tượng. Các`DocumentBuilder` giúp chèn nội dung vào tài liệu.
+Đầu tiên, bạn cần khởi tạo một tài liệu mới và một `DocumentBuilder` đối tượng. Các `DocumentBuilder` giúp chèn nội dung vào tài liệu.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -84,7 +86,7 @@ Bây giờ là lúc xác định các thuộc tính cho trục X. Bao gồm thi�
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //Được đo theo đơn vị hiển thị của trục Y (hàng trăm).
+xAxis.CrossesAt = 3; // Được đo theo đơn vị hiển thị của trục Y (hàng trăm).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
@@ -123,20 +125,25 @@ Việc tạo và tùy chỉnh biểu đồ trong tài liệu Word bằng Aspose.
 Bạn có thể tạo nhiều loại biểu đồ khác nhau, bao gồm biểu đồ Diện tích, Biểu đồ Thanh, Biểu đồ Đường, Biểu đồ Tròn, v.v.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống Aspose.Words cho .NET từ[đây](https://releases.aspose.com/words/net/)và làm theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống Aspose.Words cho .NET từ [đây](https://releases.aspose.com/words/net/) và làm theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể tùy chỉnh giao diện biểu đồ của mình không?
 Có, Aspose.Words cho .NET cho phép tùy chỉnh biểu đồ rộng rãi, bao gồm màu sắc, phông chữ và thuộc tính trục.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm hướng dẫn và tài liệu ở đâu?
- Bạn có thể tìm thấy nhiều hướng dẫn và tài liệu chi tiết hơn trên[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy nhiều hướng dẫn và tài liệu chi tiết hơn trên [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

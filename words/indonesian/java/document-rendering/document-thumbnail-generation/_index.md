@@ -1,14 +1,16 @@
 ---
-title: Pembuatan Gambar Mini Dokumen
-linktitle: Pembuatan Gambar Mini Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat thumbnail dokumen menggunakan Aspose.Words untuk Java. Tingkatkan pengalaman pengguna dengan pratinjau visual.
-weight: 11
-url: /id/java/document-rendering/document-thumbnail-generation/
+"description": "Pelajari cara membuat thumbnail dokumen menggunakan Aspose.Words untuk Java. Tingkatkan pengalaman pengguna dengan pratinjau visual."
+"linktitle": "Pembuatan Gambar Mini Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Pembuatan Gambar Mini Dokumen"
+"url": "/id/java/document-rendering/document-thumbnail-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pembuatan Gambar Mini Dokumen
@@ -23,7 +25,7 @@ Pembuatan gambar mini dokumen melibatkan pembuatan representasi visual miniatur 
 Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
--  Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari situs web[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk Java: Unduh dan instal Aspose.Words untuk Java dari situs web [Di Sini](https://releases.aspose.com/words/java/).
 - Lingkungan Pengembangan Terpadu (IDE): Anda dapat menggunakan IDE Java pilihan Anda, seperti Eclipse atau IntelliJ IDEA.
 
 ## Langkah 1: Menyiapkan Lingkungan Pengembangan Anda
@@ -72,7 +74,7 @@ Pembuatan gambar mini dokumen menggunakan Aspose.Words untuk Java menawarkan car
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
-Untuk menginstal Aspose.Words untuk Java, kunjungi halaman unduhan[Di Sini](https://releases.aspose.com/words/java/)dan ikuti petunjuk instalasi yang disediakan.
+Untuk menginstal Aspose.Words untuk Java, kunjungi halaman unduhan [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan.
 
 ### Bisakah saya menyesuaikan ukuran gambar mini yang dihasilkan?
 
@@ -88,10 +90,15 @@ Ya, Aspose.Words untuk Java memerlukan lisensi yang valid untuk penggunaan komer
 
 ### Di mana saya dapat menemukan dokumentasi tambahan untuk Aspose.Words untuk Java?
 
- Anda dapat menemukan dokumentasi lengkap dan referensi API di halaman dokumentasi Aspose.Words untuk Java[Di Sini](https://reference.aspose.com/words/java/).
+Anda dapat menemukan dokumentasi lengkap dan referensi API di halaman dokumentasi Aspose.Words untuk Java [Di Sini](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

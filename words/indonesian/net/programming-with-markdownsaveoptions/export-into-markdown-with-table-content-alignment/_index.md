@@ -1,14 +1,16 @@
 ---
-title: Ekspor ke Markdown dengan Penyelarasan Konten Tabel
-linktitle: Ekspor ke Markdown dengan Penyelarasan Konten Tabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengekspor dokumen Word ke Markdown dengan tabel yang selaras menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk tabel Markdown yang sempurna.
-weight: 10
-url: /id/net/programming-with-markdownsaveoptions/export-into-markdown-with-table-content-alignment/
+"description": "Pelajari cara mengekspor dokumen Word ke Markdown dengan tabel yang selaras menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk tabel Markdown yang sempurna."
+"linktitle": "Ekspor ke Markdown dengan Penyelarasan Konten Tabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ekspor ke Markdown dengan Penyelarasan Konten Tabel"
+"url": "/id/net/programming-with-markdownsaveoptions/export-into-markdown-with-table-content-alignment/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor ke Markdown dengan Penyelarasan Konten Tabel
@@ -21,7 +23,7 @@ Hai! Pernahkah Anda bertanya-tanya bagaimana cara mengekspor dokumen Word Anda k
 
 Sebelum kita masuk ke kode, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda. Visual Studio merupakan pilihan populer untuk pengembangan .NET.
 3. Pengetahuan Dasar C#: Memahami C# sangat penting karena kita akan menulis kode dalam bahasa ini.
 4. Contoh Dokumen Word: Miliki dokumen Word yang dapat Anda gunakan untuk pengujian.
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
-Hal pertama yang harus kita lakukan adalah membuat dokumen Word baru dan menginisialisasi`DocumentBuilder` objek untuk mulai membangun dokumen kita.
+Hal pertama yang harus kita lakukan adalah membuat dokumen Word baru dan menginisialisasinya `DocumentBuilder` objek untuk mulai membangun dokumen kita.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Langkah 2: Sisipkan Sel dan Sejajarkan Konten
+## Langkah 2: Masukkan Sel dan Sejajarkan Konten
 
 Selanjutnya, kita akan memasukkan beberapa sel ke dalam dokumen kita dan mengatur perataannya. Ini penting untuk memastikan bahwa ekspor Markdown mempertahankan perataan yang benar.
 
@@ -68,7 +70,7 @@ builder.Write("Cell2");
 
 ## Langkah 3: Mengatur Penyelarasan Konten Tabel untuk Ekspor Markdown
 
- Sekarang saatnya untuk mengkonfigurasi`MarkdownSaveOptions` untuk mengontrol penyelarasan konten tabel dalam file Markdown yang diekspor. Kami akan menyimpan dokumen dengan pengaturan penyelarasan yang berbeda untuk melihat cara kerjanya.
+Sekarang saatnya untuk mengkonfigurasi `MarkdownSaveOptions` untuk mengontrol penyelarasan konten tabel dalam file Markdown yang diekspor. Kami akan menyimpan dokumen dengan pengaturan penyelarasan yang berbeda untuk melihat cara kerjanya.
 
 ```csharp
 // Buat objek MarkdownSaveOptions.
@@ -91,7 +93,7 @@ doc.Save(dataDir + "CenterTableContentAlignment.md", saveOptions);
 
 ## Langkah 4: Gunakan Penyelarasan Konten Tabel Otomatis
 
- Itu`Auto`Opsi penyelarasan mengambil penyelarasan dari paragraf pertama di kolom tabel terkait. Ini berguna saat Anda memiliki penyelarasan campuran dalam satu tabel.
+Itu `Auto` Opsi penyelarasan mengambil penyelarasan dari paragraf pertama di kolom tabel terkait. Ini berguna saat Anda memiliki penyelarasan campuran dalam satu tabel.
 
 ```csharp
 // Atur perataan ke Otomatis.
@@ -111,20 +113,25 @@ Nah, itu dia! Mengekspor dokumen Word ke Markdown dengan tabel yang disejajarkan
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, mengonversi, dan mengekspor dokumen Word secara terprogram.
 
 ### Dapatkah saya mengatur perataan yang berbeda untuk kolom yang berbeda dalam tabel yang sama?
- Ya, dengan menggunakan`Auto` opsi perataan, Anda dapat memiliki perataan berbeda berdasarkan paragraf pertama di setiap kolom.
+Ya, dengan menggunakan `Auto` opsi perataan, Anda dapat memiliki perataan berbeda berdasarkan paragraf pertama di setiap kolom.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ### Apakah mungkin untuk mengekspor elemen dokumen lain ke Markdown menggunakan Aspose.Words?
 Ya, Aspose.Words mendukung ekspor berbagai elemen seperti judul, daftar, dan gambar ke format Markdown.
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari[Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari [Forum Dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

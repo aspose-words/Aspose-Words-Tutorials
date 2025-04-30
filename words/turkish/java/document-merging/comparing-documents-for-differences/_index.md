@@ -1,14 +1,16 @@
 ---
-title: Belgeleri Farklılıklar Açısından Karşılaştırma
-linktitle: Belgeleri Farklılıklar Açısından Karşılaştırma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java'da Aspose.Words kullanarak belgeleri farklılıklar açısından nasıl karşılaştıracağınızı öğrenin. Adım adım kılavuzumuz doğru belge yönetimini sağlar.
-weight: 12
-url: /tr/java/document-merging/comparing-documents-for-differences/
+"description": "Java'da Aspose.Words kullanarak belgeleri farklılıklar açısından nasıl karşılaştıracağınızı öğrenin. Adım adım kılavuzumuz doğru belge yönetimini sağlar."
+"linktitle": "Belgeleri Farklılıklar Açısından Karşılaştırma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgeleri Farklılıklar Açısından Karşılaştırma"
+"url": "/tr/java/document-merging/comparing-documents-for-differences/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgeleri Farklılıklar Açısından Karşılaştırma
@@ -20,11 +22,11 @@ url: /tr/java/document-merging/comparing-documents-for-differences/
 ## Ön koşullar
 
 Koda geçmeden önce aşağıdakilerin hazır olduğundan emin olun:  
-1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.  
-2.  Aspose.Words for Java kütüphanesi. Şunları yapabilirsiniz[buradan indirin](https://releases.aspose.com/words/java/).  
+1. Sisteminizde Java Development Kit (JDK) yüklü.  
+2. Aspose.Words for Java kütüphanesi. Şunları yapabilirsiniz [buradan indirin](https://releases.aspose.com/words/java/).  
 3. IntelliJ IDEA veya Eclipse gibi bir geliştirme ortamı.  
 4. Java programlama konusunda temel bilgi.  
-5.  Geçerli bir Aspose lisansınız varsa, bir tane edinin[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+5. Geçerli bir Aspose lisansı. Eğer yoksa, bir tane edinin [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -55,7 +57,7 @@ builder = new DocumentBuilder(doc2);
 builder.writeln("This is the edited document.");
 ```
 
- Bu, temel içerikle bellekte iki belge oluşturur. Ayrıca, mevcut Word belgelerini kullanarak yükleyebilirsiniz`new Document("path/to/document.docx")`.
+Bu, temel içerikle bellekte iki belge oluşturur. Ayrıca, mevcut Word belgelerini kullanarak yükleyebilirsiniz `new Document("path/to/document.docx")`.
 
 
 ## Adım 2: Mevcut Revizyonları Kontrol Edin
@@ -73,7 +75,7 @@ Eğer düzeltmeler varsa, devam etmeden önce bunları kabul edebilir veya redde
 
 ## Adım 3: Belgeleri Karşılaştırın
 
- Kullanın`compare` farklılıkları bulma yöntemi. Bu yöntem hedef belgeyi (`doc2`) kaynak belgeyle (`doc1`):
+Kullanın `compare` farklılıkları bulma yöntemi. Bu yöntem hedef belgeyi (`doc2`) kaynak belgeyle (`doc1`):
 
 ```java
 doc1.compare(doc2, "AuthorName", new Date());
@@ -107,7 +109,7 @@ Kaynak belgeyi istiyorsanız (`doc1`) hedef belgeyle eşleşmesi için (`doc2`),
 doc1.getRevisions().acceptAll();
 ```
 
- Bu güncellemeler`doc1` yapılan tüm değişiklikleri yansıtmak için`doc2`.
+Bu güncellemeler `doc1` yapılan tüm değişiklikleri yansıtmak için `doc2`.
 
 
 ## Adım 6: Güncellenen Belgeyi Kaydedin
@@ -151,7 +153,7 @@ Aspose.Words for Java sayesinde belge karşılaştırması artık bir angarya de
 Evet, Aspose.Words resim, tablo ve biçimlendirme içerenler de dahil olmak üzere karmaşık belgelerin karşılaştırılmasını destekler.
 
 ### Bu özelliği kullanmak için lisansa ihtiyacım var mı?  
- Evet, tam işlevsellik için bir lisans gereklidir. Bir tane edinin[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, tam işlevsellik için bir lisans gereklidir. Bir tane edinin [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Önceden yapılmış revizyonlar varsa ne olur?  
 Çatışmaları önlemek için belgeleri karşılaştırmadan önce bunları kabul veya reddetmelisiniz.
@@ -161,9 +163,14 @@ Evet, Aspose.Words revizyonların nasıl görüntüleneceğini özelleştirmeniz
 
 ### Bu özellik diğer programlama dillerinde de mevcut mu?  
 Evet, Aspose.Words .NET ve Python da dahil olmak üzere birden fazla dili destekler.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: تنسيق المستندات في Aspose.Words للغة Java
-linktitle: تنسيق المستندات
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرّف على فن تنسيق المستندات في Aspose.Words for Java من خلال دليلنا الشامل. استكشف الميزات القوية وعزز مهارات معالجة المستندات لديك.
-weight: 29
-url: /ar/java/document-manipulation/formatting-documents/
+"description": "تعلّم فن تنسيق المستندات في Aspose.Words لجافا مع دليلنا الشامل. استكشف الميزات الفعّالة وحسّن مهاراتك في معالجة المستندات."
+"linktitle": "تنسيق المستندات"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "تنسيق المستندات في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/formatting-documents/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تنسيق المستندات في Aspose.Words للغة Java
+# تنسيق المستندات في Aspose.Words لـ Java
 
 
-## مقدمة لتنسيق المستندات في Aspose.Words للغة Java
+## مقدمة لتنسيق المستندات في Aspose.Words لـ Java
 
-في عالم معالجة المستندات بلغة Java، يعتبر Aspose.Words for Java أداة قوية ومتعددة الاستخدامات. سواء كنت تعمل على إنشاء التقارير أو صياغة الفواتير أو إنشاء مستندات معقدة، فإن Aspose.Words for Java يلبي احتياجاتك. في هذا الدليل الشامل، سنتعمق في فن تنسيق المستندات باستخدام واجهة برمجة التطبيقات القوية بلغة Java. فلنبدأ هذه الرحلة خطوة بخطوة.
+في عالم معالجة مستندات جافا، يُعدّ Aspose.Words for Java أداةً قويةً ومتعددة الاستخدامات. سواءً كنت تعمل على إنشاء التقارير، أو صياغة الفواتير، أو إنشاء مستندات معقدة، فإن Aspose.Words for Java يُلبّي احتياجاتك. في هذا الدليل الشامل، سنتعمق في فن تنسيق المستندات باستخدام واجهة برمجة تطبيقات جافا الفعّالة هذه. لنبدأ هذه الرحلة خطوةً بخطوة.
 
-## إعداد البيئة الخاصة بك
+## إعداد بيئتك
 
- قبل أن نتعمق في تعقيدات تنسيق المستندات، من المهم إعداد البيئة الخاصة بك. تأكد من تثبيت Aspose.Words for Java وتكوينه بشكل صحيح في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/words/java/).
+قبل الخوض في تعقيدات تنسيق المستندات، من الضروري إعداد بيئتك. تأكد من تثبيت Aspose.Words for Java وتهيئته بشكل صحيح في مشروعك. يمكنك تنزيله من [هنا](https://releases.aspose.com/words/java/).
 
 ## إنشاء مستند بسيط
 
-لنبدأ بإنشاء مستند بسيط باستخدام Aspose.Words for Java. يوضح مقطع التعليمات البرمجية التالي باللغة Java كيفية إنشاء مستند وإضافة بعض النصوص إليه:
+لنبدأ بإنشاء مستند بسيط باستخدام Aspose.Words للغة جافا. يوضح مقطع كود جافا التالي كيفية إنشاء مستند وإضافة نص إليه:
 
 ```java
 Document doc = new Document();
@@ -35,7 +37,7 @@ doc.save("MyDocument.docx");
 
 ## ضبط المسافة بين النص الآسيوي واللاتيني
 
-يوفر Aspose.Words for Java ميزات قوية للتعامل مع المسافات بين النصوص. يمكنك ضبط المسافة بين النص الآسيوي واللاتيني تلقائيًا كما هو موضح أدناه:
+يوفر Aspose.Words لجافا ميزات فعّالة لإدارة مسافات النصوص. يمكنك ضبط المسافة تلقائيًا بين النصوص الآسيوية واللاتينية كما هو موضح أدناه:
 
 ```java
 Document doc = new Document();
@@ -63,7 +65,7 @@ doc.save("AsianTypographyLineBreakGroup.docx");
 
 ## تنسيق الفقرات
 
-يتيح لك برنامج Aspose.Words for Java تنسيق الفقرات بسهولة. اطلع على هذا المثال:
+يتيح لك Aspose.Words لجافا تنسيق الفقرات بسهولة. اطلع على هذا المثال:
 
 ```java
 Document doc = new Document();
@@ -80,7 +82,7 @@ doc.save("ParagraphFormatting.docx");
 
 ## تنسيق القائمة متعددة المستويات
 
-يعد إنشاء قوائم متعددة المستويات متطلبًا شائعًا في تنسيق المستندات. يعمل Aspose.Words for Java على تبسيط هذه المهمة:
+إنشاء قوائم متعددة المستويات متطلب شائع في تنسيق المستندات. يُبسط Aspose.Words لـ Java هذه المهمة:
 
 ```java
 Document doc = new Document();
@@ -91,7 +93,7 @@ builder.writeln("Item 1");
 doc.save("MultilevelListFormatting.docx");
 ```
 
-## تطبيق أنماط الفقرة
+## تطبيق أنماط الفقرات
 
 يتيح لك Aspose.Words for Java تطبيق أنماط الفقرات المحددة مسبقًا بسهولة:
 
@@ -103,7 +105,7 @@ builder.write("Hello, Styled Paragraph!");
 doc.save("ApplyParagraphStyle.docx");
 ```
 
-## إضافة حدود وتظليل للفقرات
+## إضافة الحدود والتظليل إلى الفقرات
 
 قم بتعزيز المظهر البصري لمستندك عن طريق إضافة الحدود والتظليل:
 
@@ -118,7 +120,7 @@ builder.write("I'm a formatted paragraph with double border and nice shading.");
 doc.save("ApplyBordersAndShadingToParagraph.docx");
 ```
 
-## تغيير المسافات البادئة للفقرات الآسيوية
+## تغيير تباعد الفقرات والمسافات البادئة الآسيوية
 
 ضبط المسافات بين الفقرات والمسافات البادئة للنص الآسيوي:
 
@@ -135,7 +137,7 @@ doc.save("ChangeAsianParagraphSpacingAndIndents.docx");
 
 ## الالتقاط على الشبكة
 
-قم بتحسين التخطيط عند العمل مع الأحرف الآسيوية من خلال الالتقاط على الشبكة:
+تحسين التخطيط عند العمل مع الأحرف الآسيوية عن طريق الالتقاط بالشبكة:
 
 ```java
 Document doc = new Document();
@@ -165,17 +167,17 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 
 ## خاتمة
 
- في هذه المقالة، استكشفنا جوانب مختلفة لتنسيق المستندات في Aspose.Words for Java. باستخدام هذه الأفكار، يمكنك إنشاء مستندات بتنسيق جميل لتطبيقات Java الخاصة بك. تذكر الرجوع إلى[توثيق Aspose.Words للغة Java](https://reference.aspose.com/words/java/) لمزيد من التوجيه المتعمق.
+في هذه المقالة، استكشفنا جوانب مختلفة لتنسيق المستندات في Aspose.Words لجافا. باستخدام هذه الأفكار، يمكنك إنشاء مستندات بتنسيق رائع لتطبيقات جافا. تذكر مراجعة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/) لمزيد من الإرشادات المتعمقة.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تنزيل Aspose.Words لـ Java؟
 
- يمكنك تنزيل Aspose.Words for Java من[هذا الرابط](https://releases.aspose.com/words/java/).
+يمكنك تنزيل Aspose.Words for Java من [هذا الرابط](https://releases.aspose.com/words/java/).
 
 ### هل Aspose.Words for Java مناسب لإنشاء مستندات معقدة؟
 
-بالتأكيد! يوفر Aspose.Words for Java إمكانيات واسعة لإنشاء وتنسيق المستندات المعقدة بسهولة.
+بالتأكيد! يوفر Aspose.Words for Java إمكانيات واسعة لإنشاء وتنسيق مستندات معقدة بسهولة.
 
 ### هل يمكنني تطبيق أنماط مخصصة على الفقرات باستخدام Aspose.Words لـ Java؟
 
@@ -187,10 +189,15 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 
 ### كيف يمكنني تحسين المسافة بين الفقرات للنص الآسيوي؟
 
-يمكنك ضبط المسافة بين الفقرات للنص الآسيوي عن طريق ضبط الإعدادات ذات الصلة في Aspose.Words لـ Java.
+بإمكانك ضبط المسافة بين الفقرات للنص الآسيوي عن طريق ضبط الإعدادات ذات الصلة في Aspose.Words لـ Java.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

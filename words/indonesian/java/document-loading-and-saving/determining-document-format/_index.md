@@ -1,14 +1,16 @@
 ---
-title: Menentukan Format Dokumen di Aspose.Words untuk Java
-linktitle: Menentukan Format Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
-weight: 25
-url: /id/java/document-loading-and-saving/determining-document-format/
+"description": "Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien."
+"linktitle": "Menentukan Format Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menentukan Format Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/document-loading-and-saving/determining-document-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menentukan Format Dokumen di Aspose.Words untuk Java
@@ -195,7 +197,7 @@ Menentukan format dokumen di Aspose.Words untuk Java sangat penting untuk pemros
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
- Anda dapat mengunduh Aspose.Words untuk Java dari[Di Sini](https://releases.aspose.com/words/java/)dan ikuti petunjuk instalasi yang disediakan.
+Anda dapat mengunduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan.
 
 ### Apa saja format dokumen yang didukung?
 
@@ -203,7 +205,7 @@ Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOC, DOCX, R
 
 ### Bagaimana cara mendeteksi dokumen terenkripsi menggunakan Aspose.Words untuk Java?
 
- Anda dapat menggunakan`FileFormatUtil.detectFileFormat()` metode untuk mendeteksi dokumen terenkripsi, seperti yang ditunjukkan dalam panduan ini.
+Anda dapat menggunakan `FileFormatUtil.detectFileFormat()` metode untuk mendeteksi dokumen terenkripsi, seperti yang ditunjukkan dalam panduan ini.
 
 ### Apakah ada batasan saat bekerja dengan format dokumen lama?
 
@@ -212,9 +214,14 @@ Format dokumen lama, seperti MS Word 6 atau Word 95, mungkin memiliki keterbatas
 ### Bisakah saya mengotomatiskan deteksi format dokumen di aplikasi Java saya?
 
 Ya, Anda dapat mengotomatiskan deteksi format dokumen dengan mengintegrasikan kode yang diberikan ke dalam aplikasi Java Anda. Ini memungkinkan Anda untuk memproses dokumen berdasarkan format yang terdeteksi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

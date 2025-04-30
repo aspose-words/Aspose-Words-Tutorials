@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Jenis Kata Revisi
-linktitle: Dapatkan Jenis Kata Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mendapatkan jenis revisi kata dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini membantu Anda menangani revisi dokumen secara efisien.
-weight: 10
-url: /id/net/working-with-revisions/get-revision-types/
+"description": "Pelajari cara mendapatkan jenis revisi kata dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini membantu Anda menangani revisi dokumen secara efisien."
+"linktitle": "Dapatkan Jenis Kata Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Jenis Kata Revisi"
+"url": "/id/net/working-with-revisions/get-revision-types/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Jenis Kata Revisi
@@ -21,10 +23,10 @@ Pernahkah Anda mendapati diri Anda tenggelam dalam lautan revisi dokumen, bertan
 
 Sebelum kita mulai membuat kode, ada beberapa hal yang Anda perlukan:
 
-1.  Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Jika Anda belum memilikinya, unduh dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Pemahaman tentang bahasa pemrograman C# akan bermanfaat.
-4.  Dokumen Word dengan Revisi: Pastikan Anda memiliki`.docx`file dengan perubahan yang dilacak untuk menguji kode.
+4. Dokumen Word dengan Revisi: Pastikan Anda memiliki `.docx` file dengan perubahan yang dilacak untuk menguji kode.
 
 ## Mengimpor Ruang Nama
 
@@ -46,7 +48,7 @@ Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
+Mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke folder dokumen Anda.
 
 ## Langkah 2: Muat Dokumen Word Anda
 
@@ -56,7 +58,7 @@ Selanjutnya, Anda perlu memuat dokumen Word ke dalam proyek Anda. Dokumen ini ha
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Pastikan file tersebut`Revisions.docx` ada di direktori yang ditentukan.
+Pastikan file tersebut `Revisions.docx` ada di direktori yang ditentukan.
 
 ## Langkah 3: Akses Koleksi Paragraf
 
@@ -80,7 +82,7 @@ for (int i = 0; i < paragraphs.Count; i++)
 }
 ```
 
- Loop ini melewati setiap paragraf dan menggunakan`IsMoveFromRevision` Dan`IsMoveToRevision` properti untuk menentukan apakah paragraf dipindahkan (dihapus) atau dipindahkan (dimasukkan).
+Loop ini melewati setiap paragraf dan menggunakan `IsMoveFromRevision` Dan `IsMoveToRevision` properti untuk menentukan apakah paragraf dipindahkan (dihapus) atau dipindahkan (dimasukkan).
 
 ## Kesimpulan
 
@@ -94,22 +96,27 @@ Ya, Aspose.Words untuk .NET menyediakan fungsionalitas untuk mengakses detail re
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
 
- Tentu saja! Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mengajukan lisensi sementara untuk Aspose.Words untuk .NET?
 
- Anda dapat meminta dan mengajukan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat meminta dan mengajukan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
 
- Dokumentasi terperinci tersedia di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia di [Situs web Aspose](https://reference.aspose.com/words/net/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET dalam proyek nonkomersial?
 
 Ya, Aspose.Words untuk .NET dapat digunakan dalam proyek komersial dan nonkomersial, tetapi pastikan untuk memeriksa ketentuan lisensi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

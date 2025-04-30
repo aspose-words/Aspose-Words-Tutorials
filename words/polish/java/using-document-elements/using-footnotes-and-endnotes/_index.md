@@ -1,20 +1,22 @@
 ---
-title: Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java
-linktitle: Korzystanie z przypisów dolnych i końcowych
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words for Java. Popraw swoje umiejętności formatowania dokumentów już dziś!
-weight: 13
-url: /pl/java/using-document-elements/using-footnotes-and-endnotes/
+"description": "Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words for Java. Popraw swoje umiejętności formatowania dokumentów już dziś!"
+"linktitle": "Korzystanie z przypisów dolnych i końcowych"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-footnotes-and-endnotes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java
 
 
-W tym samouczku przeprowadzimy Cię przez proces korzystania z przypisów dolnych i końcowych w Aspose.Words for Java. Przypisy dolne i końcowe są niezbędnymi elementami formatowania dokumentów, często używanymi do cytowania, odniesień i dodatkowych informacji. Aspose.Words for Java zapewnia solidną funkcjonalność do bezproblemowej pracy z przypisami dolnymi i końcowymi.
+tym samouczku przeprowadzimy Cię przez proces korzystania z przypisów dolnych i końcowych w Aspose.Words for Java. Przypisy dolne i końcowe są niezbędnymi elementami formatowania dokumentów, często używanymi do cytowania, odniesień i dodatkowych informacji. Aspose.Words for Java zapewnia solidną funkcjonalność do bezproblemowej pracy z przypisami dolnymi i końcowymi.
 
 ## 1. Wprowadzenie do przypisów dolnych i końcowych
 
@@ -26,7 +28,7 @@ Zanim przejdziemy do pracy z przypisami dolnymi i końcowymi, musisz skonfigurow
 
 ## 3. Dodawanie przypisów do dokumentu
 
-Aby dodać przypisy dolne do dokumentu, wykonaj następujące kroki:
+Aby dodać przypisy do dokumentu, wykonaj następujące kroki:
 ```java
 string dataDir = "Your Document Directory";
 string outPath = "Your Output Directory";
@@ -123,7 +125,7 @@ Teraz, gdy wiesz już, jak korzystać z przypisów dolnych i końcowych, możesz
 Przypisy dolne umieszczane są na dole strony, natomiast przypisy końcowe są umieszczane na końcu sekcji lub dokumentu.
 
 ### 2. Jak mogę zmienić położenie przypisów dolnych lub końcowych?
- Możesz użyć`setPosition` metoda zmiany położenia przypisów dolnych lub końcowych.
+Możesz użyć `setPosition` metoda zmiany położenia przypisów dolnych lub końcowych.
 
 ### 3. Czy mogę dostosować formatowanie przypisów dolnych i końcowych?
 Tak, możesz dostosować formatowanie przypisów dolnych i końcowych za pomocą Aspose.Words dla Java.
@@ -132,9 +134,14 @@ Tak, możesz dostosować formatowanie przypisów dolnych i końcowych za pomocą
 Tak, przypisy dolne i końcowe są niezbędne do podawania odniesień i dodatkowych informacji w dokumentach.
 
 Możesz swobodnie odkrywać więcej funkcji Aspose.Words dla Java i udoskonalać swoje możliwości tworzenia dokumentów. Miłego kodowania!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

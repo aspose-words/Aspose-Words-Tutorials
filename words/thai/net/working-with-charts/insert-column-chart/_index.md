@@ -1,50 +1,58 @@
 ---
-title: ใส่ตารางคอลัมน์ใน Word โดยใช้ Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการใส่แผนที่คอลัมน์ในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET. คู่มือขั้นตอนด้วยโค้ด, การสร้างแผนที่และบันทึกเอกสารของคุณ.
-keywords: [Aspose.Words for .NET, insert column chart, Word document, .NET charts, Aspose chart example, document builder, chart insertion tutorial]
-url: /th/net/working-with-charts/insert-column-chart/
+"description": "เรียนรู้วิธีแทรกแผนภูมิคอลัมน์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมโค้ด การสร้างแผนภูมิ และการบันทึกเอกสารของคุณ"
+"title": "การแทรกแผนภูมิคอลัมน์ใน Word โดยใช้ Aspose.Words สำหรับ .NET"
+"url": "/th/net/working-with-charts/insert-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใส่ตารางคอลัมน์ ใน Word โดยใช้ Aspose.Words
+# การแทรกแผนภูมิคอลัมน์ใน Word โดยใช้ Aspose.Words
 
-Aspose.Words สําหรับ .NET ทําให้สร้างและการ thao tácเอกสาร Word ได้ง่ายมาก โดยวิธีโปรแกรม. ตัวอย่างนี้แสดงให้เห็นวิธีการใส่ตารางคอลัมน์ในเอกสาร Word ด้วยแค่สองแถวของรหัส. โดยใช้ API ที่มีพลัง คุณสามารถเพิ่มตาราง, กําหนดหมวดหมู่และค่า, และบันทึกเอกสารในรูปแบบที่คุณต้องการ. ติดตามแนวทางนี้เพื่อดูว่ามันง่ายแค่ไหนที่จะสร้างตารางมืออาชีพโดยตรงจากแอปพลิเคชัน .NET ของคุณ.
+Aspose.Words สำหรับ .NET ช่วยให้การสร้างและจัดการเอกสาร Word ด้วยโปรแกรมเป็นเรื่องง่ายมาก ตัวอย่างนี้แสดงวิธีการแทรกแผนภูมิคอลัมน์ในเอกสาร Word ด้วยโค้ดเพียงไม่กี่บรรทัด ด้วยการใช้ API ที่มีประสิทธิภาพ คุณสามารถเพิ่มแผนภูมิ กำหนดหมวดหมู่และค่า และบันทึกเอกสารในรูปแบบที่คุณต้องการได้ ทำตามคำแนะนำนี้เพื่อดูว่าการสร้างแผนภูมิระดับมืออาชีพโดยตรงจากแอปพลิเคชัน .NET ของคุณนั้นง่ายเพียงใด
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
+## คำแนะนำในการติดตั้ง  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET  
-   * ไปเยี่ยม [Aspose.Words สําหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/words/net/)และดาวน์โหลดฉบับล่าสุด  
+1. ดาวน์โหลด Aspose.Words สำหรับ .NET  
+   - เยี่ยมชม [หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/) และดาวน์โหลดเวอร์ชันล่าสุด  
 
-2. โกตั้งห้องสมุด  
-   * ใช้ NuGet Package Manager ใน Visual Studio เพื่อติดตั้ง Aspose.Words สําหรับ .NET:  
+2. ติดตั้งห้องสมุด  
+   - ใช้ตัวจัดการแพ็คเกจ NuGet ใน Visual Studio เพื่อติดตั้ง Aspose.Words สำหรับ .NET:  
      ```
      Install-Package Aspose.Words
      ```
 
-3. รวมพื้นที่ชื่อ  
-   * เพิ่มพื้นที่ชื่อที่จําเป็นให้กับโครงการของคุณ:  
+3. รวมถึงเนมสเปซ  
+   - เพิ่มเนมสเปซที่จำเป็นให้กับโครงการของคุณ:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
-4. ก่อการทดลองฟรี หรือใบอนุญาต  
-   * เริ่มด้วย [ทดลองใช้ฟรี](https://releases.aspose.com/)หรือขอรับ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/)เพื่อเปิดให้บริการห้องสมุดได้อย่างเต็มที่
+4. ตั้งค่าการทดลองใช้ฟรีหรือใบอนุญาต  
+   - เริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือสมัคร [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อปลดล็อคความสามารถทั้งหมดของห้องสมุด
 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

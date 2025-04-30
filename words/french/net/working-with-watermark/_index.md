@@ -1,25 +1,31 @@
 ---
-title: Travailler avec Watermark dans Aspose.Words pour .NET
-weight: 10
-limit:
-description: Apprenez à ajouter, supprimer et gérer des balises d'eau dans les documents Word avec Aspose.Words pour .NET. Simplifiez les tâches de balisage d'eau avec des instructions étape par étape.
-keywords:
-url: /fr/net/working-with-watermark/
+"description": "Apprenez à ajouter, supprimer et gérer les filigranes dans vos documents Word avec Aspose.Words pour .NET. Simplifiez les tâches de filigrane grâce à des instructions étape par étape."
+"title": "Utilisation du filigrane dans Aspose.Words pour .NET"
+"url": "/fr/net/working-with-watermark/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Introduction
  
-Les balises d'eau sont un excellent moyen d'ajouter du marquage, des balises de confidentialité ou un attrait visuel à vos documents Word. Avec Aspose.Words pour .NET, travailler avec des balises d'eau devient incroyablement simple et efficace. Que vous souhaitiez ajouter un balise d'eau texte, comme "Confidentiel", ou insérer un balise d'eau d'image pour un look professionnel, cette bibliothèque complète offre des fonctionnalités robustes pour répondre à vos besoins. Vous pouvez facilement personnaliser la position, la taille, la couleur et la transparence des balises d'eau pour répondre aux exigences de votre document.  
+Les filigranes sont un excellent moyen d'ajouter une marque, des marques de confidentialité ou un attrait visuel à vos documents Word. Avec Aspose.Words pour .NET, utiliser des filigranes devient incroyablement simple et efficace. Que vous souhaitiez ajouter un filigrane textuel, comme « Confidentiel », ou insérer un filigrane d'image pour un rendu professionnel, cette bibliothèque complète offre des fonctionnalités robustes pour répondre à vos besoins. Vous pouvez facilement personnaliser la position, la taille, la couleur et la transparence des filigranes pour répondre aux exigences de votre document.  
 
-En plus d'ajouter des balises d'eau, Aspose.Words pour .NET vous permet de les gérer efficacement. Vous pouvez supprimer les balises d'eau existantes, mettre à jour leurs propriétés ou les adapter à des pages spécifiques dans votre document. Avec des exemples détaillés et des guides étape par étape, ce kit d'outils riche en fonctionnalités garantit que le balisage d'eau devient un processus sans tracas. Transformez votre flux de travail de document avec Aspose.Words et prenez le contrôle de vos balises d'eau sans effort.
+Outre l'ajout de filigranes, Aspose.Words pour .NET vous permet de les gérer efficacement. Vous pouvez supprimer les filigranes existants, mettre à jour leurs propriétés ou les adapter à des pages spécifiques de votre document. Grâce à des exemples détaillés et à des instructions pas à pas, cette boîte à outils riche en fonctionnalités simplifie l'ajout de filigranes. Transformez votre flux de travail documentaire avec Aspose.Words et maîtrisez vos filigranes en toute simplicité.
 
-{{< tutorial-card link="./add-text-watermark/" title="Ajouter un code d'eau dans un document Word à l'aide de Aspose.Words pour .NET" imgSrc="/words/net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-text-watermark/" title="Ajouter un filigrane de texte dans un document Word avec Aspose.Words pour .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

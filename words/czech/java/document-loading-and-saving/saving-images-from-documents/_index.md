@@ -1,30 +1,32 @@
 ---
-title: Ukládání obrázků z dokumentů v Aspose.Words pro Java
-linktitle: Ukládání obrázků z dokumentů
-second_title: Aspose.Words Java Document Processing API
-description: Naučte se ukládat obrázky z dokumentů pomocí Aspose.Words for Java s naším komplexním průvodcem krok za krokem. Přizpůsobte si formáty, kompresi a další.
-weight: 17
-url: /cs/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Naučte se, jak ukládat obrázky z dokumentů pomocí Aspose.Words pro Javu s naším komplexním podrobným návodem. Přizpůsobte si formáty, kompresi a další."
+"linktitle": "Ukládání obrázků z dokumentů"
+"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
+"title": "Ukládání obrázků z dokumentů v Aspose.Words pro Javu"
+"url": "/cs/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ukládání obrázků z dokumentů v Aspose.Words pro Java
+# Ukládání obrázků z dokumentů v Aspose.Words pro Javu
 
 
 ## Úvod do ukládání obrázků z dokumentů v Aspose.Words pro Javu
 
-V tomto tutoriálu prozkoumáme, jak ukládat obrázky z dokumentů pomocí Aspose.Words for Java. Pokryjeme různé scénáře a možnosti přizpůsobení pro ukládání obrázků. Tato příručka poskytuje podrobné pokyny s příklady zdrojového kódu.
+V tomto tutoriálu se podíváme na to, jak ukládat obrázky z dokumentů pomocí Aspose.Words pro Javu. Probereme různé scénáře a možnosti přizpůsobení pro ukládání obrázků. Tato příručka poskytuje podrobné pokyny s příklady zdrojového kódu.
 
 ## Předpoklady
 
- Než začnete, ujistěte se, že máte do projektu integrovanou knihovnu Aspose.Words for Java. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/java/).
+Než začnete, ujistěte se, že máte ve svém projektu integrovanou knihovnu Aspose.Words pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/java/).
 
-## Krok 1: Ukládání obrázků jako TIFF s ovládáním prahu
+## Krok 1: Ukládání obrázků ve formátu TIFF s nastavením prahové hodnoty
 
-Chcete-li uložit obrázky ve formátu TIFF s kontrolou prahu, postupujte takto:
+Chcete-li uložit obrázky ve formátu TIFF s nastavením prahových hodnot, postupujte takto:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -36,7 +38,7 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## Krok 2: Uložení konkrétní stránky jako vícestránkový TIFF
+## Krok 2: Uložení konkrétní stránky jako vícestránkového TIFF
 
 Chcete-li uložit konkrétní stránku jako vícestránkový TIFF, použijte následující kód:
 
@@ -49,9 +51,9 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Krok 3: Uložení obrázků jako 1 BPP indexovaný PNG
+## Krok 3: Uložení obrázků jako PNG s indexem 1 BPP
 
-Chcete-li uložit obrázky jako index PNG s indexem 1 BPP, postupujte takto:
+Chcete-li uložit obrázky jako PNG s indexem 1 BPP, postupujte takto:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -62,7 +64,7 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## Krok 4: Uložení stránky jako JPEG s přizpůsobením
+## Krok 4: Uložení stránky jako JPEG s úpravami
 
 Chcete-li uložit konkrétní stránku jako JPEG s možnostmi přizpůsobení, použijte tento kód:
 
@@ -78,7 +80,7 @@ doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 
 ## Krok 5: Použití zpětného volání pro ukládání stránky
 
-K přizpůsobení ukládání stránky můžete použít zpětné volání. Zde je příklad:
+Pro přizpůsobení ukládání stránky můžete použít zpětné volání. Zde je příklad:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -139,10 +141,10 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Chcete-li převést pouze první stránku dokumentu, nastavte "PageSet" na "0".
+	// Nastavte „PageSet“ na „0“, chcete-li převést pouze první stránku dokumentu.
 	options.setPageSet(new PageSet(0));
 	// Změňte jas a kontrast obrázku.
-	// Oba jsou na stupnici 0-1 a ve výchozím nastavení jsou na 0,5.
+	// Oba jsou na stupnici 0-1 a standardně jsou na 0,5.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// Změňte horizontální rozlišení.
@@ -171,21 +173,21 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## Závěr
 
-Naučili jste se ukládat obrázky z dokumentů pomocí Aspose.Words for Java. Tyto příklady demonstrují různé možnosti přizpůsobení pro ukládání obrázků, včetně použití formátu, komprese a zpětného volání. Prozkoumejte další možnosti s výkonnými schopnostmi Aspose.Words for Java.
+Naučili jste se, jak ukládat obrázky z dokumentů pomocí Aspose.Words pro Javu. Tyto příklady demonstrují různé možnosti přizpůsobení pro ukládání obrázků, včetně formátování, komprese a použití zpětného volání. Prozkoumejte další možnosti s výkonnými funkcemi Aspose.Words pro Javu.
 
-## FAQ
+## Často kladené otázky
 
-### Jak změním formát obrázku při ukládání pomocí Aspose.Words for Java?
+### Jak změním formát obrázku při ukládání pomocí Aspose.Words pro Javu?
 
- Formát obrázku můžete změnit zadáním požadovaného formátu v`ImageSaveOptions` . Chcete-li například uložit jako PNG, použijte`SaveFormat.PNG` jak je uvedeno v kódu:
+Formát obrázku můžete změnit zadáním požadovaného formátu v `ImageSaveOptions`Například pro uložení jako PNG použijte `SaveFormat.PNG` jak je znázorněno v kódu:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### Mohu upravit nastavení komprese pro obrázky TIFF?
+### Mohu si přizpůsobit nastavení komprese pro obrázky TIFF?
 
-Ano, můžete upravit nastavení komprese obrazu TIFF. Chcete-li například nastavit metodu komprese na CCITT_3, použijte následující kód:
+Ano, nastavení komprese obrázků TIFF si můžete přizpůsobit. Například pro nastavení metody komprese na CCITT_3 použijte následující kód:
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
@@ -193,15 +195,15 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Jak mohu uložit konkrétní stránku z dokumentu jako samostatný obrázek?
 
- Chcete-li uložit konkrétní stránku jako obrázek, použijte`setPageSet`metoda v`ImageSaveOptions` . Chcete-li například uložit pouze první stránku, nastavte`PageSet` na`new PageSet(0)`.
+Chcete-li uložit konkrétní stránku jako obrázek, použijte `setPageSet` metoda v `ImageSaveOptions`Například chcete-li uložit pouze první stránku, nastavte `PageSet` na `new PageSet(0)`.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Uložte první stránku jako obrázek
+saveOptions.setPageSet(new PageSet(0)); // Uložit první stránku jako obrázek
 ```
 
-### Jak použiji vlastní nastavení na obrázky JPEG při ukládání?
+### Jak mohu při ukládání použít vlastní nastavení na obrázky JPEG?
 
-Vlastní nastavení můžete použít na obrázky JPEG pomocí`ImageSaveOptions`. Upravte vlastnosti, jako je jas, kontrast a rozlišení. Chcete-li například změnit jas na 0,3 a kontrast na 0,7, použijte tento kód:
+Vlastní nastavení pro obrázky JPEG můžete použít pomocí `ImageSaveOptions`Upravte vlastnosti, jako je jas, kontrast a rozlišení. Například pro změnu jasu na 0,3 a kontrastu na 0,7 použijte tento kód:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Jak mohu použít zpětné volání pro přizpůsobení ukládání obrázků?
 
- Chcete-li použít zpětné volání pro přizpůsobení ukládání obrázků, nastavte`PageSavingCallback` v`ImageSaveOptions` . Vytvořte třídu, která implementuje`IPageSavingCallback` rozhraní a přepsat`pageSaving` metoda.
+Chcete-li použít zpětné volání pro přizpůsobení ukládání obrázků, nastavte `PageSavvgCallback` in `ImageSaveOptions`Vytvořte třídu, která implementuje `IPageSavingCallback` rozhraní a přepsat `pageSaving` metoda.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Poté vytvořte třídu, která implementuje`IPageSavingCallback` rozhraní a přizpůsobit název souboru a umístění v`pageSaving` metoda.
+Pak vytvořte třídu, která implementuje `IPageSavingCallback` rozhraní a přizpůsobit název souboru a umístění v něm `pageSaving` metoda.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

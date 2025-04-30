@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Bookmark di Aspose.Words untuk Java
-linktitle: Menggunakan Bookmark
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Optimalkan pemrosesan dokumen Anda dengan Aspose.Words untuk Java. Pelajari cara menggunakan bookmark untuk navigasi dan manipulasi konten yang efisien dalam panduan langkah demi langkah ini.
-weight: 17
-url: /id/java/document-manipulation/using-bookmarks/
+"description": "Optimalkan pemrosesan dokumen Anda dengan Aspose.Words untuk Java. Pelajari cara menggunakan bookmark untuk navigasi dan manipulasi konten yang efisien dalam panduan langkah demi langkah ini."
+"linktitle": "Menggunakan Bookmark"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Bookmark di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Bookmark di Aspose.Words untuk Java
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Akhiri penanda buku
+// Akhiri penanda buku
 builder.endBookmark("My Bookmark");
 ```
 
@@ -103,11 +105,11 @@ Menggunakan bookmark di Aspose.Words untuk Java dapat sangat menyederhanakan tug
 
 ### Bagaimana cara membuat penanda halaman di sel tabel?
 
- Untuk membuat penanda di sel tabel, gunakan`DocumentBuilder` kelas dan memulai dan mengakhiri penanda dalam sel.
+Untuk membuat penanda di sel tabel, gunakan `DocumentBuilder` kelas dan memulai dan mengakhiri penanda dalam sel.
 
 ### Bisakah saya menyalin penanda buku ke dokumen lain?
 
- Ya, Anda dapat menyalin penanda ke dokumen lain menggunakan`NodeImporter` kelas untuk memastikan pemformatan dipertahankan.
+Ya, Anda dapat menyalin penanda ke dokumen lain menggunakan `NodeImporter` kelas untuk memastikan pemformatan dipertahankan.
 
 ### Bagaimana cara menghapus baris berdasarkan penandanya?
 
@@ -119,10 +121,15 @@ Bookmark umumnya digunakan untuk membuat daftar isi, mengekstrak konten tertentu
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk Java?
 
- Untuk dokumentasi dan unduhan terperinci, kunjungi[Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Untuk dokumentasi dan unduhan terperinci, kunjungi [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

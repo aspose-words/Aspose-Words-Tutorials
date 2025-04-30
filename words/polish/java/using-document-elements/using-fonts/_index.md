@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z czcionek w Aspose.Words dla Java
-linktitle: Korzystanie z czcionek
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Poznaj formatowanie czcionek w Aspose.Words dla Java; rozmiar, styl, kolor i wiele więcej. Twórz pięknie sformatowane dokumenty z łatwością.
-weight: 12
-url: /pl/java/using-document-elements/using-fonts/
+"description": "Poznaj formatowanie czcionek w Aspose.Words dla Java; rozmiar, styl, kolor i wiele więcej. Twórz pięknie sformatowane dokumenty z łatwością."
+"linktitle": "Korzystanie z czcionek"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z czcionek w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-fonts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z czcionek w Aspose.Words dla Java
@@ -24,7 +26,7 @@ Czcionki odgrywają kluczową rolę w projektowaniu i czytelności dokumentów. 
 
 Zanim zaczniesz pisać kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Aspose.Words for Java Library: Upewnij się, że pobrałeś i zainstalowałeś Aspose.Words for Java library. Możesz[pobierz tutaj](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java Library: Upewnij się, że pobrałeś i zainstalowałeś Aspose.Words for Java library. Możesz [pobierz tutaj](https://releases.aspose.com/words/java/).
 
 2. Środowisko programistyczne Java: Upewnij się, że masz skonfigurowane środowisko programistyczne Java.
 
@@ -71,20 +73,20 @@ public class FontFormattingDemo {
 }
 ```
 
- W tym fragmencie kodu zaczynamy od utworzenia nowego`Document` i`DocumentBuilder` Następnie uzyskujemy dostęp do właściwości czcionki za pomocą`builder.getFont()` i ustawiamy różne atrybuty, takie jak rozmiar, pogrubienie, kolor, nazwę czcionki i styl podkreślenia. Na koniec dodajemy przykładowy tekst i zapisujemy dokument z określonym formatowaniem czcionki.
+W tym fragmencie kodu zaczynamy od utworzenia nowego `Document` i `DocumentBuilder`Następnie uzyskujemy dostęp do właściwości czcionki za pomocą `builder.getFont()` i ustawiamy różne atrybuty, takie jak rozmiar, pogrubienie, kolor, nazwę czcionki i styl podkreślenia. Na koniec dodajemy przykładowy tekst i zapisujemy dokument z określonym formatowaniem czcionki.
 
 ## Wniosek
 
 Gratulacje! Nauczyłeś się, jak pracować z czcionkami w Aspose.Words for Java. Ta wiedza pozwoli Ci tworzyć pięknie sformatowane dokumenty dostosowane do Twoich konkretnych wymagań.
 
- Jeśli jeszcze tego nie zrobiłeś,[pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/) już teraz i zacznij udoskonalać swoje możliwości przetwarzania dokumentów.
+Jeśli jeszcze tego nie zrobiłeś, [pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/) już teraz i zacznij udoskonalać swoje możliwości przetwarzania dokumentów.
 
- W razie jakichkolwiek pytań lub potrzeby pomocy nie wahaj się skontaktować z nami[Forum społeczności Aspose.Words](https://forum.aspose.com/).
+W razie jakichkolwiek pytań lub potrzeby pomocy nie wahaj się skontaktować z nami [Forum społeczności Aspose.Words](https://forum.aspose.com/).
 
 ## Często zadawane pytania
 
 ### P: Jak mogę zmienić rozmiar czcionki dla określonego fragmentu tekstu w dokumencie?
- A: Możesz użyć`Font.setSize()` metoda ustawiania rozmiaru czcionki dla żądanego tekstu.
+A: Możesz użyć `Font.setSize()` metoda ustawiania rozmiaru czcionki dla żądanego tekstu.
 
 ### P: Czy w dokumencie można stosować różne czcionki w nagłówkach i tekście?
 O: Tak, możesz stosować różne czcionki w różnych częściach dokumentu, korzystając z Aspose.Words for Java.
@@ -93,13 +95,18 @@ O: Tak, możesz stosować różne czcionki w różnych częściach dokumentu, ko
 O: Tak, możesz używać niestandardowych czcionek, podając ścieżkę do pliku czcionek.
 
 ### P: Jak zmienić kolor czcionki tekstu?
- A: Możesz użyć`Font.setColor()` metoda ustawiania koloru czcionki.
+A: Możesz użyć `Font.setColor()` metoda ustawiania koloru czcionki.
 
 ### P: Czy istnieją jakieś ograniczenia co do liczby czcionek, których mogę użyć w dokumencie?
 A: Aspose.Words for Java obsługuje szeroką gamę czcionek i zazwyczaj nie ma ścisłych ograniczeń co do liczby czcionek, których można użyć w dokumencie.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

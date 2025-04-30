@@ -1,14 +1,16 @@
 ---
-title: Sử dụng định dạng Markdown trong tài liệu Word
-linktitle: Sử dụng định dạng Markdown trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách tích hợp định dạng Markdown vào tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với các ví dụ mã để tạo nội dung động và hấp dẫn về mặt hình ảnh.
-weight: 19
-url: /vi/python-net/document-structure-and-content-manipulation/document-markdown/
+"description": "Tìm hiểu cách tích hợp định dạng Markdown vào tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với các ví dụ mã để tạo nội dung động và hấp dẫn về mặt hình ảnh."
+"linktitle": "Sử dụng định dạng Markdown trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Sử dụng định dạng Markdown trong tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng định dạng Markdown trong tài liệu Word
@@ -55,7 +57,7 @@ builder.writeln(markdown_text)
 Markdown cung cấp một cách đơn giản để áp dụng kiểu dáng cho văn bản của bạn. Bạn có thể kết hợp nhiều thành phần khác nhau để tạo tiêu đề, danh sách, v.v. Sau đây là một ví dụ:
 
 ```python
-markdown_styled_text = "# Heading 1\n\n**Bold Text**\n\n- Item 1\n- Item 2"
+markdown_styled_text = "# Tiêu đề 1\n\n**Văn bản in đậm**\n\n- Mục 1\n- Mục 2"
 builder.writeln(markdown_styled_text)
 ```
 
@@ -79,7 +81,7 @@ builder.insert_html(markdown_table)
 
 ## Bố cục và định dạng trang
 
-Aspose.Words cung cấp khả năng kiểm soát toàn diện đối với bố cục và định dạng trang. Bạn có thể điều chỉnh lề, đặt kích thước trang và nhiều hơn nữa:
+Aspose.Words cung cấp khả năng kiểm soát rộng rãi đối với bố cục và định dạng trang. Bạn có thể điều chỉnh lề, đặt kích thước trang và nhiều hơn nữa:
 
 ```python
 section = doc.sections[0]
@@ -122,10 +124,15 @@ Có, Aspose.Words hỗ trợ lưu tài liệu ở nhiều định dạng khác n
 
 ### Tôi có thể truy cập tài liệu về Aspose.Words for Python ở đâu?
 
- Bạn có thể tìm thấy tài liệu và tham khảo toàn diện tại[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+Bạn có thể tìm thấy tài liệu và tham khảo toàn diện tại [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

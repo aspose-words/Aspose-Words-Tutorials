@@ -7,8 +7,11 @@ weight: 10
 url: /net/enable-opentype-features/open-type-features/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Open Type Features
@@ -117,9 +120,13 @@ Aspose.Words supports various .NET versions, including .NET Framework, .NET Core
 ### How can I try Aspose.Words before purchasing?
 You can download a free trial from the [Aspose website](https://releases.aspose.com/) and request a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tampilkan Sembunyikan Konten yang Ditandai di Dokumen Word
-linktitle: Tampilkan Sembunyikan Konten yang Ditandai di Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menampilkan dan menyembunyikan konten yang ditandai dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-bookmarks/show-hide-bookmarked-content/
+"description": "Pelajari cara menampilkan dan menyembunyikan konten yang ditandai dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Tampilkan Sembunyikan Konten yang Ditandai di Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tampilkan Sembunyikan Konten yang Ditandai di Dokumen Word"
+"url": "/id/net/programming-with-bookmarks/show-hide-bookmarked-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tampilkan Sembunyikan Konten yang Ditandai di Dokumen Word
@@ -22,7 +24,7 @@ Siap menyelami dunia manipulasi dokumen dengan Aspose.Words untuk .NET? Baik And
 Sebelum kita masuk ke inti permasalahan, ada beberapa hal yang Anda perlukan:
 
 1. Visual Studio: Versi apa pun yang kompatibel dengan .NET.
-2.  Aspose.Words untuk .NET: Unduh[Di Sini](https://releases.aspose.com/words/net/).
+2. Aspose.Words untuk .NET: Unduh [Di Sini](https://releases.aspose.com/words/net/).
 3. Pemahaman Dasar C#: Jika Anda dapat menulis program "Hello World" yang sederhana, Anda sudah siap melakukannya.
 4. Dokumen Word dengan Bookmark: Kami akan menggunakan dokumen contoh dengan bookmark untuk tutorial ini.
 
@@ -66,11 +68,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Potongan kode ini mengatur jalur ke direktori dokumen Anda dan memuat dokumen ke dalam`doc` obyek.
+Potongan kode ini mengatur jalur ke direktori dokumen Anda dan memuat dokumen ke dalam `doc` obyek.
 
 ## Langkah 3: Tampilkan/Sembunyikan Konten yang Ditandai
 
-Sekarang tibalah bagian yang menyenangkan – menampilkan atau menyembunyikan konten berdasarkan bookmark. Kita akan membuat metode yang disebut`ShowHideBookmarkedContent` untuk menangani hal ini.
+Sekarang tibalah bagian yang menyenangkan – menampilkan atau menyembunyikan konten berdasarkan bookmark. Kita akan membuat metode yang disebut `ShowHideBookmarkedContent` untuk menangani hal ini.
 
 Berikut ini metode yang akan mengaktifkan/menonaktifkan visibilitas konten yang ditandai:
 
@@ -94,9 +96,9 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 ### Rincian Metode
 
--  Pengambilan Bookmark:`Bookmark bm = doc.Range.Bookmarks[bookmarkName];` mengambil penanda buku.
+- Pengambilan Bookmark: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` mengambil penanda buku.
 - Penelusuran Node: Kami menelusuri node-node yang ada di dalam penanda.
--  Toggle Visibilitas: Jika node tersebut adalah`Run` (rangkaian teks yang berkesinambungan), kami mengaturnya`Hidden` milik.
+- Toggle Visibilitas: Jika node tersebut adalah `Run` (rangkaian teks yang berkesinambungan), kami mengaturnya `Hidden` milik.
 
 ## Langkah 4: Menerapkan Metode
 
@@ -125,7 +127,7 @@ Nah, itu dia! Anda baru saja mempelajari cara menampilkan dan menyembunyikan kon
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengaktifkan beberapa penanda sekaligus?
- Ya, Anda bisa menelepon`ShowHideBookmarkedContent` metode untuk setiap penanda yang ingin Anda alihkan.
+Ya, Anda bisa menelepon `ShowHideBookmarkedContent` metode untuk setiap penanda yang ingin Anda alihkan.
 
 ### Apakah menyembunyikan konten memengaruhi struktur dokumen?
 Tidak, menyembunyikan konten hanya memengaruhi visibilitasnya. Konten tetap ada di dalam dokumen.
@@ -134,13 +136,18 @@ Tidak, menyembunyikan konten hanya memengaruhi visibilitasnya. Konten tetap ada 
 Metode ini secara khusus mengaktifkan teks yang dijalankan. Untuk jenis konten lain, Anda perlu mengubah logika traversal node.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Aspose.Words menawarkan uji coba gratis[Di Sini](https://releases.aspose.com/) , tetapi lisensi penuh diperlukan untuk penggunaan produksi. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy).
+Aspose.Words menawarkan uji coba gratis [Di Sini](https://releases.aspose.com/), tetapi lisensi penuh diperlukan untuk penggunaan produksi. Anda dapat membelinya [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

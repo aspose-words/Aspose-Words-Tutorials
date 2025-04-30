@@ -1,14 +1,16 @@
 ---
-title: Belge Başlığını Pencere Başlık Çubuğunda Görüntüle
-linktitle: Belge Başlığını Pencere Başlık Çubuğunda Görüntüle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF'lerinizin pencere başlık çubuğunda belge başlığının nasıl görüntüleneceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
+"description": "Bu adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF'lerinizin pencere başlık çubuğunda belge başlığının nasıl görüntüleneceğini öğrenin."
+"linktitle": "Belge Başlığını Pencere Başlık Çubuğunda Görüntüle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Belge Başlığını Pencere Başlık Çubuğunda Görüntüle"
+"url": "/tr/net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Başlığını Pencere Başlık Çubuğunda Görüntüle
@@ -21,7 +23,7 @@ PDF'lerinizi daha da profesyonel göstermeye hazır mısınız? Küçük ama etk
 
 Adımlara geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir uyumlu IDE.
 - C# Temel Bilgileri: C# dilinde kod yazacağız.
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Bu adımda, belgenizin yolunu belirtirsiniz. Değiştir`"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
+Bu adımda, belgenizin yolunu belirtirsiniz. Değiştir `"YOUR DOCUMENT DIRECTORY"` Belgenizin saklandığı gerçek yol ile.
 
 ## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırın
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Ayarlayarak`DisplayDocTitle` ile`true`, Aspose.Words'e PDF'in pencere başlık çubuğundaki belge başlığını kullanmasını talimatını veriyoruz.
+Ayarlayarak `DisplayDocTitle` ile `true`, Aspose.Words'e PDF'in pencere başlık çubuğundaki belge başlığını kullanmasını talimatını veriyoruz.
 
 ## Adım 3: Belgeyi PDF olarak kaydedin
 
@@ -70,7 +72,7 @@ Son olarak yapılandırdığımız seçenekleri uygulayarak belgeyi PDF olarak k
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisplayDocTitleInWindowTitlebar.pdf", saveOptions);
 ```
 
-Bu kod satırı, belgenizi başlık çubuğunda görüntülenen başlıkla PDF formatında kaydetmenizi sağlar. Tekrar, değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolu ile.
+Bu kod satırı, belgenizi başlık çubuğunda görüntülenen başlıkla PDF formatında kaydetmenizi sağlar. Tekrar, değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolu ile.
 
 ## Çözüm
 
@@ -91,11 +93,16 @@ Evet, Aspose.Words for .NET çeşitli .NET çerçevelerini destekler ve bu da on
 Evet, Aspose.Words for .NET kullanarak DOCX, RTF, HTML ve daha fazlası gibi çeşitli dosya biçimlerini PDF'ye dönüştürebilirsiniz.
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Ziyaret edebilirsiniz[Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8) Herhangi bir sorun veya sorunuz olduğunda yardım için.
+Ziyaret edebilirsiniz [Aspose.Words Destek Forumu](https://forum.aspose.com/c/words/8) Herhangi bir sorun veya sorunuz olduğunda yardım için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

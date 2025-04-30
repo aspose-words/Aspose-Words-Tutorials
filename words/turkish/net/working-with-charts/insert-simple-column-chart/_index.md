@@ -1,52 +1,60 @@
 ---
-title: .NET için Aspose.Words kullanarak Word'e basit bir sütun tablosunu ekle
-weight: 7700
-limit: 
-description: Word belgesine basit bir sütun tablosunu .NET için Aspose.Words kullanarak nasıl ekleyeceğinizi öğrenin. Tabloyu oluşturmak ve özelleştirmek için adım adım talimatları izleyin.
-keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
-url: /tr/net/working-with-charts/insert-simple-column-chart/
+"description": "Aspose.Words for .NET kullanarak Word belgesine basit bir sütun grafiğinin nasıl ekleneceğini öğrenin. Grafiğinizi oluşturmak ve özelleştirmek için adım adım talimatları izleyin."
+"title": "Aspose.Words for .NET Kullanarak Word'e Basit Bir Sütun Grafiği Ekleme"
+"url": "/tr/net/working-with-charts/insert-simple-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words kullanarak basit bir sütun çizelgesini Word'e ekle
+# Aspose.Words Kullanarak Word'e Basit Bir Sütun Grafiği Ekleme
 
-.NET için Aspose.Words zengin içerikli profesyonel Word belgeleri oluşturmayı kolaylaştırır. Bu öğretimselde, basit bir sütun tablosunu bir Word belgesine programsal olarak nasıl ekleyeceğinizi öğreneceksiniz. Belgeyi başlangıçtan çizelge dizisini özelleştirmeye ve dosyayı kaydetmeye kadar her adımı kapsayacağız. Raporları oluşturursanız da verileri görselleştirirseniz de, bu rehber .NET için Aspose.Words kullanarak çizelge eklemesini ustalamak için gereken tüm ayrıntıları sağlar.  
+Aspose.Words for .NET, zengin içerikli profesyonel Word belgeleri oluşturmayı zahmetsiz hale getirir. Bu eğitimde, basit bir sütun grafiğini bir Word belgesine programatik olarak nasıl ekleyeceğinizi öğreneceksiniz. Belgeyi başlatmaktan grafik serilerini özelleştirmeye ve dosyayı kaydetmeye kadar her adımı ele alacağız. İster rapor üretiyor ister veri görselleştiriyor olun, bu kılavuz Aspose.Words for .NET kullanarak grafik ekleme konusunda ustalaşmak için ihtiyacınız olan tüm ayrıntıları sağlar.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-Bu örneği kullanmak için .NET için Aspose.Words yüklendiğinden emin olun.  
+## Kurulum Talimatları  
+Bu örneği kullanmak için, Aspose.Words for .NET'in yüklü olduğundan emin olun. Aşağıdaki adımları izleyin:  
 
-1. .NET için Aspose.Words indir:  
-   Ziyaret et .[.NET için Aspose.Words indir](https://releases.aspose.com/words/net/)Ve en son versiyonu indir.  
+1. .NET için Aspose.Words'ü indirin:  
+   Ziyaret etmek [Aspose.Words for .NET İndir](https://releases.aspose.com/words/net/) ve en son sürümü indirin.  
 
-2. Kütüphaneyi yükle:  
-   * Projenize Aspose.Words NuGet paketi ekleyin. NuGet Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
+2. Kütüphaneyi yükleyin:  
+   - Aspose.Words NuGet paketini projenize ekleyin. NuGet Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * Alternatif olarak ekleyin.`.dll`Proje referanslarınıza dosyaları el ile gönderin.  
+   - Alternatif olarak, şunu ekleyin: `.dll` Projenize ait dosyaları manuel olarak referans alın.  
 
-3. İzn al:  
-   * İzn al .[Satın Almayı Arayın](https://purchase.aspose.com/buy)veya ücretsiz deneme talep edin [Özgür Bir Deneme Yapın](https://releases.aspose.com/)\- Evet .  
+3. Lisans Alın:  
+   - Lisans alın [Aspose Satın Alma](https://purchase.aspose.com/buy) veya ücretsiz deneme talebinde bulunun [Aspose Ücretsiz Deneme](https://releases.aspose.com/).  
 
-4. Lisansı başvurun:  
+4. Lisansı Uygula:  
    Lisansı etkinleştirmek için projenize aşağıdaki kodu ekleyin:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

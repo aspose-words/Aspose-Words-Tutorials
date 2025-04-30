@@ -1,26 +1,33 @@
 ---
-title: 在 .NET 版的Aspose.Words中与标题和脚本合作 
-weight: 10
-limit:
-description: 学习如何在 Word 文档中创建,修改和格式化标题和脚本,使用 .NET 的Aspose.Words.
-keywords:
-url: /zh/net/header-footer-formatting/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文档中创建、修改和设置页眉和页脚的格式。循序渐进的指南，助您实现无缝定制。"
+"title": "在 Aspose.Words for .NET 中使用页眉和页脚"
+"url": "/zh/net/header-footer-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 引言
+## 介绍
   
-标题和脚本对于添加专业触觉到Word文档来说是必不可少的,无论是页面号码,标志还是自定义文本.为 .NET的Aspose.Words可以无地创建,修改和定制标题和脚本以适应文档需求.图书馆提供强大的API,允许您设置不同标题和脚本为奇数和偶数页面,定义独特的部分,并包括像字段或图像这样的动态元素.  
+页眉和页脚对于为您的 Word 文档增添专业感至关重要，无论是页码、徽标还是自定义文本。使用 Aspose.Words for .NET，您可以无缝地创建、修改和自定义页眉和页脚，以满足文档的需求。该库提供强大的 API，允许您为奇数页和偶数页设置不同的页眉和页脚，定义独特的部分，并添加字段或图像等动态元素。  
 
-简化了与标题和脚本工作的过程,确保了对其格式化和配置的完全控制.无论您正在设计公司报告还是制作个性化的文档,图书馆提供了管理这些关键元素的有效方法. 入我们的步骤指南,并解锁您的Word文件中标题和脚本的全部潜力!  
+Aspose.Words for .NET 简化了页眉和页脚的处理流程，确保完全控制其格式和位置。无论您是设计公司报告还是制作个性化文档，该库都能为您提供高效的方式来管理这些关键元素。深入了解我们的分步指南，释放 Word 文件中页眉和页脚的全部潜力！  
 
-{{< tutorial-card link="./create-header-footer/" title="使用Aspose.Words创建Word文档" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="插入一个图像到Word文档标题里." imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-header-footer/" title="使用 Aspose.Words 创建带有页眉和页脚的 Word 文档" imgSrc="./create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-image/" title="在 Word 文档页眉中插入图像 | Aspose.Words for .NET" imgSrc="./insert-image/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

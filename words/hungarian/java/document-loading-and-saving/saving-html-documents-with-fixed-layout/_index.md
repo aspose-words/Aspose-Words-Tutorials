@@ -1,60 +1,62 @@
 ---
-title: HTML-dokumentumok mentése rögzített elrendezéssel az Aspose.Words for Java-ban
-linktitle: HTML dokumentumok mentése rögzített elrendezéssel
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan menthet el rögzített elrendezésű HTML-dokumentumokat az Aspose.Words for Java programban. Kövesse lépésenkénti útmutatónkat a zökkenőmentes dokumentumformázáshoz.
-weight: 15
-url: /hu/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+"description": "Tanuld meg, hogyan menthetsz rögzített elrendezésű HTML dokumentumokat az Aspose.Words for Java programban. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes dokumentumformázáshoz."
+"linktitle": "HTML dokumentumok mentése fix elrendezéssel"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "HTML dokumentumok mentése fix elrendezéssel az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML-dokumentumok mentése rögzített elrendezéssel az Aspose.Words for Java-ban
+# HTML dokumentumok mentése fix elrendezéssel az Aspose.Words for Java programban
 
 
-## Bevezetés a HTML dokumentumok mentéséhez rögzített elrendezéssel az Aspose.Words for Java programban
+## Bevezetés a HTML dokumentumok rögzített elrendezésű mentéséhez az Aspose.Words for Java programban
 
-Ebben az átfogó útmutatóban végigvezetjük a HTML-dokumentumok rögzített elrendezésű Aspose.Words for Java használatával mentésének folyamatán. A lépésenkénti utasítások és kódpéldák segítségével megtanulhatja, hogyan érheti el ezt zökkenőmentesen. Szóval, ugorjunk bele!
+Ebben az átfogó útmutatóban végigvezetünk a HTML dokumentumok rögzített elrendezésű mentésének folyamatán az Aspose.Words for Java használatával. Lépésről lépésre bemutatjuk, hogyan érheted el ezt zökkenőmentesen. Akkor vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztői környezet beállítása.
-- Az Aspose.Words for Java könyvtár telepítve és konfigurálva.
+- Aspose.Words Java könyvtár telepítve és konfigurálva.
 
 ## 1. lépés: A dokumentum betöltése
 
-Először is be kell töltenünk azt a dokumentumot, amelyet HTML formátumban szeretnénk menteni. A következőképpen teheti meg:
+Először is be kell töltenünk a HTML formátumban menteni kívánt dokumentumot. Így teheted meg:
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
- Cserélje ki`"YourDocument.docx"` a Word-dokumentum elérési útjával.
+Csere `"YourDocument.docx"` a Word-dokumentum elérési útjával.
 
-## 2. lépés: Konfigurálja a HTML rögzített mentési beállításait
+## 2. lépés: HTML fix mentési beállítások konfigurálása
 
- A dokumentum rögzített elrendezésű mentéséhez konfigurálnunk kell a`HtmlFixedSaveOptions` osztály. Beállítjuk a`useTargetMachineFonts`tulajdonát`true` annak biztosítására, hogy a célgép betűtípusait használják a HTML-kimenetben:
+A dokumentum rögzített elrendezésű mentéséhez konfigurálnunk kell a következőket: `HtmlFixedSaveOptions` osztály. Beállítjuk a `useTargetMachineFonts` ingatlan `true` annak biztosítására, hogy a célgép betűtípusai legyenek használatban a HTML kimenetben:
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## 3. lépés: Mentse el a dokumentumot HTML-ként
+## 3. lépés: Mentse el a dokumentumot HTML formátumban
 
-Most mentsük el a dokumentumot HTML formátumban a rögzített elrendezéssel a korábban konfigurált opciókkal:
+Most mentsük el a dokumentumot HTML formátumban, fix elrendezéssel, a korábban konfigurált beállításokkal:
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
- Cserélje ki`"FixedLayoutDocument.html"` a HTML-fájl kívánt nevével.
+Csere `"FixedLayoutDocument.html"` a HTML-fájl kívánt nevével.
 
-## Teljes forráskód HTML-dokumentumok mentéséhez rögzített elrendezéssel az Aspose.Words for Java-ban
+## Teljes forráskód HTML dokumentumok rögzített elrendezésű mentéséhez Aspose.Words for Java-ban
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,28 +70,33 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan menthetünk el rögzített elrendezésű HTML-dokumentumokat az Aspose.Words for Java használatával. Ezen egyszerű lépések követésével biztosíthatja, hogy dokumentumai egységes vizuális struktúrát tartsanak fenn a különböző platformokon.
+Ebben az oktatóanyagban megtanultuk, hogyan menthetünk rögzített elrendezésű HTML dokumentumokat az Aspose.Words for Java használatával. Ezeket az egyszerű lépéseket követve biztosíthatjuk, hogy dokumentumaink egységes vizuális struktúrát tartsanak fenn a különböző platformokon.
 
 ## GYIK
 
-### Hogyan állíthatom be az Aspose.Words for Java programot a projektemben?
+### Hogyan tudom beállítani az Aspose.Words-öt Java-hoz a projektemben?
 
- Az Aspose.Words for Java beállítása egyszerű. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/words/java/) és kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/words/java/).
+Az Aspose.Words Java-alapú beállítása egyszerű. A könyvtárat innen töltheti le: [itt](https://releases.aspose.com/words/java/) és kövesse a dokumentációban található telepítési utasításokat [itt](https://reference.aspose.com/words/java/).
 
-### Vannak-e licenckövetelmények az Aspose.Words for Java használatához?
+### Vannak-e licenckövetelmények az Aspose.Words Java-ban való használatához?
 
-Igen, az Aspose.Words for Java termék éles környezetben való használatához érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be. További részletek a dokumentációban találhatók.
+Igen, az Aspose.Words for Java érvényes licencet igényel a termelési környezetben való használathoz. Licencet az Aspose weboldalán szerezhet be. További részletek a dokumentációban találhatók.
 
-### Testreszabhatom a HTML kimenetet?
+### Testreszabhatom tovább a HTML kimenetet?
 
-Biztosan! Az Aspose.Words for Java lehetőségek széles skáláját kínálja a HTML-kimenet testreszabásához, hogy megfeleljen az Ön egyedi igényeinek. A testreszabási lehetőségekről részletes információkért tekintse meg a dokumentációt.
+Természetesen! Az Aspose.Words for Java számos lehetőséget kínál a HTML-kimenet testreszabására az Ön igényeinek megfelelően. A testreszabási lehetőségekkel kapcsolatos részletes információkért tekintse meg a dokumentációt.
 
-### Az Aspose.Words for Java kompatibilis a különböző Java verziókkal?
+### Kompatibilis az Aspose.Words for Java különböző Java verziókkal?
 
-Igen, az Aspose.Words for Java kompatibilis a Java különféle verzióival. Győződjön meg arról, hogy az Aspose.Words for Java kompatibilis verzióját használja, amely megfelel a Java fejlesztői környezetének.
+Igen, az Aspose.Words for Java kompatibilis a Java különböző verzióival. Győződjön meg róla, hogy az Aspose.Words for Java kompatibilis verzióját használja, amely megfelel a Java fejlesztői környezetének.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

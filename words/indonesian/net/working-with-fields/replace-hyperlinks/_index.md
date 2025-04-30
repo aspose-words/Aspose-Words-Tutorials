@@ -1,14 +1,16 @@
 ---
-title: Ganti Hyperlink
-linktitle: Ganti Hyperlink
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengganti hyperlink dalam dokumen .NET menggunakan Aspose.Words untuk manajemen dokumen yang efisien dan pembaruan konten yang dinamis.
-weight: 10
-url: /id/net/working-with-fields/replace-hyperlinks/
+"description": "Pelajari cara mengganti hyperlink dalam dokumen .NET menggunakan Aspose.Words untuk manajemen dokumen yang efisien dan pembaruan konten yang dinamis."
+"linktitle": "Ganti Hyperlink"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ganti Hyperlink"
+"url": "/id/net/working-with-fields/replace-hyperlinks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ganti Hyperlink
@@ -22,7 +24,7 @@ Dalam dunia pengembangan .NET, mengelola dan memanipulasi dokumen merupakan tuga
 Sebelum mulai mengganti hyperlink dengan Aspose.Words untuk .NET, pastikan Anda memiliki hal berikut:
 
 - Visual Studio: Terpasang dan disiapkan untuk pengembangan .NET.
--  Aspose.Words untuk .NET: Diunduh dan dirujuk dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Diunduh dan dirujuk dalam proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Keakraban dengan C#: Pemahaman dasar untuk menulis dan mengkompilasi kode.
 
 ## Mengimpor Ruang Nama
@@ -39,13 +41,13 @@ using Aspose.Words.Fields;
 Mulailah dengan memuat dokumen tempat Anda ingin mengganti hyperlink:
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Hyperlinks.docx");
 ```
 
- Mengganti`"Hyperlinks.docx"` dengan jalur ke dokumen Anda sebenarnya.
+Mengganti `"Hyperlinks.docx"` dengan jalur ke dokumen Anda sebenarnya.
 
 ## Langkah 2: Ulangi Melalui Bidang
 
@@ -74,10 +76,10 @@ foreach (Field field in doc.Range.Fields)
 Terakhir, simpan dokumen yang dimodifikasi dengan hyperlink yang diganti:
 
 ```csharp
-doc.Save(dataDir + "WorkingWithFields.ReplaceHyperlinks.docx");
+doc.Save(dataDir + "WorkingWithFields.MenggantiHyperlinks.docx");
 ```
 
- Mengganti`"WorkingWithFields.ReplaceHyperlinks.docx"` dengan jalur berkas keluaran yang Anda inginkan.
+Replace `"WorkingWithFields.ReplaceHyperlinks.docx"` dengan jalur berkas keluaran yang Anda inginkan.
 
 ## Kesimpulan
 
@@ -89,19 +91,23 @@ Mengganti hyperlink dalam dokumen menggunakan Aspose.Words untuk .NET mudah dan 
 Ya, Aspose.Words mendukung struktur kompleks seperti tabel, gambar, dan hyperlink dengan mulus.
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words untuk .NET?
- Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+Lisensi sementara dapat diperoleh [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Pilihan dukungan apa yang tersedia untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan komunitas atau mengajukan pertanyaan di[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan komunitas atau mengajukan pertanyaan di [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

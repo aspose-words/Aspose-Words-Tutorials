@@ -1,14 +1,16 @@
 ---
-title: Установить идентификатор поставщика подписи в документе Word
-linktitle: Установить идентификатор поставщика подписи в документе Word
-second_title: API обработки документов Aspose.Words
-description: Безопасно установите идентификатор поставщика подписи в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству на 2000 слов, чтобы подписать ваши документы цифровой подписью.
-weight: 10
-url: /ru/net/programming-with-digital-signatures/set-signature-provider-id/
+"description": "Безопасно установите идентификатор поставщика подписи в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству на 2000 слов, чтобы подписать ваши документы цифровой подписью."
+"linktitle": "Установить идентификатор поставщика подписи в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Установить идентификатор поставщика подписи в документе Word"
+"url": "/ru/net/programming-with-digital-signatures/set-signature-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить идентификатор поставщика подписи в документе Word
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-digital-signatures/set-signature-provider-id/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1. Библиотека Aspose.Words for .NET: если вы этого еще не сделали,[скачать здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words для .NET: если вы этого еще не сделали, [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая совместимая с C# IDE.
 3. Документ Word: документ со строкой подписи (`Signature line.docx`).
-4.  Цифровой сертификат: А`.pfx` файл сертификата (например,`morzal.pfx`).
+4. Цифровой сертификат: А `.pfx` файл сертификата (например, `morzal.pfx`).
 5. Базовые знания C#: Только основы — не волнуйтесь, мы здесь, чтобы помочь!
 
 А теперь приступим к делу!
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
- Здесь мы указываем каталог, в котором находится ваш документ. Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
+Здесь мы указываем каталог, в котором находится ваш документ. Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему документу.
 
 ## Шаг 2: Получите доступ к строке подписи
 
@@ -60,7 +62,7 @@ Document doc = new Document(dataDir + "Signature line.docx");
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
- Эта строка кода получает первую фигуру в теле первого раздела документа и преобразует ее в`SignatureLine` объект.
+Эта строка кода получает первую фигуру в теле первого раздела документа и преобразует ее в `SignatureLine` объект.
 
 ## Шаг 3: Настройте параметры подписи
 
@@ -78,28 +80,28 @@ SignOptions signOptions = new SignOptions
 
 ## Шаг 4: Загрузите сертификат
 
- Чтобы подписать документ в цифровом виде, вам нужен сертификат. Вот как вы загружаете свой`.pfx` файл:
+Чтобы подписать документ в цифровом виде, вам нужен сертификат. Вот как вы загружаете свой `.pfx` файл:
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Заменять`"aw"` с паролем для вашего файла сертификата, если он есть.
+Заменять `"aw"` с паролем для вашего файла сертификата, если он есть.
 
 ## Шаг 5: Подпишите документ
 
- Наконец, пришло время подписать документ, используя`DigitalSignatureUtil.Sign` метод.
+Наконец, пришло время подписать документ, используя `DigitalSignatureUtil.Sign` метод.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
     dataDir + "SignDocuments.SetSignatureProviderId.docx", certHolder, signOptions);
 ```
 
- Это подпишет ваш документ и сохранит его как новый файл,`Digitally signed.docx`.
+Это подпишет ваш документ и сохранит его как новый файл, `Digitally signed.docx`.
 
 ## Заключение
 
-И вот оно! Вы успешно установили идентификатор поставщика подписей в документе Word с помощью Aspose.Words для .NET. Этот процесс не только защищает ваши документы, но и гарантирует их соответствие стандартам цифровой подписи. Теперь попробуйте применить его к своим документам. Есть вопросы? Ознакомьтесь с часто задаваемыми вопросами ниже или перейдите на страницу[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+И вот оно! Вы успешно установили идентификатор поставщика подписей в документе Word с помощью Aspose.Words для .NET. Этот процесс не только защищает ваши документы, но и гарантирует их соответствие стандартам цифровой подписи. Теперь попробуйте применить его к своим документам. Есть вопросы? Ознакомьтесь с часто задаваемыми вопросами ниже или перейдите на страницу [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
 
 ## Часто задаваемые вопросы
 
@@ -123,9 +125,14 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 Сначала вам нужно будет вставить строку подписи. Aspose.Words предоставляет методы для добавления строк подписи программным способом.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

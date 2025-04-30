@@ -1,14 +1,16 @@
 ---
-title: पीडीएफ दस्तावेज़ में छवि संपीड़न
-linktitle: पीडीएफ दस्तावेज़ में छवि संपीड़न
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में छवियों को संपीड़ित करना सीखें। अनुकूलित फ़ाइल आकार और गुणवत्ता के लिए इस गाइड का पालन करें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/image-compression/
+"description": ".NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में छवियों को संपीड़ित करना सीखें। अनुकूलित फ़ाइल आकार और गुणवत्ता के लिए इस गाइड का पालन करें।"
+"linktitle": "पीडीएफ दस्तावेज़ में छवि संपीड़न"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "पीडीएफ दस्तावेज़ में छवि संपीड़न"
+"url": "/hi/net/programming-with-pdfsaveoptions/image-compression/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पीडीएफ दस्तावेज़ में छवि संपीड़न
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/image-compression/
 
 ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 
 2. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको इस ट्यूटोरियल में दिए गए कोड उदाहरणों को समझने में मदद मिलेगी।
 
@@ -29,7 +31,7 @@ url: /hi/net/programming-with-pdfsaveoptions/image-compression/
 
 4. नमूना दस्तावेज़: छवि संपीड़न के परीक्षण के लिए एक नमूना वर्ड दस्तावेज़ (जैसे, "Rendering.docx") तैयार रखें।
 
-5. Aspose लाइसेंस: यदि आप .NET के लिए Aspose.Words का लाइसेंस प्राप्त संस्करण उपयोग कर रहे हैं, तो सुनिश्चित करें कि आपके पास लाइसेंस ठीक से कॉन्फ़िगर किया गया है। यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप इसे यहाँ से प्राप्त कर सकते हैं[Aspose का अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+5. Aspose लाइसेंस: यदि आप .NET के लिए Aspose.Words का लाइसेंस प्राप्त संस्करण उपयोग कर रहे हैं, तो सुनिश्चित करें कि आपके पास लाइसेंस ठीक से कॉन्फ़िगर किया गया है। यदि आपको अस्थायी लाइसेंस की आवश्यकता है, तो आप इसे यहाँ से प्राप्त कर सकते हैं [Aspose का अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -51,21 +53,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस पथ के साथ जहां आपका नमूना दस्तावेज़ संग्रहीत है.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस पथ के साथ जहां आपका नमूना दस्तावेज़ संग्रहीत है.
 
 ## चरण 2: वर्ड दस्तावेज़ लोड करें
 
- इसके बाद, अपने वर्ड डॉक्यूमेंट को एक में लोड करें`Aspose.Words.Document` यह आपको दस्तावेज़ के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देगा।
+इसके बाद, अपने वर्ड दस्तावेज़ को एक में लोड करें `Aspose.Words.Document` यह आपको दस्तावेज़ के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देगा।
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- यहाँ,`"Rendering.docx"` यह आपके सैंपल वर्ड दस्तावेज़ का नाम है। सुनिश्चित करें कि यह फ़ाइल निर्दिष्ट निर्देशिका में स्थित है।
+यहाँ, `"Rendering.docx"` यह आपके सैंपल वर्ड दस्तावेज़ का नाम है। सुनिश्चित करें कि यह फ़ाइल निर्दिष्ट निर्देशिका में स्थित है।
 
 ## चरण 3: मूल छवि संपीड़न कॉन्फ़िगर करें
 
- एक बनाने के`PdfSaveOptions`पीडीएफ सेविंग विकल्पों को कॉन्फ़िगर करने के लिए ऑब्जेक्ट, जिसमें इमेज कम्प्रेशन भी शामिल है।`ImageCompression`संपत्ति को`PdfImageCompression.Jpeg` छवियों के लिए JPEG संपीड़न का उपयोग करना।
+एक बनाने के `PdfSaveOptions` पीडीएफ सेविंग विकल्पों को कॉन्फ़िगर करने के लिए ऑब्जेक्ट, जिसमें इमेज कम्प्रेशन भी शामिल है। `ImageCompression` संपत्ति को `PdfImageCompression.Jpeg` छवियों के लिए JPEG संपीड़न का उपयोग करना।
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -85,11 +87,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression.pdf", saveOptions);
 ```
 
- इस उदाहरण में, आउटपुट पीडीएफ का नाम है`"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. आवश्यकतानुसार फ़ाइल नाम समायोजित करें.
+इस उदाहरण में, आउटपुट पीडीएफ का नाम है `"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. आवश्यकतानुसार फ़ाइल नाम समायोजित करें.
 
 ## चरण 5: PDF/A अनुपालन के साथ उन्नत संपीड़न कॉन्फ़िगर करें
 
- और भी बेहतर संपीड़न के लिए, खासकर यदि आपको PDF/A मानकों का अनुपालन करने की आवश्यकता है, तो आप अतिरिक्त विकल्प कॉन्फ़िगर कर सकते हैं।`Compliance`संपत्ति को`PdfCompliance.PdfA2u` और समायोजित करें`JpegQuality` संपत्ति।
+और भी बेहतर संपीड़न के लिए, खासकर यदि आपको PDF/A मानकों का अनुपालन करने की आवश्यकता है, तो आप अतिरिक्त विकल्प कॉन्फ़िगर कर सकते हैं। `Compliance` संपत्ति को `PdfCompliance.PdfA2u` और समायोजित करें `JpegQuality` संपत्ति।
 
 ```csharp
 PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
@@ -111,7 +113,7 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 ```
 
- यहाँ, आउटपुट पीडीएफ का नाम है`"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`अपनी पसंद के अनुसार फ़ाइल का नाम संशोधित करें.
+यहाँ, आउटपुट पीडीएफ का नाम है `"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`अपनी पसंद के अनुसार फ़ाइल का नाम संशोधित करें.
 
 ## निष्कर्ष
 
@@ -124,7 +126,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", save
 छवि संपीड़न छवियों की गुणवत्ता को कम करके पीडीएफ दस्तावेजों के फ़ाइल आकार को कम करता है, जो भंडारण और प्रदर्शन को अनुकूलित करने में मदद करता है।
 
 ### Aspose.Words for .NET छवि संपीड़न को कैसे संभालता है?
-.NET के लिए Aspose.Words प्रदान करता है`PdfSaveOptions` क्लास, जो आपको JPEG संपीड़न सहित विभिन्न छवि संपीड़न विकल्प सेट करने की अनुमति देता है।
+.NET के लिए Aspose.Words प्रदान करता है `PdfSaveOptions` क्लास, जो आपको JPEG संपीड़न सहित विभिन्न छवि संपीड़न विकल्प सेट करने की अनुमति देता है।
 
 ### क्या मैं PDF/A मानकों का अनुपालन करने के लिए .NET के लिए Aspose.Words का उपयोग कर सकता हूँ?
 हां, Aspose.Words PDF/A अनुपालन का समर्थन करता है, जिससे आप दस्तावेजों को ऐसे प्रारूपों में सहेज सकते हैं जो अभिलेखीय और दीर्घकालिक संरक्षण मानकों को पूरा करते हैं।
@@ -133,7 +135,7 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", save
 उच्च JPEG गुणवत्ता सेटिंग्स के परिणामस्वरूप बेहतर छवि गुणवत्ता प्राप्त होती है, लेकिन फ़ाइल का आकार बड़ा हो जाता है, जबकि निम्न गुणवत्ता सेटिंग्स के परिणामस्वरूप फ़ाइल का आकार कम हो जाता है, लेकिन छवि की स्पष्टता प्रभावित हो सकती है।
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- आप उनके लिए .NET के लिए Aspose.Words के बारे में अधिक जानकारी प्राप्त कर सकते हैं[प्रलेखन](https://reference.aspose.com/words/net/), [सहायता](https://forum.aspose.com/c/words/8) , और[डाउनलोड करना](https://releases.aspose.com/words/net/) पृष्ठ.
+आप उनके लिए .NET के लिए Aspose.Words के बारे में अधिक जानकारी प्राप्त कर सकते हैं [प्रलेखन](https://reference.aspose.com/words/net/), [सहायता](https://forum.aspose.com/c/words/8), और [डाउनलोड करना](https://releases.aspose.com/words/net/) पृष्ठ.
 
 ### .NET के लिए Aspose.Words के साथ छवियों को संपीड़ित करने के लिए नमूना स्रोत कोड
 
@@ -162,9 +164,14 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 	
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

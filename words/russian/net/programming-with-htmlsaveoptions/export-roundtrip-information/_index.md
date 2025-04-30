@@ -1,14 +1,16 @@
 ---
-title: Экспорт информации о круговом маршруте
-linktitle: Экспорт информации о круговом маршруте
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как экспортировать информацию о обратных маршрутах с помощью Aspose.Words для .NET. Сохраняйте целостность и форматирование вашего документа во время преобразований.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": "Узнайте, как экспортировать информацию о обратных маршрутах с помощью Aspose.Words для .NET. Сохраняйте целостность и форматирование вашего документа во время преобразований."
+"linktitle": "Экспорт информации о круговом маршруте"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Экспорт информации о круговом маршруте"
+"url": "/ru/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт информации о круговом маршруте
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-htmlsaveoptions/export-roundtrip-information/
 
 Прежде чем перейти к деталям, давайте убедимся, что у нас есть все необходимое:
 
-1.  Aspose.Words для .NET: убедитесь, что у вас установлена последняя версия.[Загрузить здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words для .NET: убедитесь, что у вас установлена последняя версия. [Загрузить здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая с C# IDE.
 3. Базовые знания C#: полезно иметь некоторое представление о C# и .NET Framework.
-4. Лицензия: Вы можете использовать временную лицензию, если у вас нет полной. Получить ее[здесь](https://purchase.aspose.com/temporary-license/).
+4. Лицензия: Вы можете использовать временную лицензию, если у вас нет полной. Получить ее [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -79,19 +81,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportRoundtripInformation.html",
 Информация о передаче данных относится к данным, которые обеспечивают целостность и форматирование документа при его преобразовании из одного формата в другой и обратно.
 
 ### Могу ли я использовать Aspose.Words для .NET без лицензии?
-Да, вы можете использовать его с временной лицензией, которую вы можете получить[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете использовать его с временной лицензией, которую вы можете получить [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти последнюю версию Aspose.Words для .NET?
- Вы можете скачать последнюю версию[здесь](https://releases.aspose.com/words/net/).
+Вы можете скачать последнюю версию [здесь](https://releases.aspose.com/words/net/).
 
 ### Как получить поддержку по Aspose.Words для .NET?
- Вы можете получить поддержку от сообщества Aspose[здесь](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от сообщества Aspose [здесь](https://forum.aspose.com/c/words/8).
 
 ### Можно ли сохранить форматирование при конвертации документов Word в HTML?
 Да, используя свойство ExportRoundtripInformation в HtmlSaveOptions, вы можете сохранить все форматирование во время преобразования.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

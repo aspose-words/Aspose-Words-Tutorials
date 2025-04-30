@@ -1,14 +1,16 @@
 ---
-title: Пересмотр документа
-linktitle: Пересмотр документа
-second_title: API обработки документов Java Aspose.Words
-description: Оптимизируйте редактирование документов с помощью Aspose.Words для Java! Отслеживайте изменения, управляйте версиями и автоматизируйте задачи по редактированию без особых усилий.
-weight: 19
-url: /ru/java/document-revision/
+"description": "Оптимизируйте редактирование документов с помощью Aspose.Words для Java! Отслеживайте изменения, управляйте версиями и автоматизируйте задачи по редактированию без особых усилий."
+"linktitle": "Пересмотр документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Пересмотр документа"
+"url": "/ru/java/document-revision/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пересмотр документа
@@ -43,9 +45,13 @@ url: /ru/java/document-revision/
 Изучите эффективный контроль версий документов с помощью Aspose.Words для Java. Управляйте изменениями, сотрудничайте без проблем и отслеживайте изменения без усилий.
 ### [Совместная работа с документами и их рассмотрение](./document-collaboration-review/)
 Откройте для себя эффективное взаимодействие и просмотр документов с Aspose.Words для Java. Узнайте, как отслеживать изменения, делиться документами и оптимизировать рабочий процесс.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

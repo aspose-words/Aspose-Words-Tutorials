@@ -1,34 +1,36 @@
 ---
-title: Határozza meg az XY tengely tulajdonságait egy diagramon
-linktitle: Határozza meg az XY tengely tulajdonságait egy diagramon
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan határozhatja meg az XY tengely tulajdonságait egy diagramban az Aspose.Words for .NET használatával. Tökéletes .NET fejlesztőknek.
-weight: 10
-url: /hu/net/programming-with-charts/define-xyaxis-properties/
+"description": "Tanuld meg, hogyan definiálhatod az XY tengely tulajdonságait egy diagramban az Aspose.Words for .NET használatával ezzel a lépésről lépésre haladó útmutatóval. Tökéletes .NET fejlesztők számára."
+"linktitle": "XY tengely tulajdonságainak definiálása egy diagramban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "XY tengely tulajdonságainak definiálása egy diagramban"
+"url": "/hu/net/programming-with-charts/define-xyaxis-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Határozza meg az XY tengely tulajdonságait egy diagramon
+# XY tengely tulajdonságainak definiálása egy diagramban
 
 ## Bevezetés
 
-A diagramok hatékony eszközt jelentenek az adatok megjelenítésére. Ha professzionális dokumentumokat kell létrehoznia dinamikus diagramokkal, az Aspose.Words for .NET felbecsülhetetlen értékű könyvtár. Ez a cikk végigvezeti az XY tengely tulajdonságainak diagramon történő meghatározásának folyamatán az Aspose.Words for .NET használatával, az egyes lépéseket lebontva az egyértelműség és a könnyebb érthetőség érdekében.
+diagramok hatékony eszközök az adatok vizualizálására. Ha dinamikus diagramokkal rendelkező professzionális dokumentumokat kell létrehoznia, az Aspose.Words for .NET egy felbecsülhetetlen értékű könyvtár. Ez a cikk végigvezeti Önt az XY tengely tulajdonságainak definiálásának folyamatán egy diagramban az Aspose.Words for .NET használatával, lépésről lépésre lebontva az érthetőség és a könnyű megértés biztosítása érdekében.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódolásba, meg kell felelnie néhány előfeltételnek:
+Mielőtt belevágnál a kódolásba, van néhány előfeltétel, aminek teljesülnie kell:
 
-1. Aspose.Words for .NET: Győződjön meg arról, hogy rendelkezik az Aspose.Words for .NET könyvtárral. Megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. Fejlesztési környezet: Szüksége van egy integrált fejlesztői környezetre (IDE), például a Visual Studiora.
+1. Aspose.Words .NET-hez: Győződjön meg róla, hogy rendelkezik az Aspose.Words .NET-hez készült könyvtárral. [töltsd le itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Szükséged lesz egy integrált fejlesztői környezetre (IDE), például a Visual Studio-ra.
 3. .NET-keretrendszer: Győződjön meg arról, hogy a fejlesztői környezete be van állítva a .NET-fejlesztéshez.
-4. Alapvető C# ismerete: Ez az útmutató feltételezi, hogy rendelkezik a C# programozás alapvető ismereteivel.
+4. C# alapismeretek: Ez az útmutató feltételezi, hogy rendelkezel C# programozási alapismeretekkel.
 
 ## Névterek importálása
 
-Először is importálnia kell a szükséges névtereket a projektbe. Ez biztosítja, hogy hozzáférjen a dokumentumok és diagramok létrehozásához és kezeléséhez szükséges összes osztályhoz és módszerhez.
+Először is importálnod kell a szükséges névtereket a projektedbe. Ez biztosítja, hogy hozzáférj az összes osztályhoz és metódushoz, amelyek dokumentumok és diagramok létrehozásához és kezeléséhez szükségesek.
 
 ```csharp
 using System;
@@ -37,23 +39,23 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 ```
 
-A folyamatot egyszerű lépésekre bontjuk, amelyek mindegyike az XY tengely tulajdonságainak diagramban történő meghatározásának egy-egy részére összpontosít.
+A folyamatot egyszerű lépésekre bontjuk, amelyek mindegyike a diagram XY tengely tulajdonságainak meghatározásának egy adott részére összpontosít.
 
-## 1. lépés: Inicializálja a Dokumentumot és a DocumentBuildert
+## 1. lépés: A dokumentum és a DocumentBuilder inicializálása
 
- Először is inicializálnia kell egy új dokumentumot, és a`DocumentBuilder` objektum. A`DocumentBuilder` segít a tartalom beillesztésében a dokumentumba.
+Először is inicializálni kell egy új dokumentumot és egy `DocumentBuilder` tárgy. A `DocumentBuilder` segít a tartalom dokumentumba való beillesztésében.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumkönyvtár elérési útja 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## 2. lépés: Helyezzen be egy diagramot
+## 2. lépés: Diagram beszúrása
 
-Ezután beszúr egy diagramot a dokumentumba. Ebben a példában egy területdiagramot fogunk használni. Szükség szerint testreszabhatja a diagram méreteit.
+Ezután beszúr egy diagramot a dokumentumba. Ebben a példában egy területdiagramot fogunk használni. A diagram méreteit szükség szerint testreszabhatja.
 
 ```csharp
 // Diagram beszúrása
@@ -63,7 +65,7 @@ Chart chart = shape.Chart;
 
 ## 3. lépés: Alapértelmezett sorozat törlése és egyéni adatok hozzáadása
 
-Alapértelmezés szerint a diagramnak néhány előre meghatározott sorozata lesz. Töröljük ezeket, és hozzáadjuk egyéni adatsorainkat.
+Alapértelmezés szerint a diagram néhány előre definiált adatsort tartalmaz. Ezeket töröljük, és hozzáadjuk az egyéni adatsorainkat.
 
 ```csharp
 chart.Series.Clear();
@@ -76,24 +78,24 @@ chart.Series.Add("Aspose Series 1",
 	new double[] { 640, 320, 280, 120, 150 });
 ```
 
-## 4. lépés: Határozza meg az X tengely tulajdonságait
+## 4. lépés: Az X tengely tulajdonságainak meghatározása
 
-Most itt az ideje, hogy meghatározzuk az X tengely tulajdonságait. Ez magában foglalja a kategória típusának beállítását, a tengely keresztezésének testreszabását, valamint a pipajelek és címkék beállítását.
+Most itt az ideje meghatározni az X tengely tulajdonságait. Ez magában foglalja a kategória típusának beállítását, a tengelymetszés testreszabását, valamint az osztásjelek és feliratok beállítását.
 
 ```csharp
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Custom;
-xAxis.CrossesAt = 3; //Az Y tengely kijelzési egységeiben mérve (száz).
+xAxis.CrossesAt = 3; // Az Y tengely megjelenítési egységeiben mérve (százas).
 xAxis.ReverseOrder = true;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.TickLabelOffset = 200;
 ```
 
-## 5. lépés: Határozza meg az Y tengely tulajdonságait
+## 5. lépés: Az Y tengely tulajdonságainak meghatározása
 
-Hasonlóképpen beállíthatja az Y tengely tulajdonságait. Ez magában foglalja a pipa címke pozíciójának, a fő- és mellékegységek, a megjelenítési egység és a méretezés beállítását.
+Hasonlóképpen állíthatja be az Y tengely tulajdonságait. Ez magában foglalja a jelöléscímke pozícióját, a fő- és mellékmértékegységeket, a megjelenítési mértékegységet és a méretezést.
 
 ```csharp
 ChartAxis yAxis = chart.AxisY;
@@ -105,9 +107,9 @@ yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
 ```
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Végül mentse a dokumentumot a megadott könyvtárba. Ez létrehozza a Word dokumentumot a testreszabott diagrammal.
+Végül mentse el a dokumentumot a megadott könyvtárba. Ezzel létrejön a Word dokumentum a testreszabott diagrammal.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.DefineXYAxisProperties.docx");
@@ -115,28 +117,33 @@ doc.Save(dataDir + "WorkingWithCharts.DefineXYAxisProperties.docx");
 
 ## Következtetés
 
-Word-dokumentumok diagramjainak létrehozása és testreszabása az Aspose.Words for .NET használatával egyszerű, ha megértette a szükséges lépéseket. Ez az útmutató végigvezeti az XY tengely tulajdonságainak diagramban történő meghatározásának folyamatán, a dokumentum inicializálásától a végtermék mentéséig. Ezekkel a készségekkel részletes, professzionális megjelenésű diagramokat hozhat létre, amelyek javítják dokumentumait.
+A diagramok létrehozása és testreszabása Word-dokumentumokban az Aspose.Words for .NET segítségével egyszerű, ha megérti a szükséges lépéseket. Ez az útmutató végigvezeti Önt az XY tengely tulajdonságainak definiálásának folyamatán egy diagramban, a dokumentum inicializálásától a végeredmény mentéséig. Ezekkel a készségekkel részletes, professzionális megjelenésű diagramokat hozhat létre, amelyek gazdagítják dokumentumait.
 
 ## GYIK
 
 ### Milyen típusú diagramokat hozhatok létre az Aspose.Words for .NET segítségével?
-Különféle típusú diagramokat hozhat létre, beleértve a területet, oszlopot, vonalat, kört és még sok mást.
+Különféle típusú diagramokat hozhat létre, beleértve a terület-, sáv-, vonal-, kördiagramokat és egyebeket.
 
-### Hogyan telepíthetem az Aspose.Words for .NET fájlt?
- Az Aspose.Words for .NET letölthető innen[itt](https://releases.aspose.com/words/net/)és kövesse a mellékelt telepítési utasításokat.
+### Hogyan telepíthetem az Aspose.Words for .NET programot?
+Az Aspose.Words .NET-hez való verzióját innen töltheti le: [itt](https://releases.aspose.com/words/net/) és kövesse a mellékelt telepítési utasításokat.
 
 ### Testreszabhatom a diagramjaim megjelenését?
-Igen, az Aspose.Words for .NET lehetővé teszi a diagramok széles körű testreszabását, beleértve a színeket, a betűtípusokat és a tengelytulajdonságokat.
+Igen, az Aspose.Words for .NET lehetővé teszi a diagramok széleskörű testreszabását, beleértve a színeket, betűtípusokat és tengelytulajdonságokat.
 
-### Létezik ingyenes próbaverzió az Aspose.Words for .NET számára?
- Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Words for .NET-hez?
+Igen, kérhetsz ingyenes próbaverziót [itt](https://releases.aspose.com/).
 
-### Hol találok további oktatóanyagokat és dokumentációt?
- További oktatóanyagokat és részletes dokumentációt találhat a[Aspose.Words for .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+### Hol találok további oktatóanyagokat és dokumentációkat?
+További oktatóanyagokat és részletes dokumentációt talál a következő címen: [Aspose.Words .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

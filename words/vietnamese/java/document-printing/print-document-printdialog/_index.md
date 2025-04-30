@@ -1,14 +1,16 @@
 ---
-title: In tài liệu với PrintDialog
-linktitle: In tài liệu với PrintDialog
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách in tài liệu bằng Aspose.Words for Java với PrintDialog. Tùy chỉnh cài đặt, in các trang cụ thể và nhiều hơn nữa trong hướng dẫn từng bước này.
-weight: 14
-url: /vi/java/document-printing/print-document-printdialog/
+"description": "Tìm hiểu cách in tài liệu bằng Aspose.Words for Java với PrintDialog. Tùy chỉnh cài đặt, in các trang cụ thể và nhiều hơn nữa trong hướng dẫn từng bước này."
+"linktitle": "In tài liệu với PrintDialog"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "In tài liệu với PrintDialog"
+"url": "/vi/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tài liệu với PrintDialog
@@ -17,14 +19,14 @@ url: /vi/java/document-printing/print-document-printdialog/
 
 ## Giới thiệu
 
-In tài liệu là một yêu cầu phổ biến trong nhiều ứng dụng Java. Aspose.Words for Java đơn giản hóa nhiệm vụ này bằng cách cung cấp API thuận tiện để thao tác và in tài liệu.
+In tài liệu là yêu cầu chung trong nhiều ứng dụng Java. Aspose.Words for Java đơn giản hóa nhiệm vụ này bằng cách cung cấp API thuận tiện để thao tác và in tài liệu.
 
 ## Điều kiện tiên quyết
 
 Trước khi tìm hiểu sâu hơn về mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình.
--  Aspose.Words cho Java: Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho Java: Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/).
 
 ## Thiết lập dự án Java của bạn
 
@@ -63,7 +65,7 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- Trong mã này, trước tiên chúng ta tải tài liệu bằng Aspose.Words và sau đó khởi tạo PrinterSettings. Chúng ta sử dụng`showPrintDialog()` phương pháp để hiển thị PrintDialog cho người dùng. Khi người dùng chọn cài đặt in của họ, chúng tôi in tài liệu bằng`doc.print(settings)`.
+Trong mã này, trước tiên chúng ta tải tài liệu bằng Aspose.Words và sau đó khởi tạo PrinterSettings. Chúng ta sử dụng `showPrintDialog()` phương pháp để hiển thị PrintDialog cho người dùng. Khi người dùng chọn cài đặt in của họ, chúng tôi in tài liệu bằng `doc.print(settings)`.
 
 ## Tùy chỉnh Cài đặt In
 
@@ -77,7 +79,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách in tài liệu bằ
 
 ### Tôi có thể thiết lập hướng trang để in như thế nào?
 
- Để thiết lập hướng trang (dọc hoặc ngang) để in, bạn có thể sử dụng`PageSetup` lớp trong Aspose.Words. Đây là một ví dụ:
+Để thiết lập hướng trang (dọc hoặc ngang) để in, bạn có thể sử dụng `PageSetup` lớp trong Aspose.Words. Đây là một ví dụ:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,7 +89,7 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Tôi có thể in những trang cụ thể trong một tài liệu không?
 
- Có, bạn có thể in các trang cụ thể từ một tài liệu bằng cách chỉ định phạm vi trang trong`PrinterSettings` đối tượng. Đây là một ví dụ:
+Có, bạn có thể in các trang cụ thể từ một tài liệu bằng cách chỉ định phạm vi trang trong `PrinterSettings` đối tượng. Đây là một ví dụ:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
@@ -96,7 +98,7 @@ settings.setPageRange("1-3, 5");
 
 ### Làm thế nào để thay đổi kích thước giấy khi in?
 
-Để thay đổi kích thước giấy để in, bạn có thể sử dụng`PageSetup` lớp và thiết lập`PaperSize` tài sản. Đây là một ví dụ:
+Để thay đổi kích thước giấy để in, bạn có thể sử dụng `PageSetup` lớp và thiết lập `PaperSize` tài sản. Đây là một ví dụ:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -110,10 +112,15 @@ Có, Aspose.Words for Java tương thích với nhiều hệ điều hành khác
 
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
- Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Words for Java trên trang web:[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Words for Java trên trang web: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

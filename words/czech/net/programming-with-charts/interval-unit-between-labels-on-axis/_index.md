@@ -1,53 +1,55 @@
 ---
-title: Interval Jednotka Mezi štítky Na ose Grafu
-linktitle: Interval Jednotka Mezi štítky Na ose Grafu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak nastavit jednotku intervalu mezi štítky na ose grafu pomocí Aspose.Words for .NET.
-weight: 10
-url: /cs/net/programming-with-charts/interval-unit-between-labels-on-axis/
+"description": "Naučte se, jak nastavit jednotku intervalu mezi popisky na ose grafu pomocí Aspose.Words pro .NET."
+"linktitle": "Jednotka intervalu mezi popisky na ose grafu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Jednotka intervalu mezi popisky na ose grafu"
+"url": "/cs/net/programming-with-charts/interval-unit-between-labels-on-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Interval Jednotka Mezi štítky Na ose Grafu
+# Jednotka intervalu mezi popisky na ose grafu
 
 ## Zavedení
 
-Vítejte v našem komplexním průvodci používáním Aspose.Words pro .NET! Ať už jste zkušený vývojář nebo teprve začínáte, tento článek vás provede vším, co potřebujete vědět o využití Aspose.Words k programové manipulaci a generování dokumentů Wordu v aplikacích .NET.
+Vítejte v našem komplexním průvodci používáním Aspose.Words pro .NET! Ať už jste zkušený vývojář nebo teprve začínáte, tento článek vás provede vším, co potřebujete vědět o využití Aspose.Words k programovému zpracování a generování dokumentů Word v aplikacích .NET.
 
 ## Předpoklady
 
 Než se ponoříte do Aspose.Words, ujistěte se, že máte následující nastavení:
 - Visual Studio nainstalované na vašem počítači
 - Základní znalost programovacího jazyka C#
--  Přístup ke knihovně Aspose.Words for .NET (odkaz ke stažení[zde](https://releases.aspose.com/words/net/))
+- Přístup ke knihovně Aspose.Words pro .NET (odkaz ke stažení) [zde](https://releases.aspose.com/words/net/))
 
-## Import jmenných prostorů a Začínáme
+## Import jmenných prostorů a začátek
 
 Začněme importem potřebných jmenných prostorů a nastavením našeho vývojového prostředí.
 
-### Nastavení vašeho projektu ve Visual Studiu
-Chcete-li začít, spusťte Visual Studio a vytvořte nový projekt C#.
+### Nastavení projektu ve Visual Studiu
+Pro začátek spusťte Visual Studio a vytvořte nový projekt v C#.
 
 ### Instalace Aspose.Words pro .NET
- Aspose.Words for .NET můžete nainstalovat prostřednictvím NuGet Package Manager nebo stažením přímo z[Aspose webové stránky](https://releases.aspose.com/words/net/).
+Aspose.Words pro .NET můžete nainstalovat pomocí Správce balíčků NuGet nebo stažením přímo z [Webové stránky Aspose](https://releases.aspose.com/words/net/).
 
 ### Import jmenného prostoru Aspose.Words
-souboru kódu C# importujte jmenný prostor Aspose.Words, abyste získali přístup k jeho třídám a metodám:
+Do souboru kódu C# importujte jmenný prostor Aspose.Words, abyste získali přístup k jeho třídám a metodám:
 ```csharp
 using Aspose.Words;
 ```
 
-V této části prozkoumáme, jak vytvořit a přizpůsobit grafy pomocí Aspose.Words pro .NET.
+V této části se podíváme na to, jak vytvářet a upravovat grafy pomocí Aspose.Words pro .NET.
 
 ## Krok 1: Přidání grafu do dokumentu
-Chcete-li vložit graf do dokumentu aplikace Word, postupujte takto:
+Chcete-li vložit graf do dokumentu Word, postupujte takto:
 
-### Krok 1.1: Inicializujte DocumentBuilder a vložte graf
+### Krok 1.1: Inicializace nástroje DocumentBuilder a vložení grafu
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 Document doc = new Document();
@@ -66,7 +68,7 @@ chart.Series.Add("Aspose Series 1",
 ```
 
 ## Krok 2: Úprava vlastností osy
-Nyní přizpůsobíme vlastnosti osy, abychom řídili vzhled našeho grafu:
+Nyní si upravme vlastnosti os, abychom mohli ovládat vzhled našeho grafu:
 
 ```csharp
 chart.AxisX.TickLabelSpacing = 2;
@@ -80,29 +82,34 @@ doc.Save(dataDir + "WorkingWithCharts.IntervalUnitBetweenLabelsOnAxis.docx");
 
 ## Závěr
 
-Gratuluji! Naučili jste se integrovat a manipulovat s grafy pomocí Aspose.Words pro .NET. Tato výkonná knihovna umožňuje vývojářům bez námahy vytvářet dynamické a vizuálně přitažlivé dokumenty.
+Gratulujeme! Naučili jste se, jak integrovat a manipulovat s grafy pomocí Aspose.Words pro .NET. Tato výkonná knihovna umožňuje vývojářům bez námahy vytvářet dynamické a vizuálně přitažlivé dokumenty.
 
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je knihovna pro zpracování dokumentů, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word v aplikacích .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je knihovna pro zpracování dokumentů, která umožňuje vývojářům vytvářet, upravovat a převádět dokumenty Word v aplikacích .NET.
 
 ### Kde najdu dokumentaci k Aspose.Words pro .NET?
- Můžete najít podrobnou dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnou dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
 
-### Mohu Aspose.Words for .NET vyzkoušet před nákupem?
- Ano, můžete si stáhnout bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+### Mohu si před zakoupením vyzkoušet Aspose.Words pro .NET?
+Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Jak získám podporu pro Aspose.Words for .NET?
- Pro podporu a komunitní diskuze navštivte[Fórum Aspose.Words](https://forum.aspose.com/c/words/8).
+### Jak získám podporu pro Aspose.Words pro .NET?
+Pro podporu a diskuze s komunitou navštivte [Fórum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Kde si mohu zakoupit licenci pro Aspose.Words pro .NET?
- Můžete si zakoupit licenci[zde](https://purchase.aspose.com/buy).
+Můžete si zakoupit licenci [zde](https://purchase.aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

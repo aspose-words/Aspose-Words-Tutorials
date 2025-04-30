@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Pemisah Gaya Dokumen di Word
-linktitle: Sisipkan Pemisah Gaya Dokumen di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan pemisah gaya dokumen di Word menggunakan Aspose.Words untuk .NET. Panduan ini menyediakan petunjuk dan kiat untuk mengelola gaya dokumen.
-weight: 10
-url: /id/net/programming-with-styles-and-themes/insert-style-separator/
+"description": "Pelajari cara menyisipkan pemisah gaya dokumen di Word menggunakan Aspose.Words untuk .NET. Panduan ini menyediakan petunjuk dan kiat untuk mengelola gaya dokumen."
+"linktitle": "Sisipkan Pemisah Gaya Dokumen di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Pemisah Gaya Dokumen di Word"
+"url": "/id/net/programming-with-styles-and-themes/insert-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Pemisah Gaya Dokumen di Word
@@ -21,13 +23,13 @@ Saat bekerja dengan dokumen Word secara terprogram menggunakan Aspose.Words for 
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda perlu memasang pustaka Aspose.Words di proyek Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Halaman rilis Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda perlu memasang pustaka Aspose.Words di proyek Anda. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Halaman rilis Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
    
 2. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.
 
 3. Pengetahuan Dasar: Pemahaman mendasar tentang C# dan cara menggunakan pustaka di .NET akan sangat membantu.
 
-4.  Akun Aspose: Untuk dukungan, pembelian, atau mendapatkan uji coba gratis, lihat[Halaman pembelian Aspose](https://purchase.aspose.com/buy) atau[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+4. Akun Aspose: Untuk dukungan, pembelian, atau mendapatkan uji coba gratis, lihat [Halaman pembelian Aspose](https://purchase.aspose.com/buy) atau [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -44,10 +46,10 @@ Ruang nama ini menyediakan akses ke kelas dan metode yang diperlukan untuk meman
 
 Judul: Buat Dokumen dan Pembuat Baru
 
- Penjelasan: Mulailah dengan membuat yang baru`Document` objek dan sebuah`DocumentBuilder` contoh.`DocumentBuilder` kelas memungkinkan Anda memasukkan dan memformat teks dan elemen ke dalam dokumen.
+Penjelasan: Mulailah dengan membuat yang baru `Document` objek dan sebuah `DocumentBuilder` contoh. `DocumentBuilder` kelas memungkinkan Anda memasukkan dan memformat teks dan elemen ke dalam dokumen.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 
 Document doc = new Document();
@@ -75,7 +77,7 @@ Di sini, kita membuat gaya paragraf baru yang disebut "MyParaStyle" dan mengatur
 
 Judul: Tambahkan Teks dengan Gaya "Judul 1"
 
- Penjelasan: Gunakan`DocumentBuilder` untuk memasukkan teks yang diformat dengan gaya "Heading 1". Langkah ini membantu memisahkan bagian-bagian dokumen secara visual.
+Penjelasan: Gunakan `DocumentBuilder` untuk menyisipkan teks yang diformat dengan gaya "Heading 1". Langkah ini membantu memisahkan bagian-bagian dokumen secara visual.
 
 ```csharp
 // Tambahkan teks dengan gaya "Heading 1".
@@ -83,13 +85,13 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("Heading 1");
 ```
 
-Di sini, kami mengatur`StyleIdentifier` ke`Heading1`, yang menerapkan gaya judul yang telah ditentukan sebelumnya pada teks yang akan kita masukkan.
+Di sini, kami mengatur `StyleIdentifier` ke `Heading1`, yang menerapkan gaya judul yang telah ditentukan sebelumnya pada teks yang akan kita masukkan.
 
 ## Langkah 4: Masukkan Pemisah Gaya
 
 Judul: Tambahkan Pemisah Gaya
 
-Penjelasan: Sisipkan pemisah gaya untuk membedakan bagian yang diformat dengan "Heading 1" dari teks lainnya. Pemisah gaya sangat penting untuk menjaga konsistensi format.
+Penjelasan: Sisipkan pemisah gaya untuk membedakan bagian yang diformat dengan "Heading 1" dari teks lainnya. Pemisah gaya sangat penting untuk mempertahankan format yang konsisten.
 
 ```csharp
 builder.InsertStyleSeparator();
@@ -135,7 +137,7 @@ Jangan ragu untuk bereksperimen dengan berbagai gaya dan pemisah sesuai kebutuha
 Pemisah gaya adalah karakter khusus yang memisahkan konten dengan gaya berbeda dalam dokumen Word, membantu menjaga format yang konsisten.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari[Aspose.Words merilis halaman](https://releases.aspose.com/words/net/).
+Anda dapat mengunduh dan menginstal Aspose.Words untuk .NET dari [Aspose.Words merilis halaman](https://releases.aspose.com/words/net/).
 
 ### Bisakah saya menggunakan beberapa gaya dalam satu paragraf?
 Tidak, gaya diterapkan pada tingkat paragraf. Gunakan pemisah gaya untuk mengganti gaya dalam paragraf yang sama.
@@ -144,10 +146,15 @@ Tidak, gaya diterapkan pada tingkat paragraf. Gunakan pemisah gaya untuk menggan
 Pastikan jalur berkas sudah benar dan Anda memiliki izin menulis ke direktori yang ditentukan. Periksa apakah ada pengecualian atau kesalahan dalam kode.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

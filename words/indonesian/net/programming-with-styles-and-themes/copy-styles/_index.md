@@ -1,14 +1,16 @@
 ---
-title: Salin Gaya Dokumen Word
-linktitle: Salin Gaya Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyalin gaya dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan pemformatan dokumen yang konsisten dengan mudah.
-weight: 10
-url: /id/net/programming-with-styles-and-themes/copy-styles/
+"description": "Pelajari cara menyalin gaya dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan pemformatan dokumen yang konsisten dengan mudah."
+"linktitle": "Salin Gaya Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Salin Gaya Dokumen Word"
+"url": "/id/net/programming-with-styles-and-themes/copy-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salin Gaya Dokumen Word
@@ -21,7 +23,7 @@ Jika Anda pernah perlu membuat dokumen terlihat konsisten dengan dokumen lain, A
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda memerlukan ini untuk bekerja dengan dokumen Word dalam .NET. Anda dapat mengunduhnya dari[Unduhan Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Anda memerlukan ini untuk bekerja dengan dokumen Word dalam .NET. Anda dapat mengunduhnya dari [Unduhan Aspose.Words untuk .NET](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan .NET: Anda harus menyiapkan lingkungan pengembangan .NET yang berfungsi, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan C# akan membantu Anda memahami dan menerapkan potongan kode secara efektif.
 
@@ -37,7 +39,7 @@ Dengan menyertakan namespace ini, Anda memperoleh akses ke semua fitur hebat di 
 
 ## Langkah 1: Siapkan Direktori Dokumen Anda
 
- Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah Aspose.Words akan mencari berkas Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Pertama-tama, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah Aspose.Words akan mencari berkas Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,11 +54,11 @@ Document doc = new Document();
 Document target = new Document(dataDir + "Rendering.docx");
 ```
 
- Di Sini,`Rendering.docx` adalah dokumen sumber Anda yang berisi gaya yang ingin Anda salin.`doc` Objek mewakili dokumen target tempat gaya akan disalin.
+Di Sini, `Rendering.docx` adalah dokumen sumber Anda yang berisi gaya yang ingin Anda salin. `doc` Objek mewakili dokumen target di mana gaya akan disalin.
 
 ## Langkah 3: Salin Gaya dari Sumber ke Target
 
- Setelah kedua dokumen dimuat, Anda sekarang dapat menyalin gayanya.`CopyStylesFromTemplate` metode adalah alat Anda untuk pekerjaan ini. Ini menyalin gaya dari`doc`templat ke`target` dokumen.
+Setelah kedua dokumen dimuat, Anda sekarang dapat menyalin gayanya. `CopyStylesFromTemplate` metode adalah alat Anda untuk pekerjaan ini. Ini menyalin gaya dari `doc` templat ke `target` dokumen.
 
 ```csharp
 target.CopyStylesFromTemplate(doc);
@@ -78,23 +80,28 @@ Nah, itu dia! Menyalin gaya antar dokumen Word menggunakan Aspose.Words untuk .N
 
 ## Pertanyaan yang Sering Diajukan
 
-###  Apa tujuan dari`CopyStylesFromTemplate` method?  
- Itu`CopyStylesFromTemplate` metode menyalin gaya dari satu dokumen ke dokumen lain, memastikan bahwa dokumen target mewarisi format dokumen sumber.
+### Apa tujuan dari `CopyStylesFromTemplate` metode?  
+Itu `CopyStylesFromTemplate` metode menyalin gaya dari satu dokumen ke dokumen lain, memastikan bahwa dokumen target mewarisi format dokumen sumber.
 
-###  Bisakah saya menggunakan`CopyStylesFromTemplate` with documents in different formats?  
- Tidak,`CopyStylesFromTemplate` Metode ini hanya berfungsi dengan dokumen dalam format yang sama, biasanya DOCX.
+### Bisakah saya menggunakan `CopyStylesFromTemplate` dengan dokumen dalam format yang berbeda?  
+Tidak, `CopyStylesFromTemplate` Metode ini hanya berfungsi dengan dokumen dalam format yang sama, biasanya DOCX.
 
 ### Bagaimana saya dapat memeriksa apakah gaya telah berhasil disalin?  
 Buka dokumen target dan periksa pengaturan gaya. Anda akan melihat gaya dari dokumen sumber diterapkan.
 
 ### Bagaimana jika dokumen target sudah memiliki gaya?  
- Itu`CopyStylesFromTemplate` Metode ini akan menimpa gaya yang ada pada dokumen target dengan gaya yang ada pada dokumen sumber.
+Itu `CopyStylesFromTemplate` Metode ini akan menimpa gaya yang ada pada dokumen target dengan gaya yang ada pada dokumen sumber.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?  
- Aspose.Words untuk .NET adalah produk komersial, tetapi Anda bisa mendapatkan uji coba gratis dari[Uji Coba Gratis Aspose.Words untuk .NET](https://releases.aspose.com/).
+Aspose.Words untuk .NET adalah produk komersial, tetapi Anda bisa mendapatkan uji coba gratis dari [Uji Coba Gratis Aspose.Words untuk .NET](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

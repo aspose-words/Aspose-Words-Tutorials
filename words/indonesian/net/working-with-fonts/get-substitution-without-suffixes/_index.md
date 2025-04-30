@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Substitusi Tanpa Sufiks
-linktitle: Dapatkan Substitusi Tanpa Sufiks
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengelola substitusi font tanpa sufiks di Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan dokumen Anda terlihat sempurna setiap saat.
-weight: 10
-url: /id/net/working-with-fonts/get-substitution-without-suffixes/
+"description": "Pelajari cara mengelola substitusi font tanpa sufiks di Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk memastikan dokumen Anda terlihat sempurna setiap saat."
+"linktitle": "Dapatkan Substitusi Tanpa Sufiks"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Substitusi Tanpa Sufiks"
+"url": "/id/net/working-with-fonts/get-substitution-without-suffixes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Substitusi Tanpa Sufiks
@@ -22,9 +24,9 @@ Selamat datang di panduan lengkap tentang pengelolaan substitusi font menggunaka
 Sebelum memulai tutorial, pastikan Anda memiliki hal berikut:
 
 - Pengetahuan Dasar C#: Memahami pemrograman C# akan memudahkan untuk mengikuti dan menerapkan langkah-langkahnya.
--  Pustaka Aspose.Words untuk .NET: Unduh dan instal pustaka dari[tautan unduhan](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Unduh dan instal pustaka dari [tautan unduhan](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan seperti Visual Studio untuk menulis dan menjalankan kode Anda.
--  Contoh Dokumen: Contoh dokumen (misalnya,`Rendering.docx`) untuk digunakan selama tutorial ini.
+- Contoh Dokumen: Contoh dokumen (misalnya, `Rendering.docx`) untuk digunakan selama tutorial ini.
 
 ## Mengimpor Ruang Nama
 
@@ -57,7 +59,7 @@ doc.WarningCallback = substitutionWarningHandler;
 
 ## Langkah 3: Tambahkan Sumber Font Kustom
 
-Pada langkah ini, kita akan menambahkan sumber fon khusus untuk memastikan bahwa Aspose.Words dapat menemukan dan menggunakan fon yang benar. Hal ini sangat berguna jika Anda memiliki fon tertentu yang disimpan dalam direktori khusus.
+Pada langkah ini, kita akan menambahkan sumber fon khusus untuk memastikan bahwa Aspose.Words dapat menemukan dan menggunakan fon yang benar. Ini sangat berguna jika Anda memiliki fon tertentu yang disimpan dalam direktori khusus.
 
 ```csharp
 List<FontSourceBase> fontSources = new List<FontSourceBase>(FontSettings.DefaultInstance.GetFontsSources());
@@ -70,7 +72,7 @@ FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 ```
 
 Dalam kode ini:
--  Kami mengambil sumber font saat ini dan menambahkan yang baru`FolderFontSource` menunjuk ke direktori font kustom kami (`C:\\MyFonts\\`).
+- Kami mengambil sumber font saat ini dan menambahkan yang baru `FolderFontSource` menunjuk ke direktori font kustom kami (`C:\\MyFonts\\`).
 - Kami kemudian memperbarui sumber font dengan daftar baru ini.
 
 ## Langkah 4: Simpan Dokumen
@@ -83,7 +85,7 @@ doc.Save(dataDir + "WorkingWithFonts.GetSubstitutionWithoutSuffixes.pdf");
 
 ## Langkah 5: Buat Kelas Penanganan Peringatan
 
- Untuk menangani peringatan secara efektif, buat kelas khusus yang mengimplementasikan`IWarningCallback` antarmuka. Kelas ini akan menangkap dan mencatat peringatan penggantian font apa pun.
+Untuk menangani peringatan secara efektif, buat kelas khusus yang mengimplementasikan `IWarningCallback` antarmuka. Kelas ini akan menangkap dan mencatat peringatan penggantian font apa pun.
 
 ```csharp
 public class DocumentSubstitutionWarnings : IWarningCallback
@@ -99,8 +101,8 @@ public class DocumentSubstitutionWarnings : IWarningCallback
 ```
 
 Di kelas ini:
--  Itu`Warning`metode menangkap peringatan yang terkait dengan penggantian font.
--  Itu`FontWarnings` koleksi menyimpan peringatan ini untuk pemeriksaan atau pencatatan lebih lanjut.
+- Itu `Warning` metode menangkap peringatan yang terkait dengan penggantian font.
+- Itu `FontWarnings` Koleksi menyimpan peringatan ini untuk pemeriksaan atau pencatatan lebih lanjut.
 
 ## Kesimpulan
 
@@ -110,26 +112,31 @@ Anda kini telah menguasai proses penanganan penggantian font tanpa sufiks menggu
 
 ### Bagaimana cara menggunakan font dari beberapa direktori kustom?
 
- Anda dapat menambahkan beberapa`FolderFontSource` contoh kasus ke`fontSources` daftar dan perbarui sumber font sebagaimana mestinya.
+Anda dapat menambahkan beberapa `FolderFontSource` contoh kasus ke `fontSources` daftar dan perbarui sumber font sebagaimana mestinya.
 
 ### Di mana saya dapat mengunduh uji coba gratis Aspose.Words untuk .NET?
 
- Anda dapat mengunduh uji coba gratis dari[Halaman uji coba gratis Aspose](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis dari [Halaman uji coba gratis Aspose](https://releases.aspose.com/).
 
-###  Bisakah saya menangani beberapa jenis peringatan menggunakan`IWarningCallback`?
+### Bisakah saya menangani beberapa jenis peringatan menggunakan `IWarningCallback`....
 
- Ya, itu`IWarningCallback` Antarmuka memungkinkan Anda menangani berbagai jenis peringatan, bukan hanya penggantian font.
+Ya, itu `IWarningCallback` Antarmuka memungkinkan Anda menangani berbagai jenis peringatan, bukan hanya penggantian font.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words?
 
- Untuk dukungan, kunjungi[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Untuk dukungan, kunjungi [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Apakah mungkin untuk membeli lisensi sementara?
 
- Ya, Anda bisa mendapatkan lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, Anda bisa mendapatkan lisensi sementara dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Загрузить настройки Noto для отката
-linktitle: Загрузить настройки Noto для отката
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как загрузить резервные настройки Noto в документ Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы убедиться, что все символы отображаются правильно.
-weight: 10
-url: /ru/net/working-with-fonts/load-noto-fallback-settings/
+"description": "Узнайте, как загрузить резервные настройки Noto в документ Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы убедиться, что все символы отображаются правильно."
+"linktitle": "Загрузить настройки Noto для отката"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Загрузить настройки Noto для отката"
+"url": "/ru/net/working-with-fonts/load-noto-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Загрузить настройки Noto для отката
 
 ## Введение
 
-В этом уроке мы рассмотрим, как загрузить резервные настройки Noto в документ Word с помощью Aspose.Words for .NET. Этот процесс гарантирует, что шрифты вашего документа будут отображаться правильно, даже если в исходных шрифтах отсутствуют некоторые символы. Независимо от того, имеете ли вы дело с многоязычными документами или специальными символами, резервные настройки Noto могут стать спасением.
+В этом уроке мы рассмотрим, как загрузить резервные настройки Noto в документ Word с помощью Aspose.Words for .NET. Этот процесс гарантирует, что шрифты вашего документа отображаются правильно, даже если в исходных шрифтах отсутствуют некоторые символы. Независимо от того, имеете ли вы дело с многоязычными документами или специальными символами, резервные настройки Noto могут стать спасением.
 
 ## Предпосылки
 
 Прежде чем мы углубимся в пошаговое руководство, давайте рассмотрим необходимые вам предварительные условия:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Вы можете загрузить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая совместимая среда разработки .NET.
 3. Базовые знания C#: знакомство с программированием на C# обязательно.
 4. Документ Word: пример документа Word для применения резервных настроек Noto.
@@ -52,11 +54,11 @@ using Aspose.Words.Fonts;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке с вашими документами.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке с вашими документами.
 
 ## Шаг 3: Загрузите документ
 
-Загрузите документ Word, к которому вы хотите применить резервные настройки Noto. Используйте`Document` класс из пространства имен Aspose.Words.
+Загрузите документ Word, к которому вы хотите применить резервные настройки Noto. Используйте `Document` класс из пространства имен Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Шаг 4: Настройте параметры шрифта
 
- Создайте экземпляр`FontSettings` class и загрузить настройки резервного варианта Noto. Этот шаг настраивает параметры шрифта для использования шрифтов Noto в качестве резервных.
+Создайте экземпляр `FontSettings` class и загрузить настройки резервного варианта Noto. Этот шаг настраивает параметры шрифта для использования шрифтов Noto в качестве резервных.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -81,7 +83,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 doc.FontSettings = fontSettings;
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, сохраните измененный документ. Вы можете сохранить его в любом формате, поддерживаемом Aspose.Words. В этом случае мы сохраним его как PDF.
 
@@ -108,10 +110,15 @@ doc.Save(dataDir + "WorkingWithFonts.NotoFallbackSettings.pdf");
 Установить Aspose.Words для .NET можно через диспетчер пакетов NuGet в Visual Studio.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете загрузить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию [здесь](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

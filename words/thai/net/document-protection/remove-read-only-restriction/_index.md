@@ -1,14 +1,16 @@
 ---
-title: ลบข้อจำกัดการอ่านอย่างเดียว
-linktitle: ลบข้อจำกัดการอ่านอย่างเดียว
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ลบข้อจำกัดแบบอ่านอย่างเดียวออกจากเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/document-protection/remove-read-only-restriction/
+"description": "ลบข้อจำกัดแบบอ่านอย่างเดียวออกจากเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา"
+"linktitle": "ลบข้อจำกัดการอ่านอย่างเดียว"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ลบข้อจำกัดการอ่านอย่างเดียว"
+"url": "/th/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบข้อจำกัดการอ่านอย่างเดียว
@@ -19,9 +21,9 @@ url: /th/net/document-protection/remove-read-only-restriction/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเจาะลึกคำแนะนำทีละขั้นตอน ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่จะดูรายละเอียดคำแนะนำทีละขั้นตอน โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: คุณต้องติดตั้ง Aspose.Words สำหรับ .NET หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจแนวคิดการเขียนโปรแกรม C# ขั้นพื้นฐานจะเป็นประโยชน์
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- ในขั้นตอนนี้ให้แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้`"YourDocument.docx"` คือชื่อเอกสารที่คุณต้องการแก้ไข
+ในขั้นตอนนี้ให้แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณเก็บเอกสารไว้ `"YourDocument.docx"` คือชื่อเอกสารที่คุณต้องการแก้ไข
 
 ## ขั้นตอนที่ 3: ตั้งรหัสผ่าน (ทางเลือก)
 
@@ -81,7 +83,7 @@ doc.WriteProtection.ReadOnlyRecommended = false;
 doc.Protect(ProtectionType.NoProtection);
 ```
 
-ขั้นตอนนี้มีความสำคัญ เนื่องจากจะช่วยให้แน่ใจว่าไม่มีการป้องกันการเขียนใดๆ ที่ใช้กับเอกสารของคุณ
+ขั้นตอนนี้มีความสำคัญ เนื่องจากจะช่วยให้แน่ใจว่าเอกสารของคุณไม่มีการป้องกันการเขียน
 
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
 
@@ -91,7 +93,7 @@ doc.Protect(ProtectionType.NoProtection);
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- ในขั้นตอนนี้เอกสารที่แก้ไขจะถูกบันทึกด้วยชื่อ`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+ในขั้นตอนนี้เอกสารที่แก้ไขจะถูกบันทึกด้วยชื่อ `"DocumentProtection-RemoveReadOnlyRestriction.docx"`.
 
 ## บทสรุป
 
@@ -107,11 +109,11 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 
 ### จะเกิดอะไรขึ้นหากเอกสารมีการป้องกันประเภทอื่นอยู่แล้ว?
 
- การ`doc.Protect(ProtectionType.NoProtection)` วิธีการนี้รับรองว่าการป้องกันทุกประเภทจะถูกลบออกจากเอกสาร
+การ `doc.Protect(ProtectionType.NoProtection)` วิธีการนี้รับรองว่าการป้องกันทุกประเภทจะถูกลบออกจากเอกสาร
 
 ### มีวิธีทราบหรือไม่ว่าเอกสารเป็นแบบอ่านอย่างเดียวก่อนที่จะลบข้อจำกัด?
 
- ใช่ คุณสามารถตรวจสอบได้`ReadOnlyRecommended` คุณสมบัติที่จะตรวจสอบว่าเอกสารเป็นแบบอ่านอย่างเดียวหรือไม่ก่อนที่จะทำการเปลี่ยนแปลงใดๆ
+ใช่ คุณสามารถตรวจสอบได้ `ReadOnlyRecommended` คุณสมบัติที่จะตรวจสอบว่าเอกสารเป็นแบบอ่านอย่างเดียวหรือไม่ก่อนที่จะทำการเปลี่ยนแปลงใดๆ
 
 ### ฉันสามารถใช้วิธีนี้เพื่อลบข้อจำกัดจากเอกสารหลายฉบับพร้อมกันได้ไหม
 
@@ -120,9 +122,14 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ### จะเกิดอะไรขึ้นหากเอกสารมีการป้องกันด้วยรหัสผ่านและฉันไม่ทราบรหัสผ่าน?
 
 ขออภัย คุณต้องทราบรหัสผ่านเพื่อลบข้อจำกัดใดๆ หากไม่มีรหัสผ่าน คุณจะไม่สามารถแก้ไขการตั้งค่าการป้องกันได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

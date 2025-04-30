@@ -1,14 +1,16 @@
 ---
-title: Tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word
-linktitle: Tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word bằng Aspose.Words cho Python. Tăng khả năng đọc và hấp dẫn trực quan với hướng dẫn từng bước và ví dụ về mã nguồn.
-weight: 11
-url: /vi/python-net/tables-and-formatting/document-tables/
+"description": "Tìm hiểu cách tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word bằng Aspose.Words cho Python. Tăng khả năng đọc và hấp dẫn trực quan với hướng dẫn từng bước và ví dụ về mã nguồn."
+"linktitle": "Tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word"
+"url": "/vi/python-net/tables-and-formatting/document-tables/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word
@@ -48,26 +50,26 @@ Trước khi đi sâu vào các khía cạnh kỹ thuật của tối ưu hóa b
    doc = Document()
    ```
 
-Sau khi thiết lập hoàn tất, chúng ta có thể tiến hành tạo và tối ưu hóa bảng để trình bày dữ liệu.
+Sau khi thiết lập xong, chúng ta có thể tiến hành tạo và tối ưu hóa bảng để trình bày dữ liệu.
 
 ## Tạo và định dạng bảng:
 
 Bảng được xây dựng bằng lớp Table trong Aspose.Words. Để tạo bảng, hãy chỉ định số hàng và cột mà bảng cần chứa. Bạn cũng có thể xác định chiều rộng ưa thích của bảng và các ô của bảng.
 
 ```python
-# Create a table with 3 rows and 4 columns
+# Tạo một bảng có 3 hàng và 4 cột
 table = doc.get_child(aw.NodeType.TABLE, 0, True).as_table()
 
-# Set preferred width for the table
+# Đặt chiều rộng ưa thích cho bảng
 table.preferred_width = doc.page_width
 ```
 
 ## Điều chỉnh độ rộng cột:
 
- Điều chỉnh độ rộng cột đúng cách đảm bảo nội dung bảng vừa vặn và đồng đều. Bạn có thể đặt độ rộng của từng cột bằng cách sử dụng`set_preferred_width` phương pháp.
+Điều chỉnh độ rộng cột đúng cách đảm bảo nội dung bảng vừa vặn và đồng đều. Bạn có thể đặt độ rộng của từng cột bằng cách sử dụng `set_preferred_width` phương pháp.
 
 ```python
-# Set preferred width for the first column
+# Đặt chiều rộng ưa thích cho cột đầu tiên
 table.columns[0].set_preferred_width(100)
 ```
 
@@ -76,11 +78,11 @@ table.columns[0].set_preferred_width(100)
 Việc hợp nhất các ô có thể hữu ích để tạo các ô tiêu đề trải dài trên nhiều cột hoặc hàng. Ngược lại, việc tách các ô giúp chia các ô đã hợp nhất trở lại cấu hình ban đầu của chúng.
 
 ```python
-# Merge cells in the first row
+# Gộp các ô ở hàng đầu tiên
 cell = table.rows[0].cells[0]
 cell.cell_format.horizontal_merge = CellMerge.FIRST
 
-# Split a previously merged cell
+# Tách một ô đã được hợp nhất trước đó
 cell.cell_format.horizontal_merge = CellMerge.NONE
 ```
 
@@ -89,22 +91,22 @@ cell.cell_format.horizontal_merge = CellMerge.NONE
 Aspose.Words cung cấp nhiều tùy chọn kiểu dáng khác nhau để cải thiện giao diện của bảng. Bạn có thể đặt màu nền ô, căn chỉnh văn bản, định dạng phông chữ, v.v.
 
 ```python
-# Apply bold formatting to a cell's text
+# Áp dụng định dạng in đậm cho văn bản của ô
 cell.paragraphs[0].runs[0].font.bold = True
 
-# Set background color for a cell
+# Đặt màu nền cho một ô
 cell.cell_format.shading.background_pattern_color = Color.light_gray
 ```
 
 ## Thêm Tiêu đề và Chân trang vào Bảng:
 
- Bảng có thể được hưởng lợi từ việc có tiêu đề và chân trang cung cấp ngữ cảnh hoặc thông tin bổ sung. Bạn có thể thêm tiêu đề và chân trang vào bảng bằng cách sử dụng`Table.title` Và`Table.description` của cải.
+Bảng có thể được hưởng lợi từ việc có tiêu đề và chân trang cung cấp ngữ cảnh hoặc thông tin bổ sung. Bạn có thể thêm tiêu đề và chân trang vào bảng bằng cách sử dụng `Table.title` Và `Table.description` của cải.
 
 ```python
-# Set table title (header)
+# Đặt tiêu đề bảng (tiêu đề)
 table.title = "Sales Data 2023"
 
-# Set table description (footer)
+# Đặt mô tả bảng (footer)
 table.description = "Figures are in USD."
 ```
 
@@ -113,7 +115,7 @@ table.description = "Figures are in USD."
 Trong các tài liệu có nhiều bố cục khác nhau, thiết kế bảng phản hồi trở nên quan trọng. Điều chỉnh độ rộng cột và chiều cao ô dựa trên không gian có sẵn đảm bảo rằng bảng vẫn dễ đọc và hấp dẫn về mặt thị giác.
 
 ```python
-# Check available space and adjust column widths accordingly
+# Kiểm tra không gian có sẵn và điều chỉnh độ rộng cột cho phù hợp
 available_width = doc.page_width - doc.left_margin - doc.right_margin
 for column in table.columns:
     column.preferred_width = available_width / len(table.columns)
@@ -124,7 +126,7 @@ for column in table.columns:
 Sau khi bạn đã tối ưu hóa bảng, đã đến lúc lưu tài liệu. Aspose.Words hỗ trợ nhiều định dạng khác nhau, bao gồm DOCX, PDF, v.v.
 
 ```python
-# Save the document in DOCX format
+# Lưu tài liệu ở định dạng DOCX
 output_path = "optimized_table.docx"
 doc.save(output_path)
 ```
@@ -153,9 +155,14 @@ Chắc chắn rồi! Aspose.Words cung cấp nhiều tính năng để làm vi�
 ### Tôi có thể áp dụng nhiều kiểu khác nhau cho từng ô không?
 
 Có, bạn có thể tùy chỉnh kiểu ô bằng cách điều chỉnh định dạng phông chữ, màu nền và căn chỉnh.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

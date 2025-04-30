@@ -1,14 +1,16 @@
 ---
-title: Wstaw tabelę bezpośrednio
-linktitle: Wstaw tabelę bezpośrednio
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać tabele bezpośrednio do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby usprawnić tworzenie dokumentów.
-weight: 10
-url: /pl/net/programming-with-tables/insert-table-directly/
+"description": "Dowiedz się, jak wstawiać tabele bezpośrednio do dokumentów Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby usprawnić tworzenie dokumentów."
+"linktitle": "Wstaw tabelę bezpośrednio"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw tabelę bezpośrednio"
+"url": "/pl/net/programming-with-tables/insert-table-directly/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw tabelę bezpośrednio
@@ -20,12 +22,12 @@ Tworzenie tabel programowo może być sporym wyzwaniem, zwłaszcza w przypadku z
 
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto krótka lista kontrolna:
 
-1.  Biblioteka Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony[strona do pobrania](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Words dla .NET. Możesz ją pobrać ze strony [strona do pobrania](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 3. Podstawowa wiedza o języku C#: zrozumienie podstaw programowania w języku C#.
 4. Katalog dokumentów: Ścieżka do katalogu, w którym będziesz zapisywać swoje dokumenty.
 
-Mając te wymagania wstępne, możesz zacząć kodować!
+Mając te wymagania wstępne za sobą, możesz zacząć kodować!
 
 ## Importuj przestrzenie nazw
 
@@ -45,13 +47,13 @@ Teraz, gdy mamy już skonfigurowane przestrzenie nazw, możemy przejść do bard
 Zacznijmy od utworzenia nowego dokumentu Word. Tutaj zostanie wstawiona nasza tabela.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Ten kod inicjuje nowy dokument Word. Będziesz musiał zastąpić`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+Ten kod inicjuje nowy dokument Word. Będziesz musiał zastąpić `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Tworzenie obiektu tabeli
 
@@ -106,7 +108,7 @@ Aby przyspieszyć proces dodawania komórek, możemy klonować istniejące komó
 
 ```csharp
 // Następnie powtórzymy ten proces dla pozostałych komórek i wierszy w tabeli.
-//Możemy również przyspieszyć ten proces klonując istniejące komórki i wiersze.
+// Możemy również przyspieszyć ten proces klonując istniejące komórki i wiersze.
 row.AppendChild(cell.Clone(false));
 row.LastCell.AppendChild(new Paragraph(doc));
 row.LastCell.FirstParagraph.AppendChild(new Run(doc, "Row 1, Cell 2 Text"));
@@ -140,22 +142,27 @@ Gratulacje! Udało Ci się wstawić tabelę bezpośrednio do dokumentu Word za p
 ## Najczęściej zadawane pytania
 
 ### Jak mogę pobrać Aspose.Words dla platformy .NET?
- Aspose.Words dla .NET można pobrać ze strony[strona do pobrania](https://releases.aspose.com/words/net/).
+Aspose.Words dla .NET można pobrać ze strony [strona do pobrania](https://releases.aspose.com/words/net/).
 
 ### Czy mogę wypróbować Aspose.Words dla .NET przed zakupem?
- Tak, możesz poprosić o[bezpłatny okres próbny](https://releases.aspose.com/) aby ocenić bibliotekę przed zakupem.
+Tak, możesz poprosić o [bezpłatny okres próbny](https://releases.aspose.com/) aby ocenić bibliotekę przed zakupem.
 
 ### Jak mogę kupić Aspose.Words dla .NET?
-Aspose.Words dla .NET można kupić w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+Aspose.Words dla .NET można kupić w sklepie [strona zakupu](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/words/net/).
 
 ### Co zrobić, jeśli będę potrzebować pomocy technicznej podczas korzystania z Aspose.Words dla .NET?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

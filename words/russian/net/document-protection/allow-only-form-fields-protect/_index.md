@@ -1,14 +1,16 @@
 ---
-title: Разрешить только поля формы Защита в документе Word
-linktitle: Разрешить только поля формы Защита в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как защитить документы Word, разрешив редактирование только полей форм с помощью Aspose.Words for .NET. Следуйте нашему руководству, чтобы обеспечить безопасность и простоту редактирования ваших документов.
-weight: 10
-url: /ru/net/document-protection/allow-only-form-fields-protect/
+"description": "Узнайте, как защитить документы Word, разрешив редактирование только полей форм с помощью Aspose.Words for .NET. Следуйте нашему руководству, чтобы обеспечить безопасность и простоту редактирования ваших документов."
+"linktitle": "Разрешить только поля формы Защита в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Разрешить только поля формы Защита в документе Word"
+"url": "/ru/net/document-protection/allow-only-form-fields-protect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разрешить только поля формы Защита в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/document-protection/allow-only-form-fields-protect/
 
 Прежде чем мы перейдем к написанию кода, давайте убедимся, что у вас есть все необходимое:
 
-1.  Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Вы можете загрузить ее с сайта [здесь](https://releases.aspose.com/words/net/).
 2. Visual Studio: любая последняя версия будет работать нормально.
 3. Базовые знания C#: понимание основ поможет вам усвоить материал урока.
 
@@ -42,7 +44,7 @@ using Aspose.Words.Saving;
 ## Шаг 2: Установка Aspose.Words для .NET
 
 Установить через менеджер пакетов NuGet  
-Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений, выберите «Управление пакетами NuGet» и найдите`Aspose.Words`. Установите его.
+Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений, выберите «Управление пакетами NuGet» и найдите `Aspose.Words`. Установите его.
 
 ## Шаг 3: Инициализация документа
 
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
- Здесь мы создаем новый`Document` и`DocumentBuilder` пример.`DocumentBuilder` позволяет нам добавлять текст в наш документ.
+Здесь мы создаем новый `Document` и `DocumentBuilder` пример. `DocumentBuilder` позволяет нам добавлять текст в наш документ.
 
 ## Шаг 4: Защитите документ
 
@@ -92,10 +94,10 @@ doc.Save(dataDir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
 ## Часто задаваемые вопросы
 
 ###	 Как снять защиту с документа?  
- Чтобы снять защиту, используйте`doc.Unprotect("password")` метод, где «пароль» — пароль, используемый для защиты документа.
+Чтобы снять защиту, используйте `doc.Unprotect("password")` метод, где «пароль» — пароль, используемый для защиты документа.
 
 ###	 Могу ли я применять различные типы защиты с помощью Aspose.Words для .NET?  
- Да, Aspose.Words поддерживает различные типы защиты, такие как`ReadOnly`, `NoProtection` , и`AllowOnlyRevisions`.
+Да, Aspose.Words поддерживает различные типы защиты, такие как `ReadOnly`, `NoProtection`, и `AllowOnlyRevisions`.
 
 ###	 Можно ли использовать разные пароли для разных разделов?  
 Нет, защита на уровне документа в Aspose.Words применяется ко всему документу. Вы не можете назначать разные пароли разным разделам.
@@ -104,11 +106,16 @@ doc.Save(dataDir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
 При использовании неверного пароля документ останется защищенным, а указанные изменения не будут применены.
 
 ###	 Можно ли программно проверить, защищен ли документ?  
- Да, вы можете использовать`doc.ProtectionType` свойство для проверки статуса защиты документа.
+Да, вы можете использовать `doc.ProtectionType` свойство для проверки статуса защиты документа.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

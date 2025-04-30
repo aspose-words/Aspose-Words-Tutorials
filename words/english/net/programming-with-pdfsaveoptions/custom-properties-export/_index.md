@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/custom-properties-export/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Custom Properties in a PDF Document
@@ -95,9 +98,13 @@ Aspose.Words for .NET supports exporting to various formats, including DOCX, HTM
 For support, you can visit the [Aspose.Words support forum](https://forum.aspose.com/c/words/8) for assistance.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

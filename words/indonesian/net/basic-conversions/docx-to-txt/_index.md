@@ -1,14 +1,16 @@
 ---
-title: Konversi Docx ke Txt
-linktitle: Konversi Docx ke Txt
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Konversi DOCX ke TXT menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pelajari cara mengubah dokumen secara efisien dan mudah.
-weight: 10
-url: /id/net/basic-conversions/docx-to-txt/
+"description": "Konversi DOCX ke TXT menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pelajari cara mengubah dokumen secara efisien dan mudah."
+"linktitle": "Konversi Docx ke Txt"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Konversi Docx ke Txt"
+"url": "/id/net/basic-conversions/docx-to-txt/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Docx ke Txt
@@ -21,7 +23,7 @@ Mengonversi file DOCX ke format TXT dapat menjadi hal penting untuk berbagai apl
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Words untuk .NET: Unduh dan instal versi terbaru Aspose.Words untuk .NET dari[Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Unduh dan instal versi terbaru Aspose.Words untuk .NET dari [Halaman Rilis Aspose](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 3. Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# dan kerangka kerja .NET.
 
@@ -46,7 +48,7 @@ Sebelum masuk ke kode, pastikan proyek Anda telah disiapkan dengan benar.
 
 Selanjutnya, Anda perlu menentukan jalur ke direktori dokumen Anda. Di sinilah file DOCX Anda disimpan dan di mana file TXT yang dikonversi akan disimpan.
 
-1.  Tentukan Jalur Direktori Data: Dalam kode Anda, tentukan jalur ke direktori dokumen Anda. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
+1. Tentukan Jalur Direktori Data: Dalam kode Anda, tentukan jalur ke direktori dokumen Anda. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Sekarang, mari muat dokumen DOCX yang ingin Anda konversi.
 
-1.  Inisialisasi Dokumen: Gunakan`Document` kelas dari Aspose.Words untuk memuat berkas DOCX.
+1. Inisialisasi Dokumen: Gunakan `Document` kelas dari Aspose.Words untuk memuat berkas DOCX.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
@@ -70,7 +72,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Terakhir, simpan dokumen DOCX yang dimuat dalam format TXT.
 
-1.  Simpan Dokumen: Gunakan`Save` metode untuk mengonversi dan menyimpan dokumen sebagai berkas TXT.
+1. Simpan Dokumen: Gunakan `Save` metode untuk mengonversi dan menyimpan dokumen sebagai berkas TXT.
 
 ```csharp
 doc.Save(dataDir + "BaseConversions.DocxToTxt.txt");
@@ -90,7 +92,7 @@ Ya, Anda dapat melakukan pengulangan melalui direktori file DOCX dan mengonversi
 
 ### Bagaimana cara menangani penyandian yang berbeda saat menyimpan ke TXT?
 
-Aspose.Words untuk .NET memungkinkan Anda menentukan opsi penyandian saat menyimpan dokumen. Periksa dokumentasi untuk keterangan lebih lanjut.
+Aspose.Words untuk .NET memungkinkan Anda menentukan opsi penyandian saat menyimpan dokumen. Periksa dokumentasi untuk keterangan lebih rinci.
 
 ### Apakah mungkin untuk mempertahankan format berkas DOCX dalam berkas TXT?
 
@@ -102,12 +104,17 @@ Ya, Aspose.Words untuk .NET mendukung konversi file DOCX ke berbagai format sepe
 
 ### Di mana saya dapat menemukan lebih banyak tutorial dan dukungan untuk Aspose.Words untuk .NET?
 
- Anda dapat menemukan lebih banyak tutorial di[Dokumentasi Aspose](https://reference.aspose.com/words/net/) , dan untuk dukungan, kunjungi[Forum Aspose](https://forum.aspose.com/c/words/8).
+Anda dapat menemukan lebih banyak tutorial di [Dokumentasi Aspose](https://reference.aspose.com/words/net/), dan untuk dukungan, kunjungi [Forum Aspose](https://forum.aspose.com/c/words/8).
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

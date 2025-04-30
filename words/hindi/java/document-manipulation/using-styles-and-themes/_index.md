@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना
-linktitle: शैलियाँ और थीम का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java के साथ दस्तावेज़ स्वरूपण को बेहतर बनाने का तरीका जानें। स्रोत कोड उदाहरणों के साथ इस व्यापक गाइड में शैलियों, थीम और बहुत कुछ का अन्वेषण करें।
-weight: 20
-url: /hi/java/document-manipulation/using-styles-and-themes/
+"description": "Aspose.Words for Java के साथ दस्तावेज़ स्वरूपण को बेहतर बनाने का तरीका जानें। स्रोत कोड उदाहरणों के साथ इस व्यापक गाइड में शैलियों, थीम और बहुत कुछ का अन्वेषण करें।"
+"linktitle": "शैलियाँ और थीम का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना
@@ -25,7 +27,7 @@ url: /hi/java/document-manipulation/using-styles-and-themes/
 ```java
 Document doc = new Document();
 String styleName = "";
-//दस्तावेज़ से शैलियाँ संग्रह प्राप्त करें.
+// दस्तावेज़ से शैलियाँ संग्रह प्राप्त करें.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ for (Style style : styles)
 
 ## शैलियाँ कॉपी करना
 
- एक दस्तावेज़ से दूसरे दस्तावेज़ में शैलियों की प्रतिलिपि बनाने के लिए, आप इसका उपयोग कर सकते हैं`copyStylesFromTemplate` नीचे दिखाए अनुसार विधि:
+एक दस्तावेज़ से दूसरे दस्तावेज़ में शैलियों की प्रतिलिपि बनाने के लिए, आप इसका उपयोग कर सकते हैं `copyStylesFromTemplate` नीचे दिखाए अनुसार विधि:
 
 ```java
 @Test
@@ -86,7 +88,7 @@ public void setThemeProperties() throws Exception
 }
 ```
 
-ये स्निपेट दिखाते हैं कि थीम गुणों, जैसे फ़ॉन्ट और रंग, को कैसे पुनः प्राप्त और संशोधित किया जाए।
+ये स्निपेट यह प्रदर्शित करते हैं कि थीम गुणों, जैसे फ़ॉन्ट और रंग, को कैसे पुनः प्राप्त और संशोधित किया जाए।
 
 ## शैली विभाजक सम्मिलित करना
 
@@ -132,10 +134,15 @@ public void insertStyleSeparator() throws Exception
 
 ### मैं एक ही पैराग्राफ में शैलियों को बदलने के लिए शैली विभाजकों का उपयोग कैसे कर सकता हूँ?
 
- आप इसका उपयोग करके शैली विभाजक सम्मिलित कर सकते हैं`insertStyleSeparator` की विधि`DocumentBuilder` कक्षा।
+आप इसका उपयोग करके शैली विभाजक सम्मिलित कर सकते हैं `insertStyleSeparator` की विधि `DocumentBuilder` कक्षा।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

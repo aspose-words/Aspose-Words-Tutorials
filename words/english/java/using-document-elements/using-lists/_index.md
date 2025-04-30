@@ -7,8 +7,11 @@ weight: 18
 url: /java/using-document-elements/using-lists/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Lists in Aspose.Words for Java
@@ -242,9 +245,13 @@ Absolutely! Aspose.Words for Java supports advanced document formatting, includi
 You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

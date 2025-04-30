@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Judul dan Deskripsi Tabel
-linktitle: Tetapkan Judul dan Deskripsi Tabel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur judul dan deskripsi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk meningkatkan profesionalisme dokumen Anda.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": "Pelajari cara mengatur judul dan deskripsi tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk meningkatkan profesionalisme dokumen Anda."
+"linktitle": "Tetapkan Judul dan Deskripsi Tabel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tetapkan Judul dan Deskripsi Tabel"
+"url": "/id/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Judul dan Deskripsi Tabel
@@ -21,7 +23,7 @@ Siap untuk mempercantik dokumen Word Anda dengan menambahkan beberapa judul dan 
 
 Sebelum kita masuk ke inti permasalahan, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut daftar periksa Anda:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum memilikinya, Anda harus memilikinya. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum memilikinya, Anda harus memilikinya. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE C# lainnya.
 3. Pemahaman Dasar C#: Tidak terlalu rumit, hanya dasar-dasarnya.
 4. Contoh Dokumen Word: Kita akan bekerja dengan dokumen yang berisi tabel. Anda dapat membuat satu tabel atau menggunakan dokumen yang sudah ada.
@@ -93,16 +95,21 @@ Ya, Anda dapat mengulangi proses untuk setiap tabel yang ingin Anda perbarui.
 Mereka membantu menyediakan konteks, terutama dalam dokumen besar dengan banyak tabel.
 
 ### Apakah Aspose.Words untuk .NET gratis?
- Tidak, tapi Anda bisa memulai dengan[uji coba gratis](https://releases.aspose.com/).
+Tidak, tapi Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/).
 
 ### Bisakah saya menyesuaikan aspek lain dari tabel menggunakan Aspose.Words untuk .NET?
 Tentu saja! Anda dapat menyesuaikan hampir setiap aspek tabel dan dokumen Anda.
 
 ### Bagaimana jika saya ingin menyimpan dokumen dalam format yang berbeda?
 Aspose.Words mendukung penyimpanan dalam berbagai format seperti PDF, HTML, dan banyak lagi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

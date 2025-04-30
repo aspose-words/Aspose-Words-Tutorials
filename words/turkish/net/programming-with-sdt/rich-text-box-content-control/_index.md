@@ -1,14 +1,16 @@
 ---
-title: Zengin Metin Kutusu İçerik Denetimi
-linktitle: Zengin Metin Kutusu İçerik Denetimi
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesine Zengin Metin Kutusu İçerik Denetimi'nin nasıl ekleneceğini ve özelleştirileceğini öğrenin.
-weight: 10
-url: /tr/net/programming-with-sdt/rich-text-box-content-control/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesine Zengin Metin Kutusu İçerik Denetimi'nin nasıl ekleneceğini ve özelleştirileceğini öğrenin."
+"linktitle": "Zengin Metin Kutusu İçerik Denetimi"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Zengin Metin Kutusu İçerik Denetimi"
+"url": "/tr/net/programming-with-sdt/rich-text-box-content-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zengin Metin Kutusu İçerik Denetimi
@@ -21,7 +23,7 @@ Belge işleme dünyasında, Word belgelerinize etkileşimli öğeler ekleme yete
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklü değilse, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Henüz yüklü değilse, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Visual Studio gibi bir geliştirme ortamı, kod yazmanıza ve yürütmenize yardımcı olacaktır.
 
@@ -50,11 +52,11 @@ using System.Drawing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Belgenizi kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Belge Oluşturun
 
- Yeni bir tane oluştur`Document` Word belgenizin temelini oluşturacak nesne.
+Yeni bir tane oluştur `Document` Word belgenizin temelini oluşturacak nesne.
 
 ```csharp
 Document doc = new Document();
@@ -64,17 +66,17 @@ Bu, içeriğinizi ekleyeceğiniz boş bir Word belgesi başlatır.
 
 ## Adım 3: Zengin Metin için Yapılandırılmış Belge Etiketi Oluşturun
 
- Zengin Metin Kutusu eklemek için bir tane oluşturmanız gerekir`StructuredDocumentTag` (SDT) türü`RichText`.
+Zengin Metin Kutusu eklemek için bir tane oluşturmanız gerekir `StructuredDocumentTag` (SDT) türü `RichText`.
 
 ```csharp
 StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 ```
 
- Burada,`SdtType.RichText` SDT'nin Zengin Metin Kutusu olacağını belirtir ve`MarkupLevel.Block` Belgedeki davranışını tanımlar.
+Burada, `SdtType.RichText` SDT'nin Zengin Metin Kutusu olacağını belirtir ve `MarkupLevel.Block` Belgedeki davranışını tanımlar.
 
 ## Adım 4: Zengin Metin Kutusuna İçerik Ekleyin
 
- Bir tane oluştur`Paragraph` ve bir`Run` Zengin Metin Kutusu'nda görüntülemek istediğiniz içeriği tutmak için nesne. Metni ve biçimlendirmeyi gerektiği gibi özelleştirin.
+Bir tane oluştur `Paragraph` ve bir `Run` Zengin Metin Kutusu'nda görüntülemek istediğiniz içeriği tutmak için nesne. Metni ve biçimlendirmeyi gerektiği gibi özelleştirin.
 
 ```csharp
 Paragraph para = new Paragraph(doc);
@@ -89,7 +91,7 @@ Bu örnekte, Zengin Metin Kutusu'na yeşil yazı rengiyle "Merhaba Dünya" metni
 
 ## Adım 5: Zengin Metin Kutusunu Belgeye Ekleyin
 
- Ekle`StructuredDocumentTag` Belgenin gövdesine.
+Ekle `StructuredDocumentTag` Belgenin gövdesine.
 
 ```csharp
 doc.FirstSection.Body.AppendChild(sdtRichText);
@@ -117,20 +119,25 @@ Aspose.Words for .NET kullanarak Zengin Metin Kutusu İçerik Denetimi eklemek, 
 Yapılandırılmış Belge Etiketi (SDT), Word belgelerinde metin kutuları ve açılır listeler gibi etkileşimli öğeler eklemek için kullanılan bir tür içerik denetimidir.
 
 ### Zengin Metin Kutusunun görünümünü özelleştirebilir miyim?
- Evet, özelliklerini değiştirerek görünümü özelleştirebilirsiniz.`Run`Nesnenin yazı tipi rengi, boyutu ve stili gibi özellikleri.
+Evet, özelliklerini değiştirerek görünümü özelleştirebilirsiniz. `Run` Nesnenin yazı tipi rengi, boyutu ve stili gibi özellikleri.
 
 ### Aspose.Words ile başka hangi SDT türlerini kullanabilirim?
 Zengin Metin'in yanı sıra Aspose.Words Düz Metin, Tarih Seçici ve Açılır Liste gibi diğer SDT türlerini de destekler.
 
 ### Bir belgeye birden fazla Zengin Metin Kutusu nasıl eklerim?
- Birden fazla oluşturabilirsiniz`StructuredDocumentTag` örnekleri seçin ve bunları sırayla belgenin gövdesine ekleyin.
+Birden fazla oluşturabilirsiniz `StructuredDocumentTag` örnekleri seçin ve bunları sırayla belgenin gövdesine ekleyin.
 
 ### Mevcut belgeleri düzenlemek için Aspose.Words'ü kullanabilir miyim?
 Evet, Aspose.Words mevcut Word belgelerini açmanıza, değiştirmenize ve kaydetmenize, ayrıca SDT eklemenize veya güncellemenize olanak tanır.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

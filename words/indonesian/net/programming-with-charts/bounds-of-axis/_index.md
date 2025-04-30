@@ -1,14 +1,16 @@
 ---
-title: Batas Sumbu Dalam Bagan
-linktitle: Batas Sumbu Dalam Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menetapkan batas sumbu dalam bagan menggunakan Aspose.Words untuk .NET yang mengontrol rentang nilai yang ditampilkan pada sumbu.
-weight: 10
-url: /id/net/programming-with-charts/bounds-of-axis/
+"description": "Pelajari cara menetapkan batas sumbu dalam bagan menggunakan Aspose.Words untuk .NET yang mengontrol rentang nilai yang ditampilkan pada sumbu."
+"linktitle": "Batas Sumbu Dalam Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Batas Sumbu Dalam Bagan"
+"url": "/id/net/programming-with-charts/bounds-of-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Batas Sumbu Dalam Bagan
@@ -21,7 +23,7 @@ Apakah Anda ingin membuat dokumen profesional dengan bagan di .NET? Anda berada 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Anda dapat[Unduh](https://releases.aspose.com/words/net/) versi terbaru atau menggunakan[uji coba gratis](https://releases.aspose.com/).
+- Aspose.Words untuk .NET: Anda dapat [Unduh](https://releases.aspose.com/words/net/) versi terbaru atau menggunakan [uji coba gratis](https://releases.aspose.com/).
 - .NET Framework: Pastikan Anda telah menginstal .NET di sistem Anda.
 - IDE: Lingkungan pengembangan seperti Visual Studio.
 
@@ -106,7 +108,7 @@ Terakhir, simpan dokumen Anda ke direktori yang ditentukan.
 doc.Save(dataDir + "WorkingWithCharts.BoundsOfAxis.docx");
 ```
 
-Selesai! Anda telah berhasil membuat dokumen dengan bagan menggunakan Aspose.Words untuk .NET. 
+Selesai! Anda telah berhasil membuat dokumen dengan bagan menggunakan Aspose.Words for .NET. 
 
 ## Kesimpulan
 
@@ -118,19 +120,24 @@ Dengan menggunakan Aspose.Words untuk .NET, Anda dapat dengan mudah membuat dan 
 Aspose.Words untuk .NET adalah pustaka yang memungkinkan Anda membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram menggunakan kerangka kerja .NET.
 
 ### Bagaimana cara mengatur Aspose.Words untuk .NET?
- Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/)dan ikuti petunjuk instalasi yang disediakan.
+Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/) dan ikuti petunjuk instalasi yang disediakan.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Ya, Anda bisa menggunakan[uji coba gratis](https://releases.aspose.com/) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Ya, Anda bisa menggunakan [uji coba gratis](https://releases.aspose.com/) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Words untuk .NET?
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan.
+Anda dapat mengunjungi [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

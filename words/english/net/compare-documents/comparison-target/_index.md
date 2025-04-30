@@ -7,8 +7,11 @@ weight: 10
 url: /net/compare-documents/comparison-target/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comparison Target In Word Document
@@ -128,9 +131,13 @@ Absolutely! Aspose.Words offers a variety of options to tailor the comparison to
 You can check out the comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

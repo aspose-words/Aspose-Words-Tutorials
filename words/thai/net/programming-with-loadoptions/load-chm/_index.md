@@ -1,14 +1,16 @@
 ---
-title: โหลดไฟล์ CHM ในเอกสาร Word
-linktitle: โหลดไฟล์ CHM ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: โหลดไฟล์ CHM ลงในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการรวบรวมเอกสารทางเทคนิคของคุณ
-weight: 10
-url: /th/net/programming-with-loadoptions/load-chm/
+"description": "โหลดไฟล์ CHM ลงในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการรวบรวมเอกสารทางเทคนิคของคุณ"
+"linktitle": "โหลดไฟล์ CHM ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "โหลดไฟล์ CHM ในเอกสาร Word"
+"url": "/th/net/programming-with-loadoptions/load-chm/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โหลดไฟล์ CHM ในเอกสาร Word
@@ -20,7 +22,7 @@ url: /th/net/programming-with-loadoptions/load-chm/
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเจาะลึกขั้นตอนต่างๆ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่จำเป็นในการเริ่มต้น:
--  Aspose.Words สำหรับ .NET: คุณสามารถ[ดาวน์โหลดห้องสมุด](https://releases.aspose.com/words/net/) จากเว็บไซต์
+- Aspose.Words สำหรับ .NET: คุณสามารถ [ดาวน์โหลดห้องสมุด](https://releases.aspose.com/words/net/) จากเว็บไซต์
 - สภาพแวดล้อมการพัฒนา .NET: Visual Studio หรือ IDE อื่น ๆ ตามที่คุณเลือก
 - ไฟล์ CHM: ไฟล์ CHM ที่คุณต้องการโหลดลงในเอกสาร Word
 - ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และ .NET framework
@@ -68,7 +70,7 @@ LoadOptions loadOptions = new LoadOptions { Encoding = Encoding.GetEncoding("win
 
 เมื่อคุณกำหนดค่าตัวเลือกการโหลดของคุณแล้ว ขั้นตอนถัดไปคือโหลดไฟล์ CHM ลงในอ็อบเจ็กต์เอกสาร Aspose.Words
 
-1.  สร้างวัตถุเอกสาร: ใช้`Document` คลาสที่จะโหลดไฟล์ CHM ของคุณด้วยตัวเลือกที่ระบุ
+1. สร้างวัตถุเอกสาร: ใช้ `Document` คลาสที่จะโหลดไฟล์ CHM ของคุณด้วยตัวเลือกที่ระบุ
 
 ```csharp
 Document doc = new Document(dataDir + "HTML help.chm", loadOptions);
@@ -89,7 +91,7 @@ catch (Exception ex)
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
- เมื่อโหลดไฟล์ CHM ของคุณลงใน`Document` วัตถุคุณสามารถบันทึกเป็นเอกสาร Word ได้
+เมื่อโหลดไฟล์ CHM ของคุณลงใน `Document` วัตถุคุณสามารถบันทึกเป็นเอกสาร Word ได้
 
 1. ระบุเส้นทางผลลัพธ์: กำหนดเส้นทางที่คุณต้องการบันทึกเอกสาร Word
 
@@ -97,7 +99,7 @@ catch (Exception ex)
 string outputPath = dataDir + "LoadedCHM.docx";
 ```
 
-2.  บันทึกเอกสาร: ใช้`Save` วิธีการของ`Document` คลาสที่จะบันทึกเนื้อหา CHM ที่โหลดเป็นเอกสาร Word
+2. บันทึกเอกสาร: ใช้ `Save` วิธีการของ `Document` คลาสที่จะบันทึกเนื้อหา CHM ที่โหลดเป็นเอกสาร Word
 
 ```csharp
 doc.Save(outputPath);
@@ -115,11 +117,11 @@ doc.Save(outputPath);
 
 ### ฉันจะจัดการการเข้ารหัสที่แตกต่างกันสำหรับไฟล์ CHM ได้อย่างไร
 
- คุณสามารถระบุการเข้ารหัสโดยใช้`LoadOptions` คลาสตามที่แสดงในบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณตั้งค่าการเข้ารหัสที่ถูกต้องซึ่งตรงกับไฟล์ CHM ของคุณ
+คุณสามารถระบุการเข้ารหัสโดยใช้ `LoadOptions` คลาสตามที่แสดงในบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณตั้งค่าการเข้ารหัสที่ถูกต้องที่ตรงกับไฟล์ CHM ของคุณ
 
 ### สามารถแก้ไขเนื้อหา CHM ที่โหลดไว้ก่อนที่จะบันทึกเป็นเอกสาร Word ได้หรือไม่
 
- แน่นอน! เมื่อโหลดไฟล์ CHM ลงใน`Document` อ็อบเจ็กต์ คุณสามารถจัดการเนื้อหาได้โดยใช้ API ที่หลากหลายของ Aspose.Words
+แน่นอน! เมื่อโหลดไฟล์ CHM ลงใน `Document` อ็อบเจ็กต์ คุณสามารถจัดการเนื้อหาได้โดยใช้ API ที่หลากหลายของ Aspose.Words
 
 ### ฉันสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติสำหรับไฟล์ CHM หลายไฟล์ได้หรือไม่
 
@@ -127,11 +129,16 @@ doc.Save(outputPath);
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ไหน
 
- คุณสามารถเยี่ยมชม[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลและตัวอย่างโดยละเอียดเพิ่มเติม
+คุณสามารถเยี่ยมชม [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับข้อมูลและตัวอย่างโดยละเอียดเพิ่มเติม
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pclsaveoptions/rasterize-transformed-elements/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rasterize Transformed Elements
@@ -105,9 +108,13 @@ Ensure you have the latest version of Aspose.Words and check the documentation f
 The trial version has some limitations, such as the evaluation watermark. For a fully functional experience, consider getting a [temporary license](https://purchase.aspose.com/temporary-license/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

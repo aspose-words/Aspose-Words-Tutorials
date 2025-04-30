@@ -1,14 +1,16 @@
 ---
-title: Chèn Bộ phân cách Kiểu Tài liệu trong Word
-linktitle: Chèn Bộ phân cách Kiểu Tài liệu trong Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn dấu phân cách kiểu tài liệu trong Word bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn và mẹo để quản lý kiểu tài liệu.
-weight: 10
-url: /vi/net/programming-with-styles-and-themes/insert-style-separator/
+"description": "Tìm hiểu cách chèn dấu phân cách kiểu tài liệu trong Word bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn và mẹo để quản lý kiểu tài liệu."
+"linktitle": "Chèn Bộ phân cách Kiểu Tài liệu trong Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn Bộ phân cách Kiểu Tài liệu trong Word"
+"url": "/vi/net/programming-with-styles-and-themes/insert-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn Bộ phân cách Kiểu Tài liệu trong Word
@@ -21,13 +23,13 @@ Khi làm việc với các tài liệu Word theo chương trình sử dụng Asp
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn cần cài đặt thư viện Aspose.Words trong dự án của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang phát hành Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn cần cài đặt thư viện Aspose.Words trong dự án của mình. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang phát hành Aspose.Words cho .NET](https://releases.aspose.com/words/net/).
    
 2. Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
 
 3. Kiến thức cơ bản: Hiểu biết cơ bản về C# và cách sử dụng thư viện trong .NET sẽ rất hữu ích.
 
-4.  Tài khoản Aspose: Để được hỗ trợ, mua hoặc nhận bản dùng thử miễn phí, hãy xem[Trang mua hàng của Aspose](https://purchase.aspose.com/buy) hoặc[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Tài khoản Aspose: Để được hỗ trợ, mua hoặc nhận bản dùng thử miễn phí, hãy xem [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) hoặc [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -44,10 +46,10 @@ Các không gian tên này cung cấp quyền truy cập vào các lớp và ph�
 
 Tiêu đề: Tạo một tài liệu và trình xây dựng mới
 
- Giải thích: Bắt đầu bằng cách tạo một cái mới`Document` đối tượng và một`DocumentBuilder` Ví dụ. Các`DocumentBuilder` Lớp này cho phép bạn chèn và định dạng văn bản và các thành phần vào tài liệu.
+Giải thích: Bắt đầu bằng cách tạo một cái mới `Document` đối tượng và một `DocumentBuilder` Ví dụ. Các `DocumentBuilder` Lớp này cho phép bạn chèn và định dạng văn bản và các thành phần vào tài liệu.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY"; 
 
 Document doc = new Document();
@@ -75,7 +77,7 @@ paraStyle.Font.Name = "Arial";
 
 Tiêu đề: Thêm văn bản với kiểu "Tiêu đề 1"
 
- Giải thích: Sử dụng`DocumentBuilder` để chèn văn bản được định dạng theo kiểu "Heading 1". Bước này giúp phân tách các phần khác nhau của tài liệu một cách trực quan.
+Giải thích: Sử dụng `DocumentBuilder` để chèn văn bản được định dạng theo kiểu "Heading 1". Bước này giúp phân tách các phần khác nhau của tài liệu một cách trực quan.
 
 ```csharp
 // Thêm văn bản theo kiểu "Tiêu đề 1".
@@ -83,7 +85,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("Heading 1");
 ```
 
-Ở đây, chúng tôi thiết lập`StyleIdentifier` ĐẾN`Heading1`, áp dụng kiểu tiêu đề được xác định trước cho văn bản chúng ta sắp chèn.
+Ở đây, chúng tôi thiết lập `StyleIdentifier` ĐẾN `Heading1`, áp dụng kiểu tiêu đề được xác định trước cho văn bản chúng ta sắp chèn.
 
 ## Bước 4: Chèn một Bộ phân cách Kiểu
 
@@ -135,7 +137,7 @@ Hãy thoải mái thử nghiệm nhiều kiểu dáng và bộ tách khác nhau 
 Ký tự phân cách kiểu là một ký tự đặc biệt dùng để phân tách nội dung có kiểu khác nhau trong tài liệu Word, giúp duy trì định dạng thống nhất.
 
 ### Làm thế nào để cài đặt Aspose.Words cho .NET?
- Bạn có thể tải xuống và cài đặt Aspose.Words cho .NET từ[Trang phát hành Aspose.Words](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống và cài đặt Aspose.Words cho .NET từ [Trang phát hành Aspose.Words](https://releases.aspose.com/words/net/).
 
 ### Tôi có thể sử dụng nhiều kiểu trong một đoạn văn không?
 Không, các kiểu được áp dụng ở cấp độ đoạn văn. Sử dụng bộ phân cách kiểu để chuyển đổi các kiểu trong cùng một đoạn văn.
@@ -144,10 +146,15 @@ Không, các kiểu được áp dụng ở cấp độ đoạn văn. Sử dụn
 Đảm bảo đường dẫn tệp là chính xác và bạn có quyền ghi vào thư mục đã chỉ định. Kiểm tra bất kỳ ngoại lệ hoặc lỗi nào trong mã.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Words ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

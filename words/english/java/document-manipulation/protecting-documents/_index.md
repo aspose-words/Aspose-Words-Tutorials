@@ -7,8 +7,11 @@ weight: 22
 url: /java/document-manipulation/protecting-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protecting Documents in Aspose.Words for Java
@@ -78,9 +81,13 @@ Yes, you can protect specific sections of a document by applying protection to i
 
 Aspose.Words for Java primarily deals with Word documents, but you can convert your documents to other formats like PDF or HTML and then apply protection if needed.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

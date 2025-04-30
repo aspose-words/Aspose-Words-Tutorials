@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/set-fonts-folders/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fonts Folders
@@ -110,9 +113,13 @@ Aspose.Words supports a wide range of file formats, including DOCX, DOC, PDF, TX
 
 You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) from the Aspose website to try out the full features of Aspose.Words.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

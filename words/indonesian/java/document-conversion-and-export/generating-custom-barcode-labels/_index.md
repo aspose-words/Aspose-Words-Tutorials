@@ -1,14 +1,16 @@
 ---
-title: Membuat Label Barcode Kustom di Aspose.Words untuk Java
-linktitle: Membuat Label Barcode Kustom
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Buat Label Barcode Kustom di Aspose.Words untuk Java. Pelajari cara membuat solusi barcode yang dipersonalisasi menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
-weight: 10
-url: /id/java/document-conversion-and-export/generating-custom-barcode-labels/
+"description": "Buat Label Barcode Kustom di Aspose.Words untuk Java. Pelajari cara membuat solusi barcode yang dipersonalisasi menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini."
+"linktitle": "Membuat Label Barcode Kustom"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Membuat Label Barcode Kustom di Aspose.Words untuk Java"
+"url": "/id/java/document-conversion-and-export/generating-custom-barcode-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Label Barcode Kustom di Aspose.Words untuk Java
@@ -24,10 +26,10 @@ Kode batang sangat penting dalam aplikasi modern, baik Anda mengelola inventaris
 Sebelum kita memulai pengkodean, pastikan Anda memiliki hal berikut:
 
 - Java Development Kit (JDK): Versi 8 atau lebih tinggi.
--  Aspose.Words untuk Pustaka Java:[Unduh di sini](https://releases.aspose.com/words/java/).
--  Aspose.BarCode untuk Pustaka Java:[Unduh di sini](https://releases.aspose.com/).
+- Aspose.Words untuk Pustaka Java: [Unduh di sini](https://releases.aspose.com/words/java/).
+- Aspose.BarCode untuk Pustaka Java: [Unduh di sini](https://releases.aspose.com/).
 - Lingkungan Pengembangan Terpadu (IDE): IntelliJ IDEA, Eclipse, atau IDE apa pun yang Anda sukai.
--  Lisensi Sementara: Dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk akses tanpa batas.
+- Lisensi Sementara: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk akses tanpa batas.
 
 ## Paket Impor
 
@@ -77,11 +79,11 @@ class CustomBarcodeGeneratorUtils {
 ### Penjelasan:
 
 - `twipsToPixels` Metode: Mengubah twips (digunakan dalam dokumen Word) menjadi piksel.
-- `convertColor` Metode: Menerjemahkan kode warna heksadesimal ke`Color` objek.
+- `convertColor` Metode: Menerjemahkan kode warna heksadesimal ke `Color` objek.
 
 ## Langkah 2: Terapkan Generator Kode Batang Kustom
 
- Kami akan menerapkan`IBarcodeGenerator` antarmuka untuk menghasilkan kode batang dan mengintegrasikannya dengan Aspose.Words.
+Kami akan menerapkan `IBarcodeGenerator` antarmuka untuk menghasilkan kode batang dan mengintegrasikannya dengan Aspose.Words.
 
 ### Kode:
 
@@ -116,7 +118,7 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ### Penjelasan:
 
 - `getBarcodeImage` Metode:
-  -  Menciptakan sebuah`BarcodeGenerator` contoh.
+  - Menciptakan sebuah `BarcodeGenerator` contoh.
   - Mengatur warna kode batang, warna latar belakang, dan menghasilkan gambar.
 
 ## Langkah 3: Hasilkan Kode Batang dan Tambahkan ke Dokumen Word
@@ -171,24 +173,29 @@ Dengan mengikuti langkah-langkah ini, Anda dapat membuat dan menyematkan label k
 ## Tanya Jawab Umum
 
 1. Dapatkah saya menggunakan Aspose.Words untuk Java tanpa lisensi?
- Ya, tetapi akan ada beberapa keterbatasan. Dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fungsionalitas penuh.
+Ya, tetapi akan ada beberapa keterbatasan. Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fungsionalitas penuh.
 
 2. Jenis kode batang apa yang dapat saya buat?
-Aspose.BarCode mendukung QR, Kode 128, EAN-13, dan banyak jenis lainnya. Periksa[dokumentasi](https://reference.aspose.com/words/java/) untuk daftar lengkap.
+Aspose.BarCode mendukung QR, Kode 128, EAN-13, dan banyak jenis lainnya. Periksa [dokumentasi](https://reference.aspose.com/words/java/) untuk daftar lengkap.
 
 3. Bagaimana cara mengubah ukuran kode batang?
- Sesuaikan`XDimension` Dan`BarHeight` parameter dalam`BarcodeGenerator` pengaturan.
+Sesuaikan `XDimension` Dan `BarHeight` parameter dalam `BarcodeGenerator` pengaturan.
 
 4. Bisakah saya menggunakan font khusus untuk kode batang?
- Ya, Anda dapat menyesuaikan font teks kode batang melalui`CodeTextParameters` milik.
+Ya, Anda dapat menyesuaikan font teks kode batang melalui `CodeTextParameters` milik.
 
 5. Di mana saya bisa mendapatkan bantuan dengan Aspose.Words?
- Kunjungi[forum dukungan](https://forum.aspose.com/c/words/8/) untuk bantuan.
+Kunjungi [forum dukungan](https://forum.aspose.com/c/words/8/) untuk bantuan.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

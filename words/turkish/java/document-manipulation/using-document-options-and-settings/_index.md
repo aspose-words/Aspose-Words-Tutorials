@@ -1,20 +1,22 @@
 ---
-title: Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarını Kullanma
-linktitle: Belge Seçeneklerini ve Ayarlarını Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana Belge Seçenekleri ve Ayarları. Optimize Edin, Özelleştirin ve Daha Fazlası.
-weight: 31
-url: /tr/java/document-manipulation/using-document-options-and-settings/
+"description": "Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana Belge Seçenekleri ve Ayarları. Optimize Edin, Özelleştirin ve Daha Fazlası."
+"linktitle": "Belge Seçeneklerini ve Ayarlarını Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarını Kullanma"
+"url": "/tr/java/document-manipulation/using-document-options-and-settings/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarını Kullanma
 
 
-## Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarının Kullanımına Giriş
+## Aspose.Words for Java'da Belge Seçenekleri ve Ayarlarının Kullanımına Giriş
 
 Bu kapsamlı kılavuzda, belge seçenekleri ve ayarlarıyla çalışmak için Aspose.Words for Java'nın güçlü özelliklerini nasıl kullanacağınızı keşfedeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, belge işleme görevlerinizi geliştirmek için değerli içgörüler ve pratik örnekler bulacaksınız.
 
@@ -26,7 +28,7 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx");
 ```
 
-Belge yönetiminin önemli bir yönü, Microsoft Word'ün farklı sürümleriyle uyumluluğu sağlamaktır. Aspose.Words for Java, belirli Word sürümleri için belgeleri optimize etmenin basit bir yolunu sunar. Yukarıdaki örnekte, sorunsuz uyumluluğu garantileyerek Word 2016 için bir belgeyi optimize ediyoruz.
+Belge yönetiminin önemli bir yönü, Microsoft Word'ün farklı sürümleriyle uyumluluğu sağlamaktır. Aspose.Words for Java, belirli Word sürümleri için belgeleri optimize etmenin basit bir yolunu sunar. Yukarıdaki örnekte, Word 2016 için bir belgeyi optimize ederek sorunsuz uyumluluğu garantiliyoruz.
 
 ## Dilbilgisi ve Yazım Hatalarını Belirleme
 
@@ -140,7 +142,7 @@ Bu kılavuzda, Aspose.Words for Java'da bulunan çeşitli belge seçenekleri ve 
 
 ### Belirli bir Word sürümü için bir belgeyi nasıl optimize edebilirim?
 
- Belirli bir Word sürümü için bir belgeyi optimize etmek için şunu kullanın:`optimizeFor` yöntemini seçin ve istenen sürümü belirtin. Örneğin, Word 2016 için optimize etmek için:
+Belirli bir Word sürümü için bir belgeyi optimize etmek için şunu kullanın: `optimizeFor` yöntemini seçin ve istenen sürümü belirtin. Örneğin, Word 2016 için optimize etmek için:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -165,7 +167,7 @@ Kullanılmayan stilleri ve listeleri temizlemek, temiz ve düzenli bir belge yap
 
 ### Bir belgeden yinelenen stilleri nasıl kaldırabilirim?
 
-Bir belgeden yinelenen stilleri kaldırmak için şunu kullanın:`cleanup` yöntemle`duplicateStyle` seçenek ayarlandı`true`İşte bir örnek:
+Bir belgeden yinelenen stilleri kaldırmak için şunu kullanın: `cleanup` yöntemle `duplicateStyle` seçenek ayarlandı `true`İşte bir örnek:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,7 +179,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### Bir belgenin görüntüleme seçeneklerini nasıl özelleştirebilirim?
 
- Belge görüntüleme seçeneklerini kullanarak özelleştirebilirsiniz.`ViewOptions` sınıf. Örneğin, görünüm türünü sayfa düzeni olarak ayarlamak ve yakınlaştırmayı %50'ye çıkarmak için:
+Belge görüntüleme seçeneklerini kullanarak özelleştirebilirsiniz. `ViewOptions` sınıf. Örneğin, görünüm türünü sayfa düzeni olarak ayarlamak ve yakınlaştırmayı %50'ye çıkarmak için:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -185,9 +187,14 @@ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
 doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

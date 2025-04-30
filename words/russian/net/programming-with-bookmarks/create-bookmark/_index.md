@@ -1,14 +1,16 @@
 ---
-title: Создать закладку в документе Word
-linktitle: Создать закладку в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как создавать закладки в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для навигации и организации документов.
-weight: 10
-url: /ru/net/programming-with-bookmarks/create-bookmark/
+"description": "Узнайте, как создавать закладки в документах Word с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. Идеально подходит для навигации и организации документов."
+"linktitle": "Создать закладку в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Создать закладку в документе Word"
+"url": "/ru/net/programming-with-bookmarks/create-bookmark/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать закладку в документе Word
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-bookmarks/create-bookmark/
 
 Прежде чем начать, вам необходимо иметь следующее:
 
-1.  Библиотека Aspose.Words for .NET: загрузите и установите с[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: загрузите и установите с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Visual Studio или любая другая среда разработки .NET.
 3. Базовые знания C#: понимание основных концепций программирования на C#.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 Инициализировать документ
 
-Сначала нам нужно создать новый документ и инициализировать`DocumentBuilder`. Это отправная точка для добавления контента и закладок в ваш документ.
+Сначала нам нужно создать новый документ и инициализировать `DocumentBuilder`. Это отправная точка для добавления контента и закладок в ваш документ.
 
 ```csharp
 // Путь к каталогу документов.
@@ -47,20 +49,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Объяснение:`Document` Объект — это ваш холст.`DocumentBuilder` это как ручка, которая позволяет вам писать текст и создавать закладки в документе.
+Объяснение: `Document` Объект — это ваш холст. `DocumentBuilder` это как ручка, которая позволяет вам писать текст и создавать закладки в документе.
 
 ## Шаг 2: Создайте основную закладку
 
 Начало и конец основной закладки
 
-Для создания закладки необходимо указать начальную и конечную точки. Здесь мы создадим закладку с именем "Моя закладка".
+Чтобы создать закладку, нужно указать начальную и конечную точки. Здесь мы создадим закладку с именем "Моя закладка".
 
 ```csharp
 builder.StartBookmark("My Bookmark");
 builder.Writeln("Text inside a bookmark.");
 ```
 
- Объяснение:`StartBookmark` метод отмечает начало закладки, и`Writeln` добавляет текст в закладку.
+Объяснение: `StartBookmark` метод отмечает начало закладки, и `Writeln` добавляет текст в закладку.
 
 ## Шаг 3: Создайте вложенную закладку
 
@@ -74,7 +76,7 @@ builder.Writeln("Text inside a NestedBookmark.");
 builder.EndBookmark("Nested Bookmark");
 ```
 
- Пояснение: Вложенные закладки позволяют более структурированно и иерархически организовывать контент.`EndBookmark` метод закрывает текущую закладку.
+Пояснение: Вложенные закладки позволяют более структурированно и иерархически организовывать контент. `EndBookmark` метод закрывает текущую закладку.
 
 ## Шаг 4: Добавьте текст за пределами вложенной закладки
 
@@ -101,9 +103,9 @@ options.OutlineOptions.BookmarksOutlineLevels.Add("My Bookmark", 1);
 options.OutlineOptions.BookmarksOutlineLevels.Add("Nested Bookmark", 2);
 ```
 
- Объяснение:`PdfSaveOptions` Класс позволяет указать, как документ должен быть сохранен в формате PDF.`BookmarksOutlineLevels` Свойство определяет иерархию закладок в PDF-файле.
+Объяснение: `PdfSaveOptions` Класс позволяет указать, как документ должен быть сохранен в формате PDF. `BookmarksOutlineLevels` Свойство определяет иерархию закладок в PDF-файле.
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Сохранить документ как PDF
 
@@ -113,7 +115,7 @@ options.OutlineOptions.BookmarksOutlineLevels.Add("Nested Bookmark", 2);
 doc.Save(dataDir + "WorkingWithBookmarks.CreateBookmark.pdf", options);
 ```
 
- Объяснение:`Save` метод сохраняет документ в указанном формате и месте. PDF теперь будет включать закладки, которые мы создали.
+Объяснение: `Save` метод сохраняет документ в указанном формате и месте. PDF теперь будет включать закладки, которые мы создали.
 
 ## Заключение
 
@@ -127,22 +129,27 @@ doc.Save(dataDir + "WorkingWithBookmarks.CreateBookmark.pdf", options);
 
 ### Как обновить текст закладки?
 
- Вы можете перейти к закладке, используя`DocumentBuilder.MoveToBookmark` а затем обновите текст.
+Вы можете перейти к закладке, используя `DocumentBuilder.MoveToBookmark` а затем обновите текст.
 
 ### Можно ли удалить закладку?
 
- Да, вы можете удалить закладку с помощью`Bookmarks.Remove` метод, указав имя закладки.
+Да, вы можете удалить закладку с помощью `Bookmarks.Remove` метод, указав имя закладки.
 
 ### Могу ли я создавать закладки в других форматах, помимо PDF?
 
 Да, Aspose.Words поддерживает закладки в различных форматах, включая DOCX, HTML и EPUB.
 
-### Как обеспечить правильное отображение закладок в PDF-файле?
+### Как обеспечить корректное отображение закладок в PDF-файле?
 
- Обязательно определите`BookmarksOutlineLevels` правильно в`PdfSaveOptions`. Это гарантирует включение закладок в структуру PDF-файла.
+Обязательно определите `BookmarksOutlineLevels` правильно в `PdfSaveOptions`. Это гарантирует включение закладок в структуру PDF-файла.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

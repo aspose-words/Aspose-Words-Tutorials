@@ -1,14 +1,16 @@
 ---
-title: केवल पढ़ने का प्रतिबंध हटाएं
-linktitle: केवल पढ़ने का प्रतिबंध हटाएं
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से केवल-पढ़ने के प्रतिबंध आसानी से हटाएँ। डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/document-protection/remove-read-only-restriction/
+"description": "हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों से केवल-पढ़ने के प्रतिबंध आसानी से हटाएँ। डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "केवल पढ़ने का प्रतिबंध हटाएं"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "केवल पढ़ने का प्रतिबंध हटाएं"
+"url": "/hi/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # केवल पढ़ने का प्रतिबंध हटाएं
@@ -21,7 +23,7 @@ url: /hi/net/document-protection/remove-read-only-restriction/
 
 इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विकास वातावरण: एक .NET विकास वातावरण जैसे कि विजुअल स्टूडियो.
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की बुनियादी अवधारणाओं को समझना उपयोगी होगा।
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- इस चरण में, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है.`"YourDocument.docx"` यह उस दस्तावेज़ का नाम है जिसे आप संशोधित करना चाहते हैं.
+इस चरण में, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है. `"YourDocument.docx"` यह उस दस्तावेज़ का नाम है जिसे आप संशोधित करना चाहते हैं.
 
 ## चरण 3: पासवर्ड सेट करें (वैकल्पिक)
 
@@ -91,7 +93,7 @@ doc.Protect(ProtectionType.NoProtection);
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- इस चरण में, संशोधित दस्तावेज़ को नाम से सहेजा जाता है`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+इस चरण में, संशोधित दस्तावेज़ को नाम से सहेजा जाता है `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## निष्कर्ष
 
@@ -107,11 +109,11 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 
 ### यदि दस्तावेज़ में पहले से ही भिन्न प्रकार की सुरक्षा मौजूद है तो क्या होगा?
 
-`doc.Protect(ProtectionType.NoProtection)` यह विधि यह सुनिश्चित करती है कि दस्तावेज़ से सभी प्रकार की सुरक्षा हटा दी जाए।
+The `doc.Protect(ProtectionType.NoProtection)` यह विधि यह सुनिश्चित करती है कि दस्तावेज़ से सभी प्रकार की सुरक्षा हटा दी जाए।
 
 ### क्या प्रतिबंध हटाने से पहले यह जानने का कोई तरीका है कि कोई दस्तावेज़ केवल पढ़ने के लिए है या नहीं?
 
- हां, आप जांच कर सकते हैं`ReadOnlyRecommended` किसी भी परिवर्तन करने से पहले यह देखने के लिए कि क्या दस्तावेज़ केवल पढ़ने के लिए है, संपत्ति की अनुशंसा की जाती है।
+हां, आप जांच कर सकते हैं `ReadOnlyRecommended` किसी भी परिवर्तन करने से पहले यह देखने के लिए कि क्या दस्तावेज़ केवल पढ़ने के लिए है, संपत्ति की अनुशंसा की जाती है।
 
 ### क्या मैं एक साथ कई दस्तावेज़ों से प्रतिबंध हटाने के लिए इस विधि का उपयोग कर सकता हूँ?
 
@@ -120,9 +122,14 @@ doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ### यदि दस्तावेज़ पासवर्ड से सुरक्षित है और मुझे पासवर्ड नहीं पता तो क्या होगा?
 
 दुर्भाग्य से, किसी भी प्रतिबंध को हटाने के लिए आपको पासवर्ड जानना आवश्यक है। पासवर्ड के बिना, आप सुरक्षा सेटिंग को संशोधित नहीं कर पाएंगे।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

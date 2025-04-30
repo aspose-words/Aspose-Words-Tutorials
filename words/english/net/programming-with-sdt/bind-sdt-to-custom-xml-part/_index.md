@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-sdt/bind-sdt-to-custom-xml-part/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bind SDT to Custom Xml Part
@@ -118,9 +121,13 @@ Yes, you can bind SDTs to XML attributes by specifying the appropriate XPath exp
 ### Where can I find more documentation on Aspose.Words for .NET?
 You can find comprehensive documentation on Aspose.Words for .NET at [Aspose.Words Documentation](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Felismerés és helyettesítések a helyettesítési mintákon belül
-linktitle: Felismerés és helyettesítések a helyettesítési mintákon belül
-second_title: Aspose.Words Document Processing API
-description: Az Aspose.Words for .NET segítségével megtudhatja, hogyan lehet szöveget felismerni és helyettesíteni a helyettesítési mintákon belül. Lépésről lépésre útmutató részletes példákkal.
-weight: 10
-url: /hu/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/
+"description": "Tanulja meg, hogyan ismerheti fel és helyettesítheti be a szöveget a csere mintákon belül az Aspose.Words for .NET használatával. Lépésről lépésre útmutató részletes példákkal."
+"linktitle": "Felismerés és helyettesítések a helyettesítési mintákon belül"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Felismerés és helyettesítések a helyettesítési mintákon belül"
+"url": "/hu/net/find-and-replace-text/recognize-and-substitutions-within-replacement-patterns/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Felismerés és helyettesítések a helyettesítési mintákon belül
 
 ## Bevezetés
 
-Üdvözöljük egy izgalmas utazáson a szövegmanipuláció világába az Aspose.Words for .NET használatával! Ma megvizsgáljuk, hogyan lehet felismerni és helyettesíteni a szöveget a helyettesítési mintákon belül, ami kulcsfontosságú készség a dokumentumfeldolgozási feladatok automatizálásában és javításában. Merüljünk el!
+Üdvözlünk egy izgalmas utazáson a szövegmanipuláció világába az Aspose.Words for .NET segítségével! Ma azt vizsgáljuk meg, hogyan ismerhetjük fel és helyettesíthetjük be a szöveget a cseremintákon belül, ami kulcsfontosságú készség a dokumentumfeldolgozási feladatok automatizálásához és fejlesztéséhez. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt bepiszkítanánk a kódot, gondoskodjunk arról, hogy minden szükséges legyen:
+Mielőtt belekezdenénk a kódba, győződjünk meg róla, hogy minden szükséges dolog a rendelkezésünkre áll:
 
--  Aspose.Words for .NET: Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-- Fejlesztési környezet: Bármely IDE, például a Visual Studio megteszi.
-- C# alapismeretek: Ha ismeri a C#-ot, akkor készen áll!
+- Aspose.Words .NET-hez: Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Bármely fejlesztői környezet, például a Visual Studio megteszi.
+- C# alapismeretek: Ha ismered a C#-ot, akkor indulhatsz is!
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a projektbe. Ezt a következőképpen teheti meg:
+Kezdéshez importálnia kell a szükséges névtereket a projektjébe. Ezt így teheti meg:
 
 ```csharp
 using Aspose.Words;
@@ -35,93 +37,98 @@ using Aspose.Words.Replacing;
 using System.Text.RegularExpressions;
 ```
 
-Most bontsuk fel a példát kezelhető lépésekre. Minden lépés végigvezeti Önt a helyettesítési mintákon belüli szöveg felismerésének és helyettesítésének folyamatán az Aspose.Words for .NET használatával.
+Most bontsuk le a példát kezelhető lépésekre. Minden lépés végigvezet a szöveg felismerésének és helyettesítésének folyamatán a csere mintákon belül az Aspose.Words for .NET használatával.
 
-## 1. lépés: Inicializálja a dokumentumot
+## 1. lépés: A dokumentum inicializálása
 
-Először is létre kell hoznia egy új dokumentumot. Ez a dokumentum vászonként szolgál a szöveg cseréjéhez.
+Először is létre kell hoznod egy új dokumentumot. Ez a dokumentum fog szolgálni a vászonként a szövegcseréhez.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- A`Document` objektum az Aspose.Words magja. A teljes Word dokumentumot képviseli.
+A `Document` Az objektum az Aspose.Words magja. A teljes Word dokumentumot képviseli.
 
 ## 2. lépés: Szöveg hozzáadása a dokumentumhoz
 
-Ezután adjunk hozzá szöveget a dokumentumhoz. Ez a szöveg lesz a csereműveleteink célpontja.
+Következő lépésként adjunk hozzá szöveget a dokumentumhoz. Ez a szöveg lesz a csereműveleteink célja.
 
 ```csharp
 builder.Write("Jason give money to Paul.");
 ```
 
- A`DocumentBuilder` osztály egy hatékony eszköz szöveg és egyéb elemek hozzáadásához a dokumentumhoz.
+A `DocumentBuilder` Az osztály egy hatékony eszköz szöveg és más elemek hozzáadásához a dokumentumhoz.
 
-## 3. lépés: Határozza meg a Regex mintát
+## 3. lépés: A reguláris kifejezésminta meghatározása
 
-A cserélni kívánt szöveg felismeréséhez meg kell határoznia egy regex mintát. Ez a minta illeszkedik a dokumentum adott szövegéhez.
+A lecserélni kívánt szöveg felismeréséhez meg kell határoznia egy reguláris kifejezés mintát. Ez a minta meg fog egyezni a dokumentumban található adott szöveggel.
 
 ```csharp
 Regex regex = new Regex(@"([A-z]+) give money to ([A-z]+)");
 ```
 
- Ebben a reguláris kifejezésben`([A-z]+)` minden betűből álló szóra illeszkedik, így rugalmas a különböző nevek számára.
+Ebben a reguláris kifejezésben `([A-z]+)` bármely betűkből álló szóval megegyezik, így rugalmasan használható különféle nevek esetén.
 
-## 4. lépés: Állítsa be a cserebeállításokat
+## 4. lépés: Cserebeállítások megadása
 
-Az Aspose.Words lehetővé teszi a helyettesítések használatát a cserék során. A csere végrehajtása előtt be kell állítania ezeket a beállításokat.
+Az Aspose.Words lehetővé teszi a helyettesítések használatát a cserékben. Ezeket a beállításokat a csere végrehajtása előtt kell beállítania.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions { UseSubstitutions = true };
 ```
 
- A`FindReplaceOptions` osztály különféle lehetőségeket kínál a keresési és csereműveletek testreszabásához.
+A `FindReplaceOptions` Az osztály számos lehetőséget kínál a keresés és csere műveletek testreszabására.
 
-## 5. lépés: Hajtsa végre a cserét
+## 5. lépés: Végezze el a cserét
 
-Most végezzük el a csereműveletet. Itt történik a varázslat!
+Most pedig végezzük el a csereműveletet. Itt történik a varázslat!
 
 ```csharp
 doc.Range.Replace(regex, @"$2 take money from $1", options);
 ```
 
- Itt,`$2` és`$1` helyettesítési minták.`$2` a második elfogott csoportra utal (Pál), és`$1` az első elfogott csoportra (Jason) utal. Az eredmény a következő lesz: "Paul vegyen el pénzt Jasontól."
+Itt, `$2` és `$1` helyettesítési mintázatok. `$2` a második elfogott csoportra (Pál) utal, és `$1` az első elfogott csoportra (Jason) utal. Az eredmény a következő lesz: „Paul pénzt vesz el Jasontól.”
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: A dokumentum mentése
 
-Végül ne felejtse el menteni a dokumentumot a változások megtekintéséhez.
+Végül ne felejtsd el menteni a dokumentumot a változtatások megtekintéséhez.
 
 ```csharp
 doc.Save("Output.docx");
 ```
 
-A dokumentumot különféle formátumokban mentheti, például DOCX, PDF, HTML stb. formátumban. Az Aspose.Words erőteljes támogatást biztosít több formátumhoz.
+A dokumentumot különféle formátumokban mentheti, például DOCX, PDF, HTML stb. Az Aspose.Words robusztus támogatást nyújt több formátumhoz.
 
 ## Következtetés
 
-Gratulálok! Sikeresen megtanulta, hogyan lehet szöveget felismerni és helyettesíteni a helyettesítési mintákon belül az Aspose.Words for .NET használatával. Ezzel a hatékony funkcióval sok időt és erőfeszítést takaríthat meg a dokumentumfeldolgozási feladatok során. Legyen szó jelentések automatizálásáról, dokumentumok létrehozásáról vagy egyszerűen csak szövegkezelésről, az Aspose.Words mindent megtesz.
+Gratulálunk! Sikeresen megtanultad, hogyan ismerd fel és helyettesítsd be a szöveget a csere mintákban az Aspose.Words for .NET segítségével. Ez a hatékony funkció sok időt és energiát takaríthat meg a dokumentumfeldolgozási feladatok során. Akár jelentéseket automatizálsz, dokumentumokat generálsz, vagy egyszerűen csak szöveget kezelsz, az Aspose.Words segít neked.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár a Word dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Lehetővé teszi a dokumentumok programozott létrehozását, módosítását és konvertálását.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár, amely lehetővé teszi a Word-dokumentumok .NET-alkalmazásokban történő kezelését. Lehetővé teszi dokumentumok programozott létrehozását, módosítását és konvertálását.
 
-### Hogyan telepíthetem az Aspose.Words for .NET fájlt?
- Az Aspose.Words for .NET fájlt a[letöltési link](https://releases.aspose.com/words/net/). Kövesse a mellékelt telepítési utasításokat.
+### Hogyan telepíthetem az Aspose.Words .NET-et?
+Az Aspose.Words for .NET programot a következő helyről telepítheti: [letöltési link](https://releases.aspose.com/words/net/)Kövesse a mellékelt telepítési utasításokat.
 
-### Használhatok reguláris kifejezéseket az Aspose.Words for .NET-hez?
-Igen, az Aspose.Words támogatja a reguláris kifejezéseket a keresési és csereműveletekhez, lehetővé téve az összetett szövegkezelést.
+### Használhatok reguláris kifejezéseket az Aspose.Words for .NET-tel?
+Igen, az Aspose.Words támogatja a reguláris kifejezéseket a keresés és csere műveletekhez, lehetővé téve az összetett szövegmanipulációkat.
 
-### Mik a helyettesítési minták a regexben?
- Helyettesítési minták, pl`$1` és`$2`, hivatkozzon a rögzített csoportokra a reguláris kifejezésben. Arra használják, hogy átrendezzék vagy újra felhasználják a helyettesítő karakterláncban lévő egyező szöveg egyes részeit.
+### Mik a helyettesítési minták a reguláris kifejezésekben?
+Helyettesítési minták, mint például `$1` és `$2`, a reguláris kifejezés egyezésében rögzített csoportokra utalnak. Ezeket a talált szöveg részeinek átrendezésére vagy újrafelhasználására használják a csere karakterláncban.
 
 ### Hogyan kaphatok támogatást az Aspose.Words for .NET-hez?
- Támogatást kaphat az Aspose közösségi fórumokon[itt](https://forum.aspose.com/c/words/8).
+Támogatást kaphatsz az Aspose közösségi fórumain [itt](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

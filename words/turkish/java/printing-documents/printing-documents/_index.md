@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Belgeleri Yazdırma
-linktitle: Belgeleri Yazdırma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Java için Aspose.Words'ü kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Java uygulamalarınızda sorunsuz yazdırma için adım adım kılavuz.
-weight: 10
-url: /tr/java/printing-documents/printing-documents/
+"description": "Java için Aspose.Words'ü kullanarak belgeleri nasıl yazdıracağınızı öğrenin. Java uygulamalarınızda sorunsuz yazdırma için adım adım kılavuz."
+"linktitle": "Belgeleri Yazdırma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Belgeleri Yazdırma"
+"url": "/tr/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Belgeleri Yazdırma
@@ -29,7 +31,7 @@ Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
 ## Belgeyi Yükleme
 
- Başlamak için, yazdırmak istediğiniz Word belgesini yüklemeniz gerekir. Değiştir`"Your Document Directory"` belgenize giden yol ve`"Your Output Directory"` İstenilen çıktı dizini ile.
+Başlamak için, yazdırmak istediğiniz Word belgesini yüklemeniz gerekir. Değiştir `"Your Document Directory"` belgenize giden yol ve `"Your Output Directory"` İstenilen çıktı dizini ile.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <özet>
     /// Özel PrintDocument sınıfının oluşturucusu.
-    // / </özet>
+    /// </özet> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Öznitelik kümesinde tanımlanan sayfa başlangıç ve bitiş dizinleri.
+        // Öznitelik kümesinde tanımlanan sayfa başlangıç ve bitiş dizinleri.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,7 +134,7 @@ class MultipagePrintDocument implements Printable
                 // Yararlı dönüş değeri, sayfanın işlendiği ölçektir.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Sayfa kenarlıklarını çizin (sayfa küçük resmi küçük resimden daha küçük olabilir)
+                // Sayfa kenarlıklarını çizin (sayfa küçük resmi küçük resimden daha küçük olabilir)
                 // yer tutucu boyutu).
                 if (mPrintPageBorders) {
                     // Sayfanın gerçek %100 boyutunu puan olarak alın.
@@ -194,11 +196,11 @@ Tebrikler! Java için Aspose.Words kullanarak bir Word belgesini başarıyla yaz
 
 ### S1: Aspose.Words for Java kullanarak bir belgenin belirli sayfalarını yazdırabilir miyim?
 
- Evet, bir belgeyi yazdırırken sayfa aralığını belirtebilirsiniz. Kod örneğinde, şunu kullandık:`attributes.add(new PageRanges(1, doc.getPageCount()))`tüm sayfaları yazdırmak için. Sayfa aralığını ihtiyacınıza göre ayarlayabilirsiniz.
+Evet, bir belgeyi yazdırırken sayfa aralığını belirtebilirsiniz. Kod örneğinde, şunu kullandık: `attributes.add(new PageRanges(1, doc.getPageCount()))` tüm sayfaları yazdırmak için. Sayfa aralığını ihtiyacınıza göre ayarlayabilirsiniz.
 
 ### S2: Aspose.Words for Java toplu yazdırma için uygun mudur?
 
-Kesinlikle! Java için Aspose.Words toplu yazdırma görevleri için oldukça uygundur. Benzer kod kullanarak bir belge listesinde gezinebilir ve bunları tek tek yazdırabilirsiniz.
+Kesinlikle! Aspose.Words for Java toplu yazdırma görevleri için oldukça uygundur. Benzer kod kullanarak bir belge listesinde gezinebilir ve bunları tek tek yazdırabilirsiniz.
 
 ### S3: Baskı hatalarını veya istisnaları nasıl işleyebilirim?
 
@@ -210,14 +212,19 @@ Evet, yazdırma ayarlarını özel gereksinimlerinizi karşılayacak şekilde ö
 
 ### S5: Aspose.Words for Java için daha fazla yardım ve desteği nereden alabilirim?
 
- Ek destek ve yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Words for Java forumu](https://forum.aspose.com/).
+Ek destek ve yardım için şu adresi ziyaret edebilirsiniz: [Aspose.Words for Java forumu](https://forum.aspose.com/).
 
 ---
 
 Artık Aspose.Words for Java kullanarak belgeleri nasıl yazdıracağınızı başarıyla öğrendiğinize göre, bu işlevselliği Java uygulamalarınızda uygulamaya başlayabilirsiniz. İyi kodlamalar!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

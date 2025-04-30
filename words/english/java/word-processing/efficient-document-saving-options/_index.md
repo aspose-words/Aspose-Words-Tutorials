@@ -7,8 +7,11 @@ weight: 12
 url: /java/word-processing/efficient-document-saving-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Efficient Document Saving with DOC, HTML, and Image Options
@@ -100,9 +103,13 @@ You can customize various formatting options by using the corresponding save opt
 For detailed documentation and code examples, visit the Aspose.Words for Java documentation: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

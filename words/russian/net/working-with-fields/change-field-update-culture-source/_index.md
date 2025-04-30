@@ -1,14 +1,16 @@
 ---
-title: Изменить поле Обновить источник культуры
-linktitle: Изменить поле Обновить источник культуры
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как изменить источник культуры обновления поля в Aspose.Words для .NET с помощью этого руководства. Легко управляйте форматированием даты на основе различных культур.
-weight: 10
-url: /ru/net/working-with-fields/change-field-update-culture-source/
+"description": "Узнайте, как изменить источник культуры обновления поля в Aspose.Words для .NET с помощью этого руководства. Легко управляйте форматированием даты на основе различных культур."
+"linktitle": "Изменить поле Обновить источник культуры"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Изменить поле Обновить источник культуры"
+"url": "/ru/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменить поле Обновить источник культуры
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fields/change-field-update-culture-source/
 
 Прежде чем приступить к коду, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: любая совместимая с .NET IDE (например, Visual Studio).
 - Базовые знания C#: это руководство предполагает, что у вас есть фундаментальные знания программирования на C#.
 
@@ -39,7 +41,7 @@ using Aspose.Words.Fields;
 
 ## Шаг 1: Инициализация документа
 
- Первый шаг — создать новый экземпляр`Document` класс и а`DocumentBuilder`. Это закладывает основу для создания и обработки нашего документа Word.
+Первый шаг — создать новый экземпляр `Document` класс и а `DocumentBuilder`. Это закладывает основу для создания и обработки нашего документа Word.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## Шаг 3: Установка источника культуры обновления поля
 
- Для управления культурой, используемой при обновлении полей, мы устанавливаем`FieldUpdateCultureSource` собственность`FieldOptions`class. Это свойство определяет, берется ли культура из кода поля или документа.
+Для управления культурой, используемой при обновлении полей, мы устанавливаем `FieldUpdateCultureSource` собственность `FieldOptions` class. Это свойство определяет, берется ли культура из кода поля или документа.
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ doc.Save(dataDir + "WorkingWithFields.ChangeFieldUpdateCultureSource.docx");
 
 ## Часто задаваемые вопросы
 
-###  Какова цель установления`LocaleId`?
- The`LocaleId` определяет параметры языка и региональных параметров для текста, которые влияют на форматирование дат и других данных, зависящих от локали.
+### Какова цель установления `LocaleId`?
+The `LocaleId` определяет параметры языка и региональных параметров для текста, которые влияют на форматирование дат и других данных, зависящих от локали.
 
 ### Могу ли я использовать другую локаль, кроме немецкой?
- Да, вы можете установить`LocaleId`на любой допустимый идентификатор локали. Например, 1033 для английского языка (США).
+Да, вы можете установить `LocaleId` на любой допустимый идентификатор локали. Например, 1033 для английского языка (США).
 
-###  Что произойдет, если я не установлю`FieldUpdateCultureSource` property?
+### Что произойдет, если я не установлю `FieldUpdateCultureSource` свойство?
 Если это свойство не задано, при обновлении полей будут использоваться настройки языка и региональных параметров документа по умолчанию.
 
 ### Можно ли обновлять поля на основе региональных параметров документа, а не кода поля?
- Да, вы можете установить`FieldUpdateCultureSource` к`FieldUpdateCultureSource.Document` использовать настройки языка и региональных параметров документа.
+Да, вы можете установить `FieldUpdateCultureSource` к `FieldUpdateCultureSource.Document` использовать настройки языка и региональных параметров документа.
 
 ### Как отформатировать даты по другому шаблону?
- Вы можете изменить шаблон формата даты в`InsertField` метод путем модификации`\\@` переключить значение.
+Вы можете изменить шаблон формата даты в `InsertField` метод путем модификации `\\@` переключить значение.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

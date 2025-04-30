@@ -1,14 +1,16 @@
 ---
-title: ใช้รูปแบบย่อหน้าในเอกสาร Word
-linktitle: ใช้รูปแบบย่อหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีใช้รูปแบบย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างเอกสารที่สวยงามและเป็นมืออาชีพ
-weight: 10
-url: /th/net/document-formatting/apply-paragraph-style/
+"description": "เรียนรู้วิธีใช้รูปแบบย่อหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างเอกสารที่สวยงามและเป็นมืออาชีพ"
+"linktitle": "ใช้รูปแบบย่อหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ใช้รูปแบบย่อหน้าในเอกสาร Word"
+"url": "/th/net/document-formatting/apply-paragraph-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ใช้รูปแบบย่อหน้าในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/document-formatting/apply-paragraph-style/
 
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่จำเป็น นี่คือรายการตรวจสอบอย่างรวดเร็ว:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ดาวน์โหลด คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: คุณจะต้องมีสภาพแวดล้อมการพัฒนา C# เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# เพียงเล็กน้อยก็จะเป็นประโยชน์มาก
 4. ไดเรกทอรีเอกสาร: มีโฟลเดอร์ที่กำหนดไว้ซึ่งคุณสามารถบันทึกเอกสาร Word ของคุณได้
@@ -46,18 +48,18 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังโฟลเดอร์เอกสารของคุณ นี่คือที่ที่เอกสาร Word ที่คุณกำหนดรูปแบบจะถูกบันทึกไว้
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางไปยังโฟลเดอร์เอกสารของคุณ นี่คือที่ที่เอกสาร Word ที่คุณกำหนดรูปแบบจะถูกบันทึกไว้
 
 ## ขั้นตอนที่ 2: การสร้างเอกสารใหม่
 
-ตอนนี้เรามาสร้างเอกสารใหม่กัน ซึ่งก็เหมือนกับการเปิดเอกสารเปล่าขึ้นมา
+ตอนนี้เรามาสร้างเอกสารใหม่กัน เหมือนกับการเปิดเอกสารเปล่าขึ้นมา
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- ที่นี่เราได้สร้างใหม่`Document` วัตถุและก`DocumentBuilder` วัตถุที่จะช่วยเราสร้างเอกสารของเรา
+ที่นี่เราได้สร้างใหม่ `Document` วัตถุและก `DocumentBuilder` วัตถุที่จะช่วยเราสร้างเอกสารของเรา
 
 ## ขั้นตอนที่ 3: การใช้รูปแบบย่อหน้า
 
@@ -68,7 +70,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;
 builder.Write("Hello");
 ```
 
-ในสคริปท์นี้:
+ในข้อความสั้นๆ นี้:
 - `builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Title;` กำหนดรูปแบบของย่อหน้าเป็น "ชื่อเรื่อง"
 - `builder.Write("Hello");` เขียนข้อความ "สวัสดี" ลงในย่อหน้าที่จัดรูปแบบ
 
@@ -92,13 +94,13 @@ doc.Save(dataDir + "DocumentFormatting.ApplyParagraphStyle.docx");
 
 แน่นอน! คุณสามารถใช้รูปแบบต่างๆ กับย่อหน้าต่างๆ เพื่อให้เหมาะกับความต้องการของคุณได้
 
-### หากฉันต้องการใช้รูปแบบที่กำหนดเองจะทำอย่างไร?
+### จะเกิดอะไรขึ้นหากฉันต้องการใช้รูปแบบที่กำหนดเอง?
 
 คุณสามารถสร้างรูปแบบที่กำหนดเองได้ใน Aspose.Words และนำไปใช้เช่นเดียวกับรูปแบบที่มีอยู่แล้วภายใน
 
 ### ฉันจะทราบได้อย่างไรว่ามีตัวระบุสไตล์ใดบ้างที่พร้อมใช้งาน
 
- คุณสามารถดูรายการตัวระบุรูปแบบทั้งหมดได้ในเอกสาร Aspose.Words[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถดูรายการตัวระบุรูปแบบทั้งหมดได้ในเอกสาร Aspose.Words [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ร่วมกับภาษา .NET อื่นๆ ได้หรือไม่
 
@@ -106,11 +108,16 @@ doc.Save(dataDir + "DocumentFormatting.ApplyParagraphStyle.docx");
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่
 
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Làm chủ các trường biểu mẫu và thu thập dữ liệu trong tài liệu Word
-linktitle: Làm chủ các trường biểu mẫu và thu thập dữ liệu trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Nắm vững nghệ thuật tạo và quản lý các trường biểu mẫu trong tài liệu Word với Aspose.Words cho Python. Học cách thu thập dữ liệu hiệu quả và tăng cường sự tương tác của người dùng.
-weight: 15
-url: /vi/python-net/document-structure-and-content-manipulation/document-form-fields/
+"description": "Nắm vững nghệ thuật tạo và quản lý các trường biểu mẫu trong tài liệu Word với Aspose.Words cho Python. Học cách thu thập dữ liệu hiệu quả và tăng cường sự tương tác của người dùng."
+"linktitle": "Làm chủ các trường biểu mẫu và thu thập dữ liệu trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Làm chủ các trường biểu mẫu và thu thập dữ liệu trong tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-form-fields/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm chủ các trường biểu mẫu và thu thập dữ liệu trong tài liệu Word
@@ -46,7 +48,7 @@ Trường biểu mẫu là thành phần thiết yếu của tài liệu tương
 Các trường nhập văn bản cho phép người dùng nhập văn bản. Để tạo một trường nhập văn bản, hãy sử dụng đoạn mã sau:
 
 ```python
-# Create a new text input form field
+# Tạo một trường nhập văn bản mới
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
@@ -55,12 +57,12 @@ text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 1
 Hộp kiểm và nút radio được sử dụng cho các lựa chọn nhiều lựa chọn. Sau đây là cách bạn có thể tạo chúng:
 
 ```python
-# Create a checkbox form field
+# Tạo một trường biểu mẫu hộp kiểm
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 ```python
-# Create a radio button form field
+# Tạo một trường biểu mẫu nút radio
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
@@ -69,7 +71,7 @@ radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 
 Danh sách thả xuống cung cấp nhiều lựa chọn cho người dùng. Tạo một danh sách như thế này:
 
 ```python
-# Create a drop-down list form field
+# Tạo một trường biểu mẫu danh sách thả xuống
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
@@ -78,7 +80,7 @@ drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100,
 Bộ chọn ngày cho phép người dùng chọn ngày một cách thuận tiện. Sau đây là cách tạo một bộ chọn ngày:
 
 ```python
-# Create a date picker form field
+# Tạo trường biểu mẫu chọn ngày
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
@@ -88,7 +90,7 @@ Mỗi trường biểu mẫu có nhiều thuộc tính khác nhau có thể tùy
 
 ### Thiết lập tên trường
 
-Tên trường cung cấp một mã định danh duy nhất cho mỗi trường biểu mẫu, giúp quản lý dữ liệu đã thu thập dễ dàng hơn. Đặt tên trường bằng cách sử dụng`Name` tài sản:
+Tên trường cung cấp một mã định danh duy nhất cho mỗi trường biểu mẫu, giúp quản lý dữ liệu đã thu thập dễ dàng hơn. Đặt tên trường bằng cách sử dụng `Name` tài sản:
 
 ```python
 text_input_field.name = "full_name"
@@ -99,7 +101,7 @@ date_picker.name = "birth_date"
 
 ### Thêm Văn bản Giữ chỗ
 
- Văn bản giữ chỗ trong các trường nhập văn bản hướng dẫn người dùng về định dạng đầu vào mong đợi. Sử dụng`PlaceholderText` thuộc tính để thêm chỗ giữ chỗ:
+Văn bản giữ chỗ trong các trường nhập văn bản hướng dẫn người dùng về định dạng đầu vào mong đợi. Sử dụng `PlaceholderText` thuộc tính để thêm chỗ giữ chỗ:
 
 ```python
 text_input_field.placeholder_text = "Enter your full name"
@@ -127,20 +129,20 @@ Như chúng ta đã thấy, có nhiều loại trường biểu mẫu khác nhau
 Các trường nhập văn bản rất linh hoạt và thường được sử dụng để thu thập thông tin văn bản. Chúng có thể được sử dụng để thu thập tên, địa chỉ, bình luận, v.v. Việc tạo một trường nhập văn bản bao gồm việc chỉ định vị trí và kích thước của trường, như được hiển thị trong đoạn mã dưới đây:
 
 ```python
-# Create a new text input form field
+# Tạo một trường nhập văn bản mới
 text_input_field = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_TEXT, 100, 100, 200, 20)
 ```
 
 Sau khi trường được tạo, bạn có thể thiết lập các thuộc tính của trường, chẳng hạn như tên, giá trị mặc định và văn bản giữ chỗ. Hãy xem cách thực hiện:
 
 ```python
-# Set the name of the text input field
+# Đặt tên cho trường nhập văn bản
 text_input_field.name = "full_name"
 
-# Set a default value for the field
+# Đặt giá trị mặc định cho trường
 text_input_field.text = "John Doe"
 
-# Add placeholder text to guide users
+# Thêm văn bản giữ chỗ để hướng dẫn người dùng
 text_input_field.placeholder_text = "Enter your full name"
 ```
 
@@ -155,28 +157,28 @@ Hộp kiểm và nút radio lý tưởng cho các tình huống yêu cầu lựa
  đoạn mã sau:
 
 ```python
-# Create a checkbox form field
+# Tạo một trường biểu mẫu hộp kiểm
 checkbox = aw.drawing.Shape(doc, aw.drawing.ShapeType.CHECK_BOX, 100, 150, 15, 15)
 ```
 
 Đối với các nút radio, bạn có thể tạo chúng bằng cách sử dụng kiểu hình dạng OLE_OBJECT:
 
 ```python
-# Create a radio button form field
+# Tạo một trường biểu mẫu nút radio
 radio_button = aw.drawing.Shape(doc, aw.drawing.ShapeType.OLE_OBJECT, 100, 200, 15, 15)
 ```
 
 Sau khi tạo các trường này, bạn có thể tùy chỉnh các thuộc tính của chúng, chẳng hạn như tên, lựa chọn mặc định và văn bản nhãn:
 
 ```python
-# Set the name of the checkbox and radio button
+# Đặt tên cho hộp kiểm và nút radio
 checkbox.name = "subscribe_newsletter"
 radio_button.name = "gender_selection"
 
-# Set the default selection for the checkbox
+# Đặt lựa chọn mặc định cho hộp kiểm
 checkbox.checked = True
 
-# Add label text to the checkbox and radio button
+# Thêm văn bản nhãn vào hộp kiểm và nút radio
 checkbox.text = "Subscribe to newsletter"
 radio_button.text = "Male"
 ```
@@ -188,24 +190,24 @@ Hộp kiểm và nút radio cung cấp cho người dùng phương pháp tương
 Danh sách thả xuống hữu ích cho các tình huống mà người dùng cần chọn một tùy chọn từ danh sách được xác định trước. Chúng thường được sử dụng để chọn quốc gia, tiểu bang hoặc danh mục. Hãy cùng khám phá cách tạo và tùy chỉnh danh sách thả xuống:
 
 ```python
-# Create a drop-down list form field
+# Tạo một trường biểu mẫu danh sách thả xuống
 drop_down = aw.drawing.Shape(doc, aw.drawing.ShapeType.COMBO_BOX, 100, 250, 100, 20)
 ```
 
 Sau khi tạo danh sách thả xuống, bạn có thể chỉ định danh sách các tùy chọn có sẵn cho người dùng:
 
 ```python
-# Set the name of the drop-down list
+# Đặt tên cho danh sách thả xuống
 drop_down.name = "country_selection"
 
-# Provide a list of options for the drop-down list
+# Cung cấp danh sách các tùy chọn cho danh sách thả xuống
 drop_down.list_entries = ["USA", "Canada", "UK", "Australia", "Germany"]
 ```
 
 Ngoài ra, bạn có thể thiết lập lựa chọn mặc định cho danh sách thả xuống:
 
 ```python
-# Set the default selection for the drop-down list
+# Đặt lựa chọn mặc định cho danh sách thả xuống
 drop_down.text = "USA"
 ```
 
@@ -216,17 +218,17 @@ Danh sách thả xuống hợp lý hóa quy trình chọn tùy chọn từ một
 Bộ chọn ngày đơn giản hóa quá trình thu thập ngày từ người dùng. Chúng cung cấp giao diện thân thiện với người dùng để chọn ngày, giảm khả năng xảy ra lỗi nhập liệu. Để tạo trường biểu mẫu bộ chọn ngày, hãy sử dụng mã sau:
 
 ```python
-# Create a date picker form field
+# Tạo trường biểu mẫu chọn ngày
 date_picker = aw.drawing.Shape(doc, aw.drawing.ShapeType.TEXT_INPUT_DATE, 100, 300, 100, 20)
 ```
 
 Sau khi tạo bộ chọn ngày, bạn có thể thiết lập các thuộc tính của nó, chẳng hạn như tên và ngày mặc định:
 
 ```python
-# Set the name of the date picker
+# Đặt tên cho bộ chọn ngày
 date_picker.name = "birth_date"
 
-# Set the default date for the date picker
+# Đặt ngày mặc định cho bộ chọn ngày
 date_picker.text = "2023-08-31"
 ```
 
@@ -248,7 +250,7 @@ pip install aspose-words
 
 ### Tôi có thể đặt giá trị mặc định cho các trường biểu mẫu không?
 
- Có, bạn có thể đặt giá trị mặc định cho các trường biểu mẫu bằng cách sử dụng các thuộc tính thích hợp. Ví dụ, để đặt văn bản mặc định cho trường nhập văn bản, hãy sử dụng`text` tài sản.
+Có, bạn có thể đặt giá trị mặc định cho các trường biểu mẫu bằng cách sử dụng các thuộc tính thích hợp. Ví dụ, để đặt văn bản mặc định cho trường nhập văn bản, hãy sử dụng `text` tài sản.
 
 ### Người dùng khuyết tật có thể truy cập các trường biểu mẫu không?
 
@@ -257,9 +259,14 @@ Hoàn toàn đúng. Khi thiết kế biểu mẫu, hãy cân nhắc các nguyên
 ### Tôi có thể xuất dữ liệu đã thu thập sang cơ sở dữ liệu bên ngoài không?
 
 Có, bạn có thể trích xuất dữ liệu theo chương trình từ các trường biểu mẫu và tích hợp nó với cơ sở dữ liệu bên ngoài hoặc các hệ thống khác. Điều này cho phép truyền và xử lý dữ liệu liền mạch.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

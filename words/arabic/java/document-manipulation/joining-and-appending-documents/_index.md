@@ -1,14 +1,16 @@
 ---
-title: ربط المستندات وإضافتها في Aspose.Words لـ Java
-linktitle: ربط المستندات وإضافتها
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية ضم المستندات وإضافتها بسهولة باستخدام Aspose.Words for Java. حافظ على التنسيق، وأدر رؤوس الصفحات وتذييلاتها، والمزيد.
-weight: 30
-url: /ar/java/document-manipulation/joining-and-appending-documents/
+"description": "تعلّم كيفية ضمّ المستندات وإضافتها بسهولة باستخدام Aspose.Words لجافا. حافظ على التنسيق، وأدر رؤوس الصفحات وتذييلاتها، والمزيد."
+"linktitle": "ربط المستندات وإضافتها"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "ربط المستندات وإضافتها في Aspose.Words لـ Java"
+"url": "/ar/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ربط المستندات وإضافتها في Aspose.Words لـ Java
@@ -16,7 +18,7 @@ url: /ar/java/document-manipulation/joining-and-appending-documents/
 
 ## مقدمة حول ربط المستندات وإضافتها في Aspose.Words لـ Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية ضم المستندات وإضافتها باستخدام مكتبة Aspose.Words for Java. ستتعلم كيفية دمج مستندات متعددة بسلاسة مع الحفاظ على التنسيق والبنية.
+في هذا البرنامج التعليمي، سنستكشف كيفية ضمّ المستندات وإضافتها باستخدام مكتبة Aspose.Words لجافا. ستتعلم كيفية دمج مستندات متعددة بسلاسة مع الحفاظ على التنسيق والهيكلية.
 
 ## المتطلبات الأساسية
 
@@ -55,7 +57,7 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // تحويل عدد من الحقول
+convertNumPageFieldsToPageRef(dstDoc); // تحويل حقول NUMPAGES
 dstDoc.updatePageLayout(); // تحديث تخطيط الصفحة لترقيمها بشكل صحيح
 ```
 
@@ -75,7 +77,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## سلوكيات ذكية
+## أسلوب السلوك الذكي
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## خاتمة
 
-يوفر Aspose.Words for Java أدوات مرنة وقوية لضم المستندات وإضافتها، سواء كنت بحاجة إلى الحفاظ على التنسيق أو التعامل مع إعدادات الصفحات المختلفة أو إدارة الرؤوس والتذييلات. جرّب هذه التقنيات لتلبية احتياجات معالجة المستندات الخاصة بك.
+يوفر Aspose.Words لجافا أدوات مرنة وفعّالة لضمّ المستندات وإضافتها، سواءً كنتَ بحاجة إلى الحفاظ على التنسيق، أو التعامل مع إعدادات الصفحات المختلفة، أو إدارة الرؤوس والتذييلات. جرّب هذه التقنيات لتلبية احتياجاتك الخاصة في معالجة المستندات.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني دمج المستندات ذات الأنماط المختلفة بسلاسة؟
+### كيف يمكنني ربط المستندات ذات الأنماط المختلفة بسلاسة؟
 
- لربط المستندات ذات الأنماط المختلفة، استخدم`ImportFormatMode.USE_DESTINATION_STYLES` عند الإلحاق.
+لربط المستندات ذات الأنماط المختلفة، استخدم `ImportFormatMode.USE_DESTINATION_STYLES` عند الإلحاق.
 
 ### هل يمكنني الحفاظ على ترقيم الصفحات عند إضافة المستندات؟
 
- نعم، يمكنك الحفاظ على ترقيم الصفحات باستخدام`convertNumPageFieldsToPageRef` الطريقة وتحديث تخطيط الصفحة.
+نعم، يمكنك الحفاظ على ترقيم الصفحات باستخدام `convertNumPageFieldsToPageRef` الطريقة وتحديث تخطيط الصفحة.
 
 ### ما هو أسلوب السلوك الذكي؟
 
- يساعد سلوك النمط الذكي في الحفاظ على الأنماط المتسقة عند إضافة المستندات. استخدمه مع`ImportFormatOptions` للحصول على نتائج أفضل.
+يساعد "سلوك النمط الذكي" على الحفاظ على اتساق الأنماط عند إضافة المستندات. استخدمه مع `ImportFormatOptions` للحصول على نتائج أفضل.
 
 ### كيف يمكنني التعامل مع مربعات النص عند إضافة المستندات؟
 
-تعيين`importFormatOptions.setIgnoreTextBoxes(false)` لتضمين مربعات النص أثناء الإلحاق.
+تعيين `importFormatOptions.setIgnoreTextBoxes(false)` لتضمين مربعات النص أثناء الإلحاق.
 
 ### ماذا لو أردت ربط/إلغاء ربط الرؤوس والتذييلات بين المستندات؟
 
- يمكنك ربط الرؤوس والتذييلات بـ`linkToPrevious(true)` أو افصلهم عن`linkToPrevious(false)` حسب الحاجة.
+يمكنك ربط الرؤوس والتذييلات بـ `linkToPrevious(true)` أو قم بفك ارتباطهم بـ `linkToPrevious(false)` حسب الحاجة.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

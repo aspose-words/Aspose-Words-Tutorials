@@ -1,14 +1,16 @@
 ---
-title: Sembunyikan Sumbu Bagan Dalam Dokumen Word
-linktitle: Sembunyikan Sumbu Bagan Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyembunyikan sumbu bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/programming-with-charts/hide-chart-axis/
+"description": "Pelajari cara menyembunyikan sumbu bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah terperinci kami."
+"linktitle": "Sembunyikan Sumbu Bagan Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sembunyikan Sumbu Bagan Dalam Dokumen Word"
+"url": "/id/net/programming-with-charts/hide-chart-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sembunyikan Sumbu Bagan Dalam Dokumen Word
@@ -21,7 +23,7 @@ Membuat dokumen Word yang dinamis dan menarik secara visual sering kali melibatk
 
 Sebelum kita masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Setiap IDE yang mendukung pengembangan .NET, seperti Visual Studio.
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda.
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# akan bermanfaat.
@@ -50,18 +52,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pada langkah ini, kita tentukan jalur penyimpanan dokumen. Kemudian kita buat jalur baru`Document` objek dan sebuah`DocumentBuilder` objek untuk mulai membangun dokumen kita.
+Pada langkah ini, kita tentukan jalur penyimpanan dokumen. Kemudian kita buat jalur baru `Document` objek dan sebuah `DocumentBuilder` objek untuk mulai membangun dokumen kita.
 
 ## Langkah 2: Masukkan Bagan
 
- Selanjutnya kita akan memasukkan grafik ke dalam dokumen menggunakan`DocumentBuilder` obyek.
+Selanjutnya kita akan memasukkan grafik ke dalam dokumen menggunakan `DocumentBuilder` obyek.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
- Di sini, kami menyisipkan bagan kolom dengan dimensi yang ditentukan.`InsertChart` metode mengembalikan`Shape` objek yang berisi bagan.
+Di sini, kami menyisipkan bagan kolom dengan dimensi yang ditentukan. `InsertChart` metode mengembalikan `Shape` objek yang berisi bagan.
 
 ## Langkah 3: Hapus Seri yang Ada
 
@@ -87,7 +89,7 @@ Pada langkah ini, kami menambahkan seri berjudul "Aspose Series 1" dengan katego
 
 ## Langkah 5: Sembunyikan Sumbu Y
 
- Untuk menyembunyikan sumbu Y pada grafik, kita cukup mengatur`Hidden` properti sumbu Y ke`true`.
+Untuk menyembunyikan sumbu Y pada grafik, kita cukup mengatur `Hidden` properti sumbu Y ke `true`.
 
 ```csharp
 chart.AxisY.Hidden = true;
@@ -115,20 +117,25 @@ Selamat! Anda telah berhasil mempelajari cara menyembunyikan sumbu grafik dalam 
 Aspose.Words untuk .NET adalah API yang hebat untuk membuat, mengedit, mengonversi, dan memanipulasi dokumen Word dalam aplikasi .NET.
 
 ### Bisakah saya menyembunyikan sumbu X dan Y dalam bagan?
- Ya, Anda dapat menyembunyikan kedua sumbu dengan mengatur`Hidden` milik keduanya`AxisX` Dan`AxisY` ke`true`.
+Ya, Anda dapat menyembunyikan kedua sumbu dengan mengatur `Hidden` milik keduanya `AxisX` Dan `AxisY` ke `true`.
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Words untuk .NET?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi terperinci di Aspose.Words untuk .NET[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi terperinci di Aspose.Words untuk .NET [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

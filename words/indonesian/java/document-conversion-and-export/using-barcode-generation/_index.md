@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Pembuatan Kode Batang di Aspose.Words untuk Java
-linktitle: Menggunakan Pembuatan Kode Batang
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara membuat kode batang khusus di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pembuatan kode batang. Tingkatkan otomatisasi dokumen dengan Aspose.Words.
-weight: 11
-url: /id/java/document-conversion-and-export/using-barcode-generation/
+"description": "Pelajari cara membuat kode batang khusus di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pembuatan kode batang. Tingkatkan otomatisasi dokumen dengan Aspose.Words."
+"linktitle": "Menggunakan Pembuatan Kode Batang"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Pembuatan Kode Batang di Aspose.Words untuk Java"
+"url": "/id/java/document-conversion-and-export/using-barcode-generation/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Pembuatan Kode Batang di Aspose.Words untuk Java
@@ -23,7 +25,7 @@ Dalam bidang pemrosesan dan otomatisasi dokumen, Aspose.Words untuk Java merupak
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
--  Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/java/).
+- Aspose.Words untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
 
 ## Impor Kelas yang Diperlukan
 
@@ -36,7 +38,7 @@ import com.aspose.words.FieldOptions;
 
 ## Membuat Objek Dokumen
 
- Inisialisasi a`Document` objek dengan memuat dokumen Word yang sudah ada yang berisi bidang kode batang. Ganti`"Field sample - BARCODE.docx"` dengan jalur ke dokumen Word Anda:
+Inisialisasi a `Document` objek dengan memuat dokumen Word yang sudah ada yang berisi bidang kode batang. Ganti `"Field sample - BARCODE.docx"` dengan jalur ke dokumen Word Anda:
 
 ```java
 Document doc = new Document("Field sample - BARCODE.docx");
@@ -44,7 +46,7 @@ Document doc = new Document("Field sample - BARCODE.docx");
 
 ## Atur Generator Kode Batang
 
- Tetapkan generator kode batang khusus menggunakan`FieldOptions` kelas. Dalam contoh ini, kami berasumsi Anda telah menerapkan`CustomBarcodeGenerator`kelas untuk menghasilkan kode batang. Ganti`CustomBarcodeGenerator` dengan logika pembuatan kode batang Anda yang sebenarnya:
+Tetapkan generator kode batang khusus menggunakan `FieldOptions` kelas. Dalam contoh ini, kami berasumsi Anda telah menerapkan `CustomBarcodeGenerator` kelas untuk menghasilkan kode batang. Ganti `CustomBarcodeGenerator` dengan logika pembuatan kode batang Anda yang sebenarnya:
 
 ```java
 doc.getFieldOptions().setBarcodeGenerator(new CustomBarcodeGenerator());
@@ -52,7 +54,7 @@ doc.getFieldOptions().setBarcodeGenerator(new CustomBarcodeGenerator());
 
 ## Simpan Dokumen sebagai PDF
 
- Terakhir, simpan dokumen yang dimodifikasi sebagai PDF atau dalam format yang Anda inginkan. Ganti`"WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf"` dengan jalur file keluaran yang Anda inginkan:
+Terakhir, simpan dokumen yang dimodifikasi sebagai PDF atau dalam format yang Anda inginkan. Ganti `"WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf"` dengan jalur file keluaran yang Anda inginkan:
 
 ```java
 doc.save("WorkingWithBarcodeGenerator.GenerateACustomBarCodeImage.pdf");
@@ -74,7 +76,7 @@ Selamat! Anda telah berhasil mempelajari cara membuat gambar kode batang khusus 
 
 ### Bagaimana saya dapat menyesuaikan tampilan kode batang yang dihasilkan?
 
- Anda dapat menyesuaikan tampilan kode batang dengan mengubah pengaturan`CustomBarcodeGenerator` kelas. Sesuaikan parameter seperti jenis, ukuran, dan warna kode batang agar sesuai dengan kebutuhan Anda.
+Anda dapat menyesuaikan tampilan kode batang dengan mengubah pengaturan `CustomBarcodeGenerator` kelas. Sesuaikan parameter seperti jenis, ukuran, dan warna kode batang agar sesuai dengan kebutuhan Anda.
 
 ### Bisakah saya membuat kode batang dari data teks?
 
@@ -90,10 +92,15 @@ Ya, Aspose.Words untuk Java memerlukan lisensi yang valid untuk penggunaan komer
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
- Untuk dokumentasi yang lengkap dan contoh kode lainnya, kunjungi[Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+Untuk dokumentasi yang lengkap dan contoh kode lainnya, kunjungi [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

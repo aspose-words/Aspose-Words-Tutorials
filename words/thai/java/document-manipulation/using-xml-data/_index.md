@@ -1,14 +1,16 @@
 ---
-title: การใช้ข้อมูล XML ใน Aspose.Words สำหรับ Java
-linktitle: การใช้ข้อมูล XML
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: ปลดล็อกพลังของ Aspose.Words สำหรับ Java เรียนรู้การจัดการข้อมูล XML การผสานจดหมาย และไวยากรณ์ Mustache ด้วยบทช่วยสอนทีละขั้นตอน
-weight: 12
-url: /th/java/document-manipulation/using-xml-data/
+"description": "ปลดล็อกพลังของ Aspose.Words สำหรับ Java เรียนรู้การจัดการข้อมูล XML การผสานจดหมาย และไวยากรณ์ Mustache ด้วยบทช่วยสอนทีละขั้นตอน"
+"linktitle": "การใช้ข้อมูล XML"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การใช้ข้อมูล XML ใน Aspose.Words สำหรับ Java"
+"url": "/th/java/document-manipulation/using-xml-data/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ข้อมูล XML ใน Aspose.Words สำหรับ Java
@@ -77,14 +79,19 @@ doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 
 ### ฉันสามารถปรับแต่งพฤติกรรมการตัดแต่งค่าจดหมายผสานได้หรือไม่
 
- ใช่ คุณสามารถควบคุมว่าช่องว่างด้านหน้าและด้านหลังจะถูกตัดออกระหว่างการผสานจดหมายหรือไม่โดยใช้`doc.getMailMerge().setTrimWhitespaces(false)`.
+ใช่ คุณสามารถควบคุมว่าช่องว่างด้านหน้าและด้านหลังจะถูกตัดออกระหว่างการผสานจดหมายหรือไม่โดยใช้ `doc-getMailMerge().setTrimWhitespaces(false)`.
 
 ### Mustache syntax คืออะไร และฉันควรใช้เมื่อใด?
 
- รูปแบบ Mustache ช่วยให้คุณจัดรูปแบบเขตข้อมูลจดหมายเวียนได้อย่างยืดหยุ่นยิ่งขึ้น ใช้`doc.getMailMerge().setUseNonMergeFields(true)` เพื่อเปิดใช้งานรูปแบบ Mustache
+รูปแบบ Mustache ช่วยให้คุณจัดรูปแบบเขตข้อมูลจดหมายเวียนได้อย่างยืดหยุ่นยิ่งขึ้น ใช้ `doc.getMailMerge().setUseNonMergeFields(true)` เพื่อเปิดใช้งานรูปแบบ Mustache
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

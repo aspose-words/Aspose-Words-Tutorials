@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-shapes/detect-smart-art-shape/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect Smart Art Shape
@@ -110,9 +113,13 @@ You can get support by visiting the [Aspose support forum](https://forum.aspose.
 
 Yes, Aspose.Words allows you to manipulate SmartArt shapes programmatically. Check the [documentation](https://reference.aspose.com/words/net/) for detailed instructions.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

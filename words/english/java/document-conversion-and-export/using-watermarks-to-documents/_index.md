@@ -7,8 +7,11 @@ weight: 15
 url: /java/document-conversion-and-export/using-watermarks-to-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Watermarks to Documents in Aspose.Words for Java
@@ -133,9 +136,13 @@ To make a watermark semi-transparent, set the `setSemitransparent` property to `
 
 Yes, you can add watermarks to specific sections of a document by iterating through the sections and adding the watermark to the desired sections.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

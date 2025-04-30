@@ -1,14 +1,16 @@
 ---
-title: Игнорировать текст внутри полей
-linktitle: Игнорировать текст внутри полей
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как манипулировать текстом внутри полей в документах Word с помощью Aspose.Words для .NET. Это руководство содержит пошаговые инструкции с практическими примерами.
-weight: 10
-url: /ru/net/find-and-replace-text/ignore-text-inside-fields/
+"description": "Узнайте, как манипулировать текстом внутри полей в документах Word с помощью Aspose.Words для .NET. Это руководство содержит пошаговые инструкции с практическими примерами."
+"linktitle": "Игнорировать текст внутри полей"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Игнорировать текст внутри полей"
+"url": "/ru/net/find-and-replace-text/ignore-text-inside-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Игнорировать текст внутри полей
@@ -37,7 +39,7 @@ using System.Text.RegularExpressions;
 
 ## Шаг 1: Создайте новый документ и конструктор
 
- Сначала инициализируйте новый документ Word и`DocumentBuilder` Цель: облегчить составление документа:
+Сначала инициализируйте новый документ Word и `DocumentBuilder` Цель: облегчить составление документа:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,14 +47,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Шаг 2: Вставьте поле с текстом
 
- Используйте`InsertField` метод`DocumentBuilder` чтобы добавить поле, содержащее текст:
+Используйте `InsertField` метод `DocumentBuilder` чтобы добавить поле, содержащее текст:
 ```csharp
 builder.InsertField("INCLUDETEXT", "Text in field");
 ```
 
 ## Шаг 3: Игнорируйте текст внутри полей
 
- Чтобы манипулировать текстом, игнорируя содержимое полей, используйте`FindReplaceOptions` с`IgnoreFields` свойство установлено в`true`:
+Чтобы манипулировать текстом, игнорируя содержимое полей, используйте `FindReplaceOptions` с `IgnoreFields` свойство установлено в `true`:
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFields = true };
 ```
@@ -74,7 +76,7 @@ Console.WriteLine(doc.GetText());
 
 ## Шаг 6: Добавьте текст в поля
 
- Для обработки текста внутри полей сбросьте`IgnoreFields`собственность`false` и снова выполните операцию замены:
+Для обработки текста внутри полей сбросьте `IgnoreFields` собственность `false` и снова выполните операцию замены:
 ```csharp
 options.IgnoreFields = false;
 doc.Range.Replace(regex, "*", options);
@@ -82,7 +84,7 @@ doc.Range.Replace(regex, "*", options);
 
 ## Заключение
 
-В этом уроке мы изучили, как манипулировать текстом внутри полей в документах Word с помощью Aspose.Words для .NET. Эта возможность необходима для сценариев, где содержимое полей требует специальной обработки при программной обработке документов.
+В этом уроке мы изучили, как манипулировать текстом внутри полей в документах Word с помощью Aspose.Words for .NET. Эта возможность необходима для сценариев, где содержимое полей требует специальной обработки при программной обработке документов.
 
 ## Часто задаваемые вопросы
 
@@ -96,13 +98,18 @@ doc.Range.Replace(regex, "*", options);
 Да, Aspose.Words поддерживает .NET Core, обеспечивая кроссплатформенную совместимость для ваших нужд автоматизации документооборота.
 
 ### Где я могу найти больше примеров и ресурсов для Aspose.Words?
- Посещать[Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения подробных руководств, справочников по API и примеров кода.
+Посещать [Документация Aspose.Words](https://reference.aspose.com/words/net/) для получения подробных руководств, справочников по API и примеров кода.
 
 ### Как я могу получить техническую поддержку по Aspose.Words?
- Для получения технической помощи посетите[Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) где вы можете размещать свои вопросы и взаимодействовать с сообществом.
+Для получения технической помощи посетите [Форум поддержки Aspose.Words](https://forum.aspose.com/c/words/8) где вы можете размещать свои вопросы и взаимодействовать с сообществом.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

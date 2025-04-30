@@ -1,14 +1,16 @@
 ---
-title: Pclsaveoptions के साथ शब्द प्रसंस्करण
-linktitle: Pclsaveoptions के साथ शब्द प्रसंस्करण
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: Aspose.Words for .NET में PCL सेव विकल्पों के साथ वर्ड प्रोसेसिंग का अन्वेषण करें। चरण-दर-चरण ट्यूटोरियल और कोड उदाहरणों के साथ PCL प्रारूप में Word दस्तावेज़ों को सहेजने में हेरफेर और कस्टमाइज़ करना सीखें।
-weight: 1670
-url: /hi/net/programming-with-pclsaveoptions/
+"description": "Aspose.Words for .NET में PCL सेव विकल्पों के साथ वर्ड प्रोसेसिंग का अन्वेषण करें। चरण-दर-चरण ट्यूटोरियल और कोड उदाहरणों के साथ PCL प्रारूप में Word दस्तावेज़ों को सहेजने में हेरफेर और कस्टमाइज़ करना सीखें।"
+"linktitle": "Pclsaveoptions के साथ शब्द प्रसंस्करण"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Pclsaveoptions के साथ शब्द प्रसंस्करण"
+"url": "/hi/net/programming-with-pclsaveoptions/"
+"weight": 1670
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pclsaveoptions के साथ शब्द प्रसंस्करण
@@ -21,9 +23,14 @@ Aspose.Words for .NET ट्यूटोरियल आपको .NET वात
 | शीर्षक | विवरण |
 | --- | --- |
 | [रूपांतरित तत्वों को रास्टराइज़ करें](./rasterize-transformed-elements/) | Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों को PCL प्रारूप में परिवर्तित करते समय परिवर्तित तत्वों को रास्टराइज़ करना सीखें। चरण-दर-चरण मार्गदर्शिका शामिल है। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

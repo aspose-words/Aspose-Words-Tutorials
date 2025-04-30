@@ -1,14 +1,16 @@
 ---
-title: Peringatan Render Pdf
-linktitle: Peringatan Render Pdf
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menangani peringatan render PDF di Aspose.Words untuk .NET. Panduan terperinci ini memastikan dokumen Anda diproses dan disimpan dengan benar.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/pdf-render-warnings/
+"description": "Pelajari cara menangani peringatan render PDF di Aspose.Words untuk .NET. Panduan terperinci ini memastikan dokumen Anda diproses dan disimpan dengan benar."
+"linktitle": "Peringatan Render Pdf"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Peringatan Render Pdf"
+"url": "/id/net/programming-with-pdfsaveoptions/pdf-render-warnings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Peringatan Render Pdf
@@ -22,9 +24,9 @@ Jika Anda bekerja dengan Aspose.Words untuk .NET, mengelola peringatan render PD
 Sebelum memulai tutorial, pastikan Anda memiliki hal berikut:
 
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C#.
--  Aspose.Words untuk .NET: Unduh dan instal dari[tautan unduhan](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal dari [tautan unduhan](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Pengaturan seperti Visual Studio untuk menulis dan menjalankan kode Anda.
--  Contoh Dokumen: Miliki contoh dokumen (misalnya,`WMF with image.docx`) siap untuk diuji.
+- Contoh Dokumen: Miliki contoh dokumen (misalnya, `WMF with image.docx`) siap untuk diuji.
 
 ## Mengimpor Ruang Nama
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen
 
- Muat dokumen Anda ke Aspose.Words`Document` objek. Langkah ini memungkinkan Anda untuk bekerja dengan dokumen secara terprogram.
+Muat dokumen Anda ke Aspose.Words `Document` objek. Langkah ini memungkinkan Anda untuk bekerja dengan dokumen secara terprogram.
 
 ```csharp
 Document doc = new Document(dataDir + "WMF with image.docx");
@@ -79,7 +81,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 
 ## Langkah 5: Terapkan Panggilan Balik Peringatan
 
- Buat kelas yang mengimplementasikan`IWarningCallback` antarmuka untuk menangani peringatan apa pun yang dihasilkan selama pemrosesan dokumen.
+Buat kelas yang mengimplementasikan `IWarningCallback` antarmuka untuk menangani peringatan apa pun yang dihasilkan selama pemrosesan dokumen.
 
 ```csharp
 public class HandleDocumentWarnings : IWarningCallback
@@ -132,11 +134,11 @@ Dengan mengikuti langkah-langkah ini, Anda dapat menangani peringatan render PDF
 
 ### Q1: Dapatkah saya menangani jenis peringatan lain dengan metode ini?
 
- Ya, itu`IWarningCallback` Antarmuka dapat menangani berbagai jenis peringatan, tidak hanya yang terkait dengan rendering PDF.
+Ya, itu `IWarningCallback` Antarmuka dapat menangani berbagai jenis peringatan, tidak hanya yang terkait dengan rendering PDF.
 
 ### Q2: Di mana saya dapat mengunduh uji coba gratis Aspose.Words untuk .NET?
 
- Anda dapat mengunduh uji coba gratis dari[Halaman uji coba gratis Aspose](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis dari [Halaman uji coba gratis Aspose](https://releases.aspose.com/).
 
 ### Q3: Apa itu MetafileRenderingOptions?
 
@@ -144,14 +146,19 @@ MetafileRenderingOptions adalah pengaturan yang menentukan bagaimana metafile (s
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.Words?
 
- Kunjungi[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan.
+Kunjungi [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8) untuk bantuan.
 
 ### Q5: Apakah mungkin untuk mendapatkan lisensi sementara untuk Aspose.Words?
 
- Ya, Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat memperoleh lisensi sementara dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

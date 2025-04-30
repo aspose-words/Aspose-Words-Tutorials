@@ -1,14 +1,16 @@
 ---
-title: Sử dụng dấu gạch nối trong Aspose.Words cho Java
-linktitle: Sử dụng dấu gạch nối
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách sử dụng ngắt dòng hiệu quả trong Aspose.Words for Java với hướng dẫn toàn diện này. Nâng cao khả năng đọc tài liệu ngay hôm nay!
-weight: 17
-url: /vi/java/using-document-elements/using-hyphenation/
+"description": "Tìm hiểu cách sử dụng ngắt dòng hiệu quả trong Aspose.Words for Java với hướng dẫn toàn diện này. Nâng cao khả năng đọc tài liệu ngay hôm nay!"
+"linktitle": "Sử dụng dấu gạch nối"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng dấu gạch nối trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-hyphenation/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng dấu gạch nối trong Aspose.Words cho Java
@@ -30,7 +32,7 @@ Trước khi chúng ta đi sâu vào việc sử dụng dấu gạch nối trong
 
 ## 3. Đăng ký từ điển ngắt dòng
 
-Aspose.Words cho phép bạn đăng ký từ điển ngắt dòng cho các ngôn ngữ khác nhau. Bước này rất cần thiết để đảm bảo các quy tắc ngắt dòng được áp dụng đúng. Sau đây là cách bạn có thể thực hiện:
+Aspose.Words cho phép bạn đăng ký từ điển ngắt dòng cho nhiều ngôn ngữ khác nhau. Bước này rất cần thiết để đảm bảo các quy tắc ngắt dòng được áp dụng đúng. Sau đây là cách bạn có thể thực hiện:
 
 ```java
 Document doc = new Document(dataDir + "German text.docx");
@@ -78,14 +80,19 @@ Có, Aspose.Words for Java cung cấp API thân thiện với người dùng, gi
 
 ### 4. Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Words for Java ở đâu?
 
- Bạn có thể ghé thăm[Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/) để biết thông tin chi tiết. Để được hỗ trợ và thảo luận, hãy xem[Diễn đàn Aspose.Words](https://forum.aspose.com/).
+Bạn có thể ghé thăm [Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/) để biết thông tin chi tiết. Để được hỗ trợ và thảo luận, hãy xem [Diễn đàn Aspose.Words](https://forum.aspose.com/).
 
 ### 5. Làm thế nào tôi có thể truy cập vào Aspose.Words cho Java?
 
- Để có quyền truy cập vào Aspose.Words cho Java,[nhấp vào đây](https://purchase.aspose.com/buy). Trải nghiệm sức mạnh của xử lý tài liệu trong ứng dụng Java của bạn!
+Để có quyền truy cập vào Aspose.Words cho Java, [nhấp vào đây](https://purchase.aspose.com/buy). Trải nghiệm sức mạnh của xử lý tài liệu trong ứng dụng Java của bạn!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

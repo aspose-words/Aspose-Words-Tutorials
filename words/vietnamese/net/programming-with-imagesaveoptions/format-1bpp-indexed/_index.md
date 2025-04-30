@@ -1,14 +1,16 @@
 ---
-title: Định dạng 1Bpp được lập chỉ mục
-linktitle: Định dạng 1Bpp được lập chỉ mục
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi tài liệu Word thành hình ảnh được lập chỉ mục 1Bpp bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi dễ dàng.
-weight: 10
-url: /vi/net/programming-with-imagesaveoptions/format-1bpp-indexed/
+"description": "Tìm hiểu cách chuyển đổi tài liệu Word thành hình ảnh được lập chỉ mục 1Bpp bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi dễ dàng."
+"linktitle": "Định dạng 1Bpp được lập chỉ mục"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Định dạng 1Bpp được lập chỉ mục"
+"url": "/vi/net/programming-with-imagesaveoptions/format-1bpp-indexed/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng 1Bpp được lập chỉ mục
@@ -21,9 +23,9 @@ Bạn đã bao giờ tự hỏi làm thế nào để lưu một tài liệu Wor
 
 Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số thứ sau:
 
--  Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển .NET: Visual Studio là một lựa chọn tốt, nhưng bạn có thể sử dụng bất kỳ môi trường nào bạn thấy thoải mái.
-- Kiến thức cơ bản về C#: Đừng lo, chúng tôi sẽ giải thích một cách đơn giản, nhưng bạn cần có một chút quen thuộc với C#.
+- Kiến thức cơ bản về C#: Đừng lo, chúng tôi sẽ giải thích một cách đơn giản, nhưng bạn cần có một chút hiểu biết về C#.
 - Một tài liệu Word: Chuẩn bị một tài liệu Word mẫu để chuyển đổi.
 
 ## Nhập không gian tên
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Bước 2: Tải tài liệu Word
 
- Bây giờ, hãy tải tài liệu Word vào Aspose.Words`Document` đối tượng. Đối tượng này đại diện cho tệp Word của bạn và cho phép bạn thao tác trên đó.
+Bây giờ, hãy tải tài liệu Word vào Aspose.Words `Document` đối tượng. Đối tượng này đại diện cho tệp Word của bạn và cho phép bạn thao tác trên đó.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Bước 3: Cấu hình tùy chọn lưu hình ảnh
 
- Tiếp theo, chúng ta cần thiết lập`ImageSaveOptions`Đây là nơi phép thuật xảy ra. Chúng ta sẽ cấu hình nó để lưu hình ảnh ở định dạng PNG với chế độ màu được lập chỉ mục 1Bpp.
+Tiếp theo, chúng ta cần thiết lập `ImageSaveOptions`. Đây là nơi phép thuật xảy ra. Chúng ta sẽ cấu hình nó để lưu hình ảnh ở định dạng PNG với chế độ màu được lập chỉ mục 1Bpp.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -72,7 +74,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 
 ## Bước 4: Lưu tài liệu dưới dạng hình ảnh
 
- Cuối cùng, chúng tôi lưu tài liệu dưới dạng hình ảnh bằng cách sử dụng`Save` phương pháp của`Document` sự vật.
+Cuối cùng, chúng tôi lưu tài liệu dưới dạng hình ảnh bằng cách sử dụng `Save` phương pháp của `Document` sự vật.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOptions);
@@ -88,20 +90,25 @@ Và bạn đã có nó! Chỉ với một vài dòng mã, bạn đã chuyển đ
 Hình ảnh được lập chỉ mục 1Bpp (1 Bit cho mỗi Pixel) là định dạng hình ảnh đen trắng trong đó mỗi pixel được biểu diễn bằng một bit duy nhất, hoặc 0 hoặc 1. Định dạng này có hiệu quả cao về mặt không gian.
 
 ### Tôi có thể chuyển đổi nhiều trang của một tài liệu Word cùng một lúc không?
- Có, bạn có thể. Sửa đổi`PageSet` tài sản trong`ImageSaveOptions` để bao gồm nhiều trang hoặc toàn bộ tài liệu.
+Có, bạn có thể. Sửa đổi `PageSet` tài sản trong `ImageSaveOptions` để bao gồm nhiều trang hoặc toàn bộ tài liệu.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose.Words cho .NET yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể chuyển đổi tài liệu Word của mình sang những định dạng hình ảnh nào khác?
- Aspose.Words hỗ trợ nhiều định dạng hình ảnh bao gồm JPEG, BMP và TIFF. Chỉ cần thay đổi`SaveFormat` trong`ImageSaveOptions`.
+Aspose.Words hỗ trợ nhiều định dạng hình ảnh bao gồm JPEG, BMP và TIFF. Chỉ cần thay đổi `SaveFormat` trong `ImageSaveOptions`.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu chi tiết về [Trang tài liệu Aspose.Words cho .NET](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

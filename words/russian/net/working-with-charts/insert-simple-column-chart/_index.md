@@ -1,52 +1,60 @@
 ---
-title: Вставьте простую графу столбцов в Word с использованием Aspose.Words для .NET
-weight: 7700
-limit: 
-description: Узнайте, как вставить простую графу столбцов в документ Word с помощью Aspose.Words для .NET. Следуйте инструкциям по шагу, чтобы создать и настроить свою графу.
-keywords: [Aspose.Words for .NET, insert column chart, create Word chart, .NET Word chart example, Word document chart, Aspose chart example]
-url: /ru/net/working-with-charts/insert-simple-column-chart/
+"description": "Узнайте, как вставить простую столбчатую диаграмму в документ Word с помощью Aspose.Words для .NET. Следуйте пошаговым инструкциям, чтобы создать и настроить диаграмму."
+"title": "Вставьте простую столбчатую диаграмму в Word с помощью Aspose.Words для .NET"
+"url": "/ru/net/working-with-charts/insert-simple-column-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Вставьте в слово простой графика колонки с помощью Aspose.Words
+# Вставьте простую столбчатую диаграмму в Word с помощью Aspose.Words
 
-Aspose.Words для .NET позволяет легко создавать профессиональные документы Word с богатым содержанием. В этом учебном пособии вы узнаете, как вставлять простую графу столбцов в документ Word программируемым образом. Мы будем охватывать каждый шаг, от инициализации документа до настройки серии графов и сохранения файла.  
+Aspose.Words for .NET позволяет без усилий создавать профессиональные документы Word с богатым содержанием. В этом руководстве вы узнаете, как вставить простую столбчатую диаграмму в документ Word программным способом. Мы рассмотрим каждый шаг, от инициализации документа до настройки серии диаграмм и сохранения файла. Независимо от того, создаете ли вы отчеты или визуализируете данные, это руководство содержит все необходимые сведения для освоения вставки диаграмм с помощью Aspose.Words for .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-simple-column-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
-Чтобы использовать этот пример, убедитесь, что у вас установлена Aspose.Words для .NET. Следуйте этим шагам:  
+## Инструкция по установке  
+Чтобы использовать этот пример, убедитесь, что у вас установлен Aspose.Words for .NET. Выполните следующие шаги:  
 
-1. Скачать Aspose.Words для .NET:  
-   Посещение[Aspose.Words для .NET Скачать](https://releases.aspose.com/words/net/)и загрузить последнюю версию.  
+1. Загрузите Aspose.Words для .NET:  
+   Посещать [Aspose.Words для .NET Скачать](https://releases.aspose.com/words/net/) и скачайте последнюю версию.  
 
-2. Установите библиотеку:  
-   * Добавьте пакет NuGet Aspose.Words к проекту.  
+2. Установить библиотеку:  
+   - Добавьте пакет Aspose.Words NuGet в свой проект. Выполните следующую команду в консоли диспетчера пакетов NuGet:  
      ```sh
      Install-Package Aspose.Words
      ```  
-   * В качестве альтернативы, добавьте `.dll`файлы к вашим ссылкам на проект вручную.  
+   - В качестве альтернативы можно добавить `.dll` файлы в ссылки вашего проекта вручную.  
 
 3. Получить лицензию:  
-   * Получить лицензию от [Покупать](https://purchase.aspose.com/buy)или запросить бесплатный пробный процесс у [Старайтесь быть свободным](https://releases.aspose.com/)\- Я не знаю .  
+   - Получить лицензию от [Покупка Aspose](https://purchase.aspose.com/buy) или запросите бесплатную пробную версию у [Бесплатная пробная версия Aspose](https://releases.aspose.com/).  
 
-4. Заявление на лицензию:  
-   Добавьте следующий код к проекту для активации лицензии:  
+4. Применить лицензию:  
+   Добавьте следующий код в свой проект для активации лицензии:  
    ```csharp
    License license = new License();
    license.SetLicense("path-to-your-license-file.lic");
    ```  
 
-## См. также
-[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
+## Также см.
+[Документация Aspose.Word для .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для .NET Ссылки](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gömülü Yazı Tiplerini Devre Dışı Bırakarak PDF Boyutunu Küçültün
-linktitle: Gömülü Yazı Tiplerini Devre Dışı Bırakarak PDF Boyutunu Küçültün
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak gömülü yazı tiplerini devre dışı bırakarak PDF boyutunu küçültün. Belgelerinizi verimli depolama ve paylaşım için optimize etmek üzere adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Aspose.Words for .NET kullanarak gömülü yazı tiplerini devre dışı bırakarak PDF boyutunu küçültün. Belgelerinizi verimli depolama ve paylaşım için optimize etmek üzere adım adım kılavuzumuzu izleyin."
+"linktitle": "Gömülü Yazı Tiplerini Devre Dışı Bırakarak PDF Boyutunu Küçültün"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Gömülü Yazı Tiplerini Devre Dışı Bırakarak PDF Boyutunu Küçültün"
+"url": "/tr/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gömülü Yazı Tiplerini Devre Dışı Bırakarak PDF Boyutunu Küçültün
@@ -21,7 +23,7 @@ PDF dosyalarının boyutunu küçültmek, verimli depolama ve hızlı paylaşım
 
 Koda dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
--  Aspose.Words for .NET: Eğer henüz yapmadıysanız, şu adresten indirip kurun:[İndirme bağlantısı](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz yapmadıysanız, şu adresten indirip kurun: [İndirme bağlantısı](https://releases.aspose.com/words/net/).
 - .NET Geliştirme Ortamı: Visual Studio popüler bir seçimdir.
 - Örnek Bir Word Belgesi: PDF'e dönüştürmek istediğiniz bir DOCX dosyanız hazır olsun.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Burada,`dataDir` belgenizin bulunduğu dizin için bir yer tutucudur. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
+Burada, `dataDir` belgenizin bulunduğu dizin için bir yer tutucudur. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek yol ile.
 
 ## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırın
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Ayarlayarak`FontEmbeddingMode` ile`EmbedNone`, Aspose.Words'e bu yazı tiplerini PDF'e eklememesini talimatlandırıyoruz, böylece dosya boyutu küçülüyor.
+Ayarlayarak `FontEmbeddingMode` ile `EmbedNone`, Aspose.Words'e bu yazı tiplerini PDF'e eklememesini talimatlandırıyoruz, böylece dosya boyutu küçülüyor.
 
 ## Adım 3: Belgeyi PDF olarak kaydedin
 
@@ -70,7 +72,7 @@ Son olarak, yapılandırılmış kaydetme seçeneklerini kullanarak belgeyi PDF 
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolunuzla bir kez daha. Çıktı PDF'i artık gömülü standart yazı tipleri olmadan belirtilen dizine kaydedilecektir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` gerçek dizin yolunuzla bir kez daha. Çıktı PDF'i artık gömülü standart yazı tipleri olmadan belirtilen dizine kaydedilecektir.
 
 ## Çözüm
 
@@ -91,11 +93,16 @@ Evet, Aspose.Words for .NET, hangi yazı tiplerinin yerleştirileceğini özelle
 Evet, Aspose.Words for .NET, PDF'lerdeki yazı tipi yerleştirme seçeneklerini yapılandırmak için gereken işlevselliği sağlar.
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Ziyaret edebilirsiniz[Destek forumu](https://forum.aspose.com/c/words/8) Karşılaştığınız herhangi bir sorunda yardım için.
+Ziyaret edebilirsiniz [Destek forumu](https://forum.aspose.com/c/words/8) Karşılaştığınız herhangi bir sorunda yardım için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

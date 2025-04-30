@@ -1,14 +1,16 @@
 ---
-title: Проверьте текстовый эффект DrawingML
-linktitle: Проверьте текстовый эффект DrawingML
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как проверить текстовые эффекты DrawingML в документах Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Улучшайте свои документы с легкостью.
-weight: 10
-url: /ru/net/working-with-fonts/check-drawingml-text-effect/
+"description": "Узнайте, как проверить текстовые эффекты DrawingML в документах Word с помощью Aspose.Words для .NET с помощью нашего подробного пошагового руководства. Улучшайте свои документы с легкостью."
+"linktitle": "Проверьте текстовый эффект DrawingML"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Проверьте текстовый эффект DrawingML"
+"url": "/ru/net/working-with-fonts/check-drawingml-text-effect/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Проверьте текстовый эффект DrawingML
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fonts/check-drawingml-text-effect/
 
 Прежде чем приступить к обучению, вам необходимо выполнить несколько предварительных условий:
 
--  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с[Страница релизов Aspose](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Вы можете загрузить ее с [Страница релизов Aspose](https://releases.aspose.com/words/net/).
 - Среда разработки: у вас должна быть настроена среда разработки, например Visual Studio.
 - Базовые знания C#: некоторое знакомство с программированием на C# будет полезным.
 
@@ -82,7 +84,7 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Outline));
 Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 ```
 
- Эти строки кода выведут на печать`true` или`false` в зависимости от того, применяется ли каждый конкретный текстовый эффект DrawingML к шрифту серии.
+Эти строки кода выведут на печать `true` или `false` в зависимости от того, применяется ли каждый конкретный текстовый эффект DrawingML к шрифту серии.
 
 ## Заключение
 
@@ -98,16 +100,21 @@ Console.WriteLine(runFont.HasDmlEffect(TextDmlEffect.Fill));
 Да, Aspose.Words для .NET позволяет вам как проверять, так и применять текстовые эффекты DrawingML программным способом.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+Да, Aspose.Words for .NET требует лицензию для полной функциональности. Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 
 ### Существует ли бесплатная пробная версия Aspose.Words для .NET?
- Да, вы можете скачать[бесплатная пробная версия](https://releases.aspose.com/) чтобы опробовать Aspose.Words для .NET перед покупкой.
+Да, вы можете скачать [бесплатная пробная версия](https://releases.aspose.com/) чтобы опробовать Aspose.Words для .NET перед покупкой.
 
 ### Где я могу найти дополнительную документацию по Aspose.Words для .NET?
- Подробную документацию вы можете найти на[Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти на [Страница документации Aspose.Words для .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

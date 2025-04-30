@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/additional-text-positioning/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Imporove PDF Text Postioning with Additional Text Positioning
@@ -101,9 +104,13 @@ Yes, you can download a [free trial](https://releases.aspose.com/) of Aspose.Wor
 Detailed documentation is available on the [Aspose website](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

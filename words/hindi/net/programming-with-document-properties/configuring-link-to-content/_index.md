@@ -1,14 +1,16 @@
 ---
-title: सामग्री से लिंक कॉन्फ़िगर करना
-linktitle: सामग्री से लिंक कॉन्फ़िगर करना
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सामग्री के लिए लिंक कॉन्फ़िगर करना सीखें।
-weight: 10
-url: /hi/net/programming-with-document-properties/configuring-link-to-content/
+"description": "हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सामग्री के लिए लिंक कॉन्फ़िगर करना सीखें।"
+"linktitle": "सामग्री से लिंक कॉन्फ़िगर करना"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "सामग्री से लिंक कॉन्फ़िगर करना"
+"url": "/hi/net/programming-with-document-properties/configuring-link-to-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सामग्री से लिंक कॉन्फ़िगर करना
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document-properties/configuring-link-to-content/
 
 इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में उतरें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए आवश्यक सभी चीजें मौजूद हैं:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। यदि आपके पास पहले से नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET का नवीनतम संस्करण है। यदि आपके पास पहले से नहीं है, तो आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
 - विकास वातावरण: विज़ुअल स्टूडियो या कोई अन्य IDE जो .NET विकास का समर्थन करता है।
 
@@ -38,7 +40,7 @@ using Aspose.Words.Properties;
 
 ## चरण 1: दस्तावेज़ और दस्तावेज़बिल्डर को आरंभ करें
 
-आरंभ करने के लिए, आपको एक नया Word दस्तावेज़ और DocumentBuilder ऑब्जेक्ट आरंभ करना होगा। DocumentBuilder वर्ग दस्तावेज़ में सामग्री जोड़ने के लिए विधियाँ प्रदान करता है।
+आरंभ करने के लिए, आपको एक नया Word दस्तावेज़ और एक DocumentBuilder ऑब्जेक्ट आरंभ करना होगा। DocumentBuilder वर्ग दस्तावेज़ में सामग्री जोड़ने के लिए विधियाँ प्रदान करता है।
 
 ```csharp
 Document doc = new Document();
@@ -84,7 +86,7 @@ string customPropertyValue = customProperty.Value.ToString();
 
 ## निष्कर्ष
 
- बधाई हो! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सामग्री के लिए लिंक को सफलतापूर्वक कॉन्फ़िगर किया है। इन चरणों का पालन करके, आप अपने Word दस्तावेज़ों में विशिष्ट सामग्री से जुड़े कस्टम गुण जोड़ और प्रबंधित कर सकते हैं, जिससे आपका दस्तावेज़ प्रबंधन अधिक गतिशील और कुशल बन जाएगा। यदि आपके पास कोई प्रश्न है या कोई समस्या है, तो बेझिझक जाँच करें[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या मदद मांगें[Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+बधाई हो! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में सामग्री के लिए लिंक को सफलतापूर्वक कॉन्फ़िगर किया है। इन चरणों का पालन करके, आप अपने Word दस्तावेज़ों में विशिष्ट सामग्री से जुड़े कस्टम गुण जोड़ और प्रबंधित कर सकते हैं, जिससे आपका दस्तावेज़ प्रबंधन अधिक गतिशील और कुशल बन जाएगा। यदि आपके पास कोई प्रश्न है या कोई समस्या है, तो बेझिझक जाँच करें [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) या मदद मांगें [Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -92,20 +94,25 @@ string customPropertyValue = customProperty.Value.ToString();
 Aspose.Words for .NET, Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक शक्तिशाली लाइब्रेरी है। यह Word दस्तावेज़ों को बनाने, संशोधित करने और परिवर्तित करने के लिए व्यापक सुविधाएँ प्रदान करता है।
 
 ### मैं .NET के लिए Aspose.Words कैसे स्थापित करूं?
- आप .NET के लिए Aspose.Words को यहां से डाउनलोड करके इंस्टॉल कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/) और अपने प्रोजेक्ट में DLL जोड़ना। वैकल्पिक रूप से, आप इसे Visual Studio में NuGet पैकेज मैनेजर के माध्यम से इंस्टॉल कर सकते हैं।
+आप .NET के लिए Aspose.Words को यहां से डाउनलोड करके इंस्टॉल कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/) और अपने प्रोजेक्ट में DLL जोड़ना। वैकल्पिक रूप से, आप इसे Visual Studio में NuGet पैकेज मैनेजर के माध्यम से इंस्टॉल कर सकते हैं।
 
 ### क्या मैं एक ही दस्तावेज़ में अलग-अलग सामग्री के लिए एकाधिक लिंक जोड़ सकता हूँ?
 हां, आप एकाधिक बुकमार्क बनाकर और प्रत्येक बुकमार्क में कस्टम गुण लिंक करके एक ही दस्तावेज़ में विभिन्न सामग्री के लिए एकाधिक लिंक जोड़ सकते हैं।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण के साथ शुरू कर सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Words for .NET एक वाणिज्यिक उत्पाद है, लेकिन आप एक निःशुल्क परीक्षण के साथ शुरू कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मुझे .NET के लिए Aspose.Words का समर्थन कहां मिल सकता है?
- आप .NET के लिए Aspose.Words का समर्थन प्राप्त कर सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+आप .NET के लिए Aspose.Words का समर्थन प्राप्त कर सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

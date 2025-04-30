@@ -1,14 +1,16 @@
 ---
-title: Экспортировать Cid URL для ресурсов Mhtml
-linktitle: Экспортировать Cid URL для ресурсов Mhtml
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как экспортировать Cid URL для ресурсов MHTML с помощью Aspose.Words для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков всех уровней.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/
+"description": "Узнайте, как экспортировать Cid URL для ресурсов MHTML с помощью Aspose.Words для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков всех уровней."
+"linktitle": "Экспортировать Cid URL для ресурсов Mhtml"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Экспортировать Cid URL для ресурсов Mhtml"
+"url": "/ru/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resources/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспортировать Cid URL для ресурсов Mhtml
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-htmlsaveoptions/export-cid-urls-for-mhtml-resource
 
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если нет, вы можете загрузить ее с[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Убедитесь, что у вас установлена последняя версия Aspose.Words for .NET. Если нет, вы можете загрузить ее с [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: среда разработки, такая как Visual Studio.
 - Базовые знания C#: хотя я и проведу вас через каждый шаг, базовые знания C# будут полезны.
 
@@ -58,7 +60,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ### Шаг 2.2: Загрузите документ
 Загрузите документ Word в проект.
@@ -69,7 +71,7 @@ Document doc = new Document(dataDir + "Content-ID.docx");
 
 ## Шаг 3: Настройка параметров сохранения HTML
 
- Создать экземпляр`HtmlSaveOptions` чтобы настроить способ сохранения вашего документа в формате MHTML.
+Создать экземпляр `HtmlSaveOptions` чтобы настроить способ сохранения вашего документа в формате MHTML.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Mhtml)
@@ -102,19 +104,24 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.ExportCidUrlsForMhtmlResources.mh
 Экспорт URL-адресов Cid для ресурсов MHTML гарантирует, что встроенные ресурсы в вашем файле MHTML будут правильно указаны, что улучшит переносимость и целостность документа.
 
 ### Могу ли я дополнительно настроить формат вывода?
- Да, Aspose.Words for .NET предлагает обширные возможности настройки для сохранения документов. См.[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Да, Aspose.Words for .NET предлагает обширные возможности настройки для сохранения документов. См. [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Нужна ли мне лицензия для использования Aspose.Words для .NET?
- Да, вам нужна лицензия для использования Aspose.Words for .NET. Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/) или приобрести лицензию[здесь](https://purchase.aspose.com/buy).
+Да, вам нужна лицензия для использования Aspose.Words for .NET. Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) или приобрести лицензию [здесь](https://purchase.aspose.com/buy).
 
 ### Могу ли я автоматизировать этот процесс для нескольких документов?
 Конечно! Вы можете создать скрипт для автоматизации процесса для нескольких документов, используя возможности Aspose.Words для .NET для эффективной обработки пакетных операций.
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?
-Если вам нужна поддержка, посетите форум поддержки Aspose.[здесь](https://forum.aspose.com/c/words/8) за помощь со стороны сообщества и разработчиков Aspose.
+Если вам нужна поддержка, посетите форум поддержки Aspose. [здесь](https://forum.aspose.com/c/words/8) за помощь со стороны сообщества и разработчиков Aspose.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

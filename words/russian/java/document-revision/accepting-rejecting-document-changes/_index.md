@@ -1,14 +1,16 @@
 ---
-title: Принятие и отклонение изменений документа
-linktitle: Принятие и отклонение изменений документа
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как легко управлять изменениями документов с помощью Aspose.Words для Java. Принимайте и отклоняйте изменения без проблем.
-weight: 12
-url: /ru/java/document-revision/accepting-rejecting-document-changes/
+"description": "Узнайте, как легко управлять изменениями документов с помощью Aspose.Words для Java. Принимайте и отклоняйте изменения без проблем."
+"linktitle": "Принятие и отклонение изменений документа"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Принятие и отклонение изменений документа"
+"url": "/ru/java/document-revision/accepting-rejecting-document-changes/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Принятие и отклонение изменений документа
@@ -24,7 +26,7 @@ Aspose.Words for Java — это надежная библиотека, кото
 
 ## Загрузка документа
 
-Для начала вам нужно загрузить документ Word, содержащий отслеживаемые изменения. Aspose.Words for Java предоставляет простой способ сделать это:
+Для начала вам нужно загрузить документ Word, содержащий отслеживаемые изменения. Aspose.Words для Java предоставляет простой способ сделать это:
 
 ```java
 // Загрузить документ
@@ -55,7 +57,7 @@ doc.getRevisions().get(0).accept();
 
 ## Отклонение изменений
 
-В некоторых случаях вам может потребоваться отклонить определенные изменения. Aspose.Words для Java обеспечивает гибкость для отклонения изменений по мере необходимости:
+В некоторых случаях вам может потребоваться отклонить определенные изменения. Aspose.Words for Java обеспечивает гибкость для отклонения изменений по мере необходимости:
 
 ```java
 // Отклонить все изменения
@@ -83,7 +85,7 @@ doc.save("document_with_accepted_changes.docx");
 
 ### Как определить, кто внес конкретное изменение в документ?
 
- Вы можете получить доступ к информации об авторе для каждой редакции, используя`getAuthor` метод на`Revision` объект.
+Вы можете получить доступ к информации об авторе для каждой редакции, используя `getAuthor` метод на `Revision` объект.
 
 ### Могу ли я настроить внешний вид отслеживаемых изменений в документе?
 
@@ -99,10 +101,15 @@ doc.save("document_with_accepted_changes.docx");
 
 ### Где я могу найти дополнительную информацию и документацию по Aspose.Words для Java?
 
- Подробную документацию и примеры можно найти на сайте[Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Подробную документацию и примеры можно найти на сайте [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

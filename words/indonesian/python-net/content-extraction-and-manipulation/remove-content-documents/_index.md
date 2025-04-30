@@ -1,14 +1,16 @@
 ---
-title: Menghapus dan Menyempurnakan Konten dalam Dokumen Word
-linktitle: Menghapus dan Menyempurnakan Konten dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara menghapus dan menyempurnakan konten dalam dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode sumber.
-weight: 13
-url: /id/python-net/content-extraction-and-manipulation/remove-content-documents/
+"description": "Pelajari cara menghapus dan menyempurnakan konten dalam dokumen Word secara efisien menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode sumber."
+"linktitle": "Menghapus dan Menyempurnakan Konten dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Menghapus dan Menyempurnakan Konten dalam Dokumen Word"
+"url": "/id/python-net/content-extraction-and-manipulation/remove-content-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menghapus dan Menyempurnakan Konten dalam Dokumen Word
@@ -28,7 +30,7 @@ Sebelum kita mulai menerapkannya, pastikan Anda telah menyiapkan hal-hal berikut
 
 ## Menginstal Aspose.Words untuk Python
 
- Untuk memulai, Anda perlu menginstal Aspose.Words untuk pustaka Python. Anda dapat melakukannya dengan menggunakan`pip`, manajer paket Python, dengan menjalankan perintah berikut:
+Untuk memulai, Anda perlu menginstal Aspose.Words untuk pustaka Python. Anda dapat melakukannya dengan menggunakan `pip`manajer paket Python, dengan menjalankan perintah berikut:
 
 ```bash
 pip install aspose-words
@@ -46,7 +48,7 @@ doc = aw.Document("path/to/your/document.docx")
 
 ## Menghapus Teks
 
- Menghapus teks tertentu dari dokumen Word mudah dilakukan dengan Aspose.Words. Anda dapat menggunakan`Range.replace` metode untuk mencapai hal ini:
+Menghapus teks tertentu dari dokumen Word mudah dilakukan dengan Aspose.Words. Anda dapat menggunakan `Range.replace` metode untuk mencapai hal ini:
 
 ```python
 text_to_remove = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -143,14 +145,19 @@ Tentu saja! Aspose.Words memungkinkan Anda untuk mengaktifkan dan mengelola peru
 
 ### Bagaimana cara menyimpan dokumen yang sudah dimodifikasi?
 
- Gunakan`save` metode pada objek dokumen, yang menentukan jalur file keluaran, untuk menyimpan dokumen yang dimodifikasi.
+Gunakan `save` metode pada objek dokumen, yang menentukan jalur file keluaran, untuk menyimpan dokumen yang dimodifikasi.
 
 ### Di mana saya dapat mengakses dokumentasi Aspose.Words untuk Python?
 
- Anda dapat menemukan dokumentasi terperinci dan referensi API di[Aspose.Words untuk Dokumentasi Python](https://reference.aspose.com/words/python-net/).
+Anda dapat menemukan dokumentasi terperinci dan referensi API di [Aspose.Words untuk Dokumentasi Python](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Từ Thay thế Văn bản Có chứa Ký tự Meta
-linktitle: Từ Thay thế Văn bản Có chứa Ký tự Meta
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay thế văn bản chứa ký tự meta trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, hấp dẫn của chúng tôi để thao tác văn bản liền mạch.
-weight: 10
-url: /vi/net/find-and-replace-text/replace-text-containing-meta-characters/
+"description": "Tìm hiểu cách thay thế văn bản chứa ký tự meta trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết, hấp dẫn của chúng tôi để thao tác văn bản liền mạch."
+"linktitle": "Từ Thay thế Văn bản Có chứa Ký tự Meta"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Từ Thay thế Văn bản Có chứa Ký tự Meta"
+"url": "/vi/net/find-and-replace-text/replace-text-containing-meta-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Từ Thay thế Văn bản Có chứa Ký tự Meta
@@ -20,7 +22,7 @@ Bạn đã bao giờ thấy mình bị mắc kẹt trong một mê cung thay th�
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào vấn đề chính, hãy đảm bảo rằng bạn đã có mọi thứ mình cần:
--  Aspose.Words cho .NET:[Liên kết tải xuống](https://releases.aspose.com/words/net/)
+- Aspose.Words cho .NET: [Liên kết tải xuống](https://releases.aspose.com/words/net/)
 - .NET Framework: Đảm bảo rằng nó đã được cài đặt.
 - Hiểu biết cơ bản về C#: Một chút kiến thức về lập trình sẽ rất có ích.
 - Trình soạn thảo văn bản hoặc IDE: Visual Studio được khuyến khích sử dụng.
@@ -48,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Đoạn mã này khởi tạo tài liệu và thiết lập trình xây dựng.`dataDir` là cơ sở dữ liệu của tài liệu của bạn.
+Đoạn mã này khởi tạo tài liệu và thiết lập trình xây dựng. `dataDir` là cơ sở dữ liệu của tài liệu của bạn.
 
 ## Bước 2: Tùy chỉnh phông chữ và thêm nội dung
 
@@ -75,14 +77,14 @@ FindReplaceOptions findReplaceOptions = new FindReplaceOptions();
 findReplaceOptions.ApplyParagraphFormat.Alignment = ParagraphAlignment.Center;
 ```
 
- Chúng tôi đang tạo ra một`FindReplaceOptions` đối tượng và căn chỉnh đoạn văn vào giữa.
+Chúng tôi đang tạo ra một `FindReplaceOptions` đối tượng và căn chỉnh đoạn văn vào giữa.
 
 ## Bước 4: Thay thế văn bản bằng ký tự Meta
 
 Đây là bước mà phép thuật xảy ra! Chúng ta sẽ thay thế từ "section" theo sau là ngắt đoạn và thêm gạch chân.
 
 ```csharp
-//Nhân đôi mỗi ngắt đoạn sau từ "section", thêm một chút gạch chân và căn giữa.
+// Nhân đôi mỗi ngắt đoạn sau từ "section", thêm một chút gạch chân và căn giữa.
 int count = doc.Range.Replace("section&p", "section&p----------------------&p", findReplaceOptions);
 ```
 
@@ -97,7 +99,7 @@ Tiếp theo, chúng ta sẽ thay thế thẻ văn bản tùy chỉnh bằng ng�
 count = doc.Range.Replace("{insert-section}", "&b", findReplaceOptions);
 ```
 
- Đây,`{insert-section}` được thay thế bằng một ngắt phần (`&b`).
+Đây, `{insert-section}` được thay thế bằng một ngắt phần (`&b`).
 
 ## Bước 6: Lưu tài liệu
 
@@ -107,7 +109,7 @@ Cuối cùng, hãy lưu lại thành quả lao động của chúng ta. Hãy ngh
 doc.Save(dataDir + "FindAndReplace.ReplaceTextContainingMetaCharacters.docx");
 ```
 
- Mã này lưu tài liệu vào thư mục bạn chỉ định với tên`FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
+Mã này lưu tài liệu vào thư mục bạn chỉ định với tên `FindAndReplace.ReplaceTextContainingMetaCharacters.docx`.
 
 ## Phần kết luận
 
@@ -116,22 +118,27 @@ Và bạn đã có nó rồi! Bây giờ bạn đã thành thạo nghệ thuật
 ## Câu hỏi thường gặp
 
 ### Ký tự meta trong thay thế văn bản là gì?
- Ký tự meta là các ký tự đặc biệt có chức năng duy nhất, chẳng hạn như`&p` để ngắt đoạn và`&b` để ngắt phần.
+Ký tự meta là các ký tự đặc biệt có chức năng duy nhất, chẳng hạn như `&p` để ngắt đoạn và `&b` để ngắt phần.
 
 ### Tôi có thể tùy chỉnh thêm văn bản thay thế không?
 Hoàn toàn có thể! Bạn có thể sửa đổi chuỗi thay thế để bao gồm văn bản, định dạng hoặc các ký tự meta khác nếu cần.
 
 ### Tôi phải làm sao nếu cần thay thế nhiều thẻ khác nhau?
- Bạn có thể nối nhiều`Replace` gọi để xử lý nhiều thẻ hoặc mẫu khác nhau trong tài liệu của bạn.
+Bạn có thể nối nhiều `Replace` gọi để xử lý nhiều thẻ hoặc mẫu khác nhau trong tài liệu của bạn.
 
 ### Có thể sử dụng phông chữ và định dạng khác không?
-Có, bạn có thể tùy chỉnh phông chữ và các tùy chọn định dạng khác bằng cách sử dụng`DocumentBuilder` Và`FindReplaceOptions` đồ vật.
+Có, bạn có thể tùy chỉnh phông chữ và các tùy chọn định dạng khác bằng cách sử dụng `DocumentBuilder` Và `FindReplaceOptions` đồ vật.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Bạn có thể ghé thăm[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm chi tiết và ví dụ.
+Bạn có thể ghé thăm [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/) để biết thêm chi tiết và ví dụ.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

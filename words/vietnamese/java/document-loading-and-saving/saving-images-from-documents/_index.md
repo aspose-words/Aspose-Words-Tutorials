@@ -1,14 +1,16 @@
 ---
-title: Lưu hình ảnh từ tài liệu trong Aspose.Words cho Java
-linktitle: Lưu hình ảnh từ tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java với hướng dẫn từng bước toàn diện của chúng tôi. Tùy chỉnh định dạng, nén và nhiều hơn nữa.
-weight: 17
-url: /vi/java/document-loading-and-saving/saving-images-from-documents/
+"description": "Tìm hiểu cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java với hướng dẫn từng bước toàn diện của chúng tôi. Tùy chỉnh định dạng, nén và nhiều hơn nữa."
+"linktitle": "Lưu hình ảnh từ tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Lưu hình ảnh từ tài liệu trong Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu hình ảnh từ tài liệu trong Aspose.Words cho Java
@@ -20,7 +22,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu hình ảnh từ
 
 ## Điều kiện tiên quyết
 
- Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Words for Java vào dự án của mình. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+Trước khi bắt đầu, hãy đảm bảo bạn đã tích hợp thư viện Aspose.Words for Java vào dự án của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bước 1: Lưu hình ảnh dưới dạng TIFF với Kiểm soát ngưỡng
 
@@ -177,7 +179,7 @@ Bạn đã học cách lưu hình ảnh từ tài liệu bằng Aspose.Words for
 
 ### Làm thế nào để thay đổi định dạng hình ảnh khi lưu bằng Aspose.Words cho Java?
 
- Bạn có thể thay đổi định dạng hình ảnh bằng cách chỉ định định dạng mong muốn trong`ImageSaveOptions` . Ví dụ, để lưu dưới dạng PNG, hãy sử dụng`SaveFormat.PNG` như được hiển thị trong mã:
+Bạn có thể thay đổi định dạng hình ảnh bằng cách chỉ định định dạng mong muốn trong `ImageSaveOptions`. Ví dụ, để lưu dưới dạng PNG, hãy sử dụng `SaveFormat.PNG` như được hiển thị trong mã:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### Làm thế nào để lưu một trang cụ thể trong tài liệu dưới dạng hình ảnh riêng biệt?
 
- Để lưu một trang cụ thể dưới dạng hình ảnh, hãy sử dụng`setPageSet`phương pháp trong`ImageSaveOptions` . Ví dụ, để chỉ lưu trang đầu tiên, hãy đặt`PageSet` ĐẾN`new PageSet(0)`.
+Để lưu một trang cụ thể dưới dạng hình ảnh, hãy sử dụng `setPageSet` phương pháp trong `ImageSaveOptions`. Ví dụ, để chỉ lưu trang đầu tiên, hãy đặt `PageSet` ĐẾN `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // Lưu trang đầu tiên dưới dạng hình ảnh
@@ -201,7 +203,7 @@ saveOptions.setPageSet(new PageSet(0)); // Lưu trang đầu tiên dưới dạn
 
 ### Làm thế nào để áp dụng cài đặt tùy chỉnh cho ảnh JPEG khi lưu?
 
-Bạn có thể áp dụng các thiết lập tùy chỉnh cho hình ảnh JPEG bằng cách sử dụng`ImageSaveOptions`. Điều chỉnh các thuộc tính như độ sáng, độ tương phản và độ phân giải. Ví dụ, để thay đổi độ sáng thành 0,3 và độ tương phản thành 0,7, hãy sử dụng mã này:
+Bạn có thể áp dụng các thiết lập tùy chỉnh cho hình ảnh JPEG bằng cách sử dụng `ImageSaveOptions`. Điều chỉnh các thuộc tính như độ sáng, độ tương phản và độ phân giải. Ví dụ, để thay đổi độ sáng thành 0,3 và độ tương phản thành 0,7, hãy sử dụng mã này:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### Tôi có thể sử dụng lệnh gọi lại để tùy chỉnh việc lưu hình ảnh như thế nào?
 
- Để sử dụng lệnh gọi lại để tùy chỉnh việc lưu hình ảnh, hãy đặt`PageSavingCallback` TRONG`ImageSaveOptions` . Tạo một lớp thực hiện`IPageSavingCallback` giao diện và ghi đè`pageSaving` phương pháp.
+Để sử dụng lệnh gọi lại để tùy chỉnh việc lưu hình ảnh, hãy đặt `PageSavTRONGgCallback` in `ImageSaveOptions`. Tạo một lớp thực hiện `IPageSavingCallback` giao diện và ghi đè `pageSaving` phương pháp.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- Sau đó, tạo một lớp thực hiện`IPageSavingCallback` giao diện và tùy chỉnh tên tệp và vị trí trong`pageSaving` phương pháp.
+Sau đó, tạo một lớp thực hiện `IPageSavingCallback` giao diện và tùy chỉnh tên tệp và vị trí trong `pageSaving` phương pháp.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

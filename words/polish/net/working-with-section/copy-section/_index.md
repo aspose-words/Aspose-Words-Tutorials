@@ -1,14 +1,16 @@
 ---
-title: Sekcja Kopiuj
-linktitle: Sekcja Kopiuj
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak kopiować sekcje między dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera instrukcje krok po kroku dotyczące wydajnego zarządzania dokumentami.
-weight: 10
-url: /pl/net/working-with-section/copy-section/
+"description": "Dowiedz się, jak kopiować sekcje między dokumentami Word za pomocą Aspose.Words dla .NET. Ten przewodnik zawiera instrukcje krok po kroku dotyczące wydajnego zarządzania dokumentami."
+"linktitle": "Sekcja Kopiuj"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Sekcja Kopiuj"
+"url": "/pl/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sekcja Kopiuj
@@ -22,7 +24,7 @@ Hej, entuzjaści Worda! 📄 Czy kiedykolwiek musieliście skopiować sekcję z 
 
 Zanim przejdziemy do szczegółów, upewnij się, że masz następujące ustawienia:
 
-1.  Aspose.Words dla biblioteki .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla biblioteki .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: środowisko IDE zgodne z platformą .NET, np. Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość języka C# ułatwi Ci zrozumienie tekstu.
 4. Przykładowe dokumenty Word: W tym samouczku wykorzystamy dwa przykładowe dokumenty.
@@ -35,7 +37,7 @@ Po pierwsze, musimy zaimportować niezbędne przestrzenie nazw. Te importy dadz�
 using Aspose.Words;
 ```
 
-Ta przestrzeń nazw jest niezbędna do pracy z dokumentami Word za pomocą Aspose.Words.
+Ta przestrzeń nazw jest niezbędna do pracy z dokumentami Worda za pomocą Aspose.Words.
 
 Podzielmy przykład na szczegółowy przewodnik krok po kroku. Każdy krok zostanie jasno wyjaśniony, aby upewnić się, że możesz go śledzić i wdrażać w swoich projektach.
 
@@ -43,7 +45,7 @@ Podzielmy przykład na szczegółowy przewodnik krok po kroku. Każdy krok zosta
 
 Zanim zaczniesz pisać kod, upewnij się, że masz zainstalowaną bibliotekę Aspose.Words i przygotowane dwa przykładowe dokumenty Word.
 
-1.  Pobierz i zainstaluj Aspose.Words: Pobierz[Tutaj](https://releases.aspose.com/words/net/).
+1. Pobierz i zainstaluj Aspose.Words: Pobierz [Tutaj](https://releases.aspose.com/words/net/).
 2. Konfiguracja projektu: Otwórz program Visual Studio i utwórz nowy projekt .NET.
 3. Dodaj odniesienie do Aspose.Words: Dodaj bibliotekę Aspose.Words do swojego projektu.
 
@@ -52,7 +54,7 @@ Zanim zaczniesz pisać kod, upewnij się, że masz zainstalowaną bibliotekę As
 Musimy załadować zarówno dokumenty źródłowe, jak i docelowe. Dokument źródłowy to miejsce, z którego skopiujemy sekcję, a dokument docelowy to miejsce, w którym wkleimy skopiowaną sekcję.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
@@ -93,11 +95,11 @@ Na koniec zapisz dokument docelowy, aby mieć pewność, że wszystkie zmiany zo
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- Zastępować`dataDir + "WorkingWithSection.CopySection.docx"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument. Ta linia kodu zapisze docelowy plik Word z skopiowaną sekcją.
+Zastępować `dataDir + "WorkingWithSection.CopySection.docx"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument. Ta linia kodu zapisze docelowy plik Word z skopiowaną sekcją.
 
 ## Wniosek
 
-masz to! 🎉 Udało Ci się skopiować sekcję z jednego dokumentu Word do drugiego za pomocą Aspose.Words dla .NET. Ta potężna funkcja może zaoszczędzić Ci mnóstwo czasu i wysiłku, szczególnie podczas pracy ze złożonymi dokumentami lub powtarzalnymi zadaniami. Pamiętaj, że kluczem do opanowania Aspose.Words jest praktykowanie i eksperymentowanie z różnymi funkcjami. Miłego kodowania!
+I masz to! 🎉 Udało Ci się skopiować sekcję z jednego dokumentu Word do drugiego za pomocą Aspose.Words dla .NET. Ta potężna funkcja może zaoszczędzić Ci mnóstwo czasu i wysiłku, szczególnie podczas pracy ze złożonymi dokumentami lub powtarzalnymi zadaniami. Pamiętaj, że kluczem do opanowania Aspose.Words jest praktykowanie i eksperymentowanie z różnymi funkcjami. Miłego kodowania!
 
 ## Często zadawane pytania
 
@@ -115,14 +117,19 @@ Tak, Aspose.Words obsługuje różne formaty plików Word, w tym DOC, DOCX, RTF 
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Words?
 
- Więcej informacji można znaleźć na stronie[Dokumentacja API Aspose.Words](https://reference.aspose.com/words/net/) lub[forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc i dyskusję.
+Więcej informacji można znaleźć na stronie [Dokumentacja API Aspose.Words](https://reference.aspose.com/words/net/) lub [forum wsparcia](https://forum.aspose.com/c/words/8) po pomoc i dyskusję.
 
 ### Czy mogę wypróbować Aspose.Words dla .NET za darmo?
 
- Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

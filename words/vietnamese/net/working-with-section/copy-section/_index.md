@@ -1,14 +1,16 @@
 ---
-title: Sao chép phần
-linktitle: Sao chép phần
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách sao chép các phần giữa các tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các hướng dẫn từng bước để quản lý tài liệu hiệu quả.
-weight: 10
-url: /vi/net/working-with-section/copy-section/
+"description": "Tìm hiểu cách sao chép các phần giữa các tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các hướng dẫn từng bước để quản lý tài liệu hiệu quả."
+"linktitle": "Sao chép phần"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Sao chép phần"
+"url": "/vi/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép phần
@@ -22,7 +24,7 @@ Xin chào, những người đam mê Word! 📄 Bạn đã bao giờ cần sao c
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã thiết lập những điều sau:
 
-1.  Aspose.Words cho Thư viện .NET: Tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE tương thích với .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn theo dõi dễ dàng hơn.
 4. Tài liệu Word mẫu: Chúng tôi sẽ sử dụng hai tài liệu mẫu cho hướng dẫn này.
@@ -43,7 +45,7 @@ Chúng ta hãy chia nhỏ ví dụ thành hướng dẫn chi tiết từng bư�
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt thư viện Aspose.Words và chuẩn bị hai tài liệu Word mẫu.
 
-1.  Tải xuống và cài đặt Aspose.Words: Tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Tải xuống và cài đặt Aspose.Words: Tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Thiết lập dự án của bạn: Mở Visual Studio và tạo một dự án .NET mới.
 3. Thêm tham chiếu Aspose.Words: Bao gồm thư viện Aspose.Words vào dự án của bạn.
 
@@ -52,7 +54,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt t
 Chúng ta cần tải cả tài liệu nguồn và đích. Tài liệu nguồn là nơi chúng ta sẽ sao chép phần từ đó, và tài liệu đích là nơi chúng ta sẽ dán phần đã sao chép.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ Cuối cùng, hãy lưu tài liệu đích để đảm bảo mọi thay đổi 
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- Thay thế`dataDir + "WorkingWithSection.CopySection.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word đích của bạn với phần đã sao chép.
+Thay thế `dataDir + "WorkingWithSection.CopySection.docx"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình. Dòng mã này sẽ lưu tệp Word đích của bạn với phần đã sao chép.
 
 ## Phần kết luận
 
@@ -109,20 +111,25 @@ Bạn có thể sao chép nhiều phần bằng cách lặp qua bộ sưu tập 
 
 Có, bạn có thể sửa đổi thuộc tính và nội dung của phần đã sao chép trước khi thêm nó vào tài liệu đích.
 
-### Aspose.Words for .NET có tương thích với mọi phiên bản tài liệu Word không?
+### Aspose.Words for .NET có tương thích với tất cả các phiên bản tài liệu Word không?
 
 Có, Aspose.Words hỗ trợ nhiều định dạng Word khác nhau, bao gồm DOC, DOCX, RTF, v.v., giúp nó tương thích với nhiều phiên bản Microsoft Word khác nhau.
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Words ở đâu?
 
- Để biết thêm thông tin, bạn có thể truy cập[Tài liệu API Aspose.Words](https://reference.aspose.com/words/net/) hoặc[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
+Để biết thêm thông tin, bạn có thể truy cập [Tài liệu API Aspose.Words](https://reference.aspose.com/words/net/) hoặc [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được trợ giúp và thảo luận.
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET miễn phí không?
 
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

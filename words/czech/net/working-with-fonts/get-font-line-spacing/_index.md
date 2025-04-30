@@ -1,33 +1,35 @@
 ---
-title: Získejte řádkování písma
-linktitle: Získejte řádkování písma
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak získat řádkování písma pomocí Aspose.Words for .NET, pomocí tohoto podrobného návodu. Ideální pro vývojáře.
-weight: 10
-url: /cs/net/working-with-fonts/get-font-line-spacing/
+"description": "Naučte se, jak získat řádkování písma pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře."
+"linktitle": "Získat řádkování písma"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Získat řádkování písma"
+"url": "/cs/net/working-with-fonts/get-font-line-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte řádkování písma
+# Získat řádkování písma
 
 ## Zavedení
 
-Aspose.Words for .NET je výkonná knihovna, která umožňuje programově vytvářet, manipulovat a převádět dokumenty aplikace Word. Jedním z běžných úkolů, které možná budete muset provést, je načtení řádkování konkrétního písma v dokumentu. V tomto tutoriálu vás provedeme procesem krok za krokem a zajistíme, že můžete snadno získat řádkování písma pomocí Aspose.Words for .NET. 
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje programově vytvářet, manipulovat a převádět dokumenty Wordu. Jedním z běžných úkolů, které můžete potřebovat provést, je načtení řádkování konkrétního písma v dokumentu. V tomto tutoriálu vás krok za krokem provedeme tímto procesem a zajistíme, abyste řádkování písma snadno získali pomocí Aspose.Words pro .NET. 
 
 ## Předpoklady
 
-Než se ponoříme do kódu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Words for .NET Library: Stáhněte a nainstalujte nejnovější verzi z[zde](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Ujistěte se, že máte nastavené IDE jako Visual Studio.
-3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti o programování v C#.
+1. Knihovna Aspose.Words pro .NET: Stáhněte a nainstalujte nejnovější verzi z [zde](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Ujistěte se, že máte nastavené IDE, jako je Visual Studio.
+3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programování v C#.
 
 ## Importovat jmenné prostory
 
-Nejprve musíte importovat potřebné jmenné prostory do vašeho projektu C#. Tyto jmenné prostory vám umožní přístup k funkcím Aspose.Words.
+Nejprve je třeba do projektu v C# importovat potřebné jmenné prostory. Tyto jmenné prostory vám umožní přístup k funkcím Aspose.Words.
 
 ```csharp
 using System;
@@ -35,27 +37,27 @@ using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Pojďme si rozdělit proces získávání řádkování písma do jednoduchých, zvládnutelných kroků.
+Pojďme si rozebrat proces nastavení řádkování písma do jednoduchých a snadno zvládnutelných kroků.
 
 ## Krok 1: Vytvořte nový dokument
 
-Prvním krokem je vytvoření nové instance dokumentu Word pomocí Aspose.Words for .NET.
+Prvním krokem je vytvoření nové instance dokumentu Word pomocí Aspose.Words pro .NET.
 
 ```csharp
 Document doc = new Document();
 ```
 
-## Krok 2: Inicializujte DocumentBuilder
+## Krok 2: Inicializace nástroje DocumentBuilder
 
-Dále musíme inicializovat`DocumentBuilder` objekt. Tento objekt nám pomůže vytvořit a manipulovat s obsahem dokumentu.
+Dále musíme inicializovat `DocumentBuilder` objekt. Tento objekt nám pomůže konstruovat a manipulovat s obsahem dokumentu.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Nastavte vlastnosti písma
+## Krok 3: Nastavení vlastností písma
 
-Nyní nastavíme vlastnosti písma pro text, který chceme vložit. Pro tento příklad použijeme font "Calibri".
+Nyní nastavíme vlastnosti písma pro text, který chceme vložit. V tomto příkladu použijeme písmo „Calibri“.
 
 ```csharp
 builder.Font.Name = "Calibri";
@@ -63,15 +65,15 @@ builder.Font.Name = "Calibri";
 
 ## Krok 4: Napište text do dokumentu
 
- Pomocí`DocumentBuilder` objekt, napište do dokumentu nějaký text. Tento text bude používat vlastnosti písma, které jsme nastavili v předchozím kroku.
+Použití `DocumentBuilder` objektu, napište do dokumentu nějaký text. Tento text použije vlastnosti písma, které jsme nastavili v předchozím kroku.
 
 ```csharp
 builder.Writeln("Sample Text");
 ```
 
-## Krok 5: Načtěte objekt písma
+## Krok 5: Načtení objektu písma
 
-Abychom získali řádkování, musíme získat přístup k objektu písma textu, který jsme právě přidali. To lze provést procházením struktury dokumentu na první běh odstavce.
+Abychom získali řádkování, potřebujeme přistupovat k objektu písma textu, který jsme právě přidali. Toho lze dosáhnout procházením struktury dokumentu až k prvnímu odstavci.
 
 ```csharp
 Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
@@ -79,7 +81,7 @@ Font font = builder.Document.FirstSection.Body.FirstParagraph.Runs[0].Font;
 
 ## Krok 6: Získejte řádkování
 
-Nakonec načteme řádkování z objektu písma a vytiskneme jej do konzole.
+Nakonec z objektu font načteme řádkování a vypíšeme ho do konzole.
 
 ```csharp
 Console.WriteLine($"lineSpacing = {font.LineSpacing}");
@@ -87,27 +89,32 @@ Console.WriteLine($"lineSpacing = {font.LineSpacing}");
 
 ## Závěr
 
-tady to máte! Získání řádkování písma pomocí Aspose.Words for .NET je jednoduché, když jej rozdělíte do těchto jednoduchých kroků. Ať už vytváříte nový dokument nebo pracujete se stávajícím, Aspose.Words poskytuje všechny nástroje, které potřebujete k efektivní správě vlastností písem.
+A tady to máte! Načtení řádkování písma pomocí Aspose.Words pro .NET je jednoduché, když si ho rozdělíte do těchto jednoduchých kroků. Ať už vytváříte nový dokument nebo pracujete s existujícím, Aspose.Words poskytuje všechny nástroje, které potřebujete k efektivní správě vlastností písma.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty Wordu programově pomocí C#.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět dokumenty Wordu pomocí C#.
 
 ### Mohu používat Aspose.Words pro .NET v jiných jazycích .NET?
-Ano, Aspose.Words pro .NET můžete používat s jakýmkoli jazykem .NET, včetně VB.NET a F#.
+Ano, Aspose.Words pro .NET můžete použít s jakýmkoli jazykem .NET, včetně VB.NET a F#.
 
 ### Jak si mohu stáhnout Aspose.Words pro .NET?
- Nejnovější verzi Aspose.Words pro .NET si můžete stáhnout z[zde](https://releases.aspose.com/words/net/).
+Nejnovější verzi Aspose.Words pro .NET si můžete stáhnout z [zde](https://releases.aspose.com/words/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Words pro .NET?
- Ano, můžete získat bezplatnou zkušební verzi od[zde](https://releases.aspose.com/).
+Ano, můžete získat bezplatnou zkušební verzi od [zde](https://releases.aspose.com/).
 
 ### Kde najdu dokumentaci k Aspose.Words pro .NET?
- K dispozici je dokumentace pro Aspose.Words for .NET[zde](https://reference.aspose.com/words/net/).
+Dokumentace k Aspose.Words pro .NET je k dispozici. [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

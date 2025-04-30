@@ -1,14 +1,16 @@
 ---
-title: Word Belgesindeki Kirli Alanları Güncelle
-linktitle: Word Belgesindeki Kirli Alanları Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin.
-weight: 10
-url: /tr/net/programming-with-loadoptions/update-dirty-fields/
+"description": "Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin."
+"linktitle": "Word Belgesindeki Kirli Alanları Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesindeki Kirli Alanları Güncelle"
+"url": "/tr/net/programming-with-loadoptions/update-dirty-fields/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesindeki Kirli Alanları Güncelle
@@ -22,7 +24,7 @@ Güncellenmesi gereken alanlarla dolu bir Word belgeniz olduğu, ancak bunu manu
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. Değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. Değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 2. .NET Framework: Aspose.Words ile uyumlu herhangi bir sürüm.
 3. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
 4. Örnek Word Belgesi: Güncellenmesi gereken kirli alanlara sahip bir belge.
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 LoadOptions loadOptions = new LoadOptions { UpdateDirtyFields = true };
 ```
 
-Burada, belgenin yükleme sırasında kirli alanları güncellemesi gerektiğini belirtiyoruz.
+Burada, yükleme sırasında kirli alanların belge üzerinde güncellenmesi gerektiğini belirtiyoruz.
 
 ## Adım 3: Belgeyi Yükleyin
 
@@ -98,11 +100,16 @@ Evet, Aspose.Words belirli alanları güncelleme konusunda esneklik sağlar, anc
 Evet, Aspose.Words, Word belgelerini programlı olarak düzenleme sürecini basitleştiren güçlü bir kütüphanedir.
 
 ### Aspose.Words hakkında daha fazla bilgiyi nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/words/net/) Ayrıntılı kılavuzlar ve örnekler için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/words/net/) Ayrıntılı kılavuzlar ve örnekler için.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

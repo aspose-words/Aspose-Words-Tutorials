@@ -1,14 +1,16 @@
 ---
-title: सटीक संपादन के लिए दस्तावेज़ श्रेणियों को नेविगेट करना
-linktitle: सटीक संपादन के लिए दस्तावेज़ श्रेणियों को नेविगेट करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: पायथन के लिए Aspose.Words का उपयोग करके सटीकता के साथ दस्तावेज़ श्रेणियों को नेविगेट और संपादित करना सीखें। कुशल सामग्री हेरफेर के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 12
-url: /hi/python-net/document-combining-and-comparison/document-ranges/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके सटीकता के साथ दस्तावेज़ श्रेणियों को नेविगेट और संपादित करना सीखें। कुशल सामग्री हेरफेर के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "सटीक संपादन के लिए दस्तावेज़ श्रेणियों को नेविगेट करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "सटीक संपादन के लिए दस्तावेज़ श्रेणियों को नेविगेट करना"
+"url": "/hi/python-net/document-combining-and-comparison/document-ranges/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # सटीक संपादन के लिए दस्तावेज़ श्रेणियों को नेविगेट करना
@@ -23,7 +25,7 @@ url: /hi/python-net/document-combining-and-comparison/document-ranges/
 इससे पहले कि हम व्यावहारिक कार्यान्वयन में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - पायथन प्रोग्रामिंग की बुनियादी समझ।
-- आपके सिस्टम पर पायथन स्थापित किया गया.
+- आपके सिस्टम पर पायथन स्थापित किया गया।
 - पायथन लाइब्रेरी के लिए Aspose.Words तक पहुंच।
 
 ## पायथन के लिए Aspose.Words स्थापित करना
@@ -50,16 +52,16 @@ doc = Document("document.docx")
 
 ```python
 for paragraph in doc.get_child_nodes(NodeType.PARAGRAPH, True):
-    # Your code to work with paragraphs goes here
+    # पैराग्राफ़ के साथ काम करने के लिए आपका कोड यहाँ है
 ```
 
-## अनुभागों को नेविगेट करना
+## अनुभागों में नेविगेट करना
 
 दस्तावेज़ों में अक्सर अलग-अलग फ़ॉर्मेटिंग वाले अनुभाग होते हैं। अनुभागों को नेविगेट करने से हमें एकरूपता और सटीकता बनाए रखने में मदद मिलती है:
 
 ```python
 for section in doc.sections:
-    # Your code to work with sections goes here
+    # अनुभागों के साथ काम करने के लिए आपका कोड यहां है
 ```
 
 ## तालिकाओं के साथ कार्य करना
@@ -68,7 +70,7 @@ for section in doc.sections:
 
 ```python
 for table in doc.get_child_nodes(NodeType.TABLE, True):
-    # Your code to work with tables goes here
+    # तालिकाओं के साथ काम करने के लिए आपका कोड यहां है
 ```
 
 ## पाठ ढूँढना और बदलना
@@ -85,7 +87,7 @@ doc.range.replace("old_text", "new_text", False, False)
 
 ```python
 for run in doc.get_child_nodes(NodeType.RUN, True):
-    # Your code to work with formatting goes here
+    # फ़ॉर्मेटिंग के साथ काम करने के लिए आपका कोड यहाँ है
 ```
 
 ## सामग्री निकालना
@@ -94,7 +96,7 @@ for run in doc.get_child_nodes(NodeType.RUN, True):
 
 ```python
 range = doc.range
-# Define your specific content range here
+# अपनी विशिष्ट सामग्री सीमा यहाँ परिभाषित करें
 extracted_text = range.text
 ```
 
@@ -117,7 +119,7 @@ for section in sections:
 for section in doc.sections:
     header = section.headers_footers.link_to_previous(False)
     footer = section.headers_footers.link_to_previous(False)
-    # Your code to work with headers and footers goes here
+    # हेडर और फ़ुटर के साथ काम करने के लिए आपका कोड यहाँ है
 ```
 
 ## हाइपरलिंक्स का प्रबंधन
@@ -126,7 +128,7 @@ for section in doc.sections:
 
 ```python
 for hyperlink in doc.range.get_child_nodes(NodeType.FIELD_HYPERLINK, True):
-    # Your code to work with hyperlinks goes here
+    # हाइपरलिंक के साथ काम करने के लिए आपका कोड यहां है
 ```
 
 ## निष्कर्ष
@@ -148,7 +150,7 @@ pip install aspose-words
 
 ### क्या पायथन के लिए Aspose.Words का उपयोग करके एकाधिक दस्तावेज़ों को मर्ज करना संभव है?
 
- बिल्कुल। इसका उपयोग करें`append_document` एकाधिक दस्तावेजों को सहजता से मर्ज करने की विधि।
+बिल्कुल। इसका उपयोग करें `append_document` एकाधिक दस्तावेजों को सहजता से मर्ज करने की विधि।
 
 ### मैं दस्तावेज़ अनुभागों में शीर्षलेखों और पादलेखों के साथ अलग-अलग कैसे काम कर सकता हूँ?
 
@@ -156,10 +158,15 @@ pip install aspose-words
 
 ### मैं पायथन दस्तावेज़ के लिए Aspose.Words का उपयोग कहां कर सकता हूं?
 
- विस्तृत दस्तावेज़ीकरण और संदर्भ के लिए, यहां जाएं[यहाँ](https://reference.aspose.com/words/python-net/).
+विस्तृत दस्तावेज़ीकरण और संदर्भ के लिए, यहां जाएं [यहाँ](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

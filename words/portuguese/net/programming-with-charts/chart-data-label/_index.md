@@ -1,21 +1,23 @@
 ---
-title: Personalizar rótulo de dados do gráfico
-linktitle: Personalizar rótulo de dados do gráfico
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda a personalizar rótulos de dados de gráfico usando Aspose.Words para .NET em um guia passo a passo. Perfeito para desenvolvedores .NET.
-weight: 10
-url: /pt/net/programming-with-charts/chart-data-label/
+"description": "Aprenda a personalizar rótulos de dados de gráficos usando o Aspose.Words para .NET em um guia passo a passo. Perfeito para desenvolvedores .NET."
+"linktitle": "Personalizar rótulo de dados do gráfico"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Personalizar rótulo de dados do gráfico"
+"url": "/pt/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Personalizar rótulo de dados do gráfico
 
 ## Introdução
 
-Você está procurando incrementar seus aplicativos .NET com recursos de processamento de documentos dinâmicos e personalizados? O Aspose.Words para .NET pode ser sua resposta! Neste guia, vamos nos aprofundar na personalização de rótulos de dados de gráficos usando o Aspose.Words para .NET, uma biblioteca poderosa para criar, modificar e converter documentos do Word. Seja você um desenvolvedor experiente ou apenas um iniciante, este tutorial o guiará por cada etapa, garantindo que você entenda como utilizar esta ferramenta de forma eficaz.
+Deseja aprimorar seus aplicativos .NET com recursos dinâmicos e personalizados de processamento de documentos? O Aspose.Words para .NET pode ser a solução! Neste guia, vamos nos aprofundar na personalização de rótulos de dados de gráficos usando o Aspose.Words para .NET, uma biblioteca poderosa para criar, modificar e converter documentos do Word. Seja você um desenvolvedor experiente ou iniciante, este tutorial o guiará por cada etapa, garantindo que você entenda como utilizar esta ferramenta de forma eficaz.
 
 ## Pré-requisitos
 
@@ -23,13 +25,13 @@ Antes de começar, certifique-se de ter o seguinte:
 
 1. Visual Studio: Instale o Visual Studio 2019 ou posterior.
 2. .NET Framework: certifique-se de ter o .NET Framework 4.0 ou posterior.
-3.  Aspose.Words para .NET: Baixe e instale o Aspose.Words para .NET do[link para download](https://releases.aspose.com/words/net/).
-4. Conhecimento básico de C#: Familiaridade com programação em C# é essencial.
-5.  Uma licença válida: obtenha uma[licença temporária](https://purchase.aspose.com/temporary-license/) ou compre um no[comprar link](https://purchase.aspose.com/buy).
+3. Aspose.Words para .NET: Baixe e instale o Aspose.Words para .NET do [link para download](https://releases.aspose.com/words/net/).
+4. Conhecimento básico de C#: familiaridade com programação em C# é essencial.
+5. Uma licença válida: obtenha uma [licença temporária](https://purchase.aspose.com/temporary-license/) ou compre um no [link de compra](https://purchase.aspose.com/buy).
 
 ## Importar namespaces
 
-Para começar, você precisa importar os namespaces necessários para seu projeto C#. Esta etapa é crucial, pois garante que você tenha acesso a todas as classes e métodos fornecidos pelo Aspose.Words.
+Para começar, você precisa importar os namespaces necessários para o seu projeto C#. Esta etapa é crucial, pois garante que você tenha acesso a todas as classes e métodos fornecidos pelo Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -40,7 +42,7 @@ using Aspose.Words.Charts;
 
 ## Etapa 1: inicializar o documento e o DocumentBuilder
 
-Para criar e manipular documentos do Word, primeiro precisamos inicializar uma instância do`Document` classe e uma`DocumentBuilder` objeto.
+Para criar e manipular documentos do Word, primeiro precisamos inicializar uma instância do `Document` classe e uma `DocumentBuilder` objeto.
 
 ```csharp
 // Caminho para o diretório do seu documento
@@ -52,12 +54,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Explicação
 
-- Documento doc: Cria uma nova instância da classe Document.
-- Construtor DocumentBuilder: O DocumentBuilder ajuda a inserir conteúdo no objeto Document.
+- Documento doc: Cria uma nova instância da classe Documento.
+- Construtor DocumentBuilder: O DocumentBuilder auxilia na inserção de conteúdo no objeto Document.
 
-## Etapa 2: Insira um gráfico
+## Etapa 2: inserir um gráfico
 
- Em seguida, inseriremos um gráfico de barras no documento usando o`DocumentBuilder` objeto.
+Em seguida, inseriremos um gráfico de barras no documento usando o `DocumentBuilder` objeto.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -83,7 +85,7 @@ ChartSeries series0 = shape.Chart.Series[0];
 
 ## Etapa 4: personalizar rótulos de dados
 
-Os rótulos de dados podem ser personalizados para exibir várias informações. Configuraremos os rótulos para mostrar a chave da legenda, o nome da série e o valor, enquanto ocultamos o nome da categoria e a porcentagem.
+Os rótulos de dados podem ser personalizados para exibir diversas informações. Configuraremos os rótulos para mostrar a legenda, o nome da série e o valor, enquanto ocultaremos o nome da categoria e a porcentagem.
 
 ```csharp
 ChartDataLabelCollection labels = series0.DataLabels;
@@ -121,7 +123,7 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ## Conclusão
 
- Parabéns! Você personalizou com sucesso os rótulos de dados do gráfico usando o Aspose.Words para .NET. Esta biblioteca oferece uma solução robusta para manipular documentos do Word programaticamente, facilitando para os desenvolvedores criar aplicativos de processamento de documentos sofisticados e dinâmicos. Mergulhe no[documentação](https://reference.aspose.com/words/net/) para explorar mais recursos e capacidades.
+Parabéns! Você personalizou com sucesso os rótulos de dados do gráfico usando o Aspose.Words para .NET. Esta biblioteca oferece uma solução robusta para o processamento programático de documentos do Word, facilitando a criação de aplicativos de processamento de documentos sofisticados e dinâmicos para desenvolvedores. Mergulhe no [documentação](https://reference.aspose.com/words/net/) para explorar mais recursos e capacidades.
 
 ## Perguntas frequentes
 
@@ -129,20 +131,25 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 Aspose.Words para .NET é uma poderosa biblioteca de processamento de documentos que permite aos desenvolvedores criar, modificar e converter documentos do Word programaticamente.
 
 ### Como instalo o Aspose.Words para .NET?
- Você pode baixá-lo e instalá-lo a partir do[link para download](https://releases.aspose.com/words/net/). Siga as instruções de instalação fornecidas.
+Você pode baixá-lo e instalá-lo a partir do [link para download](https://releases.aspose.com/words/net/). Siga as instruções de instalação fornecidas.
 
 ### Posso testar o Aspose.Words para .NET gratuitamente?
- Sim, você pode obter um[teste gratuito](https://releases.aspose.com/) ou um[licença temporária](https://purchase.aspose.com/temporary-license/)para avaliar o produto.
+Sim, você pode obter um [teste gratuito](https://releases.aspose.com/) ou um [licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar o produto.
 
 ### Aspose.Words para .NET é compatível com o .NET Core?
 Sim, o Aspose.Words para .NET é compatível com .NET Core, .NET Standard e .NET Framework.
 
 ### Onde posso obter suporte para o Aspose.Words para .NET?
- Você pode visitar o[fórum de suporte](https://forum.aspose.com/c/words/8) para obter ajuda e assistência da comunidade e especialistas da Aspose.
+Você pode visitar o [fórum de suporte](https://forum.aspose.com/c/words/8) para obter ajuda e assistência da comunidade e especialistas da Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Bookmarks trong Aspose.Words cho Java
-linktitle: Sử dụng Dấu trang
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words for Java. Tìm hiểu cách sử dụng dấu trang để điều hướng và thao tác nội dung hiệu quả trong hướng dẫn từng bước này.
-weight: 17
-url: /vi/java/document-manipulation/using-bookmarks/
+"description": "Tối ưu hóa quá trình xử lý tài liệu của bạn với Aspose.Words for Java. Tìm hiểu cách sử dụng dấu trang để điều hướng và thao tác nội dung hiệu quả trong hướng dẫn từng bước này."
+"linktitle": "Sử dụng Dấu trang"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Bookmarks trong Aspose.Words cho Java"
+"url": "/vi/java/document-manipulation/using-bookmarks/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Bookmarks trong Aspose.Words cho Java
@@ -30,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-//Kết thúc dấu trang
+// Kết thúc dấu trang
 builder.endBookmark("My Bookmark");
 ```
 
@@ -103,11 +105,11 @@ Sử dụng dấu trang trong Aspose.Words for Java có thể đơn giản hóa 
 
 ### Làm thế nào để tạo dấu trang trong ô của bảng?
 
- Để tạo dấu trang trong ô bảng, hãy sử dụng`DocumentBuilder` lớp và bắt đầu và kết thúc dấu trang trong ô.
+Để tạo dấu trang trong ô bảng, hãy sử dụng `DocumentBuilder` lớp và bắt đầu và kết thúc dấu trang trong ô.
 
 ### Tôi có thể sao chép dấu trang sang tài liệu khác không?
 
- Có, bạn có thể sao chép dấu trang sang tài liệu khác bằng cách sử dụng`NodeImporter` lớp để đảm bảo định dạng được giữ nguyên.
+Có, bạn có thể sao chép dấu trang sang tài liệu khác bằng cách sử dụng `NodeImporter` lớp để đảm bảo định dạng được giữ nguyên.
 
 ### Làm thế nào để xóa một hàng theo dấu trang của nó?
 
@@ -119,10 +121,15 @@ Dấu trang thường được sử dụng để tạo mục lục, trích xuấ
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho Java ở đâu?
 
- Để biết tài liệu chi tiết và tải xuống, hãy truy cập[Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Để biết tài liệu chi tiết và tải xuống, hãy truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

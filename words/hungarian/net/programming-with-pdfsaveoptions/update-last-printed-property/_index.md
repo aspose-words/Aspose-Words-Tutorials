@@ -1,62 +1,64 @@
 ---
-title: Frissítse az utolsó nyomtatott tulajdonságot PDF-dokumentumban
-linktitle: Frissítse az utolsó nyomtatott tulajdonságot PDF-dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Részletes útmutatónkból megtudhatja, hogyan frissítheti az utolsó nyomtatott tulajdonságot egy PDF-dokumentumban az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/programming-with-pdfsaveoptions/update-last-printed-property/
+"description": "Tanuld meg, hogyan frissítheted a PDF dokumentumok utolsó nyomtatott tulajdonságát az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatónkkal."
+"linktitle": "PDF dokumentum utolsó nyomtatott tulajdonságának frissítése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "PDF dokumentum utolsó nyomtatott tulajdonságának frissítése"
+"url": "/hu/net/programming-with-pdfsaveoptions/update-last-printed-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Frissítse az utolsó nyomtatott tulajdonságot PDF-dokumentumban
+# PDF dokumentum utolsó nyomtatott tulajdonságának frissítése
 
 ## Bevezetés
 
-Frissíteni szeretné az utolsó nyomtatott tulajdonságot egy PDF-dokumentumban? Lehet, hogy nagy mennyiségű dokumentumot kezel, és nyomon kell követnie, mikor nyomtatták ki őket utoljára. Bármi legyen is az oka, ennek a tulajdonságnak a frissítése hihetetlenül hasznos lehet, és az Aspose.Words for .NET használatával gyerekjáték! Nézzük meg, hogyan érheti el ezt.
+Szeretnéd frissíteni egy PDF dokumentum utoljára nyomtatott tulajdonságát? Talán nagy mennyiségű dokumentumot kezelsz, és nyomon kell követned, hogy mikor nyomtatták ki őket utoljára. Bármi is legyen az okod, ennek a tulajdonságnak a frissítése hihetetlenül hasznos lehet, és az Aspose.Words for .NET segítségével ez gyerekjáték! Nézzük meg, hogyan érheted el ezt.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
 
--  Aspose.Words for .NET: Az Aspose.Words for .NET-re telepítve kell lennie. Ha még nem tette meg, letöltheti innen[itt](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: Olyan fejlesztői környezet, mint a Visual Studio.
-- A C# alapismerete: Hasznos lesz a C# ismerete.
-- Dokumentum: PDF-be konvertálni kívánt Word dokumentum, és frissíteni kívánja az utoljára nyomtatott tulajdonságot.
+- Aspose.Words for .NET: Telepítenie kell az Aspose.Words for .NET programot. Ha még nem tette meg, letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Egy fejlesztői környezet, mint például a Visual Studio.
+- C# alapismeretek: A C#-ban való jártasság hasznos lesz.
+- Dokumentum: Egy Word-dokumentum, amelyet PDF formátumba szeretne konvertálni, és frissíteni szeretné az utolsó nyomtatott tulajdonságot.
 
 ## Névterek importálása
 
-Az Aspose.Words for .NET használatához a projektben importálnia kell a szükséges névtereket. Íme, hogyan kell csinálni:
+Az Aspose.Words for .NET használatához a projektedben importálni kell a szükséges névtereket. Így teheted meg:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Bontsuk le a folyamatot egyszerű, kezelhető lépésekre.
+Bontsuk le a folyamatot egyszerű, könnyen követhető lépésekre.
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először is állítsuk be a projektet. Nyissa meg a Visual Studio-t, hozzon létre egy új konzolalkalmazást (.NET-keretrendszer vagy .NET Core), és nevezze el valami értelmesnek, például „UpdateLastPrintedPropertyPDF”.
+Először is, állítsuk be a projektet. Nyissuk meg a Visual Studiot, hozzunk létre egy új konzolalkalmazást (.NET Framework vagy .NET Core), és nevezzük el valami értelmes névvel, például "UpdateLastPrintedPropertyPDF".
 
-## 2. lépés: Az Aspose.Words for .NET telepítése
+## 2. lépés: Telepítse az Aspose.Words for .NET programot
 
-Ezután telepítenie kell az Aspose.Words for .NET csomagot. Ezt a NuGet Package Manager segítségével teheti meg. Kattintson a jobb gombbal a projektre a Solution Explorerben, válassza a "NuGet-csomagok kezelése" lehetőséget, keresse meg az "Aspose.Words" kifejezést, és telepítse.
+Ezután telepítened kell az Aspose.Words for .NET csomagot. Ezt a NuGet csomagkezelőn keresztül teheted meg. Kattints jobb gombbal a projektedre a Megoldáskezelőben, válaszd a „NuGet csomagok kezelése” lehetőséget, keresd meg az „Aspose.Words” fájlt, és telepítsd.
 
 ## 3. lépés: Töltse be a dokumentumot
 
- Most töltsük be a PDF-be konvertálni kívánt Word-dokumentumot. Cserélje ki`"YOUR DOCUMENT DIRECTORY"` a dokumentum elérési útjával.
+Most töltsük be a PDF-be konvertálni kívánt Word dokumentumot. Csere `"YOUR DOCUMENT DIRECTORY"` dokumentum elérési útjával.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## 4. lépés: Konfigurálja a PDF mentési beállításokat
+## 4. lépés: PDF mentési beállítások konfigurálása
 
- Az utolsó nyomtatott tulajdonság frissítéséhez be kell állítanunk a PDF mentési beállításokat. Hozzon létre egy új példányt a`PdfSaveOptions` és állítsa be a`UpdateLastPrintedProperty`tulajdonát`true`.
+A PDF mentési beállításait úgy kell konfigurálnunk, hogy frissítsék az utolsó kinyomtatott tulajdonságot. Hozzunk létre egy új példányt a következőből: `PdfSaveOptions` és állítsa be a `UpdateLastPrintedProperty` ingatlan `true`.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
@@ -64,7 +66,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions { InterpolateImages = true };
 
 ## 5. lépés: Mentse el a dokumentumot PDF formátumban
 
-Végül mentse a dokumentumot PDF-ként a frissített tulajdonsággal. Adja meg a kimeneti útvonalat és a mentési beállításokat.
+Végül mentse el a dokumentumot PDF formátumban a frissített tulajdonsággal. Adja meg a kimeneti elérési utat és a mentési beállításokat.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.UpdateIfLastPrinted.pdf", saveOptions);
@@ -72,27 +74,32 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.UpdateIfLastPrinted.pdf", saveOpti
 
 ## Következtetés
 
-És megvan! Ha követi ezeket a lépéseket, az Aspose.Words for .NET segítségével könnyedén frissítheti a PDF-dokumentum utolsó nyomtatott tulajdonságát. Ez a módszer biztosítja, hogy dokumentumkezelési folyamata hatékony és naprakész marad. Próbálja ki, és nézze meg, hogyan egyszerűsíti le a munkafolyamatot.
+És íme! A következő lépéseket követve könnyedén frissítheted a PDF dokumentum utolsó nyomtatott tulajdonságát az Aspose.Words for .NET használatával. Ez a módszer biztosítja, hogy a dokumentumkezelési folyamatod hatékony és naprakész maradjon. Próbáld ki, és nézd meg, hogyan egyszerűsíti le a munkafolyamatodat.
 
 ## GYIK
 
-### Mi az Aspose.Words for .NET?
-Az Aspose.Words for .NET egy hatékony könyvtár a .NET-alkalmazások dokumentumfeldolgozási feladataihoz, beleértve a dokumentumok létrehozását, módosítását, konvertálását és nyomtatását.
+### Mi az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET egy hatékony függvénytár a .NET alkalmazások dokumentumfeldolgozási feladataihoz, beleértve a dokumentumok létrehozását, módosítását, konvertálását és nyomtatását.
 
-### Miért frissítse az utolsó nyomtatott tulajdonságot PDF-ben?
-Az utolsó nyomtatott tulajdonság frissítése segít a dokumentumhasználat nyomon követésében, különösen olyan környezetben, ahol a dokumentumnyomtatás gyakori tevékenység.
+### Miért kell frissíteni a PDF utolsó nyomtatott tulajdonságát?
+Az utolsó nyomtatott tulajdonság frissítése segít a dokumentumok használatának nyomon követésében, különösen olyan környezetekben, ahol a dokumentumok nyomtatása gyakori tevékenység.
 
 ### Frissíthetek más tulajdonságokat az Aspose.Words for .NET használatával?
-Igen, az Aspose.Words for .NET lehetővé teszi a dokumentum különféle tulajdonságainak frissítését, például szerző, cím, tárgy stb.
+Igen, az Aspose.Words for .NET lehetővé teszi a dokumentum különböző tulajdonságainak, például a szerző, a cím, a tárgy és egyebek frissítését.
 
-### Az Aspose.Words for .NET ingyenes?
- Az Aspose.Words for .NET ingyenes próbaverziót kínál, amelyet letölthet[itt](https://releases.aspose.com/). Hosszabb használathoz licencet kell vásárolnia.
+### Ingyenes az Aspose.Words .NET-hez?
+Az Aspose.Words for .NET ingyenes próbaverziót kínál, amelyet letölthet [itt](https://releases.aspose.com/)Hosszabb idejű használathoz licencet kell vásárolnia.
 
 ### Hol találok további dokumentációt az Aspose.Words for .NET-ről?
- Részletes dokumentációt találhat az Aspose.Words for .NET webhelyen[itt](https://reference.aspose.com/words/net/).
+Részletes dokumentációt az Aspose.Words for .NET oldalon talál. [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

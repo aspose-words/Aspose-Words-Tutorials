@@ -1,14 +1,16 @@
 ---
-title: Akses yang diketik
-linktitle: Akses yang diketik
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menggunakan Typed Access di Aspose.Words untuk .NET untuk memanipulasi elemen dokumen seperti tabel dan baris dengan mudah. Panduan langkah demi langkah ini menyederhanakan alur kerja Anda.
-weight: 10
-url: /id/net/working-with-node/typed-access/
+"description": "Pelajari cara menggunakan Typed Access di Aspose.Words untuk .NET untuk memanipulasi elemen dokumen seperti tabel dan baris dengan mudah. Panduan langkah demi langkah ini menyederhanakan alur kerja Anda."
+"linktitle": "Akses yang diketik"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Akses yang diketik"
+"url": "/id/net/working-with-node/typed-access/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akses yang diketik
@@ -21,10 +23,10 @@ Pernahkah Anda merasa terjerat dalam jaringan elemen dokumen, kesulitan mengakse
 
 Sebelum kita masuk ke dunia Typed Access, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut ini daftar periksa:
 
--  Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Visual Studio atau IDE lain yang mendukung .NET.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang C# dan .NET.
--  Lisensi Aspose.Words: Anda dapat menggunakan[uji coba gratis](https://releases.aspose.com/) atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Lisensi Aspose.Words: Anda dapat menggunakan [uji coba gratis](https://releases.aspose.com/) atau dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -71,7 +73,7 @@ TableCollection tables = body.Tables;
 
 ## Langkah 5: Ulangi Melalui Tabel
 
-Kita sudah punya tabel, tetapi bagaimana jika kita ingin memanipulasinya? Iterasi adalah kuncinya. Mari kita lakukan pengulangan pada setiap tabel.
+Kita memiliki tabel, tetapi bagaimana jika kita ingin memanipulasinya? Iterasi adalah kuncinya. Mari kita lakukan pengulangan pada setiap tabel.
 
 ```csharp
 foreach (Table table in tables)
@@ -103,22 +105,27 @@ Nah, itu dia! Panduan langkah demi langkah untuk menggunakan Typed Access dengan
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Akses Ketik di Aspose.Words untuk .NET?
-Akses Ketik memungkinkan Anda mengakses dan memanipulasi tipe node tertentu dalam dokumen Word, seperti tabel dan baris, tanpa harus mempelajari kode yang rumit.
+Akses Ketik memungkinkan Anda mengakses dan memanipulasi tipe node tertentu dalam dokumen Word, seperti tabel dan baris, tanpa harus menyelami kode yang rumit.
 
 ### Bisakah saya menggunakan Typed Access dengan elemen lain selain tabel?
 Ya, Akses Ketik dapat digunakan dengan berbagai elemen seperti paragraf, bagian, dan lainnya, sehingga manipulasi dokumen menjadi mudah.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Meskipun Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) , untuk fungsionalitas penuh dan menghindari keterbatasan, memperoleh[lisensi](https://purchase.aspose.com/buy) direkomendasikan.
+Meskipun Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/), untuk fungsionalitas penuh dan menghindari keterbatasan, memperoleh [lisensi](https://purchase.aspose.com/buy) direkomendasikan.
 
 ### Apakah Akses Ketik cocok untuk dokumen besar?
 Tentu saja! Typed Access dirancang untuk menangani dokumen dengan berbagai ukuran secara efisien, menyederhanakan proses mengakses dan memodifikasi elemen.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Anda dapat mengakses dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat mengakses dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

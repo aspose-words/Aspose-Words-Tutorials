@@ -1,14 +1,16 @@
 ---
-title: Неограниченный раздел в документе Word
-linktitle: Неограниченный раздел в документе Word
-second_title: API обработки документов Aspose.Words
-description: Разблокируйте определенные разделы в вашем документе Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для защиты конфиденциального контента.
-weight: 10
-url: /ru/net/document-protection/unrestricted-section/
+"description": "Разблокируйте определенные разделы в вашем документе Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для защиты конфиденциального контента."
+"linktitle": "Неограниченный раздел в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Неограниченный раздел в документе Word"
+"url": "/ru/net/document-protection/unrestricted-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Неограниченный раздел в документе Word
@@ -21,10 +23,10 @@ url: /ru/net/document-protection/unrestricted-section/
 
 Прежде чем перейти к деталям, убедитесь, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: если вы еще этого не сделали, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: если вы еще этого не сделали, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 - Visual Studio: или любая другая совместимая с .NET IDE.
 - Базовые знания C#: небольшое знакомство с C# поможет вам быстро освоить это руководство.
--  Лицензия Aspose: Получите[бесплатная пробная версия](https://releases.aspose.com/) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) если вам это нужно для тестирования.
+- Лицензия Aspose: Получите [бесплатная пробная версия](https://releases.aspose.com/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) если вам это нужно для тестирования.
 
 ## Импорт пространств имен
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Теперь давайте разберем все шаг за шагом!
+Теперь давайте разберем все по порядку!
 
 ## Шаг 1: Настройте свой проект
 
@@ -48,7 +50,7 @@ using Aspose.Words.Tables;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, по которому вы хотите сохранить свои документы. Это важно, поскольку гарантирует, что ваши файлы будут сохранены в правильном месте.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, по которому вы хотите сохранить свои документы. Это важно, поскольку гарантирует, что ваши файлы будут сохранены в правильном месте.
 
 ### Создать новый документ
 
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- The`Document` класс инициализирует новый документ, а`DocumentBuilder` помогает нам легко добавлять контент в наш документ.
+The `Document` класс инициализирует новый документ, а `DocumentBuilder` помогает нам легко добавлять контент в наш документ.
 
 ## Шаг 2: Вставьте разделы
 
@@ -82,19 +84,19 @@ builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2. Protected.");
 ```
 
- The`InsertBreak` метод вставляет непрерывный разрыв раздела, позволяя нам иметь разные настройки для каждого раздела.
+The `InsertBreak` метод вставляет непрерывный разрыв раздела, позволяя нам иметь разные настройки для каждого раздела.
 
 ## Шаг 3: Защитите документ
 
 ### Включить защиту документа
 
- Для защиты документа мы будем использовать`Protect` метод. Этот метод гарантирует, что редактировать можно только поля формы, если не указано иное.
+Для защиты документа мы будем использовать `Protect` метод. Этот метод гарантирует, что редактировать можно только поля формы, если не указано иное.
 
 ```csharp
 doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 ```
 
- Здесь документ защищен паролем, и редактировать можно только поля формы. Не забудьте заменить`"password"` с желаемым паролем.
+Здесь документ защищен паролем, и редактировать можно только поля формы. Не забудьте заменить `"password"` с желаемым паролем.
 
 ### Снять защиту определенного раздела
 
@@ -116,7 +118,7 @@ doc.Sections[0].ProtectedForForms = false;
 doc.Save(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 ```
 
- Это сохранит документ в указанном каталоге под именем`DocumentProtection.UnrestrictedSection.docx`.
+Это сохранит документ в указанном каталоге под именем `DocumentProtection.UnrestrictedSection.docx`.
 
 ### Загрузить документ
 
@@ -141,16 +143,21 @@ doc = new Document(dataDir + "DocumentProtection.UnrestrictedSection.docx");
 Да, вы можете повторно открыть документ и изменить параметры защиты по мере необходимости.
 
 ### Какие еще типы защиты доступны в Aspose.Words?
- Aspose.Words поддерживает несколько типов защиты, включая`ReadOnly`, `Comments` , и`TrackedChanges`.
+Aspose.Words поддерживает несколько типов защиты, включая `ReadOnly`, `Comments`, и `TrackedChanges`.
 
 ### Могу ли я защитить документ без пароля?
 Да, вы можете защитить документ, не указывая пароль.
 
 ### Как проверить, защищен ли раздел?
- Вы можете проверить`ProtectedForForms` свойство раздела, чтобы определить, защищено ли оно.
+Вы можете проверить `ProtectedForForms` свойство раздела, чтобы определить, защищено ли оно.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

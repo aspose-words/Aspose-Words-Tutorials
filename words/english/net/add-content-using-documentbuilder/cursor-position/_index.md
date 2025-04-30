@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/cursor-position/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cursor Position In Word Document
@@ -145,9 +148,13 @@ Yes, Aspose.Words is fully compatible with .NET Core, allowing you to build cros
 You can find comprehensive documentation for Aspose.Words for .NET [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

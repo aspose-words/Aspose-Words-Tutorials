@@ -1,14 +1,16 @@
 ---
-title: Zbuduj tabelę ze stylem
-linktitle: Zbuduj tabelę ze stylem
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak tworzyć i stylizować tabele w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/build-table-with-style/
+"description": "Dowiedz się, jak tworzyć i stylizować tabele w dokumentach programu Word za pomocą pakietu Aspose.Words for .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Zbuduj tabelę ze stylem"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zbuduj tabelę ze stylem"
+"url": "/pl/net/programming-with-table-styles-and-formatting/build-table-with-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zbuduj tabelę ze stylem
@@ -21,7 +23,7 @@ Tworzenie stylowych, profesjonalnych dokumentów często wymaga czegoś więcej 
 
 Zanim przejdziemy do szczegółowego przewodnika, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj[Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj [Aspose.Words dla .NET](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Powinieneś mieć skonfigurowane środowisko programistyczne. Visual Studio jest świetną opcją dla tego samouczka.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
 
@@ -36,7 +38,7 @@ using Aspose.Words.Tables;
 
 ## Krok 1: Utwórz nowy dokument i DocumentBuilder
 
- Przede wszystkim musisz utworzyć nowy dokument i`DocumentBuilder` obiekt. To`DocumentBuilder` pomoże Ci utworzyć tabelę w Twoim dokumencie.
+Przede wszystkim musisz utworzyć nowy dokument i `DocumentBuilder` obiekt. To `DocumentBuilder` pomoże Ci utworzyć tabelę w Twoim dokumencie.
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -64,7 +66,7 @@ builder.InsertCell();
 
 ## Krok 4: Ustaw styl tabeli
 
- Po wstawieniu pierwszej komórki nadszedł czas na dodanie stylu do naszej tabeli. Użyjemy`StyleIdentifier` aby zastosować zdefiniowany styl.
+Po wstawieniu pierwszej komórki nadszedł czas na dodanie stylu do naszej tabeli. Użyjemy `StyleIdentifier` aby zastosować zdefiniowany styl.
 
 ```csharp
 // Ustaw styl tabeli używany na podstawie unikalnego identyfikatora stylu
@@ -82,7 +84,7 @@ table.StyleOptions = TableStyleOptions.FirstColumn | TableStyleOptions.RowBands 
 
 ## Krok 6: Dopasuj tabelę do zawartości
 
-Aby nasz stół wyglądał schludnie i czysto, możemy użyć`AutoFit` metoda dopasowania tabeli do jej zawartości.
+Aby nasz stół wyglądał schludnie i czysto, możemy użyć `AutoFit` metoda dopasowania tabeli do jej zawartości.
 
 ```csharp
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -134,7 +136,7 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.BuildTableWithStyle.docx
 
 ## Wniosek
 
-I masz! Udało Ci się stworzyć stylową tabelę w dokumencie Word przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia automatyzację i dostosowywanie dokumentów Word do Twoich dokładnych potrzeb. Niezależnie od tego, czy tworzysz raporty, faktury czy jakikolwiek inny typ dokumentu, Aspose.Words ma dla Ciebie rozwiązanie.
+I masz! Udało Ci się stworzyć stylową tabelę w dokumencie Worda przy użyciu Aspose.Words dla .NET. Ta potężna biblioteka ułatwia automatyzację i dostosowywanie dokumentów Worda do Twoich dokładnych potrzeb. Niezależnie od tego, czy tworzysz raporty, faktury czy jakikolwiek inny typ dokumentu, Aspose.Words ma dla Ciebie rozwiązanie.
 
 ## Najczęściej zadawane pytania
 
@@ -145,16 +147,21 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programistom tw
 Tak, Aspose.Words for .NET można używać do stylizowania zarówno nowych, jak i istniejących tabel w dokumentach Word.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną[Tutaj](https://purchase.aspose.com/buy).
+Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup pełną [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę automatyzować inne typy dokumentów za pomocą Aspose.Words dla .NET?
 Oczywiście! Aspose.Words dla .NET obsługuje różne typy dokumentów, w tym DOCX, PDF, HTML i inne.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Pełną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Pełną dokumentację i przykłady można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Khởi động lại danh sách tại mỗi phần
-linktitle: Khởi động lại danh sách tại mỗi phần
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách khởi động lại danh sách tại mỗi phần trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để quản lý danh sách hiệu quả.
-weight: 10
-url: /vi/net/working-with-list/restart-list-at-each-section/
+"description": "Tìm hiểu cách khởi động lại danh sách tại mỗi phần trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để quản lý danh sách hiệu quả."
+"linktitle": "Khởi động lại danh sách tại mỗi phần"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Khởi động lại danh sách tại mỗi phần"
+"url": "/vi/net/working-with-list/restart-list-at-each-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Khởi động lại danh sách tại mỗi phần
@@ -21,10 +23,10 @@ Việc tạo các tài liệu có cấu trúc và được tổ chức tốt đ�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất từ[Aspose phát hành](https://releases.aspose.com/words/net/) trang.
-2. Môi trường .NET: Thiết lập môi trường phát triển của bạn với .NET đã cài đặt.
+1. Aspose.Words cho .NET: Tải xuống và cài đặt phiên bản mới nhất từ [Aspose phát hành](https://releases.aspose.com/words/net/) trang.
+2. Môi trường .NET: Thiết lập môi trường phát triển với .NET đã cài đặt.
 3. Hiểu biết cơ bản về C#: Nên làm quen với ngôn ngữ lập trình C#.
-4.  Giấy phép Aspose: Bạn có thể lựa chọn[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
+4. Giấy phép Aspose: Bạn có thể lựa chọn [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn không có.
 
 ## Nhập không gian tên
 
@@ -57,7 +59,7 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 
 ## Bước 3: Truy cập Danh sách và Thiết lập Thuộc tính Khởi động lại
 
-Lấy lại danh sách bạn vừa tạo và thiết lập nó`IsRestartAtEachSection`tài sản để`true`. Điều này đảm bảo danh sách sẽ bắt đầu đánh số lại ở mỗi phần mới.
+Lấy lại danh sách bạn vừa tạo và thiết lập nó `IsRestartAtEachSection` tài sản để `true`. Điều này đảm bảo danh sách sẽ bắt đầu đánh số lại ở mỗi phần mới.
 
 ```csharp
 List list = doc.Lists[0];
@@ -66,7 +68,7 @@ list.IsRestartAtEachSection = true;
 
 ## Bước 4: Tạo Trình xây dựng tài liệu và liên kết danh sách
 
- Tạo một`DocumentBuilder` để chèn nội dung vào tài liệu và liên kết nó với danh sách.
+Tạo một `DocumentBuilder` để chèn nội dung vào tài liệu và liên kết nó với danh sách.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,19 +108,24 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 Có, Aspose.Words for .NET cho phép bạn khởi động lại nhiều loại danh sách khác nhau, bao gồm danh sách có dấu đầu dòng và danh sách được đánh số.
 
 ### Tôi phải làm sao nếu muốn tùy chỉnh định dạng đánh số?
- Bạn có thể tùy chỉnh định dạng đánh số bằng cách sửa đổi`ListTemplate` thuộc tính khi tạo danh sách.
+Bạn có thể tùy chỉnh định dạng đánh số bằng cách sửa đổi `ListTemplate` thuộc tính khi tạo danh sách.
 
 ### Có giới hạn số lượng mục trong danh sách không?
-Không, không có giới hạn cụ thể về số lượng mục bạn có thể có trong danh sách khi sử dụng Aspose.Words cho .NET.
+Không, không có giới hạn cụ thể nào về số lượng mục bạn có thể có trong danh sách khi sử dụng Aspose.Words cho .NET.
 
 ### Tôi có thể sử dụng tính năng này ở các định dạng tài liệu khác như PDF không?
 Có, bạn có thể sử dụng Aspose.Words để chuyển đổi tài liệu Word sang các định dạng khác như PDF trong khi vẫn giữ nguyên cấu trúc danh sách.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể nhận được bản dùng thử miễn phí từ[Aspose phát hành](https://releases.aspose.com/) trang.
+Bạn có thể nhận được bản dùng thử miễn phí từ [Aspose phát hành](https://releases.aspose.com/) trang.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,79 +1,81 @@
 ---
-title: Aktivera Inaktivera teckensnittsersättning
-linktitle: Aktivera Inaktivera teckensnittsersättning
-second_title: Aspose.Words Document Processing API
-description: Lär dig hur du aktiverar eller inaktiverar teckensnittsersättning i Word-dokument med Aspose.Words för .NET. Se till att dina dokument ser konsekventa ut på alla plattformar.
-weight: 10
-url: /sv/net/working-with-fonts/enable-disable-font-substitution/
+"description": "Lär dig hur du aktiverar eller inaktiverar teckensnittsersättning i Word-dokument med Aspose.Words för .NET. Se till att dina dokument ser enhetliga ut på alla plattformar."
+"linktitle": "Aktivera Inaktivera teckensnittsersättning"
+"second_title": "Aspose.Words dokumentbehandlings-API"
+"title": "Aktivera Inaktivera teckensnittsersättning"
+"url": "/sv/net/working-with-fonts/enable-disable-font-substitution/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktivera Inaktivera teckensnittsersättning
 
 ## Introduktion
 
-Har du någonsin hamnat i en situation där dina noggrant valda teckensnitt i ett Word-dokument ersätts när de visas på en annan dator? Irriterande, eller hur? Detta händer på grund av teckensnittsersättning, en process där systemet ersätter ett saknat teckensnitt med ett tillgängligt. Men oroa dig inte! Med Aspose.Words för .NET kan du enkelt hantera och kontrollera teckensnittsersättning. I den här handledningen går vi igenom stegen för att aktivera eller inaktivera teckensnittsersättning i dina Word-dokument, för att säkerställa att dina dokument alltid ser ut precis som du vill ha dem.
+Har du någonsin hamnat i en situation där dina noggrant utvalda teckensnitt i ett Word-dokument ersätts när det visas på en annan dator? Irriterande, eller hur? Detta händer på grund av teckensnittsersättning, en process där systemet ersätter ett saknat teckensnitt med ett tillgängligt. Men oroa dig inte! Med Aspose.Words för .NET kan du enkelt hantera och kontrollera teckensnittsersättning. I den här handledningen guidar vi dig genom stegen för att aktivera eller inaktivera teckensnittsersättning i dina Word-dokument, så att dina dokument alltid ser ut precis som du vill.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan vi dyker in i stegen, låt oss se till att du har allt du behöver:
+Innan vi går vidare till stegen, låt oss se till att du har allt du behöver:
 
--  Aspose.Words för .NET: Ladda ner den senaste versionen[här](https://releases.aspose.com/words/net/).
+- Aspose.Words för .NET: Ladda ner den senaste versionen [här](https://releases.aspose.com/words/net/).
 - Visual Studio: Alla versioner som stöder .NET.
-- Grundläggande kunskaper om C#: Detta hjälper dig att följa med i kodningsexemplen.
+- Grundläggande kunskaper i C#: Detta hjälper dig att följa kodningsexemplen.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att komma igång, se till att du har de nödvändiga namnrymden importerade i ditt projekt. Lägg till dessa överst i din C#-fil:
+För att komma igång, se till att du har importerat de nödvändiga namnrymderna i ditt projekt. Lägg till dessa högst upp i din C#-fil:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Låt oss nu dela upp processen i enkla, hanterbara steg.
+Nu ska vi dela upp processen i enkla, hanterbara steg.
 
 ## Steg 1: Konfigurera ditt projekt
 
-Skapa först ett nytt projekt i Visual Studio och lägg till en referens till Aspose.Words for .NET-biblioteket. Om du inte redan har gjort det, ladda ner den från[Aspose hemsida](https://releases.aspose.com/words/net/).
+Först, skapa ett nytt projekt i Visual Studio och lägg till en referens till Aspose.Words för .NET-biblioteket. Om du inte redan har gjort det, ladda ner det från [Aspose webbplats](https://releases.aspose.com/words/net/).
 
 ## Steg 2: Ladda ditt dokument
 
 Ladda sedan in dokumentet du vill arbeta med. Så här gör du:
 
 ```csharp
-// Sökväg till din dokumentkatalog
+// Sökväg till din dokumentkatalog 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Ersätta`"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din dokumentkatalog. Den här koden laddar dokumentet i minnet så att du kan manipulera det.
+Ersätta `"YOUR DOCUMENT DIRECTORY"` med den faktiska sökvägen till din dokumentkatalog. Den här koden laddar dokumentet till minnet så att du kan manipulera det.
 
 ## Steg 3: Konfigurera teckensnittsinställningar
 
- Låt oss nu skapa en`FontSettings` objekt för att hantera inställningarna för teckensnittsersättning:
+Nu ska vi skapa en `FontSettings` objekt för att hantera inställningarna för teckensnittsersättning:
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 ```
 
-## Steg 4: Ställ in standardtypsnittsersättning
+## Steg 4: Ställ in standardteckensnittsersättning
 
-Ställ in standardtypsnittsersättningen till ett teckensnitt som du väljer. Detta teckensnitt kommer att användas om det ursprungliga teckensnittet inte är tillgängligt:
+Ställ in standardteckensnittsersättningen till ett teckensnitt du själv väljer. Detta teckensnitt används om originalteckensnittet inte är tillgängligt:
 
 ```csharp
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
 ```
 
-I det här exemplet använder vi Arial som standardteckensnitt.
+det här exemplet använder vi Arial som standardteckensnitt.
 
-## Steg 5: Inaktivera Font Info Substitution
+## Steg 5: Inaktivera ersättning av teckensnittsinformation
 
-För att inaktivera teckensnittsinformationsersättning, som hindrar systemet från att ersätta saknade teckensnitt med tillgängliga, använder du följande kod:
+För att inaktivera ersättning av teckensnittsinformation, vilket hindrar systemet från att ersätta saknade teckensnitt med tillgängliga, använd följande kod:
 
 ```csharp
 fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
@@ -89,7 +91,7 @@ doc.FontSettings = fontSettings;
 
 ## Steg 7: Spara ditt dokument
 
-Slutligen, spara ditt ändrade dokument. Du kan spara den i vilket format du vill. För den här handledningen sparar vi den som en PDF:
+Slutligen, spara ditt ändrade dokument. Du kan spara det i vilket format du vill. I den här handledningen sparar vi det som en PDF:
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.EnableDisableFontSubstitution.pdf");
@@ -97,32 +99,37 @@ doc.Save(dataDir + "WorkingWithFonts.EnableDisableFontSubstitution.pdf");
 
 ## Slutsats
 
-Och där har du det! Genom att följa dessa steg kan du enkelt kontrollera teckensnittsersättning i dina Word-dokument med Aspose.Words för .NET. Detta säkerställer att dina dokument behåller sitt avsedda utseende och känsla, oavsett var de visas.
+Och där har du det! Genom att följa dessa steg kan du enkelt styra teckensnittsersättning i dina Word-dokument med hjälp av Aspose.Words för .NET. Detta säkerställer att dina dokument behåller sitt avsedda utseende och känsla, oavsett var de visas.
 
-## FAQ's
+## Vanliga frågor
 
-### Kan jag använda andra typsnitt än Arial för ersättning?
+### Kan jag använda andra typsnitt än Arial som ersättning?
 
- Absolut! Du kan ange alla teckensnitt som är tillgängliga på ditt system genom att ändra teckensnittsnamnet i`DefaultFontName` egendom.
+Absolut! Du kan ange vilket teckensnitt som helst som finns tillgängligt på ditt system genom att ändra teckensnittsnamnet i `DefaultFontName` egendom.
 
 ### Vad händer om det angivna standardteckensnittet inte är tillgängligt?
 
-Om standardteckensnittet inte är tillgängligt kommer Aspose.Words att använda en reservmekanism för att hitta en lämplig ersättning.
+Om standardteckensnittet inte är tillgängligt kommer Aspose.Words att använda en systemåterställningsmekanism för att hitta en lämplig ersättning.
 
-### Kan jag aktivera teckensnittsersättning igen efter att ha inaktiverat det?
+### Kan jag aktivera teckensnittsersättning igen efter att jag har inaktiverat det?
 
- Ja, du kan växla mellan`Enabled` egendom av`FontInfoSubstitution` tillbaka till`true` om du vill aktivera teckensnittsersättning igen.
+Ja, du kan växla `Enabled` egendom av `FontInfoSubstitution` tillbaka till `true` om du vill aktivera teckensnittsersättning igen.
 
 ### Finns det något sätt att kontrollera vilka typsnitt som ersätts?
 
 Ja, Aspose.Words tillhandahåller metoder för att logga och spåra teckensnittsersättning, så att du kan se vilka teckensnitt som ersätts.
 
-### Kan jag använda den här metoden för andra dokumentformat än DOCX?
+### Kan jag använda den här metoden för andra dokumentformat förutom DOCX?
 
-Definitivt! Aspose.Words stöder olika format, och du kan tillämpa dessa teckensnittsinställningar på alla format som stöds.
+Absolut! Aspose.Words stöder olika format, och du kan tillämpa dessa teckensnittsinställningar på alla format som stöds.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bidang Lanjutan Tanpa Pembuat Dokumen
-linktitle: Masukkan Bidang Lanjutan Tanpa Pembuat Dokumen
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan kolom lanjutan tanpa menggunakan DocumentBuilder di Aspose.Words untuk .NET. Ikuti panduan ini untuk meningkatkan keterampilan pemrosesan dokumen Anda.
-weight: 10
-url: /id/net/working-with-fields/insert-advance-field-with-out-document-builder/
+"description": "Pelajari cara menyisipkan kolom lanjutan tanpa menggunakan DocumentBuilder di Aspose.Words untuk .NET. Ikuti panduan ini untuk meningkatkan keterampilan pemrosesan dokumen Anda."
+"linktitle": "Masukkan Bidang Lanjutan Tanpa Pembuat Dokumen"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bidang Lanjutan Tanpa Pembuat Dokumen"
+"url": "/id/net/working-with-fields/insert-advance-field-with-out-document-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bidang Lanjutan Tanpa Pembuat Dokumen
@@ -21,10 +23,10 @@ Apakah Anda ingin menyempurnakan manipulasi dokumen Word Anda menggunakan Aspose
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Pustaka Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi terbaru apa pun bisa digunakan.
 - Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
--  Lisensi Aspose.Words: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
+- Lisensi Aspose.Words: Dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) jika Anda tidak memilikinya.
 
 ## Mengimpor Ruang Nama
 
@@ -58,7 +60,7 @@ Sekarang setelah proyek kita disiapkan, kita perlu menginisialisasi dokumen baru
 
 ### Inisialisasi Dokumen
 
-1.  Di dalam kamu`Program.cs` file, mulailah dengan membuat dokumen baru:
+1. Di dalam kamu `Program.cs` file, mulailah dengan membuat dokumen baru:
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -89,7 +91,7 @@ Sekarang, mari masukkan kolom lanjutan ke dalam paragraf kita.
 FieldAdvance field = (FieldAdvance)para.AppendField(FieldType.FieldAdvance, false);
 ```
 
-Ini menciptakan kolom lanjutan baru dalam paragraf kita.
+Ini menciptakan kolom lanjutan baru di paragraf kita.
 
 ### Tetapkan Properti Bidang
 
@@ -146,18 +148,23 @@ Ya, Anda dapat menggunakan DocumentBuilder untuk menyisipkan bidang lanjutan, te
 
 ### Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.Words?
 
- Anda dapat menemukan dokumentasi dan contoh yang lengkap di[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) halaman.
+Anda dapat menemukan dokumentasi dan contoh yang lengkap di [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) halaman.
 
 ### Apakah Aspose.Words untuk .NET gratis untuk digunakan?
 
- Aspose.Words untuk .NET menawarkan uji coba gratis, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/)Untuk fungsionalitas penuh, Anda perlu membeli lisensi.
+Aspose.Words untuk .NET menawarkan uji coba gratis, yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk fungsionalitas penuh, Anda perlu membeli lisensi.
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Words untuk .NET?
 
- Untuk dukungan, Anda dapat mengunjungi[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Untuk dukungan, Anda dapat mengunjungi [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

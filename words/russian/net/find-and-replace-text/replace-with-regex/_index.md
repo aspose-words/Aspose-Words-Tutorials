@@ -1,14 +1,16 @@
 ---
-title: Заменить регулярным выражением
-linktitle: Заменить регулярным выражением
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как использовать регулярные выражения для поиска и замены в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы освоить манипуляцию текстом.
-weight: 10
-url: /ru/net/find-and-replace-text/replace-with-regex/
+"description": "Узнайте, как использовать регулярные выражения для поиска и замены в документах Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы освоить манипуляцию текстом."
+"linktitle": "Заменить регулярным выражением"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Заменить регулярным выражением"
+"url": "/ru/net/find-and-replace-text/replace-with-regex/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заменить регулярным выражением
@@ -20,13 +22,13 @@ url: /ru/net/find-and-replace-text/replace-with-regex/
 ## Предпосылки
 
 Прежде чем начать, давайте убедимся, что у нас есть все необходимое:
-1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам необходимо установить Aspose.Words for .NET. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: IDE, подобная Visual Studio, в которой вы можете писать и запускать свой код C#.
 3. Базовые знания C# и Regex: знакомство с C# и базовое понимание регулярных выражений будет полезным.
 
 ## Импорт пространств имен
 
-Первым делом нам нужно импортировать необходимые пространства имен. В вашем файле C# добавьте следующие операторы using вверху:
+Прежде всего, нам нужно импортировать необходимые пространства имен. В вашем файле C# добавьте следующие операторы using вверху:
 
 ```csharp
 using System;
@@ -44,11 +46,11 @@ using Aspose.Words.Replacing;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к вашему каталогу.
 
 ## Шаг 2: Создайте новый документ
 
- Далее мы создадим новый документ и`DocumentBuilder` добавить начальный текст.
+Далее мы создадим новый документ и `DocumentBuilder` добавить начальный текст.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ builder.Writeln("sad mad bad");
 
 ## Шаг 3: Определите параметры поиска и замены
 
- Чтобы выполнить замену регулярного выражения, нам нужно настроить некоторые параметры.`FindReplaceOptions`класс позволяет нам указать, как должна вести себя операция поиска и замены.
+Чтобы выполнить замену регулярного выражения, нам нужно настроить некоторые параметры. `FindReplaceOptions` класс позволяет нам указать, как должна вести себя операция поиска и замены.
 
 ```csharp
 FindReplaceOptions options = new FindReplaceOptions();
@@ -71,13 +73,13 @@ FindReplaceOptions options = new FindReplaceOptions();
 
 ## Шаг 4: Выполните замену регулярного выражения
 
- А теперь самое интересное! Мы будем использовать`Range.Replace` метод замены всех вхождений слов «sad» или «mad» на «bad» с использованием регулярного выражения.
+А теперь самое интересное! Мы будем использовать `Range.Replace` метод замены всех вхождений слов «sad» или «mad» на «bad» с использованием регулярного выражения.
 
 ```csharp
 doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 ```
 
- Шаблон регулярного выражения`[s|m]ad` соответствует любому слову, заканчивающемуся на "ad", которое начинается с "s" или "m". Заменяющая строка "bad" заменит все найденные совпадения.
+Шаблон регулярного выражения `[s|m]ad` соответствует любому слову, заканчивающемуся на "ad", которое начинается с "s" или "m". Заменяющая строка "bad" заменит все найденные совпадения.
 
 ## Шаг 5: Сохраните измененный документ.
 
@@ -87,7 +89,7 @@ doc.Range.Replace(new Regex("[s|m]ad"), "bad", options);
 doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 ```
 
- Эта строка сохраняет документ с именем файла`FindAndReplace.ReplaceWithRegex.docx` в каталоге, указанном`dataDir`.
+Эта строка сохраняет документ с именем файла `FindAndReplace.ReplaceWithRegex.docx` в каталоге, указанном `dataDir`.
 
 ## Заключение
 
@@ -109,9 +111,14 @@ doc.Save(dataDir + "FindAndReplace.ReplaceWithRegex.docx");
 
 ### Могу ли я использовать Aspose.Words для .NET в веб-приложениях?  
 Да, Aspose.Words для .NET универсален и может использоваться в различных типах приложений, включая веб-приложения, настольные приложения и облачные приложения.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

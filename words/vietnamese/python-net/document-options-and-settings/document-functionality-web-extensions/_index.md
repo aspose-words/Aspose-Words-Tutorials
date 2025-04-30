@@ -1,14 +1,16 @@
 ---
-title: Mở rộng chức năng tài liệu bằng tiện ích mở rộng web
-linktitle: Mở rộng chức năng tài liệu bằng tiện ích mở rộng web
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
-weight: 13
-url: /vi/python-net/document-options-and-settings/document-functionality-web-extensions/
+"description": "Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch."
+"linktitle": "Mở rộng chức năng tài liệu bằng tiện ích mở rộng web"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Mở rộng chức năng tài liệu bằng tiện ích mở rộng web"
+"url": "/vi/python-net/document-options-and-settings/document-functionality-web-extensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mở rộng chức năng tài liệu bằng tiện ích mở rộng web
@@ -23,15 +25,15 @@ Tiện ích mở rộng web đã trở thành một phần không thể thiếu 
 Trước khi đi sâu vào các chi tiết kỹ thuật, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
 - Hiểu biết cơ bản về lập trình Python.
--  Tài liệu tham khảo API Aspose.Words cho Python (có tại[đây](https://reference.aspose.com/words/python-net/).
--  Truy cập vào thư viện Aspose.Words cho Python (tải xuống từ[đây](https://releases.aspose.com/words/python/).
+- Tài liệu tham khảo API Aspose.Words cho Python (có tại [đây](https://reference.aspose.com/words/python-net/).
+- Truy cập vào thư viện Aspose.Words cho Python (tải xuống từ [đây](https://releases.aspose.com/words/python/).
 
 ## Thiết lập Aspose.Words cho Python
 
 Để bắt đầu, hãy làm theo các bước sau để thiết lập Aspose.Words cho Python:
 
 1. Tải xuống thư viện Aspose.Words cho Python từ liên kết được cung cấp.
-2.  Cài đặt thư viện bằng trình quản lý gói thích hợp (ví dụ:`pip`).
+2. Cài đặt thư viện bằng trình quản lý gói thích hợp (ví dụ: `pip`).
 
 ```python
 pip install aspose-words
@@ -120,9 +122,14 @@ Aspose.Words hỗ trợ nhiều định dạng để lưu tài liệu, bao gồm
 ### Có cách nào để tối ưu hóa hiệu suất của tiện ích mở rộng web không?
 
 Để tối ưu hóa hiệu suất của tiện ích mở rộng web, hãy giảm thiểu các yêu cầu bên ngoài, sử dụng tải không đồng bộ và thực hiện thử nghiệm kỹ lưỡng trên các trình duyệt và thiết bị khác nhau.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

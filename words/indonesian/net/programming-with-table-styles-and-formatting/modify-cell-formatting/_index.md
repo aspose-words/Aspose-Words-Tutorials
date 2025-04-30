@@ -1,14 +1,16 @@
 ---
-title: Ubah Pemformatan Sel
-linktitle: Ubah Pemformatan Sel
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah pemformatan sel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/modify-cell-formatting/
+"description": "Pelajari cara mengubah pemformatan sel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Ubah Pemformatan Sel"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Pemformatan Sel"
+"url": "/id/net/programming-with-table-styles-and-formatting/modify-cell-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Pemformatan Sel
@@ -21,10 +23,10 @@ Jika Anda pernah kesulitan dengan dokumen Word, mencoba mendapatkan format sel y
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Words untuk .NET - Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET - Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Visual Studio - Atau IDE lain pilihan Anda.
 3. Pengetahuan dasar C# - Ini akan membantu Anda mengikuti contoh kode.
-4.  Dokumen Word - Secara khusus, dokumen yang berisi tabel. Kita akan menggunakan file bernama`Tables.docx`.
+4. Dokumen Word - Secara khusus, dokumen yang berisi tabel. Kita akan menggunakan file bernama `Tables.docx`.
 
 ## Mengimpor Ruang Nama
 
@@ -43,13 +45,13 @@ Sekarang, mari kita uraikan proses modifikasi pemformatan sel menjadi langkah-la
 Pertama-tama, Anda perlu memuat dokumen Word yang berisi tabel yang ingin Anda ubah. Ini seperti membuka berkas di pengolah kata favorit Anda, tetapi kita akan melakukannya secara terprogram.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Pada langkah ini, kami menggunakan`Document` kelas dari Aspose.Words untuk memuat dokumen. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Pada langkah ini, kami menggunakan `Document` kelas dari Aspose.Words untuk memuat dokumen. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Akses Tabel
 
@@ -59,7 +61,7 @@ Selanjutnya, Anda perlu mengakses tabel di dalam dokumen Anda. Anggap saja ini s
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
-Di sini, kami menggunakan`GetChild` metode untuk mendapatkan tabel pertama dalam dokumen.`NodeType.Table` parameter menentukan bahwa kita sedang mencari tabel, dan`0` menunjukkan tabel pertama.`true` parameter memastikan penelusuran mendalam, artinya akan menelusuri semua node anak.
+Di sini, kami menggunakan `GetChild` metode untuk mendapatkan tabel pertama dalam dokumen. `NodeType.Table` parameter menentukan bahwa kita sedang mencari tabel, dan `0` menunjukkan tabel pertama. `true` parameter memastikan penelusuran mendalam, artinya akan menelusuri semua node anak.
 
 ## Langkah 3: Pilih Sel Pertama
 
@@ -79,7 +81,7 @@ Salah satu tugas pemformatan yang paling umum adalah menyesuaikan lebar sel. Mar
 firstCell.CellFormat.Width = 30;
 ```
 
- Di sini, kami sedang mengatur`Width` properti format sel untuk`30`Ini mengubah lebar sel pertama menjadi 30 poin.
+Di sini, kami sedang mengatur `Width` properti format sel untuk `30`Ini mengubah lebar sel pertama menjadi 30 poin.
 
 ## Langkah 5: Ubah Orientasi Teks
 
@@ -89,7 +91,7 @@ Selanjutnya, mari kita bersenang-senang dengan orientasi teks. Kita akan memutar
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 ```
 
- Dengan mengatur`Orientation`properti untuk`TextOrientation.Downward`kita telah memutar teks di dalam sel agar menghadap ke bawah. Ini dapat berguna untuk membuat tajuk tabel atau catatan samping yang unik.
+Dengan mengatur `Orientation` properti untuk `TextOrientation.Downward`kita telah memutar teks di dalam sel agar menghadap ke bawah. Ini dapat berguna untuk membuat tajuk tabel atau catatan samping yang unik.
 
 ## Langkah 6: Terapkan Cell Shading
 
@@ -99,7 +101,7 @@ Terakhir, mari tambahkan sedikit warna ke sel kita. Kita akan mewarnainya dengan
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 ```
 
- Pada langkah ini, kami menggunakan`Shading` properti untuk mengatur`ForegroundPatternColor` ke`Color.LightGreen`Ini menambahkan warna latar belakang hijau muda ke sel, membuatnya menonjol.
+Pada langkah ini, kami menggunakan `Shading` properti untuk mengatur `ForegroundPatternColor` ke `Color.LightGreen`Ini menambahkan warna latar belakang hijau muda ke sel, membuatnya menonjol.
 
 ## Kesimpulan
 
@@ -111,7 +113,7 @@ Nah, itu dia! Kami telah berhasil mengubah format sel dalam dokumen Word menggun
 Ya, Anda dapat melakukan pengulangan melalui sel dalam tabel dan menerapkan format yang sama pada setiap sel.
 
 ### Bagaimana cara menyimpan dokumen yang sudah dimodifikasi?
- Gunakan`doc.Save("output.docx")` metode untuk menyimpan perubahan Anda.
+Gunakan `doc.Save("output.docx")` metode untuk menyimpan perubahan Anda.
 
 ### Mungkinkah menerapkan warna yang berbeda pada sel yang berbeda?
 Tentu saja! Akses saja setiap sel satu per satu dan atur bayangannya.
@@ -120,10 +122,15 @@ Tentu saja! Akses saja setiap sel satu per satu dan atur bayangannya.
 Aspose.Words untuk .NET dirancang untuk bahasa .NET seperti C#, tetapi ada juga versi untuk platform lain.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Anda dapat menemukan dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

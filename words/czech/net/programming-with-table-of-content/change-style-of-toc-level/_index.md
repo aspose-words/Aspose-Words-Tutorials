@@ -1,33 +1,35 @@
 ---
-title: Změnit styl obsahu v dokumentu aplikace Word
-linktitle: Změnit styl obsahu v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak změnit styl obsahu v dokumentech aplikace Word pomocí Aspose.Words for .NET, pomocí tohoto podrobného průvodce. Přizpůsobte si svůj TOC bez námahy.
-weight: 10
-url: /cs/net/programming-with-table-of-content/change-style-of-toc-level/
+"description": "Naučte se, jak změnit styl obsahu v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Přizpůsobte si obsah bez námahy."
+"linktitle": "Změna stylu obsahu v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Změna stylu obsahu v dokumentu Word"
+"url": "/cs/net/programming-with-table-of-content/change-style-of-toc-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změnit styl obsahu v dokumentu aplikace Word
+# Změna stylu obsahu v dokumentu Word
 
 ## Zavedení
 
-Pokud jste někdy potřebovali vytvořit profesionální dokument aplikace Word, víte, jak důležitý může být obsah (TOC). Nejenže uspořádá váš obsah, ale také dodá nádech profesionality. Přizpůsobit TOC tak, aby odpovídal vašemu stylu, však může být trochu složité. V tomto tutoriálu si projdeme, jak změnit styl obsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Jste připraveni se ponořit? Začněme!
+Pokud jste někdy potřebovali vytvořit profesionální dokument Word, víte, jak důležitý může být obsah (TOC). Nejenže uspořádá váš obsah, ale také dodá punc profesionality. Přizpůsobení obsahu vašemu stylu však může být trochu složité. V tomto tutoriálu si ukážeme, jak změnit styl obsahu v dokumentu Word pomocí Aspose.Words pro .NET. Jste připraveni se do toho pustit? Pojďme na to!
 
 ## Předpoklady
 
-Než skočíme do kódu, ujistěte se, že máte následující:
+Než se pustíme do kódu, ujistěte se, že máte následující:
 
-1.  Aspose.Words for .NET: Musíte mít nainstalovanou knihovnu Aspose.Words for .NET. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
+1. Aspose.Words pro .NET: Musíte mít nainstalovanou knihovnu Aspose.Words pro .NET. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Vývojové prostředí, jako je Visual Studio.
-3. Základní znalost C#: Pochopení programovacího jazyka C#.
+3. Základní znalost C#: Znalost programovacího jazyka C#.
 
 ## Importovat jmenné prostory
 
-Chcete-li pracovat s Aspose.Words pro .NET, budete muset importovat potřebné jmenné prostory. Můžete to udělat takto:
+Pro práci s Aspose.Words pro .NET budete muset importovat potřebné jmenné prostory. Zde je návod, jak to udělat:
 
 ```csharp
 using System;
@@ -35,18 +37,18 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Pojďme si tento proces rozdělit do snadno pochopitelných kroků:
+Rozdělme si proces do snadno sledovatelných kroků:
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Nejprve si nastavte projekt v sadě Visual Studio. Vytvořte nový projekt C# a přidejte odkaz na knihovnu Aspose.Words for .NET.
+Nejdříve si nastavte projekt ve Visual Studiu. Vytvořte nový projekt v C# a přidejte odkaz na knihovnu Aspose.Words pro .NET.
 
 ```csharp
-// Vytvořte nový dokument
+// Vytvořit nový dokument
 Document doc = new Document();
 ```
 
-## Krok 2: Upravte styl obsahu
+## Krok 2: Úprava stylu obsahu
 
 Dále upravme styl první úrovně obsahu (TOC).
 
@@ -55,41 +57,46 @@ Dále upravme styl první úrovně obsahu (TOC).
 doc.Styles[StyleIdentifier.Toc1].Font.Bold = true;
 ```
 
-## Krok 3: Uložte upravený dokument
+## Krok 3: Uložení upraveného dokumentu
 
-Po provedení nezbytných změn ve stylu obsahu uložte upravený dokument.
+Po provedení potřebných změn stylu obsahu uložte upravený dokument.
 
 ```csharp
-// Cesta k adresáři vašich dokumentů
+// Cesta k adresáři s vašimi dokumenty
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
-// Uložte upravený dokument
+// Uložit upravený dokument
 doc.Save(dataDir + "WorkingWithChangeStyleOfTocLevel.ModifiedDocument.docx");
 ```
 
 ## Závěr
 
-A tady to máte! Úspěšně jste změnili styl obsahu v dokumentu aplikace Word pomocí Aspose.Words for .NET. Toto malé přizpůsobení může mít velký vliv na celkový vzhled a dojem z vašeho dokumentu. Nezapomeňte experimentovat s jinými styly a úrovněmi, abyste si plně přizpůsobili svůj obsah.
+A tady to máte! Úspěšně jste změnili styl obsahu v dokumentu Word pomocí Aspose.Words pro .NET. Tato malá úprava může mít velký vliv na celkový vzhled a dojem z vašeho dokumentu. Nezapomeňte experimentovat s dalšími styly a úrovněmi, abyste si obsah plně přizpůsobili.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je knihovna tříd pro vytváření, úpravy a převod dokumentů aplikace Word v aplikacích .NET.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je knihovna tříd pro vytváření, úpravy a převod dokumentů Wordu v aplikacích .NET.
 
 ### Mohu změnit jiné styly v obsahu?
-Ano, můžete upravit různé styly v rámci obsahu přístupem k různým úrovním a vlastnostem stylu.
+Ano, různé styly v obsahu můžete upravovat přístupem k různým úrovním a vlastnostem stylu.
 
-### Je Aspose.Words for .NET zdarma?
- Aspose.Words for .NET je placená knihovna, ale můžete získat a[zkušební verze zdarma](https://releases.aspose.com/) nebo a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+### Je Aspose.Words pro .NET zdarma?
+Aspose.Words pro .NET je placená knihovna, ale můžete si ji pořídit [bezplatná zkušební verze](https://releases.aspose.com/) nebo a [dočasná licence](https://purchase.aspose.com/temporary-license/).
 
-### Musím nainstalovat Microsoft Word, abych mohl používat Aspose.Words pro .NET?
-Ne, Aspose.Words for .NET nevyžaduje instalaci aplikace Microsoft Word na váš počítač.
+### Musím si pro používání Aspose.Words pro .NET nainstalovat Microsoft Word?
+Ne, Aspose.Words pro .NET nevyžaduje instalaci aplikace Microsoft Word na vašem počítači.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Můžete najít podrobnější dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnější dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

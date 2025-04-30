@@ -1,14 +1,16 @@
 ---
-title: Chèn bảng trực tiếp
-linktitle: Chèn bảng trực tiếp
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn bảng trực tiếp vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để hợp lý hóa việc tạo tài liệu của bạn.
-weight: 10
-url: /vi/net/programming-with-tables/insert-table-directly/
+"description": "Tìm hiểu cách chèn bảng trực tiếp vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi để hợp lý hóa việc tạo tài liệu của bạn."
+"linktitle": "Chèn bảng trực tiếp"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn bảng trực tiếp"
+"url": "/vi/net/programming-with-tables/insert-table-directly/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn bảng trực tiếp
@@ -20,7 +22,7 @@ Việc tạo bảng theo chương trình có thể khá khó khăn, đặc biệ
 
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Words cho .NET. Bạn có thể lấy nó từ[trang tải xuống](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Words cho .NET. Bạn có thể lấy nó từ [trang tải xuống](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Môi trường phát triển như Visual Studio.
 3. Kiến thức cơ bản về C#: Hiểu những kiến thức cơ bản về lập trình C#.
 4. Thư mục tài liệu: Đường dẫn thư mục nơi bạn sẽ lưu tài liệu của mình.
@@ -45,13 +47,13 @@ Bây giờ chúng ta đã có không gian tên tại chỗ, hãy chuyển sang p
 Chúng ta hãy bắt đầu bằng cách thiết lập một tài liệu Word mới. Đây là nơi bảng của chúng ta sẽ được chèn vào.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Mã này khởi tạo một tài liệu Word mới. Bạn sẽ cần phải thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+Mã này khởi tạo một tài liệu Word mới. Bạn sẽ cần phải thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 
 ## Bước 2: Tạo đối tượng bảng
 
@@ -106,7 +108,7 @@ Trong đoạn mã này, chúng ta tạo một ô, đặt màu nền của ô th�
 
 ```csharp
 // Sau đó, chúng ta sẽ lặp lại quy trình này cho các ô và hàng khác trong bảng.
-//Chúng ta cũng có thể đẩy nhanh tiến độ bằng cách nhân bản các ô và hàng hiện có.
+// Chúng ta cũng có thể đẩy nhanh tiến độ bằng cách nhân bản các ô và hàng hiện có.
 row.AppendChild(cell.Clone(false));
 row.LastCell.AppendChild(new Paragraph(doc));
 row.LastCell.FirstParagraph.AppendChild(new Run(doc, "Row 1, Cell 2 Text"));
@@ -140,22 +142,27 @@ Xin chúc mừng! Bạn đã chèn thành công một bảng trực tiếp vào 
 ## Câu hỏi thường gặp
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho .NET?
- Bạn có thể tải xuống Aspose.Words cho .NET từ[trang tải xuống](https://releases.aspose.com/words/net/).
+Bạn có thể tải xuống Aspose.Words cho .NET từ [trang tải xuống](https://releases.aspose.com/words/net/).
 
 ### Tôi có thể dùng thử Aspose.Words cho .NET trước khi mua không?
- Có, bạn có thể yêu cầu một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá thư viện trước khi mua.
+Có, bạn có thể yêu cầu một [dùng thử miễn phí](https://releases.aspose.com/) để đánh giá thư viện trước khi mua.
 
 ### Làm thế nào để mua Aspose.Words cho .NET?
-Bạn có thể mua Aspose.Words cho .NET từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Words cho .NET từ [trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/words/net/).
+Tài liệu có sẵn [đây](https://reference.aspose.com/words/net/).
 
 ### Tôi phải làm sao nếu cần hỗ trợ khi sử dụng Aspose.Words cho .NET?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

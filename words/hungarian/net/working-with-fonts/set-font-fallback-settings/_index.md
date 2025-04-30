@@ -1,35 +1,37 @@
 ---
-title: Állítsa be a Font Backback beállításokat
-linktitle: Állítsa be a Font Backback beállításokat
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan állíthatja be a tartalék betűkészlet-beállításokat az Aspose.Words for .NET-ben. Ez az átfogó útmutató biztosítja, hogy a dokumentumokban szereplő összes karakter helyesen jelenjen meg.
-weight: 10
-url: /hu/net/working-with-fonts/set-font-fallback-settings/
+"description": "Ismerd meg, hogyan állíthatod be a betűtípus-tartalék beállításokat az Aspose.Words for .NET programban. Ez az átfogó útmutató biztosítja, hogy a dokumentumokban minden karakter helyesen jelenjen meg."
+"linktitle": "Betűtípus-tartalék beállítások megadása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Betűtípus-tartalék beállítások megadása"
+"url": "/hu/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a Font Backback beállításokat
+# Betűtípus-tartalék beállítások megadása
 
 ## Bevezetés
 
-Különböző szövegelemeket, például különböző nyelveket vagy speciális karaktereket tartalmazó dokumentumok használatakor elengedhetetlen, hogy ezek az elemek helyesen jelenjenek meg. Az Aspose.Words for .NET a Font Fallback Settings nevű hatékony funkciót kínálja, amely segít a betűtípusok helyettesítésére vonatkozó szabályok meghatározásában, ha az eredeti betűtípus nem támogat bizonyos karaktereket. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan állíthatja be a tartalék betűkészlet-beállításokat az Aspose.Words for .NET használatával.
+Amikor olyan dokumentumokkal dolgozunk, amelyek változatos szöveges elemeket, például különböző nyelveket vagy speciális karaktereket tartalmaznak, elengedhetetlen, hogy ezek az elemek helyesen jelenjenek meg. Az Aspose.Words for .NET egy hatékony funkciót kínál, az úgynevezett Betűtípus-tartalékbeállításokat, amely segít szabályok meghatározásában a betűtípusok helyettesítésére, ha az eredeti betűtípus nem támogat bizonyos karaktereket. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan állíthatjuk be a Betűtípus-tartalékbeállításokat az Aspose.Words for .NET használatával.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következő előfeltételek teljesülnek:
 
-- C# alapismeretek: C# programozási nyelv és .NET keretrendszer ismerete.
--  Aspose.Words for .NET: Töltse le és telepítse a[letöltési link](https://releases.aspose.com/words/net/).
-- Fejlesztési környezet: Olyan beállítás, mint a Visual Studio a kód írásához és futtatásához.
--  Dokumentumminta: rendelkezzen mintadokumentummal (pl.`Rendering.docx`) készen áll a tesztelésre.
-- Font Fallback Rules XML: Készítsen egy XML-fájlt, amely meghatározza a font backback szabályokat.
+- C# alapismeretek: Jártasság a C# programozási nyelvben és a .NET keretrendszerben.
+- Aspose.Words .NET-hez: Töltse le és telepítse a következő címről: [letöltési link](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Egy olyan beállítás, mint a Visual Studio, a kód írásához és futtatásához.
+- Mintadokumentum: Készítsen elő egy mintadokumentumot (pl. `Rendering.docx`) tesztelésre kész.
+- Betűtípus-tartalék szabályok XML: Készítsen egy XML fájlt, amely meghatározza a betűtípus-tartalék szabályokat.
 
 ## Névterek importálása
 
-Az Aspose.Words használatához importálnia kell a szükséges névtereket. Ez lehetővé teszi a hozzáférést a dokumentumok feldolgozásához szükséges különféle osztályokhoz és módszerekhez.
+Az Aspose.Words használatához importálni kell a szükséges névtereket. Ez hozzáférést biztosít a dokumentumfeldolgozáshoz szükséges különféle osztályokhoz és metódusokhoz.
 
 ```csharp
 using Aspose.Words;
@@ -37,51 +39,51 @@ using Aspose.Words.Fonts;
 using System;
 ```
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Először határozza meg a könyvtárat, ahol a dokumentumot tárolja. Ez elengedhetetlen a dokumentum megkereséséhez és feldolgozásához.
+Először is, határozza meg a dokumentum tárolási könyvtárát. Ez elengedhetetlen a dokumentum megtalálásához és feldolgozásához.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## 2. lépés: Töltse be a dokumentumot
+## 2. lépés: A dokumentum betöltése
 
- Töltse be a dokumentumot egy Aspose.Words-be`Document` objektum. Ez a lépés lehetővé teszi, hogy programozottan dolgozzon a dokumentummal.
+Töltsd be a dokumentumodat egy Aspose.Words fájlba `Document` objektum. Ez a lépés lehetővé teszi a dokumentum programozott kezelését.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## 3. lépés: Konfigurálja a betűtípus-beállításokat
+## 3. lépés: Betűtípus-beállítások konfigurálása
 
- Hozzon létre egy újat`FontSettings` objektumot, és töltse be a tartalék font-beállításokat egy XML-fájlból. Ez az XML-fájl tartalmazza a tartalék betűkészlet szabályait.
+Hozz létre egy újat `FontSettings` objektumot, és töltse be a betűtípus-tartalék beállításait egy XML fájlból. Ez az XML fájl tartalmazza a betűtípus-tartalék szabályait.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 ```
 
-## 4. lépés: Alkalmazza a Betűtípus-beállításokat a dokumentumra
+## 4. lépés: Betűtípus-beállítások alkalmazása a dokumentumra
 
- Rendelje hozzá a konfigurált`FontSettings` dokumentumhoz. Ez biztosítja, hogy a betűkészlet-visszaállítási szabályok alkalmazásra kerüljenek a dokumentum renderelésekor.
+Rendelje hozzá a konfigurált `FontSettings` a dokumentumhoz. Ez biztosítja, hogy a betűtípus-tartalék szabályok érvényesek legyenek a dokumentum megjelenítésekor.
 
 ```csharp
 doc.FontSettings = fontSettings;
 ```
 
-## 5. lépés: Mentse el a dokumentumot
+## 5. lépés: A dokumentum mentése
 
-Végül mentse el a dokumentumot. A mentési művelet során a rendszer a tartalék betűkészlet-beállításokat használja a megfelelő betűkészlet-csere érdekében.
+Végül mentse el a dokumentumot. A mentési művelet során a betűtípus-tartalék beállítások lesznek érvényben a megfelelő betűtípus-helyettesítés biztosítása érdekében.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetFontFallbackSettings.pdf");
 ```
 
-## XML fájl: Font Fallback Rules
+## XML-fájl: Betűtípus-tartalék szabályok
 
-Íme egy példa arra, hogyan kell kinéznie a font tartalék szabályokat meghatározó XML-fájlnak:
+Íme egy példa arra, hogyan kell kinéznie a betűtípus-tartalék szabályokat meghatározó XML-fájlnak:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -99,32 +101,37 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontFallbackSettings.pdf");
 
 ## Következtetés
 
-Ha követi ezeket a lépéseket, hatékonyan állíthatja be és használhatja az Aspose.Words for .NET betűtípus-visszaállítási beállításait. Ez biztosítja, hogy a dokumentumok minden karaktert helyesen jelenítsenek meg, még akkor is, ha az eredeti betűtípus nem támogat bizonyos karaktereket. Ezeknek a beállításoknak a végrehajtása nagymértékben javítja a dokumentumok minőségét és olvashatóságát.
+A következő lépéseket követve hatékonyan beállíthatja és használhatja a Betűtípus-tartalék beállításokat az Aspose.Words for .NET programban. Ez biztosítja, hogy a dokumentumok minden karaktert helyesen jelenítsenek meg, még akkor is, ha az eredeti betűtípus nem támogat bizonyos karaktereket. Ezen beállítások alkalmazása nagymértékben javítja a dokumentumok minőségét és olvashatóságát.
 
 ## GYIK
 
-### 1. kérdés: Mi az a Font Fallback?
+### 1. kérdés: Mi az a betűtípus-tartalék?
 
-A Font Fallback egy olyan funkció, amely lehetővé teszi a betűtípusok helyettesítését, ha az eredeti betűtípus nem támogat bizonyos karaktereket, így biztosítva az összes szövegelem megfelelő megjelenítését.
+A Betűkészlet-tartalék egy olyan funkció, amely lehetővé teszi a betűtípusok helyettesítését, ha az eredeti betűtípus nem támogat bizonyos karaktereket, biztosítva az összes szöveges elem megfelelő megjelenítését.
 
 ### 2. kérdés: Megadhatok több tartalék betűtípust?
 
-Igen, több tartalék betűtípust is megadhat az XML-szabályokban. Az Aspose.Words az egyes betűtípusokat a megadott sorrendben ellenőrzi, amíg meg nem találja azt, amelyik támogatja a karaktert.
+Igen, több tartalék betűtípust is megadhatsz az XML szabályokban. Az Aspose.Words a megadott sorrendben ellenőrzi az egyes betűtípusokat, amíg meg nem találja a karaktert támogatót.
 
-### 3. kérdés: Honnan tölthetem le az Aspose.Words for .NET fájlt?
+### 3. kérdés: Hol tudom letölteni az Aspose.Words .NET-hez készült verzióját?
 
- Letöltheti a[Aspose letöltési oldal](https://releases.aspose.com/words/net/).
+Letöltheted innen: [Aspose letöltési oldal](https://releases.aspose.com/words/net/).
 
-### 4. kérdés: Hogyan hozhatom létre az XML-fájlt a font tartalék szabályokhoz?
+### 4. kérdés: Hogyan hozhatom létre az XML fájlt a betűtípus-tartalékszabályokhoz?
 
-Az XML fájl bármilyen szövegszerkesztővel létrehozható. Az oktatóanyagban található példában látható szerkezetet kell követnie.
+Az XML fájl bármilyen szövegszerkesztővel létrehozható. A példában bemutatott struktúrát kell követnie.
 
-### 5. kérdés: Van-e támogatás az Aspose.Words számára?
+### 5. kérdés: Van-e támogatás az Aspose.Words-höz?
 
- Igen, találsz támogatást a[Aspose.Words támogatási fórum](https://forum.aspose.com/c/words/8).
+Igen, támogatást találhatsz a következő oldalon: [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

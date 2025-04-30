@@ -1,14 +1,16 @@
 ---
-title: การแทรกไฮเปอร์ลิงก์ในเอกสาร Word
-linktitle: การแทรกไฮเปอร์ลิงก์ในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกไฮเปอร์ลิงก์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา เหมาะอย่างยิ่งสำหรับการสร้างเอกสารโดยอัตโนมัติ
-weight: 10
-url: /th/net/add-content-using-documentbuilder/insert-hyperlink/
+"description": "เรียนรู้วิธีการแทรกไฮเปอร์ลิงก์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา เหมาะอย่างยิ่งสำหรับการสร้างเอกสารโดยอัตโนมัติ"
+"linktitle": "การแทรกไฮเปอร์ลิงก์ในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การแทรกไฮเปอร์ลิงก์ในเอกสาร Word"
+"url": "/th/net/add-content-using-documentbuilder/insert-hyperlink/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแทรกไฮเปอร์ลิงก์ในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/add-content-using-documentbuilder/insert-hyperlink/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. Visual Studio: ควรใช้เวอร์ชันใดก็ได้ แต่ขอแนะนำให้ใช้เวอร์ชันล่าสุด
 3. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ไว้ในระบบของคุณแล้ว
 
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-มาแบ่งขั้นตอนการแทรกไฮเปอร์ลิงก์ออกเป็นหลายขั้นตอนเพื่อให้สามารถปฏิบัติตามได้ง่ายยิ่งขึ้น
+มาแบ่งขั้นตอนการแทรกไฮเปอร์ลิงก์ออกเป็นหลายขั้นตอนเพื่อให้สามารถปฏิบัติตามได้ง่ายขึ้น
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
@@ -45,11 +47,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: สร้างเอกสารใหม่
 
- ถัดไปเราสร้างเอกสารใหม่และเริ่มต้น`DocumentBuilder` . การ`DocumentBuilder` คลาสนี้มีวิธีการแทรกข้อความ รูปภาพ ตาราง และเนื้อหาอื่น ๆ ลงในเอกสาร
+ถัดไปเราสร้างเอกสารใหม่และเริ่มต้น `DocumentBuilder`. การ `DocumentBuilder` คลาสนี้มีวิธีการแทรกข้อความ รูปภาพ ตาราง และเนื้อหาอื่น ๆ ลงในเอกสาร
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 3: เขียนข้อความเริ่มต้น
 
- การใช้`DocumentBuilder`เราจะเขียนข้อความเริ่มต้นลงในเอกสาร ซึ่งจะกำหนดบริบทสำหรับตำแหน่งที่จะแทรกไฮเปอร์ลิงก์
+การใช้ `DocumentBuilder`เราจะเขียนข้อความเริ่มต้นลงในเอกสาร ซึ่งจะกำหนดบริบทสำหรับตำแหน่งที่จะแทรกไฮเปอร์ลิงก์
 
 ```csharp
 builder.Write("Please make sure to visit ");
@@ -74,7 +76,7 @@ builder.Font.Style = doc.Styles[StyleIdentifier.Hyperlink];
 
 ## ขั้นตอนที่ 5: แทรกไฮเปอร์ลิงก์
 
- ตอนนี้เราแทรกไฮเปอร์ลิงก์โดยใช้`InsertHyperlink` วิธีการนี้ใช้พารามิเตอร์สามตัว ได้แก่ ข้อความที่แสดง URL และค่าบูลีนที่ระบุว่าควรจัดรูปแบบลิงก์เป็นไฮเปอร์ลิงก์หรือไม่
+ตอนนี้เราแทรกไฮเปอร์ลิงก์โดยใช้ `InsertHyperlink` วิธีการนี้ใช้พารามิเตอร์สามตัว ได้แก่ ข้อความที่แสดง URL และค่าบูลีนที่ระบุว่าควรจัดรูปแบบลิงก์เป็นไฮเปอร์ลิงก์หรือไม่
 
 ```csharp
 builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", เท็จ);
@@ -112,26 +114,31 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHyperlink.docx");
 
 ### ฉันสามารถแทรกไฮเปอร์ลิงก์หลายรายการในเอกสารเดียวได้หรือไม่
 
- ใช่ คุณสามารถแทรกไฮเปอร์ลิงก์หลายรายการได้โดยการทำซ้ำ`InsertHyperlink` วิธีการสำหรับแต่ละลิงก์
+ใช่ คุณสามารถแทรกไฮเปอร์ลิงก์หลายรายการได้โดยการทำซ้ำ `InsertHyperlink` วิธีการสำหรับแต่ละลิงก์
 
 ### ฉันจะเปลี่ยนสีของไฮเปอร์ลิงค์ได้อย่างไร?
 
- คุณสามารถปรับเปลี่ยนรูปแบบไฮเปอร์ลิงก์ได้โดยการเปลี่ยน`Font.Color` ทรัพย์สินก่อนโทร`InsertHyperlink`.
+คุณสามารถปรับเปลี่ยนรูปแบบไฮเปอร์ลิงก์ได้โดยการเปลี่ยน `Font.Color` ทรัพย์สินก่อนโทร `InsertHyperlink`-
 
 ### ฉันสามารถเพิ่มไฮเปอร์ลิงก์ลงในรูปภาพได้หรือไม่
 
- ใช่คุณสามารถใช้`InsertHyperlink` วิธีการร่วมกับ`InsertImage` เพื่อเพิ่มไฮเปอร์ลิงก์ไปยังรูปภาพ
+ใช่คุณสามารถใช้ `InsertHyperlink` วิธีการร่วมกับ `InsertImage` เพื่อเพิ่มไฮเปอร์ลิงก์ไปยังรูปภาพ
 
 ### จะเกิดอะไรขึ้นถ้า URL ไม่ถูกต้อง?
 
- การ`InsertHyperlink` วิธีการนี้ไม่ตรวจสอบความถูกต้องของ URL ดังนั้น การตรวจสอบให้แน่ใจว่า URL ถูกต้องก่อนที่จะแทรกเข้าไปจึงเป็นสิ่งสำคัญ
+การ `InsertHyperlink` วิธีการนี้ไม่ตรวจสอบความถูกต้องของ URL ดังนั้น การตรวจสอบให้แน่ใจว่า URL ถูกต้องก่อนที่จะแทรกเข้าไปจึงเป็นสิ่งสำคัญ
 
 ### สามารถลบไฮเปอร์ลิงก์ออกหลังจากที่แทรกเข้าไปแล้วได้หรือไม่?
 
- ใช่ คุณสามารถลบไฮเปอร์ลิงก์ได้โดยเข้าถึง`FieldHyperlink` และโทรไปที่`Remove` วิธี.
+ใช่ คุณสามารถลบไฮเปอร์ลิงก์ได้โดยเข้าถึง `FieldHyperlink` และโทรไปที่ `Remove` วิธี.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

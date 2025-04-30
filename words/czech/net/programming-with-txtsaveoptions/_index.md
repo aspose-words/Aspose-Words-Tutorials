@@ -1,33 +1,40 @@
 ---
-title: Zpracování slov s možnostmi Txtsave
-linktitle: Zpracování slov s možnostmi Txtsave
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se programovat s možnostmi ukládání textových souborů v Aspose.Words pro .NET. Naučte se specifikovat kódování, formátovat text, spravovat zalomení řádků a další pomocí podrobných výukových programů a ukázkového kódu v C#.
-weight: 1700
-url: /cs/net/programming-with-txtsaveoptions/
+"description": "Naučte se programovat s možnostmi ukládání textových souborů v Aspose.Words pro .NET. Naučte se, jak zadat kódování, formátovat text, spravovat zalomení řádků a další s podrobnými tutoriály a ukázkovým kódem v C#."
+"linktitle": "Zpracování textu s možností ukládání textu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Zpracování textu s možností ukládání textu"
+"url": "/cs/net/programming-with-txtsaveoptions/"
+"weight": 1700
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zpracování slov s možnostmi Txtsave
+# Zpracování textu s možností ukládání textu
 
-Výukové programy Aspose.Words for .NET vás provedou různými funkcemi a způsoby použití knihovny v kontextu manipulace s dokumenty aplikace Word. Jeden z výukových programů se zaměřuje na textové zpracování s možnostmi uložení TXT a ukazuje, jak generovat textové soubory z dokumentů aplikace Word při zachování formátování a struktury obsahu. Naučíte se používat různé dostupné možnosti k přizpůsobení převodu dokumentů na textové soubory, jako je například určení oddělovače sloupců a správa prázdných míst.
+Výukové programy Aspose.Words pro .NET vás provedou různými funkcemi a využitím knihovny v kontextu manipulace s dokumenty Word. Jeden z výukových programů se zaměřuje na zpracování textu s možnostmi ukládání TXT a ukazuje vám, jak generovat textové soubory z dokumentů Word a zároveň zachovat formátování a strukturu obsahu. Naučíte se, jak používat různé dostupné možnosti k přizpůsobení převodu dokumentů do textových souborů, například určení oddělovače sloupců a správa bílých mezer.
 
-Tyto výukové programy poskytují podrobné pokyny spolu s ukázkovým kódem C#, které vám pomohou pochopit a procvičit si obsažené pojmy. Ať už jste začátečník nebo zkušený vývojář, najdete zde podrobné informace o tom, jak používat Aspose.Words pro .NET a jak z této výkonné knihovny pro manipulaci s dokumenty vytěžit maximum.
+Tyto tutoriály poskytují podrobné pokyny spolu s ukázkovým kódem C#, které vám pomohou porozumět probíraným konceptům a procvičit si je. Ať už jste začátečník nebo zkušený vývojář, najdete zde podrobné informace o tom, jak používat Aspose.Words pro .NET a jak z této výkonné knihovny pro manipulaci s dokumenty vytěžit maximum.
 
-Díky těmto výukovým programům budete schopni plně využít funkcionality Aspose.Words pro .NET a vyvinout efektivní řešení pro generování, konverzi a manipulaci s dokumenty Word ve vašich aplikacích. Postupujte podle pokynů, prozkoumejte příklady kódu a rozšiřte své dovednosti k vytváření robustních a vysoce výkonných aplikací Word.
+Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro .NET a vyvíjet efektivní řešení pro generování, konverzi a manipulaci s dokumenty Word ve vašich aplikacích. Postupujte podle kroků, prozkoumejte příklady kódu a rozvíjejte své dovednosti pro tvorbu robustních a vysoce výkonných aplikací Word.
 
- ## Tutoriály
-| Titul | Popis |
+ ## Návody
+| Název | Popis |
 | --- | --- |
-| [Přidejte Bidi značky do dokumentu Word](./add-bidi-marks/) | V této příručce se dozvíte, jak přidat obousměrné (Bidi) značky do dokumentů aplikace Word pomocí Aspose.Words for .NET. Zajistěte správný směr textu pro vícejazyčný obsah. |
-| [Pro odsazení seznamu použijte znak tabulátoru na úroveň](./use-tab-character-per-level-for-list-indentation/) | Naučte se vytvářet víceúrovňové seznamy s odsazením s kartami pomocí Aspose.Words for .NET. Postupujte podle tohoto průvodce pro přesné formátování seznamu ve vašich dokumentech. |
-| [Pro odsazení seznamu použijte mezeru na úroveň](./use-space-character-per-level-for-list-indentation/) | Zjistěte, jak v Aspose.Words for .NET vytvářet víceúrovňové seznamy s odsazením znaků mezery. Podrobný průvodce pro přesné formátování dokumentu. |
+| [Přidání oboustranných značek v dokumentu Word](./add-bidi-marks/) | Naučte se v tomto průvodci, jak přidávat obousměrné (Bidi) značky do dokumentů Wordu pomocí Aspose.Words pro .NET. Zajistěte správný směr textu pro vícejazyčný obsah. |
+| [Použít tabulátor na úroveň pro odsazení seznamu](./use-tab-character-per-level-for-list-indentation/) | Naučte se, jak vytvářet víceúrovňové seznamy s odsazením pomocí tabulátorů pomocí Aspose.Words pro .NET. Pro přesné formátování seznamů ve vašich dokumentech postupujte podle tohoto návodu. |
+| [Použijte mezeru na úroveň pro odsazení seznamu](./use-space-character-per-level-for-list-indentation/) | Naučte se, jak v Aspose.Words pro .NET vytvářet víceúrovňové seznamy s odsazením mezer. Podrobný návod pro přesné formátování dokumentů. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

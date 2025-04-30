@@ -1,44 +1,52 @@
 ---
-title: Tárgyformát hozz létre a Word dokumentumban Az Aspose.Words használatával .NET
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan lehet csoportosulást létrehozni a Word dokumentumban a .NET-hez használt Aspose.Words segítségével. Adjon több formát, személyre szabja a méreteket, és mentse meg a dokumentumot könnyedén.
-keywords: [Aspose.Words for .NET, group shape in Word, add shapes to document, .NET Word library, create shapes in Word, Word group shapes, shape customization, .NET example]
-url: /hu/net/working-with-shapes/add-group-shape/
+"description": "Tanuld meg, hogyan hozhatsz létre csoportos alakzatokat egy Word-dokumentumban az Aspose.Words for .NET segítségével. Több alakzatot is hozzáadhatsz, testreszabhatod a méreteket, és könnyedén mentheted a dokumentumodat."
+"title": "Csoportalakzat létrehozása Word-dokumentumban az Aspose.Words for .NET használatával"
+"url": "/hu/net/working-with-shapes/add-group-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tárgyformát hozz létre a Word dokumentumban az Aspose.Words segítségével
+# Csoportos alakzat létrehozása Word dokumentumban az Aspose.Words használatával
 
-Ez a tanár bemutatja, hogyan lehet létrehozni és kezelni a csoportformákat a Word dokumentumokban a .NET-hez használt Aspose.Words segítségével. Ezzel a hatékony könyvtárral könnyedén egyesítheti a több formát, mint például az akcentus határhívást és az akció gombot, egyetlen csoportformába. A útmutató minden lépést lefedi, a dokumentum kezdeményezésétől kezdve a formák hozzáadására, a dimenziók személyre szabására és a csoportformák beillesztésére a Word fájlokba. Végül a példa megőrzi a dokumentumot, bemutatva, hogyan integrálhatná a dinamikus formákat a Word dokumentumokban a vizuálisan vonzó eredmények érdekében.  
+Ez az oktatóanyag bemutatja, hogyan hozhat létre és kezelhet csoportos alakzatokat Word-dokumentumokban az Aspose.Words for .NET használatával. Ezzel a hatékony könyvtárral könnyedén kombinálhat több alakzatot, például egy hangsúlyos szegélyfeliratot és egy műveletgombot egyetlen csoportos alakzattá. Az útmutató minden lépést lefed, a dokumentum inicializálásától az alakzatok hozzáadásán és a méretek testreszabásán át a csoportos alakzat Word-fájlba való beszúrásáig. Végül a példa menti a dokumentumot, bemutatva, hogyan integrálhatja zökkenőmentesen a dinamikus alakzatokat a Word-dokumentumokba a vizuálisan vonzó eredmények elérése érdekében.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-shapes/add-group-shape" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
+## Telepítési utasítások  
 
-1. Letöltsd le az Aspose.Words .NET-hez:  
-   Látogasson el a[Célrahelyezd a letöltések oldalt](https://releases.aspose.com/words/net/)és letöltsd az Aspose.Words legújabb verzióját a .NET-re.
+1. Aspose.Words letöltése .NET-hez:  
+   Látogassa meg a [Aspose letöltési oldal](https://releases.aspose.com/words/net/) és töltse le az Aspose.Words for .NET legújabb verzióját.
 
-2. A NuGet segítségével telepítse:  
-   * Nyissa ki a projektét a Visual Studio-ban.  
-   * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
-   * Keresd a Aspose.Words névét a NuGet csomagkezelőben.  
-   * Kattintson a telepítésre, hogy a könyvtárat a projekthez hozzák hozzá.
+2. Telepítés NuGet-en keresztül:  
+   - Nyisd meg a projektedet a Visual Studioban.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Words fájlt a NuGet csomagkezelőben.  
+   - Kattintson a Telepítés gombra a könyvtár projekthez való hozzáadásához.
 
-3. A licenc aktiválása:  
-   * Szerezzenek engedélyt a [Célraállítson Vásárlási oldalt](https://purchase.aspose.com/buy)vagy kérelmezik a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
-   * A projektben a licenc aktiválása a `Aspose.Words. - A licenc.`\- A tanfolyam.
+3. Licenc aktiválása:  
+   - Szerezzen be engedélyt a [Aspose Vásárlási oldal](https://purchase.aspose.com/buy) vagy jelentkezzen egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).  
+   - Aktiválja a licencet a projektben a következő használatával: `Aspose.Words.License` osztály.
 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

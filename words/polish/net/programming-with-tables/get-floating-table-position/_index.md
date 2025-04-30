@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj pozycję pływającego stołu
-linktitle: Uzyskaj pozycję pływającego stołu
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak uzyskać pozycje tabeli pływającej w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik krok po kroku przeprowadzi Cię przez wszystko, co musisz wiedzieć.
-weight: 10
-url: /pl/net/programming-with-tables/get-floating-table-position/
+"description": "Dowiedz się, jak uzyskać pływające pozycje tabel w dokumentach Word za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik krok po kroku przeprowadzi Cię przez wszystko, co musisz wiedzieć."
+"linktitle": "Uzyskaj pozycję pływającego stołu"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Uzyskaj pozycję pływającego stołu"
+"url": "/pl/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj pozycję pływającego stołu
@@ -21,7 +23,7 @@ Jesteś gotowy, aby zanurzyć się w świecie Aspose.Words dla .NET? Dzisiaj zab
 
 Zanim przejdziemy do konkretów, jest kilka rzeczy, które musisz załatwić:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Visual Studio to świetna opcja.
 3. Przykładowy dokument: Będziesz potrzebować dokumentu Word z pływającą tabelą. Możesz go utworzyć lub użyć istniejącego dokumentu. 
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- W tym kroku zasadniczo mówisz Aspose.Words, gdzie znaleźć Twój dokument. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
+W tym kroku zasadniczo mówisz Aspose.Words, gdzie znaleźć Twój dokument. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do dokumentu.
 
 ## Krok 2: Uzyskaj dostęp do tabel w dokumencie
 
@@ -96,29 +98,34 @@ Właściwości te umożliwiają szczegółowy wgląd w sposób zakotwiczenia tab
 
 ## Wniosek
 
-I masz to! Wykonując te kroki, możesz łatwo pobrać i wydrukować właściwości pozycjonowania tabel pływających w dokumentach Worda za pomocą Aspose.Words dla .NET. Niezależnie od tego, czy automatyzujesz przetwarzanie dokumentów, czy po prostu interesujesz się układami tabel, ta wiedza z pewnością okaże się przydatna.
+masz to! Wykonując te kroki, możesz łatwo pobrać i wydrukować właściwości pozycjonowania tabel pływających w dokumentach Worda za pomocą Aspose.Words dla .NET. Niezależnie od tego, czy automatyzujesz przetwarzanie dokumentów, czy po prostu interesujesz się układami tabel, ta wiedza z pewnością okaże się przydatna.
 
 Pamiętaj, że praca z Aspose.Words dla .NET otwiera świat możliwości manipulacji dokumentami i automatyzacji. Miłego kodowania!
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest tabela pływająca w dokumentach Word?
-Pływająca tabela to tabela, która nie jest na stałe dołączona do tekstu, ale może się przemieszczać, zazwyczaj z tekstem owijanym wokół niej.
+Pływająca tabela to tabela, która nie jest na stałe dołączona do tekstu, ale może się przemieszczać, zazwyczaj z tekstem oblepiającym ją.
 
 ### Jak mogę stwierdzić, czy tabela jest pływająca, korzystając z Aspose.Words dla platformy .NET?
- Możesz sprawdzić, czy tabela jest pływająca, badając jej`TextWrapping` nieruchomość. Jeśli jest ustawiona na`TextWrapping.Around`, stół unosi się.
+Możesz sprawdzić, czy tabela jest pływająca, badając jej `TextWrapping` nieruchomość. Jeśli jest ustawiona na `TextWrapping.Around`, stół unosi się.
 
 ### Czy mogę zmienić właściwości pozycjonowania tabeli pływającej?
-Tak, korzystając z Aspose.Words dla .NET, można modyfikować właściwości pozycjonowania tabeli pływającej, aby dostosować jej układ.
+Tak, korzystając z Aspose.Words for .NET, można modyfikować właściwości pozycjonowania tabeli pływającej, aby dostosować jej układ.
 
 ### Czy Aspose.Words dla platformy .NET nadaje się do automatyzacji dokumentów na dużą skalę?
 Oczywiście! Aspose.Words dla .NET jest przeznaczony do wydajnej automatyzacji dokumentów i może sprawnie obsługiwać operacje na dużą skalę.
 
 ### Gdzie mogę znaleźć więcej informacji i zasobów na temat Aspose.Words dla .NET?
-Szczegółową dokumentację i zasoby można znaleźć na stronie[Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+Szczegółową dokumentację i zasoby można znaleźć na stronie [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

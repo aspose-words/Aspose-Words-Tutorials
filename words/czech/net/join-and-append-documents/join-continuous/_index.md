@@ -1,54 +1,56 @@
 ---
-title: Připojte se k průběžnému
-linktitle: Připojte se k průběžnému
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak hladce spojit dva dokumenty aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro hladké a efektivní slučování dokumentů.
-weight: 10
-url: /cs/net/join-and-append-documents/join-continuous/
+"description": "Naučte se, jak bezproblémově spojit dva dokumenty Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro hladké a efektivní sloučení dokumentů."
+"linktitle": "Připojit se k průběžnému programu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Připojit se k průběžnému programu"
+"url": "/cs/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Připojte se k průběžnému
+# Připojit se k průběžnému programu
 
 ## Zavedení
 
-Hledáte bezproblémové sloučení dvou dokumentů aplikace Word do jednoho bez přerušení? Aspose.Words for .NET nabízí fantastický způsob, jak toho dosáhnout pomocí funkce Continuous Section Break. Tento výukový program vás provede krok za krokem celým procesem a zajistí, že budete moci snadno připojit dokumenty bez jakýchkoli potíží. Pojďme se ponořit!
+Chcete bezproblémově sloučit dva dokumenty Wordu do jednoho bez jakýchkoli zalomení? Aspose.Words pro .NET nabízí fantastický způsob, jak toho dosáhnout, a to pomocí funkce Souvislé zalomení sekcí. Tento tutoriál vás krok za krokem provede celým procesem a zajistí, že dokumenty snadno a bez problémů spojíte. Pojďme se do toho pustit!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte vše, co potřebujete:
 
--  Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte[Aspose.Words for .NET](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Pokud jste tak ještě neučinili, stáhněte si a nainstalujte [Aspose.Words pro .NET](https://releases.aspose.com/words/net/).
 - Vývojové prostředí: Můžete použít Visual Studio nebo jakékoli jiné vývojové prostředí .NET.
-- Ukázkové dokumenty: Připravte si dva dokumenty aplikace Word, které chcete sloučit.
+- Ukázkové dokumenty: Mějte připravené dva dokumenty aplikace Word, které chcete sloučit.
 
 ## Importovat jmenné prostory
 
-Chcete-li používat Aspose.Words pro .NET, musíte do projektu importovat potřebné jmenné prostory. Postup je následující:
+Chcete-li používat Aspose.Words pro .NET, musíte do projektu importovat potřebné jmenné prostory. Postupujte takto:
 
 ```csharp
 using Aspose.Words;
 ```
 
-Nyní si pro přehlednost rozdělíme příklad do několika kroků.
+Nyní si pro přehlednost rozdělme příklad do několika kroků.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíme nastavit adresář, kde jsou uloženy vaše dokumenty. To našemu kódu umožní najít soubory, které chceme sloučit.
+Nejprve musíme nastavit adresář, kde jsou uloženy vaše dokumenty. To umožní našemu kódu najít soubory, které chceme sloučit.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše dokumenty uloženy.
 
-## Krok 2: Načtěte zdrojové a cílové dokumenty
+## Krok 2: Načtení zdrojového a cílového dokumentu
 
-Dále načteme zdrojové a cílové dokumenty do našeho programu. Toto jsou dva dokumenty, které chcete sloučit.
+Dále do našeho programu načteme zdrojový a cílový dokument. To jsou dva dokumenty, které chcete sloučit.
 
 ```csharp
 Document srcDoc = new Document(dataDir + "Document source.docx");
@@ -57,31 +59,31 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 Ujistěte se, že názvy souborů a cesty odpovídají skutečným souborům, které chcete použít.
 
-## Krok 3: Nastavte začátek sekce jako kontinuální
+## Krok 3: Nastavení začátku sekce jako nepřetržitého
 
- Aby se obsah zdrojového dokumentu objevil hned za cílovým dokumentem, musíme nastavit`SectionStart` vlastnost první sekce ve zdrojovém dokumentu na`Continuous`.
+Aby se obsah zdrojového dokumentu zobrazil ihned po cílovém dokumentu, musíme nastavit `SectionStart` vlastnost první sekce ve zdrojovém dokumentu na `Continuous`.
 
 ```csharp
-// Zajistěte, aby se dokument objevil přímo za obsahem cílového dokumentu.
+// Zobrazí dokument hned za obsahem cílového dokumentu.
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 ```
 
-Tím je zajištěno, že mezi dokumenty při jejich sloučení nebudou žádné přestávky.
+Díky tomu nebudou mezi dokumenty při sloučení žádné přerušení.
 
-## Krok 4: Připojte zdrojový dokument
+## Krok 4: Připojení zdrojového dokumentu
 
 Nyní připojíme zdrojový dokument k cílovému dokumentu. Tento krok zajistí, že obsah ze zdrojového dokumentu bude přidán na konec cílového dokumentu.
 
 ```csharp
-// Připojte zdrojový dokument pomocí původních stylů nalezených ve zdrojovém dokumentu.
+// Připojte zdrojový dokument s použitím původních stylů nalezených ve zdrojovém dokumentu.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- Použití`ImportFormatMode.KeepSourceFormatting` zajišťuje, že formátování ze zdrojového dokumentu bude zachováno ve finálním sloučeném dokumentu.
+Používání `ImportFormatMode.KeepSourceFormatting` zajišťuje, že formátování ze zdrojového dokumentu bude zachováno i ve finálním sloučeném dokumentu.
 
-## Krok 5: Uložte sloučený dokument
+## Krok 5: Uložení sloučeného dokumentu
 
-Nakonec sloučený dokument uložíme do zadaného adresáře. Tím je proces spojování dokumentů dokončen.
+Nakonec uložíme sloučený dokument do zadaného adresáře. Tím je proces sloučení dokumentů dokončen.
 
 ```csharp
 dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
@@ -91,27 +93,32 @@ Ujistěte se, že cesta a název souboru odpovídají vašim potřebám.
 
 ## Závěr
 
-A tady to máte! Pomocí několika řádků kódu jste úspěšně sloučili dva dokumenty Wordu do jednoho souvislého dokumentu pomocí Aspose.Words for .NET. Tento proces je nejen jednoduchý, ale také vysoce účinný a zajišťuje, že si vaše dokumenty zachovají své původní formátování.
+A máte to! Pomocí Aspose.Words pro .NET jste úspěšně sloučili dva dokumenty Wordu do jednoho souvislého dokumentu. Tento proces je nejen jednoduchý, ale také vysoce efektivní a zajišťuje, že si vaše dokumenty zachovají původní formátování.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu sloučit více než dva dokumenty?
-Ano, proces můžete zopakovat pro sloučení více dokumentů načtením dalších dokumentů a jejich postupným připojením.
+Ano, proces můžete opakovat pro sloučení více dokumentů načtením dalších dokumentů a jejich postupným přidáváním.
 
 ### Bude zachováno původní formátování?
- Ano, pomocí`ImportFormatMode.KeepSourceFormatting` zajišťuje zachování formátování ze zdrojového dokumentu.
+Ano, s použitím `ImportFormatMode.KeepSourceFormatting` zajišťuje zachování formátování ze zdrojového dokumentu.
 
-### Je Aspose.Words for .NET kompatibilní s .NET Core?
-Ano, Aspose.Words for .NET je kompatibilní s .NET Framework i .NET Core.
+### Je Aspose.Words pro .NET kompatibilní s .NET Core?
+Ano, Aspose.Words pro .NET je kompatibilní s .NET Framework i .NET Core.
 
-### Mohu sloučit dokumenty s různými nastaveními stránky?
-Ano, ale možná budete muset upravit vlastnosti nastavení stránky, abyste zajistili bezproblémové sloučení.
+### Mohu sloučit dokumenty s různým nastavením stránky?
+Ano, ale pro zajištění bezproblémového sloučení bude možná nutné upravit vlastnosti nastavení stránky.
 
 ### Kde mohu získat podporu, pokud narazím na problémy?
- Podporu můžete získat na fóru komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat na fóru komunity Aspose [zde](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

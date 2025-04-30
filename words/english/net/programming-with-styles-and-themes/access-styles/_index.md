@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-styles-and-themes/access-styles/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Document Styles In Word
@@ -123,9 +126,13 @@ You can filter styles by checking properties such as `IsBuiltin` or using custom
 ### Where can I find more resources on Aspose.Words for .NET?
 You can explore more [here](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

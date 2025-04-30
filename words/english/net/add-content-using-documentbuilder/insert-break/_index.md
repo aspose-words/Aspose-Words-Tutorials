@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-break/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Break In Word Document
@@ -135,9 +138,13 @@ Yes, Aspose.Words is compatible with .NET Core as well as the .NET Framework.
 ### Can I automate complex document tasks with Aspose.Words?
 Absolutely! Aspose.Words is designed to handle complex document automation tasks, making it a powerful tool for developers.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

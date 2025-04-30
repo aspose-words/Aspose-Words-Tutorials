@@ -1,30 +1,32 @@
 ---
-title: Signieren eines verschlüsselten Word-Dokuments
-linktitle: Signieren eines verschlüsselten Word-Dokuments
-second_title: Aspose.Words Dokumentverarbeitungs-API
-description: Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie verschlüsselte Word-Dokumente mit Aspose.Words für .NET signieren. Perfekt für Entwickler.
-weight: 10
-url: /de/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie verschlüsselte Word-Dokumente mit Aspose.Words für .NET signieren. Perfekt für Entwickler."
+"linktitle": "Signieren eines verschlüsselten Word-Dokuments"
+"second_title": "Aspose.Words Dokumentverarbeitungs-API"
+"title": "Signieren eines verschlüsselten Word-Dokuments"
+"url": "/de/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Signieren eines verschlüsselten Word-Dokuments
 
 ## Einführung
 
-Haben Sie sich schon einmal gefragt, wie man ein verschlüsseltes Word-Dokument signiert? Heute führen wir diesen Prozess mit Aspose.Words für .NET durch. Schnall dich an und mach dich bereit für ein detailliertes, spannendes und unterhaltsames Tutorial!
+Haben Sie sich schon einmal gefragt, wie man ein verschlüsseltes Word-Dokument signiert? Heute zeigen wir Ihnen den Prozess mit Aspose.Words für .NET. Schnall dich an und mach dich bereit für ein detailliertes, spannendes und unterhaltsames Tutorial!
 
 ## Voraussetzungen
 
 Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
-1.  Aspose.Words für .NET: Herunterladen und installieren von[Hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words für .NET: Herunterladen und installieren von [Hier](https://releases.aspose.com/words/net/).
 2. Visual Studio: Stellen Sie sicher, dass Sie es installiert haben.
-3. Ein gültiges Zertifikat: Sie benötigen eine PFX-Zertifikatsdatei.
-4. Grundlegende C#-Kenntnisse: Durch das Verständnis der Grundlagen wird dieses Tutorial flüssiger.
+3. Ein gültiges Zertifikat: Sie benötigen eine .pfx-Zertifikatsdatei.
+4. Grundlegende C#-Kenntnisse: Wenn Sie die Grundlagen verstehen, wird dieses Tutorial reibungsloser.
 
 ## Namespaces importieren
 
@@ -41,11 +43,11 @@ Lassen Sie uns den Prozess nun in einfache, überschaubare Schritte unterteilen.
 
 ## Schritt 1: Einrichten Ihres Projekts
 
-Richten Sie zunächst Ihr Visual Studio-Projekt ein. Öffnen Sie Visual Studio und erstellen Sie eine neue C#-Konsolenanwendung. Geben Sie ihr einen beschreibenden Namen wie „SignEncryptedWordDoc“.
+Richten Sie zunächst Ihr Visual Studio-Projekt ein. Öffnen Sie Visual Studio und erstellen Sie eine neue C#-Konsolenanwendung. Geben Sie ihr einen aussagekräftigen Namen, z. B. „SignEncryptedWordDoc“.
 
 ## Schritt 2: Hinzufügen von Aspose.Words zu Ihrem Projekt
 
-Als nächstes müssen wir Aspose.Words zu Ihrem Projekt hinzufügen. Es gibt mehrere Möglichkeiten, dies zu tun, aber die Verwendung von NuGet ist die einfachste. 
+Als Nächstes müssen wir Aspose.Words zu Ihrem Projekt hinzufügen. Es gibt verschiedene Möglichkeiten, dies zu tun, aber die Verwendung von NuGet ist die einfachste. 
 
 1. Öffnen Sie die NuGet-Paket-Manager-Konsole über Tools > NuGet-Paket-Manager > Paket-Manager-Konsole.
 2. Führen Sie den folgenden Befehl aus:
@@ -54,26 +56,26 @@ Als nächstes müssen wir Aspose.Words zu Ihrem Projekt hinzufügen. Es gibt meh
 Install-Package Aspose.Words
 ```
 
-## Schritt 3: Vorbereiten des Dokumentverzeichnisses
+## Schritt 3: Vorbereiten des Dokumentenverzeichnisses
 
 Sie benötigen ein Verzeichnis zum Speichern Ihrer Word-Dokumente und Zertifikate. Lassen Sie uns eines erstellen.
 
-1. Erstellen Sie ein Verzeichnis auf Ihrem Computer. Der Einfachheit halber nennen wir es „DocumentDirectory“.
-2. Platzieren Sie Ihr Word-Dokument (z. B. „Dokument.docx“) und Ihr .pfx-Zertifikat (z. B. „morzal.pfx“) in diesem Verzeichnis.
+1. Erstellen Sie ein Verzeichnis auf Ihrem Computer. Der Einfachheit halber nennen wir es "DocumentDirectory".
+2. Platzieren Sie Ihr Word-Dokument (z. B. „Document.docx“) und Ihr .pfx-Zertifikat (z. B. „morzal.pfx“) in diesem Verzeichnis.
 
 ## Schritt 4: Schreiben des Codes
 
- Tauchen wir nun in den Code ein. Öffnen Sie Ihre`Program.cs` Datei und beginnen Sie mit der Einrichtung des Pfades zu Ihrem Dokumentverzeichnis und der Initialisierung des`SignOptions` mit dem Entschlüsselungskennwort.
+Tauchen wir nun in den Code ein. Öffnen Sie Ihre `Program.cs` Datei und beginnen Sie mit der Einrichtung des Pfades zu Ihrem Dokumentverzeichnis und der Initialisierung der `SignOptions` mit dem Entschlüsselungskennwort.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPassword" };
 ```
 
 ## Schritt 5: Laden des Zertifikats
 
- Laden Sie anschließend Ihr Zertifikat mit dem`CertificateHolder`Klasse. Dazu benötigen Sie den Pfad zu Ihrer PFX-Datei und das Passwort des Zertifikats.
+Laden Sie anschließend Ihr Zertifikat mit dem `CertificateHolder` Klasse. Dazu benötigen Sie den Pfad zu Ihrer PFX-Datei und das Kennwort des Zertifikats.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Schritt 6: Unterzeichnen des Dokuments
 
- Verwenden Sie abschließend die`DigitalSignatureUtil.Sign` Methode zum Signieren Ihres verschlüsselten Word-Dokuments. Diese Methode erfordert die Eingabedatei, die Ausgabedatei, den Zertifikatsinhaber und die Signaturoptionen.
+Verwenden Sie abschließend die `DigitalSignatureUtil.Sign` Methode zum Signieren Ihres verschlüsselten Word-Dokuments. Diese Methode erfordert die Eingabedatei, die Ausgabedatei, den Zertifikatsinhaber und die Signaturoptionen.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -93,11 +95,11 @@ DigitalSignatureUtil.Sign(
 
 ## Schritt 7: Ausführen des Codes
 
-Speichern Sie Ihre Datei und führen Sie das Projekt aus. Wenn alles richtig eingerichtet ist, sollten Sie Ihr signiertes Dokument im angegebenen Verzeichnis sehen.
+Speichern Sie Ihre Datei und führen Sie das Projekt aus. Wenn alles korrekt eingerichtet ist, sollte Ihr signiertes Dokument im angegebenen Verzeichnis angezeigt werden.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich ein verschlüsseltes Word-Dokument mit Aspose.Words für .NET signiert. Mit dieser leistungsstarken Bibliothek wird das digitale Signieren selbst für verschlüsselte Dateien zum Kinderspiel. Viel Spaß beim Programmieren!
+Und da haben Sie es! Sie haben ein verschlüsseltes Word-Dokument erfolgreich mit Aspose.Words für .NET signiert. Mit dieser leistungsstarken Bibliothek wird das digitale Signieren selbst verschlüsselter Dateien zum Kinderspiel. Viel Spaß beim Programmieren!
 
 ## Häufig gestellte Fragen
 
@@ -105,7 +107,7 @@ Und da haben Sie es! Sie haben erfolgreich ein verschlüsseltes Word-Dokument mi
 Ja, Aspose.Words unterstützt verschiedene Zertifikattypen, solange sie im richtigen Format vorliegen.
 
 ### Ist es möglich, mehrere Dokumente gleichzeitig zu unterzeichnen?
-Auf jeden Fall! Sie können eine Sammlung von Dokumenten durchlaufen und jedes einzelne programmgesteuert signieren.
+Absolut! Sie können eine Sammlung von Dokumenten durchlaufen und jedes einzelne programmgesteuert signieren.
 
 ### Was passiert, wenn ich das Entschlüsselungskennwort vergesse?
 Ohne das Entschlüsselungskennwort können Sie das Dokument leider nicht unterzeichnen.
@@ -114,10 +116,15 @@ Ohne das Entschlüsselungskennwort können Sie das Dokument leider nicht unterze
 Ja, Aspose.Words ermöglicht Ihnen auch das Hinzufügen sichtbarer digitaler Signaturen.
 
 ### Gibt es eine Möglichkeit, die Signatur zu überprüfen?
- Ja, Sie können die`DigitalSignatureUtil.Verify` Methode zur Überprüfung von Signaturen.
+Ja, Sie können die `DigitalSignatureUtil.Verify` Methode zum Überprüfen von Signaturen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

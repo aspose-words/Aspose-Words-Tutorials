@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj rysunek Smart Art
-linktitle: Aktualizuj rysunek Smart Art
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak aktualizować rysunki Smart Art w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje wizualizacje są zawsze dokładne.
-weight: 10
-url: /pl/net/programming-with-shapes/update-smart-art-drawing/
+"description": "Dowiedz się, jak aktualizować rysunki Smart Art w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje wizualizacje są zawsze dokładne."
+"linktitle": "Aktualizuj rysunek Smart Art"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Aktualizuj rysunek Smart Art"
+"url": "/pl/net/programming-with-shapes/update-smart-art-drawing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj rysunek Smart Art
@@ -21,7 +23,7 @@ Grafiki Smart Art to fantastyczny sposób na wizualną reprezentację informacji
 
 Zanim przejdziesz do dalszych kroków, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Możesz go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 
 2. Środowisko .NET: Należy skonfigurować środowisko programistyczne .NET, np. Visual Studio.
 
@@ -45,10 +47,10 @@ Te przestrzenie nazw udostępniają klasy i metody niezbędne do interakcji z do
 Nagłówek: Załaduj dokument
 
 Wyjaśnienie:
- Najpierw musisz załadować dokument Word zawierający grafikę Smart Art. Można to zrobić, tworząc wystąpienie`Document` klasę i podając ścieżkę do dokumentu.
+Najpierw musisz załadować dokument Word zawierający grafikę Smart Art. Można to zrobić, tworząc wystąpienie `Document` klasę i podając ścieżkę do dokumentu.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Załaduj dokument
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "SmartArt.docx");
 ```
 
 Dlaczego ten krok jest ważny:
-Wczytanie dokumentu powoduje utworzenie środowiska roboczego, które umożliwia programowe manipulowanie jego zawartością.
+Załadowanie dokumentu powoduje utworzenie środowiska roboczego, które umożliwia programowe manipulowanie jego zawartością.
 
 ## 2. Identyfikuj kształty Smart Art
 
@@ -86,7 +88,7 @@ Rozpoznawanie kształtów Smart Art daje pewność, że aktualizujesz tylko te e
 Nagłówek: Odśwież grafikę Smart Art
 
 Wyjaśnienie:
- Ten`UpdateSmartArtDrawing` Metoda odświeża grafikę Smart Art, zapewniając, że odzwierciedla ona wszelkie zmiany w danych lub układzie dokumentu. Ta metoda musi zostać wywołana dla każdego kształtu Smart Art zidentyfikowanego w poprzednim kroku.
+Ten `UpdateSmartArtDrawing` Metoda odświeża grafikę Smart Art, zapewniając, że odzwierciedla ona wszelkie zmiany w danych lub układzie dokumentu. Ta metoda musi zostać wywołana dla każdego kształtu Smart Art zidentyfikowanego w poprzednim kroku.
 
 ```csharp
 // Aktualizuj rysunek Smart Art dla każdego kształtu Smart Art
@@ -130,13 +132,18 @@ Aktualizacja funkcji Smart Art gwarantuje, że grafika odzwierciedla najnowsze z
 Tak, możesz zautomatyzować proces aktualizacji grafiki Smart Art w wielu dokumentach, powtarzając czynności w zbiorze plików i stosując te same kroki.
 
 ### Czy potrzebuję specjalnej licencji na Aspose.Words, aby korzystać z tych funkcji?
- Do korzystania z funkcji poza okresem ewaluacyjnym wymagana jest ważna licencja Aspose.Words. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Do korzystania z funkcji poza okresem ewaluacyjnym wymagana jest ważna licencja Aspose.Words. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words?
- Możesz uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/words/net/).
+Możesz uzyskać dostęp do dokumentacji [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

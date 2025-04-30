@@ -1,14 +1,16 @@
 ---
-title: Pengolahan Kata dengan Header dan Footer
-linktitle: Pengolahan Kata dengan Header dan Footer
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara bekerja dengan header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial lengkap dan contoh praktis.
-weight: 730
-url: /id/net/working-with-headers-and-footers/
+"description": "Pelajari cara bekerja dengan header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Tutorial lengkap dan contoh praktis."
+"linktitle": "Pengolahan Kata dengan Header dan Footer"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Pengolahan Kata dengan Header dan Footer"
+"url": "/id/net/working-with-headers-and-footers/"
+"weight": 730
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengolahan Kata dengan Header dan Footer
@@ -18,13 +20,18 @@ Words Processing with Headers and Footers merupakan sumber daya komprehensif unt
 
 
  ## Tutorial
-| Judul | Keterangan |
-| --- | --- |
-| [Buat Header dan Footer](./create-header-footer/) | Pelajari cara membuat header dan footer di dokumen Word Anda dengan Aspose.Words untuk .NET. Sesuaikan header dan footer untuk setiap halaman. |
-| [Salin Header dan Footer dari Bagian Sebelumnya](./copy-headers-footers-from-previous-section/) | Pelajari cara menyalin header dan footer dari bagian sebelumnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
+| Judul | Deskripsi |
+Bahasa Indonesia: --- | --- Bahasa Indonesia:
+| [Buat Header dan Footer](./create-header-footer/) | Pelajari cara membuat header dan footer di dokumen Word Anda dengan Aspose.Words untuk .NET. Sesuaikan header dan footer untuk setiap halaman. Bahasa Indonesia:
+| [Salin Header dan Footer dari Bagian Sebelumnya](./copy-headers-footers-from-previous-section/) Pelajari cara menyalin header dan footer dari bagian sebelumnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

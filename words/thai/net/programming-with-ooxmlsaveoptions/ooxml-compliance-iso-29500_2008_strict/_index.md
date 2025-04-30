@@ -1,14 +1,16 @@
 ---
-title: การปฏิบัติตาม Ooxml ISO 29500_2008_Strict
-linktitle: การปฏิบัติตาม Ooxml ISO 29500_2008_Strict
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการรับรอง OOXML ว่าเป็นไปตามมาตรฐาน ISO 29500_2008_Strict โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-weight: 10
-url: /th/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/
+"description": "เรียนรู้วิธีการรับรอง OOXML ว่าเป็นไปตามมาตรฐาน ISO 29500_2008_Strict โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "การปฏิบัติตาม Ooxml ISO 29500_2008_Strict"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การปฏิบัติตาม Ooxml ISO 29500_2008_Strict"
+"url": "/th/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_strict/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การปฏิบัติตาม Ooxml ISO 29500_2008_Strict
@@ -21,7 +23,7 @@ url: /th/net/programming-with-ooxmlsaveoptions/ooxml-compliance-iso-29500_2008_s
 
 ก่อนที่เราจะเข้าสู่รายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง ให้ดาวน์โหลด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ .NET แล้ว หากยังไม่ได้ติดตั้ง ให้ดาวน์โหลด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ (เช่น Visual Studio)
 3. ไดเรกทอรีเอกสาร: เตรียมไดเรกทอรีสำหรับจัดเก็บเอกสาร Word ของคุณไว้
 
@@ -35,18 +37,18 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-ให้เราแบ่งกระบวนการออกเป็นขั้นตอนย่อยๆ เพื่อให้แน่ใจว่ามีความชัดเจนและง่ายต่อการดำเนินการ
+ให้เราแบ่งขั้นตอนออกเป็นขั้นตอนย่อยๆ เพื่อให้แน่ใจว่ามีความชัดเจนและง่ายต่อการดำเนินการ
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
-ก่อนที่เราจะเริ่มทำงานกับเอกสาร เราก็ต้องกำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
+ก่อนที่เราจะเริ่มทำงานกับเอกสาร เราก็ต้องตั้งค่าเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
 
 ```csharp
 // เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- คำอธิบาย: บรรทัดโค้ดนี้จะตั้งค่าตัวแปรสตริง`dataDir` ซึ่งเก็บเส้นทางไปยังไดเร็กทอรีที่เก็บเอกสารของคุณไว้ แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณ
+คำอธิบาย: บรรทัดโค้ดนี้จะตั้งค่าตัวแปรสตริง `dataDir` ซึ่งเก็บเส้นทางไปยังไดเร็กทอรีที่จัดเก็บเอกสารของคุณ แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณ
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word ของคุณ
 
@@ -56,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- คำอธิบาย :`Document` คลาสจาก Aspose.Words ใช้เพื่อโหลดเอกสาร Word เส้นทางเอกสารจะถูกสร้างขึ้นโดยการเชื่อมโยง`dataDir` พร้อมชื่อเอกสาร`"Document.docx"`. ตรวจสอบให้แน่ใจว่าเอกสารมีอยู่ในไดเร็กทอรีที่ระบุ
+คำอธิบาย : `Document` คลาสจาก Aspose.Words ใช้เพื่อโหลดเอกสาร Word เส้นทางเอกสารจะถูกสร้างขึ้นโดยการเชื่อมโยง `dataDir` พร้อมชื่อเอกสาร `"Document.docx"`. ตรวจสอบให้แน่ใจว่าเอกสารมีอยู่ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 3: เพิ่มประสิทธิภาพเอกสารสำหรับ Word 2016
 
@@ -66,7 +68,7 @@ Document doc = new Document(dataDir + "Document.docx");
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 ```
 
- คำอธิบาย : บรรทัดนี้เรียกว่า`OptimizeFor` วิธีการบน`CompatibilityOptions` ทรัพย์สินของ`doc` วัตถุ ระบุ`MsWordVersion.Word2016` เพื่อเพิ่มประสิทธิภาพเอกสารสำหรับ Microsoft Word 2016
+คำอธิบาย : บรรทัดนี้เรียกว่า `OptimizeFor` วิธีการบน `CompatibilityOptions` ทรัพย์สินของ `doc` วัตถุ ระบุ `MsWordVersion.Word2016` เพื่อเพิ่มประสิทธิภาพเอกสารสำหรับ Microsoft Word 2016
 
 ## ขั้นตอนที่ 4: ตั้งค่าการปฏิบัติตาม OOXML เป็น ISO 29500_2008_Strict
 
@@ -76,17 +78,17 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2016);
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions() { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 ```
 
- คำอธิบาย: เราสร้างอินสแตนซ์ของ`OoxmlSaveOptions` และตั้งค่าของมัน`Compliance`ทรัพย์สินที่จะ`OoxmlCompliance.Iso29500_2008_Strict`ซึ่งจะทำให้แน่ใจว่าเอกสารจะได้รับการบันทึกตามมาตรฐาน ISO 29500_2008_Strict
+คำอธิบาย: เราสร้างอินสแตนซ์ของ `OoxmlSaveOptions` และตั้งค่าของมัน `Compliance` ทรัพย์สินที่จะ `OoxmlCompliance.Iso29500_2008_Strict`ซึ่งจะทำให้แน่ใจว่าเอกสารจะได้รับการบันทึกตามมาตรฐาน ISO 29500_2008_Strict
 
 ## ขั้นตอนที่ 5: บันทึกเอกสาร
 
-สุดท้ายนี้ ให้เราบันทึกเอกสารโดยใช้การตั้งค่าการปฏิบัติตามข้อกำหนดใหม่
+สุดท้ายนี้ ให้บันทึกเอกสารโดยใช้การตั้งค่าการปฏิบัติตามข้อกำหนดใหม่
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx", saveOptions);
 ```
 
- คำอธิบาย :`Save` วิธีการถูกเรียกใช้งานบน`doc` วัตถุที่จะบันทึกเอกสาร เส้นทางรวมถึงไดเรกทอรีและชื่อไฟล์ใหม่`"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"` และใช้`saveOptions` เราได้กำหนดค่าไว้ก่อนหน้านี้แล้ว
+คำอธิบาย : `Save` วิธีการถูกเรียกใช้งานบน `doc` วัตถุที่จะบันทึกเอกสาร เส้นทางรวมถึงไดเรกทอรีและชื่อไฟล์ใหม่ `"WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Strict.docx"`และใช้ `saveOptions` เราได้กำหนดค่าไว้ก่อนหน้านี้แล้ว
 
 ## บทสรุป
 
@@ -98,20 +100,25 @@ doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.OoxmlComplianceIso29500_2008_Str
 การปฏิบัติตาม OOXML ช่วยให้แน่ใจว่าเอกสารของคุณเข้ากันได้กับ Microsoft Word เวอร์ชันต่างๆ ช่วยปรับปรุงการเข้าถึงและความสอดคล้องกัน
 
 ### ฉันสามารถใช้วิธีนี้สำหรับระดับการปฏิบัติตามอื่น ๆ ได้หรือไม่
-ใช่ คุณสามารถตั้งค่าระดับการปฏิบัติตามที่แตกต่างกันได้โดยการเปลี่ยนแปลง`OoxmlCompliance` ทรัพย์สินใน`OoxmlSaveOptions`.
+ใช่ คุณสามารถตั้งค่าระดับการปฏิบัติตามที่แตกต่างกันได้โดยการเปลี่ยนแปลง `OoxmlCompliance` ทรัพย์สินใน `OoxmlSaveOptions`-
 
 ### ถ้าเส้นทางเอกสารไม่ถูกต้องจะเกิดอะไรขึ้น?
- หากเส้นทางเอกสารไม่ถูกต้อง`Document` ผู้สร้างจะโยน`FileNotFoundException`. ตรวจสอบให้แน่ใจว่าเส้นทางถูกต้อง.
+หากเส้นทางเอกสารไม่ถูกต้อง `Document` ผู้สร้างจะโยน `FileNotFoundException`. ตรวจสอบให้แน่ใจว่าเส้นทางถูกต้อง.
 
 ### ฉันจำเป็นต้องเพิ่มประสิทธิภาพสำหรับ Word 2016 หรือไม่?
 แม้ว่าจะไม่บังคับ แต่การเพิ่มประสิทธิภาพสำหรับ Word เวอร์ชันเฉพาะจะช่วยเพิ่มความเข้ากันได้และประสิทธิภาพได้
 
 ### ฉันสามารถหาทรัพยากรเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาทรัพยากรและเอกสารเพิ่มเติมได้[ที่นี่](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาทรัพยากรและเอกสารเพิ่มเติมได้ [ที่นี่](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

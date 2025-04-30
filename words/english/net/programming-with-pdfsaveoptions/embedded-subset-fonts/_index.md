@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/embedded-subset-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embed Subset Fonts in PDF Document
@@ -91,9 +94,13 @@ Aspose.Words for .NET supports subset embedding for all TrueType fonts used in t
 You can open the PDF in Adobe Acrobat Reader and check the properties under the Fonts tab to see the embedded fonts.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: चार्ट के अक्ष में दिनांक समय मान जोड़ें
-linktitle: चार्ट के अक्ष में दिनांक समय मान जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट के अक्ष में दिनांक और समय मान जोड़ना सीखें।
-weight: 10
-url: /hi/net/programming-with-charts/date-time-values-to-axis/
+"description": "इस व्यापक चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके चार्ट के अक्ष में दिनांक और समय मान जोड़ना सीखें।"
+"linktitle": "चार्ट के अक्ष में दिनांक समय मान जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "चार्ट के अक्ष में दिनांक समय मान जोड़ें"
+"url": "/hi/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट के अक्ष में दिनांक समय मान जोड़ें
@@ -21,10 +23,10 @@ url: /hi/net/programming-with-charts/date-time-values-to-axis/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1. विजुअल स्टूडियो या कोई भी .NET IDE: आपको अपना .NET कोड लिखने और चलाने के लिए एक विकास वातावरण की आवश्यकता होती है।
-2.  Aspose.Words for .NET: आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. विज़ुअल स्टूडियो या कोई भी .NET IDE: आपको अपना .NET कोड लिखने और चलाने के लिए एक विकास वातावरण की आवश्यकता होती है।
+2. Aspose.Words for .NET: आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित होनी चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 3. C# का बुनियादी ज्ञान: यह ट्यूटोरियल मानता है कि आपको C# प्रोग्रामिंग की बुनियादी समझ है।
-4.  एक वैध Aspose लाइसेंस: आप यहाँ से एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+4. एक वैध Aspose लाइसेंस: आप यहाँ से एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## चरण 2: नया दस्तावेज़ और दस्तावेज़बिल्डर बनाएँ
 
- इसके बाद, एक नया उदाहरण बनाएं`Document` कक्षा और एक`DocumentBuilder` ऑब्जेक्ट। ये ऑब्जेक्ट आपको अपने दस्तावेज़ को बनाने और उसमें हेरफेर करने में मदद करेंगे।
+इसके बाद, एक नया उदाहरण बनाएं `Document` कक्षा और एक `DocumentBuilder` ऑब्जेक्ट। ये ऑब्जेक्ट आपको अपने दस्तावेज़ को बनाने और उसमें हेरफेर करने में मदद करेंगे।
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 3: दस्तावेज़ में चार्ट डालें
 
- अब, अपने दस्तावेज़ में एक चार्ट डालें`DocumentBuilder` इस उदाहरण में, हम एक कॉलम चार्ट का उपयोग कर रहे हैं, लेकिन आप अन्य प्रकार भी चुन सकते हैं।
+अब, अपने दस्तावेज़ में एक चार्ट डालें `DocumentBuilder` इस उदाहरण में, हम एक कॉलम चार्ट का उपयोग कर रहे हैं, लेकिन आप अन्य प्रकार भी चुन सकते हैं।
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -123,7 +125,7 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ### क्या एक चार्ट में एकाधिक श्रृंखलाएं जोड़ना संभव है?
 
- बिल्कुल! आप अपने चार्ट में कई सीरीज जोड़ सकते हैं`Series.Add` विधि का प्रयोग विभिन्न डेटा के साथ कई बार किया गया।
+बिल्कुल! आप अपने चार्ट में कई सीरीज जोड़ सकते हैं `Series.Add` विधि का प्रयोग विभिन्न डेटा के साथ कई बार किया जा सकता है।
 
 ### यदि मुझे चार्ट डेटा को गतिशील रूप से अपडेट करने की आवश्यकता हो तो क्या होगा?
 
@@ -131,10 +133,15 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ### मैं .NET के लिए Aspose.Words के अधिक विस्तृत दस्तावेज़ कहां पा सकता हूं?
 
- आप अधिक विस्तृत दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप अधिक विस्तृत दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

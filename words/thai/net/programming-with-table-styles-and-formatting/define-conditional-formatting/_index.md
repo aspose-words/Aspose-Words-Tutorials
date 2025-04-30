@@ -1,14 +1,16 @@
 ---
-title: การกำหนดรูปแบบตามเงื่อนไข
-linktitle: การกำหนดรูปแบบตามเงื่อนไข
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการกำหนดรูปแบบตามเงื่อนไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงความน่าสนใจและความสามารถในการอ่านของเอกสารของคุณด้วยคู่มือของเรา
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/define-conditional-formatting/
+"description": "เรียนรู้วิธีการกำหนดรูปแบบตามเงื่อนไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปรับปรุงความน่าสนใจและความสามารถในการอ่านของเอกสารของคุณด้วยคู่มือของเรา"
+"linktitle": "การกำหนดรูปแบบตามเงื่อนไข"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การกำหนดรูปแบบตามเงื่อนไข"
+"url": "/th/net/programming-with-table-styles-and-formatting/define-conditional-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การกำหนดรูปแบบตามเงื่อนไข
@@ -21,7 +23,7 @@ url: /th/net/programming-with-table-styles-and-formatting/define-conditional-for
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาที่เหมาะสมเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 4. เอกสาร Word: เอกสาร Word ที่คุณต้องการใช้การจัดรูปแบบตามเงื่อนไข
@@ -44,7 +46,7 @@ using Aspose.Words.Tables;
 ขั้นแรก ให้กำหนดเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ นี่คือที่ที่เอกสาร Word ของคุณจะถูกบันทึก
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
@@ -72,7 +74,7 @@ builder.EndRow();
 
 ## ขั้นตอนที่ 4: เพิ่มแถวเพิ่มเติม
 
-แทรกแถวเพิ่มเติมลงในตารางของคุณ เพื่อความเรียบง่าย เราจะเพิ่มแถวอีกหนึ่งแถวด้วยเซลล์ว่าง
+แทรกแถวเพิ่มเติมลงในตารางของคุณ เพื่อความเรียบง่าย เราจะเพิ่มแถวอีกแถวหนึ่งด้วยเซลล์ว่าง
 
 ```csharp
 builder.InsertCell();
@@ -126,9 +128,14 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DefineConditionalFormatt
 
 ### ฉันสามารถจัดรูปแบบตามเงื่อนไขแบบอัตโนมัติสำหรับเอกสารขนาดใหญ่ได้หรือไม่
 ใช่ คุณสามารถทำให้กระบวนการเป็นอัตโนมัติได้โดยใช้ลูปและเงื่อนไขในโค้ดของคุณ ทำให้มีประสิทธิภาพสำหรับเอกสารขนาดใหญ่
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

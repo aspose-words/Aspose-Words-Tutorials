@@ -1,14 +1,16 @@
 ---
-title: फ़ॉन्ट प्रतिस्थापन सक्षम करें अक्षम करें
-linktitle: फ़ॉन्ट प्रतिस्थापन सक्षम करें अक्षम करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट प्रतिस्थापन को सक्षम या अक्षम करना सीखें। सुनिश्चित करें कि आपके दस्तावेज़ सभी प्लेटफ़ॉर्म पर एक जैसे दिखें।
-weight: 10
-url: /hi/net/working-with-fonts/enable-disable-font-substitution/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉन्ट प्रतिस्थापन को सक्षम या अक्षम करना सीखें। सुनिश्चित करें कि आपके दस्तावेज़ सभी प्लेटफ़ॉर्म पर एक जैसे दिखें।"
+"linktitle": "फ़ॉन्ट प्रतिस्थापन सक्षम करें अक्षम करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फ़ॉन्ट प्रतिस्थापन सक्षम करें अक्षम करें"
+"url": "/hi/net/working-with-fonts/enable-disable-font-substitution/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ॉन्ट प्रतिस्थापन सक्षम करें अक्षम करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fonts/enable-disable-font-substitution/
 
 चरणों में आगे बढ़ने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 - विजुअल स्टूडियो: .NET का समर्थन करने वाला कोई भी संस्करण।
 - C# का बुनियादी ज्ञान: इससे आपको कोडिंग उदाहरणों को समझने में मदद मिलेगी।
 
@@ -38,24 +40,24 @@ using Aspose.Words.Fonts;
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
 
-सबसे पहले, Visual Studio में एक नया प्रोजेक्ट सेट करें और Aspose.Words for .NET लाइब्रेरी में संदर्भ जोड़ें। यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें।[Aspose वेबसाइट](https://releases.aspose.com/words/net/).
+सबसे पहले, Visual Studio में एक नया प्रोजेक्ट सेट करें और Aspose.Words for .NET लाइब्रेरी में संदर्भ जोड़ें। यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें। [Aspose वेबसाइट](https://releases.aspose.com/words/net/).
 
 ## चरण 2: अपना दस्तावेज़ लोड करें
 
 इसके बाद, वह दस्तावेज़ लोड करें जिस पर आप काम करना चाहते हैं। इसे इस तरह करें:
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ। यह कोड दस्तावेज़ को मेमोरी में लोड करता है ताकि आप इसे हेरफेर कर सकें।
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ। यह कोड दस्तावेज़ को मेमोरी में लोड करता है ताकि आप इसे हेरफेर कर सकें।
 
 ## चरण 3: फ़ॉन्ट सेटिंग कॉन्फ़िगर करें
 
- अब, चलिए एक बनाएं`FontSettings` फ़ॉन्ट प्रतिस्थापन सेटिंग्स प्रबंधित करने के लिए ऑब्जेक्ट:
+अब, चलिए एक बनाते हैं `FontSettings` फ़ॉन्ट प्रतिस्थापन सेटिंग्स प्रबंधित करने के लिए ऑब्जेक्ट:
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -103,7 +105,7 @@ doc.Save(dataDir + "WorkingWithFonts.EnableDisableFontSubstitution.pdf");
 
 ### क्या मैं प्रतिस्थापन के लिए एरियल के अलावा अन्य फ़ॉन्ट का उपयोग कर सकता हूँ?
 
- बिल्कुल! आप अपने सिस्टम पर उपलब्ध किसी भी फ़ॉन्ट को फ़ॉन्ट नाम बदलकर निर्दिष्ट कर सकते हैं`DefaultFontName` संपत्ति।
+बिल्कुल! आप अपने सिस्टम पर उपलब्ध किसी भी फ़ॉन्ट को फ़ॉन्ट नाम बदलकर निर्दिष्ट कर सकते हैं `DefaultFontName` संपत्ति।
 
 ### यदि निर्दिष्ट डिफ़ॉल्ट फ़ॉन्ट उपलब्ध न हो तो क्या होगा?
 
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithFonts.EnableDisableFontSubstitution.pdf");
 
 ### क्या मैं फ़ॉन्ट प्रतिस्थापन को अक्षम करने के बाद पुनः सक्षम कर सकता हूँ?
 
- हां, आप टॉगल कर सकते हैं`Enabled` की संपत्ति`FontInfoSubstitution` वापस`true` यदि आप फ़ॉन्ट प्रतिस्थापन को पुनः सक्षम करना चाहते हैं।
+हां, आप टॉगल कर सकते हैं `Enabled` की संपत्ति `FontInfoSubstitution` वापस `true` यदि आप फ़ॉन्ट प्रतिस्थापन को पुनः सक्षम करना चाहते हैं।
 
 ### क्या यह जांचने का कोई तरीका है कि कौन से फ़ॉन्ट प्रतिस्थापित किये जा रहे हैं?
 
@@ -120,9 +122,14 @@ doc.Save(dataDir + "WorkingWithFonts.EnableDisableFontSubstitution.pdf");
 ### क्या मैं DOCX के अलावा अन्य दस्तावेज़ प्रारूपों के लिए भी इस विधि का उपयोग कर सकता हूँ?
 
 निश्चित रूप से! Aspose.Words विभिन्न प्रारूपों का समर्थन करता है, और आप इन फ़ॉन्ट सेटिंग्स को किसी भी समर्थित प्रारूप पर लागू कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

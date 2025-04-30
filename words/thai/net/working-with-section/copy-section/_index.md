@@ -1,14 +1,16 @@
 ---
-title: คัดลอกส่วน
-linktitle: คัดลอกส่วน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีคัดลอกส่วนต่างๆ ระหว่างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมคำแนะนำทีละขั้นตอนสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ
-weight: 10
-url: /th/net/working-with-section/copy-section/
+"description": "เรียนรู้วิธีคัดลอกส่วนต่างๆ ระหว่างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมคำแนะนำทีละขั้นตอนสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "คัดลอกส่วน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "คัดลอกส่วน"
+"url": "/th/net/working-with-section/copy-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คัดลอกส่วน
@@ -22,7 +24,7 @@ url: /th/net/working-with-section/copy-section/
 
 ก่อนที่จะเข้าสู่รายละเอียด ให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
 
-1.  Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดเวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับไลบรารี .NET: ดาวน์โหลดเวอร์ชันล่าสุด [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: IDE ที่เข้ากันได้กับ .NET เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# จะช่วยให้คุณทำตามได้
 4. เอกสารตัวอย่าง Word: เราจะใช้เอกสารตัวอย่างสองฉบับสำหรับบทช่วยสอนนี้
@@ -43,7 +45,7 @@ using Aspose.Words;
 
 ก่อนจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Words และมีเอกสาร Word ตัวอย่างสองฉบับพร้อมแล้ว
 
-1.  ดาวน์โหลดและติดตั้ง Aspose.Words: รับเลย[ที่นี่](https://releases.aspose.com/words/net/).
+1. ดาวน์โหลดและติดตั้ง Aspose.Words: รับเลย [ที่นี่](https://releases-aspose.com/words/net/).
 2. ตั้งค่าโครงการของคุณ: เปิด Visual Studio และสร้างโครงการ .NET ใหม่
 3. เพิ่มการอ้างอิง Aspose.Words: รวมไลบรารี Aspose.Words ลงในโปรเจ็กต์ของคุณ
 
@@ -52,7 +54,7 @@ using Aspose.Words;
 เราต้องโหลดทั้งเอกสารต้นฉบับและเอกสารปลายทาง เอกสารต้นฉบับคือที่ที่เราจะคัดลอกส่วนนั้นมา และเอกสารปลายทางคือที่ที่เราจะวางส่วนที่คัดลอกมา
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document srcDoc = new Document(dataDir + "Document.docx");
@@ -93,7 +95,7 @@ dstDoc.Sections.Add(newSection);
 dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
- แทนที่`dataDir + "WorkingWithSection.CopySection.docx"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ บรรทัดโค้ดนี้จะบันทึกไฟล์ Word ปลายทางของคุณพร้อมส่วนที่คัดลอกมา
+แทนที่ `dataDir + "WorkingWithSection.CopySection.docx"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสารของคุณ บรรทัดโค้ดนี้จะบันทึกไฟล์ Word ปลายทางของคุณพร้อมส่วนที่คัดลอกมา
 
 ## บทสรุป
 
@@ -105,7 +107,7 @@ dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 
 คุณสามารถคัดลอกส่วนต่างๆ หลายส่วนได้โดยการทำซ้ำผ่านคอลเลกชันส่วนต่างๆ ในเอกสารต้นฉบับและคัดลอกแต่ละส่วนทีละส่วน
 
-### ฉันสามารถแก้ไขส่วนที่คัดลอกมาก่อนที่จะเพิ่มลงในเอกสารปลายทางได้ไหม
+### ฉันสามารถแก้ไขส่วนที่คัดลอกมาก่อนที่จะเพิ่มลงในเอกสารปลายทางได้หรือไม่
 
 ใช่ คุณสามารถปรับเปลี่ยนคุณสมบัติและเนื้อหาของส่วนที่คัดลอกก่อนที่จะเพิ่มลงในเอกสารปลายทางได้
 
@@ -115,14 +117,19 @@ dstDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 
 ### ฉันสามารถหาแหล่งข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Words ได้จากที่ใด
 
- หากต้องการข้อมูลเพิ่มเติมสามารถเยี่ยมชมได้ที่[เอกสารประกอบ API ของ Aspose.Words](https://reference.aspose.com/words/net/) หรือว่า[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือและการหารือ
+หากต้องการข้อมูลเพิ่มเติมสามารถเยี่ยมชมได้ที่ [เอกสารประกอบ API ของ Aspose.Words](https://reference.aspose.com/words/net/) หรือว่า [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือและการหารือ
 
 ### ฉันสามารถทดลองใช้ Aspose.Words สำหรับ .NET ได้ฟรีหรือไม่?
 
- ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

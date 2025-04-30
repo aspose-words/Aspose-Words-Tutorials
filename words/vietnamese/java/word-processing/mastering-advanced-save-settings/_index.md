@@ -1,14 +1,16 @@
 ---
-title: Làm chủ các thiết lập lưu nâng cao cho tài liệu
-linktitle: Làm chủ các thiết lập lưu nâng cao cho tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words for Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng.
-weight: 13
-url: /vi/java/word-processing/mastering-advanced-save-settings/
+"description": "Làm chủ các thiết lập lưu tài liệu nâng cao với Aspose.Words for Java. Học cách định dạng, bảo vệ, tối ưu hóa và tự động hóa việc tạo tài liệu một cách dễ dàng."
+"linktitle": "Làm chủ các thiết lập lưu nâng cao cho tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Làm chủ các thiết lập lưu nâng cao cho tài liệu"
+"url": "/vi/java/word-processing/mastering-advanced-save-settings/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm chủ các thiết lập lưu nâng cao cho tài liệu
@@ -34,7 +36,7 @@ Tìm hiểu cách chỉ định định dạng và hướng của tài liệu. C
 Document doc = new Document();
 doc.save("output.docx");
 
-//Đặt hướng trang thành Ngang
+// Đặt hướng trang thành Ngang
 Document docLandscape = new Document();
 PageSetup pageSetup = docLandscape.getFirstSection().getPageSetup();
 pageSetup.setOrientation(Orientation.LANDSCAPE);
@@ -191,7 +193,7 @@ Ngay cả những nhà phát triển giỏi nhất cũng gặp phải vấn đ�
 
 ### Làm thế nào để thiết lập kích thước trang thành A4?
 
- Để đặt kích thước trang thành A4, bạn có thể sử dụng`PageSetup` lớp và chỉ định kích thước giấy như sau:
+Để đặt kích thước trang thành A4, bạn có thể sử dụng `PageSetup` lớp và chỉ định kích thước giấy như sau:
 
 ```java
 Document doc = new Document();
@@ -210,7 +212,7 @@ doc.protect(ProtectionType.READ_ONLY, "my_password");
 
 ### Làm thế nào để thêm hình mờ vào tài liệu của tôi?
 
- Để thêm hình mờ, bạn có thể sử dụng`Shape` lớp và tùy chỉnh giao diện và vị trí của lớp đó trong tài liệu.
+Để thêm hình mờ, bạn có thể sử dụng `Shape` lớp và tùy chỉnh giao diện và vị trí của lớp đó trong tài liệu.
 
 ```java
 Document doc = new Document();
@@ -256,9 +258,14 @@ doc1.compare(doc2, "comparison_result.docx");
 Làm chủ các thiết lập lưu nâng cao cho tài liệu bằng Aspose.Words for Java mở ra một thế giới khả năng xử lý tài liệu. Cho dù bạn đang tối ưu hóa kích thước tài liệu, bảo vệ thông tin nhạy cảm hay tự động tạo tài liệu, Aspose.Words for Java đều giúp bạn dễ dàng đạt được mục tiêu của mình.
 
 Bây giờ, được trang bị kiến thức này, bạn có thể đưa kỹ năng xử lý tài liệu của mình lên tầm cao mới. Tận dụng sức mạnh của Aspose.Words for Java và tạo các tài liệu đáp ứng chính xác các thông số kỹ thuật của bạn.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

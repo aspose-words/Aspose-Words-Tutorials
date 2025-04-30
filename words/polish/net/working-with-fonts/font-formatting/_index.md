@@ -1,14 +1,16 @@
 ---
-title: Formatowanie czcionki
-linktitle: Formatowanie czcionki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak formatować czcionki w dokumentach Word za pomocą Aspose.Words for .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-fonts/font-formatting/
+"description": "Dowiedz się, jak formatować czcionki w dokumentach programu Word za pomocą Aspose.Words for .NET, korzystając ze szczegółowego przewodnika krok po kroku."
+"linktitle": "Formatowanie czcionki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Formatowanie czcionki"
+"url": "/pl/net/working-with-fonts/font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatowanie czcionki
@@ -21,7 +23,7 @@ Formatowanie czcionki w dokumentach Word może mieć ogromny wpływ na odbiór t
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/words/net/).
+1. Biblioteka Aspose.Words dla .NET: Można ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE C#.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw programowania w języku C# pomoże Ci zrozumieć przykłady.
 
@@ -37,10 +39,10 @@ using Aspose.Words;
 
 ## Krok 1: Konfigurowanie dokumentu
 
- Na początek utwórzmy nowy dokument i skonfigurujmy go`DocumentBuilder`:
+Na początek utwórzmy nowy dokument i skonfigurujmy go `DocumentBuilder`:
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -83,22 +85,27 @@ I masz to! Wykonując te proste kroki, możesz formatować czcionki w dokumentac
 ## Najczęściej zadawane pytania
 
 ### Jakie inne właściwości czcionki mogę ustawić za pomocą Aspose.Words dla .NET?
- Możesz ustawić właściwości takie jak Kursywa, Przekreślenie, Indeks dolny, Indeks górny i inne. Sprawdź[dokumentacja](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
+Możesz ustawić właściwości takie jak Kursywa, Przekreślenie, Indeks dolny, Indeks górny i inne. Sprawdź [dokumentacja](https://reference.aspose.com/words/net/) Aby zobaczyć pełną listę.
 
-### Czy mogę zmienić czcionkę tekstu już istniejącego w dokumencie?
+### Czy mogę zmienić czcionkę istniejącego tekstu w dokumencie?
 Tak, możesz przeglądać dokument i stosować zmiany czcionki w istniejącym tekście. 
 
 ### Czy możliwe jest używanie niestandardowych czcionek w Aspose.Words dla .NET?
 Oczywiście! Możesz użyć dowolnej czcionki zainstalowanej w systemie lub osadzić niestandardowe czcionki bezpośrednio w dokumencie.
 
 ### Jak mogę zastosować różne style czcionek w różnych częściach tekstu?
- Użyj wielu`DocumentBuilder` wystąpienia lub przełączaj ustawienia czcionek pomiędzy`Write` wzywa do stosowania różnych stylów do różnych segmentów tekstu.
+Użyj wielu `DocumentBuilder` wystąpienia lub przełączaj ustawienia czcionek pomiędzy `Write` wzywa do stosowania różnych stylów do różnych segmentów tekstu.
 
-### Czy Aspose.Words dla .NET obsługuje inne formaty dokumentów oprócz DOCX?
+### Czy Aspose.Words dla platformy .NET obsługuje inne formaty dokumentów oprócz DOCX?
 Tak, obsługuje wiele formatów, w tym PDF, HTML, EPUB i inne. 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

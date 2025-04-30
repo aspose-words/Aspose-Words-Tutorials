@@ -1,52 +1,60 @@
 ---
-title: Insérer le champ de formulaire de boîte combo dans le document Word
-weight: 7700
-limit: 
-description: Apprenez à insérer un champ de formulaire de boîte combinée dans un document Word en utilisant Aspose.Words pour .NET. Guide étape par étape avec des exemples de code et des éléments prédéfinis.
-keywords: [Aspose.Words for .NET, insert combo box, form field, Word document, .NET example, combo box predefined items, C# code example, Word form fields]
-url: /fr/net/working-with-form-fields/insert-form-fields/
+"description": "Apprenez à insérer un champ de formulaire de type zone de liste déroulante dans un document Word avec Aspose.Words pour .NET. Guide étape par étape avec exemples de code et éléments prédéfinis."
+"title": "Insérer un champ de formulaire de zone de liste déroulante dans un document Word"
+"url": "/fr/net/working-with-form-fields/insert-form-fields/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Insérer le champ de formulaire de boîte combo dans le document Word
+# Insérer un champ de formulaire de zone de liste déroulante dans un document Word
 
-Aspose.Words pour .NET facilite la création et la manipulation de documents Word de manière programmatique. Dans cet exemple, vous apprendrez à insérer un champ de formulaire de boîte combinée dans un document Word. La boîte combinée comprend des éléments prédéfinis comme "Un," "Deux," et "Trois," avec un ensemble de sélection par défaut. Ce tutoriel étape par étape démontre l'utilisation de `Créateur de documents`Pour les développeurs qui souhaitent améliorer leurs applications .NET avec des formulaires Word personnalisables.  
+Aspose.Words pour .NET simplifie la création et la manipulation de documents Word par programmation. Dans cet exemple, vous apprendrez à insérer un champ de formulaire de type liste déroulante dans un document Word. La liste déroulante comprend des éléments prédéfinis tels que « Un », « Deux » et « Trois », avec une sélection par défaut. Ce tutoriel pas à pas illustre l'utilisation de `DocumentBuilder` Créez facilement des documents Word dynamiques et interactifs. Idéal pour les développeurs souhaitant enrichir leurs applications .NET avec des formulaires Word personnalisables.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-form-fields/insert-form-fields" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation  
 
-Pour utiliser l'exemple, vous devez installer Aspose.Words pour .NET dans votre environnement de développement. Suivez ces étapes:  
+Pour utiliser cet exemple, vous devez avoir installé Aspose.Words pour .NET dans votre environnement de développement. Suivez ces étapes :  
 
 1. Télécharger Aspose.Words pour .NET  
-   Obtenez la dernière version de la [Les téléchargements sont à l'intention](https://releases.aspose.com/words/net/)page.  
+   Obtenez la dernière version du [Téléchargements d'Aspose](https://releases.aspose.com/words/net/) page.  
 
-2. Installez par NuGet  
-   Ouvrez votre projet dans Visual Studio et installez la bibliothèque à l'aide du gestionnaire de paquets NuGet:  
-   * Dans la console de gestion de paquets, tapez:  
+2. Installer via NuGet  
+   Ouvrez votre projet dans Visual Studio et installez la bibliothèque à l’aide du gestionnaire de packages NuGet :  
+   - Dans la console du gestionnaire de paquets, saisissez :  
      ```bash  
      Install-Package Aspose.Words  
      ```  
 
-3. Application de licence (optionnelle)  
-   Pour une fonctionnalité complète, demandez une licence:  
-   * Acheter une licence auprès de la[L'objectif est d'acheter](https://purchase.aspose.com/buy)page ou demande une [Licence temporaire](https://purchase.aspose.com/temporary-license/)\- Je suis désolé .  
-   * Chargez la licence dans votre code:  
+3. Appliquer la licence (facultatif)  
+   Pour une fonctionnalité complète, appliquez une licence :  
+   - Achetez une licence auprès du [Aspose Acheter](https://purchase.aspose.com/buy) page ou demander un [Licence temporaire](https://purchase.aspose.com/temporary-license/).  
+   - Chargez la licence dans votre code :  
      ```csharp  
      Aspose.Words.License license = new Aspose.Words.License();  
      license.SetLicense("path-to-license-file.lic");  
      ```  
 
 ## Voir aussi
-[Aspose.Word pour la documentation .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word pour les références .NET](https://reference.aspose.com/words/net/)
+[Documentation Aspose.Word pour .NET](https://docs.aspose.com/words/net/)
+[Références Aspose.Word pour .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

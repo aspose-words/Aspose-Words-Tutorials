@@ -1,14 +1,16 @@
 ---
-title: 고급 보호 기술을 사용한 문서 보안
-linktitle: 고급 보호 기술을 사용한 문서 보안
-second_title: Aspose.Words 파이썬 문서 관리 API
-description: Aspose.Words for Python을 사용하여 고급 보호로 문서를 보호하세요. 비밀번호를 추가하고, 콘텐츠를 암호화하고, 디지털 서명을 적용하는 방법 등을 알아보세요.
-weight: 16
-url: /ko/python-net/document-combining-and-comparison/secure-documents-protection/
+"description": "Python용 Aspose.Words를 사용하여 고급 보안 기능으로 문서를 보호하세요. 비밀번호 추가, 콘텐츠 암호화, 디지털 서명 적용 등의 방법을 알아보세요."
+"linktitle": "고급 보호 기술을 사용한 문서 보안"
+"second_title": "Aspose.Words Python 문서 관리 API"
+"title": "고급 보호 기술을 사용한 문서 보안"
+"url": "/ko/python-net/document-combining-and-comparison/secure-documents-protection/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 고급 보호 기술을 사용한 문서 보안
@@ -16,7 +18,7 @@ url: /ko/python-net/document-combining-and-comparison/secure-documents-protectio
 
 ## 소개
 
-이 디지털 시대에 데이터 침해와 민감한 정보에 대한 무단 액세스는 일반적인 우려 사항입니다. Aspose.Words for Python은 이러한 위험으로부터 문서를 보호하기 위한 강력한 솔루션을 제공합니다. 이 가이드에서는 Aspose.Words를 사용하여 문서에 대한 고급 보호 기술을 구현하는 방법을 보여줍니다.
+디지털 시대에 데이터 유출과 민감한 정보에 대한 무단 접근은 흔한 문제입니다. Aspose.Words for Python은 이러한 위험으로부터 문서를 보호하는 강력한 솔루션을 제공합니다. 이 가이드에서는 Aspose.Words를 사용하여 문서에 고급 보안 기술을 구현하는 방법을 보여줍니다.
 
 ## Python용 Aspose.Words 설치
 
@@ -75,32 +77,37 @@ doc.first_section.headers_footers.first_header.paragraphs.add(watermark)
 
 ## 결론
 
-Aspose.Words for Python은 고급 기술을 사용하여 문서를 보호할 수 있도록 지원합니다. 암호 보호 및 암호화에서 디지털 서명 및 편집에 이르기까지 이러한 기능은 문서가 기밀로 유지되고 변조 방지되도록 보장합니다.
+Aspose.Words for Python은 고급 기술을 사용하여 문서를 안전하게 보호할 수 있도록 지원합니다. 암호 보호 및 암호화부터 디지털 서명 및 편집까지, 이러한 기능을 통해 문서의 기밀성과 변조 방지를 보장합니다.
 
 ## 자주 묻는 질문
 
-### Python에 Aspose.Words를 어떻게 설치하나요?
+### Python에 Aspose.Words를 어떻게 설치할 수 있나요?
 
- 다음을 실행하여 pip를 사용하여 설치할 수 있습니다.`pip install aspose-words`.
+다음을 실행하여 pip를 사용하여 설치할 수 있습니다. `pip install aspose-words`.
 
 ### 특정 그룹의 편집을 제한할 수 있나요?
 
- 예, 다음을 사용하여 특정 그룹에 대한 편집 권한을 설정할 수 있습니다.`protection.set_editing_groups(["Editors"])`.
+예, 다음을 사용하여 특정 그룹에 대한 편집 권한을 설정할 수 있습니다. `protection.set_editing_groups(["Editors"])`.
 
-### Aspose.Words는 어떤 암호화 옵션을 제공하나요?
+### Aspose.Words는 어떤 암호화 옵션을 제공합니까?
 
-Aspose.Words는 AES_256과 같은 암호화 옵션을 제공하여 문서 내용을 보호합니다.
+Aspose.Words는 문서 내용을 보호하기 위해 AES_256과 같은 암호화 옵션을 제공합니다.
 
 ### 디지털 서명은 어떻게 문서 보안을 강화합니까?
 
-디지털 서명은 문서의 진위성과 무결성을 보장하여 허가받지 않은 당사자가 내용을 변조하는 것을 어렵게 만듭니다.
+디지털 서명은 문서의 진위성과 무결성을 보장하여 권한이 없는 당사자가 콘텐츠를 변조하는 것을 어렵게 만듭니다.
 
-### 문서에서 민감한 정보를 영구적으로 제거하려면 어떻게 해야 합니까?
+### 문서에서 민감한 정보를 영구적으로 제거하려면 어떻게 해야 하나요?
 
-삭제 기능을 활용하여 문서에서 민감한 정보를 영구적으로 제거하세요.
+문서에서 민감한 정보를 영구적으로 제거하려면 삭제 기능을 활용하세요.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

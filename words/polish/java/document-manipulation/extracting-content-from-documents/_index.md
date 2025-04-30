@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnianie zawartości z dokumentów w Aspose.Words dla Java
-linktitle: Wyodrębnianie zawartości z dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak łatwo wyodrębniać zawartość z dokumentów za pomocą Aspose.Words for Java. Nasz przewodnik krok po kroku i przykłady kodu upraszczają ten proces.
-weight: 13
-url: /pl/java/document-manipulation/extracting-content-from-documents/
+"description": "Dowiedz się, jak łatwo wyodrębniać zawartość z dokumentów za pomocą Aspose.Words for Java. Nasz przewodnik krok po kroku i przykłady kodu upraszczają ten proces."
+"linktitle": "Wyodrębnianie zawartości z dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Wyodrębnianie zawartości z dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-manipulation/extracting-content-from-documents/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnianie zawartości z dokumentów w Aspose.Words dla Java
@@ -22,7 +24,7 @@ url: /pl/java/document-manipulation/extracting-content-from-documents/
 
 Zanim przejdziemy do procesu ekstrakcji, upewnij się, że spełnione są następujące warunki wstępne:
 
-1.  Aspose.Words dla Java: Powinieneś mieć zainstalowany i skonfigurowany Aspose.Words dla Java w swoim środowisku programistycznym Java. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/words/java/).
+1. Aspose.Words dla Java: Powinieneś mieć zainstalowany i skonfigurowany Aspose.Words dla Java w swoim środowisku programistycznym Java. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 2. Dokument do wyodrębnienia zawartości: W tym przewodniku użyjemy przykładowego dokumentu o nazwie „Extract content.docx”. Upewnij się, że masz podobny dokument gotowy do wyodrębnienia.
 
@@ -45,7 +47,7 @@ doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevel
 ## Wyodrębnianie zawartości pomiędzy zakładkami
 
 ```java
-//Przykład kodu Java do wyodrębniania zawartości pomiędzy zakładkami
+// Przykład kodu Java do wyodrębniania zawartości pomiędzy zakładkami
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -248,11 +250,11 @@ Aby wyodrębnić zawartość z określonych sekcji dokumentu, można zidentyfiko
 
 ### Czy mogę wyodrębnić treść z dokumentów chronionych hasłem?
 
-Tak, Aspose.Words for Java zapewnia funkcjonalność wyodrębniania treści z dokumentów chronionych hasłem. Możesz podać hasło podczas otwierania dokumentu za pomocą`Document` konstruktor klasy.
+Tak, Aspose.Words for Java zapewnia funkcjonalność wyodrębniania treści z dokumentów chronionych hasłem. Możesz podać hasło podczas otwierania dokumentu za pomocą `Document` konstruktor klasy.
 
 ### W jaki sposób mogę wyodrębnić treść i zapisać ją w różnych formatach, na przykład jako zwykły tekst lub HTML?
 
- Możesz wyodrębnić zawartość z dokumentu i zapisać ją w różnych formatach za pomocą Aspose.Words for Java. Po wyodrębnieniu zawartości możesz użyć`Document` metody klasy, aby zapisać je w formatach zwykłego tekstu, HTML lub innych.
+Możesz wyodrębnić zawartość z dokumentu i zapisać ją w różnych formatach za pomocą Aspose.Words for Java. Po wyodrębnieniu zawartości możesz użyć `Document` metody klasy, aby zapisać je w formatach zwykłego tekstu, HTML lub innych.
 
 ### Czy istnieje sposób na wyodrębnienie treści z określonych elementów dokumentu, np. tabel lub obrazów?
 
@@ -261,9 +263,14 @@ Tak, możesz wyodrębnić zawartość z określonych elementów dokumentu, takic
 ### Jak mogę zautomatyzować proces wyodrębniania treści w mojej aplikacji Java?
 
 Aby zautomatyzować proces ekstrakcji treści w aplikacji Java, możesz utworzyć niestandardowy kod na podstawie technik opisanych w tym przewodniku. Możesz również zaimplementować logikę, aby iterować przez wiele dokumentów i wyodrębniać treść w razie potrzeby.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

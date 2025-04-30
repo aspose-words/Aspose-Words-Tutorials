@@ -1,29 +1,31 @@
 ---
-title: Vložit tvar
-linktitle: Vložit tvar
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se vkládat a manipulovat s tvary v dokumentech aplikace Word pomocí Aspose.Words for .NET pomocí našeho podrobného průvodce.
-weight: 10
-url: /cs/net/programming-with-shapes/insert-shape/
+"description": "Naučte se, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem."
+"linktitle": "Vložit tvar"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit tvar"
+"url": "/cs/net/programming-with-shapes/insert-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vložit tvar
 
 ## Zavedení
 
-Pokud jde o vytváření vizuálně přitažlivých a dobře strukturovaných dokumentů aplikace Word, tvary mohou hrát zásadní roli. Ať už přidáváte šipky, rámečky nebo dokonce složité vlastní tvary, možnost programově manipulovat s těmito prvky nabízí nesrovnatelnou flexibilitu. V tomto tutoriálu prozkoumáme, jak vkládat a manipulovat s tvary v dokumentech aplikace Word pomocí Aspose.Words for .NET.
+Pokud jde o vytváření vizuálně přitažlivých a dobře strukturovaných dokumentů Wordu, tvary mohou hrát zásadní roli. Ať už přidáváte šipky, rámečky nebo dokonce složité vlastní tvary, možnost programově manipulovat s těmito prvky nabízí bezkonkurenční flexibilitu. V tomto tutoriálu se podíváme na to, jak vkládat a manipulovat s tvary v dokumentech Wordu pomocí Aspose.Words pro .NET.
 
 ## Předpoklady
 
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
+Než se pustíte do tutoriálu, ujistěte se, že máte následující předpoklady:
 
-1.  Aspose.Words for .NET: Stáhněte a nainstalujte nejnovější verzi z[Aspose stránku vydání](https://releases.aspose.com/words/net/).
-2. Vývojové prostředí: Vhodné vývojové prostředí .NET, jako je Visual Studio.
-3. Základní znalost C#: Znalost programovacího jazyka C# a základních pojmů.
+1. Aspose.Words pro .NET: Stáhněte a nainstalujte nejnovější verzi z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
+2. Vývojové prostředí: Vhodné vývojové prostředí pro .NET, například Visual Studio.
+3. Základní znalost C#: Znalost programovacího jazyka C# a základních konceptů.
 
 ## Importovat jmenné prostory
 
@@ -34,100 +36,105 @@ using Aspose.Words;
 using Aspose.Words.Drawing;
 ```
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-Než budete moci začít vkládat tvary, musíte nastavit svůj projekt a přidat knihovnu Aspose.Words for .NET.
+Než začnete vkládat tvary, musíte si nastavit projekt a přidat knihovnu Aspose.Words pro .NET.
 
-1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt C# Console Application.
-2. Přidat Aspose.Words for .NET: Nainstalujte knihovnu Aspose.Words for .NET prostřednictvím Správce balíčků NuGet.
+1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace C#.
+2. Přidání Aspose.Words pro .NET: Nainstalujte knihovnu Aspose.Words pro .NET pomocí Správce balíčků NuGet.
 
 ```bash
 Install-Package Aspose.Words
 ```
 
-## Krok 2: Inicializujte dokument
+## Krok 2: Inicializace dokumentu
 
-Nejprve budete muset inicializovat nový dokument a tvůrce dokumentů, který vám pomůže při vytváření dokumentu.
+Nejprve budete muset inicializovat nový dokument a nástroj pro tvorbu dokumentů, který vám pomůže s jeho sestavením.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Inicializujte nový dokument
+// Inicializace nového dokumentu
 Document doc = new Document();
 
-// Inicializujte DocumentBuilder, který vám pomůže vytvořit dokument
+// Inicializujte DocumentBuilder, který pomůže sestavit dokument.
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Vložte tvar
+## Krok 3: Vložení tvaru
 
-Nyní do dokumentu vložíme tvar. Začneme přidáním jednoduchého textového pole.
+Nyní vložíme do dokumentu tvar. Začneme přidáním jednoduchého textového pole.
 
 ```csharp
-// Vložte do dokumentu tvar textového pole
+// Vložení tvaru textového pole do dokumentu
 Shape shape = builder.InsertShape(ShapeType.TextBox, RelativeHorizontalPosition.Page, 100, RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
-// Otočte tvar
+// Otočení tvaru
 shape.Rotation = 30.0;
 ```
 
-tomto příkladu vložíme na pozici (100, 100) textové pole o šířce a výšce 50 jednotek. Tvar také otočíme o 30 stupňů.
+V tomto příkladu vložíme textové pole na pozici (100, 100) o šířce a výšce 50 jednotek. Také otočíme tvar o 30 stupňů.
 
-## Krok 4: Přidejte další tvar
+## Krok 4: Přidání dalšího tvaru
 
-Pojďme do dokumentu přidat další tvar, tentokrát bez určení pozice.
+Přidejme do dokumentu další tvar, tentokrát bez určení jeho polohy.
 
 ```csharp
-// Přidejte další tvar textového pole
+// Přidat další tvar textového pole
 Shape secondShape = builder.InsertShape(ShapeType.TextBox, 50, 50);
 
-// Otočte tvar
+// Otočení tvaru
 secondShape.Rotation = 30.0;
 ```
 
-Tento fragment kódu vloží další textové pole se stejnými rozměry a otočením jako první, ale bez určení jeho polohy.
+Tento úryvek kódu vloží další textové pole se stejnými rozměry a otočením jako první, ale bez určení jeho pozice.
 
 ## Krok 5: Uložte dokument
 
- Po přidání tvarů je posledním krokem uložení dokumentu. Použijeme`OoxmlSaveOptions` k určení formátu uložení.
+Po přidání tvarů je posledním krokem uložení dokumentu. Použijeme `OoxmlSaveOptions` pro určení formátu uložení.
 
 ```csharp
-// Definujte možnosti uložení s dodržováním předpisů
+// Definování možností ukládání s ohledem na dodržování předpisů
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 
-// Uložte dokument
+// Uložit dokument
 doc.Save(dataDir + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
 ## Závěr
 
-A tady to máte! Úspěšně jste vložili tvary a manipulovali s nimi v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tento výukový program pokryl základy, ale Aspose.Words nabízí mnoho pokročilejších funkcí pro práci s tvary, jako jsou vlastní styly, spojnice a tvary skupin.
+tady to máte! Úspěšně jste vložili a upravili tvary v dokumentu Word pomocí Aspose.Words pro .NET. Tento tutoriál se zabýval základy, ale Aspose.Words nabízí mnoho pokročilejších funkcí pro práci s tvary, jako jsou vlastní styly, spojnice a seskupené tvary.
 
- Pro podrobnější informace navštivte[Aspose.Words pro dokumentaci .NET](https://reference.aspose.com/words/net/).
+Pro podrobnější informace navštivte [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/).
 
-## FAQ
+## Často kladené otázky
 
-### Jak vložím různé typy tvarů?
-Můžete změnit`ShapeType` v`InsertShape` metoda pro vkládání různých typů tvarů, jako jsou kruhy, obdélníky a šipky.
+### Jak vkládám různé typy tvarů?
+Můžete změnit `ShapeType` v `InsertShape` metoda pro vkládání různých typů tvarů, jako jsou kruhy, obdélníky a šipky.
 
-### Mohu přidat text do tvarů?
- Ano, můžete použít`builder.Write` metoda pro přidání textu do tvarů po jejich vložení.
+### Mohu do tvarů přidat text?
+Ano, můžete použít `builder.Write` metoda pro přidání textu dovnitř tvarů po jejich vložení.
 
-### Je možné tvary stylizovat?
- Ano, tvary můžete stylovat nastavením vlastností jako`FillColor`, `StrokeColor` a`StrokeWeight`.
+### Je možné tvary stylovat?
+Ano, tvary můžete upravovat nastavením vlastností, jako je `FillColor`, `StrokeColor`a `StrokeWeight`.
 
 ### Jak umístím tvary vzhledem k ostatním prvkům?
- Použijte`RelativeHorizontalPosition` a`RelativeVerticalPosition` vlastnosti pro umístění tvarů vzhledem k ostatním prvkům v dokumentu.
+Použijte `RelativeHorizontalPosition` a `RelativeVerticalPosition` vlastnosti pro umístění tvarů vzhledem k ostatním prvkům v dokumentu.
 
 ### Mohu seskupit více tvarů dohromady?
- Ano, Aspose.Words for .NET umožňuje seskupovat tvary pomocí`GroupShape` třída.
+Ano, Aspose.Words pro .NET umožňuje seskupovat tvary pomocí `GroupShape` třída.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

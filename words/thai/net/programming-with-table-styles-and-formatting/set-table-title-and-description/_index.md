@@ -1,14 +1,16 @@
 ---
-title: ตั้งชื่อตารางและคำอธิบาย
-linktitle: ตั้งชื่อตารางและคำอธิบาย
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าชื่อตารางและคำอธิบายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อปรับปรุงความเป็นมืออาชีพของเอกสารของคุณ
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/set-table-title-and-description/
+"description": "เรียนรู้วิธีตั้งค่าชื่อตารางและคำอธิบายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อปรับปรุงความเป็นมืออาชีพของเอกสารของคุณ"
+"linktitle": "ตั้งชื่อตารางและคำอธิบาย"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งชื่อตารางและคำอธิบาย"
+"url": "/th/net/programming-with-table-styles-and-formatting/set-table-title-and-description/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งชื่อตารางและคำอธิบาย
@@ -21,7 +23,7 @@ url: /th/net/programming-with-table-styles-and-formatting/set-table-title-and-de
 
 ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว นี่คือรายการตรวจสอบของคุณ:
 
-1.  Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณต้องดาวน์โหลดโปรแกรมนี้ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด คุณต้องดาวน์โหลดโปรแกรมนี้ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE C# อื่นๆ
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ไม่มีอะไรพิเศษมาก เพียงแค่พื้นฐานเท่านั้น
 4. ตัวอย่างเอกสาร Word: เราจะใช้เอกสารที่มีตาราง คุณสามารถสร้างตารางหรือใช้เอกสารที่มีอยู่แล้วก็ได้
@@ -93,16 +95,21 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.SetTableTitleAndDescript
 ช่วยให้มีบริบทโดยเฉพาะในเอกสารขนาดใหญ่ที่มีตารางหลายตาราง
 
 ### Aspose.Words สำหรับ .NET ฟรีหรือเปล่า?
- ไม่ แต่คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+ไม่ แต่คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันสามารถปรับแต่งด้านอื่น ๆ ของตารางโดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่
 แน่นอน! คุณสามารถปรับแต่งแทบทุกส่วนของตารางและเอกสารของคุณได้
 
 ### หากฉันต้องการบันทึกเอกสารในรูปแบบอื่นจะทำอย่างไร?
 Aspose.Words รองรับการบันทึกในรูปแบบต่างๆ เช่น PDF, HTML และอื่นๆ
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

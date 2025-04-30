@@ -1,56 +1,64 @@
 ---
-title: A Word dokumentumokban a .NET-hez használt Aspose.Words alkalmazásával sor formázást alkalmazunk
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell alkalmazni a sorformátációt egy Word dokumentumban a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /hu/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "Tanuld meg, hogyan alkalmazhatsz sorformázást egy Word dokumentumban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató kódpéldával és részletes utasításokkal."
+"title": "Sorformázás alkalmazása Word dokumentumokban az Aspose.Words for .NET segítségével"
+"url": "/hu/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Word dokumentumokban a sor formázását alkalmazza az Aspose.Words segítségével
+# Sorformázás alkalmazása Word dokumentumokban az Aspose.Words segítségével
 
-Az Aspose.Words programos Word dokumentumok létrehozására és módosítására szolgáló erőteljes eszközöket kínál. Ebben a példa bemutatjuk, hogyan lehet a sor formázását alkalmazni a Word dokumentumban az Aspose.Words segítségével. Megtanulhatja a sormagasságok beállítását, a padding beállítását és a pontos formázást, hogy jól szerkezetbe vett táblázatokat hozzon létre. Ez a lépésről lépésre szóló útmutató tartalmazó kódot és utasításokat, amelyek segítenek gyorsan végrehajtani ezeket a funkciókat a .NET alkalmazásokban.
+Az Aspose.Words for .NET hatékony eszközöket kínál Word-dokumentumok programozott létrehozásához és módosításához. Ebben a példában bemutatjuk, hogyan alkalmazhat sorformázást egy Word-dokumentumban az Aspose.Words segítségével. Megtanulod beállítani a sormagasságokat, konfigurálni a kitöltést, és precíz formázást alkalmazni jól strukturált táblázatok létrehozásához. Ez a lépésenkénti útmutató kódrészleteket és utasításokat tartalmaz, amelyek segítenek gyorsan megvalósítani ezeket a funkciókat a .NET-alkalmazásokban.
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A .NET projekthez Aspose.Words használatához kövesse ezeket a lépéseket:  
+## Telepítési utasítások  
+Az Aspose.Words for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. Letöltsd le az Aspose.Words .NET-re  
-   * Látogasson el a[Aspose.Words a .NET letöltőoldalhoz](https://releases.aspose.com/words/net/)és letöltsük az utolsó verziót.
+1. Aspose.Words letöltése .NET-hez  
+   - Látogassa meg a [Aspose.Words .NET letöltési oldal](https://releases.aspose.com/words/net/) és töltsd le a legújabb verziót.
 
-2. A NuGet segítségével telepítse  
-   * Nyissa ki a projektét a Visual Studio-ban.  
-   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd a`Aspose.Words`és kattintsa a telepítésre.
+2. Telepítés NuGet-en keresztül  
+   - Nyisd meg a projektedet a Visual Studioban.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresés `Aspose.Words` és kattintson a Telepítés gombra.
 
-3. Be kell foglalni a névterületet  
-   * Adja be a következő vonalt a kódjához:  
+3. Névtér hozzáadása  
+   - Add hozzá a következő sort a kódodhoz:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. Aktívan kell használni a licencet (Felhetős)  
-   * A értékelési korlátozások elkerülése érdekében kérje fel a [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)vagy vásárol egy [teljes engedély](https://purchase.aspose.com/buy)\- Nem.  
-   * Töltsük be a jogosítványt a kódjába:  
+4. Licenc aktiválása (opcionális)  
+   - Az értékelési korlátok elkerülése érdekében jelentkezzen a következőre: [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy vásároljon egy [teljes licenc](https://purchase.aspose.com/buy).  
+   - Töltsd be a licencet a kódodba:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

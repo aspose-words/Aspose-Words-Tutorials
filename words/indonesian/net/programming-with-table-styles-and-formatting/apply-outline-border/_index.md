@@ -1,14 +1,16 @@
 ---
-title: Terapkan Batas Garis Besar
-linktitle: Terapkan Batas Garis Besar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menerapkan garis tepi pada tabel di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pemformatan tabel yang sempurna.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/apply-outline-border/
+"description": "Pelajari cara menerapkan garis tepi pada tabel di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pemformatan tabel yang sempurna."
+"linktitle": "Terapkan Batas Garis Besar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Terapkan Batas Garis Besar"
+"url": "/id/net/programming-with-table-styles-and-formatting/apply-outline-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Batas Garis Besar
@@ -21,7 +23,7 @@ Dalam tutorial hari ini, kita akan menyelami dunia manipulasi dokumen menggunaka
 
 Sebelum kita masuk ke kode, ada beberapa hal yang Anda perlukan:
 
-1.  Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda perlu menginstal Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang cocok seperti Visual Studio.
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan membantu Anda mengikuti tutorial.
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Pada langkah ini, kami menggunakan`Document` kelas dari Aspose.Words untuk memuat dokumen yang sudah ada. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
+Pada langkah ini, kami menggunakan `Document` kelas dari Aspose.Words untuk memuat dokumen yang sudah ada. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat dokumen Anda disimpan.
 
 ## Langkah 2: Akses Tabel
 
@@ -59,7 +61,7 @@ Berikutnya, kita perlu mengakses tabel spesifik yang ingin kita format.
 Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 ```
 
- Di Sini,`GetChild` metode mengambil tabel pertama dalam dokumen. Parameter`NodeType.Table, 0, true` pastikan kita mendapatkan jenis node yang benar.
+Di Sini, `GetChild` metode mengambil tabel pertama dalam dokumen. Parameter `NodeType.Table, 0, true` pastikan kita mendapatkan jenis node yang benar.
 
 ## Langkah 3: Sejajarkan Tabel
 
@@ -92,7 +94,7 @@ table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 ```
 
- Setiap jenis batas (kiri, kanan, atas, bawah) diatur secara individual. Kami menggunakan`LineStyle.Single` untuk garis padat,`1.5` untuk lebar garis, dan`Color.Green` untuk warna batas.
+Setiap jenis batas (kiri, kanan, atas, bawah) diatur secara individual. Kami menggunakan `LineStyle.Single` untuk garis padat, `1.5` untuk lebar garis, dan `Color.Green` untuk warna batas.
 
 ## Langkah 6: Terapkan Cell Shading
 
@@ -102,7 +104,7 @@ Untuk membuat tabel lebih menarik secara visual, mari isi sel dengan warna hijau
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 ```
 
- Di Sini,`SetShading` digunakan untuk menerapkan warna hijau muda pekat pada sel, sehingga tabel tampak menonjol.
+Di Sini, `SetShading` digunakan untuk menerapkan warna hijau muda pekat pada sel, sehingga tabel tampak menonjol.
 
 ## Langkah 7: Simpan Dokumen
 
@@ -123,22 +125,27 @@ Dengan keterampilan ini, Anda dapat menyempurnakan tampilan visual tabel Anda, m
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menerapkan gaya yang berbeda pada setiap batas tabel?  
- Ya, Anda dapat menerapkan gaya dan warna yang berbeda ke setiap perbatasan dengan menyesuaikan parameter di`SetBorder` metode.
+Ya, Anda dapat menerapkan gaya dan warna yang berbeda ke setiap perbatasan dengan menyesuaikan parameter di `SetBorder` metode.
 
 ### Bagaimana cara mengubah lebar perbatasan?  
- Anda dapat mengubah lebar dengan memodifikasi parameter ketiga di`SetBorder` metode. Misalnya,`1.5` menetapkan lebar 1,5 poin.
+Anda dapat mengubah lebar dengan memodifikasi parameter ketiga di `SetBorder` metode. Misalnya, `1.5` menetapkan lebar 1,5 poin.
 
 ### Mungkinkah menerapkan bayangan pada sel individual?  
- Ya, Anda dapat menerapkan bayangan ke sel individual dengan mengakses setiap sel dan menggunakan`SetShading` metode.
+Ya, Anda dapat menerapkan bayangan ke sel individual dengan mengakses setiap sel dan menggunakan `SetShading` metode.
 
 ### Bisakah saya menggunakan warna lain untuk batas dan bayangan?  
- Tentu saja! Anda dapat menggunakan warna apa pun yang tersedia di`System.Drawing.Color` kelas.
+Tentu saja! Anda dapat menggunakan warna apa pun yang tersedia di `System.Drawing.Color` kelas.
 
 ### Bagaimana cara menyelaraskan tabel secara horizontal dan berpusat?  
- Itu`table.Alignment = TableAlignment.Center;` Baris dalam kode memusatkan tabel secara horizontal pada halaman.
+Itu `table.Alignment = TableAlignment.Center;` Baris dalam kode memusatkan tabel secara horizontal pada halaman.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

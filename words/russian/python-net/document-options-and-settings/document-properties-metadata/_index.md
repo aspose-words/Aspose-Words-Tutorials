@@ -1,14 +1,16 @@
 ---
-title: Управление свойствами документа и метаданными
-linktitle: Управление свойствами документа и метаданными
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как управлять свойствами документа и метаданными с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом.
-weight: 12
-url: /ru/python-net/document-options-and-settings/document-properties-metadata/
+"description": "Узнайте, как управлять свойствами документа и метаданными с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом."
+"linktitle": "Управление свойствами документа и метаданными"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Управление свойствами документа и метаданными"
+"url": "/ru/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление свойствами документа и метаданными
@@ -23,10 +25,10 @@ url: /ru/python-net/document-options-and-settings/document-properties-metadata/
 Прежде чем погрузиться в управление свойствами и метаданными документа, давайте настроим нашу среду с помощью Aspose.Words для Python.
 
 ```python
-# Install the Aspose.Words for Python package
+# Установите пакет Aspose.Words для Python
 pip install aspose-words
 
-# Import the necessary classes
+# Импортировать необходимые классы
 import aspose.words as aw
 ```
 
@@ -35,10 +37,10 @@ import aspose.words as aw
 Вы можете легко получить свойства документа с помощью API Aspose.Words. Вот пример того, как получить автора и название документа:
 
 ```python
-# Load the document
+# Загрузить документ
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# Получить свойства документа
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -51,11 +53,11 @@ print("Title:", title)
 Обновление свойств документа так же просто. Допустим, вы хотите обновить имя автора и заголовок:
 
 ```python
-# Update document properties
+# Обновить свойства документа
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# Сохраните изменения.
 doc.save("updated_document.docx")
 ```
 
@@ -64,10 +66,10 @@ doc.save("updated_document.docx")
 Пользовательские свойства документа позволяют хранить дополнительную информацию в документе. Давайте добавим пользовательское свойство с именем «Department»:
 
 ```python
-# Add a custom document property
+# Добавить пользовательское свойство документа
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# Сохраните изменения.
 doc.save("document_with_custom_property.docx")
 ```
 
@@ -76,7 +78,7 @@ doc.save("document_with_custom_property.docx")
 Управление метаданными включает в себя контроль информации, такой как отслеживание изменений, статистика документа и т. д. Aspose.Words позволяет вам получать доступ к этим метаданным и изменять их программным способом.
 
 ```python
-# Access and modify metadata
+# Доступ и изменение метаданных
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
@@ -85,7 +87,7 @@ doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 Частые обновления метаданных можно автоматизировать с помощью Aspose.Words. Например, можно автоматически обновлять свойство "Last Modified By":
 
 ```python
-# Automatically update "Last Modified By"
+# Автоматически обновлять «Последнее изменение»
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
@@ -94,7 +96,7 @@ doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 Метаданные иногда могут содержать конфиденциальную информацию. Чтобы обеспечить конфиденциальность данных, вы можете удалить определенные свойства:
 
 ```python
-# Remove sensitive metadata properties
+# Удалить конфиденциальные свойства метаданных
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
@@ -106,12 +108,12 @@ for prop in sensitive_properties:
 Версионирование имеет решающее значение для сохранения истории документа. Aspose.Words позволяет эффективно управлять версиями:
 
 ```python
-# Add version history information
+# Добавить информацию об истории версий
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
 
-## Документирование собственности Лучшие практики
+## Лучшие практики в области собственности документов
 
 - Поддерживайте точность и актуальность свойств документа.
 - Используйте пользовательские свойства для дополнительного контекста.
@@ -138,7 +140,7 @@ pip install aspose-words
 
 ### Как защитить конфиденциальную информацию в метаданных?
 
- Чтобы защитить конфиденциальную информацию в метаданных, вы можете удалить определенные свойства с помощью`remove` метод.
+Чтобы защитить конфиденциальную информацию в метаданных, вы можете удалить определенные свойства с помощью `remove` метод.
 
 ### Каковы наилучшие практики управления свойствами документа?
 
@@ -146,9 +148,14 @@ pip install aspose-words
 - Используйте пользовательские свойства для дополнительного контекста.
 - Регулярно просматривайте и обновляйте метаданные.
 - Защитите конфиденциальную информацию, содержащуюся в метаданных.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

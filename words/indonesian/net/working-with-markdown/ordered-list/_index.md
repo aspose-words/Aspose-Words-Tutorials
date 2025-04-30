@@ -1,14 +1,16 @@
 ---
-title: Daftar Berurutan
-linktitle: Daftar Berurutan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat daftar berurutan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pembuatan dokumen.
-weight: 10
-url: /id/net/working-with-markdown/ordered-list/
+"description": "Pelajari cara membuat daftar berurutan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sempurna untuk mengotomatiskan pembuatan dokumen."
+"linktitle": "Daftar Berurutan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Daftar Berurutan"
+"url": "/id/net/working-with-markdown/ordered-list/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Berurutan
@@ -21,7 +23,7 @@ Jadi, Anda telah memutuskan untuk mencoba Aspose.Words for .NET untuk membuat do
 
 Sebelum kita masuk ke kode, ada beberapa hal yang Anda perlukan:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pengetahuan Dasar C#: Anda harus memahami dasar-dasar C# agar mudah dipahami.
 
@@ -79,7 +81,7 @@ builder.Writeln("Item 2a");
 builder.Writeln("Item 2b");
 ```
 
- Itu`ListIndent` metode membuat indentasi pada daftar, sehingga membuat sub-daftar. Sekarang Anda membuat daftar hierarkis, seperti daftar tugas bertingkat.
+Itu `ListIndent` metode membuat indentasi pada daftar, sehingga membuat sub-daftar. Sekarang Anda membuat daftar hierarkis, seperti daftar tugas bertingkat.
 
 ## Kesimpulan
 
@@ -88,22 +90,27 @@ Membuat daftar berurutan dalam dokumen Word secara terprogram mungkin tampak men
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan gaya penomoran daftar?  
- Ya, Anda dapat menyesuaikan gaya penomoran menggunakan`ListFormat`properti. Anda dapat mengatur berbagai gaya penomoran seperti angka Romawi, huruf, dll.
+Ya, Anda dapat menyesuaikan gaya penomoran menggunakan `ListFormat` properti. Anda dapat mengatur berbagai gaya penomoran seperti angka Romawi, huruf, dll.
 
 ### Bagaimana cara menambahkan lebih banyak tingkat indentasi?  
- Anda dapat menggunakan`ListIndent` metode beberapa kali untuk membuat tingkat sub-daftar yang lebih dalam. Setiap panggilan ke`ListIndent` menambahkan satu tingkat indentasi.
+Anda dapat menggunakan `ListIndent` metode beberapa kali untuk membuat tingkat sub-daftar yang lebih dalam. Setiap panggilan ke `ListIndent` menambahkan satu tingkat indentasi.
 
 ### Bisakah saya mencampur poin-poin dan daftar bernomor?  
- Tentu saja! Anda dapat menerapkan format daftar yang berbeda dalam dokumen yang sama menggunakan`ListFormat` milik.
+Tentu saja! Anda dapat menerapkan format daftar yang berbeda dalam dokumen yang sama menggunakan `ListFormat` milik.
 
 ### Apakah mungkin untuk melanjutkan penomoran dari daftar sebelumnya?  
 Ya, Anda dapat melanjutkan penomoran dengan menggunakan format daftar yang sama. Aspose.Words memungkinkan Anda untuk mengontrol penomoran daftar di berbagai paragraf.
 
 ### Bagaimana cara menghapus format daftar?  
- Anda dapat menghapus format daftar dengan memanggil`ListFormat.RemoveNumbers()`Ini akan mengubah item daftar kembali menjadi paragraf biasa.
+Anda dapat menghapus format daftar dengan memanggil `ListFormat.RemoveNumbers()`Ini akan mengubah item daftar kembali menjadi paragraf biasa.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

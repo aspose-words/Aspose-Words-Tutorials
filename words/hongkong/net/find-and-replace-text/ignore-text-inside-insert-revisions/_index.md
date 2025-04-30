@@ -1,28 +1,30 @@
 ---
-title: 忽略插入修訂內的文本
-linktitle: 忽略插入修訂內的文本
-second_title: Aspose.Words 文件處理 API
-description: 了解如何使用 Aspose.Words for .NET 有效管理文件修訂。探索忽略插入修訂內文本以簡化編輯的技術。
-weight: 10
-url: /zh-hant/net/find-and-replace-text/ignore-text-inside-insert-revisions/
+"description": "了解如何使用 Aspose.Words for .NET 有效地管理文件修訂。探索忽略插入修訂中的文字的技術，以簡化編輯。"
+"linktitle": "忽略插入修訂中的文本"
+"second_title": "Aspose.Words文件處理API"
+"title": "忽略插入修訂中的文本"
+"url": "/zh-hant/net/find-and-replace-text/ignore-text-inside-insert-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 忽略插入修訂內的文本
+# 忽略插入修訂中的文本
 
 ## 介紹
 
-在本綜合指南中，我們將深入研究如何使用 Aspose.Words for .NET 來有效管理文件修訂。無論您是開發人員還是技術愛好者，了解如何忽略插入修訂中的文字都可以簡化您的文件處理工作流程。本教學課程將為您提供必要的技能，以利用 Aspose.Words 的強大功能來無縫管理文件修訂。
+在本綜合指南中，我們將深入研究如何使用 Aspose.Words for .NET 有效地管理文件修訂。無論您是開發人員還是技術愛好者，了解如何忽略插入修訂中的文字可以簡化您的文件處理工作流程。本教學課程將為您提供必要的技能，以利用 Aspose.Words 的強大功能無縫管理文件修訂。
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
-- Visual Studio 安裝在您的電腦上。
-- Aspose.Words for .NET 函式庫整合到您的專案中。
-- C# 程式語言和 .NET 框架的基礎知識。
+在深入學習本教程之前，請確保您已滿足以下先決條件：
+- 您的機器上安裝了 Visual Studio。
+- 將 Aspose.Words for .NET 程式庫整合到您的專案中。
+- C# 程式語言和 .NET 架構的基本知識。
 
 ## 導入命名空間
 
@@ -34,16 +36,16 @@ using System;
 using System.Text.RegularExpressions;
 ```
 
-## 第 1 步：建立新文件並開始追蹤修訂
+## 步驟 1：建立新文件並開始追蹤修訂
 
 首先，初始化一個新文件並開始追蹤修訂：
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-//開始追蹤修訂
+// 開始追蹤修訂
 doc.StartTrackRevisions("author", DateTime.Now);
-builder.Writeln("Inserted"); //插入帶有追蹤修訂的文本
+builder.Writeln("Inserted"); // 插入帶有追蹤修訂的文本
 doc.StopTrackRevisions();
 ```
 
@@ -64,7 +66,7 @@ Regex regex = new Regex("e");
 doc.Range.Replace(regex, "*", options);
 ```
 
-## 第4步：輸出文檔文本
+## 步驟4：輸出文檔文本
 
 忽略插入的修訂後顯示文件文字：
 ```csharp
@@ -81,27 +83,32 @@ doc.Range.Replace(regex, "*", options);
 
 ## 結論
 
-掌握使用 Aspose.Words for .NET 忽略插入修訂中的文字的技術可以增強您的文件編輯能力。透過執行這些步驟，您可以有效地管理文件中的修訂，確保文字處理任務的清晰度和精確度。
+掌握使用 Aspose.Words for .NET 忽略插入修訂中的文字的技術可增強您的文件編輯能力。透過遵循這些步驟，您可以有效地管理文件中的修訂，確保文字處理任務的清晰度和準確性。
 
 ## 常見問題解答
 
 ### 如何使用 Aspose.Words for .NET 開始追蹤 Word 文件中的修訂？
-若要開始追蹤修訂，請使用`doc.StartTrackRevisions(author, date)`方法。
+若要開始追蹤修訂，請使用 `doc.StartTrackRevisions(author, date)` 方法。
 
 ### 忽略文件修訂中插入的文字有什麼好處？
-忽略插入的文字有助於保持對核心內容的關注，同時有效管理文件變更。
+忽略插入的文字有助於在有效管理文件變更的同時保持對核心內容的關注。
 
-### 我可以將忽略的插入文字還原為 Aspose.Words for .NET 中的原始文字嗎？
-是的，您可以使用適當的 FindReplaceOptions 設定恢復忽略的插入文字。
+### 我可以在 Aspose.Words for .NET 中將忽略的插入文字還原為原始文字嗎？
+是的，您可以使用適當的 FindReplaceOptions 設定恢復被忽略的插入文字。
 
 ### 在哪裡可以找到有關 Aspose.Words for .NET 的更多文件？
-參觀[Aspose.Words for .NET 文檔](https://reference.aspose.com/words/net/)取得詳細指南和 API 參考。
+訪問 [Aspose.Words for .NET 文檔](https://reference.aspose.com/words/net/) 以取得詳細指南和 API 參考。
 
-### 有沒有社群論壇可以討論 Aspose.Words for .NET 相關查詢？
-是的，您可以訪問[Aspose.Words 論壇](https://forum.aspose.com/c/words/8)以獲得社區支持和討論。
+### 是否有社群論壇可以討論與 Aspose.Words for .NET 相關的查詢？
+是的，您可以訪問 [Aspose.Words論壇](https://forum.aspose.com/c/words/8) 以獲得社區支持和討論。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: टेबल और सेल को अलग-अलग बॉर्डर के साथ फ़ॉर्मेट करें
-linktitle: टेबल और सेल को अलग-अलग बॉर्डर के साथ फ़ॉर्मेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके विभिन्न बॉर्डर वाली टेबल और सेल को फ़ॉर्मेट करना सीखें। कस्टमाइज़्ड टेबल स्टाइल और सेल शेडिंग के साथ अपने Word दस्तावेज़ों को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/
+"description": ".NET के लिए Aspose.Words का उपयोग करके विभिन्न बॉर्डर वाली तालिकाओं और कक्षों को फ़ॉर्मेट करना सीखें। अनुकूलित तालिका शैलियों और सेल शेडिंग के साथ अपने Word दस्तावेज़ों को बेहतर बनाएँ।"
+"linktitle": "टेबल और सेल को अलग-अलग बॉर्डर के साथ फ़ॉर्मेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "टेबल और सेल को अलग-अलग बॉर्डर के साथ फ़ॉर्मेट करें"
+"url": "/hi/net/programming-with-table-styles-and-formatting/format-table-and-cell-with-different-borders/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टेबल और सेल को अलग-अलग बॉर्डर के साथ फ़ॉर्मेट करें
@@ -22,8 +24,8 @@ url: /hi/net/programming-with-table-styles-and-formatting/format-table-and-cell-
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 - C# प्रोग्रामिंग की बुनियादी समझ.
 - आपके कंप्यूटर पर Visual Studio स्थापित है.
--  Aspose.Words for .NET लाइब्रेरी। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
--  एक वैध Aspose लाइसेंस। आप यहाँ से निःशुल्क परीक्षण या अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET लाइब्रेरी। अगर आपने इसे अभी तक इंस्टॉल नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
+- एक वैध Aspose लाइसेंस। आप यहाँ से निःशुल्क परीक्षण या अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ## नामस्थान आयात करें
 
@@ -40,7 +42,7 @@ using System.Drawing;
 सबसे पहले, आपको एक नया दस्तावेज़ बनाना होगा और डॉक्यूमेंटबिल्डर को आरंभ करना होगा, जो दस्तावेज़ सामग्री बनाने में मदद करता है। 
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
@@ -138,22 +140,27 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.FormatTableAndCellWithDi
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं प्रत्येक सेल के लिए अलग-अलग बॉर्डर शैलियों का उपयोग कर सकता हूँ?
- हां, आप प्रत्येक सेल के लिए अलग-अलग बॉर्डर शैलियाँ सेट कर सकते हैं`CellFormat.Borders` संपत्ति।
+हां, आप प्रत्येक सेल के लिए अलग-अलग बॉर्डर शैलियाँ सेट कर सकते हैं `CellFormat.Borders` संपत्ति।
 
 ### मैं किसी तालिका से सभी बॉर्डर कैसे हटा सकता हूँ?
- आप बॉर्डर शैली को इस प्रकार सेट करके सभी बॉर्डर हटा सकते हैं`LineStyle.None`.
+आप बॉर्डर शैली को इस प्रकार सेट करके सभी बॉर्डर हटा सकते हैं `LineStyle.None`.
 
 ### क्या प्रत्येक सेल के लिए अलग-अलग बॉर्डर रंग सेट करना संभव है?
- बिल्कुल! आप प्रत्येक सेल के लिए बॉर्डर रंग को कस्टमाइज़ कर सकते हैं`CellFormat.Borders.Color` संपत्ति।
+बिल्कुल! आप प्रत्येक सेल के लिए बॉर्डर रंग को कस्टमाइज़ कर सकते हैं `CellFormat.Borders.Color` संपत्ति।
 
 ### क्या मैं छवियों को सेल पृष्ठभूमि के रूप में उपयोग कर सकता हूँ?
 यद्यपि Aspose.Words सीधे तौर पर सेल पृष्ठभूमि के रूप में छवियों का समर्थन नहीं करता है, फिर भी आप किसी सेल में एक छवि डाल सकते हैं और सेल क्षेत्र को कवर करने के लिए उसके आकार को समायोजित कर सकते हैं।
 
 ### मैं तालिका में कक्षों को कैसे मर्ज करूँ?
- आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं`CellFormat.HorizontalMerge` और`CellFormat.VerticalMerge` गुण।
+आप इसका उपयोग करके कोशिकाओं को मर्ज कर सकते हैं `CellFormat.HorizontalMerge` और `CellFormat.VerticalMerge` गुण।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

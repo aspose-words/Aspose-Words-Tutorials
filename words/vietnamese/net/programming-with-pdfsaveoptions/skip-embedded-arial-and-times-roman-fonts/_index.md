@@ -1,14 +1,16 @@
 ---
-title: Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman nhúng
-linktitle: Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman nhúng
-second_title: API xử lý tài liệu Aspose.Words
-description: Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman được nhúng bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để sắp xếp hợp lý các tệp PDF của bạn.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/
+"description": "Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman được nhúng bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để sắp xếp hợp lý các tệp PDF của bạn."
+"linktitle": "Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman nhúng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman nhúng"
+"url": "/vi/net/programming-with-pdfsaveoptions/skip-embedded-arial-and-times-roman-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tối ưu hóa kích thước PDF bằng cách bỏ qua phông chữ Arial và Times Roman nhúng
@@ -20,7 +22,7 @@ Bạn đã bao giờ rơi vào tình huống tệp PDF của mình có kích th�
 ## Điều kiện tiên quyết
 
 Trước khi đi sâu vào vấn đề chính, bạn cần có một số thứ sau:
--  Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Nếu chưa, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Hãy đảm bảo bạn đã cài đặt thư viện mạnh mẽ này. Nếu chưa, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Hiểu biết cơ bản về C#: Điều này sẽ giúp bạn theo dõi các đoạn mã.
 - Một tài liệu Word: Chúng tôi sẽ sử dụng một tài liệu mẫu để trình bày quy trình. 
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Trong đoạn trích này, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục tài liệu của bạn.
+Trong đoạn trích này, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến thư mục tài liệu của bạn.
 
 ## Bước 3: Cấu hình tùy chọn lưu PDF
 
@@ -78,7 +80,7 @@ Và bạn đã có nó! Bạn vừa học được cách tối ưu hóa kích th
 ## Câu hỏi thường gặp
 
 ### Tại sao tôi nên bỏ qua việc nhúng phông chữ Arial và Times Roman?
-Việc bỏ qua những phông chữ phổ biến này có thể làm giảm kích thước tệp PDF của bạn vì hầu hết các hệ thống đều đã cài đặt những phông chữ này.
+Việc bỏ qua các phông chữ phổ biến này có thể làm giảm kích thước tệp PDF của bạn vì hầu hết các hệ thống đều đã cài đặt các phông chữ này.
 
 ### Điều này có ảnh hưởng tới giao diện tệp PDF của tôi không?
 Không, sẽ không. Vì Arial và Times Roman là phông chữ chuẩn nên giao diện vẫn nhất quán trên các hệ thống khác nhau.
@@ -87,13 +89,18 @@ Không, sẽ không. Vì Arial và Times Roman là phông chữ chuẩn nên gia
 Có, bạn có thể cấu hình tùy chọn lưu để bỏ qua việc nhúng các phông chữ khác nếu cần.
 
 ### Aspose.Words cho .NET có miễn phí không?
- Aspose.Words cho .NET cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/) , nhưng để có quyền truy cập đầy đủ, bạn cần phải mua giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Words cho .NET cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/), nhưng để có quyền truy cập đầy đủ, bạn cần phải mua giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Words cho .NET ở đâu?
-Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện[đây](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện [đây](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

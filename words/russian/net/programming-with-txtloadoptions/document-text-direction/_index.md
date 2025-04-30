@@ -1,14 +1,16 @@
 ---
-title: Направление текста документа
-linktitle: Направление текста документа
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как задать направление текста документа в Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для работы с языками с письмом справа налево.
-weight: 10
-url: /ru/net/programming-with-txtloadoptions/document-text-direction/
+"description": "Узнайте, как задать направление текста документа в Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для работы с языками с письмом справа налево."
+"linktitle": "Направление текста документа"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Направление текста документа"
+"url": "/ru/net/programming-with-txtloadoptions/document-text-direction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Направление текста документа
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-txtloadoptions/document-text-direction/
 
 Прежде чем погрузиться в код, убедитесь, что у вас есть следующее:
 
--  Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете загрузить его с[Сайт Aspose](https://releases.aspose.com/words/net/).
+- Библиотека Aspose.Words for .NET: Убедитесь, что у вас установлен Aspose.Words for .NET. Вы можете загрузить его с [Сайт Aspose](https://releases.aspose.com/words/net/).
 - Visual Studio: среда разработки для написания и выполнения кода C#.
 - Базовые знания C#: знакомство с программированием на C# будет полезным, поскольку нам предстоит писать код.
 
@@ -44,27 +46,27 @@ using Aspose.Words.Loading;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем хранения вашего документа.
 
 ## Шаг 2: Создайте TxtLoadOptions с настройкой направления документа
 
- Далее вам нужно будет создать экземпляр`TxtLoadOptions` и установите его`DocumentDirection` свойство. Это сообщает Aspose.Words, как обрабатывать направление текста в документе.
+Далее вам нужно будет создать экземпляр `TxtLoadOptions` и установите его `DocumentDirection` свойство. Это сообщает Aspose.Words, как обрабатывать направление текста в документе.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DocumentDirection = DocumentDirection.Auto };
 ```
 
- В этом примере мы используем`DocumentDirection.Auto` чтобы Aspose.Words автоматически определял направление на основе содержимого.
+В этом примере мы используем `DocumentDirection.Auto` чтобы Aspose.Words автоматически определял направление на основе содержания.
 
 ## Шаг 3: Загрузите документ
 
- Теперь загрузите документ с помощью`Document` класс и ранее определенный`loadOptions`.
+Теперь загрузите документ с помощью `Document` класс и ранее определенный `loadOptions`.
 
 ```csharp
 Document doc = new Document(dataDir + "Hebrew text.txt", loadOptions);
 ```
 
- Здесь,`"Hebrew text.txt"` — имя вашего текстового файла. Убедитесь, что этот файл существует в указанном вами каталоге.
+Здесь, `"Hebrew text.txt"` — это имя вашего текстового файла. Убедитесь, что этот файл существует в указанном вами каталоге.
 
 ## Шаг 4: Доступ и проверка двунаправленного форматирования абзаца
 
@@ -85,7 +87,7 @@ Console.WriteLine(paragraph.ParagraphFormat.Bidi);
 doc.Save(dataDir + "WorkingWithTxtLoadOptions.DocumentTextDirection.docx");
 ```
 
- Здесь,`"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` — имя выходного файла. Обязательно выберите имя, которое отражает внесенные вами изменения.
+Здесь, `"WorkingWithTxtLoadOptions.DocumentTextDirection.docx"` — имя выходного файла. Обязательно выберите имя, которое отражает внесенные вами изменения.
 
 ## Заключение
 
@@ -93,28 +95,33 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DocumentTextDirection.docx");
 
 ## Часто задаваемые вопросы
 
-###  Что такое`DocumentDirection` property used for?
+### Что такое `DocumentDirection` имущество используется для?
 
- The`DocumentDirection` недвижимость в`TxtLoadOptions` определяет направление текста для документа. Может быть установлено`DocumentDirection.Auto`, `DocumentDirection.LeftToRight` , или`DocumentDirection.RightToLeft`.
+The `DocumentDirection` недвижимость в `TxtLoadOptions` определяет направление текста для документа. Может быть установлено `DocumentDirection.Auto`, `DocumentDirection.LeftToRight`, или `DocumentDirection.RightToLeft`.
 
 ### Можно ли задать направление текста для определенных абзацев, а не для всего документа?
 
- Да, вы можете задать направление текста для определенных абзацев с помощью`ParagraphFormat.Bidi` собственность, но`TxtLoadOptions.DocumentDirection` свойство задает направление по умолчанию для всего документа.
+Да, вы можете задать направление текста для определенных абзацев с помощью `ParagraphFormat.Bidi` собственность, но `TxtLoadOptions.DocumentDirection` свойство задает направление по умолчанию для всего документа.
 
-###  Какие форматы файлов поддерживаются для загрузки с помощью`TxtLoadOptions`?
+### Какие форматы файлов поддерживаются для загрузки? `TxtLoadOptions`?
 
-`TxtLoadOptions` используется в основном для загрузки текстовых файлов (.txt). Для других форматов файлов используйте другие классы, например`DocLoadOptions` или`DocxLoadOptions`.
+`TxtLoadOptions` используется в основном для загрузки текстовых файлов (.txt). Для других форматов файлов используйте другие классы, например `DocLoadOptions` или `DocxLoadOptions`.
 
 ### Как обрабатывать документы со смешанным направлением текста?
 
- Для документов со смешанным направлением текста вам может потребоваться форматирование по абзацам. Используйте`ParagraphFormat.Bidi` свойство для корректировки направления каждого абзаца по мере необходимости.
+Для документов со смешанным направлением текста вам может потребоваться форматирование по абзацам. Используйте `ParagraphFormat.Bidi` свойство для корректировки направления каждого абзаца по мере необходимости.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
 
- Для получения более подробной информации посетите[Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/) . Вы также можете изучить дополнительные ресурсы, такие как[Ссылка для скачивания](https://releases.aspose.com/words/net/), [Купить](https://purchase.aspose.com/buy), [Бесплатная пробная версия](https://releases.aspose.com/), [Временная лицензия](https://purchase.aspose.com/temporary-license/) , и[Поддерживать](https://forum.aspose.com/c/words/8).
+Для получения более подробной информации посетите [Документация Aspose.Words для .NET](https://reference.aspose.com/words/net/). Вы также можете изучить дополнительные ресурсы, такие как [Ссылка для скачивания](https://releases.aspose.com/words/net/), [Купить](https://purchase.aspose.com/buy), [Бесплатная пробная версия](https://releases.aspose.com/), [Временная лицензия](https://purchase.aspose.com/temporary-license/), и [Поддерживать](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

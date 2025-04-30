@@ -1,14 +1,16 @@
 ---
-title: Word दस्तावेज़ में HTML डालें
-linktitle: Word दस्तावेज़ में HTML डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में HTML को सहजता से सम्मिलित करना सीखें। डेवलपर्स के लिए बिल्कुल सही।
-weight: 10
-url: /hi/net/add-content-using-documentbuilder/insert-html/
+"description": "हमारे विस्तृत, चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में HTML को सहजता से सम्मिलित करना सीखें। डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "Word दस्तावेज़ में HTML डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "Word दस्तावेज़ में HTML डालें"
+"url": "/hi/net/add-content-using-documentbuilder/insert-html/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word दस्तावेज़ में HTML डालें
@@ -19,9 +21,9 @@ url: /hi/net/add-content-using-documentbuilder/insert-html/
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
+इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें आवश्यकता है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
-1.  Aspose.Words for .NET लाइब्रेरी: यदि आपने अभी तक ऐसा नहीं किया है, तो आपको Aspose.Words for .NET लाइब्रेरी डाउनलोड करनी होगी। आप इसे प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: यदि आपने अभी तक ऐसा नहीं किया है, तो आपको Aspose.Words for .NET लाइब्रेरी डाउनलोड करनी होगी। आप इसे प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: सुनिश्चित करें कि आपके पास Visual Studio जैसा विकास परिवेश स्थापित है।
 3. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
 4. C# का बुनियादी ज्ञान: C# से थोड़ी-सी परिचितता बहुत काम आएगी।
@@ -30,7 +32,7 @@ url: /hi/net/add-content-using-documentbuilder/insert-html/
 
 ## नामस्थान आयात करें
 
-सबसे पहले, आइए आवश्यक नेमस्पेस को आयात करें। यह उस सारे जादू के लिए मंच तैयार करेगा जो हम करने वाले हैं।
+सबसे पहले, आइए आवश्यक नेमस्पेस को आयात करें। यह उस सारे जादू के लिए मंच तैयार करेगा जिसे हम करने वाले हैं।
 
 ```csharp
 using System;
@@ -48,11 +50,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहाँ आप अपना दस्तावेज़ सहेजना चाहते हैं.
 
 ## चरण 2: नया दस्तावेज़ बनाना
 
- इसके बाद, हम इसका एक नया उदाहरण बनाएंगे`Document` क्लास. यह हमारे वर्ड दस्तावेज़ का प्रतिनिधित्व करता है.
+इसके बाद, हम इसका एक नया उदाहरण बनाएंगे `Document` क्लास. यह हमारे वर्ड दस्तावेज़ का प्रतिनिधित्व करता है.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +62,7 @@ Document doc = new Document();
 
 ## चरण 3: डॉक्यूमेंटबिल्डर को आरंभ करना
 
- HTML सम्मिलित करने के लिए, हमें मदद की आवश्यकता होगी`DocumentBuilder` क्लास। यह आसान क्लास हमारे दस्तावेज़ में सामग्री जोड़ना आसान बनाता है।
+HTML सम्मिलित करने के लिए, हमें मदद की आवश्यकता होगी `DocumentBuilder` क्लास। यह आसान क्लास हमारे दस्तावेज़ में सामग्री जोड़ना आसान बनाता है।
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -68,7 +70,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## चरण 4: HTML सामग्री सम्मिलित करना
 
- अब आता है मज़ेदार हिस्सा—HTML सामग्री जोड़ना।`InsertHtml` की विधि`DocumentBuilder` क्लास का उपयोग करके, हम HTML को सीधे अपने वर्ड दस्तावेज़ में एम्बेड कर सकते हैं।
+अब आता है मज़ेदार हिस्सा—HTML सामग्री जोड़ना। `InsertHtml` की विधि `DocumentBuilder` क्लास का उपयोग करके, हम HTML को सीधे अपने वर्ड दस्तावेज़ में एम्बेड कर सकते हैं।
 
 ```csharp
 builder.InsertHtml(
@@ -94,7 +96,7 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
 
 HTML को Word दस्तावेज़ में सम्मिलित करना कभी इतना आसान नहीं रहा, है न? Aspose.Words for .NET के साथ, आप HTML की शक्ति को Word दस्तावेज़ों की बहुमुखी प्रतिभा के साथ सहजता से मिश्रित कर सकते हैं। चाहे आप रिपोर्ट जनरेशन को स्वचालित कर रहे हों या खूबसूरती से प्रारूपित दस्तावेज़ तैयार कर रहे हों, यह टूल आपके लिए सबसे अच्छा समाधान है।
 
- यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो बेझिझक हमारी वेबसाइट देखें।[प्रलेखन](https://reference.aspose.com/words/net/), [समर्थन मंच](https://forum.aspose.com/c/words/8) , या अपने आप को एक प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) .NET के लिए Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए।
+यदि आपके कोई प्रश्न हों या आपको और सहायता की आवश्यकता हो, तो बेझिझक हमारी वेबसाइट देखें। [प्रलेखन](https://reference.aspose.com/words/net/), [समर्थन मंच](https://forum.aspose.com/c/words/8)या अपने आप को एक प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) .NET के लिए Aspose.Words की पूरी क्षमता को अनलॉक करने के लिए।
 
 हैप्पी कोडिंग!
 
@@ -110,13 +112,18 @@ HTML को Word दस्तावेज़ में सम्मिलित 
 हां, एक बार HTML डालने के बाद, आप .NET के लिए Aspose.Words द्वारा प्रदान की गई विभिन्न विधियों का उपयोग करके दस्तावेज़ में और अधिक परिवर्तन कर सकते हैं।
 
 ### क्या मुझे .NET के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस की आवश्यकता है?  
- आप एक से शुरू कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण सुविधाओं के लिए.
+आप एक से शुरू कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) या प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण सुविधाओं के लिए.
 
 ### मैं और अधिक ट्यूटोरियल और उदाहरण कहां पा सकता हूं?  
-[प्रलेखन](https://reference.aspose.com/words/net/) और[समर्थन मंच](https://forum.aspose.com/c/words/8) अधिक विस्तृत मार्गदर्शन और सामुदायिक सहायता के लिए ये बेहतरीन स्थान हैं।
+The [प्रलेखन](https://reference.aspose.com/words/net/) और [समर्थन मंच](https://forum.aspose.com/c/words/8) अधिक विस्तृत मार्गदर्शन और सामुदायिक सहायता के लिए ये बेहतरीन स्थान हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Girintili Kod
-linktitle: Girintili Kod
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerine girintili kod bloklarının nasıl ekleneceğini ve biçimlendirileceğini öğrenin.
-weight: 10
-url: /tr/net/working-with-markdown/indented-code/
+"description": "Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerine girintili kod bloklarının nasıl ekleneceğini ve biçimlendirileceğini öğrenin."
+"linktitle": "Girintili Kod"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Girintili Kod"
+"url": "/tr/net/working-with-markdown/indented-code/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Girintili Kod
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak Word belgelerinize bir kişiselleştirme dokunu
 
 Ayrıntılara girmeden önce, elinizde olması gereken birkaç şey var:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/words/net/).
    
 2. Visual Studio veya Herhangi Bir .NET IDE: Kodunuzu yazmak ve çalıştırmak için bir IDE'ye ihtiyacınız olacak. Visual Studio popüler bir seçimdir, ancak herhangi bir .NET uyumlu IDE çalışacaktır.
    
@@ -29,7 +31,7 @@ Ayrıntılara girmeden önce, elinizde olması gereken birkaç şey var:
 
 4. .NET Framework: Projenizin Aspose.Words ile uyumlu .NET Framework'ü kullanacak şekilde ayarlandığından emin olun.
 
-5.  Aspose.Words Belgeleri: Kendinizi şu konularla tanıştırın:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Ek bilgi ve referans için.
+5. Aspose.Words Belgeleri: Kendinizi şu konularla tanıştırın: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) Ek bilgi ve referans için.
 
 Her şey hazır mı? Harika! Hadi eğlenceli kısma geçelim.
 
@@ -48,13 +50,13 @@ Bu ad alanları, belge nesneleriyle çalışmanıza ve Word dosyalarınızdaki i
 
 ## Adım 1: Belgenizi Ayarlayın
 
- İlk olarak yeni bir belge oluşturmanız veya mevcut bir belgeyi yüklemeniz gerekir. Bu adım,`Document` Çalışmanızın temelini oluşturacak nesne.
+İlk olarak yeni bir belge oluşturmanız veya mevcut bir belgeyi yüklemeniz gerekir. Bu adım, `Document` Çalışmanızın temelini oluşturacak nesne.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 ```
 
-Burada yeni bir belge oluşturuyoruz ve kullanıyoruz`DocumentBuilder` içerik eklemeye başlamak için.
+Burada yeni bir belge oluşturuyoruz ve kullanıyoruz `DocumentBuilder` içerik eklemeye başlamak için.
 
 ## Adım 2: Özel Stili Tanımlayın
 
@@ -89,10 +91,10 @@ Kod bloklarınızın görünümünü ve hissini ihtiyaçlarınıza göre uyarlam
 ## SSS
 
 ### Kod bloğunun girintisini ayarlayabilir miyim?  
- Evet, değiştirebilirsiniz`LeftIndent` girintiyi artırma veya azaltma özelliği.
+Evet, değiştirebilirsiniz `LeftIndent` girintiyi artırma veya azaltma özelliği.
 
 ### Kod bloğunda kullanılan yazı tipini nasıl değiştirebilirim?  
- Ayarlayabilirsiniz`Font.Name` "Courier New" veya "Consolas" gibi istediğiniz herhangi bir sabit aralıklı yazı tipine dönüştürün.
+Ayarlayabilirsiniz `Font.Name` "Courier New" veya "Consolas" gibi istediğiniz herhangi bir sabit aralıklı yazı tipine dönüştürün.
 
 ### Farklı stillerde birden fazla kod bloğu eklemek mümkün müdür?  
 Kesinlikle! Farklı isimlerle birden fazla stil tanımlayabilir ve bunları ihtiyaç duyduğunuzda çeşitli kod bloklarına uygulayabilirsiniz.
@@ -102,9 +104,14 @@ Evet, yazı tipi rengi, arka plan rengi ve hizalama gibi çeşitli biçimlendirm
 
 ### Kaydettiğim belgeyi oluşturduktan sonra nasıl açabilirim?  
 Biçimlendirilmiş içeriği görüntülemek için Microsoft Word veya uyumlu bir yazılım gibi herhangi bir Word işlemcisini kullanarak belgeyi açabilirsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Макет в ячейке
-linktitle: Макет в ячейке
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить макет в ячейке с помощью Aspose.Words для .NET с помощью этого всеобъемлющего руководства. Идеально подходит для разработчиков, желающих настроить документы Word.
-weight: 10
-url: /ru/net/programming-with-shapes/layout-in-cell/
+"description": "Узнайте, как настроить макет в ячейке с помощью Aspose.Words для .NET с помощью этого всеобъемлющего руководства. Идеально подходит для разработчиков, желающих настроить документы Word."
+"linktitle": "Макет в ячейке"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Макет в ячейке"
+"url": "/ru/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Макет в ячейке
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-shapes/layout-in-cell/
 
 Прежде чем перейти к коду, давайте убедимся, что у вас есть все необходимое:
 
-1.  Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если у вас ее нет, вы можете[скачать здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если у вас ее нет, вы можете [скачать здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: Вам понадобится среда разработки, настроенная на .NET. Visual Studio — отличный выбор, если вы ищете рекомендации.
 3. Базовые знания C#: хотя я и объясню каждый шаг, базовые знания C# помогут вам легче следовать курсу.
-4.  Каталог документов: Подготовьте путь к каталогу, в котором вы будете сохранять свои документы. Мы будем называть это`YOUR DOCUMENT DIRECTORY`.
+4. Каталог документов: Подготовьте путь к каталогу, в котором вы будете сохранять свои документы. Мы будем называть это `YOUR DOCUMENT DIRECTORY`.
 
 ## Импорт пространств имен
 
@@ -42,7 +44,7 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Создайте новый документ
 
- Сначала мы создадим новый документ Word и инициализируем`DocumentBuilder` объект, помогающий нам конструировать наш контент.
+Сначала мы создадим новый документ Word и инициализируем `DocumentBuilder` объект, помогающий нам конструировать наш контент.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Шаг 4: Добавьте форму водяного знака
 
- Теперь давайте добавим водяной знак в наш документ. Мы создадим`Shape` объект и задать его свойства.
+Теперь давайте добавим водяной знак в наш документ. Мы создадим `Shape` объект и задать его свойства.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -138,22 +140,27 @@ doc.Save(dataDir + "WorkingWithShapes.LayoutInCell.docx");
 ## Часто задаваемые вопросы
 
 ### Могу ли я использовать другой шрифт для текста водяного знака?
- Да, вы можете изменить шрифт, установив`watermark.TextPath.FontFamily` свойство нужного вам шрифта.
+Да, вы можете изменить шрифт, установив `watermark.TextPath.FontFamily` свойство нужного вам шрифта.
 
 ### Как настроить положение водяного знака?
- Вы можете изменить`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , и`VerticalAlignment` свойства для настройки положения водяного знака.
+Вы можете изменить `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`, и `VerticalAlignment` свойства для настройки положения водяного знака.
 
 ### Можно ли использовать изображение вместо текста для водяного знака?
- Конечно! Вы можете создать`Shape` с типом`ShapeType.Image` и установите его изображение с помощью`ImageData.SetImage` метод.
+Конечно! Вы можете создать `Shape` с типом `ShapeType.Image` и установите его изображение с помощью `ImageData.SetImage` метод.
 
 ### Можно ли создавать таблицы с разной высотой строк?
-Да, вы можете установить разную высоту для каждого ряда, изменив`RowFormat.Height` свойство перед вставкой ячеек в эту строку.
+Да, вы можете установить разную высоту для каждого ряда, изменив `RowFormat.Height` свойство перед вставкой ячеек в эту строку.
 
 ### Как удалить водяной знак из документа?
- Вы можете удалить водяной знак, найдя его в коллекции фигур документа и вызвав`Remove` метод.
+Вы можете удалить водяной знак, найдя его в коллекции фигур документа и вызвав `Remove` метод.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

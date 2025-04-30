@@ -1,14 +1,16 @@
 ---
-title: Sayfa Düzenini Güncelle
-linktitle: Sayfa Düzenini Güncelle
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki sayfa düzenlerini nasıl güncelleyeceğinizi öğrenin. Belge tasarımlarını ayarlamak için mükemmeldir.
-weight: 10
-url: /tr/net/join-and-append-documents/update-page-layout/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki sayfa düzenlerini nasıl güncelleyeceğinizi öğrenin. Belge tasarımlarını ayarlamak için mükemmeldir."
+"linktitle": "Sayfa Düzenini Güncelle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sayfa Düzenini Güncelle"
+"url": "/tr/net/join-and-append-documents/update-page-layout/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Düzenini Güncelle
@@ -21,13 +23,13 @@ Merhaba! Word belgeleriyle programatik olarak çalıştıysanız, sayfa düzenle
 
 Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
 
-1.  Aspose.Words for .NET: Bu kütüphane, Word belgelerini programatik olarak düzenlemek için olmazsa olmazdır. Eğer henüz yapmadıysanız,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Bu kütüphane, Word belgelerini programatik olarak düzenlemek için olmazsa olmazdır. Eğer henüz yapmadıysanız, [buradan indirin](https://releases.aspose.com/words/net/).
    
 2. Visual Studio: .NET kodunuzu yazmak ve çalıştırmak için bir IDE'ye ihtiyacınız olacak. Visual Studio popüler bir seçimdir.
 
 3. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, konuyu daha rahat takip etmenize yardımcı olacaktır.
 
-4.  Aspose Lisansı: Ücretsiz bir deneme sürümü mevcut olsa da[Burada](https://releases.aspose.com/) , ticari kullanım için tam lisansa ihtiyacınız olabilir. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya başvuruda bulunun[geçici lisans](https://purchase.aspose.com/temporary-license/).
+4. Aspose Lisansı: Ücretsiz deneme sürümü mevcut olsa da [Burada](https://releases.aspose.com/), ticari kullanım için tam lisansa ihtiyacınız olabilir. Bir tane alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya başvuruda bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 5. Belge Dizini: Belgelerinizin kaydedileceği ve yükleneceği bir dizin ayarladığınızdan emin olun.
 
@@ -48,7 +50,7 @@ Artık ön koşullarımızı tamamladığımıza göre, asıl sürece geçelim. 
 
 ## Adım 1: Belgenizi Yükleyin
 
-Öncelikle, çalışmak istediğiniz Word belgesini yüklemeniz gerekir. Bu, belgenizin yolunu belirtmeyi ve bir`Document` nesne.
+Öncelikle, çalışmak istediğiniz Word belgesini yüklemeniz gerekir. Bu, belgenizin yolunu belirtmeyi ve bir `Document` nesne.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.docx");
 ```
 
- Burada, değiştirin`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`input.docx` dosya saklandı.
+Burada, değiştirin `"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla `input.docx` dosya saklandı.
 
 ## Adım 2: Belgeyi İlk Düzen ile Kaydedin
 
@@ -73,7 +75,7 @@ Bu şekilde kaydetmek, ilk düzenin önbelleğe alınmasını ve sonraki güncel
 
 ## Adım 3: Belgeyi Değiştirin
 
-Artık ilk düzeni önbelleğe aldığımıza göre, belgeyi değiştirelim. Bu adım, belgenin yazı tipi boyutunu, sayfa yönünü ve kenar boşluklarını nasıl değiştireceğinizi gösterir.
+Artık ilk düzeni önbelleğe aldığımıza göre, belgeyi değiştirelim. Bu adım, belgenin yazı tipi boyutunun, sayfa yönünün ve kenar boşluklarının nasıl değiştirileceğini gösterir.
 
 ```csharp
 // Belgeyi değiştir
@@ -120,19 +122,24 @@ Word belgelerindeki sayfa düzenlerini Aspose.Words for .NET ile güncellemek, b
 Aspose.Words for .NET, Word belgelerini programlı olarak oluşturmak, değiştirmek ve dönüştürmek için kullanılan bir kütüphanedir.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, ticari kullanım için bir lisansa ihtiyacınız var. Bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya başvuruda bulunun[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, ticari kullanım için bir lisansa ihtiyacınız var. Bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya başvuruda bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'i kullanmaya nasıl başlarım?  
- Kütüphaneyi şu adresten indirerek başlayabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/)ve ardından gerekli ad alanlarını C# projenize aktarın.
+Kütüphaneyi şu adresten indirerek başlayabilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/)ve ardından gerekli ad alanlarını C# projenize aktarın.
 
 ### Aspose.Words for .NET'i ücretsiz kullanabilir miyim?  
- Aspose, edinebileceğiniz kütüphanenin ücretsiz deneme sürümünü sunar[Burada](https://releases.aspose.com/).
+Aspose, edinebileceğiniz kütüphanenin ücretsiz deneme sürümünü sunar [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?  
- Destek almak için:[Aspose destek forumu](https://forum.aspose.com/c/words/8).
+Destek almak için: [Aspose destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

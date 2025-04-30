@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/keep-table-together/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Table Together
@@ -100,9 +103,13 @@ You can start with a free trial from [here](https://releases.aspose.com/), but f
 ### Can I apply other formatting to the table while keeping it together?  
 Absolutely! You can format your table as needed while ensuring it stays together on one page.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

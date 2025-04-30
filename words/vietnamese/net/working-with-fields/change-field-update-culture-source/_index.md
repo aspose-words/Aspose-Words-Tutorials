@@ -1,14 +1,16 @@
 ---
-title: Thay đổi Cập nhật Trường Văn hóa Nguồn
-linktitle: Thay đổi Cập nhật Trường Văn hóa Nguồn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thay đổi nguồn văn hóa cập nhật trường trong Aspose.Words cho .NET với hướng dẫn này. Kiểm soát định dạng ngày dựa trên các nền văn hóa khác nhau một cách dễ dàng.
-weight: 10
-url: /vi/net/working-with-fields/change-field-update-culture-source/
+"description": "Tìm hiểu cách thay đổi nguồn văn hóa cập nhật trường trong Aspose.Words cho .NET với hướng dẫn này. Kiểm soát định dạng ngày dựa trên các nền văn hóa khác nhau một cách dễ dàng."
+"linktitle": "Thay đổi Cập nhật Trường Văn hóa Nguồn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Thay đổi Cập nhật Trường Văn hóa Nguồn"
+"url": "/vi/net/working-with-fields/change-field-update-culture-source/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi Cập nhật Trường Văn hóa Nguồn
@@ -21,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của Aspos
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những thông tin sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Bất kỳ IDE nào tương thích với .NET (ví dụ: Visual Studio).
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C#.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ ví dụ thành nhiều bước để giú
 
 ## Bước 1: Khởi tạo Tài liệu
 
- Bước đầu tiên là tạo một phiên bản mới của`Document` lớp và một`DocumentBuilder`. Điều này đặt nền tảng cho việc xây dựng và thao tác tài liệu Word của chúng ta.
+Bước đầu tiên là tạo một phiên bản mới của `Document` lớp và một `DocumentBuilder`. Điều này đặt nền tảng cho việc xây dựng và thao tác tài liệu Word của chúng ta.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +62,7 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
 ## Bước 3: Thiết lập Nguồn Văn hóa Cập nhật Trường
 
- Để kiểm soát văn hóa được sử dụng khi cập nhật các trường, chúng tôi thiết lập`FieldUpdateCultureSource` tài sản của`FieldOptions`lớp. Thuộc tính này xác định liệu văn hóa được lấy từ mã trường hay tài liệu.
+Để kiểm soát văn hóa được sử dụng khi cập nhật các trường, chúng tôi thiết lập `FieldUpdateCultureSource` tài sản của `FieldOptions` lớp. Thuộc tính này xác định liệu văn hóa được lấy từ mã trường hay tài liệu.
 
 ```csharp
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
@@ -88,23 +90,28 @@ Và bạn đã có nó! Bạn đã thay đổi thành công nguồn văn hóa c�
 
 ## Câu hỏi thường gặp
 
-###  Mục đích của việc thiết lập là gì?`LocaleId`?
- Các`LocaleId` chỉ định cài đặt văn hóa cho văn bản, ảnh hưởng đến cách định dạng ngày tháng và dữ liệu nhạy cảm với ngôn ngữ khác.
+### Mục đích của việc thiết lập là gì? `LocaleId`?
+Các `LocaleId` chỉ định cài đặt văn hóa cho văn bản, ảnh hưởng đến cách định dạng ngày tháng và dữ liệu nhạy cảm với ngôn ngữ khác.
 
 ### Tôi có thể sử dụng ngôn ngữ khác ngoài tiếng Đức không?
- Có, bạn có thể thiết lập`LocaleId`đến bất kỳ mã định danh địa phương hợp lệ nào. Ví dụ: 1033 cho tiếng Anh (Hoa Kỳ).
+Có, bạn có thể thiết lập `LocaleId` đến bất kỳ mã định danh địa phương hợp lệ nào. Ví dụ: 1033 cho tiếng Anh (Hoa Kỳ).
 
-###  Điều gì xảy ra nếu tôi không thiết lập`FieldUpdateCultureSource` property?
+### Điều gì xảy ra nếu tôi không thiết lập `FieldUpdateCultureSource` tài sản?
 Nếu thuộc tính này không được thiết lập, cài đặt văn hóa mặc định của tài liệu sẽ được sử dụng khi cập nhật các trường.
 
 ### Có thể cập nhật các trường dựa trên văn hóa của tài liệu thay vì mã trường không?
- Có, bạn có thể thiết lập`FieldUpdateCultureSource` ĐẾN`FieldUpdateCultureSource.Document` để sử dụng cài đặt văn hóa của tài liệu.
+Có, bạn có thể thiết lập `FieldUpdateCultureSource` ĐẾN `FieldUpdateCultureSource.Document` để sử dụng cài đặt văn hóa của tài liệu.
 
 ### Làm thế nào để định dạng ngày tháng theo một mẫu khác?
- Bạn có thể thay đổi mẫu định dạng ngày tháng trong`InsertField` phương pháp bằng cách sửa đổi`\\@` giá trị chuyển đổi.
+Bạn có thể thay đổi mẫu định dạng ngày tháng trong `InsertField` phương pháp bằng cách sửa đổi `\\@` giá trị chuyển đổi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

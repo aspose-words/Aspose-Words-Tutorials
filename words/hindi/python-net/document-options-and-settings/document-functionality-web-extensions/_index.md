@@ -1,14 +1,16 @@
 ---
-title: वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना
-linktitle: वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: जानें कि Python के लिए Aspose.Words का उपयोग करके वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता को कैसे बढ़ाया जाए। सहज एकीकरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-weight: 13
-url: /hi/python-net/document-options-and-settings/document-functionality-web-extensions/
+"description": "पायथन के लिए Aspose.Words का उपयोग करके वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता को विस्तारित करना सीखें। सहज एकीकरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना"
+"url": "/hi/python-net/document-options-and-settings/document-functionality-web-extensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना
@@ -23,15 +25,15 @@ url: /hi/python-net/document-options-and-settings/document-functionality-web-ext
 इससे पहले कि हम तकनीकी विवरण में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - पायथन प्रोग्रामिंग की बुनियादी समझ।
--  पायथन एपीआई संदर्भ के लिए Aspose.Words (उपलब्ध)[यहाँ](https://reference.aspose.com/words/python-net/).
--  पायथन लाइब्रेरी के लिए Aspose.Words तक पहुंच (डाउनलोड करें)[यहाँ](https://releases.aspose.com/words/python/).
+- पायथन एपीआई संदर्भ के लिए Aspose.Words (उपलब्ध) [यहाँ](https://reference.aspose.com/words/python-net/).
+- पायथन लाइब्रेरी के लिए Aspose.Words तक पहुंच (डाउनलोड करें) [यहाँ](https://releases.aspose.com/words/python/).
 
 ## पायथन के लिए Aspose.Words सेट अप करना
 
 आरंभ करने के लिए, Python के लिए Aspose.Words सेट अप करने हेतु इन चरणों का पालन करें:
 
 1. दिए गए लिंक से पायथन लाइब्रेरी के लिए Aspose.Words डाउनलोड करें।
-2.  उपयुक्त पैकेज मैनेजर का उपयोग करके लाइब्रेरी स्थापित करें (उदाहरण के लिए,`pip`).
+2. उपयुक्त पैकेज मैनेजर का उपयोग करके लाइब्रेरी स्थापित करें (उदाहरण के लिए, `pip`).
 
 ```python
 pip install aspose-words
@@ -120,9 +122,14 @@ Aspose.Words दस्तावेज़ों को सहेजने के 
 ### क्या वेब एक्सटेंशन के प्रदर्शन को अनुकूलित करने का कोई तरीका है?
 
 वेब एक्सटेंशन के प्रदर्शन को अनुकूलित करने के लिए, बाहरी अनुरोधों को न्यूनतम करें, एसिंक्रोनस लोडिंग का उपयोग करें, और विभिन्न ब्राउज़रों और उपकरणों पर गहन परीक्षण करें।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

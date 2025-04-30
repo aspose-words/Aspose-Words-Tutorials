@@ -1,43 +1,51 @@
 ---
-title: Vytvořte dokument Word s názevem a podstavkou pomocí Aspose.Words
-weight: 7700
-limit: 
-description: Naučte se vytvářet dokument Word s hlavním hlavičkem a podstavkou pomocí Aspose.Words pro .NET.
-keywords: [Aspose.Words for .NET, create Word document, add header in Word, add footer in Word, Word document header and footer, .NET Word processing, Aspose.Words examples]
-url: /cs/net/header-footer-formatting/create-header-footer/
+"description": "Naučte se, jak vytvořit dokument Word s primární hlavičkou a patičkou pomocí Aspose.Words pro .NET. Podrobný návod s kódem a vysvětleními."
+"title": "Vytvořte dokument Word se záhlavím a zápatím pomocí Aspose.Words"
+"url": "/cs/net/header-footer-formatting/create-header-footer/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte dokument Word s názevem a podstavkou pomocí Aspose.Words
+# Vytvořte dokument Word se záhlavím a zápatím pomocí Aspose.Words
 
-Tento příklad ukazuje, jak používat Aspose.Words pro .NET k vytvoření dokumentu Word s primárním hlavičkou a podstavkou. Správce vás provede iniciálními prvky nového dokumentu, přesunem do sekcí hlavičky a podstavky, přidáním vlastního textu a ukládáním dokumentu v formátu DOCX. Díky své silné třídě DocumentBuilder Aspose.Words umožňuje plynulé a efektivní manipulaci s dokumentem Word. Ať už přidáváte značkové prvky nebo čísla stránek, tento příklad poskytuje základ pro programatické přizpůsobení dokumentů Word.  
+Tento příklad ukazuje, jak použít Aspose.Words pro .NET k vytvoření dokumentu Word s primární záhlavím a zápatím. Průvodce vás provede inicializací nového dokumentu, přechodem do sekcí záhlaví a zápatí, přidáním vlastního textu a uložením dokumentu ve formátu DOCX. Díky své výkonné třídě DocumentBuilder umožňuje Aspose.Words bezproblémovou a efektivní manipulaci s dokumenty Word. Ať už přidáváte prvky značky nebo čísla stránek, tento příklad poskytuje základ pro programovou úpravu dokumentů Word.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/header-footer-formatting/create-header-footer" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
-1. Stáhněte si Aspose.Words pro .NET: Získáte nejnovější verzi z [Aspose vydává stránku](https://releases.aspose.com/words/net/)\- Ne , ne .  
-2. Instalujte Aspose.Words:  
-   * Použijte NuGet Package Manager:  
+## Pokyny k instalaci  
+1. Stáhněte si Aspose.Words pro .NET: Získejte nejnovější verzi z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).  
+2. Nainstalujte Aspose.Slova:  
+   - Použijte Správce balíčků NuGet:  
      ```bash  
      Install-Package Aspose.Words  
      ```  
-   * Nebo manuálně odkažte na DLL z staženého balíčku.  
-3. Oplánování licence (nebezpůsobilé): Získání licence [dočasná licence](https://purchase.aspose.com/temporary-license/)nebo plnou licenci z [Předpokládej nákup](https://purchase.aspose.com/buy)a aplikovat ji ve svém projektu:  
+   - Nebo ručně odkazujte na DLL ze staženého balíčku.  
+3. Požádat o licenci (volitelné): Získejte [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo plnou licenci od [Nákup Aspose](https://purchase.aspose.com/buy) a aplikujte to ve svém projektu:  
    ```csharp  
    License license = new License();  
    license.SetLicense("Aspose.Words.lic");  
    ```    
 
 ## Viz také
-[Aspose.Word pro .NET dokumentaci](https://docs.aspose.com/words/net/)
-[Aspose.Word pro reference .NET](https://reference.aspose.com/words/net/)
+[Dokumentace k Aspose.Word pro .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word pro .NET reference](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

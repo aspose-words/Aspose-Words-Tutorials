@@ -1,14 +1,16 @@
 ---
-title: Nhận Phạm vi Trang Tiff
-linktitle: Nhận Phạm vi Trang Tiff
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chuyển đổi các phạm vi trang cụ thể từ tài liệu Word sang tệp TIFF bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/programming-with-imagesaveoptions/get-tiff-page-range/
+"description": "Tìm hiểu cách chuyển đổi các phạm vi trang cụ thể từ tài liệu Word sang tệp TIFF bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Nhận Phạm vi Trang Tiff"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nhận Phạm vi Trang Tiff"
+"url": "/vi/net/programming-with-imagesaveoptions/get-tiff-page-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Phạm vi Trang Tiff
@@ -21,7 +23,7 @@ Xin chào, các nhà phát triển đồng nghiệp! Bạn có thấy mệt mỏ
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để theo dõi:
 
-1.  Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống và cài đặt phiên bản mới nhất từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Nếu bạn chưa tải xuống và cài đặt phiên bản mới nhất từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio sẽ có tác dụng.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã thành thạo lập trình C#.
 4. Một tài liệu Word mẫu: Chuẩn bị một tài liệu Word để thử nghiệm.
@@ -66,7 +68,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.MultipageTiff.tiff");
 
 ## Bước 4: Thiết lập tùy chọn lưu hình ảnh
 
-Bây giờ, phép thuật thực sự xảy ra! Chúng ta cần thiết lập`ImageSaveOptions` để chỉ định phạm vi trang và các thuộc tính khác cho việc chuyển đổi TIFF.
+Bây giờ, phép thuật thực sự xảy ra! Chúng ta cần thiết lập `ImageSaveOptions` để chỉ định phạm vi trang và các thuộc tính khác cho việc chuyển đổi TIFF.
 
 ```csharp
 // Tạo ImageSaveOptions với các thiết lập cụ thể
@@ -80,7 +82,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 
 ## Bước 5: Lưu Phạm vi Trang được Chỉ định dưới dạng TIFF
 
- Cuối cùng, hãy lưu phạm vi trang được chỉ định của tài liệu dưới dạng tệp TIFF bằng cách sử dụng`saveOptions` chúng tôi đã cấu hình.
+Cuối cùng, hãy lưu phạm vi trang được chỉ định của tài liệu dưới dạng tệp TIFF bằng cách sử dụng `saveOptions` chúng tôi đã cấu hình.
 
 ```csharp
 // Lưu phạm vi trang được chỉ định dưới dạng TIFF
@@ -95,15 +97,15 @@ Và bạn đã có nó! Bằng cách làm theo các bước đơn giản này, b
 
 ### Tôi có thể chuyển đổi nhiều phạm vi trang thành các tệp TIFF riêng biệt không?
 
- Chắc chắn rồi! Bạn có thể tạo nhiều`ImageSaveOptions`các đối tượng có khác nhau`PageSet` cấu hình để chuyển đổi nhiều phạm vi trang khác nhau thành các tệp TIFF riêng biệt.
+Chắc chắn rồi! Bạn có thể tạo nhiều `ImageSaveOptions` các đối tượng có khác nhau `PageSet` cấu hình để chuyển đổi nhiều phạm vi trang khác nhau thành các tệp TIFF riêng biệt.
 
 ### Làm thế nào để thay đổi độ phân giải của tệp TIFF?
 
- Chỉ cần điều chỉnh`Resolution` tài sản trong`ImageSaveOptions` phản đối giá trị mong muốn của bạn.
+Chỉ cần điều chỉnh `Resolution` tài sản trong `ImageSaveOptions` phản đối giá trị mong muốn của bạn.
 
 ### Có thể sử dụng các phương pháp nén khác nhau cho tệp TIFF không?
 
- Có, Aspose.Words cho .NET hỗ trợ nhiều phương pháp nén TIFF khác nhau. Bạn có thể thiết lập`TiffCompression` thuộc tính cho các giá trị khác như`Lzw` hoặc`Rle` dựa trên yêu cầu của bạn.
+Có, Aspose.Words cho .NET hỗ trợ nhiều phương pháp nén TIFF khác nhau. Bạn có thể thiết lập `TiffCompression` thuộc tính cho các giá trị khác như `Lzw` hoặc `Rle` dựa trên yêu cầu của bạn.
 
 ### Tôi có thể thêm chú thích hoặc hình mờ vào tệp TIFF không?
 
@@ -111,10 +113,15 @@ Có, bạn có thể sử dụng Aspose.Words để thêm chú thích hoặc hì
 
 ### Aspose.Words hỗ trợ những định dạng hình ảnh nào khác cho .NET?
 
- Aspose.Words cho .NET hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG, BMP và GIF. Bạn có thể chỉ định định dạng mong muốn trong`ImageSaveOptions`.
+Aspose.Words cho .NET hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG, BMP và GIF. Bạn có thể chỉ định định dạng mong muốn trong `ImageSaveOptions`.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Görünüm Seçenekleri
-linktitle: Görünüm Seçenekleri
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki seçenekleri nasıl görüntüleyeceğinizi öğrenin. Bu kılavuz, görünüm türlerini ayarlamayı, yakınlaştırma düzeylerini ayarlamayı ve belgenizi kaydetmeyi kapsar.
-weight: 10
-url: /tr/net/programming-with-document-options-and-settings/view-options/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki seçenekleri nasıl görüntüleyeceğinizi öğrenin. Bu kılavuz, görünüm türlerini ayarlamayı, yakınlaştırma düzeylerini ayarlamayı ve belgenizi kaydetmeyi kapsar."
+"linktitle": "Görünüm Seçenekleri"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Görünüm Seçenekleri"
+"url": "/tr/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görünüm Seçenekleri
@@ -21,7 +23,7 @@ Merhaba, kodlayıcı arkadaşım! Aspose.Words for .NET kullanarak Word belgeler
 
 Koda dalmadan önce, bu öğreticiyi takip etmek için ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Bilgisayarınızda Visual Studio gibi bir IDE yüklü olmalıdır.
 3. Temel C# Bilgisi: Her ne kadar konuları basit tutsak da, C# hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
 4. Örnek Word Belgesi: Örnek bir Word belgesi hazırlayın. Bu eğitim için buna "Document.docx" diyeceğiz.
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Bu kod parçacığında, belgemize giden yolu tanımlıyoruz ve bunu kullanarak yüklüyoruz`Document` sınıf. Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
+Bu kod parçacığında, belgemize giden yolu tanımlıyoruz ve bunu kullanarak yüklüyoruz `Document` sınıf. Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` belgenizin gerçek yolunu belirtin.
 
 ## Adım 2: Görünüm Türünü Ayarlayın
 
@@ -58,7 +60,7 @@ Sonra, belgenin görünüm türünü değiştireceğiz. Görünüm türü, belge
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- Burada, görünüm türünü şu şekilde ayarlıyoruz:`PageLayout`Microsoft Word'deki yazdırma düzeni görünümüne benzer. Bu, belgenizin yazdırıldığında nasıl görüneceğine dair daha doğru bir temsil sağlar.
+Burada, görünüm türünü şu şekilde ayarlıyoruz: `PageLayout`Microsoft Word'deki yazdırma düzeni görünümüne benzer. Bu, belgenizin yazdırıldığında nasıl görüneceğine dair daha doğru bir temsil sağlar.
 
 ## Adım 3: Yakınlaştırma Seviyesini Ayarlayın
 
@@ -68,7 +70,7 @@ Bazen, belgenizin daha iyi bir görünümünü elde etmek için yakınlaştırma
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- Ayarlayarak`ZoomPercent` ile`50`, gerçek boyutun %50'sine kadar uzaklaştırıyoruz. Bu değeri ihtiyaçlarınıza uyacak şekilde ayarlayabilirsiniz.
+Ayarlayarak `ZoomPercent` ile `50`, gerçek boyutun %50'sine kadar uzaklaştırıyoruz. Bu değeri ihtiyaçlarınıza uyacak şekilde ayarlayabilirsiniz.
 
 ## Adım 4: Belgenizi Kaydedin
 
@@ -88,7 +90,7 @@ Bu kod satırı, değiştirilen belgeyi yeni bir adla kaydeder, böylece orijina
 
 ### Belgem için başka hangi görünüm türlerini ayarlayabilirim?
 
- Aspose.Words for .NET, aşağıdakiler de dahil olmak üzere çeşitli görünüm türlerini destekler:`PrintLayout`, `WebLayout`, `Reading` , Ve`Outline`İhtiyaçlarınıza göre bu seçenekleri inceleyebilirsiniz.
+Aspose.Words for .NET, aşağıdakiler de dahil olmak üzere çeşitli görünüm türlerini destekler: `PrintLayout`, `WebLayout`, `Reading`, Ve `Outline`İhtiyaçlarınıza göre bu seçenekleri inceleyebilirsiniz.
 
 ### Belgemin farklı bölümleri için farklı yakınlaştırma düzeyleri ayarlayabilir miyim?
 
@@ -104,10 +106,15 @@ Tutarlılığı sağlamak için belgenizi istediğiniz görünüm seçenekleriyl
 
 ### Aspose.Words for .NET hakkında daha detaylı dokümanları nerede bulabilirim?
 
- Daha detaylı dokümantasyon ve örnekleri şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Daha detaylı dokümantasyon ve örnekleri şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

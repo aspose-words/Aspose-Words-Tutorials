@@ -1,17 +1,19 @@
 ---
-title: Wyodrębnianie i modyfikowanie zawartości w dokumentach programu Word
-linktitle: Wyodrębnianie i modyfikowanie zawartości w dokumentach programu Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak wyodrębnić i zmodyfikować zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
-weight: 10
-url: /pl/python-net/content-extraction-and-manipulation/extract-modify-document-content/
+"description": "Dowiedz się, jak wyodrębnić i zmodyfikować zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym."
+"linktitle": "Ekstrahowanie i modyfikowanie zawartości w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Ekstrahowanie i modyfikowanie zawartości w dokumentach Word"
+"url": "/pl/python-net/content-extraction-and-manipulation/extract-modify-document-content/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnianie i modyfikowanie zawartości w dokumentach programu Word
+# Ekstrahowanie i modyfikowanie zawartości w dokumentach Word
 
 
 ## Wprowadzenie do Aspose.Words dla Pythona
@@ -58,7 +60,7 @@ run.get_font().set_color(255, 0, 0)
 
 ## Zastępowanie tekstu
 
- Zastępowanie tekstu można wykonać za pomocą`replace` metoda:
+Zastępowanie tekstu można wykonać za pomocą `replace` metoda:
 
 ```python
 doc.get_range().replace("old_text", "new_text", False, False)
@@ -66,7 +68,7 @@ doc.get_range().replace("old_text", "new_text", False, False)
 
 ## Dodawanie i modyfikowanie obrazów
 
- Obrazy można dodawać i zastępować za pomocą`insert_image` metoda:
+Obrazy można dodawać i zastępować za pomocą `insert_image` metoda:
 
 ```python
 shape = doc.get_first_section().get_body().append_child(asposewords.Drawing.Shape(doc, asposewords.Drawing.ShapeType.IMAGE))
@@ -103,12 +105,12 @@ header.get_paragraphs().add("Header content")
 
 ## Dodawanie hiperłączy
 
- Hiperłącza można dodawać za pomocą`insert_hyperlink` metoda:
+Hiperłącza można dodawać za pomocą `insert_hyperlink` metoda:
 
 ```python
 run = doc.get_first_section().get_body().get_first_paragraph().get_runs().get(0)
 run.get_font().set_color(0, 0, 255)
-doc.get_hyperlinks().add(run, "https://(www.example.com)
+doc.get_hyperlinks().add(run, "https://www.example.com")
 ```
 
 ## Konwersja do innych formatów
@@ -131,7 +133,7 @@ Aspose.Words for Python to wszechstronna biblioteka, która umożliwia bezproble
 
 ### Jak zainstalować Aspose.Words dla języka Python?
 
- Aby zainstalować Aspose.Words dla języka Python, użyj polecenia`pip install aspose-words`.
+Aby zainstalować Aspose.Words dla języka Python, użyj polecenia `pip install aspose-words`.
 
 ### Czy mogę modyfikować formatowanie tekstu za pomocą tej biblioteki?
 
@@ -139,18 +141,23 @@ Tak, możesz modyfikować formatowanie tekstu, np. pogrubienie, kolor i rozmiar 
 
 ### Czy można zastąpić określony tekst w dokumencie?
 
- Oczywiście, że możesz użyć`replace` metoda umożliwiająca zastąpienie określonego tekstu w dokumencie.
+Oczywiście, że możesz użyć `replace` metoda umożliwiająca zastąpienie określonego tekstu w dokumencie.
 
 ### Czy mogę dodać hiperłącza do mojego dokumentu Word?
 
- Oczywiście, możesz dodać hiperłącza do swojego dokumentu, używając`insert_hyperlink` metoda dostarczona przez Aspose.Words.
+Oczywiście, możesz dodać hiperłącza do swojego dokumentu, używając `insert_hyperlink` metoda dostarczona przez Aspose.Words.
 
 ### Do jakich innych formatów mogę konwertować dokumenty Word?
 
 Aspose.Words obsługuje konwersję do różnych formatów, takich jak PDF, HTML, EPUB i inne.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

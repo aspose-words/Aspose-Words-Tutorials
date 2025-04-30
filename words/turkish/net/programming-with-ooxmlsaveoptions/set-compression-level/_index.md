@@ -1,14 +1,16 @@
 ---
-title: Sıkıştırma Seviyesini Ayarla
-linktitle: Sıkıştırma Seviyesini Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde sıkıştırma düzeyinin nasıl ayarlanacağını öğrenin. Belge depolamanızı ve performansınızı optimize etmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-ooxmlsaveoptions/set-compression-level/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde sıkıştırma düzeyinin nasıl ayarlanacağını öğrenin. Belge depolamanızı ve performansınızı optimize etmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Sıkıştırma Seviyesini Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Sıkıştırma Seviyesini Ayarla"
+"url": "/tr/net/programming-with-ooxmlsaveoptions/set-compression-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sıkıştırma Seviyesini Ayarla
@@ -21,7 +23,7 @@ Aspose.Words for .NET ile belge sıkıştırma dünyasına dalmaya hazır mısı
 
 Ayrıntılara girmeden önce, bu eğitimde takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose Sürüm Sayfası](https://releases.aspose.com/words/net/).
 
 2. Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 
@@ -80,7 +82,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 İşte sihir burada gerçekleşiyor. Belge için sıkıştırma seviyesini ayarlayacağız.
 
- Bir örnek oluşturun`OoxmlSaveOptions` ve sıkıştırma seviyesini ayarlayın.`CompressionLevel` mülk çeşitli seviyelere ayarlanabilir, örneğin`Normal`, `Maximum`, `Fast` , Ve`SuperFast` Bu örnek için şunu kullanacağız:`SuperFast`.
+Bir örnek oluşturun `OoxmlSaveOptions` ve sıkıştırma seviyesini ayarlayın. `CompressionLevel` mülk çeşitli seviyelere ayarlanabilir, örneğin `Normal`, `Maximum`, `Fast`, Ve `SuperFast`Bu örnek için şunu kullanacağız: `SuperFast`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -93,7 +95,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 Son olarak belgeyi yeni sıkıştırma ayarlarıyla kaydedin.
 
- Kullanın`Save` Belgenizi belirtilen sıkıştırma düzeyiyle kaydetme yöntemi.
+Kullanın `Save` Belgenizi belirtilen sıkıştırma düzeyiyle kaydetme yöntemi.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.SetCompressionLevel.docx", saveOptions);
@@ -107,7 +109,7 @@ Uygulamanızı çalıştırdıktan sonra belirtilen dizine gidin ve yeni dosyay�
 
 İşte bu kadar! Aspose.Words for .NET kullanarak bir Word belgesi için sıkıştırma seviyesini başarıyla ayarladınız. Bu, büyük belgelerle çalışırken dosya boyutunu önemli ölçüde azaltabilir ve performansı artırabilir. İhtiyaçlarınız için dosya boyutu ve performans arasında en iyi dengeyi bulmak için diğer sıkıştırma seviyelerini keşfetmeyi unutmayın.
 
-Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız, şuraya göz atın:[Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya onlara ulaşın[Destek Forumu](https://forum.aspose.com/c/words/8).
+Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız, şuraya göz atın: [Aspose.Words Belgeleri](https://reference.aspose.com/words/net/) veya onlara ulaşın [Destek Forumu](https://forum.aspose.com/c/words/8).
 
 ## SSS
 
@@ -121,19 +123,24 @@ Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla .NET için Aspose.Wo
 
 ### Mevcut farklı sıkıştırma seviyeleri nelerdir?
 
-Aspose.Words for .NET, Normal, Maximum, Fast ve SuperFast dahil olmak üzere çeşitli sıkıştırma seviyeleri sunar. Her seviye dosya boyutu ve işleme hızı arasında farklı bir denge sunar.
+Aspose.Words for .NET, Normal, Maximum, Fast ve SuperFast dahil olmak üzere çeşitli sıkıştırma seviyeleri sunar. Her seviye, dosya boyutu ve işleme hızı arasında farklı bir denge sunar.
 
 ### Sıkıştırmayı diğer belge biçimlerine uygulayabilir miyim?
 
-Evet, Aspose.Words for .NET, DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli belge biçimleri için sıkıştırmayı destekler.
+Evet, Aspose.Words for .NET DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli belge biçimleri için sıkıştırmayı destekler.
 
 ### Sorun yaşarsam nereden destek alabilirim?
 
- Aspose topluluğundan destek almak için şu adresi ziyaret edebilirsiniz:[Destek Forumu](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek almak için şu adresi ziyaret edebilirsiniz: [Destek Forumu](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

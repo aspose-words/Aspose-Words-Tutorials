@@ -1,33 +1,35 @@
 ---
-title: Szerezzen lebegő asztali pozíciót
-linktitle: Szerezzen lebegő asztali pozíciót
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan szerezhet be lebegő táblázatpozíciókat Word dokumentumokban az Aspose.Words for .NET használatával. Ez a részletes, lépésenkénti útmutató végigvezeti Önt mindenen, amit tudnia kell.
-weight: 10
-url: /hu/net/programming-with-tables/get-floating-table-position/
+"description": "Ismerje meg, hogyan hozhat létre lebegő táblázatpozíciókat Word-dokumentumokban az Aspose.Words for .NET használatával. Ez a részletes, lépésről lépésre haladó útmutató végigvezeti Önt mindenen, amit tudnia kell."
+"linktitle": "Lebegő táblázat pozíciójának lekérése"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Lebegő táblázat pozíciójának lekérése"
+"url": "/hu/net/programming-with-tables/get-floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezzen lebegő asztali pozíciót
+# Lebegő táblázat pozíciójának lekérése
 
 ## Bevezetés
 
-Készen állsz, hogy belemerülj az Aspose.Words for .NET világába? Ma egy utazásra vezetjük Önt, hogy feltárja a Word dokumentumokban található lebegő táblázatok titkait. Képzelje el, hogy van egy asztala, amely nem csak ül, hanem elegánsan lebeg a szöveg körül. Nagyon klassz, igaz? Ez az oktatóanyag végigvezeti Önt, hogyan szerezheti be az ilyen lebegő asztalok pozicionálási tulajdonságait. Szóval, kezdjük!
+Készen állsz belemerülni az Aspose.Words for .NET világába? Ma egy utazásra viszünk, amelyen felfedezheted a Word dokumentumokban található lebegő táblázatok titkait. Képzelj el egy táblázatot, amely nem csak mozdulatlanul áll, hanem elegánsan lebeg a szöveg körül. Elég klassz, ugye? Ez az oktatóanyag végigvezet azon, hogyan érheted el az ilyen lebegő táblázatok pozicionálási tulajdonságait. Akkor kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a mókás részbe, van néhány dolog, amit a helyén kell tartani:
+Mielőtt belevágnánk a mókás részbe, van néhány dolog, amire szükséged van:
 
-1.  Aspose.Words for .NET: Ha még nem tette meg, töltse le és telepítse az Aspose.Words for .NET programot a[Az Aspose kiadási oldala](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Győződjön meg arról, hogy be van állítva .NET fejlesztői környezet. A Visual Studio nagyszerű lehetőség.
-3. Mintadokumentum: Szüksége lesz egy Word dokumentumra lebegő táblázattal. Létrehozhat egyet, vagy használhat meglévő dokumentumot. 
+1. Aspose.Words .NET-hez: Ha még nem tette meg, töltse le és telepítse az Aspose.Words .NET-hez készült verzióját a következő helyről: [Aspose kiadási oldal](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Győződjön meg róla, hogy rendelkezik beállított .NET fejlesztői környezettel. A Visual Studio nagyszerű választás.
+3. Mintadokumentum: Szükséged lesz egy lebegő táblázattal rendelkező Word-dokumentumra. Létrehozhatsz egyet, vagy használhatsz egy meglévő dokumentumot. 
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket. Ez biztosítja, hogy hozzáférjen a Word dokumentumok kezeléséhez szükséges Aspose.Words osztályokhoz és metódusokhoz.
+kezdéshez importálnia kell a szükséges névtereket. Ez biztosítja, hogy hozzáférjen az Aspose.Words osztályokhoz és metódusokhoz, amelyek a Word dokumentumok kezeléséhez szükségesek.
 
 ```csharp
 using Aspose.Words;
@@ -38,7 +40,7 @@ Rendben, bontsuk le a folyamatot könnyen követhető lépésekre.
 
 ## 1. lépés: Töltse be a dokumentumot
 
-Először is be kell töltenie a Word dokumentumot. Ennek a dokumentumnak tartalmaznia kell a vizsgálni kívánt lebegő táblázatot.
+Először is be kell töltened a Word-dokumentumot. Ennek a dokumentumnak tartalmaznia kell a megvizsgálni kívánt lebegő táblázatot.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
@@ -47,37 +49,37 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
 ```
 
- Ebben a lépésben lényegében megmondja az Aspose.Words számára, hogy hol találja meg dokumentumát. Ügyeljen arra, hogy cserélje ki`"YOUR DOCUMENT DIRECTORY"` a dokumentum tényleges elérési útjával.
+Ebben a lépésben lényegében megmondod az Aspose.Words-nek, hogy hol találja a dokumentumodat. Ügyelj arra, hogy kicseréld a következőt: `"YOUR DOCUMENT DIRECTORY"` a dokumentum tényleges elérési útjával.
 
-## 2. lépés: Nyissa meg a dokumentum táblázatait
+## 2. lépés: A dokumentumban található táblázatok elérése
 
-Ezután hozzá kell férnie a dokumentum első részében található táblázatokhoz. Tekintse a dokumentumot egy nagy konténernek, és beletúr, hogy megtalálja az összes táblázatot.
+Ezután hozzá kell férned a dokumentum első részében található táblázatokhoz. Gondolj a dokumentumra úgy, mint egy nagy konténerre, és beleásod magad, hogy megtaláld az összes táblázatot.
 
 ```csharp
 foreach (Table table in doc.FirstSection.Body.Tables)
 {
-    // Az egyes táblák feldolgozásához szükséges kód itt található
+    // Ide kerül a kód, amivel feldolgozhatod az egyes táblázatokat.
 }
 ```
 
-Itt végignéz minden táblázatot, amely a dokumentum első részének törzsében található.
+Itt végigmész a dokumentum első szakaszának törzsében található táblázatokon.
 
-## 3. lépés: Ellenőrizze, hogy az asztal lebeg-e
+## 3. lépés: Ellenőrizze, hogy a tábla lebegő-e
 
-Most meg kell határoznia, hogy a tábla lebegő típusú-e. A lebegő táblázatok speciális szövegtördelési beállításokkal rendelkeznek.
+Most meg kell állapítania, hogy a táblázat lebegő típusú-e. A lebegő táblázatoknak speciális szövegtördelési beállításaik vannak.
 
 ```csharp
 if (table.TextWrapping == TextWrapping.Around)
 {
-    // A táblázat pozicionálási tulajdonságainak nyomtatásához szükséges kód itt található
+    // Ide kell írni a táblázat pozicionálási tulajdonságainak kinyomtatására szolgáló kódot.
 }
 ```
 
-Ez a feltétel ellenőrzi, hogy a táblázat szövegtördelési stílusa „Körbe” van-e állítva, ami azt jelzi, hogy lebegő táblázatról van szó.
+Ez a feltétel azt ellenőrzi, hogy a táblázat szövegkörnyezeti stílusa „Körbe”-re van-e állítva, ami azt jelzi, hogy lebegő táblázatról van szó.
 
 ## 4. lépés: Nyomtassa ki a pozicionálási tulajdonságokat
 
-Végül bontsuk ki és nyomtassuk ki a lebegő táblázat pozicionálási tulajdonságait. Ezek a tulajdonságok megmondják, hogy a táblázat hol helyezkedik el a szöveghez és az oldalhoz képest.
+Végül kinyerjük és nyomtassuk ki a lebegő táblázat pozicionálási tulajdonságait. Ezek a tulajdonságok megmutatják, hogy a táblázat hol helyezkedik el a szöveghez és az oldalhoz képest.
 
 ```csharp
 if (table.TextWrapping == TextWrapping.Around)
@@ -92,33 +94,38 @@ if (table.TextWrapping == TextWrapping.Around)
 }
 ```
 
-Ezek a tulajdonságok részletes áttekintést nyújtanak a táblázat rögzítéséről és elhelyezéséről a dokumentumban.
+Ezek a tulajdonságok részletes képet adnak arról, hogyan van lehorgonyozva és elhelyezve a táblázat a dokumentumban.
 
 ## Következtetés
 
-És megvan! Ha követi ezeket a lépéseket, az Aspose.Words for .NET segítségével egyszerűen lekérheti és kinyomtathatja a Word-dokumentumokban lévő lebegő táblázatok pozicionálási tulajdonságait. Akár automatizálja a dokumentumfeldolgozást, akár csak a táblázatok elrendezésére kíváncsi, ez a tudás biztosan jól jön.
+És íme! A következő lépéseket követve könnyedén lekérheted és kinyomtathatod a Word-dokumentumaidban található lebegő táblázatok pozicionálási tulajdonságait az Aspose.Words for .NET segítségével. Akár automatizálod a dokumentumfeldolgozást, akár csak kíváncsi vagy a táblázatelrendezésekre, ez a tudás mindenképpen hasznos lesz.
 
-Ne feledje, hogy az Aspose.Words for .NET programmal a dokumentumok kezelésének és automatizálásának lehetőségeinek világa nyílik meg. Boldog kódolást!
+Ne feledd, az Aspose.Words for .NET használatával való munka a dokumentumkezelés és -automatizálás új lehetőségeinek tárházát nyitja meg. Jó kódolást!
 
 ## GYIK
 
 ### Mi az a lebegő táblázat a Word dokumentumokban?
-A lebegő táblázat olyan táblázat, amely nincs rögzítve a szöveghez, de mozoghat, általában úgy, hogy a szöveg körbefut.
+A lebegő táblázat egy olyan táblázat, amely nem rögzített a szöveghez, hanem mozgatható, jellemzően a szöveg körbefuttatása mellett.
 
-### Hogyan állapíthatom meg, hogy egy tábla lebeg-e az Aspose.Words for .NET használatával?
- Ellenőrizheti, hogy egy táblázat lebeg-e, ha megvizsgálja`TextWrapping` ingatlan. Ha be van állítva`TextWrapping.Around`, az asztal lebeg.
+### Hogyan állapíthatom meg, hogy egy tábla lebegő-e az Aspose.Words for .NET használatával?
+Egy tábla lebegő jellegét úgy ellenőrizheted, hogy megvizsgálod a `TextWrapping` tulajdonság. Ha erre van beállítva `TextWrapping.Around`, a táblázat lebeg.
 
-### Módosíthatom egy lebegő asztal pozicionálási tulajdonságait?
-Igen, az Aspose.Words for .NET használatával módosíthatja a lebegő táblázatok pozicionálási tulajdonságait az elrendezés testreszabásához.
+### Módosíthatom egy lebegő táblázat pozicionálási tulajdonságait?
+Igen, az Aspose.Words for .NET használatával módosíthatja egy lebegő táblázat pozicionálási tulajdonságait az elrendezés testreszabásához.
 
-### Az Aspose.Words for .NET alkalmas nagyméretű dokumentumautomatizálásra?
-Teljesen! Az Aspose.Words for .NET nagy teljesítményű dokumentumautomatizálásra készült, és hatékonyan képes kezelni a nagyszabású műveleteket.
+### Alkalmas-e az Aspose.Words for .NET nagyméretű dokumentumautomatizálásra?
+Abszolút! Az Aspose.Words for .NET nagy teljesítményű dokumentumautomatizálásra készült, és hatékonyan képes kezelni a nagyméretű műveleteket.
 
-### Hol találhatok további információkat és forrásokat az Aspose.Words for .NET-ről?
-Részletes dokumentációt és forrásokat találhat a[Aspose.Words for .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+### Hol találok további információkat és forrásokat az Aspose.Words for .NET-ről?
+Részletes dokumentációt és forrásokat találhat a következő címen: [Aspose.Words .NET dokumentációs oldal](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chèn trường tác giả
-linktitle: Chèn trường tác giả
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn trường tác giả vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa việc tạo tài liệu.
-weight: 10
-url: /vi/net/working-with-fields/insert-author-field/
+"description": "Tìm hiểu cách chèn trường tác giả vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa việc tạo tài liệu."
+"linktitle": "Chèn trường tác giả"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn trường tác giả"
+"url": "/vi/net/working-with-fields/insert-author-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn trường tác giả
@@ -21,10 +23,10 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào chi tiết về cách ch
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
--  Aspose.Words cho Thư viện .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho Thư viện .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Đây là nơi chúng ta sẽ viết và chạy mã.
 - .NET Framework: Đảm bảo bạn đã cài đặt nó trên máy của mình.
-- Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi.
+- Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 Khi bạn đã chuẩn bị xong những điều kiện tiên quyết này, chúng ta đã sẵn sàng bắt đầu.
 
@@ -66,7 +68,7 @@ Sau khi thiết lập xong dự án và cài đặt các gói cần thiết, ch�
 
 ### Tạo và khởi tạo tài liệu
 
-1.  Tạo một tài liệu mới: Chúng ta sẽ bắt đầu bằng cách tạo một phiên bản mới của`Document` lớp học.
+1. Tạo một tài liệu mới: Chúng ta sẽ bắt đầu bằng cách tạo một phiên bản mới của `Document` lớp học.
 
 ```csharp
 Document doc = new Document();
@@ -86,7 +88,7 @@ Bây giờ đã đến lúc chèn trường tác giả vào tài liệu của ch
 
 ### Thêm trường Tác giả
 
-1.  Chèn Trường: Sử dụng`AppendField` phương pháp chèn trường tác giả vào đoạn văn.
+1. Chèn Trường: Sử dụng `AppendField` phương pháp chèn trường tác giả vào đoạn văn.
 
 ```csharp
 FieldAuthor field = (FieldAuthor)para.AppendField(FieldType.FieldAuthor, false);
@@ -116,7 +118,7 @@ Bước cuối cùng là lưu tài liệu vào thư mục bạn chỉ định.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-2.  Lưu tài liệu: Sử dụng`Save` phương pháp lưu tài liệu của bạn.
+2. Lưu tài liệu: Sử dụng `Save` phương pháp lưu tài liệu của bạn.
 
 ```csharp
 doc.Save(dataDir + "InsertionAuthorField.docx");
@@ -136,22 +138,27 @@ Aspose.Words for .NET chủ yếu hỗ trợ các ngôn ngữ .NET, bao gồm C#
 
 ### Aspose.Words cho .NET có miễn phí sử dụng không?
 
-Aspose.Words cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng và sử dụng thương mại, bạn cần mua giấy phép. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Aspose.Words cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng và sử dụng thương mại, bạn cần mua giấy phép. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Làm thế nào để cập nhật tên tác giả một cách linh hoạt?
 
- Bạn có thể thiết lập`AuthorName` thuộc tính một cách linh hoạt bằng cách gán cho nó một biến hoặc giá trị từ cơ sở dữ liệu hoặc dữ liệu đầu vào của người dùng.
+Bạn có thể thiết lập `AuthorName` thuộc tính một cách linh hoạt bằng cách gán cho nó một biến hoặc giá trị từ cơ sở dữ liệu hoặc dữ liệu đầu vào của người dùng.
 
 ### Tôi có thể thêm các loại trường khác bằng Aspose.Words không?
 
- Có, Aspose.Words hỗ trợ nhiều loại trường khác nhau, bao gồm ngày, giờ, số trang, v.v. Kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
+Có, Aspose.Words hỗ trợ nhiều loại trường khác nhau, bao gồm ngày, giờ, số trang, v.v. Kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thêm chi tiết.
 
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?
 
- Bạn có thể tìm thấy sự hỗ trợ trên diễn đàn Aspose.Words[đây](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy sự hỗ trợ trên diễn đàn Aspose.Words [đây](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

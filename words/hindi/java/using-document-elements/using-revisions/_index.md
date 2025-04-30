@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में संशोधन का उपयोग करना
-linktitle: संशोधनों का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: जावा के संशोधन के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
-weight: 22
-url: /hi/java/using-document-elements/using-revisions/
+"description": "जावा के संशोधन के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।"
+"linktitle": "संशोधनों का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में संशोधन का उपयोग करना"
+"url": "/hi/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में संशोधन का उपयोग करना
@@ -118,7 +120,7 @@ doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
 Assert.assertEquals(para.getRuns().getCount(), 0); //था Is.खाली
 // संशोधनों की ट्रैकिंग रोकने से यह पाठ सामान्य पाठ के रूप में दिखाई देता है।
-//दस्तावेज़ में परिवर्तन होने पर संशोधनों की गणना नहीं की जाती।
+// दस्तावेज़ में परिवर्तन होने पर संशोधनों की गणना नहीं की जाती।
 doc.stopTrackRevisions();
 // दस्तावेज़ सहेजें.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
 
 ### 4. क्या Java के लिए Aspose.Words का उपयोग करने के लिए कोई लाइसेंसिंग आवश्यकताएं हैं?
 
- हां, आपको अपनी परियोजनाओं में Java के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस प्राप्त करना होगा।[यहाँ लाइसेंस प्राप्त करें](https://purchase.aspose.com/buy).
+हां, आपको अपनी परियोजनाओं में Java के लिए Aspose.Words का उपयोग करने के लिए लाइसेंस प्राप्त करना होगा। [यहाँ लाइसेंस प्राप्त करें](https://purchase.aspose.com/buy).
 
 ### 5. मैं Java के लिए Aspose.Words का समर्थन कहां पा सकता हूं?
 
- किसी भी प्रश्न या समस्या के लिए, आप यहां जा सकते हैं[Aspose.Words for Java समर्थन मंच](https://forum.aspose.com/).
+किसी भी प्रश्न या समस्या के लिए, आप यहां जा सकते हैं [Aspose.Words for Java समर्थन मंच](https://forum.aspose.com/).
 
 आज ही Aspose.Words for Java के साथ शुरुआत करें और अपनी दस्तावेज़ प्रबंधन प्रक्रियाओं को सुव्यवस्थित करें।
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

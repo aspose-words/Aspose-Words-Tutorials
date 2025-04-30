@@ -1,21 +1,23 @@
 ---
-title: Link Cabeçalhos Rodapés
-linktitle: Link Cabeçalhos Rodapés
-second_title: API de processamento de documentos Aspose.Words
-description: Aprenda como vincular cabeçalhos e rodapés entre documentos no Aspose.Words para .NET. Garanta consistência e integridade de formatação sem esforço.
-weight: 10
-url: /pt/net/join-and-append-documents/link-headers-footers/
+"description": "Aprenda a vincular cabeçalhos e rodapés entre documentos no Aspose.Words para .NET. Garanta consistência e integridade de formatação sem esforço."
+"linktitle": "Link Cabeçalhos Rodapés"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Link Cabeçalhos Rodapés"
+"url": "/pt/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Link Cabeçalhos Rodapés
 
 ## Introdução
 
-Neste tutorial, exploraremos como vincular cabeçalhos e rodapés entre documentos usando o Aspose.Words para .NET. Esse recurso permite que você mantenha consistência e continuidade em vários documentos sincronizando cabeçalhos e rodapés de forma eficaz.
+Neste tutorial, exploraremos como vincular cabeçalhos e rodapés entre documentos usando o Aspose.Words para .NET. Este recurso permite manter a consistência e a continuidade em vários documentos, sincronizando cabeçalhos e rodapés de forma eficaz.
 
 ## Pré-requisitos
 
@@ -37,7 +39,7 @@ Vamos dividir o processo em etapas claras:
 
 ## Etapa 1: Carregar documentos
 
- Primeiro, carregue os documentos de origem e destino em`Document` objetos:
+Primeiro, carregue os documentos de origem e destino em `Document` objetos:
 
 ```csharp
 // Caminho para o diretório do seu documento
@@ -47,23 +49,23 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
-## Etapa 2: Definir início da seção
+## Etapa 2: definir o início da seção
 
- Para garantir que o documento anexado comece em uma nova página, configure o`SectionStart` propriedade da primeira seção do documento de origem:
+Para garantir que o documento anexado comece em uma nova página, configure o `SectionStart` propriedade da primeira seção do documento de origem:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 ```
 
-## Etapa 3: Vincule cabeçalhos e rodapés
+## Etapa 3: Vincular cabeçalhos e rodapés
 
-Vincule os cabeçalhos e rodapés no documento de origem à seção anterior no documento de destino. Esta etapa garante que os cabeçalhos e rodapés do documento de origem sejam aplicados sem sobrescrever os existentes no documento de destino:
+Vincule os cabeçalhos e rodapés do documento de origem à seção anterior do documento de destino. Esta etapa garante que os cabeçalhos e rodapés do documento de origem sejam aplicados sem sobrescrever os existentes no documento de destino:
 
 ```csharp
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(true);
 ```
 
-## Etapa 4: Anexar documentos
+## Etapa 4: anexar documentos
 
 Anexe o documento de origem ao documento de destino, preservando a formatação da origem:
 
@@ -98,10 +100,15 @@ O Aspose.Words oferece suporte a várias versões do .NET Framework e do .NET Co
 Sim, você pode desvincular cabeçalhos e rodapés usando os métodos da API do Aspose.Words para restaurar a formatação de documentos individuais.
 
 ### Onde posso encontrar documentação mais detalhada sobre o Aspose.Words para .NET?
- Visita[Aspose.Words para documentação .NET](https://reference.aspose.com/words/net/) para guias abrangentes e referências de API.
+Visita [Documentação do Aspose.Words para .NET](https://reference.aspose.com/words/net/) para guias abrangentes e referências de API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Veld invoegen
-linktitle: Veld invoegen
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u velden in Word-documenten invoegt met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. Perfect voor documentautomatisering.
-weight: 10
-url: /nl/net/working-with-fields/insert-field/
+"description": "Leer hoe u velden in Word-documenten invoegt met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. Perfect voor documentautomatisering."
+"linktitle": "Veld invoegen"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Veld invoegen"
+"url": "/nl/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veld invoegen
 
 ## Invoering
 
-Heb je ooit de behoefte gehad om het maken en bewerken van documenten te automatiseren? Nou, dan ben je hier aan het juiste adres. Vandaag duiken we in Aspose.Words voor .NET, een krachtige bibliotheek die het werken met Word-documenten een fluitje van een cent maakt. Of je nu velden invoegt, gegevens samenvoegt of documenten aanpast, Aspose.Words heeft het allemaal. Laten we de mouwen opstropen en ontdekken hoe je velden in een Word-document invoegt met deze handige tool.
+Heb je ooit de behoefte gehad om het maken en bewerken van documenten te automatiseren? Dan ben je hier aan het juiste adres. Vandaag duiken we in Aspose.Words voor .NET, een krachtige bibliotheek die het werken met Word-documenten een fluitje van een cent maakt. Of je nu velden invoegt, gegevens samenvoegt of documenten aanpast, Aspose.Words helpt je op weg. Laten we de handen uit de mouwen steken en ontdekken hoe je velden in een Word-document kunt invoegen met deze handige tool.
 
 ## Vereisten
 
-Voordat we beginnen, controleren we of we alles hebben wat we nodig hebben:
+Voordat we beginnen, controleren we even of we alles hebben wat we nodig hebben:
 
-1.  Aspose.Words voor .NET: U kunt het downloaden[hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET: U kunt het downloaden [hier](https://releases.aspose.com/words/net/).
 2. .NET Framework: Zorg ervoor dat .NET Framework op uw computer is geïnstalleerd.
 3. IDE: Een geïntegreerde ontwikkelomgeving zoals Visual Studio.
-4.  Tijdelijke licentie: U kunt er een krijgen[hier](https://purchase.aspose.com/temporary-license/).
+4. Tijdelijke licentie: U kunt er één krijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-Zorg ervoor dat je Aspose.Words voor .NET hebt geïnstalleerd en je ontwikkelomgeving hebt ingesteld. Klaar? Laten we beginnen!
+Zorg ervoor dat je Aspose.Words voor .NET hebt geïnstalleerd en je ontwikkelomgeving hebt ingesteld. Klaar? Aan de slag!
 
 ## Naamruimten importeren
 
-Allereerst moeten we de benodigde namespaces importeren om toegang te krijgen tot de Aspose.Words-functionaliteiten. Dit is hoe je dat doet:
+Allereerst moeten we de benodigde naamruimten importeren om toegang te krijgen tot de Aspose.Words-functionaliteiten. Zo doe je dat:
 
 ```csharp
 using Aspose.Words;
@@ -43,15 +45,15 @@ Deze naamruimten bieden ons alle klassen en methoden die we nodig hebben om met 
 
 ### Een nieuw project maken
 
-Start uw Visual Studio en maak een nieuw C#-project. U kunt dit doen door naar Bestand > Nieuw > Project te gaan en Console-app (.NET Framework) te selecteren. Geef uw project een naam en klik op Maken.
+Start Visual Studio en maak een nieuw C#-project. Ga hiervoor naar Bestand > Nieuw > Project en selecteer Console-app (.NET Framework). Geef je project een naam en klik op Maken.
 
-### Voeg Aspose.Words-referentie toe
+### Voeg Aspose.Words Referentie toe
 
-Om Aspose.Words te gebruiken, moeten we het toevoegen aan ons project. Klik met de rechtermuisknop op References in de Solution Explorer en selecteer Manage NuGet Packages. Zoek naar Aspose.Words en installeer de nieuwste versie.
+Om Aspose.Words te gebruiken, moeten we het aan ons project toevoegen. Klik met de rechtermuisknop op 'Referenties' in Solution Explorer en selecteer 'NuGet-pakketten beheren'. Zoek naar Aspose.Words en installeer de nieuwste versie.
 
 ### Initialiseer uw documentenmap
 
- We hebben een directory nodig waar ons document wordt opgeslagen. Voor deze tutorial gebruiken we een tijdelijke directory. Vervangen`"YOUR DOCUMENTS DIRECTORY"` met het daadwerkelijke pad waar u uw document wilt opslaan.
+We hebben een map nodig waar ons document wordt opgeslagen. Voor deze tutorial gebruiken we een tijdelijke map. Vervangen `"YOUR DOCUMENTS DIRECTORY"` met het daadwerkelijke pad waar u uw document wilt opslaan.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 ### Het documentobject maken
 
-Vervolgens maken we een nieuw document en een DocumentBuilder-object. De DocumentBuilder helpt ons om inhoud in het document in te voegen.
+Vervolgens maken we een nieuw document en een DocumentBuilder-object aan. De DocumentBuilder helpt ons bij het invoegen van inhoud in het document.
 
 ```csharp
 Document doc = new Document();
@@ -70,27 +72,27 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ### Het veld invoegen
 
-Nu onze DocumentBuilder gereed is, kunnen we een veld invoegen. Velden zijn dynamische elementen die gegevens kunnen weergeven, berekeningen kunnen uitvoeren of zelfs andere documenten kunnen opnemen.
+Nu onze DocumentBuilder gereed is, kunnen we een veld invoegen. Velden zijn dynamische elementen die gegevens kunnen weergeven, berekeningen kunnen uitvoeren of zelfs andere documenten kunnen bevatten.
 
 ```csharp
 builder.InsertField(@"MERGEFIELD MyFieldName \* MERGEFORMAT");
 ```
 
-In dit voorbeeld voegen we een MERGEFIELD in, dat doorgaans wordt gebruikt voor samenvoegbewerkingen.
+In dit voorbeeld voegen we een MERGEFIELD in. Dit wordt doorgaans gebruikt voor samenvoegbewerkingen.
 
-### Document opslaan
+### Sla het document op
 
-Nadat we het veld hebben ingevoegd, moeten we ons document opslaan. Dit is hoe:
+Nadat we het veld hebben ingevoegd, moeten we ons document opslaan. Zo gaat dat:
 
 ```csharp
 doc.Save(dataDir + "InsertionField.docx");
 ```
 
-En dat is alles! U hebt succesvol een veld ingevoegd in uw Word-document.
+En klaar! Je hebt met succes een veld in je Word-document ingevoegd.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt zojuist geleerd hoe u een veld in een Word-document kunt invoegen met Aspose.Words voor .NET. Deze krachtige bibliotheek biedt een overvloed aan functies om documentautomatisering een fluitje van een cent te maken. Blijf experimenteren en ontdek de verschillende functionaliteiten die Aspose.Words te bieden heeft. Veel plezier met coderen!
+Gefeliciteerd! Je hebt zojuist geleerd hoe je een veld in een Word-document invoegt met Aspose.Words voor .NET. Deze krachtige bibliotheek biedt een overvloed aan functies waarmee documentautomatisering een fluitje van een cent wordt. Blijf experimenteren en ontdek de verschillende functionaliteiten die Aspose.Words te bieden heeft. Veel plezier met coderen!
 
 ## Veelgestelde vragen
 
@@ -98,19 +100,24 @@ Gefeliciteerd! U hebt zojuist geleerd hoe u een veld in een Word-document kunt i
 Absoluut! Aspose.Words ondersteunt een breed scala aan velden, waaronder MERGEFIELD, IF, INCLUDETEXT en meer.
 
 ### Hoe kan ik de velden opmaken die in mijn document zijn ingevoegd?  
- U kunt veldswitches gebruiken om de velden te formatteren. Bijvoorbeeld:`\* MERGEFORMAT` behoudt de opmaak die op het veld is toegepast.
+U kunt veldswitches gebruiken om de velden te formatteren. Bijvoorbeeld: `\* MERGEFORMAT` behoudt de opmaak die op het veld is toegepast.
 
 ### Is Aspose.Words voor .NET compatibel met .NET Core?  
 Ja, Aspose.Words voor .NET is compatibel met zowel .NET Framework als .NET Core.
 
-### Kan ik het proces van het in bulk invoegen van velden automatiseren?  
+### Kan ik het proces voor het in bulk invoegen van velden automatiseren?  
 Ja, u kunt het invoegen van velden in bulk automatiseren door uw gegevens te doorlopen en de DocumentBuilder te gebruiken om velden programmatisch in te voegen.
 
-### Waar kan ik meer gedetailleerde documentatie vinden over Aspose.Words voor .NET?  
- U kunt uitgebreide documentatie vinden[hier](https://reference.aspose.com/words/net/).
+### Waar kan ik meer gedetailleerde documentatie over Aspose.Words voor .NET vinden?  
+U kunt uitgebreide documentatie vinden [hier](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

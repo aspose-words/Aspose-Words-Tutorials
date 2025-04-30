@@ -1,14 +1,16 @@
 ---
-title: Ignoruj tekst wewnątrz Usuń wersje
-linktitle: Ignoruj tekst wewnątrz Usuń wersje
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak obsługiwać śledzone wersje w dokumentach Worda za pomocą Aspose.Words dla .NET. Opanuj automatyzację dokumentów dzięki temu kompleksowemu samouczkowi.
-weight: 10
-url: /pl/net/find-and-replace-text/ignore-text-inside-delete-revisions/
+"description": "Dowiedz się, jak obsługiwać śledzone poprawki w dokumentach Worda za pomocą Aspose.Words dla .NET. Opanuj automatyzację dokumentów dzięki temu kompleksowemu samouczkowi."
+"linktitle": "Ignoruj tekst wewnątrz Usuń wersje"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ignoruj tekst wewnątrz Usuń wersje"
+"url": "/pl/net/find-and-replace-text/ignore-text-inside-delete-revisions/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignoruj tekst wewnątrz Usuń wersje
@@ -22,8 +24,8 @@ dziedzinie rozwoju .NET, Aspose.Words wyróżnia się jako solidna biblioteka do
 Zanim przejdziesz do tego samouczka, upewnij się, że spełnione są następujące wymagania wstępne:
 - Podstawowa znajomość języka programowania C#.
 - Program Visual Studio zainstalowany w systemie.
--  Biblioteka Aspose.Words dla .NET zintegrowana z Twoim projektem. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
--  Dostęp do Aspose.Words dla .NET[dokumentacja](https://reference.aspose.com/words/net/) w celach informacyjnych.
+- Biblioteka Aspose.Words dla .NET zintegrowana z Twoim projektem. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
+- Dostęp do Aspose.Words dla .NET [dokumentacja](https://reference.aspose.com/words/net/) w celach informacyjnych.
 
 ## Importuj przestrzenie nazw
 
@@ -36,7 +38,7 @@ using Aspose.Words.Replacing;
 ```
 ## Krok 1: Utwórz nowy dokument i wstaw tekst
 
- Najpierw zainicjuj nową instancję`Document` i`DocumentBuilder` aby rozpocząć tworzenie dokumentu:
+Najpierw zainicjuj nową instancję `Document` i `DocumentBuilder` aby rozpocząć tworzenie dokumentu:
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -87,14 +89,19 @@ Możesz zintegrować Aspose.Words z platformą .NET, pobierając bibliotekę ze 
 Tak, możesz programowo zarządzać śledzonymi wersjami i przywracać je do pierwotnego stanu za pomocą Aspose.Words for .NET, co pozwala na precyzyjną kontrolę nad przepływem pracy związanym z edycją dokumentów.
 
 ### Czy Aspose.Words dla platformy .NET nadaje się do obsługi obszernych dokumentów ze śledzeniem rewizji?
-Rozwiązanie Aspose.Words for .NET zostało zoptymalizowane pod kątem wydajnej obsługi obszernych dokumentów, w tym dokumentów z wieloma śledzonymi rewizjami.
+Rozwiązanie Aspose.Words for .NET zostało zoptymalizowane pod kątem wydajnej obsługi obszernych dokumentów, w tym dokumentów z licznymi śledzonymi rewizjami.
 
 ### Gdzie mogę znaleźć więcej materiałów i pomocy dla Aspose.Words dla .NET?
- Możesz zapoznać się z kompleksową dokumentacją i uzyskać pomoc od społeczności Aspose.Words for .NET pod adresem[Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Możesz zapoznać się z kompleksową dokumentacją i uzyskać pomoc od społeczności Aspose.Words for .NET pod adresem [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

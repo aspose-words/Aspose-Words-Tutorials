@@ -1,14 +1,16 @@
 ---
-title: รูปแบบ 1Bpp ดัชนี
-linktitle: รูปแบบ 1Bpp ดัชนี
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแปลงเอกสาร Word เป็นรูปภาพที่มีดัชนี 1Bpp โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงที่ง่ายดาย
-weight: 10
-url: /th/net/programming-with-imagesaveoptions/format-1bpp-indexed/
+"description": "เรียนรู้วิธีการแปลงเอกสาร Word เป็นรูปภาพที่มีดัชนี 1Bpp โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงที่ง่ายดาย"
+"linktitle": "รูปแบบ 1Bpp ดัชนี"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "รูปแบบ 1Bpp ดัชนี"
+"url": "/th/net/programming-with-imagesaveoptions/format-1bpp-indexed/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รูปแบบ 1Bpp ดัชนี
@@ -21,7 +23,7 @@ url: /th/net/programming-with-imagesaveoptions/format-1bpp-indexed/
 
 ก่อนที่จะลงมือทำ มีบางสิ่งที่คุณต้องมี:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา .NET: Visual Studio เป็นตัวเลือกที่ดี แต่คุณสามารถใช้สภาพแวดล้อมใดก็ได้ที่คุณสะดวก
 - ความรู้พื้นฐานเกี่ยวกับ C#: ไม่ต้องกังวล เราจะทำให้มันเรียบง่าย แต่ความคุ้นเคยกับ C# เพียงเล็กน้อยก็จะช่วยได้
 - เอกสาร Word: มีเอกสาร Word ตัวอย่างที่พร้อมสำหรับการแปลง
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: โหลดเอกสาร Word
 
- ตอนนี้เรามาโหลดเอกสาร Word ลงใน Aspose.Words กัน`Document` วัตถุ วัตถุนี้แสดงถึงไฟล์ Word ของคุณและช่วยให้คุณสามารถจัดการมันได้
+ตอนนี้เรามาโหลดเอกสาร Word ลงใน Aspose.Words กัน `Document` วัตถุ วัตถุนี้แสดงถึงไฟล์ Word ของคุณและช่วยให้คุณสามารถจัดการมันได้
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -54,7 +56,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึกภาพ
 
- ต่อไปเราจะต้องตั้งค่า`ImageSaveOptions`นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะกำหนดค่าให้บันทึกภาพเป็นรูปแบบ PNG พร้อมโหมดสีแบบดัชนี 1Bpp
+ต่อไปเราจะต้องตั้งค่า `ImageSaveOptions`นี่คือจุดที่เวทมนตร์เกิดขึ้น เราจะกำหนดค่าให้บันทึกภาพเป็นรูปแบบ PNG พร้อมโหมดสีแบบดัชนี 1Bpp
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -72,7 +74,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 
 ## ขั้นตอนที่ 4: บันทึกเอกสารเป็นรูปภาพ
 
- สุดท้ายเราบันทึกเอกสารเป็นรูปภาพโดยใช้`Save` วิธีการของ`Document` วัตถุ.
+สุดท้ายเราบันทึกเอกสารเป็นรูปภาพโดยใช้ `Save` วิธีการของ `Document` วัตถุ.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOptions);
@@ -88,20 +90,25 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.Format1BppIndexed.Png", saveOpti
 รูปภาพที่สร้างดัชนี 1Bpp (1 บิตต่อพิกเซล) เป็นรูปแบบภาพขาวดำ โดยที่แต่ละพิกเซลจะแสดงด้วยบิตเดียว ซึ่งอาจเป็น 0 หรือ 1 รูปแบบนี้ใช้พื้นที่อย่างมีประสิทธิภาพมาก
 
 ### ฉันสามารถแปลงเอกสาร Word หลายหน้าในครั้งเดียวได้ไหม
- ใช่ คุณสามารถทำได้ แก้ไข`PageSet` ทรัพย์สินใน`ImageSaveOptions` เพื่อรวมหลายหน้าหรือทั้งเอกสาร
+ใช่ คุณสามารถทำได้ แก้ไข `PageSet` ทรัพย์สินใน `ImageSaveOptions` เพื่อรวมหลายหน้าหรือทั้งเอกสาร
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?
- ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ Aspose.Words สำหรับ .NET ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้ [ใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถแปลงเอกสาร Word ของฉันเป็นรูปแบบรูปภาพอื่นใดได้บ้าง
- Aspose.Words รองรับรูปแบบภาพต่างๆ เช่น JPEG, BMP และ TIFF เพียงเปลี่ยน`SaveFormat` ใน`ImageSaveOptions`.
+Aspose.Words รองรับรูปแบบภาพต่างๆ เช่น JPEG, BMP และ TIFF เพียงเปลี่ยน `SaveFormat` ใน `ImageSaveOptions`-
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ .NET ได้จากที่ใด
- คุณสามารถค้นหาเอกสารรายละเอียดได้ที่[หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference.aspose.com/words/net/).
+คุณสามารถค้นหาเอกสารรายละเอียดได้ที่ [หน้าเอกสาร Aspose.Words สำหรับ .NET](https://reference-aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

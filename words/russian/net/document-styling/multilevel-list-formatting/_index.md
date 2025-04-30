@@ -1,44 +1,52 @@
 ---
-title: Создать многоуровневые списки в Word с помощью Aspose.Words
-weight: 7700
-limit: 
-description: Узнайте, как создать многоуровневый список в документе Word с помощью Aspose.Words для .NET в этом простом примере.
-keywords: [Aspose.Words, .NET, multilevel list, Word document, document formatting, C#]
-url: /ru/net/document-styling/multilevel-list-formatting/
+"description": "Узнайте, как создать многоуровневый список в документе Word с помощью Aspose.Words для .NET в этом простом примере."
+"title": "Создание многоуровневых списков в Word с помощью Aspose.Words"
+"url": "/ru/net/document-styling/multilevel-list-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать многоуровневые списки в Word с помощью Aspose.Words
-Этот пример показывает, как создать многоуровневый список в документе Word с использованием Aspose.Words для .NET. Он инициирует новый документ и инстанцию DocumentBuilder, применяет нумерационный формат, создает основные и подпункты и сохраняет документ в виде файла .docx. Следуйте пошаговому руководству для эффективного форматирования вашего документа с нумерационными списками.
+# Создание многоуровневых списков в Word с помощью Aspose.Words
+В этом примере показано, как создать многоуровневый список в документе Word с помощью Aspose.Words for .NET. Он инициализирует новый документ и экземпляр DocumentBuilder, применяет формат нумерации, создает основные и подэлементы и сохраняет документ как файл .docx. Следуйте пошаговому руководству, чтобы эффективно отформатировать документ с помощью нумерованных списков.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке
-Чтобы использовать Aspose.Words для .NET, выполните следующие шаги:
-1. Скачать библиотеку: Посетите [Aspose.Words для страницы загрузки .NET](https://www.aspose.com/downloads/words/net)\- Я не знаю .
-2. Установка через NuGet:
-   * Откройте свой проект Visual Studio.
-   * Перейти к Инструментам > Управляющему пакетом NuGet > Управлению пакетами NuGet для решения.
-   * Поиск`"Ответить. Слова"`и нажмите на Установите.
-3. Ссылка библиотеки в вашем коде:
+## Инструкция по установке
+Чтобы использовать Aspose.Words для .NET, выполните следующие действия:
+1. Загрузите библиотеку: Посетите [Страница загрузки Aspose.Words для .NET](https://www.aspose.com/downloads/words/net).
+2. Установить через NuGet:
+   - Откройте проект Visual Studio.
+   - Перейдите в Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.
+   - Искать `Aspose.Words` и нажмите «Установить».
+3. Ссылайтесь на библиотеку в своем коде:
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
    ```
-4. Заявление на лицензию (необязательно):  
-   Чтобы использовать полную версию, [подать заявку на выдачу лицензии](https://purchase.aspose.com/temporary-license/)или использовать [бесплатная пробная версия](https://releases.aspose.com/words/net/)\- Я не знаю .  
+4. Применить лицензию (необязательно):  
+   Чтобы использовать полную версию, [применить лицензию](https://purchase.aspose.com/temporary-license/) или используйте [бесплатная пробная версия](https://releases.aspose.com/words/net/).  
 
 
-## См. также
-[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
+## Также см.
+[Документация Aspose.Word для .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для .NET Ссылки](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

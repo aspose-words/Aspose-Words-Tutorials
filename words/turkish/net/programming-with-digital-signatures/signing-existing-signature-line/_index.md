@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Mevcut İmza Satırını İmzalama
-linktitle: Word Belgesinde Mevcut İmza Satırını İmzalama
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesinde var olan bir imza satırını nasıl imzalayacağınızı öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/programming-with-digital-signatures/signing-existing-signature-line/
+"description": "Ayrıntılı adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak bir Word belgesinde var olan bir imza satırını nasıl imzalayacağınızı öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Word Belgesinde Mevcut İmza Satırını İmzalama"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Mevcut İmza Satırını İmzalama"
+"url": "/tr/net/programming-with-digital-signatures/signing-existing-signature-line/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Mevcut İmza Satırını İmzalama
@@ -21,7 +23,7 @@ Merhaba! Hiç dijital bir belgeyi imzalamanız gerekti mi ama biraz zahmetli mi 
 
 Ayrıntılara dalmadan önce ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir C# uyumlu IDE.
 3. Belge ve Sertifika: İmza satırı ve dijital sertifika (PFX dosyası) içeren bir Word belgesi.
 4. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
@@ -100,11 +102,11 @@ Aspose.Words for .NET, .NET uygulamalarında Word belgeleriyle çalışmak için
 
 ### Aspose.Words for .NET'in ücretsiz deneme sürümünü nereden edinebilirim?
 
- Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### İmza için herhangi bir resim formatını kullanabilir miyim?
 
-Aspose.Words çeşitli resim formatlarını destekler, ancak gelişmiş meta dosyası (EMF) kullanmak imzalar için daha iyi kalite sağlar.
+Aspose.Words çeşitli resim formatlarını destekler, ancak geliştirilmiş meta dosyası (EMF) kullanmak imzalar için daha iyi kalite sağlar.
 
 ### Dijital sertifikayı nasıl alabilirim?
 
@@ -112,10 +114,15 @@ Aspose.Words çeşitli resim formatlarını destekler, ancak gelişmiş meta dos
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

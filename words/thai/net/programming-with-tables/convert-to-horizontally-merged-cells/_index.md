@@ -1,14 +1,16 @@
 ---
-title: แปลงเป็นเซลล์ที่ผสานในแนวนอน
-linktitle: แปลงเป็นเซลล์ที่ผสานในแนวนอน
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: แปลงเซลล์ที่ผสานแนวตั้งเป็นเซลล์ที่ผสานแนวนอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับเค้าโครงตารางที่ราบรื่น
-weight: 10
-url: /th/net/programming-with-tables/convert-to-horizontally-merged-cells/
+"description": "แปลงเซลล์ที่ผสานแนวตั้งเป็นเซลล์ที่ผสานแนวนอนในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับเค้าโครงตารางที่ราบรื่น"
+"linktitle": "แปลงเป็นเซลล์ที่ผสานในแนวนอน"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แปลงเป็นเซลล์ที่ผสานในแนวนอน"
+"url": "/th/net/programming-with-tables/convert-to-horizontally-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงเป็นเซลล์ที่ผสานในแนวนอน
@@ -21,7 +23,7 @@ url: /th/net/programming-with-tables/convert-to-horizontally-merged-cells/
 
 ก่อนที่เราจะเจาะลึกโค้ด เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณมีไลบรารี Aspose.Words สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C#
 
@@ -60,7 +62,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 ## ขั้นตอนที่ 3: แปลงเป็นเซลล์ที่ผสานในแนวนอน
 
- ตอนนี้เราจะแปลงเซลล์ที่ผสานแนวตั้งในตารางเป็นเซลล์ที่ผสานแนวนอน ซึ่งทำได้โดยใช้`ConvertToHorizontallyMergedCells` วิธี.
+ตอนนี้เราจะแปลงเซลล์ที่ผสานแนวตั้งในตารางเป็นเซลล์ที่ผสานแนวนอน ซึ่งทำได้โดยใช้ `ConvertToHorizontallyMergedCells` วิธี.
 
 ```csharp
 // แปลงเซลล์ที่ผสานแนวตั้งเป็นเซลล์ที่ผสานแนวนอน
@@ -77,19 +79,24 @@ table.ConvertToHorizontallyMergedCells();
 Aspose.Words สำหรับ .NET ได้รับการออกแบบมาโดยเฉพาะสำหรับภาษา .NET เช่น C# อย่างไรก็ตาม คุณสามารถใช้ร่วมกับภาษาอื่นที่รองรับ .NET เช่น VB.NET ได้
 
 ### มี Aspose.Words สำหรับ .NET ให้ทดลองใช้งานฟรีหรือไม่  
- ใช่ คุณสามารถดาวน์โหลดได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) จากเว็บไซต์ Aspose
+ใช่ คุณสามารถดาวน์โหลดได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) จากเว็บไซต์ Aspose
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?  
- คุณสามารถเยี่ยมชม[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
+คุณสามารถเยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8) เพื่อขอความช่วยเหลือ
 
 ### ฉันสามารถใช้ใบอนุญาตจากไฟล์หรือสตรีมได้หรือไม่  
-ใช่ Aspose.Words สำหรับ .NET อนุญาตให้คุณใช้สิทธิ์อนุญาตจากทั้งไฟล์และสตรีม คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ใน[เอกสารประกอบ](https://reference.aspose.com/words/net/).
+ใช่ Aspose.Words สำหรับ .NET อนุญาตให้คุณใช้สิทธิ์อนุญาตจากทั้งไฟล์และสตรีม คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ใน [เอกสารประกอบ](https://reference-aspose.com/words/net/).
 
 ### Aspose.Words สำหรับ .NET มีคุณลักษณะอื่นๆ อะไรอีกบ้าง?  
- Aspose.Words สำหรับ .NET นำเสนอฟีเจอร์มากมาย เช่น การสร้างเอกสาร การแก้ไข การแปลง และการเรนเดอร์ ลองดู[เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+Aspose.Words สำหรับ .NET นำเสนอฟีเจอร์มากมาย เช่น การสร้างเอกสาร การแก้ไข การแปลง และการเรนเดอร์ ลองดู [เอกสารประกอบ](https://reference.aspose.com/words/net/) สำหรับรายละเอียดเพิ่มเติม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

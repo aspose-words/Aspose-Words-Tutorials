@@ -1,14 +1,16 @@
 ---
-title: फॉर्म फ़ील्ड नाम से प्राप्त करें
-linktitle: फॉर्म फ़ील्ड नाम से प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नाम से फ़ॉर्म फ़ील्ड प्राप्त करना और संशोधित करना सीखें।
-weight: 10
-url: /hi/net/working-with-formfields/form-fields-get-by-name/
+"description": "इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में नाम से फ़ॉर्म फ़ील्ड प्राप्त करना और संशोधित करना सीखें।"
+"linktitle": "फॉर्म फ़ील्ड नाम से प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फॉर्म फ़ील्ड नाम से प्राप्त करें"
+"url": "/hi/net/working-with-formfields/form-fields-get-by-name/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फॉर्म फ़ील्ड नाम से प्राप्त करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-formfields/form-fields-get-by-name/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET लाइब्रेरी: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: कोई भी .NET विकास वातावरण जैसे कि विजुअल स्टूडियो.
 3. C# का बुनियादी ज्ञान: C# से कुछ परिचित होना उपयोगी होगा, लेकिन अनिवार्य नहीं है।
 
@@ -121,7 +123,7 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### क्या .NET के लिए Aspose.Words का निःशुल्क परीक्षण उपलब्ध है?
 
- हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मैं फॉर्म फ़ील्ड के अलावा Word दस्तावेज़ के अन्य तत्वों में भी परिवर्तन कर सकता हूँ?
 
@@ -129,14 +131,19 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
 
- आप यहां जा सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या के लिए सहायता हेतु हमसे संपर्क करें।
+आप यहां जा सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या के लिए सहायता हेतु हमसे संपर्क करें।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/words/net/).
+विस्तृत दस्तावेज उपलब्ध है [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

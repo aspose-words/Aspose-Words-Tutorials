@@ -1,14 +1,16 @@
 ---
-title: Word Belgesine Yatay Çizgi Ekleme
-linktitle: Word Belgesine Yatay Çizgi Ekleme
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak Word belgelerine yatay bir çizginin nasıl ekleneceğini öğrenin. C# geliştiricileri için mükemmel.
-weight: 10
-url: /tr/net/add-content-using-documentbuilder/insert-horizontal-rule/
+"description": "Ayrıntılı, adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak Word belgelerine yatay bir çizginin nasıl ekleneceğini öğrenin. C# geliştiricileri için mükemmel."
+"linktitle": "Word Belgesine Yatay Çizgi Ekleme"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesine Yatay Çizgi Ekleme"
+"url": "/tr/net/add-content-using-documentbuilder/insert-horizontal-rule/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesine Yatay Çizgi Ekleme
@@ -21,7 +23,7 @@ Merhaba, geliştirici arkadaşlar! Hiç kendinizi bir Word belgesi projesinin i�
 
 Ayrıntılara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: En son sürüme sahip olduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi .NET'i destekleyen herhangi bir IDE.
 3. Temel C# Bilgisi: C# programlamaya aşinalık bu eğitimi daha akıcı hale getirecektir.
 4. Belge Dizini: Word belgelerinizi kaydedebileceğiniz bir dizine ihtiyacınız olacak.
@@ -47,13 +49,13 @@ Geliştirme ortamınızı (Visual Studio gibi) açın ve yeni bir C# projesi olu
 
 ### Aspose.Words'ü Projenize Ekleyin
 
- Aspose.Words'e bir referans eklediğinizden emin olun. Henüz indirmediyseniz, şuradan edinin:[Burada](https://releases.aspose.com/words/net/)NuGet Paket Yöneticisini kullanarak projenize ekleyebilirsiniz.
+Aspose.Words'e bir referans eklediğinizden emin olun. Henüz indirmediyseniz, şuradan edinin: [Burada](https://releases.aspose.com/words/net/)NuGet Paket Yöneticisini kullanarak projenize ekleyebilirsiniz.
 
 ## Adım 2: Belgeyi ve DocumentBuilder'ı Başlatın
 
 ### Yeni Bir Belge Oluştur
 
- Ana program dosyanızda, yeni bir örnek oluşturarak başlayın`Document` sınıf. Bu bizim boş tuvalimiz olacak.
+Ana program dosyanızda, yeni bir örnek oluşturarak başlayın `Document` sınıf. Bu bizim boş tuvalimiz olacak.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ Document doc = new Document();
 
 ### DocumentBuilder'ı Başlat
 
- Sonra, şunun bir örneğini oluşturun:`DocumentBuilder` sınıf. Bu oluşturucu, belgemize öğeler eklememize yardımcı olacak.
+Sonra, şunun bir örneğini oluşturun: `DocumentBuilder` sınıf. Bu oluşturucu, belgemize öğeler eklememize yardımcı olacak.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -97,7 +99,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Belgeyi Kaydet
 
- Son olarak, belgeyi kullanarak kaydedin`Save` yöntemi`Document` sınıf.
+Son olarak, belgeyi kullanarak kaydedin `Save` yöntemi `Document` sınıf.
 
 ```csharp
 doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
@@ -107,9 +109,9 @@ Ve işte oldu! Aspose.Words for .NET kullanarak Word belgesine yatay bir çizgiy
 
 ## Çözüm
 
-Tebrikler, sonuna kadar geldiniz! 🎉 Bu öğreticiyi takip ederek, Aspose.Words for .NET kullanarak bir Word belgesine yatay bir çizginin nasıl ekleneceğini öğrendiniz. Bu beceri, profesyonel ve iyi yapılandırılmış belgeler oluşturmak için inanılmaz derecede faydalı olabilir. Unutmayın, herhangi bir yeni araçta ustalaşmanın anahtarı pratiktir, bu yüzden Aspose.Words'de farklı öğeler ve ayarlar denemekten çekinmeyin.
+Tebrikler, sonuna kadar geldiniz! 🎉 Bu öğreticiyi takip ederek, Aspose.Words for .NET kullanarak bir Word belgesine yatay bir çizgi eklemeyi öğrendiniz. Bu beceri, profesyonel ve iyi yapılandırılmış belgeler oluşturmak için inanılmaz derecede faydalı olabilir. Unutmayın, herhangi bir yeni araçta ustalaşmanın anahtarı pratiktir, bu yüzden Aspose.Words'de farklı öğeler ve ayarlar denemekten çekinmeyin.
 
- Daha fazla bilgi için her zaman şuraya göz atabilirsiniz:[Aspose.Words belgeleri](https://reference.aspose.com/words/net/). Keyifli kodlamalar!
+Daha fazla bilgi için her zaman şuraya göz atabilirsiniz: [Aspose.Words belgeleri](https://reference.aspose.com/words/net/). Keyifli kodlamalar!
 
 ## SSS
 
@@ -119,22 +121,27 @@ Aspose.Words for .NET, geliştiricilerin C# kullanarak Word belgelerini programl
 
 ### Aspose.Words for .NET'i kullanmaya nasıl başlarım?
 
-Kütüphaneyi şu adresten indirerek başlayabilirsiniz:[web sitesi](https://releases.aspose.com/words/net/) ve bunu .NET projenize ekleyin.
+Kütüphaneyi şu adresten indirerek başlayabilirsiniz: [web sitesi](https://releases.aspose.com/words/net/) ve bunu .NET projenize ekleyin.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
 
- Aspose.Words şunları sunar:[ücretsiz deneme](https://releases.aspose.com/) Böylece lisans satın almadan önce özelliklerini deneyebilirsiniz.
+Aspose.Words şunları sunar: [ücretsiz deneme](https://releases.aspose.com/) Böylece lisans satın almadan önce özelliklerini deneyebilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha fazla öğreticiyi nerede bulabilirim?
 
- The[Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı eğitimler ve örnekler bulmak için harika bir yer.
+The [Aspose.Words belgeleri](https://reference.aspose.com/words/net/) Ayrıntılı eğitimler ve örnekler bulmak için harika bir yer.
 
 ### Sorun yaşarsam nasıl destek alabilirim?
 
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose.Words destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

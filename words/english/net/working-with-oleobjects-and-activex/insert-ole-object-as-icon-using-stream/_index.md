@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Ole Object As Icon Using Stream
@@ -104,9 +107,13 @@ The method will throw an exception. Ensure that the paths to your files are corr
 ### Is it possible to link the embedded object instead of embedding it?
 Yes, Aspose.Words allows you to insert linked OLE objects, which reference the file without embedding its content.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Jangkar Vertikal
-linktitle: Jangkar Vertikal
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan.
-weight: 10
-url: /id/net/programming-with-shapes/vertical-anchor/
+"description": "Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan."
+"linktitle": "Jangkar Vertikal"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Jangkar Vertikal"
+"url": "/id/net/programming-with-shapes/vertical-anchor/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jangkar Vertikal
@@ -21,7 +23,7 @@ Pernahkah Anda merasa perlu mengontrol di mana tepatnya teks muncul di dalam kot
 
 Sebelum kita menyelami lebih dalam tentang dasar-dasar penjangkaran vertikal, Anda perlu menyiapkan beberapa hal:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum memilikinya, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio atau IDE .NET lain untuk pengkodean.
 3. Pengetahuan Dasar C#: Keakraban dengan C# dan .NET akan membantu Anda mengikutinya dengan lancar.
 
@@ -41,14 +43,14 @@ Ruang nama ini menyediakan kelas yang Anda perlukan untuk bekerja dengan dokumen
 Pertama-tama, Anda perlu membuat dokumen Word baru. Anggap saja ini seperti menyiapkan kanvas sebelum mulai melukis.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Di Sini,`Document` adalah kanvas kosongmu, dan`DocumentBuilder` adalah kuas Anda, yang memungkinkan Anda menambahkan bentuk dan teks.
+Di Sini, `Document` adalah kanvas kosongmu, dan `DocumentBuilder` adalah kuas Anda, yang memungkinkan Anda menambahkan bentuk dan teks.
 
 ## Langkah 2: Masukkan Bentuk Kotak Teks
 
@@ -58,7 +60,7 @@ Sekarang, mari tambahkan kotak teks ke dokumen kita. Di sinilah teks Anda akan b
 Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 ```
 
- Dalam contoh ini,`ShapeType.TextBox` menentukan bentuk yang Anda inginkan, dan`200, 200` adalah lebar dan tinggi kotak teks dalam poin.
+Dalam contoh ini, `ShapeType.TextBox` menentukan bentuk yang Anda inginkan, dan `200, 200` adalah lebar dan tinggi kotak teks dalam poin.
 
 ## Langkah 3: Mengatur Jangkar Vertikal
 
@@ -68,7 +70,7 @@ Di sinilah keajaiban terjadi! Anda dapat mengatur perataan vertikal teks di dala
 textBox.TextBox.VerticalAnchor = TextBoxAnchor.Bottom;
 ```
 
- Dalam kasus ini,`TextBoxAnchor.Bottom`memastikan bahwa teks akan ditambatkan ke bagian bawah kotak teks. Jika Anda ingin teks dipusatkan atau disejajarkan ke bagian atas, Anda akan menggunakan`TextBoxAnchor.Center` atau`TextBoxAnchor.Top`, masing-masing.
+Dalam kasus ini, `TextBoxAnchor.Bottom` memastikan bahwa teks akan ditambatkan ke bagian bawah kotak teks. Jika Anda ingin teks dipusatkan atau disejajarkan ke bagian atas, Anda akan menggunakan `TextBoxAnchatau.Center` or `TextBoxAnchor.Top`, masing-masing.
 
 ## Langkah 4: Tambahkan Teks ke Kotak Teks
 
@@ -79,11 +81,11 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Textbox contents");
 ```
 
- Di Sini,`MoveTo` memastikan bahwa teks dimasukkan ke dalam kotak teks, dan`Write` menambahkan teks sebenarnya.
+Di Sini, `MoveTo` memastikan bahwa teks dimasukkan ke dalam kotak teks, dan `Write` menambahkan teks sebenarnya.
 
 ## Langkah 5: Simpan Dokumen
 
-Langkah terakhir adalah menyimpan dokumen Anda. Ini seperti meletakkan lukisan yang sudah selesai ke dalam bingkai.
+Langkah terakhir adalah menyimpan dokumen Anda. Ini seperti meletakkan lukisan yang sudah jadi ke dalam bingkai.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithShapes.VerticalAnchor.docx");
@@ -102,16 +104,21 @@ Kontrol penahan vertikal menentukan posisi teks dalam kotak teks, seperti perata
 Ya, Anda dapat menggunakan penahan vertikal dengan bentuk lain, meskipun kotak teks merupakan kasus penggunaan yang paling umum.
 
 ### Bagaimana cara mengubah titik jangkar setelah membuat kotak teks?
- Anda dapat mengubah titik jangkar dengan mengatur`VerticalAnchor` properti pada objek bentuk kotak teks.
+Anda dapat mengubah titik jangkar dengan mengatur `VerticalAnchor` properti pada objek bentuk kotak teks.
 
 ### Mungkinkah untuk menjangkarkan teks di tengah kotak teks?
- Tentu saja! Gunakan saja`TextBoxAnchor.Center` untuk memusatkan teks secara vertikal dalam kotak teks.
+Tentu saja! Gunakan saja `TextBoxAnchor.Center` untuk memusatkan teks secara vertikal dalam kotak teks.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words untuk .NET?
- Lihat di sini[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk rincian dan panduan lebih lanjut.
+Lihat di sini [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk rincian dan panduan lebih lanjut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

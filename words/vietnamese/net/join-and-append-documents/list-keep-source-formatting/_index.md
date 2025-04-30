@@ -1,14 +1,16 @@
 ---
-title: Danh sách Giữ Định dạng Nguồn
-linktitle: Danh sách Giữ Định dạng Nguồn
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách hợp nhất các tài liệu Word trong khi vẫn giữ nguyên định dạng bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để hợp nhất tài liệu liền mạch.
-weight: 10
-url: /vi/net/join-and-append-documents/list-keep-source-formatting/
+"description": "Tìm hiểu cách hợp nhất các tài liệu Word trong khi vẫn giữ nguyên định dạng bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để hợp nhất tài liệu liền mạch."
+"linktitle": "Danh sách Giữ Định dạng Nguồn"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Danh sách Giữ Định dạng Nguồn"
+"url": "/vi/net/join-and-append-documents/list-keep-source-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Danh sách Giữ Định dạng Nguồn
@@ -22,7 +24,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Wo
 Trước khi tiếp tục, hãy đảm bảo bạn có đủ các điều kiện tiên quyết sau:
 
 - Đã cài đặt Visual Studio trên máy của bạn.
--  Aspose.Words cho .NET đã được cài đặt. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET đã được cài đặt. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Có kiến thức cơ bản về lập trình C# và môi trường .NET.
 
 ## Nhập không gian tên
@@ -40,7 +42,7 @@ Bắt đầu bằng cách tạo một dự án C# mới trong Visual Studio. Đ�
 ## Bước 2: Khởi tạo các biến tài liệu
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Tải tài liệu nguồn và đích
@@ -91,10 +93,15 @@ Có, Aspose.Words hỗ trợ đầy đủ .NET Core, cho phép phát triển đa
 Aspose.Words cung cấp các API hiệu quả để xử lý tài liệu, được tối ưu hóa để có hiệu suất ngay cả với các tài liệu lớn.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết tại[Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết tại [Tài liệu Aspose.Words](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

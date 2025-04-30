@@ -1,49 +1,57 @@
 ---
-title: Beilleszteni egy buborék-diagramot a Word-be a .NET-hez Aspose.Words használatával
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell beilleszteni egy Bubble diagramot a Word dokumentumba a .NET-hez Aspose.Words segítségével.
-keywords: [Aspose.Words for .NET, insert Bubble chart, Word document, .NET Bubble chart example, create Bubble chart Word]
-url: /hu/net/working-with-charts/insert-bubble-chart/
+"description": "Tanuld meg, hogyan szúrhatsz be buborékdiagramot egy Word-dokumentumba az Aspose.Words for .NET segítségével. Lépésről lépésre útmutató és kódpélda is található."
+"title": "Buborékdiagram beszúrása Wordben az Aspose.Words for .NET használatával"
+"url": "/hu/net/working-with-charts/insert-bubble-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beillesztse a buborékra a szavakba Aspose.Words használatával
+# Buborékdiagram beszúrása Wordbe az Aspose.Words használatával
 
-A .NET-hez használt Aspose.Words segítségével könnyedén hozzáadjon egy buborék-diagramot a Word dokumentumhoz! Ez a útmutató átvezet egy új dokumentum létrehozását, buborék-diagram behelyezését, az X, Y és méretértékekkel ellátott adatsorok hozzáadását és a dokumentum mentését.  
+Az Aspose.Words for .NET segítségével könnyedén hozzáadhat buborékdiagramot Word-dokumentumához! Ez az útmutató végigvezeti Önt egy új dokumentum létrehozásán, buborékdiagram beszúrásán, X, Y és méretértékekkel ellátott adatsorok hozzáadásán, valamint a dokumentum mentésén. Az Aspose.Words segítségével a Word-dokumentumok programozott kezelése soha nem volt ilyen egyszerű.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/insert-bubble-chart" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
+## Telepítési utasítások  
 
-1. Letöltsd le az Aspose.Words .NET-re  
-   Vedd a könyvtárat a [Aspose.Words letöltőoldal](https://releases.aspose.com/words/net/)\- Nem.  
+1. Aspose.Words letöltése .NET-hez  
+   Szerezd meg a könyvtárat a [Aspose.Words letöltési oldal](https://releases.aspose.com/words/net/).  
 
-2. A NuGet csomagkezelő segítségével telepítse  
-   * Nyissa ki a Visual Studio projektét.  
-   * Menjen az eszközökhez > NuGet csomagkezelőhez > A megoldáshoz a NuGet csomagok kezelésére.  
-   * Keresd a`Aspose.Words`A böngésző táblázatban.  
-   * Válassza ki a csomagot, és kattintson Installacióra.  
+2. Telepítés a NuGet csomagkezelőn keresztül  
+   - Nyisd meg a Visual Studio-projektedet.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresés `Aspose.Words` a Tallózás lapon.  
+   - Válassza ki a csomagot, és kattintson a Telepítés gombra.  
 
-3. A NuGet csomagkezelő konzolt használva telepítse  
-   A csomagkezelő konzoltól futtassa ki a következő parancsot:  
+3. Telepítés a NuGet csomagkezelő konzolon keresztül  
+   Futtassa a következő parancsot a Csomagkezelő konzolban:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-4. Adjon engedélyt  
-   A teljes funkcionalitás érdekében kérjen engedélyt.[A ideiglenes engedély oldalát](https://purchase.aspose.com/temporary-license/)\- Nem.  
+4. Licenc hozzáadása  
+   A teljes funkcionalitás eléréséhez igényeljen licencet. Ideiglenes licencet a következő címen szerezhet be: [Aspose ideiglenes engedély oldal](https://purchase.aspose.com/temporary-license/).  
 
-## Lásd:
-[Aspose.Word a .NET dokumentációhoz](https://docs.aspose.com/words/net/)
-[Aspose.Word a .NET Referenciákhoz](https://reference.aspose.com/words/net/)
+## Lásd még
+[Aspose.Word .NET dokumentációhoz](https://docs.aspose.com/words/net/)
+[Aspose.Word .NET-hez kapcsolódó hivatkozások](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

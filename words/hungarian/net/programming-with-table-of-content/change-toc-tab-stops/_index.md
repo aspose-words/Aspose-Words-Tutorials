@@ -1,64 +1,66 @@
 ---
-title: Módosítsa a Toc tabulátorokat a Word dokumentumban
-linktitle: Módosítsa a Toc tabulátorokat a Word dokumentumban
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan módosíthatja a tartalomjegyzék tabulátorokat a Word dokumentumokban az Aspose.Words for .NET használatával. Ez a lépésenkénti útmutató segít egy professzionális megjelenésű tartalomjegyzék létrehozásában.
-weight: 10
-url: /hu/net/programming-with-table-of-content/change-toc-tab-stops/
+"description": "Tanuld meg, hogyan módosíthatod a tartalomjegyzék tabulátorpontjait Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez a lépésről lépésre szóló útmutató segít professzionális megjelenésű tartalomjegyzéket létrehozni."
+"linktitle": "Tartalomjegyzék tabulátormegállításainak módosítása Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Tartalomjegyzék tabulátormegállításainak módosítása Word dokumentumban"
+"url": "/hu/net/programming-with-table-of-content/change-toc-tab-stops/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Módosítsa a Toc tabulátorokat a Word dokumentumban
+# Tartalomjegyzék tabulátormegállításainak módosítása Word dokumentumban
 
 ## Bevezetés
 
-Gondolkozott már azon, hogyan lehet feldobni a tartalomjegyzéket (TOC) a Word-dokumentumokban? Talán azt szeretné, hogy ezek a tabulátorok tökéletesen illeszkedjenek ehhez a professzionális érintéshez. Jó helyen jársz! Ma mélyen belemerülünk abba, hogyan módosíthatja a TOC tabulátorokat az Aspose.Words for .NET használatával. Maradjon itt, és megígérem, hogy minden olyan know-how birtokában távozik, amellyel TOC-ja elegánsnak és elegánsnak tűnik.
+Gondolkodtál már azon, hogyan dobhatnád fel a tartalomjegyzéket (TOC) a Word-dokumentumaidban? Talán azt szeretnéd, hogy a tabulátorok tökéletesen illeszkedjenek a professzionális megjelenés érdekében. Jó helyen jársz! Ma mélyen beleássuk magad abba, hogyan módosíthatod a tartalomjegyzék tabulátorait az Aspose.Words for .NET segítségével. Maradj velünk, és ígérem, hogy minden olyan tudással a rendelkezésedre állsz, amivel a tartalomjegyzéked elegánsnak és rendezettnek tűnhet.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van:
 
-1.  Aspose.Words for .NET: Megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-2. Fejlesztői környezet: Visual Studio vagy bármely C#-kompatibilis IDE.
-3. Word-dokumentum: Pontosabban olyan, amely tartalmaz egy TOC-t.
+1. Aspose.Words .NET-hez: Meg tudod csinálni [töltsd le itt](https://releases.aspose.com/words/net/).
+2. Fejlesztői környezet: Visual Studio vagy bármilyen C# kompatibilis IDE.
+3. Word-dokumentum: Pontosabban, olyan, amely tartalomjegyzéket tartalmaz.
 
-Megvan az egész? Döbbenetes! Tekerjünk.
+Megvan mindez? Király! Hajrá!
 
 ## Névterek importálása
 
-Először is importálnia kell a szükséges névtereket. Ez olyan, mintha becsomagolná a szerszámait egy projekt elindítása előtt.
+Először is importálnod kell a szükséges névtereket. Ez olyan, mintha becsomagolnád az eszközeidet egy projekt elkezdése előtt.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-Bontsuk le ezt a folyamatot egyszerű, emészthető lépésekre. Végrehajtjuk a dokumentum betöltését, a TOC tabulátorok módosítását és a frissített dokumentum mentését.
+Bontsuk le ezt a folyamatot egyszerű, könnyen érthető lépésekre. Végigmegyünk a dokumentum betöltésén, a tartalomjegyzék tabulátorpontjainak módosításán és a frissített dokumentum mentésén.
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
-Miért? El kell érnünk a Word dokumentumot, amely tartalmazza a módosítani kívánt tartalomjegyzéket.
+Miért? Hozzá kell férnünk ahhoz a Word-dokumentumhoz, amely a módosítani kívánt tartalomjegyzéket tartalmazza.
 
 Hogyan? Íme egy egyszerű kódrészlet a kezdéshez:
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 // Töltse be a tartalomjegyzéket tartalmazó dokumentumot
 Document doc = new Document(dataDir + "Table of contents.docx");
 ```
 
-Képzelje el, hogy a dokumentuma olyan, mint egy torta, és hamarosan hozzáadunk egy kis cukormázat. Az első lépés az, hogy vegye ki a tortát a dobozból.
+Képzeld el, hogy a dokumentumod egy tortához hasonlít, és most egy kis cukormázzal vonjuk be. Az első lépés, hogy kivegyük a tortát a dobozból.
 
-## 2. lépés: A TOC bekezdéseinek azonosítása
+## 2. lépés: A tartalomjegyzék bekezdéseinek azonosítása
 
-Miért? Pontosan meg kell határoznunk a TOC-t alkotó bekezdéseket. 
+Miért? Meg kell határoznunk a tartalomjegyzéket alkotó bekezdéseket. 
 
-Hogyan? Lapozzon át a bekezdéseken, és ellenőrizze a stílusukat:
+Hogyan? Ismételd át a bekezdéseket, és ellenőrizd a stílusukat:
 
 ```csharp
 foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -66,18 +68,18 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // TOC bekezdés található
+        // Tartalomjegyzék bekezdés található
     }
 }
 ```
 
-Tekintsd ezt úgy, mint egy tömeget pásztázni, hogy megtaláld a barátaidat. Itt olyan bekezdéseket keresünk, amelyek tartalomjegyzék-bejegyzésként vannak kialakítva.
+Képzeld el úgy, mintha egy tömegben keresnéd a barátaidat. Itt tartalomjegyzék-bejegyzésként megírt bekezdéseket keresünk.
 
-## 3. lépés: Módosítsa a tabulátorokat
+## 3. lépés: A tabulátorjelek módosítása
 
-Miért? Itt történik a varázslat. A tabulátorok megváltoztatása tisztább megjelenést kölcsönöz a TOC-nak.
+Miért? Itt történik a varázslat. A tabulátorpozíciók módosításával a tartalomjegyzék letisztultabb megjelenést kap.
 
-Hogyan? Távolítsa el a meglévő tabulátort, és adjon hozzá egy újat a módosított pozícióhoz:
+Hogyan? Távolítsa el a meglévő tabulátorpozíciót, és adjon hozzá egy újat egy módosított pozícióban:
 
 ```csharp
 foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -92,11 +94,11 @@ foreach(Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 }
 ```
 
-Ez olyan, mintha a bútorokat addig igazítaná a nappaliban, amíg megfelelőnek nem érzi. Ezeket a tabulátorokat a tökéletesség érdekében módosítjuk.
+Olyan ez, mintha a nappalidban a bútorokat igazgatnád, amíg tökéletesnek nem érzed. A tabulátorokat finomhangoljuk a tökéletesség érdekében.
 
 ## 4. lépés: Mentse el a módosított dokumentumot
 
-Miért? Annak biztosítása érdekében, hogy minden kemény munkáját elmentse, és megtekinthesse vagy megoszthassa.
+Miért? Hogy minden kemény munkád mentésre kerüljön, és megtekinthető vagy megosztható legyen.
 
 Hogyan? Mentse el a dokumentumot új néven, hogy az eredeti változatlan maradjon:
 
@@ -105,31 +107,36 @@ Hogyan? Mentse el a dokumentumot új néven, hogy az eredeti változatlan maradj
 doc.Save(dataDir + "WorkingWithTableOfContent.ChangeTocTabStops.docx");
 ```
 
-És íme! A TOC-jában most pontosan ott vannak a tabulátorok, ahol szeretné.
+És voilá! A tartalomjegyzékben most már pontosan ott vannak a tabulátorpozíciók, ahol szeretnéd.
 
 ## Következtetés
 
-A tartalomjegyzék tabulátorpontjainak megváltoztatása Word-dokumentumokban az Aspose.Words for .NET használatával egyszerű, ha felbontja azt. A dokumentum betöltésével, a TOC bekezdések azonosításával, a tabulátorok módosításával és a dokumentum mentésével csiszolt és professzionális megjelenést érhet el. Ne feledje, a gyakorlat teszi a mestert, ezért folytassa a kísérletezést a különböző tabulátorpozíciókkal, hogy elérje a kívánt pontos elrendezést.
+tartalomjegyzék tabulátorpozícióinak módosítása egy Word-dokumentumban az Aspose.Words for .NET segítségével egyszerűen elvégezhető, ha először lebontjuk a folyamatot. A dokumentum betöltésével, a tartalomjegyzék bekezdéseinek azonosításával, a tabulátorpozíciók módosításával és a dokumentum mentésével letisztult és professzionális megjelenést érhetünk el. Ne feledjük, a gyakorlat teszi a mestert, ezért folyamatosan kísérletezzünk a különböző tabulátorpozíciókkal, hogy pontosan a kívánt elrendezést kapjuk.
 
 ## GYIK
 
-### Módosíthatom külön a tabulátorokat a különböző tartalomjegyzék-szintekhez?
-Igen, lehet! Csak ellenőrizze az egyes TOC-szinteket (Toc1, Toc2 stb.), és ennek megfelelően állítsa be.
+### Módosíthatom a tabulátorpozíciókat külön-külön a tartalomjegyzék különböző szintjeihez?
+Igen, megteheti! Csak ellenőrizze az egyes TOC-szinteket (Toc1, Toc2 stb.), és ennek megfelelően állítsa be.
 
-### Mi a teendő, ha a dokumentumomnak több tartalomjegyzéke van?
-A kód az összes tartalomjegyzék-stílusú bekezdést megvizsgálja, így módosítja a dokumentumban található összes tartalomjegyzéket.
+### Mi van, ha a dokumentumomnak több tartalomjegyzéke van?
+A kód az összes tartalomjegyzék stílusú bekezdést átvizsgálja, így a dokumentumban található összes tartalomjegyzéket módosítja.
 
-### Lehetséges több tabulátort hozzáadni egy TOC bejegyzéshez?
- Teljesen! Tetszőleges számú tabulátort hozzáadhat a gomb beállításával`para.ParagraphFormat.TabStops` gyűjtemény.
+### Lehetséges több tabulátorpozíciót beszúrni egy tartalomjegyzék-bejegyzésbe?
+Természetesen! Annyi tabulátorpozíciót adhatsz hozzá, amennyire szükséged van a tabulátorpozíciók beállításával. `para.ParagraphFormat.TabStops` gyűjtemény.
 
-### Módosíthatom a tabulátorok igazítását és a vezető stílusát?
-Igen, új tabulátor hozzáadásakor különböző igazításokat és vezetőstílusokat adhat meg.
+### Módosíthatom a tabulátorpozíció igazítását és a vezető stílusát?
+Igen, új tabulátor hozzáadásakor megadhat különböző igazításokat és vezetőstílusokat.
 
 ### Szükségem van licencre az Aspose.Words for .NET használatához?
- Igen, érvényes licenc szükséges az Aspose.Words for .NET használatához a próbaidőszakon túl. Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy[vegyél egyet](https://purchase.aspose.com/buy).
+Igen, érvényes licencre van szüksége az Aspose.Words for .NET használatához a próbaidőszakon túl. Szerezhet egy [ideiglenes engedély](https://purchase.aspose.com/tempvagyary-license/) or [vegyél egyet](https://purchase.aspose.com/buy).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

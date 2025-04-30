@@ -1,14 +1,16 @@
 ---
-title: Çekirdek Yazı Tiplerini Yerleştirmeyerek PDF Dosya Boyutunu Azaltın
-linktitle: Çekirdek Yazı Tiplerini Yerleştirmeyerek PDF Dosya Boyutunu Azaltın
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak çekirdek yazı tiplerini gömmeyerek PDF dosya boyutunu nasıl küçülteceğinizi öğrenin. PDF'lerinizi optimize etmek için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/
+"description": "Aspose.Words for .NET kullanarak çekirdek yazı tiplerini gömmeyerek PDF dosya boyutunu nasıl küçülteceğinizi öğrenin. PDF'lerinizi optimize etmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Çekirdek Yazı Tiplerini Yerleştirmeyerek PDF Dosya Boyutunu Azaltın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Çekirdek Yazı Tiplerini Yerleştirmeyerek PDF Dosya Boyutunu Azaltın"
+"url": "/tr/net/programming-with-pdfsaveoptions/avoid-embedding-core-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çekirdek Yazı Tiplerini Yerleştirmeyerek PDF Dosya Boyutunu Azaltın
@@ -21,16 +23,16 @@ Hiç kafanızı kaşıyarak PDF dosyalarınızın neden bu kadar büyük olduğu
 
 Bu heyecan verici yolculuğa çıkmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
--  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer henüz yüklü değilse, indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olduğundan emin olun. Eğer henüz yüklü değilse, indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamına ihtiyacınız olacak.
-- Word Belgesi: Bu eğitimde bir Word belgesi (örneğin, "Rendering.docx") kullanacağız.
+- Bir Word Belgesi: Bu eğitimde bir Word belgesi (örneğin, "Rendering.docx") kullanacağız.
 - Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak konuyu takip etmenize yardımcı olacaktır.
 
 Tamam, artık her şey tamam olduğuna göre, asıl meseleye gelelim!
 
 ## Ad Alanlarını İçe Aktar
 
-İlk önce, gerekli ad alanlarını içe aktaralım. Bu adım, ihtiyacımız olan tüm Aspose.Words işlevlerine erişimimizi sağlar.
+İlk önce gerekli ad alanlarını içe aktaralım. Bu adım, ihtiyacımız olan tüm Aspose.Words işlevlerine erişimimizi sağlar.
 
 ```csharp
 using System;
@@ -47,7 +49,7 @@ Belgemizi düzenlemeye başlamadan önce, belgelerimizin depolandığı dizini b
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Word belgenizin bulunduğu gerçek yol ile.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Word belgenizin bulunduğu gerçek yol ile.
 
 ## Adım 2: Word Belgesini Yükleyin
 
@@ -70,7 +72,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Ayar`UseCoreFonts` ile`true` Arial ve Times New Roman gibi temel yazı tiplerinin PDF'e gömülmemesini sağlayarak dosya boyutunu önemli ölçüde azaltır.
+Ayar `UseCoreFonts` ile `true` Arial ve Times New Roman gibi temel yazı tiplerinin PDF'e gömülmemesini sağlayarak dosya boyutunu önemli ölçüde azaltır.
 
 ## Adım 4: Belgeyi PDF olarak kaydedin
 
@@ -95,16 +97,21 @@ PDF dosya boyutunu küçültmek Aspose.Words for .NET ile çocuk oyuncağı olab
 Evet, Arial ve Times New Roman gibi temel yazı tipleri genellikle çoğu sistemde mevcuttur.
 
 ### Özel yazı tiplerini eklemem gerekirse ne olur?
- Özelleştirebilirsiniz`PdfSaveOptions`gerektiğinde belirli yazı tiplerini yerleştirmek için.
+Özelleştirebilirsiniz `PdfSaveOptions` gerektiğinde belirli yazı tiplerini yerleştirmek için.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
- Aspose.Words for .NET lisans gerektirir. Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET lisans gerektirir. Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

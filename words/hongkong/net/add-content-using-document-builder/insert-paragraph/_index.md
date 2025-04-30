@@ -1,37 +1,41 @@
 ---
-title: 使用 .NET 來建立Aspose.Words的 Word 文檔
-weight: 7700
-limit: 
-description: 學習如何使用 .NET 和 DocumentBuilder 班的Aspose.Words來建立一個有造型的 Word 文檔.
-keywords: [Aspose.Words, .NET, DocumentBuilder, Word document, styling, programming, example]
-url: /zh-hant/net/add-content-using-document-builder/insert-paragraph/
+"description": "了解如何使用 Aspose.Words for .NET 和 DocumentBuilder 類別建立樣式化的 Word 文件。"
+"title": "使用 Aspose.Words for .NET 建立 Word 文檔"
+"url": "/zh-hant/net/add-content-using-document-builder/insert-paragraph/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Words创建Word文档
-這篇例子展示了如何使用 .NET 圖書館的Aspose.Words以程序化地创建Word文檔. 使用DocumentBuilder 班,您可以將定制字體設定的風格段插入文檔中. 這本書將導覽您的每一步,確保您能有效地生成Word文檔.
+# 使用 Aspose.Words 建立 Word 文檔
+此範例示範如何使用 Aspose.Words for .NET 程式庫以程式設計方式建立 Word 文件。透過利用 DocumentBuilder 類，您可以將具有自訂字體設定的樣式段落插入到文件中。本指南將引導您完成每個步驟，確保您可以有效地為您的應用程式產生 Word 文件。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-paragraph" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令
-1. 設置Aspose.Words圖書館:
-   * 您可以在 Visual Studio 中使用 NuGet 包管理器安裝 .NET 的 Aspose.Words:
+## 安裝說明
+1. 安裝 Aspose.Words 函式庫：
+   - 您可以透過 Visual Studio 中的 NuGet 套件管理器安裝 Aspose.Words for .NET：
      ```
      Install-Package Aspose.Words
      ```
 
-2. 建立自己的計畫:
-   * 在 Visual Studio 建立一個新的 .NET 項目.
-   * 加入Aspose.Words圖書館的參考資料.
+2. 設定您的項目：
+   - 在 Visual Studio 中建立一個新的 .NET 專案。
+   - 新增對 Aspose.Words 庫的引用。
 
-3. 添加示例代碼:
-   * 複製提供的代碼範例,
-   * 確保包括必要的內容`使用`領導者:
+3. 新增範例程式碼：
+   - 將提供的程式碼範例複製到您的專案中。
+   - 確保包含必要的 `using` 頂部的指令：
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
@@ -39,12 +43,16 @@ url: /zh-hant/net/add-content-using-document-builder/insert-paragraph/
      using System.Drawing;
      ```
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

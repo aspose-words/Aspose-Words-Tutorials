@@ -1,64 +1,66 @@
 ---
-title: A fejléc láblécének figyelmen kívül hagyása
-linktitle: A fejléc láblécének figyelmen kívül hagyása
-second_title: Aspose.Words Document Processing API
-description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan egyesíthet Word-dokumentumokat a fejlécek és láblécek figyelmen kívül hagyásával az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/join-and-append-documents/ignore-header-footer/
+"description": "Tanuld meg, hogyan egyesíthetsz Word-dokumentumokat fejlécek és láblécek figyelmen kívül hagyásával az Aspose.Words for .NET segítségével ebből a lépésről lépésre szóló útmutatóból."
+"linktitle": "Fejléc és lábléc figyelmen kívül hagyása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Fejléc és lábléc figyelmen kívül hagyása"
+"url": "/hu/net/join-and-append-documents/ignore-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A fejléc láblécének figyelmen kívül hagyása
+# Fejléc és lábléc figyelmen kívül hagyása
 
 ## Bevezetés
 
-A Word-dokumentumok egyesítése néha kissé bonyolult lehet, különösen akkor, ha egyes részeket érintetlenül szeretne megőrizni, míg másokat figyelmen kívül kell hagyni, például a fejlécet és a láblécet. Szerencsére az Aspose.Words for .NET elegáns megoldást kínál ennek kezelésére. Ebben az oktatóanyagban lépésről lépésre végigvezetem a folyamaton, biztosítva, hogy minden részt megértsen. Legyen könnyű, beszélgetős és vonzó, akárcsak egy baráttal való csevegés. Kész? Merüljünk el!
+A Word-dokumentumok egyesítése néha bonyolult lehet, különösen akkor, ha bizonyos részeket érintetlenül szeretne tartani, miközben másokat, például a fejléceket és a lábléceket, kihagy. Szerencsére az Aspose.Words for .NET elegáns módot kínál erre. Ebben az oktatóanyagban lépésről lépésre végigvezetlek a folyamaton, biztosítva, hogy minden részletet megérts. Könnyed, társalgási jellegű és lebilincselő lesz, akárcsak egy baráttal csevegni. Készen állsz? Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt hozzákezdenénk, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy mindenünk megvan, amire szükségünk van:
 
--  Aspose.Words for .NET: Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-- Visual Studio: Minden újabb verziónak működnie kell.
-- A C# alapvető ismerete: Ne aggódjon, végigvezetem a kódon.
-- Két Word-dokumentum: az egyiket a másikhoz kell csatolni.
+- Aspose.Words .NET-hez: Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+- Visual Studio: Bármely újabb verziónak működnie kell.
+- C# alapismeretek: Ne aggódj, végigvezetlek a kódon.
+- Két Word-dokumentum: Az egyiket a másikhoz kell csatolni.
 
 ## Névterek importálása
 
-Először is importálnunk kell a szükséges névtereket a C# projektünkbe. Ez döntő fontosságú, mivel lehetővé teszi az Aspose.Words osztályok és metódusok használatát anélkül, hogy állandóan a teljes névtérre hivatkoznánk.
+Először is importálnunk kell a szükséges névtereket a C# projektünkbe. Ez azért kulcsfontosságú, mert lehetővé teszi számunkra az Aspose.Words osztályok és metódusok használatát anélkül, hogy folyamatosan a teljes névtérre kellene hivatkoznunk.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-### Hozzon létre egy új projektet
+### Új projekt létrehozása
 
-Kezdjük egy új konzolalkalmazás-projekt létrehozásával a Visual Studióban.
+Kezdjük egy új Console App projekt létrehozásával a Visual Studióban.
 
-1. Nyissa meg a Visual Studio-t.
-2. Válassza az "Új projekt létrehozása" lehetőséget.
+1. Nyisd meg a Visual Studio-t.
+2. Válassza az „Új projekt létrehozása” lehetőséget.
 3. Válassza a „Konzolalkalmazás (.NET Core)” lehetőséget.
-4. Nevezze el a projektet, és kattintson a "Létrehozás" gombra.
+4. Nevezd el a projektedet, majd kattints a „Létrehozás” gombra.
 
-### Telepítse az Aspose.Words for .NET programot
+### Telepítse az Aspose.Words programot .NET-hez
 
-Ezután hozzá kell adnunk az Aspose.Words for .NET-et a projektünkhöz. Ezt a NuGet Package Manager segítségével teheti meg:
+Ezután hozzá kell adnunk az Aspose.Words for .NET csomagot a projektünkhöz. Ezt a NuGet csomagkezelőn keresztül teheted meg:
 
-1. Kattintson a jobb gombbal a projektre a Solution Explorerben.
-2. Válassza a "NuGet-csomagok kezelése" lehetőséget.
-3. Keresse meg az "Aspose.Words" kifejezést, és telepítse.
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.Words” fájlt, és telepítsd.
 
 ## 2. lépés: Töltse be a dokumentumokat
 
-Most, hogy a projektünk be van állítva, töltsük be az egyesíteni kívánt Word dokumentumokat. Az oktatóanyag kedvéért "Document source.docx" és "Northwind traders.docx" néven nevezzük őket.
+Most, hogy a projektünk készen van, töltsük be az egyesíteni kívánt Word-dokumentumokat. A bemutató kedvéért „Dokumentumforrás.docx” és „Northwind traders.docx” néven fogjuk őket ellátni.
 
-A következőképpen töltheti be őket az Aspose.Words használatával:
+Így töltheted be őket az Aspose.Words használatával:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -69,31 +71,31 @@ Document dstDocument = new Document(dataDir + "Northwind traders.docx");
 
 Ez a kódrészlet beállítja a dokumentumkönyvtár elérési útját, és betölti a dokumentumokat a memóriába.
 
-## 3. lépés: Az importálási beállítások konfigurálása
+## 3. lépés: Importálási beállítások konfigurálása
 
-A dokumentumok összevonása előtt be kell állítani az importálási lehetőségeinket. Ez a lépés elengedhetetlen, mert lehetővé teszi számunkra annak megadását, hogy figyelmen kívül akarjuk hagyni a fejléceket és lábléceket.
+A dokumentumok egyesítése előtt be kell állítanunk az importálási beállításokat. Ez a lépés azért lényeges, mert lehetővé teszi számunkra, hogy megadjuk, hogy a fejléceket és lábléceket figyelmen kívül hagyjuk.
 
-Íme az importálási beállítások konfigurálásához szükséges kód:
+Itt a kód az importálási beállítások konfigurálásához:
 
 ```csharp
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { IgnoreHeaderFooter = true };
 ```
 
- Beállítás által`IgnoreHeaderFooter` hogy`true`, azt mondjuk az Aspose.Words-nek, hogy figyelmen kívül hagyja a fejléceket és a lábléceket az egyesítési folyamat során.
+Beállítással `IgnoreHeaderFooter` hogy `true`, azt mondjuk az Aspose.Words-nek, hogy az egyesítési folyamat során hagyja figyelmen kívül a fejléceket és lábléceket.
 
-## 4. lépés: Egyesítse a dokumentumokat
+## 4. lépés: A dokumentumok egyesítése
 
-A dokumentumok betöltése és az importálási lehetőségek konfigurálása után itt az ideje egyesíteni a dokumentumokat.
+Miután betöltettük a dokumentumainkat és konfiguráltuk az importálási beállításokat, itt az ideje egyesíteni őket.
 
-Íme, hogyan kell csinálni:
+Így kell csinálni:
 
 ```csharp
 dstDocument.AppendDocument(srcDocument, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 ```
 
-Ez a kódsor hozzáfűzi a forrásdokumentumot a céldokumentumhoz, miközben megtartja a forrás formázását, figyelmen kívül hagyva a fejléceket és lábléceket.
+Ez a kódsor hozzáfűzi a forrásdokumentumot a céldokumentumhoz, miközben megőrzi a forrásformázást és figyelmen kívül hagyja a fejléceket és lábléceket.
 
-## 5. lépés: Mentse el az egyesített dokumentumot
+## 5. lépés: Az egyesített dokumentum mentése
 
 Végül el kell mentenünk az egyesített dokumentumot. 
 
@@ -103,39 +105,44 @@ Végül el kell mentenünk az egyesített dokumentumot.
 dstDocument.Save(dataDir + "JoinAndAppendDocuments.IgnoreHeaderFooter.docx");
 ```
 
-Ezzel elmenti az egyesített dokumentumot a megadott könyvtárba "JoinAndAppendDocuments.IgnoreHeaderFooter.docx" fájlnévvel.
+Ez a művelet a megadott könyvtárba menti az egyesített dokumentumot „JoinAndAppendDocuments.IgnoreHeaderFooter.docx” fájlnévvel.
 
 ## Következtetés
 
-És megvan! Sikeresen egyesített két Word-dokumentumot, miközben figyelmen kívül hagyta a fejlécet és a láblécet az Aspose.Words for .NET használatával. Ez a módszer praktikus különféle dokumentumkezelési feladatokhoz, ahol kulcsfontosságú bizonyos dokumentumrészek karbantartása.
+És íme! Sikeresen egyesítettél két Word-dokumentumot a fejlécek és láblécek figyelmen kívül hagyásával az Aspose.Words for .NET segítségével. Ez a módszer hasznos különféle dokumentumkezelési feladatokhoz, ahol az egyes dokumentumszakaszok karbantartása kulcsfontosságú.
 
-Az Aspose.Words for .NET használatával jelentősen leegyszerűsítheti a dokumentumfeldolgozási munkafolyamatokat. Ne feledje, ha bármikor elakad, vagy további információra van szüksége, bármikor megtekintheti a[dokumentáció](https://reference.aspose.com/words/net/).
+Az Aspose.Words for .NET használata jelentősen leegyszerűsítheti a dokumentumfeldolgozási munkafolyamatokat. Ne feledje, ha elakad, vagy további információra van szüksége, bármikor megnézheti a [dokumentáció](https://reference.aspose.com/words/net/).
 
 ## GYIK
 
-### Figyelmen kívül hagyhatom a dokumentum más részeit a fejléceken és lábléceken kívül?
+### Kihagyhatom a dokumentum más részeit a fejléceken és lábléceken kívül?
 
-Igen, az Aspose.Words számos lehetőséget kínál az importálási folyamat testreszabására, beleértve a különböző szakaszok és formázások figyelmen kívül hagyását.
+Igen, az Aspose.Words számos lehetőséget kínál az importálási folyamat testreszabására, beleértve a különböző szakaszok figyelmen kívül hagyását és a formázást.
 
-### Megtartható a fejléc és a lábléc ahelyett, hogy figyelmen kívül hagynánk őket?
+### Lehetséges megtartani a fejléceket és a lábléceket ahelyett, hogy figyelmen kívül hagynám őket?
 
- Teljesen. Egyszerűen beállítva`IgnoreHeaderFooter` hogy`false` a`ImportFormatOptions`.
+Teljesen. Egyszerűen beállítva `IgnoreHeaderFooter` hogy `false` a `ImportFormatOptions`.
 
 ### Szükségem van licencre az Aspose.Words for .NET használatához?
 
- Igen, az Aspose.Words for .NET egy kereskedelmi termék. Kaphatsz a[ingyenes próbaverzió](https://releases.aspose.com/) vagy vásároljon licencet[itt](https://purchase.aspose.com/buy).
+Igen, az Aspose.Words for .NET egy kereskedelmi termék. Letöltheti [ingyenes próba](https://releases.aspose.com/) vagy vásároljon licencet [itt](https://purchase.aspose.com/buy).
 
 ### Egyesíthetek kettőnél több dokumentumot ezzel a módszerrel?
 
- Igen, a ciklus megismétlésével több dokumentumot is hozzáfűzhet`AppendDocument` módszer minden további dokumentumhoz.
+Igen, több dokumentumot is hozzáfűzhet egy ciklusba a parancs ismétlésével. `AppendDocument` módszer minden további dokumentumhoz.
 
 ### Hol találok további példákat és dokumentációt az Aspose.Words for .NET-hez?
 
- Részletes dokumentációt és példákat találhat az oldalon[Aspose honlapja](https://reference.aspose.com/words/net/).
+Átfogó dokumentációt és példákat talál a következő címen: [Aspose weboldal](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

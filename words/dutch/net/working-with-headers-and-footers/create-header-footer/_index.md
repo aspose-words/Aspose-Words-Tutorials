@@ -1,30 +1,32 @@
 ---
-title: Koptekst/voettekst maken
-linktitle: Koptekst/voettekst maken
-second_title: Aspose.Words API voor documentverwerking
-description: Leer hoe u kop- en voetteksten toevoegt en aanpast in Word-documenten met Aspose.Words voor .NET. Deze stapsgewijze handleiding zorgt voor professionele documentopmaak.
-weight: 10
-url: /nl/net/working-with-headers-and-footers/create-header-footer/
+"description": "Leer hoe u kop- en voetteksten in Word-documenten kunt toevoegen en aanpassen met Aspose.Words voor .NET. Deze stapsgewijze handleiding zorgt voor een professionele documentopmaak."
+"linktitle": "Koptekst/voettekst maken"
+"second_title": "Aspose.Words API voor documentverwerking"
+"title": "Koptekst/voettekst maken"
+"url": "/nl/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Koptekst/voettekst maken
 
 ## Invoering
 
-Door kop- en voetteksten aan uw documenten toe te voegen, kunt u hun professionaliteit en leesbaarheid verbeteren. Met Aspose.Words voor .NET kunt u eenvoudig kop- en voetteksten voor uw Word-documenten maken en aanpassen. In deze tutorial leiden we u stap voor stap door het proces, zodat u deze functies naadloos kunt implementeren.
+Het toevoegen van kop- en voetteksten aan uw documenten kan de professionaliteit en leesbaarheid ervan verbeteren. Met Aspose.Words voor .NET kunt u eenvoudig kop- en voetteksten voor uw Word-documenten maken en aanpassen. In deze tutorial leiden we u stap voor stap door het proces, zodat u deze functies naadloos kunt implementeren.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u het volgende bij de hand hebt:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 
--  Aspose.Words voor .NET: Downloaden en installeren vanaf de[downloadlink](https://releases.aspose.com/words/net/).
-- Ontwikkelomgeving: Bijvoorbeeld Visual Studio, om uw code te schrijven en uit te voeren.
+- Aspose.Words voor .NET: Downloaden en installeren vanaf de [downloadlink](https://releases.aspose.com/words/net/).
+- Ontwikkelomgeving: Bijvoorbeeld Visual Studio om uw code te schrijven en uit te voeren.
 - Basiskennis van C#: inzicht in C# en het .NET Framework.
-- Voorbeelddocument: Een voorbeelddocument om de kop- en voetteksten toe te passen, of om een nieuw document te maken zoals getoond in de tutorial.
+- Voorbeelddocument: een voorbeelddocument om de kop- en voetteksten toe te passen, of om een nieuw document te maken zoals getoond in de tutorial.
 
 ## Naamruimten importeren
 
@@ -36,18 +38,18 @@ using Aspose.Words.Tables;
 using System;
 ```
 
-## Stap 1: Definieer de documentdirectory
+## Stap 1: Definieer de documentmap
 
-Definieer de directory waar uw document wordt opgeslagen. Dit helpt bij het effectief beheren van het pad.
+Definieer de map waar uw document wordt opgeslagen. Dit helpt bij het effectief beheren van het pad.
 
 ```csharp
 // Het pad naar de documentenmap
 string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 ```
 
-## Stap 2: Maak een nieuw document
+## Stap 2: Een nieuw document maken
 
- Maak een nieuw document en een`DocumentBuilder`om het toevoegen van inhoud te vergemakkelijken.
+Maak een nieuw document en een `DocumentBuilder` om het toevoegen van inhoud te vergemakkelijken.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Stap 3: Pagina-instelling configureren
 
-Geef de pagina-instellingen op en bepaal of de eerste pagina een andere kop-/voettekst krijgt.
+Geef de pagina-instellingen op en geef aan of de eerste pagina een andere kop-/voettekst krijgt.
 
 ```csharp
 Section currentSection = builder.CurrentSection;
@@ -68,7 +70,7 @@ pageSetup.HeaderDistance = 20;
 
 ## Stap 4: Voeg een koptekst toe aan de eerste pagina
 
-Ga naar het headergedeelte voor de eerste pagina en configureer de headertekst.
+Ga naar de headersectie voor de eerste pagina en configureer de headertekst.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
@@ -81,7 +83,7 @@ builder.Font.Size = 14;
 builder.Write("Aspose.Words Header/Footer Creation Primer - Title Page.");
 ```
 
-## Stap 5: Voeg een primaire header toe
+## Stap 5: Een primaire header toevoegen
 
 Ga naar de primaire headersectie en voeg een afbeelding en tekst in.
 
@@ -96,9 +98,9 @@ builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Aspose.Words Header/Footer Creation Primer.");
 ```
 
-## Stap 6: Voeg een primaire voettekst toe
+## Stap 6: Een primaire voettekst toevoegen
 
-Ga naar het primaire voettekstgedeelte en maak een tabel om de voettekstinhoud op te maken.
+Ga naar de primaire voettekstsectie en maak een tabel om de voettekstinhoud op te maken.
 
 ```csharp
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
@@ -150,9 +152,9 @@ row.LastCell.CellFormat.PreferredWidth = PreferredWidth.FromPercent(100 * 2 / 3)
 doc.Save(dataDir + "WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 ```
 
-## Stap 8: Kopteksten en voetteksten kopiëren uit de vorige sectie
+## Stap 8: Kopteksten en voetteksten uit de vorige sectie kopiëren
 
-Als u kop- en voetteksten uit een eerdere sectie wilt hergebruiken, kopieert u deze en past u de gewenste wijzigingen toe.
+Als u kop- en voetteksten uit een eerdere sectie opnieuw wilt gebruiken, kopieert u deze en past u de gewenste wijzigingen toe.
 
 ```csharp
 private static void CopyHeadersFootersFromPreviousSection(Section section)
@@ -171,33 +173,38 @@ private static void CopyHeadersFootersFromPreviousSection(Section section)
 
 ## Conclusie
 
-Door deze stappen te volgen, kunt u effectief kop- en voetteksten toevoegen en aanpassen in uw Word-documenten met Aspose.Words voor .NET. Dit verbetert het uiterlijk en de professionaliteit van uw document, waardoor het leesbaarder en aantrekkelijker wordt.
+Door deze stappen te volgen, kunt u effectief kop- en voetteksten toevoegen en aanpassen aan uw Word-documenten met Aspose.Words voor .NET. Dit verbetert de uitstraling en professionaliteit van uw document, waardoor het leesbaarder en aantrekkelijker wordt.
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Words voor .NET?
 
-Aspose.Words voor .NET is een bibliotheek waarmee ontwikkelaars programmatisch Word-documenten kunnen maken, bewerken en converteren binnen .NET-toepassingen.
+Aspose.Words voor .NET is een bibliotheek waarmee ontwikkelaars programmatisch Word-documenten kunnen maken, bewerken en converteren in .NET-toepassingen.
 
 ### Kan ik afbeeldingen toevoegen aan de kop- of voettekst?
 
- Ja, u kunt eenvoudig afbeeldingen toevoegen aan de kop- of voettekst met behulp van de`DocumentBuilder.InsertImage` methode.
+Ja, u kunt eenvoudig afbeeldingen toevoegen aan de kop- of voettekst met behulp van de `DocumentBuilder.InsertImage` methode.
 
 ### Hoe stel ik verschillende kop- en voetteksten in voor de eerste pagina?
 
- U kunt verschillende kop- en voetteksten voor de eerste pagina instellen met behulp van de`DifferentFirstPageHeaderFooter` eigendom van de`PageSetup` klas.
+U kunt verschillende kop- en voetteksten voor de eerste pagina instellen met behulp van de `DifferentFirstPageHeaderFooter` eigendom van de `PageSetup` klas.
 
 ### Waar kan ik meer documentatie over Aspose.Words vinden?
 
- Uitgebreide documentatie vindt u op de[Aspose.Words API-documentatiepagina](https://reference.aspose.com/words/net/).
+Uitgebreide documentatie vindt u op de [Aspose.Words API-documentatiepagina](https://reference.aspose.com/words/net/).
 
 ### Is er ondersteuning beschikbaar voor Aspose.Words?
 
- Ja, Aspose biedt ondersteuning via hun[ondersteuningsforum](https://forum.aspose.com/c/words/8).
+Ja, Aspose biedt ondersteuning via hun [ondersteuningsforum](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

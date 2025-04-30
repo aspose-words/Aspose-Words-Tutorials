@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/link/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Link
@@ -88,9 +91,13 @@ Yes, you can create email hyperlinks by using the `mailto:` protocol in the hype
 ### What if I need to link to a document stored in a cloud service?
 You can link to any URL, including those pointing to documents stored in cloud services, as long as the URL is accessible.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

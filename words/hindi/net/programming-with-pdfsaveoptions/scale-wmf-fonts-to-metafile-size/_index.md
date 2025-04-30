@@ -1,14 +1,16 @@
 ---
-title: मेटाफ़ाइल आकार के लिए स्केल Wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करें
-linktitle: मेटाफ़ाइल आकार के लिए स्केल Wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words के साथ पीडीएफ में परिवर्तित करते समय मेटाफ़ाइल आकार के लिए स्केल wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करने के लिए चरण-दर-चरण गाइड।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
+"description": ".NET के लिए Aspose.Words के साथ पीडीएफ में परिवर्तित करते समय मेटाफ़ाइल आकार के लिए स्केल wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करने के लिए चरण-दर-चरण गाइड।"
+"linktitle": "मेटाफ़ाइल आकार के लिए स्केल Wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "मेटाफ़ाइल आकार के लिए स्केल Wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # मेटाफ़ाइल आकार के लिए स्केल Wmf फ़ॉन्ट्स के साथ पीडीएफ आकार को कम करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
 
 चरणों में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि नहीं, तो आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. .NET के लिए Aspose.Words: सुनिश्चित करें कि आपके पास Aspose.Words लाइब्रेरी स्थापित है। यदि नहीं, तो आप कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास परिवेश: यह ट्यूटोरियल मानता है कि आपके पास एक .NET विकास परिवेश (जैसे विजुअल स्टूडियो) स्थापित है, जहां आप C# कोड लिख और निष्पादित कर सकते हैं।
 3. .NET प्रोग्रामिंग की बुनियादी समझ: बुनियादी .NET प्रोग्रामिंग अवधारणाओं और C# सिंटैक्स से परिचित होना सहायक होगा।
 4. WMF ग्राफ़िक्स वाला वर्ड डॉक्यूमेंट: आपको WMF ग्राफ़िक्स वाला वर्ड डॉक्यूमेंट चाहिए होगा। आप अपना खुद का डॉक्यूमेंट इस्तेमाल कर सकते हैं या परीक्षण के लिए एक बना सकते हैं।
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## चरण 1: वर्ड दस्तावेज़ लोड करें
 
- शुरू करने के लिए, WMF ग्राफ़िक्स वाले Word दस्तावेज़ को लोड करें। यह काम करने के लिए,`Document` Aspose.Words से क्लास.
+शुरू करने के लिए, WMF ग्राफ़िक्स वाले Word दस्तावेज़ को लोड करें। यह काम करने के लिए, `Document` Aspose.Words से क्लास.
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "WMF with text.docx");
 ```
 
- यहाँ,`dataDir` आपके दस्तावेज़ निर्देशिका पथ के लिए प्लेसहोल्डर है। हम इसका एक उदाहरण बनाते हैं`Document` वर्ड फ़ाइल का पथ पास करके क्लास को लोड करें। यह दस्तावेज़ को मेमोरी में लोड करता है, जो आगे की प्रक्रिया के लिए तैयार है।
+यहाँ, `dataDir` आपके दस्तावेज़ निर्देशिका पथ के लिए एक प्लेसहोल्डर है। हम इसका एक उदाहरण बनाते हैं `Document` वर्ड फ़ाइल का पथ पास करके क्लास को लोड करें। यह दस्तावेज़ को मेमोरी में लोड करता है, जो आगे की प्रक्रिया के लिए तैयार है।
 
 ## चरण 2: मेटाफ़ाइल रेंडरिंग विकल्प कॉन्फ़िगर करें
 
- इसके बाद, आपको मेटाफ़ाइल रेंडरिंग विकल्पों को कॉन्फ़िगर करना होगा। विशेष रूप से, सेट करें`ScaleWmfFontsToMetafileSize`संपत्ति को`false`यह नियंत्रित करता है कि WMF फ़ॉन्ट को मेटाफ़ाइल आकार से मेल खाने के लिए स्केल किया गया है या नहीं।
+इसके बाद, आपको मेटाफ़ाइल रेंडरिंग विकल्पों को कॉन्फ़िगर करना होगा। विशेष रूप से, सेट करें `ScaleWmfFontsToMetafileSize` संपत्ति को `false`यह नियंत्रित करता है कि WMF फ़ॉन्ट को मेटाफ़ाइल आकार से मेल खाने के लिए स्केल किया गया है या नहीं।
 
 ```csharp
 // MetafileRenderingOptions का एक नया उदाहरण बनाएँ
@@ -61,7 +63,7 @@ MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions
 };
 ```
 
-`MetafileRenderingOptions` क्लास मेटाफाइल्स (जैसे WMF) को रेंडर करने के तरीके के लिए विकल्प प्रदान करता है।`ScaleWmfFontsToMetafileSize` को`false`, आप Aspose.Words को मेटाफ़ाइल आकार के अनुसार फ़ॉन्ट स्केल न करने का निर्देश दे रहे हैं, जो समग्र PDF आकार को कम करने में मदद कर सकता है।
+The `MetafileRenderingOptions` क्लास मेटाफाइल्स (जैसे WMF) को रेंडर करने के तरीके के लिए विकल्प प्रदान करता है। `ScaleWmfFontsToMetafileSize` को `false`, आप Aspose.Words को मेटाफ़ाइल आकार के अनुसार फ़ॉन्ट स्केल न करने का निर्देश दे रहे हैं, जो समग्र पीडीएफ आकार को कम करने में मदद कर सकता है।
 
 ## चरण 3: पीडीएफ सेव विकल्प सेट करें
 
@@ -75,11 +77,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
-`PdfSaveOptions` क्लास आपको दस्तावेज़ को PDF के रूप में सहेजने के लिए विभिन्न सेटिंग्स निर्दिष्ट करने की अनुमति देता है। पहले से कॉन्फ़िगर किए गए`MetafileRenderingOptions` तक`MetafileRenderingOptions` की संपत्ति`PdfSaveOptions`, आप यह सुनिश्चित करते हैं कि दस्तावेज़ आपकी इच्छित मेटाफ़ाइल रेंडरिंग सेटिंग्स के अनुसार सहेजा गया है।
+The `PdfSaveOptions` क्लास आपको दस्तावेज़ को PDF के रूप में सहेजने के लिए विभिन्न सेटिंग्स निर्दिष्ट करने की अनुमति देता है। पहले से कॉन्फ़िगर किए गए `MetafileRenderingOptions` तक `MetafileRenderingOptions` की संपत्ति `PdfSaveOptions`, आप यह सुनिश्चित करते हैं कि दस्तावेज़ आपकी इच्छित मेटाफ़ाइल रेंडरिंग सेटिंग्स के अनुसार सहेजा गया है।
 
 ## चरण 4: दस्तावेज़ को PDF के रूप में सहेजें
 
-अंत में, कॉन्फ़िगर किए गए सेव विकल्पों का उपयोग करके वर्ड दस्तावेज़ को पीडीएफ के रूप में सेव करें। यह मेटाफ़ाइल रेंडरिंग विकल्पों सहित सभी सेटिंग्स को आउटपुट पीडीएफ पर लागू करेगा।
+अंत में, कॉन्फ़िगर किए गए सेव विकल्पों का उपयोग करके वर्ड दस्तावेज़ को PDF के रूप में सेव करें। यह मेटाफ़ाइल रेंडरिंग विकल्पों सहित सभी सेटिंग्स को आउटपुट PDF पर लागू करेगा।
 
 
 ```csharp
@@ -87,7 +89,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ScaleWmfFontsToMetafileSize.pdf", saveOptions);
 ```
 
- इस चरण में,`Save` की विधि`Document` क्लास का उपयोग दस्तावेज़ को PDF फ़ाइल में निर्यात करने के लिए किया जाता है। पीडीएफ को जिस पथ पर सहेजा जाएगा, उसे निर्दिष्ट किया जाता है, साथ ही`PdfSaveOptions` जिसमें मेटाफ़ाइल रेंडरिंग सेटिंग्स शामिल हैं.
+इस चरण में, `Save` की विधि `Document` क्लास का उपयोग दस्तावेज़ को PDF फ़ाइल में निर्यात करने के लिए किया जाता है। पीडीएफ को जिस पथ पर सहेजा जाएगा, उसे निर्दिष्ट किया जाता है, साथ ही `PdfSaveOptions` जिसमें मेटाफ़ाइल रेंडरिंग सेटिंग्स शामिल हैं.
 
 ## निष्कर्ष
 
@@ -113,10 +115,15 @@ WMF फ़ॉन्ट को मेटाफ़ाइल आकार में
 
 ### मैं Aspose.Words के बारे में अधिक जानकारी कहां पा सकता हूं?
 
- आप Aspose.Words के बारे में अधिक जानकारी यहाँ पा सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) डाउनलोड, परीक्षण और सहायता के लिए, यहां जाएं[Aspose.Words डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/), [Aspose.Words खरीदें](https://purchase.aspose.com/buy), [मुफ्त परीक्षण](https://releases.aspose.com/), [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) , और[सहायता](https://forum.aspose.com/c/words/8).
+आप Aspose.Words के बारे में अधिक जानकारी यहाँ पा सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/)डाउनलोड, परीक्षण और सहायता के लिए, यहां जाएं [Aspose.Words डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/), [Aspose.Words खरीदें](https://purchase.aspose.com/buy), [मुफ्त परीक्षण](https://releases.aspose.com/), [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/), और [सहायता](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

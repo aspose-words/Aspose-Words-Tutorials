@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/move-to-paragraph/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move To Paragraph In Word Document
@@ -100,9 +103,13 @@ Yes, Aspose.Words for .NET requires a license for full functionality. You can ge
 You can find detailed documentation [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

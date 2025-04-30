@@ -1,14 +1,16 @@
 ---
-title: Đơn vị đo lường
-linktitle: Đơn vị đo lường
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách cấu hình tính năng đơn vị đo lường trong Aspose.Words cho .NET để giữ nguyên định dạng tài liệu trong quá trình chuyển đổi ODT.
-weight: 10
-url: /vi/net/programming-with-odtsaveoptions/measure-unit/
+"description": "Tìm hiểu cách cấu hình tính năng đơn vị đo lường trong Aspose.Words cho .NET để giữ nguyên định dạng tài liệu trong quá trình chuyển đổi ODT."
+"linktitle": "Đơn vị đo lường"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đơn vị đo lường"
+"url": "/vi/net/programming-with-odtsaveoptions/measure-unit/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đơn vị đo lường
@@ -21,7 +23,7 @@ Bạn đã bao giờ phải chuyển đổi tài liệu Word của mình sang c�
 
 Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số thứ sau:
 
-1. Aspose.Words for .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words for .NET. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Đảm bảo bạn đã cài đặt phiên bản mới nhất của Aspose.Words for .NET. Nếu bạn chưa có, bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio để viết và thực thi mã C# của bạn.
 3. Kiến thức cơ bản về C#: Hiểu được những kiến thức cơ bản về C# sẽ giúp bạn theo dõi hướng dẫn.
 4. Một tài liệu Word: Chuẩn bị một tài liệu Word mẫu mà bạn có thể sử dụng để chuyển đổi.
@@ -44,11 +46,11 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn. Điều này đảm bảo mã của bạn biết tìm tài liệu Word của bạn ở đâu.
+Thay thế `"YOUR DOCUMENTS DIRECTORY"` với đường dẫn thực tế đến thư mục của bạn. Điều này đảm bảo mã của bạn biết tìm tài liệu Word của bạn ở đâu.
 
 ## Bước 2: Tải tài liệu Word
 
- Tiếp theo, bạn cần tải tài liệu Word mà bạn muốn chuyển đổi. Điều này được thực hiện bằng cách sử dụng`Document` lớp từ Aspose.Words.
+Tiếp theo, bạn cần tải tài liệu Word mà bạn muốn chuyển đổi. Điều này được thực hiện bằng cách sử dụng `Document` lớp từ Aspose.Words.
 
 ```csharp
 // Tải tài liệu Word
@@ -59,18 +61,18 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## Bước 3: Cấu hình Đơn vị đo lường
 
- Bây giờ, hãy cấu hình đơn vị đo lường cho chuyển đổi ODT. Đây là nơi phép thuật xảy ra. Chúng ta sẽ thiết lập`OdtSaveOptions` sử dụng inch làm đơn vị đo lường.
+Bây giờ, hãy cấu hình đơn vị đo lường cho chuyển đổi ODT. Đây là nơi phép thuật xảy ra. Chúng ta sẽ thiết lập `OdtSaveOptions` sử dụng inch làm đơn vị đo lường.
 
 ```csharp
 // Cấu hình tùy chọn sao lưu với tính năng "Đơn vị đo lường"
 OdtSaveOptions saveOptions = new OdtSaveOptions { MeasureUnit = OdtSaveMeasureUnit.Inches };
 ```
 
- Trong ví dụ này, chúng tôi đang thiết lập đơn vị đo lường thành inch. Bạn cũng có thể chọn các đơn vị khác như`OdtSaveMeasureUnit.Centimeters` hoặc`OdtSaveMeasureUnit.Points` tùy thuộc vào yêu cầu của bạn.
+Trong ví dụ này, chúng tôi đang thiết lập đơn vị đo lường thành inch. Bạn cũng có thể chọn các đơn vị khác như `OdtSaveMeasureUnit.Centimeters` hoặc `OdtSaveMeasureUnit.Points` tùy thuộc vào yêu cầu của bạn.
 
 ## Bước 4: Chuyển đổi tài liệu sang ODT
 
- Cuối cùng, chúng tôi sẽ chuyển đổi tài liệu Word sang định dạng ODT bằng cách sử dụng cấu hình`OdtSaveOptions`.
+Cuối cùng, chúng tôi sẽ chuyển đổi tài liệu Word sang định dạng ODT bằng cách sử dụng cấu hình `OdtSaveOptions`.
 
 ```csharp
 // Chuyển đổi tài liệu sang ODT
@@ -89,20 +91,25 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó cho phép các nhà phát triển tạo, sửa đổi, chuyển đổi và xử lý các tài liệu Word mà không cần Microsoft Word.
 
 ### Tôi có thể sử dụng đơn vị đo lường khác ngoài inch không?
- Có, Aspose.Words cho .NET hỗ trợ các đơn vị đo lường khác như centimet và điểm. Bạn có thể chỉ định đơn vị mong muốn bằng cách sử dụng`OdtSaveMeasureUnit` sự liệt kê.
+Có, Aspose.Words cho .NET hỗ trợ các đơn vị đo lường khác như centimet và điểm. Bạn có thể chỉ định đơn vị mong muốn bằng cách sử dụng `OdtSaveMeasureUnit` sự liệt kê.
 
 ### Có bản dùng thử miễn phí Aspose.Words dành cho .NET không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Words cho .NET từ[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Words cho .NET từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Words cho .NET ở đâu?
- Bạn có thể truy cập tài liệu toàn diện về Aspose.Words cho .NET tại[liên kết này](https://reference.aspose.com/words/net/).
+Bạn có thể truy cập tài liệu toàn diện về Aspose.Words cho .NET tại [liên kết này](https://reference.aspose.com/words/net/).
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words tại[liên kết này](https://forum.aspose.com/c/words/8).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Words tại [liên kết này](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

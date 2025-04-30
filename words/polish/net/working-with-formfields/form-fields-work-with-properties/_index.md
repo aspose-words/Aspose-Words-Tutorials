@@ -1,14 +1,16 @@
 ---
-title: Pola formularza współpracują z właściwościami
-linktitle: Pola formularza współpracują z właściwościami
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak manipulować polami formularzy w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/working-with-formfields/form-fields-work-with-properties/
+"description": "Dowiedz się, jak manipulować polami formularzy w dokumentach Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Pola formularza współpracują z właściwościami"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Pola formularza współpracują z właściwościami"
+"url": "/pl/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pola formularza współpracują z właściwościami
@@ -20,7 +22,7 @@ W tym samouczku zanurzymy się w fascynujący świat pól formularzy w dokumenta
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
--  Aspose.Words dla .NET: Pobierz najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne .NET: zalecany jest program Visual Studio.
 - Podstawowa znajomość języka C#: Zrozumienie podstaw pozwoli na płynne poruszanie się po programie.
 
@@ -45,7 +47,7 @@ Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsoli (.NET Cor
 
 ### Krok 1.2: Zainstaluj Aspose.Words dla .NET
 
- Możesz zainstalować Aspose.Words za pomocą NuGet Package Manager. Przejdź do`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`i wyszukaj „Aspose.Words”. Zainstaluj pakiet.
+Możesz zainstalować Aspose.Words za pomocą NuGet Package Manager. Przejdź do `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`i wyszukaj „Aspose.Words”. Zainstaluj pakiet.
 
 Alternatywnie możesz użyć konsoli Menedżera pakietów NuGet:
 
@@ -59,7 +61,7 @@ Teraz, gdy projekt jest już skonfigurowany, załadujmy dokument Word zawierają
 
 ### Krok 2.1: Określ katalog dokumentów
 
- Ustaw ścieżkę do katalogu dokumentów. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
+Ustaw ścieżkę do katalogu dokumentów. Zastąp `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### Krok 3.2: Sprawdź typ pola formularza
 
- Upewnij się, że pole formularza jest typu`FieldFormTextInput` przed modyfikacją.
+Upewnij się, że pole formularza jest typu `FieldFormTextInput` przed modyfikacją.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ Niezależnie od tego, czy rozwijasz złożone rozwiązanie automatyzacji dokumen
 Tak, Aspose.Words dla .NET jest kompatybilny z dowolnym językiem .NET, w tym VB.NET i F#.
 
 ### Czy Aspose.Words dla .NET jest darmowy?
-Aspose.Words dla .NET oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.Words dla .NET oferuje bezpłatną wersję próbną, ale aby uzyskać pełną funkcjonalność, musisz kupić licencję. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę manipulować innymi elementami w dokumencie Word za pomocą Aspose.Words dla .NET?
 Oczywiście! Aspose.Words dla .NET pozwala manipulować tekstem, obrazami, tabelami i wieloma innymi elementami w dokumencie Word.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
- Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words[Tutaj](https://forum.aspose.com/c/words/8).
+Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose.Words [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words dla .NET?
- Pełną dokumentację można znaleźć[Tutaj](https://reference.aspose.com/words/net/).
+Pełną dokumentację można znaleźć [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

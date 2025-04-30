@@ -1,42 +1,50 @@
 ---
-title: Word'de Tabloya Başlık ve Açıklama Ekle Aspose.Words kullanarak
-weight: 7700
-limit: 
-description: Bu kolay takip edilebilir örnekte .NET için Aspose.Words ile Word belgesinde bir tabloya bir başlık ve açıklama nasıl ekleneceğini öğrenin.
-keywords: [Aspose.Words, Word document, table title, table description, .NET example, table formatting, Aspose, OoxmlSaveOptions, document processing]
-url: /tr/net/working-with-table-styles-and-formatting/table-tittle-and-description/
+"description": "Bu kolay takip edilebilir örnekte, Aspose.Words for .NET ile Word belgesindeki bir tabloya nasıl başlık ve açıklama ekleneceğini öğrenin."
+"title": "Aspose.Words kullanarak Word'de Tabloya Başlık ve Açıklama Ekleyin"
+"url": "/tr/net/working-with-table-styles-and-formatting/table-tittle-and-description/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'de Tabloya Başlık ve Açıklama Ekle Aspose.Words kullanarak
+# Aspose.Words kullanarak Word'de Tabloya Başlık ve Açıklama Ekleyin
 
-Bu rehber, Word belgeleri için bir başlık ve açıklama ekleyerek tablolara .NET için Aspose.Words kullanarak nasıl geliştirileceğini gösterir. Varolan bir Word belgesindeki tablo özelliklerini nasıl manipüle edeceğini, istenen uyumluluk için kaydetme seçeneklerini nasıl yapılandıracağını ve Word 2016 için optimize edilmiş biçimlendirmeyi nasıl sağlayacağını öğreneceksiniz. Örnek kodu bir belgeyi yüklemek, tablo özelliklerini güncelleştirmek ve dosyayı kesin yapılandırma ayarlarıyla kaydetmekle yol gösterir.
+Bu kılavuz, .NET için Aspose.Words kullanarak tablolara başlık ve açıklama ekleyerek Word belgelerinizi nasıl geliştireceğinizi gösterir. Mevcut bir Word belgesindeki tablo özelliklerini nasıl değiştireceğinizi, istenen uyumluluk için kaydetme seçeneklerini nasıl yapılandıracağınızı ve Word 2016 için optimize edilmiş biçimlendirmeyi nasıl sağlayacağınızı öğreneceksiniz. Örnek kod, bir belgeyi yükleme, tablo özelliklerini güncelleme ve dosyayı hassas yapılandırma ayarlarıyla kaydetme konusunda size yol gösterir.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/table-tittle-and-description" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları:
+## Kurulum Talimatları:
 
-.NET için Aspose.Words ile başlamak ve bu örneği çalıştırmak için, bu basit adımları takip edin:
+Aspose.Words for .NET'i kullanmaya başlamak ve bu örneği çalıştırmak için şu basit adımları izleyin:
 
-1. .NET için Aspose.Words yükle:
-   NuGet üzerinden .NET için Aspose.Words yükleyebilirsiniz. Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:
+1. .NET için Aspose.Words'ü yükleyin:
+   Aspose.Words for .NET'i NuGet aracılığıyla kolayca yükleyebilirsiniz. Paket Yöneticisi Konsolunuzda aşağıdaki komutu çalıştırın:
    ```
    Install-Package Aspose.Words
    ```
 
-2. İzn Verme Lisansı (Önemli):  
-   Tam versiyonu kullanmak için,[lisans uygulamak](https://purchase.aspose.com/temporary-license/)veya bir [ücretsiz deneme](https://releases.aspose.com/words/net/)\- Evet .
+2. Lisans Uygula (İsteğe bağlı):  
+   Tam sürümü kullanmak için, [lisans başvurusunda bulunmak](https://purchase.aspose.com/temporary-license/) veya birini kullanın [ücretsiz deneme](https://releases.aspose.com/words/net/).
    
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

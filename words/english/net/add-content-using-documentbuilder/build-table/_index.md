@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/build-table/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Build Table In Word Document
@@ -142,9 +145,13 @@ Besides creating tables, Aspose.Words allows you to work with text, images, styl
 ### Where can I get help if I run into issues?
 If you need support, check out the [Aspose.Words forum](https://forum.aspose.com/c/words/8) where you can ask questions and get help from the community and Aspose developers.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

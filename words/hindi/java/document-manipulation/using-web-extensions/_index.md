@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना
-linktitle: वेब एक्सटेंशन का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें।
-weight: 33
-url: /hi/java/document-manipulation/using-web-extensions/
+"description": "Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें।"
+"linktitle": "वेब एक्सटेंशन का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना"
+"url": "/hi/java/document-manipulation/using-web-extensions/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना
@@ -20,7 +22,7 @@ url: /hi/java/document-manipulation/using-web-extensions/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 ## वेब एक्सटेंशन कार्य फलक जोड़ना
 
@@ -32,7 +34,7 @@ url: /hi/java/document-manipulation/using-web-extensions/
 Document doc = new Document();
 ```
 
-##  एक बनाने के`TaskPane` instance and add it to the document's web extension task panes:
+## एक बनाने के `TaskPane` इंस्टेंस लें और उसे दस्तावेज़ के वेब एक्सटेंशन कार्य पैन में जोड़ें:
 
 ```java
 TaskPane taskPane = new TaskPane();
@@ -101,7 +103,7 @@ Aspose.Words for Java विभिन्न प्रकार के वेब 
 
 ### मैं अपने दस्तावेज़ में वेब एक्सटेंशन का परीक्षण और पूर्वावलोकन कैसे कर सकता हूँ?
 
-आपके दस्तावेज़ में वेब एक्सटेंशन का परीक्षण और पूर्वावलोकन उस वातावरण में दस्तावेज़ को खोलकर किया जा सकता है जो आपके द्वारा जोड़े गए विशिष्ट वेब एक्सटेंशन प्रकार का समर्थन करता है। उदाहरण के लिए, यदि आपने Office ऐड-इन (OMEX) जोड़ा है, तो आप Microsoft Word जैसे ऐड-इन का समर्थन करने वाले Office एप्लिकेशन में दस्तावेज़ खोल सकते हैं। यह आपको दस्तावेज़ के भीतर वेब एक्सटेंशन की कार्यक्षमता के साथ बातचीत करने और उसका परीक्षण करने की अनुमति देता है।
+आपके दस्तावेज़ में वेब एक्सटेंशन का परीक्षण और पूर्वावलोकन उस वातावरण में दस्तावेज़ खोलकर किया जा सकता है जो आपके द्वारा जोड़े गए विशिष्ट वेब एक्सटेंशन प्रकार का समर्थन करता है। उदाहरण के लिए, यदि आपने Office ऐड-इन (OMEX) जोड़ा है, तो आप Microsoft Word जैसे ऐड-इन का समर्थन करने वाले Office एप्लिकेशन में दस्तावेज़ खोल सकते हैं। यह आपको दस्तावेज़ के भीतर वेब एक्सटेंशन की कार्यक्षमता के साथ बातचीत करने और उसका परीक्षण करने की अनुमति देता है।
 
 ### क्या Aspose.Words for Java में वेब एक्सटेंशन का उपयोग करते समय कोई सीमाएं या संगतता संबंधी विचार हैं?
 
@@ -109,10 +111,15 @@ Aspose.Words for Java विभिन्न प्रकार के वेब 
 
 ### मैं Aspose.Words for Java में वेब एक्सटेंशन का उपयोग करने के बारे में अधिक जानकारी और संसाधन कैसे प्राप्त कर सकता हूं?
 
- जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करने पर विस्तृत दस्तावेज़ीकरण और संसाधनों के लिए, आप Aspose दस्तावेज़न को देख सकते हैं[यहाँ](https://reference.aspose.com/words/java/)यह आपके दस्तावेज़ की कार्यक्षमता बढ़ाने के लिए वेब एक्सटेंशन के साथ काम करने के लिए गहन जानकारी, उदाहरण और दिशानिर्देश प्रदान करता है।
+जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करने पर विस्तृत दस्तावेज़ीकरण और संसाधनों के लिए, आप Aspose दस्तावेज़न को देख सकते हैं [यहाँ](https://reference.aspose.com/words/java/)यह आपके दस्तावेज़ की कार्यक्षमता बढ़ाने के लिए वेब एक्सटेंशन के साथ काम करने के लिए गहन जानकारी, उदाहरण और दिशानिर्देश प्रदान करता है।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

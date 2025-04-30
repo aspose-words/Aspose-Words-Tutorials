@@ -1,46 +1,54 @@
 ---
-title: .NET için Aspose.Words'te paragraflara Sınırlar ve Gölgeleme uygulayın  
-weight: 7700
-limit: 
-description: Word belgelerinde bir paragrafın sınırlarını ve gölgelendirilmesini .NET için Aspose.Words kullanarak öğrenin. Kod örneği dahil olan adım adım rehber.
-keywords: [Aspose.Words for .NET, paragraph formatting, borders, shading, Word documents, C# tutorial, document formatting]
-url: /tr/net/document-styling/apply-border-and-shading/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki bir paragrafa kenarlık ve gölgelendirmenin nasıl uygulanacağını öğrenin. Kod örneği içeren adım adım kılavuz."
+"title": "Aspose.Words for .NET'te Paragraflara Kenarlıklar ve Gölgelendirme Uygulama"
+"url": "/tr/net/document-styling/apply-border-and-shading/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words bölümünde paragraflara sınırları ve gölgelik uygula
-.NET için Aspose.Words geliştiricilere programsal olarak zengin biçimlendirilmiş Word belgeleri oluşturma yeteneğini sağlar. Bu örnek, Aspose.Words kullanarak Word belgesindeki bir paragrafa sınırlar ve gölgelik nasıl uygulanacağını gösterir.  
+# Aspose.Words'de Paragraflara Kenarlıklar ve Gölgelendirme Uygula
+.NET için Aspose.Words, geliştiricilerin zengin biçimlendirilmiş Word belgelerini programatik olarak oluşturmasını sağlar. Bu örnek, Aspose.Words kullanarak Word belgesindeki bir paragrafa kenarlık ve gölgelendirmenin nasıl uygulanacağını gösterir. Zarif ve profesyonel bir görünüm için özel renklerle çift çizgili kenarlıklar ve çapraz gölgelendirme ayarlamayı öğreneceksiniz. Sağlanan C# kod parçacığı, uygulama sürecini basitleştirerek belge estetiğini programatik olarak geliştirmek isteyen geliştiriciler için ideal bir çözüm haline getirir.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/apply-border-and-shading" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-1. .NET için Aspose.Words indir  
-   [.NET indirme sayfası için Aspose.Words](https://releases.aspose.com/words/net/)\- Evet .  
+1. .NET için Aspose.Words'ü indirin  
+   En son sürümü şu adresten edinin: [Aspose.Words for .NET indirme sayfası](https://releases.aspose.com/words/net/).  
 
-2. NuGet üzerinden yükle  
-   * Projeyi Visual Studio'da aç.  
-   * NuGet Paket Yöneticisine gidin (`Araçlar`> `NuGet Paket Yöneticisi`> `Çözüm için NuGet Paketleri Yönet..`)  
-   * Arama`"Sözler. Sözler"`Ve tıklat `Kurulum`\- Evet .  
+2. NuGet aracılığıyla yükleyin  
+   - Projenizi Visual Studio’da açın.  
+   - NuGet Paket Yöneticisine gidin (`Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution...`).  
+   - Arama `Aspose.Words` ve tıkla `Install`.  
 
-3. Ad alanları ekle  
-   Kodunuza gerekli isim alanlarını ekleyin:  
+3. Ad Alanlarını Dahil Et  
+   Kodunuza gerekli ad alanlarını ekleyin:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```  
 
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

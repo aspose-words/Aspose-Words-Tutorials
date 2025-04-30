@@ -1,14 +1,16 @@
 ---
-title: Вставить поле с помощью конструктора полей
-linktitle: Вставить поле с помощью конструктора полей
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять динамические поля в документы Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков.
-weight: 10
-url: /ru/net/working-with-fields/insert-field-using-field-builder/
+"description": "Узнайте, как вставлять динамические поля в документы Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков."
+"linktitle": "Вставить поле с помощью конструктора полей"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить поле с помощью конструктора полей"
+"url": "/ru/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить поле с помощью конструктора полей
@@ -21,7 +23,7 @@ url: /ru/net/working-with-fields/insert-field-using-field-builder/
 
 Прежде чем углубиться в детали, давайте убедимся, что у вас есть все необходимое:
 
-1. Aspose.Words for .NET: Вам понадобится установленный Aspose.Words for .NET. Если вы еще этого не сделали, вы можете его скачать[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Вам понадобится установить Aspose.Words for .NET. Если вы еще этого не сделали, вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: подходящая среда разработки, например Visual Studio.
 3. Базовые знания C#: будет полезно, если вы знакомы с основами C# и .NET.
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 FieldBuilder здесь играет ключевую роль. Он позволяет нам динамически конструировать поля.
 
 ```csharp
-//Построение поля IF с помощью FieldBuilder.
+// Построение поля IF с помощью FieldBuilder.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -93,7 +95,7 @@ Field field = fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 field.Update();
 ```
 
-## Шаг 6: Сохраните документ
+## Шаг 6: Сохраните документ.
 
 Наконец, давайте сохраним наш документ и проверим результаты.
 
@@ -113,19 +115,24 @@ doc.Save(dataDir + "InsertFieldWithFieldBuilder.docx");
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам создавать, обрабатывать и преобразовывать документы Word программным способом с использованием C#.
 
 ### Могу ли я использовать Aspose.Words бесплатно?
- Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/) . Для долгосрочного использования вам необходимо приобрести лицензию.[здесь](https://purchase.aspose.com/buy).
+Aspose.Words предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/). Для долгосрочного использования вам необходимо приобрести лицензию. [здесь](https://purchase.aspose.com/buy).
 
 ### Какие типы полей можно вставлять с помощью FieldBuilder?
- FieldBuilder поддерживает широкий спектр полей, включая IF, MERGEFIELD и др. Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+FieldBuilder поддерживает широкий спектр полей, включая IF, MERGEFIELD и др. Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
 
 ### Как обновить поле после его вставки?
- Вы можете обновить поле, используя`Update` метод, как показано в уроке.
+Вы можете обновить поле, используя `Update` метод, как показано в уроке.
 
 ### Где я могу получить поддержку по Aspose.Words?
- Если у вас есть вопросы или вам нужна поддержка, посетите форум поддержки Aspose.Words.[здесь](https://forum.aspose.com/c/words/8).
+Если у вас есть вопросы или вам нужна поддержка, посетите форум поддержки Aspose.Words. [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

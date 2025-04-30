@@ -1,14 +1,16 @@
 ---
-title: आकृति डालें
-linktitle: आकृति डालें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करना और उनमें हेरफेर करना सीखें।
-weight: 10
-url: /hi/net/programming-with-shapes/insert-shape/
+"description": "हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आकृतियों को सम्मिलित करना और उनमें हेरफेर करना सीखें।"
+"linktitle": "आकृति डालें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "आकृति डालें"
+"url": "/hi/net/programming-with-shapes/insert-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # आकृति डालें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-shapes/insert-shape/
 
 ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
-1.  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें[Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: नवीनतम संस्करण डाउनलोड करें और इंस्टॉल करें [Aspose रिलीज़ पेज](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: एक उपयुक्त .NET विकास वातावरण जैसे कि विजुअल स्टूडियो.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा और बुनियादी अवधारणाओं से परिचित होना।
 
@@ -60,7 +62,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## चरण 3: एक आकृति डालें
+## चरण 3: आकृति डालें
 
 अब, चलिए डॉक्यूमेंट में एक आकृति डालें। हम एक साधारण टेक्स्ट बॉक्स जोड़कर शुरुआत करेंगे।
 
@@ -90,7 +92,7 @@ secondShape.Rotation = 30.0;
 
 ## चरण 5: दस्तावेज़ सहेजें
 
- आकृतियाँ जोड़ने के बाद, अंतिम चरण दस्तावेज़ को सहेजना है। हम इसका उपयोग करेंगे`OoxmlSaveOptions` सहेजने का प्रारूप निर्दिष्ट करने के लिए.
+आकृतियाँ जोड़ने के बाद, अंतिम चरण दस्तावेज़ को सहेजना है। हम इसका उपयोग करेंगे `OoxmlSaveOptions` सहेजने का प्रारूप निर्दिष्ट करने के लिए.
 
 ```csharp
 // अनुपालन के साथ सहेजने के विकल्प परिभाषित करें
@@ -107,27 +109,32 @@ doc.Save(dataDir + "WorkingWithShapes.InsertShape.docx", saveOptions);
 
 और अब यह हो गया! आपने .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में आकृतियों को सफलतापूर्वक सम्मिलित और हेरफेर किया है। इस ट्यूटोरियल में मूल बातें शामिल हैं, लेकिन Aspose.Words आकृतियों के साथ काम करने के लिए कई और उन्नत सुविधाएँ प्रदान करता है, जैसे कि कस्टम शैलियाँ, कनेक्टर और समूह आकृतियाँ।
 
- अधिक विस्तृत जानकारी के लिए, कृपया देखें[.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/).
+अधिक विस्तृत जानकारी के लिए, कृपया देखें [.NET दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/net/).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं विभिन्न प्रकार की आकृतियाँ कैसे सम्मिलित करूँ?
-आप बदल सकते हैं`ShapeType` में`InsertShape` विभिन्न प्रकार की आकृतियाँ जैसे वृत्त, आयत और तीर सम्मिलित करने की विधि।
+आप बदल सकते हैं `ShapeType` में `InsertShape` विभिन्न प्रकार की आकृतियाँ जैसे वृत्त, आयत और तीर सम्मिलित करने की विधि।
 
 ### क्या मैं आकृतियों के अंदर पाठ जोड़ सकता हूँ?
- हां, आप इसका उपयोग कर सकते हैं`builder.Write` आकृतियों को सम्मिलित करने के बाद उनके अंदर पाठ जोड़ने की विधि।
+हां, आप इसका उपयोग कर सकते हैं `builder.Write` आकृतियों को सम्मिलित करने के बाद उनके अंदर पाठ जोड़ने की विधि।
 
 ### क्या आकृतियों को स्टाइल करना संभव है?
- हां, आप इस तरह के गुण सेट करके आकृतियों को स्टाइल कर सकते हैं`FillColor`, `StrokeColor` , और`StrokeWeight`.
+हां, आप इस तरह के गुण सेट करके आकृतियों को स्टाइल कर सकते हैं `FillColor`, `StrokeColor`, और `StrokeWeight`.
 
 ### मैं आकृतियों को अन्य तत्वों के सापेक्ष कैसे स्थान दूँ?
- उपयोग`RelativeHorizontalPosition` और`RelativeVerticalPosition` दस्तावेज़ में अन्य तत्वों के सापेक्ष आकृतियों को स्थान देने के लिए गुण।
+उपयोग `RelativeHorizontalPosition` और `RelativeVerticalPosition` दस्तावेज़ में अन्य तत्वों के सापेक्ष आकृतियों को स्थान देने के लिए गुण।
 
 ### क्या मैं एकाधिक आकृतियों को एक साथ समूहीकृत कर सकता हूँ?
- हां, .NET के लिए Aspose.Words आपको आकृतियों को समूहीकृत करने की अनुमति देता है`GroupShape` कक्षा।
+हां, Aspose.Words for .NET आपको आकृतियों को समूहीकृत करने की अनुमति देता है `GroupShape` कक्षा।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

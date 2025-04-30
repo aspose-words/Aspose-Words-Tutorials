@@ -1,14 +1,16 @@
 ---
-title: Liste Düzeyini Belirle
-linktitle: Liste Düzeyini Belirle
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde çok seviyeli numaralı ve madde işaretli listelerin nasıl oluşturulacağını öğrenin. Adım adım kılavuz dahildir. .NET geliştiricileri için mükemmeldir.
-weight: 10
-url: /tr/net/working-with-list/specify-list-level/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde çok seviyeli numaralı ve madde işaretli listelerin nasıl oluşturulacağını öğrenin. Adım adım kılavuz dahildir. .NET geliştiricileri için mükemmeldir."
+"linktitle": "Liste Düzeyini Belirle"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Liste Düzeyini Belirle"
+"url": "/tr/net/working-with-list/specify-list-level/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liste Düzeyini Belirle
@@ -21,7 +23,7 @@ Merhaba, kodlayıcı arkadaşım! .NET kullanarak Word belgelerinde dinamik ve k
 
 Ayrıntılara dalmadan önce, ihtiyacımız olan her şeye sahip olduğumuzdan emin olalım. İşte hızlı bir kontrol listesi:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir IDE hayatınızı kolaylaştıracaktır.
 3. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 4. C# Temel Anlayışı: Bu eğitim, temel C# programlama bilgisine sahip olduğunuzu varsayar.
@@ -42,7 +44,7 @@ Bu, projenizde Aspose.Words ile çalışmanız için ortamı hazırlar.
 
 ## Adım 1: Belge ve DocumentBuilder'ı Kurma
 
- Yeni bir belge oluşturarak başlayalım ve`DocumentBuilder` onunla çalışmaya yönelik bir nesne.
+Yeni bir belge oluşturarak başlayalım ve `DocumentBuilder` onunla çalışmaya yönelik bir nesne.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -52,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Adım 2: Numaralandırılmış Bir Liste Oluşturma
 
- Şimdi, Microsoft Word liste şablonlarından birine dayalı olarak numaralandırılmış bir liste oluşturacağız ve bunu şuraya uygulayacağız:`DocumentBuilder`'s'nin mevcut paragrafı.
+Şimdi, Microsoft Word liste şablonlarından birine dayalı olarak numaralandırılmış bir liste oluşturacağız ve bunu şuraya uygulayacağız: `DocumentBuilder`'nin mevcut paragrafı.
 
 ```csharp
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberArabicDot);
@@ -94,7 +96,7 @@ for (int i = 0; i < 9; i++)
 
 ## Adım 6: Liste Biçimlendirmesini Durdurma
 
-Son olarak, liste biçimlendirmesini nasıl durdurup normal metne dönebileceğimize bakalım.
+Son olarak, liste biçimlendirmesini nasıl durdurabileceğimizi ve normal metne nasıl dönebileceğimizi görelim.
 
 ```csharp
 builder.ListFormat.List = null;
@@ -120,7 +122,7 @@ Word belgelerinde yapılandırılmış ve çok seviyeli listeler oluşturmak oku
 Aspose.Words for .NET, Word belgelerini C# dilinde programlı olarak oluşturmanıza, düzenlemenize, dönüştürmenize ve yazdırmanıza olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
-Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/) Tam sürüm için satın alma seçeneklerine göz atabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Words, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/)Tam sürüm için satın alma seçeneklerine göz atabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Words kullanarak bir listede kaç seviye belirleyebilirim?
 Aspose.Words kullanarak bir listede en fazla dokuz seviye belirleyebilirsiniz.
@@ -129,10 +131,15 @@ Aspose.Words kullanarak bir listede en fazla dokuz seviye belirleyebilirsiniz.
 Evet, ihtiyaç duyduğunuzda liste şablonunu değiştirerek farklı liste türlerini tek bir belgede karıştırabilirsiniz.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

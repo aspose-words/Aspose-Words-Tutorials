@@ -1,56 +1,64 @@
 ---
-title: ใช้การฟอร์เมทแถวในเอกสาร Word ด้วย Aspose.Words สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการนํารูปแถวเข้าในเอกสาร Word โดยใช้ Aspose.Words สําหรับ .NET. คู่มือขั้นตอนพร้อมตัวอย่างโค้ดและคําแนะนํารายละเอียด
-keywords: [Aspose.Words for .NET, row formatting Word, apply row format, Word document table styling, .NET Word document example, Aspose.Words tutorial, table row padding, Word document programming]
-url: /th/net/working-with-table-styles-and-formatting/apply-row-formatting/
+"description": "เรียนรู้วิธีใช้การจัดรูปแบบแถวในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและคำแนะนำโดยละเอียด"
+"title": "นำการจัดรูปแบบแถวไปใช้ในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET"
+"url": "/th/net/working-with-table-styles-and-formatting/apply-row-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้การฟอร์เมทแถวในเอกสาร Word ด้วย Aspose.Words
+# นำการจัดรูปแบบแถวไปใช้ในเอกสาร Word ด้วย Aspose.Words
 
-Aspose.Words สําหรับ .NET ให้บริการกับเครื่องมือที่แข็งแรงในการสร้างและปรับปรุงเอกสาร Word ผ่านโปรแกรม. ในตัวอย่างนี้ เราแสดงวิธีการใช้การฟอร์มเมทแถวในเอกสาร Word โดยใช้ Aspose.Words คุณจะได้เรียนรู้การตั้งความสูงแถว, ปรับปรุงการใส่ผ้าม่าน, และใช้การฟอร์มเมทแม่นยําเพื่อสร้างตารางที่มีโครงสร้างที่ดี. คู่มือขั้นตอนนี้รวมถึง snippets คódและคําแนะนําเพื่อช่วยให้คุณใช้คุณได้อย่างรวดเร็วในส่วนนี้ในแอพลิเคชัน .NET ของคุณ.
+Aspose.Words สำหรับ .NET นำเสนอเครื่องมืออันทรงพลังสำหรับการสร้างและแก้ไขเอกสาร Word ด้วยโปรแกรม ในตัวอย่างนี้ เราจะสาธิตวิธีการใช้การจัดรูปแบบแถวในเอกสาร Word โดยใช้ Aspose.Words คุณจะได้เรียนรู้วิธีตั้งค่าความสูงของแถว กำหนดค่าการเติมช่องว่าง และจัดรูปแบบที่แม่นยำเพื่อสร้างตารางที่มีโครงสร้างที่ดี คู่มือทีละขั้นตอนนี้ประกอบด้วยตัวอย่างโค้ดและคำแนะนำเพื่อช่วยให้คุณนำคุณลักษณะเหล่านี้ไปใช้ในแอปพลิเคชัน .NET ของคุณได้อย่างรวดเร็ว
 
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/apply-row-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ Aspose.Words สําหรับ .NET ในโครงการของคุณ ติดตามขั้นตอนนี้  
+## คำแนะนำในการติดตั้ง  
+ในการใช้ Aspose.Words สำหรับ .NET ในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. ดาวน์โหลด Aspose.Words สําหรับ .NET  
-   * ไปเยี่ยม [Aspose.Words สําหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/words/net/)และดาวน์โหลดฉบับล่าสุด
+1. ดาวน์โหลด Aspose.Words สำหรับ .NET  
+   - เยี่ยมชม [หน้าดาวน์โหลด Aspose.Words สำหรับ .NET](https://releases.aspose.com/words/net/) และดาวน์โหลดเวอร์ชันล่าสุด
 
-2. โครงการผ่าน NuGet  
-   * เปิดโครงการของคุณใน Visual Studio  
-   * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-   * ค้นหา`"พูดคําพูด"`แล้วคลิกติดตั้ง
+2. ติดตั้งผ่าน NuGet  
+   - เปิดโปรเจ็กต์ของคุณใน Visual Studio  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา `Aspose.Words` และคลิกติดตั้ง
 
-3. รวมพื้นที่ชื่อ  
-   * เพิ่มแถวต่อไปนี้กับโค้ดของคุณ  
+3. รวมถึงเนมสเปซ  
+   - เพิ่มบรรทัดต่อไปนี้ลงในโค้ดของคุณ:  
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Tables;
      ```
 
-4. กิจกรรมการเปิดลิขสิทธิ์ (ทางเลือก)  
-   * เพื่อหลีกเลี่ยงข้อจํากัดในการประเมิน[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/)หรือซื้อ[เอกสารเต็ม](https://purchase.aspose.com/buy). .  
-   * โหลดใบอนุญาตในรหัสของคุณ  
+4. เปิดใช้งานใบอนุญาต (ทางเลือก)  
+   - เพื่อหลีกเลี่ยงข้อจำกัดในการประเมิน โปรดสมัคร [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อ [ใบอนุญาตเต็มรูปแบบ](https://purchase-aspose.com/buy).  
+   - โหลดใบอนุญาตในโค้ดของคุณ:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Words.lic");
      ```
 	 
-## ดูอีกด้วย
-[Aspose.Word สําหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word สําหรับ .NET References](https://reference.aspose.com/words/net/)
+## ดูเพิ่มเติม
+[Aspose.Word สำหรับเอกสาร .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word สำหรับการอ้างอิง .NET](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

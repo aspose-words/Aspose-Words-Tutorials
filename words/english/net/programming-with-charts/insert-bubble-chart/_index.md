@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/insert-bubble-chart/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Bubble Chart In Word Document
@@ -113,9 +116,13 @@ You can get a free trial from the [website](https://releases.aspose.com/). This 
 
 For more tutorials and support, visit the [Aspose.Words support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

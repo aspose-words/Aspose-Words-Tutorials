@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Bagian di Word
-linktitle: Tambahkan Bagian di Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup semuanya, mulai dari membuat dokumen hingga menambahkan dan mengelola bagian.
-weight: 10
-url: /id/net/working-with-section/add-section/
+"description": "Pelajari cara menambahkan bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup semuanya, mulai dari membuat dokumen hingga menambahkan dan mengelola bagian."
+"linktitle": "Tambahkan Bagian di Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Bagian di Word"
+"url": "/id/net/working-with-section/add-section/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Bagian di Word
@@ -22,7 +24,7 @@ Halo, rekan-rekan pengembang! 👋 Pernahkah Anda ditugaskan untuk membuat dokum
 
 Sebelum kita masuk ke kode, mari kita bahas apa saja yang Anda perlukan:
 
-1.  Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE yang kompatibel dengan .NET seperti Visual Studio akan membantu.
 3. Pengetahuan Dasar C#: Memahami sintaksis C# akan membantu Anda mengikutinya dengan lancar.
 4. Contoh Dokumen Word: Meskipun kami akan membuatnya dari awal, memiliki contoh dapat berguna untuk tujuan pengujian.
@@ -89,7 +91,7 @@ Setelah menambahkan bagian baru, kita dapat mengisinya dengan konten seperti bag
 
 ### Menggunakan DocumentBuilder untuk Bagian Baru
 
- Untuk menambahkan konten ke bagian baru, Anda perlu mengatur`DocumentBuilder` kursor ke bagian baru:
+Untuk menambahkan konten ke bagian baru, Anda perlu mengatur `DocumentBuilder` kursor ke bagian baru:
 
 ```csharp
 builder.MoveToSection(doc.Sections.IndexOf(sectionToAdd));
@@ -109,11 +111,11 @@ Setelah menambahkan bagian dan konten, langkah terakhir adalah menyimpan dokumen
 doc.Save("YourPath/YourDocument.docx");
 ```
 
- Mengganti`"YourPath/YourDocument.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word Anda, lengkap dengan bagian dan konten baru.
+Mengganti `"YourPath/YourDocument.docx"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen. Baris kode ini akan menyimpan berkas Word Anda, lengkap dengan bagian dan konten baru.
 
 ## Kesimpulan
 
- Selamat! 🎉 Anda telah berhasil mempelajari cara menambahkan bagian ke dokumen Word menggunakan Aspose.Words untuk .NET. Bagian adalah alat yang ampuh untuk mengatur konten, membuat dokumen Anda lebih mudah dibaca dan dinavigasi. Baik Anda mengerjakan dokumen sederhana atau laporan yang rumit, menguasai bagian akan meningkatkan keterampilan pemformatan dokumen Anda. Jangan lupa untuk memeriksa[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk fitur dan kemungkinan yang lebih canggih. Selamat membuat kode!
+Selamat! 🎉 Anda telah berhasil mempelajari cara menambahkan bagian ke dokumen Word menggunakan Aspose.Words untuk .NET. Bagian adalah alat yang ampuh untuk mengatur konten, membuat dokumen Anda lebih mudah dibaca dan dinavigasi. Baik Anda mengerjakan dokumen sederhana atau laporan yang rumit, menguasai bagian akan meningkatkan keterampilan pemformatan dokumen Anda. Jangan lupa untuk memeriksa [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) untuk fitur dan kemungkinan yang lebih canggih. Selamat membuat kode!
 
 ## Tanya Jawab Umum
 
@@ -135,10 +137,15 @@ Tidak, bagian-bagian tidak dapat ditumpuk satu sama lain. Namun, Anda dapat memi
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Words?
 
- Untuk informasi lebih lanjut, Anda dapat mengunjungi[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
+Untuk informasi lebih lanjut, Anda dapat mengunjungi [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) atau [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan diskusi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

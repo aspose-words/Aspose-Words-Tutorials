@@ -1,14 +1,16 @@
 ---
-title: การควบคุมเวอร์ชันเอกสารและประวัติ
-linktitle: การควบคุมเวอร์ชันเอกสารและประวัติ
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้การควบคุมเวอร์ชันเอกสารที่มีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java จัดการการเปลี่ยนแปลง ทำงานร่วมกันได้อย่างราบรื่น และติดตามการแก้ไขได้อย่างง่ายดาย
-weight: 13
-url: /th/java/document-revision/document-version-control-history/
+"description": "เรียนรู้การควบคุมเวอร์ชันเอกสารที่มีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java จัดการการเปลี่ยนแปลง ทำงานร่วมกันได้อย่างราบรื่น และติดตามการแก้ไขได้อย่างง่ายดาย"
+"linktitle": "การควบคุมเวอร์ชันเอกสารและประวัติ"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การควบคุมเวอร์ชันเอกสารและประวัติ"
+"url": "/th/java/document-revision/document-version-control-history/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การควบคุมเวอร์ชันเอกสารและประวัติ
@@ -100,10 +102,15 @@ doc.save("sample_v2.docx");
 
 ### ฉันสามารถหาทรัพยากรและเอกสารเพิ่มเติมได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/words/java/).
+คุณสามารถเข้าถึงเอกสารประกอบที่ครอบคลุมและทรัพยากรเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ [ที่นี่](https://reference-aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menerapkan Gaya dan Font dalam Dokumen
-linktitle: Menerapkan Gaya dan Font dalam Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menerapkan gaya dan font dalam dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber. Manfaatkan sepenuhnya potensi pemformatan dokumen.
-weight: 10
-url: /id/java/document-styling/applying-styles-fonts/
+"description": "Pelajari cara menerapkan gaya dan font dalam dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber. Manfaatkan sepenuhnya potensi pemformatan dokumen."
+"linktitle": "Menerapkan Gaya dan Font dalam Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menerapkan Gaya dan Font dalam Dokumen"
+"url": "/id/java/document-styling/applying-styles-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menerapkan Gaya dan Font dalam Dokumen
@@ -22,7 +24,7 @@ Aspose.Words untuk Java adalah API berbasis Java yang memungkinkan pengembang un
 ## Menerapkan Gaya dan Font: Dasar-Dasar
 
 ### Memulai
-Untuk memulai, Anda perlu menyiapkan lingkungan pengembangan Java dan mengunduh pustaka Aspose.Words untuk Java. Anda dapat menemukan tautan unduhannya[Di Sini](https://releases.aspose.com/words/java/)Pastikan untuk menyertakan pustaka tersebut dalam proyek Anda.
+Untuk memulai, Anda perlu menyiapkan lingkungan pengembangan Java dan mengunduh pustaka Aspose.Words untuk Java. Anda dapat menemukan tautan unduhannya [Di Sini](https://releases.aspose.com/words/java/)Pastikan untuk menyertakan pustaka tersebut dalam proyek Anda.
 
 ### Membuat Dokumen
 Mari kita mulai dengan membuat dokumen baru menggunakan Aspose.Words untuk Java:
@@ -101,19 +103,19 @@ builder.getFont().setBold(true);
 ## Tanya Jawab Umum
 
 ### Bagaimana cara menerapkan gaya yang berbeda pada paragraf yang berbeda dalam satu dokumen?
- Untuk menerapkan gaya yang berbeda pada paragraf yang berbeda, buat beberapa contoh`DocumentBuilder` dan mengatur gaya secara individual untuk setiap paragraf.
+Untuk menerapkan gaya yang berbeda pada paragraf yang berbeda, buat beberapa contoh `DocumentBuilder` dan mengatur gaya secara individual untuk setiap paragraf.
 
 ### Bisakah saya mengimpor gaya yang ada dari dokumen templat?
-Ya, Anda dapat mengimpor gaya dari dokumen template menggunakan Aspose.Words untuk Java. Lihat dokumentasi untuk petunjuk terperinci.
+Ya, Anda dapat mengimpor gaya dari dokumen templat menggunakan Aspose.Words untuk Java. Lihat dokumentasi untuk petunjuk terperinci.
 
 ### Apakah mungkin untuk menerapkan pemformatan bersyarat berdasarkan konten dokumen?
-Aspose.Words untuk Java menyediakan kemampuan pemformatan bersyarat yang canggih. Anda dapat membuat aturan yang menerapkan gaya atau font berdasarkan kondisi tertentu dalam dokumen.
+Aspose.Words untuk Java menyediakan kemampuan pemformatan bersyarat yang canggih. Anda dapat membuat aturan yang menerapkan gaya atau fon berdasarkan kondisi tertentu dalam dokumen.
 
 ### Bisakah saya bekerja dengan font dan karakter non-Latin?
 Tentu saja! Aspose.Words untuk Java mendukung berbagai jenis font dan karakter dari berbagai bahasa dan skrip.
 
 ### Bagaimana cara menambahkan hyperlink ke teks dengan gaya tertentu?
- Untuk menambahkan hyperlink ke teks, gunakan`FieldHyperlink` kelas yang dikombinasikan dengan gaya untuk mencapai format yang diinginkan.
+Untuk menambahkan hyperlink ke teks, gunakan `FieldHyperlink` kelas yang dikombinasikan dengan gaya untuk mencapai format yang diinginkan.
 
 ### Apakah ada batasan ukuran atau kompleksitas dokumen?
 Aspose.Words untuk Java dapat menangani dokumen dengan berbagai ukuran dan kompleksitas. Namun, dokumen yang sangat besar mungkin memerlukan sumber daya memori tambahan.
@@ -121,9 +123,14 @@ Aspose.Words untuk Java dapat menangani dokumen dengan berbagai ukuran dan kompl
 ## Kesimpulan
 
 Dalam panduan lengkap ini, kami telah menjelajahi seni penerapan gaya dan font dalam dokumen menggunakan Aspose.Words untuk Java. Baik Anda membuat laporan bisnis, membuat faktur, atau menyusun dokumen yang indah, menguasai format dokumen sangatlah penting. Dengan kekuatan Aspose.Words untuk Java, Anda memiliki alat untuk membuat dokumen Anda bersinar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

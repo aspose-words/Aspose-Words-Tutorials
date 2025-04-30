@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/meta-characters-in-search-pattern/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Meta Characters In Search Pattern
@@ -121,9 +124,13 @@ You can obtain a temporary license from [here](https://purchase.aspose.com/tempo
 ### Where can I find more detailed documentation for Aspose.Words for .NET?
 You can find comprehensive documentation on the [Aspose Documentation Page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Paragraftaki Alanları Dönüştür
-linktitle: Paragraftaki Alanları Dönüştür
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki IF alanlarını düz metne nasıl dönüştüreceğinizi öğrenin.
-weight: 10
-url: /tr/net/working-with-fields/convert-fields-in-paragraph/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki IF alanlarını düz metne nasıl dönüştüreceğinizi öğrenin."
+"linktitle": "Paragraftaki Alanları Dönüştür"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Paragraftaki Alanları Dönüştür"
+"url": "/tr/net/working-with-fields/convert-fields-in-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Paragraftaki Alanları Dönüştür
@@ -21,7 +23,7 @@ Word belgelerinizdeki alanların ağında kendinizi hiç buldunuz mu, özellikle
 
 Büyü yapmaya, yani kodlamaya geçmeden önce, yerinde olması gereken birkaç şey var. Bunları büyücünüzün araç takımı olarak düşünün:
 
--  Aspose.Words for .NET: Kütüphanenin kurulu olduğundan emin olun. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Kütüphanenin kurulu olduğundan emin olun. Bunu şuradan alabilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 - .NET Geliştirme Ortamı: Visual Studio veya başka bir IDE olsun, ortamınızı hazır bulundurun.
 - Temel C# Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işinize yarayacaktır.
 
@@ -87,7 +89,7 @@ Ve işte oldu! Aspose.Words for .NET kullanarak IF alanlarını düz metne başa
 Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için güçlü bir kütüphanedir. Microsoft Word'ün yüklenmesine gerek kalmadan belgeler oluşturmanıza, değiştirmenize ve dönüştürmenize olanak tanır.
 
 ### Bu yöntemi diğer alan türlerini dönüştürmek için kullanabilir miyim?
- Evet, bu yöntemi, farklı alan türlerini dönüştürmek için değiştirerek uyarlayabilirsiniz.`FieldType`.
+Evet, bu yöntemi farklı alan türlerini dönüştürmek için uyarlayabilirsiniz. `FieldType`.
 
 ### Bu işlemi birden fazla belge için otomatikleştirmek mümkün müdür?
 Kesinlikle! Bir belge dizininde dolaşabilir ve her birine aynı adımları uygulayabilirsiniz.
@@ -97,9 +99,14 @@ Yöntem hiçbir değişiklik yapmayacaktır, çünkü bağlantısı kaldırılac
 
 ### Alanların bağlantısını kaldırdıktan sonra değişiklikleri geri alabilir miyim?
 Hayır, alanların bağlantısı kaldırılıp düz metne dönüştürüldüğünde, bunları tekrar alanlara dönüştüremezsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

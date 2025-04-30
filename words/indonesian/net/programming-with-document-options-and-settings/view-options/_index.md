@@ -1,14 +1,16 @@
 ---
-title: Opsi Tampilan
-linktitle: Opsi Tampilan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara melihat opsi dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan jenis tampilan, penyesuaian tingkat zoom, dan penyimpanan dokumen Anda.
-weight: 10
-url: /id/net/programming-with-document-options-and-settings/view-options/
+"description": "Pelajari cara melihat opsi dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pengaturan jenis tampilan, penyesuaian tingkat zoom, dan penyimpanan dokumen Anda."
+"linktitle": "Opsi Tampilan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Opsi Tampilan"
+"url": "/id/net/programming-with-document-options-and-settings/view-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opsi Tampilan
@@ -21,7 +23,7 @@ Hai, rekan pembuat kode! Pernahkah Anda bertanya-tanya bagaimana cara mengubah c
 
 Sebelum kita langsung masuk ke kode, mari kita pastikan kita memiliki semua yang kita butuhkan untuk mengikuti tutorial ini. Berikut ini daftar periksa singkatnya:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda memiliki pustaka Aspose.Words untuk .NET. Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Anda harus memiliki IDE seperti Visual Studio yang terpasang di komputer Anda.
 3. Pengetahuan Dasar C#: Meskipun kami akan menjelaskannya secara sederhana, pemahaman dasar tentang C# akan bermanfaat.
 4. Contoh Dokumen Word: Siapkan contoh dokumen Word. Untuk tutorial ini, kami akan menyebutnya sebagai "Document.docx".
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- Dalam potongan kode ini, kami menentukan jalur ke dokumen kami dan memuatnya menggunakan`Document` kelas. Pastikan untuk mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
+Dalam potongan kode ini, kami menentukan jalur ke dokumen kami dan memuatnya menggunakan `Document` kelas. Pastikan untuk mengganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 2: Mengatur Jenis Tampilan
 
@@ -58,7 +60,7 @@ Berikutnya, kita akan mengubah jenis tampilan dokumen. Jenis tampilan menentukan
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 ```
 
- Di sini, kami mengatur jenis tampilan ke`PageLayout`, yang mirip dengan tampilan tata letak cetak di Microsoft Word. Ini memberi Anda gambaran yang lebih akurat tentang bagaimana dokumen Anda akan terlihat saat dicetak.
+Di sini, kami mengatur jenis tampilan ke `PageLayout`, yang mirip dengan tampilan tata letak cetak di Microsoft Word. Ini memberi Anda gambaran yang lebih akurat tentang bagaimana dokumen Anda akan terlihat saat dicetak.
 
 ## Langkah 3: Sesuaikan Tingkat Zoom
 
@@ -68,7 +70,7 @@ Terkadang, Anda perlu memperbesar atau memperkecil tampilan dokumen untuk mendap
 doc.ViewOptions.ZoomPercent = 50;
 ```
 
- Dengan mengatur`ZoomPercent` ke`50`, kami akan memperkecil tampilan hingga 50% dari ukuran sebenarnya. Anda dapat menyesuaikan nilai ini sesuai kebutuhan.
+Dengan mengatur `ZoomPercent` ke `50`, kami memperkecil tampilan hingga 50% dari ukuran sebenarnya. Anda dapat menyesuaikan nilai ini sesuai kebutuhan.
 
 ## Langkah 4: Simpan Dokumen Anda
 
@@ -88,7 +90,7 @@ Nah, itu dia! Mengubah opsi tampilan dokumen Word Anda menggunakan Aspose.Words 
 
 ### Jenis tampilan apa lagi yang dapat saya atur untuk dokumen saya?
 
- Aspose.Words untuk .NET mendukung beberapa jenis tampilan, termasuk`PrintLayout`, `WebLayout`, `Reading` , Dan`Outline`Anda dapat menjelajahi pilihan ini berdasarkan kebutuhan Anda.
+Aspose.Words untuk .NET mendukung beberapa jenis tampilan, termasuk `PrintLayout`Bahasa Indonesia: `WebLayout`Bahasa Indonesia: `Reading`, Dan `Outline`Anda dapat menjelajahi pilihan ini berdasarkan kebutuhan Anda.
 
 ### Dapatkah saya mengatur tingkat zoom yang berbeda untuk berbagai bagian dokumen saya?
 
@@ -104,10 +106,15 @@ Untuk memastikan konsistensi, simpan dokumen Anda dengan opsi tampilan yang diin
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci tentang Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi dan contoh yang lebih rinci di[Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan contoh yang lebih rinci di [Halaman dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

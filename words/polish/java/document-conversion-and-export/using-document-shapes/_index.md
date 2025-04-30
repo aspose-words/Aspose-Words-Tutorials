@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z kształtów dokumentów w Aspose.Words dla Java
-linktitle: Korzystanie z kształtów dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Odblokuj moc kształtów dokumentów w Aspose.Words dla Java. Naucz się tworzyć wizualnie angażujące dokumenty dzięki przykładom krok po kroku.
-weight: 14
-url: /pl/java/document-conversion-and-export/using-document-shapes/
+"description": "Odblokuj moc kształtów dokumentów w Aspose.Words dla Java. Naucz się tworzyć wizualnie angażujące dokumenty dzięki przykładom krok po kroku."
+"linktitle": "Korzystanie z kształtów dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z kształtów dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z kształtów dokumentów w Aspose.Words dla Java
@@ -20,13 +22,13 @@ tym kompleksowym przewodniku zagłębimy się w świat kształtów dokumentów w
 
 ## Rozpoczęcie pracy z kształtami dokumentów
 
- Zanim przejdziemy do kodu, skonfigurujmy nasze środowisko. Upewnij się, że masz Aspose.Words for Java zintegrowane z projektem. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać je ze strony internetowej Aspose[Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)
+Zanim przejdziemy do kodu, skonfigurujmy nasze środowisko. Upewnij się, że masz Aspose.Words for Java zintegrowane z projektem. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać je ze strony internetowej Aspose [Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)
 
 ## Dodawanie kształtów do dokumentów
 
 ### Wstawianie GroupShape
 
- A`GroupShape` pozwala na grupowanie wielu kształtów razem. Oto jak możesz utworzyć i wstawić`GroupShape`:
+A `GroupShape` pozwala na grupowanie wielu kształtów razem. Oto jak możesz utworzyć i wstawić `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### Wstawianie kształtu pola tekstowego
 
- Aby wstawić kształt pola tekstowego, możesz użyć`insertShape` metodę pokazano w poniższym przykładzie:
+Aby wstawić kształt pola tekstowego, możesz użyć `insertShape` metodę pokazano w poniższym przykładzie:
 
 ```java
 Document doc = new Document();
@@ -168,7 +170,7 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## Wniosek
 
-W tym przewodniku zbadaliśmy świat kształtów dokumentów w Aspose.Words for Java. Nauczyłeś się, jak dodawać różne kształty do dokumentów, manipulować ich właściwościami i pracować z kształtami SmartArt. Dzięki tej wiedzy możesz z łatwością tworzyć wizualnie atrakcyjne i interaktywne dokumenty.
+W tym przewodniku zbadaliśmy świat kształtów dokumentów w Aspose.Words for Java. Nauczyłeś się, jak dodawać różne kształty do dokumentów, manipulować ich właściwościami i pracować z kształtami SmartArt. Dzięki tej wiedzy możesz z łatwością tworzyć atrakcyjne wizualnie i interaktywne dokumenty.
 
 ## Najczęściej zadawane pytania
 
@@ -178,7 +180,7 @@ Aspose.Words for Java to biblioteka Java, która umożliwia programistom program
 
 ### Jak mogę pobrać Aspose.Words dla Java?
 
- Możesz pobrać Aspose.Words for Java ze strony internetowej Aspose, korzystając z tego łącza:[Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)
+Możesz pobrać Aspose.Words for Java ze strony internetowej Aspose, korzystając z tego łącza: [Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)
 
 ### Jakie są korzyści ze stosowania kształtów dokumentów?
 
@@ -191,9 +193,14 @@ Tak, możesz dostosować wygląd kształtów, dostosowując ich właściwości, 
 ### Czy Aspose.Words dla Java jest kompatybilny ze SmartArt?
 
 Tak, Aspose.Words for Java obsługuje kształty SmartArt, co umożliwia pracę ze złożonymi diagramami i grafikami w dokumentach.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

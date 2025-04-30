@@ -7,8 +7,11 @@ weight: 21
 url: /java/document-manipulation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Manipulation
@@ -102,9 +105,13 @@ Unlock the Power of Aspose.Words for Java. Master Document Options and Settings 
 Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
 Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integrate web-based content seamlessly. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

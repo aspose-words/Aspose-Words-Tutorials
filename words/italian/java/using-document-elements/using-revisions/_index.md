@@ -1,32 +1,34 @@
 ---
-title: Utilizzo delle revisioni in Aspose.Words per Java
-linktitle: Utilizzo delle revisioni
-second_title: API di elaborazione dei documenti Java Aspose.Words
-description: Impara a usare Aspose.Words per la revisione di Java in modo efficiente. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti.
-weight: 22
-url: /it/java/using-document-elements/using-revisions/
+"description": "Impara a usare Aspose.Words per la revisione di Java in modo efficiente. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti."
+"linktitle": "Utilizzo delle revisioni"
+"second_title": "API di elaborazione dei documenti Java Aspose.Words"
+"title": "Utilizzo delle revisioni in Aspose.Words per Java"
+"url": "/it/java/using-document-elements/using-revisions/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilizzo delle revisioni in Aspose.Words per Java
 
 
-Se sei uno sviluppatore Java che desidera lavorare con documenti e ha bisogno di implementare controlli di revisione, Aspose.Words for Java fornisce un potente set di strumenti per aiutarti a gestire le revisioni in modo efficace. In questo tutorial, ti guideremo passo dopo passo nell'utilizzo della revisione in Aspose.Words for Java. 
+Se sei uno sviluppatore Java che desidera lavorare con i documenti e ha bisogno di implementare controlli di revisione, Aspose.Words per Java offre un potente set di strumenti per aiutarti a gestire le revisioni in modo efficace. In questo tutorial, ti guideremo passo dopo passo nell'utilizzo delle revisioni in Aspose.Words per Java. 
 
 ## 1. Introduzione ad Aspose.Words per Java
 
-Aspose.Words for Java è una solida API Java che consente di creare, modificare e manipolare documenti Word senza la necessità di Microsoft Word. È particolarmente utile quando è necessario implementare la revisione nei documenti.
+Aspose.Words per Java è una solida API Java che consente di creare, modificare e manipolare documenti Word senza bisogno di Microsoft Word. È particolarmente utile quando è necessario implementare la revisione all'interno dei documenti.
 
 ## 2. Impostazione dell'ambiente di sviluppo
 
-Prima di immergerci nell'uso di Aspose.Words per Java, devi impostare il tuo ambiente di sviluppo. Assicurati di avere gli strumenti di sviluppo Java necessari e la libreria Aspose.Words per Java installata.
+Prima di immergerci nell'utilizzo di Aspose.Words per Java, è necessario configurare l'ambiente di sviluppo. Assicurarsi di avere gli strumenti di sviluppo Java necessari e la libreria Aspose.Words per Java installata.
 
 ## 3. Creazione di un nuovo documento
 
-Iniziamo creando un nuovo documento Word usando Aspose.Words per Java. Ecco come puoi farlo:
+Iniziamo creando un nuovo documento Word utilizzando Aspose.Words per Java. Ecco come fare:
 
 ```java
 string outPath = "Your Output Directory";
@@ -35,9 +37,9 @@ Body body = doc.getFirstSection().getBody();
 Paragraph para = body.getFirstParagraph();
 ```
 
-## 4. Aggiungere contenuto al documento
+## 4. Aggiunta di contenuto al documento
 
-Ora che hai un documento vuoto, puoi aggiungervi del contenuto. In questo esempio, aggiungeremo tre paragrafi:
+Ora che hai un documento vuoto, puoi aggiungervi contenuti. In questo esempio, aggiungeremo tre paragrafi:
 
 ```java
 para.appendChild(new Run(doc, "Paragraph 1. "));
@@ -63,7 +65,7 @@ para = body.appendParagraph("Paragraph 4. ");
 
 ## 7. Accettazione e rifiuto delle revisioni
 
-Puoi accettare o rifiutare le revisioni nel tuo documento usando Aspose.Words per Java. Le revisioni possono essere facilmente gestite in Microsoft Word dopo che il documento è stato generato.
+Puoi accettare o rifiutare le revisioni nel tuo documento utilizzando Aspose.Words per Java. Le revisioni possono essere facilmente gestite in Microsoft Word dopo la generazione del documento.
 
 ## 8. Interruzione del monitoraggio delle revisioni
 
@@ -83,9 +85,9 @@ doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
 
 ## 10. Conclusion
 
-In questo tutorial, abbiamo trattato le basi dell'uso della revisione in Aspose.Words per Java. Hai imparato come creare un documento, aggiungere contenuto, avviare e interrompere il monitoraggio delle revisioni e salvare il documento.
+In questo tutorial abbiamo trattato le basi dell'utilizzo della revisione in Aspose.Words per Java. Hai imparato come creare un documento, aggiungere contenuti, avviare e interrompere il monitoraggio delle revisioni e salvare il documento.
 
-Ora disponi degli strumenti necessari per gestire in modo efficace le revisioni nelle tue applicazioni Java utilizzando Aspose.Words per Java.
+Ora hai gli strumenti necessari per gestire in modo efficace le revisioni nelle tue applicazioni Java utilizzando Aspose.Words per Java.
 
 ## Codice sorgente completo
 ```java
@@ -116,9 +118,9 @@ Assert.assertTrue(para.isDeleteRevision());
 // Il paragrafo "Elimina revisione" viene rimosso una volta accettate le modifiche.
 doc.acceptAllRevisions();
 Assert.assertEquals(3, paragraphs.getCount());
-Assert.assertEquals(para.getRuns().getCount(), 0); //era Is.Vuoto
+Assert.assertEquals(para.getRuns().getCount(), 0); //era Is.Empty
 // Interrompendo il monitoraggio delle revisioni, questo testo verrà visualizzato come testo normale.
-//Le revisioni non vengono conteggiate quando il documento viene modificato.
+// Le revisioni non vengono conteggiate quando il documento viene modificato.
 doc.stopTrackRevisions();
 // Salvare il documento.
 doc.save(outPath + "WorkingWithRevisions.AcceptRevisions.docx");
@@ -141,17 +143,22 @@ Sì, puoi utilizzare Aspose.Words per Java per tenere traccia delle revisioni ne
 
 ### 4. Esistono requisiti di licenza per l'utilizzo di Aspose.Words per Java?
 
- Sì, dovrai acquisire una licenza per utilizzare Aspose.Words per Java nei tuoi progetti. Puoi[ottenere l'accesso a una licenza qui](https://purchase.aspose.com/buy).
+Sì, dovrai acquisire una licenza per utilizzare Aspose.Words per Java nei tuoi progetti. Puoi [ottenere l'accesso a una licenza qui](https://purchase.aspose.com/buy).
 
 ### 5. Dove posso trovare supporto per Aspose.Words per Java?
 
- Per qualsiasi domanda o problema, puoi visitare il[Forum di supporto di Aspose.Words per Java](https://forum.aspose.com/).
+Per qualsiasi domanda o problema, puoi visitare il [Forum di supporto di Aspose.Words per Java](https://forum.aspose.com/).
 
 Inizia subito a usare Aspose.Words per Java e semplifica i tuoi processi di gestione dei documenti.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

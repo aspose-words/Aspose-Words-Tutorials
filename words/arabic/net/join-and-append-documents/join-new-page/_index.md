@@ -1,27 +1,29 @@
 ---
-title: انضم إلى الصفحة الجديدة
-linktitle: انضم إلى الصفحة الجديدة
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: تعرف على كيفية ضم المستندات وإضافتها إلى Word باستخدام Aspose.Words for .NET. اتبع دليلنا خطوة بخطوة لدمج المستندات بكفاءة.
-weight: 10
-url: /ar/net/join-and-append-documents/join-new-page/
+"description": "تعرّف على كيفية دمج المستندات وإضافتها في Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لدمج المستندات بكفاءة."
+"linktitle": "انضم إلى الصفحة الجديدة"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "انضم إلى الصفحة الجديدة"
+"url": "/ar/net/join-and-append-documents/join-new-page/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # انضم إلى الصفحة الجديدة
 
 ## مقدمة
 
-عند العمل مع مستندات كبيرة أو دمج مستندات متعددة في مستند واحد، يعد الحفاظ على التنسيق وضمان الوضوح أمرًا بالغ الأهمية. يوفر Aspose.Words for .NET أدوات قوية للتعامل مع مستندات Word برمجيًا، مما يسمح للمطورين بأداء المهام المعقدة بكفاءة.
+عند العمل على مستندات كبيرة أو دمج عدة مستندات في مستند واحد، يُعدّ الحفاظ على التنسيق وضمان الوضوح أمرًا بالغ الأهمية. يوفر Aspose.Words for .NET أدوات فعّالة للتعامل مع مستندات Word برمجيًا، مما يسمح للمطورين بأداء المهام المعقدة بكفاءة.
 
 ## المتطلبات الأساسية
 
 قبل البدء في هذا البرنامج التعليمي، تأكد من أن لديك ما يلي:
 - تم تثبيت Visual Studio على جهازك.
--  مكتبة Aspose.Words لـ .NET. يمكنك تنزيلها من[هنا](https://releases.aspose.com/words/net/).
+- مكتبة Aspose.Words لـ .NET. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/net/).
 - المعرفة الأساسية ببرمجة C# وبيئة .NET.
 
 ## استيراد مساحات الأسماء
@@ -33,16 +35,16 @@ using Aspose.Words;
 using System;
 ```
 
-اتبع الخطوات التالية للانضمام إلى المستندات وإضافتها مع التأكد من أن المحتوى المُلحق يبدأ في صفحة جديدة:
+اتبع الخطوات التالية للانضمام إلى المستندات وإضافتها مع التأكد من أن المحتوى المضاف يبدأ في صفحة جديدة:
 
 ## الخطوة 1: إعداد مشروعك
 
-ابدأ بإنشاء تطبيق وحدة تحكم C# جديد في Visual Studio. قم بتثبيت حزمة Aspose.Words NuGet على مشروعك.
+ابدأ بإنشاء تطبيق وحدة تحكم C# جديد في Visual Studio. ثبّت حزمة Aspose.Words NuGet في مشروعك.
 
 ## الخطوة 2: تحميل مستندات المصدر والوجهة
 
 ```csharp
-// المسار إلى دليل المستند الخاص بك
+// المسار إلى دليل المستندات الخاص بك 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // تحميل مستندات المصدر والوجهة
@@ -50,7 +52,7 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 ```
 
- يستبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي لملفات المستندات الخاصة بك.
+يستبدل `"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي لملفات المستندات الخاصة بك.
 
 ## الخطوة 3: تعيين بداية القسم إلى صفحة جديدة
 
@@ -60,7 +62,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 ```
 
-يضمن هذا أن المحتوى المُلحق يبدأ في صفحة جديدة في المستند الوجهة.
+ويضمن هذا أن يبدأ المحتوى الملحق في صفحة جديدة في المستند الوجهة.
 
 ## الخطوة 4: إضافة مستند المصدر إلى مستند الوجهة
 
@@ -71,7 +73,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
-## الخطوة 5: احفظ المستند المعدّل
+## الخطوة 5: حفظ المستند المعدّل
 
 حفظ مستند الوجهة المعدل في ملف جديد:
 
@@ -83,7 +85,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinNewPage.docx");
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية ضم المستندات وإضافتها إلى ملف Word باستخدام Aspose.Words for .NET. باتباع هذه الخطوات، يمكنك دمج مستندات متعددة بكفاءة مع ضمان بدء المحتوى المضاف في صفحة جديدة، مع الحفاظ على التنسيق الأصلي.
+في هذا البرنامج التعليمي، تعلمنا كيفية ضمّ المستندات وإضافتها إلى ملف وورد باستخدام Aspose.Words لـ .NET. باتباع هذه الخطوات، يمكنك دمج مستندات متعددة بكفاءة مع ضمان بدء المحتوى المُلحق في صفحة جديدة، مع الحفاظ على التنسيق الأصلي.
 
 ## الأسئلة الشائعة
 
@@ -94,16 +96,21 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinNewPage.docx");
 يوفر Aspose.Words أوضاع استيراد مختلفة للتعامل مع تعارضات التنسيق، مثل الاحتفاظ بتنسيق المصدر أو استخدام تنسيق الوجهة.
 
 ### هل يدعم Aspose.Words إضافة مستندات بلغات أو ترميزات مختلفة؟
-نعم، يتعامل Aspose.Words مع إلحاق المستندات بغض النظر عن اللغة أو الترميز، مما يضمن التكامل السلس.
+نعم، يتعامل Aspose.Words مع إضافة المستندات بغض النظر عن اللغة أو الترميز، مما يضمن التكامل السلس.
 
 ### هل من الممكن إضافة مستندات تحتوي على وحدات ماكرو أو حقول نماذج؟
 يدعم Aspose.Words إلحاق المستندات باستخدام وحدات الماكرو وحقول النماذج، مع الحفاظ على وظائفها في المستند المدمج.
 
 ### هل يمكنني أتمتة مهام إلحاق المستندات في عملية دفعية باستخدام Aspose.Words؟
 يتيح لك Aspose.Words for .NET أتمتة مهام إلحاق المستندات في عمليات الدفعات، مما يعزز الإنتاجية في إدارة المستندات.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

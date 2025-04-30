@@ -1,14 +1,16 @@
 ---
-title: Yazı Tipi Biçimlendirmesini Ayarla
-linktitle: Yazı Tipi Biçimlendirmesini Ayarla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde yazı tipi biçimlendirmesini nasıl ayarlayacağınızı öğrenin. Belge otomasyonunuzu geliştirmek için ayrıntılı adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-fonts/set-font-formatting/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde yazı tipi biçimlendirmesini nasıl ayarlayacağınızı öğrenin. Belge otomasyonunuzu geliştirmek için ayrıntılı adım adım kılavuzumuzu izleyin."
+"linktitle": "Yazı Tipi Biçimlendirmesini Ayarla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yazı Tipi Biçimlendirmesini Ayarla"
+"url": "/tr/net/working-with-fonts/set-font-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yazı Tipi Biçimlendirmesini Ayarla
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak belge düzenleme dünyasına dalmaya hazır mı
 
 Ayrıntılara dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET Kütüphanesi: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio gibi bir geliştirme ortamı kurmuş olmanız gerekir.
 - Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır.
 
@@ -39,7 +41,7 @@ using System.Drawing;
 
 ## Adım 1: Belgeyi ve DocumentBuilder'ı Başlatın
 
- Öncelikle yeni bir belge oluşturmanız ve başlatmanız gerekir`DocumentBuilder` Belgenizi oluşturmanıza ve biçimlendirmenize yardımcı olacak sınıf.
+Öncelikle yeni bir belge oluşturmanız ve başlatmanız gerekir `DocumentBuilder` Belgenizi oluşturmanıza ve biçimlendirmenize yardımcı olacak sınıf.
 
 ```csharp
 // Belge dizininize giden yol
@@ -101,16 +103,21 @@ Aspose.Words for .NET, Word belgelerini programatik olarak oluşturmak, düzenle
 Evet, Aspose.Words for .NET'i VB.NET ve F# dahil olmak üzere herhangi bir .NET diliyle kullanabilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Words for .NET üretim kullanımı için bir lisans gerektirir. Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya bir tane elde edin[geçici lisans](https://purchase.aspose.com/temporary-license) Değerlendirme amaçlı.
+Evet, Aspose.Words for .NET üretim kullanımı için bir lisans gerektirir. Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy) veya bir tane elde edin [geçici lisans](https://purchase.aspose.com/temporary-license) değerlendirme amaçlı.
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
-Aspose topluluğundan ve destek ekibinden destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan ve destek ekibinden destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
 
 ### Metnin belirli bölümlerini farklı şekilde biçimlendirebilir miyim?
- Evet, metnin belirli bölümlerine farklı biçimlendirmeler uygulayabilirsiniz.`Font` özellikleri`DocumentBuilder` ihtiyaç duyulduğu takdirde.
+Evet, metnin belirli bölümlerine farklı biçimlendirmeler uygulayabilirsiniz. `Font` özellikleri `DocumentBuilder` ihtiyaç duyulduğu takdirde.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

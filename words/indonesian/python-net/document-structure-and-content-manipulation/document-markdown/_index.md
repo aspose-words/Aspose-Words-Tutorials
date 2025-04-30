@@ -1,14 +1,16 @@
 ---
-title: Memanfaatkan Pemformatan Markdown dalam Dokumen Word
-linktitle: Memanfaatkan Pemformatan Markdown dalam Dokumen Word
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengintegrasikan format Markdown ke dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk pembuatan konten yang dinamis dan menarik secara visual.
-weight: 19
-url: /id/python-net/document-structure-and-content-manipulation/document-markdown/
+"description": "Pelajari cara mengintegrasikan format Markdown ke dalam dokumen Word menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan contoh kode untuk pembuatan konten yang dinamis dan menarik secara visual."
+"linktitle": "Memanfaatkan Pemformatan Markdown dalam Dokumen Word"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Memanfaatkan Pemformatan Markdown dalam Dokumen Word"
+"url": "/id/python-net/document-structure-and-content-manipulation/document-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memanfaatkan Pemformatan Markdown dalam Dokumen Word
@@ -55,7 +57,7 @@ builder.writeln(markdown_text)
 Markdown menyediakan cara mudah untuk menerapkan gaya pada teks Anda. Anda dapat menggabungkan berbagai elemen untuk membuat tajuk, daftar, dan lainnya. Berikut contohnya:
 
 ```python
-markdown_styled_text = "# Heading 1\n\n**Bold Text**\n\n- Item 1\n- Item 2"
+markdown_styled_text = "# Judul 1\n\n**Teks Tebal**\n\n- Item 1\n- Item 2"
 builder.writeln(markdown_styled_text)
 ```
 
@@ -122,10 +124,15 @@ Ya, Aspose.Words mendukung penyimpanan dokumen dalam berbagai format, seperti DO
 
 ### Di mana saya dapat mengakses Aspose.Words untuk dokumentasi Python?
 
- Anda dapat menemukan dokumentasi dan referensi lengkap di[Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/).
+Anda dapat menemukan dokumentasi dan referensi lengkap di [Aspose.Words untuk Referensi API Python](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

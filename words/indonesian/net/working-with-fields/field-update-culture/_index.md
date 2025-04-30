@@ -1,14 +1,16 @@
 ---
-title: Budaya Pembaruan Lapangan
-linktitle: Budaya Pembaruan Lapangan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengonfigurasi budaya pembaruan bidang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh kode dan kiat untuk pembaruan yang akurat.
-weight: 10
-url: /id/net/working-with-fields/field-update-culture/
+"description": "Pelajari cara mengonfigurasi budaya pembaruan bidang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh kode dan kiat untuk pembaruan yang akurat."
+"linktitle": "Budaya Pembaruan Lapangan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Budaya Pembaruan Lapangan"
+"url": "/id/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Budaya Pembaruan Lapangan
@@ -21,15 +23,15 @@ Bayangkan Anda sedang mengerjakan dokumen Word dengan berbagai bidang seperti ta
 
 Sebelum kita menyelami seluk-beluk budaya pembaruan lapangan, ada beberapa hal yang perlu Anda ketahui untuk memulai:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: Tutorial ini mengasumsikan Anda menggunakan Visual Studio atau IDE serupa yang mendukung pengembangan .NET.
 
 3. Pengetahuan Dasar C#: Anda harus nyaman dengan pemrograman C# dan manipulasi dokumen Word dasar.
 
-4.  Lisensi Aspose: Untuk fungsionalitas penuh, Anda mungkin memerlukan lisensi. Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Aspose: Untuk fungsionalitas penuh, Anda mungkin memerlukan lisensi. Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
-5.  Akses ke Dokumentasi dan Dukungan: Untuk bantuan tambahan,[Dokumentasi Aspose](https://reference.aspose.com/words/net/) Dan[Forum Dukungan](https://forum.aspose.com/c/words/8) adalah sumber daya yang hebat.
+5. Akses ke Dokumentasi dan Dukungan: Untuk bantuan tambahan, [Dokumentasi Aspose](https://reference.aspose.com/words/net/) Dan [Forum Dukungan](https://forum.aspose.com/c/words/8) adalah sumber daya yang hebat.
 
 ## Mengimpor Ruang Nama
 
@@ -44,7 +46,7 @@ Sekarang Anda sudah menyiapkannya, mari kita uraikan proses konfigurasi budaya p
 
 ## Langkah 1: Siapkan Dokumen dan DocumentBuilder Anda
 
- Pertama, Anda perlu membuat dokumen baru dan`DocumentBuilder` objek. Itu`DocumentBuilder` adalah kelas praktis yang memungkinkan Anda membuat dan memodifikasi dokumen Word dengan mudah.
+Pertama, Anda perlu membuat dokumen baru dan `DocumentBuilder` objek. Itu `DocumentBuilder` adalah kelas praktis yang memungkinkan Anda membuat dan memodifikasi dokumen Word dengan mudah.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -55,7 +57,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Pada langkah ini, Anda menentukan direktori tempat Anda ingin menyimpan dokumen Anda.`Document` kelas menginisialisasi dokumen Word baru, dan`DocumentBuilder` kelas membantu Anda menyisipkan dan memformat konten.
+Pada langkah ini, Anda menentukan direktori tempat Anda ingin menyimpan dokumen Anda. `Document` kelas menginisialisasi dokumen Word baru, dan `DocumentBuilder` kelas membantu Anda menyisipkan dan memformat konten.
 
 ## Langkah 2: Masukkan Bidang Waktu
 
@@ -66,7 +68,7 @@ Berikutnya, Anda akan memasukkan kolom waktu ke dalam dokumen. Ini adalah kolom 
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- Di Sini,`FieldType.FieldTime` menentukan bahwa Anda ingin memasukkan bidang waktu. Parameter kedua,`true`, menunjukkan bahwa bidang tersebut harus diperbarui secara otomatis.
+Di Sini, `FieldType.FieldTime` menentukan bahwa Anda ingin memasukkan bidang waktu. Parameter kedua, `true`, menunjukkan bahwa bidang tersebut harus diperbarui secara otomatis.
 
 ## Langkah 3: Konfigurasikan Budaya Pembaruan Lapangan
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 Sekarang kita perlu menerapkan penyedia budaya khusus, yang akan mengontrol bagaimana pengaturan budaya seperti format tanggal diterapkan saat bidang diperbarui.
 
-Kita akan membuat kelas yang disebut`FieldUpdateCultureProvider` yang mengimplementasikan`IFieldUpdateCultureProvider` antarmuka. Kelas ini akan mengembalikan format budaya yang berbeda berdasarkan wilayah. Untuk contoh ini, kami akan mengonfigurasi pengaturan budaya Rusia dan AS.
+Kita akan membuat kelas yang disebut `FieldUpdateCultureProvider` yang mengimplementasikan `IFieldUpdateCultureProvider` antarmuka. Kelas ini akan mengembalikan format budaya yang berbeda berdasarkan wilayah. Untuk contoh ini, kami akan mengonfigurasi pengaturan budaya Rusia dan AS.
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -135,7 +137,7 @@ Terakhir, simpan dokumen Anda ke direktori yang ditentukan. Ini memastikan bahwa
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- Mengganti`"YOUR DOCUMENTS DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file. Dokumen akan disimpan sebagai PDF dengan nama`UpdateCultureChamps.pdf`.
+Mengganti `"YOUR DOCUMENTS DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file. Dokumen akan disimpan sebagai PDF dengan nama `UpdateCultureChamps.pdf`.
 
 ## Kesimpulan
 
@@ -153,18 +155,23 @@ Ya, Aspose.Words mendukung berbagai jenis bidang, termasuk tanggal dan bidang kh
 
 ### Apakah saya memerlukan lisensi khusus untuk menggunakan fitur budaya pembaruan bidang di Aspose.Words?
 
- Untuk fungsionalitas penuh, Anda mungkin memerlukan lisensi Aspose yang valid. Anda dapat memperolehnya melalui[Halaman pembelian Aspose](https://purchase.aspose.com/buy) atau menggunakan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Untuk fungsionalitas penuh, Anda mungkin memerlukan lisensi Aspose yang valid. Anda dapat memperolehnya melalui [Halaman pembelian Aspose](https://purchase.aspose.com/buy) atau menggunakan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana saya dapat menyesuaikan budaya pembaruan lapangan lebih lanjut?
 
- Anda dapat memperpanjang`FieldUpdateCultureProvider` kelas untuk membuat penyedia budaya khusus yang disesuaikan dengan kebutuhan spesifik Anda.
+Anda dapat memperpanjang `FieldUpdateCultureProvider` kelas untuk membuat penyedia budaya khusus yang disesuaikan dengan kebutuhan spesifik Anda.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut atau mendapatkan bantuan jika saya mengalami masalah?
 
- Untuk dokumentasi dan dukungan terperinci, kunjungi[Dokumentasi Aspose](https://reference.aspose.com/words/net/) dan[Forum Dukungan Aspose](https://forum.aspose.com/c/words/8).
+Untuk dokumentasi dan dukungan terperinci, kunjungi [Dokumentasi Aspose](https://reference.aspose.com/words/net/) dan [Forum Dukungan Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

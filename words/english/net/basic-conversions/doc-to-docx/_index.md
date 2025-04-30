@@ -7,8 +7,11 @@ weight: 10
 url: /net/basic-conversions/doc-to-docx/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Doc To Docx
@@ -82,9 +85,13 @@ You can buy a license [here](https://purchase.aspose.com/buy).
 For support, visit the Aspose.Words [forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

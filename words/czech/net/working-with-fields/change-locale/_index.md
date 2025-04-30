@@ -1,35 +1,37 @@
 ---
-title: Změnit národní prostředí
-linktitle: Změnit národní prostředí
-second_title: Aspose.Words API pro zpracování dokumentů
-description: V této příručce se dozvíte, jak změnit národní prostředí v dokumentech aplikace Word pomocí Aspose.Words for .NET. Ideální pro řešení mezinárodních klientů a projektů.
-weight: 10
-url: /cs/net/working-with-fields/change-locale/
+"description": "Naučte se v tomto průvodci, jak změnit národní prostředí v dokumentech Word pomocí Aspose.Words pro .NET. Ideální pro práci s mezinárodními klienty a projekty."
+"linktitle": "Změnit národní prostředí"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Změnit národní prostředí"
+"url": "/cs/net/working-with-fields/change-locale/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Změnit národní prostředí
 
 ## Zavedení
 
-Práce s dokumenty aplikace Word často vyžaduje trochu jemnosti, zejména při práci s různými lokalitami a kulturami. V tomto tutoriálu prozkoumáme, jak změnit národní prostředí dokumentu aplikace Word pomocí Aspose.Words for .NET. Ať už vytváříte dokumenty pro globální publikum nebo jen potřebujete změnit formát data, tento průvodce vám pomůže.
+Práce s dokumenty Word často vyžaduje trochu jemnosti, zejména při práci s různými jazyky a kulturami. V tomto tutoriálu se podíváme na to, jak změnit jazyk dokumentu Word pomocí Aspose.Words pro .NET. Ať už vytváříte dokumenty pro globální publikum, nebo jen potřebujete změnit formát data, tento průvodce vám s tím pomůže.
 
 ## Předpoklady
 
-Než se ponoříme do toho nejnutnějšího, ujistěte se, že máme vše, co potřebujeme:
+Než se pustíme do detailů, ujistěme se, že máme vše potřebné:
 
--  Aspose.Words for .NET: Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
+- Aspose.Words pro .NET: Můžete si jej stáhnout z [zde](https://releases.aspose.com/words/net/).
 - Visual Studio: Jakákoli verze, která podporuje .NET framework.
-- Základní znalost C#: Pochopení základů C# a .NET vám pomůže pokračovat.
+- Základní znalost C#: Znalost základů C# a .NET vám pomůže se v daném textu orientovat.
 
- Ujistěte se, že jste nainstalovali Aspose.Words pro .NET. Pokud ne, můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/) nebo si to koupit[zde](https://purchase.aspose.com/buy).
+Ujistěte se, že máte nainstalovaný Aspose.Words pro .NET. Pokud ne, můžete si stáhnout bezplatnou zkušební verzi. [zde](https://releases.aspose.com/) nebo si to kupte [zde](https://purchase.aspose.com/buy).
 
 ## Importovat jmenné prostory
 
-Než začneme kódovat, musíme naimportovat potřebné jmenné prostory. Jsou jako ingredience v receptu a zajišťují, že vše funguje hladce.
+Než začneme s kódováním, musíme importovat potřebné jmenné prostory. Ty jsou jako ingredience v receptu a zajišťují, aby vše fungovalo hladce.
 
 ```csharp
 using System.Globalization;
@@ -38,11 +40,11 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-Změna národního prostředí v dokumentu aplikace Word je jednoduchý proces. Pojďme si to rozebrat krok za krokem.
+Změna národního prostředí v dokumentu Wordu je jednoduchý proces. Pojďme si ho rozebrat krok za krokem.
 
-## Krok 1: Nastavte svůj dokument
+## Krok 1: Nastavení dokumentu
 
-Nejprve si nastavíme náš dokument a tvůrce dokumentů. Je to jako nastavit si pracovní prostor, než začnete vařit.
+Nejdříve si nastavme náš nástroj pro tvorbu dokumentů a dokumentů. Je to jako když si před vařením nastavíte pracovní prostor.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -50,33 +52,33 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Vložte slučovací pole
+## Krok 2: Vložení slučovacího pole
 
-Nyní vložíme slučovací pole pro datum. Zde vstoupí do hry národní prostředí.
+Nyní vložíme slučovací pole pro datum. Zde se projeví nastavení národního prostředí.
 
 ```csharp
 builder.InsertField("MERGEFIELD Date");
 ```
 
-## Krok 3: Uložit aktuální kulturu
+## Krok 3: Uložení aktuální kultury
 
-Než změníme národní prostředí, musíme uložit aktuální kulturu. Berte to jako záložku svého místa, než přejdete k další kapitole.
+Než změníme lokaci, musíme si uložit aktuální kulturu. Představte si to jako uložení vaší lokality do záložek před přechodem na další kapitolu.
 
 ```csharp
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 ```
 
-## Krok 4: Změňte národní prostředí
+## Krok 4: Změna národního prostředí
 
-Dále změníme aktuální kulturu vlákna na němčinu ("de-DE"). Je to jako přepínání jazykových nastavení v telefonu.
+Dále změníme aktuální jazykovou verzi vlákna na němčinu („de-DE“). Je to jako přepnutí jazykového nastavení v telefonu.
 
 ```csharp
 Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 ```
 
-## Krok 5: Proveďte hromadnou korespondenci
+## Krok 5: Spuštění hromadné korespondence
 
-Nyní provedeme hromadnou korespondenci s aktuálním datem. Tím se nové národní prostředí použije na formát data.
+Nyní spustíme hromadnou korespondenci s aktuálním datem. Tím se na formát data použije nové národní prostředí.
 
 ```csharp
 doc.MailMerge.Execute(new[] { "Date" }, new object[] { DateTime.Now });
@@ -84,7 +86,7 @@ doc.MailMerge.Execute(new[] { "Date" }, new object[] { DateTime.Now });
 
 ## Krok 6: Obnovte původní kulturu
 
-Po provedení hromadné korespondence obnovíme původní kulturu. Je to jako přepnutí zpět na preferovaná jazyková nastavení.
+Po provedení hromadné korespondence obnovíme původní jazykovou verzi. Je to jako přepnutí zpět na preferované jazykové nastavení.
 
 ```csharp
 Thread.CurrentThread.CurrentCulture = currentCulture;
@@ -92,37 +94,42 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 ## Krok 7: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře.
+Nakonec uložte dokument do vámi určeného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFields.ChangeLocale.docx");
 ```
 
-tady to máte! Úspěšně jste změnili národní prostředí v dokumentu aplikace Word pomocí Aspose.Words for .NET.
+A tady to máte! Úspěšně jste změnili národní prostředí ve vašem dokumentu Word pomocí Aspose.Words pro .NET.
 
 ## Závěr
 
-Změna národního prostředí v dokumentech aplikace Word může být neuvěřitelně užitečná, zejména při jednání s mezinárodními klienty nebo projekty. S Aspose.Words pro .NET se tento úkol stává hračkou. Postupujte podle těchto kroků a budete moci bez námahy přepínat národní prostředí.
+Změna národního prostředí v dokumentech Wordu může být neuvěřitelně užitečná, zejména při práci s mezinárodními klienty nebo projekty. S Aspose.Words pro .NET se tento úkol stává hračkou. Postupujte podle těchto kroků a budete moci bez námahy přepínat národní prostředí.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu změnit národní prostředí na jakýkoli jazyk?
-Ano, Aspose.Words for .NET podporuje změnu národního prostředí na jakýkoli jazyk podporovaný .NET.
+### Mohu změnit jazykové nastavení na libovolný?
+Ano, Aspose.Words pro .NET podporuje změnu národního prostředí na jakýkoli jazyk podporovaný .NET.
 
-### Ovlivní to další části mého dokumentu?
-Změna národního prostředí ovlivní především formát data a čísla. Ostatní text zůstane nezměněn.
+### Ovlivní to i další části mého dokumentu?
+Změna národního prostředí ovlivní především formáty data a čísel. Ostatní text zůstane nezměněn.
 
-### Potřebuji k používání Aspose.Words pro .NET speciální licenci?
- Můžete začít s bezplatnou zkušební verzí, ale pro další používání si budete muset zakoupit licenci[zde](https://purchase.aspose.com/buy).
+### Potřebuji speciální licenci k používání Aspose.Words pro .NET?
+Můžete začít s bezplatnou zkušební verzí, ale pro další používání si budete muset zakoupit licenci. [zde](https://purchase.aspose.com/buy).
 
-### Mohu se vrátit do původního národního prostředí, pokud se něco pokazí?
+### Mohu se vrátit k původnímu národnímu prostředí, pokud se něco pokazí?
 Ano, uložením původní kultury a jejím pozdějším obnovením se můžete vrátit k původnímu národnímu prostředí.
 
 ### Kde mohu získat podporu, pokud narazím na problémy?
- Můžete získat podporu od komunity Aspose[zde](https://forum.aspose.com/c/words/8).
+Podporu můžete získat od komunity Aspose [zde](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

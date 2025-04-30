@@ -1,14 +1,16 @@
 ---
-title: Automatyczne dopasowanie tabeli do zawartości
-linktitle: Automatyczne dopasowanie tabeli do zawartości
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak automatycznie dopasowywać tabele do zawartości w dokumentach Word za pomocą Aspose.Words dla .NET z tego przewodnika. Idealne do dynamicznego i schludnego formatowania dokumentów.
-weight: 10
-url: /pl/net/programming-with-tables/auto-fit-table-to-contents/
+"description": "Dowiedz się, jak automatycznie dopasowywać tabele do zawartości w dokumentach Word za pomocą Aspose.Words dla .NET z tego przewodnika. Idealne do dynamicznego i schludnego formatowania dokumentów."
+"linktitle": "Automatyczne dopasowanie tabeli do zawartości"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Automatyczne dopasowanie tabeli do zawartości"
+"url": "/pl/net/programming-with-tables/auto-fit-table-to-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyczne dopasowanie tabeli do zawartości
@@ -21,7 +23,7 @@ Czy kiedykolwiek zmagałeś się z tabelami, które wyglądają, jakby zostały 
 
 Zanim przejdziemy do kodu, oto co musisz mieć:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words. Możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: Środowisko programistyczne podobne do Visual Studio, służące do pisania i testowania kodu.
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, ponieważ będziemy go używać do manipulowania dokumentami Word.
 
@@ -34,18 +36,18 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- Ten`Aspose.Words` przestrzeń nazw zapewnia podstawową funkcjonalność do obsługi dokumentów Word, podczas gdy`Aspose.Words.Tables` zawiera klasy przeznaczone specjalnie do pracy z tabelami.
+Ten `Aspose.Words` przestrzeń nazw zapewnia podstawową funkcjonalność do obsługi dokumentów Word, podczas gdy `Aspose.Words.Tables` zawiera klasy przeznaczone specjalnie do pracy z tabelami.
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
 Najpierw zdefiniuj ścieżkę, w której przechowywany jest Twój dokument. Będzie to Twój punkt wyjścia do ładowania i zapisywania plików.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój dokument. To tak, jakbyś ustawiał swoją przestrzeń roboczą przed rozpoczęciem projektu.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój dokument. To tak, jakbyś ustawiał swoją przestrzeń roboczą przed rozpoczęciem projektu.
 
 ## Krok 2: Załaduj swój dokument
 
@@ -55,7 +57,7 @@ Teraz załadujmy dokument Word zawierający tabelę, którą chcesz sformatować
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- W tym kroku otwieramy dokument o nazwie`Tables.docx`Upewnij się, że plik istnieje w określonym katalogu, w przeciwnym razie pojawi się błąd. Wyobraź sobie, że otwierasz plik w swoim ulubionym edytorze tekstu przed wprowadzeniem zmian.
+W tym kroku otwieramy dokument o nazwie `Tables.docx`Upewnij się, że plik istnieje w określonym katalogu, w przeciwnym razie pojawi się błąd. Wyobraź sobie, że otwierasz plik w swoim ulubionym edytorze tekstu przed wprowadzeniem zmian.
 
 ## Krok 3: Uzyskaj dostęp do tabeli
 
@@ -94,10 +96,10 @@ Automatyczne dopasowywanie tabel do zawartości za pomocą Aspose.Words dla .NET
 ## Najczęściej zadawane pytania
 
 ### Czy mogę automatycznie dopasować tylko określone kolumny w tabeli?
- Ten`AutoFit` Metoda ta dotyczy całej tabeli. Jeśli trzeba dostosować konkretne kolumny, może być konieczne ręczne ustawienie szerokości kolumn.
+Ten `AutoFit` Metoda ta dotyczy całej tabeli. Jeśli trzeba dostosować konkretne kolumny, może być konieczne ręczne ustawienie szerokości kolumn.
 
 ### Co zrobić, jeśli mój dokument zawiera wiele tabel?
- Możesz przejść przez wszystkie tabele w dokumencie za pomocą pętli`doc.GetChildNodes(NodeType.Table, true)` i zastosuj automatyczne dopasowanie, jeśli zajdzie taka potrzeba.
+Możesz przejść przez wszystkie tabele w dokumencie za pomocą pętli `doc.GetChildNodes(NodeType.Table, true)` zastosuj automatyczne dopasowanie, jeśli zajdzie taka potrzeba.
 
 ### Jak mogę cofnąć zmiany, jeśli zajdzie taka potrzeba?
 Przed zastosowaniem zmian wykonaj kopię zapasową oryginalnego dokumentu lub zapisuj różne wersje dokumentu w trakcie pracy.
@@ -107,9 +109,14 @@ Tak, ale upewnij się, że masz odpowiednie uprawnienia do modyfikacji dokumentu
 
 ### Skąd będę wiedzieć, czy automatyczne dopasowanie przebiegło pomyślnie?
 Otwórz zapisany dokument i sprawdź układ tabeli. Powinien dostosować się do zawartości.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

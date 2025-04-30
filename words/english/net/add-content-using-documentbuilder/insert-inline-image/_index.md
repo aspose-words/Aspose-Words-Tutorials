@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/insert-inline-image/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Inline Image In Word Document
@@ -90,9 +93,13 @@ Yes, you can specify the position of an inline image using the document builder'
 ### Can I embed images from URLs into a Word document using Aspose.Words for .NET?
 Yes, you can download images from URLs using .NET libraries and then insert them into a Word document using Aspose.Words for .NET.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

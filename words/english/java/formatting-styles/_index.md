@@ -5,8 +5,11 @@ weight: 4
 url: "/java/formatting-styles/"
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting & Styles Tutorials for Aspose.Words Java
@@ -56,9 +59,13 @@ Learn how to efficiently manage document styles with Aspose.Words for Java by re
 - [Aspose.Words Forum](https://forum.aspose.com/c/words)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

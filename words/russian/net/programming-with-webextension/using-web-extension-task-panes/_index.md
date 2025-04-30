@@ -1,14 +1,16 @@
 ---
-title: Использование панелей задач веб-расширения
-linktitle: Использование панелей задач веб-расширения
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавлять и настраивать панели задач веб-расширений в документах Word с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/programming-with-webextension/using-web-extension-task-panes/
+"description": "Узнайте, как добавлять и настраивать панели задач веб-расширений в документах Word с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Использование панелей задач веб-расширения"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Использование панелей задач веб-расширения"
+"url": "/ru/net/programming-with-webextension/using-web-extension-task-panes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование панелей задач веб-расширения
@@ -21,10 +23,10 @@ url: /ru/net/programming-with-webextension/using-web-extension-task-panes/
 
 Прежде чем мы начнем, давайте убедимся, что у вас есть все необходимое:
 
--  Aspose.Words для .NET: Вы можете скачать его[здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Вы можете скачать его [здесь](https://releases.aspose.com/words/net/).
 - Среда разработки .NET: Visual Studio или любая другая IDE по вашему выбору.
 - Базовые знания C#: это поможет вам разобраться в примерах кода.
--  Лицензия для Aspose.Words: Вы можете купить одну[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+- Лицензия для Aspose.Words: Вы можете купить одну [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ## Импорт пространств имен
 
@@ -48,7 +50,7 @@ using Aspose.Words.WebExtensions;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке с вашими документами.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к папке с вашими документами.
 
 ### Шаг 2: Создание нового документа
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document();
 ```
 
- Эта строка инициализирует новый экземпляр`Document` класс, представляющий документ Word.
+Эта строка инициализирует новый экземпляр `Document` класс, представляющий документ Word.
 
 ### Шаг 3: Добавление панели задач
 
@@ -69,7 +71,7 @@ TaskPane taskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(taskPane);
 ```
 
- Здесь мы создаем новый`TaskPane` объект и добавьте его в документ`WebExtensionTaskPanes` коллекция.
+Здесь мы создаем новый `TaskPane` объект и добавьте его в документ `WebExtensionTaskPanes` коллекция.
 
 ### Шаг 4: Настройка панели задач
 
@@ -96,7 +98,7 @@ taskPane.WebExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
 taskPane.WebExtension.Reference.Store = "th-TH";
 ```
 
-- `Id`уникальный идентификатор веб-расширения.
+- `Id` уникальный идентификатор веб-расширения.
 - `Version` указывает версию расширения.
 - `StoreType` указывает тип магазина (в данном случае OMEX).
 - `Store` указывает код языка/культуры магазина.
@@ -109,11 +111,11 @@ taskPane.WebExtension.Reference.Store = "th-TH";
 taskPane.WebExtension.Properties.Add(new WebExtensionProperty("mailchimpCampaign", "mailchimpCampaign"));
 ```
 
- Здесь мы добавляем свойство с именем`mailchimpCampaign`.
+Здесь мы добавляем свойство с именем `mailchimpCampaign`.
 
 ### Шаг 7: Привязка веб-расширения
 
-Наконец, мы добавляем привязки к нашему веб-расширению. Привязки позволяют вам привязывать расширение к определенным частям документа.
+Наконец, мы добавляем привязки к нашему веб-расширению. Привязки позволяют вам связать расширение с определенными частями документа.
 
 ```csharp
 taskPane.WebExtension.Bindings.Add(new WebExtensionBinding("UnnamedBinding_0_1506535429545", WebExtensionBindingType.Text, "194740422"));
@@ -161,19 +163,24 @@ foreach (TaskPane taskPaneInfo in doc.WebExtensionTaskPanes)
 Панель задач — это элемент интерфейса, который предоставляет дополнительные инструменты и функции в документе Word, улучшая взаимодействие с пользователем и повышая производительность.
 
 ### Могу ли я настроить внешний вид панели задач?
- Да, вы можете настроить внешний вид панели задач, задав такие свойства, как`DockState`, `IsVisible` , и`Width`.
+Да, вы можете настроить внешний вид панели задач, задав такие свойства, как `DockState`, `IsVisible`, и `Width`.
 
 ### Что такое свойства веб-расширения?
 Свойства веб-расширения — это пользовательские свойства, которые можно добавить к веб-расширению, чтобы определить его поведение или содержимое.
 
 ### Как привязать веб-расширение к части документа?
- Вы можете привязать веб-расширение к части документа с помощью`WebExtensionBinding` класс, указывающий тип привязки и целевой идентификатор.
+Вы можете привязать веб-расширение к части документа с помощью `WebExtensionBinding` класс, указывающий тип привязки и целевой идентификатор.
 
 ### Где я могу найти более подробную информацию об Aspose.Words для .NET?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/words/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

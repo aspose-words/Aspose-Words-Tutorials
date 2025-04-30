@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole
-linktitle: Wstaw pole
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawiać pola do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne do automatyzacji dokumentów.
-weight: 10
-url: /pl/net/working-with-fields/insert-field/
+"description": "Dowiedz się, jak wstawiać pola do dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne do automatyzacji dokumentów."
+"linktitle": "Wstaw pole"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw pole"
+"url": "/pl/net/working-with-fields/insert-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole
@@ -21,10 +23,10 @@ Czy kiedykolwiek musiałeś zautomatyzować tworzenie i manipulację dokumentami
 
 Zanim zaczniemy, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Można go pobrać[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Można go pobrać [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 3. IDE: Zintegrowane środowisko programistyczne podobne do Visual Studio.
-4.  Licencja tymczasowa: Możesz uzyskać jedną[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja tymczasowa: Możesz uzyskać jedną [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 Upewnij się, że zainstalowałeś Aspose.Words dla .NET i skonfigurowałeś środowisko programistyczne. Gotowy? Zaczynajmy!
 
@@ -51,7 +53,7 @@ Aby użyć Aspose.Words, musimy dodać go do naszego projektu. Kliknij prawym pr
 
 ### Zainicjuj swój katalog dokumentów
 
- Potrzebujemy katalogu, w którym zostanie zapisany nasz dokument. W tym samouczku użyjmy katalogu zastępczego. Zastąp`"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
+Potrzebujemy katalogu, w którym zostanie zapisany nasz dokument. W tym samouczku użyjmy katalogu zastępczego. Zastąp `"YOUR DOCUMENTS DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać dokument.
 
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
@@ -76,7 +78,7 @@ Mając gotowy DocumentBuilder, możemy teraz wstawić pole. Pola to dynamiczne e
 builder.InsertField(@"MERGEFIELD MyFieldName \* MERGEFORMAT");
 ```
 
-tym przykładzie wstawiamy pole MERGEFIELD, które jest zwykle używane w przypadku operacji korespondencji seryjnej.
+W tym przykładzie wstawiamy pole MERGEFIELD, które jest zwykle używane w przypadku operacji korespondencji seryjnej.
 
 ### Zapisz dokument
 
@@ -98,7 +100,7 @@ Gratulacje! Właśnie nauczyłeś się, jak wstawiać pole do dokumentu Word za 
 Oczywiście! Aspose.Words obsługuje szeroki zakres pól, w tym MERGEFIELD, IF, INCLUDETEXT i inne.
 
 ### Jak mogę sformatować pola wstawione do dokumentu?  
- Możesz użyć przełączników pól, aby sformatować pola. Na przykład,`\* MERGEFORMAT` zachowuje formatowanie zastosowane w polu.
+Możesz użyć przełączników pól, aby sformatować pola. Na przykład, `\* MERGEFORMAT` zachowuje formatowanie zastosowane w polu.
 
 ### Czy Aspose.Words dla .NET jest kompatybilny z .NET Core?  
 Tak, Aspose.Words dla .NET jest kompatybilny zarówno z .NET Framework, jak i .NET Core.
@@ -107,10 +109,15 @@ Tak, Aspose.Words dla .NET jest kompatybilny zarówno z .NET Framework, jak i .N
 Tak, możesz zautomatyzować wstawianie pól masowo, przechodząc przez dane w pętli i używając DocumentBuildera do programowego wstawiania pól.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą Aspose.Words dla .NET?  
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

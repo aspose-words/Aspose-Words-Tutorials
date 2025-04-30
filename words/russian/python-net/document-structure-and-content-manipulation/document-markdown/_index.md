@@ -1,14 +1,16 @@
 ---
-title: Использование форматирования Markdown в документах Word
-linktitle: Использование форматирования Markdown в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Узнайте, как интегрировать форматирование Markdown в документы Word с помощью Aspose.Words для Python. Пошаговое руководство с примерами кода для создания динамичного и визуально привлекательного контента.
-weight: 19
-url: /ru/python-net/document-structure-and-content-manipulation/document-markdown/
+"description": "Узнайте, как интегрировать форматирование Markdown в документы Word с помощью Aspose.Words для Python. Пошаговое руководство с примерами кода для создания динамичного и визуально привлекательного контента."
+"linktitle": "Использование форматирования Markdown в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Использование форматирования Markdown в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование форматирования Markdown в документах Word
@@ -55,7 +57,7 @@ builder.writeln(markdown_text)
 Markdown предоставляет простой способ применения стиля к тексту. Вы можете комбинировать различные элементы для создания заголовков, списков и многого другого. Вот пример:
 
 ```python
-markdown_styled_text = "# Heading 1\n\n**Bold Text**\n\n- Item 1\n- Item 2"
+markdown_styled_text = "# Заголовок 1\n\n**Жирный текст**\n\n- Элемент 1\n- Элемент 2"
 builder.writeln(markdown_styled_text)
 ```
 
@@ -122,10 +124,15 @@ pip install aspose-words
 
 ### Где я могу получить доступ к документации Aspose.Words для Python?
 
- Подробную документацию и ссылки можно найти по адресу[Ссылки на API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+Подробную документацию и ссылки можно найти по адресу [Ссылки на API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

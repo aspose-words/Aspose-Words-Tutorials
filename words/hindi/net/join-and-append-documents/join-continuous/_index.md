@@ -1,14 +1,16 @@
 ---
-title: निरंतर जुड़ें
-linktitle: निरंतर जुड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके दो Word दस्तावेज़ों को सहजता से जोड़ना सीखें। एक सहज और कुशल दस्तावेज़ विलय के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/join-and-append-documents/join-continuous/
+"description": ".NET के लिए Aspose.Words का उपयोग करके दो Word दस्तावेज़ों को सहजता से जोड़ना सीखें। एक सहज और कुशल दस्तावेज़ विलय के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "निरंतर जुड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "निरंतर जुड़ें"
+"url": "/hi/net/join-and-append-documents/join-continuous/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # निरंतर जुड़ें
@@ -21,7 +23,7 @@ url: /hi/net/join-and-append-documents/join-continuous/
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
--  .NET के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है, तो डाउनलोड करें और इंस्टॉल करें[.NET के लिए Aspose.Words](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: यदि आपने पहले से ऐसा नहीं किया है, तो डाउनलोड करें और इंस्टॉल करें [.NET के लिए Aspose.Words](https://releases.aspose.com/words/net/).
 - विकास वातावरण: आप विजुअल स्टूडियो या किसी अन्य .NET विकास वातावरण का उपयोग कर सकते हैं।
 - नमूना दस्तावेज़: दो Word दस्तावेज़ तैयार रखें जिन्हें आप मर्ज करना चाहते हैं।
 
@@ -40,11 +42,11 @@ using Aspose.Words;
 सबसे पहले, हमें वह डायरेक्टरी सेट अप करनी होगी जहाँ आपके दस्तावेज़ संग्रहीत हैं। इससे हमारा कोड उन फ़ाइलों को ढूँढ़ पाएगा जिन्हें हम मर्ज करना चाहते हैं।
 
 ```csharp
-// आपके दस्तावेज़ निर्देशिका का पथ
+// आपके दस्तावेज़ निर्देशिका का पथ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपके दस्तावेज़ संग्रहीत हैं.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहां आपके दस्तावेज़ संग्रहीत हैं।
 
 ## चरण 2: स्रोत और गंतव्य दस्तावेज़ लोड करें
 
@@ -59,7 +61,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## चरण 3: अनुभाग प्रारंभ को सतत के रूप में सेट करें
 
- स्रोत दस्तावेज़ की सामग्री को गंतव्य दस्तावेज़ के तुरंत बाद प्रदर्शित करने के लिए, हमें सेट करने की आवश्यकता है`SectionStart` स्रोत दस्तावेज़ में पहले खंड की संपत्ति`Continuous`.
+स्रोत दस्तावेज़ की सामग्री को गंतव्य दस्तावेज़ के तुरंत बाद प्रदर्शित करने के लिए, हमें सेट करने की आवश्यकता है `SectionStart` स्रोत दस्तावेज़ में पहले खंड की संपत्ति `Continuous`.
 
 ```csharp
 // दस्तावेज़ को गंतव्य दस्तावेज़ की सामग्री के ठीक बाद प्रदर्शित करें.
@@ -77,7 +79,7 @@ srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.Continuous;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 ```
 
- का उपयोग करते हुए`ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण अंतिम मर्ज किए गए दस्तावेज़ में संरक्षित रहे।
+का उपयोग करते हुए `ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण अंतिम मर्ज किए गए दस्तावेज़ में संरक्षित रहे।
 
 ## चरण 5: मर्ज किए गए दस्तावेज़ को सहेजें
 
@@ -99,19 +101,24 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.JoinContinuous.docx");
 हां, आप अतिरिक्त दस्तावेज़ों को लोड करके और उन्हें क्रमिक रूप से जोड़कर एकाधिक दस्तावेज़ों को मर्ज करने की प्रक्रिया को दोहरा सकते हैं।
 
 ### क्या मूल स्वरूपण सुरक्षित रखा जाएगा?
- हां, उपयोग करके`ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण संरक्षित रहे।
+हां, उपयोग करके `ImportFormatMode.KeepSourceFormatting` यह सुनिश्चित करता है कि स्रोत दस्तावेज़ का स्वरूपण संरक्षित रहे।
 
 ### क्या Aspose.Words for .NET .NET कोर के साथ संगत है?
-हां, Aspose.Words for .NET .NET फ्रेमवर्क और .NET कोर दोनों के साथ संगत है।
+हां, .NET के लिए Aspose.Words .NET फ्रेमवर्क और .NET कोर दोनों के साथ संगत है।
 
 ### क्या मैं अलग-अलग पेज सेटअप वाले दस्तावेज़ों को मर्ज कर सकता हूँ?
 हां, लेकिन निर्बाध विलय सुनिश्चित करने के लिए आपको पृष्ठ सेटअप गुणों को समायोजित करने की आवश्यकता हो सकती है।
 
 ### यदि मुझे कोई समस्या आती है तो मुझे सहायता कहां से मिल सकती है?
- आप Aspose समुदाय मंच से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+आप Aspose समुदाय मंच से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

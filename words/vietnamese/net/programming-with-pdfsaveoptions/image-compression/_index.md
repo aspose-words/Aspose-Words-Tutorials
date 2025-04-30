@@ -1,14 +1,16 @@
 ---
-title: Nén hình ảnh trong tài liệu PDF
-linktitle: Nén hình ảnh trong tài liệu PDF
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách nén hình ảnh trong tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để tối ưu hóa kích thước và chất lượng tệp.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/image-compression/
+"description": "Tìm hiểu cách nén hình ảnh trong tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để tối ưu hóa kích thước và chất lượng tệp."
+"linktitle": "Nén hình ảnh trong tài liệu PDF"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Nén hình ảnh trong tài liệu PDF"
+"url": "/vi/net/programming-with-pdfsaveoptions/image-compression/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nén hình ảnh trong tài liệu PDF
@@ -21,7 +23,7 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý kích thướ
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Bạn cần phải cài đặt Aspose.Words cho .NET. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/words/net/).
 
 2. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ mã được cung cấp trong hướng dẫn này.
 
@@ -29,7 +31,7 @@ Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã đáp ứ
 
 4. Tài liệu mẫu: Chuẩn bị một tài liệu Word mẫu (ví dụ: "Rendering.docx") để thử nghiệm nén hình ảnh.
 
-5. Giấy phép Aspose: Nếu bạn đang sử dụng phiên bản được cấp phép của Aspose.Words cho .NET, hãy đảm bảo rằng bạn đã cấu hình giấy phép đúng cách. Nếu bạn cần giấy phép tạm thời, bạn có thể lấy một giấy phép từ[Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
+5. Giấy phép Aspose: Nếu bạn đang sử dụng phiên bản được cấp phép của Aspose.Words cho .NET, hãy đảm bảo rằng bạn đã cấu hình giấy phép đúng cách. Nếu bạn cần giấy phép tạm thời, bạn có thể lấy một giấy phép từ [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -51,21 +53,21 @@ Trước khi bắt đầu mã hóa, hãy xác định đường dẫn đến th�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ tài liệu mẫu của bạn.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi lưu trữ tài liệu mẫu của bạn.
 
 ## Bước 2: Tải tài liệu Word
 
- Tiếp theo, tải tài liệu Word của bạn vào`Aspose.Words.Document` đối tượng. Điều này sẽ cho phép bạn làm việc với tài liệu theo chương trình.
+Tiếp theo, tải tài liệu Word của bạn vào `Aspose.Words.Document` đối tượng. Điều này sẽ cho phép bạn làm việc với tài liệu theo chương trình.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Đây,`"Rendering.docx"` là tên của tài liệu Word mẫu của bạn. Đảm bảo rằng tệp này nằm trong thư mục được chỉ định.
+Đây, `"Rendering.docx"` là tên tài liệu Word mẫu của bạn. Đảm bảo rằng tệp này nằm trong thư mục được chỉ định.
 
 ## Bước 3: Cấu hình nén hình ảnh cơ bản
 
- Tạo một`PdfSaveOptions`đối tượng để cấu hình các tùy chọn lưu PDF, bao gồm nén hình ảnh. Đặt`ImageCompression`tài sản để`PdfImageCompression.Jpeg` sử dụng nén JPEG cho hình ảnh.
+Tạo một `PdfSaveOptions` đối tượng để cấu hình các tùy chọn lưu PDF, bao gồm nén hình ảnh. Đặt `ImageCompression` tài sản để `PdfImageCompression.Jpeg` sử dụng nén JPEG cho hình ảnh.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -85,11 +87,11 @@ Lưu tài liệu Word dưới dạng PDF với các tùy chọn nén hình ảnh
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression.pdf", saveOptions);
 ```
 
- Trong ví dụ này, PDF đầu ra được đặt tên là`"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. Điều chỉnh tên tệp nếu cần.
+Trong ví dụ này, PDF đầu ra được đặt tên là `"WorkingWithPdfSaveOptions.PdfImageCompression.pdf"`. Điều chỉnh tên tệp nếu cần.
 
 ## Bước 5: Cấu hình Nén nâng cao với PDF/A Compliance
 
- Để nén tốt hơn nữa, đặc biệt nếu bạn cần tuân thủ các tiêu chuẩn PDF/A, bạn có thể cấu hình các tùy chọn bổ sung. Đặt`Compliance`tài sản để`PdfCompliance.PdfA2u` và điều chỉnh`JpegQuality` tài sản.
+Để nén tốt hơn nữa, đặc biệt nếu bạn cần tuân thủ các tiêu chuẩn PDF/A, bạn có thể cấu hình các tùy chọn bổ sung. Đặt `Compliance` tài sản để `PdfCompliance.PdfA2u` và điều chỉnh `JpegQuality` tài sản.
 
 ```csharp
 PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
@@ -111,7 +113,7 @@ Lưu tài liệu Word dưới dạng PDF với cài đặt nén nâng cao. Cấu
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 ```
 
- Ở đây, PDF đầu ra được đặt tên là`"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`. Thay đổi tên tệp theo sở thích của bạn.
+Ở đây, PDF đầu ra được đặt tên là `"WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf"`. Sửa đổi tên tệp theo sở thích của bạn.
 
 ## Phần kết luận
 
@@ -124,7 +126,7 @@ Giảm kích thước tài liệu PDF bằng cách nén hình ảnh là một b�
 Nén hình ảnh làm giảm kích thước tệp tài liệu PDF bằng cách giảm chất lượng hình ảnh, giúp tối ưu hóa lưu trữ và hiệu suất.
 
 ### Aspose.Words for .NET xử lý nén hình ảnh như thế nào?
-Aspose.Words cho .NET cung cấp`PdfSaveOptions` lớp này cho phép bạn thiết lập nhiều tùy chọn nén hình ảnh khác nhau, bao gồm nén JPEG.
+Aspose.Words cho .NET cung cấp `PdfSaveOptions` lớp này cho phép bạn thiết lập nhiều tùy chọn nén hình ảnh khác nhau, bao gồm nén JPEG.
 
 ### Tôi có thể sử dụng Aspose.Words cho .NET để tuân thủ tiêu chuẩn PDF/A không?
 Có, Aspose.Words hỗ trợ định dạng PDF/A, cho phép bạn lưu tài liệu ở các định dạng đáp ứng tiêu chuẩn lưu trữ và bảo quản lâu dài.
@@ -133,7 +135,7 @@ Có, Aspose.Words hỗ trợ định dạng PDF/A, cho phép bạn lưu tài li�
 Cài đặt chất lượng JPEG cao hơn sẽ mang lại chất lượng hình ảnh tốt hơn nhưng kích thước tệp lớn hơn, trong khi cài đặt chất lượng thấp hơn sẽ làm giảm kích thước tệp nhưng có thể ảnh hưởng đến độ rõ nét của hình ảnh.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Words cho .NET ở đâu?
- Bạn có thể khám phá thêm về Aspose.Words cho .NET trên[Tài liệu](https://reference.aspose.com/words/net/), [Ủng hộ](https://forum.aspose.com/c/words/8) , Và[Tải về](https://releases.aspose.com/words/net/) trang.
+Bạn có thể khám phá thêm về Aspose.Words cho .NET trên [Tài liệu](https://reference.aspose.com/words/net/), [Ủng hộ](https://forum.aspose.com/c/words/8), Và [Tải về](https://releases.aspose.com/words/net/) trang.
 
 ### Mã nguồn mẫu để nén hình ảnh bằng Aspose.Words cho .NET
 
@@ -162,9 +164,14 @@ PdfSaveOptions saveOptionsA2U = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.PdfImageCompression_A2u.pdf", saveOptionsA2U);
 	
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

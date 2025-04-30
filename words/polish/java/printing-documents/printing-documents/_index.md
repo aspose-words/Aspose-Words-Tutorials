@@ -1,14 +1,16 @@
 ---
-title: Drukowanie dokumentów w Aspose.Words dla Java
-linktitle: Drukowanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak drukować dokumenty za pomocą Aspose.Words for Java. Przewodnik krok po kroku dotyczący bezproblemowego drukowania w aplikacjach Java.
-weight: 10
-url: /pl/java/printing-documents/printing-documents/
+"description": "Dowiedz się, jak drukować dokumenty za pomocą Aspose.Words for Java. Przewodnik krok po kroku dotyczący bezproblemowego drukowania w aplikacjach Java."
+"linktitle": "Drukowanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Drukowanie dokumentów w Aspose.Words dla Java"
+"url": "/pl/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Drukowanie dokumentów w Aspose.Words dla Java
@@ -29,7 +31,7 @@ Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wym
 
 ## Ładowanie dokumentu
 
- Aby rozpocząć, musisz załadować dokument Word, który chcesz wydrukować. Zastąp`"Your Document Directory"` ze ścieżką do Twojego dokumentu i`"Your Output Directory"` z żądanym katalogiem wyjściowym.
+Aby rozpocząć, musisz załadować dokument Word, który chcesz wydrukować. Zastąp `"Your Document Directory"` ze ścieżką do Twojego dokumentu i `"Your Output Directory"` z żądanym katalogiem wyjściowym.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <podsumowanie>
     /// Konstruktor niestandardowej klasy PrintDocument.
-    // / </podsumowanie>
+    /// </podsumowanie> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Indeksy początku i końca strony zdefiniowane w zestawie atrybutów.
+        // Indeksy początku i końca strony zdefiniowane w zestawie atrybutów.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,7 +134,7 @@ class MultipagePrintDocument implements Printable
                 // Przydatną wartością zwracaną jest skala, w jakiej została wyrenderowana strona.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Narysuj obramowanie strony (miniatura strony może być mniejsza od miniatury)
+                // Narysuj obramowanie strony (miniatura strony może być mniejsza od miniatury)
                 // (rozmiar symbolu zastępczego).
                 if (mPrintPageBorders) {
                     // Uzyskaj rzeczywisty 100% rozmiar strony w punktach.
@@ -178,7 +180,7 @@ class MultipagePrintDocument implements Printable
                 size = new Dimension(1, 1);
                 break;
         }
-        // Jeśli papier ma orientację pionową, zamień szerokość i wysokość.
+        // Zamień szerokość i wysokość, jeśli papier jest w orientacji pionowej.
         if ((pf.getWidth() - pf.getImageableX()) < (pf.getHeight() - pf.getImageableY()))
             return new Dimension((int) size.getHeight(), (int) size.getWidth());
         return size;
@@ -194,7 +196,7 @@ Gratulacje! Udało Ci się wydrukować dokument Word przy użyciu Aspose.Words f
 
 ### P1: Czy mogę wydrukować określone strony dokumentu za pomocą Aspose.Words dla Java?
 
- Tak, możesz określić zakres stron podczas drukowania dokumentu. W przykładzie kodu użyliśmy`attributes.add(new PageRanges(1, doc.getPageCount()))`aby wydrukować wszystkie strony. Możesz dostosować zakres stron według potrzeb.
+Tak, możesz określić zakres stron podczas drukowania dokumentu. W przykładzie kodu użyliśmy `attributes.add(new PageRanges(1, doc.getPageCount()))` aby wydrukować wszystkie strony. Możesz dostosować zakres stron według potrzeb.
 
 ### P2: Czy Aspose.Words for Java nadaje się do drukowania wsadowego?
 
@@ -210,14 +212,19 @@ Tak, możesz dostosować ustawienia drukowania, aby spełnić swoje specyficzne 
 
 ### P5: Gdzie mogę uzyskać więcej pomocy i wsparcia dla Aspose.Words for Java?
 
- Aby uzyskać dodatkowe wsparcie i pomoc, możesz odwiedzić stronę[Aspose.Words dla forum Java](https://forum.aspose.com/).
+Aby uzyskać dodatkowe wsparcie i pomoc, możesz odwiedzić stronę [Aspose.Words dla forum Java](https://forum.aspose.com/).
 
 ---
 
 Teraz, gdy udało Ci się nauczyć, jak drukować dokumenty za pomocą Aspose.Words dla Java, możesz zacząć implementować tę funkcjonalność w swoich aplikacjach Java. Miłego kodowania!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

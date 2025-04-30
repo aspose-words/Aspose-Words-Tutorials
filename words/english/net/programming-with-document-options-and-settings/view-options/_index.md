@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-document-options-and-settings/view-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # View Options
@@ -106,9 +109,13 @@ To ensure consistency, save your document with the desired view options and dist
 
 You can find more detailed documentation and examples on the [Aspose.Words for .NET documentation page](https://reference.aspose.com/words/net/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

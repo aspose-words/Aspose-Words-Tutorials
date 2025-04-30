@@ -1,14 +1,16 @@
 ---
-title: अंतिम सहेजे गए समय की संपत्ति अपडेट करें
-linktitle: अंतिम सहेजे गए समय की संपत्ति अपडेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में अंतिम सहेजे गए समय गुण को अपडेट करना सीखें। हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
-url: /hi/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
+"description": "Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में अंतिम सहेजे गए समय गुण को अपडेट करना सीखें। हमारे विस्तृत, चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "अंतिम सहेजे गए समय की संपत्ति अपडेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "अंतिम सहेजे गए समय की संपत्ति अपडेट करें"
+"url": "/hi/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अंतिम सहेजे गए समय की संपत्ति अपडेट करें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-ooxmlsaveoptions/update-last-saved-time-property/
 
 इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में आगे बढ़ें, आपको कुछ चीजों की आवश्यकता होगी:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि आपके पास नहीं है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET इंस्टॉल है। यदि आपके पास नहीं है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 2. विकास वातावरण: विजुअल स्टूडियो जैसा विकास वातावरण.
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की मूल बातें समझना उपयोगी होगा।
 
@@ -44,21 +46,21 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: अपना वर्ड दस्तावेज़ लोड करें
 
- इसके बाद, उस वर्ड डॉक्यूमेंट को लोड करें जिसे आप अपडेट करना चाहते हैं। आप इसका इंस्टेंस बनाकर ऐसा कर सकते हैं`Document` क्लास में जाकर अपने दस्तावेज़ का पथ पास करें।
+इसके बाद, उस वर्ड डॉक्यूमेंट को लोड करें जिसे आप अपडेट करना चाहते हैं। आप इसका एक इंस्टेंस बनाकर ऐसा कर सकते हैं `Document` क्लास में जाकर अपने दस्तावेज़ का पथ पास करें।
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- सुनिश्चित करें कि नामित दस्तावेज़`Document.docx` निर्दिष्ट निर्देशिका में मौजूद है.
+सुनिश्चित करें कि नामित दस्तावेज़ `Document.docx` निर्दिष्ट निर्देशिका में मौजूद है.
 
 ## चरण 3: सहेजें विकल्प कॉन्फ़िगर करें
 
- अब, इसका एक उदाहरण बनाएं`OoxmlSaveOptions` क्लास। यह क्लास आपको अपने दस्तावेज़ को Office Open XML (OOXML) फ़ॉर्मेट में सहेजने के लिए विकल्प निर्दिष्ट करने की अनुमति देता है। यहाँ, आप सेट करेंगे`UpdateLastSavedTimeProperty` को`true`.
+अब, इसका एक उदाहरण बनाएं `OoxmlSaveOptions` क्लास। यह क्लास आपको अपने दस्तावेज़ को Office Open XML (OOXML) फ़ॉर्मेट में सहेजने के लिए विकल्प निर्दिष्ट करने की अनुमति देता है। यहाँ, आप सेट करेंगे `UpdateLastSavedTimeProperty` को `true`.
 
 ```csharp
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
@@ -71,7 +73,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 ## चरण 4: अपडेट किए गए दस्तावेज़ को सहेजें
 
- अंत में, दस्तावेज़ को सहेजें`Save` की विधि`Document` क्लास में, उस पथ को पास करना जहाँ आप अद्यतन दस्तावेज़ को सहेजना चाहते हैं और सहेजने के विकल्प।
+अंत में, दस्तावेज़ को सहेजें `Save` की विधि `Document` क्लास में, उस पथ को पास करना जहाँ आप अद्यतन दस्तावेज़ को सहेजना चाहते हैं और सहेजने के विकल्प।
 
 ```csharp
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.UpdateLastSavedTimeProperty.docx", saveOptions);
@@ -95,14 +97,19 @@ Aspose.Words for .NET, .NET अनुप्रयोगों में Word द
 हां, .NET के लिए Aspose.Words आपको विभिन्न दस्तावेज़ गुणों, जैसे शीर्षक, लेखक और विषय को अपडेट करने की अनुमति देता है।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
- Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं .NET के लिए Aspose.Words पर अधिक ट्यूटोरियल कहां पा सकता हूं?
-आप अधिक ट्यूटोरियल और दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप अधिक ट्यूटोरियल और दस्तावेज़ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

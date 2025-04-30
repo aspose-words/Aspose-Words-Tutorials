@@ -1,14 +1,16 @@
 ---
-title: Chia tài liệu Word theo từng phần
-linktitle: Chia tài liệu Word theo từng phần
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chia tài liệu Word thành các phần bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết, từng bước này để quản lý tài liệu hiệu quả.
-weight: 10
-url: /vi/net/split-document/by-sections/
+"description": "Tìm hiểu cách chia tài liệu Word thành các phần bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết, từng bước này để quản lý tài liệu hiệu quả."
+"linktitle": "Chia tài liệu Word theo từng phần"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chia tài liệu Word theo từng phần"
+"url": "/vi/net/split-document/by-sections/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia tài liệu Word theo từng phần
@@ -21,7 +23,7 @@ Bạn có thấy mệt mỏi khi phải xử lý các tài liệu Word khổng l
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết để làm việc với Aspose.Words cho .NET:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn cần có thư viện này. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho Thư viện .NET: Bạn cần có thư viện này. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. Hiểu biết cơ bản về C#: Nếu bạn ở đây, tôi đoán là bạn đã quen với C#.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Big document.docx");
 ```
 
- Ở đây, chúng tôi đang tải một tài liệu có tên "Big document.docx" từ thư mục được chỉ định. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
+Ở đây, chúng tôi đang tải một tài liệu có tên "Big document.docx" từ thư mục được chỉ định. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tài liệu của bạn được lưu trữ.
 
 ## Bước 2: Lặp qua các phần
 
@@ -82,7 +84,7 @@ Section newSection = (Section)newDoc.ImportNode(section, true);
 newDoc.Sections.Add(newSection);
 ```
 
- Đây,`ImportNode` được sử dụng để nhập phần đã sao chép vào tài liệu mới.`true` tham số đảm bảo rằng chúng ta nhập phần đó cùng với tất cả các nút con của nó.
+Đây, `ImportNode` được sử dụng để nhập phần đã sao chép vào tài liệu mới. `true` tham số đảm bảo rằng chúng ta nhập phần đó cùng với tất cả các nút con của nó.
 
 ## Bước 5: Lưu tài liệu mới
 
@@ -92,7 +94,7 @@ Cuối cùng, chúng tôi lưu mỗi tài liệu mới với một tên duy nh�
 newDoc.Save(dataDir + $"SplitDocument.BySections_{i}.docx");
 ```
 
- Các`Save` phương pháp này lưu tài liệu mới trong thư mục được chỉ định với tên duy nhất dựa trên chỉ mục phần.
+Các `Save` phương pháp này lưu tài liệu mới trong thư mục được chỉ định với tên duy nhất dựa trên chỉ mục phần.
 
 ## Phần kết luận
 
@@ -104,7 +106,7 @@ Và bạn đã có nó! Chia một tài liệu Word theo các phần của nó b
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó cho phép các nhà phát triển tạo, sửa đổi và quản lý các tài liệu Word trong các ứng dụng .NET của họ.
 
 ### Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho .NET?
- Bạn có thể[tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Words cho .NET từ trang web Aspose.
+Bạn có thể [tải xuống bản dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Words cho .NET từ trang web Aspose.
 
 ### Tôi có thể phân chia tài liệu theo các tiêu chí khác bằng Aspose.Words cho .NET không?
 Có, bạn có thể chia tài liệu theo nhiều tiêu chí khác nhau như đoạn văn, trang hoặc đánh dấu tùy chỉnh bằng cách sửa đổi logic mã cho phù hợp.
@@ -113,10 +115,15 @@ Có, bạn có thể chia tài liệu theo nhiều tiêu chí khác nhau như đ
 Chắc chắn rồi! Aspose.Words cho .NET được thiết kế để xử lý hiệu quả các tài liệu quy mô lớn.
 
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ cho Aspose.Words dành cho .NET ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/words/net/) . Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/words/net/). Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

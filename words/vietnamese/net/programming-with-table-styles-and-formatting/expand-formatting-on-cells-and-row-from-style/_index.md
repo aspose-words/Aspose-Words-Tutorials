@@ -1,14 +1,16 @@
 ---
-title: Mở rộng Định dạng trên Ô và Hàng từ Kiểu
-linktitle: Mở rộng Định dạng trên Ô và Hàng từ Kiểu
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách mở rộng định dạng trên các ô và hàng từ các kiểu trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/
+"description": "Tìm hiểu cách mở rộng định dạng trên các ô và hàng từ các kiểu trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước."
+"linktitle": "Mở rộng Định dạng trên Ô và Hàng từ Kiểu"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Mở rộng Định dạng trên Ô và Hàng từ Kiểu"
+"url": "/vi/net/programming-with-table-styles-and-formatting/expand-formatting-on-cells-and-row-from-style/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mở rộng Định dạng trên Ô và Hàng từ Kiểu
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình cần áp dụng kiểu dáng nhất quán tr�
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã chuẩn bị đầy đủ những điều sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 - Visual Studio: Bất kỳ phiên bản nào gần đây đều có thể sử dụng được.
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết.
 - Tài liệu mẫu: Chuẩn bị sẵn một tài liệu Word có bảng hoặc bạn có thể sử dụng bảng được cung cấp trong ví dụ mã.
@@ -44,7 +46,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 Ở bước này, chúng ta sẽ tải tài liệu Word có chứa bảng bạn muốn định dạng. 
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu của bạn
+// Đường dẫn đến thư mục tài liệu của bạn 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
@@ -79,7 +81,7 @@ Console.WriteLine("Cell shading before style expansion: " + cellShadingBefore);
 
 ## Bước 5: Mở rộng Kiểu bảng
 
- Đây là nơi phép thuật xảy ra. Chúng tôi sẽ gọi`ExpandTableStylesToDirectFormatting` phương pháp áp dụng kiểu bảng trực tiếp vào các ô.
+Đây là nơi phép thuật xảy ra. Chúng tôi sẽ gọi `ExpandTableStylesToDirectFormatting` phương pháp áp dụng kiểu bảng trực tiếp vào các ô.
 
 ```csharp
 // Mở rộng kiểu bảng để định dạng trực tiếp.
@@ -112,13 +114,18 @@ Mở rộng định dạng từ các kiểu đảm bảo rằng kiểu được 
 Hoàn toàn có thể! Bạn có thể lặp qua tất cả các bảng trong tài liệu của mình và áp dụng các bước tương tự cho từng bảng.
 
 ### Có cách nào để khôi phục lại các kiểu đã mở rộng không?
-Khi các kiểu được mở rộng, chúng được áp dụng trực tiếp vào các ô. Để khôi phục, bạn sẽ cần tải lại tài liệu hoặc áp dụng lại các kiểu theo cách thủ công.
+Khi các kiểu được mở rộng, chúng được áp dụng trực tiếp vào các ô. Để hoàn nguyên, bạn sẽ cần tải lại tài liệu hoặc áp dụng lại các kiểu theo cách thủ công.
 
 ### Phương pháp này có hoạt động với mọi phiên bản Aspose.Words cho .NET không?
- Vâng,`ExpandTableStylesToDirectFormatting` phương pháp có sẵn trong các phiên bản gần đây của Aspose.Words cho .NET. Luôn kiểm tra[tài liệu](https://reference.aspose.com/words/net/) để biết thông tin cập nhật mới nhất.
+Vâng, `ExpandTableStylesToDirectFormatting` phương pháp có sẵn trong các phiên bản gần đây của Aspose.Words cho .NET. Luôn kiểm tra [tài liệu](https://reference.aspose.com/words/net/) để biết thông tin cập nhật mới nhất.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

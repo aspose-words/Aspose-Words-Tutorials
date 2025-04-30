@@ -1,14 +1,16 @@
 ---
-title: Thao tác Header và Footer trong Tài liệu Word
-linktitle: Thao tác Header và Footer trong Tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Học cách thao tác tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words for Python. Hướng dẫn từng bước với mã nguồn để tùy chỉnh, thêm, xóa và nhiều hơn nữa. Cải thiện định dạng tài liệu của bạn ngay bây giờ!
-weight: 16
-url: /vi/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Học cách thao tác tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words for Python. Hướng dẫn từng bước với mã nguồn để tùy chỉnh, thêm, xóa và nhiều hơn nữa. Cải thiện định dạng tài liệu của bạn ngay bây giờ!"
+"linktitle": "Thao tác Header và Footer trong Tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Thao tác Header và Footer trong Tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thao tác Header và Footer trong Tài liệu Word
@@ -34,7 +36,7 @@ import aspose.words as aw
 
 ## Thêm một Header và Footer đơn giản
 
-Để thêm tiêu đề và chân trang cơ bản vào tài liệu Word, hãy làm theo các bước sau:
+Để thêm phần đầu trang và phần chân trang cơ bản vào tài liệu Word, hãy làm theo các bước sau:
 
 1. Tạo tài liệu: Tạo tài liệu Word mới bằng Aspose.Words.
 
@@ -42,7 +44,7 @@ import aspose.words as aw
 doc = aw.Document()
 ```
 
-2.  Thêm Header và Footer: Sử dụng`sections` thuộc tính của tài liệu để truy cập các phần. Sau đó, sử dụng`headers_footers` Thuộc tính để thêm tiêu đề và chân trang.
+2. Thêm Header và Footer: Sử dụng `sections` thuộc tính của tài liệu để truy cập các phần. Sau đó, sử dụng `headers_footers` Thuộc tính để thêm tiêu đề và chân trang.
 
 ```python
 section = doc.sections[0]
@@ -85,7 +87,7 @@ section.page_setup.different_first_page_header_footer = True
 section.page_setup.odd_and_even_pages_header_footer = True
 ```
 
-2. Thêm Tiêu đề và Chân trang: Thêm tiêu đề và chân trang cho trang đầu tiên, trang lẻ và trang chẵn.
+2. Thêm Đầu trang và Chân trang: Thêm đầu trang và chân trang cho trang đầu tiên, trang lẻ và trang chẵn.
 
 ```python
 header_first = section.headers_footers[aspose.words.HeaderFooterType.HEADER_FIRST]
@@ -118,27 +120,32 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Làm thế nào để truy cập vào nội dung đầu trang và chân trang?
 
- Để truy cập nội dung đầu trang và chân trang, hãy sử dụng`headers_footers` thuộc tính của phần tài liệu.
+Để truy cập nội dung đầu trang và chân trang, hãy sử dụng `headers_footers` thuộc tính của phần tài liệu.
 
 ### Tôi có thể thêm hình ảnh vào đầu trang và chân trang không?
 
- Có, bạn có thể thêm hình ảnh vào đầu trang và chân trang bằng cách sử dụng`add_picture` phương pháp.
+Có, bạn có thể thêm hình ảnh vào đầu trang và chân trang bằng cách sử dụng `add_picture` phương pháp.
 
 ### Có thể sử dụng các tiêu đề khác nhau cho các trang chẵn và trang lẻ không?
 
 Hoàn toàn có thể tạo các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn bằng cách bật các cài đặt phù hợp.
 
-### Tôi có thể xóa phần đầu trang và phần chân trang khỏi các trang cụ thể không?
+### Tôi có thể xóa đầu trang và chân trang khỏi các trang cụ thể không?
 
 Có, bạn có thể xóa nội dung của phần đầu trang và chân trang để loại bỏ chúng một cách hiệu quả.
 
 ### Tôi có thể tìm hiểu thêm về Aspose.Words cho Python ở đâu?
 
- Để biết thêm tài liệu và ví dụ chi tiết, hãy truy cập[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+Để biết thêm tài liệu và ví dụ chi tiết, hãy truy cập [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

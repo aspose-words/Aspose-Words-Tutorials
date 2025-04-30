@@ -1,14 +1,16 @@
 ---
-title: Sesuaikan Label Data Bagan
-linktitle: Sesuaikan Label Data Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan label data bagan menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/programming-with-charts/chart-data-label/
+"description": "Pelajari cara menyesuaikan label data bagan menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Sempurna untuk pengembang .NET."
+"linktitle": "Sesuaikan Label Data Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sesuaikan Label Data Bagan"
+"url": "/id/net/programming-with-charts/chart-data-label/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Label Data Bagan
@@ -23,9 +25,9 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 1. Visual Studio: Instal Visual Studio 2019 atau yang lebih baru.
 2. .NET Framework: Pastikan Anda memiliki .NET Framework 4.0 atau yang lebih baru.
-3.  Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari[tautan unduhan](https://releases.aspose.com/words/net/).
+3. Aspose.Words untuk .NET: Unduh dan instal Aspose.Words untuk .NET dari [tautan unduhan](https://releases.aspose.com/words/net/).
 4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangatlah penting.
-5.  Lisensi yang Sah: Dapatkan Lisensi yang Sah[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli satu dari[tautan pembelian](https://purchase.aspose.com/buy).
+5. Lisensi yang Sah: Dapatkan Lisensi yang Sah [lisensi sementara](https://purchase.aspose.com/temporary-license/) atau membeli satu dari [tautan pembelian](https://purchase.aspose.com/buy).
 
 ## Mengimpor Ruang Nama
 
@@ -40,7 +42,7 @@ using Aspose.Words.Charts;
 
 ## Langkah 1: Inisialisasi Dokumen dan DocumentBuilder
 
-Untuk membuat dan memanipulasi dokumen Word, pertama-tama kita perlu menginisialisasi instance dari`Document` kelas dan a`DocumentBuilder` obyek.
+Untuk membuat dan memanipulasi dokumen Word, pertama-tama kita perlu menginisialisasi instance dari `Document` kelas dan a `DocumentBuilder` obyek.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -57,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 2: Masukkan Bagan
 
- Selanjutnya, kita akan memasukkan diagram batang ke dalam dokumen menggunakan`DocumentBuilder` obyek.
+Selanjutnya, kita akan memasukkan diagram batang ke dalam dokumen menggunakan `DocumentBuilder` obyek.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Bar, 432, 252);
@@ -121,7 +123,7 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 
 ## Kesimpulan
 
- Selamat! Anda telah berhasil menyesuaikan label data bagan menggunakan Aspose.Words untuk .NET. Pustaka ini menawarkan solusi yang kuat untuk menangani dokumen Word secara terprogram, sehingga memudahkan pengembang untuk membuat aplikasi pemrosesan dokumen yang canggih dan dinamis. Pelajari lebih lanjut[dokumentasi](https://reference.aspose.com/words/net/) untuk menjelajahi lebih banyak fitur dan kemampuan.
+Selamat! Anda telah berhasil menyesuaikan label data bagan menggunakan Aspose.Words untuk .NET. Pustaka ini menawarkan solusi yang kuat untuk menangani dokumen Word secara terprogram, sehingga memudahkan pengembang untuk membuat aplikasi pemrosesan dokumen yang canggih dan dinamis. Pelajari lebih lanjut [dokumentasi](https://reference.aspose.com/words/net/) untuk menjelajahi lebih banyak fitur dan kemampuan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -129,20 +131,25 @@ doc.Save(dataDir + "WorkingWithCharts.ChartDataLabel.docx");
 Aspose.Words untuk .NET adalah pustaka pemrosesan dokumen canggih yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi dokumen Word secara terprogram.
 
 ### Bagaimana cara menginstal Aspose.Words untuk .NET?
- Anda dapat mengunduh dan menginstalnya dari[tautan unduhan](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
+Anda dapat mengunduh dan menginstalnya dari [tautan unduhan](https://releases.aspose.com/words/net/)Ikuti petunjuk instalasi yang diberikan.
 
 ### Dapatkah saya mencoba Aspose.Words untuk .NET secara gratis?
- Ya, Anda bisa mendapatkannya[uji coba gratis](https://releases.aspose.com/) atau sebuah[lisensi sementara](https://purchase.aspose.com/temporary-license/)untuk mengevaluasi produk.
+Ya, Anda bisa mendapatkannya [uji coba gratis](https://releases.aspose.com/) atau sebuah [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi produk.
 
 ### Apakah Aspose.Words untuk .NET kompatibel dengan .NET Core?
 Ya, Aspose.Words untuk .NET kompatibel dengan .NET Core, .NET Standard, dan .NET Framework.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words untuk .NET?
- Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan asistensi dari komunitas dan pakar Aspose.
+Anda dapat mengunjungi [forum dukungan](https://forum.aspose.com/c/words/8) untuk bantuan dan asistensi dari komunitas dan pakar Aspose.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

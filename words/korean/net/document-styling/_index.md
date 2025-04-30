@@ -1,28 +1,37 @@
 ---
-title: .NET에 대한 Aspose.Words로 문서 형식
-weight: 10
-limit:
-description: .NET에 대한 Aspose.Words를 사용하여 고급 문서 형식 기술을 배우십시오. 페이지 레이아웃, 스타일, 테마 및 형식 자동화를 원활하게 탐구하십시오.
-keywords:
-url: /ko/net/document-styling/
+"description": "Aspose.Words for .NET을 사용하여 고급 문서 서식 지정 기술을 배워보세요. 페이지 레이아웃, 스타일, 테마 및 서식 자동화를 원활하게 살펴보세요."
+"title": "Aspose.Words를 사용한 .NET용 문서 서식 지정"
+"url": "/ko/net/document-styling/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## 소개
  
-문서 포맷은 전문적이고 시각적으로 매력적인 워드 문서를 만드는 데 중요합니다. .NET용 Aspose.Words는 문서 레이아웃과 스타일링을 향상시키기 위해 광범위한 기능을 개발자에게 제공합니다. 사용자 지정 페이지 레이아웃 및 소재 설정에서 일관된 테마 및 스타일을 적용하는 데 이르기까지, Aspose.Words는 강력한 API를 사용하여 포맷 작업을 단순화합니다. 헤더와 파지판을 자동화하고, 문장 조화를 조정하거나 스타일링 테이블을 조정하고 있더라도, Aspose.Words는 정확성과 유연성을 보장하며 시간과 노력을 절약합니다.  
+문서 서식은 전문적이고 시각적으로 매력적인 Word 문서를 만드는 데 매우 중요합니다. Aspose.Words for .NET은 개발자에게 문서 레이아웃과 스타일을 향상시키는 다양한 기능을 제공합니다. 사용자 지정 페이지 레이아웃 및 여백 설정부터 일관된 테마 및 스타일 적용까지, Aspose.Words는 강력한 API를 통해 서식 지정 작업을 간소화합니다. 머리글 및 바닥글 자동화, 단락 정렬 조정, 표 스타일 지정 등 어떤 작업을 수행하든 Aspose.Words는 정확성과 유연성을 보장하여 시간과 노력을 절약해 줍니다.  
 
-테마와 작업, 스타일 관리, 간격을 조정, 그리고 동적 레이아웃을 만드는 등의 둥근 주제에 대한 자세한 가이드와 문서 형식을 더 깊이 탐색하십시오. .NET의 Aspose.Words를 사용하면 모든 출력에서 일관성과 우아함을 유지하면서 엄격한 표준을 충족시키는 문서를 제공할 수 있습니다.
+테마 작업, 스타일 관리, 간격 조정, 동적 레이아웃 생성 등 중첩된 주제에 대한 자세한 가이드를 통해 문서 서식을 더욱 심층적으로 살펴보세요. Aspose.Words for .NET을 사용하면 모든 출력에서 일관성과 우아함을 유지하면서 엄격한 기준을 충족하는 문서를 제공할 수 있습니다.
 
-{{< tutorial-card link="./apply-border-and-shading/" title="Aspose.Words의 문장 에 경계 와 그림자 를 적용 하십시오" imgSrc="/words/net/document-styling/apply-border-and-shading/images/thumb.png" >}}
-{{< tutorial-card link="./apply-paragraph-style/" title="Aspose.Words에서 워드 문서를 작성하고 스타일링" imgSrc="/words/net/document-styling/apply-paragraph-style/images/thumb.png" >}}
-{{< tutorial-card link="./multilevel-list-formatting/" title="Aspose.Words로 Word에서 다중 레벨 리스트를 생성하십시오" imgSrc="/words/net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
-{{< tutorial-card link="./paragraph-formatting/" title=".NET에 Aspose.Words를 사용하여 문장 형식을" imgSrc="/words/net/document-styling/paragraph-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./apply-border-and-shading/" title="Aspose.Words에서 문단에 테두리 및 음영 적용" imgSrc="./apply-border-and-shading/images/thumb.png" >}}
+
+{{< tutorial-card link="./apply-paragraph-style/" title="Aspose.Words에서 Word 문서 만들기 및 스타일 지정" imgSrc="./apply-paragraph-style/images/thumb.png" >}}
+
+{{< tutorial-card link="./multilevel-list-formatting/" title="Aspose.Words를 사용하여 Word에서 다단계 목록 만들기" imgSrc="./multilevel-list-formatting/images/thumb.png" >}}
+
+{{< tutorial-card link="./paragraph-formatting/" title="Aspose.Words를 사용하여 .NET용 문단 서식 지정" imgSrc="./paragraph-formatting/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ekle Kaldır Yorum Cevapla
-linktitle: Ekle Kaldır Yorum Cevapla
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinde yorum yanıtlarının nasıl ekleneceğini ve kaldırılacağını öğrenin. Bu adım adım kılavuzla belge iş birliğinizi geliştirin.
-weight: 10
-url: /tr/net/working-with-comments/add-remove-comment-reply/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinde yorum yanıtlarının nasıl ekleneceğini ve kaldırılacağını öğrenin. Bu adım adım kılavuzla belge iş birliğinizi geliştirin."
+"linktitle": "Ekle Kaldır Yorum Cevapla"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Ekle Kaldır Yorum Cevapla"
+"url": "/tr/net/working-with-comments/add-remove-comment-reply/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekle Kaldır Yorum Cevapla
@@ -21,7 +23,7 @@ Word belgelerinde yorumlar ve yanıtlarıyla çalışmak belge inceleme sürecin
 
 Koda dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Words for .NET: Buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 - Geliştirme Ortamı: Visual Studio veya .NET'i destekleyen herhangi bir IDE.
 - Temel C# Bilgisi: C# programlamaya aşinalık şarttır.
 
@@ -83,26 +85,31 @@ Word belgelerindeki yorum yanıtlarını programatik olarak yönetmek, özellikl
 
 ### Tek bir yoruma birden fazla yanıt nasıl eklerim?
 
- Tek bir yoruma birden fazla yanıt eklemek için şu komutu kullanabilirsiniz:`AddReply` Aynı yorum nesnesi üzerinde yöntemi birden fazla kez kullanın.
+Tek bir yoruma birden fazla yanıt eklemek için şu komutu kullanabilirsiniz: `AddReply` Aynı yorum nesnesi üzerinde yöntemi birden fazla kez kullanın.
 
 ### Her yanıt için yazar ayrıntılarını özelleştirebilir miyim?
 
- Evet, her yanıt için yazarın adını, baş harflerini ve tarih ve saati belirtebilirsiniz.`AddReply` yöntem.
+Evet, her yanıt için yazarın adını, baş harflerini ve tarih ve saati belirtebilirsiniz. `AddReply` yöntem.
 
 ### Bir yoruma gelen tüm yanıtları tek seferde kaldırmak mümkün mü?
 
-Tüm yanıtları kaldırmak için, döngüyü tamamlamanız gerekir`Replies` Yorumların toplanıp her birinin tek tek kaldırılması.
+Tüm yanıtları kaldırmak için, döngüyü tamamlamanız gerekir `Replies` Yorumların toplanıp her birinin tek tek kaldırılması.
 
 ### Belgenin belirli bir bölümündeki yorumlara erişebilir miyim?
 
- Evet, belgenin bölümleri arasında gezinebilir ve her bölümdeki yorumlara erişmek için`GetChild` yöntem.
+Evet, belgenin bölümleri arasında gezinebilir ve her bölümdeki yorumlara erişmek için `GetChild` yöntem.
 
 ### Aspose.Words for .NET yorumlarla ilgili diğer özellikleri destekliyor mu?
 
 Evet, Aspose.Words for .NET, yeni yorumlar ekleme, yorum özelliklerini ayarlama ve daha fazlası dahil olmak üzere çeşitli yorumlarla ilgili özellikler için kapsamlı destek sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

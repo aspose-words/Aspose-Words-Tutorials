@@ -1,14 +1,16 @@
 ---
-title: Belirli Belge Sayfalarını Yazdırma
-linktitle: Belirli Belge Sayfalarını Yazdırma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak Word belgelerinden belirli sayfaların nasıl yazdırılacağını öğrenin. Java geliştiricileri için adım adım kılavuz.
-weight: 13
-url: /tr/java/document-printing/printing-specific-document-pages/
+"description": "Aspose.Words for Java kullanarak Word belgelerinden belirli sayfaların nasıl yazdırılacağını öğrenin. Java geliştiricileri için adım adım kılavuz."
+"linktitle": "Belirli Belge Sayfalarını Yazdırma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belirli Belge Sayfalarını Yazdırma"
+"url": "/tr/java/document-printing/printing-specific-document-pages/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belirli Belge Sayfalarını Yazdırma
@@ -61,7 +63,7 @@ public class PrintSpecificPages {
 
 ## Yazdırılacak Sayfaları Belirle
 
- Şimdi hangi sayfaları yazdırmak istediğinizi belirtelim.`PageRange` ihtiyacınız olan sayfa aralığını tanımlamak için sınıf. Örneğin, 3 ila 5 arasındaki sayfaları yazdırmak için:
+Şimdi hangi sayfaları yazdırmak istediğinizi belirtelim. `PageRange` ihtiyacınız olan sayfa aralığını tanımlamak için sınıf. Örneğin, 3 ila 5 arasındaki sayfaları yazdırmak için:
 
 ```java
 PageRange pageRange = new PageRange(3, 5);
@@ -72,7 +74,7 @@ PageRange pageRange = new PageRange(3, 5);
 Sayfa aralığı tanımlandığında, Aspose.Words'ün yazdırma özelliklerini kullanarak belgeyi yazdırabilirsiniz. Belirtilen sayfaları bir yazıcıya nasıl yazdırabileceğiniz aşağıda açıklanmıştır:
 
 ```java
-//Bir PrintOptions nesnesi oluşturun
+// Bir PrintOptions nesnesi oluşturun
 PrintOptions printOptions = new PrintOptions();
 printOptions.setPageRanges(new PageRange[] { pageRange });
 
@@ -88,7 +90,7 @@ Bu eğitimde, Java için Aspose.Words kullanarak bir Word belgesinin belirli say
 
 ### Word belgesinden ardışık olmayan birden fazla sayfayı nasıl yazdırabilirim?
 
- Birden fazla ardışık olmayan sayfa yazdırmak için birden fazla sayfa oluşturabilirsiniz`PageRange` nesneleri ekleyin ve istenen sayfa aralıklarını belirtin. Ardından, bunları ekleyin`PageRange` nesnelere`PageRanges` dizide`PrintOptions` nesne.
+Birden fazla ardışık olmayan sayfa yazdırmak için birden fazla sayfa oluşturabilirsiniz `PageRange` nesneleri ekleyin ve istenen sayfa aralıklarını belirtin. Ardından, bunları ekleyin `PageRange` nesnelere `PageRanges` dizide `PrintOptions` nesne.
 
 ### Aspose.Words for Java farklı belge formatlarıyla uyumlu mudur?
 
@@ -96,18 +98,23 @@ Evet, Aspose.Words for Java, DOCX, DOC, PDF, RTF ve daha fazlası dahil olmak ü
 
 ### Word belgesinin belirli bölümlerini yazdırabilir miyim?
 
- Evet, Word belgesinin belirli bölümlerini, bu bölümlerdeki sayfaları belirterek yazdırabilirsiniz.`PageRange`sınıf. Bu, neyin basılacağı konusunda ayrıntılı kontrol sağlar.
+Evet, Word belgesinin belirli bölümlerini, bu bölümlerdeki sayfaları belirterek yazdırabilirsiniz. `PageRange` sınıf. Bu, neyin basılacağı konusunda ayrıntılı kontrol sağlar.
 
 ### Sayfa yönü ve kağıt boyutu gibi ek yazdırma seçeneklerini nasıl ayarlayabilirim?
 
- Sayfa yönü ve kağıt boyutu gibi ek yazdırma seçeneklerini yapılandırarak ayarlayabilirsiniz.`PrintOptions` belgeyi yazdırmadan önce nesne. Gibi yöntemleri kullanın`setOrientation` Ve`setPaperSize` yazdırma ayarlarını özelleştirmek için.
+Sayfa yönü ve kağıt boyutu gibi ek yazdırma seçeneklerini yapılandırarak ayarlayabilirsiniz. `PrintOptions` belgeyi yazdırmadan önce nesne. Gibi yöntemleri kullanın `setOrientation` Ve `setPaperSize` yazdırma ayarlarını özelleştirmek için.
 
 ### Aspose.Words for Java'nın deneme sürümü mevcut mu?
 
 Evet, web sitesinden Aspose.Words for Java'nın deneme sürümünü indirebilirsiniz. Bu, lisans satın almadan önce kütüphanenin özelliklerini keşfetmenizi ve gereksinimlerinizi karşılayıp karşılamadığını görmenizi sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

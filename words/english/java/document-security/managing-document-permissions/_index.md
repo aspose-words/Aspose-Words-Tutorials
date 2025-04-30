@@ -7,8 +7,11 @@ weight: 11
 url: /java/document-security/managing-document-permissions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Document Permissions
@@ -100,9 +103,13 @@ Managing document permissions is crucial for maintaining the confidentiality and
 Now that you have a solid understanding of managing document permissions using Aspose.Words for Java, it's time to put this knowledge into practice. Enhance your document management processes and safeguard your data with ease.
 
 Remember, document security is an ongoing process, so stay vigilant and make use of the powerful features offered by Aspose.Words for Java to protect your valuable documents.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

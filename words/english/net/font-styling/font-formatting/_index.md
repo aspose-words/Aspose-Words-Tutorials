@@ -6,8 +6,11 @@ description: Learn how to create a Word document with customized font formatting
 keywords: [Aspose.Words, .NET, Word document, font formatting, programming example, DocumentBuilder, font properties]
 url: /net/font-styling/font-formatting/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Font Formatting in Word Using Aspose.Words
@@ -15,9 +18,12 @@ url: /net/font-styling/font-formatting/
 This guide provides a simple example of creating and formatting a Word document using Aspose.Words for .NET. You'll learn to customize font properties such as size, style, and color, and then write text into the document. Step-by-step instructions make it easy for both beginners and experienced developers to incorporate Aspose.Words into their applications.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/font-styling/font-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions 
 1. Prerequisites: Ensure you have .NET installed on your machine.
@@ -34,8 +40,12 @@ This guide provides a simple example of creating and formatting a Word document 
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

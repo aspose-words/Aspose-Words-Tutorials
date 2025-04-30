@@ -1,14 +1,16 @@
 ---
-title: Использование диаграмм в Aspose.Words для Java
-linktitle: Использование диаграмм
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как создавать и настраивать диаграммы в Aspose.Words для Java. Изучите типы диаграмм, форматирование и свойства осей для визуализации данных.
-weight: 12
-url: /ru/java/document-conversion-and-export/using-charts/
+"description": "Узнайте, как создавать и настраивать диаграммы в Aspose.Words для Java. Изучите типы диаграмм, форматирование и свойства осей для визуализации данных."
+"linktitle": "Использование диаграмм"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование диаграмм в Aspose.Words для Java"
+"url": "/ru/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование диаграмм в Aspose.Words для Java
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx
 
 ## Создание других типов диаграмм
 
-Вы можете создавать различные типы диаграмм, такие как столбчатые, площадные, пузырьковые, точечные и другие, используя похожие методы. Вот пример вставки простой столбчатой диаграммы:
+Вы можете создавать различные типы диаграмм, такие как столбчатые, площадные, пузырьковые, точечные и другие, используя аналогичные методы. Вот пример вставки простой столбчатой диаграммы:
 
 ```java
 Document doc = new Document();
@@ -88,7 +90,7 @@ ChartAxis yAxis = chart.getAxisY();
 // Измените ось X так, чтобы вместо даты отображалась категория.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Измеряется в единицах отображения оси Y (сотни).
+xAxis.setCrossesAt(3.0); // Измеряется в единицах отображения оси Y (сотни).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -133,26 +135,31 @@ doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 
 ### Как добавить несколько рядов в диаграмму?
 
- Вы можете добавить несколько рядов в диаграмму с помощью`chart.getSeries().add()` метод. Обязательно укажите название серии, категории и значения данных.
+Вы можете добавить несколько рядов в диаграмму с помощью `chart.getSeries().add()` метод. Обязательно укажите название серии, категории и значения данных.
 
 ### Как отформатировать метки данных с помощью пользовательских числовых форматов?
 
-Вы можете форматировать метки данных, перейдя к`DataLabels` свойства серии и установка нужного формата кода с помощью`getNumberFormat().setFormatCode()`.
+Вы можете форматировать метки данных, перейдя к `DataLabels` свойства серии и установка нужного формата кода с помощью `getNumberFormat().setFormatCode()`.
 
 ### Как настроить свойства осей на диаграмме?
 
- Вы можете настроить свойства осей, такие как тип, деления, метки и многое другое, перейдя к`ChartAxis` свойства, такие как`setCategoryType()`, `setCrosses()` , и`setMajorTickMark()`.
+Вы можете настроить свойства осей, такие как тип, деления, метки и многое другое, перейдя к `ChartAxis` свойства, такие как `setCategoryType()`, `setCrosses()`, и `setMajorTickMark()`.
 
 ### Как создать другие типы диаграмм, например, точечные или площадные диаграммы?
 
- Вы можете создавать различные типы диаграмм, указав соответствующие`ChartType` при вставке диаграммы с помощью`builder.insertChart(ChartType.TYPE, width, height)`.
+Вы можете создавать различные типы диаграмм, указав соответствующие `ChartType` при вставке диаграммы с помощью `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Как скрыть ось диаграммы?
 
- Вы можете скрыть ось диаграммы, установив`setHidden(true)` свойство оси.
+Вы можете скрыть ось диаграммы, установив `setHidden(true)` свойство оси.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

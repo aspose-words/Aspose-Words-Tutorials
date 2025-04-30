@@ -1,14 +1,16 @@
 ---
-title: เพิ่มรูปร่างกลุ่ม
-linktitle: เพิ่มรูปร่างกลุ่ม
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการเพิ่มรูปร่างกลุ่มลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/programming-with-shapes/add-group-shape/
+"description": "เรียนรู้วิธีการเพิ่มรูปร่างกลุ่มลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "เพิ่มรูปร่างกลุ่ม"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "เพิ่มรูปร่างกลุ่ม"
+"url": "/th/net/programming-with-shapes/add-group-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มรูปร่างกลุ่ม
@@ -21,7 +23,7 @@ url: /th/net/programming-with-shapes/add-group-shape/
 
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE อื่นๆ ที่เข้ากันได้กับ .NET
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# ถือเป็นข้อดี
 
@@ -47,11 +49,11 @@ Document doc = new Document();
 doc.EnsureMinimum();
 ```
 
- ที่นี่,`EnsureMinimum()` เพิ่มชุดโหนดขั้นต่ำที่จำเป็นสำหรับเอกสาร
+ที่นี่, `EnsureMinimum()` เพิ่มชุดโหนดขั้นต่ำที่จำเป็นสำหรับเอกสาร
 
 ## ขั้นตอนที่ 2: สร้างวัตถุ GroupShape
 
- ต่อไปเราต้องสร้าง`GroupShape`วัตถุ วัตถุนี้จะทำหน้าที่เป็นภาชนะสำหรับรูปร่างอื่นๆ ซึ่งทำให้เราสามารถจัดกลุ่มพวกมันเข้าด้วยกันได้
+ต่อไปเราต้องสร้าง `GroupShape` วัตถุ วัตถุนี้จะทำหน้าที่เป็นภาชนะสำหรับรูปร่างอื่นๆ ซึ่งทำให้เราสามารถจัดกลุ่มพวกมันเข้าด้วยกันได้
 
 ```csharp
 GroupShape groupShape = new GroupShape(doc);
@@ -59,7 +61,7 @@ GroupShape groupShape = new GroupShape(doc);
 
 ## ขั้นตอนที่ 3: เพิ่มรูปร่างลงใน GroupShape
 
- ตอนนี้เรามาเพิ่มรูปทรงแต่ละรูปทรงลงในของเรา`GroupShape` คอนเทนเนอร์ เราจะเริ่มด้วยรูปร่างเส้นขอบเน้น และจากนั้นจึงเพิ่มรูปร่างปุ่มการกระทำ
+ตอนนี้เรามาเพิ่มรูปทรงแต่ละรูปทรงลงในของเรา `GroupShape` คอนเทนเนอร์ เราจะเริ่มด้วยรูปร่างเส้นขอบเน้น และจากนั้นจึงเพิ่มรูปร่างปุ่มการกระทำ
 
 ### การเพิ่มรูปทรงขอบเน้น
 
@@ -72,7 +74,7 @@ Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1)
 groupShape.AppendChild(accentBorderShape);
 ```
 
- ตัวอย่างโค้ดนี้สร้างรูปร่างเส้นขอบเน้นที่มีความกว้างและความสูง 100 หน่วยและเพิ่มเข้าไปใน`GroupShape`.
+ตัวอย่างโค้ดนี้สร้างรูปร่างเส้นขอบเน้นที่มีความกว้างและความสูง 100 หน่วยและเพิ่มเข้าไปใน `GroupShape`-
 
 ### การเพิ่มรูปร่างปุ่มการกระทำ
 
@@ -86,11 +88,11 @@ Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 groupShape.AppendChild(actionButtonShape);
 ```
 
- ที่นี่ เราสร้างรูปร่างปุ่มการกระทำ วางตำแหน่ง และเพิ่มลงใน`GroupShape`.
+ที่นี่ เราสร้างรูปร่างปุ่มการกระทำ วางตำแหน่ง และเพิ่มลงใน `GroupShape`-
 
 ## ขั้นตอนที่ 4: กำหนดมิติ GroupShape
 
- เพื่อให้แน่ใจว่ารูปร่างของเราพอดีกับกลุ่ม เราจำเป็นต้องกำหนดขนาดของ`GroupShape`.
+เพื่อให้แน่ใจว่ารูปร่างของเราพอดีกับกลุ่ม เราจำเป็นต้องกำหนดขนาดของ `GroupShape`-
 
 ```csharp
 groupShape.Width = 200;
@@ -98,11 +100,11 @@ groupShape.Height = 200;
 groupShape.CoordSize = new Size(200, 200);
 ```
 
- นี่จะกำหนดความกว้างและความสูงของ`GroupShape` เป็น 200 หน่วย และกำหนดขนาดพิกัดให้เหมาะสม
+นี่จะกำหนดความกว้างและความสูงของ `GroupShape` เป็น 200 หน่วย และกำหนดขนาดพิกัดให้เหมาะสม
 
 ## ขั้นตอนที่ 5: แทรก GroupShape ลงในเอกสาร
 
- ตอนนี้เรามาแทรกของเรา`GroupShape` เข้าไปในเอกสารโดยใช้`DocumentBuilder`.
+ตอนนี้เรามาแทรกของเรา `GroupShape` เข้าไปในเอกสารโดยใช้ `DocumentBuilder`-
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -128,22 +130,27 @@ doc.Save(dataDir + "WorkingWithShapes.AddGroupShape.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถเพิ่มรูปร่างมากกว่าสองรูปร่างลงใน GroupShape ได้หรือไม่
- ใช่ คุณสามารถเพิ่มรูปทรงได้มากเท่าที่คุณต้องการ`GroupShape` . เพียงแค่ใช้`AppendChild` วิธีการสำหรับแต่ละรูปร่าง
+ใช่ คุณสามารถเพิ่มรูปทรงได้มากเท่าที่คุณต้องการ `GroupShape`เพียงแค่ใช้ `AppendChild` วิธีการสำหรับแต่ละรูปร่าง
 
 ### สามารถกำหนดรูปแบบรูปทรงภายใน GroupShape ได้หรือไม่
- แน่นอน! แต่ละรูปทรงสามารถออกแบบได้เป็นรายบุคคลโดยใช้คุณสมบัติที่มีอยู่ใน`Shape` ระดับ.
+แน่นอน! แต่ละรูปทรงสามารถออกแบบได้เป็นรายบุคคลโดยใช้คุณสมบัติที่มีอยู่ใน `Shape` ระดับ.
 
 ### ฉันจะวางตำแหน่ง GroupShape ภายในเอกสารได้อย่างไร
- คุณสามารถวางตำแหน่ง`GroupShape` โดยการตั้งค่าของมัน`Left` และ`Top` คุณสมบัติ.
+คุณสามารถวางตำแหน่ง `GroupShape` โดยการตั้งค่าของมัน `Left` และ `Top` คุณสมบัติ.
 
 ### ฉันสามารถเพิ่มข้อความลงในรูปร่างภายใน GroupShape ได้หรือไม่
- ใช่ คุณสามารถเพิ่มข้อความลงในรูปร่างได้โดยใช้`AppendChild` วิธีการเพิ่ม`Paragraph` มี`Run` โหนดที่มีข้อความ
+ใช่ คุณสามารถเพิ่มข้อความลงในรูปร่างได้โดยใช้ `AppendChild` วิธีการเพิ่ม `Paragraph` มี `Run` โหนดที่มีข้อความ
 
 ### เป็นไปได้ไหมที่จะจัดกลุ่มรูปร่างแบบไดนามิกตามอินพุตของผู้ใช้?
 ใช่ คุณสามารถสร้างและจัดกลุ่มรูปร่างแบบไดนามิกตามอินพุตของผู้ใช้ได้โดยปรับคุณสมบัติและวิธีการให้เหมาะสม
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

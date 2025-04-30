@@ -6,8 +6,11 @@ description: Learn how to create a Word document with a formatted table cell inc
 keywords: [Aspose.Words for .NET, table cell padding, formatted cell, Word document, .NET Word API, create Word table, table formatting, document builder, .NET example]
 url: /net/working-with-table-styles-and-formatting/cell-padding/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Word Table Cell with Padding in Aspose.Words
@@ -15,9 +18,12 @@ url: /net/working-with-table-styles-and-formatting/cell-padding/
 Aspose.Words for .NET makes working with Word documents a breeze! This tutorial demonstrates how to create a Word table with a formatted cell that includes custom padding. By using the powerful `DocumentBuilder` class, you can effortlessly define the padding for table cells and add professionally formatted content. Whether you're automating report generation, building complex tables, or creating Word templates, Aspose.Words for .NET ensures your tasks are efficient and straightforward.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/cell-padding" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 To run the example and use Aspose.Words for .NET, follow these steps:  
@@ -42,8 +48,12 @@ To run the example and use Aspose.Words for .NET, follow these steps:
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

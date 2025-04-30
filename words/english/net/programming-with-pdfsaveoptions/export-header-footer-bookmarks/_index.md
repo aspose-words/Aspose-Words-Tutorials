@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/export-header-footer-bookmarks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Word Document Header Footer Bookmarks to PDF Document
@@ -96,9 +99,13 @@ If your document has no bookmarks, the PDF will be generated without any bookmar
 
 Yes, Aspose.Words for .NET supports various document types, including DOCX, RTF, and others.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

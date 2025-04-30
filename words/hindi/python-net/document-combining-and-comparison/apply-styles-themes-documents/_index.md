@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ों को रूपांतरित करने के लिए शैलियाँ और थीम लागू करना
-linktitle: दस्तावेज़ों को रूपांतरित करने के लिए शैलियाँ और थीम लागू करना
-second_title: Aspose.Words पायथन दस्तावेज़ प्रबंधन API
-description: Python के लिए Aspose.Words के साथ दस्तावेज़ सौंदर्य को बढ़ाएँ। शैलियों, थीम और अनुकूलन को आसानी से लागू करें।
-weight: 14
-url: /hi/python-net/document-combining-and-comparison/apply-styles-themes-documents/
+"description": "Python के लिए Aspose.Words के साथ दस्तावेज़ सौंदर्य को बढ़ाएँ। शैलियों, थीम और अनुकूलन को आसानी से लागू करें।"
+"linktitle": "दस्तावेज़ों को रूपांतरित करने के लिए शैलियाँ और थीम लागू करना"
+"second_title": "Aspose.Words पायथन दस्तावेज़ प्रबंधन API"
+"title": "दस्तावेज़ों को रूपांतरित करने के लिए शैलियाँ और थीम लागू करना"
+"url": "/hi/python-net/document-combining-and-comparison/apply-styles-themes-documents/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ों को रूपांतरित करने के लिए शैलियाँ और थीम लागू करना
@@ -20,7 +22,7 @@ url: /hi/python-net/document-combining-and-comparison/apply-styles-themes-docume
 
 ## वातावरण की स्थापना
 
-स्टाइलिंग में गोता लगाने से पहले, आइए अपना डेवलपमेंट एनवायरनमेंट सेट करें। सुनिश्चित करें कि आपके पास Python के लिए Aspose.Words इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/python/).
+स्टाइलिंग में गोता लगाने से पहले, आइए अपना डेवलपमेंट एनवायरनमेंट सेट करें। सुनिश्चित करें कि आपके पास Python के लिए Aspose.Words इंस्टॉल है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/python/).
 
 ## दस्तावेज़ लोड करना और सहेजना
 
@@ -29,10 +31,10 @@ url: /hi/python-net/document-combining-and-comparison/apply-styles-themes-docume
 ```python
 from asposewords import Document
 
-# Load the document
+# दस्तावेज़ लोड करें
 doc = Document("input.docx")
 
-# Save the document
+# दस्तावेज़ सहेजें
 doc.save("output.docx")
 ```
 
@@ -43,7 +45,7 @@ doc.save("output.docx")
 ```python
 from asposewords import Font, StyleIdentifier
 
-# Apply bold style
+# बोल्ड स्टाइल लागू करें
 font = doc.range.font
 font.bold = True
 font.style_identifier = StyleIdentifier.STRONG
@@ -56,7 +58,7 @@ font.style_identifier = StyleIdentifier.STRONG
 ```python
 from asposewords import ParagraphAlignment
 
-# Apply centered alignment
+# केन्द्रित संरेखण लागू करें
 paragraph = doc.first_section.body.first_paragraph.paragraph_format
 paragraph.alignment = ParagraphAlignment.CENTER
 ```
@@ -67,10 +69,10 @@ paragraph.alignment = ParagraphAlignment.CENTER
 
 ```python
 
-# Modify theme colors
+# थीम रंग संशोधित करें
 doc.theme.color = ThemeColor.ACCENT2
 
-# Change theme font
+# थीम फ़ॉन्ट बदलें
 doc.theme.major_fonts.latin = "Arial"
 ```
 
@@ -82,7 +84,7 @@ doc.theme.major_fonts.latin = "Arial"
 import aspose.words as aw
 from asposewords import HeaderFooterType
 
-# Apply style to header
+# हेडर पर शैली लागू करें
 header = doc.first_section.headers_footers.add(aw.HeaderFooter(doc, aw.HeaderFooterType.HEADER_PRIMARY))
 
 style = doc.styles.add(aw.StyleType.PARAGRAPH, 'MyStyle1')
@@ -99,7 +101,7 @@ header.paragraph_format.style = style
 
 ### मैं Python के लिए Aspose.Words कैसे डाउनलोड कर सकता हूँ?
 
- आप वेबसाइट से पायथन के लिए Aspose.Words डाउनलोड कर सकते हैं:[लिंक को डाउनलोड करें](https://releases.aspose.com/words/python/).
+आप वेबसाइट से पायथन के लिए Aspose.Words डाउनलोड कर सकते हैं: [लिंक को डाउनलोड करें](https://releases.aspose.com/words/python/).
 
 ### क्या मैं अपनी स्वयं की कस्टम शैलियाँ बना सकता हूँ?
 
@@ -115,10 +117,15 @@ header.paragraph_format.style = style
 
 ### क्या मेरे दस्तावेज़ से फ़ॉर्मेटिंग साफ़ करना संभव है?
 
-हां, आप इसका उपयोग करके आसानी से स्वरूपण और शैलियों को हटा सकते हैं`clear_formatting()` पायथन के लिए Aspose.Words द्वारा प्रदान की गई विधि।
+हां, आप इसका उपयोग करके आसानी से स्वरूपण और शैलियों को हटा सकते हैं `clear_formatting()` पायथन के लिए Aspose.Words द्वारा प्रदान की गई विधि।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

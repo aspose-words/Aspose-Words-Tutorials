@@ -1,14 +1,16 @@
 ---
-title: แทรกตารางโดยตรง
-linktitle: แทรกตารางโดยตรง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการแทรกตารางโดยตรงลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อปรับปรุงการสร้างเอกสารของคุณให้มีประสิทธิภาพ
-weight: 10
-url: /th/net/programming-with-tables/insert-table-directly/
+"description": "เรียนรู้วิธีการแทรกตารางโดยตรงลงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อปรับปรุงการสร้างเอกสารของคุณให้มีประสิทธิภาพ"
+"linktitle": "แทรกตารางโดยตรง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "แทรกตารางโดยตรง"
+"url": "/th/net/programming-with-tables/insert-table-directly/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แทรกตารางโดยตรง
@@ -20,12 +22,12 @@ url: /th/net/programming-with-tables/insert-table-directly/
 
 ก่อนจะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกอย่างที่จำเป็นในการเริ่มต้นแล้ว นี่คือรายการตรวจสอบโดยย่อ:
 
-1.  ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถรับได้จาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/net/).
+1. ไลบรารี Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.Words สำหรับ .NET แล้ว คุณสามารถรับได้จาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนาเช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ทำความเข้าใจพื้นฐานการเขียนโปรแกรม C#
 4. ไดเรกทอรีเอกสาร: เส้นทางไดเรกทอรีที่คุณจะบันทึกเอกสารของคุณ
 
-เมื่อมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะเริ่มเขียนโค้ดได้แล้ว!
+เมื่อมีข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะเริ่มต้นการเขียนโค้ดได้แล้ว!
 
 ## นำเข้าเนมสเปซ
 
@@ -38,20 +40,20 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-ตอนนี้เรามีเนมสเปซแล้ว มาดูส่วนที่น่าตื่นเต้นกัน นั่นก็คือการสร้างและแทรกตารางโดยตรงในเอกสาร Word
+ตอนนี้เรามีเนมสเปซแล้ว เรามาเริ่มกันที่ส่วนที่น่าตื่นเต้น นั่นก็คือการสร้างและแทรกตารางโดยตรงในเอกสาร Word กัน
 
 ## ขั้นตอนที่ 1: การตั้งค่าเอกสาร
 
 เริ่มต้นด้วยการตั้งค่าเอกสาร Word ใหม่ นี่คือตำแหน่งที่จะแทรกตารางของเรา
 
 ```csharp
-// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ
+// เส้นทางไปยังไดเรกทอรีเอกสารของคุณ 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- รหัสนี้จะเริ่มต้นเอกสาร Word ใหม่ คุณจะต้องแทนที่`"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
+รหัสนี้จะเริ่มต้นเอกสาร Word ใหม่ คุณจะต้องแทนที่ `"YOUR DOCUMENT DIRECTORY"` พร้อมเส้นทางจริงไปยังไดเร็กทอรีเอกสารของคุณ
 
 ## ขั้นตอนที่ 2: การสร้างวัตถุตาราง
 
@@ -106,7 +108,7 @@ row.AppendChild(cell);
 
 ```csharp
 // จากนั้นเราจะทำซ้ำขั้นตอนเดียวกันสำหรับเซลล์และแถวอื่น ๆ ในตาราง
-//เราสามารถเพิ่มความเร็วได้ด้วยการโคลนเซลล์และแถวที่มีอยู่
+// เราสามารถเพิ่มความเร็วได้ด้วยการโคลนเซลล์และแถวที่มีอยู่
 row.AppendChild(cell.Clone(false));
 row.LastCell.AppendChild(new Paragraph(doc));
 row.LastCell.FirstParagraph.AppendChild(new Run(doc, "Row 1, Cell 2 Text"));
@@ -140,22 +142,27 @@ doc.Save(dataDir + "WorkingWithTables.InsertTableDirectly.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันจะดาวน์โหลด Aspose.Words สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก[หน้าดาวน์โหลด](https://releases.aspose.com/words/net/).
+คุณสามารถดาวน์โหลด Aspose.Words สำหรับ .NET ได้จาก [หน้าดาวน์โหลด](https://releases-aspose.com/words/net/).
 
 ### ฉันสามารถทดลองใช้ Aspose.Words สำหรับ .NET ก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถร้องขอได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อประเมินห้องสมุดก่อนการซื้อ
+ใช่ คุณสามารถร้องขอได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อประเมินห้องสมุดก่อนการซื้อ
 
 ### ฉันจะซื้อ Aspose.Words สำหรับ .NET ได้อย่างไร?
-คุณสามารถซื้อ Aspose.Words สำหรับ .NET ได้จาก[หน้าการซื้อ](https://purchase.aspose.com/buy).
+คุณสามารถซื้อ Aspose.Words สำหรับ .NET ได้จาก [หน้าการซื้อ](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถค้นหาเอกสารสำหรับ Aspose.Words สำหรับ .NET ได้ที่ไหน
- เอกสารประกอบมีให้ใช้งาน[ที่นี่](https://reference.aspose.com/words/net/).
+เอกสารประกอบมีให้ใช้งาน [ที่นี่](https://reference-aspose.com/words/net/).
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการการสนับสนุนในระหว่างที่ใช้ Aspose.Words สำหรับ .NET?
- หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+หากต้องการความช่วยเหลือ สามารถเข้าไปเยี่ยมชมได้ที่ [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

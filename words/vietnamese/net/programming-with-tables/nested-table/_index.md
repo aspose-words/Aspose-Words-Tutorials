@@ -1,14 +1,16 @@
 ---
-title: Bảng lồng nhau
-linktitle: Bảng lồng nhau
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo bảng lồng nhau trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Hoàn hảo để tạo bố cục tài liệu phức tạp theo chương trình.
-weight: 10
-url: /vi/net/programming-with-tables/nested-table/
+"description": "Tìm hiểu cách tạo bảng lồng nhau trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Hoàn hảo để tạo bố cục tài liệu phức tạp theo chương trình."
+"linktitle": "Bảng lồng nhau"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Bảng lồng nhau"
+"url": "/vi/net/programming-with-tables/nested-table/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng lồng nhau
@@ -21,7 +23,7 @@ Bạn đã bao giờ thấy mình cần tạo một bảng lồng nhau trong m�
 
 Trước khi tìm hiểu về mã, bạn cần có một số thứ sau:
 
--  Aspose.Words cho .NET: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/net/).
 - Môi trường phát triển: Visual Studio hoặc bất kỳ IDE C# nào khác.
 - Kiến thức cơ bản về C#: Hiểu biết về cú pháp và khái niệm của C#.
 
@@ -38,7 +40,7 @@ using Aspose.Words.Tables;
 
 ## Bước 1: Khởi tạo Document và DocumentBuilder
 
- Để bắt đầu, chúng ta sẽ tạo một tài liệu Word mới và khởi tạo`DocumentBuilder` đối tượng sẽ giúp chúng ta xây dựng bảng.
+Để bắt đầu, chúng ta sẽ tạo một tài liệu Word mới và khởi tạo `DocumentBuilder` đối tượng sẽ giúp chúng ta xây dựng bảng.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu của bạn
@@ -132,7 +134,7 @@ Bảng lồng nhau là bảng trong một bảng. Bảng này được sử dụ
 
 ### Tại sao nên sử dụng Aspose.Words cho .NET?
 
-Aspose.Words for .NET cung cấp một bộ tính năng mạnh mẽ để tạo, sửa đổi và chuyển đổi tài liệu Word theo chương trình, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển.
+Aspose.Words for .NET cung cấp một bộ tính năng mạnh mẽ để tạo, sửa đổi và chuyển đổi tài liệu Word theo cách lập trình, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển.
 
 ### Tôi có thể thêm nhiều cấp độ bảng lồng nhau hơn không?
 
@@ -144,10 +146,15 @@ Aspose.Words for .NET tương thích với nhiều định dạng tài liệu Wo
 
 ### Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.Words dành cho .NET?
 
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

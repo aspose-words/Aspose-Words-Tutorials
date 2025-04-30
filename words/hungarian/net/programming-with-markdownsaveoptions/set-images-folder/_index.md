@@ -1,34 +1,36 @@
 ---
-title: Képek mappa beállítása
-linktitle: Képek mappa beállítása
-second_title: Aspose.Words Document Processing API
-description: Konvertálja a Word dokumentumokat Markdown formátumba megfelelő táblázatigazítással az Aspose.Words for .NET segítségével. Kövesse részletes útmutatónkat a tökéletes eredmény érdekében.
-weight: 10
-url: /hu/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "Konvertálj Word dokumentumokat Markdown formátumba megfelelő táblázatigazítással az Aspose.Words for .NET segítségével. Kövesd részletes útmutatónkat a tökéletes eredményért."
+"linktitle": "Képek mappa beállítása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Képek mappa beállítása"
+"url": "/hu/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Képek mappa beállítása
 
 ## Bevezetés
 
-Szerette már Word-dokumentumát Markdown formátumba exportálni, miközben gondoskodik arról, hogy a táblázatok és a tartalom tökéletesen illeszkedjenek egymáshoz? Az Aspose.Words for .NET a megfelelő megoldás erre a feladatra. Ebben a cikkben végigvezetjük az Aspose.Words beállításán, a dokumentum előkészítésén, valamint a megfelelő táblázattartalom-igazítás mellett a Markdownba exportálásán. Az egyes lépéseket lebontjuk, hogy könnyebben követhető és érthető legyen. Tehát merüljünk bele, és alakítsa át Word-dokumentumait gyönyörűen igazított Markdown-fájlokká!
+Szeretted volna már Word-dokumentumodat Markdown formátumba exportálni, miközben biztosítod a táblázatok és a tartalom tökéletes illeszkedését? Az Aspose.Words for .NET a tökéletes megoldás erre a feladatra. Ebben a cikkben végigvezetünk az Aspose.Words beállításának, a dokumentum előkészítésének és a Markdown formátumba exportálásának folyamatán a megfelelő táblázattartalom-igazítással. Minden lépést lebontunk, hogy könnyen követhető és érthető legyen. Tehát vágjunk bele, és alakítsuk át Word-dokumentumaidat gyönyörűen igazított Markdown-fájlokká!
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
--  Aspose.Words for .NET: Letöltheti[itt](https://releases.aspose.com/words/net/).
--  Érvényes licenc: Szerezzen ingyenes próbaverziót[itt](https://releases.aspose.com/) vagy ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-- Visual Studio: Vagy bármely más IDE, amely támogatja a .NET fejlesztést.
-- C# alapismeretek: C# programozási nyelv ismerete.
+- Aspose.Words .NET-hez: Letöltheti [itt](https://releases.aspose.com/words/net/).
+- Érvényes licenc: Ingyenes próbaverzió beszerzése [itt](https://releases.aspose.com/) vagy ideiglenes jogosítvány [itt](https://purchase.aspose.com/temporary-license/).
+- Visual Studio: Vagy bármilyen más IDE, amely támogatja a .NET fejlesztést.
+- C# alapismeretek: A C# programozási nyelv ismerete.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a C# projektbe. Ezek a névterek lehetővé teszik az Aspose.Words funkció elérését.
+Kezdéshez importálnod kell a szükséges névtereket a C# projektedbe. Ezek a névterek lehetővé teszik az Aspose.Words funkciók elérését.
 
 ```csharp
 using Aspose.Words;
@@ -36,45 +38,45 @@ using Aspose.Words.Saving;
 using System.IO;
 ```
 
-## 1. lépés: Állítsa be projektjét
+## 1. lépés: A projekt beállítása
 
-Először is állítsa be .NET-projektjét az IDE-ben. Hozzon létre egy új konzolalkalmazást, és adjon hozzá egy hivatkozást az Aspose.Words for .NET-hez.
+Először is állítsd be a .NET projektedet az IDE-ben. Hozz létre egy új konzolalkalmazást, és adj hozzá egy hivatkozást az Aspose.Words for .NET fájlhoz.
 
-### 1.1 Hozzon létre egy új projektet
+### 1.1 Új projekt létrehozása
 
-Nyissa meg a Visual Studio-t, és hozzon létre egy új konzolalkalmazás-projektet. Nevezd el "MarkdownExporter"-nek vagy valami hasonlónak.
+Nyisd meg a Visual Studio-t, és hozz létre egy új Console Application projektet. Nevezd el „MarkdownExporter”-nek vagy valami hasonlónak.
 
-### 1.2 Az Aspose.Words Reference hozzáadása
+### 1.2 Aspose.Words referencia hozzáadása
 
- Az Aspose.Words projekthez való hozzáadásához letöltheti a DLL-t a következő webhelyről[Aspose honlapja](https://releases.aspose.com/words/net/) és adja hozzá manuálisan, vagy használja a NuGet Package Managert:
+Az Aspose.Words projekthez való hozzáadásához letöltheti a DLL-t a következő helyről: [Aspose weboldal](https://releases.aspose.com/words/net/) és adja hozzá manuálisan, vagy használja a NuGet csomagkezelőt:
 
 ```bash
 Install-Package Aspose.Words
 ```
 
-## 2. lépés: Írja be az exportálandó kódot Markdownként
+## 2. lépés: Írd be a Markdownként exportálandó kódot
 
-Most írjuk meg a Word-dokumentum olvasásához szükséges kódot, és mentsük el Markdown fájlként, megfelelő táblázatigazítással.
+Most írjuk meg a kódot a Word-dokumentum beolvasásához és Markdown-fájlként történő mentéséhez megfelelő táblázatigazítással.
 
-### 2.1 Határozza meg a dokumentum elérési útját
+### 2.1 A dokumentum elérési útjának meghatározása
 
-Állítsa be a Word-dokumentum elérési útját és azt a mappát, ahová a képeket menteni szeretné.
+Adja meg a Word-dokumentum elérési útját és azt a mappát, ahová a képeket menteni szeretné.
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-### 2.2 Töltse be a dokumentumot
+### 2.2 A dokumentum betöltése
 
-Töltse be a Word-dokumentumot az Aspose.Words használatával.
+Töltsd be a Word dokumentumodat az Aspose.Words segítségével.
 
 ```csharp
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
-### 2.3 A Markdown mentési beállításainak konfigurálása
+### 2.3 Markdown mentési beállításainak konfigurálása
 
- Konfigurálja a`MarkdownSaveOptions` a képek tárolási helyének megadásához.
+Konfigurálja a `MarkdownSaveOptions` hogy meg lehessen adni, hol kell tárolni a képeket.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -83,9 +85,9 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 };
 ```
 
-### 2.4 Mentse el a dokumentumot Markdown néven
+### 2.4 Dokumentum mentése Markdown néven
 
- Használja a`MemoryStream` a dokumentum Markdown formátumban történő mentéséhez.
+Használjon egy `MemoryStream` a dokumentum Markdown formátumban történő mentéséhez.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -96,33 +98,38 @@ using (MemoryStream stream = new MemoryStream())
 
 ## Következtetés
 
-A Word-dokumentum exportálása a Markdownba a táblázattartalom-igazítással az Aspose.Words for .NET használatával egyszerű, ha követi ezeket a lépéseket. Néhány sornyi kóddal automatizálhatja a konverziós folyamatot, és gondoskodhat arról, hogy a tartalom megfelelően legyen formázva. Mostantól könnyedén megoszthatja dokumentumait Markdown formátumban, tudva, hogy nagyszerűen fognak kinézni és megőrzik szerkezetüket.
+Egy Word-dokumentum exportálása Markdown formátumba táblázattartalom-igazítással az Aspose.Words for .NET segítségével egyszerűen elvégezhető, ha követi ezeket a lépéseket. Néhány sornyi kóddal automatizálhatja az átalakítási folyamatot, és biztosíthatja, hogy a tartalom megfelelően formázott legyen. Mostantól könnyedén megoszthatja dokumentumait Markdown formátumban, tudván, hogy azok nagyszerűen fognak kinézni, és megőrzik a szerkezetüket.
 
 ## GYIK
 
 ### Használhatom az Aspose.Words for .NET-et más programozási nyelvekkel?
 
-Igen, az Aspose.Words for .NET használható bármely .NET-kompatibilis nyelvvel, például VB.NET-tel, F#-mal stb.
+Igen, az Aspose.Words for .NET bármilyen .NET-kompatibilis nyelvvel használható, például VB.NET-tel, F#-pal és egyebekkel.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
 
-Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+Ideiglenes jogosítványt szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
-### Milyen típusú dokumentumokat konvertálhatok Markdown-ba?
+### Milyen típusú dokumentumokat konvertálhatok Markdown formátumba?
 
-Különféle Word-dokumentumokat konvertálhat, beleértve a .doc, .docx, .rtf és egyebeket.
+Különféle Word-dokumentumokat konvertálhat, beleértve a .doc, .docx, .rtf és más fájlokat.
 
-### Vannak korlátozások az Aspose.Words próbaverziójában?
+### Vannak-e korlátozások az Aspose.Words próbaverziójában?
 
- próbaverziónak vannak korlátozásai, például vízjelek a kimeneti fájlokban. Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+A próbaverziónak vannak bizonyos korlátozásai, például vízjelek a kimeneti fájlokban. Ingyenes próbaverziót igényelhet. [itt](https://releases.aspose.com/).
 
-### Hol találok további példákat és dokumentációt az Aspose.Words-hez?
+### Hol találok további példákat és dokumentációt az Aspose.Words-höz?
 
- Részletes dokumentációt és példákat találhat a[Aspose honlapja](https://reference.aspose.com/words/net/).
+Részletes dokumentációt és példákat talál a következő címen: [Aspose weboldal](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

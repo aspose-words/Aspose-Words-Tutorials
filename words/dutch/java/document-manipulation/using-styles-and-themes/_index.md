@@ -1,14 +1,16 @@
 ---
-title: Stijlen en thema's gebruiken in Aspose.Words voor Java
-linktitle: Stijlen en thema's gebruiken
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide gids met broncodevoorbeelden.
-weight: 20
-url: /nl/java/document-manipulation/using-styles-and-themes/
+"description": "Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide handleiding met broncodevoorbeelden."
+"linktitle": "Stijlen en thema's gebruiken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Stijlen en thema's gebruiken in Aspose.Words voor Java"
+"url": "/nl/java/document-manipulation/using-styles-and-themes/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stijlen en thema's gebruiken in Aspose.Words voor Java
@@ -16,7 +18,7 @@ url: /nl/java/document-manipulation/using-styles-and-themes/
 
 ## Inleiding tot het gebruik van stijlen en thema's in Aspose.Words voor Java
 
-In deze gids verkennen we hoe u met stijlen en thema's in Aspose.Words voor Java kunt werken om de opmaak en het uiterlijk van uw documenten te verbeteren. We behandelen onderwerpen zoals het ophalen van stijlen, het kopiëren van stijlen, het beheren van thema's en het invoegen van stijlscheidingstekens. Laten we beginnen!
+In deze handleiding onderzoeken we hoe je met stijlen en thema's in Aspose.Words voor Java kunt werken om de opmaak en het uiterlijk van je documenten te verbeteren. We behandelen onderwerpen zoals het ophalen en kopiëren van stijlen, het beheren van thema's en het invoegen van stijlscheidingstekens. Aan de slag!
 
 ## Stijlen ophalen
 
@@ -25,7 +27,7 @@ Om stijlen uit een document op te halen, kunt u het volgende Java-codefragment g
 ```java
 Document doc = new Document();
 String styleName = "";
-//Haal de stijlencollectie uit het document.
+// Haal de stijlencollectie op uit het document.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -46,7 +48,7 @@ Deze code haalt de stijlen op die in het document zijn gedefinieerd en drukt hun
 
 ## Stijlen kopiëren
 
- Om stijlen van het ene document naar het andere te kopiëren, kunt u de`copyStylesFromTemplate` methode zoals hieronder weergegeven:
+Om stijlen van het ene document naar het andere te kopiëren, kunt u de `copyStylesFromTemplate` methode zoals hieronder weergegeven:
 
 ```java
 @Test
@@ -59,11 +61,11 @@ public void copyStyles() throws Exception
 }
 ```
 
-Met deze code kopieert u stijlen uit een sjabloondocument naar het huidige document.
+Deze code kopieert stijlen van een sjabloondocument naar het huidige document.
 
 ## Thema's beheren
 
-Thema's zijn essentieel voor het definiëren van de algehele look van uw document. U kunt thema-eigenschappen ophalen en instellen zoals gedemonstreerd in de volgende code:
+Thema's zijn essentieel voor het bepalen van de algehele uitstraling van uw document. U kunt thema-eigenschappen ophalen en instellen zoals gedemonstreerd in de volgende code:
 
 ```java
 @Test
@@ -90,7 +92,7 @@ Deze fragmenten laten zien hoe u thema-eigenschappen, zoals lettertypen en kleur
 
 ## Stijlscheidingstekens invoegen
 
-Stijlscheidingstekens zijn handig voor het toepassen van verschillende stijlen binnen één alinea. Hier is een voorbeeld van hoe u stijlscheidingstekens invoegt:
+Stijlscheidingstekens zijn handig om verschillende stijlen binnen één alinea toe te passen. Hier is een voorbeeld van hoe u stijlscheidingstekens invoegt:
 
 ```java
 @Test
@@ -102,7 +104,7 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    // Voeg tekst toe met de stijl 'Kop 1'.
+    // Voeg tekst toe in de stijl 'Kop 1'.
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
@@ -117,25 +119,30 @@ In deze code maken we een aangepaste alineastijl en voegen we een stijlscheiding
 
 ## Conclusie
 
-Deze gids heeft de basisbeginselen van het werken met stijlen en thema's in Aspose.Words voor Java behandeld. U hebt geleerd hoe u stijlen kunt ophalen en kopiëren, thema's kunt beheren en stijlscheidingstekens kunt invoegen om visueel aantrekkelijke en goed opgemaakte documenten te maken. Experimenteer met deze technieken om uw documenten aan te passen aan uw vereisten.
+Deze handleiding behandelt de basisprincipes van het werken met stijlen en thema's in Aspose.Words voor Java. U hebt geleerd hoe u stijlen kunt ophalen en kopiëren, thema's kunt beheren en stijlscheidingstekens kunt invoegen om visueel aantrekkelijke en goed opgemaakte documenten te maken. Experimenteer met deze technieken om uw documenten aan te passen aan uw wensen.
 
 
 ## Veelgestelde vragen
 
 ### Hoe kan ik thema-eigenschappen ophalen in Aspose.Words voor Java?
 
-U kunt thema-eigenschappen ophalen door het thema-object en de bijbehorende eigenschappen te openen.
+U kunt thema-eigenschappen ophalen door toegang te krijgen tot het thema-object en de bijbehorende eigenschappen.
 
 ### Hoe kan ik thema-eigenschappen, zoals lettertypen en kleuren, instellen?
 
 U kunt thema-eigenschappen instellen door de eigenschappen van het thema-object te wijzigen.
 
-### Hoe kan ik stijlscheidingstekens gebruiken om stijlen binnen dezelfde alinea te wijzigen?
+### Hoe kan ik stijlscheidingstekens gebruiken om van stijl te wisselen binnen dezelfde alinea?
 
- U kunt stijlscheidingstekens invoegen met behulp van de`insertStyleSeparator` methode van de`DocumentBuilder` klas.
+U kunt stijlscheidingstekens invoegen met behulp van de `insertStyleSeparator` methode van de `DocumentBuilder` klas.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

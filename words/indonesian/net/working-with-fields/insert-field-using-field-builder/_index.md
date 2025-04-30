@@ -1,14 +1,16 @@
 ---
-title: Masukkan Bidang Menggunakan Pembuat Bidang
-linktitle: Masukkan Bidang Menggunakan Pembuat Bidang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara memasukkan kolom dinamis ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang.
-weight: 10
-url: /id/net/working-with-fields/insert-field-using-field-builder/
+"description": "Pelajari cara memasukkan kolom dinamis ke dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang."
+"linktitle": "Masukkan Bidang Menggunakan Pembuat Bidang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Masukkan Bidang Menggunakan Pembuat Bidang"
+"url": "/id/net/working-with-fields/insert-field-using-field-builder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Masukkan Bidang Menggunakan Pembuat Bidang
@@ -19,9 +21,9 @@ Hai! Pernahkah Anda merasa bingung, bertanya-tanya bagaimana cara memasukkan kol
 
 ## Prasyarat
 
-Sebelum kita masuk ke inti pembahasan, mari pastikan Anda sudah menyiapkan semua yang dibutuhkan:
+Sebelum kita masuk ke inti pembahasan, mari pastikan Anda sudah memiliki semua yang dibutuhkan:
 
-1. Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda harus menginstal Aspose.Words untuk .NET. Jika Anda belum melakukannya, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang cocok seperti Visual Studio.
 3. Pengetahuan Dasar C#: Akan membantu jika Anda memahami dasar-dasar C# dan .NET.
 
@@ -61,7 +63,7 @@ Document doc = new Document();
 FieldBuilder adalah pemain kunci di sini. Ia memungkinkan kita membangun bidang secara dinamis.
 
 ```csharp
-//Konstruksi medan IF menggunakan FieldBuilder.
+// Konstruksi medan IF menggunakan FieldBuilder.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
     .AddArgument("left expression")
     .AddArgument("=")
@@ -112,20 +114,25 @@ Selamat! Anda baru saja mempelajari cara memasukkan kolom secara dinamis ke dala
 ### Apa itu Aspose.Words untuk .NET?
 Aspose.Words untuk .NET adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen Word secara terprogram menggunakan C#.
 
-### Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/) Untuk penggunaan jangka panjang, Anda perlu membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+### Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk penggunaan jangka panjang, Anda perlu membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Jenis bidang apa yang dapat saya masukkan menggunakan FieldBuilder?
- FieldBuilder mendukung berbagai macam bidang, termasuk IF, MERGEFIELD, dan lainnya. Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+FieldBuilder mendukung berbagai macam bidang, termasuk IF, MERGEFIELD, dan lainnya. Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Bagaimana cara memperbarui bidang setelah memasukkannya?
- Anda dapat memperbarui bidang menggunakan`Update` metode, seperti yang ditunjukkan dalam tutorial.
+Anda dapat memperbarui bidang menggunakan `Update` metode, seperti yang ditunjukkan dalam tutorial.
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Words?
- Untuk pertanyaan atau dukungan apa pun, kunjungi forum dukungan Aspose.Words[Di Sini](https://forum.aspose.com/c/words/8).
+Untuk pertanyaan atau dukungan apa pun, kunjungi forum dukungan Aspose.Words [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

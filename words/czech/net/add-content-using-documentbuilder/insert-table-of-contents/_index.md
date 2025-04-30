@@ -1,20 +1,22 @@
 ---
-title: Vložit obsah do dokumentu aplikace Word
-linktitle: Vložit obsah do dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak vložit obsah do aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou navigaci v dokumentech.
-weight: 10
-url: /cs/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Naučte se, jak vložit obsah do Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou navigaci v dokumentu."
+"linktitle": "Vložit obsah do dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Vložit obsah do dokumentu Word"
+"url": "/cs/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vložit obsah do dokumentu aplikace Word
+# Vložit obsah do dokumentu Word
 
 ## Zavedení
-tomto tutoriálu se naučíte, jak efektivně přidat obsah (TOC) do dokumentů aplikace Word pomocí Aspose.Words for .NET. Tato funkce je nezbytná pro organizaci a procházení dlouhých dokumentů, zlepšuje čitelnost a poskytuje rychlý přehled částí dokumentu.
+tomto tutoriálu se naučíte, jak efektivně přidat obsah (TOC) do dokumentů Word pomocí Aspose.Words pro .NET. Tato funkce je nezbytná pro organizaci a navigaci v dlouhých dokumentech, zlepšení čitelnosti a poskytnutí rychlého přehledu sekcí dokumentu.
 
 ## Předpoklady
 
@@ -22,7 +24,7 @@ Než začnete, ujistěte se, že máte následující:
 
 - Základní znalost C# a .NET frameworku.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.Words pro knihovnu .NET. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
+- Knihovna Aspose.Words pro .NET. Pokud ji ještě nemáte nainstalovanou, můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
 
 ## Importovat jmenné prostory
 
@@ -37,40 +39,40 @@ using Aspose.Words.Tables;
 
 Rozdělme si proces do jasných kroků:
 
-## Krok 1: Inicializujte dokument Aspose.Words a DocumentBuilder
+## Krok 1: Inicializace dokumentu a DocumentBuilderu Aspose.Words
 
- Nejprve inicializujte nový Aspose.Words`Document` objekt a a`DocumentBuilder` pracovat s:
+Nejprve inicializujte nový Aspose.Words `Document` objekt a `DocumentBuilder` pracovat s:
 
 ```csharp
-// Inicializujte dokument a DocumentBuilder
+// Inicializace dokumentu a nástroje DocumentBuilder
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 2: Vložte obsah
+## Krok 2: Vložení obsahu
 
- Nyní vložte obsah pomocí`InsertTableOfContents` metoda:
+Nyní vložte obsah pomocí `InsertTableOfContents` metoda:
 
 ```csharp
 // Vložit obsah
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 ```
 
-## Krok 3: Spusťte obsah dokumentu na nové stránce
+## Krok 3: Začněte číst obsah dokumentu na nové stránce
 
-Chcete-li zajistit správné formátování, začněte skutečný obsah dokumentu na nové stránce:
+Pro zajištění správného formátování začněte samotný obsah dokumentu na nové stránce:
 
 ```csharp
-// Vložte konec stránky
+// Vložit zalomení stránky
 builder.InsertBreak(BreakType.PageBreak);
 ```
 
-## Krok 4: Strukturujte svůj dokument pomocí nadpisů
+## Krok 4: Strukturujte dokument pomocí nadpisů
 
 Uspořádejte obsah dokumentu pomocí vhodných stylů nadpisů:
 
 ```csharp
-// Nastavte styly nadpisů
+// Nastavení stylů nadpisů
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -95,12 +97,12 @@ builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 ```
 
-## Krok 5: Aktualizujte a vyplňte obsah
+## Krok 5: Aktualizace a naplnění obsahu
 
 Aktualizujte obsah tak, aby odrážel strukturu dokumentu:
 
 ```csharp
-// Aktualizujte pole obsahu
+// Aktualizace polí obsahu
 doc.UpdateFields();
 ```
 
@@ -109,34 +111,39 @@ doc.UpdateFields();
 Nakonec uložte dokument do určeného adresáře:
 
 ```csharp
-// Uložte dokument
+// Uložit dokument
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
 doc.Save(dataDir + "InsertTableOfContentsUsingAsposeWords.docx");
 ```
 
 ## Závěr
 
-Přidání obsahu pomocí Aspose.Words for .NET je přímočaré a výrazně zvyšuje použitelnost vašich dokumentů. Pomocí těchto kroků můžete efektivně organizovat a procházet složité dokumenty.
+Přidání obsahu pomocí Aspose.Words pro .NET je jednoduché a výrazně zlepšuje použitelnost vašich dokumentů. Dodržováním těchto kroků můžete efektivně organizovat a procházet složité dokumenty.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit vzhled obsahu?
-Ano, vzhled a chování obsahu můžete přizpůsobit pomocí rozhraní API Aspose.Words for .NET.
+### Mohu si přizpůsobit vzhled obsahu?
+Ano, vzhled a chování obsahu si můžete přizpůsobit pomocí rozhraní Aspose.Words pro .NET API.
 
 ### Podporuje Aspose.Words automatickou aktualizaci polí?
-Ano, Aspose.Words vám umožňuje dynamicky aktualizovat pole jako Obsah na základě změn dokumentu.
+Ano, Aspose.Words umožňuje dynamicky aktualizovat pole, jako je Obsah, na základě změn v dokumentu.
 
-### Mohu vygenerovat více obsahů v jednom dokumentu?
-Aspose.Words podporuje generování více obsahů s různými nastaveními v rámci jednoho dokumentu.
+### Mohu v jednom dokumentu vygenerovat více obsahů?
+Aspose.Words podporuje generování více obsahů s různým nastavením v rámci jednoho dokumentu.
 
 ### Je Aspose.Words kompatibilní s různými verzemi aplikace Microsoft Word?
 Ano, Aspose.Words zajišťuje kompatibilitu s různými verzemi formátů Microsoft Word.
 
 ### Kde najdu další pomoc a podporu pro Aspose.Words?
- Pro další pomoc navštivte stránku[Fórum Aspose.Words](https://forum.aspose.com/c/words/8) nebo se podívejte na[oficiální dokumentace](https://reference.aspose.com/words/net/).
+Pro další pomoc navštivte [Fórum Aspose.Words](https://forum.aspose.com/c/words/8) nebo se podívejte na [oficiální dokumentace](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

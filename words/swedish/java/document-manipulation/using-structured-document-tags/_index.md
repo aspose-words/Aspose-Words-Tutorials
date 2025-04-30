@@ -1,30 +1,32 @@
 ---
-title: Använda SDT (Structured Document Tags) i Aspose.Words för Java
-linktitle: Använda strukturerade dokumenttaggar (SDT)
-second_title: Aspose.Words Java Document Processing API
-description: Lär dig hur du använder Structured Document Tags (SDT) i Aspose.Words för Java med den här omfattande guiden. Skapa, modifiera och bind SDT till anpassade XML-data.
-weight: 19
-url: /sv/java/document-manipulation/using-structured-document-tags/
+"description": "Lär dig hur du använder Structured Document Tags (SDT) i Aspose.Words för Java med den här omfattande guiden. Skapa, modifiera och bind SDT&#58;er till anpassade XML-data."
+"linktitle": "Använda strukturerade dokumenttaggar (SDT)"
+"second_title": "Aspose.Words Java-dokumentbehandlings-API"
+"title": "Använda strukturerade dokumenttaggar (SDT) i Aspose.Words för Java"
+"url": "/sv/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Använda SDT (Structured Document Tags) i Aspose.Words för Java
+# Använda strukturerade dokumenttaggar (SDT) i Aspose.Words för Java
 
 
-## Introduktion till att använda strukturerade dokumenttaggar (SDT) i Aspose.Words för Java
+## Introduktion till användning av strukturerade dokumenttaggar (SDT) i Aspose.Words för Java
 
-Structured Document Tags (SDT) är en kraftfull funktion i Aspose.Words för Java som låter dig skapa och manipulera strukturerat innehåll i dina dokument. I den här omfattande guiden går vi igenom de olika aspekterna av att använda SDT i Aspose.Words för Java. Oavsett om du är nybörjare eller erfaren utvecklare hittar du värdefulla insikter och praktiska exempel i den här artikeln.
+Strukturerade dokumenttaggar (SDT) är en kraftfull funktion i Aspose.Words för Java som låter dig skapa och manipulera strukturerat innehåll i dina dokument. I den här omfattande guiden går vi igenom de olika aspekterna av att använda SDT:er i Aspose.Words för Java. Oavsett om du är nybörjare eller en erfaren utvecklare hittar du värdefulla insikter och praktiska exempel i den här artikeln.
 
 ## Komma igång
 
-Innan vi dyker in i detaljerna, låt oss ställa in vår miljö och skapa en grundläggande SDT. I det här avsnittet kommer vi att täcka följande ämnen:
+Innan vi går in på detaljerna, låt oss konfigurera vår miljö och skapa en grundläggande SDT. I det här avsnittet kommer vi att behandla följande ämnen:
 
 - Skapa ett nytt dokument
-- Lägga till en strukturerad dokumenttagg
-- Sparar dokumentet
+- Lägga till en tagg för ett strukturerat dokument
+- Spara dokumentet
 
 ```java
 Document doc = new Document();
@@ -38,9 +40,9 @@ builder.insertNode(sdtCheckBox);
 doc.save("WorkingWithSDT.docx");
 ```
 
-## Kontrollera det aktuella tillståndet för en kryssruta SDT
+## Kontrollera aktuellt tillstånd för en kryssruta-SDT
 
-När du har lagt till en kryssruta SDT i ditt dokument kanske du vill kontrollera dess aktuella tillstånd programmatiskt. Detta kan vara användbart när du behöver validera användarinmatning eller utföra specifika åtgärder baserat på kryssrutans tillstånd.
+När du har lagt till en kryssrutas SDT i ditt dokument kanske du vill kontrollera dess aktuella tillstånd programmatiskt. Detta kan vara användbart när du behöver validera användarinmatning eller utföra specifika åtgärder baserat på kryssrutans tillstånd.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -56,16 +58,16 @@ doc.save("UpdatedDocument.docx");
 
 ## Ändra innehållskontroller
 
-I det här avsnittet kommer vi att utforska hur du ändrar innehållskontroller i ditt dokument. Vi kommer att täcka tre typer av innehållskontroller: vanlig text, listruta och bild.
+I det här avsnittet ska vi utforska hur du ändrar innehållskontroller i ditt dokument. Vi går igenom tre typer av innehållskontroller: vanlig text, listruta och bild.
 
-### Ändra innehållskontroll för vanlig text
+### Ändra kontroll över vanlig textinnehåll
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtPlainText = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
-    // Rensa det befintliga innehållet
+    // Rensa befintligt innehåll
     sdtPlainText.removeAllChildren();
 
     // Lägg till ny text
@@ -77,7 +79,7 @@ if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### Ändra innehållskontroll i rullgardinsmenyn
+### Ändra innehållskontroll för rullgardinslista
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -92,7 +94,7 @@ if (sdtDropDown.getSdtType() == SdtType.DROP_DOWN_LIST) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### Ändra bildinnehållskontroll
+### Ändra kontroll över bildinnehåll
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -100,16 +102,16 @@ StructuredDocumentTag sdtPicture = (StructuredDocumentTag) doc.getChild(NodeType
 Shape shape = (Shape) sdtPicture.getChild(NodeType.SHAPE, 0, true);
 
 if (shape.hasImage()) {
-    // Byt ut bilden mot en ny
+    // Ersätt bilden med en ny
     shape.getImageData().setImage("Watermark.png");
 }
 
 doc.save("ModifiedDocument.docx");
 ```
 
-## Skapa en ComboBox-innehållskontroll
+## Skapa en innehållskontroll för en kombinationsruta
 
-En ComboBox Content Control låter användare välja från en fördefinierad lista med alternativ. Låt oss skapa en i vårt dokument.
+En innehållskontroll i en kombinationsruta låter användare välja från en fördefinierad lista med alternativ. Låt oss skapa en i vårt dokument.
 
 ```java
 Document doc = new Document();
@@ -122,9 +124,9 @@ doc.getFirstSection().getBody().appendChild(sdtComboBox);
 doc.save("ComboBoxDocument.docx");
 ```
 
-## Arbeta med Rich Text Content Control
+## Arbeta med RTF-innehållskontroll
 
-Rich Text Content Controls är perfekta för att lägga till formaterad text till dina dokument. Låt oss skapa en och ställa in dess innehåll.
+Riktext-innehållskontroller är perfekta för att lägga till formaterad text i dina dokument. Nu skapar vi en och anger dess innehåll.
 
 ```java
 Document doc = new Document();
@@ -140,9 +142,9 @@ doc.getFirstSection().getBody().appendChild(sdtRichText);
 doc.save("RichTextDocument.docx");
 ```
 
-## Ställa in innehållskontrollstilar
+## Ställa in stilar för innehållskontroll
 
-Du kan använda stilar på innehållskontroller för att förbättra dokumentets visuella utseende. Låt oss se hur du ställer in stilen för en innehållskontroll.
+Du kan använda format för innehållskontroller för att förbättra dokumentets visuella utseende. Nu ska vi se hur du ställer in formatet för en innehållskontroll.
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -155,9 +157,9 @@ sdt.setStyle(style);
 doc.save("StyledDocument.docx");
 ```
 
-## Bindning av en SDT till anpassade XML-data
+## Binda en SDT till anpassade XML-data
 
-I vissa scenarier kan du behöva binda en SDT till anpassade XML-data för dynamisk innehållsgenerering. Låt oss undersöka hur man uppnår detta.
+I vissa fall kan du behöva binda en SDT till anpassade XML-data för dynamisk innehållsgenerering. Låt oss utforska hur du kan uppnå detta.
 
 ```java
 Document doc = new Document();
@@ -169,7 +171,7 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save("CustomXMLBinding.docx");
 ```
 
-## Skapa en tabell med upprepade sektioner mappade till anpassade XML-data
+## Skapa en tabell med upprepade avsnitt mappade till anpassade XML-data
 
 Tabeller med upprepade avsnitt kan vara extremt användbara för att presentera strukturerad data. Låt oss skapa en sådan tabell och mappa den till anpassade XML-data.
 
@@ -206,9 +208,9 @@ row.appendChild(authorSdt);
 doc.save("RepeatingTableDocument.docx");
 ```
 
-## Arbeta med strukturerade dokumenttaggar med flera sektioner
+## Arbeta med taggar för strukturerade dokument med flera sektioner
 
-Strukturerade dokumenttaggar kan sträcka sig över flera avsnitt i ett dokument. I det här avsnittet kommer vi att utforska hur man arbetar med multi-sektions SDT.
+Strukturerade dokumenttaggar kan sträcka sig över flera avsnitt i ett dokument. I det här avsnittet ska vi utforska hur man arbetar med SDT:er med flera avsnitt.
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -223,17 +225,17 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## Slutsats
 
-Strukturerade dokumenttaggar i Aspose.Words för Java ger ett mångsidigt sätt att hantera och formatera innehåll i dina dokument. Oavsett om du behöver skapa mallar, formulär eller dynamiska dokument erbjuder SDT:er den flexibilitet och kontroll du behöver. Genom att följa exemplen och riktlinjerna i den här artikeln kan du utnyttja kraften hos SDT för att förbättra dina dokumentbearbetningsuppgifter.
+Strukturerade dokumenttaggar i Aspose.Words för Java ger ett mångsidigt sätt att hantera och formatera innehåll i dina dokument. Oavsett om du behöver skapa mallar, formulär eller dynamiska dokument, erbjuder SDT:er den flexibilitet och kontroll du behöver. Genom att följa exemplen och riktlinjerna i den här artikeln kan du utnyttja kraften hos SDT:er för att förbättra dina dokumentbehandlingsuppgifter.
 
-## FAQ's
+## Vanliga frågor
 
-### Vad är syftet med Structured Document Tags (SDT)?
+### Vad är syftet med strukturerade dokumenttaggar (SDT)?
 
-Strukturerade dokumenttaggar (SDT) tjänar syftet att organisera och formatera innehåll i dokument, vilket gör det lättare att skapa mallar, formulär och strukturerade dokument.
+Strukturerade dokumenttaggar (SDT) tjänar syftet att organisera och formatera innehåll i dokument, vilket gör det enklare att skapa mallar, formulär och strukturerade dokument.
 
 ### Hur kan jag kontrollera det aktuella tillståndet för en Checkbox SDT?
 
- Du kan kontrollera aktuell status för en Checkbox SDT med hjälp av`setChecked` metod, som visas i artikeln.
+Du kan kontrollera det aktuella tillståndet för en Checkbox SDT med hjälp av `setChecked` metod, som visas i artikeln.
 
 ### Kan jag tillämpa stilar på innehållskontroller?
 
@@ -243,12 +245,17 @@ Ja, du kan använda stilar på innehållskontroller för att anpassa deras utsee
 
 Ja, du kan binda en SDT till anpassade XML-data, vilket möjliggör dynamisk innehållsgenerering och datamappning.
 
-### Vad är repeterande avsnitt i SDT?
+### Vad är upprepade avsnitt i SDT:er?
 
-Upprepande sektioner i SDT:er låter dig skapa tabeller med dynamisk data, där rader kan upprepas baserat på mappade XML-data.
+Med upprepade avsnitt i SDT:er kan du skapa tabeller med dynamiska data, där rader kan upprepas baserat på mappad XML-data.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

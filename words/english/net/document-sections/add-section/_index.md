@@ -6,8 +6,11 @@ description: Learn how to add a new section to a Word document using Aspose.Word
 keywords: [Aspose.Words for .NET, add section to Word document, .NET Word automation, create new section, Word document manipulation, Aspose.Words tutorial, .NET examples]
 url: /net/document-sections/add-section/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a New Section to Word Document
@@ -15,9 +18,12 @@ url: /net/document-sections/add-section/
 Aspose.Words for .NET makes working with Word documents effortless by providing powerful APIs to handle complex document structures. This tutorial walks you through adding a new section to a Word document programmatically. Using the `Document` and `DocumentBuilder` classes, you’ll learn to initialize a document, add text, and append a new section. Perfect for developers looking to automate Word document generation and manipulation with precision.  
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-sections/add-section" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions for Aspose.Words for .NET  
 
@@ -44,8 +50,12 @@ Aspose.Words for .NET makes working with Word documents effortless by providing 
 ## Also See
 [Aspose.Word for .NET Documentation](https://docs.aspose.com/words/net/)
 [Aspose.Word for .NET References](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

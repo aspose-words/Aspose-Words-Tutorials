@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-markdown/bold-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bold Text
@@ -77,9 +80,13 @@ Aspose.Words provides a wide range of text formatting options such as font size,
 ### Do I need a license to use Aspose.Words?
 You can use Aspose.Words with a free trial or a temporary license, but for full functionality, a purchased license is recommended. Check out the [buy](https://purchase.aspose.com/buy) page for more details.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

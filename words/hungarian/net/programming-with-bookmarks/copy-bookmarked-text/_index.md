@@ -1,33 +1,35 @@
 ---
-title: Könyvjelzővel ellátott szöveg másolása Word dokumentumba
-linktitle: Könyvjelzővel ellátott szöveg másolása Word dokumentumba
-second_title: Aspose.Words Document Processing API
-description: Könnyedén másolhat könyvjelzővel ellátott szöveget a Word-dokumentumok között az Aspose.Words for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.
-weight: 10
-url: /hu/net/programming-with-bookmarks/copy-bookmarked-text/
+"description": "Könnyedén másolhat könyvjelzővel ellátott szöveget Word-dokumentumok között az Aspose.Words for .NET segítségével. Tanulja meg, hogyan kell ezt megtenni ebből a lépésről lépésre szóló útmutatóból."
+"linktitle": "Könyvjelzővel ellátott szöveg másolása Word dokumentumban"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Könyvjelzővel ellátott szöveg másolása Word dokumentumban"
+"url": "/hu/net/programming-with-bookmarks/copy-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Könyvjelzővel ellátott szöveg másolása Word dokumentumba
+# Könyvjelzővel ellátott szöveg másolása Word dokumentumban
 
 ## Bevezetés
 
-Volt már olyan, hogy bizonyos szakaszokat kell másolnia egyik Word-dokumentumból a másikba? Nos, szerencséd van! Ebben az oktatóanyagban végigvezetjük, hogyan másolhat könyvjelzővel ellátott szöveget egyik Word-dokumentumból a másikba az Aspose.Words for .NET használatával. Akár dinamikus jelentést készít, akár automatizálja a dokumentumgenerálást, ez az útmutató leegyszerűsíti a folyamatot.
+Előfordult már, hogy bizonyos részeket kellett átmásolni egyik Word-dokumentumból a másikba? Nos, szerencséd van! Ebben az oktatóanyagban bemutatjuk, hogyan másolhatsz könyvjelzővel ellátott szöveget egyik Word-dokumentumból a másikba az Aspose.Words for .NET segítségével. Akár dinamikus jelentést készítesz, akár automatizálod a dokumentumok generálását, ez az útmutató leegyszerűsíti a folyamatot.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnánk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
--  Aspose.Words for .NET Library: Letöltheti innen[itt](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: Visual Studio vagy bármely más .NET fejlesztői környezet.
-- C# alapismeretek: C# programozás és .NET keretrendszer ismerete.
+- Aspose.Words .NET könyvtárhoz: Letöltheti innen: [itt](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Visual Studio vagy bármilyen más .NET fejlesztői környezet.
+- C# alapismeretek: Jártasság a C# programozásban és a .NET keretrendszerben.
 
 ## Névterek importálása
 
-A kezdéshez győződjön meg arról, hogy a szükséges névtereket importálta a projektbe:
+Kezdésként győződjön meg arról, hogy a szükséges névterek importálva vannak a projektbe:
 
 ```csharp
 using Aspose.Words;
@@ -35,48 +37,48 @@ using Aspose.Words.Import;
 using Aspose.Words.Bookmark;
 ```
 
-## 1. lépés: Töltse be a forrásdokumentumot
+## 1. lépés: A forrásdokumentum betöltése
 
-Először is be kell töltenie azt a forrásdokumentumot, amely a másolni kívánt könyvjelzővel ellátott szöveget tartalmazza.
+Először is be kell töltenie a forrásdokumentumot, amely a másolni kívánt könyvjelzővel ellátott szöveget tartalmazza.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Itt,`dataDir` a dokumentumkönyvtár elérési útja, és`Bookmarks.docx` a forrásdokumentum.
+Itt, `dataDir` dokumentumkönyvtár elérési útja, és `Bookmarks.docx` az a forrásdokumentum.
 
 ## 2. lépés: A könyvjelző azonosítása
 
-Ezután azonosítsa a könyvjelzőt, amelyet másolni szeretne a forrásdokumentumból.
+Ezután azonosítsa a forrásdokumentumból másolni kívánt könyvjelzőt.
 
 ```csharp
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["MyBookmark1"];
 ```
 
- Cserélje ki`"MyBookmark1"` a könyvjelző tényleges nevével.
+Csere `"MyBookmark1"` a könyvjelző tényleges nevével.
 
-## 3. lépés: Készítse el a céldokumentumot
+## 3. lépés: Céldokumentum létrehozása
 
-Most hozzon létre egy új dokumentumot, amelybe a könyvjelzővel ellátott szöveg másolásra kerül.
+Most hozzon létre egy új dokumentumot, ahová a könyvjelzővel ellátott szöveget másolni fogja.
 
 ```csharp
 Document dstDoc = new Document();
 CompositeNode dstNode = dstDoc.LastSection.Body;
 ```
 
-## 4. lépés: Importáljon könyvjelzővel ellátott tartalmat
+## 4. lépés: Könyvjelzővel ellátott tartalom importálása
 
- A stílusok és formázások megőrzése érdekében használja a`NodeImporter` a könyvjelzővel ellátott tartalom importálása a forrásdokumentumból a céldokumentumba.
+A stílusok és formázás megőrzésének biztosításához használja a `NodeImporter` a könyvjelzővel ellátott tartalom importálásához a forrásdokumentumból a céldokumentumba.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
 AppendBookmarkedText(importer, srcBookmark, dstNode);
 ```
 
-## 5. lépés: Határozza meg az AppendBookmarkedText módszert
+## 5. lépés: Az AppendBookmarkedText metódus definiálása
 
-Itt történik a varázslat. Határozzon meg egy módszert a könyvjelzővel ellátott szöveg másolására:
+Itt történik a varázslat. Definiálj egy metódust a könyvjelzővel ellátott szöveg másolásának kezeléséhez:
 
 ```csharp
 private void AppendBookmarkedText(NodeImporter importer, Bookmark srcBookmark, CompositeNode dstNode)
@@ -100,7 +102,7 @@ private void AppendBookmarkedText(NodeImporter importer, Bookmark srcBookmark, C
 }
 ```
 
-## 6. lépés: Mentse el a céldokumentumot
+## 6. lépés: A céldokumentum mentése
 
 Végül mentse el a céldokumentumot a másolt tartalom ellenőrzéséhez.
 
@@ -110,27 +112,32 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 
 ## Következtetés
 
-És ennyi! Sikeresen átmásolta a könyvjelzővel ellátott szöveget egyik Word-dokumentumból a másikba az Aspose.Words for .NET segítségével. Ez a módszer hatékonyan automatizálja a dokumentumkezelési feladatokat, hatékonyabbá és egyszerűbbé teszi a munkafolyamatot.
+És ennyi! Sikeresen átmásoltad a könyvjelzővel ellátott szöveget egyik Word-dokumentumból a másikba az Aspose.Words for .NET segítségével. Ez a módszer hatékony a dokumentumkezelési feladatok automatizálásában, így a munkafolyamat hatékonyabbá és egyszerűbbé válik.
 
 ## GYIK
 
-### Másolhatok több könyvjelzőt egyszerre?
-Igen, ismételhet több könyvjelzőt is, és ugyanazt a módszert használhatja mindegyik másolásához.
+### Több könyvjelzőt is másolhatok egyszerre?
+Igen, több könyvjelzőn is végighaladhat, és ugyanazzal a módszerrel másolhatja mindegyiket.
 
 ### Mi történik, ha a könyvjelző nem található?
- A`Range.Bookmarks` ingatlan visszakerül`null`, ezért mindenképpen kezelje ezt az esetet a kivételek elkerülése érdekében.
+A `Range.Bookmarks` visszakerül az ingatlan `null`, ezért ügyeljen arra, hogy ezt az esetet kezelje a kivételek elkerülése érdekében.
 
 ### Megőrizhetem az eredeti könyvjelző formázását?
- Teljesen! Használata`ImportFormatMode.KeepSourceFormatting` biztosítja az eredeti formázás megőrzését.
+Abszolút! Használat `ImportFormatMode.KeepSourceFormatting` biztosítja az eredeti formázás megőrzését.
 
-### Van-e korlátozás a könyvjelzővel ellátott szöveg méretére?
+### Van korlátozás a könyvjelzővel ellátott szöveg méretére?
 Nincs konkrét korlát, de a teljesítmény rendkívül nagy dokumentumok esetén változhat.
 
-### Másolhatok szöveget a különböző Word dokumentumformátumok között?
-Igen, az Aspose.Words különféle Word-formátumokat támogat, és a módszer ezeken a formátumokon is működik.
+### Másolhatok szöveget különböző Word dokumentumformátumok között?
+Igen, az Aspose.Words számos Word formátumot támogat, és a metódus ezekben a formátumokban működik.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

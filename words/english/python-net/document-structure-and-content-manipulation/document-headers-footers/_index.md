@@ -7,8 +7,11 @@ weight: 16
 url: /python-net/document-structure-and-content-manipulation/document-headers-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulating Headers and Footers in Word Documents
@@ -137,9 +140,13 @@ Yes, you can clear the content of headers and footers to effectively remove them
 For more detailed documentation and examples, visit the [Aspose.Words for Python API Reference](https://reference.aspose.com/words/python-net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Yeniden Başlatma Listesi Numarası
-linktitle: Yeniden Başlatma Listesi Numarası
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerindeki liste numaralarını nasıl yeniden başlatacağınızı öğrenin. Bu ayrıntılı, 2000 kelimelik kılavuz, kurulumdan gelişmiş özelleştirmeye kadar bilmeniz gereken her şeyi kapsar.
-weight: 10
-url: /tr/net/working-with-list/restart-list-number/
+"description": "Aspose.Words for .NET kullanarak Word belgelerindeki liste numaralarını nasıl yeniden başlatacağınızı öğrenin. Bu ayrıntılı, 2000 kelimelik kılavuz, kurulumdan gelişmiş özelleştirmeye kadar bilmeniz gereken her şeyi kapsar."
+"linktitle": "Yeniden Başlatma Listesi Numarası"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Yeniden Başlatma Listesi Numarası"
+"url": "/tr/net/working-with-list/restart-list-number/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Yeniden Başlatma Listesi Numarası
@@ -21,7 +23,7 @@ Aspose.Words for .NET kullanarak Word belgelerinizde liste düzenleme sanatında
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklemediyseniz,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. Henüz yüklemediyseniz, [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio gibi uygun bir geliştirme ortamına sahip olduğunuzdan emin olun.
 3. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, eğitimi takip etmenize yardımcı olacaktır.
 
@@ -61,7 +63,7 @@ Burada yazı rengini kırmızı olarak ayarladık ve metni sağa hizaladık.
 
 ## Adım 3: İlk Listenize Öğeler Ekleyin
 
- Listeniz hazır olduğunda, bazı öğeler eklemenin zamanı geldi. DocumentBuilder'ın`ListFormat.List` özellik, liste biçiminin metne uygulanmasına yardımcı olur.
+Listeniz hazır olduğunda, bazı öğeler eklemenin zamanı geldi. DocumentBuilder'ın `ListFormat.List` özellik, liste biçiminin metne uygulanmasına yardımcı olur.
 
 ```csharp
 builder.Writeln("List 1 starts below:");
@@ -84,7 +86,7 @@ Bu örnekte yeni liste 10 numaradan başlıyor.
 
 ## Adım 5: Yeni Listeye Öğeler Ekleyin
 
-Daha önce olduğu gibi, yeni listenize öğeler ekleyin. Bu, listenin belirtilen sayıdan yeniden başladığını gösterir.
+Tıpkı daha önce olduğu gibi, yeni listenize öğeler ekleyin. Bu, listenin belirtilen sayıdan yeniden başladığını gösterir.
 
 ```csharp
 builder.Writeln("List 2 starts below:");
@@ -114,11 +116,11 @@ Kesinlikle! Aspose.Words, madde işaretleri, harfler, Roma rakamları ve daha fa
 
 ### Liste düzeyini nasıl değiştirebilirim?
 
- Liste düzeyini, şunu değiştirerek değiştirebilirsiniz:`ListLevels` mülk. Örneğin,`list1.ListLevels[1]` listenin ikinci seviyesini ifade eder.
+Liste düzeyini, şunu değiştirerek değiştirebilirsiniz: `ListLevels` mülk. Örneğin, `list1.ListLevels[1]` listenin ikinci seviyesini ifade eder.
 
 ### Numaralandırmayı herhangi bir sayıdan yeniden başlatabilir miyim?
 
- Evet, başlangıç numarasını herhangi bir tam sayı değerine ayarlayabilirsiniz.`StartAt` liste düzeyinin özelliği.
+Evet, başlangıç numarasını herhangi bir tam sayı değerine ayarlayabilirsiniz. `StartAt` liste düzeyinin özelliği.
 
 ### Farklı liste seviyeleri için farklı biçimlendirme kullanmak mümkün müdür?
 
@@ -130,9 +132,14 @@ Numaralandırmaya devam etmek istiyorsanız, listenin bir kopyasını oluşturma
 
 
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

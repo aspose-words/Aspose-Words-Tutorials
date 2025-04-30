@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/document-splitting-and-formatting/split-format-documents/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Efficient Document Splitting and Formatting Strategies
@@ -106,9 +109,13 @@ Yes, you can remove a specific section from the document using the `sections.rem
 document.sections.remove(section_to_remove)
 ```
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Uzyskaj szczegóły grupy rewizji
-linktitle: Uzyskaj szczegóły grupy rewizji
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Łatwo uzyskaj szczegóły grupy rewizji w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET.
-weight: 10
-url: /pl/net/working-with-revisions/get-revision-group-details/
+"description": "Łatwo uzyskaj szczegóły grupy rewizji w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Uzyskaj szczegóły grupy rewizji"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Uzyskaj szczegóły grupy rewizji"
+"url": "/pl/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uzyskaj szczegóły grupy rewizji
@@ -20,7 +22,7 @@ Czy kiedykolwiek zdarzyło Ci się zagłębiać w szczegóły rewizji w dokumenc
 ## Wymagania wstępne
 
 Zanim rozpoczniemy przygodę z kodowaniem, upewnijmy się, że masz wszystko, czego potrzebujesz:
--  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Jeśli nie, możesz ją pobrać[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Jeśli nie, możesz ją pobrać [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko .NET: Upewnij się, że masz działające środowisko programistyczne .NET. Visual Studio to świetna opcja.
 - Dokument programu Word z poprawkami: W tym samouczku użyjemy przykładowego dokumentu programu Word z poprawkami (`Revisions.docx`).
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- W tym fragmencie kodu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego dokumentu. Ten kod załaduje`Revisions.docx` plik do`doc` obiekt.
+W tym fragmencie kodu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do Twojego dokumentu. Ten kod załaduje `Revisions.docx` plik do `doc` obiekt.
 
 ## Krok 2: Uzyskaj dostęp do kolekcji wersji
 
- Teraz uzyskajmy dostęp do rewizji w dokumencie. Aspose.Words zapewnia`Revisions` kolekcja, którą możemy przeglądać.
+Teraz uzyskajmy dostęp do rewizji w dokumencie. Aspose.Words zapewnia `Revisions` kolekcja, którą możemy przeglądać.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -106,16 +108,21 @@ To potężna biblioteka .NET umożliwiająca programowe tworzenie, edycję, konw
 Oczywiście! Możesz go używać z dowolnym językiem .NET, w tym C#, VB.NET i ASP.NET.
 
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Words dla .NET?
- Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz kupić jedną[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, Aspose.Words dla .NET wymaga licencji dla pełnej funkcjonalności. Możesz kupić jedną [Tutaj](https://purchase.aspose.com/buy) lub uzyskaj tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
- Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/words/net/).
+Dostępna jest szczegółowa dokumentacja [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

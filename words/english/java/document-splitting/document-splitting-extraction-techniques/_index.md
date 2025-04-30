@@ -7,8 +7,11 @@ weight: 14
 url: /java/document-splitting/document-splitting-extraction-techniques/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Splitting and Extraction Techniques
@@ -137,9 +140,13 @@ Yes, Aspose.Words for Java is available for both personal and commercial use.
 
 For additional tutorials and resources, visit the Aspose documentation: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

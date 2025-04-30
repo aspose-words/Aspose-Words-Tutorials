@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าการจัดรูปแบบแถวตาราง
-linktitle: ตั้งค่าการจัดรูปแบบแถวตาราง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีตั้งค่าการจัดรูปแบบแถวตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือของเรา เหมาะอย่างยิ่งสำหรับการสร้างเอกสารที่มีการจัดรูปแบบที่ดีและเป็นมืออาชีพ
-weight: 10
-url: /th/net/programming-with-table-styles-and-formatting/set-table-row-formatting/
+"description": "เรียนรู้วิธีตั้งค่าการจัดรูปแบบแถวตารางในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือของเรา เหมาะอย่างยิ่งสำหรับการสร้างเอกสารที่มีรูปแบบที่ดีและเป็นมืออาชีพ"
+"linktitle": "ตั้งค่าการจัดรูปแบบแถวตาราง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตั้งค่าการจัดรูปแบบแถวตาราง"
+"url": "/th/net/programming-with-table-styles-and-formatting/set-table-row-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าการจัดรูปแบบแถวตาราง
@@ -21,13 +23,13 @@ url: /th/net/programming-with-table-styles-and-formatting/set-table-row-formatti
 
 ก่อนที่จะเริ่มบทช่วยสอน โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET - หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งจาก[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET - หากคุณยังไม่ได้ดาวน์โหลดและติดตั้งจาก [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา - IDE ใด ๆ เช่น Visual Studio ที่รองรับ .NET
 3. ความรู้พื้นฐานเกี่ยวกับ C# - ความเข้าใจแนวคิดพื้นฐานของ C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 
 ## นำเข้าเนมสเปซ
 
-สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งเป็นสิ่งสำคัญมาก เพราะจะช่วยให้คุณสามารถเข้าถึงฟังก์ชันต่างๆ ที่ Aspose.Words สำหรับ .NET จัดเตรียมไว้ได้
+สิ่งแรกที่ต้องทำคือนำเข้าเนมสเปซที่จำเป็น ซึ่งเป็นสิ่งสำคัญมาก เพราะจะช่วยให้คุณสามารถเข้าถึงฟังก์ชันทั้งหมดที่ Aspose.Words จัดทำไว้สำหรับ .NET ได้
 
 ```csharp
 using Aspose.Words;
@@ -50,7 +52,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## ขั้นตอนที่ 2: เริ่มต้นตาราง
 
- ต่อไปคุณจะเริ่มต้นสร้างตาราง`DocumentBuilder` คลาสนี้ให้วิธีตรงไปตรงมาสำหรับการแทรกและจัดรูปแบบตาราง
+ต่อไปคุณจะเริ่มต้นสร้างตาราง `DocumentBuilder` คลาสนี้ให้วิธีตรงไปตรงมาสำหรับการแทรกและจัดรูปแบบตาราง
 
 ```csharp
 Table table = builder.StartTable();
@@ -103,23 +105,28 @@ doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.DocumentBuilderSetTableR
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถตั้งค่าการจัดรูปแบบที่แตกต่างกันสำหรับแต่ละแถวในตารางได้หรือไม่
- ใช่ คุณสามารถกำหนดรูปแบบรายบุคคลสำหรับแต่ละแถวได้โดยใช้รูปแบบที่แตกต่างกัน`RowFormat` คุณสมบัติสำหรับแต่ละแถวที่คุณสร้าง
+ใช่ คุณสามารถกำหนดรูปแบบรายบุคคลสำหรับแต่ละแถวได้โดยใช้รูปแบบที่แตกต่างกัน `RowFormat` คุณสมบัติสำหรับแต่ละแถวที่คุณสร้าง
 
 ### เป็นไปได้หรือไม่ที่จะเพิ่มองค์ประกอบอื่น เช่น รูปภาพ ลงในเซลล์ตาราง?
- แน่นอน! คุณสามารถแทรกภาพ รูปร่าง และองค์ประกอบอื่น ๆ ลงในเซลล์ตารางได้โดยใช้`DocumentBuilder` ระดับ.
+แน่นอน! คุณสามารถแทรกภาพ รูปร่าง และองค์ประกอบอื่น ๆ ลงในเซลล์ตารางได้โดยใช้ `DocumentBuilder` ระดับ.
 
 ### ฉันจะเปลี่ยนการจัดตำแหน่งข้อความภายในเซลล์ตารางได้อย่างไร
- คุณสามารถเปลี่ยนการจัดตำแหน่งข้อความได้โดยการตั้งค่า`ParagraphFormat.Alignment` ทรัพย์สินของ`DocumentBuilder` วัตถุ.
+คุณสามารถเปลี่ยนการจัดตำแหน่งข้อความได้โดยการตั้งค่า `ParagraphFormat.Alignment` ทรัพย์สินของ `DocumentBuilder` วัตถุ.
 
 ### ฉันสามารถผสานเซลล์ในตารางโดยใช้ Aspose.Words สำหรับ .NET ได้หรือไม่
- ใช่ คุณสามารถรวมเซลล์โดยใช้`CellFormat.HorizontalMerge` และ`CellFormat.VerticalMerge` คุณสมบัติ.
+ใช่ คุณสามารถรวมเซลล์โดยใช้ `CellFormat.HorizontalMerge` และ `CellFormat.VerticalMerge` คุณสมบัติ.
 
 ### มีวิธีกำหนดรูปแบบตารางด้วยสไตล์ที่กำหนดไว้ล่วงหน้าหรือไม่
- ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถใช้รูปแบบตารางที่กำหนดไว้ล่วงหน้าโดยใช้`Table.Style` คุณสมบัติ.
+ใช่ Aspose.Words สำหรับ .NET ช่วยให้คุณสามารถใช้รูปแบบตารางที่กำหนดไว้ล่วงหน้าโดยใช้ `Table.Style` คุณสมบัติ.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Word Dosyasından Active XControl Özelliklerini Oku
-linktitle: Word Dosyasından Active XControl Özelliklerini Oku
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word dosyalarından ActiveX denetim özelliklerinin nasıl okunacağını adım adım bir kılavuzda öğrenin. Belge otomasyon becerilerinizi geliştirin.
-weight: 10
-url: /tr/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/
+"description": "Aspose.Words for .NET'i kullanarak Word dosyalarından ActiveX denetim özelliklerinin nasıl okunacağını adım adım bir kılavuzda öğrenin. Belge otomasyon becerilerinizi geliştirin."
+"linktitle": "Word Dosyasından Active XControl Özelliklerini Oku"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Dosyasından Active XControl Özelliklerini Oku"
+"url": "/tr/net/working-with-oleobjects-and-activex/read-active-xcontrol-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Dosyasından Active XControl Özelliklerini Oku
@@ -21,7 +23,7 @@ Günümüzün dijital çağında, otomasyon üretkenliği artırmanın anahtarı
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio veya herhangi bir C# IDE: Kodunuzu yazmak ve çalıştırmak için.
 3. ActiveX denetimleri içeren bir Word belgesi: Örneğin, "ActiveX denetimleri.docx".
 4. Temel C# bilgisi: Takip edebilmek için C# programlamaya aşinalık gereklidir.
@@ -120,16 +122,21 @@ ActiveX denetimleri, formlar oluşturmak ve görevleri otomatikleştirmek için 
 Evet, Aspose.Words for .NET, ActiveX denetimlerinin özelliklerini program aracılığıyla değiştirmenize olanak tanır.
 
 ### Aspose.Words for .NET'i kullanmak ücretsiz mi?
- Aspose.Words for .NET ücretsiz deneme sunuyor ancak devam eden kullanım için bir lisans satın almanız gerekecek. Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Words for .NET ücretsiz deneme sunuyor, ancak devam eden kullanım için bir lisans satın almanız gerekecek. Ücretsiz deneme alabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'i C# dışındaki diğer .NET dilleriyle birlikte kullanabilir miyim?
 Evet, Aspose.Words for .NET, VB.NET ve F# dahil olmak üzere herhangi bir .NET diliyle kullanılabilir.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

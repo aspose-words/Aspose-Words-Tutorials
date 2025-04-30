@@ -1,26 +1,28 @@
 ---
-title: أنماط وتنسيق جداول المستندات باستخدام Aspose.Words Python
-linktitle: أنماط وتنسيق جداول المستندات
-second_title: Aspose.Words - واجهة برمجة تطبيقات إدارة المستندات باستخدام Python
-description: تعرف على كيفية تصميم وتنسيق جداول المستندات باستخدام Aspose.Words for Python. قم بإنشاء الجداول وتخصيصها وتصديرها باستخدام أدلة خطوة بخطوة وأمثلة التعليمات البرمجية. قم بتحسين عروض المستندات الخاصة بك اليوم!
-weight: 12
-url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
+"description": "تعلّم كيفية تصميم وتنسيق جداول المستندات باستخدام Aspose.Words لبايثون. أنشئ الجداول، خصّصها، وصدّرهَا باستخدام أدلة خطوة بخطوة وأمثلة برمجية. حسّن عروض مستنداتك التقديمية اليوم!"
+"linktitle": "أنماط وتنسيق جدول المستندات"
+"second_title": "Aspose.Words Python Document Management API"
+"title": "أنماط وتنسيق جداول المستندات باستخدام Aspose.Words Python"
+"url": "/ar/python-net/tables-and-formatting/document-table-styles-formatting/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # أنماط وتنسيق جداول المستندات باستخدام Aspose.Words Python
 
 
-تلعب جداول المستندات دورًا حاسمًا في عرض المعلومات بطريقة منظمة وجذابة بصريًا. يوفر Aspose.Words for Python مجموعة قوية من الأدوات التي تسمح للمطورين بالعمل بكفاءة مع الجداول وتخصيص أنماطهم وتنسيقهم. في هذه المقالة، سنستكشف كيفية معالجة جداول المستندات وتحسينها باستخدام واجهة برمجة التطبيقات Aspose.Words for Python. دعنا نتعمق!
+تلعب جداول المستندات دورًا محوريًا في عرض المعلومات بطريقة منظمة وجذابة بصريًا. يوفر Aspose.Words لبايثون مجموعة قوية من الأدوات التي تُمكّن المطورين من العمل بكفاءة مع الجداول وتخصيص أنماطها وتنسيقاتها. في هذه المقالة، سنستكشف كيفية التعامل مع جداول المستندات وتحسينها باستخدام واجهة برمجة التطبيقات Aspose.Words لبايثون. هيا بنا!
 
-## البدء باستخدام Aspose.Words للغة Python
+## البدء باستخدام Aspose.Words للغة بايثون
 
-قبل أن نتعمق في تفاصيل أنماط جدول المستندات وتنسيقها، دعنا نتأكد من إعداد الأدوات اللازمة:
+قبل أن نتعمق في تفاصيل أنماط جدول المستندات وتنسيقها، دعنا نتأكد من إعداد الأدوات اللازمة لديك:
 
-1. تثبيت Aspose.Words للغة Python: ابدأ بتثبيت مكتبة Aspose.Words باستخدام pip. ويمكن القيام بذلك باستخدام الأمر التالي:
+1. تثبيت Aspose.Words لبايثون: ابدأ بتثبيت مكتبة Aspose.Words باستخدام pip. يمكنك القيام بذلك باستخدام الأمر التالي:
    
     ```bash
     pip install aspose-words
@@ -38,14 +40,14 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 
 لإنشاء الجداول وإدراجها في المستندات باستخدام Aspose.Words for Python، اتبع الخطوات التالية:
 
-1.  إنشاء جدول: استخدم`DocumentBuilder` الفئة لإنشاء جدول جديد وتحديد عدد الصفوف والأعمدة.
+1. إنشاء جدول: استخدم `DocumentBuilder` الفئة لإنشاء جدول جديد وتحديد عدد الصفوف والأعمدة.
 
     ```python
     builder = aw.DocumentBuilder(doc)
     table = builder.start_table()
     ```
 
-2.  إدراج البيانات: إضافة البيانات إلى الجدول باستخدام أداة البناء`insert_cell` و`write` طُرق.
+2. إدراج البيانات: أضف البيانات إلى الجدول باستخدام أداة البناء `insert_cell` و `write` طُرق.
 
     ```python
     builder.insert_cell()
@@ -57,7 +59,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 
 3. تكرار الصفوف: أضف الصفوف والخلايا حسب الحاجة، باتباع نمط مماثل.
 
-4.  إدراج جدول في المستند: أخيرًا، قم بإدراج الجدول في المستند باستخدام`end_table` طريقة.
+4. إدراج جدول في المستند: أخيرًا، قم بإدراج الجدول في المستند باستخدام `end_table` طريقة.
 
     ```python
     builder.end_table()
@@ -65,9 +67,9 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 
 ## تطبيق تنسيق الجدول الأساسي
 
- يمكن تحقيق تنسيق الجدول الأساسي باستخدام الأساليب التي يوفرها`Table` و`Cell` الفصول الدراسية. إليك كيفية تحسين مظهر الجدول الخاص بك:
+يمكن تحقيق تنسيق الجدول الأساسي باستخدام الأساليب التي يوفرها `Table` و `Cell` الفصول الدراسية. إليك كيفية تحسين مظهر جدولك:
 
-1. ضبط عرض الأعمدة: ضبط عرض الأعمدة لضمان المحاذاة الصحيحة والجاذبية البصرية.
+1. ضبط عرض الأعمدة: اضبط عرض الأعمدة لضمان المحاذاة الصحيحة والجاذبية البصرية.
 
     ```python
     for cell in table.first_row.cells:
@@ -82,7 +84,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
             cell.cell_format.set_paddings(10, 10, 10, 10)
     ```
 
-3. ارتفاع الصف: تخصيص ارتفاعات الصف حسب الحاجة.
+3. ارتفاع الصف: تخصيص ارتفاع الصف حسب الحاجة.
 
     ```python
     for row in table.rows:
@@ -109,7 +111,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 
 ## إضافة الحدود والتظليل إلى الجداول
 
-قم بتعزيز مظهر الجدول عن طريق إضافة الحدود والتظليل:
+تحسين مظهر الجدول عن طريق إضافة الحدود والتظليل:
 
 1. الحدود: تخصيص الحدود للجداول والخلايا.
 
@@ -140,7 +142,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
     cell.paragraphs[0].paragraph_format.alignment = aw.ParagraphAlignment.CENTER
     ```
 
-## التعامل مع رؤوس وتذييلات الجداول
+## التعامل مع رؤوس وتذييلات الجدول
 
 دمج الرؤوس والتذييلات في جداولك للحصول على سياق أفضل:
 
@@ -160,7 +162,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 	
 ## تصدير الجداول إلى تنسيقات مختلفة
 
-بمجرد أن يصبح الجدول الخاص بك جاهزًا، يمكنك تصديره إلى تنسيقات مختلفة، مثل PDF أو DOCX:
+بمجرد أن يصبح الجدول جاهزًا، يمكنك تصديره إلى تنسيقات مختلفة، مثل PDF أو DOCX:
 
 1. حفظ بتنسيق PDF: احفظ المستند الذي يحتوي على الجدول بتنسيق PDF.
 
@@ -176,7 +178,7 @@ url: /ar/python-net/tables-and-formatting/document-table-styles-formatting/
 	
 ## خاتمة
 
-يوفر Aspose.Words for Python مجموعة أدوات شاملة لإنشاء وتصميم وتنسيق جداول المستندات. باتباع الخطوات الموضحة في هذه المقالة، يمكنك إدارة الجداول في مستنداتك بفعالية وتخصيص مظهرها وتصديرها إلى تنسيقات مختلفة. استغل قوة Aspose.Words لتحسين عروض المستندات الخاصة بك وتقديم معلومات واضحة وجذابة بصريًا لقرائك.
+يوفر Aspose.Words لبايثون مجموعة أدوات شاملة لإنشاء جداول المستندات وتصميمها وتنسيقها. باتباع الخطوات الموضحة في هذه المقالة، يمكنك إدارة الجداول في مستنداتك بفعالية، وتخصيص مظهرها، وتصديرها إلى تنسيقات متنوعة. استغل قوة Aspose.Words لتحسين عروض مستنداتك، وتقديم معلومات واضحة وجذابة بصريًا لقرائك.
 
 ## الأسئلة الشائعة
 
@@ -194,19 +196,24 @@ pip install aspose-words
 
 ### هل من الممكن دمج الخلايا في جدول؟
 
- نعم، يمكنك دمج الخلايا في جدول باستخدام`CellMerge` الممتلكات المقدمة من قبل Aspose.Words.
+نعم، يمكنك دمج الخلايا في جدول باستخدام `CellMerge` الممتلكات المقدمة من قبل Aspose.Words.
 
 ### كيف أقوم بتصدير الجداول الخاصة بي إلى تنسيقات مختلفة؟
 
- يمكنك تصدير الجداول الخاصة بك إلى تنسيقات مختلفة مثل PDF أو DOCX باستخدام`save` الطريقة وتحديد التنسيق المطلوب.
+يمكنك تصدير الجداول الخاصة بك إلى تنسيقات مختلفة مثل PDF أو DOCX باستخدام `save` الطريقة وتحديد التنسيق المطلوب.
 
 ### أين يمكنني معرفة المزيد عن Aspose.Words لـ Python؟
 
- للحصول على توثيقات ومراجع شاملة، قم بزيارة[مراجع API لـ Aspose.Words لـ Python](https://reference.aspose.com/words/python-net/).
+للحصول على وثائق ومراجع شاملة، قم بزيارة [مراجع واجهة برمجة تطبيقات Aspose.Words للغة Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

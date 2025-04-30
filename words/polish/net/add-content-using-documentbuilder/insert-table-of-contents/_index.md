@@ -1,14 +1,16 @@
 ---
-title: Wstaw spis treści do dokumentu Word
-linktitle: Wstaw spis treści do dokumentu Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wstawić spis treści w programie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie poruszać się po dokumencie.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/insert-table-of-contents/
+"description": "Dowiedz się, jak wstawić spis treści w programie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby płynnie poruszać się po dokumencie."
+"linktitle": "Wstaw spis treści do dokumentu Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw spis treści do dokumentu Word"
+"url": "/pl/net/add-content-using-documentbuilder/insert-table-of-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw spis treści do dokumentu Word
@@ -22,7 +24,7 @@ Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
 - Podstawowa znajomość języka C# i środowiska .NET.
 - Na Twoim komputerze zainstalowano program Visual Studio.
--  Biblioteka Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Biblioteka Aspose.Words dla .NET. Jeśli jeszcze jej nie zainstalowałeś, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 
 ## Importuj przestrzenie nazw
 
@@ -39,7 +41,7 @@ Podzielmy ten proces na jasne kroki:
 
 ## Krok 1: Zainicjuj dokument Aspose.Words i DocumentBuilder
 
- Najpierw zainicjuj nowy Aspose.Words`Document` obiekt i`DocumentBuilder` pracować z:
+Najpierw zainicjuj nowy Aspose.Words `Document` obiekt i `DocumentBuilder` pracować z:
 
 ```csharp
 // Zainicjuj dokument i DocumentBuilder
@@ -49,7 +51,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Krok 2: Wstaw spis treści
 
- Teraz wstaw spis treści za pomocą`InsertTableOfContents` metoda:
+Teraz wstaw spis treści za pomocą `InsertTableOfContents` metoda:
 
 ```csharp
 // Wstaw spis treści
@@ -132,11 +134,16 @@ Aspose.Words umożliwia generowanie wielu spisów treści z różnymi ustawienia
 ### Czy Aspose.Words jest kompatybilny z różnymi wersjami programu Microsoft Word?
 Tak, Aspose.Words zapewnia zgodność z różnymi wersjami formatów Microsoft Word.
 
-### Gdzie mogę znaleźć dodatkową pomoc i wsparcie dla Aspose.Words?
- Aby uzyskać dalszą pomoc, odwiedź stronę[Forum Aspose.Words](https://forum.aspose.com/c/words/8) lub sprawdź[oficjalna dokumentacja](https://reference.aspose.com/words/net/).
+### Gdzie mogę znaleźć więcej pomocy i wsparcia dla Aspose.Words?
+Aby uzyskać dalszą pomoc, odwiedź stronę [Forum Aspose.Words](https://forum.aspose.com/c/words/8) lub sprawdź [oficjalna dokumentacja](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

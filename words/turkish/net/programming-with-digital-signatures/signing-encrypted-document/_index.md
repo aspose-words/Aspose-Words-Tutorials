@@ -1,14 +1,16 @@
 ---
-title: Şifrelenmiş Word Belgesini İmzalama
-linktitle: Şifrelenmiş Word Belgesini İmzalama
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl imzalayacağınızı öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/programming-with-digital-signatures/signing-encrypted-document/
+"description": "Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl imzalayacağınızı öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "Şifrelenmiş Word Belgesini İmzalama"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Şifrelenmiş Word Belgesini İmzalama"
+"url": "/tr/net/programming-with-digital-signatures/signing-encrypted-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şifrelenmiş Word Belgesini İmzalama
@@ -21,7 +23,7 @@ url: /tr/net/programming-with-digital-signatures/signing-encrypted-document/
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Buradan indirin ve kurun[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Buradan indirin ve kurun [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio: Yüklü olduğundan emin olun.
 3. Geçerli Bir Sertifika: Bir .pfx sertifika dosyasına ihtiyacınız olacak.
 4. Temel C# Bilgisi: Temelleri anlamak bu eğitimi daha akıcı hale getirecektir.
@@ -63,7 +65,7 @@ Word belgelerinizi ve sertifikalarınızı depolamak için bir dizine ihtiyacın
 
 ## Adım 4: Kodu Yazma
 
- Şimdi koda dalalım.`Program.cs` dosya ve belge dizininize giden yolu ayarlayarak ve başlatarak başlayın`SignOptions` şifre çözme şifresi ile.
+Şimdi koda dalalım. `Program.cs` dosya ve belge dizininize giden yolu ayarlayarak ve başlatarak başlayın `SignOptions` şifre çözme şifresi ile.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -73,7 +75,7 @@ SignOptions signOptions = new SignOptions { DecryptionPassword = "decryptionPass
 
 ## Adım 5: Sertifikanın Yüklenmesi
 
- Ardından, sertifikanızı şu şekilde yükleyin:`CertificateHolder`sınıf. Bu, .pfx dosyanızın yolunu ve sertifikanın parolasını gerektirecektir.
+Ardından, sertifikanızı şu şekilde yükleyin: `CertificateHolder` sınıf. Bu, .pfx dosyanızın yolunu ve sertifikanın parolasını gerektirecektir.
 
 ```csharp
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
@@ -81,7 +83,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Adım 6: Belgenin İmzalanması
 
- Son olarak, şunu kullanın:`DigitalSignatureUtil.Sign` Şifrelenmiş Word belgenizi imzalama yöntemi. Bu yöntem giriş dosyasını, çıkış dosyasını, sertifika sahibini ve imza seçeneklerini gerektirir.
+Son olarak, şunu kullanın: `DigitalSignatureUtil.Sign` Şifrelenmiş Word belgenizi imzalama yöntemi. Bu yöntem giriş dosyasını, çıkış dosyasını, sertifika sahibini ve imza seçeneklerini gerektirir.
 
 ```csharp
 DigitalSignatureUtil.Sign(
@@ -111,13 +113,18 @@ Kesinlikle! Bir belge koleksiyonunda dolaşabilir ve her birini programatik olar
 Maalesef şifre çözme şifresi olmadan belgeyi imzalayamayacaksınız.
 
 ### Belgeye görünür bir imza ekleyebilir miyim?
-Evet, Aspose.Words aynı zamanda görünür dijital imzalar eklemenize de olanak tanır.
+Evet, Aspose.Words görünür dijital imzalar eklemenize de olanak tanır.
 
 ### İmzayı doğrulamanın bir yolu var mı?
- Evet, kullanabilirsiniz`DigitalSignatureUtil.Verify` İmzaları doğrulama yöntemi.
+Evet, kullanabilirsiniz `DigitalSignatureUtil.Verify` İmzaları doğrulama yöntemi.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

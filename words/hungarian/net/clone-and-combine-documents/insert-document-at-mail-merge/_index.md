@@ -1,33 +1,35 @@
 ---
-title: Dokumentum beszúrása a körlevélbe
-linktitle: Dokumentum beszúrása a körlevélbe
-second_title: Aspose.Words Document Processing API
-description: Ebben az átfogó, lépésenkénti oktatóanyagban megtudhatja, hogyan lehet dokumentumokat beszúrni a körlevél mezőkbe az Aspose.Words for .NET használatával.
-weight: 10
-url: /hu/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Ebben az átfogó, lépésről lépésre haladó oktatóanyagban megtudhatja, hogyan szúrhat be dokumentumokat a körlevelező mezőkbe az Aspose.Words for .NET használatával."
+"linktitle": "Dokumentum beszúrása körlevélhez"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Dokumentum beszúrása körlevélhez"
+"url": "/hu/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentum beszúrása a körlevélbe
+# Dokumentum beszúrása körlevélhez
 
 ## Bevezetés
 
-Üdvözöljük a dokumentumautomatizálás világában az Aspose.Words for .NET segítségével! Gondolkozott már azon, hogyan lehet dokumentumokat dinamikusan beszúrni egy fő dokumentum meghatározott mezőibe egy körlevél-művelet során? Nos, jó helyen jársz. Ez az oktatóanyag lépésről lépésre végigvezeti a dokumentumok körlevél-mezőkbe történő beszúrásának folyamatán az Aspose.Words for .NET használatával. Olyan ez, mint egy puzzle összerakása, ahol minden darab tökéletesen a helyére kerül. Szóval, merüljünk bele!
+Üdvözlünk a dokumentumautomatizálás világában az Aspose.Words for .NET segítségével! Elgondolkodott már azon, hogyan szúrhat be dinamikusan dokumentumokat egy fő dokumentum adott mezőibe egy körlevelezési művelet során? Nos, jó helyen jár. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a dokumentumok körlevelezési mezőkbe való beszúrásának folyamatán az Aspose.Words for .NET használatával. Olyan ez, mint egy kirakós darab összerakása, ahol minden darab tökéletesen a helyére kerül. Akkor vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Words for .NET: Megteheti[töltse le a legújabb verziót innen](https://releases.aspose.com/words/net/) . Ha licencet kell vásárolnia, megteheti[itt](https://purchase.aspose.com/buy) . Alternatív megoldásként kaphat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy próbálja ki a[ingyenes próbaverzió](https://releases.aspose.com/).
-2. Fejlesztői környezet: Visual Studio vagy bármely más C# IDE.
-3. A C# alapismeretei: A C# programozás ismerete gyerekjáték lesz ez az oktatóanyag.
+1. Aspose.Words .NET-hez: Meg tudod csinálni [töltsd le a legújabb verziót itt](https://releases.aspose.com/words/net/)Ha licencet kell vásárolnia, megteheti [itt](https://purchase.aspose.com/buy)Alternatív megoldásként szerezhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy próbáld ki egy [ingyenes próba](https://releases.aspose.com/).
+2. Fejlesztői környezet: Visual Studio vagy bármilyen más C# IDE.
+3. C# alapismeretek: A C# programozásban való jártasság gyerekjátékká teszi ezt az oktatóanyagot.
 
 ## Névterek importálása
 
-Először is importálnia kell a szükséges névtereket. Ezek olyanok, mint a projekt építőkövei.
+Először is importálnod kell a szükséges névtereket. Ezek a projekted építőelemei.
 
 ```csharp
 using System;
@@ -36,11 +38,11 @@ using Aspose.Words.MailMerging;
 using System.Linq;
 ```
 
-Bontsuk fel a folyamatot kezelhető lépésekre. Minden lépés az előzőre épül, és a teljes megoldáshoz vezet.
+Bontsuk le a folyamatot kezelhető lépésekre. Minden lépés az előzőre épül, elvezetve egy teljes megoldáshoz.
 
 ## 1. lépés: A címtár beállítása
 
-A dokumentumok beszúrásának megkezdése előtt meg kell határoznia a dokumentumkönyvtár elérési útját. Itt tárolják a dokumentumokat.
+Mielőtt elkezdhetné a dokumentumok beszúrását, meg kell adnia a dokumentumok könyvtárának elérési útját. Itt tárolódnak a dokumentumok.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -48,15 +50,15 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 2. lépés: A fő dokumentum betöltése
 
-Ezután töltse be a fő dokumentumot. Ez a dokumentum tartalmazza azokat az egyesítési mezőket, amelyekbe más dokumentumok kerülnek beszúrásra.
+Ezután betölti a fő dokumentumot. Ez a dokumentum tartalmazza az egyesítési mezőket, ahová a többi dokumentum be lesz szúrva.
 
 ```csharp
 Document mainDoc = new Document(dataDir + "Document insertion 1.docx");
 ```
 
-## 3. lépés: A visszahívási összevonás mező beállítása
+## 3. lépés: A mezőegyesítés visszahívásának beállítása
 
-Az egyesítési folyamat kezeléséhez be kell állítania egy visszahívási funkciót. Ez a funkció felelős a dokumentumok beszúrásáért a megadott egyesítési mezőkbe.
+Az egyesítési folyamat kezeléséhez be kell állítania egy visszahívó függvényt. Ez a függvény felelős a dokumentumok beszúrásáért a megadott egyesítési mezőkbe.
 
 ```csharp
 mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
@@ -64,7 +66,7 @@ mainDoc.MailMerge.FieldMergingCallback = new InsertDocumentAtMailMergeHandler();
 
 ## 4. lépés: A körlevél végrehajtása
 
-Most itt az ideje végrehajtani a körlevél-összevonást. Itt történik a varázslat. Meg kell adni az egyesítési mezőt és a dokumentumot, amelyet ebbe a mezőbe kell beilleszteni.
+Most itt az ideje a körlevélkészítésnek. Itt történik a varázslat. Meg kell adnod az egyesítési mezőt és a mezőbe beszúrandó dokumentumot.
 
 ```csharp
 mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Document insertion 2.docx" });
@@ -72,15 +74,15 @@ mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Docu
 
 ## 5. lépés: A dokumentum mentése
 
-körlevél-összevonás befejezése után elmenti a módosított dokumentumot. Ebben az új dokumentumban ott lesz a beszúrt tartalom, ahol szeretné.
+Miután a körlevél elkészült, mentse el a módosított dokumentumot. Az új dokumentumban a beszúrt tartalom pontosan ott lesz, ahol szeretné.
 
 ```csharp
 mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
-## 6. lépés: A visszahíváskezelő létrehozása
+## 6. lépés: A visszahívás-kezelő létrehozása
 
-A visszahíváskezelő egy olyan osztály, amely speciális feldolgozást végez az egyesítési mező számára. Betölti a mező értékében megadott dokumentumot és beszúrja az aktuális egyesítési mezőbe.
+A visszahívás-kezelő egy olyan osztály, amely speciális feldolgozást végez az egyesítési mező számára. Betölti a mező értékében megadott dokumentumot, és beszúrja azt az aktuális egyesítési mezőbe.
 
 ```csharp
 private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
@@ -104,9 +106,9 @@ private class InsertDocumentAtMailMergeHandler : IFieldMergingCallback
 }
 ```
 
-## 7. lépés: A dokumentum beszúrása
+## 7. lépés: A dokumentum beillesztése
 
-Ez a módszer beszúrja a megadott dokumentumot az aktuális bekezdésbe vagy táblázatcellába.
+Ez a metódus beszúrja a megadott dokumentumot az aktuális bekezdésbe vagy táblázatcellába.
 
 ```csharp
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
@@ -140,27 +142,32 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 ## Következtetés
 
-És megvan! Sikeresen beszúrt dokumentumokat meghatározott mezőkbe az Aspose.Words for .NET használatával végzett körlevél-művelet során. Ezzel a hatékony funkcióval rengeteg időt és erőfeszítést takaríthat meg, különösen, ha nagy mennyiségű dokumentumot kezel. Tekintsd úgy, mintha van egy személyi asszisztens, aki elvégzi helyetted az összes nehézemelést. Szóval, menj és próbáld ki. Boldog kódolást!
+És íme! Sikeresen beszúrtál dokumentumokat adott mezőkbe egy körlevelezési művelet során az Aspose.Words for .NET használatával. Ez a hatékony funkció rengeteg időt és energiát takaríthat meg, különösen nagy mennyiségű dokumentum kezelésekor. Gondolj rá úgy, mint egy személyi asszisztensre, aki elvégzi helyetted az összes nehéz munkát. Szóval, próbáld ki. Jó programozást!
 
 ## GYIK
 
-### Beszúrhatok több dokumentumot különböző egyesítési mezőkbe?
-Igen, megteheti. Egyszerűen adja meg a megfelelő egyesítési mezőket és a megfelelő dokumentumútvonalakat a`MailMerge.Execute` módszer.
+### Beszúrhatok több dokumentumot különböző mezőkbe?
+Igen, megteheti. Egyszerűen adja meg a megfelelő egyesítési mezőket és a hozzájuk tartozó dokumentumútvonalakat a `MailMerge.Execute` módszer.
 
-### Lehetséges a beillesztett dokumentumot a fő dokumentumtól eltérően formázni?
- Teljesen! Használhatja a`ImportFormatMode` paraméter a`NodeImporter` a formázás szabályozásához.
+### Lehetséges a beszúrt dokumentumot a fő dokumentumtól eltérően formázni?
+Természetesen! Használhatod a `ImportFormatMode` paraméter a `NodeImporter` a formázás szabályozására.
 
-### Mi a teendő, ha az egyesítési mező neve dinamikus?
-A dinamikus egyesítési mezőneveket úgy kezelheti, hogy paraméterként adja át őket a visszahíváskezelőnek.
+### Mi van, ha az egyesítési mező neve dinamikus?
+A dinamikus egyesítési mezők neveit úgy kezelheted, hogy paraméterként adod át őket a visszahívási kezelőnek.
 
 ### Használhatom ezt a módszert különböző fájlformátumokkal?
-Igen, az Aspose.Words különféle fájlformátumokat támogat, beleértve a DOCX-et, PDF-et és még sok mást.
+Igen, az Aspose.Words számos fájlformátumot támogat, beleértve a DOCX-et, PDF-et és egyebeket.
 
-### Hogyan kezelhetem a hibákat a dokumentumbeillesztési folyamat során?
-Az esetlegesen előforduló kivételek kezeléséhez alkalmazza a hibakezelést a visszahíváskezelőben.
+### Hogyan kezeljem a dokumentumok beszúrása során felmerülő hibákat?
+Implementálj hibakezelést a visszahívási kezelődben az esetlegesen előforduló kivételek kezeléséhez.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Properti Dokumen dan Manajemen Metadata
-linktitle: Properti Dokumen dan Manajemen Metadata
-second_title: API Manajemen Dokumen Python Aspose.Words
-description: Pelajari cara mengelola properti dan metadata dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
-weight: 12
-url: /id/python-net/document-options-and-settings/document-properties-metadata/
+"description": "Pelajari cara mengelola properti dan metadata dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber."
+"linktitle": "Properti Dokumen dan Manajemen Metadata"
+"second_title": "API Manajemen Dokumen Python Aspose.Words"
+"title": "Properti Dokumen dan Manajemen Metadata"
+"url": "/id/python-net/document-options-and-settings/document-properties-metadata/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Properti Dokumen dan Manajemen Metadata
@@ -23,10 +25,10 @@ Properti dokumen dan metadata merupakan komponen penting dari dokumen elektronik
 Sebelum kita masuk ke pengelolaan properti dokumen dan metadata, mari kita siapkan lingkungan kita dengan Aspose.Words untuk Python.
 
 ```python
-# Install the Aspose.Words for Python package
+# Instal paket Aspose.Words untuk Python
 pip install aspose-words
 
-# Import the necessary classes
+# Impor kelas yang diperlukan
 import aspose.words as aw
 ```
 
@@ -35,10 +37,10 @@ import aspose.words as aw
 Anda dapat dengan mudah mengambil properti dokumen menggunakan API Aspose.Words. Berikut ini contoh cara mengambil penulis dan judul dokumen:
 
 ```python
-# Load the document
+# Muat dokumen
 doc = aw.Document("document.docx")
 
-# Retrieve document properties
+# Ambil properti dokumen
 author = doc.built_in_document_properties["Author"]
 title = doc.built_in_document_properties["Title"]
 
@@ -51,11 +53,11 @@ print("Title:", title)
 Memperbarui properti dokumen juga mudah. Misalnya, Anda ingin memperbarui nama penulis dan judul:
 
 ```python
-# Update document properties
+# Perbarui properti dokumen
 doc.built_in_document_properties["Author"] = "John Doe"
 doc.built_in_document_properties["Title"] = "My Updated Document"
 
-# Save the changes
+# Simpan perubahannya
 doc.save("updated_document.docx")
 ```
 
@@ -64,10 +66,10 @@ doc.save("updated_document.docx")
 Properti dokumen kustom memungkinkan Anda menyimpan informasi tambahan di dalam dokumen. Mari tambahkan properti kustom bernama "Departemen":
 
 ```python
-# Add a custom document property
+# Tambahkan properti dokumen kustom
 doc.custom_document_properties.add("Department", "Marketing")
 
-# Save the changes
+# Simpan perubahannya
 doc.save("document_with_custom_property.docx")
 ```
 
@@ -76,7 +78,7 @@ doc.save("document_with_custom_property.docx")
 Manajemen metadata melibatkan pengendalian informasi seperti perubahan trek, statistik dokumen, dan banyak lagi. Aspose.Words memungkinkan Anda mengakses dan mengubah metadata ini secara terprogram.
 
 ```python
-# Access and modify metadata
+# Akses dan modifikasi metadata
 doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 ```
 
@@ -85,7 +87,7 @@ doc.metadata["Keywords"] = "Python, Aspose.Words, Metadata"
 Pembaruan metadata yang sering dapat diotomatisasi menggunakan Aspose.Words. Misalnya, Anda dapat memperbarui properti "Terakhir Dimodifikasi Oleh" secara otomatis:
 
 ```python
-# Automatically update "Last Modified By"
+# Perbarui secara otomatis "Terakhir Dimodifikasi Oleh"
 doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 ```
 
@@ -94,7 +96,7 @@ doc.built_in_document_properties["LastModifiedBy"] = "Automated Process"
 Metadata terkadang dapat berisi informasi sensitif. Untuk memastikan privasi data, Anda dapat menghapus properti tertentu:
 
 ```python
-# Remove sensitive metadata properties
+# Hapus properti metadata sensitif
 sensitive_properties = ["LastPrinted", "LastSavedBy"]
 for prop in sensitive_properties:
     if prop in doc.built_in_document_properties:
@@ -106,7 +108,7 @@ for prop in sensitive_properties:
 Pemberian versi sangat penting untuk menjaga riwayat dokumen. Aspose.Words memungkinkan Anda mengelola versi secara efektif:
 
 ```python
-# Add version history information
+# Tambahkan informasi riwayat versi
 version_info = doc.built_in_document_properties.add("VersionInfo")
 version_info.value = "Version 1.0 - Initial Release"
 ```
@@ -138,7 +140,7 @@ Ya, Anda dapat mengotomatiskan pembaruan metadata menggunakan Aspose.Words. Misa
 
 ### Bagaimana saya dapat melindungi informasi sensitif dalam metadata?
 
- Untuk melindungi informasi sensitif dalam metadata, Anda dapat menghapus properti tertentu menggunakan`remove` metode.
+Untuk melindungi informasi sensitif dalam metadata, Anda dapat menghapus properti tertentu menggunakan `remove` metode.
 
 ### Apa saja praktik terbaik untuk mengelola properti dokumen?
 
@@ -146,9 +148,14 @@ Ya, Anda dapat mengotomatiskan pembaruan metadata menggunakan Aspose.Words. Misa
 - Memanfaatkan properti khusus untuk konteks tambahan.
 - Tinjau dan perbarui metadata secara berkala.
 - Lindungi informasi sensitif yang terkandung dalam metadata.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

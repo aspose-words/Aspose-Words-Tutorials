@@ -1,24 +1,26 @@
 ---
-title: Cómo manipular encabezados y pies de página en documentos de Word
-linktitle: Cómo manipular encabezados y pies de página en documentos de Word
-second_title: API de gestión de documentos de Python de Aspose.Words
-description: Aprenda a manipular encabezados y pies de página en documentos de Word con Aspose.Words para Python. Guía paso a paso con código fuente para personalizar, agregar, eliminar y más. ¡Mejore el formato de sus documentos ahora!
-weight: 16
-url: /es/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Aprenda a manipular encabezados y pies de página en documentos de Word con Aspose.Words para Python. Guía paso a paso con código fuente para personalizar, añadir, eliminar y mucho más. ¡Mejore el formato de sus documentos ahora!"
+"linktitle": "Manipulación de encabezados y pies de página en documentos de Word"
+"second_title": "API de gestión de documentos de Python de Aspose.Words"
+"title": "Manipulación de encabezados y pies de página en documentos de Word"
+"url": "/es/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo manipular encabezados y pies de página en documentos de Word
+# Manipulación de encabezados y pies de página en documentos de Word
 
-Los encabezados y pies de página de los documentos de Word desempeñan un papel fundamental a la hora de proporcionar contexto, imagen de marca e información adicional a su contenido. La manipulación de estos elementos mediante la API de Aspose.Words para Python puede mejorar significativamente la apariencia y la funcionalidad de sus documentos. En esta guía paso a paso, exploraremos cómo trabajar con encabezados y pies de página mediante Aspose.Words para Python.
+Los encabezados y pies de página en los documentos de Word desempeñan un papel crucial al proporcionar contexto, imagen de marca e información adicional a su contenido. Manipular estos elementos con la API de Aspose.Words para Python puede mejorar significativamente la apariencia y la funcionalidad de sus documentos. En esta guía paso a paso, exploraremos cómo trabajar con encabezados y pies de página con Aspose.Words para Python.
 
 
 ## Introducción a Aspose.Words para Python
 
-Antes de sumergirse en la manipulación de encabezados y pies de página, debe configurar Aspose.Words para Python. Siga estos pasos:
+Antes de comenzar a manipular encabezados y pies de página, debe configurar Aspose.Words para Python. Siga estos pasos:
 
 1. Instalación: Instale Aspose.Words para Python usando pip.
 
@@ -42,7 +44,7 @@ Para agregar un encabezado y pie de página básicos a su documento de Word, sig
 doc = aw.Document()
 ```
 
-2.  Agregar encabezado y pie de página: utilice el`sections` propiedad del documento para acceder a las secciones. Luego, utilice el`headers_footers` Propiedad para agregar encabezados y pies de página.
+2. Agregar encabezado y pie de página: utilice el `sections` propiedad del documento para acceder a las secciones. Luego, utilice el `headers_footers` Propiedad para agregar encabezados y pies de página.
 
 ```python
 section = doc.sections[0]
@@ -58,7 +60,7 @@ doc.save("document_with_header_footer.docx")
 
 ## Personalización del contenido del encabezado y pie de página
 
-Puede personalizar el contenido del encabezado y pie de página agregando imágenes, tablas y campos dinámicos. Por ejemplo:
+Puedes personalizar el contenido del encabezado y pie de página añadiendo imágenes, tablas y campos dinámicos. Por ejemplo:
 
 1. Agregar imágenes: inserte imágenes en el encabezado o pie de página.
 
@@ -75,9 +77,9 @@ footer_run.text = "Page number: {PAGE} of {NUMPAGES} - Document created on {DATE
 
 ## Diferentes encabezados y pies de página para páginas pares e impares
 
-Crear encabezados y pies de página diferentes para páginas pares e impares puede agregar un toque profesional a sus documentos. A continuación, le indicamos cómo hacerlo:
+Crear encabezados y pies de página diferentes para páginas pares e impares puede darle un toque profesional a tus documentos. Aquí te explicamos cómo:
 
-1. Establecer el diseño de páginas pares e impares: defina el diseño para permitir diferentes encabezados y pies de página para páginas pares e impares.
+1. Establecer el diseño de páginas pares e impares: defina el diseño para permitir encabezados y pies de página diferentes para páginas pares e impares.
 
 ```python
 section = doc.sections[0]
@@ -100,14 +102,14 @@ footer_even = section.headers_footers[aspose.words.HeaderFooterType.FOOTER_ODD]
 
 Para eliminar encabezados y pies de página de un documento de Word:
 
-1. Eliminar encabezados y pies de página: borre el contenido de encabezados y pies de página.
+1. Eliminar encabezados y pies de página: borre el contenido de los encabezados y pies de página.
 
 ```python
 header.clear_content()
 footer.clear_content()
 ```
 
-2. Deshabilitar diferentes encabezados/pies de página: deshabilite diferentes encabezados y pies de página para páginas pares e impares si es necesario.
+2. Deshabilitar diferentes encabezados y pies de página: deshabilite diferentes encabezados y pies de página para páginas pares e impares si es necesario.
 
 ```python
 section.page_setup.different_first_page_header_footer = False
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### ¿Cómo puedo acceder al contenido del encabezado y pie de página?
 
- Para acceder al contenido del encabezado y pie de página, utilice el`headers_footers` propiedad de la sección del documento.
+Para acceder al contenido del encabezado y pie de página, utilice el `headers_footers` propiedad de la sección del documento.
 
 ### ¿Puedo agregar imágenes a los encabezados y pies de página?
 
- Sí, puedes agregar imágenes a encabezados y pies de página usando el`add_picture` método.
+Sí, puedes agregar imágenes a los encabezados y pies de página usando el `add_picture` método.
 
 ### ¿Es posible tener encabezados diferentes para páginas pares e impares?
 
@@ -134,11 +136,16 @@ Sí, puedes borrar el contenido de los encabezados y pies de página para elimin
 
 ### ¿Dónde puedo obtener más información sobre Aspose.Words para Python?
 
- Para obtener documentación y ejemplos más detallados, visite[Referencia de la API de Aspose.Words para Python](https://reference.aspose.com/words/python-net/).
+Para obtener documentación más detallada y ejemplos, visite el sitio [Referencia de la API de Aspose.Words para Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

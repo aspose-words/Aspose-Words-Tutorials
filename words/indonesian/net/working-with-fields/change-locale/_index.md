@@ -1,14 +1,16 @@
 ---
-title: Ubah Lokal
-linktitle: Ubah Lokal
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengubah lokal dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Sempurna untuk menangani klien dan proyek internasional.
-weight: 10
-url: /id/net/working-with-fields/change-locale/
+"description": "Pelajari cara mengubah lokal dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Sempurna untuk menangani klien dan proyek internasional."
+"linktitle": "Ubah Lokal"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Ubah Lokal"
+"url": "/id/net/working-with-fields/change-locale/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Lokal
@@ -21,15 +23,15 @@ Bekerja dengan dokumen Word sering kali memerlukan sedikit kemahiran, terutama s
 
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari pastikan kita memiliki semua yang kita butuhkan:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 - Visual Studio: Versi apa pun yang mendukung kerangka kerja .NET.
 - Pengetahuan Dasar C#: Pemahaman tentang dasar-dasar C# dan .NET akan membantu Anda mengikutinya.
 
- Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau membelinya[Di Sini](https://purchase.aspose.com/buy).
+Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau membelinya [Di Sini](https://purchase.aspose.com/buy).
 
 ## Mengimpor Ruang Nama
 
-Sebelum memulai pengkodean, kita perlu mengimpor namespace yang diperlukan. Namespace ini seperti bahan-bahan dalam resep, yang memastikan semuanya berjalan lancar.
+Sebelum memulai pengodean, kita perlu mengimpor namespace yang diperlukan. Namespace ini seperti bahan-bahan dalam resep, yang memastikan semuanya berjalan lancar.
 
 ```csharp
 using System.Globalization;
@@ -113,16 +115,21 @@ Ya, Aspose.Words untuk .NET mendukung perubahan lokal ke bahasa apa pun yang did
 Mengubah lokal terutama akan memengaruhi format tanggal dan angka. Teks lainnya tidak akan berubah.
 
 ### Apakah saya memerlukan lisensi khusus untuk menggunakan Aspose.Words untuk .NET?
- Anda dapat memulai dengan uji coba gratis, tetapi untuk penggunaan berkelanjutan, Anda perlu membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat memulai dengan uji coba gratis, tetapi untuk penggunaan berkelanjutan, Anda perlu membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 ### Bisakah saya kembali ke lokal asli jika terjadi kesalahan?
 Ya, dengan menyelamatkan budaya asli dan memulihkannya nanti, Anda dapat kembali ke lokal asli.
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda bisa mendapatkan dukungan dari komunitas Aspose[Di Sini](https://forum.aspose.com/c/words/8).
+Anda bisa mendapatkan dukungan dari komunitas Aspose [Di Sini](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

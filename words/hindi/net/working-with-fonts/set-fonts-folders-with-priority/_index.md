@@ -1,14 +1,16 @@
 ---
-title: प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर सेट करें
-linktitle: प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर सेट करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर कैसे सेट करें। हमारा गाइड सुनिश्चित करता है कि आपके दस्तावेज़ हर बार पूरी तरह से रेंडर हों।
-weight: 10
-url: /hi/net/working-with-fonts/set-fonts-folders-with-priority/
+"description": "जानें कि .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर कैसे सेट करें। हमारा गाइड सुनिश्चित करता है कि आपके दस्तावेज़ हर बार पूरी तरह से रेंडर हों।"
+"linktitle": "प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर सेट करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर सेट करें"
+"url": "/hi/net/working-with-fonts/set-fonts-folders-with-priority/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # प्राथमिकता के साथ फ़ॉन्ट फ़ोल्डर सेट करें
@@ -21,9 +23,9 @@ url: /hi/net/working-with-fonts/set-fonts-folders-with-priority/
 
 शुरू करने से पहले, आइए सुनिश्चित करें कि हमारे पास वह सब कुछ है जिसकी हमें ज़रूरत है। यहाँ एक त्वरित चेकलिस्ट दी गई है:
 
--  Aspose.Words for .NET: आपको यह लाइब्रेरी इंस्टॉल करनी होगी। अगर आपके पास अभी तक यह नहीं है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: आपको यह लाइब्रेरी इंस्टॉल करनी होगी। अगर आपके पास अभी तक यह नहीं है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/words/net/).
 - विकास परिवेश: सुनिश्चित करें कि आपके पास Visual Studio जैसा कार्यशील .NET विकास परिवेश है।
--  दस्तावेज़ निर्देशिका: सुनिश्चित करें कि आपके पास अपने दस्तावेज़ों के लिए एक निर्देशिका है। हमारे उदाहरणों के लिए, हम इसका उपयोग करेंगे`"YOUR DOCUMENT DIRECTORY"` इस पथ के लिए एक प्लेसहोल्डर के रूप में।
+- दस्तावेज़ निर्देशिका: सुनिश्चित करें कि आपके पास अपने दस्तावेज़ों के लिए एक निर्देशिका है। हमारे उदाहरणों के लिए, हम इसका उपयोग करेंगे `"YOUR DOCUMENT DIRECTORY"` इस पथ के लिए एक प्लेसहोल्डर के रूप में।
 
 ## नामस्थान आयात करें
 
@@ -54,7 +56,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 
 इस उदाहरण में, हम दो फ़ॉन्ट स्रोत सेट कर रहे हैं:
 - सिस्टमफॉन्टसोर्स: यह डिफ़ॉल्ट फ़ॉन्ट स्रोत है जिसमें आपके सिस्टम पर स्थापित सभी फ़ॉन्ट शामिल होते हैं।
--  फ़ोल्डरफ़ॉन्टस्रोत: यह एक कस्टम फ़ॉन्ट फ़ोल्डर है जो यहाँ स्थित है`C:\\MyFonts\\` . द`true` पैरामीटर निर्दिष्ट करता है कि इस फ़ोल्डर को पुनरावर्ती रूप से स्कैन किया जाना चाहिए, और`1` अपनी प्राथमिकता तय करता है.
+- फ़ोल्डरफ़ॉन्टस्रोत: यह एक कस्टम फ़ॉन्ट फ़ोल्डर है जो यहाँ स्थित है `C:\\MyFonts\\`. द `true` पैरामीटर निर्दिष्ट करता है कि इस फ़ोल्डर को पुनरावर्ती रूप से स्कैन किया जाना चाहिए, और `1` अपनी प्राथमिकता तय करता है.
 
 ## चरण 2: अपना दस्तावेज़ लोड करें
 
@@ -64,7 +66,7 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- कोड की यह पंक्ति नामक दस्तावेज़ लोड करती है`Rendering.docx` अपने दस्तावेज़ निर्देशिका से.
+कोड की यह पंक्ति नामक दस्तावेज़ लोड करती है `Rendering.docx` अपने दस्तावेज़ निर्देशिका से.
 
 ## चरण 3: अपने दस्तावेज़ को नई फ़ॉन्ट सेटिंग के साथ सहेजें
 
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 ```
 
- यह दस्तावेज़ को आपके दस्तावेज़ निर्देशिका में PDF के रूप में नाम से सहेजता है`WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
+यह दस्तावेज़ को आपके दस्तावेज़ निर्देशिका में PDF के रूप में नाम से सहेजता है `WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
 
 ## निष्कर्ष
 
@@ -96,9 +98,14 @@ doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 
 ### क्या कस्टम फ़ॉन्ट फ़ोल्डरों के लिए नेटवर्क पथ का उपयोग करना संभव है?
 हां, आप नेटवर्क पथ को कस्टम फ़ॉन्ट फ़ोल्डर के रूप में निर्दिष्ट कर सकते हैं, जिससे आप नेटवर्क स्थान पर फ़ॉन्ट संसाधनों को केंद्रीकृत कर सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

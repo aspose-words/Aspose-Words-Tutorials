@@ -1,14 +1,16 @@
 ---
-title: İzlenen Belgede Düğümü Taşı
-linktitle: İzlenen Belgede Düğümü Taşı
-second_title: Aspose.Words Belge İşleme API'si
-description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak izlenen bir Word belgesindeki düğümleri nasıl taşıyacağınızı öğrenin. Geliştiriciler için mükemmel.
-weight: 10
-url: /tr/net/working-with-revisions/move-node-in-tracked-document/
+"description": "Ayrıntılı, adım adım kılavuzumuzla .NET için Aspose.Words'ü kullanarak izlenen bir Word belgesindeki düğümleri nasıl taşıyacağınızı öğrenin. Geliştiriciler için mükemmel."
+"linktitle": "İzlenen Belgede Düğümü Taşı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "İzlenen Belgede Düğümü Taşı"
+"url": "/tr/net/working-with-revisions/move-node-in-tracked-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İzlenen Belgede Düğümü Taşı
@@ -21,7 +23,7 @@ Merhaba, Aspose.Words meraklıları! Revizyonları izlerken bir Word belgesinde 
 
 Ellerimizi biraz kodla kirletmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
--  Aspose.Words for .NET: İndirin[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: İndirin [Burada](https://releases.aspose.com/words/net/).
 - .NET Ortamı: Uyumlu bir .NET geliştirme ortamı kurduğunuzdan emin olun.
 - Temel C# Bilgisi: Bu eğitimde C# hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
 
@@ -40,7 +42,7 @@ Tamam, süreci yönetilebilir adımlara bölelim. Her adım, her noktada ne oldu
 
 ## Adım 1: Belgeyi Başlatın
 
- Başlamak için yeni bir belge başlatmamız ve bir`DocumentBuilder` birkaç paragraf eklemek için.
+Başlamak için yeni bir belge başlatmamız ve bir `DocumentBuilder` birkaç paragraf eklemek için.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -122,22 +124,27 @@ Aspose.Words for .NET, Word belgeleriyle programatik olarak çalışmak için bi
 
 ### Aspose.Words kullanarak bir Word belgesindeki revizyonları nasıl takip edebilirim?
 
- Düzeltmeleri izlemek için şunu kullanın:`StartTrackRevisions` yöntem üzerinde`Document` nesne. Bu, belgede yapılan tüm değişiklikleri göstererek revizyon izlemeyi etkinleştirecektir.
+Düzeltmeleri izlemek için şunu kullanın: `StartTrackRevisions` yöntem üzerinde `Document` nesne. Bu, belgede yapılan tüm değişiklikleri göstererek revizyon izlemeyi etkinleştirecektir.
 
 ### Aspose.Words'de birden fazla düğümü taşıyabilir miyim?
 
-Evet, üzerlerinde yineleme yaparak ve şu yöntemleri kullanarak birden fazla düğümü taşıyabilirsiniz:`InsertBefore` veya`InsertAfter` onları istenilen yere yerleştirmek.
+Evet, üzerlerinde yineleme yaparak ve şu yöntemleri kullanarak birden fazla düğümü taşıyabilirsiniz: `InsertBefveyae` or `InsertAfter` onları istenilen yere yerleştirmek.
 
 ### Aspose.Words'de revizyonları izlemeyi nasıl durdurabilirim?
 
- Kullanın`StopTrackRevisions` yöntem üzerinde`Document` revizyonların izlenmesini durdurmaya yönelik nesne.
+Kullanın `StopTrackRevisions` yöntem üzerinde `Document` revizyonların izlenmesini durdurmaya yönelik nesne.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

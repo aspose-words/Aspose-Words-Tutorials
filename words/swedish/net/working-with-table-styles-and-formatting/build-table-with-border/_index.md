@@ -1,34 +1,38 @@
 ---
-title: Ändra tabellgränser i Word med hjälp av Aspose.Words för .NET
-weight: 7700
-limit: 
-description: Lär dig hur man manipulerar bordbord i Word-dokument med Aspose.Words för .NET. steg för steg exempel för att tillämpa anpassade tabellstilar och formatering.
-keywords: [Aspose.Words for .NET, table borders Word, Word document table formatting, modify Word table, .NET Word processing, Aspose.Words tutorial]
-url: /sv/net/working-with-table-styles-and-formatting/build-table-with-border/
+"description": "Lär dig hur du manipulerar tabellkanter i Word-dokument med Aspose.Words för .NET. Steg-för-steg-exempel för att tillämpa anpassade tabellformat och formatering."
+"title": "Ändra tabellkanter i Word med Aspose.Words för .NET"
+"url": "/sv/net/working-with-table-styles-and-formatting/build-table-with-border/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändra tabellgränser i Word med hjälp av Aspose.Words
+# Ändra tabellkanter i Word med Aspose.Words
  
-Aspose.Words för .NET är ett kraftfullt bibliotek för att skapa, redigera och manipulera Word-dokument programmatiskt. I detta exempel lär du dig hur du hämtar ett befintligt Word-dokument, ändrar gränserna i den första tabellen och tillämpar anpassad formatering med hjälp av Aspose.Words. Denna guide går igenom att rensa befintliga gränser, tillämpa gröna gränser runt och inuti tabellen och spara det uppdaterade dokumentet. Med denna funktion kan du förbättra presentationen av tabeller i Word-dokument effektivt.
+Aspose.Words för .NET är ett kraftfullt bibliotek för att skapa, redigera och manipulera Word-dokument programmatiskt. I det här exemplet lär du dig hur du hämtar ett befintligt Word-dokument, ändrar kantlinjerna för den första tabellen och tillämpar anpassad formatering med Aspose.Words. Den här guiden guidar dig genom hur du rensar befintliga kantlinjer, tillämpar gröna kantlinjer runt och inuti tabellen och sparar det uppdaterade dokumentet. Med den här funktionen kan du effektivt förbättra presentationen av tabeller i Word-dokument.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-table-styles-and-formatting/build-table-with-border" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Installationsinstruktioner  
-För att börja med Aspose.Words för .NET, följ dessa steg:  
 
-1. Ladda ner biblioteket: Ladda ner den senaste versionen av Aspose.Words för .NET från [officiell nedladdningssida](https://releases.aspose.com/words/net/)\- Jag är inte rädd.  
-2. Installa via NuGet:  
-   * Öppna ditt projekt i Visual Studio.  
-   * Gå till Verktyg > NuGet pakethanterare > Hantera NuGet paketer för lösning.  
-   * Sök efter`"Svar. Ord"`och klicka på Installa.  
-3. Ansök om licens: Få en licens från [Att lägga in inköpssidan](https://purchase.aspose.com/buy)eller använda en [Tillfälligt tillstånd](https://purchase.aspose.com/temporary-license/)För utvärderingsändamål.  
-4. Lägg till Namnrum: Lägg till `"Svar. Ord"`Namnrum i din kod:  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+## Installationsanvisningar  
+För att komma igång med Aspose.Words för .NET, följ dessa steg:  
+
+1. Ladda ner biblioteket: Ladda ner den senaste versionen av Aspose.Words för .NET från [officiell nedladdningssida](https://releases.aspose.com/words/net/).  
+2. Installera via NuGet:  
+   - Öppna ditt projekt i Visual Studio.  
+   - Gå till Verktyg > NuGet-pakethanterare > Hantera NuGet-paket för lösningen.  
+   - Leta efter `Aspose.Words` och klicka på Installera.  
+3. Ansök om licens: Erhåll en licens från [Aspose köpsida](https://purchase.aspose.com/buy) eller använd en [tillfällig licens](https://purchase.aspose.com/temporary-license/) för utvärderingsändamål.  
+4. Lägg till namnrymd: Lägg till `Aspose.Words` namnrymd i din kod:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Tables;
@@ -37,9 +41,13 @@ För att börja med Aspose.Words för .NET, följ dessa steg:
 
 ## Se även
 [Aspose.Word för .NET-dokumentation](https://docs.aspose.com/words/net/)
-[Aspose.Word för .NET Referenser](https://reference.aspose.com/words/net/)
+[Aspose.Word för .NET-referenser](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

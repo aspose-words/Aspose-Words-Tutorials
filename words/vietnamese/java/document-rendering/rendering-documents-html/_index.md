@@ -1,14 +1,16 @@
 ---
-title: Kết xuất tài liệu sang HTML
-linktitle: Kết xuất tài liệu sang HTML
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách chuyển đổi tài liệu sang HTML dễ dàng với Aspose.Words for Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả.
-weight: 14
-url: /vi/java/document-rendering/rendering-documents-html/
+"description": "Tìm hiểu cách chuyển đổi tài liệu sang HTML dễ dàng với Aspose.Words for Java. Hướng dẫn từng bước để chuyển đổi tài liệu hiệu quả."
+"linktitle": "Kết xuất tài liệu sang HTML"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Kết xuất tài liệu sang HTML"
+"url": "/vi/java/document-rendering/rendering-documents-html/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất tài liệu sang HTML
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số, việc kết xuất tài liệu là một
 
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
--  Aspose.Words cho Java API: Bạn có thể tải xuống từ[đây](https://releases.aspose.com/words/java/).
+- Aspose.Words cho Java API: Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 - Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
 
 Bây giờ, chúng ta hãy bắt đầu thực hiện theo từng bước.
@@ -46,11 +48,11 @@ public class DocumentRenderer {
 }
 ```
 
- Thay thế`"path/to/your/document.docx"` với đường dẫn thực tế đến tài liệu của bạn.
+Thay thế `"path/to/your/document.docx"` với đường dẫn thực tế đến tài liệu của bạn.
 
 ## Bước 3: Kết xuất thành HTML
 
-Bây giờ bạn đã tải tài liệu, đã đến lúc chuyển nó sang HTML. Aspose.Words giúp quá trình này trở nên đơn giản:
+Bây giờ bạn đã tải tài liệu, đã đến lúc chuyển đổi nó sang HTML. Aspose.Words giúp quá trình này trở nên đơn giản:
 
 ```java
 import com.aspose.words.HtmlSaveOptions;
@@ -70,7 +72,7 @@ public class DocumentRenderer {
 }
 ```
 
-Mã này sẽ lưu tài liệu của bạn ở định dạng HTML. Bạn có thể tùy chỉnh đầu ra HTML thêm nữa bằng cách điều chỉnh`HtmlSaveOptions` khi cần thiết.
+Mã này sẽ lưu tài liệu của bạn ở định dạng HTML. Bạn có thể tùy chỉnh đầu ra HTML thêm nữa bằng cách điều chỉnh `HtmlSaveOptions` khi cần thiết.
 
 ## Bước 4: Chạy mã
 
@@ -84,7 +86,7 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn quy trình kế
 
 ### Làm thế nào để tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
 
 ### Tôi có thể sử dụng Aspose.Words cho Java cho các dự án thương mại không?
 
@@ -101,9 +103,14 @@ Trong khi Aspose.Words for Java xử lý hầu hết các loại tài liệu m�
 ### Tôi có thể xuất tài liệu sang các định dạng khác ngoài HTML không?
 
 Có, Aspose.Words for Java hỗ trợ nhiều định dạng đầu ra, bao gồm PDF, DOCX, v.v. Bạn có thể chọn định dạng phù hợp nhất với nhu cầu của mình.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

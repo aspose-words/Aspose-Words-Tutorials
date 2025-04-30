@@ -1,46 +1,53 @@
 ---
-title: 使用 .NET 的 Aspose.Words 格式化段落
-weight: 7700
-limit: 
-description: 學習如何使用 .NET 的Aspose.Words來格式化Word文檔中的段落,包括排列,插入和隔離.
-keywords: [Aspose.Words, .NET, paragraph formatting, Word document, document builder, alignment, indentation, Word API]
-url: /zh-hant/net/document-styling/paragraph-formatting/
+"description": "了解如何使用 Aspose.Words for .NET 設定 Word 文件中的段落格式，包括對齊、縮排和間距。"
+"title": "使用 Aspose.Words for .NET 設定段落格式"
+"url": "/zh-hant/net/document-styling/paragraph-formatting/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用"答案.字"來編制段落
-這本書提供了使用 .NET 的 Aspose.Words 來格式化Word文檔中的段落的例子.您將學習如何設定各種段落格式化選項,如排列,插入和段落后的空間. 這樣的例子顯示了文檔和文檔建設者類的使用,使得程序能建立結構化文件.
+# 使用 Aspose.Words 設定段落格式
+本指南提供如何使用 Aspose.Words for .NET 設定 Word 文件段落格式的範例。您將學習如何設定各種段落格式選項，例如對齊、縮排和段後空格。此範例說明了 Document 和 DocumentBuilder 類別的用法，從而能夠以程式設計方式建立結構良好的文件。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/document-styling/multilevel-list-formatting" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令
-1. 請下載Aspose.Words為 .NET: 訪問網站[目標網站](https://www.aspose.com/downloads/words/net)請下載最新版本的Aspose.Words為 .NET.
+## 安裝說明
+1. 下載 Aspose.Words for .NET：訪問 [Aspose 網站](https://www.aspose.com/downloads/words/net) 下載最新版本的 Aspose.Words for .NET。
 
-2. 在您的 .NET 項目中,右鍵擊 Solution Explorer 中的項目,選擇 Add > Reference,並覽 Aspose.Words DLL 檔案.
+2. 新增參考：在您的 .NET 專案中，以滑鼠右鍵按一下解決方案資源管理器中的項目，選擇新增 > 引用，然後瀏覽以新增 Aspose.Words DLL 檔案。
 
-3. 使用 NuGet 包 (可選): 另一種方式,您可以透過 NuGet 包管理器安裝Aspose.Words 以以下命令:
+3. 使用 NuGet 套件（可選）：或者，您可以使用以下命令透過 NuGet 套件管理器安裝 Aspose.Words：
    ```
    Install-Package Aspose.Words
    ```
 
-4. 輸入名稱空間:使用命令加入您的代碼檔案:
+4. 導入命名空間：將以下 using 語句加入程式碼檔案：
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    ```
 
-5. 申請許可證 (可選):  
-   沒有任何樓盤符合您的搜尋結果[申請許可證](https://purchase.aspose.com/temporary-license/)或使用[免費試用](https://releases.aspose.com/words/net/)這就是我想要的.  
+5. 申請許可證（可選）：  
+   要使用完整版本， [申請許可證](https://purchase.aspose.com/temporary-license/) 或使用 [免費試用](https://releases。aspose.com/words/net/).  
 
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,25 +1,27 @@
 ---
-title: Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java
-linktitle: Korzystanie z obiektów OLE i kontrolek ActiveX
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
-weight: 21
-url: /pl/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!"
+"linktitle": "Korzystanie z obiektów OLE i kontrolek ActiveX"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java"
+"url": "/pl/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java
 
-W tym samouczku pokażemy, jak pracować z obiektami OLE (Object Linking and Embedding) i kontrolkami ActiveX w Aspose.Words for Java. Obiekty OLE i kontrolki ActiveX to potężne narzędzia, które pozwalają na ulepszanie dokumentów poprzez osadzanie lub łączenie zewnętrznej zawartości, takiej jak arkusze kalkulacyjne, pliki multimedialne lub kontrolki interaktywne. Śledź, jak zagłębiamy się w przykłady kodu i uczymy się, jak skutecznie korzystać z tych funkcji.
+tym samouczku pokażemy, jak pracować z obiektami OLE (Object Linking and Embedding) i kontrolkami ActiveX w Aspose.Words for Java. Obiekty OLE i kontrolki ActiveX to potężne narzędzia, które pozwalają na ulepszanie dokumentów poprzez osadzanie lub łączenie zewnętrznej zawartości, takiej jak arkusze kalkulacyjne, pliki multimedialne lub kontrolki interaktywne. Śledź, jak zagłębiamy się w przykłady kodu i uczymy się, jak skutecznie korzystać z tych funkcji.
 
 ### Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Aspose.Words dla Java: Upewnij się, że biblioteka Aspose.Words jest zainstalowana w Twoim projekcie Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/java/).
+1. Aspose.Words dla Java: Upewnij się, że biblioteka Aspose.Words jest zainstalowana w Twoim projekcie Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
 
 2. Środowisko programistyczne Java: Na swoim systemie powinieneś mieć zainstalowane działające środowisko programistyczne Java.
 
@@ -62,7 +64,7 @@ public void insertOleObjectWithOlePackage() throws Exception
 }
 ```
 
-tym przykładzie wstawiamy obiekt OLE za pomocą OlePackage, co umożliwia dołączenie plików zewnętrznych jako obiektów osadzonych.
+W tym przykładzie wstawiamy obiekt OLE za pomocą OlePackage, co umożliwia dołączenie plików zewnętrznych jako obiektów osadzonych.
 
 ### Wstawianie obiektu OLE jako ikony
 
@@ -135,13 +137,18 @@ Gratulacje! Nauczyłeś się, jak pracować z obiektami OLE i kontrolkami Active
    - Tak, Aspose.Words for Java to potężna biblioteka umożliwiająca automatyzację generowania i manipulowania dokumentami w aplikacjach Java.
 
 ### Gdzie mogę uzyskać dostęp do Aspose.Words dla Java? 
-   -  Możesz pobrać Aspose.Words dla Javy ze strony[Tutaj](https://releases.aspose.com/words/java/).
+   - Możesz pobrać Aspose.Words dla Javy ze strony [Tutaj](https://releases.aspose.com/words/java/).
 
 Zacznij korzystać z Aspose.Words for Java już dziś i odkryj pełen potencjał automatyzacji i personalizacji dokumentów!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

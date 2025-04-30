@@ -1,14 +1,16 @@
 ---
-title: Przetwarzanie słów z Htmlfixedsaveoptions
-linktitle: Przetwarzanie słów z Htmlfixedsaveoptions
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak programować z ustalonymi opcjami zapisu HTML w Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne funkcje, aby generować dokumenty HTML ze stałym układem, osadzonymi obrazami.
-weight: 1610
-url: /pl/net/programming-with-htmlfixedsaveoptions/
+"description": "Dowiedz się, jak programować z ustalonymi opcjami zapisu HTML w Aspose.Words dla .NET. Samouczki przeprowadzą Cię przez różne funkcje, aby generować dokumenty HTML ze stałym układem, osadzonymi obrazami."
+"linktitle": "Przetwarzanie słów z Htmlfixedsaveoptions"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przetwarzanie słów z Htmlfixedsaveoptions"
+"url": "/pl/net/programming-with-htmlfixedsaveoptions/"
+"weight": 1610
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie słów z Htmlfixedsaveoptions
@@ -18,11 +20,16 @@ Samouczki Aspose.Words for .NET mają na celu pomóc Ci opanować korzystanie z 
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Użyj czcionki z komputera docelowego](./use-font-from-target-machine/) | Dowiedz się, jak używać czcionek z komputera docelowego w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo zintegrować czcionki. |
+| [Użyj czcionki z komputera docelowego](./use-font-from-target-machine/) Dowiedz się, jak używać czcionek z komputera docelowego w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową integrację czcionek. |
 | [Zapisz wszystkie reguły CSS w jednym pliku](./write-all-css-rules-in-single-file/) | Dowiedz się, jak konwertować dokumenty Word do formatu HTML za pomocą Aspose.Words dla platformy .NET. Wszystkie reguły CSS znajdziesz w jednym pliku, co pozwoli uzyskać bardziej przejrzysty kod i ułatwi konserwację. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

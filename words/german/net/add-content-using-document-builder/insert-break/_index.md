@@ -1,26 +1,30 @@
 ---
-title: Erstellen Sie ein mehrseitiges Word-Dokument mit Aspose.Words
-weight: 7700
-limit: 
-description: Erfahren Sie, wie Sie ein mehrseitiges Word-Dokument mit Hilfe von Aspose.Words für .NET mit Schritt-für-Schritt-Anweisungen erstellen.
-keywords: [Aspose.Words, .NET, Word document, DocumentBuilder, page break, create document, programming example]
-url: /de/net/add-content-using-document-builder/insert-break/
+"description": "Erfahren Sie anhand von Schritt-für-Schritt-Anleitungen, wie Sie mit Aspose.Words für .NET ein mehrseitiges Word-Dokument erstellen."
+"title": "Erstellen Sie ein mehrseitiges Word-Dokument mit Aspose.Words"
+"url": "/de/net/add-content-using-document-builder/insert-break/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erstellen Sie ein mehrseitiges Word-Dokument mit Aspose.Words
 
-Dieses Beispiel zeigt, wie man ein Word-Dokument mit Aspose.Words für .NET erstellt, so dass Sie Inhalte auf mehreren Seiten hinzufügen können. Es zeigt, wie man ein neues Dokument initialisiert, den DocumentBuilder verwendet, um Text und Seitenpausen einzufügen und schließlich das Dokument als .docx-Datei zu speichern. Perfekt für Entwickler, die die Dokumenterproduktion in ihren .NET-Anwendungen automatisieren möchten.
+Dieses Beispiel zeigt, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und Inhalte über mehrere Seiten hinweg hinzufügen. Es zeigt, wie Sie ein neues Dokument initialisieren, mit dem DocumentBuilder Text und Seitenumbrüche einfügen und das Dokument anschließend als DOCX-Datei speichern. Ideal für Entwickler, die die Dokumenterstellung in ihren .NET-Anwendungen automatisieren möchten.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-break" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installationsanweisungen
-1. Installieren Sie Aspose.Words für .NET: Nutzen Sie NuGet Package Manager, um Aspose.Words zu installieren. Führen Sie im Package Manager Console folgende Befehl aus:
+1. Installieren Sie Aspose.Words für .NET: Verwenden Sie den NuGet-Paketmanager, um Aspose.Words zu installieren. Führen Sie den folgenden Befehl in der Paketmanager-Konsole aus:
 ```
 Install-Package Aspose.Words
 ```
@@ -30,9 +34,12 @@ Install-Package Aspose.Words
 [Aspose.Word für .NET-Dokumentation](https://docs.aspose.com/words/net/)
 [Aspose.Word für .NET-Referenzen](https://reference.aspose.com/words/net/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 
+{{< blocks/products/products-backtop-button >}}

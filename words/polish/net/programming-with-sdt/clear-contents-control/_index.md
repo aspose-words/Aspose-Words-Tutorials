@@ -1,14 +1,16 @@
 ---
-title: Wyczyść kontrolę zawartości
-linktitle: Wyczyść kontrolę zawartości
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak wyczyścić kontrolkę zawartości w dokumencie Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/programming-with-sdt/clear-contents-control/
+"description": "Dowiedz się, jak wyczyścić kontrolkę zawartości w dokumencie Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Wyczyść kontrolę zawartości"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wyczyść kontrolę zawartości"
+"url": "/pl/net/programming-with-sdt/clear-contents-control/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyczyść kontrolę zawartości
@@ -21,7 +23,7 @@ Jesteś gotowy, aby zanurzyć się w świecie Aspose.Words dla .NET? Dzisiaj prz
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1.  Aspose.Words dla .NET: Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Pobierz bibliotekę z [Tutaj](https://releases.aspose.com/words/net/).
 2. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 3. IDE: Zintegrowane środowisko programistyczne podobne do Visual Studio.
 4. Dokument: Dokument Word ze strukturalnymi znacznikami dokumentu.
@@ -44,7 +46,7 @@ Omówmy szczegółowo proces czyszczenia kontroli zawartości w poszczególnych 
 Najpierw skonfiguruj środowisko projektu.
 
 1. Otwórz program Visual Studio: Uruchom program Visual Studio lub preferowane środowisko IDE.
-2.  Utwórz nowy projekt: Przejdź do`File` >`New` >`Project`i wybierz aplikację konsolową C#.
+2. Utwórz nowy projekt: Przejdź do `File` > `New` > `Project`i wybierz aplikację konsolową C#.
 3. Zainstaluj Aspose.Words dla .NET: Użyj NuGet Package Manager, aby zainstalować Aspose.Words. Uruchom następujące polecenie w konsoli Package Manager:
 ```sh
 Install-Package Aspose.Words
@@ -58,7 +60,7 @@ Następnie załadujmy dokument Word zawierający strukturalne znaczniki dokument
    ```csharp
    string dataDir = "YOUR DOCUMENT DIRECTORY";
    ```
-2.  Załaduj dokument: Użyj`Document` klasa, aby załadować dokument Word.
+2. Załaduj dokument: Użyj `Document` klasa, aby załadować dokument Word.
    ```csharp
    Document doc = new Document(dataDir + "Structured document tags.docx");
    ```
@@ -76,7 +78,7 @@ Teraz uzyskajmy dostęp do strukturalnego znacznika dokumentu (SDT) w dokumencie
 
 Wyczyść zawartość znacznika dokumentu strukturalnego.
 
-1.  Wyczyść zawartość SDT: Użyj`Clear` metoda usuwania zawartości.
+1. Wyczyść zawartość SDT: Użyj `Clear` metoda usuwania zawartości.
    ```csharp
    sdt.Clear();
    ```
@@ -102,11 +104,11 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programową pra
 
 ### Czy mogę używać Aspose.Words za darmo?
 
- Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać[Tutaj](https://releases.aspose.com/).
+Aspose.Words oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words?
 
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Czym są strukturalne znaczniki dokumentów?
 
@@ -114,11 +116,16 @@ Ustrukturyzowane znaczniki dokumentu (SDT) to kontrolki zawartości w dokumentac
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Words?
 
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/words/net/).
+Dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Menggunakan Structured Document Tags (SDT) di Aspose.Words untuk Java
-linktitle: Menggunakan Tag Dokumen Terstruktur (SDT)
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara menggunakan Structured Document Tags (SDT) di Aspose.Words untuk Java dengan panduan lengkap ini. Buat, ubah, dan ikat SDT ke data XML kustom.
-weight: 19
-url: /id/java/document-manipulation/using-structured-document-tags/
+"description": "Pelajari cara menggunakan Structured Document Tags (SDT) di Aspose.Words untuk Java dengan panduan lengkap ini. Buat, ubah, dan ikat SDT ke data XML kustom."
+"linktitle": "Menggunakan Tag Dokumen Terstruktur (SDT)"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Menggunakan Structured Document Tags (SDT) di Aspose.Words untuk Java"
+"url": "/id/java/document-manipulation/using-structured-document-tags/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Structured Document Tags (SDT) di Aspose.Words untuk Java
@@ -233,7 +235,7 @@ Tag Dokumen Terstruktur (SDT) berfungsi untuk mengatur dan memformat konten dala
 
 ### Bagaimana cara memeriksa status Checkbox SDT saat ini?
 
- Anda dapat memeriksa status Checkbox SDT saat ini menggunakan`setChecked` metode, seperti yang ditunjukkan dalam artikel.
+Anda dapat memeriksa status Checkbox SDT saat ini menggunakan `setChecked` metode, seperti yang ditunjukkan dalam artikel.
 
 ### Dapatkah saya menerapkan gaya ke Kontrol Konten?
 
@@ -246,9 +248,14 @@ Ya, Anda dapat mengikat SDT ke data XML khusus, yang memungkinkan pembuatan kont
 ### Apa itu Bagian Berulang dalam SDT?
 
 Bagian Berulang dalam SDT memungkinkan Anda membuat tabel dengan data dinamis, di mana baris dapat diulang berdasarkan data XML yang dipetakan.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Kurangi Ukuran PDF dengan Mengubah Font Wmf Menjadi Ukuran Metafile
-linktitle: Kurangi Ukuran PDF dengan Mengubah Font Wmf Menjadi Ukuran Metafile
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Panduan langkah demi langkah untuk mengurangi ukuran pdf dengan skala font wmf ke ukuran metafile saat mengonversi ke PDF dengan Aspose.Words untuk .NET.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
+"description": "Panduan langkah demi langkah untuk mengurangi ukuran pdf dengan skala font wmf ke ukuran metafile saat mengonversi ke PDF dengan Aspose.Words untuk .NET."
+"linktitle": "Kurangi Ukuran PDF dengan Mengubah Font Wmf Menjadi Ukuran Metafile"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Kurangi Ukuran PDF dengan Mengubah Font Wmf Menjadi Ukuran Metafile"
+"url": "/id/net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kurangi Ukuran PDF dengan Mengubah Font Wmf Menjadi Ukuran Metafile
@@ -21,7 +23,7 @@ Saat bekerja dengan file PDF, terutama yang dibuat dari dokumen Word yang berisi
 
 Sebelum memulai langkah-langkahnya, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words. Jika belum, Anda dapat [unduh disini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Tutorial ini mengasumsikan Anda telah menyiapkan lingkungan pengembangan .NET (seperti Visual Studio) tempat Anda dapat menulis dan mengeksekusi kode C#.
 3. Pemahaman Dasar Pemrograman .NET: Kemampuan memahami konsep dasar pemrograman .NET dan sintaksis C# akan sangat membantu.
 4. Dokumen Word dengan Grafik WMF: Anda memerlukan dokumen Word yang berisi grafik WMF. Anda dapat menggunakan dokumen Anda sendiri atau membuatnya sendiri untuk pengujian.
@@ -37,7 +39,7 @@ using Aspose.Words.Saving;
 
 ## Langkah 1: Muat Dokumen Word
 
- Untuk memulai, muat dokumen Word yang berisi grafik WMF. Ini dilakukan dengan menggunakan`Document` kelas dari Aspose.Words.
+Untuk memulai, muat dokumen Word yang berisi grafik WMF. Ini dilakukan dengan menggunakan `Document` kelas dari Aspose.Words.
 
 ```csharp
 // Jalur ke direktori dokumen.
@@ -47,11 +49,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "WMF with text.docx");
 ```
 
- Di Sini,`dataDir` adalah tempat penampung untuk jalur direktori dokumen Anda. Kami membuat contoh`Document` kelas dengan meneruskan jalur ke berkas Word. Ini memuat dokumen ke dalam memori, siap untuk diproses lebih lanjut.
+Di Sini, `dataDir` adalah tempat penampung untuk jalur direktori dokumen Anda. Kami membuat contoh `Document` kelas dengan meneruskan jalur ke berkas Word. Ini memuat dokumen ke dalam memori, siap untuk diproses lebih lanjut.
 
 ## Langkah 2: Konfigurasikan Opsi Rendering Metafile
 
- Selanjutnya, Anda perlu mengonfigurasi opsi rendering metafile. Secara khusus, atur`ScaleWmfFontsToMetafileSize`properti untuk`false`Ini mengontrol apakah font WMF diskalakan agar sesuai dengan ukuran metafile.
+Selanjutnya, Anda perlu mengonfigurasi opsi rendering metafile. Secara khusus, atur `ScaleWmfFontsToMetafileSize` properti untuk `false`Ini mengontrol apakah font WMF diskalakan agar sesuai dengan ukuran metafile.
 
 ```csharp
 // Buat contoh baru MetafileRenderingOptions
@@ -61,7 +63,7 @@ MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions
 };
 ```
 
- Itu`MetafileRenderingOptions` kelas menyediakan opsi untuk bagaimana metafile (seperti WMF) ditampilkan. Dengan mengatur`ScaleWmfFontsToMetafileSize` ke`false`, Anda menginstruksikan Aspose.Words untuk tidak mengubah skala font sesuai dengan ukuran metafile, yang dapat membantu mengurangi ukuran PDF keseluruhan.
+Itu `MetafileRenderingOptions` kelas menyediakan opsi untuk bagaimana metafile (seperti WMF) ditampilkan. Dengan mengatur `ScaleWmfFontsToMetafileSize` ke `false`, Anda menginstruksikan Aspose.Words untuk tidak mengubah skala font sesuai dengan ukuran metafile, yang dapat membantu mengurangi ukuran PDF keseluruhan.
 
 ## Langkah 3: Atur Opsi Penyimpanan PDF
 
@@ -75,7 +77,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Itu`PdfSaveOptions` kelas memungkinkan Anda menentukan berbagai pengaturan untuk menyimpan dokumen sebagai PDF. Dengan menetapkan pengaturan yang dikonfigurasi sebelumnya`MetafileRenderingOptions` ke`MetafileRenderingOptions` milik`PdfSaveOptions`, Anda memastikan bahwa dokumen disimpan sesuai dengan pengaturan rendering metafile yang Anda inginkan.
+Itu `PdfSaveOptions` kelas memungkinkan Anda menentukan berbagai pengaturan untuk menyimpan dokumen sebagai PDF. Dengan menetapkan pengaturan yang dikonfigurasi sebelumnya `MetafileRenderingOptions` ke `MetafileRenderingOptions` milik `PdfSaveOptions`, Anda memastikan bahwa dokumen disimpan sesuai dengan pengaturan rendering metafile yang Anda inginkan.
 
 ## Langkah 4: Simpan Dokumen sebagai PDF
 
@@ -87,11 +89,11 @@ Terakhir, simpan dokumen Word sebagai PDF menggunakan opsi penyimpanan yang diko
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.ScaleWmfFontsToMetafileSize.pdf", saveOptions);
 ```
 
- Pada langkah ini,`Save` metode dari`Document` kelas digunakan untuk mengekspor dokumen ke file PDF. Jalur tempat PDF akan disimpan ditentukan, bersama dengan`PdfSaveOptions` yang menyertakan pengaturan rendering metafile.
+Pada langkah ini, `Save` metode dari `Document` kelas digunakan untuk mengekspor dokumen ke file PDF. Jalur tempat PDF akan disimpan ditentukan, bersama dengan `PdfSaveOptions` yang menyertakan pengaturan rendering metafile.
 
 ## Kesimpulan
 
-Dengan mengubah ukuran font WMF ke ukuran metafile, Anda dapat mengurangi ukuran file PDF yang dihasilkan dari dokumen Word secara signifikan. Teknik ini membantu mengoptimalkan penyimpanan dan distribusi dokumen tanpa mengurangi kualitas konten visual. Mengikuti langkah-langkah yang diuraikan di atas memastikan bahwa file PDF Anda lebih mudah dikelola dan ukurannya lebih efisien.
+Dengan menskalakan font WMF ke ukuran metafile, Anda dapat mengurangi ukuran file PDF yang dihasilkan dari dokumen Word secara signifikan. Teknik ini membantu mengoptimalkan penyimpanan dan distribusi dokumen tanpa mengurangi kualitas konten visual. Mengikuti langkah-langkah yang diuraikan di atas memastikan bahwa file PDF Anda lebih mudah dikelola dan ukurannya lebih efisien.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -113,10 +115,15 @@ Ya, teknik ini dapat diterapkan pada dokumen Word apa pun yang berisi grafik WMF
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Words?
 
- Anda dapat menjelajahi lebih lanjut tentang Aspose.Words di[Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/) Untuk unduhan, uji coba, dan dukungan, kunjungi[Halaman Unduh Aspose.Words](https://releases.aspose.com/words/net/), [Beli Aspose.Words](https://purchase.aspose.com/buy), [Uji Coba Gratis](https://releases.aspose.com/), [Lisensi Sementara](https://purchase.aspose.com/temporary-license/) , Dan[Mendukung](https://forum.aspose.com/c/words/8).
+Anda dapat menjelajahi lebih lanjut tentang Aspose.Words di [Dokumentasi Aspose.Words](https://reference.aspose.com/words/net/)Untuk unduhan, uji coba, dan dukungan, kunjungi [Halaman Unduh Aspose.Words](https://releases.aspose.com/words/net/)Bahasa Indonesia: [Beli Aspose.Words](https://purchase.aspose.com/buy)Bahasa Indonesia: [Uji Coba Gratis](https://releases.aspose.com/)Bahasa Indonesia: [Lisensi Sementara](https://purchase.aspose.com/temporary-license/), Dan [Mendukung](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

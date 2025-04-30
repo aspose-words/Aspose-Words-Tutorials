@@ -1,14 +1,16 @@
 ---
-title: Załaduj zaszyfrowany plik PDF
-linktitle: Załaduj zaszyfrowany plik PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ładować zaszyfrowane pliki PDF za pomocą Aspose.Words dla .NET dzięki naszemu samouczkowi krok po kroku. Opanuj szyfrowanie i odszyfrowywanie plików PDF w mgnieniu oka.
-weight: 10
-url: /pl/net/programming-with-pdfloadoptions/load-encrypted-pdf/
+"description": "Dowiedz się, jak ładować zaszyfrowane pliki PDF za pomocą Aspose.Words dla .NET dzięki naszemu samouczkowi krok po kroku. Opanuj szyfrowanie i odszyfrowywanie plików PDF w mgnieniu oka."
+"linktitle": "Załaduj zaszyfrowany plik PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Załaduj zaszyfrowany plik PDF"
+"url": "/pl/net/programming-with-pdfloadoptions/load-encrypted-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Załaduj zaszyfrowany plik PDF
@@ -21,8 +23,8 @@ Hej, entuzjaści technologii! Czy kiedykolwiek uwikłaliście się w sieć pracy
 
 Zanim przejdziemy do szczegółów, jest kilka rzeczy, których będziesz potrzebować:
 
-1.  Aspose.Words dla .NET: Jeśli jeszcze go nie masz, pobierz go[Tutaj](https://releases.aspose.com/words/net/).
-2.  Ważna licencja: Aby uzyskać dostęp do wszystkich funkcji bez ograniczeń, rozważ zakup licencji[Tutaj](https://purchase.aspose.com/buy) Alternatywnie możesz użyć[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Words dla .NET: Jeśli jeszcze go nie masz, pobierz go [Tutaj](https://releases.aspose.com/words/net/).
+2. Ważna licencja: Aby uzyskać dostęp do wszystkich funkcji bez ograniczeń, rozważ zakup licencji [Tutaj](https://purchase.aspose.com/buy)Alternatywnie możesz użyć [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 3. Środowisko programistyczne: dowolne środowisko IDE zgodne z platformą .NET, np. Visual Studio.
 4. Podstawowa znajomość języka C#: Znajomość języka C# i platformy .NET będzie dodatkowym atutem.
 
@@ -47,7 +49,7 @@ Każdy dobry projekt zaczyna się od solidnego fundamentu. Tutaj ustawimy ście�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym przechowywane są Twoje pliki PDF. To będzie obszar roboczy dla Twoich plików PDF.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym przechowywane są Twoje pliki PDF. To będzie obszar roboczy dla Twoich plików PDF.
 
 ## Krok 2: Ładowanie dokumentu PDF
 
@@ -57,11 +59,11 @@ Następnie musimy załadować dokument PDF, który chcemy zaszyfrować.
 Document doc = new Document(dataDir + "Pdf Document.pdf");
 ```
 
- Ten fragment kodu inicjuje nowy`Document` obiekt z określonym przez Ciebie plikiem PDF. Łatwe, prawda?
+Ten fragment kodu inicjuje nowy `Document` obiekt z określonym przez Ciebie plikiem PDF. Łatwe, prawda?
 
 ## Krok 3: Konfigurowanie opcji zapisywania pliku PDF z szyfrowaniem
 
- Teraz dodajmy trochę zabezpieczeń do naszego pliku PDF. Skonfigurujemy`PdfSaveOptions` aby uwzględnić szczegóły szyfrowania.
+Teraz dodajmy trochę zabezpieczeń do naszego pliku PDF. Skonfigurujemy `PdfSaveOptions` aby uwzględnić szczegóły szyfrowania.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions
@@ -70,11 +72,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Tutaj tworzymy nowy`PdfSaveOptions` obiekt i ustaw jego`EncryptionDetails` . Hasło`"Aspose"` służy do szyfrowania pliku PDF.
+Tutaj tworzymy nowy `PdfSaveOptions` obiekt i ustaw jego `EncryptionDetails`. Hasło `"Aspose"` służy do szyfrowania pliku PDF.
 
 ## Krok 4: Zapisywanie zaszyfrowanego pliku PDF
 
-Po skonfigurowaniu szyfrowania czas zapisać zaszyfrowany plik PDF.
+Po skonfigurowaniu szyfrowania nadszedł czas na zapisanie zaszyfrowanego pliku PDF.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfLoadOptions.LoadEncryptedPdf.pdf", saveOptions);
@@ -84,28 +86,28 @@ Ten kod zapisuje Twój plik PDF z szyfrowaniem do określonej ścieżki. Twój p
 
 ## Krok 5: Ładowanie zaszyfrowanego pliku PDF
 
- Na koniec załadujmy zaszyfrowany plik PDF. Będziemy musieli podać hasło za pomocą`PdfLoadOptions`.
+Na koniec załadujmy zaszyfrowany plik PDF. Będziemy musieli podać hasło za pomocą `PdfLoadOptions`.
 
 ```csharp
 PdfLoadOptions loadOptions = new PdfLoadOptions { Password = "Aspose", LoadFormat = LoadFormat.Pdf };
 doc = new Document(dataDir + "WorkingWithPdfLoadOptions.LoadEncryptedPdf.pdf", loadOptions);
 ```
 
- Tutaj tworzymy nowy`PdfLoadOptions` obiekt z hasłem i załaduj zaszyfrowany dokument PDF. Voila! Twój zaszyfrowany dokument PDF jest teraz załadowany i gotowy do dalszego przetwarzania.
+Tutaj tworzymy nowy `PdfLoadOptions` obiekt z hasłem i załaduj zaszyfrowany dokument PDF. Voila! Twój zaszyfrowany dokument PDF jest teraz załadowany i gotowy do dalszego przetwarzania.
 
 ## Wniosek
 
 I masz to! Ładowanie zaszyfrowanego pliku PDF za pomocą Aspose.Words dla .NET nie jest po prostu łatwe — to po prostu świetna zabawa. Postępując zgodnie z tymi krokami, odblokowałeś możliwość obsługi szyfrowania PDF jak profesjonalista. Pamiętaj, kluczem do opanowania każdego narzędzia jest praktyka, więc nie wahaj się eksperymentować i odkrywać.
 
- Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy,[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) I[forum wsparcia](https://forum.aspose.com/c/words/8) są dobrym miejscem na początek.
+Jeśli masz jakiekolwiek pytania lub potrzebujesz dalszej pomocy, [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) I [forum wsparcia](https://forum.aspose.com/c/words/8) są dobrym miejscem na początek.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć innego hasła do szyfrowania?
- Tak, po prostu wymień`"Aspose"` z żądanym hasłem w`PdfEncryptionDetails` obiekt.
+Tak, po prostu wymień `"Aspose"` z żądanym hasłem w `PdfEncryptionDetails` obiekt.
 
 ### Czy można usunąć szyfrowanie z pliku PDF?
-Tak, zapisując plik PDF bez ustawiania`EncryptionDetails`, możesz utworzyć niezaszyfrowaną kopię.
+Tak, zapisując plik PDF bez ustawiania `EncryptionDetails`, możesz utworzyć niezaszyfrowaną kopię.
 
 ### Czy mogę używać Aspose.Words dla .NET z innymi językami .NET?
 Oczywiście! Aspose.Words dla .NET jest kompatybilny z każdym językiem .NET, w tym VB.NET.
@@ -114,11 +116,16 @@ Oczywiście! Aspose.Words dla .NET jest kompatybilny z każdym językiem .NET, w
 Niestety, bez prawidłowego hasła, PDF nie może zostać odszyfrowany. Zawsze przechowuj bezpieczny zapis swoich haseł.
 
 ### Jak mogę uzyskać bezpłatną wersję próbną Aspose.Words dla .NET?
- Możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

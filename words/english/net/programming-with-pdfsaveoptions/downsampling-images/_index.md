@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/downsampling-images/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reduce PDF Document Size with Downsampling Images
@@ -95,9 +98,13 @@ The ideal resolution depends on your specific needs. Commonly, 72 DPI is used fo
 ### Is Aspose.Words for .NET free?
 Aspose.Words for .NET is a commercial product, but you can download a free trial [here](https://releases.aspose.com/) or apply for a [temporary license](https://purchase.aspose.com/temporary-license/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

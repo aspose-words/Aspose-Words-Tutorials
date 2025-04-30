@@ -1,14 +1,16 @@
 ---
-title: लाइसेंस लागू करें
-linktitle: लाइसेंस लागू करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: अपने .NET प्रोजेक्ट में Aspose.Words लाइसेंस लागू करने के लिए चरण-दर-चरण निर्देश प्राप्त करें। Aspose.Words लाइब्रेरी की पूर्ण कार्यक्षमता सक्षम करने के लिए चरणों का पालन करें।
-weight: 10
-url: /hi/net/apply-license/
+"description": "अपने .NET प्रोजेक्ट में Aspose.Words लाइसेंस लागू करने के लिए चरण-दर-चरण निर्देश प्राप्त करें। Aspose.Words लाइब्रेरी की पूर्ण कार्यक्षमता सक्षम करने के लिए चरणों का पालन करें।"
+"linktitle": "लाइसेंस लागू करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "लाइसेंस लागू करें"
+"url": "/hi/net/apply-license/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # लाइसेंस लागू करें
@@ -19,12 +21,17 @@ url: /hi/net/apply-license/
  ## ट्यूटोरियल
 | शीर्षक | विवरण |
 | --- | --- |
-| [फ़ाइल से लाइसेंस लागू करें](./apply-license-from-file/) | हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में किसी फ़ाइल से लाइसेंस लागू करना सीखें। अपनी लाइब्रेरी की पूरी क्षमता को आसानी से अनलॉक करें। |
+| [फ़ाइल से लाइसेंस लागू करें](./apply-license-from-file/) हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में किसी फ़ाइल से लाइसेंस लागू करना सीखें। अपनी लाइब्रेरी की पूरी क्षमता को आसानी से अनलॉक करें। |
 | [स्ट्रीम से लाइसेंस लागू करें](./apply-license-from-stream/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words में स्ट्रीम से लाइसेंस लागू करना सीखें। Aspose.Words की पूरी क्षमता को अनलॉक करें। |
-| [मीटर्ड लाइसेंस लागू करें](./apply-metered-license/) | हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में मीटर्ड लाइसेंस लागू करने का तरीका जानें। लचीला, लागत प्रभावी लाइसेंसिंग सरल बना दिया गया। |
+| [मीटर्ड लाइसेंस लागू करें](./apply-metered-license/) | हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words में मीटर्ड लाइसेंस लागू करने का तरीका जानें। लचीला, लागत प्रभावी लाइसेंसिंग को सरल बनाया गया। |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

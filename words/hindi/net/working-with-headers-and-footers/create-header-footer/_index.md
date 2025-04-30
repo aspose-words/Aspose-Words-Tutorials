@@ -1,14 +1,16 @@
 ---
-title: हेडर फ़ुटर बनाएँ
-linktitle: हेडर फ़ुटर बनाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर जोड़ने और उन्हें कस्टमाइज़ करने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका पेशेवर दस्तावेज़ स्वरूपण सुनिश्चित करती है।
-weight: 10
-url: /hi/net/working-with-headers-and-footers/create-header-footer/
+"description": ".NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में हेडर और फ़ुटर जोड़ने और उन्हें कस्टमाइज़ करने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका पेशेवर दस्तावेज़ स्वरूपण सुनिश्चित करती है।"
+"linktitle": "हेडर फ़ुटर बनाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "हेडर फ़ुटर बनाएँ"
+"url": "/hi/net/working-with-headers-and-footers/create-header-footer/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # हेडर फ़ुटर बनाएँ
@@ -21,7 +23,7 @@ url: /hi/net/working-with-headers-and-footers/create-header-footer/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
--  Aspose.Words for .NET: डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/words/net/).
 - विकास पर्यावरण: जैसे कि विजुअल स्टूडियो, अपना कोड लिखने और चलाने के लिए।
 - C# का मूलभूत ज्ञान: C# और .NET फ्रेमवर्क की समझ।
 - नमूना दस्तावेज़: शीर्षलेख और पादलेख लागू करने के लिए एक नमूना दस्तावेज़, या ट्यूटोरियल में दिखाए अनुसार एक नया दस्तावेज़ बनाएँ।
@@ -47,7 +49,7 @@ string dataDir = "YOUR_DIRECTORY_OF_DOCUMENTS";
 
 ## चरण 2: नया दस्तावेज़ बनाएँ
 
- एक नया दस्तावेज़ बनाएँ और`DocumentBuilder`सामग्री को जोड़ने में सुविधा प्रदान करना।
+एक नया दस्तावेज़ बनाएँ और `DocumentBuilder` सामग्री को जोड़ने में सुविधा प्रदान करना।
 
 ```csharp
 Document doc = new Document();
@@ -152,7 +154,7 @@ doc.Save(dataDir + "WorkingWithHeadersAndFooters.CreateHeaderFooter.docx");
 
 ## चरण 8: पिछले अनुभाग से हेडर और फ़ुटर कॉपी करें
 
-यदि आप पिछले अनुभाग से हेडर और फ़ुटर का पुनः उपयोग करना चाहते हैं, तो उन्हें कॉपी करें और आवश्यक संशोधन लागू करें।
+यदि आप पिछले अनुभाग से शीर्षलेखों और पादलेखों का पुनः उपयोग करना चाहते हैं, तो उन्हें कॉपी करें और आवश्यक संशोधन लागू करें।
 
 ```csharp
 private static void CopyHeadersFootersFromPreviousSection(Section section)
@@ -181,23 +183,28 @@ Aspose.Words for .NET एक लाइब्रेरी है जो डेव
 
 ### क्या मैं हेडर या फ़ुटर में छवियाँ जोड़ सकता हूँ?
 
- हां, आप आसानी से हेडर या फ़ुटर में चित्र जोड़ सकते हैं`DocumentBuilder.InsertImage` तरीका।
+हां, आप आसानी से हेडर या फ़ुटर में चित्र जोड़ सकते हैं `DocumentBuilder.InsertImage` तरीका।
 
 ### मैं पहले पृष्ठ के लिए अलग-अलग शीर्षलेख और पादलेख कैसे सेट करूं?
 
- आप पहले पृष्ठ के लिए अलग-अलग शीर्षलेख और पादलेख सेट कर सकते हैं`DifferentFirstPageHeaderFooter` की संपत्ति`PageSetup` कक्षा।
+आप पहले पृष्ठ के लिए अलग-अलग शीर्षलेख और पादलेख सेट कर सकते हैं `DifferentFirstPageHeaderFooter` की संपत्ति `PageSetup` कक्षा।
 
 ### मैं Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
 
- आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं[Aspose.Words API दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
+आप यहाँ पर विस्तृत दस्तावेज पा सकते हैं [Aspose.Words API दस्तावेज़न पृष्ठ](https://reference.aspose.com/words/net/).
 
 ### क्या Aspose.Words के लिए समर्थन उपलब्ध है?
 
- हाँ, Aspose उनके माध्यम से समर्थन प्रदान करता है[सहयता मंच](https://forum.aspose.com/c/words/8).
+हाँ, Aspose उनके माध्यम से समर्थन प्रदान करता है [सहयता मंच](https://forum.aspose.com/c/words/8).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

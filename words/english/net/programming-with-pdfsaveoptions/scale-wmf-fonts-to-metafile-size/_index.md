@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/scale-wmf-fonts-to-metafile-size/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reduce PDF Size with Scale Wmf Fonts To Metafile Size
@@ -115,9 +118,13 @@ Yes, this technique can be applied to any Word document that contains WMF graphi
 
 You can explore more about Aspose.Words in the [Aspose.Words Documentation](https://reference.aspose.com/words/net/). For downloads, trials, and support, visit the [Aspose.Words Download Page](https://releases.aspose.com/words/net/), [Buy Aspose.Words](https://purchase.aspose.com/buy), [Free Trial](https://releases.aspose.com/), [Temporary License](https://purchase.aspose.com/temporary-license/), and [Support](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

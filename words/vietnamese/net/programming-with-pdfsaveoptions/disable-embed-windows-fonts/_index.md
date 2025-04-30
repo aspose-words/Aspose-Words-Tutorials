@@ -1,14 +1,16 @@
 ---
-title: Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng
-linktitle: Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng
-second_title: API xử lý tài liệu Aspose.Words
-description: Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa tài liệu của bạn để lưu trữ và chia sẻ hiệu quả.
-weight: 10
-url: /vi/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/
+"description": "Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tối ưu hóa tài liệu của bạn để lưu trữ và chia sẻ hiệu quả."
+"linktitle": "Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng"
+"url": "/vi/net/programming-with-pdfsaveoptions/disable-embed-windows-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giảm kích thước PDF bằng cách vô hiệu hóa phông chữ nhúng
@@ -21,7 +23,7 @@ Giảm kích thước tệp PDF có thể rất quan trọng đối với việc
 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
--  Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt nó từ[Liên kết tải xuống](https://releases.aspose.com/words/net/).
+- Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt nó từ [Liên kết tải xuống](https://releases.aspose.com/words/net/).
 - Môi trường phát triển .NET: Visual Studio là một lựa chọn phổ biến.
 - Một tài liệu Word mẫu: Chuẩn bị tệp DOCX mà bạn muốn chuyển đổi sang PDF.
 
@@ -46,7 +48,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Đây,`dataDir` là một trình giữ chỗ cho thư mục nơi tài liệu của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
+Đây, `dataDir` là một trình giữ chỗ cho thư mục nơi tài liệu của bạn được lưu trữ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế.
 
 ## Bước 2: Cấu hình tùy chọn lưu PDF
 
@@ -60,7 +62,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- Bằng cách thiết lập`FontEmbeddingMode` ĐẾN`EmbedNone`, chúng tôi hướng dẫn Aspose.Words không đưa những phông chữ này vào PDF, làm giảm kích thước tệp.
+Bằng cách thiết lập `FontEmbeddingMode` ĐẾN `EmbedNone`, chúng tôi hướng dẫn Aspose.Words không đưa những phông chữ này vào PDF, làm giảm kích thước tệp.
 
 ## Bước 3: Lưu tài liệu dưới dạng PDF
 
@@ -70,7 +72,7 @@ Cuối cùng, chúng tôi lưu tài liệu dưới dạng PDF bằng các tùy c
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.DisableEmbedWindowsFonts.pdf", saveOptions);
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế của bạn một lần nữa. Tệp PDF đầu ra bây giờ sẽ được lưu trong thư mục đã chỉ định mà không có phông chữ chuẩn nhúng.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thư mục thực tế của bạn một lần nữa. Tệp PDF đầu ra bây giờ sẽ được lưu trong thư mục đã chỉ định mà không có phông chữ chuẩn nhúng.
 
 ## Phần kết luận
 
@@ -88,14 +90,19 @@ Có, miễn là phông chữ là phông chữ chuẩn và có sẵn trên hệ t
 Có, Aspose.Words for .NET cho phép bạn tùy chỉnh phông chữ được nhúng, mang lại sự linh hoạt trong cách bạn giảm kích thước tệp.
 
 ### Tôi có cần Aspose.Words cho .NET để tắt phông chữ nhúng trong tệp PDF không?
-Có, Aspose.Words for .NET cung cấp chức năng cần thiết để cấu hình tùy chọn nhúng phông chữ trong PDF.
+Có, Aspose.Words for .NET cung cấp chức năng cần thiết để cấu hình tùy chọn nhúng phông chữ trong tệp PDF.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ giải quyết mọi vấn đề bạn gặp phải.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8) để được hỗ trợ giải quyết mọi vấn đề bạn gặp phải.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

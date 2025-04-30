@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มข้อความที่คั่นหน้าในเอกสาร Word
-linktitle: การเพิ่มข้อความที่คั่นหน้าในเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีการผนวกข้อความที่คั่นหน้าไว้ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา
-weight: 10
-url: /th/net/programming-with-bookmarks/append-bookmarked-text/
+"description": "เรียนรู้วิธีการผนวกข้อความที่คั่นหน้าไว้ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา"
+"linktitle": "การเพิ่มข้อความที่คั่นหน้าในเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การเพิ่มข้อความที่คั่นหน้าในเอกสาร Word"
+"url": "/th/net/programming-with-bookmarks/append-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มข้อความที่คั่นหน้าในเอกสาร Word
@@ -21,7 +23,7 @@ url: /th/net/programming-with-bookmarks/append-bookmarked-text/
 
 ก่อนที่เราจะเริ่ม เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
--  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว หากยังไม่ได้ติดตั้ง คุณสามารถทำได้ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET ใดๆ เช่น Visual Studio
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจแนวคิดการเขียนโปรแกรม C# ขั้นพื้นฐานจะเป็นประโยชน์
 - เอกสาร Word ที่มีบุ๊กมาร์ก: เอกสาร Word ที่มีการตั้งค่าบุ๊กมาร์กไว้ ซึ่งเราจะใช้ในการผนวกข้อความจากนั้น
@@ -121,16 +123,21 @@ dstDoc.Save("appended_document.docx");
 ตัวอย่างปัจจุบันถือว่ามีผู้ปกครองคนเดียวกัน สำหรับผู้ปกครองที่แตกต่างกัน จำเป็นต้องมีการจัดการที่ซับซ้อนกว่านี้
 
 ### ฉันสามารถรักษารูปแบบดั้งเดิมของข้อความผนวกไว้ได้หรือไม่
- แน่นอน!`ImportFormatMode.KeepSourceFormatting` ช่วยให้แน่ใจว่ารูปแบบดั้งเดิมนั้นได้รับการรักษาไว้
+แน่นอน! `ImportFormatMode.KeepSourceFormatting` ช่วยให้แน่ใจว่ารูปแบบดั้งเดิมนั้นได้รับการรักษาไว้
 
 ### สามารถผนวกข้อความในตำแหน่งที่ระบุในเอกสารปลายทางได้หรือไม่
 ใช่ คุณสามารถผนวกข้อความในตำแหน่งใดๆ ได้โดยการนำทางไปยังโหนดที่ต้องการในเอกสารปลายทาง
 
 ### จะเกิดอะไรขึ้นหากฉันต้องการผนวกข้อความจากบุ๊กมาร์กไปยังส่วนใหม่?
 คุณสามารถสร้างส่วนใหม่ในเอกสารปลายทางและผนวกข้อความไว้ที่นั่นได้
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

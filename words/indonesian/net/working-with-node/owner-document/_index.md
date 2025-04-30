@@ -1,14 +1,16 @@
 ---
-title: Dokumen Pemilik
-linktitle: Dokumen Pemilik
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara bekerja dengan "Dokumen Pemilik" di Aspose.Words untuk .NET. Panduan langkah demi langkah ini mencakup pembuatan dan manipulasi node dalam dokumen.
-weight: 10
-url: /id/net/working-with-node/owner-document/
+"description": "Pelajari cara bekerja dengan \"Dokumen Pemilik\" di Aspose.Words untuk .NET. Panduan langkah demi langkah ini mencakup pembuatan dan manipulasi node dalam dokumen."
+"linktitle": "Dokumen Pemilik"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dokumen Pemilik"
+"url": "/id/net/working-with-node/owner-document/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumen Pemilik
@@ -21,7 +23,7 @@ Pernahkah Anda merasa bingung, mencoba memahami cara bekerja dengan dokumen di A
 
 Sebelum kita mulai, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+1. Pustaka Aspose.Words untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: IDE seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 3. Pengetahuan Dasar C#: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
 
@@ -62,7 +64,7 @@ Pada tahap ini, simpul paragraf belum ditambahkan ke dokumen. Mari kita periksa 
 Console.WriteLine("Paragraph has no parent node: " + (para.ParentNode == null));
 ```
 
- Ini akan menampilkan`true` karena paragraf tersebut belum diberi induk.
+Ini akan menampilkan `true` karena paragraf tersebut belum diberi induk.
 
 ## Langkah 4: Verifikasi Kepemilikan Dokumen
 
@@ -98,7 +100,7 @@ Terakhir, mari periksa apakah simpul paragraf sekarang memiliki simpul induk.
 Console.WriteLine("Paragraph has a parent node: " + (para.ParentNode != null));
 ```
 
- Ini akan menampilkan`true`, mengonfirmasi bahwa paragraf telah berhasil ditambahkan ke dokumen.
+Ini akan menampilkan `true`, mengonfirmasi bahwa paragraf telah berhasil ditambahkan ke dokumen.
 
 ## Kesimpulan
 
@@ -113,16 +115,21 @@ Nah, itu dia! Anda baru saja mempelajari cara bekerja dengan "Dokumen Pemilik" d
 Tidak, setiap node di Aspose.Words for .NET harus menjadi bagian dari sebuah dokumen. Ini memastikan bahwa node dapat mengakses properti dan data khusus dokumen.
 
 ### Bagaimana cara memeriksa apakah suatu node memiliki induk?  
-Anda dapat memeriksa apakah sebuah node memiliki induk dengan mengaksesnya`ParentNode` properti. Jika kembali`null`, simpul tersebut tidak memiliki induk.
+Anda dapat memeriksa apakah sebuah node memiliki induk dengan mengaksesnya `ParentNode` properti. Jika kembali `null`, simpul tersebut tidak memiliki induk.
 
 ### Bisakah saya mengubah properti node tanpa menambahkannya ke dokumen?  
-Ya, selama simpul tersebut merupakan bagian dari suatu dokumen, Anda dapat mengubah propertinya meskipun simpul tersebut belum ditambahkan ke dokumen.
+Ya, selama simpul tersebut milik suatu dokumen, Anda dapat mengubah propertinya meskipun simpul tersebut belum ditambahkan ke dokumen.
 
 ### Apa yang terjadi jika saya menambahkan simpul ke dokumen lain?  
 Suatu simpul hanya dapat dimiliki oleh satu dokumen. Jika Anda mencoba menambahkannya ke dokumen lain, Anda perlu membuat simpul baru di dokumen baru tersebut.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zaszyfruj Docx hasłem
-linktitle: Zaszyfruj Docx hasłem
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Zabezpiecz swoje dokumenty Word, szyfrując je hasłem za pomocą Aspose.Words for .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby chronić swoje poufne informacje.
-weight: 10
-url: /pl/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/
+"description": "Zabezpiecz swoje dokumenty Word, szyfrując je hasłem za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby chronić swoje poufne informacje."
+"linktitle": "Zaszyfruj Docx hasłem"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zaszyfruj Docx hasłem"
+"url": "/pl/net/programming-with-ooxmlsaveoptions/encrypt-docx-with-password/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaszyfruj Docx hasłem
@@ -21,7 +23,7 @@ dzisiejszej erze cyfrowej zabezpieczanie poufnych informacji jest ważniejsze ni
 
 Zanim przejdziemy do szczegółów, upewnij się, że masz następujące rzeczy:
 
--  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET ze strony[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Words dla .NET ze strony [Tutaj](https://releases.aspose.com/words/net/).
 - .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework.
 - Środowisko programistyczne: IDE, takie jak Visual Studio, ułatwia kodowanie.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci zrozumieć i zaimplementować kod.
@@ -39,17 +41,17 @@ Podzielmy proces szyfrowania pliku DOCX na łatwe do opanowania kroki. Postępuj
 
 ## Krok 1: Załaduj dokument
 
- Pierwszym krokiem jest załadowanie dokumentu, który chcesz zaszyfrować. Użyjemy`Document` klasa z Aspose.Words, aby to osiągnąć.
+Pierwszym krokiem jest załadowanie dokumentu, który chcesz zaszyfrować. Użyjemy `Document` klasa z Aspose.Words, aby to osiągnąć.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";  
 
 // Załaduj dokument
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
- W tym kroku określamy ścieżkę do katalogu, w którym znajduje się Twój dokument.`Document` klasa jest następnie używana do załadowania pliku DOCX z tego katalogu. Upewnij się, że zastąpiłeś`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
+W tym kroku określamy ścieżkę do katalogu, w którym znajduje się Twój dokument. `Document` klasa jest następnie używana do załadowania pliku DOCX z tego katalogu. Upewnij się, że zastąpiłeś `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów.
 
 ## Krok 2: Skonfiguruj opcje zapisywania
 
@@ -60,7 +62,7 @@ Następnie musimy ustawić opcje zapisywania dokumentu. Tutaj określimy hasło 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "password" };
 ```
 
- Ten`OoxmlSaveOptions`Klasa pozwala nam określić różne opcje zapisywania plików DOCX. Tutaj ustawiamy`Password`nieruchomość do`"password"` . Możesz zastąpić`"password"` z dowolnym hasłem według własnego wyboru. To hasło będzie wymagane do otwarcia zaszyfrowanego pliku DOCX.
+Ten `OoxmlSaveOptions` Klasa pozwala nam określić różne opcje zapisywania plików DOCX. Tutaj ustawiamy `Password` nieruchomość do `"password"`. Możesz zastąpić `"password"` z dowolnym hasłem według własnego wyboru. To hasło będzie wymagane do otwarcia zaszyfrowanego pliku DOCX.
 
 ## Krok 3: Zapisz zaszyfrowany dokument
 
@@ -71,7 +73,7 @@ Na koniec zapiszemy dokument, korzystając z opcji zapisu skonfigurowanych w pop
 doc.Save(dataDir + "WorkingWithOoxmlSaveOptions.EncryptDocxWithPassword.docx", saveOptions);
 ```
 
- Ten`Save` metoda`Document` Klasa jest używana do zapisywania dokumentu. Podajemy ścieżkę i nazwę pliku dla zaszyfrowanego dokumentu, wraz z`saveOptions` skonfigurowaliśmy wcześniej. Dokument jest teraz zapisany jako zaszyfrowany plik DOCX.
+Ten `Save` metoda `Document` Klasa jest używana do zapisywania dokumentu. Podajemy ścieżkę i nazwę pliku dla zaszyfrowanego dokumentu, wraz z `saveOptions` skonfigurowaliśmy wcześniej. Dokument jest teraz zapisany jako zaszyfrowany plik DOCX.
 
 ## Wniosek
 
@@ -81,7 +83,7 @@ Gratulacje! Udało Ci się zaszyfrować plik DOCX za pomocą Aspose.Words dla .N
 
 ### Czy mogę użyć innego algorytmu szyfrowania z Aspose.Words dla .NET?
 
-Tak, Aspose.Words dla .NET obsługuje różne algorytmy szyfrowania. Możesz dostosować ustawienia szyfrowania za pomocą`OoxmlSaveOptions` klasa.
+Tak, Aspose.Words dla .NET obsługuje różne algorytmy szyfrowania. Możesz dostosować ustawienia szyfrowania za pomocą `OoxmlSaveOptions` klasa.
 
 ### Czy można usunąć szyfrowanie z pliku DOCX?
 
@@ -99,9 +101,14 @@ Jeśli zapomnisz hasła, nie ma możliwości odzyskania zaszyfrowanego dokumentu
 
 Tak, możesz napisać skrypt, który przejdzie przez wiele dokumentów i zaszyfruje każdy z nich, stosując te same kroki, które opisano w tym samouczku.
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

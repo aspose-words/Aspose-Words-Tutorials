@@ -1,34 +1,36 @@
 ---
-title: Detekce číslování s mezerami
-linktitle: Detekce číslování s mezerami
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Zjistěte, jak používat Aspose.Words for .NET k detekci číslování s mezerami v dokumentech s prostým textem a zajistit, aby byly vaše seznamy správně rozpoznány.
-weight: 10
-url: /cs/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "Zjistěte, jak pomocí Aspose.Words pro .NET detekovat číslování s mezerami v dokumentech v prostém textu a zajistit, aby vaše seznamy byly správně rozpoznány."
+"linktitle": "Detekce číslování s bílými znaky"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Detekce číslování s bílými znaky"
+"url": "/cs/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Detekce číslování s mezerami
+# Detekce číslování s bílými znaky
 
 ## Zavedení
 
-Aspose.Words pro .NET nadšence! Dnes se ponoříme do fascinující funkce, díky které je manipulace se seznamy v dokumentech s prostým textem hračkou. Už jste se někdy zabývali textovými soubory, kde by některé řádky měly být seznamy, ale po načtení do dokumentu aplikace Word prostě nevypadají úplně správně? No, máme v rukávu úhledný trik: detekce číslování pomocí mezer. Tento tutoriál vás provede tím, jak používat`DetectNumberingWithWhitespaces` možnost v Aspose.Words pro .NET, abyste zajistili, že vaše seznamy budou správně rozpoznány, i když je mezi čísly a textem mezera.
+Aspose.Words pro nadšence .NET! Dnes se ponoříme do fascinující funkce, která může usnadnit práci se seznamy v dokumentech v prostém textu. Už jste někdy pracovali s textovými soubory, kde některé řádky měly být seznamy, ale po načtení do dokumentu Wordu prostě nevypadaly správně? No, máme v rukávu šikovný trik: detekci číslování s mezerami. Tento tutoriál vás provede používáním... `DetectNumberingWithWhitespaces` možnost v Aspose.Words pro .NET, která zajistí správné rozpoznání seznamů, a to i v případě, že mezi čísly a textem jsou mezery.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
--  Aspose.Words for .NET: Můžete si jej stáhnout z[Aspose Releases](https://releases.aspose.com/words/net/) strana.
+- Aspose.Words pro .NET: Můžete si jej stáhnout z [Aspose Releases](https://releases.aspose.com/words/net/) strana.
 - Vývojové prostředí: Visual Studio nebo jakékoli jiné C# IDE.
-- .NET Framework nainstalovaný na vašem počítači.
-- Základní znalost C#: Pochopení základů vám pomůže postupovat podle příkladů.
+- Na vašem počítači nainstalovaný .NET Framework.
+- Základní znalost C#: Pochopení základů vám pomůže sledovat příklady.
 
 ## Importovat jmenné prostory
 
-Než skočíte do kódu, ujistěte se, že máte do projektu importované potřebné jmenné prostory. Zde je stručný úryvek, který vám pomůže začít:
+Než se pustíte do kódu, ujistěte se, že máte v projektu importovány potřebné jmenné prostory. Zde je krátký úryvek pro začátek:
 
 ```csharp
 using System;
@@ -36,20 +38,20 @@ using Aspose.Words;
 using Aspose.Words.Loading;
 ```
 
-Pojďme si tento proces rozdělit na jednoduché, zvládnutelné kroky. Každý krok vás provede potřebným kódem a vysvětlí, co se děje.
+Rozdělme si proces na jednoduché a snadno zvládnutelné kroky. Každý krok vás provede potřebným kódem a vysvětlí, co se děje.
 
-## Krok 1: Definujte svůj adresář dokumentů
+## Krok 1: Definujte adresář dokumentů
 
-Nejprve nastavíme cestu k adresáři s dokumenty. Zde budou uloženy vaše vstupní a výstupní soubory.
+Nejdříve si nastavme cestu k adresáři s dokumenty. Zde budou uloženy vaše vstupní a výstupní soubory.
 
 ```csharp
-// Cesta k vašemu adresáři dokumentů
+// Cesta k adresáři s dokumenty
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Vytvořte dokument ve formátu prostého textu
+## Krok 2: Vytvořte dokument v prostém textu
 
-Dále vytvoříme dokument ve formátu prostého textu jako řetězec. Tento dokument bude obsahovat části, které lze interpretovat jako seznamy.
+Dále vytvoříme dokument v prostém textu jako řetězec. Tento dokument bude obsahovat části, které lze interpretovat jako seznamy.
 
 ```csharp
 const string textDoc = "Full stop delimiters:\n" +
@@ -70,17 +72,17 @@ const string textDoc = "Full stop delimiters:\n" +
                        "3 Fourth list item 3";
 ```
 
-## Krok 3: Nakonfigurujte LoadOptions
+## Krok 3: Konfigurace LoadOptions
 
- Abychom zjistili číslování s mezerami, musíme nastavit`DetectNumberingWithWhitespaces` možnost`true` v a`TxtLoadOptions` objekt.
+Pro detekci číslování s bílými znaky musíme nastavit `DetectNumberingWithWhitespaces` možnost `true` v `TxtLoadOptions` objekt.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
 ```
 
-## Krok 4: Vložte dokument
+## Krok 4: Vložení dokumentu
 
- Nyní načteme dokument pomocí`TxtLoadOptions` jako parametr. Tím je zajištěno, že čtvrtý seznam (s mezerami) bude detekován správně.
+Nyní načtěme dokument pomocí `TxtLoadOptions` jako parametr. Tím je zajištěno, že čtvrtý seznam (s mezerami) bude správně detekován.
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -88,7 +90,7 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), l
 
 ## Krok 5: Uložte dokument
 
-Nakonec dokument uložte do určeného adresáře. Výsledkem bude dokument aplikace Word se správně zjištěnými seznamy.
+Nakonec dokument uložte do vámi určeného adresáře. Tím se vytvoří dokument Word se správně detekovanými seznamy.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
@@ -96,29 +98,34 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.doc
 
 ## Závěr
 
-tady to máte! Pomocí několika řádků kódu jste zvládli umění detekce číslování pomocí mezer v dokumentech s prostým textem pomocí Aspose.Words pro .NET. Tato funkce může být neuvěřitelně užitečná při práci s různými textovými formáty a při zajištění přesné reprezentace vašich seznamů v dokumentech aplikace Word. Takže až příště narazíte na tyto složité seznamy, budete přesně vědět, co dělat.
+tady to máte! S pouhými několika řádky kódu jste zvládli umění detekce číslování s mezerami v dokumentech v prostém textu pomocí Aspose.Words pro .NET. Tato funkce může být neuvěřitelně užitečná při práci s různými textovými formáty a při zajištění toho, aby vaše seznamy byly v dokumentech Word přesně reprezentovány. Takže až příště narazíte na tyto záludné seznamy, budete přesně vědět, co dělat.
 
-## FAQ
+## Často kladené otázky
 
-###  co je`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` je možnost v`TxtLoadOptions` což umožňuje Aspose.Words rozpoznat seznamy, i když je mezi číslováním a textem položky seznamu mezera.
+### Co je `DetectNumberingWithWhitespaces` v Aspose.Words pro .NET?
+`DetectNumberingWithWhitespaces` je volbou v `TxtLoadOptions` To umožňuje Aspose.Words rozpoznávat seznamy, i když je mezi číslováním a textem položky seznamu mezera.
 
-### Mohu tuto funkci použít pro jiné oddělovače, jako jsou odrážky a závorky?
- Ano, Aspose.Words automaticky detekuje seznamy se společnými oddělovači, jako jsou odrážky a závorky. The`DetectNumberingWithWhitespaces` konkrétně pomáhá se seznamy, které mají mezery.
+### Mohu tuto funkci použít i pro jiné oddělovače, jako jsou odrážky a závorky?
+Ano, Aspose.Words automaticky detekuje seznamy s běžnými oddělovači, jako jsou odrážky a závorky. `DetectNumberingWithWhitespaces` pomáhá zejména se seznamy, které obsahují mezery.
 
-###  Co se stane, když nepoužiji`DetectNumberingWithWhitespaces`?
-Bez této volby by seznamy s mezerami mezi číslováním a textem nemusely být rozpoznány jako seznamy a položky by se mohly zobrazit jako prosté odstavce.
+### Co se stane, když nepoužiji `DetectNumberingWithWhitespaces`?
+Bez této možnosti nemusí být seznamy s mezerami mezi číslováním a textem rozpoznány jako seznamy a položky se mohou zobrazit jako obyčejné odstavce.
 
-### Je tato funkce dostupná v jiných produktech Aspose?
-Tato specifická funkce je přizpůsobena pro Aspose.Words for .NET, navržená tak, aby zvládla zpracování dokumentů Word.
+### Je tato funkce dostupná i v jiných produktech Aspose?
+Tato specifická funkce je přizpůsobena pro Aspose.Words pro .NET a je navržena pro zpracování dokumentů Word.
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Words pro .NET?
- Dočasnou licenci můžete získat od[Získejte dočasnou licenci](https://purchase.aspose.com/temporary-license/) strana.
+Dočasné povolení můžete získat od [Dočasná licence Aspose](https://purchase.aspose.com/temporary-license/) strana.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

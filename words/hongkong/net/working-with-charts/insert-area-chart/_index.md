@@ -1,53 +1,61 @@
 ---
-title: 在 Word 文档中插入區域圖.
-weight: 7700
-limit: 
-description: 學習如何將區域圖片插入Word文檔,使用 .NET的Aspose.Words. 按照代碼範例和視覺的步骤指示.
-keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
-url: /zh-hant/net/working-with-charts/insert-area-chart/
+"description": "了解如何使用 Aspose.Words for .NET 將面積圖插入 Word 文件。請依照程式碼範例和視覺效果的逐步說明進行操作。"
+"title": "在 Word 文件中插入面積圖 | Aspose.Words for .NET"
+"url": "/zh-hant/net/working-with-charts/insert-area-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文檔中插入區域圖表 
+# 在 Word 文件中插入面積圖 
 
-網頁的Aspose.Words讓 Word 文檔輕鬆添加動態和視覺吸引力的圖表. 這教程展示了如何將區域圖表插入 Word 文檔程序.提供的步骤指南包括初始化文檔,插入區域圖表,添加自訂的數據點數據系列,並保存最終文檔. 完美於想要增強文檔自動化工作流程的開發者.
+Aspose.Words for .NET 可以輕鬆地為 Word 文件添加動態且具有視覺吸引力的圖表。本教學課程示範如何以程式設計方式將面積圖插入 Word 文件。提供的逐步指南包括初始化文件、插入面積圖、添加帶有自訂資料點的資料系列以及保存最終文件。非常適合希望透過圖表功能增強文件自動化工作流程的開發人員。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 裝置指令  
+## 安裝說明  
 
-請確保您安裝了 .NET 的 Aspose.Words.  
+若要遵循此範例，請確保您已安裝 Aspose.Words for .NET。以下是如何開始：  
 
-1. 請下載Aspose.Words為 .NET:  
-   參觀[關於Aspose.Words下載頁面](https://releases.aspose.com/words/net/)請下載最新版本.  
+1. 下載 Aspose.Words for .NET：  
+   訪問 [Aspose.Words下載頁面](https://releases.aspose.com/words/net/) 並下載最新版本。  
 
-2. 透過 NuGet 包管理器安裝:  
-   在 Visual Studio 打開您的項目,並在包管理器控制台中執行下列命令:  
+2. 透過 NuGet 套件管理器安裝：  
+   在 Visual Studio 中開啟您的專案並在套件管理器控制台中執行以下命令：  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. 申請許可證 (可選擇):  
-   請申請許可證, 請購買許可證.[這裡](https://purchase.aspose.com/buy)或要求提供[免費的暫時許可證](https://purchase.aspose.com/temporary-license)這就是我想要的.  
+3. 申請許可證（可選）：  
+   若要獲得不受評估限制的完整功能，請申請許可證。購買許可證 [這裡](https://purchase.aspose.com/buy) 或請求 [免費臨時駕照](https://purchase。aspose.com/temporary-license).  
 
-4. 添加名稱空間參考:  
-   確保您的項目包含以下名稱空間:  
+4. 新增命名空間引用：  
+   確保您的專案中包含以下命名空間：  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## 請見此文
-[標籤.Word為 .NET文档](https://docs.aspose.com/words/net/)
-[適用於 .NET 參考](https://reference.aspose.com/words/net/)
+## 另請參閱
+[Aspose.Word for .NET 文檔](https://docs.aspose.com/words/net/)
+[Aspose.Words for .NET 參考](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hapus Header dan Footer Sumber
-linktitle: Hapus Header dan Footer Sumber
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menghapus header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sederhanakan pengelolaan dokumen Anda dengan panduan langkah demi langkah kami.
-weight: 10
-url: /id/net/join-and-append-documents/remove-source-headers-footers/
+"description": "Pelajari cara menghapus header dan footer dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sederhanakan pengelolaan dokumen Anda dengan panduan langkah demi langkah kami."
+"linktitle": "Hapus Header dan Footer Sumber"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Hapus Header dan Footer Sumber"
+"url": "/id/net/join-and-append-documents/remove-source-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hapus Header dan Footer Sumber
@@ -22,7 +24,7 @@ Dalam panduan lengkap ini, kita akan membahas cara menghapus header dan footer s
 Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 
 1. Lingkungan Pengembangan: Instal Visual Studio atau lingkungan pengembangan .NET lainnya.
-2.  Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal Aspose.Words untuk .NET. Jika belum, Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/words/net/).
+2. Aspose.Words untuk .NET: Pastikan Anda telah mengunduh dan menginstal Aspose.Words untuk .NET. Jika belum, Anda bisa mendapatkannya dari [Di Sini](https://releases.aspose.com/words/net/).
 3. Pengetahuan Dasar: Keakraban dengan pemrograman C# dan dasar-dasar kerangka kerja .NET.
 
 ## Mengimpor Ruang Nama
@@ -35,7 +37,7 @@ using Aspose.Words;
 
 ## Langkah 1: Muat Dokumen Sumber
 
- Pertama, Anda perlu memuat dokumen sumber tempat Anda ingin menghapus header dan footer. Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda di mana dokumen sumber berada.
+Pertama, Anda perlu memuat dokumen sumber tempat Anda ingin menghapus header dan footer. Ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda di mana dokumen sumber berada.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -44,7 +46,7 @@ Document srcDoc = new Document(dataDir + "Document source.docx");
 
 ## Langkah 2: Buat atau Muat Dokumen Tujuan
 
- Jika Anda belum membuat dokumen tujuan tempat Anda ingin meletakkan konten yang dimodifikasi, Anda dapat membuat yang baru`Document` objek atau memuat objek yang sudah ada.
+Jika Anda belum membuat dokumen tujuan tempat Anda ingin meletakkan konten yang dimodifikasi, Anda dapat membuat yang baru `Document` objek atau memuat objek yang sudah ada.
 
 ```csharp
 Document dstDoc = new Document(dataDir + "Northwind traders.docx");
@@ -63,7 +65,7 @@ foreach (Section section in srcDoc.Sections)
 
 ## Langkah 4: Kelola Pengaturan LinkToPrevious
 
-Untuk mencegah header dan footer berlanjut di dokumen tujuan (`dstDoc` ), memastikan bahwa`LinkToPrevious` pengaturan untuk header dan footer diatur ke`false`.
+Untuk mencegah header dan footer berlanjut di dokumen tujuan (`dstDoc`), memastikan bahwa `LinkToPrevious` pengaturan untuk header dan footer diatur ke `false`.
 
 ```csharp
 srcDoc.FirstSection.HeadersFooters.LinkToPrevious(false);
@@ -87,7 +89,7 @@ dstDoc.Save(dataDir + "JoinAndAppendDocuments.RemoveSourceHeadersFooters.docx");
 
 ## Kesimpulan
 
-Menghapus header dan footer dari dokumen Word menggunakan Aspose.Words for .NET merupakan proses mudah yang dapat meningkatkan tugas manajemen dokumen. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat membersihkan dokumen secara efisien agar terlihat profesional dan rapi.
+Menghapus header dan footer dari dokumen Word menggunakan Aspose.Words untuk .NET merupakan proses mudah yang dapat meningkatkan tugas manajemen dokumen. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat membersihkan dokumen secara efisien agar terlihat profesional dan rapi.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -97,18 +99,23 @@ Ya, Anda dapat mengulangi bagian-bagian dan secara selektif menghapus header dan
 ### Apakah Aspose.Words untuk .NET mendukung penghapusan header dan footer di beberapa dokumen?
 Tentu saja, Anda dapat memanipulasi header dan footer di beberapa dokumen menggunakan Aspose.Words untuk .NET.
 
-###  Apa yang terjadi jika saya lupa mengatur`LinkToPrevious` to `false`?
+### Apa yang terjadi jika saya lupa mengatur `LinkToPrevious` ke `false`....
 Header dan footer dari dokumen sumber dapat berlanjut ke dokumen tujuan.
 
 ### Bisakah saya menghapus header dan footer secara terprogram tanpa memengaruhi pemformatan lainnya?
 Ya, Aspose.Words untuk .NET memungkinkan Anda menghapus header dan footer sambil mempertahankan format dokumen lainnya.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Words untuk .NET?
- Kunjungi[Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi dan contoh API terperinci.
+Kunjungi [Dokumentasi Aspose.Words untuk .NET](https://reference.aspose.com/words/net/) untuk referensi dan contoh API terperinci.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

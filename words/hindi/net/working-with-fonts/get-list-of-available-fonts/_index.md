@@ -1,14 +1,16 @@
 ---
-title: उपलब्ध फ़ॉन्ट्स की सूची प्राप्त करें
-linktitle: उपलब्ध फ़ॉन्ट्स की सूची प्राप्त करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस विस्तृत चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words का उपयोग करके उपलब्ध फ़ॉन्ट की सूची कैसे प्राप्त करें। अपने फ़ॉन्ट प्रबंधन कौशल को बढ़ाएँ।
-weight: 10
-url: /hi/net/working-with-fonts/get-list-of-available-fonts/
+"description": "इस विस्तृत चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.Words का उपयोग करके उपलब्ध फ़ॉन्ट की सूची कैसे प्राप्त करें। अपने फ़ॉन्ट प्रबंधन कौशल को बढ़ाएँ।"
+"linktitle": "उपलब्ध फ़ॉन्ट्स की सूची प्राप्त करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "उपलब्ध फ़ॉन्ट्स की सूची प्राप्त करें"
+"url": "/hi/net/working-with-fonts/get-list-of-available-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # उपलब्ध फ़ॉन्ट्स की सूची प्राप्त करें
@@ -21,7 +23,7 @@ url: /hi/net/working-with-fonts/get-list-of-available-fonts/
 
 आरंभ करने से पहले, आपको कुछ चीजों की आवश्यकता होगी:
 
--  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 - विज़ुअल स्टूडियो: यह उदाहरण विकास परिवेश के रूप में विज़ुअल स्टूडियो का उपयोग करता है।
 - .NET फ्रेमवर्क: सुनिश्चित करें कि आपके मशीन पर .NET फ्रेमवर्क स्थापित है।
 - दस्तावेज़ निर्देशिका: एक निर्देशिका पथ जहाँ आपके दस्तावेज़ संग्रहीत हैं।
@@ -57,7 +59,7 @@ List<FontSourceBase> fontSources = new List<FontSourceBase>(fontSettings.GetFont
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
--  dataDir: यह स्ट्रिंग वैरिएबल उस डायरेक्टरी का पथ रखता है जहाँ आपके फ़ॉन्ट स्थित हैं। बदलें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ.
+- dataDir: यह स्ट्रिंग वैरिएबल उस डायरेक्टरी का पथ रखता है जहाँ आपके फ़ॉन्ट स्थित हैं। बदलें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ.
 
 ## चरण 3: कस्टम फ़ॉन्ट फ़ोल्डर जोड़ें
 
@@ -67,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FolderFontSource folderFontSource = new FolderFontSource(dataDir, true);
 ```
 
-- फ़ोल्डर फ़ॉन्ट स्रोत: यह वर्ग फ़ोल्डर फ़ॉन्ट स्रोत का प्रतिनिधित्व करता है। दूसरा पैरामीटर (`true`) यह इंगित करता है कि सबफ़ोल्डर्स में फ़ॉन्ट्स को पुनरावर्ती रूप से खोजना है या नहीं।
+- FolderFontSource: यह क्लास फ़ोल्डर फ़ॉन्ट स्रोत का प्रतिनिधित्व करता है। दूसरा पैरामीटर (`true`यह इंगित करता है कि सबफ़ोल्डर्स में फ़ॉन्ट्स को पुनरावर्ती रूप से खोजना है या नहीं।
 
 ## चरण 4: फ़ॉन्ट स्रोत अपडेट करें
 
@@ -96,7 +98,7 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 ```
 
 - GetAvailableFonts(): अद्यतन सूची में प्रथम फ़ॉन्ट स्रोत से उपलब्ध फ़ॉन्ट्स की सूची पुनर्प्राप्त करता है।
--  फ़ॉन्टइन्फो: इसका एक उदाहरण`PhysicalFontInfo` जिसमें प्रत्येक फ़ॉन्ट के बारे में विवरण शामिल है।
+- फ़ॉन्टइन्फो: इसका एक उदाहरण `PhysicalFontInfo` जिसमें प्रत्येक फ़ॉन्ट के बारे में विवरण शामिल है।
 
 ## निष्कर्ष
 
@@ -111,16 +113,21 @@ foreach (PhysicalFontInfo fontInfo in updatedFontSources[0].GetAvailableFonts())
 आप इसे "Aspose.Words" खोजकर विजुअल स्टूडियो में NuGet पैकेज मैनेजर के माध्यम से स्थापित कर सकते हैं।
 
 ### क्या एकाधिक कस्टम फ़ॉन्ट फ़ोल्डर्स जोड़ना संभव है?
- हां, आप कई कस्टम फ़ॉन्ट फ़ोल्डर बनाकर कई कस्टम फ़ॉन्ट फ़ोल्डर जोड़ सकते हैं`FolderFontSource` उदाहरणों को ढूँढना और उन्हें फ़ॉन्ट स्रोत सूची में जोड़ना।
+हां, आप कई कस्टम फ़ॉन्ट फ़ोल्डर बनाकर कई जोड़ सकते हैं `FolderFontSource` उदाहरणों को ढूँढना और उन्हें फ़ॉन्ट स्रोत सूची में जोड़ना।
 
 ### क्या मैं किसी विशिष्ट फ़ॉन्ट स्रोत से फ़ॉन्ट विवरण प्राप्त कर सकता हूँ?
- हां, आप फ़ॉन्ट स्रोत की अनुक्रमणिका निर्दिष्ट करके किसी भी फ़ॉन्ट स्रोत से फ़ॉन्ट विवरण प्राप्त कर सकते हैं।`updatedFontSources` सरणी.
+हां, आप फ़ॉन्ट स्रोत की अनुक्रमणिका निर्दिष्ट करके किसी भी फ़ॉन्ट स्रोत से फ़ॉन्ट विवरण प्राप्त कर सकते हैं। `updatedFontSources` सरणी.
 
 ### क्या Aspose.Words for .NET फ़ॉन्ट प्रतिस्थापन का समर्थन करता है?
 हां, यह फ़ॉन्ट प्रतिस्थापन का समर्थन करता है ताकि यह सुनिश्चित किया जा सके कि मूल फ़ॉन्ट उपलब्ध न होने पर भी पाठ सही ढंग से प्रस्तुत हो।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

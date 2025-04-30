@@ -1,14 +1,16 @@
 ---
-title: Wstaw obiekt OLE jako ikonę za pomocą strumienia
-linktitle: Wstaw obiekt OLE jako ikonę za pomocą strumienia
-second_title: Aspose.Words API przetwarzania dokumentów
-description: W tym szczegółowym samouczku krok po kroku dowiesz się, jak wstawić obiekt OLE jako ikonę za pomocą strumienia w Aspose.Words dla platformy .NET.
-weight: 10
-url: /pl/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "W tym szczegółowym samouczku krok po kroku dowiesz się, jak wstawić obiekt OLE jako ikonę za pomocą strumienia w Aspose.Words dla platformy .NET."
+"linktitle": "Wstaw obiekt OLE jako ikonę za pomocą strumienia"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Wstaw obiekt OLE jako ikonę za pomocą strumienia"
+"url": "/pl/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw obiekt OLE jako ikonę za pomocą strumienia
@@ -21,7 +23,7 @@ tym samouczku zagłębimy się w super fajną funkcję Aspose.Words dla .NET: ws
 
 Zanim przejdziemy do kodu, jest kilka rzeczy, których będziesz potrzebować:
 
--  Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś,[pobierać](https://releases.aspose.com/words/net/) i zainstaluj Aspose.Words dla .NET.
+- Aspose.Words dla .NET: Jeśli jeszcze tego nie zrobiłeś, [pobierać](https://releases.aspose.com/words/net/) i zainstaluj Aspose.Words dla .NET.
 - Środowisko programistyczne: Visual Studio lub inne środowisko programistyczne C#.
 - Pliki wejściowe: plik, który chcesz osadzić (np. prezentacja PowerPoint) i obraz ikony.
 
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Myśleć`Document` jako Twoje puste płótno i`DocumentBuilder` jako twój pędzel. Przygotowujemy nasze narzędzia, aby rozpocząć tworzenie naszego arcydzieła.
+Myśleć `Document` jako Twoje puste płótno i `DocumentBuilder` jako twój pędzel. Przygotowujemy nasze narzędzia, aby rozpocząć tworzenie naszego arcydzieła.
 
 ## Krok 2: Przygotuj strumień
 
@@ -85,7 +87,7 @@ Ten krok jest jak włożenie ukończonego obrazu w ramę i powieszenie go na śc
 
 ## Wniosek
 
-masz to! Udało Ci się osadzić obiekt OLE jako ikonę w dokumencie Word przy użyciu Aspose.Words dla .NET. Ta potężna funkcja może pomóc Ci z łatwością tworzyć dynamiczne i interaktywne dokumenty. Niezależnie od tego, czy osadzasz prezentacje, arkusze kalkulacyjne czy inne pliki, Aspose.Words sprawia, że jest to bułka z masłem. Więc śmiało, wypróbuj go i zobacz, jaką różnicę może zrobić w Twoich dokumentach!
+I masz to! Udało Ci się osadzić obiekt OLE jako ikonę w dokumencie Word przy użyciu Aspose.Words dla .NET. Ta potężna funkcja może pomóc Ci z łatwością tworzyć dynamiczne i interaktywne dokumenty. Niezależnie od tego, czy osadzasz prezentacje, arkusze kalkulacyjne czy inne pliki, Aspose.Words sprawia, że jest to bułka z masłem. Więc śmiało, wypróbuj go i zobacz, jaką różnicę może zrobić w Twoich dokumentach!
 
 ## Najczęściej zadawane pytania
 
@@ -93,19 +95,24 @@ masz to! Udało Ci się osadzić obiekt OLE jako ikonę w dokumencie Word przy u
 Tak, możesz osadzać dowolne typy plików obsługiwane przez OLE, w tym Word, Excel, PowerPoint i inne.
 
 ### Czy potrzebuję specjalnej licencji, aby używać Aspose.Words dla .NET?
- Tak, Aspose.Words dla .NET wymaga licencji. Możesz uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) lub kup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do testowania.
+Tak, Aspose.Words dla .NET wymaga licencji. Możesz uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub kup [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do testowania.
 
 ### Czy mogę dostosować ikonę używaną dla obiektu OLE?
- Oczywiście! Możesz użyć dowolnego pliku obrazu dla ikony, określając jego ścieżkę w`InsertOleObjectAsIcon` metoda.
+Oczywiście! Możesz użyć dowolnego pliku obrazu dla ikony, określając jego ścieżkę w `InsertOleObjectAsIcon` metoda.
 
 ### Co się stanie, jeśli ścieżki do plików lub ikon będą nieprawidłowe?
 Metoda wyrzuci wyjątek. Upewnij się, że ścieżki do plików są poprawne, aby uniknąć błędów.
 
 ### Czy możliwe jest powiązanie osadzonego obiektu zamiast jego osadzania?
 Tak, Aspose.Words pozwala na wstawianie połączonych obiektów OLE, które odwołują się do pliku bez osadzania jego zawartości.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

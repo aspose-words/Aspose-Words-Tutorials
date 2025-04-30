@@ -1,31 +1,43 @@
 ---
-title: Bekerja dengan Chart di Aspose.Words untuk .NET  
-weight: 10
-limit:
-description: Pelajari cara membuat, menyesuaikan, dan memanipulasi grafik dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sederhanakan visualisasi data dengan fitur yang kuat.
-keywords:
-url: /id/net/working-with-charts/
+"description": "Pelajari cara membuat, menyesuaikan, dan memanipulasi bagan dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sederhanakan visualisasi data dengan fitur-fitur canggih."
+"title": "Bekerja dengan Bagan di Aspose.Words untuk .NET"
+"url": "/id/net/working-with-charts/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Pambuka
+## Perkenalan
  
-Aspose.Words untuk .NET menawarkan seperangkat alat yang kuat untuk bekerja dengan grafik dalam dokumen Word. Apakah Anda perlu membuat grafik bar dinamis, menyesuaikan grafik pie, atau memanipulasi data yang ada, perpustakaan ini menyederhanakan seluruh proses. Dengan fitur API yang komprehensif, Anda dapat mendefinisikan secara programatik jenis grafik, kisaran data, label, gaya, dan pemformatan.  
+Aspose.Words untuk .NET menawarkan seperangkat alat yang tangguh untuk bekerja dengan bagan dalam dokumen Word. Baik Anda perlu membuat bagan batang dinamis, menyesuaikan bagan pai, atau memanipulasi data yang ada, pustaka ini menyederhanakan seluruh proses. Dengan fitur API yang komprehensif, Anda dapat secara terprogram menentukan jenis bagan, rentang data, label, gaya, dan pemformatan.  
 
-Semakin mendalam dengan halaman terpasang kami untuk mengeksplorasi fungsi khusus, termasuk menambahkan grafik, memperbarui data, dan menyesuaikan penampilan grafik. Apakah Anda membangun laporan, dashboard, atau dokumen akademik, Aspose.Words untuk .NET memastikan integrasi grafik dan kustomisasi yang mulus, menghemat waktu sambil memberikan hasil profesional.  
+Pelajari lebih lanjut dengan halaman bersarang kami untuk menjelajahi fungsi-fungsi tertentu, termasuk menambahkan bagan, memperbarui data, dan menyesuaikan tampilan bagan. Baik Anda membuat laporan, dasbor, atau dokumen akademis, Aspose.Words untuk .NET memastikan integrasi dan penyesuaian bagan yang lancar, menghemat waktu sekaligus memberikan hasil yang profesional.  
 
-{{< tutorial-card link="./bounds-of-axis/" title="Buat dokumen dengan grafik menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
-{{< tutorial-card link="./create-chart-using-shape/" title="Buat Chart Line di Word menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
-{{< tutorial-card link="./insert-area-chart/" title="Masukkan grafik area ke dalam dokumen Word" imgSrc="/words/net/working-with-charts/insert-area-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-bubble-chart/" title="Masukkan Bubble Chart dalam Word menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-column-chart/" title="Masukkan grafik kolom di Word menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/insert-column-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-scatter-chart/" title="Buat Chart Scatter Word menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
-{{< tutorial-card link="./insert-simple-column-chart/" title="Masukkan grafik kolom sederhana dalam Word menggunakan Aspose.Words untuk .NET" imgSrc="/words/net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./bounds-of-axis/" title="Membuat Dokumen dengan Grafik Menggunakan Aspose.Words untuk .NET" imgSrc="./bounds-of-axis/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-chart-using-shape/" title="Membuat Bagan Garis di Word menggunakan Aspose.Words untuk .NET" imgSrc="./create-chart-using-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-area-chart/" title="Sisipkan Bagan Area dalam Dokumen Word" imgSrc="./insert-area-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-bubble-chart/" title="Menyisipkan Bagan Gelembung di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-bubble-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-column-chart/" title="Menyisipkan Bagan Kolom di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-column-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-scatter-chart/" title="Membuat Bagan Sebar Kata Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-scatter-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-simple-column-chart/" title="Menyisipkan Bagan Kolom Sederhana di Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การใช้คุณลักษณะความคิดเห็นในเอกสาร Word
-linktitle: การใช้คุณลักษณะความคิดเห็นในเอกสาร Word
-second_title: API การจัดการเอกสาร Aspose.Words Python
-description: เรียนรู้วิธีใช้คุณลักษณะความคิดเห็นในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ ปรับปรุงการทำงานร่วมกันและปรับปรุงการตรวจสอบในเอกสาร
-weight: 11
-url: /th/python-net/document-structure-and-content-manipulation/document-comments/
+"description": "เรียนรู้วิธีใช้คุณลักษณะความคิดเห็นในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ ปรับปรุงการทำงานร่วมกันและปรับปรุงการตรวจสอบในเอกสาร"
+"linktitle": "การใช้คุณลักษณะความคิดเห็นในเอกสาร Word"
+"second_title": "API การจัดการเอกสาร Aspose.Words Python"
+"title": "การใช้คุณลักษณะความคิดเห็นในเอกสาร Word"
+"url": "/th/python-net/document-structure-and-content-manipulation/document-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้คุณลักษณะความคิดเห็นในเอกสาร Word
@@ -22,7 +24,7 @@ url: /th/python-net/document-structure-and-content-manipulation/document-comment
 
 ## การตั้งค่า Aspose.Words สำหรับ Python
 
- ในการเริ่มต้น คุณต้องติดตั้ง Aspose.Words สำหรับ Python คุณสามารถดาวน์โหลดไลบรารีได้จาก[Aspose.Words สำหรับ Python](https://releases.aspose.com/words/python/) ลิงก์ดาวน์โหลด เมื่อดาวน์โหลดแล้ว คุณสามารถติดตั้งได้โดยใช้ pip:
+ในการเริ่มต้น คุณต้องติดตั้ง Aspose.Words สำหรับ Python คุณสามารถดาวน์โหลดไลบรารีได้จาก  [Aspose.Words สำหรับ Python](https://releases.aspose.com/words/python/) ลิงก์ดาวน์โหลด เมื่อดาวน์โหลดแล้ว คุณสามารถติดตั้งได้โดยใช้ pip:
 
 ```python
 pip install aspose-words
@@ -35,17 +37,17 @@ pip install aspose-words
 ```python
 import aspose.words as aw
 
-# Load the document
+# โหลดเอกสาร
 doc = aw.Document("example.docx")
 
-# Add a comment
+# เพิ่มความคิดเห็น
 comment = aw.Comment(doc, "John Doe", "This is a valuable insight.")
 comment.author = "John Doe"
 comment.text = "This is a valuable insight."
 comment_date = aw.DateTime.now()
 comment.date_time = comment_date
 
-# Insert the comment
+# แทรกความคิดเห็น
 paragraph = doc.first_section.body.first_paragraph
 run = paragraph.runs[0]
 run.insert_comment(comment)
@@ -67,21 +69,21 @@ for comment in doc.comments:
 ความคิดเห็นมักจะเปลี่ยนแปลงได้ Aspose.Words สำหรับ Python ช่วยให้คุณสามารถแก้ไขความคิดเห็นที่มีอยู่และทำเครื่องหมายว่าได้รับการแก้ไขแล้ว:
 
 ```python
-# Modify a comment's text
+# ปรับเปลี่ยนข้อความความคิดเห็น
 comment = doc.comments[0]
 comment.text = "Updated insight: " + comment.text
 
-# Resolve a comment
+# แก้ไขความคิดเห็น
 comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
 
 parent_comment = comments[0].as_comment()
 for child in parent_comment.replies:
 	child_comment = child.as_comment()
-	# Get comment parent and status.
+	# รับความคิดเห็นจากผู้ปกครองและสถานะ
 	print(child_comment.ancestor.id)
 	print(child_comment.done)
 
-	# And update comment Done mark.
+	# และอัพเดทคอมเม้นท์ เสร็จแล้วครับ.
 	child_comment.done = True
 ```
 
@@ -90,7 +92,7 @@ for child in parent_comment.replies:
 การจัดรูปแบบความคิดเห็นจะช่วยให้มองเห็นได้ชัดเจนขึ้น คุณสามารถจัดรูปแบบความคิดเห็นได้โดยใช้ Aspose.Words สำหรับ Python:
 
 ```python
-# Apply formatting to a comment
+# ใช้การจัดรูปแบบกับความคิดเห็น
 comment = doc.comments[0]
 comment.runs[0].font.bold = True
 comment.runs[0].font.color = aw.Color.red
@@ -101,20 +103,20 @@ comment.runs[0].font.color = aw.Color.red
 ความคิดเห็นจะถูกระบุโดยผู้เขียน Aspose.Words สำหรับ Python ช่วยให้คุณสามารถจัดการผู้เขียนความคิดเห็นได้:
 
 ```python
-# Change the author's name
+# เปลี่ยนชื่อผู้เขียน
 comment = doc.comments[0]
 comment.author = "Jane Doe"
 ```
 
 ## ความคิดเห็นเกี่ยวกับการส่งออกและนำเข้า
 
-สามารถส่งออกและนำเข้าความคิดเห็นเพื่ออำนวยความสะดวกในการทำงานร่วมกันภายนอกได้:
+สามารถส่งออกและนำเข้าความคิดเห็นเพื่ออำนวยความสะดวกในการทำงานร่วมกันภายนอก:
 
 ```python
-# Export comments to a file
+# ส่งออกความคิดเห็นไปยังไฟล์
 doc.save_comments("comments.xml")
 
-# Import comments from a file
+# นำเข้าความคิดเห็นจากไฟล์
 doc.import_comments("comments.xml")
 ```
 
@@ -127,7 +129,7 @@ doc.import_comments("comments.xml")
 
 ## บทสรุป
 
-Aspose.Words for Python ช่วยให้การทำงานกับความคิดเห็นในเอกสาร Word ง่ายขึ้น โดยนำเสนอ API ที่ครอบคลุมสำหรับการเพิ่ม เรียกค้น แก้ไข และจัดการความคิดเห็น ด้วยการรวม Aspose.Words for Python เข้ากับโปรเจ็กต์ของคุณ คุณสามารถปรับปรุงการทำงานร่วมกันและปรับปรุงกระบวนการตรวจสอบภายในเอกสารของคุณให้มีประสิทธิภาพยิ่งขึ้น
+Aspose.Words for Python ช่วยให้การทำงานกับความคิดเห็นในเอกสาร Word ง่ายขึ้น โดยนำเสนอ API ที่ครอบคลุมสำหรับการเพิ่ม เรียกค้น แก้ไข และจัดการความคิดเห็น ด้วยการรวม Aspose.Words for Python เข้ากับโปรเจ็กต์ของคุณ คุณสามารถปรับปรุงการทำงานร่วมกันและปรับปรุงกระบวนการตรวจสอบภายในเอกสารของคุณ
 
 ## คำถามที่พบบ่อย
 
@@ -148,14 +150,18 @@ pip install aspose-words
 
 ### สามารถซ่อนหรือแสดงความคิดเห็นผ่านโปรแกรมโดยใช้ API ได้หรือไม่
 
- ใช่ คุณสามารถควบคุมการมองเห็นความคิดเห็นได้โดยใช้`comment.visible` คุณสมบัติใน Aspose.Words สำหรับ Python
+ใช่ คุณสามารถควบคุมการมองเห็นความคิดเห็นได้โดยใช้ `comment.visible` คุณสมบัติใน Aspose.Words สำหรับ Python
 
 ### Aspose.Words สำหรับ Python รองรับการเพิ่มความคิดเห็นในช่วงข้อความที่เฉพาะเจาะจงหรือไม่
 
-แน่นอน คุณสามารถเพิ่มความคิดเห็นในช่วงข้อความที่เจาะจงในเอกสารได้โดยใช้ API ที่หลากหลายของ Aspose.Words สำหรับ Python
+แน่นอน คุณสามารถเพิ่มความคิดเห็นในช่วงข้อความที่เจาะจงภายในเอกสารได้โดยใช้ API ที่หลากหลายของ Aspose.Words สำหรับ Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Sisipkan Bidang Gabungan Menggunakan DOM
-linktitle: Sisipkan Bidang Gabungan Menggunakan DOM
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyisipkan dan mengonfigurasi bidang gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Pelajari cara menyisipkan dan mengonfigurasi bidang gabungan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Sisipkan Bidang Gabungan Menggunakan DOM"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Sisipkan Bidang Gabungan Menggunakan DOM"
+"url": "/id/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Bidang Gabungan Menggunakan DOM
@@ -23,8 +25,8 @@ Sebelum masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk m
 
 1. Pengetahuan Dasar C#: Anda harus merasa nyaman dengan pemrograman C#.
 2. Visual Studio Terpasang: Pastikan Anda telah menginstal Visual Studio atau IDE C# lainnya di komputer Anda.
-3.  Aspose.Words untuk .NET: Unduh dan instal versi terbaru Aspose.Words untuk .NET dari[Rilis](https://releases.aspose.com/words/net/).
-4.  Lisensi yang Valid: Jika Anda tidak memiliki lisensi, Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+3. Aspose.Words untuk .NET: Unduh dan instal versi terbaru Aspose.Words untuk .NET dari [Rilis](https://releases.aspose.com/words/net/).
+4. Lisensi yang Valid: Jika Anda tidak memiliki lisensi, Anda bisa mendapatkannya [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
 ## Langkah 1: Siapkan Proyek Anda
 
@@ -39,7 +41,7 @@ Hal pertama yang terpenting, mari kita buat proyek baru di Visual Studio.
 Untuk menggunakan Aspose.Words, Anda perlu menambahkannya ke proyek Anda. Hal ini dapat dilakukan melalui NuGet Package Manager.
 
 1. Buka NuGet Package Manager: Klik kanan proyek Anda di Solution Explorer, lalu pilih Kelola Paket NuGet.
-2. Cari Aspose.Words: Di Pengelola Paket NuGet, cari "Aspose.Words".
+2. Cari Aspose.Words: Di NuGet Package Manager, cari "Aspose.Words".
 3. Instal Paket: Klik Instal untuk menambahkan Aspose.Words ke proyek Anda.
 
 ## Langkah 3: Impor Namespace
@@ -76,7 +78,7 @@ builder.MoveTo(para);
 
 ## Langkah 6: Masukkan Bidang Gabungan
 
- Memasukkan bidang gabungan sangatlah mudah. Kita akan menggunakan`InsertField` metode dari`DocumentBuilder` kelas.
+Memasukkan bidang gabungan sangatlah mudah. Kita akan menggunakan `InsertField` metode dari `DocumentBuilder` kelas.
 
 ```csharp
 // Sisipkan bidang gabungkan bidang.
@@ -116,20 +118,25 @@ Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memasukkan dan men
 ###  Apa itu bidang gabungan?
 Bidang gabungan merupakan tempat penampung dalam dokumen yang dapat diganti secara dinamis dengan data dari sumber data, seperti basis data atau berkas CSV.
 
-###  Dapatkah saya menggunakan Aspose.Words secara gratis?
- Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh[Di Sini](https://releases.aspose.com/)Untuk penggunaan jangka panjang, Anda perlu membeli lisensi.
+###  Bisakah saya menggunakan Aspose.Words secara gratis?
+Aspose.Words menawarkan uji coba gratis yang dapat Anda unduh [Di Sini](https://releases.aspose.com/)Untuk penggunaan jangka panjang, Anda perlu membeli lisensi.
 
 ###  Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
- Anda dapat memperoleh lisensi sementara dari situs web Aspose[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda dapat memperoleh lisensi sementara dari situs web Aspose [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Versi .NET apa yang didukung oleh Aspose.Words?
 Aspose.Words mendukung beberapa versi .NET, termasuk .NET Framework, .NET Core, dan .NET Standard.
 
 ###  Di mana saya dapat menemukan dokumentasi API untuk Aspose.Words?
- Dokumentasi API tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi API tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

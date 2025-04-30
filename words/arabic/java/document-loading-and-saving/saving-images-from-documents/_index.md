@@ -1,14 +1,16 @@
 ---
-title: حفظ الصور من المستندات في Aspose.Words لـ Java
-linktitle: حفظ الصور من المستندات
-second_title: واجهة برمجة تطبيقات معالجة المستندات في Java Aspose.Words
-description: تعرف على كيفية حفظ الصور من المستندات باستخدام Aspose.Words for Java من خلال دليلنا الشامل خطوة بخطوة. يمكنك تخصيص التنسيقات والضغط والمزيد.
-weight: 17
-url: /ar/java/document-loading-and-saving/saving-images-from-documents/
+"description": "تعرّف على كيفية حفظ الصور من المستندات باستخدام Aspose.Words لجافا من خلال دليلنا الشامل خطوة بخطوة. خصّص التنسيقات، وضغط الملفات، والمزيد."
+"linktitle": "حفظ الصور من المستندات"
+"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
+"title": "حفظ الصور من المستندات في Aspose.Words لـ Java"
+"url": "/ar/java/document-loading-and-saving/saving-images-from-documents/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # حفظ الصور من المستندات في Aspose.Words لـ Java
@@ -16,11 +18,11 @@ url: /ar/java/document-loading-and-saving/saving-images-from-documents/
 
 ## مقدمة لحفظ الصور من المستندات في Aspose.Words لـ Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية حفظ الصور من المستندات باستخدام Aspose.Words for Java. وسنغطي سيناريوهات مختلفة وخيارات التخصيص لحفظ الصور. يوفر هذا الدليل تعليمات خطوة بخطوة مع أمثلة لأكواد المصدر.
+في هذا البرنامج التعليمي، سنستكشف كيفية حفظ الصور من المستندات باستخدام Aspose.Words لجافا. سنغطي سيناريوهات وخيارات تخصيص متنوعة لحفظ الصور. يقدم هذا الدليل تعليمات خطوة بخطوة مع أمثلة من الكود المصدري.
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من دمج مكتبة Aspose.Words for Java في مشروعك. يمكنك تنزيلها من[هنا](https://releases.aspose.com/words/java/).
+قبل البدء، تأكد من دمج مكتبة Aspose.Words لجافا في مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
 
 ## الخطوة 1: حفظ الصور بتنسيق TIFF باستخدام التحكم في العتبة
 
@@ -36,9 +38,9 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## الخطوة 2: حفظ صفحة محددة بتنسيق TIFF متعدد الصفحات
+## الخطوة 2: حفظ صفحة محددة كملف TIFF متعدد الصفحات
 
-لحفظ صفحة معينة بصيغة TIFF متعددة الصفحات، استخدم الكود التالي:
+لحفظ صفحة معينة كملف TIFF متعدد الصفحات، استخدم الكود التالي:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -51,7 +53,7 @@ doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 
 ## الخطوة 3: حفظ الصور بتنسيق PNG مُفهرس بتنسيق 1 BPP
 
-لحفظ الصور بتنسيق PNG مُفهرس بتنسيق 1 BPP، اتبع الخطوات التالية:
+لحفظ الصور بتنسيق PNG المفهرس بتنسيق 1 BPP، اتبع الخطوات التالية:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -139,10 +141,10 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// اضبط "PageSet" على "0" لتحويل الصفحة الأولى فقط من المستند.
+	// قم بضبط "PageSet" على "0" لتحويل الصفحة الأولى فقط من المستند.
 	options.setPageSet(new PageSet(0));
 	// تغيير سطوع الصورة وتباينها.
-	// كلاهما على مقياس من 0 إلى 1 ويكونان عند 0.5 بشكل افتراضي.
+	// كلاهما على مقياس من 0 إلى 1 وهما 0.5 بشكل افتراضي.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
 	// تغيير الدقة الأفقية.
@@ -171,13 +173,13 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 
 ## خاتمة
 
-لقد تعلمت كيفية حفظ الصور من المستندات باستخدام Aspose.Words for Java. توضح هذه الأمثلة خيارات التخصيص المتنوعة لحفظ الصور، بما في ذلك التنسيق والضغط واستخدام الاستدعاء. استكشف المزيد من الإمكانيات مع القدرات القوية لـ Aspose.Words for Java.
+لقد تعلمتَ كيفية حفظ الصور من المستندات باستخدام Aspose.Words لجافا. توضح هذه الأمثلة خيارات التخصيص المتنوعة لحفظ الصور، بما في ذلك التنسيق والضغط واستخدام الاستدعاء العكسي. استكشف المزيد من الإمكانيات مع إمكانيات Aspose.Words القوية لجافا.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير تنسيق الصورة عند الحفظ باستخدام Aspose.Words لـ Java؟
 
- يمكنك تغيير تنسيق الصورة عن طريق تحديد التنسيق المطلوب في`ImageSaveOptions` على سبيل المثال، لحفظ الملف بتنسيق PNG، استخدم`SaveFormat.PNG` كما هو موضح في الكود:
+يمكنك تغيير تنسيق الصورة عن طريق تحديد التنسيق المطلوب في `ImageSaveOptions`على سبيل المثال، لحفظ الصورة بتنسيق PNG، استخدم `SaveFormat.PNG` كما هو موضح في الكود:
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
@@ -193,7 +195,7 @@ saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 
 ### كيف يمكنني حفظ صفحة محددة من مستند كصورة منفصلة؟
 
- لحفظ صفحة معينة كصورة، استخدم`setPageSet`الطريقة في`ImageSaveOptions` على سبيل المثال، لحفظ الصفحة الأولى فقط، اضبط`PageSet` ل`new PageSet(0)`.
+لحفظ صفحة معينة كصورة، استخدم `setPageSet` الطريقة في `ImageSaveOptions`على سبيل المثال، لحفظ الصفحة الأولى فقط، اضبط `PageSet` ل `new PageSet(0)`.
 
 ```java
 saveOptions.setPageSet(new PageSet(0)); // حفظ الصفحة الأولى كصورة
@@ -201,7 +203,7 @@ saveOptions.setPageSet(new PageSet(0)); // حفظ الصفحة الأولى كص
 
 ### كيف يمكنني تطبيق الإعدادات المخصصة على صور JPEG عند الحفظ؟
 
-يمكنك تطبيق إعدادات مخصصة على صور JPEG باستخدام`ImageSaveOptions`. اضبط خصائص مثل السطوع والتباين والدقة. على سبيل المثال، لتغيير السطوع إلى 0.3 والتباين إلى 0.7، استخدم هذا الكود:
+يمكنك تطبيق الإعدادات المخصصة على صور JPEG باستخدام `ImageSaveOptions`اضبط خصائص مثل السطوع والتباين والدقة. على سبيل المثال، لتغيير السطوع إلى 0.3 والتباين إلى 0.7، استخدم هذا الكود:
 
 ```java
 options.setImageBrightness(0.3f);
@@ -210,13 +212,13 @@ options.setImageContrast(0.7f);
 
 ### كيف يمكنني استخدام معاودة الاتصال لتخصيص حفظ الصورة؟
 
- لاستخدام معاودة الاتصال لتخصيص حفظ الصورة، اضبط`PageSavingCallback` في`ImageSaveOptions` . إنشاء فئة تنفذ`IPageSavingCallback` الواجهة وتجاوزها`pageSaving` طريقة.
+لاستخدام معاودة الاتصال لتخصيص حفظ الصورة، اضبط `PageSavفيgCallback` in `ImageSaveOptions`. قم بإنشاء فئة تنفذ `IPageSavingCallback` الواجهة وتجاوزها `pageSaving` طريقة.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
 
- ثم قم بإنشاء فئة تنفذ`IPageSavingCallback` واجهة وتخصيص اسم الملف وموقعه في`pageSaving` طريقة.
+ثم قم بإنشاء فئة تنفذ `IPageSavingCallback` واجهة وتخصيص اسم الملف وموقعه في `pageSaving` طريقة.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -225,9 +227,14 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
     }
 }
 ```
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

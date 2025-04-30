@@ -1,14 +1,16 @@
 ---
-title: การแก้ไขเอกสารและการปกป้องข้อมูล
-linktitle: การแก้ไขเอกสารและการปกป้องข้อมูล
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีรักษาความปลอดภัยเอกสารและแก้ไขข้อมูลสำคัญโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
-weight: 14
-url: /th/java/document-security/document-redaction-data-protection/
+"description": "เรียนรู้วิธีรักษาความปลอดภัยเอกสารและแก้ไขข้อมูลสำคัญโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ"
+"linktitle": "การแก้ไขเอกสารและการปกป้องข้อมูล"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การแก้ไขเอกสารและการปกป้องข้อมูล"
+"url": "/th/java/document-security/document-redaction-data-protection/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแก้ไขเอกสารและการปกป้องข้อมูล
@@ -24,7 +26,7 @@ url: /th/java/document-security/document-redaction-data-protection/
 
 ก่อนที่เราจะเริ่มทำงานกับ Aspose.Words สำหรับ Java เราจะต้องตั้งค่าสภาพแวดล้อมการพัฒนาของเราก่อน ทำตามขั้นตอนเหล่านี้:
 
-1.  ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java: เยี่ยมชม[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)ดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
+1. ดาวน์โหลดและติดตั้ง Aspose.Words สำหรับ Java: เยี่ยมชม [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/) ดาวน์โหลด Aspose.Words เวอร์ชันล่าสุดสำหรับ Java
 
 2. รวม Aspose.Words เข้ากับโปรเจ็กต์ของคุณ: เพิ่มไฟล์ JAR Aspose.Words ลงในโปรเจ็กต์ Java ของคุณ
 
@@ -98,16 +100,21 @@ doc.save("redacted_and_protected.docx");
 
 ### มีข้อกำหนดการออกใบอนุญาตสำหรับการใช้ Aspose.Words สำหรับ Java หรือไม่
 
- A: ใช่ Aspose.Words สำหรับ Java ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์ เยี่ยมชม[https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) เพื่อทราบข้อมูลการออกใบอนุญาต
+A: ใช่ Aspose.Words สำหรับ Java ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์ เยี่ยมชม [https://www.aspose.com/purchase/default.aspx](https://www.aspose.com/purchase/default.aspx) เพื่อทราบข้อมูลการออกใบอนุญาต
 
 ### ฉันสามารถเข้าถึงทรัพยากรและเอกสารเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้อย่างไร
 
-ตอบ: เยี่ยมชมเอกสาร Aspose.Words สำหรับ Java ได้ที่[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) เพื่อแหล่งข้อมูลและคำแนะนำที่ครอบคลุม
+ตอบ: เยี่ยมชมเอกสาร Aspose.Words สำหรับ Java ได้ที่ [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) เพื่อแหล่งข้อมูลและคำแนะนำที่ครอบคลุม
 
 เพิ่มความปลอดภัยเอกสารและการปกป้องข้อมูลของคุณด้วย Aspose.Words สำหรับ Java เริ่มปกป้องข้อมูลสำคัญของคุณวันนี้!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

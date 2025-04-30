@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Bentuk Grup
-linktitle: Tambahkan Bentuk Grup
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-shapes/add-group-shape/
+"description": "Pelajari cara menambahkan bentuk grup ke dokumen Word menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini."
+"linktitle": "Tambahkan Bentuk Grup"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Bentuk Grup"
+"url": "/id/net/programming-with-shapes/add-group-shape/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Bentuk Grup
@@ -21,7 +23,7 @@ Membuat dokumen yang rumit dengan elemen visual yang kaya terkadang bisa menjadi
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Aspose merilis halaman](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau IDE lain yang kompatibel dengan .NET.
 3. Pemahaman Dasar tentang C#: Kemampuan dengan pemrograman C# merupakan nilai tambah.
 
@@ -47,11 +49,11 @@ Document doc = new Document();
 doc.EnsureMinimum();
 ```
 
- Di Sini,`EnsureMinimum()` menambahkan serangkaian node minimal yang diperlukan untuk dokumen.
+Di Sini, `EnsureMinimum()` menambahkan serangkaian node minimal yang diperlukan untuk dokumen.
 
 ## Langkah 2: Buat Objek GroupShape
 
- Selanjutnya, kita perlu membuat`GroupShape`objek. Objek ini akan berfungsi sebagai wadah bagi bentuk-bentuk lain, sehingga kita dapat mengelompokkannya bersama-sama.
+Selanjutnya, kita perlu membuat `GroupShape` objek. Objek ini akan berfungsi sebagai wadah bagi bentuk-bentuk lain, sehingga kita dapat mengelompokkannya bersama-sama.
 
 ```csharp
 GroupShape groupShape = new GroupShape(doc);
@@ -59,7 +61,7 @@ GroupShape groupShape = new GroupShape(doc);
 
 ## Langkah 3: Tambahkan Bentuk ke GroupShape
 
- Sekarang, mari tambahkan bentuk individual ke`GroupShape` wadah. Kita akan mulai dengan bentuk batas aksen lalu menambahkan bentuk tombol tindakan.
+Sekarang, mari tambahkan bentuk individual ke `GroupShape` wadah. Kita akan mulai dengan bentuk batas aksen lalu menambahkan bentuk tombol tindakan.
 
 ### Menambahkan Bentuk Batas Aksen
 
@@ -72,7 +74,7 @@ Shape accentBorderShape = new Shape(doc, ShapeType.AccentBorderCallout1)
 groupShape.AppendChild(accentBorderShape);
 ```
 
- Potongan kode ini membuat bentuk batas aksen dengan lebar dan tinggi 100 unit dan menambahkannya ke`GroupShape`.
+Potongan kode ini membuat bentuk batas aksen dengan lebar dan tinggi 100 unit dan menambahkannya ke `GroupShape`.
 
 ### Menambahkan Bentuk Tombol Tindakan
 
@@ -86,11 +88,11 @@ Shape actionButtonShape = new Shape(doc, ShapeType.ActionButtonBeginning)
 groupShape.AppendChild(actionButtonShape);
 ```
 
- Di sini, kita membuat bentuk tombol tindakan, memposisikannya, dan menambahkannya ke`GroupShape`.
+Di sini, kita membuat bentuk tombol tindakan, memposisikannya, dan menambahkannya ke `GroupShape`.
 
 ## Langkah 4: Tentukan Dimensi GroupShape
 
- Untuk memastikan bentuk kita sesuai dengan grup, kita perlu mengatur dimensi`GroupShape`.
+Untuk memastikan bentuk kita sesuai dengan grup, kita perlu mengatur dimensi `GroupShape`.
 
 ```csharp
 groupShape.Width = 200;
@@ -98,11 +100,11 @@ groupShape.Height = 200;
 groupShape.CoordSize = new Size(200, 200);
 ```
 
- Ini menentukan lebar dan tinggi`GroupShape` sebagai 200 unit dan menetapkan ukuran koordinat yang sesuai.
+Ini menentukan lebar dan tinggi `GroupShape` sebagai 200 unit dan menetapkan ukuran koordinat yang sesuai.
 
 ## Langkah 5: Masukkan GroupShape ke dalam Dokumen
 
- Sekarang, mari kita masukkan`GroupShape` ke dalam dokumen menggunakan`DocumentBuilder`.
+Sekarang, mari kita masukkan `GroupShape` ke dalam dokumen menggunakan `DocumentBuilder`.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -128,22 +130,27 @@ Menambahkan bentuk grup ke dokumen Word Anda tidak harus menjadi proses yang rum
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menambahkan lebih dari dua bentuk ke GroupShape?
- Ya, Anda dapat menambahkan bentuk sebanyak yang Anda butuhkan ke dalam`GroupShape` Cukup gunakan`AppendChild` metode untuk setiap bentuk.
+Ya, Anda dapat menambahkan bentuk sebanyak yang Anda butuhkan ke dalam `GroupShape`Cukup gunakan `AppendChild` metode untuk setiap bentuk.
 
 ### Apakah mungkin untuk memberi gaya pada bentuk dalam GroupShape?
- Tentu saja! Setiap bentuk dapat ditata secara individual menggunakan properti yang tersedia di`Shape` kelas.
+Tentu saja! Setiap bentuk dapat ditata secara individual menggunakan properti yang tersedia di `Shape` kelas.
 
 ### Bagaimana cara memposisikan GroupShape dalam dokumen?
- Anda dapat memposisikan`GroupShape` dengan mengaturnya`Left` Dan`Top` properti.
+Anda dapat memposisikan `GroupShape` dengan mengaturnya `Left` Dan `Top` properti.
 
 ### Bisakah saya menambahkan teks ke bentuk dalam GroupShape?
- Ya, Anda dapat menambahkan teks ke bentuk menggunakan`AppendChild` metode untuk menambahkan`Paragraph` mengandung`Run` simpul dengan teks.
+Ya, Anda dapat menambahkan teks ke bentuk menggunakan `AppendChild` metode untuk menambahkan `Paragraph` mengandung `Run` simpul dengan teks.
 
 ### Apakah mungkin untuk mengelompokkan bentuk secara dinamis berdasarkan masukan pengguna?
 Ya, Anda dapat membuat dan mengelompokkan bentuk secara dinamis berdasarkan masukan pengguna dengan menyesuaikan properti dan metode sebagaimana mestinya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

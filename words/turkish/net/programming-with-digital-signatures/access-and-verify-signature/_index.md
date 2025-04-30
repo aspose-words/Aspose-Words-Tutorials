@@ -1,17 +1,19 @@
 ---
-title: Word Belgesinde Erişim ve İmza Doğrulama
-linktitle: Word Belgesinde Erişim ve İmza Doğrulama
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki dijital imzalara erişin ve bunları doğrulayın. Belgenin gerçekliğini zahmetsizce sağlayın.
-weight: 10
-url: /tr/net/programming-with-digital-signatures/access-and-verify-signature/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki dijital imzalara erişin ve bunları doğrulayın. Belgenin gerçekliğini zahmetsizce sağlayın."
+"linktitle": "Word Belgesinde İmzaya Erişim ve Doğrulama"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde İmzaya Erişim ve Doğrulama"
+"url": "/tr/net/programming-with-digital-signatures/access-and-verify-signature/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesinde Erişim ve İmza Doğrulama
+# Word Belgesinde İmzaya Erişim ve Doğrulama
 
 ## giriiş
 
@@ -22,7 +24,7 @@ Merhaba, teknoloji meraklısı arkadaşlar! Hiç Word belgesinde dijital imzalar
 Ayrıntılara dalmadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazıp çalıştıracaksınız.
-2.  Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/) Ücretsiz denemenizi almayı unutmayın[Burada](https://releases.aspose.com/) Eğer henüz yapmadıysanız!
+2. Aspose.Words for .NET: Aspose.Words for .NET'in yüklü olması gerekir. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/)Ücretsiz denemenizi almayı unutmayın [Burada](https://releases.aspose.com/) Eğer henüz yapmadıysanız!
 3. Dijital Olarak İmzalanmış Bir Word Belgesi: Dijital olarak imzalanmış bir Word belgeniz olsun. Bu, imzaları doğrulamak için çalışacağınız dosyadır.
 
 ## Ad Alanlarını İçe Aktar
@@ -64,7 +66,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Digitally signed.docx");
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Bu kod parçacığı yeni bir`Document` nesnesini seçin ve imzaladığınız Word belgenizi yükleyin.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile. Bu kod parçacığı yeni bir `Document` nesnesini seçin ve imzaladığınız Word belgenizi yükleyin.
 
 ## Adım 3: Dijital İmzalara Erişim
 
@@ -88,7 +90,7 @@ Bu kod, belgedeki her dijital imzayı dolaşır ve imza hakkında çeşitli ayr�
 1. İmza Bulundu: Bir imzanın bulunduğunu belirtir.
 2. Geçerlidir: İmzanın geçerli olup olmadığını kontrol eder.
 3. İmzalama nedeni: Varsa imzalama nedenini görüntüler.
-4. İmzalama zamanı: Belgenin ne zaman imzalandığının zaman damgasını gösterir.
+4. İmzalanma zamanı: Belgenin ne zaman imzalandığının zaman damgasını gösterir.
 5. Konu adı: Sertifikadan konu adını alır.
 6. Sertifikayı veren kuruluşun adı: Sertifikayı veren kuruluşun adını alır.
 
@@ -150,14 +152,19 @@ Aspose.Words for .NET, DOC, DOCX, RTF ve daha fazlası dahil olmak üzere Micros
 
 ### Aspose.Words for .NET için geçici lisansı nasıl alabilirim?
 
- Aspose.Words for .NET için geçici bir lisansı şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/)Bu, kütüphanenin tüm özelliklerini herhangi bir sınırlama olmaksızın denemenize olanak tanır.
+Aspose.Words for .NET için geçici bir lisansı şuradan alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/)Bu, kütüphanenin tüm özelliklerini herhangi bir sınırlama olmaksızın denemenize olanak tanır.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Aspose.Words for .NET için ayrıntılı belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET için ayrıntılı belgeleri bulabilirsiniz [Burada](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

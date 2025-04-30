@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-vba-macros/create-vba-project/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Vba Project in Word Document
@@ -145,9 +148,13 @@ VBA modules can be of different types, such as Procedural Modules (for functions
 ### Where can I purchase Aspose.Words for .NET?  
 You can buy Aspose.Words for .NET from the [purchase page](https://purchase.aspose.com/buy).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fields/field-display-results/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Field Display Results
@@ -105,9 +108,13 @@ Fields requiring user input (like form fields) will need to be filled out manual
 ### Is it possible to display field results in a different format?  
 The `DisplayResult` property provides the formatted output. If you need a different format, consider additional processing based on your requirements.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

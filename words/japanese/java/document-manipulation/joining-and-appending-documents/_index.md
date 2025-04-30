@@ -1,22 +1,24 @@
 ---
-title: Aspose.Words for Java でのドキュメントの結合と追加
-linktitle: ドキュメントの結合と追加
-second_title: Aspose.Words Java ドキュメント処理 API
-description: Aspose.Words for Java を使用して、ドキュメントを簡単に結合および追加する方法を学びます。書式設定を保持し、ヘッダーやフッターなどを管理します。
-weight: 30
-url: /ja/java/document-manipulation/joining-and-appending-documents/
+"description": "Aspose.Words for Java を使って、ドキュメントを簡単に結合・追加する方法を学びましょう。書式設定の保持、ヘッダーやフッターの管理など、様々な機能をご利用いただけます。"
+"linktitle": "ドキュメントの結合と追加"
+"second_title": "Aspose.Words Java ドキュメント処理 API"
+"title": "Aspose.Words for Java でドキュメントを結合および追加する"
+"url": "/ja/java/document-manipulation/joining-and-appending-documents/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でのドキュメントの結合と追加
+# Aspose.Words for Java でドキュメントを結合および追加する
 
 
 ## Aspose.Words for Java でのドキュメントの結合と追加の概要
 
-このチュートリアルでは、Aspose.Words for Java ライブラリを使用してドキュメントを結合および追加する方法について説明します。書式と構造を維持しながら、複数のドキュメントをシームレスに結合する方法を学習します。
+このチュートリアルでは、Aspose.Words for Javaライブラリを使用してドキュメントを結合および追加する方法を学びます。書式と構造を維持しながら、複数のドキュメントをシームレスに結合させる方法を学びます。
 
 ## 前提条件
 
@@ -40,7 +42,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### 空白のドキュメントに追加
+### 空白の文書に追加
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -55,27 +57,27 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); //NUMPAGESフィールドを変換する
-dstDoc.updatePageLayout(); //正しい番号付けのためにページレイアウトを更新します
+convertNumPageFieldsToPageRef(dstDoc); // NUMPAGESフィールドを変換する
+dstDoc.updatePageLayout(); // 正しい番号付けのためにページレイアウトを更新します
 ```
 
 ## 異なるページ設定の処理
 
-異なるページ設定のドキュメントを追加する場合:
+異なるページ設定を持つドキュメントを追加する場合:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-//ページ設定が宛先ドキュメントと一致していることを確認する
+// ページ設定が宛先ドキュメントと一致していることを確認します
 ```
 
-## 異なるスタイルのドキュメントを結合する
+## 異なるスタイルの文書を結合する
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## スマートスタイルの動作
+## スマートスタイル行動
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -124,32 +126,37 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## 結論
 
-Aspose.Words for Java は、書式設定の維持、さまざまなページ設定の処理、ヘッダーとフッターの管理など、ドキュメントを結合および追加するための柔軟で強力なツールを提供します。これらの手法を試して、特定のドキュメント処理のニーズを満たしてください。
+Aspose.Words for Java は、書式設定の維持、異なるページ設定の扱い、ヘッダーとフッターの管理など、ドキュメントの結合や追加を行うための柔軟で強力なツールを提供します。これらのテクニックを試して、特定のドキュメント処理ニーズを満たしてください。
 
 ## よくある質問
 
 ### 異なるスタイルのドキュメントをシームレスに結合するにはどうすればよいでしょうか?
 
-異なるスタイルの文書を結合するには、`ImportFormatMode.USE_DESTINATION_STYLES`追加するとき。
+異なるスタイルの文書を結合するには、 `ImportFormatMode.USE_DESTINATION_STYLES` 追加するとき。
 
 ### ドキュメントを追加するときにページ番号を保持できますか?
 
-はい、ページ番号を維持するには、`convertNumPageFieldsToPageRef`メソッドとページ レイアウトの更新について説明します。
+はい、ページ番号を維持するには、 `convertNumPageFieldsToPageRef` メソッドとページ レイアウトの更新について説明します。
 
-### スマートスタイルビヘイビアとは何ですか?
+### スマート スタイル ビヘイビアとは何ですか?
 
-スマートスタイルビヘイビアは、ドキュメントを追加するときに一貫したスタイルを維持するのに役立ちます。`ImportFormatOptions`より良い結果を得るために。
+スマートスタイルビヘイビアは、ドキュメントを追加する際に一貫したスタイルを維持するのに役立ちます。 `ImportFormatOptions` より良い結果を得るために。
 
 ### ドキュメントを追加するときにテキスト ボックスをどのように処理すればよいですか?
 
-セット`importFormatOptions.setIgnoreTextBoxes(false)`追加時にテキスト ボックスを含めます。
+セット `importFormatOptions.setIgnoreTextBoxes(false)` 追加時にテキスト ボックスを含めます。
 
 ### ドキュメント間でヘッダーとフッターをリンク/リンク解除したい場合はどうすればよいでしょうか?
 
-ヘッダーとフッターをリンクすることができます`linkToPrevious(true)`またはリンクを解除する`linkToPrevious(false)`必要に応じて。
+ヘッダーとフッターをリンクすることができます `linkToPrevious(true)` またはリンクを解除する `linkToPrevious(false)` 必要に応じて。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

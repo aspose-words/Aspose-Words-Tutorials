@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj na odstępy między komórkami
-linktitle: Zezwalaj na odstępy między komórkami
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak zezwolić na odstępy między komórkami w tabeli za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi. Idealne dla programistów, którzy chcą ulepszyć formatowanie dokumentów Word.
-weight: 10
-url: /pl/net/programming-with-table-styles-and-formatting/allow-cell-spacing/
+"description": "Dowiedz się, jak zezwolić na odstępy między komórkami w tabeli za pomocą Aspose.Words dla .NET z naszym szczegółowym przewodnikiem. Idealne dla programistów, którzy chcą ulepszyć formatowanie dokumentów Word."
+"linktitle": "Zezwalaj na odstępy między komórkami"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Zezwalaj na odstępy między komórkami"
+"url": "/pl/net/programming-with-table-styles-and-formatting/allow-cell-spacing/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj na odstępy między komórkami
@@ -21,7 +23,7 @@ Witamy w tym kompleksowym przewodniku, jak zezwolić na odstępy między komórk
 
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Środowisko programistyczne, takie jak Visual Studio.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna.
 
@@ -37,7 +39,7 @@ using Aspose.Words.Tables;
 
 ## Przewodnik krok po kroku
 
-Teraz omówimy proces ustalania odstępów między komórkami w tabeli w kilku łatwych do wykonania krokach.
+Teraz omówimy proces ustalania odstępów między komórkami w tabeli w kilku łatwych do naśladowania krokach.
 
 ## Krok 1: Konfigurowanie projektu
 
@@ -65,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### Krok 2.2: Załaduj dokument
 
- Teraz załaduj dokument za pomocą`Document` klasa z Aspose.Words.
+Teraz załaduj dokument za pomocą `Document` klasa z Aspose.Words.
 
 ```csharp
 Document doc = new Document(dataDir + "Tables.docx");
@@ -87,7 +89,7 @@ Teraz włączmy odstępy między komórkami w tabeli.
 
 ### Krok 4.1: Zezwól na odstępy między komórkami
 
- Ustaw`AllowCellSpacing` właściwość tabeli do`true`.
+Ustaw `AllowCellSpacing` właściwość tabeli do `true`.
 
 ```csharp
 table.AllowCellSpacing = true;
@@ -105,7 +107,7 @@ table.CellSpacing = 2;
 
 Na koniec zapisz zmodyfikowany dokument w wybranym katalogu.
 
- Użyj`Save` metoda zapisywania dokumentu.
+Użyj `Save` metoda zapisywania dokumentu.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTableStylesAndFormatting.AllowCellSpacing.docx");
@@ -131,14 +133,19 @@ Możesz zainstalować Aspose.Words dla .NET za pomocą NuGet Package Manager w V
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Words dla .NET?
 
- Tak, możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Words dla .NET?
 
- Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/words/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

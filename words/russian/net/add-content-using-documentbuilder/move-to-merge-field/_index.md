@@ -1,14 +1,16 @@
 ---
-title: Переместить в поле слияния в документе Word
-linktitle: Переместить в поле слияния в документе Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как перейти к полю слияния в документе Word с помощью Aspose.Words для .NET с помощью нашего комплексного пошагового руководства. Идеально подходит для разработчиков .NET.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/move-to-merge-field/
+"description": "Узнайте, как перейти к полю слияния в документе Word с помощью Aspose.Words для .NET с помощью нашего комплексного пошагового руководства. Идеально подходит для разработчиков .NET."
+"linktitle": "Переместить в поле слияния в документе Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Переместить в поле слияния в документе Word"
+"url": "/ru/net/add-content-using-documentbuilder/move-to-merge-field/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Переместить в поле слияния в документе Word
@@ -21,8 +23,8 @@ url: /ru/net/add-content-using-documentbuilder/move-to-merge-field/
 
 Прежде чем мы перейдем к сути, давайте выстроим наши утки в ряд. Вот что вам нужно, чтобы начать:
 
--  Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Если нет, вы можете скачать ее[здесь](https://visualstudio.microsoft.com/).
--  Aspose.Words для .NET: Вам нужна библиотека Aspose.Words. Вы можете загрузить ее с[эта ссылка](https://releases.aspose.com/words/net/).
+- Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Если нет, вы можете скачать ее [здесь](https://visualstudio.microsoft.com/).
+- Aspose.Words для .NET: Вам нужна библиотека Aspose.Words. Вы можете загрузить ее с [эта ссылка](https://releases.aspose.com/words/net/).
 - .NET Framework: Убедитесь, что у вас установлен .NET Framework.
 
 ## Импорт пространств имен
@@ -45,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- На этом этапе мы инициализируем новый документ и`DocumentBuilder` объект.`DocumentBuilder` ваш инструмент для создания документа.
+На этом этапе мы инициализируем новый документ и `DocumentBuilder` объект. `DocumentBuilder` ваш инструмент для создания документа.
 
 ## Шаг 2: Вставьте поле слияния
 
@@ -66,7 +68,7 @@ builder.Write(" Text after the field.");
 builder.MoveToDocumentEnd();
 ```
 
- Эта команда перемещает`DocumentBuilder` курсор в конец документа, подготавливая нас к следующим шагам.
+Эта команда перемещает `DocumentBuilder` курсор в конец документа, подготавливая нас к следующим шагам.
 
 ## Шаг 4: Перейдите к полю слияния
 
@@ -103,7 +105,7 @@ else
 builder.Write(" Text immediately after the field.");
 ```
 
-Здесь мы добавляем текст сразу после поля слияния, гарантируя успешность перемещения курсора.
+Здесь мы добавляем текст сразу после поля слияния, гарантируя, что перемещение курсора прошло успешно.
 
 ## Заключение
 
@@ -115,19 +117,24 @@ builder.Write(" Text immediately after the field.");
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам создавать, изменять и преобразовывать документы Word программным способом с использованием платформы .NET.
 
 ### Как установить Aspose.Words для .NET?
- Вы можете загрузить и установить Aspose.Words для .NET с сайта[здесь](https://releases.aspose.com/words/net/). Следуйте инструкциям по установке, представленным на сайте.
+Вы можете загрузить и установить Aspose.Words для .NET с сайта [здесь](https://releases.aspose.com/words/net/). Следуйте инструкциям по установке, представленным на сайте.
 
 ### Могу ли я использовать Aspose.Words для .NET с .NET Core?
- Да, Aspose.Words for .NET совместим с .NET Core. Более подробную информацию можно найти в[документация](https://reference.aspose.com/words/net/).
+Да, Aspose.Words for .NET совместим с .NET Core. Более подробную информацию можно найти в [документация](https://reference.aspose.com/words/net/).
 
 ### Как получить временную лицензию для Aspose.Words?
- Вы можете получить временную лицензию[эта ссылка](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [эта ссылка](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти больше примеров и поддержки Aspose.Words для .NET?
- Для получения дополнительных примеров и поддержки посетите[Форум Aspose.Words для .NET](https://forum.aspose.com/c/words/8).
+Для получения дополнительных примеров и поддержки посетите [Форум Aspose.Words для .NET](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

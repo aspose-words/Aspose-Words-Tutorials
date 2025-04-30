@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/set-outline-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Outline Options in a PDF Document
@@ -108,9 +111,13 @@ Yes, you can remove outlines using PDF editing software, but this isn’t direct
 
 Aspose.Words provides various options such as setting the PDF compliance level, embedding fonts, and adjusting image quality.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

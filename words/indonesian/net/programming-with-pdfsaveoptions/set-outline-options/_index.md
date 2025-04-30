@@ -1,14 +1,16 @@
 ---
-title: Mengatur Opsi Kerangka dalam Dokumen PDF
-linktitle: Mengatur Opsi Kerangka dalam Dokumen PDF
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur opsi kerangka dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Tingkatkan navigasi PDF dengan mengonfigurasi level judul dan kerangka yang diperluas.
-weight: 10
-url: /id/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "Pelajari cara mengatur opsi kerangka dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Tingkatkan navigasi PDF dengan mengonfigurasi level judul dan kerangka yang diperluas."
+"linktitle": "Mengatur Opsi Kerangka dalam Dokumen PDF"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Mengatur Opsi Kerangka dalam Dokumen PDF"
+"url": "/id/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Opsi Kerangka dalam Dokumen PDF
@@ -21,7 +23,7 @@ Saat bekerja dengan dokumen, terutama untuk keperluan profesional atau akademis,
 
 Sebelum memulai, ada beberapa hal yang perlu Anda pastikan:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat[unduh versi terbaru di sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah menginstal Aspose.Words untuk .NET. Jika belum, Anda dapat [unduh versi terbaru di sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan .NET: Anda memerlukan lingkungan pengembangan .NET yang berfungsi, seperti Visual Studio.
 3. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu Anda mengikutinya dengan mudah.
 4. Dokumen Word: Siapkan dokumen Word yang akan diubah menjadi PDF.
@@ -44,11 +46,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Pada potongan kode di atas, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Ini memberi tahu program tempat menemukan dokumen Word.
+Pada potongan kode di atas, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke direktori dokumen Anda. Ini memberi tahu program tempat menemukan dokumen Word.
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
 
- Selanjutnya, Anda perlu mengonfigurasi opsi penyimpanan PDF. Ini termasuk pengaturan bagaimana kerangka harus ditangani dalam keluaran PDF. Anda akan menggunakan`PdfSaveOptions` kelas untuk melakukan ini.
+Selanjutnya, Anda perlu mengonfigurasi opsi penyimpanan PDF. Ini termasuk pengaturan bagaimana kerangka harus ditangani dalam keluaran PDF. Anda akan menggunakan `PdfSaveOptions` kelas untuk melakukan ini.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,7 +60,7 @@ Sekarang, mari kita atur opsi garis besarnya.
 
 ### Tetapkan Tingkat Garis Besar Judul
 
- Itu`HeadingsOutlineLevels` properti menentukan berapa banyak tingkat judul yang harus disertakan dalam kerangka PDF. Misalnya, jika Anda menyetelnya ke 3, maka kerangka PDF akan menyertakan hingga tiga tingkat judul.
+Itu `HeadingsOutlineLevels` properti menentukan berapa banyak tingkat judul yang harus disertakan dalam kerangka PDF. Misalnya, jika Anda menyetelnya ke 3, maka kerangka PDF akan menyertakan hingga tiga tingkat judul.
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
@@ -66,7 +68,7 @@ saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 
 ### Tetapkan Tingkat Garis Besar yang Diperluas
 
- Itu`ExpandedOutlineLevels`properti mengontrol berapa banyak tingkat kerangka yang harus diperluas secara default saat PDF dibuka. Mengaturnya ke 1 akan memperluas judul tingkat atas, sehingga memberikan tampilan yang jelas pada bagian utama.
+Itu `ExpandedOutlineLevels` properti mengontrol berapa banyak tingkat kerangka yang harus diperluas secara default saat PDF dibuka. Mengaturnya ke 1 akan memperluas judul tingkat atas, sehingga memberikan tampilan yang jelas pada bagian utama.
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
@@ -74,7 +76,7 @@ saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 
 ## Langkah 3: Simpan Dokumen sebagai PDF
 
- Setelah opsi dikonfigurasi, Anda siap menyimpan dokumen sebagai PDF. Gunakan`Save` metode dari`Document` kelas dan masukkan jalur berkas dan simpan opsi.
+Setelah opsi dikonfigurasi, Anda siap menyimpan dokumen sebagai PDF. Gunakan `Save` metode dari `Document` kelas dan masukkan jalur berkas dan simpan opsi.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -107,9 +109,14 @@ Ya, Anda dapat menghapus garis luar menggunakan perangkat lunak penyuntingan PDF
 ### Pilihan penyimpanan PDF apa lagi yang dapat saya konfigurasikan dengan Aspose.Words?
 
 Aspose.Words menyediakan berbagai opsi seperti mengatur tingkat kepatuhan PDF, menyematkan font, dan menyesuaikan kualitas gambar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,38 +1,46 @@
 ---
-title: Создать документ Word с таблицей контента в .NET
-weight: 7700
-limit: 
-description: Научитесь создавать документ Word с таблицей контентов с использованием Aspose.Words для .NET. Включено руководство по шагу.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /ru/net/add-content-using-document-builder/insert-table-contents/
+"description": "Научитесь создавать документ Word с оглавлением с помощью Aspose.Words для .NET. Пошаговое руководство включено."
+"title": "Создание документа Word с оглавлением в .NET"
+"url": "/ru/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать документ с таблицей содержания
-Этот пример показывает, как использовать Aspose.Words для .NET для создания документа Word, который включает в себя интерактивную таблицу контентов (TOC), созданную с использованием класса DocumentBuilder. Код иллюстрирует, как вставлять заголовки различных уровней, форматировать их и сохранить полученный документ в виде файла .docx.
+# Создать документ Word с оглавлением
+В этом примере показано, как использовать Aspose.Words для .NET для создания документа Word, включающего интерактивное оглавление (TOC), сгенерированное с помощью класса DocumentBuilder. Код иллюстрирует, как вставлять заголовки различных уровней, форматировать их и сохранять полученный документ в виде файла .docx. Для простой реализации выполните следующие шаги.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке
-1. Предусмотренные условия: убедитесь, что на вашем компьютере установлена .NET.
-2. Установите Aspose.Words: 
-   * Используйте консоль для управления пакетами NuGet:
+## Инструкция по установке
+1. Предварительные условия: Убедитесь, что на вашем компьютере установлен .NET.
+2. Установить Aspose.Words: 
+   - Используйте консоль диспетчера пакетов NuGet:
      ```
      Install-Package Aspose.Words
      ```
-   * Или, поиск "Aspose.Words" в GUI NuGet Package Manager.
+   - Или найдите «Aspose.Words» в графическом интерфейсе диспетчера пакетов NuGet.
 
-## См. также
-[Aspose.Word для документации .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word для ссылок .NET](https://reference.aspose.com/words/net/)
+## Также см.
+[Документация Aspose.Word для .NET](https://docs.aspose.com/words/net/)
+[Aspose.Word для .NET Ссылки](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

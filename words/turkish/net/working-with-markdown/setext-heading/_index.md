@@ -1,14 +1,16 @@
 ---
-title: Settext Başlığı
-linktitle: Settext Başlığı
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimle, Word belge oluşturma ve biçimlendirmeyi otomatikleştirmek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin.
-weight: 10
-url: /tr/net/working-with-markdown/setext-heading/
+"description": "Bu kapsamlı, adım adım eğitimle, Word belge oluşturma ve biçimlendirmeyi otomatikleştirmek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin."
+"linktitle": "Settext Başlığı"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Settext Başlığı"
+"url": "/tr/net/working-with-markdown/setext-heading/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Settext Başlığı
@@ -23,7 +25,7 @@ Koda geçmeden önce ihtiyacımız olan her şeyin mevcut olduğundan emin olal�
 
 1. Geliştirme Ortamı: Visual Studio (veya tercih edilen herhangi bir IDE).
 2. .NET Framework: .NET Framework 4.0 veya üzeri sürümün yüklü olduğundan emin olun.
-3.  Aspose.Words for .NET: Şunları yapabilirsiniz:[en son sürümü indirin](https://releases.aspose.com/words/net/) veya bir tane al[ücretsiz deneme](https://releases.aspose.com/).
+3. Aspose.Words for .NET: Şunları yapabilirsiniz: [en son sürümü indirin](https://releases.aspose.com/words/net/) veya bir tane al [ücretsiz deneme](https://releases.aspose.com/).
 4. Temel C# Bilgisi: C# sözdizimi ve temel programlama kavramlarına aşinalık faydalı olacaktır.
 
 Bunları yerleştirdikten sonra, hazırız!
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belge Oluşturucu Oluşturma
 
- Daha sonra, bir örnek oluşturacağız`DocumentBuilder` sınıf. Bu sınıf Word belgemize içerik eklememize yardımcı olur.
+Daha sonra, bir örnek oluşturacağız `DocumentBuilder` sınıf. Bu sınıf Word belgemize içerik eklememize yardımcı olur.
 
 ```csharp
 // Belgeye içerik eklemek için bir belge oluşturucu kullanın.
@@ -70,7 +72,7 @@ builder.Writeln("This is an H1 tag");
 Başlığımızı ekledikten sonra, bir sonraki paragrafa taşınmaması için stilleri sıfırlamamız gerekiyor.
 
 ```csharp
-//Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
+// Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -100,7 +102,7 @@ builder.Writeln("This is an H3 tag");
 Daha önce olduğu gibi, istenmeyen biçimlendirmeleri önlemek için stilleri sıfırlamamız gerekiyor.
 
 ```csharp
-//Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
+// Paragraflar arasındaki stilleri birleştirmemek için önceki paragraftaki stilleri sıfırlayın.
 builder.Font.Bold = false;
 builder.Font.Italic = false;
 ```
@@ -120,7 +122,7 @@ builder.Writeln("Setext Heading level 2");
 
 ## Adım 9: Belgeyi Kaydetme
 
-İçeriğimizi ekleyip biçimlendirdiğimize göre artık belgeyi kaydetme zamanı geldi.
+İçeriğimizi ekleyip biçimlendirdiğimize göre, artık belgeyi kaydetme zamanı geldi.
 
 ```csharp
 builder.Document.Save(dataDir + "Test.md");
@@ -138,19 +140,24 @@ Ve işte bu kadar! Aspose.Words for .NET kullanarak başlıklar ve biçimlendiri
 Aspose.Words for .NET, geliştiricilerin C# veya VB.NET kullanarak Word belgelerini programlı bir şekilde oluşturmalarına, değiştirmelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Words for .NET'i nasıl yüklerim?
- En son sürümü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/words/net/) veya bir tane al[ücretsiz deneme](https://releases.aspose.com/).
+En son sürümü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/words/net/) veya bir tane al [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.Words for .NET'i .NET Core ile kullanabilir miyim?
 Evet, Aspose.Words for .NET, .NET Core'u destekler ve onu platformlar arası uygulamalarda kullanmanıza olanak tanır.
 
 ### Aspose.Words'ün .NET için ücretsiz bir sürümü var mı?
- Aspose bir teklif sunuyor[ücretsiz deneme](https://releases.aspose.com/) Lisans satın almadan önce kütüphaneyi değerlendirmek için kullanabileceğiniz.
+Aspose bir teklif sunuyor [ücretsiz deneme](https://releases.aspose.com/) Lisans satın almadan önce kütüphaneyi değerlendirmek için kullanabileceğiniz.
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Aspose topluluğundan destek alabilirsiniz[destek forumu](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [destek forumu](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

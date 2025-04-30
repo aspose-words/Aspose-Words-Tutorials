@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Phông chữ trong Aspose.Words cho Java
-linktitle: Sử dụng Phông chữ
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Khám phá định dạng phông chữ trong Aspose.Words for Java; kích thước, kiểu, màu sắc và nhiều hơn nữa. Tạo tài liệu được định dạng đẹp mắt một cách dễ dàng.
-weight: 12
-url: /vi/java/using-document-elements/using-fonts/
+"description": "Khám phá định dạng phông chữ trong Aspose.Words for Java; kích thước, kiểu, màu sắc và nhiều hơn nữa. Tạo tài liệu được định dạng đẹp mắt một cách dễ dàng."
+"linktitle": "Sử dụng Phông chữ"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Phông chữ trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-fonts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Phông chữ trong Aspose.Words cho Java
@@ -24,7 +26,7 @@ Phông chữ đóng vai trò quan trọng trong thiết kế và khả năng đ�
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Aspose.Words cho Thư viện Java: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Words cho Java. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/java/).
+1. Aspose.Words cho Thư viện Java: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Words cho Java. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/java/).
 
 2. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java.
 
@@ -71,20 +73,20 @@ public class FontFormattingDemo {
 }
 ```
 
- Trong đoạn mã này, chúng ta bắt đầu bằng cách tạo một`Document` và một`DocumentBuilder` . Sau đó chúng ta truy cập các thuộc tính phông chữ bằng cách sử dụng`builder.getFont()` và thiết lập các thuộc tính khác nhau như kích thước, độ đậm, màu sắc, tên phông chữ và kiểu gạch chân. Cuối cùng, chúng tôi thêm một số văn bản mẫu và lưu tài liệu với định dạng phông chữ đã chỉ định.
+Trong đoạn mã này, chúng ta bắt đầu bằng cách tạo một `Document` và một `DocumentBuilder`Sau đó chúng ta truy cập các thuộc tính phông chữ bằng cách sử dụng `builder.getFont()` và thiết lập các thuộc tính khác nhau như kích thước, độ đậm, màu sắc, tên phông chữ và kiểu gạch chân. Cuối cùng, chúng tôi thêm một số văn bản mẫu và lưu tài liệu với định dạng phông chữ đã chỉ định.
 
 ## Phần kết luận
 
 Xin chúc mừng! Bạn đã học cách làm việc với phông chữ trong Aspose.Words for Java. Kiến thức này sẽ giúp bạn tạo ra các tài liệu được định dạng đẹp mắt phù hợp với yêu cầu cụ thể của mình.
 
- Nếu bạn chưa làm,[tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/) ngay bây giờ và bắt đầu nâng cao khả năng xử lý tài liệu của bạn.
+Nếu bạn chưa làm, [tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/) ngay bây giờ và bắt đầu nâng cao khả năng xử lý tài liệu của bạn.
 
- Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, đừng ngần ngại liên hệ với[Diễn đàn cộng đồng Aspose.Words](https://forum.aspose.com/).
+Nếu có bất kỳ câu hỏi hoặc hỗ trợ nào, đừng ngần ngại liên hệ với [Diễn đàn cộng đồng Aspose.Words](https://forum.aspose.com/).
 
 ## Câu hỏi thường gặp
 
 ### H: Làm thế nào để thay đổi kích thước phông chữ cho một phần văn bản cụ thể trong tài liệu?
- A: Bạn có thể sử dụng`Font.setSize()` phương pháp thiết lập kích thước phông chữ cho văn bản mong muốn.
+A: Bạn có thể sử dụng `Font.setSize()` phương pháp thiết lập kích thước phông chữ cho văn bản mong muốn.
 
 ### H: Có thể áp dụng nhiều phông chữ khác nhau cho tiêu đề và nội dung văn bản trong một tài liệu không?
 A: Có, bạn có thể áp dụng nhiều phông chữ khác nhau cho nhiều phần khác nhau của tài liệu bằng Aspose.Words for Java.
@@ -93,13 +95,18 @@ A: Có, bạn có thể áp dụng nhiều phông chữ khác nhau cho nhiều p
 A: Có, bạn có thể sử dụng phông chữ tùy chỉnh bằng cách chỉ định đường dẫn tệp phông chữ.
 
 ### H: Làm thế nào để thay đổi màu phông chữ cho văn bản?
- A: Bạn có thể sử dụng`Font.setColor()` phương pháp thiết lập màu chữ.
+A: Bạn có thể sử dụng `Font.setColor()` phương pháp thiết lập màu chữ.
 
 ### H: Có giới hạn nào về số lượng phông chữ tôi có thể sử dụng trong một tài liệu không?
 A: Aspose.Words for Java hỗ trợ nhiều loại phông chữ và thường không có giới hạn nghiêm ngặt nào về số lượng phông chữ bạn có thể sử dụng trong một tài liệu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,53 +1,61 @@
 ---
-title: Word Belgesine Bölge Çarşı Ekle .NET için Aspose.Words
-weight: 7700
-limit: 
-description: .NET için Aspose.Words kullanarak bir Word belgesine bir alan çizelgesini nasıl ekleyeceğinizi öğrenin.
-keywords: [Aspose.Words for .NET, insert area chart, Word document chart, area chart example, C# Word chart tutorial, Aspose.Words charting, Word chart example]
-url: /tr/net/working-with-charts/insert-area-chart/
+"description": "Aspose.Words for .NET kullanarak bir Word belgesine alan grafiğinin nasıl ekleneceğini öğrenin. Kod örnekleri ve görsellerle adım adım talimatları izleyin."
+"title": "Word Belgesine Alan Grafiği Ekleme | Aspose.Words for .NET"
+"url": "/tr/net/working-with-charts/insert-area-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgesine Alan Çarşısı Ekle 
+# Word Belgesine Alan Grafiği Ekleme 
 
-.NET için Aspose.Words dinamik ve görsel olarak çekici tablolar eklemeni kolaylaştırır. Bu öğretim kitabı bir Word belgesine bir alan çizelgesini programsal olarak nasıl ekleyeceğinizi gösterir. Verilen adım adım rehberinde belge başlangıç yapılması, bir alan çizelgesi eklemesi, özel veri noktaları ile veri dizisi eklemesi ve son belgeyi kaydetmek içerir.
+Aspose.Words for .NET, Word belgelerine dinamik ve görsel olarak çekici grafikler eklemeyi kolaylaştırır. Bu eğitim, bir Word belgesine programatik olarak bir alan grafiğinin nasıl ekleneceğini gösterir. Sağlanan adım adım kılavuz, belgeyi başlatmayı, bir alan grafiği eklemeyi, özel veri noktalarıyla veri serileri eklemeyi ve son belgeyi kaydetmeyi içerir. Belge otomasyon iş akışlarını grafik yetenekleriyle geliştirmek isteyen geliştiriciler için mükemmeldir.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/working-with-charts/bounds-of-axis" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-Bu örneği takip etmek için .NET için Aspose.Words yüklendiğinden emin olun.  
+Bu örneği takip etmek için, Aspose.Words for .NET'in yüklü olduğundan emin olun. Başlamak için yapmanız gerekenler şunlardır:  
 
-1. .NET için Aspose.Words indir:  
-   Ziyaret edin .[Aspose.Words indirme sayfası](https://releases.aspose.com/words/net/)Ve en son versiyonu indir.  
+1. .NET için Aspose.Words'ü indirin:  
+   Ziyaret edin [Aspose.Words indirme sayfası](https://releases.aspose.com/words/net/) ve en son sürümü indirin.  
 
-2. NuGet Paket Yöneticisi üzerinden yükle:  
-   Projeyi Visual Studio'da açın ve Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
+2. NuGet Paket Yöneticisi aracılığıyla kurulum:  
+   Projenizi Visual Studio'da açın ve Paket Yöneticisi Konsolunda aşağıdaki komutu çalıştırın:  
    ```bash
    Install-Package Aspose.Words
    ```  
 
-3. Lisans başvurusu (Önemli):  
-   Değerlendirme sınırlamaları olmadan tam işlevsellik için lisans başvurun.[\- Evet.](https://purchase.aspose.com/buy)veya bir [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license)\- Evet .  
+3. Lisans Başvurusu Yapın (İsteğe bağlı):  
+   Değerlendirme sınırlamaları olmadan tam işlevsellik için bir lisans uygulayın. Bir lisans satın alın [Burada](https://purchase.aspose.com/buy) veya bir talepte bulunun [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license).  
 
-4. Ad Alanı İpuçlarını Ekle:  
-   Projenize aşağıdaki isim alanlarının dahil edildiğinden emin olun:  
+4. Ad Alanı Referanslarını Ekleyin:  
+   Projenizde aşağıdaki ad alanlarının bulunduğundan emin olun:  
    ```csharp
    using Aspose.Words;
    using Aspose.Words.Drawing;
    using Aspose.Words.Drawing.Charts;
    ```  
 
-## Ayrıca bakın
-[Aspose.Word for .NET Dokümanlaması](https://docs.aspose.com/words/net/)
-[Aspose.Word for .NET References için](https://reference.aspose.com/words/net/)
+## Ayrıca Bakınız
+[Aspose.Word for .NET Belgeleri](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET Referansları](https://reference.aspose.com/words/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

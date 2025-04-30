@@ -1,27 +1,34 @@
 ---
-title: معالجة الكلمات باستخدام Officemath
-linktitle: معالجة الكلمات باستخدام Officemath
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: استكشف معالجة الكلمات باستخدام صيغ الرياضيات المكتبية في Aspose.Words لـ .NET. دروس تعليمية خطوة بخطوة وعينة من التعليمات البرمجية لإنشاء وتحرير وتنسيق معادلات الرياضيات في مستندات Word.
-weight: 1550
-url: /ar/net/programming-with-officemath/
+"description": "استكشف معالجة الكلمات باستخدام صيغ الرياضيات المكتبية في Aspose.Words لـ .NET. دروس تعليمية خطوة بخطوة ونماذج من التعليمات البرمجية لإنشاء وتحرير وتنسيق معادلات رياضية في مستندات Word."
+"linktitle": "معالجة الكلمات باستخدام Officemath"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "معالجة الكلمات باستخدام Officemath"
+"url": "/ar/net/programming-with-officemath/"
+"weight": 1550
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # معالجة الكلمات باستخدام Officemath
 
-سترشدك دروس Aspose.Words for .NET حول معالجة الكلمات باستخدام OfficeMath خلال استخدام وظيفة OfficeMath لمعالجة المعادلات الرياضية وتنسيقها في مستندات Word. ستتعلم كيفية إنشاء المعادلات الرياضية وتعديلها وحذفها، بالإضافة إلى كيفية تطبيق أنماط وتنسيقات محددة. ستوفر لك هذه الدروس فهمًا متعمقًا لمعالجة المعادلات الرياضية في مستندات Word.
+سترشدك دروس Aspose.Words لـ .NET حول معالجة الكلمات باستخدام OfficeMath إلى كيفية استخدام وظائف OfficeMath لمعالجة المعادلات الرياضية وتنسيقها في مستندات Word. ستتعلم كيفية إنشاء المعادلات الرياضية وتعديلها وحذفها، بالإضافة إلى كيفية تطبيق أنماط وتنسيقات محددة. ستوفر لك هذه الدروس فهمًا متعمقًا لمعالجة المعادلات الرياضية في مستندات Word.
 
  ## دروس تعليمية
-| عنوان | وصف |
+| العنوان | الوصف |
 | --- | --- |
-| [معادلات الرياضيات](./math-equations/) | تعرف على كيفية تكوين المعادلات الرياضية في مستندات Word باستخدام Aspose.Words for .NET. دليل خطوة بخطوة مع الأمثلة والأسئلة الشائعة والمزيد. |
+| [معادلات الرياضيات](./math-equations/) | تعلّم كيفية إعداد المعادلات الرياضية في مستندات Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة والمزيد. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

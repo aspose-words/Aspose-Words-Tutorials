@@ -1,14 +1,16 @@
 ---
-title: Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia
-linktitle: Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara membuat baris tanda tangan baru dan mengatur ID penyedia dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah.
-weight: 10
-url: /id/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Pelajari cara membuat baris tanda tangan baru dan mengatur ID penyedia dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah."
+"linktitle": "Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia"
+"url": "/id/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia
@@ -21,14 +23,14 @@ Hai, para penggemar teknologi! Pernahkah Anda bertanya-tanya bagaimana cara mena
 
 Sebelum kita mulai mengotori tangan kita, mari kita pastikan kita sudah punya semua yang kita butuhkan:
 
-1.  Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduh[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Jika Anda belum melakukannya, unduhlah [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Visual Studio atau lingkungan pengembangan C# lainnya.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework.
 4. Sertifikat PFX: Untuk menandatangani dokumen, Anda memerlukan sertifikat PFX. Anda bisa mendapatkannya dari otoritas sertifikat tepercaya.
 
 ## Mengimpor Ruang Nama
 
-Hal pertama yang pertama, mari impor namespace yang diperlukan dalam proyek C# Anda:
+Hal pertama yang terpenting, mari impor namespace yang diperlukan dalam proyek C# Anda:
 
 ```csharp
 using Aspose.Words;
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Dalam cuplikan ini, kami menginisialisasi yang baru`Document` dan sebuah`DocumentBuilder` . Itu`DocumentBuilder` membantu kita menambahkan elemen ke dokumen kita.
+Dalam cuplikan ini, kami menginisialisasi yang baru `Document` dan sebuah `DocumentBuilder`. Itu `DocumentBuilder` membantu kita menambahkan elemen ke dokumen kita.
 
 ## Langkah 2: Tentukan Opsi Baris Tanda Tangan
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Di sini,`InsertSignatureLine` metode menambahkan baris tanda tangan, dan kami menetapkan ID penyedia yang unik padanya.
+Di sini, `InsertSignatureLine` metode menambahkan baris tanda tangan, dan kami menetapkan ID penyedia yang unik padanya.
 
 ## Langkah 4: Simpan Dokumen
 
@@ -116,7 +118,7 @@ Untuk menandatangani dokumen, kita akan menggunakan sertifikat PFX. Mari kita bu
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Pastikan untuk mengganti`"morzal.pfx"` dengan file sertifikat Anda yang sebenarnya dan`"aw"` dengan kata sandi sertifikat Anda.
+Pastikan untuk mengganti `"morzal.pfx"` dengan file sertifikat Anda yang sebenarnya dan `"aw"` dengan kata sandi sertifikat Anda.
 
 ## Langkah 7: Tandatangani Dokumen
 
@@ -136,7 +138,7 @@ Nah, itu dia! Anda telah berhasil membuat baris tanda tangan baru dan menetapkan
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan tampilan baris tanda tangan?
- Tentu saja! Anda dapat mengubah berbagai opsi di`SignatureLineOptions`untuk memenuhi kebutuhan Anda.
+Tentu saja! Anda dapat mengubah berbagai opsi di `SignatureLineOptions` untuk memenuhi kebutuhan Anda.
 
 ### Bagaimana jika saya tidak memiliki sertifikat PFX?
 Anda perlu memperolehnya dari otoritas sertifikat tepercaya. Sertifikat ini penting untuk menandatangani dokumen secara digital.
@@ -149,9 +151,14 @@ Ya, Aspose.Words untuk .NET mendukung .NET Core, membuatnya serbaguna untuk berb
 
 ### Seberapa amankah tanda tangan digital?
 Tanda tangan digital yang dibuat dengan Aspose.Words sangat aman, asalkan Anda menggunakan sertifikat yang valid dan tepercaya.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

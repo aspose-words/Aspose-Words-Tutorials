@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Paragraf Stili Ayırıcısını Alın
-linktitle: Word Belgesinde Paragraf Stili Ayırıcısını Alın
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerindeki paragraf stili ayırıcılarını nasıl belirleyeceğinizi ve kullanacağınızı öğrenin.
-weight: 10
-url: /tr/net/document-formatting/get-paragraph-style-separator/
+"description": "Bu kapsamlı, adım adım eğitimle Aspose.Words for .NET'i kullanarak Word belgelerindeki paragraf stili ayraçlarını nasıl belirleyeceğinizi ve kullanacağınızı öğrenin."
+"linktitle": "Word Belgesinde Paragraf Stili Ayırıcısını Alın"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Paragraf Stili Ayırıcısını Alın"
+"url": "/tr/net/document-formatting/get-paragraph-style-separator/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Paragraf Stili Ayırıcısını Alın
@@ -23,7 +25,7 @@ Hiç Word belgesinin labirentinde gezinmeyi denediniz mi, sadece o sinsi paragra
 Koda geçmeden önce ihtiyacınız olan tüm araçlara sahip olduğunuzdan emin olalım:
 
 - Visual Studio: Yüklü olduğundan emin olun. Değilse, Microsoft web sitesinden indirip yükleyin.
-- Aspose.Words for .NET: Eğer henüz sahip değilseniz, en son sürümü edinin[Burada](https://releases.aspose.com/words/net/).
+- Aspose.Words for .NET: Eğer henüz sahip değilseniz, en son sürümü edinin [Burada](https://releases.aspose.com/words/net/).
 - Örnek Bir Word Belgesi: Bu, üzerinde çalışmamız için paragraf stili ayırıcıları içermelidir. Bir tane oluşturabilir veya mevcut bir belgeyi kullanabilirsiniz.
 
 ## Ad Alanlarını İçe Aktar
@@ -43,7 +45,7 @@ Tamam, bunu adım adım parçalayalım. Sıfırdan başlayıp o sinir bozucu par
 Koda geçmeden önce projenizi Visual Studio'da kuralım.
 
 1. Yeni Bir Proje Oluşturun: Visual Studio'yu açın ve yeni bir Konsol Uygulaması (.NET Framework) projesi oluşturun.
-2.  Aspose.Words for .NET'i yükleyin: Aspose.Words for .NET kitaplığını yüklemek için NuGet Paket Yöneticisi'ni kullanın. Basitçe şunu arayın:`Aspose.Words` ve 'Yükle'ye tıklayın.
+2. Aspose.Words for .NET'i yükleyin: Aspose.Words for .NET kitaplığını yüklemek için NuGet Paket Yöneticisi'ni kullanın. Basitçe şunu arayın: `Aspose.Words` ve 'Yükle'ye tıklayın.
 
 ## Adım 2: Word Belgenizi Yükleyin
 
@@ -55,7 +57,7 @@ Artık projeniz kurulduğuna göre, üzerinde çalışacağımız Word belgesini
     string dataDir = "YOUR DOCUMENT DIRECTORY";
     ```
 
-2.  Belgeyi Yükle: Şunu kullanın:`Document` Belgenizi yüklemek için Aspose.Words sınıfından yararlanın.
+2. Belgeyi Yükle: Şunu kullanın: `Document` Belgenizi yüklemek için Aspose.Words sınıfından yararlanın.
 
     ```csharp
     Document doc = new Document(dataDir + "Document.docx");
@@ -65,7 +67,7 @@ Artık projeniz kurulduğuna göre, üzerinde çalışacağımız Word belgesini
 
 Belgeniz yüklendikten sonra, paragraflar arasında gezinip stil ayraçlarını belirlemenin zamanı geldi.
 
-1.  Tüm Paragrafları Al: Belgedeki tüm paragrafları şu şekilde alın:`GetChildNodes` yöntem.
+1. Tüm Paragrafları Al: Belgedeki tüm paragrafları şu şekilde alın: `GetChildNodes` yöntem.
 
     ```csharp
     foreach (Paragraph paragraph in doc.GetChildNodes(NodeType.Paragraph, true))
@@ -95,20 +97,25 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak bir Word belgesinde par
 ### Word'de paragraf stil ayırıcısı nedir?
 Paragraf stil ayırıcısı, Word belgelerinde aynı paragraf içindeki farklı stilleri ayırmak için kullanılan özel bir işaretleyicidir.
 
-### Aspose.Words for .NET'i kullanarak stil ayırıcısını değiştirebilir miyim?
+### Aspose.Words for .NET kullanarak stil ayırıcısını değiştirebilir miyim?
 Stil ayırıcılarını tanımlayabilmenize rağmen, bunları doğrudan değiştirmek desteklenmez. Ancak, çevreleyen içeriği düzenleyebilirsiniz.
 
 ### Aspose.Words for .NET, .NET Core ile uyumlu mudur?
 Evet, Aspose.Words for .NET hem .NET Framework hem de .NET Core ile uyumludur.
 
 ### Aspose.Words için desteği nereden alabilirim?
- Destek alabilirsiniz[Aspose.Words forumu](https://forum.aspose.com/c/words/8).
+Destek alabilirsiniz [Aspose.Words forumu](https://forum.aspose.com/c/words/8).
 
 ### Aspose.Words'ü ücretsiz kullanabilir miyim?
- Aspose.Words şunları sunar:[ücretsiz deneme](https://releases.aspose.com/) ve ayrıca sağlar[geçici lisanslar](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+Aspose.Words şunları sunar: [ücretsiz deneme](https://releases.aspose.com/) ve ayrıca sağlar [geçici lisanslar](https://purchase.aspose.com/temporary-license/) Değerlendirme için.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

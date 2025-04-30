@@ -1,14 +1,16 @@
 ---
-title: Dokumentum nyomtatása a PrintDialog segítségével
-linktitle: Dokumentum nyomtatása a PrintDialog segítségével
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan nyomtathat dokumentumokat az Aspose.Words for Java használatával a PrintDialog segítségével. Ebben a lépésenkénti útmutatóban testreszabhatja a beállításokat, nyomtathat konkrét oldalakat stb.
-weight: 14
-url: /hu/java/document-printing/print-document-printdialog/
+"description": "Tanulja meg, hogyan nyomtathat dokumentumokat az Aspose.Words for Java használatával a PrintDialog segítségével. Szabja testre a beállításokat, nyomtasson ki adott oldalakat és sok mást ebben a lépésről lépésre szóló útmutatóban."
+"linktitle": "Dokumentum nyomtatása a PrintDialog segítségével"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentum nyomtatása a PrintDialog segítségével"
+"url": "/hu/java/document-printing/print-document-printdialog/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentum nyomtatása a PrintDialog segítségével
@@ -17,29 +19,29 @@ url: /hu/java/document-printing/print-document-printdialog/
 
 ## Bevezetés
 
-A dokumentumok nyomtatása sok Java alkalmazásban általános követelmény. Az Aspose.Words for Java leegyszerűsíti ezt a feladatot, mivel kényelmes API-t biztosít a dokumentumok kezeléséhez és nyomtatásához.
+A dokumentumok nyomtatása számos Java alkalmazásban gyakori követelmény. Az Aspose.Words for Java leegyszerűsíti ezt a feladatot azáltal, hogy kényelmes API-t biztosít a dokumentumok kezeléséhez és nyomtatásához.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren.
--  Aspose.Words for Java: A könyvtár letölthető innen[itt](https://releases.aspose.com/words/java/).
+- Java fejlesztőkészlet (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszerén.
+- Aspose.Words Java-hoz: A könyvtárat innen töltheti le: [itt](https://releases.aspose.com/words/java/).
 
-## A Java projekt beállítása
+## Java projekt beállítása
 
-kezdéshez hozzon létre egy új Java-projektet a kívánt integrált fejlesztési környezetben (IDE). Győződjön meg arról, hogy a JDK telepítve van.
+Első lépésként hozz létre egy új Java projektet a kívánt integrált fejlesztői környezetben (IDE). Győződj meg róla, hogy telepítve van a JDK.
 
-## Az Aspose.Words for Java hozzáadása projektjéhez
+## Aspose.Words hozzáadása Java projekthez
 
-Az Aspose.Words for Java használatához a projektben kövesse az alábbi lépéseket:
+Az Aspose.Words for Java használatához a projektedben kövesd az alábbi lépéseket:
 
-- Töltse le az Aspose.Words for Java könyvtárat a webhelyről.
-- Adja hozzá a JAR-fájlt a projekt osztályútvonalához.
+- Töltsd le az Aspose.Words for Java könyvtárat a weboldalról.
+- Adja hozzá a JAR fájlt a projekt osztályútvonalához.
 
 ## Dokumentum nyomtatása a PrintDialog segítségével
 
-Most írjunk néhány Java-kódot egy dokumentum nyomtatásához egy PrintDialog segítségével az Aspose.Words használatával. Alább egy alapvető példa:
+Most írjunk egy Java kódot egy dokumentum nyomtatásához egy PrintDialog segítségével az Aspose.Words használatával. Az alábbiakban egy alapvető példa látható:
 
 ```java
 import com.aspose.words.Document;
@@ -51,10 +53,10 @@ public class PrintDocumentWithDialog {
         // Töltse be a dokumentumot
         Document doc = new Document("sample.docx");
 
-        // Inicializálja a Nyomtatóbeállításokat
+        // Nyomtatóbeállítások inicializálása
         PrinterSettings settings = new PrinterSettings();
 
-        // A nyomtatási párbeszédpanel megjelenítése
+        // Nyomtatási párbeszédpanel megjelenítése
         if (settings.showPrintDialog()) {
             // Nyomtassa ki a dokumentumot a kiválasztott beállításokkal
             doc.print(settings);
@@ -63,21 +65,21 @@ public class PrintDocumentWithDialog {
 }
 ```
 
- Ebben a kódban először az Aspose.Words használatával töltjük be a dokumentumot, majd inicializáljuk a PrinterSettings-t. Használjuk a`showPrintDialog()` módszer a PrintDialog megjelenítésére a felhasználó számára. Miután a felhasználó kiválasztotta a nyomtatási beállításait, kinyomtatjuk a dokumentumot`doc.print(settings)`.
+Ebben a kódban először betöltjük a dokumentumot az Aspose.Words segítségével, majd inicializáljuk a PrinterSettings beállításokat. A `showPrintDialog()` metódus a PrintDialog megjelenítéséhez a felhasználó számára. Miután a felhasználó kiválasztotta a nyomtatási beállításokat, kinyomtatjuk a dokumentumot a következővel: `doc.print(settings)`.
 
 ## A nyomtatási beállítások testreszabása
 
-Testreszabhatja a nyomtatási beállításokat, hogy megfeleljenek az egyedi követelményeknek. Az Aspose.Words for Java különféle lehetőségeket kínál a nyomtatási folyamat szabályozására, például az oldalmargók beállítására, a nyomtató kiválasztására stb. A testreszabással kapcsolatos részletes információkért tekintse meg a dokumentációt.
+nyomtatási beállításokat testreszabhatja az Ön igényeinek megfelelően. Az Aspose.Words for Java számos lehetőséget kínál a nyomtatási folyamat vezérlésére, például az oldalmargók beállítására, a nyomtató kiválasztására és egyebekre. A testreszabással kapcsolatos részletes információkért lásd a dokumentációt.
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan nyomtathat ki egy dokumentumot a PrintDialog segítségével az Aspose.Words for Java használatával. Ez a könyvtár egyszerűvé teszi a dokumentumok kezelését és nyomtatását a Java fejlesztők számára, így időt és erőfeszítést takaríthat meg a dokumentumokkal kapcsolatos feladatok során.
+Ebben az útmutatóban azt vizsgáltuk meg, hogyan nyomtathatunk ki egy dokumentumot PrintDialog segítségével az Aspose.Words for Java használatával. Ez a könyvtár egyszerűvé teszi a dokumentumok kezelését és nyomtatását a Java-fejlesztők számára, időt és energiát takarítva meg a dokumentumokkal kapcsolatos feladatokban.
 
 ## GYIK
 
-### Hogyan állíthatom be az oldal tájolását a nyomtatáshoz?
+### Hogyan tudom beállítani az oldal tájolását nyomtatáshoz?
 
- Az oldal tájolásának (álló vagy fekvő) beállításához a nyomtatáshoz használhatja a`PageSetup` osztályban Aspose.Words. Íme egy példa:
+A nyomtatáshoz szükséges oldaltájolás (álló vagy fekvő) beállításához használhatja a `PageSetup` osztály az Aspose.Words-ben. Íme egy példa:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -87,16 +89,16 @@ pageSetup.setOrientation(Orientation.LANDSCAPE);
 
 ### Kinyomtathatok bizonyos oldalakat egy dokumentumból?
 
- Igen, kinyomtathat bizonyos oldalakat egy dokumentumból, ha megadja az oldaltartományt a dokumentumban`PrinterSettings` objektum. Íme egy példa:
+Igen, kinyomtathat adott oldalakat egy dokumentumból az oldaltartomány megadásával a `PrinterSettings` objektum. Íme egy példa:
 
 ```java
 PrinterSettings settings = new PrinterSettings();
 settings.setPageRange("1-3, 5");
 ```
 
-### Hogyan változtathatom meg a papírméretet a nyomtatáshoz?
+### Hogyan tudom megváltoztatni a papírméretet nyomtatáshoz?
 
- nyomtatáshoz használt papírméret megváltoztatásához használhatja a`PageSetup` osztályt, és állítsa be a`PaperSize` ingatlan. Íme egy példa:
+nyomtatáshoz használt papírméret módosításához használhatja a `PageSetup` osztály és állítsa be a `PaperSize` tulajdonság. Íme egy példa:
 
 ```java
 Document doc = new Document("sample.docx");
@@ -104,16 +106,21 @@ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
 pageSetup.setPaperSize(PaperSize.A4);
 ```
 
-### Az Aspose.Words for Java kompatibilis a különböző operációs rendszerekkel?
+### Kompatibilis az Aspose.Words for Java különböző operációs rendszerekkel?
 
-Igen, az Aspose.Words for Java különféle operációs rendszerekkel kompatibilis, beleértve a Windowst, a Linuxot és a macOS-t.
+Igen, az Aspose.Words for Java kompatibilis számos operációs rendszerrel, beleértve a Windows, Linux és macOS rendszereket.
 
 ### Hol találok további dokumentációt és példákat?
 
- Az Aspose.Words for Java-hoz átfogó dokumentációt és példákat találhat a webhelyen:[Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+Az Aspose.Words for Java átfogó dokumentációját és példáit a következő weboldalon találja: [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

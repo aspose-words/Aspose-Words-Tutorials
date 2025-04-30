@@ -1,24 +1,26 @@
 ---
-title: Documenten afdrukken in Aspose.Words voor Java
-linktitle: Documenten afdrukken
-second_title: Aspose.Words Java Documentverwerkings-API
-description: Leer hoe u documenten kunt afdrukken met Aspose.Words voor Java. Stapsgewijze handleiding voor naadloos afdrukken in uw Java-applicaties.
-weight: 10
-url: /nl/java/printing-documents/printing-documents/
+"description": "Leer hoe u documenten afdrukt met Aspose.Words voor Java. Stapsgewijze handleiding voor naadloos afdrukken in uw Java-applicaties."
+"linktitle": "Documenten afdrukken"
+"second_title": "Aspose.Words Java Documentverwerking API"
+"title": "Documenten afdrukken in Aspose.Words voor Java"
+"url": "/nl/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenten afdrukken in Aspose.Words voor Java
 
 
-Als u documenten wilt afdrukken met Aspose.Words voor Java, bent u hier aan het juiste adres. In deze stapsgewijze handleiding leiden we u door het proces van het afdrukken van documenten met Aspose.Words voor Java met behulp van de meegeleverde broncode.
+Als u documenten wilt afdrukken met Aspose.Words voor Java, bent u hier aan het juiste adres. In deze stapsgewijze handleiding leiden we u door het proces van het afdrukken van documenten met Aspose.Words voor Java, met behulp van de meegeleverde broncode.
 
 ## Invoering
 
-Documenten afdrukken is een veelvoorkomende taak in veel applicaties. Aspose.Words voor Java biedt een krachtige API om met Word-documenten te werken, inclusief de mogelijkheid om ze af te drukken. In deze tutorial leiden we u stap voor stap door het proces van het afdrukken van een Word-document.
+Het afdrukken van documenten is een veelvoorkomende taak in veel applicaties. Aspose.Words voor Java biedt een krachtige API om met Word-documenten te werken, inclusief de mogelijkheid om ze af te drukken. In deze tutorial leiden we je stap voor stap door het proces van het afdrukken van een Word-document.
 
 ## Uw omgeving instellen
 
@@ -29,7 +31,7 @@ Voordat we in de code duiken, moet u ervoor zorgen dat de volgende vereisten aan
 
 ## Het document laden
 
- Om te beginnen moet u het Word-document laden dat u wilt afdrukken. Vervangen`"Your Document Directory"` met het pad naar uw document en`"Your Output Directory"` met de gewenste uitvoermap.
+Om te beginnen moet u het Word-document laden dat u wilt afdrukken. Vervangen `"Your Document Directory"` met het pad naar uw document en `"Your Output Directory"` met de gewenste uitvoermap.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -39,7 +41,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Een afdruktaak maken
 
-Vervolgens maken we een afdruktaak om ons geladen document af te drukken. Het onderstaande codefragment initialiseert een afdruktaak en stelt de gewenste printerinstellingen in.
+Vervolgens maken we een afdruktaak aan om ons geladen document af te drukken. Het onderstaande codefragment initialiseert een afdruktaak en stelt de gewenste printerinstellingen in.
 
 ```java
 // Maak een afdruktaak aan om ons document mee af te drukken.
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <samenvatting>
     /// De constructor van de aangepaste PrintDocument-klasse.
-    // / </samenvatting>
+    /// </summary> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //De begin- en eindindexen van de pagina zoals gedefinieerd in de kenmerkenset.
+        // De begin- en eindindexen van de pagina zoals gedefinieerd in de attributenset.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,12 +134,12 @@ class MultipagePrintDocument implements Printable
                 // De bruikbare retourwaarde is de schaal waarop de pagina is weergegeven.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Teken de paginaranden (de paginaminiatuur kan kleiner zijn dan de miniatuur)
+                // Teken de paginaranden (de paginaminiatuur kan kleiner zijn dan de miniatuur)
                 // tijdelijke aanduiding (grootte).
                 if (mPrintPageBorders) {
                     // Geef de werkelijke 100% grootte van de pagina weer in punten.
                     Point2D.Float pageSize = mDocument.getPageInfo(pageIndex).getSizeInPoints();
-                    // Teken de rand rond de geschaalde pagina met behulp van de bekende schaalfactor.
+                    // Teken de rand rond de geschaalde pagina met de bekende schaalfactor.
                     g.setColor(Color.black);
                     g.drawRect(leftPos, topPos, (int) (pageSize.x * scale), (int) (pageSize.y * scale));
                     // Teken een rand rond de miniatuuraanduiding.
@@ -146,7 +148,7 @@ class MultipagePrintDocument implements Printable
                 }
             } catch (Exception e) {
                 // Als er fouten optreden tijdens het renderen, doe dan niets.
-                // Als er fouten optreden tijdens het renderen, wordt er een lege pagina getekend.
+                // Als er tijdens het renderen fouten optreden, wordt er een lege pagina getekend.
             }
         }
         return Printable.PAGE_EXISTS;
@@ -188,36 +190,41 @@ class MultipagePrintDocument implements Printable
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een Word-document afgedrukt met Aspose.Words voor Java. Deze stapsgewijze handleiding zou u moeten helpen om documentafdrukken naadloos te integreren in uw Java-applicaties.
+Gefeliciteerd! Je hebt met succes een Word-document afgedrukt met Aspose.Words voor Java. Deze stapsgewijze handleiding helpt je om het afdrukken van documenten naadloos te integreren in je Java-applicaties.
 
 ## Veelgestelde vragen
 
 ### V1: Kan ik specifieke pagina's van een document afdrukken met Aspose.Words voor Java?
 
- Ja, u kunt het paginabereik opgeven bij het afdrukken van een document. In het codevoorbeeld gebruikten we`attributes.add(new PageRanges(1, doc.getPageCount()))`om alle pagina's af te drukken. U kunt het paginabereik naar wens aanpassen.
+Ja, u kunt het paginabereik opgeven bij het afdrukken van een document. In het codevoorbeeld gebruikten we `attributes.add(new PageRanges(1, doc.getPageCount()))` om alle pagina's af te drukken. U kunt het paginabereik naar wens aanpassen.
 
-### V2: Is Aspose.Words voor Java geschikt voor batchafdrukken?
+### V2: Is Aspose.Words voor Java geschikt voor batch-afdrukken?
 
-Absoluut! Aspose.Words voor Java is zeer geschikt voor batch-afdruktaken. U kunt door een lijst met documenten itereren en ze één voor één afdrukken met behulp van vergelijkbare code.
+Absoluut! Aspose.Words voor Java is zeer geschikt voor batch-afdruktaken. Je kunt door een lijst met documenten bladeren en ze één voor één afdrukken met behulp van vergelijkbare code.
 
-### V3: Hoe kan ik omgaan met drukfouten of uitzonderingen?
+### V3: Hoe kan ik omgaan met afdruk fouten of uitzonderingen?
 
-U moet alle mogelijke uitzonderingen afhandelen die tijdens het afdrukproces kunnen optreden. Raadpleeg de Aspose.Words for Java-documentatie voor informatie over het afhandelen van uitzonderingen.
+U moet mogelijke uitzonderingen afhandelen die zich tijdens het afdrukproces kunnen voordoen. Raadpleeg de documentatie van Aspose.Words voor Java voor informatie over het afhandelen van uitzonderingen.
 
 ### V4: Kan ik de afdrukinstellingen verder aanpassen?
 
-Ja, u kunt de afdrukinstellingen aanpassen aan uw specifieke vereisten. Bekijk de Aspose.Words voor Java-documentatie voor meer informatie over beschikbare afdrukopties.
+Ja, u kunt de afdrukinstellingen aanpassen aan uw specifieke wensen. Raadpleeg de documentatie van Aspose.Words voor Java voor meer informatie over de beschikbare afdrukopties.
 
 ### V5: Waar kan ik meer hulp en ondersteuning krijgen voor Aspose.Words voor Java?
 
- Voor extra ondersteuning en assistentie kunt u terecht op de[Aspose.Words voor Java-forum](https://forum.aspose.com/).
+Voor extra ondersteuning en hulp kunt u terecht op de [Aspose.Words voor Java-forum](https://forum.aspose.com/).
 
 ---
 
-Nu u succesvol hebt geleerd hoe u documenten kunt afdrukken met Aspose.Words voor Java, kunt u beginnen met het implementeren van deze functionaliteit in uw Java-applicaties. Veel plezier met coderen!
+Nu je succesvol hebt geleerd hoe je documenten kunt afdrukken met Aspose.Words voor Java, kun je deze functionaliteit in je Java-applicaties implementeren. Veel plezier met coderen!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

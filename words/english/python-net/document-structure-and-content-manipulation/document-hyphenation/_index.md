@@ -7,8 +7,11 @@ weight: 17
 url: /python-net/document-structure-and-content-manipulation/document-hyphenation/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Hyphenation and Text Flow in Word Documents
@@ -135,9 +138,13 @@ To prevent widows and orphans, utilize the options provided by Aspose.Words for 
 You can access the API documentation at [https://reference.aspose.com/words/python-net/](https://reference.aspose.com/words/python-net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

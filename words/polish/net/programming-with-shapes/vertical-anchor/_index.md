@@ -1,14 +1,16 @@
 ---
-title: Kotwica pionowa
-linktitle: Kotwica pionowa
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić pionowe pozycje kotwic dla pól tekstowych w dokumentach Worda za pomocą Aspose.Words dla .NET. Łatwy przewodnik krok po kroku w zestawie.
-weight: 10
-url: /pl/net/programming-with-shapes/vertical-anchor/
+"description": "Dowiedz się, jak ustawić pionowe pozycje kotwic dla pól tekstowych w dokumentach Worda za pomocą Aspose.Words dla .NET. Łatwy przewodnik krok po kroku w zestawie."
+"linktitle": "Kotwica pionowa"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Kotwica pionowa"
+"url": "/pl/net/programming-with-shapes/vertical-anchor/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kotwica pionowa
@@ -19,9 +21,9 @@ Czy kiedykolwiek zdarzyło Ci się potrzebować kontrolować, gdzie dokładnie t
 
 ## Wymagania wstępne
 
-Zanim zagłębimy się w szczegóły kotwienia pionowego, musisz mieć kilka rzeczy:
+Zanim zagłębimy się w szczegóły kotwienia pionowego, musisz mieć kilka rzeczy na swoim miejscu:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Words dla .NET. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/words/net/).
 2. Visual Studio: W tym samouczku założono, że do kodowania używasz programu Visual Studio lub innego środowiska IDE .NET.
 3. Podstawowa znajomość języka C#: Znajomość języka C# i .NET pomoże Ci płynnie uczyć się.
 
@@ -41,14 +43,14 @@ Te przestrzenie nazw zawierają klasy potrzebne do pracy z dokumentami i kształ
 Po pierwsze, musisz utworzyć nowy dokument Word. Pomyśl o tym jak o ustawieniu płótna przed rozpoczęciem malowania.
 
 ```csharp
-// Ścieżka do katalogu dokumentów
+// Ścieżka do katalogu dokumentów 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj,`Document` jest twoim pustym płótnem i`DocumentBuilder` jest Twoim pędzlem, dzięki któremu możesz dodawać kształty i tekst.
+Tutaj, `Document` jest twoim pustym płótnem i `DocumentBuilder` jest Twoim pędzlem, dzięki któremu możesz dodawać kształty i tekst.
 
 ## Krok 2: Wstaw kształt pola tekstowego
 
@@ -58,7 +60,7 @@ Teraz dodajmy pole tekstowe do naszego dokumentu. To tutaj będzie się znajdowa
 Shape textBox = builder.InsertShape(ShapeType.TextBox, 200, 200);
 ```
 
- W tym przykładzie,`ShapeType.TextBox` określa pożądany kształt i`200, 200` to szerokość i wysokość pola tekstowego w punktach.
+W tym przykładzie, `ShapeType.TextBox` określa pożądany kształt i `200, 200` to szerokość i wysokość pola tekstowego w punktach.
 
 ## Krok 3: Ustaw kotwicę pionową
 
@@ -68,7 +70,7 @@ Tutaj dzieje się magia! Możesz ustawić pionowe wyrównanie tekstu w polu teks
 textBox.TextBox.VerticalAnchor = TextBoxAnchor.Bottom;
 ```
 
- W tym przypadku,`TextBoxAnchor.Bottom`zapewnia, że tekst będzie zakotwiczony na dole pola tekstowego. Jeśli chcesz, aby był wyśrodkowany lub wyrównany do góry, użyjesz`TextBoxAnchor.Center` Lub`TextBoxAnchor.Top`, odpowiednio.
+W tym przypadku, `TextBoxAnchor.Bottom` zapewnia, że tekst będzie zakotwiczony na dole pola tekstowego. Jeśli chcesz, aby był wyśrodkowany lub wyrównany do góry, użyjesz `TextBoxAnchLub.Center` or `TextBoxAnchor.Top`, odpowiednio.
 
 ## Krok 4: Dodaj tekst do pola tekstowego
 
@@ -79,7 +81,7 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Textbox contents");
 ```
 
- Tutaj,`MoveTo` zapewnia, że tekst zostanie wstawiony do pola tekstowego i`Write` dodaje właściwy tekst.
+Tutaj, `MoveTo` zapewnia, że tekst zostanie wstawiony do pola tekstowego i `Write` dodaje właściwy tekst.
 
 ## Krok 5: Zapisz dokument
 
@@ -91,7 +93,7 @@ doc.Save(dataDir + "WorkingWithShapes.VerticalAnchor.docx");
 
 ## Wniosek
 
-I masz to! Właśnie nauczyłeś się kontrolować pionowe wyrównanie tekstu w polu tekstowym w dokumencie Word za pomocą Aspose.Words dla .NET. Niezależnie od tego, czy zakotwiczasz tekst u góry, na środku czy u dołu, ta funkcja daje Ci precyzyjną kontrolę nad układem dokumentu. Więc następnym razem, gdy będziesz musiał zmienić rozmieszczenie tekstu w dokumencie, będziesz dokładnie wiedział, co zrobić!
+masz to! Właśnie nauczyłeś się kontrolować pionowe wyrównanie tekstu w polu tekstowym w dokumencie Word za pomocą Aspose.Words dla .NET. Niezależnie od tego, czy zakotwiczasz tekst u góry, na środku czy u dołu, ta funkcja daje Ci precyzyjną kontrolę nad układem dokumentu. Więc następnym razem, gdy będziesz musiał zmienić rozmieszczenie tekstu w dokumencie, będziesz dokładnie wiedział, co zrobić!
 
 ## Najczęściej zadawane pytania
 
@@ -102,16 +104,21 @@ Pionowe zakotwiczenie kontroluje położenie tekstu w polu tekstowym, np. wyrów
 Tak, można stosować kotwiczenie pionowe w przypadku innych kształtów, choć najpopularniejszym przypadkiem użycia są pola tekstowe.
 
 ### Jak zmienić punkt kotwiczenia po utworzeniu pola tekstowego?
- Możesz zmienić punkt kotwiczenia, ustawiając`VerticalAnchor` właściwość obiektu kształtu pola tekstowego.
+Możesz zmienić punkt kotwiczenia, ustawiając `VerticalAnchor` właściwość obiektu kształtu pola tekstowego.
 
 ### Czy można zakotwiczyć tekst w środku pola tekstowego?
- Absolutnie! Po prostu użyj`TextBoxAnchor.Center` aby wyśrodkować tekst w pionie w polu tekstowym.
+Absolutnie! Po prostu użyj `TextBoxAnchor.Center` aby wyśrodkować tekst w pionie w polu tekstowym.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Words dla .NET?
- Sprawdź[Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać więcej szczegółów i wskazówek.
+Sprawdź [Dokumentacja Aspose.Words](https://reference.aspose.com/words/net/) aby uzyskać więcej szczegółów i wskazówek.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

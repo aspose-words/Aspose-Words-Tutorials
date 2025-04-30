@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Jarak Antar Tabel di Sekitar Teks
-linktitle: Dapatkan Jarak Antar Tabel di Sekitar Teks
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengambil jarak antara tabel dan teks di sekitarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sempurnakan tata letak dokumen Anda dengan panduan ini.
-weight: 10
-url: /id/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/
+"description": "Pelajari cara mengambil jarak antara tabel dan teks di sekitarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Sempurnakan tata letak dokumen Anda dengan panduan ini."
+"linktitle": "Dapatkan Jarak Antar Tabel di Sekitar Teks"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Jarak Antar Tabel di Sekitar Teks"
+"url": "/id/net/programming-with-table-styles-and-formatting/get-distance-between-table-surrounding-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Jarak Antar Tabel di Sekitar Teks
@@ -21,7 +23,7 @@ Bayangkan Anda sedang mempersiapkan laporan yang menarik atau dokumen penting, d
 
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
-1.  Pustaka Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
+1. Pustaka Aspose.Words untuk .NET: Anda perlu menginstal pustaka Aspose.Words untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari [Rilis Aspose](https://releases.aspose.com/words/net/) halaman.
 2. Lingkungan Pengembangan: Lingkungan pengembangan yang berfungsi dengan .NET Framework yang terpasang. Visual Studio adalah pilihan yang bagus.
 3. Contoh Dokumen: Dokumen Word (.docx) yang berisi setidaknya satu tabel untuk menguji kode.
 
@@ -38,7 +40,7 @@ Sekarang, mari kita uraikan prosesnya menjadi beberapa langkah yang mudah diikut
 
 ## Langkah 1: Muat Dokumen Anda
 
- Langkah pertama adalah memuat dokumen Word Anda ke Aspose.Words`Document` objek. Objek ini mewakili keseluruhan dokumen.
+Langkah pertama adalah memuat dokumen Word Anda ke Aspose.Words `Document` objek. Objek ini mewakili keseluruhan dokumen.
 
 ```csharp
 // Jalur ke direktori dokumen Anda
@@ -50,7 +52,7 @@ Document doc = new Document(dataDir + "Tables.docx");
 
 ## Langkah 2: Akses Tabel
 
- Selanjutnya, Anda perlu mengakses tabel di dalam dokumen Anda.`GetChild` metode ini memungkinkan Anda untuk mengambil tabel pertama yang ditemukan dalam dokumen.
+Selanjutnya, Anda perlu mengakses tabel di dalam dokumen Anda. `GetChild` metode ini memungkinkan Anda untuk mengambil tabel pertama yang ditemukan dalam dokumen.
 
 ```csharp
 // Dapatkan tabel pertama dalam dokumen
@@ -59,7 +61,7 @@ Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
 
 ## Langkah 3: Ambil Nilai Jarak
 
-Setelah Anda memiliki tabel, sekarang saatnya untuk mendapatkan nilai jarak. Nilai-nilai ini mewakili ruang antara tabel dan teks di sekitarnya dari setiap sisi: atas, bawah, kiri, dan kanan.
+Setelah Anda memiliki tabel, saatnya untuk mendapatkan nilai jarak. Nilai-nilai ini mewakili ruang antara tabel dan teks di sekitarnya dari setiap sisi: atas, bawah, kiri, dan kanan.
 
 ```csharp
 // Dapatkan jarak antara tabel dan teks di sekitarnya
@@ -89,10 +91,10 @@ Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah meng
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya menyesuaikan jarak secara terprogram?
- Ya, Anda dapat menyesuaikan jarak secara terprogram menggunakan Aspose.Words dengan mengatur`DistanceTop`, `DistanceBottom`, `DistanceRight` , Dan`DistanceLeft` properti dari`Table` obyek.
+Ya, Anda dapat menyesuaikan jarak secara terprogram menggunakan Aspose.Words dengan mengatur `DistanceTop`Bahasa Indonesia: `DistanceBottom`Bahasa Indonesia: `DistanceRight`, Dan `DistanceLeft` properti dari `Table` obyek.
 
 ### Bagaimana jika dokumen saya memiliki beberapa tabel?
- Anda dapat melakukan pengulangan melalui simpul anak dokumen dan menerapkan metode yang sama ke setiap tabel. Gunakan`GetChildNodes(NodeType.Table, true)` untuk mendapatkan semua tabel.
+Anda dapat melakukan pengulangan melalui simpul anak dokumen dan menerapkan metode yang sama ke setiap tabel. Gunakan `GetChildNodes(NodeType.Table, true)` untuk mendapatkan semua tabel.
 
 ### Bisakah saya menggunakan Aspose.Words dengan .NET Core?
 Tentu saja! Aspose.Words mendukung .NET Core, dan Anda dapat menggunakan kode yang sama dengan sedikit penyesuaian untuk proyek .NET Core.
@@ -101,10 +103,15 @@ Tentu saja! Aspose.Words mendukung .NET Core, dan Anda dapat menggunakan kode ya
 Anda dapat menginstal Aspose.Words untuk .NET melalui NuGet Package Manager di Visual Studio. Cukup cari "Aspose.Words" dan instal paket tersebut.
 
 ### Apakah ada batasan pada jenis dokumen yang didukung oleh Aspose.Words?
- Aspose.Words mendukung berbagai format dokumen, termasuk DOCX, DOC, PDF, HTML, dan banyak lagi. Periksa[dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap format yang didukung.
+Aspose.Words mendukung berbagai format dokumen, termasuk DOCX, DOC, PDF, HTML, dan banyak lagi. Periksa [dokumentasi](https://reference.aspose.com/words/net/) untuk daftar lengkap format yang didukung.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

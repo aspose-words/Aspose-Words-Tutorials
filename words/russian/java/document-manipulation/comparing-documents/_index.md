@@ -1,14 +1,16 @@
 ---
-title: Сравнение документов в Aspose.Words для Java
-linktitle: Сравнение документов
-second_title: API обработки документов Java Aspose.Words
-description: Узнайте, как сравнивать документы в Aspose.Words для Java, мощной библиотеке Java для эффективного анализа документов.
-weight: 28
-url: /ru/java/document-manipulation/comparing-documents/
+"description": "Узнайте, как сравнивать документы в Aspose.Words для Java, мощной библиотеке Java для эффективного анализа документов."
+"linktitle": "Сравнение документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Сравнение документов в Aspose.Words для Java"
+"url": "/ru/java/document-manipulation/comparing-documents/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сравнение документов в Aspose.Words для Java
@@ -20,11 +22,11 @@ url: /ru/java/document-manipulation/comparing-documents/
 
 ## Настройка вашей среды
 
- Прежде чем мы погрузимся в сравнение документов, убедитесь, что у вас установлен Aspose.Words for Java. Вы можете загрузить библиотеку с[Aspose.Words для релизов Java](https://releases.aspose.com/words/java/) страница. После загрузки включите его в свой проект Java.
+Прежде чем мы погрузимся в сравнение документов, убедитесь, что у вас установлен Aspose.Words for Java. Вы можете загрузить библиотеку с [Aspose.Words для релизов Java](https://releases.aspose.com/words/java/) страница. После загрузки включите его в свой проект Java.
 
 ## Базовое сравнение документов
 
- Давайте начнем с основ сравнения документов. Мы будем использовать два документа,`docA` и`docB`и сравните их.
+Давайте начнем с основ сравнения документов. Мы будем использовать два документа, `docA` и `docB`и сравните их.
 
 ```java
 Document docA = new Document("Your Directory Path" + "Document.docx");
@@ -33,7 +35,7 @@ docA.compare(docB, "user", new Date());
 System.out.println(docA.getRevisions().getCount() == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
-В этом фрагменте кода мы загружаем два документа:`docA` и`docB` , а затем используйте`compare` метод для их сравнения. Мы указываем автора как "пользователь", и сравнение выполняется. Наконец, мы проверяем, есть ли ревизии, указывающие на различия между документами.
+В этом фрагменте кода мы загружаем два документа: `docA` и `docB`, а затем используйте `compare` метод для их сравнения. Мы указываем автора как "пользователь", и сравнение выполняется. Наконец, мы проверяем, есть ли ревизии, указывающие на различия между документами.
 
 ## Настройка сравнения с параметрами
 
@@ -41,7 +43,7 @@ Aspose.Words for Java предоставляет обширные возможн
 
 ## Игнорировать форматирование
 
- Чтобы игнорировать различия в форматировании, используйте`setIgnoreFormatting` вариант.
+Чтобы игнорировать различия в форматировании, используйте `setIgnoreFormatting` вариант.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -51,7 +53,7 @@ docA.compare(docB, "user", new Date(), options);
 
 ## Игнорировать верхние и нижние колонтитулы
 
- Чтобы исключить верхние и нижние колонтитулы из сравнения, установите`setIgnoreHeadersAndFooters` вариант.
+Чтобы исключить верхние и нижние колонтитулы из сравнения, установите `setIgnoreHeadersAndFooters` вариант.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -105,7 +107,7 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 ### Как установить Aspose.Words для Java?
 
- Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта[Aspose.Words для релизов Java](https://releases.aspose.com/words/java/) страницу и включите ее в зависимости вашего проекта Java.
+Чтобы установить Aspose.Words для Java, загрузите библиотеку с сайта [Aspose.Words для релизов Java](https://releases.aspose.com/words/java/) страницу и включите ее в зависимости вашего проекта Java.
 
 ### Можно ли сравнивать документы со сложным форматированием с помощью Aspose.Words для Java?
 
@@ -115,16 +117,21 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 Безусловно. Функции сравнения документов Aspose.Words for Java делают его подходящим для систем управления документами, где контроль версий и отслеживание изменений имеют решающее значение.
 
-### Существуют ли какие-либо ограничения по сравнению документов в Aspose.Words для Java?
+### Существуют ли какие-либо ограничения при сравнении документов в Aspose.Words для Java?
 
 Хотя Aspose.Words для Java предлагает обширные возможности сравнения документов, важно ознакомиться с документацией и убедиться, что она соответствует вашим конкретным требованиям.
 
 ### Как мне получить доступ к дополнительным ресурсам и документации по Aspose.Words для Java?
 
- Для получения дополнительных ресурсов и подробной документации по Aspose.Words для Java посетите[Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+Для получения дополнительных ресурсов и подробной документации по Aspose.Words для Java посетите [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

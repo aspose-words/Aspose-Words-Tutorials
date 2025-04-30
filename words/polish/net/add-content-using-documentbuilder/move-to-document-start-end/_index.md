@@ -1,14 +1,16 @@
 ---
-title: Przenieś do dokumentu Początek Koniec w dokumencie Word
-linktitle: Przenieś do dokumentu Początek Koniec w dokumencie Word
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak przenieść kursor na początek i koniec dokumentu Word za pomocą Aspose.Words dla .NET. Kompleksowy przewodnik z instrukcjami krok po kroku i przykładami.
-weight: 10
-url: /pl/net/add-content-using-documentbuilder/move-to-document-start-end/
+"description": "Dowiedz się, jak przenieść kursor na początek i koniec dokumentu Word za pomocą Aspose.Words dla .NET. Kompleksowy przewodnik z instrukcjami krok po kroku i przykładami."
+"linktitle": "Przenieś do dokumentu Początek Koniec w dokumencie Word"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Przenieś do dokumentu Początek Koniec w dokumencie Word"
+"url": "/pl/net/add-content-using-documentbuilder/move-to-document-start-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przenieś do dokumentu Początek Koniec w dokumencie Word
@@ -21,7 +23,7 @@ Cześć! Więc pracowałeś z dokumentami Worda i potrzebujesz sposobu, aby szyb
 
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
-1.  Aspose.Words dla .NET: To jest magiczne narzędzie, którego będziemy używać. Możesz[pobierz tutaj](https://releases.aspose.com/words/net/) lub złap[bezpłatny okres próbny](https://releases.aspose.com/).
+1. Aspose.Words dla .NET: To jest magiczne narzędzie, którego będziemy używać. Możesz [pobierz tutaj](https://releases.aspose.com/words/net/) lub złap [bezpłatny okres próbny](https://releases.aspose.com/).
 2. Środowisko programistyczne .NET: Visual Studio to dobry wybór.
 3. Podstawowa znajomość języka C#: Nie martw się, nie musisz być czarodziejem, ale odrobina znajomości języka bardzo się przyda.
 
@@ -47,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Tutaj tworzymy instancję`Document` I`DocumentBuilder` . Pomyśl o`Document` jako pusty dokument Word i`DocumentBuilder` jako twoje pióro.
+Tutaj tworzymy instancję `Document` I `DocumentBuilder`. Pomyśl o `Document` jako pusty dokument Word i `DocumentBuilder` jako twoje pióro.
 
 ## Krok 2: Przejdź do początku dokumentu
 
@@ -58,7 +60,7 @@ builder.MoveToDocumentStart();
 Console.WriteLine("\nThis is the beginning of the document.");
 ```
 
- Z`MoveToDocumentStart()`, mówisz swojemu cyfrowemu pióru, aby ustawiło się na samej górze dokumentu. Proste, prawda?
+Z `MoveToDocumentStart()`, mówisz swojemu cyfrowemu pióru, aby ustawiło się na samej górze dokumentu. Proste, prawda?
 
 ## Krok 3: Przejdź do końca dokumentu
 
@@ -84,17 +86,22 @@ Aspose.Words for .NET to zaawansowana biblioteka umożliwiająca programowe twor
 Oczywiście! Chociaż ten przewodnik używa języka C#, możesz używać Aspose.Words dla .NET z dowolnym językiem .NET, takim jak VB.NET.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Words dla .NET?  
- Tak, ale możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+Tak, ale możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 
 ### Czy Aspose.Words dla .NET jest kompatybilny z .NET Core?  
-Tak, Aspose.Words for .NET obsługuje zarówno .NET Framework, jak i .NET Core.
+Tak, Aspose.Words dla .NET obsługuje zarówno .NET Framework, jak i .NET Core.
 
 ### Gdzie mogę znaleźć więcej samouczków dotyczących Aspose.Words dla .NET?  
-Możesz sprawdzić[dokumentacja](https://reference.aspose.com/words/net/) lub odwiedź ich[forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać więcej pomocy.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/words/net/) lub odwiedź ich [forum wsparcia](https://forum.aspose.com/c/words/8) Aby uzyskać więcej pomocy.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

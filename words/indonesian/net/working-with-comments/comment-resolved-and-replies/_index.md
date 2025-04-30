@@ -1,14 +1,16 @@
 ---
-title: Komentar Terselesaikan dan Balasan
-linktitle: Komentar Terselesaikan dan Balasan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Otomatiskan penyelesaian dan balasan komentar dalam dokumen Word dengan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan.
-weight: 10
-url: /id/net/working-with-comments/comment-resolved-and-replies/
+"description": "Otomatiskan penyelesaian dan balasan komentar dalam dokumen Word dengan Aspose.Words untuk .NET. Panduan langkah demi langkah disertakan."
+"linktitle": "Komentar Terselesaikan dan Balasan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Komentar Terselesaikan dan Balasan"
+"url": "/id/net/working-with-comments/comment-resolved-and-replies/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentar Terselesaikan dan Balasan
@@ -21,7 +23,7 @@ Jika Anda bekerja dengan dokumen Word, Anda mungkin pernah berurusan dengan kome
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-1.  Aspose.Words untuk .NET: Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Disiapkan dengan .NET Framework.
 3. Pengetahuan Dasar C#: Keakraban dengan sintaksis dan konsep.
 
@@ -38,24 +40,24 @@ Mari kita uraikan prosesnya menjadi beberapa langkah sederhana yang mudah diikut
 
 ## Langkah 1: Muat Dokumen
 
- Untuk memulai, muat dokumen Word yang berisi komentar. Gunakan`Document` kelas untuk ini.
+Untuk memulai, muat dokumen Word yang berisi komentar. Gunakan `Document` kelas untuk ini.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Comments.docx");
 ```
 
- Baris kode ini menginisialisasi yang baru`Document` objek dengan jalur ke dokumen Word Anda.
+Baris kode ini menginisialisasi yang baru `Document` objek dengan jalur ke dokumen Word Anda.
 
 ## Langkah 2: Ambil Komentar
 
- Selanjutnya, kita perlu mendapatkan semua komentar dalam dokumen. Kita akan menggunakan`GetChildNodes` metode untuk mengambil koleksi`Comment` simpul.
+Selanjutnya, kita perlu mendapatkan semua komentar dalam dokumen. Kita akan menggunakan `GetChildNodes` metode untuk mengambil koleksi `Comment` simpul.
 
 ```csharp
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 ```
 
-Kode ini mengambil semua komentar dalam dokumen dan menyimpannya di`NodeCollection`.
+Kode ini mengambil semua komentar dalam dokumen dan menyimpannya di `NodeCollection`.
 
 ## Langkah 3: Akses Komentar Orang Tua
 
@@ -65,11 +67,11 @@ Untuk contoh kita, kita akan fokus pada komentar pertama dalam koleksi. Ini akan
 Comment parentComment = (Comment)comments[0];
 ```
 
- Di sini, kita mentransmisikan node pertama dalam koleksi ke`Comment` obyek.
+Di sini, kita mentransmisikan node pertama dalam koleksi ke `Comment` obyek.
 
 ## Langkah 4: Ulangi Balasan
 
- Sekarang, mari kita ulangi balasan ke komentar induk. Kita akan menggunakan`foreach` loop untuk mengulang setiap balasan.
+Sekarang, mari kita ulangi balasan ke komentar induk. Kita akan menggunakan `foreach` loop untuk mengulang setiap balasan.
 
 ```csharp
 foreach (Comment childComment in parentComment.Replies)
@@ -106,16 +108,21 @@ Ya, Anda dapat mengotomatiskan berbagai tugas seperti menambahkan, menghapus, da
 Ya, Aspose.Words untuk .NET mendukung .NET Framework dan .NET Core.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?  
- Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Dapatkah saya menggunakan Aspose.Words untuk .NET untuk bekerja dengan tipe dokumen lain?  
 Ya, Aspose.Words mendukung berbagai format termasuk DOCX, PDF, HTML, dan banyak lagi.
 
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Words untuk .NET?  
- Anda dapat mengakses dokumentasi[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat mengakses dokumentasi [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

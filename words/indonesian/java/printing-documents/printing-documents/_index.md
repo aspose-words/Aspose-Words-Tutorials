@@ -1,14 +1,16 @@
 ---
-title: Mencetak Dokumen di Aspose.Words untuk Java
-linktitle: Mencetak Dokumen
-second_title: API Pemrosesan Dokumen Java Aspose.Words
-description: Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pencetakan yang lancar di aplikasi Java Anda.
-weight: 10
-url: /id/java/printing-documents/printing-documents/
+"description": "Pelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk pencetakan yang lancar di aplikasi Java Anda."
+"linktitle": "Mencetak Dokumen"
+"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
+"title": "Mencetak Dokumen di Aspose.Words untuk Java"
+"url": "/id/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mencetak Dokumen di Aspose.Words untuk Java
@@ -29,7 +31,7 @@ Sebelum kita masuk ke kode, pastikan Anda memiliki prasyarat berikut:
 
 ## Memuat Dokumen
 
- Untuk memulai, Anda perlu memuat dokumen Word yang ingin Anda cetak. Ganti`"Your Document Directory"` dengan jalur ke dokumen Anda dan`"Your Output Directory"` dengan direktori keluaran yang diinginkan.
+Untuk memulai, Anda perlu memuat dokumen Word yang ingin Anda cetak. Ganti `"Your Document Directory"` dengan jalur ke dokumen Anda dan `"Your Output Directory"` dengan direktori keluaran yang diinginkan.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <ringkasan>
     /// Konstruktor kelas PrintDocument kustom.
-    // / </ringkasan>
+    /// </ringkasan> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //Indeks awal dan akhir halaman sebagaimana ditetapkan dalam set atribut.
+        // Indeks awal dan akhir halaman sebagaimana ditetapkan dalam set atribut.
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,7 +134,7 @@ class MultipagePrintDocument implements Printable
                 // Nilai balik yang berguna adalah skala di mana halaman tersebut ditampilkan.
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //Gambar batas halaman (gambar mini halaman bisa lebih kecil dari gambar mini
+                // Gambar batas halaman (gambar mini halaman bisa lebih kecil dari gambar mini
                 // ukuran tempat penampung).
                 if (mPrintPageBorders) {
                     // Dapatkan ukuran halaman sebenarnya 100% dalam poin.
@@ -194,13 +196,13 @@ Selamat! Anda telah berhasil mencetak dokumen Word menggunakan Aspose.Words untu
 
 ### Q1: Dapatkah saya mencetak halaman tertentu dari suatu dokumen menggunakan Aspose.Words untuk Java?
 
- Ya, Anda dapat menentukan rentang halaman saat mencetak dokumen. Dalam contoh kode, kami menggunakan`attributes.add(new PageRanges(1, doc.getPageCount()))`untuk mencetak semua halaman. Anda dapat menyesuaikan rentang halaman sesuai kebutuhan.
+Ya, Anda dapat menentukan rentang halaman saat mencetak dokumen. Dalam contoh kode, kami menggunakan `attributes.add(new PageRanges(1, doc.getPageCount()))` untuk mencetak semua halaman. Anda dapat menyesuaikan rentang halaman sesuai kebutuhan.
 
 ### Q2: Apakah Aspose.Words untuk Java cocok untuk pencetakan batch?
 
 Tentu saja! Aspose.Words untuk Java sangat cocok untuk tugas pencetakan batch. Anda dapat mengulang-ulang daftar dokumen dan mencetaknya satu per satu menggunakan kode yang serupa.
 
-### Q3: Bagaimana cara menangani kesalahan atau pengecualian pencetakan?
+### Q3: Bagaimana saya dapat menangani kesalahan atau pengecualian pencetakan?
 
 Anda harus menangani setiap pengecualian potensial yang mungkin terjadi selama proses pencetakan. Periksa dokumentasi Aspose.Words untuk Java untuk informasi tentang penanganan pengecualian.
 
@@ -210,14 +212,19 @@ Ya, Anda dapat menyesuaikan pengaturan cetak untuk memenuhi kebutuhan spesifik A
 
 ### Q5: Di mana saya bisa mendapatkan bantuan dan dukungan lebih lanjut untuk Aspose.Words untuk Java?
 
- Untuk dukungan dan bantuan tambahan, Anda dapat mengunjungi[Forum Aspose.Words untuk Java](https://forum.aspose.com/).
+Untuk dukungan dan bantuan tambahan, Anda dapat mengunjungi [Forum Aspose.Words untuk Java](https://forum.aspose.com/).
 
 ---
 
 Sekarang setelah Anda berhasil mempelajari cara mencetak dokumen menggunakan Aspose.Words untuk Java, Anda dapat mulai menerapkan fungsi ini dalam aplikasi Java Anda. Selamat membuat kode!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: दस्तावेज़ सूचियों के साथ कार्य करना
-linktitle: दस्तावेज़ सूचियों के साथ कार्य करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java का उपयोग करके Java में दस्तावेज़ सूचियों के साथ काम करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में कुशल दस्तावेज़ हेरफेर के लिए स्रोत कोड उदाहरण शामिल हैं।
-weight: 11
-url: /hi/java/table-processing/working-with-document-lists/
+"description": "Aspose.Words for Java का उपयोग करके Java में दस्तावेज़ सूचियों के साथ काम करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में कुशल दस्तावेज़ हेरफेर के लिए स्रोत कोड उदाहरण शामिल हैं।"
+"linktitle": "दस्तावेज़ सूचियों के साथ कार्य करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "दस्तावेज़ सूचियों के साथ कार्य करना"
+"url": "/hi/java/table-processing/working-with-document-lists/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ सूचियों के साथ कार्य करना
@@ -105,7 +107,7 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### मैं दस्तावेज़ सूची में बुलेट पॉइंट कैसे जोड़ूँ?
- दस्तावेज़ सूची में बुलेट पॉइंट जोड़ने के लिए, सूची बनाते समय उपयुक्त ListTemplate का उपयोग करें। उदाहरण के लिए, का उपयोग करें`ListTemplate.BULLET_DEFAULT` के बजाय`ListTemplate.NUMBER_DEFAULT`.
+दस्तावेज़ सूची में बुलेट पॉइंट जोड़ने के लिए, सूची बनाते समय उपयुक्त ListTemplate का उपयोग करें। उदाहरण के लिए, का उपयोग करें `ListTemplate.BULLET_DEFAULT` के बजाय `ListTemplate.NUMBER_DEFAULT`.
 
 ### क्या मैं सूची आइटमों का स्वरूपण बदल सकता हूँ?
 हां, आप Aspose.Words for Java की स्वरूपण सुविधाओं का उपयोग करके फ़ॉन्ट, आकार, रंग आदि सहित सूची आइटमों के स्वरूपण को अनुकूलित कर सकते हैं।
@@ -118,9 +120,14 @@ for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
 
 ### क्या Java के लिए Aspose.Words दस्तावेज़ों में तालिकाओं के साथ काम करने का समर्थन करता है?
 हां, Java के लिए Aspose.Words तालिकाओं के साथ काम करने के लिए व्यापक समर्थन प्रदान करता है, जिससे आप आसानी से सारणीबद्ध डेटा बना सकते हैं, संशोधित कर सकते हैं और निकाल सकते हैं।
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

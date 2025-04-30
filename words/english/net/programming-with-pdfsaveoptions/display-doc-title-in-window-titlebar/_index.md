@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-pdfsaveoptions/display-doc-title-in-window-titlebar/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display Document Title In Window Titlebar
@@ -94,9 +97,13 @@ Yes, you can convert various file formats such as DOCX, RTF, HTML, and more to P
 You can visit the [Aspose.Words Support Forum](https://forum.aspose.com/c/words/8) for assistance with any issues or queries you may have.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

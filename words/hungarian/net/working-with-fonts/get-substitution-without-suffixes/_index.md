@@ -1,34 +1,36 @@
 ---
-title: Helyettesítés utótagok nélkül
-linktitle: Helyettesítés utótagok nélkül
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan kezelheti a betűtípusok utótagok nélküli helyettesítését az Aspose.Words for .NET alkalmazásban. Kövesse lépésről lépésre útmutatónkat, hogy dokumentumai minden alkalommal tökéletesek legyenek.
-weight: 10
-url: /hu/net/working-with-fonts/get-substitution-without-suffixes/
+"description": "Ismerje meg, hogyan kezelheti a betűtípus-helyettesítést utótagok nélkül az Aspose.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat, hogy dokumentumai minden alkalommal tökéletesen nézzenek ki."
+"linktitle": "Helyettesítés kérése utótagok nélkül"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Helyettesítés kérése utótagok nélkül"
+"url": "/hu/net/working-with-fonts/get-substitution-without-suffixes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Helyettesítés utótagok nélkül
+# Helyettesítés kérése utótagok nélkül
 
 ## Bevezetés
 
-Üdvözöljük ebben az átfogó útmutatóban a betűtípusok Aspose.Words for .NET használatával történő kezeléséről. Ha valaha is küzdött azzal, hogy a betűtípusok nem jelennek meg megfelelően a dokumentumokban, akkor jó helyen jár. Ez az oktatóanyag lépésről lépésre vezeti végig a betűtípusok utótagok nélküli helyettesítésének hatékony kezelését.
+Üdvözlünk ebben az átfogó útmutatóban, amely az Aspose.Words for .NET használatával kezeli a betűtípus-helyettesítést. Ha valaha is küzdött azzal, hogy a betűtípusok nem jelennek meg megfelelően a dokumentumokban, jó helyen jár. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a betűtípus-helyettesítés hatékony, utótagok nélküli kezelésén.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következőkkel rendelkezel:
 
-- C# alapismeretek: A C# programozás megértése megkönnyíti a lépések követését és végrehajtását.
--  Aspose.Words for .NET Library: Töltse le és telepítse a könyvtárat a[letöltési link](https://releases.aspose.com/words/net/).
-- Fejlesztési környezet: állítson be egy fejlesztői környezetet, például a Visual Studio-t a kód írásához és futtatásához.
--  Dokumentumminta: Egy mintadokumentum (pl.`Rendering.docx`), amellyel az oktatóprogram során dolgozhat.
+- C# alapismeretek: A C# programozás ismerete megkönnyíti a lépések követését és megvalósítását.
+- Aspose.Words .NET könyvtárhoz: Töltse le és telepítse a könyvtárat a következő helyről: [letöltési link](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Állítson be egy fejlesztői környezetet, például a Visual Studio-t a kód írásához és futtatásához.
+- Mintadokumentum: Egy mintadokumentum (pl. `Rendering.docx`) amelyekkel az oktatóanyag során dolgozhatsz.
 
 ## Névterek importálása
 
-Először is importálnunk kell a szükséges névtereket, hogy elérjük az Aspose.Words által biztosított osztályokat és metódusokat.
+Először is importálnunk kell a szükséges névtereket az Aspose.Words által biztosított osztályok és metódusok eléréséhez.
 
 ```csharp
 using Aspose.Words;
@@ -36,18 +38,18 @@ using Aspose.Words.Fonts;
 using System.Collections.Generic;
 ```
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Kezdésként adja meg a könyvtárat, ahol a dokumentum található. Ez segít megtalálni azt a dokumentumot, amelyen dolgozni szeretne.
+Kezdésként adja meg azt a könyvtárat, ahol a dokumentum található. Ez segít megtalálni a kívánt dokumentumot.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## 2. lépés: Állítsa be a helyettesítési figyelmeztető kezelőt
+## 2. lépés: A helyettesítési figyelmeztetés kezelőjének beállítása
 
-Ezután be kell állítanunk egy figyelmeztető kezelőt, amely minden alkalommal értesít bennünket, ha a dokumentumfeldolgozás során betűkészlet-csere történik. Ez döntő fontosságú a betűtípus-problémák észleléséhez és kezeléséhez.
+Ezután be kell állítanunk egy figyelmeztető kezelőt, amely értesít minket, ha betűtípus-csere történik a dokumentumfeldolgozás során. Ez kulcsfontosságú a betűtípusproblémák észleléséhez és kezeléséhez.
 
 ```csharp
 DocumentSubstitutionWarnings substitutionWarningHandler = new DocumentSubstitutionWarnings();
@@ -55,9 +57,9 @@ Document doc = new Document(dataDir + "Rendering.docx");
 doc.WarningCallback = substitutionWarningHandler;
 ```
 
-## 3. lépés: Adjon hozzá egyéni betűtípus-forrásokat
+## 3. lépés: Egyéni betűtípus-források hozzáadása
 
-Ebben a lépésben egyéni betűtípus-forrásokat adunk hozzá, hogy az Aspose.Words meg tudja találni és használni tudja a megfelelő betűtípusokat. Ez különösen akkor hasznos, ha meghatározott betűtípusokat tárol egyéni könyvtárakban.
+Ebben a lépésben egyéni betűtípus-forrásokat adunk hozzá, hogy az Aspose.Words megtalálja és használja a megfelelő betűtípusokat. Ez különösen hasznos, ha bizonyos betűtípusok vannak egyéni könyvtárakban tárolva.
 
 ```csharp
 List<FontSourceBase> fontSources = new List<FontSourceBase>(FontSettings.DefaultInstance.GetFontsSources());
@@ -70,20 +72,20 @@ FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 ```
 
 Ebben a kódban:
--  Lekérjük az aktuális fontforrásokat, és hozzáadunk egy újat`FolderFontSource` az egyéni betűtípus-könyvtárunkra mutat (`C:\\MyFonts\\`).
-- Ezt követően frissítjük a fontforrásokat ezzel az új listával.
+- Lekérjük az aktuális betűtípus-forrásokat, és hozzáadunk egy újat `FolderFontSource` az egyéni betűtípus-könyvtárunkra mutat (`C:\\MyFonts\\`).
+- Ezután frissítjük a betűtípus-forrásokat ezzel az új listával.
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
-Végül mentse el a dokumentumot a betűtípus-helyettesítési beállítások alkalmazása után. Ehhez az oktatóanyaghoz PDF formátumban mentjük el.
+Végül mentse el a dokumentumot a betűtípus-helyettesítési beállítások alkalmazása után. Ebben az oktatóanyagban PDF formátumban fogjuk menteni.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.GetSubstitutionWithoutSuffixes.pdf");
 ```
 
-## 5. lépés: Hozza létre a Figyelmeztetéskezelő osztályt
+## 5. lépés: A figyelmeztetéskezelő osztály létrehozása
 
- A figyelmeztetések hatékony kezeléséhez hozzon létre egy egyéni osztályt, amely megvalósítja a`IWarningCallback` felület. Ez az osztály rögzíti és naplózza a betűtípus helyettesítésére vonatkozó figyelmeztetéseket.
+A figyelmeztetések hatékony kezeléséhez hozzon létre egy egyéni osztályt, amely megvalósítja a `IWarningCallback` interfész. Ez az osztály rögzíti és naplózza a betűtípus-helyettesítési figyelmeztetéseket.
 
 ```csharp
 public class DocumentSubstitutionWarnings : IWarningCallback
@@ -99,37 +101,42 @@ public class DocumentSubstitutionWarnings : IWarningCallback
 ```
 
 Ebben az osztályban:
--  A`Warning`metódus rögzíti a betűtípus-cserével kapcsolatos figyelmeztetéseket.
--  A`FontWarnings` A gyűjtemény ezeket a figyelmeztetéseket tárolja további ellenőrzés vagy naplózás céljából.
+- A `Warning` metódus rögzíti a betűtípus-helyettesítéssel kapcsolatos figyelmeztetéseket.
+- A `FontWarnings` A gyűjtemény tárolja ezeket a figyelmeztetéseket további ellenőrzés vagy naplózás céljából.
 
 ## Következtetés
 
-Most már elsajátította a betűtípusok utótagok nélküli helyettesítésének kezelését az Aspose.Words for .NET használatával. Ez a tudás biztosítja, hogy dokumentumai megőrizzék tervezett megjelenésüket, függetlenül a rendszerben elérhető betűtípusoktól. Folytassa a kísérletezést a különböző beállításokkal és forrásokkal, hogy teljes mértékben kiaknázhassa az Aspose.Words erejét.
+Most már elsajátítottad a betűtípus-helyettesítés kezelésének folyamatát utótagok nélkül az Aspose.Words for .NET használatával. Ez a tudás biztosítja, hogy dokumentumaid megőrizzék a kívánt megjelenést, függetlenül a rendszeren elérhető betűtípusoktól. Kísérletezz folyamatosan különböző beállításokkal és forrásokkal, hogy teljes mértékben kihasználhasd az Aspose.Words erejét.
 
 ## GYIK
 
 ### Hogyan használhatok betűtípusokat több egyéni könyvtárból?
 
- Többet is hozzáadhat`FolderFontSource` példányok a`fontSources` listázza ki, és ennek megfelelően frissítse a fontforrásokat.
+Többet is hozzáadhatsz `FolderFontSource` példányok a `fontSources` listázza és frissítse a betűtípus-forrásokat ennek megfelelően.
 
-### Honnan tölthetem le az Aspose.Words for .NET ingyenes próbaverzióját?
+### Hol tudom letölteni az Aspose.Words for .NET ingyenes próbaverzióját?
 
- Ingyenes próbaverziót tölthet le a webhelyről[Aspose ingyenes próbaoldal](https://releases.aspose.com/).
+Ingyenes próbaverziót tölthet le a következő címről: [Aspose ingyenes próbaoldal](https://releases.aspose.com/).
 
-###  Kezelhetek-e többféle figyelmeztetést a használatával`IWarningCallback`?
+### Kezelhetek több típusú figyelmeztetést a következő használatával: `IWarningCallback`?
 
- Igen, a`IWarningCallback` Az interfész lehetővé teszi a különböző típusú figyelmeztetések kezelését, nem csak a betűtípusok helyettesítését.
+Igen, a `IWarningCallback` A felület lehetővé teszi a különféle figyelmeztetések kezelését, nem csak a betűtípus-helyettesítést.
 
-### Hol kaphatok támogatást az Aspose.Words számára?
+### Hol kaphatok támogatást az Aspose.Words-höz?
 
- Támogatásért keresse fel a[Aspose.Words támogatási fórum](https://forum.aspose.com/c/words/8).
+Támogatásért látogassa meg a [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8).
 
-### Lehetséges ideiglenes licencet vásárolni?
+### Lehetséges ideiglenes jogosítványt vásárolni?
 
- Igen, ideiglenes engedélyt kaphat a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+Igen, ideiglenes jogosítványt kaphat az intézménytől. [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

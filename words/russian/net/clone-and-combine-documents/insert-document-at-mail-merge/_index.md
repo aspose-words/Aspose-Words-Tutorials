@@ -1,14 +1,16 @@
 ---
-title: Вставить документ при слиянии почты
-linktitle: Вставить документ при слиянии почты
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять документы в поля слияния с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/clone-and-combine-documents/insert-document-at-mail-merge/
+"description": "Узнайте, как вставлять документы в поля слияния с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Вставить документ при слиянии почты"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить документ при слиянии почты"
+"url": "/ru/net/clone-and-combine-documents/insert-document-at-mail-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить документ при слиянии почты
@@ -21,7 +23,7 @@ url: /ru/net/clone-and-combine-documents/insert-document-at-mail-merge/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  Aspose.Words для .NET: Вы можете[скачать последнюю версию здесь](https://releases.aspose.com/words/net/) . Если вам необходимо приобрести лицензию, вы можете сделать это[здесь](https://purchase.aspose.com/buy) . В качестве альтернативы вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) или попробуйте с[бесплатная пробная версия](https://releases.aspose.com/).
+1. Aspose.Words для .NET: Вы можете [скачать последнюю версию здесь](https://releases.aspose.com/words/net/). Если вам необходимо приобрести лицензию, вы можете сделать это [здесь](https://purchase.aspose.com/buy). В качестве альтернативы вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) или попробуйте с [бесплатная пробная версия](https://releases.aspose.com/).
 2. Среда разработки: Visual Studio или любая другая C# IDE.
 3. Базовые знания C#: знакомство с программированием на C# сделает это руководство легким.
 
@@ -72,7 +74,7 @@ mainDoc.MailMerge.Execute(new[] { "Document_1" }, new object[] { dataDir + "Docu
 
 ## Шаг 5: Сохранение документа
 
-После завершения слияния почты вы сохраните измененный документ. Этот новый документ будет иметь вставленный контент именно там, где вы хотите.
+После завершения слияния почты вы сохраните измененный документ. Этот новый документ будет иметь вставленный контент именно там, где вам нужно.
 
 ```csharp
 mainDoc.Save(dataDir + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
@@ -145,10 +147,10 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 ## Часто задаваемые вопросы
 
 ### Могу ли я вставить несколько документов в разные поля слияния?
-Да, можно. Просто укажите соответствующие поля слияния и соответствующие пути к документам в`MailMerge.Execute` метод.
+Да, можно. Просто укажите соответствующие поля слияния и соответствующие пути к документам в `MailMerge.Execute` метод.
 
 ### Можно ли отформатировать вставленный документ иначе, чем основной документ?
- Конечно! Вы можете использовать`ImportFormatMode` параметр в`NodeImporter` для управления форматированием.
+Конечно! Вы можете использовать `ImportFormatMode` параметр в `NodeImporter` для управления форматированием.
 
 ### Что делать, если имя поля слияния является динамическим?
 Вы можете обрабатывать имена полей динамического слияния, передавая их в качестве параметров обработчику обратного вызова.
@@ -158,9 +160,14 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 ### Как обрабатывать ошибки в процессе вставки документа?
 Реализуйте обработку ошибок в обработчике обратного вызова, чтобы контролировать любые исключения, которые могут возникнуть.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

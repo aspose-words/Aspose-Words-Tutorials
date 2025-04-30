@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/link-headers-footers/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Link Headers Footers
@@ -100,9 +103,13 @@ Yes, you can unlink headers and footers using Aspose.Words API methods to restor
 ### Where can I find more detailed documentation on Aspose.Words for .NET?
 Visit [Aspose.Words for .NET Documentation](https://reference.aspose.com/words/net/) for comprehensive guides and API references.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

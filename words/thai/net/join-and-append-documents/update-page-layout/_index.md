@@ -1,14 +1,16 @@
 ---
-title: อัปเดตเค้าโครงหน้า
-linktitle: อัปเดตเค้าโครงหน้า
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีอัปเดตเค้าโครงหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ เหมาะอย่างยิ่งสำหรับการปรับแต่งการออกแบบเอกสาร
-weight: 10
-url: /th/net/join-and-append-documents/update-page-layout/
+"description": "เรียนรู้วิธีอัปเดตเค้าโครงหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะอย่างยิ่งสำหรับการปรับแต่งการออกแบบเอกสาร"
+"linktitle": "อัปเดตเค้าโครงหน้า"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อัปเดตเค้าโครงหน้า"
+"url": "/th/net/join-and-append-documents/update-page-layout/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อัปเดตเค้าโครงหน้า
@@ -21,17 +23,17 @@ url: /th/net/join-and-append-documents/update-page-layout/
 
 ก่อนที่เราจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1.  Aspose.Words สำหรับ .NET: ไลบรารีนี้จำเป็นสำหรับการจัดการเอกสาร Word ด้วยโปรแกรม หากคุณยังไม่ได้ทำ คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ไลบรารีนี้จำเป็นสำหรับการจัดการเอกสาร Word ด้วยโปรแกรม หากคุณยังไม่ได้ทำ คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/net/).
    
 2. Visual Studio: คุณจะต้องมี IDE เพื่อเขียนและรันโค้ด .NET Visual Studio เป็นตัวเลือกยอดนิยม
 
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณทำตามได้ราบรื่นยิ่งขึ้น
 
-4.  ใบอนุญาต Aspose: แม้ว่าจะมีรุ่นทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/) คุณอาจต้องมีใบอนุญาตเต็มรูปแบบสำหรับการใช้งานเชิงพาณิชย์ คุณสามารถรับได้[ที่นี่](https://purchase.aspose.com/buy) หรือสมัคร[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+4. ใบอนุญาต Aspose: แม้ว่าจะมีรุ่นทดลองใช้งานฟรี [ที่นี่](https://releases.aspose.com/)คุณอาจต้องมีใบอนุญาตเต็มรูปแบบสำหรับการใช้งานเชิงพาณิชย์ คุณสามารถรับได้ [ที่นี่](https://purchase.aspose.com/buy) หรือสมัคร [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 5. ไดเรกทอรีเอกสาร: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไดเรกทอรีที่เอกสารของคุณจะถูกบันทึกและโหลดจาก
 
-ทุกอย่างพร้อมแล้วใช่ไหม เยี่ยมเลย! มาเริ่มสนุกกันเลย
+ทุกอย่างพร้อมแล้วใช่ไหม เยี่ยมเลย มาเริ่มสนุกกันเลย
 
 ## นำเข้าเนมสเปซ
 
@@ -48,7 +50,7 @@ using Aspose.Words.Layout;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารของคุณ
 
-ขั้นแรก คุณต้องโหลดเอกสาร Word ที่คุณต้องการใช้งาน โดยต้องระบุเส้นทางไปยังเอกสารของคุณและสร้าง`Document` วัตถุ.
+ขั้นแรก คุณต้องโหลดเอกสาร Word ที่คุณต้องการใช้งาน โดยต้องระบุเส้นทางไปยังเอกสารของคุณและสร้าง `Document` วัตถุ.
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.docx");
 ```
 
- ที่นี่แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณ`input.docx` ไฟล์ถูกเก็บไว้แล้ว
+ที่นี่แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณ `input.docx` ไฟล์ถูกเก็บไว้แล้ว
 
 ## ขั้นตอนที่ 2: บันทึกเอกสารด้วยเค้าโครงเริ่มต้น
 
@@ -96,7 +98,7 @@ doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 doc.UpdatePageLayout();
 ```
 
-ขั้นตอนนี้มีความสำคัญมาก เนื่องจากหากไม่มีขั้นตอนนี้ การเปลี่ยนแปลงของคุณอาจไม่ปรากฏอย่างถูกต้องในผลลัพธ์สุดท้าย
+ขั้นตอนนี้มีความสำคัญมาก เนื่องจากหากไม่ดำเนินการนี้ การเปลี่ยนแปลงของคุณอาจไม่ปรากฏอย่างถูกต้องในผลลัพธ์สุดท้าย
 
 ## ขั้นตอนที่ 5: บันทึกเอกสารที่แก้ไข
 
@@ -120,19 +122,24 @@ doc.Save(dataDir + "Document.UpdatePageLayout.2.pdf");
 Aspose.Words สำหรับ .NET เป็นไลบรารีที่ใช้ในการสร้าง แก้ไข และแปลงเอกสาร Word ด้วยโปรแกรม
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Words สำหรับ .NET หรือไม่?  
- ใช่ คุณต้องมีใบอนุญาตสำหรับการใช้งานเชิงพาณิชย์ คุณสามารถขอใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy) หรือสมัคร[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณต้องมีใบอนุญาตสำหรับการใช้งานเชิงพาณิชย์ คุณสามารถขอใบอนุญาตได้ [ที่นี่](https://purchase.aspose.com/buy) หรือสมัคร [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันจะเริ่มต้นใช้งาน Aspose.Words สำหรับ .NET ได้อย่างไร  
- คุณสามารถเริ่มต้นโดยการดาวน์โหลดไลบรารีจาก[เว็บไซต์อาโพส](https://releases.aspose.com/words/net/)จากนั้นนำเข้าเนมสเปซที่จำเป็นลงในโครงการ C# ของคุณ
+คุณสามารถเริ่มต้นโดยการดาวน์โหลดไลบรารีจาก [เว็บไซต์อาโพส](https://releases.aspose.com/words/net/)จากนั้นนำเข้าเนมสเปซที่จำเป็นลงในโครงการ C# ของคุณ
 
 ### ฉันสามารถใช้ Aspose.Words สำหรับ .NET ได้ฟรีหรือไม่?  
- Aspose นำเสนอไลบรารีเวอร์ชันทดลองใช้งานฟรี ซึ่งคุณสามารถรับได้[ที่นี่](https://releases.aspose.com/).
+Aspose นำเสนอไลบรารีเวอร์ชันทดลองใช้งานฟรี ซึ่งคุณสามารถรับได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words สำหรับ .NET ได้จากที่ไหน  
- คุณสามารถรับการสนับสนุนได้ผ่านทาง[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้ผ่านทาง [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

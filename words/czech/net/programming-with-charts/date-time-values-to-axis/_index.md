@@ -1,34 +1,36 @@
 ---
-title: Přidejte hodnoty data a času na osu grafu
-linktitle: Přidejte hodnoty data a času na osu grafu
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak přidat hodnoty data a času na osu grafu pomocí Aspose.Words for .NET v tomto komplexním podrobném průvodci.
-weight: 10
-url: /cs/net/programming-with-charts/date-time-values-to-axis/
+"description": "Naučte se v tomto komplexním návodu krok za krokem, jak přidat hodnoty data a času na osu grafu pomocí Aspose.Words pro .NET."
+"linktitle": "Přidání hodnot data a času na osu grafu"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přidání hodnot data a času na osu grafu"
+"url": "/cs/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte hodnoty data a času na osu grafu
+# Přidání hodnot data a času na osu grafu
 
 ## Zavedení
 
-Vytváření grafů v dokumentech může být účinným způsobem vizualizace dat. Při práci s daty časových řad je přidání hodnot data a času na osu grafu zásadní pro přehlednost. V tomto tutoriálu vás provedeme procesem přidávání hodnot data a času na osu grafu pomocí Aspose.Words for .NET. Tento podrobný průvodce vám pomůže nastavit vaše prostředí, napsat kód a porozumět každé části procesu. Pojďme se ponořit!
+Vytváření grafů v dokumentech může být účinným způsobem vizualizace dat. Při práci s časovými řadami dat je pro přehlednost klíčové přidávání hodnot data a času na osu grafu. V tomto tutoriálu vás provedeme procesem přidávání hodnot data a času na osu grafu pomocí Aspose.Words pro .NET. Tento podrobný návod vám pomůže nastavit prostředí, napsat kód a porozumět jednotlivým částem procesu. Pojďme se na to pustit!
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-1. Visual Studio nebo jakékoli .NET IDE: K psaní a spouštění kódu .NET potřebujete vývojové prostředí.
-2.  Aspose.Words for .NET: Měli byste mít nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti o programování v C#.
-4.  Platná licence Aspose: Můžete získat dočasnou licenci od[zde](https://purchase.aspose.com/temporary-license/).
+1. Visual Studio nebo jakékoli .NET IDE: Pro psaní a spouštění kódu .NET potřebujete vývojové prostředí.
+2. Aspose.Words pro .NET: Měli byste mít nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+3. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programování v C#.
+4. Platná licence Aspose: Dočasnou licenci můžete získat od [zde](https://purchase.aspose.com/temporary-license/).
 
 ## Importovat jmenné prostory
 
-Nejprve se ujistěte, že máte do projektu importovány potřebné jmenné prostory. Tento krok je zásadní pro přístup k třídám a metodám Aspose.Words.
+Nejprve se ujistěte, že máte v projektu importovány potřebné jmenné prostory. Tento krok je klíčový pro přístup ke třídám a metodám Aspose.Words.
 
 ```csharp
 using System;
@@ -37,33 +39,33 @@ using Aspose.Words.Drawing;
 using Aspose.Words.Drawing.Charts;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve musíte definovat adresář, kam bude dokument uložen. To je důležité pro uspořádání souborů a zajištění správného chodu kódu.
+Nejprve je třeba definovat adresář, kam bude váš dokument uložen. To je důležité pro organizaci souborů a zajištění správného fungování kódu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Krok 2: Vytvořte nový dokument a DocumentBuilder
+## Krok 2: Vytvořte nový dokument a nástroj DocumentBuilder
 
- Dále vytvořte novou instanci souboru`Document` třída a a`DocumentBuilder` objekt. Tyto objekty vám pomohou vytvořit a manipulovat s dokumentem.
+Dále vytvořte novou instanci `Document` třída a `DocumentBuilder` objekt. Tyto objekty vám pomohou s tvorbou a manipulací s dokumentem.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Vložte graf do dokumentu
+## Krok 3: Vložení grafu do dokumentu
 
- Nyní vložte graf do dokumentu pomocí`DocumentBuilder` objekt. V tomto příkladu používáme sloupcový graf, ale můžete si vybrat i jiné typy.
+Nyní vložte graf do dokumentu pomocí `DocumentBuilder` objekt. V tomto příkladu používáme sloupcový graf, ale můžete zvolit i jiné typy.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ```
 
-## Krok 4: Vymažte existující sérii
+## Krok 4: Vymazat existující sérii
 
 Vymažte všechny existující řady v grafu, abyste měli jistotu, že začínáte s prázdným listem. Tento krok je nezbytný pro vlastní data.
 
@@ -71,9 +73,9 @@ Vymažte všechny existující řady v grafu, abyste měli jistotu, že začín�
 chart.Series.Clear();
 ```
 
-## Krok 5: Přidejte do série hodnoty data a času
+## Krok 5: Přidání hodnot data a času do série
 
-Přidejte své hodnoty data a času do řady grafů. Tento krok zahrnuje vytvoření polí pro data a odpovídající hodnoty.
+Přidejte hodnoty data a času do série grafů. Tento krok zahrnuje vytvoření polí pro data a odpovídající hodnoty.
 
 ```csharp
 chart.Series.Add("Aspose Series 1",
@@ -85,9 +87,9 @@ chart.Series.Add("Aspose Series 1",
     new double[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 ```
 
-## Krok 6: Nakonfigurujte osu X
+## Krok 6: Konfigurace osy X
 
-Nastavte měřítko a značky pro osu X. Tím zajistíte, že se vaše data zobrazí správně a ve vhodných intervalech.
+Nastavte měřítko a značky pro osu X. Tím zajistíte, že se data zobrazí správně a ve vhodných intervalech.
 
 ```csharp
 ChartAxis xAxis = chart.AxisX;
@@ -101,7 +103,7 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 
 ## Krok 7: Uložte dokument
 
-Nakonec uložte dokument do určeného adresáře. Tento krok ukončí proces a váš dokument by nyní měl obsahovat graf s hodnotami data a času na ose X.
+Nakonec uložte dokument do zadaného adresáře. Tímto krokem je proces ukončen a váš dokument by nyní měl obsahovat graf s hodnotami data a času na ose X.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
@@ -109,32 +111,37 @@ doc.Save(dataDir + "WorkingWithCharts.DateTimeValuesToAxis.docx");
 
 ## Závěr
 
-Přidání hodnot data a času na osu grafu v dokumentu je s Aspose.Words pro .NET jednoduchý proces. Podle kroků uvedených v tomto kurzu můžete vytvořit jasné a informativní grafy, které efektivně vizualizují data časových řad. Ať už připravujete zprávy, prezentace nebo jakýkoli dokument vyžadující detailní reprezentaci dat, Aspose.Words poskytuje nástroje, které potřebujete k úspěchu.
+Přidání hodnot data a času na osu grafu v dokumentu je s Aspose.Words pro .NET přímočarý proces. Dodržováním kroků popsaných v tomto tutoriálu můžete vytvářet přehledné a informativní grafy, které efektivně vizualizují časové řady dat. Ať už připravujete zprávy, prezentace nebo jakýkoli dokument vyžadující podrobnou reprezentaci dat, Aspose.Words poskytuje nástroje, které potřebujete k úspěchu.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu s Aspose.Words pro .NET používat jiné typy grafů?
+### Mohu s Aspose.Words pro .NET používat i jiné typy grafů?
 
-Ano, Aspose.Words podporuje různé typy grafů, včetně čárových, pruhových, koláčových a dalších.
+Ano, Aspose.Words podporuje různé typy grafů, včetně čárových, sloupcových, koláčových a dalších.
 
-### Jak mohu přizpůsobit vzhled svého grafu?
+### Jak si mohu přizpůsobit vzhled svého grafu?
 
-Vzhled můžete přizpůsobit přístupem k vlastnostem grafu a nastavením stylů, barev a dalších.
+Vzhled si můžete přizpůsobit přístupem k vlastnostem grafu a nastavením stylů, barev a dalších parametrů.
 
-### Je možné do grafu přidat více řad?
+### Je možné do grafu přidat více sérií?
 
- Absolutně! Do grafu můžete přidat více řad voláním`Series.Add` metoda vícekrát s různými údaji.
+Rozhodně! Do grafu můžete přidat více sérií voláním funkce `Series.Add` metodu několikrát s různými daty.
 
 ### Co když potřebuji dynamicky aktualizovat data grafu?
 
-Data grafu můžete aktualizovat dynamicky úpravou vlastností řad a os programově na základě vašich požadavků.
+Data grafu můžete dynamicky aktualizovat programově manipulací s vlastnostmi řad a os na základě vašich požadavků.
 
 ### Kde najdu podrobnější dokumentaci k Aspose.Words pro .NET?
 
- Můžete najít podrobnější dokumentaci[zde](https://reference.aspose.com/words/net/).
+Podrobnější dokumentaci naleznete [zde](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

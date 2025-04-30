@@ -1,37 +1,39 @@
 ---
-title: Insérer un champ de fusion à l'aide de DOM
-linktitle: Insérer un champ de fusion à l'aide de DOM
-second_title: API de traitement de documents Aspose.Words
-description: Découvrez comment insérer et configurer des champs de fusion dans des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel complet, étape par étape.
-weight: 10
-url: /fr/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Apprenez à insérer et à configurer des champs de fusion dans des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel complet, étape par étape."
+"linktitle": "Insérer un champ de fusion à l'aide de DOM"
+"second_title": "API de traitement de documents Aspose.Words"
+"title": "Insérer un champ de fusion à l'aide de DOM"
+"url": "/fr/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insérer un champ de fusion à l'aide de DOM
 
 ## Introduction
 
-Si vous travaillez avec le traitement de documents dans .NET, vous avez probablement déjà rencontré Aspose.Words. Cette puissante bibliothèque offre un large éventail de fonctionnalités pour manipuler des documents Word par programmation. Dans ce didacticiel, nous nous concentrerons sur une fonctionnalité spécifique : l'insertion d'un champ de fusion à l'aide du modèle d'objet de document (DOM) dans Aspose.Words pour .NET. Ce guide vous guidera à chaque étape, de la configuration de votre environnement à l'insertion et à la mise à jour d'un champ de fusion dans un document Word.
+Si vous travaillez avec le traitement de documents dans .NET, vous avez probablement déjà rencontré Aspose.Words. Cette puissante bibliothèque offre un large éventail de fonctionnalités pour manipuler des documents Word par programmation. Dans ce tutoriel, nous nous concentrerons sur une fonctionnalité spécifique : l'insertion d'un champ de fusion à l'aide du modèle objet de document (DOM) dans Aspose.Words pour .NET. Ce guide vous guidera pas à pas, de la configuration de votre environnement à l'insertion et à la mise à jour d'un champ de fusion dans un document Word.
 
 ## Prérequis
 
 Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour suivre ce tutoriel.
 
-1. Connaissances de base de C# : vous devez être à l’aise avec la programmation C#.
-2. Visual Studio installé : assurez-vous que Visual Studio ou tout autre IDE C# est installé sur votre ordinateur.
-3.  Aspose.Words pour .NET : téléchargez et installez la dernière version d'Aspose.Words pour .NET à partir du[Communiqués de presse](https://releases.aspose.com/words/net/).
-4.  Licence valide : Si vous n'avez pas de licence, vous pouvez en obtenir une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluation.
+1. Connaissances de base en C# : vous devez être à l’aise avec la programmation C#.
+2. Visual Studio installé : assurez-vous que Visual Studio ou tout autre IDE C# est installé sur votre machine.
+3. Aspose.Words pour .NET : Téléchargez et installez la dernière version d'Aspose.Words pour .NET à partir du [Communiqués](https://releases.aspose.com/words/net/).
+4. Permis valide : Si vous n'avez pas de permis, vous pouvez en obtenir un [permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluation.
 
-## Étape 1 : Configurez votre projet
+## Étape 1 : Configurez votre projet
 
 Tout d’abord, configurons un nouveau projet dans Visual Studio.
 
 1. Ouvrez Visual Studio.
-2. Créer un nouveau projet : allez dans Fichier > Nouveau > Projet. Sélectionnez une application console C#.
+2. Créer un nouveau projet : allez dans Fichier > Nouveau > Projet. Sélectionnez une application console C#.
 3. Nommez votre projet : donnez à votre projet un nom significatif et cliquez sur Créer.
 
 ## Étape 2 : Installer Aspose.Words
@@ -52,7 +54,7 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-## Étape 4 : Initialisez votre document
+## Étape 4 : Initialisez votre document
 
 Maintenant que tout est configuré, créons un nouveau document Word et initialisons le DocumentBuilder.
 
@@ -65,18 +67,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Étape 5 : Déplacez le curseur vers un paragraphe spécifique
+## Étape 5 : Déplacer le curseur vers un paragraphe spécifique
 
-Ensuite, nous devons déplacer le curseur vers un paragraphe spécifique du document où nous souhaitons insérer le champ de fusion.
+Ensuite, nous devons déplacer le curseur vers un paragraphe spécifique du document où nous voulons insérer le champ de fusion.
 
 ```csharp
 Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
 builder.MoveTo(para);
 ```
 
-## Étape 6 : insérer le champ de fusion
+## Étape 6 : Insérer le champ de fusion
 
- L'insertion d'un champ de fusion est simple. Nous allons utiliser le`InsertField` méthode de la`DocumentBuilder` classe.
+L'insertion d'un champ de fusion est simple. Nous utiliserons `InsertField` méthode de la `DocumentBuilder` classe.
 
 ```csharp
 // Insérer un champ de fusion de champ.
@@ -103,13 +105,13 @@ Enfin, mettez à jour le champ pour vous assurer que tous les paramètres sont a
 // Mettre à jour le champ.
 field.Update();
 
-// Sauvegarder le document.
+// Enregistrez le document.
 doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 ```
 
 ## Conclusion
 
-En suivant ces étapes, vous pouvez facilement insérer et configurer des champs de fusion dans un document Word à l'aide d'Aspose.Words pour .NET. Ce didacticiel a couvert les étapes essentielles de la configuration de votre environnement à l'enregistrement du document final. Avec Aspose.Words, vous pouvez automatiser des tâches complexes de traitement de documents, rendant vos applications .NET plus puissantes et plus efficaces.
+En suivant ces étapes, vous pouvez facilement insérer et configurer des champs de fusion dans un document Word avec Aspose.Words pour .NET. Ce tutoriel a couvert les étapes essentielles, de la configuration de votre environnement à l'enregistrement du document final. Avec Aspose.Words, vous pouvez automatiser des tâches complexes de traitement de documents, rendant ainsi vos applications .NET plus puissantes et plus efficaces.
 
 ## FAQ
 
@@ -117,19 +119,24 @@ En suivant ces étapes, vous pouvez facilement insérer et configurer des champs
 Un champ de fusion est un espace réservé dans un document qui peut être remplacé dynamiquement par des données provenant d'une source de données, telle qu'une base de données ou un fichier CSV.
 
 ###  Puis-je utiliser Aspose.Words gratuitement ?
- Aspose.Words propose un essai gratuit que vous pouvez télécharger[ici](https://releases.aspose.com/)Pour une utilisation à long terme, vous devrez acheter une licence.
+Aspose.Words propose un essai gratuit que vous pouvez télécharger [ici](https://releases.aspose.com/)Pour une utilisation à long terme, vous devrez acheter une licence.
 
 ###  Comment obtenir une licence temporaire pour Aspose.Words ?
- Vous pouvez obtenir une licence temporaire sur le site Web d'Aspose[ici](https://purchase.aspose.com/temporary-license/).
+Vous pouvez obtenir une licence temporaire sur le site Web d'Aspose [ici](https://purchase.aspose.com/temporary-license/).
 
 ### Quelles versions de .NET sont prises en charge par Aspose.Words ?
 Aspose.Words prend en charge plusieurs versions de .NET, notamment .NET Framework, .NET Core et .NET Standard.
 
-###  Où puis-je trouver la documentation de l'API pour Aspose.Words ?
- La documentation de l'API est disponible[ici](https://reference.aspose.com/words/net/).
+###  Où puis-je trouver la documentation de l'API pour Aspose.Words ?
+La documentation de l'API est disponible [ici](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

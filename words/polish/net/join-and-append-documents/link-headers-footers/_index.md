@@ -1,21 +1,23 @@
 ---
-title: Nagłówki łączy Stopki
-linktitle: Nagłówki łączy Stopki
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak łączyć nagłówki i stopki między dokumentami w Aspose.Words dla .NET. Zapewnij spójność i integralność formatowania bez wysiłku.
-weight: 10
-url: /pl/net/join-and-append-documents/link-headers-footers/
+"description": "Dowiedz się, jak łączyć nagłówki i stopki między dokumentami w Aspose.Words dla .NET. Zapewnij spójność i integralność formatowania bez wysiłku."
+"linktitle": "Nagłówki łączy Stopki"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Nagłówki łączy Stopki"
+"url": "/pl/net/join-and-append-documents/link-headers-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nagłówki łączy Stopki
 
 ## Wstęp
 
-tym samouczku pokażemy, jak łączyć nagłówki i stopki między dokumentami za pomocą Aspose.Words dla .NET. Ta funkcja pozwala zachować spójność i ciągłość w wielu dokumentach poprzez skuteczną synchronizację nagłówków i stopek.
+W tym samouczku pokażemy, jak łączyć nagłówki i stopki między dokumentami za pomocą Aspose.Words dla .NET. Ta funkcja pozwala zachować spójność i ciągłość w wielu dokumentach poprzez skuteczną synchronizację nagłówków i stopek.
 
 ## Wymagania wstępne
 
@@ -37,7 +39,7 @@ Podzielmy ten proces na jasne kroki:
 
 ## Krok 1: Załaduj dokumenty
 
- Najpierw załaduj dokumenty źródłowe i docelowe do`Document` obiekty:
+Najpierw załaduj dokumenty źródłowe i docelowe do `Document` obiekty:
 
 ```csharp
 // Ścieżka do katalogu dokumentów
@@ -49,7 +51,7 @@ Document dstDoc = new Document(dataDir + "Northwind traders.docx");
 
 ## Krok 2: Ustaw początek sekcji
 
- Aby mieć pewność, że dołączony dokument rozpocznie się na nowej stronie, skonfiguruj`SectionStart` właściwość pierwszej sekcji dokumentu źródłowego:
+Aby mieć pewność, że dołączony dokument rozpocznie się na nowej stronie, skonfiguruj `SectionStart` właściwość pierwszej sekcji dokumentu źródłowego:
 
 ```csharp
 srcDoc.FirstSection.PageSetup.SectionStart = SectionStart.NewPage;
@@ -98,10 +100,15 @@ Aspose.Words obsługuje różne wersje .NET Framework i .NET Core, zapewniając 
 Tak, możesz rozłączyć nagłówki i stopki za pomocą metod API Aspose.Words, aby przywrócić formatowanie pojedynczego dokumentu.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą Aspose.Words dla .NET?
- Odwiedzać[Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+Odwiedzać [Dokumentacja Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

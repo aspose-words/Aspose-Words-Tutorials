@@ -1,14 +1,16 @@
 ---
-title: Posisi Meja Mengambang
-linktitle: Posisi Meja Mengambang
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengontrol posisi mengambang tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/programming-with-tables/floating-table-position/
+"description": "Pelajari cara mengontrol posisi mengambang tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami."
+"linktitle": "Posisi Meja Mengambang"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Posisi Meja Mengambang"
+"url": "/id/net/programming-with-tables/floating-table-position/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Posisi Meja Mengambang
@@ -21,7 +23,7 @@ Apakah Anda siap untuk menyelami dunia manipulasi posisi tabel dalam dokumen Wor
 
 Sebelum kita memulai perjalanan yang mengasyikkan ini, mari pastikan kita memiliki semua yang kita butuhkan:
 
-1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Jika tidak,[unduh disini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk Pustaka .NET: Pastikan Anda memiliki versi terbaru. Jika tidak, [unduh disini](https://releases.aspose.com/words/net/).
 2. .NET Framework: Pastikan lingkungan pengembangan Anda diatur dengan .NET.
 3. Lingkungan Pengembangan: Visual Studio atau IDE apa pun yang disukai.
 4. Dokumen Word: Siapkan dokumen Word yang berisi tabel.
@@ -45,7 +47,7 @@ Sekarang, mari kita uraikan prosesnya menjadi langkah-langkah yang sederhana dan
 Pertama-tama, Anda perlu memuat dokumen Word Anda. Di sinilah tabel Anda berada.
 
 ```csharp
-// Jalur ke direktori dokumen Anda
+// Jalur ke direktori dokumen Anda 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document(dataDir + "Table wrapped by text.docx");
@@ -71,7 +73,7 @@ Sekarang, mari kita atur posisi horizontal tabel. Ini menentukan seberapa jauh d
 table.AbsoluteHorizontalDistance = 10;
 ```
 
- Bayangkan ini sebagai gerakan memindahkan tabel secara horizontal di seluruh dokumen Anda.`AbsoluteHorizontalDistance` adalah jarak tepat dari tepi kiri.
+Bayangkan ini sebagai gerakan memindahkan tabel secara horizontal di seluruh dokumen Anda. `AbsoluteHorizontalDistance` adalah jarak tepat dari tepi kiri.
 
 ## Langkah 4: Mengatur Penyelarasan Vertikal
 
@@ -101,26 +103,31 @@ Nah, itu dia! Anda baru saja menguasai cara mengontrol posisi mengambang tabel d
 
 ### Dapatkah saya mengatur jarak vertikal tabel dari bagian atas halaman?
 
- Ya, Anda bisa menggunakan`AbsoluteVerticalDistance` properti untuk mengatur jarak vertikal tabel dari tepi atas halaman.
+Ya, Anda bisa menggunakan `AbsoluteVerticalDistance` properti untuk mengatur jarak vertikal tabel dari tepi atas halaman.
 
 ### Bagaimana cara menyelaraskan tabel di sebelah kanan dokumen?
 
- Untuk menyelaraskan tabel ke kanan, Anda dapat mengatur`HorizontalAlignment` properti tabel ke`HorizontalAlignment.Right`.
+Untuk menyelaraskan tabel ke kanan, Anda dapat mengatur `HorizontalAlignment` properti tabel ke `HorizontalAlignment.Right`.
 
 ### Apakah mungkin untuk memposisikan beberapa tabel secara berbeda dalam dokumen yang sama?
 
- Tentu saja! Anda dapat mengakses dan mengatur posisi untuk beberapa tabel secara individual dengan mengulangi`Tables` koleksi dalam dokumen.
+Tentu saja! Anda dapat mengakses dan mengatur posisi untuk beberapa tabel secara individual dengan mengulangi `Tables` koleksi dalam dokumen.
 
 ### Dapatkah saya menggunakan posisi relatif untuk penyelarasan horizontal?
 
-Ya, Aspose.Words mendukung posisi relatif untuk perataan horizontal dan vertikal menggunakan properti seperti`RelativeHorizontalAlignment`.
+Ya, Aspose.Words mendukung posisi relatif untuk perataan horizontal dan vertikal menggunakan properti seperti `RelativeHorizontalAlignment`.
 
 ### Apakah Aspose.Words mendukung tabel mengambang di berbagai bagian dokumen?
 
 Ya, Anda dapat memposisikan tabel mengambang di bagian berbeda dengan mengakses bagian tertentu dan tabelnya dalam dokumen Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

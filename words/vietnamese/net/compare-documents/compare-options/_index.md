@@ -1,14 +1,16 @@
 ---
-title: So sánh các tùy chọn trong tài liệu Word
-linktitle: So sánh các tùy chọn trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách so sánh các tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo tính nhất quán của tài liệu một cách dễ dàng.
-weight: 10
-url: /vi/net/compare-documents/compare-options/
+"description": "Tìm hiểu cách so sánh các tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo tính nhất quán của tài liệu một cách dễ dàng."
+"linktitle": "So sánh các tùy chọn trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "So sánh các tùy chọn trong tài liệu Word"
+"url": "/vi/net/compare-documents/compare-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # So sánh các tùy chọn trong tài liệu Word
@@ -21,7 +23,7 @@ Xin chào, những người đam mê công nghệ! Bạn đã bao giờ cần so
 
 Trước khi bắt tay vào code, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết. Sau đây là danh sách kiểm tra nhanh:
 
-1.  Aspose.Words for .NET Library: Bạn cần cài đặt thư viện Aspose.Words for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Library: Bạn cần cài đặt thư viện Aspose.Words for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bất kỳ môi trường phát triển C# nào như Visual Studio đều có thể thực hiện được.
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ rất hữu ích.
 4. Mẫu tài liệu Word: Hai tài liệu Word mà bạn muốn so sánh.
@@ -64,7 +66,7 @@ Document docB = docA.Clone();
 Trong đoạn trích này:
 - Chúng tôi chỉ định thư mục nơi lưu trữ tài liệu của chúng tôi.
 - Chúng tôi tải tài liệu đầu tiên (`docA`).
--  Chúng tôi nhân bản`docA` để tạo ra`docB`. Theo cách này, chúng ta có hai tài liệu giống hệt nhau để làm việc.
+- Chúng tôi nhân bản `docA` để tạo ra `docB`. Theo cách này, chúng ta có hai tài liệu giống hệt nhau để làm việc.
 
 ## Bước 3: Cấu hình tùy chọn so sánh
 
@@ -103,7 +105,7 @@ docA.Compare(docB, "user", DateTime.Now, options);
 ```
 
 Trong dòng này:
--  Chúng tôi so sánh`docA` với`docB`.
+- Chúng tôi so sánh `docA` với `docB`.
 - Chúng tôi chỉ định tên người dùng ("user") và ngày giờ hiện tại.
 
 ## Bước 5: Kiểm tra và hiển thị kết quả
@@ -114,7 +116,7 @@ Cuối cùng, chúng tôi kiểm tra kết quả so sánh và hiển thị xem c
 Console.WriteLine(docA.Revisions.Count == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
- Nếu như`docA.Revisions.Count` bằng không, nghĩa là không có sự khác biệt giữa các tài liệu. Nếu không, nghĩa là có một số sự khác biệt.
+Nếu như `docA.Revisions.Count` bằng không, nghĩa là không có sự khác biệt giữa các tài liệu. Nếu không, nghĩa là có một số sự khác biệt.
 
 ## Phần kết luận
 
@@ -126,7 +128,7 @@ Và thế là xong! Bạn đã so sánh thành công hai tài liệu Word bằng
 Aspose.Words for .NET so sánh hai tài liệu cùng một lúc. Để so sánh nhiều tài liệu, bạn có thể thực hiện theo từng cặp.
 
 ### Làm sao để bỏ qua những thay đổi trong hình ảnh?  
- Bạn có thể cấu hình`CompareOptions` để bỏ qua nhiều yếu tố khác nhau, nhưng việc bỏ qua hình ảnh cụ thể đòi hỏi phải xử lý tùy chỉnh.
+Bạn có thể cấu hình `CompareOptions` để bỏ qua nhiều yếu tố khác nhau, nhưng việc bỏ qua hình ảnh cụ thể đòi hỏi phải xử lý tùy chỉnh.
 
 ### Tôi có thể nhận được báo cáo chi tiết về sự khác biệt không?  
 Có, Aspose.Words cung cấp thông tin sửa đổi chi tiết mà bạn có thể truy cập theo chương trình.
@@ -135,10 +137,15 @@ Có, Aspose.Words cung cấp thông tin sửa đổi chi tiết mà bạn có th
 Có, nhưng trước tiên bạn cần mở khóa tài liệu bằng mật khẩu phù hợp.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?  
- Bạn có thể tìm thấy nhiều ví dụ và tài liệu chi tiết hơn trên[Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/).
+Bạn có thể tìm thấy nhiều ví dụ và tài liệu chi tiết hơn trên [Aspose.Words cho Tài liệu .NET](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

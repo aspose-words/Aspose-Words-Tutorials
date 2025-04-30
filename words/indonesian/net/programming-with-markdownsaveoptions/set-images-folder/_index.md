@@ -1,14 +1,16 @@
 ---
-title: Atur Folder Gambar
-linktitle: Atur Folder Gambar
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna.
-weight: 10
-url: /id/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna."
+"linktitle": "Atur Folder Gambar"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Atur Folder Gambar"
+"url": "/id/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atur Folder Gambar
@@ -21,8 +23,8 @@ Pernahkah Anda ingin mengekspor dokumen Word Anda ke format Markdown sambil mema
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Words untuk .NET: Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
--  Lisensi yang valid: Dapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words untuk .NET: Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
+- Lisensi yang valid: Dapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: Atau IDE lain yang mendukung pengembangan .NET.
 - Pengetahuan dasar C#: Pemahaman tentang bahasa pemrograman C#.
 
@@ -46,7 +48,7 @@ Buka Visual Studio dan buat proyek Aplikasi Konsol baru. Beri nama "MarkdownExpo
 
 ### 1.2 Tambahkan Referensi Aspose.Words
 
- Untuk menambahkan Aspose.Words ke proyek Anda, Anda dapat mengunduh DLL dari[Situs web Aspose](https://releases.aspose.com/words/net/) dan menambahkannya secara manual, atau menggunakan NuGet Package Manager:
+Untuk menambahkan Aspose.Words ke proyek Anda, Anda dapat mengunduh DLL dari [Situs web Aspose](https://releases.aspose.com/words/net/) dan menambahkannya secara manual, atau menggunakan NuGet Package Manager:
 
 ```bash
 Install-Package Aspose.Words
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 Konfigurasi Opsi Penyimpanan Markdown
 
- Konfigurasikan`MarkdownSaveOptions` untuk menentukan di mana gambar harus disimpan.
+Konfigurasikan `MarkdownSaveOptions` untuk menentukan di mana gambar harus disimpan.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 Simpan Dokumen sebagai Markdown
 
- Gunakan`MemoryStream` untuk menyimpan dokumen dalam format Markdown.
+Gunakan `MemoryStream` untuk menyimpan dokumen dalam format Markdown.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -106,7 +108,7 @@ Ya, Aspose.Words untuk .NET dapat digunakan dengan bahasa apa pun yang kompatibe
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Words?
 
-Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Jenis dokumen apa yang dapat saya konversi ke Markdown?
 
@@ -114,15 +116,20 @@ Anda dapat mengonversi berbagai dokumen Word termasuk .doc, .docx, .rtf, dan ban
 
 ### Apakah ada batasan pada versi uji coba Aspose.Words?
 
-Versi uji coba memiliki beberapa keterbatasan seperti tanda air di file keluaran. Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Versi uji coba memiliki beberapa keterbatasan seperti tanda air di file keluaran. Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Words?
 
- Anda dapat menemukan dokumentasi dan contoh terperinci di[Situs web Aspose](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi dan contoh terperinci di [Situs web Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

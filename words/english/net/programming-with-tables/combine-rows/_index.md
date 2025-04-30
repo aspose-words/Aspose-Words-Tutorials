@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/combine-rows/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combine Rows
@@ -120,9 +123,13 @@ Absolutely! You can create a script to automate this process for multiple docume
 
 The [Aspose.Words support forum](https://forum.aspose.com/c/words/8) is a great place to get help and find solutions to common issues.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

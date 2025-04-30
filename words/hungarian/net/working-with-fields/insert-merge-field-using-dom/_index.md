@@ -1,50 +1,52 @@
 ---
-title: Egyesítési mező beszúrása DOM segítségével
-linktitle: Egyesítési mező beszúrása DOM segítségével
-second_title: Aspose.Words Document Processing API
-description: Ezzel az átfogó, lépésenkénti oktatóanyaggal megtudhatja, hogyan szúrhat be és konfigurálhat egyesítő mezőket Word dokumentumokba az Aspose.Words for .NET segítségével.
-weight: 10
-url: /hu/net/working-with-fields/insert-merge-field-using-dom/
+"description": "Tanulja meg, hogyan szúrhat be és konfigurálhat egyesítési mezőket Word-dokumentumokban az Aspose.Words for .NET használatával ebből az átfogó, lépésről lépésre haladó oktatóanyagból."
+"linktitle": "Egyesítési mező beszúrása DOM használatával"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Egyesítési mező beszúrása DOM használatával"
+"url": "/hu/net/working-with-fields/insert-merge-field-using-dom/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyesítési mező beszúrása DOM segítségével
+# Egyesítési mező beszúrása DOM használatával
 
 ## Bevezetés
 
-Ha dokumentumfeldolgozással dolgozik .NET-ben, valószínűleg találkozott már az Aspose.Words-szel. Ez a hatékony könyvtár a funkciók széles skáláját kínálja a Word-dokumentumok programozott kezeléséhez. Ebben az oktatóanyagban egy konkrét funkcióra összpontosítunk: egy összevonási mező beszúrására az Aspose.Words for .NET dokumentumobjektum-modellje (DOM) használatával. Ez az útmutató végigvezeti Önt minden lépésen, a környezet beállításától a Word-dokumentumban lévő egyesítő mezők beszúrásáig és frissítéséig.
+Ha .NET-ben dolgozol dokumentumfeldolgozással, valószínűleg találkoztál már az Aspose.Words-szel. Ez a hatékony függvénykönyvtár számos funkciót kínál a Word-dokumentumok programozott kezeléséhez. Ebben az oktatóanyagban egy konkrét funkcióra fogunk összpontosítani: egy egyesítő mező beszúrására a .NET-hez készült Aspose.Words dokumentumobjektum-modelljének (DOM) használatával. Ez az útmutató végigvezet a lépéseken, a környezet beállításától kezdve az egyesítő mező Word-dokumentumban való beszúrásán és frissítésén át.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami ehhez az oktatóanyaghoz szükséges.
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy mindent megtalálsz, amire szükséged van ehhez az oktatóanyaghoz.
 
-1. C# alapismeretek: Kényelmesnek kell lennie a C# programozásban.
-2. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio vagy bármely más C# IDE telepítve van a gépen.
-3.  Aspose.Words for .NET: Töltse le és telepítse az Aspose.Words for .NET legújabb verzióját a webhelyről[Kiadások](https://releases.aspose.com/words/net/).
-4.  Érvényes jogosítvány: Ha nincs jogosítványa, megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékeléshez.
+1. C# alapismeretek: Jártasnak kell lenned a C# programozásban.
+2. Visual Studio telepítve: Győződjön meg róla, hogy a Visual Studio vagy bármilyen más C# IDE telepítve van a gépén.
+3. Aspose.Words for .NET: Töltse le és telepítse az Aspose.Words for .NET legújabb verzióját a következő címről: [Kiadások](https://releases.aspose.com/words/net/).
+4. Érvényes jogosítvány: Ha nincs jogosítványod, szerezhetsz egyet [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékeléshez.
 
-## 1. lépés: Állítsa be a projektet
+## 1. lépés: A projekt beállítása
 
-Először is állítsunk be egy új projektet a Visual Studióban.
+Először is, hozzunk létre egy új projektet a Visual Studio-ban.
 
-1. Nyissa meg a Visual Studio-t.
-2. Új projekt létrehozása: Válassza a Fájl > Új > Projekt menüpontot. Válasszon egy C# konzolalkalmazást.
-3. Nevezze el projektjét: Adjon értelmes nevet a projektjének, majd kattintson a Létrehozás gombra.
+1. Nyisd meg a Visual Studio-t.
+2. Új projekt létrehozása: Lépjen a Fájl > Új > Projekt menüpontra. Válasszon ki egy C# konzolalkalmazást.
+3. Nevezd el a projekted: Adj egy értelmes nevet a projektednek, majd kattints a Létrehozás gombra.
 
 ## 2. lépés: Telepítse az Aspose.Words programot
 
-Az Aspose.Words használatához hozzá kell adnia a projekthez. Ezt a NuGet Package Manager segítségével teheti meg.
+Az Aspose.Words használatához hozzá kell adni a projektedhez. Ezt a NuGet csomagkezelőn keresztül teheted meg.
 
-1. Nyissa meg a NuGet Package Managert: Kattintson jobb gombbal a projektre a Solution Explorerben, majd válassza a Manage NuGet Packages lehetőséget.
-2. Aspose.Words keresése: A NuGet Package Managerben keresse meg az „Aspose.Words” kifejezést.
-3. Telepítse a csomagot: Kattintson a Telepítés gombra az Aspose.Words projekthez való hozzáadásához.
+1. Nyissa meg a NuGet csomagkezelőt: Kattintson a jobb gombbal a projektre a Megoldáskezelőben, majd válassza a NuGet csomagok kezelése lehetőséget.
+2. Aspose.Words keresése: A NuGet csomagkezelőben keressen rá az „Aspose.Words” kifejezésre.
+3. A csomag telepítése: Kattintson a Telepítés gombra az Aspose.Words projekthez való hozzáadásához.
 
 ## 3. lépés: Névterek importálása
 
-Az Aspose.Words használatának megkezdéséhez importálnia kell a szükséges névtereket a projektbe. A következőképpen teheti meg:
+Az Aspose.Words használatának megkezdéséhez importálnia kell a szükséges névtereket a projektjébe. Így teheti meg:
 
 ```csharp
 using System;
@@ -52,9 +54,9 @@ using Aspose.Words;
 using Aspose.Words.Fields;
 ```
 
-## 4. lépés: Inicializálja a dokumentumot
+## 4. lépés: A dokumentum inicializálása
 
-Most, hogy minden be van állítva, hozzunk létre egy új Word-dokumentumot, és inicializáljuk a DocumentBuilder-t.
+Most, hogy minden beállított, hozzunk létre egy új Word-dokumentumot, és inicializáljuk a DocumentBuildert.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -65,27 +67,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## 5. lépés: Mozgassa a kurzort egy adott bekezdésre
+## 5. lépés: Kurzor áthelyezése adott bekezdésre
 
-Ezután a kurzort a dokumentum egy adott bekezdésére kell mozgatnunk, ahová az egyesítési mezőt be akarjuk szúrni.
+Ezután a kurzort a dokumentum egy adott bekezdésére kell mozgatnunk, ahová az egyező mezőt be szeretnénk szúrni.
 
 ```csharp
 Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
 builder.MoveTo(para);
 ```
 
-## 6. lépés: Illessze be az Egyesítés mezőt
+## 6. lépés: Illessze be az egyesítési mezőt
 
- Az egyesítési mező beszúrása egyszerű. Használjuk a`InsertField` módszere a`DocumentBuilder` osztály.
+Egy egyesítő mező beszúrása egyszerű. A következőt fogjuk használni: `InsertField` a módszer `DocumentBuilder` osztály.
 
 ```csharp
-// Mezőegyesítési mező beszúrása.
+// Mezőegyesítési mező beszúrása
 FieldMergeField field = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, false);
 ```
 
-## 7. lépés: Konfigurálja az Egyesítési mezőt
+## 7. lépés: Az egyesítési mező konfigurálása
 
-Az egyesítési mező beillesztése után különféle tulajdonságokat állíthat be, hogy igényei szerint konfigurálja azt.
+Az egyesítési mező beillesztése után különféle tulajdonságokat állíthat be, hogy az igényeinek megfelelően konfigurálhassa azt.
 
 ```csharp
 field.FieldName = "Test1";
@@ -95,9 +97,9 @@ field.IsMapped = true;
 field.IsVerticalFormatting = true;
 ```
 
-## 8. lépés: Frissítse és mentse a dokumentumot
+## 8. lépés: A dokumentum frissítése és mentése
 
-Végül frissítse a mezőt, hogy minden beállítást alkalmazzon, és mentse a dokumentumot.
+Végül frissítse a mezőt, hogy minden beállítás érvénybe lépjen, és mentse el a dokumentumot.
 
 ```csharp
 // Frissítse a mezőt.
@@ -109,27 +111,32 @@ doc.Save(dataDir + "InsertionChampMergeChamp.docx");
 
 ## Következtetés
 
-Ha követi ezeket a lépéseket, az Aspose.Words for .NET segítségével egyszerűen beszúrhat és konfigurálhat egyesítési mezőket egy Word-dokumentumban. Ez az oktatóanyag a legfontosabb lépéseket ismertette a környezet beállításától a végleges dokumentum mentéséig. Az Aspose.Words segítségével az összetett dokumentumfeldolgozási feladatokat automatizálhatja, így .NET-alkalmazásait hatékonyabbá és hatékonyabbá teheti.
+következő lépéseket követve könnyedén beszúrhat és konfigurálhat egyesítési mezőket egy Word-dokumentumban az Aspose.Words for .NET segítségével. Ez az oktatóanyag a környezet beállításától a végleges dokumentum mentéséig minden lényeges lépést áttekintett. Az Aspose.Words segítségével automatizálhatja az összetett dokumentumfeldolgozási feladatokat, így .NET alkalmazásai hatékonyabbak és erősebbek lesznek.
 
 ## GYIK
 
-###  Mi az egyesítési mező?
-Az egyesítési mező egy olyan helyőrző a dokumentumban, amely dinamikusan lecserélhető adatforrásból, például adatbázisból vagy CSV-fájlból származó adatokkal.
+###  Mi az az egyesítési mező?
+Az adatmező egy helyőrző a dokumentumokban, amely dinamikusan lecserélhető egy adatforrásból, például egy adatbázisból vagy egy CSV-fájlból származó adatokkal.
 
-###  Használhatom ingyenesen az Aspose.Words-t?
- Az Aspose.Words ingyenes próbaverziót kínál, amelyet letölthet[itt](https://releases.aspose.com/). A hosszú távú használathoz licencet kell vásárolnia.
+###  Ingyenesen használhatom az Aspose.Words-öt?
+Az Aspose.Words ingyenes próbaverziót kínál, amelyet letölthet [itt](https://releases.aspose.com/)Hosszú távú használathoz licencet kell vásárolnia.
 
-###  Hogyan szerezhetek ideiglenes licencet az Aspose.Words számára?
- Ideiglenes licencet az Aspose webhelyéről szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+###  Hogyan szerezhetek ideiglenes licencet az Aspose.Words-höz?
+Ideiglenes licencet szerezhet be az Aspose weboldaláról. [itt](https://purchase.aspose.com/temporary-license/).
 
-### A .NET mely verzióit támogatja az Aspose.Words?
-Az Aspose.Words a .NET több verzióját támogatja, beleértve a .NET Framework-et, a .NET Core-t és a .NET Standard-t.
+### Az Aspose.Words mely .NET verziókat támogatja?
+Az Aspose.Words a .NET több verzióját is támogatja, beleértve a .NET Framework, a .NET Core és a .NET Standard verziókat.
 
 ###  Hol találom az Aspose.Words API dokumentációját?
- Az API dokumentáció elérhető[itt](https://reference.aspose.com/words/net/).
+Az API dokumentáció elérhető [itt](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

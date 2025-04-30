@@ -1,38 +1,46 @@
 ---
-title: إعداد مستند كلمات مع جدول المحتوى في .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء مستند كلمات مع جدول المحتوى باستخدام Aspose.Words ل .NET. دليل خطوة بخطوة متضمن.
-keywords: [Aspose.Words, .NET, Word document, Table of Contents, DocumentBuilder, example, code snippet]
-url: /ar/net/add-content-using-document-builder/insert-table-contents/
+"description": "تعلم كيفية إنشاء مستند Word بجدول محتويات باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مرفق."
+"title": "إنشاء مستند Word مع جدول المحتويات في .NET"
+"url": "/ar/net/add-content-using-document-builder/insert-table-contents/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إعداد وثيقة كلمة مع جدول المحتوى
-يوضح هذا المثال كيفية استخدام Aspose.Words لـ .NET لإنشاء مستند Word يتضمن جدولًا تفاعليًا للمحتوى (TOC) الذي تم إنشاؤه باستخدام فئة DocumentBuilder. يوضح الرمز كيفية إدخال عناوين من مختلف المستويات وتصميمها، وتخزين الوثيقة الناتجة كملف .docx. اتبع الخطوات أدناه لتنفيذ سهل.
+# إنشاء مستند Word مع جدول المحتويات
+يوضح هذا المثال كيفية استخدام Aspose.Words لـ .NET لإنشاء مستند Word يتضمن جدول محتويات تفاعليًا (TOC) مُولّدًا باستخدام فئة DocumentBuilder. يوضح الكود كيفية إدراج عناوين من مستويات مختلفة، وتنسيقها، وحفظ المستند الناتج كملف .docx. اتبع الخطوات التالية لسهولة التنفيذ.
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-table-contents" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
-1. الشروط المسبقة: تأكد من أن .NET مثبت على جهازك.
-2. قم بتثبيت Aspose.Words: 
-   * استخدم Console NuGet Manager:
+1. المتطلبات الأساسية: تأكد من تثبيت .NET على جهازك.
+2. تثبيت Aspose.Words: 
+   - استخدام وحدة تحكم إدارة الحزم NuGet:
      ```
      Install-Package Aspose.Words
      ```
-   * أو، البحث عن "Aspose.Words" في GUI مدير الحزمة NuGet.
+   - أو ابحث عن "Aspose.Words" في واجهة المستخدم الرسومية لـ NuGet Package Manager.
 
-## انظر أيضاً
-[Aspose.Word للمستندات .NET](https://docs.aspose.com/words/net/)
-[Aspose.Word للمراجع .NET](https://reference.aspose.com/words/net/)
+## انظر أيضا
+[توثيق Aspose.Word لـ .NET](https://docs.aspose.com/words/net/)
+[مراجع Aspose.Word لـ .NET](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

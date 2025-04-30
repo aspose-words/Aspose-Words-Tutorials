@@ -1,14 +1,16 @@
 ---
-title: การเปรียบเทียบเอกสารเพื่อหาข้อแตกต่าง
-linktitle: การเปรียบเทียบเอกสารเพื่อหาข้อแตกต่าง
-second_title: API การประมวลผลเอกสาร Java ของ Aspose.Words
-description: เรียนรู้วิธีเปรียบเทียบเอกสารเพื่อหาความแตกต่างโดยใช้ Aspose.Words ใน Java คำแนะนำทีละขั้นตอนของเราจะช่วยให้การจัดการเอกสารมีความแม่นยำ
-weight: 12
-url: /th/java/document-merging/comparing-documents-for-differences/
+"description": "เรียนรู้วิธีเปรียบเทียบเอกสารเพื่อดูความแตกต่างโดยใช้ Aspose.Words ใน Java คำแนะนำทีละขั้นตอนของเราจะช่วยให้การจัดการเอกสารมีความแม่นยำ"
+"linktitle": "การเปรียบเทียบเอกสารเพื่อหาข้อแตกต่าง"
+"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
+"title": "การเปรียบเทียบเอกสารเพื่อหาข้อแตกต่าง"
+"url": "/th/java/document-merging/comparing-documents-for-differences/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเปรียบเทียบเอกสารเพื่อหาข้อแตกต่าง
@@ -21,10 +23,10 @@ url: /th/java/document-merging/comparing-documents-for-differences/
 
 ก่อนที่จะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:  
 1. Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ  
-2.  Aspose.Words สำหรับไลบรารี Java คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/words/java/).  
+2. Aspose.Words สำหรับไลบรารี Java คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/words/java/).  
 3. สภาพแวดล้อมการพัฒนาเช่น IntelliJ IDEA หรือ Eclipse  
 4. ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรมภาษา Java  
-5.  ใบอนุญาต Aspose ที่ถูกต้อง หากคุณไม่มี ให้ขอใบอนุญาต[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+5. ใบอนุญาต Aspose ที่ถูกต้อง หากคุณไม่มี ให้ขอใบอนุญาต [ใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ## แพ็คเกจนำเข้า
 
@@ -55,7 +57,7 @@ builder = new DocumentBuilder(doc2);
 builder.writeln("This is the edited document.");
 ```
 
- การดำเนินการนี้จะสร้างเอกสารสองฉบับในหน่วยความจำที่มีเนื้อหาพื้นฐาน นอกจากนี้ คุณยังสามารถโหลดเอกสาร Word ที่มีอยู่แล้วได้โดยใช้`new Document("path/to/document.docx")`.
+การดำเนินการนี้จะสร้างเอกสารสองฉบับในหน่วยความจำที่มีเนื้อหาพื้นฐาน นอกจากนี้ คุณยังสามารถโหลดเอกสาร Word ที่มีอยู่ได้โดยใช้ `new Document("path/to/document-docx")`.
 
 
 ## ขั้นตอนที่ 2: ตรวจสอบการแก้ไขที่มีอยู่
@@ -73,7 +75,7 @@ if (doc1.getRevisions().getCount() == 0 && doc2.getRevisions().getCount() == 0) 
 
 ## ขั้นตอนที่ 3: เปรียบเทียบเอกสาร
 
- ใช้`compare` วิธีการหาความแตกต่าง วิธีการนี้จะเปรียบเทียบเอกสารเป้าหมาย (`doc2`) พร้อมเอกสารต้นฉบับ (`doc1`-
+ใช้ `compare` วิธีการหาความแตกต่าง วิธีการนี้จะเปรียบเทียบเอกสารเป้าหมาย (`doc2`) พร้อมเอกสารต้นฉบับ (`doc1`-
 
 ```java
 doc1.compare(doc2, "AuthorName", new Date());
@@ -107,7 +109,7 @@ for (Revision r : doc1.getRevisions()) {
 doc1.getRevisions().acceptAll();
 ```
 
- การอัพเดตนี้`doc1` เพื่อสะท้อนการเปลี่ยนแปลงทั้งหมดที่เกิดขึ้นใน`doc2`.
+การอัปเดตนี้ `doc1` เพื่อสะท้อนการเปลี่ยนแปลงทั้งหมดที่เกิดขึ้นใน `doc2`-
 
 
 ## ขั้นตอนที่ 6: บันทึกเอกสารที่อัปเดต
@@ -151,7 +153,7 @@ if (doc1.getText().trim().equals(doc2.getText().trim())) {
 ใช่ Aspose.Words รองรับการเปรียบเทียบเอกสารที่ซับซ้อน รวมถึงเอกสารที่มีรูปภาพ ตาราง และการจัดรูปแบบ
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ฟีเจอร์นี้หรือไม่?  
- ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ รับ[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ รับ [ใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### จะเกิดอะไรขึ้นหากมีการแก้ไขที่เกิดขึ้นก่อนหน้านี้?  
 คุณจะต้องยอมรับหรือปฏิเสธก่อนที่จะเปรียบเทียบเอกสารเพื่อหลีกเลี่ยงความขัดแย้ง
@@ -161,9 +163,14 @@ if (doc1.getText().trim().equals(doc2.getText().trim())) {
 
 ### คุณสมบัตินี้มีให้ใช้ในภาษาการเขียนโปรแกรมอื่นหรือไม่?  
 ใช่ Aspose.Words รองรับหลายภาษา รวมถึง .NET และ Python
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

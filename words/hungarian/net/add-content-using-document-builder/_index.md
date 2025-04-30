@@ -1,31 +1,43 @@
 ---
-title: Adjon tartalmat a dokumentumépítő segítségével az Aspose.Words .NET-ben 
-weight: 10
-limit:
-description: Tanuljon meg, hogyan adjon hozzá tartalmat a DocumentBuilder segítségével az Aspose.Words a .NET-ben. Töltse hozzá szöveget, képeket, táblázatokat és formákat a Word dokumentumokra zökkenőmentesen lépésről lépésre útmutatással.
-keywords:
-url: /hu/net/add-content-using-document-builder/
+"description": "Tanuld meg, hogyan adhatsz hozzá tartalmat a DocumentBuilder segítségével az Aspose.Words for .NET programban. Lépésről lépésre haladva zökkenőmentesen adhatsz hozzá szöveget, képeket, táblázatokat és alakzatokat a Word-dokumentumokhoz."
+"title": "Tartalom hozzáadása a dokumentumszerkesztővel az Aspose.Words for .NET programban"
+"url": "/hu/net/add-content-using-document-builder/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Bevezető
+## Bevezetés
  
-A .NET Aspose.Words lehetővé teszi a fejlesztők számára, hogy erőfeszítés nélkül programszerűen hozzanak létre és manipulálják a Word dokumentumokat. A hatékony DocumentBuilder osztály segítségével különböző típusú tartalmat, beleértve a szöveget, képeket, táblázatokat és formákat, pontos és rugalmasan hozzáadhat. Akár jelentéseket készít, számlákat generál, akár mintákat készít, a DocumentBuilder intuitív módon formáz és struktúrálja dokumentumait dinamikus módon.  
+Az Aspose.Words for .NET lehetővé teszi a fejlesztők számára, hogy könnyedén, programozottan hozzanak létre és szerkeszszenek Word dokumentumokat. A hatékony DocumentBuilder osztály segítségével különféle típusú tartalmakat, például szöveget, képeket, táblázatokat és alakzatokat adhat hozzá pontosan és rugalmasan. Akár jelentéseket készít, akár számlákat generál, akár sablonokat készít, a DocumentBuilder intuitív módot kínál a dokumentumok dinamikus formázására és strukturálására.  
 
-Ez a útmutató mélyrehatóan vizsgálja a DocumentBuilder osztály sokoldalúságát, lépésről lépésre fedezve a kulcsfontosságú funkcióit. Tanuljon meg, hogyan lehet gazdag tartalmat hozzáadni dokumentumainak, egyedi stílusokat alkalmazni és még összetett beépítéseket is kezelni. Praktikus példákkal és egyértelmű magyarázatok segítségével megtanulja, hogyan használhatja a DocumentBuilder-t dokumentumgyártási feladatok egyszerűsítésére.
+Ez az útmutató részletesen bemutatja a DocumentBuilder osztály sokoldalúságát, lépésről lépésre bemutatva főbb funkcióit. Tanulja meg, hogyan adhat hozzá gazdag tartalmat dokumentumaihoz, hogyan alkalmazhat egyéni stílusokat, és hogyan kezelhet összetett elrendezéseket. Gyakorlati példák és világos magyarázatok segítségével elsajátíthatja, hogyan használhatja a DocumentBuildert a dokumentumgenerálási feladatok gyors leegyszerűsítésére.
 
-{{< tutorial-card link="./build-table/" title="Készítsen egy Word dokumentumot a táblázat segítségével Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./insert-break/" title="Számos oldalsó Word dokumentumot készítsen az Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./insert-floating-image/" title="Word dokumentumot készítsek lebegő képekkel .NET-ben" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-horizontal-rule/" title="A Word dokumentumot a .NET-ben horizontális szabálytal készítsük" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./insert-inline-image/" title="Beillesztse a Word dokumentumban a bejegyzett képeket az Aspose.Words segítségével" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-paragraph/" title="Word Dokumentum létrehozása az Aspose.Words segítségével .NET-hez" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./insert-table-contents/" title="Létrehozza a Word dokumentumot a tartalmak listájával .NET-ben" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+
+{{< tutorial-card link="./build-table/" title="Hozz létre egy Word dokumentumot táblázattal az Aspose.Words használatával" imgSrc="./build-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-break/" title="Többoldalas Word-dokumentum létrehozása az Aspose.Words segítségével" imgSrc="./insert-break/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-floating-image/" title="Word dokumentum létrehozása lebegő képpel .NET-ben" imgSrc="./insert-floating-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-horizontal-rule/" title="Word dokumentum létrehozása vízszintes vonallal .NET-ben" imgSrc="./insert-horizontal-rule/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-inline-image/" title="Szúrjon be beágyazott képet Word-dokumentumba az Aspose.Words használatával" imgSrc="./insert-inline-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-paragraph/" title="Word dokumentum létrehozása az Aspose.Words for .NET segítségével" imgSrc="./insert-paragraph/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-table-contents/" title="Tartalomjegyzékkel ellátott Word-dokumentum létrehozása .NET-ben" imgSrc="./insert-table-contents/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
-title: फॉर्म फ़ील्ड्स गुणों के साथ कार्य करें
-linktitle: फॉर्म फ़ील्ड्स गुणों के साथ कार्य करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड में हेरफेर करना सीखें।
-weight: 10
-url: /hi/net/working-with-formfields/form-fields-work-with-properties/
+"description": "हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में फ़ॉर्म फ़ील्ड में हेरफेर करना सीखें।"
+"linktitle": "फॉर्म फ़ील्ड्स गुणों के साथ काम करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "फॉर्म फ़ील्ड्स गुणों के साथ काम करें"
+"url": "/hi/net/working-with-formfields/form-fields-work-with-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# फॉर्म फ़ील्ड्स गुणों के साथ कार्य करें
+# फॉर्म फ़ील्ड्स गुणों के साथ काम करें
 
 ## परिचय
 
@@ -20,7 +22,7 @@ url: /hi/net/working-with-formfields/form-fields-work-with-properties/
 ## आवश्यक शर्तें
 
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
--  .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: नवीनतम संस्करण डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/).
 - .NET विकास वातावरण: विजुअल स्टूडियो अनुशंसित है।
 - C# का बुनियादी ज्ञान: मूल बातें समझने से आपको आसानी से आगे बढ़ने में मदद मिलेगी।
 
@@ -45,7 +47,7 @@ Visual Studio खोलें और एक नया कंसोल ऐप (.N
 
 ### चरण 1.2: .NET के लिए Aspose.Words स्थापित करें
 
- आप NuGet पैकेज मैनेजर के माध्यम से Aspose.Words को इंस्टॉल कर सकते हैं।`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`, और "Aspose.Words" खोजें। पैकेज स्थापित करें।
+आप NuGet पैकेज मैनेजर के माध्यम से Aspose.Words को इंस्टॉल कर सकते हैं। `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`, और "Aspose.Words" खोजें। पैकेज स्थापित करें।
 
 वैकल्पिक रूप से, आप NuGet पैकेज मैनेजर कंसोल का उपयोग कर सकते हैं:
 
@@ -59,7 +61,7 @@ Install-Package Aspose.Words
 
 ### चरण 2.1: दस्तावेज़ निर्देशिका निर्दिष्ट करें
 
- अपने दस्तावेज़ निर्देशिका का पथ सेट करें।`"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है.
+अपने दस्तावेज़ निर्देशिका का पथ सेट करें। `"YOUR DOCUMENT DIRECTORY"` उस वास्तविक पथ के साथ जहां आपका दस्तावेज़ संग्रहीत है.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -87,7 +89,7 @@ FormField formField = doc.Range.FormFields[3];
 
 ### चरण 3.2: फ़ॉर्म फ़ील्ड प्रकार की जाँच करें
 
- सुनिश्चित करें कि फ़ॉर्म फ़ील्ड इस प्रकार का है`FieldFormTextInput` इसे संशोधित करने से पहले.
+सुनिश्चित करें कि फ़ॉर्म फ़ील्ड इस प्रकार का है `FieldFormTextInput` इसे संशोधित करने से पहले.
 
 ```csharp
 if (formField.Type == FieldType.FieldFormTextInput)
@@ -118,19 +120,24 @@ doc.Save(dataDir + "ModifiedFormFields.docx");
 हां, Aspose.Words for .NET किसी भी .NET भाषा के साथ संगत है, जिसमें VB.NET और F# शामिल हैं।
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
-Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण कार्यक्षमता के लिए, आपको लाइसेंस खरीदना होगा। आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### क्या मैं Aspose.Words for .NET के साथ Word दस्तावेज़ में अन्य तत्वों में हेरफेर कर सकता हूँ?
 बिल्कुल! .NET के लिए Aspose.Words आपको Word दस्तावेज़ के भीतर पाठ, चित्र, तालिकाओं और कई अन्य तत्वों में हेरफेर करने की अनुमति देता है।
 
 ### मैं .NET के लिए Aspose.Words का समर्थन कैसे प्राप्त करूं?
- सहायता के लिए, आप Aspose.Words फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/words/8).
+सहायता के लिए, आप Aspose.Words फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/words/8).
 
 ### मैं .NET के लिए Aspose.Words का दस्तावेज़ कहां पा सकता हूं?
- आप सम्पूर्ण दस्तावेज यहाँ पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप सम्पूर्ण दस्तावेज यहाँ पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

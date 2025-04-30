@@ -1,14 +1,16 @@
 ---
-title: Dapatkan Detail Grup Revisi
-linktitle: Dapatkan Detail Grup Revisi
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Dapatkan detail grup revisi dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang .NET.
-weight: 10
-url: /id/net/working-with-revisions/get-revision-group-details/
+"description": "Dapatkan detail grup revisi dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang .NET."
+"linktitle": "Dapatkan Detail Grup Revisi"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Dapatkan Detail Grup Revisi"
+"url": "/id/net/working-with-revisions/get-revision-group-details/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Detail Grup Revisi
@@ -20,7 +22,7 @@ Pernahkah Anda merasa perlu mempelajari detail revisi yang sangat mendetail dala
 ## Prasyarat
 
 Sebelum kita memulai perjalanan pengkodean ini, mari pastikan Anda memiliki semua yang Anda butuhkan:
--  Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Jika belum, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Pastikan Anda telah menginstal versi terbaru. Jika belum, Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/words/net/).
 - Lingkungan .NET: Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi. Visual Studio adalah pilihan yang bagus.
 - Dokumen Word dengan Revisi: Untuk tutorial ini, kami akan menggunakan contoh dokumen Word dengan revisi (`Revisions.docx`).
 
@@ -33,7 +35,7 @@ using Aspose.Words;
 using System;
 ```
 
-Baiklah, mari kita bahas ini langkah demi langkah. Setiap langkah akan memandu Anda melalui proses mendapatkan detail grup revisi menggunakan Aspose.Words untuk .NET.
+Baiklah, mari kita bahas langkah demi langkah. Setiap langkah akan memandu Anda melalui proses mendapatkan detail grup revisi menggunakan Aspose.Words untuk .NET.
 
 ## Langkah 1: Muat Dokumen Word
 
@@ -45,11 +47,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Revisions.docx");
 ```
 
- Dalam cuplikan ini, ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Kode ini akan memuat`Revisions.docx` berkas ke dalam`doc` obyek.
+Dalam cuplikan ini, ganti `"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya ke dokumen Anda. Kode ini akan memuat `Revisions.docx` berkas ke dalam `doc` obyek.
 
 ## Langkah 2: Akses Koleksi Revisi
 
- Sekarang, mari kita akses revisi dalam dokumen. Aspose.Words menyediakan`Revisions` koleksi yang dapat kita ulangi.
+Sekarang, mari kita akses revisi dalam dokumen. Aspose.Words menyediakan `Revisions` koleksi yang dapat kita ulangi.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -91,7 +93,7 @@ foreach (Revision revision in doc.Revisions)
 }
 ```
 
-Cuplikan ini akan mencetak teks grup jika revisi merupakan bagian dari grup atau menunjukkan bahwa revisi tersebut tidak termasuk dalam grup mana pun.
+Cuplikan ini akan mencetak teks grup jika revisi merupakan bagian dari grup atau menunjukkan bahwa revisi tersebut bukan milik grup mana pun.
 
 ## Kesimpulan
 
@@ -106,16 +108,21 @@ Ini adalah pustaka .NET yang canggih untuk membuat, mengedit, mengonversi, dan m
 Tentu saja! Anda dapat menggunakannya dengan bahasa .NET apa pun, termasuk C#, VB.NET, dan ASP.NET.
 
 ### Bagaimana saya bisa mendapatkan uji coba gratis Aspose.Words untuk .NET?
- Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Anda bisa mendapatkan uji coba gratis [Di Sini](https://releases.aspose.com/).
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
- Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli satu[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Aspose.Words untuk .NET memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membeli satu [Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Words untuk .NET?
- Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/words/net/).
+Dokumentasi terperinci tersedia [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

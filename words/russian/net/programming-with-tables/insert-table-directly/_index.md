@@ -1,14 +1,16 @@
 ---
-title: Вставить таблицу напрямую
-linktitle: Вставить таблицу напрямую
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять таблицы непосредственно в документы Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы упростить создание документов.
-weight: 10
-url: /ru/net/programming-with-tables/insert-table-directly/
+"description": "Узнайте, как вставлять таблицы непосредственно в документы Word с помощью Aspose.Words для .NET. Следуйте нашему подробному пошаговому руководству, чтобы упростить создание документов."
+"linktitle": "Вставить таблицу напрямую"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить таблицу напрямую"
+"url": "/ru/net/programming-with-tables/insert-table-directly/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить таблицу напрямую
@@ -20,7 +22,7 @@ url: /ru/net/programming-with-tables/insert-table-directly/
 
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала. Вот краткий контрольный список:
 
-1.  Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили библиотеку Aspose.Words for .NET. Вы можете получить ее из[страница загрузки](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Убедитесь, что вы загрузили и установили библиотеку Aspose.Words for .NET. Вы можете получить ее из [страница загрузки](https://releases.aspose.com/words/net/).
 2. Среда разработки: среда разработки, подобная Visual Studio.
 3. Базовые знания C#: понимание основ программирования на C#.
 4. Каталог документов: путь к каталогу, в котором вы будете сохранять свои документы.
@@ -45,13 +47,13 @@ using Aspose.Words.Tables;
 Начнем с создания нового документа Word. В него будет вставлена наша таблица.
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 ```
 
- Этот код инициализирует новый документ Word. Вам нужно будет заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
+Этот код инициализирует новый документ Word. Вам нужно будет заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу ваших документов.
 
 ## Шаг 2: Создание объекта «Таблица»
 
@@ -106,7 +108,7 @@ row.AppendChild(cell);
 
 ```csharp
 // Затем мы повторим этот процесс для других ячеек и строк таблицы.
-//Мы также можем ускорить процесс, клонировав существующие ячейки и строки.
+// Мы также можем ускорить процесс, клонировав существующие ячейки и строки.
 row.AppendChild(cell.Clone(false));
 row.LastCell.AppendChild(new Paragraph(doc));
 row.LastCell.FirstParagraph.AppendChild(new Run(doc, "Row 1, Cell 2 Text"));
@@ -140,22 +142,27 @@ doc.Save(dataDir + "WorkingWithTables.InsertTableDirectly.docx");
 ## Часто задаваемые вопросы
 
 ### Как загрузить Aspose.Words для .NET?
- Вы можете загрузить Aspose.Words для .NET с сайта[страница загрузки](https://releases.aspose.com/words/net/).
+Вы можете загрузить Aspose.Words для .NET с сайта [страница загрузки](https://releases.aspose.com/words/net/).
 
 ### Могу ли я попробовать Aspose.Words для .NET перед покупкой?
- Да, вы можете запросить[бесплатная пробная версия](https://releases.aspose.com/) оценить библиотеку перед покупкой.
+Да, вы можете запросить [бесплатная пробная версия](https://releases.aspose.com/) оценить библиотеку перед покупкой.
 
 ### Как приобрести Aspose.Words для .NET?
-Вы можете купить Aspose.Words для .NET на сайте[страница покупки](https://purchase.aspose.com/buy).
+Вы можете купить Aspose.Words для .NET на сайте [страница покупки](https://purchase.aspose.com/buy).
 
 ### Где я могу найти документацию по Aspose.Words для .NET?
- Документация доступна[здесь](https://reference.aspose.com/words/net/).
+Документация доступна. [здесь](https://reference.aspose.com/words/net/).
 
 ### Что делать, если мне нужна поддержка при использовании Aspose.Words для .NET?
- Для получения поддержки вы можете посетить[Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+Для получения поддержки вы можете посетить [Форум Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

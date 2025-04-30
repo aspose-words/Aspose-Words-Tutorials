@@ -1,14 +1,16 @@
 ---
-title: Таблицы и форматирование
-linktitle: Таблицы и форматирование
-second_title: API управления документами Python Aspose.Words
-description: Погрузитесь в учебные пособия Aspose.Words по таблицам и форматированию в приложениях Python и .NET. Научитесь создавать, настраивать и оформлять таблицы для визуально привлекательных документов.
-weight: 16
-url: /ru/python-net/tables-and-formatting/
+"description": "Погрузитесь в учебные пособия Aspose.Words по таблицам и форматированию в приложениях Python и .NET. Научитесь создавать, настраивать и оформлять таблицы для визуально привлекательных документов."
+"linktitle": "Таблицы и форматирование"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Таблицы и форматирование"
+"url": "/ru/python-net/tables-and-formatting/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Таблицы и форматирование
@@ -46,9 +48,13 @@ url: /ru/python-net/tables-and-formatting/
 Узнайте, как оптимизировать таблицы для представления данных в документах Word с помощью Aspose.Words для Python. Улучшите читаемость и визуальную привлекательность с помощью пошаговых инструкций и примеров исходного кода.
 ### [Стили и форматирование таблиц документов](./document-table-styles-formatting/)
 Узнайте, как стилизовать и форматировать таблицы документов с помощью Aspose.Words для Python. Создавайте, настраивайте и экспортируйте таблицы с помощью пошаговых руководств и примеров кода. Улучшите презентации документов сегодня! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

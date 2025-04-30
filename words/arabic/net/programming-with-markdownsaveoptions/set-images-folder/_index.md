@@ -1,34 +1,36 @@
 ---
-title: تعيين مجلد الصور
-linktitle: تعيين مجلد الصور
-second_title: واجهة برمجة تطبيقات معالجة المستندات Aspose.Words
-description: قم بتحويل مستندات Word إلى Markdown مع محاذاة الجدول بشكل صحيح باستخدام Aspose.Words for .NET. اتبع دليلنا المفصل للحصول على نتائج مثالية.
-weight: 10
-url: /ar/net/programming-with-markdownsaveoptions/set-images-folder/
+"description": "حوّل مستندات Word إلى Markdown مع محاذاة الجداول بشكل صحيح باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل للحصول على نتائج مثالية."
+"linktitle": "تعيين مجلد الصور"
+"second_title": "واجهة برمجة تطبيقات معالجة المستندات Aspose.Words"
+"title": "تعيين مجلد الصور"
+"url": "/ar/net/programming-with-markdownsaveoptions/set-images-folder/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعيين مجلد الصور
 
 ## مقدمة
 
-هل سبق لك أن أردت تصدير مستند Word الخاص بك إلى تنسيق Markdown مع ضمان محاذاة الجداول والمحتوى بشكل مثالي؟ يعد Aspose.Words for .NET الحل الأمثل لهذه المهمة. في هذه المقالة، سنوضح لك عملية إعداد Aspose.Words، وإعداد مستندك، وتصديره إلى تنسيق Markdown مع محاذاة محتويات الجدول بشكل صحيح. وسنوضح كل خطوة لتسهيل اتباعها وفهمها. لذا، دعنا نتعمق في تحويل مستندات Word الخاصة بك إلى ملفات Markdown محاذية بشكل جميل!
+هل رغبتَ يومًا في تصدير مستند Word إلى تنسيق Markdown مع ضمان محاذاة الجداول والمحتوى بشكل مثالي؟ يُعدّ Aspose.Words for .NET الحل الأمثل لهذه المهمة. في هذه المقالة، سنشرح لك عملية إعداد Aspose.Words، وإعداد مستندك، وتصديره إلى تنسيق Markdown مع محاذاة محتويات الجداول بشكل صحيح. سنُفصّل كل خطوة لتسهيل فهمها. لذا، هيا بنا ننطلق ونحوّل مستندات Word إلى ملفات Markdown مُحاذاة بشكل جميل!
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
--  Aspose.Words for .NET: يمكنك تنزيله[هنا](https://releases.aspose.com/words/net/).
--  ترخيص صالح: احصل على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/) أو رخصة مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+- Aspose.Words for .NET: يمكنك تنزيله [هنا](https://releases.aspose.com/words/net/).
+- ترخيص صالح: احصل على نسخة تجريبية مجانية [هنا](https://releases.aspose.com/) أو رخصة مؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
 - Visual Studio: أو أي IDE آخر يدعم تطوير .NET.
 - المعرفة الأساسية بلغة C#: فهم لغة البرمجة C#.
 
 ## استيراد مساحات الأسماء
 
-للبدء، ستحتاج إلى استيراد المساحات الأساسية اللازمة في مشروع C# الخاص بك. ستتيح لك هذه المساحات الأساسية الوصول إلى وظيفة Aspose.Words.
+للبدء، ستحتاج إلى استيراد مساحات الأسماء اللازمة في مشروع C# الخاص بك. ستتيح لك هذه المساحات الوصول إلى وظيفة Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -38,21 +40,21 @@ using System.IO;
 
 ## الخطوة 1: إعداد مشروعك
 
-أولاً وقبل كل شيء، قم بإعداد مشروع .NET الخاص بك في بيئة التطوير المتكاملة الخاصة بك. قم بإنشاء تطبيق وحدة تحكم جديد وأضف مرجعًا إلى Aspose.Words لـ .NET.
+أولاً، قم بإعداد مشروع .NET الخاص بك في بيئة التطوير المتكاملة (IDE). أنشئ تطبيق وحدة تحكم جديدًا وأضف مرجعًا إلى Aspose.Words for .NET.
 
 ### 1.1 إنشاء مشروع جديد
 
-افتح Visual Studio وأنشئ مشروع تطبيق وحدة تحكم جديدًا. أطلق عليه اسم "MarkdownExporter" أو اسمًا مشابهًا.
+افتح Visual Studio وأنشئ مشروع تطبيق وحدة تحكم جديدًا. سمّه "MarkdownExporter" أو ما شابه.
 
 ### 1.2 إضافة مرجع Aspose.Words
 
- لإضافة Aspose.Words إلى مشروعك، يمكنك تنزيل DLL من[موقع اسبوس](https://releases.aspose.com/words/net/) وأضفها يدويًا، أو استخدم NuGet Package Manager:
+لإضافة Aspose.Words إلى مشروعك، يمكنك تنزيل ملف DLL من [موقع Aspose](https://releases.aspose.com/words/net/) وأضفه يدويًا، أو استخدم NuGet Package Manager:
 
 ```bash
 Install-Package Aspose.Words
 ```
 
-## الخطوة 2: اكتب الكود المراد تصديره بصيغة Markdown
+## الخطوة 2: اكتب الكود لتصديره بتنسيق Markdown
 
 الآن، دعنا نكتب الكود لقراءة مستند Word وحفظه كملف Markdown مع محاذاة الجدول المناسبة.
 
@@ -74,7 +76,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 
 ### 2.3 تكوين خيارات حفظ Markdown
 
- تكوين`MarkdownSaveOptions` لتحديد المكان الذي يجب تخزين الصور فيه.
+تكوين `MarkdownSaveOptions` لتحديد المكان الذي يجب تخزين الصور فيه.
 
 ```csharp
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
@@ -85,7 +87,7 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
 
 ### 2.4 حفظ المستند بتنسيق Markdown
 
- استخدم`MemoryStream` لحفظ المستند بتنسيق Markdown.
+استخدم `MemoryStream` لحفظ المستند بتنسيق Markdown.
 
 ```csharp
 using (MemoryStream stream = new MemoryStream())
@@ -96,7 +98,7 @@ using (MemoryStream stream = new MemoryStream())
 
 ## خاتمة
 
-إن تصدير مستند Word إلى تنسيق Markdown مع محاذاة محتوى الجدول باستخدام Aspose.Words for .NET أمر سهل عندما تتبع الخطوات التالية. باستخدام بضعة أسطر من التعليمات البرمجية، يمكنك أتمتة عملية التحويل والتأكد من تنسيق المحتوى بشكل جيد. الآن، يمكنك بسهولة مشاركة مستنداتك بتنسيق Markdown، مع العلم أنها ستبدو رائعة وستحافظ على بنيتها.
+تصدير مستند Word إلى Markdown مع محاذاة محتوى الجدول باستخدام Aspose.Words for .NET سهلٌ باتباع الخطوات التالية. باستخدام بضعة أسطر من التعليمات البرمجية، يمكنك أتمتة عملية التحويل وضمان تنسيق محتواك بشكل جيد. الآن، يمكنك بسهولة مشاركة مستنداتك بتنسيق Markdown، مع ضمان مظهرها الرائع وبنيتها المميزة.
 
 ## الأسئلة الشائعة
 
@@ -104,9 +106,9 @@ using (MemoryStream stream = new MemoryStream())
 
 نعم، يمكن استخدام Aspose.Words for .NET مع أي لغة متوافقة مع .NET مثل VB.NET وF# والمزيد.
 
-### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Words؟
+### كيف أحصل على ترخيص مؤقت لـ Aspose.Words؟
 
-يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 ### ما هي أنواع المستندات التي يمكنني تحويلها إلى Markdown؟
 
@@ -114,15 +116,20 @@ using (MemoryStream stream = new MemoryStream())
 
 ### هل هناك أي قيود في النسخة التجريبية من Aspose.Words؟
 
-تحتوي النسخة التجريبية على بعض القيود مثل العلامات المائية في ملفات الإخراج. يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+النسخة التجريبية بها بعض القيود، مثل وجود علامات مائية في ملفات الإخراج. يمكنك الحصول على نسخة تجريبية مجانية. [هنا](https://releases.aspose.com/).
 
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق لـ Aspose.Words؟
 
- يمكنك العثور على وثائق وأمثلة مفصلة على[موقع اسبوس](https://reference.aspose.com/words/net/).
+يمكنك العثور على وثائق وأمثلة مفصلة على [موقع Aspose](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

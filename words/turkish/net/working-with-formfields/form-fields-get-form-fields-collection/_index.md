@@ -1,14 +1,16 @@
 ---
-title: Form Alanları Form Alanları Koleksiyonunu Al
-linktitle: Form Alanları Form Alanları Koleksiyonunu Al
-second_title: Aspose.Words Belge İşleme API'si
-description: Kapsamlı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki form alanlarını nasıl alacağınızı ve değiştireceğinizi öğrenin.
-weight: 10
-url: /tr/net/working-with-formfields/form-fields-get-form-fields-collection/
+"description": "Kapsamlı adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak Word belgelerindeki form alanlarını nasıl alacağınızı ve değiştireceğinizi öğrenin."
+"linktitle": "Form Alanları Form Alanları Koleksiyonunu Al"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Form Alanları Form Alanları Koleksiyonunu Al"
+"url": "/tr/net/working-with-formfields/form-fields-get-form-fields-collection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Form Alanları Form Alanları Koleksiyonunu Al
@@ -21,7 +23,7 @@ Word belgelerindeki form alanlarını düzenleme dünyasına dalmaya hazır mıs
 
 Koda geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET'in en son sürümünün yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET kodunuzu yazmak ve çalıştırmak için Visual Studio benzeri bir IDE.
 3. .NET Framework: Projenizin uyumlu bir .NET Framework sürümünü hedeflediğinden emin olun.
 
@@ -45,7 +47,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Form fields.docx");
 ```
 
- Açıklama: Burada,`dataDir` Word belgesini içeren dizininize giden yoldur. Yeni bir tane oluşturuyoruz`Document` nesneyi seçin ve dosyayı yükleyin`Form fields.docx`.
+Açıklama: Burada, `dataDir` Word belgesini içeren dizininize giden yoldur. Yeni bir tane oluşturuyoruz `Document` nesneyi seçin ve dosyayı yükleyin `Form fields.docx`.
 
 ## Adım 2: Form Alanları Koleksiyonunu Alın
 
@@ -55,7 +57,7 @@ Belge yüklendikten sonraki adım form alanları koleksiyonuna erişmektir. Bu k
 FormFieldCollection formFields = doc.Range.FormFields;
 ```
 
- Açıklama:`FormFields` mülkiyeti`Range` nesnesi, belgedeki form alanlarına erişmenizi sağlar. Bu koleksiyonu bir`formFields` daha fazla manipülasyon için değişken.
+Açıklama: `FormFields` mülkiyeti `Range` nesnesi, belgedeki form alanlarına erişmenizi sağlar. Bu koleksiyonu bir `formFields` daha fazla manipülasyon için değişken.
 
 ## Adım 3: Form Alanlarını Değiştirin
 
@@ -81,7 +83,7 @@ Form alanlarında gerekli değişiklikleri yaptıktan sonra son adım olarak de�
 doc.Save(dataDir + "ModifiedFormFields.docx");
 ```
 
- Açıklama: Değiştirilen belgeyi şu şekilde kaydediyoruz:`ModifiedFormFields.docx` aynı dizinde.
+Açıklama: Değiştirilen belgeyi şu şekilde kaydediyoruz: `ModifiedFormFields.docx` aynı dizinde.
 
 ## Çözüm
 
@@ -96,16 +98,21 @@ Aspose.Words for .NET, .NET uygulamalarında Word belgeleriyle çalışmak için
 Evet, Aspose.Words for .NET, web uygulamaları, masaüstü uygulamaları ve hizmetler dahil olmak üzere çeşitli uygulama türlerinde kullanılabilir.
 
 ### Aspose.Words for .NET ücretsiz mi?
-Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans gerekiyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET ücretsiz deneme sunuyor, ancak tam işlevsellik için bir lisans gerekiyor. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET'in belgelerini nerede bulabilirim?
- Aspose.Words for .NET'in belgeleri şurada bulunabilir:[Burada](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET'in belgeleri şurada bulunabilir: [Burada](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET desteğini nasıl alabilirim?
- Aspose.Words for .NET için destek forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/words/8).
+Aspose.Words for .NET için destek forumundan destek alabilirsiniz [Burada](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

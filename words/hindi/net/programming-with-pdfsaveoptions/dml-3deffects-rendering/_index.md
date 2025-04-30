@@ -1,14 +1,16 @@
 ---
-title: 3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें
-linktitle: 3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आश्चर्यजनक 3D DML प्रभाव प्रस्तुत करना सीखें।
-weight: 10
-url: /hi/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
+"description": "इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आश्चर्यजनक 3D DML प्रभाव प्रस्तुत करना सीखें।"
+"linktitle": "3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें"
+"url": "/hi/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें
@@ -21,11 +23,11 @@ url: /hi/net/programming-with-pdfsaveoptions/dml-3deffects-rendering/
 
 इससे पहले कि हम कोड में उतरें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए। आरंभ करने के लिए आवश्यक शर्तों की सूची यहां दी गई है:
 
-1.  Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: सुनिश्चित करें कि आपके पास Aspose.Words for .NET लाइब्रेरी है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क: आपकी मशीन पर .NET फ्रेमवर्क स्थापित होना चाहिए।
 3. विकास पर्यावरण: विजुअल स्टूडियो जैसा विकास पर्यावरण.
 4. वर्ड दस्तावेज़: 3D प्रभाव वाला एक वर्ड दस्तावेज़ जिसे आप पीडीएफ में बदलना चाहते हैं।
-5.  अस्थायी लाइसेंस: पूर्ण क्षमताओं के लिए, आपको Aspose से एक अस्थायी लाइसेंस की आवश्यकता हो सकती है, जिसे आप प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+5. अस्थायी लाइसेंस: पूर्ण क्षमताओं के लिए, आपको Aspose से एक अस्थायी लाइसेंस की आवश्यकता हो सकती है, जिसे आप प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
 
 इन पूर्वावश्यकताओं के साथ, आप अपने PDF दस्तावेज़ों में 3D प्रभाव प्रस्तुत करने के लिए पूरी तरह तैयार हैं।
 
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- यहां, हम आपके दस्तावेज़ निर्देशिका का पथ परिभाषित करते हैं और Word दस्तावेज़ को लोड करते हैं`Document` क्लास. बदलें`"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
+यहां, हम आपके दस्तावेज़ निर्देशिका का पथ परिभाषित करते हैं और Word दस्तावेज़ को लोड करते हैं `Document` क्लास. बदलें `"YOUR DOCUMENT DIRECTORY"` आपकी निर्देशिका के वास्तविक पथ के साथ.
 
 ## चरण 2: पीडीएफ सेव विकल्प कॉन्फ़िगर करें
 
@@ -62,7 +64,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 };
 ```
 
- हम इसका एक उदाहरण बनाते हैं`PdfSaveOptions` और सेट करें`Dml3DEffectsRenderingMode` को`Advanced`यह Aspose.Words को उन्नत सेटिंग्स का उपयोग करके 3D प्रभाव प्रस्तुत करने के लिए कहता है, यह सुनिश्चित करता है कि वे पीडीएफ में यथासंभव प्रभावशाली दिखें।
+हम इसका एक उदाहरण बनाते हैं `PdfSaveOptions` और सेट करें `Dml3DEffectsRenderingMode` को `Advanced`यह Aspose.Words को उन्नत सेटिंग्स का उपयोग करके 3D प्रभाव प्रस्तुत करने के लिए कहता है, यह सुनिश्चित करता है कि वे पीडीएफ में यथासंभव प्रभावशाली दिखें।
 
 ## चरण 3: दस्तावेज़ को PDF के रूप में सहेजें
 
@@ -72,7 +74,7 @@ PdfSaveOptions saveOptions = new PdfSaveOptions
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOptions);
 ```
 
- हम उपयोग करते हैं`Save` की विधि`Document` वर्ड डॉक्यूमेंट को पीडीएफ के रूप में सेव करने के लिए क्लास का उपयोग करें। पहले से कॉन्फ़िगर किए गए सेव ऑप्शन को पैरामीटर के रूप में पास किया जाता है ताकि यह सुनिश्चित किया जा सके कि 3D प्रभाव ठीक से रेंडर किए गए हैं।
+हम उपयोग करते हैं `Save` की विधि `Document` वर्ड डॉक्यूमेंट को पीडीएफ के रूप में सेव करने के लिए क्लास का उपयोग करें। पहले कॉन्फ़िगर किए गए सेव ऑप्शन को पैरामीटर के रूप में पास किया जाता है ताकि यह सुनिश्चित किया जा सके कि 3D प्रभाव ठीक से रेंडर किए गए हैं।
 
 ## निष्कर्ष
 
@@ -98,10 +100,15 @@ doc.Save(dataDir + "WorkingWithPdfSaveOptions.Dml3DEffectsRendering.pdf", saveOp
 
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
 
- आप विस्तृत दस्तावेज पा सकते हैं[यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज पा सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

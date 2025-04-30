@@ -1,46 +1,54 @@
 ---
-title: 在 Word 文档中插入内线图像,使用Aspose.Words
-weight: 7700
-limit: 
-description: 在此步骤的例子中,学习如何将一个内线图像插入Word文档中,使用 .NET的Aspose.Words.
-keywords: [Aspose.Words, .NET, inline image, Word document, DocumentBuilder, image insertion, code example]
-url: /zh/net/add-content-using-document-builder/insert-inline-image/
+"description": "通过此分步示例了解如何使用 Aspose.Words for .NET 将内嵌图像插入 Word 文档。"
+"title": "使用 Aspose.Words 在 Word 文档中插入内嵌图像"
+"url": "/zh/net/add-content-using-document-builder/insert-inline-image/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Word 文档中插入内线图像,使用Aspose.Words
-通过使用Aspose.Words库,将一个内线图像插入Word文档.`文件构建器`在Word文档中,您可以轻松地将图像定位和插入您的文档中的当前的线索位置.
+# 使用 Aspose.Words 在 Word 文档中插入内嵌图像
+本示例演示如何使用 Aspose.Words 库（.NET 版）将内联图像插入 Word 文档。通过利用 `DocumentBuilder` 类，您可以轻松地在文档中当前光标位置定位和插入图像。本指南提供了一个简单的实现，帮助您开始在 Word 文档中处理图像。
 
 ---
+
 {{< tutorial-widget sourcePath="words/net/add-content-using-document-builder/insert-inline-image" >}}
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明
-1. 安装 .NET 的Aspose.Words:
-   * 在视觉工作室中使用NuGet包管理器.
-   * 在包管理器控制台中执行下列命令:
+## 安装说明
+1. 安装 Aspose.Words for .NET：
+   - 在 Visual Studio 中使用 NuGet 包管理器。
+   - 在程序包管理器控制台中运行以下命令：
      ```
      Install-Package Aspose.Words
      ```
 
-2. 设置自己的项目:
-   * 创建一个新的.NET项目或打开一个现有项目.
-   * 在代码文件顶部添加必要的指令:
+2. 设置您的项目：
+   - 创建一个新的 .NET 项目或打开一个现有项目。
+   - 在代码文件的顶部添加必要的使用指令：
      ```csharp
      using Aspose.Words;
      using Aspose.Words.Drawing;
      ```
 
 
-## 查看
-[设置.Word为 .NET文档](https://docs.aspose.com/words/net/)
-[标用.NET引用的Word](https://reference.aspose.com/words/net/)
+## 另请参阅
+[Aspose.Word for .NET 文档](https://docs.aspose.com/words/net/)
+[Aspose.Word for .NET 参考](https://reference.aspose.com/words/net/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

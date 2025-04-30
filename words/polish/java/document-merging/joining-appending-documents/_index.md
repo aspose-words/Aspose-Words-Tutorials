@@ -1,14 +1,16 @@
 ---
-title: Dołączanie i dołączanie dokumentów
-linktitle: Dołączanie i dołączanie dokumentów
-second_title: Aspose.Words API przetwarzania dokumentów Java
-description: Dowiedz się, jak łączyć i dołączać dokumenty za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z przykładami kodu do wydajnej manipulacji dokumentami.
-weight: 11
-url: /pl/java/document-merging/joining-appending-documents/
+"description": "Dowiedz się, jak łączyć i dołączać dokumenty za pomocą Aspose.Words dla Java. Przewodnik krok po kroku z przykładami kodu do wydajnej manipulacji dokumentami."
+"linktitle": "Dołączanie i dołączanie dokumentów"
+"second_title": "Aspose.Words API przetwarzania dokumentów Java"
+"title": "Dołączanie i dołączanie dokumentów"
+"url": "/pl/java/document-merging/joining-appending-documents/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dołączanie i dołączanie dokumentów
@@ -23,7 +25,7 @@ Aspose.Words for Java to bogata w funkcje biblioteka, która umożliwia pracę z
 Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
 - Java Development Kit (JDK) zainstalowany w Twoim systemie.
--  Biblioteka Aspose.Words dla Java. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/words/java/).
+- Biblioteka Aspose.Words dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
 
 ## Krok 1: Konfigurowanie projektu Java
 
@@ -45,7 +47,7 @@ public class DocumentJoiner {
 }
 ```
 
- Upewnij się, że wymienisz`"Aspose.Words.Java.lic"` ze ścieżką do pliku licencji.
+Upewnij się, że wymienisz `"Aspose.Words.Java.lic"` ze ścieżką do pliku licencji.
 
 ## Krok 3: Ładowanie dokumentów
 
@@ -59,14 +61,14 @@ Document doc2 = new Document("document2.docx");
 
 ## Krok 4: Łączenie dokumentów
 
- Teraz, gdy mamy już załadowane dokumenty, zobaczmy, jak je połączyć. W tym przykładzie połączymy`doc2` do końca`doc1`:
+Teraz, gdy mamy załadowane nasze dokumenty, zobaczmy, jak je połączyć. W tym przykładzie połączymy `doc2` do końca `doc1`:
 
 ```java
 // Dołącz dokumenty
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
- Ten`ImportFormatMode.KEEP_SOURCE_FORMATTING` opcja ta zapewnia zachowanie formatowania dokumentów źródłowych.
+Ten `ImportFormatMode.KEEP_SOURCE_FORMATTING` opcja ta zapewnia zachowanie formatowania dokumentów źródłowych.
 
 ## Krok 5: Zapisywanie wyniku
 
@@ -85,11 +87,11 @@ Gratulacje! Udało Ci się nauczyć, jak łączyć i dołączać dokumenty za po
 
 ### Jak zainstalować Aspose.Words dla Java?
 
- Instalacja Aspose.Words dla Javy jest prosta. Możesz pobrać go ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/words/java/). Upewnij się, że posiadasz niezbędną licencję do użytku komercyjnego.
+Instalacja Aspose.Words dla Javy jest prosta. Możesz pobrać go ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/words/java/). Upewnij się, że posiadasz niezbędną licencję do użytku komercyjnego.
 
 ### Czy mogę połączyć więcej niż dwa dokumenty przy użyciu Aspose.Words dla Java?
 
- Tak, możesz scalić wiele dokumentów, dołączając je sekwencyjnie za pomocą`appendDocument` metodę, jak pokazano w przykładzie.
+Tak, możesz scalić wiele dokumentów, dołączając je sekwencyjnie za pomocą `appendDocument` metodę, jak pokazano w przykładzie.
 
 ### Czy Aspose.Words nadaje się do przetwarzania dokumentów na dużą skalę?
 
@@ -101,10 +103,15 @@ Chociaż Aspose.Words oferuje rozbudowane możliwości manipulowania dokumentami
 
 ### Czy muszę płacić za licencję, aby używać Aspose.Words dla Java?
 
- Tak, Aspose.Words for Java wymaga ważnej licencji do użytku komercyjnego. Licencję można uzyskać na stronie internetowej Aspose[Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)
+Tak, Aspose.Words for Java wymaga ważnej licencji do użytku komercyjnego. Licencję można uzyskać na stronie internetowej Aspose [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

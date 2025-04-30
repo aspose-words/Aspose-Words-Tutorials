@@ -1,14 +1,16 @@
 ---
-title: Spasi Antara Teks Asia dan Latin Dalam Dokumen Word
-linktitle: Spasi Antara Teks Asia dan Latin Dalam Dokumen Word
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menyesuaikan spasi secara otomatis antara teks Asia dan Latin dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami.
-weight: 10
-url: /id/net/document-formatting/space-between-asian-and-latin-text/
+"description": "Pelajari cara menyesuaikan spasi secara otomatis antara teks Asia dan Latin dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami."
+"linktitle": "Spasi Antara Teks Asia dan Latin Dalam Dokumen Word"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Spasi Antara Teks Asia dan Latin Dalam Dokumen Word"
+"url": "/id/net/document-formatting/space-between-asian-and-latin-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Spasi Antara Teks Asia dan Latin Dalam Dokumen Word
@@ -21,10 +23,10 @@ Hai! Pernahkah Anda mengalami momen yang membuat frustrasi saat bekerja dengan d
 
 Sebelum kita mulai, mari kita pastikan kita memiliki semua yang kita butuhkan. Berikut ini daftar periksa singkatnya:
 
-1.  Aspose.Words untuk .NET: Pastikan Anda telah memasang pustaka canggih ini. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+1. Aspose.Words untuk .NET: Pastikan Anda telah memasang pustaka canggih ini. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 2. Lingkungan Pengembangan: Lingkungan apa pun yang kompatibel dengan .NET seperti Visual Studio.
 3. Pengetahuan Dasar C#: Anda tidak perlu menjadi seorang ahli, tetapi sedikit pengetahuan akan sangat membantu.
-4.  Lisensi yang Valid: Dapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau beli lisensi[Di Sini](https://purchase.aspose.com/buy).
+4. Lisensi yang Valid: Dapatkan uji coba gratis [Di Sini](https://releases.aspose.com/) atau beli lisensi [Di Sini](https://purchase.aspose.com/buy).
 
 Oke, sudah dapat semuanya? Keren! Mari kita mulai.
 
@@ -61,7 +63,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 ```
 
- Dengan pengaturan`AddSpaceBetweenFarEastAndAlpha` Dan`AddSpaceBetweenFarEastAndDigit` ke`true`, kami memberi tahu Aspose.Words untuk secara otomatis menyesuaikan spasi antara karakter Asia dan huruf atau angka Latin.
+Dengan pengaturan `AddSpaceBetweenFarEastAndAlpha` Dan `AddSpaceBetweenFarEastAndDigit` ke `true`, kami memberi tahu Aspose.Words untuk secara otomatis menyesuaikan spasi antara karakter Asia dan huruf atau angka Latin.
 
 ## Langkah 3: Menambahkan Teks ke Dokumen
 
@@ -96,22 +98,27 @@ Aspose.Words untuk .NET adalah pustaka canggih yang memungkinkan pengembang memb
 
 ### Bagaimana cara mendapatkan Aspose.Words untuk .NET?
 
- Anda dapat mengunduh Aspose.Words untuk .NET dari[Aspose merilis halaman](https://releases.aspose.com/words/net/)Mereka juga menawarkan uji coba gratis.
+Anda dapat mengunduh Aspose.Words untuk .NET dari [Aspose merilis halaman](https://releases.aspose.com/words/net/)Mereka juga menawarkan uji coba gratis.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Words untuk .NET?
 
- Ya, Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) atau beli satu[Di Sini](https://purchase.aspose.com/buy).
+Ya, Aspose.Words untuk .NET memerlukan lisensi. Anda bisa mendapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) atau beli satu [Di Sini](https://purchase.aspose.com/buy).
 
 ### Dapatkah saya menyesuaikan pengaturan pemformatan lainnya dengan Aspose.Words untuk .NET?
 
- Tentu saja! Aspose.Words untuk .NET menawarkan berbagai pilihan pemformatan untuk paragraf, font, tabel, dan banyak lagi. Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/words/net/).
+Tentu saja! Aspose.Words untuk .NET menawarkan berbagai pilihan pemformatan untuk paragraf, font, tabel, dan banyak lagi. Anda dapat menemukan dokumentasi terperinci [Di Sini](https://reference.aspose.com/words/net/).
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum diskusi](https://forum.aspose.com/c/words/8)Mereka memiliki komunitas yang membantu dan tim dukungan yang berdedikasi untuk membantu Anda.
+Anda bisa mendapatkan dukungan dari komunitas Aspose di [forum diskusi](https://forum.aspose.com/c/words/8)Mereka memiliki komunitas yang membantu dan tim dukungan yang berdedikasi untuk membantu Anda.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

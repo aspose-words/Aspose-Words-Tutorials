@@ -7,8 +7,11 @@ weight: 10
 url: /net/add-content-using-documentbuilder/move-to-section/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Move To Section In Word Document
@@ -103,9 +106,13 @@ You can get support from the [Aspose.Words forum](https://forum.aspose.com/c/wor
 Yes, but you need to purchase a license from the [buy link](https://purchase.aspose.com/buy).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Hücredeki Düzen
-linktitle: Hücredeki Düzen
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kapsamlı kılavuzla, Aspose.Words for .NET kullanarak hücredeki düzeni nasıl ayarlayacağınızı öğrenin. Word belgelerini özelleştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-shapes/layout-in-cell/
+"description": "Bu kapsamlı kılavuzla, Aspose.Words for .NET kullanarak hücredeki düzeni nasıl ayarlayacağınızı öğrenin. Word belgelerini özelleştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Hücredeki Düzen"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Hücredeki Düzen"
+"url": "/tr/net/programming-with-shapes/layout-in-cell/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hücredeki Düzen
@@ -21,10 +23,10 @@ Word belgelerinizdeki tablo hücrelerinin düzenini programatik olarak ince ayar
 
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Eğer yüklü değilse,[buradan indirin](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesinin yüklü olduğundan emin olun. Eğer yüklü değilse, [buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: .NET ile kurulmuş bir geliştirme ortamına ihtiyacınız olacak. Öneriler arıyorsanız Visual Studio harika bir seçimdir.
 3. Temel C# Bilgisi: Her adımı açıklayacağım ancak temel C# bilgisine sahip olmak, takip etmenizi kolaylaştıracaktır.
-4.  Belge Dizini: Belgelerinizi kaydedeceğiniz bir dizin yolu hazırlayın. Buna şu şekilde atıfta bulunacağız:`YOUR DOCUMENT DIRECTORY`.
+4. Belge Dizini: Belgelerinizi kaydedeceğiniz bir dizin yolu hazırlayın. Buna şu şekilde atıfta bulunacağız: `YOUR DOCUMENT DIRECTORY`.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -42,7 +44,7 @@ Süreci yönetilebilir adımlara bölelim.
 
 ## Adım 1: Yeni Bir Belge Oluşturun
 
- İlk olarak yeni bir Word belgesi oluşturacağız ve bir`DocumentBuilder` İçeriğimizi oluşturmamıza yardımcı olacak nesne.
+İlk olarak yeni bir Word belgesi oluşturacağız ve bir `DocumentBuilder` İçeriğimizi oluşturmamıza yardımcı olacak nesne.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +78,7 @@ builder.EndTable();
 
 ## Adım 4: Filigran Şekli Ekle
 
- Şimdi, belgemize bir filigran ekleyelim. Bir tane oluşturacağız`Shape` nesneyi seçin ve özelliklerini ayarlayın.
+Şimdi, belgemize bir filigran ekleyelim. Bir tane oluşturacağız `Shape` nesneyi seçin ve özelliklerini ayarlayın.
 
 ```csharp
 Shape watermark = new Shape(doc, ShapeType.TextPlainText)
@@ -138,22 +140,27 @@ Ve işte karşınızda! Aspose.Words for .NET kullanarak özelleştirilmiş bir 
 ## SSS
 
 ### Filigran metni için farklı bir yazı tipi kullanabilir miyim?
- Evet, yazı tipini ayarlayarak değiştirebilirsiniz.`watermark.TextPath.FontFamily` istediğiniz yazı tipine dönüştürebilirsiniz.
+Evet, yazı tipini ayarlayarak değiştirebilirsiniz. `watermark.TextPath.FontFamily` istediğiniz yazı tipine dönüştürebilirsiniz.
 
 ### Filigranın konumunu nasıl ayarlarım?
- Şunu değiştirebilirsiniz:`RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment` , Ve`VerticalAlignment` filigranın konumunu ayarlamak için özellikler.
+Şunu değiştirebilirsiniz: `RelativeHorizontalPosition`, `RelativeVerticalPosition`, `HorizontalAlignment`, Ve `VerticalAlignment` filigranın konumunu ayarlamak için özellikler.
 
 ### Filigran için metin yerine resim kullanmak mümkün müdür?
- Kesinlikle! Bir tane yaratabilirsiniz`Shape` tip ile`ShapeType.Image` ve görüntüsünü kullanarak ayarlayın`ImageData.SetImage` yöntem.
+Kesinlikle! Bir tane yaratabilirsiniz `Shape` tip ile `ShapeType.Image` ve görüntüsünü kullanarak ayarlayın `ImageData.SetImage` yöntem.
 
 ### Değişen satır yüksekliklerine sahip tablolar oluşturabilir miyim?
-Evet, her satır için farklı yükseklikler belirleyebilirsiniz.`RowFormat.Height` Hücreleri o satıra eklemeden önce özelliği.
+Evet, her satır için farklı yükseklikler belirleyebilirsiniz. `RowFormat.Height` Hücreleri o satıra eklemeden önce özelliği.
 
 ### Belgeden filigranı nasıl kaldırabilirim?
- Filigranı, belgenin şekiller koleksiyonunda bulup çağırarak kaldırabilirsiniz.`Remove` yöntem.
+Filigranı, belgenin şekiller koleksiyonunda bulup çağırarak kaldırabilirsiniz. `Remove` yöntem.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Java için Aspose.Words'de Yazı Tiplerini Kullanma
-linktitle: Yazı Tiplerini Kullanma
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java'da font biçimlendirmesini keşfedin; boyut, stil, renk ve daha fazlası. Kolaylıkla güzel biçimlendirilmiş belgeler oluşturun.
-weight: 12
-url: /tr/java/using-document-elements/using-fonts/
+"description": "Aspose.Words for Java'da font biçimlendirmesini keşfedin; boyut, stil, renk ve daha fazlası. Kolaylıkla güzel biçimlendirilmiş belgeler oluşturun."
+"linktitle": "Yazı Tiplerini Kullanma"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Java için Aspose.Words'de Yazı Tiplerini Kullanma"
+"url": "/tr/java/using-document-elements/using-fonts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java için Aspose.Words'de Yazı Tiplerini Kullanma
@@ -24,7 +26,7 @@ Yazı tipleri, belge tasarımı ve okunabilirliğinde önemli bir rol oynar. Asp
 
 Koda dalmadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesini indirip kurduğunuzdan emin olun.[buradan indirin](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java Kütüphanesi: Aspose.Words for Java kütüphanesini indirip kurduğunuzdan emin olun. [buradan indirin](https://releases.aspose.com/words/java/).
 
 2. Java Geliştirme Ortamı: Bir Java geliştirme ortamının kurulu olduğundan emin olun.
 
@@ -71,20 +73,20 @@ public class FontFormattingDemo {
 }
 ```
 
- Bu kod parçacığında, yeni bir tane oluşturarak başlıyoruz`Document` ve bir`DocumentBuilder` Daha sonra font özelliklerine erişmek için şunu kullanırız:`builder.getFont()` ve boyut, kalınlık, renk, yazı tipi adı ve alt çizgi stili gibi çeşitli nitelikleri ayarlıyoruz. Son olarak, bazı örnek metinler ekliyoruz ve belgeyi belirtilen yazı tipi biçimlendirmesiyle kaydediyoruz.
+Bu kod parçacığında, yeni bir tane oluşturarak başlıyoruz `Document` ve bir `DocumentBuilder`Daha sonra font özelliklerine erişmek için şunu kullanırız: `builder.getFont()` ve boyut, kalınlık, renk, yazı tipi adı ve alt çizgi stili gibi çeşitli nitelikleri ayarlıyoruz. Son olarak, bazı örnek metinler ekliyoruz ve belgeyi belirtilen yazı tipi biçimlendirmesiyle kaydediyoruz.
 
 ## Çözüm
 
 Tebrikler! Aspose.Words for Java'da fontlarla nasıl çalışılacağını öğrendiniz. Bu bilgi, özel gereksinimlerinize göre uyarlanmış, güzel biçimlendirilmiş belgeler oluşturmanıza olanak tanıyacaktır.
 
- Eğer henüz yapmadıysanız,[Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/) Hemen şimdi belge işleme yeteneklerinizi geliştirmeye başlayın.
+Eğer henüz yapmadıysanız, [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/) Hemen şimdi belge işleme yeteneklerinizi geliştirmeye başlayın.
 
- Herhangi bir soru veya yardım için bizimle iletişime geçmekten çekinmeyin.[Aspose.Words topluluk forumu](https://forum.aspose.com/).
+Herhangi bir soru veya yardım için bizimle iletişime geçmekten çekinmeyin [Aspose.Words topluluk forumu](https://forum.aspose.com/).
 
 ## SSS
 
 ### S: Bir belgedeki metnin belirli bir bölümünün yazı tipi boyutunu nasıl değiştirebilirim?
- A: Kullanabilirsiniz`Font.setSize()` İstenilen metnin yazı tipi boyutunu ayarlama yöntemi.
+A: Kullanabilirsiniz `Font.setSize()` İstenilen metnin yazı tipi boyutunu ayarlama yöntemi.
 
 ### S: Bir belgedeki başlıklara ve gövde metnine farklı yazı tipleri uygulamak mümkün müdür?
 C: Evet, Aspose.Words for Java'yı kullanarak belgenin çeşitli bölümlerine farklı yazı tipleri uygulayabilirsiniz.
@@ -93,13 +95,18 @@ C: Evet, Aspose.Words for Java'yı kullanarak belgenin çeşitli bölümlerine f
 C: Evet, yazı tipi dosya yolunu belirterek özel yazı tipleri kullanabilirsiniz.
 
 ### S: Metnin yazı rengini nasıl değiştirebilirim?
- A: Kullanabilirsiniz`Font.setColor()` yazı tipi rengini ayarlama yöntemi.
+A: Kullanabilirsiniz `Font.setColor()` yazı tipi rengini ayarlama yöntemi.
 
 ### S: Bir belgede kullanabileceğim yazı tipi sayısında herhangi bir sınırlama var mı?
 A: Aspose.Words for Java çok çeşitli yazı tiplerini destekler ve genellikle bir belgede kullanabileceğiniz yazı tipi sayısı konusunda katı bir sınırlama yoktur.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

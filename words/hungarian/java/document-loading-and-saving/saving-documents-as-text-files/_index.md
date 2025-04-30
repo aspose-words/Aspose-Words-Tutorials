@@ -1,34 +1,36 @@
 ---
-title: Dokumentumok mentése szöveges fájlként az Aspose.Words for Java programban
-linktitle: Dokumentumok mentése szöveges fájlként
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan menthet el dokumentumokat szöveges fájlként az Aspose.Words for Java programban. Kövesse lépésenkénti útmutatónkat Java kódpéldákkal.
-weight: 24
-url: /hu/java/document-loading-and-saving/saving-documents-as-text-files/
+"description": "Tanuld meg, hogyan menthetsz dokumentumokat szövegfájlként az Aspose.Words for Java programban. Kövesd lépésről lépésre bemutatott útmutatónkat Java kódpéldákkal."
+"linktitle": "Dokumentumok mentése szövegfájlként"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Dokumentumok mentése szövegfájlként az Aspose.Words for Java programban"
+"url": "/hu/java/document-loading-and-saving/saving-documents-as-text-files/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumok mentése szöveges fájlként az Aspose.Words for Java programban
+# Dokumentumok mentése szövegfájlként az Aspose.Words for Java programban
 
 
-## Bevezetés a dokumentumok szöveges fájlként történő mentésébe az Aspose.Words for Java programban
+## Bevezetés a dokumentumok szövegfájlként történő mentéséhez az Aspose.Words for Java programban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet dokumentumokat szövegfájlként menteni az Aspose.Words for Java könyvtár használatával. Az Aspose.Words egy hatékony Java API a Word-dokumentumokkal való munkavégzéshez, és különféle lehetőségeket kínál a dokumentumok különböző formátumokban történő mentésére, beleértve az egyszerű szöveget is. Leírjuk az ennek eléréséhez szükséges lépéseket, és minta Java kódot biztosítunk az út során.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan menthetünk dokumentumokat szövegfájlként az Aspose.Words for Java könyvtár segítségével. Az Aspose.Words egy hatékony Java API a Word dokumentumokkal való munkához, és számos lehetőséget kínál a dokumentumok különböző formátumokban, beleértve az egyszerű szöveget is, történő mentésére. Bemutatjuk a lépések elvégzését, és közben minta Java kódot is mutatunk.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Words for Java könyvtár integrálva a projektbe. Letöltheti innen[itt](https://releases.aspose.com/words/java/).
+- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
+- Az Aspose.Words Java könyvtár integrálva van a projektedbe. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
 - Java programozási alapismeretek.
 
-## 1. lépés: Hozzon létre egy dokumentumot
+## 1. lépés: Dokumentum létrehozása
 
-Egy dokumentum szöveges fájlként való mentéséhez először létre kell hoznunk egy dokumentumot az Aspose.Words használatával. Íme egy egyszerű Java kódrészlet bizonyos tartalmú dokumentum létrehozásához:
+Egy dokumentum szövegfájlként való mentéséhez először létre kell hoznunk egy dokumentumot az Aspose.Words használatával. Íme egy egyszerű Java kódrészlet egy tartalommal rendelkező dokumentum létrehozásához:
 
 ```java
 Document doc = new Document();
@@ -39,13 +41,13 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-Ebben a kódban új dokumentumot hozunk létre, és szöveget adunk hozzá, beleértve a különböző nyelvű szövegeket.
+Ebben a kódban létrehozunk egy új dokumentumot, és hozzáadunk néhány szöveget, beleértve a különböző nyelveken írt szövegeket is.
 
-## 2. lépés: Adja meg a szöveges mentési beállításokat
+## 2. lépés: Szövegmentési beállítások megadása
 
-Ezután meg kell határoznunk a szöveges mentési beállításokat, amelyek meghatározzák, hogyan kell a dokumentumot szövegfájlként menteni. Különféle beállításokat konfigurálhatunk, például kétirányú jelölések hozzáadását, a lista behúzását stb. Nézzünk két példát:
+Ezután meg kell adnunk a szövegmentési beállításokat, amelyek meghatározzák, hogyan kell a dokumentumot szövegfájlként menteni. Különböző beállításokat konfigurálhatunk, például kétirányú jelek hozzáadását, lista behúzását és egyebeket. Nézzünk két példát:
 
-### 1. példa: Kétirányú jelölések hozzáadása
+### 1. példa: Kétirányú jelek hozzáadása
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -53,9 +55,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
- Ebben a példában létrehozunk egy`TxtSaveOptions` objektumot és állítsa be a`AddBidiMarks`tulajdonát`true` hogy a szövegkimenetben kétirányú jelek szerepeljenek.
+Ebben a példában létrehozunk egy `TxtSaveOptions` objektumot, és állítsa be a `AddBidiMarks` ingatlan `true` kétirányú jeleket tartalmazzon a szövegkimenetben.
 
-### 2. példa: Tabulátor használata a lista behúzásához
+### 2. példa: Tabulátor karakter használata lista behúzásához
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -64,19 +66,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Itt úgy állítjuk be a mentési beállításokat, hogy egy tabulátor karaktert használjunk a lista behúzásához 1-es számmal.
+Itt úgy konfiguráljuk a mentési beállításokat, hogy tabulátor karaktert használjanak a lista behúzásához, 1-es számmal.
 
 ## 3. lépés: Mentse el a dokumentumot szövegként
 
-Most, hogy meghatároztuk a szöveges mentési beállításokat, elmenthetjük a dokumentumot szöveges fájlként. A következő kód bemutatja, hogyan kell ezt megtenni:
+Most, hogy meghatároztuk a szövegmentési beállításokat, menthetjük a dokumentumot szövegfájlként. A következő kód bemutatja, hogyan kell ezt megtenni:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
- Cserélje ki`"output.txt"` a kívánt fájl elérési úttal, ahová a szövegfájlt menteni szeretné.
+Csere `"output.txt"` a kívánt fájlelérési úttal, ahová a szövegfájlt menteni szeretné.
 
-## Teljes forráskód a dokumentumok szöveges fájlként történő mentéséhez az Aspose.Words for Java programban
+## Teljes forráskód dokumentumok szövegfájlként történő mentéséhez az Aspose.Words for Java programban
 
 ```java
     public void addBidiMarks() throws Exception
@@ -95,7 +97,7 @@ doc.save("output.txt", saveOptions);
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Hozzon létre egy listát három behúzási szinttel.
+        // Hozz létre egy listát három behúzási szinttel.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -112,7 +114,7 @@ doc.save("output.txt", saveOptions);
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Hozzon létre egy listát három behúzási szinttel.
+        // Hozz létre egy listát három behúzási szinttel.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -128,13 +130,13 @@ doc.save("output.txt", saveOptions);
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet dokumentumokat szövegfájlként menteni az Aspose.Words for Java programban. Áttekintettük a dokumentum létrehozásának, a szöveges mentési beállítások meghatározásának és a dokumentum szöveges formátumban történő mentésének lépéseit. Az Aspose.Words széles körű rugalmasságot biztosít a dokumentumok mentésekor, lehetővé téve, hogy a kimenetet az Ön egyedi igényeihez igazítsa.
+Ebben az oktatóanyagban megtanultuk, hogyan menthetünk dokumentumokat szövegfájlként az Aspose.Words for Java programban. Áttekintettük a dokumentumok létrehozásának, a szövegmentési beállítások megadásának és a dokumentum szöveges formátumban történő mentésének lépéseit. Az Aspose.Words nagyfokú rugalmasságot biztosít a dokumentumok mentése terén, lehetővé téve a kimenet testreszabását az adott igényekhez.
 
 ## GYIK
 
-### Hogyan adhatok kétirányú jeleket a szövegkimenethez?
+### Hogyan adhatok hozzá kétirányú jeleket a szövegkimenethez?
 
- Ha kétirányú jeleket szeretne hozzáadni a szövegkimenethez, állítsa be a`AddBidiMarks` tulajdona`TxtSaveOptions` hogy`true`. Például:
+Kétirányú jelek hozzáadásához a szövegkimenethez, állítsa be a `AddBidiMarks` tulajdona `TxtSaveOptions` hogy `true`Például:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -143,7 +145,7 @@ saveOptions.setAddBidiMarks(true);
 
 ### Testreszabhatom a lista behúzás karakterét?
 
- Igen, testreszabhatja a lista behúzás karakterét a`ListIndentation` tulajdona`TxtSaveOptions`. Ha például egy tabulátor karaktert szeretne használni a lista behúzásához, tegye a következőket:
+Igen, testreszabhatja a lista behúzásának karakterét a konfigurálásával. `ListIndentation` tulajdona `TxtSaveOptions`Például a lista behúzásához tabulátor karaktert használhat, és a következőképpen teheti:
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -151,20 +153,25 @@ saveOptions.getListIndentation().setCount(1);
 saveOptions.getListIndentation().setCharacter('\t');
 ```
 
-### Az Aspose.Words for Java alkalmas többnyelvű szöveg kezelésére?
+### Alkalmas az Aspose.Words for Java többnyelvű szövegek kezelésére?
 
-Igen, az Aspose.Words for Java alkalmas többnyelvű szövegek kezelésére. Különféle nyelveket és karakterkódolásokat támogat, így sokoldalú választás a különböző nyelvű dokumentumokkal való munkavégzéshez.
+Igen, az Aspose.Words for Java alkalmas többnyelvű szövegek kezelésére. Különböző nyelveket és karakterkódolásokat támogat, így sokoldalú választás a különböző nyelveken írt dokumentumokkal való munkához.
 
-### Hogyan férhetek hozzá az Aspose.Words for Java további dokumentációjához és erőforrásaihoz?
+### Hogyan férhetek hozzá további dokumentációhoz és forrásokhoz az Aspose.Words for Java-hoz?
 
- Az Aspose.Words for Java-hoz átfogó dokumentációt és forrásokat találhat az Aspose dokumentációs webhelyén:[Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+Az Aspose.Words for Java átfogó dokumentációját és forrásait az Aspose dokumentációs weboldalán találja: [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/).
 
-### Honnan tölthetem le az Aspose.Words for Java programot?
+### Hol tudom letölteni az Aspose.Words programot Java-hoz?
 
- Az Aspose.Words for Java könyvtárat letöltheti az Aspose webhelyéről:[Töltse le az Aspose.Words for Java programot](https://releases.aspose.com/words/java/).
+Az Aspose.Words for Java könyvtárat letöltheted az Aspose weboldaláról: [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

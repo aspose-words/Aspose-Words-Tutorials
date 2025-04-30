@@ -1,14 +1,16 @@
 ---
-title: Xử lý từ ngữ với Txtloadoptions
-linktitle: Xử lý từ ngữ với Txtloadoptions
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách lập trình với các tùy chọn tải tệp văn bản trong Aspose.Words cho .NET. Tìm hiểu cách chỉ định mã hóa, bỏ qua các ký tự không xác định, xử lý ngắt dòng và nhiều hơn nữa với hướng dẫn từng bước và mã mẫu trong C#.
-weight: 1640
-url: /vi/net/programming-with-txtloadoptions/
+"description": "Tìm hiểu cách lập trình với các tùy chọn tải tệp văn bản trong Aspose.Words cho .NET. Tìm hiểu cách chỉ định mã hóa, bỏ qua các ký tự không xác định, xử lý ngắt dòng và nhiều hơn nữa với hướng dẫn từng bước và mã mẫu trong C#."
+"linktitle": "Xử lý từ ngữ với Txtloadoptions"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xử lý từ ngữ với Txtloadoptions"
+"url": "/vi/net/programming-with-txtloadoptions/"
+"weight": 1640
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý từ ngữ với Txtloadoptions
@@ -20,14 +22,19 @@ Các hướng dẫn này cung cấp hướng dẫn từng bước, mã mẫu và
 Bằng cách sử dụng Aspose.Words, bạn có thể tự động hóa hiệu quả các tác vụ xử lý tài liệu Word, cải thiện năng suất và đạt được kết quả chất lượng cao. Các hướng dẫn giúp bạn nắm vững các khái niệm và kỹ thuật cần thiết để làm việc với các tính năng cụ thể của Aspose.Words, cho phép bạn phát triển các ứng dụng mạnh mẽ, hiệu suất cao để quản lý tài liệu Word một cách chuyên nghiệp. Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kinh nghiệm, các hướng dẫn Aspose.Words dành cho .NET sẽ hướng dẫn bạn trên hành trình sử dụng nâng cao thư viện mạnh mẽ này.
 
  ## Hướng dẫn
-| Tiêu đề | Sự miêu tả |
+| Tiêu đề | Mô tả |
 | --- | --- |
 | [Phát hiện số có khoảng trắng](./detect-numbering-with-whitespaces/) | Khám phá cách sử dụng Aspose.Words cho .NET để phát hiện việc đánh số có khoảng trắng trong tài liệu văn bản thuần túy và đảm bảo danh sách của bạn được nhận dạng chính xác. |
-| [Xử lý tùy chọn khoảng trống](./handle-spaces-options/) | Tìm hiểu cách xử lý khoảng trắng đầu và cuối trong tài liệu văn bản bằng Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn để dọn dẹp định dạng văn bản. |
-| [Hướng văn bản tài liệu](./document-text-direction/) | Tìm hiểu cách thiết lập hướng văn bản tài liệu trong Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để xử lý ngôn ngữ từ phải sang trái. |
+| [Xử lý tùy chọn khoảng trống](./handle-spaces-options/) | Tìm hiểu cách xử lý khoảng trắng đầu và cuối trong tài liệu văn bản với Aspose.Words cho .NET. Hướng dẫn này cung cấp hướng dẫn dọn dẹp định dạng văn bản. |
+| [Hướng văn bản tài liệu](./document-text-direction/) | Tìm hiểu cách thiết lập hướng văn bản tài liệu trong Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để xử lý các ngôn ngữ từ phải sang trái. |
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Горизонтальное слияние
-linktitle: Горизонтальное слияние
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как выполнить горизонтальное объединение ячеек в документе Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства.
-weight: 10
-url: /ru/net/programming-with-tables/horizontal-merge/
+"description": "Узнайте, как горизонтально объединить ячейки в документе Word с помощью Aspose.Words для .NET, из этого подробного пошагового руководства."
+"linktitle": "Горизонтальное слияние"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Горизонтальное слияние"
+"url": "/ru/net/programming-with-tables/horizontal-merge/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Горизонтальное слияние
@@ -21,7 +23,7 @@ url: /ru/net/programming-with-tables/horizontal-merge/
 
 Прежде чем мы перейдем к деталям, вам необходимо иметь под рукой несколько вещей:
 
-1. Библиотека Aspose.Words for .NET: Если вы еще этого не сделали, загрузите библиотеку Aspose.Words for .NET. Вы можете получить ее[здесь](https://releases.aspose.com/words/net/).
+1. Библиотека Aspose.Words for .NET: Если вы еще этого не сделали, загрузите библиотеку Aspose.Words for .NET. Вы можете получить ее [здесь](https://releases.aspose.com/words/net/).
 2. Среда разработки: убедитесь, что у вас настроена подходящая среда разработки, например Visual Studio.
 3. Базовые знания C#: Базовые знания программирования на C# будут преимуществом.
 
@@ -40,17 +42,17 @@ using Aspose.Words.Tables;
 
 ## Шаг 1: Настройка документа
 
- Прежде всего, нам нужно создать новый документ Word и инициализировать его.`DocumentBuilder`:
+Прежде всего, нам нужно создать новый документ Word и инициализировать его. `DocumentBuilder`:
 
 ```csharp
-// Путь к каталогу ваших документов
+// Путь к каталогу ваших документов 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Этот фрагмент кода создает новый документ и подготавливает`DocumentBuilder` для действия.
+Этот фрагмент кода создает новый документ и подготавливает `DocumentBuilder` для действия.
 
 ## Шаг 2: Вставка первой ячейки
 
@@ -62,7 +64,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 ```
 
- Здесь мы вставляем новую ячейку и устанавливаем ее`HorizontalMerge`собственность`CellMerge.First`, что указывает на то, что эта ячейка является началом объединенной последовательности ячеек.
+Здесь мы вставляем новую ячейку и устанавливаем ее `HorizontalMerge` собственность `CellMerge.First`, что указывает на то, что эта ячейка является началом объединенной последовательности ячеек.
 
 ## Шаг 3: Вставка объединенной ячейки
 
@@ -74,7 +76,7 @@ builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 ```
 
- Эта ячейка настроена на слияние с предыдущей ячейкой с помощью`CellMerge.Previous` . Обратите внимание, как мы заканчиваем строку`builder.EndRow()`.
+Эта ячейка настроена на слияние с предыдущей ячейкой с помощью `CellMerge.Previous`. Обратите внимание, как мы заканчиваем строку `builder.EndRow()`.
 
 ## Шаг 4: Вставка необъединенных ячеек
 
@@ -104,7 +106,7 @@ doc.Save(dataDir + "WorkingWithTables.HorizontalMerge.docx");
 
 ## Заключение
 
-И вот оно! Вы только что освоили искусство горизонтального объединения ячеек в документе Word с помощью Aspose.Words для .NET. Выполнив эти шаги, вы сможете с легкостью создавать сложные структуры таблиц. Продолжайте экспериментировать и изучать возможности Aspose.Words, чтобы сделать ваши документы настолько динамичными и гибкими, насколько вам нужно. Удачного кодирования!
+И вот оно! Вы только что освоили искусство горизонтального слияния ячеек в документе Word с помощью Aspose.Words для .NET. Выполнив эти шаги, вы сможете с легкостью создавать сложные структуры таблиц. Продолжайте экспериментировать и изучать возможности Aspose.Words, чтобы сделать ваши документы настолько динамичными и гибкими, насколько вам нужно. Удачного кодирования!
 
 ## Часто задаваемые вопросы
 
@@ -112,19 +114,24 @@ doc.Save(dataDir + "WorkingWithTables.HorizontalMerge.docx");
 Aspose.Words для .NET — это мощная библиотека, которая позволяет разработчикам программно создавать, редактировать и обрабатывать документы Word в приложениях .NET.
 
 ### Можно ли объединить ячейки по вертикали с помощью Aspose.Words для .NET?
- Да, вы также можете объединить ячейки по вертикали, используя`CellFormat.VerticalMerge` свойство.
+Да, вы также можете объединить ячейки по вертикали, используя `CellFormat.VerticalMerge` свойство.
 
 ### Является ли Aspose.Words для .NET бесплатным для использования?
- Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Aspose.Words for .NET предлагает бесплатную пробную версию, но для полной функциональности вам необходимо приобрести лицензию. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Как я могу узнать больше об Aspose.Words для .NET?
- Вы можете изучить подробную документацию[здесь](https://reference.aspose.com/words/net/).
+Вы можете изучить подробную документацию [здесь](https://reference.aspose.com/words/net/).
 
 ### Где я могу получить поддержку по Aspose.Words для .NET?
- По любым вопросам или проблемам вы можете посетить форум поддержки Aspose.[здесь](https://forum.aspose.com/c/words/8).
+По любым вопросам или проблемам вы можете посетить форум поддержки Aspose. [здесь](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

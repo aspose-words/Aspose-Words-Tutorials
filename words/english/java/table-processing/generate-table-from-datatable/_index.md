@@ -7,8 +7,11 @@ weight: 11
 url: /java/table-processing/generate-table-from-datatable/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate Table from Datatable
@@ -214,9 +217,13 @@ You can insert various data types, including text, numbers, and dates, which can
 ### Where can I get support for Aspose.Words?
 You can find support and ask questions on the [Aspose forum](https://forum.aspose.com/c/words/8/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

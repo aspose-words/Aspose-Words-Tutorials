@@ -1,35 +1,37 @@
 ---
-title: Přesunout na konec záložky v dokumentu aplikace Word
-linktitle: Přesunout na konec záložky v dokumentu aplikace Word
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak přejít na konec záložky v dokumentu aplikace Word pomocí Aspose.Words for .NET. Postupujte podle našeho podrobného průvodce krok za krokem pro přesnou manipulaci s dokumenty.
-weight: 10
-url: /cs/net/add-content-using-documentbuilder/move-to-bookmark-end/
+"description": "Naučte se, jak se přesunout na konec záložky v dokumentu Word pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem pro přesnou manipulaci s dokumentem."
+"linktitle": "Přesunout na konec záložky v dokumentu Word"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Přesunout na konec záložky v dokumentu Word"
+"url": "/cs/net/add-content-using-documentbuilder/move-to-bookmark-end/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přesunout na konec záložky v dokumentu aplikace Word
+# Přesunout na konec záložky v dokumentu Word
 
 ## Zavedení
 
-Ahoj, kolego kodéru! Už jste se někdy zapletli do sítě manipulací s dokumenty Wordu a snažili jste se přijít na to, jak se přesně přesunout na konec záložky a přidat obsah hned za něj? No, dnes je váš šťastný den! Ponoříme se hluboko do Aspose.Words for .NET, výkonné knihovny, která vám umožní pracovat s dokumenty Wordu jako profesionálové. Tento výukový program vás provede kroky, jak přejít na konec záložky a vložit tam nějaký text. Vydejme tuto show na cestu!
+Ahoj, kolegové programátoři! Už ses někdy ocitl v síti manipulací s dokumenty Wordu a snažil ses přijít na to, jak přesně přesunout záložku na konec a hned za ní přidat obsah? Tak dnes máš štěstí! Ponoříme se hlouběji do Aspose.Words pro .NET, výkonné knihovny, která ti umožní pracovat s dokumenty Wordu jako profesionál. Tento tutoriál tě provede kroky, jak přesunout záložku na konec a vložit tam nějaký text. Pojďme na to!
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máme vše, co potřebujeme:
+Než začneme, ujistěme se, že máme vše, co potřebujeme:
 
--  Visual Studio: Můžete si jej stáhnout z[zde](https://visualstudio.microsoft.com/).
--  Aspose.Words pro .NET: Získejte to z[odkaz ke stažení](https://releases.aspose.com/words/net/).
--  Platná licence Aspose.Words: Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/) pokud žádný nemáte.
+- Visual Studio: Můžete si ho stáhnout z [zde](https://visualstudio.microsoft.com/).
+- Aspose.Words pro .NET: Vezměte si to z [odkaz ke stažení](https://releases.aspose.com/words/net/).
+- Platná licence Aspose.Words: Můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/) pokud ho nemáte.
 
-A samozřejmě, některé základní znalosti C# a .NET budou daleko.
+A samozřejmě, základní znalost C# a .NET bude hodně užitečná.
 
 ## Importovat jmenné prostory
 
-Nejprve musíme importovat potřebné jmenné prostory. Postup je následující:
+Nejdříve musíme importovat potřebné jmenné prostory. Zde je návod, jak to udělat:
 
 ```csharp
 using System;
@@ -37,85 +39,85 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Jednoduché, že? Nyní se pustíme do masa.
+Jednoduché, že? A teď se pojďme pustit do jádra věci.
 
-Dobře, pojďme si to rozdělit na stravitelné kroky. Každý krok bude mít svůj vlastní nadpis a podrobné vysvětlení.
+Dobře, rozdělme si to na srozumitelné kroky. Každý krok bude mít svůj vlastní nadpis a podrobné vysvětlení.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
 ### Vytvořit nový projekt
 
- Otevřete Visual Studio a vytvořte nový projekt C# Console App. Pojmenujte to nějak`BookmarkEndExample`. Toto bude naše hřiště pro tento tutoriál.
+Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace v C#. Pojmenujte ho například `BookmarkEndExample`Toto bude naše hřiště pro tento tutoriál.
 
-### Nainstalujte Aspose.Words for .NET
+### Instalace Aspose.Words pro .NET
 
- Dále je třeba nainstalovat Aspose.Words for .NET. Můžete to udělat pomocí Správce balíčků NuGet. Stačí hledat`Aspose.Words` a stiskni nainstalovat. Případně použijte konzolu Správce balíčků:
+Dále je třeba nainstalovat Aspose.Words pro .NET. Můžete to udělat pomocí Správce balíčků NuGet. Stačí vyhledat `Aspose.Words` a klikněte na tlačítko Nainstalovat. Případně použijte konzoli Správce balíčků:
 
 ```bash
 Install-Package Aspose.Words
 ```
 
-## Krok 2: Vložte svůj dokument
+## Krok 2: Vložte dokument
 
-Nejprve vytvořte dokument aplikace Word s několika záložkami. Uložte jej do adresáře projektu. Zde je vzorová struktura dokumentu:
+Nejprve si vytvořte dokument Wordu s několika záložkami. Uložte ho do adresáře projektu. Zde je ukázková struktura dokumentu:
 
 ```plaintext
 [Bookmark: MyBookmark1]
 Some text here...
 ```
 
-### Načtěte dokument do svého projektu
+### Načtěte dokument do projektu
 
-Nyní načteme tento dokument do našeho projektu.
+Nyní si tento dokument nahrajme do našeho projektu.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Nezapomeňte vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kam je dokument uložen.
+Nezapomeňte vyměnit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kam je dokument uložen.
 
-## Krok 3: Inicializujte DocumentBuilder
+## Krok 3: Inicializace nástroje DocumentBuilder
 
-DocumentBuilder je vaše kouzelná hůlka pro manipulaci s dokumenty aplikace Word. Vytvořme instanci:
+DocumentBuilder je vaše kouzelná hůlka pro manipulaci s dokumenty Wordu. Vytvořme si instanci:
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 4: Přesuňte se na konec záložky
+## Krok 4: Přesunout na konec záložky
 
-### Porozumění MoveToBookmark
+### Principy funkce MoveToBookmark
 
- The`MoveToBookmark`umožňuje přejít na konkrétní záložku v dokumentu. Podpis metody je:
+Ten/Ta/To `MoveToBookmark` Metoda umožňuje přejít na konkrétní záložku v dokumentu. Podpis metody je:
 
 ```csharp
 bool MoveToBookmark(string bookmarkName, bool isBookmarkStart, bool isBookmarkEnd);
 ```
 
-- `bookmarkName`: Název záložky, na kterou chcete přejít.
-- `isBookmarkStart` : Je-li nastaveno na`true`, přesune se na začátek záložky.
-- `isBookmarkEnd` : Je-li nastaveno na`true`, přesune se na konec záložky.
+- `bookmarkName`Název záložky, na kterou chcete přejít.
+- `isBookmarkStart`Pokud je nastaveno na `true`, přesune se na začátek záložky.
+- `isBookmarkEnd`Pokud je nastaveno na `true`, přesune se na konec záložky.
 
-### Implementujte metodu MoveToBookmark
+### Implementace metody MoveToBookmark
 
- Nyní se přesuneme na konec záložky`MyBookmark1`:
+Nyní se přesuňme na konec záložky. `MyBookmark1`:
 
 ```csharp
 builder.MoveToBookmark("MyBookmark1", false, true);
 ```
 
-## Krok 5: Vložte text na konec záložky
+## Krok 5: Vložení textu na konec záložky
 
 
-Jakmile jste na konci záložky, můžete vložit text nebo jakýkoli jiný obsah. Přidejme jednoduchý řádek textu:
+Jakmile se dostanete na konec záložky, můžete vložit text nebo jakýkoli jiný obsah. Přidejme jednoduchý řádek textu:
 
 ```csharp
 builder.Writeln("This is a bookmark.");
 ```
 
-A je to! Úspěšně jste se přesunuli na konec záložky a vložili jste tam text.
+A to je vše! Úspěšně jste se přesunuli na konec záložky a vložili tam text.
 
 ## Krok 6: Uložte dokument
 
@@ -126,37 +128,42 @@ Nakonec nezapomeňte uložit změny:
 doc.Save(dataDir + "UpdatedBookmarks.docx");
 ```
 
- Nyní můžete otevřít aktualizovaný dokument a zobrazit text "Toto je záložka." hned po`MyBookmark1`.
+Nyní můžete otevřít aktualizovaný dokument a hned za ním se zobrazí text „Toto je záložka“. `MyBookmark1`.
 
 ## Závěr
 
-Tady to máš! Právě jste se naučili, jak se přesunout na konec záložky v dokumentu aplikace Word pomocí Aspose.Words for .NET. Tato výkonná funkce vám může ušetřit spoustu času a úsilí, díky čemuž budou vaše úlohy zpracování dokumentů mnohem efektivnější. Pamatujte, cvičení dělá mistra. Abyste tuto dovednost zvládli, pokračujte v experimentování s různými záložkami a strukturami dokumentů.
+A tady to máte! Právě jste se naučili, jak se přesunout na konec záložky v dokumentu Word pomocí Aspose.Words pro .NET. Tato výkonná funkce vám může ušetřit spoustu času a úsilí a výrazně zefektivnit vaše úkoly zpracování dokumentů. Pamatujte, že cvičení dělá mistra. Proto neustále experimentujte s různými záložkami a strukturami dokumentů, abyste tuto dovednost zvládli.
 
-## FAQ
+## Často kladené otázky
 
 ### 1. Mohu se přesunout na začátek záložky místo na konec?
 
- Absolutně! Stačí nastavit`isBookmarkStart` parametr k`true` a`isBookmarkEnd` na`false` v`MoveToBookmark` metoda.
+Rozhodně! Stačí nastavit `isBookmarkStart` parametr k `true` a `isBookmarkEnd` na `false` v `MoveToBookmark` metoda.
 
 ### 2. Co když je název mé záložky nesprávný?
 
- Pokud je název záložky nesprávný nebo neexistuje,`MoveToBookmark` metoda se vrátí`false`a DocumentBuilder se nepřesune do žádného umístění.
+Pokud je název záložky nesprávný nebo neexistuje, `MoveToBookmark` metoda vrátí `false`a DocumentBuilder se nepřesune na žádné místo.
 
 ### 3. Mohu na konec záložky vložit jiné typy obsahu?
 
- Ano, DocumentBuilder umožňuje vkládat různé typy obsahu, jako jsou tabulky, obrázky a další. Zkontrolujte[dokumentace](https://reference.aspose.com/words/net/) pro více podrobností.
+Ano, DocumentBuilder umožňuje vkládat různé typy obsahu, jako jsou tabulky, obrázky a další. Zaškrtněte [dokumentace](https://reference.aspose.com/words/net/) pro více informací.
 
 ### 4. Jak získám dočasnou licenci pro Aspose.Words?
 
- Dočasnou licenci můžete získat od[Aspose webové stránky](https://purchase.aspose.com/temporary-license/).
+Dočasné povolení můžete získat od [Webové stránky Aspose](https://purchase.aspose.com/temporary-license/).
 
-### 5. Je Aspose.Words for .NET zdarma?
+### 5. Je Aspose.Words pro .NET zdarma?
 
-Aspose.Words for .NET je komerční produkt, ale můžete získat bezplatnou zkušební verzi[Aspose webové stránky](https://releases.aspose.com/).
+Aspose.Words pro .NET je komerční produkt, ale můžete si ho zdarma vyzkoušet na [Webové stránky Aspose](https://releases.aspose.com/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

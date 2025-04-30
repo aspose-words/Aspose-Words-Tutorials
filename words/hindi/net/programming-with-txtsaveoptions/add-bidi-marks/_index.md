@@ -1,14 +1,16 @@
 ---
-title: वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें
-linktitle: वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस गाइड के साथ Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में द्विदिशात्मक (बीडी) चिह्न जोड़ना सीखें। बहुभाषी सामग्री के लिए उचित पाठ दिशा सुनिश्चित करें।
-weight: 10
-url: /hi/net/programming-with-txtsaveoptions/add-bidi-marks/
+"description": "इस गाइड के साथ Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ों में द्विदिशात्मक (बीडी) चिह्न जोड़ना सीखें। बहुभाषी सामग्री के लिए उचित पाठ दिशा सुनिश्चित करें।"
+"linktitle": "वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें"
+"url": "/hi/net/programming-with-txtsaveoptions/add-bidi-marks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-txtsaveoptions/add-bidi-marks/
 
 इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: आपके पास Aspose.Words for .NET इंस्टॉल होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [Aspose डाउनलोड पृष्ठ](https://releases.aspose.com/words/net/).
 2. .NET फ्रेमवर्क या .NET कोर: सुनिश्चित करें कि आपके पास उदाहरणों को चलाने के लिए एक संगत .NET वातावरण स्थापित है।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा और .NET में बुनियादी संचालन से परिचित होना।
 
@@ -38,7 +40,7 @@ using Aspose.Words.Saving;
 
 ## चरण 1: अपना दस्तावेज़ सेट करें
 
- एक नया उदाहरण बनाकर शुरू करें`Document` कक्षा और एक`DocumentBuilder` दस्तावेज़ में सामग्री जोड़ने के लिए.
+एक नया उदाहरण बनाकर शुरू करें `Document` कक्षा और एक `DocumentBuilder` दस्तावेज़ में सामग्री जोड़ने के लिए.
 
 ```csharp
 // आपके दस्तावेज़ निर्देशिका का पथ
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- इस चरण में, आप एक नया Word दस्तावेज़ आरंभ करते हैं और एक सेटअप करते हैं`DocumentBuilder` सामग्री प्रविष्टि को सुविधाजनक बनाने के लिए।
+इस चरण में, आप एक नया Word दस्तावेज़ आरंभ करते हैं और एक सेटअप करते हैं `DocumentBuilder` सामग्री प्रविष्टि को सुविधाजनक बनाने के लिए।
 
 ## चरण 2: अपने दस्तावेज़ में सामग्री जोड़ें
 
@@ -66,7 +68,7 @@ builder.Writeln("مرحبا بالعالم!");
 
 ## चरण 3: बीड़ी चिह्नों के लिए सेव विकल्प कॉन्फ़िगर करें
 
- यह सुनिश्चित करने के लिए कि दस्तावेज़ में बीड़ी चिह्न सही ढंग से सहेजे गए हैं, आपको कॉन्फ़िगर करने की आवश्यकता है`TxtSaveOptions` और सक्षम करें`AddBidiMarks` विकल्प।
+यह सुनिश्चित करने के लिए कि दस्तावेज़ में बीड़ी चिह्न सही ढंग से सहेजे गए हैं, आपको कॉन्फ़िगर करने की आवश्यकता है `TxtSaveOptions` और सक्षम करें `AddBidiMarks` विकल्प।
 
 ```csharp
 // बीड़ी के निशान जोड़ें
@@ -74,7 +76,7 @@ TxtSaveOptions saveOptions = new TxtSaveOptions { AddBidiMarks = true };
 doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 ```
 
- इस चरण में, हम एक उदाहरण बनाते हैं`TxtSaveOptions` और सेट करें`AddBidiMarks`संपत्ति को`true`यह सुनिश्चित करता है कि दस्तावेज़ को टेक्स्ट फ़ाइल के रूप में सहेजते समय बीड़ी चिह्न शामिल किए जाएं।
+इस चरण में, हम एक उदाहरण बनाते हैं `TxtSaveOptions` और सेट करें `AddBidiMarks` संपत्ति को `true`यह सुनिश्चित करता है कि दस्तावेज़ को टेक्स्ट फ़ाइल के रूप में सहेजते समय बीड़ी चिह्न शामिल किए जाएं।
 
 ## निष्कर्ष
 
@@ -95,10 +97,15 @@ doc.Save(dataDir + "WorkingWithTxtSaveOptions.AddBidiMarks.txt", saveOptions);
 दिए गए उदाहरण में, दस्तावेज़ को टेक्स्ट फ़ाइल के रूप में सहेजा गया है। हालाँकि, Aspose.Words बिडी चिह्नों को संरक्षित करते हुए दस्तावेज़ों को विभिन्न प्रारूपों में सहेजने का भी समर्थन करता है।
 
 ### मैं Aspose.Words for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
- आप Aspose.Words for .NET के बारे में अधिक जानकारी यहाँ से प्राप्त कर सकते हैं।[Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और पहुँच[सहयता मंच](https://forum.aspose.com/c/words/8) अतिरिक्त सहायता के लिए.
+आप Aspose.Words for .NET के बारे में अधिक जानकारी यहाँ से प्राप्त कर सकते हैं। [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/words/net/) और पहुँच [सहयता मंच](https://forum.aspose.com/c/words/8) अतिरिक्त सहायता के लिए.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: SDT को कस्टम XML भाग से बाँधें
-linktitle: SDT को कस्टम XML भाग से बाँधें
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कस्टम XML भागों में संरचित दस्तावेज़ टैग (SDTs) को बांधना सीखें।
-weight: 10
-url: /hi/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कस्टम XML भागों में संरचित दस्तावेज़ टैग (SDTs) को बांधना सीखें।"
+"linktitle": "SDT को कस्टम XML भाग से बाँधें"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "SDT को कस्टम XML भाग से बाँधें"
+"url": "/hi/net/programming-with-sdt/bind-sdt-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SDT को कस्टम XML भाग से बाँधें
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-sdt/bind-sdt-to-custom-xml-part/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
--  .NET के लिए Aspose.Words: आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं[.NET रिलीज़ के लिए Aspose.Words](https://releases.aspose.com/words/net/).
+- .NET के लिए Aspose.Words: आप नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं [.NET रिलीज़ के लिए Aspose.Words](https://releases.aspose.com/words/net/).
 - विकास वातावरण: विज़ुअल स्टूडियो या कोई अन्य संगत .NET IDE.
 - C# की बुनियादी समझ: C# प्रोग्रामिंग भाषा और .NET फ्रेमवर्क से परिचित होना।
 
@@ -68,7 +70,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(Guid.NewGuid().ToString("B"), "<r
 कस्टम XML भाग जोड़ने के बाद, हम XML डेटा प्रदर्शित करने के लिए एक SDT बनाते हैं।
 
 ```csharp
-//संरचित दस्तावेज़ टैग (SDT) बनाएँ
+// संरचित दस्तावेज़ टैग (SDT) बनाएँ
 StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(sdt);
 ```
@@ -84,7 +86,7 @@ doc.FirstSection.Body.AppendChild(sdt);
 sdt.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", "");
 ```
 
- यह चरण SDT को मैप करता है`<text>` तत्व के भीतर`<root>` हमारे कस्टम XML भाग का नोड.
+यह चरण SDT को मैप करता है `<text>` तत्व के भीतर `<root>` हमारे कस्टम XML भाग का नोड.
 
 ## चरण 5: दस्तावेज़ सहेजें
 
@@ -110,16 +112,21 @@ doc.Save(dataDir + "WorkingWithSdt.BindSDTtoCustomXmlPart.doc");
 हां, आप एक ही दस्तावेज़ में विभिन्न XML भागों में एकाधिक SDTs को बांध सकते हैं, जिससे जटिल डेटा-संचालित टेम्पलेट्स की अनुमति मिलती है।
 
 ### मैं कस्टम XML भाग में XML डेटा कैसे अपडेट करूं?
- आप XML डेटा को एक्सेस करके अपडेट कर सकते हैं`CustomXmlPart` ऑब्जेक्ट को सीधे उसके XML कंटेंट में परिवर्तित करना।
+आप XML डेटा को एक्सेस करके अपडेट कर सकते हैं `CustomXmlPart` ऑब्जेक्ट को सीधे उसके XML कंटेंट में परिवर्तित करना।
 
 ### क्या SDTs को तत्वों के बजाय XML विशेषताओं से बांधना संभव है?
 हां, आप वांछित विशेषता को लक्षित करने वाले उपयुक्त XPath अभिव्यक्ति को निर्दिष्ट करके SDT को XML विशेषताओं से बांध सकते हैं।
 
 ### मैं .NET के लिए Aspose.Words पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप .NET के लिए Aspose.Words पर व्यापक दस्तावेज़ पा सकते हैं[Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/).
+आप .NET के लिए Aspose.Words पर व्यापक दस्तावेज़ पा सकते हैं [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

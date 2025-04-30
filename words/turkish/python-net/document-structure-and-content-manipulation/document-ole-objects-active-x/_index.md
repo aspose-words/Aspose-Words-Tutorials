@@ -1,17 +1,19 @@
 ---
-title: Word Belgelerine OLE Nesneleri ve ActiveX Denetimleri Yerleştirme
-linktitle: Word Belgelerine OLE Nesneleri ve ActiveX Denetimleri Yerleştirme
-second_title: Aspose.Words Python Belge Yönetim API'si
-description: Python için Aspose.Words'ü kullanarak Word belgelerine OLE nesnelerini ve ActiveX denetimlerini nasıl yerleştireceğinizi öğrenin. Etkileşimli ve dinamik belgeleri sorunsuz bir şekilde oluşturun.
-weight: 21
-url: /tr/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/
+"description": "Python için Aspose.Words'ü kullanarak Word belgelerine OLE nesnelerini ve ActiveX denetimlerini nasıl yerleştireceğinizi öğrenin. Etkileşimli ve dinamik belgeleri sorunsuz bir şekilde oluşturun."
+"linktitle": "Word Belgelerine OLE Nesneleri ve ActiveX Denetimlerini Yerleştirme"
+"second_title": "Aspose.Words Python Belge Yönetim API'si"
+"title": "Word Belgelerine OLE Nesneleri ve ActiveX Denetimlerini Yerleştirme"
+"url": "/tr/python-net/document-structure-and-content-manipulation/document-ole-objects-active-x/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word Belgelerine OLE Nesneleri ve ActiveX Denetimleri Yerleştirme
+# Word Belgelerine OLE Nesneleri ve ActiveX Denetimlerini Yerleştirme
 
 
 Günümüzün dijital çağında, zengin ve etkileşimli belgeler oluşturmak etkili iletişim için çok önemlidir. Aspose.Words for Python, OLE (Nesne Bağlama ve Gömme) nesnelerini ve ActiveX denetimlerini doğrudan Word belgelerinize yerleştirmenizi sağlayan güçlü bir araç seti sunar. Bu özellik, entegre elektronik tablolar, grafikler, multimedya ve daha fazlasıyla belgeler oluşturmanıza olanak tanıyarak bir olasılıklar dünyasının kapılarını açar. Bu eğitimde, Aspose.Words for Python kullanarak OLE nesnelerini ve ActiveX denetimlerini yerleştirme sürecini adım adım ele alacağız.
@@ -48,7 +50,7 @@ doc = aw.Document()
 ```python
 builder = aw.DocumentBuilder(doc)
 
-builder.insert_ole_object("http://www.aspose.com", "htmlfile", Doğru, Doğru, Hiçbiri)
+builder.insert_ole_object("http://www.aspose.com", "htmlfile", True, True, None)
 
 doc.save(ARTIFACTS_DIR + "WorkingWithOleObjectsAndActiveX.insert_ole_object.docx")
 ```
@@ -76,9 +78,14 @@ ActiveX denetimi çalışmıyorsa, bunun nedeni belgedeki güvenlik ayarları ve
 ## Çözüm
 
 Aspose.Words for Python kullanarak OLE nesnelerini ve ActiveX denetimlerini dahil etmek, dinamik ve etkileşimli Word belgeleri oluşturmak için bir olasılıklar dünyasının kapılarını açar. İster elektronik tabloları, ister multimedyayı veya etkileşimli formları yerleştirmek isteyin, bu özellik fikirlerinizi etkili bir şekilde iletmenizi sağlar.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

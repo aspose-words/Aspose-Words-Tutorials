@@ -1,14 +1,16 @@
 ---
-title: Tùy chọn lưu nâng cao với Aspose.Words cho Java
-linktitle: Lưu tài liệu ở nhiều định dạng khác nhau với
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tìm hiểu cách thao tác tài liệu nâng cao với Aspose.Words for Java. Mã hóa, xử lý siêu tệp và nhiều hơn nữa. Tài liệu Word của bạn, theo cách của bạn.
-weight: 14
-url: /vi/java/document-loading-and-saving/advance-saving-options/
+"description": "Tìm hiểu cách thao tác tài liệu nâng cao với Aspose.Words for Java. Mã hóa, xử lý siêu tệp và nhiều hơn nữa. Tài liệu Word của bạn, theo cách của bạn."
+"linktitle": "Lưu tài liệu ở nhiều định dạng khác nhau với"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tùy chọn lưu nâng cao với Aspose.Words cho Java"
+"url": "/vi/java/document-loading-and-saving/advance-saving-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chọn lưu nâng cao với Aspose.Words cho Java
@@ -119,29 +121,34 @@ Xin chúc mừng! Bạn đã học cách sử dụng Aspose.Words for Java để
 
 ### 1. Aspose.Words cho Java có phải là thư viện miễn phí không?
 
- Không, Aspose.Words for Java là một thư viện thương mại. Bạn có thể tìm thấy thông tin chi tiết về cấp phép[đây](https://purchase.aspose.com/buy).
+Không, Aspose.Words for Java là một thư viện thương mại. Bạn có thể tìm thấy thông tin chi tiết về cấp phép [đây](https://purchase.aspose.com/buy).
 
 ### 2. Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho Java?
 
-Bạn có thể dùng thử miễn phí Aspose.Words cho Java[đây](https://releases.aspose.com/).
+Bạn có thể dùng thử miễn phí Aspose.Words cho Java [đây](https://releases.aspose.com/).
 
 ### 3. Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words dành cho Java ở đâu?
 
- Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập[Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
+Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập [Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
 
-### 4. Tôi có thể sử dụng Aspose.Words cho Java với các thư viện Java khác không?
+### 4. Tôi có thể sử dụng Aspose.Words for Java với các thư viện Java khác không?
 
 Có, Aspose.Words for Java tương thích với nhiều thư viện và khung Java khác nhau.
 
 ### 5. Có tùy chọn cấp phép tạm thời nào không?
 
- Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
-Bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và khai thác toàn bộ tiềm năng xử lý tài liệu trong các ứng dụng Java của bạn.
+Bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và khai thác toàn bộ tiềm năng xử lý tài liệu trong ứng dụng Java của bạn.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

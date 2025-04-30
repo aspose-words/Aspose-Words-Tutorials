@@ -1,14 +1,16 @@
 ---
-title: Ustawianie opcji konspektu w dokumencie PDF
-linktitle: Ustawianie opcji konspektu w dokumencie PDF
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak ustawić opcje konspektu w dokumencie PDF za pomocą Aspose.Words for .NET. Ulepsz nawigację w plikach PDF, konfigurując poziomy nagłówków i rozszerzone konspekty.
-weight: 10
-url: /pl/net/programming-with-pdfsaveoptions/set-outline-options/
+"description": "Dowiedz się, jak ustawić opcje konspektu w dokumencie PDF za pomocą Aspose.Words for .NET. Ulepsz nawigację w plikach PDF, konfigurując poziomy nagłówków i rozszerzone konspekty."
+"linktitle": "Ustawianie opcji konspektu w dokumencie PDF"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Ustawianie opcji konspektu w dokumencie PDF"
+"url": "/pl/net/programming-with-pdfsaveoptions/set-outline-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie opcji konspektu w dokumencie PDF
@@ -21,7 +23,7 @@ Podczas pracy z dokumentami, zwłaszcza w celach zawodowych lub akademickich, sk
 
 Zanim zaczniesz, musisz mieć pewność, że masz kilka rzeczy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli nie, możesz[pobierz najnowszą wersję tutaj](https://releases.aspose.com/words/net/).
+1. Aspose.Words dla .NET: Upewnij się, że masz zainstalowany Aspose.Words dla .NET. Jeśli nie, możesz [pobierz najnowszą wersję tutaj](https://releases.aspose.com/words/net/).
 2. Środowisko programistyczne .NET: Będziesz potrzebować działającego środowiska programistycznego .NET, takiego jak Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# ułatwi Ci naukę.
 4. Dokument Word: Przygotuj dokument Word, który przekonwertujesz do formatu PDF.
@@ -44,11 +46,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- W powyższym fragmencie kodu zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów. Informuje program, gdzie znaleźć dokument Word.
+W powyższym fragmencie kodu zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do katalogu dokumentów. Informuje program, gdzie znaleźć dokument Word.
 
 ## Krok 2: Skonfiguruj opcje zapisywania pliku PDF
 
- Następnie musisz skonfigurować opcje zapisywania PDF. Obejmuje to ustawienie sposobu obsługi konturów w wynikach PDF. Użyjesz`PdfSaveOptions` klasa, aby to zrobić.
+Następnie musisz skonfigurować opcje zapisywania PDF. Obejmuje to ustawienie sposobu obsługi konturów w wynikach PDF. Użyjesz `PdfSaveOptions` klasa, aby to zrobić.
 
 ```csharp
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -58,7 +60,7 @@ Teraz ustawmy opcje konturu.
 
 ### Ustaw poziomy konspektu nagłówków
 
- Ten`HeadingsOutlineLevels` Właściwość definiuje, ile poziomów nagłówków powinno być zawartych w konspekcie PDF. Na przykład, jeśli ustawisz ją na 3, będzie zawierać do trzech poziomów nagłówków w konspekcie PDF.
+Ten `HeadingsOutlineLevels` Właściwość definiuje, ile poziomów nagłówków powinno być zawartych w konspekcie PDF. Na przykład, jeśli ustawisz ją na 3, będzie zawierać do trzech poziomów nagłówków w konspekcie PDF.
 
 ```csharp
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
@@ -66,7 +68,7 @@ saveOptions.OutlineOptions.HeadingsOutlineLevels = 3;
 
 ### Ustaw rozszerzone poziomy konturu
 
- Ten`ExpandedOutlineLevels`właściwość kontroluje, ile poziomów konspektu powinno być domyślnie rozszerzone po otwarciu pliku PDF. Ustawienie tej wartości na 1 spowoduje rozszerzenie nagłówków najwyższego poziomu, dając wyraźny widok głównych sekcji.
+Ten `ExpandedOutlineLevels` właściwość kontroluje, ile poziomów konspektu powinno być domyślnie rozszerzone po otwarciu pliku PDF. Ustawienie tej wartości na 1 spowoduje rozszerzenie nagłówków najwyższego poziomu, dając wyraźny widok głównych sekcji.
 
 ```csharp
 saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
@@ -74,7 +76,7 @@ saveOptions.OutlineOptions.ExpandedOutlineLevels = 1;
 
 ## Krok 3: Zapisz dokument jako PDF
 
- Po skonfigurowaniu opcji możesz zapisać dokument jako PDF. Użyj`Save` metoda`Document` klasę i przekaż ścieżkę do pliku oraz opcje zapisu.
+Po skonfigurowaniu opcji możesz zapisać dokument jako PDF. Użyj `Save` metoda `Document` klasę i przekaż ścieżkę do pliku oraz opcje zapisu.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithPdfSaveOptions.SetOutlineOptions.pdf", saveOptions);
@@ -107,9 +109,14 @@ Tak, możesz usuwać kontury za pomocą oprogramowania do edycji plików PDF, al
 ### Jakie inne opcje zapisywania plików PDF mogę skonfigurować w Aspose.Words?
 
 Aspose.Words oferuje różne opcje, takie jak ustawienie poziomu zgodności ze standardem PDF, osadzanie czcionek i dostosowywanie jakości obrazu.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

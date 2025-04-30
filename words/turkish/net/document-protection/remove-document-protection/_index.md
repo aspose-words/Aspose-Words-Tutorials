@@ -1,14 +1,16 @@
 ---
-title: Word Belgesinde Belge Korumasını Kaldır
-linktitle: Word Belgesinde Belge Korumasını Kaldır
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak Word belgelerinden korumayı nasıl kaldıracağınızı öğrenin. Belgelerinizin korumasını kolayca kaldırmak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/document-protection/remove-document-protection/
+"description": "Aspose.Words for .NET kullanarak Word belgelerinden korumayı nasıl kaldıracağınızı öğrenin. Belgelerinizin korumasını kolayca kaldırmak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Word Belgesinde Belge Korumasını Kaldır"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Word Belgesinde Belge Korumasını Kaldır"
+"url": "/tr/net/document-protection/remove-document-protection/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word Belgesinde Belge Korumasını Kaldır
@@ -22,9 +24,9 @@ Merhaba! Koruma ayarları yüzünden kendi Word belgenizin dışında kaldığı
 
 Koda geçmeden önce ihtiyacımız olan her şeyin mevcut olduğundan emin olalım:
 
-1.  Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words for .NET kütüphanesine sahip olduğunuzdan emin olun. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio benzeri bir .NET geliştirme ortamı.
-3. Temel C# Bilgisi: C# temellerini anlamak, konuyu takip etmenize yardımcı olacaktır.
+3. C# Temel Bilgisi: C# temellerini anlamak, konuyu takip etmenize yardımcı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "ProtectedDocument.docx");
 ```
 
- Burada, belgemizi içeren dizine giden yolu belirtiyoruz. Değiştir`"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
+Burada, belgemizi içeren dizine giden yolu belirtiyoruz. Değiştir `"YOUR DOCUMENT DIRECTORY"` belge dizininize giden gerçek yol ile.
 
 ## Adım 2: Parola Olmadan Korumayı Kaldırın
 
@@ -70,7 +72,7 @@ Belgeniz bir parola ile korunuyorsa, korumayı kaldırmak için bu parolayı sa�
 doc.Unprotect("currentPassword");
 ```
 
- Yer değiştirmek`"currentPassword"` belgeyi korumak için kullanılan gerçek parola ile. Doğru parolayı sağladığınızda, koruma kaldırılır.
+Yer değiştirmek `"currentPassword"` belgeyi korumak için kullanılan gerçek parola ile. Doğru parolayı sağladığınızda, koruma kaldırılır.
 
 ## Adım 4: Koruma Ekleme ve Kaldırma
 
@@ -84,7 +86,7 @@ doc.Protect(ProtectionType.ReadOnly, "newPassword");
 doc.Unprotect("newPassword");
 ```
 
- Yukarıdaki kodda, öncelikle parola ile yeni bir koruma ekliyoruz`"newPassword"`ve ardından aynı şifreyi kullanarak hemen kaldırın.
+Yukarıdaki kodda, öncelikle parola ile yeni bir koruma ekliyoruz `"newPassword"`ve ardından aynı şifreyi kullanarak hemen kaldırın.
 
 ## Adım 5: Belgeyi Kaydedin
 
@@ -113,19 +115,24 @@ Evet, bir belge listesi arasında geçiş yapabilir ve her birine aynı koruma k
 
 ### Aspose.Words for .NET ücretsiz mi?
 
- Aspose.Words for .NET ücretli bir kütüphanedir, ancak ücretsiz deneyebilirsiniz. Şuraya göz atın:[ücretsiz deneme](https://releases.aspose.com/)!
+Aspose.Words for .NET ücretli bir kütüphanedir, ancak ücretsiz deneyebilirsiniz. Şuraya göz atın: [ücretsiz deneme](https://releases.aspose.com/)!
 
 ### Word belgesine başka hangi koruma türlerini uygulayabilirim?
 
-Aspose.Words, Salt Okunur, Yalnızca Düzeltmelere İzin Ver, Yalnızca Yorumlara İzin Ver ve Yalnızca Form Alanlarına İzin Ver gibi farklı koruma türlerini uygulamanıza olanak tanır.
+Aspose.Words, ReadOnly, AllowOnlyRevisions, AllowOnlyComments ve AllowOnlyFormFields gibi farklı koruma türlerini uygulamanıza olanak tanır.
 
 ### Aspose.Words for .NET hakkında daha fazla dokümanı nerede bulabilirim?
 
- Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+Ayrıntılı belgeleri şu adreste bulabilirsiniz: [Aspose.Words for .NET dokümantasyon sayfası](https://reference.aspose.com/words/net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

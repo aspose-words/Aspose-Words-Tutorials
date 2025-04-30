@@ -1,14 +1,16 @@
 ---
-title: Использование Markdown в Aspose.Words для Java
-linktitle: Использование Markdown
-second_title: API обработки документов Java Aspose.Words
-description: Изучите использование Markdown в Aspose.Words для Java с помощью этого пошагового руководства. Создавайте, оформляйте и сохраняйте документы Markdown без усилий.
-weight: 19
-url: /ru/java/using-document-elements/using-markdown/
+"description": "Изучите использование Markdown в Aspose.Words для Java с помощью этого пошагового руководства. Создавайте, оформляйте и сохраняйте документы Markdown без усилий."
+"linktitle": "Использование Markdown"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Использование Markdown в Aspose.Words для Java"
+"url": "/ru/java/using-document-elements/using-markdown/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование Markdown в Aspose.Words для Java
@@ -124,7 +126,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Укажите стиль «Заголовок 1» для абзаца.
 builder.getParagraphFormat().setStyleName("Heading 1");
 builder.writeln("Heading 1");
-//Сбросьте стили из предыдущего абзаца, чтобы не объединять стили между абзацами.
+// Сбросьте стили из предыдущего абзаца, чтобы не объединять стили между абзацами.
 builder.getParagraphFormat().setStyleName("Normal");
 // Вставьте горизонтальную линейку.
 builder.insertHorizontalRule();
@@ -143,7 +145,7 @@ builder.getFont().setBold(false);
 builder.getFont().setStrikeThrough(true);
 builder.writeln("StrikeThrough Text");
 builder.getFont().setStrikeThrough(false);
-// Прекратить нумерацию абзацев.
+// Прекратите нумерацию абзацев.
 builder.getListFormat().removeNumbers();
 // Укажите стиль «Цитата» для абзаца.
 builder.getParagraphFormat().setStyleName("Quote");
@@ -153,7 +155,7 @@ Style nestedQuote = doc.getStyles().add(StyleType.PARAGRAPH, "Quote1");
 nestedQuote.setBaseStyleName("Quote");
 builder.getParagraphFormat().setStyleName("Quote1");
 builder.writeln("A nested Quote block");
-// Чтобы убрать блоки цитат, сбросьте стиль абзаца на «Обычный».
+// Чтобы убрать блоки цитат, сбросьте стиль абзаца на «Обычный». 
 builder.getParagraphFormat().setStyleName("Normal");
 // Укажите гиперссылку на нужный текст.
 builder.getFont().setBold(true);
@@ -184,19 +186,24 @@ doc.save(outPath + "WorkingWithMarkdown.CreateMarkdownDocument.md");
    Да, вы можете использовать Aspose.Words для Java для преобразования документов Markdown в документы Word и наоборот.
 
 ### Можно ли использовать Aspose.Words для Java бесплатно? 
-    Aspose.Words for Java — коммерческий продукт, для использования которого требуется лицензия. Вы можете получить лицензию на сайте[здесь](https://purchase.aspose.com/buy).
+   Aspose.Words for Java — коммерческий продукт, для использования которого требуется лицензия. Вы можете получить лицензию на сайте [здесь](https://purchase.aspose.com/buy).
 
 ### Существуют ли какие-либо учебные пособия или документация по Aspose.Words для Java? 
-    Да, вы можете найти подробные руководства и документацию по[Документация API Aspose.Words для Java](https://reference.aspose.com/words/java/).
+   Да, вы можете найти подробные руководства и документацию по [Документация API Aspose.Words для Java](https://reference.aspose.com/words/java/).
 
 ### Где я могу получить поддержку по Aspose.Words для Java? 
-    Для поддержки и помощи вы можете посетить[Форум Aspose.Words для Java](https://forum.aspose.com/).
+   Для поддержки и помощи вы можете посетить [Форум Aspose.Words для Java](https://forum.aspose.com/).
 
 Теперь, когда вы освоили основы, начните изучать бесконечные возможности использования Aspose.Words для Java в ваших проектах по обработке документов.
    
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

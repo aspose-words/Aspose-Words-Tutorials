@@ -1,14 +1,16 @@
 ---
-title: Управление верхними и нижними колонтитулами в документах Word
-linktitle: Управление верхними и нижними колонтитулами в документах Word
-second_title: API управления документами Python Aspose.Words
-description: Научитесь управлять верхними и нижними колонтитулами в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом для настройки, добавления, удаления и многого другого. Улучшите форматирование вашего документа прямо сейчас!
-weight: 16
-url: /ru/python-net/document-structure-and-content-manipulation/document-headers-footers/
+"description": "Научитесь управлять верхними и нижними колонтитулами в документах Word с помощью Aspose.Words для Python. Пошаговое руководство с исходным кодом для настройки, добавления, удаления и многого другого. Улучшите форматирование вашего документа прямо сейчас!"
+"linktitle": "Управление верхними и нижними колонтитулами в документах Word"
+"second_title": "API управления документами Python Aspose.Words"
+"title": "Управление верхними и нижними колонтитулами в документах Word"
+"url": "/ru/python-net/document-structure-and-content-manipulation/document-headers-footers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление верхними и нижними колонтитулами в документах Word
@@ -42,7 +44,7 @@ import aspose.words as aw
 doc = aw.Document()
 ```
 
-2.  Добавление верхнего и нижнего колонтитула: используйте`sections` свойство документа для доступа к разделам. Затем используйте`headers_footers` свойство для добавления верхних и нижних колонтитулов.
+2. Добавление верхнего и нижнего колонтитула: используйте `sections` свойство документа для доступа к разделам. Затем используйте `headers_footers` свойство для добавления верхних и нижних колонтитулов.
 
 ```python
 section = doc.sections[0]
@@ -100,7 +102,7 @@ footer_even = section.headers_footers[aspose.words.HeaderFooterType.FOOTER_ODD]
 
 Чтобы удалить верхние и нижние колонтитулы из документа Word:
 
-1. Удаление верхних и нижних колонтитулов: очистите содержимое верхних и нижних колонтитулов.
+1. Удаление верхних и нижних колонтитулов: Очистите содержимое верхних и нижних колонтитулов.
 
 ```python
 header.clear_content()
@@ -118,11 +120,11 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Как получить доступ к содержимому верхнего и нижнего колонтитула?
 
- Чтобы получить доступ к содержимому верхнего и нижнего колонтитула, используйте`headers_footers` свойство раздела документа.
+Чтобы получить доступ к содержимому верхнего и нижнего колонтитула, используйте `headers_footers` свойство раздела документа.
 
 ### Могу ли я добавлять изображения в верхние и нижние колонтитулы?
 
- Да, вы можете добавлять изображения в верхние и нижние колонтитулы с помощью`add_picture` метод.
+Да, вы можете добавлять изображения в верхние и нижние колонтитулы с помощью `add_picture` метод.
 
 ### Можно ли сделать разные заголовки для четных и нечетных страниц?
 
@@ -134,11 +136,16 @@ section.page_setup.odd_and_even_pages_header_footer = False
 
 ### Где я могу узнать больше об Aspose.Words для Python?
 
- Для получения более подробной документации и примеров посетите[Справочник API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+Для получения более подробной документации и примеров посетите [Справочник API Aspose.Words для Python](https://reference.aspose.com/words/python-net/).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

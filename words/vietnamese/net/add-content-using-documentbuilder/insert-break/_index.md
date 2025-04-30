@@ -1,14 +1,16 @@
 ---
-title: Chèn ngắt dòng trong tài liệu Word
-linktitle: Chèn ngắt dòng trong tài liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách chèn ngắt dòng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết này. Hoàn hảo cho các nhà phát triển muốn thành thạo thao tác tài liệu.
-weight: 10
-url: /vi/net/add-content-using-documentbuilder/insert-break/
+"description": "Tìm hiểu cách chèn ngắt dòng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết này. Hoàn hảo cho các nhà phát triển muốn thành thạo thao tác tài liệu."
+"linktitle": "Chèn ngắt dòng trong tài liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Chèn ngắt dòng trong tài liệu Word"
+"url": "/vi/net/add-content-using-documentbuilder/insert-break/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn ngắt dòng trong tài liệu Word
@@ -21,7 +23,7 @@ Xin chào! Bạn đã sẵn sàng để khám phá thế giới của Aspose.Wor
 
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng chúng ta có mọi thứ cần thiết:
 
-1.  Aspose.Words cho Thư viện .NET: Bạn có thể[tải xuống ở đây](https://releases.aspose.com/words/net/) . Nếu bạn mới sử dụng Aspose, bạn có thể muốn bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/).
+1. Aspose.Words cho Thư viện .NET: Bạn có thể [tải xuống ở đây](https://releases.aspose.com/words/net/). Nếu bạn mới sử dụng Aspose, bạn có thể muốn bắt đầu với [dùng thử miễn phí](https://releases.aspose.com/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ IDE nào khác tương thích với .NET.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
 4. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen thuộc với lập trình C#.
@@ -46,11 +48,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` bằng đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu của mình.
 
 ## Bước 2: Tạo một tài liệu mới
 
- Tiếp theo, chúng ta cần tạo một phiên bản mới của`Document` lớp. Hãy coi đây như một trang giấy trắng để bạn có thể bắt đầu thêm nội dung của mình.
+Tiếp theo, chúng ta cần tạo một phiên bản mới của `Document` lớp. Hãy coi đây như một trang giấy trắng để bạn có thể bắt đầu thêm nội dung của mình.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +60,7 @@ Document doc = new Document();
 
 ## Bước 3: Khởi tạo DocumentBuilder
 
- Các`DocumentBuilder` giống như cây cọ vẽ của bạn. Nó giúp bạn thêm nội dung vào tài liệu của mình. Hãy khởi tạo nó.
+Các `DocumentBuilder` giống như cây cọ vẽ của bạn. Nó giúp bạn thêm nội dung vào tài liệu của mình. Hãy khởi tạo nó.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,7 +76,7 @@ builder.Writeln("This is page 1.");
 
 ## Bước 5: Chèn Ngắt Trang
 
- Bây giờ đến phần thú vị. Chúng ta cần chèn ngắt trang để chuyển sang trang tiếp theo. Đơn giản như gọi`InsertBreak` phương pháp.
+Bây giờ đến phần thú vị. Chúng ta cần chèn ngắt trang để chuyển sang trang tiếp theo. Đơn giản như gọi `InsertBreak` phương pháp.
 
 ```csharp
 builder.InsertBreak(BreakType.PageBreak);
@@ -124,19 +126,24 @@ Thật thú vị phải không? Với Aspose.Words for .NET, việc thao tác c�
 Aspose.Words for .NET là một thư viện mạnh mẽ để làm việc với các tài liệu Word theo chương trình. Nó hỗ trợ nhiều tính năng, từ tạo và chỉnh sửa tài liệu đến chuyển đổi giữa các định dạng khác nhau.
 
 ### Tôi có thể sử dụng Aspose.Words miễn phí không?
-Vâng, bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó. Để sử dụng lâu dài, bạn có thể[mua giấy phép](https://purchase.aspose.com/buy).
+Vâng, bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó. Để sử dụng lâu dài, bạn có thể [mua giấy phép](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Words?
- Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8). Đây là nơi tuyệt vời để đặt câu hỏi và chia sẻ kinh nghiệm của bạn.
+Bạn có thể nhận được sự hỗ trợ từ [Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/words/8). Đây là nơi tuyệt vời để đặt câu hỏi và chia sẻ kinh nghiệm của bạn.
 
 ### Aspose.Words có tương thích với .NET Core không?
 Có, Aspose.Words tương thích với .NET Core cũng như .NET Framework.
 
 ### Tôi có thể tự động hóa các tác vụ tài liệu phức tạp bằng Aspose.Words không?
 Chắc chắn rồi! Aspose.Words được thiết kế để xử lý các tác vụ tự động hóa tài liệu phức tạp, khiến nó trở thành một công cụ mạnh mẽ cho các nhà phát triển.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

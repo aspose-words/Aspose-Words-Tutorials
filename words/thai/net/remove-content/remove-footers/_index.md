@@ -1,14 +1,16 @@
 ---
-title: การลบส่วนท้ายของเอกสาร Word
-linktitle: การลบส่วนท้ายของเอกสาร Word
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีลบส่วนท้ายออกจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 10
-url: /th/net/remove-content/remove-footers/
+"description": "เรียนรู้วิธีลบส่วนท้ายออกจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "การลบส่วนท้ายของเอกสาร Word"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "การลบส่วนท้ายของเอกสาร Word"
+"url": "/th/net/remove-content/remove-footers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การลบส่วนท้ายของเอกสาร Word
@@ -19,9 +21,9 @@ url: /th/net/remove-content/remove-footers/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
+ก่อนที่เราจะเจาะลึกรายละเอียดที่สำคัญ เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว:
 
-- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก[ที่นี่](https://releases.aspose.com/words/net/).
+- Aspose.Words สำหรับ .NET: หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก [ที่นี่](https://releases-aspose.com/words/net/).
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework แล้ว
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE): ควรเป็น Visual Studio เพื่อประสบการณ์การบูรณาการและการเขียนโค้ดที่ราบรื่น
 
@@ -46,7 +48,7 @@ Document doc = new Document(dataDir + "Header and footer types.docx");
 ```
 
 - dataDir: ตัวแปรนี้จะเก็บเส้นทางไปยังไดเร็กทอรีเอกสารของคุณ
--  เอกสาร doc: บรรทัดนี้จะโหลดเอกสารลงใน`doc` วัตถุ.
+- เอกสาร doc: บรรทัดนี้โหลดเอกสารลงใน `doc` วัตถุ.
 
 ## ขั้นตอนที่ 2: ทำซ้ำตามส่วนต่างๆ
 
@@ -98,10 +100,10 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถลบส่วนหัวโดยใช้วิธีเดียวกันได้หรือไม่
- ใช่ คุณสามารถใช้วิธีการที่คล้ายกันในการลบส่วนหัวโดยเข้าถึง`HeaderFooterType.HeaderFirst`, `HeaderFooterType.HeaderPrimary` , และ`HeaderFooterType.HeaderEven`.
+ใช่ คุณสามารถใช้วิธีการที่คล้ายกันในการลบส่วนหัวโดยเข้าถึง `HeaderFooterType.HeaderFirst`- `HeaderFooterType.HeaderPrimary`, และ `HeaderFooterType-HeaderEven`.
 
 ### Aspose.Words สำหรับ .NET ใช้ได้ฟรีหรือไม่?
- Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
+Aspose.Words สำหรับ .NET เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
 
 ### ฉันสามารถจัดการองค์ประกอบอื่นๆ ของเอกสาร Word โดยใช้ Aspose.Words ได้หรือไม่
 แน่นอน! Aspose.Words มีฟังก์ชันมากมายในการจัดการข้อความ รูปภาพ ตาราง และอื่นๆ ภายในเอกสาร Word
@@ -110,10 +112,15 @@ doc.Save(dataDir + "RemoveContent.RemoveFooters.docx");
 Aspose.Words รองรับ .NET framework หลายเวอร์ชัน รวมถึง .NET Core
 
 ### ฉันสามารถหาเอกสารและการสนับสนุนโดยละเอียดเพิ่มเติมได้ที่ไหน
- คุณสามารถเข้าถึงรายละเอียดได้[เอกสารประกอบ](https://reference.aspose.com/words/net/) และรับการสนับสนุนบน[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถเข้าถึงรายละเอียดได้ [เอกสารประกอบ](https://reference.aspose.com/words/net/) และรับการสนับสนุนบน [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

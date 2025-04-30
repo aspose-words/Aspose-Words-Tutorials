@@ -1,14 +1,16 @@
 ---
-title: Informacje o eksporcie w obie strony
-linktitle: Informacje o eksporcie w obie strony
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak eksportować informacje o obiegu zamkniętym za pomocą Aspose.Words dla .NET. Zachowaj integralność i formatowanie dokumentu podczas konwersji.
-weight: 10
-url: /pl/net/programming-with-htmlsaveoptions/export-roundtrip-information/
+"description": "Dowiedz się, jak eksportować informacje o obiegu zamkniętym za pomocą Aspose.Words dla .NET. Zachowaj integralność i formatowanie dokumentu podczas konwersji."
+"linktitle": "Informacje o eksporcie w obie strony"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Informacje o eksporcie w obie strony"
+"url": "/pl/net/programming-with-htmlsaveoptions/export-roundtrip-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Informacje o eksporcie w obie strony
@@ -21,10 +23,10 @@ Witamy w cudownym świecie Aspose.Words dla .NET! Dzisiaj zagłębimy się w prz
 
 Zanim przejdziemy do konkretów, upewnijmy się, że mamy wszystko, czego potrzebujemy:
 
-1.  Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję.[Pobierz tutaj](https://releases.aspose.com/words/net/).
-2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z językiem C#.
+1. Aspose.Words dla .NET: Upewnij się, że masz najnowszą wersję. [Pobierz tutaj](https://releases.aspose.com/words/net/).
+2. Środowisko programistyczne: Visual Studio lub inne środowisko IDE zgodne z C#.
 3. Podstawowa znajomość języka C#: Przydatna jest pewna znajomość języka C# i platformy .NET.
-4. Licencja: Możesz użyć tymczasowej licencji, jeśli nie masz pełnej. Pobierz ją[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja: Możesz użyć licencji tymczasowej, jeśli nie masz pełnej. Pobierz ją [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj przestrzenie nazw
 
@@ -79,19 +81,24 @@ I masz to! Za pomocą zaledwie kilku linijek kodu udało Ci się wyeksportować 
 Informacje w obie strony odnoszą się do danych, które zapewniają integralność i formatowanie dokumentu podczas konwersji z jednego formatu na drugi i z powrotem.
 
 ### Czy mogę używać Aspose.Words dla .NET bez licencji?
-Tak, możesz go używać z licencją tymczasową, którą możesz uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz go używać z licencją tymczasową, którą możesz uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć najnowszą wersję Aspose.Words dla platformy .NET?
- Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/words/net/).
+Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/words/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Words dla platformy .NET?
- Możesz uzyskać wsparcie od społeczności Aspose[Tutaj](https://forum.aspose.com/c/words/8).
+Możesz uzyskać wsparcie od społeczności Aspose [Tutaj](https://forum.aspose.com/c/words/8).
 
 ### Czy można zachować formatowanie podczas konwersji dokumentów Word na HTML?
 Tak, korzystając z właściwości ExportRoundtripInformation w HtmlSaveOptions, można zachować całe formatowanie podczas konwersji.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

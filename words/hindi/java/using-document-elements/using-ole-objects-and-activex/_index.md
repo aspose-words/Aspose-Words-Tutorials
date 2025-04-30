@@ -1,14 +1,16 @@
 ---
-title: जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना
-linktitle: OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!
-weight: 21
-url: /hi/java/using-document-elements/using-ole-objects-and-activex/
+"description": "Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!"
+"linktitle": "OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना"
+"url": "/hi/java/using-document-elements/using-ole-objects-and-activex/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना
@@ -19,7 +21,7 @@ url: /hi/java/using-document-elements/using-ole-objects-and-activex/
 
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-1.  Aspose.Words for Java : सुनिश्चित करें कि आपके Java प्रोजेक्ट में Aspose.Words लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+1. Aspose.Words for Java : सुनिश्चित करें कि आपके Java प्रोजेक्ट में Aspose.Words लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 2. जावा विकास वातावरण: आपके सिस्टम पर एक कार्यशील जावा विकास वातावरण स्थापित होना चाहिए।
 
@@ -123,7 +125,7 @@ public void readActiveXControlProperties() throws Exception
 ### पूछे जाने वाले प्रश्न
 
 ### वर्ड दस्तावेज़ में OLE ऑब्जेक्ट्स का उद्देश्य क्या है? 
-   - OLE ऑब्जेक्ट्स आपको किसी Word दस्तावेज़ में बाह्य सामग्री, जैसे फ़ाइलें या वेब पेज, एम्बेड या लिंक करने की अनुमति देते हैं।
+   - OLE ऑब्जेक्ट्स आपको किसी Word दस्तावेज़ में बाह्य सामग्री, जैसे फ़ाइलें या वेब पेज, को एम्बेड या लिंक करने की अनुमति देते हैं।
 
 ### क्या मैं अपने दस्तावेज़ में OLE ऑब्जेक्ट्स के स्वरूप को अनुकूलित कर सकता हूँ? 
    - हां, आप आइकन और फ़ाइल नाम सेट करने सहित OLE ऑब्जेक्ट्स की उपस्थिति को अनुकूलित कर सकते हैं।
@@ -135,13 +137,18 @@ public void readActiveXControlProperties() throws Exception
    - हां, Java के लिए Aspose.Words, Java अनुप्रयोगों में दस्तावेज़ निर्माण और हेरफेर को स्वचालित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### मैं Java के लिए Aspose.Words तक पहुंच कहां से प्राप्त कर सकता हूं? 
-   -  आप Java के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/words/java/).
+   - आप Java के लिए Aspose.Words को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
 
 आज ही Aspose.Words for Java के साथ शुरुआत करें और दस्तावेज़ स्वचालन और अनुकूलन की पूरी क्षमता को अनलॉक करें!
 
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

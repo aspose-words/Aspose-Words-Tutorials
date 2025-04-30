@@ -7,8 +7,11 @@ weight: 13
 url: /python-net/document-structure-and-content-manipulation/document-fonts/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Understanding Fonts and Text Styling in Word Documents
@@ -174,9 +177,13 @@ Yes, Aspose.Words supports embedding fonts from external sources to ensure consi
 For Aspose.Words for Python documentation, visit [here](https://reference.aspose.com/words/python-net/). To download the library, visit [here](https://releases.aspose.com/words/python/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

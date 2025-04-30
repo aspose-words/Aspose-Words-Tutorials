@@ -1,14 +1,16 @@
 ---
-title: Добавить префикс имени класса CSS
-linktitle: Добавить префикс имени класса CSS
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как добавить префикс имени класса CSS при сохранении документов Word как HTML с помощью Aspose.Words для .NET. Пошаговое руководство, фрагменты кода и часто задаваемые вопросы включены.
-weight: 10
-url: /ru/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
+"description": "Узнайте, как добавить префикс имени класса CSS при сохранении документов Word как HTML с помощью Aspose.Words для .NET. Пошаговое руководство, фрагменты кода и часто задаваемые вопросы включены."
+"linktitle": "Добавить префикс имени класса CSS"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Добавить префикс имени класса CSS"
+"url": "/ru/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить префикс имени класса CSS
@@ -21,9 +23,9 @@ url: /ru/net/programming-with-htmlsaveoptions/add-css-class-name-prefix/
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
--  Aspose.Words для .NET: Если вы еще не установили его,[скачать здесь](https://releases.aspose.com/words/net/).
+- Aspose.Words для .NET: Если вы еще не установили его, [скачать здесь](https://releases.aspose.com/words/net/).
 - Среда разработки: Visual Studio или любая другая C# IDE.
--  Документ Word: мы будем использовать документ с именем`Rendering.docx`. Поместите его в каталог вашего проекта.
+- Документ Word: мы будем использовать документ с именем `Rendering.docx`. Поместите его в каталог вашего проекта.
 
 ## Импорт пространств имен
 
@@ -43,7 +45,7 @@ using Aspose.Words.Saving;
 
 ### Шаг 1.1: Создание нового проекта
 
- Запустите Visual Studio и создайте новый проект Console App. Назовите его как-нибудь броским, например`AsposeCssPrefixExample`.
+Запустите Visual Studio и создайте новый проект Console App. Назовите его как-нибудь броским, например `AsposeCssPrefixExample`.
 
 ### Шаг 1.2: Добавьте Aspose.Words для .NET
 
@@ -61,7 +63,7 @@ Install-Package Aspose.Words
 
 ### Шаг 2.1: Определите путь к документу
 
- Настройте путь к каталогу вашего документа. Для этого руководства предположим, что ваш документ находится в папке с именем`Documents` в каталоге вашего проекта.
+Настройте путь к каталогу вашего документа. Для этого руководства предположим, что ваш документ находится в папке с именем `Documents` в каталоге вашего проекта.
 
 ```csharp
 string dataDir = @"C:\YourProject\Documents\";
@@ -81,7 +83,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ### Шаг 3.1: Создание параметров сохранения HTML
 
- Создайте экземпляр`HtmlSaveOptions` объект и задайте тип таблицы стилей CSS`External`.
+Создайте экземпляр `HtmlSaveOptions` объект и задайте тип таблицы стилей CSS `External`.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions
@@ -92,7 +94,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions
 
 ### Шаг 3.2: Установка префикса имени класса CSS
 
- Теперь давайте установим`CssClassNamePrefix` свойство к желаемому префиксу. Для этого примера мы будем использовать`"pfx_"`.
+Теперь давайте установим `CssClassNamePrefix` свойство к желаемому префиксу. Для этого примера мы будем использовать `"pfx_"`.
 
 ```csharp
 saveOptions.CssClassNamePrefix = "pfx_";
@@ -111,7 +113,7 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 
 ## Шаг 5: Проверьте вывод
 
- После запуска проекта перейдите в свой`Documents` Папку. Вы должны найти HTML-файл с именем`WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html` . Откройте этот файл в текстовом редакторе или браузере, чтобы убедиться, что классы CSS имеют префикс`pfx_`.
+После запуска проекта перейдите в свой `Documents` Папку. Вы должны найти HTML-файл с именем `WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html`. Откройте этот файл в текстовом редакторе или браузере, чтобы убедиться, что классы CSS имеют префикс `pfx_`.
 
 ## Заключение
 
@@ -120,22 +122,27 @@ doc.Save(dataDir + "WorkingWithHtmlSaveOptions.AddCssClassNamePrefix.html", save
 ## Часто задаваемые вопросы
 
 ### Можно ли использовать разные префиксы для каждой операции сохранения?
- Да, вы можете настраивать префикс каждый раз при сохранении документа, изменяя`CssClassNamePrefix` свойство.
+Да, вы можете настраивать префикс каждый раз при сохранении документа, изменяя `CssClassNamePrefix` свойство.
 
 ### Поддерживает ли этот метод встроенный CSS?
- The`CssClassNamePrefix`свойство работает с внешним CSS. Для встроенного CSS вам понадобится другой подход.
+The `CssClassNamePrefix` свойство работает с внешним CSS. Для встроенного CSS вам понадобится другой подход.
 
 ### Как включить другие параметры сохранения HTML?
- Вы можете настроить различные свойства`HtmlSaveOptions` для настройки вашего HTML-вывода. Проверьте[документация](https://reference.aspose.com/words/net/) для более подробной информации.
+Вы можете настроить различные свойства `HtmlSaveOptions` для настройки вашего HTML-вывода. Проверьте [документация](https://reference.aspose.com/words/net/) для более подробной информации.
 
 ### Можно ли сохранить HTML в поток?
- Конечно! Вы можете сохранить документ в потоке, передав объект потока в`Save` метод.
+Конечно! Вы можете сохранить документ в потоке, передав объект потока в `Save` метод.
 
 ### Как мне получить поддержку, если у меня возникнут проблемы?
- Вы можете получить поддержку от[Форум Aspose](https://forum.aspose.com/c/words/8).
+Вы можете получить поддержку от [Форум Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

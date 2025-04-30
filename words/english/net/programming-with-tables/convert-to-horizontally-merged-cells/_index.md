@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-tables/convert-to-horizontally-merged-cells/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert To Horizontally Merged Cells
@@ -88,9 +91,13 @@ Yes, Aspose.Words for .NET allows you to apply a license from both a file and a 
 ### What other features does Aspose.Words for .NET offer?  
 Aspose.Words for .NET offers a wide range of features including document generation, manipulation, conversion, and rendering. Check out the [documentation](https://reference.aspose.com/words/net/) for more details.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

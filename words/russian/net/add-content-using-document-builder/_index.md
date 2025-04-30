@@ -1,31 +1,43 @@
 ---
-title: Добавление контента с помощью конструктора документов в Aspose.Words для .NET 
-weight: 10
-limit:
-description: Узнайте, как добавлять контент с помощью DocumentBuilder в Aspose.Words для .NET. Добавьте текст, изображения, таблицы и формы к документам Word без проблем с шаг за шагом руководством.
-keywords:
-url: /ru/net/add-content-using-document-builder/
+"description": "Узнайте, как добавлять контент с помощью DocumentBuilder в Aspose.Words для .NET. Добавляйте текст, изображения, таблицы и фигуры в документы Word без проблем с помощью пошаговых инструкций."
+"title": "Добавление контента с помощью Document Builder в Aspose.Words для .NET"
+"url": "/ru/net/add-content-using-document-builder/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Введение
  
-Aspose.Words для .NET позволяет разработчикам легко создавать и манипулировать документами Word программируя. Используя мощный класс DocumentBuilder, вы можете добавить различные типы контента, включая текст, изображения, таблицы и формы, с точностью и гибкостью.  
+Aspose.Words для .NET позволяет разработчикам без усилий создавать и обрабатывать документы Word программным способом. Используя мощный класс DocumentBuilder, вы можете добавлять различные типы контента, включая текст, изображения, таблицы и фигуры, с точностью и гибкостью. Независимо от того, создаете ли вы отчеты, генерируете счета или создаете шаблоны, DocumentBuilder предоставляет интуитивно понятный способ динамического форматирования и структурирования ваших документов.  
 
-В этом руководстве вы узнаете многогранность класса DocumentBuilder, покрывая его ключевые функции шаг за шагом. Узнайте, как добавлять богатый контент в свои документы, применять пользовательские стили и даже управлять сложными макетами. С практическими примерами и четкими объяснениями вы сможете освоить, как использовать DocumentBuilder для оптимизации задач по созданию документов в кратчайшие сроки.
+Это руководство углубляется в универсальность класса DocumentBuilder, шаг за шагом охватывая его ключевые функции. Узнайте, как добавлять насыщенный контент в ваши документы, применять пользовательские стили и даже управлять сложными макетами. С практическими примерами и понятными объяснениями вы освоите, как использовать DocumentBuilder для оптимизации задач по созданию документов в кратчайшие сроки.
 
-{{< tutorial-card link="./build-table/" title="Создать документ с таблицей с помощью Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/build-table/images/thumb.png" >}}
-{{< tutorial-card link="./insert-break/" title="Создать многостраничный документ с помощью Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
-{{< tutorial-card link="./insert-floating-image/" title="Создать документ Word с плавающим изображением в .NET" imgSrc="/words/net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-horizontal-rule/" title="Создать документ Word с горизонтальным правилом в .NET" imgSrc="/words/net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
-{{< tutorial-card link="./insert-inline-image/" title="Вставьте вкладку изображения в документе Word с помощью Aspose.Words" imgSrc="/words/net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
-{{< tutorial-card link="./insert-paragraph/" title="Создать документ Word с помощью Aspose.Words для .NET" imgSrc="/words/net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
-{{< tutorial-card link="./insert-table-contents/" title="Создать документ Word с таблицей контента в .NET" imgSrc="/words/net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+
+{{< tutorial-card link="./build-table/" title="Создайте документ Word с таблицей с помощью Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-break/" title="Создайте многостраничный документ Word с помощью Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-floating-image/" title="Создать документ Word с плавающим изображением в .NET" imgSrc="./insert-floating-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-horizontal-rule/" title="Создать документ Word с горизонтальной линейкой в .NET" imgSrc="./insert-horizontal-rule/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-inline-image/" title="Вставка встроенного изображения в документ Word с помощью Aspose.Words" imgSrc="./insert-inline-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-paragraph/" title="Создание документа Word с помощью Aspose.Words для .NET" imgSrc="./insert-paragraph/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-table-contents/" title="Создание документа Word с оглавлением в .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

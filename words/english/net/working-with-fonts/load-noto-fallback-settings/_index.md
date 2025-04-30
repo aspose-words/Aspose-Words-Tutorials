@@ -7,8 +7,11 @@ weight: 10
 url: /net/working-with-fonts/load-noto-fallback-settings/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Noto Fallback Settings
@@ -110,9 +113,13 @@ You can install Aspose.Words for .NET via the NuGet Package Manager in Visual St
 ### Is there a free trial for Aspose.Words for .NET?
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

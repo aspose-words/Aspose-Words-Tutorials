@@ -1,14 +1,16 @@
 ---
-title: Dodaj Usuń Komentarz Odpowiedz
-linktitle: Dodaj Usuń Komentarz Odpowiedz
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Dowiedz się, jak dodawać i usuwać odpowiedzi na komentarze w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET. Ulepsz współpracę nad dokumentami dzięki temu przewodnikowi krok po kroku.
-weight: 10
-url: /pl/net/working-with-comments/add-remove-comment-reply/
+"description": "Dowiedz się, jak dodawać i usuwać odpowiedzi na komentarze w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET. Ulepsz współpracę nad dokumentami dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Dodaj Usuń Komentarz Odpowiedz"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Dodaj Usuń Komentarz Odpowiedz"
+"url": "/pl/net/working-with-comments/add-remove-comment-reply/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj Usuń Komentarz Odpowiedz
@@ -21,7 +23,7 @@ Praca z komentarzami i ich odpowiedziami w dokumentach Word może znacznie uspra
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 
--  Aspose.Words dla .NET: Pobierz i zainstaluj z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE obsługujące platformę .NET.
 - Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest niezbędna.
 
@@ -36,7 +38,7 @@ using Aspose.Words;
 
 ## Krok 1: Załaduj swój dokument Word
 
-Najpierw musisz załadować dokument Word zawierający komentarze, którymi chcesz zarządzać. W tym przykładzie zakładamy, że masz dokument o nazwie „Comments.docx” w swoim katalogu.
+Najpierw musisz załadować dokument Worda zawierający komentarze, którymi chcesz zarządzać. W tym przykładzie zakładamy, że masz dokument o nazwie „Comments.docx” w swoim katalogu.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -83,26 +85,31 @@ Zarządzanie odpowiedziami na komentarze w dokumentach Word programowo może zao
 
 ### Jak dodać wiele odpowiedzi do jednego komentarza?
 
- Możesz dodać wiele odpowiedzi do jednego komentarza, dzwoniąc pod numer`AddReply` wielokrotnie na tym samym obiekcie komentarza.
+Możesz dodać wiele odpowiedzi do jednego komentarza, dzwoniąc pod numer `AddReply` wielokrotnie na tym samym obiekcie komentarza.
 
 ### Czy mogę dostosować dane autora do każdej odpowiedzi?
 
- Tak, możesz określić imię i nazwisko autora, inicjały oraz datę i godzinę każdej odpowiedzi, korzystając z`AddReply` metoda.
+Tak, możesz określić imię i nazwisko autora, inicjały oraz datę i godzinę każdej odpowiedzi, korzystając z `AddReply` metoda.
 
 ### Czy można usunąć wszystkie odpowiedzi z komentarza jednocześnie?
 
-Aby usunąć wszystkie odpowiedzi, należy przejść przez pętlę`Replies` Zbierz komentarze i usuń każdy z nich osobno.
+Aby usunąć wszystkie odpowiedzi, należy przejść przez pętlę `Replies` Zbierz komentarze i usuń każdy z nich osobno.
 
 ### Czy mogę uzyskać dostęp do komentarzy w konkretnej sekcji dokumentu?
 
- Tak, możesz poruszać się po sekcjach dokumentu i uzyskiwać dostęp do komentarzy w każdej sekcji, korzystając z`GetChild` metoda.
+Tak, możesz poruszać się po sekcjach dokumentu i uzyskiwać dostęp do komentarzy w każdej sekcji, korzystając z `GetChild` metoda.
 
 ### Czy Aspose.Words dla platformy .NET obsługuje inne funkcje związane z komentarzami?
 
 Tak, Aspose.Words for .NET zapewnia szerokie wsparcie dla różnych funkcji związanych z komentarzami, w tym dodawanie nowych komentarzy, ustawianie właściwości komentarzy i wiele innych.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

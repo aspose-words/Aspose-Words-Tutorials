@@ -1,34 +1,36 @@
 ---
-title: ตรวจจับการนับเลขด้วยช่องว่าง
-linktitle: ตรวจจับการนับเลขด้วยช่องว่าง
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: ค้นพบวิธีการใช้ Aspose.Words สำหรับ .NET เพื่อตรวจจับการนับหมายเลขที่มีช่องว่างในเอกสารข้อความธรรมดา และตรวจสอบให้แน่ใจว่ารายการของคุณได้รับการจดจำอย่างถูกต้อง
-weight: 10
-url: /th/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/
+"description": "ค้นพบวิธีการใช้ Aspose.Words สำหรับ .NET เพื่อตรวจจับการนับหมายเลขที่มีช่องว่างในเอกสารข้อความธรรมดา และตรวจสอบให้แน่ใจว่ารายการของคุณได้รับการจดจำอย่างถูกต้อง"
+"linktitle": "ตรวจจับการนับเลขด้วยช่องว่าง"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "ตรวจจับการนับเลขด้วยช่องว่าง"
+"url": "/th/net/programming-with-txtloadoptions/detect-numbering-with-whitespaces/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตรวจจับการนับเลขด้วยช่องว่าง
 
 ## การแนะนำ
 
-Aspose.Words สำหรับผู้ที่ชื่นชอบ .NET! วันนี้เราจะมาเจาะลึกฟีเจอร์ที่น่าสนใจที่จะช่วยให้การจัดการรายการในเอกสารแบบข้อความธรรมดาเป็นเรื่องง่าย คุณเคยจัดการกับไฟล์ข้อความที่บางบรรทัดควรเป็นรายการ แต่เมื่อโหลดลงในเอกสาร Word กลับดูไม่ถูกต้องหรือไม่ เรามีเคล็ดลับดีๆ ซ่อนอยู่ในมือ: การตรวจจับการนับเลขด้วยช่องว่าง บทช่วยสอนนี้จะแนะนำวิธีใช้`DetectNumberingWithWhitespaces` ตัวเลือกใน Aspose.Words สำหรับ .NET เพื่อให้แน่ใจว่ารายการของคุณได้รับการจดจำอย่างถูกต้อง แม้ว่าจะมีช่องว่างระหว่างตัวเลขและข้อความก็ตาม
+Aspose.Words สำหรับผู้ที่ชื่นชอบ .NET! วันนี้เราจะมาเจาะลึกฟีเจอร์ที่น่าสนใจที่จะช่วยให้การจัดการรายการในเอกสารแบบข้อความธรรมดาเป็นเรื่องง่าย คุณเคยจัดการกับไฟล์ข้อความที่บางบรรทัดควรเป็นรายการ แต่เมื่อโหลดลงในเอกสาร Word กลับดูไม่ถูกต้องหรือไม่ เรามีเคล็ดลับดีๆ ซ่อนอยู่ในมือ: การตรวจจับการนับเลขด้วยช่องว่าง บทช่วยสอนนี้จะแนะนำวิธีใช้ `DetectNumberingWithWhitespaces` ตัวเลือกใน Aspose.Words สำหรับ .NET เพื่อให้แน่ใจว่ารายการของคุณได้รับการจดจำอย่างถูกต้อง แม้ว่าจะมีช่องว่างระหว่างตัวเลขและข้อความก็ตาม
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
--  Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก[การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
+- Aspose.Words สำหรับ .NET: คุณสามารถดาวน์โหลดได้จาก [การเปิดตัว Aspose](https://releases.aspose.com/words/net/) หน้าหนังสือ.
 - สภาพแวดล้อมการพัฒนา: Visual Studio หรือ IDE C# อื่นๆ
 - มีการติดตั้ง .NET Framework ไว้ในเครื่องของคุณแล้ว
 - ความรู้พื้นฐานเกี่ยวกับ C#: การทำความเข้าใจพื้นฐานจะช่วยให้คุณทำตามตัวอย่างได้
 
 ## นำเข้าเนมสเปซ
 
-ก่อนจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณได้นำเนมสเปซที่จำเป็นเข้าไปในโปรเจ็กต์ของคุณแล้ว นี่คือตัวอย่างสั้นๆ เพื่อช่วยคุณเริ่มต้น:
+ก่อนจะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณได้นำเนมสเปซที่จำเป็นเข้ามาในโปรเจ็กต์ของคุณแล้ว นี่คือตัวอย่างสั้นๆ ที่จะช่วยให้คุณเริ่มต้นได้:
 
 ```csharp
 using System;
@@ -49,7 +51,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## ขั้นตอนที่ 2: สร้างเอกสารแบบข้อความธรรมดา
 
-ต่อไปเราจะสร้างเอกสารแบบข้อความธรรมดาเป็นสตริง เอกสารนี้จะประกอบด้วยส่วนต่างๆ ที่สามารถตีความได้ว่าเป็นรายการ
+ต่อไปเราจะสร้างเอกสารแบบข้อความธรรมดาเป็นสตริง เอกสารนี้จะมีบางส่วนที่สามารถตีความได้ว่าเป็นรายการ
 
 ```csharp
 const string textDoc = "Full stop delimiters:\n" +
@@ -72,7 +74,7 @@ const string textDoc = "Full stop delimiters:\n" +
 
 ## ขั้นตอนที่ 3: กำหนดค่า LoadOptions
 
- เพื่อตรวจจับการนับเลขด้วยช่องว่าง เราจำเป็นต้องตั้งค่า`DetectNumberingWithWhitespaces` ตัวเลือกที่จะ`true` ใน`TxtLoadOptions` วัตถุ.
+เพื่อตรวจจับการนับเลขด้วยช่องว่าง เราจำเป็นต้องตั้งค่า `DetectNumberingWithWhitespaces` ตัวเลือกที่จะ `true` ใน `TxtLoadOptions` วัตถุ.
 
 ```csharp
 TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces = true };
@@ -80,7 +82,7 @@ TxtLoadOptions loadOptions = new TxtLoadOptions { DetectNumberingWithWhitespaces
 
 ## ขั้นตอนที่ 4: โหลดเอกสาร
 
- ตอนนี้เรามาโหลดเอกสารโดยใช้`TxtLoadOptions` เป็นพารามิเตอร์ ซึ่งจะทำให้มั่นใจได้ว่ารายการที่สี่ (พร้อมช่องว่าง) จะถูกตรวจพบอย่างถูกต้อง
+ตอนนี้เรามาโหลดเอกสารโดยใช้ `TxtLoadOptions` เป็นพารามิเตอร์ ซึ่งจะทำให้มั่นใจได้ว่ารายการที่สี่ (พร้อมช่องว่าง) จะถูกตรวจพบอย่างถูกต้อง
 
 ```csharp
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);
@@ -100,25 +102,30 @@ doc.Save(dataDir + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.doc
 
 ## คำถามที่พบบ่อย
 
-###  อะไรคือ`DetectNumberingWithWhitespaces` in Aspose.Words for .NET?
-`DetectNumberingWithWhitespaces` เป็นตัวเลือกใน`TxtLoadOptions` ซึ่งช่วยให้ Aspose.Words สามารถจดจำรายการได้แม้จะมีช่องว่างระหว่างการนับหมายเลขและข้อความในรายการก็ตาม
+### อะไรคือ `DetectNumberingWithWhitespaces` ใน Aspose.Words สำหรับ .NET?
+`DetectNumberingWithWhitespaces` เป็นตัวเลือกใน `TxtLoadOptions` ซึ่งช่วยให้ Aspose.Words สามารถจดจำรายการได้แม้จะมีช่องว่างระหว่างการนับหมายเลขและข้อความในรายการก็ตาม
 
 ### ฉันสามารถใช้คุณลักษณะนี้สำหรับตัวแบ่งอื่นๆ เช่น เครื่องหมายหัวข้อย่อยและวงเล็บได้หรือไม่
- ใช่ Aspose.Words ตรวจจับรายการที่มีตัวกำหนดขอบเขตทั่วไป เช่น จุดหัวข้อย่อยและวงเล็บโดยอัตโนมัติ`DetectNumberingWithWhitespaces` ช่วยโดยเฉพาะกับรายการที่มีช่องว่าง
+ใช่ Aspose.Words ตรวจจับรายการที่มีตัวกำหนดขอบเขตทั่วไป เช่น จุดหัวข้อย่อยและวงเล็บโดยอัตโนมัติ `DetectNumberingWithWhitespaces` ช่วยโดยเฉพาะกับรายการที่มีช่องว่าง
 
-###  จะเกิดอะไรขึ้นถ้าฉันไม่ใช้`DetectNumberingWithWhitespaces`?
+### จะเกิดอะไรขึ้นถ้าฉันไม่ใช้ `DetectNumberingWithWhitespaces`-
 หากไม่มีตัวเลือกนี้ รายการที่มีช่องว่างระหว่างการนับและข้อความอาจไม่ได้รับการจดจำเป็นรายการ และรายการต่างๆ อาจปรากฏเป็นย่อหน้าธรรมดา
 
 ### คุณสมบัตินี้มีอยู่ในผลิตภัณฑ์ Aspose อื่น ๆ หรือไม่
 คุณลักษณะเฉพาะนี้ได้รับการออกแบบมาเฉพาะสำหรับ Aspose.Words สำหรับ .NET ออกแบบมาเพื่อจัดการการประมวลผลเอกสาร Word
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[ใบอนุญาตชั่วคราว Aspose](https://purchase.aspose.com/temporary-license/) หน้าหนังสือ.
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [ใบอนุญาตชั่วคราว Aspose](https://purchase.aspose.com/temporary-license/) หน้าหนังสือ.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

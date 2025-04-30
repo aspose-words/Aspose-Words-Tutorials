@@ -1,36 +1,38 @@
 ---
-title: Sorok ismétlése a következő oldalakon
-linktitle: Sorok ismétlése a következő oldalakon
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan hozhat létre ismétlődő táblázatfejlécsorokat tartalmazó Word-dokumentumokat az Aspose.Words for .NET használatával. Kövesse ezt az útmutatót a professzionális és kidolgozott dokumentumok biztosításához.
-weight: 10
-url: /hu/net/programming-with-tables/repeat-rows-on-subsequent-pages/
+"description": "Tanuld meg, hogyan hozhatsz létre ismétlődő táblázatfejlécsorokkal rendelkező Word-dokumentumokat az Aspose.Words for .NET segítségével. Kövesd ezt az útmutatót a professzionális és kifinomult dokumentumok érdekében."
+"linktitle": "Sorok ismétlése a következő oldalakon"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Sorok ismétlése a következő oldalakon"
+"url": "/hu/net/programming-with-tables/repeat-rows-on-subsequent-pages/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sorok ismétlése a következő oldalakon
 
 ## Bevezetés
 
-Word-dokumentumok programozott létrehozása ijesztő feladat lehet, különösen akkor, ha a formázást több oldalon is meg kell őriznie. Próbáltál már táblázatot készíteni a Wordben, de rájöttél, hogy a fejlécsorok nem ismétlődnek a következő oldalakon? Ne félj! Az Aspose.Words for .NET segítségével könnyedén biztosíthatja, hogy a táblázat fejlécei minden oldalon ismétlődjenek, így professzionális és csiszolt megjelenést kölcsönöz dokumentumainak. Ebben az oktatóanyagban egyszerű kódpéldák és részletes magyarázatok segítségével végigvezetjük az ehhez szükséges lépéseken. Merüljünk el!
+Egy Word-dokumentum programozott létrehozása ijesztő feladat lehet, különösen akkor, ha több oldalon is meg kell őrizni a formázást. Próbáltál már táblázatot készíteni a Wordben, és rájöttél, hogy a fejlécsorok nem ismétlődnek a következő oldalakon? Ne félj! Az Aspose.Words for .NET segítségével könnyedén biztosíthatod, hogy a táblázat fejlécei minden oldalon ismétlődjenek, professzionális és letisztult megjelenést kölcsönözve a dokumentumoknak. Ebben az oktatóanyagban egyszerű kódpéldákkal és részletes magyarázatokkal végigvezetünk a lépéseken, hogy ezt elérhesd. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Words for .NET: Letöltheti[itt](https://releases.aspose.com/words/net/).
-2. .NET Framework telepítve van a gépére.
+1. Aspose.Words .NET-hez: Letöltheti [itt](https://releases.aspose.com/words/net/).
+2. .NET-keretrendszer telepítve a gépedre.
 3. Visual Studio vagy bármely más IDE, amely támogatja a .NET fejlesztést.
-4. A C# programozás alapjai.
+4. C# programozás alapjainak ismerete.
 
 A folytatás előtt győződjön meg arról, hogy telepítette az Aspose.Words for .NET programot, és beállította a fejlesztői környezetet.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a projektbe. Adja hozzá a következőket a C# fájl tetején található direktívák használatával:
+Kezdésként importálnod kell a szükséges névtereket a projektedbe. Add hozzá a következőket direktívák használatával a C# fájlod elejéhez:
 
 ```csharp
 using Aspose.Words;
@@ -39,23 +41,23 @@ using Aspose.Words.Tables;
 
 Ezek a névterek tartalmazzák a Word-dokumentumok és -táblázatok kezeléséhez szükséges osztályokat és metódusokat.
 
-## 1. lépés: Inicializálja a dokumentumot
+## 1. lépés: A dokumentum inicializálása
 
- Először hozzunk létre egy új Word dokumentumot, és a`DocumentBuilder` asztalunk elkészítéséhez.
+Először is hozzunk létre egy új Word dokumentumot, és egy `DocumentBuilder` hogy elkészítsük az asztalunkat.
 
 ```csharp
-// A dokumentumkönyvtár elérési útja
+// A dokumentumkönyvtár elérési útja 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Ez a kód inicializál egy új dokumentumot, és a`DocumentBuilder` objektum, amely segít a dokumentumstruktúra felépítésében.
+Ez a kód inicializál egy új dokumentumot és egy `DocumentBuilder` objektum, amely segít a dokumentum szerkezetének felépítésében.
 
-## 2. lépés: Indítsa el a táblázatot, és határozza meg a fejlécsorokat
+## 2. lépés: Indítsa el a táblázatot és definiálja a fejlécsorokat
 
-Ezután elindítjuk a táblázatot, és meghatározzuk azokat a fejlécsorokat, amelyeket meg szeretnénk ismételni a következő oldalakon.
+Ezután elkezdjük a táblázatot, és meghatározzuk a fejlécsorokat, amelyeket a következő oldalakon meg szeretnénk ismételni.
 
 ```csharp
 builder.StartTable();
@@ -72,11 +74,11 @@ builder.Writeln("Heading row 2");
 builder.EndRow();
 ```
 
- Itt indítunk egy új táblázatot, állítjuk be a`HeadingFormat`tulajdonát`true` jelzi, hogy a sorok fejlécek, és meghatározza a cellák igazítását és szélességét.
+Itt új táblázatot kezdünk, beállítjuk a `HeadingFormat` ingatlan `true` annak jelzésére, hogy a sorok fejlécek, és meghatározzák a cellák igazítását és szélességét.
 
-## 3. lépés: Adjon hozzá adatsorokat a táblázathoz
+## 3. lépés: Adatsorok hozzáadása a táblázathoz
 
-Most több adatsort adunk hozzá a táblázatunkhoz. Ezek a sorok nem ismétlődnek a következő oldalakon.
+Most több adatsort fogunk hozzáadni a táblázatunkhoz. Ezek a sorok nem fognak ismétlődni a következő oldalakon.
 
 ```csharp
 builder.CellFormat.Width = 50;
@@ -93,41 +95,46 @@ for (int i = 0; i < 50; i++)
 }
 ```
 
- Ez a ciklus 50 adatsort szúr be a táblázatba, minden sorban két oszloppal. A`HeadingFormat` be van állítva`false` ezekhez a sorokhoz, mivel ezek nem fejlécesorok.
+Ez a ciklus 50 sornyi adatot szúr be a táblázatba, soronként két oszloppal. `HeadingFormat` erre van beállítva `false` ezekhez a sorokhoz, mivel ezek nem fejlécsorok.
 
-## 4. lépés: Mentse el a dokumentumot
+## 4. lépés: A dokumentum mentése
 
-Végül elmentjük a dokumentumot a megadott könyvtárba.
+Végül a dokumentumot a megadott könyvtárba mentjük.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithTables.RepeatRowsOnSubsequentPages.docx");
 ```
 
-Ezzel elmenti a dokumentumot a megadott néven a dokumentumkönyvtárába.
+Ez a megadott néven menti a dokumentumot a dokumentumkönyvtárba.
 
 ## Következtetés
 
-És megvan! Néhány sornyi kóddal az Aspose.Words for .NET segítségével létrehozhat egy Word-dokumentumot olyan táblázatokkal, amelyek következő oldalain ismétlődő fejlécsorok vannak. Ez nemcsak javítja a dokumentumok olvashatóságát, hanem egységes és professzionális megjelenést is biztosít. Most pedig próbálja ki ezt a projektjeiben!
+És íme! Mindössze néhány sornyi kóddal létrehozhatsz egy Word-dokumentumot, amelynek táblázatai ismétlődő fejlécsorokkal rendelkeznek a következő oldalakon az Aspose.Words for .NET segítségével. Ez nemcsak a dokumentumok olvashatóságát javítja, hanem egységes és professzionális megjelenést is biztosít. Most pedig próbáld ki a projektjeidben!
 
 ## GYIK
 
-### Tovább szabhatom a fejlécsorokat?
- Igen, a fejlécek tulajdonságainak módosításával további formázást is alkalmazhat`ParagraphFormat`, `RowFormat` , és`CellFormat`.
+### Testreszabhatom a fejléc sorokat?
+Igen, további formázást alkalmazhat a fejlécsorokra a tulajdonságainak módosításával. `ParagraphFormat`, `RowFormat`, és `CellFormat`.
 
-### Lehet-e további oszlopokat hozzáadni a táblázathoz?
- Teljesen! Annyi oszlopot adhat hozzá, amennyi szükséges, ha több cellát szúr be a`InsertCell` módszer.
+### Lehetséges további oszlopokat hozzáadni a táblázathoz?
+Természetesen! Annyi oszlopot adhatsz hozzá, amennyire szükséged van, további cellák beszúrásával az oszlopba. `InsertCell` módszer.
 
-### Hogyan állíthatom be, hogy más sorok ismétlődjenek a következő oldalakon?
- Ha bármelyik sort meg szeretné ismételni, állítsa be a`RowFormat.HeadingFormat`tulajdonát`true` az adott sorhoz.
+### Hogyan tudom ismétlődő sorokat beállítani a következő oldalakon?
+Bármely sor ismétlődéséhez állítsa be a `RowFormat.HeadingFormat` ingatlan `true` az adott sorhoz.
 
-### Használhatom ezt a módszert egy dokumentum meglévő tábláihoz?
- Igen, módosíthatja a meglévő táblákat, ha eléri őket a`Document` objektum és hasonló formázás alkalmazása.
+### Használhatom ezt a módszert egy dokumentumban lévő meglévő táblázatokhoz?
+Igen, módosíthatja a meglévő táblázatokat azáltal, hogy hozzáfér hozzájuk a `Document` objektumot, és hasonló formázást alkalmaz.
 
-### Milyen egyéb táblázatformázási lehetőségek érhetők el az Aspose.Words for .NET-ben?
- Az Aspose.Words for .NET a táblázatformázási lehetőségek széles skáláját kínálja, beleértve a cellaegyesítést, a szegélybeállításokat és a táblázat igazítását. Nézze meg a[dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
+### Milyen egyéb táblázatformázási lehetőségek érhetők el az Aspose.Words for .NET programban?
+Az Aspose.Words for .NET számos táblázatformázási lehetőséget kínál, beleértve a cellaegyesítést, a szegélybeállításokat és a táblázat igazítását. Nézze meg a [dokumentáció](https://reference.aspose.com/words/net/) további részletekért.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

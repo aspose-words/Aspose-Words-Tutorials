@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-txtloadoptions/handle-spaces-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handle Spaces Options
@@ -119,9 +122,13 @@ Aspose.Words primarily focuses on leading and trailing spaces. For more complex 
 ### Where can I find more information about Aspose.Words for .NET?  
 You can visit the [Aspose.Words Documentation](https://reference.aspose.com/words/net/) for more detailed information and resources.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

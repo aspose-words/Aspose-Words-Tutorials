@@ -1,14 +1,16 @@
 ---
-title: Java के लिए Aspose.Words में दस्तावेज़ प्रिंट करना
-linktitle: दस्तावेज़ मुद्रण
-second_title: Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई
-description: Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को प्रिंट करना सीखें। अपने Java अनुप्रयोगों में निर्बाध प्रिंटिंग के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 10
-url: /hi/java/printing-documents/printing-documents/
+"description": "Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को प्रिंट करना सीखें। अपने Java अनुप्रयोगों में निर्बाध प्रिंटिंग के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "दस्तावेज़ मुद्रण"
+"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
+"title": "Java के लिए Aspose.Words में दस्तावेज़ प्रिंट करना"
+"url": "/hi/java/printing-documents/printing-documents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java के लिए Aspose.Words में दस्तावेज़ प्रिंट करना
@@ -29,7 +31,7 @@ url: /hi/java/printing-documents/printing-documents/
 
 ## दस्तावेज़ लोड करना
 
- आरंभ करने के लिए, आपको वह Word दस्तावेज़ लोड करना होगा जिसे आप प्रिंट करना चाहते हैं।`"Your Document Directory"` आपके दस्तावेज़ के पथ के साथ और`"Your Output Directory"` वांछित आउटपुट निर्देशिका के साथ.
+आरंभ करने के लिए, आपको वह Word दस्तावेज़ लोड करना होगा जिसे आप प्रिंट करना चाहते हैं। `"Your Document Directory"` आपके दस्तावेज़ के पथ के साथ और `"Your Output Directory"` वांछित आउटपुट निर्देशिका के साथ.
 
 ```java
 string dataDir = "Your Document Directory";
@@ -85,7 +87,7 @@ class MultipagePrintDocument implements Printable
     private final AttributeSet mAttributeSet;
     /// <सारांश>
     /// कस्टम PrintDocument वर्ग का निर्माता.
-    // / </सारांश>
+    /// </सारांश> 
     public MultipagePrintDocument(Document document, int pagesPerSheet, boolean printPageBorders,
                                   AttributeSet attributes) {
         if (document == null)
@@ -96,7 +98,7 @@ class MultipagePrintDocument implements Printable
         mAttributeSet = attributes;
     }
     public int print(Graphics g, PageFormat pf, int page) {
-        //विशेषता सेट में परिभाषित पृष्ठ प्रारंभ और समाप्ति सूचकांक।
+        // विशेषता सेट में परिभाषित पृष्ठ प्रारंभ और समाप्ति सूचकांक।
         int[][] pageRanges = ((PageRanges) mAttributeSet.get(PageRanges.class)).getMembers();
         int fromPage = pageRanges[0][0] - 1;
         int toPage = pageRanges[0][1] - 1;
@@ -132,7 +134,7 @@ class MultipagePrintDocument implements Printable
                 // उपयोगी वापसी मान वह पैमाना है जिस पर पृष्ठ को प्रस्तुत किया गया था।
                 float scale = mDocument.renderToSize(pageIndex, (Graphics2D) g, leftPos, topPos, (int) thumbSize.x,
                         (int) thumbSize.y);
-                //पृष्ठ की सीमाएँ बनाएँ (पृष्ठ का थंबनेल, थंबनेल से छोटा हो सकता है)
+                // पृष्ठ की सीमाएँ बनाएँ (पृष्ठ का थंबनेल, थंबनेल से छोटा हो सकता है)
                 // प्लेसहोल्डर आकार).
                 if (mPrintPageBorders) {
                     // पेज का वास्तविक 100% आकार पॉइंट्स में प्राप्त करें।
@@ -140,7 +142,7 @@ class MultipagePrintDocument implements Printable
                     // ज्ञात स्केल फैक्टर का उपयोग करके स्केल किए गए पृष्ठ के चारों ओर बॉर्डर बनाएं।
                     g.setColor(Color.black);
                     g.drawRect(leftPos, topPos, (int) (pageSize.x * scale), (int) (pageSize.y * scale));
-                    // थम्बनेल प्लेसहोल्डर के चारों ओर बॉर्डर बनाएं।
+                    // थम्बनेल प्लेसहोल्डर के चारों ओर बॉर्डर बनाएं.
                     g.setColor(Color.red);
                     g.drawRect(leftPos, topPos, (int) thumbSize.x, (int) thumbSize.y);
                 }
@@ -194,7 +196,7 @@ class MultipagePrintDocument implements Printable
 
 ### प्रश्न 1: क्या मैं Java के लिए Aspose.Words का उपयोग करके किसी दस्तावेज़ के विशिष्ट पृष्ठों को प्रिंट कर सकता हूँ?
 
- हां, आप दस्तावेज़ प्रिंट करते समय पृष्ठ सीमा निर्दिष्ट कर सकते हैं। कोड उदाहरण में, हमने उपयोग किया`attributes.add(new PageRanges(1, doc.getPageCount()))`सभी पेज प्रिंट करने के लिए। आप आवश्यकतानुसार पेज रेंज समायोजित कर सकते हैं।
+हां, आप दस्तावेज़ प्रिंट करते समय पृष्ठ सीमा निर्दिष्ट कर सकते हैं। कोड उदाहरण में, हमने उपयोग किया `attributes.add(new PageRanges(1, doc.getPageCount()))` सभी पेज प्रिंट करने के लिए। आप आवश्यकतानुसार पेज रेंज समायोजित कर सकते हैं।
 
 ### प्रश्न 2: क्या Aspose.Words for Java बैच प्रिंटिंग के लिए उपयुक्त है?
 
@@ -210,14 +212,19 @@ class MultipagePrintDocument implements Printable
 
 ### प्रश्न 5: मैं Aspose.Words for Java के लिए अधिक सहायता और समर्थन कहां से प्राप्त कर सकता हूं?
 
- अतिरिक्त समर्थन और सहायता के लिए, आप यहां जा सकते हैं[Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
+अतिरिक्त समर्थन और सहायता के लिए, आप यहां जा सकते हैं [Aspose.Words जावा मंच के लिए](https://forum.aspose.com/).
 
 ---
 
 अब जब आपने सफलतापूर्वक सीख लिया है कि Aspose.Words for Java का उपयोग करके दस्तावेज़ों को कैसे प्रिंट किया जाए, तो आप अपने Java अनुप्रयोगों में इस कार्यक्षमता को लागू करना शुरू कर सकते हैं। हैप्पी कोडिंग!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

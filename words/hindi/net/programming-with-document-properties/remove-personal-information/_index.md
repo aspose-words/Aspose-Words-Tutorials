@@ -1,14 +1,16 @@
 ---
-title: व्यक्तिगत जानकारी हटाएँ
-linktitle: व्यक्तिगत जानकारी हटाएँ
-second_title: Aspose.Words दस्तावेज़ प्रसंस्करण API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ों से व्यक्तिगत जानकारी निकालना सीखें। दस्तावेज़ प्रबंधन को सरल बनाएँ।
-weight: 10
-url: /hi/net/programming-with-document-properties/remove-personal-information/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके दस्तावेज़ों से व्यक्तिगत जानकारी निकालना सीखें। दस्तावेज़ प्रबंधन को सरल बनाएँ।"
+"linktitle": "व्यक्तिगत जानकारी हटाएँ"
+"second_title": "Aspose.Words दस्तावेज़ प्रसंस्करण API"
+"title": "व्यक्तिगत जानकारी हटाएँ"
+"url": "/hi/net/programming-with-document-properties/remove-personal-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # व्यक्तिगत जानकारी हटाएँ
@@ -21,7 +23,7 @@ url: /hi/net/programming-with-document-properties/remove-personal-information/
 
 इससे पहले कि हम अपने हाथ गंदे करें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
-1.  .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/words/net/) . आप भी एक ले सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) यदि आप अभी शुरुआत कर रहे हैं.
+1. .NET के लिए Aspose.Words: यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो इसे डाउनलोड करें [यहाँ](https://releases.aspose.com/words/net/). आप भी ले सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) यदि आप अभी शुरुआत कर रहे हैं.
 2. विकास वातावरण: विजुअल स्टूडियो या कोई अन्य .NET विकास वातावरण जिसे आप पसंद करते हैं।
 3. C# का बुनियादी ज्ञान: आपको इसमें माहिर होने की आवश्यकता नहीं है, लेकिन थोड़ी-बहुत जानकारी काफी मददगार साबित होगी।
 
@@ -64,7 +66,7 @@ doc.RemovePersonalInformation = true;
 
 ### 2.2 दस्तावेज़ सहेजें
 
-अब जबकि हमने अपना दस्तावेज़ साफ़ कर लिया है, तो चलिए इसे सेव कर देते हैं। इससे यह सुनिश्चित हो जाता है कि हमारे सभी परिवर्तन लागू हो गए हैं और दस्तावेज़ तैयार है।
+अब जबकि हमने अपना दस्तावेज़ साफ़ कर लिया है, तो चलिए इसे सेव करते हैं। इससे यह सुनिश्चित हो जाता है कि हमारे सभी परिवर्तन लागू हो गए हैं और दस्तावेज़ तैयार है।
 
 ```csharp
 doc.Save(dataDir + "DocumentPropertiesAndVariables.RemovePersonalInformation.docx");
@@ -82,7 +84,7 @@ doc.Save(dataDir + "DocumentPropertiesAndVariables.RemovePersonalInformation.doc
 
 ### क्या Aspose.Words for .NET निःशुल्क है?
 
- Aspose.Words प्रदान करता है एक[मुफ्त परीक्षण](https://releases.aspose.com/) ताकि आप इसका परीक्षण कर सकें, लेकिन आपको पूर्ण कार्यक्षमता के लिए लाइसेंस खरीदना होगा।[मूल्य निर्धारण](https://purchase.aspose.com/buy) अधिक जानकारी के लिए.
+Aspose.Words प्रदान करता है एक [मुफ्त परीक्षण](https://releases.aspose.com/) ताकि आप इसका परीक्षण कर सकें, लेकिन आपको पूर्ण कार्यक्षमता के लिए लाइसेंस खरीदना होगा। [मूल्य निर्धारण](https://purchase.aspose.com/buy) अधिक जानकारी के लिए.
 
 ### क्या मैं अन्य दस्तावेज़ प्रारूपों के लिए Aspose.Words का उपयोग कर सकता हूँ?
 
@@ -90,14 +92,19 @@ doc.Save(dataDir + "DocumentPropertiesAndVariables.RemovePersonalInformation.doc
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
 
- आप Aspose.Words पर जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या या प्रश्न के लिए सहायता हेतु हमसे संपर्क करें।
+आप Aspose.Words पर जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/words/8) किसी भी समस्या या प्रश्न के लिए सहायता हेतु हमसे संपर्क करें।
 
 ### Aspose.Words क्या अन्य सुविधाएँ प्रदान करता है?
 
-Aspose.Words में बहुत सारी खूबियाँ हैं। आप कई तरीकों से दस्तावेज़ बना सकते हैं, संपादित कर सकते हैं, बदल सकते हैं और उनमें हेरफेर कर सकते हैं। पूरी सूची के लिए, देखें[प्रलेखन](https://reference.aspose.com/words/net/).
+Aspose.Words में कई विशेषताएं हैं। आप कई तरीकों से दस्तावेज़ बना सकते हैं, संपादित कर सकते हैं, बदल सकते हैं और उनमें हेरफेर कर सकते हैं। पूरी सूची के लिए, देखें [प्रलेखन](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

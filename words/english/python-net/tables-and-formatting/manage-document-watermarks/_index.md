@@ -7,8 +7,11 @@ weight: 10
 url: /python-net/tables-and-formatting/manage-document-watermarks/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating and Formatting Watermarks for Document Aesthetics
@@ -153,9 +156,13 @@ Yes, Aspose.Words for Python is compatible with both Windows and Linux environme
 
 For more details and comprehensive API references, visit the  Aspose.Words documentation: [Aspose.Words for Python API References](https://reference.aspose.com/words/python-net/)
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

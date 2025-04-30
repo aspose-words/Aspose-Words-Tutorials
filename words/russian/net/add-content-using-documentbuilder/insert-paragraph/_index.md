@@ -1,14 +1,16 @@
 ---
-title: Вставить абзац в документ Word
-linktitle: Вставить абзац в документ Word
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставлять абзацы в документы Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для бесперебойной работы с документами.
-weight: 10
-url: /ru/net/add-content-using-documentbuilder/insert-paragraph/
+"description": "Узнайте, как вставлять абзацы в документы Word с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для бесперебойной работы с документами."
+"linktitle": "Вставить абзац в документ Word"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить абзац в документ Word"
+"url": "/ru/net/add-content-using-documentbuilder/insert-paragraph/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить абзац в документ Word
@@ -22,7 +24,7 @@ url: /ru/net/add-content-using-documentbuilder/insert-paragraph/
 Прежде чем приступить к изучению руководства, убедитесь, что у вас выполнены следующие предварительные условия:
 - Базовые знания программирования на C# и .NET Framework.
 - Visual Studio установлена на вашем компьютере.
--  Установлена библиотека Aspose.Words for .NET. Скачать ее можно здесь[здесь](https://releases.aspose.com/words/net/).
+- Установлена библиотека Aspose.Words for .NET. Скачать ее можно здесь [здесь](https://releases.aspose.com/words/net/).
 
 ## Импорт пространств имен
 
@@ -35,7 +37,7 @@ using System.Drawing;
 
 ## Шаг 1: Инициализация документа и DocumentBuilder
 
- Начните с настройки документа и инициализации`DocumentBuilder` объект.
+Начните с настройки документа и инициализации `DocumentBuilder` объект.
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -62,7 +64,7 @@ paragraphFormat.KeepTogether = true;
 
 ## Шаг 3: Вставьте абзац
 
- Теперь добавьте желаемый контент с помощью`WriteLn` метод`DocumentBuilder`.
+Теперь добавьте желаемый контент с помощью `WriteLn` метод `DocumentBuilder`.
 ```csharp
 builder.Writeln("A whole paragraph.");
 ```
@@ -84,20 +86,25 @@ doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertParagraph.docx");
 Да, Aspose.Words для .NET поддерживает приложения .NET Core наряду с .NET Framework.
 
 ### Как получить временную лицензию на Aspose.Words для .NET?
- Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Совместим ли Aspose.Words для .NET с версиями Microsoft Word?
 Да, Aspose.Words для .NET обеспечивает совместимость с различными версиями Microsoft Word, включая последние выпуски.
 
-### Поддерживает ли Aspose.Words для .NET шифрование документов?
+### Поддерживает ли Aspose.Words for .NET шифрование документов?
 Да, вы можете зашифровать и защитить свои документы программно, используя Aspose.Words для .NET.
 
 ### Где я могу найти дополнительную помощь и поддержку по Aspose.Words for .NET?
- Посетите[Форум Aspose.Words](https://forum.aspose.com/c/words/8) для поддержки сообщества и обсуждений.
+Посетите [Форум Aspose.Words](https://forum.aspose.com/c/words/8) для поддержки сообщества и обсуждений.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

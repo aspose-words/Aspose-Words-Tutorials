@@ -1,14 +1,16 @@
 ---
-title: Ulepszanie zawartości wizualnej za pomocą pól tekstowych w dokumentach Word
-linktitle: Ulepszanie zawartości wizualnej za pomocą pól tekstowych w dokumentach Word
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Ulepsz wizualizacje dokumentów za pomocą Aspose.Words Python! Dowiedz się krok po kroku, jak tworzyć i dostosowywać pola tekstowe w dokumentach Word. Podnieś układ treści, formatowanie i stylizację, aby uzyskać angażujące dokumenty.
-weight: 25
-url: /pl/python-net/document-structure-and-content-manipulation/document-textboxes/
+"description": "Ulepsz wizualizacje dokumentów za pomocą Aspose.Words Python! Dowiedz się krok po kroku, jak tworzyć i dostosowywać pola tekstowe w dokumentach Word. Podnieś układ treści, formatowanie i stylizację, aby uzyskać angażujące dokumenty."
+"linktitle": "Ulepszanie zawartości wizualnej za pomocą pól tekstowych w dokumentach Word"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Ulepszanie zawartości wizualnej za pomocą pól tekstowych w dokumentach Word"
+"url": "/pl/python-net/document-structure-and-content-manipulation/document-textboxes/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ulepszanie zawartości wizualnej za pomocą pól tekstowych w dokumentach Word
@@ -55,7 +57,7 @@ builder.move_to(textbox.first_paragraph)
 builder.write('This text is flipped 90 degrees to the left.')
 ```
 
- W tym kodzie tworzymy nowy`Document` i`DocumentBuilder` . Ten`insert_text_box` Metoda ta służy do dodawania pola tekstowego do dokumentu. Możesz dostosować zawartość, położenie i rozmiar pola tekstowego zgodnie ze swoimi wymaganiami.
+W tym kodzie tworzymy nowy `Document` i `DocumentBuilder`. Ten `insert_text_box` Metoda ta służy do dodawania pola tekstowego do dokumentu. Możesz dostosować zawartość, pozycję i rozmiar pola tekstowego zgodnie ze swoimi wymaganiami.
 
 ## Formatowanie pól tekstowych
 
@@ -68,7 +70,7 @@ textbox.paragraphs[0].runs[0].font.color.rgb = aw.Color.blue
 
 ## Pozycjonowanie pól tekstowych
 
- Kontrolowanie położenia pól tekstowych jest kluczowe dla uzyskania pożądanego układu. Pozycję można ustawić za pomocą`left` I`top` właściwości. Na przykład:
+Kontrolowanie położenia pól tekstowych jest kluczowe dla uzyskania pożądanego układu. Pozycję można ustawić za pomocą `left` I `top` właściwości. Na przykład:
 
 ```python
 textbox.left = aw.ConvertUtil.inch_to_points(1.5)
@@ -110,15 +112,15 @@ W tym przewodniku zbadaliśmy proces wzbogacania zawartości wizualnej za pomoc�
 
 ### Jak zmienić rozmiar pola tekstowego?
 
- Aby zmienić rozmiar pola tekstowego, możesz dostosować jego szerokość i wysokość za pomocą`width` I`height` atrybuty.
+Aby zmienić rozmiar pola tekstowego, możesz dostosować jego szerokość i wysokość za pomocą `width` I `height` atrybuty.
 
 ### Czy mogę obrócić pole tekstowe?
 
- Tak, możesz obrócić pole tekstowe, ustawiając`rotation` nieruchomość pod żądanym kątem.
+Tak, możesz obrócić pole tekstowe, ustawiając `rotation` nieruchomość pod żądanym kątem.
 
 ### Jak dodać obramowanie do pola tekstowego?
 
- Możesz dodać obramowania do pola tekstowego za pomocą`textbox.border`nieruchomości i dostosowywania jej wyglądu.
+Możesz dodać obramowanie do pola tekstowego za pomocą `textbox.border` nieruchomości i dostosowywania jej wyglądu.
 
 ### Czy mogę osadzać hiperłącza w polu tekstowym?
 
@@ -126,12 +128,16 @@ Oczywiście! Możesz wstawić hiperłącza w treści pola tekstowego, aby podać
 
 ### Czy można kopiować i wklejać pola tekstowe pomiędzy dokumentami?
 
- Tak, możesz skopiować pole tekstowe z jednego dokumentu i wkleić je do innego, korzystając z`builder.insert_node` metoda.
+Tak, możesz skopiować pole tekstowe z jednego dokumentu i wkleić je do innego, korzystając z `builder.insert_node` metoda.
 
 Dzięki Aspose.Words for Python masz narzędzia do tworzenia atrakcyjnych wizualnie i dobrze ustrukturyzowanych dokumentów, które płynnie włączają pola tekstowe. Eksperymentuj z różnymi stylami, układami i treścią, aby zwiększyć wpływ swoich dokumentów Word. Miłego projektowania dokumentów!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

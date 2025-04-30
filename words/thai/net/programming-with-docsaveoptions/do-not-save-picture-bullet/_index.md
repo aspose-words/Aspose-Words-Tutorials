@@ -1,14 +1,16 @@
 ---
-title: อย่าบันทึกภาพ Bullet
-linktitle: อย่าบันทึกภาพ Bullet
-second_title: API การประมวลผลเอกสาร Aspose.Words
-description: เรียนรู้วิธีจัดการกับภาพสัญลักษณ์ใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา ทำให้การจัดการเอกสารง่ายขึ้นและสร้างเอกสาร Word แบบมืออาชีพได้อย่างง่ายดาย
-weight: 10
-url: /th/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
+"description": "เรียนรู้วิธีจัดการกับภาพสัญลักษณ์ใน Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา ทำให้การจัดการเอกสารง่ายขึ้นและสร้างเอกสาร Word แบบมืออาชีพได้อย่างง่ายดาย"
+"linktitle": "อย่าบันทึกภาพ Bullet"
+"second_title": "API การประมวลผลเอกสาร Aspose.Words"
+"title": "อย่าบันทึกภาพ Bullet"
+"url": "/th/net/programming-with-docsaveoptions/do-not-save-picture-bullet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อย่าบันทึกภาพ Bullet
@@ -21,7 +23,7 @@ url: /th/net/programming-with-docsaveoptions/do-not-save-picture-bullet/
 
 ก่อนที่เราจะเริ่มปรับแต่งโค้ด มีบางสิ่งบางอย่างที่คุณต้องมี:
 
-1.  Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/words/net/).
+1. Aspose.Words สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีอันทรงพลังนี้แล้ว หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/net/).
 2. สภาพแวดล้อมการพัฒนา: สภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เล็กน้อยจะเป็นประโยชน์
 4. เอกสารตัวอย่าง: เอกสาร Word พร้อมภาพหัวข้อย่อยเพื่อวัตถุประสงค์ในการทดสอบ
@@ -46,7 +48,7 @@ using Aspose.Words.Saving;
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณซึ่งเอกสารของคุณอยู่
+แทนที่ `"YOUR DOCUMENTS DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณซึ่งเอกสารของคุณอยู่
 
 ## ขั้นตอนที่ 2: โหลดเอกสารด้วยภาพหัวข้อย่อย
 
@@ -57,7 +59,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 
- ให้แน่ใจว่าไฟล์`"Image bullet points.docx"` มีอยู่ในไดเร็กทอรีที่ระบุ
+ให้แน่ใจว่าไฟล์ `"Image bullet points.docx"` มีอยู่ในไดเร็กทอรีที่ระบุ
 
 ## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก
 
@@ -68,7 +70,7 @@ Document doc = new Document(dataDir + "Image bullet points.docx");
 DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 ```
 
- โดยการตั้งค่า`SavePictureBullet` ถึง`false`คุณสั่ง Aspose.Words ไม่บันทึกภาพหัวข้อย่อยในเอกสารผลลัพธ์
+โดยการตั้งค่า `SavePictureBullet` ถึง `false`คุณสั่ง Aspose.Words ไม่บันทึกภาพหัวข้อย่อยในเอกสารผลลัพธ์
 
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
@@ -79,7 +81,7 @@ DocSaveOptions saveOptions = new DocSaveOptions { SavePictureBullet = false };
 doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
- ไฟล์ใหม่`"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`จะถูกบันทึกไว้ในไดเร็กทอรีเอกสารของคุณ
+ไฟล์ใหม่ `"WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx"`จะถูกบันทึกไว้ในไดเร็กทอรีเอกสารของคุณ
 
 ## บทสรุป
 
@@ -91,20 +93,25 @@ doc.Save(dataDir + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", save
 Aspose.Words สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการสร้าง แก้ไข และแปลงเอกสาร Word ภายในแอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้คุณสมบัตินี้กับกระสุนประเภทอื่นได้หรือไม่
-ไม่ คุณลักษณะนี้มีไว้สำหรับหัวข้อย่อยในภาพเท่านั้น อย่างไรก็ตาม Aspose.Words มีตัวเลือกมากมายสำหรับการจัดการหัวข้อย่อยประเภทอื่นๆ
+ไม่ คุณลักษณะนี้มีไว้สำหรับหัวข้อย่อยภาพ อย่างไรก็ตาม Aspose.Words มีตัวเลือกมากมายสำหรับการจัดการหัวข้อย่อยประเภทอื่นๆ
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Words ได้จากที่ไหน
- คุณสามารถรับการสนับสนุนได้จาก[ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8).
+คุณสามารถรับการสนับสนุนได้จาก [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words/8).
 
 ### มีการทดลองใช้ Aspose.Words สำหรับ .NET ฟรีหรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Words สำหรับ .NET ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตได้จาก[ร้านอาโพส](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตได้จาก [ร้านอาโพส](https://purchase-aspose.com/buy).
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

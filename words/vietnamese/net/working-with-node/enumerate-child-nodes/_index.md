@@ -1,14 +1,16 @@
 ---
-title: Liệt kê các nút con
-linktitle: Liệt kê các nút con
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách liệt kê các nút con trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/working-with-node/enumerate-child-nodes/
+"description": "Tìm hiểu cách liệt kê các nút con trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này."
+"linktitle": "Liệt kê các nút con"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Liệt kê các nút con"
+"url": "/vi/net/working-with-node/enumerate-child-nodes/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Liệt kê các nút con
@@ -22,8 +24,8 @@ Làm việc với các tài liệu theo chương trình có thể trở nên d�
 Trước khi tìm hiểu mã, chúng ta hãy xem xét các điều kiện tiên quyết cần thiết để đảm bảo trải nghiệm mượt mà:
 
 1. Môi trường phát triển: Đảm bảo bạn đã cài đặt Visual Studio hoặc IDE tương thích với .NET khác.
-2.  Aspose.Words cho .NET: Tải xuống thư viện Aspose.Words cho .NET từ[trang phát hành](https://releases.aspose.com/words/net/).
-3.  Giấy phép: Nhận bản dùng thử miễn phí hoặc giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+2. Aspose.Words cho .NET: Tải xuống thư viện Aspose.Words cho .NET từ [trang phát hành](https://releases.aspose.com/words/net/).
+3. Giấy phép: Nhận bản dùng thử miễn phí hoặc giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập không gian tên
 
@@ -91,7 +93,7 @@ Biên dịch và chạy ứng dụng của bạn. Nếu bạn đã thiết lập
 
 Việc liệt kê các nút con trong tài liệu Word bằng Aspose.Words cho .NET rất đơn giản khi bạn đã hiểu các bước cơ bản. Bằng cách khởi tạo tài liệu, truy cập các đoạn văn cụ thể, truy xuất các nút con và lặp lại chúng, bạn có thể dễ dàng thao tác các tài liệu Word theo chương trình. Aspose.Words cung cấp một API mạnh mẽ để xử lý nhiều thành phần tài liệu khác nhau, khiến nó trở thành một công cụ không thể thiếu đối với các nhà phát triển .NET.
 
- Để biết thêm tài liệu chi tiết và cách sử dụng nâng cao, hãy truy cập[Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/) . Nếu bạn cần hỗ trợ thêm, hãy xem[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
+Để biết thêm tài liệu chi tiết và cách sử dụng nâng cao, hãy truy cập [Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/). Nếu bạn cần hỗ trợ thêm, hãy xem [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8).
 
 ## Câu hỏi thường gặp
 
@@ -99,20 +101,25 @@ Việc liệt kê các nút con trong tài liệu Word bằng Aspose.Words cho .
 Một đoạn văn có thể chứa các nút như đoạn chạy, hình dạng, chú thích và các thành phần nội tuyến khác.
 
 ### Làm thế nào để tải một tài liệu Word có sẵn?
- Bạn có thể tải một tài liệu hiện có bằng cách sử dụng`Document doc = new Document("path/to/your/document.docx");`.
+Bạn có thể tải một tài liệu hiện có bằng cách sử dụng `Document doc = new Document("path/to/your/document.docx");`.
 
 ### Tôi có thể thao tác các loại nút khác ngoài Run không?
- Có, bạn có thể thao tác nhiều loại nút khác nhau như hình dạng, bình luận, v.v. bằng cách kiểm tra chúng`NodeType`.
+Có, bạn có thể thao tác nhiều loại nút khác nhau như hình dạng, bình luận, v.v. bằng cách kiểm tra chúng `NodeType`.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Words cho .NET không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Ghé thăm[Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/)để biết thêm ví dụ và tài liệu chi tiết.
+Ghé thăm [Aspose.Words cho tài liệu API .NET](https://reference.aspose.com/words/net/) để biết thêm ví dụ và tài liệu chi tiết.
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

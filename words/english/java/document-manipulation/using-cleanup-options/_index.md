@@ -7,8 +7,11 @@ weight: 10
 url: /java/document-manipulation/using-cleanup-options/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Cleanup Options in Aspose.Words for Java
@@ -182,9 +185,13 @@ To enable the removal of paragraphs with punctuation marks, you can set the `cle
 
 Yes, you can customize the cleanup options according to your specific needs. You can choose which cleanup options to apply and configure them as per your document cleanup requirements, ensuring that your final document meets your desired standards.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

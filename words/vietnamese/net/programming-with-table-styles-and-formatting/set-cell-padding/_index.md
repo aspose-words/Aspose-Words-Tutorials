@@ -1,14 +1,16 @@
 ---
-title: Đặt khoảng đệm ô
-linktitle: Đặt khoảng đệm ô
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách thiết lập khoảng đệm ô trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện định dạng bảng của tài liệu dễ dàng.
-weight: 10
-url: /vi/net/programming-with-table-styles-and-formatting/set-cell-padding/
+"description": "Tìm hiểu cách thiết lập khoảng đệm ô trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện định dạng bảng của tài liệu dễ dàng."
+"linktitle": "Đặt khoảng đệm ô"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Đặt khoảng đệm ô"
+"url": "/vi/net/programming-with-table-styles-and-formatting/set-cell-padding/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt khoảng đệm ô
@@ -21,7 +23,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để thêm một chút khoảng
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ[Trang phát hành Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Words cho .NET từ [Trang phát hành Aspose](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Bạn cần cài đặt một IDE như Visual Studio trên máy của mình.
 3. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ giải thích mọi thứ, nhưng hiểu biết cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
@@ -51,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Bước 2: Bắt đầu xây dựng bảng của bạn
 
- Bây giờ chúng ta đã có tài liệu, hãy bắt đầu xây dựng một bảng. Chúng ta sẽ sử dụng`DocumentBuilder` để chèn ô và hàng.
+Bây giờ chúng ta đã có tài liệu, hãy bắt đầu xây dựng một bảng. Chúng ta sẽ sử dụng `DocumentBuilder` để chèn ô và hàng.
 
 ```csharp
 // Bắt đầu xây dựng bảng
@@ -94,7 +96,7 @@ Và bạn đã có nó! Bạn đã thiết lập thành công phần đệm ô t
 ## Câu hỏi thường gặp
 
 ### Tôi có thể đặt các giá trị đệm khác nhau cho mỗi ô trong bảng không?
- Có, bạn có thể đặt các giá trị đệm khác nhau cho mỗi ô bằng cách áp dụng`SetPaddings` phương pháp cho từng ô riêng lẻ.
+Có, bạn có thể đặt các giá trị đệm khác nhau cho mỗi ô bằng cách áp dụng `SetPaddings` phương pháp cho từng ô riêng lẻ.
 
 ### Đơn vị nào được sử dụng để đệm giá trị trong Aspose.Words?
 Giá trị đệm được chỉ định theo điểm. Có 72 điểm trong một inch.
@@ -102,14 +104,19 @@ Giá trị đệm được chỉ định theo điểm. Có 72 điểm trong mộ
 ### Tôi có thể áp dụng phần đệm cho các cạnh cụ thể của ô không?
 Có, bạn có thể chỉ định phần đệm cho từng cạnh trái, trên, phải và dưới riêng biệt.
 
-### Có giới hạn nào về lượng đệm mà tôi có thể thiết lập không?
+### Có giới hạn nào về mức đệm mà tôi có thể thiết lập không?
 Không có giới hạn cụ thể, nhưng việc đệm quá nhiều có thể ảnh hưởng đến bố cục của bảng và tài liệu của bạn.
 
 ### Tôi có thể thiết lập khoảng đệm ô bằng Microsoft Word không?
-Có, bạn có thể thiết lập khoảng đệm ô trong Microsoft Word, nhưng sử dụng Aspose.Words cho .NET cho phép thao tác tài liệu tự động và có thể lập trình.
+Có, bạn có thể thiết lập khoảng đệm ô trong Microsoft Word, nhưng sử dụng Aspose.Words cho .NET cho phép thao tác tài liệu tự động và có thể lập trình được.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

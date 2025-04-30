@@ -1,14 +1,16 @@
 ---
-title: Tetapkan Pengaturan Font Fallback
-linktitle: Tetapkan Pengaturan Font Fallback
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara mengatur Pengaturan Font Fallback di Aspose.Words untuk .NET. Panduan komprehensif ini memastikan semua karakter dalam dokumen Anda ditampilkan dengan benar.
-weight: 10
-url: /id/net/working-with-fonts/set-font-fallback-settings/
+"description": "Pelajari cara mengatur Pengaturan Font Fallback di Aspose.Words untuk .NET. Panduan komprehensif ini memastikan semua karakter dalam dokumen Anda ditampilkan dengan benar."
+"linktitle": "Tetapkan Pengaturan Font Fallback"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tetapkan Pengaturan Font Fallback"
+"url": "/id/net/working-with-fonts/set-font-fallback-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Pengaturan Font Fallback
@@ -22,9 +24,9 @@ Saat bekerja dengan dokumen yang berisi berbagai elemen teks, seperti bahasa ata
 Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan Dasar C#: Keakraban dengan bahasa pemrograman C# dan kerangka kerja .NET.
--  Aspose.Words untuk .NET: Unduh dan instal dari[tautan unduhan](https://releases.aspose.com/words/net/).
+- Aspose.Words untuk .NET: Unduh dan instal dari [tautan unduhan](https://releases.aspose.com/words/net/).
 - Lingkungan Pengembangan: Pengaturan seperti Visual Studio untuk menulis dan menjalankan kode Anda.
--  Contoh Dokumen: Miliki contoh dokumen (misalnya,`Rendering.docx`) siap untuk diuji.
+- Contoh Dokumen: Miliki contoh dokumen (misalnya, `Rendering.docx`) siap untuk diuji.
 - Aturan Penggantian Font XML: Siapkan file XML yang mendefinisikan aturan penggantian font.
 
 ## Mengimpor Ruang Nama
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Muat Dokumen
 
- Muat dokumen Anda ke Aspose.Words`Document` objek. Langkah ini memungkinkan Anda untuk bekerja dengan dokumen secara terprogram.
+Muat dokumen Anda ke Aspose.Words `Document` objek. Langkah ini memungkinkan Anda untuk bekerja dengan dokumen secara terprogram.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
@@ -56,7 +58,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Langkah 3: Konfigurasikan Pengaturan Font
 
- Buat yang baru`FontSettings` objek dan memuat pengaturan fallback font dari file XML. File XML ini berisi aturan untuk fallback font.
+Buat yang baru `FontSettings` objek dan memuat pengaturan fallback font dari file XML. File XML ini berisi aturan untuk fallback font.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -65,7 +67,7 @@ fontSettings.FallbackSettings.Load(dataDir + "Font fallback rules.xml");
 
 ## Langkah 4: Terapkan Pengaturan Font ke Dokumen
 
- Tetapkan yang dikonfigurasi`FontSettings`ke dokumen. Ini memastikan bahwa aturan fallback font diterapkan saat merender dokumen.
+Tetapkan yang dikonfigurasi `FontSettings` ke dokumen. Ini memastikan bahwa aturan fallback font diterapkan saat merender dokumen.
 
 ```csharp
 doc.FontSettings = fontSettings;
@@ -113,7 +115,7 @@ Ya, Anda dapat menentukan beberapa font fallback dalam aturan XML. Aspose.Words 
 
 ### Q3: Di mana saya dapat mengunduh Aspose.Words untuk .NET?
 
- Anda dapat mengunduhnya dari[Halaman unduhan Aspose](https://releases.aspose.com/words/net/).
+Anda dapat mengunduhnya dari [Halaman unduhan Aspose](https://releases.aspose.com/words/net/).
 
 ### Q4: Bagaimana cara membuat berkas XML untuk aturan fallback font?
 
@@ -121,10 +123,15 @@ Berkas XML dapat dibuat menggunakan penyunting teks apa pun. Berkas ini harus me
 
 ### Q5: Apakah ada dukungan yang tersedia untuk Aspose.Words?
 
- Ya, Anda dapat menemukan dukungan di[Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+Ya, Anda dapat menemukan dukungan di [Forum dukungan Aspose.Words](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/find-and-replace-text/ignore-text-inside-delete-revisions/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Text Inside Delete Revisions
@@ -93,9 +96,13 @@ Aspose.Words for .NET is optimized for handling large documents efficiently, inc
 You can explore comprehensive documentation and get support from the Aspose.Words for .NET community at [Aspose.Words Forum](https://forum.aspose.com/c/words/8).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

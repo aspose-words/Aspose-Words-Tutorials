@@ -1,14 +1,16 @@
 ---
-title: Xử lý các trường và dữ liệu trong tài liệu Word
-linktitle: Xử lý các trường và dữ liệu trong tài liệu Word
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách xử lý các trường và dữ liệu trong tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với các ví dụ mã cho nội dung động, tự động hóa và nhiều hơn nữa.
-weight: 12
-url: /vi/python-net/document-structure-and-content-manipulation/document-fields/
+"description": "Tìm hiểu cách xử lý các trường và dữ liệu trong tài liệu Word bằng Aspose.Words cho Python. Hướng dẫn từng bước với các ví dụ mã cho nội dung động, tự động hóa và nhiều hơn nữa."
+"linktitle": "Xử lý các trường và dữ liệu trong tài liệu Word"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Xử lý các trường và dữ liệu trong tài liệu Word"
+"url": "/vi/python-net/document-structure-and-content-manipulation/document-fields/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý các trường và dữ liệu trong tài liệu Word
@@ -26,7 +28,7 @@ Trường là chỗ giữ chỗ trong tài liệu hiển thị dữ liệu độ
 
 ## Chèn các trường đơn giản
 
- Để chèn một trường, bạn có thể sử dụng`FieldBuilder` lớp. Ví dụ, để chèn trường ngày hiện tại:
+Để chèn một trường, bạn có thể sử dụng `FieldBuilder` lớp. Ví dụ, để chèn trường ngày hiện tại:
 
 ```python
 from aspose.words import Document, FieldBuilder
@@ -55,7 +57,7 @@ builder.insert_field('= 5 + 3')
 
 ## Trích xuất dữ liệu từ các trường
 
- Bạn có thể trích xuất dữ liệu trường bằng cách sử dụng`Field` lớp học:
+Bạn có thể trích xuất dữ liệu trường bằng cách sử dụng `Field` lớp học:
 
 ```python
 field = doc.range.fields[0]
@@ -85,10 +87,10 @@ builder.insert_field('FORMCHECKBOX "Check this"')
 Các trường có thể tạo siêu liên kết và tham chiếu chéo:
 
 ```python
-builder.insert_field('HYPERLINK "https://www.example.com" "Truy cập trang web của chúng tôi"')
+builder.insert_field('HYPERLINK "https://www.example.com" "Visit our website"')
 ```
 
-## Tùy chỉnh định dạng trường
+## Tùy chỉnh Định dạng Trường
 
 Các trường có thể được định dạng bằng cách sử dụng công tắc:
 
@@ -112,7 +114,7 @@ Xử lý hiệu quả các trường và dữ liệu trong tài liệu Word giú
 
 ### Làm thế nào để cập nhật giá trị trường theo cách thủ công?
 
- Để cập nhật giá trị trường theo cách thủ công, hãy chọn trường và nhấn`F9`.
+Để cập nhật giá trị trường theo cách thủ công, hãy chọn trường và nhấn `F9`.
 
 ### Tôi có thể sử dụng các trường ở phần đầu trang và chân trang không?
 
@@ -120,7 +122,7 @@ Có, các trường có thể được sử dụng ở phần đầu trang và c
 
 ### Các trường có được hỗ trợ trong tất cả các định dạng Word không?
 
-Hầu hết các kiểu trường đều được hỗ trợ trong nhiều định dạng Word khác nhau, nhưng một số có thể hoạt động khác nhau ở những định dạng khác nhau.
+Hầu hết các loại trường đều được hỗ trợ trong nhiều định dạng Word khác nhau, nhưng một số trường có thể hoạt động khác nhau ở những định dạng khác nhau.
 
 ### Làm thế nào để bảo vệ các trường khỏi việc chỉnh sửa vô tình?
 
@@ -132,10 +134,15 @@ Có, các trường có thể được lồng vào nhau để tạo ra nội dun
 
 ## Truy cập nhiều tài nguyên hơn
 
- Để biết thêm thông tin chi tiết và ví dụ về mã, hãy truy cập[Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/) . Để tải xuống phiên bản mới nhất của thư viện, hãy truy cập[Trang tải xuống Aspose.Words cho Python](https://releases.aspose.com/words/python/).
+Để biết thêm thông tin chi tiết và ví dụ về mã, hãy truy cập [Tài liệu tham khảo API Aspose.Words cho Python](https://reference.aspose.com/words/python-net/). Để tải xuống phiên bản mới nhất của thư viện, hãy truy cập [Trang tải xuống Aspose.Words cho Python](https://releases.aspose.com/words/python/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

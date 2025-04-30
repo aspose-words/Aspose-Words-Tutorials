@@ -1,14 +1,16 @@
 ---
-title: Bảng và Định dạng
-linktitle: Bảng và Định dạng
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Khám phá hướng dẫn về bảng và định dạng trong các ứng dụng Python và .NET của Aspose.Words. Học cách tạo, tùy chỉnh và định dạng bảng cho các tài liệu hấp dẫn về mặt hình ảnh.
-weight: 16
-url: /vi/python-net/tables-and-formatting/
+"description": "Khám phá hướng dẫn về bảng và định dạng trong các ứng dụng Python và .NET của Aspose.Words. Học cách tạo, tùy chỉnh và định dạng bảng cho các tài liệu hấp dẫn về mặt hình ảnh."
+"linktitle": "Bảng và Định dạng"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Bảng và Định dạng"
+"url": "/vi/python-net/tables-and-formatting/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng và Định dạng
@@ -46,9 +48,13 @@ Tìm hiểu cách tạo và định dạng hình mờ trong tài liệu bằng A
 Tìm hiểu cách tối ưu hóa bảng để trình bày dữ liệu trong tài liệu Word bằng Aspose.Words cho Python. Tăng khả năng đọc và hấp dẫn trực quan với hướng dẫn từng bước và ví dụ về mã nguồn.
 ### [Kiểu bảng tài liệu và định dạng](./document-table-styles-formatting/)
 Tìm hiểu cách định dạng và tạo kiểu cho bảng tài liệu bằng Aspose.Words for Python. Tạo, tùy chỉnh và xuất bảng với hướng dẫn từng bước và ví dụ về mã. Cải thiện bài thuyết trình tài liệu của bạn ngay hôm nay! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

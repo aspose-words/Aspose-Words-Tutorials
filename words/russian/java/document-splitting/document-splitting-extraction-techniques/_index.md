@@ -1,14 +1,16 @@
 ---
-title: Методы разделения и извлечения документов
-linktitle: Методы разделения и извлечения документов
-second_title: API обработки документов Java Aspose.Words
-description: Изучите разделение и извлечение документов с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом для эффективной обработки. Раскройте силу Aspose
-weight: 14
-url: /ru/java/document-splitting/document-splitting-extraction-techniques/
+"description": "Изучите разделение и извлечение документов с помощью Aspose.Words для Java. Пошаговое руководство с исходным кодом для эффективной обработки. Раскройте мощь Aspose"
+"linktitle": "Методы разделения и извлечения документов"
+"second_title": "API обработки документов Java Aspose.Words"
+"title": "Методы разделения и извлечения документов"
+"url": "/ru/java/document-splitting/document-splitting-extraction-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Методы разделения и извлечения документов
@@ -86,7 +88,7 @@ Document doc = new Document("input.docx");
 // Создать экстрактор изображений
 ImageExtractor extractor = new ImageExtractor(doc);
 
-//Извлечение изображений из документа
+// Извлечение изображений из документа
 while (extractor.hasNext()) {
     extractor.getNextImage("output_" + extractor.getCurrentImageIndex() + ".png");
 }
@@ -127,7 +129,7 @@ Aspose.Words for Java предоставляет надежные возможн
 
 ### Как установить Aspose.Words для Java?
 
- Вы можете загрузить Aspose.Words для Java с сайта:[https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
+Вы можете загрузить Aspose.Words для Java с сайта: [https://releases.aspose.com/words/java/](https://releases.aspose.com/words/java/)
 
 ### Могу ли я использовать Aspose.Words для Java в своих коммерческих проектах?
 
@@ -135,10 +137,15 @@ Aspose.Words for Java предоставляет надежные возможн
 
 ### Где я могу получить доступ к дополнительным учебным пособиям и ресурсам Aspose.Words для Java?
 
- Дополнительные руководства и ресурсы можно найти в документации Aspose:[https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+Дополнительные руководства и ресурсы можно найти в документации Aspose: [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

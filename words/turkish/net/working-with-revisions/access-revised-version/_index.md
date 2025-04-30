@@ -1,14 +1,16 @@
 ---
-title: Gözden Geçirilmiş Sürüme Erişim
-linktitle: Gözden Geçirilmiş Sürüme Erişim
-second_title: Aspose.Words Belge İşleme API'si
-description: Aspose.Words for .NET kullanarak bir belgenin revize edilmiş sürümüne nasıl erişeceğinizi ve görüntüleyeceğinizi öğrenin. Sorunsuz belge yönetimi için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/working-with-revisions/access-revised-version/
+"description": "Aspose.Words for .NET kullanarak bir belgenin revize edilmiş sürümüne nasıl erişeceğinizi ve görüntüleyeceğinizi öğrenin. Sorunsuz belge yönetimi için adım adım kılavuzumuzu izleyin."
+"linktitle": "Gözden Geçirilmiş Sürüme Erişim"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Gözden Geçirilmiş Sürüme Erişim"
+"url": "/tr/net/working-with-revisions/access-revised-version/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gözden Geçirilmiş Sürüme Erişim
@@ -21,7 +23,7 @@ Bir belgenin revize edilmiş sürümüne programatik olarak erişmeniz gerekti m
 
 Başlamadan önce birkaç şeye ihtiyacınız olacak:
 
-1.  Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET Kütüphanesi: İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya .NET'i destekleyen herhangi bir IDE.
 3. Temel C# Bilgisi: Bu, kodlama kısmını takip etmenize yardımcı olacaktır.
 
@@ -50,7 +52,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Adım 2: Belgeyi Yükleme
 
- Sonra, belgeyi uygulamanıza yükleyeceksiniz. Bu adım, yeni bir belge oluşturmayı içerir`Document` nesneyi oluşturun ve onu belgenizin yoluyla başlatın.
+Sonra, belgeyi uygulamanıza yükleyeceksiniz. Bu adım, yeni bir belge oluşturmayı içerir `Document` nesneyi oluşturun ve onu belgenizin yoluyla başlatın.
 
 ```csharp
 Document doc = new Document(dataDir + "Revisions.docx");
@@ -74,7 +76,7 @@ doc.RevisionsView = RevisionsView.Final;
 
 ## Adım 5: Revizyonlar Arasında Yineleme
 
- Revizyonlara erişmek için, aşağıdakileri yinelemeniz gerekecektir:`Revisions` belgenin toplanması. Bu adım, bir`foreach` her revizyondan geçmek için döngü.
+Revizyonlara erişmek için, aşağıdakileri yinelemeniz gerekecektir: `Revisions` belgenin toplanması. Bu adım, bir `foreach` her revizyondan geçmek için döngü.
 
 ```csharp
 foreach (Revision revision in doc.Revisions)
@@ -85,7 +87,7 @@ foreach (Revision revision in doc.Revisions)
 
 ## Adım 6: Üst Düğüm Türünü Kontrol Etme
 
- Her revizyon için, üst düğümün türünden olup olmadığını kontrol edin`Paragraph`Bu önemlidir çünkü revizyonu içeren paragrafa erişmek istiyoruz.
+Her revizyon için, üst düğümün türünden olup olmadığını kontrol edin `Paragraph`Bu önemlidir çünkü revizyonu içeren paragrafa erişmek istiyoruz.
 
 ```csharp
 if (revision.ParentNode.NodeType == NodeType.Paragraph)
@@ -96,7 +98,7 @@ if (revision.ParentNode.NodeType == NodeType.Paragraph)
 
 ## Adım 7: Paragrafa Erişim
 
- Üst düğümün bir paragraf olduğunu doğruladıktan sonra, onu bir`Paragraph` nesne. Bu adım paragraf ve özellikleriyle çalışmanıza olanak tanır.
+Üst düğümün bir paragraf olduğunu doğruladıktan sonra, onu bir `Paragraph` nesne. Bu adım paragraf ve özellikleriyle çalışmanıza olanak tanır.
 
 ```csharp
 Paragraph paragraph = (Paragraph)revision.ParentNode;
@@ -135,16 +137,21 @@ Aspose.Words for .NET, Word belgelerini programlı bir şekilde oluşturmanıza,
 Evet, belgede revizyonlar olduğu sürece Aspose.Words for .NET kullanarak bunlara erişebilirsiniz.
 
 ### Aspose.Words for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, lisans alabilirsiniz[Burada](https://purchase.aspose.com/buy) Ayrıca bir teklif de sunuyorlar[ücretsiz deneme](https://releases.aspose.com/) ve bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Evet, lisans alabilirsiniz [Burada](https://purchase.aspose.com/buy)Ayrıca bir teklif de sunuyorlar [ücretsiz deneme](https://releases.aspose.com/) ve bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Words for .NET tüm .NET sürümleriyle uyumlu mudur?
-Aspose.Words for .NET, çok çeşitli .NET sürümleriyle uyumludur. Daha fazla ayrıntıyı şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/words/net/).
+Aspose.Words for .NET, çok çeşitli .NET sürümleriyle uyumludur. Daha fazla ayrıntıyı şurada bulabilirsiniz: [belgeleme](https://reference.aspose.com/words/net/).
 
 ### Aspose.Words for .NET için desteği nereden alabilirim?
- Aspose topluluğundan destek alabilirsiniz[forum](https://forum.aspose.com/c/words/8).
+Aspose topluluğundan destek alabilirsiniz [forum](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

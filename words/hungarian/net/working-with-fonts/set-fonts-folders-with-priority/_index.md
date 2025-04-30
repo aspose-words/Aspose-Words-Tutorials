@@ -1,29 +1,31 @@
 ---
-title: Állítsa be a Fonts mappákat prioritással
-linktitle: Állítsa be a Fonts mappákat prioritással
-second_title: Aspose.Words Document Processing API
-description: Ismerje meg, hogyan állíthat be prioritást a fontmappák számára a Word dokumentumokban az Aspose.Words for .NET használatával. Útmutatónk biztosítja, hogy dokumentumai minden alkalommal tökéletesen jelenjenek meg.
-weight: 10
-url: /hu/net/working-with-fonts/set-fonts-folders-with-priority/
+"description": "Tanuld meg, hogyan állíthatsz be betűtípus-mappákat prioritás szerint a Word-dokumentumokban az Aspose.Words for .NET használatával. Útmutatónk biztosítja, hogy dokumentumaid minden alkalommal tökéletesen jelenjenek meg."
+"linktitle": "Betűtípusok mappáinak prioritás szerinti beállítása"
+"second_title": "Aspose.Words dokumentumfeldolgozó API"
+"title": "Betűtípusok mappáinak prioritás szerinti beállítása"
+"url": "/hu/net/working-with-fonts/set-fonts-folders-with-priority/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a Fonts mappákat prioritással
+# Betűtípusok mappáinak prioritás szerinti beállítása
 
 ## Bevezetés
 
-A dokumentumkezelés világában az egyéni betűtípus-mappák beállítása világméretű különbséget jelenthet a dokumentumok tökéletes megjelenítésében, függetlenül attól, hogy hol tekintik meg őket. Ma belevetjük magunkat abba, hogyan állíthat be prioritást a fontmappák számára a Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez az átfogó útmutató végigvezeti Önt az egyes lépéseken, így a folyamat a lehető legsimább lesz.
+A dokumentumkezelés világában az egyéni betűtípus-mappák beállítása óriási különbséget jelenthet annak biztosításában, hogy a dokumentumok tökéletesen jelenjenek meg, függetlenül attól, hogy hol tekintik meg őket. Ma belemerülünk abba, hogyan állíthat be prioritást a betűtípus-mappáknak a Word-dokumentumokban az Aspose.Words for .NET használatával. Ez az átfogó útmutató végigvezeti Önt minden lépésen, hogy a folyamat a lehető legzökkenőmentesebb legyen.
 
 ## Előfeltételek
 
-Mielőtt hozzákezdenénk, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van. Íme egy gyors ellenőrző lista:
+Mielőtt belekezdenénk, győződjünk meg róla, hogy mindenünk megvan, amire szükségünk van. Íme egy gyors ellenőrzőlista:
 
--  Aspose.Words for .NET: Telepíteni kell ezt a könyvtárat. Ha még nincs meg, megteheti[töltse le itt](https://releases.aspose.com/words/net/).
-- Fejlesztői környezet: Győződjön meg arról, hogy rendelkezik működő .NET fejlesztői környezettel, mint például a Visual Studio.
--  Dokumentumkönyvtár: Győződjön meg arról, hogy rendelkezik könyvtárral a dokumentumok számára. Példáinkhoz használjuk`"YOUR DOCUMENT DIRECTORY"` ennek az útvonalnak a helyőrzőjeként.
+- Aspose.Words .NET-hez: Telepítenie kell ezt a könyvtárat. Ha még nincs telepítve, megteheti [töltsd le itt](https://releases.aspose.com/words/net/).
+- Fejlesztői környezet: Győződjön meg arról, hogy rendelkezik egy működő .NET fejlesztői környezettel, például a Visual Studio-val.
+- Dokumentumkönyvtár: Győződjön meg róla, hogy van egy könyvtára a dokumentumainak. Példáinkban a következőt fogjuk használni: `"YOUR DOCUMENT DIRECTORY"` helyőrzőként ehhez az útvonalhoz.
 
 ## Névterek importálása
 
@@ -35,11 +37,11 @@ using Aspose.Words;
 using Aspose.Words.Fonts;
 ```
 
-Most bontsuk le az egyes lépéseket a betűtípusmappák prioritásának beállításához.
+Most bontsuk le az egyes lépéseket a betűtípus-mappák prioritásának beállításához.
 
-## 1. lépés: Állítsa be a fontforrásokat
+## 1. lépés: Betűtípus-források beállítása
 
-Kezdésként meg kell határoznia a betűtípusok forrásait. Itt adja meg az Aspose.Words-nek, hogy hol keressen betűtípusokat. Megadhat több betűtípus-mappát, és még prioritásukat is beállíthatja.
+Először is meg kell határoznod a betűtípus-forrásokat. Itt tudod megadni az Aspose.Words számára, hogy hol keresse a betűtípusokat. Több betűtípus-mappát is megadhatsz, sőt, akár a prioritásukat is beállíthatod.
 
 ```csharp
 // A dokumentumkönyvtár elérési útja
@@ -53,52 +55,57 @@ FontSettings.DefaultInstance.SetFontsSources(new FontSourceBase[]
 ```
 
 Ebben a példában két betűtípus-forrást állítunk be:
-- SystemFontSource: Ez az alapértelmezett betűtípus-forrás, amely tartalmazza a rendszerre telepített összes betűtípust.
--  FolderFontSource: Ez egy egyéni betűtípus-mappa, amely a címen található`C:\\MyFonts\\` . A`true` paraméter határozza meg, hogy ezt a mappát rekurzívan kell vizsgálni, és`1` prioritást állít be.
+- SystemFontSource: Ez az alapértelmezett betűtípusforrás, amely tartalmazza a rendszerre telepített összes betűtípust.
+- FolderFontSource: Ez egy egyéni betűtípus-mappa, amely a következő címen található: `C:\\MyFonts\\`. A `true` paraméter meghatározza, hogy ezt a mappát rekurzívan kell beolvasni, és `1` prioritását határozza meg.
 
 ## 2. lépés: Töltse be a dokumentumot
 
-Ezután töltse be azt a dokumentumot, amellyel dolgozni szeretne. Győződjön meg arról, hogy a dokumentum a megadott könyvtárban található.
+Ezután töltse be a dokumentumot, amellyel dolgozni szeretne. Győződjön meg arról, hogy a dokumentum a megadott könyvtárban található.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
- Ez a kódsor egy nevű dokumentumot tölt be`Rendering.docx` dokumentumkönyvtárából.
+Ez a kódsor betölt egy nevű dokumentumot. `Rendering.docx` a dokumentumkönyvtáradból.
 
 ## 3. lépés: Mentse el a dokumentumot az új betűtípus-beállításokkal
 
-Végül mentse el a dokumentumot. A dokumentum mentésekor az Aspose.Words az Ön által megadott betűtípus-beállításokat fogja használni.
+Végül mentse el a dokumentumot. A mentéskor az Aspose.Words a megadott betűtípus-beállításokat fogja használni.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFonts.SetFontsFoldersWithPriority.pdf");
 ```
 
- Ezzel a dokumentumot PDF formátumban menti a névvel ellátott dokumentumkönyvtárába`WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
+Ez PDF formátumban menti a dokumentumot a dokumentumkönyvtárba a következő néven: `WorkingWithFonts.SetFontsFoldersWithPriority.pdf`.
 
 ## Következtetés
 
-És megvan! Az Aspose.Words for .NET használatával sikeresen beállította a fontmappákat prioritásokkal. Egyéni betűtípus-mappák és prioritások megadásával biztosíthatja, hogy a dokumentumok következetesen jelenjenek meg, függetlenül attól, hogy hol tekintik meg őket. Ez különösen hasznos olyan környezetekben, ahol alapértelmezés szerint nincsenek bizonyos betűtípusok telepítve.
+És íme! Sikeresen beállítottad a betűtípus-mappák prioritását az Aspose.Words for .NET használatával. Egyéni betűtípus-mappák és prioritások megadásával biztosíthatod, hogy a dokumentumok konzisztensen jelenjenek meg, függetlenül attól, hogy hol tekintik meg őket. Ez különösen hasznos olyan környezetekben, ahol bizonyos betűtípusok nincsenek alapértelmezés szerint telepítve.
 
 ## GYIK
 
-### Miért kell egyéni betűtípus-mappákat beállítanom?
-Az egyéni betűtípusmappák beállítása biztosítja, hogy a dokumentumok megfelelően jelenjenek meg, még akkor is, ha olyan betűtípusokat használnak, amelyek nincsenek telepítve arra a rendszerre, ahol megtekintik őket.
+### Miért kellene egyéni betűtípus-mappákat beállítanom?
+Az egyéni betűtípus-mappák beállítása biztosítja, hogy a dokumentumok helyesen jelenjenek meg, még akkor is, ha olyan betűtípusokat használnak, amelyek nincsenek telepítve azon a rendszeren, amelyen megtekintik őket.
 
 ### Beállíthatok több egyéni betűtípus-mappát?
-Igen, több betűtípus mappát is megadhat. Az Aspose.Words lehetővé teszi az egyes mappák prioritásának beállítását, biztosítva, hogy először a legfontosabb betűtípusokat találja meg.
+Igen, több betűtípus-mappát is megadhat. Az Aspose.Words lehetővé teszi az egyes mappák prioritásának beállítását, biztosítva, hogy a legfontosabb betűtípusok legyenek először megtalálhatók.
 
 ### Mi történik, ha egy betűtípus hiányzik az összes megadott forrásból?
-Ha egy betűtípus hiányzik az összes megadott forrásból, az Aspose.Words tartalék betűtípust használ annak biztosítására, hogy a dokumentum továbbra is olvasható legyen.
+Ha egy betűtípus hiányzik az összes megadott forrásból, az Aspose.Words egy tartalék betűtípust használ annak biztosítására, hogy a dokumentum továbbra is olvasható maradjon.
 
-### Módosíthatom a rendszer betűtípusainak prioritását?
-A rendszer betűtípusai alapértelmezés szerint mindig szerepelnek, de beállíthatja a prioritásukat az egyéni betűtípusmappákhoz képest.
+### Meg lehet változtatni a rendszerbetűtípusok prioritását?
+A rendszerbetűtípusok alapértelmezés szerint mindig szerepelnek, de beállíthatja a prioritásukat az egyéni betűtípusmappákhoz képest.
 
-### Lehetséges-e hálózati útvonalakat használni az egyéni betűtípus-mappákhoz?
-Igen, megadhat hálózati elérési útvonalakat egyéni betűtípusmappaként, lehetővé téve a betűkészlet-erőforrások hálózati helyen történő központosítását.
+### Lehetséges hálózati elérési utakat használni egyéni betűtípus-mappákhoz?
+Igen, megadhat hálózati elérési utakat egyéni betűtípus-mappákként, így központosíthatja a betűtípus-erőforrásokat egy hálózati helyen.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

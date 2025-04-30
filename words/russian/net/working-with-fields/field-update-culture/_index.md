@@ -1,14 +1,16 @@
 ---
-title: Культура обновления поля
-linktitle: Культура обновления поля
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как настроить культуру обновления полей в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода и советами по точным обновлениям.
-weight: 10
-url: /ru/net/working-with-fields/field-update-culture/
+"description": "Узнайте, как настроить культуру обновления полей в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода и советами по точным обновлениям."
+"linktitle": "Культура обновления поля"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Культура обновления поля"
+"url": "/ru/net/working-with-fields/field-update-culture/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Культура обновления поля
@@ -21,15 +23,15 @@ url: /ru/net/working-with-fields/field-update-culture/
 
 Прежде чем мы углубимся в тонкости культуры полевых обновлений, вам нужно будет сделать несколько вещей:
 
-1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если нет, вы можете скачать ее[здесь](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Убедитесь, что у вас установлена библиотека Aspose.Words for .NET. Если нет, вы можете скачать ее [здесь](https://releases.aspose.com/words/net/).
 
 2. Visual Studio: в этом руководстве предполагается, что вы используете Visual Studio или аналогичную IDE, поддерживающую разработку .NET.
 
 3. Базовые знания C#: вы должны уметь программировать на C# и выполнять основные операции с документами Word.
 
-4.  Лицензия Aspose: Для полной функциональности вам может понадобиться лицензия. Вы можете приобрести ее[здесь](https://purchase.aspose.com/buy) или получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+4. Лицензия Aspose: Для полной функциональности вам может понадобиться лицензия. Вы можете приобрести ее [здесь](https://purchase.aspose.com/buy) или получите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
-5.  Доступ к документации и поддержке: для любой дополнительной помощи,[Документация Aspose](https://reference.aspose.com/words/net/) и[Форум поддержки](https://forum.aspose.com/c/words/8) являются отличными ресурсами.
+5. Доступ к документации и поддержке: для любой дополнительной помощи, [Документация Aspose](https://reference.aspose.com/words/net/) и [Форум поддержки](https://forum.aspose.com/c/words/8) являются отличными ресурсами.
 
 ## Импорт пространств имен
 
@@ -44,7 +46,7 @@ using Aspose.Words.Fields;
 
 ## Шаг 1: Настройте свой документ и DocumentBuilder
 
- Сначала вам нужно будет создать новый документ и`DocumentBuilder` объект.`DocumentBuilder` — удобный класс, позволяющий легко создавать и изменять документы Word.
+Сначала вам нужно будет создать новый документ и `DocumentBuilder` объект. `DocumentBuilder` — удобный класс, позволяющий легко создавать и изменять документы Word.
 
 ```csharp
 // Путь к каталогу документов.
@@ -55,20 +57,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- На этом этапе вы указываете каталог, в котором хотите сохранить документ.`Document` класс инициализирует новый документ Word, а`DocumentBuilder` класс помогает вам вставлять и форматировать контент.
+На этом этапе вы указываете каталог, в котором хотите сохранить документ. `Document` класс инициализирует новый документ Word, а `DocumentBuilder` класс помогает вам вставлять и форматировать контент.
 
 ## Шаг 2: Вставьте поле времени
 
-Далее вы вставите поле времени в документ. Это динамическое поле, которое обновляется до текущего времени.
+Далее вы вставите в документ поле времени. Это динамическое поле, которое обновляется до текущего времени.
 
 ```csharp
 // Вставьте поле времени.
 builder.InsertField(FieldType.FieldTime, true);
 ```
 
- Здесь,`FieldType.FieldTime` указывает, что вы хотите вставить поле времени. Второй параметр,`true`, указывает, что поле должно обновляться автоматически.
+Здесь, `FieldType.FieldTime` указывает, что вы хотите вставить поле времени. Второй параметр, `true`, указывает, что поле должно обновляться автоматически.
 
-## Шаг 3: Настройте культуру обновления полей
+## Шаг 3: Настройка культуры обновления полей
 
 Вот где происходит волшебство. Вы настроите культуру обновления полей, чтобы гарантировать, что поля обновляются в соответствии с указанными настройками культуры.
 
@@ -85,7 +87,7 @@ doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
 Теперь нам нужно реализовать пользовательский поставщик культуры, который будет контролировать, как применяются настройки культуры, такие как форматы даты, при обновлении поля.
 
-Мы создадим класс под названием`FieldUpdateCultureProvider` который реализует`IFieldUpdateCultureProvider` Интерфейс. Этот класс будет возвращать различные форматы культуры в зависимости от региона. Для этого примера мы настроим параметры русской и американской культуры.
+Мы создадим класс под названием `FieldUpdateCultureProvider` который реализует `IFieldUpdateCultureProvider` Интерфейс. Этот класс будет возвращать различные форматы культуры в зависимости от региона. Для этого примера мы настроим параметры русской и американской культуры.
 
 ```csharp
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
@@ -135,7 +137,7 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 doc.Save(dataDir + "UpdateCultureChamps.pdf");
 ```
 
- Заменять`"YOUR DOCUMENTS DIRECTORY"` с путем, по которому вы хотите сохранить файл. Документ будет сохранен как PDF с именем`UpdateCultureChamps.pdf`.
+Заменять `"YOUR DOCUMENTS DIRECTORY"` с путем, по которому вы хотите сохранить файл. Документ будет сохранен как PDF с именем `UpdateCultureChamps.pdf`.
 
 ## Заключение
 
@@ -153,18 +155,23 @@ doc.Save(dataDir + "UpdateCultureChamps.pdf");
 
 ### Нужна ли мне особая лицензия для использования функций обновления полей культуры в Aspose.Words?
 
- Для полной функциональности вам может понадобиться действующая лицензия Aspose. Вы можете получить ее через[Страница покупки Aspose](https://purchase.aspose.com/buy) или используйте временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Для полной функциональности вам может понадобиться действующая лицензия Aspose. Вы можете получить ее через [Страница покупки Aspose](https://purchase.aspose.com/buy) или используйте временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Как можно дополнительно настроить культуру обновления полей?
 
- Вы можете продлить`FieldUpdateCultureProvider` класс по созданию индивидуального поставщика культуры, отвечающего вашим конкретным потребностям.
+Вы можете продлить `FieldUpdateCultureProvider` класс по созданию индивидуального поставщика культуры, отвечающего вашим конкретным потребностям.
 
 ### Где я могу найти дополнительную информацию или получить помощь, если у меня возникнут проблемы?
 
- Подробную документацию и поддержку можно получить на сайте[Документация Aspose](https://reference.aspose.com/words/net/) и[Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+Подробную документацию и поддержку можно получить на сайте [Документация Aspose](https://reference.aspose.com/words/net/) и [Форум поддержки Aspose](https://forum.aspose.com/c/words/8).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

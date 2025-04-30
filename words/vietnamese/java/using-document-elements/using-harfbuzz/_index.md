@@ -1,14 +1,16 @@
 ---
-title: Sử dụng HarfBuzz trong Aspose.Words cho Java
-linktitle: Sử dụng HarfBuzz
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Học cách sử dụng HarfBuzz để định hình văn bản nâng cao trong Aspose.Words cho Java. Cải thiện khả năng hiển thị văn bản trong các tập lệnh phức tạp với hướng dẫn từng bước này.
-weight: 15
-url: /vi/java/using-document-elements/using-harfbuzz/
+"description": "Học cách sử dụng HarfBuzz để định hình văn bản nâng cao trong Aspose.Words cho Java. Cải thiện khả năng hiển thị văn bản trong các tập lệnh phức tạp với hướng dẫn từng bước này."
+"linktitle": "Sử dụng HarfBuzz"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng HarfBuzz trong Aspose.Words cho Java"
+"url": "/vi/java/using-document-elements/using-harfbuzz/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng HarfBuzz trong Aspose.Words cho Java
@@ -34,7 +36,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các �
 
 ## Bước 2: Tải tài liệu Word
 
- Trong bước này, chúng ta sẽ tải một tài liệu Word mẫu mà chúng ta muốn làm việc. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tài liệu Word của bạn:
+Trong bước này, chúng ta sẽ tải một tài liệu Word mẫu mà chúng ta muốn làm việc. Thay thế `"Your Document Directory"` với đường dẫn thực tế đến tài liệu Word của bạn:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -52,7 +54,7 @@ doc.getLayoutOptions().setTextShaperFactory(HarfBuzzTextShaperFactory.getInstanc
 
 ## Bước 4: Lưu tài liệu
 
- Bây giờ chúng ta đã cấu hình định hình văn bản HarfBuzz, chúng ta có thể lưu tài liệu. Thay thế`"Your Output Directory"` với thư mục đầu ra và tên tệp mong muốn:
+Bây giờ chúng ta đã cấu hình định hình văn bản HarfBuzz, chúng ta có thể lưu tài liệu. Thay thế `"Your Output Directory"` với thư mục đầu ra và tên tệp mong muốn:
 
 ```java
 String outPath = "Your Output Directory";
@@ -94,12 +96,17 @@ Có, HarfBuzz tương thích với các ứng dụng Java và có thể dễ dà
 
 ### 5. Tôi có thể tìm hiểu thêm về Aspose.Words cho Java ở đâu?
 
-Bạn có thể tìm thấy tài liệu và tài nguyên chi tiết cho Aspose.Words cho Java tại[Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên chi tiết cho Aspose.Words cho Java tại [Tài liệu API Aspose.Words](https://reference.aspose.com/words/java/).
 
 Bây giờ bạn đã hiểu toàn diện về cách sử dụng HarfBuzz trong Aspose.Words cho Java, bạn có thể bắt đầu kết hợp các tính năng định hình văn bản nâng cao vào ứng dụng Java của mình. Chúc bạn viết mã vui vẻ!
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Belgelerde Stil ve Yazı Tipleri Uygulama
-linktitle: Belgelerde Stil ve Yazı Tipleri Uygulama
-second_title: Aspose.Words Java Belge İşleme API'si
-description: Aspose.Words for Java kullanarak belgelere stil ve yazı tiplerini nasıl uygulayacağınızı öğrenin. Kaynak kodlu adım adım kılavuz. Belge biçimlendirmenin tüm potansiyelini ortaya çıkarın.
-weight: 10
-url: /tr/java/document-styling/applying-styles-fonts/
+"description": "Aspose.Words for Java kullanarak belgelere stil ve yazı tiplerini nasıl uygulayacağınızı öğrenin. Kaynak kodlu adım adım kılavuz. Belge biçimlendirmenin tüm potansiyelini ortaya çıkarın."
+"linktitle": "Belgelerde Stil ve Yazı Tipleri Uygulama"
+"second_title": "Aspose.Words Java Belge İşleme API'si"
+"title": "Belgelerde Stil ve Yazı Tipleri Uygulama"
+"url": "/tr/java/document-styling/applying-styles-fonts/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belgelerde Stil ve Yazı Tipleri Uygulama
@@ -22,7 +24,7 @@ Aspose.Words for Java, geliştiricilerin DOCX, DOC, RTF ve daha fazlası dahil o
 ## Stil ve Yazı Tiplerini Uygulama: Temeller
 
 ### Başlarken
-Başlamak için, Java geliştirme ortamınızı kurmanız ve Aspose.Words for Java kütüphanesini indirmeniz gerekir. İndirme bağlantısını bulabilirsiniz[Burada](https://releases.aspose.com/words/java/)Kütüphaneyi projenize dahil ettiğinizden emin olun.
+Başlamak için, Java geliştirme ortamınızı kurmanız ve Aspose.Words for Java kütüphanesini indirmeniz gerekir. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/words/java/)Kütüphaneyi projenize dahil ettiğinizden emin olun.
 
 ### Bir Belge Oluşturma
 Aspose.Words for Java kullanarak yeni bir belge oluşturarak başlayalım:
@@ -101,19 +103,19 @@ builder.getFont().setBold(true);
 ## SSS
 
 ### Bir belgedeki farklı paragraflara farklı stiller nasıl uygulayabilirim?
- Farklı paragraflara farklı stiller uygulamak için, birden çok örnek oluşturun`DocumentBuilder` ve her paragraf için ayrı ayrı stiller ayarlayın.
+Farklı paragraflara farklı stiller uygulamak için, birden çok örnek oluşturun `DocumentBuilder` ve her paragraf için ayrı ayrı stiller ayarlayın.
 
 ### Mevcut stilleri bir şablon belgesinden içe aktarabilir miyim?
 Evet, Aspose.Words for Java kullanarak bir şablon belgesinden stilleri içe aktarabilirsiniz. Ayrıntılı talimatlar için belgelere bakın.
 
 ### Belge içeriğine göre koşullu biçimlendirme uygulamak mümkün müdür?
-Aspose.Words for Java güçlü koşullu biçimlendirme yetenekleri sağlar. Belgedeki belirli koşullara göre stiller veya yazı tipleri uygulayan kurallar oluşturabilirsiniz.
+Java için Aspose.Words güçlü koşullu biçimlendirme yetenekleri sağlar. Belgedeki belirli koşullara göre stiller veya yazı tipleri uygulayan kurallar oluşturabilirsiniz.
 
 ### Latin alfabesi dışındaki yazı tipleri ve karakterlerle çalışabilir miyim?
 Kesinlikle! Aspose.Words for Java, çeşitli dillerden ve betiklerden geniş bir yelpazede yazı tiplerini ve karakterleri destekler.
 
 ### Belirli stillere sahip metinlere nasıl köprü metni ekleyebilirim?
- Metne köprü eklemek için şunu kullanın:`FieldHyperlink` İstenilen biçimlendirmeyi elde etmek için sınıf, stillerle birlikte kullanılır.
+Metne köprü metni eklemek için şunu kullanın: `FieldHyperlink` İstenilen biçimlendirmeyi elde etmek için sınıf, stillerle birlikte kullanılır.
 
 ### Belgenin boyutu veya karmaşıklığı açısından herhangi bir sınırlama var mı?
 Java için Aspose.Words, farklı boyutlarda ve karmaşıklıktaki belgeleri işleyebilir. Ancak, aşırı büyük belgeler ek bellek kaynakları gerektirebilir.
@@ -121,9 +123,14 @@ Java için Aspose.Words, farklı boyutlarda ve karmaşıklıktaki belgeleri işl
 ## Çözüm
 
 Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak belgelere stil ve yazı tipleri uygulama sanatını inceledik. İster iş raporları oluşturun, ister faturalar oluşturun veya güzel belgeler hazırlayın, belge biçimlendirme konusunda ustalaşmak çok önemlidir. Aspose.Words for Java'nın gücüyle, belgelerinizi parlatmak için gereken araçlara sahipsiniz.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

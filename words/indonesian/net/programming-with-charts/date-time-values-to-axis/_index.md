@@ -1,14 +1,16 @@
 ---
-title: Tambahkan Nilai Tanggal Waktu Ke Sumbu Bagan
-linktitle: Tambahkan Nilai Tanggal Waktu Ke Sumbu Bagan
-second_title: API Pemrosesan Dokumen Aspose.Words
-description: Pelajari cara menambahkan nilai tanggal dan waktu ke sumbu bagan menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang komprehensif ini.
-weight: 10
-url: /id/net/programming-with-charts/date-time-values-to-axis/
+"description": "Pelajari cara menambahkan nilai tanggal dan waktu ke sumbu bagan menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Tambahkan Nilai Tanggal Waktu Ke Sumbu Bagan"
+"second_title": "API Pemrosesan Dokumen Aspose.Words"
+"title": "Tambahkan Nilai Tanggal Waktu Ke Sumbu Bagan"
+"url": "/id/net/programming-with-charts/date-time-values-to-axis/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Nilai Tanggal Waktu Ke Sumbu Bagan
@@ -22,9 +24,9 @@ Membuat bagan dalam dokumen dapat menjadi cara yang ampuh untuk memvisualisasika
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 1. Visual Studio atau IDE .NET apa pun: Anda memerlukan lingkungan pengembangan untuk menulis dan menjalankan kode .NET Anda.
-2.  Aspose.Words untuk .NET: Anda harus menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/words/net/).
+2. Aspose.Words untuk .NET: Anda harus menginstal pustaka Aspose.Words untuk .NET. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/net/).
 3. Pengetahuan dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#.
-4.  Lisensi Aspose yang valid: Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+4. Lisensi Aspose yang valid: Anda dapat memperoleh lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ## Mengimpor Ruang Nama
 
@@ -47,7 +49,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Langkah 2: Buat Dokumen Baru dan DocumentBuilder
 
- Selanjutnya, buat instance baru dari`Document` kelas dan a`DocumentBuilder` objek. Objek-objek ini akan membantu Anda membuat dan memanipulasi dokumen Anda.
+Selanjutnya, buat instance baru dari `Document` kelas dan a `DocumentBuilder` objek. Objek-objek ini akan membantu Anda membuat dan memanipulasi dokumen Anda.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 ## Langkah 3: Masukkan Bagan ke dalam Dokumen
 
- Sekarang, masukkan bagan ke dalam dokumen Anda menggunakan`DocumentBuilder` objek. Dalam contoh ini, kami menggunakan bagan kolom, tetapi Anda juga dapat memilih jenis lain.
+Sekarang, masukkan bagan ke dalam dokumen Anda menggunakan `DocumentBuilder` objek. Dalam contoh ini, kami menggunakan bagan kolom, tetapi Anda juga dapat memilih jenis lain.
 
 ```csharp
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
@@ -123,7 +125,7 @@ Anda dapat menyesuaikan tampilan dengan mengakses properti bagan dan mengatur ga
 
 ### Apakah mungkin untuk menambahkan beberapa seri ke bagan?
 
- Tentu saja! Anda dapat menambahkan beberapa seri ke bagan Anda dengan memanggil`Series.Add` metode beberapa kali dengan data yang berbeda.
+Tentu saja! Anda dapat menambahkan beberapa seri ke bagan Anda dengan memanggil `Series.Add` metode beberapa kali dengan data yang berbeda.
 
 ### Bagaimana jika saya perlu memperbarui data grafik secara dinamis?
 
@@ -131,10 +133,15 @@ Anda dapat memperbarui data bagan secara dinamis dengan memanipulasi properti se
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci untuk Aspose.Words untuk .NET?
 
- Anda dapat menemukan dokumentasi yang lebih rinci[Di Sini](https://reference.aspose.com/words/net/).
+Anda dapat menemukan dokumentasi yang lebih rinci [Di Sini](https://reference.aspose.com/words/net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

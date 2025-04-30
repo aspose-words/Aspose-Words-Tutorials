@@ -7,8 +7,11 @@ weight: 10
 url: /net/join-and-append-documents/update-page-layout/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Page Layout
@@ -131,9 +134,13 @@ Aspose offers a free trial version of the library, which you can obtain [here](h
 ### Where can I get support for Aspose.Words for .NET?  
 You can get support through the [Aspose support forum](https://forum.aspose.com/c/words/8).
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

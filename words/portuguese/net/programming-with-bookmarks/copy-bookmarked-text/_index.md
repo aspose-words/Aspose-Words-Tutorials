@@ -1,33 +1,35 @@
 ---
-title: Copiar texto marcado em documento do Word
-linktitle: Copiar texto marcado em documento do Word
-second_title: API de processamento de documentos Aspose.Words
-description: Copie facilmente texto marcado entre documentos do Word usando o Aspose.Words para .NET. Aprenda como com este guia passo a passo.
-weight: 10
-url: /pt/net/programming-with-bookmarks/copy-bookmarked-text/
+"description": "Copie facilmente textos marcados entre documentos do Word usando o Aspose.Words para .NET. Aprenda como com este guia passo a passo."
+"linktitle": "Copiar texto marcado em documento do Word"
+"second_title": "API de processamento de documentos Aspose.Words"
+"title": "Copiar texto marcado em documento do Word"
+"url": "/pt/net/programming-with-bookmarks/copy-bookmarked-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copiar texto marcado em documento do Word
 
 ## Introdução
 
-Já se viu precisando copiar seções específicas de um documento do Word para outro? Bem, você está com sorte! Neste tutorial, mostraremos como copiar texto marcado de um documento do Word para outro usando o Aspose.Words para .NET. Não importa se você está criando um relatório dinâmico ou automatizando a geração de documentos, este guia simplificará o processo para você.
+Já se viu precisando copiar seções específicas de um documento do Word para outro? Bem, você está com sorte! Neste tutorial, mostraremos como copiar texto marcado de um documento do Word para outro usando o Aspose.Words para .NET. Seja para criar um relatório dinâmico ou automatizar a geração de documentos, este guia simplificará o processo para você.
 
 ## Pré-requisitos
 
 Antes de começarmos, certifique-se de ter o seguinte:
 
--  Biblioteca Aspose.Words para .NET: Você pode baixá-la em[aqui](https://releases.aspose.com/words/net/).
+- Biblioteca Aspose.Words para .NET: Você pode baixá-la em [aqui](https://releases.aspose.com/words/net/).
 - Ambiente de desenvolvimento: Visual Studio ou qualquer outro ambiente de desenvolvimento .NET.
-- Conhecimento básico de C#: Familiaridade com programação em C# e framework .NET.
+- Conhecimento básico de C#: familiaridade com programação em C# e framework .NET.
 
 ## Importar namespaces
 
-Para começar, certifique-se de ter os namespaces necessários importados em seu projeto:
+Para começar, certifique-se de ter os namespaces necessários importados no seu projeto:
 
 ```csharp
 using Aspose.Words;
@@ -37,14 +39,14 @@ using Aspose.Words.Bookmark;
 
 ## Etapa 1: Carregue o documento de origem
 
-Primeiramente, você precisa carregar o documento de origem que contém o texto marcado que você deseja copiar.
+Primeiro, você precisa carregar o documento de origem que contém o texto marcado que você deseja copiar.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document srcDoc = new Document(dataDir + "Bookmarks.docx");
 ```
 
- Aqui,`dataDir` é o caminho para o diretório do seu documento e`Bookmarks.docx` é o documento de origem.
+Aqui, `dataDir` é o caminho para o diretório do seu documento e `Bookmarks.docx` é o documento de origem.
 
 ## Etapa 2: Identifique o marcador
 
@@ -54,9 +56,9 @@ Em seguida, identifique o marcador que você deseja copiar do documento de orige
 Bookmark srcBookmark = srcDoc.Range.Bookmarks["MyBookmark1"];
 ```
 
- Substituir`"MyBookmark1"` com o nome real do seu marcador.
+Substituir `"MyBookmark1"` com o nome real do seu marcador.
 
-## Etapa 3: Crie o documento de destino
+## Etapa 3: Crie o Documento de Destino
 
 Agora, crie um novo documento onde o texto marcado será copiado.
 
@@ -67,7 +69,7 @@ CompositeNode dstNode = dstDoc.LastSection.Body;
 
 ## Etapa 4: Importar conteúdo marcado
 
- Para garantir que os estilos e a formatação sejam preservados, use`NodeImporter` para importar o conteúdo marcado do documento de origem para o documento de destino.
+Para garantir que os estilos e a formatação sejam preservados, use `NodeImporter` para importar o conteúdo marcado do documento de origem para o documento de destino.
 
 ```csharp
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting);
@@ -110,7 +112,7 @@ dstDoc.Save(dataDir + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 
 ## Conclusão
 
-E é isso! Você copiou com sucesso o texto marcado de um documento do Word para outro usando o Aspose.Words para .NET. Este método é poderoso para automatizar tarefas de manipulação de documentos, tornando seu fluxo de trabalho mais eficiente e simplificado.
+pronto! Você copiou com sucesso o texto marcado de um documento do Word para outro usando o Aspose.Words para .NET. Este método é poderoso para automatizar tarefas de manipulação de documentos, tornando seu fluxo de trabalho mais eficiente e simplificado.
 
 ## Perguntas frequentes
 
@@ -118,19 +120,24 @@ E é isso! Você copiou com sucesso o texto marcado de um documento do Word para
 Sim, você pode iterar por vários favoritos e usar o mesmo método para copiar cada um.
 
 ### O que acontece se o marcador não for encontrado?
- O`Range.Bookmarks` propriedade retornará`null`, portanto, certifique-se de lidar com esse caso para evitar exceções.
+O `Range.Bookmarks` a propriedade retornará `null`, portanto, certifique-se de lidar com esse caso para evitar exceções.
 
 ### Posso preservar a formatação do marcador original?
- Absolutamente! Usando`ImportFormatMode.KeepSourceFormatting` garante que a formatação original seja preservada.
+Com certeza! Usando `ImportFormatMode.KeepSourceFormatting` garante que a formatação original seja preservada.
 
 ### Existe um limite para o tamanho do texto marcado?
-Não há um limite específico, mas o desempenho pode variar com documentos extremamente grandes.
+Não há limite específico, mas o desempenho pode variar com documentos extremamente grandes.
 
-### Posso copiar texto entre diferentes formatos de documento do Word?
+### Posso copiar texto entre diferentes formatos de documentos do Word?
 Sim, o Aspose.Words suporta vários formatos do Word, e o método funciona em todos esses formatos.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

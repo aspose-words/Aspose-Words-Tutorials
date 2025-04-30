@@ -1,68 +1,70 @@
 ---
-title: Nastavte možnosti Endnote
-linktitle: Nastavte možnosti Endnote
-second_title: Aspose.Words API pro zpracování dokumentů
-description: Naučte se, jak nastavit možnosti koncových poznámek v dokumentech aplikace Word pomocí Aspose.Words for .NET s tímto komplexním průvodcem krok za krokem.
-weight: 10
-url: /cs/net/working-with-footnote-and-endnote/set-endnote-options/
+"description": "Naučte se, jak nastavit možnosti poznámky na konci textu v dokumentech Word pomocí Aspose.Words pro .NET v tomto komplexním podrobném návodu."
+"linktitle": "Nastavení možností poznámky na konci"
+"second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
+"title": "Nastavení možností poznámky na konci"
+"url": "/cs/net/working-with-footnote-and-endnote/set-endnote-options/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte možnosti Endnote
+# Nastavení možností poznámky na konci
 
 ## Zavedení
 
-Chcete vylepšit své dokumenty Word efektivní správou vysvětlivek? Už nehledejte! V tomto tutoriálu vás provedeme procesem nastavení možností koncových poznámek v dokumentech aplikace Word pomocí Aspose.Words for .NET. Na konci této příručky budete profesionálem v přizpůsobování koncových poznámek tak, aby vyhovovaly potřebám vašeho dokumentu.
+Chcete vylepšit své dokumenty Word efektivní správou poznámek na konci? Už nehledejte! V tomto tutoriálu vás provedeme procesem nastavení možností poznámek na konci v dokumentech Word pomocí Aspose.Words pro .NET. Po čtení tohoto průvodce budete profesionálem v přizpůsobování poznámek na konci potřebám vašeho dokumentu.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíte do tutoriálu, ujistěte se, že máte splněny následující předpoklady:
 
--  Aspose.Words for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words for .NET. Můžete si jej stáhnout z[zde](https://releases.aspose.com/words/net/).
-- Vývojové prostředí: Mějte nastavené vývojové prostředí, jako je Visual Studio.
-- Základní znalost C#: Základní znalost programování v C# bude prospěšná.
+- Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Words pro .NET. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/net/).
+- Vývojové prostředí: Mějte nastavené vývojové prostředí, například Visual Studio.
+- Základní znalost C#: Základní znalost programování v C# bude výhodou.
 
 ## Importovat jmenné prostory
 
-Chcete-li začít, budete muset importovat potřebné jmenné prostory. Tyto obory názvů poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty aplikace Word.
+Pro začátek budete muset importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty Wordu.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Notes;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
- Nejprve načteme dokument, kde chceme nastavit možnosti koncové poznámky. Použijeme`Document` třídy z knihovny Aspose.Words, abyste toho dosáhli.
+Nejprve si načtěme dokument, kde chceme nastavit možnosti poznámky na konci. Použijeme `Document` třída z knihovny Aspose.Words, aby toho bylo dosaženo.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-## Krok 2: Inicializujte DocumentBuilder
+## Krok 2: Inicializace nástroje DocumentBuilder
 
- Dále inicializujeme`DocumentBuilder`třída. Tato třída poskytuje jednoduchý způsob, jak přidat obsah do dokumentu.
+Dále inicializujeme `DocumentBuilder` třída. Tato třída poskytuje jednoduchý způsob, jak do dokumentu přidat obsah.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Krok 3: Přidejte text a vložte vysvětlivku
+## Krok 3: Přidání textu a vložení poznámky na konci
 
- Nyní do dokumentu přidáme nějaký text a vložíme vysvětlivku. The`InsertFootnote` metoda`DocumentBuilder` třída nám umožňuje přidávat do dokumentu vysvětlivky.
+Nyní přidejme do dokumentu nějaký text a vložme poznámku na konci. `InsertFootnote` metoda `DocumentBuilder` Třída nám umožňuje přidávat do dokumentu poznámky na konci.
 
 ```csharp
 builder.Write("Some text");
 builder.InsertFootnote(FootnoteType.Endnote, "Footnote text.");
 ```
 
-## Krok 4: Otevřete a nastavte možnosti Endnote
+## Krok 4: Přístup k možnostem poznámky na konci textu a jejich nastavení
 
- Chcete-li přizpůsobit možnosti koncových poznámek, musíme získat přístup k`EndnoteOptions` vlastnictvím`Document` třída. Poté můžeme nastavit různé možnosti, jako je pravidlo restartu a pozice.
+Pro přizpůsobení možností poznámky na konci textu potřebujeme přístup k `EndnoteOptions` majetek `Document` třída. Pak můžeme nastavit různé možnosti, jako například pravidlo restartu a pozici.
 
 ```csharp
 EndnoteOptions option = doc.EndnoteOptions;
@@ -72,7 +74,7 @@ option.Position = EndnotePosition.EndOfSection;
 
 ## Krok 5: Uložte dokument
 
- Nakonec uložme dokument s aktualizovanými možnostmi koncových poznámek. The`Save` metoda`Document` class nám umožňuje uložit dokument do zadaného adresáře.
+Nakonec uložme dokument s aktualizovanými možnostmi vysvětlivky. `Save` metoda `Document` Třída nám umožňuje uložit dokument do zadaného adresáře.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithFootnotes.SetEndnoteOptions.docx");
@@ -80,27 +82,32 @@ doc.Save(dataDir + "WorkingWithFootnotes.SetEndnoteOptions.docx");
 
 ## Závěr
 
-Nastavení možností koncových poznámek v dokumentech aplikace Word pomocí Aspose.Words pro .NET je hračka s těmito jednoduchými kroky. Přizpůsobením pravidla restartování a pozice koncových poznámek můžete upravit své dokumenty tak, aby splňovaly specifické požadavky. S Aspose.Words máte možnost manipulovat s dokumenty Wordu na dosah ruky.
+Nastavení možností poznámek na konci textu v dokumentech Word pomocí Aspose.Words pro .NET je s těmito jednoduchými kroky hračka. Úpravou pravidla restartu a pozice poznámek na konci textu můžete přizpůsobit své dokumenty specifickým požadavkům. S Aspose.Words máte možnost manipulovat s dokumenty Wordu na dosah ruky.
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.Words for .NET?
-Aspose.Words for .NET je výkonná knihovna pro programovou manipulaci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat a převádět dokumenty aplikace Word v různých formátech.
+### Co je Aspose.Words pro .NET?
+Aspose.Words pro .NET je výkonná knihovna pro programovou manipulaci s dokumenty Wordu. Umožňuje vývojářům vytvářet, upravovat a převádět dokumenty Wordu v různých formátech.
 
 ### Mohu používat Aspose.Words zdarma?
- Aspose.Words můžete používat s bezplatnou zkušební verzí. Pro rozšířené použití si můžete zakoupit licenci od[zde](https://purchase.aspose.com/buy).
+Aspose.Words můžete používat s bezplatnou zkušební verzí. Pro delší používání si můžete zakoupit licenci od [zde](https://purchase.aspose.com/buy).
 
-### Co jsou koncové poznámky?
-Vysvětlivky jsou odkazy nebo poznámky umístěné na konci oddílu nebo dokumentu. Poskytují další informace nebo citace.
+### Co jsou poznámky na konci?
+Koncové poznámky jsou odkazy nebo poznámky umístěné na konci oddílu nebo dokumentu. Poskytují doplňující informace nebo citace.
 
-### Jak přizpůsobím vzhled vysvětlivek?
- Volby koncových poznámek, jako je číslování, umístění a pravidla restartování, můžete přizpůsobit pomocí`EndnoteOptions` třídy v Aspose.Words pro .NET.
+### Jak si mohu přizpůsobit vzhled vysvětlivek?
+Možnosti poznámky na konci textu, jako je číslování, pozice a pravidla pro restartování, můžete přizpůsobit pomocí `EndnoteOptions` třída v Aspose.Words pro .NET.
 
 ### Kde najdu další dokumentaci k Aspose.Words pro .NET?
- Podrobná dokumentace je k dispozici na[Aspose.Words pro .NET dokumentaci](https://reference.aspose.com/words/net/) strana.
+Podrobná dokumentace je k dispozici na [Dokumentace k Aspose.Words pro .NET](https://reference.aspose.com/words/net/) strana.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Xóa Phạm Vi Văn Bản Trong Tài Liệu Word
-linktitle: Xóa Phạm Vi Văn Bản Trong Tài Liệu Word
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách xóa văn bản khỏi một phạm vi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển C#.
-weight: 10
-url: /vi/net/programming-with-ranges/ranges-delete-text/
+"description": "Tìm hiểu cách xóa văn bản khỏi một phạm vi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển C#."
+"linktitle": "Xóa Phạm Vi Văn Bản Trong Tài Liệu Word"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Xóa Phạm Vi Văn Bản Trong Tài Liệu Word"
+"url": "/vi/net/programming-with-ranges/ranges-delete-text/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Phạm Vi Văn Bản Trong Tài Liệu Word
@@ -21,7 +23,7 @@ Nếu bạn từng thấy mình cần xóa các phần văn bản cụ thể tro
 
 Trước khi bắt đầu phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
-1.  Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Đảm bảo bạn có thư viện Aspose.Words cho .NET. Nếu không, bạn có thể tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Một IDE như Visual Studio.
 3. Kiến thức cơ bản về C#: Có một số hiểu biết về lập trình C#.
 
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước đơn giả
 
 Đầu tiên, bạn cần thiết lập thư mục dự án. Đây là nơi lưu trữ tài liệu của bạn.
 
-1.  Tạo một thư mục: Tạo một thư mục có tên`Documents` trong thư mục dự án của bạn.
+1. Tạo một thư mục: Tạo một thư mục có tên `Documents` trong thư mục dự án của bạn.
 2. Thêm tài liệu của bạn: Đặt tài liệu Word (`Document.docx`) bạn muốn sửa đổi bên trong thư mục này.
 
 ```csharp
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 
 Tiếp theo, chúng ta cần tải tài liệu Word vào ứng dụng của mình.
 
-1.  Khởi tạo Tài liệu: Sử dụng`Document` lớp để tải tài liệu Word của bạn.
+1. Khởi tạo Tài liệu: Sử dụng `Document` lớp để tải tài liệu Word của bạn.
 2. Cung cấp đường dẫn: Đảm bảo bạn cung cấp đường dẫn chính xác đến tài liệu.
 
 ```csharp
@@ -63,8 +65,8 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Sau khi tài liệu được tải, chúng ta có thể tiến hành xóa văn bản khỏi một phạm vi cụ thể, trong trường hợp này là phần đầu tiên.
 
-1.  Truy cập Phần: Truy cập phần đầu tiên của tài liệu bằng cách sử dụng`doc.Sections[0]`.
-2.  Xóa phạm vi: Sử dụng`Range.Delete` phương pháp xóa toàn bộ văn bản trong phần này.
+1. Truy cập Phần: Truy cập phần đầu tiên của tài liệu bằng cách sử dụng `doc.Sections[0]`.
+2. Xóa phạm vi: Sử dụng `Range.Delete` phương pháp xóa toàn bộ văn bản trong phần này.
 
 ```csharp
 // Xóa văn bản trong phần đầu tiên của tài liệu
@@ -95,7 +97,7 @@ Aspose.Words for .NET là một thư viện lớp để xử lý các tài liệ
 
 ### Tôi có thể xóa văn bản khỏi một đoạn văn cụ thể thay vì một phần không?
 
- Có, bạn có thể xóa văn bản khỏi một đoạn văn cụ thể bằng cách truy cập đoạn văn mong muốn và sử dụng`Range.Delete` phương pháp.
+Có, bạn có thể xóa văn bản khỏi một đoạn văn cụ thể bằng cách truy cập đoạn văn mong muốn và sử dụng `Range.Delete` phương pháp.
 
 ### Có thể xóa văn bản có điều kiện không?
 
@@ -107,10 +109,15 @@ Nếu bạn chưa lưu tài liệu sau khi xóa văn bản, bạn có thể tả
 
 ### Tôi có thể xóa văn bản khỏi nhiều phần cùng một lúc không?
 
- Có, bạn có thể lặp qua nhiều phần và sử dụng`Range.Delete` phương pháp xóa văn bản khỏi mỗi phần.
+Có, bạn có thể lặp qua nhiều phần và sử dụng `Range.Delete` phương pháp xóa văn bản khỏi mỗi phần.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

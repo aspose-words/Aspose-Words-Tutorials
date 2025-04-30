@@ -1,14 +1,16 @@
 ---
-title: Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego
-linktitle: Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego
-second_title: Aspose.Words API zarządzania dokumentami Python
-description: Dowiedz się, jak opanować formatowanie dokumentów za pomocą Aspose.Words dla Pythona. Twórz atrakcyjne wizualnie dokumenty ze stylami czcionek, tabelami, obrazami i nie tylko. Przewodnik krok po kroku z przykładami kodu.
-weight: 14
-url: /pl/python-net/document-splitting-and-formatting/document-formatting-techniques/
+"description": "Dowiedz się, jak opanować formatowanie dokumentów za pomocą Aspose.Words dla Pythona. Twórz atrakcyjne wizualnie dokumenty ze stylami czcionek, tabelami, obrazami i nie tylko. Przewodnik krok po kroku z przykładami kodu."
+"linktitle": "Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego"
+"second_title": "Aspose.Words API zarządzania dokumentami Python"
+"title": "Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego"
+"url": "/pl/python-net/document-splitting-and-formatting/document-formatting-techniques/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opanowanie technik formatowania dokumentów w celu uzyskania efektu wizualnego
@@ -46,7 +48,7 @@ doc.save("basic_document.docx")
 Aby skutecznie ustrukturyzować dokument, formatowanie akapitów i nagłówków jest kluczowe. Osiągnij to, korzystając z poniższego kodu:
 
 ```python
-# For paragraphs
+# Do akapitów
 paragraph.alignment = aw.ParagraphAlignment.CENTER
 builder.paragraph_format.line_spacing = 1.5
 ```
@@ -104,7 +106,7 @@ builder.paragraph_format.style = doc.styles.get_by_name(aw.StyleIdentifier.TITLE
 
 ## Obsługa nagłówków i stopek
 
-Nagłówki i stopki oferują dodatkowy kontekst. Wykorzystaj je z tym kodem:
+Nagłówki i stopki oferują dodatkowy kontekst. Wykorzystaj je za pomocą tego kodu:
 
 ```python
 section = doc.sections[0]
@@ -119,7 +121,7 @@ Dodaj spis treści i hiperłącza, aby ułatwić nawigację:
 
 ```python
 doc.update_fields()
-builder.insert_hyperlink("Jump to Section 2", "#section2")
+builder.insert_hyperlink("Jump to Section 2", "#sekcja 2")
 ```
 
 ## Bezpieczeństwo i ochrona dokumentów
@@ -151,21 +153,26 @@ pip install aspose-words
 ```
 
 ### Czy mogę stosować różne style do akapitów i nagłówków?
- Tak, możesz stosować różne style do akapitów i nagłówków, korzystając z`paragraph_format.style` nieruchomość.
+Tak, możesz stosować różne style do akapitów i nagłówków, korzystając z `paragraph_format.style` nieruchomość.
 
 ### Czy mogę dodać obrazy do moich dokumentów?
- Oczywiście! Możesz wstawiać obrazy do swoich dokumentów za pomocą`insert_image` metoda.
+Oczywiście! Możesz wstawiać obrazy do swoich dokumentów za pomocą `insert_image` metoda.
 
 ### Czy mogę zabezpieczyć mój dokument hasłem?
- Tak, możesz zabezpieczyć swój dokument, ustawiając ochronę dokumentu za pomocą`protect` metoda.
+Tak, możesz zabezpieczyć swój dokument, ustawiając ochronę dokumentu za pomocą `protect` metoda.
 
 ### Do jakich formatów mogę eksportować swoje dokumenty?
 Aspose.Words umożliwia eksportowanie dokumentów do różnych formatów, w tym PDF, DOCX i innych.
 
- Aby uzyskać więcej szczegółów oraz uzyskać dostęp do dokumentacji i plików do pobrania Aspose.Words for Python, odwiedź stronę[Tutaj](https://reference.aspose.com/words/python-net/).
+Aby uzyskać więcej szczegółów oraz uzyskać dostęp do dokumentacji i plików do pobrania Aspose.Words for Python, odwiedź stronę [Tutaj](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

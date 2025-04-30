@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Document Shapes trong Aspose.Words cho Java
-linktitle: Sử dụng hình dạng tài liệu
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Mở khóa sức mạnh của hình dạng tài liệu trong Aspose.Words cho Java. Học cách tạo tài liệu hấp dẫn trực quan với các ví dụ từng bước.
-weight: 14
-url: /vi/java/document-conversion-and-export/using-document-shapes/
+"description": "Mở khóa sức mạnh của hình dạng tài liệu trong Aspose.Words cho Java. Học cách tạo tài liệu hấp dẫn trực quan với các ví dụ từng bước."
+"linktitle": "Sử dụng hình dạng tài liệu"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Sử dụng Document Shapes trong Aspose.Words cho Java"
+"url": "/vi/java/document-conversion-and-export/using-document-shapes/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Document Shapes trong Aspose.Words cho Java
@@ -20,13 +22,13 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giớ
 
 ## Bắt đầu với Hình dạng Tài liệu
 
- Trước khi bắt đầu code, hãy thiết lập môi trường của chúng ta. Đảm bảo bạn đã tích hợp Aspose.Words for Java vào dự án của mình. Nếu bạn chưa có, bạn có thể tải xuống từ trang web Aspose[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
+Trước khi bắt đầu code, hãy thiết lập môi trường của chúng ta. Đảm bảo bạn đã tích hợp Aspose.Words for Java vào dự án của mình. Nếu bạn chưa có, bạn có thể tải xuống từ trang web Aspose [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
 
 ## Thêm hình dạng vào tài liệu
 
 ### Chèn GroupShape
 
- MỘT`GroupShape` cho phép bạn nhóm nhiều hình dạng lại với nhau. Sau đây là cách bạn có thể tạo và chèn một`GroupShape`:
+MỘT `GroupShape` cho phép bạn nhóm nhiều hình dạng lại với nhau. Sau đây là cách bạn có thể tạo và chèn một `GroupShape`:
 
 ```java
 Document doc = new Document();
@@ -58,7 +60,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 
 ### Chèn hình hộp văn bản
 
- Để chèn hình hộp văn bản, bạn có thể sử dụng`insertShape` phương pháp như thể hiện trong ví dụ dưới đây:
+Để chèn hình hộp văn bản, bạn có thể sử dụng `insertShape` phương pháp như thể hiện trong ví dụ dưới đây:
 
 ```java
 Document doc = new Document();
@@ -178,7 +180,7 @@ Aspose.Words for Java là một thư viện Java cho phép các nhà phát tri�
 
 ### Làm thế nào tôi có thể tải xuống Aspose.Words cho Java?
 
- Bạn có thể tải xuống Aspose.Words cho Java từ trang web Aspose bằng cách nhấp vào liên kết này:[Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
+Bạn có thể tải xuống Aspose.Words cho Java từ trang web Aspose bằng cách nhấp vào liên kết này: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
 
 ### Lợi ích của việc sử dụng hình dạng tài liệu là gì?
 
@@ -191,9 +193,14 @@ Có, bạn có thể tùy chỉnh giao diện của hình dạng bằng cách đ
 ### Aspose.Words cho Java có tương thích với SmartArt không?
 
 Có, Aspose.Words for Java hỗ trợ các hình dạng SmartArt, cho phép bạn làm việc với các sơ đồ và đồ họa phức tạp trong tài liệu của mình.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

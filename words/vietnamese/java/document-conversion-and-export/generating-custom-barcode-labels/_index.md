@@ -1,14 +1,16 @@
 ---
-title: Tạo nhãn mã vạch tùy chỉnh trong Aspose.Words cho Java
-linktitle: Tạo nhãn mã vạch tùy chỉnh
-second_title: API xử lý tài liệu Java Aspose.Words
-description: Tạo nhãn mã vạch tùy chỉnh trong Aspose.Words cho Java. Tìm hiểu cách tạo giải pháp mã vạch được cá nhân hóa bằng Aspose.Words cho Java trong hướng dẫn từng bước này.
-weight: 10
-url: /vi/java/document-conversion-and-export/generating-custom-barcode-labels/
+"description": "Tạo nhãn mã vạch tùy chỉnh trong Aspose.Words cho Java. Tìm hiểu cách tạo giải pháp mã vạch được cá nhân hóa bằng Aspose.Words cho Java trong hướng dẫn từng bước này."
+"linktitle": "Tạo nhãn mã vạch tùy chỉnh"
+"second_title": "API xử lý tài liệu Java Aspose.Words"
+"title": "Tạo nhãn mã vạch tùy chỉnh trong Aspose.Words cho Java"
+"url": "/vi/java/document-conversion-and-export/generating-custom-barcode-labels/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo nhãn mã vạch tùy chỉnh trong Aspose.Words cho Java
@@ -24,10 +26,10 @@ Mã vạch là yếu tố thiết yếu trong các ứng dụng hiện đại, c
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn có những điều sau:
 
 - Bộ công cụ phát triển Java (JDK): Phiên bản 8 trở lên.
--  Thư viện Aspose.Words cho Java:[Tải xuống tại đây](https://releases.aspose.com/words/java/).
--  Thư viện Aspose.BarCode cho Java:[Tải xuống tại đây](https://releases.aspose.com/).
+- Thư viện Aspose.Words cho Java: [Tải xuống tại đây](https://releases.aspose.com/words/java/).
+- Thư viện Aspose.BarCode cho Java: [Tải xuống tại đây](https://releases.aspose.com/).
 - Môi trường phát triển tích hợp (IDE): IntelliJ IDEA, Eclipse hoặc bất kỳ IDE nào bạn thích.
--  Giấy phép tạm thời: Xin một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập không hạn chế.
+- Giấy phép tạm thời: Xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập không hạn chế.
 
 ## Nhập gói
 
@@ -77,11 +79,11 @@ class CustomBarcodeGeneratorUtils {
 ### Giải thích:
 
 - `twipsToPixels` Phương pháp: Chuyển đổi twip (được sử dụng trong tài liệu Word) thành pixel.
-- `convertColor` Phương pháp: Dịch mã màu thập lục phân sang`Color` đồ vật.
+- `convertColor` Phương pháp: Dịch mã màu thập lục phân sang `Color` đồ vật.
 
 ## Bước 2: Triển khai Trình tạo mã vạch tùy chỉnh
 
- Chúng tôi sẽ thực hiện`IBarcodeGenerator` giao diện để tạo mã vạch và tích hợp chúng với Aspose.Words.
+Chúng tôi sẽ thực hiện `IBarcodeGenerator` giao diện để tạo mã vạch và tích hợp chúng với Aspose.Words.
 
 ### Mã số:
 
@@ -116,7 +118,7 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ### Giải thích:
 
 - `getBarcodeImage` Phương pháp:
-  -  Tạo ra một`BarcodeGenerator` ví dụ.
+  - Tạo ra một `BarcodeGenerator` ví dụ.
   - Đặt màu mã vạch, màu nền và tạo hình ảnh.
 
 ## Bước 3: Tạo mã vạch và thêm vào tài liệu Word
@@ -171,24 +173,29 @@ Bằng cách làm theo các bước này, bạn có thể dễ dàng tạo và n
 ## Câu hỏi thường gặp
 
 1. Tôi có thể sử dụng Aspose.Words cho Java mà không cần giấy phép không?
- Có, nhưng nó sẽ có một số hạn chế. Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
+Có, nhưng nó sẽ có một số hạn chế. Có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
 
 2. Tôi có thể tạo những loại mã vạch nào?
-Aspose.BarCode hỗ trợ QR, Mã 128, EAN-13 và nhiều loại khác. Kiểm tra[tài liệu](https://reference.aspose.com/words/java/) để có danh sách đầy đủ.
+Aspose.BarCode hỗ trợ QR, Mã 128, EAN-13 và nhiều loại khác. Kiểm tra [tài liệu](https://reference.aspose.com/words/java/) để có danh sách đầy đủ.
 
 3. Làm thế nào để thay đổi kích thước mã vạch?
- Điều chỉnh`XDimension` Và`BarHeight` các thông số trong`BarcodeGenerator` cài đặt.
+Điều chỉnh `XDimension` Và `BarHeight` các thông số trong `BarcodeGenerator` cài đặt.
 
 4. Tôi có thể sử dụng phông chữ tùy chỉnh cho mã vạch không?
- Có, bạn có thể tùy chỉnh phông chữ văn bản mã vạch thông qua`CodeTextParameters` tài sản.
+Có, bạn có thể tùy chỉnh phông chữ văn bản mã vạch thông qua `CodeTextParameters` tài sản.
 
 5. Tôi có thể nhận trợ giúp về Aspose.Words ở đâu?
- Ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8/) để được hỗ trợ.
+Ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8/) để được hỗ trợ.
+
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Điều hướng các phạm vi tài liệu để chỉnh sửa chính xác
-linktitle: Điều hướng các phạm vi tài liệu để chỉnh sửa chính xác
-second_title: API quản lý tài liệu Python Aspose.Words
-description: Tìm hiểu cách điều hướng và chỉnh sửa phạm vi tài liệu một cách chính xác bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để thao tác nội dung hiệu quả.
-weight: 12
-url: /vi/python-net/document-combining-and-comparison/document-ranges/
+"description": "Tìm hiểu cách điều hướng và chỉnh sửa phạm vi tài liệu một cách chính xác bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để thao tác nội dung hiệu quả."
+"linktitle": "Điều hướng các phạm vi tài liệu để chỉnh sửa chính xác"
+"second_title": "API quản lý tài liệu Python Aspose.Words"
+"title": "Điều hướng các phạm vi tài liệu để chỉnh sửa chính xác"
+"url": "/vi/python-net/document-combining-and-comparison/document-ranges/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Điều hướng các phạm vi tài liệu để chỉnh sửa chính xác
@@ -36,7 +38,7 @@ pip install aspose-words
 
 ## Đang tải một tài liệu
 
-Trước khi có thể điều hướng và chỉnh sửa tài liệu, chúng ta cần tải nó vào tập lệnh Python:
+Trước khi có thể điều hướng và chỉnh sửa tài liệu, chúng ta cần tải tài liệu đó vào tập lệnh Python:
 
 ```python
 from aspose_words import Document
@@ -46,11 +48,11 @@ doc = Document("document.docx")
 
 ## Điều hướng các đoạn văn
 
-Đoạn văn là khối xây dựng của bất kỳ tài liệu nào. Việc điều hướng qua các đoạn văn là điều cần thiết để thực hiện thay đổi đối với các phần cụ thể của nội dung:
+Đoạn văn là khối xây dựng của bất kỳ tài liệu nào. Việc điều hướng qua các đoạn văn là điều cần thiết để thực hiện thay đổi cho các phần cụ thể của nội dung:
 
 ```python
 for paragraph in doc.get_child_nodes(NodeType.PARAGRAPH, True):
-    # Your code to work with paragraphs goes here
+    # Mã của bạn để làm việc với các đoạn văn ở đây
 ```
 
 ## Điều hướng các phần
@@ -59,7 +61,7 @@ Tài liệu thường bao gồm các phần có định dạng riêng biệt. Vi
 
 ```python
 for section in doc.sections:
-    # Your code to work with sections goes here
+    # Mã của bạn để làm việc với các phần ở đây
 ```
 
 ## Làm việc với các bảng
@@ -68,7 +70,7 @@ Bảng sắp xếp dữ liệu theo cách có cấu trúc. Điều hướng bả
 
 ```python
 for table in doc.get_child_nodes(NodeType.TABLE, True):
-    # Your code to work with tables goes here
+    # Mã của bạn để làm việc với các bảng ở đây
 ```
 
 ## Tìm và thay thế văn bản
@@ -85,7 +87,7 @@ Chỉnh sửa chính xác bao gồm việc điều chỉnh định dạng. Đi�
 
 ```python
 for run in doc.get_child_nodes(NodeType.RUN, True):
-    # Your code to work with formatting goes here
+    # Mã của bạn để làm việc với định dạng ở đây
 ```
 
 ## Trích xuất nội dung
@@ -94,7 +96,7 @@ for run in doc.get_child_nodes(NodeType.RUN, True):
 
 ```python
 range = doc.range
-# Define your specific content range here
+# Xác định phạm vi nội dung cụ thể của bạn ở đây
 extracted_text = range.text
 ```
 
@@ -117,7 +119,7 @@ Tiêu đề và chân trang thường cần được xử lý riêng biệt. Vi�
 for section in doc.sections:
     header = section.headers_footers.link_to_previous(False)
     footer = section.headers_footers.link_to_previous(False)
-    # Your code to work with headers and footers goes here
+    # Mã của bạn để làm việc với tiêu đề và chân trang ở đây
 ```
 
 ## Quản lý siêu liên kết
@@ -126,7 +128,7 @@ Siêu liên kết đóng vai trò quan trọng trong các tài liệu hiện đ�
 
 ```python
 for hyperlink in doc.range.get_child_nodes(NodeType.FIELD_HYPERLINK, True):
-    # Your code to work with hyperlinks goes here
+    # Mã của bạn để làm việc với siêu liên kết ở đây
 ```
 
 ## Phần kết luận
@@ -146,9 +148,9 @@ pip install aspose-words
 
 Có, bạn có thể. Xác định phạm vi nội dung bằng các kỹ thuật điều hướng tài liệu, sau đó trích xuất nội dung mong muốn bằng phạm vi đã xác định.
 
-### Có thể ghép nhiều tài liệu bằng Aspose.Words cho Python không?
+### Có thể hợp nhất nhiều tài liệu bằng Aspose.Words cho Python không?
 
- Hoàn toàn. Sử dụng`append_document` phương pháp kết hợp nhiều tài liệu một cách liền mạch.
+Hoàn toàn. Sử dụng `append_document` phương pháp kết hợp nhiều tài liệu một cách liền mạch.
 
 ### Làm thế nào tôi có thể làm việc riêng biệt với phần đầu trang và phần chân trang trong các phần tài liệu?
 
@@ -156,10 +158,15 @@ Bạn có thể điều hướng đến từng phần đầu trang và chân tra
 
 ### Tôi có thể truy cập tài liệu về Aspose.Words for Python ở đâu?
 
- Để biết tài liệu và tham khảo chi tiết, hãy truy cập[đây](https://reference.aspose.com/words/python-net/).
+Để biết tài liệu và tham khảo chi tiết, hãy truy cập [đây](https://reference.aspose.com/words/python-net/).
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

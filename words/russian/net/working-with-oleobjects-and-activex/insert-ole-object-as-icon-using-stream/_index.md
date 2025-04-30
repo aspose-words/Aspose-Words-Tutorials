@@ -1,14 +1,16 @@
 ---
-title: Вставить Ole-объект как значок с помощью потока
-linktitle: Вставить Ole-объект как значок с помощью потока
-second_title: API обработки документов Aspose.Words
-description: Узнайте, как вставить объект OLE в качестве значка, используя поток с Aspose.Words для .NET, в этом подробном пошаговом руководстве.
-weight: 10
-url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/
+"description": "Узнайте, как вставить объект OLE в качестве значка, используя поток с Aspose.Words для .NET, в этом подробном пошаговом руководстве."
+"linktitle": "Вставить Ole-объект как значок с помощью потока"
+"second_title": "API обработки документов Aspose.Words"
+"title": "Вставить Ole-объект как значок с помощью потока"
+"url": "/ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using-stream/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить Ole-объект как значок с помощью потока
@@ -21,7 +23,7 @@ url: /ru/net/working-with-oleobjects-and-activex/insert-ole-object-as-icon-using
 
 Прежде чем мы перейдем к коду, вам понадобится несколько вещей:
 
--  Aspose.Words для .NET: Если вы еще этого не сделали,[скачать](https://releases.aspose.com/words/net/) и установите Aspose.Words для .NET.
+- Aspose.Words для .NET: Если вы еще этого не сделали, [скачать](https://releases.aspose.com/words/net/) и установите Aspose.Words для .NET.
 - Среда разработки: Visual Studio или любая другая среда разработки C#.
 - Входные файлы: файл, который вы хотите встроить (например, презентация PowerPoint), и изображение значка.
 
@@ -49,7 +51,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Подумайте о`Document` как ваш чистый холст и`DocumentBuilder` как ваша кисть. Мы настраиваем наши инструменты, чтобы начать создавать наш шедевр.
+Подумайте о `Document` как ваш чистый холст и `DocumentBuilder` как ваша кисть. Мы настраиваем наши инструменты, чтобы начать создавать наш шедевр.
 
 ## Шаг 2: Подготовьте поток
 
@@ -93,19 +95,24 @@ doc.Save(dataDir + "WorkingWithOleObjectsAndActiveX.InsertOleObjectAsIconUsingSt
 Да, вы можете встраивать файлы любого типа, поддерживаемого OLE, включая Word, Excel, PowerPoint и другие.
 
 ### Нужна ли мне специальная лицензия для использования Aspose.Words для .NET?
- Да, Aspose.Words for .NET требует лицензию. Вы можете получить[бесплатная пробная версия](https://releases.aspose.com/) или купить[временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования.
+Да, Aspose.Words for .NET требует лицензию. Вы можете получить [бесплатная пробная версия](https://releases.aspose.com/) или купить [временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования.
 
 ### Могу ли я настроить значок, используемый для объекта OLE?
- Конечно! Вы можете использовать любой файл изображения для значка, указав путь к нему в`InsertOleObjectAsIcon` метод.
+Конечно! Вы можете использовать любой файл изображения для значка, указав путь к нему в `InsertOleObjectAsIcon` метод.
 
 ### Что произойдет, если пути к файлам или значкам указаны неверно?
 Метод выдаст исключение. Убедитесь, что пути к файлам указаны правильно, чтобы избежать ошибок.
 
 ### Можно ли связать внедренный объект вместо его внедрения?
 Да, Aspose.Words позволяет вставлять связанные объекты OLE, которые ссылаются на файл, не внедряя его содержимое.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-charts/format-number-of-data-label/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Number Of Data Label In A Chart
@@ -140,9 +143,13 @@ Yes, you can link data labels to source cells, allowing the number format to be 
 You can find comprehensive documentation [here](https://reference.aspose.com/words/net/).
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

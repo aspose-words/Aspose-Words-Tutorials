@@ -1,14 +1,16 @@
 ---
-title: Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp
-linktitle: Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp
-second_title: API xử lý tài liệu Aspose.Words
-description: Tìm hiểu cách tạo dòng chữ ký mới và đặt ID nhà cung cấp trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước.
-weight: 10
-url: /vi/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/
+"description": "Tìm hiểu cách tạo dòng chữ ký mới và đặt ID nhà cung cấp trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước."
+"linktitle": "Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp"
+"second_title": "API xử lý tài liệu Aspose.Words"
+"title": "Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp"
+"url": "/vi/net/programming-with-digital-signatures/create-new-signature-line-and-set-provider-id/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp
@@ -21,7 +23,7 @@ Xin chào, những người đam mê công nghệ! Bạn đã bao giờ tự h�
 
 Trước khi bắt tay vào thực hiện, hãy đảm bảo rằng chúng ta đã có mọi thứ cần thiết:
 
-1.  Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/words/net/).
+1. Aspose.Words cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/words/net/).
 2. Môi trường phát triển: Visual Studio hoặc bất kỳ môi trường phát triển C# nào khác.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework.
 4. Chứng chỉ PFX: Để ký tài liệu, bạn sẽ cần chứng chỉ PFX. Bạn có thể lấy chứng chỉ từ một cơ quan cấp chứng chỉ đáng tin cậy.
@@ -50,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
- Trong đoạn mã này, chúng tôi đang khởi tạo một`Document` và một`DocumentBuilder` . Các`DocumentBuilder` giúp chúng ta thêm các thành phần vào tài liệu.
+Trong đoạn mã này, chúng tôi đang khởi tạo một `Document` và một `DocumentBuilder`. Các `DocumentBuilder` giúp chúng ta thêm các thành phần vào tài liệu.
 
 ## Bước 2: Xác định các tùy chọn dòng chữ ký
 
@@ -80,7 +82,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).
 signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 ```
 
- Ở đây,`InsertSignatureLine` phương pháp này thêm dòng chữ ký và chúng tôi gán cho nó một ID nhà cung cấp duy nhất.
+Ở đây, `InsertSignatureLine` phương pháp này thêm dòng chữ ký và chúng tôi gán cho nó một ID nhà cung cấp duy nhất.
 
 ## Bước 4: Lưu tài liệu
 
@@ -116,7 +118,7 @@ Các tùy chọn này đảm bảo tài liệu được ký với thông tin chi
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "aw");
 ```
 
- Hãy chắc chắn thay thế`"morzal.pfx"` với tập tin chứng chỉ thực tế của bạn và`"aw"` bằng mật khẩu chứng chỉ của bạn.
+Hãy chắc chắn thay thế `"morzal.pfx"` với tập tin chứng chỉ thực tế của bạn và `"aw"` bằng mật khẩu chứng chỉ của bạn.
 
 ## Bước 7: Ký vào tài liệu
 
@@ -136,7 +138,7 @@ Và bạn đã có nó! Bạn đã tạo thành công một dòng chữ ký mớ
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh giao diện của dòng chữ ký không?
- Chắc chắn rồi! Bạn có thể điều chỉnh nhiều tùy chọn khác nhau trong`SignatureLineOptions`để phù hợp với nhu cầu của bạn.
+Chắc chắn rồi! Bạn có thể điều chỉnh nhiều tùy chọn khác nhau trong `SignatureLineOptions` để phù hợp với nhu cầu của bạn.
 
 ### Nếu tôi không có chứng chỉ PFX thì sao?
 Bạn sẽ cần phải có được một chứng chỉ từ một cơ quan cấp chứng chỉ đáng tin cậy. Chứng chỉ này rất cần thiết để ký tài liệu kỹ thuật số.
@@ -149,9 +151,14 @@ Có, Aspose.Words for .NET hỗ trợ .NET Core, khiến nó trở nên linh ho�
 
 ### Chữ ký số an toàn đến mức nào?
 Chữ ký số được tạo bằng Aspose.Words có tính bảo mật cao, miễn là bạn sử dụng chứng chỉ hợp lệ và đáng tin cậy.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

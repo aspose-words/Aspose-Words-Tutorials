@@ -1,14 +1,16 @@
 ---
-title: Tabloyu İçeriğe Otomatik Olarak Uydur
-linktitle: Tabloyu İçeriğe Otomatik Olarak Uydur
-second_title: Aspose.Words Belge İşleme API'si
-description: Bu kılavuzla, Aspose.Words for .NET kullanarak Word belgelerindeki tabloların içeriğe otomatik olarak nasıl sığdırılacağını öğrenin. Dinamik ve düzgün belge biçimlendirmesi için mükemmeldir.
-weight: 10
-url: /tr/net/programming-with-tables/auto-fit-table-to-contents/
+"description": "Bu kılavuzla, Aspose.Words for .NET kullanarak Word belgelerindeki tabloların içeriğe otomatik olarak nasıl sığdırılacağını öğrenin. Dinamik ve düzgün belge biçimlendirmesi için mükemmeldir."
+"linktitle": "Tabloyu İçeriğe Otomatik Olarak Uydur"
+"second_title": "Aspose.Words Belge İşleme API'si"
+"title": "Tabloyu İçeriğe Otomatik Olarak Uydur"
+"url": "/tr/net/programming-with-tables/auto-fit-table-to-contents/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabloyu İçeriğe Otomatik Olarak Uydur
@@ -21,9 +23,9 @@ Word belgenize sıkıştırılmış gibi görünen, metni sıkışık ve sütunl
 
 Koda geçmeden önce, elinizde olması gerekenler şunlardır:
 
-1.  Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/words/net/).
+1. Aspose.Words for .NET: Aspose.Words kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/words/net/).
 2. Visual Studio: Kodunuzu yazmak ve test etmek için Visual Studio benzeri bir geliştirme ortamı.
-3. Temel C# Bilgisi: Word belgelerini yönetmek için C# programlamaya aşina olmak faydalı olacaktır.
+3. Temel C# Bilgisi: Word belgelerini düzenlemek için C# programlamaya aşina olmanız faydalı olacaktır.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -34,18 +36,18 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
- The`Aspose.Words` namespace, Word belgelerini işlemek için temel işlevselliği sağlarken`Aspose.Words.Tables` Tablolarla çalışmaya özel sınıfları içerir.
+The `Aspose.Words` namespace, Word belgelerini işlemek için temel işlevselliği sağlarken `Aspose.Words.Tables` Tablolarla çalışmaya özel sınıfları içerir.
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
 Öncelikle belgenizin depolandığı yolu tanımlayın. Bu, dosyaları yüklemek ve kaydetmek için başlangıç noktanız olacaktır.
 
 ```csharp
-// Belge dizininize giden yol
+// Belge dizininize giden yol 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` belgenizin bulunduğu gerçek yol ile. Bu, bir projeye başlamadan önce çalışma alanınızı ayarlamak gibidir.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` belgenizin bulunduğu gerçek yol ile. Bu, bir projeye başlamadan önce çalışma alanınızı ayarlamak gibidir.
 
 ## Adım 2: Belgenizi Yükleyin
 
@@ -55,7 +57,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Tables.docx");
 ```
 
- Bu adımda, adlı bir belge açıyoruz`Tables.docx`Dosyanın belirtilen dizinde olduğundan emin olun, aksi takdirde bir hata alırsınız. Bunu, değişiklik yapmadan önce favori metin düzenleyicinizde bir dosyayı açmak olarak düşünün.
+Bu adımda, adlı bir belge açıyoruz `Tables.docx`Dosyanın belirtilen dizinde olduğundan emin olun, aksi takdirde bir hata alırsınız. Bunu, değişiklik yapmadan önce favori metin düzenleyicinizde bir dosyayı açmak olarak düşünün.
 
 ## Adım 3: Tabloya Erişim
 
@@ -94,10 +96,10 @@ Aspose.Words for .NET kullanarak tabloları içeriklere otomatik olarak uydurmak
 ## SSS
 
 ### Bir tabloda yalnızca belirli sütunları otomatik olarak sığdırabilir miyim?
- The`AutoFit` yöntem tüm tabloya uygulanır. Belirli sütunları ayarlamanız gerekiyorsa, sütun genişliklerini manuel olarak ayarlamanız gerekebilir.
+The `AutoFit` yöntem tüm tabloya uygulanır. Belirli sütunları ayarlamanız gerekiyorsa, sütun genişliklerini manuel olarak ayarlamanız gerekebilir.
 
 ### Belgem birden fazla tablo içeriyorsa ne yapmalıyım?
- Belgedeki tüm tablolar arasında gezinmek için şunu kullanabilirsiniz:`doc.GetChildNodes(NodeType.Table, true)` ve gerektiğinde otomatik uyumu uygulayın.
+Belgedeki tüm tablolar arasında gezinmek için şunu kullanabilirsiniz: `doc.GetChildNodes(NodeType.Table, true)` ve gerektiğinde otomatik uyumu uygulayın.
 
 ### Gerekirse değişiklikleri nasıl geri alabilirim?
 Değişiklikleri uygulamadan önce orijinal belgenizin bir yedeğini alın veya çalışırken belgenizin farklı sürümlerini kaydedin.
@@ -107,9 +109,14 @@ Evet, ancak belgeyi değiştirmek için gerekli izinlere sahip olduğunuzdan emi
 
 ### Otomatik uyumun başarılı olup olmadığını nasıl anlarım?
 Kaydedilen belgeyi açın ve tablo düzenini kontrol edin. İçeriğe göre ayarlanmalıdır.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

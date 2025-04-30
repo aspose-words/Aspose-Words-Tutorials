@@ -1,26 +1,33 @@
 ---
-title: Làm việc với các tiêu đề và chân chân trong Aspose.Words cho .NET 
-weight: 10
-limit:
-description: Tìm hiểu cách tạo, sửa đổi và định dạng tiêu đề và chân chữ trong tài liệu Word bằng cách sử dụng Aspose.Words cho .NET. hướng dẫn từng bước cho việc tùy chỉnh liền mạch.
-keywords:
-url: /vi/net/header-footer-formatting/
+"description": "Tìm hiểu cách tạo, sửa đổi và định dạng tiêu đề và chân trang trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước để tùy chỉnh liền mạch."
+"title": "Làm việc với Header và Footer trong Aspose.Words cho .NET"
+"url": "/vi/net/header-footer-formatting/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Khởi đầu
+## Giới thiệu
   
-Các tiêu đề và chân chân rất cần thiết để thêm một cảm giác chuyên nghiệp vào tài liệu Word của bạn, cho dù đó là cho số trang, logo hoặc văn bản tùy chỉnh. Với Aspose.Words cho .NET, bạn có thể tạo ra, sửa đổi và tùy chỉnh tiêu đề và chân chân một cách liền mạch để phù hợp với nhu cầu của tài liệu. Thư viện cung cấp API mạnh mẽ cho phép bạn đặt tiêu đề và chân chân khác nhau cho các trang lẻ và thậm chí, xác định các phần độc đáo, và bao gồm các yếu tố động như các trường hoặc hình ảnh.  
+Tiêu đề và chân trang là những thành phần thiết yếu để thêm nét chuyên nghiệp cho tài liệu Word của bạn, cho dù là số trang, logo hay văn bản tùy chỉnh. Với Aspose.Words for .NET, bạn có thể dễ dàng tạo, sửa đổi và tùy chỉnh tiêu đề và chân trang để phù hợp với nhu cầu của tài liệu. Thư viện cung cấp các API mạnh mẽ cho phép bạn đặt các tiêu đề và chân trang khác nhau cho các trang lẻ và trang chẵn, xác định các phần riêng biệt và bao gồm các thành phần động như trường hoặc hình ảnh.  
 
-Aspose.Words cho .NET đơn giản hóa quá trình làm việc với tiêu đề và chân chữ, đảm bảo sự kiểm soát đầy đủ về định dạng và vị trí của chúng. Cho dù bạn đang thiết kế báo cáo doanh nghiệp hoặc tạo ra một tài liệu cá nhân, thư viện cung cấp một cách hiệu quả để quản lý các yếu tố quan trọng này. Hãy đi sâu vào hướng dẫn từng bước của chúng tôi và mở khóa tiềm năng đầy đủ của tiêu đề và chân chữ trong các tệp Word của bạn!  
+Aspose.Words for .NET đơn giản hóa quy trình làm việc với header và footer, đảm bảo kiểm soát hoàn toàn định dạng và vị trí của chúng. Cho dù bạn đang thiết kế báo cáo của công ty hay tạo tài liệu cá nhân, thư viện cung cấp một cách hiệu quả để quản lý các yếu tố quan trọng này. Khám phá hướng dẫn từng bước của chúng tôi và mở khóa toàn bộ tiềm năng của header và footer trong các tệp Word của bạn!  
 
-{{< tutorial-card link="./create-header-footer/" title="Tạo tài liệu Word với Header và Footers sử dụng Aspose.Words" imgSrc="/words/net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
-{{< tutorial-card link="./insert-image/" title="Nhập một hình ảnh vào Word Document Header ." imgSrc="/words/net/header-footer-formatting/insert-image/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-header-footer/" title="Tạo tài liệu Word có Header và Footer bằng Aspose.Words" imgSrc="./create-header-footer/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-image/" title="Chèn hình ảnh vào tiêu đề tài liệu Word | Aspose.Words cho .NET" imgSrc="./insert-image/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

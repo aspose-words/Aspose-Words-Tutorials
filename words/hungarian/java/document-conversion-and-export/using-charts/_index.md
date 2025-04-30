@@ -1,24 +1,26 @@
 ---
-title: Diagramok használata az Aspose.Words for Java programban
-linktitle: Diagramok használata
-second_title: Aspose.Words Java Document Processing API
-description: Ismerje meg, hogyan hozhat létre és testreszabhat diagramokat az Aspose.Words for Java programban. Fedezze fel a diagramtípusokat, a formázást és a tengelytulajdonságokat az adatok megjelenítéséhez.
-weight: 12
-url: /hu/java/document-conversion-and-export/using-charts/
+"description": "Ismerd meg, hogyan hozhatsz létre és szabhatsz testre diagramokat az Aspose.Words for Java programban. Ismerd meg a diagramtípusokat, a formázást és a tengelytulajdonságokat az adatvizualizációhoz."
+"linktitle": "Diagramok használata"
+"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
+"title": "Diagramok használata az Aspose.Words Java-ban"
+"url": "/hu/java/document-conversion-and-export/using-charts/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diagramok használata az Aspose.Words for Java programban
+# Diagramok használata az Aspose.Words Java-ban
 
 
-## Bevezetés a diagramok használatába az Aspose.Words for Java programban
+## Bevezetés a diagramok használatába az Aspose.Words Java-ban
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk diagramokkal az Aspose.Words for Java használatával. Megtanulja, hogyan hozhat létre különféle típusú diagramokat, hogyan testreszabhatja a tengely tulajdonságait, formázhatja az adatcímkéket stb. Merüljünk el!
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan dolgozhatunk diagramokkal az Aspose.Words for Java használatával. Megtanulod, hogyan hozhatsz létre különféle típusú diagramokat, hogyan szabhatod testre a tengelyek tulajdonságait, hogyan formázhatod az adatfeliratokat és még sok mást. Vágjunk bele!
 
-## Vonaldiagram készítése
+## Vonaldiagram létrehozása
 
 Vonaldiagram létrehozásához használja a következő kódot:
 
@@ -29,10 +31,10 @@ Shape shape = builder.insertChart(ChartType.LINE, 432.0, 252.0);
 Chart chart = shape.getChart();
 chart.getTitle().setText("Data Labels With Different Number Format");
 
-// Alapértelmezett generált sorozat törlése.
+// Alapértelmezetten generált sorozat törlése.
 chart.getSeries().clear();
 
-// Sorozat hozzáadása adatokkal és adatcímkékkel.
+// Adatsorok hozzáadása adatokkal és adatcímkékkel.
 ChartSeries series1 = chart.getSeries().add("Aspose Series 1", 
     new String[] { "Category 1", "Category 2", "Category 3" }, 
     new double[] { 2.5, 1.5, 3.5 });
@@ -49,9 +51,9 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-## Más típusú diagramok készítése
+## Más típusú diagramok létrehozása
 
-Hasonló technikákkal különféle típusú diagramokat hozhat létre, például oszlop-, terület-, buborék-, szórvány- és egyéb diagramokat. Íme egy példa egy egyszerű oszlopdiagram beszúrására:
+Különböző típusú diagramokat hozhat létre, például oszlop-, terület-, buborék-, szórt- és egyéb diagramokat hasonló technikákkal. Íme egy példa egy egyszerű oszlopdiagram beszúrására:
 
 ```java
 Document doc = new Document();
@@ -59,7 +61,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Alapértelmezett generált sorozat törlése.
+// Alapértelmezetten generált sorozat törlése.
 chart.getSeries().clear();
 
 // Kategóriák létrehozása és adatok hozzáadása.
@@ -72,7 +74,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx
 
 ## Tengelytulajdonságok testreszabása
 
-Testreszabhatja a tengely tulajdonságait, például módosíthatja a tengely típusát, beállíthatja a pipajeleket, formázhatja a címkéket stb. Íme egy példa az XY tengely tulajdonságainak meghatározására:
+Testreszabhatja a tengelyek tulajdonságait, például módosíthatja a tengely típusát, beállíthat osztásjeleket, formázhatja a feliratokat és egyebeket. Íme egy példa az XY tengely tulajdonságainak definiálására:
 
 ```java
 Document doc = new Document();
@@ -80,15 +82,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.AREA, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Törölje az alapértelmezett sorozatokat, és adja hozzá adatait.
+// Töröld az alapértelmezett sorozatokat, és add hozzá az adataidat.
 
 ChartAxis xAxis = chart.getAxisX();
 ChartAxis yAxis = chart.getAxisY();
 
-// Módosítsa az X tengelyt kategóriára a dátum helyett.
+// Módosítsa az X tengelyt úgy, hogy dátum helyett kategória legyen.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); //Az Y tengely kijelzési egységeiben mérve (száz).
+xAxis.setCrossesAt(3.0); // Az Y tengely megjelenítési egységeiben mérve (százas).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,7 +108,7 @@ doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx"
 
 ## Adatcímkék formázása
 
-Az adatcímkéket különböző számformátumokkal formázhatja. Íme egy példa:
+Az adatfeliratokat különböző számformátumokkal formázhatja. Íme egy példa:
 
 ```java
 Document doc = new Document();
@@ -114,45 +116,50 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Törölje az alapértelmezett sorozatokat, és adja hozzá adatait.
+// Töröld az alapértelmezett sorozatokat, és add hozzá az adataidat.
 
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-## További diagram testreszabások
+## További diagram-testreszabási lehetőségek
 
-Tovább testreszabhatja diagramjait a határok, a címkék közötti intervallum egységek beállításával, a diagram tengelyeinek elrejtésével stb. Fedezze fel a megadott kódrészleteket, hogy többet megtudjon ezekről a lehetőségekről.
+A diagramokat tovább testreszabhatja a határok, a címkék közötti intervallumegységek módosításával, a diagramtengelyek elrejtésével és egyebekkel. A mellékelt kódrészletekből többet is megtudhat ezekről a lehetőségekről.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk diagramokkal az Aspose.Words for Java használatával. Megtanulta különféle típusú diagramok létrehozását, a tengelytulajdonságok testreszabását, az adatcímkék formázását stb. Az Aspose.Words for Java hatékony eszközöket biztosít az adatok vizuális megjelenítésének hozzáadásához a dokumentumokhoz, javítva ezzel az információk megjelenítésének módját.
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan dolgozhatunk diagramokkal az Aspose.Words for Java segítségével. Megtanultuk, hogyan hozhatunk létre különféle típusú diagramokat, hogyan szabhatjuk testre a tengelytulajdonságokat, hogyan formázhatjuk az adatfeliratokat és egyebeket. Az Aspose.Words for Java hatékony eszközöket biztosít az adatok vizuális ábrázolásainak hozzáadásához a dokumentumokhoz, javítva az információk bemutatásának módját.
 
 ## GYIK
 
-### Hogyan adhatok több sorozatot egy diagramhoz?
+### Hogyan adhatok hozzá több adatsort egy diagramhoz?
 
- Több sorozatot is hozzáadhat egy diagramhoz a segítségével`chart.getSeries().add()` módszer. Ügyeljen arra, hogy adja meg a sorozat nevét, kategóriáit és adatértékeit.
+Több adatsort is hozzáadhat egy diagramhoz a `chart.getSeries().add()` metódus. Feltétlenül adja meg a sorozat nevét, a kategóriákat és az adatértékeket.
 
-### Hogyan formázhatom az adatcímkéket egyéni számformátumokkal?
+### Hogyan formázhatom az adatfeliratokat egyéni számformátumokkal?
 
-Az adatcímkéket a`DataLabels` egy sorozat tulajdonságait, és állítsa be a kívánt formátumkódot`getNumberFormat().setFormatCode()`.
+Az adatcímkéket a következővel formázhatja: `DataLabels` egy sorozat tulajdonságai és a kívánt formátumkód beállítása a `getNumberFormat().setFormatCode()`.
 
-### Hogyan szabhatom testre a tengely tulajdonságait egy diagramban?
+### Hogyan szabhatom testre a tengelytulajdonságokat egy diagramban?
 
- Testreszabhatja a tengely tulajdonságait, például a típust, a pipajeleket, a címkéket és egyebeket, ha eléri a`ChartAxis` tulajdonságok, mint`setCategoryType()`, `setCrosses()` , és`setMajorTickMark()`.
+A tengelyek tulajdonságait, például a típust, az osztásjeleket, a feliratokat és egyebeket testreszabhatja a `ChartAxis` olyan tulajdonságok, mint `setCategoryType()`, `setCrosses()`, és `setMajorTickMark()`.
 
-### Hogyan hozhatok létre más típusú diagramokat, például szóró- vagy területdiagramokat?
+### Hogyan hozhatok létre más típusú diagramokat, például szóródási vagy területdiagramokat?
 
- Különféle diagramtípusokat hozhat létre a megfelelő megadásával`ChartType` segítségével a diagram beillesztésekor`builder.insertChart(ChartType.TYPE, width, height)`.
+Különböző diagramtípusokat hozhat létre a megfelelő megadásával `ChartType` diagram beillesztésekor a következő használatával: `builder.insertChart(ChartType.TYPE, width, height)`.
 
 ### Hogyan rejthetek el egy diagramtengelyt?
 
- A diagram tengelyét a beállításával elrejtheti`setHidden(true)` a tengely tulajdonsága.
+A diagramtengely elrejtéséhez állítsa be a `setHidden(true)` a tengely tulajdonsága.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

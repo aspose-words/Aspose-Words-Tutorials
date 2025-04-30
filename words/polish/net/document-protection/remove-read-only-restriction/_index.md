@@ -1,14 +1,16 @@
 ---
-title: Usuń ograniczenie „tylko do odczytu”
-linktitle: Usuń ograniczenie „tylko do odczytu”
-second_title: Aspose.Words API przetwarzania dokumentów
-description: Łatwo usuń ograniczenia tylko do odczytu z dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 10
-url: /pl/net/document-protection/remove-read-only-restriction/
+"description": "Łatwo usuń ograniczenia tylko do odczytu z dokumentów Word za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Usuń ograniczenie „tylko do odczytu”"
+"second_title": "Aspose.Words API przetwarzania dokumentów"
+"title": "Usuń ograniczenie „tylko do odczytu”"
+"url": "/pl/net/document-protection/remove-read-only-restriction/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuń ograniczenie „tylko do odczytu”
@@ -21,7 +23,7 @@ Usunięcie ograniczenia tylko do odczytu z dokumentu Word może być nie lada wy
 
 Zanim przejdziemy do szczegółowego przewodnika, upewnij się, że spełnione są następujące wymagania wstępne:
 
--  Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z[Tutaj](https://releases.aspose.com/words/net/).
+- Aspose.Words dla .NET: Musisz mieć zainstalowany Aspose.Words dla .NET. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z [Tutaj](https://releases.aspose.com/words/net/).
 - Środowisko programistyczne: środowisko programistyczne .NET, takie jak Visual Studio.
 - Podstawowa wiedza o języku C#: Przydatna będzie znajomość podstawowych koncepcji programowania w języku C#.
 
@@ -48,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "YourDocument.docx");
 ```
 
- W tym kroku zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument.`"YourDocument.docx"` jest nazwą dokumentu, który chcesz zmodyfikować.
+W tym kroku zastąp `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, pod którą przechowywany jest Twój dokument. `"YourDocument.docx"` jest nazwą dokumentu, który chcesz zmodyfikować.
 
 ## Krok 3: Ustaw hasło (opcjonalnie)
 
@@ -91,7 +93,7 @@ Na koniec zapisz zmodyfikowany dokument w wybranej lokalizacji.
 doc.Save(dataDir + "DocumentProtection.RemoveReadOnlyRestriction.docx");
 ```
 
- W tym kroku zmodyfikowany dokument zostaje zapisany pod nazwą`"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
+W tym kroku zmodyfikowany dokument zostaje zapisany pod nazwą `"DocumentProtection.RemoveReadOnlyRestriction.docx"`.
 
 ## Wniosek
 
@@ -107,11 +109,11 @@ Tak, ustawienie hasła jest opcjonalne. Możesz bezpośrednio usunąć zalecenie
 
 ### Co się stanie, jeśli dokument ma już inny rodzaj ochrony?
 
- Ten`doc.Protect(ProtectionType.NoProtection)` Metoda ta zapewnia usunięcie z dokumentu wszelkich zabezpieczeń.
+Ten `doc.Protect(ProtectionType.NoProtection)` Metoda ta zapewnia usunięcie z dokumentu wszelkich zabezpieczeń.
 
 ### Czy istnieje sposób, aby dowiedzieć się, czy dokument jest tylko do odczytu, zanim usunę ograniczenie?
 
- Tak, możesz sprawdzić`ReadOnlyRecommended` Właściwość ta pozwala sprawdzić, czy dokument jest przeznaczony tylko do odczytu, zanim zostaną wprowadzone jakiekolwiek zmiany.
+Tak, możesz sprawdzić `ReadOnlyRecommended` Właściwość ta pozwala sprawdzić, czy dokument jest przeznaczony tylko do odczytu, zanim zostaną wprowadzone jakiekolwiek zmiany.
 
 ### Czy mogę użyć tej metody, aby usunąć ograniczenia z wielu dokumentów jednocześnie?
 
@@ -120,9 +122,14 @@ Tak, możesz przeglądać wiele dokumentów i stosować tę samą metodę do ka�
 ### Co zrobić, jeśli dokument jest chroniony hasłem, a ja go nie znam?
 
 Niestety, musisz znać hasło, aby usunąć jakiekolwiek ograniczenia. Bez hasła nie będziesz w stanie zmienić ustawień ochrony.
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

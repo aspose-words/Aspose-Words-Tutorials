@@ -1,26 +1,28 @@
 ---
-title: 创建映射到自定义 XML 部分的表重复部分
-linktitle: 创建映射到自定义 XML 部分的表重复部分
-second_title: Aspose.Words 文档处理 API
-description: 了解如何使用 Aspose.Words for .NET 创建一个表格，其中重复部分映射到 Word 文档中的 CustomXmlPart。
-weight: 10
-url: /zh/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文档中创建一个具有映射到 CustomXmlPart 的重复部分的表格。"
+"linktitle": "创建映射到自定义 XML 部分的表重复部分"
+"second_title": "Aspose.Words文档处理API"
+"title": "创建映射到自定义 XML 部分的表重复部分"
+"url": "/zh/net/programming-with-sdt/creating-table-repeating-section-mapped-to-custom-xml-part/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 创建映射到自定义 XML 部分的表重复部分
 
 ## 介绍
 
-在本教程中，我们将介绍如何使用 Aspose.Words for .NET 创建带有重复部分的表格，该表格将映射到自定义 XML 部分。这对于基于结构化数据动态生成文档特别有用。
+在本教程中，我们将逐步讲解如何使用 Aspose.Words for .NET 创建包含重复部分的表格，并将其映射到自定义 XML 部分。这对于基于结构化数据动态生成文档特别有用。
 
 ## 先决条件
 
-在开始之前，请确保您已准备好以下内容：
-1. 已安装 Aspose.Words for .NET 库。您可以从[Aspose 网站](https://releases.aspose.com/words/net/).
+在开始之前，请确保您具备以下条件：
+1. 已安装 Aspose.Words for .NET 库。您可以从 [Aspose 网站](https://releases。aspose.com/words/net/).
 2. 对 C# 和 XML 有基本的了解。
 
 ## 导入命名空间
@@ -35,7 +37,7 @@ using Aspose.Words.Tables;
 
 ## 步骤 1：初始化 Document 和 DocumentBuilder
 
-首先，创建一个新文档并初始化一个`DocumentBuilder`：
+首先，创建一个新文档并初始化 `DocumentBuilder`：
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -55,9 +57,9 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
     "<book><title>Learning XML</title><author>Erik T. Ray</author></book></books>");
 ```
 
-## 步骤 3：创建表结构
+## 步骤3：创建表结构
 
-接下来，使用`DocumentBuilder`创建表头：
+接下来，使用 `DocumentBuilder` 创建表头：
 
 ```csharp
 Table table = builder.StartTable();
@@ -71,7 +73,7 @@ builder.EndTable();
 
 ## 步骤 4：创建重复部分
 
-创建一个`StructuredDocumentTag`（SDT）作为重复部分并将其映射到 XML 数据：
+创建一个 `StructuredDocumentTag` （SDT）作为重复部分并将其映射到 XML 数据：
 
 ```csharp
 StructuredDocumentTag repeatingSectionSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
@@ -81,7 +83,7 @@ table.AppendChild(repeatingSectionSdt);
 
 ## 步骤 5：创建重复部分项
 
-为重复节项创建 SDT，并将其添加到重复节：
+为重复节项创建SDT并将其添加到重复节：
 
 ```csharp
 StructuredDocumentTag repeatingSectionItemSdt = new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
@@ -114,21 +116,26 @@ doc.Save(dataDir + "WorkingWithSdt.CreatingTableRepeatingSectionMappedToCustomXm
 
 ## 结论
 
-通过执行这些步骤，您已成功使用 Aspose.Words for .NET 创建了一个表格，其中重复部分映射到自定义 XML 部分。这允许基于结构化数据生成动态内容，使文档创建更加灵活和强大。
+按照这些步骤，您已成功使用 Aspose.Words for .NET 创建了一个表格，其中重复部分映射到自定义 XML 部分。这允许基于结构化数据生成动态内容，从而使文档创建更加灵活和强大。
 
 ## 常见问题解答
 
-### 什么是 StructuredDocumentTag (SDT)？
+### 什么是结构化文档标签 (SDT)？
 SDT（也称为内容控制）是文档中用于包含结构化数据的有界区域。
 
 ### 我可以在自定义 XML 部分使用其他数据类型吗？
-是的，您可以使用任何数据类型构建自定义 XML 部分并进行相应的映射。
+是的，您可以使用任何数据类型构建自定义 XML 部分并相应地映射它们。
 
 ### 如何向重复部分添加更多行？
 重复部分会自动复制映射的 XML 路径中每个项目的行结构。
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}

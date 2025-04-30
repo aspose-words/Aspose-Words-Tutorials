@@ -7,8 +7,11 @@ weight: 10
 url: /net/programming-with-htmlsaveoptions/export-text-input-form-field-as-text/
 ---
 
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Text Input Form Field As Text
@@ -137,9 +140,13 @@ Absolutely! Aspose.Words provides various options to customize the HTML output. 
 Yes, Aspose.Words is compatible with .NET Core, .NET Framework, and other .NET platforms.
 
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 {{< blocks/products/products-backtop-button >}}
