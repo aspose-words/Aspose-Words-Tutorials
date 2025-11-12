@@ -1,144 +1,157 @@
 ---
-"description": "Kuasai otomatisasi dokumen dengan tutorial Java Aspose.Words. Pelajari pengolahan kata, pemformatan, tabel, keamanan, konversi, dan banyak lagi untuk manajemen dokumen yang efisien."
-"linktitle": "Aspose.Words untuk Tutorial Java"
-"title": "API Pemrosesan Dokumen Java | Aspose.Words untuk Tutorial Java"
-"url": "/id/java/"
-"weight": 11
+date: 2025-11-12
+description: Menguasai otomatisasi dokumen Java dengan Aspose.Words. Pelajari cara
+  mengonversi Word ke PDF, menggabungkan dokumen, menambahkan watermark, melindungi
+  file, dan mengekstrak teks secara efisien.
+keywords: convert word to pdf, merge word documents, add watermark java, protect word
+  document, extract text from word, Java document processing, Aspose.Words
+language: id
+linktitle: Aspose.Words for Java Tutorials
+title: 'Pemrosesan Dokumen Java: Konversi, Gabungkan, Watermark Word'
+url: /java/
+weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+We need to translate the content to Indonesian, preserving markdown, code blocks placeholders, URLs, etc. Also keep technical terms in English. Also note rule 6: "For Indonesian, ensure proper RTL formatting if needed" but Indonesian is LTR, so ignore.
 
-{{< blocks/products/pf/main-container >}}
+We must translate all text content naturally, keep technical terms. Also keep placeholders like ```xml
+   <dependency>
+       <groupId>com.aspose</groupId>
+       <artifactId>aspose-words</artifactId>
+       <version>23.12</version> <!-- Use the latest version -->
+   </dependency>
+   ``` unchanged. Also keep headings.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+We need to translate everything between the blocks, including the block tags? The block tags are like {{< blocks/... >}}. Those are not to be translated (they are markup). So we keep them as is.
 
-# Pemrosesan Dokumen dengan Aspose.Words untuk Java
+We must translate the visible text: headings, paragraphs, bullet points, list items, tip, etc.
 
-## Solusi Pemrosesan Dokumen Java yang Komprehensif
+We need to ensure we don't translate URLs, file paths, variable names, function names. There are none besides maybe `YourLicenseFile.lic`, but that's a placeholder; we should keep as is.
 
-Aspose.Words untuk Java menyediakan API yang kuat dan komprehensif untuk otomatisasi, manipulasi, dan pengelolaan dokumen. Tutorial ini menawarkan panduan langkah demi langkah bagi pengembang yang ingin menerapkan solusi pemrosesan dokumen yang tangguh dalam aplikasi Java mereka.
+We must translate bullet points, but keep technical terms like "API", "Maven/Gradle", "Document", etc.
 
-Baik Anda membuat laporan, membuat kontrak, atau membangun sistem alur kerja dokumen tingkat lanjut, Aspose.Words membekali Anda dengan alat tingkat perusahaan untuk menangani dokumen Microsoft Word dan format populer lainnya dengan presisi dan efisiensi.
+Let's produce the translated markdown.
 
-### Mengapa Memilih Aspose.Words untuk Java?
+Proceed section by section.
 
-- **Manajemen Siklus Hidup Dokumen Lengkap**: Membuat, memodifikasi, mengonversi, dan merender dokumen secara terprogram
-- **Kesetiaan Format**: Pertahankan format dokumen yang sempurna selama konversi antara format populer
-- **Kinerja Dioptimalkan**: Memproses dokumen besar secara efisien dengan jejak memori yang rendah
-- **Integrasi Mudah**:: Gabungkan kemampuan dokumen yang kuat ke dalam aplikasi Java Anda dengan kode minimal
-- **Kemandirian Platform**:Jalankan di lingkungan apa pun yang mendukung Java, termasuk aplikasi desktop, web, dan seluler
+First block tags remain.
 
-## Kategori Tutorial yang Tersedia
+Then "# Document Processing with Aspose.Words for Java" => "# Pemrosesan Dokumen dengan Aspose.Words untuk Java"
 
-### [Integrasi AI & Pembelajaran Mesin](./ai-machine-learning-integration/)
-Jelajahi kemampuan dokumen mutakhir dengan tutorial integrasi AI. Pelajari cara menerapkan ringkasan teks, penerjemahan, dan fitur pemrosesan dokumen cerdas lainnya.
+## Why Aspose.Words is the Go‑to Java API for Word Automation => "## Mengapa Aspose.Words menjadi API Java Pilihan untuk Otomasi Word"
 
-### [Memulai](./getting-started/)
-Mulailah perjalanan Aspose.Words Anda dengan tutorial pengaturan dasar. Pelajari konfigurasi lisensi, manajemen versi, dan konsep penting untuk mulai membangun aplikasi yang berfokus pada dokumen dengan cepat.
+Paragraph: translate.
 
-### [Operasi Dokumen](./document-operations/)
-Kuasai teknik penanganan dokumen inti termasuk konversi format, penerapan keamanan, dan manipulasi dokumen tingkat lanjut. Tutorial ini mencakup operasi penting untuk bekerja dengan Word dan format dokumen lainnya.
+"delivers a **full‑featured, high‑performance** engine for creating, editing, converting, and securing Word documents." => "menyediakan **fitur lengkap, kinerja tinggi** untuk membuat, mengedit, mengonversi, dan mengamankan dokumen Word."
 
-### [Manajemen Konten](./content-management/)
-Pelajari cara mengelola konten dokumen secara terprogram dengan tutorial tentang blok penyusun, hyperlink, variabel, bookmark, dan banyak lagi. Tingkatkan aplikasi Anda dengan kemampuan manipulasi konten yang canggih.
+"Whether you need to **convert Word to PDF**, **merge multiple Word files**, **add a watermark in Java**, or **protect a document with passwords**, this API gives you the tools to do it with just a few lines of code." => "Apakah Anda perlu **mengonversi Word ke PDF**, **menggabungkan beberapa file Word**, **menambahkan watermark di Java**, atau **melindungi dokumen dengan kata sandi**, API ini memberikan alat untuk melakukannya hanya dengan beberapa baris kode."
 
-### [Pengolahan Kata](./word-processing/)
-Pelajari teknik pembuatan dan penyuntingan dokumen inti. Buat konten yang dinamis, tangani berbagai format, optimalkan pemuatan dan penyimpanan dokumen, serta manipulasi struktur dokumen secara efisien.
+Bullet points:
 
-### [Pemrosesan Tabel](./table-processing/)
-Kuasai manipulasi tabel dengan tutorial tentang membuat tabel, membuat tabel dari sumber data, memformat, dan mengelola tata letak tabel. Sempurnakan dokumen Anda dengan data tabular yang terstruktur dengan baik.
+* **Enterprise‑grade fidelity** – keep original layouts, styles, and graphics intact during conversion. => "* **Enterprise‑grade fidelity** – mempertahankan tata letak, gaya, dan grafik asli tetap utuh selama konversi."
 
-### [Penataan Dokumen](./document-styling/)
-Temukan teknik untuk menerapkan gaya dokumen profesional. Pelajari format, tema, tanda air, dan gaya header/footer untuk membuat dokumen yang menarik secara visual.
+* **Scalable performance** – handle large files with a low memory footprint. => "* **Scalable performance** – menangani file besar dengan jejak memori yang rendah."
 
-### [Penggabungan Dokumen](./document-merging/)
-Kuasai teknik penggabungan dokumen untuk menggabungkan beberapa file menjadi dokumen terpadu. Pelajari cara menangani konflik, mempertahankan format, dan mengoptimalkan proses penggabungan.
+* **Cross‑platform** – run anywhere Java is supported: desktop, web, or mobile. => "* **Cross‑platform** – dapat dijalankan di mana saja Java didukung: desktop, web, atau mobile."
 
-### [Konversi Dokumen](./document-converting/)
-Kuasai konversi dokumen antara berbagai format termasuk PDF, HTML, gambar, dan banyak lagi. Pastikan ketepatan format dan optimalkan pengaturan konversi untuk kebutuhan spesifik Anda.
+Next paragraph: "Below you’ll find a quick start guide followed by a curated list of tutorial categories that dive deeper into each capability." => "Di bawah ini Anda akan menemukan panduan memulai cepat diikuti dengan daftar kategori tutorial yang dipilih untuk menggali lebih dalam setiap kemampuan."
 
-### [Pencetakan Dokumen](./document-printing/)
-Pelajari cara menerapkan pencetakan dokumen terprogram dengan pengaturan cetak khusus, pemilihan halaman, dan kontrol keluaran untuk aplikasi desktop dan server.
+### Quick‑Start: Set Up Aspose.Words in 3 Simple Steps => "### Memulai Cepat: Menyiapkan Aspose.Words dalam 3 Langkah Sederhana"
 
-### [Pembuatan Dokumen](./document-rendering/)
-Pelajari teknik untuk merender dokumen ke berbagai format dengan kontrol yang tepat atas kualitas keluaran, pagination, dan presentasi visual.
+List steps:
 
-### [Keamanan Dokumen](./document-security/)
-Terapkan perlindungan dokumen yang kuat dengan tutorial tentang enkripsi, perlindungan kata sandi, tanda tangan digital, dan manajemen izin untuk melindungi konten sensitif.
+1. **Add the Maven/Gradle dependency** => "1. **Tambahkan dependensi Maven/Gradle**"
 
-### [Pemisahan Dokumen](./document-splitting/)
-Temukan metode untuk membagi dokumen menjadi komponen yang lebih kecil berdasarkan berbagai kriteria. Ekstrak konten tertentu dan buat beberapa file output dari satu dokumen sumber.
+   ```xml
+   <dependency>
+       <groupId>com.aspose</groupId>
+       <artifactId>aspose-words</artifactId>
+       <version>23.12</version> <!-- Use the latest version -->
+   </dependency>
+   ``` keep.
 
-### [Revisi Dokumen](./document-revision/)
-Pelacakan revisi dokumen induk dengan tutorial tentang pengelolaan perubahan, kontrol versi, dan fitur pengeditan kolaboratif.
+2. **Apply your license** (replace `YourLicenseFile.lic` with the actual path) => "2. **Terapkan lisensi Anda** (ganti `YourLicenseFile.lic` dengan path yang sebenarnya)"
 
-### [Memuat dan Menyimpan Dokumen](./document-loading-and-saving/)
-Kuasai teknik untuk memuat dan menyimpan dokumen secara efisien dalam berbagai format dengan pengaturan yang dioptimalkan untuk berbagai skenario dan persyaratan.
+   ```java
+   com.aspose.words.License license = new com.aspose.words.License();
+   license.setLicense("YourLicenseFile.lic");
+   ```
 
-### [Manipulasi Dokumen](./document-manipulation/)
-Pelajari pendekatan komprehensif untuk memanipulasi struktur, konten, dan properti dokumen. Ekstrak, modifikasi, dan atur komponen dokumen untuk pemrosesan dokumen tingkat lanjut.
+3. **Run a sample conversion** – convert a DOCX to PDF in one line => "3. **Jalankan contoh konversi** – mengonversi DOCX ke PDF dalam satu baris"
 
-### [Lisensi dan Konfigurasi](./licensing-and-configuration/)
-Konfigurasikan Aspose.Words secara efektif dengan tutorial tentang manajemen lisensi, pengaturan lingkungan, dan pengoptimalan untuk berbagai skenario penerapan.
+   ```java
+   Document doc = new Document("sample.docx");
+   doc.save("sample.pdf", SaveFormat.PDF);
+   ```
 
-### [Menggunakan Elemen Dokumen](./using-document-elements/)
-Temukan cara bekerja dengan berbagai elemen dokumen termasuk bidang, komentar, daftar, bagian, dan banyak lagi untuk membuat dokumen yang kuat dan kaya fitur.
+Tip block: > **Tip:** The `Document` class is the core object for all operations – creating, editing, merging, watermarking, and protecting Word files.
 
-### [Mencetak Dokumen](./printing-documents/)
-Pelajari teknik untuk pencetakan terprogram dengan pengaturan cetak yang disesuaikan dan kontrol keluaran untuk aplikasi desktop dan server.
+Translate: "> **Tip:** Kelas `Document` adalah objek inti untuk semua operasi – membuat, mengedit, menggabungkan, menambahkan watermark, dan melindungi file Word."
 
-### [Merender Dokumen](./rendering-documents/)
-Kuasai teknik untuk merender dokumen Word ke berbagai format dengan kontrol yang tepat atas kualitas keluaran dan presentasi.
+## Explore Our In‑Depth Tutorial Collection => "## Jelajahi Koleksi Tutorial Mendalam Kami"
 
-### [Konversi dan Ekspor Dokumen](./document-conversion-and-export/)
-Pelajari metode hebat untuk mengonversi dokumen antarformat dan mengekspornya dengan pengaturan khusus untuk berbagai skenario penggunaan.
+Paragraph: "Below are the main tutorial categories. Each section contains step‑by‑step examples, best‑practice tips, and ready‑to‑run code snippets." => "Berikut adalah kategori tutorial utama. Setiap bagian berisi contoh langkah demi langkah, tip praktik terbaik, dan potongan kode siap pakai."
 
-### [Keamanan & Perlindungan](./security-protection/)
-Pelajari teknik komprehensif untuk mengamankan dokumen, mengelola tanda tangan digital, dan menerapkan fitur perlindungan dokumen untuk melindungi informasi sensitif.
+Then each tutorial heading with link. Need to translate the link text but keep URL unchanged.
 
-### [Gabungan Surat & Pelaporan](./mail-merge-reporting/)
-Terapkan pembuatan dokumen yang canggih dengan kemampuan penggabungan surat. Pelajari cara mengotomatiskan penandatanganan dokumen, menyesuaikan operasi penggabungan surat, dan bekerja dengan konten dan gambar HTML.
+### [AI & Machine Learning Integration](./ai-machine-learning-integration/) => "### [Integrasi AI & Machine Learning](./ai-machine-learning-integration/)"
 
-### [Header, Footer & Pengaturan Halaman](./headers-footers-page-setup/)
-Kuasai tata letak dokumen dengan tutorial tentang header, footer, dan pengaturan halaman. Pelajari cara membuat desain dokumen profesional dengan margin, batas, dan tata letak halaman yang disesuaikan.
+Add description: "Add intelligent features such as **text summarization**, **language translation**, and **content classification** to your documents using popular AI services." => "Tambahkan fitur cerdas seperti **ringkasan teks**, **penerjemahan bahasa**, dan **klasifikasi konten** ke dokumen Anda menggunakan layanan AI populer."
 
-### [Catatan & Komentar](./annotations-comments/)
-Terapkan fitur kolaborasi dengan tutorial tentang anotasi dan komentar dokumen. Pelajari cara mengelola umpan balik dalam dokumen untuk meningkatkan kolaborasi tim.
+Proceed similarly for each.
 
-### [Pemrosesan Teks Lanjutan](./advanced-text-processing/)
-Terapkan fitur manipulasi teks yang canggih dengan tutorial tentang karakter kontrol, manajemen tata letak, dan operasi teks tingkat lanjut untuk skenario dokumen yang kompleks.
+I'll translate each description.
 
-### [Perbandingan & Pelacakan Dokumen](./document-comparison-tracking/)
-Pelajari cara membandingkan dokumen dan melacak perubahan secara efisien. Terapkan kontrol versi dan sistem revisi dokumen dalam aplikasi Anda.
+### [Getting Started](./getting-started/) => "### [Memulai](./getting-started/)" description: "Kick‑off your Aspose.Words journey: license configuration, project setup, and basic document creation." => "Mulai perjalanan Aspose.Words Anda: konfigurasi lisensi, penyiapan proyek, dan pembuatan dokumen dasar."
 
-### [Optimasi Kinerja](./performance-optimization/)
-Tingkatkan kinerja aplikasi dengan tutorial tentang manajemen memori, pengoptimalan rendering, dan teknik penanganan dokumen yang efisien untuk pemrosesan dokumen berskala besar.
+### [Document Operations](./document-operations/) => "### [Operasi Dokumen](./document-operations/)" description: "Learn how to **convert Word to PDF**, **extract text from Word**, and apply **security settings** like encryption and digital signatures." => "Pelajari cara **mengonversi Word ke PDF**, **mengekstrak teks dari Word**, dan menerapkan **pengaturan keamanan** seperti enkripsi dan tanda tangan digital."
 
-### [Integrasi & Interoperabilitas](./integration-interoperability/)
-Integrasikan Aspose.Words dengan sistem dan teknologi lain. Pelajari teknik untuk memastikan pertukaran dokumen yang lancar antara berbagai platform dan aplikasi.
+### [Content Management](./content-management/) => "### [Manajemen Konten](./content-management/)" description: "Programmatically manage bookmarks, hyperlinks, variables, and building blocks to create dynamic, reusable content." => "Kelola bookmark, hyperlink, variabel, dan building block secara programatik untuk membuat konten dinamis dan dapat digunakan kembali."
 
-### [Pemformatan & Gaya](./formatting-styles/)
-Kuasai pemformatan dokumen dengan tutorial tentang penyesuaian tema, gaya batas, pemenggalan kata, dan manajemen gaya untuk produksi dokumen profesional.
+### [Word Processing](./word-processing/) => "### [Pemrosesan Word](./word-processing/)" description: "Create and edit documents, manage sections, and handle complex formatting scenarios." => "Buat dan edit dokumen, kelola bagian, serta tangani skenario pemformatan kompleks."
 
-### [Tabel & Daftar](./tables-lists/)
-Temukan teknik untuk membuat dan memanipulasi tabel dan daftar dalam dokumen. Pelajari penggabungan sel, deteksi daftar, konversi markdown, dan penyelesaian konflik penomoran antar dokumen.
+### [Table Processing](./table-processing/) => "### [Pemrosesan Tabel](./table-processing/)" description: "Generate tables from data sources, format cells, and control layout for professional reports." => "Hasilkan tabel dari sumber data, format sel, dan kontrol tata letak untuk laporan profesional."
 
-### [Gambar & Bentuk](./images-shapes/)
-Sempurnakan dokumen Anda dengan elemen visual menggunakan tutorial tentang penyisipan gambar, manipulasi bentuk, dan pembuatan gambar mini. Buat dokumen yang tampak profesional dengan konten grafis yang kaya.
+### [Document Styling](./document-styling/) => "### [Styling Dokumen](./document-styling/)" description: "Apply themes, watermarks, headers, footers, and custom styles to give your documents a polished look." => "Terapkan tema, watermark, header, footer, dan gaya khusus untuk memberikan tampilan dokumen yang halus."
 
-## Buka Potensi Pemrosesan Dokumen Anda
+### [Document Merging](./document-merging/) => "### [Penggabungan Dokumen](./document-merging/)" description: "**Merge Word documents** seamlessly while preserving original formatting and handling conflicts." => "**Gabungkan dokumen Word** secara mulus sambil mempertahankan format asli dan menangani konflik."
 
-Aspose.Words untuk Java memberdayakan para pengembang untuk menciptakan solusi manajemen dokumen yang canggih dengan upaya minimal. Tutorial ini menyediakan pengetahuan dan contoh praktis yang Anda butuhkan untuk menerapkan otomatisasi dokumen tingkat perusahaan dalam aplikasi Anda.
+### [Document Converting](./document-converting/) => "### [Konversi Dokumen](./document-converting/)" description: "Convert between DOCX, PDF, HTML, images, and more with fine‑tuned conversion options." => "Konversi antara DOCX, PDF, HTML, gambar, dan lainnya dengan opsi konversi yang disesuaikan."
 
-Mulailah menjelajahi koleksi tutorial komprehensif kami hari ini dan ubah pendekatan Anda terhadap pemrosesan dokumen dengan Aspose.Words untuk Java.
+### [Document Printing](./document-printing/) => "### [Pencetakan Dokumen](./document-printing/)" description: "Implement programmatic printing with custom page ranges, duplex settings, and printer selection." => "Implementasikan pencetakan programatik dengan rentang halaman khusus, pengaturan duplex, dan pemilihan printer."
 
+### [Document Rendering](./document-rendering/) => "### [Rendering Dokumen](./document-rendering/)" description: "Render documents to raster images or PDFs with precise control over DPI, pagination, and color management." => "Render dokumen ke gambar raster atau PDF dengan kontrol presisi atas DPI, paginasi, dan manajemen warna."
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Document Security](./document-security/) => "### [Keamanan Dokumen](./document-security/)" description: "**Protect Word documents** with passwords, restrict editing, and add digital signatures for compliance." => "**Lindungi dokumen Word** dengan kata sandi, batasi penyuntingan, dan tambahkan tanda tangan digital untuk kepatuhan."
 
+### [Document Splitting](./document-splitting/) => "### [Pemecahan Dokumen](./document-splitting/)" description: "Split large files into smaller sections based on headings, page numbers, or custom markers." => "Pisahkan file besar menjadi bagian lebih kecil berdasarkan heading, nomor halaman, atau penanda khusus."
 
-{{< /blocks/products/pf/main-container >}}
+### [Document Revision](./document-revision/) => "### [Revisi Dokumen](./document-revision/)" description: "Track changes, manage version history, and implement collaborative editing workflows." => "Lacak perubahan, kelola riwayat versi, dan terapkan alur kerja penyuntingan kolaboratif."
 
-{{< /blocks/products/pf/main-wrap-class >}}
+### [Document Loading and Saving](./document-loading-and-saving/) => "### [Memuat dan Menyimpan Dokumen](./document-loading-and-saving/)" description: "Optimize loading and saving strategies for different file formats and scenarios." => "Optimalkan strategi memuat dan menyimpan untuk berbagai format file dan skenario."
 
+### [Document Manipulation](./document-manipulation/) => "### [Manipulasi Dokumen](./document-manipulation/)" description: "Extract, modify, and reorganize document elements such as fields, comments, and sections." => "Ekstrak, modifikasi, dan reorganisasi elemen dokumen seperti field, komentar, dan bagian."
 
-{{< blocks/products/products-backtop-button >}}
+### [Licensing and Configuration](./licensing-and-configuration/) => "### [Lisensi dan Konfigurasi](./licensing-and-configuration/)" description: "Best practices for license management, environment configuration, and performance tuning." => "Praktik terbaik untuk manajemen lisensi, konfigurasi lingkungan, dan penyetelan kinerja."
+
+### [Using Document Elements](./using-document-elements/) => "### [Menggunakan Elemen Dokumen](./using-document-elements/)" description: "Work with fields, lists, sections, and other building blocks to enrich document functionality." => "Bekerja dengan field, daftar, bagian, dan building block lainnya untuk memperkaya fungsionalitas dokumen."
+
+### [Printing Documents](./printing-documents/) => "### [Mencetak Dokumen](./printing-documents/)" description: "Advanced printing techniques for batch jobs and server‑side document delivery." => "Teknik pencetakan lanjutan untuk pekerjaan batch dan pengiriman dokumen sisi server."
+
+### [Rendering Documents](./rendering-documents/) => "### [Rendering Dokumen](./rendering-documents/)" description: "High‑quality rendering pipelines for PDF, XPS, and image outputs." => "Pipeline rendering berkualitas tinggi untuk output PDF, XPS, dan gambar."
+
+### [Document Conversion and Export](./document-conversion-and-export/) => "### [Konversi dan Ekspor Dokumen](./document-conversion-and-export/)" description: "Custom export settings for PDFs, eBooks, and web‑ready HTML." => "Pengaturan ekspor khusus untuk PDF, eBook, dan HTML siap web."
+
+### [Security & Protection](./security-protection/) => "### [Keamanan & Perlindungan](./security-protection/)" description: "Deep dive into encryption, permission management, and compliance‑ready protection." => "Pendalaman enkripsi, manajemen izin, dan perlindungan siap kepatuhan."
+
+### [Mail Merge & Reporting](./mail-merge-reporting/) => "### [Mail Merge & Pelaporan](./mail-merge-reporting/)" description: "Automate personalized document generation with mail merge, HTML content, and embedded images." => "Otomatisasi pembuatan dokumen personalisasi dengan mail merge, konten HTML, dan gambar tersemat."
+
+### [Headers, Footers & Page Setup](./headers-footers-page-setup/) => "### [Header, Footer & Pengaturan Halaman](./headers-footers-page-setup/)" description: "Design professional layouts with custom margins, borders, and page numbering." => "Desain tata letak profesional dengan margin khusus, border, dan penomoran halaman."
+
+### [Annotations & Comments](./annotations-comments/) => "### [Anotasi & Komentar](./annotations-comments/)" description: "Enable collaborative feedback by adding annotations, comments, and revision marks." => "Aktifkan umpan balik kolaboratif dengan menambahkan anotasi, komentar, dan tanda revisi."
+
+### [Advanced Text Processing](./advanced-text-processing/) => "### [Pemrosesan Teks Lanjutan](./advanced-text-processing/)" description: "Control characters, layout engines, and complex text operations for multilingual documents." => "Kontrol karakter, mesin tata letak, dan operasi teks kompleks untuk dokumen multibahasa."
+
+### [Document Comparison & Tracking](./document-comparison-tracking/) => "### [Perbandingan & Pelacakan Dokumen](./document-comparison-tracking/)" description: "Compare two documents, highlight differences, and merge changes automatically." => "Bandingkan dua dokumen, sorot perbedaan, dan gabungkan perubahan secara otomatis."
+
+### [Performance Optimization](./performance-optimization/) => "
