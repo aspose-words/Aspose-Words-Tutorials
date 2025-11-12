@@ -1,9 +1,19 @@
 ---
-"date": "2025-03-28"
-"description": "Odemkněte sílu nástrojů Aspose.Words LayoutCollector a LayoutEnumerator v Javě pro pokročilé zpracování textu. Naučte se, jak efektivně spravovat rozvržení dokumentů, analyzovat stránkování a ovládat číslování stránek."
-"title": "Zvládnutí Aspose.Words v Javě&#58; Kompletní průvodce LayoutCollector a LayoutEnumerator pro zpracování textu"
-"url": "/cs/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Naučte se, jak používat LayoutCollector a LayoutEnumerator v Aspose.Words
+  pro Javu k určení rozsahů stránek, procházení entit rozvržení a restartování číslování
+  stránek v souvislých sekcích.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- determine page span
+- analyze document pagination
+- restart page numbering
+language: cs
+title: 'Aspose.Words Java: Průvodce LayoutCollector a LayoutEnumerator'
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +22,62 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Java: Průvodce LayoutCollector a LayoutEnumerator
 
-# Zvládnutí Aspose.Words v Javě: Kompletní průvodce LayoutCollector a LayoutEnumerator pro zpracování textu
+## Úvod  
 
-## Zavedení
+Máte potíže s **určením rozsahu stránky**, analýzou stránkování nebo restartováním číslování stránek v složitých Java dokumentech? S **Aspose.Words for Java** můžete tyto problémy rychle vyřešit pomocí `LayoutCollector` a `LayoutEnumerator`. V tomto průvodci vám ukážeme **jak použít LayoutCollector**, **jak procházet LayoutEnumerator** a jak řídit číslování stránek v kontinuálních sekcích — vše s přehledným, krok‑za‑krokem kódem, který můžete spustit ještě dnes.
 
-Máte potíže se správou složitých rozvržení dokumentů pomocí Java aplikací? Ať už jde o určení počtu stránek, které sekce zabírá, nebo o efektivní procházení entit rozvržení, tyto úkoly mohou být náročné. S **Aspose.Words pro Javu**, máte přístup k výkonným nástrojům, jako je `LayoutCollector` a `LayoutEnumerator` které tyto procesy zjednodušují a umožňují vám soustředit se na poskytování výjimečného obsahu. V této komplexní příručce prozkoumáme, jak tyto funkce využít k vylepšení vašich možností zpracování dokumentů.
+Dozvíte se, jak:
 
-**Co se naučíte:**
-- Použijte Aspose.Words `LayoutCollector` pro přesnou analýzu rozsahu stránek.
-- Efektivně procházejte dokumenty pomocí `LayoutEnumerator`.
-- Implementujte zpětná volání rozvržení pro dynamické vykreslování a aktualizace.
-- Efektivně ovládejte číslování stránek v souvislých sekcích.
+1. Použít `LayoutCollector` k **určení rozsahu stránky** libovolného uzlu.  
+2. **Procházet layoutové entity** pomocí `LayoutEnumerator`.  
+3. Implementovat layoutové callbacky pro dynamické vykreslování.  
+4. **Restartovat číslování stránek** v kontinuálních sekcích.  
 
-Pojďme se ponořit do toho, jak tyto nástroje mohou transformovat vaše procesy zpracování dokumentů. Než začneme, ujistěte se, že jste připraveni, a podívejte se na naši níže uvedenou část s předpoklady.
+Začneme tím, že se ujistíme, že je vaše prostředí připravené.
 
-## Předpoklady
+## Požadavky  
 
-Abyste mohli postupovat podle tohoto návodu, ujistěte se, že máte následující:
+### Potřebné knihovny  
 
-### Požadované knihovny a verze
-Ujistěte se, že máte nainstalovanou aplikaci Aspose.Words pro Javu verze 25.3.
+> **Poznámka:** Kód funguje s nejnovější verzí Aspose.Words for Java (není potřeba uvádět číslo verze).  
 
-**Znalec:**
+**Maven**
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
+    <version>latest</version>
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
+
 ```gradle
-implementation 'com.aspose:aspose-words:25.3'
+implementation 'com.aspose:aspose-words:latest'
 ```
 
-### Požadavky na nastavení prostředí
-Budete potřebovat:
-- Na vašem počítači nainstalovaná sada pro vývojáře Java (JDK).
-- IDE jako IntelliJ IDEA nebo Eclipse pro spouštění a testování kódu.
+### Prostředí  
 
-### Předpoklady znalostí
-Pro efektivní sledování se doporučuje základní znalost programování v Javě.
+- JDK 17 nebo novější.  
+- IntelliJ IDEA, Eclipse nebo jakékoli jiné Java IDE, které preferujete.  
 
-## Nastavení Aspose.Words
-Nejprve se ujistěte, že jste do svého projektu integrovali knihovnu Aspose.Words. Můžete získat bezplatnou zkušební licenci. [zde](https://releases.aspose.com/words/java/) nebo se v případě potřeby zvolte pro dočasnou licenci. Chcete-li začít používat Aspose.Words v Javě, inicializujte jej takto:
+### Znalosti  
+
+Základní povědomí o syntaxi Javy a objektově orientovaných konceptech vám usnadní sledování příkladů.
+
+## Nastavení Aspose.Words  
+
+Nejprve přidejte knihovnu Aspose.Words do svého projektu a aplikujte licenci (nebo použijte zkušební verzi). Následující úryvek ukazuje, jak načíst licenci a potvrdit, že je knihovna připravena:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Nastavení licence (pokud je k dispozici)
+        // Load your license file (skip this line for a trial)
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,162 +86,168 @@ public class SetupAsposeWords {
 }
 ```
 
-Jakmile je nastavení hotové, pojďme se ponořit do základních funkcí `LayoutCollector` a `LayoutEnumerator`.
+> **Tip:** Uložte soubor s licencí mimo verzovací systém, abyste ochránili své přihlašovací údaje.
 
-## Průvodce implementací
+Nyní se můžeme ponořit do dvou hlavních funkcí.
 
-### Funkce 1: Použití LayoutCollectoru pro analýzu rozsahu stránek
-Ten/Ta/To `LayoutCollector` Funkce umožňuje určit, jak se uzly v dokumentu rozkládají napříč stránkami, což pomáhá při analýze stránkování.
+## 1. Jak použít LayoutCollector pro analýzu rozsahu stránky  
 
-#### Přehled
-Využitím `LayoutCollector`, můžeme zjistit počáteční a koncové indexy stránek libovolného uzlu a také celkový počet stránek, které uzl zabírá.
+`LayoutCollector` vám umožní **určit rozsah stránky** pro libovolný uzel v dokumentu, což je nezbytné pro analýzu stránkování.
 
-#### Kroky implementace
+### Krok‑za‑krokem implementace  
 
-**1. Inicializace Document a LayoutCollector**
+1. **Vytvořte nový Document a instanci LayoutCollector.**  
+2. **Přidejte obsah, který zabírá více stránek.**  
+3. **Obnovte layout a dotazujte metriky rozsahu stránky.**  
+
 ```java
+// 1. Initialize Document and LayoutCollector
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
 
-**2. Naplňte dokument**
-Zde přidáme obsah, který se rozprostírá na více stránkách:
-```java
+// 2. Populate the Document with multi‑page content
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
 builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
+
+// 3. Update layout and retrieve page‑span information
+layoutCollector.clear();          // Reset any previous state
+doc.updatePageLayout();           // Force layout calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected number of pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-**3. Aktualizace rozvržení a načtení metrik**
+**Vysvětlení**
+
+- `DocumentBuilder` vkládá text a zalomení, čímž vytvoří dokument, který přirozeně zabírá několik stránek.  
+- `updatePageLayout()` vynutí výpočet layoutu v Aspose.Words, což zajišťuje přesná čísla stránek.  
+- `getNumPagesSpanned()` vrací celkový počet stránek, které pokrývá zadaný uzel (zde celý dokument).
+
+## 2. Jak procházet LayoutEnumerator  
+
+`LayoutEnumerator` poskytuje **strukturální pohled na layoutové entity** (stránky, odstavce, běhy atd.) a umožňuje se pohybovat dopředu i dozadu.
+
+### Krok‑za‑krokem implementace  
+
+1. Načtěte existující dokument, který obsahuje layoutové entity.  
+2. Vytvořte instanci `LayoutEnumerator`.  
+3. Přesuňte se na úroveň stránky a poté procházejte dopředu i dozadu pomocí pomocných metod.
+
 ```java
-layoutCollector.clear();
-doc.updatePageLayout();
-
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
-```
-
-#### Vysvětlení
-- **`DocumentBuilder`:** Slouží k vložení obsahu do dokumentu.
-- **`updatePageLayout()`:** Zajišťuje přesné metriky stránek.
-
-### Funkce 2: Procházení pomocí LayoutEnumerator
-Ten/Ta/To `LayoutEnumerator` umožňuje efektivní procházení entit rozvržení dokumentu a poskytuje podrobný přehled o vlastnostech a pozici každého prvku.
-
-#### Přehled
-Tato funkce pomáhá s vizuální navigací ve struktuře rozvržení, což je užitečné pro úlohy vykreslování a úprav.
-
-#### Kroky implementace
-
-**1. Inicializace Document a LayoutEnumerator**
-```java
+// 1. Load the document containing layout entities
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
-LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
 
-**2. Pohyb vpřed a vzad**
-Procházení rozvržení dokumentu:
-```java
+// 2. Initialize LayoutEnumerator
+LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
+
+// 3. Position the enumerator at the page level
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
-// Posunout vpřed
+// Forward traversal
 traverseLayoutForward(layoutEnumerator, 1);
 
-// Pohyb dozadu
+// Backward traversal
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### Vysvětlení
-- **`moveParent()`:** Přejde k nadřazeným entitám.
-- **Metody procházení:** Implementováno rekurzivně pro komplexní navigaci.
+> **Poznámka:** Metody `traverseLayoutForward` a `traverseLayoutBackward` jsou rekurzivní pomocníci, kteří procházejí strom layoutu. Můžete je upravit tak, aby sbíraly informace jako ohraničující rámečky, detaily fontů nebo vlastní metadata.
 
-### Funkce 3: Zpětná volání rozvržení stránky
-Tato funkce ukazuje, jak implementovat zpětná volání pro monitorování událostí rozvržení stránky během zpracování dokumentu.
+## 3. Jak implementovat callbacky pro layout stránky  
 
-#### Přehled
-Použijte `IPageLayoutCallback` rozhraní pro reakci na specifické změny rozvržení, například na přeformátování sekce nebo dokončení konverze.
+Někdy potřebujete reagovat na události layoutu — např. když sekce dokončí přetékání nebo když konverze do jiného formátu skončí. Implementujte rozhraní `IPageLayoutCallback`, abyste získali tato oznámení.
 
-#### Kroky implementace
+### Krok‑za‑krokem implementace  
 
-**1. Nastavení zpětného volání**
+1. Nastavte instanci callbacku v možnostech layoutu dokumentu.  
+2. Definujte logiku callbacku pro zpracování událostí `PART_REFLOW_FINISHED` a `CONVERSION_FINISHED`.  
+
 ```java
+// 1. Register the callback
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
-```
+doc.updatePageLayout();   // Triggers the callback during layout processing
 
-**2. Implementace metod zpětného volání**
-```java
+// 2. Callback implementation
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
-    public void notify(PageLayoutCallbackArgs a) throws Exception {
-        if (a.getEvent() == PageLayoutEvent.PART_REFLOW_FINISHED) {
-            notifyPartFinished(a);
-        } else if (a.getEvent() == PageLayoutEvent.CONVERSION_FINISHED) {
-            notifyConversionFinished(a);
+    public void notify(PageLayoutCallbackArgs args) throws Exception {
+        if (args.getEvent() == PageLayoutEvent.PART_REFLOW_FINISHED) {
+            renderPage(args, args.getPageIndex());
+        } else if (args.getEvent() == PageLayoutEvent.CONVERSION_FINISHED) {
+            System.out.println("Document conversion finished.");
         }
     }
 
-    private void renderPage(PageLayoutCallbackArgs a, int pageIndex) throws Exception {
+    private void renderPage(PageLayoutCallbackArgs args, int pageIndex) throws Exception {
         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
         saveOptions.setPageSet(new PageSet(pageIndex));
 
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
-            a.getDocument().save(stream, saveOptions);
+        try (FileOutputStream stream = new FileOutputStream(
+                "YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
+            args.getDocument().save(stream, saveOptions);
         }
     }
 }
 ```
 
-#### Vysvětlení
-- **`notify()`:** Zpracovává události rozvržení.
-- **`ImageSaveOptions`:** Konfiguruje možnosti vykreslování.
+**Vysvětlení**
 
-### Funkce 4: Obnovení číslování stránek v souvislých sekcích
-Tato funkce ukazuje, jak ovládat číslování stránek v souvislých sekcích a zajistit tak plynulý tok dokumentů.
+- `notify()` přijímá každou událost layoutu. Filtrujeme jen ty, které nás zajímají.  
+- Když část dokončí přetékání, `renderPage()` uloží tuto stránku jako PNG obrázek.
 
-#### Přehled
-Efektivně spravujte čísla stránek při práci s dokumenty s více sekcemi pomocí `ContinuousSectionRestart`.
+## 4. Jak restartovat číslování stránek v kontinuálních sekcích  
 
-#### Kroky implementace
+Když dokument obsahuje kontinuální sekce, můžete chtít, aby se číslování stránek restartovalo pouze na nové stránce. Aspose.Words vám to umožní pomocí `ContinuousSectionRestart`.
 
-**1. Načíst dokument**
+### Krok‑za‑krokem implementace  
+
+1. Načtěte cílový dokument.  
+2. Nastavte možnost `ContinuousSectionPageNumberingRestart`.  
+3. Obnovte layout, aby se změna projevila.
+
 ```java
+// 1. Load the multi‑section document
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
 
-**2. Konfigurace možností číslování stránek**
-```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+// 2. Configure page‑numbering restart behavior
+doc.getLayoutOptions()
+   .setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+
+// 3. Update layout to reflect the new numbering scheme
 doc.updatePageLayout();
+System.out.println("Page numbering restart configured for continuous sections.");
 ```
 
-#### Vysvětlení
-- **`setContinuousSectionPageNumberingRestart()`:** Konfiguruje, jak se čísla stránek v souvislých sekcích znovu začnou počítat.
+**Vysvětlení**
 
-## Praktické aplikace
-Zde jsou některé reálné scénáře, kde lze tyto funkce použít:
-1. **Analýza stránkování dokumentu:** Použití `LayoutCollector` analyzovat a upravit rozvržení obsahu pro optimální stránkování.
-2. **Vykreslování PDF:** Zaměstnat `LayoutEnumerator` pro přesnou navigaci a vykreslování PDF souborů se zachováním vizuální struktury.
-3. **Dynamické aktualizace dokumentů:** Implementujte zpětná volání pro spouštění akcí při konkrétních změnách rozvržení, což vylepší zpracování dokumentů v reálném čase.
-4. **Vícedílné dokumenty:** Ovládejte číslování stránek v sestavách nebo knihách s průběžnými sekcemi pro profesionální formátování.
+- `FROM_NEW_PAGE_ONLY` říká Aspose.Words, aby restartovalo číslování pouze tehdy, když se objeví nová fyzická stránka, čímž zachová plynulý tok napříč kontinuálními sekcemi.
 
-## Úvahy o výkonu
-Pro zajištění optimálního výkonu:
-- Minimalizujte velikost dokumentu odstraněním nepotřebných prvků před analýzou rozvržení.
-- Používejte efektivní metody procházení pro zkrácení doby zpracování.
-- Sledujte využití zdrojů, zejména při práci s velkými dokumenty.
+## Praktické aplikace  
 
-## Závěr
-Zvládnutím `LayoutCollector` a `LayoutEnumerator`odemkli jste si výkonné funkce v Aspose.Words pro Javu. Tyto nástroje nejen zjednodušují složité rozvržení dokumentů, ale také zlepšují vaši schopnost efektivně spravovat a zpracovávat text. Vyzbrojeni těmito znalostmi jste dobře vybaveni k řešení jakéhokoli pokročilého problému se zpracováním textu, který vám přijde do cesty.
+| Scénář | Která funkce pomáhá? | Přínos |
+|----------|----------------------|---------|
+| **Auditovat stránkování dokumentu** | `LayoutCollector` | Rychle najdete sekce, které přesahují stránky. |
+| **Vytvářet PDF s naprostou vizuální věrností** | `LayoutEnumerator` + callbacky | Přístup k detailům layoutu pro přesné vykreslení. |
+| **Automaticky vkládat vodoznak po každém layoutu stránky** | Callbacky pro layout stránky | Okamžitě reagujete, když je stránka vytvořena. |
+| **Generovat vícesekční zprávy s vlastním číslováním** | Restart číslování kontinuální sekce | Udržujete profesionální číslování bez ručních úprav. |
 
+## Tipy pro výkon  
+
+- **Odstraňte nepoužívané uzly** před voláním `updatePageLayout()`, aby se snížila spotřeba paměti.  
+- **Znovu použijte jediný LayoutCollector** pro více dotazů místo jeho opakovaného vytváření.  
+- **Omezte hloubku rekurze** v pomocných metodách procházení, aby nedošlo k přetečení zásobníku u velmi velkých dokumentů.  
+
+## Závěr  
+
+Ovládnutím **používání LayoutCollector**, **procházení LayoutEnumerator** a **restartování číslování stránek** máte nyní výkonnou sadu nástrojů pro pokročilé zpracování textu s Aspose.Words for Java. Tyto techniky vám umožní **určovat rozsah stránky**, **analyzovat stránkování dokumentu** a **kontrolovat chování layoutu** s jistotou. Použijte je v reportech, e‑knihách nebo jakémkoli automatizovaném workflow dokumentů a zaznamenáte výrazné zlepšení jak v přesnosti, tak v produktivitě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

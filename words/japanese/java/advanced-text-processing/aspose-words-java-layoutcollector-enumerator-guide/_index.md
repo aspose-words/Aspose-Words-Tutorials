@@ -1,9 +1,17 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words JavaのLayoutCollectorとLayoutEnumeratorのパワーを解き放ち、高度なテキスト処理を実現します。ドキュメントレイアウトを効率的に管理し、ページネーションを分析し、ページ番号を制御する方法を学びます。"
-"title": "Aspose.Words Java をマスターする - テキスト処理のための LayoutCollector と LayoutEnumerator の完全ガイド"
-"url": "/ja/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Aspose.Words for Java の LayoutCollector と LayoutEnumerator の使用方法を学び、ページスパンを判定し、レイアウトエンティティを走査し、連続セクションでページ番号をリセットする方法を習得しましょう。
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- determine page span
+- analyze document pagination
+- restart page numbering
+language: ja
+title: Aspose.Words Java：LayoutCollector と LayoutEnumerator ガイド
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +20,62 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Java: LayoutCollector と LayoutEnumerator ガイド
 
-# Aspose.Words Java をマスターする: テキスト処理のための LayoutCollector と LayoutEnumerator の完全ガイド
+## Introduction  
 
-## 導入
+複雑な Java ドキュメントで **ページ跨ぎの判定**、ページ付けの分析、またはページ番号のリスタートに苦労していますか？ **Aspose.Words for Java** を使えば、`LayoutCollector` と `LayoutEnumerator` でこれらの問題をすぐに解決できます。このガイドでは **LayoutCollector の使い方**、**LayoutEnumerator の走査方法**、そして連続セクションでのページ番号リスタートの制御方法を、すぐに実行できるステップバイステップのコードとともに紹介します。
 
-Javaアプリケーションで複雑なドキュメントレイアウトを管理するのに課題を感じていませんか？セクションが何ページにわたるかを判断することや、レイアウトエンティティを効率的にトラバースすることなど、これらのタスクは困難な場合があります。 **Java 用 Aspose.Words**、次のような強力なツールにアクセスできます `LayoutCollector` そして `LayoutEnumerator` これらのプロセスを簡素化し、優れたコンテンツの提供に集中できるようにします。この包括的なガイドでは、これらの機能を活用してドキュメント処理能力を強化する方法を説明します。
+学べること：
 
-**学習内容:**
-- Aspose.Wordsを使用する `LayoutCollector` 正確なページ範囲分析を実現します。
-- 効率的に文書を横断するには `LayoutEnumerator`。
-- 動的なレンダリングと更新のためのレイアウト コールバックを実装します。
-- 連続したセクションのページ番号を効果的に制御します。
+1. 任意のノードの **ページ跨ぎ** を `LayoutCollector` で取得する方法。  
+2. `LayoutEnumerator` で **レイアウトエンティティを走査** する方法。  
+3. 動的レンダリングのためのレイアウトコールバックを実装する方法。  
+4. 連続セクションで **ページ番号をリスタート** させる方法。  
 
-これらのツールがドキュメント処理プロセスをどのように変革できるか、詳しく見ていきましょう。始める前に、以下の前提条件セクションを確認して準備を整えてください。
+まずは環境が整っていることを確認しましょう。
 
-## 前提条件
+## Prerequisites  
 
-このガイドに従うには、次のものを用意してください。
+### Required Libraries  
 
-### 必要なライブラリとバージョン
-Aspose.Words for Java バージョン 25.3 がインストールされていることを確認してください。
+> **Note:** コードは最新の Aspose.Words for Java リリースで動作します（バージョン番号は不要です）。  
 
-**メイヴン:**
+**Maven**
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
+    <version>latest</version>
 </dependency>
 ```
 
-**グレード:**
+**Gradle**
+
 ```gradle
-implementation 'com.aspose:aspose-words:25.3'
+implementation 'com.aspose:aspose-words:latest'
 ```
 
-### 環境設定要件
-必要なもの:
-- Java Development Kit (JDK) がマシンにインストールされています。
-- コードを実行およびテストするための IntelliJ IDEA や Eclipse などの IDE。
+### Environment  
 
-### 知識の前提条件
-効果的に理解するには、Java プログラミングの基礎を理解しておくことが推奨されます。
+- JDK 17 以上。  
+- IntelliJ IDEA、Eclipse、またはお好みの Java IDE。  
 
-## Aspose.Words の設定
-まず、Aspose.Wordsライブラリがプロジェクトに統合されていることを確認してください。無料の試用ライセンスを取得できます。 [ここ](https://releases.aspose.com/words/java/) 必要に応じて一時ライセンスを選択してください。JavaでAspose.Wordsを使用するには、次のように初期化してください。
+### Knowledge  
+
+Java の基本構文とオブジェクト指向の概念に慣れていると、サンプルがスムーズに理解できます。
+
+## Setting Up Aspose.Words  
+
+まず、プロジェクトに Aspose.Words ライブラリを追加し、ライセンスを適用します（またはトライアル版を使用）。以下のスニペットはライセンスのロードとライブラリの準備確認方法を示しています。
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // ライセンスを設定する（利用可能な場合）
+        // Load your license file (skip this line for a trial)
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,162 +84,168 @@ public class SetupAsposeWords {
 }
 ```
 
-セットアップが完了したら、コア機能について詳しく見ていきましょう。 `LayoutCollector` そして `LayoutEnumerator`。
+> **Tip:** ライセンスファイルはバージョン管理から除外して、認証情報を保護しましょう。
 
-## 実装ガイド
+これで、2 つのコア機能に進めます。
 
-### 機能1: ページスパン分析にLayoutCollectorを使用する
-その `LayoutCollector` この機能を使用すると、ドキュメント内のノードがページ間をどのようにまたがっているかを判断し、ページ区切りの分析に役立てることができます。
+## 1. How to Use LayoutCollector for Page‑Span Analysis  
 
-#### 概要
-を活用することで `LayoutCollector`、任意のノードの開始ページ インデックスと終了ページ インデックス、およびノードがまたがるページの合計数を確認できます。
+`LayoutCollector` を使うと、ドキュメント内の任意のノードの **ページ跨ぎ** を取得でき、ページ付け分析に必須です。
 
-#### 実装手順
+### Step‑by‑Step Implementation  
 
-**1. DocumentとLayoutCollectorを初期化する**
+1. **新しい Document と LayoutCollector のインスタンスを作成**。  
+2. **複数ページにまたがるコンテンツを追加**。  
+3. **レイアウトを更新し、ページ跨ぎメトリックを問い合わせ**。  
+
 ```java
+// 1. Initialize Document and LayoutCollector
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
-```
 
-**2. ドキュメントに入力する**
-ここでは、複数のページにまたがるコンテンツを追加します。
-```java
+// 2. Populate the Document with multi‑page content
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
 builder.insertBreak(BreakType.PAGE_BREAK);
 builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
 builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
+
+// 3. Update layout and retrieve page‑span information
+layoutCollector.clear();          // Reset any previous state
+doc.updatePageLayout();           // Force layout calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected number of pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-**3. レイアウトを更新し、メトリックを取得する**
+**Explanation**
+
+- `DocumentBuilder` でテキストと改ページを挿入し、自然に複数ページになるドキュメントを作成します。  
+- `updatePageLayout()` により Aspose.Words がレイアウト計算を強制的に実行し、正確なページ番号が得られます。  
+- `getNumPagesSpanned()` は指定したノード（ここではドキュメント全体）が占めるページ数を返します。
+
+## 2. How to Traverse LayoutEnumerator  
+
+`LayoutEnumerator` は **レイアウトエンティティ（ページ、段落、ランなど）** の構造化ビューを提供し、前後に移動できます。
+
+### Step‑by‑Step Implementation  
+
+1. レイアウトエンティティを含む既存ドキュメントをロード。  
+2. `LayoutEnumerator` のインスタンスを作成。  
+3. ページレベルに移動し、ヘルパーメソッドで前方・後方に走査。  
+
 ```java
-layoutCollector.clear();
-doc.updatePageLayout();
-
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
-```
-
-#### 説明
-- **`DocumentBuilder`：** ドキュメントにコンテンツを挿入するために使用されます。
-- **`updatePageLayout()`：** 正確なページメトリックを保証します。
-
-### 機能2: LayoutEnumeratorによるトラバース
-その `LayoutEnumerator` ドキュメントのレイアウト エンティティを効率的に走査し、各要素のプロパティと位置に関する詳細な情報を提供します。
-
-#### 概要
-この機能は、レイアウト構造を視覚的にナビゲートするのに役立ち、レンダリングや編集のタスクに役立ちます。
-
-#### 実装手順
-
-**1. DocumentとLayoutEnumeratorを初期化する**
-```java
+// 1. Load the document containing layout entities
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
-LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
-```
 
-**2. 前方と後方への移動**
-ドキュメントレイアウトを移動するには:
-```java
+// 2. Initialize LayoutEnumerator
+LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
+
+// 3. Position the enumerator at the page level
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
-// 前方にトラバース
+// Forward traversal
 traverseLayoutForward(layoutEnumerator, 1);
 
-// 後方にトラバースする
+// Backward traversal
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### 説明
-- **`moveParent()`：** 親エンティティに移動します。
-- **トラバーサルメソッド:** 包括的なナビゲーションのために再帰的に実装されています。
+> **Note:** `traverseLayoutForward` と `traverseLayoutBackward` はレイアウトツリーを再帰的に歩くヘルパーです。バウンディングボックスやフォント情報、カスタムメタデータの取得などにカスタマイズできます。
 
-### 機能3: ページレイアウトコールバック
-この機能は、ドキュメント処理中にページ レイアウト イベントを監視するためのコールバックを実装する方法を示します。
+## 3. How to Implement Page‑Layout Callbacks  
 
-#### 概要
-使用 `IPageLayoutCallback` セクションのリフローや変換の完了時など、特定のレイアウト変更に反応するインターフェース。
+レイアウトイベントに応答したいケースがあります（例：セクションの再フロー完了時や別フォーマットへの変換完了時）。`IPageLayoutCallback` インターフェイスを実装して通知を受け取ります。
 
-#### 実装手順
+### Step‑by‑Step Implementation  
 
-**1. コールバックを設定する**
+1. ドキュメントのレイアウトオプションにコールバックインスタンスを設定。  
+2. `PART_REFLOW_FINISHED` と `CONVERSION_FINISHED` イベントを処理するロジックを定義。  
+
 ```java
+// 1. Register the callback
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
-```
+doc.updatePageLayout();   // Triggers the callback during layout processing
 
-**2. コールバックメソッドを実装する**
-```java
+// 2. Callback implementation
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
-    public void notify(PageLayoutCallbackArgs a) throws Exception {
-        if (a.getEvent() == PageLayoutEvent.PART_REFLOW_FINISHED) {
-            notifyPartFinished(a);
-        } else if (a.getEvent() == PageLayoutEvent.CONVERSION_FINISHED) {
-            notifyConversionFinished(a);
+    public void notify(PageLayoutCallbackArgs args) throws Exception {
+        if (args.getEvent() == PageLayoutEvent.PART_REFLOW_FINISHED) {
+            renderPage(args, args.getPageIndex());
+        } else if (args.getEvent() == PageLayoutEvent.CONVERSION_FINISHED) {
+            System.out.println("Document conversion finished.");
         }
     }
 
-    private void renderPage(PageLayoutCallbackArgs a, int pageIndex) throws Exception {
+    private void renderPage(PageLayoutCallbackArgs args, int pageIndex) throws Exception {
         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
         saveOptions.setPageSet(new PageSet(pageIndex));
 
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
-            a.getDocument().save(stream, saveOptions);
+        try (FileOutputStream stream = new FileOutputStream(
+                "YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
+            args.getDocument().save(stream, saveOptions);
         }
     }
 }
 ```
 
-#### 説明
-- **`notify()`：** レイアウト イベントを処理します。
-- **`ImageSaveOptions`：** レンダリング オプションを構成します。
+**Explanation**
 
-### 機能4: 連続したセクションでページ番号を再開する
-この機能は、連続したセクションでページ番号を制御し、シームレスなドキュメント フローを確保する方法を示します。
+- `notify()` がすべてのレイアウトイベントを受け取り、関心のあるイベントだけをフィルタリングします。  
+- パートの再フローが完了したときに `renderPage()` がそのページを PNG 画像として保存します。  
 
-#### 概要
-複数セクションの文書を扱う際にページ番号を効果的に管理するには、 `ContinuousSectionRestart`。
+## 4. How to Restart Page Numbering in Continuous Sections  
 
-#### 実装手順
+ドキュメントに連続セクションが含まれる場合、ページ番号を新しいページが出たときだけリスタートさせたいことがあります。Aspose.Words では `ContinuousSectionRestart` でこれを制御できます。
 
-**1. ドキュメントを読み込む**
+### Step‑by‑Step Implementation  
+
+1. 対象ドキュメントをロード。  
+2. `ContinuousSectionPageNumberingRestart` オプションを設定。  
+3. 変更を適用するためにレイアウトを更新。  
+
 ```java
+// 1. Load the multi‑section document
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
 
-**2. ページ番号オプションを設定する**
-```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+// 2. Configure page‑numbering restart behavior
+doc.getLayoutOptions()
+   .setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+
+// 3. Update layout to reflect the new numbering scheme
 doc.updatePageLayout();
+System.out.println("Page numbering restart configured for continuous sections.");
 ```
 
-#### 説明
-- **`setContinuousSectionPageNumberingRestart()`：** 連続セクションでページ番号を再開する方法を設定します。
+**Explanation**
 
-## 実用的な応用
-これらの機能を適用できる実際のシナリオをいくつか示します。
-1. **ドキュメントのページネーション分析:** 使用 `LayoutCollector` 最適なページ区切りのためにコンテンツ レイアウトを分析および調整します。
-2. **PDF レンダリング:** 雇用する `LayoutEnumerator` 視覚的な構造を維持しながら、PDF を正確にナビゲートしてレンダリングします。
-3. **動的なドキュメント更新:** 特定のレイアウト変更時にアクションをトリガーするコールバックを実装し、リアルタイムのドキュメント処理を強化します。
-4. **複数セクションのドキュメント:** プロフェッショナルな書式設定のために、連続したセクションを持つレポートや書籍のページ番号を制御します。
+- `FROM_NEW_PAGE_ONLY` は、物理的に新しいページが出たときだけページ番号をリスタートさせ、連続セクション間のシームレスなフローを保ちます。
 
-## パフォーマンスに関する考慮事項
-最適なパフォーマンスを確保するには:
-- レイアウト分析の前に不要な要素を削除してドキュメントのサイズを最小限に抑えます。
-- 効率的なトラバーサル方法を使用して処理時間を短縮します。
-- 特に大きなドキュメントを処理する場合は、リソースの使用状況を監視します。
+## Practical Applications  
 
-## 結論
-習得することで `LayoutCollector` そして `LayoutEnumerator`で、Aspose.Words for Java の強力な機能を活用できるようになりました。これらのツールは、複雑なドキュメントレイアウトを簡素化するだけでなく、テキストを効果的に管理・処理する能力を高めます。これらの知識を身に付ければ、どんな高度なテキスト処理の課題にも対処できるようになります。
+| シナリオ | 使用する機能 | 利点 |
+|----------|--------------|------|
+| **ドキュメントのページ付けを監査** | `LayoutCollector` | ページを超えるセクションを素早く特定 |
+| **正確なビジュアルで PDF を生成** | `LayoutEnumerator` + コールバック | レイアウト詳細にアクセスして高精度レンダリング |
+| **各ページレイアウト後に透かしを自動挿入** | ページレイアウトコールバック | ページがレイアウトされた瞬間に即座に処理 |
+| **カスタム番号付けが必要な複数セクションレポート** | 連続セクションリスタート | 手動編集なしでプロフェッショナルなページ番号を維持 |
 
+## Performance Tips  
+
+- `updatePageLayout()` を呼び出す前に **未使用ノードを削除** してメモリ使用量を抑える。  
+- 複数のクエリに対しては **同一の LayoutCollector を再利用** し、インスタンス生成コストを削減。  
+- 大規模ドキュメントでの走査ヘルパーは **再帰深度を制限** してスタックオーバーフローを防止。  
+
+## Conclusion  
+
+**LayoutCollector の使い方**、**LayoutEnumerator の走査方法**、そして **ページ番号リスタートの制御** をマスターすれば、Aspose.Words for Java で高度なテキスト処理が可能になります。これらのテクニックにより **ページ跨ぎの判定**、**ドキュメントページ付けの分析**、**レイアウト動作の制御** が自信を持って行えるようになります。レポートや電子書籍、あらゆる自動化ドキュメントワークフローに適用して、正確性と生産性の大幅な向上を実感してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
