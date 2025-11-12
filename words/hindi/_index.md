@@ -1,9 +1,34 @@
 ---
-"description": ".NET, Java, C++, Python और अन्य के लिए चरण-दर-चरण विज़ुअल ट्यूटोरियल के साथ Aspose.Words सीखें। दस्तावेज़ निर्माण, संपादन, रूपांतरण और स्वचालन को आसानी से मास्टर करें।"
-"title": "Aspose.Words विज़ुअल ट्यूटोरियल"
-"url": "/hi/"
-"weight": 10
+date: 2025-11-12
+description: .NET, Java और Python के लिए Aspose.Words के चरण‑दर‑चरण दृश्य ट्यूटोरियल
+  का अन्वेषण करें। चार्ट बनाना, तालिकाएँ सम्मिलित करना, वॉटरमार्क जोड़ना और पैराग्राफ
+  को जल्दी फॉर्मेट करना सीखें।
+keywords: create chart word, insert table document builder, add watermark word, apply
+  table border, format paragraph style, Aspose.Words tutorials, .NET document automation,
+  Java Word processing, Python document handling
+language: hi
+limit: null
+title: Aspose.Words विज़ुअल ट्यूटोरियल्स – वर्ड दस्तावेज़ बनाएं, फ़ॉर्मेट करें और
+  स्वचालित करें
+url: /
+weight: 10
 ---
+
+We need to translate the given content to Hindi, preserving markdown, technical terms, URLs, file paths, variable names, function names unchanged. Also keep the custom shortcodes like {{< blocks/... >}} unchanged. Also ensure proper RTL formatting if needed? Hindi is LTR, not RTL, but they said ensure proper RTL formatting if needed; not needed.
+
+We must translate all visible text, including headings, bullet points, alerts, etc. Keep code snippets unchanged. Also keep the markdown formatting.
+
+We need to translate everything after the shortcodes, but not the shortcodes themselves. The shortcodes include {{< tutorial-card ... >}} with attributes like title, link, imgSrc. The title attribute is visible text; we need to translate that title attribute value? The instruction: "Translate ALL text content naturally" but "Do NOT translate: URLs, file paths, variable names, function names". The title attribute is a string displayed as title; it's text content, so should be translated. However it's inside attribute value; we can translate it. The link attribute is a URL, not translate. imgSrc is path, not translate. So we translate title attribute.
+
+Also headings like "# Aspose.Words Visual Tutorials" etc.
+
+Also blockquotes, alerts.
+
+We need to keep markdown formatting.
+
+Let's go through content.
+
+Start:
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -11,273 +36,233 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words विज़ुअल ट्यूटोरियल
+# Aspose.Words Visual Tutorials
 
-Aspose.Words विज़ुअल ट्यूटोरियल सभी Aspose.Words उत्पादों के लिए चरण-दर-चरण मार्गदर्शिकाएँ प्रदान करते हैं, जिसमें .NET, Java, C++, Python और अन्य के लिए Aspose.Words शामिल हैं। ये ट्यूटोरियल दस्तावेज़ प्रसंस्करण कार्यों की एक विस्तृत श्रृंखला को कवर करते हैं, जैसे कि Word दस्तावेज़ बनाना, संपादित करना, परिवर्तित करना और फ़ॉर्मेट करना। स्पष्ट निर्देशों और विज़ुअल प्रदर्शनों के साथ, डेवलपर्स जल्दी से सीख सकते हैं कि Aspose.Words को अपने अनुप्रयोगों में कैसे एकीकृत किया जाए। चाहे आप .NET, Java, C++, या Python के साथ काम कर रहे हों, ये ट्यूटोरियल आपको दस्तावेज़ प्रबंधन को कुशलतापूर्वक स्वचालित करने और अपने वर्कफ़्लो को बढ़ाने में मदद करने के लिए व्यावहारिक शिक्षा प्रदान करते हैं।
+Translate: "Aspose.Words Visual Tutorials" maybe keep as is? It's a title; we can translate "Aspose.Words विज़ुअल ट्यूटोरियल्स" but maybe keep Aspose.Words unchanged. So "Aspose.Words विज़ुअल ट्यूटोरियल्स". Use Hindi: "Aspose.Words विज़ुअल ट्यूटोरियल्स". Or "Aspose.Words विज़ुअल ट्यूटोरियल्स". Good.
 
-## [.NET विज़ुअल ट्यूटोरियल के लिए Aspose.Words](./net/)
+Next paragraph:
 
-Aspose.Words for .NET डेवलपर्स को उनके अनुप्रयोगों में दस्तावेज़ हेरफेर में महारत हासिल करने में मदद करने के लिए विज़ुअल ट्यूटोरियल का एक व्यापक सेट प्रदान करता है। ये चरण-दर-चरण मार्गदर्शिकाएँ Word दस्तावेज़ों को बनाने, संपादित करने और परिवर्तित करने के साथ-साथ छवियों, तालिकाओं और फ़ॉर्म फ़ील्ड को सम्मिलित करने को कवर करती हैं। स्पष्ट निर्देशों और दृश्य प्रदर्शनों के साथ, ट्यूटोरियल जटिल कार्यों को सरल बनाते हैं, स्वचालन और एकीकरण को सहज बनाते हैं। चाहे आप Aspose के लिए नए हों या अपने कौशल को बढ़ा रहे हों, ये व्यावहारिक ट्यूटोरियल आपकी दस्तावेज़-प्रसंस्करण क्षमताओं को बेहतर बनाने के लिए व्यावहारिक अनुभव प्रदान करते हैं।
+Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python.  
+In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs.
 
+Translate: "Aspose.Words विज़ुअल ट्यूटोरियल्स हर प्रमुख प्लेटफ़ॉर्म—.NET, Java, C++, और Python—के लिए **हैंड‑ऑन, स्टेप‑बाय‑स्टेप गाइड** प्रदान करते हैं। इस गाइड में आप जल्दी से जानेंगे कि कैसे **चार्ट बनाएं**, **Document Builder के साथ टेबल डालें**, **वॉटरमार्क जोड़ें**, और **पैराग्राफ फ़ॉर्मेट करें** नवीनतम Aspose.Words APIs का उपयोग करके।"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Make sure to keep bold formatting.
 
+Next blockquote:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Aspose.Words में चार्ट के साथ कार्य करना ](./net/working-with-charts/)
-Word दस्तावेज़ों में विभिन्न प्रकार के चार्ट, जैसे बार, लाइन और स्कैटर चार्ट, सम्मिलित करना और अनुकूलित करना सीखें।
+> **What you’ll get:**  
+> 1. A clear overview of each tutorial category.  
+> 2. Direct links to visual, code‑rich examples.  
+> 3. Practical tips you can apply to real‑world projects today.
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="चार्ट के साथ दस्तावेज़ बनाएँ " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+Translate: "आपको क्या मिलेगा:" then list.
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="वर्ड में लाइन चार्ट बनाएं " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+So:
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="वर्ड दस्तावेज़ में क्षेत्र चार्ट सम्मिलित करें" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+> **आपको क्या मिलेगा:**  
+> 1. प्रत्येक ट्यूटोरियल श्रेणी का स्पष्ट अवलोकन।  
+> 2. विज़ुअल, कोड‑समृद्ध उदाहरणों के सीधे लिंक।  
+> 3. व्यावहारिक टिप्स जिन्हें आप आज ही वास्तविक प्रोजेक्ट्स में लागू कर सकते हैं।
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="वर्ड में बबल चार्ट डालें " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="वर्ड में कॉलम चार्ट डालें " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+## Aspose.Words for .NET Visual Tutorials {#net-tutorials}
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="वर्ड स्कैटर चार्ट बनाएं " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+Translate: "Aspose.Words for .NET विज़ुअल ट्यूटोरियल्स". Keep the anchor unchanged.
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="वर्ड में एक सरल कॉलम चार्ट डालें " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+## Aspose.Words for .NET Visual Tutorials {#net-tutorials}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Will be:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में तालिका शैलियों और स्वरूपण के साथ कार्य करना](./net/working-with-table-styles-and-formatting/)
-जानें कि Word दस्तावेज़ों में तालिकाएँ कैसे बनाएँ, प्रारूपित करें और अनुकूलित करें, जिसमें बॉर्डर, शैलियाँ और सेल पैडिंग सेट करना शामिल है।
+## Aspose.Words for .NET विज़ुअल ट्यूटोरियल्स {#net-tutorials}
 
+Next paragraph:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="वर्ड में किसी टेबल पर आउटलाइन बॉर्डर लागू करें" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+Aspose.Words for .NET offers a comprehensive set ... Translate.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Word दस्तावेज़ों में पंक्ति स्वरूपण लागू करें" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+"Aspose.Words for .NET दस्तावेज़ हेरफेर कार्यों के लिए व्यापक विज़ुअल ट्यूटोरियल्स प्रदान करता है। नीचे दिए गए क्रमांकित चरणों का पालन करके वह ट्यूटोरियल खोजें जो आपके परिदृश्य से मेल खाता है:"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="वर्ड में टेबल बॉर्डर संशोधित करें " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+Then list steps.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Aspose.Words के साथ Word में स्टाइल्ड टेबल बनाएं " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+1. **Select a topic** (e.g., charts, tables, headers).  
+2. **Open the tutorial** by clicking the card.  
+3. **Run the sample code** in your IDE and modify it to fit your project.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Aspose.Words में पैडिंग के साथ वर्ड टेबल सेल बनाएं " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+Translate each bullet, keep bold.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="वर्ड दस्तावेज़ में स्टाइल्ड टेबल बनाएँ " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+"1. **एक विषय चुनें** (जैसे, चार्ट, टेबल, हेडर)।  
+2. **कार्ड पर क्लिक करके ट्यूटोरियल खोलें**।  
+3. **अपने IDE में सैंपल कोड चलाएँ** और इसे अपने प्रोजेक्ट के अनुसार संशोधित करें।"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="टेबल बॉर्डर और शेडिंग के साथ वर्ड डॉक्यूमेंट बनाएं" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+Next paragraph:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Word दस्तावेज़ में तालिका बनाएँ और फ़ॉर्मेट करें" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+These tutorials cover everything ... translate.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Aspose.Words के साथ Word में एक स्वरूपित तालिका बनाएँ " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+"ये ट्यूटोरियल **बेसिक दस्तावेज़ निर्माण** से लेकर **एडवांस्ड फ़ॉर्मेटिंग** तक सब कुछ कवर करते हैं, जिससे आप आत्मविश्वास के साथ Word प्रोसेसिंग को ऑटोमेट कर सकते हैं।"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Word में तालिका में शीर्षक और विवरण जोड़ें" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+Next heading:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Working with Charts in Aspose.Words {#charts}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में दस्तावेज़ बिल्डर का उपयोग करके सामग्री जोड़ें ](./net/add-content-using-document-builder/)
-डॉक्यूमेंट बिल्डर क्लास का उपयोग करके प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ों में टेक्स्ट, तालिकाएँ, चित्र और अन्य तत्वों को सम्मिलित करना सीखें।
+Translate: "Aspose.Words में चार्ट्स के साथ काम करना". Keep anchor.
 
+### Working with Charts in Aspose.Words {#charts}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="टेबल के साथ एक वर्ड दस्तावेज़ बनाएँ" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+Will be:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Aspose.Words के साथ एक बहु-पृष्ठ वर्ड दस्तावेज़ बनाएँ" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+### Aspose.Words में चार्ट्स के साथ काम करना {#charts}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title=".NET में फ्लोटिंग इमेज के साथ वर्ड डॉक्यूमेंट बनाएं" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+Next sentence:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title=".NET में क्षैतिज नियम के साथ वर्ड दस्तावेज़ बनाएँ" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+Learn to insert and customize bar, line, scatter, and other chart types directly inside Word documents.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="वर्ड दस्तावेज़ में इनलाइन छवि डालें" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+Translate: "Word दस्तावेज़ों के भीतर सीधे बार, लाइन, स्कैटर और अन्य चार्ट प्रकारों को सम्मिलित और अनुकूलित करना सीखें।"
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Aspose.Words के साथ Word दस्तावेज़ बनाएँ " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+Now series of tutorial-card shortcodes. Need to translate title attribute.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title=".NET में विषय-सूची के साथ एक वर्ड दस्तावेज़ बनाएँ" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+First:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words के साथ दस्तावेज़ स्वरूपण](./net/document-styling/)
-अपने वर्ड फ़ाइलों के दृश्य आकर्षण को बढ़ाने के लिए पैराग्राफ, सूचियों और दस्तावेज़ तत्वों पर विभिन्न स्वरूपण विकल्पों को लागू करने का तरीका समझें।
+Title: "Create a Document with Charts ". Translate: "चार्ट्स के साथ दस्तावेज़ बनाएं". Keep trailing space? Not needed.
 
+Second:
 
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Aspose.Words में पैराग्राफ़ पर बॉर्डर और शेडिंग लागू करें " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Aspose.Words में Word दस्तावेज़ बनाएँ और उसे स्टाइल करें " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+Title: "Create a Line Chart in Word " => "Word में लाइन चार्ट बनाएं".
 
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Aspose.Words के साथ Word में बहुस्तरीय सूचियाँ बनाएँ" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+Third:
 
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="पैराग्राफ़ का प्रारूप " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Title: "Insert Area Chart in Word Document" => "Word दस्तावेज़ में एरिया चार्ट डालें".
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में फ़ॉन्ट्स के साथ कार्य करना](./net/font-styling/)
-Word दस्तावेज़ों में फ़ॉन्ट-संबंधी सुविधाओं जैसे फ़ॉन्ट शैलियाँ, पंक्ति रिक्ति, ज़ोर चिह्न और अन्य टाइपोग्राफी सेटिंग्स का अन्वेषण करें।
+Fourth:
 
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="वर्ड में फ़ॉन्ट फ़ॉर्मेटिंग बनाएँ " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+Title: "Insert a Bubble Chart in Word " => "Word में बबल चार्ट डालें".
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="वर्ड दस्तावेज़ में फ़ॉन्ट लाइन स्पेसिंग प्राप्त करें" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+Fifth:
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="वर्ड दस्तावेज़ में जोर चिह्न सेट करें " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Title: "Insert Column Chart in Word " => "Word में कॉलम चार्ट डालें".
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में फ़ॉर्म फ़ील्ड के साथ कार्य करना](./net/working-with-form-fields/)
-जानें कि Word दस्तावेज़ों में टेक्स्ट इनपुट, ड्रॉप-डाउन सूचियाँ और चेकबॉक्स जैसे फ़ॉर्म फ़ील्ड कैसे डालें और प्रबंधित करें।
+Sixth:
 
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="वर्ड डॉक्यूमेंट में कॉम्बो बॉक्स फॉर्म फ़ील्ड डालें" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+Title: "Create Word Scatter Chart " => "Word स्कैटर चार्ट बनाएं".
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Seventh:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में हेडर और फूटर के साथ कार्य करना](./net/header-footer-formatting/)
-हेडर और फूटर बनाने और उनमें बदलाव करने का तरीका जानें, जिसमें चित्र, पृष्ठ संख्या और पाठ जोड़ना शामिल है।
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
+Title: "Insert a Simple Column Chart in Word " => "Word में सरल कॉलम चार्ट डालें".
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="हेडर और फूटर के साथ वर्ड डॉक्यूमेंट बनाएं" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="वर्ड डॉक्यूमेंट हेडर में एक छवि डालें" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+### Working with Table Styles and Formatting {#tables}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Translate: "टेबल स्टाइल्स और फ़ॉर्मेटिंग के साथ काम करना". Keep anchor.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में अनुभागों के साथ कार्य करना](./net/document-sections/)
-समझें कि दस्तावेज़ों को अनुभागों में कैसे संरचित किया जाए, विभिन्न शीर्षलेखों, पादलेखों और स्वरूपण शैलियों की अनुमति कैसे दी जाए।
+### Working with Table Styles and Formatting {#tables}
 
+Will be:
 
-{{< tutorial-card link="./net/document-sections/add-section/" title="Word दस्तावेज़ में नया अनुभाग जोड़ें" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+### टेबल स्टाइल्स और फ़ॉर्मेटिंग के साथ काम करना {#tables}
 
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="वर्ड दस्तावेज़ों में सामग्री जोड़ें और जोड़ें" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+Next sentence:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Discover how to **create**, **style**, and **format** tables, including borders, cell padding, and custom table styles.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में आकृतियों के साथ कार्य करना](./net/working-with-shapes/)
-जानें कि Word दस्तावेज़ों में समूहीकृत आकृतियों और पूर्वनिर्धारित रेखाचित्रों सहित विभिन्न आकृतियों को कैसे सम्मिलित और परिवर्तित किया जाए।
-
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="वर्ड दस्तावेज़ में समूह आकार बनाएँ " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="वर्ड दस्तावेज़ों में आकृतियाँ सम्मिलित करें " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [.NET के लिए Aspose.Words में वॉटरमार्क के साथ कार्य करना](./net/working-with-watermark)
-ब्रांडिंग या सुरक्षा उद्देश्यों के लिए वर्ड दस्तावेज़ों में टेक्स्ट और छवि वॉटरमार्क जोड़ना सीखें।
-
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="वर्ड दस्तावेज़ में टेक्स्ट वॉटरमार्क जोड़ें " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-ये कुछ उपयोगी संसाधनों के लिंक हैं:
-- [AI संचालित दस्तावेज़ प्रसंस्करण](./net/ai-powered-document-processing/)
-- [लाइसेंस लागू करें](./net/apply-license/)   
-- [ओपनटाइप सुविधाएँ सक्षम करें](./net/enable-opentype-features/)   
-- [टिप्पणियों के साथ काम करना](./net/working-with-comments/)   
-- [फ़ील्ड्स के साथ कार्य करना](./net/working-with-fields/)   
-- [फ़ुटनोट और एंडनोट के साथ कार्य करना](./net/working-with-footnote-and-endnote/)   
-- [फॉर्मफील्ड्स के साथ कार्य करना](./net/working-with-formfields/)   
-- [हेडर और फूटर के साथ कार्य करना](./net/working-with-headers-and-footers/)   
-- [हाइफ़नेशन के साथ कार्य करना](./net/working-with-hyphenation/)   
-- [सूची के साथ कार्य करना](./net/working-with-list/)   
-- [मार्कडाउन के साथ कार्य करना](./net/working-with-markdown/)   
-- [नोड के साथ कार्य करना](./net/working-with-node/)   
-- [संशोधनों के साथ कार्य करना](./net/working-with-revisions/)   
-- [टेक्स्टबॉक्स के साथ कार्य करना](./net/working-with-textboxes/)   
-- [दस्तावेज़ विभाजित करें](./net/split-document/)   
-- [डॉक्यूमेंटबिल्डर का उपयोग करके सामग्री जोड़ें](./net/add-content-using-documentbuilder/)
-- [दस्तावेज़ों को क्लोन और संयोजित करें](./net/clone-and-combine-documents/) 
-- [दस्तावेज़ों की तुलना करें](./net/compare-documents/) 
-- [दस्तावेज़ स्वरूपण](./net/document-formatting/)      
-- [वॉटरमार्क के साथ प्रोग्रामिंग](./net/programming-with-watermark/)    
-- [मार्कडाउन के साथ प्रोग्रामिंगसेवऑप्शन](./net/programming-with-markdownsaveoptions/)   
-- [बुनियादी रूपांतरण](./net/basic-conversions/)   
-
-## जावा के लिए Aspose.Words दस्तावेज़ प्रसंस्करण ट्यूटोरियल
-
-{{% alert color="primary" %}}
-ट्यूटोरियल का यह व्यापक संग्रह Microsoft Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से प्रभावी ढंग से काम करने के तरीके पर चरण-दर-चरण मार्गदर्शन प्रदान करता है। दस्तावेज़ निर्माण और हेरफेर से लेकर मेल मर्ज, टेबल फ़ॉर्मेटिंग और दस्तावेज़ एन्क्रिप्शन जैसी उन्नत सुविधाओं तक, ये ट्यूटोरियल कई प्रकार की कार्यक्षमताओं को कवर करते हैं। इन ट्यूटोरियल का पालन करके, डेवलपर्स अपने जावा प्रोजेक्ट में Aspose.Words को सहजता से एकीकृत कर सकते हैं, जिससे कुशल दस्तावेज़ प्रसंस्करण सक्षम हो सकता है और पेशेवर-ग्रेड दस्तावेज़ प्रबंधन क्षमताओं के साथ अपने अनुप्रयोगों को बेहतर बना सकते हैं। 
-
-{{% /alert %}}
-
-ये कुछ उपयोगी संसाधनों के लिंक हैं:
-- [शब्द संसाधन](./java/word-processing/)  
-- [तालिका प्रसंस्करण](./java/table-processing/)
-- [दस्तावेज़ स्टाइलिंग](./java/document-styling/)
-- [दस्तावेज़ विलय](./java/document-merging/)
-- [दस्तावेज़ परिवर्तित करना](./java/document-converting/)
-- [दस्तावेज़ मुद्रण](./java/document-printing/)
-- [दस्तावेज़ रेंडरिंग](./java/document-rendering/)
-- [दस्तावेज़ सुरक्षा](./java/document-security/)
-- [दस्तावेज़ विभाजन](./java/document-splitting/)
-- [दस्तावेज़ संशोधन](./java/document-revision/)
-- [दस्तावेज़ लोड करना और सहेजना](./java/document-loading-and-saving/)
-- [दस्तावेज़ हेरफेर](./java/document-manipulation/)
-- [दस्तावेज़ रूपांतरण और निर्यात](./java/document-conversion-and-export/)
-- [लाइसेंसिंग और कॉन्फ़िगरेशन](./java/licensing-and-configuration/)
-- [दस्तावेज़ तत्वों का उपयोग करना](./java/using-document-elements/)
-- [दस्तावेज़ मुद्रण](./java/printing-documents/)
-- [दस्तावेज़ प्रस्तुत करना](./java/rendering-documents/)
-- [शुरू करना](./java/getting-started/)
-- [दस्तावेज़ संचालन](./java/document-operations/)
-- [सामग्री प्रबंधन](./java/content-management/)
-- [हेडर, फूटर और पेज सेटअप](./java/headers-footers-page-setup/)
-- [टिप्पणियाँ और टिप्पणियाँ](./java/annotations-comments/)
-- [उन्नत पाठ प्रसंस्करण](./java/advanced-text-processing/)
-- [दस्तावेज़ तुलना और ट्रैकिंग](./java/document-comparison-tracking/)
-- [प्रदर्शन अनुकूलन](./java/performance-optimization/)
-- [एकीकरण और अंतरसंचालनीयता](./java/integration-interoperability/)
-- [सुरक्षा एवं संरक्षण](./java/security-protection/)
-- [स्वरूपण और शैलियाँ](./java/formatting-styles/)
-- [तालिकाएँ और सूचियाँ](./java/tables-lists/)
-- [छवियाँ और आकृतियाँ](./java/images-shapes/)
-- [मेल मर्ज और रिपोर्टिंग](./java/mail-merge-reporting/)
-- [एआई और मशीन लर्निंग एकीकरण](./java/ai-machine-learning-integration/)
-
-## पायथन के लिए Aspose.Words दस्तावेज़ प्रबंधन ट्यूटोरियल
-
-{{% alert color="primary" %}}
-ये ट्यूटोरियल Microsoft Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने के तरीके पर चरण-दर-चरण मार्गदर्शन प्रदान करते हैं, जिसमें दस्तावेज़ निर्माण, हेरफेर और एन्क्रिप्शन और पासवर्ड सुरक्षा जैसी विभिन्न सुरक्षा सुविधाएँ शामिल हैं। इस संसाधन की मदद से, डेवलपर्स Aspose.Words का उपयोग करके अपने पायथन अनुप्रयोगों में दस्तावेज़ प्रसंस्करण कार्यक्षमताओं को कुशलतापूर्वक लागू कर सकते हैं, उत्पादकता बढ़ा सकते हैं और दस्तावेज़ सुरक्षा सुनिश्चित कर सकते हैं। 
-
-{{% /alert %}}
-
-ये कुछ उपयोगी संसाधनों के लिंक हैं:
-- [दस्तावेज़ निर्माण](./python-net/document-creation/)  
-- [शब्द स्वचालन](./python-net/word-automation/)
-- [दस्तावेज़ इंटेलिजेंस](./python-net/document-intelligence/)
-- [दस्तावेज़ रूपांतरण](./python-net/document-conversion/)
-- [दस्तावेज़ संरक्षण](./python-net/document-protection/)
-- [शुरू करना](./python-net/getting-started/)
-- [दस्तावेज़ संचालन](./python-net/document-operations/)
-- [सामग्री प्रबंधन](./python-net/content-management/)
-- [स्वरूपण और शैलियाँ](./python-net/formatting-styles/)
-- [तालिकाएँ और सूचियाँ](./python-net/tables-lists/)
-- [छवियाँ और आकृतियाँ](./python-net/images-shapes/)
-- [मेल मर्ज और रिपोर्टिंग](./python-net/mail-merge-reporting/)
-- [हेडर, फूटर और पेज सेटअप](./python-net/headers-footers-page-setup/)
-- [दस्तावेज़ गुण और मेटाडेटा](./python-net/document-properties-metadata/)
-- [सुरक्षा एवं संरक्षण](./python-net/security-protection/)
-- [टिप्पणियाँ और टिप्पणियाँ](./python-net/annotations-comments/)
-- [दस्तावेज़ तुलना और ट्रैकिंग](./python-net/document-comparison-tracking/)
-- [दस्तावेज़ विभाजन और स्वरूपण](./python-net/document-splitting-and-formatting/)
-- [दस्तावेज़ संयोजन और तुलना](./python-net/document-combining-and-comparison/)
-- [प्रदर्शन और अनुकूलन](./python-net/performance-optimization/)
-- [एकीकरण और अंतरसंचालनीयता](./python-net/integration-interoperability/)
-- [एआई सामग्री परिवर्तन](./python-net/ai-content-transformation/)
-- [दस्तावेज़ संरचना और सामग्री हेरफेर](./python-net/document-structure-and-content-manipulation/)
-- [सामग्री निष्कर्षण और हेरफेर](./python-net/content-extraction-and-manipulation/)
-- [तालिकाएँ और स्वरूपण](./python-net/tables-and-formatting/)
-- [दस्तावेज़ विकल्प और सेटिंग्स](./python-net/document-options-and-settings/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+Translate: "टेबल्स को **बनाना**, **स्टाइल करना**, और **फ़ॉर्मेट** करना सीखें, जिसमें बॉर्डर, सेल पैडिंग, और कस्टम टेबल स्टाइल्स शामिल हैं।"
+
+Now tutorial cards list. Translate each title.
+
+1:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+
+Title: "Apply Outline Border to a Table in Word" => "Word में टेबल पर आउटलाइन बॉर्डर लागू करें".
+
+2:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+
+Title: "Apply Row Formatting in Word Documents" => "Word दस्तावेज़ों में रो फ़ॉर्मेटिंग लागू करें".
+
+3:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+
+Title: "Modify Table Borders in Word " => "Word में टेबल बॉर्डर संशोधित करें".
+
+4:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+
+Title: "Create Styled Tables in Word with Aspose.Words " => "Aspose.Words के साथ Word में स्टाइल्ड टेबल्स बनाएं".
+
+5:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+
+Title: "Create Word Table Cell with Padding in Aspose.Words " => "Aspose.Words में पैडिंग के साथ Word टेबल सेल बनाएं".
+
+6:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+
+Title: "Create Styled Table in Word Document " => "Word दस्तावेज़ में स्टाइल्ड टेबल बनाएं".
+
+7:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+
+Title: "Create Word Document with Table Borders & Shading" => "टेबल बॉर्डर और शेडिंग के साथ Word दस्तावेज़ बनाएं".
+
+8:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+
+Title: "Create and Format a Table in Word Document" => "Word दस्तावेज़ में टेबल बनाएं और फ़ॉर्मेट करें".
+
+9:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+
+Title: "Create a Formatted Table in Word with Aspose.Words " => "Aspose.Words के साथ Word में फ़ॉर्मेटेड टेबल बनाएं".
+
+10:
+
+{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+
+Title: "Add Title & Description to Table in Word" => "Word में टेबल में शीर्षक और विवरण जोड़ें".
+
+Next heading:
+
+### Add Content Using Document Builder {#document-builder}
+
+Translate: "Document Builder का उपयोग करके कंटेंट जोड़ें". Keep anchor.
+
+Now description:
+
+Insert text, tables, images, and other elements programmatically with the **DocumentBuilder** class.
+
+Translate: "**DocumentBuilder** क्लास का उपयोग करके प्रोग्रामेटिक रूप से टेक्स्ट, टेबल, इमेज और अन्य एलिमेंट्स डालें।"
+
+Now tutorial cards:
+
+1:
+
+{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+
+Title: "Create a Word Document with Table" => "टेबल के साथ Word दस्तावेज़ बनाएं".
+
+2:
+
+{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.W

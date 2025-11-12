@@ -1,9 +1,21 @@
 ---
-"description": "透過 .NET、Java、C++、Python 等的逐步視覺化教學學習 Aspose.Words。輕鬆掌握文件的建立、編輯、轉換和自動化。"
-"title": "Aspose.Words 視覺化教學"
-"url": "/zh-hant/"
-"weight": 10
+date: 2025-11-12
+description: 探索 .NET、Java 與 Python 的 Aspose.Words 逐步視覺教學，快速學習如何製作圖表、插入表格、添加浮水印及快速格式化段落。
+keywords: create chart word, insert table document builder, add watermark word, apply
+  table border, format paragraph style, Aspose.Words tutorials, .NET document automation,
+  Java Word processing, Python document handling
+language: zh-hant
+limit: null
+title: Aspose.Words 視覺教學 – 建立、格式化及自動化 Word 文件
+url: /
+weight: 10
 ---
+
+We need to translate the provided content to Traditional Chinese (Hong Kong). Keep technical terms in English, preserve markdown, do not translate URLs, file paths, variable names, function names. Also keep the Hugo shortcodes like {{< ... >}} unchanged. Also ensure proper RTL formatting if needed – but Chinese is LTR, so ignore.
+
+We need to translate all visible text. Let's go through line by line.
+
+First lines:
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -11,273 +23,316 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words 視覺化教學
+# Aspose.Words Visual Tutorials
 
-Aspose.Words 視覺化教學為所有 Aspose.Words 產品提供逐步指南，包括適用於 .NET、Java、C++、Python 等的 Aspose.Words。這些教學涵蓋了廣泛的文件處理任務，例如建立、編輯、轉換和格式化 Word 文件。透過清晰的說明和直覺的演示，開發人員可以快速學習如何將 Aspose.Words 整合到他們的應用程式中。無論您使用的是 .NET、Java、C++ 或 Python，這些教學課程都提供實作學習，幫助您有效地實現文件管理自動化並增強您的工作流程。
+Translate title: "Aspose.Words Visual Tutorials" => "Aspose.Words 視覺教學". Keep Aspose.Words unchanged.
 
-## [Aspose.Words for .NET視覺化教學課程](./net/)
+Next paragraph:
 
-Aspose.Words for .NET 提供了一套全面的視覺化教學課程，幫助開發人員掌握應用程式中的文件操作。這些逐步指南涵蓋建立、編輯和轉換 Word 文檔，以及插入圖像、表格和表單欄位。透過清晰的說明和直覺的演示，教程簡化了複雜的任務，使自動化和整合變得無縫。無論您是 Aspose 的新手還是正在增強您的技能，這些實踐教學都可以提供實務經驗來提高您的文件處理能力。
+Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python.  
+In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs.
 
+Translate: "Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python." => "Aspose.Words 視覺教學提供 **實作式、一步一步的指南**，適用於所有主要平台——.NET、Java、C++ 與 Python。"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+"In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs." => "在本指南中，您將快速了解如何使用最新的 Aspose.Words API **建立圖表**、**使用 Document Builder 插入表格**、**新增浮水印**，以及 **格式化段落**。"
 
+Blockquote:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words 中使用圖表 ](./net/working-with-charts/)
-學習在 Word 文件中插入和自訂不同類型的圖表，例如長條圖、折線圖和散佈圖。
+> **What you’ll get:**  
+> 1. A clear overview of each tutorial category.  
+> 2. Direct links to visual, code‑rich examples.  
+> 3. Practical tips you can apply to real‑world projects today.
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="建立包含圖表的文檔 " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+Translate: "您將獲得：" etc.
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="在 Word 中建立折線圖 " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+> **您將獲得：**  
+> 1. 每個教學類別的清晰概覽。  
+> 2. 直接連結至視覺化、程式碼豐富的範例。  
+> 3. 可立即套用於實務專案的實用技巧。
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="在 Word 文件中插入面積圖" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="在 Word 中插入氣泡圖 " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+## Aspose.Words for .NET Visual Tutorials {#net-tutorials}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="在 Word 中插入長條圖 " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+Translate: "Aspose.Words for .NET Visual Tutorials" => "Aspose.Words for .NET 視覺教學". Keep {#net-tutorials} unchanged.
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="建立詞散點圖 " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+Paragraph:
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="在 Word 中插入簡單長條圖 " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+Aspose.Words for .NET offers a comprehensive set of visual tutorials that walk you through document manipulation tasks. Follow the numbered steps below to locate the tutorial that matches your scenario:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Translate: "Aspose.Words for .NET 提供完整的視覺教學，帶領您完成文件操作任務。請依照以下編號步驟，找到符合您情境的教學："
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用表格樣式和格式](./net/working-with-table-styles-and-formatting/)
-了解如何在 Word 文件中建立、格式化和自訂表格，包括設定邊框、樣式和儲存格填滿。
+List steps:
 
+1. **Select a topic** (e.g., charts, tables, headers).  
+2. **Open the tutorial** by clicking the card.  
+3. **Run the sample code** in your IDE and modify it to fit your project.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="在 Word 中將外框套用至表格" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+Translate:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="在 Word 文件中套用行格式" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+1. **選擇主題**（例如圖表、表格、頁首）。  
+2. **點擊卡片** 開啟教學。  
+3. **在您的 IDE 中執行範例程式碼**，並依需求修改以符合專案。
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="在 Word 中修改表格邊框 " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+Next paragraph:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="使用 Aspose.Words 在 Word 中建立樣式表 " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+These tutorials cover everything from **basic document creation** to **advanced formatting**, ensuring you can automate Word processing with confidence.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="在 Aspose.Words 中建立帶有填充的 Word 表格單元格 " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+Translate: "這些教學涵蓋從 **基本文件建立** 到 **進階格式設定** 的全部內容，確保您能自信地自動化 Word 處理。"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="在 Word 文件中建立樣式表 " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="建立帶有表格邊框和底紋的 Word 文檔" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+### Working with Charts in Aspose.Words {#charts}
+Translate: "使用圖表於 Aspose.Words" maybe "在 Aspose.Words 中使用圖表". Keep {#charts}. So: "### 在 Aspose.Words 中使用圖表 {#charts}"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="在 Word 文件中建立並格式化表格" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+Next sentence:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="使用 Aspose.Words 在 Word 中建立格式化表格 " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+Learn to insert and customize bar, line, scatter, and other chart types directly inside Word documents.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="在 Word 中為表格新增標題和說明" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+Translate: "學習在 Word 文件中直接插入與自訂長條圖、折線圖、散佈圖及其他圖表類型。"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Then series of tutorial-card shortcodes. The title attributes need translation. Keep link and imgSrc unchanged. So translate each title.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [使用 Aspose.Words for .NET 中的 Document Builder 新增內容 ](./net/add-content-using-document-builder/)
-了解如何使用 Document Builder 類別以程式設計方式將文字、表格、圖像和其他元素插入 Word 文件。
+First:
 
+title="Create a Document with Charts " => "建立含圖表的文件". (Remove trailing space). Keep spaces? We'll keep as "建立含圖表的文件". 
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="建立帶有表格的 Word 文檔" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+Second:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="使用 Aspose.Words 建立多頁 Word 文檔" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+title="Create a Line Chart in Word " => "在 Word 中建立折線圖". 
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="在.NET中建立帶有浮動圖像的Word文檔" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+Third:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="在 .NET 中建立帶有水平線的 Word 文檔" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+title="Insert Area Chart in Word Document" => "在 Word 文件中插入區域圖". 
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="在 Word 文件中插入內嵌影像" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+Fourth:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="使用 Aspose.Words 建立 Word 文檔 " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+title="Insert a Bubble Chart in Word " => "在 Word 中插入氣泡圖". 
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="在 .NET 中建立帶有目錄的 Word 文檔" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+Fifth:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+title="Insert Column Chart in Word " => "在 Word 中插入直條圖". 
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [使用 Aspose.Words for .NET 進行文件格式化](./net/document-styling/)
-了解如何將各種格式選項應用於段落、清單和文件元素，以增強 Word 文件的視覺吸引力。
+Sixth:
 
+title="Create Word Scatter Chart " => "建立 Word 散佈圖". 
 
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="在 Aspose.Words 中將邊框和底紋應用於段落 " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+Seventh:
 
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="在 Aspose.Words 中建立並設定 Word 文件的樣式 " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+title="Insert a Simple Column Chart in Word " => "在 Word 中插入簡易直條圖". 
 
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="使用 Aspose.Words 在 Word 中建立多層列表" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+Proceed.
 
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="段落格式 " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+Next heading:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Working with Table Styles and Formatting {#tables}
+Translate: "### 表格樣式與格式設定 {#tables}"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用字體](./net/font-styling/)
-探索 Word 文件中與字體相關的功能，例如字體樣式、行距、強調符號和其他排版設定。
+Sentence:
 
+Discover how to **create**, **style**, and **format** tables, including borders, cell padding, and custom table styles.
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="在 Word 中建立字體格式 " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+Translate: "了解如何 **建立**、**樣式化** 與 **格式化** 表格，包括邊框、儲存格內距以及自訂表格樣式。"
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="取得Word文件中的字體行距" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+Now tutorial cards titles translation.
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="在 Word 文件中設定強調標記 " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+List each:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+1. title="Apply Outline Border to a Table in Word" => "在 Word 中為表格套用外框線". 
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用表單字段](./net/working-with-form-fields/)
-了解如何在 Word 文件中插入和管理表單字段，如文字輸入、下拉清單和核取方塊。
+2. title="Apply Row Formatting in Word Documents" => "在 Word 文件中套用列格式". 
 
+3. title="Modify Table Borders in Word " => "在 Word 中修改表格邊框". 
 
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="在 Word 文件中插入組合方塊表單網域" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+4. title="Create Styled Tables in Word with Aspose.Words " => "使用 Aspose.Words 在 Word 中建立樣式化表格". 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+5. title="Create Word Table Cell with Padding in Aspose.Words " => "使用 Aspose.Words 在 Word 表格儲存格中設定內距". 
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用頁首和頁尾](./net/header-footer-formatting/)
-了解如何建立和操作頁首和頁腳，包括新增圖像、頁碼和文字。
+6. title="Create Styled Table in Word Document " => "在 Word 文件中建立樣式化表格". 
 
+7. title="Create Word Document with Table Borders & Shading" => "建立含表格邊框與底紋的 Word 文件". 
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="建立帶有頁首和頁尾的 Word 文檔" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+8. title="Create and Format a Table in Word Document" => "在 Word 文件中建立與格式化表格". 
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="將圖片插入 Word 文件頁眉" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+9. title="Create a Formatted Table in Word with Aspose.Words " => "使用 Aspose.Words 在 Word 中建立格式化表格". 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+10. title="Add Title & Description to Table in Word" => "在 Word 表格中加入標題與說明". 
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [使用 Aspose.Words for .NET 中的部分](./net/document-sections/)
-了解如何將文件建置為多個部分，允許使用不同的頁首、頁尾和格式樣式。
+Proceed.
 
+Next heading:
 
-{{< tutorial-card link="./net/document-sections/add-section/" title="為 Word 文件新增部分" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+### Add Content Using Document Builder {#document-builder}
+Translate: "### 使用 Document Builder 新增內容 {#document-builder}"
 
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="在 Word 文件中附加和新增內容" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+Sentence:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Insert text, tables, images, and other elements programmatically with the **DocumentBuilder** class.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用形狀](./net/working-with-shapes/)
-了解如何在 Word 文件中插入和操作各種形狀，包括分組形狀和預定義圖形。
-
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="在 Word 文件中建立群組形狀 " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="在 Word 文件中插入形狀 " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [在 Aspose.Words for .NET 中使用浮水印](./net/working-with-watermark)
-學習如何在 Word 文件中添加文字和圖像浮水印以用於品牌推廣或安全目的。
-
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="在Word文件中加入文字浮水印 " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-以下是一些有用資源的連結：
-- [人工智慧文件處理](./net/ai-powered-document-processing/)
-- [申請許可證](./net/apply-license/)   
-- [啟用 OpenType 功能](./net/enable-opentype-features/)   
-- [使用評論](./net/working-with-comments/)   
-- [使用字段](./net/working-with-fields/)   
-- [使用註腳和尾註](./net/working-with-footnote-and-endnote/)   
-- [使用 FormFields](./net/working-with-formfields/)   
-- [使用頁首和頁尾](./net/working-with-headers-and-footers/)   
-- [使用連字符](./net/working-with-hyphenation/)   
-- [使用清單](./net/working-with-list/)   
-- [使用 Markdown](./net/working-with-markdown/)   
-- [使用 Node](./net/working-with-node/)   
-- [處理修訂](./net/working-with-revisions/)   
-- [使用文字框](./net/working-with-textboxes/)   
-- [拆分文檔](./net/split-document/)   
-- [使用 Documentbuilder 新增內容](./net/add-content-using-documentbuilder/)
-- [克隆並合併文檔](./net/clone-and-combine-documents/) 
-- [比較文件](./net/compare-documents/) 
-- [文件格式](./net/document-formatting/)      
-- [使用浮水印進行編程](./net/programming-with-watermark/)    
-- [使用 Markdown 編程](./net/programming-with-markdownsaveoptions/)   
-- [基本轉換](./net/basic-conversions/)   
-
-## Aspose.Words Java 文件處理教學課程
-
-{{% alert color="primary" %}}
-這個全面的教程集合提供了有關如何以程式設計方式有效處理 Microsoft Word 文件的逐步指導。從文件建立和操作到郵件合併、表格格式化和文件加密等高級功能，這些教學涵蓋了廣泛的功能。透過遵循這些教程，開發人員可以將 Aspose.Words 無縫整合到他們的 Java 專案中，實現高效的文件處理，並透過專業級的文件管理功能增強他們的應用程式。 
-
-{{% /alert %}}
-
-以下是一些有用資源的連結：
-- [文書處理](./java/word-processing/)  
-- [表處理](./java/table-processing/)
-- [文件樣式](./java/document-styling/)
-- [文件合併](./java/document-merging/)
-- [文件轉換](./java/document-converting/)
-- [文件列印](./java/document-printing/)
-- [文件渲染](./java/document-rendering/)
-- [文件安全](./java/document-security/)
-- [文件拆分](./java/document-splitting/)
-- [文件修訂](./java/document-revision/)
-- [文件載入和儲存](./java/document-loading-and-saving/)
-- [文檔操作](./java/document-manipulation/)
-- [文檔轉換和匯出](./java/document-conversion-and-export/)
-- [授權和配置](./java/licensing-and-configuration/)
-- [使用文檔元素](./java/using-document-elements/)
-- [列印文件](./java/printing-documents/)
-- [呈現文檔](./java/rendering-documents/)
-- [入門](./java/getting-started/)
-- [文檔操作](./java/document-operations/)
-- [內容管理](./java/content-management/)
-- [頁首、頁尾和頁面設置](./java/headers-footers-page-setup/)
-- [註釋和評論](./java/annotations-comments/)
-- [進階文字處理](./java/advanced-text-processing/)
-- [文件比較與追蹤](./java/document-comparison-tracking/)
-- [效能最佳化](./java/performance-optimization/)
-- [整合與互通性](./java/integration-interoperability/)
-- [安全與保護](./java/security-protection/)
-- [格式和樣式](./java/formatting-styles/)
-- [表格和列表](./java/tables-lists/)
-- [圖像和形狀](./java/images-shapes/)
-- [郵件合併和報告](./java/mail-merge-reporting/)
-- [人工智慧與機器學習集成](./java/ai-machine-learning-integration/)
-
-## Aspose.Words Python 文件管理教學課程
-
-{{% alert color="primary" %}}
-這些教學課程提供了有關如何以程式設計方式處理 Microsoft Word 文件的逐步指導，包括文件建立、操作以及加密和密碼保護等各種安全功能。借助此資源，開發人員可以使用 Aspose.Words 在其 Python 應用程式中有效地實現文件處理功能，從而提高生產力並確保文件安全。 
-
-{{% /alert %}}
-
-以下是一些有用資源的連結：
-- [文件創建](./python-net/document-creation/)  
-- [Word 自動化](./python-net/word-automation/)
-- [文檔智能](./python-net/document-intelligence/)
-- [文件轉換](./python-net/document-conversion/)
-- [文件保護](./python-net/document-protection/)
-- [入門](./python-net/getting-started/)
-- [文檔操作](./python-net/document-operations/)
-- [內容管理](./python-net/content-management/)
-- [格式和樣式](./python-net/formatting-styles/)
-- [表格和列表](./python-net/tables-lists/)
-- [圖像和形狀](./python-net/images-shapes/)
-- [郵件合併和報告](./python-net/mail-merge-reporting/)
-- [頁首、頁尾和頁面設置](./python-net/headers-footers-page-setup/)
-- [文件屬性和元數據](./python-net/document-properties-metadata/)
-- [安全與保護](./python-net/security-protection/)
-- [註釋和評論](./python-net/annotations-comments/)
-- [文件比較與追蹤](./python-net/document-comparison-tracking/)
-- [文檔拆分和格式化](./python-net/document-splitting-and-formatting/)
-- [文件合併與比較](./python-net/document-combining-and-comparison/)
-- [效能與優化](./python-net/performance-optimization/)
-- [整合與互通性](./python-net/integration-interoperability/)
-- [AI內容轉換](./python-net/ai-content-transformation/)
-- [文檔結構和內容操作](./python-net/document-structure-and-content-manipulation/)
-- [內容提取和操作](./python-net/content-extraction-and-manipulation/)
-- [表格和格式](./python-net/tables-and-formatting/)
-- [文件選項和設置](./python-net/document-options-and-settings/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+Translate: "使用 **DocumentBuilder** 類別，以程式方式插入文字、表格、圖片及其他元素。"
+
+Now tutorial cards titles:
+
+1. title="Create a Word Document with Table" => "建立含表格的 Word 文件". 
+
+2. title="Create a Multi-Page Word Document with Aspose.Words" => "使用 Aspose.Words 建立多頁 Word 文件". 
+
+3. title="Create Word Document with Floating Image in .NET" => "在 .NET 中建立含浮動圖片的 Word 文件". 
+
+4. title="Create Word Document with Horizontal Rule in .NET" => "在 .NET 中建立含水平線的 Word 文件". 
+
+5. title="Insert Inline Image in Word Document" => "在 Word 文件中插入行內圖片". 
+
+6. title="Create Word Document with Aspose.Words " => "使用 Aspose.Words 建立 Word 文件". 
+
+7. title="Create a Word Document with Table of Contents in .NET" => "在 .NET 中建立含目錄的 Word 文件". 
+
+Proceed.
+
+Next heading:
+
+### Document Formatting {#document-formatting}
+Translate: "### 文件格式設定 {#document-formatting}"
+
+Sentence:
+
+Apply borders, shading, paragraph styles, and multilevel lists to improve document appearance.
+
+Translate: "套用邊框、底紋、段落樣式與多層次清單，以提升文件外觀。"
+
+Tutorial cards titles:
+
+1. title="Apply Borders & Shading to Paragraph in Aspose.Words " => "在 Aspose.Words 中為段落套用邊框與底紋". 
+
+2. title="Create and Style a Word Document in Aspose.Words " => "使用 Aspose.Words 建立與樣式化 Word 文件". 
+
+3. title="Create Multilevel Lists in Word with Aspose.Words" => "使用 Aspose.Words 在 Word 中建立多層次清單". 
+
+4. title="Format Paragraphs " => "格式化段落". 
+
+Proceed.
+
+Next heading:
+
+### Working with Fonts {#fonts}
+Translate: "### 使用字型 {#fonts}"
+
+Sentence:
+
+Control font styles, line spacing, and emphasis marks to achieve precise typography.
+
+Translate: "控制字型樣式、行距與強調標記，以達到精確的排版效果。"
+
+Tutorial cards titles:
+
+1. title="Create Font Formatting in Word " => "在 Word 中建立字型格式". 
+
+2. title="Get Font Line Spacing in Word Document" => "取得 Word 文件的字型行距". 
+
+3. title="Set Emphasis Mark in Word Document " => "在 Word 文件中設定強調標記". 
+
+Proceed.
+
+Next heading:
+
+### Working with Form Fields {#form-fields}
+Translate: "### 使用表單欄位 {#form-fields}"
+
+Sentence:
+
+Insert text inputs, drop‑down lists, and checkboxes to build interactive Word forms.
+
+Translate: "插入文字輸入框、下拉式清單與核取方塊，以建立互動式 Word 表單。"
+
+Tutorial card title:
+
+title="Insert Combo Box Form Field in Word Document" => "在 Word 文件中插入下拉式方塊表單欄位". 
+
+Proceed.
+
+Next heading:
+
+### Headers & Footers {#headers-footers}
+Translate: "### 頁首與頁尾 {#headers-footers}"
+
+Sentence:
+
+Create custom headers and footers, add images, and insert page numbers.
+
+Translate: "建立自訂頁首與頁尾、加入圖片，並插入頁碼。"
+
+Tutorial cards:
+
+1. title="Create Word Document with Header and Footer" => "建立含頁首與頁尾的 Word 文件". 
+
+2. title="Insert an Image into Word Document Header" => "在 Word 文件頁首插入圖片". 
+
+Proceed.
+
+Next heading:
+
+### Document Sections {#sections}
+Translate: "### 文件分節 {#sections}"
+
+Sentence:
+
+Structure your document with multiple sections, each with its own layout and formatting.
+
+Translate: "以多個分節結構化文件，每個分節皆可擁有獨立的版面配置與格式設定。"
+
+Tutorial cards:
+
+1. title="Add a New Section to Word Document" => "在 Word 文件中新增分節". 
+
+2. title="Append and Prepend Content in Word Documents" => "在 Word 文件中前置與後置內容". 
+
+Proceed.
+
+Next heading:
+
+### Working with Shapes {#shapes}
+Translate: "### 使用圖形 {#shapes}"
+
+Sentence:
+
+Insert and manipulate shapes, including grouped shapes and predefined drawings.
+
+Translate: "插入與操作圖形，包括群組圖形與預定義圖案。"
+
+Tutorial cards:
+
+1. title="Create Group Shape in Word Document " => "在 Word 文件中建立群組圖形". 
+
+2. title="Insert Shapes in Word Documents " => "在 Word 文件中插入圖形". 
+
+Proceed.
+
+Next heading:
+
+### Adding Watermarks {#watermarks}
+Translate: "### 新增浮水印 {#watermarks}"
+
+Sentence:
+
+Add text or image watermarks to protect brand identity or secure confidential content.
+
+Translate: "加入文字或圖片浮水印，以保護品牌識別或確保機密內容的安全。"
+
+Tutorial card:
+
+title="Add Text Watermark in Word Document " => "在 Word 文件中新增文字浮水印". 
+
+Proceed.
+
+#### Additional .NET Resources
+Translate: "#### 其他 .NET 資源"
+
+List items: keep link text maybe translate the display text.
+
+- [AI Powered Document Processing](./net/ai-powered-document-processing/) => "AI 驅動的文件處理"
+- [Apply License](./net/apply-license/) => "套用授權"
+- [Enable OpenType features](./net/enable-opentype-features/) => "啟用 OpenType 功能"
+- [Working with Comments](./net/working-with-comments/) => "使用註解"
+- [Working with Fields](./net/working-with-fields/) => "使用欄位"
+- [Working with Footnote and Endnote](./net/working-with-footnote-and-endnote/) => "使用註腳與尾註"
+- [Working with FormFields](./net/working-with-formfields/) => "使用表

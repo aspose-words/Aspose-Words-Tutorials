@@ -1,283 +1,219 @@
 ---
-"description": "เรียนรู้ Aspose.Words ด้วยบทช่วยสอนแบบภาพทีละขั้นตอนสำหรับ .NET, Java, C++, Python และอื่นๆ สร้าง แก้ไข แปลง และทำงานอัตโนมัติเอกสารได้อย่างง่ายดาย"
-"title": "บทช่วยสอนแบบภาพ Aspose.Words"
-"url": "/th/"
-"weight": 10
+date: 2025-11-12
+description: สำรวจบทเรียนเชิงภาพ Aspose.Words แบบทีละขั้นตอนสำหรับ .NET, Java และ
+  Python เรียนรู้การสร้างแผนภูมิ, แทรกตาราง, เพิ่มลายน้ำ, และจัดรูปแบบย่อหน้าอย่างรวดเร็ว.
+keywords: create chart word, insert table document builder, add watermark word, apply
+  table border, format paragraph style, Aspose.Words tutorials, .NET document automation,
+  Java Word processing, Python document handling
+language: th
+limit: null
+title: บทเรียนภาพ Aspose.Words – สร้าง, จัดรูปแบบ และอัตโนมัติเอกสาร Word
+url: /
+weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+We need to translate the given content to Thai, preserving markdown, technical terms, URLs, file paths, variable names, function names unchanged. Also keep the custom shortcodes like {{< blocks/... >}} unchanged. Ensure Thai translation natural. Also note rule 6: "For Thai, ensure proper RTL formatting if needed" but Thai is LTR, not RTL. So ignore.
 
-{{< blocks/products/pf/main-container >}}
+We need to translate all visible text, headings, list items, etc. Keep code blocks? There are none. Keep the alert shortcode content.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+We must translate everything except URLs, file paths, variable names, function names. Also keep technical terms in English.
 
-# บทช่วยสอนแบบภาพ Aspose.Words
+We need to translate the headings like "Aspose.Words Visual Tutorials" etc.
 
-บทช่วยสอนแบบเห็นภาพของ Aspose.Words นำเสนอคำแนะนำทีละขั้นตอนสำหรับผลิตภัณฑ์ Aspose.Words ทั้งหมด รวมถึง Aspose.Words สำหรับ .NET, Java, C++, Python และอื่นๆ บทช่วยสอนเหล่านี้ครอบคลุมงานการประมวลผลเอกสารที่หลากหลาย เช่น การสร้าง การแก้ไข การแปลง และการจัดรูปแบบเอกสาร Word ด้วยคำแนะนำที่ชัดเจนและการสาธิตแบบเห็นภาพ นักพัฒนาสามารถเรียนรู้วิธีการผสานรวม Aspose.Words เข้ากับแอปพลิเคชันของตนได้อย่างรวดเร็ว ไม่ว่าคุณจะทำงานกับ .NET, Java, C++ หรือ Python บทช่วยสอนเหล่านี้มอบการเรียนรู้แบบปฏิบัติจริงเพื่อช่วยให้คุณจัดการเอกสารโดยอัตโนมัติอย่างมีประสิทธิภาพและปรับปรุงเวิร์กโฟลว์ของคุณ
+Also translate the bullet points, description.
 
-## [Aspose.Words สำหรับบทช่วยสอนแบบภาพ .NET](./net/)
+We need to translate the "Additional .NET Resources" list items (the link text). Keep link URLs unchanged but translate link text.
 
-Aspose.Words for .NET นำเสนอชุดบทช่วยสอนแบบภาพที่ครอบคลุมเพื่อช่วยให้นักพัฒนาเชี่ยวชาญการจัดการเอกสารในแอปพลิเคชันของตน คำแนะนำแบบทีละขั้นตอนเหล่านี้ครอบคลุมถึงการสร้าง การแก้ไข และการแปลงเอกสาร Word รวมถึงการแทรกภาพ ตาราง และฟิลด์ฟอร์ม ด้วยคำแนะนำที่ชัดเจนและการสาธิตแบบภาพ บทช่วยสอนเหล่านี้ช่วยลดความซับซ้อนของงาน ทำให้การทำงานอัตโนมัติและการบูรณาการเป็นไปอย่างราบรื่น ไม่ว่าคุณจะเป็นมือใหม่กับ Aspose หรือกำลังพัฒนาทักษะของคุณอยู่ บทช่วยสอนแบบปฏิบัติจริงเหล่านี้มอบประสบการณ์จริงเพื่อปรับปรุงความสามารถในการประมวลผลเอกสารของคุณ
+Similarly for Java and Python sections.
 
+We must keep the shortcodes like {{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}. The title attribute is English; we need to translate? The rule says keep technical terms in English, but titles are natural language. Should translate them. However they are inside attribute title="...". Should we translate? Probably yes, because it's user-facing text. But need to keep quotes. So translate the title string to Thai, preserving any technical terms like "Chart". So "Create a Document with Charts" => "สร้างเอกสารพร้อมแผนภูมิ". Keep spaces. Also note trailing spaces. We'll translate.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Similarly other titles.
 
+Also the alert content.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับแผนภูมิใน Aspose.Words ](./net/working-with-charts/)
-เรียนรู้การแทรกและปรับแต่งแผนภูมิประเภทต่างๆ เช่น แผนภูมิแท่ง แผนภูมิเส้น และแผนภูมิกระจาย ในเอกสาร Word
+We need to be careful not to translate URLs, file paths, but link text is separate.
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="สร้างเอกสารด้วยแผนภูมิ " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+The shortcodes: {{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}. We'll translate title attribute.
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="การสร้างแผนภูมิเส้นใน Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+Also the block tags at top: {{< blocks/products/pf/main-wrap-class >}} etc. Keep unchanged.
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="การแทรกแผนภูมิพื้นที่ในเอกสาร Word" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+Now produce the translated markdown.
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="แทรกแผนภูมิฟองใน Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+Let's start.
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="การแทรกแผนภูมิคอลัมน์ใน Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+We'll keep headings with same markdown.
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="สร้างแผนภูมิกระจายคำ " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+Translate:
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="แทรกแผนภูมิคอลัมน์แบบง่ายใน Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+# Aspose.Words Visual Tutorials => "# การสอนเชิงภาพ Aspose.Words"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+But maybe "Aspose.Words Visual Tutorials" keep as is? It's title. Should translate: "การสอนเชิงภาพ Aspose.Words". Good.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับสไตล์ตารางและการจัดรูปแบบใน Aspose.Words สำหรับ .NET](./net/working-with-table-styles-and-formatting/)
-ค้นพบวิธีการสร้าง การจัดรูปแบบ และปรับแต่งตารางในเอกสาร Word รวมถึงการตั้งค่าเส้นขอบ สไตล์ และการเว้นระยะเซลล์
+Paragraph: "Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python." => "การสอนเชิงภาพ Aspose.Words ให้ **คู่มือเชิงปฏิบัติและขั้นตอนต่อขั้นตอน** สำหรับทุกแพลตฟอร์มหลัก—.NET, Java, C++ และ Python."
 
+"In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs." => "ในคู่มือนี้คุณจะได้ค้นพบอย่างรวดเร็ววิธี **สร้างแผนภูมิ**, **แทรกตารางด้วย Document Builder**, **เพิ่มลายน้ำ**, และ **จัดรูปแบบย่อหน้า** ด้วย API ล่าสุดของ Aspose.Words"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="ใช้เส้นขอบโครงร่างกับตารางใน Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+Quote block: "What you’ll get:" etc.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="ใช้การจัดรูปแบบแถวในเอกสาร Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+Translate bullet points.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="การแก้ไขเส้นขอบตารางใน Word " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+Now sections.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="สร้างตารางสไตล์ใน Word ด้วย Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+## Aspose.Words for .NET Visual Tutorials {#net-tutorials} => "## การสอนเชิงภาพ Aspose.Words สำหรับ .NET {#net-tutorials}"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="สร้างเซลล์ตาราง Word ด้วยการเติมช่องว่างใน Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+Paragraph: "Aspose.Words for .NET offers a comprehensive set of visual tutorials that walk you through document manipulation tasks. Follow the numbered steps below to locate the tutorial that matches your scenario:" => "Aspose.Words สำหรับ .NET มีชุดการสอนเชิงภาพที่ครอบคลุมซึ่งนำคุณผ่านงานการจัดการเอกสาร ปฏิบัติตามขั้นตอนที่ระบุด้านล่างเพื่อค้นหาการสอนที่ตรงกับสถานการณ์ของคุณ:"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="สร้างตารางสไตล์ในเอกสาร Word " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+List steps translate.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="สร้างเอกสาร Word พร้อมขอบตารางและการแรเงา" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+Now subheadings.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="การสร้างและจัดรูปแบบตารางในเอกสาร Word" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+### Working with Charts in Aspose.Words {#charts} => "### การทำงานกับแผนภูมิใน Aspose.Words {#charts}"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="สร้างตารางที่มีรูปแบบใน Word ด้วย Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+"Learn to insert and customize bar, line, scatter, and other chart types directly inside Word documents." => "เรียนรู้วิธีแทรกและปรับแต่งแผนภูมิแบบแท่ง, เส้น, กระจาย, และประเภทอื่น ๆ โดยตรงในเอกสาร Word"
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="เพิ่มชื่อเรื่องและคำอธิบายลงในตารางใน Word" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+Now tutorial cards: translate title attribute.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+We'll translate each title.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [เพิ่มเนื้อหาโดยใช้ Document Builder ใน Aspose.Words สำหรับ .NET ](./net/add-content-using-document-builder/)
-เรียนรู้วิธีการแทรกข้อความ ตาราง รูปภาพ และองค์ประกอบอื่นๆ ลงในเอกสาร Word ด้วยโปรแกรมโดยใช้คลาส Document Builder
+List:
 
+- "Create a Document with Charts " => "สร้างเอกสารพร้อมแผนภูมิ"
+- "Create a Line Chart in Word " => "สร้างแผนภูมิเส้นใน Word"
+- "Insert Area Chart in Word Document" => "แทรกแผนภูมิพื้นที่ในเอกสาร Word"
+- "Insert a Bubble Chart in Word " => "แทรกแผนภูมิบับเบิลใน Word"
+- "Insert Column Chart in Word " => "แทรกแผนภูมิคอลัมน์ใน Word"
+- "Create Word Scatter Chart " => "สร้างแผนภูมิกระจายใน Word"
+- "Insert a Simple Column Chart in Word " => "แทรกแผนภูมิคอลัมน์แบบง่ายใน Word"
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="สร้างเอกสาร Word พร้อมตาราง" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+Now next section.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="สร้างเอกสาร Word หลายหน้าด้วย Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+### Working with Table Styles and Formatting {#tables} => "### การทำงานกับสไตล์และการจัดรูปแบบตาราง {#tables}"
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="สร้างเอกสาร Word ด้วยภาพลอยใน .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+"Discover how to **create**, **style**, and **format** tables, including borders, cell padding, and custom table styles." => "ค้นพบวิธี **สร้าง**, **กำหนดสไตล์**, และ **จัดรูปแบบ** ตาราง รวมถึงเส้นขอบ, ระยะห่างของเซลล์, และสไตล์ตารางที่กำหนดเอง"
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="สร้างเอกสาร Word ที่มีเส้นแนวนอนใน .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+Now tutorial cards titles translate:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="การแทรกภาพอินไลน์ในเอกสาร Word" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+- "Apply Outline Border to a Table in Word" => "ใช้เส้นขอบรอบนอกกับตารางใน Word"
+- "Apply Row Formatting in Word Documents" => "ใช้การจัดรูปแบบแถวในเอกสาร Word"
+- "Modify Table Borders in Word " => "แก้ไขเส้นขอบตารางใน Word"
+- "Create Styled Tables in Word with Aspose.Words " => "สร้างตารางที่มีสไตล์ใน Word ด้วย Aspose.Words"
+- "Create Word Table Cell with Padding in Aspose.Words " => "สร้างเซลล์ตาราง Word พร้อมระยะห่างใน Aspose.Words"
+- "Create Styled Table in Word Document " => "สร้างตารางที่มีสไตล์ในเอกสาร Word"
+- "Create Word Document with Table Borders & Shading" => "สร้างเอกสาร Word พร้อมเส้นขอบและเงาตาราง"
+- "Create and Format a Table in Word Document" => "สร้างและจัดรูปแบบตารางในเอกสาร Word"
+- "Create a Formatted Table in Word with Aspose.Words " => "สร้างตารางที่จัดรูปแบบใน Word ด้วย Aspose.Words"
+- "Add Title & Description to Table in Word" => "เพิ่มหัวเรื่องและคำอธิบายให้กับตารางใน Word"
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="สร้างเอกสาร Word ด้วย Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+Now next section.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="สร้างเอกสาร Word ที่มีสารบัญใน .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+### Add Content Using Document Builder {#document-builder} => "### เพิ่มเนื้อหาโดยใช้ Document Builder {#document-builder}"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+"Insert text, tables, images, and other elements programmatically with the **DocumentBuilder** class." => "แทรกข้อความ, ตาราง, รูปภาพ, และองค์ประกอบอื่น ๆ อย่างโปรแกรมด้วยคลาส **DocumentBuilder**"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การจัดรูปแบบเอกสารด้วย Aspose.Words สำหรับ .NET](./net/document-styling/)
-ทำความเข้าใจวิธีการใช้ตัวเลือกการจัดรูปแบบต่างๆ กับย่อหน้า รายการ และองค์ประกอบของเอกสารเพื่อเพิ่มความน่าสนใจให้กับไฟล์ Word ของคุณ
+Now tutorial cards titles:
 
+- "Create a Word Document with Table" => "สร้างเอกสาร Word พร้อมตาราง"
+- "Create a Multi-Page Word Document with Aspose.Words" => "สร้างเอกสาร Word หลายหน้า ด้วย Aspose.Words"
+- "Create Word Document with Floating Image in .NET" => "สร้างเอกสาร Word พร้อมรูปภาพลอยใน .NET"
+- "Create Word Document with Horizontal Rule in .NET" => "สร้างเอกสาร Word พร้อมเส้นแนวนอนใน .NET"
+- "Insert Inline Image in Word Document" => "แทรกรูปภาพในบรรทัดในเอกสาร Word"
+- "Create Word Document with Aspose.Words " => "สร้างเอกสาร Word ด้วย Aspose.Words"
+- "Create a Word Document with Table of Contents in .NET" => "สร้างเอกสาร Word พร้อมสารบัญใน .NET"
 
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="ใช้ขอบและแรเงาให้กับย่อหน้าใน Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+Now next.
 
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="สร้างและปรับแต่งเอกสาร Word ใน Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+### Document Formatting {#document-formatting} => "### การจัดรูปแบบเอกสาร {#document-formatting}"
 
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="สร้างรายการหลายระดับใน Word ด้วย Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+"Apply borders, shading, paragraph styles, and multilevel lists to improve document appearance." => "ใช้เส้นขอบ, เงา, สไตล์ย่อหน้า, และรายการหลายระดับเพื่อปรับปรุงลักษณะของเอกสาร"
 
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="รูปแบบย่อหน้า " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+Cards:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+- "Apply Borders & Shading to Paragraph in Aspose.Words " => "ใช้เส้นขอบและเงาในย่อหน้าใน Aspose.Words"
+- "Create and Style a Word Document in Aspose.Words " => "สร้างและกำหนดสไตล์เอกสาร Word ใน Aspose.Words"
+- "Create Multilevel Lists in Word with Aspose.Words" => "สร้างรายการหลายระดับใน Word ด้วย Aspose.Words"
+- "Format Paragraphs " => "จัดรูปแบบย่อหน้า"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับแบบอักษรใน Aspose.Words สำหรับ .NET](./net/font-styling/)
-สำรวจคุณลักษณะที่เกี่ยวข้องกับแบบอักษร เช่น สไตล์แบบอักษร ระยะห่างระหว่างบรรทัด เครื่องหมายเน้น และการตั้งค่าการพิมพ์อื่น ๆ ในเอกสาร Word
+Now next.
 
+### Working with Fonts {#fonts} => "### การทำงานกับฟอนต์ {#fonts}"
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="สร้างรูปแบบแบบอักษรใน Word " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+"Control font styles, line spacing, and emphasis marks to achieve precise typography." => "ควบคุมสไตล์ฟอนต์, ระยะห่างบรรทัด, และเครื่องหมายเน้นเพื่อให้ได้การพิมพ์ที่แม่นยำ"
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="รับระยะห่างบรรทัดแบบอักษรในเอกสาร Word" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+Cards:
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="ตั้งค่าเครื่องหมายเน้นข้อความในเอกสาร Word " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+- "Create Font Formatting in Word " => "สร้างการจัดรูปแบบฟอนต์ใน Word"
+- "Get Font Line Spacing in Word Document" => "รับระยะห่างบรรทัดของฟอนต์ในเอกสาร Word"
+- "Set Emphasis Mark in Word Document " => "ตั้งค่าเครื่องหมายเน้นในเอกสาร Word"
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Now next.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับฟิลด์ฟอร์มใน Aspose.Words สำหรับ .NET](./net/working-with-form-fields/)
-ค้นหาวิธีการแทรกและจัดการฟิลด์ฟอร์มเช่นการป้อนข้อความ รายการดรอปดาวน์ และช่องกาเครื่องหมายในเอกสาร Word
+### Working with Form Fields {#form-fields} => "### การทำงานกับฟิลด์ฟอร์ม {#form-fields}"
 
+"Insert text inputs, drop‑down lists, and checkboxes to build interactive Word forms." => "แทรกช่องกรอกข้อความ, รายการดรอปดาวน์, และเช็คบ็อกซ์เพื่อสร้างฟอร์ม Word ที่โต้ตอบได้"
 
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="การแทรกเขตข้อมูลฟอร์มกล่องรวมในเอกสาร Word" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+Card:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+- "Insert Combo Box Form Field in Word Document" => "แทรกฟิลด์ฟอร์ม Combo Box ในเอกสาร Word"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับส่วนหัวและส่วนท้ายใน Aspose.Words สำหรับ .NET](./net/header-footer-formatting/)
-เรียนรู้วิธีการสร้างและจัดการส่วนหัวและส่วนท้าย รวมถึงการเพิ่มรูปภาพ หมายเลขหน้า และข้อความ
+Now next.
 
+### Headers & Footers {#headers-footers} => "### ส่วนหัวและส่วนท้าย {#headers-footers}"
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="สร้างเอกสาร Word ที่มีส่วนหัวและส่วนท้าย" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+"Create custom headers and footers, add images, and insert page numbers." => "สร้างส่วนหัวและส่วนท้ายแบบกำหนดเอง, เพิ่มรูปภาพ, และแทรกเลขหน้า"
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="แทรกภาพลงในส่วนหัวเอกสาร Word" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+Cards:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+- "Create Word Document with Header and Footer" => "สร้างเอกสาร Word พร้อมส่วนหัวและส่วนท้าย"
+- "Insert an Image into Word Document Header" => "แทรกรูปภาพลงในส่วนหัวของเอกสาร Word"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับส่วนต่างๆ ใน Aspose.Words สำหรับ .NET](./net/document-sections/)
-เข้าใจวิธีการจัดโครงสร้างเอกสารเป็นส่วนๆ ซึ่งสามารถมีส่วนหัว ส่วนท้าย และรูปแบบการจัดรูปแบบที่แตกต่างกันได้
+Now next.
 
+### Document Sections {#sections} => "### ส่วนของเอกสาร {#sections}"
 
-{{< tutorial-card link="./net/document-sections/add-section/" title="เพิ่มส่วนใหม่ลงในเอกสาร Word" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+"Structure your document with multiple sections, each with its own layout and formatting." => "จัดโครงสร้างเอกสารของคุณด้วยหลายส่วน แต่ละส่วนมีการจัดวางและการจัดรูปแบบของตนเอง"
 
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="การผนวกและเพิ่มเนื้อหาในเอกสาร Word" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+Cards:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+- "Add a New Section to Word Document" => "เพิ่มส่วนใหม่ในเอกสาร Word"
+- "Append and Prepend Content in Word Documents" => "ต่อท้ายและเพิ่มเนื้อหาในเอกสาร Word"
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับรูปทรงใน Aspose.Words สำหรับ .NET](./net/working-with-shapes/)
-ค้นพบวิธีการแทรกและจัดการรูปร่างต่างๆ รวมถึงรูปร่างที่จัดกลุ่มและรูปวาดที่กำหนดไว้ล่วงหน้าในเอกสาร Word
+Now next.
 
+### Working with Shapes {#shapes} => "### การทำงานกับรูปร่าง {#shapes}"
 
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="การสร้างรูปร่างกลุ่มในเอกสาร Word " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
+"Insert and manipulate shapes, including grouped shapes and predefined drawings." => "แทรกและจัดการรูปร่าง รวมถึงรูปร่างที่จัดกลุ่มและภาพวาดที่กำหนดไว้ล่วงหน้า"
 
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="การแทรกรูปร่างในเอกสาร Word " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [การทำงานกับ Watermark ใน Aspose.Words สำหรับ .NET](./net/working-with-watermark)
-เรียนรู้การเพิ่มลายน้ำข้อความและรูปภาพลงในเอกสาร Word เพื่อวัตถุประสงค์ด้านการสร้างแบรนด์หรือด้านความปลอดภัย
-
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="เพิ่มลายน้ำข้อความในเอกสาร Word " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
-- [การประมวลผลเอกสารที่ขับเคลื่อนด้วย AI](./net/ai-powered-document-processing/)
-- [สมัครใบอนุญาต](./net/apply-license/)   
-- [เปิดใช้งานคุณลักษณะ OpenType](./net/enable-opentype-features/)   
-- [การทำงานกับความคิดเห็น](./net/working-with-comments/)   
-- [การทำงานกับฟิลด์](./net/working-with-fields/)   
-- [การทำงานกับ Footnote และ Endnote](./net/working-with-footnote-and-endnote/)   
-- [การทำงานกับ FormFields](./net/working-with-formfields/)   
-- [การทำงานกับส่วนหัวและส่วนท้าย](./net/working-with-headers-and-footers/)   
-- [การทำงานกับการแบ่งคำ](./net/working-with-hyphenation/)   
-- [การทำงานกับรายการ](./net/working-with-list/)   
-- [การทำงานกับมาร์กดาวน์](./net/working-with-markdown/)   
-- [การทำงานกับโหนด](./net/working-with-node/)   
-- [การทำงานกับการแก้ไข](./net/working-with-revisions/)   
-- [การทำงานกับกล่องข้อความ](./net/working-with-textboxes/)   
-- [การแยกเอกสาร](./net/split-document/)   
-- [เพิ่มเนื้อหาโดยใช้ Documentbuilder](./net/add-content-using-documentbuilder/)
-- [โคลนและรวมเอกสาร](./net/clone-and-combine-documents/) 
-- [เปรียบเทียบเอกสาร](./net/compare-documents/) 
-- [การจัดรูปแบบเอกสาร](./net/document-formatting/)      
-- [การเขียนโปรแกรมด้วยลายน้ำ](./net/programming-with-watermark/)    
-- [การเขียนโปรแกรมด้วย Markdownsaveoptions](./net/programming-with-markdownsaveoptions/)   
-- [การแปลงพื้นฐาน](./net/basic-conversions/)   
+Cards:
 
-## บทช่วยสอนการประมวลผลเอกสาร Aspose.Words สำหรับ Java
+- "Create Group Shape in Word Document " => "สร้างรูปร่างกลุ่มในเอกสาร Word"
+- "Insert Shapes in Word Documents " => "แทรกรูปร่างในเอกสาร Word"
 
-{{% alert color="primary" %}}
-บทช่วยสอนที่ครอบคลุมนี้ให้คำแนะนำทีละขั้นตอนเกี่ยวกับวิธีการทำงานกับเอกสาร Microsoft Word ด้วยโปรแกรมอย่างมีประสิทธิภาพ ตั้งแต่การสร้างและจัดการเอกสารไปจนถึงฟีเจอร์ขั้นสูง เช่น การผสานจดหมาย การจัดรูปแบบตาราง และการเข้ารหัสเอกสาร บทช่วยสอนเหล่านี้ครอบคลุมฟังก์ชันการทำงานที่หลากหลาย เมื่อทำตามบทช่วยสอนเหล่านี้ นักพัฒนาสามารถผสาน Aspose.Words เข้ากับโปรเจ็กต์ Java ได้อย่างราบรื่น ช่วยให้ประมวลผลเอกสารได้อย่างมีประสิทธิภาพและปรับปรุงแอปพลิเคชันด้วยความสามารถในการจัดการเอกสารระดับมืออาชีพ 
+Now next.
 
-{{% /alert %}}
+### Adding Watermarks {#watermarks} => "### การเพิ่มลายน้ำ {#watermarks}"
 
-เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
-- [การประมวลผลคำ](./java/word-processing/)  
-- [การประมวลผลตาราง](./java/table-processing/)
-- [การจัดรูปแบบเอกสาร](./java/document-styling/)
-- [การผสานเอกสาร](./java/document-merging/)
-- [การแปลงเอกสาร](./java/document-converting/)
-- [การพิมพ์เอกสาร](./java/document-printing/)
-- [การเรนเดอร์เอกสาร](./java/document-rendering/)
-- [การรักษาความปลอดภัยเอกสาร](./java/document-security/)
-- [การแยกเอกสาร](./java/document-splitting/)
-- [การแก้ไขเอกสาร](./java/document-revision/)
-- [การโหลดและการบันทึกเอกสาร](./java/document-loading-and-saving/)
-- [การจัดการเอกสาร](./java/document-manipulation/)
-- [การแปลงและส่งออกเอกสาร](./java/document-conversion-and-export/)
-- [การออกใบอนุญาตและการกำหนดค่า](./java/licensing-and-configuration/)
-- [การใช้องค์ประกอบเอกสาร](./java/using-document-elements/)
-- [การพิมพ์เอกสาร](./java/printing-documents/)
-- [การเรนเดอร์เอกสาร](./java/rendering-documents/)
-- [การเริ่มต้น](./java/getting-started/)
-- [การดำเนินการเอกสาร](./java/document-operations/)
-- [การจัดการเนื้อหา](./java/content-management/)
-- [ส่วนหัว ส่วนท้าย และการตั้งค่าหน้า](./java/headers-footers-page-setup/)
-- [คำอธิบายและความคิดเห็น](./java/annotations-comments/)
-- [การประมวลผลข้อความขั้นสูง](./java/advanced-text-processing/)
-- [การเปรียบเทียบและติดตามเอกสาร](./java/document-comparison-tracking/)
-- [การเพิ่มประสิทธิภาพการทำงาน](./java/performance-optimization/)
-- [การบูรณาการและการทำงานร่วมกัน](./java/integration-interoperability/)
-- [ความปลอดภัยและการป้องกัน](./java/security-protection/)
-- [การจัดรูปแบบและสไตล์](./java/formatting-styles/)
-- [ตารางและรายการ](./java/tables-lists/)
-- [รูปภาพและรูปทรง](./java/images-shapes/)
-- [การผสานจดหมายและการรายงาน](./java/mail-merge-reporting/)
-- [การบูรณาการ AI และการเรียนรู้ของเครื่องจักร](./java/ai-machine-learning-integration/)
+"Add text or image watermarks to protect brand identity or secure confidential content." => "เพิ่มลายน้ำข้อความหรือรูปภาพเพื่อปกป้องเอกลักษณ์ของแบรนด์หรือรักษาความลับของเนื้อหา"
 
-## บทช่วยสอนการจัดการเอกสาร Aspose.Words สำหรับ Python
+Card:
 
-{{% alert color="primary" %}}
-บทช่วยสอนเหล่านี้ให้คำแนะนำทีละขั้นตอนเกี่ยวกับวิธีการทำงานกับเอกสาร Microsoft Word ด้วยโปรแกรม รวมถึงการสร้างเอกสาร การจัดการ และคุณลักษณะด้านความปลอดภัยต่างๆ เช่น การเข้ารหัสและการป้องกันด้วยรหัสผ่าน ด้วยความช่วยเหลือของทรัพยากรนี้ นักพัฒนาสามารถนำฟังก์ชันการประมวลผลเอกสารไปใช้ในแอปพลิเคชัน Python ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words ซึ่งช่วยเพิ่มประสิทธิภาพการทำงานและรับประกันความปลอดภัยของเอกสาร 
+- "Add Text Watermark in Word Document " => "เพิ่มลายน้ำข้อความในเอกสาร Word"
 
-{{% /alert %}}
+Now Additional .NET Resources heading.
 
-เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
-- [การสร้างเอกสาร](./python-net/document-creation/)  
-- [การทำงานอัตโนมัติของคำศัพท์](./python-net/word-automation/)
-- [เอกสารข่าวกรอง](./python-net/document-intelligence/)
-- [การแปลงเอกสาร](./python-net/document-conversion/)
-- [การป้องกันเอกสาร](./python-net/document-protection/)
-- [การเริ่มต้น](./python-net/getting-started/)
-- [การดำเนินการเอกสาร](./python-net/document-operations/)
-- [การจัดการเนื้อหา](./python-net/content-management/)
-- [การจัดรูปแบบและสไตล์](./python-net/formatting-styles/)
-- [ตารางและรายการ](./python-net/tables-lists/)
-- [รูปภาพและรูปทรง](./python-net/images-shapes/)
-- [การผสานจดหมายและการรายงาน](./python-net/mail-merge-reporting/)
-- [ส่วนหัว ส่วนท้าย และการตั้งค่าหน้า](./python-net/headers-footers-page-setup/)
-- [คุณสมบัติเอกสารและข้อมูลเมตา](./python-net/document-properties-metadata/)
-- [ความปลอดภัยและการป้องกัน](./python-net/security-protection/)
-- [คำอธิบายและความคิดเห็น](./python-net/annotations-comments/)
-- [การเปรียบเทียบและติดตามเอกสาร](./python-net/document-comparison-tracking/)
-- [การแยกและการจัดรูปแบบเอกสาร](./python-net/document-splitting-and-formatting/)
-- [การรวมและการเปรียบเทียบเอกสาร](./python-net/document-combining-and-comparison/)
-- [ประสิทธิภาพการทำงานและการเพิ่มประสิทธิภาพ](./python-net/performance-optimization/)
-- [การบูรณาการและการทำงานร่วมกัน](./python-net/integration-interoperability/)
-- [การเปลี่ยนแปลงเนื้อหา AI](./python-net/ai-content-transformation/)
-- [โครงสร้างเอกสารและการจัดการเนื้อหา](./python-net/document-structure-and-content-manipulation/)
-- [การสกัดและการจัดการเนื้อหา](./python-net/content-extraction-and-manipulation/)
-- [ตารางและการจัดรูปแบบ](./python-net/tables-and-formatting/)
-- [ตัวเลือกและการตั้งค่าเอกสาร](./python-net/document-options-and-settings/)
+#### Additional .NET Resources => "#### แหล่งข้อมูลเพิ่มเติมสำหรับ .NET"
 
+List items translate link text.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+- AI Powered Document Processing => "การประมวลผลเอกสารด้วย AI"
+- Apply License => "ใช้ใบอนุญาต"
+- Enable OpenType features => "เปิดใช้งานคุณลักษณะ OpenType"
+- Working with Comments => "ทำงานกับคอมเมนต์"
+- Working with Fields => "ทำงานกับฟิลด์"
+- Working with Footnote and Endnote => "ทำงานกับเชิงอรรถและอ้างอิงท้าย"
+- Working with FormFields => "ทำงานกับ FormFields"
+- Working with Headers and Footers => "ทำงานกับส่วนหัวและส่วนท้าย"
+- Working with Hyphenation => "ทำงานกับการแยกคำ"
+- Working with List => "ทำงานกับรายการ"
+- Working with Markdown => "ทำงานกับ Markdown"
+- Working with Node => "ทำงานกับ

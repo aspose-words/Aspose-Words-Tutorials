@@ -1,9 +1,30 @@
 ---
-"description": "Naučte se Aspose.Words s podrobnými vizuálními tutoriály pro .NET, Javu, C++, Python a další. Snadno zvládněte tvorbu, úpravy, konverzi a automatizaci dokumentů."
-"title": "Vizuální tutoriály k Aspose.Words"
-"url": "/cs/"
-"weight": 10
+date: 2025-11-12
+description: Prozkoumejte krok za krokem vizuální tutoriály Aspose.Words pro .NET,
+  Javu a Python. Naučte se rychle vytvářet grafy, vkládat tabulky, přidávat vodoznaky
+  a formátovat odstavce.
+keywords: create chart word, insert table document builder, add watermark word, apply
+  table border, format paragraph style, Aspose.Words tutorials, .NET document automation,
+  Java Word processing, Python document handling
+language: cs
+limit: null
+title: Aspose.Words vizuální tutoriály – Vytvářejte, formátujte a automatizujte dokumenty
+  Word
+url: /
+weight: 10
 ---
+
+We need to translate to Czech, preserving markdown, technical terms, URLs, paths, variable names, function names unchanged. Also keep the shortcodes like {{< ... >}} unchanged. Ensure proper Czech translation.
+
+We must translate all visible text content, not the code. Also note "Ensure proper RTL formatting if needed" - Czech is LTR, so ignore.
+
+We need to translate headings, paragraphs, list items, alerts, etc.
+
+We must keep the shortcodes unchanged.
+
+Let's go through content.
+
+Start:
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -11,273 +32,204 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vizuální tutoriály k Aspose.Words
+# Aspose.Words Visual Tutorials
 
-Vizuální návody Aspose.Words nabízejí podrobné návody pro všechny produkty Aspose.Words, včetně Aspose.Words pro .NET, Javu, C++, Python a další. Tyto návody pokrývají širokou škálu úloh zpracování dokumentů, jako je vytváření, úprava, převod a formátování dokumentů Word. Díky jasným pokynům a vizuálním ukázkám se vývojáři mohou rychle naučit, jak integrovat Aspose.Words do svých aplikací. Ať už pracujete s .NET, Javou, C++ nebo Pythonem, tyto návody poskytují praktické učení, které vám pomůže efektivně automatizovat správu dokumentů a vylepšit váš pracovní postup.
+Translate: "Aspose.Words Visual Tutorials" -> "Aspose.Words vizuální tutoriály" (maybe "Aspose.Words vizuální tutoriály").
 
-## [Vizuální tutoriály k Aspose.Words pro .NET](./net/)
+Next paragraph:
 
-Aspose.Words pro .NET nabízí komplexní sadu vizuálních tutoriálů, které vývojářům pomohou zvládnout manipulaci s dokumenty v jejich aplikacích. Tyto podrobné návody pokrývají vytváření, úpravy a převod dokumentů Word a také vkládání obrázků, tabulek a polí formulářů. Díky jasným pokynům a vizuálním ukázkám tutoriály zjednodušují složité úkoly a usnadňují automatizaci a integraci. Ať už jste v Aspose nováčkem, nebo si jen zdokonalujete své dovednosti, tyto praktické tutoriály vám poskytnou praktické zkušenosti ke zlepšení vašich schopností zpracování dokumentů.
+Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python.  
+In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs.
 
+Translate: "Aspose.Words Visual Tutorials provide **hands‑on, step‑by‑step guides** for every major platform—.NET, Java, C++, and Python." -> "Aspose.Words vizuální tutoriály poskytují **praktické, krok‑za‑krokem návody** pro všechny hlavní platformy — .NET, Java, C++ a Python."
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+"In this guide you’ll quickly discover how to **create charts**, **insert tables with Document Builder**, **add watermarks**, and **format paragraphs** using the latest Aspose.Words APIs." -> "V tomto průvodci rychle zjistíte, jak **vytvářet grafy**, **vkládat tabulky pomocí Document Builder**, **přidávat vodoznaky** a **formátovat odstavce** pomocí nejnovějších API Aspose.Words."
 
+Blockquote:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce s grafy v Aspose.Words ](./net/working-with-charts/)
-Naučte se vkládat a upravovat různé typy grafů, jako jsou sloupcové, spojnicové a bodové grafy, v dokumentech Wordu.
+> **What you’ll get:**  
+> 1. A clear overview of each tutorial category.  
+> 2. Direct links to visual, code‑rich examples.  
+> 3. Practical tips you can apply to real‑world projects today.
 
-{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Vytvořte dokument s grafy " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
+Translate: "Co získáte:" then list.
 
-{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Vytvořte spojnicový graf ve Wordu " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
+> **Co získáte:**  
+> 1. Přehled každé kategorie tutoriálů.  
+> 2. Přímé odkazy na vizuální, bohaté na kód příklady.  
+> 3. Praktické tipy, které můžete dnes použít v reálných projektech.
 
-{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Vložení plošného grafu do dokumentu Word" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Vložení bublinového grafu do Wordu " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
+## Aspose.Words for .NET Visual Tutorials {#net-tutorials}
 
-{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Vložení sloupcového grafu do Wordu " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
+Translate: "Aspose.Words pro .NET vizuální tutoriály". Keep anchor.
 
-{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Vytvořte bodový graf slov " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
+## Aspose.Words pro .NET vizuální tutoriály {#net-tutorials}
 
-{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Vložení jednoduchého sloupcového grafu do Wordu " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
+Paragraph:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Aspose.Words for .NET offers a comprehensive set of visual tutorials that walk you through document manipulation tasks. Follow the numbered steps below to locate the tutorial that matches your scenario:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce se styly tabulek a formátováním v Aspose.Words pro .NET](./net/working-with-table-styles-and-formatting/)
-Zjistěte, jak vytvářet, formátovat a upravovat tabulky v dokumentech Wordu, včetně nastavení ohraničení, stylů a odsazení buněk.
+Translate: "Aspose.Words pro .NET nabízí komplexní sadu vizuálních tutoriálů, které vás provedou úkoly manipulace s dokumenty. Postupujte podle číslovaných kroků níže a najděte tutoriál, který odpovídá vašemu scénáři:"
 
+List steps:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Použití obrysového ohraničení na tabulku v aplikaci Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-outline-border/images/thumb.png" >}}
+1. **Select a topic** (e.g., charts, tables, headers).  
+2. **Open the tutorial** by clicking the card.  
+3. **Run the sample code** in your IDE and modify it to fit your project.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Použití formátování řádků v dokumentech Word" imgSrc="./net/working-with-table-styles-and-formatting/apply-row-formatting/images/thumb.png" >}}
+Translate:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Úprava okrajů tabulky ve Wordu " imgSrc="./net/working-with-table-styles-and-formatting/build-table-with-border/images/thumb.png" >}}
+1. **Vyberte téma** (např. grafy, tabulky, záhlaví).  
+2. **Otevřete tutoriál** kliknutím na kartu.  
+3. **Spusťte ukázkový kód** ve svém IDE a upravte jej podle svého projektu.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Vytvořte stylizované tabulky ve Wordu pomocí Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/buildtable-with-style/images/thumb.png" >}}
+Next paragraph:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/cell-padding/" title="Vytvoření buňky tabulky Word s odsazením v Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/cell-padding/images/thumb.png" >}}
+These tutorials cover everything from **basic document creation** to **advanced formatting**, ensuring you can automate Word processing with confidence.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/create-table-style/" title="Vytvořte stylizovanou tabulku v dokumentu Word " imgSrc="./net/working-with-table-styles-and-formatting/create-table-style/images/thumb.png" >}}
+Translate: "Tyto tutoriály pokrývají vše od **základního vytváření dokumentů** po **pokročilé formátování**, což vám umožní s jistotou automatizovat zpracování Wordu."
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Vytvořte dokument Word s ohraničením tabulky a stínováním" imgSrc="./net/working-with-table-styles-and-formatting/format-table-and-cell/images/thumb.png" >}}
+Next heading:
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Vytvoření a formátování tabulky v dokumentu Word" imgSrc="./net/working-with-table-styles-and-formatting/set-table-cell-formatting/images/thumb.png" >}}
+### Working with Charts in Aspose.Words {#charts}
+Translate: "Práce s grafy v Aspose.Words". Keep anchor.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Vytvořte formátovanou tabulku ve Wordu pomocí Aspose.Words " imgSrc="./net/working-with-table-styles-and-formatting/set-table-row-formatting/images/thumb.png" >}}
+Learn to insert and customize bar, line, scatter, and other chart types directly inside Word documents.
 
-{{< tutorial-card link="./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Přidání názvu a popisu do tabulky ve Wordu" imgSrc="./net/working-with-table-styles-and-formatting/table-tittle-and-description/images/thumb.png" >}}
+Translate: "Naučte se vkládat a přizpůsobovat sloupcové, čárové, bodové a další typy grafů přímo v dokumentech Word."
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Then series of tutorial-card shortcodes. The titles need translation, but keep link and imgSrc unchanged. So translate title attribute.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Přidání obsahu pomocí nástroje pro tvorbu dokumentů v Aspose.Words pro .NET ](./net/add-content-using-document-builder/)
-Naučte se, jak programově vkládat text, tabulky, obrázky a další prvky do dokumentů aplikace Word pomocí třídy Document Builder.
+First:
 
+{{< tutorial-card link="./net/working-with-charts/bounds-of-axis/" title="Create a Document with Charts " imgSrc="./net/working-with-charts/bounds-of-axis/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/build-table/" title="Vytvořte dokument Word s tabulkou" imgSrc="./net/add-content-using-document-builder/build-table/images/thumb.png" >}}
+Title: "Create a Document with Charts " -> "Vytvořte dokument s grafy". Keep trailing space? We'll remove extra.
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-break/" title="Vytvořte vícestránkový dokument Wordu pomocí Aspose.Words" imgSrc="./net/add-content-using-document-builder/insert-break/images/thumb.png" >}}
+Second:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-floating-image/" title="Vytvořte dokument Word s plovoucím obrázkem v .NET" imgSrc="./net/add-content-using-document-builder/insert-floating-image/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/create-chart-using-shape/" title="Create a Line Chart in Word " imgSrc="./net/working-with-charts/create-chart-using-shape/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-horizontal-rule/" title="Vytvořte dokument Word s vodorovnou linií v .NET" imgSrc="./net/add-content-using-document-builder/insert-horizontal-rule/images/thumb.png" >}}
+Title: "Create a Line Chart in Word " -> "Vytvořte čárový graf ve Wordu".
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-inline-image/" title="Vložit vložený obrázek do dokumentu Word" imgSrc="./net/add-content-using-document-builder/insert-inline-image/images/thumb.png" >}}
+Third:
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-paragraph/" title="Vytvořte dokument Wordu pomocí Aspose.Words " imgSrc="./net/add-content-using-document-builder/insert-paragraph/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-area-chart/" title="Insert Area Chart in Word Document" imgSrc="./net/working-with-charts/insert-area-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/add-content-using-document-builder/insert-table-contents/" title="Vytvořte dokument Word s obsahem v .NET" imgSrc="./net/add-content-using-document-builder/insert-table-contents/images/thumb.png" >}}
+Title: "Insert Area Chart in Word Document" -> "Vložte plošný graf do dokumentu Word".
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Fourth:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Formátování dokumentů pomocí Aspose.Words pro .NET](./net/document-styling/)
-Pochopte, jak aplikovat různé možnosti formátování na odstavce, seznamy a prvky dokumentu, abyste vylepšili vizuální atraktivitu vašich souborů Wordu.
+{{< tutorial-card link="./net/working-with-charts/insert-bubble-chart/" title="Insert a Bubble Chart in Word " imgSrc="./net/working-with-charts/insert-bubble-chart/images/thumb.png" >}}
 
+Title: "Insert a Bubble Chart in Word " -> "Vložte bublinový graf do Wordu".
 
-{{< tutorial-card link="./net/document-styling/apply-border-and-shading/" title="Použití ohraničení a stínování na odstavec v Aspose.Words " imgSrc="./net/document-styling/apply-border-and-shading/images/thumb.png" >}}
+Fifth:
 
-{{< tutorial-card link="./net/document-styling/apply-paragraph-style/" title="Vytvořte a upravte styl dokumentu Word v Aspose.Words " imgSrc="./net/document-styling/apply-paragraph-style/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-column-chart/" title="Insert Column Chart in Word " imgSrc="./net/working-with-charts/insert-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/document-styling/multilevel-list-formatting/" title="Vytvořte víceúrovňové seznamy ve Wordu pomocí Aspose.Words" imgSrc="./net/document-styling/multilevel-list-formatting/images/thumb.png" >}}
+Title: "Insert Column Chart in Word " -> "Vložte sloupcový graf do Wordu".
 
-{{< tutorial-card link="./net/document-styling/paragraph-formatting/" title="Formátování odstavců " imgSrc="./net/document-styling/paragraph-formatting/images/thumb.png" >}}
+Sixth:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< tutorial-card link="./net/working-with-charts/insert-scatter-chart/" title="Create Word Scatter Chart " imgSrc="./net/working-with-charts/insert-scatter-chart/images/thumb.png" >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce s fonty v Aspose.Words pro .NET](./net/font-styling/)
-Prozkoumejte funkce související s písmy, jako jsou styly písma, řádkování, zvýraznění a další nastavení typografie v dokumentech Wordu.
+Title: "Create Word Scatter Chart " -> "Vytvořte bodový graf ve Wordu".
 
+Seventh:
 
-{{< tutorial-card link="./net/font-styling/font-formatting/" title="Vytvoření formátování písma ve Wordu " imgSrc="./net/font-styling/font-formatting/images/thumb.png" >}}
+{{< tutorial-card link="./net/working-with-charts/insert-simple-column-chart/" title="Insert a Simple Column Chart in Word " imgSrc="./net/working-with-charts/insert-simple-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./net/font-styling/get-font-line-spacing/" title="Získejte řádkování písma v dokumentu Word" imgSrc="./net/font-styling/get-font-line-spacing/images/thumb.png" >}}
+Title: "Insert a Simple Column Chart in Word " -> "Vložte jednoduchý sloupcový graf do Wordu".
 
-{{< tutorial-card link="./net/font-styling/set-font-emphasis-mark/" title="Nastavení zvýraznění v dokumentu Word " imgSrc="./net/font-styling/set-font-emphasis-mark/images/thumb.png" >}}
+Next heading:
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### Working with Table Styles and Formatting {#tables}
+Translate: "Práce se styly a formátováním tabulek". Keep anchor.
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce s formulářovými poli v Aspose.Words pro .NET](./net/working-with-form-fields/)
-Zjistěte, jak vkládat a spravovat pole formuláře, jako je textový vstup, rozevírací seznamy a zaškrtávací políčka, v dokumentech Wordu.
+Discover how to **create**, **style**, and **format** tables, including borders, cell padding, and custom table styles.
 
+Translate: "Objevte, jak **vytvářet**, **stylovat** a **formátovat** tabulky, včetně okrajů, vnitřního odsazení buněk a vlastních stylů tabulek."
 
-{{< tutorial-card link="./net/working-with-form-fields/insert-form-fields/" title="Vložit pole formuláře se seznamem v dokumentu Word" imgSrc="./net/working-with-form-fields/insert-form-fields/images/thumb.png" >}}
+Now tutorial cards titles translation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+1. link "./net/working-with-table-styles-and-formatting/apply-outline-border/" title="Apply Outline Border to a Table in Word" -> "Použijte obrysový okraj na tabulku ve Wordu".
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce se záhlavími a zápatími v Aspose.Words pro .NET](./net/header-footer-formatting/)
-Naučte se, jak vytvářet a manipulovat se záhlavími a zápatími, včetně přidávání obrázků, čísel stránek a textu.
+2. "./net/working-with-table-styles-and-formatting/apply-row-formatting/" title="Apply Row Formatting in Word Documents" -> "Použijte formátování řádků v dokumentech Word".
 
+3. "./net/working-with-table-styles-and-formatting/build-table-with-border/" title="Modify Table Borders in Word " -> "Upravte okraje tabulky ve Wordu".
 
-{{< tutorial-card link="./net/header-footer-formatting/create-header-footer/" title="Vytvořte dokument Word se záhlavím a zápatím" imgSrc="./net/header-footer-formatting/create-header-footer/images/thumb.png" >}}
+4. "./net/working-with-table-styles-and-formatting/buildtable-with-style/" title="Create Styled Tables in Word with Aspose.Words " -> "Vytvořte stylované tabulky ve Wordu pomocí Aspose.Words".
 
-{{< tutorial-card link="./net/header-footer-formatting/insert-image/" title="Vložení obrázku do záhlaví dokumentu Word" imgSrc="./net/header-footer-formatting/insert-image/images/thumb.png" >}}
+5. "./net/working-with-table-styles-and-formatting/cell-padding/" title="Create Word Table Cell with Padding in Aspose.Words " -> "Vytvořte buňku tabulky Word s odsazením v Aspose.Words".
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+6. "./net/working-with-table-styles-and-formatting/create-table-style/" title="Create Styled Table in Word Document " -> "Vytvořte stylovanou tabulku v dokumentu Word".
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce se sekcemi v Aspose.Words pro .NET](./net/document-sections/)
-Pochopte, jak strukturovat dokumenty do sekcí, s možností použití různých záhlaví, zápatí a stylů formátování.
+7. "./net/working-with-table-styles-and-formatting/format-table-and-cell/" title="Create Word Document with Table Borders & Shading" -> "Vytvořte dokument Word s okraji a stínováním tabulky".
 
+8. "./net/working-with-table-styles-and-formatting/set-table-cell-formatting/" title="Create and Format a Table in Word Document" -> "Vytvořte a formátujte tabulku v dokumentu Word".
 
-{{< tutorial-card link="./net/document-sections/add-section/" title="Přidání nové sekce do dokumentu Word" imgSrc="./net/document-sections/add-section/images/thumb.png" >}}
+9. "./net/working-with-table-styles-and-formatting/set-table-row-formatting/" title="Create a Formatted Table in Word with Aspose.Words " -> "Vytvořte formátovanou tabulku ve Wordu pomocí Aspose.Words".
 
-{{< tutorial-card link="./net/document-sections/append-section-content/" title="Přidávání a začátek obsahu v dokumentech Word" imgSrc="./net/document-sections/append-section-content/images/thumb.png" >}}
+10. "./net/working-with-table-styles-and-formatting/table-tittle-and-description/" title="Add Title & Description to Table in Word" -> "Přidejte název a popis k tabulce ve Wordu".
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Next heading:
 
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce s tvary v Aspose.Words pro .NET](./net/working-with-shapes/)
-Zjistěte, jak vkládat a manipulovat s různými tvary, včetně seskupených tvarů a předdefinovaných kreseb, do dokumentů Wordu.
-
-
-{{< tutorial-card link="./net/working-with-shapes/add-group-shape/" title="Vytvoření skupinového tvaru v dokumentu Word " imgSrc="./net/working-with-shapes/add-group-shape/images/thumb.png" >}}
-
-{{< tutorial-card link="./net/working-with-shapes/insert-shape/" title="Vkládání tvarů do dokumentů Wordu " imgSrc="./net/working-with-shapes/insert-shape/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-### [Práce s vodoznakem v Aspose.Words pro .NET](./net/working-with-watermark)
-Naučte se přidávat textové a obrazové vodoznaky do dokumentů Wordu pro účely budování značky nebo zabezpečení.
-
-{{< tutorial-card link="./net/working-with-watermark/add-text-watermark/" title="Přidání textového vodoznaku do dokumentu Word " imgSrc="./net/working-with-watermark/add-text-watermark/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-Toto jsou odkazy na některé užitečné zdroje:
-- [Zpracování dokumentů s využitím umělé inteligence](./net/ai-powered-document-processing/)
-- [Použít licenci](./net/apply-license/)   
-- [Povolit funkce OpenType](./net/enable-opentype-features/)   
-- [Práce s komentáři](./net/working-with-comments/)   
-- [Práce s poli](./net/working-with-fields/)   
-- [Práce s poznámkami pod čarou a koncovými poznámkami](./net/working-with-footnote-and-endnote/)   
-- [Práce s formulářovými poli](./net/working-with-formfields/)   
-- [Práce se záhlavími a zápatími](./net/working-with-headers-and-footers/)   
-- [Práce s pomlčkou](./net/working-with-hyphenation/)   
-- [Práce se seznamem](./net/working-with-list/)   
-- [Práce s Markdownem](./net/working-with-markdown/)   
-- [Práce s uzlem](./net/working-with-node/)   
-- [Práce s revizemi](./net/working-with-revisions/)   
-- [Práce s textovými poli](./net/working-with-textboxes/)   
-- [Rozdělit dokument](./net/split-document/)   
-- [Přidání obsahu pomocí nástroje DocumentBuilder](./net/add-content-using-documentbuilder/)
-- [Klonování a slučování dokumentů](./net/clone-and-combine-documents/) 
-- [Porovnání dokumentů](./net/compare-documents/) 
-- [Formátování dokumentů](./net/document-formatting/)      
-- [Programování s vodoznakem](./net/programming-with-watermark/)    
-- [Programování s Markdownem – možnosti uložení](./net/programming-with-markdownsaveoptions/)   
-- [Základní konverze](./net/basic-conversions/)   
-
-## Výukové programy pro zpracování dokumentů Aspose.Words v Javě
-
-{{% alert color="primary" %}}
-Tato komplexní sbírka tutoriálů poskytuje podrobné pokyny, jak efektivně programově pracovat s dokumenty aplikace Microsoft Word. Od vytváření a manipulace s dokumenty až po pokročilé funkce, jako je hromadná korespondence, formátování tabulek a šifrování dokumentů, tyto tutoriály pokrývají širokou škálu funkcí. Dodržováním těchto tutoriálů mohou vývojáři bezproblémově integrovat Aspose.Words do svých projektů v jazyce Java, což jim umožní efektivní zpracování dokumentů a vylepší jejich aplikace o profesionální funkce správy dokumentů. 
-
-{{% /alert %}}
-
-Toto jsou odkazy na některé užitečné zdroje:
-- [Zpracování textu](./java/word-processing/)  
-- [Zpracování tabulky](./java/table-processing/)
-- [Styl dokumentu](./java/document-styling/)
-- [Sloučení dokumentů](./java/document-merging/)
-- [Konverze dokumentů](./java/document-converting/)
-- [Tisk dokumentů](./java/document-printing/)
-- [Vykreslování dokumentů](./java/document-rendering/)
-- [Zabezpečení dokumentů](./java/document-security/)
-- [Rozdělení dokumentů](./java/document-splitting/)
-- [Revize dokumentu](./java/document-revision/)
-- [Načítání a ukládání dokumentů](./java/document-loading-and-saving/)
-- [Manipulace s dokumenty](./java/document-manipulation/)
-- [Konverze a export dokumentů](./java/document-conversion-and-export/)
-- [Licencování a konfigurace](./java/licensing-and-configuration/)
-- [Používání prvků dokumentu](./java/using-document-elements/)
-- [Tisk dokumentů](./java/printing-documents/)
-- [Vykreslování dokumentů](./java/rendering-documents/)
-- [Začínáme](./java/getting-started/)
-- [Operace s dokumenty](./java/document-operations/)
-- [Správa obsahu](./java/content-management/)
-- [Záhlaví, zápatí a nastavení stránky](./java/headers-footers-page-setup/)
-- [Anotace a komentáře](./java/annotations-comments/)
-- [Pokročilé zpracování textu](./java/advanced-text-processing/)
-- [Porovnání a sledování dokumentů](./java/document-comparison-tracking/)
-- [Optimalizace výkonu](./java/performance-optimization/)
-- [Integrace a interoperabilita](./java/integration-interoperability/)
-- [Bezpečnost a ochrana](./java/security-protection/)
-- [Formátování a styly](./java/formatting-styles/)
-- [Tabulky a seznamy](./java/tables-lists/)
-- [Obrázky a tvary](./java/images-shapes/)
-- [Hromadná korespondence a reporting](./java/mail-merge-reporting/)
-- [Integrace umělé inteligence a strojového učení](./java/ai-machine-learning-integration/)
-
-## Výukové programy pro správu dokumentů Aspose.Words v Pythonu
-
-{{% alert color="primary" %}}
-Tyto návody nabízejí podrobný návod, jak programově pracovat s dokumenty aplikace Microsoft Word, včetně vytváření dokumentů, manipulace s nimi a různých bezpečnostních funkcí, jako je šifrování a ochrana heslem. S pomocí tohoto zdroje mohou vývojáři efektivně implementovat funkce pro zpracování dokumentů ve svých aplikacích v Pythonu pomocí Aspose.Words, čímž zvyšují produktivitu a zajišťují zabezpečení dokumentů. 
-
-{{% /alert %}}
-
-Toto jsou odkazy na některé užitečné zdroje:
-- [Vytvoření dokumentu](./python-net/document-creation/)  
-- [Automatizace slov](./python-net/word-automation/)
-- [Inteligence dokumentů](./python-net/document-intelligence/)
-- [Konverze dokumentů](./python-net/document-conversion/)
-- [Ochrana dokumentů](./python-net/document-protection/)
-- [Začínáme](./python-net/getting-started/)
-- [Operace s dokumenty](./python-net/document-operations/)
-- [Správa obsahu](./python-net/content-management/)
-- [Formátování a styly](./python-net/formatting-styles/)
-- [Tabulky a seznamy](./python-net/tables-lists/)
-- [Obrázky a tvary](./python-net/images-shapes/)
-- [Hromadná korespondence a reporting](./python-net/mail-merge-reporting/)
-- [Záhlaví, zápatí a nastavení stránky](./python-net/headers-footers-page-setup/)
-- [Vlastnosti a metadata dokumentu](./python-net/document-properties-metadata/)
-- [Bezpečnost a ochrana](./python-net/security-protection/)
-- [Anotace a komentáře](./python-net/annotations-comments/)
-- [Porovnání a sledování dokumentů](./python-net/document-comparison-tracking/)
-- [Rozdělení a formátování dokumentů](./python-net/document-splitting-and-formatting/)
-- [Kombinování a porovnávání dokumentů](./python-net/document-combining-and-comparison/)
-- [Výkon a optimalizace](./python-net/performance-optimization/)
-- [Integrace a interoperabilita](./python-net/integration-interoperability/)
-- [Transformace obsahu s využitím umělé inteligence](./python-net/ai-content-transformation/)
-- [Struktura dokumentu a manipulace s obsahem](./python-net/document-structure-and-content-manipulation/)
-- [Extrakce a manipulace s obsahem](./python-net/content-extraction-and-manipulation/)
-- [Tabulky a formátování](./python-net/tables-and-formatting/)
-- [Možnosti a nastavení dokumentu](./python-net/document-options-and-settings/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+### Add Content Using Document Builder {#document-builder}
+Translate: "Přidání obsahu pomocí Document Builder". Keep anchor.
+
+Insert text, tables, images, and other elements programmatically with the **DocumentBuilder** class.
+
+Translate: "Vkládejte text, tabulky, obrázky a další prvky programově pomocí třídy **DocumentBuilder**."
+
+Now tutorial cards:
+
+1. link "./net/add-content-using-document-builder/build-table/" title="Create a Word Document with Table" -> "Vytvořte dokument Word s tabulkou".
+
+2. "./net/add-content-using-document-builder/insert-break/" title="Create a Multi-Page Word Document with Aspose.Words" -> "Vytvořte vícestránkový dokument Word pomocí Aspose.Words".
+
+3. "./net/add-content-using-document-builder/insert-floating-image/" title="Create Word Document with Floating Image in .NET" -> "Vytvořte dokument Word s plovoucím obrázkem v .NET".
+
+4. "./net/add-content-using-document-builder/insert-horizontal-rule/" title="Create Word Document with Horizontal Rule in .NET" -> "Vytvořte dokument Word s vodorovnou čarou v .NET".
+
+5. "./net/add-content-using-document-builder/insert-inline-image/" title="Insert Inline Image in Word Document" -> "Vložte vložený obrázek do dokumentu Word".
+
+6. "./net/add-content-using-document-builder/insert-paragraph/" title="Create Word Document with Aspose.Words " -> "Vytvořte dokument Word pomocí Aspose.Words".
+
+7. "./net/add-content-using-document-builder/insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" -> "Vytvořte dokument Word s obsahem v .NET".
+
+Next heading:
+
+### Document Formatting {#document-formatting}
+Translate: "Formátování dokumentu". Keep anchor.
+
+Apply borders, shading, paragraph styles, and multilevel lists to improve document appearance.
+
+Translate: "Použijte okraje, stínování, styly odstavců a vícestupňové seznamy pro zlepšení vzhledu dokumentu."
+
+Cards:
+
+1. "./net/document-styling/apply-border-and-shading/" title="Apply Borders & Shading to Paragraph in Aspose.Words " -> "Použijte okraje a stínování na odstavec v Aspose.Words".
+
+2. "./net/document-styling/apply-paragraph-style/" title="Create and Style a Word Document in Aspose.Words " -> "Vytvořte a stylujte dokument Word v Aspose.Words".
+
+3. "./net/document-styling/multilevel-list-formatting/" title="Create Multilevel Lists in Word with Aspose.Words" -> "Vytvořte vícestupňové seznamy ve Wordu pomocí Aspose.Words".
+
+4. "./net/document-styling/paragraph-formatting/" title="Format Paragraphs " -> "Formátujte odstavce".
+
+Next heading:
+
+### Working with Fonts {#fonts}
+Translate: "Práce s fonty". Keep anchor.
+
+Control font styles, line spacing, and emphasis marks to achieve precise typography.
+
+Translate: "Ovládejte styly fontů, řádkování a zvýrazňovací značky pro přesnou typografii."
+
+Cards:
+
+1. "./net/font-styling/font-formatting/" title="Create Font Formatting in Word " -> "Vytvořte formátování fontu ve Wordu".
+
+2. "./net/font-styling/get-font-line-spacing/" title="Get Font Line Spacing in Word Document" -> "Získejte ř
