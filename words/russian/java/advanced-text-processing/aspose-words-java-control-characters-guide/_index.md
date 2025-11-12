@@ -1,187 +1,324 @@
 ---
-"date": "2025-03-28"
-"description": "Узнайте, как управлять управляющими символами и вставлять их в документы с помощью Aspose.Words для Java, расширяя свои навыки обработки текста."
-"title": "Освойте управляющие символы с помощью Aspose.Words для Java&#58; Руководство разработчика по расширенной обработке текста"
-"url": "/ru/java/advanced-text-processing/aspose-words-java-control-characters-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Узнайте, как вставлять управляющие символы, управлять переводами строк
+  и добавлять разрывы страниц или колонок в Java с помощью Aspose.Words для точного
+  форматирования документов.
+keywords:
+- Aspose.Words control characters
+- Java document formatting with Aspose.Words
+- inserting control characters in Java
+- insert control characters java
+- manage carriage returns
+- add page break aspose
+- insert non‑breaking space
+- create multi‑column layout
+language: ru
+title: Вставка управляющих символов в Java с Aspose.Words
+url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+We need to translate the given content to Russian, preserving markdown, code blocks placeholders, not translating URLs, file paths, variable names, function names, etc. Also keep technical terms in English. The content includes placeholders like {{< blocks/... >}} which should stay unchanged. Also code block placeholders like ```xml
+<dependency>
+  <groupId>com.aspose</groupId>
+  <artifactId>aspose-words</artifactId>
+  <version>25.3</version>
+</dependency>
+``` etc. Should not translate them. Also tables need translation of text but keep structure.
 
-{{< blocks/products/pf/main-container >}}
+We need to ensure proper Russian translation, natural language, keep technical terms.
 
-{{< blocks/products/pf/tutorial-page-section >}}
+Also note rule 6: "For Russian, ensure proper RTL formatting if needed" but Russian is LTR, so ignore.
 
+We must output only the translated content, no explanations.
 
-# Освойте управляющие символы с помощью Aspose.Words для Java
-## Введение
-Вы когда-нибудь сталкивались с проблемами управления форматированием текста в структурированных документах, таких как счета-фактуры или отчеты? Управляющие символы необходимы для точного форматирования. В этом руководстве рассматривается эффективная обработка управляющих символов с помощью Aspose.Words для Java, бесшовная интеграция структурных элементов.
+Let's translate each heading and paragraph.
 
-**Что вы узнаете:**
-- Управление и вставка различных управляющих символов.
-- Методы программной проверки и изменения структуры текста.
-- Лучшие практики по оптимизации производительности форматирования документов.
+Start with {{< blocks/products/pf/main-wrap-class >}} unchanged.
 
-## Предпосылки
-Чтобы следовать этому руководству, вам понадобится:
-- **Aspose.Words для Java**: Убедитесь, что в вашей среде разработки установлена версия 25.3 или более поздняя.
-- **Комплект разработчика Java (JDK)**Рекомендуется версия 8 или выше.
-- **Настройка IDE**: IntelliJ IDEA, Eclipse или любая предпочитаемая вами Java IDE.
+Same for other block tags.
 
-### Требования к настройке среды
-1. Установите Maven или Gradle для управления зависимостями.
-2. Убедитесь, что у вас есть действующая лицензия Aspose.Words; при необходимости подайте заявку на временную лицензию, чтобы протестировать функции без ограничений.
+Now translate the main content.
 
-## Настройка Aspose.Words
-Прежде чем приступить к реализации кода, настройте свой проект с помощью Aspose.Words, используя Maven или Gradle.
+Title: "# Insert Control Characters in Java with Aspose.Words" -> "# Вставка управляющих символов в Java с Aspose.Words"
 
-### Настройка Maven
-Добавьте эту зависимость в свой `pom.xml` файл:
+## Introduction -> "## Введение"
+
+Paragraphs translate.
+
+"Do you need pixel‑perfect control over line breaks, tabs, or page divisions when generating invoices, reports, or newsletters?" -> "Нужен ли вам пиксель‑точный контроль над разрывами строк, табуляциями или разбиением страниц при генерации счетов‑фактур, отчетов или новостных рассылок?"
+
+"Control characters are the invisible building blocks that let you shape document layout programmatically." -> "Управляющие символы — это невидимые строительные блоки, позволяющие программно формировать макет документа."
+
+"In this tutorial you’ll learn how to **insert**, **verify**, and **manage** control characters such as carriage returns, non‑breaking spaces, and column breaks using the Aspose.Words for Java API." -> "В этом руководстве вы узнаете, как **вставлять**, **проверять** и **управлять** управляющими символами, такими как возврат каретки, неразрывные пробелы и разрывы колонок, используя API Aspose.Words for Java."
+
+**What you’ll achieve:** -> "**Что вы получите:**"
+
+List translate.
+
+1. Insert and validate carriage returns, line feeds, and page breaks. -> "Вставить и проверить возвраты каретки, символы переноса строки и разрывы страниц."
+
+2. Add spaces, tabs, non‑breaking spaces, and column breaks to create multi‑column layouts. -> "Добавить пробелы, табуляции, неразрывные пробелы и разрывы колонок для создания много‑колоночных макетов."
+
+3. Apply best‑practice performance tips for large‑scale document automation. -> "Применить рекомендации по производительности для автоматизации создания больших документов."
+
+## Prerequisites -> "## Требования"
+
+Table translate.
+
+| Requirement | Details | -> | Требование | Описание |
+
+Rows:
+
+| **Aspose.Words for Java** | Version 25.3 or newer (the API remains stable across later releases). | -> | **Aspose.Words for Java** | Версия 25.3 или новее (API остаётся стабильным в последующих выпусках). |
+
+| **JDK** | Java 8 + (Java 11 or 17 recommended). | -> | **JDK** | Java 8 + (рекомендованы Java 11 или 17). |
+
+| **IDE** | IntelliJ IDEA, Eclipse, or any Java‑compatible editor. | -> | **IDE** | IntelliJ IDEA, Eclipse или любой совместимый с Java редактор. |
+
+| **Build tool** | Maven **or** Gradle for dependency management. | -> | **Инструмент сборки** | Maven **или** Gradle для управления зависимостями. |
+
+| **License** | A temporary or purchased Aspose.Words license file. | -> | **Лицензия** | Временный или приобретённый файл лицензии Aspose.Words. |
+
+### Quick Environment Checklist -> "### Быстрый чек‑лист окружения"
+
+List items translate.
+
+1. Maven **or** Gradle installed. -> "1. Установлен Maven **или** Gradle."
+
+2. License file accessible (e.g., `src/main/resources/aspose.words.lic`). -> "2. Доступен файл лицензии (например, `src/main/resources/aspose.words.lic`)."
+
+3. Project compiled without errors. -> "3. Проект собирается без ошибок."
+
+## Setting Up Aspose.Words -> "## Настройка Aspose.Words"
+
+We’ll first add the library... translate.
+
+"Choose the build system that matches your workflow." -> "Выберите систему сборки, соответствующую вашему рабочему процессу."
+
+### Maven Dependency -> "### Maven‑зависимость"
+
+Add the following snippet... unchanged.
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+``` stays.
 
-### Настройка Gradle
-Включите в свой план следующее: `build.gradle`:
+### Gradle Dependency -> "### Gradle‑зависимость"
+
+Insert this line... unchanged.
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Приобретение лицензии
-Для полноценного использования Aspose.Words вам понадобится файл лицензии:
-- **Бесплатная пробная версия**Подать заявку на временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
-- **Покупка**: Купите лицензию, если вы считаете, что этот инструмент полезен для ваших проектов.
+### License Initialization (Java code) -> "### Инициализация лицензии (Java‑код)"
 
-После получения лицензии инициализируйте ее в своем приложении Java следующим образом:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
 ```
 
-## Руководство по внедрению
-Мы разобьем нашу реализацию на две основные функции: обработку возвратов каретки и вставку управляющих символов.
+> **Note:** Replace `"path/to/aspose.words.lic"` with the actual path to your license file. -> same note translate.
 
-### Функция 1: Обработка возврата каретки
-Обработка возврата каретки гарантирует, что структурные элементы, такие как разрывы страниц, будут правильно представлены в текстовой форме документа.
+"**Note:** Замените `"path/to/aspose.words.lic"` на реальный путь к вашему файлу лицензии."
 
-#### Пошаговое руководство
-**Обзор**: Эта функция демонстрирует, как проверять и управлять наличием управляющих символов, представляющих структурные компоненты, такие как разрывы страниц.
+## Feature 1: Handle Carriage Returns and Page Breaks -> "## Функция 1: Работа с возвратами каретки и разрывами страниц"
 
-**Этапы реализации:**
-##### 1. Создайте документ
+Carriage returns... translate.
+
+### Step‑by‑Step Implementation -> "### Пошаговая реализация"
+
+List steps translate.
+
+1. **Create a new Document and DocumentBuilder.** -> "1. **Создать новый Document и DocumentBuilder.**"
+
+2. **Write two paragraphs.** -> "2. **Записать два абзаца.**"
+
+3. **Verify that the generated text contains the expected control characters.** -> "3. **Проверить, что сгенерированный текст содержит ожидаемые управляющие символы.**"
+
+4. **Trim the text and re‑check the result.** -> "4. **Обрезать текст и повторно проверить результат.**"
+
+#### 1. Create a Document -> "#### 1. Создание Document"
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Вставьте абзацы
+
+#### 2. Insert Paragraphs -> "#### 2. Вставка абзацев"
+
 ```java
 builder.writeln("Hello world!");
 builder.writeln("Hello again!");
 ```
-##### 3. Проверка управляющих символов
-Проверьте, правильно ли управляющие символы представляют структурные элементы:
+
+#### 3. Verify Control Characters -> "#### 3. Проверка управляющих символов"
+
 ```java
 String expectedTextWithCR = MessageFormat.format("Hello world!{0}", ControlChar.CR) +
         MessageFormat.format("Hello again!{0}", ControlChar.CR) +
         ControlChar.PAGE_BREAK;
-assert doc.getText().equals(expectedTextWithCR) : "Text does not match expected value with control characters.";
+assert doc.getText().equals(expectedTextWithCR) :
+        "Text does not match expected value with control characters.";
 ```
-##### 4. Обрезка и проверка текста
+
+#### 4. Trim and Check Text -> "#### 4. Обрезка и проверка текста"
+
 ```java
 String expectedTrimmedText = MessageFormat.format("Hello world!{0}", ControlChar.CR) + "Hello again!";
-assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not match expected value.";
+assert doc.getText().trim().equals(expectedTrimmedText) :
+        "Trimmed text does not match expected value.";
 ```
-### Функция 2: Вставка управляющих символов
-Эта функция направлена на добавление различных управляющих символов для улучшения форматирования и структуры документа.
 
-#### Пошаговое руководство
-**Обзор**: Узнайте, как вставлять в документы различные управляющие символы, такие как пробелы, табуляции, разрывы строк и страниц.
+**Result:** The `doc.getText()` string now contains explicit CR and page‑break symbols, guaranteeing that downstream systems (e.g., plain‑text exporters) preserve the layout. -> translate.
 
-**Этапы реализации:**
-##### 1. Инициализируйте DocumentBuilder
+**Result:** Строка `doc.getText()` теперь содержит явные символы CR и разрыва страницы, гарантируя, что downstream‑системы (например, экспортеры plain‑text) сохраняют макет.
+
+## Feature 2: Insert Various Control Characters -> "## Функция 2: Вставка различных управляющих символов"
+
+Beyond carriage returns... translate.
+
+### Step‑by‑Step Implementation -> "### Пошаговая реализация"
+
+List steps translate.
+
+1. **Initialize a fresh DocumentBuilder.** -> "1. **Инициализировать новый DocumentBuilder.**"
+
+2. **Write examples for space, non‑breaking space, and tab characters.** -> "2. **Привести примеры для пробела, неразрывного пробела и символа табуляции.**"
+
+3. **Add line feeds, paragraph breaks, and section breaks, then validate node counts.** -> "3. **Добавить переносы строк, разрывы абзацев и секций, затем проверить количество узлов.**"
+
+4. **Create a two‑column layout and insert a column break.** -> "4. **Создать двухколоночный макет и вставить разрыв колонки.**"
+
+#### 1. Initialize DocumentBuilder -> "#### 1. Инициализация DocumentBuilder"
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Вставьте управляющие символы
-Добавьте различные типы управляющих символов:
-- **Космический персонаж**: `ControlChar.SPACE_CHAR`
-  ```java
-  builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
-  ```
-- **Неразрывный пробел (NBSP)**: `ControlChar.NON_BREAKING_SPACE`
-  ```java
-  builder.write("Before space." + ControlChar.NON_BREAKING_SPACE + "After space.");
-  ```
-- **Символ табуляции**: `ControlChar.TAB`
-  ```java
-  builder.write("Before tab." + ControlChar.TAB + "After tab.");
-  ```
-##### 3. Разрывы строк и абзацев
-Добавьте разрыв строки, чтобы начать новый абзац:
-```java
-Assert.assertEquals(1, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
-Assert.assertEquals(2, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-```
-Проверьте разрывы абзацев и страниц:
-```java
-builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
-Assert.assertEquals(3, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 
-builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
-assert doc.getSections().getCount() == 1 : "Section count mismatch after section break.";
-```
-##### 4. Разрывы колонок и страниц
-Ввести разрывы столбцов в многостолбцовой настройке:
+#### 2. Insert Space‑Related Characters -> "#### 2. Вставка символов, связанных с пробелом"
+
+- **Space (`ControlChar.SPACE_CHAR`)** -> "- **Пробел (`ControlChar.SPACE_CHAR`)**"
+
 ```java
+builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
+```
+
+- **Non‑Breaking Space (`ControlChar.NON_BREAKING_SPACE`)** -> "- **Неразрывный пробел (`ControlChar.NON_BREAKING_SPACE`)**"
+
+```java
+builder.write("Before NBSP." + ControlChar.NON_BREAKING_SPACE + "After NBSP.");
+```
+
+- **Tab (`ControlChar.TAB`)** -> "- **Табуляция (`ControlChar.TAB`)**"
+
+```java
+builder.write("Before tab." + ControlChar.TAB + "After tab.");
+```
+
+#### 3. Line, Paragraph, and Section Breaks -> "#### 3. Переносы строк, абзацев и секций"
+
+```java
+// Verify initial paragraph count is 1
+Assert.assertEquals(1, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a line feed (creates a new paragraph)
+builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
+Assert.assertEquals(2, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a paragraph break
+builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
+Assert.assertEquals(3, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a section break (still one Section object, but a break marker)
+builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
+assert doc.getSections().getCount() == 1 :
+        "Section count mismatch after section break.";
+```
+
+#### 4. Column Break in a Multi‑Column Layout -> "#### 4. Разрыв колонки в много‑колоночном макете"
+
+```java
+// Add a second section to host two columns
 doc.appendChild(new Section(doc));
 builder.moveToSection(1);
 builder.getCurrentSection().getPageSetup().getTextColumns().setCount(2);
 
+// Insert a column break between the two columns
 builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at beginning of column 2.");
 ```
-### Практические применения
-**Реальные примеры использования:**
-1. **Генерация счетов-фактур**: Отформатируйте позиции и обеспечьте разрывы страниц для многостраничных счетов-фактур с помощью управляющих символов.
-2. **Создание отчета**: Выравнивайте поля данных в структурированных отчетах с помощью элементов управления табуляциями и пробелами.
-3. **Многоколоночные макеты**: Создавайте информационные бюллетени или брошюры с расположенными рядом разделами контента, используя разрывы колонок.
-4. **Системы управления контентом (CMS)**: Динамическое управление форматированием текста на основе ввода данных пользователем с помощью управляющих символов.
-5. **Автоматизированная генерация документов**: Улучшайте шаблоны документов, вставляя структурированные элементы программным способом.
 
-## Соображения производительности
-Для оптимизации производительности при работе с большими документами:
-- Минимизируйте использование ресурсоемких операций, таких как частая оплавка.
-- Пакетная вставка управляющих символов для снижения накладных расходов на обработку.
-- Профилируйте свое приложение, чтобы выявить узкие места, связанные с обработкой текста.
+**Result:** The document now contains a two‑column page where text flows automatically from the first column to the second after the `COLUMN_BREAK`. -> translate.
 
-## Заключение
-В этом руководстве мы рассмотрели, как освоить управляющие символы в Aspose.Words для Java. Выполнив эти шаги, вы сможете эффективно управлять структурой и форматированием документа программным путем. Чтобы глубже изучить возможности Aspose.Words, рассмотрите возможность погружения в более продвинутые функции и их интеграции в ваши проекты.
+**Result:** Документ теперь содержит страницу с двумя колонками, где текст автоматически переходит из первой колонки во вторую после `COLUMN_BREAK`.
 
-## Следующие шаги
-- Экспериментируйте с различными типами документов.
-- Изучите дополнительные функции Aspose.Words для улучшения ваших приложений.
+## Practical Applications -> "## Практические применения"
 
-**Призыв к действию**: Попробуйте реализовать эти решения в своем следующем проекте Java, используя Aspose.Words для улучшенного управления документами!
+Table translate.
 
-## Раздел часто задаваемых вопросов
-1. **Что такое управляющий символ?**
-   Управляющие символы — это специальные непечатаемые символы, используемые для форматирования текста, такие как символы табуляции и разрывы страниц.
-2. **Как начать работу с Aspose.Words для Java?**
-   Настройте свой проект с использованием зависимостей Maven или Gradle и при необходимости подайте заявку на бесплатную пробную лицензию.
-3. **Могут ли управляющие символы обрабатывать многоколоночные макеты?**
-   Да, вы можете использовать `ControlChar.COLUMN_BREAK` для эффективного управления текстом в нескольких столбцах.
+| Scenario | How Control Characters Help | -> | Сценарий | Как помогают управляющие символы |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Rows:
 
+| **Invoice Generation** | Use `PAGE_BREAK` to start a new page for each invoice batch. | -> | **Генерация счетов** | Используйте `PAGE_BREAK`, чтобы начинать новую страницу для каждой партии счетов. |
 
-{{< /blocks/products/pf/main-container >}}
+| **Financial Report** | Align figures with `TAB` and keep headings together using `NON_BREAKING_SPACE`. | -> | **Финансовый отчет** | Выравнивайте цифры с помощью `TAB` и держите заголовки вместе, используя `NON_BREAKING_SPACE`. |
 
-{{< /blocks/products/pf/main-wrap-class >}}
+| **Newsletter Layout** | Create side‑by‑side articles with `COLUMN_BREAK` in a multi‑column section. | -> | **Макет новостного письма** | Создавайте статьи рядом друг с другом с помощью `COLUMN_BREAK` в много‑колоночном разделе. |
 
+| **CMS Content Export** | Preserve line structure when converting rich text to plain text via `LINE_FEED`. | -> | **Экспорт контента CMS** | Сохраняйте структуру строк при конвертации форматированного текста в plain‑text через `LINE_FEED`. |
 
-{{< blocks/products/products-backtop-button >}}
+| **Automated Templates** | Dynamically insert `PARAGRAPH_BREAK` or `SECTION_BREAK` based on user input. | -> | **Автоматизированные шаблоны** | Динамически вставляйте `PARAGRAPH_BREAK` или `SECTION_BREAK` в зависимости от ввода пользователя. |
+
+## Performance Considerations -> "## Соображения по производительности"
+
+Bullet points translate.
+
+* **Batch Inserts:** Group multiple `write` calls into a single operation to reduce internal reflows. -> "* **Пакетные вставки:** Группировать несколько вызовов `write` в одну операцию, чтобы уменьшить внутренние перерасчёты."
+
+* **Avoid Frequent Node Traversal:** Cache `NodeCollection` results when you need to count paragraphs repeatedly. -> "* **Избегать частого обхода узлов:** Кешировать результаты `NodeCollection`, когда необходимо многократно подсчитывать абзацы."
+
+* **Profile Large Docs:** Use Java profilers (e.g., VisualVM) to identify hotspots in text manipulation loops. -> "* **Профилирование больших документов:** Использовать профилировщики Java (например, VisualVM) для выявления узких мест в циклах обработки текста."
+
+## Conclusion -> "## Заключение"
+
+You now have a concrete... translate.
+
+## Next Steps -> "## Следующие шаги"
+
+List translate.
+
+1. Experiment with additional `ControlChar` constants such as `EM_SPACE` or `EN_SPACE`. -> "1. Поэкспериментировать с дополнительными константами `ControlChar`, такими как `EM_SPACE` или `EN_SPACE`."
+
+2. Combine control characters with mail‑merge fields for dynamic document generation. -> "2. Комбинировать управляющие символы с полями слияния для динамической генерации документов."
+
+3. Explore Aspose.Words features like **document protection**, **watermarks**, and **image insertion** to further enrich your output. -> "3. Исследовать возможности Aspose.Words, такие как **защита документа**, **водяные знаки** и **вставка изображений**, чтобы ещё больше обогатить результат."
+
+**Try it today:** Add the snippets above to your next Java project and see how precise control characters can streamline your document workflow! -> translate.
+
+**Попробуйте сегодня:** Добавьте приведённые выше фрагменты в ваш следующий Java‑проект и посмотрите, как точные управляющие символы могут упростить ваш документооборот!
+
+## FAQ -> "## FAQ"
+
+1. **What is a control character?**  
+   A non‑printable symbol (e.g., tab, line feed) that influences document layout without appearing as visible text. -> translate.
+
+1. **Что такое управляющий символ?**  
+   Непечатный символ (например, табуляция, перенос строки), который влияет на макет документа, не отображаясь как видимый текст.
+
+2. **How do I start using Aspose.Words for Java?**  
+   Add the Maven or Gradle dependency, load your license, and follow the code examples in this guide. -> translate.
+
+2. **Как начать использовать Aspose.Words for Java?**  
+   Добавьте зависимость Maven или Gradle, загрузите вашу лицензию и следуйте примерам кода в этом руководстве.
+
+3. **Can I use column

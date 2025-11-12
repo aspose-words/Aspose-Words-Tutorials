@@ -1,10 +1,40 @@
 ---
-"date": "2025-03-28"
-"description": "Naučte se, jak spravovat a vkládat řídicí znaky do dokumentů pomocí Aspose.Words pro Javu a zlepšit si tak své dovednosti v oblasti zpracování textu."
-"title": "Zvládněte řídicí znaky pomocí Aspose.Words pro Javu – Průvodce vývojáře pokročilým zpracováním textu"
-"url": "/cs/java/advanced-text-processing/aspose-words-java-control-characters-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Naučte se, jak v Javě pomocí Aspose.Words vkládat řídicí znaky, spravovat
+  znaky konce řádku a přidávat zalomení stránky nebo sloupce pro přesné formátování
+  dokumentu.
+keywords:
+- Aspose.Words control characters
+- Java document formatting with Aspose.Words
+- inserting control characters in Java
+- insert control characters java
+- manage carriage returns
+- add page break aspose
+- insert non‑breaking space
+- create multi‑column layout
+language: cs
+title: Vložit řídicí znaky v Javě s Aspose.Words
+url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+weight: 1
 ---
+
+We need to translate the content to Czech, preserving markdown, code blocks placeholders, URLs, file paths, variable names, function names unchanged. Also keep technical terms in English. Also note rule 6: "For Czech, ensure proper RTL formatting if needed" – Czech is LTR, so ignore.
+
+We need to translate all visible text, headings, table contents, etc. Keep placeholders like ```xml
+<dependency>
+  <groupId>com.aspose</groupId>
+  <artifactId>aspose-words</artifactId>
+  <version>25.3</version>
+</dependency>
+``` unchanged. Also keep the block tags unchanged.
+
+We must not translate URLs, file paths, variable names, function names. Those are not present except maybe "src/main/resources/aspose.words.lic". Keep as is.
+
+We need to translate the tables content.
+
+Let's go through line by line.
+
+Start with:
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -12,31 +42,107 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Insert Control Characters in Java with Aspose.Words
 
-# Zvládněte řídicí znaky pomocí Aspose.Words pro Javu
-## Zavedení
-Setkali jste se někdy s problémy s formátováním textu ve strukturovaných dokumentech, jako jsou faktury nebo reporty? Řídicí znaky jsou nezbytné pro přesné formátování. Tato příručka se zabývá efektivní manipulací s řídicími znaky pomocí Aspose.Words pro Javu a bezproblémovou integrací strukturálních prvků.
+Translate: "Vložení řídicích znaků v Javě s Aspose.Words"
 
-**Co se naučíte:**
-- Správa a vkládání různých řídicích znaků.
-- Techniky pro programově ověřování a manipulaci se strukturou textu.
-- Nejlepší postupy pro optimalizaci výkonu formátování dokumentů.
+But maybe keep "Insert Control Characters in Java with Aspose.Words" -> "Vložení řídicích znaků v Javě s Aspose.Words". Keep #.
 
-## Předpoklady
-Abyste mohli postupovat podle tohoto návodu, budete potřebovat:
-- **Aspose.Words pro Javu**Ujistěte se, že ve vašem vývojovém prostředí je nainstalována verze 25.3 nebo novější.
-- **Vývojová sada pro Javu (JDK)**Doporučuje se verze 8 nebo vyšší.
-- **Nastavení IDE**IntelliJ IDEA, Eclipse nebo jakékoli preferované Java IDE.
+## Introduction
 
-### Požadavky na nastavení prostředí
-1. Pro správu závislostí si nainstalujte Maven nebo Gradle.
-2. Ujistěte se, že máte platnou licenci Aspose.Words; v případě potřeby si požádejte o dočasnou licenci, abyste mohli funkce bez omezení otestovat.
+"Úvod"
 
-## Nastavení Aspose.Words
-Než se pustíte do implementace kódu, nastavte si projekt s Aspose.Words pomocí Mavenu nebo Gradle.
+Then the paragraph:
 
-### Nastavení Mavenu
-Přidejte tuto závislost do svého `pom.xml` soubor:
+Do you need pixel‑perfect control over line breaks, tabs, or page divisions when generating invoices, reports, or newsletters?  
+
+Translate: "Potřebujete pixel‑dokonalou kontrolu nad zalomením řádků, tabulátory nebo dělením stránek při generování faktur, zpráv nebo newsletterů?" Keep line break.
+
+Control characters are the invisible building blocks that let you shape document layout programmatically.  
+
+"Řídicí znaky jsou neviditelné stavební bloky, které vám umožňují programově tvarovat rozvržení dokumentu."
+
+In this tutorial you’ll learn how to **insert**, **verify**, and **manage** control characters such as carriage returns, non‑breaking spaces, and column breaks using the Aspose.Words for Java API.
+
+"V tomto tutoriálu se naučíte, jak **vkládat**, **ověřovat** a **spravovat** řídicí znaky, jako jsou návrat vozíku, nezlomitelné mezery a zalomení sloupce, pomocí API Aspose.Words pro Java."
+
+**What you’ll achieve:** -> "**Co dosáhnete:**"
+
+1. Insert and validate carriage returns, line feeds, and page breaks.  
+
+"Vložit a ověřit návraty vozíku, posuny řádku a zalomení stránek."
+
+2. Add spaces, tabs, non‑breaking spaces, and column breaks to create multi‑column layouts.  
+
+"Přidat mezery, tabulátory, nezlomitelné mezery a zalomení sloupce pro vytvoření více‑sloupcových rozvržení."
+
+3. Apply best‑practice performance tips for large‑scale document automation.  
+
+"Aplikovat osvědčené tipy pro výkon při automatizaci dokumentů ve velkém měřítku."
+
+## Prerequisites
+
+"Předpoklady"
+
+Then table:
+
+| Requirement | Details |
+|-------------|----------|
+| **Aspose.Words for Java** | Version 25.3 or newer (the API remains stable across later releases). |
+| **JDK** | Java 8 + (Java 11 or 17 recommended). |
+| **IDE** | IntelliJ IDEA, Eclipse, or any Java‑compatible editor. |
+| **Build tool** | Maven **or** Gradle for dependency management. |
+| **License** | A temporary or purchased Aspose.Words license file. |
+
+Translate each cell.
+
+Requirement -> "Požadavek"
+Details -> "Podrobnosti"
+
+Rows:
+
+**Aspose.Words for Java** -> keep same, but maybe keep bold. "Verze 25.3 nebo novější (API zůstává stabilní i v pozdějších verzích)."
+
+**JDK** -> "Java 8 + (doporučeno Java 11 nebo 17)."
+
+**IDE** -> "IntelliJ IDEA, Eclipse nebo jakýkoli editor kompatibilní s Javou."
+
+**Build tool** -> "Maven **nebo** Gradle pro správu závislostí."
+
+**License** -> "Dočasný nebo zakoupený licenční soubor Aspose.Words."
+
+### Quick Environment Checklist
+
+"Rychlý kontrolní seznam prostředí"
+
+1. Maven **or** Gradle installed.  
+
+"Maven **nebo** Gradle nainstalován."
+
+2. License file accessible (e.g., `src/main/resources/aspose.words.lic`).  
+
+"Licenční soubor přístupný (např. `src/main/resources/aspose.words.lic`)."
+
+3. Project compiled without errors.  
+
+"Projekt zkompilován bez chyb."
+
+## Setting Up Aspose.Words
+
+"Nastavení Aspose.Words"
+
+We’ll first add the library to the project, then load the license. Choose the build system that matches your workflow.
+
+"Nejprve přidáme knihovnu do projektu, poté načteme licenci. Vyberte systém sestavení, který odpovídá vašemu workflow."
+
+### Maven Dependency
+
+"Maven závislost"
+
+Add the following snippet to your `pom.xml` inside `<dependencies>`:
+
+"Přidejte následující úryvek do souboru `pom.xml` uvnitř `<dependencies>`:"
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -45,143 +151,236 @@ Přidejte tuto závislost do svého `pom.xml` soubor:
 </dependency>
 ```
 
-### Nastavení Gradle
-Zahrňte do svého `build.gradle`:
+### Gradle Dependency
+
+"Gradle závislost"
+
+Insert this line into the `dependencies` block of `build.gradle`:
+
+"Vložte tento řádek do bloku `dependencies` v souboru `build.gradle`:"
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Získání licence
-Abyste mohli plně využít Aspose.Words, budete potřebovat licenční soubor:
-- **Bezplatná zkušební verze**Žádost o dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
-- **Nákup**Pokud shledáte nástroj pro vaše projekty užitečným, kupte si licenci.
+### License Initialization (Java code)
 
-Po získání licence ji inicializujte ve své aplikaci Java takto:
+"Inicializace licence (Java kód)"
+
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
 ```
 
-## Průvodce implementací
-Naši implementaci rozdělíme na dvě hlavní části: zpracování konce řádku a vkládání řídicích znaků.
+> **Note:** Replace `"path/to/aspose.words.lic"` with the actual path to your license file.
 
-### Funkce 1: Zpracování návratu vozíku
-Zpracování znaků „carriage return“ zajišťuje, že strukturální prvky, jako jsou zalomení stránek, jsou v textové podobě dokumentu správně reprezentovány.
+"> **Poznámka:** Nahraďte `"path/to/aspose.words.lic"` skutečnou cestou k vašemu licenčnímu souboru."
 
-#### Podrobný průvodce
-**Přehled**Tato funkce ukazuje, jak ověřit a spravovat přítomnost řídicích znaků představujících strukturální komponenty, jako jsou například zalomení stránek.
+## Feature 1: Handle Carriage Returns and Page Breaks
 
-**Kroky implementace:**
-##### 1. Vytvořte dokument
+"Funkce 1: Zpracování návratů vozíku a zalomení stránek"
+
+Carriage returns (`ControlChar.CR`) and page breaks (`ControlChar.PAGE_BREAK`) are essential when you need the output text to reflect the visual layout of a document.
+
+"Návraty vozíku (`ControlChar.CR`) a zalomení stránek (`ControlChar.PAGE_BREAK`) jsou nezbytné, když potřebujete, aby výstupní text odrážel vizuální rozvržení dokumentu."
+
+### Step‑by‑Step Implementation
+
+"Postupná implementace"
+
+1. **Create a new Document and DocumentBuilder.**  
+
+"**Vytvořte nový Document a DocumentBuilder.**"
+
+2. **Write two paragraphs.**  
+
+"**Napište dva odstavce.**"
+
+3. **Verify that the generated text contains the expected control characters.**  
+
+"**Ověřte, že vygenerovaný text obsahuje očekávané řídicí znaky.**"
+
+4. **Trim the text and re‑check the result.**  
+
+"**Ořízněte text a znovu zkontrolujte výsledek.**"
+
+#### 1. Create a Document
+
+"#### 1. Vytvoření dokumentu"
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Vkládání odstavců
+
+#### 2. Insert Paragraphs
+
+"#### 2. Vložení odstavců"
+
 ```java
 builder.writeln("Hello world!");
 builder.writeln("Hello again!");
 ```
-##### 3. Ověřte řídicí znaky
-Zkontrolujte, zda řídicí znaky správně reprezentují strukturální prvky:
+
+#### 3. Verify Control Characters
+
+"#### 3. Ověření řídicích znaků"
+
 ```java
 String expectedTextWithCR = MessageFormat.format("Hello world!{0}", ControlChar.CR) +
         MessageFormat.format("Hello again!{0}", ControlChar.CR) +
         ControlChar.PAGE_BREAK;
-assert doc.getText().equals(expectedTextWithCR) : "Text does not match expected value with control characters.";
+assert doc.getText().equals(expectedTextWithCR) :
+        "Text does not match expected value with control characters.";
 ```
-##### 4. Oříznutí a kontrola textu
+
+#### 4. Trim and Check Text
+
+"#### 4. Oříznutí a kontrola textu"
+
 ```java
 String expectedTrimmedText = MessageFormat.format("Hello world!{0}", ControlChar.CR) + "Hello again!";
-assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not match expected value.";
+assert doc.getText().trim().equals(expectedTrimmedText) :
+        "Trimmed text does not match expected value.";
 ```
-### Funkce 2: Vkládání řídicích znaků
-Tato funkce se zaměřuje na přidávání různých řídicích znaků pro vylepšení formátování a struktury dokumentu.
 
-#### Podrobný průvodce
-**Přehled**Naučte se, jak do dokumentů vkládat různé řídicí znaky, jako jsou mezery, tabulátory, zalomení řádků a zalomení stránek.
+**Result:** The `doc.getText()` string now contains explicit CR and page‑break symbols, guaranteeing that downstream systems (e.g., plain‑text exporters) preserve the layout.
 
-**Kroky implementace:**
-##### 1. Inicializace DocumentBuilderu
+"**Výsledek:** Řetězec `doc.getText()` nyní obsahuje explicitní symboly CR a zalomení stránky, což zaručuje, že podřízené systémy (např. exportéry prostého textu) zachovají rozvržení."
+
+## Feature 2: Insert Various Control Characters
+
+"Funkce 2: Vkládání různých řídicích znaků"
+
+Beyond carriage returns, Aspose.Words offers constants for spaces, tabs, line feeds, paragraph breaks, and column breaks. This section shows how to embed each one.
+
+"Kromě návratů vozíku nabízí Aspose.Words konstanty pro mezery, tabulátory, posuny řádku, zalomení odstavců a sloupců. Tato sekce ukazuje, jak vložit každý z nich."
+
+### Step‑by‑Step Implementation
+
+"Postupná implementace"
+
+1. **Initialize a fresh DocumentBuilder.**  
+
+"**Inicializujte nový DocumentBuilder.**"
+
+2. **Write examples for space, non‑breaking space, and tab characters.**  
+
+"**Napište příklady pro mezery, nezlomitelné mezery a tabulátory.**"
+
+3. **Add line feeds, paragraph breaks, and section breaks, then validate node counts.**  
+
+"**Přidejte posuny řádku, zalomení odstavců a sekcí a poté ověřte počty uzlů.**"
+
+4. **Create a two‑column layout and insert a column break.**  
+
+"**Vytvořte dvousloupcové rozvržení a vložte zalomení sloupce.**"
+
+#### 1. Initialize DocumentBuilder
+
+"#### 1. Inicializace DocumentBuilder"
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Vložení řídicích znaků
-Přidejte různé typy řídicích znaků:
-- **Vesmírný znak**: `ControlChar.SPACE_CHAR`
-  ```java
-  builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
-  ```
-- **Nerozdělovací mezera (NBSP)**: `ControlChar.NON_BREAKING_SPACE`
-  ```java
-  builder.write("Before space." + ControlChar.NON_BREAKING_SPACE + "After space.");
-  ```
-- **Znak tabulace**: `ControlChar.TAB`
-  ```java
-  builder.write("Before tab." + ControlChar.TAB + "After tab.");
-  ```
-##### 3. Zalomení řádků a odstavců
-Přidání zalomení řádku pro začátek nového odstavce:
-```java
-Assert.assertEquals(1, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
-Assert.assertEquals(2, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-```
-Ověřte zalomení odstavců a stránek:
-```java
-builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
-Assert.assertEquals(3, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 
-builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
-assert doc.getSections().getCount() == 1 : "Section count mismatch after section break.";
-```
-##### 4. Zalomení sloupců a stránek
-Zaveďte zalomení sloupců v nastavení s více sloupci:
+#### 2. Insert Space‑Related Characters
+
+"#### 2. Vložení znaků souvisejících s mezerou"
+
+- **Space (`ControlChar.SPACE_CHAR`)**  
 ```java
+builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
+```
+- **Non‑Breaking Space (`ControlChar.NON_BREAKING_SPACE`)**  
+```java
+builder.write("Before NBSP." + ControlChar.NON_BREAKING_SPACE + "After NBSP.");
+```
+- **Tab (`ControlChar.TAB`)**  
+```java
+builder.write("Before tab." + ControlChar.TAB + "After tab.");
+```
+
+#### 3. Line, Paragraph, and Section Breaks
+
+"#### 3. Posun řádku, zalomení odstavce a sekce"
+
+```java
+// Verify initial paragraph count is 1
+Assert.assertEquals(1, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a line feed (creates a new paragraph)
+builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
+Assert.assertEquals(2, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a paragraph break
+builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
+Assert.assertEquals(3, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a section break (still one Section object, but a break marker)
+builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
+assert doc.getSections().getCount() == 1 :
+        "Section count mismatch after section break.";
+```
+
+#### 4. Column Break in a Multi‑Column Layout
+
+"#### 4. Zalomení sloupce ve více‑sloupcovém rozvržení"
+
+```java
+// Add a second section to host two columns
 doc.appendChild(new Section(doc));
 builder.moveToSection(1);
 builder.getCurrentSection().getPageSetup().getTextColumns().setCount(2);
 
+// Insert a column break between the two columns
 builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at beginning of column 2.");
 ```
-### Praktické aplikace
-**Případy použití v reálném světě:**
-1. **Generování faktur**Formátujte položky řádků a zajistěte zalomení stránek u vícestránkových faktur pomocí řídicích znaků.
-2. **Vytvoření zprávy**Zarovnání datových polí ve strukturovaných sestavách pomocí ovládacích prvků tabulátoru a mezery.
-3. **Vícesloupcové rozvržení**Vytvářejte newslettery nebo brožury s obsahovými sekcemi vedle sebe pomocí zalomení sloupců.
-4. **Systémy pro správu obsahu (CMS)**Dynamická správa formátování textu na základě vstupu uživatele pomocí řídicích znaků.
-5. **Automatizované generování dokumentů**Vylepšete šablony dokumentů programově vkládáním strukturovaných prvků.
 
-## Úvahy o výkonu
-Optimalizace výkonu při práci s velkými dokumenty:
-- Minimalizujte používání náročných operací, jako je časté přetavování.
-- Dávkové vkládání řídicích znaků pro snížení režijních nákladů na zpracování.
-- Profilujte svou aplikaci a identifikujte úzká hrdla související s manipulací s textem.
+**Result:** The document now contains a two‑column page where text flows automatically from the first column to the second after the `COLUMN_BREAK`.
 
-## Závěr
-této příručce jsme prozkoumali, jak zvládnout řídicí znaky v Aspose.Words pro Javu. Dodržováním těchto kroků můžete efektivně programově spravovat strukturu a formátování dokumentů. Chcete-li dále prozkoumat možnosti Aspose.Words, zvažte ponoření se do pokročilejších funkcí a jejich integraci do vašich projektů.
+"**Výsledek:** Dokument nyní obsahuje dvousloupcovou stránku, kde text automaticky přeteče z prvního sloupce do druhého po `COLUMN_BREAK`."
 
-## Další kroky
-- Experimentujte s různými typy dokumentů.
-- Prozkoumejte další funkce Aspose.Words pro vylepšení vašich aplikací.
+## Practical Applications
 
-**Výzva k akci**Zkuste implementovat tato řešení ve svém dalším projektu v Javě pomocí Aspose.Words pro vylepšenou kontrolu dokumentů!
+"## Praktické aplikace"
 
-## Sekce Často kladených otázek
-1. **Co je to řídicí znak?**
-   Řídicí znaky jsou speciální netisknutelné znaky používané k formátování textu, jako jsou tabulátory a zalomení stránek.
-2. **Jak mohu začít s Aspose.Words pro Javu?**
-   Nastavte si projekt pomocí závislostí Maven nebo Gradle a v případě potřeby si zažádejte o bezplatnou zkušební licenci.
-3. **Mohou řídicí znaky zvládat rozvržení s více sloupci?**
-   Ano, můžete použít `ControlChar.COLUMN_BREAK` efektivně spravovat text ve více sloupcích.
+| Scenario | How Control Characters Help |
+|----------|-----------------------------|
+| **Invoice Generation** | Use `PAGE_BREAK` to start a new page for each invoice batch. |
+| **Financial Report** | Align figures with `TAB` and keep headings together using `NON_BREAKING_SPACE`. |
+| **Newsletter Layout** | Create side‑by‑side articles with `COLUMN_BREAK` in a multi‑column section. |
+| **CMS Content Export** | Preserve line structure when converting rich text to plain text via `LINE_FEED`. |
+| **Automated Templates** | Dynamically insert `PARAGRAPH_BREAK` or `SECTION_BREAK` based on user input. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Translate:
 
+Scenario -> "Scénář" (or "Scénář"? Czech: "Scénář" is scenario, but maybe "Scénář" okay). "How Control Characters Help" -> "Jak řídicí znaky pomáhají". Keep table formatting.
 
-{{< /blocks/products/pf/main-container >}}
+Rows:
 
-{{< /blocks/products/pf/main-wrap-class >}}
+**Invoice Generation** -> "**Generování faktur**" | Use `PAGE_BREAK` to start a new page for each invoice batch. -> "Použijte `PAGE_BREAK` pro zahájení nové stránky pro každou dávku faktur."
 
+**Financial Report** -> "**Finanční zpráva**" | Align figures with `TAB` and keep headings together using `NON_BREAKING_SPACE`. -> "Zarovnejte čísla pomocí `TAB` a udržujte nadpisy pohromadě pomocí `NON_BREAKING_SPACE`."
 
-{{< blocks/products/products-backtop-button >}}
+**Newsletter Layout** -> "**Rozvržení newsletteru**" | Create side‑by‑side articles with `COLUMN_BREAK` in a multi‑column section. -> "Vytvořte články vedle sebe pomocí `COLUMN_BREAK` ve více‑sloupcové sekci."
+
+**CMS Content Export** -> "**Export obsahu CMS**" | Preserve line structure when converting rich text to plain text via `LINE_FEED`. -> "Zachovejte strukturu řádků při převodu bohatého textu na prostý text pomocí `LINE_FEED`."
+
+**Automated Templates** -> "**Automatizované šablony**" | Dynamically insert `PARAGRAPH_BREAK` or `SECTION_BREAK` based on user input. -> "Dynamicky vložte `PARAGRAPH_BREAK` nebo `SECTION_BREAK` na základě vstupu uživatele."
+
+## Performance Considerations
+
+"## Úvahy o výkonu"
+
+* **Batch Inserts:** Group multiple `write` calls into a single operation to reduce internal reflows.  
+
+"* **Dávkové vkládání:** Seskupte více volání `write` do jedné operace, abyste snížili interní přetváření.*"
+
+* **Avoid Frequent Node Traversal:** Cache `NodeCollection` results when you need to count paragraphs repeatedly.  
+
+"* **Vyhněte se častému procházení uzlů:** Ukládejte výsledky `

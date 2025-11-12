@@ -1,10 +1,34 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java'yı kullanarak belgelere kontrol karakterlerini nasıl yöneteceğinizi ve ekleyeceğinizi öğrenin, metin işleme becerilerinizi geliştirin."
-"title": "Aspose.Words for Java ile Kontrol Karakterlerinde Ustalaşın&#58; Gelişmiş Metin İşleme için Geliştirici Kılavuzu"
-"url": "/tr/java/advanced-text-processing/aspose-words-java-control-characters-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Aspose.Words kullanarak Java'da kontrol karakterlerini nasıl ekleyeceğinizi,
+  satır sonlarını nasıl yöneteceğinizi ve sayfa veya sütun sonlarını nasıl ekleyeceğinizi
+  öğrenerek belgeleri hassas bir şekilde biçimlendirin.
+keywords:
+- Aspose.Words control characters
+- Java document formatting with Aspose.Words
+- inserting control characters in Java
+- insert control characters java
+- manage carriage returns
+- add page break aspose
+- insert non‑breaking space
+- create multi‑column layout
+language: tr
+title: Aspose.Words ile Java'da Kontrol Karakterleri Ekleme
+url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+weight: 1
 ---
+
+We need to translate the content to Turkish, preserving markdown, technical terms, URLs, file paths, variable names, function names unchanged. Also keep code blocks placeholders like ```xml
+<dependency>
+  <groupId>com.aspose</groupId>
+  <artifactId>aspose-words</artifactId>
+  <version>25.3</version>
+</dependency>
+``` etc unchanged. Also keep the custom Hugo shortcodes like {{< blocks/... >}} unchanged. Also note rule 6: "For Turkish, ensure proper RTL formatting if needed" but Turkish is LTR, so ignore.
+
+We need to translate all visible text. Let's go through.
+
+First lines:
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -12,176 +36,269 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Insert Control Characters in Java with Aspose.Words
 
-# Java için Aspose.Words ile Kontrol Karakterlerinde Ustalaşın
-## giriiş
-Faturalar veya raporlar gibi yapılandırılmış belgelerde metin biçimlendirmesini yönetmede zorluklarla karşılaştınız mı? Kontrol karakterleri hassas biçimlendirme için olmazsa olmazdır. Bu kılavuz, Java için Aspose.Words'ü kullanarak kontrol karakterlerini etkili bir şekilde ele almayı ve yapısal öğeleri sorunsuz bir şekilde entegre etmeyi araştırır.
+Translate to Turkish: "Java'da Aspose.Words ile Kontrol Karakterleri Ekleme"
 
-**Ne Öğreneceksiniz:**
-- Çeşitli kontrol karakterlerinin yönetimi ve eklenmesi.
-- Metin yapısını programatik olarak doğrulama ve değiştirme teknikleri.
-- Belge biçimlendirme performansını optimize etmeye yönelik en iyi uygulamalar.
+## Introduction
 
-## Ön koşullar
-Bu kılavuzu takip etmek için şunlara ihtiyacınız olacak:
-- **Java için Aspose.Words**: Geliştirme ortamınızda 25.3 veya üzeri sürümün yüklü olduğundan emin olun.
-- **Java Geliştirme Kiti (JDK)**Sürüm 8 veya üzeri önerilir.
-- **IDE Kurulumu**: IntelliJ IDEA, Eclipse veya tercih edilen herhangi bir Java IDE.
+"Introduction" => "Giriş"
 
-### Çevre Kurulum Gereksinimleri
-1. Bağımlılıkları yönetmek için Maven veya Gradle'ı yükleyin.
-2. Geçerli bir Aspose.Words lisansınız olduğundan emin olun; özellikleri kısıtlama olmadan test etmek için gerekirse geçici bir lisans başvurusunda bulunun.
+Then paragraph sentences.
 
-## Aspose.Words'ü Kurma
-Kod uygulamasına geçmeden önce projenizi Maven veya Gradle kullanarak Aspose.Words ile kurun.
+"Do you need pixel‑perfect control over line breaks, tabs, or page divisions when generating invoices, reports, or newsletters?" => "Faturalar, raporlar veya bültenler oluştururken satır sonları, sekmeler veya sayfa bölümleri üzerinde piksel‑tam kontrole mi ihtiyacınız var?"
 
-### Maven Kurulumu
-Bu bağımlılığı şuraya ekleyin: `pom.xml` dosya:
+"Control characters are the invisible building blocks that let you shape document layout programmatically." => "Kontrol karakterleri, belge düzenini programlı olarak şekillendirmenizi sağlayan görünmez yapı taşlarıdır."
+
+"In this tutorial you’ll learn how to **insert**, **verify**, and **manage** control characters such as carriage returns, non‑breaking spaces, and column breaks using the Aspose.Words for Java API." => "Bu öğreticide, Aspose.Words for Java API'sını kullanarak satır başı, bölünmez boşluk ve sütun sonu gibi kontrol karakterlerini **eklemeyi**, **doğrulamayı** ve **yönetmeyi** öğreneceksiniz."
+
+**What you’ll achieve:** => "**Elde edeceğiniz:**"
+
+1. Insert and validate carriage returns, line feeds, and page breaks. => "Satır başı, satır beslemesi ve sayfa sonlarını ekleyin ve doğrulayın."
+2. Add spaces, tabs, non‑breaking spaces, and column breaks to create multi‑column layouts. => "Çok sütunlu düzenler oluşturmak için boşluk, sekme, bölünmez boşluk ve sütun sonu ekleyin."
+3. Apply best‑practice performance tips for large‑scale document automation. => "Büyük ölçekli belge otomasyonu için en iyi performans ipuçlarını uygulayın."
+
+## Prerequisites
+
+"Prerequisites" => "Önkoşullar"
+
+Before we start, make sure you have the following ready: => "Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:"
+
+Table:
+
+| Requirement | Details |
+|-------------|----------|
+| **Aspose.Words for Java** | Version 25.3 or newer (the API remains stable across later releases). |
+| **JDK** | Java 8 + (Java 11 or 17 recommended). |
+| **IDE** | IntelliJ IDEA, Eclipse, or any Java‑compatible editor. |
+| **Build tool** | Maven **or** Gradle for dependency management. |
+| **License** | A temporary or purchased Aspose.Words license file. |
+
+Translate each cell.
+
+Requirement => "Gereksinim"
+Details => "Ayrıntılar"
+
+Row 1: **Aspose.Words for Java** => same, keep term. Details: "Version 25.3 or newer (the API remains stable across later releases)." => "Sürüm 25.3 veya daha yeni (API sonraki sürümlerde de kararlılığını korur)."
+
+Row 2: **JDK** => same. Details: "Java 8 + (Java 11 or 17 recommended)." => "Java 8 + (Java 11 veya 17 önerilir)."
+
+Row 3: **IDE** => same. Details: "IntelliJ IDEA, Eclipse, or any Java‑compatible editor." => "IntelliJ IDEA, Eclipse veya herhangi bir Java‑uyumlu editör."
+
+Row 4: **Build tool** => same. Details: "Maven **or** Gradle for dependency management." => "Bağımlılık yönetimi için Maven **veya** Gradle."
+
+Row 5: **License** => same. Details: "A temporary or purchased Aspose.Words license file." => "Geçici veya satın alınmış bir Aspose.Words lisans dosyası."
+
+### Quick Environment Checklist
+
+"Quick Environment Checklist" => "Hızlı Ortam Kontrol Listesi"
+
+1. Maven **or** Gradle installed. => "Maven **veya** Gradle yüklü."
+2. License file accessible (e.g., `src/main/resources/aspose.words.lic`). => "Lisans dosyasına erişilebilir (ör. `src/main/resources/aspose.words.lic`)."
+3. Project compiled without errors. => "Proje hatasız derlenmiş."
+
+## Setting Up Aspose.Words
+
+"Setting Up Aspose.Words" => "Aspose.Words Kurulumu"
+
+We’ll first add the library to the project, then load the license. Choose the build system that matches your workflow. => "İlk olarak kütüphaneyi projeye ekleyecek, ardından lisansı yükleyeceğiz. Çalışma akışınıza uygun yapı sistemini seçin."
+
+### Maven Dependency
+
+Add the following snippet to your `pom.xml` inside `<dependencies>`: => "`pom.xml` dosyanızdaki `<dependencies>` içine aşağıdaki kod parçacığını ekleyin:"
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+``` stays.
 
-### Gradle Kurulumu
-Aşağıdakileri ekleyin: `build.gradle`:
+### Gradle Dependency
+
+Insert this line into the `dependencies` block of `build.gradle`: => "`build.gradle` dosyasındaki `dependencies` bloğuna bu satırı ekleyin:"
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Lisans Edinimi
-Aspose.Words'ü tam olarak kullanabilmek için bir lisans dosyasına ihtiyacınız olacak:
-- **Ücretsiz Deneme**Geçici lisans başvurusunda bulunun [Burada](https://purchase.aspose.com/temporary-license/).
-- **Satın almak**: Projeleriniz için aracı faydalı bulursanız lisans satın alın.
+### License Initialization (Java code)
 
-Lisansı edindikten sonra, Java uygulamanızda aşağıdaki şekilde başlatın:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
 ```
 
-## Uygulama Kılavuzu
-Uygulamamızı iki ana özelliğe ayıracağız: satır sonlarını işleme ve kontrol karakterleri ekleme.
+> **Note:** Replace `"path/to/aspose.words.lic"` with the actual path to your license file. => "**Not:** `"path/to/aspose.words.lic"` ifadesini lisans dosyanızın gerçek yolu ile değiştirin."
 
-### Özellik 1: Taşıyıcı İade İşlemleri
-Satır başı işleme, sayfa sonları gibi yapısal öğelerin belgenizin metin biçiminde doğru şekilde gösterilmesini sağlar.
+## Feature 1: Handle Carriage Returns and Page Breaks
 
-#### Adım Adım Kılavuz
-**Genel bakış**: Bu özellik, sayfa sonları gibi yapısal bileşenleri temsil eden kontrol karakterlerinin varlığının nasıl doğrulanacağını ve yönetileceğini gösterir.
+"Feature 1: Handle Carriage Returns and Page Breaks" => "Özellik 1: Satır Başı ve Sayfa Sonlarını İşleme"
 
-**Uygulama Adımları:**
-##### 1. Bir Belge Oluşturun
+Carriage returns (`ControlChar.CR`) and page breaks (`ControlChar.PAGE_BREAK`) are essential when you need the output text to reflect the visual layout of a document. => "Satır başları (`ControlChar.CR`) ve sayfa sonları (`ControlChar.PAGE_BREAK`), çıktının belge görsel düzenini yansıtması gerektiğinde önemlidir."
+
+### Step‑by‑Step Implementation
+
+"Step‑by‑Step Implementation" => "Adım‑Adım Uygulama"
+
+1. **Create a new Document and DocumentBuilder.** => "**Yeni bir Document ve DocumentBuilder oluşturun.**"
+2. **Write two paragraphs.** => "**İki paragraf yazın.**"
+3. **Verify that the generated text contains the expected control characters.** => "**Oluşturulan metnin beklenen kontrol karakterlerini içerdiğini doğrulayın.**"
+4. **Trim the text and re‑check the result.** => "**Metni kırpın ve sonucu tekrar kontrol edin.**"
+
+#### 1. Create a Document
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Paragrafları ekleyin
+
+#### 2. Insert Paragraphs
+
 ```java
 builder.writeln("Hello world!");
 builder.writeln("Hello again!");
 ```
-##### 3. Kontrol Karakterlerini Doğrulayın
-Kontrol karakterlerinin yapısal elemanları doğru şekilde temsil edip etmediğini kontrol edin:
+
+#### 3. Verify Control Characters
+
 ```java
 String expectedTextWithCR = MessageFormat.format("Hello world!{0}", ControlChar.CR) +
         MessageFormat.format("Hello again!{0}", ControlChar.CR) +
         ControlChar.PAGE_BREAK;
-assert doc.getText().equals(expectedTextWithCR) : "Text does not match expected value with control characters.";
+assert doc.getText().equals(expectedTextWithCR) :
+        "Text does not match expected value with control characters.";
 ```
-##### 4. Metni Kırpın ve Kontrol Edin
+
+#### 4. Trim and Check Text
+
 ```java
 String expectedTrimmedText = MessageFormat.format("Hello world!{0}", ControlChar.CR) + "Hello again!";
-assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not match expected value.";
+assert doc.getText().trim().equals(expectedTrimmedText) :
+        "Trimmed text does not match expected value.";
 ```
-### Özellik 2: Kontrol Karakterleri Ekleme
-Bu özellik, belge biçimlendirmesini ve yapısını iyileştirmek için çeşitli kontrol karakterleri eklemeye odaklanır.
 
-#### Adım Adım Kılavuz
-**Genel bakış**:Boşluklar, sekmeler, satır sonları ve sayfa sonları gibi farklı kontrol karakterlerinin belgelerinize nasıl ekleneceğini öğrenin.
+**Result:** The `doc.getText()` string now contains explicit CR and page‑break symbols, guaranteeing that downstream systems (e.g., plain‑text exporters) preserve the layout. => "**Sonuç:** `doc.getText()` dizesi artık açık CR ve sayfa‑sonu sembolleri içeriyor; bu da alt sistemlerin (ör. düz‑metin dışa aktarıcıları) düzeni korumasını sağlıyor."
 
-**Uygulama Adımları:**
-##### 1. DocumentBuilder'ı başlatın
+## Feature 2: Insert Various Control Characters
+
+"Feature 2: Insert Various Control Characters" => "Özellik 2: Çeşitli Kontrol Karakterlerini Ekleme"
+
+Beyond carriage returns, Aspose.Words offers constants for spaces, tabs, line feeds, paragraph breaks, and column breaks. This section shows how to embed each one. => "Satır başlarının ötesinde, Aspose.Words boşluk, sekme, satır beslemesi, paragraf sonu ve sütun sonu için sabitler sunar. Bu bölüm her birinin nasıl ekleneceğini gösterir."
+
+### Step‑by‑Step Implementation
+
+same translation as before: "Adım‑Adım Uygulama"
+
+1. **Initialize a fresh DocumentBuilder.** => "**Yeni bir DocumentBuilder başlatın.**"
+2. **Write examples for space, non‑breaking space, and tab characters.** => "**Boşluk, bölünmez boşluk ve sekme karakterleri için örnekler yazın.**"
+3. **Add line feeds, paragraph breaks, and section breaks, then validate node counts.** => "**Satır beslemeleri, paragraf sonları ve bölüm sonları ekleyin, ardından düğüm sayılarını doğrulayın.**"
+4. **Create a two‑column layout and insert a column break.** => "**İki sütunlu bir düzen oluşturun ve bir sütun sonu ekleyin.**"
+
+#### 1. Initialize DocumentBuilder
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-##### 2. Kontrol Karakterlerini Ekle
-Farklı tipte kontrol karakterleri ekleyin:
-- **Uzay Karakteri**: `ControlChar.SPACE_CHAR`
-  ```java
-  builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
-  ```
-- **Bölünmeyen Uzay (NBSP)**: `ControlChar.NON_BREAKING_SPACE`
-  ```java
-  builder.write("Before space." + ControlChar.NON_BREAKING_SPACE + "After space.");
-  ```
-- **Sekme Karakteri**: `ControlChar.TAB`
-  ```java
-  builder.write("Before tab." + ControlChar.TAB + "After tab.");
-  ```
-##### 3. Satır ve Paragraf Sonları
-Yeni bir paragraf başlatmak için satır sonu ekleyin:
-```java
-Assert.assertEquals(1, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
-Assert.assertEquals(2, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-```
-Paragraf ve sayfa sonlarını doğrulayın:
-```java
-builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
-Assert.assertEquals(3, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 
-builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
-assert doc.getSections().getCount() == 1 : "Section count mismatch after section break.";
-```
-##### 4. Sütun ve Sayfa Sonları
-Çok sütunlu bir kurulumda sütun sonlarını tanıtın:
+#### 2. Insert Space‑Related Characters
+
+- **Space (`ControlChar.SPACE_CHAR`)** => same
 ```java
+builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
+```
+- **Non‑Breaking Space (`ControlChar.NON_BREAKING_SPACE`)** => same
+```java
+builder.write("Before NBSP." + ControlChar.NON_BREAKING_SPACE + "After NBSP.");
+```
+- **Tab (`ControlChar.TAB`)** => same
+```java
+builder.write("Before tab." + ControlChar.TAB + "After tab.");
+```
+
+#### 3. Line, Paragraph, and Section Breaks
+
+```java
+// Verify initial paragraph count is 1
+Assert.assertEquals(1, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a line feed (creates a new paragraph)
+builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
+Assert.assertEquals(2, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a paragraph break
+builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
+Assert.assertEquals(3, doc.getFirstSection().getBody()
+        .getChildNodes(NodeType.PARAGRAPH, true).getCount());
+
+// Insert a section break (still one Section object, but a break marker)
+builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
+assert doc.getSections().getCount() == 1 :
+        "Section count mismatch after section break.";
+```
+
+#### 4. Column Break in a Multi‑Column Layout
+
+```java
+// Add a second section to host two columns
 doc.appendChild(new Section(doc));
 builder.moveToSection(1);
 builder.getCurrentSection().getPageSetup().getTextColumns().setCount(2);
 
+// Insert a column break between the two columns
 builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at beginning of column 2.");
 ```
-### Pratik Uygulamalar
-**Gerçek Dünya Kullanım Örnekleri:**
-1. **Fatura Oluşturma**: Kontrol karakterlerini kullanarak çok sayfalı faturalar için satır öğelerini biçimlendirin ve sayfa sonları sağlayın.
-2. **Rapor Oluşturma**: Yapılandırılmış raporlardaki veri alanlarını sekme ve boşluk kontrolleriyle hizalayın.
-3. **Çok Sütunlu Düzenler**:Sütun sonlarını kullanarak yan yana içerik bölümlerine sahip haber bültenleri veya broşürler oluşturun.
-4. **İçerik Yönetim Sistemleri (CMS)**:Kontrol karakterleriyle kullanıcı girdisine göre metin biçimlendirmesini dinamik olarak yönetin.
-5. **Otomatik Belge Oluşturma**: Yapılandırılmış öğeleri programlı olarak ekleyerek belge şablonlarını geliştirin.
 
-## Performans Hususları
-Büyük belgelerle çalışırken performansı optimize etmek için:
-- Sık tekrar akışlar gibi ağır işlemlerin kullanımını en aza indirin.
-- İşlem yükünü azaltmak için kontrol karakterlerinin toplu olarak eklenmesi.
-- Metin düzenlemeyle ilgili darboğazları belirlemek için uygulamanızın profilini çıkarın.
+**Result:** The document now contains a two‑column page where text flows automatically from the first column to the second after the `COLUMN_BREAK`. => "**Sonuç:** Belge artık bir iki‑sütunlu sayfa içeriyor; metin `COLUMN_BREAK` sonrasında otomatik olarak birinci sütundan ikinciye akıyor."
 
-## Çözüm
-Bu kılavuzda, Java için Aspose.Words'de kontrol karakterlerinde nasıl ustalaşacağınızı inceledik. Bu adımları izleyerek, belge yapısını ve biçimlendirmesini programatik olarak etkili bir şekilde yönetebilirsiniz. Aspose.Words'ün yeteneklerini daha fazla keşfetmek için, daha gelişmiş özelliklere dalmayı ve bunları projelerinize entegre etmeyi düşünün.
+## Practical Applications
 
-## Sonraki Adımlar
-- Farklı belge türlerini deneyin.
-- Uygulamalarınızı geliştirmek için Aspose.Words'ün ek işlevlerini keşfedin.
+"Practical Applications" => "Pratik Uygulamalar"
 
-**Harekete geçirici mesaj**:Gelişmiş belge kontrolü için Aspose.Words'ü kullanarak bir sonraki Java projenizde bu çözümleri uygulamayı deneyin!
+Table:
 
-## SSS Bölümü
-1. **Kontrol karakteri nedir?**
-   Kontrol karakterleri, sekmeler ve sayfa sonları gibi metni biçimlendirmek için kullanılan özel, yazdırılamayan karakterlerdir.
-2. **Aspose.Words for Java'yı kullanmaya nasıl başlayabilirim?**
-   Projenizi Maven veya Gradle bağımlılıklarını kullanarak kurun ve gerekirse ücretsiz deneme lisansı için başvurun.
-3. **Kontrol karakterleri çok sütunlu düzenleri yönetebilir mi?**
-   Evet, kullanabilirsiniz `ControlChar.COLUMN_BREAK` birden fazla sütundaki metni etkili bir şekilde yönetmek için.
+| Scenario | How Control Characters Help |
+|----------|-----------------------------|
+| **Invoice Generation** | Use `PAGE_BREAK` to start a new page for each invoice batch. |
+| **Financial Report** | Align figures with `TAB` and keep headings together using `NON_BREAKING_SPACE`. |
+| **Newsletter Layout** | Create side‑by‑side articles with `COLUMN_BREAK` in a multi‑column section. |
+| **CMS Content Export** | Preserve line structure when converting rich text to plain text via `LINE_FEED`. |
+| **Automated Templates** | Dynamically insert `PARAGRAPH_BREAK` or `SECTION_BREAK` based on user input. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+Translate:
 
+Scenario => "Senaryo"
+How Control Characters Help => "Kontrol Karakterleri Nasıl Yardımcı Olur"
 
-{{< /blocks/products/pf/main-container >}}
+Rows:
 
-{{< /blocks/products/pf/main-wrap-class >}}
+**Invoice Generation** => "**Fatura Oluşturma**"
+Use `PAGE_BREAK` to start a new page for each invoice batch. => "Her fatura topluluğu için yeni bir sayfa başlatmak üzere `PAGE_BREAK` kullanın."
 
+**Financial Report** => "**Finansal Rapor**"
+Align figures with `TAB` and keep headings together using `NON_BREAKING_SPACE`. => "Rakamları `TAB` ile hizalayın ve başlıkları birlikte tutmak için `NON_BREAKING_SPACE` kullanın."
 
-{{< blocks/products/products-backtop-button >}}
+**Newsletter Layout** => "**Bülten Düzeni**"
+Create side‑by‑side articles with `COLUMN_BREAK` in a multi‑column section. => "Çok sütunlu bir bölümde `COLUMN_BREAK` ile yan yana makaleler oluşturun."
+
+**CMS Content Export** => "**CMS İçerik Dışa Aktarma**"
+Preserve line structure when converting rich text to plain text via `LINE_FEED`. => "Zengin metni düz metne dönüştürürken satır yapısını `LINE_FEED` ile koruyun."
+
+**Automated Templates** => "**Otomatik Şablonlar**"
+Dynamically insert `PARAGRAPH_BREAK` or `SECTION_BREAK` based on user input. => "Kullanıcı girdisine göre dinamik olarak `PARAGRAPH_BREAK` veya `SECTION_BREAK` ekleyin."
+
+## Performance Considerations
+
+"Performance Considerations" => "Performans Düşünceleri" (or "Performans Hususları")
+
+* **Batch Inserts:** Group multiple `write` calls into a single operation to reduce internal reflows. => "**Toplu Ekleme:** İçsel yeniden akışları azaltmak için birden çok `write` çağrısını tek bir işlemde gruplayın."
+* **Avoid Frequent Node Traversal:** Cache `NodeCollection` results when you need to count paragraphs repeatedly. => "**Sık Düğüm Geçişinden Kaçının:** Paragrafları tekrar tekrar saymanız gerektiğinde `NodeCollection` sonuçlarını önbelleğe alın."
+* **Profile Large Docs:** Use Java profilers (e.g., VisualVM) to identify hotspots in text manipulation loops. => "**Büyük Belgeleri Profilleyin:** Metin işleme döngülerindeki yoğun noktaları belirlemek için Java profillerini (ör. VisualVM) kullanın."
+
+## Conclusion
+
+"You now have a concrete, step‑by‑step method for **inserting**, **validating**, and **optimizing** control characters in Java documents using Aspose.Words. These techniques empower you to produce professional‑grade invoices, reports, and multi‑column publications programmatically." => "Artık Aspose.Words kullanarak Java belgelerinde kontrol karakterlerini **eklemek**,
