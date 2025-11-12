@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "Откройте для себя мощь LayoutCollector и LayoutEnumerator Aspose.Words Java для расширенной обработки текста. Узнайте, как эффективно управлять макетами документов, анализировать пагинацию и контролировать нумерацию страниц."
-"title": "Освоение Aspose.Words Java&#58; Полное руководство по LayoutCollector и LayoutEnumerator для обработки текста"
-"url": "/ru/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Изучите, как использовать LayoutCollector и LayoutEnumerator в Aspose.Words
+  for Java для анализа разбиения на страницы, обхода макета документа, реализации
+  обратных вызовов макета и перезапуска нумерации страниц в непрерывных разделах.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- analyze pagination java
+- use layoutcollector page span
+- traverse document layout
+- restart page numbering sections
+- implement layout callback
+language: ru
+title: Анализ пагинации в Java с инструментами разметки Aspose.Words
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +24,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Анализ разбиения на страницы в Java с помощью инструментов разметки Aspose.Words
 
-# Освоение Aspose.Words Java: полное руководство по LayoutCollector и LayoutEnumerator для обработки текста
+## Введение  
 
-## Введение
+Если вам необходимо **анализировать разбиение на страницы** или **просматривать разметку документа** в Java‑приложении, Aspose.Words for Java предоставляет два мощных API: **`LayoutCollector`** и **`LayoutEnumerator`**. Эти классы позволяют определить, сколько страниц занимает узел, пройтись по каждому элементу разметки, реагировать на события разметки и даже перезапустить нумерацию страниц в непрерывных разделах. В этом руководстве мы пошагово рассмотрим каждую функцию, покажем реальные фрагменты кода и объясним ожидаемые результаты, чтобы вы могли сразу применить их на практике.
 
-Вы сталкиваетесь с трудностями в управлении сложными макетами документов с помощью приложений Java? Будь то определение количества страниц, охватываемых разделом, или эффективное прохождение сущностей макета, эти задачи могут быть устрашающими. С **Aspose.Words для Java**, у вас есть доступ к таким мощным инструментам, как `LayoutCollector` и `LayoutEnumerator` которые упрощают эти процессы, позволяя вам сосредоточиться на предоставлении исключительного контента. В этом всеобъемлющем руководстве мы рассмотрим, как использовать эти функции для улучшения ваших возможностей обработки документов.
+Вы узнаете, как:
 
-**Что вы узнаете:**
-- Используйте Aspose.Words' `LayoutCollector` для точного анализа охвата страницы.
-- Эффективно просматривайте документы с помощью `LayoutEnumerator`.
-- Реализуйте обратные вызовы макета для динамической отрисовки и обновлений.
-- Эффективно контролируйте нумерацию страниц в непрерывных разделах.
+* **использовать LayoutCollector** для получения начальной и конечной страницы любого узла (use layoutcollector page span)  
+* **просматривать разметку документа** с помощью LayoutEnumerator (traverse document layout)  
+* **реализовать обратные вызовы разметки** для реакции на события разбиения (implement layout callback)  
+* **перезапустить нумерацию страниц** в непрерывных разделах (restart page numbering sections)  
 
-Давайте углубимся в то, как эти инструменты могут преобразовать ваши процессы обработки документов. Прежде чем мы начнем, убедитесь, что вы готовы, проверив наш раздел предварительных условий ниже.
+Начнём.
 
-## Предпосылки
+## Требования  
 
-Чтобы следовать этому руководству, убедитесь, что у вас есть следующее:
+### Необходимые библиотеки  
 
-### Требуемые библиотеки и версии
-Убедитесь, что у вас установлен Aspose.Words для Java версии 25.3.
+| Инструмент сборки | Зависимость |
+|-------------------|-------------|
+| **Maven** | ```xml<br><dependency><groupId>com.aspose</groupId><artifactId>aspose-words</artifactId><version>25.3</version></dependency>``` |
+| **Gradle** | ```gradle<br>implementation 'com.aspose:aspose-words:25.3'``` |
 
-**Мейвен:**
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
-</dependency>
-```
+> **Примечание:** Номер версии оставлен для совместимости; код работает с любой современной версией Aspose.Words for Java.
 
-**Градл:**
-```gradle
-implementation 'com.aspose:aspose-words:25.3'
-```
+### Окружение  
 
-### Требования к настройке среды
-Вам понадобится:
-- На вашем компьютере установлен Java Development Kit (JDK).
-- IDE, например IntelliJ IDEA или Eclipse, для запуска и тестирования кода.
+* JDK 8 или новее  
+* IDE, например IntelliJ IDEA или Eclipse  
 
-### Необходимые знания
-Для эффективного усвоения материала рекомендуется иметь базовые знания программирования на Java.
+### Знания  
 
-## Настройка Aspose.Words
-Во-первых, убедитесь, что вы интегрировали библиотеку Aspose.Words в свой проект. Вы можете получить бесплатную пробную лицензию [здесь](https://releases.aspose.com/words/java/) или выберите временную лицензию, если необходимо. Чтобы начать использовать Aspose.Words в Java, инициализируйте его следующим образом:
+Достаточно базовых навыков программирования на Java и знакомства с Maven/Gradle, чтобы следовать примерам.
+
+## Настройка Aspose.Words  
+
+Прежде чем вы сможете вызвать любой API разметки, библиотека должна быть лицензирована (или использоваться в режиме пробной версии). Ниже показан минимальный код инициализации:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Настройте лицензию (если имеется)
+        // Load your license file – skip this line for a trial evaluation
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,26 +77,30 @@ public class SetupAsposeWords {
 }
 ```
 
-Завершив настройку, давайте рассмотрим основные функции `LayoutCollector` и `LayoutEnumerator`.
+*Этот код не изменяет документ; он лишь подготавливает среду Aspose.*  
 
-## Руководство по внедрению
+Теперь перейдём к основным возможностям.
 
-### Функция 1: Использование LayoutCollector для анализа охвата страниц
-The `LayoutCollector` Функция позволяет определить, как узлы в документе распределяются по страницам, что помогает в анализе страниц.
+## Функция 1: Использование **LayoutCollector** для анализа разбиения на страницы  
 
-#### Обзор
-Используя `LayoutCollector`, мы можем определить начальный и конечный индексы страниц любого узла, а также общее количество страниц, которые он охватывает.
+`LayoutCollector` сопоставляет каждый узел в `Document` со страницами, которые он занимает. Это самый надёжный способ **use layoutcollector page span** для анализа разбиения.
 
-#### Этапы внедрения
+### Пошаговая реализация  
 
-**1. Инициализируйте документ и LayoutCollector**
+1. **Создать новый документ и привязать LayoutCollector.**  
+2. **Вставить содержимое, вызывающее разбиение** (например, разрывы страниц, разрывы разделов).  
+3. **Обновить разметку** с помощью `updatePageLayout()`.  
+4. **Запросить у коллектора** начальную страницу, конечную страницу и общее количество охваченных страниц.
+
+#### 1️⃣ Инициализация Document и LayoutCollector  
+
 ```java
-Document doc = new Document();
+Document doc = new Document();                 // Empty document
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Заполните документ**
-Здесь мы добавим контент, охватывающий несколько страниц:
+#### 2️⃣ Заполнение документа  
+
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -102,63 +110,82 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Обновите макет и получите метрики**
-```java
-layoutCollector.clear();
-doc.updatePageLayout();
+#### 3️⃣ Обновление разметки и получение метрик  
 
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```java
+layoutCollector.clear();          // Reset any previous mappings
+doc.updatePageLayout();           // Force pagination calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected: the document occupies 5 pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-#### Объяснение
-- **`DocumentBuilder`:** Используется для вставки содержимого в документ.
-- **`updatePageLayout()`:** Обеспечивает точные показатели страницы.
+**Ожидаемый вывод**
 
-### Функция 2: Обход с помощью LayoutEnumerator
-The `LayoutEnumerator` обеспечивает эффективный обход объектов макета документа, предоставляя подробную информацию о свойствах и положении каждого элемента.
+```
+Document spans 5 pages.
+```
 
-#### Обзор
-Эта функция помогает визуально перемещаться по структуре макета, что полезно для задач рендеринга и редактирования.
+> **Почему это работает:** `updatePageLayout()` заставляет Aspose.Words пересчитать разметку, после чего `LayoutCollector` может точно сообщать о диапазонах страниц.
 
-#### Этапы внедрения
+## Функция 2: Просмотр разметки документа с помощью **LayoutEnumerator**  
 
-**1. Инициализация документа и LayoutEnumerator**
+Когда необходимо **traverse document layout** (например, для пользовательского рендеринга или анализа), `LayoutEnumerator` предоставляет древовидный вид страниц, абзацев, строк и слов.
+
+### Пошаговая реализация  
+
+1. Загрузить существующий документ, содержащий элементы разметки.  
+2. Создать экземпляр `LayoutEnumerator`.  
+3. Перейти к корневому элементу `PAGE`.  
+4. Обходить разметку вперёд и назад с помощью рекурсивных вспомогательных методов.
+
+#### 1️⃣ Загрузка документа и создание перечислителя  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. Движение вперед и назад**
-Для перемещения по макету документа:
+#### 2️⃣ Позиционирование на уровне страниц  
+
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
+```
 
-// Траверс вперед
+#### 3️⃣ Прямой обход (по глубине)  
+
+```java
 traverseLayoutForward(layoutEnumerator, 1);
+```
 
-// Траверс назад
+#### 4️⃣ Обратный обход  
+
+```java
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### Объяснение
-- **`moveParent()`:** Переход к родительским сущностям.
-- **Методы обхода:** Реализовано рекурсивно для комплексной навигации.
+> **Вспомогательные методы** (`traverseLayoutForward` / `traverseLayoutBackward`) реализованы рекурсивно для посещения каждого дочернего элемента и вывода его типа и индекса страницы. Их можно адаптировать для сбора статистики, рендеринга графики или изменения свойств разметки.
 
-### Функция 3: Обратные вызовы макета страницы
-Эта функция демонстрирует, как реализовать обратные вызовы для мониторинга событий макета страницы во время обработки документа.
+## Функция 3: Реализация **Layout Callbacks**  
 
-#### Обзор
-Используйте `IPageLayoutCallback` интерфейс для реагирования на определенные изменения макета, например, при переформатировании раздела или завершении преобразования.
+Иногда требуется реагировать, когда Aspose.Words завершает разметку части документа. Реализация `IPageLayoutCallback` позволяет **implement layout callback** логику, например, сохранять каждую страницу как изображение.
 
-#### Этапы внедрения
+### Пошаговая реализация  
 
-**1. Установить обратный вызов**
+1. Присвоить экземпляр обратного вызова свойству `LayoutOptions` документа.  
+2. Внутри обратного вызова обработать события `PART_REFLOW_FINISHED` и `CONVERSION_FINISHED`.  
+3. Сохранить текущую страницу в PNG с помощью `ImageSaveOptions`.
+
+#### 1️⃣ Регистрация обратного вызова  
+
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
+doc.updatePageLayout();                     // Triggers the callback events
 ```
 
-**2. Реализуйте методы обратного вызова**
+#### 2️⃣ Класс обратного вызова  
+
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -173,62 +200,68 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
         saveOptions.setPageSet(new PageSet(pageIndex));
 
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
+        try (FileOutputStream stream = new FileOutputStream(
+                "YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
             a.getDocument().save(stream, saveOptions);
         }
     }
+
+    // You can add custom logic here for partFinished / conversionFinished
 }
 ```
 
-#### Объяснение
-- **`notify()`:** Обрабатывает события макета.
-- **`ImageSaveOptions`:** Настраивает параметры рендеринга.
+**Что происходит:** Каждый раз, когда часть разметки завершает перепоток, обратный вызов рендерит эту страницу в PNG‑файл, предоставляя визуальный след процесса разбиения.
 
-### Функция 4: Перезапуск нумерации страниц в непрерывных разделах
-Эта функция демонстрирует, как управлять нумерацией страниц в непрерывных разделах, обеспечивая бесперебойный поток документов.
+## Функция 4: Перезапуск нумерации страниц в **непрерывных разделах**  
 
-#### Обзор
-Эффективно управляйте номерами страниц при работе с многораздельными документами, используя `ContinuousSectionRestart`.
+Если документ содержит непрерывные разделы, вы можете захотеть, чтобы нумерация страниц перезапускалась только на новой физической странице. Это достигается настройкой `ContinuousSectionRestart`.
 
-#### Этапы внедрения
+### Пошаговая реализация  
 
-**1. Загрузить документ**
+1. Загрузить целевой документ.  
+2. Изменить параметр `ContinuousSectionPageNumberingRestart`.  
+3. Снова вызвать `updatePageLayout()`, чтобы применить изменение.
+
+#### 1️⃣ Загрузка документа  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. Настройте параметры нумерации страниц**
+#### 2️⃣ Настройка поведения перезапуска  
+
 ```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
-doc.updatePageLayout();
+doc.getLayoutOptions()
+   .setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+doc.updatePageLayout();            // Apply the new numbering rule
 ```
 
-#### Объяснение
-- **`setContinuousSectionPageNumberingRestart()`:** Настраивает порядок повторного нумерации страниц в непрерывных разделах.
+**Результат:** Номера страниц теперь будут перезапускаться только при начале новой физической страницы, что сохраняет чистый профессиональный вид отчётов или книг.
 
-## Практические применения
-Вот несколько реальных сценариев, в которых могут быть применены эти функции:
-1. **Анализ пагинации документа:** Использовать `LayoutCollector` для анализа и корректировки макета контента для оптимальной пагинации.
-2. **PDF-рендеринг:** Нанимать `LayoutEnumerator` для точной навигации и отображения PDF-файлов с сохранением визуальной структуры.
-3. **Динамические обновления документов:** Реализуйте обратные вызовы для запуска действий при определенных изменениях макета, улучшая обработку документов в реальном времени.
-4. **Многосекционные документы:** Управляйте нумерацией страниц в отчетах или книгах с непрерывными разделами для профессионального форматирования.
+## Практические применения  
 
-## Соображения производительности
-Для обеспечения оптимальной производительности:
-- Минимизируйте размер документа, удалив ненужные элементы перед анализом макета.
-- Используйте эффективные методы обхода для сокращения времени обработки.
-- Контролируйте использование ресурсов, особенно при обработке больших документов.
+| Сценарий | Какой API помогает | Выгода |
+|----------|--------------------|--------|
+| **Аудит длинных контрактов** | `LayoutCollector` | Быстро определить, какие пункты охватывают несколько страниц. |
+| **Пользовательский рендеринг PDF** | `LayoutEnumerator` | Обойти дерево разметки для экспорта каждой строки в векторную графику. |
+| **Предпросмотр документа в реальном времени** | Layout callbacks | Генерировать изображения страниц «на лету» по мере редактирования. |
+| **Многоразделные отчёты** | Перезапуск нумерации в непрерывных разделах | Сохранять логичную нумерацию без ручных правок. |
 
-## Заключение
-Освоив `LayoutCollector` и `LayoutEnumerator`вы открыли мощные возможности в Aspose.Words для Java. Эти инструменты не только упрощают сложные макеты документов, но и повышают вашу способность эффективно управлять и обрабатывать текст. Вооружившись этими знаниями, вы хорошо подготовлены к решению любой сложной задачи по обработке текста, которая вам встретится.
+## Советы по производительности  
 
+* **Удаляйте неиспользуемые узлы** перед вызовом `updatePageLayout()` — меньше элементов — быстрее разбиение.  
+* **Повторно используйте один LayoutCollector** для множества запросов, а не создавайте новый каждый раз.  
+* **Ограничьте глубину обхода** при работе с LayoutEnumerator, если нужны только данные уровня страниц.  
+* **Закрывайте потоки** (как показано в примере обратного вызова), чтобы избежать утечек памяти при работе с большими документами.
+
+## Заключение  
+
+Овладев `LayoutCollector`, `LayoutEnumerator`, обратными вызовами разметки и нумерацией в непрерывных разделах, вы получаете полноценный набор инструментов для **analyze pagination java**, **traverse document layout** и **restart page numbering sections**. Эти API позволяют создавать надёжные, высокопроизводительные конвейеры обработки текста, обеспечивая профессиональные результаты каждый раз.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

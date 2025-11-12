@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "استغل إمكانيات LayoutCollector وLayoutEnumerator في Java من Aspose.Words لمعالجة النصوص المتقدمة. تعلّم كيفية إدارة تخطيطات المستندات بكفاءة، وتحليل ترقيم الصفحات، والتحكم في ترقيم الصفحات."
-"title": "إتقان Aspose.Words في Java - دليل شامل لـ LayoutCollector و LayoutEnumerator لمعالجة النصوص"
-"url": "/ar/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: تعلم كيفية استخدام LayoutCollector و LayoutEnumerator في Aspose.Words
+  for Java لتحليل ترقيم الصفحات، وتصفح تخطيط المستند، وتنفيذ ردود الاتصال الخاصة بالتخطيط،
+  وإعادة بدء ترقيم الصفحات في الأقسام المتصلة.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- analyze pagination java
+- use layoutcollector page span
+- traverse document layout
+- restart page numbering sections
+- implement layout callback
+language: ar
+title: تحليل تقسيم الصفحات في جافا باستخدام أدوات تخطيط Aspose.Words
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +24,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# تحليل ترقيم الصفحات في Java باستخدام أدوات تخطيط Aspose.Words
 
-# إتقان Aspose.Words بلغة جافا: دليل شامل لـ LayoutCollector و LayoutEnumerator لمعالجة النصوص
+## المقدمة  
 
-## مقدمة
+إذا كنت بحاجة إلى **تحليل ترقيم الصفحات** أو **استعراض تخطيط المستند** في تطبيق Java، فإن Aspose.Words for Java يوفّر لك واجهتين برمجيتين قويّتين: **`LayoutCollector`** و **`LayoutEnumerator`**. تتيح لك هذه الفئات معرفة عدد الصفحات التي يشغلها كل عقدة، والتنقل عبر كل كيان تخطيطي، والاستجابة لأحداث التخطيط، وحتى إعادة بدء ترقيم الصفحات في الأقسام المتصلة. في هذا الدليل سنستعرض كل ميزة خطوةً بخطوة، ونظهر مقتطفات شفرة واقعية، ونشرح النتائج المتوقعة حتى تتمكن من تطبيقها فورًا.
 
-هل تواجه تحديات في إدارة تخطيطات المستندات المعقدة باستخدام تطبيقات جافا؟ سواءً كان ذلك تحديد عدد الصفحات التي يغطيها قسم ما أو التنقل بين عناصر التخطيط بكفاءة، فقد تكون هذه المهام شاقة. مع **كلمات Aspose لجافا**، لديك إمكانية الوصول إلى أدوات قوية مثل `LayoutCollector` و `LayoutEnumerator` تُبسّط هذه العمليات، مما يتيح لك التركيز على تقديم محتوى استثنائي. في هذا الدليل الشامل، سنستكشف كيفية استخدام هذه الميزات لتحسين قدرات معالجة مستنداتك.
+سوف تتعلم كيف:
 
-**ما سوف تتعلمه:**
-- استخدم Aspose.Words `LayoutCollector` لتحليل دقيق لامتداد الصفحة.
-- التنقل بين المستندات بكفاءة باستخدام `LayoutEnumerator`.
-- تنفيذ استدعاءات التخطيط للعرض الديناميكي والتحديثات.
-- التحكم في ترقيم الصفحات في الأقسام المستمرة بشكل فعال.
+* **استخدام LayoutCollector** للحصول على الصفحة البداية والنهاية لأي عقدة (use layoutcollector page span)  
+* **استعراض تخطيط المستند** باستخدام LayoutEnumerator (traverse document layout)  
+* **تنفيذ ردود نداء التخطيط** للاستجابة لأحداث الترقيم (implement layout callback)  
+* **إعادة بدء ترقيم الصفحات** في الأقسام المتصلة (restart page numbering sections)  
 
-لنتعمق في كيفية مساهمة هذه الأدوات في تطوير عمليات معالجة مستنداتك. قبل البدء، تأكد من استعدادك بالاطلاع على قسم المتطلبات الأساسية أدناه.
+هيا نبدأ.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة  
 
-لمتابعة هذا الدليل، تأكد من أن لديك ما يلي:
+### المكتبات المطلوبة  
 
-### المكتبات والإصدارات المطلوبة
-تأكد من تثبيت Aspose.Words for Java الإصدار 25.3.
+| أداة البناء | التبعيات |
+|------------|----------|
+| **Maven** | ```xml<br><dependency><groupId>com.aspose</groupId><artifactId>aspose-words</artifactId><version>25.3</version></dependency>``` |
+| **Gradle** | ```gradle<br>implementation 'com.aspose:aspose-words:25.3'``` |
 
-**مافن:**
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
-</dependency>
-```
+> **ملاحظة:** تم الحفاظ على رقم الإصدار للتوافق؛ الشفرة تعمل مع أي إصدار حديث من Aspose.Words for Java.
 
-**جرادل:**
-```gradle
-implementation 'com.aspose:aspose-words:25.3'
-```
+### البيئة  
 
-### متطلبات إعداد البيئة
-ستحتاج إلى:
-- تم تثبيت Java Development Kit (JDK) على جهازك.
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse لتشغيل واختبار الكود.
+* JDK 8 أو أحدث  
+* بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse  
 
-### متطلبات المعرفة
-من المستحسن أن يكون لديك فهم أساسي لبرمجة Java لمتابعة الأمر بفعالية.
+### المعرفة  
 
-## إعداد Aspose.Words
-أولاً، تأكد من دمج مكتبة Aspose.Words في مشروعك. يمكنك الحصول على نسخة تجريبية مجانية. [هنا](https://releases.aspose.com/words/java/) أو اختر ترخيصًا مؤقتًا إذا لزم الأمر. لبدء استخدام Aspose.Words في جافا، قم بتهيئته كما يلي:
+برمجة Java الأساسية والإلمام بـ Maven/Gradle كافيان لمتابعة الأمثلة.
+
+## إعداد Aspose.Words  
+
+قبل أن تتمكن من استدعاء أي واجهة برمجة تخطيط، يجب ترخيص المكتبة (أو استخدامها في وضع التجربة). يوضح المقتطف أدناه التهيئة الدنيا:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // إعداد الترخيص (إذا كان متاحًا)
+        // Load your license file – skip this line for a trial evaluation
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,26 +77,30 @@ public class SetupAsposeWords {
 }
 ```
 
-بعد اكتمال الإعداد، دعنا نتعمق في الميزات الأساسية لـ `LayoutCollector` و `LayoutEnumerator`.
+*الشفرة لا تُعدّل أي مستند؛ بل تُحضّر بيئة Aspose فقط.*  
 
-## دليل التنفيذ
+الآن يمكننا الغوص في الميزات الأساسية.
 
-### الميزة 1: استخدام LayoutCollector لتحليل مدى الصفحة
-ال `LayoutCollector` تتيح لك هذه الميزة تحديد كيفية امتداد العقد في المستند عبر الصفحات، مما يساعد في تحليل الترقيم الصفحي.
+## الميزة 1: استخدام **LayoutCollector** لتحليل ترقيم الصفحات  
 
-#### ملخص
-من خلال الاستفادة من `LayoutCollector`يمكننا التأكد من مؤشرات الصفحة الأولية والنهائية لأي عقدة، بالإضافة إلى العدد الإجمالي للصفحات التي تمتد عليها.
+`LayoutCollector` يربط كل عقدة في `Document` بالصفحات التي تشغلها. هذه هي الطريقة الأكثر موثوقية لـ **use layoutcollector page span** لتحليل الترقيم.
 
-#### خطوات التنفيذ
+### تنفيذ خطوة‑بخطوة  
 
-**1. تهيئة Document وLayoutCollector**
+1. **إنشاء مستند جديد وإرفاق LayoutCollector.**  
+2. **إدراج محتوى يُجبر على الترقيم** (مثل فواصل الصفحات، فواصل الأقسام).  
+3. **تحديث التخطيط** باستخدام `updatePageLayout()`.  
+4. **استعلام المجمع** عن الصفحة البداية، الصفحة النهاية، وإجمالي عدد الصفحات المشغولة.
+
+#### 1️⃣ تهيئة المستند وLayoutCollector  
+
 ```java
-Document doc = new Document();
+Document doc = new Document();                 // Empty document
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. املأ المستند**
-هنا، سنضيف محتوى يمتد على عدة صفحات:
+#### 2️⃣ ملء المستند  
+
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -102,133 +110,68 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. تحديث التخطيط واسترجاع المقاييس**
-```java
-layoutCollector.clear();
-doc.updatePageLayout();
+#### 3️⃣ تحديث التخطيط واستخراج المقاييس  
 
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```java
+layoutCollector.clear();          // Reset any previous mappings
+doc.updatePageLayout();           // Force pagination calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected: the document occupies 5 pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-#### توضيح
-- **`DocumentBuilder`:** يستخدم لإدراج المحتوى في المستند.
-- **`updatePageLayout()`:** ضمان دقة مقاييس الصفحة.
+**الناتج المتوقع**
 
-### الميزة 2: التنقل باستخدام LayoutEnumerator
-ال `LayoutEnumerator` يتيح التنقل بكفاءة عبر كيانات تخطيط المستند، مما يوفر رؤى تفصيلية حول خصائص كل عنصر وموقعه.
+```
+Document spans 5 pages.
+```
 
-#### ملخص
-تساعد هذه الميزة في التنقل بصريًا عبر بنية التخطيط، وهي مفيدة لمهام العرض والتحرير.
+> **لماذا يعمل:** `updatePageLayout()` يجبر Aspose.Words على إعادة حساب التخطيط، وبعد ذلك يمكن لـ `LayoutCollector` الإبلاغ بدقة عن نطاق الصفحات.
 
-#### خطوات التنفيذ
+## الميزة 2: استعراض تخطيط المستند باستخدام **LayoutEnumerator**  
 
-**1. تهيئة المستند ومخطط التعداد**
+عندما تحتاج إلى **استعراض تخطيط المستند** (مثلاً للتصيير المخصص أو التحليل)، يوفر `LayoutEnumerator` عرضًا شجريًا للصفحات، الفقرات، الأسطر، والكلمات.
+
+### تنفيذ خطوة‑بخطوة  
+
+1. تحميل مستند موجود يحتوي على كيانات تخطيطية.  
+2. إنشاء نسخة من `LayoutEnumerator`.  
+3. الانتقال إلى كيان الجذر `PAGE`.  
+4. استعراض التخطيط إلى الأمام وإلى الخلف باستخدام طرق مساعدة تكرارية.
+
+#### 1️⃣ تحميل المستند وإنشاء الـ Enumerator  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. التنقل للأمام والخلف**
-للتنقل عبر تخطيط المستند:
+#### 2️⃣ التمركز على مستوى الصفحة  
+
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
+```
 
-// التقدم للأمام
+#### 3️⃣ الاستعراض إلى الأمام (عمق‑أول)  
+
+```java
 traverseLayoutForward(layoutEnumerator, 1);
+```
 
-// العودة للخلف
+#### 4️⃣ الاستعراض إلى الخلف  
+
+```java
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### توضيح
-- **`moveParent()`:** ينتقل إلى الكيانات الأصلية.
-- **طرق العبور:** تم تنفيذه بشكل متكرر للملاحة الشاملة.
+> **الطرق المساعدة** (`traverseLayoutForward` / `traverseLayoutBackward`) تُنفّذ تكراريًا لزيارة كل كيان فرعي وطباعة نوعه ورقم صفحته. يمكنك تعديلها لجمع إحصائيات، تصيير رسومات، أو تعديل خصائص التخطيط.
 
-### الميزة 3: استدعاءات تخطيط الصفحة
-توضح هذه الميزة كيفية تنفيذ عمليات الاسترجاع لمراقبة أحداث تخطيط الصفحة أثناء معالجة المستند.
+## الميزة 3: تنفيذ **ردود نداء التخطيط**  
 
-#### ملخص
-استخدم `IPageLayoutCallback` واجهة للتفاعل مع تغييرات تخطيط محددة، مثل عندما يتم إعادة تدفق قسم أو انتهاء التحويل.
+أحيانًا تحتاج إلى الاستجابة عندما تنتهي Aspose.Words من تخطيط جزء من المستند. تنفيذ `IPageLayoutCallback` يتيح لك **implement layout callback** مثل حفظ كل صفحة كصورة.
 
-#### خطوات التنفيذ
+### تنفيذ خطوة‑بخطوة  
 
-**1. تعيين معاودة الاتصال**
-```java
-doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
-```
-
-**2. تنفيذ طرق الاستدعاء**
-```java
-private static class RenderPageLayoutCallback implements IPageLayoutCallback {
-    public void notify(PageLayoutCallbackArgs a) throws Exception {
-        if (a.getEvent() == PageLayoutEvent.PART_REFLOW_FINISHED) {
-            notifyPartFinished(a);
-        } else if (a.getEvent() == PageLayoutEvent.CONVERSION_FINISHED) {
-            notifyConversionFinished(a);
-        }
-    }
-
-    private void renderPage(PageLayoutCallbackArgs a, int pageIndex) throws Exception {
-        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
-        saveOptions.setPageSet(new PageSet(pageIndex));
-
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
-            a.getDocument().save(stream, saveOptions);
-        }
-    }
-}
-```
-
-#### توضيح
-- **`notify()`:** يتعامل مع أحداث التخطيط.
-- **`ImageSaveOptions`:** تكوين خيارات العرض.
-
-### الميزة 4: إعادة تشغيل ترقيم الصفحات في الأقسام المستمرة
-توضح هذه الميزة كيفية التحكم في ترقيم الصفحات في الأقسام المستمرة، مما يضمن تدفقًا سلسًا للمستندات.
-
-#### ملخص
-إدارة أرقام الصفحات بشكل فعال عند التعامل مع المستندات متعددة الأقسام باستخدام `ContinuousSectionRestart`.
-
-#### خطوات التنفيذ
-
-**1. تحميل المستند**
-```java
-Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
-```
-
-**2. تكوين خيارات ترقيم الصفحات**
-```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
-doc.updatePageLayout();
-```
-
-#### توضيح
-- **`setContinuousSectionPageNumberingRestart()`:** يقوم بتكوين كيفية إعادة تشغيل أرقام الصفحات في الأقسام المستمرة.
-
-## التطبيقات العملية
-فيما يلي بعض السيناريوهات الواقعية حيث يمكن تطبيق هذه الميزات:
-1. **تحليل ترقيم الصفحات في المستندات:** يستخدم `LayoutCollector` لتحليل وتعديل تخطيط المحتوى للحصول على ترقيم الصفحات الأمثل.
-2. **عرض PDF:** توظيف `LayoutEnumerator` للتنقل وعرض ملفات PDF بدقة، مع الحفاظ على البنية المرئية.
-3. **تحديثات المستندات الديناميكية:** تنفيذ عمليات معاودة الاتصال لتشغيل الإجراءات عند حدوث تغييرات محددة في التخطيط، مما يؤدي إلى تحسين معالجة المستندات في الوقت الفعلي.
-4. **المستندات متعددة الأقسام:** التحكم في ترقيم الصفحات في التقارير أو الكتب ذات الأقسام المستمرة للحصول على تنسيق احترافي.
-
-## اعتبارات الأداء
-لضمان الأداء الأمثل:
-- قم بتقليل حجم المستند عن طريق إزالة العناصر غير الضرورية قبل تحليل التخطيط.
-- استخدم طرق انتقال فعالة لتقليل وقت المعالجة.
-- راقب استخدام الموارد، وخاصةً عند التعامل مع المستندات الكبيرة.
-
-## خاتمة
-من خلال إتقان `LayoutCollector` و `LayoutEnumerator`لقد اكتسبتَ إمكانياتٍ فعّالة في Aspose.Words لجافا. هذه الأدوات لا تُبسّط تخطيطات المستندات المعقدة فحسب، بل تُحسّن أيضًا قدرتك على إدارة النصوص ومعالجتها بفعالية. بفضل هذه المعرفة، ستكون مُجهّزًا تجهيزًا كاملًا لمواجهة أي تحدٍّ مُتقدّم في معالجة النصوص.
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+1. تعيين كائن رد نداء إلى `LayoutOptions` الخاص بالمستند.  
+2. داخل رد النداء،

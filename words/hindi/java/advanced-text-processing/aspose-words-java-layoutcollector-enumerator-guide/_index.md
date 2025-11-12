@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "उन्नत टेक्स्ट प्रोसेसिंग के लिए Aspose.Words Java के लेआउट कलेक्टर और लेआउट एन्यूमेरेटर की शक्ति को अनलॉक करें। दस्तावेज़ लेआउट को कुशलतापूर्वक प्रबंधित करना, पृष्ठांकन का विश्लेषण करना और पृष्ठ क्रमांकन को नियंत्रित करना सीखें।"
-"title": "Aspose.Words Java में महारत हासिल करना पाठ प्रसंस्करण के लिए लेआउट कलेक्टर और लेआउट एन्यूमेरेटर के लिए एक पूर्ण गाइड"
-"url": "/hi/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Aspose.Words for Java के LayoutCollector और LayoutEnumerator का उपयोग
+  करके पृष्ठांकन का विश्लेषण करना, दस्तावेज़ लेआउट को पार करना, लेआउट कॉलबैक लागू
+  करना, और निरंतर अनुभागों में पृष्ठ क्रमांक को पुनः शुरू करना सीखें।
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- analyze pagination java
+- use layoutcollector page span
+- traverse document layout
+- restart page numbering sections
+- implement layout callback
+language: hi
+title: Aspose.Words लेआउट टूल्स के साथ जावा पेजिनेशन विश्लेषण
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +24,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java पेजिनेशन विश्लेषण Aspose.Words लेआउट टूल्स के साथ
 
-# Aspose.Words Java में महारत हासिल करना: टेक्स्ट प्रोसेसिंग के लिए लेआउट कलेक्टर और लेआउट एन्यूमेरेटर के लिए एक संपूर्ण गाइड
+## परिचय  
 
-## परिचय
+यदि आपको Java एप्लिकेशन में **पेजिनेशन का विश्लेषण** करना है या **दस्तावेज़ के लेआउट को पार करना** है, तो Aspose.Words for Java दो शक्तिशाली APIs प्रदान करता है: **`LayoutCollector`** और **`LayoutEnumerator`**। ये क्लासेज़ आपको यह पता लगाने देती हैं कि कोई नोड कितने पृष्ठों पर फैला है, प्रत्येक लेआउट इकाई के माध्यम से चलें, लेआउट इवेंट्स पर प्रतिक्रिया दें, और यहाँ तक कि निरंतर सेक्शन में पेज नंबरिंग को पुनः शुरू कर सकें। इस गाइड में हम प्रत्येक फीचर को चरण‑बद्ध तरीके से देखेंगे, वास्तविक कोड स्निपेट्स दिखाएंगे, और अपेक्षित परिणाम समझाएंगे ताकि आप इन्हें तुरंत लागू कर सकें।
 
-क्या आप अपने जावा अनुप्रयोगों के साथ जटिल दस्तावेज़ लेआउट को प्रबंधित करने में चुनौतियों का सामना कर रहे हैं? चाहे वह किसी अनुभाग में पृष्ठों की संख्या निर्धारित करना हो या लेआउट इकाइयों को कुशलतापूर्वक पार करना हो, ये कार्य चुनौतीपूर्ण हो सकते हैं। **जावा के लिए Aspose.Words**, आपके पास जैसे शक्तिशाली उपकरणों तक पहुंच है `LayoutCollector` और `LayoutEnumerator` जो इन प्रक्रियाओं को सरल बनाते हैं, जिससे आप असाधारण सामग्री वितरित करने पर ध्यान केंद्रित कर सकते हैं। इस व्यापक गाइड में, हम यह पता लगाएंगे कि अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाने के लिए इन सुविधाओं का उपयोग कैसे करें।
+आप सीखेंगे:
 
-**आप क्या सीखेंगे:**
-- Aspose.Words का उपयोग करें `LayoutCollector` सटीक पृष्ठ अवधि विश्लेषण के लिए.
-- दस्तावेज़ों को कुशलतापूर्वक पार करें `LayoutEnumerator`.
-- गतिशील रेंडरिंग और अद्यतन के लिए लेआउट कॉलबैक लागू करें।
-- निरंतर अनुभागों में पृष्ठ क्रमांकन को प्रभावी ढंग से नियंत्रित करें।
+* **LayoutCollector** का उपयोग करके किसी भी नोड का प्रारंभ और समाप्ति पृष्ठ प्राप्त करना (use layoutcollector page span)  
+* **LayoutEnumerator** के साथ दस्तावेज़ लेआउट को पार करना (traverse document layout)  
+* पेजिनेशन इवेंट्स पर प्रतिक्रिया देने के लिए **लेआउट कॉलबैक** लागू करना (implement layout callback)  
+* निरंतर सेक्शन में **पेज नंबरिंग को पुनः शुरू** करना (restart page numbering sections)  
 
-आइए जानें कि ये उपकरण आपके दस्तावेज़ प्रबंधन प्रक्रियाओं को कैसे बदल सकते हैं। शुरू करने से पहले, नीचे दिए गए हमारे पूर्वापेक्षा अनुभाग को देखकर सुनिश्चित करें कि आप तैयार हैं।
+आइए शुरू करते हैं।
 
-## आवश्यक शर्तें
+## पूर्वापेक्षाएँ  
 
-इस गाइड का पालन करने के लिए, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+### आवश्यक लाइब्रेरीज़  
 
-### आवश्यक लाइब्रेरी और संस्करण
-सुनिश्चित करें कि आपके पास Aspose.Words for Java संस्करण 25.3 स्थापित है।
+| निर्माण उपकरण | निर्भरता |
+|------------|------------|
+| **Maven** | ```xml<br><dependency><groupId>com.aspose</groupId><artifactId>aspose-words</artifactId><version>25.3</version></dependency>``` |
+| **Gradle** | ```gradle<br>implementation 'com.aspose:aspose-words:25.3'``` |
 
-**मावेन:**
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
-</dependency>
-```
+> **नोट:** संस्करण संख्या संगतता के लिए रखी गई है; कोड किसी भी हालिया Aspose.Words for Java रिलीज़ के साथ काम करता है।
 
-**ग्रेडेल:**
-```gradle
-implementation 'com.aspose:aspose-words:25.3'
-```
+### पर्यावरण  
 
-### पर्यावरण सेटअप आवश्यकताएँ
-तुम्हें लगेगा:
-- आपकी मशीन पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- कोड को चलाने और परीक्षण करने के लिए IntelliJ IDEA या Eclipse जैसा IDE.
+* JDK 8 या उससे नया  
+* IntelliJ IDEA या Eclipse जैसे IDE  
 
-### ज्ञान पूर्वापेक्षाएँ
-प्रभावी ढंग से अनुसरण करने के लिए जावा प्रोग्रामिंग की बुनियादी समझ की सिफारिश की जाती है।
+### ज्ञान  
 
-## Aspose.Words की स्थापना
-सबसे पहले, सुनिश्चित करें कि आपने अपने प्रोजेक्ट में Aspose.Words लाइब्रेरी को एकीकृत किया है। आप एक निःशुल्क परीक्षण लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/) या यदि आवश्यक हो तो अस्थायी लाइसेंस का विकल्प चुनें। जावा में Aspose.Words का उपयोग शुरू करने के लिए, इसे निम्न प्रकार से आरंभ करें:
+बुनियादी Java प्रोग्रामिंग और Maven/Gradle की परिचितता उदाहरणों को समझने के लिए पर्याप्त है।
+
+## Aspose.Words की सेटअप  
+
+कोई भी लेआउट API कॉल करने से पहले लाइब्रेरी को लाइसेंस (या ट्रायल मोड) में होना आवश्यक है। नीचे दिया गया स्निपेट न्यूनतम इनिशियलाइज़ेशन दिखाता है:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // लाइसेंस सेट करें (यदि उपलब्ध हो)
+        // Load your license file – skip this line for a trial evaluation
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,26 +77,30 @@ public class SetupAsposeWords {
 }
 ```
 
-आपका सेटअप पूरा हो जाने के बाद, आइए इसकी मुख्य विशेषताओं पर नजर डालें `LayoutCollector` और `LayoutEnumerator`.
+*यह कोड किसी दस्तावेज़ को संशोधित नहीं करता; यह केवल Aspose वातावरण तैयार करता है।*  
 
-## कार्यान्वयन मार्गदर्शिका
+अब हम मुख्य फीचर्स में डुबकी लगाते हैं।
 
-### फ़ीचर 1: पेज स्पैन विश्लेषण के लिए लेआउट कलेक्टर का उपयोग करना
-The `LayoutCollector` यह सुविधा आपको यह निर्धारित करने की अनुमति देती है कि दस्तावेज़ में नोड्स पृष्ठों में कैसे फैले हैं, जिससे पृष्ठांकन विश्लेषण में सहायता मिलती है।
+## फीचर 1: **LayoutCollector** का उपयोग करके पेजिनेशन का विश्लेषण  
 
-#### अवलोकन
-का लाभ उठाकर `LayoutCollector`, हम किसी भी नोड के आरंभ और अंतिम पृष्ठ सूचकांक का पता लगा सकते हैं, साथ ही यह भी जान सकते हैं कि इसमें कितने पृष्ठ हैं।
+`LayoutCollector` प्रत्येक नोड को उस पृष्ठ(पृष्ठों) से मैप करता है जिस पर वह स्थित है। यह **layoutcollector page span** का उपयोग करके पेजिनेशन विश्लेषण करने का सबसे भरोसेमंद तरीका है।
 
-#### कार्यान्वयन चरण
+### चरण‑बद्ध कार्यान्वयन  
 
-**1. दस्तावेज़ और लेआउट कलेक्टर को आरंभ करें**
+1. **एक नया दस्तावेज़ बनाएं और LayoutCollector संलग्न करें।**  
+2. **ऐसी सामग्री जोड़ें जो पेजिनेशन को मजबूर करे** (जैसे पेज ब्रेक, सेक्शन ब्रेक)।  
+3. **`updatePageLayout()`** के साथ लेआउट को रीफ़्रेश करें।  
+4. **कलेक्टर** से प्रारंभ पृष्ठ, समाप्ति पृष्ठ, और कुल पृष्ठों की जानकारी प्राप्त करें।
+
+#### 1️⃣ Document और LayoutCollector को इनिशियलाइज़ करें  
+
 ```java
-Document doc = new Document();
+Document doc = new Document();                 // Empty document
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. दस्तावेज़ भरें**
-यहां, हम ऐसी सामग्री जोड़ेंगे जो एकाधिक पृष्ठों तक फैली होगी:
+#### 2️⃣ दस्तावेज़ को भरें  
+
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -102,63 +110,82 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. लेआउट अपडेट करें और मेट्रिक्स पुनर्प्राप्त करें**
-```java
-layoutCollector.clear();
-doc.updatePageLayout();
+#### 3️⃣ लेआउट अपडेट करें और मेट्रिक्स प्राप्त करें  
 
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```java
+layoutCollector.clear();          // Reset any previous mappings
+doc.updatePageLayout();           // Force pagination calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected: the document occupies 5 pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-#### स्पष्टीकरण
-- **`DocumentBuilder`:** दस्तावेज़ में सामग्री सम्मिलित करने के लिए उपयोग किया जाता है।
-- **`updatePageLayout()`:** सटीक पृष्ठ मेट्रिक्स सुनिश्चित करता है.
+**अपेक्षित आउटपुट**
 
-### फ़ीचर 2: लेआउटएन्यूमेरेटर के साथ ट्रैवर्सिंग
-The `LayoutEnumerator` दस्तावेज़ के लेआउट निकायों के कुशल भ्रमण की अनुमति देता है, तथा प्रत्येक तत्व के गुणों और स्थिति के बारे में विस्तृत जानकारी प्रदान करता है।
+```
+Document spans 5 pages.
+```
 
-#### अवलोकन
-यह सुविधा लेआउट संरचना के माध्यम से दृश्यात्मक रूप से नेविगेट करने में मदद करती है, जो रेंडरिंग और संपादन कार्यों के लिए उपयोगी है।
+> **यह क्यों काम करता है:** `updatePageLayout()` Aspose.Words को लेआउट पुनः गणना करने के लिए मजबूर करता है, जिसके बाद `LayoutCollector` सटीक पेज स्पैन रिपोर्ट कर सकता है।
 
-#### कार्यान्वयन चरण
+## फीचर 2: **LayoutEnumerator** के साथ दस्तावेज़ लेआउट को पार करना  
 
-**1. दस्तावेज़ और लेआउट एन्यूमेरेटर को आरंभ करें**
+जब आपको **दस्तावेज़ लेआउट को पार** करना हो (जैसे कस्टम रेंडरिंग या विश्लेषण के लिए), `LayoutEnumerator` पृष्ठों, पैराग्राफ़, लाइनों और शब्दों का ट्री‑समान दृश्य प्रदान करता है।
+
+### चरण‑बद्ध कार्यान्वयन  
+
+1. लेआउट इकाइयों वाले मौजूदा दस्तावेज़ को लोड करें।  
+2. `LayoutEnumerator` का एक इंस्टेंस बनाएं।  
+3. रूट `PAGE` इकाई पर जाएँ।  
+4. पुनरावर्ती हेल्पर मेथड्स का उपयोग करके लेआउट को आगे और पीछे चलें।
+
+#### 1️⃣ दस्तावेज़ लोड करें और Enumerator बनाएं  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. आगे और पीछे की ओर बढ़ना**
-दस्तावेज़ लेआउट को पार करने के लिए:
+#### 2️⃣ पेज लेवल पर पोज़िशन करें  
+
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
+```
 
-// आगे बढ़ें
+#### 3️⃣ आगे की यात्रा (Depth‑First)  
+
+```java
 traverseLayoutForward(layoutEnumerator, 1);
+```
 
-// पीछे की ओर जाएँ
+#### 4️⃣ पीछे की यात्रा  
+
+```java
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### स्पष्टीकरण
-- **`moveParent()`:** मूल संस्थाओं पर नेविगेट करता है.
-- **ट्रैवर्सल विधियाँ:** व्यापक नेविगेशन के लिए पुनरावर्ती रूप से कार्यान्वित किया गया।
+> **हेल्पर मेथड्स** (`traverseLayoutForward` / `traverseLayoutBackward`) को पुनरावर्ती रूप से लागू किया गया है ताकि प्रत्येक चाइल्ड इकाई का प्रकार और पेज इंडेक्स प्रिंट किया जा सके। आप इन्हें आँकड़े एकत्र करने, ग्राफ़िक्स रेंडर करने, या लेआउट प्रॉपर्टीज़ बदलने के लिए अनुकूलित कर सकते हैं।
 
-### फ़ीचर 3: पेज लेआउट कॉलबैक
-यह सुविधा दर्शाती है कि दस्तावेज़ प्रसंस्करण के दौरान पृष्ठ लेआउट घटनाओं की निगरानी के लिए कॉलबैक को कैसे लागू किया जाए।
+## फीचर 3: **Layout Callbacks** को लागू करना  
 
-#### अवलोकन
-उपयोग `IPageLayoutCallback` इंटरफ़ेस विशिष्ट लेआउट परिवर्तनों पर प्रतिक्रिया करने के लिए, जैसे कि जब कोई अनुभाग पुनः प्रवाहित होता है या रूपांतरण समाप्त होता है।
+कभी‑कभी आपको तब प्रतिक्रिया देनी होती है जब Aspose.Words दस्तावेज़ के किसी भाग का लेआउट समाप्त हो जाता है। `IPageLayoutCallback` को लागू करके आप **layout callback** लॉजिक बना सकते हैं, जैसे प्रत्येक पृष्ठ को इमेज के रूप में सेव करना।
 
-#### कार्यान्वयन चरण
+### चरण‑बद्ध कार्यान्वयन  
 
-**1. कॉलबैक सेट करें**
+1. दस्तावेज़ के `LayoutOptions` में एक कॉलबैक इंस्टेंस असाइन करें।  
+2. कॉलबैक के भीतर `PART_REFLOW_FINISHED` और `CONVERSION_FINISHED` इवेंट्स को हैंडल करें।  
+3. `ImageSaveOptions` का उपयोग करके वर्तमान पृष्ठ को PNG में रेंडर करें।
+
+#### 1️⃣ कॉलबैक रजिस्टर करें  
+
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
+doc.updatePageLayout();                     // Triggers the callback events
 ```
 
-**2. कॉलबैक विधियों को लागू करें**
+#### 2️⃣ कॉलबैक क्लास  
+
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -173,62 +200,60 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
         saveOptions.setPageSet(new PageSet(pageIndex));
 
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
+        try (FileOutputStream stream = new FileOutputStream(
+                "YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
             a.getDocument().save(stream, saveOptions);
         }
     }
+
+    // You can add custom logic here for partFinished / conversionFinished
 }
 ```
 
-#### स्पष्टीकरण
-- **`notify()`:** लेआउट ईवेंट्स को संभालता है.
-- **`ImageSaveOptions`:** रेंडरिंग विकल्पों को कॉन्फ़िगर करता है.
+**क्या होता है:** हर बार जब कोई लेआउट भाग रीफ़्लो समाप्त करता है, कॉलबैक उस पृष्ठ को PNG फ़ाइल में रेंडर करता है, जिससे आपको पेजिनेशन प्रक्रिया का दृश्य ट्रेस मिलता है।
 
-### फ़ीचर 4: निरंतर अनुभागों में पृष्ठ क्रमांकन पुनः आरंभ करें
-यह सुविधा दर्शाती है कि निरंतर अनुभागों में पृष्ठ क्रमांकन को कैसे नियंत्रित किया जाए, जिससे निर्बाध दस्तावेज़ प्रवाह सुनिश्चित हो सके।
+## फीचर 4: निरंतर सेक्शन में **पेज नंबरिंग को पुनः शुरू** करना  
 
-#### अवलोकन
-बहु-अनुभागीय दस्तावेज़ों से निपटते समय पृष्ठ संख्याओं को प्रभावी ढंग से प्रबंधित करें `ContinuousSectionRestart`.
+जब दस्तावेज़ में निरंतर सेक्शन होते हैं, आप चाह सकते हैं कि पेज नंबर केवल नई भौतिक पृष्ठ पर ही रीसेट हों। यह `ContinuousSectionRestart` सेटिंग से प्राप्त किया जाता है।
 
-#### कार्यान्वयन चरण
+### चरण‑बद्ध कार्यान्वयन  
 
-**1. दस्तावेज़ लोड करें**
+1. लक्ष्य दस्तावेज़ लोड करें।  
+2. `ContinuousSectionPageNumberingRestart` विकल्प बदलें।  
+3. परिवर्तन लागू करने के लिए `updatePageLayout()` फिर से चलाएँ।
+
+#### 1️⃣ दस्तावेज़ लोड करें  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. पेज क्रमांकन विकल्प कॉन्फ़िगर करें**
+#### 2️⃣ रीस्टार्ट व्यवहार कॉन्फ़िगर करें  
+
 ```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
-doc.updatePageLayout();
+doc.getLayoutOptions()
+   .setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+doc.updatePageLayout();            // Apply the new numbering rule
 ```
 
-#### स्पष्टीकरण
-- **`setContinuousSectionPageNumberingRestart()`:** यह कॉन्फ़िगर करता है कि पृष्ठ संख्या निरंतर अनुभागों में कैसे पुनः आरंभ होगी.
+**परिणाम:** अब पेज नंबर केवल नई भौतिक पृष्ठ शुरू होने पर रीसेट होंगे, जिससे रिपोर्ट या पुस्तकों में एक साफ़, पेशेवर लुक बना रहेगा।
 
-## व्यावहारिक अनुप्रयोगों
-यहां कुछ वास्तविक परिदृश्य दिए गए हैं जहां इन सुविधाओं को लागू किया जा सकता है:
-1. **दस्तावेज़ पृष्ठांकन विश्लेषण:** उपयोग `LayoutCollector` इष्टतम पृष्ठांकन के लिए सामग्री लेआउट का विश्लेषण और समायोजन करना।
-2. **पीडीएफ रेंडरिंग:** काम `LayoutEnumerator` दृश्य संरचना को संरक्षित करते हुए पीडीएफ को सटीक रूप से नेविगेट और प्रस्तुत करना।
-3. **गतिशील दस्तावेज़ अद्यतन:** विशिष्ट लेआउट परिवर्तनों पर कार्रवाई शुरू करने के लिए कॉलबैक को क्रियान्वित करना, जिससे वास्तविक समय दस्तावेज़ प्रसंस्करण में वृद्धि होगी।
-4. **बहु-अनुभागीय दस्तावेज़:** व्यावसायिक स्वरूपण के लिए निरंतर अनुभागों वाली रिपोर्ट या पुस्तकों में पृष्ठ क्रमांकन को नियंत्रित करें।
+## व्यावहारिक अनुप्रयोग  
 
-## प्रदर्शन संबंधी विचार
-इष्टतम प्रदर्शन सुनिश्चित करने के लिए:
-- लेआउट विश्लेषण से पहले अनावश्यक तत्वों को हटाकर दस्तावेज़ का आकार न्यूनतम करें।
-- प्रसंस्करण समय को कम करने के लिए कुशल ट्रैवर्सल विधियों का उपयोग करें।
-- संसाधन उपयोग पर नज़र रखें, विशेष रूप से बड़े दस्तावेज़ों को संभालते समय।
+| परिदृश्य | कौन सा API मदद करता है | लाभ |
+|----------|------------------------|------|
+| **लंबे अनुबंधों का ऑडिट** | `LayoutCollector` | जल्दी पता लगाएँ कि कौन से क्लॉज़ कई पृष्ठों पर फैले हैं। |
+| **कस्टम PDF रेंडरिंग** | `LayoutEnumerator` | लेआउट ट्री को चलाकर प्रत्येक लाइन को वेक्टर ग्राफ़िक्स के रूप में एक्सपोर्ट करें। |
+| **लाइव दस्तावेज़ प्रीव्यू** | Layout callbacks | उपयोगकर्ता द्वारा सामग्री संपादित करने पर पेज इमेज ऑन‑द‑फ्लाई जेनरेट करें। |
+| **बहु‑सेक्शन रिपोर्ट** | Continuous section restart | मैन्युअल समायोजन के बिना पेज नंबर लॉजिकल रखें। |
 
-## निष्कर्ष
-महारत हासिल करके `LayoutCollector` और `LayoutEnumerator`आपने Aspose.Words for Java में शक्तिशाली क्षमताओं को अनलॉक कर लिया है। ये उपकरण न केवल जटिल दस्तावेज़ लेआउट को सरल बनाते हैं बल्कि प्रभावी ढंग से टेक्स्ट को प्रबंधित और संसाधित करने की आपकी क्षमता को भी बढ़ाते हैं। इस ज्ञान से लैस, आप अपने रास्ते में आने वाली किसी भी उन्नत टेक्स्ट प्रोसेसिंग चुनौती से निपटने के लिए अच्छी तरह से सुसज्जित हैं।
+## प्रदर्शन टिप्स  
 
+* **`updatePageLayout()`** कॉल करने से पहले अनावश्यक नोड्स को ट्रिम करें – कम तत्वों से पेजिनेशन तेज़ होता है।  
+* कई क्वेरीज़ के लिए **एक ही LayoutCollector** को पुनः उपयोग करें, हर बार नया न बनाएं।  
+* यदि आपको केवल पेज‑लेवल डेटा चाहिए तो **LayoutEnumerator** के साथ ट्रैवर्सल डेप्थ को सीमित रखें।  
+* कॉलबैक उदाहरण में दिखाए अनुसार **स्ट्रीम्स को डिस्पोज़** करें ताकि बड़े दस्तावेज़ों पर मेमोरी लीक न हो।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## निष्कर्ष  
 
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
+`LayoutCollector`, `LayoutEnumerator`, लेआउट कॉलबैक्स, और निरंतर‑सेक्शन नंबरिंग को महारत हासिल करके आप अब **analyze pagination java**, **traverse document layout**, और **restart page numbering sections** के लिए एक पूर्ण टूलबॉक्स रखते हैं। ये APIs आपको मजबूत, उच्च‑प्रदर्शन टेक्स्ट‑प्रोसेसिंग पाइपलाइन बनाने की अनुमति देती हैं जो हर

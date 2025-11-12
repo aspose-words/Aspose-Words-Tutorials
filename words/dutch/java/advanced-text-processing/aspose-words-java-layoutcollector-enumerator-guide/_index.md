@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "Ontgrendel de kracht van Aspose.Words Java's LayoutCollector en LayoutEnumerator voor geavanceerde tekstverwerking. Leer hoe u documentindelingen efficiënt beheert, paginering analyseert en paginanummering regelt."
-"title": "Aspose.Words Java onder de knie krijgen&#58; een complete gids voor LayoutCollector en LayoutEnumerator voor tekstverwerking"
-"url": "/nl/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-12'
+description: Leer hoe u Aspose.Words for Java’s LayoutCollector en LayoutEnumerator
+  kunt gebruiken om paginering te analyseren, de documentlay-out te doorlopen, lay-out‑callbacks
+  te implementeren en paginanummering opnieuw te starten in doorlopende secties.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- analyze pagination java
+- use layoutcollector page span
+- traverse document layout
+- restart page numbering sections
+- implement layout callback
+language: nl
+title: Java-pagineringanalyse met Aspose.Words Layout Tools
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,59 +24,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java‑paginatie‑analyse met Aspose.Words Layout Tools
 
-# Aspose.Words Java onder de knie krijgen: een complete gids voor LayoutCollector en LayoutEnumerator voor tekstverwerking
+## Inleiding  
 
-## Invoering
+Als je **paginatie wilt analyseren** of **de lay‑out van een document wilt doorlopen** in een Java‑applicatie, biedt Aspose.Words for Java twee krachtige API’s: **`LayoutCollector`** en **`LayoutEnumerator`**. Deze klassen stellen je in staat te ontdekken hoeveel pagina’s een node beslaat, door elk lay‑outelement te lopen, te reageren op lay‑outevenementen, en zelfs de paginanummering opnieuw te starten in doorlopende secties. In deze gids lopen we elke functie stap‑voor‑stap door, tonen we praktijkgerichte code‑fragmenten en leggen we de verwachte resultaten uit zodat je ze direct kunt toepassen.
 
-Ondervindt u uitdagingen bij het beheren van complexe documentindelingen met uw Java-applicaties? Of het nu gaat om het bepalen van het aantal pagina's dat een sectie beslaat of het efficiënt doorlopen van indelingsentiteiten, deze taken kunnen ontmoedigend zijn. **Aspose.Words voor Java**, heb je toegang tot krachtige tools zoals `LayoutCollector` En `LayoutEnumerator` die deze processen vereenvoudigen, zodat u zich kunt concentreren op het leveren van uitzonderlijke content. In deze uitgebreide handleiding onderzoeken we hoe u deze functies kunt gebruiken om uw documentverwerkingsmogelijkheden te verbeteren.
+Je leert hoe je:
 
-**Wat je leert:**
-- Gebruik Aspose.Words' `LayoutCollector` voor nauwkeurige analyse van de pagina-omvang.
-- Doorloop documenten efficiënt met de `LayoutEnumerator`.
-- Implementeer lay-outcallbacks voor dynamische rendering en updates.
-- Beheer paginanummering in doorlopende secties effectief.
+* **LayoutCollector gebruikt** om de start‑ en eindpagina van een willekeurige node te krijgen (use layoutcollector page span)  
+* **documentlay‑out doorloopt** met LayoutEnumerator (traverse document layout)  
+* **lay‑out‑callbacks implementeert** om te reageren op paginatie‑gebeurtenissen (implement layout callback)  
+* **paginanummering opnieuw start** in doorlopende secties (restart page numbering sections)  
 
-Laten we eens kijken hoe deze tools uw documentverwerkingsprocessen kunnen transformeren. Voordat we beginnen, zorg ervoor dat u er klaar voor bent door de onderstaande sectie met vereisten te bekijken.
+Laten we beginnen.
 
-## Vereisten
+## Vereisten  
 
-Om deze handleiding te kunnen volgen, hebt u het volgende nodig:
+### Vereiste bibliotheken  
 
-### Vereiste bibliotheken en versies
-Zorg ervoor dat u Aspose.Words voor Java versie 25.3 hebt geïnstalleerd.
+| Buildtool | Afhankelijkheid |
+|------------|------------|
+| **Maven** | ```xml<br><dependency><groupId>com.aspose</groupId><artifactId>aspose-words</artifactId><version>25.3</version></dependency>``` |
+| **Gradle** | ```gradle<br>implementation 'com.aspose:aspose-words:25.3'``` |
 
-**Kenner:**
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>25.3</version>
-</dependency>
-```
+> **Opmerking:** Het versienummer wordt behouden voor compatibiliteit; de code werkt met elke recente Aspose.Words for Java‑release.
 
-**Gradle:**
-```gradle
-implementation 'com.aspose:aspose-words:25.3'
-```
+### Omgeving  
 
-### Vereisten voor omgevingsinstellingen
-Wat heb je nodig:
-- Java Development Kit (JDK) op uw computer geïnstalleerd.
-- Een IDE zoals IntelliJ IDEA of Eclipse voor het uitvoeren en testen van de code.
+* JDK 8 of hoger  
+* Een IDE zoals IntelliJ IDEA of Eclipse  
 
-### Kennisvereisten
-Om de cursus effectief te kunnen volgen, is een basiskennis van Java-programmering vereist.
+### Kennis  
 
-## Aspose.Words instellen
-Zorg er eerst voor dat u de Aspose.Words-bibliotheek in uw project hebt geïntegreerd. U kunt een gratis proeflicentie verkrijgen. [hier](https://releases.aspose.com/words/java/) of kies indien nodig voor een tijdelijke licentie. Om Aspose.Words in Java te gebruiken, initialiseert u het als volgt:
+Basiskennis van Java‑programmeren en vertrouwdheid met Maven/Gradle zijn voldoende om de voorbeelden te volgen.
+
+## Aspose.Words instellen  
+
+Voordat je een lay‑out‑API kunt aanroepen, moet de bibliotheek gelicentieerd zijn (of in trial‑modus worden gebruikt). Het fragment hieronder toont de minimale initialisatie:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Stel de licentie in (indien beschikbaar)
+        // Load your license file – skip this line for a trial evaluation
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,26 +77,30 @@ public class SetupAsposeWords {
 }
 ```
 
-Nu uw installatie compleet is, gaan we dieper in op de kernfuncties van `LayoutCollector` En `LayoutEnumerator`.
+*De code wijzigt geen document; hij bereidt alleen de Aspose‑omgeving voor.*  
 
-## Implementatiegids
+Nu kunnen we de kernfuncties verkennen.
 
-### Functie 1: LayoutCollector gebruiken voor paginaspananalyse
-De `LayoutCollector` Met deze functie kunt u bepalen hoe knooppunten in een document zich over de pagina's uitstrekken, wat helpt bij de pagineringsanalyse.
+## Functie 1: **LayoutCollector** gebruiken voor paginatie‑analyse  
 
-#### Overzicht
-Door gebruik te maken van de `LayoutCollector`kunnen we de begin- en eindpagina-indexen van een knooppunt vaststellen, evenals het totale aantal pagina's dat het beslaat.
+`LayoutCollector` koppelt elke node in een `Document` aan de pagina’s die ze beslaat. Dit is de meest betrouwbare manier om **use layoutcollector page span** toe te passen voor paginatie‑analyse.
 
-#### Implementatiestappen
+### Stapsgewijze implementatie  
 
-**1. Initialiseer Document en LayoutCollector**
+1. **Maak een nieuw document en koppel een LayoutCollector.**  
+2. **Voeg inhoud toe die paginatie afdwingt** (bijv. pagina‑ en sectie‑breuken).  
+3. **Ververs de lay‑out** met `updatePageLayout()`.  
+4. **Vraag de collector** op voor startpagina, eindpagina en het totale aantal beslagen pagina’s.
+
+#### 1️⃣ Document en LayoutCollector initialiseren  
+
 ```java
-Document doc = new Document();
+Document doc = new Document();                 // Empty document
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Vul het document in**
-Hier voegen we inhoud toe die meerdere pagina's beslaat:
+#### 2️⃣ Document vullen  
+
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -102,63 +110,82 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Lay-out bijwerken en statistieken ophalen**
-```java
-layoutCollector.clear();
-doc.updatePageLayout();
+#### 3️⃣ Lay‑out bijwerken en metrieken ophalen  
 
-assert layoutCollector.getNumPagesSpanned(doc) == 5;
+```java
+layoutCollector.clear();          // Reset any previous mappings
+doc.updatePageLayout();           // Force pagination calculation
+
+int pagesSpanned = layoutCollector.getNumPagesSpanned(doc);
+assert pagesSpanned == 5;         // Expected: the document occupies 5 pages
+System.out.println("Document spans " + pagesSpanned + " pages.");
 ```
 
-#### Uitleg
-- **`DocumentBuilder`:** Wordt gebruikt om inhoud in het document in te voegen.
-- **`updatePageLayout()`:** Zorgt voor nauwkeurige paginagegevens.
+**Verwachte uitvoer**
 
-### Functie 2: Traverseren met LayoutEnumerator
-De `LayoutEnumerator` maakt efficiënt navigeren door de lay-outentiteiten van een document mogelijk en biedt gedetailleerde inzichten in de eigenschappen en positie van elk element.
+```
+Document spans 5 pages.
+```
 
-#### Overzicht
-Met deze functie kunt u visueel door de lay-outstructuur navigeren, wat handig is bij rendering- en bewerkingstaken.
+> **Waarom het werkt:** `updatePageLayout()` dwingt Aspose.Words de lay‑out opnieuw te berekenen, waarna `LayoutCollector` nauwkeurig de paginabereiken kan rapporteren.
 
-#### Implementatiestappen
+## Functie 2: Documentlay‑out doorlopen met **LayoutEnumerator**  
 
-**1. Initialiseer Document en LayoutEnumerator**
+Wanneer je **documentlay‑out wilt doorlopen** (bijv. voor aangepaste weergave of analyse), biedt `LayoutEnumerator` een boom‑achtige weergave van pagina’s, alinea’s, regels en woorden.
+
+### Stapsgewijze implementatie  
+
+1. Laad een bestaand document dat lay‑outelementen bevat.  
+2. Maak een `LayoutEnumerator`‑instantie.  
+3. Ga naar de root‑`PAGE`‑entity.  
+4. Loop de lay‑out voorwaarts en achterwaarts met recursieve hulpfuncties.
+
+#### 1️⃣ Document laden en enumerator maken  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. Vooruit en achteruit bewegen**
-Om de documentindeling te doorlopen:
+#### 2️⃣ Positioneren op paginaniveau  
+
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
+```
 
-// Vooruit bewegen
+#### 3️⃣ Voorwaartse doorloop (diepte‑eerst)  
+
+```java
 traverseLayoutForward(layoutEnumerator, 1);
+```
 
-// Achteruit bewegen
+#### 4️⃣ Achterwaartse doorloop  
+
+```java
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### Uitleg
-- **`moveParent()`:** Navigeert naar bovenliggende entiteiten.
-- **Doorkruisingsmethoden:** Recursief geïmplementeerd voor uitgebreide navigatie.
+> **Hulpmethoden** (`traverseLayoutForward` / `traverseLayoutBackward`) worden recursief geïmplementeerd om elk kind‑entity te bezoeken en het type en paginanummer af te drukken. Je kunt ze aanpassen om statistieken te verzamelen, grafische weergaven te renderen of lay‑outeigenschappen te wijzigen.
 
-### Functie 3: Callbacks voor pagina-indeling
-Deze functie laat zien hoe u callbacks implementeert om pagina-indelingsgebeurtenissen te bewaken tijdens documentverwerking.
+## Functie 3: **Layout‑callbacks** implementeren  
 
-#### Overzicht
-Gebruik de `IPageLayoutCallback` interface om te reageren op specifieke lay-outwijzigingen, bijvoorbeeld wanneer een sectie opnieuw wordt ingedeeld of de conversie is voltooid.
+Soms moet je reageren wanneer Aspose.Words klaar is met het lay‑outen van een deel van het document. Het implementeren van `IPageLayoutCallback` stelt je in staat **implement layout callback**‑logica toe te passen, zoals elke pagina als afbeelding opslaan.
 
-#### Implementatiestappen
+### Stapsgewijze implementatie  
 
-**1. Terugbellen instellen**
+1. Wijs een callback‑instantie toe aan de `LayoutOptions` van het document.  
+2. Verwerk in de callback de gebeurtenissen `PART_REFLOW_FINISHED` en `CONVERSION_FINISHED`.  
+3. Render de huidige pagina naar PNG met `ImageSaveOptions`.
+
+#### 1️⃣ Callback registreren  
+
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
-doc.updatePageLayout();
+doc.updatePageLayout();                     // Triggers the callback events
 ```
 
-**2. Implementeer callback-methoden**
+#### 2️⃣ Callback‑klasse  
+
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -173,62 +200,68 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
         saveOptions.setPageSet(new PageSet(pageIndex));
 
-        try (FileOutputStream stream = new FileOutputStream("YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
+        try (FileOutputStream stream = new FileOutputStream(
+                "YOUR_ARTIFACTS_DIR/PageLayoutCallback.page-" + (pageIndex + 1) + ".png")) {
             a.getDocument().save(stream, saveOptions);
         }
     }
+
+    // You can add custom logic here for partFinished / conversionFinished
 }
 ```
 
-#### Uitleg
-- **`notify()`:** Verwerkt lay-outgebeurtenissen.
-- **`ImageSaveOptions`:** Configureert renderingopties.
+**Wat er gebeurt:** Telkens wanneer een lay‑out‑deel het reflow‑proces heeft voltooid, rendert de callback die pagina naar een PNG‑bestand, waardoor je een visueel spoor van het paginatie‑proces krijgt.
 
-### Functie 4: Paginanummering opnieuw starten in doorlopende secties
-Deze functie laat zien hoe u paginanummering in doorlopende secties kunt beheren en zo een naadloze documentstroom kunt garanderen.
+## Functie 4: Paginanummering opnieuw starten in **doorlopende secties**  
 
-#### Overzicht
-Beheer paginanummers effectief bij het werken met documenten met meerdere secties met behulp van `ContinuousSectionRestart`.
+Bevat een document doorlopende secties, dan wil je misschien dat paginanummers alleen opnieuw beginnen op een nieuwe fysieke pagina. Dit wordt bereikt met de instelling `ContinuousSectionRestart`.
 
-#### Implementatiestappen
+### Stapsgewijze implementatie  
 
-**1. Document laden**
+1. Laad het doel‑document.  
+2. Wijzig de optie `ContinuousSectionPageNumberingRestart`.  
+3. Voer `updatePageLayout()` opnieuw uit om de wijziging toe te passen.
+
+#### 1️⃣ Document laden  
+
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. Configureer paginanummeringsopties**
+#### 2️⃣ Restart‑gedrag configureren  
+
 ```java
-doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
-doc.updatePageLayout();
+doc.getLayoutOptions()
+   .setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
+doc.updatePageLayout();            // Apply the new numbering rule
 ```
 
-#### Uitleg
-- **`setContinuousSectionPageNumberingRestart()`:** Hiermee configureert u hoe paginanummers opnieuw beginnen in doorlopende secties.
+**Resultaat:** Paginanummers starten nu opnieuw alleen wanneer een nieuwe fysieke pagina begint, waardoor een nette, professionele uitstraling ontstaat voor rapporten of boeken.
 
-## Praktische toepassingen
-Hier zijn enkele realistische scenario's waarin deze functies kunnen worden toegepast:
-1. **Analyse van documentpaginering:** Gebruik `LayoutCollector` om de lay-out van de inhoud te analyseren en aan te passen voor optimale paginering.
-2. **PDF-weergave:** Dienst `LayoutEnumerator` om PDF's nauwkeurig te navigeren en weer te geven, waarbij de visuele structuur behouden blijft.
-3. **Dynamische documentupdates:** Implementeer callbacks om acties te activeren bij specifieke lay-outwijzigingen, waardoor de realtimeverwerking van documenten wordt verbeterd.
-4. **Documenten met meerdere secties:** Bepaal de paginanummering in rapporten of boeken met doorlopende secties voor professionele opmaak.
+## Praktische toepassingen  
 
-## Prestatieoverwegingen
-Om optimale prestaties te garanderen:
-- Minimaliseer de documentgrootte door onnodige elementen te verwijderen vóór de lay-outanalyse.
-- Gebruik efficiënte doorloopmethoden om de verwerkingstijd te verkorten.
-- Houd het resourcegebruik in de gaten, vooral bij het verwerken van grote documenten.
+| Scenario | Welke API helpt | Voordeel |
+|----------|----------------|----------|
+| **Lange contracten auditen** | `LayoutCollector` | Snel vinden welke clausules zich over meerdere pagina’s uitstrekken. |
+| **Aangepaste PDF‑rendering** | `LayoutEnumerator` | Door de lay‑outboom lopen om elke regel als vectorafbeelding te exporteren. |
+| **Live document‑preview** | Layout‑callbacks | Pagina‑afbeeldingen on‑the‑fly genereren terwijl de gebruiker de inhoud bewerkt. |
+| **Meerdere‑sectierapporten** | Doorlopende sectie‑herstart | Paginanummers logisch houden zonder handmatige aanpassingen. |
 
-## Conclusie
-Door het beheersen `LayoutCollector` En `LayoutEnumerator`heb je de krachtige mogelijkheden van Aspose.Words voor Java ontgrendeld. Deze tools vereenvoudigen niet alleen complexe documentindelingen, maar verbeteren ook je vermogen om tekst effectief te beheren en te verwerken. Gewapend met deze kennis ben je goed toegerust om elke geavanceerde tekstverwerkingsuitdaging aan te gaan die op je pad komt.
+## Prestatietips  
 
+* **Verwijder ongebruikte nodes** vóór het aanroepen van `updatePageLayout()` – minder elementen betekenen snellere paginatie.  
+* **Herbruik één LayoutCollector** voor meerdere queries in plaats van deze telkens opnieuw te maken.  
+* **Beperk de diepte van de doorloop** bij gebruik van LayoutEnumerator als je alleen paginaniveau‑gegevens nodig hebt.  
+* **Sluit streams** (zoals in het callback‑voorbeeld) om geheugenlekken bij grote documenten te voorkomen.
+
+## Conclusie  
+
+Door `LayoutCollector`, `LayoutEnumerator`, lay‑out‑callbacks en doorlopende‑sectie‑nummering onder de knie te krijgen, beschik je nu over een complete toolbox voor **analyze pagination java**, **traverse document layout** en **restart page numbering sections**. Deze API’s stellen je in staat robuuste, high‑performance tekstverwerkings‑pijplijnen te bouwen die elke keer professionele resultaten leveren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
