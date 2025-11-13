@@ -1,9 +1,23 @@
 ---
-"date": "2025-03-28"
-"description": "Manfaatkan kekuatan LayoutCollector dan LayoutEnumerator Java Aspose.Words untuk pemrosesan teks tingkat lanjut. Pelajari cara mengelola tata letak dokumen, menganalisis penomoran halaman, dan mengontrol penomoran halaman secara efisien."
-"title": "Menguasai Aspose.Words Java; Panduan Lengkap untuk LayoutCollector & LayoutEnumerator untuk Pemrosesan Teks"
-"url": "/id/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2025-11-13'
+description: Pelajari cara menggunakan Aspose.Words for Java LayoutCollector dan LayoutEnumerator
+  untuk menganalisis rentang halaman, menelusuri entitas tata letak, mengimplementasikan
+  callback, dan memulai ulang penomoran halaman secara efisien.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+- page span analysis java
+- traverse layout entities java
+- page layout callbacks java
+- restart page numbering java
+- document pagination Java
+- Aspose.Words layout API
+- Java text processing
+language: id
+title: 'Aspose.Words Java: Panduan LayoutCollector & LayoutEnumerator'
+url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +26,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Menguasai Aspose.Words Java: Panduan Lengkap LayoutCollector & LayoutEnumerator untuk Pemrosesan Teks
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda menghadapi tantangan dalam mengelola tata letak dokumen yang rumit dengan aplikasi Java Anda? Baik itu menentukan jumlah halaman yang dapat direntangkan oleh suatu bagian atau melintasi entitas tata letak secara efisien, tugas-tugas ini dapat menjadi hal yang menakutkan. Dengan **Aspose.Words untuk Java**, Anda memiliki akses ke alat-alat canggih seperti `LayoutCollector` Dan `LayoutEnumerator` yang menyederhanakan proses ini, sehingga Anda dapat fokus pada penyampaian konten yang luar biasa. Dalam panduan lengkap ini, kami akan membahas cara memanfaatkan fitur-fitur ini untuk meningkatkan kemampuan pemrosesan dokumen Anda.
+Apakah Anda menghadapi tantangan dalam mengelola tata letak dokumen yang kompleks dengan aplikasi Java Anda? Baik itu menentukan jumlah halaman yang dilalui sebuah seksi atau menelusuri entitas tata letak secara efisien, tugas-tugas ini dapat menjadi menakutkan. Dengan **Aspose.Words for Java**, Anda memiliki akses ke alat kuat seperti `LayoutCollector` dan `LayoutEnumerator` yang menyederhanakan proses ini, memungkinkan Anda fokus pada penyampaian konten yang luar biasa. Dalam panduan komprehensif ini, kami akan menjelajahi cara memanfaatkan fitur-fitur ini untuk meningkatkan kemampuan pemrosesan dokumen Anda.
 
 **Apa yang Akan Anda Pelajari:**
-- Gunakan Aspose.Words `LayoutCollector` untuk analisis rentang halaman yang tepat.
+- Gunakan `LayoutCollector` Aspose.Words untuk analisis rentang halaman yang tepat.
 - Menelusuri dokumen secara efisien dengan `LayoutEnumerator`.
-- Terapkan panggilan balik tata letak untuk perenderan dan pembaruan dinamis.
-- Kontrol penomoran halaman dalam bagian-bagian yang berkesinambungan secara efektif.
+- Menerapkan callback tata letak untuk rendering dan pembaruan dinamis.
+- Mengontrol penomoran halaman dalam seksi kontinu secara efektif.
 
-Mari kita bahas bagaimana alat-alat ini dapat mengubah proses penanganan dokumen Anda. Sebelum memulai, pastikan Anda siap dengan memeriksa bagian prasyarat kami di bawah ini.
+Mari kita selami bagaimana alat-alat ini dapat mengubah proses penanganan dokumen Anda. Sebelum kita mulai, pastikan Anda siap dengan memeriksa bagian prasyarat kami di bawah ini.
 
 ## Prasyarat
 
 Untuk mengikuti panduan ini, pastikan Anda memiliki hal berikut:
 
-### Pustaka dan Versi yang Diperlukan
-Pastikan Anda telah menginstal Aspose.Words untuk Java versi 25.3.
+### Perpustakaan dan Versi yang Diperlukan
+Pastikan Anda memiliki Aspose.Words for Java versi 25.3 terpasang.
 
-**Pakar:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,28 +56,27 @@ Pastikan Anda telah menginstal Aspose.Words untuk Java versi 25.3.
 </dependency>
 ```
 
-**Gradasi:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Persyaratan Pengaturan Lingkungan
-Anda akan membutuhkan:
-- Java Development Kit (JDK) terinstal di komputer Anda.
+### Persyaratan Penyiapan Lingkungan
+- Java Development Kit (JDK) terpasang di mesin Anda.
 - IDE seperti IntelliJ IDEA atau Eclipse untuk menjalankan dan menguji kode.
 
 ### Prasyarat Pengetahuan
-Pemahaman dasar tentang pemrograman Java direkomendasikan untuk diikuti secara efektif.
+Pemahaman dasar tentang pemrograman Java disarankan untuk mengikuti dengan efektif.
 
 ## Menyiapkan Aspose.Words
-Pertama, pastikan Anda telah mengintegrasikan pustaka Aspose.Words ke dalam proyek Anda. Anda dapat memperoleh lisensi uji coba gratis [Di Sini](https://releases.aspose.com/words/java/) atau pilih lisensi sementara jika diperlukan. Untuk mulai menggunakan Aspose.Words di Java, inisialisasikan sebagai berikut:
+Pertama, pastikan Anda telah mengintegrasikan perpustakaan Aspose.Words ke dalam proyek Anda. Anda dapat memperoleh lisensi percobaan gratis [di sini](https://releases.aspose.com/words/java/) atau memilih lisensi sementara jika diperlukan. Untuk mulai menggunakan Aspose.Words di Java, inisialisasi seperti berikut:
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Siapkan lisensi (jika tersedia)
+        // Set up the license (if available)
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,26 +85,26 @@ public class SetupAsposeWords {
 }
 ```
 
-Setelah pengaturan Anda selesai, mari kita selami fitur inti `LayoutCollector` Dan `LayoutEnumerator`.
+Dengan penyiapan selesai, mari kita selami fitur inti `LayoutCollector` dan `LayoutEnumerator`.
 
 ## Panduan Implementasi
 
 ### Fitur 1: Menggunakan LayoutCollector untuk Analisis Rentang Halaman
-Itu `LayoutCollector` Fitur ini memungkinkan Anda menentukan bagaimana simpul dalam suatu dokumen tersebar di beberapa halaman, membantu dalam analisis pagination.
+Fitur `LayoutCollector` memungkinkan Anda menentukan bagaimana node dalam dokumen tersebar di halaman, membantu dalam analisis paginasi.
 
-#### Ringkasan
-Dengan memanfaatkan `LayoutCollector`, kita dapat memastikan indeks halaman awal dan akhir dari setiap node, serta jumlah total halaman yang dicakupnya.
+#### Gambaran Umum
+Dengan memanfaatkan `LayoutCollector`, kita dapat menentukan indeks halaman mulai dan akhir dari setiap node, serta total jumlah halaman yang dilaluinya.
 
-#### Langkah-langkah Implementasi
+#### Langkah-Langkah Implementasi
 
-**1. Inisialisasi Dokumen dan LayoutCollector**
+**1. Inisialisasi Document dan LayoutCollector**
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Isi Dokumen**
-Di sini, kami akan menambahkan konten yang mencakup beberapa halaman:
+**2. Isi Document**
+Di sini, kita akan menambahkan konten yang melintasi beberapa halaman:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -102,7 +114,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Perbarui Tata Letak dan Ambil Metrik**
+**3. Perbarui Layout dan Dapatkan Metrik**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -112,53 +124,53 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 
 #### Penjelasan
 - **`DocumentBuilder`:** Digunakan untuk menyisipkan konten ke dalam dokumen.
-- **`updatePageLayout()`:** Memastikan metrik halaman akurat.
+- **`updatePageLayout()`:** Menjamin metrik halaman yang akurat.
 
 ### Fitur 2: Menelusuri dengan LayoutEnumerator
-Itu `LayoutEnumerator` memungkinkan penelusuran yang efisien atas entitas tata letak dokumen, memberikan wawasan terperinci mengenai properti dan posisi setiap elemen.
+`LayoutEnumerator` memungkinkan penelusuran efisien entitas tata letak dokumen, memberikan wawasan detail tentang properti dan posisi setiap elemen.
 
-#### Ringkasan
-Fitur ini membantu dalam navigasi visual melalui struktur tata letak, berguna untuk tugas rendering dan pengeditan.
+#### Gambaran Umum
+Fitur ini membantu dalam menavigasi secara visual struktur tata letak, berguna untuk tugas rendering dan penyuntingan.
 
-#### Langkah-langkah Implementasi
+#### Langkah-Langkah Implementasi
 
-**1. Inisialisasi Dokumen dan LayoutEnumerator**
+**1. Inisialisasi Document dan LayoutEnumerator**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. Melintasi Maju dan Mundur**
-Untuk melintasi tata letak dokumen:
+**2. Menelusuri Maju dan Mundur**
+Untuk menelusuri tata letak dokumen:
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
-// Melintasi ke depan
+// Traverse forward
 traverseLayoutForward(layoutEnumerator, 1);
 
-// Melintasi mundur
+// Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
 #### Penjelasan
 - **`moveParent()`:** Menavigasi ke entitas induk.
-- **Metode Traversal:** Diimplementasikan secara rekursif untuk navigasi yang komprehensif.
+- **Metode Traversal:** Diimplementasikan secara rekursif untuk navigasi komprehensif.
 
-### Fitur 3: Panggilan Balik Tata Letak Halaman
-Fitur ini menunjukkan cara menerapkan panggilan balik untuk memantau peristiwa tata letak halaman selama pemrosesan dokumen.
+### Fitur 3: Callback Tata Letak Halaman
+Fitur ini menunjukkan cara mengimplementasikan callback untuk memantau peristiwa tata letak halaman selama pemrosesan dokumen.
 
-#### Ringkasan
-Gunakan `IPageLayoutCallback` antarmuka untuk bereaksi terhadap perubahan tata letak tertentu, seperti saat bagian diubah alurnya atau konversi selesai.
+#### Gambaran Umum
+Gunakan antarmuka `IPageLayoutCallback` untuk merespons perubahan tata letak tertentu, seperti saat sebuah seksi mengalir ulang atau konversi selesai.
 
-#### Langkah-langkah Implementasi
+#### Langkah-Langkah Implementasi
 
-**1. Mengatur Panggilan Balik**
+**1. Atur Callback**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```
 
-**2. Menerapkan Metode Panggilan Balik**
+**2. Implementasikan Metode Callback**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -181,18 +193,18 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 ```
 
 #### Penjelasan
-- **`notify()`:** Menangani acara tata letak.
+- **`notify()`:** Menangani peristiwa tata letak.
 - **`ImageSaveOptions`:** Mengonfigurasi opsi rendering.
 
-### Fitur 4: Mulai Ulang Penomoran Halaman di Bagian Berkelanjutan
-Fitur ini menunjukkan cara mengontrol penomoran halaman dalam beberapa bagian yang berkesinambungan, guna memastikan kelancaran alur dokumen.
+### Fitur 4: Memulai Ulang Penomoran Halaman di Seksi Kontinu
+Fitur ini menunjukkan cara mengontrol penomoran halaman di seksi kontinu, memastikan alur dokumen yang mulus.
 
-#### Ringkasan
-Kelola nomor halaman secara efektif saat menangani dokumen multi-bagian menggunakan `ContinuousSectionRestart`.
+#### Gambaran Umum
+Kelola nomor halaman secara efektif saat menangani dokumen multi-seksi menggunakan `ContinuousSectionRestart`.
 
-#### Langkah-langkah Implementasi
+#### Langkah-Langkah Implementasi
 
-**1. Muat Dokumen**
+**1. Muat Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
@@ -204,31 +216,28 @@ doc.updatePageLayout();
 ```
 
 #### Penjelasan
-- **`setContinuousSectionPageNumberingRestart()`:** Mengonfigurasi bagaimana nomor halaman dimulai ulang dalam bagian yang berkesinambungan.
+- **`setContinuousSectionPageNumberingRestart()`:** Mengonfigurasi cara nomor halaman diulang di seksi kontinu.
 
 ## Aplikasi Praktis
-Berikut adalah beberapa skenario dunia nyata di mana fitur-fitur ini dapat diterapkan:
-1. **Analisis Paginasi Dokumen:** Menggunakan `LayoutCollector` untuk menganalisis dan menyesuaikan tata letak konten untuk paginasi optimal.
-2. **Rendering PDF:** Mempekerjakan `LayoutEnumerator` untuk menavigasi dan menyajikan PDF secara akurat, sambil mempertahankan struktur visual.
-3. **Pembaruan Dokumen Dinamis:** Terapkan panggilan balik untuk memicu tindakan pada perubahan tata letak tertentu, sehingga meningkatkan pemrosesan dokumen waktu nyata.
-4. **Dokumen Multi-Bagian:** Kontrol penomoran halaman dalam laporan atau buku dengan bagian-bagian yang berkesinambungan untuk pemformatan profesional.
+Berikut beberapa skenario dunia nyata di mana fitur-fitur ini dapat diterapkan:
+1. **Analisis Paginasi Dokumen:** Gunakan `LayoutCollector` untuk menganalisis dan menyesuaikan tata letak konten untuk paginasi optimal.
+2. **Rendering PDF:** Manfaatkan `LayoutEnumerator` untuk menavigasi dan merender PDF secara akurat, mempertahankan struktur visual.
+3. **Pembaruan Dokumen Dinamis:** Implementasikan callback untuk memicu tindakan saat perubahan tata letak tertentu, meningkatkan pemrosesan dokumen secara real-time.
+4. **Dokumen Multi-Seksi:** Kontrol penomoran halaman dalam laporan atau buku dengan seksi kontinu untuk format profesional.
 
 ## Pertimbangan Kinerja
-Untuk memastikan kinerja yang optimal:
-- Minimalkan ukuran dokumen dengan menghapus elemen yang tidak diperlukan sebelum analisis tata letak.
-- Gunakan metode traversal yang efisien untuk mengurangi waktu pemrosesan.
+Untuk memastikan kinerja optimal:
+- Kurangi ukuran dokumen dengan menghapus elemen yang tidak diperlukan sebelum analisis tata letak.
+- Gunakan metode penelusuran yang efisien untuk mengurangi waktu pemrosesan.
 - Pantau penggunaan sumber daya, terutama saat menangani dokumen besar.
 
 ## Kesimpulan
-Dengan menguasai `LayoutCollector` Dan `LayoutEnumerator`Anda telah membuka kemampuan hebat di Aspose.Words untuk Java. Alat-alat ini tidak hanya menyederhanakan tata letak dokumen yang rumit tetapi juga meningkatkan kemampuan Anda untuk mengelola dan memproses teks secara efektif. Berbekal pengetahuan ini, Anda diperlengkapi dengan baik untuk mengatasi tantangan pemrosesan teks tingkat lanjut apa pun yang menghadang Anda.
-
+Dengan menguasai `LayoutCollector` dan `LayoutEnumerator`, Anda telah membuka kemampuan kuat di Aspose.Words untuk Java. Alat-alat ini tidak hanya menyederhanakan tata letak dokumen yang kompleks tetapi juga meningkatkan kemampuan Anda dalam mengelola dan memproses teks secara efektif. Dengan pengetahuan ini, Anda siap menghadapi tantangan pemrosesan teks lanjutan apa pun yang datang.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
