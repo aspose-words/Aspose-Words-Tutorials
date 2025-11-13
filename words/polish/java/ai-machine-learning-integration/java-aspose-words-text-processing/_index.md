@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "Dowiedz się, jak zautomatyzować podsumowanie tekstu i tłumaczenie za pomocą Aspose.Words for Java z OpenAI's GPT-4 i Google's Gemini. Ulepsz swoje aplikacje Java już dziś."
-"title": "Opanuj przetwarzanie tekstu w Javie, używając Aspose.Words i modeli AI do podsumowania i tłumaczenia"
-"url": "/pl/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2025-11-13'
+description: Zautomatyzuj streszczanie i tłumaczenie tekstu w Javie przy użyciu Aspose.Words,
+  OpenAI GPT‑4 i Google Gemini. Zwiększ produktywność i wzbogacaj swoje aplikacje
+  już teraz.
+keywords:
+- text processing in Java
+- Aspose.Words for Java
+- AI text summarization
+- summarize text with ai
+- translate word document java
+- aspose.words maven integration
+- openai gpt-4 summarization java
+- google gemini translation java
+language: pl
+title: 'Java: streszczanie i tłumaczenie tekstu przy użyciu Aspose.Words i AI'
+url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,45 +24,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Master Text Processing in Java: Using Aspose.Words & AI Models
 
-# Opanuj przetwarzanie tekstu w Javie: korzystanie z Aspose.Words i modeli AI
+**Automate text summarization and translation with Aspose.Words for Java integrated with AI models like OpenAI's GPT-4 and Google's Gemini.**
 
-**Zautomatyzuj podsumowania i tłumaczenia tekstu dzięki Aspose.Words for Java zintegrowanemu z modelami AI, takimi jak GPT-4 firmy OpenAI i Gemini firmy Google.**
+## Introduction
 
-## Wstęp
-
-Masz problemy z wyodrębnianiem kluczowych spostrzeżeń z dużych dokumentów lub szybkim tłumaczeniem treści na różne języki? Zautomatyzuj te zadania wydajnie, korzystając z potężnych narzędzi, aby zaoszczędzić czas i zwiększyć produktywność. Ten samouczek przeprowadzi Cię przez proces korzystania z Aspose.Words for Java wraz z modelami AI, takimi jak OpenAI's GPT-4 i Google's Gemini 15 Flash, w celu podsumowania i tłumaczenia tekstu.
+Masz problem z wyodrębnianiem kluczowych informacji z dużych dokumentów lub szybkim tłumaczeniem treści na różne języki? Możesz zautomatyzować te zadania efektywnie, korzystając z potężnych narzędzi, które oszczędzają czas i zwiększają wydajność. W tym samouczku pokażemy, jak **streszczyć tekst przy użyciu AI** oraz **przetłumaczyć dokumenty Word w Javie**, łącząc Aspose.Words z najnowszymi modelami OpenAI i Google Gemini.
 
 **Czego się nauczysz:**
-- Konfigurowanie Aspose.Words za pomocą Maven lub Gradle
-- Wdrażanie podsumowania tekstu przy użyciu modeli AI
-- Tłumaczenie dokumentów na różne języki
-- Najlepsze praktyki integrowania tych narzędzi w aplikacjach Java
+- Jak skonfigurować Aspose.Words przy użyciu Maven lub Gradle (aspose.words maven integration)
+- Implementacja streszczania tekstu przy użyciu OpenAI GPT‑4 (openai gpt-4 summarization java)
+- Tłumaczenie dokumentów na różne języki przy pomocy Google Gemini (google gemini translation java)
+- Najlepsze praktyki integracji tych narzędzi w aplikacjach Java
 
-Zanim rozpoczniesz wdrażanie, upewnij się, że masz wszystko, co potrzebne.
+Zanim przejdziesz do implementacji, upewnij się, że masz wszystko, czego potrzebujesz.
 
-## Wymagania wstępne
+## Prerequisites
 
 Upewnij się, że spełniasz następujące wymagania:
 
-### Wymagane biblioteki i wersje
-- **Aspose.Words dla Javy:** Wersja 25.3 lub nowsza.
-- **Zestaw narzędzi programistycznych Java (JDK):** Zainstalowany pakiet JDK (najlepiej wersja 8 lub nowsza).
-- **Narzędzia do kompilacji:** Maven lub Gradle, w zależności od preferencji.
+### Required Libraries and Versions
+- **Aspose.Words for Java:** wersja 25.3 lub nowsza.
+- **Java Development Kit (JDK):** zainstalowany JDK (preferowanie wersja 8 lub wyższa).
+- **Build Tools:** Maven lub Gradle, w zależności od preferencji.
 
-### Wymagania dotyczące konfiguracji środowiska
-- Odpowiednie zintegrowane środowisko programistyczne (IDE), np. IntelliJ IDEA lub Eclipse.
-- Dostęp do usług OpenAI i Google AI, co może wymagać kluczy API.
+### Environment Setup Requirements
+- Odpowiednie zintegrowane środowisko programistyczne (IDE) takie jak IntelliJ IDEA lub Eclipse.
+- Dostęp do usług OpenAI i Google AI, które mogą wymagać kluczy API.
 
-### Wymagania wstępne dotyczące wiedzy
-- Podstawowa znajomość programowania w Javie.
-- Znajomość obsługi bibliotek zewnętrznych w projekcie Java.
+### Knowledge Prerequisites
+- Podstawowa znajomość programowania w języku Java.
+- Znajomość obsługi zewnętrznych bibliotek w projekcie Java.
 
-## Konfigurowanie Aspose.Words
+## Setting Up Aspose.Words
 
-Aby rozpocząć korzystanie z Aspose.Words dla Java, dodaj niezbędne zależności do konfiguracji kompilacji.
+Aby rozpocząć korzystanie z Aspose.Words for Java, dodaj niezbędne zależności do konfiguracji budowania. Ten krok zapewnia płynną integrację aspose.words maven.
 
-### Zależność Maven
+### Maven Dependency
 
 Dodaj ten fragment do swojego `pom.xml`:
 
@@ -62,37 +73,37 @@ Dodaj ten fragment do swojego `pom.xml`:
 </dependency>
 ```
 
-### Zależność Gradle
+### Gradle Dependency
 
-Uwzględnij to w swoim `build.gradle` plik:
+Umieść to w pliku `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Nabycie licencji
+### License Acquisition
 
-Aspose.Words wymaga licencji dla pełnej funkcjonalności. Możesz nabyć:
-- A **bezpłatny okres próbny** aby przetestować funkcje.
-- A **licencja tymczasowa** w celu rozszerzonej oceny.
-- A **zakup licencji** do użytku produkcyjnego.
+Aspose.Words wymaga licencji do pełnej funkcjonalności. Możesz uzyskać:
+- **bezpłatną wersję próbną** do testowania funkcji,
+- **tymczasową licencję** do rozszerzonej oceny,
+- **licencję komercyjną** do użytku produkcyjnego.
 
-Aby przeprowadzić konfigurację, zainicjuj bibliotekę i ustaw licencję:
+Do konfiguracji, zainicjalizuj bibliotekę i ustaw swoją licencję:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Przewodnik wdrażania
+## Implementation Guide
 
-### Podsumowanie tekstu za pomocą modeli AI
+### Text Summarization with AI Models
 
-Podsumowanie tekstu może być nieocenione w przypadku obszernych dokumentów. Oto, jak wdrożyć je przy użyciu modelu GPT-4 OpenAI.
+Streszczanie tekstu może być nieocenione przy pracy z obszernymi dokumentami. Poniżej znajdziesz krok‑po‑kroku przewodnik, który pokazuje, jak **streszczyć tekst przy użyciu AI** z modelem GPT‑4 od OpenAI.
 
-#### Krok 1: Zainicjuj dokument i model
+#### Step 1: Initialize the Document and Model
 
-Zacznij od załadowania dokumentu i skonfigurowania modelu AI:
+Najpierw wczytaj dokument i utwórz instancję modelu AI:
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +112,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Krok 2: Skonfiguruj opcje podsumowania
+#### Step 2: Configure Summarization Options
 
-Określ długość podsumowania i utwórz `SummarizeOptions` obiekt:
+Następnie określ pożądaną długość streszczenia i zbuduj obiekt `SummarizeOptions`:
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,86 +122,84 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Krok 3: Zapisz podsumowanie
+#### Step 3: Save the Summary
 
-Zapisz podsumowany dokument w wybranym miejscu:
+Na koniec zapisz streszczony dokument na dysku:
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Tłumaczenie tekstów za pomocą modeli AI
+### Text Translation with AI Models
 
-Bezproblemowo tłumacz dokumenty na różne języki, korzystając z modelu Gemini firmy Google.
+Teraz przetłumaczmy dokument Word przy użyciu modelu Gemini od Google. Ten fragment demonstruje **translate Word document java** w kilku linijkach kodu.
 
-#### Krok 1: Załaduj i przygotuj dokument
+#### Step 1: Load and Prepare the Document
 
-Przygotuj dokument do tłumaczenia:
+Przygotuj dokument źródłowy do tłumaczenia:
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Krok 2: Wykonaj tłumaczenie
+#### Step 2: Execute Translation
 
-Przetłumacz dokument na język arabski:
+Przetłumacz zawartość na arabski (możesz zmienić język docelowy według potrzeb):
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## Zastosowania praktyczne
+## Practical Applications
 
-1. **Raporty biznesowe:** Podsumowuj obszerne raporty biznesowe, aby uzyskać szybki wgląd w sytuację.
-2. **Obsługa klienta:** Tłumacz zapytania klientów na ich języki ojczyste, aby poprawić jakość usług.
-3. **Badania naukowe:** Podsumowuj prace badawcze, aby szybko zrozumieć najważniejsze ustalenia.
+1. **Business Reports:** Streszczaj obszerne raporty biznesowe, aby szybko uzyskać wnioski.
+2. **Customer Support:** Tłumacz zapytania klientów na języki ojczyste, aby poprawić jakość obsługi.
+3. **Academic Research:** Streszczaj prace naukowe, aby szybko zrozumieć kluczowe wyniki.
 
-## Rozważania dotyczące wydajności
+## Performance Considerations
 
-- Optymalizuj żądania API, w miarę możliwości grupując zadania.
-- Monitoruj wykorzystanie zasobów, zwłaszcza podczas przetwarzania obszernych dokumentów.
-- Wprowadź strategie buforowania dla często używanych dokumentów lub tłumaczeń.
+- Optymalizuj żądania API, grupując zadania tam, gdzie to możliwe.
+- Monitoruj zużycie zasobów, szczególnie przy przetwarzaniu dużych dokumentów.
+- Wdrażaj strategie buforowania dla często używanych dokumentów lub tłumaczeń.
 
-## Wniosek
+## Conclusion
 
-Dzięki integracji Aspose.Words z modelami AI, takimi jak OpenAI i Google Gemini, możesz ulepszyć swoje aplikacje Java o potężne możliwości podsumowania tekstu i tłumaczenia. Eksperymentuj z różnymi konfiguracjami, aby najlepiej dopasować je do swoich potrzeb i poznaj dodatkowe funkcje oferowane przez te narzędzia.
+Integrując Aspose.Words z modelami AI, takimi jak OpenAI i Gemini od Google, możesz wzbogacić aplikacje Java o potężne możliwości streszczania i tłumaczenia tekstu. Eksperymentuj z różnymi konfiguracjami, aby najlepiej dopasować je do swoich potrzeb, i odkrywaj dodatkowe funkcje oferowane przez te narzędzia.
 
-**Następne kroki:**
+**Next Steps:**
 - Poznaj bardziej zaawansowane funkcje Aspose.Words.
-- Rozważ integrację dodatkowych usług AI w celu uzyskania większej funkcjonalności.
+- Rozważ integrację dodatkowych usług AI w celu zwiększenia funkcjonalności.
 
-Gotowy na głębsze zanurzenie? Spróbuj wdrożyć te rozwiązania w swoich projektach już dziś!
+Gotowy, aby zagłębić się dalej? Wypróbuj wdrożenie tych rozwiązań w swoich projektach już dziś!
 
-## Sekcja FAQ
+## FAQ Section
 
-1. **Jakie są wymagania systemowe dla korzystania z Aspose.Words z Java?**
-   - Potrzebny jest JDK 8 lub nowszy i zgodne środowisko IDE, np. IntelliJ IDEA.
-2. **Jak uzyskać klucz API do usług OpenAI lub Google AI?**
-   - Zarejestruj się na odpowiedniej platformie, aby uzyskać dostęp do kluczy API w celach programistycznych.
-3. **Czy mogę używać Aspose.Words for Java w projektach komercyjnych?**
-   - Tak, ale musisz uzyskać odpowiednią licencję od Aspose.
-4. **Na jakie języki mogę tłumaczyć teksty korzystając z modelu Gemini?**
+1. **What are the system requirements for using Aspose.Words with Java?**
+   - Potrzebujesz JDK 8 lub wyższego oraz kompatybilnego IDE, takiego jak IntelliJ IDEA.
+2. **How do I obtain an API key for OpenAI or Google AI services?**
+   - Zarejestruj się na odpowiednich platformach, aby uzyskać klucze API do celów deweloperskich.
+3. **Can I use Aspose.Words for Java in commercial projects?**
+   - Tak, ale musisz nabyć odpowiednią licencję od Aspose.
+4. **What languages can I translate text into using the Gemini model?**
    - Model Gemini 15 Flash obsługuje wiele języków, w tym arabski, francuski i inne.
-5. **Jak mogę efektywnie obsługiwać duże dokumenty za pomocą tych narzędzi?**
-   - Podziel zadania na mniejsze części i zoptymalizuj wykorzystanie interfejsu API, aby skutecznie zarządzać zużyciem zasobów.
+5. **How do I handle large documents efficiently with these tools?**
+   - Dziel zadania na mniejsze fragmenty i optymalizuj użycie API, aby efektywnie zarządzać zużyciem zasobów.
 
-## Zasoby
+## Resources
 
-- [Dokumentacja Aspose.Words](https://reference.aspose.com/words/java/)
-- [Pobierz Aspose.Words](https://releases.aspose.com/words/java/)
-- [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna](https://releases.aspose.com/words/java/)
-- [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- [Wsparcie społeczności Aspose](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Aspose.Words](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/words/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Support](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
