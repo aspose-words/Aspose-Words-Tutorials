@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "Pelajari cara mengotomatiskan peringkasan dan penerjemahan teks menggunakan Aspose.Words untuk Java dengan GPT-4 OpenAI dan Gemini Google. Tingkatkan aplikasi Java Anda hari ini."
-"title": "Menguasai Pemrosesan Teks di Java&#58; Menggunakan Aspose.Words & Model AI untuk Ringkasan dan Penerjemahan"
-"url": "/id/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2025-11-14'
+description: Pelajari cara menerjemahkan dokumen menggunakan Gemini dengan Aspose.Words
+  untuk Java serta meringkas teks dengan model AI. Tingkatkan aplikasi Java Anda hari
+  ini.
+keywords:
+- text processing in Java
+- Aspose.Words for Java
+- AI text summarization
+language: id
+title: Menerjemahkan dokumen menggunakan Gemini dengan Aspose.Words untuk Java
+url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,47 +19,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Menguasai Pemrosesan Teks di Java: Menggunakan Aspose.Words & Model AI
 
-**Otomatisasi peringkasan dan penerjemahan teks dengan Aspose.Words untuk Java yang terintegrasi dengan model AI seperti GPT-4 milik OpenAI dan Gemini milik Google.**
+**Otomatisasi rangkuman teks dan terjemahan dengan Aspose.Words untuk Java yang terintegrasi dengan model AI seperti GPT-4 dari OpenAI dan Gemini dari Google.**
 
-## Perkenalan
+## Pendahuluan
 
-Kesulitan mengekstrak wawasan utama dari dokumen besar atau menerjemahkan konten dengan cepat ke berbagai bahasa? Otomatiskan tugas-tugas ini secara efisien menggunakan alat-alat canggih untuk menghemat waktu dan meningkatkan produktivitas. Tutorial ini memandu Anda memanfaatkan Aspose.Words untuk Java bersama model AI seperti GPT-4 OpenAI dan Gemini 15 Flash Google untuk meringkas dan menerjemahkan teks.
+Kesulitan mengekstrak wawasan utama dari dokumen besar atau menerjemahkan konten dengan cepat ke berbagai bahasa? Dalam panduan ini kami akan menunjukkan cara **menerjemahkan dokumen menggunakan gemini** sambil juga mengotomatisasi tugas lain untuk menghemat waktu dan meningkatkan produktivitas. Tutorial ini memandu Anda menggunakan Aspose.Words untuk Java bersama model AI seperti GPT-4 dari OpenAI dan Gemini 15 Flash dari Google untuk merangkum dan menerjemahkan teks.
 
 **Apa yang Akan Anda Pelajari:**
 - Menyiapkan Aspose.Words dengan Maven atau Gradle
-- Menerapkan ringkasan teks menggunakan model AI
+- Mengimplementasikan rangkuman teks menggunakan model AI
 - Menerjemahkan dokumen ke berbagai bahasa
-- Praktik terbaik untuk mengintegrasikan alat-alat ini dalam aplikasi Java
+- Praktik terbaik untuk mengintegrasikan alat ini dalam aplikasi Java
 
-Sebelum memulai implementasi, pastikan Anda memiliki semua yang dibutuhkan.
+Sebelum menyelam ke implementasi, pastikan Anda memiliki semua yang diperlukan.
 
 ## Prasyarat
 
 Pastikan Anda memenuhi persyaratan berikut:
 
 ### Pustaka dan Versi yang Diperlukan
-- **Aspose.Words untuk Java:** Versi 25.3 atau lebih baru.
-- **Kit Pengembangan Java (JDK):** JDK terinstal (sebaiknya versi 8 atau lebih tinggi).
-- **Alat Bangunan:** Maven atau Gradle, tergantung preferensi Anda.
+- **Aspose.Words for Java:** Versi 25.3 atau lebih baru.
+- **Java Development Kit (JDK):** JDK terpasang (sebaiknya versi 8 atau lebih tinggi).
+- **Build Tools:** Maven atau Gradle, tergantung preferensi Anda.
 
-### Persyaratan Pengaturan Lingkungan
-- Lingkungan Pengembangan Terpadu (IDE) yang cocok seperti IntelliJ IDEA atau Eclipse.
-- Akses ke layanan OpenAI dan Google AI, yang mungkin memerlukan kunci API.
+### Persyaratan Penyiapan Lingkungan
+- IDE (Integrated Development Environment) yang cocok seperti IntelliJ IDEA atau Eclipse.
+- Akses ke layanan AI OpenAI dan Google, yang mungkin memerlukan kunci API.
 
 ### Prasyarat Pengetahuan
 - Pemahaman dasar tentang pemrograman Java.
-- Kemampuan dalam menangani pustaka eksternal di proyek Java.
+- Keterbiasaan dalam menangani pustaka eksternal dalam proyek Java.
 
 ## Menyiapkan Aspose.Words
 
 Untuk mulai menggunakan Aspose.Words untuk Java, tambahkan dependensi yang diperlukan ke konfigurasi build Anda.
 
-### Ketergantungan Maven
+### Dependensi Maven
 
-Tambahkan cuplikan ini ke `pom.xml`:
+Tambahkan potongan kode ini ke `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -62,22 +68,22 @@ Tambahkan cuplikan ini ke `pom.xml`:
 </dependency>
 ```
 
-### Ketergantungan Gradle
+### Dependensi Gradle
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini dalam file `build.gradle` Anda:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Akuisisi Lisensi
+### Perolehan Lisensi
 
 Aspose.Words memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh:
-- A **uji coba gratis** untuk menguji fitur.
-- A **lisensi sementara** untuk evaluasi lebih lanjut.
-- A **membeli lisensi** untuk penggunaan produksi.
+- Sebuah **free trial** untuk menguji fitur.
+- Sebuah **temporary license** untuk evaluasi yang lebih lama.
+- Sebuah **purchase license** untuk penggunaan produksi.
 
-Untuk pengaturan, inisialisasi perpustakaan dan atur lisensi Anda:
+Untuk penyiapan, inisialisasi pustaka dan atur lisensi Anda:
 
 ```java
 License license = new License();
@@ -86,9 +92,9 @@ license.setLicense("path/to/your/license/file");
 
 ## Panduan Implementasi
 
-### Ringkasan Teks dengan Model AI
+### Rangkuman Teks dengan Model AI
 
-Merangkum teks dapat sangat berguna saat menangani dokumen yang panjang. Berikut cara menerapkannya menggunakan model GPT-4 OpenAI.
+Merangkum teks dapat sangat berharga saat menangani dokumen yang luas. Berikut cara mengimplementasikannya menggunakan model GPT-4 dari OpenAI.
 
 #### Langkah 1: Inisialisasi Dokumen dan Model
 
@@ -101,9 +107,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Langkah 2: Konfigurasikan Opsi Ringkasan
+#### Langkah 2: Konfigurasikan Opsi Rangkuman
 
-Tentukan panjang ringkasan dan buat `SummarizeOptions` obyek:
+Tentukan panjang rangkuman dan buat objek `SummarizeOptions`:
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,9 +117,9 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Langkah 3: Simpan Ringkasan
+#### Langkah 3: Simpan Rangkuman
 
-Simpan dokumen ringkasan Anda ke lokasi yang diinginkan:
+Simpan dokumen rangkuman Anda ke lokasi yang diinginkan:
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
@@ -121,7 +127,7 @@ summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 
 ### Terjemahan Teks dengan Model AI
 
-Terjemahkan dokumen dengan mudah ke berbagai bahasa menggunakan model Gemini Google.
+Terjemahkan dokumen secara mulus ke berbagai bahasa menggunakan model Gemini dari Google.
 
 #### Langkah 1: Muat dan Siapkan Dokumen
 
@@ -132,65 +138,79 @@ document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Langkah 2: Lakukan Penerjemahan
+#### Langkah 2: Lakukan Terjemahan
 
-Terjemahkan dokumen ke bahasa Arab:
+Terjemahkan dokumen ke Bahasa Arab:
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
+## merangkum teks dengan ai
+
+Ketika Anda membutuhkan gambaran cepat dari laporan besar, **summarize text with ai** menggunakan langkah-langkah yang ditunjukkan di atas. Sesuaikan enum `SummaryLength` untuk mengontrol kedalaman rangkuman—`SHORT`, `MEDIUM`, atau `LONG`. Fleksibilitas ini memungkinkan Anda menyesuaikan output untuk dasbor, ringkasan email, atau rangkuman eksekutif.
+
+## cara menerjemahkan docx
+
+Potongan kode di bagian sebelumnya menunjukkan **how to translate docx** file menggunakan Gemini. Anda dapat mengganti `Language.ARABIC` dengan konstanta bahasa lain yang didukung untuk memenuhi kebutuhan lokalisasi Anda. Ingatlah untuk menangani otentikasi secara aman; simpan kunci API dalam variabel lingkungan atau pengelola rahasia.
+
+## cara merangkum java
+
+Jika Anda bekerja pada pipeline yang berfokus pada Java, integrasikan logika rangkuman langsung ke lapisan layanan Anda. Misalnya, buka endpoint REST yang menerima file `.docx`, menjalankan panggilan `model.summarize`, dan mengembalikan rangkuman sebagai teks biasa atau dokumen baru. Pendekatan ini memungkinkan **how to summarize java** basis kode atau dokumentasi secara otomatis.
+
+## memproses dokumen besar java
+
+Memproses file yang sangat besar dapat membebani memori. Di Java, bagi dokumen menjadi bagian‑bagian menggunakan `NodeCollection` dan kirim setiap potongan ke model AI secara terpisah. Teknik ini—**process large documents java**—membantu Anda tetap berada dalam batas token API sambil mempertahankan kinerja.
+
 ## Aplikasi Praktis
 
-1. **Laporan Bisnis:** Ringkaslah laporan bisnis yang panjang untuk mendapatkan wawasan cepat.
-2. **Dukungan Pelanggan:** Terjemahkan pertanyaan pelanggan ke bahasa asli untuk meningkatkan kualitas layanan.
-3. **Penelitian Akademis:** Ringkaskan makalah penelitian untuk memahami temuan-temuan utama dengan cepat.
+1. **Laporan Bisnis:** Merangkum laporan bisnis yang panjang untuk wawasan cepat.
+2. **Dukungan Pelanggan:** Menerjemahkan pertanyaan pelanggan ke bahasa asli untuk meningkatkan kualitas layanan.
+3. **Penelitian Akademik:** Merangkum makalah penelitian untuk dengan cepat memahami temuan utama.
 
 ## Pertimbangan Kinerja
 
-- Optimalkan permintaan API dengan mengelompokkan tugas jika memungkinkan.
+- Optimalkan permintaan API dengan mengelompokkan tugas bila memungkinkan.
 - Pantau penggunaan sumber daya, terutama saat memproses dokumen besar.
 - Terapkan strategi caching untuk dokumen atau terjemahan yang sering diakses.
 
 ## Kesimpulan
 
-Dengan mengintegrasikan Aspose.Words dengan model AI seperti OpenAI dan Gemini dari Google, Anda dapat menyempurnakan aplikasi Java Anda dengan kemampuan meringkas dan menerjemahkan teks yang canggih. Bereksperimenlah dengan berbagai konfigurasi untuk memenuhi kebutuhan Anda dan jelajahi fitur-fitur tambahan yang ditawarkan oleh alat-alat ini.
+Dengan mengintegrasikan Aspose.Words dengan model AI seperti OpenAI dan Gemini dari Google, Anda dapat meningkatkan aplikasi Java Anda dengan kemampuan rangkuman teks dan terjemahan yang kuat. Bereksperimenlah dengan konfigurasi yang berbeda untuk menyesuaikan kebutuhan Anda dan jelajahi fitur tambahan yang ditawarkan oleh alat-alat ini.
 
-**Langkah Berikutnya:**
-- Jelajahi fitur Aspose.Words yang lebih canggih.
-- Pertimbangkan untuk mengintegrasikan layanan AI tambahan untuk meningkatkan fungsionalitas.
+**Langkah Selanjutnya:**
+- Jelajahi fitur lebih lanjut dari Aspose.Words.
+- Pertimbangkan mengintegrasikan layanan AI tambahan untuk fungsionalitas yang lebih baik.
 
-Siap untuk menyelami lebih dalam? Cobalah menerapkan solusi ini dalam proyek Anda hari ini!
+Siap menyelam lebih dalam? Cobalah mengimplementasikan solusi ini dalam proyek Anda hari ini!
 
 ## Bagian FAQ
 
 1. **Apa persyaratan sistem untuk menggunakan Aspose.Words dengan Java?**
-   - Anda memerlukan JDK 8 atau lebih tinggi, dan IDE yang kompatibel seperti IntelliJ IDEA.
+   - Anda memerlukan JDK 8 atau lebih tinggi, serta IDE yang kompatibel seperti IntelliJ IDEA.
 2. **Bagaimana cara mendapatkan kunci API untuk layanan OpenAI atau Google AI?**
-   - Daftar di platform masing-masing untuk mengakses kunci API untuk tujuan pengembangan.
-3. **Dapatkah saya menggunakan Aspose.Words untuk Java dalam proyek komersial?**
-   - Ya, tetapi Anda harus memperoleh lisensi yang sesuai dari Aspose.
-4. **Bahasa apa saja yang dapat saya terjemahkan teksnya menggunakan model Gemini?**
-   - Model Gemini 15 Flash mendukung banyak bahasa, termasuk Arab, Prancis, dan banyak lagi.
+   - Daftarkan diri Anda di platform masing‑masing untuk mengakses kunci API untuk keperluan pengembangan.
+3. **Apakah saya dapat menggunakan Aspose.Words untuk Java dalam proyek komersial?**
+   - Ya, tetapi Anda harus memperoleh lisensi yang tepat dari Aspose.
+4. **Bahasa apa saja yang dapat saya terjemahkan menggunakan model Gemini?**
+   - Model Gemini 15 Flash mendukung banyak bahasa, termasuk Arab, Prancis, dan lainnya.
 5. **Bagaimana cara menangani dokumen besar secara efisien dengan alat ini?**
-   - Memecah tugas menjadi bagian-bagian yang lebih kecil dan mengoptimalkan penggunaan API untuk mengelola konsumsi sumber daya secara efektif.
+   - Bagi tugas menjadi potongan‑potongan lebih kecil dan optimalkan penggunaan API untuk mengelola konsumsi sumber daya secara efektif.
 
-## Sumber daya
+## Sumber Daya
 
 - [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/)
 - [Unduh Aspose.Words](https://releases.aspose.com/words/java/)
 - [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/words/java/)
+- [Versi Free Trial](https://releases.aspose.com/words/java/)
 - [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Dukungan Komunitas Aspose](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
