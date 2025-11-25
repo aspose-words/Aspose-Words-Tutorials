@@ -1,9 +1,21 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java ile OpenAI'nin GPT-4 ve Google'ın Gemini'sini kullanarak metin özetleme ve çevirisini nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin."
-"title": "Özetleme ve Çeviri için Aspose.Words ve AI Modellerini Kullanarak Java'da Ana Metin İşleme"
-"url": "/tr/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2025-11-13'
+description: Aspose.Words ve OpenAI GPT‑4 ile Google Gemini kullanarak Java'da metin
+  özetleme ve çeviriyi otomatikleştirin. Üretkenliği artırın ve uygulamalarınızı hemen
+  zenginleştirin.
+keywords:
+- text processing in Java
+- Aspose.Words for Java
+- AI text summarization
+- summarize text with ai
+- translate word document java
+- aspose.words maven integration
+- openai gpt-4 summarization java
+- google gemini translation java
+language: tr
+title: Aspose.Words ve AI ile Java Metin Özetleme ve Çeviri
+url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,47 +24,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java'da Metin İşleme Uzmanlığı: Aspose.Words ve AI Modelleri Kullanarak
 
-# Java'da Ana Metin İşleme: Aspose.Words ve AI Modellerini Kullanma
+**Aspose.Words for Java'ı, OpenAI'nin GPT-4 ve Google'ın Gemini gibi AI modelleriyle entegre ederek metin özetleme ve çevirisini otomatikleştirin.**
 
-**Aspose.Words for Java'yı OpenAI'nin GPT-4 ve Google'ın Gemini gibi yapay zeka modelleriyle entegre ederek metin özetleme ve çevirisini otomatikleştirin.**
+## Giriş
 
-## giriiş
+Büyük belgelerden ana içgörüleri çıkarmakta ya da içeriği hızlı bir şekilde farklı dillere çevirmekte zorlanıyor musunuz? Zaman kazandıran ve verimliliği artıran güçlü araçlar kullanarak bu görevleri etkili bir şekilde otomatikleştirebilirsiniz. Bu öğreticide, Aspose.Words'ı en yeni OpenAI ve Google Gemini modelleriyle birleştirerek **AI ile metin özetleme** ve **Java'da Word belgelerini çevirme** konularını adım adım göstereceğiz.
 
-Büyük belgelerden önemli içgörüler çıkarmakta veya içeriği farklı dillere hızla çevirmekte zorluk mu çekiyorsunuz? Zamandan tasarruf etmek ve üretkenliği artırmak için güçlü araçlar kullanarak bu görevleri verimli bir şekilde otomatikleştirin. Bu eğitim, metni özetlemek ve çevirmek için OpenAI'nin GPT-4 ve Google'ın Gemini 15 Flash gibi AI modelleriyle birlikte Java için Aspose.Words'ü kullanmanızda size rehberlik eder.
+**Neler Öğreneceksiniz:**
+- Maven veya Gradle ile Aspose.Words kurulumu (aspose.words maven integration)
+- OpenAI GPT‑4 kullanarak metin özetleme uygulaması (openai gpt-4 summarization java)
+- Google Gemini ile belgeleri farklı dillere çevirme (google gemini translation java)
+- Bu araçları Java uygulamalarına entegre etmek için en iyi uygulamalar
 
-**Ne Öğreneceksiniz:**
-- Maven veya Gradle ile Aspose.Words Kurulumu
-- Yapay zeka modelleri kullanılarak metin özetlemenin uygulanması
-- Belgelerin farklı dillere çevrilmesi
-- Bu araçların Java uygulamalarına entegre edilmesine yönelik en iyi uygulamalar
+Uygulamaya geçmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.
 
-Uygulamaya başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.
+## Önkoşullar
 
-## Ön koşullar
-
-Aşağıdaki gereklilikleri karşıladığınızdan emin olun:
+Aşağıdaki gereksinimleri karşıladığınızdan emin olun:
 
 ### Gerekli Kütüphaneler ve Sürümler
-- **Java için Aspose.Words:** Sürüm 25.3 veya üzeri.
-- **Java Geliştirme Kiti (JDK):** JDK kurulu (tercihen 8 veya üzeri sürüm).
-- **Yapı Araçları:** Tercihinize göre Maven veya Gradle.
+- **Aspose.Words for Java:** Versiyon 25.3 veya üzeri.
+- **Java Development Kit (JDK):** JDK yüklü (tercihen sürüm 8 veya üzeri).
+- **Build Tools:** Maven veya Gradle, tercihinize bağlı olarak.
 
-### Çevre Kurulum Gereksinimleri
-- IntelliJ IDEA veya Eclipse gibi uygun bir Entegre Geliştirme Ortamı (IDE).
-- API anahtarları gerektirebilen OpenAI ve Google AI servislerine erişim.
+### Ortam Kurulum Gereksinimleri
+- Uygun bir Entegre Geliştirme Ortamı (IDE) gibi IntelliJ IDEA veya Eclipse.
+- OpenAI ve Google AI hizmetlerine erişim, API anahtarları gerektirebilir.
 
 ### Bilgi Önkoşulları
-- Java programlamanın temel bilgisi.
-- Java projesinde harici kütüphaneleri kullanma konusunda deneyim.
+- Java programlamaya temel bir anlayış.
+- Java projesinde harici kütüphanelerin yönetimine aşinalık.
 
-## Aspose.Words'ü Kurma
+## Aspose.Words Kurulumu
 
-Java için Aspose.Words'ü kullanmaya başlamak için, yapı yapılandırmanıza gerekli bağımlılıkları ekleyin.
+Aspose.Words for Java'ı kullanmaya başlamak için, gerekli bağımlılıkları yapılandırmanıza ekleyin. Bu adım, sorunsuz bir aspose.words maven entegrasyonu sağlar.
 
 ### Maven Bağımlılığı
 
-Bu parçacığı şuraya ekleyin: `pom.xml`:
+`pom.xml` dosyanıza bu kod parçacığını ekleyin:
 
 ```xml
 <dependency>
@@ -64,20 +75,20 @@ Bu parçacığı şuraya ekleyin: `pom.xml`:
 
 ### Gradle Bağımlılığı
 
-Bunu da ekleyin `build.gradle` dosya:
+`build.gradle` dosyanıza şunu ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Lisans Edinimi
+### Lisans Alımı
 
-Aspose.Words tam işlevsellik için bir lisans gerektirir. Şunları edinebilirsiniz:
-- A **ücretsiz deneme** özellikleri test etmek için.
-- A **geçici lisans** Genişletilmiş değerlendirme için.
-- A **satın alma lisansı** üretim amaçlı.
+Aspose.Words tam işlevsellik için bir lisans gerektirir. Şu yollarla lisans edebilirsiniz:
+- Özellikleri test etmek için **ücretsiz deneme**.
+- Uzatılmış değerlendirme için **geçici lisans**.
+- Üretim kullanımı için **satın alma lisansı**.
 
-Kurulum için kütüphaneyi başlatın ve lisansınızı ayarlayın:
+Kurulum için, kütüphaneyi başlatın ve lisansınızı ayarlayın:
 
 ```java
 License license = new License();
@@ -86,13 +97,13 @@ license.setLicense("path/to/your/license/file");
 
 ## Uygulama Kılavuzu
 
-### Yapay Zeka Modelleriyle Metin Özetleme
+### AI Modelleri ile Metin Özetleme
 
-Kapsamlı belgelerle uğraşırken metni özetlemek paha biçilmez olabilir. İşte OpenAI'nin GPT-4 modelini kullanarak bunu nasıl uygulayacağınız.
+Geniş belgelerle çalışırken metin özetleme çok değerli olabilir. Aşağıda, OpenAI'nin GPT‑4 modelini kullanarak **AI ile metin özetleme** nasıl yapılacağını gösteren adım adım bir kılavuz bulacaksınız.
 
-#### Adım 1: Belgeyi ve Modeli Başlatın
+#### Adım 1: Belge ve Modeli Başlatma
 
-Öncelikle belgenizi yükleyip AI modelini ayarlayarak başlayın:
+İlk olarak, belgenizi yükleyin ve AI model örneğini oluşturun:
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +112,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Adım 2: Özetleme Seçeneklerini Yapılandırın
+#### Adım 2: Özetleme Seçeneklerini Yapılandırma
 
-Özet uzunluğunu belirtin ve bir özet oluşturun `SummarizeOptions` nesne:
+Sonra, istenen özet uzunluğunu belirleyin ve bir `SummarizeOptions` nesnesi oluşturun:
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,30 +122,30 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Adım 3: Özeti Kaydedin
+#### Adım 3: Özeti Kaydetme
 
-Özetlediğiniz belgeyi istediğiniz yere kaydedin:
+Son olarak, özetlenen belgeyi diske kaydedin:
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Yapay Zeka Modelleriyle Metin Çevirisi
+### AI Modelleri ile Metin Çevirisi
 
-Google'ın Gemini modelini kullanarak belgeleri sorunsuz bir şekilde farklı dillere çevirin.
+Şimdi, Google'ın Gemini modelini kullanarak bir Word belgesini çevirelim. Bu bölüm, sadece birkaç kod satırıyla **translate Word document java** işlemini gösterir.
 
-#### Adım 1: Belgeyi Yükleyin ve Hazırlayın
+#### Adım 1: Belgeyi Yükleyip Hazırlama
 
-Belgenizi çeviriye hazırlayın:
+Kaynak belgeyi çeviri için hazırlayın:
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Adım 2: Çeviriyi Çalıştırın
+#### Adım 2: Çeviriyi Gerçekleştirme
 
-Belgeyi Arapçaya çevirin:
+İçeriği Arapça'ya çevirin (hedef dili ihtiyacınıza göre değiştirebilirsiniz):
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
@@ -143,54 +154,52 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 
 ## Pratik Uygulamalar
 
-1. **İşletme Raporları:** Hızlı içgörüler elde etmek için uzun iş raporlarını özetleyin.
-2. **Müşteri Desteği:** Hizmet kalitenizi artırmak için müşteri sorularını ana dillere çevirin.
-3. **Akademik Araştırma:** Temel bulguları hızla kavramak için araştırma makalelerini özetleyin.
+1. **İş Raporları:** Uzun iş raporlarını hızlı içgörüler için özetleyin.
+2. **Müşteri Desteği:** Müşteri sorularını yerel dillere çevirerek hizmet kalitesini artırın.
+3. **Akademik Araştırma:** Araştırma makalelerini özetleyerek ana bulguları hızlıca kavrayın.
 
-## Performans Hususları
+## Performans Düşünceleri
 
-- Mümkün olduğunda görevleri toplu olarak gerçekleştirerek API isteklerini optimize edin.
-- Özellikle büyük belgeleri işlerken kaynak kullanımını izleyin.
-- Sık erişilen belgeler veya çeviriler için önbelleğe alma stratejileri uygulayın.
+- Mümkün olduğunda görevleri toplu işleyerek API isteklerini optimize edin.
+- Özellikle büyük belgeler işlenirken kaynak kullanımını izleyin.
+- Sık erişilen belgeler veya çeviriler için önbellekleme stratejileri uygulayın.
 
-## Çözüm
+## Sonuç
 
-Aspose.Words'ü OpenAI ve Google'ın Gemini gibi AI modelleriyle entegre ederek, Java uygulamalarınızı güçlü metin özetleme ve çeviri yetenekleriyle geliştirebilirsiniz. İhtiyaçlarınıza en uygun şekilde farklı yapılandırmaları deneyin ve bu araçların sunduğu ek özellikleri keşfedin.
+Aspose.Words'u OpenAI ve Google'ın Gemini gibi AI modelleriyle entegre ederek, Java uygulamalarınızı güçlü metin özetleme ve çeviri yetenekleriyle geliştirebilirsiniz. İhtiyacınıza en uygun olacak şekilde farklı yapılandırmalarla denemeler yapın ve bu araçların sunduğu ek özellikleri keşfedin.
 
 **Sonraki Adımlar:**
-- Aspose.Words'ün daha gelişmiş özelliklerini keşfedin.
-- Gelişmiş işlevsellik için ek yapay zeka hizmetlerini entegre etmeyi düşünün.
+- Aspose.Words'un daha gelişmiş özelliklerini keşfedin.
+- Gelişmiş işlevsellik için ek AI hizmetlerini entegre etmeyi düşünün.
 
-Daha derine dalmaya hazır mısınız? Bu çözümleri bugün projelerinizde uygulamaya çalışın!
+Daha derine inmeye hazır mısınız? Bu çözümleri bugün projelerinizde uygulamayı deneyin!
 
 ## SSS Bölümü
 
-1. **Aspose.Words'ü Java ile kullanmak için sistem gereksinimleri nelerdir?**
-   - JDK 8 veya üzeri sürüme ve IntelliJ IDEA gibi uyumlu bir IDE'ye ihtiyacınız var.
-2. **OpenAI veya Google AI servisleri için API anahtarı nasıl edinebilirim?**
-   - Geliştirme amaçlı API anahtarlarına erişmek için ilgili platformlara kayıt olun.
-3. **Aspose.Words for Java'yı ticari projelerde kullanabilir miyim?**
-   - Evet, ancak Aspose'dan uygun bir lisans almanız gerekir.
-4. **Gemini modelini kullanarak metinleri hangi dillere çevirebilirim?**
-   - Gemini 15 Flash modeli Arapça, Fransızca ve daha fazlası dahil olmak üzere birden fazla dili destekliyor.
-5. **Bu araçlarla büyük belgeleri nasıl verimli bir şekilde yönetebilirim?**
-   - Görevleri daha küçük parçalara bölün ve kaynak tüketimini etkili bir şekilde yönetmek için API kullanımını optimize edin.
+1. **Aspose.Words'u Java ile kullanmak için sistem gereksinimleri nelerdir?**
+   - JDK 8 veya daha üstü ve IntelliJ IDEA gibi uyumlu bir IDE'ye ihtiyacınız var.
+2. **OpenAI veya Google AI hizmetleri için API anahtarını nasıl alırım?**
+   - Geliştirme amaçlı API anahtarlarına erişmek için ilgili platformlarda kayıt olun.
+3. **Aspose.Words for Java'ı ticari projelerde kullanabilir miyim?**
+   - Evet, ancak Aspose'tan uygun bir lisans almanız gerekir.
+4. **Gemini modeli ile hangi dillere metin çevirebilirim?**
+   - Gemini 15 Flash modeli, Arapça, Fransızca ve daha fazlası dahil olmak üzere birden çok dili destekler.
+5. **Bu araçlarla büyük belgeleri verimli bir şekilde nasıl yönetirim?**
+   - Görevleri daha küçük parçalara bölün ve kaynak tüketimini etkili yönetmek için API kullanımını optimize edin.
 
 ## Kaynaklar
 
-- [Aspose.Words Belgeleri](https://reference.aspose.com/words/java/)
-- [Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
+- [Aspose.Words Dokümantasyonu](https://reference.aspose.com/words/java/)
+- [Aspose.Words İndir](https://releases.aspose.com/words/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme Sürümü](https://releases.aspose.com/words/java/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 - [Aspose Topluluk Desteği](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
