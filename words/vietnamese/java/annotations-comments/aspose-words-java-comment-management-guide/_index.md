@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách quản lý bình luận và trả lời trong tài liệu Word bằng Aspose.Words for Java. Thêm, in, xóa, đánh dấu là xong và theo dõi dấu thời gian bình luận một cách dễ dàng."
-"title": "Aspose.Words Java&#58; Làm chủ quản lý bình luận trong tài liệu Word"
-"url": "/vi/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2025-11-25'
+description: Tìm hiểu cách thêm bình luận Java bằng Aspose.Words for Java, cũng như
+  cách xóa các phản hồi bình luận. Quản lý, in, xoá và theo dõi thời gian bình luận
+  một cách dễ dàng.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+language: vi
+title: Cách Thêm Bình luận trong Java bằng Aspose.Words
+url: /java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +19,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cách Thêm Bình Luận Java với Aspose.Words
 
-# Aspose.Words Java: Làm chủ quản lý bình luận trong tài liệu Word
+Quản lý bình luận một cách lập trình trong tài liệu Word có thể giống như đi trong mê cung, đặc biệt khi bạn cần **how to add comment java** một cách sạch sẽ và có thể lặp lại. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình thêm bình luận, trả lời, in, xóa, đánh dấu đã hoàn thành, và thậm chí trích xuất dấu thời gian UTC — tất cả đều sử dụng Aspose.Words cho Java. Khi kết thúc, bạn cũng sẽ biết **how to delete comment replies** khi cần dọn dẹp tài liệu.
 
-## Giới thiệu
-Quản lý bình luận trong tài liệu Word theo chương trình có thể là một thách thức, cho dù bạn đang thêm phản hồi hay đánh dấu sự cố là đã giải quyết. Hướng dẫn này hướng dẫn bạn cách sử dụng thư viện Aspose.Words mạnh mẽ với Java để thêm, quản lý và phân tích bình luận hiệu quả.
+## Quick Answers
+- **What library is used?** Aspose.Words for Java  
+- **Primary task?** How to add comment java in a Word document  
+- **How to delete comment replies?** Use the `removeReply` or `removeAllReplies` methods  
+- **Prerequisites?** JDK 8+, Maven or Gradle, and an Aspose.Words license (trial works too)  
+- **Typical implementation time?** ~15‑20 minutes for a basic comment workflow  
 
-**Những gì bạn sẽ học được:**
-- Thêm bình luận và trả lời dễ dàng
-- In tất cả các bình luận và trả lời cấp cao nhất
-- Xóa trả lời bình luận hoặc đánh dấu bình luận là đã hoàn thành
-- Truy xuất ngày và giờ UTC của các bình luận để theo dõi chính xác
+## What is “how to add comment java”?
+Thêm bình luận trong Java có nghĩa là tạo một nút `Comment`, gắn nó vào một đoạn văn, và tùy chọn thêm các phản hồi. Đây là khối xây dựng cho việc xem xét tài liệu hợp tác, vòng phản hồi tự động, và quy trình phê duyệt nội dung.
 
-Bạn đã sẵn sàng nâng cao kỹ năng quản lý tài liệu của mình chưa? Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đầu.
+## Why use Aspose.Words for comment management?
+- **Full control** over comment metadata (author, initials, date) → **Kiểm soát đầy đủ** siêu dữ liệu bình luận (tác giả, ký hiệu, ngày)  
+- **Cross‑format support** – works with DOC, DOCX, ODT, PDF, etc. → **Hỗ trợ đa định dạng** – hoạt động với DOC, DOCX, ODT, PDF, v.v.  
+- **No Microsoft Office dependency** – runs on any server‑side JVM → **Không phụ thuộc vào Microsoft Office** – chạy trên bất kỳ JVM phía máy chủ nào  
+- **Rich API** for marking comments as done, deleting replies, and retrieving UTC timestamps → **API phong phú** để đánh dấu bình luận đã hoàn thành, xóa phản hồi, và lấy dấu thời gian UTC  
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có các thư viện, công cụ và thiết lập môi trường cần thiết. Bạn sẽ cần:
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn
-- Làm quen với các khái niệm lập trình Java cơ bản
-- Một Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse
+## Prerequisites
+- Bộ công cụ phát triển Java (JDK) 8 trở lên  
+- Công cụ xây dựng Maven hoặc Gradle  
+- Một IDE như IntelliJ IDEA hoặc Eclipse  
+- Thư viện Aspose.Words cho Java (xem các đoạn mã phụ thuộc bên dưới)  
 
-### Thiết lập Aspose.Words cho Java
-Aspose.Words là một thư viện toàn diện cho phép bạn làm việc với các tài liệu Word ở nhiều định dạng khác nhau. Để bắt đầu, hãy bao gồm sự phụ thuộc sau vào dự án của bạn:
-
-**Chuyên gia:**
+### Adding the Aspose.Words Dependency
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,52 +55,49 @@ Aspose.Words là một thư viện toàn diện cho phép bạn làm việc vớ
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Mua lại giấy phép
-Aspose.Words là một thư viện trả phí, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để truy cập đầy đủ vào các tính năng của nó. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để khám phá các lựa chọn cấp phép.
+#### License Acquisition
+Aspose.Words là sản phẩm thương mại. Bạn có thể bắt đầu với bản dùng thử miễn phí 30 ngày hoặc yêu cầu giấy phép tạm thời để đánh giá. Truy cập [trang mua](https://purchase.aspose.com/buy) để biết chi tiết.
 
-## Hướng dẫn thực hiện
-Trong phần này, chúng tôi sẽ phân tích từng tính năng liên quan đến quản lý bình luận bằng Aspose.Words trong Java.
+## How to Add Comment Java – Step‑by‑Step Guide
 
-### Tính năng 1: Thêm bình luận với trả lời
-**Tổng quan**
-Tính năng này hướng dẫn cách thêm bình luận và trả lời trong tài liệu Word. Tính năng này lý tưởng cho việc chỉnh sửa tài liệu cộng tác, nơi nhiều người dùng có thể cung cấp phản hồi.
+### Feature 1: Add Comment with Reply
+**Overview** – Demonstrates the core pattern for **how to add comment java** and attach a reply. → **Tổng quan** – Minh họa mẫu cốt lõi cho **how to add comment java** và gắn một phản hồi.
 
-#### Các bước thực hiện
-**Bước 1:** Khởi tạo đối tượng tài liệu
+#### Implementation Steps
+**Step 1:** Initialize the Document Object → **Bước 1:** Khởi tạo đối tượng Document  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 ```
 
-**Bước 2:** Tạo và Thêm Bình luận
+**Step 2:** Create and Add a Comment → **Bước 2:** Tạo và thêm một bình luận  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**Bước 3:** Thêm trả lời cho bình luận
+**Step 3:** Add a Reply to the Comment → **Bước 3:** Thêm một phản hồi vào bình luận  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```
 
-### Tính năng 2: In tất cả bình luận
-**Tổng quan**
-Tính năng này in tất cả các bình luận cấp cao nhất và phản hồi của họ, giúp bạn dễ dàng xem lại phản hồi hàng loạt.
+### Feature 2: Print All Comments
+**Overview** – Retrieves every top‑level comment and its replies for review. → **Tổng quan** – Lấy mọi bình luận cấp cao nhất và các phản hồi của chúng để xem xét.
 
-#### Các bước thực hiện
-**Bước 1:** Tải Tài liệu
+#### Implementation Steps
+**Step 1:** Load the Document → **Bước 1:** Tải tài liệu  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
 ```
 
-**Bước 2:** Lấy và in bình luận
+**Step 2:** Retrieve and Print Comments → **Bước 2:** Truy xuất và in các bình luận  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,12 +111,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### Tính năng 3: Xóa trả lời bình luận
-**Tổng quan**
-Xóa các trả lời cụ thể hoặc tất cả các trả lời khỏi bình luận để giữ cho tài liệu gọn gàng và có tổ chức.
+### Feature 3: How to Delete Comment Replies in Java
+**Overview** – Shows **how to delete comment replies** to keep the document tidy. → **Tổng quan** – Thể hiện **how to delete comment replies** để giữ tài liệu gọn gàng.
 
-#### Các bước thực hiện
-**Bước 1:** Khởi tạo và Thêm Bình luận với Trả lời
+#### Implementation Steps
+**Step 1:** Initialize and Add Comments with Replies → **Bước 1:** Khởi tạo và thêm bình luận kèm phản hồi  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -118,18 +125,17 @@ comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
 ```
 
-**Bước 2:** Xóa trả lời
+**Step 2:** Remove Replies → **Bước 2:** Xóa các phản hồi  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Xóa một trả lời
-comment.removeAllReplies(); // Xóa tất cả các trả lời còn lại
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-### Tính năng 4: Đánh dấu bình luận là xong
-**Tổng quan**
-Đánh dấu bình luận là đã giải quyết để theo dõi các vấn đề hiệu quả trong tài liệu của bạn.
+### Feature 4: Mark Comment as Done
+**Overview** – Flags a comment as resolved, which is useful for tracking issue status. → **Tổng quan** – Đánh dấu một bình luận là đã giải quyết, hữu ích cho việc theo dõi trạng thái vấn đề.
 
-#### Các bước thực hiện
-**Bước 1:** Tạo một tài liệu và thêm bình luận
+#### Implementation Steps
+**Step 1:** Create a Document and Add a Comment → **Bước 1:** Tạo tài liệu và thêm bình luận  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -138,7 +144,7 @@ Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
 ```
 
-**Bước 2:** Đánh dấu bình luận là xong
+**Step 2:** Mark the Comment as Done → **Bước 2:** Đánh dấu bình luận là đã hoàn thành  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -146,12 +152,11 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-### Tính năng 5: Lấy Ngày và Giờ UTC từ Bình luận
-**Tổng quan**
-Truy xuất ngày và giờ UTC chính xác khi bình luận được thêm vào để theo dõi chính xác.
+### Feature 5: Get UTC Date and Time from Comment
+**Overview** – Retrieves the exact UTC timestamp a comment was added, ideal for audit logs. → **Tổng quan** – Lấy dấu thời gian UTC chính xác khi bình luận được thêm, lý tưởng cho nhật ký kiểm toán.
 
-#### Các bước thực hiện
-**Bước 1:** Tạo một tài liệu có chú thích có dấu thời gian
+#### Implementation Steps
+**Step 1:** Create a Document with a Timestamped Comment → **Bước 1:** Tạo tài liệu với bình luận có dấu thời gian  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -161,7 +166,7 @@ comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**Bước 2:** Lưu và Lấy Ngày UTC
+**Step 2:** Save and Retrieve the UTC Date → **Bước 2:** Lưu và truy xuất ngày UTC  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -169,47 +174,60 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```
 
-## Ứng dụng thực tế
-Việc hiểu và sử dụng các tính năng này có thể cải thiện đáng kể việc quản lý tài liệu trong nhiều tình huống khác nhau:
-- **Biên tập hợp tác:** Thúc đẩy sự cộng tác của nhóm bằng cách bình luận và trả lời.
-- **Đánh giá tài liệu:** Đơn giản hóa quy trình đánh giá bằng cách đánh dấu các vấn đề đã được giải quyết.
-- **Quản lý phản hồi:** Theo dõi phản hồi bằng cách sử dụng dấu thời gian chính xác.
+## Practical Applications
+- **Collaborative Editing:** Teams can add and reply to comments directly in generated reports. → **Chỉnh sửa hợp tác:** Các nhóm có thể thêm và trả lời bình luận trực tiếp trong báo cáo được tạo.  
+- **Document Review Workflows:** Mark comments as done to signal that issues have been resolved. → **Quy trình xem xét tài liệu:** Đánh dấu bình luận là đã hoàn thành để báo hiệu các vấn đề đã được giải quyết.  
+- **Audit & Compliance:** UTC timestamps provide an immutable record of when feedback was entered. → **Kiểm toán & Tuân thủ:** Dấu thời gian UTC cung cấp bản ghi không thể thay đổi về thời điểm phản hồi được nhập.  
 
-Những khả năng này có thể được tích hợp vào các hệ thống lớn hơn, chẳng hạn như nền tảng quản lý nội dung hoặc quy trình xử lý tài liệu tự động.
+## Performance Considerations
+- Xử lý bình luận theo lô cho các tệp rất lớn để tránh tăng đột biến bộ nhớ.  
+- Tái sử dụng một thể hiện `Document` duy nhất khi thực hiện nhiều thao tác.  
+- Giữ Aspose.Words luôn cập nhật để hưởng lợi từ các tối ưu hoá hiệu năng trong các phiên bản mới hơn.  
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các tài liệu lớn, hãy cân nhắc các mẹo sau để tối ưu hóa hiệu suất:
-- Giới hạn số lượng bình luận được xử lý cùng một lúc
-- Sử dụng các cấu trúc dữ liệu hiệu quả để lưu trữ và truy xuất các bình luận
-- Cập nhật Aspose.Words thường xuyên để tận dụng những cải tiến về hiệu suất
+## Conclusion
+Bây giờ bạn đã biết **how to add comment java** bằng Aspose.Words, cách **how to delete comment replies**, và cách quản lý toàn bộ vòng đời bình luận — từ tạo, giải quyết đến trích xuất dấu thời gian. Hãy tích hợp các đoạn mã này vào các dịch vụ Java hiện có của bạn để tự động hoá các chu kỳ xem xét và cải thiện quản trị tài liệu.
 
-## Phần kết luận
-Bây giờ bạn đã thành thạo việc thêm, quản lý và phân tích các chú thích trong Java bằng Aspose.Words. Với những kỹ năng này, bạn có thể cải thiện đáng kể quy trình quản lý tài liệu của mình. Tiếp tục khám phá các tính năng khác của Aspose.Words để khai thác hết tiềm năng của nó.
+**Next Steps**
+- Thử nghiệm lọc bình luận theo tác giả hoặc ngày.  
+- Kết hợp quản lý bình luận với chuyển đổi tài liệu (ví dụ, DOCX → PDF) cho các quy trình báo cáo tự động.  
 
-**Các bước tiếp theo:**
-- Thử nghiệm với các chức năng bổ sung của Aspose.Words
-- Tích hợp quản lý bình luận vào các dự án hiện tại của bạn
+## Frequently Asked Questions
 
-Sẵn sàng triển khai các giải pháp này? Hãy bắt đầu ngay hôm nay và hợp lý hóa quy trình xử lý tài liệu của bạn!
+**Q: Can I use these APIs with password‑protected documents?**  
+A: Yes. Load the document with the appropriate `LoadOptions` that include the password.  
+→ **H: Tôi có thể sử dụng các API này với tài liệu được bảo vệ bằng mật khẩu không?**  
+Đ: Có. Tải tài liệu bằng `LoadOptions` phù hợp có bao gồm mật khẩu.
 
-## Phần Câu hỏi thường gặp
-1. **Aspose.Words dành cho Java là gì?**
-   - Đây là thư viện cho phép xử lý các tài liệu Word ở nhiều định dạng khác nhau theo cách lập trình.
-2. **Làm thế nào để cài đặt Aspose.Words cho dự án của tôi?**
-   - Thêm phụ thuộc Maven hoặc Gradle vào tệp dự án của bạn.
-3. **Tôi có thể sử dụng Aspose.Words mà không cần giấy phép không?**
-   - Có, nhưng có giới hạn. Hãy cân nhắc việc xin giấy phép tạm thời hoặc đầy đủ để truy cập hoàn toàn.
-4. **Một số vấn đề thường gặp khi quản lý bình luận là gì?**
-   - Đảm bảo phương pháp tải tài liệu và lấy bình luận phù hợp; xử lý tham chiếu null cẩn thận.
-5. **Làm thế nào để theo dõi những thay đổi trên nhiều tài liệu?**
-   - Triển khai hệ thống kiểm soát phiên bản hoặc sử dụng các tính năng của Aspose.Words để theo dõi các sửa đổi tài liệu.
+**Q: Does Aspose.Words require Microsoft Office to be installed?**  
+A: No. The library is fully independent and works on any platform that supports Java.  
+→ **H: Aspose.Words có yêu cầu cài đặt Microsoft Office không?**  
+Đ: Không. Thư viện hoàn toàn độc lập và hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.
+
+**Q: What happens if I try to remove a reply that doesn’t exist?**  
+A: The `removeReply` method throws an `IllegalArgumentException`. Always check the collection size first.  
+→ **H: Điều gì xảy ra nếu tôi cố gắng xóa một phản hồi không tồn tại?**  
+Đ: Phương thức `removeReply` sẽ ném ra `IllegalArgumentException`. Luôn kiểm tra kích thước của collection trước.
+
+**Q: Is there a limit to the number of comments a document can hold?**  
+A: Practically no, but very large numbers may affect performance; consider processing in chunks.  
+→ **H: Có giới hạn số lượng bình luận mà một tài liệu có thể chứa không?**  
+Đ: Thực tế là không, nhưng số lượng rất lớn có thể ảnh hưởng đến hiệu năng; hãy cân nhắc xử lý theo từng phần.
+
+**Q: How can I export comments to a CSV file?**  
+A: Iterate through the comment collection, extract properties (author, text, date) and write them using standard Java I/O.  
+→ **H: Làm thế nào để xuất bình luận ra file CSV?**  
+Đ: Duyệt qua collection bình luận, trích xuất các thuộc tính (tác giả, nội dung, ngày) và ghi chúng bằng I/O chuẩn của Java.
+
+---
+
+**Last Updated:** 2025-11-25 → **Cập nhật lần cuối:** 2025-11-25  
+**Tested With:** Aspose.Words for Java 25.3 → **Kiểm thử với:** Aspose.Words for Java 25.3  
+**Author:** Aspose → **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
