@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีจัดระเบียบบุ๊กมาร์กอย่างมีประสิทธิภาพในไฟล์ PDF โดยใช้ Aspose.Words สำหรับ Java เพิ่มความสามารถในการอ่านและการนำทางด้วยคู่มือที่ครอบคลุมนี้"
-"title": "จัดการระดับโครงร่างบุ๊กมาร์กใน PDF โดยใช้ Aspose.Words Java"
-"url": "/th/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2025-11-27'
+description: เรียนรู้วิธีสร้างบุ๊กมาร์ก, สร้างไฟล์ PDF พร้อมบุ๊กมาร์ก, และแปลงไฟล์
+  Word เป็น PDF ใน Java ด้วย Aspose.Words คู่มือนี้ครอบคลุมบุ๊กมาร์กซ้อนและระดับโครงร่าง.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+language: th
+title: วิธีสร้างบุ๊กมาร์กและกำหนดระดับโครงร่างในไฟล์ PDF ด้วย Aspose.Words Java
+url: /java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +18,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# วิธีสร้างบุ๊กมาร์กและกำหนดระดับโครงร่างใน PDF ด้วย Aspose.Words Java
 
-# จัดการระดับโครงร่างบุ๊กมาร์กใน PDF โดยใช้ Aspose.Words Java
+## Introduction
+หากคุณเคยประสบปัญหาในการ **สร้างบุ๊กมาร์ก** ที่จัดระเบียบได้ดีเมื่อแปลงเอกสาร Word เป็น PDF คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบายขั้นตอนทั้งหมดของการสร้าง PDF พร้อมบุ๊กมาร์ก การซ้อนกันของบุ๊กมาร์ก และการกำหนดระดับโครงร่าง เพื่อให้ PDF สุดท้ายนำทางได้ง่าย เมื่อเสร็จคุณจะสามารถ **แปลง Word เป็น PDF ด้วย Java** แบบมีโครงสร้างบุ๊กมาร์กที่สะอาดและทำงานได้ในโปรแกรมอ่าน PDF ใด ๆ
 
-## การแนะนำ
-คุณกำลังประสบปัญหาในการจัดการบุ๊กมาร์กเมื่อแปลงเอกสาร Word เป็น PDF หรือไม่ บทช่วยสอนนี้จะแสดงวิธีการใช้ Aspose.Words สำหรับ Java เพื่อจัดระเบียบบุ๊กมาร์กเอกสารของคุณอย่างมีประสิทธิภาพ ทำให้เป็นแบบมืออาชีพและใช้งานง่าย
+### What You’ll Learn
+- ตั้งค่า Aspose.Words for Java ในสภาพแวดล้อมการพัฒนาของคุณ  
+- **วิธีสร้างบุ๊กมาร์ก** ด้วยโปรแกรมและซ้อนกัน  
+- กำหนดระดับโครงร่างของบุ๊กมาร์กเพื่อสร้าง PDF ที่บุ๊กมาร์กสอดคล้องกับโครงสร้างเอกสาร  
+- บันทึกไฟล์ Word เป็น PDF พร้อมคงลำดับชั้นของบุ๊กมาร์กไว้
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- ตั้งค่าและใช้ Aspose.Words สำหรับ Java
-- สร้างบุ๊กมาร์กแบบซ้อนกันในเอกสาร Word
-- กำหนดค่าระดับโครงร่างของบุ๊กมาร์กเพื่อการจัดระเบียบที่ดีขึ้น
-- บันทึกเอกสารเป็น PDF พร้อมบุ๊กมาร์กแบบมีโครงสร้าง
+## Quick Answers
+- **What is the primary class for building documents?** `DocumentBuilder`.  
+- **Which option controls bookmark hierarchy?** `BookmarksOutlineLevelCollection` inside `PdfSaveOptions`.  
+- **Can I use Maven or Gradle?** Yes – both are shown below.  
+- **Do I need a license?** A free trial works for testing; a permanent license is required for production.  
+- **Is this approach suitable for large documents?** Yes, but consider memory‑optimisation techniques (e.g., removing unused resources).
 
-มาดูข้อกำหนดเบื้องต้นกันก่อนที่จะเริ่มต้น!
+### Prerequisites
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
 
-### ข้อกำหนดเบื้องต้น
-ก่อนที่จะเริ่มต้น ให้แน่ใจว่าคุณมี:
-- **ห้องสมุดและสิ่งที่ต้องพึ่งพา**: Aspose.Words สำหรับ Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
-- **การตั้งค่าสภาพแวดล้อม**:JDK ที่ติดตั้งบนเครื่องของคุณพร้อมกับ IDE ที่เข้ากันได้ เช่น IntelliJ IDEA หรือ Eclipse
-- **ข้อกำหนดเบื้องต้นของความรู้**:ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
+- **Libraries and Dependencies** – Aspose.Words for Java (25.3 หรือใหม่กว่า)  
+- **Environment** – JDK 8 หรือใหม่กว่า และ IDE เช่น IntelliJ IDEA หรือ Eclipse  
+- **Basic Knowledge** – ความรู้พื้นฐานการเขียนโปรแกรม Java และความคุ้นเคยกับ Maven หรือ Gradle
 
-## การตั้งค่า Aspose.Words
-ในการเริ่มต้น ให้รวมสิ่งที่ต้องมีในโปรเจ็กต์ของคุณ นี่คือวิธีที่คุณสามารถทำได้โดยใช้ Maven และ Gradle:
+## Setting Up Aspose.Words
+เพื่อเริ่มต้น ให้เพิ่ม dependencies ที่จำเป็นในโปรเจกต์ของคุณ ตัวอย่างการเพิ่ม Aspose.Words ด้วย Maven หรือ Gradle มีดังนี้:
 
-**เมเวน:**
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +55,147 @@
 </dependency>
 ```
 
-**เกรเดิ้ล:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### การขอใบอนุญาต
-Aspose.Words เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถเริ่มทดลองใช้งานฟรีเพื่อสำรวจฟีเจอร์ต่างๆ ของมันได้ ขั้นตอนมีดังนี้:
-1. **ทดลองใช้งานฟรี**: ดาวน์โหลดจาก [หน้าการเปิดตัวของ Aspose](https://releases.aspose.com/words/java/) เพื่อทดสอบความสามารถอย่างเต็มรูปแบบ
-2. **ใบอนุญาตชั่วคราว**:ขอใบอนุญาตชั่วคราวได้ที่ [หน้าใบอนุญาตชั่วคราวของ Aspose](https://purchase.aspose.com/temporary-license/) หากจำเป็น
-3. **ซื้อ**:เพื่อการใช้งานอย่างต่อเนื่อง โปรดซื้อใบอนุญาตจาก [พอร์ทัลการจัดซื้อของ Aspose](https://purchase-aspose.com/buy).
+### License Acquisition
+Aspose.Words เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถเริ่มต้นด้วยการทดลองใช้ฟรีได้:
 
-เมื่อคุณมีไฟล์ลิขสิทธิ์แล้ว ให้เริ่มต้นใช้งานในโปรเจ็กต์ของคุณเพื่อปลดล็อกฟีเจอร์ทั้งหมดของ Aspose.Words
+1. **Free Trial** – ดาวน์โหลดจาก [Aspose release page](https://releases.aspose.com/words/java/)  
+2. **Temporary License** – ขอรับที่ [temporary‑license page](https://purchase.aspose.com/temporary-license/) หากต้องการคีย์ระยะสั้น  
+3. **Full License** – ซื้อผ่าน [Aspose purchasing portal](https://purchase.aspose.com/buy) สำหรับการใช้งานในโปรดักชัน  
 
-## คู่มือการใช้งาน
-มาแบ่งการใช้งานออกเป็นส่วนๆ ที่สามารถจัดการได้:
+หลังจากได้ไฟล์ลิขสิทธิ์แล้ว ให้โหลดไฟล์นั้นเมื่อแอปพลิเคชันเริ่มทำงานเพื่อเปิดใช้งานฟีเจอร์ทั้งหมด
 
-### การสร้างบุ๊กมาร์กแบบซ้อนกัน
-**ภาพรวม**:เรียนรู้วิธีสร้างบุ๊กมาร์กแบบซ้อนกันภายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+## How to Create Bookmarks in PDFs with Aspose.Words Java
+ด้านล่างเราจะแบ่งการทำงานออกเป็นขั้นตอนที่ชัดเจนและเป็นลำดับเลขแต่ละขั้นตอนจะมีคำอธิบายสั้น ๆ ตามด้วยบล็อกโค้ดต้นฉบับ (ไม่เปลี่ยนแปลง)
 
-#### ขั้นตอนที่ 1: เริ่มต้นเอกสารและตัวสร้าง
+### Step 1: Initialize a Document and a DocumentBuilder
+เราเริ่มด้วยการสร้างอินสแตนซ์ `Document` ใหม่และ `DocumentBuilder` ที่ช่วยให้เราสามารถแทรกเนื้อหาและบุ๊กมาร์กได้
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-นี่เป็นการตั้งค่าสภาพแวดล้อมเอกสาร Word ของคุณซึ่งคุณสามารถเริ่มแทรกเนื้อหาได้
 
-#### ขั้นตอนที่ 2: แทรกบุ๊กมาร์กแบบซ้อนกัน
-เริ่มต้นด้วยการสร้างบุ๊กมาร์กหลัก:
+### Step 2: Insert the First (Parent) Bookmark
+สร้างบุ๊กมาร์กระดับบนสุดที่จะใช้เป็นพาเรนต์สำหรับบุ๊กมาร์กลูกในขั้นตอนต่อไป
+
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-ตอนนี้ให้สร้างบุ๊กมาร์กอีกอันไว้ภายใน:
+
+### Step 3: Nest a Child Bookmark Inside the Parent
+ต่อไปเราจะเพิ่มบุ๊กมาร์กที่สองซึ่งอยู่ภายในบุ๊กมาร์กแรก เพื่อแสดงการซ้อนกัน
+
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // สิ้นสุดการคั่นหน้าแบบซ้อนกัน
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-กรอกข้อมูลบุ๊คมาร์กด้านนอกให้สมบูรณ์:
+
+### Step 4: Close the Parent Bookmark
+ปิดบุ๊กมาร์กภายนอกหลังจากเนื้อหาที่ซ้อนอยู่เสร็จสิ้น
+
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### ขั้นตอนที่ 3: เพิ่มบุ๊กมาร์กเพิ่มเติม
-ดำเนินการเพิ่มบุ๊กมาร์กตามต้องการ ตัวอย่างเช่น บุ๊กมาร์กที่สามแยกกัน:
+### Step 5: Add an Independent Third Bookmark
+คุณสามารถเพิ่มบุ๊กมาร์กเพิ่มเติมที่ไม่ได้ซ้อนกับบุ๊กมาร์กอื่นได้เสมอ
+
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### การกำหนดค่าระดับเค้าร่างของบุ๊กมาร์ก
-**ภาพรวม**จัดระเบียบบุ๊กมาร์กของคุณด้วยการตั้งระดับโครงร่างเพื่อการนำทางใน PDF ที่ดีขึ้น
+## Configuring Bookmark Outline Levels
+หลังจากบุ๊กมาร์กถูกสร้างแล้ว เราจะบอก Aspose.Words ว่าบุ๊กมาร์กเหล่านั้นควรปรากฏในโครงร่างของ PDF อย่างไร (แถบนำทางด้านซ้าย)
 
-#### ขั้นตอนที่ 1: ตั้งค่า PdfSaveOptions
+### Step 6: Prepare PdfSaveOptions
+`PdfSaveOptions` ให้เราควบคุมการตั้งค่าโครงร่างได้
+
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-โค้ดสั้นๆ นี้จะเริ่มต้นตัวเลือกที่คุณจะใช้ในการบันทึกเอกสารเป็น PDF พร้อมบุ๊กมาร์กที่จัดระเบียบ
 
-#### ขั้นตอนที่ 2: เพิ่มระดับโครงร่าง
-กำหนดระดับให้กับบุ๊กมาร์กแต่ละรายการ ซึ่งจะกำหนดลำดับชั้นของบุ๊กมาร์ก:
+### Step 7: Assign Hierarchy Levels
+แต่ละบุ๊กมาร์กจะได้รับระดับจำนวนเต็ม; ตัวเลขที่น้อยกว่าจะอยู่สูงกว่าในลำดับชั้น
+
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // ซ้อนอยู่ภายใต้บุ๊กมาร์ก 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### ขั้นตอนที่ 3: บันทึกเอกสาร
-สุดท้ายให้บันทึกเอกสารของคุณเป็น PDF โดยใช้การตั้งค่าเหล่านี้:
+### Step 8: Save the Document as a PDF
+สุดท้ายให้ส่งออกเอกสาร Word เป็น PDF พร้อมคงลำดับชั้นของบุ๊กมาร์กไว้
+
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### เคล็ดลับการแก้ไขปัญหา
-- **บุ๊กมาร์กที่หายไป**: ให้แน่ใจว่าแต่ละ `startBookmark` มีสอดคล้องกัน `endBookmark`-
-- **ระดับที่ไม่ถูกต้อง**:ตรวจสอบลำดับชั้นโดยการตรวจสอบความสัมพันธ์ระหว่างพ่อแม่และลูกในโค้ดของคุณ
+## Why Use This Approach to Generate PDF with Bookmarks?
+- **Professional Navigation** – ผู้อ่านสามารถกระโดดไปยังส่วนต่าง ๆ ได้โดยตรง ทำให้การใช้งานรายงานขนาดใหญ่หรือสัญญากฎหมายสะดวกขึ้น  
+- **Full Control** – คุณกำหนดลำดับชั้นเอง ไม่ใช่โปรแกรมอ่าน PDF  
+- **Cross‑Platform** – ทำงานได้เช่นเดียวกันบน Windows, Linux, และ macOS เนื่องจากเป็น Java แท้ ๆ  
 
-## การประยุกต์ใช้งานจริง
-ต่อไปนี้เป็นสถานการณ์บางอย่างที่คุณสามารถนำความรู้เหล่านี้ไปใช้:
-1. **เอกสารทางกฎหมาย**:จัดระเบียบส่วนและส่วนย่อยเพื่อให้สามารถอ้างอิงได้ง่าย
-2. **รายงาน**:ใช้บุ๊กมาร์กแบบซ้อนกันเพื่อนำทางโครงสร้างข้อมูลที่ซับซ้อน
-3. **สื่อการเรียนรู้**:จัดโครงสร้างบท บทย่อย และประเด็นสำคัญอย่างมีประสิทธิภาพ
+## Common Issues and Solutions
+| Symptom | Likely Cause | Fix |
+|---|---|---|
+| Missing bookmarks in PDF | A `startBookmark` without matching `endBookmark` | Verify every `startBookmark` has a corresponding `endBookmark`. |
+| Incorrect hierarchy | Outline levels assigned out of order | Ensure parent bookmarks have lower level numbers than their children. |
+| License not applied | License file not loaded before document creation | Load the license at the very start of your application (`License license = new License(); license.setLicense("Aspose.Words.lic");`). |
 
-## การพิจารณาประสิทธิภาพ
-- ปรับขนาดเอกสารให้เหมาะสมโดยลบเนื้อหาที่ไม่จำเป็นออกก่อนบันทึก
-- จัดการการใช้หน่วยความจำอย่างมีประสิทธิภาพเมื่อต้องจัดการเอกสารขนาดใหญ่
+## Practical Applications
+1. **Legal Documents** – นำทางไปยังข้อ, ภาคผนวก, และเอกสารแนบได้อย่างรวดเร็ว  
+2. **Financial Reports** – กระโดดระหว่างส่วนต่าง ๆ เช่น งบกำไรขาดทุน, งบดุล, และหมายเหตุ  
+3. **E‑Learning Materials** – ให้สารบัญที่สะท้อนโครงร่างของ PDF อย่างแม่นยำ  
 
-## บทสรุป
-ตอนนี้คุณได้เรียนรู้วิธีการใช้ระดับเค้าโครงบุ๊กมาร์กอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java แล้ว ทักษะนี้จะช่วยปรับปรุงการนำทางของ PDF ของคุณอย่างมาก ทำให้ใช้งานง่ายและเป็นมืออาชีพมากขึ้น
+## Performance Considerations
+- **Memory Management** – สำหรับไฟล์ Word ขนาดใหญ่มาก ควรเรียก `doc.cleanup()` ก่อนบันทึก  
+- **Resource Optimization** – ลบรูปภาพหรือสไตล์ที่ไม่ได้ใช้เพื่อลดขนาด PDF  
 
-**ขั้นตอนต่อไป**:ทดลองใช้โครงสร้างเอกสารที่แตกต่างกันหรือรวมฟังก์ชันนี้เข้ากับแอปพลิเคชันที่ใหญ่กว่าเพื่อดูประโยชน์ในการใช้งานจริง
+## Frequently Asked Questions
 
-## ส่วนคำถามที่พบบ่อย
-1. **ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร?**
-   - รวมไว้เป็นส่วนที่ต้องมีผ่าน Maven หรือ Gradle จากนั้นตั้งค่าไฟล์ใบอนุญาตของคุณ
-2. **ฉันสามารถใช้บุ๊กมาร์กโดยไม่มีระดับโครงร่างได้หรือไม่**
-   - ใช่ แต่การใช้ระดับโครงร่างช่วยปรับปรุงการนำทางใน PDF
-3. **มีข้อจำกัดในการทำบุ๊กมาร์กแบบซ้อนกันอย่างไรบ้าง?**
-   - ไม่มีข้อจำกัดที่เข้มงวด แต่ควรพิจารณาถึงความสามารถในการอ่านและโครงสร้างสำหรับผู้ใช้
-4. **Aspose จัดการเอกสารขนาดใหญ่ได้อย่างไร**
-   - จัดการทรัพยากรอย่างมีประสิทธิภาพ แม้ว่าจะแนะนำให้เพิ่มประสิทธิภาพสำหรับไฟล์ขนาดใหญ่มากก็ตาม
-5. **ฉันสามารถปรับเปลี่ยนบุ๊กมาร์กหลังจากบันทึก PDF ได้หรือไม่?**
-   - ใช่ การใช้ Aspose.PDF สำหรับ Java เพื่อแก้ไขบุ๊กมาร์กหลังการแปลง
+**Q: How do I install Aspose.Words for Java?**  
+A: Add the Maven or Gradle dependency shown earlier, then place your license file in the classpath and load it at runtime.
 
-## ทรัพยากร
-- [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/java/)
-- [ดาวน์โหลดข่าวประชาสัมพันธ์ล่าสุด](https://releases.aspose.com/words/java/)
-- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ทดลองใช้งานฟรี](https://releases.aspose.com/words/java/)
-- [ใบสมัครใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
+**Q: Can I create bookmarks without setting outline levels?**  
+A: Yes, but the PDF viewer will display them as a flat list, which can be hard to navigate in complex documents.
 
+**Q: Is there a limit to how deep bookmarks can be nested?**  
+A: Technically no, but most PDF viewers support up to 9 levels comfortably. Keep the hierarchy logical for readers.
+
+**Q: How does Aspose handle very large Word files?**  
+A: The library streams content and provides methods like `Document.optimizeResources()` to reduce memory footprint.
+
+**Q: Can I edit the bookmarks after the PDF is generated?**  
+A: Absolutely – you can use Aspose.PDF for Java to add, remove, or rename bookmarks in an existing PDF.
+
+## Resources
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)  
+- [Download Latest Releases](https://releases.aspose.com/words/java/)  
+- [Purchase a License](https://purchase.aspose.com/buy)  
+- [Free Trial](https://releases.aspose.com/words/java/)  
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-27  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose

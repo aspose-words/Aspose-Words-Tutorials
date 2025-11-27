@@ -1,9 +1,17 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java kullanarak PDF'lerde yer imlerini etkili bir şekilde nasıl düzenleyeceğinizi öğrenin. Bu kapsamlı kılavuzla okunabilirliği ve gezinmeyi geliştirin."
-"title": "Aspose.Words Java Kullanarak PDF'lerde Ana Yer İşareti Anahat Düzeyleri"
-"url": "/tr/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2025-11-27'
+description: Java'da Aspose.Words kullanarak yer imleri oluşturmayı, yer imli PDF
+  oluşturmayı ve Word'ü PDF'ye dönüştürmeyi öğrenin. Bu kılavuz, iç içe yer imleri
+  ve anahat seviyelerini kapsar.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+language: tr
+title: Aspose.Words Java ile PDF'lerde Yer İmleri Oluşturma ve Taslak Seviyelerini
+  Ayarlama
+url: /java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +20,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Java Kullanarak PDF'lerde Yer İmleri Oluşturma ve Ana Hat Seviyelerini Ayarlama
 
-# Aspose.Words Java Kullanarak PDF'lerde Ana Yer İşareti Anahat Düzeyleri
+## Giriş
+Word belgesini PDF'ye dönüştürürken **yer imleri oluşturma** konusunda zorlandığınız olduysa, doğru yerdesiniz. Bu öğreticide, yer imleriyle bir PDF oluşturma, bunları iç içe yerleştirme ve ana hat seviyelerini atama sürecini adım adım inceleyeceğiz, böylece son PDF kolayca gezilebilir. Sonunda, **Word PDF Java**'ı dönüştürme‑stilinde temiz bir yer imi hiyerarşisiyle herhangi bir PDF görüntüleyicide çalışan bir PDF oluşturabileceksiniz.
 
-## giriiş
-Word belgelerini PDF'lere dönüştürürken yer imlerini yönetmekte zorluk mu çekiyorsunuz? Bu eğitim, belge yer imlerinizi etkili bir şekilde düzenleyerek profesyonel ve gezinmesi kolay hale getirmek için Aspose.Words for Java'yı nasıl kullanacağınızı gösterecektir.
+### Öğrenecekleriniz
+- Aspose.Words for Java'ı geliştirme ortamınıza kurun.  
+- **Yer imleri oluşturma**'ı programlı olarak ve iç içe yerleştirmeyi.  
+- Belge yapısını yansıtan yer imleriyle PDF oluşturmak için yer imi ana hat seviyelerini yapılandırın.  
+- Yer imi hiyerarşisini koruyarak Word dosyasını PDF olarak kaydedin.
 
-**Ne Öğreneceksiniz:**
-- Java için Aspose.Words'ü kurun ve kullanın
-- Word belgelerinde iç içe yer imleri oluşturma
-- Daha iyi bir organizasyon için yer imi anahat düzeylerini yapılandırın
-- Belgeleri yapılandırılmış yer imleriyle PDF olarak kaydedin
+## Hızlı Yanıtlar
+- **Belge oluşturmak için birincil sınıf nedir?** `DocumentBuilder`.  
+- **Yer imi hiyerarşisini kontrol eden seçenek hangisidir?** `PdfSaveOptions` içinde `BookmarksOutlineLevelCollection`.  
+- **Maven veya Gradle kullanabilir miyim?** Evet – ikisi de aşağıda gösterilmiştir.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gereklidir.  
+- **Bu yaklaşım büyük belgeler için uygun mu?** Evet, ancak bellek optimizasyon tekniklerini (ör. kullanılmayan kaynakları kaldırma) göz önünde bulundurun.  
 
-Başlamadan önce ön koşulları gözden geçirelim!
+### Önkoşullar
+Başlamadan önce şunların olduğundan emin olun:
 
-### Ön koşullar
-Başlamadan önce şunlara sahip olduğunuzdan emin olun:
-- **Kütüphaneler ve Bağımlılıklar**: Aspose.Words for Java (sürüm 25.3 veya üzeri).
-- **Çevre Kurulumu**: Bilgisayarınıza kurulu bir JDK ve IntelliJ IDEA veya Eclipse gibi uyumlu bir IDE.
-- **Bilgi Önkoşulları**: Temel Java programlama bilgisi ve Maven veya Gradle derleme sistemlerine aşinalık.
+- **Kütüphaneler ve Bağımlılıklar** – Aspose.Words for Java (25.3 ve üzeri).  
+- **Ortam** – JDK 8 ve üzeri, ve IntelliJ IDEA veya Eclipse gibi bir IDE.  
+- **Temel Bilgi** – Java programlama temelleri ve Maven veya Gradle hakkında bilgi.  
 
-## Aspose.Words'ü Kurma
-Başlamak için projenize gerekli bağımlılıkları ekleyin. Bunu Maven ve Gradle kullanarak nasıl yapabileceğinizi burada bulabilirsiniz:
+## Aspose.Words Kurulumu
+Başlamak için, projenize gerekli bağımlılıkları ekleyin. Aspose.Words'ı Maven veya Gradle kullanarak nasıl ekleyebileceğiniz aşağıdadır:
 
-**Usta:**
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -49,122 +62,142 @@ Başlamak için projenize gerekli bağımlılıkları ekleyin. Bunu Maven ve Gra
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Lisans Edinimi
-Aspose.Words ticari bir üründür, ancak özelliklerini keşfetmek için ücretsiz denemeyle başlayabilirsiniz. İşte adımlar:
-1. **Ücretsiz Deneme**: Buradan indirin [Aspose'un yayın sayfası](https://releases.aspose.com/words/java/) tüm yeteneklerini test etmek için.
-2. **Geçici Lisans**Geçici lisans için başvuruda bulunun [Aspose'nin geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
-3. **Satın almak**: Sürekli kullanım için, şu adresten bir lisans satın alın: [Aspose'un satın alma portalı](https://purchase.aspose.com/buy).
+### Lisans Edinme
+Aspose.Words ticari bir kütüphanedir, ancak ücretsiz deneme ile başlayabilirsiniz:
 
-Lisans dosyanızı aldıktan sonra, Aspose.Words'ün tüm özelliklerinin kilidini açmak için onu projenizde başlatın.
+1. **Ücretsiz Deneme** – [Aspose sürüm sayfasından](https://releases.aspose.com/words/java/) indirin.  
+2. **Geçici Lisans** – Kısa vadeli bir anahtara ihtiyacınız varsa [geçici‑lisans sayfasına](https://purchase.aspose.com/temporary-license/) başvurun.  
+3. **Tam Lisans** – Üretim kullanımı için [Aspose satın alma portalından](https://purchase.aspose.com/buy) satın alın.  
 
-## Uygulama Kılavuzu
-Uygulamayı yönetilebilir bölümlere ayıralım:
+Lisans dosyasını edindikten sonra, tüm özellikleri açmak için uygulama başlangıcında yükleyin.
 
-### İç İçe Yer İmleri Oluşturma
-**Genel bakış**: Aspose.Words for Java'yı kullanarak Word belgesi içerisinde iç içe yer imleri oluşturmayı öğrenin.
+## Aspose.Words Java ile PDF'lerde Yer İmleri Oluşturma
+Aşağıda uygulamayı net, numaralı adımlara bölüyoruz. Her adım kısa bir açıklama ve ardından (değiştirilmemiş) orijinal kod bloğunu içerir.
 
-#### Adım 1: Belgeyi ve Oluşturucuyu Başlatın
+### Adım 1: Bir Document ve DocumentBuilder Başlatma
+Yeni bir `Document` örneği ve içerik ve yer imleri eklememizi sağlayan bir `DocumentBuilder` ile başlarız.
+
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Bu, içerik eklemeye başlayabileceğiniz Word belge ortamınızı ayarlar.
 
-#### Adım 2: İç İçe Yer İmleri Ekle
-Birincil yer imi oluşturarak başlayın:
+### Adım 2: İlk (Üst) Yer İmini Ekleme
+Daha sonra bir alt yer imi içerecek üst‑seviye bir yer imi oluşturun.
+
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Şimdi, bunun içine başka bir yer imi yerleştirin:
+
+### Adım 3: Üst Yer İmi İçine Bir Alt Yer İmi İç İçe Yerleştirme
+Şimdi, birincisinin içinde yer alan ikinci bir yer imi ekleyerek iç içe yerleştirmeyi gösteriyoruz.
+
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // İç içe yer imini sonlandır
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Dış yer imini tamamla:
+
+### Adım 4: Üst Yer İmini Kapatma
+İç içe içeriğin ardından dış yer imi tamamlanır.
+
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Adım 3: Ek Yer İşaretleri Ekleyin
-Gerektiğinde yer imleri eklemeye devam edin. Örneğin, ayrı bir üçüncü yer imi:
+### Adım 5: Bağımsız Üçüncü Bir Yer İmi Ekleme
+Her zaman iç içe olmayan daha fazla yer imi ekleyebilirsiniz.
+
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Yer İşareti Anahat Düzeylerini Yapılandırma
-**Genel bakış**: PDF'de daha iyi gezinme için yer imlerinizi anahat düzeylerini ayarlayarak düzenleyin.
+## Yer İmi Ana Hat Seviyelerini Yapılandırma
+Yer imleri yerleştirildikten sonra, Aspose.Words'a bu yer imlerinin PDF'in ana hatında (sol taraftaki gezinme panelinde) nasıl görüneceğini söyleriz.
 
-#### Adım 1: PdfSaveOptions'ı Ayarlayın
+### Adım 6: PdfSaveOptions Hazırlama
+`PdfSaveOptions` bize ana hat ayarlarına erişim sağlar.
+
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Bu kod parçacığı, belgenizi düzenlenmiş yer imleriyle PDF olarak kaydetmek için kullanacağınız seçenekleri başlatır.
 
-#### Adım 2: Anahat Düzeyleri Ekleyin
-Her yer işaretine hiyerarşilerini belirleyecek seviyeler atayın:
+### Adım 7: Hiyerarşi Seviyelerini Atama
+Her yer imi bir tam sayı seviyesi alır; daha düşük sayılar hiyerarşide daha üstte olur.
+
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Yer İşareti 1'in altında yuvalanmış
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### Adım 3: Belgeyi Kaydedin
-Son olarak belgenizi şu ayarlarla PDF olarak kaydedin:
+### Adım 8: Belgeyi PDF Olarak Kaydetme
+Son olarak, yer imi ana hatını koruyarak Word belgesini PDF olarak dışa aktarın.
+
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### Sorun Giderme İpuçları
-- **Eksik Yer İşaretleri**: Her birinin sağlanması `startBookmark` karşılık gelen bir `endBookmark`.
-- **Yanlış Seviyeler**: Kodunuzdaki ebeveyn-çocuk ilişkilerini kontrol ederek hiyerarşiyi doğrulayın.
+## Neden Bu Yaklaşımı Kullanarak Yer İmleriyle PDF Oluşturmalısınız?
+- **Profesyonel Navigasyon** – Okuyucular bölümlere doğrudan atlayabilir, büyük raporlar veya yasal sözleşmelerde kullanılabilirliği artırır.  
+- **Tam Kontrol** – Hiyerarşiyi PDF görüntüleyici değil, siz belirlersiniz.  
+- **Çapraz Platform** – Saf Java olduğu için Windows, Linux ve macOS'ta aynı şekilde çalışır.  
+
+## Yaygın Sorunlar ve Çözümler
+| Belirti | Muhtemel Neden | Çözüm |
+|---|---|---|
+| PDF'de eksik yer imleri | Eşleşen `endBookmark` olmadan bir `startBookmark` | Her `startBookmark`'ın karşılık gelen bir `endBookmark`'a sahip olduğundan emin olun. |
+| Yanlış hiyerarşi | Ana hat seviyeleri sırasız atanmış | Üst yer imlerinin, alt yer imlerinden daha düşük seviye numaralarına sahip olduğundan emin olun. |
+| Lisans uygulanmadı | Belge oluşturulmadan önce lisans dosyası yüklenmemiş | Lisansı uygulamanızın çok başında yükleyin (`License license = new License(); license.setLicense("Aspose.Words.lic");`). |
 
 ## Pratik Uygulamalar
-Bu bilgiyi uygulayabileceğiniz bazı senaryolar şunlardır:
-1. **Yasal Belgeler**: Kolay referans için bölümleri ve alt bölümleri düzenleyin.
-2. **Raporlar**: Karmaşık veri yapılarında gezinmek için iç içe yer imlerini kullanın.
-3. **Eğitim Materyali**: Bölümleri, alt bölümleri ve önemli noktaları etkili bir şekilde yapılandırın.
+1. **Hukuki Belgeler** – Maddelere, eklere ve ek bölümlere hızlıca geçiş.  
+2. **Finansal Raporlar** – Gelir Tablosu, Bilanço ve Notlar gibi bölümler arasında atlama.  
+3. **E‑Öğrenme Materyalleri** – PDF ana hatını yansıtan bir içindekiler tablosu sağlayın.  
 
-## Performans Hususları
-- Kaydetmeden önce gereksiz içerikleri kaldırarak belge boyutunu optimize edin.
-- Büyük belgeleri işlerken bellek kullanımını etkili bir şekilde yönetin.
+## Performans Düşünceleri
+- **Bellek Yönetimi** – Çok büyük Word dosyaları için, kaydetmeden önce `doc.cleanup()` çağırmayı düşünün.  
+- **Kaynak Optimizasyonu** – PDF boyutunu küçük tutmak için kullanılmayan resimleri veya stilleri kaldırın.  
 
-## Çözüm
-Artık Aspose.Words for Java kullanarak yer imi anahat seviyelerini etkili bir şekilde nasıl uygulayacağınızı öğrendiniz. Bu beceri PDF'lerinizin gezinilebilirliğini büyük ölçüde artıracak, onları daha kullanıcı dostu ve profesyonel hale getirecektir.
+## Sık Sorulan Sorular
 
-**Sonraki Adımlar**: Farklı belge yapılarını deneyin veya bu işlevselliği daha büyük bir uygulamaya entegre ederek avantajlarını uygulamada görün.
+**S: Aspose.Words for Java'ı nasıl kurarım?**  
+C: Yukarıda gösterilen Maven veya Gradle bağımlılığını ekleyin, ardından lisans dosyanızı sınıf yoluna koyun ve çalışma zamanında yükleyin.
 
-## SSS Bölümü
-1. **Java için Aspose.Words'ü nasıl yüklerim?**
-   - Bunu Maven veya Gradle aracılığıyla bağımlılık olarak ekleyin, ardından lisans dosyanızı ayarlayın.
-2. **Anahat seviyeleri olmadan yer imlerini kullanabilir miyim?**
-   - Evet, ancak anahat düzeylerinin kullanılması PDF'lerde gezinmeyi iyileştirir.
-3. **Yer imlerinin iç içe yerleştirilmesinde sınırlamalar nelerdir?**
-   - Kesin bir sınır yok ama kullanıcılar için okunabilirliği ve yapıyı göz önünde bulundurun.
-4. **Aspose büyük belgeleri nasıl işler?**
-   - Kaynakları verimli bir şekilde yönetir, ancak çok büyük dosyalar için optimizasyon önerilir.
-5. **PDF'i kaydettikten sonra yer imlerini değiştirebilir miyim?**
-   - Evet, dönüştürme sonrası yer imlerini düzenlemek için Aspose.PDF for Java'yı kullanıyorum.
+**S: Ana hat seviyeleri ayarlamadan yer imleri oluşturabilir miyim?**  
+C: Evet, ancak PDF görüntüleyici onları düz bir liste olarak gösterir, bu da karmaşık belgelerde gezinmeyi zorlaştırabilir.
+
+**S: Yer imleri ne kadar derin iç içe yerleştirilebilir?**  
+C: Teknik olarak bir limit yok, ancak çoğu PDF görüntüleyici rahatlıkla 9 seviyeye kadar destekler. Hiyerarşiyi okuyucular için mantıklı tutun.
+
+**S: Aspose çok büyük Word dosyalarını nasıl yönetir?**  
+C: Kütüphane içeriği akış olarak işler ve bellek kullanımını azaltmak için `Document.optimizeResources()` gibi yöntemler sunar.
+
+**S: PDF oluşturulduktan sonra yer imlerini düzenleyebilirim?**  
+C: Kesinlikle – mevcut bir PDF'de yer imlerini eklemek, kaldırmak veya yeniden adlandırmak için Aspose.PDF for Java kullanabilirsiniz.
 
 ## Kaynaklar
-- [Aspose.Words Belgeleri](https://reference.aspose.com/words/java/)
-- [En Son Sürümleri İndirin](https://releases.aspose.com/words/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme](https://releases.aspose.com/words/java/)
-- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)
+- [Aspose.Words Belgeleri](https://reference.aspose.com/words/java/)  
+- [En Son Sürümleri İndir](https://releases.aspose.com/words/java/)  
+- [Lisans Satın Al](https://purchase.aspose.com/buy)  
+- [Ücretsiz Deneme](https://releases.aspose.com/words/java/)  
+- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)  
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-11-27  
+**Test Edilen:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose
