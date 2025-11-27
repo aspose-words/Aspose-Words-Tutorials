@@ -1,9 +1,17 @@
 ---
-"date": "2025-03-28"
-"description": "Узнайте, как отслеживать изменения и управлять ревизиями в документах Word с помощью Aspose.Words для Java. Сравнение основных документов, встроенная обработка ревизий и многое другое с этим всеобъемлющим руководством."
-"title": "Отслеживание изменений в документах Word с помощью Aspose.Words Java&#58; Полное руководство по пересмотру документов"
-"url": "/ru/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2025-11-27'
+description: Узнайте, как отслеживать изменения в документах Word и управлять редакциями
+  с помощью Aspose.Words для Java. Овладейте сравнением документов, обработкой встроенных
+  правок и многим другим в этом всестороннем руководстве.
+keywords:
+- track changes
+- document revisions
+- inline revision handling
+language: ru
+title: 'Отслеживание изменений в документах Word с использованием Aspose.Words Java:
+  Полное руководство по редакциям документов'
+url: /java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +20,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Отслеживание изменений в документах Word с помощью Aspose.Words Java: Полное руководство по редакциям документов
 
-# Отслеживание изменений в документах Word с помощью Aspose.Words Java: полное руководство по пересмотру документов
+## Introduction
 
-## Введение
+Сотрудничество над важными документами может быть сложным, особенно когда необходимо **отслеживать изменения в word documents** от нескольких участников. С Aspose.Words for Java вы можете без проблем внедрить функциональность «Track Changes» непосредственно в свои приложения, получая детальный контроль над редакциями. Этот учебник проведёт вас через настройку библиотеки, работу с inline‑ревизиями и освоение полного набора возможностей отслеживания изменений.
 
-Совместная работа над важными документами может быть сложной из-за сложностей управления ревизиями. С Aspose.Words для Java вы можете легко отслеживать изменения в своих приложениях. Это руководство проведет вас через реализацию «Отслеживания изменений» с использованием встроенной обработки ревизий в Aspose.Words Java, мощной библиотеке, которая упрощает задачи обработки документов.
+**What You'll Learn:**
+- Как настроить Aspose.Words с помощью Maven или Gradle
+- Реализация различных типов ревизий (insert, format, move, delete)
+- Понимание и использование ключевых функций для управления изменениями в документе
 
-**Что вы узнаете:**
-- Как настроить Aspose.Words с Maven или Gradle
-- Реализация различных типов ревизий (вставка, форматирование, перемещение, удаление)
-- Понимание и использование ключевых функций для управления изменениями документов
+### Quick Answers
+- **What library enables tracking changes in Word documents?** Aspose.Words for Java  
+- **Which dependency manager is recommended?** Maven or Gradle (both supported)  
+- **Do I need a license for development?** A free trial works for evaluation; a license is required for production use  
+- **Can I process large documents efficiently?** Yes – use section‑by‑section processing and batch operations  
+- **Is there a method to start tracking programmatically?** `document.startTrackRevisions()` starts the tracking session  
 
-Давайте начнем с настройки вашей среды, чтобы вы могли освоить эти возможности.
+Давайте начнём с настройки вашей среды, чтобы вы могли освоить эти возможности.
 
-## Предпосылки
+## Prerequisites
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
-- **Комплект разработчика Java (JDK):** В вашей системе установлена версия 8 или выше.
-- **Интегрированная среда разработки (IDE):** Например, IntelliJ IDEA, Eclipse или NetBeans.
-- **Maven или Gradle:** Для управления зависимостями и создания вашего проекта.
+- **Java Development Kit (JDK):** Версия 8 или выше, установленная в системе.
+- **Integrated Development Environment (IDE):** Например IntelliJ IDEA, Eclipse или NetBeans.
+- **Maven или Gradle:** Для управления зависимостями и сборки проекта.
 
-Для понимания приведенных примеров кода также необходимы базовые знания программирования на Java.
+Базовое понимание программирования на Java также необходимо для работы с приведёнными примерами кода.
 
-## Настройка Aspose.Words
+## Setting Up Aspose.Words
 
-Чтобы интегрировать Aspose.Words в свой проект, используйте Maven или Gradle для управления зависимостями.
+Чтобы интегрировать Aspose.Words в ваш проект, используйте Maven или Gradle для управления зависимостями.
 
-### Настройка Maven
+### Maven Setup
 
-Добавьте эту зависимость в свой `pom.xml` файл:
+Добавьте эту зависимость в ваш файл `pom.xml`:
 
 ```xml
 <dependency>
@@ -51,24 +65,24 @@
 </dependency>
 ```
 
-### Настройка Gradle
+### Gradle Setup
 
-Включите эту строку в свой `build.gradle` файл:
+Включите эту строку в ваш файл `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Приобретение лицензии
+#### License Acquisition
 
-Aspose предлагает бесплатную пробную версию для тестирования своих функций, что позволяет вам оценить, соответствует ли он вашим потребностям. Для начала:
-1. **Бесплатная пробная версия:** Загрузите библиотеку с сайта [Загрузки Aspose](https://releases.aspose.com/words/java/) и использовать его с ограничениями по оценке.
-2. **Временная лицензия:** Получите временную лицензию для расширенного использования без ограничений по оценке, посетив [Временная лицензия](https://purchase.aspose.com/temporary-license/).
-3. **Лицензия на покупку:** Рассмотрите возможность покупки, если вам нужен полный доступ к функциям Aspose.Words, следуя инструкциям на странице покупки.
+Aspose предлагает бесплатную пробную версию для тестирования функций, позволяя оценить, подходит ли продукт вашим требованиям. Чтобы начать:
+1. **Free Trial:** Скачайте библиотеку с [Aspose Downloads](https://releases.aspose.com/words/java/) и используйте её с ограничениями оценки.
+2. **Temporary License:** Получите временную лицензию для расширенного использования без ограничений оценки, посетив [Temporary License](https://purchase.aspose.com/temporary-license/).
+3. **Purchase License:** Рассмотрите покупку, если вам нужен полный доступ к функциям Aspose.Words, следуя инструкциям на странице покупки.
 
-#### Базовая инициализация
+#### Basic Initialization
 
-Для инициализации создайте экземпляр `Document` и начинаем с этим работать:
+Для инициализации создайте экземпляр `Document` и начните работу с ним:
 
 ```java
 import com.aspose.words.Document;
@@ -76,24 +90,26 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // Дальнейшая обработка здесь
+        // Further processing here
     }
 }
 ```
 
-## Руководство по внедрению
+## How to Track Changes in Word Documents Using Aspose.Words Java
 
-В этом разделе мы рассмотрим, как обрабатывать различные типы ревизий с помощью Aspose.Words Java.
+В этом разделе мы отвечаем на вопрос **how to track changes java** и показываем, как разработчики могут реализовать обработку ревизий с помощью Aspose.Words. Понимание различных типов ревизий и способов их запроса является ключевым для построения надёжных функций совместной работы.
 
-### Обработка встроенных ревизий
+## Implementation Guide
 
-#### Обзор
+В этом разделе мы рассмотрим, как работать с различными типами ревизий, используя Aspose.Words Java.
 
-При отслеживании изменений в документе решающее значение имеет понимание и управление встроенными правками. Они могут включать вставки, удаления, изменения формата или перемещения текста.
+### Handling Inline Revisions
 
-#### Реализация кода
+#### Overview
 
-Ниже приведено пошаговое руководство по определению типа ревизии встроенного узла с помощью Aspose.Words Java:
+При отслеживании изменений в документе понимание и управление inline‑ревизиями имеет решающее значение. Они могут включать вставки, удаления, изменения формата или перемещения текста.
+
+#### Code Implementation
 
 ```java
 import com.aspose.words.Document;
@@ -106,10 +122,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // Проверьте количество ревизий
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // Доступ к родительскому узлу определенной ревизии
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +133,77 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // Определение различных типов ревизий
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // Вставить ревизию
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // Пересмотр формата
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Перейти из редакции
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Перейти к пересмотру
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Удалить ревизию
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
-#### Объяснение
-- **Вставьте редакцию:** Возникает при добавлении текста во время отслеживания изменений.
-- **Редакция формата:** Вызывается изменениями форматирования текста.
-- **Переместить из/в редакции:** Представляют собой движение текста в документе, отображаясь парами.
-- **Удалить редакцию:** Отмечает удаленный текст, ожидающий принятия или отклонения.
+#### Explanation
+- **Insert Revision:** Происходит, когда текст добавляется во время отслеживания изменений.
+- **Format Revision:** Вызывается изменениями форматирования текста.
+- **Move From/To Revisions:** Представляют перемещение текста внутри документа и появляются парами.
+- **Delete Revision:** Помечает удалённый текст, ожидающий принятия или отклонения.
 
-### Практические применения
+### Practical Applications
 
-Вот несколько реальных сценариев, в которых управление изменениями может быть полезным:
-1. **Совместное редактирование:** Команды могут эффективно просматривать и утверждать изменения перед окончательной доработкой документа.
-2. **Обзор юридических документов:** Юристы могут отслеживать изменения, вносимые в контракты, гарантируя, что все стороны согласуют окончательную версию.
-3. **Документация по программному обеспечению:** Разработчики могут управлять обновлениями в технических документах, поддерживая ясность и точность.
+Вот некоторые реальные сценарии, где управление ревизиями полезно:
+1. **Collaborative Editing:** Команды могут эффективно просматривать и утверждать изменения перед финализацией документа.
+2. **Legal Document Review:** Юристы могут отслеживать поправки в контрактах, гарантируя согласие всех сторон на окончательную версию.
+3. **Software Documentation:** Разработчики могут управлять обновлениями технической документации, поддерживая её ясность и точность.
 
-### Соображения производительности
+### Performance Considerations
 
-Для оптимизации производительности при обработке больших документов с многочисленными изменениями:
-- Минимизируйте использование памяти, обрабатывая разделы документа последовательно.
-- Используйте встроенные методы Aspose.Words для пакетных операций, чтобы сократить накладные расходы.
+Для оптимизации производительности при работе с большими документами, содержащими множество ревизий:
+- Минимизируйте использование памяти, обрабатывая секции документа последовательно.
+- Используйте встроенные методы Aspose.Words для пакетных операций, чтобы снизить накладные расходы.
 
-## Заключение
+## Conclusion
 
-Теперь вы узнали, как реализовать отслеживание изменений с помощью встроенного управления ревизиями в Aspose.Words Java. Освоив эти методы, вы сможете улучшить совместную работу и поддерживать точный контроль над изменениями документов в ваших приложениях.
+Теперь вы знаете, как реализовать **track changes in word documents** с помощью управления inline‑ревизиями в Aspose.Words Java. Освоив эти техники, вы сможете улучшить совместную работу и поддерживать точный контроль над изменениями документов в своих приложениях.
 
-**Следующие шаги:**
-- Поэкспериментируйте с различными типами изменений.
+**Next Steps:**
+- Экспериментируйте с различными типами ревизий.
 - Интегрируйте Aspose.Words в более крупные проекты для комплексных решений по обработке документов.
 
-## Раздел часто задаваемых вопросов
+## FAQ Section
 
-1. **Что такое встроенный узел в Aspose.Words?**
-   - Встроенный узел представляет собой текстовые элементы, такие как строка или форматирование символов внутри абзаца.
-2. **Как начать отслеживать изменения с помощью Aspose.Words Java?**
-   - Используйте `startTrackRevisions` метод на вашем `Document` экземпляр для начала отслеживания изменений.
-3. **Могу ли я автоматизировать принятие или отклонение изменений в документе?**
-   - Да, вы можете программно принять или отклонить все изменения, используя такие методы, как `acceptAllRevisions` или `rejectAllRevisions`.
-4. **Какие типы документов поддерживает Aspose.Words?**
-   - Он поддерживает DOCX, PDF, HTML и другие популярные форматы, обеспечивая гибкое преобразование документов.
-5. **Как эффективно обрабатывать большие документы с помощью Aspose.Words?**
-   - Обрабатывайте разделы поэтапно, используя пакетные операции для поддержания производительности.
+1. **What is an inline node in Aspose.Words?**  
+   - An inline node represents text elements, such as a run or character formatting within a paragraph.
+2. **How do I start tracking revisions with Aspose.Words Java?**  
+   - Use the `startTrackRevisions` method on your `Document` instance to begin tracking changes.
+3. **Can I automate accepting or rejecting revisions in a document?**  
+   - Yes, you can programmatically accept or reject all revisions using methods like `acceptAllRevisions` or `rejectAllRevisions`.
+4. **What types of documents does Aspose.Words support?**  
+   - It supports DOCX, PDF, HTML, and other popular formats, enabling flexible document conversion.
+5. **How do I handle large documents efficiently with Aspose.Words?**  
+   - Process sections incrementally, leveraging batch operations to maintain performance.
 
-## Ресурсы
+## Resources
 
-- [Документация Java Aspose.Words](https://reference.aspose.com/words/java/)
-- [Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/)
-- [Купить лицензию](https://purchase.aspose.com/buy)
-- [Бесплатная пробная версия](https://releases.aspose.com/words/java/)
-- [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-- [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+- [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
-Начните свое путешествие с Aspose.Words Java уже сегодня и используйте весь потенциал обработки документов в своих приложениях!
+Начните своё путешествие с Aspose.Words Java уже сегодня и используйте весь потенциал обработки документов в ваших приложениях!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-27  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
