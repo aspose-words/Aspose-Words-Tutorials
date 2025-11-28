@@ -1,9 +1,17 @@
 ---
-"date": "2025-03-28"
-"description": "Leer hoe u wijzigingen kunt bijhouden en revisies in Word-documenten kunt beheren met Aspose.Words voor Java. Beheers documentvergelijking, inline revisieverwerking en meer met deze uitgebreide handleiding."
-"title": "Wijzigingen bijhouden in Word-documenten met Aspose.Words Java&#58; een complete handleiding voor documentrevisies"
-"url": "/nl/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2025-11-27'
+description: Leer hoe u wijzigingen in Word-documenten kunt bijhouden en revisies
+  kunt beheren met Aspose.Words voor Java. Beheers documentvergelijking, inline revisiebehandeling
+  en meer met deze uitgebreide gids.
+keywords:
+- track changes
+- document revisions
+- inline revision handling
+language: nl
+title: 'Wijzigingen bijhouden in Word‑documenten met Aspose.Words Java: Een volledige
+  gids voor documentrevisies'
+url: /java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +20,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Wijzigingen bijhouden in Word-documenten met Aspose.Words Java: Een volledige gids voor documentrevisies
 
-# Wijzigingen bijhouden in Word-documenten met Aspose.Words Java: een complete handleiding voor documentrevisies
+## Inleiding
 
-## Invoering
+Samenwerken aan belangrijke documenten kan uitdagend zijn, vooral wanneer je **wijzigingen bijhouden in Word-documenten** moet doen over meerdere bijdragers. Met Aspose.Words for Java kun je naadloos de “Track Changes”-functionaliteit direct in je applicaties integreren, waardoor je fijnmazige controle over revisies krijgt. Deze tutorial leidt je door het instellen van de bibliotheek, het verwerken van inline-revisies en het beheersen van het volledige scala aan wijzigingsvolgfuncties.
 
-Samenwerken aan belangrijke documenten kan een uitdaging zijn vanwege de complexiteit van het beheer van revisies. Met Aspose.Words voor Java kunt u wijzigingen naadloos binnen uw applicaties volgen. Deze tutorial begeleidt u bij de implementatie van 'Wijzigingen bijhouden' met behulp van inline revisieverwerking in Aspose.Words Java, een krachtige bibliotheek die documentverwerking vereenvoudigt.
-
-**Wat je leert:**
+**Wat je zult leren:**
 - Hoe Aspose.Words in te stellen met Maven of Gradle
 - Implementeren van verschillende soorten revisies (invoegen, opmaken, verplaatsen, verwijderen)
-- Inzicht in en gebruik van de belangrijkste functies voor het beheren van documentwijzigingen
+- Begrijpen en gebruiken van belangrijke functies voor het beheren van documentwijzigingen
 
-Laten we beginnen met het inrichten van uw omgeving, zodat u deze mogelijkheden onder de knie krijgt.
+### Snelle antwoorden
+- **Welke bibliotheek maakt het mogelijk om wijzigingen bij te houden in Word-documenten?** Aspose.Words for Java  
+- **Welke dependency‑manager wordt aanbevolen?** Maven of Gradle (beide ondersteund)  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor evaluatie; een licentie is vereist voor productiegebruik  
+- **Kan ik grote documenten efficiënt verwerken?** Ja – gebruik sectie‑voor‑sectie verwerking en batch‑operaties  
+- **Is er een methode om het bijhouden programmatically te starten?** `document.startTrackRevisions()` start de tracking‑sessie  
 
-## Vereisten
+Laten we beginnen met het opzetten van je omgeving zodat je deze mogelijkheden onder de knie krijgt.
 
-Voordat we beginnen, zorg ervoor dat u het volgende heeft:
-- **Java-ontwikkelingskit (JDK):** Versie 8 of hoger op uw systeem geïnstalleerd.
-- **Geïntegreerde ontwikkelomgeving (IDE):** Zoals IntelliJ IDEA, Eclipse of NetBeans.
-- **Maven of Gradle:** Voor het beheren van afhankelijkheden en het bouwen van uw project.
+## Voorvereisten
 
-Om de gegeven codevoorbeelden te kunnen volgen, is een basiskennis van Java-programmering noodzakelijk.
+Zorg ervoor dat je het volgende hebt voordat we beginnen:
+- **Java Development Kit (JDK):** Versie 8 of hoger geïnstalleerd op je systeem.
+- **Integrated Development Environment (IDE):** Zoals IntelliJ IDEA, Eclipse of NetBeans.
+- **Maven of Gradle:** Voor het beheren van dependencies en het bouwen van je project.
+
+Een basisbegrip van Java-programmeren is ook nodig om de meegeleverde codevoorbeelden te kunnen volgen.
 
 ## Aspose.Words instellen
 
-Om Aspose.Words in uw project te integreren, gebruikt u Maven of Gradle voor afhankelijkheidsbeheer.
+Om Aspose.Words in je project te integreren, gebruik je Maven of Gradle voor dependency‑beheer.
 
-### Maven-installatie
+### Maven‑configuratie
 
-Voeg deze afhankelijkheid toe in uw `pom.xml` bestand:
+Voeg deze dependency toe in je `pom.xml`‑bestand:
 
 ```xml
 <dependency>
@@ -51,24 +65,24 @@ Voeg deze afhankelijkheid toe in uw `pom.xml` bestand:
 </dependency>
 ```
 
-### Gradle-installatie
+### Gradle‑configuratie
 
-Neem deze regel op in uw `build.gradle` bestand:
+Voeg deze regel toe in je `build.gradle`‑bestand:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Licentieverwerving
+#### Licentie‑verwerving
 
-Aspose biedt een gratis proefperiode aan om de functies te testen, zodat u kunt beoordelen of het aan uw behoeften voldoet. Om te beginnen:
-1. **Gratis proefperiode:** Download de bibliotheek van [Aspose-downloads](https://releases.aspose.com/words/java/) en gebruik het met evaluatiebeperkingen.
-2. **Tijdelijke licentie:** Verkrijg een tijdelijke licentie voor uitgebreid gebruik zonder evaluatiebeperkingen door naar de website te gaan. [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
-3. **Licentie kopen:** Overweeg een aankoop als u volledige toegang tot de functies van Aspose.Words nodig hebt. Volg hiervoor de instructies op de aankooppagina.
+Aspose biedt een gratis proefversie om de functies te testen, zodat je kunt beoordelen of het aan je behoeften voldoet. Om te beginnen:
+1. **Gratis proefversie:** Download de bibliotheek van [Aspose Downloads](https://releases.aspose.com/words/java/) en gebruik deze met evaluatiebeperkingen.
+2. **Tijdelijke licentie:** Verkrijg een tijdelijke licentie voor uitgebreid gebruik zonder evaluatiebeperkingen via [Temporary License](https://purchase.aspose.com/temporary-license/).
+3. **Licentie aanschaffen:** Overweeg aankoop als je volledige toegang tot Aspose.Words‑functies nodig hebt door de instructies op hun aankooppagina te volgen.
 
 #### Basisinitialisatie
 
-Om te initialiseren, maak een instantie van `Document` en ga ermee aan de slag:
+Om te initialiseren, maak je een instantie van `Document` aan en begin je ermee te werken:
 
 ```java
 import com.aspose.words.Document;
@@ -76,24 +90,28 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // Verdere verwerking hier
+        // Further processing here
     }
 }
 ```
 
-## Implementatiegids
+## Hoe wijzigingen bij te houden in Word-documenten met Aspose.Words Java
 
-In deze sectie onderzoeken we hoe u verschillende typen revisies kunt verwerken met behulp van Aspose.Words Java.
+In deze sectie beantwoorden we **hoe wijzigingen bij te houden java** ontwikkelaars kunnen revisiebeheer implementeren met Aspose.Words. Het begrijpen van de verschillende revisen en hoe je ze kunt opvragen is essentieel voor het bouwen van robuuste samenwerkingsfuncties.
 
-### Omgaan met inline revisies
+## Implementatie‑gids
+
+In deze sectie verkennen we hoe verschillende soorten revisies te verwerken met Aspose.Words Java.
+
+### Inline‑revisies verwerken
 
 #### Overzicht
 
-Bij het bijhouden van wijzigingen in een document is het cruciaal om inline revisies te begrijpen en te beheren. Dit kunnen invoegingen, verwijderingen, opmaakwijzigingen of tekstverplaatsingen zijn.
+Bij het bijhouden van wijzigingen in een document is het cruciaal om inline‑revisies te begrijpen en te beheren. Deze kunnen invoegingen, verwijderingen, opmaakwijzigingen of tekstverplaatsingen omvatten.
 
-#### Code-implementatie
+#### Code‑implementatie
 
-Hieronder vindt u een stapsgewijze handleiding voor het bepalen van het revisietype van een inline-knooppunt met behulp van Aspose.Words Java:
+Hieronder vind je een stapsgewijze gids om het revisietype van een inline‑node te bepalen met Aspose.Words Java:
 
 ```java
 import com.aspose.words.Document;
@@ -106,10 +124,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // Controleer het aantal revisies
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // Toegang krijgen tot het bovenliggende knooppunt van een specifieke revisie
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +135,77 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // Verschillende soorten revisies identificeren
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // Revisie invoegen
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // Formaat herziening
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Verplaatsen van revisie
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Verplaatsen naar revisie
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Revisie verwijderen
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
 #### Uitleg
-- **Revisie invoegen:** Treedt op wanneer tekst wordt toegevoegd tijdens het bijhouden van wijzigingen.
-- **Formaat herziening:** Wordt geactiveerd door opmaakwijzigingen in de tekst.
-- **Verplaatsen van/naar revisies:** Geef de tekstbeweging binnen het document weer, in paren weergegeven.
-- **Revisie verwijderen:** Markeert verwijderde tekst in afwachting van acceptatie of afwijzing.
+- **Insert Revision:** Treedt op wanneer tekst wordt toegevoegd terwijl wijzigingen worden bijgehouden.
+- **Format Revision:** Wordt geactiveerd door opmaakwijzigingen op de tekst.
+- **Move From/To Revisions:** Vertegenwoordigen tekstverplaatsing binnen het document, verschijnen in paren.
+- **Delete Revision:** Markeert verwijderde tekst die wacht op acceptatie of afwijzing.
 
 ### Praktische toepassingen
 
-Hier zijn enkele praktijkscenario's waarin het beheren van revisies nuttig is:
-1. **Samenwerken bij het bewerken:** Teams kunnen wijzigingen efficiënt beoordelen en goedkeuren voordat ze een document afronden.
-2. **Beoordeling van juridische documenten:** Advocaten kunnen wijzigingen in contracten bijhouden en ervoor zorgen dat alle partijen het eens zijn over de definitieve versie.
-3. **Softwaredocumentatie:** Ontwikkelaars kunnen updates in technische documenten beheren en zo de duidelijkheid en nauwkeurigheid ervan behouden.
+Hier zijn enkele praktijkvoorbeelden waarbij het beheren van revisies voordelig is:
+1. **Samenwerkend bewerken:** Teams kunnen wijzigingen efficiënt beoordelen en goedkeuren voordat een document wordt afgerond.
+2. **Juridische documentreview:** Advocaten kunnen wijzigingen in contracten bijhouden, zodat alle partijen akkoord gaan met de definitieve versie.
+3. **Software‑documentatie:** Ontwikkelaars kunnen updates in technische documenten beheren, waardoor duidelijkheid en nauwkeurigheid behouden blijven.
 
-### Prestatieoverwegingen
+### Prestatie‑overwegingen
 
 Om de prestaties te optimaliseren bij het verwerken van grote documenten met talrijke revisies:
-- Minimaliseer het geheugengebruik door documentsecties sequentieel te verwerken.
-- Gebruik de ingebouwde methoden van Aspose.Words voor batchbewerkingen om de overhead te verminderen.
+- Minimaliseer geheugenverbruik door documentsecties opeenvolgend te verwerken.
+- Gebruik de ingebouwde methoden van Aspose.Words voor batch‑operaties om overhead te verminderen.
 
 ## Conclusie
 
-Je hebt nu geleerd hoe je wijzigingen bijhouden kunt implementeren met behulp van inline revisiebeheer in Aspose.Words Java. Door deze technieken onder de knie te krijgen, kun je de samenwerking verbeteren en nauwkeurige controle houden over documentwijzigingen binnen je applicaties.
+Je hebt nu geleerd hoe je **wijzigingen bijhouden in Word-documenten** implementeert met inline‑revisiebeheer in Aspose.Words Java. Door deze technieken onder de knie te krijgen, kun je samenwerking verbeteren en nauwkeurige controle behouden over documentwijzigingen binnen je applicaties.
 
 **Volgende stappen:**
 - Experimenteer met verschillende soorten revisies.
-- Integreer Aspose.Words in grotere projecten voor uitgebreide oplossingen voor documentverwerking.
+- Integreer Aspose.Words in grotere projecten voor uitgebreide documentverwerkingsoplossingen.
 
-## FAQ-sectie
+## FAQ‑sectie
 
-1. **Wat is een inline node in Aspose.Words?**
-   - Een inline-knooppunt vertegenwoordigt tekstelementen, zoals een run of tekenopmaak binnen een alinea.
-2. **Hoe begin ik met het bijhouden van revisies met Aspose.Words Java?**
-   - Gebruik de `startTrackRevisions` methode op uw `Document` om wijzigingen te kunnen bijhouden.
+1. **Wat is een inline‑node in Aspose.Words?**
+   - Een inline‑node vertegenwoordigt textelementen, zoals een run of tekenopmaak binnen een alinea.
+2. **Hoe start ik het bijhouden van revisies met Aspose.Words Java?**
+   - Gebruik de `startTrackRevisions`‑methode op je `Document`‑instantie om het bijhouden van wijzigingen te starten.
 3. **Kan ik het accepteren of afwijzen van revisies in een document automatiseren?**
-   - Ja, u kunt alle revisies programmatisch accepteren of afwijzen met behulp van methoden zoals `acceptAllRevisions` of `rejectAllRevisions`.
-4. **Welke typen documenten ondersteunt Aspose.Words?**
+   - Ja, je kunt programmatically alle revisies accepteren of afwijzen met methoden zoals `acceptAllRevisions` of `rejectAllRevisions`.
+4. **Welke documenttypen ondersteunt Aspose.Words?**
    - Het ondersteunt DOCX, PDF, HTML en andere populaire formaten, waardoor flexibele documentconversie mogelijk is.
 5. **Hoe verwerk ik grote documenten efficiënt met Aspose.Words?**
-   - Verwerk secties stapsgewijs en maak gebruik van batchbewerkingen om de prestaties te behouden.
+   - Verwerk secties incrementeel, maak gebruik van batch‑operaties om de prestaties te behouden.
 
 ## Bronnen
 
-- [Aspose.Words Java-documentatie](https://reference.aspose.com/words/java/)
+- [Aspose.Words Java Documentatie](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words voor Java](https://releases.aspose.com/words/java/)
-- [Koop een licentie](https://purchase.aspose.com/buy)
-- [Gratis proefperiode](https://releases.aspose.com/words/java/)
+- [Licentie aanschaffen](https://purchase.aspose.com/buy)
+- [Gratis proefversie](https://releases.aspose.com/words/java/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
+- [Aspose Supportforum](https://forum.aspose.com/c/words/10)
 
-Begin vandaag nog met Aspose.Words Java en benut het volledige potentieel van documentverwerking in uw applicaties!
+Begin vandaag nog aan je reis met Aspose.Words Java en benut het volledige potentieel van documentverwerking in je applicaties!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-11-27  
+**Getest met:** Aspose.Words 25.3 for Java  
+**Auteur:** Aspose
