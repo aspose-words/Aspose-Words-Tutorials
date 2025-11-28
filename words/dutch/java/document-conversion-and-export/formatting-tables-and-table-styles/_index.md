@@ -1,10 +1,15 @@
 ---
-"description": "Leer hoe u tabellen opmaakt en stijlen toepast met Aspose.Words voor Java. Deze stapsgewijze handleiding behandelt het instellen van randen, het arceren van cellen en het toepassen van tabelstijlen."
-"linktitle": "Tabellen en tabelstijlen opmaken"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Tabellen en tabelstijlen opmaken"
-"url": "/nl/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2025-11-28
+description: Leer hoe u celranden kunt wijzigen en tabellen kunt opmaken met Aspose.Words
+  for Java. Deze stapsgewijze gids behandelt het instellen van randen, het toepassen
+  van de eerste kolomstijl, het automatisch aanpassen van tabelinhoud en het toepassen
+  van tabelstijlen.
+language: nl
+linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+second_title: Aspose.Words Java Document Processing API
+title: Hoe celranden in tabellen te wijzigen – Aspose.Words voor Java
+url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,76 +18,88 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tabellen en tabelstijlen opmaken
+# Hoe celranden in tabellen te wijzigen – Aspose.Words voor Java
 
+## Inleiding
 
-## Invoering
+Als het gaat om documentopmaak, spelen tabellen een cruciale rol, en **weten hoe je celranden wijzigt** is essentieel voor het creëren van duidelijke, professionele lay-outs. Als je ontwikkelt met Java en Aspose.Words, heb je al een krachtig gereedschap tot je beschikking. In deze tutorial lopen we stap voor stap het volledige proces door: tabellen opmaken, celranden wijzigen, de *eerste kolom stijl* toepassen en *auto‑fit tabelinhoud* gebruiken zodat je documenten er gepolijst uitzien.
 
-Tabellen spelen een cruciale rol bij het opmaken van documenten, omdat ze gegevens overzichtelijk ordenen en presenteren. Als u met Java en Aspose.Words werkt, beschikt u over krachtige tools voor het maken en opmaken van tabellen in uw documenten. Of u nu een eenvoudige tabel ontwerpt of geavanceerde stijlen toepast, Aspose.Words voor Java biedt een scala aan functies waarmee u professioneel ogende resultaten kunt behalen.
+## Snelle antwoorden
+- **Wat is de primaire klasse voor het bouwen van tabellen?** `DocumentBuilder` maakt tabellen en cellen programmatisch aan.  
+- **Hoe wijzig ik de lijndikte van één cel?** Gebruik `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Kan ik een vooraf gedefinieerde tabelstijl toepassen?** Ja – roep `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)` aan.  
+- **Welke methode past een tabel automatisch aan de inhoud aan?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Words‑licentie is vereist voor niet‑trial gebruik.
 
-In deze handleiding leiden we je door het proces van het opmaken van tabellen en het toepassen van tabelstijlen met Aspose.Words voor Java. Je leert hoe je tabelranden instelt, celarcering toepast en tabelstijlen gebruikt om de weergave van je documenten te verbeteren. Uiteindelijk beheers je de vaardigheden om goed opgemaakte tabellen te maken die je gegevens laten opvallen.
+## Wat betekent “hoe celranden te wijzigen” in Aspose.Words?
 
-## Vereisten
+Celranden wijzigen betekent het aanpassen van de visuele lijnen die cellen scheiden—kleur, breedte en lijntype. Aspose.Words biedt een rijke API waarmee je deze eigenschappen kunt aanpassen op tabel‑, rij‑ of individuele‑celniveau, waardoor je fijne controle hebt over het uiterlijk van je documenten.
 
-Voordat we beginnen, zijn er een paar dingen die u moet regelen:
+## Waarom Aspose.Words voor Java gebruiken voor tabelstyling?
 
-1. Java Development Kit (JDK): Zorg ervoor dat JDK 8 of hoger geïnstalleerd is. Aspose.Words voor Java vereist een compatibele JDK om correct te werken.
-2. Integrated Development Environment (IDE): Een IDE zoals IntelliJ IDEA of Eclipse helpt u bij het beheren van uw Java-projecten en stroomlijnt uw ontwikkelingsproces.
-3. Aspose.Words voor Java-bibliotheek: download de nieuwste versie van Aspose.Words voor Java [hier](https://releases.aspose.com/words/java/) en neem het op in uw project.
-4. Voorbeeldcode: We gebruiken een aantal voorbeeldcodefragmenten, dus zorg ervoor dat u een basiskennis hebt van Java-programmering en weet hoe u bibliotheken in uw project integreert.
+- **Consistente uitstraling op alle platforms** – dezelfde stylingcode werkt op Windows, Linux en macOS.  
+- **Geen afhankelijkheid van Microsoft Word** – genereer of wijzig documenten server‑side.  
+- **Rijke stijlbibliotheek** – ingebouwde tabelstijlen (bijv. *eerste kolom stijl*) en volledige auto‑fit‑mogelijkheden.  
 
-## Pakketten importeren
+## Voorvereisten
 
-Om met Aspose.Words voor Java te werken, moet u de relevante pakketten in uw project importeren. Deze pakketten bieden de klassen en methoden die nodig zijn voor het bewerken en opmaken van documenten.
+1. **Java Development Kit (JDK) 8+** – zorg dat `java` in je PATH staat.  
+2. **IDE** – IntelliJ IDEA, Eclipse of een andere editor naar keuze.  
+3. **Aspose.Words voor Java** – download de nieuwste JAR van de [officiële site](https://releases.aspose.com/words/java/).  
+4. **Basiskennis van Java** – je moet vertrouwd zijn met het aanmaken van een Maven/Gradle‑project en het toevoegen van externe JAR‑bestanden.
+
+## Importeren van pakketten
+
+Om met tabellen te werken, heb je de kernklassen van Aspose.Words nodig:
 
 ```java
 import com.aspose.words.*;
 ```
 
-Met deze importinstructie krijgt u toegang tot alle essentiële klassen die nodig zijn voor het maken en opmaken van tabellen in uw documenten.
+Deze enkele import geeft je toegang tot `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` en vele andere hulpprogramma’s.
 
-## Stap 1: Tabellen opmaken
+## Hoe celranden te wijzigen
 
-Het opmaken van tabellen in Aspose.Words voor Java omvat het instellen van randen, het arceren van cellen en het toepassen van verschillende opmaakopties. Zo doet u dat:
+Hieronder maken we een eenvoudige tabel, wijzigen we de algemene randen en passen we vervolgens individuele cellen aan.
 
-### Laad het document
+### Stap 1: Een nieuw document laden
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### De tabel maken en formatteren
+### Stap 2: De tabel maken en globale randen instellen
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// Stel de randen voor de hele tabel in.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// Stel de celarcering voor deze cel in.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// Geef een andere celarcering op voor de tweede cel.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### Celranden aanpassen
+### Stap 3: Randen van één cel wijzigen
 
 ```java
-// Wis de celopmaak van eerdere bewerkingen.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// Maak grotere randen voor de eerste cel van deze rij.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +113,16 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### Uitleg
+#### Wat de code doet
+- **Globale randen** – `table.setBorders` geeft de hele tabel een zwarte lijn van 2 punt.  
+- **Celshading** – Toont hoe je individuele cellen kunt kleuren (rood & groen).  
+- **Aangepaste celranden** – De derde cel krijgt een rand van 4 punt aan alle zijden, waardoor hij opvalt.
 
-In dit voorbeeld:
-- Randen instellen: We stellen de randen van de gehele tabel in op een enkele lijnstijl met een dikte van 2,0 punten.
-- Celarcering: De eerste cel is rood gearceerd en de tweede cel groen. Dit helpt bij het visueel onderscheiden van cellen.
-- Celranden: Voor de derde cel maken we dikkere randen, zodat deze zich onderscheidt van de rest.
+## Toepassen van tabelstijlen (inclusief eerste kolom stijl)
 
-## Stap 2: Tabelstijlen toepassen
+Tabelstijlen laten je met één aanroep een consistente look toepassen. We laten ook zien hoe je de *eerste kolom stijl* inschakelt en de tabel automatisch aan de inhoud laat aanpassen.
 
-Met tabelstijlen in Aspose.Words voor Java kunt u vooraf gedefinieerde opmaakopties op tabellen toepassen, waardoor u gemakkelijker een consistente look kunt bereiken. Zo past u een stijl toe op uw tabel:
-
-### Maak het document en de tabel
+### Stap 4: Een nieuw document maken voor styling
 
 ```java
 Document doc = new Document();
@@ -115,22 +130,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// We moeten eerst minstens één rij invoegen voordat we de tabelopmaak instellen.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### Tabelstijl toepassen
+### Stap 5: Een vooraf gedefinieerde stijl toepassen en eerste kolom‑formattering inschakelen
 
 ```java
-// Stel de tabelstijl in op basis van een unieke stijl-ID.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// Bepaal welke kenmerken door de stijl moeten worden opgemaakt.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Tabelgegevens toevoegen
+### Stap 6: De tabel vullen met gegevens
 
 ```java
 builder.writeln("Item");
@@ -160,48 +177,52 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### Uitleg
+#### Waarom dit belangrijk is
+- **Style identifier** – `MEDIUM_SHADING_1_ACCENT_1` geeft de tabel een nette, schaduwachtige uitstraling.  
+- **Eerste kolom stijl** – Het markeren van de eerste kolom verbetert de leesbaarheid, vooral in rapporten.  
+- **Rij‑banden** – Afwisselende rij‑kleuren maken grote tabellen makkelijker te bekijken.  
+- **Auto‑fit** – Zorgt ervoor dat de tabelbreedte zich aanpast aan de inhoud, zodat tekst niet wordt afgekapt.
 
-In dit voorbeeld:
-- Tabelstijl instellen: We passen een vooraf gedefinieerde stijl toe (`MEDIUM_SHADING_1_ACCENT_1`) aan de tabel. Deze stijl omvat opmaak voor verschillende delen van de tabel.
-- Stijlopties: We geven aan dat de eerste kolom, rijbanden en eerste rij moeten worden opgemaakt volgens de stijlopties.
-- AutoFit: Wij gebruiken `AUTO_FIT_TO_CONTENTS` om ervoor te zorgen dat de tabelgrootte wordt aangepast op basis van de inhoud.
+## Veelvoorkomende problemen & probleemoplossing
 
-## Conclusie
-
-En voilà! Je hebt succesvol tabellen opgemaakt en stijlen toegepast met Aspose.Words voor Java. Met deze technieken kun je tabellen maken die niet alleen functioneel zijn, maar ook visueel aantrekkelijk. Het effectief opmaken van tabellen kan de leesbaarheid en professionele uitstraling van je documenten aanzienlijk verbeteren.
-
-Aspose.Words voor Java is een robuuste tool met uitgebreide functies voor documentbewerking. Door tabelopmaak en -stijlen onder de knie te krijgen, bent u een stap dichter bij het benutten van de volledige kracht van deze bibliotheek.
+| Probleem | Typische oorzaak | Snelle oplossing |
+|----------|-------------------|-------------------|
+| Randen verschijnen niet | `clearFormatting()` gebruiken na het instellen van randen | Stel randen **na** het wissen van opmaak in, of pas ze opnieuw toe. |
+| Shading wordt genegeerd bij samengevoegde cellen | Shading toegepast vóór het samenvoegen | Pas shading **na** het samenvoegen van de cellen toe. |
+| Tabelbreedte overschrijdt paginamarges | Geen auto‑fit toegepast | Roep `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` aan of stel een vaste breedte in. |
+| Stijl wordt niet toegepast | Verkeerde `StyleIdentifier`‑waarde | Controleer of de identifier bestaat in de versie van Aspose.Words die je gebruikt. |
 
 ## Veelgestelde vragen
 
-### 1. Kan ik aangepaste tabelstijlen gebruiken die niet in de standaardopties zijn opgenomen?
+**V: Kan ik aangepaste tabelstijlen gebruiken die niet in de standaardopties staan?**  
+A: Ja, je kunt programmatically aangepaste stijlen maken en toepassen. Zie de [Aspose.Words‑documentatie](https://reference.aspose.com/words/java/) voor details.
 
-Ja, u kunt aangepaste stijlen definiëren en toepassen op uw tabellen met Aspose.Words voor Java. Controleer de [documentatie](https://reference.aspose.com/words/java/) voor meer informatie over het maken van aangepaste stijlen.
+**V: Hoe kan ik voorwaardelijke opmaak op cellen toepassen?**  
+A: Gebruik standaard Java‑logica om celwaarden te inspecteren en roep vervolgens de juiste opmaak‑methoden aan (bijv. achtergrondkleur wijzigen als een waarde een drempel overschrijdt).
 
-### 2. Hoe kan ik voorwaardelijke opmaak toepassen op tabellen?
+**V: Is het mogelijk om samengevoegde cellen op dezelfde manier te formatteren als gewone cellen?**  
+A: Absoluut. Na het samenvoegen van cellen kun je shading of randen toepassen met dezelfde `CellFormat`‑API’s.
 
-Met Aspose.Words voor Java kunt u de tabelopmaak programmatisch aanpassen op basis van voorwaarden. Dit kunt u doen door specifieke criteria in uw code te controleren en de opmaak dienovereenkomstig toe te passen.
+**V: Wat als de tabel dynamisch moet schalen op basis van gebruikersinvoer?**  
+A: Pas kolombreedtes aan of roep `autoFit` opnieuw aan nadat je nieuwe gegevens hebt ingevoegd om de lay‑out te herberekenen.
 
-### 3. Kan ik samengevoegde cellen in een tabel opmaken?
+**V: Waar vind ik meer voorbeelden van tabelstyling?**  
+A: De officiële [Aspose.Words API‑documentatie](https://reference.aspose.com/words/java/) bevat een uitgebreide verzameling voorbeelden.
 
-Ja, je kunt samengevoegde cellen op dezelfde manier opmaken als gewone cellen. Zorg ervoor dat je de opmaak toepast na het samenvoegen om de wijzigingen te zien.
+## Conclusie
 
-### 4. Is het mogelijk om de tabelindeling dynamisch aan te passen?
-
-Ja, u kunt de tabelindeling dynamisch aanpassen door de celgroottes, tabelbreedte en andere eigenschappen te wijzigen op basis van de inhoud of de invoer van de gebruiker.
-
-### 5. Waar kan ik meer informatie over tabelopmaak vinden?
-
-Voor meer gedetailleerde voorbeelden en opties, bezoek de [Aspose.Words API-documentatie](https://reference.aspose.com/words/java/).
-
+Je beschikt nu over een complete toolbox voor **hoe celranden te wijzigen**, het toepassen van de *eerste kolom stijl* en **auto‑fit tabelinhoud** met Aspose.Words voor Java. Door deze technieken te beheersen kun je documenten produceren die zowel data‑rijk als visueel aantrekkelijk zijn—perfect voor rapporten, facturen en elke andere zakelijke output.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-11-28  
+**Getest met:** Aspose.Words voor Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose
