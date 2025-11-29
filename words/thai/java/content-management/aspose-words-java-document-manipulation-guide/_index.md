@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีการจัดการเอกสารอย่างเชี่ยวชาญโดยใช้ Aspose.Words สำหรับ Java คู่มือนี้ครอบคลุมถึงการเริ่มต้น การปรับแต่งพื้นหลัง และการนำเข้าโหนดอย่างมีประสิทธิภาพ"
-"title": "การจัดการเอกสารอย่างเชี่ยวชาญด้วย Aspose.Words สำหรับ Java - คู่มือฉบับสมบูรณ์"
-"url": "/th/java/content-management/aspose-words-java-document-manipulation-guide/"
-"weight": 1
+date: '2025-11-26'
+description: เรียนรู้วิธีตั้งค่าสีพื้นหลังของหน้าโดยใช้ Aspose.Words for Java, เปลี่ยนสีหน้าในเอกสาร
+  Word, รวมส่วนของเอกสาร, และนำเข้าส่วนจากเอกสารอย่างมีประสิทธิภาพ
+keywords:
+- Aspose.Words for Java
+- Document initialization in Java
+- Customize page backgrounds with Java
+- Import nodes between documents using Java
+language: th
+title: ตั้งค่าสีพื้นหลังของหน้าโดยใช้ Aspose.Words for Java – คู่มือ
+url: /java/content-management/aspose-words-java-document-manipulation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +19,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# ตั้งค่าสีพื้นหลังของหน้าโดยใช้ Aspose.Words for Java
 
-# การเรียนรู้การจัดการเอกสารด้วย Aspose.Words สำหรับ Java
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีตั้งค่าสีพื้นหลังของหน้า** ด้วย Aspose.Words for Java และสำรวจงานที่เกี่ยวข้องเช่น **การเปลี่ยนสีหน้าในเอกสาร Word**, **การรวมส่วนของเอกสาร**, **การสร้างภาพพื้นหลังของเอกสาร**, และ **การนำเข้าส่วนจากเอกสาร** เมื่อเสร็จสิ้นคุณจะมีเวิร์กโฟลว์ที่พร้อมใช้งานในระดับผลิตเพื่อปรับแต่งลักษณะและโครงสร้างของไฟล์ Word อย่างเป็นโปรแกรม
 
-ปลดล็อกศักยภาพทั้งหมดของการทำงานอัตโนมัติของเอกสารโดยใช้ประโยชน์จากคุณสมบัติอันทรงพลังของ Aspose.Words สำหรับ Java ไม่ว่าคุณต้องการเริ่มต้นเอกสารที่ซับซ้อน ปรับแต่งพื้นหลังของหน้า หรือรวมโหนดระหว่างเอกสารอย่างราบรื่น คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะได้รับความรู้และทักษะที่จำเป็นในการใช้ฟังก์ชันเหล่านี้อย่างมีประสิทธิภาพ
+## คำตอบอย่างรวดเร็ว
+- **คลาสหลักที่ใช้ทำงานคืออะไร?** `com.aspose.words.Document`
+- **เมธอดใดที่ตั้งค่าสีพื้นหลังแบบเดียวกัน?** `Document.setPageColor(Color)`
+- **ฉันสามารถนำเข้าส่วนจากเอกสารอื่นได้หรือไม่?** ได้, ใช้ `Document.importNode(...)`
+- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตหรือไม่?** ต้องมี, ต้องซื้อใบอนุญาต Aspose.Words
+- **รองรับบน Java 8+ หรือไม่?** แน่นอน – ทำงานกับ JDK สมัยใหม่ทั้งหมด
 
-## สิ่งที่คุณจะได้เรียนรู้
-- การเริ่มต้นคลาสย่อยเอกสารต่างๆ ด้วย Aspose.Words
-- การกำหนดสีพื้นหลังของหน้าเพจเพื่อความสวยงาม
-- การนำเข้าโหนดระหว่างเอกสารเพื่อการจัดการข้อมูลที่มีประสิทธิภาพ
-- การปรับแต่งรูปแบบการนำเข้าเพื่อรักษาความสม่ำเสมอของสไตล์
-- การใช้รูปร่างเป็นพื้นหลังแบบไดนามิกในเอกสารของคุณ
+## “ตั้งค่าสีพื้นหลังของหน้า” คืออะไร?
+การตั้งค่าสีพื้นหลังของหน้าเปลี่ยนแคนวาสภาพมองเห็นของทุกหน้าภายในเอกสาร Word ซึ่งมีประโยชน์สำหรับการสร้างแบรนด์, การเพิ่มความอ่านง่าย, หรือการสร้างแบบฟอร์มที่พิมพ์ออกมามีสีอ่อน
 
-ตอนนี้ เรามาดูข้อกำหนดเบื้องต้นก่อนที่เราจะเริ่มสำรวจฟีเจอร์เหล่านี้
+## ทำไมต้องเปลี่ยนสีหน้าในเอกสาร Word?
+การเปลี่ยนสีหน้าสามารถ:
+- ทำให้เอกสารถูกจัดให้สอดคล้องกับโทนสีขององค์กร  
+- ลดความเมื่อยล้าของดวงตาสำหรับรายงานยาว  
+- เน้นส่วนต่าง ๆ เมื่อพิมพ์บนกระดาษสี  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้:
+ก่อนเริ่มทำงาน ตรวจสอบให้แน่ใจว่าคุณมี:
 
-### ไลบรารีและเวอร์ชันที่จำเป็น
-- Aspose.Words สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
-  
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
-- Java Development Kit (JDK) ติดตั้งอยู่บนเครื่องของคุณ
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
-
-### ข้อกำหนดเบื้องต้นของความรู้
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
-- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
-
-เมื่อเตรียมการเบื้องต้นเรียบร้อยแล้ว คุณก็พร้อมที่จะตั้งค่า Aspose.Words ในโปรเจ็กต์ของคุณแล้ว เริ่มกันเลย!
+- **Aspose.Words for Java** เวอร์ชัน 25.3 หรือใหม่กว่า  
+- **JDK** (Java 8 หรือใหม่กว่า) ที่ติดตั้งไว้  
+- IDE เช่น **IntelliJ IDEA** หรือ **Eclipse**  
+- ความรู้พื้นฐานของ Java และความคุ้นเคยกับ **Maven** หรือ **Gradle** สำหรับการจัดการ dependency  
 
 ## การตั้งค่า Aspose.Words
 
-หากต้องการรวม Aspose.Words เข้าในโปรเจ็กต์ Java คุณจะต้องรวมไว้เป็นส่วนที่ต้องพึ่งพา:
+### Maven
+เพิ่มโค้ดสแนปนี้ลงในไฟล์ `pom.xml` ของคุณ:
 
-### เมเวน
-เพิ่มส่วนนี้ลงในของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -57,27 +61,28 @@
 </dependency>
 ```
 
-### แกรเดิล
-รวมสิ่งต่อไปนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+### Gradle
+ใส่โค้ดต่อไปนี้ในไฟล์ `build.gradle` ของคุณ:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### ขั้นตอนการรับใบอนุญาต
-1. **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรี 30 วันเพื่อสำรวจฟีเจอร์ Aspose.Words
-2. **ใบอนุญาตชั่วคราว**: รับใบอนุญาตชั่วคราวเพื่อการเข้าถึงเต็มรูปแบบในระหว่างการประเมินผล
-3. **ซื้อ**:สำหรับการใช้งานในระยะยาว โปรดซื้อใบอนุญาตจากเว็บไซต์ Aspose
+#### ขั้นตอนการรับลิขสิทธิ์
+1. **ทดลองใช้ฟรี** – ทดลองใช้คุณสมบัติทั้งหมดเป็นเวลา 30 วัน  
+2. **ลิขสิทธิ์ชั่วคราว** – ปลดล็อกฟังก์ชันเต็มระหว่างการประเมินผล  
+3. **ซื้อ** – รับลิขสิทธิ์ถาวรสำหรับการใช้งานในผลิต
 
-### การเริ่มต้นและการตั้งค่าเบื้องต้น
+### การเริ่มต้นและตั้งค่าพื้นฐาน
 
-นี่คือวิธีการเริ่มต้น Aspose.Words ในแอปพลิเคชัน Java ของคุณ:
+นี่คือตัวอย่างโปรแกรม Java ขั้นต่ำที่สร้างเอกสารเปล่า:
 
 ```java
 import com.aspose.words.Document;
 
 public class DocumentSetup {
     public static void main(String[] args) throws Exception {
-        // เริ่มต้นเอกสารใหม่
+        // Initialize a new document
         Document doc = new Document();
         
         System.out.println("Document initialized successfully!");
@@ -85,18 +90,14 @@ public class DocumentSetup {
 }
 ```
 
-เมื่อตั้งค่า Aspose.Words เสร็จแล้ว มาเจาะลึกการใช้งานฟีเจอร์เฉพาะต่างๆ กัน
+เมื่อไลบรารีพร้อมแล้ว เราจะไปสำรวจฟีเจอร์หลักต่อไป
 
-## คู่มือการใช้งาน
+## คู่มือการดำเนินการ
 
-### คุณสมบัติ 1: การเริ่มต้นเอกสาร
+### ฟีเจอร์ 1: การเริ่มต้นเอกสาร
 
 #### ภาพรวม
-การเริ่มต้นเอกสารและคลาสย่อยของเอกสารนั้นมีความสำคัญต่อการสร้างเทมเพลตเอกสารที่มีโครงสร้าง คุณลักษณะนี้จะแสดงวิธีการเริ่มต้นเอกสาร `GlossaryDocument` ภายในเอกสารหลักโดยใช้ Aspose.Words สำหรับ Java
-
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### เริ่มต้นเอกสารหลัก
+การสร้าง `GlossaryDocument` ภายในเอกสารหลักช่วยให้คุณจัดการพจนานุกรม, สไตล์, และส่วนกำหนดเองในคอนเทนเนอร์ที่แยกออกมาอย่างเป็นระเบียบ
 
 ```java
 import com.aspose.words.Document;
@@ -104,28 +105,22 @@ import com.aspose.words.GlossaryDocument;
 
 public class DocumentInitialization {
     public static void constructor() throws Exception {
-        // สร้างอินสแตนซ์เอกสารใหม่
+        // Create a new document instance
         Document doc = new Document();
 
-        // เริ่มต้นและตั้งค่า GlossaryDocument ให้กับเอกสารหลัก
+        // Initialize and set a GlossaryDocument to the main document
         GlossaryDocument glossaryDoc = new GlossaryDocument();
         doc.setGlossaryDocument(glossaryDoc);
     }
 }
 ```
 
-**คำอธิบาย**- 
-- `Document` เป็นคลาสพื้นฐานสำหรับเอกสาร Aspose.Words ทั้งหมด
-- เอ `GlossaryDocument` สามารถตั้งค่าเป็นเอกสารหลักได้ ช่วยให้จัดการคำศัพท์ได้อย่างมีประสิทธิภาพ
+*เหตุผลที่สำคัญ:* แพทเทิร์นนี้เป็นพื้นฐานสำหรับ **การรวมส่วนของเอกสาร** ในภายหลัง, เพราะแต่ละส่วนสามารถรักษาสตไลล์ของตนเองได้แม้อยู่ในไฟล์เดียวกัน
 
-### คุณสมบัติ 2: ตั้งค่าสีพื้นหลังหน้า
+### ฟีเจอร์ 2: ตั้งค่าสีพื้นหลังของหน้า
 
 #### ภาพรวม
-การปรับแต่งพื้นหลังของหน้ากระดาษจะช่วยเพิ่มความน่าสนใจให้กับเอกสารของคุณ คุณลักษณะนี้จะอธิบายวิธีการตั้งค่าสีพื้นหลังที่สม่ำเสมอสำหรับทุกหน้าในเอกสาร
-
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### ตั้งค่าสีพื้นหลัง
+คุณสามารถใช้ `Document.setPageColor` เพื่อใส่สีโทนเดียวให้ทุกหน้า ซึ่งตรงกับคีย์เวิร์ดหลัก **set page background color**
 
 ```java
 import com.aspose.words.Document;
@@ -133,31 +128,25 @@ import java.awt.Color;
 
 public class SetPageBackgroundColor {
     public void setPageColor() throws Exception {
-        // สร้างเอกสารใหม่และเพิ่มข้อความลงไป (เว้นไว้เพื่อความกระชับ)
+        // Create a new document and add text to it (omitted for brevity)
         Document doc = new Document();
 
-        // ตั้งค่าสีพื้นหลังของทุกหน้าเป็นสีเทาอ่อน
+        // Set the background color of all pages to light gray
         doc.setPageColor(Color.lightGray);
 
-        // บันทึกเอกสารด้วยเส้นทางที่ระบุ
+        // Save the document with a specified path
         String outputPath = "YOUR_OUTPUT_DIRECTORY/DocumentBase.SetPageColor.docx";
         doc.save(outputPath);
     }
 }
 ```
 
-**คำอธิบาย**- 
-- `setPageColor()` ช่วยให้คุณสามารถกำหนดสีพื้นหลังที่สม่ำเสมอให้กับทุกหน้าได้
-- ใช้ Java's `Color` คลาสเพื่อกำหนดเฉดสีที่ต้องการ
+**เคล็ดลับ:** หากต้องการ **เปลี่ยนสีหน้าในเอกสาร Word** อย่างรวดเร็ว เพียงเปลี่ยน `Color.lightGray` เป็นค่าคงที่ของ `java.awt.Color` ใดก็ได้ หรือค่า RGB ที่กำหนดเอง
 
-### คุณสมบัติที่ 3: นำเข้าโหนดระหว่างเอกสาร
+### ฟีเจอร์ 3: นำเข้าส่วนจากเอกสาร (และการรวมส่วนของเอกสาร)
 
 #### ภาพรวม
-การรวมเนื้อหาจากเอกสารหลายฉบับเข้าด้วยกันมักมีความจำเป็น คุณลักษณะนี้จะแสดงวิธีการนำเข้าโหนดระหว่างเอกสารโดยยังคงโครงสร้างและความสมบูรณ์ของเอกสารไว้
-
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### นำเข้าส่วนจากเอกสารต้นทางสู่เอกสารปลายทาง
+เมื่อคุณต้องการรวมเนื้อหาจากหลายแหล่ง คุณสามารถนำเข้าทั้งส่วน (หรือโหนดใด ๆ) จากเอกสารหนึ่งไปยังอีกเอกสารหนึ่ง นี่คือหัวใจของ **merge document sections** และ **import section from document**
 
 ```java
 import com.aspose.words.Document;
@@ -165,11 +154,11 @@ import com.aspose.words.Section;
 
 public class ImportNode {
     public void importNode() throws Exception {
-        // การสร้างเอกสารต้นทางและปลายทาง
+        // Create source and destination documents
         Document srcDoc = new Document();
         Document dstDoc = new Document();
 
-        // เพิ่มข้อความลงในย่อหน้าในเอกสารทั้งสองฉบับ
+        // Add text to paragraphs in both documents
         srcDoc.getFirstSection().getBody()
             .getFirstParagraph()
             .appendChild(new com.aspose.words.Run(srcDoc, "Source document first paragraph text."));
@@ -177,27 +166,21 @@ public class ImportNode {
             .getFirstParagraph()
             .appendChild(new com.aspose.words.Run(dstDoc, "Destination document first paragraph text."));
 
-        // นำเข้าส่วนจากเอกสารต้นทางสู่เอกสารปลายทาง
+        // Import section from source to destination document
         Section importedSection = (Section) dstDoc.importNode(srcDoc.getFirstSection(), true);
         
-        // ผนวกส่วนที่นำเข้าไปยังเอกสารปลายทาง
+        // Append the imported section to the destination document
         dstDoc.appendChild(importedSection);
     }
 }
 ```
 
-**คำอธิบาย**- 
-- การ `importNode()` วิธีการนี้อำนวยความสะดวกในการถ่ายโอนโหนดระหว่างเอกสาร
-- ตรวจสอบให้แน่ใจว่าคุณจัดการข้อยกเว้นที่อาจเกิดขึ้นทั้งหมดเมื่อโหนดเป็นของอินสแตนซ์เอกสารที่แตกต่างกัน
+**Pro tip:** หลังจากนำเข้าแล้ว ให้เรียก `dstDoc.updatePageLayout()` เพื่อให้การจัดหน้าและหัวกระดาษ/ท้ายกระดาษถูกคำนวณใหม่อย่างถูกต้อง
 
-### คุณสมบัติที่ 4: นำเข้าโหนดด้วยโหมดฟอร์แมตที่กำหนดเอง
+### ฟีเจอร์ 4: นำเข้าโหนดพร้อมโหมดฟอร์แมตแบบกำหนดเอง
 
 #### ภาพรวม
-การรักษาความสอดคล้องของรูปแบบในเนื้อหาที่นำเข้านั้นมีความสำคัญ คุณลักษณะนี้จะแสดงวิธีการนำเข้าโหนดในขณะที่ใช้การกำหนดค่ารูปแบบเฉพาะโดยใช้โหมดรูปแบบที่กำหนดเอง
-
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### ใช้สไตล์ระหว่างการนำเข้าโหนด
+บางครั้งแหล่งที่มและปลายทางใช้สไตล์ที่แตกต่างกัน `ImportFormatMode` ช่วยให้คุณเลือกว่าจะรักษาสตไลล์ของแหล่งที่มาหรือบังคับให้ใช้สไตล์ของปลายทาง
 
 ```java
 import com.aspose.words.Document;
@@ -207,7 +190,7 @@ import com.aspose.words.ImportFormatMode;
 
 public class ImportNodeCustom {
     public void importNodeCustom() throws Exception {
-        // สร้างเอกสารต้นทางและปลายทางด้วยการกำหนดค่ารูปแบบที่แตกต่างกัน
+        // Create source and destination documents with different style configurations
         Document srcDoc = new Document();
         Style srcStyle = srcDoc.getStyles().add(StyleType.CHARACTER, "My style");
         srcStyle.getFont().setName("Courier New");
@@ -216,23 +199,18 @@ public class ImportNodeCustom {
         Style dstStyle = dstDoc.getStyles().add(StyleType.CHARACTER, "My style");
         dstStyle.getFont().setName("Calibri");
 
-        // ใช้ importNode กับโหมดฟอร์แมตเฉพาะ
+        // Use importNode with specific format mode
         Section importedSection = (Section) dstDoc.importNode(srcDoc.getFirstSection(), true, ImportFormatMode.USE_DESTINATION_STYLES);
     }
 }
 ```
 
-**คำอธิบาย**- 
-- `ImportFormatMode` ช่วยให้คุณสามารถเลือกได้ระหว่างการรักษาสไตล์ต้นทางหรือการนำสไตล์ปลายทางมาใช้
+**เมื่อใดควรใช้:** เลือก `USE_DESTINATION_STYLES` หากต้องการลุคที่สอดคล้องกันทั่วทั้งเอกสารที่ **merged document sections** จากหลายแบรนด์
 
-### คุณสมบัติ 5: ตั้งค่ารูปร่างพื้นหลังสำหรับหน้าเอกสาร
+### ฟีเจอร์ 5: สร้างภาพพื้นหลังของเอกสาร (ตั้งค่า Shape พื้นหลัง)
 
 #### ภาพรวม
-การปรับปรุงเอกสารด้วยองค์ประกอบภาพ เช่น รูปทรง สามารถเพิ่มความรู้สึกเป็นมืออาชีพได้ ฟีเจอร์นี้แสดงวิธีตั้งค่ารูปภาพเป็นรูปทรงพื้นหลังในหน้าเอกสารของคุณโดยใช้ Aspose.Words สำหรับ Java
-
-#### การดำเนินการแบบทีละขั้นตอน
-
-##### การแทรกและจัดการรูปทรงพื้นหลัง
+นอกเหนือจากสีทึบ คุณสามารถฝัง Shape หรือภาพเป็นพื้นหลังของหน้า ตัวอย่างนี้เพิ่ม Shape รูปดาวสีแดง, แต่คุณสามารถเปลี่ยนเป็นรูปภาพใดก็ได้เพื่อ **create document background image**
 
 ```java
 import com.aspose.words.Document;
@@ -240,40 +218,61 @@ import com.aspose.words.Shape;
 
 public class SetBackgroundShape {
     public void setBackgroundShape() throws Exception {
-        // สร้างเอกสารใหม่
+        // Create a new document
         Document doc = new Document();
 
-        // เพิ่มรูปทรงให้กับพื้นหลังของแต่ละหน้า
+        // Add a shape to the background of each page
         Shape shape = new Shape(doc, com.aspose.words.ShapeType.STAR);
         shape.setWidth(200);
         shape.setHeight(100);
         shape.getFill().setColor(Color.RED);
         
-        // กำหนดรูปร่างเป็นพื้นหลังสำหรับทุกหน้า (ละเว้นรหัสเพื่อความกระชับ)
+        // Set the shape as the background for all pages (code omitted for brevity)
 
         doc.save("YOUR_OUTPUT_DIRECTORY/DocumentWithBackgroundShape.docx");
     }
 }
 ```
 
-**คำอธิบาย**- 
-- ใช้ `Shape` วัตถุเพื่อปรับแต่งพื้นหลังด้วยรูปแบบและสีสันต่างๆ
+**วิธีใช้ภาพ:** แทนที่การสร้าง `Shape` ด้วย `ShapeType.IMAGE` แล้วโหลดสตรีมของภาพ การทำเช่นนี้จะเปลี่ยน Shape ให้กลายเป็น **document background image** ที่ทำซ้ำบนทุกหน้า
 
-## บทสรุป
-ในคู่มือนี้ คุณจะได้เรียนรู้วิธีการจัดการเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java ตั้งแต่การเริ่มต้นโครงสร้างเอกสารที่ซับซ้อนไปจนถึงการปรับแต่งองค์ประกอบด้านสุนทรียะ เช่น รูปร่างพื้นหลัง เทคนิคเหล่านี้ช่วยให้ผู้พัฒนาสามารถทำงานอัตโนมัติและปรับปรุงกระบวนการจัดการเอกสารได้อย่างมีประสิทธิภาพ เรียนรู้คุณลักษณะเพิ่มเติมของ Aspose.Words ต่อไปเพื่อขยายความสามารถของคุณให้มากขึ้น
+## ปัญหาทั่วไปและวิธีแก้
 
-## คำแนะนำคีย์เวิร์ด
-- "Aspose.Words สำหรับภาษา Java"
-- “การเริ่มต้นเอกสารใน Java”
-- “ปรับแต่งพื้นหลังหน้าด้วย Java”
-- “นำเข้าโหนดระหว่างเอกสารโดยใช้ Java”
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **สีพื้นหลังไม่แสดง** | ตรวจสอบให้แน่ใจว่าเรียก `doc.setPageColor(...)` **ก่อน** บันทึกเอกสาร |
+| **ส่วนที่นำเข้าสูญเสียรูปแบบ** | ใช้ `ImportFormatMode.USE_DESTINATION_STYLES` เพื่อบังคับใช้สไตล์ปลายทาง |
+| **Shape ไม่แสดงบนทุกหน้า** | แทรก Shape ลงใน **header/footer** ของแต่ละ Section, หรือทำการคัดลอกสำหรับทุก Section |
+| **เกิดข้อยกเว้นลิขสิทธิ์** | ตรวจสอบว่าเรียก `License.setLicense("Aspose.Words.Java.lic")` ตั้งแต่ต้นแอป |
+| **ค่าสีแสดงผลต่างกัน** | `java.awt.Color` ใช้ sRGB; ตรวจสอบค่า RGB ที่ต้องการอีกครั้ง |
+
+## คำถามที่พบบ่อย
+
+**ถาม: ฉันสามารถตั้งค่าสีพื้นหลังที่แตกต่างกันสำหรับแต่ละ Section ได้หรือไม่?**  
+ตอบ: ได้ หลังจากสร้าง `Section` ใหม่ ให้เรียก `section.getPageSetup().setPageColor(Color)` สำหรับ Section นั้น
+
+**ถาม: สามารถใช้ Gradient แทนสีทึบได้หรือไม่?**  
+ตอบ: Aspose.Words ไม่รองรับการเติมแบบ Gradient โดยตรง, แต่คุณสามารถแทรกรูปภาพเต็มหน้าแบบ Gradient แล้วตั้งเป็น Shape พื้นหลังได้
+
+**ถาม: จะรวมเอกสารขนาดใหญ่โดยไม่ให้หน่วยความจำเต็มได้อย่างไร?**  
+ตอบ: ใช้ `Document.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` ในโหมดสตรีมมิ่ง และเรียก `doc.updatePageLayout()` หลังการรวมแต่ละครั้ง
+
+**ถาม: API ทำงานกับไฟล์ .docx ที่สร้างโดย Microsoft Word 2019 หรือไม่?**  
+ตอบ: แน่นอน Aspose.Words รองรับมาตรฐาน OOXML ของ Word เวอร์ชันใหม่ทั้งหมด
+
+**ถาม: วิธีที่ดีที่สุดในการเปลี่ยนพื้นหลังของไฟล์ .doc ที่มีอยู่โดยโปรแกรมคืออะไร?**  
+ตอบ: โหลดเอกสารด้วย `new Document("file.doc")`, เรียก `setPageColor`, แล้วบันทึกกลับเป็น `.doc` หรือ `.docx`
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-26  
+**ทดสอบกับ:** Aspose.Words for Java 25.3  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

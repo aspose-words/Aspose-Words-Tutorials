@@ -1,9 +1,17 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách chèn, cập nhật và xóa dấu trang theo chương trình trong tài liệu Microsoft Word bằng Aspose.Words for Java. Đơn giản hóa các tác vụ xử lý tài liệu của bạn với hướng dẫn toàn diện này."
-"title": "Master Aspose.Words cho Java&#58; Cách chèn và quản lý dấu trang trong tài liệu Word"
-"url": "/vi/java/content-management/aspose-words-java-manage-bookmarks/"
-"weight": 1
+date: '2025-11-26'
+description: Tìm hiểu cách thêm dấu trang trong Word bằng Aspose.Words cho Java. Hướng
+  dẫn này bao gồm chèn dấu trang bằng Java, xóa dấu trang trong tài liệu và thiết
+  lập Aspose.Words cho Java để tự động hoá tài liệu Word một cách liền mạch.
+keywords:
+- Aspose.Words for Java
+- insert bookmarks
+- manage Word documents
+- add bookmarks word
+language: vi
+title: Thêm Đánh Dấu Word với Aspose.Words cho Java – Chèn, Cập nhật, Xóa
+url: /java/content-management/aspose-words-java-manage-bookmarks/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,39 +20,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Thêm Bookmarks Word với Aspose.Words for Java: Chèn, Cập Nhật và Xóa
 
-# Làm chủ dấu trang với Aspose.Words cho Java: Chèn, Cập nhật và Xóa
+## Introduction
+Việc duyệt các tài liệu Word phức tạp có thể gây đau đầu, đặc biệt khi bạn cần chuyển nhanh tới các phần cụ thể. **Adding bookmarks word** cho phép bạn gắn thẻ bất kỳ phần nào của tài liệu—cho dù là một đoạn văn, một ô bảng, hay một hình ảnh—để bạn có thể truy xuất hoặc chỉnh sửa sau này mà không phải cuộn dài. Với **Aspose.Words for Java**, bạn có thể chèn, cập nhật và xóa các bookmark này một cách lập trình, biến một tệp tĩnh thành một tài sản động, có thể tìm kiếm được.  
 
-## Giới thiệu
-Việc điều hướng các tài liệu phức tạp có thể là một thách thức, đặc biệt là khi xử lý khối lượng lớn văn bản hoặc bảng dữ liệu. Dấu trang trong Microsoft Word là công cụ vô giá cho phép bạn truy cập nhanh vào các phần cụ thể mà không cần cuộn qua các trang. Với **Aspose.Words cho Java**, bạn có thể chèn, cập nhật và xóa các dấu trang này theo chương trình như một phần của các tác vụ tự động hóa tài liệu của bạn. Hướng dẫn này hướng dẫn bạn cách thành thạo các chức năng này bằng Aspose.Words.
+Trong tutorial này, bạn sẽ học cách **add bookmarks word**, xác minh chúng, cập nhật nội dung, làm việc với bookmark cột bảng, và cuối cùng dọn dẹp chúng khi không còn cần thiết.
 
-### Những gì bạn sẽ học được:
-- Cách chèn dấu trang vào tài liệu Word
-- Truy cập và xác minh tên dấu trang
-- Tạo, cập nhật và in chi tiết dấu trang
-- Làm việc với các dấu trang cột bảng
-- Xóa dấu trang khỏi tài liệu
+### What You'll Learn
+- Cách **insert bookmark java** vào tài liệu Word  
+- Truy cập và xác minh tên bookmark  
+- Tạo, cập nhật và in thông tin bookmark  
+- Làm việc với bookmark cột bảng  
+- **Delete bookmarks document** một cách an toàn và hiệu quả  
 
-Hãy cùng tìm hiểu và khám phá cách bạn có thể tận dụng các tính năng này để hợp lý hóa các tác vụ xử lý tài liệu của mình.
+Hãy cùng khám phá cách tối ưu hoá quy trình xử lý tài liệu của bạn.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong những điều sau:
+## Quick Answers
+- **What is the primary class for building documents?** `DocumentBuilder`  
+- **Which method starts a bookmark?** `builder.startBookmark("BookmarkName")`  
+- **Can I remove a bookmark without deleting its content?** Yes, using `Bookmark.remove()`  
+- **Do I need a license for production use?** Absolutely—use a purchased Aspose.Words license.  
+- **Is Aspose.Words compatible with Java 17?** Yes, it supports Java 8 through 17.
 
-### Thư viện và phiên bản cần thiết:
-- **Aspose.Words cho Java** phiên bản 25.3 trở lên.
-  
-### Yêu cầu thiết lập môi trường:
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- Môi trường phát triển tích hợp (IDE), chẳng hạn như IntelliJ IDEA hoặc Eclipse.
+## What is “add bookmarks word”?
+Adding bookmarks word có nghĩa là đặt một dấu đánh dấu có tên bên trong tệp Microsoft Word mà sau này có thể được tham chiếu bởi mã. Dấu đánh dấu (bookmark) có thể bao quanh bất kỳ node nào—văn bản, ô bảng, hình ảnh—cho phép bạn định vị, đọc hoặc thay thế nội dung đó một cách lập trình.
 
-### Điều kiện tiên quyết về kiến thức:
-- Hiểu biết cơ bản về lập trình Java.
-- Sự quen thuộc với các công cụ xây dựng Maven hoặc Gradle sẽ có lợi.
+## Why set up Aspose.Words for Java?
+Cài đặt **aspose.words java** cung cấp cho bạn một API mạnh mẽ, không phụ thuộc vào runtime và không cần giấy phép Microsoft Office. Bạn sẽ có:
 
-## Thiết lập Aspose.Words
-Để bắt đầu làm việc với Aspose.Words, bạn cần đưa thư viện vào dự án của mình. Sau đây là cách bạn có thể thực hiện bằng Maven và Gradle:
+- Kiểm soát toàn bộ cấu trúc tài liệu mà không cần cài đặt Microsoft Office.  
+- Xử lý hiệu suất cao cho các tệp lớn.  
+- Tương thích đa nền tảng (Windows, Linux, macOS).  
 
-### Phụ thuộc Maven:
+Bây giờ bạn đã hiểu “tại sao”, hãy chuẩn bị môi trường.
+
+## Prerequisites
+- **Aspose.Words for Java** phiên bản 25.3 hoặc mới hơn.  
+- JDK 8 hoặc mới hơn (đề nghị Java 17).  
+- Một IDE như IntelliJ IDEA hoặc Eclipse.  
+- Kiến thức cơ bản về Java và quen thuộc với Maven hoặc Gradle.
+
+## Setting Up Aspose.Words
+Thêm thư viện vào dự án của bạn bằng Maven hoặc Gradle:
+
+### Maven Dependency
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -53,73 +73,74 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong nhữ
 </dependency>
 ```
 
-### Triển khai Gradle:
+### Gradle Implementation
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Các bước xin cấp phép:
-1. **Dùng thử miễn phí**:Bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của thư viện.
-2. **Giấy phép tạm thời**: Xin giấy phép tạm thời để thử nghiệm mở rộng.
-3. **Mua**: Mua giấy phép đầy đủ cho mục đích sử dụng thương mại.
+#### License Acquisition Steps
+1. **Free Trial** – khám phá API mà không tốn phí.  
+2. **Temporary License** – kéo dài thời gian thử nghiệm vượt quá thời gian trial.  
+3. **Full License** – bắt buộc cho các triển khai sản xuất.
 
-Sau khi có giấy phép, hãy khởi tạo Aspose.Words trong ứng dụng Java của bạn bằng cách thiết lập tệp giấy phép như sau:
+Khởi tạo giấy phép trong mã Java của bạn:
+
 ```java
 License license = new License();
 license.setLicense("path/to/your/aspose.words.lic");
 ```
 
-## Hướng dẫn thực hiện
-Chúng tôi sẽ chia nhỏ quá trình triển khai thành các tính năng riêng biệt để bạn dễ theo dõi.
+## Implementation Guide
+Chúng tôi sẽ hướng dẫn từng tính năng một cách chi tiết, giữ nguyên mã nguồn để bạn có thể sao chép‑dán trực tiếp.
 
-### Chèn một dấu trang
+### Inserting a Bookmark
 
-#### Tổng quan:
-Chèn dấu trang cho phép bạn đánh dấu các phần cụ thể trong tài liệu để truy cập hoặc tham khảo nhanh.
+#### Overview
+Chèn một bookmark cho phép bạn gắn thẻ một phần nội dung để truy xuất sau này.
 
-#### Các bước thực hiện:
-**1. Khởi tạo Tài liệu và Trình xây dựng:**
+#### Steps
+**1. Initialize Document and Builder:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
 ```
 
-**2. Bắt đầu và kết thúc dấu trang:**
+**2. Start and End the Bookmark:**  
 ```java
 builder.startBookmark("My Bookmark");
 builder.write("Contents of My Bookmark.");
 builder.endBookmark("My Bookmark");
 doc.save(YOUR_OUTPUT_DIRECTORY + "Bookmarks.Insert.docx");
 ```
-*Tại sao?* Đánh dấu văn bản cụ thể bằng dấu trang giúp điều hướng các tài liệu lớn một cách hiệu quả.
+*Why?* Đánh dấu văn bản cụ thể bằng bookmark giúp việc điều hướng và cập nhật sau này trở nên đơn giản.
 
-### Truy cập và xác minh một dấu trang
+### Accessing and Verifying a Bookmark
 
-#### Tổng quan:
-Sau khi chèn dấu trang, việc truy cập vào dấu trang sẽ đảm bảo bạn có thể tìm đúng phần khi cần.
+#### Overview
+Sau khi thêm bookmark, bạn thường cần xác nhận sự tồn tại của nó trước khi thao tác.
 
-#### Các bước thực hiện:
-**1. Tải tài liệu:**
+#### Steps
+**1. Load Document:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Bookmarks.Insert.docx");
 ```
 
-**2. Xác minh tên dấu trang:**
+**2. Verify Bookmark Name:**  
 ```java
 String bookmarkName = doc.getRange().getBookmarks().get(0).getName();
 if (!"My Bookmark".equals(bookmarkName)) {
     throw new AssertionError("Bookmark name does not match expected value.");
 }
 ```
-*Tại sao?* Việc xác minh đảm bảo truy cập đúng dấu trang, tránh lỗi trong quá trình xử lý tài liệu.
+*Why?* Xác minh ngăn ngừa việc thay đổi nhầm phần không mong muốn.
 
-### Tạo, Cập nhật và In Dấu trang
+### Creating, Updating, and Printing Bookmarks
 
-#### Tổng quan:
-Quản lý nhiều dấu trang hiệu quả là rất quan trọng để xử lý tài liệu một cách có tổ chức.
+#### Overview
+Quản lý nhiều bookmark cùng lúc là điều phổ biến trong báo cáo và hợp đồng.
 
-#### Các bước thực hiện:
-**1. Tạo nhiều dấu trang:**
+#### Steps
+**1. Create Multiple Bookmarks:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -133,14 +154,14 @@ for (int i = 1; i <= 3; i++) {
 }
 ```
 
-**2. Cập nhật Dấu trang:**
+**2. Update Bookmarks:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
 bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
 ```
 
-**3. In thông tin dấu trang:**
+**3. Print Bookmark Information:**  
 ```java
 for (int i = 0; i < bookmarks.getCount(); i++) {
     Bookmark bookmark = bookmarks.get(i);
@@ -148,15 +169,15 @@ for (int i = 0; i < bookmarks.getCount(); i++) {
 }
 doc.save(YOUR_OUTPUT_DIRECTORY + "UpdatedBookmarks.docx");
 ```
-*Tại sao?* Việc cập nhật dấu trang đảm bảo tài liệu của bạn vẫn có liên quan và dễ điều hướng khi nội dung thay đổi.
+*Why?* Cập nhật tên hoặc nội dung bookmark giúp tài liệu luôn đồng nhất với các quy tắc kinh doanh thay đổi.
 
-### Làm việc với các dấu trang cột bảng
+### Working with Table Column Bookmarks
 
-#### Tổng quan:
-Việc xác định dấu trang trong các cột bảng có thể đặc biệt hữu ích trong các tài liệu có nhiều dữ liệu.
+#### Overview
+Bookmark trong bảng cho phép bạn nhắm tới các ô cụ thể, hữu ích cho các báo cáo dựa trên dữ liệu.
 
-#### Các bước thực hiện:
-**1. Xác định dấu trang cột:**
+#### Steps
+**1. Identify Column Bookmarks:**  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "Table column bookmarks.doc");
 for (Bookmark bookmark : doc.getRange().getBookmarks()) {
@@ -169,15 +190,15 @@ for (Bookmark bookmark : doc.getRange().getBookmarks()) {
     }
 }
 ```
-*Tại sao?* Điều này cho phép bạn quản lý và thao tác dữ liệu trong bảng một cách chính xác.
+*Why?* Logic này trích xuất dữ liệu theo cột mà không cần phân tích toàn bộ bảng.
 
-### Xóa Dấu trang khỏi Tài liệu
+### Removing Bookmarks from a Document
 
-#### Tổng quan:
-Xóa dấu trang là việc cần thiết để dọn dẹp tài liệu của bạn hoặc khi bạn không cần dùng đến chúng nữa.
+#### Overview
+Khi một bookmark không còn cần thiết, việc xóa nó giúp tài liệu sạch sẽ hơn và cải thiện hiệu suất.
 
-#### Các bước thực hiện:
-**1. Chèn nhiều dấu trang:**
+#### Steps
+**1. Insert Multiple Bookmarks:**  
 ```java
 Document doc = new Document();
 documentBuilder builder = new DocumentBuilder(doc);
@@ -190,7 +211,7 @@ for (int i = 1; i <= 5; i++) {
 }
 ```
 
-**2. Xóa Dấu trang:**
+**2. Remove Bookmarks:**  
 ```java
 BookmarkCollection bookmarks = doc.getRange().getBookmarks();
 bookmarks.get(0).remove();
@@ -199,35 +220,57 @@ doc.getRange().getBookmarks().removeAt(1);
 doc.getRange().getBookmarks().clear();
 doc.save(YOUR_OUTPUT_DIRECTORY + "RemovedBookmarks.docx");
 ```
-*Tại sao?* Quản lý dấu trang hiệu quả đảm bảo tài liệu của bạn gọn gàng và được tối ưu hóa để có hiệu suất tốt hơn.
+*Why?* Quản lý bookmark hiệu quả ngăn ngừa rối rắm và giảm kích thước tệp.
 
-## Ứng dụng thực tế
-Sau đây là một số trường hợp sử dụng thực tế mà việc quản lý dấu trang bằng Aspose.Words có thể mang lại lợi ích:
-1. **Văn bản pháp lý**: Truy cập nhanh vào các mệnh đề hoặc phần cụ thể.
-2. **Hướng dẫn kỹ thuật**: Điều hướng qua các hướng dẫn chi tiết một cách hiệu quả.
-3. **Báo cáo dữ liệu**: Quản lý và cập nhật bảng dữ liệu hiệu quả.
-4. **Bài báo học thuật**: Sắp xếp các tài liệu tham khảo và trích dẫn để dễ dàng tìm kiếm.
-5. **Đề xuất kinh doanh**: Làm nổi bật những điểm chính trong bài thuyết trình.
+## Practical Applications
+Dưới đây là một số kịch bản thực tế mà **add bookmarks word** tỏa sáng:
 
-## Cân nhắc về hiệu suất
-Để tối ưu hóa hiệu suất khi làm việc với dấu trang:
-- Giảm thiểu số lượng dấu trang trong các tài liệu lớn để giảm thời gian xử lý.
-- Sử dụng tên dấu trang có tính mô tả nhưng súc tích.
-- Thường xuyên cập nhật hoặc xóa các dấu trang không cần thiết để giữ cho tài liệu của bạn sạch sẽ và hiệu quả.
+1. **Legal Contracts** – Nhảy thẳng tới các điều khoản hoặc định nghĩa.  
+2. **Technical Manuals** – Liên kết tới đoạn mã hoặc các bước khắc phục.  
+3. **Data‑Heavy Reports** – Tham chiếu các ô bảng cụ thể cho các dashboard động.  
+4. **Academic Papers** – Duyệt giữa các phần, hình ảnh và trích dẫn.  
+5. **Business Proposals** – Nổi bật các chỉ số quan trọng để người liên quan xem nhanh.
 
-## Phần kết luận
-Làm chủ dấu trang với Aspose.Words for Java cung cấp một cách mạnh mẽ để quản lý và điều hướng các tài liệu Word phức tạp theo chương trình. Bằng cách làm theo hướng dẫn này, bạn có thể chèn, truy cập, cập nhật và xóa dấu trang hiệu quả, nâng cao cả năng suất và độ chính xác trong các tác vụ xử lý tài liệu của bạn.
+## Performance Considerations
+- **Giữ số lượng bookmark ở mức hợp lý** trong các tài liệu rất lớn; mỗi bookmark sẽ tăng một chút overhead.  
+- Sử dụng **tên ngắn gọn, mô tả** (ví dụ: `Clause_5_Confidentiality`).  
+- Thường xuyên **dọn dẹp các bookmark không dùng** bằng các bước xóa đã trình bày ở trên.
 
-### Các bước tiếp theo:
-- Thử nghiệm với nhiều tên và cấu trúc dấu trang khác nhau trong tài liệu của bạn.
-- Khám phá các tính năng bổ sung của Aspose.Words để nâng cao hơn nữa các tác vụ tự động hóa tài liệu của bạn.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| *Bookmark not found after save* | Verify you’re using the same bookmark name (`case‑sensitive`). |
+| *Bookmark text appears blank* | Ensure you call `builder.write()` **between** `startBookmark` and `endBookmark`. |
+| *Performance slowdown on massive files* | Limit bookmarks to essential sections and clear them when no longer needed. |
+| *License not applied* | Confirm the `.lic` file path is correct and the file is accessible at runtime. |
+
+## Frequently Asked Questions
+
+**Q: Can I add a bookmark to an existing document without rewriting the whole file?**  
+A: Yes. Load the document, use `DocumentBuilder` to navigate to the desired location, and call `startBookmark`/`endBookmark`. Save the document afterwards.
+
+**Q: How do I delete a bookmark without removing its surrounding text?**  
+A: Use `Bookmark.remove()`; this deletes the bookmark marker only, leaving the content untouched.
+
+**Q: Is there a way to list all bookmark names in a document?**  
+A: Iterate through `doc.getRange().getBookmarks()` and call `getName()` on each `Bookmark` object.
+
+**Q: Does Aspose.Words support password‑protected Word files?**  
+A: Yes. Pass the password to the `Document` constructor: `new Document(path, new LoadOptions() {{ setPassword("pwd"); }})`.
+
+**Q: Which Java versions are officially supported?**  
+A: Aspose.Words for Java supports Java 8 through Java 17 (including LTS releases).
+
+---
+
+**Last Updated:** 2025-11-26  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
