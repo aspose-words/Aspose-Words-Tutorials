@@ -1,10 +1,14 @@
 ---
-"description": "Lär dig hur du formaterar tabeller och använder stilar med Aspose.Words för Java. Den här steg-för-steg-guiden beskriver hur du ställer in kantlinjer, skuggar celler och tillämpar tabellstilar."
-"linktitle": "Formatera tabeller och tabellformat"
-"second_title": "Aspose.Words Java-dokumentbehandlings-API"
-"title": "Formatera tabeller och tabellformat"
-"url": "/sv/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2025-11-28
+description: Lär dig hur du ändrar cellramar och formaterar tabeller med Aspose.Words
+  för Java. Denna steg‑för‑steg‑guide täcker att sätta ramar, tillämpa stil för första
+  kolumnen, automatiskt anpassa tabellens innehåll och använda tabellstilar.
+language: sv
+linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
+second_title: Aspose.Words Java Document Processing API
+title: Hur man ändrar cellramar i tabeller – Aspose.Words för Java
+url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,76 +17,88 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatera tabeller och tabellformat
-
+# Hur man ändrar cellramar i tabeller – Aspose.Words för Java
 
 ## Introduktion
 
-När det gäller dokumentformatering spelar tabeller en avgörande roll för att organisera och presentera data tydligt. Om du arbetar med Java och Aspose.Words har du kraftfulla verktyg till ditt förfogande för att skapa och formatera tabeller i dina dokument. Oavsett om du designar en enkel tabell eller använder avancerade stilar, erbjuder Aspose.Words för Java en rad funktioner som hjälper dig att uppnå professionella resultat.
+När det gäller dokumentformatering spelar tabeller en avgörande roll, och **att veta hur man ändrar cellramar** är nödvändigt för att skapa tydliga, professionella layouter. Om du utvecklar med Java och Aspose.Words har du redan ett kraftfullt verktyg till hands. I den här handledningen går vi igenom hela processen för att formatera tabeller, ändra cellramar, tillämpa *första kolumn‑stilen* och använda *auto‑fit table contents* för att få dina dokument att se polerade ut.
 
-den här guiden guidar vi dig genom processen att formatera tabeller och tillämpa tabellformat med Aspose.Words för Java. Du lär dig hur du ställer in tabellkanter, tillämpar cellskuggning och använder tabellformat för att förbättra utseendet på dina dokument. I slutändan kommer du att ha kunskaperna att skapa välformaterade tabeller som gör att dina data sticker ut.
+## Snabba svar
+- **Vilken är den primära klassen för att bygga tabeller?** `DocumentBuilder` skapar tabeller och celler programatiskt.  
+- **Hur ändrar jag tjockleken på en enskild cells ram?** Använd `builder.getCellFormat().getBorders().getLeft().setLineWidth(value)`.  
+- **Kan jag tillämpa en fördefinierad tabellstil?** Ja – anropa `table.setStyleIdentifier(StyleIdentifier.YOUR_STYLE)`.  
+- **Vilken metod auto‑fit‑ar en tabell till dess innehåll?** `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)`.  
+- **Behöver jag en licens för produktion?** En giltig Aspose.Words‑licens krävs för icke‑testanvändning.
 
-## Förkunskapskrav
+## Vad betyder “hur man ändrar cellramar” i Aspose.Words?
 
-Innan vi börjar finns det några saker du behöver ha på plats:
+Att ändra cellramar innebär att anpassa de visuella linjerna som separerar celler – färg, bredd och linjestil. Aspose.Words erbjuder ett rikt API som låter dig justera dessa egenskaper på tabell‑, rad‑ eller enskild‑cellnivå, vilket ger dig fin‑granulär kontroll över dokumentens utseende.
 
-1. Java Development Kit (JDK): Se till att du har JDK 8 eller senare installerat. Aspose.Words för Java kräver en kompatibel JDK för att fungera korrekt.
-2. Integrerad utvecklingsmiljö (IDE): En IDE som IntelliJ IDEA eller Eclipse hjälper dig att hantera dina Java-projekt och effektivisera din utvecklingsprocess.
-3. Aspose.Words för Java-bibliotek: Ladda ner den senaste versionen av Aspose.Words för Java [här](https://releases.aspose.com/words/java/) och inkludera det i ditt projekt.
-4. Exempelkod: Vi kommer att använda några exempelkodavsnitt, så se till att du har en grundläggande förståelse för Java-programmering och hur du integrerar bibliotek i ditt projekt.
+## Varför använda Aspose.Words för Java för tabellstyling?
+
+- **Enhetligt utseende över plattformar** – samma styling‑kod fungerar på Windows, Linux och macOS.  
+- **Ingen beroende av Microsoft Word** – generera eller modifiera dokument på server‑sidan.  
+- **Rik stilbibliotek** – inbyggda tabellstilar (t.ex. *first column style*) och fulla auto‑fit‑möjligheter.  
+
+## Förutsättningar
+
+1. **Java Development Kit (JDK) 8+** – se till att `java` finns i din PATH.  
+2. **IDE** – IntelliJ IDEA, Eclipse eller någon annan editor du föredrar.  
+3. **Aspose.Words för Java** – ladda ner den senaste JAR‑filen från den [officiella webbplatsen](https://releases.aspose.com/words/java/).  
+4. **Grundläggande Java‑kunskaper** – du bör kunna skapa ett Maven/Gradle‑projekt och lägga till externa JAR‑filer.
 
 ## Importera paket
 
-För att arbeta med Aspose.Words för Java måste du importera relevanta paket till ditt projekt. Dessa paket tillhandahåller de klasser och metoder som krävs för att manipulera och formatera dokument.
+För att börja arbeta med tabeller behöver du de centrala Aspose.Words‑klasserna:
 
 ```java
 import com.aspose.words.*;
 ```
 
-Denna import-sats ger dig tillgång till alla viktiga klasser som krävs för att skapa och formatera tabeller i dina dokument.
+Denna enda import ger dig åtkomst till `Document`, `DocumentBuilder`, `Table`, `StyleIdentifier` och många andra verktyg.
 
-## Steg 1: Formatera tabeller
+## Så ändrar du cellramar
 
-Att formatera tabeller i Aspose.Words för Java innebär att sätta ramar, skugga celler och tillämpa olika formateringsalternativ. Så här gör du:
+Nedan skapar vi en enkel tabell, ändrar dess övergripande ramar och anpassar sedan enskilda celler.
 
-### Ladda dokumentet
+### Steg 1: Ladda ett nytt dokument
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### Skapa och formatera tabellen
+### Steg 2: Skapa tabellen och sätt globala ramar
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// Ställ in ramarna för hela tabellen.
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// Ställ in cellskuggning för den här cellen.
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// Ange en annan cellskuggning för den andra cellen.
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### Anpassa cellkanter
+### Steg 3: Ändra ramar för en enskild cell
 
 ```java
-// Rensa cellformateringen från tidigare operationer.
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// Skapa större ramar för den första cellen i den här raden.
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +112,16 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### Förklaring
+#### Vad koden gör
+- **Globala ramar** – `table.setBorders` ger hela tabellen en 2‑punkts svart linje.  
+- **Cellskuggning** – Demonstrerar hur man färgar enskilda celler (röd & grön).  
+- **Anpassade cellramar** – Den tredje cellen får en 4‑punkts ram på alla sidor, vilket får den att sticka ut.
 
-I det här exemplet:
-- Ange kantlinjer: Vi ställer in kantlinjerna för hela tabellen till en enda linjestil med en tjocklek på 2,0 punkter.
-- Cellskuggning: Den första cellen är skuggad röd och den andra cellen är skuggad grön. Detta hjälper till att skilja mellan cellerna visuellt.
-- Cellkanter: För den tredje cellen skapar vi tjockare kantlinjer för att markera den annorlunda från resten.
+## Tillämpa tabellstilar (inklusive Första kolumn‑stilen)
 
-## Steg 2: Tillämpa tabellformat
+Tabellstilar låter dig applicera ett enhetligt utseende med ett enda anrop. Vi visar också hur du aktiverar *first column style* och auto‑fit‑ar tabellen till dess innehåll.
 
-Tabellformat i Aspose.Words för Java låter dig tillämpa fördefinierade formateringsalternativ på tabeller, vilket gör det enklare att uppnå ett enhetligt utseende. Så här tillämpar du ett format på din tabell:
-
-### Skapa dokumentet och tabellen
+### Steg 4: Skapa ett nytt dokument för styling
 
 ```java
 Document doc = new Document();
@@ -115,22 +129,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// Vi måste infoga minst en rad först innan vi anger någon tabellformatering.
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### Använd tabellformat
+### Steg 5: Tillämpa en fördefinierad stil och aktivera första kolumn‑formatering
 
 ```java
-// Ställ in tabellformatet baserat på en unik formatidentifierare.
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// Ange vilka funktioner som ska formateras av stilen.
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+
+// Auto‑fit the table so columns shrink or expand to fit the content.
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### Lägg till tabelldata
+### Steg 6: Fyll tabellen med data
 
 ```java
 builder.writeln("Item");
@@ -160,48 +176,52 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### Förklaring
+#### Varför detta är viktigt
+- **Style identifier** – `MEDIUM_SHADING_1_ACCENT_1` ger tabellen ett rent, skuggat utseende.  
+- **First column style** – Att markera den första kolumnen förbättrar läsbarheten, särskilt i rapporter.  
+- **Row bands** – Växlande radfärger gör stora tabeller skonsammare för ögonen.  
+- **Auto‑fit** – Säkerställer att tabellens bredd anpassas efter innehållet, så att text inte klipps bort.
 
-I det här exemplet:
-- Ange tabellstil: Vi tillämpar en fördefinierad stil (`MEDIUM_SHADING_1_ACCENT_1`) till tabellen. Den här stilen inkluderar formatering för olika delar av tabellen.
-- Stilalternativ: Vi anger att den första kolumnen, radbanden och den första raden ska formateras enligt stilalternativen.
-- AutoFit: Vi använder `AUTO_FIT_TO_CONTENTS` för att säkerställa att tabellen justerar sin storlek baserat på innehållet.
+## Vanliga problem & felsökning
 
-## Slutsats
-
-Och där har du det! Du har formaterat tabeller och tillämpat stilar med Aspose.Words för Java. Med dessa tekniker kan du skapa tabeller som inte bara är funktionella utan också visuellt tilltalande. Att formatera tabeller effektivt kan avsevärt förbättra läsbarheten och det professionella utseendet på dina dokument.
-
-Aspose.Words för Java är ett robust verktyg som erbjuder omfattande funktioner för dokumenthantering. Genom att bemästra tabellformatering och stilar är du ett steg närmare att utnyttja bibliotekets fulla kraft.
+| Problem | Typisk orsak | Snabb lösning |
+|---------|--------------|---------------|
+| Ramar visas inte | `clearFormatting()` används efter att ramar satts | Sätt ramar **efter** att du rensat formatering, eller applicera dem igen. |
+| Skuggning ignoreras på sammanslagna celler | Skuggning applicerades före sammanslagning | Applicera skuggning **efter** att cellerna har slagits ihop. |
+| Tabellbredd överskrider sidmarginaler | Ingen auto‑fit tillämpad | Anropa `table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` eller sätt en fast bredd. |
+| Stil appliceras inte | Fel `StyleIdentifier`‑värde | Verifiera att identifieraren finns i den version av Aspose.Words du använder. |
 
 ## Vanliga frågor
 
-### 1. Kan jag använda anpassade tabellformat som inte ingår i standardalternativen?
+**Q: Kan jag använda anpassade tabellstilar som inte finns bland standardalternativen?**  
+A: Ja, du kan skapa och tillämpa egna stilar programatiskt. Se [Aspose.Words‑dokumentationen](https://reference.aspose.com/words/java/) för detaljer.
 
-Ja, du kan definiera och tillämpa anpassade stilar på dina tabeller med Aspose.Words för Java. Kontrollera [dokumentation](https://reference.aspose.com/words/java/) för mer information om hur du skapar anpassade stilar.
+**Q: Hur kan jag tillämpa villkorlig formatering på celler?**  
+A: Använd vanlig Java‑logik för att inspektera cellvärden och anropa sedan lämpliga formateringsmetoder (t.ex. ändra bakgrundsfärg om ett värde överstiger ett tröskelvärde).
 
-### 2. Hur kan jag tillämpa villkorsstyrd formatering på tabeller?
+**Q: Är det möjligt att formatera sammanslagna celler på samma sätt som vanliga celler?**  
+A: Absolut. Efter att du har slagit ihop celler, applicera skuggning eller ramar med samma `CellFormat`‑API.
 
-Med Aspose.Words för Java kan du programmatiskt justera tabellformatering baserat på villkor. Detta kan göras genom att kontrollera specifika kriterier i din kod och tillämpa formatering därefter.
+**Q: Vad gör jag om tabellen ska ändra storlek dynamiskt baserat på användarinmatning?**  
+A: Justera kolumnbredder eller anropa `autoFit` igen efter att ny data har lagts till för att omräkna layouten.
 
-### 3. Kan jag formatera sammanfogade celler i en tabell?
+**Q: Var kan jag hitta fler exempel på tabellstyling?**  
+A: Den officiella [Aspose.Words API‑dokumentationen](https://reference.aspose.com/words/java/) innehåller ett omfattande urval av exempel.
 
-Ja, du kan formatera sammanslagna celler precis som vanliga celler. Se till att du formaterar efter att du har sammanfogat cellerna för att se ändringarna.
+## Slutsats
 
-### 4. Är det möjligt att justera tabelllayouten dynamiskt?
-
-Ja, du kan justera tabelllayouten dynamiskt genom att ändra cellstorlekar, tabellbredd och andra egenskaper baserat på innehållet eller användarinmatningen.
-
-### 5. Var kan jag få mer information om tabellformatering?
-
-För mer detaljerade exempel och alternativ, besök [Aspose.Words API-dokumentation](https://reference.aspose.com/words/java/).
-
+Du har nu ett komplett verktyg för **hur man ändrar cellramar**, tillämpar *first column style* och **auto‑fit‑ar tabellinnehåll** med Aspose.Words för Java. Genom att behärska dessa tekniker kan du producera dokument som både är datarika och visuellt tilltalande – perfekt för rapporter, fakturor och annan affärskritisk output.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Senast uppdaterad:** 2025-11-28  
+**Testad med:** Aspose.Words för Java 24.12 (senaste vid skrivtillfället)  
+**Författare:** Aspose
