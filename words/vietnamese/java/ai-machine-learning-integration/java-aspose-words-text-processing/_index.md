@@ -196,7 +196,7 @@ Sẵn sàng khám phá sâu hơn? Hãy thử triển khai các giải pháp này
 - [Yêu cầu Giấy phép Tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Hỗ trợ Cộng đồng Aspose](https://forum.aspose.com/c/words/10)
 
-{{< /blocks-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
