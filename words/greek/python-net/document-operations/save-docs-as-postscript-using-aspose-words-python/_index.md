@@ -5,7 +5,9 @@
 "url": "/el/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Αποθήκευση εγγράφων Word ως PostScript σε Python χρησιμοποιώντας το Aspose.Words
 
 ## Εισαγωγή
@@ -163,3 +165,7 @@ save_document_as_postscript(True)
 - [Φόρουμ Υποστήριξης Κοινότητας](https://forum.aspose.com/c/words/10)
 
 Ελπίζουμε ότι αυτός ο οδηγός θα σας βοηθήσει να αποθηκεύσετε αποτελεσματικά έγγραφα σε μορφή PostScript χρησιμοποιώντας το Aspose.Words για Python. Καλή κωδικοποίηση!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

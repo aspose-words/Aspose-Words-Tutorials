@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words 掌握 Python 中的內聯節點修訂追蹤
 
 ## 介紹
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [免費試用和臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 我們希望本指南能夠幫助您使用 Python 中的 Aspose.Words 有效地管理文件修訂。編碼愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

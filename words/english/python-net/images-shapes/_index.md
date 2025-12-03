@@ -4,6 +4,9 @@ description: "Explore top Aspose.Words tutorials on integrating images and shape
 weight: 6
 url: "/python-net/images-shapes/"
 ---
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Images & Shapes Tutorials for Aspose.Words Python-net
 
 Explore comprehensive step-by-step guides for images & shapes operations using Aspose.Words for Python-net. These tutorials include complete code examples and detailed explanations.
@@ -39,3 +42,7 @@ Learn how to optimize SVG output using Aspose.Words for Python. This guide cover
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/id/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Menguasai Tab Stop di Python dengan Aspose.Words untuk Pemformatan Dokumen
 
 ## Perkenalan
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Kesimpulan
 
 Menguasai tab stop dalam Python menggunakan Aspose.Words memungkinkan Anda membuat dokumen berformat profesional dengan mudah. Dengan mengikuti panduan ini, Anda dapat menambahkan, menyesuaikan, dan mengelola tab stop secara efektif, meningkatkan kualitas keseluruhan output berbasis teks Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

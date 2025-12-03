@@ -4,7 +4,9 @@
 "url": "/id/python-net/document-comparison-tracking/"
 "weight": 13
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial Perbandingan & Pelacakan Dokumen untuk Aspose.Words Python-net
 
 Jelajahi panduan langkah demi langkah yang komprehensif untuk operasi perbandingan & pelacakan dokumen menggunakan Aspose.Words untuk Python-net. Tutorial ini mencakup contoh kode lengkap dan penjelasan terperinci.
@@ -33,3 +35,7 @@ Pelajari cara mengelola dan melacak revisi dokumen secara efisien menggunakan As
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

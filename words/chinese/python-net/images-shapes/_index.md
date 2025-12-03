@@ -4,7 +4,9 @@
 "url": "/zh/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 图像和形状教程
 
 探索使用 Aspose.Words for Python-net 进行图像和形状操作的全面分步指南。这些教程包含完整的代码示例和详细的解释。
@@ -40,3 +42,7 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

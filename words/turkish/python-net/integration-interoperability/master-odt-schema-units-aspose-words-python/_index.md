@@ -5,7 +5,9 @@
 "url": "/tr/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python'da Aspose.Words ile ODT Şeması ve Birimlerine Hakim Olmak
 
 ## giriiş
@@ -165,3 +167,7 @@ Python'da Aspose.Words ile ODT şema ayarları ve ölçüm birimi yapılandırma
 - **Ücretsiz Deneme**: Ücretsiz denemeyle başlayın [Python için Aspose İndirmeleri](https://releases.aspose.com/words/python/)
 - **Geçici Lisans**: Başvurunuzu buradan yapabilirsiniz: [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - **Destek**: Tartışmaya katılın [Aspose Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

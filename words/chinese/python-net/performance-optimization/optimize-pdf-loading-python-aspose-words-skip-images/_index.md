@@ -5,7 +5,9 @@
 "url": "/zh/python-net/performance-optimization/optimize-pdf-loading-python-aspose-words-skip-images/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 在 Python 中优化 PDF 加载：使用 Aspose.Words 跳过图像以实现更快的处理速度
 
 ## 介绍
@@ -136,3 +138,7 @@ skip_pdf_images_demo()
 - [Aspose.Words 免费试用](https://releases.aspose.com/words/python/)
 - [临时执照获取](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

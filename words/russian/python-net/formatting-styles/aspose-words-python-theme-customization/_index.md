@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/aspose-words-python-theme-customization/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение настройки тем с помощью Aspose.Words на Python
 
 ## Введение
@@ -165,3 +167,7 @@ A: Хотя некоторые расширенные функции Word мог
 - [Бесплатный пробный доступ](https://releases.aspose.com/words/python/)
 - [Информация о временной лицензии](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

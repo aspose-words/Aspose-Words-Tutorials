@@ -5,7 +5,9 @@
 "url": "/th/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เรียนรู้การติดตามการแก้ไขโหนดแบบอินไลน์ใน Python ด้วย Aspose.Words
 
 ## การแนะนำ
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 เราหวังว่าคู่มือนี้จะช่วยให้คุณจัดการการแก้ไขเอกสารได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words ใน Python ขอให้สนุกกับการเขียนโค้ด!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

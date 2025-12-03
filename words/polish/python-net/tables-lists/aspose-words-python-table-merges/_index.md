@@ -5,7 +5,9 @@
 "url": "/pl/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Scalanie tabel głównych w Aspose.Words dla Pythona
 
 ## Wstęp
@@ -213,3 +215,7 @@ Gotowy, aby rozwinąć swoje umiejętności? Zanurz się głębiej, eksplorując
 - [Bezpłatna wersja próbna](https://releases.aspose.com/words/python/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

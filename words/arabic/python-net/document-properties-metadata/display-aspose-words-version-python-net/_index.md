@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية عرض إصدار Aspose.Words في Python و.NET
 
 ## مقدمة
@@ -144,3 +146,7 @@ print(f'I am currently using {product_name}, version number {version_number}!')
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باستخدام هذه الأدوات، ستكون جاهزًا لإدارة تثبيتات Aspose.Words بكفاءة. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

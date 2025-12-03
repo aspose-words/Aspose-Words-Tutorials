@@ -5,7 +5,9 @@
 "url": "/th/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # วิธีตั้งค่าใบอนุญาต Aspose.Words ใน Python โดยใช้ไฟล์หรือสตรีม
 
 ## การแนะนำ
@@ -197,3 +199,7 @@ def apply_license_from_stream(stream):
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/10)
 
 ด้วยคู่มือนี้ คุณจะสามารถใช้ประโยชน์จาก Aspose.Words ได้อย่างมีประสิทธิภาพในแอปพลิเคชัน Python ของคุณ ขอให้สนุกกับการเขียนโค้ด!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

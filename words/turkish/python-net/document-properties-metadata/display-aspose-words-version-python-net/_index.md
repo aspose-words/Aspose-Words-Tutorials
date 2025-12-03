@@ -5,7 +5,9 @@
 "url": "/tr/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Sürümü Python ve .NET'te Nasıl Görüntülenir
 
 ## giriiş
@@ -144,3 +146,7 @@ Daha fazla okuma ve destek için şu kaynaklara bakın:
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 
 Bu araçlarla Aspose.Words kurulumlarınızı etkili bir şekilde yönetmek için iyi bir donanıma sahip olursunuz. İyi kodlamalar!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

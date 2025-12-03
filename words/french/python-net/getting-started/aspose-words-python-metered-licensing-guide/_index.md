@@ -5,7 +5,9 @@
 "url": "/fr/python-net/getting-started/aspose-words-python-metered-licensing-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Licences mesurées dans Aspose.Words pour Python
 
 ## Introduction
@@ -173,3 +175,7 @@ A5 : Les données d’utilisation ne sont pas envoyées en temps réel, il peut
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Lancez-vous dès aujourd'hui dans votre voyage avec Aspose.Words pour Python et profitez pleinement des licences mesurées pour optimiser vos besoins de traitement de documents !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/pl/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Opanowanie śledzenia rewizji węzłów w Pythonie za pomocą Aspose.Words
 
 ## Wstęp
@@ -127,3 +129,7 @@ Opanowałeś już sztukę śledzenia inline node revisions przy użyciu Aspose.W
 - [Bezpłatna wersja próbna i licencje tymczasowe](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
 Mamy nadzieję, że ten przewodnik pomoże Ci skutecznie zarządzać rewizjami dokumentów przy użyciu Aspose.Words w Pythonie. Miłego kodowania!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

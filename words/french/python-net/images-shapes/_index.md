@@ -4,7 +4,9 @@
 "url": "/fr/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriels images et formes pour Aspose.Words Python-net
 
 Découvrez des guides détaillés et détaillés pour les opérations sur les images et les formes avec Aspose.Words pour Python-net. Ces tutoriels incluent des exemples de code complets et des explications détaillées.
@@ -40,3 +42,7 @@ Apprenez à optimiser la sortie SVG avec Aspose.Words pour Python. Ce guide couv
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

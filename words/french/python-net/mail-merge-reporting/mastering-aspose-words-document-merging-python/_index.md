@@ -5,7 +5,9 @@
 "url": "/fr/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser Aspose.Words pour la fusion de documents en Python : conserver la numérotation source et l'insérer dans les signets
 
 ## Introduction
@@ -181,3 +183,7 @@ Expérimentez des fonctionnalités Aspose.Words supplémentaires et explorez les
 - [Acheter une licence](https://purchase.aspose.com/buy)
 - [Licence d'essai gratuite](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

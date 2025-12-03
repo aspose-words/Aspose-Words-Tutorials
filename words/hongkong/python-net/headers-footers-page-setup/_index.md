@@ -4,7 +4,9 @@
 "url": "/zh-hant/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 的頁首、頁尾和頁面設定教程
 
 探索使用 Aspose.Words for Python-net 的頁首、頁尾和頁面設定操作的全面逐步指南。這些教程包括完整的程式碼範例和詳細的解釋。
@@ -36,3 +38,7 @@ Aspose.Words Python-net 程式碼教學
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

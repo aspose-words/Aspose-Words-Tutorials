@@ -5,7 +5,9 @@
 "url": "/hu/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words mesterkódok dokumentumok egyesítéséhez Pythonban: Forráskód számozásának megtartása és beszúrás a könyvjelzők közé
 
 ## Bevezetés
@@ -181,3 +183,7 @@ Kísérletezz további Aspose.Words funkciókkal, és fedezd fel az integráció
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://purchase.aspose.com/temporary-license/)
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

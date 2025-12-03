@@ -4,7 +4,9 @@
 "url": "/ja/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net のヘッダー、フッター、ページ設定チュートリアル
 
 Aspose.Words for Python-net を使用したヘッダー、フッター、ページ設定の操作に関する包括的なステップバイステップガイドをご覧ください。これらのチュートリアルには、完全なコードサンプルと詳細な説明が含まれています。
@@ -36,3 +38,7 @@ Aspose.Words Python-netのコードチュートリアル
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

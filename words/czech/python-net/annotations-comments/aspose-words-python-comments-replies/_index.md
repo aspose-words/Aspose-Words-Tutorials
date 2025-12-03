@@ -5,7 +5,9 @@
 "url": "/cs/python-net/annotations-comments/aspose-words-python-comments-replies/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Jak implementovat komentáře a odpovědi v dokumentech Word pomocí Aspose.Words pro Python
 
 ## Zavedení
@@ -242,3 +244,7 @@ Aspose.Words pro Python lze integrovat do různých pracovních postupů s dokum
 3. **Akademická spolupráce**Usnadnit zpětnou vazbu mezi autory a recenzenty v akademických pracích.
 
 Tato komplexní příručka by vám měla pomoci efektivně implementovat správu komentářů a odpovědí ve vašich dokumentech Word pomocí Aspose.Words pro Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

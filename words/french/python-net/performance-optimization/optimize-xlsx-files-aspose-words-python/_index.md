@@ -5,7 +5,9 @@
 "url": "/fr/python-net/performance-optimization/optimize-xlsx-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Optimiser les fichiers Excel avec Aspose.Words pour Python : techniques de compression et de personnalisation
 
 Découvrez des techniques performantes pour compresser, organiser et améliorer efficacement les performances de vos documents Excel grâce à Aspose.Words pour Python. Ce tutoriel vous guidera dans l'optimisation des fichiers XLSX : réduction de la taille du fichier, enregistrement de plusieurs sections dans des feuilles de calcul distinctes et détection automatique des formats de date et d'heure.
@@ -174,3 +176,7 @@ Explorez davantage en intégrant ces fonctionnalités dans des applications ou d
 - **Essai gratuit**: [Essayez Aspose gratuitement](https://releases.aspose.com/words/python/)
 - **Licence temporaire**: [Obtenir un permis temporaire](https://purchase.aspose.com/temporary-license/)
 - **Soutien**: [Assistance du forum Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

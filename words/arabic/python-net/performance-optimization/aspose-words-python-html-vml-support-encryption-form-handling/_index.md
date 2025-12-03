@@ -5,7 +5,9 @@
 "url": "/ar/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان تحسين HTML باستخدام Aspose.Words لـ Python: دعم VML والتشفير ومعالجة النماذج
 
 ## مقدمة
@@ -199,3 +201,7 @@ def test_ignore_noscript_elements():
 
 **س: كيف أتعامل مع ملفات HTML الكبيرة باستخدام عناصر VML؟**
 أ: استخدم معالجة الدفعات والتحميل الانتقائي لإدارة استخدام الموارد بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/pt/python-net/tables-lists/master-aspose-words-python-bookmarks-table-columns/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dominando o Aspose.Words em Python: Insira, remova e gerencie marcadores e colunas de tabela com eficiência
 ## Introdução
 Gerenciar marcadores de forma eficaz e trabalhar com colunas de tabelas pode aprimorar significativamente suas tarefas de processamento de documentos usando a biblioteca Aspose.Words do Python. Este tutorial o guiará pela inserção e remoção eficientes de marcadores, pela compreensão dos marcadores de colunas de tabela, pela exploração de casos de uso práticos e pela consideração de aspectos de desempenho.
@@ -140,3 +142,7 @@ Dominar a inserção, remoção e gerenciamento de marcadores usando o Aspose.Wo
    - Sim, o Aspose.Words suporta vários formatos, incluindo DOCX e PDF.
 3. **Quais são as limitações dos marcadores de colunas de tabela?**
    - Eles só podem ser usados em tabelas que tenham linhas e colunas claramente definidas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cách quản lý biến tài liệu bằng Aspose.Words trong Python: Hướng dẫn đầy đủ
 
 ## Giới thiệu
@@ -161,3 +163,7 @@ Tại sao không thử triển khai các giải pháp này ngay hôm nay và xem
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Khám phá các tài nguyên này để nâng cao hơn nữa sự hiểu biết và triển khai Aspose.Words trong Python của bạn. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

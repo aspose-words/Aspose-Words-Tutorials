@@ -5,7 +5,9 @@
 "url": "/id/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cara Menyiapkan Lisensi Aspose.Words di Python Menggunakan File atau Stream
 
 ## Perkenalan
@@ -197,3 +199,7 @@ Sekarang, Anda seharusnya sudah siap untuk menyiapkan lisensi Aspose.Words mengg
 - [Forum Dukungan](https://forum.aspose.com/c/words/10)
 
 Dengan panduan ini, Anda akan dapat memanfaatkan Aspose.Words secara efektif dalam aplikasi Python Anda. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

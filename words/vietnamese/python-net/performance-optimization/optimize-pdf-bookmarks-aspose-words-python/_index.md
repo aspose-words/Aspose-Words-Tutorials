@@ -5,7 +5,9 @@
 "url": "/vi/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tiêu đề: Làm chủ tối ưu hóa dấu trang PDF với Aspose.Words cho Python
 
 ## Giới thiệu
@@ -180,3 +182,7 @@ Bạn đã sẵn sàng cải thiện PDF của mình chưa? Hãy bắt đầu á
 - **Ủng hộ**Nhận trợ giúp từ cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
 
 Hướng dẫn này cung cấp cho bạn kiến thức để tối ưu hóa dấu trang PDF bằng Aspose.Words cho Python. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

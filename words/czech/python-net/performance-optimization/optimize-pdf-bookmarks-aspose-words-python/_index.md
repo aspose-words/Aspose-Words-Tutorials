@@ -5,7 +5,9 @@
 "url": "/cs/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Název: Zvládnutí optimalizace záložek PDF s Aspose.Words pro Python
 
 ## Zavedení
@@ -180,3 +182,7 @@ Jste připraveni vylepšit své PDF soubory? Začněte s implementací těchto t
 - **Podpora**Získejte pomoc od komunity na [Fórum Aspose](https://forum.aspose.com/c/words/10)
 
 Tato příručka vám poskytla znalosti pro optimalizaci záložek PDF pomocí Aspose.Words pro Python. Přejeme vám příjemné programování!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

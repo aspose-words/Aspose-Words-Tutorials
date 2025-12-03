@@ -4,7 +4,9 @@
 "url": "/es/python-net/annotations-comments/"
 "weight": 11
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriales de anotaciones y comentarios para Aspose.Words Python-net
 
 Explora guías paso a paso completas para operaciones de anotaciones y comentarios con Aspose.Words para Python-net. Estos tutoriales incluyen ejemplos de código completos y explicaciones detalladas.
@@ -33,3 +35,7 @@ Aprenda a agregar, administrar y recuperar comentarios y respuestas mediante pro
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/de/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Words zum Zusammenführen von Dokumenten in Python: Quellennummerierung beibehalten und als Lesezeichen einfügen
 
 ## Einführung
@@ -181,3 +183,7 @@ Experimentieren Sie mit zusätzlichen Aspose.Words-Funktionen und erkunden Sie I
 - [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
 - [Kostenlose Testlizenz](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/create-seo-rich-document-styles-aspose-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Créez des styles de documents optimisés pour le référencement avec Aspose.Words pour Python
 ## Introduction
 Une gestion efficace des styles de documents est essentielle à la création et à l'édition de contenu, notamment pour les projets de grande envergure ou le traitement automatisé. Ce tutoriel vous guide dans la création de styles personnalisés avec Aspose.Words pour Python, une bibliothèque puissante qui simplifie la manipulation de documents Word par programmation.
@@ -112,3 +114,7 @@ R : Vérifiez que vos définitions de style sont correctes et recherchez d’év
 - [Essai gratuit](https://releases.aspose.com/words/python/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

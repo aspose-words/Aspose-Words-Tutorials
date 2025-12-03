@@ -5,7 +5,9 @@
 "url": "/es/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Guía para implementar la detección de listas en texto usando Aspose.Words para Python
 
 ## Introducción
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Herramientas de análisis de contenido**: Extraer datos estructurados de archivos de texto para su posterior análisis o elaboración de informes.
 3. **Tareas de limpieza de datos**:Estandarice el formato de texto administrando los espacios en blanco e identificando los elementos de la lista.
 4. **Verificación de enlace**:Validar enlaces dentro de un lote de documentos de texto para garantizar que estén activos y correctos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/master-document-formatting-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение форматирования документов с помощью Aspose.Words на Python
 
 ## Введение
@@ -165,3 +167,7 @@ A5: Сосредоточьтесь на таких терминах, как «о
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.com/c/words/10)
 
 Следуя этому руководству, вы сможете эффективно реализовать Aspose.Words в Python для эффективного управления потребностями в форматировании документов. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

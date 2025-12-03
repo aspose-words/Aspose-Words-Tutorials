@@ -4,7 +4,9 @@
 "url": "/th/python-net/document-properties-metadata/"
 "weight": 9
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # บทช่วยสอนคุณสมบัติเอกสารและข้อมูลเมตาสำหรับ Aspose.Words Python-net
 
 สำรวจคำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับคุณสมบัติของเอกสารและการดำเนินการเมตาข้อมูลโดยใช้ Aspose.Words สำหรับ Python-net บทช่วยสอนเหล่านี้ประกอบด้วยตัวอย่างโค้ดที่สมบูรณ์และคำอธิบายโดยละเอียด
@@ -40,3 +42,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

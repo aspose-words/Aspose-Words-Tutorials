@@ -5,7 +5,9 @@
 "url": "/it/python-net/document-operations/python-docx-to-xaml-aspose-tutorial/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Convertire DOCX in XAML in formato fisso in Python utilizzando Aspose.Words: una guida completa
 
 ## Introduzione
@@ -156,3 +158,7 @@ Abbiamo esplorato la conversione di file Word (DOCX) in XAML a formato fisso uti
 - [Accesso di prova gratuito](https://releases.aspose.com/words/python/)
 - [Domanda di licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

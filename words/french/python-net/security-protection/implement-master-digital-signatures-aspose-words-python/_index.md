@@ -5,7 +5,9 @@
 "url": "/fr/python-net/security-protection/implement-master-digital-signatures-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Comment implémenter des signatures numériques principales dans des documents avec Aspose.Words pour Python
 
 ## Introduction
@@ -331,3 +333,7 @@ A5 : Assurez-vous de l'exactitude de votre mot de passe. Un mot de passe incorr
 - **Forum d'assistance**: [Assistance Aspose](https://forum.aspose.com/c/words/10)
 
 Nous espérons que ce guide vous aura été utile pour maîtriser les signatures numériques avec Aspose.Words pour Python. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

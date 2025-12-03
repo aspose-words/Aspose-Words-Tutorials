@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение Aspose.Words для Python: регистрация и отмена регистрации словаря переносов
 
 ## Введение
@@ -173,3 +175,7 @@ A: В настоящее время вам необходимо отменять
 - **Покупка:** [Купить лицензию Aspose.Words](https://purchase.aspose.com/buy)
 - **Бесплатная пробная версия:** [Начните с бесплатной пробной версии](https://releases.aspose.com/words/python/)
 - **Временная лицензия:** [Запросить временную лицензию](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

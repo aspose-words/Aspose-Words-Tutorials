@@ -5,7 +5,9 @@
 "url": "/cs/python-net/tables-lists/aspose-words-python-markdown-table-list-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Zvládnutí Aspose.Words pro Python: Komplexní průvodce formátováním tabulek a seznamů v Markdownu
 
 ## Zavedení
@@ -185,3 +187,7 @@ Chcete-li začít používat Aspose.Words pro Python, postupujte takto:
 ## Závěr
 
 Zvládnutím Aspose.Words pro Python si můžete výrazně zlepšit schopnost vytvářet a manipulovat s dokumenty v Markdownu se složitými tabulkami a seznamy. Ať už pracujete na technické dokumentaci nebo na společných projektech, tyto nástroje zefektivní vaše pracovní postupy s dokumenty a zlepší čitelnost.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

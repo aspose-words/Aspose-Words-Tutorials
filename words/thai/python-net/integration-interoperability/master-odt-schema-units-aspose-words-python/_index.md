@@ -5,7 +5,9 @@
 "url": "/th/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เรียนรู้ ODT Schema และ Units ด้วย Aspose.Words ใน Python
 
 ## การแนะนำ
@@ -165,3 +167,7 @@ doc.save('path/to/encrypted_output.odt', save_options)
 - **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรีได้ที่ [ดาวน์โหลด Aspose สำหรับ Python](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว**: สมัครได้ที่นี่: [ใบอนุญาตชั่วคราว Aspose](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน**:เข้าร่วมการสนทนาได้ที่ [ฟอรั่ม Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

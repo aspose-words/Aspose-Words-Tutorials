@@ -5,7 +5,9 @@
 "url": "/ru/python-net/mail-merge-reporting/aspose-words-python-form-fields-manipulation-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Улучшение проектов Python: освоение манипуляций с полями форм с помощью Aspose.Words
 
 ## Введение
@@ -258,3 +260,7 @@ doc.save(имя_файла="ВАШ_КАТАЛОГ_ДОКУМЕНТОВ/FormField
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/de/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tabstopps in Python mit Aspose.Words zur Dokumentformatierung meistern
 
 ## Einführung
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Abschluss
 
 Mit Aspose.Words beherrschen Sie Tabstopps in Python und erstellen mühelos professionell formatierte Dokumente. Mit dieser Anleitung können Sie Tabstopps effektiv hinzufügen, anpassen und verwalten und so die Gesamtqualität Ihrer textbasierten Ausgaben verbessern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

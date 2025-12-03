@@ -5,7 +5,9 @@
 "url": "/ja/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words を使用して Python でカスタム HTML ページ保存コールバックを実装する
 
 ## 導入
@@ -149,3 +151,7 @@ A5: 参加する [Asposeフォーラム](https://forum.aspose.com/c/words/10) �
 - **サポート**訪問 [Asposeフォーラム](https://forum.aspose.com/c/words/10) 質問やコミュニティのサポートについては、こちらをご覧ください。
 
 今すぐ Aspose.Words for Python を使い始めて、ドキュメント処理の新たな可能性を解き放ちましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

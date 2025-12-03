@@ -5,7 +5,9 @@
 "url": "/ru/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Название: Освоение оптимизации закладок PDF с помощью Aspose.Words для Python
 
 ## Введение
@@ -180,3 +182,7 @@ outline_levels.clear()
 - **Поддерживать**Получите помощь от сообщества [Форум Aspose](https://forum.aspose.com/c/words/10)
 
 Это руководство снабдило вас знаниями по оптимизации закладок PDF с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

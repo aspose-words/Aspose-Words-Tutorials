@@ -4,7 +4,9 @@
 "url": "/nl/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Kopteksten, voetteksten en pagina-instelling tutorials voor Aspose.Words Python-net
 
 Ontdek uitgebreide stapsgewijze handleidingen voor kopteksten, voetteksten en pagina-instellingen met Aspose.Words voor Python-net. Deze tutorials bevatten complete codevoorbeelden en gedetailleerde uitleg.
@@ -36,3 +38,7 @@ Een codetutorial voor Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
