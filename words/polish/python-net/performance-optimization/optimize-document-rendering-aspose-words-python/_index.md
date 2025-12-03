@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak używać Aspose.Words dla języka Python do efektywnego renderowania stron dokumentów jako map bitowych i tworzenia wysokiej jakości miniatur."
@@ -192,7 +189,3 @@ Aby jeszcze lepiej poznać możliwości pakietu Aspose.Words, rozważ zintegrowa
 
 ## Następne kroki
 - Spróbuj zastosować różne ustawienia renderowania, aby dostosować jakość i wydajność wyjściową.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

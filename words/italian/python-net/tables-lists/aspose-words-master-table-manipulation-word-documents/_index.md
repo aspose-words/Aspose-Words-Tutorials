@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come rimuovere, inserire e convertire senza problemi le colonne delle tabelle nei documenti Word con Aspose.Words per Python. Semplifica le tue attività di modifica dei documenti in modo efficiente."
@@ -152,7 +149,3 @@ Per ulteriori approfondimenti, fare riferimento a queste risorse:
 - [Versione di prova gratuita](https://releases.aspose.com/words/python/)
 - [Richiesta di licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

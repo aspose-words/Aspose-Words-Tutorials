@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้การแทรก ลบ และจัดการบุ๊กมาร์กและคอลัมน์ตารางอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python ปรับปรุงการประมวลผลเอกสารของคุณด้วยตัวอย่างเชิงปฏิบัติและเคล็ดลับประสิทธิภาพ"
@@ -143,7 +140,3 @@ doc = aw.Document()
    - ใช่ Aspose.Words รองรับหลายรูปแบบรวมทั้ง DOCX และ PDF
 3. **ข้อจำกัดของการคั่นหน้าคอลัมน์ตารางมีอะไรบ้าง**
    - สามารถใช้ได้เฉพาะภายในตารางที่มีแถวและคอลัมน์ที่กำหนดอย่างชัดเจนเท่านั้น
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

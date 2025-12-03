@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je thema's in Aspose.Words kunt aanpassen met Python. Deze handleiding behandelt het instellen van kleuren en lettertypen, zodat je huisstijl consistent blijft in al je documenten."
@@ -168,7 +165,3 @@ A: Hoewel uitgebreid, zijn sommige geavanceerde Word-functies mogelijk niet voll
 - [Gratis proeftoegang](https://releases.aspose.com/words/python/)
 - [Informatie over tijdelijke licenties](https://purchase.aspose.com/temporary-license/)
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net에 대한 코드 튜토리얼"
@@ -217,7 +214,3 @@ Aspose.Words 사용을 최적화하세요:
 - **지원 포럼:** [Aspose 지원 커뮤니티](https://forum.aspose.com/c/words/10)
 
 이 가이드를 따라 하면 Aspose.Words를 사용하여 Python 프로젝트에서 페이지 번호 매기기 및 레이아웃 분석을 구현하고 최적화하는 데 도움이 될 것입니다. 즐거운 코딩 되세요!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Smart Tags Creation in Word with Aspose.Words for Python"
 description: "A code tutorial for Aspose.Words Python-net"
@@ -246,7 +243,3 @@ For further information, explore these resources:
 - **Support Forum**: Engage with the community on [Aspose's Support Forum](https://forum.aspose.com/c/words/10)
 
 With this comprehensive guide, you're now equipped to leverage Aspose.Words for Python in creating and managing smart tags within your Word documents. Happy coding!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

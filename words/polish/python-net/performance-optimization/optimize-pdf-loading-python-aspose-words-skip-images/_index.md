@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie pomijać obrazy podczas ładowania plików PDF w Pythonie za pomocą Aspose.Words. Zwiększ wydajność aplikacji i zoptymalizuj wykorzystanie zasobów."
@@ -139,7 +136,3 @@ Odkryj więcej Aspose.Words, sprawdzając [oficjalna dokumentacja](https://refer
 - [Bezpłatna wersja próbna Aspose.Words](https://releases.aspose.com/words/python/)
 - [Uzyskanie licencji tymczasowej](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u efficiënt bladwijzers en tabelkolommen kunt invoegen, verwijderen en beheren met Aspose.Words voor Python. Verbeter uw documentverwerking met praktische voorbeelden en prestatietips."
@@ -143,7 +140,3 @@ Het invoegen, verwijderen en beheren van bladwijzers met Aspose.Words in Python 
    - Ja, Aspose.Words ondersteunt meerdere formaten, waaronder DOCX en PDF.
 3. **Wat zijn de beperkingen van bladwijzers in tabelkolommen?**
    - Ze kunnen alleen worden gebruikt binnen tabellen met duidelijk gedefinieerde rijen en kolommen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

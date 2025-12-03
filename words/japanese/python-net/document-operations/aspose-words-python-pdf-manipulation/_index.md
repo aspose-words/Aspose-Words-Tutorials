@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Pythonを使ってPDFを操作する方法を学びましょう。暗号化されたドキュメントを簡単に変換、編集、処理できます。"
@@ -254,7 +251,3 @@ Aspose.Words for Pythonは、高度なPDF操作のための強力なツールを
 - 「PDFからDOCXへの変換」
 - 「Pythonによるドキュメント管理」
 - 「暗号化されたPDFの取り扱い」
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

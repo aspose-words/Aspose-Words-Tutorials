@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Posta Birleştirme ve Raporlama eğitimlerimizle Python-net için Aspose.Words'te ustalaşın. Belge otomasyon becerilerinizi geliştirin ve veri raporlama süreçlerinizi kolaylaştırın."
 "title": "Aspose.Words Python-net&#58; Posta Birleştirme ve Raporlama Eğitimleri"
@@ -40,7 +37,3 @@ Python'da Aspose.Words ile belge birleştirmede ustalaşmayı öğrenin, 'Kaynak
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

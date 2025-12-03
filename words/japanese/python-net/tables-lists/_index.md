@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-netのテーブルとリストに焦点を当てたAspose.Wordsチュートリアルで、ドキュメント処理スキルを向上させましょう。実践的で実用的な洞察を求める開発者に最適です。"
 "title": "Aspose.Words Python-net&#58; テーブルとリストをマスターするチュートリアル"
@@ -48,7 +45,3 @@ Aspose.Wordsを使ってPythonで表のセルを効率的に結合する方法�
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

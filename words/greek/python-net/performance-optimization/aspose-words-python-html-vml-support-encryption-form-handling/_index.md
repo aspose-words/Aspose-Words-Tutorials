@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε να βελτιστοποιείτε έγγραφα HTML χρησιμοποιώντας το Aspose.Words για Python. Διαχειριστείτε γραφικά VML, κρυπτογραφήστε έγγραφα με ασφάλεια και χειριστείτε στοιχεία φόρμας χωρίς κόπο."
@@ -202,7 +199,3 @@ def test_ignore_noscript_elements():
 
 **Ε: Πώς μπορώ να χειριστώ μεγάλα αρχεία HTML με στοιχεία VML;**
 Α: Χρησιμοποιήστε μαζική επεξεργασία και επιλεκτική φόρτωση για να διαχειριστείτε αποτελεσματικά τη χρήση πόρων.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

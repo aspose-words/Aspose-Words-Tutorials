@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u verbroken links in .chm-bestanden kunt herstellen met behulp van de krachtige Aspose.Words-bibliotheek. Verbeter de betrouwbaarheid van uw documenten en de gebruikerservaring met deze stapsgewijze handleiding."
@@ -148,7 +145,3 @@ Voor verdere hulp en verkenning:
 - **Download**: [Aspose.Words voor Python-releases](https://releases.aspose.com/words/python/)
 - **Aankoop & Proefperiode**: [Koop een licentie of een gratis proefversie](https://purchase.aspose.com/buy)
 - **Ondersteuningsforum**: [Aspose Ondersteuningscommunity](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

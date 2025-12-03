@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Изучите наш всеобъемлющий учебник Aspose.Words для разработчиков Python-net. Узнайте, как эффективно сравнивать и отслеживать изменения документов с помощью мощных инструментов."
 "title": "Сравнение и отслеживание основных документов с помощью Aspose.Words в Python-net"
@@ -36,7 +33,3 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

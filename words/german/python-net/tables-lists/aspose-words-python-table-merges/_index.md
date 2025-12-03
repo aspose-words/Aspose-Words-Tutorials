@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie Tabellenzellen in Python mit Aspose.Words effizient zusammenführen. Diese Anleitung behandelt vertikale und horizontale Zusammenführungen, Padding-Einstellungen und praktische Anwendungen."
@@ -216,7 +213,3 @@ Möchten Sie Ihre Fähigkeiten erweitern? Tauchen Sie tiefer ein und erkunden Si
 - [Kostenlose Testversion](https://releases.aspose.com/words/python/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 - [Support-Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

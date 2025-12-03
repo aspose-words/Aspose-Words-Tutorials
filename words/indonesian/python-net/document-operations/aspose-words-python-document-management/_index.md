@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara membatasi tingkat judul dan menerapkan tanda tangan digital dalam dokumen XPS menggunakan Aspose.Words untuk Python, yang meningkatkan keamanan dan navigasi dokumen."
@@ -188,7 +185,3 @@ Siap untuk melangkah ke tahap berikutnya? Jelajahi lebih jauh dengan mengintegra
 **Q1: Bagaimana cara memastikan tanda tangan digital saya aman dengan Aspose.Words?**
 - Pastikan Anda menggunakan otoritas sertifikat tepercaya untuk memperoleh sertifikat digital Anda.
 - Perbarui dan kelola kunci dan kata sandi Anda secara teratur dengan aman.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

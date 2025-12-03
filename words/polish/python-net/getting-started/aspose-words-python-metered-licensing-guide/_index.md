@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak wdrożyć licencjonowanie licznikowe za pomocą Aspose.Words for Python, aby skutecznie śledzić i zarządzać wykorzystaniem dokumentów w swoich aplikacjach."
@@ -176,7 +173,3 @@ A5: Dane dotyczące użytkowania nie są przesyłane w czasie rzeczywistym, dlat
 - **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Rozpocznij przygodę z Aspose.Words for Python już dziś i w pełni wykorzystaj zalety licencjonowania taryfikacyjnego, aby zoptymalizować swoje potrzeby w zakresie przetwarzania dokumentów!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

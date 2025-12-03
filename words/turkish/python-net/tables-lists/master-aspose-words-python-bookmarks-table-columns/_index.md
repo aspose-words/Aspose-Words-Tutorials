@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python'ı kullanarak yer imlerini ve tablo sütunlarını etkili bir şekilde eklemeyi, kaldırmayı ve yönetmeyi öğrenin. Belge işlemenizi pratik örnekler ve performans ipuçlarıyla geliştirin."
@@ -143,7 +140,3 @@ Aspose.Words'ü Python'da kullanarak yer imlerinin eklenmesi, kaldırılması ve
    - Evet, Aspose.Words DOCX ve PDF dahil olmak üzere birden fazla formatı destekler.
 3. **Tablo sütun yer imlerinin sınırlamaları nelerdir?**
    - Bunlar yalnızca satırları ve sütunları açıkça tanımlanmış tablolarda kullanılabilir.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

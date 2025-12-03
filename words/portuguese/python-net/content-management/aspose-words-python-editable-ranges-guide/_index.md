@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a criar e gerenciar intervalos editáveis em documentos protegidos usando o Aspose.Words para Python. Aprimore seus recursos de gerenciamento de documentos hoje mesmo."
@@ -167,7 +164,3 @@ Explore recursos mais avançados do Aspose.Words ou integre essa funcionalidade 
 - **Fórum de Suporte**: [Suporte Aspose](https://forum.aspose.com/c/words/10)
 
 Com este guia, você estará bem equipado para aproveitar o poder dos intervalos editáveis em seus projetos de gerenciamento de documentos usando o Aspose.Words para Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

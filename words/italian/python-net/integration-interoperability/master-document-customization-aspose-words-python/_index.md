@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come personalizzare a livello di programmazione i documenti in Python con Aspose.Words impostando i colori della pagina, importando nodi con stili personalizzati e applicando forme di sfondo."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Conclusione
 
 Padroneggiando queste funzionalità di Aspose.Words per Python, puoi migliorare significativamente le capacità di personalizzazione dei tuoi flussi di lavoro di elaborazione dei documenti. Che si tratti di impostare colori di sfondo uniformi, importare nodi con stili personalizzati o applicare forme di sfondo sofisticate, questa guida fornisce una solida base per migliorare le tue attività di gestione dei documenti.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

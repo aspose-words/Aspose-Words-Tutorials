@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีปรับแต่งมุมมองเอกสารโดยใช้ Aspose.Words สำหรับ Python ตั้งค่าระดับการซูม ตัวเลือกการแสดงผล และอื่นๆ เพื่อปรับปรุงประสบการณ์ของผู้ใช้"
@@ -237,7 +234,3 @@ set_forms_design_mode(True)
 
 ## บทสรุป
 หากทำตามคำแนะนำนี้ คุณจะสามารถใช้ Aspose.Words สำหรับ Python เพื่อปรับแต่งมุมมองเอกสารได้อย่างมีประสิทธิภาพ ซึ่งไม่เพียงแต่จะช่วยเพิ่มประสบการณ์ของผู้ใช้เท่านั้น แต่ยังเพิ่มความยืดหยุ่นในการนำเสนอเอกสารบนแพลตฟอร์มต่างๆ อีกด้วย
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

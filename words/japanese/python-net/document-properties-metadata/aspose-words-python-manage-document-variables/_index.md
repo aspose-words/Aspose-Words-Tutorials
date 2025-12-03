@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用してドキュメント変数を効率的に管理する方法を学びます。このガイドでは、ドキュメント内の変数値の追加、更新、表示について説明します。"
@@ -164,7 +161,3 @@ Aspose.Words の使用を開始するには、次の手順に従います。
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/words/10)
 
 これらのリソースを活用して、Python での Aspose.Words の理解と実装をさらに深めましょう。コーディングを楽しみましょう！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

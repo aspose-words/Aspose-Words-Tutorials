@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Samouczek dotyczący kodu dla Aspose.Words Python-net"
@@ -200,7 +197,3 @@ Teraz powinieneś być przygotowany do skonfigurowania licencji Aspose.Words prz
 - [Forum wsparcia](https://forum.aspose.com/c/words/10)
 
 Dzięki temu przewodnikowi jesteś na dobrej drodze do efektywnego wykorzystania Aspose.Words w swoich aplikacjach Python. Miłego kodowania!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

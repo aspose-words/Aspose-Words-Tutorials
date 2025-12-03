@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "कस्टम कॉलबैक का उपयोग करके Word दस्तावेज़ों को अलग-अलग HTML पृष्ठों में बदलने के लिए Python के लिए Aspose.Words का उपयोग करना सीखें। दस्तावेज़ प्रबंधन और वेब प्रकाशन के लिए बिल्कुल सही।"
@@ -152,7 +149,3 @@ A5: शामिल हों [एस्पोज फोरम](https://forum.as
 - **सहायता**: दौरा करना [एस्पोज फोरम](https://forum.aspose.com/c/words/10) प्रश्नों और सामुदायिक सहायता के लिए।
 
 आज ही Python के लिए Aspose.Words में प्रवेश करें और दस्तावेज़ प्रसंस्करण में नई संभावनाओं को अनलॉक करें!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

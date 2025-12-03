@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Изучите три искусно созданных руководства по управлению свойствами документа и метаданными с помощью Aspose.Words для Python-net. Улучшите свои навыки в управлении основными атрибутами документа."
 "title": "Основные свойства документа и метаданные с помощью Aspose.Words Python-net Tutorials"
@@ -43,7 +40,3 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

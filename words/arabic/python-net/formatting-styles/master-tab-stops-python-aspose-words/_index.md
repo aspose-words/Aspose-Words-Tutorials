@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إدارة علامات التبويب بفعالية في مستندات بايثون باستخدام Aspose.Words. يغطي هذا الدليل إضافة علامات التبويب وتخصيصها وإزالتها مع أمثلة عملية."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## خاتمة
 
 يتيح لك إتقان علامات التبويب في بايثون باستخدام Aspose.Words إنشاء مستندات بتنسيق احترافي بسهولة. باتباع هذا الدليل، يمكنك إضافة علامات التبويب وتخصيصها وإدارتها بفعالية، مما يُحسّن جودة مخرجاتك النصية بشكل عام.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

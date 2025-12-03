@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kód oktatóanyag az Aspose.Words Python-nethez"
@@ -239,7 +236,3 @@ További információkért tekintse meg ezeket a forrásokat:
 - **Támogatási fórum**: Lépj kapcsolatba a közösséggel a következőn: [Aspose támogatói fóruma](https://forum.aspose.com/c/words/10)
 
 Ezzel az átfogó útmutatóval most már felkészülhetsz arra, hogy az Aspose.Words for Python segítségével intelligens címkéket hozz létre és kezelj a Word-dokumentumaidban. Jó kódolást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

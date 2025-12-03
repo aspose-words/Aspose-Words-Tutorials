@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan szabhatsz testre témákat az Aspose.Words-ben Python használatával. Ez az útmutató a színek és betűtípusok beállítását ismerteti, biztosítva a márkakonzisztenciát a dokumentumokban."
@@ -168,7 +165,3 @@ V: Bár kiterjedt, előfordulhat, hogy egyes speciális Word-funkciók nem telje
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

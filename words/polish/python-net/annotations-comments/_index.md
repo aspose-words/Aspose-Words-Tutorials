@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Zapoznaj się z naszym kompleksowym samouczkiem Aspose.Words na temat adnotacji i komentarzy przy użyciu Python-net. Udoskonal swoje umiejętności przetwarzania dokumentów za pomocą praktycznych przykładów."
 "title": "Opracuj adnotacje i komentarze w Aspose.Words z Python-net"
@@ -36,7 +33,3 @@ Dowiedz się, jak programowo dodawać, zarządzać i pobierać komentarze i odpo
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

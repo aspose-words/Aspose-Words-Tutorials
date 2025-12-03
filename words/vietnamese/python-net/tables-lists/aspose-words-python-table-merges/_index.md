@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách hợp nhất các ô bảng hiệu quả trong Python bằng Aspose.Words. Hướng dẫn này bao gồm các hợp nhất theo chiều dọc và chiều ngang, cài đặt đệm và các ứng dụng thực tế."
@@ -216,7 +213,3 @@ Sẵn sàng nâng cao kỹ năng của bạn hơn nữa? Hãy khám phá sâu h�
 - [Dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

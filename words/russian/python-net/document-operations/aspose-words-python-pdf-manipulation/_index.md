@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как манипулировать PDF-файлами с помощью Aspose.Words для Python. Легко конвертируйте, редактируйте и обрабатывайте зашифрованные документы."
@@ -254,7 +251,3 @@ Aspose.Words для Python предлагает мощные инструмен�
 - «Преобразование PDF в DOCX»
 - «Управление документами с помощью Python»
 - «Обработка зашифрованных PDF-файлов»
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

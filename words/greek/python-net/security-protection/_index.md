@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Κατακτήστε το Aspose.Words για Python-net με τα εξειδικευμένα μας σεμινάρια για την ασφάλεια και την προστασία. Βελτιώστε τις δεξιότητές σας στον χειρισμό εγγράφων σήμερα."
 "title": "Εκπαιδευτικά σεμινάρια ασφάλειας και προστασίας Python-net Aspose.Words"
@@ -45,7 +42,3 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 最佳化文件樣式。刪除未使用和重複的樣式，增強您的工作流程並提高效能。"
@@ -189,7 +186,3 @@ license.set_license("path/to/your/license.lic")
 - [Aspose.Words 文檔](https://reference.aspose.com/words/python-net/)
 - [下載 Aspose.Words for Python](https://releases.aspose.com/words/python/)
 - [購買頁面](https://purchase.aspose.com/buy)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

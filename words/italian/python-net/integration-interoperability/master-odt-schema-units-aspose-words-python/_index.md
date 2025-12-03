@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutorial sul codice per Aspose.Words Python-net"
@@ -168,7 +165,3 @@ Padroneggiando le impostazioni dello schema ODT e le configurazioni delle unità
 - **Prova gratuita**: Inizia con una prova gratuita su [Download di Aspose per Python](https://releases.aspose.com/words/python/)
 - **Licenza temporanea**: Fai domanda qui: [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: Partecipa alla discussione su [Forum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

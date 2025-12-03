@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 XLSX 파일을 압축, 사용자 지정 및 최적화하는 방법을 알아보세요. 파일 크기 관리 및 날짜-시간 형식 처리를 개선합니다."
@@ -177,7 +174,3 @@ Aspose.Words for Python을 활용하면 XLSX 문서 처리 방식을 크게 개�
 - **무료 체험**: [Aspose Free를 사용해 보세요](https://releases.aspose.com/words/python/)
 - **임시 면허**: [임시 면허 취득](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼 지원](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

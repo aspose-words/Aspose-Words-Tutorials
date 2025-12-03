@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να αυτοματοποιείτε τη σύνοψη και τη μετάφραση με τεχνητή νοημοσύνη χρησιμοποιώντας το Aspose.Words για Python και OpenAI. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές."
@@ -215,7 +212,3 @@
 - "Συνοψίζοντας την Τεχνητή Νοημοσύνη Python"
 - "Μετάφραση Aspose.Words"
 - "Επεξεργασία εγγράφων OpenAI"
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

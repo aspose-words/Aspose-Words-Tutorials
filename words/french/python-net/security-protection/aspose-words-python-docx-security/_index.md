@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Maîtrisez l'automatisation documentaire en créant des fichiers DOCX sécurisés et conformes avec Aspose.Words en Python. Apprenez à appliquer des fonctionnalités de sécurité et à optimiser les performances."
@@ -161,7 +158,3 @@ R : Vérifiez et renouvelez régulièrement vos licences. Conservez une copie de
 - **Soutien et communauté**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Passez à l'étape suivante de l'automatisation documentaire en implémentant Aspose.Words pour vos projets Python. Bon codage !
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

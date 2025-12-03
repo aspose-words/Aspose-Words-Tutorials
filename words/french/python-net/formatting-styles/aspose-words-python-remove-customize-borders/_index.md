@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à supprimer et personnaliser efficacement les bordures de paragraphe avec Aspose.Words pour Python. Simplifiez la mise en forme de vos documents."
@@ -182,7 +179,3 @@ Ce tutoriel explique comment supprimer et personnaliser efficacement les bordure
 - **Essai gratuit**: [Commencez gratuitement](https://releases.aspose.com/words/python/)
 - **Licence temporaire**: [Obtenir un permis temporaire](https://purchase.aspose.com/temporary-license/)
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

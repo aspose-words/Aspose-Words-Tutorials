@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Python 的 Aspose.Words 程式庫以程式設計方式在 Word 文件中新增、管理和檢索註解和回應。"
@@ -245,7 +242,3 @@ Aspose.Words for Python 可以整合到各種文件工作流程中。以下是�
 3. **學術合作**：促進學術論文作者和審查者之間的回饋循環。
 
 本綜合指南可以幫助您使用 Aspose.Words for Python 在 Word 文件中有效地實現評論和回覆管理。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

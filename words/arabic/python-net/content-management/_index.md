@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "استكشف دروسنا الشاملة حول Aspose.Words على Python-net لإدارة المحتوى. مثالية للمطورين الذين يسعون إلى تحسين مهاراتهم في التعامل مع المستندات وأتمتتها."
 "title": "دروس Aspose.Words في Python-net&#58; دليل إدارة المحتوى"
@@ -46,7 +43,3 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

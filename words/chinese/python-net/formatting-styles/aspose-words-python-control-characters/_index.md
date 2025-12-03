@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words 在 Python 文档中使用控制字符进行自动格式化和文档布局。探索插入空格、制表符、换行符等的技巧。"
@@ -190,7 +187,3 @@ Ready to take your document automation to the next level? Try implementing these
    - Line Feed (LF) moves to the next line, while Carriage Return (CR) returns to the beginning of the current line.
 4. **How do I acquire a license for Aspose.Words?**
    - Visit the Aspose website to purchase or obtain a trial license.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

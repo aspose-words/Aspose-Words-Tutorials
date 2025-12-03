@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้การจัดการเอกสารอัตโนมัติใน Python โดยใช้ Aspose.Words เรียนรู้วิธีการจัดการฟิลด์ฟอร์ม รวมถึงกล่องรวมและอินพุตข้อความด้วยคู่มือที่ครอบคลุมของเรา"
@@ -261,7 +258,3 @@ doc.save(ชื่อไฟล์="ไดเรกทอรีเอกสาร
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -183,7 +180,3 @@ Bạn đã sẵn sàng cải thiện PDF của mình chưa? Hãy bắt đầu á
 - **Ủng hộ**Nhận trợ giúp từ cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
 
 Hướng dẫn này cung cấp cho bạn kiến thức để tối ưu hóa dấu trang PDF bằng Aspose.Words cho Python. Chúc bạn viết mã vui vẻ!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

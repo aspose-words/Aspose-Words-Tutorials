@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a limitar los niveles de encabezado y aplicar firmas digitales en documentos XPS usando Aspose.Words para Python, mejorando la seguridad y la navegación del documento."
@@ -188,7 +185,3 @@ Al implementar estas funciones con Aspose.Words para Python, puede optimizar sig
 **P1: ¿Cómo puedo garantizar que mis firmas digitales sean seguras con Aspose.Words?**
 - Asegúrese de utilizar una autoridad de certificación confiable para obtener sus certificados digitales.
 - Actualice periódicamente y administre sus claves y contraseñas de forma segura.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

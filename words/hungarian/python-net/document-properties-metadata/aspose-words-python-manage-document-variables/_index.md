@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulja meg, hogyan kezelheti hatékonyan a dokumentumváltozókat az Aspose.Words for Python használatával. Ez az útmutató a változóértékek dokumentumokban való hozzáadását, frissítését és megjelenítését tárgyalja."
@@ -164,7 +161,3 @@ Miért ne próbálnád ki még ma ezeket a megoldásokat, és tapasztalnád meg 
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 
 Böngészd át ezeket az anyagokat, hogy jobban megértsd és megvalósítsd az Aspose.Words Pythonban való használatát. Jó kódolást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

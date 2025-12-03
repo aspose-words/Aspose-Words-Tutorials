@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как настраивать просмотр документов с помощью Aspose.Words для Python. Задавайте уровни масштабирования, параметры отображения и многое другое для улучшения пользовательского опыта."
@@ -237,7 +234,3 @@ set_forms_design_mode(True)
 
 ## Заключение
 Следуя этому руководству, вы сможете эффективно использовать Aspose.Words для Python для настройки представлений документов. Это не только улучшает пользовательский опыт, но и обеспечивает гибкость в представлении документов на разных платформах.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

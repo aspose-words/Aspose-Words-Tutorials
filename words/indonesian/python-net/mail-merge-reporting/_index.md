@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Kuasai Aspose.Words untuk Python-net dengan tutorial kami tentang Mail Merge dan Reporting. Tingkatkan keterampilan otomatisasi dokumen dan sederhanakan proses pelaporan data Anda."
 "title": "Aspose.Words Python-net&#58; Tutorial Gabungan Surat dan Pelaporan"
@@ -40,7 +37,3 @@ Pelajari cara menguasai penggabungan dokumen dengan Aspose.Words dalam Python, d
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

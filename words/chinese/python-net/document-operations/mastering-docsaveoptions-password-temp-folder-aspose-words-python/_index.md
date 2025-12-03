@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net 代码教程"
@@ -193,7 +190,3 @@ def save_using_temp_folder():
 - [支持论坛](https://forum.aspose.com/c/words/10)
 
 探索这些资源，加深您的理解，并增强您使用 Aspose.Words for Python 进行文档处理的能力。祝您编程愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

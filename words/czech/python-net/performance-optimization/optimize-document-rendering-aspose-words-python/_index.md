@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak používat Aspose.Words pro Python k efektivnímu vykreslování stránek dokumentů jako bitmap a vytváření vysoce kvalitních miniatur."
@@ -192,7 +189,3 @@ Chcete-li dále prozkoumat možnosti Aspose.Words, zvažte integraci těchto tec
 
 ## Další kroky
 - Zkuste implementovat různá nastavení vykreslování pro přizpůsobení kvality výstupu a výkonu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

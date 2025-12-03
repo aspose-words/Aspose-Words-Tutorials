@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explore nossos tutoriais do Aspose.Words sobre Cabeçalhos, Rodapés e Configuração de Página com Python-net. Aprenda a aprimorar a formatação de documentos sem esforço."
 "title": "Aspose.Words Python-net&#58; Tutoriais de Cabeçalhos, Rodapés e Configuração de Página"
@@ -39,7 +36,3 @@ Um tutorial de código para Aspose.Words Python-net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

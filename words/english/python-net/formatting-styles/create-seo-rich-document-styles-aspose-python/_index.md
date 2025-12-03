@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Create SEO-Optimized Document Styles in Python with Aspose.Words"
 description: "Learn to create custom, SEO-friendly document styles using Aspose.Words for Python. Enhance readability and consistency effortlessly."
@@ -120,7 +117,3 @@ A: Verify that your style definitions are correct and check for any conflicting 
 - [Free Trial](https://releases.aspose.com/words/python/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

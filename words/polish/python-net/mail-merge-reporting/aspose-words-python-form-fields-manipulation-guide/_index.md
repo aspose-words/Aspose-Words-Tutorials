@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Opanuj zautomatyzowaną obsługę dokumentów w Pythonie za pomocą Aspose.Words. Dowiedz się, jak manipulować polami formularzy, w tym polami kombi i polami wprowadzania tekstu, dzięki naszemu kompleksowemu przewodnikowi."
@@ -261,7 +258,3 @@ doc.save(file_name="TWÓJ_KATALOG_DOKUMENTÓW/FormFields.ManageDropDownItems.htm
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

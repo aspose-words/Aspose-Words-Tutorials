@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek onze uitgebreide Aspose.Words-tutorial voor Python-net-ontwikkelaars. Leer hoe je documentwijzigingen efficiënt kunt vergelijken en volgen met behulp van krachtige tools."
 "title": "Master Document Vergelijking & Tracking met Aspose.Words in Python-net"
@@ -36,7 +33,3 @@ Leer hoe u documentrevisies efficiënt kunt beheren en volgen met Aspose.Words i
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

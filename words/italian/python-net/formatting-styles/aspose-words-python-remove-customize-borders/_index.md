@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come rimuovere e personalizzare in modo efficiente i bordi dei paragrafi utilizzando Aspose.Words per Python. Semplifica il processo di formattazione dei tuoi documenti."
@@ -182,7 +179,3 @@ Questo tutorial ha spiegato come rimuovere e personalizzare in modo efficiente i
 - **Prova gratuita**: [Inizia gratis](https://releases.aspose.com/words/python/)
 - **Licenza temporanea**: [Ottieni la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: [Forum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

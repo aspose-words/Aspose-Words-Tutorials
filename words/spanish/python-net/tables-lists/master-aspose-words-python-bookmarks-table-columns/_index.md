@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a insertar, eliminar y administrar marcadores y columnas de tablas de forma eficiente con Aspose.Words para Python. Mejore su procesamiento de documentos con ejemplos prácticos y consejos de rendimiento."
@@ -143,7 +140,3 @@ Dominar la inserción, eliminación y gestión de marcadores con Aspose.Words en
    - Sí, Aspose.Words admite múltiples formatos, incluidos DOCX y PDF.
 3. **¿Cuáles son las limitaciones de los marcadores de columnas de tabla?**
    - Sólo se pueden utilizar dentro de tablas que tengan filas y columnas claramente definidas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

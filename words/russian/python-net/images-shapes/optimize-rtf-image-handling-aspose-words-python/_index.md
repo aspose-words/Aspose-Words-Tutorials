@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как оптимизировать обработку изображений в документах RTF с помощью Aspose.Words для Python. Сохраняйте изображения в формате WMF и обеспечьте совместимость со старыми ридерами."
@@ -189,7 +186,3 @@ export_images_example()
 ## Заключение
 
 Используя Aspose.Words для Python, вы можете значительно улучшить обработку изображений в документах RTF. Будь то конвертация изображений в WMF или обеспечение совместимости со старыми ридерами, эти методы предоставляют надежные решения, адаптированные под ваши потребности. Готовы вывести свои навыки обработки документов на новый уровень? Попробуйте эти методы и посмотрите, какую разницу они дают.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

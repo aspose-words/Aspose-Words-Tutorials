@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "發現使用 Python-net 開始使用 Aspose.Words 的基本教學。非常適合旨在增強文件處理能力的開發人員。"
 "title": "Aspose.Words for Python-net入門：基本教程"
@@ -39,7 +36,3 @@ Aspose.Words Python-net 程式碼教學
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

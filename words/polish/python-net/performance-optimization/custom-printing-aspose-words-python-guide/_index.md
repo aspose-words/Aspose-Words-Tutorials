@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak dostosować ustawienia drukowania dla dokumentów Word za pomocą Aspose.Words i Python. Opanuj rozmiar papieru, orientację i konfiguracje tacek."
@@ -148,7 +145,3 @@ Wdróż rozwiązanie drukowania niestandardowego w swoim kolejnym projekcie i zo
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
 
 Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i w pełni wykorzystać Aspose.Words for Python. Miłego drukowania!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

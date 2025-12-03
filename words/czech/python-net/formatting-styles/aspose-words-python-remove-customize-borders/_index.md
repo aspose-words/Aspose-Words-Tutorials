@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně odstraňovat a upravovat ohraničení odstavců pomocí Aspose.Words pro Python. Zjednodušte proces formátování dokumentů."
@@ -182,7 +179,3 @@ Tento tutoriál se zabýval efektivním odstraňováním a úpravou ohraničení
 - **Bezplatná zkušební verze**: [Začít zdarma](https://releases.aspose.com/words/python/)
 - **Dočasná licence**: [Získejte dočasnou licenci](https://purchase.aspose.com/temporary-license/)
 - **Podpora**: [Fórum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

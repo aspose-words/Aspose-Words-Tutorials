@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u digitale handtekeningen in Python-documenten kunt laden, openen en verifiëren met Aspose.Words. Deze handleiding bevat stapsgewijze instructies om de authenticiteit van documenten te garanderen."
@@ -197,7 +194,3 @@ Voor verdere verkenning kunt u zich verdiepen in andere Aspose.Words-functionali
 - **Ondersteuningsforum**: https://forum.aspose.com/c/words/10
 
 Ontdek deze bronnen om je kennis en vaardigheden in het omgaan met digitale handtekeningen met Aspose.Words voor Python verder te vergroten. Veel plezier met coderen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

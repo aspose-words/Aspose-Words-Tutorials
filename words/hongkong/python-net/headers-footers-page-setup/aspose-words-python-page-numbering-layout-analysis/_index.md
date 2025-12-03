@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net 程式碼教學"
@@ -217,7 +214,3 @@ while True:
 - **支援論壇：** [Aspose 支持社區](https://forum.aspose.com/c/words/10)
 
 透過遵循本指南，您將能夠使用 Aspose.Words 在 Python 專案中實現和優化頁碼編號和佈局分析。編碼愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να προσαρμόζετε έγγραφα σε Python μέσω προγραμματισμού με το Aspose.Words ορίζοντας χρώματα σελίδας, εισάγοντας κόμβους με προσαρμοσμένα στυλ και εφαρμόζοντας σχήματα φόντου."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Σύναψη
 
 Κατακτώντας αυτά τα χαρακτηριστικά του Aspose.Words για Python, μπορείτε να βελτιώσετε σημαντικά τις δυνατότητες προσαρμογής των ροών εργασίας επεξεργασίας εγγράφων σας. Είτε μέσω του ορισμού ομοιόμορφων χρωμάτων φόντου, της εισαγωγής κόμβων με προσαρμοσμένα στυλ είτε μέσω της εφαρμογής εξελιγμένων σχημάτων φόντου, αυτός ο οδηγός παρέχει μια σταθερή βάση για την αναβάθμιση των εργασιών διαχείρισης εγγράφων σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

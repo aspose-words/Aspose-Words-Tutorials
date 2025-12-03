@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come unire in modo efficiente le celle di una tabella in Python usando Aspose.Words. Questa guida illustra le unioni verticali e orizzontali, le impostazioni di padding e le applicazioni pratiche."
@@ -216,7 +213,3 @@ Pronti a migliorare ulteriormente le vostre competenze? Approfondite la vostra c
 - [Prova gratuita](https://releases.aspose.com/words/python/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

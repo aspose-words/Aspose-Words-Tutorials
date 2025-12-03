@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně spravovat proměnné dokumentů pomocí Aspose.Words pro Python. Tato příručka se zabývá přidáváním, aktualizací a zobrazováním hodnot proměnných v dokumentech."
@@ -164,7 +161,3 @@ Proč nezkusit implementovat tato řešení ještě dnes a neuvidíte rozdíl ve
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 Prozkoumejte tyto zdroje, abyste si dále prohloubili znalosti a implementaci Aspose.Words v Pythonu. Přejeme vám příjemné programování!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

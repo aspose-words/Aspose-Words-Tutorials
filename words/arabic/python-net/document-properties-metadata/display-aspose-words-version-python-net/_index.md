@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية التحقق من إصدار Aspose.Words المُثبّت لـ Python عبر .NET. يُغطّي هذا الدليل التثبيت، واسترجاع معلومات الإصدار، والتطبيقات العملية."
@@ -147,7 +144,3 @@ print(f'I am currently using {product_name}, version number {version_number}!')
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باستخدام هذه الأدوات، ستكون جاهزًا لإدارة تثبيتات Aspose.Words بكفاءة. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

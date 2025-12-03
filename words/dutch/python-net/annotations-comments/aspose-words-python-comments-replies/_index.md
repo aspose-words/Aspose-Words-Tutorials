@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u programmatisch opmerkingen en antwoorden kunt toevoegen, beheren en ophalen in Word-documenten met behulp van de Aspose.Words-bibliotheek met Python."
@@ -245,7 +242,3 @@ Aspose.Words voor Python kan in verschillende documentworkflows worden geïntegr
 3. **Academische samenwerking**: Faciliteer feedbackloops tussen auteurs en reviewers in academische papers.
 
 Deze uitgebreide handleiding helpt u bij het effectief implementeren van opmerkingen- en antwoordbeheer in uw Word-documenten met behulp van Aspose.Words voor Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

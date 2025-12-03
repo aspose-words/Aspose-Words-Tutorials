@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用して、ドキュメント ページをビットマップとして効率的にレンダリングし、高品質のサムネイルを作成する方法を学習します。"
@@ -192,7 +189,3 @@ Aspose.Words の機能をさらに詳しく調べるには、これらの手法�
 
 ## 次のステップ
 - 出力品質とパフォーマンスを調整するには、さまざまなレンダリング設定を実装してみてください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

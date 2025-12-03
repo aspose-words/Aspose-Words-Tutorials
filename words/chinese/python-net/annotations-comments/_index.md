@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "探索我们全面的 Aspose.Words 教程，了解如何使用 Python-net 进行注释和评论。通过实际示例提升您的文档处理技能。"
 "title": "使用 Python-net 掌握 Aspose.Words 中的注释和评论"
@@ -36,7 +33,3 @@
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

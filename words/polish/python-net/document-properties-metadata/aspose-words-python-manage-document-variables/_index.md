@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie zarządzać zmiennymi dokumentu za pomocą Aspose.Words dla Pythona. Ten przewodnik obejmuje dodawanie, aktualizowanie i wyświetlanie wartości zmiennych w dokumentach."
@@ -164,7 +161,3 @@ Dlaczego nie spróbować wdrożyć tych rozwiązań już dziś i nie zobaczyć r
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
 
 Przeglądaj te zasoby, aby jeszcze bardziej poszerzyć swoje zrozumienie i implementację Aspose.Words w Pythonie. Miłego kodowania!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

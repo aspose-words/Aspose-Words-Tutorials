@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words für Python dynamische Dokumentrahmen erstellen. Erlernen Sie Techniken zur Gestaltung von Text- und Tabellenrahmen."
@@ -270,7 +267,3 @@ Erwägen Sie die Integration von Aspose.Words mit anderen Datenverarbeitungstool
 
 ## Abschluss
 Wenn Sie diese Techniken mit Aspose.Words für Python beherrschen, können Sie professionell aussehende Dokumente mit dynamischen Rahmen erstellen. Dieser Leitfaden bietet eine solide Grundlage für die weitere Erkundung der Funktionen der Bibliothek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

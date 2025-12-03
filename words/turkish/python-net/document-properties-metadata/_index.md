@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Aspose.Words for Python-net kullanarak belge özelliklerini ve meta verilerini yönetmeye yönelik üç uzmanca hazırlanmış öğreticiyi keşfedin. Temel belge niteliklerini düzenleme becerilerinizi geliştirin."
 "title": "Aspose.Words ile Ana Belge Özellikleri ve Meta Veriler Python-net Eğitimleri"
@@ -43,7 +40,3 @@ Python için Aspose.Words ile Word belgelerindeki kullanıcı bilgisi alanların
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

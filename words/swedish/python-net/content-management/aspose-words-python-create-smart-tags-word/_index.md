@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "En kodhandledning för Aspose.Words Python-net"
@@ -239,7 +236,3 @@ För mer information, utforska dessa resurser:
 - **Supportforum**: Engagera dig i samhället på [Asposes supportforum](https://forum.aspose.com/c/words/10)
 
 Med den här omfattande guiden är du nu rustad att använda Aspose.Words för Python för att skapa och hantera smarta taggar i dina Word-dokument. Lycka till med kodningen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

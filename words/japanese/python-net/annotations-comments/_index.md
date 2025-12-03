@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net を使用した注釈とコメントに関する包括的な Aspose.Words チュートリアルをご覧ください。実践的な例を使ってドキュメント処理スキルを向上させましょう。"
 "title": "Python-net で Aspose.Words の注釈とコメントをマスターする"
@@ -36,7 +33,3 @@ Python で Aspose.Words ライブラリを使用して、Word 文書にコメン
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

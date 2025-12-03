@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python के लिए Aspose.Words का उपयोग करके Markdown में तालिकाओं और सूचियों को फ़ॉर्मेट करना सीखें। संरेखण, सूची निर्यात मोड और बहुत कुछ के साथ अपने दस्तावेज़ वर्कफ़्लो को बेहतर बनाएँ।"
@@ -188,7 +185,3 @@
 ## निष्कर्ष
 
 पायथन के लिए Aspose.Words में महारत हासिल करके, आप जटिल तालिकाओं और सूचियों के साथ मार्कडाउन दस्तावेज़ बनाने और उनमें हेरफेर करने की अपनी क्षमता को काफी हद तक बढ़ा सकते हैं। चाहे आप तकनीकी दस्तावेज़ीकरण या सहयोगी परियोजनाओं पर काम कर रहे हों, ये उपकरण आपके दस्तावेज़ वर्कफ़्लो को सुव्यवस्थित करेंगे और पठनीयता में सुधार करेंगे।
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

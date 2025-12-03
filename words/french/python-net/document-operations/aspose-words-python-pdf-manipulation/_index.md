@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à manipuler des PDF avec Aspose.Words pour Python. Convertissez, modifiez et gérez facilement des documents chiffrés."
@@ -254,7 +251,3 @@ Aspose.Words pour Python offre des outils puissants pour la manipulation avancé
 - « Conversion PDF en DOCX »
 - « Gestion de documents avec Python »
 - « Gestion des fichiers PDF cryptés »
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

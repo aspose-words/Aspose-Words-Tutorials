@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Zvládněte Aspose.Words pro Python-net s našimi tutoriály o hromadné korespondenci a reportingu. Zlepšete si dovednosti v automatizaci dokumentů a zefektivnite procesy reportingu dat."
 "title": "Aspose.Words Python-net&#58; Výukové programy pro hromadnou korespondenci a tvorbu sestav"
@@ -40,7 +37,3 @@ Naučte se, jak zvládnout slučování dokumentů pomocí Aspose.Words v Python
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

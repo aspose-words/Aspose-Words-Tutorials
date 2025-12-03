@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 的 XAML 流格式和进度回调来优化文档保存。提高文档管理效率。"
@@ -188,7 +185,3 @@ class ExXamlFlowSaveOptionsProgressCallback:
 ## 结论
 
 在本教程中，我们探讨了如何使用 XAML Flow 和进度回调来优化 Aspose.Words for Python 的文档保存功能。通过实现这些功能，您可以提高文档处理工作流程的效率，有效地管理资源，并确保操作的及时性。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

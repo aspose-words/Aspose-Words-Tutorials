@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีสร้างเส้นขอบเอกสารแบบไดนามิกโดยใช้ Aspose.Words สำหรับ Python เชี่ยวชาญเทคนิคสำหรับการจัดรูปแบบเส้นขอบข้อความและตาราง"
@@ -270,7 +267,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## บทสรุป
 การฝึกฝนเทคนิคเหล่านี้ด้วย Aspose.Words for Python จะช่วยให้คุณสร้างเอกสารที่ดูเป็นมืออาชีพพร้อมเส้นขอบแบบไดนามิกได้ คู่มือนี้ให้พื้นฐานที่มั่นคงสำหรับการสำรวจความสามารถของไลบรารีเพิ่มเติม
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

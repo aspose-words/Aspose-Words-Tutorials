@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन के साथ Aspose.Words लाइब्रेरी का उपयोग करके Word दस्तावेज़ों में टिप्पणियों और उत्तरों को प्रोग्रामेटिक रूप से जोड़ने, प्रबंधित करने और पुनर्प्राप्त करने का तरीका जानें।"
@@ -245,7 +242,3 @@ print(f'UTC Date and Time: {utc_date_time}')
 3. **शैक्षणिक सहयोग**: शैक्षणिक पत्रों में लेखकों और समीक्षकों के बीच फीडबैक लूप को सुगम बनाना।
 
 यह व्यापक मार्गदर्शिका आपको पायथन के लिए Aspose.Words का उपयोग करके अपने Word दस्तावेज़ों में टिप्पणी और उत्तर प्रबंधन को प्रभावी ढंग से लागू करने में मदद करेगी।
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Impara a inserire, rimuovere e gestire in modo efficiente segnalibri e colonne di tabelle utilizzando Aspose.Words per Python. Migliora l'elaborazione dei tuoi documenti con esempi pratici e suggerimenti sulle prestazioni."
@@ -143,7 +140,3 @@ Padroneggiare l'inserimento, la rimozione e la gestione dei segnalibri utilizzan
    - Sì, Aspose.Words supporta diversi formati, tra cui DOCX e PDF.
 3. **Quali sono i limiti dei segnalibri delle colonne delle tabelle?**
    - Possono essere utilizzati solo all'interno di tabelle con righe e colonne chiaramente definite.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

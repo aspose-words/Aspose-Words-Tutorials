@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีแก้ไขลิงก์ที่เสียหายในไฟล์ .chm โดยใช้ไลบรารี Aspose.Words อันทรงพลัง เพิ่มความน่าเชื่อถือของเอกสารและประสบการณ์การใช้งานของผู้ใช้ด้วยคู่มือทีละขั้นตอนนี้"
@@ -148,7 +145,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'ExChmLoadOptions.OriginalFileName.ht
 - **ดาวน์โหลด**- [Aspose.Words สำหรับ Python ออกแล้ว](https://releases.aspose.com/words/python/)
 - **การซื้อและทดลองใช้**- [รับใบอนุญาตหรือทดลองใช้งานฟรี](https://purchase.aspose.com/buy)
 - **ฟอรั่มสนับสนุน**- [ชุมชนสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

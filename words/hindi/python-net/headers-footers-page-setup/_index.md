@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net के साथ हेडर, फ़ुटर और पेज सेटअप पर हमारे Aspose.Words ट्यूटोरियल देखें। दस्तावेज़ फ़ॉर्मेटिंग को आसानी से बेहतर बनाना सीखें।"
 "title": "Aspose.Words पायथन-नेट&#58; हेडर, फूटर और पेज सेटअप ट्यूटोरियल"
@@ -39,7 +36,3 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

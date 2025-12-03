@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python'da Aspose.Words kullanarak belge revizyonlarını nasıl verimli bir şekilde yöneteceğinizi ve izleyeceğinizi öğrenin. Bu eğitim, sorunsuz revizyon yönetimi için kurulum, izleme yöntemleri ve performans ipuçlarını kapsar."
@@ -130,7 +127,3 @@ Artık Python'da Aspose.Words kullanarak satır içi düğüm revizyonlarını i
 - [Ücretsiz Deneme ve Geçici Lisanslar](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 Bu kılavuzun Python'da Aspose.Words kullanarak belge revizyonlarını etkili bir şekilde yönetmenizi sağlayacağını umuyoruz. İyi kodlamalar!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

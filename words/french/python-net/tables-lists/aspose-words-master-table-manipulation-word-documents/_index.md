@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à supprimer, insérer et convertir facilement des colonnes de tableau dans vos documents Word avec Aspose.Words pour Python. Simplifiez efficacement vos tâches d'édition de documents."
@@ -152,7 +149,3 @@ Pour une exploration plus approfondie, reportez-vous à ces ressources :
 - [Version d'essai gratuite](https://releases.aspose.com/words/python/)
 - [Demande de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

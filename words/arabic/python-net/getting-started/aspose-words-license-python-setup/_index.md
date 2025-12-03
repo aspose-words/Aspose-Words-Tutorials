@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -200,7 +197,3 @@ def apply_license_from_stream(stream):
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
 
 مع هذا الدليل، أنت على الطريق الصحيح للاستفادة من Aspose.Words بفعالية في تطبيقات بايثون. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

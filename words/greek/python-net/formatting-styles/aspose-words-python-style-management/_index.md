@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να βελτιστοποιείτε τα στυλ εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Αφαιρέστε τα αχρησιμοποίητα και διπλότυπα στυλ, βελτιώστε τη ροή εργασίας σας και βελτιώστε την απόδοση."
@@ -189,7 +186,3 @@ license.set_license("path/to/your/license.lic")
 - [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [Λήψη Aspose.Words για Python](https://releases.aspose.com/words/python/)
 - [Σελίδα αγοράς](https://purchase.aspose.com/buy)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

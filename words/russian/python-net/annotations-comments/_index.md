@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Изучите наш всеобъемлющий учебник Aspose.Words по аннотациям и комментариям с использованием Python-net. Улучшите свои навыки обработки документов с помощью практических примеров."
 "title": "Мастер аннотаций и комментариев в Aspose.Words с Python-net"
@@ -36,7 +33,3 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

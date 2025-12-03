@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lernen Sie, Lesezeichen und Tabellenspalten mit Aspose.Words für Python effizient einzufügen, zu entfernen und zu verwalten. Optimieren Sie Ihre Dokumentverarbeitung mit praktischen Beispielen und Performance-Tipps."
@@ -143,7 +140,3 @@ Das Einfügen, Entfernen und Verwalten von Lesezeichen mit Aspose.Words in Pytho
    - Ja, Aspose.Words unterstützt mehrere Formate, darunter DOCX und PDF.
 3. **Welche Einschränkungen gelten für Lesezeichen für Tabellenspalten?**
    - Sie können nur in Tabellen verwendet werden, die klar definierte Zeilen und Spalten haben.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naucz się efektywnie wstawiać, usuwać i zarządzać zakładkami i kolumnami tabeli za pomocą Aspose.Words dla Pythona. Ulepsz przetwarzanie dokumentów za pomocą praktycznych przykładów i wskazówek dotyczących wydajności."
@@ -143,7 +140,3 @@ Opanowanie wstawiania, usuwania i zarządzania zakładkami za pomocą Aspose.Wor
    - Tak, Aspose.Words obsługuje wiele formatów, w tym DOCX i PDF.
 3. **Jakie są ograniczenia zakładek kolumn tabeli?**
    - Można ich używać wyłącznie w tabelach, które mają wyraźnie zdefiniowane wiersze i kolumny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

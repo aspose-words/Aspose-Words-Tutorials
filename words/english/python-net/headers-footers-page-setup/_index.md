@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Aspose.Words Python-net: Headers, Footers & Page Setup Tutorials"
 description: "Explore our Aspose.Words tutorials on Headers, Footers & Page Setup with Python-net. Learn to enhance document formatting effortlessly."
@@ -38,7 +35,3 @@ A code tutorial for Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a remover e personalizar bordas de parágrafos com eficiência usando o Aspose.Words para Python. Simplifique seu processo de formatação de documentos."
@@ -182,7 +179,3 @@ Este tutorial abordou como remover e personalizar bordas de parágrafos com efic
 - **Teste grátis**: [Comece grátis](https://releases.aspose.com/words/python/)
 - **Licença Temporária**: [Obter licença temporária](https://purchase.aspose.com/temporary-license/)
 - **Apoiar**: [Fórum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تخصيص إعدادات الطباعة لمستندات Word باستخدام Aspose.Words وPython. أتقن ضبط حجم الورق واتجاهه وتكوينات الدرج."
@@ -148,7 +145,3 @@ doc.print(printer_settings)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 استكشف هذه الموارد لتعميق فهمك والاستفادة القصوى من Aspose.Words لبايثون. طباعة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

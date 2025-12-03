@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Esplora i migliori tutorial di Aspose.Words sull'integrazione di immagini e forme con Python-net. Migliora le tue competenze di automazione dei documenti con guide pratiche."
 "title": "Aspose.Words Python-net&#58; Tutorial per padroneggiare immagini e forme"
@@ -43,7 +40,3 @@ Scopri come ottimizzare l'output SVG utilizzando Aspose.Words per Python. Questa
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

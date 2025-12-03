@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du anpassar utskriftsinställningar för Word-dokument med Aspose.Words och Python. Behärska pappersstorlek, orientering och fackkonfigurationer."
@@ -148,7 +145,3 @@ Implementera den anpassade utskriftslösningen i ditt nästa projekt och bevittn
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
 
 Utforska dessa resurser för att fördjupa din förståelse och få ut det mesta av Aspose.Words för Python. Lycka till med utskriften!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

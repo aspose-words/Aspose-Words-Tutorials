@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá hướng dẫn toàn diện của chúng tôi về Aspose.Words cho Python-net, tập trung vào định dạng và kiểu. Nâng cao kỹ năng xử lý tài liệu của bạn với những hiểu biết thực tế."
 "title": "Làm chủ định dạng và kiểu Aspose.Words với hướng dẫn Python-net"
@@ -64,7 +61,3 @@ Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài li�
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

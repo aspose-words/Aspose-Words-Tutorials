@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Làm chủ việc xử lý tài liệu tự động trong Python bằng Aspose.Words. Tìm hiểu cách thao tác các trường biểu mẫu, bao gồm hộp kết hợp và đầu vào văn bản, với hướng dẫn toàn diện của chúng tôi."
@@ -261,7 +258,3 @@ doc.save(file_name="THƯ MỤC_TÀI_LÝ_CỦA_BẠN/FormFields.ManageDropDownIte
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

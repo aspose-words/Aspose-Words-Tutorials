@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explorez nos tutoriels Aspose.Words complets sur les opérations sur documents avec Python-net. Améliorez vos compétences en manipulation efficace de documents Word."
 "title": "Aspose.Words Python-net &#58; maîtrisez les opérations sur documents avec 11 tutoriels"
@@ -66,7 +63,3 @@ Apprenez à convertir des documents Word au format PostScript avec Aspose.Words 
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

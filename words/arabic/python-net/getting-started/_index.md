@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "اكتشف دروسًا تعليمية أساسية للبدء باستخدام Aspose.Words باستخدام Python-net. مثالي للمطورين الذين يسعون إلى تحسين قدرات معالجة المستندات."
 "title": "البدء باستخدام Aspose.Words لـ Python-net&#58; دروس تعليمية أساسية"
@@ -39,7 +36,3 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

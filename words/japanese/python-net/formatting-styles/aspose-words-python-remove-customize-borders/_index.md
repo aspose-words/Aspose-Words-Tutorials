@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用して、段落の境界線を効率的に削除およびカスタマイズする方法を学びます。ドキュメントの書式設定プロセスを効率化します。"
@@ -182,7 +179,3 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **無料トライアル**： [無料で始める](https://releases.aspose.com/words/python/)
 - **一時ライセンス**： [一時ライセンスを取得する](https://purchase.aspose.com/temporary-license/)
 - **サポート**： [Asposeフォーラム](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

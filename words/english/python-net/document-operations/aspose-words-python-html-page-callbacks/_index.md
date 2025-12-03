@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words"
 description: "Learn how to use Aspose.Words for Python to convert Word documents into separate HTML pages using custom callbacks. Perfect for document management and web publishing."
@@ -157,7 +154,3 @@ A5: Join the [Aspose forum](https://forum.aspose.com/c/words/10) to ask question
 - **Support**: Visit the [Aspose Forum](https://forum.aspose.com/c/words/10) for questions and community support.
 
 Dive into Aspose.Words for Python today and unlock new possibilities in document processing!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

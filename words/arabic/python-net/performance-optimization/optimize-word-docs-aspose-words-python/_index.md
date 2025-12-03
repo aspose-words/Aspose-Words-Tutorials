@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تحسين مستندات Word لإصدارات MS Word المختلفة باستخدام Aspose.Words في Python. يغطي هذا الدليل إعدادات التوافق، ونصائح الأداء، والتطبيقات العملية."
@@ -147,7 +144,3 @@ pip install aspose-words
 - **نسخة تجريبية مجانية وترخيص مؤقت**:ابدأ بفترة تجريبية مجانية أو احصل على ترخيص مؤقت من [إصدارات Aspose](https://releases.aspose.com/words/python/) 
 
 سيُمكّنك هذا الدليل الشامل من تحسين مستندات Word بفعالية باستخدام Aspose.Words لـ Python. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

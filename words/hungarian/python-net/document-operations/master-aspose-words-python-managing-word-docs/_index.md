@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg a Microsoft Word dokumentumok betöltését, kezelését és automatizálását az Aspose.Words segítségével Pythonban. Egyszerűsítsd a dokumentumfeldolgozási feladataidat könnyedén."
@@ -198,7 +195,3 @@ Bővítse dokumentuma metaadatait egyéni tulajdonságokkal.
 - Metaadatok kinyerése adatelemzési vagy archiválási célokra.
 
 Az útmutató követésével felkészült leszel a Word-dokumentumok hatékony kezelésére az Aspose.Words Pythonban történő használatával. Fedezd fel a könyvtár átfogó funkcióit a dokumentumkezelési munkafolyamatok további optimalizálása érdekében.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

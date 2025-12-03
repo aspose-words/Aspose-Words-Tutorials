@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να διαχειρίζεστε αποτελεσματικά μεταβλητές εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει την προσθήκη, την ενημέρωση και την εμφάνιση τιμών μεταβλητών σε έγγραφα."
@@ -164,7 +161,3 @@
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
 
 Εξερευνήστε αυτούς τους πόρους για να βελτιώσετε περαιτέρω την κατανόηση και την εφαρμογή του Aspose.Words σε Python. Καλή κωδικοποίηση!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

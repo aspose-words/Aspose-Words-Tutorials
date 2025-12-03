@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie das Zusammenführen von Dokumenten mit Aspose.Words in Python meistern, mit Schwerpunkt auf „Quellennummerierung beibehalten“ und „Bei Lesezeichen einfügen“. Verbessern Sie noch heute Ihre Fähigkeiten zur Dokumentenverarbeitung!"
@@ -184,7 +181,3 @@ Experimentieren Sie mit zusätzlichen Aspose.Words-Funktionen und erkunden Sie I
 - [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
 - [Kostenlose Testlizenz](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

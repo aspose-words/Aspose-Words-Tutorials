@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการจัดการไฟล์ PDF โดยใช้ Aspose.Words สำหรับ Python แปลง แก้ไข และจัดการเอกสารที่เข้ารหัสได้อย่างง่ายดาย"
@@ -254,7 +251,3 @@ Aspose.Words for Python นำเสนอเครื่องมืออั�
 - "การแปลง PDF เป็น DOCX"
 - "การจัดการเอกสารด้วย Python"
 - “การจัดการ PDF ที่เข้ารหัส”
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

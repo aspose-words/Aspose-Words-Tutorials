@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak tworzyć dynamiczne obramowania dokumentów za pomocą Aspose.Words dla Pythona. Opanuj techniki stylizowania obramowań tekstu i tabeli."
@@ -270,7 +267,3 @@ Rozważ integrację Aspose.Words z innymi narzędziami do przetwarzania danych, 
 
 ## Wniosek
 Opanowując te techniki z Aspose.Words for Python, możesz tworzyć profesjonalnie wyglądające dokumenty z dynamicznymi obramowaniami. Ten przewodnik zapewnia solidne podstawy do dalszej eksploracji możliwości biblioteki.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

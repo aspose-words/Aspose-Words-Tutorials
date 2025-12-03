@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "探索 Aspose.Words 的热门教程，了解如何使用 Python-net 集成图像和形状。通过实用指南提升您的文档自动化技能。"
 "title": "Aspose.Words Python-net：掌握图像和形状教程"
@@ -43,7 +40,3 @@ Aspose.Words Python-net 教程中的“图像和形状”类别旨在帮助开�
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

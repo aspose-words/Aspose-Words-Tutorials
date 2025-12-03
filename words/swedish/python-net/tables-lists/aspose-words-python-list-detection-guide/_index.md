@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du identifierar listor och hanterar textfiler effektivt med Aspose.Words för Python. Perfekt för dokumenthanteringssystem."
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **Verktyg för innehållsanalys**Extrahera strukturerad data från textfiler för vidare analys eller rapportering.
 3. **Datarensningsuppgifter**Standardisera textformatering genom att hantera blanksteg och identifiera listelement.
 4. **Länkverifiering**Validera länkar inom en grupp textdokument för att säkerställa att de är aktiva och korrekta.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

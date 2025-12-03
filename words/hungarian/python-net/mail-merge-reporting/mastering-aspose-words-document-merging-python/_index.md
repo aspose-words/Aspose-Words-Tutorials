@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan sajátíthatod el a dokumentumok egyesítését az Aspose.Words segítségével Pythonban, különös tekintettel a „Forrásszámozás megtartása” és a „Könyvjelzőhöz beszúrás” témakörökre. Fejleszd dokumentumfeldolgozási készségeidet még ma!"
@@ -184,7 +181,3 @@ Kísérletezz további Aspose.Words funkciókkal, és fedezd fel az integráció
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://purchase.aspose.com/temporary-license/)
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

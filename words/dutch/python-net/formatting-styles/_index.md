@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek onze uitgebreide tutorials over Aspose.Words voor Python-net, gericht op opmaak en stijlen. Verbeter je vaardigheden in documentverwerking met praktische inzichten."
 "title": "Beheers Aspose.Words-opmaak en -stijlen met Python-net-zelfstudies"
@@ -64,7 +61,3 @@ Leer hoe je tabstops effectief kunt beheren in je Python-documenten met Aspose.W
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как эффективно управлять табуляциями в документах Python с помощью Aspose.Words. В этом руководстве рассматривается добавление, настройка и удаление табуляции с практическими примерами."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Заключение
 
 Освоение табуляции в Python с помощью Aspose.Words позволяет вам с легкостью создавать профессионально отформатированные документы. Следуя этому руководству, вы сможете эффективно добавлять, настраивать и управлять табуляциями, повышая общее качество ваших текстовых выходных данных.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

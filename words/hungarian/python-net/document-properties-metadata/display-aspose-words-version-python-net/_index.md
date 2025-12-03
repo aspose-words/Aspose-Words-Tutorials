@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerd meg, hogyan ellenőrizheted az Aspose.Words for Python telepített verzióját .NET-en keresztül. Ez az útmutató a telepítést, a verzióinformációk lekérését és a gyakorlati alkalmazásokat ismerteti."
@@ -147,7 +144,3 @@ További olvasmányokért és támogatásért tekintse meg ezeket a forrásokat:
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 
 Ezekkel az eszközökkel hatékonyan kezelheted az Aspose.Words telepítéseidet. Jó kódolást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

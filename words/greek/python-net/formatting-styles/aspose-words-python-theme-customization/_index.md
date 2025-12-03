@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να προσαρμόζετε θέματα στο Aspose.Words χρησιμοποιώντας Python. Αυτός ο οδηγός καλύπτει τη ρύθμιση χρωμάτων και γραμματοσειρών, διασφαλίζοντας τη συνέπεια της επωνυμίας σε όλα τα έγγραφά σας."
@@ -168,7 +165,3 @@ doc.save('CustomThemes.docx')
 - [Δωρεάν δοκιμαστική πρόσβαση](https://releases.aspose.com/words/python/)
 - [Πληροφορίες Προσωρινής Άδειας Χρήσης](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

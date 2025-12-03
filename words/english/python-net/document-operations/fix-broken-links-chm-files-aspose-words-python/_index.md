@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "How to Fix Broken Links in CHM Files Using Aspose.Words for Python"
 description: "Learn how to resolve broken links in .chm files using the powerful Aspose.Words library. Enhance your document reliability and user experience with this step-by-step guide."
@@ -153,7 +150,3 @@ For further assistance and exploration:
 - **Download**: [Aspose.Words for Python Releases](https://releases.aspose.com/words/python/)
 - **Purchase & Trial**: [Acquire a License or Free Trial](https://purchase.aspose.com/buy)
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

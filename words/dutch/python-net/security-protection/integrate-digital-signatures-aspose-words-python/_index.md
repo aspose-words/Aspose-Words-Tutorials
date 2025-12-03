@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u uw Word-documenten kunt beveiligen met digitale handtekeningen met Aspose.Words voor Python. Stroomlijn workflows en waarborg moeiteloos de authenticiteit van uw documenten."
@@ -187,7 +184,3 @@ Als u de mogelijkheden van Aspose.Words verder wilt verkennen, kunt u de uitgebr
 - **Steun:** [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 
 Klaar om digitale handtekeningen in je documenten te integreren? Probeer deze stappen vandaag nog en ervaar de verbeterde beveiliging en efficiëntie van Aspose.Words in Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

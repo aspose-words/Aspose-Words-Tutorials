@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net 程式碼教學"
@@ -183,7 +180,3 @@ outline_levels.clear()
 - **支援**：從社區獲取協助 [Aspose 論壇](https://forum.aspose.com/c/words/10)
 
 本指南為您提供了使用 Aspose.Words for Python 優化 PDF 書籤的知識。編碼愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

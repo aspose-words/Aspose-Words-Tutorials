@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как эффективно удалять и настраивать границы абзацев с помощью Aspose.Words для Python. Оптимизируйте процесс форматирования документов."
@@ -182,7 +179,3 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **Бесплатная пробная версия**: [Начать бесплатно](https://releases.aspose.com/words/python/)
 - **Временная лицензия**: [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Odkryj niezbędne samouczki, aby rozpocząć pracę z Aspose.Words przy użyciu Python-net. Idealne dla programistów, którzy chcą udoskonalić możliwości przetwarzania dokumentów."
 "title": "Wprowadzenie do Aspose.Words dla Python-net&#58; podstawowe samouczki"
@@ -39,7 +36,3 @@ Samouczek dotyczący kodu dla Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

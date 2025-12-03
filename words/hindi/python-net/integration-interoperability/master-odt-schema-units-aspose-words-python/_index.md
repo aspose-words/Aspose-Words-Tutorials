@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net के लिए एक कोड ट्यूटोरियल"
@@ -168,7 +165,3 @@ Aspose.Words के साथ काम करते समय, प्रदर�
 - **मुफ्त परीक्षण**: यहां निःशुल्क परीक्षण के साथ शुरुआत करें [पायथन के लिए Aspose डाउनलोड](https://releases.aspose.com/words/python/)
 - **अस्थायी लाइसेंस**: यहां आवेदन करें: [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - **सहायता**: इस पर चर्चा में शामिल हों [एस्पोज फोरम](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

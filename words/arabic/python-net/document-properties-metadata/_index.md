@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "استكشف ثلاثة دروس تعليمية مُصممة باحترافية حول إدارة خصائص المستندات والبيانات الوصفية باستخدام Aspose.Words لـ Python-net. حسّن مهاراتك في التعامل مع سمات المستندات الأساسية."
 "title": "إتقان خصائص المستند والبيانات الوصفية باستخدام Aspose.Words دروس Python-net"
@@ -43,7 +40,3 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как автоматизировать проекты Microsoft Word VBA с помощью Python. Это руководство охватывает создание, клонирование, проверку статуса защиты и управление ссылками в проектах VBA с помощью Aspose.Words."
@@ -187,7 +184,3 @@ doc = aw.Document()
 1. **Автоматизированная генерация отчетов**: Создание и управление проектами VBA для автоматизированного создания отчетов в корпоративных средах.
 2. **Дублирование шаблона**: Клонируйте хорошо продуманный шаблон со встроенными макросами в несколько документов, чтобы обеспечить согласованность.
 3. **Аудит безопасности**: Проверьте, защищены ли проекты VBA паролем, чтобы обеспечить соответствие протоколам безопасности.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

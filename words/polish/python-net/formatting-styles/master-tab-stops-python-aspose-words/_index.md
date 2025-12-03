@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie zarządzać tabulatorami w dokumentach Pythona za pomocą Aspose.Words. Ten przewodnik obejmuje dodawanie, dostosowywanie i usuwanie tabulatorów z praktycznymi przykładami."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Wniosek
 
 Opanowanie tabulatorów w Pythonie przy użyciu Aspose.Words pozwala na łatwe tworzenie profesjonalnie sformatowanych dokumentów. Postępując zgodnie z tym przewodnikiem, możesz skutecznie dodawać, dostosowywać i zarządzać tabulatorami, zwiększając ogólną jakość swoich wyników tekstowych.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

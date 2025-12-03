@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用強大的 Aspose.Words 庫解決 .chm 檔案中的斷開連結。透過本逐步指南增強文件可靠性和使用者體驗。"
@@ -148,7 +145,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'ExChmLoadOptions.OriginalFileName.ht
 - **下載**： [Aspose.Words for Python 發布](https://releases.aspose.com/words/python/)
 - **購買和試用**： [取得許可證或免費試用](https://purchase.aspose.com/buy)
 - **支援論壇**： [Aspose 支持社區](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

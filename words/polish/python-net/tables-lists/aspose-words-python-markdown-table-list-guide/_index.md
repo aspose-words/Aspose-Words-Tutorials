@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak formatować tabele i listy w Markdown za pomocą Aspose.Words dla Pythona. Ulepsz swoje przepływy pracy nad dokumentami dzięki wyrównaniu, trybom eksportu listy i nie tylko."
@@ -188,7 +185,3 @@ Aby rozpocząć korzystanie z Aspose.Words dla języka Python, wykonaj następuj
 ## Wniosek
 
 Opanowując Aspose.Words for Python, możesz znacznie zwiększyć swoją zdolność tworzenia i manipulowania dokumentami Markdown ze złożonymi tabelami i listami. Niezależnie od tego, czy pracujesz nad dokumentacją techniczną, czy nad projektami zespołowymi, te narzędzia usprawnią przepływy pracy nad dokumentami i poprawią czytelność.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

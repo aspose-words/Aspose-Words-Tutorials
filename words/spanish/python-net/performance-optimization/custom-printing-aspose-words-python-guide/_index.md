@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a personalizar la configuración de impresión de documentos de Word con Aspose.Words y Python. Domine el tamaño del papel, la orientación y la configuración de las bandejas."
@@ -148,7 +145,3 @@ Considere profundizar en las capacidades de Aspose.Words, como la conversión de
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 
 Explora estos recursos para profundizar tu comprensión y sacar el máximo provecho de Aspose.Words para Python. ¡Que disfrutes imprimiendo!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

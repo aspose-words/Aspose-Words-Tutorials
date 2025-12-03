@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 将 Word 文档通过自定义回调转换为单独的 HTML 页面。非常适合文档管理和 Web 发布。"
@@ -152,7 +149,3 @@ A5：加入 [Aspose 论坛](https://forum.aspose.com/c/words/10) 提出问题、
 - **支持**：访问 [Aspose 论坛](https://forum.aspose.com/c/words/10) 解答疑问并获得社区支持。
 
 立即深入研究 Aspose.Words for Python 并解锁文档处理的新可能性！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

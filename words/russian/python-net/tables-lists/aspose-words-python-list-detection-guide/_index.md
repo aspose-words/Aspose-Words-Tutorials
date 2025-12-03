@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как эффективно обнаруживать списки и управлять текстовыми файлами с помощью Aspose.Words для Python. Идеально подходит для систем управления документами."
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **Инструменты анализа контента**: Извлечение структурированных данных из текстовых файлов для дальнейшего анализа или составления отчетов.
 3. **Задачи очистки данных**Стандартизируйте форматирование текста, управляя пробелами и определяя элементы списка.
 4. **Проверка ссылки**: Проверка ссылок в пакете текстовых документов, чтобы убедиться в их активности и корректности.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

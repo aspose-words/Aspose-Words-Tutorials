@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Optimize Document Rendering with Aspose.Words for Python&#58; A Developer's Guide"
 description: "Learn how to use Aspose.Words for Python to efficiently render document pages as bitmaps and create high-quality thumbnails."
@@ -197,7 +194,3 @@ To further explore Aspose.Words capabilities, consider integrating these techniq
 
 ## Next Steps
 - Try implementing different rendering settings to tailor output quality and performance.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

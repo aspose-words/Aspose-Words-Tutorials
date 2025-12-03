@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как анализировать типы носителей, шифровать файлы и проверять цифровые подписи с помощью Aspose.Words для Python. Расширьте свои возможности обработки документов сегодня."
@@ -133,7 +130,3 @@ assert load_format == aw.LoadFormat.DOC
 - **Форум поддержки**: [Сообщество поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Отправьтесь в путешествие с Aspose.Words для Python и расширьте свои возможности обработки документов уже сегодня!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

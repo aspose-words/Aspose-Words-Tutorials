@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية أتمتة مشاريع Microsoft Word VBA باستخدام Python. يغطي هذا الدليل إنشاء المراجع واستنساخها والتحقق من حالة الحماية وإدارتها في مشاريع VBA باستخدام Aspose.Words."
@@ -187,7 +184,3 @@ doc = aw.Document()
 1. **إنشاء التقارير تلقائيًا**:إنشاء وإدارة مشاريع VBA لتوليد التقارير تلقائيًا في البيئات المؤسسية.
 2. **تكرار القالب**:استنساخ قالب مصمم جيدًا مع وحدات ماكرو مضمنة عبر مستندات متعددة للحفاظ على الاتساق.
 3. **عمليات تدقيق الأمان**:تحقق مما إذا كانت مشاريع VBA محمية بكلمة مرور لضمان الامتثال لبروتوكولات الأمان.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

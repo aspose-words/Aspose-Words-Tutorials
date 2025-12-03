@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u afdrukinstellingen voor Word-documenten kunt aanpassen met Aspose.Words en Python. Bepaal het papierformaat, de afdrukrichting en de ladeconfiguratie."
@@ -148,7 +145,3 @@ Implementeer de op maat gemaakte printoplossing in uw volgende project en zie ho
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 
 Verken deze bronnen om je begrip te verdiepen en Aspose.Words voor Python optimaal te benutten. Veel printplezier!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

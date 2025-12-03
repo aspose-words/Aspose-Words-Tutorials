@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutoriel de code pour Aspose.Words Python-net"
@@ -193,7 +190,3 @@ Prêt à mettre en œuvre ces solutions ? Découvrez notre [documentation](http
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
 
 Explorez ces ressources pour approfondir votre compréhension et améliorer vos capacités de traitement de documents avec Aspose.Words pour Python. Bon codage !
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

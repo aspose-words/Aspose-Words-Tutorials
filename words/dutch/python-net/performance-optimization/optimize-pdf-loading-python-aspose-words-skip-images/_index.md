@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je afbeeldingen efficiënt kunt overslaan tijdens het laden van pdf's in Python met Aspose.Words. Verbeter de applicatieprestaties en optimaliseer het resourcegebruik."
@@ -139,7 +136,3 @@ Ontdek meer van Aspose.Words door de [officiële documentatie](https://reference
 - [Gratis proefversie van Aspose.Words](https://releases.aspose.com/words/python/)
 - [Tijdelijke licentieverwerving](https://purchase.aspose.com/temporary-license/)
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

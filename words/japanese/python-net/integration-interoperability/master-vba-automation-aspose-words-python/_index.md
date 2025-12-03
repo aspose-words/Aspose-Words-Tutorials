@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pythonを使ってMicrosoft Word VBAプロジェクトを自動化する方法を学びましょう。このガイドでは、Aspose.Wordsを使ったVBAプロジェクトの作成、複製、保護ステータスの確認、参照管理について説明します。"
@@ -187,7 +184,3 @@ VBA プロジェクトの複製は、複数のドキュメントにわたって�
 1. **自動レポート生成**企業環境での自動レポート生成のための VBA プロジェクトを作成および管理します。
 2. **テンプレートの複製**マクロが埋め込まれた適切に設計されたテンプレートを複数のドキュメントに複製して、一貫性を維持します。
 3. **セキュリティ監査**セキュリティ プロトコルに準拠していることを確認するために、VBA プロジェクトがパスワードで保護されているかどうかを確認します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

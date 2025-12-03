@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words ve Python kullanarak Word belgeleri için yazdırma ayarlarının nasıl özelleştirileceğini öğrenin. Kağıt boyutu, yönlendirme ve tepsi yapılandırmalarında ustalaşın."
@@ -148,7 +145,3 @@ Bir sonraki projenizde özel baskı çözümünü uygulayın ve belge işleme s�
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 
 Anlayışınızı derinleştirmek ve Aspose.Words for Python'dan en iyi şekilde yararlanmak için bu kaynakları keşfedin. İyi yazdırmalar!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

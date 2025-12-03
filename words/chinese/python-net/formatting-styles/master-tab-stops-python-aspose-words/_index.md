@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words 有效地管理 Python 文档中的制表位。本指南将通过实际示例讲解如何添加、自定义和删除制表位。"
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## 结论
 
 使用 Aspose.Words 掌握 Python 中的制表位，让您轻松创建专业格式的文档。遵循本指南，您可以有效地添加、自定义和管理制表位，从而提升文本输出的整体质量。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

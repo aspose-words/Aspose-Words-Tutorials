@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να παρακάμπτετε αποτελεσματικά εικόνες κατά τη φόρτωση PDF σε Python χρησιμοποιώντας το Aspose.Words. Βελτιώστε την απόδοση των εφαρμογών και βελτιστοποιήστε τη χρήση πόρων."
@@ -139,7 +136,3 @@ skip_pdf_images_demo()
 - [Δωρεάν δοκιμή του Aspose.Words](https://releases.aspose.com/words/python/)
 - [Απόκτηση Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je tabellen en lijsten opmaakt in Markdown met Aspose.Words voor Python. Verbeter je documentworkflows met uitlijning, lijstexportmodi en meer."
@@ -188,7 +185,3 @@ Om Aspose.Words voor Python te gebruiken, volgt u deze stappen:
 ## Conclusie
 
 Door Aspose.Words voor Python onder de knie te krijgen, kunt u uw vaardigheden in het maken en bewerken van Markdown-documenten met complexe tabellen en lijsten aanzienlijk verbeteren. Of u nu werkt aan technische documentatie of aan samenwerkingsprojecten, deze tools stroomlijnen uw documentworkflows en verbeteren de leesbaarheid.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

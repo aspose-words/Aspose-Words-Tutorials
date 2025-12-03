@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "探索我們關於使用 Python-net 進行文件操作的全面的 Aspose.Words 教學。提升您有效率、有效地處理 Word 文件的技能。"
 "title": "Aspose.Words Python-net：11 個教學幫助您掌握文件操作"
@@ -66,7 +63,3 @@ Aspose.Words Python-net 程式碼教學
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

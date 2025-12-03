@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как эффективно загружать документы RTF и определять кодировку UTF-8 с помощью Aspose.Words для Python. Повысьте точность обработки текста в своих проектах."
@@ -141,7 +138,3 @@ doc = aw.Document("UTF-8 characters.rtf", load_options)
 - [Бесплатная пробная версия](https://releases.aspose.com/words/python/)
 - [Заявление на временную лицензию](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

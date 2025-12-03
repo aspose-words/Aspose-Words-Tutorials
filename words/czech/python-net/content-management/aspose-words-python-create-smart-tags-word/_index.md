@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Výukový program pro Aspose.Words v Pythonu.net"
@@ -239,7 +236,3 @@ Pro další informace si prohlédněte tyto zdroje:
 - **Fórum podpory**Zapojte se do komunity na [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 S tímto komplexním průvodcem jste nyní vybaveni k využití Aspose.Words pro Python k vytváření a správě inteligentních tagů ve vašich dokumentech Word. Přejeme vám příjemné programování!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

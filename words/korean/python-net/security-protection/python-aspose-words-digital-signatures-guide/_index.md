@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words를 사용하여 Python 문서에서 디지털 서명을 로드, 액세스 및 검증하는 방법을 알아보세요. 이 가이드에서는 문서의 진위 여부를 확인하는 단계별 지침을 제공합니다."
@@ -197,7 +194,3 @@ print(f"Subject Name: {subject_name}")
 - **지원 포럼**: https://forum.aspose.com/c/words/10
 
 Aspose.Words for Python을 사용하여 디지털 서명을 처리하는 데 필요한 지식과 기술을 더욱 향상시켜 줄 다음 리소스를 살펴보세요. 즐거운 코딩 되세요!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

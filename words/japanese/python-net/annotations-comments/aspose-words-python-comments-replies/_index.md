@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python で Aspose.Words ライブラリを使用して、Word 文書にコメントや返信をプログラムで追加、管理、取得する方法を学習します。"
@@ -245,7 +242,3 @@ Aspose.Words for Pythonは、様々なドキュメントワークフローに統
 3. **学術協力**学術論文の著者と査読者間のフィードバック ループを促進します。
 
 この包括的なガイドは、Aspose.Words for Python を使用して Word 文書にコメントと返信の管理を効果的に実装するのに役立ちます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

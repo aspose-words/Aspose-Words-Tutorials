@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Optimize Document Views with Aspose.Words in Python&#58; Enhance User Experience by Customizing View Settings"
 description: "Learn how to customize document views using Aspose.Words for Python. Set zoom levels, display options, and more to enhance user experience."
@@ -242,7 +239,3 @@ Optimizing performance when using Aspose.Words involves:
 
 ## Conclusion
 By following this guide, you can leverage Aspose.Words for Python to customize document views effectively. This not only enhances user experience but also provides flexibility in how documents are presented across different platforms.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

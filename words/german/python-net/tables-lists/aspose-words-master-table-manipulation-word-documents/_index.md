@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words für Python Tabellenspalten in Word-Dokumenten nahtlos entfernen, einfügen und konvertieren. Optimieren Sie Ihre Dokumentbearbeitungsaufgaben effizient."
@@ -152,7 +149,3 @@ Weitere Informationen finden Sie in diesen Ressourcen:
 - [Kostenlose Testversion](https://releases.aspose.com/words/python/)
 - [Antrag auf eine temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 - [Support-Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

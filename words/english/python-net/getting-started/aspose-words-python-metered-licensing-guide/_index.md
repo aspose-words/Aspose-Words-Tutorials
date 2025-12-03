@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Metered Licensing Guide for Aspose.Words in Python&#58; Efficient Document Usage Tracking"
 description: "Learn how to implement metered licensing with Aspose.Words for Python to efficiently track and manage document usage within your applications."
@@ -181,7 +178,3 @@ A5: Usage data is not sent in real-time, so some delay may occur in updates.
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Embark on your journey with Aspose.Words for Python today and take full advantage of metered licensing to optimize your document processing needs!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

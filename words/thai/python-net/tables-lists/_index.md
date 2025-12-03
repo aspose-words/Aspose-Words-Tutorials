@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "พัฒนาทักษะการประมวลผลเอกสารของคุณด้วยบทช่วยสอน Aspose.Words ที่เน้นที่ตารางและรายการใน Python-net เหมาะสำหรับนักพัฒนาที่กำลังมองหาข้อมูลเชิงลึกที่ใช้งานได้จริง"
 "title": "Aspose.Words Python-net&#58; บทช่วยสอนเกี่ยวกับตารางและรายการหลัก"
@@ -48,7 +45,3 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

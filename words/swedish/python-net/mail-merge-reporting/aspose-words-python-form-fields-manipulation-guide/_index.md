@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Bemästra automatiserad dokumenthantering i Python med hjälp av Aspose.Words. Lär dig hur du manipulerar formulärfält, inklusive kombinationsrutor och textinmatning, med vår omfattande guide."
@@ -261,7 +258,3 @@ doc.save(filnamn="DIN_DOKUMENTKATALOG/Formulärfält.HanteraNedrullningsbaraFör
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

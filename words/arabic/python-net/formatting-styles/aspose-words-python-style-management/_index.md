@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تحسين أنماط المستندات باستخدام Aspose.Words لـ Python. أزل الأنماط غير المستخدمة والمكررة، وحسّن سير عملك، وحسّن الأداء."
@@ -189,7 +186,3 @@ license.set_license("path/to/your/license.lic")
 - [توثيق Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [تنزيل Aspose.Words لـ Python](https://releases.aspose.com/words/python/)
 - [صفحة الشراء](https://purchase.aspose.com/buy)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tự động tóm tắt và dịch AI bằng Aspose.Words cho Python và OpenAI. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế."
@@ -215,7 +212,3 @@ Sẵn sàng áp dụng kiến thức này vào thực tế? Hãy thử triển k
 - "Tóm tắt AI Python"
 - "Bản dịch Aspose.Words"
 - "Xử lý tài liệu OpenAI"
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

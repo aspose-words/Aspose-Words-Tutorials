@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Изучите наши 10 лучших руководств по оптимизации и повышению производительности с помощью Aspose.Words для Python-net. Идеально подходит для разработчиков, ищущих практическое руководство."
 "title": "Повышение производительности Python-net с помощью учебных пособий Aspose.Words"
@@ -64,7 +61,3 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

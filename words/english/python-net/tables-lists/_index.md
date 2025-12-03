@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Aspose.Words Python-net: Master Tables & Lists Tutorials"
 description: "Enhance your document processing skills with Aspose.Words tutorials focused on tables and lists in Python-net. Perfect for developers seeking practical, actionable insights."
@@ -47,7 +44,3 @@ Learn how to efficiently merge table cells in Python using Aspose.Words. This gu
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

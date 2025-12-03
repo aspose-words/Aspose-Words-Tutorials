@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Εξερευνήστε τρία εξειδικευμένα εκπαιδευτικά σεμινάρια σχετικά με τη διαχείριση ιδιοτήτων και μεταδεδομένων εγγράφων χρησιμοποιώντας το Aspose.Words για Python-net. Βελτιώστε τις δεξιότητές σας στον χειρισμό βασικών χαρακτηριστικών εγγράφων."
 "title": "Ιδιότητες και μεταδεδομένα κύριου εγγράφου με το Aspose.Words - Εκπαιδευτικά σεμινάρια Python-net"
@@ -43,7 +40,3 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

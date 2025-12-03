@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně spravovat a sledovat revize dokumentů pomocí Aspose.Words v Pythonu. Tento tutoriál se zabývá nastavením, metodami sledování a tipy pro bezproblémovou správu revizí."
@@ -130,7 +127,3 @@ Nyní jste zvládli umění sledování revizí inline uzlů pomocí Aspose.Word
 - [Bezplatná zkušební verze a dočasné licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 Doufáme, že vám tento průvodce pomůže efektivně spravovat revize dokumentů pomocí Aspose.Words v Pythonu. Přejeme vám příjemné programování!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

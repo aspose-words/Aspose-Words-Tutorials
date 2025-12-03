@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u documentweergaven kunt aanpassen met Aspose.Words voor Python. Stel zoomniveaus, weergaveopties en meer in om de gebruikerservaring te verbeteren."
@@ -237,7 +234,3 @@ Prestatieoptimalisatie bij het gebruik van Aspose.Words omvat:
 
 ## Conclusie
 Door deze handleiding te volgen, kunt u Aspose.Words voor Python gebruiken om documentweergaven effectief aan te passen. Dit verbetert niet alleen de gebruikerservaring, maar biedt ook flexibiliteit in de manier waarop documenten op verschillende platforms worden gepresenteerd.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

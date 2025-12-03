@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Domine Aspose.Words para Python-net con nuestros tutoriales sobre combinación de correspondencia e informes. Mejore sus habilidades de automatización de documentos y agilice sus procesos de generación de informes de datos."
 "title": "Tutoriales de Python-net para combinar correspondencia e informes de Aspose.Words"
@@ -40,7 +37,3 @@ Aprenda a dominar la fusión de documentos con Aspose.Words en Python, centránd
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

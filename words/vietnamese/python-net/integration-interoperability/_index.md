@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Làm chủ Aspose.Words với các hướng dẫn Python-net tập trung vào tích hợp và khả năng tương tác. Nâng cao kỹ năng xử lý tài liệu của bạn để có tương tác phần mềm liền mạch."
 "title": "Hướng dẫn tích hợp và khả năng tương tác của Aspose.Words Python-net"
@@ -43,7 +40,3 @@ Tìm hiểu cách tự động hóa các dự án VBA của Microsoft Word bằn
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

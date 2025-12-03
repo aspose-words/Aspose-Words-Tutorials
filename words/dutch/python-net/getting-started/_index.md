@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek essentiële tutorials om aan de slag te gaan met Aspose.Words met Python-net. Perfect voor ontwikkelaars die de mogelijkheden voor documentverwerking willen verbeteren."
 "title": "Aan de slag met Aspose.Words voor Python-net&#58; essentiële tutorials"
@@ -39,7 +36,3 @@ Een codetutorial voor Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

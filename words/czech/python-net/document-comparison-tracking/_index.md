@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Prozkoumejte náš komplexní tutoriál Aspose.Words pro vývojáře v Pythonu. Naučte se, jak efektivně porovnávat a sledovat změny v dokumentech pomocí výkonných nástrojů."
 "title": "Porovnání a sledování hlavních dokumentů pomocí Aspose.Words v Pythonu-net"
@@ -36,7 +33,3 @@ Naučte se, jak efektivně spravovat a sledovat revize dokumentů pomocí Aspose
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

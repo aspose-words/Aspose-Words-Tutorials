@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python ile Word belgelerindeki tablo sütunlarını sorunsuz bir şekilde nasıl kaldıracağınızı, ekleyeceğinizi ve dönüştüreceğinizi öğrenin. Belge düzenleme görevlerinizi verimli bir şekilde kolaylaştırın."
@@ -152,7 +149,3 @@ Daha detaylı araştırma için şu kaynaklara bakın:
 - [Ücretsiz Deneme Sürümü](https://releases.aspose.com/words/python/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 - [Destek Forumu](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

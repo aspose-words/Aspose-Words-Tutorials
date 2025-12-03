@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du begränsar rubriknivåer och tillämpar digitala signaturer i XPS-dokument med Aspose.Words för Python, vilket förbättrar dokumentsäkerhet och navigering."
@@ -188,7 +185,3 @@ Redo att ta nästa steg? Utforska vidare genom att integrera Aspose.Words med an
 **F1: Hur säkerställer jag att mina digitala signaturer är säkra med Aspose.Words?**
 - Se till att du använder en betrodd certifikatutfärdare för att erhålla dina digitala certifikat.
 - Uppdatera och hantera dina nycklar och lösenord regelbundet på ett säkert sätt.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

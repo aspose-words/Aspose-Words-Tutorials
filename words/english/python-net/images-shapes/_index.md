@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Aspose.Words Python-net: Mastering Images & Shapes Tutorials"
 description: "Explore top Aspose.Words tutorials on integrating images and shapes using Python-net. Enhance your document automation skills with practical guides."
@@ -42,7 +39,3 @@ Learn how to optimize SVG output using Aspose.Words for Python. This guide cover
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

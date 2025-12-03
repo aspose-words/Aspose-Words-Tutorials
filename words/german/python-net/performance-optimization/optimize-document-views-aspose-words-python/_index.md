@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie Dokumentansichten mit Aspose.Words für Python anpassen. Legen Sie Zoomstufen, Anzeigeoptionen und mehr fest, um das Benutzererlebnis zu verbessern."
@@ -237,7 +234,3 @@ Die Leistungsoptimierung bei der Verwendung von Aspose.Words umfasst:
 
 ## Abschluss
 Mit dieser Anleitung können Sie Aspose.Words für Python nutzen, um Dokumentansichten effektiv anzupassen. Dies verbessert nicht nur die Benutzerfreundlichkeit, sondern bietet auch Flexibilität bei der Präsentation von Dokumenten auf verschiedenen Plattformen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

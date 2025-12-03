@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Изучите лучшие руководства Aspose.Words по интеграции изображений и фигур с использованием Python-net. Улучшите свои навыки автоматизации документов с помощью практических руководств."
 "title": "Aspose.Words Python-net&#58; Учебники по работе с изображениями и фигурами"
@@ -43,7 +40,3 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

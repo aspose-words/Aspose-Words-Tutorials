@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 管理和优化 Word 文档中的用户信息字段。使用 AI 摘要技术增强数据处理能力。"
@@ -141,7 +138,3 @@ A5: Aspose.Words 虽然支持多种字段，但文档较大时性能可能会有
 - [免费试用版下载](https://releases.aspose.com/words/python/)
 - [临时许可证信息](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

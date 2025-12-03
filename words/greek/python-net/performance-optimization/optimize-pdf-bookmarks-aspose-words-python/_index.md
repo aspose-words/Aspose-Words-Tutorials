@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ένα σεμινάριο κώδικα για το Aspose.Words Python-net"
@@ -183,7 +180,3 @@ outline_levels.clear()
 - **Υποστήριξη**Λάβετε βοήθεια από την κοινότητα στο [Φόρουμ Aspose](https://forum.aspose.com/c/words/10)
 
 Αυτός ο οδηγός σας έχει εξοπλίσει με τις γνώσεις για τη βελτιστοποίηση σελιδοδεικτών PDF χρησιμοποιώντας το Aspose.Words για Python. Καλή κωδικοποίηση!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

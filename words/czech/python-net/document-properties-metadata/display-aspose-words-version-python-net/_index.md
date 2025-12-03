@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak ověřit nainstalovanou verzi Aspose.Words pro Python přes .NET. Tato příručka se zabývá instalací, načtením informací o verzi a praktickými aplikacemi."
@@ -147,7 +144,3 @@ Pro další informace a podporu se podívejte na tyto zdroje:
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 S těmito nástroji jste dobře vybaveni k efektivní správě instalací Aspose.Words. Přejeme vám šťastné programování!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

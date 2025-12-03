@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "學習使用 Aspose.Words for Python 優化 HTML 文件。管理 VML 圖形、安全加密文件並輕鬆處理表單元素。"
@@ -202,7 +199,3 @@ def test_ignore_noscript_elements():
 
 **Q：如何處理包含 VML 元素的大型 HTML 檔案？**
 答：使用批次和選擇性載入來有效地管理資源使用。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

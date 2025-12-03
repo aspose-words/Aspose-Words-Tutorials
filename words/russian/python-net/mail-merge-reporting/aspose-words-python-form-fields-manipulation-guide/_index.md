@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Освойте автоматизированную обработку документов в Python с помощью Aspose.Words. Узнайте, как манипулировать полями форм, включая поля со списком и текстовые поля, с помощью нашего всеобъемлющего руководства."
@@ -261,7 +258,3 @@ doc.save(имя_файла="ВАШ_КАТАЛОГ_ДОКУМЕНТОВ/FormField
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerje meg, hogyan regisztrálhat és törölhet elválasztási szótárakat az Aspose.Words for Python segítségével, ami javítja az olvashatóságot a különböző nyelveken."
@@ -176,7 +173,3 @@ Személyre szabottabb válaszokért tekintse meg a [Aspose Fórum](https://forum
 - **Vásárlás:** [Aspose.Words licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Kezdje ingyenes próbaverzióval](https://releases.aspose.com/words/python/)
 - **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

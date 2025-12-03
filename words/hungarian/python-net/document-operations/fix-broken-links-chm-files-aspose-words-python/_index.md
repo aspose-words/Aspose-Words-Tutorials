@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerje meg, hogyan javíthatja ki a .chm fájlokban található hibás hivatkozásokat a hatékony Aspose.Words könyvtár segítségével. Növelje dokumentumai megbízhatóságát és felhasználói élményét ezzel a lépésről lépésre haladó útmutatóval."
@@ -148,7 +145,3 @@ További segítségért és tájékozódásért:
 - **Letöltés**: [Aspose.Words Python kiadásokhoz](https://releases.aspose.com/words/python/)
 - **Vásárlás és próba**: [Licenc vagy ingyenes próbaverzió beszerzése](https://purchase.aspose.com/buy)
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

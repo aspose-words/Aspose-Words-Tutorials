@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "透過使用 Python 中的 Aspose.Words 建立安全、相容的 DOCX 檔案來掌握文件自動化。了解如何應用安全功能並優化效能。"
@@ -161,7 +158,3 @@ doc.save("compressed.docx", options)
 - **支持和社區**： [Aspose 論壇](https://forum.aspose.com/c/words/10)
 
 現在，透過為您的 Python 專案實施 Aspose.Words 邁出文件自動化的下一步。編碼愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการสร้างและจัดการช่วงที่แก้ไขได้ภายในเอกสารที่ได้รับการป้องกันโดยใช้ Aspose.Words สำหรับ Python ปรับปรุงความสามารถในการจัดการเอกสารของคุณวันนี้"
@@ -167,7 +164,3 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **ฟอรั่มสนับสนุน**- [การสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 ด้วยคู่มือนี้ คุณจะพร้อมที่จะใช้ประโยชน์จากช่วงที่แก้ไขได้ในโครงการจัดการเอกสารของคุณโดยใช้ Aspose.Words สำหรับ Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

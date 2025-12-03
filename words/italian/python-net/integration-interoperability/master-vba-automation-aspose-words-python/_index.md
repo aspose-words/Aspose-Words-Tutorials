@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come automatizzare i progetti VBA di Microsoft Word utilizzando Python. Questa guida illustra la creazione, la clonazione, la verifica dello stato di protezione e la gestione dei riferimenti nei progetti VBA con Aspose.Words."
@@ -187,7 +184,3 @@ Ecco alcuni casi d'uso concreti in cui queste funzionalità sono particolarmente
 1. **Generazione automatica di report**: Crea e gestisci progetti VBA per la generazione automatica di report in ambienti aziendali.
 2. **Duplicazione del modello**: Clonare un modello ben progettato con macro incorporate in più documenti per mantenere la coerenza.
 3. **Audit di sicurezza**: Verificare se i progetti VBA sono protetti da password per garantire la conformità ai protocolli di sicurezza.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

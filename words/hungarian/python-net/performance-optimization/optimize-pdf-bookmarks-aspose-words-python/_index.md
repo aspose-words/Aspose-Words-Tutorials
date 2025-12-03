@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kód oktatóanyag az Aspose.Words Python-nethez"
@@ -183,7 +180,3 @@ Készen állsz PDF-jeid fejlesztésére? Kezdd el alkalmazni ezeket a technikák
 - **Támogatás**Kérjen segítséget a közösségtől a következő címen: [Aspose Fórum](https://forum.aspose.com/c/words/10)
 
 Ez az útmutató felvértez téged a PDF könyvjelzők optimalizálásához szükséges tudással az Aspose.Words for Python használatával. Jó kódolást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

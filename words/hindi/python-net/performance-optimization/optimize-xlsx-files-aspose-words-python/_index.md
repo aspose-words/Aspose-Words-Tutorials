@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python के लिए Aspose.Words का उपयोग करके XLSX फ़ाइलों को संपीड़ित, अनुकूलित और अनुकूलित करना सीखें। फ़ाइल आकार प्रबंधन और दिनांक-समय प्रारूप प्रबंधन को बेहतर बनाएँ।"
@@ -177,7 +174,3 @@ Aspose.Words के साथ कार्य करते समय प्र�
 - **मुफ्त परीक्षण**: [Aspose निःशुल्क आज़माएं](https://releases.aspose.com/words/python/)
 - **अस्थायी लाइसेंस**: [अस्थायी लाइसेंस प्राप्त करें](https://purchase.aspose.com/temporary-license/)
 - **सहायता**: [Aspose फ़ोरम समर्थन](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

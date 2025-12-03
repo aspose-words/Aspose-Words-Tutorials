@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Κατακτήστε την αυτοματοποιημένη διαχείριση εγγράφων σε Python χρησιμοποιώντας το Aspose.Words. Μάθετε πώς να χειρίζεστε πεδία φόρμας, συμπεριλαμβανομένων των συνδυαστικών πλαισίων και των εισαγωγών κειμένου, με τον ολοκληρωμένο οδηγό μας."
@@ -261,7 +258,3 @@ doc.save(όνομα_αρχείου="ΚΑΤΑΛΟΓΟΣ_ΕΓΓΡΑΦΟΥ_ΟΥ/Π�
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

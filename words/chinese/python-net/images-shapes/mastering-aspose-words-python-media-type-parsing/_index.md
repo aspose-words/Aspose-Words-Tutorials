@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 解析媒体类型、加密文件以及验证数字签名。立即提升您的文档处理能力。"
@@ -133,7 +130,3 @@ assert load_format == aw.LoadFormat.DOC
 - **支持论坛**： [Aspose 支持社区](https://forum.aspose.com/c/words/10)
 
 踏上 Aspose.Words for Python 之旅，立即提升您的文档处理能力！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulj meg egyéni, SEO-barát dokumentumstílusokat létrehozni az Aspose.Words for Python segítségével. Növeld az olvashatóságot és a következetességet erőfeszítés nélkül."
@@ -115,7 +112,3 @@ A: Ellenőrizze, hogy a stílusdefiníciók helyesek-e, és keressen-e ütköző
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

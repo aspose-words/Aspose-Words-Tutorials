@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 检测列表并高效管理文本文件。非常适合文档管理系统。"
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **内容分析工具**：从文本文件中提取结构化数据以供进一步分析或报告。
 3. **数据清理任务**：通过管理空格和识别列表元素来标准化文本格式。
 4. **链接验证**：验证一批文本文档中的链接以确保它们是有效的和正确的。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

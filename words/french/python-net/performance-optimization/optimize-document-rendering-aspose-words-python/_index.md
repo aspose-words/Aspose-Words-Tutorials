@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à utiliser Aspose.Words pour Python pour restituer efficacement les pages de documents sous forme de bitmaps et créer des vignettes de haute qualité."
@@ -192,7 +189,3 @@ Pour explorer davantage les capacités d'Aspose.Words, envisagez d'intégrer ces
 
 ## Prochaines étapes
 - Essayez d’implémenter différents paramètres de rendu pour personnaliser la qualité et les performances de sortie.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

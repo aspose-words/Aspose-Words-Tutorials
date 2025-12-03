@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -239,7 +236,3 @@ print(f'Properties count after clearing: {properties.count}')
 - **منتدى الدعم**:التفاعل مع المجتمع على [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 مع هذا الدليل الشامل، أنت الآن جاهز لاستخدام Aspose.Words لـ Python لإنشاء وإدارة العلامات الذكية في مستندات Word. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

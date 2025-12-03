@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إصلاح الروابط المعطلة في ملفات .chm باستخدام مكتبة Aspose.Words الفعّالة. عزّز موثوقية مستنداتك وتجربة المستخدم من خلال هذا الدليل المفصّل."
@@ -148,7 +145,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'ExChmLoadOptions.OriginalFileName.ht
 - **تحميل**: [إصدارات Aspose.Words للغة بايثون](https://releases.aspose.com/words/python/)
 - **الشراء والتجربة**: [احصل على ترخيص أو نسخة تجريبية مجانية](https://purchase.aspose.com/buy)
 - **منتدى الدعم**: [مجتمع دعم Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

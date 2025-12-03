@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية تنسيق الجداول والقوائم في Markdown باستخدام Aspose.Words لـ Python. حسّن سير عمل مستنداتك باستخدام المحاذاة، وأوضاع تصدير القوائم، والمزيد."
@@ -188,7 +185,3 @@
 ## خاتمة
 
 بإتقان Aspose.Words للغة بايثون، يمكنك تحسين قدرتك على إنشاء مستندات Markdown ومعالجتها باستخدام جداول وقوائم معقدة بشكل ملحوظ. سواء كنت تعمل على وثائق تقنية أو مشاريع تعاونية، ستُبسّط هذه الأدوات سير عمل مستنداتك وتُحسّن قابلية قراءتها.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการลบ แทรก และแปลงคอลัมน์ตารางในเอกสาร Word ได้อย่างราบรื่นด้วย Aspose.Words สำหรับ Python ปรับปรุงงานแก้ไขเอกสารของคุณให้มีประสิทธิภาพ"
@@ -152,7 +149,3 @@ print(column.to_txt())
 - [เวอร์ชันทดลองใช้งานฟรี](https://releases.aspose.com/words/python/)
 - [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

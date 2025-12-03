@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à créer des styles de documents personnalisés et optimisés pour le référencement avec Aspose.Words pour Python. Améliorez la lisibilité et la cohérence sans effort."
@@ -115,7 +112,3 @@ R : Vérifiez que vos définitions de style sont correctes et recherchez d’év
 - [Essai gratuit](https://releases.aspose.com/words/python/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

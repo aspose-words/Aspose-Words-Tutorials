@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u lijsten kunt detecteren en tekstbestanden efficiënt kunt beheren met Aspose.Words voor Python. Perfect voor documentbeheersystemen."
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **Hulpmiddelen voor inhoudsanalyse**: Extraheer gestructureerde gegevens uit tekstbestanden voor verdere analyse of rapportage.
 3. **Taken voor het opschonen van gegevens**Standaardiseer de opmaak van tekst door witruimte te beheren en lijstelementen te identificeren.
 4. **Linkverificatie**: Valideer koppelingen in een batch tekstdocumenten om er zeker van te zijn dat ze actief en correct zijn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

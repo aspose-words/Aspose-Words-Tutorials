@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Sajátítsd el az Aspose.Words Python-nethez való használatát körlevelezésről és jelentéskészítésről szóló oktatóanyagaink segítségével. Fejleszd a dokumentumautomatizálási készségeidet és egyszerűsítsd az adatjelentési folyamataidat."
 "title": "Aspose.Words Python-net&#58; Körlevélkészítés és jelentéskészítés oktatóanyagok"
@@ -40,7 +37,3 @@ Tanuld meg, hogyan sajátíthatod el a dokumentumok egyesítését az Aspose.Wor
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Python 中的 Aspose.Words 有效地管理和追蹤文件修訂。本教學涵蓋無縫修訂管理的設定、追蹤方法和效能技巧。"
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [免費試用和臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 我們希望本指南能夠幫助您使用 Python 中的 Aspose.Words 有效地管理文件修訂。編碼愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Samouczek dotyczący kodu dla Aspose.Words Python-net"
@@ -168,7 +165,3 @@ Opanowując ustawienia schematu ODT i konfiguracje jednostek miary za pomocą As
 - **Bezpłatna wersja próbna**:Rozpocznij bezpłatny okres próbny na [Pobieranie Aspose dla Pythona](https://releases.aspose.com/words/python/)
 - **Licencja tymczasowa**: Złóż wniosek tutaj: [Licencja tymczasowa Aspose](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie**:Dołącz do dyskusji na temat [Forum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

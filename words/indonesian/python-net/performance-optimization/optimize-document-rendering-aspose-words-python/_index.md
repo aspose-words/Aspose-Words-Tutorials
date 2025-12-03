@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menggunakan Aspose.Words untuk Python untuk merender halaman dokumen sebagai bitmap secara efisien dan membuat gambar mini berkualitas tinggi."
@@ -192,7 +189,3 @@ Untuk lebih mengeksplorasi kemampuan Aspose.Words, pertimbangkan untuk menginteg
 
 ## Langkah Berikutnya
 - Cobalah menerapkan pengaturan rendering yang berbeda untuk menyesuaikan kualitas dan kinerja output.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 在受保护的文档中创建和管理可编辑区域。立即提升您的文档管理能力。"
@@ -167,7 +164,3 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **支持论坛**： [Aspose 支持](https://forum.aspose.com/c/words/10)
 
 通过本指南，您可以使用 Aspose.Words for Python 在文档管理项目中充分发挥可编辑范围的强大功能！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengelola dan melacak revisi dokumen secara efisien menggunakan Aspose.Words dalam Python. Tutorial ini mencakup penyiapan, metode pelacakan, dan kiat performa untuk manajemen revisi yang lancar."
@@ -130,7 +127,3 @@ Anda kini telah menguasai seni melacak revisi node sebaris menggunakan Aspose.Wo
 - [Uji Coba Gratis dan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
 Kami harap panduan ini membantu Anda mengelola revisi dokumen secara efektif menggunakan Aspose.Words dalam Python. Selamat membuat kode!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

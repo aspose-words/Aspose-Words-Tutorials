@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Unlock the Power of Document Automation&#58; Creating Secure and Compliant DOCX Files with Aspose.Words in Python"
 description: "Master document automation by creating secure, compliant DOCX files using Aspose.Words in Python. Learn how to apply security features and optimize performance."
@@ -166,8 +163,3 @@ A: Regularly check and renew your licenses. Keep a backup of your license file i
 - **Support and Community**: [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Now, take the next step in document automation by implementing Aspose.Words for your Python projects. Happy coding!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

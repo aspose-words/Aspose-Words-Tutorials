@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Aprimore suas habilidades de processamento de documentos com os tutoriais do Aspose.Words focados em tabelas e listas em Python-net. Perfeito para desenvolvedores que buscam insights práticos e acionáveis."
 "title": "Aspose.Words Python-net&#58; Tutoriais de Tabelas e Listas Mestres"
@@ -48,7 +45,3 @@ Aprenda a mesclar células de tabela com eficiência em Python usando Aspose.Wor
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

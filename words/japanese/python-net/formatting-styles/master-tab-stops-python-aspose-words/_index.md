@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Wordsを使用してPythonドキュメント内のタブストップを効果的に管理する方法を学びましょう。このガイドでは、タブストップの追加、カスタマイズ、削除について、実用的な例を交えて解説します。"
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## 結論
 
 Aspose.Wordsを使用してPythonでタブストップをマスターすれば、プロフェッショナルなフォーマットのドキュメントを簡単に作成できます。このガイドに従うことで、タブストップを効果的に追加、カスタマイズ、管理できるようになり、テキストベースの出力の全体的な品質を向上させることができます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

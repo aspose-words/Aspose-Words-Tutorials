@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words का उपयोग करके Python में PDF लोड करते समय छवियों को कुशलतापूर्वक छोड़ना सीखें। एप्लिकेशन प्रदर्शन को बेहतर बनाएँ और संसाधन उपयोग को अनुकूलित करें।"
@@ -139,7 +136,3 @@ Aspose.Words के बारे में अधिक जानकारी �
 - [Aspose.Words का निःशुल्क परीक्षण](https://releases.aspose.com/words/python/)
 - [अस्थायी लाइसेंस अधिग्रहण](https://purchase.aspose.com/temporary-license/)
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

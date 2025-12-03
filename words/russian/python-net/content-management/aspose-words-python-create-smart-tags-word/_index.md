@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Учебник по коду для Aspose.Words Python-net"
@@ -239,7 +236,3 @@ print(f'Properties count after clearing: {properties.count}')
 - **Форум поддержки**: Взаимодействуйте с сообществом [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Благодаря этому всеобъемлющему руководству вы теперь готовы использовать Aspose.Words для Python для создания и управления смарт-тегами в документах Word. Удачного кодирования!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

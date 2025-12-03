@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Học cách tối ưu hóa tài liệu HTML bằng Aspose.Words cho Python. Quản lý đồ họa VML, mã hóa tài liệu an toàn và xử lý các thành phần biểu mẫu dễ dàng."
@@ -202,7 +199,3 @@ Bây giờ bạn đã hiểu rõ cách sử dụng Aspose.Words for Python để
 
 **H: Làm thế nào để xử lý các tệp HTML lớn với các phần tử VML?**
 A: Sử dụng xử lý hàng loạt và tải chọn lọc để quản lý việc sử dụng tài nguyên một cách hiệu quả.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

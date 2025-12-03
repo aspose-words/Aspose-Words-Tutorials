@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Учебник по коду для Aspose.Words Python-net"
@@ -168,7 +165,3 @@ doc.save('path/to/encrypted_output.odt', save_options)
 - **Бесплатная пробная версия**: Начните с бесплатной пробной версии на [Загрузки Aspose для Python](https://releases.aspose.com/words/python/)
 - **Временная лицензия**: Подать заявку можно здесь: [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)
 - **Поддерживать**: Присоединяйтесь к обсуждению [Форум Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

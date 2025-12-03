@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně spravovat zarážky tabulátoru v dokumentech Pythonu pomocí Aspose.Words. Tato příručka se zabývá přidáváním, úpravou a odebíráním zarážek tabulátoru s praktickými příklady."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Závěr
 
 Zvládnutí zarážek tabulátoru v Pythonu pomocí Aspose.Words vám umožní snadno vytvářet profesionálně formátované dokumenty. Dodržováním tohoto návodu můžete efektivně přidávat, upravovat a spravovat zarážky tabulátoru, čímž zvýšíte celkovou kvalitu vašich textových výstupů.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

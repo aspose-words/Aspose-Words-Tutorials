@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Förbättra dina dokumentbehandlingsfärdigheter med Aspose.Words-handledningar fokuserade på tabeller och listor i Python-net. Perfekt för utvecklare som söker praktiska och handlingsbara insikter."
 "title": "Aspose.Words Python-net&#58; Handledningar för att behärska tabeller och listor"
@@ -48,7 +45,3 @@ Lär dig hur du effektivt sammanfogar tabellceller i Python med hjälp av Aspose
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

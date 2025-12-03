@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Wordsを使ってPythonで表のセルを効率的に結合する方法を学びましょう。このガイドでは、垂直方向と水平方向の結合、パディング設定、そして実用的な応用例を解説します。"
@@ -216,7 +213,3 @@ Aspose.Words を使用する場合:
 - [無料トライアル](https://releases.aspose.com/words/python/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 - [サポートフォーラム](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

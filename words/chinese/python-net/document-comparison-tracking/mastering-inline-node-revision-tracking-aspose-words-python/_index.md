@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Python 中的 Aspose.Words 高效地管理和跟踪文档修订。本教程涵盖无缝修订管理的设置、跟踪方法和性能技巧。"
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [免费试用和临时许可证](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
 我们希望本指南能够帮助您使用 Python 中的 Aspose.Words 高效地管理文档修订。祝您编码愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

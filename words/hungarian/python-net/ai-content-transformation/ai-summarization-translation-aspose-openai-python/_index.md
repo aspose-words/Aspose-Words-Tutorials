@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan automatizálhatod a mesterséges intelligencia általi összefoglalást és fordítást az Aspose.Words Pythonhoz és OpenAI-hoz készült változatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti."
@@ -215,7 +212,3 @@ Készen állsz arra, hogy ezt a tudást a gyakorlatba is átültesd? Próbáld k
 - "Mesterséges intelligencia összefoglaló Pythonban"
 - "Aspose.Words fordítás"
 - "OpenAI dokumentumfeldolgozás"
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

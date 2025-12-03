@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come gestire efficacemente le tabulazioni nei tuoi documenti Python usando Aspose.Words. Questa guida illustra come aggiungere, personalizzare e rimuovere le tabulazioni con esempi pratici."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusione
 
 Padroneggiare le tabulazioni in Python usando Aspose.Words ti permette di creare documenti formattati professionalmente con facilità. Seguendo questa guida, puoi aggiungere, personalizzare e gestire le tabulazioni in modo efficace, migliorando la qualità complessiva dei tuoi output testuali.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

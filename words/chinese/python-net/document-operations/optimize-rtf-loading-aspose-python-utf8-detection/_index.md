@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 高效加载 RTF 文档并检测 UTF-8 编码。提升项目中文本处理的准确性。"
@@ -141,7 +138,3 @@ doc = aw.Document("UTF-8 characters.rtf", load_options)
 - [免费试用版](https://releases.aspose.com/words/python/)
 - [临时执照申请](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

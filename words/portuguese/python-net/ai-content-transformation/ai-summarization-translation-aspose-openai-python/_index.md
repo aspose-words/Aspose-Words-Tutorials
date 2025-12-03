@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a automatizar a sumarização e a tradução de IA usando o Aspose.Words para Python e OpenAI. Este guia aborda configuração, implementação e aplicações práticas."
@@ -215,7 +212,3 @@ Pronto para colocar esse conhecimento em prática? Experimente implementar a sol
 - "Sumarização de IA em Python"
 - "Tradução Aspose.Words"
 - "Processamento de documentos OpenAI"
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

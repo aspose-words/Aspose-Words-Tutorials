@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как создавать и управлять редактируемыми диапазонами в защищенных документах с помощью Aspose.Words для Python. Расширьте свои возможности управления документами сегодня."
@@ -167,7 +164,3 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **Форум поддержки**: [Поддержка Aspose](https://forum.aspose.com/c/words/10)
 
 Благодаря этому руководству вы будете полностью готовы использовать возможности редактируемых диапазонов в своих проектах по управлению документами с помощью Aspose.Words для Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

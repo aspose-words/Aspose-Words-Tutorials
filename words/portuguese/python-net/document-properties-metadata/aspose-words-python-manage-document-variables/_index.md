@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a gerenciar variáveis de documentos com eficiência usando o Aspose.Words para Python. Este guia aborda como adicionar, atualizar e exibir valores de variáveis em documentos."
@@ -164,7 +161,3 @@ Por que não tentar implementar essas soluções hoje mesmo e ver a diferença e
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/10)
 
 Explore estes recursos para aprimorar ainda mais sua compreensão e implementação do Aspose.Words em Python. Boa programação!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

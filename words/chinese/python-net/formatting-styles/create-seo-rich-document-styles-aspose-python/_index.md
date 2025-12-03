@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习使用 Aspose.Words for Python 创建自定义、SEO 友好的文档样式。轻松提升可读性和一致性。"
@@ -115,7 +112,3 @@ doc.save("StyledDocument.docx")
 - [免费试用](https://releases.aspose.com/words/python/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

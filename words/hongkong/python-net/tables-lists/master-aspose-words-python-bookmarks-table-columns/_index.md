@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "學習使用 Aspose.Words for Python 有效率地插入、刪除和管理書籤和表格列。透過實際範例和效能提示增強您的文件處理能力。"
@@ -143,7 +140,3 @@ Aspose.Words 在刪除書籤方面提供的靈活性可讓您根據需要定位�
    - 是的，Aspose.Words 支援多種格式，包括 DOCX 和 PDF。
 3. **表格列書籤有哪些限制？**
    - 它們只能在具有明確定義的行和列的表格中使用。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

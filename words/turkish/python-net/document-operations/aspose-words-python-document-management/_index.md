@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python'ı kullanarak XPS belgelerinde başlık düzeylerini nasıl sınırlayacağınızı ve dijital imzaları nasıl uygulayacağınızı öğrenin; belge güvenliğini ve gezinmeyi geliştirin."
@@ -188,7 +185,3 @@ Bir sonraki adımı atmaya hazır mısınız? Aspose.Words'ü diğer sistemlerle
 **S1: Dijital imzalarımın Aspose.Words ile güvenli olduğundan nasıl emin olabilirim?**
 - Dijital sertifikalarınızı alırken güvenilir bir sertifika otoritesi kullandığınızdan emin olun.
 - Anahtarlarınızı ve parolalarınızı düzenli olarak güncelleyin ve güvenli bir şekilde yönetin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

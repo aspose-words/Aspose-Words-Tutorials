@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words kullanarak Python'da otomatik belge işleme konusunda uzmanlaşın. Kapsamlı rehberimizle birleşik kutular ve metin girişleri dahil olmak üzere form alanlarını nasıl yöneteceğinizi öğrenin."
@@ -261,7 +258,3 @@ doc.save(file_name="BELGE_DİZİNİNİZ/FormFields.ManageDropDownItems.html")
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

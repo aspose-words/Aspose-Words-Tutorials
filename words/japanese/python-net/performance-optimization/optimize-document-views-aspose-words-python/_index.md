@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用してドキュメントビューをカスタマイズする方法を学びましょう。ズームレベルや表示オプションなどを設定して、ユーザーエクスペリエンスを向上させましょう。"
@@ -237,7 +234,3 @@ Aspose.Words を使用する際のパフォーマンスの最適化には次の�
 
 ## 結論
 このガイドに従うことで、Aspose.Words for Python を活用してドキュメントビューを効果的にカスタマイズできます。これにより、ユーザーエクスペリエンスが向上するだけでなく、異なるプラットフォーム間でドキュメントを表示する柔軟性も向上します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

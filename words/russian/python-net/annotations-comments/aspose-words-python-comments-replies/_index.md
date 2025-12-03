@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как программно добавлять, управлять и извлекать комментарии и ответы в документах Word с помощью библиотеки Aspose.Words и Python."
@@ -245,7 +242,3 @@ Aspose.Words для Python можно интегрировать в различ
 3. **Академическое сотрудничество**: Содействовать обратной связи между авторами и рецензентами научных статей.
 
 Это подробное руководство поможет вам эффективно реализовать управление комментариями и ответами в документах Word с помощью Aspose.Words для Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

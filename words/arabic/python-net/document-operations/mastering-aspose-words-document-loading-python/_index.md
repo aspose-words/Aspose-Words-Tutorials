@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -181,7 +178,3 @@ A1: على الرغم من أن Aspose.Words لا يتعامل بشكل أصلي
 - **يدعم:** [منتدى Aspose - قسم الكلمات](https://forum.aspose.com/c/words/10)
 
 باتباع هذا الدليل، ستكون على الطريق الصحيح لإدارة مهام تحميل المستندات بكفاءة باستخدام Aspose.Words في بايثون. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

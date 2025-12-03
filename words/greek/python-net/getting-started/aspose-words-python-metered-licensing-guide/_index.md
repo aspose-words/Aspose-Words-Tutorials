@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να εφαρμόζετε άδειες χρήσης με μετρητή με το Aspose.Words για Python για να παρακολουθείτε και να διαχειρίζεστε αποτελεσματικά τη χρήση εγγράφων στις εφαρμογές σας."
@@ -176,7 +173,3 @@ A5: Τα δεδομένα χρήσης δεν αποστέλλονται σε π
 - **Υποστήριξη**: [Φόρουμ Aspose](https://forum.aspose.com/c/words/10)
 
 Ξεκινήστε το ταξίδι σας με το Aspose.Words για Python σήμερα και αξιοποιήστε πλήρως την ογκομετρική αδειοδότηση για να βελτιστοποιήσετε τις ανάγκες επεξεργασίας εγγράφων σας!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

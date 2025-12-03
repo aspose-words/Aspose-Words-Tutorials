@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการข้ามรูปภาพอย่างมีประสิทธิภาพขณะโหลด PDF ใน Python โดยใช้ Aspose.Words ปรับปรุงประสิทธิภาพของแอปพลิเคชันและปรับการใช้ทรัพยากรให้เหมาะสม"
@@ -139,7 +136,3 @@ skip_pdf_images_demo()
 - [ทดลองใช้ Aspose.Words ฟรี](https://releases.aspose.com/words/python/)
 - [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

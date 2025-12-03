@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python kullanarak HTML belgelerini optimize etmeyi öğrenin. VML grafiklerini yönetin, belgeleri güvenli bir şekilde şifreleyin ve form öğelerini zahmetsizce işleyin."
@@ -202,7 +199,3 @@ Artık Aspose.Words for Python'un HTML belgelerinde VML desteği, şifreleme ve 
 
 **S: VML öğeleri içeren büyük HTML dosyalarını nasıl işlerim?**
 A: Kaynak kullanımını verimli bir şekilde yönetmek için toplu işleme ve seçici yüklemeyi kullanın.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

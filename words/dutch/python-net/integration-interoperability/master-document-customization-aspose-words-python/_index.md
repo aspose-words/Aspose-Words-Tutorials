@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u documenten in Python programmatisch kunt aanpassen met Aspose.Words door paginakleuren in te stellen, knooppunten met aangepaste stijlen te importeren en achtergrondvormen toe te passen."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Conclusie
 
 Door deze functies van Aspose.Words voor Python onder de knie te krijgen, kunt u de aanpassingsmogelijkheden van uw documentverwerkingsworkflows aanzienlijk verbeteren. Of het nu gaat om het instellen van uniforme achtergrondkleuren, het importeren van knooppunten met aangepaste stijlen of het toepassen van geavanceerde achtergrondvormen, deze handleiding biedt een solide basis om uw documentbeheer te verbeteren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u kopniveaus kunt beperken en digitale handtekeningen kunt toepassen in XPS-documenten met Aspose.Words voor Python, waarmee u de beveiliging en navigatie van documenten verbetert."
@@ -188,7 +185,3 @@ Klaar voor de volgende stap? Ontdek verder door Aspose.Words te integreren met a
 **V1: Hoe zorg ik ervoor dat mijn digitale handtekeningen veilig zijn met Aspose.Words?**
 - Zorg ervoor dat u een vertrouwde certificeringsinstantie gebruikt voor het verkrijgen van uw digitale certificaten.
 - Werk uw sleutels en wachtwoorden regelmatig bij en beheer ze op een veilige manier.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

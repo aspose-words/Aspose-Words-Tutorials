@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u bewerkbare bereiken in beveiligde documenten kunt maken en beheren met Aspose.Words voor Python. Verbeter uw documentbeheermogelijkheden vandaag nog."
@@ -167,7 +164,3 @@ Ontdek de meer geavanceerde functies van Aspose.Words of integreer deze function
 - **Ondersteuningsforum**: [Aspose-ondersteuning](https://forum.aspose.com/c/words/10)
 
 Met deze handleiding bent u goed toegerust om de kracht van bewerkbare bereiken in uw documentbeheerprojecten te benutten met Aspose.Words voor Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

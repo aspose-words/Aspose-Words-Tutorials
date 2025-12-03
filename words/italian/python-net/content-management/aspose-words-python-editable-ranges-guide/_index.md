@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come creare e gestire intervalli modificabili all'interno di documenti protetti utilizzando Aspose.Words per Python. Migliora subito le tue capacità di gestione dei documenti."
@@ -167,7 +164,3 @@ Esplora le funzionalità più avanzate di Aspose.Words o integra questa funziona
 - **Forum di supporto**: [Supporto Aspose](https://forum.aspose.com/c/words/10)
 
 Grazie a questa guida sarai pronto a sfruttare la potenza degli intervalli modificabili nei tuoi progetti di gestione dei documenti utilizzando Aspose.Words per Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

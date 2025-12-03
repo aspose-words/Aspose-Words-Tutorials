@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a automatizar la síntesis y la traducción de IA con Aspose.Words para Python y OpenAI. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas."
@@ -215,7 +212,3 @@ Ya aprendiste a implementar la función de resumen y traducción de IA con Aspos
 - Resumen de IA en Python
 - Traducción de Aspose.Words
 - Procesamiento de documentos con OpenAI
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

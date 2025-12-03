@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Um tutorial de código para Aspose.Words Python-net"
@@ -183,7 +180,3 @@ Pronto para aprimorar seus PDFs? Comece a implementar essas técnicas hoje mesmo
 - **Apoiar**Obtenha ajuda da comunidade em [Fórum Aspose](https://forum.aspose.com/c/words/10)
 
 Este guia equipou você com o conhecimento necessário para otimizar marcadores de PDF usando o Aspose.Words para Python. Boa programação!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

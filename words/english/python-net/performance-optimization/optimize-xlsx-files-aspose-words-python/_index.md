@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Optimize Excel Files with Aspose.Words for Python&#58; Compression and Customization Techniques"
 description: "Learn how to compress, customize, and optimize XLSX files using Aspose.Words for Python. Enhance file size management and date-time format handling."
@@ -182,8 +179,3 @@ Explore further by integrating these features into larger applications or system
 - **Free Trial**: [Try Aspose Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum Support](https://forum.aspose.com/c/words/10)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

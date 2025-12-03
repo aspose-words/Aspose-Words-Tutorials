@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words für Python Silbentrennungswörterbücher registrieren und deren Registrierung aufheben und so die Lesbarkeit in verschiedenen Sprachen verbessern."
@@ -176,7 +173,3 @@ Weitere maßgeschneiderte Antworten finden Sie im [Aspose Forum](https://forum.a
 - **Kaufen:** [Aspose.Words-Lizenz kaufen](https://purchase.aspose.com/buy)
 - **Kostenlose Testversion:** [Beginnen Sie mit einer kostenlosen Testversion](https://releases.aspose.com/words/python/)
 - **Temporäre Lizenz:** [Fordern Sie eine temporäre Lizenz an](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

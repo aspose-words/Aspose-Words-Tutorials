@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلم كيفية تحسين مستندات HTML باستخدام Aspose.Words لـ Python. أدر رسومات VML، وتشفير المستندات بأمان، ومعالجة عناصر النماذج بسهولة."
@@ -202,7 +199,3 @@ def test_ignore_noscript_elements():
 
 **س: كيف أتعامل مع ملفات HTML الكبيرة باستخدام عناصر VML؟**
 أ: استخدم معالجة الدفعات والتحميل الانتقائي لإدارة استخدام الموارد بكفاءة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

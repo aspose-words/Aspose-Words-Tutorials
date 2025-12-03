@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 建立動態文件邊框。掌握文字和表格邊框樣式的技巧。"
@@ -270,7 +267,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## 結論
 透過掌握 Aspose.Words for Python 的這些技術，您可以建立具有動態邊框的專業外觀文件。本指南為進一步探索圖書館的功能提供了堅實的基礎。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

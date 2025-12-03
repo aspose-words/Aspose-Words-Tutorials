@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "सामग्री प्रबंधन के लिए Python-net पर हमारे व्यापक Aspose.Words ट्यूटोरियल देखें। दस्तावेज़ प्रबंधन और स्वचालन कौशल को बढ़ाने के इच्छुक डेवलपर्स के लिए बिल्कुल सही।"
 "title": "Aspose.Words पायथन-नेट ट्यूटोरियल&#58; सामग्री प्रबंधन गाइड"
@@ -46,7 +43,3 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

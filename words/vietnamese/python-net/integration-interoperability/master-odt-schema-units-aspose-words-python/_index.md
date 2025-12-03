@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -168,7 +165,3 @@ Bằng cách nắm vững các thiết lập lược đồ ODT và cấu hình �
 - **Dùng thử miễn phí**: Bắt đầu với bản dùng thử miễn phí tại [Tải xuống Aspose cho Python](https://releases.aspose.com/words/python/)
 - **Giấy phép tạm thời**: Nộp đơn tại đây: [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**:Tham gia thảo luận trên [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

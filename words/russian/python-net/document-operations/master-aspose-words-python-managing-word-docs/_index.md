@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Научитесь загружать, управлять и автоматизировать документы Microsoft Word с помощью Aspose.Words на Python. Оптимизируйте задачи по обработке документов без усилий."
@@ -198,7 +195,3 @@
 - Извлечение метаданных для анализа данных или архивирования.
 
 Следуя этому руководству, вы будете хорошо подготовлены к эффективному управлению документами Word с помощью Aspose.Words в Python. Продолжайте изучать обширные функции библиотеки, чтобы оптимизировать рабочие процессы управления документами.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

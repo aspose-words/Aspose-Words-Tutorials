@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net 개발자를 위한 포괄적인 Aspose.Words 튜토리얼을 살펴보세요. 강력한 도구를 사용하여 문서 변경 사항을 효율적으로 비교하고 추적하는 방법을 알아보세요."
 "title": "Python-net에서 Aspose.Words를 활용한 마스터 문서 비교 및 추적"
@@ -36,7 +33,3 @@ Python에서 Aspose.Words를 사용하여 문서 수정 사항을 효율적으�
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

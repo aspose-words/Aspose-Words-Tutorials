@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u Microsoft Word VBA-projecten kunt automatiseren met Python. Deze handleiding behandelt het maken, klonen, controleren van de beveiligingsstatus en het beheren van verwijzingen in VBA-projecten met Aspose.Words."
@@ -187,7 +184,3 @@ Hier zijn enkele praktijkvoorbeelden waarin deze functies uitstekend tot hun rec
 1. **Geautomatiseerde rapportgeneratie**: Maak en beheer VBA-projecten voor automatische rapportgeneratie in bedrijfsomgevingen.
 2. **Sjabloonduplicatie**:Kloon een goed ontworpen sjabloon met ingesloten macro's naar meerdere documenten om consistentie te behouden.
 3. **Beveiligingsaudits**: Controleer of VBA-projecten met een wachtwoord zijn beveiligd om te garanderen dat ze voldoen aan de beveiligingsprotocollen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

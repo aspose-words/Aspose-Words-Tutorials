@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan távolíthatod el és szabhatod testre hatékonyan a bekezdésszegélyeket az Aspose.Words for Python segítségével. Egyszerűsítsd a dokumentumformázási folyamatot."
@@ -182,7 +179,3 @@ Ez az oktatóanyag bemutatta, hogyan távolíthatod el és szabhatod testre hat�
 - **Ingyenes próbaverzió**: [Ingyenes kezdés](https://releases.aspose.com/words/python/)
 - **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
 - **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

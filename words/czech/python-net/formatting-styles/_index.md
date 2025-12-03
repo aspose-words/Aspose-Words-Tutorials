@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Prozkoumejte naše komplexní tutoriály o Aspose.Words pro Python-net, zaměřené na formátování a styly. Vylepšete si své dovednosti v oblasti zpracování dokumentů s praktickými poznatky."
 "title": "Zvládněte formátování a styly Aspose.Words s tutoriály Python-net"
@@ -64,7 +61,3 @@ Naučte se, jak efektivně spravovat zarážky tabulátoru v dokumentech Pythonu
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

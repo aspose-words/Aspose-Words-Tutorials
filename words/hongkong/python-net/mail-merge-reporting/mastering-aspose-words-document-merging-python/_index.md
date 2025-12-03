@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何掌握使用 Python 中的 Aspose.Words 進行文件合併，重點是「保留來源編號」和「在書籤處插入」。今天就提升您的文件處理技能！"
@@ -184,7 +181,3 @@ Aspose.Words 的保留來源編號和插入書籤的功能有許多實際應用�
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

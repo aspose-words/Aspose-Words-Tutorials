@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να αφαιρείτε και να προσαρμόζετε αποτελεσματικά τα περιγράμματα παραγράφων χρησιμοποιώντας το Aspose.Words για Python. Βελτιστοποιήστε τη διαδικασία μορφοποίησης του εγγράφου σας."
@@ -182,7 +179,3 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **Δωρεάν δοκιμή**: [Ξεκινήστε δωρεάν](https://releases.aspose.com/words/python/)
 - **Προσωρινή Άδεια**: [Αποκτήστε Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη**: [Φόρουμ Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

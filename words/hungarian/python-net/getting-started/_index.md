@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ismerd meg a nélkülözhetetlen oktatóanyagokat, amelyek segítségével elkezdheted használni az Aspose.Words-öt a Python-net használatával. Tökéletes választás azoknak a fejlesztőknek, akik a dokumentumfeldolgozási képességek fejlesztésére törekszenek."
 "title": "Az Aspose.Words Python-nethez való használatának első lépései&#58; Alapvető oktatóanyagok"
@@ -39,7 +36,3 @@ Kód oktatóanyag az Aspose.Words Python-nethez
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

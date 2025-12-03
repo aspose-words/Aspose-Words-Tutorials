@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Výukový program pro Aspose.Words v Pythonu.net"
@@ -217,7 +214,3 @@ I když komplexní, složité rozvržení může vyžadovat ruční úpravy pro 
 - **Fórum podpory:** [Komunita podpory Aspose](https://forum.aspose.com/c/words/10)
 
 Dodržováním tohoto návodu budete dobře vybaveni k implementaci a optimalizaci číslování stránek a analýzy rozvržení ve vašich projektech v Pythonu pomocí Aspose.Words. Přejeme vám příjemné programování!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

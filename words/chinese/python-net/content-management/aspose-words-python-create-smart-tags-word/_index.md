@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net 代码教程"
@@ -239,7 +236,3 @@ print(f'Properties count after clearing: {properties.count}')
 - **支持论坛**与社区互动 [Aspose 的支持论坛](https://forum.aspose.com/c/words/10)
 
 有了这份全面的指南，您现在就可以利用 Aspose.Words for Python 在 Word 文档中创建和管理智能标签了。祝您编程愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

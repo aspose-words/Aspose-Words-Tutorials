@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách bỏ qua hình ảnh hiệu quả khi tải PDF trong Python bằng Aspose.Words. Nâng cao hiệu suất ứng dụng và tối ưu hóa việc sử dụng tài nguyên."
@@ -139,7 +136,3 @@ Khám phá thêm Aspose.Words bằng cách kiểm tra [tài liệu chính thức
 - [Dùng thử miễn phí Aspose.Words](https://releases.aspose.com/words/python/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách quản lý và tối ưu hóa các trường thông tin người dùng trong tài liệu Word bằng Aspose.Words cho Python. Nâng cao khả năng xử lý dữ liệu bằng các kỹ thuật tóm tắt AI."
@@ -141,7 +138,3 @@ A5: Mặc dù Aspose.Words hỗ trợ nhiều trường, hiệu suất có thể
 - [Tải xuống dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Thông tin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

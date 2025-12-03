@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering Document Formatting with Aspose.Words for Python&#58; Enhance XML Readability and Memory Efficiency"
 description: "Learn how to use Aspose.Words for Python to improve document formatting, enhance XML readability, and optimize memory usage efficiently."
@@ -173,8 +170,3 @@ A5: Focus on terms like "Aspose.Words Python memory optimization" and "pretty fo
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 By following this guide, you can effectively implement Aspose.Words in Python to manage your document formatting needs efficiently. Happy coding!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

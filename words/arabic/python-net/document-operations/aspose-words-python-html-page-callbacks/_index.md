@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية استخدام Aspose.Words لبايثون لتحويل مستندات وورد إلى صفحات HTML منفصلة باستخدام استدعاءات مخصصة. مثالي لإدارة المستندات والنشر على الويب."
@@ -152,7 +149,3 @@ A4: تحويل Word وPDF وHTML والعديد من التنسيقات الأخ
 - **يدعم**: قم بزيارة [منتدى أسبوزي](https://forum.aspose.com/c/words/10) للاستفسارات ودعم المجتمع.
 
 انغمس في Aspose.Words for Python اليوم واكتشف إمكانيات جديدة في معالجة المستندات!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

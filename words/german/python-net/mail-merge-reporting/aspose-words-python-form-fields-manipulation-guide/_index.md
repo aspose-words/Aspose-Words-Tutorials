@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Meistern Sie die automatisierte Dokumentenverarbeitung in Python mit Aspose.Words. Erfahren Sie in unserem umfassenden Leitfaden, wie Sie Formularfelder, einschließlich Kombinationsfelder und Texteingaben, bearbeiten."
@@ -261,7 +258,3 @@ doc.save(file_name="IHR_DOKUMENTENVERZEICHNIS/FormFields.ManageDropDownItems.htm
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

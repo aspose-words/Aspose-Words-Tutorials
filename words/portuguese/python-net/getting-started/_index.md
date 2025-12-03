@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Descubra tutoriais essenciais para começar a usar o Aspose.Words usando Python-net. Perfeito para desenvolvedores que buscam aprimorar as capacidades de processamento de documentos."
 "title": "Introdução ao Aspose.Words para Python-net&#58; Tutoriais Essenciais"
@@ -39,7 +36,3 @@ Um tutorial de código para Aspose.Words Python-net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

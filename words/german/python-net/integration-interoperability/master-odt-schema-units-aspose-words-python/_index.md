@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ein Code-Tutorial für Aspose.Words Python-net"
@@ -168,7 +165,3 @@ Durch die Beherrschung der ODT-Schemaeinstellungen und Maßeinheitenkonfiguratio
 - **Kostenlose Testversion**: Starten Sie mit einer kostenlosen Testversion unter [Aspose-Downloads für Python](https://releases.aspose.com/words/python/)
 - **Temporäre Lizenz**: Hier bewerben: [Aspose Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 - **Unterstützung**: Diskutieren Sie mit auf [Aspose Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Verbeter je vaardigheden in documentverwerking met Aspose.Words-tutorials gericht op tabellen en lijsten in Python-net. Perfect voor ontwikkelaars die op zoek zijn naar praktische, bruikbare inzichten."
 "title": "Aspose.Words Python-net&#58; Hoofdtabellen en lijsten Tutorials"
@@ -48,7 +45,3 @@ Leer hoe je tabelcellen efficiënt samenvoegt in Python met Aspose.Words. Deze h
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

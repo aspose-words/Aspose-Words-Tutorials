@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a converter documentos do Microsoft Word (DOCX) em XAML de formato fixo usando o Aspose.Words para Python, garantindo gerenciamento eficiente de recursos e integridade de design."
@@ -159,7 +156,3 @@ Exploramos a conversão de arquivos do Word (DOCX) para XAML de formato fixo usa
 - [Acesso de teste gratuito](https://releases.aspose.com/words/python/)
 - [Pedido de Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

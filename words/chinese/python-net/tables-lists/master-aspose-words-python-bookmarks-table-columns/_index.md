@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 高效地插入、删除和管理书签和表格列。通过实际示例和性能技巧增强您的文档处理能力。"
@@ -143,7 +140,3 @@ Aspose.Words 在删除书签方面提供的灵活性使您可以根据需要定�
    - 是的，Aspose.Words 支持多种格式，包括 DOCX 和 PDF。
 3. **表格列书签有哪些限制？**
    - 它们只能在具有明确定义的行和列的表格中使用。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

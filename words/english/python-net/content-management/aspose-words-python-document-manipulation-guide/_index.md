@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering Document Manipulation with Aspose.Words for Python&#58; A Comprehensive Guide"
 description: "Learn how to master document manipulation in Python using Aspose.Words. This guide covers converting shapes, setting encodings, and more."
@@ -239,8 +236,3 @@ Congratulations! You've now explored how to leverage Aspose.Words for Python for
 - Experiment with additional features of Aspose.Words not covered in this guide.
 - Consider integrating Aspose.Words into larger projects or systems.
 - Share your experience and insights on forums or with peers to contribute to the community.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

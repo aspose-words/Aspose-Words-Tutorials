@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně detekovat seznamy a spravovat textové soubory pomocí Aspose.Words pro Python. Ideální pro systémy správy dokumentů."
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **Nástroje pro analýzu obsahu**Extrahujte strukturovaná data z textových souborů pro další analýzu nebo tvorbu sestav.
 3. **Úkoly čištění dat**Standardizujte formátování textu správou mezer a identifikací prvků seznamu.
 4. **Ověření odkazu**Ověřte odkazy v dávce textových dokumentů, abyste se ujistili, že jsou aktivní a správné.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

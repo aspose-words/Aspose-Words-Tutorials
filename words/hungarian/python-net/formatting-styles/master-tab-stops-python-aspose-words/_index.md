@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan kezelheted hatékonyan a tabulátorpozíciókat Python dokumentumaidban az Aspose.Words segítségével. Ez az útmutató gyakorlati példákkal mutatja be a tabulátorpozíciók hozzáadását, testreszabását és eltávolítását."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Következtetés
 
 A tabulátorok elsajátítása Pythonban az Aspose.Words segítségével lehetővé teszi professzionálisan formázott dokumentumok egyszerű létrehozását. Az útmutató követésével hatékonyan adhatsz hozzá, testreszabhatsz és kezelhetsz tabulátorokat, javítva ezzel a szövegalapú kimenetek általános minőségét.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

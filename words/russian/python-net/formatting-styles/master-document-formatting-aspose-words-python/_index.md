@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как использовать Aspose.Words для Python, чтобы улучшить форматирование документов, повысить читаемость XML и эффективно оптимизировать использование памяти."
@@ -168,7 +165,3 @@ A5: Сосредоточьтесь на таких терминах, как «о
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.com/c/words/10)
 
 Следуя этому руководству, вы сможете эффективно реализовать Aspose.Words в Python для эффективного управления потребностями в форматировании документов. Удачного кодирования!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

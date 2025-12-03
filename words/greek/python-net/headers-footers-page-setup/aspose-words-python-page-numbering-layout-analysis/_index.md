@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ένα σεμινάριο κώδικα για το Aspose.Words Python-net"
@@ -217,7 +214,3 @@ while True:
 - **Φόρουμ υποστήριξης:** [Κοινότητα Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
 
 Ακολουθώντας αυτόν τον οδηγό, θα είστε άρτια εξοπλισμένοι για να εφαρμόσετε και να βελτιστοποιήσετε την αρίθμηση σελίδων και την ανάλυση διάταξης στα έργα σας σε Python χρησιμοποιώντας το Aspose.Words. Καλή κωδικοποίηση!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

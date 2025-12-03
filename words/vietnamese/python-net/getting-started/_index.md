@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá các hướng dẫn cần thiết để bắt đầu sử dụng Aspose.Words bằng Python-net. Hoàn hảo cho các nhà phát triển muốn nâng cao khả năng xử lý tài liệu."
 "title": "Bắt đầu với Aspose.Words cho Python-net&#58; Hướng dẫn thiết yếu"
@@ -39,7 +36,3 @@ Hướng dẫn mã cho Aspose.Words Python-net
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

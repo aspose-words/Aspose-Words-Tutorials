@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents"
 description: "Learn to load, manage, and automate Microsoft Word documents with Aspose.Words in Python. Streamline your document processing tasks effortlessly."
@@ -203,7 +200,3 @@ Here are some practical use cases for document processing with Aspose.Words:
 - Extracting metadata for data analysis or archiving purposes.
 
 By following this guide, you'll be well-equipped to manage Word documents effectively using Aspose.Words in Python. Continue exploring the library's extensive features to optimize your document management workflows further.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

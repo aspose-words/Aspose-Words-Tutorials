@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à convertir des documents Word au format PostScript avec Aspose.Words pour Python. Ce guide couvre la configuration, la conversion et les options d'impression en mode livre plié."
@@ -166,7 +163,3 @@ Les prochaines étapes pourraient impliquer l’exploration d’autres fonctionn
 - [Forum de soutien communautaire](https://forum.aspose.com/c/words/10)
 
 Nous espérons que ce guide vous aidera à enregistrer efficacement vos documents au format PostScript avec Aspose.Words pour Python. Bon codage !
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

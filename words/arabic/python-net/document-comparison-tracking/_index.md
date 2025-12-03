@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "استكشف برنامجنا التعليمي الشامل Aspose.Words لمطوري Python-net. تعلّم كيفية مقارنة وتتبع تغييرات المستندات بكفاءة باستخدام أدوات فعّالة."
 "title": "مقارنة المستندات الرئيسية وتتبعها باستخدام Aspose.Words في Python-net"
@@ -36,7 +33,3 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

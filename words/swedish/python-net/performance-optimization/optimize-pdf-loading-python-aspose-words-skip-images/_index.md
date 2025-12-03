@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du effektivt hoppar över bilder när du laddar PDF-filer i Python med Aspose.Words. Förbättra programprestanda och optimera resursanvändningen."
@@ -139,7 +136,3 @@ Utforska mer av Aspose.Words genom att kolla [officiell dokumentation](https://r
 - [Gratis provversion av Aspose.Words](https://releases.aspose.com/words/python/)
 - [Tillfällig licensinhämtning](https://purchase.aspose.com/temporary-license/)
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

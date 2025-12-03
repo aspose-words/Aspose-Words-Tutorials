@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách giải quyết các liên kết bị hỏng trong tệp .chm bằng thư viện Aspose.Words mạnh mẽ. Nâng cao độ tin cậy của tài liệu và trải nghiệm người dùng với hướng dẫn từng bước này."
@@ -148,7 +145,3 @@ Sẵn sàng thử tối ưu hóa liên kết CHM của bạn? Hãy khám phá th
 - **Tải về**: [Aspose.Words cho Python phát hành](https://releases.aspose.com/words/python/)
 - **Mua & Dùng thử**: [Nhận Giấy phép hoặc Dùng thử miễn phí](https://purchase.aspose.com/buy)
 - **Diễn đàn hỗ trợ**: [Cộng đồng hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

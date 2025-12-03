@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να καταχωρείτε και να ακυρώνετε την καταχώριση λεξικών με παύλα με το Aspose.Words για Python, βελτιώνοντας την αναγνωσιμότητα σε όλες τις γλώσσες."
@@ -176,7 +173,3 @@ doc.save(arartifacts_directory + 'Hyphenation.dictionary.unregistered.pdf')
 - **Αγορά:** [Αγοράστε την Άδεια Χρήσης Aspose.Words](https://purchase.aspose.com/buy)
 - **Δωρεάν δοκιμή:** [Ξεκινήστε με μια δωρεάν δοκιμή](https://releases.aspose.com/words/python/)
 - **Προσωρινή Άδεια:** [Αίτημα Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

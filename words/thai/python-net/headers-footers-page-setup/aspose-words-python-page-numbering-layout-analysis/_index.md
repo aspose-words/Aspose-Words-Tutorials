@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Python-net"
@@ -217,7 +214,3 @@ while True:
 - **ฟอรั่มการสนับสนุน:** [ชุมชนสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 หากปฏิบัติตามคู่มือนี้ คุณจะพร้อมสำหรับการใช้งานและเพิ่มประสิทธิภาพการนับหมายเลขหน้าและการวิเคราะห์เค้าโครงในโครงการ Python ของคุณโดยใช้ Aspose.Words ขอให้สนุกกับการเขียนโค้ด!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

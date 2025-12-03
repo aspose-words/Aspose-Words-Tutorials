@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 Word 문서에서 표 열을 원활하게 제거, 삽입 및 변환하는 방법을 알아보세요. 문서 편집 작업을 효율적으로 간소화하세요."
@@ -152,7 +149,3 @@ print(column.to_txt())
 - [무료 체험판](https://releases.aspose.com/words/python/)
 - [임시 면허 요청](https://purchase.aspose.com/temporary-license/)
 - [지원 포럼](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

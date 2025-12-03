@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net을 활용한 주석 및 댓글 작성에 대한 포괄적인 Aspose.Words 튜토리얼을 살펴보세요. 실제 예제를 통해 문서 처리 능력을 향상시켜 보세요."
 "title": "Python-net을 사용하여 Aspose.Words에서 주석 및 코멘트 마스터하기"
@@ -36,7 +33,3 @@ Python과 함께 Aspose.Words 라이브러리를 사용하여 Word 문서에서 
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

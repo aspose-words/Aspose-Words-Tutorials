@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie usuwać i dostosowywać obramowania akapitów za pomocą Aspose.Words dla Pythona. Usprawnij proces formatowania dokumentów."
@@ -182,7 +179,3 @@ W tym samouczku opisano, jak skutecznie usuwać i dostosowywać obramowania akap
 - **Bezpłatna wersja próbna**: [Zacznij za darmo](https://releases.aspose.com/words/python/)
 - **Licencja tymczasowa**: [Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

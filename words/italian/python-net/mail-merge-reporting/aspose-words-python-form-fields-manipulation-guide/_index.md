@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Padroneggia la gestione automatizzata dei documenti in Python usando Aspose.Words. Scopri come manipolare i campi dei moduli, incluse caselle combinate e campi di testo, con la nostra guida completa."
@@ -261,7 +258,3 @@ doc.save(file_name="DIRECTORY_DEL_TUO_DOCUMENTO/FormFields.ManageDropDownItems.h
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

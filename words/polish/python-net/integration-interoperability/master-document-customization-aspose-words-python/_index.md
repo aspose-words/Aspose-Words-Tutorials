@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak programowo dostosowywać dokumenty w Pythonie za pomocą Aspose.Words, ustawiając kolory stron, importując węzły ze stylami niestandardowymi i stosując kształty tła."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Wniosek
 
 Opanowując te funkcje Aspose.Words for Python, możesz znacznie zwiększyć możliwości dostosowywania przepływów pracy przetwarzania dokumentów. Niezależnie od tego, czy chodzi o ustawienie jednolitych kolorów tła, importowanie węzłów ze spersonalizowanymi stylami, czy stosowanie wyrafinowanych kształtów tła, ten przewodnik zapewnia solidne podstawy do podniesienia poziomu zadań zarządzania dokumentami.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

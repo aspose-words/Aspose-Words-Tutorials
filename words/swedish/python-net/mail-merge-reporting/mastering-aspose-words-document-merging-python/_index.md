@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du bemästrar dokumentsammanslagning med Aspose.Words i Python, med fokus på \"Behåll källnummernumrering\" och \"Infoga vid bokmärke\". Förbättra dina dokumentbehandlingsfärdigheter idag!"
@@ -184,7 +181,3 @@ Experimentera med ytterligare Aspose.Words-funktioner och utforska integrationsm
 - [Köp en licens](https://purchase.aspose.com/buy)
 - [Gratis provlicens](https://purchase.aspose.com/temporary-license/)
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

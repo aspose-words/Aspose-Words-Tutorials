@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp."
@@ -159,7 +156,3 @@ We hebben het converteren van Word (DOCX)-bestanden naar vaste XAML-bestanden me
 - [Gratis proeftoegang](https://releases.aspose.com/words/python/)
 - [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 - [Ondersteuningsforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

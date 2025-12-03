@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "透過專注於 Python-net 中的表格和清單的 Aspose.Words 教學來增強您的文件處理技能。非常適合尋求實用、可操作見解的開發人員。"
 "title": "Aspose.Words Python-net：主表和列表教程"
@@ -48,7 +45,3 @@
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

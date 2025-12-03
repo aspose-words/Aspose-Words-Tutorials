@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words का उपयोग करके अपने Python दस्तावेज़ों में टैब स्टॉप को प्रभावी ढंग से प्रबंधित करना सीखें। यह मार्गदर्शिका व्यावहारिक उदाहरणों के साथ टैब स्टॉप को जोड़ने, अनुकूलित करने और हटाने को कवर करती है।"
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## निष्कर्ष
 
 Aspose.Words का उपयोग करके Python में टैब स्टॉप को मास्टर करना आपको आसानी से पेशेवर रूप से स्वरूपित दस्तावेज़ बनाने की अनुमति देता है। इस गाइड का पालन करके, आप टैब स्टॉप को प्रभावी ढंग से जोड़, अनुकूलित और प्रबंधित कर सकते हैं, जिससे आपके टेक्स्ट-आधारित आउटपुट की समग्र गुणवत्ता में वृद्धि होगी।
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menggunakan Aspose.Words untuk Python guna mengonversi dokumen Word menjadi halaman HTML terpisah menggunakan panggilan balik khusus. Sempurna untuk manajemen dokumen dan penerbitan web."
@@ -152,7 +149,3 @@ A5: Bergabunglah dengan [Forum Aspose](https://forum.aspose.com/c/words/10) untu
 - **Mendukung**:Kunjungi [Forum Aspose](https://forum.aspose.com/c/words/10) untuk pertanyaan dan dukungan komunitas.
 
 Pelajari Aspose.Words untuk Python hari ini dan buka kemungkinan baru dalam pemrosesan dokumen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

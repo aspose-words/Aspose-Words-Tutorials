@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menerapkan lisensi terukur dengan Aspose.Words untuk Python untuk melacak dan mengelola penggunaan dokumen secara efisien dalam aplikasi Anda."
@@ -176,7 +173,3 @@ A5: Data penggunaan tidak dikirim secara real-time, jadi mungkin terjadi penunda
 - **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Mulailah perjalanan Anda dengan Aspose.Words untuk Python hari ini dan manfaatkan sepenuhnya lisensi terukur untuk mengoptimalkan kebutuhan pemrosesan dokumen Anda!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

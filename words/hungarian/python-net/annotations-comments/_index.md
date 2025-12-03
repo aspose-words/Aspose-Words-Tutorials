@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Fedezd fel átfogó Aspose.Words oktatóanyagunkat a Python-net használatával készült jegyzetekről és kommentekről. Fejleszd dokumentumfeldolgozási készségeidet gyakorlati példákkal."
 "title": "Mesterszintű annotációk és megjegyzések az Aspose.Words-ben Python-net segítségével"
@@ -36,7 +33,3 @@ Tanulja meg, hogyan adhat hozzá, kezelhet és kérhet le programozott módon me
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

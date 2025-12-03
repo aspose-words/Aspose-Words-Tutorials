@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Εξερευνήστε το ολοκληρωμένο εκπαιδευτικό μας σεμινάριο Aspose.Words για προγραμματιστές Python-net. Μάθετε πώς να συγκρίνετε και να παρακολουθείτε αποτελεσματικά τις αλλαγές στα έγγραφα χρησιμοποιώντας ισχυρά εργαλεία."
 "title": "Σύγκριση και παρακολούθηση κύριου εγγράφου με το Aspose.Words σε Python-net"
@@ -36,7 +33,3 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Pythonを使えば、インチ、ミリメートル、ピクセル間のポイント変換を簡単にマスターできます。ドキュメントの書式設定作業を効率化できます。"
@@ -234,7 +231,3 @@ Ready to take your skills to the next level? Implement these solutions in your p
 - **Purchase**: [Buy Aspose.Words](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

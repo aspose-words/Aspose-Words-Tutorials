@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulja meg, hogyan kezelheti és követheti nyomon hatékonyan a dokumentumok verzióit az Aspose.Words segítségével Pythonban. Ez az oktatóanyag a zökkenőmentes verziókezelés beállítását, nyomon követési módszereit és teljesítménytippjeit ismerteti."
@@ -130,7 +127,3 @@ Most már elsajátítottad a Pythonban található Aspose.Words használatával 
 - [Ingyenes próbaverzió és ideiglenes licencek](https://purchase.aspose.com/temporary-license/)
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 Reméljük, hogy ez az útmutató segít hatékonyan kezelni a dokumentumjavításokat az Aspose.Words segítségével Pythonban. Jó kódolást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

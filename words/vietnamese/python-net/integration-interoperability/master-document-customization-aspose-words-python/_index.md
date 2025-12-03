@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tùy chỉnh tài liệu theo chương trình trong Python với Aspose.Words bằng cách thiết lập màu trang, nhập các nút có kiểu tùy chỉnh và áp dụng hình nền."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Phần kết luận
 
 Bằng cách thành thạo các tính năng này của Aspose.Words for Python, bạn có thể cải thiện đáng kể khả năng tùy chỉnh của quy trình xử lý tài liệu của mình. Cho dù đó là thông qua việc thiết lập màu nền thống nhất, nhập các nút có kiểu tùy chỉnh hay áp dụng các hình nền tinh vi, hướng dẫn này cung cấp nền tảng vững chắc để nâng cao các tác vụ quản lý tài liệu của bạn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

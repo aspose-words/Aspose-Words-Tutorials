@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek onze Aspose.Words-tutorials over kopteksten, voetteksten en pagina-indeling met Python-net. Leer hoe u moeiteloos de opmaak van uw documenten kunt verbeteren."
 "title": "Aspose.Words Python-net&#58; Kopteksten, voetteksten en pagina-instelling tutorials"
@@ -39,7 +36,3 @@ Een codetutorial voor Aspose.Words Python-net
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

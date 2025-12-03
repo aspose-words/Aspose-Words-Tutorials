@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak opanować scalanie dokumentów za pomocą Aspose.Words w Pythonie, skupiając się na „Keep Source Numbering” i „Insert at Bookmark”. Popraw swoje umiejętności przetwarzania dokumentów już dziś!"
@@ -184,7 +181,3 @@ Eksperymentuj z dodatkowymi funkcjonalnościami Aspose.Words i sprawdzaj możliw
 - [Kup licencję](https://purchase.aspose.com/buy)
 - [Bezpłatna licencja próbna](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

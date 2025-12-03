@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u naadloos tabelkolommen in Word-documenten kunt verwijderen, invoegen en converteren met Aspose.Words voor Python. Stroomlijn uw documentbewerkingstaken efficiënt."
@@ -152,7 +149,3 @@ Voor verdere informatie kunt u de volgende bronnen raadplegen:
 - [Gratis proefversie](https://releases.aspose.com/words/python/)
 - [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 - [Ondersteuningsforum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

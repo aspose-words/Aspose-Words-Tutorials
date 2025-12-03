@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à utiliser Aspose.Words pour Python pour améliorer la mise en forme des documents, améliorer la lisibilité XML et optimiser efficacement l'utilisation de la mémoire."
@@ -168,7 +165,3 @@ A5 : Concentrez-vous sur des termes tels que « Optimisation de la mémoire As
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 En suivant ce guide, vous pourrez implémenter efficacement Aspose.Words en Python pour gérer efficacement vos besoins de mise en forme de documents. Bon codage !
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

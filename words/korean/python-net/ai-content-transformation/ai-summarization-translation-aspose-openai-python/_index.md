@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python 및 OpenAI용 Aspose.Words를 사용하여 AI 요약 및 번역을 자동화하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다."
@@ -215,7 +212,3 @@ Aspose.Words를 사용할 때 성능을 최적화하려면:
 - "AI 요약 파이썬"
 - "Aspose.Words 번역"
 - "OpenAI 문서 처리"
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

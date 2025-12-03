@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Εξερευνήστε τα ολοκληρωμένα εκπαιδευτικά μας βοηθήματα για το Aspose.Words για Python-net, με έμφαση στη μορφοποίηση και τα στυλ. Βελτιώστε τις δεξιότητές σας στην επεξεργασία εγγράφων με πρακτικές γνώσεις."
 "title": "Master Aspose.Words Μορφοποίηση & Στυλ με Python-net Tutorials"
@@ -64,7 +61,3 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

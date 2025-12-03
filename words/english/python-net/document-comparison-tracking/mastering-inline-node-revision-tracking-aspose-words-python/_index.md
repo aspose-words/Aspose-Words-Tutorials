@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Inline Node Revision Tracking in Python Using Aspose.Words"
 description: "Learn how to efficiently manage and track document revisions using Aspose.Words in Python. This tutorial covers setup, tracking methods, and performance tips for seamless revision management."
@@ -66,8 +63,7 @@ This assertion checks the number of revisions. If it doesn't match your document
 #### Step 3: Identify Revision Types
 Different revision types include insertions, format changes, moves, and deletions. Let's identify these:
 ```python
-# Get the first revision's parent node as a run object
-run = doc.revisions[0].parent_node.as_run()
+# Get the first revision's parent node as a run objectrun = doc.revisions[0].parent_node.as_run()
 first_paragraph = run.parent_paragraph
 runs = first_paragraph.runs
 
@@ -135,8 +131,3 @@ You've now mastered the art of tracking inline node revisions using Aspose.Words
 - [Free Trial and Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 We hope this guide empowers you to effectively manage document revisions using Aspose.Words in Python. Happy coding!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

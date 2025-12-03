@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutorial sul codice per Aspose.Words Python-net"
@@ -183,7 +180,3 @@ Pronti a migliorare i vostri PDF? Iniziate a implementare queste tecniche oggi s
 - **Supporto**Ricevi aiuto dalla comunità su [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Questa guida ti ha fornito le conoscenze necessarie per ottimizzare i segnalibri PDF utilizzando Aspose.Words per Python. Buon lavoro!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

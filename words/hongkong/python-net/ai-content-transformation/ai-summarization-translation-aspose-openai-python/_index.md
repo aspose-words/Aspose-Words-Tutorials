@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 和 OpenAI 自動化 AI 摘要和翻譯。本指南涵蓋設定、實施和實際應用。"
@@ -215,7 +212,3 @@ Aspose.Words for Python 可讓您以程式設計方式處理 Word 文件。開�
 - 《AI摘要Python》
 - “Aspose.Words 翻譯”
 - “OpenAI文檔處理”
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

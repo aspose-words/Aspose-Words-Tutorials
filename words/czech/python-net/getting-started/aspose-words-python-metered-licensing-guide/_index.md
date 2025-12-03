@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak implementovat měřené licencování s Aspose.Words pro Python pro efektivní sledování a správu používání dokumentů ve vašich aplikacích."
@@ -176,7 +173,3 @@ A5: Data o využití se neodesílají v reálném čase, takže v aktualizacích
 - **Podpora**: [Fórum Aspose](https://forum.aspose.com/c/words/10)
 
 Vydejte se na cestu s Aspose.Words pro Python ještě dnes a využijte plně výhody měřených licencí k optimalizaci vašich potřeb v oblasti zpracování dokumentů!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

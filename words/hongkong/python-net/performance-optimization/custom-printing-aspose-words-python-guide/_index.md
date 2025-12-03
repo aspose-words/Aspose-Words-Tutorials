@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words 和 Python 自訂 Word 文件的列印設定。掌握紙張尺寸、方向和紙盤配置。"
@@ -148,7 +145,3 @@ doc.print(printer_settings)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 
 探索這些資源以加深您的理解並充分利用 Aspose.Words for Python。列印愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

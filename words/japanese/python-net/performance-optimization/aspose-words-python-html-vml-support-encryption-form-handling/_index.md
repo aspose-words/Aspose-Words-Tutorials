@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用して HTML ドキュメントを最適化する方法を学びます。VML グラフィックを管理し、ドキュメントを安全に暗号化し、フォーム要素を簡単に処理します。"
@@ -202,7 +199,3 @@ Aspose.Words for Python を使って HTML ドキュメントの VML サポート
 
 **Q: VML 要素を含む大きな HTML ファイルをどのように処理すればよいですか?**
 A: バッチ処理と選択的な読み込みを使用して、リソースの使用を効率的に管理します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

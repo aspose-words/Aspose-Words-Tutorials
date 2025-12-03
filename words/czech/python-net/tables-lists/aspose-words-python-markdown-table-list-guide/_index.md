@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak formátovat tabulky a seznamy v Markdownu pomocí Aspose.Words pro Python. Vylepšete své pracovní postupy s dokumenty pomocí zarovnání, režimů exportu seznamů a dalších funkcí."
@@ -188,7 +185,3 @@ Chcete-li začít používat Aspose.Words pro Python, postupujte takto:
 ## Závěr
 
 Zvládnutím Aspose.Words pro Python si můžete výrazně zlepšit schopnost vytvářet a manipulovat s dokumenty v Markdownu se složitými tabulkami a seznamy. Ať už pracujete na technické dokumentaci nebo na společných projektech, tyto nástroje zefektivní vaše pracovní postupy s dokumenty a zlepší čitelnost.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

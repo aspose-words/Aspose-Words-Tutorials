@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "En kodhandledning för Aspose.Words Python-net"
@@ -183,7 +180,3 @@ Redo att förbättra dina PDF-filer? Börja implementera dessa tekniker idag!
 - **Stöd**Få hjälp från samhället på [Aspose-forumet](https://forum.aspose.com/c/words/10)
 
 Den här guiden har utrustat dig med kunskapen för att optimera PDF-bokmärken med Aspose.Words för Python. Lycka till med kodningen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

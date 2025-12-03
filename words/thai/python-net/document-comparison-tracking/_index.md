@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "สำรวจบทช่วยสอน Aspose.Words ที่ครอบคลุมของเราสำหรับนักพัฒนา Python-net เรียนรู้วิธีการเปรียบเทียบและติดตามการเปลี่ยนแปลงเอกสารอย่างมีประสิทธิภาพโดยใช้เครื่องมือที่มีประสิทธิภาพ"
 "title": "การเปรียบเทียบและการติดตามเอกสารหลักด้วย Aspose.Words ใน Python-net"
@@ -36,7 +33,3 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

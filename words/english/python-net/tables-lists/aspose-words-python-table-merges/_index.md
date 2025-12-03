@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering Table Merges in Aspose.Words for Python&#58; A Comprehensive Guide"
 description: "Learn how to efficiently merge table cells in Python using Aspose.Words. This guide covers vertical and horizontal merges, padding settings, and practical applications."
@@ -221,7 +218,3 @@ Ready to take your skills further? Dive deeper by exploring our comprehensive re
 - [Free Trial](https://releases.aspose.com/words/python/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

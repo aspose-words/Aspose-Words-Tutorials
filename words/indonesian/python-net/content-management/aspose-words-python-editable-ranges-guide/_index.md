@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara membuat dan mengelola rentang yang dapat diedit dalam dokumen yang dilindungi menggunakan Aspose.Words untuk Python. Tingkatkan kemampuan manajemen dokumen Anda hari ini."
@@ -167,7 +164,3 @@ Jelajahi fitur Aspose.Words yang lebih canggih atau integrasikan fungsi ini ke d
 - **Forum Dukungan**: [Dukungan Aspose](https://forum.aspose.com/c/words/10)
 
 Dengan panduan ini, Anda diperlengkapi dengan baik untuk memanfaatkan kekuatan rentang yang dapat diedit dalam proyek manajemen dokumen Anda menggunakan Aspose.Words untuk Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

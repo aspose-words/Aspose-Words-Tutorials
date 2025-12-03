@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 將 Microsoft Word (DOCX) 文件轉換為固定格式的 XAML，確保高效率的資源管理和設計完整性。"
@@ -159,7 +156,3 @@ class ResourceUriPrinter(aw.saving.IResourceSavingCallback):
 - [免費試用](https://releases.aspose.com/words/python/)
 - [臨時執照申請](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

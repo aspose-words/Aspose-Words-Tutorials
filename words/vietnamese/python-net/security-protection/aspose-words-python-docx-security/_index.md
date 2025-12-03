@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tự động hóa tài liệu bằng cách tạo các tệp DOCX an toàn, tuân thủ bằng Aspose.Words trong Python. Tìm hiểu cách áp dụng các tính năng bảo mật và tối ưu hóa hiệu suất."
@@ -161,7 +158,3 @@ A: Kiểm tra và gia hạn giấy phép thường xuyên. Lưu bản sao lưu c
 - **Hỗ trợ và cộng đồng**: [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
 
 Bây giờ, hãy thực hiện bước tiếp theo trong tự động hóa tài liệu bằng cách triển khai Aspose.Words cho các dự án Python của bạn. Chúc bạn viết mã vui vẻ!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

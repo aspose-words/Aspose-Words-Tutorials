@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 優化 RTF 文件中的映像處理。將影像儲存為 WMF 格式並確保與舊版閱讀器相容。"
@@ -189,7 +186,3 @@ export_images_example()
 ## 結論
 
 透過利用 Aspose.Words for Python，您可以顯著增強 RTF 文件中影像的處理方式。無論是將影像轉換為 WMF 還是確保與舊閱讀器的兼容性，這些技術都能提供滿足您需求的強大解決方案。準備好將您的文件處理技能提升到一個新的水平嗎？嘗試這些方法並看看它們有何不同。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

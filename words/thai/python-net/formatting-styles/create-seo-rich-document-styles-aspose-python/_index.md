@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้การสร้างรูปแบบเอกสารที่กำหนดเองและเป็นมิตรกับ SEO โดยใช้ Aspose.Words สำหรับ Python เพิ่มความสามารถในการอ่านและความสอดคล้องได้อย่างง่ายดาย"
@@ -115,7 +112,3 @@ A: แม้ว่าคุณจะมีการควบคุมคุณ�
 - [ทดลองใช้งานฟรี](https://releases.aspose.com/words/python/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

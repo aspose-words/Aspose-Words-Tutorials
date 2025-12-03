@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 實現計量許可，以便有效追蹤和管理應用程式中的文件使用情況。"
@@ -176,7 +173,3 @@ A5：使用資料不是即時發送的，因此更新可能會出現一些延遲
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/words/10)
 
 立即開始使用 Aspose.Words for Python 的旅程，並充分利用計量許可來優化您的文件處理需求！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

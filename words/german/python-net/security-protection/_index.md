@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Meistern Sie Aspose.Words für Python-net mit unseren Experten-Tutorials zu Sicherheit und Schutz. Verbessern Sie noch heute Ihre Fähigkeiten im Umgang mit Dokumenten."
 "title": "Aspose.Words Python-net-Sicherheits- und Schutz-Tutorials"
@@ -45,7 +42,3 @@ Meistern Sie die Dokumentenautomatisierung, indem Sie sichere, konforme DOCX-Dat
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du effektivt hanterar tabbstopp i dina Python-dokument med hjälp av Aspose.Words. Den här guiden beskriver hur du lägger till, anpassar och tar bort tabbstopp med praktiska exempel."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Slutsats
 
 Att behärska tabbstopp i Python med Aspose.Words låter dig enkelt skapa professionellt formaterade dokument. Genom att följa den här guiden kan du lägga till, anpassa och hantera tabbstopp effektivt, vilket förbättrar den övergripande kvaliteten på dina textbaserade utdata.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

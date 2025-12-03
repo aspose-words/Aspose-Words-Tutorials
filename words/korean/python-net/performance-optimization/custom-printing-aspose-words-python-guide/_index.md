@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words와 Python을 사용하여 Word 문서의 인쇄 설정을 사용자 지정하는 방법을 알아보세요. 용지 크기, 방향 및 용지함 구성을 완벽하게 숙지하세요."
@@ -148,7 +145,3 @@ Aspose.Words의 문서 변환이나 PDF 생성 등의 기능을 더욱 자세히
 - [Aspose 지원 포럼](https://forum.aspose.com/c/words/10)
 
 다음 자료를 탐색하여 Aspose.Words for Python에 대한 이해를 높이고 최대한 활용해 보세요. 즐겁게 인쇄해 보세요!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

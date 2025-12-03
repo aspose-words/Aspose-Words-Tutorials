@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come padroneggiare l'unione di documenti con Aspose.Words in Python, concentrandoti su \"Mantieni numerazione sorgente\" e \"Inserisci al segnalibro\". Migliora le tue competenze di elaborazione dei documenti oggi stesso!"
@@ -184,7 +181,3 @@ Sperimenta ulteriori funzionalità di Aspose.Words ed esplora le possibilità di
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 - [Licenza di prova gratuita](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

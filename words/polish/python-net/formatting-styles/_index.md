@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Przeglądaj nasze kompleksowe samouczki dotyczące Aspose.Words dla Python-net, skupiające się na formatowaniu i stylach. Udoskonalaj swoje umiejętności przetwarzania dokumentów dzięki praktycznym spostrzeżeniom."
 "title": "Opanuj formatowanie i style Aspose.Words dzięki samouczkom Python-net"
@@ -64,7 +61,3 @@ Dowiedz się, jak skutecznie zarządzać tabulatorami w dokumentach Pythona za p
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

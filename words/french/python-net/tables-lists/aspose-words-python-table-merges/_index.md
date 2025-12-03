@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à fusionner efficacement des cellules de tableau en Python avec Aspose.Words. Ce guide couvre les fusions verticales et horizontales, les paramètres de remplissage et des applications pratiques."
@@ -216,7 +213,3 @@ Prêt à développer vos compétences ? Explorez nos ressources et notre docume
 - [Essai gratuit](https://releases.aspose.com/words/python/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

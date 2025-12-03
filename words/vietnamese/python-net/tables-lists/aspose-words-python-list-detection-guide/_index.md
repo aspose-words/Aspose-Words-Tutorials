@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách phát hiện danh sách và quản lý tệp văn bản hiệu quả với Aspose.Words cho Python. Hoàn hảo cho hệ thống quản lý tài liệu."
@@ -174,7 +171,3 @@ def test_detect_hyperlinks(self):
 2. **Công cụ phân tích nội dung**: Trích xuất dữ liệu có cấu trúc từ các tệp văn bản để phân tích hoặc báo cáo thêm.
 3. **Nhiệm vụ dọn dẹp dữ liệu**Chuẩn hóa định dạng văn bản bằng cách quản lý khoảng trắng và xác định các thành phần danh sách.
 4. **Xác minh liên kết**: Xác thực các liên kết trong một loạt tài liệu văn bản để đảm bảo chúng hoạt động và chính xác.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

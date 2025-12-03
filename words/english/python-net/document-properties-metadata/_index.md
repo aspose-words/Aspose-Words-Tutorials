@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Document Properties & Metadata with Aspose.Words Python-net Tutorials"
 description: "Explore three expertly crafted tutorials on managing document properties and metadata using Aspose.Words for Python-net. Enhance your skills in manipulating essential document attributes."
@@ -42,7 +39,3 @@ Learn how to manage and optimize user info fields in Word documents with Aspose.
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

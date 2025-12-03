@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "使用 Aspose.Words for Python 輕鬆掌握英吋、毫米和像素之間的點轉換。有效率簡化文檔格式化任務。"
@@ -234,7 +231,3 @@ Ready to take your skills to the next level? Implement these solutions in your p
 - **Purchase**: [Buy Aspose.Words](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

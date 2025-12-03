@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net का उपयोग करके Aspose.Words के साथ आरंभ करने के लिए आवश्यक ट्यूटोरियल खोजें। दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाने का लक्ष्य रखने वाले डेवलपर्स के लिए बिल्कुल सही।"
 "title": "पायथन-नेट के लिए Aspose.Words के साथ आरंभ करना&#58; आवश्यक ट्यूटोरियल"
@@ -39,7 +36,3 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

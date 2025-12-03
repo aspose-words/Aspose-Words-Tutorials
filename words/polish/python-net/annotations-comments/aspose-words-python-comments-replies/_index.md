@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak programowo dodawać, zarządzać i pobierać komentarze i odpowiedzi w dokumentach programu Word, korzystając z biblioteki Aspose.Words w języku Python."
@@ -245,7 +242,3 @@ Aspose.Words dla Pythona można zintegrować z różnymi przepływami pracy doku
 3. **Współpraca akademicka**:Ułatwianie przepływu informacji zwrotnej między autorami i recenzentami w pracach naukowych.
 
 Ten kompleksowy przewodnik pomoże Ci skutecznie wdrożyć zarządzanie komentarzami i odpowiedziami w dokumentach Word przy użyciu Aspose.Words for Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

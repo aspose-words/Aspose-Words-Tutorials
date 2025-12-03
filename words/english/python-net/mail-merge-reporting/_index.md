@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Aspose.Words Python-net: Mail Merge & Reporting Tutorials"
 description: "Master Aspose.Words for Python-net with our tutorials on Mail Merge and Reporting. Enhance document automation skills and streamline your data reporting processes."
@@ -39,7 +36,3 @@ Learn how to master document merging with Aspose.Words in Python, focusing on 'K
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

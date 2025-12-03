@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Aspose.Words for Python&#58; Master HTML Optimization with VML, Encryption & Form Handling"
 description: "Learn to optimize HTML documents using Aspose.Words for Python. Manage VML graphics, encrypt documents securely, and handle form elements effortlessly."
@@ -207,7 +204,3 @@ You now have a solid understanding of how Aspose.Words for Python can be used to
 
 **Q: How do I handle large HTML files with VML elements?**
 A: Use batch processing and selective loading to manage resource usage efficiently.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

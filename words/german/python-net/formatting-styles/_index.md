@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Entdecken Sie unsere umfassenden Tutorials zu Aspose.Words für Python-net mit Schwerpunkt auf Formatierung und Stilen. Verbessern Sie Ihre Fähigkeiten zur Dokumentverarbeitung mit praktischen Einblicken."
 "title": "Meistern Sie die Formatierung und Stile von Aspose.Words mit Python-Net-Tutorials"
@@ -64,7 +61,3 @@ Erfahren Sie, wie Sie Tabstopps in Ihren Python-Dokumenten mit Aspose.Words effe
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

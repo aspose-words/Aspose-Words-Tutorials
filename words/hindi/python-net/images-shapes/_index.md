@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net का उपयोग करके छवियों और आकृतियों को एकीकृत करने पर शीर्ष Aspose.Words ट्यूटोरियल देखें। व्यावहारिक गाइड के साथ अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ।"
 "title": "Aspose.Words पायथन-नेट&#58; छवियों और आकृतियों में महारत हासिल करने के ट्यूटोरियल"
@@ -43,7 +40,3 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

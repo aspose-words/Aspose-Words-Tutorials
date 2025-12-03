@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak programově upravovat dokumenty v Pythonu pomocí Aspose.Words nastavením barev stránek, importem uzlů s vlastními styly a použitím tvarů pozadí."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Závěr
 
 Zvládnutím těchto funkcí Aspose.Words pro Python můžete výrazně vylepšit možnosti přizpůsobení vašich pracovních postupů pro zpracování dokumentů. Ať už jde o nastavení jednotných barev pozadí, import uzlů s přizpůsobenými styly nebo použití sofistikovaných tvarů pozadí, tato příručka poskytuje solidní základ pro vylepšení vašich úkolů správy dokumentů.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

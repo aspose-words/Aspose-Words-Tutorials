@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 创建、自定义和管理文档中的页眉和页脚。通过我们的分步指南，提升您的文档格式化技能。"
@@ -218,7 +215,3 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

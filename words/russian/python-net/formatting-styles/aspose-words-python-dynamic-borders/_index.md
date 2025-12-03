@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как создавать динамические границы документов с помощью Aspose.Words для Python. Освойте методы стилизации границ текста и таблиц."
@@ -270,7 +267,3 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## Заключение
 Освоив эти приемы с Aspose.Words для Python, вы сможете создавать профессионально выглядящие документы с динамическими границами. Это руководство дает прочную основу для дальнейшего изучения возможностей библиотеки.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

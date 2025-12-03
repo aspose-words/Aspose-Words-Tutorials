@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 단락 테두리를 효율적으로 제거하고 사용자 지정하는 방법을 알아보세요. 문서 서식 지정 프로세스를 간소화하세요."
@@ -182,7 +179,3 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **무료 체험**: [무료로 시작하세요](https://releases.aspose.com/words/python/)
 - **임시 면허**: [임시 면허 취득](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

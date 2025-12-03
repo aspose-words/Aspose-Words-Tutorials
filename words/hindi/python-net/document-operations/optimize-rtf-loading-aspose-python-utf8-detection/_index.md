@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन के लिए Aspose.Words का उपयोग करके RTF दस्तावेज़ों को कुशलतापूर्वक लोड करना और UTF-8 एन्कोडिंग का पता लगाना सीखें। अपनी परियोजनाओं में टेक्स्ट हैंडलिंग सटीकता बढ़ाएँ।"
@@ -141,7 +138,3 @@ Aspose.Words के प्रदर्शन को अनुकूलित क
 - [निःशुल्क परीक्षण संस्करण](https://releases.aspose.com/words/python/)
 - [अस्थायी लाइसेंस आवेदन](https://purchase.aspose.com/temporary-license/)
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

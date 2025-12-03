@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Leer Aspose.Words voor Python-net met onze tutorials over samenvoegen en rapportage. Verbeter uw vaardigheden in documentautomatisering en stroomlijn uw processen voor datarapportage."
 "title": "Aspose.Words Python-net&#58; Zelfstudies voor samenvoegen en rapporteren"
@@ -40,7 +37,3 @@ Leer hoe je documenten kunt samenvoegen met Aspose.Words in Python, met de nadru
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

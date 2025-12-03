@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Table Manipulation in Word Documents using Aspose.Words for Python"
 description: "Learn how to seamlessly remove, insert, and convert table columns in Word documents with Aspose.Words for Python. Streamline your document editing tasks efficiently."
@@ -157,7 +154,3 @@ For further exploration, refer to these resources:
 - [Free Trial Version](https://releases.aspose.com/words/python/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

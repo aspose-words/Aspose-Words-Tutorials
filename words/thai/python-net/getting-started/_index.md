@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "ค้นพบบทช่วยสอนที่สำคัญเพื่อเริ่มต้นใช้งาน Aspose.Words โดยใช้ Python-net เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงความสามารถในการประมวลผลเอกสาร"
 "title": "เริ่มต้นใช้งาน Aspose.Words สำหรับ Python-net&#58; บทช่วยสอนที่จำเป็น"
@@ -39,7 +36,3 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

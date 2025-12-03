@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie Dokumentrevisionen mit Aspose.Words in Python effizient verwalten und verfolgen. Dieses Tutorial behandelt Einrichtung, Tracking-Methoden und Performance-Tipps für ein nahtloses Revisionsmanagement."
@@ -130,7 +127,3 @@ Sie beherrschen nun die Kunst, Inline-Knotenrevisionen mit Aspose.Words in Pytho
 - [Kostenlose Testversion und temporäre Lizenzen](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 Wir hoffen, dass dieser Leitfaden Ihnen hilft, Dokumentrevisionen mit Aspose.Words in Python effektiv zu verwalten. Viel Spaß beim Programmieren!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

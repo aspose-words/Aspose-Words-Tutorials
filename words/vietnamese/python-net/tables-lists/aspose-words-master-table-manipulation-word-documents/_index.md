@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách xóa, chèn và chuyển đổi các cột bảng trong tài liệu Word một cách liền mạch với Aspose.Words for Python. Đơn giản hóa các tác vụ chỉnh sửa tài liệu của bạn một cách hiệu quả."
@@ -152,7 +149,3 @@ Bây giờ bạn có các công cụ để thao tác hiệu quả các bảng Wo
 - [Phiên bản dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

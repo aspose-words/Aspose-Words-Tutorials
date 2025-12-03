@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Jelajahi tutorial Aspose.Words kami tentang Header, Footer & Page Setup dengan Python-net. Pelajari cara menyempurnakan format dokumen dengan mudah."
 "title": "Aspose.Words Python-net&#58; Tutorial Header, Footer & Pengaturan Halaman"
@@ -39,7 +36,3 @@ Tutorial kode untuk Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

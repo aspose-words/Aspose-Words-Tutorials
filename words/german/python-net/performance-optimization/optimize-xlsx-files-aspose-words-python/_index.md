@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Words für Python komprimieren, anpassen und optimieren. Verbessern Sie die Dateigrößenverwaltung und die Handhabung des Datums- und Uhrzeitformats."
@@ -177,7 +174,3 @@ Gehen Sie noch weiter, indem Sie diese Funktionen in größere Anwendungen oder 
 - **Kostenlose Testversion**: [Testen Sie Aspose kostenlos](https://releases.aspose.com/words/python/)
 - **Temporäre Lizenz**: [Beantragung einer temporären Lizenz](https://purchase.aspose.com/temporary-license/)
 - **Unterstützung**: [Aspose Forum-Support](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

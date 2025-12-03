@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tối ưu hóa xử lý hình ảnh trong tài liệu RTF với Aspose.Words cho Python. Lưu hình ảnh dưới dạng định dạng WMF và đảm bảo khả năng tương thích với trình đọc cũ hơn."
@@ -189,7 +186,3 @@ Khi làm việc với Aspose.Words, hãy cân nhắc những mẹo tối ưu hó
 ## Phần kết luận
 
 Bằng cách tận dụng Aspose.Words for Python, bạn có thể cải thiện đáng kể cách xử lý hình ảnh trong tài liệu RTF. Cho dù chuyển đổi hình ảnh sang WMF hay đảm bảo khả năng tương thích với trình đọc cũ hơn, các kỹ thuật này cung cấp các giải pháp mạnh mẽ phù hợp với nhu cầu của bạn. Sẵn sàng đưa kỹ năng xử lý tài liệu của bạn lên một tầm cao mới? Hãy thử các phương pháp này và xem sự khác biệt mà chúng tạo ra.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

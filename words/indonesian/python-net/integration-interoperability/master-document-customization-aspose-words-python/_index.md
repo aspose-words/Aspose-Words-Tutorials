@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menyesuaikan dokumen secara terprogram dalam Python dengan Aspose.Words dengan mengatur warna halaman, mengimpor node dengan gaya khusus, dan menerapkan bentuk latar belakang."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Kesimpulan
 
 Dengan menguasai fitur-fitur Aspose.Words untuk Python ini, Anda dapat meningkatkan kemampuan kustomisasi alur kerja pemrosesan dokumen Anda secara signifikan. Baik melalui pengaturan warna latar belakang yang seragam, mengimpor node dengan gaya yang disesuaikan, atau menerapkan bentuk latar belakang yang canggih, panduan ini menyediakan dasar yang kuat untuk meningkatkan tugas manajemen dokumen Anda.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

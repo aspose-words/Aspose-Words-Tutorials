@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python için Aspose.Words'ü kullanarak belge görünümlerini nasıl özelleştireceğinizi öğrenin. Kullanıcı deneyimini geliştirmek için yakınlaştırma seviyelerini, görüntüleme seçeneklerini ve daha fazlasını ayarlayın."
@@ -237,7 +234,3 @@ Aspose.Words kullanırken performansı optimize etmek şunları içerir:
 
 ## Çözüm
 Bu kılavuzu takip ederek, belge görünümlerini etkili bir şekilde özelleştirmek için Aspose.Words for Python'ı kullanabilirsiniz. Bu yalnızca kullanıcı deneyimini geliştirmekle kalmaz, aynı zamanda belgelerin farklı platformlarda nasıl sunulacağı konusunda esneklik sağlar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

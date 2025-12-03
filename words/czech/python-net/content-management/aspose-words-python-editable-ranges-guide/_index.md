@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak vytvářet a spravovat upravitelné rozsahy v chráněných dokumentech pomocí Aspose.Words pro Python. Vylepšete si své schopnosti správy dokumentů ještě dnes."
@@ -167,7 +164,3 @@ Prozkoumejte pokročilejší funkce Aspose.Words nebo integrujte tuto funkcional
 - **Fórum podpory**: [Podpora Aspose](https://forum.aspose.com/c/words/10)
 
 S touto příručkou budete dobře vybaveni k využití možností upravitelných rozsahů ve vašich projektech správy dokumentů pomocí Aspose.Words pro Python!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

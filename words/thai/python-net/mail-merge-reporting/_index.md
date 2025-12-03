@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "เรียนรู้ Aspose.Words สำหรับ Python-net ด้วยบทช่วยสอนเกี่ยวกับการผสานจดหมายและการรายงานของเรา ปรับปรุงทักษะการจัดการเอกสารอัตโนมัติและปรับปรุงกระบวนการรายงานข้อมูลของคุณให้มีประสิทธิภาพ"
 "title": "Aspose.Words Python-net&#58; บทช่วยสอนการผสานจดหมายและการรายงาน"
@@ -40,7 +37,3 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

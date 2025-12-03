@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python ile tireleme sözlüklerinin nasıl kaydedileceğini ve kaydının nasıl silineceğini öğrenin, böylece diller arasında okunabilirliği artırın."
@@ -176,7 +173,3 @@ Daha özel yanıtlar için şuraya bakın: [Aspose Forum](https://forum.aspose.c
 - **Satın almak:** [Aspose.Words Lisansı Satın Alın](https://purchase.aspose.com/buy)
 - **Ücretsiz Deneme:** [Ücretsiz Deneme ile Başlayın](https://releases.aspose.com/words/python/)
 - **Geçici Lisans:** [Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

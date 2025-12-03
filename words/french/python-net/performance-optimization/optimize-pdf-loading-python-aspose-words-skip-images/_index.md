@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à ignorer efficacement les images lors du chargement de PDF en Python avec Aspose.Words. Améliorez les performances de votre application et optimisez l'utilisation des ressources."
@@ -139,7 +136,3 @@ Explorez davantage d'Aspose.Words en consultant le [documentation officielle](ht
 - [Essai gratuit d'Aspose.Words](https://releases.aspose.com/words/python/)
 - [Acquisition de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

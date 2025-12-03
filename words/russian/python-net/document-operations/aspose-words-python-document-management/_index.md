@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как ограничить уровни заголовков и применять цифровые подписи в документах XPS с помощью Aspose.Words для Python, повышая безопасность документов и облегчая навигацию."
@@ -188,7 +185,3 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **В1: Как обеспечить безопасность моих цифровых подписей с помощью Aspose.Words?**
 - Убедитесь, что вы пользуетесь услугами доверенного центра сертификации для получения цифровых сертификатов.
 - Регулярно обновляйте и безопасно управляйте своими ключами и паролями.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

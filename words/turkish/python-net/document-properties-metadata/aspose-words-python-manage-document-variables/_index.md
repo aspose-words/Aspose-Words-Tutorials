@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python için Aspose.Words kullanarak belge değişkenlerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Bu kılavuz, belgelerde değişken değerlerinin eklenmesini, güncellenmesini ve görüntülenmesini kapsar."
@@ -164,7 +161,3 @@ Bu çözümleri bugün uygulamaya çalışıp iş akışlarınızdaki farkı gö
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
 
 Python'da Aspose.Words'ü daha iyi anlamak ve uygulamak için bu kaynakları keşfedin. İyi kodlamalar!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

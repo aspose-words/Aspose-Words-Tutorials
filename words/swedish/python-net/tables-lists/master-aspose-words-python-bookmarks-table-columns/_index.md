@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig att effektivt infoga, ta bort och hantera bokmärken och tabellkolumner med Aspose.Words för Python. Förbättra din dokumenthantering med praktiska exempel och prestandatips."
@@ -143,7 +140,3 @@ Att behärska infogning, borttagning och hantering av bokmärken med Aspose.Word
    - Ja, Aspose.Words stöder flera format, inklusive DOCX och PDF.
 3. **Vilka är begränsningarna med bokmärken för tabellkolumner?**
    - De kan bara användas i tabeller som har tydligt definierade rader och kolumner.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

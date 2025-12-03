@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "AI Summarization & Translation in Python&#58; Aspose.Words and OpenAI Guide"
 description: "Learn how to automate AI summarization and translation using Aspose.Words for Python and OpenAI. This guide covers setup, implementation, and practical applications."
@@ -220,8 +217,3 @@ Ready to put this knowledge into practice? Try implementing the solution in your
 - "AI Summarization Python"
 - "Aspose.Words translation"
 - "OpenAI document processing"
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

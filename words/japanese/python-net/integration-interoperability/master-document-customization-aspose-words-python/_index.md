@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words を使用して、ページの色を設定し、カスタム スタイルでノードをインポートし、背景の図形を適用することで、Python でドキュメントをプログラム的にカスタマイズする方法を学習します。"
@@ -237,7 +234,3 @@ def background_shape_example():
 ## 結論
 
 Aspose.Words for Pythonのこれらの機能を習得することで、ドキュメント処理ワークフローのカスタマイズ機能を大幅に強化できます。均一な背景色の設定、カスタマイズされたスタイルを持つノードのインポート、洗練された背景図形の適用など、このガイドはドキュメント管理タスクを向上させるための確固たる基盤を提供します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à utiliser les caractères de contrôle dans les documents Python avec Aspose.Words pour automatiser la mise en forme et la mise en page de vos documents. Découvrez des techniques pour insérer des espaces, des tabulations, des sauts de page, etc."
@@ -190,7 +187,3 @@ Ready to take your document automation to the next level? Try implementing these
    - Line Feed (LF) moves to the next line, while Carriage Return (CR) returns to the beginning of the current line.
 4. **How do I acquire a license for Aspose.Words?**
    - Visit the Aspose website to purchase or obtain a trial license.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

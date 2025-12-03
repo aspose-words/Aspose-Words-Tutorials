@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีจัดการแท็บหยุดในเอกสาร Python ของคุณอย่างมีประสิทธิภาพโดยใช้ Aspose.Words คู่มือนี้ครอบคลุมถึงการเพิ่ม ปรับแต่ง และลบแท็บหยุด พร้อมด้วยตัวอย่างในทางปฏิบัติ"
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## บทสรุป
 
 เรียนรู้การใช้แท็บสต็อปใน Python อย่างเชี่ยวชาญโดยใช้ Aspose.Words ช่วยให้คุณสร้างเอกสารที่จัดรูปแบบอย่างมืออาชีพได้อย่างง่ายดาย โดยปฏิบัติตามคำแนะนำนี้ คุณสามารถเพิ่ม ปรับแต่ง และจัดการแท็บสต็อปได้อย่างมีประสิทธิภาพ ส่งผลให้คุณภาพโดยรวมของผลลัพธ์ที่เป็นข้อความของคุณดีขึ้น
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

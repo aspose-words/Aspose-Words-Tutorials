@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerje meg, hogyan szabhatja testre a Word-dokumentumok nyomtatási beállításait az Aspose.Words és a Python használatával. Sajátítsa el a papírméretet, a tájolást és a tálcakonfigurációkat."
@@ -148,7 +145,3 @@ Alkalmazza egyedi nyomtatási megoldásunkat a következő projektjében, és le
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 
 Böngészd át ezeket az anyagokat, hogy elmélyítsd a megértésedet és a legtöbbet hozd ki az Aspose.Words for Pythonból. Jó nyomtatást!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

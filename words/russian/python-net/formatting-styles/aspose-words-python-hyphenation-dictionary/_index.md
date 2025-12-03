@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как регистрировать и отменять регистрацию словарей переносов с помощью Aspose.Words для Python, улучшая читаемость на разных языках."
@@ -176,7 +173,3 @@ A: В настоящее время вам необходимо отменять
 - **Покупка:** [Купить лицензию Aspose.Words](https://purchase.aspose.com/buy)
 - **Бесплатная пробная версия:** [Начните с бесплатной пробной версии](https://releases.aspose.com/words/python/)
 - **Временная лицензия:** [Запросить временную лицензию](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

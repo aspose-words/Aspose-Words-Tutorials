@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Maîtrisez Aspose.Words pour Python-net grâce à nos tutoriels sur le publipostage et le reporting. Améliorez vos compétences en automatisation de documents et rationalisez vos processus de reporting de données."
 "title": "Aspose.Words Python-net &#58; tutoriels sur le publipostage et la création de rapports"
@@ -40,7 +37,3 @@ Apprenez à maîtriser la fusion de documents avec Aspose.Words en Python, en vo
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

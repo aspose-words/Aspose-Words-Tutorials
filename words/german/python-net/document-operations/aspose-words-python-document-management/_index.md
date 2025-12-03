@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words für Python Überschriftenebenen begrenzen und digitale Signaturen in XPS-Dokumenten anwenden und so die Dokumentsicherheit und -navigation verbessern."
@@ -188,7 +185,3 @@ Bereit für den nächsten Schritt? Integrieren Sie Aspose.Words in andere System
 **F1: Wie stelle ich sicher, dass meine digitalen Signaturen mit Aspose.Words sicher sind?**
 - Stellen Sie sicher, dass Sie zum Abrufen Ihrer digitalen Zertifikate eine vertrauenswürdige Zertifizierungsstelle verwenden.
 - Aktualisieren und verwalten Sie Ihre Schlüssel und Passwörter regelmäßig sicher.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

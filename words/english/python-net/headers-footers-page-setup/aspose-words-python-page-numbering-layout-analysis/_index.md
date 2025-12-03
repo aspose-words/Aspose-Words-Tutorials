@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Page Numbering & Layout Analysis with Aspose.Words for Python"
 description: "A code tutorial for Aspose.Words Python-net"
@@ -225,7 +222,3 @@ While comprehensive, complex layouts may require manual adjustments for optimal 
 - **Support Forum:** [Aspose Support Community](https://forum.aspose.com/c/words/10)
 
 By following this guide, you'll be well-equipped to implement and optimize page numbering and layout analysis in your Python projects using Aspose.Words. Happy coding!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

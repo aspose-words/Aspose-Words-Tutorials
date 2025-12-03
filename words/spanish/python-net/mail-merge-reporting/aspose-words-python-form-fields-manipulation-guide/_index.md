@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Domine la gestión automatizada de documentos en Python con Aspose.Words. Aprenda a manipular campos de formulario, incluyendo cuadros combinados y entradas de texto, con nuestra guía completa."
@@ -261,7 +258,3 @@ doc.save(nombre_de_archivo="SU_DIRECTORIO_DE_DOCUMENTOS/FormFields.ManageDropDow
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

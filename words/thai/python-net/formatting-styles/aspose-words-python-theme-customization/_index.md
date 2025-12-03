@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีปรับแต่งธีมใน Aspose.Words โดยใช้ Python คู่มือนี้ครอบคลุมถึงการตั้งค่าสีและแบบอักษร เพื่อให้แน่ใจว่ามีความสอดคล้องของแบรนด์ในเอกสารของคุณ"
@@ -168,7 +165,3 @@ A: แม้ว่าคุณลักษณะขั้นสูงของ W
 - [เข้าถึงการทดลองใช้ฟรี](https://releases.aspose.com/words/python/)
 - [ข้อมูลใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

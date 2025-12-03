@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words kullanarak Python'da PDF'leri yüklerken resimleri etkili bir şekilde nasıl atlayacağınızı öğrenin. Uygulama performansını artırın ve kaynak kullanımını optimize edin."
@@ -139,7 +136,3 @@ Aspose.Words'ün daha fazlasını keşfetmek için şu adımları izleyin: [resm
 - [Aspose.Words'ün Ücretsiz Denemesi](https://releases.aspose.com/words/python/)
 - [Geçici Lisans Edinimi](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

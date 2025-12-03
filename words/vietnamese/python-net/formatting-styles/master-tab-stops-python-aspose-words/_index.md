@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài liệu Python của bạn bằng Aspose.Words. Hướng dẫn này bao gồm cách thêm, tùy chỉnh và xóa các điểm dừng tab với các ví dụ thực tế."
@@ -231,7 +228,3 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Phần kết luận
 
 Làm chủ các điểm dừng tab trong Python bằng Aspose.Words cho phép bạn dễ dàng tạo các tài liệu được định dạng chuyên nghiệp. Bằng cách làm theo hướng dẫn này, bạn có thể thêm, tùy chỉnh và quản lý các điểm dừng tab hiệu quả, nâng cao chất lượng tổng thể của các đầu ra dạng văn bản của bạn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

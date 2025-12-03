@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Migliora le tue competenze di elaborazione dei documenti con i tutorial di Aspose.Words incentrati su tabelle ed elenchi in Python-net. Perfetti per gli sviluppatori che cercano spunti pratici e attuabili."
 "title": "Aspose.Words Python-net&#58; Tutorial su tabelle e liste master"
@@ -48,7 +45,3 @@ Scopri come unire in modo efficiente le celle di una tabella in Python usando As
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

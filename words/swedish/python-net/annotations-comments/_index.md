@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Utforska vår omfattande Aspose.Words-handledning om anteckningar och kommentarer med Python-net. Förbättra dina dokumentbehandlingsfärdigheter med praktiska exempel."
 "title": "Behärska annoteringar och kommentarer i Aspose.Words med Python-net"
@@ -36,7 +33,3 @@ Lär dig hur du programmatiskt lägger till, hanterar och hämtar kommentarer oc
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用して XPS ドキュメントの見出しレベルを制限し、デジタル署名を適用して、ドキュメントのセキュリティとナビゲーションを強化する方法を学習します。"
@@ -188,7 +185,3 @@ Aspose.Words for Python を使用してこれらの機能を実装すること�
 **Q1: Aspose.Words でデジタル署名が安全であることを確認するにはどうすればよいですか?**
 - デジタル証明書を取得するには、信頼できる証明機関を使用するようにしてください。
 - キーとパスワードを定期的に更新し、安全に管理してください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

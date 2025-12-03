@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tùy chỉnh cài đặt in cho tài liệu Word bằng Aspose.Words và Python. Nắm vững kích thước giấy, hướng và cấu hình khay."
@@ -148,7 +145,3 @@ Triển khai giải pháp in ấn tùy chỉnh vào dự án tiếp theo của b
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Khám phá các tài nguyên này để hiểu sâu hơn và tận dụng tối đa Aspose.Words for Python. In ấn vui vẻ!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

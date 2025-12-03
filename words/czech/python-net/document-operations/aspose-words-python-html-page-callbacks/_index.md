@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak používat Aspose.Words pro Python k převodu dokumentů Wordu na samostatné stránky HTML pomocí vlastních zpětných volání. Ideální pro správu dokumentů a publikování na webu."
@@ -152,7 +149,3 @@ A5: Připojte se k [Fórum Aspose](https://forum.aspose.com/c/words/10) klást o
 - **Podpora**Navštivte [Fórum Aspose](https://forum.aspose.com/c/words/10) pro dotazy a podporu komunity.
 
 Ponořte se do Aspose.Words pro Python ještě dnes a odhalte nové možnosti ve zpracování dokumentů!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

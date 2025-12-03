@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá hướng dẫn Aspose.Words của chúng tôi về Headers, Footers & Page Setup với Python-net. Học cách cải thiện định dạng tài liệu một cách dễ dàng."
 "title": "Aspose.Words Python-net&#58; Hướng dẫn thiết lập tiêu đề, chân trang và trang"
@@ -39,7 +36,3 @@ Hướng dẫn mã cho Aspose.Words Python-net
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

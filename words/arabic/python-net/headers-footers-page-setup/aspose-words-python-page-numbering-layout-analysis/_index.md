@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -217,7 +214,3 @@ while True:
 - **منتدى الدعم:** [مجتمع دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باتباع هذا الدليل، ستكون جاهزًا تمامًا لتنفيذ وتحسين ترقيم الصفحات وتحليل تخطيطها في مشاريع بايثون الخاصة بك باستخدام Aspose.Words. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

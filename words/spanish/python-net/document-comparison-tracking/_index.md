@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explora nuestro completo tutorial de Aspose.Words para desarrolladores de Python-NET. Aprende a comparar y rastrear eficientemente los cambios en documentos con herramientas potentes."
 "title": "Comparación y seguimiento de documentos maestros con Aspose.Words en Python-net"
@@ -36,7 +33,3 @@ Aprenda a gestionar y supervisar eficazmente las revisiones de documentos con As
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

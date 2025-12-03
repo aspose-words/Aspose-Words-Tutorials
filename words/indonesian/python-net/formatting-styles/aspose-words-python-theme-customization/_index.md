@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menyesuaikan tema di Aspose.Words menggunakan Python. Panduan ini mencakup pengaturan warna dan font, memastikan konsistensi merek di seluruh dokumen Anda."
@@ -168,7 +165,3 @@ J: Meskipun ekstensif, beberapa fitur Word tingkat lanjut mungkin tidak dapat di
 - [Akses Uji Coba Gratis](https://releases.aspose.com/words/python/)
 - [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

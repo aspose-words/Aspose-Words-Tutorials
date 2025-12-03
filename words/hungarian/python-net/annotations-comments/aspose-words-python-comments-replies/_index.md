@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulja meg, hogyan adhat hozzá, kezelhet és kérhet le programozott módon megjegyzéseket és válaszokat Word-dokumentumokban az Aspose.Words könyvtár és Python használatával."
@@ -245,7 +242,3 @@ Az Aspose.Words for Python különféle dokumentum-munkafolyamatokba integrálha
 3. **Akadémiai együttműködés**: Tudományos cikkek szerzői és bírálói közötti visszajelzési hurkok elősegítése.
 
 Ez az átfogó útmutató segít hatékonyan megvalósítani a megjegyzés- és válaszkezelést a Word-dokumentumokban az Aspose.Words for Python használatával.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

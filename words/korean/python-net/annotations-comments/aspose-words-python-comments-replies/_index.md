@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python과 함께 Aspose.Words 라이브러리를 사용하여 Word 문서에서 프로그래밍 방식으로 주석과 답변을 추가, 관리 및 검색하는 방법을 알아보세요."
@@ -245,7 +242,3 @@ Aspose.Words for Python은 다양한 문서 워크플로에 통합될 수 있습
 3. **학술 협력**: 학술 논문에서 저자와 심사자 간의 피드백 루프를 원활하게 만듭니다.
 
 이 포괄적인 가이드는 Python용 Aspose.Words를 사용하여 Word 문서에서 주석 및 답글 관리를 효과적으로 구현하는 데 도움이 됩니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

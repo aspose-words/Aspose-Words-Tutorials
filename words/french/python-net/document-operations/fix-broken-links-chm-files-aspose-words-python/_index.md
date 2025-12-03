@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à résoudre les liens rompus dans les fichiers .chm grâce à la puissante bibliothèque Aspose.Words. Améliorez la fiabilité de vos documents et l'expérience utilisateur grâce à ce guide étape par étape."
@@ -148,7 +145,3 @@ Pour plus d’assistance et d’exploration :
 - **Télécharger**: [Aspose.Words pour les versions Python](https://releases.aspose.com/words/python/)
 - **Achat et essai**: [Acquérir une licence ou un essai gratuit](https://purchase.aspose.com/buy)
 - **Forum d'assistance**: [Communauté de soutien Aspose](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie defekte Links in CHM-Dateien mithilfe der leistungsstarken Aspose.Words-Bibliothek beheben. Verbessern Sie die Zuverlässigkeit Ihrer Dokumente und die Benutzerfreundlichkeit mit dieser Schritt-für-Schritt-Anleitung."
@@ -148,7 +145,3 @@ Für weitere Unterstützung und Erkundung:
 - **Herunterladen**: [Aspose.Words für Python-Releases](https://releases.aspose.com/words/python/)
 - **Kaufen & Testen**: [Erwerben Sie eine Lizenz oder eine kostenlose Testversion](https://purchase.aspose.com/buy)
 - **Support-Forum**: [Aspose Support-Community](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

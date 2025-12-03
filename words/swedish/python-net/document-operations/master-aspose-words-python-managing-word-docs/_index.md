@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig att läsa in, hantera och automatisera Microsoft Word-dokument med Aspose.Words i Python. Effektivisera dina dokumentbehandlingsuppgifter utan ansträngning."
@@ -198,7 +195,3 @@ Här är några praktiska användningsområden för dokumentbehandling med Aspos
 - Extrahera metadata för dataanalys eller arkivering.
 
 Genom att följa den här guiden kommer du att vara väl rustad för att hantera Word-dokument effektivt med Aspose.Words i Python. Fortsätt utforska bibliotekets omfattande funktioner för att ytterligare optimera dina dokumenthanteringsarbetsflöden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

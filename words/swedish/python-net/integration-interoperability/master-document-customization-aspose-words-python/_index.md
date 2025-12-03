@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du programmatiskt anpassar dokument i Python med Aspose.Words genom att ställa in sidfärger, importera noder med anpassade stilar och tillämpa bakgrundsformer."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## Slutsats
 
 Genom att bemästra dessa funktioner i Aspose.Words för Python kan du avsevärt förbättra anpassningsmöjligheterna i dina dokumenthanteringsarbetsflöden. Oavsett om det är genom att ställa in enhetliga bakgrundsfärger, importera noder med anpassade stilar eller tillämpa sofistikerade bakgrundsformer, ger den här guiden en solid grund för att förbättra dina dokumenthanteringsuppgifter.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

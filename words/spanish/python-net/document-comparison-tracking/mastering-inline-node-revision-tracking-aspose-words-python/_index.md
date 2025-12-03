@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a gestionar y supervisar eficazmente las revisiones de documentos con Aspose.Words en Python. Este tutorial abarca la configuración, los métodos de seguimiento y consejos de rendimiento para una gestión de revisiones fluida."
@@ -130,7 +127,3 @@ Ya domina el seguimiento de las revisiones de nodos en línea con Aspose.Words e
 - [Prueba gratuita y licencias temporales](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 Esperamos que esta guía te ayude a gestionar eficazmente las revisiones de documentos con Aspose.Words en Python. ¡Que disfrutes programando!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

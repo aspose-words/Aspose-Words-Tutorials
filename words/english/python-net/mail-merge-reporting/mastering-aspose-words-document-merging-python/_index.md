@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Aspose.Words for Document Merging in Python&#58; Keep Source Numbering & Insert at Bookmark"
 description: "Learn how to master document merging with Aspose.Words in Python, focusing on 'Keep Source Numbering' and 'Insert at Bookmark'. Enhance your document processing skills today!"
@@ -189,7 +186,3 @@ Experiment with additional Aspose.Words functionalities and explore integration 
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

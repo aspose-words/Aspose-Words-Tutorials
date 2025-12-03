@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net 代码教程"
@@ -283,7 +280,3 @@ doc.save('YOUR_OUTPUT_DIRECTORY/ModifiedHyperlinks.docx')
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
 
 现在您已经掌握了这些知识，可以满怀信心地投入到您的项目中，并探索 Aspose.Words for Python 的全部潜力！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Python 自動化 Microsoft Word VBA 專案。本指南介紹使用 Aspose.Words 建立、複製、檢查保護狀態以及管理 VBA 專案中的參考。"
@@ -187,7 +184,3 @@ doc = aw.Document()
 1. **自動產生報告**：建立和管理 VBA 項目，以便在企業環境中自動產生報告。
 2. **模板複製**：在多個文件中克隆帶有嵌入巨集的精心設計的模板，以保持一致性。
 3. **安全審計**：檢查 VBA 項目是否受密碼保護，以確保符合安全協定。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

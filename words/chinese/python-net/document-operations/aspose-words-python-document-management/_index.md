@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 限制标题级别并在 XPS 文档中应用数字签名，从而增强文档安全性和导航。"
@@ -188,7 +185,3 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **问题 1：如何确保我的数字签名在 Aspose.Words 中是安全的？**
 - 确保您使用受信任的证书颁发机构来获取您的数字证书。
 - 定期更新并安全地管理您的密钥和密码。
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

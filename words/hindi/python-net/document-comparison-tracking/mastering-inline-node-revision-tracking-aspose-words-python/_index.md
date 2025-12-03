@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन में Aspose.Words का उपयोग करके दस्तावेज़ संशोधनों को कुशलतापूर्वक प्रबंधित और ट्रैक करना सीखें। यह ट्यूटोरियल निर्बाध संशोधन प्रबंधन के लिए सेटअप, ट्रैकिंग विधियों और प्रदर्शन युक्तियों को कवर करता है।"
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [निःशुल्क परीक्षण और अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10)
 हमें उम्मीद है कि यह गाइड आपको पायथन में Aspose.Words का उपयोग करके दस्तावेज़ संशोधनों को प्रभावी ढंग से प्रबंधित करने में सक्षम बनाएगी। हैप्पी कोडिंग!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

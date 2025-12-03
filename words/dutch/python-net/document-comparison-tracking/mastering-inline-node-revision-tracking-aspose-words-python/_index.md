@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u documentrevisies efficiënt kunt beheren en volgen met Aspose.Words in Python. Deze tutorial behandelt de installatie, volgmethoden en prestatietips voor naadloos revisiebeheer."
@@ -130,7 +127,3 @@ Je beheerst nu de kunst van het bijhouden van inline node-revisies met Aspose.Wo
 - [Gratis proefversie en tijdelijke licenties](https://purchase.aspose.com/temporary-license/)
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 We hopen dat deze handleiding je helpt om documentrevisies effectief te beheren met Aspose.Words in Python. Veel plezier met coderen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tối ưu hóa việc lưu tài liệu với Aspose.Words cho Python bằng định dạng luồng XAML và lệnh gọi lại tiến trình. Nâng cao hiệu quả trong việc quản lý tài liệu."
@@ -188,7 +185,3 @@ Sau đây là một số trường hợp sử dụng thực tế của các tín
 ## Phần kết luận
 
 Trong hướng dẫn này, chúng tôi đã khám phá cách tối ưu hóa việc lưu tài liệu với Aspose.Words for Python bằng XAML Flow và các lệnh gọi lại tiến trình. Bằng cách triển khai các tính năng này, bạn có thể nâng cao hiệu quả của quy trình xử lý tài liệu, quản lý tài nguyên hiệu quả và đảm bảo các hoạt động kịp thời.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengelola variabel dokumen secara efisien menggunakan Aspose.Words untuk Python. Panduan ini mencakup penambahan, pembaruan, dan tampilan nilai variabel dalam dokumen."
@@ -164,7 +161,3 @@ Mengapa tidak mencoba menerapkan solusi ini hari ini dan melihat perbedaan dalam
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
 
 Jelajahi sumber daya ini untuk lebih meningkatkan pemahaman dan penerapan Aspose.Words dalam Python. Selamat membuat kode!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Een codetutorial voor Aspose.Words Python-net"
@@ -239,7 +236,3 @@ Voor meer informatie kunt u de volgende bronnen raadplegen:
 - **Ondersteuningsforum**: Betrek de gemeenschap bij [Aspose's Support Forum](https://forum.aspose.com/c/words/10)
 
 Met deze uitgebreide handleiding bent u nu klaar om Aspose.Words voor Python te gebruiken bij het maken en beheren van slimme tags in uw Word-documenten. Veel plezier met coderen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

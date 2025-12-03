@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menggabungkan sel tabel secara efisien di Python menggunakan Aspose.Words. Panduan ini mencakup penggabungan vertikal dan horizontal, pengaturan padding, dan aplikasi praktis."
@@ -216,7 +213,3 @@ Siap untuk mengembangkan keterampilan Anda lebih jauh? Pelajari lebih dalam deng
 - [Uji Coba Gratis](https://releases.aspose.com/words/python/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

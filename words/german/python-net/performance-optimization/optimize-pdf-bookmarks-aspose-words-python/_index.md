@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ein Code-Tutorial für Aspose.Words Python-net"
@@ -183,7 +180,3 @@ Bereit, Ihre PDFs zu verbessern? Beginnen Sie noch heute mit der Implementierung
 - **Unterstützung**Holen Sie sich Hilfe von der Community auf [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Dieser Leitfaden hat Ihnen das Wissen vermittelt, wie Sie PDF-Lesezeichen mit Aspose.Words für Python optimieren können. Viel Spaß beim Programmieren!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

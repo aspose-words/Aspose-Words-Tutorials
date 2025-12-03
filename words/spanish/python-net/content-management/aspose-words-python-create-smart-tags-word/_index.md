@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutorial de código para Aspose.Words Python-net"
@@ -239,7 +236,3 @@ Para obtener más información, explore estos recursos:
 - **Foro de soporte**:Interactúe con la comunidad en [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 
 Con esta guía completa, ya está preparado para aprovechar Aspose.Words para Python al crear y administrar etiquetas inteligentes en sus documentos de Word. ¡Que disfrute programando!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

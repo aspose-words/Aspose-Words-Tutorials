@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرف على كيفية تخصيص المستندات برمجيًا في Python باستخدام Aspose.Words عن طريق تعيين ألوان الصفحة واستيراد العقد باستخدام الأنماط المخصصة وتطبيق أشكال الخلفية."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## خاتمة
 
 بإتقان هذه الميزات في Aspose.Words لبايثون، يمكنك تحسين إمكانيات التخصيص بشكل ملحوظ في سير عمل معالجة مستنداتك. سواءً من خلال تعيين ألوان خلفية موحدة، أو استيراد عقد بأنماط مخصصة، أو تطبيق أشكال خلفية متطورة، يوفر هذا الدليل أساسًا متينًا للارتقاء بمهام إدارة مستنداتك.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

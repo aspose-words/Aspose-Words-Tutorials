@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u Word-documenten kunt optimaliseren voor verschillende MS Word-versies met Aspose.Words in Python. Deze handleiding behandelt compatibiliteitsinstellingen, prestatietips en praktische toepassingen."
@@ -147,7 +144,3 @@ Met Aspose.Words voor Python kunt u de compatibiliteit van Word-documenten in ve
 - **Gratis proefversie en tijdelijke licentie**: Begin met een gratis proefperiode of ontvang een tijdelijke licentie op [Aspose-releases](https://releases.aspose.com/words/python/) 
 
 Deze uitgebreide gids stelt je in staat om je Word-documenten effectief te optimaliseren met Aspose.Words voor Python. Veel plezier met coderen!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

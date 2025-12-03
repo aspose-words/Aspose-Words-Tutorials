@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek de beste Aspose.Words-tutorials over het integreren van afbeeldingen en vormen met Python.net. Verbeter je vaardigheden in documentautomatisering met praktische handleidingen."
 "title": "Aspose.Words Python-net&#58; Zelfstudies over afbeeldingen en vormen"
@@ -43,7 +40,3 @@ Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handlei
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

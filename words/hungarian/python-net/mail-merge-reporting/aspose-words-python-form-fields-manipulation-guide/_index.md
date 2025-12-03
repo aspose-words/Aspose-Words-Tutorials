@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Sajátítsa el az automatizált dokumentumkezelést Pythonban az Aspose.Words segítségével. Tanulja meg, hogyan kezelheti az űrlapmezőket, beleértve a kombinált listákat és a szövegbeviteli adatokat, átfogó útmutatónkkal."
@@ -261,7 +258,3 @@ doc.save(file_name="A_DOKUMENTUM_KÖNYVTÁRA/FormFields.ManageDropDownItems.html
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

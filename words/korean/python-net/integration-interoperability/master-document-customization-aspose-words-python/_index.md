@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words를 사용하여 페이지 색상 설정, 사용자 정의 스타일이 적용된 노드 가져오기, 배경 모양 적용 등을 통해 Python에서 문서를 프로그래밍 방식으로 사용자 지정하는 방법을 알아보세요."
@@ -237,7 +234,3 @@ def background_shape_example():
 ## 결론
 
 Aspose.Words for Python의 이러한 기능을 숙달하면 문서 처리 워크플로의 사용자 지정 기능을 크게 향상시킬 수 있습니다. 균일한 배경색 설정, 사용자 지정 스타일이 적용된 노드 가져오기, 정교한 배경 모양 적용 등 이 가이드는 문서 관리 작업을 향상시키는 탄탄한 기반을 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

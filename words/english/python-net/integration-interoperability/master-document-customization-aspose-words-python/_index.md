@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Document Customization in Python using Aspose.Words&#58; Page Colors, Node Importing & Backgrounds"
 description: "Learn how to programmatically customize documents in Python with Aspose.Words by setting page colors, importing nodes with custom styles, and applying background shapes."
@@ -242,8 +239,3 @@ def background_shape_example():
 ## Conclusion
 
 By mastering these features of Aspose.Words for Python, you can significantly enhance the customization capabilities of your document processing workflows. Whether it's through setting uniform background colors, importing nodes with customized styles, or applying sophisticated background shapes, this guide provides a solid foundation to elevate your document management tasks.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "透過這些專注於整合和互通性的 Python-net 教學來掌握 Aspose.Words。增強您的文件處理技能，實現無縫的軟體互動。"
 "title": "Aspose.Words Python-net 整合與互通性教程"
@@ -43,7 +40,3 @@ Aspose.Words Python-net 程式碼教學
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

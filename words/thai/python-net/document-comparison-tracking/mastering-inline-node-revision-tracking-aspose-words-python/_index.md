@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีจัดการและติดตามการแก้ไขเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words ใน Python บทช่วยสอนนี้ครอบคลุมถึงการตั้งค่า วิธีการติดตาม และเคล็ดลับประสิทธิภาพสำหรับการจัดการการแก้ไขที่ราบรื่น"
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 เราหวังว่าคู่มือนี้จะช่วยให้คุณจัดการการแก้ไขเอกสารได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words ใน Python ขอให้สนุกกับการเขียนโค้ด!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

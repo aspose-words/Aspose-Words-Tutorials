@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 Microsoft Word(DOCX) 문서를 고정 형식의 XAML로 변환하는 방법을 알아보고, 효율적인 리소스 관리와 디자인 무결성을 확보하세요."
@@ -159,7 +156,3 @@ Aspose.Words for Python을 사용하여 Word(DOCX) 파일을 고정 형식 XAML�
 - [무료 체험판 액세스](https://releases.aspose.com/words/python/)
 - [임시 면허 신청](https://purchase.aspose.com/temporary-license/)
 - [지원 포럼](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

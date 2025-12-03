@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إدارة مراجعات المستندات وتتبعها بكفاءة باستخدام Aspose.Words في بايثون. يغطي هذا البرنامج التعليمي الإعداد وطرق التتبع ونصائح الأداء لإدارة المراجعات بسلاسة."
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [النسخة التجريبية المجانية والتراخيص المؤقتة](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 نأمل أن يُمكّنك هذا الدليل من إدارة مراجعات المستندات بفعالية باستخدام Aspose.Words في بايثون. برمجة ممتعة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

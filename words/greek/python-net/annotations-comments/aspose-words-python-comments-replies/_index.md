@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να προσθέτετε, να διαχειρίζεστε και να ανακτάτε σχόλια και απαντήσεις μέσω προγραμματισμού σε έγγραφα του Word χρησιμοποιώντας τη βιβλιοθήκη Aspose.Words με Python."
@@ -245,7 +242,3 @@ print(f'UTC Date and Time: {utc_date_time}')
 3. **Ακαδημαϊκή Συνεργασία**Διευκόλυνση της ανταλλαγής σχολίων μεταξύ συγγραφέων και κριτών σε ακαδημαϊκές εργασίες.
 
 Αυτός ο ολοκληρωμένος οδηγός θα σας βοηθήσει να εφαρμόσετε αποτελεσματικά τη διαχείριση σχολίων και απαντήσεων στα έγγραφά σας στο Word χρησιμοποιώντας το Aspose.Words για Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

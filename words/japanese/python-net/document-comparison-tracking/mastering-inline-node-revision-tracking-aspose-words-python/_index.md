@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "PythonでAspose.Wordsを使用して、ドキュメントのリビジョンを効率的に管理・追跡する方法を学びましょう。このチュートリアルでは、シームレスなリビジョン管理を実現するための設定、追跡方法、パフォーマンス向上のためのヒントを紹介します。"
@@ -130,7 +127,3 @@ assert runs[5].is_delete_revision
 - [無料トライアルと一時ライセンス](https://purchase.aspose.com/temporary-license/)
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/words/10)
 このガイドが、PythonでAspose.Wordsを使用してドキュメントのリビジョンを効果的に管理するのに役立つことを願っています。コーディングを楽しみましょう！
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak bezproblemowo usuwać, wstawiać i konwertować kolumny tabeli w dokumentach Word za pomocą Aspose.Words dla Pythona. Usprawnij zadania edycji dokumentów."
@@ -152,7 +149,3 @@ Dalsze informacje znajdziesz w następujących zasobach:
 - [Bezpłatna wersja próbna](https://releases.aspose.com/words/python/)
 - [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/words/10)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

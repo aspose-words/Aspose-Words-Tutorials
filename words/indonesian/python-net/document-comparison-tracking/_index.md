@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Jelajahi tutorial Aspose.Words kami yang komprehensif untuk pengembang Python-net. Pelajari cara membandingkan dan melacak perubahan dokumen secara efisien menggunakan alat yang canggih."
 "title": "Perbandingan & Pelacakan Dokumen Utama dengan Aspose.Words di Python-net"
@@ -36,7 +33,3 @@ Pelajari cara mengelola dan melacak revisi dokumen secara efisien menggunakan As
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

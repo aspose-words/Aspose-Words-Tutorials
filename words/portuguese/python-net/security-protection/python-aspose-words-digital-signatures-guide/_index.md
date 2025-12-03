@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a carregar, acessar e verificar assinaturas digitais em documentos Python com o Aspose.Words. Este guia oferece instruções passo a passo para garantir a autenticidade do documento."
@@ -197,7 +194,3 @@ Para uma exploração mais aprofundada, considere se aprofundar em outras funcio
 - **Fórum de Suporte**: https://forum.aspose.com/c/words/10
 
 Explore estes recursos para aprimorar ainda mais seus conhecimentos e habilidades no manuseio de assinaturas digitais com o Aspose.Words para Python. Boa programação!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

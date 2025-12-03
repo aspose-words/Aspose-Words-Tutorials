@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีจัดการตัวแปรเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คู่มือนี้ครอบคลุมถึงการเพิ่ม อัปเดต และแสดงค่าตัวแปรในเอกสาร"
@@ -164,7 +161,3 @@
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 สำรวจทรัพยากรเหล่านี้เพื่อเพิ่มความเข้าใจและการใช้งาน Aspose.Words ใน Python ของคุณให้มากขึ้น เขียนโค้ดอย่างมีความสุข!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

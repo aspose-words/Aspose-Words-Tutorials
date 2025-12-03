@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je Aspose.Words voor Python gebruikt om Word-documenten te converteren naar afzonderlijke HTML-pagina's met behulp van aangepaste callbacks. Perfect voor documentbeheer en webpublicatie."
@@ -152,7 +149,3 @@ A5: Sluit je aan bij de [Aspose-forum](https://forum.aspose.com/c/words/10) om v
 - **Steun**: Bezoek de [Aspose Forum](https://forum.aspose.com/c/words/10) voor vragen en ondersteuning vanuit de community.
 
 Duik vandaag nog in Aspose.Words voor Python en ontdek nieuwe mogelijkheden voor documentverwerking!
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

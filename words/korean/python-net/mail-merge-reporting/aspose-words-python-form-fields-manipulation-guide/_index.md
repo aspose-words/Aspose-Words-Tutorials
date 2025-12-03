@@ -1,6 +1,3 @@
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words를 사용하여 Python에서 자동화된 문서 처리를 마스터하세요. 종합 가이드를 통해 콤보 상자와 텍스트 입력을 포함한 양식 필드를 조작하는 방법을 알아보세요."
@@ -261,7 +258,3 @@ doc.save(파일 이름="문서 디렉토리/FormFields.ManageDropDownItems.html"
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
