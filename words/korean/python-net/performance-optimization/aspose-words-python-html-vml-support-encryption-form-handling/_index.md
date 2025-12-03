@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 HTML 문서를 최적화하는 방법을 알아보세요. VML 그래픽을 관리하고, 문서를 안전하게 암호화하고, 양식 요소를 손쉽게 처리하세요."
@@ -199,3 +202,7 @@ def test_ignore_noscript_elements():
 
 **질문: VML 요소가 포함된 대용량 HTML 파일을 어떻게 처리하나요?**
 답변: 일괄 처리와 선택적 로딩을 활용해 리소스 사용을 효율적으로 관리합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

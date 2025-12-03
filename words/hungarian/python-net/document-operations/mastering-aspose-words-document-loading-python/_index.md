@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kód oktatóanyag az Aspose.Words Python-nethez"
@@ -178,3 +181,7 @@ V1: Bár az Aspose.Words nem kezeli natívan az URL-folyamokat, először letöl
 - **Támogatás:** [Aspose Fórum - Szavak Szekciója](https://forum.aspose.com/c/words/10)
 
 Ezt az útmutatót követve jó úton haladsz afelé, hogy hatékonyan kezeld a dokumentumbetöltési feladatokat az Aspose.Words segítségével Pythonban. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

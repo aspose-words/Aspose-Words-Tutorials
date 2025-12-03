@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python에서 Aspose.Words를 사용하여 다양한 MS Word 버전에 맞게 Word 문서를 최적화하는 방법을 알아보세요. 이 가이드에서는 호환성 설정, 성능 팁, 그리고 실용적인 활용법을 다룹니다."
@@ -144,3 +147,7 @@ Aspose.Words for Python을 활용하면 다양한 MS Word 버전에서 Word 문�
 - **무료 체험판 및 임시 라이센스**: 무료 체험판으로 시작하거나 임시 라이센스를 받으세요 [Aspose 릴리스](https://releases.aspose.com/words/python/) 
 
 이 포괄적인 가이드는 Aspose.Words for Python을 사용하여 Word 문서를 효과적으로 최적화하는 방법을 알려드립니다. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

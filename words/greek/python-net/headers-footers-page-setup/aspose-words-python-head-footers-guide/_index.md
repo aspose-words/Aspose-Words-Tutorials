@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να δημιουργείτε, να προσαρμόζετε και να διαχειρίζεστε κεφαλίδες και υποσέλιδα σε έγγραφα χρησιμοποιώντας το Aspose.Words για Python. Τελειοποιήστε τις δεξιότητές σας στη μορφοποίηση εγγράφων με τον αναλυτικό μας οδηγό."
@@ -215,3 +218,7 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

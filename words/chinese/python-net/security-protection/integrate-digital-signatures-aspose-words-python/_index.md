@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 进行数字签名保护您的 Word 文档。简化工作流程，轻松确保文档真实性。"
@@ -184,3 +187,7 @@ signature_line_object = signature_line_example.insert_signature_line(document_pa
 - **支持：** [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
 
 准备好将数字签名集成到您的文档中了吗？立即尝试执行这些步骤，体验 Python 中 Aspose.Words 增强的安全性和效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

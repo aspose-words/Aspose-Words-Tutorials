@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan távolíthatsz el, szúrhatsz be és konvertálhatsz zökkenőmentesen táblázatoszlopokat Word-dokumentumokban az Aspose.Words for Python segítségével. Egyszerűsítsd hatékonyan a dokumentumszerkesztési feladataidat."
@@ -149,3 +152,7 @@ További információkért tekintse meg ezeket a forrásokat:
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

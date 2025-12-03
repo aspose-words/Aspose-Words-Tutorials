@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python kullanarak Microsoft Word VBA projelerini nasıl otomatikleştireceğinizi öğrenin. Bu kılavuz, Aspose.Words ile VBA projelerinde referansları oluşturmayı, klonlamayı, koruma durumunu kontrol etmeyi ve yönetmeyi kapsar."
@@ -184,3 +187,7 @@ Bu özellik, projenizden gereksiz veya güncel olmayan VBA referanslarını orta
 1. **Otomatik Rapor Oluşturma**:Kurumsal ortamlarda otomatik rapor üretimi için VBA projeleri oluşturun ve yönetin.
 2. **Şablon Kopyalama**: Tutarlılığı korumak için, gömülü makrolar içeren iyi tasarlanmış bir şablonu birden fazla belgeye kopyalayın.
 3. **Güvenlik Denetimleri**: Güvenlik protokollerine uyumluluğu sağlamak için VBA projelerinin parola korumalı olup olmadığını kontrol edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

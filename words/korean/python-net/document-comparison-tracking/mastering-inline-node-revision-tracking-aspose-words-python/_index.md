@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python에서 Aspose.Words를 사용하여 문서 수정 사항을 효율적으로 관리하고 추적하는 방법을 알아보세요. 이 튜토리얼에서는 원활한 수정 사항 관리를 위한 설정, 추적 방법 및 성능 향상 팁을 다룹니다."
@@ -127,3 +130,7 @@ assert runs[5].is_delete_revision
 - [무료 평가판 및 임시 라이센스](https://purchase.aspose.com/temporary-license/)
 - [Aspose 지원 포럼](https://forum.aspose.com/c/words/10)
 이 가이드가 Python에서 Aspose.Words를 사용하여 문서 수정 사항을 효과적으로 관리하는 데 도움이 되기를 바랍니다. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

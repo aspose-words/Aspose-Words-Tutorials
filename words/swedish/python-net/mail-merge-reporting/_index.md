@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Bemästra Aspose.Words för Python-net med våra handledningar om dokumentkoppling och rapportering. Förbättra dina kunskaper om dokumentautomation och effektivisera dina datarapporteringsprocesser."
 "title": "Aspose.Words Python-net&#58; Handledningar för dokumentkoppling och rapportering"
@@ -37,3 +40,7 @@ Lär dig hur du bemästrar dokumentsammanslagning med Aspose.Words i Python, med
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

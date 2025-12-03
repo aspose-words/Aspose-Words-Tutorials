@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.WordsとPythonを使ってWord文書の印刷設定をカスタマイズする方法を学びましょう。用紙サイズ、印刷の向き、トレイの設定をマスターしましょう。"
@@ -145,3 +148,7 @@ Aspose.Words for Python を使ったカスタム印刷設定をマスターし�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/words/10)
 
 これらのリソースを活用して、Aspose.Words for Python の理解を深め、最大限に活用しましょう。印刷を楽しみましょう！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

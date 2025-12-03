@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Zapoznaj się z naszym kompleksowym samouczkiem Aspose.Words dla programistów Python-net. Dowiedz się, jak skutecznie porównywać i śledzić zmiany w dokumentach za pomocą potężnych narzędzi."
 "title": "Porównanie i śledzenie dokumentów głównych za pomocą Aspose.Words w Python-net"
@@ -33,3 +36,7 @@ Dowiedz się, jak skutecznie zarządzać i śledzić rewizje dokumentów za pomo
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

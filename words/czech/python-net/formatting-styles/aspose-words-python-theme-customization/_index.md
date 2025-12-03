@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak si přizpůsobit motivy v Aspose.Words pomocí Pythonu. Tato příručka se zabývá nastavením barev a písem a zajištěním konzistence značky ve všech vašich dokumentech."
@@ -165,3 +168,7 @@ A: I když jsou některé pokročilé funkce Wordu rozsáhlé, nemusí být pln�
 - [Bezplatný zkušební přístup](https://releases.aspose.com/words/python/)
 - [Informace o dočasné licenci](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

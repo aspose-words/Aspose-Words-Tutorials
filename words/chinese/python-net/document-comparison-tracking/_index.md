@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "探索我们面向 Python-net 开发人员的 Aspose.Words 综合教程。学习如何使用强大的工具高效地比较和跟踪文档更改。"
 "title": "使用 Python-net 中的 Aspose.Words 掌握文档比较和跟踪"
@@ -33,3 +36,7 @@
 - [Aspose.Words 论坛](https://forum.aspose.com/c/words/8)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

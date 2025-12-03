@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να χρησιμοποιείτε το Aspose.Words για Python για να μετατρέπετε έγγραφα Word σε ξεχωριστές σελίδες HTML χρησιμοποιώντας προσαρμοσμένες ανακλήσεις. Ιδανικό για διαχείριση εγγράφων και δημοσίευση στο διαδίκτυο."
@@ -149,3 +152,7 @@ A5: Γίνετε μέλος του [Φόρουμ Aspose](https://forum.aspose.co
 - **Υποστήριξη**: Επισκεφθείτε το [Φόρουμ Aspose](https://forum.aspose.com/c/words/10) για ερωτήσεις και υποστήριξη από την κοινότητα.
 
 Βουτήξτε στο Aspose.Words για Python σήμερα και ξεκλειδώστε νέες δυνατότητες στην επεξεργασία εγγράφων!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

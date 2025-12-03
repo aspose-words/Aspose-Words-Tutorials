@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du använder Aspose.Words för Python för att effektivt rendera dokumentsidor som bitmappar och skapa högkvalitativa miniatyrbilder."
@@ -189,3 +192,7 @@ För att utforska Aspose.Words funktioner ytterligare, överväg att integrera d
 
 ## Nästa steg
 - Försök att implementera olika renderingsinställningar för att anpassa utskriftskvalitet och prestanda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

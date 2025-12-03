@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Làm chủ Aspose.Words cho Python-net với hướng dẫn chuyên gia của chúng tôi về bảo mật và bảo vệ. Nâng cao kỹ năng xử lý tài liệu của bạn ngay hôm nay."
 "title": "Hướng dẫn bảo mật và bảo vệ Aspose.Words Python-net"
@@ -42,3 +45,7 @@ Tự động hóa tài liệu bằng cách tạo các tệp DOCX an toàn, tuân
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python용 Aspose.Words를 사용하여 문서 페이지를 비트맵으로 효율적으로 렌더링하고 고품질 썸네일을 만드는 방법을 알아보세요."
@@ -189,3 +192,7 @@ Aspose.Words의 기능을 더욱 자세히 알아보려면 이러한 기술을 �
 
 ## 다음 단계
 - 다양한 렌더링 설정을 구현하여 출력 품질과 성능을 맞춤화해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

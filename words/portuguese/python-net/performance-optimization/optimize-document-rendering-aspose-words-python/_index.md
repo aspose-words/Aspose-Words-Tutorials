@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a usar o Aspose.Words para Python para renderizar eficientemente páginas de documentos como bitmaps e criar miniaturas de alta qualidade."
@@ -189,3 +192,7 @@ Para explorar mais os recursos do Aspose.Words, considere integrar essas técnic
 
 ## Próximos passos
 - Tente implementar diferentes configurações de renderização para personalizar a qualidade e o desempenho da saída.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

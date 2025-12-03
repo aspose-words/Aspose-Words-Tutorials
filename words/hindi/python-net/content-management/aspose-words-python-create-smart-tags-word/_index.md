@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net के लिए एक कोड ट्यूटोरियल"
@@ -236,3 +239,7 @@ print(f'Properties count after clearing: {properties.count}')
 - **सहयता मंच**: समुदाय के साथ जुड़ें [Aspose का समर्थन मंच](https://forum.aspose.com/c/words/10)
 
 इस व्यापक गाइड के साथ, अब आप अपने Word दस्तावेज़ों में स्मार्ट टैग बनाने और प्रबंधित करने में Python के लिए Aspose.Words का लाभ उठाने के लिए तैयार हैं। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

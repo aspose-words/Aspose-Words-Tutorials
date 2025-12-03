@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for PythonとOpenAIを使用して、AIによる要約と翻訳を自動化する方法を学びましょう。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。"
@@ -212,3 +215,7 @@ Aspose.Words for Python を使って AI による要約と翻訳を実装する�
 - 「AI要約Python」
 - 「Aspose.Words 翻訳」
 - 「OpenAIドキュメント処理」
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

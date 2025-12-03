@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как оптимизировать печать PCL с помощью Aspose.Words для Python. Повысьте производительность, растеризовав элементы, управляя шрифтами и сохраняя настройки лотка для бумаги."
@@ -178,3 +181,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/PclSaveOptions.GetPreservedPaperTrayInformation.
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Сделайте следующий шаг, изучив эти ресурсы и интегрировав методы оптимизации PCL в свои проекты Python с Aspose.Words. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net geliştiricileri için kapsamlı Aspose.Words eğitimimizi keşfedin. Güçlü araçları kullanarak belge değişikliklerini nasıl verimli bir şekilde karşılaştıracağınızı ve izleyeceğinizi öğrenin."
 "title": "Python-net'te Aspose.Words ile Ana Belge Karşılaştırması ve Takibi"
@@ -33,3 +36,7 @@ Python'da Aspose.Words kullanarak belge revizyonlarını nasıl verimli bir şek
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

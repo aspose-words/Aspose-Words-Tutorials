@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Domine o Aspose.Words para Python-net com nossos tutoriais sobre Mala Direta e Relatórios. Aprimore suas habilidades de automação de documentos e simplifique seus processos de geração de relatórios de dados."
 "title": "Aspose.Words Python-net&#58; Tutoriais de mala direta e relatórios"
@@ -37,3 +40,7 @@ Aprenda a dominar a mesclagem de documentos com o Aspose.Words em Python, com fo
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

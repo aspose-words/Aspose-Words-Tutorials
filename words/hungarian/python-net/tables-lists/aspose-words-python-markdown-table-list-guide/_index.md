@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan formázhatsz táblázatokat és listákat a Markdownban az Aspose.Words for Python használatával. Javítsd a dokumentum-munkafolyamataidat igazítással, listaexportálási módokkal és egyebekkel."
@@ -185,3 +188,7 @@ Az Aspose.Words Pythonhoz való használatának megkezdéséhez kövesse az alá
 ## Következtetés
 
 Az Aspose.Words Pythonhoz való elsajátításával jelentősen fejlesztheted a Markdown dokumentumok összetett táblázatokkal és listákkal történő létrehozásának és kezelésének képességét. Akár műszaki dokumentáción, akár közös projekteken dolgozol, ezek az eszközök egyszerűsítik a dokumentumokkal kapcsolatos munkafolyamatokat és javítják az olvashatóságot.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการตรวจจับรายการและจัดการไฟล์ข้อความอย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ Python เหมาะอย่างยิ่งสำหรับระบบการจัดการเอกสาร"
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **เครื่องมือวิเคราะห์เนื้อหา**:แยกข้อมูลที่มีโครงสร้างจากไฟล์ข้อความเพื่อการวิเคราะห์หรือรายงานเพิ่มเติม
 3. **งานการล้างข้อมูล**:ทำให้การจัดรูปแบบข้อความเป็นมาตรฐานโดยจัดการช่องว่างและระบุองค์ประกอบของรายการ
 4. **การยืนยันลิงค์**:ตรวจสอบความถูกต้องของลิงก์ภายในเอกสารข้อความชุดหนึ่งเพื่อให้แน่ใจว่าใช้งานได้และถูกต้อง
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

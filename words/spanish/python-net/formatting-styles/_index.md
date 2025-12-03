@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explora nuestros completos tutoriales de Aspose.Words para Python-net, centrados en formato y estilos. Mejora tus habilidades de procesamiento de documentos con información práctica."
 "title": "Domina el formato y los estilos de Aspose.Words con tutoriales de Python-net"
@@ -61,3 +64,7 @@ Aprenda a gestionar eficazmente las tabulaciones en sus documentos de Python con
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

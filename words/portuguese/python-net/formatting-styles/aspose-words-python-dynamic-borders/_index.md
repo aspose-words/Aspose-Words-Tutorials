@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a criar bordas dinâmicas em documentos usando o Aspose.Words para Python. Domine técnicas de estilização de bordas de texto e tabela."
@@ -267,3 +270,7 @@ Considere integrar o Aspose.Words com outras ferramentas de processamento de dad
 
 ## Conclusão
 Ao dominar essas técnicas com o Aspose.Words para Python, você poderá criar documentos com aparência profissional e bordas dinâmicas. Este guia fornece uma base sólida para explorar ainda mais os recursos da biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

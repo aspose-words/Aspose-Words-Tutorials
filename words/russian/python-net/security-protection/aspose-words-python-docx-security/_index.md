@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Освойте автоматизацию документов, создавая безопасные, совместимые файлы DOCX с помощью Aspose.Words в Python. Узнайте, как применять функции безопасности и оптимизировать производительность."
@@ -158,3 +161,7 @@ A: Регулярно проверяйте и обновляйте свои ли
 - **Поддержка и сообщество**: [Форум Aspose](https://forum.aspose.com/c/words/10)
 
 Теперь сделайте следующий шаг в автоматизации документов, внедрив Aspose.Words для своих проектов Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

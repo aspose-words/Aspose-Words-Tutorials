@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να συμπιέζετε, να προσαρμόζετε και να βελτιστοποιείτε αρχεία XLSX χρησιμοποιώντας το Aspose.Words για Python. Βελτιώστε τη διαχείριση μεγέθους αρχείων και τη διαχείριση μορφής ημερομηνίας-ώρας."
@@ -174,3 +177,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **Δωρεάν δοκιμή**: [Δοκιμάστε το Aspose Δωρεάν](https://releases.aspose.com/words/python/)
 - **Προσωρινή Άδεια**: [Λήψη προσωρινής άδειας](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη**: [Υποστήριξη Φόρουμ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

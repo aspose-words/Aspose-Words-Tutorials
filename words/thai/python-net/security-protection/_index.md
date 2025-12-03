@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "เรียนรู้ Aspose.Words สำหรับ Python-net ด้วยบทช่วยสอนจากผู้เชี่ยวชาญของเราเกี่ยวกับความปลอดภัยและการป้องกัน พัฒนาทักษะการจัดการเอกสารของคุณวันนี้"
 "title": "บทช่วยสอนเกี่ยวกับความปลอดภัยและการปกป้อง Aspose.Words Python-net"
@@ -42,3 +45,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

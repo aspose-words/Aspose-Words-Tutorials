@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إزالة أعمدة الجداول وإدراجها وتحويلها بسلاسة في مستندات Word باستخدام Aspose.Words لـ Python. بسّط مهام تحرير مستنداتك بكفاءة."
@@ -149,3 +152,7 @@ print(column.to_txt())
 - [نسخة تجريبية مجانية](https://releases.aspose.com/words/python/)
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

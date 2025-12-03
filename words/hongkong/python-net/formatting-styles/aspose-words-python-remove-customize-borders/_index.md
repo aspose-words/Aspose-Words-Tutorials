@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 有效地刪除和自訂段落邊框。簡化您的文件格式化過程。"
@@ -179,3 +182,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **免費試用**： [免費開始](https://releases.aspose.com/words/python/)
 - **臨時執照**： [獲得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

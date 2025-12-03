@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net開発者向けの包括的なAspose.Wordsチュートリアルをご覧ください。強力なツールを使って、ドキュメントの変更を効率的に比較・追跡する方法を学びましょう。"
 "title": "Python-netでAspose.Wordsを使ったマスタードキュメントの比較と追跡"
@@ -33,3 +36,7 @@ PythonでAspose.Wordsを使用して、ドキュメントのリビジョンを�
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

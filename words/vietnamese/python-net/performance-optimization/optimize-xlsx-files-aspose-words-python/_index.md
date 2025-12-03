@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách nén, tùy chỉnh và tối ưu hóa các tệp XLSX bằng Aspose.Words cho Python. Nâng cao khả năng quản lý kích thước tệp và xử lý định dạng ngày-giờ."
@@ -174,3 +177,7 @@ Khám phá sâu hơn bằng cách tích hợp các tính năng này vào các �
 - **Dùng thử miễn phí**: [Hãy thử Aspose miễn phí](https://releases.aspose.com/words/python/)
 - **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

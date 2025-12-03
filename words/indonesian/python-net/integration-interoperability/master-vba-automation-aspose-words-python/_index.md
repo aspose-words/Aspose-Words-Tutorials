@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengotomatiskan proyek VBA Microsoft Word menggunakan Python. Panduan ini mencakup pembuatan, pengklonan, pemeriksaan status perlindungan, dan pengelolaan referensi dalam proyek VBA dengan Aspose.Words."
@@ -184,3 +187,7 @@ Berikut ini adalah beberapa kasus penggunaan nyata di mana fitur-fitur ini sanga
 1. **Pembuatan Laporan Otomatis**: Membuat dan mengelola proyek VBA untuk pembuatan laporan otomatis di lingkungan perusahaan.
 2. **Duplikasi Template**: Kloning templat yang dirancang dengan baik dengan makro tertanam di beberapa dokumen untuk menjaga konsistensi.
 3. **Audit Keamanan**Periksa apakah proyek VBA dilindungi kata sandi untuk memastikan kepatuhan terhadap protokol keamanan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

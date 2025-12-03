@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Fedezd fel a legjobb Aspose.Words oktatóanyagokat a képek és alakzatok Python-net használatával történő integrálásáról. Fejleszd dokumentumautomatizálási készségeidet gyakorlati útmutatókkal."
 "title": "Aspose.Words Python-net&#58; Képek és alakzatok elsajátítása oktatóanyagok"
@@ -40,3 +43,7 @@ Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

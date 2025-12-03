@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية أتمتة تلخيص وترجمة الذكاء الاصطناعي باستخدام Aspose.Words لـ Python وOpenAI. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية."
@@ -212,3 +215,7 @@
 - "ملخص الذكاء الاصطناعي في بايثون"
 - "ترجمة Aspose.Words"
 - "معالجة المستندات باستخدام OpenAI"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

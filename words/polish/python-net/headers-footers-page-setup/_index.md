@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Przeglądaj nasze samouczki Aspose.Words na temat nagłówków, stopek i ustawień strony z Python-net. Naucz się bez wysiłku ulepszać formatowanie dokumentów."
 "title": "Aspose.Words Python-net&#58; samouczki dotyczące nagłówków, stopek i ustawień strony"
@@ -36,3 +39,7 @@ Samouczek dotyczący kodu dla Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

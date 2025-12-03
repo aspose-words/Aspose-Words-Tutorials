@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words 通过设置页面颜色、导入具有自定义样式的节点以及应用背景形状以编程方式自定义 Python 中的文档。"
@@ -234,3 +237,7 @@ def background_shape_example():
 ## 结论
 
 通过掌握 Aspose.Words for Python 的这些功能，您可以显著增强文档处理工作流程的自定义功能。无论是设置统一的背景颜色、导入自定义样式的节点，还是应用复杂的背景形状，本指南都能为您的文档管理任务的提升提供坚实的基础。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

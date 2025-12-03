@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kód oktatóanyag az Aspose.Words Python-nethez"
@@ -190,3 +193,7 @@ Készen állsz a megoldások bevezetésére? Merülj el a miénkben [dokumentác
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
 
 Fedezd fel ezeket az erőforrásokat, hogy elmélyítsd a megértésedet és fejleszd a dokumentumfeldolgozási képességeidet az Aspose.Words for Python segítségével. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

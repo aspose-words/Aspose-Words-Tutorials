@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explore nossos tutoriais abrangentes do Aspose.Words sobre Python-net para gerenciamento de conteúdo. Perfeito para desenvolvedores que buscam aprimorar suas habilidades de gerenciamento e automação de documentos."
 "title": "Tutoriais Python-net Aspose.Words&#58; Guia de Gerenciamento de Conteúdo"
@@ -43,3 +46,7 @@ Um tutorial de código para Aspose.Words Python-net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

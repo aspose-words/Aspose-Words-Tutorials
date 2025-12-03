@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Samouczek dotyczący kodu dla Aspose.Words Python-net"
@@ -214,3 +217,7 @@ Choć kompleksowe i złożone układy mogą wymagać ręcznych korekt w celu uzy
 - **Forum wsparcia:** [Społeczność wsparcia Aspose](https://forum.aspose.com/c/words/10)
 
 Postępując zgodnie z tym przewodnikiem, będziesz dobrze wyposażony do implementacji i optymalizacji numeracji stron i analizy układu w swoich projektach Python przy użyciu Aspose.Words. Miłego kodowania!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

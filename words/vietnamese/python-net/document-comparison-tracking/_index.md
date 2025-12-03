@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá hướng dẫn Aspose.Words toàn diện của chúng tôi dành cho các nhà phát triển Python-net. Tìm hiểu cách so sánh và theo dõi hiệu quả các thay đổi tài liệu bằng các công cụ mạnh mẽ."
 "title": "So sánh & Theo dõi Tài liệu chính với Aspose.Words trong Python-net"
@@ -33,3 +36,7 @@ Tìm hiểu cách quản lý và theo dõi hiệu quả các bản sửa đổi 
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как защитить документы Word с помощью цифровых подписей с помощью Aspose.Words для Python. Оптимизируйте рабочие процессы и гарантируйте подлинность документов без усилий."
@@ -184,3 +187,7 @@ signature_line_object = signature_line_example.insert_signature_line(document_pa
 - **Поддерживать:** [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Готовы начать интеграцию цифровых подписей в ваши документы? Попробуйте реализовать эти шаги сегодня и ощутите повышенную безопасность и эффективность Aspose.Words на Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

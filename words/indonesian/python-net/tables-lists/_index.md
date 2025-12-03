@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Tingkatkan keterampilan pemrosesan dokumen Anda dengan tutorial Aspose.Words yang berfokus pada tabel dan daftar dalam Python-net. Sempurna bagi pengembang yang mencari wawasan praktis dan dapat ditindaklanjuti."
 "title": "Aspose.Words Python-net&#58; Tutorial Master Tabel & Daftar"
@@ -45,3 +48,7 @@ Pelajari cara menggabungkan sel tabel secara efisien di Python menggunakan Aspos
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

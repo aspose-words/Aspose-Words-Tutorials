@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du åtgärdar trasiga länkar i .chm-filer med hjälp av det kraftfulla Aspose.Words-biblioteket. Förbättra dokumentets tillförlitlighet och användarupplevelse med den här steg-för-steg-guiden."
@@ -145,3 +148,7 @@ För ytterligare hjälp och utforskning:
 - **Ladda ner**: [Aspose.Words för Python-utgåvor](https://releases.aspose.com/words/python/)
 - **Köp och prova**: [Skaffa en licens eller gratis provperiod](https://purchase.aspose.com/buy)
 - **Supportforum**: [Aspose Support Community](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

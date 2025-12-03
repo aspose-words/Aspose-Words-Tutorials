@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie zarządzać i śledzić rewizje dokumentów za pomocą Aspose.Words w Pythonie. Ten samouczek obejmuje konfigurację, metody śledzenia i wskazówki dotyczące wydajności w celu płynnego zarządzania rewizjami."
@@ -127,3 +130,7 @@ Opanowałeś już sztukę śledzenia inline node revisions przy użyciu Aspose.W
 - [Bezpłatna wersja próbna i licencje tymczasowe](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
 Mamy nadzieję, że ten przewodnik pomoże Ci skutecznie zarządzać rewizjami dokumentów przy użyciu Aspose.Words w Pythonie. Miłego kodowania!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

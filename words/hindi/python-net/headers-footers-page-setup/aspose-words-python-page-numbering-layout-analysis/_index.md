@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words Python-net के लिए एक कोड ट्यूटोरियल"
@@ -214,3 +217,7 @@ Aspose.Words के अपने उपयोग को अनुकूलित
 - **सहयता मंच:** [Aspose समर्थन समुदाय](https://forum.aspose.com/c/words/10)
 
 इस गाइड का पालन करके, आप Aspose.Words का उपयोग करके अपने पायथन प्रोजेक्ट्स में पेज नंबरिंग और लेआउट विश्लेषण को लागू करने और अनुकूलित करने के लिए अच्छी तरह से सुसज्जित होंगे। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

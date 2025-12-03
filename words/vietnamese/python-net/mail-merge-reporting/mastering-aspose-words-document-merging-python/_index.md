@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách thành thạo việc hợp nhất tài liệu với Aspose.Words trong Python, tập trung vào 'Giữ số nguồn' và 'Chèn tại dấu trang'. Nâng cao kỹ năng xử lý tài liệu của bạn ngay hôm nay!"
@@ -181,3 +184,7 @@ Thử nghiệm các chức năng bổ sung của Aspose.Words và khám phá kh�
 - [Mua giấy phép](https://purchase.aspose.com/buy)
 - [Giấy phép dùng thử miễn phí](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

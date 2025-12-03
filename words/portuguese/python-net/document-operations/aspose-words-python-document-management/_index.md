@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda como limitar níveis de título e aplicar assinaturas digitais em documentos XPS usando o Aspose.Words para Python, melhorando a segurança e a navegação em documentos."
@@ -185,3 +188,7 @@ Pronto para dar o próximo passo? Explore mais integrando o Aspose.Words com out
 **P1: Como posso garantir que minhas assinaturas digitais estejam seguras com o Aspose.Words?**
 - Certifique-se de usar uma autoridade de certificação confiável para obter seus certificados digitais.
 - Atualize regularmente e gerencie suas chaves e senhas com segurança.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

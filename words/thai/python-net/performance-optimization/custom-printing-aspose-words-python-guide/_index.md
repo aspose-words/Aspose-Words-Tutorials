@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีปรับแต่งการตั้งค่าการพิมพ์สำหรับเอกสาร Word โดยใช้ Aspose.Words และ Python ขนาดกระดาษหลัก ทิศทาง และการกำหนดค่าถาด"
@@ -145,3 +148,7 @@ doc.print(printer_settings)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 สำรวจทรัพยากรเหล่านี้เพื่อทำความเข้าใจให้ลึกซึ้งยิ่งขึ้นและใช้ประโยชน์จาก Aspose.Words for Python ให้ได้มากที่สุด ขอให้สนุกกับการพิมพ์!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

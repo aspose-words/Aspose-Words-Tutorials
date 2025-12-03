@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Een codetutorial voor Aspose.Words Python-net"
@@ -190,3 +193,7 @@ Klaar om deze oplossingen te implementeren? Duik in onze [documentatie](https://
 - [Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 
 Ontdek deze bronnen om je begrip te verdiepen en je documentverwerkingsmogelijkheden met Aspose.Words voor Python te verbeteren. Veel plezier met programmeren!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

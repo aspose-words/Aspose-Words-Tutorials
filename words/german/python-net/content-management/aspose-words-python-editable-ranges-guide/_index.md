@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words für Python bearbeitbare Bereiche in geschützten Dokumenten erstellen und verwalten. Erweitern Sie noch heute Ihre Dokumentenverwaltung."
@@ -164,3 +167,7 @@ Entdecken Sie erweiterte Funktionen von Aspose.Words oder integrieren Sie diese 
 - **Support-Forum**: [Aspose-Unterstützung](https://forum.aspose.com/c/words/10)
 
 Mit diesem Handbuch sind Sie gut gerüstet, um die Leistungsfähigkeit bearbeitbarer Bereiche in Ihren Dokumentenverwaltungsprojekten mit Aspose.Words für Python zu nutzen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

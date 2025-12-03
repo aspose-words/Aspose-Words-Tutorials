@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words का उपयोग करके Python में टेबल सेल को कुशलतापूर्वक मर्ज करना सीखें। यह गाइड वर्टिकल और हॉरिजॉन्टल मर्ज, पैडिंग सेटिंग और व्यावहारिक अनुप्रयोगों को कवर करता है।"
@@ -213,3 +216,7 @@ Aspose.Words के साथ काम करते समय:
 - [मुफ्त परीक्षण](https://releases.aspose.com/words/python/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - [सहयता मंच](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

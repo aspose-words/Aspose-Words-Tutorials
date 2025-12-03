@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "أتقن استخدام Aspose.Words لـ Python-net مع دروسنا التعليمية حول دمج المراسلات وإعداد التقارير. حسّن مهاراتك في أتمتة المستندات، وسهّل عمليات إعداد تقارير البيانات."
 "title": "Aspose.Words Python-net&#58; دروس دمج المراسلات وإعداد التقارير"
@@ -37,3 +40,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

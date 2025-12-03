@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak dostosować motywy w Aspose.Words za pomocą Pythona. Ten przewodnik obejmuje ustawianie kolorów i czcionek, zapewniając spójność marki w dokumentach."
@@ -165,3 +168,7 @@ A: Choć rozbudowane, niektóre zaawansowane funkcje programu Word mogą nie by�
 - [Bezpłatny dostęp próbny](https://releases.aspose.com/words/python/)
 - [Informacje o licencji tymczasowej](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

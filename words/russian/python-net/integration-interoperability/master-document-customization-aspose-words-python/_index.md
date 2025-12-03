@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как программно настраивать документы на Python с помощью Aspose.Words, задавая цвета страниц, импортируя узлы с пользовательскими стилями и применяя фоновые фигуры."
@@ -234,3 +237,7 @@ def background_shape_example():
 ## Заключение
 
 Освоив эти функции Aspose.Words для Python, вы можете значительно расширить возможности настройки рабочих процессов обработки документов. Будь то настройка единых фоновых цветов, импорт узлов с настроенными стилями или применение сложных фоновых фигур, это руководство обеспечивает прочную основу для повышения уровня ваших задач по управлению документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

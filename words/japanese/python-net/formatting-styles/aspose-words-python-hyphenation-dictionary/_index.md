@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用してハイフネーション辞書を登録および登録解除し、言語間の読みやすさを向上させる方法を学習します。"
@@ -173,3 +176,7 @@ A: 現在、ロケール識別子を使用して各辞書を個別に登録解�
 - **購入：** [Aspose.Wordsライセンスを購入](https://purchase.aspose.com/buy)
 - **無料トライアル:** [無料トライアルから始める](https://releases.aspose.com/words/python/)
 - **一時ライセンス:** [一時ライセンスの申請](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

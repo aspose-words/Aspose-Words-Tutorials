@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية إدارة متغيرات المستندات بكفاءة باستخدام Aspose.Words في بايثون. يغطي هذا الدليل إضافة قيم المتغيرات وتحديثها وعرضها في المستندات."
@@ -161,3 +164,7 @@
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 استكشف هذه الموارد لتعزيز فهمك وتطبيقك لـ Aspose.Words في بايثون. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

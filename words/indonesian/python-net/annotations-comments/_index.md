@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Jelajahi tutorial Aspose.Words kami yang komprehensif tentang anotasi dan komentar menggunakan Python-net. Tingkatkan keterampilan pemrosesan dokumen Anda dengan contoh-contoh praktis."
 "title": "Menguasai Anotasi & Komentar di Aspose.Words dengan Python-net"
@@ -33,3 +36,7 @@ Pelajari cara menambahkan, mengelola, dan mengambil komentar dan balasan secara 
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "أتقن أتمتة المستندات بإنشاء ملفات DOCX آمنة ومتوافقة باستخدام Aspose.Words في بايثون. تعلّم كيفية تطبيق ميزات الأمان وتحسين الأداء."
@@ -158,3 +161,7 @@ doc.save("compressed.docx", options)
 - **الدعم والمجتمع**: [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 الآن، انتقل إلى الخطوة التالية في أتمتة المستندات بتطبيق Aspose.Words على مشاريع بايثون الخاصة بك. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

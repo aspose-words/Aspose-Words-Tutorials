@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "जानें कि Python के लिए Aspose.Words का उपयोग करके SVG आउटपुट को कैसे अनुकूलित किया जाए। यह गाइड इमेज-जैसी प्रॉपर्टी, टेक्स्ट रेंडरिंग और सुरक्षा संवर्द्धन जैसी कस्टम सुविधाओं को कवर करती है।"
@@ -184,3 +187,7 @@ Aspose.Words for Python's capabilities extend beyond simple SVG conversion. Here
 1. **Web Development**: Embedding optimized SVGs into web pages enhances load times and visual consistency.
 2. **Graphic Design**: Fine-tuning image resolutions ensures your designs look sharp across all devices.
 3. **Data Visualization**: Customizing text rendering helps in creating clearer, more informative graphics.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

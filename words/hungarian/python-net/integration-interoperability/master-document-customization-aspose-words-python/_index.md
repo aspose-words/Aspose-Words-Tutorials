@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan testreszabhatod programozottan a dokumentumokat Pythonban az Aspose.Words segítségével oldalszínek beállításával, egyéni stílusokkal rendelkező csomópontok importálásával és háttérformák alkalmazásával."
@@ -234,3 +237,7 @@ def background_shape_example():
 ## Következtetés
 
 Az Aspose.Words for Python ezen funkcióinak elsajátításával jelentősen javíthatja dokumentumfeldolgozási munkafolyamatainak testreszabási lehetőségeit. Akár egységes háttérszínek beállításáról, egyedi stílusú csomópontok importálásáról vagy kifinomult háttérformák alkalmazásáról van szó, ez az útmutató szilárd alapot nyújt a dokumentumkezelési feladatok magasabb szintre emeléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

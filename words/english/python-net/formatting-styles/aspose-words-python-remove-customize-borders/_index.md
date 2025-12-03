@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide"
 description: "Learn how to efficiently remove and customize paragraph borders using Aspose.Words for Python. Streamline your document formatting process."
@@ -184,3 +187,8 @@ This tutorial covered how to efficiently remove and customize paragraph borders 
 - **Free Trial**: [Start Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/words/10)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

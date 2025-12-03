@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Samouczek dotyczący kodu dla Aspose.Words Python-net"
@@ -236,3 +239,7 @@ Więcej informacji znajdziesz w następujących zasobach:
 - **Forum wsparcia**:Współpracuj ze społecznością na [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
 
 Dzięki temu kompleksowemu przewodnikowi jesteś teraz wyposażony, aby wykorzystać Aspose.Words for Python do tworzenia i zarządzania inteligentnymi tagami w dokumentach Word. Miłego kodowania!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Verbessern Sie Ihre Fähigkeiten zur Dokumentenverarbeitung mit Aspose.Words-Tutorials, die sich auf Tabellen und Listen in Python-net konzentrieren. Perfekt für Entwickler, die praktische, umsetzbare Erkenntnisse suchen."
 "title": "Aspose.Words Python-net&#58; Master-Tutorials zu Tabellen und Listen"
@@ -45,3 +48,7 @@ Erfahren Sie, wie Sie Tabellenzellen in Python mit Aspose.Words effizient zusamm
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

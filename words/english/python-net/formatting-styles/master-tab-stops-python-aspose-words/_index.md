@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering Tab Stops in Python with Aspose.Words for Document Formatting"
 description: "Learn how to effectively manage tab stops in your Python documents using Aspose.Words. This guide covers adding, customizing, and removing tab stops with practical examples."
@@ -233,3 +236,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusion
 
 Mastering tab stops in Python using Aspose.Words allows you to create professionally formatted documents with ease. By following this guide, you can add, customize, and manage tab stops effectively, enhancing the overall quality of your text-based outputs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

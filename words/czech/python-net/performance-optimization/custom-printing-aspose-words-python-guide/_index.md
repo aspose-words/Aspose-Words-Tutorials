@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak přizpůsobit nastavení tisku pro dokumenty Wordu pomocí Aspose.Words a Pythonu. Zvládněte velikost papíru, orientaci a konfiguraci zásobníků."
@@ -145,3 +148,7 @@ Implementujte řešení pro zakázkový tisk ve svém dalším projektu a zažij
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 Prozkoumejte tyto zdroje, abyste si prohloubili znalosti a co nejlépe využili Aspose.Words pro Python. Přejeme vám příjemné tisknutí!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

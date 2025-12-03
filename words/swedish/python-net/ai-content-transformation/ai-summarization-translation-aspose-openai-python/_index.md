@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du automatiserar AI-sammanfattning och översättning med Aspose.Words för Python och OpenAI. Den här guiden täcker installation, implementering och praktiska tillämpningar."
@@ -212,3 +215,7 @@ Redo att omsätta denna kunskap i praktiken? Försök att implementera lösninge
 - "AI-sammanfattning i Python"
 - "Aspose.Words översättning"
 - "OpenAI-dokumentbehandling"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

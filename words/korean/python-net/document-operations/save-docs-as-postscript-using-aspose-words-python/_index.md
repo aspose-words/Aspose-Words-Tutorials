@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 Word 문서를 PostScript 형식으로 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 변환 및 책 접기 인쇄 옵션에 대해 설명합니다."
@@ -163,3 +166,7 @@ Aspose.Words for Python을 사용하여 Word 문서를 PostScript로 저장하�
 - [커뮤니티 지원 포럼](https://forum.aspose.com/c/words/10)
 
 이 가이드가 Python용 Aspose.Words를 사용하여 PostScript 형식의 문서를 효율적으로 저장하는 데 도움이 되기를 바랍니다. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

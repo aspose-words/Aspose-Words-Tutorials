@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να προσαρμόζετε τις ρυθμίσεις εκτύπωσης για έγγραφα Word χρησιμοποιώντας Aspose.Words και Python. Εξασκηθείτε στο μέγεθος χαρτιού, τον προσανατολισμό και τις διαμορφώσεις δίσκου."
@@ -145,3 +148,7 @@ doc.print(printer_settings)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
 
 Εξερευνήστε αυτούς τους πόρους για να εμβαθύνετε την κατανόησή σας και να αξιοποιήσετε στο έπακρο το Aspose.Words για Python. Καλή εκτύπωση!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

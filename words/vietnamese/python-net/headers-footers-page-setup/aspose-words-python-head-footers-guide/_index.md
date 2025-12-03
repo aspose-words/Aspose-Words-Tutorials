@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tạo, tùy chỉnh và quản lý tiêu đề và chân trang trong tài liệu bằng Aspose.Words for Python. Hoàn thiện kỹ năng định dạng tài liệu của bạn với hướng dẫn từng bước của chúng tôi."
@@ -215,3 +218,7 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

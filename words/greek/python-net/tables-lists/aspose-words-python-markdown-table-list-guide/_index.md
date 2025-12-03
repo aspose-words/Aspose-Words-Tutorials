@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να μορφοποιείτε πίνακες και λίστες στο Markdown χρησιμοποιώντας το Aspose.Words για Python. Βελτιώστε τις ροές εργασίας των εγγράφων σας με στοίχιση, λειτουργίες εξαγωγής λιστών και πολλά άλλα."
@@ -185,3 +188,7 @@
 ## Σύναψη
 
 Κατακτώντας το Aspose.Words για Python, μπορείτε να βελτιώσετε σημαντικά την ικανότητά σας να δημιουργείτε και να χειρίζεστε έγγραφα Markdown με σύνθετους πίνακες και λίστες. Είτε εργάζεστε σε τεχνική τεκμηρίωση είτε σε συνεργατικά έργα, αυτά τα εργαλεία θα βελτιστοποιήσουν τις ροές εργασίας των εγγράφων σας και θα βελτιώσουν την αναγνωσιμότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

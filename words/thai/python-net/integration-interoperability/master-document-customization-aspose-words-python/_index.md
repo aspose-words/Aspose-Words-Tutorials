@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีปรับแต่งเอกสารด้วยโปรแกรมใน Python ด้วย Aspose.Words ด้วยการตั้งค่าสีหน้า นำเข้าโหนดที่มีรูปแบบที่กำหนดเอง และใช้รูปร่างพื้นหลัง"
@@ -234,3 +237,7 @@ def background_shape_example():
 ## บทสรุป
 
 การเชี่ยวชาญฟีเจอร์เหล่านี้ของ Aspose.Words สำหรับ Python จะช่วยให้คุณปรับปรุงความสามารถในการปรับแต่งเวิร์กโฟลว์การประมวลผลเอกสารของคุณได้อย่างมีนัยสำคัญ ไม่ว่าจะเป็นการกำหนดสีพื้นหลังที่สม่ำเสมอ การนำเข้าโหนดที่มีรูปแบบที่กำหนดเอง หรือการใช้รูปทรงพื้นหลังที่ซับซ้อน คู่มือนี้ให้รากฐานที่มั่นคงเพื่อยกระดับงานการจัดการเอกสารของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

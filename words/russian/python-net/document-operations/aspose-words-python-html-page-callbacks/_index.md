@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как использовать Aspose.Words для Python для преобразования документов Word в отдельные страницы HTML с использованием пользовательских обратных вызовов. Идеально подходит для управления документами и веб-публикации."
@@ -149,3 +152,7 @@ A5: Присоединяйтесь [Форум Aspose](https://forum.aspose.com/
 - **Поддерживать**: Посетите [Форум Aspose](https://forum.aspose.com/c/words/10) для вопросов и поддержки сообщества.
 
 Погрузитесь в Aspose.Words для Python сегодня и откройте для себя новые возможности обработки документов!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

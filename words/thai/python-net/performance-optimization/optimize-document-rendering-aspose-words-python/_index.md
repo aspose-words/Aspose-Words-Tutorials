@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีใช้ Aspose.Words สำหรับ Python ในการแสดงผลหน้าเอกสารเป็นบิตแมปอย่างมีประสิทธิภาพ และสร้างภาพขนาดย่อคุณภาพสูง"
@@ -189,3 +192,7 @@ img.save(YOUR_OUTPUT_DIRECTORY + 'Rendering.thumbnails.png')
 
 ## ขั้นตอนต่อไป
 - ลองใช้การตั้งค่าการเรนเดอร์ที่แตกต่างกันเพื่อปรับแต่งคุณภาพและประสิทธิภาพของเอาต์พุต
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

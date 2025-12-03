@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Учебник по коду для Aspose.Words Python-net"
@@ -197,3 +200,7 @@ def apply_license_from_stream(stream):
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
 
 С этим руководством вы на верном пути к эффективному использованию Aspose.Words в ваших приложениях Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

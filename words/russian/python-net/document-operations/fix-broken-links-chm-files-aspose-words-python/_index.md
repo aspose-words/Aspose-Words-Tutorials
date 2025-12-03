@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как устранить неработающие ссылки в файлах .chm с помощью мощной библиотеки Aspose.Words. Повысьте надежность документов и удобство использования с помощью этого пошагового руководства."
@@ -145,3 +148,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'ExChmLoadOptions.OriginalFileName.ht
 - **Скачать**: [Aspose.Words для релизов Python](https://releases.aspose.com/words/python/)
 - **Покупка и пробная версия**: [Приобретите лицензию или бесплатную пробную версию](https://purchase.aspose.com/buy)
 - **Форум поддержки**: [Сообщество поддержки Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

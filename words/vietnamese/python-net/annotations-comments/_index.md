@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá hướng dẫn toàn diện về Aspose.Words của chúng tôi về chú thích và bình luận bằng Python-net. Nâng cao kỹ năng xử lý tài liệu của bạn bằng các ví dụ thực tế."
 "title": "Làm chủ chú thích và bình luận trong Aspose.Words với Python-net"
@@ -33,3 +36,7 @@ Tìm hiểu cách lập trình thêm, quản lý và truy xuất bình luận v�
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

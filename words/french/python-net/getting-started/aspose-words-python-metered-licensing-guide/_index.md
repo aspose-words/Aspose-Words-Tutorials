@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Découvrez comment implémenter des licences mesurées avec Aspose.Words pour Python pour suivre et gérer efficacement l'utilisation des documents dans vos applications."
@@ -173,3 +176,7 @@ A5 : Les données d’utilisation ne sont pas envoyées en temps réel, il peut
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Lancez-vous dès aujourd'hui dans votre voyage avec Aspose.Words pour Python et profitez pleinement des licences mesurées pour optimiser vos besoins de traitement de documents !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

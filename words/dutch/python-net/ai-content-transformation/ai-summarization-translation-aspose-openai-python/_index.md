@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je AI-samenvatting en -vertaling kunt automatiseren met Aspose.Words voor Python en OpenAI. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen."
@@ -212,3 +215,7 @@ Klaar om deze kennis in de praktijk te brengen? Probeer de oplossing vandaag nog
 - "AI-samenvatting Python"
 - "Aspose.Woorden vertaling"
 - "OpenAI-documentverwerking"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python için Aspose.Words kullanarak dinamik belge kenarlıkları oluşturmayı öğrenin. Metin ve tablo kenarlık stili için tekniklerde ustalaşın."
@@ -267,3 +270,7 @@ Daha güçlü belge otomasyon çözümleri için Aspose.Words'ü diğer veri iş
 
 ## Çözüm
 Bu tekniklerde Aspose.Words for Python ile ustalaşarak, dinamik kenarlıklara sahip profesyonel görünümlü belgeler oluşturabilirsiniz. Bu kılavuz, kütüphanenin yeteneklerini daha fazla keşfetmek için güçlü bir temel sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

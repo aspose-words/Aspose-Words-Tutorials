@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية تحليل أنواع الوسائط، وتشفير الملفات، والتحقق من صحة التوقيعات الرقمية باستخدام Aspose.Words لبايثون. حسّن قدراتك في معالجة المستندات اليوم."
@@ -130,3 +133,7 @@ assert load_format == aw.LoadFormat.DOC
 - **منتدى الدعم**: [مجتمع دعم Aspose](https://forum.aspose.com/c/words/10)
 
 ابدأ رحلتك مع Aspose.Words for Python، وقم بترقية قدرات معالجة المستندات الخاصة بك اليوم!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

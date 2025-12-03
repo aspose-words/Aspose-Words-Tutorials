@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naucz się optymalizować dokumenty HTML za pomocą Aspose.Words dla Pythona. Zarządzaj grafiką VML, szyfruj dokumenty bezpiecznie i obsługuj elementy formularzy bez wysiłku."
@@ -199,3 +202,7 @@ Teraz masz solidne zrozumienie, jak Aspose.Words for Python może być używany 
 
 **P: Jak radzić sobie z dużymi plikami HTML zawierającymi elementy VML?**
 A: Aby efektywnie zarządzać wykorzystaniem zasobów, należy korzystać z przetwarzania wsadowego i selektywnego ładowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

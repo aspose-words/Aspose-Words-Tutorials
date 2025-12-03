@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie KI-Zusammenfassungen und -Übersetzungen mit Aspose.Words für Python und OpenAI automatisieren. Dieser Leitfaden behandelt Einrichtung, Implementierung und praktische Anwendungen."
@@ -212,3 +215,7 @@ Sind Sie bereit, dieses Wissen in die Praxis umzusetzen? Versuchen Sie noch heut
 - "KI-Zusammenfassung Python"
 - "Aspose.Words Übersetzung"
 - „OpenAI-Dokumentenverarbeitung“
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

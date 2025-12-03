@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Κατακτήστε το Aspose.Words με αυτά τα σεμινάρια Python-net που επικεντρώνονται στην ενσωμάτωση και τη διαλειτουργικότητα. Βελτιώστε τις δεξιότητές σας στην επεξεργασία εγγράφων για απρόσκοπτες αλληλεπιδράσεις με λογισμικό."
 "title": "Aspose.Words Ενσωμάτωση Python-net και Εκπαιδευτικά Βίντεο Διαλειτουργικότητας"
@@ -40,3 +43,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

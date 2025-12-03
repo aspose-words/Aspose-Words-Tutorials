@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να εντοπίζετε λίστες και να διαχειρίζεστε αρχεία κειμένου αποτελεσματικά με το Aspose.Words για Python. Ιδανικό για συστήματα διαχείρισης εγγράφων."
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **Εργαλεία Ανάλυσης Περιεχομένου**Εξαγωγή δομημένων δεδομένων από αρχεία κειμένου για περαιτέρω ανάλυση ή αναφορά.
 3. **Εργασίες καθαρισμού δεδομένων**Τυποποίηση της μορφοποίησης κειμένου διαχειριζόμενοι τα κενά και αναγνωρίζοντας στοιχεία λίστας.
 4. **Επαλήθευση συνδέσμου**Επικυρώστε συνδέσμους μέσα σε μια δέσμη εγγράφων κειμένου για να βεβαιωθείτε ότι είναι ενεργοί και σωστοί.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

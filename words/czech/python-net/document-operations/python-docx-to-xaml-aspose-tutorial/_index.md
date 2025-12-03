@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak převádět dokumenty Microsoft Word (DOCX) do formátu XAML s pevnou formou pomocí Aspose.Words pro Python a jak zajistit efektivní správu zdrojů a integritu návrhu."
@@ -156,3 +159,7 @@ Prozkoumali jsme převod souborů Word (DOCX) do formátu XAML s pevnou formou p
 - [Bezplatný zkušební přístup](https://releases.aspose.com/words/python/)
 - [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá hướng dẫn Aspose.Words toàn diện của chúng tôi về Python-net để quản lý nội dung. Hoàn hảo cho các nhà phát triển muốn nâng cao kỹ năng xử lý tài liệu và tự động hóa."
 "title": "Hướng dẫn Aspose.Words Python-net&#58; Hướng dẫn quản lý nội dung"
@@ -43,3 +46,7 @@ Hướng dẫn mã cho Aspose.Words Python-net
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

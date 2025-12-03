@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ein Code-Tutorial für Aspose.Words Python-net"
@@ -197,3 +200,7 @@ Sie sollten nun in der Lage sein, eine Aspose.Words-Lizenz mit Dateipfaden und S
 - [Support-Forum](https://forum.aspose.com/c/words/10)
 
 Mit dieser Anleitung sind Sie auf dem besten Weg, Aspose.Words effektiv in Ihren Python-Anwendungen zu nutzen. Viel Spaß beim Programmieren!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

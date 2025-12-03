@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python kullanarak korumalı belgeler içinde düzenlenebilir aralıkların nasıl oluşturulacağını ve yönetileceğini öğrenin. Belge yönetimi yeteneklerinizi bugün geliştirin."
@@ -164,3 +167,7 @@ Aspose.Words'ün daha gelişmiş özelliklerini keşfedin veya bu işlevselliği
 - **Destek Forumu**: [Aspose Desteği](https://forum.aspose.com/c/words/10)
 
 Bu kılavuzla, Aspose.Words for Python'ı kullanarak belge yönetimi projelerinizde düzenlenebilir aralıkların gücünden yararlanmak için gereken donanıma sahip olacaksınız!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

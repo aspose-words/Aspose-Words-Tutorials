@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Découvrez nos tutoriels Aspose.Words sur les en-têtes, pieds de page et la mise en page avec Python-net. Apprenez à améliorer la mise en forme de vos documents sans effort."
 "title": "Aspose.Words Python-net &#58; Tutoriels sur les en-têtes, les pieds de page et la mise en page"
@@ -36,3 +39,7 @@ Un tutoriel de code pour Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

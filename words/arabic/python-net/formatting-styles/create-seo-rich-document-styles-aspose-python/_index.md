@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلم كيفية إنشاء أنماط مستندات مخصصة ومتوافقة مع محركات البحث باستخدام Aspose.Words للغة بايثون. حسّن قابلية القراءة والاتساق بسهولة."
@@ -112,3 +115,7 @@ doc.save("StyledDocument.docx")
 - [نسخة تجريبية مجانية](https://releases.aspose.com/words/python/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

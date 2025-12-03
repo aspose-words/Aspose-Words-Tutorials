@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как оптимизировать документы Word для различных версий MS Word с помощью Aspose.Words в Python. В этом руководстве рассматриваются параметры совместимости, советы по производительности и практические приложения."
@@ -144,3 +147,7 @@ pip install aspose-words
 - **Бесплатная пробная версия и временная лицензия**: Начните с бесплатной пробной версии или получите временную лицензию по адресу [Релизы Aspose](https://releases.aspose.com/words/python/) 
 
 Это всеобъемлющее руководство должно помочь вам эффективно оптимизировать документы Word с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

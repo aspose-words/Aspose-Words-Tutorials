@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tối ưu hóa in PCL bằng Aspose.Words cho Python. Nâng cao năng suất bằng cách quét các thành phần, quản lý phông chữ và bảo toàn cài đặt khay giấy."
@@ -178,3 +181,7 @@ Khám phá thêm bằng cách tích hợp các khả năng này vào hệ thốn
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Hãy thực hiện bước tiếp theo bằng cách khám phá các tài nguyên này và tích hợp các kỹ thuật tối ưu hóa PCL vào các dự án Python của bạn với Aspose.Words. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

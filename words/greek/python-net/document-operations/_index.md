@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Εξερευνήστε τα ολοκληρωμένα εκπαιδευτικά μας σεμινάρια Aspose.Words σχετικά με τις λειτουργίες εγγράφων χρησιμοποιώντας Python-net. Βελτιώστε τις δεξιότητές σας στον αποτελεσματικό και αποδοτικό χειρισμό εγγράφων Word."
 "title": "Aspose.Words Python-net&#58; Κύριες Λειτουργίες Εγγράφων με 11 Εκπαιδευτικά Βίντεο"
@@ -63,3 +66,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

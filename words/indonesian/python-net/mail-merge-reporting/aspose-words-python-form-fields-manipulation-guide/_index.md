@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kuasai penanganan dokumen otomatis dalam Python menggunakan Aspose.Words. Pelajari cara memanipulasi kolom formulir, termasuk kotak kombo dan input teks, dengan panduan lengkap kami."
@@ -258,3 +261,7 @@ doc.save(nama_file="DIREKTORI_DOKUMEN_ANDA/FormFields.ManageDropDownItems.html")
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

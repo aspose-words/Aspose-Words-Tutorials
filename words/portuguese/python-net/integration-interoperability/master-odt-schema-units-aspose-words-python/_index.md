@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Um tutorial de código para Aspose.Words Python-net"
@@ -165,3 +168,7 @@ Ao dominar as configurações de esquema ODT e de unidade de medida com o Aspose
 - **Teste grátis**: Comece com um teste gratuito em [Downloads do Aspose para Python](https://releases.aspose.com/words/python/)
 - **Licença Temporária**: Inscreva-se aqui: [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/)
 - **Apoiar**: Junte-se à discussão em [Fórum Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

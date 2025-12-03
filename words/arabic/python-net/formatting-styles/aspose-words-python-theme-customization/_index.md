@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تخصيص السمات في Aspose.Words باستخدام بايثون. يغطي هذا الدليل إعداد الألوان والخطوط، وضمان اتساق هوية العلامة التجارية في مستنداتك."
@@ -165,3 +168,7 @@ doc.save('CustomThemes.docx')
 - [الوصول إلى النسخة التجريبية المجانية](https://releases.aspose.com/words/python/)
 - [معلومات الترخيص المؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

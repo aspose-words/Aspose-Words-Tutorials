@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية استخدام أحرف التحكم في مستندات بايثون باستخدام Aspose.Words للتنسيق الآلي وتخطيط المستندات. اكتشف تقنيات إدراج المسافات وعلامات التبويب والفواصل وغيرها."
@@ -187,3 +190,7 @@ Ready to take your document automation to the next level? Try implementing these
    - Line Feed (LF) moves to the next line, while Carriage Return (CR) returns to the beginning of the current line.
 4. **How do I acquire a license for Aspose.Words?**
    - Visit the Aspose website to purchase or obtain a trial license.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

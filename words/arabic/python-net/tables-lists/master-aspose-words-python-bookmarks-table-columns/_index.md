@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلم كيفية إدراج وإزالة وإدارة الإشارات المرجعية وأعمدة الجداول بكفاءة باستخدام Aspose.Words للغة بايثون. حسّن معالجة مستنداتك بأمثلة عملية ونصائح لتحسين الأداء."
@@ -140,3 +143,7 @@ doc = aw.Document()
    - نعم، يدعم Aspose.Words تنسيقات متعددة بما في ذلك DOCX وPDF.
 3. **ما هي حدود إشارات مرجعية عمود الجدول؟**
    - لا يمكن استخدامها إلا داخل الجداول التي تحتوي على صفوف وأعمدة محددة بوضوح.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

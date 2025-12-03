@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net için Aspose.Words'deki kapsamlı eğitimlerimizi keşfedin, biçimlendirme ve stillere odaklanın. Pratik içgörülerle belge işleme becerilerinizi geliştirin."
 "title": "Python-net Eğitimleriyle Aspose.Words Biçimlendirme ve Stilleri'nde Ustalaşın"
@@ -61,3 +64,7 @@ Aspose.Words kullanarak Python belgelerinizde sekme duraklarını etkili bir şe
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengelola tab stop secara efektif dalam dokumen Python Anda menggunakan Aspose.Words. Panduan ini membahas cara menambahkan, menyesuaikan, dan menghapus tab stop dengan contoh-contoh praktis."
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Kesimpulan
 
 Menguasai tab stop dalam Python menggunakan Aspose.Words memungkinkan Anda membuat dokumen berformat profesional dengan mudah. Dengan mengikuti panduan ini, Anda dapat menambahkan, menyesuaikan, dan mengelola tab stop secara efektif, meningkatkan kualitas keseluruhan output berbasis teks Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

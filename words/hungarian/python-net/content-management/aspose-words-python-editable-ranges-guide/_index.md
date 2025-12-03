@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulja meg, hogyan hozhat létre és kezelhet szerkeszthető tartományokat védett dokumentumokon belül az Aspose.Words for Python használatával. Fejlessze dokumentumkezelési képességeit még ma!"
@@ -164,3 +167,7 @@ Fedezze fel az Aspose.Words fejlettebb funkcióit, vagy integrálja ezt a funkci
 - **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/words/10)
 
 Ezzel az útmutatóval felkészülhetsz arra, hogy kihasználd a szerkeszthető tartományok erejét a dokumentumkezelési projektjeidben az Aspose.Words for Python használatával!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u gemeten licenties implementeert met Aspose.Words voor Python om het documentgebruik binnen uw applicaties efficiënt te volgen en beheren."
@@ -173,3 +176,7 @@ A5: Gebruiksgegevens worden niet in real-time verzonden, dus er kan enige vertra
 - **Steun**: [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Begin vandaag nog met Aspose.Words voor Python en profiteer optimaal van de mogelijkheden van gedoseerde licenties om uw documentverwerking te optimaliseren!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

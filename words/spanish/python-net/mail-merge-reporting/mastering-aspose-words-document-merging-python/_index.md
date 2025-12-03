@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a dominar la fusión de documentos con Aspose.Words en Python, centrándose en \"Mantener numeración de origen\" e \"Insertar en marcador\". ¡Mejore sus habilidades de procesamiento de documentos hoy mismo!"
@@ -181,3 +184,7 @@ Experimente con funcionalidades adicionales de Aspose.Words y explore las posibi
 - [Comprar una licencia](https://purchase.aspose.com/buy)
 - [Licencia de prueba gratuita](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

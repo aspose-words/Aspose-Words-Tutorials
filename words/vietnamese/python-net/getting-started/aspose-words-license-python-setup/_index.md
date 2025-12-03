@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -197,3 +200,7 @@ Khi làm việc với Aspose.Words trong Python:
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
 
 Với hướng dẫn này, bạn đang trên đường tận dụng Aspose.Words hiệu quả trong các ứng dụng Python của mình. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

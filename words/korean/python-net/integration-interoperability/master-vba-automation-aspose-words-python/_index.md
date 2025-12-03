@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python을 사용하여 Microsoft Word VBA 프로젝트를 자동화하는 방법을 알아보세요. 이 가이드에서는 Aspose.Words를 사용하여 VBA 프로젝트에서 참조를 생성, 복제, 보호 상태 확인 및 관리하는 방법을 다룹니다."
@@ -184,3 +187,7 @@ VBA 프로젝트를 복제하면 여러 문서에 걸쳐 설정을 복제해야 
 1. **자동 보고서 생성**: 기업 환경에서 자동 보고서 생성을 위한 VBA 프로젝트를 만들고 관리합니다.
 2. **템플릿 복제**: 일관성을 유지하기 위해 여러 문서에 내장된 매크로가 포함된 잘 디자인된 템플릿을 복제합니다.
 3. **보안 감사**: 보안 프로토콜을 준수하기 위해 VBA 프로젝트가 암호로 보호되어 있는지 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

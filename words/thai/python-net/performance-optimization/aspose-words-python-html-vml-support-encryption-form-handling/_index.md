@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้การเพิ่มประสิทธิภาพเอกสาร HTML โดยใช้ Aspose.Words สำหรับ Python จัดการกราฟิก VML เข้ารหัสเอกสารอย่างปลอดภัย และจัดการองค์ประกอบแบบฟอร์มได้อย่างง่ายดาย"
@@ -199,3 +202,7 @@ def test_ignore_noscript_elements():
 
 **ถาม: ฉันจะจัดการไฟล์ HTML ขนาดใหญ่ที่มีองค์ประกอบ VML ได้อย่างไร**
 A: ใช้การประมวลผลแบบแบตช์และการโหลดแบบเลือกสรรเพื่อจัดการการใช้ทรัพยากรอย่างมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Uygulamalarınızda belge kullanımını etkin bir şekilde izlemek ve yönetmek için Aspose.Words for Python ile ölçülü lisanslamayı nasıl uygulayacağınızı öğrenin."
@@ -173,3 +176,7 @@ C5: Kullanım verileri gerçek zamanlı olarak gönderilmediğinden güncellemel
 - **Destek**: [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 Aspose.Words for Python ile yolculuğunuza bugün başlayın ve belge işleme ihtiyaçlarınızı optimize etmek için ölçülü lisanslamanın tüm avantajlarından yararlanın!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

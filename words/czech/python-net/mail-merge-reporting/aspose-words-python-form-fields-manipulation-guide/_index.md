@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Zvládněte automatizovanou práci s dokumenty v Pythonu pomocí Aspose.Words. Naučte se, jak manipulovat s poli formulářů, včetně seznamových polí a textových vstupů, s naším komplexním průvodcem."
@@ -258,3 +261,7 @@ doc.save(název_souboru="ADRESÁŘ_VAŠEHO_DOKUMENTU/FormFields.ManageDropDownIt
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

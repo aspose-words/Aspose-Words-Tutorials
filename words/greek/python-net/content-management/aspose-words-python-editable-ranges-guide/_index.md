@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να δημιουργείτε και να διαχειρίζεστε επεξεργάσιμα εύρη μέσα σε προστατευμένα έγγραφα χρησιμοποιώντας το Aspose.Words για Python. Βελτιώστε τις δυνατότητες διαχείρισης εγγράφων σας σήμερα."
@@ -164,3 +167,7 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **Φόρουμ Υποστήριξης**: [Υποστήριξη Aspose](https://forum.aspose.com/c/words/10)
 
 Με αυτόν τον οδηγό, είστε πλήρως εξοπλισμένοι για να αξιοποιήσετε τη δύναμη των επεξεργάσιμων περιοχών στα έργα διαχείρισης εγγράφων σας χρησιμοποιώντας το Aspose.Words για Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

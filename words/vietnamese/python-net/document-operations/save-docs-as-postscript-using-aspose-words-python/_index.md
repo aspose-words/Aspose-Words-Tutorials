@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách chuyển đổi tài liệu Word sang định dạng PostScript bằng Aspose.Words for Python. Hướng dẫn này bao gồm các tùy chọn thiết lập, chuyển đổi và in sách gấp."
@@ -163,3 +166,7 @@ Các bước tiếp theo có thể bao gồm khám phá các tính năng khác c
 - [Diễn đàn hỗ trợ cộng đồng](https://forum.aspose.com/c/words/10)
 
 Chúng tôi hy vọng hướng dẫn này giúp bạn lưu tài liệu hiệu quả ở định dạng PostScript bằng Aspose.Words for Python. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je tabstops effectief kunt beheren in je Python-documenten met Aspose.Words. Deze handleiding behandelt het toevoegen, aanpassen en verwijderen van tabstops met praktische voorbeelden."
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusie
 
 Door tabstops in Python onder de knie te krijgen met Aspose.Words, kunt u eenvoudig professioneel opgemaakte documenten maken. Door deze handleiding te volgen, kunt u tabstops effectief toevoegen, aanpassen en beheren, wat de algehele kwaliteit van uw tekstuele output verbetert.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

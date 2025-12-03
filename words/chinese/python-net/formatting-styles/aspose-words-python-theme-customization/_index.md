@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Python 在 Aspose.Words 中自定义主题。本指南涵盖如何设置颜色和字体，以确保文档的品牌一致性。"
@@ -165,3 +168,7 @@ doc.save('CustomThemes.docx')
 - [免费试用](https://releases.aspose.com/words/python/)
 - [临时许可证信息](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

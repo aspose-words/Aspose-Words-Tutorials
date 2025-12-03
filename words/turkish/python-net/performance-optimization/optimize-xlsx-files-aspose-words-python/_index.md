@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python için Aspose.Words'ü kullanarak XLSX dosyalarını nasıl sıkıştıracağınızı, özelleştireceğinizi ve optimize edeceğinizi öğrenin. Dosya boyutu yönetimini ve tarih-saat biçimi işlemeyi geliştirin."
@@ -174,3 +177,7 @@ Veri işlemede yeni olasılıkların kilidini açmak için bu özellikleri daha 
 - **Ücretsiz Deneme**: [Aspose'u Ücretsiz Deneyin](https://releases.aspose.com/words/python/)
 - **Geçici Lisans**: [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
 - **Destek**: [Aspose Forum Desteği](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

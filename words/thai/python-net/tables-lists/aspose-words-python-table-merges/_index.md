@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการผสานเซลล์ตารางอย่างมีประสิทธิภาพใน Python โดยใช้ Aspose.Words คู่มือนี้ครอบคลุมถึงการผสานแนวตั้งและแนวนอน การตั้งค่าการเติมช่องว่าง และการใช้งานจริง"
@@ -213,3 +216,7 @@ Aspose.Words สำหรับ Python มีความหลากหลา�
 - [ทดลองใช้งานฟรี](https://releases.aspose.com/words/python/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

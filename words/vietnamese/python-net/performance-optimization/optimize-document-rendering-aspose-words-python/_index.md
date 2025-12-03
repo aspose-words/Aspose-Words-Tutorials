@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách sử dụng Aspose.Words cho Python để hiển thị hiệu quả các trang tài liệu dưới dạng bitmap và tạo hình thu nhỏ chất lượng cao."
@@ -189,3 +192,7 @@ Bây giờ bạn đã thành thạo nghệ thuật kết xuất tài liệu và 
 
 ## Các bước tiếp theo
 - Hãy thử triển khai các thiết lập kết xuất khác nhau để điều chỉnh chất lượng và hiệu suất đầu ra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

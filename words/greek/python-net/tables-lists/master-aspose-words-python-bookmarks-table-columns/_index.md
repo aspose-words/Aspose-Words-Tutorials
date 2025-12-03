@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε να εισάγετε, να αφαιρείτε και να διαχειρίζεστε αποτελεσματικά σελιδοδείκτες και στήλες πίνακα χρησιμοποιώντας το Aspose.Words για Python. Βελτιώστε την επεξεργασία εγγράφων με πρακτικά παραδείγματα και συμβουλές απόδοσης."
@@ -140,3 +143,7 @@ doc = aw.Document()
    - Ναι, το Aspose.Words υποστηρίζει πολλαπλές μορφές, συμπεριλαμβανομένων των DOCX και PDF.
 3. **Ποιοι είναι οι περιορισμοί των σελιδοδεικτών στηλών πίνακα;**
    - Μπορούν να χρησιμοποιηθούν μόνο σε πίνακες που έχουν σαφώς καθορισμένες γραμμές και στήλες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

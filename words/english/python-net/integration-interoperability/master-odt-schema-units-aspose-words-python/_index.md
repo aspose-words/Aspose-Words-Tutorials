@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master ODT Schema & Units with Aspose.Words in Python"
 description: "A code tutorial for Aspose.Words Python-net"
@@ -172,3 +175,7 @@ By mastering ODT schema settings and measurement unit configurations with Aspose
 - **Free Trial**: Start with a free trial at [Aspose Downloads for Python](https://releases.aspose.com/words/python/)
 - **Temporary License**: Apply here: [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: Join the discussion on [Aspose Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

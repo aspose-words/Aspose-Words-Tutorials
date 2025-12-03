@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net ile Başlıklar, Altbilgiler ve Sayfa Kurulumu konusunda Aspose.Words eğitimlerimizi keşfedin. Belge biçimlendirmesini zahmetsizce geliştirmeyi öğrenin."
 "title": "Aspose.Words Python-net&#58; Başlıklar, Altbilgiler ve Sayfa Kurulumu Eğitimleri"
@@ -36,3 +39,7 @@ Aspose.Words Python-net için bir kod eğitimi
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

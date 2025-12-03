@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 동적 문서 테두리를 만드는 방법을 배우고, 텍스트 및 표 테두리 스타일링 기법을 익혀보세요."
@@ -267,3 +270,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## 결론
 Aspose.Words for Python을 사용하여 이러한 기술을 익히면 동적 테두리가 적용된 전문적인 디자인의 문서를 만들 수 있습니다. 이 가이드는 라이브러리의 기능을 심층적으로 탐색할 수 있는 탄탄한 기반을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

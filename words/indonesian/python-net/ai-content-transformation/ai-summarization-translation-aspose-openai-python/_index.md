@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengotomatiskan ringkasan dan penerjemahan AI menggunakan Aspose.Words untuk Python dan OpenAI. Panduan ini mencakup penyiapan, implementasi, dan aplikasi praktis."
@@ -212,3 +215,7 @@ Siap untuk mempraktikkan pengetahuan ini? Cobalah menerapkan solusinya dalam pro
 - “Ringkasan AI Python”
 - "Terjemahan Aspose.Words"
 - "Pemrosesan dokumen OpenAI"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

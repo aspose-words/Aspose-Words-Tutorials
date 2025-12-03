@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerje meg, hogyan szabhatja testre a dokumentumnézeteket az Aspose.Words for Python használatával. Állítsa be a nagyítási szinteket, a megjelenítési beállításokat és egyebeket a felhasználói élmény javítása érdekében."
@@ -234,3 +237,7 @@ Az Aspose.Words használatakor a teljesítmény optimalizálása a következőke
 
 ## Következtetés
 Az útmutató követésével az Aspose.Words for Python segítségével hatékonyan testreszabhatja a dokumentumok nézeteit. Ez nemcsak a felhasználói élményt javítja, hanem rugalmasságot is biztosít a dokumentumok különböző platformokon történő megjelenítésében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

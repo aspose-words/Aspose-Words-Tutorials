@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Padroneggia Aspose.Words per Python-net con i nostri tutorial su stampa unione e reporting. Migliora le tue competenze di automazione dei documenti e semplifica i tuoi processi di reporting dei dati."
 "title": "Aspose.Words Python-net&#58; Tutorial su unione e creazione di report"
@@ -37,3 +40,7 @@ Scopri come padroneggiare l'unione di documenti con Aspose.Words in Python, conc
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

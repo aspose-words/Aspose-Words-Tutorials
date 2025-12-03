@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du konverterar Microsoft Word-dokument (DOCX) till XAML i fast format med hjälp av Aspose.Words för Python, vilket säkerställer effektiv resurshantering och designintegritet."
@@ -156,3 +159,7 @@ Vi har utforskat konvertering av Word-filer (DOCX) till XAML i fast format med h
 - [Gratis provperiod](https://releases.aspose.com/words/python/)
 - [Ansökan om tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

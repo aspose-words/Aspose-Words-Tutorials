@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net에서 표와 목록을 다루는 Aspose.Words 튜토리얼로 문서 처리 능력을 향상시켜 보세요. 실용적이고 실행 가능한 통찰력을 찾는 개발자에게 안성맞춤입니다."
 "title": "Aspose.Words Python-net&#58; 테이블 및 목록 마스터 튜토리얼"
@@ -45,3 +48,7 @@ Aspose.Words를 사용하여 Python에서 표 셀을 효율적으로 병합하�
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

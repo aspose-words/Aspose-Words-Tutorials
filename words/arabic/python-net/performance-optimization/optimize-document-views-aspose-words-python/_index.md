@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تخصيص عرض المستندات باستخدام Aspose.Words لبايثون. حدّد مستويات التكبير/التصغير، وخيارات العرض، والمزيد لتحسين تجربة المستخدم."
@@ -234,3 +237,7 @@ set_forms_design_mode(True)
 
 ## خاتمة
 باتباع هذا الدليل، يمكنك الاستفادة من Aspose.Words لبايثون لتخصيص عروض المستندات بفعالية. هذا لا يُحسّن تجربة المستخدم فحسب، بل يوفر أيضًا مرونة في كيفية عرض المستندات عبر منصات مختلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

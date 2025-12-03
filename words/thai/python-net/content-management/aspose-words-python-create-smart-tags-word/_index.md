@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Python-net"
@@ -236,3 +239,7 @@ print(f'Properties count after clearing: {properties.count}')
 - **ฟอรั่มสนับสนุน**:มีส่วนร่วมกับชุมชนบน [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/words/10)
 
 ด้วยคู่มือที่ครอบคลุมนี้ คุณจะพร้อมแล้วที่จะใช้ประโยชน์จาก Aspose.Words สำหรับ Python ในการสร้างและจัดการสมาร์ทแท็กในเอกสาร Word ของคุณ ขอให้สนุกกับการเขียนโค้ด!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

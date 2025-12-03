@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 压缩、自定义和优化 XLSX 文件。增强文件大小管理和日期时间格式处理。"
@@ -174,3 +177,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **免费试用**： [免费试用 Aspose](https://releases.aspose.com/words/python/)
 - **临时执照**： [获取临时许可证](https://purchase.aspose.com/temporary-license/)
 - **支持**： [Aspose 论坛支持](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

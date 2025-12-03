@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk en verwerk versleutelde documenten eenvoudig."
@@ -251,3 +254,7 @@ Aspose.Words voor Python biedt krachtige tools voor geavanceerde PDF-bewerking, 
 - "PDF-conversie naar DOCX"
 - "Documentbeheer met Python"
 - "Omgaan met gecodeerde PDF's"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

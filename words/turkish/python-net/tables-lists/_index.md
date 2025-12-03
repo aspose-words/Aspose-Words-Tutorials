@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net'te tablolar ve listeler üzerine odaklanan Aspose.Words eğitimleriyle belge işleme becerilerinizi geliştirin. Pratik, eyleme dönüştürülebilir içgörüler arayan geliştiriciler için mükemmel."
 "title": "Aspose.Words Python-net&#58; Ana Tablolar ve Listeler Eğitimleri"
@@ -45,3 +48,7 @@ Aspose.Words kullanarak Python'da tablo hücrelerini etkili bir şekilde birleş
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Nâng cao kỹ năng xử lý tài liệu của bạn với hướng dẫn Aspose.Words tập trung vào bảng và danh sách trong Python-net. Hoàn hảo cho các nhà phát triển đang tìm kiếm những hiểu biết thực tế, có thể hành động."
 "title": "Aspose.Words Python-net&#58; Hướng dẫn về Bảng và Danh sách chính"
@@ -45,3 +48,7 @@ Tìm hiểu cách hợp nhất các ô bảng hiệu quả trong Python bằng A
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

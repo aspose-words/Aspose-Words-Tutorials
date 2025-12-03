@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explorez nos tutoriels complets sur Aspose.Words pour Python-net, axés sur la mise en forme et les styles. Améliorez vos compétences en traitement de documents grâce à des conseils pratiques."
 "title": "Maîtrisez le formatage et les styles d'Aspose.Words grâce aux tutoriels Python-net"
@@ -61,3 +64,7 @@ Apprenez à gérer efficacement les taquets de tabulation dans vos documents Pyt
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

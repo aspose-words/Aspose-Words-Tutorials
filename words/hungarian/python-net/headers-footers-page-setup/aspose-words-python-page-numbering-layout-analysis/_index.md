@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Kód oktatóanyag az Aspose.Words Python-nethez"
@@ -214,3 +217,7 @@ Bár átfogóak, az összetett elrendezések optimális pontosság érdekében m
 - **Támogatási fórum:** [Aspose támogató közösség](https://forum.aspose.com/c/words/10)
 
 Az útmutató követésével felkészült leszel az oldalszámozás és az elrendezéselemzés megvalósítására és optimalizálására Python-projektjeidben az Aspose.Words használatával. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

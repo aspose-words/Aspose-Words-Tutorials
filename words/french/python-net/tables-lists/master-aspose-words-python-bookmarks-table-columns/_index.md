@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à insérer, supprimer et gérer efficacement les signets et les colonnes de tableaux avec Aspose.Words pour Python. Améliorez le traitement de vos documents grâce à des exemples pratiques et des conseils de performance."
@@ -140,3 +143,7 @@ Maîtriser l'insertion, la suppression et la gestion des signets avec Aspose.Wor
    - Oui, Aspose.Words prend en charge plusieurs formats, notamment DOCX et PDF.
 3. **Quelles sont les limites des signets de colonnes de tableau ?**
    - Ils ne peuvent être utilisés que dans des tableaux comportant des lignes et des colonnes clairement définies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

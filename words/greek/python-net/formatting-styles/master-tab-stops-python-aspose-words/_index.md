@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τους στηλοθέτες στα έγγραφά σας Python χρησιμοποιώντας το Aspose.Words. Αυτός ο οδηγός καλύπτει την προσθήκη, την προσαρμογή και την αφαίρεση στηλοθετών με πρακτικά παραδείγματα."
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Σύναψη
 
 Η εκμάθηση των στηλοθετών σε Python χρησιμοποιώντας το Aspose.Words σάς επιτρέπει να δημιουργείτε εύκολα επαγγελματικά μορφοποιημένα έγγραφα. Ακολουθώντας αυτόν τον οδηγό, μπορείτε να προσθέσετε, να προσαρμόσετε και να διαχειριστείτε στηλοθέτες αποτελεσματικά, βελτιώνοντας τη συνολική ποιότητα των αποτελεσμάτων σας που βασίζονται σε κείμενο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

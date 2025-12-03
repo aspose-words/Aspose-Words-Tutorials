@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tùy chỉnh chủ đề trong Aspose.Words bằng Python. Hướng dẫn này bao gồm thiết lập màu sắc và phông chữ, đảm bảo tính nhất quán của thương hiệu trên các tài liệu của bạn."
@@ -165,3 +168,7 @@ A: Mặc dù rộng rãi, một số tính năng nâng cao của Word có thể 
 - [Truy cập dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Thông tin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

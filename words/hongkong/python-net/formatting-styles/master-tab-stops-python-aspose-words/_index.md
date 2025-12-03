@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words 有效地管理 Python 文件中的製表位。本指南透過實際範例介紹如何新增、自訂和刪除製表位。"
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## 結論
 
 使用 Aspose.Words 掌握 Python 中的製表位可以讓您輕鬆建立專業格式的文件。透過遵循本指南，您可以有效地添加、自訂和管理製表位，從而提高基於文字的輸出的整體品質。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

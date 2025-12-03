@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Fedezz fel három szakértők által összeállított oktatóanyagot a dokumentumtulajdonságok és metaadatok kezeléséről az Aspose.Words for Python-net használatával. Fejleszd a lényeges dokumentumattribútumok kezelésében szerzett készségeidet."
 "title": "Fődokumentum tulajdonságai és metaadatok az Aspose.Words segítségével - Python-net oktatóanyagok"
@@ -40,3 +43,7 @@ Tanuld meg, hogyan kezelheted és optimalizálhatod a felhasználói informáci�
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

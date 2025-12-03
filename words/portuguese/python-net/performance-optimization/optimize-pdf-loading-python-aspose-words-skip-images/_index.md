@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a pular imagens com eficiência ao carregar PDFs em Python usando Aspose.Words. Melhore o desempenho do aplicativo e otimize o uso de recursos."
@@ -136,3 +139,7 @@ Explore mais do Aspose.Words verificando o [documentação oficial](https://refe
 - [Teste gratuito do Aspose.Words](https://releases.aspose.com/words/python/)
 - [Aquisição de Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

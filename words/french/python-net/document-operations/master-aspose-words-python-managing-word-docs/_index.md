@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à charger, gérer et automatiser des documents Microsoft Word avec Aspose.Words en Python. Simplifiez le traitement de vos documents sans effort."
@@ -195,3 +198,7 @@ Voici quelques cas d'utilisation pratiques pour le traitement de documents avec 
 - Extraction de métadonnées à des fins d'analyse ou d'archivage de données.
 
 En suivant ce guide, vous serez parfaitement équipé pour gérer efficacement vos documents Word avec Aspose.Words en Python. Explorez les nombreuses fonctionnalités de la bibliothèque pour optimiser davantage vos flux de gestion documentaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

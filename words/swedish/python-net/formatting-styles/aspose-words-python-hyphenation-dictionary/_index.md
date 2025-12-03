@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du registrerar och avregistrerar bindestrecksordböcker med Aspose.Words för Python, vilket förbättrar läsbarheten över olika språk."
@@ -173,3 +176,7 @@ För mer skräddarsydda svar, kolla in [Aspose-forumet](https://forum.aspose.com
 - **Köpa:** [Köp Aspose.Words-licens](https://purchase.aspose.com/buy)
 - **Gratis provperiod:** [Börja med en gratis provperiod](https://releases.aspose.com/words/python/)
 - **Tillfällig licens:** [Begär en tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

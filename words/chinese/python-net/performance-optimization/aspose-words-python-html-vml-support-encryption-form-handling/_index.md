@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习使用 Aspose.Words for Python 优化 HTML 文档。管理 VML 图形、安全加密文档并轻松处理表单元素。"
@@ -199,3 +202,7 @@ def test_ignore_noscript_elements():
 
 **问：如何处理包含 VML 元素的大型 HTML 文件？**
 答：使用批处理和选择性加载来有效地管理资源使用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

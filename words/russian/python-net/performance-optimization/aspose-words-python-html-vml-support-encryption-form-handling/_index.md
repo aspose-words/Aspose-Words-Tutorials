@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Научитесь оптимизировать HTML-документы с помощью Aspose.Words для Python. Управляйте графикой VML, надежно шифруйте документы и обрабатывайте элементы форм без усилий."
@@ -199,3 +202,7 @@ def test_ignore_noscript_elements():
 
 **В: Как обрабатывать большие HTML-файлы с элементами VML?**
 A: Используйте пакетную обработку и выборочную загрузку для эффективного управления использованием ресурсов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

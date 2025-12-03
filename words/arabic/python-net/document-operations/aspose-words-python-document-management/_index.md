@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرف على كيفية تحديد مستويات العناوين وتطبيق التوقيعات الرقمية في مستندات XPS باستخدام Aspose.Words for Python، مما يعزز أمان المستندات والتنقل فيها."
@@ -185,3 +188,7 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **س1: كيف يمكنني التأكد من أن توقيعاتي الرقمية آمنة مع Aspose.Words؟**
 - تأكد من استخدام جهة إصدار شهادات موثوقة للحصول على شهاداتك الرقمية.
 - قم بتحديث مفاتيحك وكلمات المرور الخاصة بك وإدارتها بشكل آمن بانتظام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

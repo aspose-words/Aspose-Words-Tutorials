@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à personnaliser les thèmes dans Aspose.Words avec Python. Ce guide explique comment configurer les couleurs et les polices, garantissant ainsi la cohérence de votre marque dans tous vos documents."
@@ -165,3 +168,7 @@ R : Bien que complètes, certaines fonctionnalités avancées de Word peuvent n
 - [Accès d'essai gratuit](https://releases.aspose.com/words/python/)
 - [Informations sur les licences temporaires](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

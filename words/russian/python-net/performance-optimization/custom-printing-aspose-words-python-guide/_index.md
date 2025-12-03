@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как настроить параметры печати для документов Word с помощью Aspose.Words и Python. Освойте размер бумаги, ориентацию и конфигурации лотка."
@@ -145,3 +148,7 @@ doc.print(printer_settings)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Изучите эти ресурсы, чтобы углубить свои знания и максимально использовать Aspose.Words для Python. Удачной печати!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

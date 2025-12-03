@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách xác minh phiên bản đã cài đặt của Aspose.Words cho Python qua .NET. Hướng dẫn này bao gồm cài đặt, truy xuất thông tin phiên bản và các ứng dụng thực tế."
@@ -144,3 +147,7 @@ A: Sử dụng `pip install --upgrade aspose-words` trong dòng lệnh của b�
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Với những công cụ này, bạn sẽ được trang bị đầy đủ để quản lý cài đặt Aspose.Words của mình một cách hiệu quả. Chúc bạn viết code vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

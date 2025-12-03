@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words kullanarak Python'da tablo hücrelerini etkili bir şekilde birleştirmeyi öğrenin. Bu kılavuz dikey ve yatay birleştirmeleri, dolgu ayarlarını ve pratik uygulamaları kapsar."
@@ -213,3 +216,7 @@ Becerilerinizi daha da ileriye taşımaya hazır mısınız? Kapsamlı kaynaklar
 - [Ücretsiz Deneme](https://releases.aspose.com/words/python/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - [Destek Forumu](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

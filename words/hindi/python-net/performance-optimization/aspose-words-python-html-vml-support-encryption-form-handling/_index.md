@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन के लिए Aspose.Words का उपयोग करके HTML दस्तावेज़ों को अनुकूलित करना सीखें। VML ग्राफ़िक्स प्रबंधित करें, दस्तावेज़ों को सुरक्षित रूप से एन्क्रिप्ट करें, और फ़ॉर्म तत्वों को आसानी से संभालें।"
@@ -199,3 +202,7 @@ def test_ignore_noscript_elements():
 
 **प्रश्न: मैं VML तत्वों वाली बड़ी HTML फ़ाइलों को कैसे संभालूँ?**
 उत्तर: संसाधन उपयोग को कुशलतापूर्वक प्रबंधित करने के लिए बैच प्रोसेसिंग और चयनात्मक लोडिंग का उपयोग करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

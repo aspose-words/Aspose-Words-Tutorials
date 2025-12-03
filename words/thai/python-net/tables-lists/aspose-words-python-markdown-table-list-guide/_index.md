@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีจัดรูปแบบตารางและรายการใน Markdown โดยใช้ Aspose.Words สำหรับ Python ปรับปรุงเวิร์กโฟลว์เอกสารของคุณด้วยการจัดตำแหน่ง โหมดการส่งออกรายการ และอื่นๆ อีกมากมาย"
@@ -185,3 +188,7 @@
 ## บทสรุป
 
 การเรียนรู้ Aspose.Words สำหรับ Python จะช่วยให้คุณพัฒนาทักษะในการสร้างและจัดการเอกสาร Markdown ที่มีตารางและรายการที่ซับซ้อนได้อย่างมาก ไม่ว่าคุณจะทำงานเกี่ยวกับเอกสารทางเทคนิคหรือโครงการร่วมมือ เครื่องมือเหล่านี้จะช่วยปรับปรุงเวิร์กโฟลว์เอกสารของคุณให้มีประสิทธิภาพและอ่านง่ายขึ้น
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

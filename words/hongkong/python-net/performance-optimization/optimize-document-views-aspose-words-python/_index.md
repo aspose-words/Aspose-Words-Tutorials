@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 自訂文件檢視。設定縮放等級、顯示選項等以增強使用者體驗。"
@@ -234,3 +237,7 @@ set_forms_design_mode(True)
 
 ## 結論
 透過遵循本指南，您可以利用 Aspose.Words for Python 有效地自訂文件視圖。這不僅增強了使用者體驗，而且還為跨不同平台呈現文件的方式提供了靈活性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

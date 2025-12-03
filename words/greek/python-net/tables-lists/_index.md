@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Βελτιώστε τις δεξιότητές σας στην επεξεργασία εγγράφων με τα εκπαιδευτικά σεμινάρια Aspose.Words που εστιάζουν σε πίνακες και λίστες σε Python-net. Ιδανικό για προγραμματιστές που αναζητούν πρακτικές, εφαρμόσιμες γνώσεις."
 "title": "Aspose.Words Python-net&#58; Εκπαιδευτικά σεμινάρια για κύριους πίνακες και λίστες"
@@ -45,3 +48,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

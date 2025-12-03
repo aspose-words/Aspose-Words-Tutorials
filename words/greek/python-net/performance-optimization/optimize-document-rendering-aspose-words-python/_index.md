@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να χρησιμοποιείτε το Aspose.Words για Python για να αποδίδετε αποτελεσματικά σελίδες εγγράφων ως bitmap και να δημιουργείτε μικρογραφίες υψηλής ποιότητας."
@@ -189,3 +192,7 @@ img.save(YOUR_OUTPUT_DIRECTORY + 'Rendering.thumbnails.png')
 
 ## Επόμενα βήματα
 - Δοκιμάστε να εφαρμόσετε διαφορετικές ρυθμίσεις απόδοσης για να προσαρμόσετε την ποιότητα και την απόδοση της εξόδου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à enregistrer et à désenregistrer des dictionnaires de césure avec Aspose.Words pour Python, améliorant ainsi la lisibilité dans toutes les langues."
@@ -173,3 +176,7 @@ Pour des réponses plus personnalisées, consultez le [Forum Aspose](https://for
 - **Achat:** [Acheter la licence Aspose.Words](https://purchase.aspose.com/buy)
 - **Essai gratuit :** [Commencez par un essai gratuit](https://releases.aspose.com/words/python/)
 - **Licence temporaire :** [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

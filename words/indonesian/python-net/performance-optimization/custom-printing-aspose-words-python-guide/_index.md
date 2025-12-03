@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menyesuaikan pengaturan cetak untuk dokumen Word menggunakan Aspose.Words dan Python. Kuasai ukuran kertas, orientasi, dan konfigurasi baki."
@@ -145,3 +148,7 @@ Terapkan solusi pencetakan khusus pada proyek Anda berikutnya dan saksikan trans
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
 
 Jelajahi sumber daya ini untuk memperdalam pemahaman Anda dan memanfaatkan Aspose.Words untuk Python secara maksimal. Selamat mencetak!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

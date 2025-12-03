@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Découvrez notre tutoriel complet Aspose.Words pour les développeurs Python-net. Apprenez à comparer et suivre efficacement les modifications apportées à vos documents grâce à des outils performants."
 "title": "Comparaison et suivi de documents maîtres avec Aspose.Words en Python-net"
@@ -33,3 +36,7 @@ Apprenez à gérer et suivre efficacement les révisions de vos documents avec A
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

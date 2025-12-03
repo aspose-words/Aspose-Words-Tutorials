@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python を使用して、Markdown で表やリストをフォーマットする方法を学びましょう。配置、リストのエクスポートモードなどを活用して、ドキュメントワークフローを強化しましょう。"
@@ -185,3 +188,7 @@ Aspose.Words for Python の使用を開始するには、次の手順に従い�
 ## 結論
 
 Aspose.Words for Pythonを習得することで、複雑な表やリストを含むMarkdownドキュメントの作成と操作能力が大幅に向上します。技術文書の作成でも共同プロジェクトでも、これらのツールはドキュメントワークフローを効率化し、読みやすさを向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية اكتشاف القوائم وإدارة ملفات النصوص بكفاءة باستخدام Aspose.Words لـ Python. مثالي لأنظمة إدارة المستندات."
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **أدوات تحليل المحتوى**:استخراج البيانات المنظمة من ملفات النصوص لمزيد من التحليل أو إعداد التقارير.
 3. **مهام تنظيف البيانات**:توحيد تنسيق النص من خلال إدارة المسافات البيضاء وتحديد عناصر القائمة.
 4. **التحقق من الرابط**:تحقق من صحة الروابط داخل مجموعة من مستندات النصوص للتأكد من أنها نشطة وصحيحة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

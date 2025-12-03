@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách định dạng bảng và danh sách trong Markdown bằng Aspose.Words cho Python. Cải thiện quy trình làm việc tài liệu của bạn với chế độ căn chỉnh, xuất danh sách và nhiều hơn nữa."
@@ -185,3 +188,7 @@ Trước khi bắt đầu triển khai, hãy đảm bảo bạn có những đi�
 ## Phần kết luận
 
 Bằng cách thành thạo Aspose.Words for Python, bạn có thể cải thiện đáng kể khả năng tạo và thao tác các tài liệu Markdown với các bảng và danh sách phức tạp. Cho dù bạn đang làm việc trên tài liệu kỹ thuật hay các dự án hợp tác, các công cụ này sẽ hợp lý hóa quy trình làm việc của tài liệu và cải thiện khả năng đọc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

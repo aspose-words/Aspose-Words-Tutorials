@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إزالة حدود الفقرات وتخصيصها بكفاءة باستخدام Aspose.Words لبايثون. حسّن تنسيق مستنداتك."
@@ -179,3 +182,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **نسخة تجريبية مجانية**: [ابدأ مجانًا](https://releases.aspose.com/words/python/)
 - **رخصة مؤقتة**: [الحصول على رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 - **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

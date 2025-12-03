@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Aspose.Words Formatting & Styles with Python-net Tutorials"
 description: "Explore our comprehensive tutorials on Aspose.Words for Python-net, focusing on formatting and styles. Enhance your document processing skills with practical insights."
@@ -60,3 +63,7 @@ Learn how to effectively manage tab stops in your Python documents using Aspose.
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

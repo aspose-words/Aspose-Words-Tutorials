@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à optimiser l'impression PCL avec Aspose.Words pour Python. Améliorez votre productivité en pixellisant les éléments, en gérant les polices et en préservant les paramètres du bac à papier."
@@ -178,3 +181,7 @@ Explorez davantage en intégrant ces fonctionnalités dans vos systèmes de gest
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
 
 Passez à l'étape suivante en explorant ces ressources et en intégrant les techniques d'optimisation PCL à vos projets Python avec Aspose.Words. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

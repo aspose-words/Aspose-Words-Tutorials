@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Научитесь создавать пользовательские, SEO-дружественные стили документов с помощью Aspose.Words для Python. Улучшайте читаемость и согласованность без усилий."
@@ -112,3 +115,7 @@ A: Убедитесь, что определения стилей верны, и
 - [Бесплатная пробная версия](https://releases.aspose.com/words/python/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

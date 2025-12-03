@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Opanuj Aspose.Words dla Python-net dzięki naszym samouczkom na temat korespondencji seryjnej i raportowania. Udoskonal umiejętności automatyzacji dokumentów i usprawnij procesy raportowania danych."
 "title": "Aspose.Words Python-net&#58; Samouczki dotyczące korespondencji seryjnej i raportowania"
@@ -37,3 +40,7 @@ Dowiedz się, jak opanować scalanie dokumentów za pomocą Aspose.Words w Pytho
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 高效地将文档页面呈现为位图并创建高质量的缩略图。"
@@ -189,3 +192,7 @@ img.save(YOUR_OUTPUT_DIRECTORY + 'Rendering.thumbnails.png')
 
 ## 后续步骤
 - 尝试实施不同的渲染设置来定制输出质量和性能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

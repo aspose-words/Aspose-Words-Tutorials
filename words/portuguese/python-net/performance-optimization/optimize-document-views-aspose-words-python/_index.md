@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a personalizar a visualização de documentos usando o Aspose.Words para Python. Defina níveis de zoom, opções de exibição e muito mais para aprimorar a experiência do usuário."
@@ -234,3 +237,7 @@ Otimizar o desempenho ao usar o Aspose.Words envolve:
 
 ## Conclusão
 Seguindo este guia, você pode aproveitar o Aspose.Words para Python para personalizar visualizações de documentos de forma eficaz. Isso não apenas aprimora a experiência do usuário, mas também proporciona flexibilidade na forma como os documentos são apresentados em diferentes plataformas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何透過 .NET 驗證已安裝的 Aspose.Words for Python 版本。本指南涵蓋安裝、檢索版本資訊和實際應用。"
@@ -144,3 +147,7 @@ print(f'I am currently using {product_name}, version number {version_number}!')
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 
 有了這些工具，您就可以有效地管理您的 Aspose.Words 安裝。編碼愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

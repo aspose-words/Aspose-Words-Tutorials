@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tạo và quản lý các phạm vi có thể chỉnh sửa trong các tài liệu được bảo vệ bằng Aspose.Words for Python. Nâng cao khả năng quản lý tài liệu của bạn ngay hôm nay."
@@ -164,3 +167,7 @@ Khám phá các tính năng nâng cao hơn của Aspose.Words hoặc tích hợp
 - **Diễn đàn hỗ trợ**: [Hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Với hướng dẫn này, bạn sẽ được trang bị đầy đủ để tận dụng sức mạnh của các phạm vi có thể chỉnh sửa trong các dự án quản lý tài liệu bằng Aspose.Words cho Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

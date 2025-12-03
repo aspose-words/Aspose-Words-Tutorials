@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Prozkoumejte tři odborně vytvořené tutoriály o správě vlastností a metadat dokumentů pomocí Aspose.Words pro Python-net. Zlepšete si dovednosti v manipulaci se základními atributy dokumentů."
 "title": "Vlastnosti a metadata hlavního dokumentu s Aspose.Words - tutoriály Python-net"
@@ -40,3 +43,7 @@ Naučte se, jak spravovat a optimalizovat pole s uživatelskými informacemi v d
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a dominar a mesclagem de documentos com o Aspose.Words em Python, com foco em \"Manter a Numeração de Origem\" e \"Inserir no Marcador\". Aprimore suas habilidades de processamento de documentos hoje mesmo!"
@@ -181,3 +184,7 @@ Experimente funcionalidades adicionais do Aspose.Words e explore possibilidades 
 - [Comprar uma licença](https://purchase.aspose.com/buy)
 - [Licença de teste gratuita](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

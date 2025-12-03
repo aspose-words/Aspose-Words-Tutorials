@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du effektivt hanterar dokumentvariabler med Aspose.Words för Python. Den här guiden handlar om att lägga till, uppdatera och visa variabelvärden i dokument."
@@ -161,3 +164,7 @@ Varför inte prova att implementera dessa lösningar idag och se skillnaden i di
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
 
 Utforska dessa resurser för att ytterligare förbättra din förståelse och implementering av Aspose.Words i Python. Lycka till med kodningen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

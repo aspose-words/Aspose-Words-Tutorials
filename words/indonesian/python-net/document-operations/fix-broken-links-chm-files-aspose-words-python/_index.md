@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengatasi tautan rusak dalam file .chm menggunakan pustaka Aspose.Words yang canggih. Tingkatkan keandalan dokumen dan pengalaman pengguna Anda dengan panduan langkah demi langkah ini."
@@ -145,3 +148,7 @@ Untuk bantuan dan eksplorasi lebih lanjut:
 - **Unduh**: [Aspose.Words untuk Rilisan Python](https://releases.aspose.com/words/python/)
 - **Pembelian & Uji Coba**: [Dapatkan Lisensi atau Uji Coba Gratis](https://purchase.aspose.com/buy)
 - **Forum Dukungan**: [Komunitas Dukungan Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

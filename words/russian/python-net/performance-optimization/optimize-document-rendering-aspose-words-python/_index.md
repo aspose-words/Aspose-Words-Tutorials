@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как использовать Aspose.Words для Python для эффективного отображения страниц документов в виде растровых изображений и создания высококачественных миниатюр."
@@ -189,3 +192,7 @@ img.save(YOUR_OUTPUT_DIRECTORY + 'Rendering.thumbnails.png')
 
 ## Следующие шаги
 - Попробуйте применить различные настройки рендеринга, чтобы настроить качество и производительность вывода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

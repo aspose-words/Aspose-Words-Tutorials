@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Entdecken Sie unser umfassendes Aspose.Words-Tutorial zu Anmerkungen und Kommentaren mit Python-net. Verbessern Sie Ihre Fähigkeiten zur Dokumentenverarbeitung mit praktischen Beispielen."
 "title": "Master-Anmerkungen und Kommentare in Aspose.Words mit Python-net"
@@ -33,3 +36,7 @@ Erfahren Sie, wie Sie mithilfe der Aspose.Words-Bibliothek mit Python programmge
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

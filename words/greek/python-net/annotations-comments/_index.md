@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Εξερευνήστε το ολοκληρωμένο σεμινάριό μας Aspose.Words σχετικά με σχολιασμούς και σχόλια χρησιμοποιώντας Python-net. Βελτιώστε τις δεξιότητές σας στην επεξεργασία εγγράφων με πρακτικά παραδείγματα."
 "title": "Κύριοι σχολιασμοί και σχόλια στο Aspose.Words με Python-net"
@@ -33,3 +36,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

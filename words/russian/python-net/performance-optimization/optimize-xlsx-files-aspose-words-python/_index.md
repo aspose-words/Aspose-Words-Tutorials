@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как сжимать, настраивать и оптимизировать файлы XLSX с помощью Aspose.Words для Python. Улучшите управление размером файла и обработку формата даты и времени."
@@ -174,3 +177,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **Бесплатная пробная версия**: [Попробуйте Aspose бесплатно](https://releases.aspose.com/words/python/)
 - **Временная лицензия**: [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 - **Поддерживать**: [Поддержка форума Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

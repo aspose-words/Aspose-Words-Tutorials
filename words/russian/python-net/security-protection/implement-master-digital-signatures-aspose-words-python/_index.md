@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Учебник по коду для Aspose.Words Python-net"
@@ -331,3 +334,7 @@ A5: Убедитесь в правильности вашего пароля. Н
 - **Форум поддержки**: [Поддержка Aspose](https://forum.aspose.com/c/words/10)
 
 Мы надеемся, что это руководство было полезным в освоении цифровых подписей с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

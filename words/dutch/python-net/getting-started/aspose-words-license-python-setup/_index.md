@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Een codetutorial voor Aspose.Words Python-net"
@@ -197,3 +200,7 @@ Je zou nu in staat moeten zijn om een Aspose.Words-licentie in te stellen met zo
 - [Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 
 Met deze handleiding bent u goed op weg om Aspose.Words effectief te gebruiken in uw Python-applicaties. Veel plezier met coderen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как оптимизировать стили документов с помощью Aspose.Words для Python. Удалите неиспользуемые и дублирующиеся стили, улучшите свой рабочий процесс и повысьте производительность."
@@ -186,3 +189,7 @@ license.set_license("path/to/your/license.lic")
 - [Документация Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [Загрузить Aspose.Words для Python](https://releases.aspose.com/words/python/)
 - [Страница покупки](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

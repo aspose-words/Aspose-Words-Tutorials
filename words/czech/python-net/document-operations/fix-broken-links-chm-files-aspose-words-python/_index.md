@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak vyřešit nefunkční odkazy v souborech .chm pomocí výkonné knihovny Aspose.Words. Zvyšte spolehlivost svých dokumentů a uživatelský komfort s tímto podrobným návodem."
@@ -145,3 +148,7 @@ Pro další pomoc a průzkum:
 - **Stáhnout**: [Aspose.Words pro vydání Pythonu](https://releases.aspose.com/words/python/)
 - **Nákup a zkušební verze**: [Získejte licenci nebo bezplatnou zkušební verzi](https://purchase.aspose.com/buy)
 - **Fórum podpory**: [Komunita podpory Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

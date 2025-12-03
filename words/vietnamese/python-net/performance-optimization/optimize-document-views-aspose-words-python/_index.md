@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tùy chỉnh chế độ xem tài liệu bằng Aspose.Words cho Python. Đặt mức thu phóng, tùy chọn hiển thị và nhiều hơn nữa để nâng cao trải nghiệm người dùng."
@@ -234,3 +237,7 @@ Tối ưu hóa hiệu suất khi sử dụng Aspose.Words bao gồm:
 
 ## Phần kết luận
 Bằng cách làm theo hướng dẫn này, bạn có thể tận dụng Aspose.Words for Python để tùy chỉnh chế độ xem tài liệu một cách hiệu quả. Điều này không chỉ nâng cao trải nghiệm người dùng mà còn cung cấp tính linh hoạt trong cách trình bày tài liệu trên các nền tảng khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

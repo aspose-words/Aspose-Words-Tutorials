@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 문서 뷰를 사용자 지정하는 방법을 알아보세요. 확대/축소 수준, 표시 옵션 등을 설정하여 사용자 경험을 향상하세요."
@@ -234,3 +237,7 @@ Aspose.Words를 사용할 때 성능을 최적화하려면 다음이 필요합�
 
 ## 결론
 이 가이드를 따르면 Python용 Aspose.Words를 활용하여 문서 뷰를 효과적으로 사용자 지정할 수 있습니다. 이를 통해 사용자 경험을 향상시킬 뿐만 아니라 다양한 플랫폼에서 문서를 표시하는 방식에 유연성을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

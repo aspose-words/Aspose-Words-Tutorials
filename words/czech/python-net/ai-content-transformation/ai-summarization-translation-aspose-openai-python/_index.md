@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak automatizovat sumarizaci a překlad umělé inteligence pomocí Aspose.Words pro Python a OpenAI. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi."
@@ -212,3 +215,7 @@ Jste připraveni tyto znalosti uvést do praxe? Zkuste toto řešení implemento
 - "Shrnutí umělé inteligence v Pythonu"
 - „Překlad Aspose.Words“
 - „Zpracování dokumentů v OpenAI“
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

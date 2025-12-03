@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan lehet hatékonyan egyesíteni a táblázatcellákat Pythonban az Aspose.Words használatával. Ez az útmutató a függőleges és vízszintes egyesítéseket, a kitöltés beállításait és a gyakorlati alkalmazásokat tárgyalja."
@@ -213,3 +216,7 @@ Készen állsz, hogy továbbfejlesszd a tudásodat? Merülj el mélyebben átfog
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

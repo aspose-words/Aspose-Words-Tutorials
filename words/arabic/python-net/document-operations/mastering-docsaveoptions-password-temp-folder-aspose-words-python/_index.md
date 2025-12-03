@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -190,3 +193,7 @@ def save_using_temp_folder():
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
 
 استكشف هذه الموارد لتعميق فهمك وتحسين قدراتك في معالجة المستندات باستخدام Aspose.Words لبايثون. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

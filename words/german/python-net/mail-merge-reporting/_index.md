@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Meistern Sie Aspose.Words für Python-net mit unseren Tutorials zu Serienbriefen und Berichterstellung. Verbessern Sie Ihre Fähigkeiten zur Dokumentenautomatisierung und optimieren Sie Ihre Datenberichtsprozesse."
 "title": "Aspose.Words Python-net&#58; Tutorials zu Serienbriefen und Berichten"
@@ -37,3 +40,7 @@ Erfahren Sie, wie Sie das Zusammenführen von Dokumenten mit Aspose.Words in Pyt
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Kostenloser Support](https://forum.aspose.com/)
 - [Temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

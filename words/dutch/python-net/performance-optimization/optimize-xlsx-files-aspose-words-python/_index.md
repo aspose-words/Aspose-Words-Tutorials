@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u XLSX-bestanden kunt comprimeren, aanpassen en optimaliseren met Aspose.Words voor Python. Verbeter het beheer van de bestandsgrootte en de verwerking van datum-tijdnotatie."
@@ -174,3 +177,7 @@ Ontdek nog verder door deze functies te integreren in grotere toepassingen of sy
 - **Gratis proefperiode**: [Probeer Aspose gratis](https://releases.aspose.com/words/python/)
 - **Tijdelijke licentie**: [Tijdelijke licentie verkrijgen](https://purchase.aspose.com/temporary-license/)
 - **Steun**: [Aspose Forum Ondersteuning](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Een codetutorial voor Aspose.Words Python-net"
@@ -165,3 +168,7 @@ Door ODT-schema-instellingen en meeteenheidconfiguraties met Aspose.Words in Pyt
 - **Gratis proefperiode**: Begin met een gratis proefperiode bij [Aspose-downloads voor Python](https://releases.aspose.com/words/python/)
 - **Tijdelijke licentie**: Solliciteer hier: [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/)
 - **Steun**: Doe mee aan de discussie op [Aspose Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Aspose.Words for Python-net の差し込み印刷とレポート作成に関するチュートリアルで、Aspose.Words をマスターしましょう。ドキュメント自動化スキルを向上させ、データレポート作成プロセスを効率化します。"
 "title": "Aspose.Words Python-net&#58; メールマージとレポート作成チュートリアル"
@@ -37,3 +40,7 @@ PythonでAspose.Wordsを使ったドキュメント結合をマスターする�
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

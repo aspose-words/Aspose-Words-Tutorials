@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg optimalizálni a HTML dokumentumokat az Aspose.Words for Python használatával. Kezeld a VML grafikákat, titkosítsd biztonságosan a dokumentumokat, és könnyedén kezeld az űrlapelemeket."
@@ -199,3 +202,7 @@ Most már alaposan megérted, hogyan használható az Aspose.Words for Python a 
 
 **K: Hogyan kezelhetem a VML elemekkel rendelkező nagy HTML fájlokat?**
 A: A kötegelt feldolgozás és a szelektív betöltés hatékonyan kezelheti az erőforrás-felhasználást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

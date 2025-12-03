@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du anpassar dokumentvyer med Aspose.Words för Python. Ställ in zoomnivåer, visningsalternativ och mer för att förbättra användarupplevelsen."
@@ -234,3 +237,7 @@ Att optimera prestandan vid användning av Aspose.Words innebär:
 
 ## Slutsats
 Genom att följa den här guiden kan du använda Aspose.Words för Python för att effektivt anpassa dokumentvyer. Detta förbättrar inte bara användarupplevelsen utan ger också flexibilitet i hur dokument presenteras på olika plattformar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

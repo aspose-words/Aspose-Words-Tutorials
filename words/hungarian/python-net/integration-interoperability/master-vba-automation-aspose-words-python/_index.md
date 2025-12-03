@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerje meg, hogyan automatizálhatja a Microsoft Word VBA-projekteket Python használatával. Ez az útmutató a VBA-projektekben az Aspose.Words segítségével történő létrehozást, klónozást, védelmi állapot ellenőrzését és hivatkozások kezelését ismerteti."
@@ -184,3 +187,7 @@ Ez a funkció a felesleges vagy elavult VBA-hivatkozások eltávolítására ös
 1. **Automatizált jelentéskészítés**VBA-projektek létrehozása és kezelése automatizált jelentéskészítéshez vállalati környezetben.
 2. **Sablon másolása**Klónozzon egy jól megtervezett sablont beágyazott makrókkal több dokumentumban az egységesség megőrzése érdekében.
 3. **Biztonsági auditok**: Ellenőrizze, hogy a VBA-projektek jelszóval védettek-e a biztonsági protokolloknak való megfelelés biztosítása érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

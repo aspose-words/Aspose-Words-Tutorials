@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Utforska vår omfattande Aspose.Words-handledning för Python-net-utvecklare. Lär dig hur du effektivt jämför och spårar dokumentändringar med hjälp av kraftfulla verktyg."
 "title": "Jämförelse och spårning av huvuddokument med Aspose.Words i Python-net"
@@ -33,3 +36,7 @@ Lär dig hur du effektivt hanterar och spårar dokumentrevisioner med hjälp av 
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

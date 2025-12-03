@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda como registrar e cancelar o registro de dicionários de hifenização com o Aspose.Words para Python, melhorando a legibilidade em vários idiomas."
@@ -173,3 +176,7 @@ Para respostas mais personalizadas, consulte o [Fórum Aspose](https://forum.asp
 - **Comprar:** [Compre a licença Aspose.Words](https://purchase.aspose.com/buy)
 - **Teste gratuito:** [Comece com um teste gratuito](https://releases.aspose.com/words/python/)
 - **Licença temporária:** [Solicitar uma Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

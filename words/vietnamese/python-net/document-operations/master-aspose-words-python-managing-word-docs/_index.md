@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Học cách tải, quản lý và tự động hóa các tài liệu Microsoft Word với Aspose.Words trong Python. Đơn giản hóa các tác vụ xử lý tài liệu của bạn một cách dễ dàng."
@@ -195,3 +198,7 @@ Sau đây là một số trường hợp sử dụng thực tế để xử lý 
 - Trích xuất siêu dữ liệu để phân tích hoặc lưu trữ dữ liệu.
 
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị tốt để quản lý tài liệu Word hiệu quả bằng Aspose.Words trong Python. Tiếp tục khám phá các tính năng mở rộng của thư viện để tối ưu hóa quy trình quản lý tài liệu của bạn hơn nữa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية التعامل مع ملفات PDF باستخدام Aspose.Words للغة بايثون. حوّل المستندات المشفرة وحرّرها وتعامل معها بسهولة."
@@ -251,3 +254,7 @@ print(pdf_doc.get_text().strip())
 - "تحويل PDF إلى DOCX"
 - "إدارة المستندات باستخدام بايثون"
 - "التعامل مع ملفات PDF المشفرة"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

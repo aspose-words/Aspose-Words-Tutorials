@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pythonを使ってAspose.Wordsのテーマをカスタマイズする方法を学びましょう。このガイドでは、色とフォントの設定方法を説明し、ドキュメント全体でブランドの一貫性を保ちます。"
@@ -165,3 +168,7 @@ A: Word の高度な機能は豊富ですが、完全に再現できない場合
 - [無料トライアルアクセス](https://releases.aspose.com/words/python/)
 - [一時ライセンス情報](https://purchase.aspose.com/temporary-license/)
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

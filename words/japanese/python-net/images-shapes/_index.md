@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net を使って画像や図形を統合する方法に関する、Aspose.Words の人気チュートリアルをご覧ください。実践的なガイドでドキュメント自動化スキルを高めましょう。"
 "title": "Aspose.Words Python-net&#58; 画像と図形のマスターチュートリアル"
@@ -40,3 +43,7 @@ Aspose.Words for Python を使用して SVG 出力を最適化する方法を学
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

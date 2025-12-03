@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Explora nuestros tutoriales de Aspose.Words sobre encabezados, pies de página y configuración de página con Python-net. Aprende a mejorar el formato de tus documentos fácilmente."
 "title": "Aspose.Words Python-net&#58; Tutoriales de encabezados, pies de página y configuración de página"
@@ -36,3 +39,7 @@ Un tutorial de código para Aspose.Words Python-net
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

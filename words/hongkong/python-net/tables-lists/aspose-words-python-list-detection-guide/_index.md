@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 檢測清單並有效管理文字檔案。非常適合文件管理系統。"
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **內容分析工具**：從文字檔案中提取結構化資料以供進一步分析或報告。
 3. **資料清理任務**：透過管理空格和識別清單元素來標準化文字格式。
 4. **連結驗證**：驗證一批文字文件中的連結以確保它們是有效的和正確的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

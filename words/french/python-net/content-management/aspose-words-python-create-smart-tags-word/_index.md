@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutoriel de code pour Aspose.Words Python-net"
@@ -236,3 +239,7 @@ Pour plus d’informations, explorez ces ressources :
 - **Forum d'assistance**: Engagez-vous avec la communauté sur [Forum d'assistance d'Aspose](https://forum.aspose.com/c/words/10)
 
 Grâce à ce guide complet, vous êtes désormais équipé pour exploiter Aspose.Words pour Python afin de créer et de gérer des balises intelligentes dans vos documents Word. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

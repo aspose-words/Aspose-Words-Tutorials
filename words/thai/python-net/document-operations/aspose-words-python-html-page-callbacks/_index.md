@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีใช้ Aspose.Words สำหรับ Python เพื่อแปลงเอกสาร Word ให้เป็นหน้า HTML แยกต่างหากโดยใช้คอลแบ็กแบบกำหนดเอง เหมาะสำหรับการจัดการเอกสารและการเผยแพร่ทางเว็บ"
@@ -149,3 +152,7 @@ A5: เข้าร่วม [ฟอรั่ม Aspose](https://forum.aspose.co
 - **สนับสนุน**: เยี่ยมชม [ฟอรั่ม Aspose](https://forum.aspose.com/c/words/10) สำหรับคำถามและการสนับสนุนจากชุมชน
 
 ทดลองใช้ Aspose.Words for Python วันนี้ และปลดล็อกความเป็นไปได้ใหม่ๆ ในการประมวลผลเอกสาร!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

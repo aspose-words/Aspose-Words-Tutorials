@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Scopri come risolvere i link interrotti nei file .chm utilizzando la potente libreria Aspose.Words. Migliora l'affidabilità dei tuoi documenti e l'esperienza utente con questa guida passo passo."
@@ -145,3 +148,7 @@ Per ulteriore assistenza e approfondimenti:
 - **Scaricamento**: [Aspose.Words per le versioni Python](https://releases.aspose.com/words/python/)
 - **Acquisto e prova**: [Ottieni una licenza o una prova gratuita](https://purchase.aspose.com/buy)
 - **Forum di supporto**: [Comunità di supporto Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

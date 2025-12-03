@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a corrigir links quebrados em arquivos .chm usando a poderosa biblioteca Aspose.Words. Melhore a confiabilidade dos seus documentos e a experiência do usuário com este guia passo a passo."
@@ -145,3 +148,7 @@ Para mais assistência e exploração:
 - **Download**: [Lançamentos do Aspose.Words para Python](https://releases.aspose.com/words/python/)
 - **Compra e teste**: [Adquira uma licença ou teste gratuito](https://purchase.aspose.com/buy)
 - **Fórum de Suporte**: [Comunidade de Suporte Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

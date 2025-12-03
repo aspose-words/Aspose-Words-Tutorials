@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन के लिए Aspose.Words के साथ सूचियों का पता लगाना और टेक्स्ट फ़ाइलों को कुशलतापूर्वक प्रबंधित करना सीखें। दस्तावेज़ प्रबंधन प्रणालियों के लिए बिल्कुल सही।"
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **सामग्री विश्लेषण उपकरण**: आगे के विश्लेषण या रिपोर्टिंग के लिए पाठ फ़ाइलों से संरचित डेटा निकालें।
 3. **डेटा क्लीनअप कार्य**रिक्त स्थान का प्रबंधन और सूची तत्वों की पहचान करके पाठ स्वरूपण को मानकीकृत करें।
 4. **लिंक सत्यापन**: पाठ दस्तावेज़ों के एक समूह में लिंकों को मान्य करें ताकि यह सुनिश्चित हो सके कि वे सक्रिय और सही हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

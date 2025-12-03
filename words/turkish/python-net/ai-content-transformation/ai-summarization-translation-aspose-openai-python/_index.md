@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python ve OpenAI için Aspose.Words kullanarak AI özetleme ve çevirisini nasıl otomatikleştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar."
@@ -212,3 +215,7 @@ Bu bilgiyi uygulamaya koymaya hazır mısınız? Çözümü bugün projelerinizd
 - "AI Özetleme Python"
 - "Aspose.Kelime çevirisi"
 - "OpenAI belge işleme"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

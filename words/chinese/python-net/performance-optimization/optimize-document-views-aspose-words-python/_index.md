@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 自定义文档视图。设置缩放级别、显示选项等，以增强用户体验。"
@@ -234,3 +237,7 @@ set_forms_design_mode(True)
 
 ## 结论
 按照本指南，您可以利用 Aspose.Words for Python 有效地自定义文档视图。这不仅提升了用户体验，还提供了跨平台文档呈现方式的灵活性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

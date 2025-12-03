@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à optimiser les styles de vos documents avec Aspose.Words pour Python. Supprimez les styles inutilisés et en double, optimisez votre flux de travail et vos performances."
@@ -186,3 +189,7 @@ Explorez les fonctionnalités d'Aspose.Words pour améliorer vos capacités de t
 - [Documentation Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [Télécharger Aspose.Words pour Python](https://releases.aspose.com/words/python/)
 - [Page d'achat](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

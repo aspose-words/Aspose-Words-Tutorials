@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -280,3 +283,7 @@ Bây giờ bạn đã thành thạo cách thao tác hiệu quả các siêu liê
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Bây giờ bạn đã được trang bị kiến thức này, hãy tự tin bắt tay vào dự án của mình và khám phá toàn bộ tiềm năng của Aspose.Words dành cho Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

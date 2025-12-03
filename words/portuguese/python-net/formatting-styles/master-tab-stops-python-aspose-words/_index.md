@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a gerenciar com eficiência as paradas de tabulação em seus documentos Python usando o Aspose.Words. Este guia aborda como adicionar, personalizar e remover paradas de tabulação com exemplos práticos."
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusão
 
 Dominar as paradas de tabulação em Python usando o Aspose.Words permite criar documentos com formatação profissional com facilidade. Seguindo este guia, você poderá adicionar, personalizar e gerenciar paradas de tabulação com eficiência, aprimorando a qualidade geral dos seus resultados em texto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

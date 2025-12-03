@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Κατακτήστε το Aspose.Words για Python-net με τα εκπαιδευτικά μας σεμινάρια για τη Συγχώνευση Αλληλογραφίας και την Αναφορά. Βελτιώστε τις δεξιότητες αυτοματοποίησης εγγράφων και βελτιστοποιήστε τις διαδικασίες αναφοράς δεδομένων σας."
 "title": "Aspose.Words Python-net&#58; Σεμινάρια συγχώνευσης αλληλογραφίας και δημιουργίας αναφορών"
@@ -37,3 +40,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie die Druckeinstellungen für Word-Dokumente mit Aspose.Words und Python anpassen. Beherrschen Sie Papierformat, Ausrichtung und Fachkonfigurationen."
@@ -145,3 +148,7 @@ Implementieren Sie die benutzerdefinierte Drucklösung in Ihrem nächsten Projek
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 Erkunden Sie diese Ressourcen, um Ihr Verständnis zu vertiefen und Aspose.Words für Python optimal zu nutzen. Viel Spaß beim Drucken!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

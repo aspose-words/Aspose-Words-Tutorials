@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 限制標題層級並在 XPS 文件中套用數位簽名，從而增強文件安全性和導航。"
@@ -185,3 +188,7 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **問題 1：如何確保我的數位簽章在 Aspose.Words 中是安全的？**
 - 確保您使用受信任的憑證授權單位來取得您的數位憑證。
 - 定期更新並安全地管理您的金鑰和密碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

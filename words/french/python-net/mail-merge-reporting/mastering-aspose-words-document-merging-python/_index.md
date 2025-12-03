@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à maîtriser la fusion de documents avec Aspose.Words en Python, en vous concentrant sur « Conserver la numérotation source » et « Insérer au niveau du signet ». Améliorez vos compétences en traitement de documents dès aujourd'hui !"
@@ -181,3 +184,7 @@ Expérimentez des fonctionnalités Aspose.Words supplémentaires et explorez les
 - [Acheter une licence](https://purchase.aspose.com/buy)
 - [Licence d'essai gratuite](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Domina Aspose.Words con estos tutoriales de Python-net centrados en la integración y la interoperabilidad. Mejora tus habilidades de procesamiento de documentos para una interacción fluida con el software."
 "title": "Tutoriales de integración e interoperabilidad de Aspose.Words con Python y NET"
@@ -40,3 +43,7 @@ Aprenda a automatizar proyectos VBA de Microsoft Word con Python. Esta guía exp
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

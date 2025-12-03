@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Przeglądaj nasze kompleksowe samouczki Aspose.Words na temat Python-net do zarządzania treścią. Idealne dla programistów, którzy chcą poprawić umiejętności obsługi dokumentów i automatyzacji."
 "title": "Aspose.Words Python-net Tutorials&#58; Przewodnik po zarządzaniu treścią"
@@ -43,3 +46,7 @@ Samouczek dotyczący kodu dla Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

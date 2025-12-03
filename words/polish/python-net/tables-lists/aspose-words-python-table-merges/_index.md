@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak skutecznie scalać komórki tabeli w Pythonie za pomocą Aspose.Words. Ten przewodnik obejmuje scalanie pionowe i poziome, ustawienia wypełnienia i praktyczne zastosowania."
@@ -213,3 +216,7 @@ Gotowy, aby rozwinąć swoje umiejętności? Zanurz się głębiej, eksplorując
 - [Bezpłatna wersja próbna](https://releases.aspose.com/words/python/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

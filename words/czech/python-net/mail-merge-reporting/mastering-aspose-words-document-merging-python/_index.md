@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak zvládnout slučování dokumentů pomocí Aspose.Words v Pythonu se zaměřením na „Zachování číslování zdrojového kódu“ a „Vložení na místo záložky“. Zlepšete si své dovednosti v oblasti zpracování dokumentů ještě dnes!"
@@ -181,3 +184,7 @@ Experimentujte s dalšími funkcemi Aspose.Words a prozkoumejte možnosti integr
 - [Zakoupit licenci](https://purchase.aspose.com/buy)
 - [Bezplatná zkušební licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

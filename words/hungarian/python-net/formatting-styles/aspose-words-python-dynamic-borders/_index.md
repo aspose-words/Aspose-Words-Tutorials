@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanuld meg, hogyan hozhatsz létre dinamikus dokumentumszegélyeket az Aspose.Words for Python segítségével. Sajátítsd el a szöveg- és táblázatszegélyek formázásának technikáit."
@@ -267,3 +270,7 @@ Fontolja meg az Aspose.Words integrálását más adatfeldolgozó eszközökkel 
 
 ## Következtetés
 Az Aspose.Words for Python ezen technikáinak elsajátításával professzionális megjelenésű dokumentumokat hozhat létre dinamikus szegélyekkel. Ez az útmutató szilárd alapot nyújt a könyvtár képességeinek további felfedezéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

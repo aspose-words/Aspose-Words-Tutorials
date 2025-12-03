@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara memformat tabel dan daftar di Markdown menggunakan Aspose.Words untuk Python. Tingkatkan alur kerja dokumen Anda dengan penyelarasan, mode ekspor daftar, dan banyak lagi."
@@ -185,3 +188,7 @@ Untuk mulai menggunakan Aspose.Words untuk Python, ikuti langkah-langkah berikut
 ## Kesimpulan
 
 Dengan menguasai Aspose.Words untuk Python, Anda dapat meningkatkan kemampuan Anda untuk membuat dan memanipulasi dokumen Markdown dengan tabel dan daftar yang kompleks secara signifikan. Baik Anda mengerjakan dokumentasi teknis atau proyek kolaboratif, alat-alat ini akan menyederhanakan alur kerja dokumen Anda dan meningkatkan keterbacaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

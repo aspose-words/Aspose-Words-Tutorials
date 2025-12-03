@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Udoskonal swoje umiejętności przetwarzania dokumentów dzięki samouczkom Aspose.Words skupionym na tabelach i listach w Python-net. Idealne dla programistów poszukujących praktycznych, możliwych do zastosowania spostrzeżeń."
 "title": "Aspose.Words Python-net&#58; samouczki dotyczące tabel i list głównych"
@@ -45,3 +48,7 @@ Dowiedz się, jak skutecznie scalać komórki tabeli w Pythonie za pomocą Aspos
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

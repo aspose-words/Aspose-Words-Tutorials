@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python के साथ Word दस्तावेज़ों में तालिका कॉलम को आसानी से हटाने, सम्मिलित करने और परिवर्तित करने का तरीका जानें। अपने दस्तावेज़ संपादन कार्यों को कुशलतापूर्वक सरल बनाएँ।"
@@ -149,3 +152,7 @@ print(column.to_txt())
 - [निःशुल्क परीक्षण संस्करण](https://releases.aspose.com/words/python/)
 - [अस्थायी लाइसेंस अनुरोध](https://purchase.aspose.com/temporary-license/)
 - [सहयता मंच](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Zlepšete si dovednosti v oblasti zpracování dokumentů s tutoriály Aspose.Words zaměřenými na tabulky a seznamy v Pythonu.net. Ideální pro vývojáře, kteří hledají praktické a užitečné informace."
 "title": "Aspose.Words Python-net&#58; Výukové programy pro hlavní tabulky a seznamy"
@@ -45,3 +48,7 @@ Naučte se, jak efektivně slučovat buňky tabulky v Pythonu pomocí Aspose.Wor
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการบีบอัด ปรับแต่ง และเพิ่มประสิทธิภาพไฟล์ XLSX โดยใช้ Aspose.Words สำหรับ Python ปรับปรุงการจัดการขนาดไฟล์และการจัดการรูปแบบวันที่และเวลา"
@@ -174,3 +177,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **ทดลองใช้งานฟรี**- [ทดลองใช้ Aspose ฟรี](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว**- [รับใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน**- [การสนับสนุนฟอรั่ม Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

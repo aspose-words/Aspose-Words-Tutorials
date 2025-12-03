@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Poznaj trzy profesjonalnie opracowane samouczki dotyczące zarządzania właściwościami i metadanymi dokumentu przy użyciu Aspose.Words dla Python-net. Zwiększ swoje umiejętności w zakresie manipulowania podstawowymi atrybutami dokumentu."
 "title": "Właściwości i metadane dokumentu głównego z Aspose.Words Python-net Tutorials"
@@ -40,3 +43,7 @@ Dowiedz się, jak zarządzać polami informacji o użytkowniku w dokumentach Wor
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

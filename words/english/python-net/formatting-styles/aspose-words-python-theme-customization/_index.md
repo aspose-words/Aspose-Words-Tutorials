@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles"
 description: "Learn how to customize themes in Aspose.Words using Python. This guide covers setting up colors and fonts, ensuring brand consistency across your documents."
@@ -170,3 +173,7 @@ A: While extensive, some advanced Word features might not be fully replicable. A
 - [Free Trial Access](https://releases.aspose.com/words/python/)
 - [Temporary License Information](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

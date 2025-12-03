@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara membuat batas dokumen dinamis menggunakan Aspose.Words untuk Python. Kuasai teknik untuk penataan batas teks dan tabel."
@@ -267,3 +270,7 @@ Pertimbangkan untuk mengintegrasikan Aspose.Words dengan alat pemrosesan data la
 
 ## Kesimpulan
 Dengan menguasai teknik-teknik ini dengan Aspose.Words untuk Python, Anda dapat membuat dokumen yang tampak profesional dengan batas yang dinamis. Panduan ini menyediakan dasar yang kuat untuk eksplorasi lebih lanjut mengenai kemampuan pustaka tersebut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

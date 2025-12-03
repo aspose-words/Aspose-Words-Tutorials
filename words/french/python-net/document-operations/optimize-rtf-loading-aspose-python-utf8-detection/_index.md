@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à charger efficacement des documents RTF et à détecter l'encodage UTF-8 avec Aspose.Words pour Python. Améliorez la précision du traitement de texte dans vos projets."
@@ -138,3 +141,7 @@ Expérimentez différentes configurations et explorez les fonctionnalités suppl
 - [Version d'essai gratuite](https://releases.aspose.com/words/python/)
 - [Demande de permis temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

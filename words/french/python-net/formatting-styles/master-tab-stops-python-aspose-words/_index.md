@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à gérer efficacement les taquets de tabulation dans vos documents Python avec Aspose.Words. Ce guide explique comment ajouter, personnaliser et supprimer des taquets de tabulation à l'aide d'exemples pratiques."
@@ -228,3 +231,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusion
 
 Maîtriser les tabulations en Python avec Aspose.Words vous permet de créer facilement des documents au format professionnel. En suivant ce guide, vous pourrez ajouter, personnaliser et gérer efficacement les tabulations, améliorant ainsi la qualité globale de vos documents textuels.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutorial sul codice per Aspose.Words Python-net"
@@ -214,3 +217,7 @@ Sebbene i layout completi e complessi possano richiedere regolazioni manuali per
 - **Forum di supporto:** [Comunità di supporto Aspose](https://forum.aspose.com/c/words/10)
 
 Seguendo questa guida, sarai pronto a implementare e ottimizzare la numerazione delle pagine e l'analisi del layout nei tuoi progetti Python utilizzando Aspose.Words. Buon lavoro!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

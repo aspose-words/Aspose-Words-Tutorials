@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "जानें कि पायथन के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को PostScript प्रारूप में कैसे परिवर्तित किया जाए। यह मार्गदर्शिका सेटअप, रूपांतरण और बुक फोल्ड प्रिंटिंग विकल्पों को कवर करती है।"
@@ -163,3 +166,7 @@ save_document_as_postscript(True)
 - [सामुदायिक सहायता मंच](https://forum.aspose.com/c/words/10)
 
 हमें उम्मीद है कि यह गाइड आपको पायथन के लिए Aspose.Words का उपयोग करके पोस्टस्क्रिप्ट प्रारूप में दस्तावेज़ों को कुशलतापूर्वक सहेजने में मदद करेगी। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

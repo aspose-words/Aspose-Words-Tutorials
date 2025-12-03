@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 문서의 머리글과 바닥글을 만들고, 사용자 지정하고, 관리하는 방법을 알아보세요. 단계별 가이드를 통해 문서 서식 지정 기술을 완벽하게 익히세요."
@@ -215,3 +218,7 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

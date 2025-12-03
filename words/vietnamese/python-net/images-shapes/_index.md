@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá các hướng dẫn hàng đầu của Aspose.Words về tích hợp hình ảnh và hình dạng bằng Python-net. Nâng cao kỹ năng tự động hóa tài liệu của bạn bằng các hướng dẫn thực tế."
 "title": "Aspose.Words Python-net&#58; Hướng dẫn làm chủ hình ảnh và hình dạng"
@@ -40,3 +43,7 @@ Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. H
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

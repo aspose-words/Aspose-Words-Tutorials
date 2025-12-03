@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "สำรวจบทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับ Aspose.Words สำหรับ Python-net ซึ่งเน้นที่การจัดรูปแบบและสไตล์ พัฒนาทักษะการประมวลผลเอกสารของคุณด้วยข้อมูลเชิงลึกที่เป็นประโยชน์"
 "title": "เรียนรู้การจัดรูปแบบและสไตล์ของ Aspose.Words ด้วยบทช่วยสอน Python-net"
@@ -61,3 +64,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

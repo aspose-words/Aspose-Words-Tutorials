@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как легко удалять, вставлять и преобразовывать столбцы таблиц в документах Word с помощью Aspose.Words для Python. Эффективно оптимизируйте задачи по редактированию документов."
@@ -149,3 +152,7 @@ print(column.to_txt())
 - [Бесплатная пробная версия](https://releases.aspose.com/words/python/)
 - [Запрос на временную лицензию](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

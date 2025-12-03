@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Prozkoumejte náš komplexní tutoriál Aspose.Words o anotacích a komentářích pomocí Python-netu. Vylepšete si své dovednosti v oblasti zpracování dokumentů pomocí praktických příkladů."
 "title": "Zvládněte anotace a komentáře v Aspose.Words s Python-net"
@@ -33,3 +36,7 @@ Naučte se, jak programově přidávat, spravovat a načítat komentáře a odpo
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

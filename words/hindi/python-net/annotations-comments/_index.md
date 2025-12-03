@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net का उपयोग करके एनोटेशन और टिप्पणियों पर हमारे व्यापक Aspose.Words ट्यूटोरियल का अन्वेषण करें। व्यावहारिक उदाहरणों के साथ अपने दस्तावेज़ प्रसंस्करण कौशल को बढ़ाएँ।"
 "title": "पायथन-नेट के साथ Aspose.Words में मास्टर एनोटेशन और टिप्पणियाँ"
@@ -33,3 +36,7 @@ Python-net के लिए Aspose.Words का उपयोग करके ए
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 无缝地删除、插入和转换 Word 文档中的表格列。高效简化您的文档编辑任务。"
@@ -149,3 +152,7 @@ print(column.to_txt())
 - [免费试用版](https://releases.aspose.com/words/python/)
 - [临时许可证申请](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

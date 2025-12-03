@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menambahkan, mengelola, dan mengambil komentar dan balasan secara terprogram dalam dokumen Word menggunakan pustaka Aspose.Words dengan Python."
@@ -242,3 +245,7 @@ Aspose.Words untuk Python dapat diintegrasikan ke dalam berbagai alur kerja doku
 3. **Kolaborasi Akademik**: Memfasilitasi umpan balik antara penulis dan peninjau dalam makalah akademis.
 
 Panduan komprehensif ini akan membantu Anda menerapkan manajemen komentar dan balasan secara efektif dalam dokumen Word Anda menggunakan Aspose.Words untuk Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

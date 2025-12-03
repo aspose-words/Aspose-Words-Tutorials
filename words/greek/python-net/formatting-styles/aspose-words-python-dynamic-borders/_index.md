@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να δημιουργείτε δυναμικά περιγράμματα εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Κατακτήστε τεχνικές για τη διαμόρφωση περιγραμμάτων κειμένου και πίνακα."
@@ -267,3 +270,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## Σύναψη
 Κατακτώντας αυτές τις τεχνικές με το Aspose.Words για Python, μπορείτε να δημιουργήσετε έγγραφα επαγγελματικής εμφάνισης με δυναμικά περιγράμματα. Αυτός ο οδηγός παρέχει μια ισχυρή βάση για περαιτέρω εξερεύνηση των δυνατοτήτων της βιβλιοθήκης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

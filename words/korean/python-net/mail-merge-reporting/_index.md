@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "메일 병합 및 보고 튜토리얼을 통해 Python-net용 Aspose.Words를 완벽하게 익혀 보세요. 문서 자동화 기술을 향상시키고 데이터 보고 프로세스를 간소화할 수 있습니다."
 "title": "Aspose.Words Python-net&#58; 메일 병합 및 보고 튜토리얼"
@@ -37,3 +40,7 @@ Python에서 Aspose.Words를 사용하여 '소스 번호 유지'와 '책갈피�
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

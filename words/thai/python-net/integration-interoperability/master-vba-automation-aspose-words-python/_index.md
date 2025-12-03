@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการสร้างโครงการ VBA ของ Microsoft Word ให้เป็นระบบอัตโนมัติโดยใช้ Python คู่มือนี้ครอบคลุมถึงการสร้าง การโคลน การตรวจสอบสถานะการป้องกัน และการจัดการการอ้างอิงในโครงการ VBA ด้วย Aspose.Words"
@@ -184,3 +187,7 @@ doc = aw.Document()
 1. **การสร้างรายงานอัตโนมัติ**:สร้างและจัดการโครงการ VBA สำหรับการสร้างรายงานอัตโนมัติในสภาพแวดล้อมขององค์กร
 2. **การทำซ้ำเทมเพลต**:โคลนเทมเพลตที่ได้รับการออกแบบที่ดีโดยมีแมโครฝังอยู่ในเอกสารหลายฉบับเพื่อรักษาความสอดคล้องกัน
 3. **การตรวจสอบความปลอดภัย**ตรวจสอบว่าโครงการ VBA ได้รับการปกป้องด้วยรหัสผ่านหรือไม่เพื่อให้แน่ใจว่าสอดคล้องกับโปรโตคอลความปลอดภัย
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

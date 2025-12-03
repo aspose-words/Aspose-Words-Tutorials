@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 목록을 감지하고 텍스트 파일을 효율적으로 관리하는 방법을 알아보세요. 문서 관리 시스템에 적합합니다."
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **콘텐츠 분석 도구**: 추가 분석이나 보고를 위해 텍스트 파일에서 구조화된 데이터를 추출합니다.
 3. **데이터 정리 작업**공백을 관리하고 목록 요소를 식별하여 텍스트 서식을 표준화합니다.
 4. **링크 확인**: 텍스트 문서의 일괄 처리 내 링크를 검증하여 활성화되어 있고 올바른지 확인합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

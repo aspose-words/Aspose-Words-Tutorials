@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words और Python का उपयोग करके Word दस्तावेज़ों के लिए प्रिंट सेटिंग को कस्टमाइज़ करना सीखें। पेपर आकार, ओरिएंटेशन और ट्रे कॉन्फ़िगरेशन में महारत हासिल करें।"
@@ -145,3 +148,7 @@ doc.print(printer_settings)
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10)
 
 अपनी समझ को गहरा करने और पायथन के लिए Aspose.Words का अधिकतम लाभ उठाने के लिए इन संसाधनों का अन्वेषण करें। प्रिंटिंग का आनंद लें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

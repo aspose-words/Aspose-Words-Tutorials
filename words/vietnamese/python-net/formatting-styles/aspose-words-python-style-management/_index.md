@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tối ưu hóa kiểu tài liệu bằng Aspose.Words cho Python. Xóa các kiểu không sử dụng và trùng lặp, cải thiện quy trình làm việc của bạn và cải thiện hiệu suất."
@@ -186,3 +189,7 @@ Khám phá thêm các tính năng của Aspose.Words để nâng cao khả năng
 - [Tài liệu Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [Tải xuống Aspose.Words cho Python](https://releases.aspose.com/words/python/)
 - [Trang mua hàng](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tự động hóa các dự án VBA của Microsoft Word bằng Python. Hướng dẫn này bao gồm việc tạo, sao chép, kiểm tra trạng thái bảo vệ và quản lý các tham chiếu trong các dự án VBA bằng Aspose.Words."
@@ -184,3 +187,7 @@ Sau đây là một số trường hợp sử dụng thực tế mà các tính 
 1. **Tạo báo cáo tự động**: Tạo và quản lý các dự án VBA để tạo báo cáo tự động trong môi trường doanh nghiệp.
 2. **Sao chép mẫu**: Sao chép một mẫu được thiết kế tốt với các macro được nhúng trên nhiều tài liệu để duy trì tính nhất quán.
 3. **Kiểm tra an ninh**: Kiểm tra xem các dự án VBA có được bảo vệ bằng mật khẩu hay không để đảm bảo tuân thủ các giao thức bảo mật.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

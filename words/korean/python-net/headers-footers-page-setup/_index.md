@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net을 활용한 머리글, 바닥글 및 페이지 설정에 대한 Aspose.Words 튜토리얼을 살펴보세요. 문서 서식을 손쉽게 개선하는 방법을 배우세요."
 "title": "Aspose.Words Python-net&#58; 헤더, 푸터 및 페이지 설정 튜토리얼"
@@ -36,3 +39,7 @@ Aspose.Words Python-net에 대한 코드 튜토리얼
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

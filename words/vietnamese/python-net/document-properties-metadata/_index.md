@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Khám phá ba hướng dẫn được thiết kế chuyên nghiệp về quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python-net. Nâng cao kỹ năng của bạn trong việc xử lý các thuộc tính tài liệu cần thiết."
 "title": "Thuộc tính tài liệu chính và siêu dữ liệu với Aspose.Words Python-net Tutorials"
@@ -40,3 +43,7 @@ Tìm hiểu cách quản lý và tối ưu hóa các trường thông tin ngư�
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Een codetutorial voor Aspose.Words Python-net"
@@ -214,3 +217,7 @@ Hoewel uitgebreide, complexe lay-outs mogelijk handmatige aanpassingen vereisen 
 - **Ondersteuningsforum:** [Aspose Ondersteuningscommunity](https://forum.aspose.com/c/words/10)
 
 Door deze handleiding te volgen, bent u goed toegerust om paginanummering en lay-outanalyse in uw Python-projecten te implementeren en optimaliseren met Aspose.Words. Veel plezier met coderen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

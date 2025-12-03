@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words के साथ पायथन में प्रोग्रामेटिक रूप से दस्तावेज़ों को अनुकूलित करने का तरीका जानें, पृष्ठ रंग सेट करके, कस्टम शैलियों के साथ नोड्स आयात करके, और पृष्ठभूमि आकार लागू करके।"
@@ -234,3 +237,7 @@ def background_shape_example():
 ## निष्कर्ष
 
 पायथन के लिए Aspose.Words की इन विशेषताओं में महारत हासिल करके, आप अपने दस्तावेज़ प्रसंस्करण वर्कफ़्लो की अनुकूलन क्षमताओं को महत्वपूर्ण रूप से बढ़ा सकते हैं। चाहे वह एक समान पृष्ठभूमि रंग सेट करना हो, अनुकूलित शैलियों के साथ नोड्स आयात करना हो, या परिष्कृत पृष्ठभूमि आकार लागू करना हो, यह मार्गदर्शिका आपके दस्तावेज़ प्रबंधन कार्यों को बढ़ाने के लिए एक ठोस आधार प्रदान करती है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

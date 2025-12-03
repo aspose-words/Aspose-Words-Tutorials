@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara memverifikasi versi Aspose.Words yang terinstal untuk Python melalui .NET. Panduan ini mencakup penginstalan, pengambilan info versi, dan aplikasi praktis."
@@ -144,3 +147,7 @@ Untuk bacaan lebih lanjut dan dukungan, rujuk sumber daya berikut:
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
 
 Dengan alat-alat ini, Anda akan diperlengkapi dengan baik untuk mengelola instalasi Aspose.Words secara efektif. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

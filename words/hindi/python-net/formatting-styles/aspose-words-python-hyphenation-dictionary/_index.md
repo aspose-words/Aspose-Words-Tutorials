@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "पायथन के लिए Aspose.Words के साथ हाइफ़नेशन शब्दकोशों को पंजीकृत और अपंजीकृत करना सीखें, जिससे विभिन्न भाषाओं में पठनीयता बढ़े।"
@@ -173,3 +176,7 @@ A: एक फ़ाइल जिसमें पंक्ति के अंत
 - **खरीदना:** [Aspose.Words लाइसेंस खरीदें](https://purchase.aspose.com/buy)
 - **मुफ्त परीक्षण:** [निःशुल्क परीक्षण के साथ शुरुआत करें](https://releases.aspose.com/words/python/)
 - **अस्थायी लाइसेंस:** [अस्थायी लाइसेंस का अनुरोध करें](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

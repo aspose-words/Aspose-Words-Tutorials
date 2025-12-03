@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Мастер Aspose.Words с этими обучающими материалами Python-net, посвященными интеграции и взаимодействию. Улучшите свои навыки обработки документов для бесперебойного взаимодействия программного обеспечения."
 "title": "Учебники по интеграции и взаимодействию с Python-net Aspose.Words"
@@ -40,3 +43,7 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

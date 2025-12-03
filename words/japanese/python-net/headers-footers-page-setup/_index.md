@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-netを使ったヘッダー、フッター、ページ設定に関するAspose.Wordsチュートリアルをご覧ください。ドキュメントの書式設定を簡単に強化する方法を学びましょう。"
 "title": "Aspose.Words Python-net&#58; ヘッダー、フッター、ページ設定チュートリアル"
@@ -36,3 +39,7 @@ Aspose.Words Python-netのコードチュートリアル
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Samouczek dotyczący kodu dla Aspose.Words Python-net"
@@ -180,3 +183,7 @@ Gotowy na ulepszenie swoich plików PDF? Zacznij wdrażać te techniki już dzi�
 - **Wsparcie**:Uzyskaj pomoc od społeczności na [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 Ten przewodnik wyposażył Cię w wiedzę, jak optymalizować zakładki PDF przy użyciu Aspose.Words dla Pythona. Miłego kodowania!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

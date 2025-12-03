@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak efektivně slučovat buňky tabulky v Pythonu pomocí Aspose.Words. Tato příručka se zabývá vertikálním a horizontálním slučováním, nastavením odsazení a praktickými aplikacemi."
@@ -213,3 +216,7 @@ Jste připraveni posunout své dovednosti dále? Ponořte se hlouběji s prozkou
 - [Bezplatná zkušební verze](https://releases.aspose.com/words/python/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

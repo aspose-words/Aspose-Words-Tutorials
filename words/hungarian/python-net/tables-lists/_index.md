@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Fejleszd dokumentumfeldolgozási készségeidet az Aspose.Words Python-net táblázatokra és listákra fókuszáló oktatóanyagaival. Tökéletes fejlesztők számára, akik gyakorlatias, hasznosítható ismereteket keresnek."
 "title": "Aspose.Words Python-net&#58; Mestertáblák és listák oktatóanyagok"
@@ -45,3 +48,7 @@ Tanuld meg, hogyan lehet hatékonyan egyesíteni a táblázatcellákat Pythonban
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak wykrywać listy i efektywnie zarządzać plikami tekstowymi za pomocą Aspose.Words dla Pythona. Idealne dla systemów zarządzania dokumentami."
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **Narzędzia do analizy treści**:Wyodrębnij ustrukturyzowane dane z plików tekstowych w celu dalszej analizy lub raportowania.
 3. **Zadania czyszczenia danych**:Ustandaryzuj formatowanie tekstu poprzez zarządzanie odstępami i identyfikację elementów listy.
 4. **Weryfikacja łącza**:Sprawdź linki w grupie dokumentów tekstowych, aby upewnić się, że są aktywne i poprawne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

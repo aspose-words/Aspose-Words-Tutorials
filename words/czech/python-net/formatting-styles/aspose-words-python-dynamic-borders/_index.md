@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak vytvářet dynamické ohraničení dokumentů pomocí Aspose.Words pro Python. Ovládněte techniky stylování ohraničení textu a tabulek."
@@ -267,3 +270,7 @@ Zvažte integraci Aspose.Words s dalšími nástroji pro zpracování dat a zís
 
 ## Závěr
 Zvládnutím těchto technik s Aspose.Words pro Python můžete vytvářet profesionálně vypadající dokumenty s dynamickými okraji. Tato příručka poskytuje pevný základ pro další zkoumání možností knihovny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

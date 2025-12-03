@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "เรียนรู้ Aspose.Words ด้วยบทช่วยสอน Python-net ที่เน้นการบูรณาการและการทำงานร่วมกัน พัฒนาทักษะการประมวลผลเอกสารของคุณเพื่อการโต้ตอบซอฟต์แวร์ที่ราบรื่น"
 "title": "บทช่วยสอนการบูรณาการและการทำงานร่วมกันของ Aspose.Words กับ Python-net"
@@ -40,3 +43,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

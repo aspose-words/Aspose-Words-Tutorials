@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tối ưu hóa tài liệu Word cho nhiều phiên bản MS Word khác nhau bằng Aspose.Words trong Python. Hướng dẫn này bao gồm các cài đặt tương thích, mẹo về hiệu suất và các ứng dụng thực tế."
@@ -144,3 +147,7 @@ Bằng cách tận dụng Aspose.Words for Python, bạn có thể quản lý v�
 - **Dùng thử miễn phí và Giấy phép tạm thời**: Bắt đầu với bản dùng thử miễn phí hoặc nhận giấy phép tạm thời tại [Aspose phát hành](https://releases.aspose.com/words/python/) 
 
 Hướng dẫn toàn diện này sẽ giúp bạn tối ưu hóa tài liệu Word của mình một cách hiệu quả bằng Aspose.Words for Python. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

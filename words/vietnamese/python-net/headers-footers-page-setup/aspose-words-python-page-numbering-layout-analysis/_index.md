@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -214,3 +217,7 @@ Trong khi các bố cục toàn diện, phức tạp có thể yêu cầu điề
 - **Diễn đàn hỗ trợ:** [Cộng đồng hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để triển khai và tối ưu hóa việc đánh số trang và phân tích bố cục trong các dự án Python của mình bằng Aspose.Words. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du programmatiskt lägger till, hanterar och hämtar kommentarer och svar i Word-dokument med hjälp av Aspose.Words-biblioteket i Python."
@@ -242,3 +245,7 @@ Aspose.Words för Python kan integreras i olika dokumentarbetsflöden. Här är 
 3. **Akademiskt samarbete**Underlätta feedback-slingor mellan författare och granskare i akademiska artiklar.
 
 Den här omfattande guiden bör hjälpa dig att effektivt implementera kommentar- och svarshantering i dina Word-dokument med Aspose.Words för Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

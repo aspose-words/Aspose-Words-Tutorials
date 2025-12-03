@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net을 사용하여 이미지와 도형을 통합하는 최고의 Aspose.Words 튜토리얼을 살펴보세요. 실용적인 가이드를 통해 문서 자동화 기술을 향상시키세요."
 "title": "Aspose.Words Python-net&#58; 이미지 및 모양 마스터하기 튜토리얼"
@@ -40,3 +43,7 @@ Python용 Aspose.Words를 사용하여 SVG 출력을 최적화하는 방법을 �
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

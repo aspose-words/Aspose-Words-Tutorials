@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 註冊和取消註冊連字符字典，增強跨語言的可讀性。"
@@ -173,3 +176,7 @@ doc.save(arartifacts_directory + 'Hyphenation.dictionary.unregistered.pdf')
 - **購買：** [購買 Aspose.Words 許可證](https://purchase.aspose.com/buy)
 - **免費試用：** [從免費試用開始](https://releases.aspose.com/words/python/)
 - **臨時執照：** [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Fedezd fel átfogó Aspose.Words oktatóanyagunkat Python-net fejlesztőknek. Tanuld meg, hogyan hasonlíthatod össze és követheted nyomon a dokumentumok változásait hatékony eszközök segítségével."
 "title": "Fődokumentum-összehasonlítás és -követés az Aspose.Words segítségével Python-netben"
@@ -33,3 +36,7 @@ Tanulja meg, hogyan kezelheti és követheti nyomon hatékonyan a dokumentumok v
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

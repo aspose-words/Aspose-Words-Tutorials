@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Prozkoumejte naše tutoriály Aspose.Words na téma záhlaví, zápatí a nastavení stránky s Python-net. Naučte se bez námahy vylepšit formátování dokumentů."
 "title": "Aspose.Words Python-net&#58; Návody na záhlaví, zápatí a nastavení stránky"
@@ -36,3 +39,7 @@ Výukový program pro Aspose.Words v Pythonu.net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

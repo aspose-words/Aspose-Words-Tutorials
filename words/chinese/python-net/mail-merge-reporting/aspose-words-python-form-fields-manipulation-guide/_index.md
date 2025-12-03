@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "使用 Aspose.Words 掌握 Python 中的自动化文档处理。通过我们全面的指南，学习如何操作表单字段，包括组合框和文本输入。"
@@ -258,3 +261,7 @@ doc.save（file_name =“您的文档目录/FormFields.ManageDropDownItems.html�
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words 在 Python 中高效合并表格单元格。本指南涵盖垂直和水平合并、填充设置以及实际应用。"
@@ -213,3 +216,7 @@ Aspose.Words for Python 功能多样。以下是一些实际用例：
 - [免费试用](https://releases.aspose.com/words/python/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

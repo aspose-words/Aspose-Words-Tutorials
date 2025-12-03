@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Enhance Your Python Projects&#58; Mastering Form Field Manipulation with Aspose.Words for Python"
 description: "Master automated document handling in Python using Aspose.Words. Learn how to manipulate form fields, including combo boxes and text inputs, with our comprehensive guide."
@@ -263,3 +266,8 @@ doc.save(file_name="YOUR_DOCUMENT_DIRECTORY/FormFields.ManageDropDownItems.html"
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

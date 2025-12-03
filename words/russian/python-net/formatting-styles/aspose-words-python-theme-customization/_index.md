@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как настраивать темы в Aspose.Words с помощью Python. В этом руководстве рассматривается настройка цветов и шрифтов, что обеспечивает единообразие бренда во всех ваших документах."
@@ -165,3 +168,7 @@ A: Хотя некоторые расширенные функции Word мог
 - [Бесплатный пробный доступ](https://releases.aspose.com/words/python/)
 - [Информация о временной лицензии](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

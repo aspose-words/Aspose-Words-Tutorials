@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Esplora i nostri tutorial di Aspose.Words su intestazioni, piè di pagina e impostazione pagina con Python-net. Impara a migliorare la formattazione dei documenti senza sforzo."
 "title": "Aspose.Words Python-net&#58; Tutorial su intestazioni, piè di pagina e impostazione della pagina"
@@ -36,3 +39,7 @@ Un tutorial sul codice per Aspose.Words Python-net
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

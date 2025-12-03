@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "สำรวจบทช่วยสอน Aspose.Words ที่ครอบคลุมของเราเกี่ยวกับการดำเนินการเอกสารโดยใช้ Python-net พัฒนาทักษะของคุณในการจัดการเอกสาร Word อย่างมีประสิทธิภาพและมีประสิทธิผล"
 "title": "Aspose.Words Python-net&#58; จัดการเอกสารอย่างเชี่ยวชาญด้วยบทช่วยสอน 11 บท"
@@ -63,3 +66,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

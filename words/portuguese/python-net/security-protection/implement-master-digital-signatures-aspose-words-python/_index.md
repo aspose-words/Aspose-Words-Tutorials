@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Um tutorial de código para Aspose.Words Python-net"
@@ -331,3 +334,7 @@ R5: Certifique-se de que sua senha esteja correta. Senhas incorretas impedirão 
 - **Fórum de Suporte**: [Suporte Aspose](https://forum.aspose.com/c/words/10)
 
 Esperamos que este guia tenha sido útil para você dominar assinaturas digitais com o Aspose.Words para Python. Boa programação!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

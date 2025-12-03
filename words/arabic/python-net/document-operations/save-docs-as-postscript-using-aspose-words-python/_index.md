@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرّف على كيفية تحويل مستندات Word إلى تنسيق PostScript باستخدام Aspose.Words لـ Python. يغطي هذا الدليل خيارات الإعداد والتحويل وطباعة طيات الكتب."
@@ -163,3 +166,7 @@ save_document_as_postscript(True)
 - [منتدى دعم المجتمع](https://forum.aspose.com/c/words/10)
 
 نأمل أن يساعدك هذا الدليل في حفظ مستنداتك بتنسيق PostScript بكفاءة باستخدام Aspose.Words لـ Python. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Erfahren Sie, wie Sie mit Aspose.Words Dokumente in Python programmgesteuert anpassen, indem Sie Seitenfarben festlegen, Knoten mit benutzerdefinierten Stilen importieren und Hintergrundformen anwenden."
@@ -234,3 +237,7 @@ def background_shape_example():
 ## Abschluss
 
 Durch die Beherrschung dieser Funktionen von Aspose.Words für Python können Sie die Anpassungsmöglichkeiten Ihrer Dokumentverarbeitungs-Workflows deutlich verbessern. Ob durch das Festlegen einheitlicher Hintergrundfarben, das Importieren von Knoten mit benutzerdefinierten Stilen oder das Anwenden anspruchsvoller Hintergrundformen – dieser Leitfaden bietet eine solide Grundlage für die Optimierung Ihrer Dokumentenverwaltungsaufgaben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

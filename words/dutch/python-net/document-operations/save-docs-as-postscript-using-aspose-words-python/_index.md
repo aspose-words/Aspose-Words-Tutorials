@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken."
@@ -163,3 +166,7 @@ Volgende stappen kunnen bestaan uit het verkennen van andere functies van de Asp
 - [Community Ondersteuningsforum](https://forum.aspose.com/c/words/10)
 
 We hopen dat deze handleiding je helpt om documenten efficiënt op te slaan in PostScript-formaat met Aspose.Words voor Python. Veel plezier met coderen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

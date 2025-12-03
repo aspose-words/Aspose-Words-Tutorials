@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words ile Python'da sayfa renklerini ayarlayarak, özel stillere sahip düğümleri içe aktararak ve arka plan şekilleri uygulayarak belgeleri programlı olarak nasıl özelleştireceğinizi öğrenin."
@@ -234,3 +237,7 @@ def background_shape_example():
 ## Çözüm
 
 Python için Aspose.Words'ün bu özelliklerinde ustalaşarak, belge işleme iş akışlarınızın özelleştirme yeteneklerini önemli ölçüde artırabilirsiniz. İster tek tip arka plan renkleri ayarlamak, ister özelleştirilmiş stillere sahip düğümleri içe aktarmak veya karmaşık arka plan şekilleri uygulamak olsun, bu kılavuz belge yönetimi görevlerinizi yükseltmek için sağlam bir temel sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

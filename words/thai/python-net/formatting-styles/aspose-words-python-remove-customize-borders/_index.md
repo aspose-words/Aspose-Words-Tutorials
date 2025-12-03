@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีการลบและปรับแต่งเส้นขอบย่อหน้าอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python ปรับปรุงกระบวนการจัดรูปแบบเอกสารของคุณ"
@@ -179,3 +182,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **ทดลองใช้งานฟรี**- [เริ่มต้นฟรี](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว**- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน**- [ฟอรั่ม Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

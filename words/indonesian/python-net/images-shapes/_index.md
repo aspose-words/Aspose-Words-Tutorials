@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Jelajahi tutorial Aspose.Words terbaik tentang mengintegrasikan gambar dan bentuk menggunakan Python-net. Tingkatkan keterampilan otomatisasi dokumen Anda dengan panduan praktis."
 "title": "Aspose.Words Python-net&#58; Menguasai Gambar & Bentuk Tutorial"
@@ -40,3 +43,7 @@ Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. P
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

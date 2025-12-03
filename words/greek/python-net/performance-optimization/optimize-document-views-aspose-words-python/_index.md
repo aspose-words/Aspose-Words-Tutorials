@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να προσαρμόζετε τις προβολές εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Ορίστε επίπεδα ζουμ, επιλογές εμφάνισης και πολλά άλλα για να βελτιώσετε την εμπειρία χρήστη."
@@ -234,3 +237,7 @@ set_forms_design_mode(True)
 
 ## Σύναψη
 Ακολουθώντας αυτόν τον οδηγό, μπορείτε να αξιοποιήσετε το Aspose.Words για Python για να προσαρμόσετε αποτελεσματικά τις προβολές εγγράφων. Αυτό όχι μόνο βελτιώνει την εμπειρία χρήστη, αλλά παρέχει και ευελιξία στον τρόπο παρουσίασης των εγγράφων σε διαφορετικές πλατφόρμες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprenda a detectar listas e gerenciar arquivos de texto com eficiência com o Aspose.Words para Python. Perfeito para sistemas de gerenciamento de documentos."
@@ -171,3 +174,7 @@ def test_detect_hyperlinks(self):
 2. **Ferramentas de análise de conteúdo**: Extraia dados estruturados de arquivos de texto para análise ou geração de relatórios posteriores.
 3. **Tarefas de limpeza de dados**Padronize a formatação de texto gerenciando espaços em branco e identificando elementos da lista.
 4. **Verificação de link**: Valide links dentro de um lote de documentos de texto para garantir que estejam ativos e corretos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

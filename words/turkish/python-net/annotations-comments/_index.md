@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Python-net kullanarak açıklamalar ve yorumlar hakkında kapsamlı Aspose.Words eğitimimizi keşfedin. Pratik örneklerle belge işleme becerilerinizi geliştirin."
 "title": "Aspose.Words'de Python-net ile Ana Açıklamalar ve Yorumlar"
@@ -33,3 +36,7 @@ Python ile Aspose.Words kütüphanesini kullanarak Word belgelerine yorum ve yan
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

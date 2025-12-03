@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words"
 description: "A code tutorial for Aspose.Words Python-net"
@@ -199,3 +202,7 @@ Ready to implement these solutions? Dive into our [documentation](https://refere
 - [Support Forum](https://forum.aspose.com/c/words/10)
 
 Explore these resources to deepen your understanding and enhance your document processing capabilities with Aspose.Words for Python. Happy coding!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

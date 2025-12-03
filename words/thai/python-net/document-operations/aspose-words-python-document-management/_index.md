@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "เรียนรู้วิธีจำกัดระดับหัวเรื่องและใช้ลายเซ็นดิจิทัลในเอกสาร XPS โดยใช้ Aspose.Words สำหรับ Python เพื่อเพิ่มความปลอดภัยและการนำทางของเอกสาร"
@@ -185,3 +188,7 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **คำถามที่ 1: ฉันจะมั่นใจได้อย่างไรว่าลายเซ็นดิจิทัลของฉันปลอดภัยด้วย Aspose.Words**
 - ตรวจสอบให้แน่ใจว่าคุณใช้ผู้มีอำนาจออกใบรับรองที่เชื่อถือได้ในการรับใบรับรองดิจิทัลของคุณ
 - อัปเดตและจัดการคีย์และรหัสผ่านของคุณอย่างปลอดภัยเป็นประจำ
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

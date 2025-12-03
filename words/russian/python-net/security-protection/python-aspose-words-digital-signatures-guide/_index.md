@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как загружать, получать доступ и проверять цифровые подписи в документах Python с помощью Aspose.Words. В этом руководстве приведены пошаговые инструкции по обеспечению подлинности документа."
@@ -194,3 +197,7 @@ print(f"Subject Name: {subject_name}")
 - **Форум поддержки**: https://forum.aspose.com/c/words/10
 
 Изучите эти ресурсы, чтобы еще больше расширить свои знания и навыки в работе с цифровыми подписями с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

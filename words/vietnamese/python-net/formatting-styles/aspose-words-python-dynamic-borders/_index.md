@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách tạo đường viền tài liệu động bằng Aspose.Words cho Python. Nắm vững các kỹ thuật tạo kiểu đường viền văn bản và bảng."
@@ -267,3 +270,7 @@ Hãy cân nhắc tích hợp Aspose.Words với các công cụ xử lý dữ li
 
 ## Phần kết luận
 Bằng cách thành thạo các kỹ thuật này với Aspose.Words for Python, bạn có thể tạo các tài liệu trông chuyên nghiệp với đường viền động. Hướng dẫn này cung cấp nền tảng vững chắc để khám phá thêm các khả năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

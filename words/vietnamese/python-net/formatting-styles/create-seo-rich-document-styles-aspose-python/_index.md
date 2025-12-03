@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Học cách tạo kiểu tài liệu tùy chỉnh, thân thiện với SEO bằng Aspose.Words cho Python. Tăng khả năng đọc và tính nhất quán một cách dễ dàng."
@@ -112,3 +115,7 @@ A: Xác minh rằng định nghĩa kiểu của bạn là chính xác và kiểm
 - [Dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

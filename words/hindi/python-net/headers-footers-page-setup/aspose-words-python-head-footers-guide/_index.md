@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python के लिए Aspose.Words का उपयोग करके दस्तावेज़ों में हेडर और फ़ुटर बनाना, कस्टमाइज़ करना और प्रबंधित करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ स्वरूपण कौशल को बेहतर बनाएँ।"
@@ -215,3 +218,7 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

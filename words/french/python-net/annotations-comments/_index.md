@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Découvrez notre tutoriel complet Aspose.Words sur les annotations et les commentaires avec Python-net. Améliorez vos compétences en traitement de documents grâce à des exemples pratiques."
 "title": "Maîtriser les annotations et les commentaires dans Aspose.Words avec Python-net"
@@ -33,3 +36,7 @@ Découvrez comment ajouter, gérer et récupérer par programmation des commenta
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

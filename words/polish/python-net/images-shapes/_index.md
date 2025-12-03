@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Przeglądaj najlepsze samouczki Aspose.Words dotyczące integrowania obrazów i kształtów za pomocą Python-net. Udoskonalaj swoje umiejętności automatyzacji dokumentów dzięki praktycznym przewodnikom."
 "title": "Aspose.Words Python-net&#58; Opanowanie obrazów i kształtów Tutoriale"
@@ -40,3 +43,7 @@ Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pytho
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

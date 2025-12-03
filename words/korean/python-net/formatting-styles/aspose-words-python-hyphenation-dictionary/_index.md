@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words for Python을 사용하여 하이픈 사전을 등록하고 등록 해제하는 방법을 알아보고 다양한 언어의 가독성을 높여보세요."
@@ -173,3 +176,7 @@ A: 무료 체험판으로 시작해 보세요. 필요에 따라 정식 라이선
 - **구입:** [Aspose.Words 라이선스 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [무료 체험판으로 시작하세요](https://releases.aspose.com/words/python/)
 - **임시 면허:** [임시 면허 신청](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

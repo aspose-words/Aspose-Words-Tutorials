@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Apprenez à personnaliser par programmation des documents en Python avec Aspose.Words en définissant les couleurs de page, en important des nœuds avec des styles personnalisés et en appliquant des formes d'arrière-plan."
@@ -234,3 +237,7 @@ def background_shape_example():
 ## Conclusion
 
 En maîtrisant les fonctionnalités d'Aspose.Words pour Python, vous pouvez considérablement améliorer les capacités de personnalisation de vos workflows de traitement de documents. Qu'il s'agisse de définir des couleurs d'arrière-plan uniformes, d'importer des nœuds avec des styles personnalisés ou d'appliquer des formes d'arrière-plan sophistiquées, ce guide fournit une base solide pour optimiser vos tâches de gestion documentaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

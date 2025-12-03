@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إنشاء حدود ديناميكية للمستندات باستخدام Aspose.Words للغة بايثون. أتقن تقنيات تنسيق حدود النصوص والجداول."
@@ -267,3 +270,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## خاتمة
 بإتقان هذه التقنيات باستخدام Aspose.Words لبايثون، يمكنك إنشاء مستندات احترافية ذات حدود ديناميكية. يوفر هذا الدليل أساسًا متينًا لاستكشاف إمكانيات المكتبة بشكل أعمق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как оптимизировать сохранение документов с помощью Aspose.Words для Python, используя формат потока XAML и обратные вызовы прогресса. Повысьте эффективность управления документами."
@@ -185,3 +188,7 @@ class ExXamlFlowSaveOptionsProgressCallback:
 ## Заключение
 
 В этом уроке мы изучили, как оптимизировать сохранение документов с помощью Aspose.Words для Python с использованием XAML Flow и обратных вызовов прогресса. Внедрив эти функции, вы сможете повысить эффективность рабочих процессов обработки документов, эффективно управлять ресурсами и гарантировать своевременные операции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

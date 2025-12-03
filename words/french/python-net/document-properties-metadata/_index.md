@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Découvrez trois tutoriels conçus par des experts sur la gestion des propriétés et des métadonnées de documents avec Aspose.Words pour Python-net. Améliorez vos compétences en manipulation des attributs essentiels des documents."
 "title": "Maîtriser les propriétés et métadonnées des documents avec Aspose.Words (tutoriels Python-net)"
@@ -40,3 +43,7 @@ Apprenez à gérer et optimiser les champs d'informations utilisateur dans vos d
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

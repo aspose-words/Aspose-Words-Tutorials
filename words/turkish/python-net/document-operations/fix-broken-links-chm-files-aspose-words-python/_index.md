@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Güçlü Aspose.Words kütüphanesini kullanarak .chm dosyalarındaki bozuk bağlantıları nasıl çözeceğinizi öğrenin. Bu adım adım kılavuzla belgenizin güvenilirliğini ve kullanıcı deneyiminizi geliştirin."
@@ -145,3 +148,7 @@ Daha fazla yardım ve keşif için:
 - **İndirmek**: [Aspose.Words for Python Sürümleri](https://releases.aspose.com/words/python/)
 - **Satın Alma ve Deneme**: [Lisans veya Ücretsiz Deneme Edinin](https://purchase.aspose.com/buy)
 - **Destek Forumu**: [Aspose Destek Topluluğu](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

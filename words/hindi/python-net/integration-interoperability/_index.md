@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "एकीकरण और अंतरसंचालनीयता पर केंद्रित इन पायथन-नेट ट्यूटोरियल के साथ Aspose.Words में महारत हासिल करें। सहज सॉफ़्टवेयर इंटरैक्शन के लिए अपने दस्तावेज़ प्रसंस्करण कौशल को बढ़ाएँ।"
 "title": "Aspose.Words पायथन-नेट एकीकरण और इंटरऑपरेबिलिटी ट्यूटोरियल"
@@ -40,3 +43,7 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

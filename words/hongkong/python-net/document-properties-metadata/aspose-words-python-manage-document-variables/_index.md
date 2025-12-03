@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "了解如何使用 Aspose.Words for Python 有效管理文件變數。本指南涵蓋在文件中新增、更新和顯示變數值。"
@@ -161,3 +164,7 @@
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 
 探索這些資源以進一步增強您對 Python 中 Aspose.Words 的理解和實作。編碼愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

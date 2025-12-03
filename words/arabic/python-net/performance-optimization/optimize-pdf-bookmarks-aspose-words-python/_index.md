@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "برنامج تعليمي لبرمجة Aspose.Words Python-net"
@@ -180,3 +183,7 @@ outline_levels.clear()
 - **يدعم**:احصل على المساعدة من المجتمع على [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 هذا الدليل يزودك بالمعرفة اللازمة لتحسين إشارات مرجعية PDF باستخدام Aspose.Words لـ Python. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak přizpůsobit zobrazení dokumentů pomocí Aspose.Words pro Python. Nastavte úrovně přiblížení, možnosti zobrazení a další pro vylepšení uživatelského prostředí."
@@ -234,3 +237,7 @@ Optimalizace výkonu při používání Aspose.Words zahrnuje:
 
 ## Závěr
 Dodržováním tohoto návodu můžete využít Aspose.Words pro Python k efektivnímu přizpůsobení zobrazení dokumentů. To nejen zlepšuje uživatelský zážitek, ale také poskytuje flexibilitu v tom, jak jsou dokumenty prezentovány na různých platformách.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

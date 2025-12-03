@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Python 中的 Aspose.Words 优化 Word 文档，使其适用于各种 MS Word 版本。本指南涵盖兼容性设置、性能技巧和实际应用。"
@@ -144,3 +147,7 @@ pip install aspose-words
 - **免费试用和临时许可证**：开始免费试用或获取临时许可证 [Aspose 版本](https://releases.aspose.com/words/python/) 
 
 这份全面的指南将帮助您使用 Aspose.Words for Python 有效地优化您的 Word 文档。祝您编程愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

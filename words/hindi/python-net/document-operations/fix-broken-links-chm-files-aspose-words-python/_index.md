@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "शक्तिशाली Aspose.Words लाइब्रेरी का उपयोग करके .chm फ़ाइलों में टूटे हुए लिंक को हल करने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ की विश्वसनीयता और उपयोगकर्ता अनुभव को बेहतर बनाएँ।"
@@ -145,3 +148,7 @@ CHM लिंक को अनुकूलित करना विभिन्
 - **डाउनलोड करना**: [पायथन रिलीज़ के लिए Aspose.Words](https://releases.aspose.com/words/python/)
 - **खरीद और परीक्षण**: [लाइसेंस या निःशुल्क परीक्षण प्राप्त करें](https://purchase.aspose.com/buy)
 - **सहयता मंच**: [Aspose समर्थन समुदाय](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

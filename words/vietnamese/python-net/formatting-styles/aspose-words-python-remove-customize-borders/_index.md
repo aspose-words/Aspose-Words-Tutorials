@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách xóa và tùy chỉnh đường viền đoạn văn hiệu quả bằng Aspose.Words for Python. Đơn giản hóa quy trình định dạng tài liệu của bạn."
@@ -179,3 +182,7 @@ Hướng dẫn này đề cập đến cách xóa và tùy chỉnh đường vi�
 - **Dùng thử miễn phí**: [Bắt đầu miễn phí](https://releases.aspose.com/words/python/)
 - **Giấy phép tạm thời**: [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "أتقن Aspose.Words مع هذه الدروس التعليمية لـ Python-net، والتي تُركز على التكامل والتوافقية. حسّن مهاراتك في معالجة المستندات لضمان تفاعل سلس مع البرامج."
 "title": "دروس Aspose.Words حول التكامل والتوافق بين Python وNet"
@@ -40,3 +43,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

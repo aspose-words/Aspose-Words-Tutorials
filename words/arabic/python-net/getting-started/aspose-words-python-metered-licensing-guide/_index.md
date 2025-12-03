@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعرف على كيفية تنفيذ الترخيص المقنن باستخدام Aspose.Words for Python لتتبع وإدارة استخدام المستندات بكفاءة داخل تطبيقاتك."
@@ -173,3 +176,7 @@ A1: يسمح لك الترخيص المقنن بتتبع الاستهلاك وا
 - **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 ابدأ رحلتك مع Aspose.Words for Python اليوم واستفد بشكل كامل من الترخيص المقنن لتحسين احتياجات معالجة المستندات الخاصة بك!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

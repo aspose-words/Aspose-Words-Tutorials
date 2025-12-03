@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "استكشف دروس Aspose.Words التعليمية حول الرؤوس والتذييلات وإعداد الصفحات باستخدام Python-net. تعلّم كيفية تحسين تنسيق المستندات بسهولة."
 "title": "Aspose.Words Python-net&#58; دروس إعداد الرؤوس والتذييلات والصفحات"
@@ -36,3 +39,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

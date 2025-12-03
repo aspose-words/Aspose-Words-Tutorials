@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aprende a crear estilos de documentos personalizados y optimizados para SEO con Aspose.Words para Python. Mejora la legibilidad y la coherencia sin esfuerzo."
@@ -112,3 +115,7 @@ A: Verifique que sus definiciones de estilo sean correctas y verifique si hay es
 - [Prueba gratuita](https://releases.aspose.com/words/python/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

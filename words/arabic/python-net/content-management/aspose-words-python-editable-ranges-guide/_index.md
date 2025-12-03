@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "تعلّم كيفية إنشاء وإدارة نطاقات قابلة للتعديل داخل المستندات المحمية باستخدام Aspose.Words لـ Python. حسّن قدراتك في إدارة المستندات اليوم."
@@ -164,3 +167,7 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **منتدى الدعم**: [دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باستخدام هذا الدليل، ستكون مجهزًا بشكل جيد للاستفادة من قوة النطاقات القابلة للتحرير في مشاريع إدارة المستندات الخاصة بك باستخدام Aspose.Words for Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

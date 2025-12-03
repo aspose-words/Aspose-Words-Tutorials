@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak ograniczyć liczbę poziomów nagłówków i stosować podpisy cyfrowe w dokumentach XPS przy użyciu Aspose.Words dla języka Python, zwiększając bezpieczeństwo dokumentów i ułatwiając nawigację."
@@ -185,3 +188,7 @@ Gotowy na kolejny krok? Poznaj dalej, integrując Aspose.Words z innymi systemam
 **P1: Jak mogę mieć pewność, że moje podpisy cyfrowe w Aspose.Words są bezpieczne?**
 - Upewnij się, że korzystasz z usług zaufanego urzędu certyfikacji przy uzyskiwaniu certyfikatów cyfrowych.
 - Regularnie aktualizuj i bezpiecznie zarządzaj swoimi kluczami i hasłami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

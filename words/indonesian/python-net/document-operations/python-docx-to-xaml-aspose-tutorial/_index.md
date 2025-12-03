@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara mengonversi dokumen Microsoft Word (DOCX) ke XAML bentuk tetap menggunakan Aspose.Words untuk Python, memastikan manajemen sumber daya yang efisien dan integritas desain."
@@ -156,3 +159,7 @@ Kami telah menjajaki cara mengonversi file Word (DOCX) ke XAML format tetap meng
 - [Akses Uji Coba Gratis](https://releases.aspose.com/words/python/)
 - [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

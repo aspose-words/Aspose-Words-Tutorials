@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách quản lý hiệu quả các biến tài liệu bằng Aspose.Words cho Python. Hướng dẫn này bao gồm việc thêm, cập nhật và hiển thị các giá trị biến trong tài liệu."
@@ -161,3 +164,7 @@ Tại sao không thử triển khai các giải pháp này ngay hôm nay và xem
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
 Khám phá các tài nguyên này để nâng cao hơn nữa sự hiểu biết và triển khai Aspose.Words trong Python của bạn. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

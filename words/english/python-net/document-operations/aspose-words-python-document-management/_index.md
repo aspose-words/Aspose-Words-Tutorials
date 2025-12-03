@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 title: "Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents"
 description: "Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation."
@@ -190,3 +193,7 @@ Ready to take the next step? Explore further by integrating Aspose.Words with ot
 **Q1: How do I ensure my digital signatures are secure with Aspose.Words?**
 - Ensure you use a trusted certificate authority for obtaining your digital certificates.
 - Regularly update and manage your keys and passwords securely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

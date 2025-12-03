@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách chuyển đổi tài liệu Microsoft Word (DOCX) sang XAML dạng cố định bằng Aspose.Words cho Python, đảm bảo quản lý tài nguyên hiệu quả và tính toàn vẹn của thiết kế."
@@ -156,3 +159,7 @@ Chúng tôi đã khám phá cách chuyển đổi các tệp Word (DOCX) sang XA
 - [Truy cập dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

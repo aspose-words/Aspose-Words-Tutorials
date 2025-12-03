@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Ismerd meg, hogyan optimalizálhatod a Word dokumentumokat különböző MS Word verziókhoz az Aspose.Words Pythonban történő használatával. Ez az útmutató a kompatibilitási beállításokat, a teljesítményre vonatkozó tippeket és a gyakorlati alkalmazásokat ismerteti."
@@ -144,3 +147,7 @@ Az Aspose.Words for Python használatával hatékonyan kezelheti és optimalizá
 - **Ingyenes próbaverzió és ideiglenes licenc**: Kezdje ingyenes próbaverzióval, vagy szerezzen ideiglenes licencet a következő címen: [Aspose kiadások](https://releases.aspose.com/words/python/) 
 
 Ez az átfogó útmutató segít abban, hogy hatékonyan optimalizáld Word-dokumentumaidat az Aspose.Words for Python használatával. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "Ontdek onze uitgebreide Aspose.Words-tutorial over annotaties en opmerkingen met Python-net. Verbeter je vaardigheden in documentverwerking met praktische voorbeelden."
 "title": "Meesterlijke annotaties en opmerkingen in Aspose.Words met Python-net"
@@ -33,3 +36,7 @@ Leer hoe u programmatisch opmerkingen en antwoorden kunt toevoegen, beheren en o
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

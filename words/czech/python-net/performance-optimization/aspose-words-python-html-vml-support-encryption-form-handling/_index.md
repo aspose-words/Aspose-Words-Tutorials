@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se optimalizovat HTML dokumenty pomocí Aspose.Words pro Python. Spravujte VML grafiku, bezpečně šifrujte dokumenty a bez námahy zpracovávejte prvky formulářů."
@@ -199,3 +202,7 @@ Nyní máte důkladné pochopení toho, jak lze Aspose.Words pro Python použít
 
 **Otázka: Jak mám zpracovat velké HTML soubory s VML elementy?**
 A: Pro efektivní správu využití zdrojů používejte dávkové zpracování a selektivní načítání.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se efektivně vkládat, odstraňovat a spravovat záložky a sloupce tabulek pomocí Aspose.Words pro Python. Vylepšete si zpracování dokumentů pomocí praktických příkladů a tipů pro zvýšení výkonu."
@@ -140,3 +143,7 @@ Zvládnutí vkládání, odebírání a správy záložek pomocí Aspose.Words v
    - Ano, Aspose.Words podporuje více formátů včetně DOCX a PDF.
 3. **Jaká jsou omezení záložek sloupců tabulky?**
    - Lze je použít pouze v tabulkách, které mají jasně definované řádky a sloupce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

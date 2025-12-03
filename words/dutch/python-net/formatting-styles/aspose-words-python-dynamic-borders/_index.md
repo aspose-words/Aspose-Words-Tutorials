@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je dynamische documentranden maakt met Aspose.Words voor Python. Leer technieken voor het stylen van tekst- en tabelranden."
@@ -267,3 +270,7 @@ Overweeg om Aspose.Words te integreren met andere gegevensverwerkingshulpmiddele
 
 ## Conclusie
 Door deze technieken onder de knie te krijgen met Aspose.Words voor Python, kunt u professioneel ogende documenten met dynamische randen maken. Deze handleiding biedt een stevige basis voor verdere verkenning van de mogelijkheden van de bibliotheek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

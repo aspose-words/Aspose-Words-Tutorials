@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Leer hoe je documenten kunt samenvoegen met Aspose.Words in Python, met de nadruk op 'Bronnummering behouden' en 'Invoegen bij bladwijzer'. Verbeter vandaag nog je vaardigheden in documentverwerking!"
@@ -181,3 +184,7 @@ Experimenteer met extra Aspose.Words-functionaliteiten en verken integratiemogel
 - [Koop een licentie](https://purchase.aspose.com/buy)
 - [Gratis proeflicentie](https://purchase.aspose.com/temporary-license/)
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

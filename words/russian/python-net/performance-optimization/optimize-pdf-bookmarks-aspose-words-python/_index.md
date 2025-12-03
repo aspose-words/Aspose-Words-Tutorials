@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Учебник по коду для Aspose.Words Python-net"
@@ -180,3 +183,7 @@ outline_levels.clear()
 - **Поддерживать**Получите помощь от сообщества [Форум Aspose](https://forum.aspose.com/c/words/10)
 
 Это руководство снабдило вас знаниями по оптимизации закладок PDF с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

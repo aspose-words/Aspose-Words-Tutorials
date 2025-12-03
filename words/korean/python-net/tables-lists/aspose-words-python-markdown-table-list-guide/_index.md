@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python용 Aspose.Words를 사용하여 마크다운으로 표와 목록을 서식 지정하는 방법을 알아보세요. 정렬, 목록 내보내기 모드 등을 통해 문서 워크플로우를 개선하세요."
@@ -185,3 +188,7 @@ Python에서 Aspose.Words를 사용하려면 다음 단계를 따르세요.
 ## 결론
 
 Aspose.Words for Python을 마스터하면 복잡한 표와 목록이 포함된 마크다운 문서를 만들고 조작하는 능력이 크게 향상됩니다. 기술 문서 작업이든 협업 프로젝트든, 이 도구들은 문서 워크플로우를 간소화하고 가독성을 향상시켜 줍니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

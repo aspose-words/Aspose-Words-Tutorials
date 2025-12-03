@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words का उपयोग करके पायथन में स्वचालित दस्तावेज़ प्रबंधन में महारत हासिल करें। हमारे व्यापक गाइड के साथ कॉम्बो बॉक्स और टेक्स्ट इनपुट सहित फ़ॉर्म फ़ील्ड में हेरफेर करना सीखें।"
@@ -258,3 +261,7 @@ doc.save(file_name="YOUR_DOCUMENT_DIRECTORY/FormFields.ManageDropDownItems.html"
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

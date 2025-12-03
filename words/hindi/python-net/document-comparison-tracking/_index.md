@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "पायथन-नेट डेवलपर्स के लिए हमारे व्यापक Aspose.Words ट्यूटोरियल का अन्वेषण करें। शक्तिशाली उपकरणों का उपयोग करके दस्तावेज़ परिवर्तनों की कुशलतापूर्वक तुलना और ट्रैक करना सीखें।"
 "title": "पायथन-नेट में Aspose.Words के साथ मास्टर दस्तावेज़ तुलना और ट्रैकिंग"
@@ -33,3 +36,7 @@ Python-net के लिए Aspose.Words का उपयोग करके द
 - [Aspose.Words फ़ोरम](https://forum.aspose.com/c/words/8)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
 - [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

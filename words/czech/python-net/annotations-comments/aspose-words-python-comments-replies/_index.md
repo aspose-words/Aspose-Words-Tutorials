@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Naučte se, jak programově přidávat, spravovat a načítat komentáře a odpovědi v dokumentech Wordu pomocí knihovny Aspose.Words v Pythonu."
@@ -242,3 +245,7 @@ Aspose.Words pro Python lze integrovat do různých pracovních postupů s dokum
 3. **Akademická spolupráce**Usnadnit zpětnou vazbu mezi autory a recenzenty v akademických pracích.
 
 Tato komplexní příručka by vám měla pomoci efektivně implementovat správu komentářů a odpovědí ve vašich dokumentech Word pomocí Aspose.Words pro Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

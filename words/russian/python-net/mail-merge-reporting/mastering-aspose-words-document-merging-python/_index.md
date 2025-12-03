@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Узнайте, как освоить слияние документов с помощью Aspose.Words в Python, уделяя особое внимание «Сохранить исходную нумерацию» и «Вставить по закладке». Улучшите свои навыки обработки документов сегодня!"
@@ -181,3 +184,7 @@ insert_document(bookmark.bookmark_start.parent_node, doc_to_insert)
 - [Купить лицензию](https://purchase.aspose.com/buy)
 - [Бесплатная пробная лицензия](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

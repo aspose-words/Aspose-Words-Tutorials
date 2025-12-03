@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Lär dig hur du sömlöst tar bort, infogar och konverterar tabellkolumner i Word-dokument med Aspose.Words för Python. Effektivisera dina dokumentredigeringsuppgifter."
@@ -149,3 +152,7 @@ För vidare utforskning, se dessa resurser:
 - [Gratis provversion](https://releases.aspose.com/words/python/)
 - [Ansökan om tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

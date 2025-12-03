@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Python ile Aspose.Words kütüphanesini kullanarak Word belgelerine yorum ve yanıtları programlı bir şekilde nasıl ekleyeceğinizi, yöneteceğinizi ve alacağınızı öğrenin."
@@ -242,3 +245,7 @@ Python için Aspose.Words çeşitli belge iş akışlarına entegre edilebilir. 
 3. **Akademik İşbirliği**: Akademik makalelerde yazarlar ve hakemler arasındaki geri bildirim döngülerini kolaylaştırmak.
 
 Bu kapsamlı kılavuz, Python için Aspose.Words'ü kullanarak Word belgelerinizde yorum ve yanıt yönetimini etkili bir şekilde uygulamanıza yardımcı olacaktır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

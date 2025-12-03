@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Aspose.Words를 사용하여 Python에서 표 셀을 효율적으로 병합하는 방법을 알아보세요. 이 가이드에서는 수직 및 수평 병합, 패딩 설정 및 실제 적용 사례를 다룹니다."
@@ -213,3 +216,7 @@ Aspose.Words로 작업할 때:
 - [무료 체험](https://releases.aspose.com/words/python/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
 - [지원 포럼](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

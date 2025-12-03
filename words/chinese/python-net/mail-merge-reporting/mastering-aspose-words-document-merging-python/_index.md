@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words 在 Python 中合并文档，重点关注“保留源编号”和“插入书签”功能。立即提升您的文档处理技能！"
@@ -181,3 +184,7 @@ Aspose.Words 的保留源编号和插入书签的功能有许多实际应用：
 - [购买许可证](https://purchase.aspose.com/buy)
 - [免费试用许可证](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

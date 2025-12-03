@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách sử dụng Aspose.Words for Python để chuyển đổi tài liệu Word thành các trang HTML riêng biệt bằng cách sử dụng lệnh gọi lại tùy chỉnh. Hoàn hảo cho việc quản lý tài liệu và xuất bản web."
@@ -149,3 +152,7 @@ A5: Tham gia [Diễn đàn Aspose](https://forum.aspose.com/c/words/10) để đ
 - **Ủng hộ**: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/words/10) để giải đáp thắc mắc và hỗ trợ cộng đồng.
 
 Hãy khám phá Aspose.Words for Python ngay hôm nay và mở khóa những khả năng mới trong xử lý tài liệu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

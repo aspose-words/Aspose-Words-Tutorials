@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Dowiedz się, jak dostosować widoki dokumentów za pomocą Aspose.Words dla Pythona. Ustaw poziomy powiększenia, opcje wyświetlania i inne, aby ulepszyć wrażenia użytkownika."
@@ -234,3 +237,7 @@ Optymalizacja wydajności podczas korzystania z Aspose.Words obejmuje:
 
 ## Wniosek
 Postępując zgodnie z tym przewodnikiem, możesz wykorzystać Aspose.Words for Python do efektywnego dostosowywania widoków dokumentów. To nie tylko poprawia doświadczenie użytkownika, ale także zapewnia elastyczność w sposobie prezentacji dokumentów na różnych platformach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách lập trình thêm, quản lý và truy xuất bình luận và trả lời trong tài liệu Word bằng thư viện Aspose.Words với Python."
@@ -242,3 +245,7 @@ Aspose.Words for Python có thể được tích hợp vào nhiều quy trình l
 3. **Hợp tác học thuật**: Tạo điều kiện cho vòng phản hồi giữa tác giả và người đánh giá trong các bài báo học thuật.
 
 Hướng dẫn toàn diện này sẽ giúp bạn triển khai hiệu quả chức năng quản lý bình luận và trả lời trong tài liệu Word bằng Aspose.Words for Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

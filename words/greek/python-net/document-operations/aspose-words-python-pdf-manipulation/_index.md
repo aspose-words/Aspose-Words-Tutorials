@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Μάθετε πώς να χειρίζεστε PDF χρησιμοποιώντας το Aspose.Words για Python. Μετατρέψτε, επεξεργαστείτε και χειριστείτε κρυπτογραφημένα έγγραφα με ευκολία."
@@ -251,3 +254,7 @@ print(pdf_doc.get_text().strip())
 - "Μετατροπή PDF σε DOCX"
 - "Διαχείριση εγγράφων με Python"
 - "Χειρισμός κρυπτογραφημένων PDF"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

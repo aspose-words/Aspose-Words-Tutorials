@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Un tutoriel de code pour Aspose.Words Python-net"
@@ -178,3 +181,7 @@ A5 : Assurez-vous d'avoir correctement appliqué votre fichier de licence dans 
 - **Soutien:** [Forum Aspose - Section Mots](https://forum.aspose.com/c/words/10)
 
 En suivant ce guide, vous serez sur la bonne voie pour gérer efficacement les tâches de chargement de documents avec Aspose.Words en Python. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách triển khai cấp phép theo định mức với Aspose.Words cho Python để theo dõi và quản lý hiệu quả việc sử dụng tài liệu trong ứng dụng của bạn."
@@ -173,3 +176,7 @@ A5: Dữ liệu sử dụng không được gửi theo thời gian thực nên c
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
 
 Hãy bắt đầu hành trình cùng Aspose.Words for Python ngay hôm nay và tận dụng tối đa chế độ cấp phép theo giới hạn để tối ưu hóa nhu cầu xử lý tài liệu của bạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

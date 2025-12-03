@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "description": "สำรวจบทช่วยสอน Aspose.Words ที่ครอบคลุมของเราเกี่ยวกับคำอธิบายประกอบและความคิดเห็นโดยใช้ Python-net พัฒนาทักษะการประมวลผลเอกสารของคุณด้วยตัวอย่างในทางปฏิบัติ"
 "title": "การเรียนรู้คำอธิบายประกอบและความคิดเห็นใน Aspose.Words ด้วย Python-net"
@@ -33,3 +36,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

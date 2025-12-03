@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Pelajari cara menyesuaikan tampilan dokumen menggunakan Aspose.Words untuk Python. Tetapkan tingkat pembesaran, opsi tampilan, dan lainnya untuk meningkatkan pengalaman pengguna."
@@ -234,3 +237,7 @@ Mengoptimalkan kinerja saat menggunakan Aspose.Words melibatkan:
 
 ## Kesimpulan
 Dengan mengikuti panduan ini, Anda dapat memanfaatkan Aspose.Words untuk Python untuk menyesuaikan tampilan dokumen secara efektif. Hal ini tidak hanya meningkatkan pengalaman pengguna tetapi juga memberikan fleksibilitas dalam cara dokumen disajikan di berbagai platform.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

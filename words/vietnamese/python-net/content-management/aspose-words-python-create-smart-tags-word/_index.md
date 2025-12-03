@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Hướng dẫn mã cho Aspose.Words Python-net"
@@ -236,3 +239,7 @@ Các bước tiếp theo bao gồm khám phá các tính năng nâng cao hơn c�
 - **Diễn đàn hỗ trợ**:Tham gia cộng đồng trên [Diễn đàn hỗ trợ của Aspose](https://forum.aspose.com/c/words/10)
 
 Với hướng dẫn toàn diện này, giờ đây bạn đã có thể tận dụng Aspose.Words for Python để tạo và quản lý thẻ thông minh trong tài liệu Word của mình. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

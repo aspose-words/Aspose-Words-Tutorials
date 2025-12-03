@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "学习如何使用 Aspose.Words for Python 在 Markdown 中格式化表格和列表。通过对齐、列表导出模式等功能增强您的文档工作流程。"
@@ -185,3 +188,7 @@
 ## 结论
 
 通过掌握 Aspose.Words for Python，您可以显著提升创建和操作包含复杂表格和列表的 Markdown 文档的能力。无论您是在处理技术文档还是协作项目，这些工具都能简化您的文档工作流程并提高可读性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

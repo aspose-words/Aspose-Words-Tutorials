@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tanulja meg, hogyan szúrhat be, távolíthat el és kezelhet könyvjelzőket és táblázatoszlopokat az Aspose.Words for Python segítségével. Fejlessze dokumentumfeldolgozási képességeit gyakorlati példákkal és teljesítménynövelő tippekkel."
@@ -140,3 +143,7 @@ A könyvjelzők beszúrásának, eltávolításának és kezelésének elsaját�
    - Igen, az Aspose.Words több formátumot is támogat, beleértve a DOCX-et és a PDF-et.
 3. **Milyen korlátai vannak a táblázat oszlopaiban található könyvjelzőknek?**
    - Csak olyan táblázatokban használhatók, amelyek egyértelműen definiált sorokkal és oszlopokkal rendelkeznek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

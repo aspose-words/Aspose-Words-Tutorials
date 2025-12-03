@@ -1,3 +1,6 @@
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 ---
 "date": "2025-03-29"
 "description": "Tìm hiểu cách thao tác PDF bằng Aspose.Words for Python. Chuyển đổi, chỉnh sửa và xử lý tài liệu được mã hóa dễ dàng."
@@ -251,3 +254,7 @@ Aspose.Words for Python cung cấp các công cụ mạnh mẽ để thao tác P
 - "Chuyển đổi PDF sang DOCX"
 - "Quản lý tài liệu bằng Python"
 - "Xử lý PDF được mã hóa"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
