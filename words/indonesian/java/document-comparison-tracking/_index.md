@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Pelajari cara mengimplementasikan pelacakan perubahan dan membandingkan
   dokumen Word menggunakan Aspose.Words untuk Java. Kuasai kontrol versi dan pelacakan
   revisi.
-language: id
 title: Menerapkan Pelacakan Perubahan di Aspose.Words untuk Java
-url: /java/document-comparison-tracking/
+url: /id/java/document-comparison-tracking/
 weight: 13
 ---
 

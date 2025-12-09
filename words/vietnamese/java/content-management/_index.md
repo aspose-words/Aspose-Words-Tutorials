@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Khám phá hướng dẫn Aspose Words cho các nhà phát triển Java tập trung
   vào quản lý nội dung. Tìm hiểu cách chỉnh sửa tài liệu Word, tạo mẫu Word tùy chỉnh
   và tự động hoá định dạng tài liệu.
-language: vi
 title: Hướng dẫn Aspose Words – Quản lý nội dung Java
-url: /java/content-management/
+url: /vi/java/content-management/
 weight: 3
 ---
 

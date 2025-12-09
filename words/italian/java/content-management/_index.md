@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Esplora il tutorial di Aspose Words per sviluppatori Java incentrato
   sulla gestione dei contenuti. Impara a modificare documenti Word, creare modelli
   Word personalizzati e automatizzare la formattazione dei documenti.
-language: it
 title: Tutorial di Aspose Words – Gestione dei contenuti Java
-url: /java/content-management/
+url: /it/java/content-management/
 weight: 3
 ---
 

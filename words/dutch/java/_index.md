@@ -3,10 +3,9 @@ date: 2025-11-26
 description: Leer hoe u PDF‑documenten maakt, Word‑bestanden samenvoegt, watermerken
   toevoegt, tekst extraheert, documenten beveiligt en mail‑merge uitvoert met behulp
   van Aspose.Words for Java‑tutorials.
-language: nl
 linktitle: Aspose.Words for Java Tutorials
 title: Hoe PDF‑documenten te maken met Aspose.Words voor Java | Documentverwerkings‑API
-url: /java/
+url: /nl/java/
 weight: 11
 ---
 

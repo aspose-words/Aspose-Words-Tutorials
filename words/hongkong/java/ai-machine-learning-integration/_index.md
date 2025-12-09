@@ -1,9 +1,8 @@
 ---
 date: 2025-11-25
 description: 學習如何使用 Aspose.Words for Java 整合 AI 以實現智慧文件處理。探索 AI 文件自動化、內容生成與翻譯。
-language: zh-hant
 title: 如何將 AI 與 Aspose.Words for Java 整合 – AI 與機器學習
-url: /java/ai-machine-learning-integration/
+url: /zh-hant/java/ai-machine-learning-integration/
 weight: 20
 ---
 

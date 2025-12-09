@@ -1,10 +1,9 @@
 ---
 date: 2025-11-26
 description: 学习如何使用 Aspose.Words for Java 教程创建 PDF 文档、合并 Word 文件、添加水印、提取文本、保护文档以及执行邮件合并。
-language: zh
 linktitle: Aspose.Words for Java Tutorials
 title: 使用 Aspose.Words for Java 创建 PDF 文档 | 文档处理 API
-url: /java/
+url: /zh/java/
 weight: 11
 ---
 

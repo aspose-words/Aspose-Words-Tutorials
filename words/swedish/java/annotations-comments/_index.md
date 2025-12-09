@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Lär dig hur du hanterar kommentarer, lägger till annotationer, infogar
   kommentarer, tar bort ordkommentarer och markerar kommentarer som klara i Word‑dokument
   med Aspose.Words för Java. Steg‑för‑steg‑guide med verkliga exempel.
-language: sv
 title: Hur man hanterar kommentarer och anteckningar med Aspose.Words för Java
-url: /java/annotations-comments/
+url: /sv/java/annotations-comments/
 weight: 11
 ---
 

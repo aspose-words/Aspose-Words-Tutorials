@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Poznaj samouczek Aspose Words dla programistów Java skoncentrowany na
   zarządzaniu treścią. Dowiedz się, jak modyfikować dokumenty Word, tworzyć własne
   szablony Word i automatyzować formatowanie dokumentów.
-language: pl
 title: Samouczek Aspose Words – Zarządzanie treścią w Javie
-url: /java/content-management/
+url: /pl/java/content-management/
 weight: 3
 ---
 

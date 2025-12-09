@@ -8,9 +8,8 @@ keywords:
 - Document initialization in Java
 - Customize page backgrounds with Java
 - Import nodes between documents using Java
-language: tr
 title: Aspose.Words for Java ile Sayfa Arka Plan Rengini Ayarlama – Rehber
-url: /java/content-management/aspose-words-java-document-manipulation-guide/
+url: /tr/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
 

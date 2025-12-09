@@ -5,10 +5,9 @@ description: Aspose.Words のビジュアルチュートリアルを、.NET、Ja
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: ja
 limit: null
 title: 'Aspose.Words ビジュアルチュートリアル: .NET、Java、Python ガイド'
-url: /
+url: /ja/
 weight: 10
 ---
 

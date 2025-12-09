@@ -3,11 +3,10 @@ date: 2025-11-28
 description: Aspose.Words for Java का उपयोग करके सेल बॉर्डर बदलना और टेबल को फॉर्मेट
   करना सीखें। यह चरण‑दर‑चरण गाइड बॉर्डर सेट करने, पहले कॉलम की शैली लागू करने, टेबल
   सामग्री को ऑटो‑फ़िट करने, और टेबल शैलियों को लागू करने को कवर करता है।
-language: hi
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: टेबल में सेल बॉर्डर कैसे बदलें – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /hi/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

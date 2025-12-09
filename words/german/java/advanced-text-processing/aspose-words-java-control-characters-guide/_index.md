@@ -12,9 +12,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: de
 title: Steuerzeichen in Java mit Aspose.Words einfügen
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /de/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Aspose.Words for Java를 사용하여 Word 문서에서 댓글을 관리하고, 주석을 추가하고, 댓글을 삽입하고, 워드
   댓글을 삭제하며, 댓글을 완료로 표시하는 방법을 배웁니다. 실제 예시와 함께 단계별 가이드.
-language: ko
 title: Aspose.Words for Java로 주석 및 코멘트를 관리하는 방법
-url: /java/annotations-comments/
+url: /ko/java/annotations-comments/
 weight: 11
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Μάθετε πώς να εφαρμόζετε την παρακολούθηση αλλαγών και να συγκρίνετε
   έγγραφα Word χρησιμοποιώντας το Aspose.Words for Java. Κατακτήστε τον έλεγχο εκδόσεων
   και την παρακολούθηση αναθεωρήσεων.
-language: el
 title: Υλοποίηση παρακολούθησης αλλαγών στο Aspose.Words για Java
-url: /java/document-comparison-tracking/
+url: /el/java/document-comparison-tracking/
 weight: 13
 ---
 

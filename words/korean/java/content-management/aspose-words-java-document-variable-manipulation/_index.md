@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: ko
 title: Aspose.Words for Java로 청구서 템플릿 만들기
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /ko/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

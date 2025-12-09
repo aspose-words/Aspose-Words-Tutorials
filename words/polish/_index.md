@@ -6,10 +6,9 @@ description: Odkryj wizualne samouczki Aspose.Words z przykładami krok po kroku
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: pl
 limit: null
 title: 'Wizualne samouczki Aspose.Words: przewodniki .NET, Java i Python'
-url: /
+url: /pl/
 weight: 10
 ---
 

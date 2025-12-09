@@ -3,10 +3,9 @@ date: 2025-11-26
 description: Pelajari cara membuat dokumen PDF, menggabungkan file Word, menambahkan
   watermark, mengekstrak teks, melindungi dokumen, dan melakukan mail merge menggunakan
   tutorial Aspose.Words untuk Java.
-language: id
 linktitle: Aspose.Words for Java Tutorials
 title: Cara Membuat Dokumen PDF dengan Aspose.Words untuk Java | API Pemrosesan Dokumen
-url: /java/
+url: /id/java/
 weight: 11
 ---
 

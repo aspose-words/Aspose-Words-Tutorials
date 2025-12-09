@@ -3,10 +3,9 @@ date: 2025-11-26
 description: Học cách tạo tài liệu PDF, hợp nhất các tệp Word, thêm dấu nước, trích
   xuất văn bản, bảo vệ tài liệu và thực hiện mail merge bằng các hướng dẫn Aspose.Words
   cho Java.
-language: vi
 linktitle: Aspose.Words for Java Tutorials
 title: Cách tạo tài liệu PDF với Aspose.Words cho Java | API Xử lý tài liệu
-url: /java/
+url: /vi/java/
 weight: 11
 ---
 

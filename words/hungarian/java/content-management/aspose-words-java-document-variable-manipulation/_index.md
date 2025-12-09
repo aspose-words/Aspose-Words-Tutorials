@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: hu
 title: Számlasablon létrehozása az Aspose.Words for Java segítségével
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /hu/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

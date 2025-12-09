@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Aprenda a implementar o rastreamento de alterações e comparar documentos
   Word usando Aspose.Words para Java. Domine o controle de versões e o rastreamento
   de revisões.
-language: pt
 title: Implementar o rastreamento de alterações no Aspose.Words para Java
-url: /java/document-comparison-tracking/
+url: /pt/java/document-comparison-tracking/
 weight: 13
 ---
 

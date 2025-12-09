@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: nl
 title: Factuursjabloon maken met Aspose.Words voor Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /nl/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: es
 title: Crear plantilla de factura con Aspose.Words para Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /es/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

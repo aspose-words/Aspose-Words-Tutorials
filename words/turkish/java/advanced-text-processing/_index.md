@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aspose.Words for Java ile belge oluşturmayı otomatikleştirmeyi öğrenin;
   kontrol karakterleri ekleme, metin arama ve değiştirme ve belge düzeni tekniklerini
   yönetme konularını kapsar.
-language: tr
 title: Aspose.Words for Java ile Belge Oluşturmayı Otomatikleştirin
-url: /java/advanced-text-processing/
+url: /tr/java/advanced-text-processing/
 weight: 12
 ---
 

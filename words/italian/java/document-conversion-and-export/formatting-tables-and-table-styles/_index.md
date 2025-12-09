@@ -4,11 +4,10 @@ description: Scopri come modificare i bordi delle celle e formattare le tabelle 
   Aspose.Words per Java. Questa guida passo passo copre l'impostazione dei bordi,
   l'applicazione dello stile prima colonna, l'adattamento automatico del contenuto
   della tabella e l'applicazione degli stili di tabella.
-language: it
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Come modificare i bordi delle celle nelle tabelle – Aspose.Words per Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /it/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

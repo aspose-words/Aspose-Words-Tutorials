@@ -8,10 +8,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: pl
 title: Dodawanie zakładek w Wordzie przy użyciu Aspose.Words for Java – Wstawianie,
   aktualizacja, usuwanie
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /pl/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

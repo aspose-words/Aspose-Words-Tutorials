@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: it
 title: Crea modello di fattura con Aspose.Words per Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /it/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

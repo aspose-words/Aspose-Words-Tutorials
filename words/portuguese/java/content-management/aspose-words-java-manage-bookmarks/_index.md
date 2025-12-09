@@ -8,10 +8,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: pt
 title: Adicionar Marcadores no Word com Aspose.Words para Java – Inserir, Atualizar,
   Excluir
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /pt/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

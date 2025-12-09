@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aprenda a integrar IA para processamento inteligente de documentos usando
   Aspose.Words para Java. Descubra automação de documentos com IA, geração de conteúdo
   e tradução.
-language: pt
 title: Como integrar IA com Aspose.Words para Java – IA e ML
-url: /java/ai-machine-learning-integration/
+url: /pt/java/ai-machine-learning-integration/
 weight: 20
 ---
 

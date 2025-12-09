@@ -12,9 +12,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: tr
 title: Aspose.Words ile Java'da Kontrol Karakterleri Ekle
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /tr/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

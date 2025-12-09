@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Pelajari cara mengotomatisasi pembuatan dokumen dengan Aspose.Words untuk
   Java, mencakup penyisipan karakter kontrol, pencarian dan penggantian teks, serta
   pengelolaan teknik tata letak dokumen.
-language: id
 title: Otomatisasi Pembuatan Dokumen dengan Aspose.Words untuk Java
-url: /java/advanced-text-processing/
+url: /id/java/advanced-text-processing/
 weight: 12
 ---
 

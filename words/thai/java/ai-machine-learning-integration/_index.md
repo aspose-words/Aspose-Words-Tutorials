@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: เรียนรู้วิธีรวม AI เพื่อการประมวลผลเอกสารอัจฉริยะด้วย Aspose.Words for
   Java. ค้นพบการทำงานอัตโนมัติของเอกสารด้วย AI การสร้างเนื้อหาและการแปล.
-language: th
 title: วิธีผสานรวม AI กับ Aspose.Words สำหรับ Java – AI & ML
-url: /java/ai-machine-learning-integration/
+url: /th/java/ai-machine-learning-integration/
 weight: 20
 ---
 

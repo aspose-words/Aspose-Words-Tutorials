@@ -1,11 +1,10 @@
 ---
 date: 2025-11-28
 description: Aspose.Words for Java を使用してセルの罫線を変更し、テーブルをフォーマットする方法を学びます。このステップバイステップガイドでは、罫線の設定、最初の列スタイルの適用、テーブル内容の自動調整、テーブルスタイルの適用について説明します。
-language: ja
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: テーブル内のセル罫線を変更する方法 – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /ja/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

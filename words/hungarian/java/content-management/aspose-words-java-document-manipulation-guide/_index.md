@@ -9,9 +9,8 @@ keywords:
 - Document initialization in Java
 - Customize page backgrounds with Java
 - Import nodes between documents using Java
-language: hu
 title: Oldal háttérszín beállítása az Aspose.Words for Java segítségével – Útmutató
-url: /java/content-management/aspose-words-java-document-manipulation-guide/
+url: /hu/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
 

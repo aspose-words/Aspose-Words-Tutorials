@@ -9,9 +9,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: id
 title: Tambah Penanda di Word dengan Aspose.Words untuk Java – Sisip, Perbarui, Hapus
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /id/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

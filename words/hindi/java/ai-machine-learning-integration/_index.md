@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aspose.Words for Java का उपयोग करके स्मार्ट दस्तावेज़ प्रोसेसिंग के लिए
   AI को कैसे एकीकृत करें, सीखें। AI दस्तावेज़ स्वचालन, सामग्री निर्माण और अनुवाद की
   खोज करें।
-language: hi
 title: AI को Aspose.Words for Java के साथ कैसे एकीकृत करें – AI और ML
-url: /java/ai-machine-learning-integration/
+url: /hi/java/ai-machine-learning-integration/
 weight: 20
 ---
 

@@ -4,11 +4,10 @@ description: Μάθετε πώς να αλλάζετε τα περιγράμμα
   πίνακες χρησιμοποιώντας το Aspose.Words for Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει
   τον καθορισμό περιγραμμάτων, την εφαρμογή του στυλ πρώτης στήλης, την αυτόματη προσαρμογή
   του περιεχομένου του πίνακα και την εφαρμογή στυλ πινάκων.
-language: el
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Πώς να αλλάξετε τα περιγράμματα των κελιών σε πίνακες – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /el/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

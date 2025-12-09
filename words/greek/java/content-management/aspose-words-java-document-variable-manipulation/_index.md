@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: el
 title: Δημιουργία προτύπου τιμολογίου με το Aspose.Words για Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /el/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

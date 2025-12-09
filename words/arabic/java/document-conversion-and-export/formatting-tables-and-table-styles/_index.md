@@ -3,11 +3,10 @@ date: 2025-11-28
 description: تعلم كيفية تغيير حدود الخلايا وتنسيق الجداول باستخدام Aspose.Words للغة
   Java. يغطي هذا الدليل خطوة بخطوة تعيين الحدود، وتطبيق نمط العمود الأول، وضبط محتوى
   الجدول تلقائيًا، وتطبيق أنماط الجداول.
-language: ar
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: كيفية تغيير حدود الخلايا في الجداول – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /ar/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

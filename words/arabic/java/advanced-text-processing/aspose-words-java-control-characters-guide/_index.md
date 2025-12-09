@@ -12,9 +12,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: ar
 title: إدراج أحرف التحكم في جافا باستخدام Aspose.Words
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /ar/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

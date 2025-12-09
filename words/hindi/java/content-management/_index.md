@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Aspose Words ट्यूटोरियल को जावा डेवलपर्स के लिए, जो कंटेंट मैनेजमेंट
   पर केंद्रित है, एक्सप्लोर करें। वर्ड दस्तावेज़ों को संशोधित करना, कस्टम वर्ड टेम्पलेट
   बनाना, और दस्तावेज़ फ़ॉर्मेटिंग को स्वचालित करना सीखें।
-language: hi
 title: Aspose Words ट्यूटोरियल – जावा सामग्री प्रबंधन
-url: /java/content-management/
+url: /hi/java/content-management/
 weight: 3
 ---
 

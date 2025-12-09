@@ -3,11 +3,10 @@ date: 2025-11-28
 description: Naučte se, jak měnit okraje buněk a formátovat tabulky pomocí Aspose.Words
   pro Javu. Tento krok‑za‑krokem průvodce zahrnuje nastavení okrajů, použití stylu
   první sloupce, automatické přizpůsobení obsahu tabulky a aplikaci stylů tabulky.
-language: cs
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Jak změnit okraje buněk v tabulkách – Aspose.Words pro Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /cs/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

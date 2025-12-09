@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Изучите, как создавать PDF‑документы, объединять файлы Word, добавлять
   водяные знаки, извлекать текст, защищать документы и выполнять слияние писем с помощью
   учебных материалов Aspose.Words для Java.
-language: ru
 linktitle: Aspose.Words for Java Tutorials
 title: Как создавать PDF‑документы с помощью Aspose.Words для Java | API обработки
   документов
-url: /java/
+url: /ru/java/
 weight: 11
 ---
 

@@ -6,9 +6,8 @@ keywords:
 - Document initialization in Java
 - Customize page backgrounds with Java
 - Import nodes between documents using Java
-language: zh
 title: 使用 Aspose.Words for Java 设置页面背景颜色 – 指南
-url: /java/content-management/aspose-words-java-document-manipulation-guide/
+url: /zh/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
 

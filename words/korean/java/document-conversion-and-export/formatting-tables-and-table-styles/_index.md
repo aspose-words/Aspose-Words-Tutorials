@@ -2,11 +2,10 @@
 date: 2025-11-28
 description: Aspose.Words for Java를 사용하여 셀 테두리를 변경하고 표를 서식 지정하는 방법을 배웁니다. 이 단계별 가이드는
   테두리 설정, 첫 번째 열 스타일 적용, 표 내용 자동 맞춤, 그리고 표 스타일 적용을 다룹니다.
-language: ko
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: 테이블에서 셀 테두리 변경 방법 – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /ko/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

@@ -1,9 +1,8 @@
 ---
 date: 2025-11-27
 description: 學習如何使用 Aspose.Words for Java 實作變更追蹤並比較 Word 文件。掌握版本控制與修訂追蹤。
-language: zh-hant
 title: 在 Aspose.Words for Java 中實作變更追蹤
-url: /java/document-comparison-tracking/
+url: /zh-hant/java/document-comparison-tracking/
 weight: 13
 ---
 

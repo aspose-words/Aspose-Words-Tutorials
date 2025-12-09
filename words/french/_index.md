@@ -6,10 +6,9 @@ description: Explore les tutoriels visuels Aspose.Words avec des exemples pas à
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: fr
 limit: null
 title: 'Tutoriels visuels Aspose.Words : guides .NET, Java et Python'
-url: /
+url: /fr/
 weight: 10
 ---
 

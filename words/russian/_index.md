@@ -6,10 +6,9 @@ description: Изучайте визуальные учебные материа
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: ru
 limit: null
 title: 'Визуальные учебники Aspose.Words: Руководства по .NET, Java и Python'
-url: /
+url: /ru/
 weight: 10
 ---
 

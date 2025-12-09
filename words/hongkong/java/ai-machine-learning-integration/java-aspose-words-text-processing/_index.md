@@ -10,9 +10,8 @@ keywords:
 - aspose.words maven integration
 - openai gpt-4 summarization java
 - google gemini translation java
-language: zh-hant
 title: Java 文本摘要與翻譯（使用 Aspose.Words 與 AI）
-url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+url: /zh-hant/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 

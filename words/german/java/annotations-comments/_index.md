@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Erfahren Sie, wie Sie Kommentare verwalten, Anmerkungen hinzufügen, Kommentare
   einfügen, Word‑Kommentare löschen und Kommentare als erledigt markieren in Word‑Dokumenten
   mit Aspose.Words für Java. Schritt‑für‑Schritt‑Anleitung mit Praxisbeispielen.
-language: de
 title: Wie man Kommentare und Anmerkungen mit Aspose.Words für Java verwaltet
-url: /java/annotations-comments/
+url: /de/java/annotations-comments/
 weight: 11
 ---
 

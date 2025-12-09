@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Aprenda a implementar el seguimiento de cambios y comparar documentos
   de Word usando Aspose.Words para Java. Domine el control de versiones y el seguimiento
   de revisiones.
-language: es
 title: Implementar el seguimiento de cambios en Aspose.Words para Java
-url: /java/document-comparison-tracking/
+url: /es/java/document-comparison-tracking/
 weight: 13
 ---
 

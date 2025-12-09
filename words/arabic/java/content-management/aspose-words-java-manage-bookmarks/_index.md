@@ -8,10 +8,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: ar
 title: إضافة إشارات مرجعية في Word باستخدام Aspose.Words for Java – إدراج، تحديث،
   حذف
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /ar/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

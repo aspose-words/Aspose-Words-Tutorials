@@ -1,9 +1,8 @@
 ---
 date: 2025-11-25
 description: Aspose.Words for Java を使用して、Word 文書でコメントの管理、注釈の追加、コメントの挿入、コメントの削除、コメント完了のマーク付け方法を学びます。実際の例を交えたステップバイステップのガイドです。
-language: ja
 title: Aspose.Words for Javaでコメントと注釈を管理する方法
-url: /java/annotations-comments/
+url: /ja/java/annotations-comments/
 weight: 11
 ---
 

@@ -7,9 +7,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: zh-hant
 title: 使用 Aspose.Words for Java 為 Word 添加書籤 – 插入、更新、刪除
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /zh-hant/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

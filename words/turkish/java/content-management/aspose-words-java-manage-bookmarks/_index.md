@@ -8,9 +8,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: tr
 title: Aspose.Words for Java ile Word'e Yer İmleri Ekle – Ekle, Güncelle, Sil
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /tr/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

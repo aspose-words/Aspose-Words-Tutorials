@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Naučte se, jak spravovat komentáře, přidávat anotace, vkládat komentáře,
   mazat komentáře ve Wordu a označovat komentář jako dokončený v dokumentech Word
   pomocí Aspose.Words pro Javu. Krok za krokem průvodce s reálnými příklady.
-language: cs
 title: Jak spravovat komentáře a anotace pomocí Aspose.Words pro Javu
-url: /java/annotations-comments/
+url: /cs/java/annotations-comments/
 weight: 11
 ---
 

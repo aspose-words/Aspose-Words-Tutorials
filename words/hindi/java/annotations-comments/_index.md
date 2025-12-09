@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aspose.Words for Java का उपयोग करके Word दस्तावेज़ों में टिप्पणियों को
   प्रबंधित करना, एनोटेशन जोड़ना, टिप्पणी डालना, शब्द टिप्पणियों को हटाना और टिप्पणी
   को पूरा चिह्नित करना सीखें। वास्तविक उदाहरणों के साथ चरण‑दर‑चरण मार्गदर्शिका।
-language: hi
 title: Aspose.Words for Java के साथ टिप्पणियों और एनोटेशनों का प्रबंधन कैसे करें
-url: /java/annotations-comments/
+url: /hi/java/annotations-comments/
 weight: 11
 ---
 

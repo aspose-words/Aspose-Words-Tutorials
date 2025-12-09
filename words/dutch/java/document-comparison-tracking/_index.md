@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Leer hoe u wijzigingsbijhouden implementeert en Word‑documenten vergelijkt
   met Aspose.Words voor Java. Beheers versiebeheer en revisietracering.
-language: nl
 title: Implementeer wijzigingsbijhouden in Aspose.Words voor Java
-url: /java/document-comparison-tracking/
+url: /nl/java/document-comparison-tracking/
 weight: 13
 ---
 

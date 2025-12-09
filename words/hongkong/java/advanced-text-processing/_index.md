@@ -1,9 +1,8 @@
 ---
 date: 2025-11-25
 description: 學習如何使用 Aspose.Words for Java 自動化文件產生，內容包括插入控制字元、搜尋取代文字以及管理文件版面配置技巧。
-language: zh-hant
 title: 使用 Aspose.Words for Java 自動化文件產生
-url: /java/advanced-text-processing/
+url: /zh-hant/java/advanced-text-processing/
 weight: 12
 ---
 

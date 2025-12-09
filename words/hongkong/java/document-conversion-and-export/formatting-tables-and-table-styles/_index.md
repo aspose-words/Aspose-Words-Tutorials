@@ -1,11 +1,10 @@
 ---
 date: 2025-11-28
 description: 了解如何使用 Aspose.Words for Java 更改儲存格邊框與格式化表格。本分步指南涵蓋設定邊框、套用首欄樣式、自動調整表格內容以及套用表格樣式。
-language: zh-hant
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: 如何在表格中更改儲存格邊框 – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /zh-hant/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

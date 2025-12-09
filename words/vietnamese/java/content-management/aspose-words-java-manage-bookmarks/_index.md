@@ -8,9 +8,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: vi
 title: Thêm Đánh Dấu Word với Aspose.Words cho Java – Chèn, Cập nhật, Xóa
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /vi/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

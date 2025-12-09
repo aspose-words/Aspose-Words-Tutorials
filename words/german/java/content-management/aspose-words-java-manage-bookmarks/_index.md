@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: de
 title: Lesezeichen in Word mit Aspose.Words für Java hinzufügen – Einfügen, Aktualisieren,
   Löschen
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /de/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

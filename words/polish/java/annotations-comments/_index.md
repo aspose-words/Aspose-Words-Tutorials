@@ -4,9 +4,8 @@ description: Dowiedz się, jak zarządzać komentarzami, dodawać adnotacje, wst
   komentarze, usuwać komentarze w programie Word oraz oznaczać komentarze jako zakończone
   w dokumentach Word przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z
   przykładami z rzeczywistego świata.
-language: pl
 title: Jak zarządzać komentarzami i adnotacjami w Aspose.Words dla Javy
-url: /java/annotations-comments/
+url: /pl/java/annotations-comments/
 weight: 11
 ---
 

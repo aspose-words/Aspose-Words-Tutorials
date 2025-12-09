@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Ismerje meg, hogyan automatizálhatja a dokumentumgenerálást az Aspose.Words
   for Java segítségével, beleértve a vezérlőkarakterek beszúrását, a szöveg keresését
   és cseréjét, valamint a dokumentumelrendezési technikák kezelését.
-language: hu
 title: Dokumentumgenerálás automatizálása az Aspose.Words for Java segítségével
-url: /java/advanced-text-processing/
+url: /hu/java/advanced-text-processing/
 weight: 12
 ---
 

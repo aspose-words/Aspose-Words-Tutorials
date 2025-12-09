@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Μάθετε πώς να αυτοματοποιείτε τη δημιουργία εγγράφων με το Aspose.Words
   for Java, καλύπτοντας την εισαγωγή χαρακτήρων ελέγχου, την αναζήτηση και αντικατάσταση
   κειμένου, καθώς και τη διαχείριση τεχνικών διάταξης εγγράφου.
-language: el
 title: Αυτοματοποιήστε τη δημιουργία εγγράφων με το Aspose.Words για Java
-url: /java/advanced-text-processing/
+url: /el/java/advanced-text-processing/
 weight: 12
 ---
 

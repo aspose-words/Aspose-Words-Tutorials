@@ -10,9 +10,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: zh
 title: 在 Java 中使用 Aspose.Words 插入控制字符
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /zh/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

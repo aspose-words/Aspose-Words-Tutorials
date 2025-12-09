@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Изучите, как интегрировать ИИ для интеллектуальной обработки документов
   с помощью Aspose.Words для Java. Откройте для себя автоматизацию документов с ИИ,
   генерацию контента и перевод.
-language: ru
 title: Как интегрировать ИИ с Aspose.Words для Java – ИИ и МО
-url: /java/ai-machine-learning-integration/
+url: /ru/java/ai-machine-learning-integration/
 weight: 20
 ---
 

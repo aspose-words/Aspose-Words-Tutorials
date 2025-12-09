@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Узнайте, как автоматизировать создание документов с помощью Aspose.Words
   для Java, включая вставку управляющих символов, поиск и замену текста, а также управление
   макетом документа.
-language: ru
 title: Автоматизируйте создание документов с Aspose.Words для Java
-url: /java/advanced-text-processing/
+url: /ru/java/advanced-text-processing/
 weight: 12
 ---
 

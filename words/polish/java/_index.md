@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Dowiedz się, jak tworzyć dokumenty PDF, scalać pliki Word, dodawać znaki
   wodne, wyodrębniać tekst, chronić dokumenty i wykonywać korespondencję seryjną przy
   użyciu samouczków Aspose.Words for Java.
-language: pl
 linktitle: Aspose.Words for Java Tutorials
 title: Jak tworzyć dokumenty PDF przy użyciu Aspose.Words dla Javy | API przetwarzania
   dokumentów
-url: /java/
+url: /pl/java/
 weight: 11
 ---
 

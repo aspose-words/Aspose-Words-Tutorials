@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: el
 title: Προσθήκη Σελιδοδεικτών Word με το Aspose.Words για Java – Εισαγωγή, Ενημέρωση,
   Διαγραφή
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /el/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Tanulja meg, hogyan integrálhatja a mesterséges intelligenciát az intelligens
   dokumentumfeldolgozáshoz az Aspose.Words for Java segítségével. Fedezze fel az AI
   dokumentumautomatizálást, a tartalomgenerálást és a fordítást.
-language: hu
 title: Hogyan integráljuk az AI-t az Aspose.Words for Java-val – AI és ML
-url: /java/ai-machine-learning-integration/
+url: /hu/java/ai-machine-learning-integration/
 weight: 20
 ---
 

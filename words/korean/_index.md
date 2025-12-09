@@ -5,10 +5,9 @@ description: Aspose.Words 시각 튜토리얼을 .NET, Java, C++, Python용 단�
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: ko
 limit: null
 title: 'Aspose.Words 시각 튜토리얼: .NET, Java 및 Python 가이드'
-url: /
+url: /ko/
 weight: 10
 ---
 

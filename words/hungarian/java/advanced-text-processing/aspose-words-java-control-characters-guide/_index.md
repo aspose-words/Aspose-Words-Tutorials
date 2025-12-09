@@ -13,9 +13,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: hu
 title: Vezérlőkarakterek beszúrása Java-ban az Aspose.Words segítségével
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /hu/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

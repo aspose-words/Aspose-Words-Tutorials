@@ -10,9 +10,8 @@ keywords:
 - aspose.words maven integration
 - openai gpt-4 summarization java
 - google gemini translation java
-language: zh
 title: 使用 Aspose.Words 与 AI 的 Java 文本摘要与翻译
-url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+url: /zh/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 

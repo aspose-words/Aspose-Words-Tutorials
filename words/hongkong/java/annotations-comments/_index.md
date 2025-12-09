@@ -1,9 +1,8 @@
 ---
 date: 2025-11-25
 description: 學習如何在 Word 文件中使用 Aspose.Words for Java 管理批註、加入註解、插入批註、刪除文字批註以及標記批註為完成。一步一步的指南，附有實務範例。
-language: zh-hant
 title: 如何使用 Aspose.Words for Java 管理評論與註釋
-url: /java/annotations-comments/
+url: /zh-hant/java/annotations-comments/
 weight: 11
 ---
 

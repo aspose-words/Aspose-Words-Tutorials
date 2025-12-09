@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Verken de Aspose Words‑tutorial voor Java‑ontwikkelaars gericht op contentbeheer.
   Leer Word‑documenten aanpassen, aangepaste Word‑sjablonen maken en documentopmaak
   automatiseren.
-language: nl
 title: Aspose Words-handleiding – Java Contentbeheer
-url: /java/content-management/
+url: /nl/java/content-management/
 weight: 3
 ---
 

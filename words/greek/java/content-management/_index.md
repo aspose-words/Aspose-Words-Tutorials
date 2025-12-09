@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Εξερευνήστε το σεμινάριο Aspose Words για προγραμματιστές Java με έμφαση
   στη διαχείριση περιεχομένου. Μάθετε πώς να τροποποιείτε έγγραφα Word, να δημιουργείτε
   προσαρμοσμένα πρότυπα Word και να αυτοματοποιείτε τη μορφοποίηση εγγράφων.
-language: el
 title: Οδηγός Aspose Words – Διαχείριση Περιεχομένου Java
-url: /java/content-management/
+url: /el/java/content-management/
 weight: 3
 ---
 

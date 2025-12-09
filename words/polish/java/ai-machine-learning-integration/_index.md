@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Dowiedz się, jak zintegrować sztuczną inteligencję z inteligentnym przetwarzaniem
   dokumentów przy użyciu Aspose.Words dla Javy. Odkryj automatyzację dokumentów z
   AI, generowanie treści i tłumaczenie.
-language: pl
 title: Jak zintegrować AI z Aspose.Words dla Javy – AI i ML
-url: /java/ai-machine-learning-integration/
+url: /pl/java/ai-machine-learning-integration/
 weight: 20
 ---
 

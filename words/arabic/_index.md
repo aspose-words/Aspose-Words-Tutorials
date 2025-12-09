@@ -5,10 +5,9 @@ description: استكشف دروس Aspose.Words المرئية مع أمثلة �
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: ar
 limit: null
 title: 'دروس Aspose.Words المرئية: أدلة .NET، Java و Python'
-url: /
+url: /ar/
 weight: 10
 ---
 

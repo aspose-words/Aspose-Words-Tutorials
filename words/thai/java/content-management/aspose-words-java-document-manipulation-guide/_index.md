@@ -7,9 +7,8 @@ keywords:
 - Document initialization in Java
 - Customize page backgrounds with Java
 - Import nodes between documents using Java
-language: th
 title: ตั้งค่าสีพื้นหลังของหน้าโดยใช้ Aspose.Words for Java – คู่มือ
-url: /java/content-management/aspose-words-java-document-manipulation-guide/
+url: /th/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
 

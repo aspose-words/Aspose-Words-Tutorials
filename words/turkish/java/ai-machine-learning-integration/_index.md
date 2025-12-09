@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Aspose.Words for Java kullanarak akıllı belge işleme için AI entegrasyonunu
   öğrenin. AI belge otomasyonu, içerik üretimi ve çevirisini keşfedin.
-language: tr
 title: AI'yi Aspose.Words for Java ile Nasıl Entegre Edebilirsiniz – AI ve ML
-url: /java/ai-machine-learning-integration/
+url: /tr/java/ai-machine-learning-integration/
 weight: 20
 ---
 

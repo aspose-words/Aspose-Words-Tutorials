@@ -3,11 +3,10 @@ date: 2025-11-28
 description: Lär dig hur du ändrar cellramar och formaterar tabeller med Aspose.Words
   för Java. Denna steg‑för‑steg‑guide täcker att sätta ramar, tillämpa stil för första
   kolumnen, automatiskt anpassa tabellens innehåll och använda tabellstilar.
-language: sv
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Hur man ändrar cellramar i tabeller – Aspose.Words för Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /sv/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

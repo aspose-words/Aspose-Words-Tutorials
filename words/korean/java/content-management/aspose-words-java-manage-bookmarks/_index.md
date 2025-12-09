@@ -7,9 +7,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: ko
 title: Aspose.Words for Java를 사용한 Word에 북마크 추가 – 삽입, 업데이트, 삭제
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /ko/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

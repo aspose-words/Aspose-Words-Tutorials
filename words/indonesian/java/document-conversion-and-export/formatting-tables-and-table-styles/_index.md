@@ -3,11 +3,10 @@ date: 2025-11-28
 description: Pelajari cara mengubah batas sel dan memformat tabel menggunakan Aspose.Words
   untuk Java. Panduan langkah demi langkah ini mencakup pengaturan batas, penerapan
   gaya kolom pertama, penyesuaian otomatis isi tabel, dan penerapan gaya tabel.
-language: id
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Cara Mengubah Garis Sel dalam Tabel – Aspose.Words untuk Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /id/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

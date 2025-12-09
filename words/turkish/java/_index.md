@@ -3,10 +3,9 @@ date: 2025-11-26
 description: Aspose.Words for Java eğitimleriyle PDF belgeleri oluşturmayı, Word dosyalarını
   birleştirmeyi, filigran eklemeyi, metin çıkarmayı, belgeleri korumayı ve posta birleştirme
   yapmayı öğrenin.
-language: tr
 linktitle: Aspose.Words for Java Tutorials
 title: Aspose.Words for Java ile PDF Belgeleri Nasıl Oluşturulur | Belge İşleme API'si
-url: /java/
+url: /tr/java/
 weight: 11
 ---
 

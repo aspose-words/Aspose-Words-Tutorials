@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Jelajahi tutorial Aspose Words untuk pengembang Java yang berfokus pada
   manajemen konten. Pelajari cara memodifikasi dokumen Word, membuat templat Word
   khusus, dan mengotomatisasi pemformatan dokumen.
-language: id
 title: Tutorial Aspose Words – Manajemen Konten Java
-url: /java/content-management/
+url: /id/java/content-management/
 weight: 3
 ---
 

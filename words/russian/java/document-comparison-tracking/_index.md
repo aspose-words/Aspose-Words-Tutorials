@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Изучите, как реализовать отслеживание изменений и сравнение документов
   Word с помощью Aspose.Words для Java. Овладейте контролем версий и отслеживанием
   правок.
-language: ru
 title: Реализовать отслеживание изменений в Aspose.Words для Java
-url: /java/document-comparison-tracking/
+url: /ru/java/document-comparison-tracking/
 weight: 13
 ---
 

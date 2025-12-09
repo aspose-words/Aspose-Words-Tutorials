@@ -3,11 +3,10 @@ date: 2025-11-26
 description: تعلم كيفية إنشاء مستندات PDF، دمج ملفات Word، إضافة العلامات المائية،
   استخراج النص، حماية المستندات، وإجراء دمج المراسلات باستخدام دروس Aspose.Words للغة
   Java.
-language: ar
 linktitle: Aspose.Words for Java Tutorials
 title: كيفية إنشاء مستندات PDF باستخدام Aspose.Words للغة Java | واجهة برمجة تطبيقات
   معالجة المستندات
-url: /java/
+url: /ar/java/
 weight: 11
 ---
 

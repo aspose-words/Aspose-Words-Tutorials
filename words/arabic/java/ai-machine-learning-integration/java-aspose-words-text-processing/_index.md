@@ -11,9 +11,8 @@ keywords:
 - aspose.words maven integration
 - openai gpt-4 summarization java
 - google gemini translation java
-language: ar
 title: تلخيص النصوص والترجمة في جافا باستخدام Aspose.Words والذكاء الاصطناعي
-url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+url: /ar/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 

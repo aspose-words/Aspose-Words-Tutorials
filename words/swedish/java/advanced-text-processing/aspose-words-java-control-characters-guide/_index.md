@@ -12,9 +12,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: sv
 title: Infoga kontrolltecken i Java med Aspose.Words
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /sv/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: hu
 title: Könyvjelzők hozzáadása a Word-hez az Aspose.Words for Java segítségével – Beszúrás,
   frissítés, törlés
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /hu/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

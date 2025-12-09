@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Tìm hiểu cách tích hợp AI để xử lý tài liệu thông minh bằng Aspose.Words
   cho Java. Khám phá tự động hoá tài liệu AI, tạo nội dung và dịch thuật.
-language: vi
 title: Cách tích hợp AI với Aspose.Words cho Java – AI & ML
-url: /java/ai-machine-learning-integration/
+url: /vi/java/ai-machine-learning-integration/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Aprenda a crear documentos PDF, combinar archivos Word, agregar marcas
   de agua, extraer texto, proteger documentos y realizar combinación de correspondencia
   con los tutoriales de Aspose.Words para Java.
-language: es
 linktitle: Aspose.Words for Java Tutorials
 title: Cómo crear documentos PDF con Aspose.Words para Java | API de procesamiento
   de documentos
-url: /java/
+url: /es/java/
 weight: 11
 ---
 

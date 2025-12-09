@@ -3,10 +3,9 @@ date: 2025-11-25
 description: Μάθετε πώς να ενσωματώσετε την τεχνητή νοημοσύνη για έξυπνη επεξεργασία
   εγγράφων χρησιμοποιώντας το Aspose.Words for Java. Ανακαλύψτε την αυτοματοποίηση
   εγγράφων με AI, τη δημιουργία περιεχομένου και τη μετάφραση.
-language: el
 title: Πώς να ενσωματώσετε την τεχνητή νοημοσύνη με το Aspose.Words για Java – AI
   & ML
-url: /java/ai-machine-learning-integration/
+url: /el/java/ai-machine-learning-integration/
 weight: 20
 ---
 

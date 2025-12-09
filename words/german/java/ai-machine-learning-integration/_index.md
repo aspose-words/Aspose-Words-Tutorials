@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Erfahren Sie, wie Sie KI für die intelligente Dokumentenverarbeitung
   mit Aspose.Words für Java integrieren. Entdecken Sie KI‑gestützte Dokumentenautomatisierung,
   Inhaltserstellung und Übersetzung.
-language: de
 title: Wie man KI mit Aspose.Words für Java integriert – KI & ML
-url: /java/ai-machine-learning-integration/
+url: /de/java/ai-machine-learning-integration/
 weight: 20
 ---
 

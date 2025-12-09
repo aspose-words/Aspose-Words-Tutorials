@@ -4,11 +4,10 @@ description: Узнайте, как изменять границы ячеек �
   Aspose.Words для Java. Это пошаговое руководство охватывает настройку границ, применение
   стиля первой колонки, автоматическую подгонку содержимого таблицы и применение стилей
   таблиц.
-language: ru
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Как изменить границы ячеек в таблицах – Aspose.Words для Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /ru/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

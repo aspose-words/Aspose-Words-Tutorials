@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Lär dig hur du implementerar ändringsspårning och jämför Word‑dokument
   med Aspose.Words för Java. Bemästra versionskontroll och revisionsspårning.
-language: sv
 title: Implementera spårning av ändringar i Aspose.Words för Java
-url: /java/document-comparison-tracking/
+url: /sv/java/document-comparison-tracking/
 weight: 13
 ---
 

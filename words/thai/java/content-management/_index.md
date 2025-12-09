@@ -2,9 +2,8 @@
 date: 2025-11-26
 description: สำรวจบทแนะนำ Aspose Words สำหรับนักพัฒนา Java ที่มุ่งเน้นการจัดการเนื้อหา
   เรียนรู้การแก้ไขเอกสาร Word สร้างเทมเพลต Word แบบกำหนดเอง และอัตโนมัติการจัดรูปแบบเอกสาร
-language: th
 title: บทเรียน Aspose Words – การจัดการเนื้อหา Java
-url: /java/content-management/
+url: /th/java/content-management/
 weight: 3
 ---
 

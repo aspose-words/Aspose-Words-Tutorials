@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: de
 title: Rechnungsvorlage erstellen mit Aspose.Words für Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /de/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: sv
 title: Skapa fakturamall med Aspose.Words för Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /sv/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

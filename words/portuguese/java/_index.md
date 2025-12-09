@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Aprenda como criar documentos PDF, mesclar arquivos Word, adicionar marcas
   d'água, extrair texto, proteger documentos e realizar mala direta usando tutoriais
   do Aspose.Words para Java.
-language: pt
 linktitle: Aspose.Words for Java Tutorials
 title: Como criar documentos PDF com Aspose.Words para Java | API de Processamento
   de Documentos
-url: /java/
+url: /pt/java/
 weight: 11
 ---
 

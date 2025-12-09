@@ -2,9 +2,8 @@
 date: 2025-11-26
 description: 콘텐츠 관리에 초점을 맞춘 Java 개발자를 위한 Aspose Words 튜토리얼을 탐색하세요. Word 문서를 수정하고,
   맞춤형 Word 템플릿을 만들며, 문서 서식을 자동화하는 방법을 배우세요.
-language: ko
 title: Aspose Words 튜토리얼 – Java 콘텐츠 관리
-url: /java/content-management/
+url: /ko/java/content-management/
 weight: 3
 ---
 

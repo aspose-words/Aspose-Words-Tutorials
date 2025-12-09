@@ -2,10 +2,9 @@
 date: 2025-11-26
 description: เรียนรู้วิธีสร้างเอกสาร PDF, รวมไฟล์ Word, เพิ่มลายน้ำ, ดึงข้อความ, ปกป้องเอกสาร
   และทำการรวมจดหมายโดยใช้บทเรียน Aspose.Words สำหรับ Java
-language: th
 linktitle: Aspose.Words for Java Tutorials
 title: วิธีสร้างเอกสาร PDF ด้วย Aspose.Words สำหรับ Java | API การประมวลผลเอกสาร
-url: /java/
+url: /th/java/
 weight: 11
 ---
 

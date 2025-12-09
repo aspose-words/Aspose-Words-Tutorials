@@ -4,9 +4,8 @@ description: Tudja meg, hogyan kezelheti a megjegyzéseket, adhat hozzá annotá
   szúrhat be megjegyzést, törölheti a Word megjegyzéseket, és jelölheti a megjegyzést
   késznek a Word dokumentumokban az Aspose.Words for Java használatával. Lépésről
   lépésre útmutató valós példákkal.
-language: hu
 title: Hogyan kezeljünk megjegyzéseket és annotációkat az Aspose.Words for Java-val
-url: /java/annotations-comments/
+url: /hu/java/annotations-comments/
 weight: 11
 ---
 

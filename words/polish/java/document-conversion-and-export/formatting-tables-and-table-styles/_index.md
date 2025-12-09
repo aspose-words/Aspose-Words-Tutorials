@@ -4,11 +4,10 @@ description: Naucz się zmieniać obramowania komórek i formatować tabele przy
   Aspose.Words dla Javy. Ten przewodnik krok po kroku obejmuje ustawianie obramowań,
   stosowanie stylu pierwszej kolumny, automatyczne dopasowywanie zawartości tabeli
   oraz stosowanie stylów tabel.
-language: pl
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Jak zmienić obramowanie komórek w tabelach – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /pl/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

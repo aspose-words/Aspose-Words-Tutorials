@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: hi
 title: Aspose.Words for Java के साथ इनवॉइस टेम्पलेट बनाएं
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /hi/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

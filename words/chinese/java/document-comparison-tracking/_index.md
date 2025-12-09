@@ -1,9 +1,8 @@
 ---
 date: 2025-11-27
 description: 学习如何使用 Aspose.Words for Java 实现更改跟踪并比较 Word 文档。掌握版本控制和修订跟踪。
-language: zh
 title: 在 Aspose.Words for Java 中实现更改跟踪
-url: /java/document-comparison-tracking/
+url: /zh/java/document-comparison-tracking/
 weight: 13
 ---
 

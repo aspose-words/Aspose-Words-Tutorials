@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Naučte se, jak integrovat AI pro inteligentní zpracování dokumentů pomocí
   Aspose.Words pro Java. Objevte automatizaci dokumentů pomocí AI, generování obsahu
   a překlad.
-language: cs
 title: Jak integrovat AI s Aspose.Words pro Javu – AI a ML
-url: /java/ai-machine-learning-integration/
+url: /cs/java/ai-machine-learning-integration/
 weight: 20
 ---
 

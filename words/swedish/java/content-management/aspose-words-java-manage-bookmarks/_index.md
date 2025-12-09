@@ -8,10 +8,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: sv
 title: Lägg till bokmärken i Word med Aspose.Words för Java – Infoga, uppdatera, ta
   bort
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /sv/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Aspose.Words for Java kullanarak değişiklik izlemeyi nasıl uygulayacağınızı
   ve Word belgelerini nasıl karşılaştıracağınızı öğrenin. Sürüm kontrolü ve revizyon
   takibini ustalaşın.
-language: tr
 title: Aspose.Words for Java'da Değişiklik İzlemeyi Uygula
-url: /java/document-comparison-tracking/
+url: /tr/java/document-comparison-tracking/
 weight: 13
 ---
 

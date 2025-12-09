@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Μάθετε πώς να δημιουργείτε έγγραφα PDF, να συγχωνεύετε αρχεία Word, να
   προσθέτετε υδατογραφήματα, να εξάγετε κείμενο, να προστατεύετε έγγραφα και να πραγματοποιείτε
   συγχώνευση αλληλογραφίας χρησιμοποιώντας τα μαθήματα Aspose.Words για Java.
-language: el
 linktitle: Aspose.Words for Java Tutorials
 title: Πώς να δημιουργήσετε έγγραφα PDF με το Aspose.Words for Java | API επεξεργασίας
   εγγράφων
-url: /java/
+url: /el/java/
 weight: 11
 ---
 

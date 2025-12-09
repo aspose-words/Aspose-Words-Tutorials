@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Leer hoe u documentgeneratie kunt automatiseren met Aspose.Words voor
   Java, inclusief het invoegen van controletekens, zoeken en vervangen van tekst,
   en het beheren van documentlay-outtechnieken.
-language: nl
 title: Automatiseer documentgeneratie met Aspose.Words voor Java
-url: /java/advanced-text-processing/
+url: /nl/java/advanced-text-processing/
 weight: 12
 ---
 

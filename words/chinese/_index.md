@@ -5,10 +5,9 @@ description: 探索 Aspose.Words 的可视化教程，提供针对 .NET、Java�
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: zh
 limit: null
 title: Aspose.Words 可视化教程：.NET、Java 与 Python 指南
-url: /
+url: /zh/
 weight: 10
 ---
 

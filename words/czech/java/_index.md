@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Naučte se, jak vytvářet PDF dokumenty, slučovat soubory Word, přidávat
   vodoznaky, extrahovat text, chránit dokumenty a provádět hromadnou korespondenci
   pomocí tutoriálů Aspose.Words pro Javu.
-language: cs
 linktitle: Aspose.Words for Java Tutorials
 title: Jak vytvořit PDF dokumenty pomocí Aspose.Words pro Javu | API pro zpracování
   dokumentů
-url: /java/
+url: /cs/java/
 weight: 11
 ---
 

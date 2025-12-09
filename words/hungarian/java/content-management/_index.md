@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Fedezze fel az Aspose Words oktatóanyagot Java fejlesztőknek, amely a
   tartalomkezelésre összpontosít. Tanulja meg a Word dokumentumok módosítását, egyedi
   Word sablonok létrehozását, és a dokumentumformázás automatizálását.
-language: hu
 title: Aspose Words útmutató – Java tartalomkezelés
-url: /java/content-management/
+url: /hu/java/content-management/
 weight: 3
 ---
 

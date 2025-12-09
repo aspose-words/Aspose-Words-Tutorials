@@ -6,10 +6,9 @@ description: Utforska Aspose.Words visuella handledningar med steg‑för‑steg
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: sv
 limit: null
 title: 'Aspose.Words visuella handledningar: .NET-, Java- och Python-guider'
-url: /
+url: /sv/
 weight: 10
 ---
 

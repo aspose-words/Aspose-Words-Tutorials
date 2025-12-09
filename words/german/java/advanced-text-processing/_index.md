@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Erfahren Sie, wie Sie die Dokumentenerstellung mit Aspose.Words für Java
   automatisieren, einschließlich Einfügen von Steuerzeichen, Suchen‑Ersetzen von Text
   und Verwalten von Dokumentlayout‑Techniken.
-language: de
 title: Dokumentenerstellung mit Aspose.Words für Java automatisieren
-url: /java/advanced-text-processing/
+url: /de/java/advanced-text-processing/
 weight: 12
 ---
 

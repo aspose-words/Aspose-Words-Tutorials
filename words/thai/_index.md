@@ -5,10 +5,9 @@ description: สำรวจบทเรียนเชิงภาพของ 
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: th
 limit: null
 title: 'บทเรียนภาพ Aspose.Words: คู่มือ .NET, Java และ Python'
-url: /
+url: /th/
 weight: 10
 ---
 

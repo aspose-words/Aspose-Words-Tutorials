@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Lär dig hur du automatiserar dokumentgenerering med Aspose.Words för
   Java, inklusive att infoga kontrolltecken, söka och ersätta text samt hantera dokumentlayouttekniker.
-language: sv
 title: Automatisera dokumentgenerering med Aspose.Words för Java
-url: /java/advanced-text-processing/
+url: /sv/java/advanced-text-processing/
 weight: 12
 ---
 

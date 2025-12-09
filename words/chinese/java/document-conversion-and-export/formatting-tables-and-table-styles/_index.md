@@ -1,11 +1,10 @@
 ---
 date: 2025-11-28
 description: 了解如何使用 Aspose.Words for Java 更改单元格边框并格式化表格。本分步指南涵盖设置边框、应用首列样式、自动适应表格内容以及应用表格样式。
-language: zh
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: 如何在表格中更改单元格边框 – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /zh/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

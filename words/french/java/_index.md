@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Apprenez à créer des documents PDF, à fusionner des fichiers Word, à
   ajouter des filigranes, à extraire du texte, à protéger les documents et à effectuer
   une fusion de courrier à l'aide des tutoriels Aspose.Words pour Java.
-language: fr
 linktitle: Aspose.Words for Java Tutorials
 title: Comment créer des documents PDF avec Aspose.Words pour Java | API de traitement
   de documents
-url: /java/
+url: /fr/java/
 weight: 11
 ---
 

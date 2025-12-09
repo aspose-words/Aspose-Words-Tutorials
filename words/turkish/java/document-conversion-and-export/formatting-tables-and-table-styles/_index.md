@@ -4,11 +4,10 @@ description: Aspose.Words for Java kullanarak hücre kenarlıklarını nasıl de
   ve tabloları nasıl biçimlendireceğinizi öğrenin. Bu adım adım kılavuz, kenarlık
   ayarlamayı, ilk sütun stilini uygulamayı, tablo içeriğini otomatik sığdırmayı ve
   tablo stillerini uygulamayı kapsar.
-language: tr
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Tablolarda Hücre Kenarlıklarını Değiştirme – Aspose.Words for Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /tr/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

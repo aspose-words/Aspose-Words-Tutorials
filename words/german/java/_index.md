@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Erfahren Sie, wie Sie PDF‑Dokumente erstellen, Word‑Dateien zusammenführen,
   Wasserzeichen hinzufügen, Text extrahieren, Dokumente schützen und Seriendruck mit
   den Aspose.Words‑for‑Java‑Tutorials durchführen.
-language: de
 linktitle: Aspose.Words for Java Tutorials
 title: Wie man PDF-Dokumente mit Aspose.Words für Java erstellt | Document Processing
   API
-url: /java/
+url: /de/java/
 weight: 11
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Изучите учебник Aspose Words для Java‑разработчиков, посвящённый управлению
   контентом. Научитесь изменять документы Word, создавать пользовательские шаблоны
   Word и автоматизировать форматирование документов.
-language: ru
 title: Учебник Aspose Words – Управление контентом на Java
-url: /java/content-management/
+url: /ru/java/content-management/
 weight: 3
 ---
 

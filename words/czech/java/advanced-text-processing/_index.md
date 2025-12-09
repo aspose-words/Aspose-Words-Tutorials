@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Naučte se, jak automatizovat generování dokumentů pomocí Aspose.Words
   pro Javu, včetně vkládání řídicích znaků, vyhledávání a nahrazování textu a správy
   technik rozvržení dokumentu.
-language: cs
 title: Automatizujte generování dokumentů pomocí Aspose.Words pro Javu
-url: /java/advanced-text-processing/
+url: /cs/java/advanced-text-processing/
 weight: 12
 ---
 

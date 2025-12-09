@@ -4,12 +4,11 @@ description: Ismerje meg, hogyan változtathatja meg a cellák szegélyeit és f
   a táblázatokat az Aspose.Words for Java segítségével. Ez a lépésről‑lépésre útmutató
   lefedi a szegélyek beállítását, az első oszlop stílusának alkalmazását, a táblázat
   tartalmának automatikus méretezését, valamint a táblázat stílusainak alkalmazását.
-language: hu
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Hogyan változtassuk meg a cellaszegélyeket táblázatokban – Aspose.Words for
   Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /hu/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

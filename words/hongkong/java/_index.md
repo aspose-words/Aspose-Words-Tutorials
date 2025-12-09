@@ -1,10 +1,9 @@
 ---
 date: 2025-11-26
 description: 學習如何使用 Aspose.Words for Java 教學來建立 PDF 文件、合併 Word 檔案、加入浮水印、提取文字、保護文件以及執行郵件合併。
-language: zh-hant
 linktitle: Aspose.Words for Java Tutorials
 title: 如何使用 Aspose.Words for Java 建立 PDF 文件 | 文件處理 API
-url: /java/
+url: /zh-hant/java/
 weight: 11
 ---
 

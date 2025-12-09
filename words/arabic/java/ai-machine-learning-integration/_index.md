@@ -2,10 +2,9 @@
 date: 2025-11-25
 description: تعلم كيفية دمج الذكاء الاصطناعي لمعالجة المستندات الذكية باستخدام Aspose.Words
   for Java. اكتشف أتمتة المستندات بالذكاء الاصطناعي، وتوليد المحتوى، والترجمة.
-language: ar
 title: كيفية دمج الذكاء الاصطناعي مع Aspose.Words لـ Java – الذكاء الاصطناعي وتعلم
   الآلة
-url: /java/ai-machine-learning-integration/
+url: /ar/java/ai-machine-learning-integration/
 weight: 20
 ---
 

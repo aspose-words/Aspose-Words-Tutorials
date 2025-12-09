@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Aspose.Words for Java ट्यूटोरियल्स का उपयोग करके PDF दस्तावेज़ बनाना,
   Word फ़ाइलें मिलाना, वॉटरमार्क जोड़ना, टेक्स्ट निकालना, दस्तावेज़ सुरक्षित करना,
   और मेल मर्ज करना सीखें।
-language: hi
 linktitle: Aspose.Words for Java Tutorials
 title: Aspose.Words for Java के साथ PDF दस्तावेज़ कैसे बनाएं | दस्तावेज़ प्रोसेसिंग
   API
-url: /java/
+url: /hi/java/
 weight: 11
 ---
 

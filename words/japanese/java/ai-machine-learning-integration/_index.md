@@ -1,9 +1,8 @@
 ---
 date: 2025-11-25
 description: Aspose.Words for Java を使用して、スマートな文書処理のために AI を統合する方法を学びましょう。AI 文書自動化、コンテンツ生成、翻訳をご体験ください。
-language: ja
 title: Aspose.Words for Java と AI を統合する方法 – AI と機械学習
-url: /java/ai-machine-learning-integration/
+url: /ja/java/ai-machine-learning-integration/
 weight: 20
 ---
 

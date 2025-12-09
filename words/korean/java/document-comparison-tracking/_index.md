@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Aspose.Words for Java를 사용하여 변경 추적을 구현하고 Word 문서를 비교하는 방법을 배우세요. 버전 관리와
   수정 추적을 마스터하세요.
-language: ko
 title: Aspose.Words for Java에서 변경 추적 구현
-url: /java/document-comparison-tracking/
+url: /ko/java/document-comparison-tracking/
 weight: 13
 ---
 

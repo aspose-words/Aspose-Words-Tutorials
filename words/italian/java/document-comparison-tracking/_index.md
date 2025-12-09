@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Scopri come implementare il tracciamento delle modifiche e confrontare
   i documenti Word utilizzando Aspose.Words per Java. Padroneggia il controllo delle
   versioni e il tracciamento delle revisioni.
-language: it
 title: Implementare il tracciamento delle modifiche in Aspose.Words per Java
-url: /java/document-comparison-tracking/
+url: /it/java/document-comparison-tracking/
 weight: 13
 ---
 

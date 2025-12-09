@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Erfahren Sie, wie Sie die Änderungsverfolgung implementieren und Word‑Dokumente
   mit Aspose.Words für Java vergleichen. Beherrschen Sie Versionskontrolle und Revisionsverfolgung.
-language: de
 title: Implementieren Sie die Änderungsverfolgung in Aspose.Words für Java
-url: /java/document-comparison-tracking/
+url: /de/java/document-comparison-tracking/
 weight: 13
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Tìm hiểu cách tự động tạo tài liệu với Aspose.Words cho Java, bao gồm
   chèn ký tự điều khiển, tìm và thay thế văn bản, và quản lý các kỹ thuật bố cục tài
   liệu.
-language: vi
 title: Tự động tạo tài liệu với Aspose.Words cho Java
-url: /java/advanced-text-processing/
+url: /vi/java/advanced-text-processing/
 weight: 12
 ---
 

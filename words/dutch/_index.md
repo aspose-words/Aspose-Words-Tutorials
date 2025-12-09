@@ -6,10 +6,9 @@ description: Ontdek de visuele tutorials van Aspose.Words met stapsgewijze voorb
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: nl
 limit: null
 title: 'Aspose.Words Visuele Tutorials: .NET, Java en Python Gidsen'
-url: /
+url: /nl/
 weight: 10
 ---
 

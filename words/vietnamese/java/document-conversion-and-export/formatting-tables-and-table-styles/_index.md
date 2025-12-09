@@ -3,11 +3,10 @@ date: 2025-11-28
 description: Tìm hiểu cách thay đổi viền ô và định dạng bảng bằng Aspose.Words cho
   Java. Hướng dẫn từng bước này bao gồm việc thiết lập viền, áp dụng kiểu cột đầu
   tiên, tự động điều chỉnh nội dung bảng và áp dụng các kiểu bảng.
-language: vi
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Cách thay đổi viền ô trong bảng – Aspose.Words cho Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /vi/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

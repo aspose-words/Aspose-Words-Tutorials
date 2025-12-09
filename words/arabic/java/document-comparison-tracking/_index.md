@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: تعلم كيفية تنفيذ تتبع التغييرات ومقارنة مستندات Word باستخدام Aspose.Words
   للغة Java. إتقان التحكم في الإصدارات وتتبع المراجعات.
-language: ar
 title: تنفيذ تتبع التغييرات في Aspose.Words لجافا
-url: /java/document-comparison-tracking/
+url: /ar/java/document-comparison-tracking/
 weight: 13
 ---
 

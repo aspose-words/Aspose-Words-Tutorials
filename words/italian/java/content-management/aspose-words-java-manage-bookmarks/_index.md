@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: it
 title: Aggiungere segnalibri Word con Aspose.Words per Java – Inserire, Aggiornare,
   Eliminare
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /it/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

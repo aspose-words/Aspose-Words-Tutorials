@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Aspose.Words for Java का उपयोग करके परिवर्तन ट्रैकिंग को लागू करना और
   Word दस्तावेज़ों की तुलना करना सीखें। संस्करण नियंत्रण और संशोधन ट्रैकिंग में निपुण
   बनें।
-language: hi
 title: Aspose.Words for Java में परिवर्तन ट्रैकिंग लागू करें
-url: /java/document-comparison-tracking/
+url: /hi/java/document-comparison-tracking/
 weight: 13
 ---
 

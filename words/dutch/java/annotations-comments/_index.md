@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Leer hoe u opmerkingen beheert, annotaties toevoegt, opmerkingen invoegt,
   Word‑opmerkingen verwijdert en opmerkingen als voltooid markeert in Word‑documenten
   met Aspose.Words voor Java. Stapsgewijze handleiding met praktijkvoorbeelden.
-language: nl
 title: Hoe opmerkingen en annotaties te beheren met Aspose.Words voor Java
-url: /java/annotations-comments/
+url: /nl/java/annotations-comments/
 weight: 11
 ---
 

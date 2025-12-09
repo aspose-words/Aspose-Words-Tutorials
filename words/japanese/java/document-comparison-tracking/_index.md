@@ -1,9 +1,8 @@
 ---
 date: 2025-11-27
 description: Aspose.Words for Java を使用して変更履歴の実装と Word 文書の比較方法を学び、バージョン管理とリビジョン追跡をマスターしましょう。
-language: ja
 title: Aspose.Words for Javaで変更追跡を実装する
-url: /java/document-comparison-tracking/
+url: /ja/java/document-comparison-tracking/
 weight: 13
 ---
 

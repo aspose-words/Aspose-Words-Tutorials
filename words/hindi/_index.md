@@ -6,10 +6,9 @@ description: Aspose.Words के दृश्य ट्यूटोरियल�
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: hi
 limit: null
 title: 'Aspose.Words विज़ुअल ट्यूटोरियल्स: .NET, जावा और पाइथन गाइड्स'
-url: /
+url: /hi/
 weight: 10
 ---
 

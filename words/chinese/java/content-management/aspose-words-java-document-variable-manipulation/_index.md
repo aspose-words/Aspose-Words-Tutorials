@@ -7,9 +7,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: zh
 title: 使用 Aspose.Words for Java 创建发票模板
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /zh/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

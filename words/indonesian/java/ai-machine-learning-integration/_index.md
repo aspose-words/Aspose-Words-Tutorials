@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Pelajari cara mengintegrasikan AI untuk pemrosesan dokumen cerdas menggunakan
   Aspose.Words untuk Java. Temukan otomatisasi dokumen AI, pembuatan konten, dan terjemahan.
-language: id
 title: Cara Mengintegrasikan AI dengan Aspose.Words untuk Java – AI & ML
-url: /java/ai-machine-learning-integration/
+url: /id/java/ai-machine-learning-integration/
 weight: 20
 ---
 

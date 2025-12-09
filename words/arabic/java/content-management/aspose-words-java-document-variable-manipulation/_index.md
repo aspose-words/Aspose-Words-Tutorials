@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: ar
 title: إنشاء قالب فاتورة باستخدام Aspose.Words للـ Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /ar/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

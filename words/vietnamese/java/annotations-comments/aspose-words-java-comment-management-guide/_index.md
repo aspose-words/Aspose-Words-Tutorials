@@ -7,9 +7,8 @@ keywords:
 - Aspose.Words Java
 - comment management in Word documents
 - managing comments with Aspose.Words
-language: vi
 title: Cách Thêm Bình luận trong Java bằng Aspose.Words
-url: /java/annotations-comments/aspose-words-java-comment-management-guide/
+url: /vi/java/annotations-comments/aspose-words-java-comment-management-guide/
 weight: 1
 ---
 

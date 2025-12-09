@@ -3,10 +3,9 @@ date: 2025-11-26
 description: Lär dig hur du skapar PDF‑dokument, slår ihop Word‑filer, lägger till
   vattenstämplar, extraherar text, skyddar dokument och utför kopplad utskrift med
   Aspose.Words för Java‑handledningarna.
-language: sv
 linktitle: Aspose.Words for Java Tutorials
 title: Hur man skapar PDF‑dokument med Aspose.Words för Java | Dokumentbehandlings‑API
-url: /java/
+url: /sv/java/
 weight: 11
 ---
 

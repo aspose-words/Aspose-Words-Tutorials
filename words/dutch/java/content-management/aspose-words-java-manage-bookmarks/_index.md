@@ -8,10 +8,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: nl
 title: Bladwijzers toevoegen aan Word met Aspose.Words voor Java – Invoegen, bijwerken,
   verwijderen
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /nl/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

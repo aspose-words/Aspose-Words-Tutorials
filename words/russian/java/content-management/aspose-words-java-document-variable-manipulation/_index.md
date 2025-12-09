@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: ru
 title: Создать шаблон счета с Aspose.Words для Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /ru/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

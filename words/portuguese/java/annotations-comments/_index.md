@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aprenda a gerenciar comentários, adicionar anotações, inserir comentários,
   excluir comentários de palavras e marcar comentários como concluídos em documentos
   do Word usando Aspose.Words para Java. Guia passo a passo com exemplos práticos.
-language: pt
 title: Como Gerenciar Comentários e Anotações com Aspose.Words para Java
-url: /java/annotations-comments/
+url: /pt/java/annotations-comments/
 weight: 11
 ---
 

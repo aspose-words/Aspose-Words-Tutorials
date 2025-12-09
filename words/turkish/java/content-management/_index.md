@@ -3,9 +3,8 @@ date: 2025-11-26
 description: İçerik yönetimine odaklanan Java geliştiricileri için Aspose Words öğreticisini
   keşfedin. Word belgelerini düzenlemeyi, özel Word şablonları oluşturmayı ve belge
   biçimlendirmeyi otomatikleştirmeyi öğrenin.
-language: tr
 title: Aspose Words Eğitimi – Java İçerik Yönetimi
-url: /java/content-management/
+url: /tr/java/content-management/
 weight: 3
 ---
 

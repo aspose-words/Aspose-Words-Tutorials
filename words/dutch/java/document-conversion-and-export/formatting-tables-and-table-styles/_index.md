@@ -4,11 +4,10 @@ description: Leer hoe u celranden kunt wijzigen en tabellen kunt opmaken met Asp
   for Java. Deze stapsgewijze gids behandelt het instellen van randen, het toepassen
   van de eerste kolomstijl, het automatisch aanpassen van tabelinhoud en het toepassen
   van tabelstijlen.
-language: nl
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Hoe celranden in tabellen te wijzigen – Aspose.Words voor Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /nl/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

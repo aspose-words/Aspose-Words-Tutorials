@@ -8,9 +8,8 @@ keywords:
 - Document initialization in Java
 - Customize page backgrounds with Java
 - Import nodes between documents using Java
-language: sv
 title: Ställ in sidans bakgrundsfärg med Aspose.Words för Java – Guide
-url: /java/content-management/aspose-words-java-document-manipulation-guide/
+url: /sv/java/content-management/aspose-words-java-document-manipulation-guide/
 weight: 1
 ---
 

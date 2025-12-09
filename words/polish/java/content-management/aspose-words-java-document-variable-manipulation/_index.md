@@ -9,9 +9,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: pl
 title: Utwórz szablon faktury przy użyciu Aspose.Words dla Javy
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /pl/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

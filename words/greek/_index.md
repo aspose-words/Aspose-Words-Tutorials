@@ -6,10 +6,9 @@ description: Εξερευνήστε τα οπτικά μαθήματα του As
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: el
 limit: null
 title: 'Οπτικά Μαθήματα Aspose.Words: Οδηγοί .NET, Java & Python'
-url: /
+url: /el/
 weight: 10
 ---
 

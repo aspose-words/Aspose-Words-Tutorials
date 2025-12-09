@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie Zellrahmen ändern und Tabellen mit Aspose.Wo
   für Java formatieren. Diese Schritt‑für‑Schritt‑Anleitung behandelt das Festlegen
   von Rahmen, das Anwenden des Stils für die erste Spalte, das automatische Anpassen
   des Tabelleninhalts und das Anwenden von Tabellenstilen.
-language: de
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: Wie man Zellrahmen in Tabellen ändert – Aspose.Words für Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /de/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

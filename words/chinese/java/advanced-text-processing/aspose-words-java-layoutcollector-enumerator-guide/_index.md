@@ -12,9 +12,8 @@ keywords:
 - document pagination Java
 - Aspose.Words layout API
 - Java text processing
-language: zh
 title: Aspose.Words Java：LayoutCollector 与 LayoutEnumerator 指南
-url: /java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+url: /zh/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
 

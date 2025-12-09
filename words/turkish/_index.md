@@ -6,10 +6,9 @@ description: Aspose.Words görsel öğreticilerini .NET, Java, C++ ve Python iç
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: tr
 limit: null
 title: 'Aspose.Words Görsel Eğitimleri: .NET, Java ve Python Kılavuzları'
-url: /
+url: /tr/
 weight: 10
 ---
 

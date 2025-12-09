@@ -1,9 +1,8 @@
 ---
 date: 2025-11-26
 description: 探索針對內容管理的 Java 開發人員的 Aspose Words 教程。學習修改 Word 文件、建立自訂 Word 範本，並自動化文件格式設定。
-language: zh-hant
 title: Aspose Words 教學 – Java 內容管理
-url: /java/content-management/
+url: /zh-hant/java/content-management/
 weight: 3
 ---
 

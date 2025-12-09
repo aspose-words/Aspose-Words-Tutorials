@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: hi
 title: Aspose.Words for Java के साथ Word में बुकमार्क जोड़ें – सम्मिलित करें, अपडेट
   करें, हटाएँ
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /hi/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-11-26
 description: استكشف دليل Aspose Words للمطورين بلغة Java الذي يركز على إدارة المحتوى.
   تعلم تعديل مستندات Word، وإنشاء قوالب Word مخصصة، وأتمتة تنسيق المستندات.
-language: ar
 title: دليل Aspose Words – إدارة محتوى جافا
-url: /java/content-management/
+url: /ar/java/content-management/
 weight: 3
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Prozkoumejte tutoriál Aspose Words pro vývojáře Java zaměřený na správu
   obsahu. Naučte se upravovat dokumenty Word, vytvářet vlastní šablony Word a automatizovat
   formátování dokumentů.
-language: cs
 title: Aspose Words tutoriál – Správa obsahu v Javě
-url: /java/content-management/
+url: /cs/java/content-management/
 weight: 3
 ---
 

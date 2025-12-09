@@ -3,9 +3,8 @@ date: 2025-11-27
 description: Tanulja meg, hogyan valósíthatja meg a változáskövetést és hasonlíthatja
   össze a Word-dokumentumokat az Aspose.Words for Java segítségével. Szerezzen mesteri
   tudást a verziókezelésben és a revíziókövetésben.
-language: hu
 title: Változáskövetés implementálása az Aspose.Words for Java-ban
-url: /java/document-comparison-tracking/
+url: /hu/java/document-comparison-tracking/
 weight: 13
 ---
 

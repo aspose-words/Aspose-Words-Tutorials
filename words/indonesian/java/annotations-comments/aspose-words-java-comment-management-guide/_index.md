@@ -7,9 +7,8 @@ keywords:
 - Aspose.Words Java
 - comment management in Word documents
 - managing comments with Aspose.Words
-language: id
 title: Cara Menambahkan Komentar Java dengan Aspose.Words
-url: /java/annotations-comments/aspose-words-java-comment-management-guide/
+url: /id/java/annotations-comments/aspose-words-java-comment-management-guide/
 weight: 1
 ---
 

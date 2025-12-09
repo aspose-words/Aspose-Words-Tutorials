@@ -2,10 +2,9 @@
 date: 2025-11-26
 description: Aspose.Words for Java のチュートリアルを使用して、PDF ドキュメントの作成、Word ファイルの結合、透かしの追加、テキストの抽出、ドキュメントの保護、メール
   マージの実行方法を学びましょう。
-language: ja
 linktitle: Aspose.Words for Java Tutorials
 title: Aspose.Words for Java を使用して PDF ドキュメントを作成する方法 | ドキュメント処理 API
-url: /java/
+url: /ja/java/
 weight: 11
 ---
 

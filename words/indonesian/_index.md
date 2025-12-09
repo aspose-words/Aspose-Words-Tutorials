@@ -6,10 +6,9 @@ description: Jelajahi tutorial visual Aspose.Words dengan contoh langkah demi la
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: id
 limit: null
 title: 'Tutorial Visual Aspose.Words: Panduan .NET, Java & Python'
-url: /
+url: /id/
 weight: 10
 ---
 

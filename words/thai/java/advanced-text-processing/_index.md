@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: เรียนรู้วิธีการทำอัตโนมัติการสร้างเอกสารด้วย Aspose.Words for Java รวมถึงการแทรกอักขระควบคุม
   การค้นหาและแทนที่ข้อความ และการจัดการเทคนิคการจัดวางเอกสาร.
-language: th
 title: อัตโนมัติการสร้างเอกสารด้วย Aspose.Words สำหรับ Java
-url: /java/advanced-text-processing/
+url: /th/java/advanced-text-processing/
 weight: 12
 ---
 

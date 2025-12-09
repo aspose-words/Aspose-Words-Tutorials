@@ -3,9 +3,8 @@ date: 2025-11-26
 description: Utforska Aspose Words-handledningen för Java‑utvecklare med fokus på
   innehållshantering. Lär dig att ändra Word‑dokument, skapa anpassade Word‑mallar
   och automatisera dokumentformatering.
-language: sv
 title: Aspose Words-handledning – Java-innehållshantering
-url: /java/content-management/
+url: /sv/java/content-management/
 weight: 3
 ---
 

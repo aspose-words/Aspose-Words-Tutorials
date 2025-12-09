@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aspose.Words for Java के साथ दस्तावेज़ निर्माण को स्वचालित करना सीखें,
   जिसमें नियंत्रण अक्षर सम्मिलित करना, खोज और प्रतिस्थापन पाठ, और दस्तावेज़ लेआउट
   तकनीकों का प्रबंधन शामिल है।
-language: hi
 title: Aspose.Words for Java के साथ दस्तावेज़ निर्माण को स्वचालित करें
-url: /java/advanced-text-processing/
+url: /hi/java/advanced-text-processing/
 weight: 12
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: เรียนรู้วิธีการใช้งานการติดตามการเปลี่ยนแปลงและเปรียบเทียบเอกสาร Word
   ด้วย Aspose.Words for Java. เชี่ยวชาญการควบคุมเวอร์ชันและการติดตามการแก้ไข.
-language: th
 title: ดำเนินการติดตามการเปลี่ยนแปลงใน Aspose.Words สำหรับ Java
-url: /java/document-comparison-tracking/
+url: /th/java/document-comparison-tracking/
 weight: 13
 ---
 

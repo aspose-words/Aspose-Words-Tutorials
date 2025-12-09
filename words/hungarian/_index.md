@@ -6,10 +6,9 @@ description: Fedezze fel az Aspose.Words vizuális oktatóanyagainak lépésről
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: hu
 limit: null
 title: 'Aspose.Words vizuális oktatóanyagok: .NET, Java és Python útmutatók'
-url: /
+url: /hu/
 weight: 10
 ---
 

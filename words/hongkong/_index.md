@@ -5,10 +5,9 @@ description: 探索 Aspose.Words 視覺教學，提供 .NET、Java、C++ 與 Pyt
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: zh-hant
 limit: null
 title: Aspose.Words 視覺教學：.NET、Java 與 Python 指南
-url: /
+url: /zh-hant/
 weight: 10
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: تعلم كيفية أتمتة إنشاء المستندات باستخدام Aspose.Words للغة Java، مع
   تغطية إدراج أحرف التحكم، والبحث واستبدال النص، وإدارة تقنيات تخطيط المستند.
-language: ar
 title: أتمتة إنشاء المستندات باستخدام Aspose.Words للغة Java
-url: /java/advanced-text-processing/
+url: /ar/java/advanced-text-processing/
 weight: 12
 ---
 

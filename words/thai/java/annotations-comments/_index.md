@@ -3,9 +3,8 @@ date: 2025-11-25
 description: เรียนรู้วิธีจัดการความคิดเห็น, เพิ่มคำอธิบาย, แทรกความคิดเห็น, ลบความคิดเห็นใน
   Word, และทำเครื่องหมายว่าความคิดเห็นเสร็จสิ้นในเอกสาร Word ด้วย Aspose.Words for
   Java. คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างจากโลกจริง.
-language: th
 title: วิธีจัดการความคิดเห็นและคำอธิบายประกอบด้วย Aspose.Words สำหรับ Java
-url: /java/annotations-comments/
+url: /th/java/annotations-comments/
 weight: 11
 ---
 

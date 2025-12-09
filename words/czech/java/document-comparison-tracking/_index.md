@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Naučte se, jak implementovat sledování změn a porovnávat dokumenty Word
   pomocí Aspose.Words pro Javu. Ovládněte správu verzí a sledování revizí.
-language: cs
 title: Implementovat sledování změn v Aspose.Words pro Java
-url: /java/document-comparison-tracking/
+url: /cs/java/document-comparison-tracking/
 weight: 13
 ---
 

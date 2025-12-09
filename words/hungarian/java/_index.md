@@ -3,11 +3,10 @@ date: 2025-11-26
 description: Tanulja meg, hogyan hozhat létre PDF-dokumentumokat, egyesíthet Word-fájlokat,
   adhat hozzá vízjeleket, nyerhet ki szöveget, védheti a dokumentumokat, és végezhet
   levélkörbe illesztést az Aspose.Words for Java oktatóanyagaival.
-language: hu
 linktitle: Aspose.Words for Java Tutorials
 title: Hogyan hozzunk létre PDF dokumentumokat az Aspose.Words for Java segítségével
   | Dokumentumfeldolgozó API
-url: /java/
+url: /hu/java/
 weight: 11
 ---
 

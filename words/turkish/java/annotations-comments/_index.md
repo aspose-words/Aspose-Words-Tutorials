@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Aspose.Words for Java kullanarak Word belgelerinde yorumları yönetmeyi,
   ek açıklama eklemeyi, yorum eklemeyi, kelime yorumlarını silmeyi ve yorumları tamamlandı
   olarak işaretlemeyi öğrenin. Gerçek dünya örnekleriyle adım adım rehber.
-language: tr
 title: Aspose.Words for Java ile Yorumları ve Açıklamaları Nasıl Yönetilir
-url: /java/annotations-comments/
+url: /tr/java/annotations-comments/
 weight: 11
 ---
 

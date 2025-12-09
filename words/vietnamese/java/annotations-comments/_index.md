@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Học cách quản lý bình luận, thêm chú thích, chèn bình luận, xóa bình
   luận trong Word và đánh dấu bình luận đã hoàn thành trong tài liệu Word bằng Aspose.Words
   cho Java. Hướng dẫn từng bước với các ví dụ thực tế.
-language: vi
 title: Cách quản lý bình luận và chú thích với Aspose.Words cho Java
-url: /java/annotations-comments/
+url: /vi/java/annotations-comments/
 weight: 11
 ---
 

@@ -6,10 +6,9 @@ description: Khám phá các hướng dẫn trực quan của Aspose.Words với
 keywords: create chart in word, insert table in word, add watermark to word, apply
   header footer, format table borders, Aspose.Words tutorials, document automation,
   Word processing
-language: vi
 limit: null
 title: 'Các hướng dẫn trực quan Aspose.Words: .NET, Java & Python'
-url: /
+url: /vi/
 weight: 10
 ---
 

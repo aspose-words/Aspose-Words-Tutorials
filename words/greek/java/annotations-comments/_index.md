@@ -4,9 +4,8 @@ description: Μάθετε πώς να διαχειρίζεστε σχόλια, �
   σχόλιο, να διαγράφετε σχόλια Word και να σημειώνετε το σχόλιο ως ολοκληρωμένο σε
   έγγραφα Word χρησιμοποιώντας το Aspose.Words for Java. Οδηγός βήμα‑προς‑βήμα με
   παραδείγματα από την πραγματική ζωή.
-language: el
 title: Πώς να διαχειριστείτε σχόλια & σημειώσεις με το Aspose.Words για Java
-url: /java/annotations-comments/
+url: /el/java/annotations-comments/
 weight: 11
 ---
 

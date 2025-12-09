@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Dowiedz się, jak wdrożyć śledzenie zmian i porównywać dokumenty Word
   przy użyciu Aspose.Words for Java. Opanuj kontrolę wersji i śledzenie poprawek.
-language: pl
 title: Wdrożenie śledzenia zmian w Aspose.Words dla Javy
-url: /java/document-comparison-tracking/
+url: /pl/java/document-comparison-tracking/
 weight: 13
 ---
 

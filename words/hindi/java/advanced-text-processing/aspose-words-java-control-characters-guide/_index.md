@@ -12,9 +12,8 @@ keywords:
 - insert non breaking space
 - use controlchar tab
 - create multi column layout
-language: hi
 title: Aspose.Words के साथ जावा में नियंत्रण अक्षर सम्मिलित करें
-url: /java/advanced-text-processing/aspose-words-java-control-characters-guide/
+url: /hi/java/advanced-text-processing/aspose-words-java-control-characters-guide/
 weight: 1
 ---
 

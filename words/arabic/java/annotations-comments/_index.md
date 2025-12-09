@@ -3,9 +3,8 @@ date: 2025-11-25
 description: تعلم كيفية إدارة التعليقات، إضافة توضيحات، إدراج تعليق، حذف تعليقات Word،
   وتحديد التعليق كمنتهي في مستندات Word باستخدام Aspose.Words للغة Java. دليل خطوة
   بخطوة مع أمثلة من الواقع.
-language: ar
 title: كيفية إدارة التعليقات والهوامش باستخدام Aspose.Words للجافا
-url: /java/annotations-comments/
+url: /ar/java/annotations-comments/
 weight: 11
 ---
 

@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: ru
 title: Добавление закладок в Word с помощью Aspose.Words для Java – вставка, обновление,
   удаление
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /ru/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Impara a automatizzare la generazione di documenti con Aspose.Words per
   Java, coprendo l'inserimento di caratteri di controllo, la ricerca e sostituzione
   del testo e la gestione delle tecniche di layout del documento.
-language: it
 title: Automatizza la generazione di documenti con Aspose.Words per Java
-url: /java/advanced-text-processing/
+url: /it/java/advanced-text-processing/
 weight: 12
 ---
 

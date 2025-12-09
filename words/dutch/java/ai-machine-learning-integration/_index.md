@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Leer hoe u AI kunt integreren voor slimme documentverwerking met Aspose.Words
   voor Java. Ontdek AI-documentautomatisering, contentgeneratie en vertaling.
-language: nl
 title: Hoe AI te integreren met Aspose.Words voor Java – AI & ML
-url: /java/ai-machine-learning-integration/
+url: /nl/java/ai-machine-learning-integration/
 weight: 20
 ---
 

@@ -2,10 +2,9 @@
 date: 2025-11-26
 description: Aspose.Words for Java 튜토리얼을 사용하여 PDF 문서를 만들고, Word 파일을 병합하고, 워터마크를 추가하고,
   텍스트를 추출하고, 문서를 보호하며, 메일 병합을 수행하는 방법을 배웁니다.
-language: ko
 linktitle: Aspose.Words for Java Tutorials
 title: Aspose.Words for Java를 사용하여 PDF 문서 만들기 | 문서 처리 API
-url: /java/
+url: /ko/java/
 weight: 11
 ---
 

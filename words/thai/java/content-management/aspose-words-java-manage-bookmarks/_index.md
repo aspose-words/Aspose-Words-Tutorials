@@ -8,9 +8,8 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: th
 title: เพิ่มบุ๊กมาร์กใน Word ด้วย Aspose.Words for Java – แทรก, ปรับปรุง, ลบ
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /th/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

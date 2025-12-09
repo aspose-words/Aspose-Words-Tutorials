@@ -8,9 +8,8 @@ keywords:
 - Java document automation
 - create invoice template
 - generate dynamic reports
-language: th
 title: สร้างเทมเพลตใบแจ้งหนี้ด้วย Aspose.Words สำหรับ Java
-url: /java/content-management/aspose-words-java-document-variable-manipulation/
+url: /th/java/content-management/aspose-words-java-document-variable-manipulation/
 weight: 1
 ---
 

@@ -2,9 +2,8 @@
 date: 2025-11-27
 description: Tìm hiểu cách triển khai theo dõi thay đổi và so sánh tài liệu Word bằng
   Aspose.Words cho Java. Thành thạo kiểm soát phiên bản và theo dõi sửa đổi.
-language: vi
 title: Triển khai theo dõi thay đổi trong Aspose.Words cho Java
-url: /java/document-comparison-tracking/
+url: /vi/java/document-comparison-tracking/
 weight: 13
 ---
 

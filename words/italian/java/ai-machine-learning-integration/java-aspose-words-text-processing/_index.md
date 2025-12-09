@@ -12,9 +12,8 @@ keywords:
 - aspose.words maven integration
 - openai gpt-4 summarization java
 - google gemini translation java
-language: it
 title: Sintesi e traduzione del testo Java con Aspose.Words e IA
-url: /java/ai-machine-learning-integration/java-aspose-words-text-processing/
+url: /it/java/ai-machine-learning-integration/java-aspose-words-text-processing/
 weight: 1
 ---
 

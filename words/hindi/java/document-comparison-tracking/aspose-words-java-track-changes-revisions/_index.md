@@ -7,10 +7,9 @@ keywords:
 - track changes
 - document revisions
 - inline revision handling
-language: hi
 title: 'Aspose.Words Java का उपयोग करके Word दस्तावेज़ों में बदलाव ट्रैक करना: दस्तावेज़
   संशोधनों की संपूर्ण मार्गदर्शिका'
-url: /java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+url: /hi/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
 weight: 1
 ---
 

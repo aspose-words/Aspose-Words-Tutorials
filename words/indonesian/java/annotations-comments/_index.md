@@ -3,9 +3,8 @@ date: 2025-11-25
 description: Pelajari cara mengelola komentar, menambahkan anotasi, menyisipkan komentar,
   menghapus komentar kata, dan menandai komentar selesai dalam dokumen Word menggunakan
   Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh dunia nyata.
-language: id
 title: Cara Mengelola Komentar & Anotasi dengan Aspose.Words untuk Java
-url: /java/annotations-comments/
+url: /id/java/annotations-comments/
 weight: 11
 ---
 

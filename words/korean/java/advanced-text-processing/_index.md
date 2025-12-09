@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Aspose.Words for Java를 사용하여 문서 생성을 자동화하는 방법을 배우고, 제어 문자 삽입, 텍스트 검색 및
   교체, 문서 레이아웃 관리 기술을 다룹니다.
-language: ko
 title: Aspose.Words for Java를 사용한 문서 생성 자동화
-url: /java/advanced-text-processing/
+url: /ko/java/advanced-text-processing/
 weight: 12
 ---
 

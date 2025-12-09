@@ -6,9 +6,8 @@ keywords:
 - track changes
 - document revisions
 - inline revision handling
-language: ko
 title: 'Aspose.Words Java를 사용한 Word 문서 변경 추적: 문서 개정에 대한 완전 가이드'
-url: /java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+url: /ko/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
 weight: 1
 ---
 

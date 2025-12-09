@@ -9,10 +9,9 @@ keywords:
 - insert bookmarks
 - manage Word documents
 - add bookmarks word
-language: fr
 title: Ajouter des signets Word avec Aspose.Words pour Java – Insérer, Mettre à jour,
   Supprimer
-url: /java/content-management/aspose-words-java-manage-bookmarks/
+url: /fr/java/content-management/aspose-words-java-manage-bookmarks/
 weight: 1
 ---
 

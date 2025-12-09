@@ -5,9 +5,8 @@ keywords:
 - Aspose.Words Java
 - comment management in Word documents
 - managing comments with Aspose.Words
-language: ja
 title: Aspose.Words を使用した Java でコメントを追加する方法
-url: /java/annotations-comments/aspose-words-java-comment-management-guide/
+url: /ja/java/annotations-comments/aspose-words-java-comment-management-guide/
 weight: 1
 ---
 

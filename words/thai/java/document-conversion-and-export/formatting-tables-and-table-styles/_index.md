@@ -3,11 +3,10 @@ date: 2025-11-28
 description: เรียนรู้วิธีเปลี่ยนเส้นขอบของเซลล์และจัดรูปแบบตารางด้วย Aspose.Words
   for Java คู่มือแบบขั้นตอนนี้ครอบคลุมการตั้งค่าเส้นขอบ การใช้สไตล์คอลัมน์แรก การปรับขนาดอัตโนมัติของเนื้อหาตาราง
   และการใช้สไตล์ตาราง
-language: th
 linktitle: How to Change Cell Borders in Tables – Aspose.Words for Java
 second_title: Aspose.Words Java Document Processing API
 title: วิธีเปลี่ยนเส้นขอบเซลล์ในตาราง – Aspose.Words สำหรับ Java
-url: /java/document-conversion-and-export/formatting-tables-and-table-styles/
+url: /th/java/document-conversion-and-export/formatting-tables-and-table-styles/
 weight: 17
 ---
 

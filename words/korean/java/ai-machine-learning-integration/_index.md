@@ -2,9 +2,8 @@
 date: 2025-11-25
 description: Aspose.Words for Java를 사용하여 AI를 통합한 스마트 문서 처리 방법을 배우세요. AI 문서 자동화, 콘텐츠
   생성 및 번역을 발견하세요.
-language: ko
 title: Java용 Aspose.Words와 AI 통합 방법 – AI 및 ML
-url: /java/ai-machine-learning-integration/
+url: /ko/java/ai-machine-learning-integration/
 weight: 20
 ---
 
