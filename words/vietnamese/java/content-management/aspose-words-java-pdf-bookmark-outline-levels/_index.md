@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách sắp xếp dấu trang hiệu quả trong PDF bằng Aspose.Words for Java. Tăng khả năng đọc và điều hướng với hướng dẫn toàn diện này."
-"title": "Đánh dấu trang chính phác thảo các cấp độ trong PDF bằng cách sử dụng Aspose.Words Java"
-"url": "/vi/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2025-12-10'
+description: Tìm hiểu cách tạo dấu trang lồng nhau và lưu dấu trang PDF từ Word bằng
+  Aspose.Words cho Java, tổ chức việc điều hướng PDF một cách hiệu quả.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Tạo dấu trang lồng nhau trong PDF bằng Aspose.Words Java
+url: /vi/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +17,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Đánh dấu trang chính phác thảo các cấp độ trong PDF bằng cách sử dụng Aspose.Words Java
+# Tạo dấu trang lồng nhau trong PDF với Aspose.Words Java
 
 ## Giới thiệu
-Bạn đang gặp khó khăn trong việc quản lý dấu trang khi chuyển đổi tài liệu Word thành PDF? Hướng dẫn này sẽ chỉ cho bạn cách sử dụng Aspose.Words for Java để sắp xếp dấu trang tài liệu của bạn một cách hiệu quả, giúp chúng trở nên chuyên nghiệp và dễ điều hướng.
+Nếu bạn cần **tạo dấu trang lồng nhau** trong một PDF được tạo từ tài liệu Word, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình sử dụng Aspose.Words cho Java, từ việc thiết lập thư viện đến cấu hình mức độ phác thảo của dấu trang và cuối cùng **lưu dấu trang PDF của Word** để PDF cuối cùng dễ dàng điều hướng.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập và sử dụng Aspose.Words cho Java
-- Tạo dấu trang lồng nhau trong tài liệu Word
-- Cấu hình mức phác thảo dấu trang để tổ chức tốt hơn
-- Lưu tài liệu dưới dạng PDF với dấu trang có cấu trúc
+**Bạn sẽ học gì**
+- Cách thiết lập Aspose.Words cho Java
+- Cách **tạo dấu trang lồng nhau** trong tài liệu Word
+- Cách gán mức độ phác thảo để điều hướng PDF rõ ràng
+- Cách **lưu dấu trang PDF của Word** bằng PdfSaveOptions
 
-Chúng ta hãy cùng xem qua các điều kiện tiên quyết trước khi bắt đầu!
+## Câu trả lời nhanh
+- **Mục tiêu chính là gì?** Tạo dấu trang lồng nhau và lưu dấu trang PDF của Word trong một tệp PDF duy nhất.  
+- **Thư viện nào được yêu cầu?** Aspose.Words cho Java (v25.3 trở lên).  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể kiểm soát mức độ phác thảo không?** Có, bằng cách sử dụng `PdfSaveOptions` và `BookmarksOutlineLevelCollection`.  
+- **Phù hợp với tài liệu lớn không?** Có, với việc quản lý bộ nhớ và tối ưu tài nguyên hợp lý.
 
-### Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện và các phụ thuộc**: Aspose.Words cho Java (phiên bản 25.3 trở lên).
-- **Thiết lập môi trường**: JDK được cài đặt trên máy của bạn cùng với IDE tương thích như IntelliJ IDEA hoặc Eclipse.
-- **Điều kiện tiên quyết về kiến thức**: Hiểu biết cơ bản về lập trình Java và quen thuộc với hệ thống xây dựng Maven hoặc Gradle.
+## “Tạo dấu trang lồng nhau” là gì?
+Tạo dấu trang lồng nhau có nghĩa là đặt một dấu trang bên trong một dấu trang khác, tạo thành cấu trúc phân cấp phản ánh các phần logic của tài liệu. Cấu trúc này được hiển thị trong khung điều hướng của PDF, cho phép người đọc nhảy trực tiếp tới các chương hoặc mục con cụ thể.
 
-## Thiết lập Aspose.Words
-Để bắt đầu, hãy bao gồm các dependency cần thiết trong dự án của bạn. Sau đây là cách bạn có thể thực hiện bằng Maven và Gradle:
+## Tại sao nên dùng Aspose.Words cho Java để lưu dấu trang PDF của Word?
+Aspose.Words cung cấp API cấp cao trừu tượng hoá việc thao tác PDF cấp thấp, cho phép bạn tập trung vào cấu trúc nội dung thay vì chi tiết định dạng tệp. Nó cũng bảo tồn tất cả các tính năng của Word (kiểu dáng, hình ảnh, bảng) đồng thời cho bạn kiểm soát đầy đủ cấu trúc dấu trang.
 
-**Chuyên gia:**
+## Yêu cầu trước
+- **Thư viện**: Aspose.Words cho Java (v25.3+).  
+- **Môi trường phát triển**: JDK 8 trở lên, IDE như IntelliJ IDEA hoặc Eclipse.  
+- **Công cụ xây dựng**: Maven hoặc Gradle (bất kỳ bạn nào thích).  
+- **Kiến thức cơ bản**: Lập trình Java, kiến thức cơ bản về Maven/Gradle.
+
+## Cài đặt Aspose.Words
+Thêm thư viện vào dự án của bạn bằng một trong các đoạn mã sau.
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +59,131 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
-Aspose.Words là một sản phẩm thương mại, nhưng bạn có thể bắt đầu dùng thử miễn phí để khám phá các tính năng của nó. Sau đây là các bước:
-1. **Dùng thử miễn phí**: Tải xuống từ [Trang phát hành của Aspose](https://releases.aspose.com/words/java/) để kiểm tra toàn bộ khả năng.
-2. **Giấy phép tạm thời**Nộp đơn xin cấp giấy phép tạm thời tại [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) nếu cần.
-3. **Mua**: Để sử dụng liên tục, hãy mua giấy phép từ [Cổng mua sắm của Aspose](https://purchase.aspose.com/buy).
+### Cách nhận giấy phép
+Aspose.Words là sản phẩm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí:
+1. **Bản dùng thử** – Tải xuống từ [Aspose's release page](https://releases.aspose.com/words/java/) để kiểm tra đầy đủ tính năng.  
+2. **Giấy phép tạm thời** – Đăng ký tại [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/) nếu bạn cần khóa ngắn hạn.  
+3. **Mua** – Nhận giấy phép vĩnh viễn từ [Aspose’s purchasing portal](https://purchase.aspose.com/buy).
 
-Sau khi có tệp giấy phép, hãy khởi tạo nó trong dự án của bạn để mở khóa đầy đủ các tính năng của Aspose.Words.
+Sau khi có tệp `.lic`, tải nó khi khởi động ứng dụng để mở khóa tất cả tính năng.
 
 ## Hướng dẫn thực hiện
-Chúng ta hãy chia nhỏ quá trình triển khai thành các phần dễ quản lý hơn:
+Dưới đây là hướng dẫn từng bước. Mỗi khối mã được giữ nguyên từ hướng dẫn gốc để bảo toàn chức năng.
 
-### Tạo dấu trang lồng nhau
-**Tổng quan**: Tìm hiểu cách tạo dấu trang lồng nhau trong tài liệu Word bằng Aspose.Words cho Java.
+### Cách tạo dấu trang lồng nhau trong tài liệu Word
 
-#### Bước 1: Khởi tạo Tài liệu và Trình xây dựng
+#### Bước 1: Khởi tạo Document và Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Thao tác này sẽ thiết lập môi trường tài liệu Word nơi bạn có thể bắt đầu chèn nội dung.
+Điều này tạo một tài liệu Word trống và một đối tượng builder để chèn nội dung.
 
-#### Bước 2: Chèn các dấu trang lồng nhau
-Bắt đầu bằng cách tạo dấu trang chính:
+#### Bước 2: Chèn dấu trang đầu tiên (cha)
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Bây giờ, hãy lồng thêm một dấu trang khác vào bên trong:
+
+#### Bước 3: Đặt dấu trang thứ hai bên trong dấu trang đầu tiên
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Kết thúc dấu trang lồng nhau
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Hoàn thành dấu trang bên ngoài:
+
+#### Bước 4: Đóng dấu trang bên ngoài
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Bước 3: Thêm dấu trang bổ sung
-Tiếp tục thêm dấu trang khi cần. Ví dụ, một dấu trang thứ ba riêng biệt:
+#### Bước 5: Thêm dấu trang thứ ba riêng biệt
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Cấu hình mức phác thảo dấu trang
-**Tổng quan**: Sắp xếp các dấu trang của bạn bằng cách thiết lập mức độ phác thảo để điều hướng tốt hơn trong PDF.
+### Cách lưu dấu trang PDF của Word và đặt mức độ phác thảo
 
-#### Bước 1: Thiết lập PdfSaveOptions
+#### Bước 1: Cấu hình PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Đoạn mã này khởi tạo các tùy chọn bạn sẽ sử dụng để lưu tài liệu dưới dạng PDF với các dấu trang được sắp xếp hợp lý.
 
-#### Bước 2: Thêm Mức phác thảo
-Gán các cấp độ cho từng dấu trang, điều này sẽ xác định thứ bậc của chúng:
+#### Bước 2: Gán mức độ phác thảo cho mỗi dấu trang
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Lồng vào dưới Bookmark 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### Bước 3: Lưu tài liệu
-Cuối cùng, hãy lưu tài liệu của bạn dưới dạng PDF với các thiết lập sau:
+#### Bước 3: Lưu tài liệu dưới dạng PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### Mẹo khắc phục sự cố
-- **Thiếu dấu trang**: Đảm bảo mỗi `startBookmark` có một tương ứng `endBookmark`.
-- **Mức độ không chính xác**: Xác minh hệ thống phân cấp bằng cách kiểm tra mối quan hệ cha-con trong mã của bạn.
+## Các vấn đề thường gặp và giải pháp
+- **Thiếu dấu trang** – Kiểm tra rằng mỗi `startBookmark` có một `endBookmark` tương ứng.  
+- **Cấu trúc sai** – Đảm bảo các số mức độ phác thảo phản ánh quan hệ cha‑con mong muốn (số thấp = cấp cao hơn).  
+- **Kích thước tệp lớn** – Loại bỏ các kiểu hoặc hình ảnh không dùng trước khi lưu, hoặc gọi `doc.optimizeResources()` nếu cần.
 
-## Ứng dụng thực tế
-Sau đây là một số tình huống mà bạn có thể áp dụng kiến thức này:
-1. **Văn bản pháp lý**: Sắp xếp các phần và tiểu phần để dễ tham khảo.
-2. **Báo cáo**: Sử dụng dấu trang lồng nhau để điều hướng các cấu trúc dữ liệu phức tạp.
-3. **Tài liệu giáo dục**: Cấu trúc các chương, tiểu chương và các điểm chính một cách hiệu quả.
+## Ứng dụng thực tiễn
+| Kịch bản | Lợi ích của Dấu trang Lồng nhau |
+|----------|---------------------------------|
+| Hợp đồng pháp lý | Nhảy nhanh tới các điều khoản và tiểu điều khoản |
+| Báo cáo kỹ thuật | Dễ dàng điều hướng các phần phức tạp và phụ lục |
+| Tài liệu E‑learning | Truy cập trực tiếp tới các chương, bài học và câu hỏi trắc nghiệm |
 
-## Cân nhắc về hiệu suất
-- Tối ưu hóa kích thước tài liệu bằng cách loại bỏ nội dung không cần thiết trước khi lưu.
-- Quản lý hiệu quả việc sử dụng bộ nhớ khi xử lý các tài liệu lớn.
+## Cân nhắc về hiệu năng
+- **Sử dụng bộ nhớ** – Xử lý tài liệu lớn theo từng phần hoặc sử dụng `DocumentBuilder.insertDocument` để hợp nhất các phần nhỏ.  
+- **Kích thước tệp** – Nén hình ảnh và loại bỏ nội dung ẩn trước khi chuyển đổi sang PDF.
 
-## Phần kết luận
-Bây giờ bạn đã biết cách triển khai hiệu quả các cấp độ phác thảo dấu trang bằng Aspose.Words for Java. Kỹ năng này sẽ cải thiện đáng kể khả năng điều hướng của tệp PDF, giúp chúng thân thiện với người dùng và chuyên nghiệp hơn.
+## Kết luận
+Bây giờ bạn đã biết cách **tạo dấu trang lồng nhau**, cấu hình mức độ phác thảo của chúng, và **lưu dấu trang PDF của Word** bằng Aspose.Words cho Java. Kỹ thuật này cải thiện đáng kể khả năng điều hướng PDF, làm cho tài liệu của bạn chuyên nghiệp và thân thiện hơn với người dùng.
 
-**Các bước tiếp theo**:Thử nghiệm với nhiều cấu trúc tài liệu khác nhau hoặc tích hợp chức năng này vào một ứng dụng lớn hơn để thấy được lợi ích của nó khi sử dụng.
+**Bước tiếp theo**: Thử nghiệm các cấu trúc dấu trang sâu hơn, tích hợp logic này vào quy trình xử lý hàng loạt, hoặc kết hợp với Aspose.PDF để chỉnh sửa dấu trang sau khi tạo.
 
-## Phần Câu hỏi thường gặp
-1. **Làm thế nào để cài đặt Aspose.Words cho Java?**
-   - Bao gồm nó như một phần phụ thuộc thông qua Maven hoặc Gradle, sau đó thiết lập tệp giấy phép của bạn.
-2. **Tôi có thể sử dụng dấu trang mà không cần mức phác thảo không?**
-   - Có, nhưng sử dụng các mức phác thảo sẽ cải thiện khả năng điều hướng trong tệp PDF.
-3. **Giới hạn về việc lồng dấu trang là gì?**
-   - Không có giới hạn nghiêm ngặt, nhưng hãy cân nhắc đến khả năng đọc và cấu trúc cho người dùng.
-4. **Aspose xử lý các tài liệu lớn như thế nào?**
-   - Nó quản lý tài nguyên một cách hiệu quả, mặc dù việc tối ưu hóa được khuyến khích đối với các tệp rất lớn.
-5. **Tôi có thể sửa đổi dấu trang sau khi lưu PDF không?**
-   - Có, sử dụng Aspose.PDF cho Java để chỉnh sửa dấu trang sau khi chuyển đổi.
+## Câu hỏi thường gặp
+**Câu hỏi: Làm thế nào để cài đặt Aspose.Words cho Java?**  
+Trả lời: Thêm phụ thuộc Maven hoặc Gradle như trên, sau đó tải tệp giấy phép của bạn khi chạy.
 
-## Tài nguyên
-- [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/)
-- [Tải xuống bản phát hành mới nhất](https://releases.aspose.com/words/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/words/java/)
-- [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
+**Câu hỏi: Tôi có thể dùng dấu trang mà không đặt mức độ phác thảo không?**  
+Trả lời: Có, nhưng nếu không có mức độ phác thảo, khung điều hướng của PDF sẽ liệt kê tất cả dấu trang ở cùng một cấp, gây nhầm lẫn cho người đọc.
 
+**Câu hỏi: Có giới hạn độ sâu của dấu trang lồng nhau không?**  
+Trả lời: Về mặt kỹ thuật không, nhưng để dễ sử dụng, nên giữ độ sâu hợp lý (3‑4 cấp) để người dùng dễ dàng quét danh sách.
+
+**Câu hỏi: Aspose xử lý tài liệu rất lớn như thế nào?**  
+Trả lời: Thư viện truyền dữ liệu theo luồng và cung cấp `optimizeResources()` để giảm dung lượng bộ nhớ; tuy nhiên, vẫn nên giám sát heap JVM cho các tệp hàng trăm trang.
+
+**Câu hỏi: Tôi có thể chỉnh sửa dấu trang sau khi PDF đã được tạo không?**  
+Trả lời: Có, bạn có thể dùng Aspose.PDF cho Java để chỉnh sửa, thêm hoặc xóa dấu trang trong PDF hiện có.
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
+**Tài nguyên**
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Latest Releases](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
