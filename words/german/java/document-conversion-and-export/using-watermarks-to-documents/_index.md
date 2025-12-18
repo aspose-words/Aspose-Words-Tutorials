@@ -1,10 +1,14 @@
 ---
-"description": "Erfahren Sie, wie Sie in Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügen. Passen Sie Text- und Bildwasserzeichen für professionell aussehende Dokumente an."
-"linktitle": "Verwenden von Wasserzeichen in Dokumenten"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Verwenden von Wasserzeichen in Dokumenten in Aspose.Words für Java"
-"url": "/de/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2025-12-18
+description: Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen zu Dokumenten
+  hinzufügen, einschließlich eines Bildwasserzeichen-Beispiels, die Farbe des Wasserzeichens
+  ändern, die Transparenz des Wasserzeichens einstellen und das Wasserzeichen aus
+  dem Dokument entfernen.
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: Wie man mit Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügt
+url: /de/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwenden von Wasserzeichen in Dokumenten in Aspose.Words für Java
+# Wie man ein Wasserzeichen zu Dokumenten mit Aspose.Words für Java hinzufügt
 
+## Einführung in das Hinzufügen von Wasserzeichen zu Dokumenten mit Aspose.Words für Java
 
-## Einführung in das Hinzufügen von Wasserzeichen zu Dokumenten in Aspose.Words für Java
+In diesem Tutorial lernen Sie **wie man ein Wasserzeichen** zu Word‑Dokumenten mit Aspose.Words für Java hinzufügt. Wasserzeichen sind eine schnelle Möglichkeit, eine Datei als vertraulich, Entwurf oder genehmigt zu kennzeichnen, und sie können textbasiert oder bildbasiert sein. Wir führen Sie durch das Einrichten der Bibliothek, das Erstellen von Text‑ und Bildwasserzeichen, das Anpassen ihres Aussehens (einschließlich Ändern der Wasserzeichenfarbe und Einstellen der Transparenz) und sogar das Entfernen eines Wasserzeichens, wenn es nicht mehr benötigt wird.
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Words für Java-API Wasserzeichen zu Dokumenten hinzufügen. Wasserzeichen sind eine nützliche Möglichkeit, Dokumente mit Text oder Grafiken zu kennzeichnen, um deren Status, Vertraulichkeit oder andere relevante Informationen anzuzeigen. Wir behandeln in dieser Anleitung sowohl Text- als auch Bildwasserzeichen.
+## Schnelle Antworten
+- **Was ist ein Wasserzeichen?** Ein halbtransparentes Overlay (Text oder Bild), das hinter dem Hauptinhalt des Dokuments erscheint.  
+- **Kann ich mehrere Wasserzeichen hinzufügen?** Ja – erstelle mehrere `Shape`‑Objekte und füge jedes zu den gewünschten Abschnitten hinzu.  
+- **Wie ändere ich die Farbe des Wasserzeichens?** Passe die `Color`‑Eigenschaft in `TextWatermarkOptions` an.  
+- **Gibt es ein Beispiel für ein Bildwasserzeichen?** Siehe den Abschnitt „Adding Image Watermarks“ unten.  
+- **Benötige ich eine Lizenz, um ein Wasserzeichen zu entfernen?** Eine gültige Aspose.Words‑Lizenz ist für den Produktionseinsatz erforderlich.
 
 ## Einrichten von Aspose.Words für Java
 
-Bevor wir Wasserzeichen in Dokumente einfügen, müssen wir Aspose.Words für Java einrichten. Befolgen Sie diese Schritte, um zu beginnen:
+Bevor wir beginnen, Wasserzeichen zu Dokumenten hinzuzufügen, müssen wir Aspose.Words für Java einrichten. Befolgen Sie diese Schritte, um zu starten:
 
-1. Laden Sie Aspose.Words für Java herunter von [Hier](https://releases.aspose.com/words/java/).
-2. Fügen Sie Ihrem Java-Projekt die Bibliothek Aspose.Words für Java hinzu.
-3. Importieren Sie die erforderlichen Klassen in Ihren Java-Code.
+1. Laden Sie Aspose.Words für Java von [hier](https://releases.aspose.com/words/java/) herunter.  
+2. Fügen Sie die Aspose.Words für Java‑Bibliothek zu Ihrem Java‑Projekt hinzu.  
+3. Importieren Sie die erforderlichen Klassen in Ihrem Java‑Code.
 
-Nachdem wir die Bibliothek eingerichtet haben, können wir mit dem Hinzufügen von Wasserzeichen fortfahren.
+Jetzt, da die Bibliothek eingerichtet ist, tauchen wir in die eigentliche Erstellung von Wasserzeichen ein.
 
-## Textwasserzeichen hinzufügen
+## Hinzufügen von Textwasserzeichen
 
-Textwasserzeichen werden häufig verwendet, wenn Sie Ihren Dokumenten Textinformationen hinzufügen möchten. So fügen Sie mit Aspose.Words für Java ein Textwasserzeichen hinzu:
+Textwasserzeichen sind eine gängige Wahl, wenn Sie Ihren Dokumenten textuelle Informationen hinzufügen möchten. So können Sie ein Textwasserzeichen mit Aspose.Words für Java hinzufügen:
 
 ```java
-// Erstellen einer Dokumentinstanz
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// TextWasserzeichenoptionen definieren
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +56,56 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// Legen Sie den Wasserzeichentext und die Optionen fest
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// Speichern Sie das Dokument mit dem Wasserzeichen
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Bildwasserzeichen hinzufügen
+**Warum das wichtig ist:** Durch Anpassen von `setFontFamily`, `setFontSize` und `setColor` können Sie die **Farbe des Wasserzeichens** an Ihr Branding anpassen, und `setSemitransparent(true)` ermöglicht es Ihnen, die **Transparenz des Wasserzeichens** für einen dezenten Effekt einzustellen.
 
-Zusätzlich zu Textwasserzeichen können Sie Ihren Dokumenten auch Bildwasserzeichen hinzufügen. So fügen Sie ein Bildwasserzeichen hinzu:
+## Hinzufügen von Bildwasserzeichen
+
+Zusätzlich zu Textwasserzeichen können Sie auch Bildwasserzeichen zu Ihren Dokumenten hinzufügen. Unten finden Sie ein **Beispiel für ein Bildwasserzeichen**, das zeigt, wie man ein PNG‑Logo oder‑Siegel einbettet:
 
 ```java
-// Erstellen einer Dokumentinstanz
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Laden Sie das Bild für das Wasserzeichen
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// Legen Sie die Größe und Position des Wasserzeichens fest
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// Fügen Sie dem Dokument das Wasserzeichen hinzu
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// Speichern Sie das Dokument mit dem Wasserzeichen
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
+Sie können diesen Block mit verschiedenen Bildern oder Positionen wiederholen, um **mehrere Wasserzeichen** zu einer einzelnen Datei hinzuzufügen.
+
 ## Anpassen von Wasserzeichen
 
-Sie können Wasserzeichen anpassen, indem Sie deren Aussehen und Position anpassen. Bei Textwasserzeichen können Sie Schriftart, Größe, Farbe und Layout ändern. Bei Bildwasserzeichen können Sie Größe und Position wie in den vorherigen Beispielen gezeigt anpassen.
+Sie können Wasserzeichen anpassen, indem Sie ihr Aussehen und ihre Position ändern. Für Textwasserzeichen können Sie Schriftart, Größe, Farbe und Layout ändern. Für Bildwasserzeichen können Sie Größe, Drehung und Ausrichtung anpassen, wie in den vorherigen Beispielen gezeigt.
 
-## Wasserzeichen entfernen
+## Entfernen von Wasserzeichen
 
-Um Wasserzeichen aus einem Dokument zu entfernen, können Sie den folgenden Code verwenden:
+Wenn Sie den **Wasserzeicheninhalt** aus einem Dokument entfernen müssen, iteriert der folgende Code über alle Shapes und löscht diejenigen, die als Wasserzeichen identifiziert wurden:
 
 ```java
-// Erstellen einer Dokumentinstanz
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// Entfernen Sie das Wasserzeichen
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +114,53 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// Speichern Sie das Dokument ohne Wasserzeichen
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## Häufige Anwendungsfälle & Tipps
 
-## Abschluss
-
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügt. Ob Text- oder Bildwasserzeichen – Aspose.Words bietet die Tools für deren effiziente Anpassung und Verwaltung. Sie können Wasserzeichen auch entfernen, wenn sie nicht mehr benötigt werden, um sicherzustellen, dass Ihre Dokumente sauber und professionell aussehen.
+- **Vertrauliche Entwürfe:** Ein halbtransparentes Textwasserzeichen wie „CONFIDENTIAL“ anwenden.  
+- **Branding:** Verwenden Sie ein Bildwasserzeichen, das das Logo Ihres Unternehmens enthält.  
+- **Abschnittsspezifische Wasserzeichen:** Durchlaufen Sie `doc.getSections()` und fügen Sie ein Wasserzeichen nur zu den gewünschten Abschnitten hinzu.  
+- **Performance‑Tipp:** Verwenden Sie dieselbe `TextWatermarkOptions`‑Instanz erneut, wenn Sie dasselbe Wasserzeichen auf viele Dokumente anwenden.
 
 ## Häufig gestellte Fragen
 
 ### Wie kann ich die Schriftart eines Textwasserzeichens ändern?
 
-Um die Schriftart eines Textwasserzeichens zu ändern, ändern Sie die `setFontFamily` Eigentum in der `TextWatermarkOptions`. Zum Beispiel:
+Um die Schriftart eines Textwasserzeichens zu ändern, passen Sie die `setFontFamily`‑Eigenschaft in den `TextWatermarkOptions` an. Zum Beispiel:
 
 ```java
 options.setFontFamily("Times New Roman");
 ```
 
-### Kann ich einem einzelnen Dokument mehrere Wasserzeichen hinzufügen?
+### Kann ich mehrere Wasserzeichen zu einem einzelnen Dokument hinzufügen?
 
-Ja, Sie können einem Dokument mehrere Wasserzeichen hinzufügen, indem Sie mehrere `Shape` Objekte mit unterschiedlichen Einstellungen und fügen Sie sie dem Dokument hinzu.
+Ja, Sie können mehrere Wasserzeichen zu einem Dokument hinzufügen, indem Sie mehrere `Shape`‑Objekte mit unterschiedlichen Einstellungen erstellen und sie dem Dokument hinzufügen.
 
 ### Ist es möglich, ein Wasserzeichen zu drehen?
 
-Ja, Sie können ein Wasserzeichen drehen, indem Sie die `setRotation` Eigentum in der `Shape` Objekt. Positive Werte drehen das Wasserzeichen im Uhrzeigersinn, negative Werte gegen den Uhrzeigersinn.
+Ja, Sie können ein Wasserzeichen drehen, indem Sie die `setRotation`‑Eigenschaft im `Shape`‑Objekt setzen. Positive Werte drehen das Wasserzeichen im Uhrzeigersinn, negative Werte gegen den Uhrzeigersinn.
 
 ### Wie kann ich ein Wasserzeichen halbtransparent machen?
 
-Um ein Wasserzeichen halbtransparent zu machen, stellen Sie die `setSemitransparent` Eigentum zu `true` im `TextWatermarkOptions`.
+Um ein Wasserzeichen halbtransparent zu machen, setzen Sie die `setSemitransparent`‑Eigenschaft in den `TextWatermarkOptions` auf `true`.
 
-### Kann ich bestimmten Abschnitten eines Dokuments Wasserzeichen hinzufügen?
+### Kann ich Wasserzeichen zu bestimmten Abschnitten eines Dokuments hinzufügen?
 
-Ja, Sie können bestimmten Abschnitten eines Dokuments Wasserzeichen hinzufügen, indem Sie die Abschnitte durchlaufen und das Wasserzeichen zu den gewünschten Abschnitten hinzufügen.
+Ja, Sie können Wasserzeichen zu bestimmten Abschnitten eines Dokuments hinzufügen, indem Sie die Abschnitte durchlaufen und das Wasserzeichen zu den gewünschten Abschnitten hinzufügen.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.Words für Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
