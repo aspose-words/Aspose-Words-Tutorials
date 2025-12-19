@@ -1,10 +1,12 @@
 ---
-"description": "في هذا البرنامج التعليمي، تناولنا خيارات متقدمة لحفظ مستندات HTML باستخدام Aspose.Words لجافا. تُمكّنك هذه الخيارات من إنشاء مستندات HTML عالية الجودة."
-"linktitle": "حفظ مستندات HTML باستخدام"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "خيارات حفظ مستندات HTML المتقدمة باستخدام Aspose.Words Java"
-"url": "/ar/java/document-loading-and-saving/advance-html-documents-saving-options/"
-"weight": 16
+date: 2025-12-19
+description: تعرّف على كيفية تصدير HTML باستخدام Aspose.Words Java، مع تغطية الخيارات
+  المتقدمة لحفظ مستند Word كـ HTML وتحويل Word إلى HTML بكفاءة.
+linktitle: Saving HTML Documents with
+second_title: Aspose.Words Java Document Processing API
+title: 'كيفية تصدير HTML باستخدام Aspose.Words Java: خيارات متقدمة'
+url: /ar/java/document-loading-and-saving/advance-html-documents-saving-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# خيارات حفظ مستندات HTML المتقدمة باستخدام Aspose.Words Java
+# كيفية تصدير HTML باستخدام Aspose.Words Java: الخيارات المتقدمة
 
+في هذا البرنامج التعليمي ستكتشف **كيفية تصدير HTML** من مستندات Word باستخدام Aspose.Words for Java. سواء كنت بحاجة إلى **حفظ Word كـ HTML** للنشر على الويب أو **تحويل Word إلى HTML** للمعالجة اللاحقة، فإن خيارات الحفظ المتقدمة تمنحك تحكمًا دقيقًا في الناتج. سنستعرض كل خيار خطوة بخطوة، نشرح متى يُستخدم، ونظهر سيناريوهات واقعية حيث تُحدث هذه الإعدادات فرقًا.
 
-في هذا البرنامج التعليمي، سنستكشف خيارات حفظ مستندات HTML المتقدمة التي يوفرها Aspose.Words لجافا. Aspose.Words هي واجهة برمجة تطبيقات Java فعّالة للعمل مع مستندات Word، وتوفر مجموعة واسعة من الميزات لمعالجة المستندات وتحويلها.
+## إجابات سريعة
+- **ما هو الصنف الأساسي لتصدير HTML؟** `HtmlSaveOptions`  
+- **هل يمكن تضمين الخطوط مباشرة في HTML؟** نعم، اضبط `exportFontsAsBase64` على `true`.  
+- **كيف أحافظ على بيانات الجولة‑العودة الخاصة بـ Word؟** فعّل `exportRoundtripInformation`.  
+- **أي تنسيق هو الأفضل للرسومات المتجهة؟** استخدم `convertMetafilesToSvg` للحصول على مخرجات SVG.  
+- **هل يمكن تجنب تصادم أسماء فئات CSS؟** نعم، استخدم `addCssClassNamePrefix`.
 
-## 1. المقدمة
-يتيح لك Aspose.Words for Java العمل مع مستندات Word برمجيًا. في هذا البرنامج التعليمي، سنركز على خيارات حفظ مستندات HTML المتقدمة، والتي تُمكّنك من التحكم في كيفية تحويل مستندات Word إلى HTML.
+## 1. مقدمة
+Aspose.Words for Java هو API قوي يتيح للمطورين معالجة مستندات Word برمجيًا. يركز هذا الدليل على خيارات حفظ مستند HTML المتقدمة التي تسمح لك بتخصيص عملية التحويل لتلبية متطلبات الويب أو التكامل المحددة.
 
-## 2. تصدير معلومات الرحلة ذهابًا وإيابًا
-ال `exportRoundtripInformation` تتيح لك هذه الطريقة تصدير مستندات Word إلى HTML مع الحفاظ على معلومات النقل ذهابًا وإيابًا. يمكن أن تكون هذه المعلومات مفيدة عند تحويل HTML إلى تنسيق Word مرة أخرى دون فقدان أي تفاصيل خاصة بالمستند.
+## 2. تصدير معلومات الجولة‑العودة
+الحفاظ على معلومات الجولة‑العودة يتيح لك تحويل HTML مرة أخرى إلى مستند Word دون فقدان تفاصيل التخطيط أو التنسيق.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -33,8 +41,12 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. تصدير الخطوط بتنسيق Base64
-مع `exportFontsAsBase64` باستخدام هذه الطريقة، يمكنك تصدير الخطوط المستخدمة في المستند كبيانات مُرمَّزة بتنسيق Base64 بتنسيق HTML. هذا يضمن احتفاظ تمثيل HTML بنفس أنماط الخطوط الموجودة في مستند Word الأصلي.
+### متى يُستخدم
+- عندما تحتاج إلى خط أنابيب تحويل قابل للعكس (HTML → Word → HTML).  
+- مثالي لسيناريوهات التحرير التعاوني حيث يجب الاحتفاظ بالبنية الأصلية لـ Word.
+
+## 3. تصدير الخطوط كـ Base64
+تضمين الخطوط مباشرة في HTML يلغي الاعتماد على خطوط خارجية ويضمن الحفاظ على المظهر عبر المتصفحات.
 
 ```java
 
@@ -46,8 +58,11 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
+### نصيحة احترافية
+استخدم هذا الخيار عندما يكون للبيئة المستهدفة وصول محدود إلى الموارد الخارجية (مثل النشرات البريدية).
+
 ## 4. تصدير الموارد
-ال `exportResources` تتيح لك هذه الطريقة تحديد نوع جدول أنماط CSS وتصدير موارد الخطوط. كما يمكنك تحديد مجلد موارد واسم مستعار للموارد في HTML.
+تحكم في كيفية إخراج موارد CSS والخطوط، وحدد مجلدًا مخصصًا أو اسمًا مستعارًا URL لتلك الأصول.
 
 ```java
 
@@ -62,8 +77,11 @@ public void exportResources() throws Exception {
 }
 ```
 
-## 5. تحويل ملفات التعريف إلى EMF أو WMF
-ال `convertMetafilesToEmfOrWmf` تتيح لك الطريقة تحويل ملفات التعريف في المستند إلى تنسيق EMF أو WMF، مما يضمن التوافق والتقديم السلس في HTML.
+### لماذا يهم
+فصل CSS في ملف خارجي يقلل من حجم HTML ويسمح بالتخزين المؤقت لتسريع تحميل الصفحات.
+
+## 5. تحويل ملفات الميتا إلى EMF أو WMF
+يتم تحويل ملفات الميتا (مثل EMF/WMF) إلى تنسيق يمكن للمتصفحات عرضه بثقة.
 
 ```java
 
@@ -75,7 +93,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 
 	builder.write("Here is an image as is: ");
 	builder.insertHtml(
-		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
+		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n                    vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
 
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(); { saveOptions.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF); }
 
@@ -83,8 +101,11 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. تحويل ملفات التعريف إلى SVG
-استخدم `convertMetafilesToSvg` طريقة لتحويل ملفات التعريف إلى صيغة SVG. هذه الصيغة مثالية لعرض الرسومات المتجهة في مستندات HTML.
+### حالة الاستخدام
+اختر EMF/WMF عندما تدعم المتصفحات المستهدفة هذه الصيغ المتجهة وتحتاج إلى توسع بدون فقدان الجودة.
+
+## 6. تحويل ملفات الميتا إلى SVG
+يوفر SVG أفضل قابلية للتوسع وهو مدعوم على نطاق واسع في المتصفحات الحديثة.
 
 ```java
 
@@ -103,8 +124,11 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
-## 7. أضف بادئة اسم فئة CSS
-مع `addCssClassNamePrefix` يمكنك إضافة بادئة لأسماء فئات CSS في ملف HTML المُصدَّر. هذا يُساعد على منع التعارضات مع الأنماط الحالية.
+### الفائدة
+ملفات SVG خفيفة الوزن وتبقى مستقلة عن الدقة، مما يجعلها مثالية لتصميم ويب متجاوب.
+
+## 7. إضافة بادئة لاسم فئة CSS
+تجنب تعارض الأنماط عن طريق إضافة بادئة لجميع أسماء فئات CSS التي يتم إنشاؤها.
 
 ```java
 
@@ -117,8 +141,11 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. تصدير عناوين URL الخاصة بـ CID لموارد MHTML
-ال `exportCidUrlsForMhtmlResources` تُستخدم هذه الطريقة لحفظ المستندات بتنسيق MHTML. تتيح هذه الطريقة تصدير عناوين URL لمعرف المحتوى للموارد.
+### نصيحة عملية
+استخدم بادئة فريدة (مثل اسم مشروعك) عند دمج HTML في صفحات موجودة لتفادي تضارب CSS.
+
+## 8. تصدير عناوين CID لموارد MHTML
+عند الحفظ كـ MHTML، يمكنك تصدير الموارد باستخدام عناوين Content‑ID لتحسين توافق البريد الإلكتروني.
 
 ```java
 
@@ -135,8 +162,11 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
+### متى يُستخدم
+مثالي لإنشاء ملف HTML واحد متكامل يمكن إرفاقه بالبريد الإلكتروني.
+
 ## 9. حل أسماء الخطوط
-ال `resolveFontNames` تساعد الطريقة على حل أسماء الخطوط عند حفظ المستندات بتنسيق HTML، مما يضمن عرضًا متسقًا عبر منصات مختلفة.
+يضمن أن يشير HTML إلى عائلات الخطوط الصحيحة، مما يحسن التناسق عبر الأنظمة.
 
 ```java
 
@@ -154,8 +184,11 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. تصدير حقل نموذج إدخال النص كنص
-ال `exportTextInputFormFieldAsText` تقوم الطريقة بتصدير حقول النموذج كنص عادي في HTML، مما يجعلها قابلة للقراءة والتحرير بسهولة.
+### لماذا يساعد
+إذا كان المستند الأصلي يستخدم خطوطًا غير مثبتة على جهاز العميل، فإن هذا الخيار يستبدلها ببدائل آمنة للويب.
+
+## 10. تصدير حقل نموذج النص كـ Text
+يعرض حقول النماذج كنص عادي بدلاً من عناصر إدخال HTML التفاعلية.
 
 ```java
 
@@ -166,13 +199,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// يجب أن يكون المجلد المحدد موجودًا ويجب أن يكون فارغًا.
+	// The folder specified needs to exist and should be empty.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// تعيين خيار لتصدير حقول النموذج كنص عادي، وليس كعناصر إدخال HTML.
+	// Set an option to export form fields as plain text, not as HTML input elements.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -182,32 +215,44 @@ public void exportTextInputFormFieldAsText() throws Exception {
 }
 ```
 
-## خاتمة
-في هذا البرنامج التعليمي، استكشفنا خيارات حفظ مستندات HTML المتقدمة التي يوفرها Aspose.Words لجافا. تمنحك هذه الخيارات تحكمًا دقيقًا في عملية التحويل، مما يسمح لك بإنشاء مستندات HTML تشبه إلى حد كبير مستندات Word الأصلية.
+### حالة الاستخدام
+عند الحاجة إلى تمثيل للقراءة فقط لنموذج لأغراض الأرشفة أو الطباعة.
 
-## الأسئلة الشائعة
-فيما يلي بعض الأسئلة الشائعة حول العمل مع Aspose.Words لخيارات حفظ مستندات Java وHTML:
+## المشكلات الشائعة & استكشاف الأخطاء
+| المشكلة | السبب الشائع | الحل |
+|-------|---------------|-----|
+| فقدان الخطوط في الناتج | عدم تفعيل `exportFontsAsBase64` | اضبط `setExportFontsAsBase64(true)` |
+| تعطل CSS بعد الدمج | استخدام `EXTERNAL` دون توفير ملف CSS | تأكد من نشر ملف CSS في `resourceFolderAlias` المحدد |
+| حجم HTML كبير | تضمين العديد من الصور كـ Base64 | انتقل إلى موارد صور خارجية عبر `setExportFontResources(true)` وتهيئة `resourceFolder` |
+| عدم عرض SVG في المتصفحات القديمة | المتصفح لا يدعم SVG | قدم صورة PNG بديلة عن طريق تصديرها أيضًا كـ EMF/WMF |
 
-### س1: كيف يمكنني تحويل HTML إلى تنسيق Word باستخدام Aspose.Words لـ Java؟
-لتحويل HTML إلى تنسيق Word مرة أخرى، يمكنك استخدام واجهة برمجة التطبيقات Aspose.Words `load` طريقة تحميل مستند HTML ثم حفظه بتنسيق Word.
+## الأسئلة المتكررة
 
-### س2: هل يمكنني تخصيص أنماط CSS عند التصدير إلى HTML؟
-نعم، يمكنك تخصيص أنماط CSS عن طريق تعديل أوراق الأنماط المستخدمة في HTML أو باستخدام `addCssClassNamePrefix` طريقة لإضافة بادئة إلى أسماء فئات CSS.
+**س: هل يمكنني تضمين الخطوط كـ Base64 مع الحفاظ على CSS خارجي؟**  
+ج: نعم. اضبط `exportFontsAsBase64(true)` مع إبقاء `CssStyleSheetType.EXTERNAL` لفصل بيانات الخط عن قواعد الأنماط.
 
-### س3: هل هناك طريقة لتحسين مخرجات HTML لعرضها على الويب؟
-نعم، يمكنك تحسين مخرجات HTML لعرض الويب من خلال تكوين خيارات مثل تصدير الخطوط بتنسيق Base64 وتحويل الملفات التعريفية إلى SVG.
+**س: كيف أحول HTML موجود إلى مستند Word؟**  
+ج: استخدم `Document doc = new Document("input.html");` ثم `doc.save("output.docx");`. حافظ على بيانات الجولة‑العودة باستخدام `exportRoundtripInformation` أثناء التصدير الأولي.
 
-### س4: هل هناك أية قيود عند تحويل مستندات Word المعقدة إلى HTML؟
-على الرغم من أن Aspose.Words for Java يوفر إمكانيات تحويل قوية، إلا أن مستندات Word المعقدة ذات التخطيطات المعقدة قد تتطلب معالجة لاحقة إضافية لتحقيق الناتج HTML المطلوب.
+**س: هل هناك تأثير على الأداء عند استخدام تحويل SVG؟**  
+ج: تحويل ملفات ميتا الكبيرة إلى SVG قد يزيد من زمن المعالجة، لكن HTML الناتج يكون أصغر عادةً ويُعرض أسرع في المتصفحات.
 
+**س: هل تعمل هذه الخيارات مع Aspose.Words لـ .NET أيضًا؟**  
+ج: المفاهيم نفسها موجودة في API .NET، رغم أن أسماء الطرق قد تختلف قليلًا (مثل `HtmlSaveOptions` مشتركة بين المنصات).
 
+**س: أي خيار يجب اختياره للحصول على HTML مناسب للبريد الإلكتروني؟**  
+ج: استخدم `SaveFormat.MHTML` مع `exportCidUrlsForMhtmlResources` لتضمين جميع الموارد مباشرة في جسم البريد.
+
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

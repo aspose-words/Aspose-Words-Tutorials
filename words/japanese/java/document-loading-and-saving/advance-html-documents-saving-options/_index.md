@@ -1,10 +1,12 @@
 ---
-"description": "このチュートリアルでは、Aspose.Words for Javaの高度なHTMLドキュメント保存オプションについて説明しました。これらのオプションにより、高品質なHTMLドキュメントを作成できます。"
-"linktitle": "HTML文書を保存する"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words Java で HTML ドキュメントの保存オプションを拡張する"
-"url": "/ja/java/document-loading-and-saving/advance-html-documents-saving-options/"
-"weight": 16
+date: 2025-12-19
+description: Aspose.Words Java を使用して HTML にエクスポートする方法を学び、Word を HTML として保存する高度なオプションや、Word
+  を効率的に HTML に変換する方法を網羅しています。
+linktitle: Saving HTML Documents with
+second_title: Aspose.Words Java Document Processing API
+title: 'Aspose.Words JavaでHTMLをエクスポートする方法: 高度なオプション'
+url: /ja/java/document-loading-and-saving/advance-html-documents-saving-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Java で HTML ドキュメントの保存オプションを拡張する
+# Aspose.Words JavaでHTMLをエクスポートする方法: 高度なオプション
 
+このチュートリアルでは、Aspose.Words for Java を使用して Word 文書から **HTML をエクスポートする方法** を学びます。Web 公開のために **Word を HTML として保存** したり、下流処理のために **Word を HTML に変換** したりする必要がある場合、詳細な保存オプションを使うことで出力を細かく制御できます。各オプションをステップバイステップで解説し、使用シーンと実際の効果を示します。
 
-このチュートリアルでは、Aspose.Words for Javaが提供する高度なHTMLドキュメント保存オプションについて説明します。Aspose.Wordsは、Word文書を操作するための強力なJava APIであり、ドキュメントの操作と変換のための幅広い機能を提供します。
+## Quick Answers
+- **HTMLエクスポートの主要クラスは何ですか？** `HtmlSaveOptions`  
+- **フォントをHTMLに直接埋め込むことはできますか？** はい、`exportFontsAsBase64` を `true` に設定します。  
+- **Word固有のラウンドトリップデータを保持するには？** `exportRoundtripInformation` を有効にします。  
+- **ベクターグラフィックに最適な形式はどれですか？** SVG 出力には `convertMetafilesToSvg` を使用します。  
+- **CSSクラス名の衝突を回避できますか？** はい、`addCssClassNamePrefix` を使用します。
 
-## 1. はじめに
-Aspose.Words for Java を使用すると、Word 文書をプログラムで操作できます。このチュートリアルでは、Word 文書を HTML に変換する方法を制御できる、高度な HTML 文書保存オプションに焦点を当てます。
+## 1. Introduction
+Aspose.Words for Java は、開発者がプログラムから Word 文書を操作できる強力な API です。本ガイドでは、特定の Web 要件や統合シナリオに合わせて変換プロセスをカスタマイズできる高度な HTML 保存オプションに焦点を当てます。
 
-## 2. 輸出ラウンドトリップ情報
-その `exportRoundtripInformation` この方法を使用すると、Word文書をHTML形式にエクスポートする際に、往復情報を保持できます。この情報は、文書固有の詳細を失うことなくHTMLをWord形式に戻す場合に役立ちます。
+## 2. Export Roundtrip Information
+ラウンドトリップ情報を保持すると、HTML を Word 文書に戻す際にレイアウトや書式設定の詳細が失われません。
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -33,8 +41,12 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. フォントをBase64としてエクスポートする
-と `exportFontsAsBase64` この方法では、文書で使用されているフォントをBase64エンコードされたデータとしてHTMLにエクスポートできます。これにより、HTML形式でも元のWord文書と同じフォントスタイルが保持されます。
+### When to use
+- HTML → Word → HTML のように、変換を往復させる必要がある場合。  
+- 元の Word 構造を保持したまま共同編集を行うシナリオに最適です。
+
+## 3. Export Fonts as Base64
+フォントを HTML に直接埋め込むことで、外部フォントへの依存を排除し、ブラウザ間での視覚的一貫性を確保できます。
 
 ```java
 
@@ -46,8 +58,11 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
-## 4. リソースのエクスポート
-その `exportResources` このメソッドを使用すると、CSSスタイルシートの種類を指定し、フォントリソースをエクスポートできます。また、HTML内でリソースフォルダとリソースのエイリアスを設定することもできます。
+### Pro tip
+ターゲット環境が外部リソースへのアクセスが制限されている場合（例: メールニュースレター）にこのオプションを使用してください。
+
+## 4. Export Resources
+CSS やフォントリソースの出力方法を制御し、これらのアセット用にカスタムフォルダーまたは URL エイリアスを指定できます。
 
 ```java
 
@@ -62,8 +77,11 @@ public void exportResources() throws Exception {
 }
 ```
 
-## 5. メタファイルをEMFまたはWMFに変換する
-その `convertMetafilesToEmfOrWmf` この方法を使用すると、ドキュメント内のメタファイルを EMF または WMF 形式に変換して、HTML での互換性とスムーズなレンダリングを確保できます。
+### Why it matters
+CSS を外部ファイルに分離すると HTML のサイズが削減され、キャッシュが有効になるためページ読み込みが高速化します。
+
+## 5. Convert Metafiles to EMF or WMF
+メタファイル（例: EMF/WMF）を、ブラウザが確実に描画できる形式に変換します。
 
 ```java
 
@@ -75,7 +93,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 
 	builder.write("Here is an image as is: ");
 	builder.insertHtml(
-		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"赤い点\" />");
+		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n                    vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
 
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(); { saveOptions.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF); }
 
@@ -83,8 +101,11 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. メタファイルをSVGに変換する
-使用 `convertMetafilesToSvg` メタファイルをSVG形式に変換する方法。この形式は、HTML文書でベクターグラフィックを表示するのに最適です。
+### Use case
+対象ブラウザがこれらのベクターフォーマットをサポートし、かつロスレスなスケーリングが必要な場合に EMF/WMF を選択してください。
+
+## 6. Convert Metafiles to SVG
+SVG は最高のスケーラビリティを提供し、モダンブラウザで広くサポートされています。
 
 ```java
 
@@ -103,8 +124,11 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
-## 7. CSSクラス名プレフィックスを追加する
-と `addCssClassNamePrefix` この方法を使用すると、エクスポートされたHTMLのCSSクラス名にプレフィックスを追加できます。これにより、既存のスタイルとの競合を防ぐことができます。
+### Benefit
+SVG ファイルは軽量で解像度に依存せず、レスポンシブ Web デザインに最適です。
+
+## 7. Add CSS Class Name Prefix
+生成されるすべての CSS クラス名にプレフィックスを付けることで、スタイルの衝突を防止します。
 
 ```java
 
@@ -117,8 +141,11 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. MHTMLリソースのCID URLをエクスポートする
-その `exportCidUrlsForMhtmlResources` このメソッドは、ドキュメントをMHTML形式で保存する際に使用されます。これにより、リソースのContent-ID URLをエクスポートできます。
+### Practical tip
+HTML を既存ページに埋め込む際は、プロジェクト名などのユニークなプレフィックスを使用して CSS の競合を回避してください。
+
+## 8. Export CID URLs for MHTML Resources
+MHTML 形式で保存する場合、リソースを Content‑ID URL でエクスポートでき、メールでの互換性が向上します。
 
 ```java
 
@@ -135,8 +162,11 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
-## 9. フォント名を解決する
-その `resolveFontNames` このメソッドは、ドキュメントを HTML 形式で保存するときにフォント名を解決するのに役立ち、異なるプラットフォーム間で一貫したレンダリングを保証します。
+### When to use
+メールに添付できる単一の自己完結型 HTML ファイルを生成したい場合に最適です。
+
+## 9. Resolve Font Names
+HTML が正しいフォントファミリーを参照するようにし、クロスプラットフォームでの一貫性を向上させます。
 
 ```java
 
@@ -154,8 +184,11 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. テキスト入力フォームフィールドをテキストとしてエクスポートする
-その `exportTextInputFormFieldAsText` このメソッドは、フォーム フィールドを HTML 内のプレーン テキストとしてエクスポートし、簡単に読み取りおよび編集できるようにします。
+### Why it helps
+元の文書で使用されているフォントがクライアントマシンにインストールされていない場合、Web セーフな代替フォントに置き換えることができます。
+
+## 10. Export Text Input Form Field as Text
+フォームフィールドをインタラクティブな HTML 入力要素ではなく、プレーンテキストとしてレンダリングします。
 
 ```java
 
@@ -166,13 +199,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// 指定されたフォルダーは存在する必要があり、空である必要があります。
+	// The folder specified needs to exist and should be empty.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// フォーム フィールドを HTML 入力要素ではなくプレーン テキストとしてエクスポートするオプションを設定します。
+	// Set an option to export form fields as plain text, not as HTML input elements.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -182,32 +215,42 @@ public void exportTextInputFormFieldAsText() throws Exception {
 }
 ```
 
-## 結論
-このチュートリアルでは、Aspose.Words for Javaが提供する高度なHTMLドキュメント保存オプションについて説明しました。これらのオプションを使用すると、変換プロセスを細かく制御でき、元のWord文書に非常によく似たHTMLドキュメントを作成できます。
+### Use case
+アーカイブや印刷目的で、フォームの読み取り専用表現が必要な場合に使用します。
 
-## よくある質問
-Aspose.Words for Java および HTML ドキュメント保存オプションの使用に関するよくある質問を次に示します。
+## Common Pitfalls & Troubleshooting
+| 問題 | 典型的な原因 | 対策 |
+|------|--------------|------|
+| 出力にフォントが欠如している | `exportFontsAsBase64` が有効になっていない | `setExportFontsAsBase64(true)` を設定する |
+| 埋め込み後にCSSが壊れる | CSSファイルを提供せずに `EXTERNAL` を使用 | 指定された `resourceFolderAlias` にCSSファイルが配置されていることを確認する |
+| HTMLサイズが大きくなる | 多数の画像をBase64で埋め込んでいる | `setExportFontResources(true)` を使用して外部画像リソースに切り替え、`resourceFolder` を設定する |
+| 古いブラウザでSVGが表示されない | ブラウザがSVGをサポートしていない | EMF/WMFとしてもエクスポートし、代替PNGを提供する |
 
-### Q1: Aspose.Words for Java を使用して HTML を Word 形式に戻すにはどうすればよいですか?
-HTMLをWord形式に戻すには、Aspose.Words APIを使用します。 `load` HTML ドキュメントを読み込み、Word 形式で保存するメソッド。
+## Frequently Asked Questions
 
-### Q2: HTML にエクスポートするときに CSS スタイルをカスタマイズできますか?
-はい、HTMLで使用されているスタイルシートを変更するか、 `addCssClassNamePrefix` CSS クラス名にプレフィックスを追加するメソッド。
+**Q: フォントをBase64で埋め込みつつ、外部CSSも保持できますか？**  
+A: はい。`exportFontsAsBase64(true)` を設定し、`CssStyleSheetType.EXTERNAL` を保持することで、フォントデータとスタイルルールを分離できます。
 
-### Q3: HTML 出力を Web 表示用に最適化する方法はありますか?
-はい、フォントを Base64 としてエクスポートしたり、メタファイルを SVG に変換したりするなどのオプションを構成することで、HTML 出力を Web 表示用に最適化できます。
+**Q: 既存の HTML を Word 文書に変換するにはどうすればよいですか？**  
+A: `Document doc = new Document("input.html");` で HTML を読み込み、`doc.save("output.docx");` と保存します。初回エクスポート時に `exportRoundtripInformation` を使用してラウンドトリップデータを保持してください。
 
-### Q4: 複雑な Word 文書を HTML に変換する場合、何か制限はありますか?
-Aspose.Words for Java は強力な変換機能を提供しますが、複雑なレイアウトを持つ複雑な Word 文書では、目的の HTML 出力を実現するために追加の後処理が必要になる場合があります。
+**Q: SVG 変換を使用するとパフォーマンスに影響がありますか？**  
+A: 大きなメタファイルを SVG に変換すると処理時間が増加する可能性がありますが、生成される HTML は通常は小さくなり、ブラウザでの描画が速くなります。
 
+**Q: これらのオプションは Aspose.Words for .NET でも使用できますか？**  
+A: 同様の概念は .NET API にも存在しますが、メソッド名が若干異なる場合があります（例: `HtmlSaveOptions` はプラットフォーム間で共有されています）。
 
+**Q: メールフレンドリーな HTML にはどのオプションを選べばよいですか？**  
+A: `SaveFormat.MHTML` と `exportCidUrlsForMhtmlResources` を使用して、すべてのリソースをメール本文に直接埋め込みます。
+
+**最終更新日:** 2025-12-19  
+**テスト環境:** Aspose.Words for Java 24.12  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
