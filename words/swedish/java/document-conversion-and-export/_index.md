@@ -48,6 +48,8 @@ Lås upp kraften i dokumentformer i Aspose.Words för Java. Lär dig skapa visue
 Lär dig hur du lägger till vattenstämplar i dokument i Aspose.Words för Java. Anpassa text- och bildvattenstämplar för professionellt utseende dokument.
 ### [Formatera tabeller och tabellformat i Aspose.Words för Java](./formatting-tables-and-table-styles/)
 Lär dig hur du formaterar tabeller och använder tabellformat i Aspose.Words för Java. Utforska steg-för-steg-guider med källkod för effektiv tabellformatering. Förbättra din dokumentlayout med Aspose.Words.
+### [Hur man återställer DOCX, konverterar DOCX till Markdown, exporterar DOCX till PDF/UA och exporterar LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+Lär dig hur du återställer DOCX-filer, konverterar dem till Markdown, exporterar dem till PDF/UA och LaTeX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

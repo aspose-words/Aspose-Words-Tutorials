@@ -48,6 +48,8 @@ Odblokuj moc kształtów dokumentów w Aspose.Words dla Java. Naucz się tworzy�
 Dowiedz się, jak dodawać znaki wodne do dokumentów w Aspose.Words for Java. Dostosuj znaki wodne tekstowe i graficzne, aby uzyskać profesjonalnie wyglądające dokumenty.
 ### [Formatowanie tabel i stylów tabel w Aspose.Words dla Java](./formatting-tables-and-table-styles/)
 Dowiedz się, jak formatować tabele i stosować style tabel w Aspose.Words dla Java. Poznaj przewodniki krok po kroku z kodem źródłowym, aby skutecznie formatować tabele. Ulepsz układ swojego dokumentu dzięki Aspose.Words.
+### [Jak odzyskać DOCX, konwertować DOCX do Markdown, eksportować DOCX do PDF/UA i eksportować LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+Dowiedz się, jak odzyskać uszkodzone pliki DOCX, konwertować je do formatu Markdown, eksportować do PDF/UA oraz LaTeX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

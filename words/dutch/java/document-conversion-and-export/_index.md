@@ -48,6 +48,8 @@ Ontdek de kracht van documentvormen in Aspose.Words voor Java. Leer hoe u visuee
 Leer hoe u watermerken toevoegt aan documenten in Aspose.Words voor Java. Pas tekst- en afbeeldingswatermerken aan voor professioneel ogende documenten.
 ### [Tabellen en tabelstijlen opmaken in Aspose.Words voor Java](./formatting-tables-and-table-styles/)
 Leer hoe u tabellen opmaakt en tabelstijlen toepast in Aspose.Words voor Java. Ontdek stapsgewijze handleidingen met broncode voor effectieve tabelopmaak. Verbeter de lay-out van uw document met Aspose.Words.
+### [Hoe DOCX te herstellen, DOCX naar Markdown te converteren, DOCX naar PDF/UA te exporteren en LaTeX te exporteren](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

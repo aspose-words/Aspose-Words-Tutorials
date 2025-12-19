@@ -48,6 +48,7 @@ Aspose.Words for Java에서 문서 모양의 강력한 기능을 활용하세요
 Aspose.Words for Java에서 문서에 워터마크를 추가하는 방법을 알아보세요. 전문적인 문서에 맞춰 텍스트 및 이미지 워터마크를 사용자 정의해 보세요.
 ### [Java용 Aspose.Words에서 표 및 표 스타일 서식 지정](./formatting-tables-and-table-styles/)
 Aspose.Words for Java에서 표 서식을 지정하고 표 스타일을 적용하는 방법을 알아보세요. 효과적인 표 서식 지정을 위한 소스 코드와 단계별 가이드를 살펴보세요. Aspose.Words로 문서 레이아웃을 개선해 보세요.
+### [DOCX 복구, DOCX를 Markdown으로 변환, DOCX를 PDF/UA로 내보내기 및 LaTeX 내보내기](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

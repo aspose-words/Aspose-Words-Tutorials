@@ -48,6 +48,8 @@ Sfrutta la potenza delle forme dei documenti in Aspose.Words per Java. Impara a 
 Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personalizza filigrane di testo e immagini per documenti dall'aspetto professionale.
 ### [Formattazione di tabelle e stili di tabella in Aspose.Words per Java](./formatting-tables-and-table-styles/)
 Scopri come formattare le tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide dettagliate con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout dei tuoi documenti con Aspose.Words.
+### [Come recuperare DOCX, convertire DOCX in Markdown, esportare DOCX in PDF/UA ed esportare LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

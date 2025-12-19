@@ -48,6 +48,7 @@
 تعرّف على كيفية إضافة علامات مائية إلى المستندات في Aspose.Words لجافا. خصّص علامات مائية للنصوص والصور لمستندات احترافية.
 ### [تنسيق الجداول وأنماطها في Aspose.Words لـ Java](./formatting-tables-and-table-styles/)
 تعرّف على كيفية تنسيق الجداول وتطبيق أنماطها في Aspose.Words لجافا. استكشف أدلةً خطوة بخطوة مع الكود المصدري لتنسيق جداول فعّال. حسّن تخطيط مستندك باستخدام Aspose.Words.
+### [كيفية استعادة ملف DOCX، تحويل DOCX إلى Markdown، تصدير DOCX إلى PDF/UA، وتصدير LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

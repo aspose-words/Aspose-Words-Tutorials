@@ -48,6 +48,8 @@ Nutzen Sie die Möglichkeiten von Dokumentformen in Aspose.Words für Java. Lern
 Erfahren Sie, wie Sie in Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügen. Passen Sie Text- und Bildwasserzeichen für professionell aussehende Dokumente an.
 ### [Formatieren von Tabellen und Tabellenstilen in Aspose.Words für Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words für Java anwenden. Entdecken Sie Schritt-für-Schritt-Anleitungen mit Quellcode für effektive Tabellenformatierung. Optimieren Sie Ihr Dokumentlayout mit Aspose.Words.
+### [DOCX wiederherstellen, DOCX nach Markdown konvertieren, DOCX nach PDF/UA exportieren und LaTeX exportieren](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen, sie in Markdown konvertieren und anschließend in PDF/UA bzw. LaTeX exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

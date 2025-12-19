@@ -48,6 +48,8 @@ Mở khóa sức mạnh của hình dạng tài liệu trong Aspose.Words cho Ja
 Tìm hiểu cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh hình mờ văn bản và hình ảnh cho tài liệu trông chuyên nghiệp.
 ### [Định dạng bảng và kiểu bảng trong Aspose.Words cho Java](./formatting-tables-and-table-styles/)
 Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words cho Java. Khám phá hướng dẫn từng bước với mã nguồn để định dạng bảng hiệu quả. Cải thiện bố cục tài liệu của bạn với Aspose.Words.
+### [Cách khôi phục DOCX, chuyển DOCX sang Markdown, xuất DOCX sang PDF/UA và xuất LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+Hướng dẫn khôi phục DOCX, chuyển đổi sang Markdown, xuất sang PDF/UA và LaTeX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

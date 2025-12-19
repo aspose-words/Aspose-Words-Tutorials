@@ -48,6 +48,8 @@ Descubra o poder dos formatos de documentos no Aspose.Words para Java. Aprenda a
 Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Personalize marcas d'água de texto e imagem para documentos com aparência profissional.
 ### [Formatação de tabelas e estilos de tabelas no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código-fonte para uma formatação de tabela eficaz. Aprimore o layout do seu documento com o Aspose.Words.
+### [Como Recuperar DOCX, Converter DOCX para Markdown, Exportar DOCX para PDF/UA e Exportar LaTeX](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
+Aprenda a recuperar arquivos DOCX corrompidos, convertê-los para Markdown, exportá-los para PDF/UA e gerar documentos LaTeX usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,7 @@ Engedd szabadjára a dokumentumalakzatok erejét az Aspose.Words for Java progra
 Tanuld meg, hogyan adhatsz hozzá vízjeleket dokumentumokhoz az Aspose.Words for Java programban. Testreszabhatod a szöveges és képes vízjeleket professzionális megjelenésű dokumentumokhoz.
 ### [Táblázatok és táblázatstílusok formázása az Aspose.Words for Java programban](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázhatod a táblázatokat és hogyan alkalmazhatsz táblázatstílusokat az Aspose.Words for Java programban. Fedezz fel lépésről lépésre szóló útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentumod elrendezését az Aspose.Words segítségével.
+### [Hogyan állítsuk helyre a DOCX-et, konvertáljuk DOCX-et Markdownba, exportáljuk a DOCX-et PDF/UA formátumba, és exportáljuk LaTeX-be](./how-to-recover-docx-convert-docx-to-markdown-export-docx-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
