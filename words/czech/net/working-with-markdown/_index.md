@@ -39,8 +39,8 @@ Zpracování textu pomocí Markdownu poskytuje komplexní zdroj pro výuku prác
 | [Tabulka](./table/) | Naučte se, jak vytvářet a upravovat tabulky v Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro generování strukturovaných a vizuálně přitažlivých dokumentů. |
 | [Číst dokument Markdownu](./read-markdown-document/) Naučte se, jak číst a manipulovat s dokumenty Markdown pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. Ideální pro vývojáře všech úrovní. |
 | [Důrazy](./emphases/) | Naučte se, jak vytvořit zvýrazněný text v Markdownu pomocí Aspose.Words pro .NET. Tato příručka se zabývá tučným písmem, kurzívou a kombinovaným písmem s podrobnými pokyny. |
-| [Použít zdroj varování](./use-warning-source/) | Zvládněte Aspose.Words pro .NET s tímto podrobným návodem k použití třídy WarningSource pro zpracování varování v Markdownu. Ideální pro vývojáře v C#.
-
+| [Použít zdroj varování](./use-warning-source/) | Zvládněte Aspose.Words pro .NET s tímto podrobným návodem k použití třídy WarningSource pro zpracování varování v Markdownu. Ideální pro vývojáře v C#. |
+| [Převod DOCX do Markdown – Kompletní průvodce C# pro export Wordu do Markdownu](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) | Kompletní průvodce převodem souborů DOCX do formátu Markdown pomocí Aspose.Words pro .NET v jazyce C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,7 +40,7 @@ Ordbehandling med Markdown ger en omfattande resurs för att lära sig arbeta me
 | [Läs Markdown-dokumentet](./read-markdown-document/) Lär dig hur du läser och manipulerar Markdown-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-handledningen. Perfekt för utvecklare på alla nivåer. |
 | [Betoningar](./emphases/) | Lär dig hur du skapar betonad text i Markdown med Aspose.Words för .NET. Den här guiden behandlar fetstil, kursiv stil och kombinerade stilar med steg-för-steg-instruktioner. |
 | [Använd varningskälla](./use-warning-source/) | Bemästra Aspose.Words för .NET med den här steg-för-steg-guiden om hur du använder WarningSource-klassen för att hantera Markdown-varningar. Perfekt för C#-utvecklare. |
-
+| [Konvertera DOCX till Markdown – Komplett C#-guide för att exportera Word till Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

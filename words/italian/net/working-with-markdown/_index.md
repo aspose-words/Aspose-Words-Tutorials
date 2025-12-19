@@ -41,6 +41,8 @@
 | [Enfasi](./emphases/) | Scopri come creare testo enfatizzato in Markdown usando Aspose.Words per .NET. Questa guida illustra gli stili grassetto, corsivo e combinato con istruzioni dettagliate. |
 | [Utilizzare la fonte di avviso](./use-warning-source/) | Padroneggia Aspose.Words per .NET con questa guida dettagliata sull'utilizzo della classe WarningSource per la gestione degli avvisi di Markdown. Perfetta per gli sviluppatori C#. |
 
+### [Converti DOCX in Markdown – Guida completa C# per l'esportazione da Word a Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/)
+Scopri come convertire documenti DOCX in Markdown usando Aspose.Words per .NET con questa guida completa in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,7 +40,8 @@ Words Processing with Markdownは、Aspose.Words for .NETライブラリを用�
 | [Markdownドキュメントを読む](./read-markdown-document/) Aspose.Words for .NET を使って Markdown ドキュメントを読み込んで操作する方法を、ステップバイステップで詳しく解説するチュートリアルで学びましょう。あらゆるレベルの開発者に最適です。 |
 | [強調点](./emphases/) Aspose.Words for .NET を使用して、Markdown で強調テキストを作成する方法を学びます。このガイドでは、太字、斜体、および複合スタイルをステップバイステップで説明します。 |
 | [警告ソースを使用する](./use-warning-source/) Markdownの警告を処理するためのWarningSourceクラスの使い方をステップバイステップで解説するガイドで、Aspose.Words for .NETをマスターしましょう。C#開発者に最適です。 |
-
+### [DOCX を Markdown に変換 – 完全な C# ガイド（Word から Markdown へのエクスポート）](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/)
+Aspose.Words for .NET を使用して DOCX ファイルを Markdown に変換し、エクスポートする完全な C# ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

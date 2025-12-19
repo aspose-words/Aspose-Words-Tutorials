@@ -38,6 +38,7 @@ Tekstverwerking met Markdown biedt een uitgebreide bron om te leren werken met h
 | [Geordende lijst](./ordered-list/) | Leer hoe u geordende lijsten in Word-documenten kunt maken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Perfect voor het automatiseren van documentcreatie. |
 | [Tafel](./table/) | Leer hoe u tabellen kunt maken en aanpassen in Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor het genereren van gestructureerde en visueel aantrekkelijke documenten. |
 | [Markdown-document lezen](./read-markdown-document/) Leer hoe u Markdown-documenten kunt lezen en bewerken met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze tutorial. Perfect voor ontwikkelaars van alle niveaus. |
+| [DOCX naar Markdown converteren – Complete C#-gids voor het exporteren van Word naar Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) | Leer hoe u DOCX-bestanden naar Markdown kunt converteren met een volledige C#-handleiding voor het exporteren van Word-documenten. |
 | [Nadruk](./emphases/) | Leer hoe je benadrukte tekst in Markdown maakt met Aspose.Words voor .NET. Deze handleiding behandelt de stijlen vet, cursief en gecombineerd, met stapsgewijze instructies. |
 | [Gebruik waarschuwingsbron](./use-warning-source/) | Leer Aspose.Words voor .NET met deze stapsgewijze handleiding over het gebruik van de klasse WarningSource voor het verwerken van Markdown-waarschuwingen. Perfect voor C#-ontwikkelaars. |
 

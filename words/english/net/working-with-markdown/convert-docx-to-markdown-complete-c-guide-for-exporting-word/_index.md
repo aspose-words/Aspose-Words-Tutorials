@@ -1,0 +1,265 @@
+---
+category: general
+date: 2025-12-19
+description: Learn how to convert DOCX to Markdown in C#. This step‑by‑step tutorial
+  also shows how to export Word to Markdown, extract images from DOCX, set image resolution,
+  and answer how to extract images efficiently.
+draft: false
+keywords:
+- convert docx to markdown
+- export word to markdown
+- extract images from docx
+- set image resolution
+- how to extract images
+language: en
+og_description: Convert DOCX to Markdown with Aspose.Words in C#. Follow this guide
+  to export Word to Markdown, extract images, set image resolution, and master how
+  to extract images.
+og_title: Convert DOCX to Markdown – Full C# Tutorial
+tags:
+- Aspose.Words
+- C#
+- Markdown
+- Document Conversion
+title: Convert DOCX to Markdown – Complete C# Guide for Exporting Word to Markdown
+url: /net/working-with-markdown/convert-docx-to-markdown-complete-c-guide-for-exporting-word/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert DOCX to Markdown – Complete C# Guide
+
+Ever needed to **convert DOCX to Markdown** but weren't sure where to start? You're not alone. Many developers hit a wall when they try to move rich Word content into lightweight Markdown for static sites, documentation pipelines, or version‑controlled notes. The good news? With Aspose.Words for .NET you can do it in a few lines, and you’ll also learn how to **export Word to Markdown**, **extract images from DOCX**, and **set image resolution** for those pictures.
+
+In this tutorial we’ll walk through a real‑world scenario: loading a potentially corrupted `.docx`, configuring the Markdown exporter to handle equations and images, and finally writing the output file. By the end you’ll know **how to extract images** cleanly, control their DPI, and have a reusable snippet you can drop into any project.
+
+> **Pro tip:** If you’re working with large Word files, always enable recovery mode – it saves you from mysterious crashes later on.
+
+---
+
+## What You’ll Need
+
+- **Aspose.Words for .NET** (any recent version, e.g., 24.10).  
+- .NET 6 or later (the code works on .NET Framework too).  
+- A folder structure like `YOUR_DIRECTORY/input.docx` and a place to store images (`MyImages`).  
+- Basic C# knowledge – no advanced tricks required.
+
+---
+
+## Step 1: Load the DOCX Safely – The First Piece in Converting DOCX to Markdown
+
+When you load a Word file that might be damaged, you don’t want the whole process to explode. The `LoadOptions` class gives you a **RecoveryMode** setting that can either prompt you, fail silently, or just keep going.
+
+```csharp
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+// Step 1: Load the DOCX file using recovery mode to handle possible corruption
+LoadOptions loadOptions = new LoadOptions
+{
+    // Prompt the user for recovery actions (alternatives: Silent, Fail)
+    RecoveryMode = RecoveryMode.Prompt
+};
+
+Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
+```
+
+**Why this matters:**  
+- **RecoveryMode.Prompt** asks the user whether to keep going if the file is corrupted, preventing silent data loss.  
+- If you prefer an automated pipeline, switch to `RecoveryMode.Silent`.  
+
+---
+
+## Step 2: Configure Markdown Export – Export Word to Markdown with Image Control
+
+Now that the document is in memory, we need to tell Aspose how we want the Markdown to look. This is where you **set image resolution**, decide how to handle OfficeMath (equations), and hook a callback to actually **extract images from DOCX**.
+
+```csharp
+// Step 2: Prepare Markdown export options with custom image handling
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // High‑resolution images keep your diagrams crisp
+    ImageResolution = 300,
+
+    // Export equations as LaTeX – perfect for static site generators
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // This callback runs for every image the exporter extracts
+    ResourceSavingCallback = resourceInfo =>
+    {
+        // Build the full path where the image will be saved
+        string imagePath = Path.Combine("YOUR_DIRECTORY/MyImages", resourceInfo.FileName);
+        File.WriteAllBytes(imagePath, resourceInfo.Data);
+
+        // Return the Markdown image reference that will be inserted into the file
+        // The alt‑text comes from the original Word image description
+        return $"![{resourceInfo.AltText}]({imagePath})";
+    }
+};
+```
+
+**Key points to remember:**
+
+- **ImageResolution = 300** means each extracted picture will be saved at 300 dpi, which is usually enough for print‑quality docs without blowing up file size.  
+- **OfficeMathExportMode.LaTeX** converts Word equations to LaTeX syntax, a format many static site generators understand.  
+- The **ResourceSavingCallback** is the heart of **how to extract images** – you decide the folder, naming, and even the Markdown syntax that points to the image.
+
+---
+
+## Step 3: Save the Markdown File – The Final Step in Converting DOCX to Markdown
+
+With everything configured, the last line writes the Markdown file to disk. The exporter automatically calls the callback for each image, so you get a clean folder of pictures and a ready‑to‑publish `.md` file.
+
+```csharp
+// Step 3: Export the document to Markdown using the configured options
+document.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+After this runs, you’ll see:
+
+- `output.md` containing the text, headings, and image references.  
+- A `MyImages` folder filled with PNG/JPEG files (or whatever format the original Word used).  
+
+---
+
+## How to Extract Images from DOCX – A Deeper Dive
+
+If you only care about pulling images out of a Word file—perhaps for a gallery or an asset pipeline—skip the Markdown part and use the same callback pattern:
+
+```csharp
+// Example: Extract images without generating Markdown
+document.Save("dummy.md", new MarkdownSaveOptions
+{
+    ImageResolution = 150, // lower DPI if you just need thumbnails
+    ResourceSavingCallback = info =>
+    {
+        string path = Path.Combine("YOUR_DIRECTORY/OnlyImages", info.FileName);
+        File.WriteAllBytes(path, info.Data);
+        // Returning null tells the exporter to ignore inserting a reference
+        return null;
+    }
+});
+```
+
+**Why return `null`?**  
+Returning `null` tells Aspose not to embed any Markdown link, so you end up with a folder of images only. This is a quick way to answer **how to extract images** without cluttering your Markdown.
+
+---
+
+## Set Image Resolution – Controlling Quality and Size
+
+Sometimes you need high‑resolution graphics for print, other times low‑resolution thumbnails for web. The `ImageResolution` property on `MarkdownSaveOptions` (or any `ImageSaveOptions`) lets you fine‑tune this.
+
+| Desired Use | Recommended DPI |
+|-------------|-----------------|
+| Web thumbnails | 72‑150 |
+| Documentation screenshots | 150‑200 |
+| Print‑ready diagrams | 300‑600 |
+
+Changing the DPI is as simple as adjusting the integer value:
+
+```csharp
+markdownOptions.ImageResolution = 600; // Ultra‑crisp for PDF generation later
+```
+
+Remember: higher DPI → larger file size. Balance based on your target platform.
+
+---
+
+## Common Pitfalls & How to Avoid Them
+
+- **Missing `MyImages` folder** – Aspose will throw an exception if the directory doesn’t exist. Create it beforehand or let the callback check `Directory.Exists` and call `Directory.CreateDirectory`.  
+- **Corrupted DOCX** – Even with `RecoveryMode.Prompt`, some files are beyond repair. In automated CI pipelines, switch to `RecoveryMode.Silent` and log warnings.  
+- **Non‑Latin characters in image names** – The callback uses `resourceInfo.FileName` which may contain spaces or Unicode. Wrap the file name in `Uri.EscapeDataString` when building the Markdown link to avoid broken URLs.  
+
+```csharp
+string safeName = Uri.EscapeDataString(resourceInfo.FileName);
+return $"![{resourceInfo.AltText}]({safeName})";
+```
+
+---
+
+## Full Working Example – Paste and Run
+
+Below is the complete program you can drop into a console app. It includes all the safety checks discussed above.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
+{
+    static void Main()
+    {
+        const string baseDir = @"YOUR_DIRECTORY";
+        const string inputPath = Path.Combine(baseDir, "input.docx");
+        const string outputPath = Path.Combine(baseDir, "output.md");
+        const string imagesFolder = Path.Combine(baseDir, "MyImages");
+
+        // Ensure the images folder exists
+        if (!Directory.Exists(imagesFolder))
+            Directory.CreateDirectory(imagesFolder);
+
+        // 1️⃣ Load the DOCX with recovery mode
+        LoadOptions loadOptions = new LoadOptions
+        {
+            RecoveryMode = RecoveryMode.Prompt
+        };
+        Document doc = new Document(inputPath, loadOptions);
+
+        // 2️⃣ Configure Markdown export (export word to markdown)
+        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+        {
+            ImageResolution = 300,
+            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            ResourceSavingCallback = info =>
+            {
+                // Build a safe file name for the image
+                string safeFileName = Uri.EscapeDataString(info.FileName);
+                string imagePath = Path.Combine(imagesFolder, safeFileName);
+                File.WriteAllBytes(imagePath, info.Data);
+                // Return the markdown image tag
+                return $"![{info.AltText}]({imagePath})";
+            }
+        };
+
+        // 3️⃣ Save as Markdown (convert docx to markdown)
+        doc.Save(outputPath, mdOptions);
+
+        Console.WriteLine("✅ Conversion complete!");
+        Console.WriteLine($"Markdown file: {outputPath}");
+        Console.WriteLine($"Extracted images folder: {imagesFolder}");
+    }
+}
+```
+
+**Expected output:**  
+Running the program prints a success message and creates `output.md`. Opening the Markdown file shows headings, bullet points, and image links like `![Chart](YOUR_DIRECTORY/MyImages/image1.png)`.
+
+---
+
+## Conclusion
+
+You now have a complete, production‑ready solution to **convert DOCX to Markdown** using C#. The guide covered how to **export Word to Markdown**, **extract images from DOCX**, and **set image resolution** for those pictures. By leveraging `LoadOptions` and `MarkdownSaveOptions`, you can handle corrupted files, control image quality, and decide exactly how each picture appears in the final Markdown.
+
+What’s next? Try swapping `MarkdownSaveOptions` for `HtmlSaveOptions` if you need HTML instead, or pipe the Markdown into a static site generator like Hugo or Jekyll. You could also experiment with `ResourceLoadingCallback` to embed images as Base64 strings for single‑file outputs.
+
+Feel free to tweak the DPI, change the image folder layout, or add custom naming conventions. The flexibility of Aspose.Words means you can adapt this pattern to virtually any document‑automation workflow.
+
+Happy coding, and may your documentation always stay lightweight and beautiful! 
+
+---
+
+> **Image illustration**  
+> ![convert docx to markdown workflow](/images/convert-docx-to-markdown-workflow.png)
+
+*Alt text:* *convert docx to markdown* diagram showing loading, configuring, and saving steps.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

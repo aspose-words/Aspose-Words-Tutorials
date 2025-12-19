@@ -38,6 +38,7 @@ Traitement de texte avec Markdown est une ressource complète pour apprendre à 
 | [Liste ordonnée](./ordered-list/) | Apprenez à créer des listes ordonnées dans des documents Word avec Aspose.Words pour .NET grâce à notre guide étape par étape. Idéal pour automatiser la création de documents. |
 | [Tableau](./table/) | Apprenez à créer et personnaliser des tableaux dans Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour générer des documents structurés et attrayants. |
 | [Lire le document Markdown](./read-markdown-document/) Apprenez à lire et manipuler des documents Markdown avec Aspose.Words pour .NET grâce à ce tutoriel détaillé, étape par étape. Idéal pour les développeurs de tous niveaux. |
+| [Convertir DOCX en Markdown – Guide complet C# pour l'exportation de Word vers Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) | Apprenez à convertir des fichiers DOCX en Markdown à l'aide d'Aspose.Words pour .NET avec ce guide complet en C#. |
 | [Emphases](./emphases/) | Apprenez à créer du texte mis en valeur en Markdown avec Aspose.Words pour .NET. Ce guide couvre les styles gras, italique et combinés, avec des instructions étape par étape. |
 | [Utiliser la source d'avertissement](./use-warning-source/) | Maîtrisez Aspose.Words pour .NET grâce à ce guide étape par étape sur l'utilisation de la classe WarningSource pour gérer les avertissements Markdown. Idéal pour les développeurs C#. |
 

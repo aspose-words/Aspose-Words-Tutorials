@@ -40,7 +40,7 @@
 | [قراءة مستند Markdown](./read-markdown-document/) تعلّم كيفية قراءة مستندات Markdown ومعالجتها باستخدام Aspose.Words لـ .NET من خلال هذا البرنامج التعليمي المفصل خطوة بخطوة. مثالي للمطورين من جميع المستويات.
 | [التأكيدات](./emphases/) | تعلّم كيفية إنشاء نص مُبرز في Markdown باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل الأنماط الغامقة والمائلة والمدمجة، مع تعليمات خطوة بخطوة. |
 | [استخدم مصدر التحذير](./use-warning-source/) أتقن استخدام Aspose.Words لـ .NET مع هذا الدليل التفصيلي حول استخدام فئة WarningSource للتعامل مع تحذيرات Markdown. مثالي لمطوري C#.
-
+| [تحويل DOCX إلى Markdown – دليل C# كامل لتصدير Word إلى Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

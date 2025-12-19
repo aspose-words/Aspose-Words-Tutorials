@@ -40,7 +40,7 @@ Words Processing with Markdown cung cấp một nguồn tài nguyên toàn diệ
 | [Đọc tài liệu Markdown](./read-markdown-document/) Tìm hiểu cách đọc và thao tác tài liệu Markdown bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ. |
 | [Nhấn mạnh](./emphases/) | Tìm hiểu cách tạo văn bản nhấn mạnh trong Markdown bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các kiểu in đậm, in nghiêng và kết hợp với hướng dẫn từng bước. |
 | [Sử dụng nguồn cảnh báo](./use-warning-source/) | Làm chủ Aspose.Words cho .NET với hướng dẫn từng bước này về cách sử dụng lớp WarningSource để xử lý cảnh báo Markdown. Hoàn hảo cho các nhà phát triển C#. |
-
+| [Chuyển DOCX sang Markdown – Hướng dẫn C# đầy đủ để xuất Word sang Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

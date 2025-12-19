@@ -38,6 +38,7 @@
 | [Geordnete Liste](./ordered-list/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET geordnete Listen in Word-Dokumenten erstellen. Perfekt für die Automatisierung der Dokumenterstellung. |
 | [Tisch](./table/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Tabellen in Aspose.Words für .NET erstellen und anpassen. Perfekt zum Erstellen strukturierter und optisch ansprechender Dokumente. |
 | [Markdown-Dokument lesen](./read-markdown-document/) Erfahren Sie in diesem detaillierten Schritt-für-Schritt-Tutorial, wie Sie Markdown-Dokumente mit Aspose.Words für .NET lesen und bearbeiten. Ideal für Entwickler aller Erfahrungsstufen. |
+| [DOCX in Markdown konvertieren – Vollständiger C#-Leitfaden zum Exportieren von Word nach Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) |  |
 | [Schwerpunkte](./emphases/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET hervorgehobenen Text in Markdown erstellen. Diese Anleitung behandelt die Formatierungen Fett, Kursiv und kombiniert mit Schritt-für-Schritt-Anleitungen. |
 | [Warnquelle verwenden](./use-warning-source/) | Meistern Sie Aspose.Words für .NET mit dieser Schritt-für-Schritt-Anleitung zur Verwendung der WarningSource-Klasse zur Behandlung von Markdown-Warnungen. Perfekt für C#-Entwickler. |
 

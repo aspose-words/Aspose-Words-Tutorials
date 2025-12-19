@@ -38,6 +38,7 @@
 | [有序列表](./ordered-list/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建有序列表，并遵循我们的分步指南。非常适合自动化文档创建。|
 | [桌子](./table/) 学习如何在 Aspose.Words for .NET 中创建和自定义表格，本指南将逐步讲解。非常适合生成结构化且视觉效果出色的文档。|
 | [阅读 Markdown 文档](./read-markdown-document/) 通过本教程学习如何使用 Aspose.Words for .NET 读取和操作 Markdown 文档，本教程详细且循序渐进，适合所有级别的开发人员。|
+| [将 DOCX 转换为 Markdown – 完整的 C# 指南，导出 Word 为 Markdown](./convert-docx-to-markdown-complete-c-guide-for-exporting-word/) 学习如何使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown 格式的完整 C# 指南。|
 | [重点](./emphases/) 学习如何使用 Aspose.Words for .NET 在 Markdown 中创建强调文本。本指南将逐步讲解粗体、斜体和组合样式。|
 | [使用警告源](./use-warning-source/) 掌握 Aspose.Words for .NET 的使用方法，了解如何使用 WarningSource 类处理 Markdown 警告。非常适合 C# 开发人员。|
 
