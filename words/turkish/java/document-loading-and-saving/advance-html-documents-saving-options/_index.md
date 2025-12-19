@@ -1,10 +1,13 @@
 ---
-"description": "Bu eğitimde, Aspose.Words for Java ile çeşitli gelişmiş HTML belge kaydetme seçeneklerini ele aldık. Bu seçenekler, yüksek kaliteli HTML oluşturmanıza olanak tanır"
-"linktitle": "HTML Belgelerini Kaydetme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Aspose.Words Java ile Gelişmiş HTML Belgeleri Kaydetme Seçenekleri"
-"url": "/tr/java/document-loading-and-saving/advance-html-documents-saving-options/"
-"weight": 16
+date: 2025-12-19
+description: Aspose.Words Java ile HTML dışa aktarmayı öğrenin; Word'ü HTML olarak
+  kaydetmek ve Word'ü verimli bir şekilde HTML'ye dönüştürmek için gelişmiş seçenekleri
+  kapsar.
+linktitle: Saving HTML Documents with
+second_title: Aspose.Words Java Document Processing API
+title: 'Aspose.Words Java ile HTML Nasıl Dışa Aktarılır: Gelişmiş Seçenekler'
+url: /tr/java/document-loading-and-saving/advance-html-documents-saving-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +16,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Java ile Gelişmiş HTML Belgeleri Kaydetme Seçenekleri
+# Aspose.Words Java ile HTML Dışa Aktarma: Gelişmiş Seçenekler
 
+Bu öğreticide Aspose.Words for Java kullanarak Word belgelerinden **HTML dışa aktarmayı** keşfedeceksiniz. Web yayıncılığı için **Word'ü HTML olarak kaydetmeniz** ya da **Word'ü HTML'ye dönüştürmeniz** gerektiğinde, gelişmiş kaydetme seçenekleri çıktıyı ince ayarlarla kontrol etmenizi sağlar. Her seçeneği adım adım inceleyecek, ne zaman kullanılacağını açıklayacak ve bu ayarların fark yarattığı gerçek dünya senaryolarını göstereceğiz.
 
-Bu eğitimde, Aspose.Words for Java tarafından sağlanan gelişmiş HTML belge kaydetme seçeneklerini inceleyeceğiz. Aspose.Words, Word belgeleriyle çalışmak için güçlü bir Java API'sidir ve belge düzenleme ve dönüştürme için çok çeşitli özellikler sunar.
+## Quick Answers
+- **HTML dışa aktarma için birincil sınıf nedir?** `HtmlSaveOptions`  
+- **Yazı tipleri doğrudan HTML içinde gömülebilir mi?** Evet, `exportFontsAsBase64` özelliğini `true` olarak ayarlayın.  
+- **Word‑özel round‑trip verilerini nasıl korurum?** `exportRoundtripInformation` özelliğini etkinleştirin.  
+- **Vektör grafikler için en iyi format hangisidir?** SVG çıktısı için `convertMetafilesToSvg` kullanın.  
+- **CSS sınıf adı çakışmalarından kaçınmak mümkün mü?** Evet, `addCssClassNamePrefix` kullanın.
 
-## 1. Giriş
-Java için Aspose.Words, Word belgeleriyle programatik olarak çalışmanıza olanak tanır. Bu eğitimde, Word belgelerinin HTML'ye nasıl dönüştürüleceğini kontrol etmenizi sağlayan gelişmiş HTML belge kaydetme seçeneklerine odaklanacağız.
+## 1. Introduction
+Aspose.Words for Java, geliştiricilerin Word belgelerini programlı olarak manipüle etmelerini sağlayan güçlü bir API'dir. Bu kılavuz, belirli web veya entegrasyon gereksinimlerini karşılamak için dönüşüm sürecini özelleştirmenize olanak tanıyan gelişmiş HTML belge kaydetme seçeneklerine odaklanmaktadır.
 
-## 2. Gidiş-Dönüş Bilgilerini Dışa Aktar
-The `exportRoundtripInformation` yöntem, gidiş-dönüş bilgilerini koruyarak Word belgelerini HTML'ye aktarmanıza olanak tanır. Bu bilgiler, belgeye özgü hiçbir ayrıntıyı kaybetmeden HTML'yi Word biçimine geri dönüştürmek istediğinizde yararlı olabilir.
+## 2. Export Roundtrip Information
+Round‑trip bilgilerini korumak, HTML'yi Word belgesine geri dönüştürürken düzen veya biçimlendirme detaylarını kaybetmemenizi sağlar.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -33,8 +42,12 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. Yazı Tiplerini Base64 Olarak Dışa Aktar
-İle `exportFontsAsBase64` yöntemiyle, belgede kullanılan yazı tiplerini HTML'de Base64 kodlu veri olarak dışa aktarabilirsiniz. Bu, HTML gösteriminin orijinal Word belgesiyle aynı yazı tipi stillerini korumasını sağlar.
+### When to use
+- HTML → Word → HTML gibi tersine dönüştürülebilir bir işlem hattına ihtiyaç duyduğunuzda.  
+- Orijinal Word yapısının korunması gereken işbirlikli düzenleme senaryoları için ideal.
+
+## 3. Export Fonts as Base64
+Yazı tiplerini doğrudan HTML içine gömmek, dış kaynak bağımlılıklarını ortadan kaldırır ve tarayıcılar arasında görsel tutarlılığı sağlar.
 
 ```java
 
@@ -46,8 +59,11 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
-## 4. Kaynakları İhracat Etmek
-The `exportResources` yöntemi, CSS stil sayfasının türünü belirtmenize ve yazı tipi kaynaklarını dışa aktarmanıza olanak tanır. Ayrıca HTML'de kaynaklar için bir kaynak klasörü ve bir takma ad da ayarlayabilirsiniz.
+### Pro tip
+Hedef ortamın dış kaynaklara sınırlı erişimi olduğu durumlarda (ör. e‑posta bültenleri) bu seçeneği kullanın.
+
+## 4. Export Resources
+CSS ve yazı tipi kaynaklarının nasıl yayımlanacağını kontrol eder ve bu varlıklar için özel bir klasör ya da URL takma adı belirlemenizi sağlar.
 
 ```java
 
@@ -57,13 +73,16 @@ public void exportResources() throws Exception {
     saveOptions.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
     saveOptions.setExportFontResources(true);
     saveOptions.setResourceFolder("Your Directory Path" + "Resources");
-    saveOptions.setResourceFolderAlias("http://ornek.com/kaynaklar");
+    saveOptions.setResourceFolderAlias("http://example.com/resources");
     doc.save("Your Directory Path" + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOptions);
 }
 ```
 
-## 5. Meta Dosyalarını EMF veya WMF'ye Dönüştürün
-The `convertMetafilesToEmfOrWmf` Bu yöntem, belgedeki meta dosyalarını EMF veya WMF biçimine dönüştürmenize olanak tanır ve HTML'de uyumluluğu ve düzgün işlemeyi garanti eder.
+### Why it matters
+CSS'i harici bir dosyaya ayırmak, HTML boyutunu küçültür ve önbellekleme sayesinde sayfa yüklemelerini hızlandırır.
+
+## 5. Convert Metafiles to EMF or WMF
+Metafile'lar (ör. EMF/WMF) tarayıcıların güvenilir bir şekilde render edebileceği bir formata dönüştürülür.
 
 ```java
 
@@ -75,7 +94,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 
 	builder.write("Here is an image as is: ");
 	builder.insertHtml(
-		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Kırmızı nokta\" />");
+		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n                    vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
 
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(); { saveOptions.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF); }
 
@@ -83,8 +102,11 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. Meta Dosyalarını SVG'ye Dönüştürün
-Kullanın `convertMetafilesToSvg` meta dosyalarını SVG formatına dönüştürme yöntemi. Bu format, HTML belgelerinde vektör grafiklerini görüntülemek için idealdir.
+### Use case
+Hedef tarayıcılar bu vektör formatlarını destekliyorsa ve kayıpsız ölçekleme ihtiyacınız varsa EMF/WMF seçin.
+
+## 6. Convert Metafiles to SVG
+SVG, en iyi ölçeklenebilirliği sunar ve modern tarayıcılar tarafından geniş çapta desteklenir.
 
 ```java
 
@@ -103,8 +125,11 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
-## 7. CSS Sınıf Adı Önekini Ekleyin
-İle `addCssClassNamePrefix` yöntemi, dışa aktarılan HTML'deki CSS sınıf adlarına bir önek ekleyebilirsiniz. Bu, mevcut stillerle çakışmaları önlemeye yardımcı olur.
+### Benefit
+SVG dosyaları hafiftir ve belgeyi çözünürlükten bağımsız tutar; responsive web tasarımı için mükemmeldir.
+
+## 7. Add CSS Class Name Prefix
+Oluşturulan tüm CSS sınıf adlarına ön ek ekleyerek stil çakışmalarını önleyin.
 
 ```java
 
@@ -117,8 +142,11 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. MHTML Kaynakları için CID URL'lerini dışa aktarın
-The `exportCidUrlsForMhtmlResources` yöntem, belgeleri MHTML biçiminde kaydederken kullanılır. Kaynaklar için İçerik Kimliği URL'lerinin dışa aktarılmasına izin verir.
+### Practical tip
+HTML'i mevcut sayfalara gömerken CSS çakışmalarını önlemek için benzersiz bir ön ek (ör. proje adınız) kullanın.
+
+## 8. Export CID URLs for MHTML Resources
+MHTML olarak kaydederken, kaynakları e‑posta uyumluluğunu artırmak için Content‑ID URL'leriyle dışa aktarabilirsiniz.
 
 ```java
 
@@ -135,8 +163,11 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
-## 9. Yazı Tipi Adlarını Çöz
-The `resolveFontNames` Bu yöntem, belgeleri HTML formatında kaydederken yazı tipi adlarının çözümlenmesine yardımcı olur ve farklı platformlarda tutarlı bir görüntüleme sağlar.
+### When to use
+Tek bir, kendine ait HTML dosyası oluşturup bunu e‑postalara eklemek istediğinizde idealdir.
+
+## 9. Resolve Font Names
+HTML'in doğru yazı tipi ailelerine referans vermesini sağlayarak platformlar arası tutarlılığı artırır.
 
 ```java
 
@@ -154,8 +185,11 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. Metin Giriş Formu Alanını Metin Olarak Dışa Aktar
-The `exportTextInputFormFieldAsText` method form alanlarını HTML'de düz metin olarak dışa aktarır, böylece kolayca okunabilir ve düzenlenebilir hale gelir.
+### Why it helps
+Orijinal belgede istemci makinede yüklü olmayan yazı tipleri kullanılmışsa, bu seçenek web‑güvenli alternatiflerle değiştirir.
+
+## 10. Export Text Input Form Field as Text
+Form alanlarını etkileşimli HTML giriş elemanları yerine düz metin olarak dışa aktarın.
 
 ```java
 
@@ -166,13 +200,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// Belirtilen klasörün mevcut olması ve boş olması gerekiyor.
+	// The folder specified needs to exist and should be empty.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// Form alanlarını HTML giriş öğeleri olarak değil, düz metin olarak dışa aktarmak için bir seçenek belirleyin.
+	// Set an option to export form fields as plain text, not as HTML input elements.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -182,32 +216,42 @@ public void exportTextInputFormFieldAsText() throws Exception {
 }
 ```
 
-## Çözüm
-Bu eğitimde, Aspose.Words for Java tarafından sağlanan gelişmiş HTML belge kaydetme seçeneklerini inceledik. Bu seçenekler, dönüştürme süreci üzerinde ayrıntılı kontrol sağlayarak orijinal Word belgelerine oldukça benzeyen HTML belgeleri oluşturmanıza olanak tanır.
+### Use case
+Arşivleme veya baskı amaçlı, formun yalnızca okunabilir bir temsiline ihtiyacınız olduğunda.
 
-## SSS
-Aspose.Words for Java ve HTML belge kaydetme seçenekleriyle ilgili sık sorulan sorulardan bazıları şunlardır:
+## Common Pitfalls & Troubleshooting
+| Issue | Typical Cause | Fix |
+|-------|---------------|-----|
+| Çıktıda eksik yazı tipleri | `exportFontsAsBase64` etkin değil | `setExportFontsAsBase64(true)` olarak ayarlayın |
+| Gömme sonrası bozuk CSS | `EXTERNAL` kullanırken CSS dosyası sağlanmamış | Belirtilen `resourceFolderAlias` konumunda CSS dosyasının dağıtıldığından emin olun |
+| Büyük HTML boyutu | Çok sayıda resmi Base64 olarak gömmek | `setExportFontResources(true)` ile harici resim kaynaklarına geçin ve `resourceFolder` yapılandırın |
+| SVG eski tarayıcılarda render olmuyor | Tarayıcı SVG desteğine sahip değil | EMF/WMF olarak da dışa aktararak yedek PNG sağlayın |
 
-### S1: Aspose.Words for Java kullanarak HTML'yi Word formatına nasıl geri dönüştürebilirim?
-HTML'yi Word biçimine geri dönüştürmek için Aspose.Words API'lerini kullanabilirsiniz `load` HTML belgesini yükleme ve ardından Word formatında kaydetme yöntemi.
+## Frequently Asked Questions
 
-### S2: HTML'e aktarırken CSS stillerini özelleştirebilir miyim?
-Evet, HTML'de kullanılan stil sayfalarını değiştirerek veya CSS stillerini özelleştirebilirsiniz. `addCssClassNamePrefix` CSS sınıf adlarına önek ekleme yöntemi.
+**S: Yazı tiplerini Base64 olarak gömerken dış CSS'i de tutabilir miyim?**  
+C: Evet. `exportFontsAsBase64(true)` ayarlarken `CssStyleSheetType.EXTERNAL` tutarak yazı tipi verilerini stil kurallarından ayırabilirsiniz.
 
-### S3: HTML çıktısını web gösterimi için optimize etmenin bir yolu var mı?
-Evet, fontları Base64 olarak dışa aktarma ve meta dosyalarını SVG'ye dönüştürme gibi seçenekleri yapılandırarak HTML çıktısını web gösterimi için optimize edebilirsiniz.
+**S: Mevcut bir HTML dosyasını tekrar Word belgesine nasıl dönüştürürüm?**  
+C: `Document doc = new Document("input.html");` ile HTML'i yükleyin ve ardından `doc.save("output.docx");` ile kaydedin. İlk dışa aktarmada `exportRoundtripInformation` kullanarak round‑trip verisini koruyun.
 
-### S4: Karmaşık Word belgelerini HTML'ye dönüştürürken herhangi bir sınırlama var mı?
-Aspose.Words for Java güçlü dönüştürme yetenekleri sağlasa da, karmaşık düzenlere sahip karmaşık Word belgelerinin istenen HTML çıktısını elde etmek için ek son işleme tabi tutulması gerekebilir.
+**S: SVG dönüşümü performansı etkiler mi?**  
+C: Büyük metafile'ları SVG'ye dönüştürmek işlem süresini artırabilir, ancak ortaya çıkan HTML genellikle daha küçüktür ve tarayıcılarda daha hızlı render olur.
 
+**S: Bu seçenekler Aspose.Words for .NET'te de çalışıyor mu?**  
+C: Aynı kavramlar .NET API'sinde de mevcuttur, ancak metod isimleri biraz farklı olabilir (ör. `HtmlSaveOptions` her iki platformda da ortak).
 
+**S: E‑posta dostu HTML için hangi seçeneği tercih etmeliyim?**  
+C: Tüm kaynakları doğrudan e‑posta gövdesine gömmek için `SaveFormat.MHTML` ve `exportCidUrlsForMhtmlResources` kullanın.
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

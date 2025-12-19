@@ -1,10 +1,12 @@
 ---
-"description": "Trong hướng dẫn này, chúng tôi đã đề cập đến nhiều tùy chọn lưu tài liệu HTML nâng cao với Aspose.Words for Java. Các tùy chọn này cho phép bạn tạo HTML chất lượng cao"
-"linktitle": "Lưu tài liệu HTML với"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Tùy chọn lưu tài liệu HTML nâng cao với Aspose.Words Java"
-"url": "/vi/java/document-loading-and-saving/advance-html-documents-saving-options/"
-"weight": 16
+date: 2025-12-19
+description: Tìm hiểu cách xuất HTML với Aspose.Words Java, bao gồm các tùy chọn nâng
+  cao để lưu Word dưới dạng HTML và chuyển đổi Word sang HTML một cách hiệu quả.
+linktitle: Saving HTML Documents with
+second_title: Aspose.Words Java Document Processing API
+title: 'Cách xuất HTML với Aspose.Words Java: Các tùy chọn nâng cao'
+url: /vi/java/document-loading-and-saving/advance-html-documents-saving-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chọn lưu tài liệu HTML nâng cao với Aspose.Words Java
+# Cách xuất HTML với Aspose.Words Java: Các tùy chọn nâng cao
 
+Trong hướng dẫn này, bạn sẽ khám phá **cách xuất HTML** từ tài liệu Word bằng Aspose.Words cho Java. Dù bạn cần **lưu Word dưới dạng HTML** để xuất bản trên web hay **chuyển đổi Word sang HTML** để xử lý tiếp theo, các tùy chọn lưu nâng cao cho phép bạn kiểm soát chi tiết đầu ra. Chúng tôi sẽ hướng dẫn từng tùy chọn một cách từng bước, giải thích khi nào nên sử dụng và đưa ra các kịch bản thực tế nơi các cài đặt này tạo ra sự khác biệt.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá các tùy chọn lưu tài liệu HTML nâng cao do Aspose.Words for Java cung cấp. Aspose.Words là một API Java mạnh mẽ để làm việc với các tài liệu Word và cung cấp nhiều tính năng để thao tác và chuyển đổi tài liệu.
+## Trả lời nhanh
+- **Lớp chính để xuất HTML là gì?** `HtmlSaveOptions`  
+- **Có thể nhúng phông chữ trực tiếp trong HTML không?** Có, đặt `exportFontsAsBase64` thành `true`.  
+- **Làm sao để giữ dữ liệu vòng‑đi chuyển Word‑đặc thù?** Bật `exportRoundtripInformation`.  
+- **Định dạng nào là tốt nhất cho đồ họa vector?** Sử dụng `convertMetafilesToSvg` để xuất SVG.  
+- **Có thể tránh xung đột tên lớp CSS không?** Có, sử dụng `addCssClassNamePrefix`.
 
 ## 1. Giới thiệu
-Aspose.Words for Java cho phép bạn làm việc với các tài liệu Word theo chương trình. Trong hướng dẫn này, chúng tôi sẽ tập trung vào các tùy chọn lưu tài liệu HTML nâng cao, cho phép bạn kiểm soát cách các tài liệu Word được chuyển đổi sang HTML.
+Aspose.Words cho Java là một API mạnh mẽ cho phép các nhà phát triển thao tác tài liệu Word một cách lập trình. Hướng dẫn này tập trung vào các tùy chọn lưu tài liệu HTML nâng cao, giúp bạn tùy chỉnh quá trình chuyển đổi để đáp ứng các yêu cầu web hoặc tích hợp cụ thể.
 
-## 2. Xuất thông tin khứ hồi
-Các `exportRoundtripInformation` phương pháp này cho phép bạn xuất tài liệu Word sang HTML trong khi vẫn giữ nguyên thông tin khứ hồi. Thông tin này có thể hữu ích khi bạn muốn chuyển đổi HTML trở lại định dạng Word mà không làm mất bất kỳ chi tiết cụ thể nào của tài liệu.
+## 2. Xuất thông tin vòng‑đi chuyển (Roundtrip Information)
+Việc bảo tồn thông tin vòng‑đi chuyển cho phép bạn chuyển đổi HTML trở lại tài liệu Word mà không mất chi tiết bố cục hoặc định dạng.
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -33,8 +41,12 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. Xuất Phông chữ dưới dạng Base64
-Với `exportFontsAsBase64` phương pháp, bạn có thể xuất phông chữ được sử dụng trong tài liệu dưới dạng dữ liệu được mã hóa Base64 trong HTML. Điều này đảm bảo rằng biểu diễn HTML giữ nguyên cùng kiểu phông chữ như tài liệu Word gốc.
+### Khi nào nên sử dụng
+- Khi bạn cần một quy trình chuyển đổi có thể đảo ngược (HTML → Word → HTML).  
+- Thích hợp cho các kịch bản chỉnh sửa cộng tác, nơi cấu trúc Word gốc phải được giữ lại.
+
+## 3. Xuất phông chữ dưới dạng Base64
+Nhúng phông chữ trực tiếp vào HTML loại bỏ phụ thuộc vào phông chữ bên ngoài và đảm bảo độ chính xác hình ảnh trên mọi trình duyệt.
 
 ```java
 
@@ -46,8 +58,11 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
+### Mẹo chuyên nghiệp
+Sử dụng tùy chọn này khi môi trường đích có hạn chế truy cập tài nguyên bên ngoài (ví dụ: bản tin email).
+
 ## 4. Xuất tài nguyên
-Các `exportResources` phương pháp này cho phép bạn chỉ định loại CSS stylesheet và xuất tài nguyên phông chữ. Bạn cũng có thể thiết lập thư mục tài nguyên và bí danh cho tài nguyên trong HTML.
+Kiểm soát cách CSS và tài nguyên phông chữ được phát ra, và chỉ định thư mục hoặc bí danh URL tùy chỉnh cho các tài sản đó.
 
 ```java
 
@@ -62,8 +77,11 @@ public void exportResources() throws Exception {
 }
 ```
 
-## 5. Chuyển đổi Metafiles sang EMF hoặc WMF
-Các `convertMetafilesToEmfOrWmf` Phương pháp này cho phép bạn chuyển đổi các siêu tệp trong tài liệu sang định dạng EMF hoặc WMF, đảm bảo khả năng tương thích và hiển thị mượt mà trong HTML.
+### Tại sao quan trọng
+Tách CSS ra thành tệp riêng giảm kích thước HTML và cho phép bộ nhớ đệm, giúp tải trang nhanh hơn.
+
+## 5. Chuyển đổi Metafile sang EMF hoặc WMF
+Metafile (ví dụ: EMF/WMF) được chuyển đổi sang định dạng mà trình duyệt có thể hiển thị một cách đáng tin cậy.
 
 ```java
 
@@ -75,7 +93,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 
 	builder.write("Here is an image as is: ");
 	builder.insertHtml(
-		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Chấm đỏ\" />");
+		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n                    vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
 
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(); { saveOptions.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF); }
 
@@ -83,8 +101,11 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. Chuyển đổi Metafiles sang SVG
-Sử dụng `convertMetafilesToSvg` phương pháp chuyển đổi tệp meta sang định dạng SVG. Định dạng này lý tưởng để hiển thị đồ họa vector trong tài liệu HTML.
+### Trường hợp sử dụng
+Chọn EMF/WMF khi các trình duyệt mục tiêu hỗ trợ các định dạng vector này và bạn cần khả năng phóng to không mất chất lượng.
+
+## 6. Chuyển đổi Metafile sang SVG
+SVG cung cấp khả năng mở rộng tốt nhất và được hỗ trợ rộng rãi trên các trình duyệt hiện đại.
 
 ```java
 
@@ -103,8 +124,11 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
-## 7. Thêm tiền tố tên lớp CSS
-Với `addCssClassNamePrefix` phương pháp, bạn có thể thêm tiền tố vào tên lớp CSS trong HTML đã xuất. Điều này giúp ngăn ngừa xung đột với các kiểu hiện có.
+### Lợi ích
+Tệp SVG nhẹ và giữ độ phân giải độc lập, hoàn hảo cho thiết kế web đáp ứng.
+
+## 7. Thêm tiền tố cho tên lớp CSS
+Ngăn ngừa xung đột kiểu bằng cách thêm tiền tố vào tất cả các tên lớp CSS được tạo.
 
 ```java
 
@@ -117,8 +141,11 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
-## 8. Xuất URL CID cho Tài nguyên MHTML
-Các `exportCidUrlsForMhtmlResources` phương pháp này được sử dụng khi lưu tài liệu ở định dạng MHTML. Nó cho phép xuất URL Content-ID cho các tài nguyên.
+### Mẹo thực tiễn
+Sử dụng một tiền tố duy nhất (ví dụ: tên dự án của bạn) khi nhúng HTML vào các trang hiện có để tránh xung đột CSS.
+
+## 8. Xuất URL CID cho tài nguyên MHTML
+Khi lưu dưới dạng MHTML, bạn có thể xuất tài nguyên bằng URL Content‑ID để tăng khả năng tương thích email.
 
 ```java
 
@@ -135,8 +162,11 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
+### Khi nào nên sử dụng
+Thích hợp cho việc tạo một tệp HTML duy nhất, tự chứa, có thể đính kèm vào email.
+
 ## 9. Giải quyết tên phông chữ
-Các `resolveFontNames` Phương pháp này giúp giải quyết tên phông chữ khi lưu tài liệu ở định dạng HTML, đảm bảo hiển thị nhất quán trên các nền tảng khác nhau.
+Đảm bảo HTML tham chiếu đúng họ phông chữ, cải thiện tính nhất quán đa nền tảng.
 
 ```java
 
@@ -154,8 +184,11 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
+### Tại sao hữu ích
+Nếu tài liệu gốc sử dụng phông chữ không được cài đặt trên máy khách, tùy chọn này sẽ thay thế chúng bằng các phông chữ an toàn cho web.
+
 ## 10. Xuất trường biểu mẫu nhập văn bản dưới dạng văn bản
-Các `exportTextInputFormFieldAsText` phương pháp này xuất các trường biểu mẫu dưới dạng văn bản thuần túy trong HTML, giúp chúng dễ đọc và dễ chỉnh sửa.
+Hiển thị trường biểu mẫu dưới dạng văn bản thuần thay vì các phần tử nhập HTML tương tác.
 
 ```java
 
@@ -166,13 +199,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// Thư mục được chỉ định phải tồn tại và phải trống.
+	// The folder specified needs to exist and should be empty.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// Đặt tùy chọn để xuất các trường biểu mẫu dưới dạng văn bản thuần túy, không phải dưới dạng phần tử đầu vào HTML.
+	// Set an option to export form fields as plain text, not as HTML input elements.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -182,32 +215,44 @@ public void exportTextInputFormFieldAsText() throws Exception {
 }
 ```
 
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã khám phá các tùy chọn lưu tài liệu HTML nâng cao do Aspose.Words for Java cung cấp. Các tùy chọn này cung cấp cho bạn quyền kiểm soát chi tiết đối với quá trình chuyển đổi, cho phép bạn tạo các tài liệu HTML gần giống với tài liệu Word gốc.
+### Trường hợp sử dụng
+Khi bạn cần một biểu diễn chỉ đọc của biểu mẫu để lưu trữ hoặc in ấn.
+
+## Các lỗi thường gặp & Khắc phục
+| Vấn đề | Nguyên nhân thường gặp | Cách khắc phục |
+|-------|------------------------|----------------|
+| Phông chữ thiếu trong đầu ra | `exportFontsAsBase64` chưa được bật | Đặt `setExportFontsAsBase64(true)` |
+| CSS bị hỏng sau khi nhúng | Sử dụng `EXTERNAL` mà không cung cấp tệp CSS | Đảm bảo tệp CSS được triển khai tại `resourceFolderAlias` đã chỉ định |
+| Kích thước HTML lớn | Nhúng nhiều hình ảnh dưới dạng Base64 | Chuyển sang tài nguyên ảnh bên ngoài bằng `setExportFontResources(true)` và cấu hình `resourceFolder` |
+| SVG không hiển thị trên trình duyệt cũ | Trình duyệt không hỗ trợ SVG | Cung cấp ảnh PNG dự phòng bằng cách cũng xuất dưới dạng EMF/WMF |
 
 ## Câu hỏi thường gặp
-Sau đây là một số câu hỏi thường gặp về cách sử dụng Aspose.Words cho Java và các tùy chọn lưu tài liệu HTML:
 
-### Câu hỏi 1: Làm thế nào tôi có thể chuyển đổi HTML trở lại định dạng Word bằng Aspose.Words cho Java?
-Để chuyển đổi HTML trở lại định dạng Word, bạn có thể sử dụng API Aspose.Words `load` phương pháp tải tài liệu HTML và sau đó lưu ở định dạng Word.
+**H: Tôi có thể vừa nhúng phông chữ dưới dạng Base64 vừa giữ CSS bên ngoài không?**  
+Đ: Có. Đặt `exportFontsAsBase64(true)` đồng thời giữ `CssStyleSheetType.EXTERNAL` để tách dữ liệu phông chữ khỏi quy tắc kiểu.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh kiểu CSS khi xuất sang HTML không?
-Có, bạn có thể tùy chỉnh các kiểu CSS bằng cách sửa đổi các bảng định kiểu được sử dụng trong HTML hoặc bằng cách sử dụng `addCssClassNamePrefix` phương pháp thêm tiền tố vào tên lớp CSS.
+**H: Làm sao chuyển lại HTML hiện có thành tài liệu Word?**  
+Đ: Tải HTML bằng `Document doc = new Document("input.html");` rồi `doc.save("output.docx");`. Bảo tồn dữ liệu vòng‑đi chuyển bằng cách bật `exportRoundtripInformation` trong quá trình xuất ban đầu.
 
-### Câu hỏi 3: Có cách nào để tối ưu hóa đầu ra HTML để hiển thị trên web không?
-Có, bạn có thể tối ưu hóa đầu ra HTML để hiển thị trên web bằng cách cấu hình các tùy chọn như xuất phông chữ dưới dạng Base64 và chuyển đổi siêu tệp sang SVG.
+**H: Việc chuyển đổi sang SVG có ảnh hưởng tới hiệu năng không?**  
+Đ: Chuyển đổi các metafile lớn sang SVG có thể tăng thời gian xử lý, nhưng HTML tạo ra thường nhỏ hơn và render nhanh hơn trên trình duyệt.
 
-### Câu hỏi 4: Có hạn chế nào khi chuyển đổi các tài liệu Word phức tạp sang HTML không?
-Mặc dù Aspose.Words for Java cung cấp khả năng chuyển đổi mạnh mẽ nhưng các tài liệu Word phức tạp với bố cục phức tạp có thể cần xử lý hậu kỳ bổ sung để đạt được đầu ra HTML mong muốn.
+**H: Các tùy chọn này có hoạt động với Aspose.Words cho .NET không?**  
+Đ: Các khái niệm tương tự tồn tại trong API .NET, mặc dù tên phương thức có thể hơi khác (ví dụ: `HtmlSaveOptions` được chia sẻ giữa các nền tảng).
 
+**H: Tôi nên chọn tùy chọn nào cho HTML thân thiện với email?**  
+Đ: Sử dụng `SaveFormat.MHTML` cùng `exportCidUrlsForMhtmlResources` để nhúng tất cả tài nguyên trực tiếp vào phần thân email.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Đã kiểm tra với:** Aspose.Words cho Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

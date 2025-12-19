@@ -1,10 +1,12 @@
 ---
-"description": "在本教程中，我們介紹了使用 Aspose.Words for Java 的各種進階 HTML 文件保存選項。這些選項使您能夠創建高品質的 HTML"
-"linktitle": "使用以下方式儲存 HTML 文件"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "使用 Aspose.Words Java 的高階 HTML 文件儲存選項"
-"url": "/zh-hant/java/document-loading-and-saving/advance-html-documents-saving-options/"
-"weight": 16
+date: 2025-12-19
+description: 學習如何使用 Aspose.Words Java 匯出 HTML，涵蓋將 Word 儲存為 HTML 的進階選項，以及高效地將 Word
+  轉換為 HTML。
+linktitle: Saving HTML Documents with
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words Java 匯出 HTML：進階選項
+url: /zh-hant/java/document-loading-and-saving/advance-html-documents-saving-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Words Java 的高階 HTML 文件儲存選項
+# 如何使用 Aspose.Words Java 匯出 HTML：進階選項
 
+在本教學中，您將學會 **如何匯出 HTML**，將 Word 文件透過 Aspose.Words for Java 轉換成 HTML。無論是要 **將 Word 另存為 HTML** 以進行網站發佈，或是 **將 Word 轉換為 HTML** 以供後續處理，進階儲存選項都能讓您對輸出結果進行細緻的控制。我們將逐一說明每個選項的使用時機，並展示這些設定在實務情境中如何發揮作用。
 
-在本教學中，我們將探索 Aspose.Words for Java 提供的進階 HTML 文件保存選項。 Aspose.Words 是一個用於處理 Word 文件的強大的 Java API，它提供了廣泛的文件操作和轉換功能。
+## 快速解答
+- **HTML 匯出的主要類別是什麼？** `HtmlSaveOptions`  
+- **可以直接在 HTML 中嵌入字型嗎？** 可以，將 `exportFontsAsBase64` 設為 `true`。  
+- **如何保留 Word 專屬的往返資訊？** 啟用 `exportRoundtripInformation`。  
+- **哪種格式最適合向量圖形？** 使用 `convertMetafilesToSvg` 產生 SVG 輸出。  
+- **是否能避免 CSS 類別名稱衝突？** 可以，使用 `addCssClassNamePrefix`。
 
-## 1. 簡介
-Aspose.Words for Java 可讓您以程式設計方式處理 Word 文件。在本教學中，我們將重點介紹進階 HTML 文件保存選項，這些選項可讓您控制 Word 文件轉換為 HTML 的方式。
+## 1. 介紹
+Aspose.Words for Java 是一套功能強大的 API，讓開發者能以程式方式操作 Word 文件。本指南聚焦於進階的 HTML 文件儲存選項，協助您依照特定的網站或整合需求，客製化轉換流程。
 
-## 2. 匯出往返訊息
-這 `exportRoundtripInformation` 方法可讓您將 Word 文件匯出為 HTML，同時保留往返資訊。當您想要將 HTML 轉換回 Word 格式而不遺失任何特定於文件的詳細資訊時，此資訊非常有用。
+## 2. 匯出往返資訊
+保留往返資訊可讓您在將 HTML 重新轉回 Word 時，不會遺失版面或格式細節。
 
 ```java
 public void exportRoundtripInformation() throws Exception {
@@ -33,8 +41,12 @@ public void exportRoundtripInformation() throws Exception {
 }
 ```
 
-## 3. 將字體匯出為 Base64
-隨著 `exportFontsAsBase64` 方法，您可以將文件中使用的字體匯出為 HTML 中的 Base64 編碼資料。這可確保 HTML 表示保留與原始 Word 文件相同的字體樣式。
+### 使用時機
+- 需要可逆的轉換流程（HTML → Word → HTML）時。  
+- 於協同編輯情境下，必須保留原始 Word 結構時。
+
+## 3. 匯出字型為 Base64
+將字型直接嵌入 HTML，可消除外部字型依賴，確保在各瀏覽器中的視覺一致性。
 
 ```java
 
@@ -46,8 +58,11 @@ public void exportFontsAsBase64() throws Exception {
 }
 ```
 
-## 4. 導出資源
-這 `exportResources` 方法可讓您指定 CSS 樣式表的類型並匯出字體資源。您也可以在 HTML 中設定資源資料夾和資源的別名。
+### 專業小技巧
+當目標環境對外部資源存取受限（例如電子報）時，建議使用此選項。
+
+## 4. 匯出資源
+控制 CSS 與字型資源的輸出方式，並可為這些資產指定自訂資料夾或 URL 別名。
 
 ```java
 
@@ -57,13 +72,16 @@ public void exportResources() throws Exception {
     saveOptions.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
     saveOptions.setExportFontResources(true);
     saveOptions.setResourceFolder("Your Directory Path" + "Resources");
-    saveOptions.setResourceFolderAlias("http://example.com/resources”);
+    saveOptions.setResourceFolderAlias("http://example.com/resources");
     doc.save("Your Directory Path" + "WorkingWithHtmlSaveOptions.ExportResources.html", saveOptions);
 }
 ```
 
-## 5. 將圖元檔轉換為 EMF 或 WMF
-這 `convertMetafilesToEmfOrWmf` 此方法可讓您將文件中的元檔案轉換為 EMF 或 WMF 格式，確保相容性和 HTML 中的流暢渲染。
+### 為什麼重要
+將 CSS 分離為外部檔案可減少 HTML 大小，且可透過快取提升頁面載入速度。
+
+## 5. 將 Metafile 轉換為 EMF 或 WMF
+Metafile（如 EMF/WMF）會被轉換為瀏覽器能可靠呈現的格式。
 
 ```java
 
@@ -75,7 +93,7 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 
 	builder.write("Here is an image as is: ");
 	builder.insertHtml(
-		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"紅點\" />");
+		"<img src=\"data:image/png;base64,\r\n                    iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGP\r\n                    C/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YGARc5KB0XV+IA\r\n                    AAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAF1J\r\n                    REFUGNO9zL0NglAAxPEfdLTs4BZM4DIO4C7OwQg2JoQ9LE1exdlYvBBeZ7jq\r\n                    ch9//q1uH4TLzw4d6+ErXMMcXuHWxId3KOETnnXXV6MJpcq2MLaI97CER3N0\r\n                    vr4MkhoXe0rZigAAAABJRU5ErkJggg==\" alt=\"Red dot\" />");
 
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(); { saveOptions.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF); }
 
@@ -83,8 +101,11 @@ public void convertMetafilesToEmfOrWmf() throws Exception {
 }
 ```
 
-## 6. 將圖元檔轉換為 SVG
-使用 `convertMetafilesToSvg` 將元檔案轉換為 SVG 格式的方法。此格式非常適合在 HTML 文件中顯示向量圖形。
+### 使用情境
+當目標瀏覽器支援這些向量格式且您需要無損縮放時，請選擇 EMF/WMF。
+
+## 6. 將 Metafile 轉換為 SVG
+SVG 提供最佳的可伸縮性，且在現代瀏覽器中廣受支援。
 
 ```java
 
@@ -103,8 +124,11 @@ public void convertMetafilesToSvg() throws Exception {
 }
 ```
 
+### 好處
+SVG 檔案輕量且保持文件的解析度獨立性，非常適合響應式網頁設計。
+
 ## 7. 新增 CSS 類別名稱前綴
-隨著 `addCssClassNamePrefix` 方法，您可以在匯出的 HTML 中為 CSS 類別名稱加上前綴。這有助於防止與現有樣式發生衝突。
+透過為所有產生的 CSS 類別名稱加上前綴，避免樣式衝突。
 
 ```java
 
@@ -117,8 +141,11 @@ public void addCssClassNamePrefix() throws Exception {
 }
 ```
 
+### 實用建議
+在將 HTML 嵌入既有頁面時，使用唯一的前綴（例如您的專案名稱），以防止 CSS 衝突。
+
 ## 8. 匯出 MHTML 資源的 CID URL
-這 `exportCidUrlsForMhtmlResources` 方法用於將文件儲存為 MHTML 格式。它允許導出資源的 Content-ID URL。
+以 MHTML 格式儲存時，可使用 Content‑ID URL 匯出資源，提升電子郵件相容性。
 
 ```java
 
@@ -135,8 +162,11 @@ public void exportCidUrlsForMhtmlResources() throws Exception {
 }
 ```
 
-## 9. 解析字體名稱
-這 `resolveFontNames` 方法有助於在以 HTML 格式儲存文件時解析字體名稱，確保在不同平台上保持一致的渲染。
+### 使用時機
+適用於產生單一、完整的 HTML 檔案，並可直接作為電子郵件附件。
+
+## 9. 解析字型名稱
+確保 HTML 參照正確的字型族，提升跨平台的一致性。
 
 ```java
 
@@ -154,8 +184,11 @@ public void resolveFontNames() throws Exception {
 }
 ```
 
-## 10. 將文字輸入表單欄位匯出為文字
-這 `exportTextInputFormFieldAsText` 方法將表單欄位匯出為 HTML 中的純文本，使其易於閱讀和編輯。
+### 為什麼有幫助
+若原始文件使用的字型在客戶端機器上未安裝，此選項會自動替換為網頁安全字型。
+
+## 10. 將文字輸入表單欄位匯出為純文字
+將表單欄位以純文字方式呈現，而非互動式的 HTML 輸入元件。
 
 ```java
 
@@ -166,13 +199,13 @@ public void exportTextInputFormFieldAsText() throws Exception {
 
 	String imagesDir = Path.combine(dataDir, "Images");
 
-	// 指定的資料夾必須存在並且應該為空。
+	// The folder specified needs to exist and should be empty.
 	if (Directory.exists(imagesDir))
 		Directory.delete(imagesDir, true);
 
 	Directory.createDirectory(imagesDir);
 
-	// 設定一個選項將表單欄位匯出為純文本，而不是 HTML 輸入元素。
+	// Set an option to export form fields as plain text, not as HTML input elements.
 	HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
 	{
 		saveOptions.setExportTextInputFormFieldAsText(true); saveOptions.setImagesFolder(imagesDir);
@@ -182,32 +215,44 @@ public void exportTextInputFormFieldAsText() throws Exception {
 }
 ```
 
-## 結論
-在本教程中，我們探索了 Aspose.Words for Java 提供的高級 HTML 文件保存選項。這些選項可讓您對轉換過程進行細粒度的控制，從而允許您建立與原始 Word 文件非常相似的 HTML 文件。
+### 使用情境
+需要將表單以唯讀方式保存以供歸檔或列印時。
 
-## 常見問題解答
-以下是有關使用 Aspose.Words for Java 和 HTML 文件保存選項的一些常見問題：
+## 常見問題與除錯
+| 問題 | 常見原因 | 解決方法 |
+|------|----------|----------|
+| 輸出中缺少字型 | 未啟用 `exportFontsAsBase64` | 設定 `setExportFontsAsBase64(true)` |
+| 嵌入後 CSS 損壞 | 使用 `EXTERNAL` 卻未提供 CSS 檔案 | 確認 CSS 檔案已部署於指定的 `resourceFolderAlias` |
+| HTML 檔案過大 | 大量圖片以 Base64 方式嵌入 | 改為使用外部圖片資源，透過 `setExportFontResources(true)` 並設定 `resourceFolder` |
+| SVG 在舊版瀏覽器無法顯示 | 瀏覽器不支援 SVG | 同時匯出為 EMF/WMF，提供 PNG 替代方案 |
 
-### 問題 1：如何使用 Aspose.Words for Java 將 HTML 轉換回 Word 格式？
-要將 HTML 轉換回 Word 格式，您可以使用 Aspose.Words API 的 `load` 方法載入HTML文檔，然後將其儲存為Word格式。
+## 常見問答
 
-### 問題2：匯出為HTML時我可以自訂CSS樣式嗎？
-是的，您可以透過修改 HTML 中使用的樣式表或使用 `addCssClassNamePrefix` 方法為 CSS 類別名稱加上前綴。
+**Q: 我可以同時將字型嵌入為 Base64 且保留外部 CSS 嗎？**  
+A: 可以。將 `exportFontsAsBase64(true)` 設為 `true`，同時使用 `CssStyleSheetType.EXTERNAL` 以分離樣式規則。
 
-### Q3：有沒有辦法優化 HTML 輸出以便在網頁上顯示？
-是的，您可以透過設定選項（例如將字體匯出為 Base64 以及將元檔案轉換為 SVG）來優化 HTML 輸出以供網頁顯示。
+**Q: 如何將已存在的 HTML 轉回 Word 文件？**  
+A: 使用 `Document doc = new Document("input.html");` 讀取 HTML，然後 `doc.save("output.docx");`。在首次匯出時啟用 `exportRoundtripInformation` 即可保留往返資訊。
 
-### Q4：將複雜的 Word 文件轉換為 HTML 時有什麼限制嗎？
-雖然 Aspose.Words for Java 提供了強大的轉換功能，但佈局複雜的複雜 Word 文件可能需要額外的後處理才能實現所需的 HTML 輸出。
+**Q: 使用 SVG 轉換會不會影響效能？**  
+A: 轉換大型 Metafile 為 SVG 可能會增加處理時間，但最終產生的 HTML 較小，且在瀏覽器中的渲染速度通常較快。
 
+**Q: 這些選項在 Aspose.Words for .NET 也適用嗎？**  
+A: 相同概念亦存在於 .NET API 中，雖然方法名稱可能略有差異（例如 `HtmlSaveOptions` 在兩平台皆共用）。
 
+**Q: 哪個選項最適合製作適用於電子郵件的 HTML？**  
+A: 使用 `SaveFormat.MHTML` 搭配 `exportCidUrlsForMhtmlResources`，即可將所有資源直接嵌入郵件內容。
+
+---
+
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
