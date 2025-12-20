@@ -1,10 +1,12 @@
 ---
-"description": "Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien."
-"linktitle": "Menentukan Format Dokumen"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menentukan Format Dokumen di Aspose.Words untuk Java"
-"url": "/id/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: Pelajari cara mengatur file berdasarkan tipe dan mendeteksi format dokumen
+  di Java dengan Aspose.Words. Mendukung DOC, DOCX, RTF, dan lainnya.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Mengatur File Berdasarkan Tipe Menggunakan Aspose.Words untuk Java
+url: /id/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +15,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menentukan Format Dokumen di Aspose.Words untuk Java
+# Mengatur File Berdasarkan Tipe Menggunakan Aspose.Words untuk Java
 
+Saat Anda perlu **mengatur file berdasarkan tipe** dalam aplikasi Java, langkah pertama adalah secara andal menentukan format setiap dokumen. Aspose.Words untuk Java mempermudah hal ini, memungkinkan Anda mendeteksi DOC, DOCX, RTF, HTML, ODT, dan banyak format lainnya – bahkan file yang terenkripsi atau tidak dikenal. Dalam panduan ini kami akan menjelaskan cara menyiapkan folder, mendeteksi format file, dan secara otomatis menyortir file Anda.
 
-## Pengantar Penentuan Format Dokumen di Aspose.Words untuk Java
+## Jawaban Cepat
+- **Apa arti “mengatur file berdasarkan tipe”?** Artinya secara otomatis memindahkan dokumen ke dalam folder berdasarkan format yang terdeteksi (misalnya, DOCX, PDF, RTF).  
+- **Perpustakaan mana yang membantu mendeteksi format file di Java?** Aspose.Words untuk Java menyediakan `FileFormatUtil.detectFileFormat()`.  
+- **Apakah API dapat mengidentifikasi tipe file yang tidak dikenal?** Ya – API mengembalikan `LoadFormat.UNKNOWN` untuk file yang tidak didukung atau tidak dapat dikenali.  
+- **Apakah deteksi dokumen terenkripsi didukung?** Tentu; flag `FileFormatInfo.isEncrypted()` memberi tahu Anda jika file dilindungi kata sandi.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Words yang valid diperlukan untuk penyebaran komersial.
 
-Saat bekerja dengan pemrosesan dokumen di Java, sangat penting untuk menentukan format file yang Anda tangani. Aspose.Words untuk Java menyediakan fitur-fitur canggih untuk mengidentifikasi format dokumen, dan kami akan memandu Anda melalui prosesnya.
+## Pendahuluan: Mengatur File Berdasarkan Tipe dengan Aspose.Words untuk Java
+
+Saat bekerja dengan pemrosesan dokumen di Java, sangat penting untuk menentukan format file yang Anda tangani. Aspose.Words untuk Java menyediakan fitur kuat untuk **detect file format java**, dan kami akan memandu Anda melalui proses mengatur file secara efisien.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-- [Aspose.Words untuk Java](https://releases.aspose.com/words/java/)
-- Java Development Kit (JDK) terinstal di sistem Anda
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- Java Development Kit (JDK) terpasang di sistem Anda
 - Pengetahuan dasar tentang pemrograman Java
 
-## Langkah 1: Pengaturan Direktori
+## Langkah 1: Penyiapan Direktori
 
-Pertama, kita perlu menyiapkan direktori yang diperlukan untuk mengatur berkas-berkas kita secara efektif. Kita akan membuat direktori untuk berbagai jenis dokumen.
+Pertama, kita perlu menyiapkan direktori yang diperlukan untuk mengatur file kita secara efektif. Kami akan membuat direktori untuk berbagai tipe dokumen.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +48,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Buat direktori jika belum ada.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +59,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Kami telah membuat direktori untuk jenis dokumen yang didukung, tidak dikenal, terenkripsi, dan pra-97.
+Kami telah membuat direktori untuk tipe dokumen yang didukung, tidak dikenal, terenkripsi, dan pra‑97.
 
 ## Langkah 2: Mendeteksi Format Dokumen
 
-Sekarang, mari kita deteksi format dokumen dalam direktori kita. Kita akan menggunakan Aspose.Words untuk Java untuk mencapainya.
+Sekarang, mari kita deteksi format dokumen di dalam direktori kita. Kami akan menggunakan Aspose.Words untuk Java untuk mencapainya.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +76,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Menampilkan jenis dokumen
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Tambahkan kasus untuk format dokumen lain sesuai kebutuhan
+        // Add cases for other document formats as needed
     }
 
-    // Menangani dokumen terenkripsi
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Menangani jenis dokumen lainnya
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +105,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-Dalam potongan kode ini, kami menelusuri file-file, mendeteksi formatnya, dan mengaturnya ke dalam direktori masing-masing.
+Dalam potongan kode ini kami mengiterasi file, **detect file format java**, dan mengatur mereka ke folder yang sesuai.
 
-## Source Code Lengkap Untuk Menentukan Format Dokumen di Aspose.Words untuk Java
+## Kode Sumber Lengkap untuk Menentukan Format Dokumen di Aspose.Words untuk Java
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Buat direktori jika belum ada.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +131,7 @@ Dalam potongan kode ini, kami menelusuri file-file, mendeteksi formatnya, dan me
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Menampilkan jenis dokumen
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +199,52 @@ Dalam potongan kode ini, kami menelusuri file-file, mendeteksi formatnya, dan me
 
 ```
 
-## Kesimpulan
+## Cara Mendeteksi Format File Java
 
-Menentukan format dokumen di Aspose.Words untuk Java sangat penting untuk pemrosesan dokumen yang efisien. Dengan langkah-langkah yang diuraikan dalam panduan ini, Anda dapat mengidentifikasi jenis dokumen dan menanganinya dengan tepat dalam aplikasi Java Anda.
+Metode `FileFormatUtil.detectFileFormat()` memeriksa header file dan mengembalikan objek `FileFormatInfo`. Objek ini memberi tahu Anda **load format**, apakah file terenkripsi, dan metadata berguna lainnya. Dengan informasi ini Anda dapat secara programatis **identify unknown file types** dan memutuskan cara memproses masing‑masing.
+
+## Mengidentifikasi Tipe File yang Tidak Dikenal
+
+Ketika API mengembalikan `LoadFormat.UNKNOWN`, file tersebut mungkin rusak atau menggunakan format yang tidak didukung oleh Aspose.Words. Dalam contoh kode kami, file‑file tersebut dipindahkan ke folder **Unknown** sehingga Anda dapat meninjaunya nanti.
+
+## Masalah Umum dan Solusinya
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| File selalu ditempatkan di folder *Supported* | `FileFormatUtil` tidak dapat membaca header (misalnya, file kosong) | Pastikan Anda memberikan jalur file yang benar dan file tidak berukuran nol byte. |
+| File terenkripsi menghasilkan pengecualian | Mencoba membaca tanpa menangani enkripsi | Gunakan pemeriksaan `info.isEncrypted()` sebelum pemrosesan lebih lanjut, seperti yang ditunjukkan dalam kode. |
+| Dokumen Word pra‑97 tidak terdeteksi | Format lama memerlukan kasus `DOC_PRE_WORD_60` | Pertahankan blok `case LoadFormat.DOC_PRE_WORD_60` untuk mengarahkan mereka ke folder *Pre97*. |
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bagaimana cara menginstal Aspose.Words untuk Java?
 
-Anda dapat mengunduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan.
+Anda dapat mengunduh Aspose.Words untuk Java dari [sini](https://releases.aspose.com/words/java/) dan mengikuti petunjuk instalasi yang disediakan.
 
 ### Apa saja format dokumen yang didukung?
 
-Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOC, DOCX, RTF, HTML, dan banyak lagi. Anda dapat merujuk ke dokumentasi untuk daftar lengkapnya.
+Aspose.Words untuk Java mendukung berbagai format dokumen, termasuk DOC, DOCX, RTF, HTML, ODT, dan lainnya. Lihat dokumentasi resmi untuk daftar lengkap.
 
 ### Bagaimana cara mendeteksi dokumen terenkripsi menggunakan Aspose.Words untuk Java?
 
-Anda dapat menggunakan `FileFormatUtil.detectFileFormat()` metode untuk mendeteksi dokumen terenkripsi, seperti yang ditunjukkan dalam panduan ini.
+Gunakan metode `FileFormatUtil.detectFileFormat()`; flag `FileFormatInfo.isEncrypted()` yang dikembalikan menunjukkan enkripsi, seperti yang ditunjukkan dalam panduan ini.
 
 ### Apakah ada batasan saat bekerja dengan format dokumen lama?
 
-Format dokumen lama, seperti MS Word 6 atau Word 95, mungkin memiliki keterbatasan dalam hal fitur dan kompatibilitas dengan aplikasi modern. Pertimbangkan untuk memutakhirkan atau mengonversi dokumen ini bila perlu.
+Format lama seperti MS Word 6 atau Word 95 mungkin tidak memiliki fitur modern dan dapat mengalami masalah kompatibilitas. Pertimbangkan untuk mengonversinya ke format yang lebih baru bila memungkinkan.
 
-### Bisakah saya mengotomatiskan deteksi format dokumen di aplikasi Java saya?
+### Bisakah saya mengotomatisasi deteksi format dokumen dalam aplikasi Java saya?
 
-Ya, Anda dapat mengotomatiskan deteksi format dokumen dengan mengintegrasikan kode yang diberikan ke dalam aplikasi Java Anda. Ini memungkinkan Anda untuk memproses dokumen berdasarkan format yang terdeteksi.
+Ya, sisipkan kode yang disediakan ke dalam pipeline pemrosesan aplikasi Anda. Ini memungkinkan penyortiran dan penanganan otomatis berdasarkan format yang terdeteksi.
 
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

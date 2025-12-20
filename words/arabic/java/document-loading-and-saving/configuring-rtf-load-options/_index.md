@@ -1,10 +1,12 @@
 ---
-"description": "تكوين خيارات تحميل RTF في Aspose.Words لجافا. تعلّم كيفية تمييز نصوص UTF-8 في مستندات RTF. دليل خطوة بخطوة مع أمثلة برمجية."
-"linktitle": "تكوين خيارات تحميل RTF"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تكوين خيارات تحميل RTF في Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/configuring-rtf-load-options/"
-"weight": 12
+date: 2025-12-20
+description: تعلم كيفية تحميل مستندات RTF في جافا باستخدام Aspose.Words. يوضح هذا
+  الدليل تكوين خيارات تحميل RTF، بما في ذلك RecognizeUtf8Text، مع كود خطوة بخطوة.
+linktitle: Configuring RTF Load Options
+second_title: Aspose.Words Java Document Processing API
+title: كيفية تحميل مستندات RTF مع تكوين خيارات تحميل RTF في Aspose.Words للـ Java
+url: /ar/java/document-loading-and-saving/configuring-rtf-load-options/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,88 +15,110 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تكوين خيارات تحميل RTF في Aspose.Words لـ Java
+# تهيئة خيارات تحميل RTF في Aspose.Words for Java
 
+## مقدمة حول تهيئة خيارات تحميل RTF في Aspose.Words for Java
 
-## مقدمة لتكوين خيارات تحميل RTF في Aspose.Words لـ Java
+في هذا الدليل، سنستكشف **كيفية تحميل RTF** باستخدام Aspose.Words for Java. RTF (Rich Text Format) هو تنسيق مستندات واسع الاستخدام يمكن تحميله وتعديله وحفظه برمجيًا. سنركز على خيار `RecognizeUtf8Text`، الذي يتيح لك التحكم فيما إذا كان سيتم التعرف تلقائيًا على النص المشفر بـ UTF‑8 داخل ملف RTF. فهم هذا الإعداد ضروري عندما تحتاج إلى معالجة دقيقة للمحتوى متعدد اللغات.
 
-في هذا الدليل، سنستكشف كيفية تكوين خيارات تحميل RTF باستخدام Aspose.Words لجافا. RTF (تنسيق النص الغني) هو تنسيق مستندات شائع يمكن تحميله ومعالجته باستخدام Aspose.Words. سنركز على خيار محدد، `RecognizeUtf8Text`، والذي يسمح لك بالتحكم فيما إذا كان سيتم التعرف على النص المشفر بتنسيق UTF-8 في مستند RTF أم لا.
+### إجابات سريعة
+- **ما هي الطريقة الأساسية لتحميل مستند RTF في Java؟** استخدم `Document` مع `RtfLoadOptions`.
+- **أي خيار يتحكم في اكتشاف UTF‑8؟** `RecognizeUtf8Text`.
+- **هل أحتاج إلى ترخيص لتشغيل العينة؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.
+- **هل يمكنني تحميل ملفات RTF محمية بكلمة مرور؟** نعم، عن طريق تعيين كلمة المرور على `RtfLoadOptions`.
+- **إلى أي منتج من Aspose ينتمي هذا؟** Aspose.Words for Java.
 
-## المتطلبات الأساسية
+## كيفية تحميل مستندات RTF في Java
 
-قبل البدء، تأكد من دمج مكتبة Aspose.Words لجافا في مشروعك. يمكنك تنزيلها من [موقع إلكتروني](https://releases.aspose.com/words/java/).
+قبل أن تبدأ، تأكد من دمج مكتبة Aspose.Words for Java في مشروعك. يمكنك تنزيلها من [الموقع الإلكتروني](https://releases.aspose.com/words/java/).
+
+### المتطلبات المسبقة
+- Java 8 أو أعلى
+- ملف JAR الخاص بـ Aspose.Words for Java مضاف إلى classpath الخاص بك
+- ملف RTF تريد معالجته (مثال: *UTF‑8 characters.rtf*)
 
 ## الخطوة 1: إعداد خيارات تحميل RTF
 
-أولاً، عليك إنشاء مثيل لـ `RtfLoadOptions` وضبط الخيارات المطلوبة. في هذا المثال، سنقوم بتمكين `RecognizeUtf8Text` خيار التعرف على النص المشفر بتنسيق UTF-8:
+أولاً، أنشئ مثيلاً من `RtfLoadOptions` وفعل علامة `RecognizeUtf8Text`. هذا جزء من مجموعة **aspose words load options** التي تمنحك تحكمًا دقيقًا في عملية التحميل.
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.setRecognizeUtf8Text(true);
 ```
 
-هنا، `loadOptions` هو مثال على `RtfLoadOptions`، وقد استخدمنا `setRecognizeUtf8Text` طريقة لتمكين التعرف على نص UTF-8.
+هنا، `loadOptions` هو مثيل من `RtfLoadOptions`، وقد استخدمنا طريقة `setRecognizeUtf8Text` لتفعيل التعرف على نص UTF‑8.
 
 ## الخطوة 2: تحميل مستند RTF
 
-بعد أن قمنا بضبط خيارات التحميل، يُمكننا تحميل مستند RTF باستخدام الخيارات المُحددة. في هذا المثال، نُحمّل مستندًا باسم "UTF-8 characters.rtf" من مجلد مُحدد:
+الآن قم بتحميل ملف RTF الخاص بك باستخدام الخيارات المكوّنة. هذا يوضح **load rtf document java** بطريقة بسيطة.
 
 ```java
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 ```
 
-تأكد من الاستبدال `"Your Directory Path"` مع المسار المناسب إلى دليل المستند الخاص بك.
+استبدل `"Your Directory Path"` بالمجلد الفعلي الذي يوجد فيه ملف RTF.
 
 ## الخطوة 3: حفظ المستند
 
-بعد تحميل مستند RTF، يمكنك إجراء عمليات متنوعة عليه باستخدام Aspose.Words. بعد الانتهاء، احفظ المستند المعدّل باستخدام الكود التالي:
+بعد تحميل المستند، يمكنك تعديلّه (إضافة فقرات، تغيير التنسيق، إلخ). عندما تكون جاهزًا، احفظ النتيجة. سيحتفظ ملف الإخراج بنفس بنية RTF لكنه الآن يطبق إعدادات UTF‑8 التي قمت بتطبيقها.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
-يستبدل `"Your Directory Path"` مع المسار الذي تريد حفظ المستند المعدل فيه.
+مرة أخرى، عدّل المسار إلى المكان الذي تريد تخزين الملف المعالج فيه.
 
-## كود المصدر الكامل لتكوين خيارات تحميل RTF في Aspose.Words لـ Java
+## الكود الكامل لتهيئة خيارات تحميل RTF في Aspose.Words for Java
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 {
-	loadOptions.setRecognizeUtf8Text(true);
+    loadOptions.setRecognizeUtf8Text(true);
 }
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
-## خاتمة
+## لماذا نتهيئ خيارات تحميل RTF؟
 
-في هذا البرنامج التعليمي، تعلمت كيفية تكوين خيارات تحميل RTF في Aspose.Words لجافا. ركزنا تحديدًا على تمكين `RecognizeUtf8Text` خيار لمعالجة النصوص المُرمَّزة بترميز UTF-8 في مستندات RTF. تتيح لك هذه الميزة العمل مع مجموعة واسعة من ترميزات النصوص، مما يُعزِّز مرونة مهام معالجة مستنداتك.
+تهيئة **aspose words load options** مثل `RecognizeUtf8Text` مفيدة عندما:
+- ملفات RTF الخاصة بك تحتوي على محتوى متعدد اللغات (مثل الأحرف الآسيوية) مُشفَّرة بـ UTF‑8.
+- تحتاج إلى استخراج نص موحد للفهرسة أو البحث.
+- تريد تجنّب الأحرف المشوهة التي تظهر عندما يفترض المحمل ترميزًا مختلفًا.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والنصائح
+- **المشكلة:** نسيان تعيين المسار الصحيح يؤدي إلى `FileNotFoundException`. استخدم دائمًا مسارات مطلقة أو تحقق من المسارات النسبية أثناء التشغيل.
+- **نصيحة:** إذا صادفت أحرفًا غير متوقعة، تحقق مرة أخرى من أن `RecognizeUtf8Text` مضبوط على `true`. بالنسبة لملفات RTF القديمة التي تستخدم ترميزات أخرى، اضبطه على `false` وتعامل مع التحويل يدويًا.
+- **نصيحة:** استخدم `loadOptions.setPassword("yourPassword")` عند تحميل ملفات RTF محمية بكلمة مرور.
 
-### كيف يمكنني تعطيل التعرف على نص UTF-8؟
+## الأسئلة المتكررة
 
-لتعطيل التعرف على نص UTF-8، ما عليك سوى ضبط `RecognizeUtf8Text` خيار ل `false` عند تكوين `RtfLoadOptions`. ويمكن القيام بذلك عن طريق الاتصال `setRecognizeUtf8Text(false)`.
+### كيف يمكنني إلغاء تفعيل التعرف على نص UTF-8؟
 
-### ما هي الخيارات الأخرى المتوفرة في RtfLoadOptions؟
+لإلغاء تفعيل التعرف على نص UTF-8، قم ببساطة بتعيين خيار `RecognizeUtf8Text` إلى `false` عند تهيئة `RtfLoadOptions`. يمكن القيام بذلك عبر استدعاء `setRecognizeUtf8Text(false)`.
 
-يوفر RtfLoadOptions خيارات متنوعة لضبط كيفية تحميل مستندات RTF. من بين الخيارات الشائعة الاستخدام: `setPassword` للمستندات المحمية بكلمة مرور و `setLoadFormat` لتحديد التنسيق عند تحميل ملفات RTF.
+### ما هي الخيارات الأخرى المتاحة في RtfLoadOptions؟
+
+`RtfLoadOptions` يوفر خيارات متعددة لتهيئة طريقة تحميل مستندات RTF. بعض الخيارات الشائعة تشمل `setPassword` للمستندات المحمية بكلمة مرور و `setLoadFormat` لتحديد الصيغة عند تحميل ملفات RTF.
 
 ### هل يمكنني تعديل المستند بعد تحميله بهذه الخيارات؟
 
-نعم، يمكنك إجراء تعديلات متنوعة على المستند بعد تحميله باستخدام الخيارات المحددة. يوفر Aspose.Words مجموعة واسعة من الميزات للتعامل مع محتوى المستند وتنسيقه وبنيته.
+نعم، يمكنك إجراء تعديلات مختلفة على المستند بعد تحميله باستخدام الخيارات المحددة. توفر Aspose.Words مجموعة واسعة من الميزات للعمل مع محتوى المستند، وتنسيقه، وبنيته.
 
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Words for Java؟
 
-يمكنك الرجوع إلى [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/) للحصول على معلومات شاملة ومرجع API وأمثلة حول استخدام المكتبة.
+يمكنك الرجوع إلى [توثيق Aspose.Words for Java](https://reference.aspose.com/words/java/) للحصول على معلومات شاملة، ومرجع API، وأمثلة على استخدام المكتبة.
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

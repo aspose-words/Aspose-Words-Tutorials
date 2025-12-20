@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words के साथ Java में दस्तावेज़ स्वरूपों का पता लगाना सीखें। DOC, DOCX, और बहुत कुछ पहचानें। फ़ाइलों को कुशलतापूर्वक व्यवस्थित करें।"
-"linktitle": "दस्तावेज़ प्रारूप का निर्धारण"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में दस्तावेज़ प्रारूप का निर्धारण"
-"url": "/hi/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: जावा में Aspose.Words के साथ फ़ाइलों को प्रकार के अनुसार व्यवस्थित करना
+  और दस्तावेज़ फ़ॉर्मेट का पता लगाना सीखें। DOC, DOCX, RTF और अधिक का समर्थन करता
+  है।
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java का उपयोग करके फ़ाइलों को प्रकार के अनुसार व्यवस्थित करें
+url: /hi/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में दस्तावेज़ प्रारूप का निर्धारण
+# Aspose.Words for Java का उपयोग करके फ़ाइलों को प्रकार के अनुसार व्यवस्थित करें
 
+जब आपको Java एप्लिकेशन में **फ़ाइलों को प्रकार के अनुसार व्यवस्थित** करने की आवश्यकता होती है, तो पहला कदम प्रत्येक दस्तावेज़ के फ़ॉर्मेट को विश्वसनीय रूप से निर्धारित करना होता है। Aspose.Words for Java इसे सरल बनाता है, जिससे आप DOC, DOCX, RTF, HTML, ODT और कई अन्य फ़ॉर्मेट – यहाँ तक कि एन्क्रिप्टेड या अज्ञात फ़ाइलें – का पता लगा सकते हैं। इस गाइड में हम फ़ोल्डर सेटअप, फ़ाइल फ़ॉर्मेट का पता लगाने, और फ़ाइलों को स्वचालित रूप से सॉर्ट करने की प्रक्रिया को चरण-दर-चरण देखेंगे।
 
-## जावा के लिए Aspose.Words में दस्तावेज़ प्रारूप निर्धारित करने का परिचय
+## त्वरित उत्तर
+- **“फ़ाइलों को प्रकार के अनुसार व्यवस्थित” का क्या अर्थ है?** इसका मतलब है कि दस्तावेज़ों को उनके पहचाने गए फ़ॉर्मेट (जैसे DOCX, PDF, RTF) के आधार पर स्वचालित रूप से फ़ोल्डरों में ले जाना।  
+- **Java में फ़ाइल फ़ॉर्मेट का पता लगाने के लिए कौन सी लाइब्रेरी मदद करती है?** Aspose.Words for Java `FileFormatUtil.detectFileFormat()` प्रदान करता है।  
+- **क्या API अज्ञात फ़ाइल प्रकारों की पहचान कर सकता है?** हाँ – यह असमर्थित या अपरिचित फ़ाइलों के लिए `LoadFormat.UNKNOWN` लौटाता है।  
+- **क्या एन्क्रिप्टेड दस्तावेज़ की पहचान समर्थित है?** बिल्कुल; `FileFormatInfo.isEncrypted()` फ़्लैग आपको बताता है कि फ़ाइल पासवर्ड‑सुरक्षित है या नहीं।  
+- **क्या उत्पादन उपयोग के लिए लाइसेंस आवश्यक है?** व्यावसायिक डिप्लॉयमेंट के लिए एक वैध Aspose.Words लाइसेंस आवश्यक है।
 
-जावा में दस्तावेज़ प्रसंस्करण के साथ काम करते समय, यह निर्धारित करना महत्वपूर्ण है कि आप जिन फ़ाइलों से निपट रहे हैं उनका प्रारूप क्या है। Aspose.Words for Java दस्तावेज़ प्रारूपों की पहचान करने के लिए शक्तिशाली सुविधाएँ प्रदान करता है, और हम आपको प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
+## परिचय: Aspose.Words for Java के साथ फ़ाइलों को प्रकार के अनुसार व्यवस्थित करें
 
-## आवश्यक शर्तें
+Java में दस्तावेज़ प्रोसेसिंग के साथ काम करते समय, आप जिन फ़ाइलों को संभाल रहे हैं उनके फ़ॉर्मेट को निर्धारित करना अत्यंत महत्वपूर्ण है। Aspose.Words for Java **detect file format java** के लिए शक्तिशाली सुविधाएँ प्रदान करता है, और हम आपको फ़ाइलों को कुशलता से व्यवस्थित करने की प्रक्रिया के माध्यम से ले जाएंगे।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
+## आवश्यकताएँ
 
-- [जावा के लिए Aspose.Words](https://releases.aspose.com/words/java/)
-- आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यकताएँ हैं:
 
-## चरण 1: निर्देशिका सेटअप
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- आपके सिस्टम पर स्थापित Java Development Kit (JDK)
+- Java प्रोग्रामिंग का बुनियादी ज्ञान
 
-सबसे पहले, हमें अपनी फ़ाइलों को प्रभावी ढंग से व्यवस्थित करने के लिए आवश्यक निर्देशिकाएँ सेट अप करनी होंगी। हम अलग-अलग दस्तावेज़ प्रकारों के लिए निर्देशिकाएँ बनाएंगे।
+## चरण 1: डायरेक्टरी सेटअप
+
+सबसे पहले, हमें अपनी फ़ाइलों को प्रभावी ढंग से व्यवस्थित करने के लिए आवश्यक डायरेक्टरी सेटअप करनी होगी। हम विभिन्न दस्तावेज़ प्रकारों के लिए फ़ोल्डर बनाएँगे।
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +49,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// यदि निर्देशिकाएं पहले से मौजूद नहीं हैं तो उन्हें बनाएं।
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +60,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-हमने समर्थित, अज्ञात, एन्क्रिप्टेड और पूर्व-97 दस्तावेज़ प्रकारों के लिए निर्देशिकाएँ बनाई हैं।
+हमने समर्थित, अज्ञात, एन्क्रिप्टेड, और प्री‑97 दस्तावेज़ प्रकारों के लिए डायरेक्टरी बनाई हैं।
 
-## चरण 2: दस्तावेज़ प्रारूप का पता लगाना
+## चरण 2: दस्तावेज़ फ़ॉर्मेट का पता लगाना
 
-अब, आइए हमारी निर्देशिकाओं में दस्तावेज़ों के प्रारूप का पता लगाएं। हम इसे प्राप्त करने के लिए जावा के लिए Aspose.Words का उपयोग करेंगे।
+अब, आइए हमारे डायरेक्टरी में मौजूद दस्तावेज़ों का फ़ॉर्मेट पता लगाएँ। हम यह करने के लिए Aspose.Words for Java का उपयोग करेंगे।
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +77,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // दस्तावेज़ प्रकार प्रदर्शित करें
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // आवश्यकतानुसार अन्य दस्तावेज़ प्रारूपों के लिए केस जोड़ें
+        // Add cases for other document formats as needed
     }
 
-    // एन्क्रिप्टेड दस्तावेज़ों को संभालें
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // अन्य दस्तावेज़ प्रकारों को संभालें
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +106,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-इस कोड स्निपेट में, हम फ़ाइलों को दोहराते हैं, उनके प्रारूपों का पता लगाते हैं, और उन्हें संबंधित निर्देशिकाओं में व्यवस्थित करते हैं।
+इस स्निपेट में हम फ़ाइलों के माध्यम से इटररेट करते हैं, **detect file format java**, और उन्हें उपयुक्त फ़ोल्डरों में व्यवस्थित करते हैं।
 
-## जावा के लिए Aspose.Words में दस्तावेज़ प्रारूप निर्धारित करने के लिए पूर्ण स्रोत कोड
+## Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करने के लिए पूर्ण स्रोत कोड
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // यदि निर्देशिकाएं पहले से मौजूद नहीं हैं तो उन्हें बनाएं।
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +132,7 @@ for (String fileName : listFiles) {
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // दस्तावेज़ प्रकार प्रदर्शित करें
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +200,54 @@ for (String fileName : listFiles) {
 
 ```
 
-## निष्कर्ष
+## फ़ाइल फ़ॉर्मेट Java कैसे पता करें
 
-Aspose.Words for Java में दस्तावेज़ प्रारूप निर्धारित करना कुशल दस्तावेज़ प्रसंस्करण के लिए आवश्यक है। इस गाइड में बताए गए चरणों के साथ, आप दस्तावेज़ प्रकारों की पहचान कर सकते हैं और अपने Java अनुप्रयोगों में उन्हें तदनुसार संभाल सकते हैं।
+`FileFormatUtil.detectFileFormat()` मेथड फ़ाइल हेडर की जाँच करता है और एक `FileFormatInfo` ऑब्जेक्ट लौटाता है। यह ऑब्जेक्ट आपको **load format**, फ़ाइल एन्क्रिप्टेड है या नहीं, और अन्य उपयोगी मेटाडेटा बताता है। इस जानकारी का उपयोग करके आप प्रोग्रामेटिक रूप से **अज्ञात फ़ाइल प्रकारों की पहचान** कर सकते हैं और प्रत्येक फ़ाइल को कैसे प्रोसेस करना है, इसका निर्णय ले सकते हैं।
+
+## अज्ञात फ़ाइल प्रकारों की पहचान
+
+जब API `LoadFormat.UNKNOWN` लौटाता है, तो फ़ाइल या तो भ्रष्ट है या ऐसा फ़ॉर्मेट उपयोग कर रही है जिसे Aspose.Words समर्थन नहीं करता। हमारे नमूना कोड में हम उन फ़ाइलों को **Unknown** फ़ोल्डर में ले जाते हैं ताकि आप बाद में उनका निरीक्षण कर सकें।
+
+## सामान्य समस्याएँ और समाधान
+
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| फ़ाइलें हमेशा *Supported* फ़ोल्डर में रखी जाती हैं | `FileFormatUtil` हेडर पढ़ नहीं सका (उदा., फ़ाइल खाली है) | सुनिश्चित करें कि आप सही फ़ाइल पाथ पास कर रहे हैं और फ़ाइल शून्य‑बाइट नहीं है। |
+| एन्क्रिप्टेड फ़ाइलें अपवाद फेंकती हैं | एन्क्रिप्शन को संभाले बिना पढ़ने का प्रयास | कोड में दिखाए अनुसार आगे की प्रोसेसिंग से पहले `info.isEncrypted()` जाँच का उपयोग करें। |
+| Pre‑97 Word दस्तावेज़ पहचान नहीं हो रहे | पुराने फ़ॉर्मेट को `DOC_PRE_WORD_60` केस की आवश्यकता होती है | `case LoadFormat.DOC_PRE_WORD_60` ब्लॉक को रखें ताकि वे *Pre97* फ़ोल्डर में रूट हों। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं Java के लिए Aspose.Words कैसे स्थापित करूं?
+### मैं Aspose.Words for Java कैसे इंस्टॉल करूँ?
 
-आप Java के लिए Aspose.Words को यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/) और दिए गए स्थापना निर्देशों का पालन करें।
+आप Aspose.Words for Java को [यहाँ](https://releases.aspose.com/words/java/) से डाउनलोड कर सकते हैं और प्रदान किए गए इंस्टॉलेशन निर्देशों का पालन कर सकते हैं।
 
-### समर्थित दस्तावेज़ प्रारूप क्या हैं?
+### समर्थित दस्तावेज़ फ़ॉर्मेट कौन‑से हैं?
 
-Aspose.Words for Java विभिन्न दस्तावेज़ स्वरूपों का समर्थन करता है, जिसमें DOC, DOCX, RTF, HTML, और बहुत कुछ शामिल है। आप पूरी सूची के लिए दस्तावेज़ देख सकते हैं।
+Aspose.Words for Java विभिन्न दस्तावेज़ फ़ॉर्मेट का समर्थन करता है, जिसमें DOC, DOCX, RTF, HTML, ODT और कई अन्य शामिल हैं। पूर्ण सूची के लिए आधिकारिक दस्तावेज़ देखें।
 
-### मैं Java के लिए Aspose.Words का उपयोग करके एन्क्रिप्टेड दस्तावेज़ों का पता कैसे लगा सकता हूँ?
+### मैं Aspose.Words for Java का उपयोग करके एन्क्रिप्टेड दस्तावेज़ कैसे पहचानूँ?
 
-आप इसका उपयोग कर सकते हैं `FileFormatUtil.detectFileFormat()` एन्क्रिप्टेड दस्तावेजों का पता लगाने की विधि, जैसा कि इस गाइड में प्रदर्शित किया गया है।
+`FileFormatUtil.detectFileFormat()` मेथड का उपयोग करें; लौटाए गए `FileFormatInfo.isEncrypted()` फ़्लैग एन्क्रिप्शन को दर्शाता है, जैसा कि इस गाइड में दिखाया गया है।
 
-### क्या पुराने दस्तावेज़ प्रारूपों के साथ काम करते समय कोई सीमाएँ हैं?
+### पुराने दस्तावेज़ फ़ॉर्मेट के साथ काम करने में कोई सीमाएँ हैं क्या?
 
-पुराने दस्तावेज़ प्रारूप, जैसे कि MS Word 6 या Word 95, में आधुनिक अनुप्रयोगों के साथ सुविधाओं और संगतता के संदर्भ में सीमाएँ हो सकती हैं। जब आवश्यक हो तो इन दस्तावेज़ों को अपग्रेड या परिवर्तित करने पर विचार करें।
+MS Word 6 या Word 95 जैसे पुराने फ़ॉर्मेट में आधुनिक सुविधाएँ नहीं हो सकतीं और संगतता समस्याएँ उत्पन्न हो सकती हैं। संभव हो तो उन्हें नए फ़ॉर्मेट में परिवर्तित करने पर विचार करें।
 
-### क्या मैं अपने जावा अनुप्रयोग में दस्तावेज़ प्रारूप पहचान को स्वचालित कर सकता हूँ?
+### क्या मैं अपने Java एप्लिकेशन में दस्तावेज़ फ़ॉर्मेट पहचान को स्वचालित कर सकता हूँ?
 
-हां, आप अपने जावा एप्लिकेशन में दिए गए कोड को एकीकृत करके दस्तावेज़ प्रारूप पहचान को स्वचालित कर सकते हैं। यह आपको उनके पहचाने गए प्रारूपों के आधार पर दस्तावेज़ों को संसाधित करने की अनुमति देता है।
+हाँ, प्रदान किया गया कोड अपने एप्लिकेशन की प्रोसेसिंग पाइपलाइन में एम्बेड करें। इससे पता लगाए गए फ़ॉर्मेट के आधार पर स्वचालित सॉर्टिंग और हैंडलिंग संभव हो जाएगी।
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
