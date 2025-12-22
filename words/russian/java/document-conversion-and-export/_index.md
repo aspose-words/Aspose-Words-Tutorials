@@ -48,6 +48,16 @@
 Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
+### [Конвертация docx в markdown с C# – Полное руководство по сохранению Word в Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [Как экспортировать Markdown из DOCX – Полное руководство по конвертации Docx в Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+
+### [Как сохранить Markdown из DOCX – Полное руководство по конвертации Docx в Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+
+### [Как сохранить PDF с сохранением макета – Полное руководство](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+
+### [Создание доступного PDF из Word в Java – пошаговое руководство](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

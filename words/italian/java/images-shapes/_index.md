@@ -34,6 +34,9 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Come visualizzare le pagine del documento come miniature utilizzando Aspose.Words per Java](./render-word-pages-thumbnails-aspose-java/)
 Scopri come generare miniature di alta qualità e bitmap di dimensioni personalizzate da documenti Word con Aspose.Words per Java. Migliora subito le tue capacità di gestione dei documenti.
 
+### [Aggiungi effetto ombra alle forme in C# – Guida passo‑passo](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+Scopri come aggiungere un effetto ombra alle forme in C# con Aspose.Words.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

@@ -48,6 +48,14 @@ Nutzen Sie die Möglichkeiten von Dokumentformen in Aspose.Words für Java. Lern
 Erfahren Sie, wie Sie in Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügen. Passen Sie Text- und Bildwasserzeichen für professionell aussehende Dokumente an.
 ### [Formatieren von Tabellen und Tabellenstilen in Aspose.Words für Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words für Java anwenden. Entdecken Sie Schritt-für-Schritt-Anleitungen mit Quellcode für effektive Tabellenformatierung. Optimieren Sie Ihr Dokumentlayout mit Aspose.Words.
+### [DOCX in Markdown konvertieren mit C# – Komplettanleitung zum Speichern von Word als Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+Erfahren Sie, wie Sie DOCX-Dateien mit C# in das Markdown-Format konvertieren und Word-Dokumente als Markdown speichern.
+### [PDF mit Layout-Erhaltung speichern – Komplettanleitung](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+Erfahren Sie, wie Sie PDFs mit Erhaltung des Layouts speichern – eine vollständige Anleitung.
+### [Erstellen eines barrierefreien PDFs aus Word in Java – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie aus einem Word-Dokument ein barrierefreies PDF in Java erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Markdown aus DOCX exportiert – Komplettanleitung zur Konvertierung von DOCX in Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+### [Wie man Markdown aus DOCX speichert – Komplettanleitung zur Konvertierung von DOCX zu Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

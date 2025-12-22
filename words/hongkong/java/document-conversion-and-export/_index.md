@@ -48,6 +48,12 @@ Aspose.Words for Java 的主要功能之一是它能夠無縫地將文件轉換�
 了解如何在 Aspose.Words for Java 中新增浮水印。自訂文字和圖像浮水印，使文件看起來更專業。
 ### [在 Aspose.Words for Java 中格式化表格和表格樣式](./formatting-tables-and-table-styles/)
 了解如何在 Aspose.Words for Java 中格式化表格並套用表格樣式。探索具有原始程式碼的分步指南，以實現有效的表格格式化。使用 Aspose.Words 增強您的文件佈局。
+### [如何保存 PDF 並保留版面配置 – 完整指南](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+了解如何在 Aspose.Words for Java 中保存 PDF 並保留版面配置的完整指南。
+### [使用 C# 將 docx 轉換為 markdown – 完整指南：將 Word 儲存為 Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+### [如何將 DOCX 匯出為 Markdown – 完整指南：將 Docx 轉換為 Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+### [如何將 DOCX 保存為 Markdown – 完整指南：將 Docx 轉換為 Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+### [在 Java 中從 Word 建立可存取的 PDF – 步驟指南](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

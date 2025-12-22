@@ -58,6 +58,8 @@ Dominando as opções de carregamento no Aspose.Words para Java. Personalize o c
 Configurando opções de carregamento de RTF no Aspose.Words para Java. Aprenda a reconhecer texto UTF-8 em documentos RTF. Guia passo a passo com exemplos de código.
 ### [Carregando arquivos de texto com Aspose.Words para Java](./loading-text-files/)
 Desbloqueie o poder do Aspose.Words para Java. Aprenda a carregar documentos de texto, gerenciar listas, manipular espaços e controlar a direção do texto.
+### [Carregar documento Word em Java – Guia completo para obter mensagens de aviso e lidar com fontes ausentes](./load-word-document-in-java-complete-guide-to-get-warning-mes/)
+Aprenda a carregar documentos Word em Java, capturar mensagens de aviso e gerenciar fontes ausentes.
 ### [Opções avançadas de salvamento com Aspose.Words para Java](./advance-saving-options/)
 Aprenda manipulação avançada de documentos com o Aspose.Words para Java. Criptografe, gerencie metarquivos e muito mais. Seus documentos do Word, do seu jeito.
 ### [Salvando documentos HTML com layout fixo no Aspose.Words para Java](./saving-html-documents-with-fixed-layout/)

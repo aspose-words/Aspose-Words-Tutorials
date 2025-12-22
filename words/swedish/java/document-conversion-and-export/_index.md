@@ -48,6 +48,13 @@ Lås upp kraften i dokumentformer i Aspose.Words för Java. Lär dig skapa visue
 Lär dig hur du lägger till vattenstämplar i dokument i Aspose.Words för Java. Anpassa text- och bildvattenstämplar för professionellt utseende dokument.
 ### [Formatera tabeller och tabellformat i Aspose.Words för Java](./formatting-tables-and-table-styles/)
 Lär dig hur du formaterar tabeller och använder tabellformat i Aspose.Words för Java. Utforska steg-för-steg-guider med källkod för effektiv tabellformatering. Förbättra din dokumentlayout med Aspose.Words.
+### [Konvertera docx till markdown med C# – Komplett guide för att spara Word som Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+### [Hur man exporterar Markdown från DOCX – Komplett guide för att konvertera Docx till Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+Lär dig hur du konverterar DOCX-filer till Markdown med en komplett steg-för-steg-guide.
+### [Hur man sparar Markdown från DOCX – Komplett guide för att konvertera Docx till Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+Lär dig hur du sparar Markdown från DOCX med en komplett steg-för-steg-guide.
+### [Hur man sparar PDF med layoutbevarande – Komplett guide](./how-to-save-pdf-with-layout-preservation-complete-guide/) Lär dig hur du sparar PDF-filer samtidigt som du bevarar layouten i en komplett guide.
+### [Skapa tillgänglig PDF från Word i Java – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-in-java-step-by-step-guide/) Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument i Java med en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

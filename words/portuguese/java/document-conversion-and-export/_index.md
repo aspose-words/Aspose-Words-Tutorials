@@ -48,6 +48,16 @@ Descubra o poder dos formatos de documentos no Aspose.Words para Java. Aprenda a
 Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Personalize marcas d'água de texto e imagem para documentos com aparência profissional.
 ### [Formatação de tabelas e estilos de tabelas no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código-fonte para uma formatação de tabela eficaz. Aprimore o layout do seu documento com o Aspose.Words.
+### [Como salvar PDF com preservação de layout – Guia completo](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+Aprenda a salvar PDFs preservando o layout original com o Aspose.Words para Java neste guia completo.
+### [Criar PDF acessível a partir de Word em Java – Guia passo a passo](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando o Aspose.Words para Java.
+### [converter docx para markdown com C# – Guia completo para salvar Word como Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [Como Exportar Markdown de DOCX – Guia Completo para Converter Docx em Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+
+### [Como salvar Markdown a partir de DOCX – Guia completo para converter Docx em Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+Aprenda a salvar documentos DOCX como arquivos Markdown usando o Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

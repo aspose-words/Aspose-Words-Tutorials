@@ -35,6 +35,9 @@ A code tutorial for Aspose.Words Java
 ### [How to Render Document Pages as Thumbnails using Aspose.Words for Java](./render-word-pages-thumbnails-aspose-java/)
 Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word documents with Aspose.Words for Java. Enhance your document handling capabilities today.
 
+### [Add Shadow Effect to Shapes in C# – Step‑by‑Step Guide](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

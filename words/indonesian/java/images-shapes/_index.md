@@ -34,6 +34,9 @@ Tutorial kode untuk Aspose.Words Java
 ### [Cara Membuat Halaman Dokumen sebagai Thumbnail menggunakan Aspose.Words untuk Java](./render-word-pages-thumbnails-aspose-java/)
 Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus dari dokumen Word dengan Aspose.Words untuk Java. Tingkatkan kemampuan penanganan dokumen Anda hari ini.
 
+### [Tambahkan Efek Bayangan pada Bentuk di C# – Panduan Langkah demi Langkah](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+Panduan langkah demi langkah untuk menambahkan efek bayangan pada bentuk di C# menggunakan Aspose.Words.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

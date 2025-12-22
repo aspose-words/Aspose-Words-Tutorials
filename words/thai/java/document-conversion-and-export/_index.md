@@ -48,6 +48,16 @@
 เรียนรู้วิธีการเพิ่มลายน้ำในเอกสารใน Aspose.Words สำหรับ Java ปรับแต่งลายน้ำข้อความและรูปภาพเพื่อให้เอกสารดูเป็นมืออาชีพ
 ### [การจัดรูปแบบตารางและสไตล์ตารางใน Aspose.Words สำหรับ Java](./formatting-tables-and-table-styles/)
 เรียนรู้วิธีจัดรูปแบบตารางและนำสไตล์ตารางไปใช้ใน Aspose.Words สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดรูปแบบตารางที่มีประสิทธิภาพ ปรับปรุงเค้าโครงเอกสารของคุณด้วย Aspose.Words
+### [แปลง docx เป็น markdown ด้วย C# – คู่มือครบถ้วนในการบันทึก Word เป็น Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [วิธีบันทึก PDF พร้อมการรักษาเค้าโครง – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+
+### [วิธีส่งออก Markdown จาก DOCX – คู่มือครบถ้วนในการแปลง Docx เป็น Markdown](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [วิธีบันทึก Markdown จาก DOCX – คู่มือครบถ้วนในการแปลง Docx เป็น Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+
+### [สร้าง PDF ที่เข้าถึงได้จาก Word ใน Java – คู่มือขั้นตอนโดยขั้นตอน](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ Java ด้วยคู่มือขั้นตอนโดยขั้นตอนนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

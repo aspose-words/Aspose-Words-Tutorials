@@ -34,6 +34,9 @@
 ### [Как визуализировать страницы документа в виде миниатюр с помощью Aspose.Words для Java](./render-word-pages-thumbnails-aspose-java/)
 Узнайте, как создавать высококачественные миниатюры и растровые изображения документов Word с помощью Aspose.Words для Java. Расширьте свои возможности обработки документов сегодня.
 
+### [Добавление эффекта тени к фигурам в C# – Пошаговое руководство](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

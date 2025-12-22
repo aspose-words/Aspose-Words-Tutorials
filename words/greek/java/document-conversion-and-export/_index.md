@@ -36,18 +36,34 @@
 ## Εκπαιδευτικά βίντεο για τη μετατροπή και την εξαγωγή εγγράφων
 ### [Δημιουργία προσαρμοσμένων ετικετών γραμμωτού κώδικα στο Aspose.Words για Java](./generating-custom-barcode-labels/)
 Δημιουργήστε προσαρμοσμένες ετικέτες γραμμωτού κώδικα στο Aspose.Words για Java. Μάθετε πώς να δημιουργείτε εξατομικευμένες λύσεις γραμμωτού κώδικα χρησιμοποιώντας το Aspose.Words για Java σε αυτόν τον οδηγό βήμα προς βήμα.
+
 ### [Χρήση της δημιουργίας γραμμωτού κώδικα στο Aspose.Words για Java](./using-barcode-generation/)
 Μάθετε πώς να δημιουργείτε προσαρμοσμένους γραμμωτούς κώδικες σε Java χρησιμοποιώντας το Aspose.Words για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για τη δημιουργία γραμμωτών κωδίκων. Βελτιώστε την αυτοματοποίηση εγγράφων με το Aspose.Words.
+
 ### [Χρήση γραφημάτων στο Aspose.Words για Java](./using-charts/)
 Μάθετε πώς να δημιουργείτε και να προσαρμόζετε γραφήματα στο Aspose.Words για Java. Εξερευνήστε τύπους γραφημάτων, μορφοποίηση και ιδιότητες αξόνων για οπτικοποίηση δεδομένων.
+
 ### [Χρήση Μαθηματικών Αντικειμένων του Office στο Aspose.Words για Java](./using-office-math-objects/)
 Ξεκλειδώστε τη δύναμη των μαθηματικών εξισώσεων σε έγγραφα με το Aspose.Words για Java. Μάθετε να χειρίζεστε και να εμφανίζετε αντικείμενα του Office Math χωρίς κόπο.
+
 ### [Χρήση σχημάτων εγγράφων στο Aspose.Words για Java](./using-document-shapes/)
 Ξεκλειδώστε τη Δύναμη των Σχήματων Εγγράφων στο Aspose.Words για Java. Μάθετε να Δημιουργείτε Οπτικά Ενδιαφέροντα Έγγραφα με Παραδείγματα Βήμα προς Βήμα.
+
 ### [Χρήση υδατογραφημάτων σε έγγραφα στο Aspose.Words για Java](./using-watermarks-to-documents/)
 Μάθετε πώς να προσθέτετε υδατογραφήματα σε έγγραφα στο Aspose.Words για Java. Προσαρμόστε τα υδατογραφήματα κειμένου και εικόνας για έγγραφα επαγγελματικής εμφάνισης.
+
 ### [Μορφοποίηση πινάκων και στυλ πινάκων στο Aspose.Words για Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words για Java. Εξερευνήστε οδηγούς βήμα προς βήμα με πηγαίο κώδικα για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
+
+### [Μετατροπή docx σε markdown με C# – Πλήρης Οδηγός για Αποθήκευση Word ως Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [Πώς να αποθηκεύσετε PDF με διατήρηση διάταξης – Πλήρης Οδηγός](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+
+### [Πώς να εξάγετε Markdown από DOCX – Πλήρης Οδηγός για τη Μετατροπή Docx σε Markdown](./how-to-export-markdown-from-docx-complete-guide-d/)
+
+### [Πώς να αποθηκεύσετε Markdown από DOCX – Πλήρης Οδηγός για τη Μετατροπή Docx σε Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+
+### [Δημιουργία προσβάσιμου PDF από Word σε Java – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

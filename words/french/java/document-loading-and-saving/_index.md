@@ -82,6 +82,7 @@ Apprenez à enregistrer des documents au format RTF avec Aspose.Words pour Java.
 Apprenez à enregistrer des documents au format texte dans Aspose.Words pour Java. Suivez notre guide étape par étape avec des exemples de code Java.
 ### [Déterminer le format d'un document dans Aspose.Words pour Java](./determining-document-format/)
 Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identifiez les formats DOC, DOCX et plus encore. Organisez efficacement vos fichiers.
+### [Charger un document Word en Java – Guide complet pour obtenir les messages d'avertissement et gérer les polices manquantes](./load-word-document-in-java-complete-guide-to-get-warning-mes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

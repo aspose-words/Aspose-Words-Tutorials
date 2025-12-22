@@ -48,6 +48,17 @@ Odblokuj moc kształtów dokumentów w Aspose.Words dla Java. Naucz się tworzy�
 Dowiedz się, jak dodawać znaki wodne do dokumentów w Aspose.Words for Java. Dostosuj znaki wodne tekstowe i graficzne, aby uzyskać profesjonalnie wyglądające dokumenty.
 ### [Formatowanie tabel i stylów tabel w Aspose.Words dla Java](./formatting-tables-and-table-styles/)
 Dowiedz się, jak formatować tabele i stosować style tabel w Aspose.Words dla Java. Poznaj przewodniki krok po kroku z kodem źródłowym, aby skutecznie formatować tabele. Ulepsz układ swojego dokumentu dzięki Aspose.Words.
+### [Konwertowanie docx do markdown w C# – Kompletny przewodnik zapisywania Word jako Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [Jak zapisać PDF z zachowaniem układu – Kompletny przewodnik](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+Dowiedz się, jak zapisać dokument PDF zachowując układ przy użyciu Aspose.Words dla Java.
+
+### [Utwórz dostępny PDF z dokumentu Word w Javie – przewodnik krok po kroku](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word w Javie, krok po kroku.
+
+### [Jak wyeksportować Markdown z DOCX – Kompletny przewodnik konwersji Docx do Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+
+### [Jak zapisać Markdown z DOCX – Kompletny przewodnik konwersji Docx do Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

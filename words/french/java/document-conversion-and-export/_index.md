@@ -48,6 +48,16 @@ Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Appr
 Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+### [Convertir un docx en markdown avec C# – Guide complet pour enregistrer Word en Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+Guide complet pour convertir des fichiers DOCX en Markdown avec C#.
+### [Comment exporter du Markdown depuis DOCX – Guide complet pour convertir Docx en Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+Guide complet pour exporter du Markdown à partir d'un fichier DOCX avec Aspose.Words pour Java.
+### [Comment enregistrer du Markdown depuis DOCX – Guide complet pour convertir Docx en Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+Guide complet pour enregistrer du Markdown à partir d'un fichier DOCX avec Aspose.Words pour Java.
+### [Comment enregistrer un PDF avec préservation de la mise en page – Guide complet](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+Apprenez à enregistrer des fichiers PDF tout en conservant la mise en page d'origine avec Aspose.Words pour Java.
+### [Créer un PDF accessible à partir de Word en Java – Guide étape par étape](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Apprenez à créer un PDF accessible à partir d'un document Word en Java avec Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

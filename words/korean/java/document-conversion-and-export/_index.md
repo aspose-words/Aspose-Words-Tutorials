@@ -45,9 +45,15 @@ Aspose.Words for Java를 사용하여 문서에서 수학 방정식의 힘을 �
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
 Aspose.Words for Java에서 문서 모양의 강력한 기능을 활용하세요. 단계별 예제를 통해 시각적으로 매력적인 문서를 만드는 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 문서에 워터마크 사용하기](./using-watermarks-to-documents/)
-Aspose.Words for Java에서 문서에 워터마크를 추가하는 방법을 알아보세요. 전문적인 문서에 맞춰 텍스트 및 이미지 워터마크를 사용자 정의해 보세요.
+Aspose.Words for Java에서 문서에 워터마크를 추가하는 방법을 알아보세요. 전문적인 문서에 맞춰 텈스트 및 이미지 워터마크를 사용자 정의해 보세요.
 ### [Java용 Aspose.Words에서 표 및 표 스타일 서식 지정](./formatting-tables-and-table-styles/)
 Aspose.Words for Java에서 표 서식을 지정하고 표 스타일을 적용하는 방법을 알아보세요. 효과적인 표 서식 지정을 위한 소스 코드와 단계별 가이드를 살펴보세요. Aspose.Words로 문서 레이아웃을 개선해 보세요.
+### [레이아웃 보존으로 PDF 저장하기 – 완전 가이드](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+### [C#로 docx를 마크다운으로 변환 – Word를 마크다운으로 저장하는 완전 가이드](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+### [DOCX에서 마크다운 내보내기 – Docx를 마크다운으로 변환하는 완전 가이드](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+### [DOCX에서 마크다운 저장하기 – Docx를 마크다운으로 변환하는 완전 가이드](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+### [Word에서 접근 가능한 PDF 만들기 – Java 단계별 가이드](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Word 문서를 접근 가능한 PDF로 변환하는 방법을 Java를 사용해 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

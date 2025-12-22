@@ -48,6 +48,16 @@
 تعرّف على كيفية إضافة علامات مائية إلى المستندات في Aspose.Words لجافا. خصّص علامات مائية للنصوص والصور لمستندات احترافية.
 ### [تنسيق الجداول وأنماطها في Aspose.Words لـ Java](./formatting-tables-and-table-styles/)
 تعرّف على كيفية تنسيق الجداول وتطبيق أنماطها في Aspose.Words لجافا. استكشف أدلةً خطوة بخطوة مع الكود المصدري لتنسيق جداول فعّال. حسّن تخطيط مستندك باستخدام Aspose.Words.
+### [إنشاء PDF قابل للوصول من Word في Java – دليل خطوة بخطوة](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words للغة Java.
+### [تحويل docx إلى markdown باستخدام C# – دليل كامل لحفظ Word كـ Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [كيفية حفظ PDF مع الحفاظ على التخطيط – دليل كامل](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+
+### [كيفية تصدير Markdown من DOCX – دليل كامل لتحويل Docx إلى Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+
+### [كيفية حفظ Markdown من DOCX – دليل كامل لتحويل Docx إلى Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

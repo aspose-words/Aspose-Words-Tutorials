@@ -58,6 +58,8 @@ Aspose.Words for Java 讓您能夠以前所未有的方式控製文件的載入�
 在 Aspose.Words for Java 中配置 RTF 載入選項。了解如何識別 RTF 文件中的 UTF-8 文字。帶有程式碼範例的分步指南。
 ### [使用 Aspose.Words for Java 載入文字文件](./loading-text-files/)
 釋放 Aspose.Words for Java 的強大功能。學習載入文字文件、管理清單、處理空格和控製文字方向。
+### [在 Java 中載入 Word 文檔 – 完整指南：獲取警告訊息與處理缺少的字體](./load-word-document-in-java-complete-guide-to-get-warning-mes/)
+
 ### [Aspose.Words for Java 的進階保存選項](./advance-saving-options/)
 學習使用 Aspose.Words for Java 進行進階文件操作。加密、處理元檔案等等。您的 Word 文檔，您的方式。
 ### [在 Aspose.Words for Java 中儲存具有固定佈局的 HTML 文檔](./saving-html-documents-with-fixed-layout/)

@@ -75,13 +75,14 @@ Tìm hiểu cách lưu tài liệu ở định dạng OOXML với Aspose.Words f
 ### [Lưu tài liệu dưới dạng định dạng PCL trong Aspose.Words cho Java](./saving-documents-as-pcl-format/)
 Tìm hiểu cách lưu tài liệu ở định dạng PCL bằng Aspose.Words cho Java. Hướng dẫn từng bước và ví dụ mã để chuyển đổi tài liệu hiệu quả.
 ### [Lưu tài liệu dưới dạng PDF trong Aspose.Words cho Java](./saving-documents-as-pdf/)
-Tìm hiểu cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện về chuyển đổi PDF.
+Tìm hiểu cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words cho Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện về chuyển đổi PDF.
 ### [Lưu tài liệu dưới dạng RTF trong Aspose.Words cho Java](./saving-documents-as-rtf-format/)
 Tìm hiểu cách lưu tài liệu dưới dạng RTF bằng Aspose.Words cho Java. Hướng dẫn từng bước với mã nguồn để chuyển đổi tài liệu hiệu quả.
 ### [Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java](./saving-documents-as-text-files/)
 Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java.
 ### [Xác định định dạng tài liệu trong Aspose.Words cho Java](./determining-document-format/)
 Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả.
+### [Tải tài liệu Word trong Java – Hướng dẫn toàn diện để nhận thông báo cảnh báo & xử lý phông chữ thiếu](./load-word-document-in-java-complete-guide-to-get-warning-mes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,8 @@ Menguasai Opsi Pemuatan di Aspose.Words untuk Java. Menyesuaikan pemuatan dokume
 Mengonfigurasi Opsi Pemuatan RTF di Aspose.Words untuk Java. Pelajari cara mengenali teks UTF-8 dalam dokumen RTF. Panduan langkah demi langkah dengan contoh kode.
 ### [Memuat File Teks dengan Aspose.Words untuk Java](./loading-text-files/)
 Buka Kekuatan Aspose.Words untuk Java. Pelajari Cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks.
+### [Muat Dokumen Word di Java – Panduan Lengkap untuk Mendapatkan Pesan Peringatan & Menangani Font yang Hilang](./load-word-document-in-java-complete-guide-to-get-warning-mes/)
+Pelajari cara memuat dokumen Word di Java, menampilkan pesan peringatan, dan menangani font yang hilang dengan Aspose.Words.
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
 Pelajari manipulasi dokumen tingkat lanjut dengan Aspose.Words untuk Java. Enkripsi, tangani metafile, dan banyak lagi. Dokumen Word Anda, sesuai keinginan Anda.
 ### [Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java](./saving-html-documents-with-fixed-layout/)

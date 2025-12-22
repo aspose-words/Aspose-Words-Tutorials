@@ -34,6 +34,9 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
 
+### [Árnyékhatás hozzáadása alakzatokhoz C#‑ban – Lépésről lépésre útmutató](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+Ismerje meg, hogyan adhat hozzá árnyékhatást a formákhoz C#‑ban az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

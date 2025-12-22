@@ -34,6 +34,9 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Words for Java 将文档页面渲染为缩略图](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 生成高质量的 Word 文档缩略图和自定义大小的位图。立即提升您的文档处理能力。
 
+### [在 C# 中为形状添加阴影效果 – 步骤指南](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+了解如何在 C# 中为形状添加阴影效果的分步指南。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

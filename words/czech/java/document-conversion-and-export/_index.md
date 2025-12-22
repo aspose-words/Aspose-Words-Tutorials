@@ -48,6 +48,16 @@ Odemkněte sílu tvarů dokumentů v Aspose.Words pro Javu. Naučte se vytváře
 Naučte se, jak přidávat vodoznaky do dokumentů v Aspose.Words pro Javu. Přizpůsobte si textové a obrazové vodoznaky pro profesionálně vypadající dokumenty.
 ### [Formátování tabulek a stylů tabulek v Aspose.Words pro Javu](./formatting-tables-and-table-styles/)
 Naučte se, jak formátovat tabulky a používat styly tabulek v Aspose.Words pro Javu. Prozkoumejte podrobné návody se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení dokumentu pomocí Aspose.Words.
+### [Jak uložit PDF se zachováním rozvržení – Kompletní průvodce](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+
+### [Převod docx na markdown pomocí C# – Kompletní průvodce ukládáním Wordu jako Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+
+### [Jak exportovat Markdown z DOCX – Kompletní průvodce převodem Docx na Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+
+### [Jak uložit Markdown z DOCX – Kompletní průvodce převodem Docx na Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+
+### [Vytvoření přístupného PDF z Wordu v Javě – krok za krokem průvodce](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
+Naučte se, jak vytvořit přístupné PDF z dokumentu Word pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

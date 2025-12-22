@@ -27,7 +27,7 @@ Una de las características clave de Aspose.Words para Java es su capacidad para
 ## Exportar documentos con Aspose.Words
 Exportar documentos es crucial para trabajar con ellos en diferentes contextos. En este tutorial, exploraremos cómo Aspose.Words para Java facilita la exportación de documentos. Ya sea que desee exportar páginas, secciones o incluso elementos individuales de un documento, aquí encontrará la guía que necesita.
 
-Al finalizar estos tutoriales, adquirirá los conocimientos y las habilidades necesarios para realizar conversiones y exportaciones de documentos con confianza utilizando Aspose.Words para Java. Prepárese para optimizar el procesamiento de documentos y mejorar su productividad con esta potente API.
+Al finalizar estos tutoriales, adquirirá los conocimientos y las habilidades necesarias para realizar conversiones y exportaciones de documentos con confianza utilizando Aspose.Words para Java. Prepárese para optimizar el procesamiento de documentos y mejorar su productividad con esta potente API.
 
 Así que, sumérgete en los tutoriales mencionados anteriormente y aprovecha al máximo el potencial de Aspose.Words para Java en tus proyectos relacionados con documentos. ¡Que disfrutes programando!
 
@@ -48,6 +48,13 @@ Descubra el poder de las formas de documentos en Aspose.Words para Java. Aprenda
 Aprenda a agregar marcas de agua a documentos en Aspose.Words para Java. Personalice marcas de agua de texto e imagen para obtener documentos con un aspecto profesional.
 ### [Formato de tablas y estilos de tabla en Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatear tablas y aplicar estilos en Aspose.Words para Java. Explore guías paso a paso con código fuente para un formato de tabla eficaz. Mejore el diseño de sus documentos con Aspose.Words.
+### [Cómo guardar PDF con preservación de diseño – Guía completa](./how-to-save-pdf-with-layout-preservation-complete-guide/)
+Aprenda a guardar archivos PDF manteniendo el diseño original con Aspose.Words para Java. Guía paso a paso.
+### [Convertir docx a markdown con C# – Guía completa para guardar Word como Markdown](./convert-docx-to-markdown-with-c-complete-guide-to-save-word/)
+### [Cómo exportar Markdown desde DOCX – Guía completa para convertir Docx a Markdown](./how-to-export-markdown-from-docx-complete-guide-to-convert-d/)
+Aprenda a exportar documentos DOCX a formato Markdown con Aspose.Words para Java. Guía paso a paso completa.
+### [Cómo guardar Markdown desde DOCX – Guía completa para convertir Docx a Markdown](./how-to-save-markdown-from-docx-complete-guide-to-convert-doc/)
+### [Crear PDF accesible desde Word en Java – Guía paso a paso](./create-accessible-pdf-from-word-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

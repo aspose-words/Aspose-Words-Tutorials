@@ -34,6 +34,9 @@ Een codetutorial voor Aspose.Words Java
 ### [Documentpagina's als miniaturen weergeven met Aspose.Words voor Java](./render-word-pages-thumbnails-aspose-java/)
 Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt genereren met Aspose.Words voor Java. Verbeter vandaag nog uw documentverwerkingsmogelijkheden.
 
+### [Schaduw-effect toevoegen aan vormen in C# – Stapsgewijze handleiding](./add-shadow-effect-to-shapes-in-c-step-by-step-guide/)
+Leer hoe u een schaduweffect aan vormen kunt toevoegen in C# met een stapsgewijze handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)
