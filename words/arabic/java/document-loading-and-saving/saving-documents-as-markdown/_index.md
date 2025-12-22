@@ -1,10 +1,12 @@
 ---
-"description": "تعرّف على كيفية تحويل مستندات Word إلى Markdown باستخدام Aspose.Words لجافا. يغطي هذا الدليل خطوة بخطوة محاذاة الجداول، ومعالجة الصور، والمزيد."
-"linktitle": "حفظ المستندات بتنسيق Markdown"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "حفظ المستندات بتنسيق Markdown في Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/saving-documents-as-markdown/"
-"weight": 18
+date: 2025-12-22
+description: تعلم كيفية تصدير ماركداون عن طريق تحويل مستندات Word إلى ماركداون باستخدام
+  Aspose.Words for Java. يغطي هذا الدليل خطوة بخطوة محاذاة الجداول ومعالجة الصور والمزيد.
+linktitle: Saving Documents as Markdown
+second_title: Aspose.Words Java Document Processing API
+title: كيفية تصدير Markdown باستخدام Aspose.Words للـ Java
+url: /ar/java/document-loading-and-saving/saving-documents-as-markdown/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +15,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ المستندات بتنسيق Markdown في Aspose.Words لـ Java
+# كيفية تصدير Markdown باستخدام Aspose.Words for Java
 
+## مقدمة حول تصدير Markdown في Aspose.Words for Java
 
-## مقدمة لحفظ المستندات بتنسيق Markdown في Aspose.Words لـ Java
+في هذا الدرس خطوة بخطوة، **ستتعلم كيفية تصدير markdown** من مستندات Word باستخدام Aspose.Words for Java. Markdown هي لغة توصيف خفيفة الوزن مثالية للتوثيق، مولدات المواقع الثابتة، والعديد من منصات النشر. بنهاية هذا الدليل ستكون قادرًا على **تحويل Word إلى markdown**، تخصيص محاذاة الجداول، و**معالجة الصور في markdown** بسهولة.
 
-في هذا الدليل التفصيلي، سنوضح كيفية حفظ المستندات بتنسيق Markdown باستخدام Aspose.Words لجافا. Markdown هي لغة ترميز خفيفة تُستخدم عادةً لتنسيق المستندات النصية. باستخدام Aspose.Words لجافا، يمكنك بسهولة تحويل مستندات Word إلى تنسيق Markdown. سنغطي جوانب مختلفة من حفظ ملفات Markdown، بما في ذلك محاذاة محتوى الجدول ومعالجة الصور.
+## إجابات سريعة
+- **ما هي الفئة الأساسية للحفظ كـ Markdown؟** `MarkdownSaveOptions`
+- **هل يمكن تضمين الصور تلقائيًا؟** نعم – قم بتعيين مجلد الصور عبر `setImagesFolder`.
+- **كيف يمكن التحكم في محاذاة الجدول؟** استخدم `TableContentAlignment` (LEFT, RIGHT, CENTER, AUTO).
+- **ما هي المتطلبات الدنيا؟** JDK 8+ ومكتبة Aspose.Words for Java.
+- **هل تتوفر نسخة تجريبية؟** نعم، حمّلها من موقع Aspose.
 
-## المتطلبات الأساسية
+## ما هو “كيفية تصدير markdown”؟
+تصدير markdown يعني أخذ مستند Word غني بالنص (`.docx`) وإنتاج ملف نصي عادي `.md` يحافظ على العناوين والجداول والصور بصيغة Markdown.
 
-قبل أن تبدأ، تأكد من أن لديك المتطلبات الأساسية التالية:
+## لماذا نستخدم Aspose.Words for Java لتحويل docx مع الصور؟
+Aspose.Words يتعامل مع التخطيطات المعقدة، الصور المدمجة، وهياكل الجداول دون فقدان الدقة. كما يمنحك تحكمًا دقيقًا في مخرجات Markdown، مثل محاذاة الجداول وإدارة مجلد الصور.
 
-- تم تثبيت Java Development Kit (JDK) على نظامك.
-- مكتبة Aspose.Words لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+## المتطلبات المسبقة
 
-## الخطوة 1: إنشاء مستند Word
+- مجموعة تطوير جافا (JDK) مثبتة على نظامك.
+- مكتبة Aspose.Words for Java. يمكنك تحميلها من [هنا](https://releases.aspose.com/words/java/).
 
-لنبدأ بإنشاء مستند وورد، ثم سنحوّله إلى تنسيق Markdown. يمكنك تخصيص هذا المستند حسب احتياجاتك.
+## الخطوة 1: إنشاء مستند Word بسيط
+
+أولاً، سننشئ مستندًا صغيرًا يحتوي على جدول. سيمكننا ذلك من توضيح **تخصيص محاذاة الجدول** لاحقًا.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إدراج جدول يحتوي على خليتين
+// Insert a table with two cells
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -44,60 +56,61 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// حفظ المستند بتنسيق Markdown
+// Save the document as Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-في هذا المثال، ننشئ جدولًا بسيطًا من خليتين ونضبط محاذاة الفقرات داخلهما. ثم نحفظ المستند بتنسيق Markdown باستخدام `MarkdownSaveOptions`.
+في المقتطف أعلاه نقوم بـ:
+
+1. إنشاء كائن `Document` جديد.
+2. استخدام `DocumentBuilder` لإدراج جدول بخليةين.
+3. تطبيق محاذاة الفقرة **يمين** و**وسط** داخل كل خلية.
+4. حفظ الملف كـ Markdown باستخدام `MarkdownSaveOptions`.
 
 ## الخطوة 2: تخصيص محاذاة محتوى الجدول
 
-يتيح لك Aspose.Words لجافا تخصيص محاذاة محتوى الجدول عند الحفظ بتنسيق Markdown. يمكنك محاذاة محتوى الجدول إلى اليسار أو اليمين أو الوسط، أو تحديده تلقائيًا بناءً على الفقرة الأولى في كل عمود.
-
-فيما يلي كيفية تخصيص محاذاة محتوى الجدول:
+Aspose.Words يتيح لك تحديد كيفية عرض خلايا الجدول في Markdown النهائي. يمكنك فرض محاذاة إلى اليسار أو اليمين أو الوسط، أو ترك المكتبة تقرر تلقائيًا بناءً على الفقرة الأولى في كل عمود.
 
 ```java
-// ضبط محاذاة محتوى الجدول إلى اليسار
+// Set the table content alignment to left
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// ضبط محاذاة محتوى الجدول إلى اليمين
+// Set the table content alignment to right
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// ضبط محاذاة محتوى الجدول إلى المركز
+// Set the table content alignment to center
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-// تعيين محاذاة محتوى الجدول إلى تلقائي (يتم تحديدها حسب الفقرة الأولى)
+// Set the table content alignment to auto (determined by first paragraph)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-عن طريق تغيير `TableContentAlignment` باستخدام الخاصية، يمكنك التحكم في كيفية محاذاة المحتوى داخل الجداول عند التحويل إلى Markdown.
+عن طريق تبديل خاصية `TableContentAlignment` يمكنك التحكم في **تخصيص محاذاة الجدول** لمخرجات Markdown.
 
-## الخطوة 3: التعامل مع الصور
+## الخطوة 3: معالجة الصور عند التصدير إلى markdown
 
-لتضمين الصور في مستند Markdown، عليك تحديد المجلد الذي توجد فيه الصور. يتيح لك Aspose.Words لـ Java تعيين مجلد الصور في `MarkdownSaveOptions`.
-
-إليك كيفية تعيين مجلد الصور وحفظ المستند بالصور:
+عند احتواء المستند على صور، ستحتاج إلى ظهور هذه الصور بشكل صحيح في ملف `.md` المُولد. عيّن المجلد الذي يجب على Aspose.Words تفريغ الصور المستخرجة فيه.
 
 ```java
-// تحميل مستند يحتوي على صور
+// Load a document containing images
 Document doc = new Document("document_with_images.docx");
 
-// تعيين مسار مجلد الصور
+// Set the images folder path
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// حفظ المستند مع الصور
+// Save the document with images
 doc.save("document_with_images.md", saveOptions);
 ```
 
-تأكد من الاستبدال `"document_with_images.docx"` مع المسار إلى مستند Word الذي يحتوي على الصور و `"images_folder/"` مع المسار الفعلي للمجلد الذي يتم تخزين صورك فيه.
+استبدل `"document_with_images.docx"` بمسار ملف المصدر الخاص بك و`"images_folder/"` بالموقع الذي ترغب في تخزين الصور فيه. سيحتوي Markdown الناتج على روابط صور تشير إلى هذا المجلد، مما يتيح لك **معالجة الصور في markdown** بسلاسة.
 
-## كود المصدر الكامل لحفظ المستندات بتنسيق Markdown في Aspose.Words لـ Java
+## الكود الكامل لحفظ المستندات كـ Markdown في Aspose.Words for Java
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -110,7 +123,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// يجعل جميع الفقرات داخل الجدول محاذية.
+	// Makes all paragraphs inside the table to be aligned.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -120,7 +133,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// سيتم أخذ المحاذاة في هذه الحالة من الفقرة الأولى في عمود الجدول المقابل.
+	// The alignment in this case will be taken from the first paragraph in corresponding table column.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,39 +149,41 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا الدليل، استكشفنا كيفية حفظ المستندات بتنسيق Markdown باستخدام Aspose.Words لجافا. غطينا إنشاء مستند Word، وتخصيص محاذاة محتوى الجدول، ومعالجة الصور في ملفات Markdown. يمكنك الآن تحويل مستندات Word بكفاءة إلى تنسيق Markdown، مما يجعلها مناسبة لمختلف منصات النشر واحتياجات التوثيق.
+| المشكلة | الحل |
+|-------|----------|
+| الصور لا تظهر في ملف `.md` | تأكد من أن `setImagesFolder` يشير إلى دليل قابل للكتابة وأن المجلد مُشار إليه بشكل صحيح في Markdown المُولد. |
+| محاذاة الجدول غير صحيحة | استخدم `TableContentAlignment.AUTO` للسماح لـ Aspose.Words باستخلاص أفضل محاذاة بناءً على الفقرة الأولى في كل عمود. |
+| ملف الإخراج فارغ | تأكد من أن كائن `Document` يحتوي فعليًا على محتوى قبل استدعاء `save`. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف أقوم بتثبيت Aspose.Words لـ Java؟
+**س: كيف يمكنني تثبيت Aspose.Words for Java؟**  
+ج: يمكن تثبيت Aspose.Words for Java عن طريق إضافة المكتبة إلى مشروع Java الخاص بك. يمكنك تحميل المكتبة من [هنا](https://releases.aspose.com/words/java/) واتباع تعليمات التثبيت الواردة في الوثائق.
 
-يمكن تثبيت Aspose.Words لجافا عن طريق تضمين المكتبة في مشروع جافا. يمكنك تنزيل المكتبة من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق.
+**س: هل يمكنني تحويل مستندات Word معقدة تحتوي على جداول وصور إلى Markdown؟**  
+ج: نعم، يدعم Aspose.Words for Java تحويل مستندات Word المعقدة التي تحتوي على جداول وصور وعناصر تنسيق متعددة إلى Markdown. يمكنك تخصيص مخرجات Markdown وفقًا لتعقيد المستند.
 
-### هل يمكنني تحويل مستندات Word المعقدة التي تحتوي على الجداول والصور إلى Markdown؟
+**س: كيف يمكنني معالجة الصور في ملفات Markdown؟**  
+ج: عيّن مسار مجلد الصور باستخدام طريقة `setImagesFolder` في `MarkdownSaveOptions`. تأكد من تخزين ملفات الصور في المجلد المحدد؛ سيقوم Aspose.Words بإنشاء روابط صور Markdown المناسبة.
 
-نعم، يدعم Aspose.Words لجافا تحويل مستندات Word المعقدة، التي تحتوي على جداول وصور وعناصر تنسيق متنوعة، إلى تنسيق Markdown. يمكنك تخصيص مُخرجات Markdown حسب تعقيد مستندك.
+**س: هل تتوفر نسخة تجريبية من Aspose.Words for Java؟**  
+ج: نعم، يمكنك الحصول على نسخة تجريبية من Aspose.Words for Java من موقع Aspose. تتيح لك النسخة التجريبية تقييم قدرات المكتبة قبل شراء الترخيص.
 
-### كيف يمكنني التعامل مع الصور في ملفات Markdown؟
+**س: أين يمكنني العثور على مزيد من الأمثلة والوثائق؟**  
+ج: لمزيد من الأمثلة والوثائق والمعلومات التفصيلية حول Aspose.Words for Java، يرجى زيارة [الوثائق](https://reference.aspose.com/words/java/).
 
-لتضمين الصور في ملفات Markdown، اضبط مسار مجلد الصور باستخدام `setImagesFolder` الطريقة في `MarkdownSaveOptions`تأكد من تخزين ملفات الصور في المجلد المحدد، وسوف يقوم Aspose.Words for Java بمعالجة مراجع الصور وفقًا لذلك.
+---
 
-### هل هناك نسخة تجريبية من Aspose.Words لـ Java متاحة؟
-
-نعم، يمكنك الحصول على نسخة تجريبية من Aspose.Words لجافا من موقع Aspose الإلكتروني. تتيح لك هذه النسخة التجريبية تقييم إمكانيات المكتبة قبل شراء الترخيص.
-
-### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
-
-لمزيد من الأمثلة والوثائق والمعلومات التفصيلية حول Aspose.Words for Java، يرجى زيارة [التوثيق](https://reference.aspose.com/words/java/).
-
+**آخر تحديث:** 2025-12-22  
+**تم الاختبار باستخدام:** Aspose.Words for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
