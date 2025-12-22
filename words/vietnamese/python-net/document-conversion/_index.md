@@ -34,6 +34,9 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 ### [Chuyển đổi tài liệu Python - Hướng dẫn đầy đủ](./python-document-conversion/)
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
 
+### [Cách Khôi Phục Tài Liệu Word – Hướng Dẫn Đầy Đủ Để Sửa DOCX Hỏng và Chuyển Đổi Word sang Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Học cách khôi phục tài liệu Word bị hỏng, sửa lỗi DOCX và chuyển đổi sang định dạng Markdown bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

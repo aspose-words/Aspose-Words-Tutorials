@@ -33,6 +33,8 @@ Az Aspose.Words for Python segítségével történő dokumentumkonvertálás el
 ## Python dokumentumkonverziós oktatóanyagok
 ### [Python dokumentumkonverzió - Teljes útmutató](./python-document-conversion/)
 Tanuld meg a Python dokumentumkonvertálást az Aspose.Words for Python segítségével. Konvertálj, szerkeszd és szabd testre a dokumentumokat könnyedén. Növeld a termelékenységedet most!
+### [Hogyan állítsuk helyre a Word dokumentumokat – Teljes útmutató a sérült DOCX javításához és a Word Markdown formátumba konvertálásához](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Tanulja meg, hogyan javíthatja a sérült DOCX fájlokat, és konvertálhatja a Word dokumentumokat Markdown formátumba.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

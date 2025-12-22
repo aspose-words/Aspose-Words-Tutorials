@@ -34,6 +34,9 @@ Opanowując konwersję dokumentów za pomocą Aspose.Words for Python, deweloper
 ### [Konwersja dokumentów Pythona — kompletny przewodnik](./python-document-conversion/)
 Naucz się konwersji dokumentów Pythona z Aspose.Words for Python. Konwertuj, manipuluj i dostosowuj dokumenty bez wysiłku. Zwiększ produktywność już teraz!
 
+### [Jak odzyskać dokumenty Word – Kompletny przewodnik naprawy uszkodzonych DOCX i konwersji Word do Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Naucz się naprawiać uszkodzone pliki DOCX i konwertować dokumenty Word do formatu Markdown.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

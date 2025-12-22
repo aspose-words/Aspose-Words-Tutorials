@@ -34,6 +34,9 @@
 ### [Python 文檔轉換 - 完整指南](./python-document-conversion/)
 學習使用 Aspose.Words for Python 進行 Python 文件轉換。輕鬆轉換、操作和自訂文件。立即提高生產力！
 
+### [如何恢復 Word 文件 – 完整指南：修復損壞的 DOCX 並將 Word 轉換為 Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -33,6 +33,7 @@
 ## บทช่วยสอนการแปลงเอกสาร Python
 ### [การแปลงเอกสาร Python - คู่มือฉบับสมบูรณ์](./python-document-conversion/)
 เรียนรู้การแปลงเอกสาร Python ด้วย Aspose.Words สำหรับ Python แปลง แก้ไข และปรับแต่งเอกสารได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานทันที!
+### [วิธีกู้คืนเอกสาร Word – คู่มือฉบับสมบูรณ์เพื่อแก้ไขไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

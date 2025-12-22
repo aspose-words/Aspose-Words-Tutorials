@@ -34,6 +34,9 @@ Aspose.Words for Python を使ったドキュメント変換をマスターす�
 ### [Python ドキュメント変換 - 完全ガイド](./python-document-conversion/)
 Aspose.Words for PythonでPythonドキュメント変換を学ぼう。ドキュメントの変換、操作、カスタマイズが簡単に。今すぐ生産性を向上しましょう！
 
+### [Word 文書の復元方法 – 壊れた DOCX を修復し、Word を Markdown に変換する完全ガイド](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Word 文書の復元と Markdown 変換に関する完全ガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

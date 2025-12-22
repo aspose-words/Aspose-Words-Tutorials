@@ -34,6 +34,8 @@
 ### [Преобразование документов Python — полное руководство](./python-document-conversion/)
 Изучите преобразование документов Python с помощью Aspose.Words для Python. Преобразуйте, обрабатывайте и настраивайте документы без усилий. Повысьте производительность уже сейчас!
 
+### [Как восстановить документы Word — Полное руководство по исправлению повреждённых DOCX и конвертации Word в Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

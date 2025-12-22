@@ -33,6 +33,8 @@ Door documentconversie onder de knie te krijgen met Aspose.Words voor Python, ku
 ## Zelfstudies voor het converteren van Python-documenten
 ### [Python-documentconversie - De complete gids](./python-document-conversion/)
 Leer Python-documentconversie met Aspose.Words voor Python. Converteer, bewerk en personaliseer documenten moeiteloos. Verhoog nu uw productiviteit!
+### [Hoe Word-documenten te herstellen – Complete gids om corrupte DOCX te repareren en Word naar Markdown te converteren](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Leer hoe je corrupte DOCX-bestanden kunt repareren en Word-documenten kunt converteren naar Markdown.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

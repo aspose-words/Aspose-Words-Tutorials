@@ -33,6 +33,8 @@
 ## Εκπαιδευτικά σεμινάρια μετατροπής εγγράφων Python
 ### [Μετατροπή εγγράφων Python - Ο πλήρης οδηγός](./python-document-conversion/)
 Μάθετε μετατροπή εγγράφων Python με το Aspose.Words για Python. Μετατρέψτε, χειριστείτε και προσαρμόστε έγγραφα χωρίς κόπο. Αυξήστε την παραγωγικότητα τώρα!
+### [Πώς να Ανακτήσετε Έγγραφα Word – Πλήρης Οδηγός για Διόρθωση Κατεστραμμένων DOCX και Μετατροπή Word σε Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Μάθετε πώς να επαναφέρετε κατεστραμμένα έγγραφα Word, να διορθώσετε αρχεία DOCX και να τα μετατρέψετε σε μορφή Markdown.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

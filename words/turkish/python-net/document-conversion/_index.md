@@ -34,6 +34,9 @@ Geliştiriciler, Python için Aspose.Words ile belge dönüştürme konusunda uz
 ### [Python Belge Dönüştürme - Tam Kılavuz](./python-document-conversion/)
 Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!
 
+### [Word Belgelerini Kurtarma – Bozuk DOCX Dosyalarını Düzeltme ve Word'ü Markdown'a Dönüştürme Tam Kılavuzu](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

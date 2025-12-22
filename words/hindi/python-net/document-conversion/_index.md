@@ -34,6 +34,9 @@
 ### [पायथन दस्तावेज़ रूपांतरण - संपूर्ण गाइड](./python-document-conversion/)
 Aspose.Words for Python के साथ Python दस्तावेज़ रूपांतरण सीखें। दस्तावेज़ों को आसानी से रूपांतरित, हेरफेर और अनुकूलित करें। उत्पादकता को अभी बढ़ाएँ!
 
+### [Word दस्तावेज़ कैसे पुनर्प्राप्त करें – भ्रष्ट DOCX को ठीक करने और Word को Markdown में बदलने की संपूर्ण गाइड](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -34,6 +34,9 @@
 ### [تحويل مستندات بايثون - الدليل الكامل](./python-document-conversion/)
 تعلّم تحويل مستندات بايثون مع Aspose.Words لبايثون. حوّل، عالج، وخصّص المستندات بكل سهولة. عزّز إنتاجيتك الآن!
 
+### [كيفية استعادة مستندات Word – دليل كامل لإصلاح ملفات DOCX التالفة وتحويل Word إلى Markdown](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+تعلّم كيفية استعادة مستندات Word التالفة وتحويلها إلى تنسيق Markdown باستخدام Aspose.Words لبايثون.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

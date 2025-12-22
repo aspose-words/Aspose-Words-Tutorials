@@ -33,6 +33,8 @@ Zvládnutím konverze dokumentů pomocí Aspose.Words pro Python mohou vývojá�
 ## Výukové programy pro konverzi dokumentů v Pythonu
 ### [Konverze dokumentů v Pythonu - kompletní průvodce](./python-document-conversion/)
 Naučte se převod dokumentů v Pythonu s Aspose.Words pro Python. Převádějte, manipulujte a upravujte dokumenty bez námahy. Zvyšte produktivitu hned teď!
+### [Jak obnovit dokumenty Word – Kompletní průvodce opravou poškozených DOCX a konverzí Wordu do Markdownu](./how-to-recover-word-documents-complete-guide-to-fix-corrupte/)
+Naučte se, jak opravit poškozené soubory DOCX a převést dokumenty Word do formátu Markdown.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
