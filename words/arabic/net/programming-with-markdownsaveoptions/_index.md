@@ -24,6 +24,8 @@
 | [التصدير إلى Markdown مع محاذاة محتوى الجدول](./export-into-markdown-with-table-content-alignment/) | تعلّم كيفية تصدير مستندات Word إلى Markdown مع جداول مُحاذاة باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على جداول Markdown مثالية. |
 | [تعيين مجلد الصور](./set-images-folder/) حوّل مستندات Word إلى Markdown مع محاذاة الجداول بشكل صحيح باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل للحصول على نتائج مثالية.
 
+### [حفظ Word كـ PDF واستعادة Word التالف – تحويل Word إلى Markdown في C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

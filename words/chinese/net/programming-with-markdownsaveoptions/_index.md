@@ -24,6 +24,9 @@
 | [导出到 Markdown 格式并对齐表格内容](./export-into-markdown-with-table-content-alignment/) 了解如何使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown 格式，并附带对齐的表格。按照我们的分步指南，制作完美的 Markdown 表格。|
 | [设置图像文件夹](./set-images-folder/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 文档，并保持表格对齐。请遵循我们详细的指南，以获得完美的结果。|
 
+### [将 Word 保存为 PDF 并恢复损坏的 Word – 在 C# 中将 Word 转换为 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+
+使用 Aspose.Words for .NET 将 Word 文档保存为 PDF，恢复损坏的文档，并转换为 Markdown。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,9 +21,9 @@ Procesamiento de textos con MarkdownSaveOptions es un recurso detallado que te g
  ## Tutoriales
 | Título | Descripción |
 | --- | --- |
-| [Exportar a Markdown con alineación de contenido de tabla](./export-into-markdown-with-table-content-alignment/) Aprenda a exportar documentos de Word a Markdown con tablas alineadas usando Aspose.Words para .NET. Siga nuestra guía paso a paso para crear tablas Markdown perfectas.
-| [Establecer carpeta de imágenes](./set-images-folder/) Convierta documentos de Word a Markdown con la alineación de tablas correcta usando Aspose.Words para .NET. Siga nuestra guía detallada para obtener resultados perfectos.
-
+| [Exportar a Markdown con alineación de contenido de tabla](./export-into-markdown-with-table-content-alignment/) Aprenda a exportar documentos de Word a Markdown con tablas alineadas usando Aspose.Words para .NET. Siga nuestra guía paso a paso para crear tablas Markdown perfectas. |
+| [Establecer carpeta de imágenes](./set-images-folder/) Convierta documentos de Word a Markdown con la alineación de tablas correcta usando Aspose.Words para .NET. Siga nuestra guía detallada para obtener resultados perfectos. |
+| [Guardar Word como PDF y Recuperar Word Corrupto – Convertir Word a Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,6 +24,7 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 | [Eksportuj do Markdown z wyrównaniem zawartości tabeli](./export-into-markdown-with-table-content-alignment/) | Dowiedz się, jak eksportować dokumenty Word do Markdown z wyrównanymi tabelami przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać idealne tabele Markdown. |
 | [Ustaw folder obrazów](./set-images-folder/) Konwertuj dokumenty Word do Markdown z odpowiednim wyrównaniem tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać idealne wyniki. |
 
+### [Zapisz dokument Word jako PDF i odzyskaj uszkodzony Word – konwertuj Word na Markdown w C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

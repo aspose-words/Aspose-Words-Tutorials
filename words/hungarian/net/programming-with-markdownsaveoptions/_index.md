@@ -23,7 +23,7 @@ Szövegszerkesztés MarkdownSaveOptions segítségével egy részletes útmutat�
 | --- | --- |
 | [Exportálás Markdownba táblázattartalom-igazítással](./export-into-markdown-with-table-content-alignment/) | Ismerje meg, hogyan exportálhat Word-dokumentumokat Markdownba igazított táblázatokkal az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a tökéletes Markdown-táblázatok elkészítéséhez. |
 | [Képek mappa beállítása](./set-images-folder/) Konvertálja a Word dokumentumokat Markdown formátumba megfelelő táblázatigazítással az Aspose.Words for .NET segítségével. Kövesse részletes útmutatónkat a tökéletes eredmény érdekében. |
-
+| [Word mentése PDF-be és sérült Word helyreállítása – Word konvertálása Markdownba C#-ban](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) | Ismerje meg, hogyan menthet Word dokumentumokat PDF-be, helyreállíthatja a sérült fájlokat, és konvertálhatja őket Markdown formátumba C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
