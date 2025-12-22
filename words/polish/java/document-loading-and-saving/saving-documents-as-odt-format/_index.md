@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak zapisywać dokumenty w formacie ODT za pomocą Aspose.Words dla Java. Zapewnij zgodność z pakietami biurowymi typu open source."
-"linktitle": "Zapisywanie dokumentów w formacie ODT"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Zapisywanie dokumentów w formacie ODT w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/saving-documents-as-odt-format/"
-"weight": 19
+date: 2025-12-22
+description: Dowiedz się, jak zapisać jako ODT w Javie przy użyciu Aspose.Words for
+  Java, wiodącego rozwiązania do konwertowania plików Word na ODT i zapewniającego
+  kompatybilność z OpenOffice.
+linktitle: Saving Documents as ODT Format
+second_title: Aspose.Words Java Document Processing API
+title: zapisz jako odt java – Zapisz dokumenty jako ODT przy użyciu Aspose.Words
+url: /pl/java/document-loading-and-saving/saving-documents-as-odt-format/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,95 +16,118 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie dokumentów w formacie ODT w Aspose.Words dla Java
+# save as odt java – Zapisz dokumenty jako ODT przy użyciu Aspose.Words
 
+## Wprowadzenie do zapisywania dokumentów w formacie ODT w Aspose.Words dla Javy
 
-## Wprowadzenie do zapisywania dokumentów w formacie ODT w Aspose.Words dla Java
+W tym przewodniku dowiesz się **jak zapisać jako odt java** przy użyciu Aspose.Words dla Javy. Konwersja plików Word do otwarto‑źródłowego formatu ODT jest niezbędna, gdy musisz udostępniać dokumenty użytkownikom OpenOffice, LibreOffice lub dowolnej aplikacji obsługującej standard Open Document Text. Przeprowadzimy Cię przez wymagane kroki, wyjaśnimy, dlaczego ustawienie prawidłowej jednostki miary ma znaczenie, oraz pokażemy, jak zintegrować tę konwersję w typowym projekcie Java.
 
-W tym artykule przyjrzymy się sposobowi zapisywania dokumentów w formacie ODT (Open Document Text) przy użyciu Aspose.Words for Java. ODT to popularny otwarty standardowy format dokumentów używany przez różne pakiety biurowe, w tym OpenOffice i LibreOffice. Zapisując dokumenty w formacie ODT, możesz zapewnić zgodność z tymi pakietami oprogramowania.
+## Szybkie odpowiedzi
+- **Co robi „save as odt java”?** Konwertuje plik DOCX (lub inny format Word) na plik ODT przy użyciu Aspose.Words dla Javy.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Jakie wersje Javy są wspierane?** Wszystkie nowsze wersje JDK (8 +).  
+- **Czy mogę konwertować wiele plików jednocześnie?** Tak – umieść ten sam kod w pętli (zobacz notatki „batch convert docx odt”).  
+- **Czy muszę ustawiać jednostkę miary?** Nie jest to obowiązkowe, ale jej ustawienie (np. cale) zapewnia spójny układ w różnych pakietach Office.
 
-## Wymagania wstępne
+## Co to jest „save as odt java”?
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+Zapisanie dokumentu jako ODT w Javie oznacza pobranie dokumentu Word załadowanego w pamięci i wyeksportowanie go do formatu ODT. Biblioteka Aspose.Words zajmuje się całą ciężką pracą, zachowując style, tabele, obrazy i inne bogate treści.
 
-1. Środowisko programistyczne Java: Upewnij się, że w systemie zainstalowany jest Java Development Kit (JDK).
+## Dlaczego używać Aspose.Words dla Javy do konwersji Word na ODT?
 
-2. Aspose.Words dla Java: Pobierz i zainstaluj bibliotekę Aspose.Words dla Java. Link do pobrania znajdziesz [Tutaj](https://releases.aspose.com/words/java/).
+- **Pełna wierność:** Konwersja zachowuje złożone układy bez zmian.  
+- **Brak wymogu instalacji Office:** Działa na dowolnym serwerze lub komputerze.  
+- **Wieloplatformowość:** Działa na Windows, Linux i macOS.  
+- **Rozszerzalność:** Możesz dostosować opcje zapisu, takie jak jednostki miary, aby dopasować je do docelowego pakietu biurowego.
 
-3. Przykładowy dokument: Przygotuj przykładowy dokument programu Word (np. „Dokument.docx”), który chcesz przekonwertować do formatu ODT.
+## Prerequisites
 
-## Krok 1: Załaduj dokument
+1. **Środowisko programistyczne Java** – Zainstalowany JDK 8 lub nowszy.  
+2. **Aspose.Words dla Javy** – Pobierz i zainstaluj bibliotekę. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/words/java/).  
+3. **Przykładowy dokument** – Przygotuj plik Word (np. `Document.docx`) do konwersji.
 
-Najpierw załadujmy dokument Word za pomocą Aspose.Words dla Java:
+## Step‑by‑Step Guide
+
+### Krok 1: Załaduj dokument Word (load word document java)
+
+Najpierw załaduj dokument źródłowy do obiektu `Document`. Zastąp `"Your Directory Path"` rzeczywistą ścieżką do folderu, w którym znajduje się plik.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 ```
 
-Tutaj, `"Your Directory Path"` powinien wskazywać na katalog, w którym znajduje się Twój dokument.
+### Krok 2: Skonfiguruj opcje zapisu ODT
 
-## Krok 2: Określ opcje zapisu ODT
-
-Aby zapisać dokument jako ODT, musimy określić opcje zapisu ODT. Dodatkowo możemy ustawić jednostkę miary dla dokumentu. Open Office używa centymetrów, podczas gdy MS Office używa cali. Ustawimy ją na cale:
+Aby kontrolować wynik, utwórz instancję `OdtSaveOptions`. Ustawienie jednostki miary na cale dopasowuje układ do oczekiwań Microsoft Office, podczas gdy OpenOffice domyślnie używa centymetrów.
 
 ```java
 OdtSaveOptions saveOptions = new OdtSaveOptions();
 saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES);
 ```
 
-## Krok 3: Zapisz dokument
+### Krok 3: Zapisz dokument jako ODT
 
-Teraz czas zapisać dokument w formacie ODT:
+Na koniec zapisz przekonwertowany plik na dysk. Ponownie dostosuj ścieżkę w razie potrzeby.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
-Tutaj, `"Your Directory Path"` powinien wskazywać katalog, w którym chcesz zapisać przekonwertowany plik ODT.
+### Pełny kod źródłowy (gotowy do skopiowania)
 
-## Kompletny kod źródłowy do zapisywania dokumentów w formacie ODT w Aspose.Words dla Java
+Poniżej znajduje się pełny fragment kodu, który łączy trzy kroki w jedną, gotową do uruchomienia przykładową aplikację.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
-// W programie Open Office do określania długości, szerokości i innych mierzalnych formatowań używa się centymetrów
-// i właściwości zawartości w dokumentach, podczas gdy w pakiecie MS Office używa się cali.
+// Open Office uses centimeters when specifying lengths, widths and other measurable formatting
+// and content properties in documents whereas MS Office uses inches.
 OdtSaveOptions saveOptions = new OdtSaveOptions(); { saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES); }
 doc.save("Your Directory Path" + "WorkingWithOdtSaveOptions.MeasureUnit.odt", saveOptions);
 ```
 
-## Wniosek
+## Typowe przypadki użycia i wskazówki
 
-tym artykule dowiedzieliśmy się, jak zapisywać dokumenty w formacie ODT przy użyciu Aspose.Words dla Java. Może to być szczególnie przydatne, gdy trzeba zapewnić zgodność z pakietami biurowymi typu open source, takimi jak OpenOffice i LibreOffice.
+- **Batch convert docx odt:** Umieść logikę trzech kroków w pętli `for`, która iteruje po liście plików `.docx`.  
+- **Zachowaj własne style:** Upewnij się, że nie modyfikujesz kolekcji stylów dokumentu przed zapisem; Aspose.Words zachowuje je automatycznie.  
+- **Wskazówka dotycząca wydajności:** Ponownie używaj jednej instancji `OdtSaveOptions` przy konwertowaniu wielu plików, aby zmniejszyć narzut tworzenia obiektów.
 
-## Najczęściej zadawane pytania
+## Troubleshooting & Common Pitfalls
 
-### Jak mogę pobrać Aspose.Words dla Java?
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|-------|--------------|-----|
+| Brak obrazów w ODT | Obrazy przechowywane jako zewnętrzne odnośniki | Osadź obrazy w źródłowym DOCX przed konwersją. |
+| Przesunięcie układu po konwersji | Niepasująca jednostka miary | Ustaw `saveOptions.setMeasureUnit(OdtSaveMeasureUnit.INCHES)` (lub centymetry), aby dopasować do źródłowego pakietu Office. |
+| `OutOfMemoryError` przy dużych dokumentach | Ładowanie wielu dużych plików jednocześnie | Przetwarzaj pliki kolejno i wywołuj `System.gc()` po każdym zapisie, jeśli to konieczne. |
 
-Możesz pobrać Aspose.Words dla Java ze strony internetowej Aspose. Odwiedź [ten link](https://releases.aspose.com/words/java/) aby uzyskać dostęp do strony pobierania.
+## Frequently Asked Questions
 
-### Jakie są korzyści z zapisywania dokumentów w formacie ODT?
+**P: Jak mogę pobrać Aspose.Words dla Javy?**  
+O: Aspose.Words dla Javy można pobrać ze strony Aspose. Odwiedź [ten link](https://releases.aspose.com/words/java/), aby przejść do strony pobierania.
 
-Zapisywanie dokumentów w formacie ODT zapewnia zgodność z pakietami biurowymi typu open source, takimi jak OpenOffice i LibreOffice, ułatwiając użytkownikom tych pakietów oprogramowania dostęp do dokumentów i ich edycję.
+**P: Jakie są korzyści z zapisywania dokumentów w formacie ODT?**  
+O: Zapisywanie dokumentów w formacie ODT zapewnia kompatybilność z otwarto‑źródłowymi pakietami biurowymi, takimi jak OpenOffice i LibreOffice, co ułatwia użytkownikom tych platform otwieranie i edytowanie Twoich plików.
 
-### Czy muszę określać jednostkę miary podczas zapisywania w formacie ODT?
+**P: Czy muszę określić jednostkę miary przy zapisie w formacie ODT?**  
+O: Tak, jest to dobra praktyka. OpenOffice domyślnie używa centymetrów, natomiast Microsoft Office używa cali. Ustawienie jednostki explicite zapobiega niezgodnościom w układzie.
 
-Tak, to dobra praktyka, aby określić jednostkę miary. Open Office domyślnie używa centymetrów, więc ustawienie cali zapewnia spójne formatowanie.
+**P: Czy mogę konwertować wiele dokumentów do formatu ODT w trybie wsadowym?**  
+O: Oczywiście. Iteruj po swoich plikach `.docx` i zastosuj tę samą logikę ładowania‑zapisu wewnątrz pętli (to scenariusz „batch convert docx odt”).
 
-### Czy mogę przekonwertować wiele dokumentów do formatu ODT w procesie wsadowym?
+**P: Czy Aspose.Words dla Javy jest kompatybilny z najnowszymi wersjami Javy?**  
+O: Aspose.Words dla Javy jest regularnie aktualizowany, aby wspierać najnowsze wydania JDK. Sprawdź sekcję wymagań systemowych w dokumentacji, aby uzyskać najświeższe informacje o kompatybilności.
 
-Tak, możesz zautomatyzować konwersję wielu dokumentów do formatu ODT przy użyciu Aspose.Words for Java, przechodząc przez pliki dokumentów i stosując proces konwersji.
+## Conclusion
 
-### Czy Aspose.Words for Java jest kompatybilny z najnowszymi wersjami Java?
+Masz teraz kompletną, gotową do produkcji metodę **save as odt java** przy użyciu Aspose.Words dla Javy. Niezależnie od tego, czy konwertujesz pojedynczy plik, czy budujesz potok przetwarzania wsadowego, powyższe kroki obejmują wszystko, czego potrzebujesz — od załadowania dokumentu źródłowego po precyzyjne dostosowanie opcji zapisu dla idealnej kompatybilności między pakietami biurowymi.
 
-Aspose.Words for Java jest regularnie aktualizowany, aby obsługiwać najnowsze wersje Java, zapewniając kompatybilność i poprawę wydajności. Upewnij się, że sprawdziłeś wymagania systemowe w dokumentacji, aby uzyskać najnowsze informacje.
-
+**Ostatnia aktualizacja:** 2025-12-22  
+**Testowano z:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
