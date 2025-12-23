@@ -21,7 +21,7 @@ OfficeMath ile Word İşleme konusunda Aspose.Words for .NET eğitimleri, Word b
 | Başlık | Açıklama |
 | --- | --- |
 | [Matematik Denklemleri](./math-equations/) | Aspose.Words for .NET kullanarak Word belgelerinde matematiksel denklemlerin nasıl yapılandırılacağını öğrenin. Örnekler, SSS ve daha fazlasıyla adım adım kılavuz. |
-
+| ### [bozuk docx dosyasını kurtar – Onarım, Matematiği LaTeX'e Dışa Aktarma ve Benzersiz Görüntü Adları Oluşturma İçin Tam Kılavuz](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

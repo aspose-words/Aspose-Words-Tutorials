@@ -22,6 +22,8 @@ Aspose.Words for .NET 튜토리얼에서는 OfficeMath를 활용한 단어 처�
 | --- | --- |
 | [수학 방정식](./math-equations/) | Aspose.Words for .NET을 사용하여 Word 문서에서 수학 방정식을 구성하는 방법을 알아보세요. 예제, FAQ 등이 포함된 단계별 가이드입니다. |
 
+### [손상된 docx 복구 – 복구 전체 가이드, 수학을 LaTeX로 내보내기 및 고유 이미지 이름 생성](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
+손상된 docx 파일을 복구하고, 수학 방정식을 LaTeX로 내보내며, 고유 이미지 이름을 생성하는 전체 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

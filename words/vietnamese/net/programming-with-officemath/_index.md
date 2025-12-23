@@ -21,6 +21,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Phương trình toán học](./math-equations/) | Tìm hiểu cách cấu hình các phương trình toán học trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ, câu hỏi thường gặp và nhiều hơn nữa. |
+| [Khôi phục tệp docx bị hỏng – Hướng dẫn đầy đủ để sửa chữa, xuất Math sang LaTeX & tạo tên ảnh duy nhất](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/) | Hướng dẫn chi tiết cách khôi phục tài liệu docx bị hỏng, xuất công thức toán học sang LaTeX và tạo tên ảnh duy nhất. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

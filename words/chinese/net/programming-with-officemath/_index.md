@@ -21,7 +21,7 @@ Aspose.Words for .NET 教程“使用 OfficeMath 进行文字处理”将指导�
 标题 | 描述 |
 | --- | --- |
 | [数学方程式](./math-equations/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中配置数学公式。包含示例、常见问题解答等内容的分步指南。|
-
+| [恢复损坏的 docx – 完整指南：修复、导出数学为 LaTeX 并生成唯一的图像名称](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/) |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

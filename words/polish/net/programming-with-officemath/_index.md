@@ -22,6 +22,8 @@ Samouczki Aspose.Words for .NET dotyczące przetwarzania słów za pomocą Offic
 | --- | --- |
 | [Równania matematyczne](./math-equations/) | Dowiedz się, jak skonfigurować równania matematyczne w dokumentach Word za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami, często zadawanymi pytaniami i nie tylko. |
 
+### [odzyskaj uszkodzony docx – Pełny przewodnik naprawy, eksportu równań do LaTeX i generowania unikalnych nazw obrazów](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
+Kompletny przewodnik naprawy uszkodzonych plików docx, eksportu równań do LaTeX oraz generowania unikalnych nazw obrazów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

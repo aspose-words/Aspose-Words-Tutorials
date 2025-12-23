@@ -22,6 +22,8 @@ Aspose.Words for .NET の OfficeMath を使った Words Processing チュート�
 | --- | --- |
 | [数式](./math-equations/) Aspose.Words for .NET を使用して Word 文書に数式を設定する方法を学びます。例、FAQ などを交えたステップバイステップのガイドです。 |
 
+### [破損した docx の復元 – 修復、数式を LaTeX にエクスポート、ユニークな画像名を生成する完全ガイド](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

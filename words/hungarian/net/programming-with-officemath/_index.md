@@ -22,6 +22,7 @@ Az Aspose.Words for .NET oktatóanyagok az OfficeMath szövegszerkesztésről v�
 | --- | --- |
 | [Matematikai egyenletek](./math-equations/) | Ismerje meg, hogyan konfigurálhat matematikai egyenleteket Word dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató példákkal, GYIK-kel és egyebekkel. |
 
+### [Korrupt docx helyreállítása – Teljes útmutató a javításhoz, a Math exportálásához LaTeX-be és egyedi képnimek generálásához](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,6 +21,7 @@ Výukové programy Aspose.Words pro .NET o zpracování textu v OfficeMath vás 
 | Název | Popis |
 | --- | --- |
 | [Matematické rovnice](./math-equations/) | Naučte se, jak konfigurovat matematické rovnice v dokumentech Wordu pomocí Aspose.Words pro .NET. Podrobný návod s příklady, nejčastějšími dotazy a dalšími informacemi. |
+| [Obnova poškozeného docx – Kompletní průvodce opravou, exportem matematiky do LaTeXu a generováním jedinečných názvů obrázků](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/) | Kompletní průvodce obnovou poškozených souborů docx, opravou, exportem matematických rovnic do LaTeXu a generováním jedinečných názvů obrázků. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

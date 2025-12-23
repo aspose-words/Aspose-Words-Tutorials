@@ -22,6 +22,7 @@ The Aspose.Words for .NET tutorials on Words Processing with OfficeMath will gui
 | Title | Description |
 | --- | --- |
 | [Math Equations](./math-equations/) | Learn how to configure mathematical equations in Word documents using Aspose.Words for .NET. Step-by-step guide with examples, FAQs, and more. |
+### [recover corrupted docx – Full Guide to Repair, Export Math to LaTeX & Generate Unique Image Names](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

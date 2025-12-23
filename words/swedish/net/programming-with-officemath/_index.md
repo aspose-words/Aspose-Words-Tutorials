@@ -21,6 +21,7 @@ Aspose.Words för .NET-handledningarna om ordbehandling med OfficeMath guidar di
 | Titel | Beskrivning |
 | --- | --- |
 | [Matematiska ekvationer](./math-equations/) | Lär dig hur du konfigurerar matematiska ekvationer i Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide med exempel, vanliga frågor och mer. |
+| [återställ korrupt docx – Fullständig guide för reparation, exportera matematik till LaTeX och generera unika bildnamn](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/) | Lär dig hur du återställer skadade docx-filer, exporterar matematiska ekvationer till LaTeX och skapar unika bildnamn. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

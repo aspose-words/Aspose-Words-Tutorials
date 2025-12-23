@@ -22,6 +22,7 @@ tutorial di Aspose.Words per .NET sull'elaborazione testi con OfficeMath vi guid
 | --- | --- |
 | [Equazioni matematiche](./math-equations/) | Scopri come configurare equazioni matematiche nei documenti Word utilizzando Aspose.Words per .NET. Guida dettagliata con esempi, FAQ e altro ancora. |
 
+### [Recuperare docx corrotti – Guida completa per riparare, esportare formule in LaTeX e generare nomi immagine unici](./recover-corrupted-docx-full-guide-to-repair-export-math-to-l/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
