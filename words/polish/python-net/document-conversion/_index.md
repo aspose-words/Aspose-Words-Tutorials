@@ -34,6 +34,9 @@ Opanowując konwersję dokumentów za pomocą Aspose.Words for Python, deweloper
 ### [Konwersja dokumentów Pythona — kompletny przewodnik](./python-document-conversion/)
 Naucz się konwersji dokumentów Pythona z Aspose.Words for Python. Konwertuj, manipuluj i dostosowuj dokumenty bez wysiłku. Zwiększ produktywność już teraz!
 
+### [Konwersja docx do markdown – Kompletny przewodnik z eksportem PDF i LaTeX Math](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+Naucz się konwertować pliki docx do formatu markdown, z możliwością eksportu do PDF oraz obsługą równań LaTeX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

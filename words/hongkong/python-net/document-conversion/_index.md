@@ -34,6 +34,8 @@
 ### [Python 文檔轉換 - 完整指南](./python-document-conversion/)
 學習使用 Aspose.Words for Python 進行 Python 文件轉換。輕鬆轉換、操作和自訂文件。立即提高生產力！
 
+### [將 docx 轉換為 markdown – 完整指南，包含 PDF 匯出與 LaTeX 數學](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

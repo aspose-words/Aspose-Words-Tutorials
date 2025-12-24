@@ -34,6 +34,9 @@ Geliştiriciler, Python için Aspose.Words ile belge dönüştürme konusunda uz
 ### [Python Belge Dönüştürme - Tam Kılavuz](./python-document-conversion/)
 Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!
 
+### [docx'i markdown'a dönüştürme – PDF Dışa Aktarma ve LaTeX Matematiği ile Tam Kılavuz](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

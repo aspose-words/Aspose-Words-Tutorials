@@ -34,6 +34,9 @@ Dengan menguasai konversi dokumen dengan Aspose.Words untuk Python, pengembang d
 ### [Konversi Dokumen Python - Panduan Lengkap](./python-document-conversion/)
 Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, manipulasi, dan kustomisasi dokumen dengan mudah. Tingkatkan produktivitas sekarang!
 
+### [Mengonversi docx ke markdown – Panduan Lengkap dengan Ekspor PDF & Matematika LaTeX](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+Pelajari cara mengonversi file docx ke markdown dengan panduan lengkap, termasuk ekspor PDF dan dukungan matematika LaTeX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

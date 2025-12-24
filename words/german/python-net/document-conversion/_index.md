@@ -28,11 +28,13 @@ Die Tutorials konzentrieren sich auf die Verbesserung von Word-Dokumentenverarbe
 
 ## Vereinfachen Sie Ihr Dokumentenmanagement
 
-Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt-für-Schritt-Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentenkonvertierung und -verwaltung auszuschöpfen.
+Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt-für-Schritt-Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentkonvertierung und -verwaltung auszuschöpfen.
 
 ## Tutorials zur Python-Dokumentkonvertierung
 ### [Python-Dokumentkonvertierung – Die vollständige Anleitung](./python-document-conversion/)
 Lernen Sie die Python-Dokumentenkonvertierung mit Aspose.Words für Python. Konvertieren, bearbeiten und passen Sie Dokumente mühelos an. Steigern Sie jetzt Ihre Produktivität!
+### [docx nach Markdown konvertieren – Vollständige Anleitung mit PDF-Export & LaTeX-Mathematik](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+Lernen Sie, wie Sie docx-Dateien in Markdown umwandeln, PDFs exportieren und LaTeX-Formeln einbinden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

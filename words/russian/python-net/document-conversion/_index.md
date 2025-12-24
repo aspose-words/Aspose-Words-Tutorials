@@ -34,6 +34,8 @@
 ### [Преобразование документов Python — полное руководство](./python-document-conversion/)
 Изучите преобразование документов Python с помощью Aspose.Words для Python. Преобразуйте, обрабатывайте и настраивайте документы без усилий. Повысьте производительность уже сейчас!
 
+### [Конвертация docx в markdown – Полное руководство с экспортом PDF и LaTeX‑математикой](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

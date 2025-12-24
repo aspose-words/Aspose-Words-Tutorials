@@ -34,6 +34,9 @@ Aspose.Words for Python을 사용하여 문서 변환을 마스터하면 개발�
 ### [Python 문서 변환 - 완전 가이드](./python-document-conversion/)
 Aspose.Words for Python을 사용하여 Python 문서 변환을 배워보세요. 문서를 손쉽게 변환, 조작 및 맞춤 설정하여 생산성을 향상시키세요!
 
+### [docx를 markdown으로 변환 – PDF 내보내기 및 LaTeX 수식 포함 완전 가이드](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+Aspose.Words for Python을 사용하여 docx 파일을 markdown으로 변환하고 PDF로 내보내며 LaTeX 수식을 포함하는 방법을 배워보세요!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

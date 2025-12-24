@@ -33,6 +33,7 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 ## Hướng dẫn chuyển đổi tài liệu Python
 ### [Chuyển đổi tài liệu Python - Hướng dẫn đầy đủ](./python-document-conversion/)
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
+### [Chuyển đổi docx sang markdown – Hướng dẫn đầy đủ với xuất PDF & LaTeX Math](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

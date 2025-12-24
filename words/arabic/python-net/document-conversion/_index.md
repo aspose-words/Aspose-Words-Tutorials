@@ -33,6 +33,8 @@
 ## دروس تحويل مستندات بايثون
 ### [تحويل مستندات بايثون - الدليل الكامل](./python-document-conversion/)
 تعلّم تحويل مستندات بايثون مع Aspose.Words لبايثون. حوّل، عالج، وخصّص المستندات بكل سهولة. عزّز إنتاجيتك الآن!
+### [تحويل docx إلى markdown – دليل كامل مع تصدير PDF ورياضيات LaTeX](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+تعلّم كيفية تحويل ملفات docx إلى تنسيق markdown مع تصدير PDF ودعم صيغ LaTeX للرياضيات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

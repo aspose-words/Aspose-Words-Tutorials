@@ -33,6 +33,8 @@
 ## Εκπαιδευτικά σεμινάρια μετατροπής εγγράφων Python
 ### [Μετατροπή εγγράφων Python - Ο πλήρης οδηγός](./python-document-conversion/)
 Μάθετε μετατροπή εγγράφων Python με το Aspose.Words για Python. Μετατρέψτε, χειριστείτε και προσαρμόστε έγγραφα χωρίς κόπο. Αυξήστε την παραγωγικότητα τώρα!
+### [Μετατροπή docx σε markdown – Πλήρης οδηγός με εξαγωγή PDF & LaTeX μαθηματικά](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,9 @@ Aspose.Words for Python を使ったドキュメント変換をマスターす�
 ### [Python ドキュメント変換 - 完全ガイド](./python-document-conversion/)
 Aspose.Words for PythonでPythonドキュメント変換を学ぼう。ドキュメントの変換、操作、カスタマイズが簡単に。今すぐ生産性を向上しましょう！
 
+### [docx を markdown に変換 – PDF エクスポートと LaTeX 数式付き 完全ガイド](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+docx ファイルを markdown に変換し、PDF エクスポートと LaTeX 数式をサポートする完全ガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -33,6 +33,8 @@ Az Aspose.Words for Python segítségével történő dokumentumkonvertálás el
 ## Python dokumentumkonverziós oktatóanyagok
 ### [Python dokumentumkonverzió - Teljes útmutató](./python-document-conversion/)
 Tanuld meg a Python dokumentumkonvertálást az Aspose.Words for Python segítségével. Konvertálj, szerkeszd és szabd testre a dokumentumokat könnyedén. Növeld a termelékenységedet most!
+### [DOCX konvertálása markdownba – Teljes útmutató PDF exporttal és LaTeX matematikával](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

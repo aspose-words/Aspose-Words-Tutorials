@@ -33,6 +33,8 @@ Door documentconversie onder de knie te krijgen met Aspose.Words voor Python, ku
 ## Zelfstudies voor het converteren van Python-documenten
 ### [Python-documentconversie - De complete gids](./python-document-conversion/)
 Leer Python-documentconversie met Aspose.Words voor Python. Converteer, bewerk en personaliseer documenten moeiteloos. Verhoog nu uw productiviteit!
+### [Docx naar markdown – Complete gids met PDF-export en LaTeX-wiskunde](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

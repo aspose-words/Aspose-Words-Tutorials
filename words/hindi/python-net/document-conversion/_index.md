@@ -34,6 +34,8 @@
 ### [पायथन दस्तावेज़ रूपांतरण - संपूर्ण गाइड](./python-document-conversion/)
 Aspose.Words for Python के साथ Python दस्तावेज़ रूपांतरण सीखें। दस्तावेज़ों को आसानी से रूपांतरित, हेरफेर और अनुकूलित करें। उत्पादकता को अभी बढ़ाएँ!
 
+### [docx को markdown में बदलें – PDF निर्यात और LaTeX गणित के साथ पूर्ण गाइड](./convert-docx-to-markdown-complete-guide-with-pdf-export-late/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
