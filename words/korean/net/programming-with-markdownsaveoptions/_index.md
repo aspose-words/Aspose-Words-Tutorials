@@ -23,7 +23,7 @@
 | --- | --- |
 | [표 내용 정렬을 사용하여 마크다운으로 내보내기](./export-into-markdown-with-table-content-alignment/) | Aspose.Words for .NET을 사용하여 정렬된 표가 있는 Word 문서를 Markdown으로 내보내는 방법을 알아보세요. 완벽한 Markdown 표를 만드는 단계별 가이드를 따라해 보세요. |
 | [이미지 폴더 설정](./set-images-folder/) Aspose.Words for .NET을 사용하여 Word 문서를 적절한 표 정렬을 통해 Markdown으로 변환하세요. 완벽한 결과를 얻으려면 자세한 가이드를 따르세요. |
-
+| [Word를 PDF로 저장하고 손상된 Word 복구 – C#에서 Word를 Markdown으로 변환](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,7 @@
 | --- | --- |
 | [匯出到 Markdown 格式並對齊表格內容](./export-into-markdown-with-table-content-alignment/) |了解如何使用 Aspose.Words for .NET 將 Word 文件匯出為帶有對齊表格的 Markdown。按照我們的逐步指南來製作完美的 Markdown 表。 |
 | [設定圖像資料夾](./set-images-folder/) |使用 Aspose.Words for .NET 將 Word 文件轉換為具有適當表格對齊的 Markdown。按照我們的詳細指南可獲得完美的結果。 |
+| [將 Word 儲存為 PDF 並復原損壞的 Word – 在 C# 中將 Word 轉換為 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

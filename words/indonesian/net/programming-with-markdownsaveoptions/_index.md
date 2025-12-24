@@ -23,7 +23,8 @@ Words Processing with MarkdownSaveOptions adalah sumber daya mendalam yang meman
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ekspor ke Markdown dengan Penyelarasan Konten Tabel](./export-into-markdown-with-table-content-alignment/) | Pelajari cara mengekspor dokumen Word ke Markdown dengan tabel yang selaras menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk tabel Markdown yang sempurna. Bahasa Indonesia:
 | [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna. |
-
+### [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown dalam C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+Pelajari cara menyimpan dokumen Word sebagai PDF dan memulihkan Word yang rusak, serta mengonversi Word ke Markdown menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

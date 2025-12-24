@@ -25,6 +25,10 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Définir le dossier d'images](./set-images-folder/) Convertissez des documents Word en Markdown avec un alignement de tableaux correct grâce à Aspose.Words pour .NET. Suivez notre guide détaillé pour des résultats parfaits. |
 
 
+### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+
+Apprenez à enregistrer un document Word en PDF, à récupérer un fichier Word corrompu et à le convertir en Markdown en utilisant C# et Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
