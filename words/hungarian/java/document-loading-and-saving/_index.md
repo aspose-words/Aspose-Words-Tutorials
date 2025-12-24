@@ -82,6 +82,8 @@ Tanuld meg, hogyan menthetsz dokumentumokat RTF formátumban az Aspose.Words for
 Tanuld meg, hogyan menthetsz dokumentumokat szövegfájlként az Aspose.Words for Java programban. Kövesd lépésről lépésre bemutatott útmutatónkat Java kódpéldákkal.
 ### [Dokumentumformátum meghatározása az Aspose.Words programban Java-ban](./determining-document-format/)
 Tanuld meg, hogyan ismerd fel a dokumentumformátumokat Java-ban az Aspose.Words segítségével. Azonosítsd a DOC, DOCX és egyebeket. Rendszerezd hatékonyan a fájlokat.
+### [Helyreállítási mód beállítása – Sérült Word fájlok megnyitása Java-ban](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+Ismerje meg, hogyan állíthatja be a helyreállítási módot a sérült Word fájlok megnyitásához Java-ban az Aspose.Words for Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

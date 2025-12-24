@@ -48,6 +48,12 @@ Aspose.Words for Java에서 문서 모양의 강력한 기능을 활용하세요
 Aspose.Words for Java에서 문서에 워터마크를 추가하는 방법을 알아보세요. 전문적인 문서에 맞춰 텍스트 및 이미지 워터마크를 사용자 정의해 보세요.
 ### [Java용 Aspose.Words에서 표 및 표 스타일 서식 지정](./formatting-tables-and-table-styles/)
 Aspose.Words for Java에서 표 서식을 지정하고 표 스타일을 적용하는 방법을 알아보세요. 효과적인 표 서식 지정을 위한 소스 코드와 단계별 가이드를 살펴보세요. Aspose.Words로 문서 레이아웃을 개선해 보세요.
+### [이미지 삽입 마크다운 – 방정식 저장, 변환 및 내보내기를 위한 완전한 Java 가이드](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+이미지를 마크다운에 삽입하고 방정식을 저장, 변환 및 내보내는 방법을 Java로 완전하게 안내합니다.
+### [Word에서 접근성 PDF 만들기 – Word를 PDF로 내보내는 단계별 가이드](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [DOCX에서 인라인 도형으로 PDF 저장하기 – 완전한 프로그래밍 가이드](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

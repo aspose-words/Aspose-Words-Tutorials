@@ -82,6 +82,7 @@ Aspose.Words for Java를 사용하여 문서를 RTF 형식으로 저장하는 �
 Aspose.Words for Java에서 문서를 텍스트 파일로 저장하는 방법을 알아보세요. Java 코드 예제를 통해 단계별 가이드를 따라 해 보세요.
 ### [Java용 Aspose.Words에서 문서 형식 결정](./determining-document-format/)
 Aspose.Words를 사용하여 Java에서 문서 형식을 감지하는 방법을 알아보세요. DOC, DOCX 등을 식별하고, 파일을 효율적으로 정리하세요.
+### [복구 모드 설정 – Java에서 손상된 Word 파일 열기](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

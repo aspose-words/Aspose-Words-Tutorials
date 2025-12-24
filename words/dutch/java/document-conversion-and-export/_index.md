@@ -36,10 +36,13 @@ Voor meer informatie, kijk op de [Aspose.Words voor Java API-documentatie](https
 ## Tutorials voor documentconversie en export
 ### [Aangepaste barcodelabels genereren in Aspose.Words voor Java](./generating-custom-barcode-labels/)
 Genereer aangepaste barcodelabels in Aspose.Words voor Java. Leer hoe u gepersonaliseerde barcodeoplossingen maakt met Aspose.Words voor Java in deze stapsgewijze handleiding.
+### [Afbeeldingen insluiten in Markdown – Complete Java-gids voor opslaan, converteren en exporteren van vergelijkingen](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
 ### [Barcodegeneratie gebruiken in Aspose.Words voor Java](./using-barcode-generation/)
 Leer hoe u aangepaste barcodes genereert in Java met Aspose.Words voor Java. Stapsgewijze handleiding met broncode voor het genereren van barcodes. Verbeter documentautomatisering met Aspose.Words.
 ### [Grafieken gebruiken in Aspose.Words voor Java](./using-charts/)
 Leer hoe u grafieken maakt en aanpast in Aspose.Words voor Java. Ontdek grafiektypen, opmaak en aseigenschappen voor datavisualisatie.
+### [Hoe PDF opslaan vanuit DOCX met inline-afbeeldingen – Complete programmeergids](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Leer hoe u PDF's opslaat vanuit DOCX-bestanden met inline-afbeeldingen in deze volledige programmeergids.
 ### [Office Math-objecten gebruiken in Aspose.Words voor Java](./using-office-math-objects/)
 Ontgrendel de kracht van wiskundige vergelijkingen in documenten met Aspose.Words voor Java. Leer moeiteloos Office Math-objecten te bewerken en weer te geven.
 ### [Documentvormen gebruiken in Aspose.Words voor Java](./using-document-shapes/)
@@ -48,6 +51,8 @@ Ontdek de kracht van documentvormen in Aspose.Words voor Java. Leer hoe u visuee
 Leer hoe u watermerken toevoegt aan documenten in Aspose.Words voor Java. Pas tekst- en afbeeldingswatermerken aan voor professioneel ogende documenten.
 ### [Tabellen en tabelstijlen opmaken in Aspose.Words voor Java](./formatting-tables-and-table-styles/)
 Leer hoe u tabellen opmaakt en tabelstijlen toepast in Aspose.Words voor Java. Ontdek stapsgewijze handleidingen met broncode voor effectieve tabelopmaak. Verbeter de lay-out van uw document met Aspose.Words.
+### [Maak toegankelijke PDF vanuit Word – Stapsgewijze handleiding om Word naar PDF te exporteren](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Leer hoe u toegankelijke PDF-bestanden maakt vanuit Word-documenten met een stapsgewijze handleiding voor export naar PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

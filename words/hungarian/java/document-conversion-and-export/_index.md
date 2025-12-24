@@ -48,6 +48,11 @@ Engedd szabadjára a dokumentumalakzatok erejét az Aspose.Words for Java progra
 Tanuld meg, hogyan adhatsz hozzá vízjeleket dokumentumokhoz az Aspose.Words for Java programban. Testreszabhatod a szöveges és képes vízjeleket professzionális megjelenésű dokumentumokhoz.
 ### [Táblázatok és táblázatstílusok formázása az Aspose.Words for Java programban](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázhatod a táblázatokat és hogyan alkalmazhatsz táblázatstílusokat az Aspose.Words for Java programban. Fedezz fel lépésről lépésre szóló útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentumod elrendezését az Aspose.Words segítségével.
+### [Képek beágyazása Markdown – Teljes Java útmutató egyenletek mentéséhez, konvertálásához és exportálásához](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+### [Hozzon létre akadálymentes PDF-et Word-ből – Lépésről lépésre útmutató a Word PDF-be exportálásához](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Tanulja meg, hogyan hozhat létre hozzáférhető PDF fájlokat Word dokumentumokból lépésről lépésre.
+### [Hogyan mentse el a PDF-et DOCX-ből beágyazott alakzatokkal – Teljes programozási útmutató](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Tanulja meg, hogyan menthet PDF-et DOCX fájlból beágyazott alakzatokkal, egy teljes programozási útmutató segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

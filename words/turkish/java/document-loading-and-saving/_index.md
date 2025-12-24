@@ -82,6 +82,7 @@ Aspose.Words for Java kullanarak belgeleri RTF formatında nasıl kaydedeceğini
 Aspose.Words for Java'da belgeleri metin dosyaları olarak nasıl kaydedeceğinizi öğrenin. Java kod örnekleriyle adım adım kılavuzumuzu izleyin.
 ### [Java için Aspose.Words'de Belge Biçimini Belirleme](./determining-document-format/)
 Aspose.Words ile Java'da belge biçimlerini nasıl algılayacağınızı öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyaları verimli bir şekilde düzenleyin.
+### [Kurtarma Modunu Ayarlama – Java'da Bozuk Word Dosyalarını Açma](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

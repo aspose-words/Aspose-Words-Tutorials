@@ -48,6 +48,9 @@ Aspose.Words for Java'da Belge Şekillerinin Gücünü Açın. Adım Adım Örne
 Aspose.Words for Java'da belgelere filigran eklemeyi öğrenin. Profesyonel görünümlü belgeler için metin ve resim filigranlarını özelleştirin.
 ### [Java için Aspose.Words'de Tabloları ve Tablo Stillerini Biçimlendirme](./formatting-tables-and-table-styles/)
 Aspose.Words for Java'da tabloları nasıl biçimlendireceğinizi ve tablo stillerini nasıl uygulayacağınızı öğrenin. Etkili tablo biçimlendirme için kaynak kodlu adım adım kılavuzları keşfedin. Belge düzeninizi Aspose.Words ile geliştirin.
+### [Gömülü Görseller Markdown – Denklemleri Kaydetme, Dönüştürme ve Dışa Aktarma için Tam Java Kılavuzu](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+### [DOCX'ten PDF'yi Inline Şekillerle Kaydetme – Tam Programlama Kılavuzu](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+### [Word'den Erişilebilir PDF Oluşturma – Word'ü PDF'ye Dışa Aktarma Adım Adım Kılavuzu](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

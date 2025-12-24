@@ -54,6 +54,7 @@ Met Aspose.Words voor Java krijgt u de controle over het laden en opslaan van do
 Leer hoe u HTML-documenten in Java laadt en opslaat met Aspose.Words voor Java. Stapsgewijze handleiding met codevoorbeelden voor naadloze documentintegratie.
 ### [Werken met laadopties in Aspose.Words voor Java](./using-load-options/)
 Beheers laadopties in Aspose.Words voor Java. Pas het laden van documenten aan, verwerk encryptie, converteer vormen, stel Word-versies in en meer voor efficiënte verwerking van Java-documenten.
+### [Herstelmodus instellen – Hoe corrupte Word-bestanden te openen in Java](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
 ### [RTF-laadopties configureren in Aspose.Words voor Java](./configuring-rtf-load-options/)
 RTF-laadopties configureren in Aspose.Words voor Java. Leer hoe u UTF-8-tekst in RTF-documenten herkent. Stapsgewijze handleiding met codevoorbeelden.
 ### [Tekstbestanden laden met Aspose.Words voor Java](./loading-text-files/)

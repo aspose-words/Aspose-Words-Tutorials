@@ -67,7 +67,7 @@
 ### [حفظ الصور من المستندات في Aspose.Words لـ Java](./saving-images-from-documents/)
 تعرّف على كيفية حفظ الصور من المستندات باستخدام Aspose.Words لجافا من خلال دليلنا الشامل خطوة بخطوة. خصّص التنسيقات، وضغط الملفات، والمزيد.
 ### [حفظ المستندات بتنسيق Markdown في Aspose.Words لـ Java](./saving-documents-as-markdown/)
-تعرّف على كيفية تحويل مستندات Word إلى Markdown باستخدام Aspose.Words لجافا. يغطي هذا الدليل خطوة بخطوة محاذاة الجداول، ومعالجة الصور، والمزيد.
+تعرّف على كيفية تحويل مستندات Word إلى Markdown باستخدام Aspose.Words لجافا. يغطي هذا الدليل خطوةً بخطوة محاذاة الجداول، ومعالجة الصور، والمزيد.
 ### [حفظ المستندات بتنسيق ODT في Aspose.Words لـ Java](./saving-documents-as-odt-format/)
 تعرّف على كيفية حفظ المستندات بتنسيق ODT باستخدام Aspose.Words لجافا. تأكّد من توافقها مع برامج Office مفتوحة المصدر. 
 ### [حفظ المستندات بتنسيق OOXML في Aspose.Words لـ Java](./saving-documents-as-ooxml-format/)
@@ -82,6 +82,8 @@
 تعلّم كيفية حفظ المستندات كملفات نصية في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة مع أمثلة أكواد جافا.
 ### [تحديد تنسيق المستند في Aspose.Words لـ Java](./determining-document-format/)
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
+### [ضبط وضع الاسترداد – كيفية فتح ملفات Word التالفة في جافا](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+تعلم كيفية ضبط وضع الاسترداد لفتح ملفات Word التالفة باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

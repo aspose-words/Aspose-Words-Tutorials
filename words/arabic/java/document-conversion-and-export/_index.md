@@ -48,6 +48,10 @@
 تعرّف على كيفية إضافة علامات مائية إلى المستندات في Aspose.Words لجافا. خصّص علامات مائية للنصوص والصور لمستندات احترافية.
 ### [تنسيق الجداول وأنماطها في Aspose.Words لـ Java](./formatting-tables-and-table-styles/)
 تعرّف على كيفية تنسيق الجداول وتطبيق أنماطها في Aspose.Words لجافا. استكشف أدلةً خطوة بخطوة مع الكود المصدري لتنسيق جداول فعّال. حسّن تخطيط مستندك باستخدام Aspose.Words.
+### [تضمين الصور في Markdown – دليل Java الكامل لحفظ وتحويل وتصدير المعادلات](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+### [إنشاء ملف PDF قابل للوصول من Word – دليل خطوة بخطوة لتصدير Word إلى PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+### [كيفية حفظ PDF من DOCX مع الأشكال المضمنة – دليل برمجة كامل](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+دليل شامل يوضح كيفية حفظ ملف PDF من مستند DOCX يحتوي على أشكال مضمنة باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

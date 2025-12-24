@@ -48,6 +48,12 @@ Buka Kekuatan Bentuk Dokumen di Aspose.Words untuk Java. Pelajari Cara Membuat D
 Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesuaikan tanda air teks dan gambar untuk dokumen yang tampak profesional.
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words untuk Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Sempurnakan tata letak dokumen Anda dengan Aspose.Words.
+### [Menyematkan Gambar Markdown – Panduan Java Lengkap untuk Menyimpan, Mengonversi, dan Mengekspor Persamaan](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+
+### [Buat PDF Aksesibel dari Word – Panduan Langkah-demi-Langkah untuk Mengekspor Word ke PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+
+### [Cara Menyimpan PDF dari DOCX dengan Bentuk Inline – Panduan Pemrograman Lengkap](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Panduan langkah demi langkah untuk menyimpan PDF dari file DOCX yang berisi bentuk inline menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

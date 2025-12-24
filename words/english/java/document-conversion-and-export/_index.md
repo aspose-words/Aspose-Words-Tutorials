@@ -49,6 +49,11 @@ Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Vi
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional-looking documents.
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step-by-step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+### [Embed Images Markdown – Complete Java Guide to Save, Convert and Export Equations](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+### [Create Accessible PDF from Word – Step‑by‑Step Guide to Export Word to PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Learn how to create accessible PDF files from Word documents using Aspose.Words for Java.
+### [How to Save PDF from DOCX with Inline Shapes – Complete Programming Guide](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

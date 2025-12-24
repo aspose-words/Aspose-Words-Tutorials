@@ -48,6 +48,12 @@ Nutzen Sie die Möglichkeiten von Dokumentformen in Aspose.Words für Java. Lern
 Erfahren Sie, wie Sie in Aspose.Words für Java Wasserzeichen zu Dokumenten hinzufügen. Passen Sie Text- und Bildwasserzeichen für professionell aussehende Dokumente an.
 ### [Formatieren von Tabellen und Tabellenstilen in Aspose.Words für Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words für Java anwenden. Entdecken Sie Schritt-für-Schritt-Anleitungen mit Quellcode für effektive Tabellenformatierung. Optimieren Sie Ihr Dokumentlayout mit Aspose.Words.
+### [Einbetten von Bildern in Markdown – Vollständiger Java-Leitfaden zum Speichern, Konvertieren und Exportieren von Gleichungen](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+Erfahren Sie, wie Sie Bilder in Markdown einbetten und Gleichungen speichern, konvertieren und exportieren können.
+### [Erstellen eines barrierefreien PDFs aus Word – Schritt‑für‑Schritt‑Anleitung zum Exportieren von Word nach PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein barrierefreies PDF aus einem Word‑Dokument erstellen und exportieren.
+### [Wie man PDF aus DOCX mit Inline-Formen speichert – Vollständiger Programmierleitfaden](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs aus DOCX-Dateien mit Inline-Formen speichern können – ein vollständiger Programmierleitfaden mit Beispielcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

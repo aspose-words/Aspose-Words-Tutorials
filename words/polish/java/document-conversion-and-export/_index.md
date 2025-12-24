@@ -48,6 +48,10 @@ Odblokuj moc kształtów dokumentów w Aspose.Words dla Java. Naucz się tworzy�
 Dowiedz się, jak dodawać znaki wodne do dokumentów w Aspose.Words for Java. Dostosuj znaki wodne tekstowe i graficzne, aby uzyskać profesjonalnie wyglądające dokumenty.
 ### [Formatowanie tabel i stylów tabel w Aspose.Words dla Java](./formatting-tables-and-table-styles/)
 Dowiedz się, jak formatować tabele i stosować style tabel w Aspose.Words dla Java. Poznaj przewodniki krok po kroku z kodem źródłowym, aby skutecznie formatować tabele. Ulepsz układ swojego dokumentu dzięki Aspose.Words.
+### [Osadzanie obrazów w Markdown – Kompletny przewodnik Java do zapisywania, konwertowania i eksportowania równań](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+### [Utwórz dostępny PDF z Worda – Przewodnik krok po kroku eksportu Word do PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+### [Jak zapisać PDF z DOCX z kształtami w linii – Kompletny przewodnik programistyczny](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Dowiedz się, jak zapisać dokument PDF z pliku DOCX zawierającego kształty w linii, korzystając z Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

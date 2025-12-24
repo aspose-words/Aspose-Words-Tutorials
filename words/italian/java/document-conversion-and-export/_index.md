@@ -22,7 +22,7 @@ Se desideri sfruttare appieno il potenziale di Aspose.Words per Java per la conv
 Non hai mai usato Aspose.Words per Java? Nessun problema! Questo tutorial ti guiderà nella configurazione iniziale e ti fornirà una solida base per lavorare con questa API. Sarai operativo in men che non si dica.
 
 ## Conversione di documenti in formati diversi
-Una delle caratteristiche principali di Aspose.Words per Java è la sua capacità di convertire i documenti in vari formati senza problemi. Che tu debba convertire un file DOCX in PDF o viceversa, questo tutorial ti guiderà passo dopo passo nel processo. Acquisirai una conoscenza approfondita delle opzioni di conversione e delle possibilità di personalizzazione.
+Una delle caratteristiche principali di Aspose.Words per Java è la sua capacità di convertire i documenti in vari formati senza problemi. Che tu debba convertire un file DOCX in PDF o viceversa, questo tutorial ti guiderà passo passo nel processo. Acquisirai una conoscenza approfondita delle opzioni di conversione e delle possibilità di personalizzazione.
 
 ## Esportazione di documenti con Aspose.Words
 L'esportazione di documenti è un aspetto cruciale quando si lavora con documenti in diversi contesti. In questo tutorial, esploreremo come Aspose.Words per Java semplifica l'esportazione di documenti. Che tu voglia esportare pagine specifiche, sezioni o persino singoli elementi di un documento, qui troverai la guida di cui hai bisogno.
@@ -44,10 +44,16 @@ Scopri come creare e personalizzare grafici in Aspose.Words per Java. Esplora i 
 Sfrutta la potenza delle equazioni matematiche nei documenti con Aspose.Words per Java. Impara a manipolare e visualizzare oggetti di Office Math senza sforzo.
 ### [Utilizzo delle forme del documento in Aspose.Words per Java](./using-document-shapes/)
 Sfrutta la potenza delle forme dei documenti in Aspose.Words per Java. Impara a creare documenti visivamente accattivanti con esempi passo passo.
+### [Come salvare PDF da DOCX con forme in linea – Guida completa di programmazione](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+Impara a salvare PDF da file DOCX contenenti forme in linea con Aspose.Words per Java in questa guida completa.
 ### [Utilizzo di filigrane nei documenti in Aspose.Words per Java](./using-watermarks-to-documents/)
 Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personalizza filigrane di testo e immagini per documenti dall'aspetto professionale.
 ### [Formattazione di tabelle e stili di tabella in Aspose.Words per Java](./formatting-tables-and-table-styles/)
 Scopri come formattare le tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide dettagliate con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout dei tuoi documenti con Aspose.Words.
+### [Incorporare immagini Markdown – Guida completa Java per salvare, convertire ed esportare equazioni](./embed-images-markdown-complete-java-guide-to-save-convert-an/)
+
+### [Crea PDF accessibile da Word – Guida passo‑passo per esportare Word in PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Impara a creare PDF accessibili a partire da documenti Word con Aspose.Words per Java, seguendo una guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,7 +71,7 @@ Dowiedz się, jak konwertować dokumenty Word do Markdown za pomocą Aspose.Word
 ### [Zapisywanie dokumentów w formacie ODT w Aspose.Words dla Java](./saving-documents-as-odt-format/)
 Dowiedz się, jak zapisywać dokumenty w formacie ODT za pomocą Aspose.Words dla Java. Zapewnij zgodność z pakietami biurowymi typu open source. 
 ### [Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java](./saving-documents-as-ooxml-format/)
-Dowiedz się, jak zapisywać dokumenty w formacie OOXML za pomocą Aspose.Words dla Java. Bezproblemowo zabezpieczaj, optymalizuj i dostosowuj swoje pliki. 
+Dowiedz się, jak zapisywać dokumenty w formacie OOXML za pomocą Aspose.Words for Java. Bezproblemowo zabezpieczaj, optymalizuj i dostosowuj swoje pliki. 
 ### [Zapisywanie dokumentów w formacie PCL w Aspose.Words dla Java](./saving-documents-as-pcl-format/)
 Dowiedz się, jak zapisywać dokumenty w formacie PCL za pomocą Aspose.Words for Java. Przewodnik krok po kroku i przykłady kodu dla wydajnej konwersji dokumentów.
 ### [Zapisywanie dokumentów jako PDF w Aspose.Words dla Java](./saving-documents-as-pdf/)
@@ -82,6 +82,8 @@ Dowiedz się, jak zapisywać dokumenty w formacie RTF za pomocą Aspose.Words fo
 Dowiedz się, jak zapisywać dokumenty jako pliki tekstowe w Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu Java.
 ### [Określanie formatu dokumentu w Aspose.Words dla Java](./determining-document-format/)
 Dowiedz się, jak wykrywać formaty dokumentów w Javie za pomocą Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki wydajnie.
+### [Ustaw tryb odzyskiwania – jak otworzyć uszkodzone pliki Word w Javie](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+Dowiedz się, jak ustawić tryb odzyskiwania, aby otworzyć uszkodzone pliki Word w Javie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,10 @@
 Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
+### [Создание доступного PDF из Word – пошаговое руководство по экспорту Word в PDF](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+
+### [Как сохранить PDF из DOCX с встроенными объектами – Полное руководство по программированию](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,12 +83,13 @@
 ### [Προσδιορισμός μορφής εγγράφου στο Aspose.Words για Java](./determining-document-format/)
 Μάθετε πώς να εντοπίζετε μορφές εγγράφων σε Java με το Aspose.Words. Προσδιορίστε DOC, DOCX και άλλα. Οργανώστε αρχεία αποτελεσματικά.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Ορισμός λειτουργίας ανάκτησης – Πώς να ανοίξετε κατεστραμμένα αρχεία Word σε Java](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+Μάθετε πώς να ορίσετε τη λειτουργία ανάκτησης για το άνοιγμα κατεστραμμένων αρχείων Word σε Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

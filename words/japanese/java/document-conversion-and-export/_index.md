@@ -48,6 +48,9 @@ Aspose.Words for Java のドキュメントシェイプのパワーを解き放�
 Aspose.Words for Java でドキュメントに透かしを追加する方法を学びましょう。テキストや画像の透かしをカスタマイズして、プロフェッショナルなドキュメントを作成できます。
 ### [Aspose.Words for Java での表と表スタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Javaで表の書式設定と表スタイルの適用方法を学びましょう。効果的な表の書式設定のためのステップバイステップガイドとソースコードをご覧ください。Aspose.Wordsでドキュメントのレイアウトを強化しましょう。
+### [Word からアクセシブル PDF を作成 – Word を PDF にエクスポートするステップバイステップガイド](./create-accessible-pdf-from-word-step-by-step-guide-to-export/)
+Word 文書からアクセシブルな PDF を作成し、エクスポートする手順をステップバイステップで解説します。
+### [インライン シェイプ付き DOCX から PDF を保存する方法 – 完全プログラミングガイド](./how-to-save-pdf-from-docx-with-inline-shapes-complete-progra/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

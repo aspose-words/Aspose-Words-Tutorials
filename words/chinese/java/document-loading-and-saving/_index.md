@@ -82,6 +82,8 @@ Aspose.Words for Java 让您能够以前所未有的方式掌控文档的加载�
 学习如何在 Aspose.Words for Java 中将文档保存为文本文件。请遵循我们的分步指南和 Java 代码示例。
 ### [在 Aspose.Words for Java 中确定文档格式](./determining-document-format/)
 学习如何使用 Aspose.Words 在 Java 中检测文档格式。识别 DOC、DOCX 等格式。高效组织文件。
+### [设置恢复模式 – 如何在 Java 中打开损坏的 Word 文件](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+设置恢复模式以打开损坏的 Word 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,11 +78,13 @@ Learn how to save documents in PCL format using Aspose.Words for Java. Step-by-s
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
 Learn how to save Word documents as PDF using Aspose.Words for Java. Customize fonts, properties, and image quality. A comprehensive guide for PDF conversion.
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Learn how to save documents as RTF format using Aspose.Words for Java. Step-by-step guide with source code for efficient document conversion.
+Learn how to save documents as RTF format in Aspose.Words for Java. Step-by-step guide with source code for efficient document conversion.
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
 Learn how to save documents as text files in Aspose.Words for Java. Follow our step-by-step guide with Java code examples.
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
+### [Set Recovery Mode – How to Open Corrupted Word Files in Java](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

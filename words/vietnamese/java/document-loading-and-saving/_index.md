@@ -65,7 +65,7 @@ Tìm hiểu cách lưu tài liệu HTML với bố cục cố định trong Aspo
 ### [Tùy chọn lưu tài liệu HTML nâng cao với Aspose.Words Java](./advance-html-documents-saving-options/)
 Trong hướng dẫn này, chúng tôi đã đề cập đến nhiều tùy chọn lưu tài liệu HTML nâng cao với Aspose.Words for Java. Các tùy chọn này cho phép bạn tạo HTML chất lượng cao.
 ### [Lưu hình ảnh từ tài liệu trong Aspose.Words cho Java](./saving-images-from-documents/)
-Tìm hiểu cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java với hướng dẫn từng bước toàn diện của chúng tôi. Tùy chỉnh định dạng, nén và nhiều hơn nữa.
+Tìm hiểu cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java với hướng dẫn từng bước toàn diện của chúng tôi. Tùy chỉnh định dạng, nén và nhiều hơn nữa.
 ### [Lưu tài liệu dưới dạng Markdown trong Aspose.Words cho Java](./saving-documents-as-markdown/)
 Tìm hiểu cách chuyển đổi tài liệu Word sang Markdown bằng Aspose.Words for Java. Hướng dẫn từng bước này bao gồm căn chỉnh bảng, xử lý hình ảnh và nhiều hơn nữa.
 ### [Lưu tài liệu dưới dạng định dạng ODT trong Aspose.Words cho Java](./saving-documents-as-odt-format/)
@@ -82,6 +82,8 @@ Tìm hiểu cách lưu tài liệu dưới dạng RTF bằng Aspose.Words cho Ja
 Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java.
 ### [Xác định định dạng tài liệu trong Aspose.Words cho Java](./determining-document-format/)
 Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả.
+### [Đặt chế độ khôi phục – Cách mở tệp Word bị hỏng trong Java](./set-recovery-mode-how-to-open-corrupted-word-files-in-java/)
+Hướng dẫn cách bật chế độ khôi phục để mở các tệp Word bị hỏng bằng Aspose.Words cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
