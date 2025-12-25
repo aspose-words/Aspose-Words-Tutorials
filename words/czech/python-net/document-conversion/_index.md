@@ -33,6 +33,8 @@ Zvládnutím konverze dokumentů pomocí Aspose.Words pro Python mohou vývojá�
 ## Výukové programy pro konverzi dokumentů v Pythonu
 ### [Konverze dokumentů v Pythonu - kompletní průvodce](./python-document-conversion/)
 Naučte se převod dokumentů v Pythonu s Aspose.Words pro Python. Převádějte, manipulujte a upravujte dokumenty bez námahy. Zvyšte produktivitu hned teď!
+### [Jak uložit Markdown z Wordu – kompletní průvodce v Pythonu](./how-to-save-markdown-from-word-complete-python-guide/)
+Naučte se uložit obsah Wordu jako Markdown pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

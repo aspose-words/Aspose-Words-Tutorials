@@ -34,6 +34,9 @@ Tanuld meg, hogyan optimalizálhatod a képkezelést RTF dokumentumokban az Aspo
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python használatával. Ez az útmutató olyan egyéni funkciókat ismertet, mint a képszerű tulajdonságok, a szövegmegjelenítés és a biztonsági fejlesztések.
 
+### [Hogyan adjunk árnyékot C#-ban – Teljes programozási útmutató](./how-to-add-shadow-in-c-complete-programming-guide/)
+Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segítségével, lépésről lépésre útmutató.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

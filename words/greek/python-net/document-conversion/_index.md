@@ -33,6 +33,8 @@
 ## Εκπαιδευτικά σεμινάρια μετατροπής εγγράφων Python
 ### [Μετατροπή εγγράφων Python - Ο πλήρης οδηγός](./python-document-conversion/)
 Μάθετε μετατροπή εγγράφων Python με το Aspose.Words για Python. Μετατρέψτε, χειριστείτε και προσαρμόστε έγγραφα χωρίς κόπο. Αυξήστε την παραγωγικότητα τώρα!
+### [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός Python](./how-to-save-markdown-from-word-complete-python-guide/)
+Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

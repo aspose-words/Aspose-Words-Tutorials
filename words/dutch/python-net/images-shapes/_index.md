@@ -34,6 +34,9 @@ Leer hoe u de verwerking van afbeeldingen in RTF-documenten kunt optimaliseren m
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handleiding behandelt aangepaste functies zoals afbeeldingsachtige eigenschappen, tekstweergave en beveiligingsverbeteringen.
 
+### [Hoe schaduw toe te voegen in C# – Complete programmeergids](./how-to-add-shadow-in-c-complete-programming-guide/)
+Leer hoe u schaduweffecten aan tekst of vormen toevoegt in C# met Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

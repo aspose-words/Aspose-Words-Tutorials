@@ -34,6 +34,9 @@ Aspose.Words for Python を使用して、RTF ドキュメントの画像処理�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aspose.Words for Python を使用して SVG 出力を最適化する方法を学びます。このガイドでは、画像のようなプロパティ、テキストレンダリング、セキュリティ強化などのカスタム機能について説明します。
 
+### [C# で影を追加する方法 – 完全プログラミングガイド](./how-to-add-shadow-in-c-complete-programming-guide/)
+C# を使用してテキストや図形に影効果を適用する手順を詳しく解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

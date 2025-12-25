@@ -34,6 +34,9 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 了解如何使用 Aspose.Words for Python 最佳化 SVG 輸出。本指南涵蓋影像屬性、文字渲染和安全增強等自訂功能。
 
+    ### [如何在 C# 中添加陰影 – 完整程式設計指南](./how-to-add-shadow-in-c-complete-programming-guide/)
+了解如何使用 C# 為圖形或文字添加陰影效果，提升文件視覺效果的完整教學。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

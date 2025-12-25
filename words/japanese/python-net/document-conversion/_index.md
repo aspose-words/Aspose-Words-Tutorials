@@ -34,6 +34,9 @@ Aspose.Words for Python を使ったドキュメント変換をマスターす�
 ### [Python ドキュメント変換 - 完全ガイド](./python-document-conversion/)
 Aspose.Words for PythonでPythonドキュメント変換を学ぼう。ドキュメントの変換、操作、カスタマイズが簡単に。今すぐ生産性を向上しましょう！
 
+### [Word から Markdown を保存する方法 – 完全 Python ガイド](./how-to-save-markdown-from-word-complete-python-guide/)
+Word 文書を Markdown に変換し保存する手順を Python で解説します。簡単に実装可能です！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

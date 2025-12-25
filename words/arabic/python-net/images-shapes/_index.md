@@ -34,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 تعرّف على كيفية تحسين مخرجات SVG باستخدام Aspose.Words لـ Python. يغطي هذا الدليل ميزات مخصصة، مثل خصائص الصور، وعرض النصوص، وتحسينات الأمان.
 
+### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
+تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

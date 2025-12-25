@@ -34,6 +34,9 @@ Geliştiriciler, Python için Aspose.Words ile belge dönüştürme konusunda uz
 ### [Python Belge Dönüştürme - Tam Kılavuz](./python-document-conversion/)
 Python için Aspose.Words ile Python belge dönüşümünü öğrenin. Belgeleri zahmetsizce dönüştürün, düzenleyin ve özelleştirin. Şimdi üretkenliği artırın!
 
+### [Word'den Markdown Kaydetme – Tam Python Kılavuzu](./how-to-save-markdown-from-word-complete-python-guide/)
+Aspose.Words for Python kullanarak Word belgelerinden Markdown dosyalarına nasıl kaydedileceğini adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

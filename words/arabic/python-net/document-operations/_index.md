@@ -57,6 +57,9 @@
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 تعرّف على كيفية تحويل مستندات Word إلى تنسيق PostScript باستخدام Aspose.Words لـ Python. يغطي هذا الدليل خيارات الإعداد والتحويل وطباعة طيات الكتب.
 
+### [استعادة ملف DOCX تالف – فتح وتحميل مستند Word](./recover-corrupted-docx-open-load-word-document/)
+تعلم كيفية استعادة ملفات DOCX التالفة وفتحها وتحميلها باستخدام Aspose.Words للغة بايثون.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

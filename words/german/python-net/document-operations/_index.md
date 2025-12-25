@@ -57,6 +57,9 @@ Ein Code-Tutorial für Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python in das PostScript-Format konvertieren. Diese Anleitung behandelt die Einrichtung, Konvertierung und Buchfalzdruckoptionen.
 
+### [Beschädigtes DOCX wiederherstellen – Word-Dokument öffnen & laden](./recover-corrupted-docx-open-load-word-document/)
+Lernen Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net öffnen und wiederherstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
