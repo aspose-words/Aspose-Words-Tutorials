@@ -29,6 +29,10 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 
 Apprenez à enregistrer un document Word en PDF, à récupérer un fichier Word corrompu et à le convertir en Markdown en utilisant C# et Aspose.Words.
 
+### [Créer un PDF accessible et convertir Word en Markdown – Guide complet C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+
+Apprenez à créer des PDF accessibles et à convertir des documents Word en Markdown avec un guide complet en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

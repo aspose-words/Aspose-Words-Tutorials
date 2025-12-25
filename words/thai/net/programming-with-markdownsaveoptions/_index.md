@@ -25,6 +25,9 @@
 | [ตั้งค่าโฟลเดอร์รูปภาพ](./set-images-folder/) แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ |
 ### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
+### [สร้าง PDF ที่เข้าถึงได้และแปลง Word เป็น Markdown – คู่มือเต็ม C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+สร้าง PDF ที่เข้าถึงได้และแปลงไฟล์ Word เป็น Markdown ด้วย C# อย่างละเอียด
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

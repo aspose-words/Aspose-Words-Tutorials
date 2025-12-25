@@ -27,6 +27,9 @@
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word-Dokumente als PDF speichern, beschädigte Word-Dateien wiederherstellen und sie in Markdown konvertieren.
 
+### [Erstellen Sie barrierefreies PDF und konvertieren Sie Word zu Markdown – Vollständige C#‑Anleitung](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word-Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

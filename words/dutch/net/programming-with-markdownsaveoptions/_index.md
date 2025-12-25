@@ -26,6 +26,9 @@ Tekstverwerking met MarkdownSaveOptions is een uitgebreide bron die u begeleidt 
 
 ### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
+### [Maak Toegankelijke PDF en Converteer Word naar Markdown – Volledige C#-gids](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+
+Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteert met een volledige C#-handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

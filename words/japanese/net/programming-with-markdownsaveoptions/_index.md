@@ -24,7 +24,7 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [表のコンテンツの位置揃えでMarkdownにエクスポート](./export-into-markdown-with-table-content-alignment/) Aspose.Words for .NET を使用して、整列した表を含むWord文書をMarkdown形式にエクスポートする方法を学びましょう。完璧なMarkdown表を作成するには、ステップバイステップガイドに従ってください。 |
 | [画像フォルダの設定](./set-images-folder/) Aspose.Words for .NET を使って、Word 文書を適切な表の配置で Markdown 形式に変換しましょう。完璧な結果を得るには、詳細なガイドに従ってください。 |
 | [Word を PDF として保存し、破損した Word を復元 – C# で Word を Markdown に変換](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)  |
-
+| [アクセシブルPDFを作成し、WordをMarkdownに変換する – 完全C#ガイド](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) Aspose.Words for .NET を使用して、アクセシブルなPDFを生成し、Word文書をMarkdownに変換する手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
