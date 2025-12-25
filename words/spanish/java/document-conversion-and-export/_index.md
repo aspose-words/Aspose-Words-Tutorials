@@ -49,6 +49,9 @@ Aprenda a agregar marcas de agua a documentos en Aspose.Words para Java. Persona
 ### [Formato de tablas y estilos de tabla en Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatear tablas y aplicar estilos en Aspose.Words para Java. Explore guías paso a paso con código fuente para un formato de tabla eficaz. Mejore el diseño de sus documentos con Aspose.Words.
 
+### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -48,6 +48,8 @@ Odemkněte sílu tvarů dokumentů v Aspose.Words pro Javu. Naučte se vytváře
 Naučte se, jak přidávat vodoznaky do dokumentů v Aspose.Words pro Javu. Přizpůsobte si textové a obrazové vodoznaky pro profesionálně vypadající dokumenty.
 ### [Formátování tabulek a stylů tabulek v Aspose.Words pro Javu](./formatting-tables-and-table-styles/)
 Naučte se, jak formátovat tabulky a používat styly tabulek v Aspose.Words pro Javu. Prozkoumejte podrobné návody se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení dokumentu pomocí Aspose.Words.
+### [Jak exportovat LaTeX z Wordu: převod DOCX na Markdown a uložení jako PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Naučte se převést dokument DOCX na Markdown a následně jej uložit jako PDF s podporou LaTeXu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,8 @@ Aspose.Words for Java のドキュメントシェイプのパワーを解き放�
 Aspose.Words for Java でドキュメントに透かしを追加する方法を学びましょう。テキストや画像の透かしをカスタマイズして、プロフェッショナルなドキュメントを作成できます。
 ### [Aspose.Words for Java での表と表スタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Javaで表の書式設定と表スタイルの適用方法を学びましょう。効果的な表の書式設定のためのステップバイステップガイドとソースコードをご覧ください。Aspose.Wordsでドキュメントのレイアウトを強化しましょう。
+### [Word から LaTeX をエクスポートする方法: DOCX を Markdown に変換して PDF として保存](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Word の DOCX を Markdown に変換し、LaTeX としてエクスポート、さらに PDF に保存する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

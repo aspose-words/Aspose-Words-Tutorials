@@ -49,6 +49,7 @@ Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Vi
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional-looking documents.
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step-by-step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+### [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/) Learn how to export LaTeX from Word by converting DOCX to Markdown and saving as PDF with Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

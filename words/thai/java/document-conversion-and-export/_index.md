@@ -48,6 +48,8 @@
 เรียนรู้วิธีการเพิ่มลายน้ำในเอกสารใน Aspose.Words สำหรับ Java ปรับแต่งลายน้ำข้อความและรูปภาพเพื่อให้เอกสารดูเป็นมืออาชีพ
 ### [การจัดรูปแบบตารางและสไตล์ตารางใน Aspose.Words สำหรับ Java](./formatting-tables-and-table-styles/)
 เรียนรู้วิธีจัดรูปแบบตารางและนำสไตล์ตารางไปใช้ใน Aspose.Words สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดรูปแบบตารางที่มีประสิทธิภาพ ปรับปรุงเค้าโครงเอกสารของคุณด้วย Aspose.Words
+### [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown และบันทึกเป็น PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown แล้วบันทึกเป็น PDF พร้อมส่งออก LaTeX จาก Word
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
