@@ -25,6 +25,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna. |
 ### [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown dalam C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Pelajari cara menyimpan dokumen Word sebagai PDF dan memulihkan Word yang rusak, serta mengonversi Word ke Markdown menggunakan C#.
+### [Buat PDF yang Dapat Diakses dan Konversi Word ke Markdown – Panduan Lengkap C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+Pelajari cara membuat PDF yang dapat diakses dan mengonversi dokumen Word ke Markdown dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,6 +27,8 @@ Ordbehandling med MarkdownSaveOptions är en djupgående resurs som guidar dig g
 
 ### [Spara Word som PDF och återställ korrupt Word – Konvertera Word till Markdown i C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
+### [Skapa tillgänglig PDF och konvertera Word till Markdown – Fullständig C#-guide](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+Lär dig skapa tillgängliga PDF-filer och konvertera Word-dokument till Markdown med en komplett C#-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

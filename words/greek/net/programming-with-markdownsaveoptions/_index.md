@@ -24,7 +24,7 @@
 | [Εξαγωγή σε Markdown με στοίχιση περιεχομένου πίνακα](./export-into-markdown-with-table-content-alignment/) | Μάθετε πώς να εξάγετε έγγραφα Word στο Markdown με ευθυγραμμισμένους πίνακες χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για τέλειους πίνακες Markdown. |
 | [Ορισμός φακέλου εικόνων](./set-images-folder/)Μετατρέψτε έγγραφα Word σε Markdown με σωστή στοίχιση πινάκων χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον λεπτομερή οδηγό μας για τέλεια αποτελέσματα. |
 | [Αποθήκευση Word ως PDF και Ανάκτηση Κατεστραμμένου Word – Μετατροπή Word σε Markdown σε C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
-
+| [Δημιουργία Προσβάσιμου PDF και Μετατροπή Word σε Markdown – Πλήρης Οδηγός C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF και να μετατρέψετε έγγραφα Word σε Markdown με πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

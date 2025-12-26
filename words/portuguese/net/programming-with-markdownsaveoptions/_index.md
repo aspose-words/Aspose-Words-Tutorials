@@ -26,6 +26,8 @@ Processamento de Texto com MarkdownSaveOptions é um recurso aprofundado que o o
 
 ### [Salvar Word como PDF e Recuperar Word Corrompido – Converter Word para Markdown em C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
+### [Criar PDF acessível e converter Word para Markdown – Guia completo em C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
+Aprenda a gerar PDFs acessíveis e converter documentos Word para Markdown usando C# com Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

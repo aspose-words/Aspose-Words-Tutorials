@@ -24,6 +24,7 @@
 | [Экспорт в Markdown с выравниванием содержимого таблицы](./export-into-markdown-with-table-content-alignment/) | Узнайте, как экспортировать документы Word в Markdown с выровненными таблицами с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству для идеальных таблиц Markdown. |
 | [Установить папку с изображениями](./set-images-folder/) Конвертируйте документы Word в Markdown с правильным выравниванием таблиц с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству для идеальных результатов. |
 | [Сохранить Word как PDF и восстановить повреждённый Word – Конвертировать Word в Markdown на C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) | Сохраните документ Word в PDF и восстановите повреждённый файл Word, а также конвертируйте Word в Markdown с помощью C#. |
+| [Создать доступный PDF и конвертировать Word в Markdown – Полное руководство C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Полное руководство по созданию доступных PDF и конвертации Word в Markdown с использованием C# и Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
