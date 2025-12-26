@@ -34,6 +34,9 @@
 ### [Python 文檔轉換 - 完整指南](./python-document-conversion/)
 學習使用 Aspose.Words for Python 進行 Python 文件轉換。輕鬆轉換、操作和自訂文件。立即提高生產力！
 
+### [如何從 Word 儲存 Markdown – 完整 Python 指南](./how-to-save-markdown-from-word-complete-python-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 Markdown 格式的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

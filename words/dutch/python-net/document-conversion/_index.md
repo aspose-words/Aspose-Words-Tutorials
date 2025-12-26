@@ -34,6 +34,9 @@ Door documentconversie onder de knie te krijgen met Aspose.Words voor Python, ku
 ### [Python-documentconversie - De complete gids](./python-document-conversion/)
 Leer Python-documentconversie met Aspose.Words voor Python. Converteer, bewerk en personaliseer documenten moeiteloos. Verhoog nu uw productiviteit!
 
+### [Hoe Markdown op te slaan vanuit Word – Complete Python-gids](./how-to-save-markdown-from-word-complete-python-guide/)
+Leer hoe je met Aspose.Words voor Python Markdown-bestanden vanuit Word kunt opslaan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

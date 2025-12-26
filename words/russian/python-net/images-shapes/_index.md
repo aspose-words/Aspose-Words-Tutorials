@@ -34,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Узнайте, как оптимизировать вывод SVG с помощью Aspose.Words для Python. Это руководство охватывает пользовательские функции, такие как свойства, похожие на изображения, рендеринг текста и улучшения безопасности.
 
+### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
+Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

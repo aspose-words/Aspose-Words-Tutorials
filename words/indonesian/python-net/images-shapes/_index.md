@@ -34,6 +34,9 @@ Pelajari cara mengoptimalkan penanganan gambar dalam dokumen RTF dengan Aspose.W
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. Panduan ini mencakup fitur-fitur khusus seperti properti mirip gambar, rendering teks, dan peningkatan keamanan.
 
+### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
+Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

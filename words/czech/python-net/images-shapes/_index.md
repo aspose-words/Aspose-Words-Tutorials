@@ -28,11 +28,14 @@ Kategorie „Obrázky a tvary“ v tutoriálech Aspose.Words Python-net je navr�
 ### [Zvládnutí parsování mediálních typů v Aspose.Words pro Python: Komplexní průvodce](./mastering-aspose-words-python-media-type-parsing/)
 Naučte se, jak analyzovat typy médií, šifrovat soubory a ověřovat digitální podpisy pomocí Aspose.Words pro Python. Vylepšete si své schopnosti zpracování dokumentů ještě dnes.
 
-    ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
+### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Naučte se, jak optimalizovat zpracování obrázků v dokumentech RTF pomocí Aspose.Words pro Python. Ukládejte obrázky ve formátu WMF a zajistěte kompatibilitu se staršími čtečkami.
 
-    ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
+### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words pro Python. Tato příručka se zabývá uživatelskými funkcemi, jako jsou vlastnosti podobné obrázkům, vykreslování textu a vylepšení zabezpečení.
+
+### [Jak přidat stín v C# – Kompletní programovací průvodce](./how-to-add-shadow-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words v C# přidat stín do objektů a vylepšit vizuální vzhled dokumentů.
 
 ## Další zdroje
 

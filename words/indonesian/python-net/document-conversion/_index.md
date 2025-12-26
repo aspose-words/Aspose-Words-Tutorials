@@ -33,6 +33,8 @@ Dengan menguasai konversi dokumen dengan Aspose.Words untuk Python, pengembang d
 ## Tutorial Konversi Dokumen Python
 ### [Konversi Dokumen Python - Panduan Lengkap](./python-document-conversion/)
 Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, manipulasi, dan kustomisasi dokumen dengan mudah. Tingkatkan produktivitas sekarang!
+### [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](./how-to-save-markdown-from-word-complete-python-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

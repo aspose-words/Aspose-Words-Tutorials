@@ -34,6 +34,9 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 ### [Chuyển đổi tài liệu Python - Hướng dẫn đầy đủ](./python-document-conversion/)
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
 
+### [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](./how-to-save-markdown-from-word-complete-python-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

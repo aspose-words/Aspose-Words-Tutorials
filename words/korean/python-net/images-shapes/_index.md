@@ -28,6 +28,9 @@ Aspose.Words Python-net 튜토리얼의 '이미지 및 도형' 카테고리는 �
 ### [Python용 Aspose.Words에서 미디어 유형 파싱 마스터하기: 종합 가이드](./mastering-aspose-words-python-media-type-parsing/)
 Aspose.Words for Python을 사용하여 미디어 유형을 분석하고, 파일을 암호화하고, 디지털 서명을 검증하는 방법을 알아보세요. 지금 바로 문서 처리 역량을 강화하세요.
 
+### [C#에서 그림자 추가하기 – 완전한 프로그래밍 가이드](./how-to-add-shadow-in-c-complete-programming-guide/)
+C#를 사용해 문서에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aspose.Words for Python을 사용하여 RTF 문서의 이미지 처리를 최적화하는 방법을 알아보세요. 이미지를 WMF 형식으로 저장하고 이전 리더와의 호환성을 확보하세요.
 

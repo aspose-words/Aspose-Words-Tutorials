@@ -34,6 +34,9 @@ Aprenda a otimizar o processamento de imagens em documentos RTF com o Aspose.Wor
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a otimizar a saída SVG usando Aspose.Words para Python. Este guia aborda recursos personalizados, como propriedades semelhantes a imagens, renderização de texto e melhorias de segurança.
 
+### [Como adicionar sombra em C# – Guia completo de programação](./how-to-add-shadow-in-c-complete-programming-guide/)
+Aprenda a aplicar sombras a objetos em documentos Word usando Aspose.Words para C# com este guia completo.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação do Python-net](https://docs.aspose.com/words/python-net/)

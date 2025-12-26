@@ -33,6 +33,8 @@ Genom att bemästra dokumentkonvertering med Aspose.Words för Python kan utveck
 ## Handledningar för Python-dokumentkonvertering
 ### [Python-dokumentkonvertering - Den kompletta guiden](./python-document-conversion/)
 Lär dig dokumentkonvertering i Python med Aspose.Words för Python. Konvertera, manipulera och anpassa dokument utan ansträngning. Öka produktiviteten nu!
+### [Hur man sparar Markdown från Word – Komplett Python-guide](./how-to-save-markdown-from-word-complete-python-guide/)
+Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

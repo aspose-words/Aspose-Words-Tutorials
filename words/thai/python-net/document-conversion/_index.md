@@ -34,6 +34,9 @@
 ### [การแปลงเอกสาร Python - คู่มือฉบับสมบูรณ์](./python-document-conversion/)
 เรียนรู้การแปลงเอกสาร Python ด้วย Aspose.Words สำหรับ Python แปลง แก้ไข และปรับแต่งเอกสารได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานทันที!
 
+### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-save-markdown-from-word-complete-python-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
