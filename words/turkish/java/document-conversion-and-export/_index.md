@@ -48,6 +48,8 @@ Aspose.Words for Java'da Belge Şekillerinin Gücünü Açın. Adım Adım Örne
 Aspose.Words for Java'da belgelere filigran eklemeyi öğrenin. Profesyonel görünümlü belgeler için metin ve resim filigranlarını özelleştirin.
 ### [Java için Aspose.Words'de Tabloları ve Tablo Stillerini Biçimlendirme](./formatting-tables-and-table-styles/)
 Aspose.Words for Java'da tabloları nasıl biçimlendireceğinizi ve tablo stillerini nasıl uygulayacağınızı öğrenin. Etkili tablo biçimlendirme için kaynak kodlu adım adım kılavuzları keşfedin. Belge düzeninizi Aspose.Words ile geliştirin.
+### [Word'den LaTeX Dışa Aktarma: DOCX'i Markdown'a Dönüştür ve PDF Olarak Kaydet](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Word belgesini LaTeX formatına dönüştürün, Markdown'a çevirin ve PDF olarak kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

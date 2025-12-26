@@ -48,6 +48,8 @@ Buka Kekuatan Bentuk Dokumen di Aspose.Words untuk Java. Pelajari Cara Membuat D
 Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesuaikan tanda air teks dan gambar untuk dokumen yang tampak profesional.
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words untuk Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Sempurnakan tata letak dokumen Anda dengan Aspose.Words.
+### [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown & Menyimpan sebagai PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Pelajari cara mengekspor dokumen Word ke format LaTeX dengan mengonversi DOCX ke Markdown lalu menyimpannya sebagai PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
