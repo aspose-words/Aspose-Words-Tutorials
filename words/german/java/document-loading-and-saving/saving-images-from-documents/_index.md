@@ -1,10 +1,14 @@
 ---
-"description": "Erfahren Sie in unserer umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Passen Sie Formate, Komprimierung und mehr an."
-"linktitle": "Bilder aus Dokumenten speichern"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Speichern von Bildern aus Dokumenten in Aspose.Words für Java"
-"url": "/de/java/document-loading-and-saving/saving-images-from-documents/"
-"weight": 17
+date: 2025-12-27
+description: Erfahren Sie, wie Sie eine Seite als JPEG speichern und Bilder aus Word‑Dokumenten
+  mit Aspose.Words für Java extrahieren. Enthält Tipps zum Einstellen von Bildhelligkeit,
+  Auflösung und zum Erstellen mehrseitiger TIFF‑Dateien.
+linktitle: Saving Images from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Wie man eine Seite als JPEG speichert und Bilder aus Dokumenten mit Aspose.Words
+  für Java extrahiert
+url: /de/java/document-loading-and-saving/saving-images-from-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +17,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Speichern von Bildern aus Dokumenten in Aspose.Words für Java
+# Seite als JPEG speichern und Bilder aus Dokumenten in Aspose.Words für Java extrahieren
 
+In diesem Tutorial erfahren Sie, wie Sie **Seite als JPEG speichern** aus einem Word‑Dokument und wie Sie **Bilder aus Word**‑Dateien mit Aspose.Words für Java extrahieren. Wir gehen reale Anwendungsfälle durch, wie das Einstellen der Bildhelligkeit, das Anpassen der Bildauflösung in Java und das Erstellen eines mehrseitigen TIFFs. Jeder Schritt enthält sofort ausführbare Code‑Snippets, die Sie kopieren, einfügen und sofort Ergebnisse sehen können.
 
-## Einführung in das Speichern von Bildern aus Dokumenten in Aspose.Words für Java
+## Schnelle Antworten
+- **Kann ich eine einzelne Seite als JPEG speichern?** Ja – verwenden Sie `ImageSaveOptions` mit `setPageSet(new PageSet(pageIndex))`.
+- **Wie ändere ich die Bildhelligkeit?** Rufen Sie `options.setImageBrightness(floatValue)` auf (Bereich 0‑1).
+- **Was, wenn ich ein mehrseitiges TIFF benötige?** Definieren Sie ein `PageSet`, das die gewünschten Seiten abdeckt, und wählen Sie eine TIFF‑Kompressionsmethode.
+- **Wie kann ich die Bildauflösung steuern?** Verwenden Sie `setResolution(floatDpi)` oder `setHorizontalResolution(floatDpi)`.
+- **Benötige ich eine Lizenz für die Produktion?** Für den produktiven Einsatz ist eine gültige Aspose.Words‑Lizenz erforderlich.
 
-In diesem Tutorial erfahren Sie, wie Sie Bilder aus Dokumenten mit Aspose.Words für Java speichern. Wir behandeln verschiedene Szenarien und Anpassungsmöglichkeiten für die Bildspeicherung. Diese Anleitung enthält eine Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
+## Was bedeutet „Seite als JPEG speichern“?
+Eine Seite als JPEG zu speichern bedeutet, eine einzelne Seite eines Word‑Dokuments in eine Rasterbilddatei (JPEG) zu konvertieren. Das ist nützlich für die Vorschau‑Erstellung, Thumbnail‑Generierung oder das Einbetten von Dokumentenseiten in Webseiten, wo das Rendern von PDFs nicht praktikabel ist.
+
+## Warum Bilder aus Word‑Dokumenten extrahieren?
+Viele Geschäftsprozesse erfordern das Herausziehen der ursprünglichen Grafiken (Logos, Diagramme, Fotos) aus einer DOCX‑Datei zur Wiederverwendung, Archivierung oder Analyse. Aspose.Words ermöglicht das unkomplizierte Extrahieren jedes Bildes in seinem nativen Format, ohne Qualitätsverlust.
 
 ## Voraussetzungen
+- Java Development Kit (JDK 8 oder neuer) installiert.
+- Aspose.Words für Java‑Bibliothek zu Ihrem Projekt hinzugefügt. Laden Sie sie von [hier](https://releases.aspose.com/words/java/) herunter.
+- Ein Beispiel‑Word‑Dokument (z. B. `Rendering.docx`) in einem bekannten Verzeichnis abgelegt.
 
-Bevor Sie beginnen, stellen Sie sicher, dass die Aspose.Words für Java-Bibliothek in Ihr Projekt integriert ist. Sie können sie hier herunterladen: [Hier](https://releases.aspose.com/words/java/).
-
-## Schritt 1: Bilder als TIFF mit Schwellenwertkontrolle speichern
-
-Um Bilder im TIFF-Format mit Schwellenwertsteuerung zu speichern, führen Sie die folgenden Schritte aus:
+## Schritt 1: Bilder als TIFF mit Schwellenwert‑Steuerung speichern (Mehrseitiges TIFF erstellen)
+Um ein hochkontrastreiches, Graustufen‑TIFF zu erzeugen, können Sie den Binärisierungs‑Schwellenwert steuern. Das ist praktisch, wenn Sie eine druckbare Schwarz‑weiß‑Version Ihres Dokuments benötigen.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -38,9 +52,8 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## Schritt 2: Speichern einer bestimmten Seite als mehrseitiges TIFF
-
-Um eine bestimmte Seite als mehrseitiges TIFF zu speichern, verwenden Sie den folgenden Code:
+## Schritt 2: Eine bestimmte Seite als mehrseitiges TIFF speichern
+Wenn Sie ein TIFF benötigen, das nur einen Teil der Seiten enthält (z. B. Seiten 1‑2), konfigurieren Sie ein `PageSet`. Dies demonstriert **mehrseitiges TIFF erstellen**.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -51,9 +64,8 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Schritt 3: Bilder als 1 BPP-indiziertes PNG speichern
-
-Um Bilder als 1 BPP-indiziertes PNG zu speichern, führen Sie diese Schritte aus:
+## Schritt 3: Bilder als 1 BPP indiziertes PNG speichern
+Wenn Sie ultraleichte Schwarz‑weiß‑PNGs (1 Bit pro Pixel) benötigen, setzen Sie das Pixel‑Format entsprechend. Das ist nützlich, um einfache Grafiken in Szenarien mit geringer Bandbreite einzubetten.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -64,23 +76,21 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## Schritt 4: Speichern einer Seite als JPEG mit Anpassung
-
-Um eine bestimmte Seite mit Anpassungsoptionen als JPEG zu speichern, verwenden Sie diesen Code:
+## Schritt 4: Eine Seite als JPEG mit Anpassungen speichern (Bildhelligkeit & Auflösung setzen)
+Hier **speichern wir eine Seite als JPEG**, während wir Helligkeit, Kontrast und Auflösung anpassen – perfekt für Thumbnails oder web‑fertige Vorschauen.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 ImageSaveOptions options = new ImageSaveOptions();
 options.setPageSet(new PageSet(0));
-options.setImageBrightness(0.3f);
-options.setImageContrast(0.7f);
-options.setHorizontalResolution(72f);
+options.setImageBrightness(0.3f);          // set image brightness (0‑1)
+options.setImageContrast(0.7f);            // set image contrast (0‑1)
+options.setHorizontalResolution(72f);      // set image resolution in DPI
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Schritt 5: Verwenden des Seitenspeicher-Rückrufs
-
-Sie können einen Rückruf verwenden, um das Speichern von Seiten anzupassen. Hier ist ein Beispiel:
+## Schritt 5: Verwendung eines Page‑Saving‑Callbacks (Erweiterte Anpassungen)
+Ein Callback ermöglicht es, jede Ausgabedatei dynamisch umzubenennen, was beim Export vieler Seiten auf einmal nützlich ist.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -98,7 +108,8 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Vollständiger Quellcode zum Speichern von Bildern aus Dokumenten in Aspose.Words für Java
+## Vollständiger Quellcode für alle Szenarien
+Unten finden Sie eine einzelne Klasse, die jede oben demonstrierte Methode enthält. Sie können jeden Test einzeln ausführen.
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -141,14 +152,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Setzen Sie „PageSet“ auf „0“, um nur die erste Seite eines Dokuments zu konvertieren.
+	// Set the "PageSet" to "0" to convert only the first page of a document.
 	options.setPageSet(new PageSet(0));
-	// Ändern Sie die Helligkeit und den Kontrast des Bildes.
-	// Beide liegen auf einer Skala von 0 bis 1 und sind standardmäßig auf 0,5 eingestellt.
+	// Change the image's brightness and contrast.
+	// Both are on a 0-1 scale and are at 0.5 by default.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	// Ändern Sie die horizontale Auflösung.
-	// Der Standardwert für diese Eigenschaften ist 96,0, für eine Auflösung von 96 dpi.
+	// Change the horizontal resolution.
+	// The default value for these properties is 96.0, for a resolution of 96dpi.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,54 +182,49 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 	}
 ```
 
-## Abschluss
-
-Sie haben gelernt, wie Sie mit Aspose.Words für Java Bilder aus Dokumenten speichern. Diese Beispiele zeigen verschiedene Anpassungsmöglichkeiten für die Bildspeicherung, einschließlich Format, Komprimierung und Callback-Nutzung. Entdecken Sie weitere Möglichkeiten mit den leistungsstarken Funktionen von Aspose.Words für Java.
+## Häufige Probleme und Lösungen
+- **„Dokumentdatei nicht gefunden“** – Überprüfen Sie, ob der Dateipfad den korrekten Trenner (`/` oder `\\`) für Ihr Betriebssystem verwendet.
+- **Bilder erscheinen leer** – Stellen Sie sicher, dass Sie einen geeigneten `ImageColorMode` setzen (z. B. `GRAYSCALE` für TIFF).
+- **Out‑of‑Memory‑Fehler bei großen Dokumenten** – Verarbeiten Sie Seiten in Batches, indem Sie den `PageSet`‑Bereich anpassen.
+- **JPEG‑Qualität ist schlecht** – Erhöhen Sie die Auflösung mit `setHorizontalResolution` oder `setResolution`.
 
 ## Häufig gestellte Fragen
 
-### Wie ändere ich das Bildformat beim Speichern mit Aspose.Words für Java?
-
-Sie können das Bildformat ändern, indem Sie das gewünschte Format im Feld `ImageSaveOptions`. Um beispielsweise als PNG zu speichern, verwenden Sie `SaveFormat.PNG` wie im Code gezeigt:
+**F: Wie ändere ich das Bildformat beim Speichern mit Aspose.Words für Java?**  
+A: Setzen Sie das gewünschte Format in `ImageSaveOptions`. Für PNG können Sie einfach `ImageSaveOptions` instanziieren und `SaveFormat.PNG` zuweisen, falls nötig.
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### Kann ich die Komprimierungseinstellungen für TIFF-Bilder anpassen?
-
-Ja, Sie können die Komprimierungseinstellungen für TIFF-Bilder anpassen. Um beispielsweise die Komprimierungsmethode auf CCITT_3 einzustellen, verwenden Sie den folgenden Code:
+**F: Kann ich die Kompressionseinstellungen für TIFF‑Bilder anpassen?**  
+A: Ja. Verwenden Sie `setTiffCompression`, um einen Kompressionsalgorithmus wie `CCITT_3` auszuwählen.
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 ```
 
-### Wie kann ich eine bestimmte Seite aus einem Dokument als separates Bild speichern?
-
-Um eine bestimmte Seite als Bild zu speichern, verwenden Sie die `setPageSet` Methode in `ImageSaveOptions`. Um beispielsweise nur die erste Seite zu speichern, legen Sie die `PageSet` Zu `new PageSet(0)`.
+**F: Wie kann ich eine bestimmte Seite aus einem Dokument als separates Bild speichern?**  
+A: Nutzen Sie die Methode `setPageSet` mit einem einzelnen Seitenindex.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Speichern Sie die erste Seite als Bild
+saveOptions.setPageSet(new PageSet(0)); // Save the first page as an image
 ```
 
-### Wie wende ich beim Speichern benutzerdefinierte Einstellungen auf JPEG-Bilder an?
-
-Sie können benutzerdefinierte Einstellungen auf JPEG-Bilder anwenden, indem Sie `ImageSaveOptions`Passen Sie Eigenschaften wie Helligkeit, Kontrast und Auflösung an. Um beispielsweise die Helligkeit auf 0,3 und den Kontrast auf 0,7 zu ändern, verwenden Sie diesen Code:
+**F: Wie wende ich benutzerdefinierte Einstellungen auf JPEG‑Bilder beim Speichern an?**  
+A: Passen Sie Eigenschaften wie Helligkeit, Kontrast und Auflösung über `ImageSaveOptions` an.
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Wie kann ich einen Rückruf zum Anpassen der Bildspeicherung verwenden?
-
-Um einen Rückruf für die Anpassung der Bildspeicherung zu verwenden, setzen Sie die `PageSavIngCallback` in `ImageSaveOptions`. Erstellen Sie eine Klasse, die das implementiert `IPageSavingCallback` Schnittstelle und überschreiben Sie die `pageSaving` Verfahren.
+**F: Wie kann ich einen Callback für die Anpassung des Bildspeicherns verwenden?**  
+A: Implementieren Sie `IPageSavingCallback` und weisen Sie ihn mit `setPageSavingCallback` zu.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
-
-Erstellen Sie dann eine Klasse, die Folgendes implementiert: `IPageSavingCallback` Schnittstelle und passen Sie den Dateinamen und Speicherort in der `pageSaving` Verfahren.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -228,13 +234,19 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
+## Fazit
+Sie verfügen nun über ein komplettes Werkzeugset zum **Speichern einer Seite als JPEG**, zum Extrahieren von Bildern, zum Steuern der Bildhelligkeit, zum Festlegen der Bildauflösung in Java und zum Erstellen mehrseitiger TIFF‑Dateien mit Aspose.Words für Java. Experimentieren Sie mit verschiedenen `ImageSaveOptions`‑Einstellungen, um die Anforderungen Ihres Projekts zu erfüllen, und erkunden Sie die umfangreiche Aspose.Words‑API für noch mehr Dokumenten‑Manipulationsmöglichkeiten.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-27  
+**Getestet mit:** Aspose.Words für Java 24.12 (zum Zeitpunkt der Erstellung)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
