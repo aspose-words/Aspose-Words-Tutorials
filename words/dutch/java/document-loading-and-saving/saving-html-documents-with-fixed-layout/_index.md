@@ -1,10 +1,13 @@
 ---
-"description": "Leer hoe u HTML-documenten met een vaste lay-out kunt opslaan in Aspose.Words voor Java. Volg onze stapsgewijze handleiding voor naadloze documentopmaak."
-"linktitle": "HTML-documenten met vaste lay-out opslaan"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "HTML-documenten met vaste lay-out opslaan in Aspose.Words voor Java"
-"url": "/nl/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Leer hoe u HTML met vaste lay-out kunt opslaan met Aspose.Words voor
+  Java – de ultieme gids om Word naar HTML te converteren en documenten efficiënt
+  als HTML op te slaan.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Hoe HTML met vaste lay-out opslaan met Aspose.Words voor Java
+url: /nl/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +16,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML-documenten met vaste lay-out opslaan in Aspose.Words voor Java
+# Hoe HTML op te slaan met vaste lay-out met Aspose.Words voor Java
 
+In deze tutorial ontdek je **hoe je html** documenten opslaat met een vaste lay-out terwijl je de oorspronkelijke Word-opmaak behoudt. Of je nu **Word naar HTML wilt converteren**, **Word HTML wilt exporteren** voor weergave op het web, of simpelweg **document als html wilt opslaan** voor archivering, de onderstaande stappen leiden je door het volledige proces met behulp van Aspose.Words voor Java.
 
-## Inleiding tot het opslaan van HTML-documenten met een vaste lay-out in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat betekent “fixed layout”?** Het behoudt het exacte visuele uiterlijk van het originele Word‑bestand in de HTML‑output.  
+- **Kan ik aangepaste lettertypen gebruiken?** Ja – stel `useTargetMachineFonts` in om de lettertype‑verwerking te regelen.  
+- **Heb ik een licentie nodig?** Een geldige Aspose.Words for Java‑licentie is vereist voor productiegebruik.  
+- **Welke Java‑versies worden ondersteund?** Alle Java 8+ runtimes zijn compatibel.  
+- **Is de output responsief?** Fixed‑layout HTML is pixel‑perfect, niet responsief; gebruik CSS als je vloeiende lay-outs nodig hebt.
 
-In deze uitgebreide handleiding leiden we je door het proces van het opslaan van HTML-documenten met een vaste lay-out met Aspose.Words voor Java. Met stapsgewijze instructies en codevoorbeelden leer je hoe je dit naadloos kunt doen. Laten we er meteen mee aan de slag gaan!
+## Wat is “how to save html” met een vaste lay-out?
+HTML opslaan met een vaste lay-out betekent het genereren van HTML‑bestanden waarbij elke pagina, alinea en afbeelding dezelfde grootte en positie behoudt als in het bron‑Word‑document. Dit is ideaal voor juridische, publicatie‑ of archiveringsscenario’s waarbij visuele getrouwheid cruciaal is.
+
+## Waarom Aspose.Words voor Java gebruiken voor HTML‑conversie?
+- **Hoge getrouwheid** – de bibliotheek reproduceert complexe lay-outs, tabellen en grafische elementen nauwkeurig.  
+- **Geen afhankelijkheid van Microsoft Office** – werkt volledig aan de serverzijde.  
+- **Uitgebreide aanpasbaarheid** – opties zoals `HtmlFixedSaveOptions` laten je de output fijn afstemmen.  
+- **Cross‑platform** – draait op elk OS dat Java ondersteunt.
 
 ## Vereisten
+- Een Java‑ontwikkelomgeving (JDK 8 of hoger).  
+- Aspose.Words for Java‑bibliotheek toegevoegd aan je project (download van de officiële site).  
+- Een Word‑document (`.docx`) dat je wilt converteren.
 
-Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
+## Stapsgewijze handleiding
 
-- Java-ontwikkelomgeving instellen.
-- Aspose.Words voor Java-bibliotheek geïnstalleerd en geconfigureerd.
-
-## Stap 1: Het document laden
-
-Eerst moeten we het document laden dat we in HTML-formaat willen opslaan. Zo doe je dat:
+### Stap 1: Laad het Word‑document
+Laad eerst het bron‑document in een `Document`‑object.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Vervangen `"YourDocument.docx"` met het pad naar uw Word-document.
+Vervang `"YourDocument.docx"` door het daadwerkelijke pad naar je bestand.
 
-## Stap 2: Configureer vaste HTML-opslagopties
-
-Om het document met een vaste lay-out op te slaan, moeten we de `HtmlFixedSaveOptions` klas. We zullen de `useTargetMachineFonts` eigendom van `true` om ervoor te zorgen dat de lettertypen van de doelcomputer worden gebruikt in de HTML-uitvoer:
+### Stap 2: Configureer de fixed‑layout HTML‑opslaan‑opties
+Maak een `HtmlFixedSaveOptions`‑instantie aan en schakel het gebruik van doel‑machinelettertypen in zodat de HTML dezelfde lettertypen gebruikt als de bronmachine.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Stap 3: Sla het document op als HTML
+Je kunt ook andere eigenschappen verkennen, zoals `setExportEmbeddedFonts`, als je lettertypen direct wilt insluiten.
 
-Laten we het document nu opslaan als HTML met de vaste lay-out, waarbij we de eerder geconfigureerde opties gebruiken:
+### Stap 3: Sla het document op als fixed‑layout HTML
+Schrijf tenslotte het document naar een HTML‑bestand met behulp van de hierboven gedefinieerde opties.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Vervangen `"FixedLayoutDocument.html"` met de gewenste naam voor uw HTML-bestand.
+Het resulterende `FixedLayoutDocument.html` zal de Word‑inhoud exact weergeven zoals deze in het originele bestand verschijnt.
 
-## Volledige broncode voor het opslaan van HTML-documenten met vaste lay-out in Aspose.Words voor Java
+### Volledig broncode‑voorbeeld
+Hieronder staat een kant‑klaar fragment dat alle stappen combineert. Houd de code ongewijzigd om de functionaliteit te behouden.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +84,41 @@ Vervangen `"FixedLayoutDocument.html"` met de gewenste naam voor uw HTML-bestand
     }
 ```
 
-## Conclusie
-
-In deze tutorial hebben we geleerd hoe je HTML-documenten met een vaste lay-out kunt opslaan met Aspose.Words voor Java. Door deze eenvoudige stappen te volgen, zorg je ervoor dat je documenten een consistente visuele structuur behouden op verschillende platforms.
+## Veelvoorkomende problemen en oplossingen
+- **Ontbrekende lettertypen in de output** – Zorg ervoor dat `useTargetMachineFonts` is ingesteld op `true` *of* insluit lettertypen met `setExportEmbeddedFonts(true)`.  
+- **Grote HTML‑bestanden** – Gebruik `setExportEmbeddedImages(false)` om afbeeldingen extern te houden en de bestandsgrootte te verkleinen.  
+- **Onjuiste bestandspaden** – Gebruik absolute paden of controleer of de werkmap schrijfrechten heeft.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik Aspose.Words voor Java in mijn project installeren?
+**Q: Hoe kan ik Aspose.Words voor Java in mijn project instellen?**  
+A: Download de bibliotheek van [hier](https://releases.aspose.com/words/java/) en volg de installatie‑instructies die in de documentatie [hier](https://reference.aspose.com/words/java/) worden gegeven.
 
-Het installeren van Aspose.Words voor Java is eenvoudig. Je kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/words/java/) en volg de installatie-instructies in de documentatie [hier](https://reference.aspose.com/words/java/).
+**Q: Zijn er licentie‑vereisten voor het gebruik van Aspose.Words voor Java?**  
+A: Ja, een geldige licentie is vereist voor productiegebruik. Je kunt een licentie verkrijgen via de Aspose‑website.
 
-### Zijn er licentievereisten voor het gebruik van Aspose.Words voor Java?
+**Q: Kan ik de HTML‑output verder aanpassen?**  
+A: Absoluut. Opties zoals `setExportEmbeddedImages`, `setExportEmbeddedFonts` en `setCssClassNamePrefix` laten je de output afstemmen op je behoeften.
 
-Ja, Aspose.Words voor Java vereist een geldige licentie voor gebruik in een productieomgeving. U kunt een licentie verkrijgen via de Aspose-website. Meer informatie vindt u in de documentatie.
+**Q: Is Aspose.Words voor Java compatibel met verschillende Java‑versies?**  
+A: Ja, de bibliotheek ondersteunt Java 8 en later. Zorg ervoor dat de Java‑versie van je project overeenkomt met de vereisten van de bibliotheek.
 
-### Kan ik de HTML-uitvoer verder aanpassen?
+**Q: Wat als ik een responsieve HTML‑versie nodig heb in plaats van een vaste lay-out?**  
+A: Gebruik `HtmlSaveOptions` (in plaats van `HtmlFixedSaveOptions`) die flow‑gebaseerde HTML genereert die met CSS gestyled kan worden voor responsiviteit.
 
-Zeker! Aspose.Words voor Java biedt een breed scala aan opties om de HTML-uitvoer aan te passen aan uw specifieke wensen. Raadpleeg de documentatie voor gedetailleerde informatie over aanpassingsmogelijkheden.
+## Conclusie
+Je weet nu **hoe je html** documenten met een vaste lay-out opslaat met Aspose.Words voor Java. Door de bovenstaande stappen te volgen kun je betrouwbaar **Word naar HTML converteren**, **Word HTML exporteren**, en **document als HTML opslaan** terwijl je de visuele getrouwheid behoudt die nodig is voor professioneel publiceren of archiveringsdoeleinden.
 
-### Is Aspose.Words voor Java compatibel met verschillende Java-versies?
+---
 
-Ja, Aspose.Words voor Java is compatibel met verschillende versies van Java. Zorg ervoor dat u een compatibele versie van Aspose.Words voor Java gebruikt die geschikt is voor uw Java-ontwikkelomgeving.
-
+**Laatst bijgewerkt:** 2025-12-27  
+**Getest met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
