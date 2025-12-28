@@ -50,6 +50,14 @@ Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesua
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words untuk Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Sempurnakan tata letak dokumen Anda dengan Aspose.Words.
 ### [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown & Menyimpan sebagai PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Pelajari cara mengekspor dokumen Word ke format LaTeX dengan mengonversi DOCX ke Markdown lalu menyimpannya sebagai PDF.
+### [Buat markdown dari Word – Panduan Lengkap C#](./create-markdown-from-word-complete-c-guide/)
+Panduan lengkap untuk mengonversi dokumen Word menjadi file markdown menggunakan C# dengan contoh kode langkah demi langkah.
+### [Buat PDF dari DOCX di C# – Panduan Pemrograman Lengkap](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Panduan lengkap untuk membuat PDF dari file DOCX menggunakan C# dengan contoh kode langkah demi langkah.
+### [Menyematkan Gambar Markdown – Panduan Lengkap Mengonversi Dokumen Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Pelajari cara menyematkan gambar dalam markdown saat mengonversi dokumen Word menjadi format lain dengan panduan langkah demi langkah.
+### [Buat PDF Aksesibel dari Word – Konversi ke PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Panduan langkah demi langkah untuk membuat PDF yang memenuhi standar aksesibilitas PDF/UA dari dokumen Word menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

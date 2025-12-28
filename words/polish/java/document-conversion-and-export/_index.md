@@ -50,6 +50,14 @@ Dowiedz się, jak dodawać znaki wodne do dokumentów w Aspose.Words for Java. D
 Dowiedz się, jak formatować tabele i stosować style tabel w Aspose.Words dla Java. Poznaj przewodniki krok po kroku z kodem źródłowym, aby skutecznie formatować tabele. Ulepsz układ swojego dokumentu dzięki Aspose.Words.
 ### [Jak wyeksportować LaTeX z Worda: konwertuj DOCX do Markdown i zapisz jako PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Dowiedz się, jak przekształcić dokument Word (DOCX) w Markdown, a następnie wygenerować PDF w formacie LaTeX.
+### [Utwórz markdown z Worda – Kompletny przewodnik C#](./create-markdown-from-word-complete-c-guide/)
+Pełny przewodnik w C# pokazujący, jak wygenerować plik markdown z dokumentu Word przy użyciu Aspose.Words.
+### [Utwórz PDF z DOCX w C# – Kompletny przewodnik programistyczny](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Dowiedz się, jak w C# przy użyciu Aspose.Words wygenerować plik PDF z dokumentu DOCX. Kompletny przewodnik krok po kroku.
+### [Osadzanie obrazów w markdown – Kompletny przewodnik konwersji dokumentów Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Poznaj krok po kroku, jak osadzać obrazy w markdown przy konwersji dokumentów Word przy użyciu Aspose.Words.
+### [Utwórz dostępny PDF z Worda – konwersja do PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Dowiedz się, jak wygenerować PDF zgodny z PDF/UA z dokumentu Word przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

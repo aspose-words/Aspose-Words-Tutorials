@@ -50,6 +50,14 @@
 เรียนรู้วิธีจัดรูปแบบตารางและนำสไตล์ตารางไปใช้ใน Aspose.Words สำหรับ Java สำรวจคำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการจัดรูปแบบตารางที่มีประสิทธิภาพ ปรับปรุงเค้าโครงเอกสารของคุณด้วย Aspose.Words
 ### [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown และบันทึกเป็น PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown แล้วบันทึกเป็น PDF พร้อมส่งออก LaTeX จาก Word
+### [สร้าง markdown จาก Word – คู่มือ C# ฉบับสมบูรณ์](./create-markdown-from-word-complete-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น markdown อย่างละเอียดด้วย C# ในคู่มือขั้นตอนเต็มรูปแบบนี้
+### [สร้าง PDF จาก DOCX ด้วย C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./create-pdf-from-docx-in-c-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย C# อย่างละเอียดในคู่มือขั้นตอนเต็มรูปแบบนี้
+### [ฝังรูปภาพใน Markdown – คู่มือเต็มสำหรับการแปลงเอกสาร Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+เรียนรู้วิธีฝังรูปภาพใน Markdown อย่างครบถ้วนเมื่อแปลงเอกสาร Word เป็น Markdown
+### [สร้าง PDF ที่เข้าถึงได้จาก Word – แปลงเป็น PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF/UA ที่เป็นมาตรฐานการเข้าถึงสำหรับผู้ใช้ทุกคน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

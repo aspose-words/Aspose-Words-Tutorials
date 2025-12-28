@@ -36,20 +36,39 @@ Pour plus d'informations, consultez le [Documentation de l'API Aspose.Words pour
 ## Tutoriels de conversion et d'exportation de documents
 ### [Génération d'étiquettes de codes-barres personnalisées dans Aspose.Words pour Java](./generating-custom-barcode-labels/)
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
+
 ### [Utilisation de la génération de codes-barres dans Aspose.Words pour Java](./using-barcode-generation/)
 Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
+
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
+
 ### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
 Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words pour Java. Apprenez à manipuler et afficher facilement des objets Office Math.
+
 ### [Utilisation des formes de document dans Aspose.Words pour Java](./using-document-shapes/)
 Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Apprenez à créer des documents visuellement attrayants grâce à des exemples détaillés.
+
 ### [Utilisation de filigranes pour les documents dans Aspose.Words pour Java](./using-watermarks-to-documents/)
 Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
+
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+
 ### [Comment exporter LaTeX depuis Word : convertir DOCX en Markdown et enregistrer en PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Apprenez à convertir un DOCX en Markdown puis le sauvegarder en PDF au format LaTeX avec Aspose.Words.
+
+### [Créer du markdown à partir de Word – Guide complet C#](./create-markdown-from-word-complete-c-guide/)
+Apprenez à convertir des documents Word en fichiers markdown en utilisant C# avec Aspose.Words.
+
+### [Créer un PDF à partir de DOCX en C# – Guide complet de programmation](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Apprenez à générer des fichiers PDF à partir de DOCX avec Aspose.Words pour C# dans ce guide complet.
+
+### [Intégrer des images en markdown – Guide complet pour convertir des documents Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Apprenez à intégrer des images dans Markdown lors de la conversion de documents Word avec Aspose.Words.
+
+### [Créer un PDF accessible à partir de Word – Convertir en PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Apprenez à générer des PDF conformes à la norme PDF/UA à partir de documents Word avec Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

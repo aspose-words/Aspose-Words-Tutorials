@@ -50,6 +50,14 @@ Naučte se, jak přidávat vodoznaky do dokumentů v Aspose.Words pro Javu. Při
 Naučte se, jak formátovat tabulky a používat styly tabulek v Aspose.Words pro Javu. Prozkoumejte podrobné návody se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení dokumentu pomocí Aspose.Words.
 ### [Jak exportovat LaTeX z Wordu: převod DOCX na Markdown a uložení jako PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Naučte se převést dokument DOCX na Markdown a následně jej uložit jako PDF s podporou LaTeXu.
+### [Vytvoření markdownu ze Wordu – Kompletní průvodce v C#](./create-markdown-from-word-complete-c-guide/)
+Kompletní návod, jak převést dokument Word do formátu markdown pomocí C# a Aspose.Words.
+### [Vytvoření PDF z DOCX v C# – Kompletní programovací průvodce](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Kompletní návod, jak pomocí Aspose.Words převést soubor DOCX na PDF v jazyce C#.
+### [Vkládání obrázků do markdown – Kompletní průvodce konverzí Word dokumentů](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Naučte se, jak vložit obrázky do markdown a převést Word dokumenty pomocí Aspose.Words.
+### [Vytvořit přístupný PDF z Wordu – převod na PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Naučte se, jak pomocí Aspose.Words vytvořit PDF/UA, které splňuje standardy přístupnosti, přímo z dokumentu Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

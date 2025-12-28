@@ -82,6 +82,8 @@ Leer hoe u documenten kunt opslaan in RTF-formaat met Aspose.Words voor Java. St
 Leer hoe je documenten als tekstbestanden opslaat in Aspose.Words voor Java. Volg onze stapsgewijze handleiding met Java-codevoorbeelden.
 ### [Bepalen van documentformaat in Aspose.Words voor Java](./determining-document-format/)
 Leer hoe u documentformaten in Java kunt detecteren met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
+### [Herstel beschadigd Word-bestand – C#-handleiding voor veilig openen](./recover-corrupted-word-file-c-guide-to-open-safely/)
+Leer hoe u beschadigde Word-bestanden veilig kunt openen en herstellen met C# en Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

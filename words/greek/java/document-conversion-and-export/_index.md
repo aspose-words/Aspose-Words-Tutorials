@@ -50,6 +50,14 @@
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words για Java. Εξερευνήστε οδηγούς βήμα προς βήμα με πηγαίο κώδικα για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
 ### [Πώς να εξάγετε LaTeX από το Word: Μετατροπή DOCX σε Markdown & αποθήκευση ως PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε LaTeX μέσω Markdown και να τα αποθηκεύσετε ως PDF.
+### [Δημιουργία markdown από Word – Πλήρης οδηγός C#](./create-markdown-from-word-complete-c-guide/)
+Μάθετε πώς να μετατρέπετε έγγραφα Word σε markdown χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό.
+### [Δημιουργία PDF από DOCX σε C# – Πλήρης Οδηγός Προγραμματισμού](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία DOCX σε PDF χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό.
+### [Ενσωμάτωση εικόνων markdown – Πλήρης Οδηγός για τη Μετατροπή Εγγράφων Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Μάθετε πώς να ενσωματώνετε εικόνες σε markdown κατά τη μετατροπή εγγράφων Word σε άλλες μορφές.
+### [Δημιουργία Προσβάσιμου PDF από Word – Μετατροπή σε PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF/UA από έγγραφα Word χρησιμοποιώντας Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

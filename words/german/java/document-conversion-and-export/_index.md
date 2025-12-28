@@ -41,7 +41,7 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java benutzerdefinierte Barcodes in 
 ### [Verwenden von Diagrammen in Aspose.Words für Java](./using-charts/)
 Erfahren Sie, wie Sie Diagramme in Aspose.Words für Java erstellen und anpassen. Entdecken Sie Diagrammtypen, Formatierungen und Achseneigenschaften zur Datenvisualisierung.
 ### [Verwenden von Office Math-Objekten in Aspose.Words für Java](./using-office-math-objects/)
-Nutzen Sie die Leistungsfähigkeit mathematischer Gleichungen in Dokumenten mit Aspose.Words für Java. Lernen Sie, Office Math-Objekte mühelos zu bearbeiten und anzuzeigen.
+Nutzen Sie die Leistungsfähigkeit mathematischer Gleichungen in Dokumenten mit Aspose.Words für Java. Lernen Sie Office Math-Objekte mühelos zu bearbeiten und anzuzeigen.
 ### [Verwenden von Dokumentformen in Aspose.Words für Java](./using-document-shapes/)
 Nutzen Sie die Möglichkeiten von Dokumentformen in Aspose.Words für Java. Lernen Sie anhand von Schritt-für-Schritt-Beispielen, visuell ansprechende Dokumente zu erstellen.
 ### [Verwenden von Wasserzeichen in Dokumenten in Aspose.Words für Java](./using-watermarks-to-documents/)
@@ -50,6 +50,14 @@ Erfahren Sie, wie Sie in Aspose.Words für Java Wasserzeichen zu Dokumenten hinz
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words für Java anwenden. Entdecken Sie Schritt-für-Schritt-Anleitungen mit Quellcode für effektive Tabellenformatierung. Optimieren Sie Ihr Dokumentlayout mit Aspose.Words.
 ### [Wie man LaTeX aus Word exportiert: DOCX in Markdown konvertieren & als PDF speichern](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Erfahren Sie, wie Sie ein Word‑DOCX in Markdown umwandeln und anschließend als PDF mit LaTeX exportieren.
+### [Markdown aus Word erstellen – Vollständiger C#‑Leitfaden](./create-markdown-from-word-complete-c-guide/)
+Erfahren Sie, wie Sie mit C# Word‑Dokumente in Markdown umwandeln – Schritt‑für‑Schritt‑Anleitung.
+### [PDF aus DOCX in C# erstellen – Vollständiger Programmierleitfaden](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit C# ein DOCX‑Dokument in ein PDF konvertieren – Schritt‑für‑Schritt‑Anleitung mit vollständigem Codebeispiel.
+### [Einbetten von Bildern in Markdown – Vollständiger Leitfaden zur Konvertierung von Word-Dokumenten](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Erfahren Sie, wie Sie Bilder aus Word-Dokumenten extrahieren und in Markdown einbetten – Schritt‑für‑Schritt‑Anleitung.
+### [Erstellen eines barrierefreien PDFs aus Word – Konvertieren zu PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Erfahren Sie, wie Sie aus einem Word‑Dokument ein PDF/UA‑konformes, barrierefreies PDF erzeugen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,7 +63,7 @@ Naučte se pokročilou manipulaci s dokumenty s Aspose.Words pro Javu. Šifrujte
 ### [Ukládání HTML dokumentů s pevným rozvržením v Aspose.Words pro Javu](./saving-html-documents-with-fixed-layout/)
 Naučte se, jak ukládat HTML dokumenty s pevným rozvržením v Aspose.Words pro Javu. Postupujte podle našeho podrobného návodu pro bezproblémové formátování dokumentů.
 ### [Pokročilé možnosti ukládání HTML dokumentů pomocí Aspose.Words v Javě](./advance-html-documents-saving-options/)
-tomto tutoriálu jsme se zabývali různými pokročilými možnostmi ukládání HTML dokumentů pomocí Aspose.Words pro Javu. Tyto možnosti vám umožní vytvářet vysoce kvalitní HTML.
+tomuto tutoriálu jsme se zabývali různými pokročilými možnostmi ukládání HTML dokumentů pomocí Aspose.Words pro Javu. Tyto možnosti vám umožní vytvářet vysoce kvalitní HTML.
 ### [Ukládání obrázků z dokumentů v Aspose.Words pro Javu](./saving-images-from-documents/)
 Naučte se, jak ukládat obrázky z dokumentů pomocí Aspose.Words pro Javu s naším komplexním podrobným návodem. Přizpůsobte si formáty, kompresi a další.
 ### [Ukládání dokumentů jako Markdown v Aspose.Words pro Javu](./saving-documents-as-markdown/)
@@ -82,6 +82,8 @@ Naučte se, jak ukládat dokumenty ve formátu RTF pomocí Aspose.Words pro Javu
 Naučte se, jak ukládat dokumenty jako textové soubory v Aspose.Words pro Javu. Postupujte podle našeho podrobného návodu s příklady kódu Java.
 ### [Určení formátu dokumentu v Aspose.Words pro Javu](./determining-document-format/)
 Naučte se, jak detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
+### [Obnovení poškozeného souboru Word – Průvodce C# pro bezpečné otevření](./recover-corrupted-word-file-c-guide-to-open-safely/)
+Naučte se, jak pomocí C# obnovit poškozené soubory Word a bezpečně je otevřít pomocí Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

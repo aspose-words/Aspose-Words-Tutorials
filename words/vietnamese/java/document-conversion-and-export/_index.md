@@ -50,6 +50,14 @@ Tìm hiểu cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java.
 Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words cho Java. Khám phá hướng dẫn từng bước với mã nguồn để định dạng bảng hiệu quả. Cải thiện bố cục tài liệu của bạn với Aspose.Words.
 ### [Cách xuất LaTeX từ Word: Chuyển DOCX sang Markdown và lưu dưới dạng PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Hướng dẫn xuất LaTeX từ tài liệu Word bằng cách chuyển DOCX sang Markdown rồi lưu thành PDF.
+### [Tạo markdown từ Word – Hướng dẫn đầy đủ C#](./create-markdown-from-word-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang markdown bằng C# sử dụng Aspose.Words.
+### [Tạo PDF từ DOCX trong C# – Hướng dẫn lập trình đầy đủ](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng C# sử dụng Aspose.Words, bao gồm mã nguồn đầy đủ.
+### [Nhúng hình ảnh markdown – Hướng dẫn đầy đủ chuyển đổi tài liệu Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Hướng dẫn chi tiết cách nhúng hình ảnh vào markdown khi chuyển đổi tài liệu Word sang các định dạng khác.
+### [Tạo PDF có thể truy cập từ Word – Chuyển sang PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Hướng dẫn tạo PDF có thể truy cập (PDF/UA) từ tài liệu Word bằng Aspose.Words cho Java, bao gồm các bước cấu hình và mã nguồn mẫu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
