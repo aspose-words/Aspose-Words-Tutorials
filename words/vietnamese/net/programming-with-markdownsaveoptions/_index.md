@@ -25,6 +25,8 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Thiết lập thư mục hình ảnh](./set-images-folder/) Chuyển đổi tài liệu Word sang Markdown với căn chỉnh bảng phù hợp bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để có kết quả hoàn hảo. |
 | [Lưu Word thành PDF và Khôi phục Word bị Hỏng – Chuyển đổi Word sang Markdown trong C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Tạo PDF có thể truy cập và Chuyển đổi Word sang Markdown – Hướng dẫn đầy đủ C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Hướng dẫn chi tiết cách tạo PDF có thể truy cập và chuyển đổi tài liệu Word sang Markdown bằng C# và Aspose.Words. |
+| [Cách sử dụng Markdown: Chuyển DOCX sang Markdown với các phương trình LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Hướng dẫn chuyển DOCX sang Markdown, giữ nguyên công thức LaTeX bằng Aspose.Words cho .NET. |
+| [Chuyển đổi docx sang markdown – Hướng dẫn từng bước C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang Markdown bằng C# với Aspose.Words, bao gồm các bước thực hiện và mã mẫu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
