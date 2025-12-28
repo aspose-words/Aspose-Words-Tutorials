@@ -37,6 +37,9 @@
 ### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Python](./how-to-save-markdown-from-word-complete-python-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
 
+### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -37,6 +37,9 @@
 ### [如何從 Word 儲存 Markdown – 完整 Python 指南](./how-to-save-markdown-from-word-complete-python-guide/)
 學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 Markdown 格式的完整步驟。
 
+### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
+學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 Word 轉換為 Markdown 的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
