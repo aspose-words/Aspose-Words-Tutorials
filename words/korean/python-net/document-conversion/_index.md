@@ -37,6 +37,9 @@ Aspose.Words for Python을 사용하여 Python 문서 변환을 배워보세요.
 ### [Word에서 Markdown 저장하기 – 완전 Python 가이드](./how-to-save-markdown-from-word-complete-python-guide/)
 Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안내합니다!
 
+### [손상된 DOCX 복구 및 Word를 Markdown으로 변환](./recover-corrupted-docx-convert-word-to-markdown/)
+손상된 DOCX 파일을 복구하고 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
