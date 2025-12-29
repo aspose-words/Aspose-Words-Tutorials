@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java를 사용하여 OOXML 형식으로 문서를 저장하는 방법을 알아보세요. 파일을 손쉽게 보호하고, 최적화하고, 맞춤 설정하세요."
-"linktitle": "OOXML 형식으로 문서 저장"
-"second_title": "Aspose.Words Java 문서 처리 API"
-"title": "Java용 Aspose.Words에서 OOXML 형식으로 문서 저장"
-"url": "/ko/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: Aspose.Words for Java 저장 옵션을 사용하여 비밀번호로 docx 파일을 암호화하는 방법을 배워보세요. OOXML
+  파일을 손쉽게 보호하고, 최적화하며, 맞춤 설정하세요.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java를 사용하여 DOCX 파일을 비밀번호로 암호화하는 방법
+url: /ko/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +15,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Words에서 OOXML 형식으로 문서 저장
+# Aspose.Words for Java를 사용하여 비밀번호로 DOCX 암호화하는 방법
 
+In this guide you’ll discover **how to encrypt docx with password** while saving documents in OOXML format using Aspose.Words for Java. Whether you’re protecting confidential reports or securing contract drafts, the steps below show you exactly how to apply password protection and fine‑tune other OOXML save options.
 
-## Aspose.Words for Java에서 OOXML 형식으로 문서 저장 소개
+## Quick Answers
+- **DOCX 파일을 비밀번호로 암호화할 수 있나요?** Yes, use `OoxmlSaveOptions.setPassword()` before saving.  
+- **OOXML 저장 설정을 제어하는 클래스는 무엇인가요?** `OoxmlSaveOptions` (part of Aspose.Words).  
+- **비밀번호 보호를 위해 라이선스가 필요합니까?** A valid Aspose.Words license is required for production use.  
+- **암호화와 준수 설정을 결합할 수 있나요?** Absolutely – set both `setPassword` and `setCompliance` on the same `OoxmlSaveOptions` instance.  
+- **사용 가능한 압축 수준은 무엇인가요?** `NORMAL`, `SUPER_FAST`, and `MAXIMUM` via `CompressionLevel`.
 
-이 가이드에서는 Aspose.Words for Java를 사용하여 문서를 OOXML 형식으로 저장하는 방법을 살펴보겠습니다. OOXML(Office Open XML)은 Microsoft Word 및 기타 오피스 애플리케이션에서 사용되는 파일 형식입니다. OOXML 형식으로 문서를 저장하기 위한 다양한 옵션과 설정을 살펴보겠습니다.
+## What is “encrypt docx with password”?
+Encrypting a DOCX file means the file’s contents are stored in an encrypted form and can only be opened after supplying the correct password. This protects sensitive information from unauthorized access while still allowing standard Word tools to open the file once the password is provided.
 
-## 필수 조건
+## Why use Aspose.Words save options for encryption?
+Aspose.Words provides a rich set of **aspose words save options** that let you control not only encryption but also compliance levels, compression, and legacy character handling—all from Java code. This eliminates the need for manual post‑processing or third‑party tools.
 
-시작하기에 앞서, 프로젝트에 Aspose.Words for Java 라이브러리가 설정되어 있는지 확인하세요.
+## Prerequisites
+- Java Development Kit (JDK 8 or higher)  
+- Aspose.Words for Java library added to your project (Maven/Gradle or JAR)  
+- A valid Aspose.Words license for production (optional for evaluation)
 
-## 암호 암호화를 사용하여 문서 저장
+## Saving a Document with Password Encryption
 
-OOXML 형식으로 문서를 저장할 때 비밀번호를 사용하여 암호화할 수 있습니다. 방법은 다음과 같습니다.
+You can encrypt your document with a password while saving it in OOXML format. Here's how you can do it:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// 문서를 로드하세요
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions를 생성하고 비밀번호를 설정합니다.
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// 암호화하여 문서 저장
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## OOXML 규정 준수 설정
+## Setting OOXML Compliance
 
-문서를 저장할 때 OOXML 준수 수준을 지정할 수 있습니다. 예를 들어 ISO 29500:2008(엄격)로 설정할 수 있습니다. 방법은 다음과 같습니다.
+You can specify the OOXML compliance level when saving the document. For example, you can set it to ISO 29500:2008 (Strict). Here's how:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +66,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// 문서를 로드하세요
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Word 2016에 최적화
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// OoxmlSaveOptions를 생성하고 규정 준수 수준을 설정합니다.
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// 규정 준수 설정으로 문서 저장
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## 마지막으로 저장된 시간 속성 업데이트
+## Updating Last Saved Time Property
 
-문서를 저장할 때 "마지막으로 저장된 시간" 속성을 업데이트하도록 선택할 수 있습니다. 방법은 다음과 같습니다.
+You can choose to update the "Last Saved Time" property of the document when saving it. Here's how:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// 문서를 로드하세요
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions를 생성하고 마지막으로 저장된 시간 속성 업데이트를 활성화합니다.
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// 업데이트된 속성으로 문서를 저장합니다.
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## 레거시 제어 문자 유지
+## Keeping Legacy Control Characters
 
-문서에 기존 제어 문자가 포함된 경우, 저장하는 동안 해당 문자를 유지하도록 선택할 수 있습니다. 방법은 다음과 같습니다.
+If your document contains legacy control characters, you can choose to keep them while saving. Here's how:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// 레거시 제어 문자가 있는 문서 로드
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// FLAT_OPC 형식으로 OoxmlSaveOptions를 생성하고 레거시 제어 문자 유지를 활성화합니다.
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// 레거시 제어 문자로 문서 저장
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## 압축 레벨 설정
+## Setting Compression Level
 
-문서를 저장할 때 압축 수준을 조정할 수 있습니다. 예를 들어, 최소 압축을 위해 SUPER_FAST로 설정할 수 있습니다. 방법은 다음과 같습니다.
+You can adjust the compression level when saving the document. For example, you can set it to **SUPER_FAST** for minimal compression. Here's how:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// 문서를 로드하세요
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions를 생성하고 압축 수준을 설정합니다.
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// 지정된 압축 수준으로 문서를 저장합니다.
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Aspose.Words for Java를 사용하여 OOXML 형식으로 문서를 저장할 때 사용할 수 있는 주요 옵션과 설정은 다음과 같습니다. 필요에 따라 더 많은 옵션을 살펴보고 문서 저장 프로세스를 사용자 지정할 수 있습니다.
+These are some of the key options and settings you can use when saving documents in OOXML format using Aspose.Words for Java. Feel free to explore more options and customize your document‑saving process as needed.
 
-## Aspose.Words for Java에서 문서를 OOXML 형식으로 저장하기 위한 전체 소스 코드
+## Complete Source Code For Saving Documents as OOXML Format in Aspose.Words for Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,31 +181,37 @@ public void setCompressionLevel() throws Exception
 }
 ```
 
-## 결론
+## Conclusion
 
-이 종합 가이드에서는 Aspose.Words for Java를 사용하여 문서를 OOXML 형식으로 저장하는 방법을 살펴보았습니다. 문서를 비밀번호로 암호화하거나, 특정 OOXML 표준을 준수하거나, 문서 속성을 업데이트하거나, 기존 제어 문자를 유지하거나, 압축 수준을 조정하는 등 어떤 작업이든 Aspose.Words는 사용자의 요구 사항을 충족하는 다양한 도구 세트를 제공합니다.
+In this comprehensive guide, we've explored how to **encrypt docx with password** and fine‑tune a range of OOXML save options using Aspose.Words for Java. Whether you need to protect confidential content, meet strict ISO compliance, preserve legacy characters, or control compression, the library gives you granular control through the same `OoxmlSaveOptions` API.
 
-## 자주 묻는 질문
+## Frequently Asked Questions
 
-### 암호로 보호된 문서에서 암호 보호를 제거하려면 어떻게 해야 하나요?
+**Q: How do I remove password protection from a password‑protected document?**  
+A: Open the document with the correct password, then save it again without calling `setPassword`. The new file will be unprotected.
 
-암호로 보호된 문서의 암호 보호를 해제하려면, 올바른 암호로 문서를 연 다음 저장 옵션에서 암호를 지정하지 않고 저장하면 됩니다. 이렇게 하면 암호 보호 없이 문서가 저장됩니다.
+**Q: Can I set custom properties when saving a document in OOXML format?**  
+A: Yes. Use `BuiltInDocumentProperties` or `CustomDocumentProperties` on the `Document` object before invoking `save`.
 
-### OOXML 형식으로 문서를 저장할 때 사용자 정의 속성을 설정할 수 있나요?
+**Q: What is the default compression level when saving a document in OOXML format?**  
+A: The default is `NORMAL`. You can switch to `SUPER_FAST` for speed or `MAXIMUM` for smaller file size.
 
-네, OOXML 형식으로 저장하기 전에 문서의 사용자 지정 속성을 설정할 수 있습니다. `BuiltInDocumentProperties` 그리고 `CustomDocumentProperties` 작성자, 제목, 키워드, 사용자 정의 속성 등 다양한 속성을 설정하는 클래스입니다.
+**Q: Do the aspose words save options work with older Word versions?**  
+A: Yes. By adjusting `MsWordVersion` and compliance settings, you can target Word 2007‑2019 and ensure compatibility.
 
-### OOXML 형식으로 문서를 저장할 때 기본 압축 수준은 무엇입니까?
+**Q: Is it possible to combine multiple save options in a single operation?**  
+A: Absolutely. Create one `OoxmlSaveOptions` instance, set all desired properties (password, compliance, compression, etc.), and pass it to `doc.save()`.
 
-Aspose.Words for Java를 사용하여 OOXML 형식으로 문서를 저장할 때 기본 압축 수준은 다음과 같습니다. `NORMAL`압축 수준을 변경할 수 있습니다. `SUPER_FAST` 또는 `MAXIMUM` 필요에 따라.
+---
 
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

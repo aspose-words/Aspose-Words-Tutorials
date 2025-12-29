@@ -1,10 +1,13 @@
 ---
-"description": "Aprenda a salvar documentos no formato OOXML com o Aspose.Words para Java. Proteja, otimize e personalize seus arquivos sem esforço."
-"linktitle": "Salvando documentos no formato OOXML"
-"second_title": "API de processamento de documentos Java Aspose.Words"
-"title": "Salvando documentos como formato OOXML no Aspose.Words para Java"
-"url": "/pt/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: Aprenda a criptografar arquivos docx com senha usando as opções de salvamento
+  do Aspose.Words para Java. Proteja, otimize e personalize seus arquivos OOXML sem
+  esforço.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Como criptografar DOCX com senha usando Aspose.Words para Java
+url: /pt/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +16,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salvando documentos como formato OOXML no Aspose.Words para Java
+# Como Criptografar DOCX com Senha Usando Aspose.Words para Java
 
+Neste guia você descobrirá **como criptografar docx com senha** ao salvar documentos no formato OOXML usando Aspose.Words para Java. Seja protegendo relatórios confidenciais ou garantindo rascunhos de contratos, os passos abaixo mostram exatamente como aplicar proteção por senha e ajustar finamente outras opções de salvamento OOXML.
 
-## Introdução ao salvamento de documentos no formato OOXML no Aspose.Words para Java
+## Respostas Rápidas
+- **Posso criptografar um arquivo DOCX com senha?** Sim, use `OoxmlSaveOptions.setPassword()` antes de salvar.  
+- **Qual classe controla as configurações de salvamento OOXML?** `OoxmlSaveOptions` (parte do Aspose.Words).  
+- **Preciso de licença para proteção por senha?** Uma licença válida do Aspose.Words é necessária para uso em produção.  
+- **Posso combinar criptografia com configurações de conformidade?** Absolutamente – defina tanto `setPassword` quanto `setCompliance` na mesma instância de `OoxmlSaveOptions`.  
+- **Quais níveis de compressão estão disponíveis?** `NORMAL`, `SUPER_FAST` e `MAXIMUM` via `CompressionLevel`.
 
-Neste guia, exploraremos como salvar documentos no formato OOXML usando o Aspose.Words para Java. OOXML (Office Open XML) é um formato de arquivo usado pelo Microsoft Word e outros aplicativos de escritório. Abordaremos várias opções e configurações para salvar documentos no formato OOXML.
+## O que é “encrypt docx with password”?
+Criptografar um arquivo DOCX significa que o conteúdo do arquivo é armazenado de forma criptografada e só pode ser aberto após a inserção da senha correta. Isso protege informações sensíveis contra acesso não autorizado, permitindo que as ferramentas padrão do Word abram o arquivo uma vez que a senha seja fornecida.
+
+## Por que usar as opções de salvamento do Aspose.Words para criptografia?
+Aspose.Words oferece um conjunto rico de **aspose words save options** que permitem controlar não apenas a criptografia, mas também níveis de conformidade, compressão e tratamento de caracteres legados — tudo a partir de código Java. Isso elimina a necessidade de pós‑processamento manual ou ferramentas de terceiros.
 
 ## Pré-requisitos
+- Java Development Kit (JDK 8 ou superior)  
+- Biblioteca Aspose.Words for Java adicionada ao seu projeto (Maven/Gradle ou JAR)  
+- Uma licença válida do Aspose.Words para produção (opcional para avaliação)
 
-Antes de começar, certifique-se de ter a biblioteca Aspose.Words para Java configurada em seu projeto.
+## Salvando um Documento com Criptografia por Senha
 
-## Salvando um documento com criptografia de senha
-
-Você pode criptografar seu documento com uma senha ao salvá-lo no formato OOXML. Veja como fazer isso:
+Você pode criptografar seu documento com uma senha ao salvá‑lo no formato OOXML. Veja como fazer:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Carregar o documento
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Crie OoxmlSaveOptions e defina a senha
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// Salvar o documento com criptografia
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## Definindo a conformidade com OOXML
+## Definindo Conformidade OOXML
 
-Você pode especificar o nível de conformidade com o OOXML ao salvar o documento. Por exemplo, você pode defini-lo como ISO 29500:2008 (Rigoroso). Veja como:
+Você pode especificar o nível de conformidade OOXML ao salvar o documento. Por exemplo, pode defini‑lo como ISO 29500:2008 (Strict). Veja como:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +67,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// Carregar o documento
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Otimizar para o Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Crie OoxmlSaveOptions e defina o nível de conformidade
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Salvar o documento com a configuração de conformidade
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Atualizando a última propriedade de tempo salva
+## Atualizando a Propriedade “Last Saved Time”
 
-Você pode optar por atualizar a propriedade "Último horário salvo" do documento ao salvá-lo. Veja como:
+Você pode optar por atualizar a propriedade "Last Saved Time" do documento ao salvá‑lo. Veja como:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Carregar o documento
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Crie OoxmlSaveOptions e habilite a atualização da propriedade Último horário salvo
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// Salve o documento com a propriedade atualizada
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## Mantendo personagens de controle legados
+## Mantendo Caracteres de Controle Legados
 
-Se o seu documento contiver caracteres de controle herdados, você pode optar por mantê-los ao salvar. Veja como:
+Se o seu documento contém caracteres de controle legados, você pode optar por mantê‑los ao salvar. Veja como:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// Carregar um documento com caracteres de controle legados
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Crie OoxmlSaveOptions com o formato FLAT_OPC e habilite a manutenção de caracteres de controle legados
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Salve o documento com caracteres de controle legados
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## Definindo o nível de compressão
+## Definindo Nível de Compressão
 
-Você pode ajustar o nível de compactação ao salvar o documento. Por exemplo, você pode defini-lo como SUPER_RÁPIDO para compactação mínima. Veja como:
+Você pode ajustar o nível de compressão ao salvar o documento. Por exemplo, pode defini‑lo como **SUPER_FAST** para compressão mínima. Veja como:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// Carregar o documento
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Crie OoxmlSaveOptions e defina o nível de compressão
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// Salve o documento com o nível de compactação especificado
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Estas são algumas das principais opções e configurações que você pode usar ao salvar documentos no formato OOXML usando o Aspose.Words para Java. Sinta-se à vontade para explorar mais opções e personalizar seu processo de salvamento de documentos conforme necessário.
+Estas são algumas das principais opções e configurações que você pode usar ao salvar documentos no formato OOXML usando Aspose.Words para Java. Sinta‑se à vontade para explorar mais opções e personalizar o processo de salvamento de documentos conforme necessário.
 
-## Código-fonte completo para salvar documentos no formato OOXML no Aspose.Words para Java
+## Código‑Fonte Completo para Salvar Documentos no Formato OOXML em Aspose.Words para Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -170,29 +184,35 @@ public void setCompressionLevel() throws Exception
 
 ## Conclusão
 
-Neste guia completo, exploramos como salvar documentos no formato OOXML usando o Aspose.Words para Java. Seja para criptografar seus documentos com senhas, garantir a conformidade com padrões OOXML específicos, atualizar propriedades do documento, preservar caracteres de controle legados ou ajustar os níveis de compactação, o Aspose.Words oferece um conjunto versátil de ferramentas para atender às suas necessidades.
+Neste guia abrangente, exploramos como **encrypt docx with password** e ajustar finamente uma variedade de opções de salvamento OOXML usando Aspose.Words para Java. Seja para proteger conteúdo confidencial, atender a rigorosas conformidades ISO, preservar caracteres legados ou controlar a compressão, a biblioteca oferece controle granular através da mesma API `OoxmlSaveOptions`.
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### Como faço para remover a proteção por senha de um documento protegido por senha?
+**Q: Como remover a proteção por senha de um documento protegido por senha?**  
+A: Abra o documento com a senha correta, depois salve‑lo novamente sem chamar `setPassword`. O novo arquivo ficará desprotegido.
 
-Para remover a proteção por senha de um documento protegido por senha, você pode abrir o documento com a senha correta e salvá-lo sem especificar uma senha nas opções de salvamento. Isso salvará o documento sem a proteção por senha.
+**Q: Posso definir propriedades personalizadas ao salvar um documento no formato OOXML?**  
+A: Sim. Use `BuiltInDocumentProperties` ou `CustomDocumentProperties` no objeto `Document` antes de chamar `save`.
 
-### Posso definir propriedades personalizadas ao salvar um documento no formato OOXML?
+**Q: Qual é o nível de compressão padrão ao salvar um documento no formato OOXML?**  
+A: O padrão é `NORMAL`. Você pode mudar para `SUPER_FAST` para velocidade ou `MAXIMUM` para tamanho de arquivo menor.
 
-Sim, você pode definir propriedades personalizadas para um documento antes de salvá-lo no formato OOXML. Use o `BuiltInDocumentProperties` e `CustomDocumentProperties` classes para definir várias propriedades, como autor, título, palavras-chave e propriedades personalizadas.
+**Q: As opções de aspose words save funcionam com versões mais antigas do Word?**  
+A: Sim. Ajustando `MsWordVersion` e as configurações de conformidade, você pode direcionar o Word 2007‑2019 e garantir compatibilidade.
 
-### Qual é o nível de compactação padrão ao salvar um documento no formato OOXML?
+**Q: É possível combinar múltiplas opções de salvamento em uma única operação?**  
+A: Absolutamente. Crie uma instância de `OoxmlSaveOptions`, defina todas as propriedades desejadas (senha, conformidade, compressão, etc.) e passe‑a para `doc.save()`.
 
-O nível de compressão padrão ao salvar um documento no formato OOXML usando Aspose.Words para Java é `NORMAL`. Você pode alterar o nível de compressão para `SUPER_FAST` ou `MAXIMUM` conforme necessário.
+---
 
+**Última Atualização:** 2025-12-29  
+**Testado com:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

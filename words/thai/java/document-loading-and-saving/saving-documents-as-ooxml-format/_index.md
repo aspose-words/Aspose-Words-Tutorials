@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้วิธีบันทึกเอกสารในรูปแบบ OOXML ด้วย Aspose.Words สำหรับ Java รักษาความปลอดภัย เพิ่มประสิทธิภาพ และปรับแต่งไฟล์ของคุณได้อย่างง่ายดาย"
-"linktitle": "การบันทึกเอกสารเป็นรูปแบบ OOXML"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: เรียนรู้วิธีเข้ารหัสไฟล์ docx ด้วยรหัสผ่านโดยใช้ตัวเลือกการบันทึกของ
+  Aspose.Words for Java ปกป้อง ปรับให้เหมาะสม และปรับแต่งไฟล์ OOXML ของคุณได้อย่างง่ายดาย.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: วิธีเข้ารหัสไฟล์ DOCX ด้วยรหัสผ่านโดยใช้ Aspose.Words สำหรับ Java
+url: /th/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +15,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java
+# วิธีการเข้ารหัส DOCX ด้วยรหัสผ่านโดยใช้ Aspose.Words for Java
 
+ในคู่มือนี้คุณจะได้เรียนรู้ **วิธีการเข้ารหัส docx ด้วยรหัสผ่าน** ขณะบันทึกเอกสารในรูปแบบ OOXML ด้วย Aspose.Words for Java ไม่ว่าคุณจะต้องการปกป้องรายงานที่เป็นความลับหรือรักษาแบบร่างสัญญา ขั้นตอนต่อไปนี้จะแสดงให้คุณเห็นวิธีการตั้งค่าการป้องกันด้วยรหัสผ่านและปรับแต่งตัวเลือกการบันทึก OOXML อื่น ๆ อย่างละเอียด
 
-## บทนำเกี่ยวกับการบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java
+## คำตอบอย่างรวดเร็ว
+- **ฉันสามารถเข้ารหัสไฟล์ DOCX ด้วยรหัสผ่านได้หรือไม่?** ได้, ใช้ `OoxmlSaveOptions.setPassword()` ก่อนบันทึก  
+- **คลาสใดควบคุมการตั้งค่าการบันทึก OOXML?** `OoxmlSaveOptions` (ส่วนหนึ่งของ Aspose.Words)  
+- **ฉันต้องมีลิขสิทธิ์สำหรับการป้องกันด้วยรหัสผ่านหรือไม่?** จำเป็นต้องมีลิขสิทธิ์ Aspose.Words ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต  
+- **ฉันสามารถรวมการเข้ารหัสกับการตั้งค่าการปฏิบัติตามมาตรฐานได้หรือไม่?** แน่นอน – ตั้งค่า `setPassword` และ `setCompliance` บนอินสแตนซ์ `OoxmlSaveOptions` เดียวกัน  
+- **ระดับการบีบอัดที่มีให้เลือกมีอะไรบ้าง?** `NORMAL`, `SUPER_FAST` และ `MAXIMUM` ผ่าน `CompressionLevel`
 
-ในคู่มือนี้ เราจะอธิบายวิธีการบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java OOXML (Office Open XML) เป็นรูปแบบไฟล์ที่ใช้โดย Microsoft Word และแอปพลิเคชัน Office อื่นๆ เราจะกล่าวถึงตัวเลือกและการตั้งค่าต่างๆ สำหรับการบันทึกเอกสารในรูปแบบ OOXML
+## “encrypt docx with password” คืออะไร?
+การเข้ารหัสไฟล์ DOCX หมายความว่าข้อมูลภายในไฟล์จะถูกเก็บในรูปแบบที่เข้ารหัสและสามารถเปิดได้เฉพาะเมื่อป้อนรหัสผ่านที่ถูกต้องเท่านั้น การทำเช่นนี้ช่วยปกป้องข้อมูลที่สำคัญจากการเข้าถึงโดยไม่ได้รับอนุญาต ในขณะเดียวกันยังคงให้เครื่องมือ Word มาตรฐานเปิดไฟล์ได้เมื่อมีการใส่รหัสผ่าน
+
+## ทำไมต้องใช้ Aspose.Words save options สำหรับการเข้ารหัส?
+Aspose.Words มี **aspose words save options** ที่หลากหลาย ช่วยให้คุณควบคุมไม่เพียงแต่การเข้ารหัสเท่านั้น แต่รวมถึงระดับการปฏิบัติตามมาตรฐาน, การบีบอัด, และการจัดการอักขระควบคุมแบบเก่า—all จากโค้ด Java นี้ทำให้ไม่ต้องพึ่งพาการประมวลผลหลังการบันทึกหรือเครื่องมือของบุคคลที่สาม
 
 ## ข้อกำหนดเบื้องต้น
+- Java Development Kit (JDK 8 หรือสูงกว่า)  
+- ไลบรารี Aspose.Words for Java ที่เพิ่มเข้าไปในโปรเจกต์ของคุณ (Maven/Gradle หรือ JAR)  
+- ลิขสิทธิ์ Aspose.Words ที่ถูกต้องสำหรับการผลิต (ไม่บังคับสำหรับการทดลอง)
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไลบรารี Aspose.Words สำหรับ Java ในโปรเจ็กต์ของคุณแล้ว
+## การบันทึกเอกสารพร้อมการเข้ารหัสด้วยรหัสผ่าน
 
-## การบันทึกเอกสารด้วยการเข้ารหัสรหัสผ่าน
-
-คุณสามารถเข้ารหัสเอกสารด้วยรหัสผ่านในขณะที่บันทึกเป็นรูปแบบ OOXML ได้ โดยทำได้ดังนี้:
+คุณสามารถเข้ารหัสเอกสารของคุณด้วยรหัสผ่านขณะบันทึกในรูปแบบ OOXML ได้ ตามขั้นตอนต่อไปนี้:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// โหลดเอกสาร
+// Load the document
 Document doc = new Document("Document.docx");
 
-// สร้าง OoxmlSaveOptions และตั้งรหัสผ่าน
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// บันทึกเอกสารด้วยการเข้ารหัส
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## การตั้งค่าการปฏิบัติตาม OOXML
+## การตั้งค่าการปฏิบัติตามมาตรฐาน OOXML
 
-คุณสามารถระบุระดับการปฏิบัติตาม OOXML ได้เมื่อบันทึกเอกสาร ตัวอย่างเช่น คุณสามารถตั้งค่าเป็น ISO 29500:2008 (เข้มงวด) ได้ ดังต่อไปนี้:
+คุณสามารถระบุระดับการปฏิบัติตามมาตรฐาน OOXML เมื่อบันทึกเอกสาร ตัวอย่างเช่น ตั้งค่าเป็น ISO 29500:2008 (Strict) ตามนี้:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +66,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// โหลดเอกสาร
+// Load the document
 Document doc = new Document("Document.docx");
 
-// เพิ่มประสิทธิภาพสำหรับ Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// สร้าง OoxmlSaveOptions และกำหนดระดับการปฏิบัติตาม
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// บันทึกเอกสารด้วยการตั้งค่าการปฏิบัติตาม
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## การอัปเดตคุณสมบัติเวลาที่บันทึกล่าสุด
+## การอัปเดตคุณสมบัติ “Last Saved Time”
 
-คุณสามารถเลือกอัปเดตคุณสมบัติ "เวลาที่บันทึกล่าสุด" ของเอกสารได้เมื่อบันทึก โดยทำดังนี้:
+คุณสามารถเลือกให้ระบบอัปเดตคุณสมบัติ “Last Saved Time” ของเอกสารเมื่อบันทึกได้ ตามนี้:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// โหลดเอกสาร
+// Load the document
 Document doc = new Document("Document.docx");
 
-// สร้าง OoxmlSaveOptions และเปิดใช้งานการอัปเดตคุณสมบัติเวลาที่บันทึกล่าสุด
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// บันทึกเอกสารด้วยคุณสมบัติที่อัปเดต
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## การรักษาตัวละครควบคุมดั้งเดิม
+## การคงอักขระควบคุมแบบเก่า
 
-หากเอกสารของคุณมีอักขระควบคุมแบบเก่า คุณสามารถเลือกที่จะเก็บอักขระเหล่านี้ไว้ขณะบันทึกได้ ดังต่อไปนี้:
+หากเอกสารของคุณมีอักขระควบคุมแบบเก่า คุณสามารถเลือกคงไว้ขณะบันทึกได้ ตามนี้:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// โหลดเอกสารด้วยอักขระควบคุมแบบเดิม
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// สร้าง OoxmlSaveOptions ด้วยรูปแบบ FLAT_OPC และเปิดใช้งานการเก็บอักขระควบคุมแบบเดิม
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// บันทึกเอกสารด้วยอักขระควบคุมแบบเดิม
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
 ## การตั้งค่าระดับการบีบอัด
 
-คุณสามารถปรับระดับการบีบอัดเมื่อบันทึกเอกสารได้ ตัวอย่างเช่น คุณสามารถตั้งค่าเป็น SUPER_FAST เพื่อการบีบอัดขั้นต่ำ ดังต่อไปนี้:
+คุณสามารถปรับระดับการบีบอัดเมื่อบันทึกเอกสาร ตัวอย่างเช่น ตั้งค่าเป็น **SUPER_FAST** เพื่อบีบอัดน้อยที่สุด ตามนี้:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// โหลดเอกสาร
+// Load the document
 Document doc = new Document("Document.docx");
 
-// สร้าง OoxmlSaveOptions และตั้งค่าระดับการบีบอัด
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// บันทึกเอกสารด้วยระดับการบีบอัดที่ระบุ
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-เหล่านี้คือตัวเลือกและการตั้งค่าหลักบางส่วนที่คุณสามารถใช้เมื่อบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java อย่าลังเลที่จะสำรวจตัวเลือกเพิ่มเติมและปรับแต่งกระบวนการบันทึกเอกสารของคุณตามต้องการ
+เหล่านี้เป็นตัวเลือกและการตั้งค่าที่สำคัญบางส่วนที่คุณสามารถใช้เมื่อบันทึกเอกสารในรูปแบบ OOXML ด้วย Aspose.Words for Java อย่าลังเลที่จะสำรวจตัวเลือกเพิ่มเติมและปรับแต่งกระบวนการบันทึกเอกสารของคุณตามต้องการ
 
-## โค้ดต้นฉบับที่สมบูรณ์สำหรับการบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words สำหรับ Java
+## โค้ดเต็มสำหรับการบันทึกเอกสารเป็นรูปแบบ OOXML ใน Aspose.Words for Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,31 +181,37 @@ public void setCompressionLevel() throws Exception
 }
 ```
 
-## บทสรุป
+## สรุป
 
-ในคู่มือฉบับสมบูรณ์นี้ เราได้อธิบายวิธีการบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java ไม่ว่าคุณจะต้องเข้ารหัสเอกสารด้วยรหัสผ่าน ตรวจสอบให้แน่ใจว่าเป็นไปตามมาตรฐาน OOXML เฉพาะ อัปเดตคุณสมบัติของเอกสาร รักษาอักขระควบคุมแบบเดิม หรือปรับระดับการบีบอัด Aspose.Words ก็มีชุดเครื่องมืออเนกประสงค์ที่ตอบสนองความต้องการของคุณ
+ในคู่มือฉบับครอบคลุมนี้ เราได้สำรวจ **วิธีการเข้ารหัส docx ด้วยรหัสผ่าน** และการปรับแต่งตัวเลือกการบันทึก OOXML ต่าง ๆ ด้วย Aspose.Words for Java ไม่ว่าคุณจะต้องการปกป้องเนื้อหาที่เป็นความลับ, ปฏิบัติตามมาตรฐาน ISO อย่างเคร่งครัด, รักษาอักขระควบคุมแบบเก่า, หรือควบคุมการบีบอัด ไลบรารีนี้ให้คุณควบคุมได้อย่างละเอียดผ่าน API `OoxmlSaveOptions` เดียวกัน
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะลบการป้องกันด้วยรหัสผ่านจากเอกสารที่ป้องกันด้วยรหัสผ่านได้อย่างไร
+**ถาม: ฉันจะลบการป้องกันด้วยรหัสผ่านจากเอกสารที่มีการป้องกันอย่างไร?**  
+ตอบ: เปิดเอกสารด้วยรหัสผ่านที่ถูกต้องแล้วบันทึกใหม่โดยไม่เรียก `setPassword` ไฟล์ใหม่จะไม่มีการป้องกัน
 
-หากต้องการลบการป้องกันด้วยรหัสผ่านออกจากเอกสารที่ป้องกันด้วยรหัสผ่าน คุณสามารถเปิดเอกสารด้วยรหัสผ่านที่ถูกต้อง จากนั้นบันทึกโดยไม่ต้องระบุรหัสผ่านในตัวเลือกบันทึก การทำเช่นนี้จะบันทึกเอกสารโดยไม่ต้องป้องกันด้วยรหัสผ่าน
+**ถาม: ฉันสามารถตั้งค่าคุณสมบัติเฉพาะเมื่อบันทึกเอกสารในรูปแบบ OOXML ได้หรือไม่?**  
+ตอบ: ได้ ใช้ `BuiltInDocumentProperties` หรือ `CustomDocumentProperties` บนวัตถุ `Document` ก่อนเรียก `save`
 
-### ฉันสามารถตั้งค่าคุณสมบัติแบบกำหนดเองเมื่อบันทึกเอกสารในรูปแบบ OOXML ได้หรือไม่
+**ถาม: ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML คืออะไร?**  
+ตอบ: ค่าเริ่มต้นคือ `NORMAL` คุณสามารถสลับเป็น `SUPER_FAST` เพื่อความเร็วหรือ `MAXIMUM` เพื่อขนาดไฟล์ที่เล็กลง
 
-ใช่ คุณสามารถตั้งค่าคุณสมบัติแบบกำหนดเองสำหรับเอกสารก่อนบันทึกเป็นรูปแบบ OOXML ได้ ใช้ `BuiltInDocumentProperties` และ `CustomDocumentProperties` คลาสที่จะตั้งค่าคุณสมบัติต่างๆ เช่น ผู้แต่ง ชื่อเรื่อง คำสำคัญ และคุณสมบัติแบบกำหนดเอง
+**ถาม: ตัวเลือกการบันทึก aspose words ทำงานกับเวอร์ชัน Word เก่าได้หรือไม่?**  
+ตอบ: ได้ โดยการปรับ `MsWordVersion` และการตั้งค่าการปฏิบัติตามมาตรฐาน คุณสามารถกำหนดเป้าหมายเป็น Word 2007‑2019 และรับประกันความเข้ากันได้
 
-### ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML คืออะไร
+**ถาม: สามารถรวมหลายตัวเลือกการบันทึกในหนึ่งการดำเนินการได้หรือไม่?**  
+ตอบ: แน่นอน สร้างอินสแตนซ์ `OoxmlSaveOptions` ตัวเดียว ตั้งค่าทุกคุณสมบัติที่ต้องการ (รหัสผ่าน, การปฏิบัติตาม, การบีบอัด ฯลฯ) แล้วส่งให้ `doc.save()`
 
-ระดับการบีบอัดเริ่มต้นเมื่อบันทึกเอกสารในรูปแบบ OOXML โดยใช้ Aspose.Words สำหรับ Java คือ `NORMAL`. คุณสามารถเปลี่ยนระดับการบีบอัดได้ `SUPER_FAST` หรือ `MAXIMUM` ตามความจำเป็น.
+---
 
+**อัปเดตล่าสุด:** 2025-12-29  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

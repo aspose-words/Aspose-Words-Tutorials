@@ -1,10 +1,13 @@
 ---
-"description": "Узнайте, как сохранять документы в формате OOXML с помощью Aspose.Words для Java. Защищайте, оптимизируйте и настраивайте свои файлы без усилий."
-"linktitle": "Сохранение документов в формате OOXML"
-"second_title": "API обработки документов Java Aspose.Words"
-"title": "Сохранение документов в формате OOXML в Aspose.Words для Java"
-"url": "/ru/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: Узнайте, как зашифровать DOCX паролем с помощью параметров сохранения
+  Aspose.Words для Java. Обеспечьте безопасность, оптимизируйте и настраивайте свои
+  файлы OOXML без усилий.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Как зашифровать DOCX с паролем с помощью Aspose.Words для Java
+url: /ru/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +16,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Сохранение документов в формате OOXML в Aspose.Words для Java
+# Как зашифровать DOCX с паролем с помощью Aspose.Words for Java
 
+В этом руководстве вы узнаете **как зашифровать docx с паролем** при сохранении документов в формате OOXML с помощью Aspose.Words for Java. Защищая конфиденциальные отчёты или обеспечивая безопасность черновиков контрактов, ниже приведённые шаги покажут, как точно применить защиту паролем и тонко настроить другие параметры сохранения OOXML.
 
-## Введение в сохранение документов в формате OOXML в Aspose.Words для Java
+## Быстрые ответы
+- **Can I encrypt a DOCX file with a password?** Да, используйте `OoxmlSaveOptions.setPassword()` перед сохранением.  
+- **Which class controls OOXML save settings?** `OoxmlSaveOptions` (часть Aspose.Words).  
+- **Do I need a license for password protection?** Для использования в продакшене требуется действующая лицензия Aspose.Words.  
+- **Can I combine encryption with compliance settings?** Конечно – задайте одновременно `setPassword` и `setCompliance` в одном экземпляре `OoxmlSaveOptions`.  
+- **What compression levels are available?** `NORMAL`, `SUPER_FAST` и `MAXIMUM` через `CompressionLevel`.
 
-В этом руководстве мы рассмотрим, как сохранять документы в формате OOXML с помощью Aspose.Words for Java. OOXML (Office Open XML) — это формат файла, используемый Microsoft Word и другими офисными приложениями. Мы рассмотрим различные параметры и настройки для сохранения документов в формате OOXML.
+## Что означает “encrypt docx with password”?
+Шифрование файла DOCX означает, что содержимое файла хранится в зашифрованном виде и может быть открыто только после ввода правильного пароля. Это защищает конфиденциальную информацию от неавторизованного доступа, при этом стандартные инструменты Word могут открыть файл, как только пароль будет предоставлен.
 
-## Предпосылки
+## Почему использовать параметры сохранения Aspose.Words для шифрования?
+Aspose.Words предоставляет обширный набор **aspose words save options**, позволяющий управлять не только шифрованием, но и уровнями соответствия, сжатием и обработкой устаревших управляющих символов — всё из Java‑кода. Это устраняет необходимость в ручной пост‑обработке или сторонних инструментах.
 
-Прежде чем начать, убедитесь, что в вашем проекте настроена библиотека Aspose.Words for Java.
+## Требования
+- Java Development Kit (JDK 8 или выше)  
+- Библиотека Aspose.Words for Java, добавленная в ваш проект (Maven/Gradle или JAR)  
+- Действительная лицензия Aspose.Words для продакшена (необязательно для оценки)
 
 ## Сохранение документа с шифрованием паролем
 
-Вы можете зашифровать свой документ паролем, сохраняя его в формате OOXML. Вот как это можно сделать:
+Вы можете зашифровать документ паролем при сохранении его в формате OOXML. Вот как это сделать:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Загрузить документ
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Создайте OoxmlSaveOptions и установите пароль
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// Сохраните документ с шифрованием
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## Настройка соответствия OOXML
+## Установка соответствия OOXML
 
-Вы можете указать уровень соответствия OOXML при сохранении документа. Например, вы можете установить его на ISO 29500:2008 (Strict). Вот как это сделать:
+Можно указать уровень соответствия OOXML при сохранении документа. Например, можно установить ISO 29500:2008 (Strict). Вот как:
 
 ```java
 import com.aspose.words.Document;
@@ -53,40 +67,40 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// Загрузить документ
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Оптимизировать для Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Создайте OoxmlSaveOptions и установите уровень соответствия
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Сохраните документ с настройкой соответствия
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Обновление свойства последнего сохраненного времени
+## Обновление свойства «Last Saved Time»
 
-Вы можете выбрать обновление свойства "Время последнего сохранения" документа при его сохранении. Вот как это сделать:
+Можно выбрать обновление свойства «Last Saved Time» документа при сохранении. Вот как:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Загрузить документ
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Создайте OoxmlSaveOptions и включите обновление свойства «Время последнего сохранения».
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// Сохраните документ с обновленным свойством.
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## Сохранение старых управляющих персонажей
+## Сохранение устаревших управляющих символов
 
 Если ваш документ содержит устаревшие управляющие символы, вы можете сохранить их при сохранении. Вот как:
 
@@ -95,40 +109,40 @@ import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// Загрузите документ с устаревшими управляющими символами
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Создайте OoxmlSaveOptions с форматом FLAT_OPC и включите сохранение устаревших управляющих символов.
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Сохраните документ с использованием устаревших управляющих символов.
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
 ## Установка уровня сжатия
 
-Вы можете настроить уровень сжатия при сохранении документа. Например, вы можете установить его на SUPER_FAST для минимального сжатия. Вот как:
+Можно регулировать уровень сжатия при сохранении документа. Например, можно установить **SUPER_FAST** для минимального сжатия. Вот как:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// Загрузить документ
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Создайте OoxmlSaveOptions и установите уровень сжатия
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// Сохраните документ с указанным уровнем сжатия.
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Вот некоторые из основных параметров и настроек, которые вы можете использовать при сохранении документов в формате OOXML с помощью Aspose.Words for Java. Не стесняйтесь изучать дополнительные параметры и настраивать процесс сохранения документов по мере необходимости.
+Это некоторые из ключевых параметров и настроек, которые вы можете использовать при сохранении документов в формате OOXML с помощью Aspose.Words for Java. Не стесняйтесь исследовать дополнительные возможности и настраивать процесс сохранения документов по мере необходимости.
 
-## Полный исходный код для сохранения документов в формате OOXML в Aspose.Words для Java
+## Полный исходный код для сохранения документов в формате OOXML с помощью Aspose.Words for Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -170,29 +184,35 @@ public void setCompressionLevel() throws Exception
 
 ## Заключение
 
-В этом подробном руководстве мы рассмотрели, как сохранять документы в формате OOXML с помощью Aspose.Words для Java. Если вам нужно зашифровать документы с помощью паролей, обеспечить соответствие определенным стандартам OOXML, обновить свойства документа, сохранить устаревшие управляющие символы или настроить уровни сжатия, Aspose.Words предоставляет универсальный набор инструментов для удовлетворения ваших требований.
+В этом полном руководстве мы рассмотрели, как **encrypt docx with password** и тонко настроить набор параметров сохранения OOXML с помощью Aspose.Words for Java. Независимо от того, нужно ли вам защитить конфиденциальное содержание, соответствовать строгим требованиям ISO, сохранить устаревшие символы или управлять сжатием, библиотека предоставляет детальный контроль через один и тот же API `OoxmlSaveOptions`.
 
 ## Часто задаваемые вопросы
 
-### Как снять защиту паролем с защищенного паролем документа?
+**Q: Как удалить защиту паролем из документа, защищённого паролем?**  
+A: Откройте документ, указав правильный пароль, затем сохраните его снова без вызова `setPassword`. Новый файл будет незащищённым.
 
-Чтобы снять защиту паролем с документа, защищенного паролем, вы можете открыть документ с правильным паролем, а затем сохранить его, не указывая пароль в параметрах сохранения. Это сохранит документ без защиты паролем.
+**Q: Можно ли задать пользовательские свойства при сохранении документа в формате OOXML?**  
+A: Да. Используйте `BuiltInDocumentProperties` или `CustomDocumentProperties` у объекта `Document` перед вызовом `save`.
 
-### Можно ли задать пользовательские свойства при сохранении документа в формате OOXML?
+**Q: Какой уровень сжатия используется по умолчанию при сохранении документа в формате OOXML?**  
+A: По умолчанию — `NORMAL`. Вы можете переключиться на `SUPER_FAST` для скорости или `MAXIMUM` для меньшего размера файла.
 
-Да, вы можете задать пользовательские свойства для документа перед сохранением его в формате OOXML. Используйте `BuiltInDocumentProperties` и `CustomDocumentProperties` классы для установки различных свойств, таких как автор, заголовок, ключевые слова и пользовательские свойства.
+**Q: Работают ли параметры сохранения aspose words с более старыми версиями Word?**  
+A: Да. Настраивая `MsWordVersion` и параметры соответствия, можно целиться в Word 2007‑2019 и обеспечить совместимость.
 
-### Какой уровень сжатия используется по умолчанию при сохранении документа в формате OOXML?
+**Q: Можно ли объединить несколько параметров сохранения в одной операции?**  
+A: Абсолютно. Создайте один экземпляр `OoxmlSaveOptions`, задайте все нужные свойства (пароль, соответствие, сжатие и т.д.) и передайте его в `doc.save()`.
 
-Уровень сжатия по умолчанию при сохранении документа в формате OOXML с помощью Aspose.Words для Java составляет `NORMAL`. Вы можете изменить уровень сжатия на `SUPER_FAST` или `MAXIMUM` по мере необходимости.
+---
 
+**Последнее обновление:** 2025-12-29  
+**Тестировано с:** Aspose.Words for Java 24.12  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

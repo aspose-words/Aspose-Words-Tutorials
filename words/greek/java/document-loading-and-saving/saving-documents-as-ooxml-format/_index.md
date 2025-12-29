@@ -1,10 +1,14 @@
 ---
-"description": "Μάθετε πώς να αποθηκεύετε έγγραφα σε μορφή OOXML με το Aspose.Words για Java. Ασφαλίστε, βελτιστοποιήστε και προσαρμόστε τα αρχεία σας χωρίς κόπο."
-"linktitle": "Αποθήκευση εγγράφων σε μορφή OOXML"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Αποθήκευση εγγράφων σε μορφή OOXML στο Aspose.Words για Java"
-"url": "/el/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: Μάθετε πώς να κρυπτογραφήσετε ένα αρχείο docx με κωδικό πρόσβασης χρησιμοποιώντας
+  τις επιλογές αποθήκευσης του Aspose.Words for Java. Ασφαλίστε, βελτιστοποιήστε και
+  προσαρμόστε τα αρχεία OOXML σας χωρίς κόπο.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Πώς να κρυπτογραφήσετε DOCX με κωδικό πρόσβασης χρησιμοποιώντας το Aspose.Words
+  για Java
+url: /el/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +17,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αποθήκευση εγγράφων σε μορφή OOXML στο Aspose.Words για Java
+# Πώς να κρυπτογραφήσετε DOCX με κωδικό πρόσβασης χρησιμοποιώντας το Aspose.Words για Java
 
+Σε αυτόν τον οδηγό θα ανακαλύψετε **πώς να κρυπτογραφήσετε docx με κωδικό πρόσβασης** κατά την αποθήκευση εγγράφων σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java. Είτε προστατεύετε εμπιστευτικές αναφορές είτε ασφαλίζετε σχέδια συμβάσεων, τα παρακάτω βήματα δείχνουν ακριβώς πώς να εφαρμόσετε προστασία με κωδικό πρόσβασης και να ρυθμίσετε λεπτομερώς άλλες επιλογές αποθήκευσης OOXML.
 
-## Εισαγωγή στην αποθήκευση εγγράφων σε μορφή OOXML στο Aspose.Words για Java
+## Γρήγορες Απαντήσεις
+- **Μπορώ να κρυπτογραφήσω ένα αρχείο DOCX με κωδικό πρόσβασης;** Ναι, χρησιμοποιήστε `OoxmlSaveOptions.setPassword()` πριν από την αποθήκευση.  
+- **Ποια κλάση ελέγχει τις ρυθμίσεις αποθήκευσης OOXML;** `OoxmlSaveOptions` (μέρος του Aspose.Words).  
+- **Χρειάζομαι άδεια για την προστασία με κωδικό πρόσβασης;** Απαιτείται έγκυρη άδεια Aspose.Words για παραγωγική χρήση.  
+- **Μπορώ να συνδυάσω κρυπτογράφηση με ρυθμίσεις συμμόρφωσης;** Απόλυτα – ορίστε τόσο `setPassword` όσο και `setCompliance` στην ίδια παρουσία `OoxmlSaveOptions`.  
+- **Ποια επίπεδα συμπίεσης είναι διαθέσιμα;** `NORMAL`, `SUPER_FAST` και `MAXIMUM` μέσω `CompressionLevel`.
 
-Σε αυτόν τον οδηγό, θα εξερευνήσουμε πώς να αποθηκεύσετε έγγραφα σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java. Το OOXML (Office Open XML) είναι μια μορφή αρχείου που χρησιμοποιείται από το Microsoft Word και άλλες εφαρμογές γραφείου. Θα καλύψουμε διάφορες επιλογές και ρυθμίσεις για την αποθήκευση εγγράφων σε μορφή OOXML.
+## Τι σημαίνει “encrypt docx with password”;
+Η κρυπτογράφηση ενός αρχείου DOCX σημαίνει ότι τα περιεχόμενα του αρχείου αποθηκεύονται σε κρυπτογραφημένη μορφή και μπορούν να ανοιχτούν μόνο μετά την εισαγωγή του σωστού κωδικού πρόσβασης. Αυτό προστατεύει ευαίσθητες πληροφορίες από μη εξουσιοδοτημένη πρόσβαση, ενώ εξακολουθεί να επιτρέπει στα τυπικά εργαλεία του Word να ανοίξουν το αρχείο μόλις δοθεί ο κωδικός.
+
+## Γιατί να χρησιμοποιήσετε τις επιλογές αποθήκευσης του Aspose.Words για κρυπτογράφηση;
+Το Aspose.Words παρέχει ένα πλούσιο σύνολο **aspose words save options** που σας επιτρέπει να ελέγχετε όχι μόνο την κρυπτογράφηση, αλλά και τα επίπεδα συμμόρφωσης, τη συμπίεση και τη διαχείριση παλαιών χαρακτήρων – όλα από κώδικα Java. Αυτό εξαλείφει την ανάγκη για χειροκίνητη επεξεργασία ή εξωτερικά εργαλεία τρίτων.
 
 ## Προαπαιτούμενα
+- Java Development Kit (JDK 8 ή νεότερο)  
+- Βιβλιοθήκη Aspose.Words για Java προστιθέμενη στο έργο σας (Maven/Gradle ή JAR)  
+- Έγκυρη άδεια Aspose.Words για παραγωγική χρήση (προαιρετική για αξιολόγηση)
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τη βιβλιοθήκη Aspose.Words για Java στο έργο σας.
+## Αποθήκευση Εγγράφου με Κρυπτογράφηση Κωδικού Πρόσβασης
 
-## Αποθήκευση εγγράφου με κρυπτογράφηση με κωδικό πρόσβασης
-
-Μπορείτε να κρυπτογραφήσετε το έγγραφό σας με κωδικό πρόσβασης ενώ το αποθηκεύετε σε μορφή OOXML. Δείτε πώς μπορείτε να το κάνετε:
+Μπορείτε να κρυπτογραφήσετε το έγγραφό σας με κωδικό πρόσβασης κατά την αποθήκευση του σε μορφή OOXML. Δείτε πώς:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Δημιουργήστε το OoxmlSaveOptions και ορίστε τον κωδικό πρόσβασης
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// Αποθήκευση του εγγράφου με κρυπτογράφηση
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## Ρύθμιση συμμόρφωσης με το OOXML
+## Ορισμός Συμμόρφωσης OOXML
 
-Μπορείτε να καθορίσετε το επίπεδο συμμόρφωσης με το OOXML κατά την αποθήκευση του εγγράφου. Για παράδειγμα, μπορείτε να το ορίσετε σε ISO 29500:2008 (Αυστηρό). Δείτε πώς:
+Μπορείτε να καθορίσετε το επίπεδο συμμόρφωσης OOXML κατά την αποθήκευση του εγγράφου. Για παράδειγμα, μπορείτε να το ορίσετε σε ISO 29500:2008 (Strict). Δείτε πώς:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +68,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Βελτιστοποίηση για το Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Δημιουργήστε το OoxmlSaveOptions και ορίστε το επίπεδο συμμόρφωσης
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Αποθήκευση του εγγράφου με ρύθμιση συμμόρφωσης
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Ενημέρωση ιδιότητας τελευταίας αποθηκευμένης ώρας
+## Ενημέρωση Ιδιότητας “Τελευταία Αποθήκευση”
 
-Μπορείτε να επιλέξετε να ενημερώσετε την ιδιότητα "Τελευταία αποθηκευμένη ώρα" του εγγράφου κατά την αποθήκευσή του. Δείτε πώς:
+Μπορείτε να επιλέξετε την ενημέρωση της ιδιότητας «Τελευταία Αποθήκευση» του εγγράφου κατά την αποθήκευση. Δείτε πώς:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Δημιουργήστε το OoxmlSaveOptions και ενεργοποιήστε την ενημέρωση της ιδιότητας Last Saved Time (Τελευταία αποθηκευμένη ώρα)
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// Αποθηκεύστε το έγγραφο με την ενημερωμένη ιδιότητα
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## Διατήρηση παλαιών χαρακτήρων ελέγχου
+## Διατήρηση Παλαιών Χαρακτήρων Ελέγχου
 
-Εάν το έγγραφό σας περιέχει χαρακτήρες ελέγχου παλαιού τύπου, μπορείτε να επιλέξετε να τους διατηρήσετε κατά την αποθήκευση. Δείτε πώς:
+Αν το έγγραφό σας περιέχει παλαιούς χαρακτήρες ελέγχου, μπορείτε να επιλέξετε να τους διατηρήσετε κατά την αποθήκευση. Δείτε πώς:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// Φόρτωση εγγράφου με χαρακτήρες ελέγχου παλαιού τύπου
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Δημιουργήστε το OoxmlSaveOptions με τη μορφή FLAT_OPC και ενεργοποιήστε τη διατήρηση παλαιών χαρακτήρων ελέγχου
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Αποθήκευση του εγγράφου με χαρακτήρες ελέγχου παλαιού τύπου
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## Ρύθμιση επιπέδου συμπίεσης
+## Ορισμός Επιπέδου Συμπίεσης
 
-Μπορείτε να προσαρμόσετε το επίπεδο συμπίεσης κατά την αποθήκευση του εγγράφου. Για παράδειγμα, μπορείτε να το ορίσετε σε SUPER_FAST για ελάχιστη συμπίεση. Δείτε πώς:
+Μπορείτε να ρυθμίσετε το επίπεδο συμπίεσης κατά την αποθήκευση του εγγράφου. Για παράδειγμα, μπορείτε να το ορίσετε σε **SUPER_FAST** για ελάχιστη συμπίεση. Δείτε πώς:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Δημιουργήστε το OoxmlSaveOptions και ορίστε το επίπεδο συμπίεσης
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// Αποθηκεύστε το έγγραφο με το καθορισμένο επίπεδο συμπίεσης
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Αυτές είναι μερικές από τις βασικές επιλογές και ρυθμίσεις που μπορείτε να χρησιμοποιήσετε κατά την αποθήκευση εγγράφων σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java. Μη διστάσετε να εξερευνήσετε περισσότερες επιλογές και να προσαρμόσετε τη διαδικασία αποθήκευσης εγγράφων σας, όπως απαιτείται.
+Αυτές είναι μερικές από τις βασικές επιλογές και ρυθμίσεις που μπορείτε να χρησιμοποιήσετε όταν αποθηκεύετε έγγραφα σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java. Εξερευνήστε περισσότερες επιλογές και προσαρμόστε τη διαδικασία αποθήκευσης του εγγράφου σας όπως χρειάζεται.
 
-## Πλήρης πηγαίος κώδικας για την αποθήκευση εγγράφων σε μορφή OOXML στο Aspose.Words για Java
+## Πλήρης Πηγαίος Κώδικας για Αποθήκευση Εγγράφων σε Μορφή OOXML στο Aspose.Words για Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,31 +183,37 @@ public void setCompressionLevel() throws Exception
 }
 ```
 
-## Σύναψη
+## Συμπέρασμα
 
-Σε αυτόν τον ολοκληρωμένο οδηγό, έχουμε εξερευνήσει τον τρόπο αποθήκευσης εγγράφων σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java. Είτε χρειάζεται να κρυπτογραφήσετε τα έγγραφά σας με κωδικούς πρόσβασης, να διασφαλίσετε τη συμμόρφωση με συγκεκριμένα πρότυπα OOXML, να ενημερώσετε τις ιδιότητες του εγγράφου, να διατηρήσετε παλαιούς χαρακτήρες ελέγχου ή να προσαρμόσετε τα επίπεδα συμπίεσης, το Aspose.Words παρέχει ένα ευέλικτο σύνολο εργαλείων για να καλύψει τις απαιτήσεις σας.
+Σε αυτόν τον ολοκληρωμένο οδηγό, εξετάσαμε πώς να **encrypt docx with password** και να ρυθμίσουμε λεπτομερώς μια σειρά από επιλογές αποθήκευσης OOXML χρησιμοποιώντας το Aspose.Words για Java. Είτε χρειάζεστε προστασία εμπιστευτικού περιεχομένου, συμμόρφωση με αυστηρά πρότυπα ISO, διατήρηση παλαιών χαρακτήρων ή έλεγχο της συμπίεσης, η βιβλιοθήκη σας δίνει λεπτομερή έλεγχο μέσω του ίδιου API `OoxmlSaveOptions`.
 
-## Συχνές ερωτήσεις
+## Συχνές Ερωτήσεις
 
-### Πώς μπορώ να καταργήσω την προστασία με κωδικό πρόσβασης από ένα έγγραφο που προστατεύεται με κωδικό πρόσβασης;
+**Ε: Πώς αφαιρώ την προστασία κωδικού πρόσβασης από ένα έγγραφο που είναι προστατευμένο με κωδικό;**  
+Α: Ανοίξτε το έγγραφο με τον σωστό κωδικό πρόσβασης, στη συνέχεια αποθηκεύστε το ξανά χωρίς να καλέσετε `setPassword`. Το νέο αρχείο θα είναι απροστάτευτο.
 
-Για να καταργήσετε την προστασία με κωδικό πρόσβασης από ένα έγγραφο που προστατεύεται με κωδικό πρόσβασης, μπορείτε να ανοίξετε το έγγραφο με τον σωστό κωδικό πρόσβασης και, στη συνέχεια, να το αποθηκεύσετε χωρίς να καθορίσετε κωδικό πρόσβασης στις επιλογές αποθήκευσης. Αυτό θα αποθηκεύσει το έγγραφο χωρίς προστασία με κωδικό πρόσβασης.
+**Ε: Μπορώ να ορίσω προσαρμοσμένες ιδιότητες κατά την αποθήκευση ενός εγγράφου σε μορφή OOXML;**  
+Α: Ναι. Χρησιμοποιήστε `BuiltInDocumentProperties` ή `CustomDocumentProperties` στο αντικείμενο `Document` πριν καλέσετε `save`.
 
-### Μπορώ να ορίσω προσαρμοσμένες ιδιότητες κατά την αποθήκευση ενός εγγράφου σε μορφή OOXML;
+**Ε: Ποιο είναι το προεπιλεγμένο επίπεδο συμπίεσης όταν αποθηκεύεται ένα έγγραφο σε μορφή OOXML;**  
+Α: Το προεπιλεγμένο είναι `NORMAL`. Μπορείτε να μεταβείτε σε `SUPER_FAST` για ταχύτητα ή `MAXIMUM` για μικρότερο μέγεθος αρχείου.
 
-Ναι, μπορείτε να ορίσετε προσαρμοσμένες ιδιότητες για ένα έγγραφο πριν το αποθηκεύσετε σε μορφή OOXML. Χρησιμοποιήστε το `BuiltInDocumentProperties` και `CustomDocumentProperties` κλάσεις για να ορίσετε διάφορες ιδιότητες όπως συγγραφέα, τίτλο, λέξεις-κλειδιά και προσαρμοσμένες ιδιότητες.
+**Ε: Οι aspose words save options λειτουργούν με παλαιότερες εκδόσεις του Word;**  
+Α: Ναι. Με την προσαρμογή του `MsWordVersion` και των ρυθμίσεων συμμόρφωσης, μπορείτε να στοχεύσετε Word 2007‑2019 και να εξασφαλίσετε συμβατότητα.
 
-### Ποιο είναι το προεπιλεγμένο επίπεδο συμπίεσης κατά την αποθήκευση ενός εγγράφου σε μορφή OOXML;
+**Ε: Είναι δυνατόν να συνδυάσω πολλαπλές επιλογές αποθήκευσης σε μία ενέργεια;**  
+Α: Απόλυτα. Δημιουργήστε μία παρουσία `OoxmlSaveOptions`, ορίστε όλες τις επιθυμητές ιδιότητες (κωδικός, συμμόρφωση, συμπίεση κ.λπ.) και περάστε την στο `doc.save()`.
 
-Το προεπιλεγμένο επίπεδο συμπίεσης κατά την αποθήκευση ενός εγγράφου σε μορφή OOXML χρησιμοποιώντας το Aspose.Words για Java είναι `NORMAL`Μπορείτε να αλλάξετε το επίπεδο συμπίεσης σε `SUPER_FAST` ή `MAXIMUM` όπως απαιτείται.
+---
 
+**Τελευταία ενημέρωση:** 2025-12-29  
+**Δοκιμασμένο με:** Aspose.Words για Java 24.12  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

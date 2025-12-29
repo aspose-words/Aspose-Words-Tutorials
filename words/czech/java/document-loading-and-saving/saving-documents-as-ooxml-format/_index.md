@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak ukládat dokumenty ve formátu OOXML pomocí Aspose.Words pro Javu. Zabezpečte, optimalizujte a upravte své soubory bez námahy."
-"linktitle": "Ukládání dokumentů ve formátu OOXML"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Ukládání dokumentů ve formátu OOXML v Aspose.Words pro Javu"
-"url": "/cs/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2025-12-29
+description: Naučte se, jak šifrovat soubory DOCX pomocí hesla s využitím možností
+  uložení Aspose.Words pro Java. Zabezpečte, optimalizujte a přizpůsobte své soubory
+  OOXML bez námahy.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Jak zašifrovat DOCX heslem pomocí Aspose.Words pro Javu
+url: /cs/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +16,50 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ukládání dokumentů ve formátu OOXML v Aspose.Words pro Javu
+# Jak zašifrovat DOCX pomocí hesla pomocí Aspose.Words pro Java
 
+V tomto průvodci se dozvíte **jak zašifrovat docx pomocí hesla** při ukládání dokumentů ve formátu OOXML pomocí Aspose.Words pro Java. Ať už chráníte důvěrné zprávy nebo zabezpečujete návrhy smluv, níže uvedené kroky vám přesně ukážou, jak použít ochranu heslem a doladit další možnosti ukládání OOXML.
 
-## Úvod do ukládání dokumentů ve formátu OOXML v Aspose.Words pro Javu
+## Rychlé odpovědi
+- **Mohu zašifrovat soubor DOCX pomocí hesla?** Ano, použijte `OoxmlSaveOptions.setPassword()` před uložením.  
+- **Která třída řídí nastavení ukládání OOXML?** `OoxmlSaveOptions` (součást Aspose.Words).  
+- **Potřebuji licenci pro ochranu heslem?** Platná licence Aspose.Words je vyžadována pro produkční použití.  
+- **Mohu kombinovat šifrování s nastavením souladu?** Ano – nastavte jak `setPassword`, tak `setCompliance` na stejném objektu `OoxmlSaveOptions`.  
+- **Jaké úrovně komprese jsou k dispozici?** `NORMAL`, `SUPER_FAST` a `MAXIMUM` prostřednictvím `CompressionLevel`.
 
-této příručce se podíváme na to, jak ukládat dokumenty ve formátu OOXML pomocí Aspose.Words pro Javu. OOXML (Office Open XML) je formát souborů používaný aplikací Microsoft Word a dalšími kancelářskými aplikacemi. Probereme různé možnosti a nastavení pro ukládání dokumentů ve formátu OOXML.
+## Co znamená „zašifrovat docx pomocí hesla“?
+Zašifrování souboru DOCX znamená, že obsah souboru je uložen v šifrované podobě a lze jej otevřít pouze po zadání správného hesla. To chrání citlivé informace před neoprávněným přístupem, přičemž standardní nástroje Wordu mohou soubor otevřít, jakmile je heslo zadáno.
 
-## Předpoklady
+## Proč použít možnosti ukládání Aspose.Words pro šifrování?
+Aspose.Words poskytuje bohatou sadu **aspose words save options**, které vám umožňují řídit nejen šifrování, ale také úrovně souladu, kompresi a zacházení se staršími znaky – vše z Java kódu. Tím se eliminuje potřeba ručního post‑processingu nebo nástrojů třetích stran.
 
-Než začneme, ujistěte se, že máte ve svém projektu nastavenou knihovnu Aspose.Words pro Javu.
+## Požadavky
+- Java Development Kit (JDK 8 nebo vyšší)  
+- Knihovna Aspose.Words pro Java přidaná do vašeho projektu (Maven/Gradle nebo JAR)  
+- Platná licence Aspose.Words pro produkci (volitelná pro hodnocení)
 
-## Uložení dokumentu se šifrováním heslem
+## Ukládání dokumentu s šifrováním heslem
 
-Dokument můžete zašifrovat heslem a zároveň jej uložit ve formátu OOXML. Postupujte takto:
+Můžete zašifrovat svůj dokument pomocí hesla při jeho ukládání ve formátu OOXML. Zde je postup:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Načíst dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Vytvořte OoxmlSaveOptions a nastavte heslo
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// Uložte dokument se šifrováním
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## Nastavení kompatibility s OOXML
+## Nastavení souladu OOXML
 
-Úroveň kompatibility s OOXML můžete zadat při ukládání dokumentu. Můžete ji například nastavit na ISO 29500:2008 (Strict). Postupujte takto:
+Můžete při ukládání dokumentu určit úroveň souladu OOXML. Například ji můžete nastavit na ISO 29500:2008 (Strict). Zde je postup:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +67,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// Načíst dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Optimalizovat pro Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Vytvořte OoxmlSaveOptions a nastavte úroveň shody s předpisy.
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Uložit dokument s nastavením shody s předpisy
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Aktualizace vlastnosti posledního uloženého času
+## Aktualizace vlastnosti „Poslední uložení“
 
-Při ukládání dokumentu si můžete zvolit aktualizaci jeho vlastnosti „Čas posledního uložení“. Postupujte takto:
+Můžete zvolit aktualizaci vlastnosti „Last Saved Time“ dokumentu při jeho ukládání. Zde je postup:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Načíst dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Vytvořte OoxmlSaveOptions a povolte aktualizaci vlastnosti Čas posledního uloženého souboru.
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// Uložte dokument s aktualizovanou vlastností
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
 ## Zachování starších řídicích znaků
 
-Pokud váš dokument obsahuje starší řídicí znaky, můžete si je při ukládání ponechat. Postupujte takto:
+Pokud váš dokument obsahuje starší řídicí znaky, můžete se rozhodnout je při ukládání zachovat. Zde je postup:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// Načtení dokumentu se staršími řídicími znaky
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Vytvořte OoxmlSaveOptions s formátem FLAT_OPC a povolte zachování starších řídicích znaků.
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Uložení dokumentu se staršími řídicími znaky
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
 ## Nastavení úrovně komprese
 
-Úroveň komprese můžete upravit při ukládání dokumentu. Můžete ji například nastavit na SUPER_FAST pro minimální kompresi. Zde je postup:
+Můžete při ukládání dokumentu upravit úroveň komprese. Například ji můžete nastavit na **SUPER_FAST** pro minimální kompresi. Zde je postup:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// Načíst dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Vytvořte OoxmlSaveOptions a nastavte úroveň komprese
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// Uložit dokument se zadanou úrovní komprese
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Zde jsou některé z klíčových možností a nastavení, které můžete použít při ukládání dokumentů ve formátu OOXML pomocí Aspose.Words pro Javu. Neváhejte prozkoumat další možnosti a přizpůsobit si proces ukládání dokumentů podle potřeby.
+Toto jsou některé z klíčových možností a nastavení, které můžete použít při ukládání dokumentů ve formátu OOXML pomocí Aspose.Words pro Java. Neváhejte prozkoumat další možnosti a přizpůsobit proces ukládání dokumentu podle potřeby.
 
-## Kompletní zdrojový kód pro ukládání dokumentů ve formátu OOXML v Aspose.Words pro Javu
+## Kompletní zdrojový kód pro ukládání dokumentů ve formátu OOXML v Aspose.Words pro Java
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -170,29 +184,35 @@ public void setCompressionLevel() throws Exception
 
 ## Závěr
 
-V této komplexní příručce jsme prozkoumali, jak ukládat dokumenty ve formátu OOXML pomocí Aspose.Words pro Javu. Ať už potřebujete šifrovat dokumenty pomocí hesel, zajistit soulad se specifickými standardy OOXML, aktualizovat vlastnosti dokumentu, zachovat starší řídicí znaky nebo upravit úrovně komprese, Aspose.Words poskytuje všestrannou sadu nástrojů, které splní vaše požadavky.
+V tomto komplexním průvodci jsme prozkoumali, jak **zašifrovat docx pomocí hesla** a doladit řadu možností ukládání OOXML pomocí Aspose.Words pro Java. Ať už potřebujete chránit důvěrný obsah, splnit přísné požadavky ISO, zachovat starší znaky nebo řídit kompresi, knihovna vám poskytuje detailní kontrolu prostřednictvím stejného API `OoxmlSaveOptions`.
 
 ## Často kladené otázky
 
-### Jak odstraním ochranu heslem z dokumentu chráněného heslem?
+**Q: Jak mohu odstranit ochranu heslem z dokumentu chráněného heslem?**  
+A: Otevřete dokument se správným heslem a poté jej uložte znovu bez volání `setPassword`. Nový soubor bude nechráněný.
 
-Chcete-li odebrat ochranu heslem z dokumentu chráněného heslem, můžete dokument otevřít se správným heslem a poté jej uložit bez zadání hesla v možnostech uložení. Tím se dokument uloží bez ochrany heslem.
+**Q: Mohu nastavit vlastní vlastnosti při ukládání dokumentu ve formátu OOXML?**  
+A: Ano. Použijte `BuiltInDocumentProperties` nebo `CustomDocumentProperties` na objektu `Document` před voláním `save`.
 
-### Mohu nastavit vlastní vlastnosti při ukládání dokumentu ve formátu OOXML?
+**Q: Jaká je výchozí úroveň komprese při ukládání dokumentu ve formátu OOXML?**  
+A: Výchozí je `NORMAL`. Můžete přepnout na `SUPER_FAST` pro rychlost nebo `MAXIMUM` pro menší velikost souboru.
 
-Ano, před uložením dokumentu ve formátu OOXML můžete nastavit vlastní vlastnosti. Použijte `BuiltInDocumentProperties` a `CustomDocumentProperties` třídy pro nastavení různých vlastností, jako je autor, název, klíčová slova a vlastní vlastnosti.
+**Q: Fungují možnosti ukládání aspose words se staršími verzemi Wordu?**  
+A: Ano. Úpravou `MsWordVersion` a nastavení souladu můžete cílit na Word 2007‑2019 a zajistit kompatibilitu.
 
-### Jaká je výchozí úroveň komprese při ukládání dokumentu ve formátu OOXML?
+**Q: Je možné kombinovat více možností ukládání v jedné operaci?**  
+A: Rozhodně. Vytvořte jednu instanci `OoxmlSaveOptions`, nastavte všechny požadované vlastnosti (heslo, soulad, kompresi atd.) a předávejte ji metodě `doc.save()`.
 
-Výchozí úroveň komprese při ukládání dokumentu ve formátu OOXML pomocí Aspose.Words pro Javu je `NORMAL`Úroveň komprese můžete změnit na `SUPER_FAST` nebo `MAXIMUM` podle potřeby.
+---
 
+**Poslední aktualizace:** 2025-12-29  
+**Testováno s:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
