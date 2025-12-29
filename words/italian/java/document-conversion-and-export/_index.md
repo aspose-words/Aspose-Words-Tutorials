@@ -22,7 +22,7 @@ Se desideri sfruttare appieno il potenziale di Aspose.Words per Java per la conv
 Non hai mai usato Aspose.Words per Java? Nessun problema! Questo tutorial ti guiderà nella configurazione iniziale e ti fornirà una solida base per lavorare con questa API. Sarai operativo in men che non si dica.
 
 ## Conversione di documenti in formati diversi
-Una delle caratteristiche principali di Aspose.Words per Java è la sua capacità di convertire i documenti in vari formati senza problemi. Che tu debba convertire un file DOCX in PDF o viceversa, questo tutorial ti guiderà passo dopo passo nel processo. Acquisirai una conoscenza approfondita delle opzioni di conversione e delle possibilità di personalizzazione.
+Una delle caratteristiche principali di Aspose.Words per Java è la sua capacità di convertire i documenti in vari formati senza problemi. Che tu debba convertire un file DOCX in PDF o viceversa, questo tutorial ti guiderà passo passo nel processo. Acquisirai una conoscenza approfondita delle opzioni di conversione e delle possibilità di personalizzazione.
 
 ## Esportazione di documenti con Aspose.Words
 L'esportazione di documenti è un aspetto cruciale quando si lavora con documenti in diversi contesti. In questo tutorial, esploreremo come Aspose.Words per Java semplifica l'esportazione di documenti. Che tu voglia esportare pagine specifiche, sezioni o persino singoli elementi di un documento, qui troverai la guida di cui hai bisogno.
@@ -50,6 +50,14 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 Scopri come formattare le tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide dettagliate con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout dei tuoi documenti con Aspose.Words.
 ### [Come esportare LaTeX da Word: convertire DOCX in Markdown e salvare come PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Scopri come trasformare un documento Word in LaTeX, convertendo DOCX in Markdown e generando un PDF.
+### [Creare markdown da Word – Guida completa C#](./create-markdown-from-word-complete-c-guide/)
+Impara a convertire documenti Word in file markdown usando C# con Aspose.Words. Guida passo passo con esempi.
+### [Creare PDF da DOCX – Guida completa C#](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Impara a convertire file DOCX in PDF usando C# con Aspose.Words. Guida passo passo con esempi di codice.
+### [Incorporare immagini in markdown – Guida completa alla conversione di documenti Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Scopri come incorporare immagini in markdown durante la conversione di documenti Word con Aspose.Words per Java.
+### [Creare PDF accessibile da Word – Convertire in PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Scopri come generare PDF accessibili conformi a PDF/UA a partire da documenti Word usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

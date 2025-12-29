@@ -82,6 +82,8 @@ Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java im RTF-Format speiche
 Erfahren Sie, wie Sie Dokumente als Textdateien in Aspose.Words für Java speichern. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Java-Codebeispielen.
 ### [Bestimmen des Dokumentformats in Aspose.Words für Java](./determining-document-format/)
 Erfahren Sie, wie Sie mit Aspose.Words Dokumentformate in Java erkennen. Identifizieren Sie DOC, DOCX und mehr. Organisieren Sie Dateien effizient.
+### [Beschädigte Word-Datei wiederherstellen – C#-Leitfaden zum sicheren Öffnen](./recover-corrupted-word-file-c-guide-to-open-safely/)
+Erfahren Sie, wie Sie beschädigte Word-Dateien mit C# sicher öffnen und wiederherstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

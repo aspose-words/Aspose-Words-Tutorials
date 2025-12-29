@@ -50,6 +50,14 @@ Leer hoe u watermerken toevoegt aan documenten in Aspose.Words voor Java. Pas te
 Leer hoe u tabellen opmaakt en tabelstijlen toepast in Aspose.Words voor Java. Ontdek stapsgewijze handleidingen met broncode voor effectieve tabelopmaak. Verbeter de lay-out van uw document met Aspose.Words.
 ### [Hoe LaTeX exporteren vanuit Word: DOCX naar Markdown converteren & opslaan als PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Leer hoe u een Word‑document omzet naar LaTeX via Markdown en het resultaat als PDF opslaat.
+### [Markdown maken vanuit Word – Complete C#-gids](./create-markdown-from-word-complete-c-guide/)
+Leer hoe u met Aspose.Words voor Java Markdown genereert vanuit een Word-document met een volledige C#-handleiding.
+### [PDF maken van DOCX in C# – Complete programmeergids](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Leer hoe u een PDF maakt van een DOCX-bestand in C# met een volledige programmeergids.
+### [Afbeeldingen insluiten in Markdown – Complete gids voor het converteren van Word-documenten](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Leer hoe u afbeeldingen embedt in Markdown en Word-documenten converteert met een stapsgewijze handleiding.
+### [Toegankelijk PDF maken vanuit Word – Converteren naar PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Leer hoe u een PDF/UA-bestand maakt vanuit een Word-document om te voldoen aan toegankelijkheidsnormen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

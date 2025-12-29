@@ -29,7 +29,7 @@
 
 بنهاية هذه الدروس، ستكون قد اكتسبت المعرفة والمهارات اللازمة لإجراء تحويل وتصدير المستندات بثقة باستخدام Aspose.Words لجافا. استعد لتبسيط معالجة مستنداتك وتعزيز إنتاجيتك باستخدام واجهة برمجة التطبيقات القوية هذه.
 
-لذا، انغمس في الدروس المذكورة أعلاه واكتشف كامل إمكانات Aspose.Words لجافا في مشاريعك المتعلقة بالمستندات. برمجة ممتعة!
+لذا, انغمس في الدروس المذكورة أعلاه واكتشف كامل إمكانات Aspose.Words لجافا في مشاريعك المتعلقة بالمستندات. برمجة ممتعة!
 
 لمزيد من المعلومات، راجع [توثيق واجهة برمجة تطبيقات Aspose.Words لـ Java](https://reference.aspose.com/words/java/)وللبدء، قم بتنزيله من [هنا](https://releases.aspose.com/words/java/)إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في التواصل معنا [منتدى الدعم](https://forum.aspose.com/).
 
@@ -50,6 +50,13 @@
 تعرّف على كيفية تنسيق الجداول وتطبيق أنماطها في Aspose.Words لجافا. استكشف أدلةً خطوة بخطوة مع الكود المصدري لتنسيق جداول فعّال. حسّن تخطيط مستندك باستخدام Aspose.Words.
 ### [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown وحفظه كملف PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 تعلم تحويل مستندات Word إلى LaTeX ثم إلى Markdown وحفظها كملف PDF باستخدام Aspose.Words.
+### [إدراج الصور في Markdown – دليل كامل لتحويل مستندات Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+تعلم كيفية تضمين الصور في مستندات Markdown وتحويل ملفات Word إلى تنسيقات متعددة باستخدام Aspose.Words.
+### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-complete-c-guide/)
+### [إنشاء PDF من DOCX في C# – دليل برمجة كامل](./create-pdf-from-docx-in-c-complete-programming-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words في C# من خلال دليل برمجة شامل خطوة بخطوة.
+### [إنشاء PDF ميسّر من Word – التحويل إلى PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word وفق معيار PDF/UA لضمان إمكانية الوصول.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

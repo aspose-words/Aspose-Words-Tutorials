@@ -44,12 +44,20 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step-by-Step Examples.
+Unlock the Power of Document Shapes in Aspose.Words for Java. Learn Create Visually Engaging Documents with Step-by-Step Examples.
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional-looking documents.
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step-by-step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 ### [How to Export LaTeX from Word: Convert DOCX to Markdown & Save as PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/) Learn how to export LaTeX from Word by converting DOCX to Markdown and saving as PDF with Aspose.Words for Java.
+### [Create markdown from word – Complete C# Guide](./create-markdown-from-word-complete-c-guide/)
+Learn how to convert Word documents to markdown using Aspose.Words for C# in a comprehensive step-by-step guide.
+### [Create PDF from DOCX in C# – Complete Programming Guide](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Learn how to convert DOCX files to PDF using Aspose.Words for C# with a full step-by-step programming guide.
+### [embed images markdown – Complete Guide to Converting Word Docs](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Learn how to embed images in markdown when converting Word documents using Aspose.Words for Java. Step-by-step guide.
+### [Create Accessible PDF from Word – Convert to PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Learn how to generate PDF/UA (accessible PDF) from Word documents using Aspose.Words for Java in a step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

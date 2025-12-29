@@ -50,6 +50,13 @@ Tanuld meg, hogyan adhatsz hozzá vízjeleket dokumentumokhoz az Aspose.Words fo
 Tanuld meg, hogyan formázhatod a táblázatokat és hogyan alkalmazhatsz táblázatstílusokat az Aspose.Words for Java programban. Fedezz fel lépésről lépésre szóló útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentumod elrendezését az Aspose.Words segítségével.
 ### [Hogyan exportáljunk LaTeX-et a Wordből: DOCX konvertálása Markdownba és mentés PDF-ként](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Tanulja meg, hogyan konvertálja a DOCX-et Markdown formátumba, majd exportálja LaTeX-ként PDF-be.
+### [Markdown létrehozása Wordből – Teljes C# útmutató](./create-markdown-from-word-complete-c-guide/)
+Ismerd meg, hogyan hozhatsz létre Markdown fájlokat Word dokumentumokból C# nyelven, lépésről lépésre útmutatóval.
+### [Képek beágyazása markdownba – Teljes útmutató a Word dokumentumok konvertálásához](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Lépésről lépésre bemutatja, hogyan ágyazz be képeket markdownba, miközben Word dokumentumokat konvertálsz.
+### [Elérhető PDF létrehozása Wordből – Konvertálás PDF/UA formátumba](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Tanulja meg, hogyan hozhat létre hozzáférhető PDF/UA dokumentumot Word fájlból az Aspose.Words for Java segítségével.
+### [PDF létrehozása DOCX-ből C#-ban – Teljes programozási útmutató](./create-pdf-from-docx-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
