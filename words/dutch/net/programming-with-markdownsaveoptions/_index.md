@@ -24,11 +24,19 @@ Tekstverwerking met MarkdownSaveOptions is een uitgebreide bron die u begeleidt 
 | [Exporteren naar Markdown met uitlijning van tabelinhoud](./export-into-markdown-with-table-content-alignment/) | Leer hoe u Word-documenten met uitgelijnde tabellen naar Markdown exporteert met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor perfecte Markdown-tabellen. |
 | [Map met afbeeldingen instellen](./set-images-folder/) Converteer Word-documenten naar Markdown met de juiste tabeluitlijning met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor perfecte resultaten.
 
-### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 ### [Maak Toegankelijke PDF en Converteer Word naar Markdown – Volledige C#-gids](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 
 Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteert met een volledige C#-handleiding.
+
+### [Hoe Markdown te gebruiken: DOCX naar Markdown converteren met LaTeX‑vergelijkingen](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
+
+Leer hoe u DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijkingen, met Aspose.Words voor .NET.
+
+### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een gedetailleerde stap‑voor‑stap C#‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
