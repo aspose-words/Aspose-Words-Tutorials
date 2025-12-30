@@ -32,7 +32,9 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Konvertera textfil till Word-dokument](./txt-to-docx/) | Lär dig hur du konverterar textfiler till Word-dokument med Aspose.Words för .NET. Hantera dokumentkonverteringar effektivt med vår omfattande guide. | 
 | [Spara PDF som JPEG](./pdf-to-jpeg/) | Konvertera enkelt PDF-filer till JPEG-filer med Aspose.Words för .NET. Följ vår detaljerade guide med exempel och vanliga frågor. Perfekt för utvecklare och entusiaster. |
 | [Spara PDF till Word-format (Docx)](./pdf-to-docx/) | Lär dig hur du konverterar en PDF till ett Word-dokument (Docx) med Aspose.Words för .NET i den här detaljerade steg-för-steg-guiden. Perfekt för utvecklare. |
-
+| [Exportera LaTeX från Word – steg‑för‑steg‑guide](./how-to-export-latex-from-word-step-by-step-guide/) | Lär dig hur du exporterar LaTeX från ett Word-dokument med Aspose.Words för .NET i en tydlig steg‑för‑steg‑guide. |
+| [Konvertera Word till PDF i C# med Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Lär dig hur du konverterar Word-dokument till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
+| [Spara Word som PDF med Aspose.Words – Komplett C#-guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

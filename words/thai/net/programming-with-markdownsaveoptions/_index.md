@@ -32,6 +32,18 @@
 
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
+
+### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
+
+### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
+เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C#
+
+### [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-markdown-from-docx-step-by-step-guide/)
+
+### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
+เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

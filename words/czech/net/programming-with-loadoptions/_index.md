@@ -32,7 +32,8 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Přeskočit obrázky PDF](./skip-pdf-images/) | Naučte se, jak přeskakovat obrázky při načítání PDF dokumentů pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu pro bezproblémovou extrakci textu. |
 | [Převod metasouborů do formátu Png](./convert-metafiles-to-png/) | Snadno převeďte metasoubory do formátu PNG v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Zjednodušte si správu dokumentů. |
 | [Načtení souborů CHM do dokumentu Word](./load-chm/) | Snadno načtěte soubory CHM do dokumentů Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro konsolidaci vaší technické dokumentace. |
-
+| [Jak obnovit DOCX pomocí Aspose.Words – krok za krokem](./how-to-recover-docx-with-aspose-words-step-by-step/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX krok za krokem. |
+| [Aspose Load Options – Načíst DOCX s vlastními nastaveními písma](./aspose-load-options-load-docx-with-custom-font-settings/) | Naučte se, jak načíst soubor DOCX s vlastními nastaveními písma pomocí Aspose.LoadOptions v .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

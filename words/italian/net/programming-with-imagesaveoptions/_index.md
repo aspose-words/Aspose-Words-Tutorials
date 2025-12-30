@@ -27,7 +27,7 @@ tutorial trattano anche i concetti base della manipolazione delle immagini, tra 
 | [Formato 1Bpp indicizzato](./format-1bpp-indexed/) | Scopri come convertire un documento Word in un'immagine indicizzata a 1 bit di bit utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per una conversione semplice. |
 | [Ottieni intervallo di pagine JPEG](./get-jpeg-page-range/) | Converti pagine specifiche di documenti Word in JPEG con impostazioni personalizzate utilizzando Aspose.Words per .NET. Scopri come regolare luminosità, contrasto e risoluzione passo dopo passo. |
 | [Richiamo di salvataggio della pagina](./page-saving-callback/) | Scopri come salvare ogni pagina di un documento Word come un'immagine PNG separata utilizzando Aspose.Words per .NET con la nostra guida dettagliata e passo dopo passo.
-
+| [Come impostare DPI durante la conversione da Word a PNG – Guida completa C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Scopri come impostare il DPI durante la conversione di documenti Word in PNG usando Aspose.Words per .NET con esempi C# passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
