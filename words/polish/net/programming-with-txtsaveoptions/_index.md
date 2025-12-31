@@ -27,7 +27,8 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | [Dodaj znaczniki Bidi w dokumencie Word](./add-bidi-marks/) | Dowiedz się, jak dodawać znaki dwukierunkowe (Bidi) w dokumentach Worda przy użyciu Aspose.Words dla .NET z tego przewodnika. Zapewnij właściwy kierunek tekstu dla treści wielojęzycznych. |
 | [Użyj znaku tabulacji na poziomie, aby uzyskać wcięcie listy](./use-tab-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciami tabulacyjnymi przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać precyzyjne formatowanie listy w dokumentach. |
 | [Użyj znaku spacji na każdym poziomie do wcięcia listy](./use-space-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem znaku spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentu. |
-
+| [Zapisz docx jako txt – konwertuj równania Word do LaTeX przy użyciu Aspose.Words](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | Dowiedz się, jak konwertować równania Word do formatu LaTeX podczas zapisywania dokumentu jako plik txt przy użyciu Aspose.Words. |
+| [Zapisz docx jako txt – Kompletny przewodnik konwersji plików Word z równaniami LaTeX](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | Dowiedz się, jak kompleksowo konwertować dokumenty Word do plików txt z równaniami LaTeX przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

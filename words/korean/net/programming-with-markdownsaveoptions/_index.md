@@ -27,6 +27,9 @@
 | [접근성 PDF 만들기 및 Word를 Markdown으로 변환 – 전체 C# 가이드](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Aspose.Words for .NET을 사용하여 접근성 PDF를 생성하고 Word를 Markdown으로 변환하는 전체 C# 가이드 |
 | [Markdown 사용 방법: LaTeX 수식이 포함된 DOCX를 Markdown으로 변환](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 DOCX 파일을 정확히 Markdown으로 변환하는 단계별 가이드 |
 | [docx를 markdown으로 변환 – 단계별 C# 가이드](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 단계별 C# 가이드 |
+| [Word를 Markdown으로 저장 – 전체 C# 가이드](./save-word-as-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용해 Word 문서를 Markdown 형식으로 저장하는 전체 C# 가이드 |
+| [Word를 Markdown으로 저장 – DOCX 변환 및 이미지 추출](./save-word-as-markdown-convert-docx-extract-images/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하고, DOCX를 변환하며 이미지 추출하는 방법을 단계별로 안내합니다. |
+| [Word 이미지 내보내기 – Markdown 전체 C# 가이드](./export-word-images-to-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 Markdown으로 내보내는 전체 C# 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,15 @@ Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word-Dokumente in Mar
 ### [DOCX in Markdown konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-docx-to-markdown-step-by-step-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [Word als Markdown speichern – Vollständige C#‑Anleitung](./save-word-as-markdown-complete-c-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente vollständig in Markdown konvertieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Word als Markdown speichern – DOCX konvertieren & Bilder extrahieren](./save-word-as-markdown-convert-docx-extract-images/)
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren, DOCX‑Dateien verarbeiten und Bilder extrahieren – komplette C#‑Anleitung.
+
+### [Word‑Bilder in Markdown exportieren – Vollständige C#‑Anleitung](./export-word-images-to-markdown-complete-c-guide/)
+Erfahren Sie, wie Sie Word‑Bilder in Markdown exportieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

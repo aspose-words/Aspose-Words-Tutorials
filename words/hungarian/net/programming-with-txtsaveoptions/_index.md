@@ -27,7 +27,8 @@ Ezeknek az oktatóanyagoknak köszönhetően teljes mértékben kiaknázhatod az
 | [Kétirányú jelek hozzáadása Word-dokumentumban](./add-bidi-marks/) | Tanulja meg, hogyan adhat hozzá kétirányú (Bidi) jeleket Word-dokumentumokban az Aspose.Words for .NET használatával ebből az útmutatóból. Biztosítsa a megfelelő szövegirányt többnyelvű tartalom esetén. |
 | [Tabulátor karakter használata szintenként a lista behúzásához](./use-tab-character-per-level-for-list-indentation/) | Ismerje meg, hogyan hozhat létre többszintű, tabulátoros behúzással rendelkező listákat az Aspose.Words for .NET segítségével. Kövesse ezt az útmutatót a dokumentumokban található precíz listaformázáshoz. |
 | [Szóköz karakter használata szintenként a lista behúzásához](./use-space-character-per-level-for-list-indentation/) | Tanulja meg, hogyan hozhat létre többszintű listákat szóközök behúzásával az Aspose.Words for .NET programban. Lépésről lépésre útmutató a precíz dokumentumformázáshoz. |
-
+| [docx mentése txt‑ként – Word egyenletek konvertálása LaTeX‑be az Aspose.Words segítségével](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | Tanulja meg, hogyan konvertálhatja a Word egyenleteket LaTeX formátumba mentéskor txt‑fájlba az Aspose.Words használatával. |
+| [docx mentése txt‑ként – Teljes útmutató a Word fájlok LaTeX egyenletekkel való konvertálásához](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | Tanulja meg, hogyan menthet docx fájlokat txt‑ként, és konvertálhatja a Word egyenleteket LaTeX‑be az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,7 +45,7 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [更新 PDF 文件中的最後列印屬性](./update-last-printed-property/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 更新 PDF 文件中的最後列印屬性。 |
 | [在 PDF 文件中渲染 3D DML 3DEffects](./dml-3deffects-rendering/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 在 PDF 文件中呈現令人驚嘆的 3D DML 效果。 |
 | [在 PDF 文件中插入影像](./interpolate-images/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 在 PDF 文件中插入影像。輕鬆提升 PDF 的影像品質。 |
-
+| [從 DOCX 建立可存取 PDF – 完整 C# 指南](./create-accessible-pdf-from-docx-complete-c-guide/) |本完整 C# 教學說明如何將 DOCX 轉換為符合 WCAG 標準的可存取 PDF，涵蓋標籤、結構與可讀性設定。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,12 @@
 
 ### [تحويل docx إلى markdown – دليل خطوة بخطوة C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [حفظ Word كـ Markdown – دليل C# كامل](./save-word-as-markdown-complete-c-guide/)
+
+### [حفظ Word كـ Markdown – تحويل DOCX واستخراج الصور](./save-word-as-markdown-convert-docx-extract-images/)
+
+### [تصدير صور Word إلى Markdown – دليل C# كامل](./export-word-images-to-markdown-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

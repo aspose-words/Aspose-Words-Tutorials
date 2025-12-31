@@ -25,8 +25,11 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [छवियाँ फ़ोल्डर सेट करें](./set-images-folder/) .NET के लिए Aspose.Words का उपयोग करके उचित तालिका संरेखण के साथ Word दस्तावेज़ों को Markdown में बदलें। उत्तम परिणामों के लिए हमारी विस्तृत मार्गदर्शिका का पालन करें। |
 | [Word को PDF के रूप में सहेजें और भ्रष्ट Word को पुनर्प्राप्त करें – C# में Word को Markdown में परिवर्तित करें](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [सुलभ PDF बनाएं और Word को Markdown में बदलें – पूर्ण C# गाइड](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | C# में सुलभ PDF बनाना और Word को Markdown में परिवर्तित करने की पूरी गाइड |
-| [मार्कडाउन का उपयोग कैसे करें: LaTeX समीकरणों के साथ DOCX को मार्कडाउन में परिवर्तित करें](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | DOCX फ़ाइलों को LaTeX समीकरणों के साथ मार्कडाउन में बदलने की चरण-दर-चरण मार्गदर्शिका। |
-| [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
+| [मार्कडाउन का उपयोग कैसे करें: LaTeX समीकरणों के साथ DOCX को मार्कडाउन में परिवर्तित करें](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | DOCX फ़ाइलों को LaTeX समीकरणों के साथ मार्कडाउन में बदलने की चरण-दर-शरण मार्गदर्शिका। |
+| [DOCX को मार्कडाउन में बदलें – चरण‑दर‑शरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑शरण मार्कडाउन में बदलने की गाइड। |
+| [Word को Markdown के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-markdown-complete-c-guide/) | C# में Word दस्तावेज़ को Markdown में बदलने की पूरी गाइड। |
+| [Word को Markdown के रूप में सहेजें – DOCX परिवर्तित करें और छवियों को निकालें](./save-word-as-markdown-convert-docx-extract-images/) | DOCX फ़ाइल को Markdown में बदलें और सभी छवियों को अलग फ़ोल्डर में निकालें। |
+| [Word छवियों को Markdown में निर्यात करें – पूर्ण C# गाइड](./export-word-images-to-markdown-complete-c-guide/) | Word दस्तावेज़ की छवियों को Markdown में निर्यात करने के लिए पूर्ण C# गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

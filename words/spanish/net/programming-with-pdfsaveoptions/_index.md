@@ -26,10 +26,10 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | --- | --- |
 | [Mostrar el título del documento en la barra de título de la ventana](./display-doc-title-in-window-titlebar/) | Aprenda a mostrar el título del documento en la barra de título de la ventana de sus PDF usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Advertencias de renderizado de PDF](./pdf-render-warnings/) | Guía paso a paso para lidiar con las advertencias de renderizado de PDF con Aspose.Words para .NET. |
-| [Agregar firma digital a PDF usando el titular del certificado](./digitally-signed-pdf-using-certificate-holder/) Proteja sus archivos PDF con una firma digital usando Aspose.Words para .NET. Siga esta guía paso a paso para agregar una firma digital a sus PDF fácilmente.
+| [Agregar firma digital a PDF usando el titular del certificado](./digitally-signed-pdf-using-certificate-holder/) Protege sus archivos PDF con una firma digital usando Aspose.Words para .NET. Siga esta guía paso a paso para agregar una firma digital a sus PDF fácilmente.
 | [Incrustar fuentes en un documento PDF](./embedded-all-fonts/) Incruste fuentes en documentos PDF fácilmente con Aspose.Words para .NET con esta guía detallada paso a paso. Asegúrese de que la apariencia sea uniforme en todos los dispositivos.
 | [Incrustar subconjuntos de fuentes en un documento PDF](./embedded-subset-fonts/) Reduzca el tamaño de sus archivos PDF incrustando solo los subconjuntos de fuentes necesarios con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF eficientemente.
-| [Reducir el tamaño del PDF deshabilitando las fuentes incrustadas](./disable-embed-windows-fonts/) Reduzca el tamaño de sus archivos PDF deshabilitando las fuentes incrustadas con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus documentos y optimizar su almacenamiento y uso compartido.
+| [Reducir el tamaño del PDF deshabilitando las fuentes incrustadas](./disable-embed-windows-fonts/) Reduzca el tamaño de sus archivos PDF deshabilitando las fuentes incrustadas con Aspose.Words para .NET. Siga la guía paso a paso para optimizar sus documentos y optimizar su almacenamiento y uso compartido.
 | [Optimice el tamaño de PDF con fuentes Arial y Times Roman incrustadas](./skip-embedded-arial-and-times-roman-fonts/) Optimice el tamaño de sus archivos PDF omitiendo las fuentes Arial y Times Roman incrustadas con Aspose.Words para .NET. Siga esta guía paso a paso para optimizar sus archivos PDF.
 | [Reducir el tamaño del archivo PDF al no incrustar fuentes principales](./avoid-embedding-core-fonts/) Aprenda a reducir el tamaño de sus archivos PDF sin incrustar fuentes principales con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF.
 | [Escapar URI en un documento PDF](./escape-uri/) Aprenda a escapar URIs en archivos PDF con Aspose.Words para .NET. Esta guía detallada le guiará paso a paso por el proceso.
@@ -45,7 +45,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Actualizar la última propiedad impresa en un documento PDF](./update-last-printed-property/) | Aprenda a actualizar la última propiedad impresa en un documento PDF usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Renderizar efectos 3D DML 3D en un documento PDF](./dml-3deffects-rendering/) | Aprenda a renderizar impresionantes efectos DML 3D en documentos PDF usando Aspose.Words para .NET con esta completa guía paso a paso. |
 | [Interpolar imágenes en un documento PDF](./interpolate-images/) Aprenda a interpolar imágenes en un documento PDF con Aspose.Words para .NET con nuestra guía paso a paso. Mejore fácilmente la calidad de imagen de su PDF.
-
+| [Crear PDF accesible desde DOCX – Guía completa en C#](./create-accessible-pdf-from-docx-complete-c-guide/) | Aprenda a crear PDFs accesibles a partir de DOCX usando Aspose.Words para .NET con una guía paso a paso en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

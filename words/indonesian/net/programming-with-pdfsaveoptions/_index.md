@@ -44,8 +44,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Kompresi Gambar dalam Dokumen PDF](./image-compression/) Pelajari cara mengompres gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk mengoptimalkan ukuran dan kualitas file. Bahasa Indonesia:
 | [Perbarui Properti Terakhir Dicetak dalam Dokumen PDF](./update-last-printed-property/) | Pelajari cara memperbarui properti cetak terakhir dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Render 3D DML 3D Effects dalam Dokumen PDF](./dml-3deffects-rendering/) | Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
-| [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. |
-
+| [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. Bahasa Indonesia:
+| [Buat PDF Aksesibel dari DOCX – Panduan Lengkap C#](./create-accessible-pdf-from-docx-complete-c-guide/) | Pelajari cara membuat PDF yang dapat diakses dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

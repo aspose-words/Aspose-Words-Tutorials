@@ -34,6 +34,18 @@
 
 使用 Aspose.Words for .NET 在 C# 中创建符合可访问性标准的 PDF，并将 Word 文档转换为 Markdown，提供完整步骤指南。
 
+### [将 Word 保存为 Markdown – 完整 C# 指南](./save-word-as-markdown-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将 Word 文档直接导出为 Markdown，提供完整的 C# 实现步骤和示例代码。
+
+### [将 Word 保存为 Markdown – 转换 DOCX 并提取图像](./save-word-as-markdown-convert-docx-extract-images/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取图像，提供完整示例和步骤。
+
+### [导出 Word 图像到 Markdown – 完整 C# 指南](./export-word-images-to-markdown-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将 Word 文档中的图像导出为 Markdown，提供完整的 C# 实现步骤和示例代码。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

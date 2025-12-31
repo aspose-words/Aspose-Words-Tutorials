@@ -24,10 +24,11 @@
  ## دروس تعليمية
 | العنوان | الوصف |
 | --- | --- |
-| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات.
+| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات. |
 | [استخدم حرف Tab لكل مستوى لتقسيم القائمة](./use-tab-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع مسافات بادئة مبوبة باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل لتنسيق القوائم بدقة في مستنداتك. |
 | [استخدم حرف المسافة لكل مستوى لتجويف القائمة](./use-space-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع إضافة مسافة بادئة في Aspose.Words لـ .NET. دليل خطوة بخطوة لتنسيق المستندات بدقة. |
-
+| [حفظ docx كـ txt – تحويل معادلات Word إلى LaTeX باستخدام Aspose.Words](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | تعلم كيفية حفظ مستندات docx كملفات txt وتحويل المعادلات إلى صيغة LaTeX باستخدام Aspose.Words. |
+| [حفظ docx كـ txt – دليل كامل لتحويل ملفات Word مع معادلات LaTeX](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | تعلم كيفية حفظ مستندات docx كملفات txt وتحويل المعادلات إلى صيغة LaTeX خطوة بخطوة باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

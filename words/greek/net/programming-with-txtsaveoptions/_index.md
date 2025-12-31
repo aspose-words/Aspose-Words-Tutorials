@@ -27,7 +27,8 @@
 | [Προσθήκη σημαδιών Bidi σε έγγραφο Word](./add-bidi-marks/) | Μάθετε πώς να προσθέτετε αμφίδρομα (Bidi) σημάδια σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό. Εξασφαλίστε τη σωστή κατεύθυνση κειμένου για περιεχόμενο σε πολλές γλώσσες. |
 | [Χρήση χαρακτήρα Tab ανά επίπεδο για εσοχή λίστας](./use-tab-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή με στηλοθέτες χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε αυτόν τον οδηγό για ακριβή μορφοποίηση λιστών στα έγγραφά σας. |
 | [Χρήση κενού διαστήματος ανά επίπεδο για εσοχή λίστας](./use-space-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή διαστήματος στο Aspose.Words για .NET. Οδηγός βήμα προς βήμα για ακριβή μορφοποίηση εγγράφων. |
-
+| [Αποθήκευση docx ως txt – Μετατροπή εξισώσεων Word σε LaTeX με Aspose.Words](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | Μάθετε πώς να μετατρέπετε εξισώσεις Word σε LaTeX κατά την αποθήκευση αρχείου docx ως txt με το Aspose.Words. |
+| [Αποθήκευση docx ως txt – Πλήρης οδηγός μετατροπής αρχείων Word με εξισώσεις LaTeX](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt, διατηρώντας εξισώσεις Word σε μορφή LaTeX, με το Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,7 +27,8 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [वर्ड डॉक्यूमेंट में बीड़ी मार्क जोड़ें](./add-bidi-marks/) | इस गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में द्विदिशात्मक (बीड़ी) चिह्न जोड़ना सीखें। बहुभाषी सामग्री के लिए उचित पाठ दिशा सुनिश्चित करें। |
 | [सूची इंडेंटेशन के लिए प्रति स्तर टैब वर्ण का उपयोग करें](./use-tab-character-per-level-for-list-indentation/) | .NET के लिए Aspose.Words का उपयोग करके टैब्ड इंडेंटेशन के साथ बहु-स्तरीय सूचियाँ बनाना सीखें। अपने दस्तावेज़ों में सटीक सूची स्वरूपण के लिए इस गाइड का पालन करें। |
 | [सूची इंडेंटेशन के लिए प्रति स्तर स्पेस वर्ण का उपयोग करें](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET में स्पेस कैरेक्टर इंडेंटेशन के साथ मल्टी-लेवल सूचियाँ बनाने का तरीका जानें। सटीक दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शिका। |
-
+| [docx को txt के रूप में सहेजें – Aspose.Words के साथ Word समीकरणों को LaTeX में बदलें](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | .NET के लिए Aspose.Words का उपयोग करके Word समीकरणों को LaTeX में परिवर्तित करके docx को txt में सहेजना सीखें। |
+| [docx को txt के रूप में सहेजें – LaTeX समीकरणों के साथ Word फ़ाइलों को परिवर्तित करने की पूरी गाइड](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | .NET के लिए Aspose.Words के साथ docx को txt में सहेजें और Word समीकरणों को LaTeX में बदलें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

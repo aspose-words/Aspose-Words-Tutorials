@@ -16,7 +16,7 @@
 # Xử lý từ ngữ bằng phông chữ
 
 
-Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.v.
+Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.t.
 
 Các hướng dẫn cung cấp cho bạn các giải thích từng bước chi tiết cho từng tính năng, cùng với mã nguồn ngôn ngữ C# để minh họa các khái niệm. Bạn sẽ học cách sử dụng các lớp và phương thức từ Thư viện Aspose.Words cho .NET để thực hiện các tác vụ liên quan đến phông chữ cụ thể trong tài liệu Word của bạn.
 
@@ -46,6 +46,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Nhận danh sách các phông chữ có sẵn](./get-list-of-available-fonts/) | Khám phá cách lấy danh sách phông chữ khả dụng bằng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết này. Nâng cao kỹ năng quản lý phông chữ của bạn. |
 | [Nhận thông báo về phông chữ](./receive-notifications-of-fonts/) | Tìm hiểu cách nhận thông báo về phông chữ bị thiếu hoặc thay thế khi sử dụng Aspose.Words cho .NET. |
 | [Nhận thông báo cảnh báo](./receive-warning-notification/) Tìm hiểu cách nhận thông báo cảnh báo khi sử dụng Aspose.Words cho .NET và quản lý mọi sự cố hoặc cảnh báo trong tài liệu của bạn. |
+| [Ghi lại Cảnh báo Phông chữ – Phát hiện & Liệt kê Phông chữ Thiếu](./capture-font-warnings-detect-list-missing-fonts/) | Tìm hiểu cách ghi lại các cảnh báo phông chữ và liệt kê các phông chữ bị thiếu trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Nguồn Phông chữ Steam Ví dụ](./resource-steam-font-source-example/) | Tìm hiểu cách sử dụng Resource Stream Font Source để tải phông chữ tùy chỉnh vào Aspose.Words cho .NET. |
 | [Nhận thay thế không có hậu tố](./get-substitution-without-suffixes/) | Trong hướng dẫn này, hãy tìm hiểu cách ghi đè không có hậu tố trong tài liệu Word bằng Aspose.Words cho .NET. |
 

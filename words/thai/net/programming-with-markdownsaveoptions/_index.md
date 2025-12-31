@@ -32,6 +32,13 @@
 
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [บันทึก Word เป็น Markdown – คู่มือเต็ม C#](./save-word-as-markdown-complete-c-guide/)
+
+### [บันทึก Word เป็น Markdown – แปลง DOCX และดึงรูปภาพ](./save-word-as-markdown-convert-docx-extract-images/)
+
+### [ส่งออกรูปภาพ Word ไปเป็น Markdown – คู่มือเต็ม C#](./export-word-images-to-markdown-complete-c-guide/)
+ส่งออกรูปภาพจากไฟล์ Word ไปเป็น Markdown อย่างครบถ้วนด้วย C#
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

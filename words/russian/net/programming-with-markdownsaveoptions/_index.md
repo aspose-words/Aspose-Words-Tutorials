@@ -27,6 +27,9 @@
 | [Создать доступный PDF и конвертировать Word в Markdown – Полное руководство C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Полное руководство по созданию доступных PDF и конвертации Word в Markdown с использованием C# и Aspose.Words. |
 | [Как использовать Markdown: преобразовать DOCX в Markdown с уравнениями LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Конвертируйте документы DOCX в Markdown, сохраняя формулы LaTeX, с помощью Aspose.Words для .NET. |
 | [Конвертировать docx в markdown – пошаговое руководство C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Подробное пошаговое руководство по конвертации файлов DOCX в Markdown с использованием C# и Aspose.Words. |
+| [Сохранить Word как Markdown – Полное руководство C#](./save-word-as-markdown-complete-c-guide/) | Подробное руководство по сохранению документов Word в формате Markdown с использованием C# и Aspose.Words. |
+| [Сохранить Word как Markdown – Конвертировать DOCX и извлечь изображения](./save-word-as-markdown-convert-docx-extract-images/) | Конвертируйте DOCX в Markdown и извлекайте изображения с помощью Aspose.Words для .NET. |
+| [Экспорт изображений Word в Markdown – Полное руководство C#](./export-word-images-to-markdown-complete-c-guide/) | Экспортируйте изображения из Word в Markdown с полным руководством на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

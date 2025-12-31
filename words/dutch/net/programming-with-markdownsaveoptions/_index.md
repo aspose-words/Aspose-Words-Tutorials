@@ -27,16 +27,18 @@ Tekstverwerking met MarkdownSaveOptions is een uitgebreide bron die u begeleidt 
 ### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 ### [Maak Toegankelijke PDF en Converteer Word naar Markdown – Volledige C#-gids](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
-
 Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteert met een volledige C#-handleiding.
 
 ### [Hoe Markdown te gebruiken: DOCX naar Markdown converteren met LaTeX‑vergelijkingen](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 
-Leer hoe u DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijkingen, met Aspose.Words voor .NET.
-
 ### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
 
-Leer hoe u docx-bestanden naar markdown converteert met een gedetailleerde stap‑voor‑stap C#‑handleiding.
+### [Word opslaan als Markdown – Complete C#-gids](./save-word-as-markdown-complete-c-guide/)
+
+### [Word opslaan als Markdown – DOCX converteren & afbeeldingen extraheren](./save-word-as-markdown-convert-docx-extract-images/)
+
+### [Exporteer Word-afbeeldingen naar Markdown – Complete C#-gids](./export-word-images-to-markdown-complete-c-guide/)
+Leer hoe u afbeeldingen uit Word-documenten exporteert naar Markdown met een volledige C#-handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

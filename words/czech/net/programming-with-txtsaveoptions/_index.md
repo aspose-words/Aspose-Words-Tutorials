@@ -27,7 +27,8 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Přidání oboustranných značek v dokumentu Word](./add-bidi-marks/) | Naučte se v tomto průvodci, jak přidávat obousměrné (Bidi) značky do dokumentů Wordu pomocí Aspose.Words pro .NET. Zajistěte správný směr textu pro vícejazyčný obsah. |
 | [Použít tabulátor na úroveň pro odsazení seznamu](./use-tab-character-per-level-for-list-indentation/) | Naučte se, jak vytvářet víceúrovňové seznamy s odsazením pomocí tabulátorů pomocí Aspose.Words pro .NET. Pro přesné formátování seznamů ve vašich dokumentech postupujte podle tohoto návodu. |
 | [Použijte mezeru na úroveň pro odsazení seznamu](./use-space-character-per-level-for-list-indentation/) | Naučte se, jak v Aspose.Words pro .NET vytvářet víceúrovňové seznamy s odsazením mezer. Podrobný návod pro přesné formátování dokumentů. |
-
+| [Uložení docx jako txt – Převod rovnic Word do LaTeXu pomocí Aspose.Words](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | Naučte se, jak převést rovnice ve Wordu do LaTeXu při ukládání dokumentu jako txt pomocí Aspose.Words. |
+| [Uložení docx jako txt – Kompletní průvodce převodem souborů Word s LaTeX rovnicemi](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | Naučte se kompletně převádět soubory DOCX na TXT a zachovat LaTeX rovnice pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

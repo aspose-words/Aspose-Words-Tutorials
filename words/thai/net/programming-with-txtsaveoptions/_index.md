@@ -27,7 +27,8 @@
 - [เพิ่มเครื่องหมาย Bidi ในเอกสาร Word](./add-bidi-marks/) | เรียนรู้วิธีการเพิ่มเครื่องหมายทิศทางสองทาง (Bidi) ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือนี้ รับรองทิศทางข้อความที่ถูกต้องสำหรับเนื้อหาหลายภาษา -
 | [ใช้อักขระแท็บต่อระดับสำหรับการเยื้องรายการ](./use-tab-character-per-level-for-list-indentation/) | เรียนรู้วิธีการสร้างรายการหลายระดับพร้อมการเยื้องแบบแท็บโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อการจัดรูปแบบรายการที่แม่นยำในเอกสารของคุณ -
 | [ใช้ช่องว่างต่อระดับสำหรับการเยื้องรายการ](./use-space-character-per-level-for-list-indentation/) | เรียนรู้วิธีการสร้างรายการหลายระดับพร้อมการเยื้องอักขระช่องว่างใน Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการจัดรูปแบบเอกสารอย่างแม่นยำ |
-
+| [บันทึก docx เป็น txt – แปลงสมการ Word เป็น LaTeX ด้วย Aspose.Words](./save-docx-as-txt-convert-word-equations-to-latex-with-aspose/) | เรียนรู้วิธีแปลงสมการในไฟล์ Word เป็น LaTeX เมื่อบันทึกเป็นไฟล์ txt ด้วย Aspose.Words |
+| [บันทึก docx เป็น txt – คู่มือฉบับเต็มสำหรับการแปลงไฟล์ Word พร้อมสมการ LaTeX](./save-docx-as-txt-complete-guide-to-converting-word-files-wit/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt พร้อมแปลงสมการ Word เป็น LaTeX อย่างครบถ้วนด้วย Aspose.Words |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
