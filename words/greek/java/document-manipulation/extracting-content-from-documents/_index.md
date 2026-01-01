@@ -1,10 +1,13 @@
 ---
-"description": "Μάθετε πώς να εξάγετε περιεχόμενο από έγγραφα με ευκολία χρησιμοποιώντας το Aspose.Words για Java. Ο οδηγός βήμα προς βήμα και τα δείγματα κώδικα απλοποιούν τη διαδικασία."
-"linktitle": "Εξαγωγή περιεχομένου από έγγραφα"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Εξαγωγή περιεχομένου από έγγραφα στο Aspose.Words για Java"
-"url": "/el/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Μάθετε πώς να εξάγετε κείμενο χρησιμοποιώντας το Aspose.Words για Java.
+  Αυτός ο οδηγός βήμα‑προς‑βήμα παρουσιάζει πολλαπλές τεχνικές εξαγωγής με έτοιμα
+  παραδείγματα κώδικα.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Πώς να εξάγετε κείμενο χρησιμοποιώντας το Aspose.Words για Java
+url: /el/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή περιεχομένου από έγγραφα στο Aspose.Words για Java
+# Πώς να Εξάγετε Κείμενο Χρησιμοποιώντας το Aspose.Words για Java
 
+## Πώς να Εξάγετε Κείμενο Χρησιμοποιώντας το Aspose.Words για Java
 
-## Εισαγωγή στην εξαγωγή περιεχομένου από έγγραφα στο Aspose.Words για Java
+Στον κόσμο της επεξεργασίας εγγράφων, η **εξαγωγή κειμένου με το Aspose.Words** αποτελεί συχνή ερώτηση για προγραμματιστές Java. Είτε χρειάζεστε απλό κείμενο, πίνακες, εικόνες ή συγκεκριμένα στοιχεία όπως σελιδοδείκτες ή σχόλια, το Aspose.Words για Java προσφέρει ένα πλούσιο API που κάνει τη δουλειά απλή. Σε αυτόν τον οδηγό θα περάσουμε από δεκάδες σενάρια εξαγωγής, θα εξηγήσουμε γιατί κάθε προσέγγιση είναι σημαντική και θα παρέχουμε έτοιμα παραδείγματα κώδικα που μπορείτε να ενσωματώσετε στο πρόγραμμά σας.
 
-Στον κόσμο της επεξεργασίας εγγράφων, η εξαγωγή περιεχομένου από έγγραφα είναι μια κοινή απαίτηση. Είτε χρειάζεται να εξαγάγετε κείμενο, πίνακες, εικόνες ή συγκεκριμένα στοιχεία εγγράφου, το Aspose.Words για Java παρέχει ισχυρά εργαλεία για να κάνει αυτή την εργασία παιχνιδάκι. Σε αυτόν τον ολοκληρωμένο οδηγό, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής περιεχομένου από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. 
+## Γρήγορες Απαντήσεις
+- **Ποια βιβλιοθήκη χρειάζομαι;** Aspose.Words για Java (κατεβάστε από την επίσημη ιστοσελίδα).  
+- **Μπορώ να εξάγω μόνο απλό κείμενο;** Ναι – χρησιμοποιήστε `Document.getText()` ή `DocumentBuilder` με πεδία.  
+- **Μπορεί να γίνει εξαγωγή μεταξύ σελιδοδεικτών;** Απόλυτα, χρησιμοποιήστε `BookmarkStart`/`BookmarkEnd` με `ExtractContentHelper`.  
+- **Χρειάζεται άδεια για παραγωγική χρήση;** Απαιτείται εμπορική άδεια για χρήση εκτός δοκιμής.  
+- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 και νεότερες είναι πλήρως συμβατές.
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσουμε στη διαδικασία εξαγωγής, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+1. **Aspose.Words για Java** – εγκαταστήστε τη βιβλιοθήκη και προσθέστε την στο έργο σας. Μπορείτε να τη κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).  
+2. **Ένα δείγμα εγγράφου** – για τα παραδείγματα θα χρησιμοποιήσουμε ένα αρχείο με όνομα `Extract content.docx`. Τοποθετήστε το σε φάκελο που μπορείτε να αναφέρετε από τον κώδικά σας.
 
-1. Aspose.Words για Java: Θα πρέπει να έχετε εγκαταστήσει και ρυθμίσει το Aspose.Words για Java στο περιβάλλον ανάπτυξης Java που διαθέτετε. Μπορείτε να το κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
-
-2. Ένα έγγραφο για εξαγωγή περιεχομένου: Για αυτόν τον οδηγό, θα χρησιμοποιήσουμε ένα δείγμα εγγράφου με το όνομα "Extract content.docx". Βεβαιωθείτε ότι έχετε ένα παρόμοιο έγγραφο έτοιμο για εξαγωγή.
-
-## Εξαγωγή περιεχομένου μεταξύ κόμβων σε επίπεδο μπλοκ
+## Εξαγωγή Περιεχομένου μεταξύ Κόμβων Επιπέδου Block
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ κόμβων σε επίπεδο μπλοκ
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +50,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Εξαγωγή περιεχομένου μεταξύ σελιδοδεικτών
+## Εξαγωγή Περιεχομένου μεταξύ Σελιδοδεικτών
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ σελιδοδεικτών
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +66,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## Εξαγωγή περιεχομένου μεταξύ εύρους σχολίων
+## Εξαγωγή Περιεχομένου μεταξύ Περιοχών Σχολίων
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ εύρους σχολίων
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +81,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## Εξαγωγή περιεχομένου μεταξύ παραγράφων
+## Εξαγωγή Περιεχομένου μεταξύ Παραγράφων
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ παραγράφων
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +93,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## Εξαγωγή περιεχομένου μεταξύ στυλ παραγράφων
+## Εξαγωγή Περιεχομένου μεταξύ Στυλ Παραγράφων
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ στυλ παραγράφων
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +107,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## Εξαγωγή περιεχομένου μεταξύ εκτελέσεων
+## Εξαγωγή Περιεχομένου μεταξύ Run
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου μεταξύ εκτελέσεων
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +120,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## Εξαγωγή περιεχομένου χρησιμοποιώντας το DocumentVisitor
+## Εξαγωγή Περιεχομένου χρησιμοποιώντας DocumentVisitor
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου χρησιμοποιώντας το DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## Εξαγωγή περιεχομένου χρησιμοποιώντας πεδίο
+## Εξαγωγή Περιεχομένου χρησιμοποιώντας Field
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου χρησιμοποιώντας το Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -141,7 +147,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.doc
 ## Εξαγωγή Πίνακα Περιεχομένων
 
 ```java
-// Δείγμα κώδικα Java για την εξαγωγή πίνακα περιεχομένων
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +164,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## Εξαγωγή μόνο κειμένου
+## Εξαγωγή Μόνο Κειμένου
 
 ```java
-// Δείγμα κώδικα Java μόνο για εξαγωγή κειμένου
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +175,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## Εξαγωγή περιεχομένου με βάση στυλ
+## Εξαγωγή Περιεχομένου βάσει Στυλ
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή περιεχομένου με βάση στυλ
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +213,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## Εξαγωγή και εκτύπωση κειμένου
+## Εξαγωγή και Εκτύπωση Κειμένου
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή και εκτύπωση κειμένου
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +227,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## Εξαγωγή εικόνων σε αρχεία
+## Εξαγωγή Εικόνων σε Αρχεία
 
 ```java
-// Δείγμα κώδικα Java για εξαγωγή εικόνων σε αρχεία
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -238,39 +244,37 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 }
 ```
 
-## Σύναψη
+## Συμπέρασμα
 
-Συγχαρητήρια! Μάθατε πώς να εξάγετε περιεχόμενο από έγγραφα χρησιμοποιώντας το Aspose.Words για Java. Αυτός ο οδηγός κάλυψε διάφορες τεχνικές εξαγωγής, συμπεριλαμβανομένου περιεχομένου μεταξύ κόμβων σε επίπεδο μπλοκ, σελιδοδεικτών, εύρους σχολίων, παραγράφων και άλλων. Πλέον είστε εξοπλισμένοι για να χειρίζεστε αποτελεσματικά την εξαγωγή περιεχομένου εγγράφων στις εφαρμογές Java που χρησιμοποιείτε.
+Συγχαρητήρια! Διαθέτετε πλέον ένα ολοκληρωμένο σύνολο εργαλείων για **την εξαγωγή κειμένου με το Aspose.Words** σε Java. Από κόμβους επιπέδου block μέχρι σελιδοδείκτες, σχόλια, στυλ και ακόμη εικόνες, το API σας δίνει λεπτομερή έλεγχο πάνω σε ό,τι εξάγετε από ένα έγγραφο. Χρησιμοποιήστε αυτά τα αποσπάσματα ως βάση, προσαρμόστε τα στις δικές σας δομές αρχείων και αυτοματοποιήστε τη διαδικασία εξαγωγής σε μεγάλα σύνολα εγγράφων.
 
-## Συχνές ερωτήσεις
+## Συχνές Ερωτήσεις
 
-### Πώς μπορώ να εξαγάγω περιεχόμενο από συγκεκριμένες ενότητες εγγράφου;
+**Ε: Πώς εξάγω περιεχόμενο από έγγραφο προστατευμένο με κωδικό;**  
+Α: Φορτώστε το έγγραφο με τον κατασκευαστή κωδικού: `new Document(path, new LoadOptions("password"))`, στη συνέχεια εκτελέστε οποιαδήποτε από τις μεθόδους εξαγωγής που παρουσιάστηκαν παραπάνω.
 
-Για να εξαγάγετε περιεχόμενο από συγκεκριμένες ενότητες εγγράφου, μπορείτε να προσδιορίσετε τα σημεία έναρξης και λήξης των ενοτήτων και να χρησιμοποιήσετε τις κατάλληλες μεθόδους Aspose.Words για Java για να εξαγάγετε περιεχόμενο μεταξύ τους.
+**Ε: Μπορώ να εξάγω περιεχόμενο από πολλαπλά έγγραφα σε μία εκτέλεση;**  
+Α: Ναι. Διατρέξτε μια λίστα διαδρομών αρχείων, δημιουργήστε ένα `Document` για το καθένα και εφαρμόστε την ίδια λογική εξαγωγής μέσα στον βρόχο.
 
-### Μπορώ να εξαγάγω περιεχόμενο από έγγραφα που προστατεύονται με κωδικό πρόσβασης;
+**Ε: Υπάρχει τρόπος να εξάγω μόνο το ορατό κείμενο (αγνοώντας κρυφά ή κώδικες πεδίων);**  
+Α: Χρησιμοποιήστε `doc.getText()` για απλό ορατό κείμενο. Για μεγαλύτερο έλεγχο, επαναλάβετε τους κόμβους και φιλτράρετε κατά `NodeType.RUN` και `Run.getFont().getHidden()`.
 
-Ναι, το Aspose.Words για Java παρέχει λειτουργικότητα για την εξαγωγή περιεχομένου από έγγραφα που προστατεύονται με κωδικό πρόσβασης. Μπορείτε να δώσετε τον κωδικό πρόσβασης κατά το άνοιγμα του εγγράφου χρησιμοποιώντας το `Document` κατασκευαστής κλάσης.
+**Ε: Σε ποιες μορφές μπορώ να αποθηκεύσω το εξαγόμενο περιεχόμενο;**  
+Α: Μετά την εξαγωγή, μπορείτε να αποθηκεύσετε ένα `Document` ως DOCX, PDF, HTML, TXT ή οποιαδήποτε μορφή υποστηρίζεται από το Aspose.Words μέσω `doc.save("output.pdf")`.
 
-### Πώς μπορώ να εξαγάγω περιεχόμενο και να το αποθηκεύσω σε διαφορετικές μορφές, όπως απλό κείμενο ή HTML;
+**Ε: Υποστηρίζει το Aspose.Words την εξαγωγή περιεχομένου από μεγάλα (εκατοντάδες MB) αρχεία;**  
+Α: Ναι, αλλά σκεφτείτε τη χρήση `LoadOptions` με `LoadFormat` και `MemoryOptimization` για μείωση της κατανάλωσης μνήμης.
 
-Μπορείτε να εξαγάγετε περιεχόμενο από ένα έγγραφο και να το αποθηκεύσετε σε διαφορετικές μορφές χρησιμοποιώντας το Aspose.Words για Java. Μετά την εξαγωγή του περιεχομένου, μπορείτε να χρησιμοποιήσετε το `Document` μεθόδους κλάσης για να το αποθηκεύσετε σε μορφές όπως απλό κείμενο, HTML ή άλλες.
+---
 
-### Υπάρχει τρόπος εξαγωγής περιεχομένου από συγκεκριμένα στοιχεία εγγράφου, όπως πίνακες ή εικόνες;
-
-Ναι, μπορείτε να εξαγάγετε περιεχόμενο από συγκεκριμένα στοιχεία εγγράφου, όπως πίνακες ή εικόνες, χρησιμοποιώντας το Aspose.Words για Java. Προσδιορίστε τα στοιχεία που θέλετε να εξαγάγετε και, στη συνέχεια, χρησιμοποιήστε τις κατάλληλες μεθόδους για να εξαγάγετε το περιεχόμενό τους.
-
-### Πώς μπορώ να αυτοματοποιήσω τη διαδικασία εξαγωγής περιεχομένου στην εφαρμογή Java μου;
-
-Για να αυτοματοποιήσετε τη διαδικασία εξαγωγής περιεχομένου στην εφαρμογή Java που διαθέτετε, μπορείτε να δημιουργήσετε προσαρμοσμένο κώδικα με βάση τις τεχνικές που περιγράφονται σε αυτόν τον οδηγό. Μπορείτε επίσης να εφαρμόσετε λογική για να επαναλάβετε την επεξεργασία πολλών εγγράφων και να εξαγάγετε περιεχόμενο όπως απαιτείται.
-
+**Τελευταία Ενημέρωση:** 2026-01-01  
+**Δοκιμασμένο Με:** Aspose.Words για Java 24.12  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

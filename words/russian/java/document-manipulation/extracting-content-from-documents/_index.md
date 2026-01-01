@@ -1,10 +1,13 @@
 ---
-"description": "Узнайте, как легко извлекать содержимое из документов с помощью Aspose.Words для Java. Наше пошаговое руководство и примеры кода упрощают процесс."
-"linktitle": "Извлечение контента из документов"
-"second_title": "API обработки документов Java Aspose.Words"
-"title": "Извлечение контента из документов в Aspose.Words для Java"
-"url": "/ru/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Узнайте, как извлекать текст с помощью Aspose.Words для Java. Это пошаговое
+  руководство демонстрирует различные методы извлечения с готовыми к запуску примерами
+  кода.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Как извлечь текст с помощью Aspose.Words для Java
+url: /ru/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Извлечение контента из документов в Aspose.Words для Java
+# Как извлечь текст с помощью Aspose.Words для Java
 
+## Как извлечь текст с помощью Aspose.Words для Java
 
-## Введение в извлечение контента из документов в Aspose.Words для Java
+В мире обработки документов **как извлечь текст с помощью Aspose.Words** — частый вопрос у Java‑разработчиков. Независимо от того, нужно ли получить обычный текст, таблицы, изображения или такие специфические элементы, как закладки или комментарии, Aspose.Words для Java предоставляет богатый API, который делает задачу простой. В этом руководстве мы пройдем через десятки сценариев извлечения, объясним, почему каждый подход важен, и предоставим готовые к запуску примеры кода, которые вы можете вставить в свой проект.
 
-В мире обработки документов извлечение контента из документов является обычным требованием. Если вам нужно извлечь текст, таблицы, изображения или определенные элементы документа, Aspose.Words для Java предоставляет мощные инструменты, которые сделают эту задачу легкой. В этом подробном руководстве мы проведем вас через процесс извлечения контента из документов с помощью Aspose.Words для Java. 
+## Быстрые ответы
+- **Какая библиотека нужна?** Aspose.Words для Java (скачать с официального сайта).  
+- **Можно ли извлечь только обычный текст?** Да — используйте `Document.getText()` или `DocumentBuilder` с полями.  
+- **Можно ли извлечь содержимое между закладками?** Конечно, используйте `BookmarkStart`/`BookmarkEnd` вместе с `ExtractContentHelper`.  
+- **Нужна ли лицензия для продакшн?** Коммерческая лицензия требуется для использования не в режиме пробной версии.  
+- **Какие версии Java поддерживаются?** Java 8 и новее полностью совместимы.
 
-## Предпосылки
+## Предварительные требования
 
-Прежде чем мы углубимся в процесс извлечения, убедитесь, что у вас выполнены следующие предварительные условия:
+1. **Aspose.Words для Java** — установите библиотеку и добавьте её в проект. Скачать её можно [здесь](https://releases.aspose.com/words/java/).  
+2. **Пример документа** — для примеров будем использовать файл `Extract content.docx`. Поместите его в папку, к которой ваш код сможет обращаться.
 
-1. Aspose.Words for Java: Aspose.Words for Java должен быть установлен и настроен в вашей среде разработки Java. Вы можете загрузить его с [здесь](https://releases.aspose.com/words/java/).
-
-2. Документ для извлечения контента: в этом руководстве мы будем использовать образец документа с именем «Извлечь контент.docx». Убедитесь, что у вас есть аналогичный документ, готовый к извлечению.
-
-## Извлечение контента между узлами блочного уровня
+## Извлечение содержимого между узлами уровня блока
 
 ```java
-// Пример кода Java для извлечения содержимого между узлами уровня блока
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +50,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Извлечение контента между закладками
+## Извлечение содержимого между закладками
 
 ```java
-// Пример кода Java для извлечения содержимого между закладками
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +66,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## Извлечение контента между диапазонами комментариев
+## Извлечение содержимого между диапазонами комментариев
 
 ```java
-// Пример кода Java для извлечения содержимого между диапазонами комментариев
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -78,7 +84,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenComment
 ## Извлечение содержимого между абзацами
 
 ```java
-// Пример кода Java для извлечения содержимого между абзацами
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -90,7 +96,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagra
 ## Извлечение содержимого между стилями абзацев
 
 ```java
-// Пример кода Java для извлечения содержимого между стилями абзацев
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +107,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## Извлечение контента между запусками
+## Извлечение содержимого между запусками (Runs)
 
 ```java
-// Пример кода Java для извлечения контента между запусками
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +120,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## Извлечение контента с помощью DocumentVisitor
+## Извлечение содержимого с помощью DocumentVisitor
 
 ```java
-// Пример кода Java для извлечения контента с помощью DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## Извлечение контента с использованием поля
+## Извлечение содержимого с помощью Field
 
 ```java
-// Пример кода Java для извлечения контента с использованием поля
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -138,10 +144,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.docx");
 ```
 
-## Извлечение оглавления
+## Извлечение оглавления (Table of Contents)
 
 ```java
-// Пример кода Java для извлечения оглавления
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -161,7 +167,7 @@ for (Field field : doc.getRange().getFields()) {
 ## Извлечение только текста
 
 ```java
-// Пример кода Java для извлечения только текста
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +175,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## Извлечение контента на основе стилей
+## Извлечение содержимого на основе стилей
 
 ```java
-// Пример кода Java для извлечения контента на основе стилей
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +213,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## Извлечение и печать текста
+## Извлечение и вывод текста
 
 ```java
-// Пример кода Java для извлечения и печати текста
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -224,7 +230,7 @@ System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ## Извлечение изображений в файлы
 
 ```java
-// Пример кода Java для извлечения изображений в файлы
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +246,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## Заключение
 
-Поздравляем! Вы узнали, как извлекать содержимое из документов с помощью Aspose.Words for Java. В этом руководстве рассматриваются различные методы извлечения, включая содержимое между узлами уровня блока, закладки, диапазоны комментариев, абзацы и многое другое. Теперь вы готовы эффективно извлекать содержимое документов в своих приложениях Java.
+Поздравляем! Теперь у вас есть полноценный набор инструментов для **как извлечь текст с помощью Aspose.Words** в Java. От узлов уровня блока до закладок, комментариев, стилей и даже изображений — API предоставляет тонкий контроль над тем, что вы извлекаете из документа. Используйте эти фрагменты как основу, адаптируйте их под свои структуры файлов и автоматизируйте процесс извлечения в больших наборах документов.
 
 ## Часто задаваемые вопросы
 
-### Как извлечь содержимое из определенных разделов документа?
+**В: Как извлечь содержимое из документа, защищённого паролем?**  
+О: Загрузите документ с помощью конструктора с паролем: `new Document(path, new LoadOptions("password"))`, затем выполните любой из методов извлечения, показанных выше.
 
-Чтобы извлечь содержимое из определенных разделов документа, можно определить начальную и конечную точки разделов и использовать соответствующие методы Aspose.Words для Java для извлечения содержимого между ними.
+**В: Можно ли извлечь содержимое из нескольких документов за один запуск?**  
+О: Да. Пройдите в цикле список путей к файлам, создайте `Document` для каждого и примените одну и ту же логику извлечения внутри цикла.
 
-### Могу ли я извлечь содержимое из документов, защищенных паролем?
+**В: Есть ли способ извлечь только видимый текст (игнорируя скрытый или коды полей)?**  
+О: Используйте `doc.getText()` для получения обычного видимого текста. Для более тонкой настройки пройдитесь по узлам и отфильтруйте их по `NodeType.RUN` и `Run.getFont().getHidden()`.
 
-Да, Aspose.Words for Java предоставляет функциональность для извлечения контента из защищенных паролем документов. Вы можете указать пароль при открытии документа с помощью `Document` конструктор класса.
+**В: В какие форматы можно сохранять извлечённое содержимое?**  
+О: После извлечения вы можете сохранить `Document` как DOCX, PDF, HTML, TXT или любой другой формат, поддерживаемый Aspose.Words, с помощью `doc.save("output.pdf")`.
 
-### Как извлечь контент и сохранить его в разных форматах, например, в виде обычного текста или HTML?
+**В: Поддерживает ли Aspose.Words извлечение содержимого из больших (сотни МБ) файлов?**  
+О: Да, но рекомендуется использовать `LoadOptions` с указанием `LoadFormat` и `MemoryOptimization`, чтобы снизить потребление памяти.
 
-Вы можете извлечь содержимое из документа и сохранить его в различных форматах с помощью Aspose.Words for Java. После извлечения содержимого вы можете использовать `Document` методы класса для сохранения его в таких форматах, как обычный текст, HTML и других.
+---
 
-### Есть ли способ извлечь содержимое из определенных элементов документа, таких как таблицы или изображения?
-
-Да, вы можете извлекать содержимое из определенных элементов документа, таких как таблицы или изображения, используя Aspose.Words for Java. Определите элементы, которые вы хотите извлечь, а затем используйте соответствующие методы для извлечения их содержимого.
-
-### Как автоматизировать процесс извлечения контента в моем Java-приложении?
-
-Чтобы автоматизировать процесс извлечения контента в вашем приложении Java, вы можете создать пользовательский код на основе методов, описанных в этом руководстве. Вы также можете реализовать логику для итерации по нескольким документам и извлечения контента по мере необходимости.
-
+**Последнее обновление:** 2026-01-01  
+**Тестировано с:** Aspose.Words для Java 24.12  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

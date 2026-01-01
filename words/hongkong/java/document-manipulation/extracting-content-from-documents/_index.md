@@ -1,10 +1,11 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 輕鬆地從文件中提取內容。我們的逐步指南和程式碼範例簡化了該過程。"
-"linktitle": "從文件中提取內容"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "使用 Aspose.Words for Java 從文件中擷取內容"
-"url": "/zh-hant/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: 學習如何使用 Aspose.Words for Java 提取文字。此一步一步的指南展示多種提取技術，並附有可直接執行的程式碼範例。
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 提取文字
+url: /zh-hant/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +14,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Words for Java 從文件中擷取內容
+# 如何使用 Aspose.Words for Java 提取文字
 
+## 如何使用 Aspose.Words for Java 提取文字
 
-## Aspose.Words for Java 文件內容擷取簡介
+在文件處理的世界裡，**如何使用 Aspose.Words 提取文字** 是 Java 開發者常見的問題。無論您需要提取純文字、表格、圖片，或是書籤、批註等特定元素，Aspose.Words for Java 都提供了功能豐富的 API，讓工作變得簡單直觀。本指南將帶您逐一瀏覽多種提取情境，說明每種方法的適用原因，並提供可直接放入專案的即用程式碼範例。
 
-在文件處理領域，從文件中提取內容是一項常見的需求。無論您需要提取文字、表格、圖像或特定文件元素，Aspose.Words for Java 都提供了強大的工具來輕鬆完成此任務。在本綜合指南中，我們將引導您完成使用 Aspose.Words for Java 從文件中提取內容的過程。 
+## 快速答覆
+- **需要哪個函式庫？** Aspose.Words for Java（從官方網站下載）。  
+- **我可以只提取純文字嗎？** 可以 – 使用 `Document.getText()` 或搭配 `DocumentBuilder` 取得欄位。  
+- **是否可以在書籤之間提取內容？** 完全可以，使用 `BookmarkStart`/`BookmarkEnd` 搭配 `ExtractContentHelper`。  
+- **生產環境需要授權嗎？** 商業授權是非試用版的必要條件。  
+- **支援哪些 Java 版本？** 完全相容於 Java 8 及更新版本。
 
 ## 先決條件
 
-在深入研究提取過程之前，請確保您已滿足以下先決條件：
+1. **Aspose.Words for Java** – 安裝函式庫並加入專案。您可以從 [here](https://releases.aspose.com/words/java/) 下載。  
+2. **範例文件** – 本範例使用名為 `Extract content.docx` 的檔案。請將它放在程式碼可參照的資料夾中。
 
-1. Aspose.Words for Java：您應該在 Java 開發環境中安裝並設定 Aspose.Words for Java。您可以從下載 [這裡](https://releases。aspose.com/words/java/).
-
-2. 若要從中提取內容的文件：對於本指南，我們將使用名為「Extract content.docx」的範例文件。確保您有一份類似的文件可供提取。
-
-## 提取區塊級節點之間的內容
+## 在區塊層級節點之間提取內容
 
 ```java
-// 用於提取區塊級節點之間內容的 Java 程式碼範例
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +48,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## 提取書籤之間的內容
+## 在書籤之間提取內容
 
 ```java
-// 提取書籤之間內容的 Java 程式碼範例
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +64,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## 提取評論範圍之間的內容
+## 在批註範圍之間提取內容
 
 ```java
-// 用於提取評論範圍之間的內容的 Java 程式碼範例
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +79,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## 擷取段落之間的內容
+## 在段落之間提取內容
 
 ```java
-// 提取段落間內容的 Java 程式碼範例
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +91,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## 擷取段落樣式之間的內容
+## 在段落樣式之間提取內容
 
 ```java
-// 用於提取段落樣式之間內容的 Java 程式碼範例
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +105,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## 在運行之間提取內容
+## 在 Run 之間提取內容
 
 ```java
-// 用於在運行之間提取內容的 Java 程式碼範例
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +118,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## 使用 DocumentVisitor 擷取內容
+## 使用 DocumentVisitor 提取內容
 
 ```java
-// 使用 DocumentVisitor 擷取內容的 Java 程式碼範例
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## 使用字段提取內容
+## 使用 Field 提取內容
 
 ```java
-// 使用 Field 提取內容的 Java 程式碼範例
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -138,10 +142,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.docx");
 ```
 
-## 擷取目錄
+## 提取目錄
 
 ```java
-// 提取目錄的 Java 程式碼範例
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +162,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## 僅提取文本
+## 僅提取文字
 
 ```java
-// 僅提取文字的 Java 程式碼範例
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +173,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## 根據樣式提取內容
+## 依樣式提取內容
 
 ```java
-// 根據樣式提取內容的 Java 程式碼範例
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +211,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## 提取和列印文字
+## 提取並列印文字
 
 ```java
-// 提取和列印文字的 Java 程式碼範例
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +225,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## 將圖像提取到文件
+## 提取圖片至檔案
 
 ```java
-// 將圖像提取到檔案的 Java 程式碼範例
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +244,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## 結論
 
-恭喜！您已經了解如何使用 Aspose.Words for Java 從文件中提取內容。本指南涵蓋了各種提取技術，包括區塊級節點、書籤、評論範圍、段落等之間的內容。現在，您可以在 Java 應用程式中有效地處理文件內容提取。
+恭喜！您現在已擁有一套完整的 **如何使用 Aspose.Words 提取文字** 的工具箱。無論是區塊層級節點、書籤、批註、樣式，甚至圖片，API 都能讓您精細控制要從文件中抽取的內容。請以這些程式碼片段為基礎，依照自己的檔案結構進行調整，並在大量文件上自動化提取流程。
 
-## 常見問題解答
+## 常見問題
 
-### 如何從特定文件部分提取內容？
+**Q: 如何從受密碼保護的文件中提取內容？**  
+A: 使用帶密碼的建構子載入文件：`new Document(path, new LoadOptions("password"))`，然後執行上述任一提取方法。
 
-若要從特定文件部分提取內容，您可以識別部分的起點和終點，並使用適當的 Aspose.Words for Java 方法提取它們之間的內容。
+**Q: 能否在一次執行中從多個文件提取內容？**  
+A: 可以。遍歷檔案路徑清單，為每個檔案建立 `Document`，在迴圈內套用相同的提取邏輯。
 
-### 我可以從受密碼保護的文件中提取內容嗎？
+**Q: 有沒有辦法只提取可見文字（忽略隱藏或欄位代碼）？**  
+A: 使用 `doc.getText()` 取得純可見文字。若需更細緻的控制，可遍歷節點，並以 `NodeType.RUN` 以及 `Run.getFont().getHidden()` 進行過濾。
 
-是的，Aspose.Words for Java 提供了從受密碼保護的文件中提取內容的功能。您可以在使用 `Document` 類別構造函數。
+**Q: 提取的內容可以儲存為哪些格式？**  
+A: 提取後，您可以使用 `doc.save("output.pdf")` 將 `Document` 儲存為 DOCX、PDF、HTML、TXT 或 Aspose.Words 支援的任何其他格式。
 
-### 如何提取內容並將其儲存為不同的格式，例如純文字或 HTML？
+**Q: Aspose.Words 能否處理大型（數百 MB）檔案的內容提取？**  
+A: 能，但建議使用 `LoadOptions` 搭配 `LoadFormat` 與 `MemoryOptimization` 以降低記憶體使用量。
 
-您可以使用 Aspose.Words for Java 從文件中提取內容並將其儲存為不同的格式。提取內容後，您可以使用 `Document` 類別方法將其儲存為純文字、HTML 或其他格式。
+---
 
-### 有沒有辦法從特定文件元素（例如表格或圖像）中提取內容？
-
-是的，您可以使用 Aspose.Words for Java 從特定文件元素（例如表格或圖像）中提取內容。確定要提取的元素，然後使用適當的方法提取其內容。
-
-### 如何在我的 Java 應用程式中自動化內容提取過程？
-
-為了自動化 Java 應用程式中的內容擷取流程，您可以根據本指南中所述的技術建立自訂程式碼。您還可以實現邏輯來遍歷多個文件並根據需要提取內容。
-
+**最後更新：** 2026-01-01  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
