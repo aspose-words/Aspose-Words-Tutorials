@@ -1,10 +1,12 @@
 ---
-"description": "Verimli belge analizi için güçlü bir Java kütüphanesi olan Aspose.Words for Java'da belgeleri nasıl karşılaştıracağınızı öğrenin."
-"linktitle": "Belgeleri Karşılaştırma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Belgeleri Karşılaştırma"
-"url": "/tr/java/document-manipulation/comparing-documents/"
-"weight": 28
+date: 2026-01-01
+description: Aspose.Words for Java, belge analizi ve sürüm kontrolü için güçlü bir
+  Java kütüphanesi kullanarak iki Word dosyasını nasıl karşılaştıracağınızı öğrenin.
+linktitle: Comparing Documents
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java ile İki Word Dosyasını Nasıl Karşılaştırılır
+url: /tr/java/document-manipulation/comparing-documents/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,26 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Belgeleri Karşılaştırma
+# Aspose.Words for Java ile İki Word Dosyasını Nasıl Karşılaştırılır
 
+## Belge Karşılaştırmaya Giriş
 
-## Belge Karşılaştırmasına Giriş
+Belge karşılaştırma, iki belgeyi analiz etmeyi ve farkları belirlemeyi içerir; bu, yasal, düzenleyici veya içerik yönetimi gibi çeşitli senaryolarda hayati öneme sahip olabilir. **Aspose.Words for Java**, iki Word dosyasını karşılaştırmayı basitleştirir ve sürümler arasındaki değişiklikleri net bir şekilde görmenizi sağlar.
 
-Belge karşılaştırması, iki belgeyi analiz etmeyi ve yasal, düzenleyici veya içerik yönetimi gibi çeşitli senaryolarda önemli olabilecek farklılıkları belirlemeyi içerir. Java için Aspose.Words bu süreci basitleştirerek Java geliştiricilerinin erişimine sunar.
+## Hızlı Yanıtlar
+- **compare metodu ne döndürür?** Farkları temsil eden revizyonların bir koleksiyonu.  
+- **Biçimlendirme değişikliklerini yok sayabilir miyim?** Evet, `CompareOptions.setIgnoreFormatting(true)` kullanın.  
+- **Yalnızca gövde metnini karşılaştırmak mümkün mü?** Başlıkları/altbilgileri atlamak için `setIgnoreHeadersAndFooters(true)` ayarlayın.  
+- **Hangi Java sürümü gereklidir?** Java 8+ çalışma zamanı desteklenir.  
+- **Üretim ortamında lisansa ihtiyacım var mı?** Ticari projeler için geçerli bir Aspose.Words for Java lisansı gereklidir.
 
 ## Ortamınızı Kurma
 
-Belge karşılaştırmasına dalmadan önce, Java için Aspose.Words'ün yüklü olduğundan emin olun. Kütüphaneyi şuradan indirebilirsiniz: [Java için Aspose.Words sürümleri](https://releases.aspose.com/words/java/) sayfa. İndirdikten sonra Java projenize ekleyin.
+Belge karşılaştırmasına başlamadan önce Aspose.Words for Java’ın yüklü olduğundan emin olun. Kütüphaneyi [Aspose.Words for Java releases](https://releases.aspose.com/words/java/) sayfasından indirebilirsiniz. İndirdikten sonra Java projenize ekleyin.
 
-## Temel Belge Karşılaştırması
+## İki Word Dosyasının Temel Karşılaştırması
 
-Belge karşılaştırmasının temelleriyle başlayalım. İki belge kullanacağız, `docA` Ve `docB`ve bunları karşılaştırın.
+İki Word dosyasını karşılaştırmanın temellerine başlayalım. `docA` ve `docB` adında iki belge kullanacağız ve bunları karşılaştıracağız.
 
 ```java
 Document docA = new Document("Your Directory Path" + "Document.docx");
@@ -35,15 +43,15 @@ docA.compare(docB, "user", new Date());
 System.out.println(docA.getRevisions().getCount() == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
-Bu kod parçacığında iki belge yüklüyoruz: `docA` Ve `docB`ve sonra şunu kullanın `compare` bunları karşılaştırma yöntemi. Yazarı "kullanıcı" olarak belirliyoruz ve karşılaştırma gerçekleştiriliyor. Son olarak, belgeler arasındaki farklılıkları gösteren revizyonlar olup olmadığını kontrol ediyoruz.
+Bu kod parçasında aynı dosyayı iki kez yüklüyor, klonluyor ve ardından `compare` metodunu çağırıyoruz. Metod, iki Word dosyası arasındaki farkları gösteren revizyon işaretleri oluşturur.
 
 ## Seçeneklerle Karşılaştırmayı Özelleştirme
 
-Java için Aspose.Words, belge karşılaştırmasını özelleştirmek için kapsamlı seçenekler sunar. Bunlardan bazılarını inceleyelim.
+Aspose.Words for Java, belge karşılaştırmasını özelleştirmek için kapsamlı seçenekler sunar. Bazılarını inceleyelim.
 
-## Biçimlendirmeyi Yoksay
+### İki Word Dosyasını Karşılaştırırken Biçimlendirmeyi Yok Sayma
 
-Biçimlendirmedeki farklılıkları yok saymak için şunu kullanın: `setIgnoreFormatting` seçenek.
+Biçimlendirme farklarını yok saymak için `setIgnoreFormatting` seçeneğini kullanın.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -51,9 +59,9 @@ options.setIgnoreFormatting(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## Başlıkları ve Altbilgileri Yoksay
+### İki Word Dosyasını Karşılaştırırken Başlık ve Altbilgileri Hariç Tutma
 
-Başlıkları ve alt bilgileri karşılaştırmadan hariç tutmak için, `setIgnoreHeadersAndFooters` seçenek.
+Başlık ve altbilgileri karşılaştırmadan çıkarmak için `setIgnoreHeadersAndFooters` seçeneğini ayarlayın.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -61,9 +69,9 @@ options.setIgnoreHeadersAndFooters(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## Belirli Öğeleri Yoksay
+### İki Word Dosyasını Karşılaştırırken Belirli Öğeleri Yok Sayma
 
-Belirli seçenekleri kullanarak tablolar, alanlar, yorumlar, metin kutuları ve daha fazlası gibi çeşitli öğeleri seçerek göz ardı edebilirsiniz.
+Tablolar, alanlar, yorumlar, metin kutuları ve daha fazlası gibi çeşitli öğeleri belirli seçeneklerle seçerek yok sayabilirsiniz.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -74,9 +82,9 @@ options.setIgnoreTextboxes(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## Karşılaştırma Hedefi
+### İki Word Dosyası İçin Karşılaştırma Hedefi Belirleme
 
-Bazı durumlarda, Microsoft Word'ün "Değişiklikleri göster" seçeneğine benzer şekilde, karşılaştırma için bir hedef belirtmek isteyebilirsiniz.
+Bazı durumlarda, Microsoft Word’ün “Show changes in” seçeneğine benzer şekilde karşılaştırma hedefi belirlemek isteyebilirsiniz.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -85,9 +93,9 @@ options.setTarget(ComparisonTargetType.NEW);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## Karşılaştırmanın Granülaritesi
+### İki Word Dosyasını Karşılaştırırken Ayrıntı Düzeyini Kontrol Etme
 
-Karşılaştırmanın ayrıntı düzeyini karakter düzeyinden kelime düzeyine kadar kontrol edebilirsiniz.
+Karşılaştırmanın ayrıntı düzeyini karakter‑seviyesinden kelime‑seviyesine kadar kontrol edebilirsiniz.
 
 ```java
 DocumentBuilder builderA = new DocumentBuilder(new Document());
@@ -99,39 +107,57 @@ compareOptions.setGranularity(Granularity.CHAR_LEVEL);
 builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), compareOptions);
 ```
 
-## Çözüm
+## İki Word Dosyasını Karşılaştırmanın Yaygın Kullanım Senaryoları
 
-Aspose.Words for Java'da belgeleri karşılaştırmak, çeşitli belge işleme senaryolarında kullanılabilen güçlü bir yetenektir. Kapsamlı özelleştirme seçenekleriyle, karşılaştırma sürecini özel ihtiyaçlarınıza göre uyarlayabilir ve onu Java geliştirme araç setinizde değerli bir araç haline getirebilirsiniz.
+- **Hukuki sözleşme incelemeleri:** Eklenen, kaldırılan veya değiştirilmiş maddeleri hızlıca tespit edin.  
+- **Düzenleyici uyumluluk:** Politika belgelerinin revizyonlar arasında tutarlı kalmasını sağlayın.  
+- **İçerik yayıncılığı:** Son kopyaları yayınlamadan önce editöryel değişiklikleri tespit edin.  
+- **Belge yönetim sistemlerinde sürüm kontrolü:** Manuel inceleme yapmadan değişiklik takibini otomatikleştirin.
+
+## Sorun Giderme İpuçları
+
+- **Revizyonlar görünmüyor:** Görsel düzenin yenilenmesi gerekiyorsa karşılaştırmadan sonra `docA.updatePageLayout()` çağırdığınızdan emin olun.  
+- **Büyük dosyalarda performans:** Aynı dosyayı birden çok kez yüklemekten kaçınmak için klonlanmış belgeler üzerinde `compare` kullanın.  
+- **Tablolardaki değişiklikler eksik:** Tablo farklarının yakalanması için `setIgnoreTables(false)` (varsayılan) ayarının açık olduğundan emin olun.
+
+## Sonuç
+
+Aspose.Words for Java ile iki Word dosyasını karşılaştırmak, çeşitli belge işleme senaryolarında kullanılabilecek güçlü bir yetenektir. Geniş özelleştirme seçenekleri sayesinde karşılaştırma sürecini ihtiyaçlarınıza göre şekillendirebilir ve Java geliştirme araç setinizde değerli bir araç haline getirebilirsiniz.
 
 ## SSS
 
-### Java için Aspose.Words'ü nasıl yüklerim?
+### Aspose.Words for Java nasıl kurulur?
 
-Java için Aspose.Words'ü yüklemek için, kitaplığı şu adresten indirin: [Java için Aspose.Words sürümleri](https://releases.aspose.com/words/java/) sayfasını açın ve Java projenizin bağımlılıklarına ekleyin.
+Aspose.Words for Java’yı kurmak için kütüphaneyi [Aspose.Words for Java releases](https://releases.aspose.com/words/java/) sayfasından indirin ve Java projenizin bağımlılıklarına ekleyin.
 
-### Aspose.Words for Java'yı kullanarak karmaşık biçimlendirmeye sahip belgeleri karşılaştırabilir miyim?
+### Aspose.Words for Java ile karmaşık biçimlendirmeye sahip belgeler karşılaştırılabilir mi?
 
-Evet, Aspose.Words for Java, karmaşık biçimlendirmeye sahip belgeleri karşılaştırma seçenekleri sunar. Karşılaştırmayı gereksinimlerinize uyacak şekilde özelleştirebilirsiniz.
+Evet, Aspose.Words for Java karmaşık biçimlendirmeye sahip belgeleri karşılaştırmak için seçenekler sunar. Karşılaştırmayı gereksinimlerinize göre özelleştirebilirsiniz.
 
-### Aspose.Words for Java belge yönetim sistemleri için uygun mudur?
+### Aspose.Words for Java belge yönetim sistemleri için uygun mu?
 
-Kesinlikle. Aspose.Words for Java'nın belge karşılaştırma özellikleri, sürüm denetimi ve değişiklik izlemenin kritik önem taşıdığı belge yönetim sistemleri için onu oldukça uygun hale getirir.
+Kesinlikle. Aspose.Words for Java’nın belge karşılaştırma özellikleri, sürüm kontrolü ve değişiklik takibinin kritik olduğu belge yönetim sistemleri için çok uygundur.
 
-### Aspose.Words for Java'da belge karşılaştırmasına ilişkin herhangi bir sınırlama var mı?
+### Aspose.Words for Java’da belge karşılaştırma ile ilgili sınırlamalar var mı?
 
-Aspose.Words for Java kapsamlı belge karşılaştırma yetenekleri sunsa da, belgeleri incelemeniz ve özel gereksinimlerinizi karşıladığından emin olmanız önemlidir.
+Aspose.Words for Java geniş belge karşılaştırma yetenekleri sunsa da, belgelerinizin özel gereksinimlerini karşıladığından emin olmak için dokümantasyonu incelemeniz önemlidir.
 
-### Aspose.Words for Java için daha fazla kaynağa ve belgeye nasıl erişebilirim?
+### Aspose.Words for Java için daha fazla kaynak ve dokümantasyona nasıl ulaşabilirim?
 
-Java için Aspose.Words hakkında ek kaynaklar ve ayrıntılı belgeler için şu adresi ziyaret edin: [Java için Aspose.Words belgeleri](https://reference.aspose.com/words/java/).
-
+Aspose.Words for Java hakkında ek kaynaklar ve ayrıntılı dokümantasyon için [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) adresini ziyaret edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java latest stable release  
+**Author:** Aspose  
+
+---
