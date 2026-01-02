@@ -33,7 +33,7 @@
 | [مرساة عمودية](./vertical-anchor/) | تعلّم كيفية ضبط مواضع الربط الرأسية لمربعات النص في مستندات Word باستخدام Aspose.Words لـ .NET. مرفق دليل سهل خطوة بخطوة.
 | [اكتشاف شكل الفن الذكي](./detect-smart-art-shape/) تعرّف على كيفية اكتشاف أشكال SmartArt في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل الشامل. مثالي لأتمتة سير عمل مستنداتك.
 | [تحديث رسم الفن الذكي](./update-smart-art-drawing/) | تعرّف على كيفية تحديث رسومات Smart Art في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. تأكد من دقة رسوماتك دائمًا. |
-
+| [إنشاء مستند Word مع شكل مستطيل وظل – دليل كامل](./create-word-document-with-rectangle-shape-and-shadow-complet/) |تعرف على كيفية إنشاء مستند Word يحتوي على شكل مستطيل مع تأثير الظل باستخدام Aspose.Words لـ .NET خطوة بخطوة.|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

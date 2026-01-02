@@ -27,12 +27,11 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter Docx em Byte](./docx-to-byte/) | Aprenda a converter Docx em array de bytes no .NET usando Aspose.Words para um processamento eficiente de documentos. Guia passo a passo incluído. |  
 | [Converter Docx para Epub](./docx-to-epub/) | Converta DOCX para EPUB facilmente com o Aspose.Words para .NET. Siga nosso tutorial para uma integração perfeita com seus aplicativos .NET. |
 | [Converter Docx para Mhtml e enviar e-mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e-mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
-| [Converter arquivo Docx para Markdown](./docx-to-markdown/) | Aprenda a converter arquivos DOCX para Markdown usando o Aspose.Words para .NET. Siga nosso guia detalhado para uma integração perfeita com seus aplicativos .NET. |
-| [Converter Docx para Txt](./docx-to-txt/) Converta DOCX para TXT usando o Aspose.Words para .NET com nosso guia passo a passo. Aprenda a transformar documentos de forma eficiente e sem esforço. |
 | [Converter arquivo de texto em documento do Word](./txt-to-docx/) | Aprenda a converter arquivos de texto em documentos do Word usando o Aspose.Words para .NET. Gerencie conversões de documentos com eficiência com nosso guia completo. | 
 | [Salvar PDF como JPEG](./pdf-to-jpeg/) | Converta PDFs em JPEGs sem esforço usando o Aspose.Words para .NET. Siga nosso guia detalhado com exemplos e perguntas frequentes. Perfeito para desenvolvedores e entusiastas. |
 | [Salvar PDF em formato Word (Docx)](./pdf-to-docx/) | Aprenda a converter um PDF para um documento do Word (Docx) usando o Aspose.Words para .NET neste guia passo a passo detalhado. Perfeito para desenvolvedores. |
-
+| [Converter docx para LaTeX – Guia rápido para exportar matemática como texto](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) | Aprenda a converter documentos DOCX para LaTeX, preservando fórmulas matemáticas como texto, usando Aspose.Words para .NET. |
+| [Salvar Word como PDF com Aspose.Words – Guia Completo em C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words em C#, passo a passo com exemplos de código. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

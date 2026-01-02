@@ -32,6 +32,8 @@
 | [Textdatei in Word-Dokument konvertieren](./txt-to-docx/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Textdateien in Word-Dokumente konvertieren. Verwalten Sie Dokumentkonvertierungen effizient mit unserem umfassenden Leitfaden. | 
 | [PDF als JPEG speichern](./pdf-to-jpeg/) | Konvertieren Sie PDFs mühelos in JPEGs mit Aspose.Words für .NET. Folgen Sie unserer ausführlichen Anleitung mit Beispielen und FAQs. Ideal für Entwickler und Enthusiasten. |
 | [PDF im Word-Format (Docx) speichern](./pdf-to-docx/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein PDF in ein Word-Dokument (Docx) konvertieren. Perfekt für Entwickler. |
+| [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Word-Dokumente in PDF konvertieren – vollständige Schritt‑für‑Schritt‑C#‑Anleitung. |
+| [DOCX in LaTeX konvertieren – Schnellleitfaden zum Exportieren von Mathematik als Text](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET in LaTeX konvertieren und mathematische Formeln als Text exportieren. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

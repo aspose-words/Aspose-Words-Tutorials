@@ -32,7 +32,8 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Convertir archivo de texto a documento de Word](./txt-to-docx/) Aprenda a convertir archivos de texto a documentos de Word con Aspose.Words para .NET. Gestione eficientemente la conversión de documentos con nuestra guía completa. 
 | [Guardar PDF como JPEG](./pdf-to-jpeg/) Convierte fácilmente archivos PDF a JPEG con Aspose.Words para .NET. Sigue nuestra guía detallada con ejemplos y preguntas frecuentes. Ideal para desarrolladores y aficionados.
 | [Guardar PDF en formato Word (Docx)](./pdf-to-docx/) Aprenda a convertir un PDF a un documento de Word (Docx) con Aspose.Words para .NET con esta guía detallada paso a paso. Ideal para desarrolladores.
-
+| [Convertir docx a LaTeX – Guía rápida para exportar matemáticas como texto](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) Aprenda a convertir documentos DOCX a LaTeX manteniendo fórmulas matemáticas como texto con Aspose.Words para .NET. 
+| [Guardar Word como PDF con Aspose.Words – Guía completa en C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aprenda a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

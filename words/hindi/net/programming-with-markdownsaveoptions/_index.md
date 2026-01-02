@@ -27,6 +27,8 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [सुलभ PDF बनाएं और Word को Markdown में बदलें – पूर्ण C# गाइड](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | C# में सुलभ PDF बनाना और Word को Markdown में परिवर्तित करने की पूरी गाइड |
 | [मार्कडाउन का उपयोग कैसे करें: LaTeX समीकरणों के साथ DOCX को मार्कडाउन में परिवर्तित करें](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | DOCX फ़ाइलों को LaTeX समीकरणों के साथ मार्कडाउन में बदलने की चरण-दर-चरण मार्गदर्शिका। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
+| [Word को Markdown के रूप में सहेजें – LaTeX समीकरणों के साथ DOCX को MD में बदलने की पूर्ण गाइड](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/) | DOCX को LaTeX समीकरणों सहित Markdown में बदलने की पूरी गाइड, C# कोड उदाहरणों के साथ। |
+| [C# में Word को Markdown में बदलते समय assets फ़ोल्डर बनाएं](./create-assets-folder-while-converting-word-to-markdown-in-c/) | C# कोड के साथ Word को Markdown में बदलते समय assets फ़ोल्डर सेट करने की चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

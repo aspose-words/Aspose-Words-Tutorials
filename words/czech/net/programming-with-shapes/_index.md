@@ -33,7 +33,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Vertikální kotva](./vertical-anchor/) | Naučte se, jak nastavit svislé kotevní pozice pro textová pole v dokumentech Word pomocí Aspose.Words pro .NET. Součástí je i jednoduchý podrobný návod.
 | [Detekce tvaru inteligentního umění](./detect-smart-art-shape/) | Naučte se, jak detekovat tvary SmartArt v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro automatizaci pracovního postupu s dokumenty. |
 | [Aktualizace kresby Smart Art](./update-smart-art-drawing/) | Naučte se, jak aktualizovat kresby Smart Art v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Zajistěte, aby vaše vizuální prvky byly vždy přesné. |
-
+| [Vytvořit dokument Word s obdélníkovým tvarem a stínem – Kompletní průvodce](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Naučte se, jak vytvořit dokument Word s obdélníkovým tvarem a stínem pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

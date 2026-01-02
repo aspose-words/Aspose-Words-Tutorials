@@ -24,6 +24,7 @@
 | [將 Doc 轉換為 Docx](./doc-to-docx/) | 了解如何使用 Aspose.Words for .NET 將 DOC 轉換為 DOCX。帶有程式碼範例的分步指南。非常適合開發人員。 |
 | [Docx 轉 Rtf](./docx-to-rtf/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 將 DOCX 轉換為 RTF。輕鬆轉換，實現無縫文件處理。 |  
 | [將Word檔案轉換為PDF](./docx-to-pdf/) |透過我們的指南了解如何使用 Aspose.Words for .NET 輕鬆地將 Word 文件轉換為 PDF。非常適合尋求快速可靠的文件轉換的開發人員。 | 
+| [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 教學](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 透過本完整的 C# 教學，了解如何使用 Aspose.Words for .NET 將 Word 文件儲存為 PDF。 |
 | [將 Docx 轉換為位元組](./docx-to-byte/) |了解如何使用 Aspose.Words 在 .NET 中將 Docx 轉換為位元組陣列以實現高效的文件處理。包含逐步指南。 |  
 | [將 Docx 轉換為 Epub](./docx-to-epub/) |使用 Aspose.Words for .NET 輕鬆將 DOCX 轉換為 EPUB。按照我們的教學無縫整合到您的 .NET 應用程式中。 |
 | [將 Docx 轉換為 Mhtml 並發送電子郵件](./docx-to-mhtml-and-sending-email/) |在本逐步指南中了解如何將 DOCX 轉換為 MHTML 並使用 Aspose.Words for .NET 發送電子郵件。透過簡單的自動化來提高您的生產力。 |
@@ -32,6 +33,7 @@
 | [將文字文件轉換為 Word 文件](./txt-to-docx/) |了解如何使用 Aspose.Words for .NET 將文字檔案轉換為 Word 文件。使用我們全面的指南有效地管理文件轉換。 | 
 | [將 PDF 儲存為 Jpeg](./pdf-to-jpeg/) |使用 Aspose.Words for .NET 輕鬆將 PDF 轉換為 JPEG。請遵循我們的詳細指南，其中包含範例和常見問題。非常適合開發人員和愛好者。 |
 | [將 PDF 儲存為 Word 格式 (Docx)](./pdf-to-docx/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 將 PDF 轉換為 Word 文件 (Docx)。非常適合開發人員。 |
+| [將 docx 轉換為 LaTeX – 匯出數學為文字的快速指南](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) | 了解如何使用 Aspose.Words for .NET 將 DOCX 轉換為 LaTeX，並將數學公式匯出為純文字。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

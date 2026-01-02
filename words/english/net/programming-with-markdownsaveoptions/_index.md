@@ -28,6 +28,8 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Learn how to create accessible PDFs and convert Word documents to Markdown using Aspose.Words in C#. |
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [Save Word as Markdown – Complete Guide to Convert DOCX to MD with LaTeX Equations](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/) | Learn how to convert DOCX to Markdown with LaTeX equations using Aspose.Words for .NET. |
+| [Create assets folder while converting Word to Markdown in C#](./create-assets-folder-while-converting-word-to-markdown-in-c/) | Learn how to create an assets folder during Word to Markdown conversion using Aspose.Words for .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

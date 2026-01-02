@@ -33,6 +33,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Kotwica pionowa](./vertical-anchor/) | Dowiedz się, jak ustawić pionowe pozycje kotwic dla pól tekstowych w dokumentach Word, używając Aspose.Words dla .NET. W zestawie łatwy przewodnik krok po kroku.|
 | [Wykryj kształt Smart Art](./detect-smart-art-shape/) | Dowiedz się, jak wykrywać kształty SmartArt w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne do automatyzacji przepływu pracy nad dokumentami. |
 | [Aktualizuj rysunek Smart Art](./update-smart-art-drawing/) | Dowiedz się, jak aktualizować rysunki Smart Art w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje wizualizacje są zawsze dokładne. |
+| [Utwórz dokument Word z prostokątnym kształtem i cieniem – kompletny przewodnik](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Dowiedz się, jak w Aspose.Words dla .NET utworzyć dokument Word zawierający prostokątny kształt z efektem cienia. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

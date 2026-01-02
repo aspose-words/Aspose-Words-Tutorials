@@ -32,7 +32,8 @@
 | [テキストファイルをWord文書に変換する](./txt-to-docx/) Aspose.Words for .NET を使用してテキストファイルをWord文書に変換する方法を学びましょう。包括的なガイドで、ドキュメント変換を効率的に管理できます。 | 
 | [PDFをJPEGとして保存](./pdf-to-jpeg/) Aspose.Words for .NET を使えば、PDF を簡単に JPEG に変換できます。サンプルや FAQ をまとめた詳細なガイドをご覧ください。開発者や熱心な方に最適です。 |
 | [PDF を Word 形式 (Docx) に保存する](./pdf-to-docx/) Aspose.Words for .NET を使用してPDFをWord文書（Docx）に変換する方法を、この詳細なステップバイステップガイドで学びましょう。開発者に最適です。 |
-
+| [Docx を LaTeX に変換 – 数式をテキストとしてエクスポートするクイックガイド](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) Aspose.Words for .NET を使用して Docx を LaTeX に変換し、数式をテキストとしてエクスポートする方法を簡潔に解説します。 |
+| [Aspose.Words で Word を PDF として保存 – 完全 C# ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を PDF に変換する完全な C# 手順を解説します。コード例付き。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

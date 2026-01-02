@@ -33,7 +33,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Vertikaler Anker](./vertical-anchor/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET vertikale Ankerpositionen für Textfelder in Word-Dokumenten festlegen. Einfache Schritt-für-Schritt-Anleitung enthalten.|
 | [Smart Art-Form erkennen](./detect-smart-art-shape/) | Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mit Aspose.Words für .NET SmartArt-Formen in Word-Dokumenten erkennen. Perfekt für die Automatisierung Ihres Dokumenten-Workflows. |
 | [Smart Art-Zeichnung aktualisieren](./update-smart-art-drawing/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Smart Art-Zeichnungen in Word-Dokumenten mit Aspose.Words für .NET aktualisieren. Stellen Sie sicher, dass Ihre Visualisierungen stets präzise sind. |
-
+| [Word-Dokument mit Rechteckform und Schatten erstellen – Komplettanleitung](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und ein Rechteck mit Schatten hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

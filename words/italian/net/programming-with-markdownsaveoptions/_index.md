@@ -27,6 +27,8 @@
 | [Crea PDF accessibile e converti Word in Markdown – Guida completa C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Scopri come generare PDF accessibili e trasformare documenti Word in Markdown con una guida completa in C#. |
 | [Come usare Markdown: Converti DOCX in Markdown con equazioni LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Scopri come convertire documenti DOCX in Markdown mantenendo le equazioni LaTeX con Aspose.Words per .NET. |
 | [Converti docx in markdown – Guida passo‑passo C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Scopri come convertire file DOCX in Markdown con una guida dettagliata passo‑passo in C#. |
+| [Salva Word come Markdown – Guida completa per convertire DOCX in MD con equazioni LaTeX](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/) | Impara a convertire documenti DOCX in Markdown mantenendo le equazioni LaTeX con una guida completa passo‑passo. |
+| [Crea cartella assets durante la conversione da Word a Markdown in C#](./create-assets-folder-while-converting-word-to-markdown-in-c/) | Impara a creare una cartella assets per immagini e risorse durante la conversione da Word a Markdown con Aspose.Words per .NET in C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

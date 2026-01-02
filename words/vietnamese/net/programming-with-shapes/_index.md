@@ -33,7 +33,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Mỏ neo dọc](./vertical-anchor/) | Tìm hiểu cách thiết lập vị trí neo dọc cho hộp văn bản trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước dễ dàng.|
 | [Phát hiện hình dạng nghệ thuật thông minh](./detect-smart-art-shape/) | Tìm hiểu cách phát hiện hình dạng SmartArt trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo để tự động hóa quy trình làm việc tài liệu của bạn. |
 | [Cập nhật Bản vẽ nghệ thuật thông minh](./update-smart-art-drawing/) | Tìm hiểu cách cập nhật bản vẽ Smart Art trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đảm bảo hình ảnh của bạn luôn chính xác. |
-
+| [Tạo tài liệu Word với hình chữ nhật và bóng – Hướng dẫn chi tiết](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Hướng dẫn từng bước tạo tài liệu Word, chèn hình chữ nhật có hiệu ứng bóng, sử dụng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

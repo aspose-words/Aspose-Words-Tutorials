@@ -38,6 +38,12 @@ Leer hoe u DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijk
 
 Leer hoe u docx-bestanden naar markdown converteert met een gedetailleerde stap‑voor‑stap C#‑handleiding.
 
+### [Word opslaan als Markdown – Complete gids om DOCX naar MD te converteren met LaTeX‑vergelijkingen](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/)
+
+Leer hoe u Word-documenten opslaat als Markdown, inclusief LaTeX‑vergelijkingen, met een volledige C#‑handleiding.
+
+### [Assets-map maken tijdens het converteren van Word naar Markdown in C#](./create-assets-folder-while-converting-word-to-markdown-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

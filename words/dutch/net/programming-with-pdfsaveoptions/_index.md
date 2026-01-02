@@ -45,7 +45,8 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Laatst afgedrukte eigenschap in PDF-document bijwerken](./update-last-printed-property/) | Leer hoe u de laatst afgedrukte eigenschap in een PDF-document kunt bijwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [3D DML 3D-effecten renderen in een PDF-document](./dml-3deffects-rendering/) | Leer hoe u verbluffende 3D DML-effecten kunt maken in PDF-documenten met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
 | [Afbeeldingen in een PDF-document interpoleren](./interpolate-images/) | Leer hoe u afbeeldingen in een PDF-document kunt interpoleren met Aspose.Words voor .NET met onze stapsgewijze handleiding. Verbeter eenvoudig de beeldkwaliteit van uw PDF. |
-
+| [Docx opslaan als pdf met Aspose.Words – C#-gids](./save-docx-as-pdf-with-aspose-words-c-guide/) | Leer hoe u een DOCX-bestand kunt opslaan als PDF met Aspose.Words in C#. |
+| [Document opslaan als PDF met Aspose – Complete stapsgewijze handleiding](./save-document-as-pdf-with-aspose-complete-step-by-step-guide/) | Leer hoe u een document volledig kunt opslaan als PDF met Aspose.Words voor .NET via een gedetailleerde stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

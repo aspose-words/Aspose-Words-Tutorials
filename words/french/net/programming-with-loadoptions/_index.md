@@ -30,9 +30,9 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Rappel d'avertissement dans un document Word](./warning-callback/) Découvrez comment détecter et gérer les avertissements dans les documents Word avec Aspose.Words pour .NET grâce à notre guide étape par étape. Assurez un traitement fiable des documents. |
 | [Charger avec codage dans un document Word](./load-with-encoding/) | Apprenez à charger un document Word avec un encodage spécifique grâce à Aspose.Words pour .NET. Guide étape par étape avec explications détaillées. |
 | [Ignorer les images PDF](./skip-pdf-images/) | Apprenez à ignorer les images lors du chargement de documents PDF avec Aspose.Words pour .NET. Suivez ce guide étape par étape pour une extraction de texte fluide. |
-| [Convertir les métafichiers en PNG](./convert-metafiles-to-png/) Convertissez facilement des métafichiers au format PNG dans vos documents Word avec Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Simplifiez la gestion de vos documents.
+| [Convertir les métafichiers en PNG](./convert-metafiles-to-png/) Convertissez facilement des métafichiers au format PNG dans vos documents Word avec Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Simplifiez la gestion de vos documents. |
 | [Charger des fichiers Chm dans un document Word](./load-chm/) | Chargez facilement des fichiers CHM dans des documents Word avec Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Idéal pour consolider votre documentation technique. |
-
+| [Comment récupérer des fichiers DOCX avec Aspose.Words – Guide étape par étape](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) | Apprenez à restaurer des fichiers DOCX endommagés avec Aspose.Words grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

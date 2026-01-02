@@ -34,6 +34,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Vertical Anchor](./vertical-anchor/) | Learn how to set vertical anchor positions for textboxes in Word documents using Aspose.Words for .NET. Easy step-by-step guide included.|
 | [Detect Smart Art Shape](./detect-smart-art-shape/) | Learn how to detect SmartArt shapes in Word documents using Aspose.Words for .NET with this comprehensive, guide. Perfect for automating your document workflow. |
 | [Update Smart Art Drawing](./update-smart-art-drawing/) | Learn how to update Smart Art drawings in Word documents using Aspose.Words for .NET with this step-by-step guide. Ensure your visuals are always accurate. |
+| [Create Word Document with Rectangle Shape and Shadow – Complete Guide](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Learn how to create a Word document with a rectangle shape and apply shadow using Aspose.Words for .NET in this comprehensive guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

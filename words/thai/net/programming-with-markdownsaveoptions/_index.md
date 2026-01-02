@@ -32,6 +32,11 @@
 
 ### [แปลง docx เป็น markdown – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [บันทึก Word เป็น Markdown – คู่มือเต็มเพื่อแปลง DOCX เป็น MD พร้อมสมการ LaTeX](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/)
+
+### [สร้างโฟลเดอร์ assets ขณะแปลง Word เป็น Markdown ใน C#](./create-assets-folder-while-converting-word-to-markdown-in-c/)
+สร้างโฟลเดอร์ assets เพื่อจัดเก็บรูปภาพและไฟล์อื่น ๆ ระหว่างการแปลง Word เป็น Markdown ด้วย C#
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

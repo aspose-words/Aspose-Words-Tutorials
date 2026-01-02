@@ -33,7 +33,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Jangkar Vertikal](./vertical-anchor/) | Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan.Bahasa Indonesia:
 | [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia:
 | [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
-
+| [Buat Dokumen Word dengan Bentuk Persegi Panjang dan Bayangan – Panduan Lengkap](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Pelajari cara membuat dokumen Word dengan menambahkan bentuk persegi panjang dan efek bayangan menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

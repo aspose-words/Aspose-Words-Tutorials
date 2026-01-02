@@ -45,14 +45,13 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Zuletzt gedruckte Eigenschaft im PDF-Dokument aktualisieren](./update-last-printed-property/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die zuletzt gedruckte Eigenschaft in einem PDF-Dokument mit Aspose.Words für .NET aktualisieren. |
 | [Rendern Sie 3D-DML-3DEffects in einem PDF-Dokument](./dml-3deffects-rendering/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET beeindruckende 3D-DML-Effekte in PDF-Dokumenten rendern. |
 | [Interpolieren von Bildern in einem PDF-Dokument](./interpolate-images/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Bilder in einem PDF-Dokument interpolieren. Verbessern Sie ganz einfach die Bildqualität Ihres PDFs. |
-
+| [DOCX als PDF speichern mit Aspose.Words – C#‑Leitfaden](./save-docx-as-pdf-with-aspose-words-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in PDF konvertieren – ein C#‑Leitfaden. |
+| [Dokument als PDF mit Aspose speichern – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-document-as-pdf-with-aspose-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Dokument als PDF speichern – ein vollständiger Schritt‑für‑Schritt‑Leitfaden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

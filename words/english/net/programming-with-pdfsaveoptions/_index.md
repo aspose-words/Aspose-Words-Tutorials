@@ -46,7 +46,8 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Update Last Printed Property in PDF Document](./update-last-printed-property/) | Learn how to update the last printed property in a PDF document using Aspose.Words for .NET with our step-by-step guide. |
 | [Render 3D DML 3DEffects in a PDF Document](./dml-3deffects-rendering/) | Learn how to render stunning 3D DML effects in PDF documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Interpolate Images in a PDF Document](./interpolate-images/) | Learn how to interpolate images in a PDF document using Aspose.Words for .NET with our step-by-step guide. Improve your PDF's image quality easily. |
-
+| [Save docx as pdf with Aspose.Words – C# Guide](./save-docx-as-pdf-with-aspose-words-c-guide/) | Learn how to convert DOCX files to PDF using Aspose.Words in C# with step-by-step instructions. |
+| [Save Document as PDF with Aspose – Complete Step‑by‑Step Guide](./save-document-as-pdf-with-aspose-complete-step-by-step-guide/) | Learn how to convert and save Word documents as PDF using Aspose.Words for .NET with a comprehensive step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

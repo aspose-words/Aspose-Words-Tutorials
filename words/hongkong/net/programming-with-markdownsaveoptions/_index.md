@@ -27,6 +27,8 @@
 | [建立可存取的 PDF 並將 Word 轉換為 Markdown – 完整 C# 指南](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) |示範如何使用 Aspose.Words for .NET 產生符合無障礙標準的 PDF，並將 Word 文件轉換為 Markdown，完整 C# 範例。 |
 | [如何使用 Markdown：將 DOCX 轉換為含 LaTeX 方程式的 Markdown](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) |示範如何使用 Aspose.Words for .NET 將含 LaTeX 方程式的 DOCX 文件匯出為 Markdown 格式。 |
 | [將 docx 轉換為 markdown – 步驟說明 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 文件逐步轉換為 Markdown 格式。 |
+| [將 Word 儲存為 Markdown – 完整指南：將 DOCX 轉換為含 LaTeX 方程式的 MD](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/) |示範如何使用 Aspose.Words for .NET 將 Word 文件匯出為 Markdown，並正確保留 LaTeX 方程式。 |
+| [在 C# 中將 Word 轉換為 Markdown 時建立資產資料夾](./create-assets-folder-while-converting-word-to-markdown-in-c/) |示範如何在使用 Aspose.Words for .NET 將 Word 轉換為 Markdown 時自動建立資產資料夾。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

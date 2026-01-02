@@ -30,10 +30,10 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Elrendezés a cellában](./layout-in-cell/) | Tanulja meg, hogyan állíthatja be a cellák elrendezését az Aspose.Words for .NET használatával ebből az átfogó útmutatóból. Tökéletes azoknak a fejlesztőknek, akik testre szeretnék szabni a Word-dokumentumokat. |
 | [Sarkok hozzávágása](./add-corners-snipped/) | Ismerje meg, hogyan adhat hozzá sarkokból kivágott alakzatot Word-dokumentumaihoz az Aspose.Words for .NET segítségével. Ez a lépésről lépésre szóló útmutató biztosítja, hogy könnyedén javíthassa dokumentumait. |
 | [Tényleges alakhatárok pontjainak lekérése](./get-actual-shape-bounds-points/) | Fedezze fel, hogyan lehet a tényleges alakzathatárokat Word-dokumentumokban lekérni az Aspose.Words for .NET segítségével. Tanuljon meg pontos alakzatmanipulációt ezzel a részletes útmutatóval. |
-| [Függőleges horgony](./vertical-anchor/) | Tanulja meg, hogyan állíthat be függőleges horgonypontokat a szövegdobozokhoz Word-dokumentumokban az Aspose.Words for .NET segítségével. Egyszerű, lépésről lépésre útmutató mellékelve.
+| [Függőleges horgony](./vertical-anchor/) | Tanulja meg, hogyan állíthat be függőleges horgonypontokat a szövegdobozokhoz Word-dokumentumokban az Aspose.Words for .NET segítségével. Egyszerű, lépésről lépésre útmutató mellékelve. |
 | [Smart Art alakzat észlelése](./detect-smart-art-shape/) | Tanulja meg, hogyan észlelheti a SmartArt alakzatokat Word-dokumentumokban az Aspose.Words for .NET segítségével ebből az átfogó útmutatóból. Tökéletes a dokumentum-munkafolyamatok automatizálásához. |
 | [Smart Art rajz frissítése](./update-smart-art-drawing/) | Tanulja meg, hogyan frissítheti a Smart Art rajzokat Word dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Gondoskodjon arról, hogy a vizuális elemek mindig pontosak legyenek. |
-
+| [Word-dokumentum létrehozása téglalap alakzattal és árnyékkal – Teljes útmutató](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Ismerje meg, hogyan hozhat létre Word-dokumentumot téglalap alakzattal és árnyékkal az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

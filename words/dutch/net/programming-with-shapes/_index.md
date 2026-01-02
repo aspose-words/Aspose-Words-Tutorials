@@ -33,7 +33,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Verticale anker](./vertical-anchor/) | Leer hoe u verticale ankerposities voor tekstvakken in Word-documenten instelt met Aspose.Words voor .NET. Inclusief eenvoudige stapsgewijze handleiding.|
 | [Detecteer slimme kunstvorm](./detect-smart-art-shape/) | Leer hoe u SmartArt-vormen in Word-documenten kunt detecteren met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor het automatiseren van uw documentworkflow. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
-
+| [Maak Word-document met rechthoekige vorm en schaduw – Complete gids](./create-word-document-with-rectangle-shape-and-shadow-complet/) | Leer hoe u een Word-document maakt met een rechthoekige vorm en schaduw, stap voor stap met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

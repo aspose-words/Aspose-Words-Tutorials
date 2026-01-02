@@ -32,7 +32,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [跳过 PDF 图像](./skip-pdf-images/) 了解如何使用 Aspose.Words for .NET 加载 PDF 文档时跳过图片。按照本分步指南操作，即可实现无缝文本提取。|
 | [将图元文件转换为 Png](./convert-metafiles-to-png/) | 按照本分步教程，使用 Aspose.Words for .NET 轻松将 Word 文档中的元文件转换为 PNG。简化您的文档管理。|
 | [在 Word 文档中加载 Chm 文件](./load-chm/) 按照本分步教程，使用 Aspose.Words for .NET 轻松将 CHM 文件加载到 Word 文档中。非常适合整合您的技术文档。|
-
+| [如何使用 Aspose.Words 恢复 DOCX 文件 – 步骤指南](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/) 了解如何使用 Aspose.Words 逐步恢复受损的 DOCX 文件，确保文档完整性。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

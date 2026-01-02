@@ -27,6 +27,8 @@
 | [접근성 PDF 만들기 및 Word를 Markdown으로 변환 – 전체 C# 가이드](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Aspose.Words for .NET을 사용하여 접근성 PDF를 생성하고 Word를 Markdown으로 변환하는 전체 C# 가이드 |
 | [Markdown 사용 방법: LaTeX 수식이 포함된 DOCX를 Markdown으로 변환](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 DOCX 파일을 정확히 Markdown으로 변환하는 단계별 가이드 |
 | [docx를 markdown으로 변환 – 단계별 C# 가이드](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 단계별 C# 가이드 |
+| [Word를 Markdown으로 저장 – LaTeX 수식이 포함된 DOCX를 MD로 변환하는 완전 가이드](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/) | Aspose.Words for .NET을 활용해 LaTeX 수식이 포함된 DOCX를 Markdown(MD)으로 변환하는 완전 가이드. |
+| [C#에서 Word를 Markdown으로 변환할 때 assets 폴더 만들기](./create-assets-folder-while-converting-word-to-markdown-in-c/) | Aspose.Words for .NET을 사용하여 Word를 Markdown으로 변환하면서 assets 폴더를 생성하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

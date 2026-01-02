@@ -25,11 +25,16 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 | [Ustaw folder obrazów](./set-images-folder/) Konwertuj dokumenty Word do Markdown z odpowiednim wyrównaniem tabeli za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać idealne wyniki. |
 | [Jak używać Markdown: konwertuj DOCX do Markdown z równaniami LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Dowiedz się, jak konwertować dokumenty DOCX do formatu Markdown, zachowując równania LaTeX przy użyciu Aspose.Words dla .NET. |
 | [Konwertuj docx do markdown – Przewodnik krok po kroku w C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Dowiedz się, jak krok po kroku konwertować pliki DOCX do formatu Markdown w C# przy użyciu Aspose.Words. |
+| [Utwórz folder zasobów podczas konwertowania Word do Markdown w C#](./create-assets-folder-while-converting-word-to-markdown-in-c/) | Dowiedz się, jak automatycznie tworzyć folder zasobów przy konwersji Word do Markdown w C# przy użyciu Aspose.Words. |
 
 ### [Zapisz dokument Word jako PDF i odzyskaj uszkodzony Word – konwertuj Word na Markdown w C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 ### [Utwórz dostępny PDF i konwertuj Word do Markdown – Pełny przewodnik C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentów Word do formatu Markdown.
+
+### [Zapisz dokument Word jako Markdown – Kompletny przewodnik konwersji DOCX do MD z równaniami LaTeX](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/)
+
+Pełny przewodnik krok po kroku, jak zapisać dokument Word w formacie Markdown, zachowując równania LaTeX.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

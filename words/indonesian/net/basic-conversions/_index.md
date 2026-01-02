@@ -32,7 +32,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi File Teks Ke Dokumen Word](./txt-to-docx/) | Pelajari cara mengonversi berkas teks ke dokumen Word menggunakan Aspose.Words untuk .NET. Kelola konversi dokumen secara efisien dengan panduan lengkap kami. Bahasa Indonesia: 
 | [Simpan Pdf sebagai Jpeg](./pdf-to-jpeg/) | Ubah PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar. Bahasa Indonesia:
 | [Simpan PDF ke Format Word (Docx)](./pdf-to-docx/) | Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang. |
-
+| [Konversi docx ke LaTeX – Panduan Cepat Mengekspor Matematika sebagai Teks](./convert-docx-to-latex-quick-guide-to-export-math-as-text/) | Pelajari cara mengonversi file DOCX ke LaTeX dengan mengekspor persamaan matematika sebagai teks menggunakan Aspose.Words untuk .NET. |
+| [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Panduan lengkap C# untuk menyimpan dokumen Word sebagai PDF menggunakan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

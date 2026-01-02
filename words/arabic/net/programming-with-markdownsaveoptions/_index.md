@@ -32,6 +32,10 @@
 
 ### [تحويل docx إلى markdown – دليل خطوة بخطوة C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [حفظ Word كـ Markdown – دليل كامل لتحويل DOCX إلى MD مع معادلات LaTeX](./save-word-as-markdown-complete-guide-to-convert-docx-to-md-w/)
+
+### [إنشاء مجلد الأصول أثناء تحويل Word إلى Markdown في C#](./create-assets-folder-while-converting-word-to-markdown-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
