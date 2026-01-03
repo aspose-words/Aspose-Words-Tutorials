@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách trích xuất nội dung hiệu quả từ tài liệu Word bằng Aspose.Words for Java. Khám phá các phương pháp trợ giúp, định dạng tùy chỉnh và nhiều hơn nữa trong hướng dẫn toàn diện này."
-"linktitle": "Phương pháp trợ giúp để trích xuất nội dung"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/helper-methods-for-extracting-content/"
-"weight": 14
+date: 2026-01-03
+description: Tìm hiểu cách trích xuất các phần từ tài liệu Word một cách hiệu quả
+  bằng Aspose.Words cho Java. Khám phá các phương thức trợ giúp, định dạng tùy chỉnh
+  và nhiều hơn nữa.
+linktitle: Helper Methods for Extracting Content
+second_title: Aspose.Words Java Document Processing API
+title: Trích xuất các phần từ Word bằng Aspose.Words cho Java
+url: /vi/java/document-manipulation/helper-methods-for-extracting-content/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,26 +16,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java
+# Trích xuất các phần từ Word bằng Aspose.Words cho Java
 
+## Giới thiệu về các phương thức trợ giúp để trích xuất nội dung trong Aspose.Words cho Java
 
-## Giới thiệu về các phương pháp trợ giúp để trích xuất nội dung trong Aspose.Words cho Java
+Aspose.Words cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với tài liệu Word một cách lập trình. Một nhiệm vụ phổ biến khi làm việc với tài liệu Word là trích xuất nội dung từ chúng. Trong bài viết này, chúng tôi sẽ hướng dẫn qua một số **phương thức trợ giúp** giúp bạn **trích xuất các phần từ word** một cách hiệu quả, tùy chỉnh định dạng, và thậm chí tạo tài liệu mới ngay lập tức.
 
-Aspose.Words for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Word theo chương trình. Một nhiệm vụ phổ biến khi làm việc với các tài liệu Word là trích xuất nội dung từ chúng. Trong bài viết này, chúng ta sẽ khám phá một số phương pháp trợ giúp để trích xuất nội dung hiệu quả bằng Aspose.Words for Java.
+## Câu trả lời nhanh
+- **Tôi có thể trích xuất gì?** Các đoạn văn, bảng, hoặc bất kỳ nút cấp khối nào giữa hai dấu đánh dấu.  
+- **Phương thức nào trích xuất theo kiểu?** `paragraphsByStyleName` – hoàn hảo cho tiêu đề hoặc trích dẫn khối.  
+- **Cách trích xuất giữa các nút?** Sử dụng `extractContentBetweenNodes` – xử lý các dấu đánh dấu nội tuyến, bookmark và trường.  
+- **Tôi có thể tạo tài liệu mới không?** Có, `generateDocument` nhập danh sách nút trong khi giữ nguyên định dạng nguồn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## “Trích xuất các phần từ word” là gì?
+Trích xuất các phần từ Word có nghĩa là lập trình lấy ra các phần cụ thể của tệp `.docx` hoặc `.doc` — chẳng hạn như một nhóm đoạn văn, một bảng, hoặc một phạm vi được xác định bởi các nút bắt đầu và kết thúc — để bạn có thể tái sử dụng, phân tích hoặc chuyển đổi nội dung đó sang nơi khác.
 
-Trước khi chúng ta đi sâu vào các ví dụ mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Words for Java trong dự án Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
+## Tại sao sử dụng các phương thức trợ giúp của Aspose.Words?
+- **Tốc độ & độ tin cậy:** Các API tích hợp sẵn xử lý cấu trúc Word phức tạp mà không cần bạn viết mã phân tích cấp thấp.  
+- **Bảo toàn định dạng:** Các nút được nhập khẩu với các kiểu gốc, vì vậy nội dung đã trích xuất trông giống hệt nguồn.  
+- **Linh hoạt:** Bạn có thể nhắm vào các kiểu, phạm vi nút cụ thể, hoặc tạo hoàn toàn tài liệu mới.  
 
-## Phương pháp trợ giúp 1: Trích xuất đoạn văn theo phong cách
+## Yêu cầu trước
+
+Trước khi chúng ta đi vào các ví dụ mã, hãy chắc chắn rằng bạn đã cài đặt Aspose.Words cho Java và cấu hình trong dự án Java của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
+
+## Phương thức trợ giúp 1: Trích xuất các đoạn văn theo Kiểu
 
 ```java
 public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String styleName) {
-    // Tạo một mảng để thu thập các đoạn văn có kiểu được chỉ định.
+    // Create an array to collect paragraphs of the specified style.
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // Xem qua tất cả các đoạn văn để tìm những đoạn văn có phong cách được chỉ định.
+    // Look through all paragraphs to find those with the specified style.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -41,99 +58,99 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
 }
 ```
 
-Bạn có thể sử dụng phương pháp này để trích xuất các đoạn văn có kiểu cụ thể trong tài liệu Word của mình. Điều này hữu ích khi bạn muốn trích xuất nội dung có định dạng cụ thể, chẳng hạn như tiêu đề hoặc trích dẫn khối.
+Bạn có thể sử dụng phương thức này để trích xuất các đoạn văn có một kiểu cụ thể trong tài liệu Word của bạn. Điều này hữu ích khi bạn muốn lấy nội dung có định dạng đặc biệt, chẳng hạn như tiêu đề hoặc trích dẫn khối.
 
-## Phương pháp trợ giúp 2: Trích xuất nội dung theo nút
+## Phương thức trợ giúp 2: Trích xuất nội dung giữa các nút
 
 ```java
 public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node endNode, boolean isInclusive) {
-    // Đầu tiên, hãy kiểm tra xem các nút được truyền vào phương pháp này có hợp lệ để sử dụng hay không.
+    // First, check that the nodes passed to this method are valid for use.
     verifyParameterNodes(startNode, endNode);
     
-    // Tạo danh sách để lưu trữ các nút đã trích xuất.
+    // Create a list to store the extracted nodes.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // Nếu bất kỳ dấu hiệu nào là một phần của bình luận, bao gồm cả chính bình luận đó, chúng ta cần di chuyển con trỏ
-    // chuyển tiếp đến Nút Bình luận được tìm thấy sau nút CommentRangeEnd.
+    // If either marker is part of a comment, including the comment itself, we need to move the pointer
+    // forward to the Comment Node found after the CommentRangeEnd node.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
         if (node != null)
             endNode = node;
     }
     
-    // Lưu lại bản ghi các nút gốc được truyền cho phương pháp này để phân tách các nút đánh dấu nếu cần.
+    // Keep a record of the original nodes passed to this method to split marker nodes if needed.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    // Trích xuất nội dung dựa trên các nút cấp khối (đoạn văn và bảng). Duyệt qua các nút cha để tìm chúng.
-    // Chúng tôi sẽ tách nội dung của nút đầu tiên và nút cuối cùng, tùy thuộc vào việc các nút đánh dấu có nằm trong dòng hay không.
+    // Extract content based on block-level nodes (paragraphs and tables). Traverse through parent nodes to find them.
+    // We will split the first and last nodes' content, depending on whether the marker nodes are inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
     boolean isExtracting = true;
     boolean isStartingNode = true;
-    // Nút hiện tại mà chúng ta đang trích xuất từ tài liệu.
+    // The current node we are extracting from the document.
     Node currNode = startNode;
 
-    // Bắt đầu trích xuất nội dung. Xử lý tất cả các nút cấp khối và tách riêng nút đầu tiên
-    // và các nút cuối cùng khi cần thiết để định dạng đoạn văn được giữ nguyên.
-    // Phương pháp này phức tạp hơn một chút so với phương pháp trích xuất thông thường vì chúng ta cần phải phân tích
-    // trong việc trích xuất bằng cách sử dụng các nút nội tuyến, trường, dấu trang, v.v. để làm cho nó hữu ích.
+    // Begin extracting content. Process all block-level nodes and specifically split the first
+    // and last nodes when needed so paragraph formatting is retained.
+    // This method is a little more complicated than a regular extractor as we need to factor
+    // in extracting using inline nodes, fields, bookmarks, etc., to make it useful.
     while (isExtracting) {
-        // Sao chép nút hiện tại và các nút con của nó để có được một bản sao.
+        // Clone the current node and its children to obtain a copy.
         Node cloneNode = currNode.deepClone(true);
         boolean isEndingNode = currNode.equals(endNode);
         if (isStartingNode || isEndingNode) {
-            // Chúng ta cần xử lý từng điểm đánh dấu riêng biệt, vì vậy hãy chuyển nó sang một phương pháp riêng biệt.
-            // Đầu tiên, phần End phải được xử lý để giữ lại chỉ mục của nút.
+            // We need to process each marker separately, so pass it off to a separate method instead.
+            // End should be processed at first to keep node indexes.
             if (isEndingNode) {
-                // !isStartingNode: không thêm nút hai lần nếu các điểm đánh dấu là cùng một nút.
+                // !isStartingNode: don't add the node twice if the markers are the same node.
                 processMarker(cloneNode, nodes, originalEndNode, currNode, isInclusive,
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            // Điều kiện cần phải tách biệt vì điểm bắt đầu và kết thúc ở cấp độ khối có thể là cùng một nút.
+            // Conditional needs to be separate as the block level start and end markers may be the same node.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
                 isStartingNode = false;
             }
         } else
-            // Node không phải là điểm bắt đầu hoặc kết thúc, chỉ cần thêm bản sao vào danh sách.
+            // Node is not a start or end marker, simply add the copy to the list.
             nodes.add(cloneNode);
 
-        // Di chuyển đến nút tiếp theo và trích xuất nó. Nếu nút tiếp theo là null,
-        // phần nội dung còn lại có thể tìm thấy ở một mục khác.
+        // Move to the next node and extract it. If the next node is null,
+        // the rest of the content is found in a different section.
         if (currNode.getNextSibling() == null && isExtracting) {
-            // Chuyển sang phần tiếp theo.
+            // Move to the next section.
             Section nextSection = (Section) currNode.getAncestor(NodeType.SECTION).getNextSibling();
             currNode = nextSection.getBody().getFirstChild();
         } else {
-            // Di chuyển đến nút tiếp theo trong thân.
+            // Move to the next node in the body.
             currNode = currNode.getNextSibling();
         }
     }
 
-    // Để tương thích với chế độ có dấu trang nội tuyến, hãy thêm đoạn văn tiếp theo (trống).
+    // For compatibility with mode with inline bookmarks, add the next paragraph (empty).
     if (isInclusive && originalEndNode == endNode && !originalEndNode.isComposite())
         includeNextParagraph(endNode, nodes);
 
-    // Trả về các nút nằm giữa các điểm đánh dấu nút.
+    // Return the nodes between the node markers.
     return nodes;
 }
 ```
 
-Phương pháp này cho phép bạn trích xuất nội dung giữa hai nút được chỉ định, cho dù chúng là đoạn văn, bảng hay bất kỳ phần tử cấp khối nào khác. Nó xử lý nhiều tình huống khác nhau, bao gồm các dấu trang nội tuyến, trường và dấu trang.
+Phương thức này cho phép bạn **trích xuất giữa các nút**, bất kể chúng là đoạn văn, bảng, hoặc bất kỳ phần tử cấp khối nào khác. Nó xử lý nhiều kịch bản, bao gồm dấu đánh dấu nội tuyến, trường và bookmark.
 
-## Phương pháp trợ giúp 3: Tạo một tài liệu mới
+## Phương thức trợ giúp 3: Tạo tài liệu mới
 
 ```java
 public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) throws Exception {
     Document dstDoc = new Document();
     
-    // Xóa đoạn văn đầu tiên khỏi tài liệu trống.
+    // Remove the first paragraph from the empty document.
     dstDoc.getFirstSection().getBody().removeAllChildren();
     
-    // Nhập từng nút từ danh sách vào tài liệu mới. Giữ nguyên định dạng gốc của nút.
+    // Import each node from the list into the new document. Keep the original formatting of the node.
     NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
     for (Node node : nodes) {
         Node importNode = importer.importNode(node, true);
@@ -144,41 +161,46 @@ public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) 
 }
 ```
 
-Phương pháp này cho phép bạn tạo một tài liệu mới bằng cách nhập danh sách các nút từ tài liệu nguồn. Nó giữ nguyên định dạng gốc của các nút, giúp tạo tài liệu mới có nội dung cụ thể.
+Phương thức này cho phép bạn **tạo một tài liệu Word mới** (hoặc *generate document java*) bằng cách nhập khẩu một danh sách các nút từ tài liệu nguồn. Nó giữ nguyên định dạng gốc của các nút, rất hữu ích khi tạo tài liệu mới với nội dung cụ thể.
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
 
-Trích xuất nội dung từ tài liệu Word có thể là một phần quan trọng của nhiều tác vụ xử lý tài liệu. Aspose.Words for Java cung cấp các phương thức trợ giúp mạnh mẽ giúp đơn giản hóa quy trình này. Cho dù bạn cần trích xuất đoạn văn theo kiểu, nội dung giữa các nút hay tạo tài liệu mới, các phương thức này sẽ giúp bạn làm việc hiệu quả với tài liệu Word trong các ứng dụng Java của mình.
+- **Trích xuất tất cả tiêu đề** từ một báo cáo lớn để xây dựng mục lục động.  
+- **Lấy ra các bảng** chứa dữ liệu tài chính để phân tích riêng – bạn có thể kết hợp với từ khóa *aspose words extract tables*.  
+- **Tạo một chương tùy chỉnh** bằng cách trích xuất một phạm vi các phần và sau đó **tạo tài liệu Word mới** để phân phối.  
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Words cho Java?
+### Làm thế nào tôi có thể cài đặt Aspose.Words cho Java?
 
-Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống từ trang web Aspose. Truy cập [đây](https://releases.aspose.com/words/java/) để có phiên bản mới nhất.
+Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống từ trang web Aspose. Truy cập [đây](https://releases.aspose.com/words/java/) để nhận phiên bản mới nhất.
 
 ### Tôi có thể trích xuất nội dung từ các phần cụ thể của tài liệu Word không?
 
-Có, bạn có thể trích xuất nội dung từ các phần cụ thể của tài liệu Word bằng các phương pháp được đề cập trong bài viết này. Chỉ cần chỉ định các nút bắt đầu và kết thúc xác định phần bạn muốn trích xuất.
+Có, bạn có thể trích xuất nội dung từ các phần cụ thể của tài liệu Word bằng các phương thức đã đề cập trong bài viết này. Chỉ cần chỉ định các nút bắt đầu và kết thúc xác định phần bạn muốn trích xuất.
 
-### Aspose.Words for Java có tương thích với Java 11 không?
+### Aspose.Words cho Java có tương thích với Java 11 không?
 
-Có, Aspose.Words for Java tương thích với Java 11 và các phiên bản cao hơn. Bạn có thể sử dụng nó trong các ứng dụng Java của mình mà không gặp bất kỳ sự cố nào.
+Có, Aspose.Words cho Java tương thích với Java 11 và các phiên bản cao hơn. Bạn có thể sử dụng nó trong các ứng dụng Java của mình mà không gặp vấn đề nào.
 
-### Tôi có thể tùy chỉnh định dạng của nội dung được trích xuất không?
+### Tôi có thể tùy chỉnh định dạng của nội dung đã trích xuất không?
 
-Có, bạn có thể tùy chỉnh định dạng của nội dung được trích xuất bằng cách sửa đổi các nút đã nhập trong tài liệu được tạo. Aspose.Words for Java cung cấp các tùy chọn định dạng mở rộng để đáp ứng nhu cầu của bạn.
+Có, bạn có thể tùy chỉnh định dạng của nội dung đã trích xuất bằng cách chỉnh sửa các nút đã nhập trong tài liệu được tạo. Aspose.Words cho Java cung cấp các tùy chọn định dạng phong phú để đáp ứng nhu cầu của bạn.
 
-### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Words cho Java ở đâu?
+### Tôi có thể tìm thêm tài liệu và ví dụ cho Aspose.Words cho Java ở đâu?
 
-Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Words for Java trên trang web Aspose. Truy cập [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để biết thêm tài liệu và nguồn thông tin chi tiết.
+Bạn có thể tìm tài liệu và ví dụ chi tiết cho Aspose.Words cho Java trên trang web Aspose. Truy cập [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) để xem tài liệu và tài nguyên chi tiết.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-03  
+**Đã kiểm tra với:** Aspose.Words cho Java 24.11  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

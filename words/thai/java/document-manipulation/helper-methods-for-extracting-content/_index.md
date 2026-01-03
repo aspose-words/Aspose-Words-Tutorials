@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้วิธีแยกเนื้อหาจากเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Java สำรวจวิธีการช่วยเหลือ การจัดรูปแบบแบบกำหนดเอง และอื่นๆ อีกมากมายในคู่มือที่ครอบคลุมนี้"
-"linktitle": "วิธีช่วยเหลือในการแยกเนื้อหา"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "วิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-manipulation/helper-methods-for-extracting-content/"
-"weight": 14
+date: 2026-01-03
+description: เรียนรู้วิธีดึงส่วนต่าง ๆ จากเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words
+  for Java. สำรวจเมธอดช่วยเหลือ การจัดรูปแบบแบบกำหนดเอง และอื่น ๆ อีกมาก
+linktitle: Helper Methods for Extracting Content
+second_title: Aspose.Words Java Document Processing API
+title: ดึงส่วนจาก Word ด้วย Aspose.Words สำหรับ Java
+url: /th/java/document-manipulation/helper-methods-for-extracting-content/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,26 +15,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java
+# สกัดส่วนต่าง ๆ จาก Word ด้วย Aspose.Words for Java
 
+## บทนำสู่เมธอดช่วยเหลือสำหรับการสกัดเนื้อหาใน Aspose.Words for Java
 
-## การแนะนำวิธีช่วยเหลือในการแยกเนื้อหาใน Aspose.Words สำหรับ Java
+Aspose.Words for Java เป็นไลบรารีที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Word อย่างโปรแกรมเมติก หนึ่งในงานทั่วไปเมื่อทำงานกับเอกสาร Word คือการสกัดเนื้อหาออกจากเอกสาร ในบทความนี้เราจะพาไปดู **เมธอดช่วยเหลือ** หลาย ๆ ตัวที่ทำให้คุณ **สกัดส่วนต่าง ๆ จาก word** ได้อย่างมีประสิทธิภาพ ปรับแต่งรูปแบบ และแม้กระทั่งสร้างเอกสารใหม่แบบทันที
 
-Aspose.Words for Java เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Word ได้ด้วยการเขียนโปรแกรม งานทั่วไปอย่างหนึ่งเมื่อทำงานกับเอกสาร Word คือการแยกเนื้อหาจากเอกสาร ในบทความนี้ เราจะมาสำรวจวิธีช่วยเหลือบางอย่างสำหรับการแยกเนื้อหาอย่างมีประสิทธิภาพโดยใช้ Aspose.Words for Java
+## Quick Answers
+- **ฉันสามารถสกัดอะไรได้บ้าง?** ย่อหน้า, ตาราง, หรือโหนดระดับบล็อกใด ๆ ระหว่างสองเครื่องหมาย.  
+- **เมธอดใดสกัดตามสไตล์?** `paragraphsByStyleName` – เหมาะสำหรับหัวเรื่องหรือบล็อกคอท.  
+- **จะสกัดระหว่างโหนดอย่างไร?** ใช้ `extractContentBetweenNodes` – จัดการเครื่องหมายในบรรทัด, บุ๊กมาร์ก, และฟิลด์.  
+- **ฉันสามารถสร้างเอกสารใหม่ได้หรือไม่?** ได้, `generateDocument` นำเข้ารายการโหนดพร้อมคงรูปแบบต้นฉบับ.  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.
 
-## ข้อกำหนดเบื้องต้น
+## “สกัดส่วนต่าง ๆ จาก Word” คืออะไร?
+การสกัดส่วนต่าง ๆ จาก Word หมายถึงการดึงส่วนเฉพาะของไฟล์ `.docx` หรือ `.doc` อย่างเช่นกลุ่มย่อหน้า, ตาราง, หรือช่วงที่กำหนดโดยโหนดเริ่มต้นและโหนดสิ้นสุดออกมาโดยโปรแกรมเมติก เพื่อให้คุณสามารถนำไปใช้ใหม่, วิเคราะห์, หรือปรับใช้เนื้อหานั้นในที่อื่นได้
 
-ก่อนที่เราจะเจาะลึกตัวอย่างโค้ด ให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่า Aspose.Words สำหรับ Java ในโปรเจ็กต์ Java ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
+## ทำไมต้องใช้เมธอดช่วยเหลือของ Aspose.Words?
+- **ความเร็วและความน่าเชื่อถือ:** API ในตัวจัดการโครงสร้าง Word ที่ซับซ้อนได้โดยไม่ต้องเขียนโค้ดการพาร์เซระดับต่ำ.  
+- **การคงรูปแบบ:** โหนดถูกนำเข้าพร้อมสไตล์เดิม ทำให้เนื้อหาที่สกัดดูเหมือนต้นฉบับ.  
+- **ความยืดหยุ่น:** คุณสามารถกำหนดเป้าหมายตามสไตล์, ช่วงโหนดเฉพาะ, หรือสร้างเอกสารใหม่ทั้งหมด.  
 
-## วิธีช่วยเหลือ 1: การแยกย่อหน้าตามรูปแบบ
+## Prerequisites
+
+ก่อนที่เราจะลงลึกในตัวอย่างโค้ด โปรดตรวจสอบว่าคุณได้ติดตั้ง Aspose.Words for Java แล้วและตั้งค่าในโปรเจกต์ Java ของคุณเรียบร้อย คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/words/java/).
+
+## Helper Method 1: Extracting Paragraphs by Style
 
 ```java
 public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String styleName) {
-    // สร้างอาร์เรย์เพื่อรวบรวมย่อหน้าที่มีรูปแบบที่ระบุ
+    // Create an array to collect paragraphs of the specified style.
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // ดูผ่านย่อหน้าทั้งหมดเพื่อค้นหาย่อหน้าที่มีรูปแบบที่กำหนด
+    // Look through all paragraphs to find those with the specified style.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -41,99 +57,99 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
 }
 ```
 
-คุณสามารถใช้วิธีนี้เพื่อแยกย่อหน้าที่มีรูปแบบเฉพาะในเอกสาร Word ของคุณได้ ซึ่งมีประโยชน์เมื่อคุณต้องการแยกเนื้อหาที่มีการจัดรูปแบบเฉพาะ เช่น หัวเรื่องหรือเครื่องหมายคำพูดแบบบล็อก
+คุณสามารถใช้เมธอดนี้เพื่อสกัดย่อหน้าที่มีสไตล์เฉพาะในเอกสาร Word ของคุณ ซึ่งเป็นประโยชน์เมื่อคุณต้องการสกัดเนื้อหาที่มีรูปแบบเฉพาะ เช่นหัวเรื่องหรือบล็อกคอท
 
-## วิธีช่วยเหลือ 2: การแยกเนื้อหาโดยโหนด
+## Helper Method 2: Extracting Content Between Nodes
 
 ```java
 public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node endNode, boolean isInclusive) {
-    // ก่อนอื่น ตรวจสอบว่าโหนดที่ส่งผ่านมายังวิธีนี้สามารถใช้ได้หรือไม่
+    // First, check that the nodes passed to this method are valid for use.
     verifyParameterNodes(startNode, endNode);
     
-    // สร้างรายการเพื่อจัดเก็บโหนดที่แยกออกมา
+    // Create a list to store the extracted nodes.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // หากเครื่องหมายใดเครื่องหมายหนึ่งเป็นส่วนหนึ่งของความคิดเห็น รวมถึงความคิดเห็นนั้นเอง เราจำเป็นต้องย้ายตัวชี้
-    // ส่งต่อไปยังโหนดความคิดเห็นที่พบหลังจากโหนด CommentRangeEnd
+    // If either marker is part of a comment, including the comment itself, we need to move the pointer
+    // forward to the Comment Node found after the CommentRangeEnd node.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
         if (node != null)
             endNode = node;
     }
     
-    // เก็บบันทึกของโหนดดั้งเดิมที่ส่งไปยังวิธีการนี้เพื่อแยกโหนดมาร์กเกอร์หากจำเป็น
+    // Keep a record of the original nodes passed to this method to split marker nodes if needed.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    // แยกเนื้อหาตามโหนดระดับบล็อก (ย่อหน้าและตาราง) สำรวจโหนดหลักเพื่อค้นหา
-    // เราจะแยกเนื้อหาของโหนดแรกและโหนดสุดท้าย ขึ้นอยู่กับว่าโหนดมาร์กเกอร์เป็นแบบอินไลน์หรือไม่
+    // Extract content based on block-level nodes (paragraphs and tables). Traverse through parent nodes to find them.
+    // We will split the first and last nodes' content, depending on whether the marker nodes are inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
     boolean isExtracting = true;
     boolean isStartingNode = true;
-    // โหนดปัจจุบันที่เรากำลังแยกออกมาจากเอกสาร
+    // The current node we are extracting from the document.
     Node currNode = startNode;
 
-    // เริ่มแยกเนื้อหา ประมวลผลโหนดระดับบล็อกทั้งหมดและแยกส่วนแรกโดยเฉพาะ
-    // และโหนดสุดท้ายเมื่อจำเป็นเพื่อให้การจัดรูปแบบย่อหน้ายังคงอยู่
-    // วิธีนี้ซับซ้อนกว่าเครื่องสกัดปกติเล็กน้อย เนื่องจากเราจำเป็นต้องแยกปัจจัย
-    // ในการดึงข้อมูลโดยใช้โหนดอินไลน์, ฟิลด์, บุ๊กมาร์ก ฯลฯ เพื่อให้เป็นประโยชน์
+    // Begin extracting content. Process all block-level nodes and specifically split the first
+    // and last nodes when needed so paragraph formatting is retained.
+    // This method is a little more complicated than a regular extractor as we need to factor
+    // in extracting using inline nodes, fields, bookmarks, etc., to make it useful.
     while (isExtracting) {
-        // โคลนโหนดปัจจุบันและโหนดย่อยเพื่อรับสำเนา
+        // Clone the current node and its children to obtain a copy.
         Node cloneNode = currNode.deepClone(true);
         boolean isEndingNode = currNode.equals(endNode);
         if (isStartingNode || isEndingNode) {
-            // เราจำเป็นต้องประมวลผลเครื่องหมายแต่ละตัวแยกกัน ดังนั้นจึงส่งต่อไปยังวิธีการแยกกันแทน
-            // ควรดำเนินการขั้นแรกเพื่อคงดัชนีโหนดไว้
+            // We need to process each marker separately, so pass it off to a separate method instead.
+            // End should be processed at first to keep node indexes.
             if (isEndingNode) {
-                // !isStartingNode: อย่าเพิ่มโหนดสองครั้ง หากเครื่องหมายเป็นโหนดเดียวกัน
+                // !isStartingNode: don't add the node twice if the markers are the same node.
                 processMarker(cloneNode, nodes, originalEndNode, currNode, isInclusive,
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            // เงื่อนไขจะต้องแยกจากกัน เนื่องจากเครื่องหมายเริ่มต้นและสิ้นสุดที่ระดับบล็อกอาจเป็นโหนดเดียวกัน
+            // Conditional needs to be separate as the block level start and end markers may be the same node.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
                 isStartingNode = false;
             }
         } else
-            // โหนดไม่ใช่เครื่องหมายเริ่มต้นหรือจุดสิ้นสุด เพียงเพิ่มสำเนาลงในรายการ
+            // Node is not a start or end marker, simply add the copy to the list.
             nodes.add(cloneNode);
 
-        // ย้ายไปยังโหนดถัดไปและแยกข้อมูลออกมา หากโหนดถัดไปเป็นค่าว่าง
-        // เนื้อหาที่เหลือจะอยู่ในส่วนอื่น
+        // Move to the next node and extract it. If the next node is null,
+        // the rest of the content is found in a different section.
         if (currNode.getNextSibling() == null && isExtracting) {
-            // ย้ายไปยังส่วนถัดไป
+            // Move to the next section.
             Section nextSection = (Section) currNode.getAncestor(NodeType.SECTION).getNextSibling();
             currNode = nextSection.getBody().getFirstChild();
         } else {
-            // ย้ายไปยังโหนดถัดไปในเนื้อหา
+            // Move to the next node in the body.
             currNode = currNode.getNextSibling();
         }
     }
 
-    // เพื่อให้เข้ากันได้กับโหมดที่มีบุ๊กมาร์กแบบอินไลน์ ให้เพิ่มย่อหน้าถัดไป (ว่างเปล่า)
+    // For compatibility with mode with inline bookmarks, add the next paragraph (empty).
     if (isInclusive && originalEndNode == endNode && !originalEndNode.isComposite())
         includeNextParagraph(endNode, nodes);
 
-    // ส่งคืนโหนดระหว่างเครื่องหมายโหนด
+    // Return the nodes between the node markers.
     return nodes;
 }
 ```
 
-วิธีนี้ช่วยให้คุณแยกเนื้อหาระหว่างโหนดที่ระบุสองโหนด ไม่ว่าจะเป็นย่อหน้า ตาราง หรือองค์ประกอบระดับบล็อกอื่น ๆ ก็ได้ โดยสามารถจัดการสถานการณ์ต่าง ๆ ได้ เช่น มาร์กเกอร์อินไลน์ ฟิลด์ และบุ๊กมาร์ก
+เมธอดนี้ทำให้คุณ **สกัดระหว่างโหนด** ไม่ว่าจะเป็นย่อหน้า, ตาราง, หรือองค์ประกอบระดับบล็อกอื่น ๆ มันจัดการสถานการณ์ต่าง ๆ รวมถึงเครื่องหมายในบรรทัด, ฟิลด์, และบุ๊กมาร์ก
 
-## วิธีช่วยเหลือที่ 3: การสร้างเอกสารใหม่
+## Helper Method 3: Generating a New Document
 
 ```java
 public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) throws Exception {
     Document dstDoc = new Document();
     
-    // ลบย่อหน้าแรกออกจากเอกสารเปล่า
+    // Remove the first paragraph from the empty document.
     dstDoc.getFirstSection().getBody().removeAllChildren();
     
-    // นำเข้าแต่ละโหนดจากรายการไปยังเอกสารใหม่ รักษาการจัดรูปแบบดั้งเดิมของโหนดไว้
+    // Import each node from the list into the new document. Keep the original formatting of the node.
     NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
     for (Node node : nodes) {
         Node importNode = importer.importNode(node, true);
@@ -144,41 +160,46 @@ public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) 
 }
 ```
 
-วิธีนี้ช่วยให้คุณสร้างเอกสารใหม่ได้โดยการนำเข้ารายการโหนดจากเอกสารต้นฉบับ โดยจะคงรูปแบบดั้งเดิมของโหนดเอาไว้ ทำให้มีประโยชน์ในการสร้างเอกสารใหม่ที่มีเนื้อหาเฉพาะ
+เมธอดนี้ทำให้คุณ **สร้างเอกสาร Word ใหม่** (หรือ *generate document java*) โดยการนำเข้ารายการโหนดจากเอกสารต้นฉบับ มันคงรูปแบบเดิมของโหนดไว้ ทำให้เหมาะสำหรับการสร้างเอกสารใหม่ที่มีเนื้อหาเฉพาะ
 
-## บทสรุป
+## Common Use Cases
 
-การแยกเนื้อหาจากเอกสาร Word อาจเป็นส่วนสำคัญของงานประมวลผลเอกสารมากมาย Aspose.Words สำหรับ Java มีวิธีช่วยเหลืออันทรงพลังที่ทำให้กระบวนการนี้ง่ายขึ้น ไม่ว่าคุณจะต้องแยกย่อหน้าตามรูปแบบ เนื้อหาระหว่างโหนด หรือสร้างเอกสารใหม่ วิธีการเหล่านี้จะช่วยให้คุณทำงานกับเอกสาร Word ในแอปพลิเคชัน Java ได้อย่างมีประสิทธิภาพ
+- **สกัดหัวเรื่องทั้งหมด** จากรายงานขนาดใหญ่เพื่อสร้างสารบัญแบบไดนามิก.  
+- **ดึงตาราง** ที่มีข้อมูลการเงินเพื่อการวิเคราะห์แยก – คุณสามารถใช้ร่วมกับคีย์เวิร์ด *aspose words extract tables*.  
+- **สร้างบทที่ปรับแต่ง** โดยสกัดช่วงของส่วนต่าง ๆ แล้ว **สร้างเอกสาร Word ใหม่** เพื่อแจกจ่าย.  
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### ฉันจะติดตั้ง Aspose.Words สำหรับ Java ได้อย่างไร?
+### How can I install Aspose.Words for Java?
 
-หากต้องการติดตั้ง Aspose.Words สำหรับ Java คุณสามารถดาวน์โหลดได้จากเว็บไซต์ Aspose เข้าไปที่ [ที่นี่](https://releases.aspose.com/words/java/) เพื่อรับเวอร์ชันล่าสุด
+เพื่อทำการติดตั้ง Aspose.Words for Java คุณสามารถดาวน์โหลดได้จากเว็บไซต์ของ Aspose ไปที่ [here](https://releases.aspose.com/words/java/) เพื่อรับเวอร์ชันล่าสุด
 
-### ฉันสามารถแยกเนื้อหาจากส่วนที่เจาะจงของเอกสาร Word ได้หรือไม่
+### Can I extract content from specific sections of a Word document?
 
-ใช่ คุณสามารถแยกเนื้อหาจากส่วนที่ต้องการของเอกสาร Word ได้โดยใช้วิธีที่กล่าวถึงในบทความนี้ เพียงระบุโหนดเริ่มต้นและโหนดสิ้นสุดที่กำหนดส่วนที่คุณต้องการแยก
+ได้ คุณสามารถสกัดเนื้อหาจากส่วนเฉพาะของเอกสาร Word ได้โดยใช้เมธอดที่กล่าวถึงในบทความนี้ เพียงระบุโหนดเริ่มต้นและโหนดสิ้นสุดที่กำหนดส่วนที่ต้องการสกัด
 
-### Aspose.Words สำหรับ Java เข้ากันได้กับ Java 11 หรือไม่
+### Is Aspose.Words for Java compatible with Java 11?
 
-ใช่ Aspose.Words สำหรับ Java เข้ากันได้กับ Java 11 และเวอร์ชันที่สูงกว่า คุณสามารถใช้ในแอปพลิเคชัน Java ได้โดยไม่มีปัญหาใดๆ
+ได้ Aspose.Words for Java รองรับ Java 11 และเวอร์ชันที่สูงกว่า คุณสามารถใช้ในแอปพลิเคชัน Java ของคุณได้โดยไม่มีปัญหา
 
-### ฉันสามารถปรับแต่งการจัดรูปแบบของเนื้อหาที่แยกออกมาได้หรือไม่
+### Can I customize the formatting of the extracted content?
 
-ใช่ คุณสามารถปรับแต่งการจัดรูปแบบของเนื้อหาที่แยกออกมาได้โดยแก้ไขโหนดที่นำเข้าในเอกสารที่สร้างขึ้น Aspose.Words สำหรับ Java มีตัวเลือกการจัดรูปแบบมากมายเพื่อตอบสนองความต้องการของคุณ
+ได้ คุณสามารถปรับแต่งรูปแบบของเนื้อหาที่สกัดโดยการแก้ไขโหนดที่นำเข้าในเอกสารที่สร้างขึ้น Aspose.Words for Java มีตัวเลือกการจัดรูปแบบที่ครอบคลุมเพื่อให้ตรงกับความต้องการของคุณ
 
-### ฉันสามารถหาเอกสารและตัวอย่างเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
+### Where can I find more documentation and examples for Aspose.Words for Java?
 
-คุณสามารถค้นหาเอกสารประกอบและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์ Aspose เข้าไปที่ [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) สำหรับเอกสารและทรัพยากรโดยละเอียด
+คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Words for Java ได้บนเว็บไซต์ของ Aspose ไปที่ [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) เพื่อดูเอกสารและทรัพยากรโดยละเอียด
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

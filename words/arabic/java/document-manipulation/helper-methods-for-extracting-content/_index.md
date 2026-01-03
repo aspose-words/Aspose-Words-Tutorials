@@ -1,10 +1,12 @@
 ---
-"description": "تعرّف على كيفية استخراج المحتوى بكفاءة من مستندات Word باستخدام Aspose.Words لجافا. استكشف أساليب المساعدة والتنسيق المخصص والمزيد في هذا الدليل الشامل."
-"linktitle": "طرق مساعدة لاستخراج المحتوى"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "طرق مساعدة لاستخراج المحتوى في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/helper-methods-for-extracting-content/"
-"weight": 14
+date: 2026-01-03
+description: تعلم كيفية استخراج الأقسام من مستندات Word بكفاءة باستخدام Aspose.Words
+  للغة Java. استكشف طرق المساعدة، التنسيق المخصص، وأكثر من ذلك.
+linktitle: Helper Methods for Extracting Content
+second_title: Aspose.Words Java Document Processing API
+title: استخراج الأقسام من Word باستخدام Aspose.Words لجافا
+url: /ar/java/document-manipulation/helper-methods-for-extracting-content/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,26 +15,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# طرق مساعدة لاستخراج المحتوى في Aspose.Words لـ Java
+# استخراج أقسام من Word باستخدام Aspose.Words for Java
 
+## مقدمة عن طرق المساعدة لاستخراج المحتوى في Aspose.Words for Java
 
-## مقدمة إلى طرق المساعدة لاستخراج المحتوى في Aspose.Words لـ Java
+Aspose.Words for Java هي مكتبة قوية تتيح للمطورين التعامل مع مستندات Word برمجياً. إحدى المهام الشائعة عند العمل مع مستندات Word هي استخراج المحتوى منها. في هذه المقالة، سنستعرض عدة **طرق مساعدة** تتيح لك **استخراج أقسام من Word** بكفاءة، وتخصيص التنسيق، وحتى إنشاء مستندات جديدة في الوقت الفعلي.
 
-Aspose.Words for Java هي مكتبة فعّالة تُمكّن المطورين من العمل مع مستندات Word برمجيًا. من المهام الشائعة عند العمل مع مستندات Word استخراج المحتوى منها. في هذه المقالة، سنستكشف بعض الطرق المساعدة لاستخراج المحتوى بكفاءة باستخدام Aspose.Words for Java.
+## إجابات سريعة
+- **ماذا يمكنني استخراج؟** فقرات، جداول، أو أي عقد على مستوى الكتلة بين علامتين.  
+- **أي طريقة تستخرج حسب النمط؟** `paragraphsByStyleName` – مثالية للعناوين أو الاقتباسات الكتلية.  
+- **كيف أستخرج بين العقد؟** استخدم `extractContentBetweenNodes` – يتعامل مع العلامات المضمنة، الإشارات المرجعية، والحقول.  
+- **هل يمكنني إنشاء مستند جديد؟** نعم، `generateDocument` يستورد قائمة العقد مع الحفاظ على تنسيق المصدر.  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ الترخيص التجاري مطلوب للإنتاج.
 
-## المتطلبات الأساسية
+## ما معنى “استخراج أقسام من Word”؟
+استخراج الأقسام من Word يعني سحب أجزاء محددة برمجياً من ملف `.docx` أو `.doc`—مثل مجموعة من الفقرات، جدول، أو نطاق محدد بعقد البداية والنهاية—لتتمكن من إعادة استخدامها، تحليلها، أو إعادة توظيفها في مكان آخر.
 
-قبل الخوض في أمثلة التعليمات البرمجية، تأكد من تثبيت Aspose.Words لجافا وإعداده في مشروع جافا. يمكنك تنزيله من [هنا](https://releases.aspose.com/words/java/).
+## لماذا نستخدم طرق المساعدة في Aspose.Words؟
+- **السرعة والموثوقية:** واجهات API المدمجة تتعامل مع هياكل Word المعقدة دون الحاجة لكتابة كود تحليل منخفض المستوى.  
+- **الحفاظ على التنسيق:** تُستورد العقد بالأنماط الأصلية، لذا يبدو المحتوى المستخرج مطابقاً للمصدر.  
+- **المرونة:** يمكنك استهداف الأنماط، نطاقات عقد معينة، أو إنشاء مستندات جديدة بالكامل.  
 
-## الطريقة المساعدة 1: استخراج الفقرات حسب الأسلوب
+## المتطلبات المسبقة
+
+قبل الغوص في أمثلة الشيفرة، تأكد من تثبيت Aspose.Words for Java وإعدادها في مشروع Java الخاص بك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+
+## طريقة المساعدة 1: استخراج الفقرات حسب النمط
 
 ```java
 public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String styleName) {
-    // إنشاء مصفوفة لجمع فقرات ذات النمط المحدد.
+    // Create an array to collect paragraphs of the specified style.
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // قم بالبحث في كافة الفقرات للعثور على تلك التي تحتوي على النمط المحدد.
+    // Look through all paragraphs to find those with the specified style.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -41,99 +57,99 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
 }
 ```
 
-يمكنك استخدام هذه الطريقة لاستخراج فقرات ذات نمط محدد في مستند Word. يُعد هذا مفيدًا عند استخراج محتوى بتنسيق معين، مثل العناوين أو علامات الاقتباس.
+يمكنك استخدام هذه الطريقة لاستخراج الفقرات التي تحمل نمطًا محددًا في مستند Word الخاص بك. هذا مفيد عندما تريد استخراج محتوى بتنسيق معين، مثل العناوين أو الاقتباسات الكتلية.
 
-## الطريقة المساعدة 2: استخراج المحتوى حسب العقد
+## طريقة المساعدة 2: استخراج المحتوى بين العقد
 
 ```java
 public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node endNode, boolean isInclusive) {
-    // أولاً، تأكد من أن العقد المرسلة إلى هذه الطريقة صالحة للاستخدام.
+    // First, check that the nodes passed to this method are valid for use.
     verifyParameterNodes(startNode, endNode);
     
-    // إنشاء قائمة لتخزين العقد المستخرجة.
+    // Create a list to store the extracted nodes.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // إذا كان أي من العلامتين جزءًا من تعليق، بما في ذلك التعليق نفسه، فنحن بحاجة إلى تحريك المؤشر
-    // انتقل إلى عقدة التعليق الموجودة بعد عقدة CommentRangeEnd.
+    // If either marker is part of a comment, including the comment itself, we need to move the pointer
+    // forward to the Comment Node found after the CommentRangeEnd node.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
         if (node != null)
             endNode = node;
     }
     
-    // احتفظ بسجل للعقد الأصلية التي تم تمريرها إلى هذه الطريقة لتقسيم عقد العلامة إذا لزم الأمر.
+    // Keep a record of the original nodes passed to this method to split marker nodes if needed.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    // استخرج المحتوى بناءً على عُقد مستوى الكتلة (الفقرات والجداول). ابحث عن العُقد الرئيسية عبرها.
-    // سنقوم بتقسيم محتوى العقدة الأولى والأخيرة، اعتمادًا على ما إذا كانت عقد العلامة مضمنة أم لا.
+    // Extract content based on block-level nodes (paragraphs and tables). Traverse through parent nodes to find them.
+    // We will split the first and last nodes' content, depending on whether the marker nodes are inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
     boolean isExtracting = true;
     boolean isStartingNode = true;
-    // العقدة الحالية التي نقوم باستخراجها من المستند.
+    // The current node we are extracting from the document.
     Node currNode = startNode;
 
-    // ابدأ باستخراج المحتوى. عالج جميع العقد على مستوى الكتلة، وقسم العقدة الأولى تحديدًا.
-    // والعقد الأخيرة عند الحاجة إليها حتى يتم الاحتفاظ بتنسيق الفقرة.
-    // هذه الطريقة أكثر تعقيدًا قليلًا من المستخرج العادي لأننا نحتاج إلى تحليل العوامل
-    // في الاستخراج باستخدام العقد المضمنة والحقول والإشارات المرجعية وما إلى ذلك، لجعلها مفيدة.
+    // Begin extracting content. Process all block-level nodes and specifically split the first
+    // and last nodes when needed so paragraph formatting is retained.
+    // This method is a little more complicated than a regular extractor as we need to factor
+    // in extracting using inline nodes, fields, bookmarks, etc., to make it useful.
     while (isExtracting) {
-        // استنسخ العقدة الحالية وأبنائها للحصول على نسخة.
+        // Clone the current node and its children to obtain a copy.
         Node cloneNode = currNode.deepClone(true);
         boolean isEndingNode = currNode.equals(endNode);
         if (isStartingNode || isEndingNode) {
-            // نحن بحاجة إلى معالجة كل علامة على حدة، لذا قم بتمريرها إلى طريقة منفصلة بدلاً من ذلك.
-            // ينبغي معالجة النهاية في البداية للحفاظ على فهرس العقدة.
+            // We need to process each marker separately, so pass it off to a separate method instead.
+            // End should be processed at first to keep node indexes.
             if (isEndingNode) {
-                // !isStartingNode: لا تقم بإضافة العقدة مرتين إذا كانت العلامات هي نفس العقدة.
+                // !isStartingNode: don't add the node twice if the markers are the same node.
                 processMarker(cloneNode, nodes, originalEndNode, currNode, isInclusive,
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            // يجب أن تكون الشرطية منفصلة حيث أن علامات البداية والنهاية على مستوى الكتلة قد تكون نفس العقدة.
+            // Conditional needs to be separate as the block level start and end markers may be the same node.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
                 isStartingNode = false;
             }
         } else
-            // العقدة ليست علامة بداية أو نهاية، فقط أضف النسخة إلى القائمة.
+            // Node is not a start or end marker, simply add the copy to the list.
             nodes.add(cloneNode);
 
-        // انتقل إلى العقدة التالية واستخرجها. إذا كانت العقدة التالية فارغة،
-        // باقي المحتوى موجود في قسم مختلف.
+        // Move to the next node and extract it. If the next node is null,
+        // the rest of the content is found in a different section.
         if (currNode.getNextSibling() == null && isExtracting) {
-            // انتقل إلى القسم التالي.
+            // Move to the next section.
             Section nextSection = (Section) currNode.getAncestor(NodeType.SECTION).getNextSibling();
             currNode = nextSection.getBody().getFirstChild();
         } else {
-            // انتقل إلى العقدة التالية في الجسم.
+            // Move to the next node in the body.
             currNode = currNode.getNextSibling();
         }
     }
 
-    // لتحقيق التوافق مع الوضع مع الإشارات المرجعية المضمنة، أضف الفقرة التالية (فارغة).
+    // For compatibility with mode with inline bookmarks, add the next paragraph (empty).
     if (isInclusive && originalEndNode == endNode && !originalEndNode.isComposite())
         includeNextParagraph(endNode, nodes);
 
-    // إرجاع العقد بين علامات العقد.
+    // Return the nodes between the node markers.
     return nodes;
 }
 ```
 
-تتيح لك هذه الطريقة استخراج المحتوى بين عقدتين محددتين، سواءً كانت فقرات أو جداول أو أي عناصر أخرى على مستوى الكتلة. وتتعامل مع سيناريوهات مختلفة، بما في ذلك العلامات المضمنة والحقول والإشارات المرجعية.
+تتيح لك هذه الطريقة **استخراج بين العقد**، سواء كانت فقرات، جداول، أو أي عناصر أخرى على مستوى الكتلة. تتعامل مع سيناريوهات متعددة، بما في ذلك العلامات المضمنة، الحقول، والإشارات المرجعية.
 
-## الطريقة المساعدة 3: إنشاء مستند جديد
+## طريقة المساعدة 3: إنشاء مستند جديد
 
 ```java
 public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) throws Exception {
     Document dstDoc = new Document();
     
-    // قم بإزالة الفقرة الأولى من المستند الفارغ.
+    // Remove the first paragraph from the empty document.
     dstDoc.getFirstSection().getBody().removeAllChildren();
     
-    // استورد كل عقدة من القائمة إلى المستند الجديد. حافظ على التنسيق الأصلي للعقدة.
+    // Import each node from the list into the new document. Keep the original formatting of the node.
     NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
     for (Node node : nodes) {
         Node importNode = importer.importNode(node, true);
@@ -144,41 +160,46 @@ public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) 
 }
 ```
 
-تتيح لك هذه الطريقة إنشاء مستند جديد باستيراد قائمة عقد من المستند المصدر. وتحافظ هذه الطريقة على التنسيق الأصلي للعقد، مما يجعلها مفيدة لإنشاء مستندات جديدة بمحتوى محدد.
+تسمح لك هذه الطريقة **بإنشاء مستند Word جديد** (أو *generate document java*) عن طريق استيراد قائمة من العقد من المستند المصدر. تحتفظ بالتنسيق الأصلي للعقد، مما يجعلها مفيدة لإنشاء مستندات جديدة بمحتوى محدد.
 
-## خاتمة
+## حالات الاستخدام الشائعة
 
-يُعد استخراج المحتوى من مستندات Word جزءًا أساسيًا من العديد من مهام معالجة المستندات. يوفر Aspose.Words لـ Java طرقًا مساعدة فعّالة تُبسّط هذه العملية. سواءً كنت بحاجة إلى استخراج الفقرات حسب النمط، أو المحتوى بين العقد، أو إنشاء مستندات جديدة، ستساعدك هذه الطرق على العمل بكفاءة مع مستندات Word في تطبيقات Java.
+- **استخراج جميع العناوين** من تقرير كبير لبناء جدول محتويات ديناميكي.  
+- **استخراج الجداول** التي تحتوي على بيانات مالية للتحليل المنفصل – يمكنك ربط ذلك بالكلمة المفتاحية *aspose words extract tables*.  
+- **إنشاء فصل مخصص** عن طريق استخراج نطاق من الأقسام ثم **إنشاء مستند Word جديد** للتوزيع.  
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف يمكنني تثبيت Aspose.Words لـ Java؟
+### كيف يمكنني تثبيت Aspose.Words for Java؟
 
-لتثبيت Aspose.Words لجافا، يمكنك تنزيله من موقع Aspose الإلكتروني. تفضل بزيارة [هنا](https://releases.aspose.com/words/java/) للحصول على الإصدار الأحدث.
+لتثبيت Aspose.Words for Java، يمكنك تنزيلها من موقع Aspose. زر [هنا](https://releases.aspose.com/words/java/) للحصول على أحدث نسخة.
 
-### هل يمكنني استخراج المحتوى من أقسام معينة من مستند Word؟
+### هل يمكنني استخراج محتوى من أقسام محددة في مستند Word؟
 
-نعم، يمكنك استخراج محتوى من أقسام محددة من مستند Word باستخدام الطرق المذكورة في هذه المقالة. ما عليك سوى تحديد عقدتي البداية والنهاية اللتين تُعرّفان القسم الذي تريد استخراجه.
+نعم، يمكنك استخراج محتوى من أقسام محددة في مستند Word باستخدام الطرق المذكورة في هذه المقالة. ما عليك سوى تحديد عقد البداية والنهاية التي تُعرّف القسم الذي تريد استخراجه.
 
 ### هل Aspose.Words for Java متوافق مع Java 11؟
 
-نعم، Aspose.Words for Java متوافق مع إصدار Java 11 والإصدارات الأحدث. يمكنك استخدامه في تطبيقات Java الخاصة بك دون أي مشاكل.
+نعم، Aspose.Words for Java متوافق مع Java 11 والإصدارات الأعلى. يمكنك استخدامها في تطبيقات Java الخاصة بك دون أي مشاكل.
 
 ### هل يمكنني تخصيص تنسيق المحتوى المستخرج؟
 
-نعم، يمكنك تخصيص تنسيق المحتوى المستخرج بتعديل العقد المستوردة في المستند المُولّد. يوفر Aspose.Words for Java خيارات تنسيق شاملة تلبي احتياجاتك.
+نعم، يمكنك تخصيص تنسيق المحتوى المستخرج عن طريق تعديل العقد المستوردة في المستند المُنشأ. توفر Aspose.Words for Java خيارات تنسيق واسعة لتلبية احتياجاتك.
 
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Words for Java؟
 
-يمكنك العثور على وثائق وأمثلة شاملة لـ Aspose.Words لـ Java على موقع Aspose الإلكتروني. تفضل بزيارة [https://reference.aspose.com/words/Java/](https://reference.aspose.com/words/java/) للحصول على توثيقات وموارد مفصلة.
+يمكنك العثور على وثائق شاملة وأمثلة لـ Aspose.Words for Java على موقع Aspose. زر [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) للحصول على وثائق مفصلة وموارد إضافية.
 
+---
+
+**آخر تحديث:** 2026-01-03  
+**تم الاختبار مع:** Aspose.Words for Java 24.11  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

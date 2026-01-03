@@ -1,10 +1,13 @@
 ---
-"description": "Scopri come estrarre contenuti in modo efficiente dai documenti Word utilizzando Aspose.Words per Java. Esplora metodi helper, formattazione personalizzata e altro ancora in questa guida completa."
-"linktitle": "Metodi di supporto per l'estrazione del contenuto"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Metodi di supporto per l'estrazione di contenuti in Aspose.Words per Java"
-"url": "/it/java/document-manipulation/helper-methods-for-extracting-content/"
-"weight": 14
+date: 2026-01-03
+description: Scopri come estrarre sezioni dai documenti Word in modo efficiente usando
+  Aspose.Words per Java. Esplora metodi di supporto, formattazione personalizzata
+  e molto altro.
+linktitle: Helper Methods for Extracting Content
+second_title: Aspose.Words Java Document Processing API
+title: Estrai sezioni da Word con Aspose.Words per Java
+url: /it/java/document-manipulation/helper-methods-for-extracting-content/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,26 +16,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Metodi di supporto per l'estrazione di contenuti in Aspose.Words per Java
+# Estrai sezioni da Word con Aspose.Words per Java
 
+## Introduzione ai metodi di supporto per l'estrazione del contenuto in Aspose.Words per Java
 
-## Introduzione ai metodi helper per l'estrazione di contenuti in Aspose.Words per Java
+Aspose.Words for Java è una libreria potente che consente agli sviluppatori di lavorare con i documenti Word in modo programmatico. Un compito comune quando si lavora con i documenti Word è l'estrazione del contenuto da essi. In questo articolo, illustreremo diversi **metodi di supporto** che ti permettono di **estrarre sezioni da Word** documenti in modo efficiente, personalizzare la formattazione e persino generare nuovi documenti al volo.
 
-Aspose.Words per Java è una potente libreria che consente agli sviluppatori di lavorare con i documenti Word a livello di codice. Un'attività comune quando si lavora con i documenti Word è l'estrazione di contenuto. In questo articolo, esploreremo alcuni metodi di supporto per estrarre contenuto in modo efficiente utilizzando Aspose.Words per Java.
+## Risposte rapide
+- **Cosa posso estrarre?** Paragrafi, tabelle o qualsiasi nodo a livello di blocco tra due marcatori.  
+- **Quale metodo estrae per stile?** `paragraphsByStyleName` – perfetto per intestazioni o citazioni a blocco.  
+- **Come estrarre tra nodi?** Usa `extractContentBetweenNodes` – gestisce marcatori inline, segnalibri e campi.  
+- **Posso generare un nuovo documento?** Sì, `generateDocument` importa un elenco di nodi mantenendo la formattazione originale.  
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.
+
+## Cos'è “estrarre sezioni da Word”?
+Estrarre sezioni da Word significa prelevare programmaticamente parti specifiche di un file `.docx` o `.doc` — come un gruppo di paragrafi, una tabella o un intervallo definito da nodi di inizio e fine — in modo da poter riutilizzare, analizzare o riadattare quel contenuto altrove.
+
+## Perché utilizzare i metodi di supporto di Aspose.Words?
+- **Velocità e affidabilità:** Le API integrate gestiscono strutture Word complesse senza che tu debba scrivere codice di parsing a basso livello.  
+- **Preservazione della formattazione:** I nodi vengono importati con gli stili originali, così il contenuto estratto appare identico alla sorgente.  
+- **Flessibilità:** Puoi mirare a stili, intervalli di nodi specifici o generare documenti completamente nuovi.  
 
 ## Prerequisiti
 
-Prima di immergerci negli esempi di codice, assicurati di aver installato e configurato Aspose.Words per Java nel tuo progetto Java. Puoi scaricarlo da [Qui](https://releases.aspose.com/words/java/).
+Prima di immergerci negli esempi di codice, assicurati di avere Aspose.Words per Java installato e configurato nel tuo progetto Java. Puoi scaricarlo da [here](https://releases.aspose.com/words/java/).
 
-## Metodo di supporto 1: estrazione di paragrafi per stile
+## Metodo di supporto 1: Estrarre paragrafi per stile
 
 ```java
 public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String styleName) {
-    // Crea un array per raccogliere i paragrafi dello stile specificato.
+    // Create an array to collect paragraphs of the specified style.
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // Esamina tutti i paragrafi per trovare quelli con lo stile specificato.
+    // Look through all paragraphs to find those with the specified style.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -41,99 +58,99 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
 }
 ```
 
-Puoi utilizzare questo metodo per estrarre paragrafi con uno stile specifico dal tuo documento Word. Questo è utile quando vuoi estrarre contenuti con una formattazione particolare, come titoli o citazioni a blocco.
+Puoi utilizzare questo metodo per estrarre i paragrafi che hanno uno stile specifico nel tuo documento Word. È utile quando desideri estrarre contenuti con una formattazione particolare, come intestazioni o citazioni a blocco.
 
-## Metodo di supporto 2: estrazione del contenuto tramite nodi
+## Metodo di supporto 2: Estrarre contenuto tra nodi
 
 ```java
 public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node endNode, boolean isInclusive) {
-    // Per prima cosa, verifica che i nodi passati a questo metodo siano validi per l'uso.
+    // First, check that the nodes passed to this method are valid for use.
     verifyParameterNodes(startNode, endNode);
     
-    // Creare un elenco in cui archiviare i nodi estratti.
+    // Create a list to store the extracted nodes.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // Se uno dei marcatori fa parte di un commento, incluso il commento stesso, dobbiamo spostare il puntatore
-    // inoltra al nodo Commento trovato dopo il nodo CommentRangeEnd.
+    // If either marker is part of a comment, including the comment itself, we need to move the pointer
+    // forward to the Comment Node found after the CommentRangeEnd node.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
         if (node != null)
             endNode = node;
     }
     
-    // Conserva un registro dei nodi originali passati a questo metodo per suddividere i nodi marcatori, se necessario.
+    // Keep a record of the original nodes passed to this method to split marker nodes if needed.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    // Estrarre il contenuto in base ai nodi a livello di blocco (paragrafi e tabelle). Esplorare i nodi padre per trovarli.
-    // Divideremo il contenuto del primo e dell'ultimo nodo a seconda che i nodi marcatori siano in linea o meno.
+    // Extract content based on block-level nodes (paragraphs and tables). Traverse through parent nodes to find them.
+    // We will split the first and last nodes' content, depending on whether the marker nodes are inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
     boolean isExtracting = true;
     boolean isStartingNode = true;
-    // Il nodo corrente che stiamo estraendo dal documento.
+    // The current node we are extracting from the document.
     Node currNode = startNode;
 
-    // Inizia l'estrazione del contenuto. Elabora tutti i nodi a livello di blocco e dividi specificamente il primo
-    // e gli ultimi nodi quando necessario, in modo che la formattazione del paragrafo venga mantenuta.
-    // Questo metodo è un po' più complicato di un normale estrattore poiché dobbiamo tenere conto
-    // nell'estrazione mediante nodi in linea, campi, segnalibri, ecc., per renderlo utile.
+    // Begin extracting content. Process all block-level nodes and specifically split the first
+    // and last nodes when needed so paragraph formatting is retained.
+    // This method is a little more complicated than a regular extractor as we need to factor
+    // in extracting using inline nodes, fields, bookmarks, etc., to make it useful.
     while (isExtracting) {
-        // Clonare il nodo corrente e i suoi figli per ottenere una copia.
+        // Clone the current node and its children to obtain a copy.
         Node cloneNode = currNode.deepClone(true);
         boolean isEndingNode = currNode.equals(endNode);
         if (isStartingNode || isEndingNode) {
-            // Dobbiamo elaborare ogni marcatore separatamente, quindi passiamolo a un metodo separato.
-            // Per mantenere gli indici dei nodi, è necessario elaborare prima End.
+            // We need to process each marker separately, so pass it off to a separate method instead.
+            // End should be processed at first to keep node indexes.
             if (isEndingNode) {
-                // !isStartingNode: non aggiungere il nodo due volte se i marcatori sono lo stesso nodo.
+                // !isStartingNode: don't add the node twice if the markers are the same node.
                 processMarker(cloneNode, nodes, originalEndNode, currNode, isInclusive,
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            // Le condizioni devono essere separate poiché i marcatori di inizio e fine a livello di blocco potrebbero essere lo stesso nodo.
+            // Conditional needs to be separate as the block level start and end markers may be the same node.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
                 isStartingNode = false;
             }
         } else
-            // Il nodo non è un indicatore di inizio o di fine, basta aggiungere la copia all'elenco.
+            // Node is not a start or end marker, simply add the copy to the list.
             nodes.add(cloneNode);
 
-        // Passa al nodo successivo ed estrailo. Se il nodo successivo è nullo,
-        // il resto del contenuto si trova in una sezione diversa.
+        // Move to the next node and extract it. If the next node is null,
+        // the rest of the content is found in a different section.
         if (currNode.getNextSibling() == null && isExtracting) {
-            // Passa alla sezione successiva.
+            // Move to the next section.
             Section nextSection = (Section) currNode.getAncestor(NodeType.SECTION).getNextSibling();
             currNode = nextSection.getBody().getFirstChild();
         } else {
-            // Passa al nodo successivo nel corpo.
+            // Move to the next node in the body.
             currNode = currNode.getNextSibling();
         }
     }
 
-    // Per compatibilità con la modalità con segnalibri in linea, aggiungere il paragrafo successivo (vuoto).
+    // For compatibility with mode with inline bookmarks, add the next paragraph (empty).
     if (isInclusive && originalEndNode == endNode && !originalEndNode.isComposite())
         includeNextParagraph(endNode, nodes);
 
-    // Restituisce i nodi compresi tra i marcatori di nodo.
+    // Return the nodes between the node markers.
     return nodes;
 }
 ```
 
-Questo metodo consente di estrarre il contenuto tra due nodi specificati, siano essi paragrafi, tabelle o qualsiasi altro elemento a livello di blocco. Gestisce vari scenari, inclusi marcatori in linea, campi e segnalibri.
+Questo metodo ti consente di **estrarre tra nodi**, siano essi paragrafi, tabelle o qualsiasi altro elemento a livello di blocco. Gestisce vari scenari, inclusi marcatori inline, campi e segnalibri.
 
-## Metodo di supporto 3: generazione di un nuovo documento
+## Metodo di supporto 3: Generare un nuovo documento
 
 ```java
 public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) throws Exception {
     Document dstDoc = new Document();
     
-    // Rimuovere il primo paragrafo dal documento vuoto.
+    // Remove the first paragraph from the empty document.
     dstDoc.getFirstSection().getBody().removeAllChildren();
     
-    // Importa ogni nodo dall'elenco nel nuovo documento. Mantieni la formattazione originale del nodo.
+    // Import each node from the list into the new document. Keep the original formatting of the node.
     NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
     for (Node node : nodes) {
         Node importNode = importer.importNode(node, true);
@@ -144,25 +161,27 @@ public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) 
 }
 ```
 
-Questo metodo consente di generare un nuovo documento importando un elenco di nodi dal documento sorgente. Mantiene la formattazione originale dei nodi, rendendolo utile per la creazione di nuovi documenti con contenuti specifici.
+Questo metodo ti permette di **generare un nuovo documento Word** (o *generate document java*) importando un elenco di nodi dal documento sorgente. Mantiene la formattazione originale dei nodi, rendendolo utile per creare nuovi documenti con contenuti specifici.
 
-## Conclusione
+## Casi d'uso comuni
 
-L'estrazione di contenuto dai documenti Word può essere una parte cruciale di molte attività di elaborazione dei documenti. Aspose.Words per Java offre potenti metodi di supporto che semplificano questo processo. Che si tratti di estrarre paragrafi in base allo stile, contenuti tra nodi o generare nuovi documenti, questi metodi ti aiuteranno a lavorare in modo efficiente con i documenti Word nelle tue applicazioni Java.
+- **Estrarre tutte le intestazioni** da un ampio rapporto per costruire un indice dinamico.  
+- **Estrarre tabelle** che contengono dati finanziari per un'analisi separata – puoi abbinarlo alla parola chiave *aspose words extract tables*.  
+- **Creare un capitolo personalizzato** estraendo un intervallo di sezioni e poi **generando un nuovo documento Word** per la distribuzione.  
 
 ## Domande frequenti
 
 ### Come posso installare Aspose.Words per Java?
 
-Per installare Aspose.Words per Java, puoi scaricarlo dal sito web di Aspose. Visita [Qui](https://releases.aspose.com/words/java/) per ottenere la versione più recente.
+Per installare Aspose.Words per Java, puoi scaricarlo dal sito web di Aspose. Visita [here](https://releases.aspose.com/words/java/) per ottenere l'ultima versione.
 
-### Posso estrarre contenuti da sezioni specifiche di un documento Word?
+### Posso estrarre contenuto da sezioni specifiche di un documento Word?
 
-Sì, è possibile estrarre contenuto da sezioni specifiche di un documento Word utilizzando i metodi descritti in questo articolo. È sufficiente specificare i nodi iniziale e finale che definiscono la sezione da estrarre.
+Sì, puoi estrarre contenuto da sezioni specifiche di un documento Word utilizzando i metodi menzionati in questo articolo. Specifica semplicemente i nodi di inizio e fine che definiscono la sezione che desideri estrarre.
 
 ### Aspose.Words per Java è compatibile con Java 11?
 
-Sì, Aspose.Words per Java è compatibile con Java 11 e versioni successive. Puoi utilizzarlo nelle tue applicazioni Java senza problemi.
+Sì, Aspose.Words per Java è compatibile con Java 11 e versioni successive. Puoi usarlo nelle tue applicazioni Java senza problemi.
 
 ### Posso personalizzare la formattazione del contenuto estratto?
 
@@ -170,15 +189,18 @@ Sì, puoi personalizzare la formattazione del contenuto estratto modificando i n
 
 ### Dove posso trovare ulteriore documentazione ed esempi per Aspose.Words per Java?
 
-Puoi trovare documentazione completa ed esempi per Aspose.Words per Java sul sito web di Aspose. Visita [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) per documentazione e risorse dettagliate.
+Puoi trovare una documentazione completa ed esempi per Aspose.Words per Java sul sito web di Aspose. Visita [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) per una documentazione dettagliata e risorse.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-03  
+**Testato con:** Aspose.Words for Java 24.11  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,13 @@
 ---
-"description": "Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word-Dokumenten extrahieren. Entdecken Sie Hilfsmethoden, benutzerdefinierte Formatierungen und mehr in diesem umfassenden Handbuch."
-"linktitle": "Hilfsmethoden zum Extrahieren von Inhalten"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Hilfsmethoden zum Extrahieren von Inhalten in Aspose.Words für Java"
-"url": "/de/java/document-manipulation/helper-methods-for-extracting-content/"
-"weight": 14
+date: 2026-01-03
+description: Erfahren Sie, wie Sie Abschnitte aus Word‑Dokumenten effizient mit Aspose.Words
+  für Java extrahieren. Entdecken Sie Hilfsmethoden, benutzerdefinierte Formatierung
+  und mehr.
+linktitle: Helper Methods for Extracting Content
+second_title: Aspose.Words Java Document Processing API
+title: Abschnitte aus Word mit Aspose.Words für Java extrahieren
+url: /de/java/document-manipulation/helper-methods-for-extracting-content/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,26 +16,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hilfsmethoden zum Extrahieren von Inhalten in Aspose.Words für Java
-
+# Abschnitte aus Word mit Aspose.Words für Java extrahieren
 
 ## Einführung in Hilfsmethoden zum Extrahieren von Inhalten in Aspose.Words für Java
 
-Aspose.Words für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Word-Dokumenten zu arbeiten. Eine häufige Aufgabe bei der Arbeit mit Word-Dokumenten ist das Extrahieren von Inhalten. In diesem Artikel stellen wir einige Hilfsmethoden zum effizienten Extrahieren von Inhalten mit Aspose.Words für Java vor.
+Aspose.Words für Java ist eine leistungsstarke Bibliothek, die Entwicklern ermöglicht, programmgesteuert mit Word‑Dokumenten zu arbeiten. Eine häufige Aufgabe beim Arbeiten mit Word‑Dokumenten ist das Extrahieren von Inhalten. In diesem Artikel gehen wir mehrere **Hilfsmethoden** durch, mit denen Sie **Abschnitte aus Word**‑Dokumenten effizient extrahieren, die Formatierung anpassen und sogar neue Dokumente on‑the‑fly erzeugen können.
+
+## Quick Answers
+- **Was kann ich extrahieren?** Absätze, Tabellen oder beliebige Block‑Ebene‑Knoten zwischen zwei Markern.  
+- **Welche Methode extrahiert nach Stil?** `paragraphsByStyleName` – perfekt für Überschriften oder Blockzitate.  
+- **Wie extrahiere ich zwischen Knoten?** Verwenden Sie `extractContentBetweenNodes` – verarbeitet Inline‑Marker, Lesezeichen und Felder.  
+- **Kann ich ein neues Dokument erzeugen?** Ja, `generateDocument` importiert eine Knotenliste und behält die Quellformatierung bei.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.
+
+## Was bedeutet „Abschnitte aus Word extrahieren“?
+Das Extrahieren von Abschnitten aus Word bedeutet, programmgesteuert bestimmte Teile einer `.docx`‑ oder `.doc`‑Datei herauszuziehen – etwa eine Gruppe von Absätzen, eine Tabelle oder einen Bereich, der durch Start‑ und Endknoten definiert ist – sodass Sie diesen Inhalt anderweitig wiederverwenden, analysieren oder umfunktionieren können.
+
+## Warum Hilfsmethoden von Aspose.Words verwenden?
+- **Geschwindigkeit & Zuverlässigkeit:** Eingebaute APIs erledigen komplexe Word‑Strukturen, ohne dass Sie Low‑Level‑Parsing‑Code schreiben müssen.  
+- **Erhalt der Formatierung:** Knoten werden mit den ursprünglichen Stilen importiert, sodass der extrahierte Inhalt identisch zum Original aussieht.  
+- **Flexibilität:** Sie können nach Stilen, bestimmten Knotenbereichen suchen oder komplett neue Dokumente erzeugen.  
 
 ## Voraussetzungen
 
-Bevor wir uns mit den Codebeispielen befassen, stellen Sie sicher, dass Aspose.Words für Java in Ihrem Java-Projekt installiert und eingerichtet ist. Sie können es herunterladen von [Hier](https://releases.aspose.com/words/java/).
+Bevor wir zu den Code‑Beispielen kommen, stellen Sie sicher, dass Aspose.Words für Java in Ihrem Java‑Projekt installiert und eingerichtet ist. Sie können es von [hier](https://releases.aspose.com/words/java/) herunterladen.
 
 ## Hilfsmethode 1: Absätze nach Stil extrahieren
 
 ```java
 public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String styleName) {
-    // Erstellen Sie ein Array, um Absätze des angegebenen Stils zu sammeln.
+    // Create an array to collect paragraphs of the specified style.
     ArrayList<Paragraph> paragraphsWithStyle = new ArrayList<Paragraph>();
     NodeCollection paragraphs = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
-    // Durchsuchen Sie alle Absätze, um diejenigen mit dem angegebenen Stil zu finden.
+    // Look through all paragraphs to find those with the specified style.
     for (Paragraph paragraph : (Iterable<Paragraph>) paragraphs) {
         if (paragraph.getParagraphFormat().getStyle().getName().equals(styleName))
             paragraphsWithStyle.add(paragraph);
@@ -41,99 +58,99 @@ public static ArrayList<Paragraph> paragraphsByStyleName(Document doc, String st
 }
 ```
 
-Mit dieser Methode können Sie Absätze mit einem bestimmten Stil in Ihrem Word-Dokument extrahieren. Dies ist nützlich, wenn Sie Inhalte mit einer bestimmten Formatierung extrahieren möchten, z. B. Überschriften oder Blockzitate.
+Mit dieser Methode können Sie Absätze extrahieren, die in Ihrem Word‑Dokument einen bestimmten Stil besitzen. Das ist nützlich, wenn Sie Inhalte mit einer bestimmten Formatierung, etwa Überschriften oder Blockzitate, herausziehen möchten.
 
-## Hilfsmethode 2: Extrahieren von Inhalten nach Knoten
+## Hilfsmethode 2: Inhalt zwischen Knoten extrahieren
 
 ```java
 public static ArrayList<Node> extractContentBetweenNodes(Node startNode, Node endNode, boolean isInclusive) {
-    // Überprüfen Sie zunächst, ob die an diese Methode übergebenen Knoten für die Verwendung gültig sind.
+    // First, check that the nodes passed to this method are valid for use.
     verifyParameterNodes(startNode, endNode);
     
-    // Erstellen Sie eine Liste zum Speichern der extrahierten Knoten.
+    // Create a list to store the extracted nodes.
     ArrayList<Node> nodes = new ArrayList<Node>();
 
-    // Wenn einer der Marker Teil eines Kommentars ist, einschließlich des Kommentars selbst, müssen wir den Zeiger verschieben
-    // weiter zum Kommentarknoten, der nach dem Knoten „CommentRangeEnd“ gefunden wird.
+    // If either marker is part of a comment, including the comment itself, we need to move the pointer
+    // forward to the Comment Node found after the CommentRangeEnd node.
     if (endNode.getNodeType() == NodeType.COMMENT_RANGE_END && isInclusive) {
         Node node = findNextNode(NodeType.COMMENT, endNode.getNextSibling());
         if (node != null)
             endNode = node;
     }
     
-    // Bewahren Sie eine Aufzeichnung der ursprünglichen Knoten auf, die an diese Methode übergeben wurden, um Markierungsknoten bei Bedarf aufzuteilen.
+    // Keep a record of the original nodes passed to this method to split marker nodes if needed.
     Node originalStartNode = startNode;
     Node originalEndNode = endNode;
 
-    // Extrahieren Sie Inhalte basierend auf Knoten auf Blockebene (Absätze und Tabellen). Durchsuchen Sie die übergeordneten Knoten, um sie zu finden.
-    // Wir werden den Inhalt des ersten und letzten Knotens aufteilen, je nachdem, ob die Markierungsknoten inline sind.
+    // Extract content based on block-level nodes (paragraphs and tables). Traverse through parent nodes to find them.
+    // We will split the first and last nodes' content, depending on whether the marker nodes are inline.
     startNode = getAncestorInBody(startNode);
     endNode = getAncestorInBody(endNode);
     boolean isExtracting = true;
     boolean isStartingNode = true;
-    // Der aktuelle Knoten, den wir aus dem Dokument extrahieren.
+    // The current node we are extracting from the document.
     Node currNode = startNode;
 
-    // Beginnen Sie mit der Inhaltsextraktion. Verarbeiten Sie alle Knoten auf Blockebene und teilen Sie insbesondere den ersten
-    // und letzte Knoten bei Bedarf, damit die Absatzformatierung erhalten bleibt.
-    // Diese Methode ist etwas komplizierter als ein normaler Extraktor, da wir berücksichtigen müssen
-    // beim Extrahieren mithilfe von Inline-Knoten, Feldern, Lesezeichen usw., um es nützlich zu machen.
+    // Begin extracting content. Process all block-level nodes and specifically split the first
+    // and last nodes when needed so paragraph formatting is retained.
+    // This method is a little more complicated than a regular extractor as we need to factor
+    // in extracting using inline nodes, fields, bookmarks, etc., to make it useful.
     while (isExtracting) {
-        // Klonen Sie den aktuellen Knoten und seine untergeordneten Knoten, um eine Kopie zu erhalten.
+        // Clone the current node and its children to obtain a copy.
         Node cloneNode = currNode.deepClone(true);
         boolean isEndingNode = currNode.equals(endNode);
         if (isStartingNode || isEndingNode) {
-            // Wir müssen jeden Marker separat verarbeiten, übergeben Sie ihn also stattdessen an eine separate Methode.
-            // Das Ende sollte zuerst verarbeitet werden, um die Knotenindizes beizubehalten.
+            // We need to process each marker separately, so pass it off to a separate method instead.
+            // End should be processed at first to keep node indexes.
             if (isEndingNode) {
-                // !isStartingNode: Fügen Sie den Knoten nicht zweimal hinzu, wenn die Markierungen derselbe Knoten sind.
+                // !isStartingNode: don't add the node twice if the markers are the same node.
                 processMarker(cloneNode, nodes, originalEndNode, currNode, isInclusive,
                         false, !isStartingNode, false);
                 isExtracting = false;
             }
-            // Bedingte müssen getrennt sein, da die Start- und Endmarkierungen auf Blockebene derselbe Knoten sein können.
+            // Conditional needs to be separate as the block level start and end markers may be the same node.
             if (isStartingNode) {
                 processMarker(cloneNode, nodes, originalStartNode, currNode, isInclusive,
                         true, true, false);
                 isStartingNode = false;
             }
         } else
-            // Der Knoten ist kein Start- oder Endmarker. Fügen Sie die Kopie einfach zur Liste hinzu.
+            // Node is not a start or end marker, simply add the copy to the list.
             nodes.add(cloneNode);
 
-        // Gehen Sie zum nächsten Knoten und extrahieren Sie ihn. Wenn der nächste Knoten null ist,
-        // Der restliche Inhalt befindet sich in einem anderen Abschnitt.
+        // Move to the next node and extract it. If the next node is null,
+        // the rest of the content is found in a different section.
         if (currNode.getNextSibling() == null && isExtracting) {
-            // Fahren Sie mit dem nächsten Abschnitt fort.
+            // Move to the next section.
             Section nextSection = (Section) currNode.getAncestor(NodeType.SECTION).getNextSibling();
             currNode = nextSection.getBody().getFirstChild();
         } else {
-            // Wechseln Sie zum nächsten Knoten im Textkörper.
+            // Move to the next node in the body.
             currNode = currNode.getNextSibling();
         }
     }
 
-    // Aus Kompatibilitätsgründen mit dem Modus mit Inline-Lesezeichen fügen Sie den nächsten Absatz (leer) hinzu.
+    // For compatibility with mode with inline bookmarks, add the next paragraph (empty).
     if (isInclusive && originalEndNode == endNode && !originalEndNode.isComposite())
         includeNextParagraph(endNode, nodes);
 
-    // Gibt die Knoten zwischen den Knotenmarkierungen zurück.
+    // Return the nodes between the node markers.
     return nodes;
 }
 ```
 
-Mit dieser Methode können Sie Inhalte zwischen zwei angegebenen Knoten extrahieren, unabhängig davon, ob es sich um Absätze, Tabellen oder andere Blockelemente handelt. Sie unterstützt verschiedene Szenarien, darunter Inline-Markierungen, Felder und Lesezeichen.
+Diese Methode ermöglicht es Ihnen, **zwischen Knoten zu extrahieren**, egal ob es sich um Absätze, Tabellen oder andere Block‑Ebene‑Elemente handelt. Sie deckt verschiedene Szenarien ab, einschließlich Inline‑Marker, Felder und Lesezeichen.
 
-## Hilfsmethode 3: Erstellen eines neuen Dokuments
+## Hilfsmethode 3: Neues Dokument erzeugen
 
 ```java
 public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) throws Exception {
     Document dstDoc = new Document();
     
-    // Entfernen Sie den ersten Absatz aus dem leeren Dokument.
+    // Remove the first paragraph from the empty document.
     dstDoc.getFirstSection().getBody().removeAllChildren();
     
-    // Importieren Sie jeden Knoten aus der Liste in das neue Dokument. Behalten Sie die ursprüngliche Formatierung des Knotens bei.
+    // Import each node from the list into the new document. Keep the original formatting of the node.
     NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
     for (Node node : nodes) {
         Node importNode = importer.importNode(node, true);
@@ -144,41 +161,46 @@ public static Document generateDocument(Document srcDoc, ArrayList<Node> nodes) 
 }
 ```
 
-Mit dieser Methode können Sie ein neues Dokument erstellen, indem Sie eine Liste von Knoten aus dem Quelldokument importieren. Die ursprüngliche Formatierung der Knoten bleibt erhalten und eignet sich daher gut zum Erstellen neuer Dokumente mit spezifischem Inhalt.
+Mit dieser Methode können Sie **ein neues Word‑Dokument** (oder *generate document java*) erstellen, indem Sie eine Liste von Knoten aus dem Quell‑Dokument importieren. Die ursprüngliche Formatierung der Knoten bleibt erhalten, was die Erstellung neuer Dokumente mit spezifischem Inhalt erleichtert.
 
-## Abschluss
+## Häufige Anwendungsfälle
 
-Das Extrahieren von Inhalten aus Word-Dokumenten kann ein entscheidender Bestandteil vieler Dokumentverarbeitungsaufgaben sein. Aspose.Words für Java bietet leistungsstarke Hilfsmethoden, die diesen Prozess vereinfachen. Ob Sie Absätze nach Stil, Inhalte zwischen Knoten extrahieren oder neue Dokumente generieren müssen – diese Methoden unterstützen Sie bei der effizienten Arbeit mit Word-Dokumenten in Ihren Java-Anwendungen.
+- **Alle Überschriften** aus einem umfangreichen Bericht extrahieren, um ein dynamisches Inhaltsverzeichnis zu erstellen.  
+- **Tabellen herausziehen**, die Finanzdaten enthalten, für eine separate Analyse – kombinierbar mit dem Stichwort *aspose words extract tables*.  
+- **Ein angepasstes Kapitel** erstellen, indem Sie einen Bereich von Abschnitten extrahieren und anschließend **ein neues Word‑Dokument** dafür generieren.
 
-## Häufig gestellte Fragen
+## Frequently Asked Questions
 
 ### Wie kann ich Aspose.Words für Java installieren?
 
-Um Aspose.Words für Java zu installieren, können Sie es von der Aspose-Website herunterladen. Besuchen Sie [Hier](https://releases.aspose.com/words/java/) um die neueste Version zu erhalten.
+Um Aspose.Words für Java zu installieren, können Sie es von der Aspose‑Website herunterladen. Besuchen Sie [hier](https://releases.aspose.com/words/java/), um die neueste Version zu erhalten.
 
-### Kann ich Inhalte aus bestimmten Abschnitten eines Word-Dokuments extrahieren?
+### Kann ich Inhalte aus bestimmten Abschnitten eines Word‑Dokuments extrahieren?
 
-Ja, Sie können mit den in diesem Artikel beschriebenen Methoden Inhalte aus bestimmten Abschnitten eines Word-Dokuments extrahieren. Geben Sie einfach die Start- und Endknoten an, die den zu extrahierenden Abschnitt definieren.
+Ja, Sie können Inhalte aus bestimmten Abschnitten eines Word‑Dokuments mithilfe der in diesem Artikel beschriebenen Methoden extrahieren. Geben Sie einfach die Start‑ und Endknoten an, die den gewünschten Abschnitt definieren.
 
-### Ist Aspose.Words für Java mit Java 11 kompatibel?
+### Ist Aspose.Words für Java mit Java 11 kompatibel?
 
-Ja, Aspose.Words für Java ist mit Java 11 und höheren Versionen kompatibel. Sie können es problemlos in Ihren Java-Anwendungen verwenden.
+Ja, Aspose.Words für Java ist mit Java 11 und höheren Versionen kompatibel. Sie können es in Ihren Java‑Anwendungen ohne Probleme verwenden.
 
 ### Kann ich die Formatierung des extrahierten Inhalts anpassen?
 
-Ja, Sie können die Formatierung des extrahierten Inhalts anpassen, indem Sie die importierten Knoten im generierten Dokument ändern. Aspose.Words für Java bietet umfangreiche Formatierungsoptionen, die Ihren Anforderungen gerecht werden.
+Ja, Sie können die Formatierung des extrahierten Inhalts anpassen, indem Sie die importierten Knoten im erzeugten Dokument modifizieren. Aspose.Words für Java bietet umfangreiche Formatierungsoptionen, um Ihren Anforderungen gerecht zu werden.
 
 ### Wo finde ich weitere Dokumentation und Beispiele für Aspose.Words für Java?
 
-Eine umfassende Dokumentation und Beispiele zu Aspose.Words für Java finden Sie auf der Aspose-Website. Besuchen Sie [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) für ausführliche Dokumentation und Ressourcen.
+Umfassende Dokumentation und Beispiele für Aspose.Words für Java finden Sie auf der Aspose‑Website. Besuchen Sie [https://reference.aspose.com/words/java/](https://reference.aspose.com/words/java/) für detaillierte Dokumentation und Ressourcen.
 
+---
+
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
