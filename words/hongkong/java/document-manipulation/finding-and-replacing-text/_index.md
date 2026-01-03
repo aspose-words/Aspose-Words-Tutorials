@@ -1,10 +1,12 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 在 Word 文件中尋找和取代文字。帶有程式碼範例的分步指南。增強您的 Java 文件操作技能。"
-"linktitle": "尋找和取代文本"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中尋找和取代文本"
-"url": "/zh-hant/java/document-manipulation/finding-and-replacing-text/"
-"weight": 15
+date: 2026-01-03
+description: 學習如何使用 Aspose.Words for Java 在 Word 文件中以 HTML 取代文字。一步一步的指南，附有程式碼範例、正則表達式取代文字的
+  Java 提示，等等。
+linktitle: Finding and Replacing Text
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words for Java 將文字替換為 HTML
+url: /zh-hant/java/document-manipulation/finding-and-replacing-text/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,365 +15,351 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中尋找和取代文本
+# 在 Aspose.Words for Java 中以 HTML 替換文字
 
+## Aspose.Words for Java 中尋找與取代文字的簡介
 
-## Aspose.Words for Java 中文字尋找與取代簡介
+Aspose.Words for Java 是一個功能強大的 Java API，讓您可以以程式方式操作 Word 文件。最常見的任務之一是 **replace text with html**，無論是更新範本中的佔位符、注入樣式化內容，或執行大量文字轉換。本指南將說明如何取代文字、如何使用 regex replace text java，以及如何在頁眉中取代文字——同時保持程式碼簡潔高效。
 
-Aspose.Words for Java 是一個強大的 Java API，可讓您以程式設計方式處理 Word 文件。處理 Word 文件時的常見任務之一是尋找和取代文字。無論您需要更新範本中的佔位符還是執行更複雜的文字操作，Aspose.Words for Java 都可以幫助您有效率地實現目標。
+## 快速答覆
+- **取代文字為 HTML 的主要方法是什麼？** 使用 `FindReplaceOptions` 搭配自訂回呼，例如 `ReplaceWithHtmlEvaluator`。  
+- **在取代時可以忽略欄位嗎？** 可以 – 設定 `options.setIgnoreFields(true)`。  
+- **生產環境需要授權嗎？** 商業部署必須使用有效的 Aspose.Words 授權。  
+- **支援哪個 Java 版本？** Aspose.Words for Java 支援 Java 8 及以上版本。  
+- **支援 regex replace text java 嗎？** 當然可以 – 將 `Pattern` 物件傳遞給 `replace` 方法。
 
-## 先決條件
+## 什麼是「replace text with html」？
 
-在深入了解尋找和取代文字的細節之前，請確保您已滿足以下先決條件：
+以 HTML 取代文字是指將純文字佔位符換成富含 HTML 標記（表格、清單、樣式）的內容，同時保留周圍的 Word 文件結構。Aspose.Words 會解析 HTML 並插入相對應的 Word 物件，讓您完整掌控最終版面配置。
 
-- Java 開發環境
-- Aspose.Words for Java 函式庫
-- 可供使用的範例 Word 文檔
+## 為什麼使用 Aspose.Words 來完成此任務？
 
-您可以從以下位置下載 Aspose.Words for Java 程式庫 [這裡](https://releases。aspose.com/words/java/).
+- **完整的 Word 相容性** – 函式庫保留所有格式、頁眉、頁腳與修訂追蹤。  
+- **內建正則表達式支援** – 適用於複雜搜尋模式（`regex replace text java`）。  
+- **細緻的控制** – 如 `IgnoreFields`、`IgnoreDeleted`、`UseLegacyOrder` 等選項，可依需求調整操作。  
+- **跨平台** – 可在任何支援 Java 的作業系統上執行。
 
-## 尋找並取代簡單文字
+## 前置條件
+
+- Java 開發環境 (JDK 8+)
+- Aspose.Words for Java 函式庫 – 從 [here](https://releases.aspose.com/words/java/) 下載。  
+- 一個範例 Word 文件（`.docx`）供實驗使用。
+
+## 尋找與取代簡單文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 創建 DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 尋找和取代文本
+// Find and replace text
 builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在這個範例中，我們載入一個 Word 文檔，建立一個 `DocumentBuilder`並使用 `replace` 方法在文件中尋找並用“新文字”取代“舊文字”。
+此基本範例示範了使用 `replace` 方法 **如何取代文字**。它是更進階情境的基礎。
 
-## 使用正規表示式
-
-正規表示式為文字搜尋和取代提供了強大的模式匹配功能。 Aspose.Words for Java 支援正規表示式，可實現更進階的查找和取代操作。
+## 使用正則表達式（regex replace text java）
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 創建 DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用正規表示式尋找和取代文本
+// Use regular expressions for finding and replacing text
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在此範例中，我們使用正規表示式模式來尋找和取代文件中的文字。
+正則表達式提供強大的模式匹配功能，適用於動態佔位符或複雜的字詞邊界。
 
-## 忽略字段內的文本
-
-您可以設定 Aspose.Words 在執行尋找和取代操作時忽略欄位內的文字。
+## 忽略欄位內的文字（aspose words replace text）
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並將 IgnoreFields 設為 true
+// Create a FindReplaceOptions instance and set IgnoreFields to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-當您想要排除欄位（例如合併欄位）內的文字被替換時，這很有用。
+設定 `IgnoreFields` 可在取代周圍內容時，保持合併欄位、頁碼或其他欄位代碼不被更動。
 
-## 忽略刪除修訂中的文本
-
-您可以設定 Aspose.Words 在尋找和取代操作期間忽略刪除修訂版中的文字。
+## 忽略刪除修訂內的文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並將 IgnoreDeleted 設為 true
+// Create a FindReplaceOptions instance and set IgnoreDeleted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以排除已在追蹤變更中標記為刪除的文本，以免被替換。
+此設定可防止被標記為刪除（修訂追蹤）的文字被更改。
 
-## 忽略插入修訂中的文本
-
-您可以設定 Aspose.Words 在尋找和取代操作期間忽略插入修訂版中的文字。
+## 忽略插入修訂內的文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並將 IgnoreInserted 設為 true
+// Create a FindReplaceOptions instance and set IgnoreInserted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以排除已在追蹤變更中標記為插入的文本，以免被替換。
+在大量取代時，若希望保持新插入的文字不受影響，此功能相當有用。
 
-## 用 HTML 取代文字
-
-您可以使用 Aspose.Words for Java 將文字替換為 HTML 內容。
+## 以 HTML 取代文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 使用自訂替換回呼建立 FindReplaceOptions 實例
+// Create a FindReplaceOptions instance with a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在這個例子中，我們使用自訂 `ReplaceWithHtmlEvaluator` 用 HTML 內容取代文字。
+此處我們透過提供自訂評估器，解析 HTML 字串並插入相應的 Word 節點，**以 HTML 取代文字**。
 
-## 替換頁首和頁尾中的文本
-
-您可以在 Word 文件的頁首和頁尾中尋找和取代文字。
+## 在頁眉與頁腳中取代文字（replace text in headers）
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 取得頁首和頁尾的集合
+// Get the collection of headers and footers
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// 選擇要取代文字的頁首或頁尾類型（例如，HeaderFooterType.FOOTER_PRIMARY）
+// Choose the header or footer type you want to replace text in (e.g., HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// 建立一個 FindReplaceOptions 實例並將其應用於頁腳的範圍
+// Create a FindReplaceOptions instance and apply it to the footer's range
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以專門在頁首和頁尾中執行文字替換。
+在頁眉或頁腳內的精確取代，可確保文件品牌保持一致。
 
-## 顯示頁首和頁尾順序的更改
-
-您可以使用 Aspose.Words 顯示文件中頁首和頁尾順序的變化。
+## 顯示頁眉與頁腳順序的變更
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 取得第一部分
+// Get the first section
 Section firstPageSection = doc.getFirstSection();
 
-// 建立一個 FindReplaceOptions 實例並將其應用於文件的範圍
+// Create a FindReplaceOptions instance and apply it to the document's range
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// 取代影響頁首和頁尾順序的文本
+// Replace text that affects header and footer orders
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以直觀地看到與文件中的頁首和頁尾順序相關的變更。
+此範例會記錄變更，協助您稽核頁眉/頁腳順序的調整。
 
-## 用字段替換文本
-
-您可以使用 Aspose.Words for Java 將文字替換為欄位。
+## 以欄位取代文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並為欄位設定自訂替換回調
+// Create a FindReplaceOptions instance and set a custom replacing callback for fields
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在此範例中，我們用欄位替換文字並指定欄位類型（例如， `FieldType.FIELD_MERGE_FIELD`）。
+注入欄位（例如合併欄位）可建立可於稍後填入資料的動態文件。
 
-## 用評估器替換
-
-您可以使用自訂評估器來動態確定替換文字。
+## 使用評估器取代
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並設定自訂替換回調
+// Create a FindReplaceOptions instance and set a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在此範例中，我們使用自訂評估器（`MyReplaceEvaluator`) 來替換文字。
+自訂評估器讓您對取代文字擁有完整的程式控制。
 
-## 使用正規表示式替換
-
-Aspose.Words for Java 可讓您使用正規表示式取代文字。
+## 使用正則表達式取代（regex replace text java）
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 使用正規表示式尋找和取代文本
+// Use regular expressions for finding and replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在此範例中，我們使用正規表示式模式來尋找和取代文件中的文字。
+一種簡潔的方式，可在整份文件中執行基於模式的取代。
 
-## 識別和替換模式中的替換
-
-您可以使用 Aspose.Words for Java 識別替換模式並在其中進行替換。
+## 在取代模式中辨識與取代
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立一個 FindReplaceOptions 實例，並將 UseSubstitutions 設為 true
+// Create a FindReplaceOptions instance with UseSubstitutions set to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// 使用圖案取代文字時使用選項
+// Use options when replacing text with a pattern
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以在替換模式中執行替換以實現更高級的替換。
+啟用 `UseSubstitutions` 後，可在取代字串中直接引用捕獲群組。
 
-## 用字串替換
-
-您可以使用 Aspose.Words for Java 將文字替換為簡單的字串。
+## 使用字串取代（replace text word java）
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 用字串替換文本
+// Replace text with a string
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-在這個範例中，我們用「new-string」取代文件中的「text-to-replace」。
+最簡單的取代形式——適合靜態佔位符。
 
-## 使用舊訂單
-
-執行尋找和取代操作時，您可以使用舊順序。
+## 使用舊版順序
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 建立 FindReplaceOptions 實例並將 UseLegacyOrder 設為 true
+// Create a FindReplaceOptions instance and set UseLegacyOrder to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// 替換文字時使用選項
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以使用舊順序進行查找和替換操作。
+在處理依賴原始遍歷順序的舊文件時，可能需要使用舊版順序。
 
-## 替換表格中的文本
-
-您可以在 Word 文件的表格中尋找和取代文字。
+## 在表格中取代文字
 
 ```java
-// 載入文檔
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// 取得特定表（例如，第一個表）
+// Get a specific table (e.g., the first table)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-// 使用 FindReplaceOptions 替換表中的文字
+// Use FindReplaceOptions for replacing text in the table
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// 儲存修改後的文檔
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-這使您可以專門在表格內執行文字替換。
+在表格內的精確取代可防止文件其他部位發生意外變更。
 
-## 結論
+## 常見問題與解決方案
 
-Aspose.Words for Java 提供了在 Word 文件中尋找和取代文字的全面功能。無論您需要執行簡單的文字替換還是使用正規表示式、欄位操作或自訂評估器執行更進階的操作，Aspose.Words for Java 都能滿足您的需求。請務必探索 Aspose 提供的大量文件和範例，以充分利用這個強大的 Java 庫的潛力。
+- **HTML 未正確呈現** – 請確保您的 HTML 結構良好，且包含必要的標籤（例如 `<p>`、`<table>`）。  
+- **正則表達式未匹配** – 記得轉義特殊字元，必要時使用 `Pattern.CASE_INSENSITIVE`。  
+- **欄位被意外取代** – 設定 `options.setIgnoreFields(true)` 以保護欄位。  
+- **大型文件的效能** – 使用 `UseLegacyOrder` 或將段落逐一處理，以降低記憶體佔用。
 
-## 常見問題解答
+## 常見問答
 
-### 如何下載適用於 Java 的 Aspose.Words？
+**Q: 如何下載 Aspose.Words for Java？**  
+A: 您可前往網站，點擊 [this link](https://releases.aspose.com/words/java/) 下載 Aspose.Words for Java。
 
-您可以從網站下載 Aspose.Words for Java，網址： [此連結](https://releases。aspose.com/words/java/).
+**Q: 可以使用正則表達式進行文字取代嗎？**  
+A: 可以，您可以在 Aspose.Words for Java 中使用正則表達式進行文字取代，這讓您能執行更進階且彈性的尋找與取代操作。
 
-### 我可以使用正規表示式進行文字替換嗎？
+**Q: 如何在取代時忽略欄位內的文字？**  
+A: 將 `FindReplaceOptions` 的 `IgnoreFields` 屬性設為 `true`。這會排除欄位內容（例如合併欄位）不被取代。
 
-是的，您可以在 Aspose.Words for Java 中使用正規表示式進行文字替換。這使您可以執行更高級、更靈活的查找和替換操作。
+**Q: 能否在頁眉與頁腳內取代文字？**  
+A: 當然可以。透過 `HeaderFooterCollection` 取得目標頁眉或頁腳，並使用帶有相應選項的 `replace` 方法。
 
-### 如何在替換期間忽略欄位內的文字？
+**Q: `UseLegacyOrder` 選項的作用是什麼？**  
+A: `UseLegacyOrder` 會強制尋找/取代引擎以舊版的節點遍歷順序執行，對於相容舊文件很有幫助。
 
-若要在替換期間忽略欄位內的文本，您可以設定 `IgnoreFields` 的財產 `FindReplaceOptions` 到 `true`。這可確保欄位內的文字（例如合併欄位）不會被取代。
+---
 
-### 我可以替換頁首和頁尾內的文字嗎？
-
-是的，您可以取代 Word 文件頁首和頁尾內的文字。只需存取適當的頁首或頁尾並使用 `replace` 方法與所需的 `FindReplaceOptions`。
-
-### UseLegacyOrder 選項有什麼用處？
-
-這 `UseLegacyOrder` 選擇 `FindReplaceOptions` 允許您在執行尋找和取代操作時使用舊順序。這在需要傳統訂單行為的某些場景中很有用。
-
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

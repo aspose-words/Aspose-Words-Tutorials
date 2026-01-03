@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách tìm và thay thế văn bản trong tài liệu Word bằng Aspose.Words for Java. Hướng dẫn từng bước với các ví dụ về mã. Nâng cao kỹ năng thao tác tài liệu Java của bạn."
-"linktitle": "Tìm và thay thế văn bản"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Tìm và thay thế văn bản trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/finding-and-replacing-text/"
-"weight": 15
+date: 2026-01-03
+description: Tìm hiểu cách thay thế văn bản bằng HTML trong tài liệu Word bằng Aspose.Words
+  cho Java. Hướng dẫn từng bước với các ví dụ mã, mẹo thay thế văn bản bằng regex
+  trong Java và hơn nữa.
+linktitle: Finding and Replacing Text
+second_title: Aspose.Words Java Document Processing API
+title: Thay thế văn bản bằng HTML sử dụng Aspose.Words cho Java
+url: /vi/java/document-manipulation/finding-and-replacing-text/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,365 +16,351 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tìm và thay thế văn bản trong Aspose.Words cho Java
-
+# thay thế văn bản bằng html trong Aspose.Words cho Java
 
 ## Giới thiệu về Tìm và Thay thế Văn bản trong Aspose.Words cho Java
 
-Aspose.Words for Java là một Java API mạnh mẽ cho phép bạn làm việc với các tài liệu Word theo chương trình. Một trong những tác vụ phổ biến khi xử lý các tài liệu Word là tìm và thay thế văn bản. Cho dù bạn cần cập nhật chỗ giữ chỗ trong các mẫu hay thực hiện các thao tác văn bản phức tạp hơn, Aspose.Words for Java có thể giúp bạn đạt được mục tiêu của mình một cách hiệu quả.
+Aspose.Words for Java là một API Java mạnh mẽ cho phép bạn thao tác các tài Word một cách lập trình. Một trong những nhiệm vụ phổ biến nhất là **replace text with html**, cho dù bạn đang cập nhật các placeholder trong mẫu, chèn nội dung có định dạng, hoặc thực hiện các chuyển đổi văn bản hàng loạt. Trong hướng dẫn này, chúng tôi sẽ trình bày cách thay thế văn bản, cách sử dụng regex replace text java, và thậm chí cách thay thế văn bản trong header — tất cả trong khi giữ mã nguồn của bạn sạch sẽ và hiệu quả.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Phương pháp chính để replace text with html là gì?** Use `FindReplaceOptions` with a custom callback such as `ReplaceWithHtmlEvaluator`.  
+- **Có thể bỏ qua các field khi thay thế không?** Yes – set `options.setIgnoreFields(true)`.  
+- **Có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** A valid Aspose.Words license is required for commercial deployments.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.Words for Java works with Java 8 and higher.  
+- **Có hỗ trợ regex replace java không?** Absolutely – pass a `Pattern` object to the `replace` method.
 
-Trước khi đi sâu vào chi tiết về cách tìm và thay thế văn bản, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
+## “replace text with html” là gì?
 
-- Môi trường phát triển Java
-- Aspose.Words cho thư viện Java
-- Một tài liệu Word mẫu để làm việc
+Thay thế văn bản bằng HTML có nghĩa là thay thế một placeholder dạng văn bản thuần bằng markup HTML phong phú (bảng, danh sách, kiểu dáng) trong khi vẫn giữ cấu trúc tài liệu Word xung quanh. Aspose.Words phân tích HTML và chèn các đối tượng Word tương ứng, cho phép bạn kiểm soát hoàn toàn bố cục cuối cùng.
 
-Bạn có thể tải xuống thư viện Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
+## Tại sao nên sử dụng Aspose.Words cho nhiệm vụ này?
 
-## Tìm và thay thế văn bản đơn giản
+- **Full Word fidelity** – thư viện giữ nguyên tất cả định dạng, header, footer và các thay đổi được theo dõi.  
+- **Built‑in regex support** – hoàn hảo cho các mẫu tìm kiếm phức tạp (`regex replace text java`).  
+- **Fine‑grained control** – các tùy chọn như `IgnoreFields`, `IgnoreDeleted`, và `UseLegacyOrder` cho phép bạn tùy chỉnh hoạt động theo nhu cầu chính xác.  
+- **Cross‑platform** – hoạt động trên bất kỳ hệ điều hành nào chạy Java.
+
+## Yêu cầu trước
+
+- Java Development Environment (JDK 8+)  
+- Aspose.Words for Java library – download it from [here](https://releases.aspose.com/words/java/).  
+- Một tài liệu Word mẫu (`.docx`) để thử nghiệm.
+
+## Tìm và Thay thế Văn bản Đơn giản
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tìm và thay thế văn bản
+// Find and replace text
 builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi tải một tài liệu Word, tạo một `DocumentBuilder`và sử dụng `replace` phương pháp tìm và thay thế "văn bản cũ" bằng "văn bản mới" trong tài liệu.
+Ví dụ cơ bản này cho thấy **cách thay thế văn bản** bằng phương thức `replace`. Đây là nền tảng cho các kịch bản nâng cao hơn.
 
-## Sử dụng biểu thức chính quy
-
-Biểu thức chính quy cung cấp khả năng khớp mẫu mạnh mẽ để tìm kiếm và thay thế văn bản. Aspose.Words for Java hỗ trợ biểu thức chính quy cho các hoạt động tìm kiếm và thay thế nâng cao hơn.
+## Sử dụng Biểu thức Chính quy (regex replace text java)
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sử dụng biểu thức chính quy để tìm và thay thế văn bản
+// Use regular expressions for finding and replacing text
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi sử dụng mẫu biểu thức chính quy để tìm và thay thế văn bản trong tài liệu.
+Biểu thức chính quy cung cấp khả năng khớp mẫu mạnh mẽ, lý tưởng cho các placeholder động hoặc các ranh giới từ phức tạp.
 
-## Bỏ qua văn bản bên trong các trường
-
-Bạn có thể cấu hình Aspose.Words để bỏ qua văn bản bên trong các trường khi thực hiện các thao tác tìm và thay thế.
+## Bỏ qua Văn bản trong Các Field (aspose words replace text)
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và đặt IgnoreFields thành true
+// Create a FindReplaceOptions instance and set IgnoreFields to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Điều này hữu ích khi bạn muốn loại trừ văn bản bên trong các trường, chẳng hạn như trường hợp nhập, khỏi bị thay thế.
+Đặt `IgnoreFields` để giữ nguyên các merge field, số trang, hoặc các mã field khác khi bạn thay thế nội dung xung quanh.
 
-## Bỏ qua văn bản bên trong Xóa bản sửa đổi
-
-Bạn có thể cấu hình Aspose.Words để bỏ qua văn bản bên trong các bản sửa đổi xóa trong quá trình tìm và thay thế.
+## Bỏ qua Văn bản trong Xóa Sửa đổi
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và đặt IgnoreDeleted thành true
+// Create a FindReplaceOptions instance and set IgnoreDeleted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn loại trừ văn bản đã được đánh dấu để xóa trong các thay đổi được theo dõi khỏi bị thay thế.
+Điều này ngăn văn bản được đánh dấu để xóa (thay đổi được theo dõi) bị thay đổi.
 
-## Bỏ qua văn bản bên trong bản sửa đổi chèn
-
-Bạn có thể cấu hình Aspose.Words để bỏ qua văn bản bên trong các bản sửa đổi chèn trong quá trình tìm và thay thế.
+## Bỏ qua Văn bản trong Chèn Sửa đổi
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và đặt IgnoreInserted thành true
+// Create a FindReplaceOptions instance and set IgnoreInserted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn loại trừ văn bản đã được đánh dấu là chèn vào các thay đổi được theo dõi khỏi bị thay thế.
+Hữu ích khi bạn muốn giữ nguyên văn bản mới chèn trong quá trình thay thế hàng loạt.
 
-## Thay thế văn bản bằng HTML
-
-Bạn có thể sử dụng Aspose.Words cho Java để thay thế văn bản bằng nội dung HTML.
+## Thay thế Văn bản bằng HTML
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions với lệnh gọi lại thay thế tùy chỉnh
+// Create a FindReplaceOptions instance with a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi sử dụng một tùy chỉnh `ReplaceWithHtmlEvaluator` để thay thế văn bản bằng nội dung HTML.
+Ở đây chúng tôi **replace text with html** bằng cách cung cấp một evaluator tùy chỉnh phân tích chuỗi HTML và chèn các node Word phù hợp.
 
-## Thay thế văn bản trong tiêu đề và chân trang
-
-Bạn có thể tìm và thay thế văn bản trong phần đầu trang và chân trang của tài liệu Word.
+## Thay thế Văn bản trong Header và Footer (replace text in headers)
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Nhận bộ sưu tập tiêu đề và chân trang
+// Get the collection of headers and footers
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Chọn loại tiêu đề hoặc chân trang mà bạn muốn thay thế văn bản (ví dụ: HeaderFooterType.FOOTER_PRIMARY)
+// Choose the header or footer type you want to replace text in (e.g., HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// Tạo một thể hiện FindReplaceOptions và áp dụng nó vào phạm vi chân trang
+// Create a FindReplaceOptions instance and apply it to the footer's range
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn thực hiện thay thế văn bản cụ thể ở phần đầu trang và chân trang.
+Việc thay thế có mục tiêu trong header hoặc footer đảm bảo thương hiệu tài liệu của bạn luôn nhất quán.
 
-## Hiển thị thay đổi cho đơn hàng Header và Footer
-
-Bạn có thể sử dụng Aspose.Words để hiển thị những thay đổi về thứ tự đầu trang và chân trang trong tài liệu của mình.
+## Hiển thị Thay đổi cho Thứ tự Header và Footer
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Nhận phần đầu tiên
+// Get the first section
 Section firstPageSection = doc.getFirstSection();
 
-// Tạo một thể hiện FindReplaceOptions và áp dụng nó vào phạm vi của tài liệu
+// Create a FindReplaceOptions instance and apply it to the document's range
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// Thay thế văn bản ảnh hưởng đến thứ tự đầu trang và chân trang
+// Replace text that affects header and footer orders
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn hình dung những thay đổi liên quan đến thứ tự đầu trang và chân trang trong tài liệu của bạn.
+Ví dụ này ghi lại các thay đổi, giúp bạn kiểm tra các sửa đổi về thứ tự header/footer.
 
-## Thay thế văn bản bằng các trường
-
-Bạn có thể thay thế văn bản bằng các trường bằng Aspose.Words cho Java.
+## Thay thế Văn bản bằng Fields
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và thiết lập lệnh gọi lại thay thế tùy chỉnh cho các trường
+// Create a FindReplaceOptions instance and set a custom replacing callback for fields
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi thay thế văn bản bằng các trường và chỉ định loại trường (ví dụ: `FieldType.FIELD_MERGE_FIELD`).
+Chèn các field (ví dụ: merge fields) cho phép bạn tạo tài liệu động có thể được điền dữ liệu sau này.
 
-## Thay thế bằng Người đánh giá
-
-Bạn có thể sử dụng trình đánh giá tùy chỉnh để xác định văn bản thay thế một cách linh hoạt.
+## Thay thế bằng Evaluator
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và thiết lập lệnh gọi lại thay thế tùy chỉnh
+// Create a FindReplaceOptions instance and set a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi sử dụng một trình đánh giá tùy chỉnh (`MyReplaceEvaluator`) để thay thế văn bản.
+Các evaluator tùy chỉnh cung cấp cho bạn toàn quyền kiểm soát lập trình đối với văn bản thay thế.
 
-## Thay thế bằng Regex
-
-Aspose.Words for Java cho phép bạn thay thế văn bản bằng biểu thức chính quy.
+## Thay thế bằng Regex (regex replace text java)
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Sử dụng biểu thức chính quy để tìm và thay thế văn bản
+// Use regular expressions for finding and replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi sử dụng mẫu biểu thức chính quy để tìm và thay thế văn bản trong tài liệu.
+Một cách ngắn gọn để thực hiện các thay thế dựa trên mẫu trên toàn bộ tài liệu.
 
-## Nhận biết và thay thế trong các mẫu thay thế
-
-Bạn có thể nhận dạng và thực hiện thay thế trong các mẫu thay thế bằng cách sử dụng Aspose.Words cho Java.
+## Nhận dạng và Thay thế trong Mẫu Thay thế
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions với UseSubstitutions được đặt thành true
+// Create a FindReplaceOptions instance with UseSubstitutions set to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// Sử dụng các tùy chọn khi thay thế văn bản bằng một mẫu
+// Use options when replacing text with a pattern
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn thực hiện các phép thay thế trong các mẫu thay thế để có các phép thay thế nâng cao hơn.
+Bật `UseSubstitutions` để tham chiếu các nhóm bắt trực tiếp trong chuỗi thay thế.
 
-## Thay thế bằng một chuỗi
-
-Bạn có thể thay thế văn bản bằng một chuỗi đơn giản bằng Aspose.Words cho Java.
+## Thay thế bằng Chuỗi (replace text word java)
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Thay thế văn bản bằng một chuỗi
+// Replace text with a string
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Trong ví dụ này, chúng tôi thay thế "text-to-replace" bằng "new-string" trong tài liệu.
+Dạng thay thế đơn giản nhất — hoàn hảo cho các placeholder tĩnh.
 
-## Sử dụng lệnh Legacy
-
-Bạn có thể sử dụng thứ tự cũ khi thực hiện các thao tác tìm và thay thế.
+## Sử dụng Legacy Order
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Tạo một thể hiện FindReplaceOptions và đặt UseLegacyOrder thành true
+// Create a FindReplaceOptions instance and set UseLegacyOrder to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// Sử dụng tùy chọn khi thay thế văn bản
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Điều này cho phép bạn sử dụng thứ tự cũ cho các hoạt động tìm kiếm và thay thế.
+Legacy order có thể cần thiết khi làm việc với các tài liệu cũ dựa vào trình tự duyệt ban đầu.
 
-## Thay thế văn bản trong bảng
-
-Bạn có thể tìm và thay thế văn bản trong bảng trong tài liệu Word của mình.
+## Thay thế Văn bản trong Bảng
 
 ```java
-// Tải tài liệu
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Lấy một bảng cụ thể (ví dụ: bảng đầu tiên)
+// Get a specific table (e.g., the first table)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-// Sử dụng FindReplaceOptions để thay thế văn bản trong bảng
+// Use FindReplaceOptions for replacing text in the table
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Lưu tài liệu đã sửa đổi
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Tính năng này cho phép bạn thực hiện thay thế văn bản cụ thể trong bảng.
+Việc thay thế có mục tiêu trong bảng ngăn ngừa các thay đổi không mong muốn ở các phần khác của tài liệu.
 
-## Phần kết luận
+## Các Vấn đề Thường gặp và Giải pháp
 
-Aspose.Words for Java cung cấp khả năng toàn diện để tìm và thay thế văn bản trong các tài liệu Word. Cho dù bạn cần thực hiện các thao tác thay thế văn bản đơn giản hay các thao tác nâng cao hơn bằng cách sử dụng biểu thức chính quy, thao tác trường hoặc trình đánh giá tùy chỉnh, Aspose.Words for Java đều có thể đáp ứng nhu cầu của bạn. Hãy đảm bảo khám phá tài liệu và ví dụ mở rộng do Aspose cung cấp để khai thác toàn bộ tiềm năng của thư viện Java mạnh mẽ này.
+- **HTML không hiển thị đúng** – Đảm bảo HTML của bạn được viết đúng cấu trúc và bao gồm các thẻ cần thiết (ví dụ: `<p>`, `<table>`).  
+- **Regex không khớp** – Hãy nhớ escape các ký tự đặc biệt và sử dụng `Pattern.CASE_INSENSITIVE` nếu cần.  
+- **Fields bị thay thế không mong muốn** – Đặt `options.setIgnoreFields(true)` để bảo vệ chúng.  
+- **Hiệu năng trên tài liệu lớn** – Sử dụng `UseLegacyOrder` hoặc xử lý từng phần riêng biệt để giảm lượng bộ nhớ sử dụng.
 
-## Câu hỏi thường gặp
+## Câu hỏi Thường gặp
 
-### Làm thế nào để tải xuống Aspose.Words cho Java?
+**Q: Làm thế nào để tải xuống Aspose.Words cho Java?**  
+A: Bạn có thể tải xuống Aspose.Words cho Java từ trang web bằng cách truy cập [this link](https://releases.aspose.com/words/java/).
 
-Bạn có thể tải xuống Aspose.Words cho Java từ trang web bằng cách truy cập [liên kết này](https://releases.aspose.com/words/java/).
+**Q: Có thể sử dụng biểu thức chính quy cho việc thay thế văn bản không?**  
+A: Có, bạn có thể sử dụng biểu thức chính quy cho việc thay thế văn bản trong Aspose.Words cho Java. Điều này cho phép bạn thực hiện các thao tác tìm và thay thế nâng cao và linh hoạt hơn.
 
-### Tôi có thể sử dụng biểu thức chính quy để thay thế văn bản không?
+**Q: Làm sao để bỏ qua văn bản trong các field khi thay thế?**  
+A: Đặt thuộc tính `IgnoreFields` của `FindReplaceOptions` thành `true`. Điều này loại trừ nội dung field như merge fields khỏi việc bị thay thế.
 
-Có, bạn có thể sử dụng biểu thức chính quy để thay thế văn bản trong Aspose.Words cho Java. Điều này cho phép bạn thực hiện các thao tác tìm và thay thế nâng cao và linh hoạt hơn.
+**Q: Có thể thay thế văn bản trong header và footer không?**  
+A: Chắc chắn. Truy cập header hoặc footer mong muốn qua `HeaderFooterCollection` và áp dụng phương thức `replace` với các tùy chọn phù hợp.
 
-### Làm thế nào tôi có thể bỏ qua văn bản bên trong các trường trong quá trình thay thế?
+**Q: Tùy chọn `UseLegacyOrder` làm gì?**  
+A: `UseLegacyOrder` buộc engine tìm/thay thế duyệt các node theo thứ tự gốc được sử dụng bởi các phiên bản cũ hơn của Aspose.Words, điều này có thể hữu ích cho việc tương thích với tài liệu legacy.
 
-Để bỏ qua văn bản bên trong các trường trong quá trình thay thế, bạn có thể thiết lập `IgnoreFields` tài sản của `FindReplaceOptions` ĐẾN `true`Điều này đảm bảo rằng văn bản trong các trường, chẳng hạn như trường hợp nhập, sẽ bị loại trừ khỏi mục thay thế.
+---
 
-### Tôi có thể thay thế văn bản bên trong đầu trang và chân trang không?
-
-Có, bạn có thể thay thế văn bản bên trong tiêu đề và chân trang của tài liệu Word. Chỉ cần truy cập tiêu đề hoặc chân trang thích hợp và sử dụng `replace` phương pháp với mong muốn `FindReplaceOptions`.
-
-### Tùy chọn UseLegacyOrder có tác dụng gì?
-
-Các `UseLegacyOrder` tùy chọn trong `FindReplaceOptions` cho phép bạn sử dụng thứ tự cũ khi thực hiện các thao tác tìm và thay thế. Điều này có thể hữu ích trong một số trường hợp nhất định khi mong muốn hành vi thứ tự cũ.
-
+**Cập nhật lần cuối:** 2026-01-03  
+**Kiểm tra với:** Aspose.Words for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java."
-"linktitle": "Znajdowanie i zastępowanie tekstu"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Znajdowanie i zamiana tekstu w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/finding-and-replacing-text/"
-"weight": 15
+date: 2026-01-03
+description: Dowiedz się, jak zastąpić tekst HTML w dokumentach Word przy użyciu Aspose.Words
+  for Java. Przewodnik krok po kroku z przykładami kodu, wskazówkami dotyczącymi zamiany
+  tekstu przy użyciu wyrażeń regularnych w Javie i nie tylko.
+linktitle: Finding and Replacing Text
+second_title: Aspose.Words Java Document Processing API
+title: Zastąp tekst HTML przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-manipulation/finding-and-replacing-text/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,365 +16,351 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Znajdowanie i zamiana tekstu w Aspose.Words dla Java
+# zamiana tekstu na html w Aspose.Words for Java
 
+## Wprowadzenie do znajdowania i zamieniania tekstu w Aspose.Words for Java
 
-## Wprowadzenie do wyszukiwania i zamiany tekstu w Aspose.Words dla Java
+Aspose.Words for Java to potężne API Java, które pozwala programowo manipulować dokumentami Word. Jednym z najczęstszych zadań jest **replace text with html**, niezależnie od tego, czy aktualizujesz znaczniki w szablonie, wstrzykujesz stylowaną zawartość, czy wykonujesz masowe transformacje tekstu. W tym przewodniku przeprowadzimy Cię przez proces zamiany tekstu, użycia regex replace text java oraz zamiany tekstu w nagłówkach — wszystko przy zachowaniu czystego i wydajnego kodu.
 
-Aspose.Words for Java to potężne API Java, które umożliwia programową pracę z dokumentami Word. Jednym z typowych zadań podczas pracy z dokumentami Word jest wyszukiwanie i zastępowanie tekstu. Niezależnie od tego, czy musisz zaktualizować symbole zastępcze w szablonach, czy wykonać bardziej złożone manipulacje tekstem, Aspose.Words for Java może pomóc Ci skutecznie osiągnąć Twoje cele.
+## Szybkie odpowiedzi
+- **Jaką metodą podstawową zamienić tekst na html?** Użyj `FindReplaceOptions` z własnym callbackiem, takim jak `ReplaceWithHtmlEvaluator`.  
+- **Czy mogę pominąć pola podczas zamiany?** Tak – ustaw `options.setIgnoreFields(true)`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Words do wdrożeń komercyjnych.  
+- **Jaką wersję Javy obsługuje?** Aspose.Words for Java działa z Java 8 i wyższymi.  
+- **Czy regex replace text java jest obsługiwane?** Absolutnie – przekaż obiekt `Pattern` do metody `replace`.
 
-## Wymagania wstępne
+## Co to jest „replace text with html”?
 
-Zanim przejdziemy do szczegółów wyszukiwania i zamieniania tekstu, upewnij się, że spełnione są następujące warunki wstępne:
+Zamiana tekstu na HTML oznacza zastąpienie znacznika w zwykłym tekście bogatym kodem HTML (tabele, listy, style) przy zachowaniu struktury otaczającego dokumentu Word. Aspose.Words parsuje HTML i wstawia odpowiednie obiekty Word, dając pełną kontrolę nad ostatecznym układem.
 
-- Środowisko programistyczne Java
-- Aspose.Words dla biblioteki Java
-- Przykładowy dokument Word do pracy
+## Dlaczego używać Aspose.Words do tego zadania?
 
-Bibliotekę Aspose.Words for Java można pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
+- **Pełna wierność Word** – biblioteka zachowuje wszystkie formatowania, nagłówki, stopki i śledzone zmiany.  
+- **Wbudowane wsparcie regex** – idealne dla złożonych wzorców wyszukiwania (`regex replace text java`).  
+- **Precyzyjna kontrola** – opcje takie jak `IgnoreFields`, `IgnoreDeleted` i `UseLegacyOrder` pozwalają dostosować operację do dokładnych potrzeb.  
+- **Cross‑platform** – działa na każdym systemie operacyjnym obsługującym Javę.
 
-## Znajdowanie i zastępowanie prostego tekstu
+## Prerequisites
+
+- Java Development Environment (JDK 8+)
+- Biblioteka Aspose.Words for Java – pobierz ją z [tutaj](https://releases.aspose.com/words/java/).
+- Przykładowy dokument Word (`.docx`) do eksperymentów.
+
+## Znajdowanie i zamiana prostego tekstu
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Znajdź i zamień tekst
+// Find and replace text
 builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie ładujemy dokument Word, tworzymy `DocumentBuilder`i użyj `replace` metoda wyszukiwania i zamiany „starego tekstu” na „nowy tekst” w dokumencie.
+Ten podstawowy przykład pokazuje **jak zamienić tekst** przy użyciu metody `replace`. To podstawa dla bardziej zaawansowanych scenariuszy.
 
-## Korzystanie z wyrażeń regularnych
-
-Wyrażenia regularne zapewniają potężne możliwości dopasowywania wzorców do wyszukiwania i zamiany tekstu. Aspose.Words for Java obsługuje wyrażenia regularne do bardziej zaawansowanych operacji wyszukiwania i zamiany.
+## Używanie wyrażeń regularnych (regex replace text java)
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Użyj wyrażeń regularnych do wyszukiwania i zamiany tekstu
+// Use regular expressions for finding and replacing text
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie wykorzystujemy wzorzec wyrażenia regularnego w celu znalezienia i zamiany tekstu w dokumencie.
+Wyrażenia regularne zapewniają potężne dopasowywanie wzorców, idealne dla dynamicznych znaczników lub złożonych granic słów.
 
-## Ignorowanie tekstu wewnątrz pól
-
-Można skonfigurować Aspose.Words tak, aby ignorował tekst wewnątrz pól podczas wykonywania operacji wyszukiwania i zamiany.
+## Ignorowanie tekstu wewnątrz pól (aspose words replace text)
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw IgnoreFields na true
+// Create a FindReplaceOptions instance and set IgnoreFields to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Jest to przydatne, gdy chcesz wykluczyć tekst znajdujący się wewnątrz pól, np. pól scalania, z możliwości zastąpienia.
+Ustaw `IgnoreFields`, aby pozostawić pola scalania, numery stron lub inne kody pól nietknięte, podczas gdy zamieniasz otaczającą treść.
 
-## Ignorowanie tekstu wewnątrz Usuń wersje
-
-Można skonfigurować Aspose.Words tak, aby ignorował tekst wewnątrz usuniętych wersji podczas operacji wyszukiwania i zamiany.
+## Ignorowanie tekstu wewnątrz usuniętych rewizji
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw IgnoreDeleted na true
+// Create a FindReplaceOptions instance and set IgnoreDeleted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to wykluczenie tekstu oznaczonego do usunięcia w śledzonych zmianach z zastępowania.
+Zapobiega to modyfikacji tekstu oznaczonego do usunięcia (śledzone zmiany).
 
-## Ignorowanie tekstu wewnątrz wstawianych wersji
-
-Można skonfigurować Aspose.Words tak, aby ignorował tekst wewnątrz wstawianych wersji podczas operacji wyszukiwania i zamiany.
+## Ignorowanie tekstu wewnątrz wstawionych rewizji
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw IgnoreInserted na true
+// Create a FindReplaceOptions instance and set IgnoreInserted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to wykluczenie tekstu oznaczonego jako wstawiony w śledzonych zmianach z zastępowania.
+Przydatne, gdy chcesz zachować nowo wstawiony tekst niezmieniony podczas masowej zamiany.
 
-## Zastępowanie tekstu kodem HTML
-
-Aby zastąpić tekst zawartością HTML, można użyć Aspose.Words for Java.
+## Zamiana tekstu na HTML
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions z niestandardowym wywołaniem zwrotnym zastępowania
+// Create a FindReplaceOptions instance with a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie używamy niestandardowego `ReplaceWithHtmlEvaluator` aby zastąpić tekst zawartością HTML.
+Tutaj **zamieniamy tekst na html** dostarczając własny evaluator, który parsuje ciąg HTML i wstawia odpowiednie węzły Word.
 
-## Zastępowanie tekstu w nagłówkach i stopkach
-
-Możesz wyszukiwać i zamieniać tekst w nagłówkach i stopkach dokumentu Word.
+## Zamiana tekstu w nagłówkach i stopkach (replace text in headers)
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Pobierz kolekcję nagłówków i stopek
+// Get the collection of headers and footers
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Wybierz typ nagłówka lub stopki, w którym chcesz zastąpić tekst (np. HeaderFooterType.FOOTER_PRIMARY)
+// Choose the header or footer type you want to replace text in (e.g., HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// Utwórz instancję FindReplaceOptions i zastosuj ją do zakresu stopki
+// Create a FindReplaceOptions instance and apply it to the footer's range
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to dokonywanie zamian tekstu, szczególnie w nagłówkach i stopkach.
+Ukierunkowana zamiana w nagłówkach lub stopkach zapewnia spójność brandingu dokumentu.
 
-## Wyświetlanie zmian w zamówieniach nagłówka i stopki
-
-Za pomocą Aspose.Words możesz pokazać zmiany w kolejności nagłówków i stopek w swoim dokumencie.
+## Wyświetlanie zmian w kolejności nagłówków i stopek
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Pobierz pierwszą sekcję
+// Get the first section
 Section firstPageSection = doc.getFirstSection();
 
-// Utwórz instancję FindReplaceOptions i zastosuj ją do zakresu dokumentu
+// Create a FindReplaceOptions instance and apply it to the document's range
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// Zamień tekst, który wpływa na kolejność nagłówków i stopek
+// Replace text that affects header and footer orders
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to wizualizację zmian dotyczących kolejności nagłówków i stopek w dokumencie.
+Ten przykład rejestruje zmiany, pomagając audytować modyfikacje kolejności nagłówków/stopki.
 
-## Zastępowanie tekstu polami
-
-Możesz zastąpić tekst polami korzystając z Aspose.Words dla Java.
+## Zamiana tekstu na pola
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw niestandardową funkcję zwrotną zamiany dla pól
+// Create a FindReplaceOptions instance and set a custom replacing callback for fields
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie zastępujemy tekst polami i określamy typ pola (np. `FieldType.FIELD_MERGE_FIELD`).
+Wstawianie pól (np. pól scalania) pozwala tworzyć dynamiczne dokumenty, które można później wypełnić.
 
-## Zastępowanie przez ewaluatora
-
-Można użyć niestandardowego narzędzia do dynamicznego określania tekstu zastępczego.
+## Zamiana przy użyciu Evaluatora
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw niestandardową funkcję zwrotną zamiany
+// Create a FindReplaceOptions instance and set a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie używamy niestandardowego ewaluatora (`MyReplaceEvaluator`) aby zastąpić tekst.
+Niestandardowe evaluatory dają pełną programistyczną kontrolę nad tekstem zamiany.
 
-## Zastępowanie za pomocą Regex
-
-Aspose.Words for Java umożliwia zamianę tekstu za pomocą wyrażeń regularnych.
+## Zamiana przy użyciu Regex (regex replace text java)
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Użyj wyrażeń regularnych do wyszukiwania i zamiany tekstu
+// Use regular expressions for finding and replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-W tym przykładzie wykorzystujemy wzorzec wyrażenia regularnego w celu znalezienia i zamiany tekstu w dokumencie.
+Zwięzły sposób na wykonywanie zamian opartych na wzorcach w całym dokumencie.
 
-## Rozpoznawanie i substytucje w ramach wzorców zastępczych
-
-Za pomocą Aspose.Words for Java możesz rozpoznawać i dokonywać podstawień w obrębie wzorców zamiany.
+## Rozpoznawanie i podstawienia w ramach wzorców zamiany
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions z opcją UseSubstitutions ustawioną na true
+// Create a FindReplaceOptions instance with UseSubstitutions set to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// Użyj opcji podczas zastępowania tekstu wzorem
+// Use options when replacing text with a pattern
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to wykonywanie substytucji w obrębie wzorców zamiany w celu wykonania bardziej zaawansowanych zamian.
+Włącz `UseSubstitutions`, aby odwoływać się do grup przechwytywania bezpośrednio w ciągu zamiany.
 
-## Zastępowanie ciągiem znaków
-
-Możesz zastąpić tekst prostym ciągiem znaków korzystając z Aspose.Words dla Java.
+## Zamiana przy użyciu łańcucha znaków (replace text word java)
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Zamień tekst na ciąg znaków
+// Replace text with a string
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-tym przykładzie zastępujemy „text-to-replace” przez „new-string” w dokumencie.
+Najprostsza forma zamiany — idealna dla statycznych znaczników.
 
-## Korzystanie z zamówienia Legacy
-
-Podczas wykonywania operacji znajdowania i zamieniania można używać starszej kolejności.
+## Używanie kolejności Legacy
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Utwórz instancję FindReplaceOptions i ustaw UseLegacyOrder na true
+// Create a FindReplaceOptions instance and set UseLegacyOrder to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// Użyj opcji podczas zastępowania tekstu
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to korzystanie ze starszej kolejności operacji wyszukiwania i zamiany.
+Kolejność Legacy może być konieczna przy pracy ze starszymi dokumentami, które polegają na oryginalnej kolejności przeglądania.
 
-## Zastępowanie tekstu w tabeli
-
-Możesz wyszukiwać i zamieniać tekst w tabelach w dokumencie Word.
+## Zamiana tekstu w tabeli
 
 ```java
-// Załaduj dokument
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Pobierz konkretną tabelę (np. pierwszą tabelę)
+// Get a specific table (e.g., the first table)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-// Użyj FindReplaceOptions do zamiany tekstu w tabeli
+// Use FindReplaceOptions for replacing text in the table
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Umożliwia to wykonywanie zamian tekstu specjalnie w tabelach.
+Ukierunkowane zamiany w tabelach zapobiegają niezamierzonym zmianom w innych częściach dokumentu.
 
-## Wniosek
+## Common Issues and Solutions
 
-Aspose.Words for Java oferuje kompleksowe możliwości wyszukiwania i zastępowania tekstu w dokumentach Word. Niezależnie od tego, czy musisz wykonać proste zastąpienia tekstu, czy bardziej zaawansowane operacje przy użyciu wyrażeń regularnych, manipulacji polami lub niestandardowych ewaluatorów, Aspose.Words for Java ma wszystko, czego potrzebujesz. Upewnij się, że zapoznałeś się z obszerną dokumentacją i przykładami dostarczonymi przez Aspose, aby wykorzystać pełny potencjał tej potężnej biblioteki Java.
+- **HTML nie renderuje się prawidłowo** – Upewnij się, że Twój HTML jest poprawnie sformułowany i zawiera wymagane tagi (np. `<p>`, `<table>`).  
+- **Regex nie dopasowuje** – Pamiętaj, aby uciekać specjalne znaki i używać `Pattern.CASE_INSENSITIVE`, jeśli to konieczne.  
+- **Pola są zamieniane niezamierzenie** – Ustaw `options.setIgnoreFields(true)`, aby je chronić.  
+- **Wydajność przy dużych dokumentach** – Użyj `UseLegacyOrder` lub przetwarzaj sekcje indywidualnie, aby zmniejszyć zużycie pamięci.
 
-## Najczęściej zadawane pytania
+## Frequently Asked Questions
 
-### Jak pobrać Aspose.Words dla Java?
+**P: Jak pobrać Aspose.Words for Java?**  
+O: Możesz pobrać Aspose.Words for Java ze strony internetowej, odwiedzając [ten link](https://releases.aspose.com/words/java/).
 
-Możesz pobrać Aspose.Words dla Java ze strony internetowej, odwiedzając [ten link](https://releases.aspose.com/words/java/).
+**P: Czy mogę używać wyrażeń regularnych do zamiany tekstu?**  
+O: Tak, możesz używać wyrażeń regularnych do zamiany tekstu w Aspose.Words for Java. Pozwala to na wykonywanie bardziej zaawansowanych i elastycznych operacji znajdź i zamień.
 
-### Czy mogę używać wyrażeń regularnych do zastępowania tekstu?
+**P: Jak mogę ignorować tekst wewnątrz pól podczas zamiany?**  
+O: Ustaw właściwość `IgnoreFields` obiektu `FindReplaceOptions` na `true`. To wyklucza zawartość pól, takich jak pola scalania, z zamiany.
 
-Tak, możesz używać wyrażeń regularnych do zamiany tekstu w Aspose.Words for Java. Pozwala to na wykonywanie bardziej zaawansowanych i elastycznych operacji wyszukiwania i zamiany.
+**P: Czy można zamienić tekst w nagłówkach i stopkach?**  
+O: Absolutnie. Uzyskaj dostęp do żądanego nagłówka lub stopki poprzez `HeaderFooterCollection` i zastosuj metodę `replace` z odpowiednimi opcjami.
 
-### Jak mogę ignorować tekst wewnątrz pól podczas zamiany?
+**P: Co robi opcja `UseLegacyOrder`?**  
+O: `UseLegacyOrder` wymusza, aby silnik znajdź/zamień przeglądał węzły w oryginalnej kolejności używanej przez starsze wersje Aspose.Words, co może być przydatne dla kompatybilności ze starszymi dokumentami.
 
-Aby zignorować tekst wewnątrz pól podczas zamiany, możesz ustawić `IgnoreFields` własność `FindReplaceOptions` Do `true`Dzięki temu tekst w polach, takich jak pola scalania, nie będzie uwzględniany podczas zamiany.
+---
 
-### Czy mogę zastąpić tekst w nagłówkach i stopkach?
-
-Tak, możesz zastąpić tekst wewnątrz nagłówków i stopek dokumentu Word. Po prostu przejdź do odpowiedniego nagłówka lub stopki i użyj `replace` metoda z pożądanym `FindReplaceOptions`.
-
-### Do czego służy opcja UseLegacyOrder?
-
-Ten `UseLegacyOrder` opcja w `FindReplaceOptions` pozwala na użycie starszej kolejności podczas wykonywania operacji wyszukiwania i zamiany. Może to być przydatne w pewnych scenariuszach, w których pożądane jest starsze zachowanie kolejności.
-
+**Ostatnia aktualizacja:** 2026-01-03  
+**Testowano z:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

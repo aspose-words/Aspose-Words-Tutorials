@@ -1,10 +1,13 @@
 ---
-"description": "Μάθετε πώς να βρίσκετε και να αντικαθιστάτε κείμενο σε έγγραφα Word με το Aspose.Words για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα. Βελτιώστε τις δεξιότητές σας στον χειρισμό εγγράφων Java."
-"linktitle": "Εύρεση και αντικατάσταση κειμένου"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Εύρεση και αντικατάσταση κειμένου στο Aspose.Words για Java"
-"url": "/el/java/document-manipulation/finding-and-replacing-text/"
-"weight": 15
+date: 2026-01-03
+description: Μάθετε πώς να αντικαθιστάτε κείμενο με HTML σε έγγραφα Word χρησιμοποιώντας
+  το Aspose.Words for Java. Οδηγός βήμα‑προς‑βήμα με παραδείγματα κώδικα, συμβουλές
+  για αντικατάσταση κειμένου με regex σε Java και πολλά άλλα.
+linktitle: Finding and Replacing Text
+second_title: Aspose.Words Java Document Processing API
+title: Αντικατάσταση κειμένου με HTML χρησιμοποιώντας το Aspose.Words για Java
+url: /el/java/document-manipulation/finding-and-replacing-text/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,365 +16,351 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εύρεση και αντικατάσταση κειμένου στο Aspose.Words για Java
+# replace text with html in Aspose.Words for Java
 
+## Introduction to Finding and Replacing Text in Aspose.Words for Java
 
-## Εισαγωγή στην εύρεση και αντικατάσταση κειμένου στο Aspose.Words για Java
+Το Aspose.Words for Java είναι ένα ισχυρό Java API που σας επιτρέπει να χειρίζεστε έγγραφα Word προγραμματιστικά. Μία από τις πιο κοινές εργασίες είναι **replace text with html**, είτε ενημερώνετε placeholders σε ένα πρότυπο, είτε ενσωματώνετε στυλιζαρισμένο περιεχόμενο, είτε εκτελείτε μαζικές μετατροπές κειμένου. Σε αυτόν τον οδηγό θα δούμε πώς να αντικαταστήσετε κείμενο, πώς να χρησιμοποιήσετε regex replace text java, και ακόμη πώς να αντικαταστήσετε κείμενο σε headers—όλα ενώ διατηρείτε τον κώδικά σας καθαρό και αποδοτικό.
 
-Το Aspose.Words για Java είναι ένα ισχυρό API Java που σας επιτρέπει να εργάζεστε με έγγραφα του Word μέσω προγραμματισμού. Μία από τις συνηθισμένες εργασίες κατά την επεξεργασία εγγράφων του Word είναι η εύρεση και η αντικατάσταση κειμένου. Είτε χρειάζεται να ενημερώσετε δεσμευτικά θέσης σε πρότυπα είτε να εκτελέσετε πιο σύνθετους χειρισμούς κειμένου, το Aspose.Words για Java μπορεί να σας βοηθήσει να επιτύχετε τους στόχους σας αποτελεσματικά.
+## Quick Answers
+- **Ποια είναι η κύρια μέθοδος για replace text with html;** Χρησιμοποιήστε το `FindReplaceOptions` με ένα προσαρμοσμένο callback όπως το `ReplaceWithHtmlEvaluator`.  
+- **Μπορώ να αγνοήσω τα fields κατά την αντικατάσταση;** Ναι – ορίστε `options.setIgnoreFields(true)`.  
+- **Χρειάζομαι άδεια για παραγωγική χρήση;** Απαιτείται έγκυρη άδεια Aspose.Words για εμπορικές αναπτύξεις.  
+- **Ποια έκδοση Java υποστηρίζεται;** Το Aspose.Words for Java λειτουργεί με Java 8 και νεότερες.  
+- **Υποστηρίζεται το regex replace text java;** Απόλυτα – περάστε ένα αντικείμενο `Pattern` στη μέθοδο `replace`.  
 
-## Προαπαιτούμενα
+## What is “replace text with html”?
 
-Πριν εμβαθύνουμε στις λεπτομέρειες της εύρεσης και αντικατάστασης κειμένου, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+Τι είναι το “replace text with html”;  
+Η αντικατάσταση κειμένου με HTML σημαίνει την αντικατάσταση ενός placeholder απλού κειμένου με πλούσιο HTML markup (πίνακες, λίστες, στυλ) διατηρώντας τη δομή του περιβάλλοντος εγγράφου Word. Το Aspose.Words αναλύει το HTML και εισάγει τα αντίστοιχα αντικείμενα Word, παρέχοντάς σας πλήρη έλεγχο πάνω στην τελική διάταξη.
 
-- Περιβάλλον Ανάπτυξης Java
-- Aspose.Words για βιβλιοθήκη Java
-- Ένα δείγμα εγγράφου του Word για εργασία
+## Why use Aspose.Words for this task?
 
-Μπορείτε να κατεβάσετε τη βιβλιοθήκη Aspose.Words για Java από [εδώ](https://releases.aspose.com/words/java/).
+Γιατί να χρησιμοποιήσετε το Aspose.Words για αυτήν την εργασία;
+- **Full Word fidelity** – η βιβλιοθήκη διατηρεί όλη τη μορφοποίηση, τα headers, footers και τις παρακολουθούμενες αλλαγές ανέπαφες.  
+- **Built‑in regex support** – ιδανικό για σύνθετα μοτίβα αναζήτησης (`regex replace text java`).  
+- **Fine‑grained control** – επιλογές όπως `IgnoreFields`, `IgnoreDeleted` και `UseLegacyOrder` σας επιτρέπουν να προσαρμόσετε τη λειτουργία στις ακριβείς ανάγκες σας.  
+- **Cross‑platform** – λειτουργεί σε οποιοδήποτε OS που τρέχει Java.  
 
-## Εύρεση και αντικατάσταση απλού κειμένου
+## Prerequisites
+
+- Java Development Environment (JDK 8+)  
+- Βιβλιοθήκη Aspose.Words for Java – κατεβάστε την από [εδώ](https://releases.aspose.com/words/java/).  
+- Ένα δείγμα εγγράφου Word (`.docx`) για πειραματισμό.  
+
+## Finding and Replacing Simple Text
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργία ενός DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εύρεση και αντικατάσταση κειμένου
+// Find and replace text
 builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, φορτώνουμε ένα έγγραφο του Word, δημιουργούμε ένα `DocumentBuilder`, και χρησιμοποιήστε το `replace` μέθοδος για την εύρεση και αντικατάσταση του "παλιού κειμένου" με "νέο κείμενο" μέσα στο έγγραφο.
+Αυτό το βασικό παράδειγμα δείχνει **πώς να αντικαταστήσετε κείμενο** χρησιμοποιώντας τη μέθοδο `replace`. Είναι η βάση για πιο προχωρημένα σενάρια.
 
-## Χρήση κανονικών εκφράσεων
-
-Οι κανονικές εκφράσεις παρέχουν ισχυρές δυνατότητες αντιστοίχισης μοτίβων για αναζήτηση και αντικατάσταση κειμένου. Το Aspose.Words για Java υποστηρίζει κανονικές εκφράσεις για πιο προηγμένες λειτουργίες εύρεσης και αντικατάστασης.
+## Using Regular Expressions (regex replace text java)
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργία ενός DocumentBuilder
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Χρήση κανονικών εκφράσεων για εύρεση και αντικατάσταση κειμένου
+// Use regular expressions for finding and replacing text
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, χρησιμοποιούμε ένα μοτίβο κανονικής έκφρασης για να βρούμε και να αντικαταστήσουμε κείμενο μέσα στο έγγραφο.
+Οι regular expressions σας παρέχουν ισχυρή αντιστοίχιση προτύπων, ιδανική για δυναμικά placeholders ή σύνθετα όρια λέξεων.
 
-## Αγνόηση κειμένου εντός πεδίων
-
-Μπορείτε να ρυθμίσετε το Aspose.Words ώστε να αγνοεί το κείμενο μέσα στα πεδία κατά την εκτέλεση λειτουργιών εύρεσης και αντικατάστασης.
+## Ignoring Text Inside Fields (aspose words replace text)
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε την τιμή IgnoreFields σε true
+// Create a FindReplaceOptions instance and set IgnoreFields to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό είναι χρήσιμο όταν θέλετε να εξαιρέσετε το κείμενο μέσα σε πεδία, όπως τα πεδία συγχώνευσης, από την αντικατάσταση.
+Ορίστε `IgnoreFields` για να διατηρήσετε τα merge fields, τους αριθμούς σελίδων ή άλλους κωδικούς πεδίων αμετάβλητους ενώ αντικαθιστάτε το περιβάλλον περιεχόμενο.
 
-## Αγνόηση κειμένου μέσα σε διαγραφή αναθεωρήσεων
-
-Μπορείτε να ρυθμίσετε το Aspose.Words ώστε να αγνοεί το κείμενο μέσα σε αναθεωρήσεις διαγραφής κατά τη διάρκεια των λειτουργιών εύρεσης και αντικατάστασης.
+## Ignoring Text Inside Delete Revisions
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε την τιμή IgnoreDeleted σε true
+// Create a FindReplaceOptions instance and set IgnoreDeleted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να εξαιρέσετε κείμενο που έχει επισημανθεί για διαγραφή στις εντοπισμένες αλλαγές από την αντικατάσταση.
+Αυτό αποτρέπει την τροποποίηση του κειμένου που έχει σημειωθεί για διαγραφή (tracked changes).
 
-## Αγνόηση κειμένου μέσα σε εισαγωγικές αναθεωρήσεις
-
-Μπορείτε να ρυθμίσετε το Aspose.Words ώστε να αγνοεί το κείμενο μέσα σε αναθεωρήσεις εισαγωγής κατά τη διάρκεια των λειτουργιών εύρεσης και αντικατάστασης.
+## Ignoring Text Inside Insert Revisions
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε την τιμή IgnoreInserted σε true
+// Create a FindReplaceOptions instance and set IgnoreInserted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να εξαιρέσετε κείμενο που έχει επισημανθεί ως εισαγόμενο στις εντοπισμένες αλλαγές από την αντικατάσταση.
+Χρήσιμο όταν θέλετε να διατηρήσετε το νεοεισαγμένο κείμενο αμετάβλητο κατά τη διάρκεια μιας μαζικής αντικατάστασης.
 
-## Αντικατάσταση κειμένου με HTML
-
-Μπορείτε να χρησιμοποιήσετε το Aspose.Words για Java για να αντικαταστήσετε κείμενο με περιεχόμενο HTML.
+## Replacing Text with HTML
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions με μια προσαρμοσμένη επιστροφή κλήσης αντικατάστασης
+// Create a FindReplaceOptions instance with a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, χρησιμοποιούμε μια προσαρμοσμένη `ReplaceWithHtmlEvaluator` για να αντικαταστήσετε κείμενο με περιεχόμενο HTML.
+Εδώ **replace text with html** παρέχοντας έναν προσαρμοσμένο evaluator που αναλύει τη συμβολοσειρά HTML και εισάγει τους κατάλληλους κόμβους Word.
 
-## Αντικατάσταση κειμένου σε κεφαλίδες και υποσέλιδα
-
-Μπορείτε να βρείτε και να αντικαταστήσετε κείμενο μέσα σε κεφαλίδες και υποσέλιδα του εγγράφου του Word.
+## Replacing Text in Headers and Footers (replace text in headers)
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Αποκτήστε τη συλλογή κεφαλίδων και υποσέλιδων
+// Get the collection of headers and footers
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// Επιλέξτε τον τύπο κεφαλίδας ή υποσέλιδου στον οποίο θέλετε να αντικαταστήσετε το κείμενο (π.χ., HeaderFooterType.FOOTER_PRIMARY)
+// Choose the header or footer type you want to replace text in (e.g., HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και εφαρμόστε την στην περιοχή του υποσέλιδου
+// Create a FindReplaceOptions instance and apply it to the footer's range
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να εκτελείτε αντικαταστάσεις κειμένου ειδικά σε κεφαλίδες και υποσέλιδα.
+Στοχευμένη αντικατάσταση μέσα σε headers ή footers εξασφαλίζει ότι η επωνυμία του εγγράφου σας παραμένει συνεπής.
 
-## Εμφάνιση αλλαγών για τις παραγγελίες κεφαλίδας και υποσέλιδου
-
-Μπορείτε να χρησιμοποιήσετε το Aspose.Words για να εμφανίσετε αλλαγές στις τάξεις κεφαλίδας και υποσέλιδου στο έγγραφό σας.
+## Showing Changes for Header and Footer Orders
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Αποκτήστε το πρώτο τμήμα
+// Get the first section
 Section firstPageSection = doc.getFirstSection();
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και εφαρμόστε την στην περιοχή του εγγράφου
+// Create a FindReplaceOptions instance and apply it to the document's range
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// Αντικατάσταση κειμένου που επηρεάζει τις σειρές κεφαλίδων και υποσέλιδων
+// Replace text that affects header and footer orders
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να οπτικοποιήσετε αλλαγές που σχετίζονται με τις σειρές κεφαλίδων και υποσέλιδων στο έγγραφό σας.
+Αυτό το παράδειγμα καταγράφει αλλαγές, βοηθώντας σας να ελέγξετε τις τροποποιήσεις στην σειρά των headers/footers.
 
-## Αντικατάσταση κειμένου με πεδία
-
-Μπορείτε να αντικαταστήσετε κείμενο με πεδία χρησιμοποιώντας το Aspose.Words για Java.
+## Replacing Text with Fields
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε μια προσαρμοσμένη επιστροφή κλήσης αντικατάστασης για πεδία
+// Create a FindReplaceOptions instance and set a custom replacing callback for fields
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, αντικαθιστούμε το κείμενο με πεδία και καθορίζουμε τον τύπο πεδίου (π.χ., `FieldType.FIELD_MERGE_FIELD`).
+Η ενσωμάτωση fields (π.χ., merge fields) σας επιτρέπει να δημιουργήσετε δυναμικά έγγραφα που μπορούν να συμπληρωθούν αργότερα.
 
-## Αντικατάσταση με έναν αξιολογητή
-
-Μπορείτε να χρησιμοποιήσετε έναν προσαρμοσμένο αξιολογητή για να προσδιορίσετε δυναμικά το κείμενο αντικατάστασης.
+## Replacing with an Evaluator
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε μια προσαρμοσμένη επιστροφή κλήσης αντικατάστασης
+// Create a FindReplaceOptions instance and set a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, χρησιμοποιούμε έναν προσαρμοσμένο αξιολογητή (`MyReplaceEvaluator`) για αντικατάσταση κειμένου.
+Οι προσαρμοσμένοι evaluators σας δίνουν πλήρη προγραμματιστικό έλεγχο πάνω στο κείμενο αντικατάστασης.
 
-## Αντικατάσταση με Regex
-
-Το Aspose.Words για Java σάς επιτρέπει να αντικαθιστάτε κείμενο χρησιμοποιώντας κανονικές εκφράσεις.
+## Replacing with Regex (regex replace text java)
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Χρήση κανονικών εκφράσεων για εύρεση και αντικατάσταση κειμένου
+// Use regular expressions for finding and replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, χρησιμοποιούμε ένα μοτίβο κανονικής έκφρασης για να βρούμε και να αντικαταστήσουμε κείμενο μέσα στο έγγραφο.
+Ένας συνοπτικός τρόπος για την εκτέλεση αντικαταστάσεων βάσει προτύπων σε ολόκληρο το έγγραφο.
 
-## Αναγνώριση και Αντικαταστάσεις εντός Προτύπων Αντικατάστασης
-
-Μπορείτε να αναγνωρίσετε και να κάνετε αντικαταστάσεις μέσα σε μοτίβα αντικατάστασης χρησιμοποιώντας το Aspose.Words για Java.
+## Recognizing and Substitutions Within Replacement Patterns
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions με την τιμή UseSubstitutions σε true
+// Create a FindReplaceOptions instance with UseSubstitutions set to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου με μοτίβο
+// Use options when replacing text with a pattern
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να εκτελείτε αντικαταστάσεις εντός των μοτίβων αντικατάστασης για πιο προηγμένες αντικαταστάσεις.
+Ενεργοποιήστε το `UseSubstitutions` για να αναφέρετε ομάδες σύλληψης απευθείας στη συμβολοσειρά αντικατάστασης.
 
-## Αντικατάσταση με συμβολοσειρά
-
-Μπορείτε να αντικαταστήσετε κείμενο με μια απλή συμβολοσειρά χρησιμοποιώντας το Aspose.Words για Java.
+## Replacing with a String (replace text word java)
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Αντικατάσταση κειμένου με μια συμβολοσειρά
+// Replace text with a string
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Σε αυτό το παράδειγμα, αντικαθιστούμε το "text-to-replace" με το "new-string" μέσα στο έγγραφο.
+Η πιο απλή μορφή αντικατάστασης—ιδανική για στατικά placeholders.
 
-## Χρήση παλαιάς παραγγελίας
-
-Μπορείτε να χρησιμοποιήσετε την παλαιότερη σειρά κατά την εκτέλεση λειτουργιών εύρεσης και αντικατάστασης.
+## Using Legacy Order
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Δημιουργήστε μια παρουσία FindReplaceOptions και ορίστε την τιμή UseLegacyOrder σε true
+// Create a FindReplaceOptions instance and set UseLegacyOrder to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// Χρήση επιλογών κατά την αντικατάσταση κειμένου
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να χρησιμοποιείτε την παλαιότερη σειρά για λειτουργίες εύρεσης και αντικατάστασης.
+Η Legacy order μπορεί να είναι απαραίτητη όταν εργάζεστε με παλαιότερα έγγραφα που βασίζονται στην αρχική σειρά διάσχισης.
 
-## Αντικατάσταση κειμένου σε πίνακα
-
-Μπορείτε να βρείτε και να αντικαταστήσετε κείμενο μέσα σε πίνακες στο έγγραφο του Word.
+## Replacing Text in a Table
 
 ```java
-// Φόρτωση του εγγράφου
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// Αποκτήστε ένα συγκεκριμένο τραπέζι (π.χ., το πρώτο τραπέζι)
+// Get a specific table (e.g., the first table)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-// Χρησιμοποιήστε το FindReplaceOptions για την αντικατάσταση κειμένου στον πίνακα
+// Use FindReplaceOptions for replacing text in the table
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// Αποθήκευση του τροποποιημένου εγγράφου
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-Αυτό σας επιτρέπει να εκτελείτε αντικαταστάσεις κειμένου ειδικά μέσα σε πίνακες.
+Στοχευμένες αντικαταστάσεις μέσα σε πίνακες αποτρέπουν ανεπιθύμητες αλλαγές σε άλλα μέρη του εγγράφου.
 
-## Σύναψη
+## Common Issues and Solutions
 
-Το Aspose.Words για Java παρέχει ολοκληρωμένες δυνατότητες για την εύρεση και αντικατάσταση κειμένου σε έγγραφα του Word. Είτε χρειάζεται να εκτελέσετε απλές αντικαταστάσεις κειμένου είτε πιο προηγμένες λειτουργίες χρησιμοποιώντας κανονικές εκφράσεις, χειρισμούς πεδίων ή προσαρμοσμένους αξιολογητές, το Aspose.Words για Java σας καλύπτει. Φροντίστε να εξερευνήσετε την εκτενή τεκμηρίωση και τα παραδείγματα που παρέχονται από το Aspose για να αξιοποιήσετε πλήρως τις δυνατότητες αυτής της ισχυρής βιβλιοθήκης Java.
+- **HTML not rendering correctly** – Βεβαιωθείτε ότι το HTML είναι καλά δομημένο και περιλαμβάνει τις απαιτούμενες ετικέτες (π.χ., `<p>`, `<table>`).  
+- **Regex not matching** – Θυμηθείτε να διαφύγετε τους ειδικούς χαρακτήρες και να χρησιμοποιήσετε `Pattern.CASE_INSENSITIVE` αν χρειάζεται.  
+- **Fields being replaced unintentionally** – Ορίστε `options.setIgnoreFields(true)` για να τα προστατεύσετε.  
+- **Performance on large documents** – Χρησιμοποιήστε `UseLegacyOrder` ή επεξεργαστείτε τις ενότητες ξεχωριστά για να μειώσετε το αποτύπωμα μνήμης.  
 
-## Συχνές ερωτήσεις
+## Frequently Asked Questions
 
-### Πώς μπορώ να κατεβάσω το Aspose.Words για Java;
+**Ε: Πώς μπορώ να κατεβάσω το Aspose.Words for Java;**  
+Α: Μπορείτε να κατεβάσετε το Aspose.Words for Java από την ιστοσελίδα επισκεπτόμενοι [αυτόν τον σύνδεσμο](https://releases.aspose.com/words/java/).
 
-Μπορείτε να κατεβάσετε το Aspose.Words για Java από τον ιστότοπο, μεταβαίνοντας στη διεύθυνση [αυτός ο σύνδεσμος](https://releases.aspose.com/words/java/).
+**Ε: Μπορώ να χρησιμοποιήσω regular expressions για αντικατάσταση κειμένου;**  
+Α: Ναι, μπορείτε να χρησιμοποιήσετε regular expressions για αντικατάσταση κειμένου στο Aspose.Words for Java. Αυτό σας επιτρέπει να εκτελείτε πιο προχωρημένες και ευέλικτες λειτουργίες εύρεσης και αντικατάστασης.
 
-### Μπορώ να χρησιμοποιήσω κανονικές εκφράσεις για αντικατάσταση κειμένου;
+**Ε: Πώς μπορώ να αγνοήσω το κείμενο μέσα σε fields κατά την αντικατάσταση;**  
+Α: Ορίστε την ιδιότητα `IgnoreFields` του `FindReplaceOptions` σε `true`. Αυτό εξαιρεί το περιεχόμενο των fields, όπως τα merge fields, από την αντικατάσταση.
 
-Ναι, μπορείτε να χρησιμοποιήσετε κανονικές εκφράσεις για την αντικατάσταση κειμένου στο Aspose.Words για Java. Αυτό σας επιτρέπει να εκτελείτε πιο προηγμένες και ευέλικτες λειτουργίες εύρεσης και αντικατάστασης.
+**Ε: Είναι δυνατόν να αντικαταστήσω κείμενο μέσα σε headers και footers;**  
+Α: Απόλυτα. Πρόσβαση στο επιθυμητό header ή footer μέσω `HeaderFooterCollection` και εφαρμογή της μεθόδου `replace` με τις κατάλληλες επιλογές.
 
-### Πώς μπορώ να αγνοήσω κείμενο μέσα σε πεδία κατά την αντικατάσταση;
+**Ε: Τι κάνει η επιλογή `UseLegacyOrder`;**  
+Α: `UseLegacyOrder` αναγκάζει τη μηχανή find/replace να διασχίζει τους κόμβους με την αρχική σειρά που χρησιμοποιούσαν οι παλαιότερες εκδόσεις του Aspose.Words, κάτι που μπορεί να είναι χρήσιμο για συμβατότητα με legacy έγγραφα.
 
-Για να αγνοήσετε το κείμενο μέσα στα πεδία κατά την αντικατάσταση, μπορείτε να ορίσετε το `IgnoreFields` ιδιοκτησία του `FindReplaceOptions` να `true`Αυτό διασφαλίζει ότι το κείμενο εντός πεδίων, όπως τα πεδία συγχώνευσης, εξαιρείται από την αντικατάσταση.
-
-### Μπορώ να αντικαταστήσω κείμενο μέσα σε κεφαλίδες και υποσέλιδα;
-
-Ναι, μπορείτε να αντικαταστήσετε κείμενο μέσα σε κεφαλίδες και υποσέλιδα του εγγράφου του Word. Απλώς αποκτήστε πρόσβαση στην κατάλληλη κεφαλίδα ή υποσέλιδο και χρησιμοποιήστε το `replace` μέθοδος με την επιθυμητή `FindReplaceOptions`.
-
-### Σε τι χρησιμεύει η επιλογή UseLegacyOrder;
-
-Ο `UseLegacyOrder` επιλογή σε `FindReplaceOptions` σας επιτρέπει να χρησιμοποιείτε παλαιά σειρά κατά την εκτέλεση λειτουργιών εύρεσης και αντικατάστασης. Αυτό μπορεί να είναι χρήσιμο σε ορισμένα σενάρια όπου επιθυμείτε συμπεριφορά παλαιάς σειράς.
-
+**Τελευταία ενημέρωση:** 2026-01-03  
+**Δοκιμάστηκε με:** Aspose.Words for Java 24.12  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

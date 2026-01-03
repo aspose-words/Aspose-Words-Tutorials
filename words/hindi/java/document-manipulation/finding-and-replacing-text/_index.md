@@ -1,10 +1,13 @@
 ---
-"description": "Java के लिए Aspose.Words के साथ Word दस्तावेज़ों में टेक्स्ट ढूँढ़ना और बदलना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। अपने Java दस्तावेज़ हेरफेर कौशल को बढ़ाएँ।"
-"linktitle": "पाठ ढूँढना और बदलना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "जावा के लिए Aspose.Words में टेक्स्ट ढूँढना और बदलना"
-"url": "/hi/java/document-manipulation/finding-and-replacing-text/"
-"weight": 15
+date: 2026-01-03
+description: Aspose.Words for Java का उपयोग करके Word दस्तावेज़ों में टेक्स्ट को HTML
+  से कैसे बदलें, सीखें। कोड उदाहरणों, regex टेक्स्ट बदलने के Java टिप्स और अधिक के
+  साथ चरण‑दर‑चरण गाइड।
+linktitle: Finding and Replacing Text
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java का उपयोग करके टेक्स्ट को HTML से बदलें
+url: /hi/java/document-manipulation/finding-and-replacing-text/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,365 +16,351 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.Words में टेक्स्ट ढूँढना और बदलना
+# Aspose.Words for Java में टेक्स्ट को HTML से बदलें
 
+## Aspose.Words for Java में टेक्स्ट खोजने और बदलने का परिचय
 
-## जावा के लिए Aspose.Words में टेक्स्ट ढूँढने और बदलने का परिचय
+Aspose.Words for Java एक शक्तिशाली Java API है जो आपको प्रोग्रामेटिक रूप से Word दस्तावेज़ों को संशोधित करने की अनुमति देता है। सबसे सामान्य कार्यों में से एक **replace text with html** है, चाहे आप टेम्पलेट में प्लेसहोल्डर अपडेट कर रहे हों, स्टाइल्ड कंटेंट इन्जेक्ट कर रहे हों, या बड़े पैमाने पर टेक्स्ट ट्रांसफ़ॉर्मेशन कर रहे हों। इस गाइड में हम टेक्स्ट को कैसे बदलें, regex replace text java का उपयोग कैसे करें, और हेडर में टेक्स्ट को कैसे बदलें, यह सब देखेंगे—और साथ ही आपका कोड साफ़ और प्रभावी रहेगा।
 
-Aspose.Words for Java एक शक्तिशाली Java API है जो आपको Word दस्तावेज़ों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है। Word दस्तावेज़ों से निपटने के दौरान सबसे आम काम टेक्स्ट को ढूँढना और बदलना है। चाहे आपको टेम्प्लेट में प्लेसहोल्डर अपडेट करने की ज़रूरत हो या ज़्यादा जटिल टेक्स्ट मैनिपुलेशन करने की, Aspose.Words for Java आपके लक्ष्यों को कुशलतापूर्वक हासिल करने में आपकी मदद कर सकता है।
+## त्वरित उत्तर
+- **replace text with html** करने की मुख्य विधि क्या है? Use `FindReplaceOptions` with a custom callback such as `ReplaceWithHtmlEvaluator`.  
+- **Can I ignore fields while replacing?** Yes – set `options.setIgnoreFields(true)`.  
+- **Do I need a license for production use?** A valid Aspose.Words license is required for commercial deployments.  
+- **Which Java version is supported?** Aspose.Words for Java works with Java 8 and higher.  
+- **Is regex replace text java supported?** Absolutely – pass a `Pattern` object to the `replace` method.
 
-## आवश्यक शर्तें
+## “replace text with html” क्या है?
 
-इससे पहले कि हम टेक्स्ट ढूंढने और बदलने के विवरण में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+replace text with html का अर्थ है एक साधारण‑टेक्स्ट प्लेसहोल्डर को समृद्ध HTML मार्कअप (टेबल, लिस्ट, स्टाइलिंग) से बदलना, जबकि Word दस्तावेज़ की मौजूदा संरचना बनी रहती है। Aspose.Words HTML को पार्स करता है और संबंधित Word ऑब्जेक्ट्स डालता है, जिससे आपको अंतिम लेआउट पर पूर्ण नियंत्रण मिलता है।
 
-- जावा विकास पर्यावरण
-- Aspose.Words जावा लाइब्रेरी के लिए
-- काम करने के लिए एक नमूना Word दस्तावेज़
+## इस कार्य के लिए Aspose.Words क्यों उपयोग करें?
 
-आप Aspose.Words for Java लाइब्रेरी को यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
+- **Full Word fidelity** – लाइब्रेरी सभी फ़ॉर्मेटिंग, हेडर, फुटर, और ट्रैक्ड चेंजेज़ को बरकरार रखती है।  
+- **Built‑in regex support** – जटिल सर्च पैटर्न (`regex replace text java`) के लिए आदर्श।  
+- **Fine‑grained control** – `IgnoreFields`, `IgnoreDeleted`, और `UseLegacyOrder` जैसी विकल्पों से आप ऑपरेशन को अपनी जरूरतों के अनुसार कस्टमाइज़ कर सकते हैं।  
+- **Cross‑platform** – वह सभी OS पर काम करता है जहाँ Java चलती है।
 
-## सरल पाठ ढूँढना और प्रतिस्थापित करना
+## पूर्वापेक्षाएँ
+
+- Java विकास वातावरण (JDK 8+)  
+- Aspose.Words for Java लाइब्रेरी – इसे [here](https://releases.aspose.com/words/java/) से डाउनलोड करें।  
+- प्रयोग के लिए एक नमूना Word दस्तावेज़ (`.docx`)।
+
+## सरल टेक्स्ट खोजना और बदलना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// एक दस्तावेज़ बिल्डर बनाएँ
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// पाठ ढूंढें और बदलें
+// Find and replace text
 builder.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम एक वर्ड दस्तावेज़ लोड करते हैं, एक बनाते हैं `DocumentBuilder`, और का उपयोग करें `replace` दस्तावेज़ के भीतर "पुराने-पाठ" को "नए-पाठ" के साथ खोजने और बदलने की विधि।
+यह बुनियादी उदाहरण `replace` मेथड का उपयोग करके **how to replace text** दिखाता है। यह अधिक उन्नत परिदृश्यों की नींव है।
 
-## नियमित अभिव्यक्तियों का उपयोग करना
-
-नियमित अभिव्यक्तियाँ पाठ खोज और प्रतिस्थापन के लिए शक्तिशाली पैटर्न मिलान क्षमताएँ प्रदान करती हैं। Aspose.Words for Java अधिक उन्नत खोज और प्रतिस्थापन संचालन के लिए नियमित अभिव्यक्तियों का समर्थन करता है।
+## रेगुलर एक्सप्रेशन का उपयोग (regex replace text java)
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// एक दस्तावेज़ बिल्डर बनाएँ
+// Create a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// टेक्स्ट ढूंढने और बदलने के लिए नियमित अभिव्यक्तियों का उपयोग करें
+// Use regular expressions for finding and replacing text
 Pattern regex = Pattern.compile("your-pattern");
 builder.getRange().replace(regex, "replacement-text", new FindReplaceOptions());
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम दस्तावेज़ के भीतर पाठ खोजने और बदलने के लिए नियमित अभिव्यक्ति पैटर्न का उपयोग करते हैं।
+रेगुलर एक्सप्रेशन आपको शक्तिशाली पैटर्न मैचिंग प्रदान करता है, जो डायनामिक प्लेसहोल्डर या जटिल शब्द सीमाओं के लिए आदर्श है।
 
-## फ़ील्ड के अंदर पाठ को अनदेखा करना
-
-आप खोज और प्रतिस्थापन संचालन करते समय फ़ील्ड के अंदर के पाठ को अनदेखा करने के लिए Aspose.Words को कॉन्फ़िगर कर सकते हैं।
+## फ़ील्ड्स के भीतर टेक्स्ट को अनदेखा करना (aspose words replace text)
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और IgnoreFields को true पर सेट करें
+// Create a FindReplaceOptions instance and set IgnoreFields to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreFields(true);
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह तब उपयोगी होता है जब आप फ़ील्ड के अंदर के टेक्स्ट को, जैसे मर्ज फ़ील्ड, प्रतिस्थापित होने से बचाना चाहते हैं।
+`IgnoreFields` सेट करके आप मर्ज फ़ील्ड्स, पेज नंबर, या अन्य फ़ील्ड कोड को अनछुआ रख सकते हैं जबकि आप आसपास का कंटेंट बदलते हैं।
 
-## संशोधन हटाएँ के अंदर पाठ को अनदेखा करना
-
-आप खोज और प्रतिस्थापन कार्यों के दौरान हटाए गए संशोधनों के अंदर पाठ को अनदेखा करने के लिए Aspose.Words को कॉन्फ़िगर कर सकते हैं।
+## डिलीट रिवीजन के भीतर टेक्स्ट को अनदेखा करना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और IgnoreDeleted को true पर सेट करें
+// Create a FindReplaceOptions instance and set IgnoreDeleted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreDeleted(true);
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको ट्रैक किए गए परिवर्तनों में हटाए जाने के लिए चिह्नित पाठ को प्रतिस्थापित किए जाने से बाहर रखने की अनुमति देता है।
+यह ट्रैक्ड चेंजेज़ में हटाए गए टेक्स्ट को बदलने से रोकता है।
 
-## सम्मिलित संशोधनों के अंदर पाठ को अनदेखा करना
-
-आप खोज और प्रतिस्थापन कार्यों के दौरान सम्मिलित संशोधनों के अंदर पाठ को अनदेखा करने के लिए Aspose.Words को कॉन्फ़िगर कर सकते हैं।
+## इन्सर्ट रिवीजन के भीतर टेक्स्ट को अनदेखा करना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और IgnoreInserted को true पर सेट करें
+// Create a FindReplaceOptions instance and set IgnoreInserted to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setIgnoreInserted(true);
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-text", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको ट्रैक किए गए परिवर्तनों में सम्मिलित के रूप में चिह्नित पाठ को प्रतिस्थापित होने से बाहर करने की अनुमति देता है।
+बड़े पैमाने पर बदलते समय नई इन्सर्टेड टेक्स्ट को बरकरार रखने के लिए उपयोगी।
 
 ## टेक्स्ट को HTML से बदलना
 
-आप टेक्स्ट को HTML सामग्री से बदलने के लिए Java के लिए Aspose.Words का उपयोग कर सकते हैं।
-
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// कस्टम रिप्लेसिंग कॉलबैक के साथ FindReplaceOptions इंस्टेंस बनाएं
+// Create a FindReplaceOptions instance with a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceWithHtmlEvaluator(options));
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace("text-to-replace", "new-html-content", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम एक कस्टम का उपयोग करते हैं `ReplaceWithHtmlEvaluator` पाठ को HTML सामग्री से बदलने के लिए.
+यहाँ हम **replace text with html** को एक कस्टम इवैल्युएटर द्वारा HTML स्ट्रिंग को पार्स करके और उपयुक्त Word नोड्स डालकर लागू करते हैं।
 
-## हेडर और फूटर में टेक्स्ट बदलना
-
-आप अपने वर्ड दस्तावेज़ के शीर्षलेखों और पादलेखों में पाठ ढूंढ और बदल सकते हैं।
+## हेडर और फुटर में टेक्स्ट बदलना (replace text in headers)
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// शीर्षलेखों और पादलेखों का संग्रह प्राप्त करें
+// Get the collection of headers and footers
 HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
 
-// वह शीर्षलेख या पादलेख प्रकार चुनें जिसमें आप पाठ बदलना चाहते हैं (उदाहरण के लिए, HeaderFooterType.FOOTER_PRIMARY)
+// Choose the header or footer type you want to replace text in (e.g., HeaderFooterType.FOOTER_PRIMARY)
 HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
 
-// FindReplaceOptions इंस्टैंस बनाएं और उसे फ़ुटर की रेंज पर लागू करें
+// Create a FindReplaceOptions instance and apply it to the footer's range
 FindReplaceOptions options = new FindReplaceOptions();
 footer.getRange().replace("text-to-replace", "new-text", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको विशेष रूप से शीर्षलेखों और पादलेखों में पाठ प्रतिस्थापन करने की अनुमति देता है।
+हेडर या फुटर के भीतर लक्षित बदलाव आपके दस्तावेज़ ब्रांडिंग को सुसंगत रखता है।
 
-## हेडर और फ़ुटर ऑर्डर के लिए परिवर्तन दिखाना
-
-आप अपने दस्तावेज़ में शीर्षलेख और पादलेख क्रम में परिवर्तन दिखाने के लिए Aspose.Words का उपयोग कर सकते हैं।
+## हेडर/फुटर ऑर्डर के लिए बदलाव दिखाना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// पहला भाग प्राप्त करें
+// Get the first section
 Section firstPageSection = doc.getFirstSection();
 
-// FindReplaceOptions इंस्टैंस बनाएं और उसे दस्तावेज़ की श्रेणी पर लागू करें
+// Create a FindReplaceOptions instance and apply it to the document's range
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceLog());
 
-// शीर्षलेख और पादलेख क्रम को प्रभावित करने वाले पाठ को बदलें
+// Replace text that affects header and footer orders
 doc.getRange().replace(Pattern.compile("(header|footer)"), "", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको अपने दस्तावेज़ में शीर्षलेख और पादलेख क्रम से संबंधित परिवर्तनों को देखने की अनुमति देता है।
+यह उदाहरण बदलावों को लॉग करता है, जिससे आप हेडर/फुटर ऑर्डर में किए गए संशोधनों का ऑडिट कर सकते हैं।
 
-## टेक्स्ट को फ़ील्ड से बदलना
-
-आप Java के लिए Aspose.Words का उपयोग करके टेक्स्ट को फ़ील्ड से बदल सकते हैं।
+## फ़ील्ड्स के साथ टेक्स्ट बदलना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और फ़ील्ड के लिए कस्टम रिप्लेसिंग कॉलबैक सेट करें
+// Create a FindReplaceOptions instance and set a custom replacing callback for fields
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new ReplaceTextWithFieldHandler(FieldType.FIELD_MERGE_FIELD));
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("PlaceHolder(\\d+)"), "", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम टेक्स्ट को फ़ील्ड से बदलते हैं और फ़ील्ड प्रकार निर्दिष्ट करते हैं (उदाहरण के लिए, `FieldType.FIELD_MERGE_FIELD`).
+फ़ील्ड्स (जैसे मर्ज फ़ील्ड) को इन्जेक्ट करने से आप डायनामिक दस्तावेज़ बना सकते हैं जिन्हें बाद में पॉप्युलेट किया जा सकता है।
 
-## मूल्यांकनकर्ता के साथ प्रतिस्थापित करना
-
-आप प्रतिस्थापन पाठ को गतिशील रूप से निर्धारित करने के लिए कस्टम मूल्यांकनकर्ता का उपयोग कर सकते हैं।
+## इवैल्युएटर के साथ बदलना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और कस्टम रिप्लेसिंग कॉलबैक सेट करें
+// Create a FindReplaceOptions instance and set a custom replacing callback
 FindReplaceOptions options = new FindReplaceOptions();
 options.setReplacingCallback(new MyReplaceEvaluator());
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम एक कस्टम मूल्यांकनकर्ता (`MyReplaceEvaluator`) का प्रयोग करें.
+कस्टम इवैल्युएटर आपको बदलने वाले टेक्स्ट पर पूर्ण प्रोग्रामेटिक नियंत्रण देता है।
 
-## रेगेक्स से प्रतिस्थापित करना
-
-Java के लिए Aspose.Words आपको नियमित अभिव्यक्तियों का उपयोग करके पाठ को प्रतिस्थापित करने की अनुमति देता है।
+## रेगुलर एक्सप्रेशन के साथ बदलना (regex replace text java)
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// टेक्स्ट ढूंढने और बदलने के लिए नियमित अभिव्यक्तियों का उपयोग करें
+// Use regular expressions for finding and replacing text
 doc.getRange().replace(Pattern.compile("[s|m]ad"), "bad", new FindReplaceOptions());
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम दस्तावेज़ के भीतर पाठ खोजने और बदलने के लिए नियमित अभिव्यक्ति पैटर्न का उपयोग करते हैं।
+पूरा दस्तावेज़ में पैटर्न‑आधारित बदलाव करने का संक्षिप्त तरीका।
 
-## प्रतिस्थापन पैटर्न के भीतर प्रतिस्थापन को पहचानना
-
-आप Java के लिए Aspose.Words का उपयोग करके प्रतिस्थापन पैटर्न को पहचान सकते हैं और उनमें प्रतिस्थापन कर सकते हैं।
+## रिप्लेसमेंट पैटर्न में सब्स्टिट्यूशन और पहचान
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// UseSubstitutions को true पर सेट करके FindReplaceOptions इंस्टेंस बनाएं
+// Create a FindReplaceOptions instance with UseSubstitutions set to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseSubstitutions(true);
 
-// टेक्स्ट को पैटर्न से बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text with a pattern
 doc.getRange().replace(Pattern.compile("([A-z]+) give money to ([A-z]+)"), "$2 take money from $1", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको अधिक उन्नत प्रतिस्थापन के लिए प्रतिस्थापन पैटर्न के भीतर प्रतिस्थापन करने की अनुमति देता है।
+`UseSubstitutions` को सक्षम करके आप कैप्चर ग्रुप्स को सीधे रिप्लेसमेंट स्ट्रिंग में रेफ़र कर सकते हैं।
 
-## स्ट्रिंग से प्रतिस्थापित करना
-
-आप Java के लिए Aspose.Words का उपयोग करके टेक्स्ट को सरल स्ट्रिंग से बदल सकते हैं।
+## स्ट्रिंग के साथ बदलना (replace text word java)
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// टेक्स्ट को स्ट्रिंग से बदलें
+// Replace text with a string
 doc.getRange().replace("text-to-replace", "new-string", new FindReplaceOptions());
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-इस उदाहरण में, हम दस्तावेज़ के भीतर "text-to-replace" को "new-string" से प्रतिस्थापित करते हैं।
+सबसे सरल रूप का बदलाव—स्थिर प्लेसहोल्डर के लिए उपयुक्त।
 
-## लीगेसी ऑर्डर का उपयोग करना
-
-आप खोज और प्रतिस्थापन संक्रियाएँ करते समय विरासत क्रम का उपयोग कर सकते हैं।
+## लेगेसी ऑर्डर का उपयोग
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// FindReplaceOptions इंस्टेंस बनाएं और UseLegacyOrder को true पर सेट करें
+// Create a FindReplaceOptions instance and set UseLegacyOrder to true
 FindReplaceOptions options = new FindReplaceOptions();
 options.setUseLegacyOrder(true);
 
-// टेक्स्ट बदलते समय विकल्पों का उपयोग करें
+// Use options when replacing text
 doc.getRange().replace(Pattern.compile("\\[(.*?)\\]"), "", options);
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको खोजने और बदलने के कार्यों के लिए विरासत क्रम का उपयोग करने की अनुमति देता है।
+पुराने दस्तावेज़ों में मूल ट्रैवर्सल क्रम पर निर्भरता होने पर लेगेसी ऑर्डर आवश्यक हो सकता है।
 
-## तालिका में पाठ बदलना
-
-आप अपने वर्ड दस्तावेज़ में तालिकाओं के भीतर पाठ ढूंढ और प्रतिस्थापित कर सकते हैं।
+## टेबल में टेक्स्ट बदलना
 
 ```java
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("your-document.docx");
 
-// एक विशिष्ट तालिका प्राप्त करें (उदाहरणार्थ, पहली तालिका)
+// Get a specific table (e.g., the first table)
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 
-// तालिका में पाठ बदलने के लिए FindReplaceOptions का उपयोग करें
+// Use FindReplaceOptions for replacing text in the table
 table.getRange().replace("old-text", "new-text", new FindReplaceOptions());
 
-// संशोधित दस्तावेज़ सहेजें
+// Save the modified document
 doc.save("modified-document.docx");
 ```
 
-यह आपको विशेष रूप से तालिकाओं के भीतर पाठ प्रतिस्थापन करने की अनुमति देता है।
+टेबल के भीतर लक्षित बदलाव अनजाने में दस्तावेज़ के अन्य हिस्सों को बदलने से बचाते हैं।
 
-## निष्कर्ष
+## सामान्य समस्याएँ और समाधान
 
-Aspose.Words for Java, Word दस्तावेज़ों में टेक्स्ट ढूँढ़ने और बदलने के लिए व्यापक क्षमताएँ प्रदान करता है। चाहे आपको साधारण टेक्स्ट प्रतिस्थापन करने की आवश्यकता हो या नियमित अभिव्यक्तियों, फ़ील्ड मैनिपुलेशन या कस्टम मूल्यांकनकर्ताओं का उपयोग करके अधिक उन्नत संचालन करने की आवश्यकता हो, Aspose.Words for Java आपके लिए है। इस शक्तिशाली Java लाइब्रेरी की पूरी क्षमता का दोहन करने के लिए Aspose द्वारा प्रदान किए गए व्यापक दस्तावेज़ों और उदाहरणों का पता लगाना सुनिश्चित करें।
+- **HTML सही ढंग से रेंडर नहीं हो रहा** – सुनिश्चित करें कि आपका HTML सही‑फ़ॉर्मेटेड है और आवश्यक टैग (जैसे `<p>`, `<table>`) शामिल हैं।  
+- **Regex मैच नहीं कर रहा** – विशेष अक्षरों को एस्केप करना याद रखें और आवश्यक होने पर `Pattern.CASE_INSENSITIVE` का उपयोग करें।  
+- **फ़ील्ड्स अनजाने में बदल रहे हैं** – उन्हें सुरक्षित रखने के लिए `options.setIgnoreFields(true)` सेट करें।  
+- **बड़े दस्तावेज़ों पर प्रदर्शन** – मेमोरी फुटप्रिंट कम करने के लिए `UseLegacyOrder` का उपयोग करें या सेक्शन‑वाइज़ प्रोसेस करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं Java के लिए Aspose.Words कैसे डाउनलोड करूं?
+**प्रश्न: मैं Aspose.Words for Java कैसे डाउनलोड करूँ?**  
+उत्तर: आप वेबसाइट पर जाकर [this link](https://releases.aspose.com/words/java/) से Aspose.Words for Java डाउनलोड कर सकते हैं।
 
-आप वेबसाइट पर जाकर Java के लिए Aspose.Words डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/words/java/).
+**प्रश्न: क्या मैं टेक्स्ट रिप्लेसमेंट के लिए रेगुलर एक्सप्रेशन का उपयोग कर सकता हूँ?**  
+उत्तर: हाँ, आप Aspose.Words for Java में टेक्स्ट रिप्लेसमेंट के लिए रेगुलर एक्सप्रेशन का उपयोग कर सकते हैं। यह आपको अधिक उन्नत और लचीले फ़ाइंड‑एंड‑रिप्लेस ऑपरेशन करने की अनुमति देता है।
 
-### क्या मैं पाठ प्रतिस्थापन के लिए नियमित अभिव्यक्ति का उपयोग कर सकता हूँ?
+**प्रश्न: रिप्लेसमेंट के दौरान फ़ील्ड्स के भीतर टेक्स्ट को कैसे अनदेखा करूँ?**  
+उत्तर: `FindReplaceOptions` की `IgnoreFields` प्रॉपर्टी को `true` सेट करें। इससे मर्ज फ़ील्ड जैसे फ़ील्ड कंटेंट बदलने से बचेंगे।
 
-हां, आप Aspose.Words for Java में टेक्स्ट प्रतिस्थापन के लिए नियमित अभिव्यक्तियों का उपयोग कर सकते हैं। यह आपको अधिक उन्नत और लचीले खोज और प्रतिस्थापन संचालन करने की अनुमति देता है।
+**प्रश्न: क्या हेडर और फुटर के भीतर टेक्स्ट बदलना संभव है?**  
+उत्तर: बिल्कुल। `HeaderFooterCollection` के माध्यम से इच्छित हेडर या फुटर तक पहुँचें और उपयुक्त विकल्पों के साथ `replace` मेथड लागू करें।
 
-### प्रतिस्थापन के दौरान मैं फ़ील्ड के अंदर पाठ को कैसे अनदेखा कर सकता हूं?
+**प्रश्न: `UseLegacyOrder` विकल्प क्या करता है?**  
+उत्तर: `UseLegacyOrder` फ़ाइंड/रिप्लेस इंजन को पुराने संस्करणों द्वारा उपयोग किए गए मूल क्रम में नोड्स को ट्रैवर्स करने के लिए मजबूर करता है, जो लेगेसी दस्तावेज़ों के साथ संगतता के लिए उपयोगी हो सकता है।
 
-प्रतिस्थापन के दौरान फ़ील्ड के अंदर पाठ को अनदेखा करने के लिए, आप सेट कर सकते हैं `IgnoreFields` की संपत्ति `FindReplaceOptions` को `true`यह सुनिश्चित करता है कि फ़ील्ड के भीतर का पाठ, जैसे मर्ज फ़ील्ड, प्रतिस्थापन से बाहर रखा गया है।
+---
 
-### क्या मैं हेडर और फ़ुटर के अंदर पाठ बदल सकता हूँ?
-
-हां, आप अपने वर्ड डॉक्यूमेंट के हेडर और फूटर के अंदर टेक्स्ट को बदल सकते हैं। बस उचित हेडर या फूटर तक पहुंचें और इसका उपयोग करें `replace` वांछित विधि के साथ `FindReplaceOptions`.
-
-### UseLegacyOrder विकल्प किसके लिए है?
-
-The `UseLegacyOrder` विकल्प में `FindReplaceOptions` आपको खोज और प्रतिस्थापन संचालन करते समय विरासत क्रम का उपयोग करने की अनुमति देता है। यह कुछ परिदृश्यों में उपयोगी हो सकता है जहां विरासत क्रम व्यवहार वांछित है।
-
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
